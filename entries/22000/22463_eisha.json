@@ -3,7 +3,7 @@
   "headword": "{映写|えいしゃ}",
   "reading": "えいしゃ",
   "romaji": "eisha",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "projection; screening (of a film)",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {映|えい} (reflect, project) + {写|しゃ} (copy, photograph). Refers to the projection of visual images onto a screen. Can be used as a suru-verb ({映写|えいしゃ}する).\n\nCOMMON COLLOCATIONS:\n- {映写|えいしゃ}する: to project\n- {映写|えいしゃ}{機|き}: projector\n- {映写|えいしゃ}{室|しつ}: projection room / booth\n- {映写|えいしゃ}{技師|ぎし}: projectionist\n\nSIMILAR WORDS:\n- {上映|じょうえい}: screening — more commonly used for movie showings at theaters\n- {投影|とうえい}: projection — broader term also used for mathematical/psychological projection\n- {放映|ほうえい}: broadcasting — projection via television or other broadcast media",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08380_jouei",
+      "reading": "じょうえい",
+      "headword": "{上映|じょうえい}",
+      "label": "screening"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12854_touei",
+      "reading": "とうえい",
+      "headword": "{投影|とうえい}",
+      "label": "projection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12943_houei",
+      "reading": "ほうえい",
+      "headword": "{放映|ほうえい}",
+      "label": "broadcasting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-06T12:14:31Z",
-    "modified": "2026-04-06T12:14:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

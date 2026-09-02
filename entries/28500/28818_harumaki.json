@@ -17,7 +17,9 @@
       "id": "28818_harumaki_ex1",
       "japanese": "{春巻|はるま}きを{揚|あ}げた。",
       "english": "I fried spring rolls.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28818_harumaki_ex2",
       "japanese": "{中華|ちゅうか}{料理|りょうり}{店|てん}で{春巻|はるま}きを{注文|ちゅうもん}した。",
       "english": "I ordered spring rolls at the Chinese restaurant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "28818_harumaki_ex3",
       "japanese": "{皮|かわ}がパリッとした{揚|あ}げたての{春巻|はるま}きが{大好|だいす}きだ。",
       "english": "I love freshly fried spring rolls with crispy skin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {春|はる} (spring) + {巻|ま}き (roll). The name reflects the dish's origin as a way to wrap fresh spring vegetables. In Japan the term almost always refers to the deep-fried Chinese-style roll, not the fresh Vietnamese-style {生|なま}{春巻|はるま}き.\n\nCOMMON COLLOCATIONS:\n- {春巻|はるま}きを{揚|あ}げる: to fry spring rolls\n- {春巻|はるま}きの{皮|かわ}: spring-roll wrappers\n- {生|なま}{春巻|はるま}き: fresh (Vietnamese-style) spring rolls\n- エビ{春巻|はるま}き: shrimp spring rolls\n\nSIMILAR WORDS:\n- {餃子|ぎょうざ}: dumpling — different shape and skin, usually pan-fried or boiled\n- ロールキャベツ: cabbage roll — Western-style, simmered in broth",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08634_gyouza",
+      "reading": "ぎょうざ",
+      "headword": "{餃子|ぎょうざ}",
+      "label": "dumpling"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-06-06T02:07:42Z",
-    "modified": "2026-06-06T02:07:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

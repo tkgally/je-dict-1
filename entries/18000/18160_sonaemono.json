@@ -19,7 +19,9 @@
       "english": "I placed an offering on the Buddhist altar.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18160_sonaemono_ex2",
@@ -27,7 +29,9 @@
       "english": "I took down the fruit offering and then ate it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18160_sonaemono_ex3",
@@ -35,10 +39,12 @@
       "english": "It is a Japanese custom to prepare offerings for the spirits of one's ancestors during Obon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nTypical offerings include fruit, rice, sweets, flowers, and incense. After being offered, food items are often taken down and eaten by the family — this is called {供|そな}え{物|もの}を{下|さ}げる. The word is used for both Buddhist altars ({仏壇|ぶつだん}) and Shinto shrines ({神棚|かみだな}).\n\nCOMMON COLLOCATIONS:\n- {供|そな}え{物|もの}を{供|そな}える (to make an offering)\n- {供|そな}え{物|もの}を{下|さ}げる (to take down an offering)\n- {神|かみ}への{供|そな}え{物|もの} (an offering to the gods)\n\nSIMILAR WORDS:\n- {お{供|そな}え}: the same word with the polite prefix お, commonly used in everyday speech\n- {奉納|ほうのう}: dedication — more formal, refers to dedicating items to a shrine or temple",
+  "notes": "USAGE:\nTypical offerings include fruit, rice, sweets, flowers, and incense. After being offered, food items are often taken down and eaten by the family — this is called {供|そな}え{物|もの}を{下|さ}げる. The word is used for both Buddhist altars ({仏壇|ぶつだん}) and Shinto shrines ({神棚|かみだな}).\n\nCOMMON COLLOCATIONS:\n- {供|そな}え{物|もの}を{供|そな}える (to make an offering)\n- {供|そな}え{物|もの}を{下|さ}げる (to take down an offering)\n- {神|かみ}への{供|そな}え{物|もの} (an offering to the gods)\n\nSIMILAR WORDS:\n- お{供|そな}え: the same word with the polite prefix お, commonly used in everyday speech\n- {奉納|ほうのう}: dedication — more formal, refers to dedicating items to a shrine or temple",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,36 @@
       "reading": "ほうのう",
       "headword": "{奉納|ほうのう}",
       "label": "formal shrine dedication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25860_osonae",
+      "reading": "おそなえ",
+      "headword": "お{供|そな}え",
+      "label": "the same word with the polite prefix…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25522_sasagemono",
+      "reading": "ささげもの",
+      "headword": "{捧|ささ}げ{物|もの}",
+      "label": "offering"
     }
   ],
   "metadata": {
     "created": "2026-03-20T08:54:26Z",
-    "modified": "2026-05-08T06:14:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

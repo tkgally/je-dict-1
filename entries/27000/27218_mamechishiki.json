@@ -17,7 +17,9 @@
       "id": "27218_mamechishiki_ex1",
       "japanese": "{豆知識|まめちしき}を{一|ひと}つ{教|おし}えよう。",
       "english": "Let me tell you a fun fact.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,31 +27,55 @@
       "id": "27218_mamechishiki_ex2",
       "japanese": "この{番組|ばんぐみ}は{生活|せいかつ}に{役立|やくだ}つ{豆知識|まめちしき}が{満載|まんさい}だ。",
       "english": "This program is packed with useful everyday tips.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27218_mamechishiki_ex3",
-      "japanese": "SNSで{料理|りょうり}の{豆知識|まめちしき}を{発信|はっしん}しているアカウントを{フォロー|ふぉろー}している。",
+      "japanese": "SNSで{料理|りょうり}の{豆知識|まめちしき}を{発信|はっしん}しているアカウントをフォローしている。",
       "english": "I follow accounts on social media that post cooking tips.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {豆|まめ} (bean; by extension, small/miniature) + {知識|ちしき} (knowledge). The {豆|まめ} prefix conveys smallness — these are bite-sized pieces of knowledge, not deep expertise. Very common in TV shows, websites, and social media content, often presented as lists of surprising or practical facts.\n\nCOMMON COLLOCATIONS:\n- {豆知識|まめちしき}を{紹介|しょうかい}する: to introduce a fun fact\n- {生活|せいかつ}の{豆知識|まめちしき}: everyday life tips\n- {料理|りょうり}の{豆知識|まめちしき}: cooking tips\n- {豆知識|まめちしき}{コーナー|こーなー}: trivia corner (a segment in a show)\n\nSIMILAR WORDS:\n- {雑学|ざつがく}: trivia; miscellaneous knowledge — broader and often more academic; {豆知識|まめちしき} is more practical and bite-sized\n- トリビア: trivia — the English loanword, often used for quiz-style factoids\n- {裏技|うらわざ}: hidden trick; life hack — focuses on clever techniques rather than knowledge",
+  "notes": "Composed of {豆|まめ} (bean; by extension, small/miniature) + {知識|ちしき} (knowledge). The {豆|まめ} prefix conveys smallness — these are bite-sized pieces of knowledge, not deep expertise. Very common in TV shows, websites, and social media content, often presented as lists of surprising or practical facts.\n\nCOMMON COLLOCATIONS:\n- {豆知識|まめちしき}を{紹介|しょうかい}する: to introduce a fun fact\n- {生活|せいかつ}の{豆知識|まめちしき}: everyday life tips\n- {料理|りょうり}の{豆知識|まめちしき}: cooking tips\n- {豆知識|まめちしき}コーナー: trivia corner (a segment in a show)\n\nSIMILAR WORDS:\n- {雑学|ざつがく}: trivia; miscellaneous knowledge — broader and often more academic; {豆知識|まめちしき} is more practical and bite-sized\n- トリビア: trivia — the English loanword, often used for quiz-style factoids\n- {裏技|うらわざ}: hidden trick; life hack — focuses on clever techniques rather than knowledge",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15019_zatsugaku",
+      "reading": "ざつがく",
+      "headword": "{雑学|ざつがく}",
+      "label": "trivia"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14021_urawaza",
+      "reading": "うらわざ",
+      "headword": "{裏技|うらわざ}",
+      "label": "hidden trick"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"],
+      "semantic": [
+        "education"
+      ],
       "domain": []
     },
     "created": "2026-05-07T16:18:17Z",
-    "modified": "2026-05-07T16:18:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "11563_shingai",
   "headword": "{侵害|しんがい}",
   "reading": "しんがい",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "infringement, violation",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "A formal, legal-register word. The object being violated is marked with を, and the pattern is 〜を{侵害|しんがい}する. Commonly paired with words for rights ({権利|けんり}), territory ({領土|りょうど}), and privacy.\n\nCOMMON COLLOCATIONS:\n・{人権|じんけん}{侵害|しんがい} (human rights violation)\n・{著作権|ちょさくけん}{侵害|しんがい} (copyright infringement)\n・{権利|けんり}{侵害|しんがい} (infringement of rights)\n・{領土|りょうど}{侵害|しんがい} (territorial encroachment)\n・{侵害|しんがい}{行為|こうい} (act of infringement)",
+  "notes": "A formal, legal-register word. The object being violated is marked with を, and the pattern is 〜を{侵害|しんがい}する. Commonly paired with words for rights ({権利|けんり}), territory ({領土|りょうど}), and privacy.\n\nCOMMON COLLOCATIONS:\n- {人権|じんけん}{侵害|しんがい} (human rights violation)\n- {著作権|ちょさくけん}{侵害|しんがい} (copyright infringement)\n- {権利|けんり}{侵害|しんがい} (infringement of rights)\n- {領土|りょうど}{侵害|しんがい} (territorial encroachment)\n- {侵害|しんがい}{行為|こうい} (act of infringement)",
   "prominent_see_also": [
     {
       "target_id": "17759_shingai",
@@ -149,11 +149,32 @@
       "reading": "しんりゃく",
       "headword": "{侵略|しんりゃく}",
       "label": "invasion, aggression"
+    },
+    {
+      "type": "related",
+      "target_id": "19534_okasu",
+      "reading": "おかす",
+      "headword": "{侵|おか}す",
+      "label": "to invade"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24915_juurin",
+      "reading": "じゅうりん",
+      "headword": "{蹂躙|じゅうりん}",
+      "label": "trampling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29663_shinpan",
+      "reading": "しんぱん",
+      "headword": "{侵犯|しんぱん}",
+      "label": "violation"
     }
   ],
   "metadata": {
     "created": "2026-02-17T13:20:28Z",
-    "modified": "2026-07-13T21:19:15Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

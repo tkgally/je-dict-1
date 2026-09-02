@@ -46,6 +46,50 @@
   ],
   "notes": "Literally 'not yet bright' — {未|み} (not yet) + {明|めい} (bright). Most often heard in news and weather reports as a precise time-window for events occurring after midnight but before sunrise.\n\nCOMMON COLLOCATIONS:\n- {今日|きょう}{未明|みめい}: in the early hours of today\n- {未明|みめい}から{明|あ}け{方|がた}にかけて: from predawn through daybreak\n- {未明|みめい}に{発生|はっせい}する: to occur in the predawn hours\n\nSIMILAR WORDS:\n- {明|あ}け{方|がた}: dawn; just before sunrise (slightly later than {未明|みめい})\n- {夜中|よなか}: middle of the night (centered around midnight)\n- {早朝|そうちょう}: early morning (after dawn, while still early)\n- {暁|あかつき}: daybreak (literary)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17595_akegata",
+      "reading": "あけがた",
+      "headword": "{明|あ}け{方|がた}",
+      "label": "dawn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01008_yonaka",
+      "reading": "よなか",
+      "headword": "{夜中|よなか}",
+      "label": "middle of the night"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03109_souchou",
+      "reading": "そうちょう",
+      "headword": "{早朝|そうちょう}",
+      "label": "early morning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10036_akatsuki",
+      "reading": "あかつき",
+      "headword": "{暁|あかつき}",
+      "label": "daybreak"
+    },
+    {
+      "type": "related",
+      "target_id": "05425_mayonaka",
+      "reading": "まよなか",
+      "headword": "{真夜中|まよなか}",
+      "label": "middle of the night"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21392_asagata",
+      "reading": "あさがた",
+      "headword": "{朝方|あさがた}",
+      "label": "early morning"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +97,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ],
       "domain": []
     },
     "created": "2026-05-14T03:14:29Z",
-    "modified": "2026-08-07T15:50:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

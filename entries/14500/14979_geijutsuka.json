@@ -19,7 +19,9 @@
       "english": "She is a famous artist.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14979_geijutsuka_ex2",
@@ -27,7 +29,9 @@
       "english": "There is a system to support young artists.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14979_geijutsuka_ex3",
@@ -35,21 +39,78 @@
       "english": "He said that for an artist, free creative thinking is more important than anything else.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of {芸術|げいじゅつ} (art, fine arts) and {家|か} (professional, -ist). Refers to someone who seriously practices the arts as a calling.\n\nSIMILAR WORDS:\n- アーティスト is the loanword equivalent, used more broadly and casually\n- {画家|がか} specifically means painter\n- {彫刻家|ちょうこくか} specifically means sculptor\n- {音楽家|おんがくか} specifically means musician\n- {芸術家|げいじゅつか} is the broad umbrella term covering all art forms\n\nSometimes used figuratively to describe someone with artistic temperament or eccentricity: {芸術家|げいじゅつか}{肌|はだ} (having the temperament of an artist).\n\nCOMMON COLLOCATIONS:\n- {芸術家|げいじゅつか}{肌|はだ} (artistic temperament)\n- {現代|げんだい}{芸術家|げいじゅつか} (contemporary artist)\n- {芸術家|げいじゅつか}を{目指|めざ}す (to aspire to be an artist)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10712_aatisuto",
+      "reading": "あーてぃすと",
+      "headword": "アーティスト",
+      "label": "is the loanword equivalent, used more…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02583_gaka",
+      "reading": "がか",
+      "headword": "{画家|がか}",
+      "label": "specifically means painter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07092_choukokuka",
+      "reading": "ちょうこくか",
+      "headword": "{彫刻家|ちょうこくか}",
+      "label": "specifically means sculptor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27511_ongakuka",
+      "reading": "おんがくか",
+      "headword": "{音楽家|おんがくか}",
+      "label": "specifically means musician"
+    },
+    {
+      "type": "related",
+      "target_id": "03084_seijika",
+      "reading": "せいじか",
+      "headword": "{政治家|せいじか}",
+      "label": "politician, statesman"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20976_bijutsuka",
+      "reading": "びじゅつか",
+      "headword": "{美術家|びじゅつか}",
+      "label": "artist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28010_ekaki",
+      "reading": "えかき",
+      "headword": "絵描き",
+      "label": "painter"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T08:06:36Z",
-    "modified": "2026-03-04T08:06:36Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "occupation"]
+      "semantic": [
+        "person",
+        "occupation"
+      ]
     }
   }
 }

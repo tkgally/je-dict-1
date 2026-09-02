@@ -2,7 +2,7 @@
   "id": "18047_nagurigaki",
   "headword": "{殴|なぐ}り{書|が}き",
   "reading": "なぐりがき",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "scribbling; scrawl; hasty writing",
   "conjugation": {
     "type": "suru",
@@ -133,8 +133,31 @@
       "notes": null
     }
   ],
-  "notes": "Writing done quickly and carelessly, resulting in messy, hard-to-read text.\n\nETYMOLOGY:\n{殴|なぐ}る (to hit/punch) + {書|か}き (writing). The vivid image is of striking the paper with a pen rather than carefully forming characters.\n\nGRAMMAR:\nFunctions as both a noun and a する verb:\n- {殴|なぐ}り{書|が}きのメモ: a scrawled memo (noun)\n- メモを{殴|なぐ}り{書|が}きする: to scribble a memo (verb)\n\nUSAGE:\nOften slightly self-deprecating or humorous. Used when jotting something down in a hurry without caring about neatness. Not typically used to criticize someone else's handwriting directly — for that, {字|じ}が{汚|きたな}い (messy handwriting) is more common.\n\nRELATED:\n- {走|はし}り{書|が}き: hasty writing (similar meaning, less vivid)\n- {落書|らくが}き: doodling, graffiti (different — drawing rather than writing)",
+  "notes": "Writing done quickly and carelessly, resulting in messy, hard-to-read text.\n\nETYMOLOGY:\n{殴|なぐ}る (to hit/punch) + {書|か}き (writing). The vivid image is of striking the paper with a pen rather than carefully forming characters.\n\nCOMMON PATTERNS:\nFunctions as both a noun and a する verb:\n- {殴|なぐ}り{書|が}きのメモ: a scrawled memo (noun)\n- メモを{殴|なぐ}り{書|が}きする: to scribble a memo (verb)\n\nUSAGE:\nOften slightly self-deprecating or humorous. Used when jotting something down in a hurry without caring about neatness. Not typically used to criticize someone else's handwriting directly — for that, {字|じ}が{汚|きたな}い (messy handwriting) is more common.\n\nRELATED WORDS:\n- {走|はし}り{書|が}き: hasty writing (similar meaning, less vivid)\n- {落書|らくが}き: doodling, graffiti (different — drawing rather than writing)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "25864_hashirigaki",
+      "reading": "はしりがき",
+      "headword": "{走|はし}り{書|が}き",
+      "label": "hasty writing"
+    },
+    {
+      "type": "related",
+      "target_id": "14043_rakugaki",
+      "reading": "らくがき",
+      "headword": "{落書|らくが}き",
+      "label": "doodling, graffiti (different"
+    },
+    {
+      "type": "related",
+      "target_id": "08253_kakinaguru",
+      "reading": "かきなぐる",
+      "headword": "{書|か}き{殴|なぐ}る",
+      "label": "to scribble"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -150,6 +173,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-19T12:22:20Z",
-    "modified": "2026-03-25T12:24:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

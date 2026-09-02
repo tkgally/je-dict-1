@@ -17,7 +17,9 @@
       "id": "19556_jijikokkoku_ex1",
       "japanese": "{状況|じょうきょう}は{時々刻々|じじこっこく}と{変|か}わっている。",
       "english": "The situation is changing moment by moment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19556_jijikokkoku_ex2",
       "japanese": "{台風|たいふう}の{進路|しんろ}が{時々刻々|じじこっこく}と{伝|つた}えられた。",
       "english": "The typhoon's path was reported moment by moment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "19556_jijikokkoku_ex3",
       "japanese": "ニュースサイトでは、{選挙|せんきょ}{結果|けっか}が{時々刻々|じじこっこく}と{更新|こうしん}されていた。",
       "english": "On the news website, the election results were being updated moment by moment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A four-character compound ({四字熟語|よじじゅくご}) that repeats {時|じ} (time) and {刻|こく} (moment) to emphasize continuous, ongoing change. It has a literary, slightly formal tone and is especially common in news and written language.\n\nUSAGE:\nAlmost always followed by the particle と: {時々刻々|じじこっこく}と{変|か}わる. The most common verb partner is {変|か}わる (to change). Note that this is different from {時々|ときどき} (sometimes), despite sharing the same kanji.\n\nCOMMON COLLOCATIONS:\n- {時々刻々|じじこっこく}と{変|か}わる — to change moment by moment\n- {時々刻々|じじこっこく}と{変化|へんか}する — to change continuously\n- {時々刻々|じじこっこく}と{迫|せま}る — to approach moment by moment\n\nSIMILAR WORDS:\n- {刻一刻|こくいっこく}と — moment by moment; very similar meaning, slightly more common\n- {次第|しだい}に — gradually; implies a slower, more gradual change\n- {日|ひ}に{日|ひ}に — day by day; a larger time scale",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05531_shidaini",
+      "reading": "しだいに",
+      "headword": "{次第|しだい}に",
+      "label": "gradually"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25949_kokkokuto",
+      "reading": "こっこくと",
+      "headword": "{刻々|こっこく}と",
+      "label": "moment by moment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-general", "change"]
+      "semantic": [
+        "time-general",
+        "change"
+      ]
     },
     "created": "2026-03-26T05:13:47Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

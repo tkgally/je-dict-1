@@ -56,15 +56,38 @@
     }
   ],
   "notes": "{全|ぜん} (all, complete) + {数|すう} (number, count). Emphasizes that every single item is included, not just a sample or subset.\n\nCOMMON COLLOCATIONS:\n- {全数|ぜんすう}{検査|けんさ}: 100% inspection (inspecting every item, not sampling)\n- {全数|ぜんすう}{調査|ちょうさ}: complete survey, census\n- {全数|ぜんすう}{回収|かいしゅう}: total recall (of products)\n- {全数|ぜんすう}{把握|はあく}: complete count/tracking\n\nSIMILAR WORDS:\n- {総数|そうすう}: total number, grand total — the sum of all items counted; focuses on the resulting number rather than completeness\n- {全部|ぜんぶ}: all, everything — everyday word for \"all\"; less formal and technical\n- {全体|ぜんたい}: the whole, entirety — refers to the whole as a unit rather than counting individual items\n\nUSAGE:\nPrimarily used in manufacturing, quality control, public health reporting, and statistical contexts. {全数|ぜんすう}{検査|けんさ} (inspecting every item) is contrasted with {抜|ぬ}き{取|と}り{検査|けんさ} (sampling inspection) in quality management.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20724_sousuu",
+      "reading": "そうすう",
+      "headword": "{総数|そうすう}",
+      "label": "total number, grand total"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02888_zenbu",
+      "reading": "ぜんぶ",
+      "headword": "{全部|ぜんぶ}",
+      "label": "all, everything"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03314_zentai",
+      "reading": "ぜんたい",
+      "headword": "{全体|ぜんたい}",
+      "label": "the whole, entirety"
+    }
+  ],
   "metadata": {
     "created": "2026-04-18T09:14:36Z",
-    "modified": "2026-04-18T09:14:36Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "quantity",
         "business"

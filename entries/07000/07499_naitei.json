@@ -2,7 +2,7 @@
   "id": "07499_naitei",
   "headword": "{内定|ないてい}",
   "reading": "ないてい",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "unofficial job offer; informal decision",
   "conjugation": {
     "type": "suru",
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{内|ない} (internal, unofficial) + {定|てい} (fixed, decided)\n\nLiterally \"internally decided\" - a decision made but not yet officially announced.\n\nJAPANESE JOB HUNTING CONTEXT:\nIn Japan's unique {新卒|しんそつ}{一括|いっかつ}{採用|さいよう} (mass hiring of new graduates) system:\n1. Students job hunt in their final year\n2. Companies give {内定|ないてい} (usually by Oct 1)\n3. Students graduate\n4. Officially start work on April 1\n\nKEY DATES:\n・{内定|ないてい}{解禁|かいきん} - when companies can officially give offers (Oct 1)\n・{内定式|ないていしき} - informal ceremony for future employees\n\nCOMMON EXPRESSIONS:\n・{内定|ないてい}をもらう/{得|え}る - to receive an offer\n・{内定|ないてい}が{出|で}る - an offer comes through\n・{内定|ないてい}を{辞退|じたい}する - to decline an offer\n・{内定|ないてい}{取|と}り{消|け}し - rescinding an offer\n・{内定者|ないていしゃ} - person who has received an offer\n\nIMPORTANT NOTE:\n{内定|ないてい} is generally treated as binding in Japanese business culture, though legally it is not a formal contract until the official hiring date.",
+  "notes": "ETYMOLOGY:\n{内|ない} (internal, unofficial) + {定|てい} (fixed, decided)\n\nLiterally \"internally decided\" - a decision made but not yet officially announced.\n\nJAPANESE JOB HUNTING CONTEXT:\nIn Japan's unique {新卒|しんそつ}{一括|いっかつ}{採用|さいよう} (mass hiring of new graduates) system:\n1. Students job hunt in their final year\n2. Companies give {内定|ないてい} (usually by Oct 1)\n3. Students graduate\n4. Officially start work on April 1\n\nKEY DATES:\n- {内定|ないてい}{解禁|かいきん} - when companies can officially give offers (Oct 1)\n- {内定式|ないていしき} - informal ceremony for future employees\n\nCOMMON EXPRESSIONS:\n- {内定|ないてい}をもらう/{得|え}る - to receive an offer\n- {内定|ないてい}が{出|で}る - an offer comes through\n- {内定|ないてい}を{辞退|じたい}する - to decline an offer\n- {内定|ないてい}{取|と}り{消|け}し - rescinding an offer\n- {内定者|ないていしゃ} - person who has received an offer\n\nIMPORTANT NOTE:\n{内定|ないてい} is generally treated as binding in Japanese business culture, though legally it is not a formal contract until the official hiring date.",
   "cross_references": [
     {
       "type": "related",
@@ -145,11 +145,18 @@
       "headword": "{採用|さいよう}",
       "label": "hiring",
       "target_id": "04563_saiyou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26479_karisaiyou",
+      "reading": "かりさいよう",
+      "headword": "{仮採用|かりさいよう}",
+      "label": "provisional hiring"
     }
   ],
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-08-10T18:29:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -158,6 +165,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "work",
         "business"

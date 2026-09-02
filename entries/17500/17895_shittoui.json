@@ -19,7 +19,9 @@
       "english": "Who is the operating surgeon?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17895_shittoui_ex2",
@@ -27,7 +29,9 @@
       "english": "An experienced surgeon performed the operation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17895_shittoui_ex3",
@@ -35,7 +39,9 @@
       "english": "The patient's family received an explanation from the lead surgeon before the operation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {執刀|しっとう} (holding the scalpel; performing surgery) and {医|い} (doctor). Used in medical contexts and news reports about surgeries.\n\nCOMMON COLLOCATIONS:\n- {執刀医|しっとうい}が{手術|しゅじゅつ}を{行|おこな}う (the surgeon performs the operation)\n- {執刀医|しっとうい}を{務|つと}める (to serve as the operating surgeon)\n\nRELATED WORDS:\n- {外科医|げかい}: surgeon (general term)\n- {主治医|しゅじい}: attending physician\n- {手術|しゅじゅつ}: surgery, operation",
@@ -53,19 +59,32 @@
       "reading": "しゅじゅつ",
       "headword": "{手術|しゅじゅつ}",
       "label": "surgery"
+    },
+    {
+      "type": "related",
+      "target_id": "11465_shujii",
+      "reading": "しゅじい",
+      "headword": "{主治医|しゅじい}",
+      "label": "attending physician"
     }
   ],
   "metadata": {
     "created": "2026-03-19T08:30:03Z",
-    "modified": "2026-05-07T09:10:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"],
-      "domain": ["medical"]
+      "semantic": [
+        "occupation"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

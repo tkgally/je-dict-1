@@ -2,7 +2,7 @@
   "id": "01850_inyou",
   "headword": "{引用|いんよう}",
   "reading": "いんよう",
-  "part_of_speech": "noun/suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "quotation, citation",
   "conjugation": {
     "type": "suru",
@@ -133,11 +133,68 @@
       ]
     }
   ],
-  "notes": "{引用|いんよう} refers to the act of quoting or citing text from another source, as well as the quoted passage itself. Used primarily in academic, journalistic, and legal contexts.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- No standard intransitive pair\n- Pattern: [noun]を{引用|いんよう}する\n\nCOMMON COMPOUNDS:\n- {引用|いんよう}⟦{文|ぶん}→文：03716_bun⟧: quoted text, quotation\n- {引用|いんよう}⟦{符|ふ}→符：noentry⟧/{引用|いんよう}⟦{符号|ふごう}→符号：00042_fugou⟧: quotation marks\n- {引用|いんよう}⟦{元|もと}→元：03878_moto⟧: citation source\n- {引用|いんよう}⟦{文献|ぶんけん}→文献：12885_bunken⟧: cited references, bibliography\n\nUSAGE:\n{引用|いんよう}する means to quote or cite. In Japanese academic writing, proper {引用|いんよう} requires noting the ⟦{出典|しゅってん}→出典：06424_shutten⟧ (source). Quoting without attribution is considered ⟦{盗用|とうよう}→盗用：23322_touyou⟧ (plagiarism).\n\nSIMILAR WORDS:\n- {引用|いんよう}: directly quoting someone's words\n- ⟦{参考|さんこう}→参考：02828_sankou⟧: reference, consulting (not direct quoting)\n- ⟦{転載|てんさい}→転載：14359_tensai⟧: reprinting, reproducing content",
-  "cross_references": [],
+  "notes": "{引用|いんよう} refers to the act of quoting or citing text from another source, as well as the quoted passage itself. Used primarily in academic, journalistic, and legal contexts.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- No standard intransitive pair\n- Pattern: [noun]を{引用|いんよう}する\n\nCOMPOUNDS:\n- {引用|いんよう}⟦{文|ぶん}→文：03716_bun⟧: quoted text, quotation\n- {引用|いんよう}⟦{符|ふ}→符：noentry⟧/{引用|いんよう}⟦{符号|ふごう}→符号：00042_fugou⟧: quotation marks\n- {引用|いんよう}⟦{元|もと}→元：03878_moto⟧: citation source\n- {引用|いんよう}⟦{文献|ぶんけん}→文献：12885_bunken⟧: cited references, bibliography\n\nUSAGE:\n{引用|いんよう}する means to quote or cite. In Japanese academic writing, proper {引用|いんよう} requires noting the ⟦{出典|しゅってん}→出典：06424_shutten⟧ (source). Quoting without attribution is considered ⟦{盗用|とうよう}→盗用：23322_touyou⟧ (plagiarism).\n\nSIMILAR WORDS:\n- {引用|いんよう}: directly quoting someone's words\n- ⟦{参考|さんこう}→参考：02828_sankou⟧: reference, consulting (not direct quoting)\n- ⟦{転載|てんさい}→転載：14359_tensai⟧: reprinting, reproducing content",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02828_sankou",
+      "reading": "さんこう",
+      "headword": "{参考|さんこう}",
+      "label": "reference, consulting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14359_tensai",
+      "reading": "てんさい",
+      "headword": "{転載|てんさい}",
+      "label": "reprinting, reproducing content"
+    },
+    {
+      "type": "related",
+      "target_id": "06423_kyakuchuu",
+      "reading": "きゃくちゅう",
+      "headword": "{脚注|きゃくちゅう}",
+      "label": "footnote"
+    },
+    {
+      "type": "related",
+      "target_id": "06424_shutten",
+      "reading": "しゅってん",
+      "headword": "{出典|しゅってん}",
+      "label": "source, reference"
+    },
+    {
+      "type": "related",
+      "target_id": "08615_riposuto",
+      "reading": "りぽすと",
+      "headword": "リポスト",
+      "label": "repost"
+    },
+    {
+      "type": "related",
+      "target_id": "09288_sankoubunken",
+      "reading": "さんこうぶんけん",
+      "headword": "{参考文献|さんこうぶんけん}",
+      "label": "reference, bibliography"
+    },
+    {
+      "type": "related",
+      "target_id": "09802_wahou",
+      "reading": "わほう",
+      "headword": "{話法|わほう}",
+      "label": "narration style"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15277_bassui",
+      "reading": "ばっすい",
+      "headword": "{抜粋|ばっすい}",
+      "label": "extract"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:30:00Z",
-    "modified": "2026-05-17T14:07:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

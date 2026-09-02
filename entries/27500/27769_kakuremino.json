@@ -17,7 +17,9 @@
       "id": "27769_kakuremino_ex1",
       "japanese": "その{会社|かいしゃ}は{犯罪|はんざい}の{隠|かく}れ{蓑|みの}だった。",
       "english": "That company was a front for crime.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27769_kakuremino_ex2",
       "japanese": "ボランティア{活動|かつどう}を{隠|かく}れ{蓑|みの}にして{金|かね}を{集|あつ}めていた。",
       "english": "They used volunteer work as a cover to collect money.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "27769_kakuremino_ex3",
       "japanese": "{慈善|じぜん}{団体|だんたい}という{隠|かく}れ{蓑|みの}の{下|した}で{脱税|だつぜい}が{行|おこな}われていた。",
       "english": "Tax evasion was carried out under the guise of a charity organization.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Literally a {蓑|みの} (straw raincoat) that makes its wearer invisible, from Japanese folklore. Figuratively, anything used to hide one's real purpose or wrongdoing.\n\nCOMMON COLLOCATIONS:\n- 〜を{隠|かく}れ{蓑|みの}にする: to use ~ as a cover\n- {隠|かく}れ{蓑|みの}の{下|した}で: under the guise of\n\nSIMILAR WORDS:\n- {口実|こうじつ}: pretext; excuse — a verbal justification rather than a concealing front\n- {偽装|ぎそう}: disguise; camouflage — the act of faking an appearance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04183_koujitsu",
+      "reading": "こうじつ",
+      "headword": "{口実|こうじつ}",
+      "label": "pretext"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09151_gisou",
+      "reading": "ぎそう",
+      "headword": "{偽装|ぎそう}",
+      "label": "disguise"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["general"],
+      "politeness": "plain",
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-18T04:14:41Z",
-    "modified": "2026-05-18T04:14:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

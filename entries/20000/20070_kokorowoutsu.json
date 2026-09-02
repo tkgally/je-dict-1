@@ -17,7 +17,9 @@
       "id": "20070_kokorowoutsu_ex1",
       "japanese": "あの{映画|えいが}は{心|こころ}を{打|う}つ。",
       "english": "That movie is deeply moving.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20070_kokorowoutsu_ex2",
       "japanese": "{彼女|かのじょ}のスピーチは{聴衆|ちょうしゅう}の{心|こころ}を{打|う}った。",
       "english": "Her speech moved the audience deeply.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "20070_kokorowoutsu_ex3",
       "japanese": "{被災地|ひさいち}で{助|たす}け{合|あ}う{人々|ひとびと}の{姿|すがた}が{心|こころ}を{打|う}った。",
       "english": "The sight of people helping each other in the disaster area was deeply moving.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A common expression meaning to be emotionally moved or touched. The subject is typically something that causes the emotion (a story, speech, act, etc.), and the person moved is often implied or marked with の.\n\nCOMMON PATTERNS:\n- {心|こころ}を{打|う}つ{話|はなし}: a moving story\n- {心|こころ}を{打|う}つ{演奏|えんそう}: a moving performance\n- {心|こころ}を{打|う}たれる: to be moved (passive form, very common)\n\nSIMILAR EXPRESSIONS:\n- {胸|むね}を{打|う}つ: to strike the chest — similar meaning but slightly more literary\n- {胸|むね}に{響|ひび}く: to resonate in one's heart — emphasizes the lingering emotional impact\n- {感動|かんどう}する: to be moved — more straightforward and versatile; less literary\n\nNOTE:\nThe passive form {心|こころ}を{打|う}たれる is at least as common as the active form. It emphasizes the experiencer's perspective: {彼|かれ}の{言葉|ことば}に{心|こころ}を{打|う}たれた (I was moved by his words).",
+  "notes": "A common expression meaning to be emotionally moved or touched. The subject is typically something that causes the emotion (a story, speech, act, etc.), and the person moved is often implied or marked with の.\n\nCOMMON PATTERNS:\n- {心|こころ}を{打|う}つ{話|はなし}: a moving story\n- {心|こころ}を{打|う}つ{演奏|えんそう}: a moving performance\n- {心|こころ}を{打|う}たれる: to be moved (passive form, very common)\n\nSIMILAR WORDS:\n- {胸|むね}を{打|う}つ: to strike the chest — similar meaning but slightly more literary\n- {胸|むね}に{響|ひび}く: to resonate in one's heart — emphasizes the lingering emotional impact\n- {感動|かんどう}する: to be moved — more straightforward and versatile; less literary\n\nUSAGE:\nThe passive form {心|こころ}を{打|う}たれる is at least as common as the active form. It emphasizes the experiencer's perspective: {彼|かれ}の{言葉|ことば}に{心|こころ}を{打|う}たれた (I was moved by his words).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20320_munenihibiku",
+      "reading": "むねにひびく",
+      "headword": "{胸|むね}に{響|ひび}く",
+      "label": "to resonate in one's heart"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21603_kandousuru",
+      "reading": "かんどうする",
+      "headword": "{感動|かんどう}する",
+      "label": "to be moved"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     },
     "created": "2026-03-28T07:35:15Z",
-    "modified": "2026-03-28T07:35:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -63,11 +63,54 @@
       ]
     }
   ],
-  "notes": "USAGE NOTES:\n- In Japanese, バイク refers to motorcycles/motorbikes, not bicycles (⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧).\n- This is a false friend for English speakers who might expect \"bike\" to mean bicycle.\n\nCOMMON COLLOCATIONS:\n- バイク⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧ (to ride a motorcycle)\n- バイク⟦で→で：00502_de⟧⟦{行|い}く→行く：00119_iku⟧ (to go by motorcycle)\n- バイク⟦の→の：09472_no⟧⟦{免許|めんきょ}→免許：03808_menkyo⟧ (motorcycle license)\n- バイク⟦ツーリング→ツーリング：28790_tsuuringu⟧ (motorcycle touring)\n- ⟦{原付|げんつき}→原付：26791_gentsuki⟧バイク (moped, small motorcycle)\n\nRELATED TERMS:\n- ⟦{単車|たんしゃ}→単車：27962_tansha⟧ (motorcycle, more masculine/casual term)\n- ⟦オートバイ→オートバイ：01774_ootobai⟧ (motorcycle, more formal term)\n- ⟦スクーター→スクーター：27053_sukuutaa⟧ (scooter)",
-  "cross_references": [],
+  "notes": "USAGE:\n- In Japanese, バイク refers to motorcycles/motorbikes, not bicycles (⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧).\n- This is a false friend for English speakers who might expect \"bike\" to mean bicycle.\n\nCOMMON COLLOCATIONS:\n- バイク⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧ (to ride a motorcycle)\n- バイク⟦で→で：00502_de⟧⟦{行|い}く→行く：00119_iku⟧ (to go by motorcycle)\n- バイク⟦の→の：09472_no⟧⟦{免許|めんきょ}→免許：03808_menkyo⟧ (motorcycle license)\n- バイク⟦ツーリング→ツーリング：28790_tsuuringu⟧ (motorcycle touring)\n- ⟦{原付|げんつき}→原付：26791_gentsuki⟧バイク (moped, small motorcycle)\n\nRELATED WORDS:\n- ⟦{単車|たんしゃ}→単車：27962_tansha⟧ (motorcycle, more masculine/casual term)\n- ⟦オートバイ→オートバイ：01774_ootobai⟧ (motorcycle, more formal term)\n- ⟦スクーター→スクーター：27053_sukuutaa⟧ (scooter)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27962_tansha",
+      "reading": "たんしゃ",
+      "headword": "{単車|たんしゃ}",
+      "label": "motorcycle, more masculine/casual term"
+    },
+    {
+      "type": "related",
+      "target_id": "01774_ootobai",
+      "reading": "おーとばい",
+      "headword": "オートバイ",
+      "label": "motorcycle, more formal term"
+    },
+    {
+      "type": "related",
+      "target_id": "27053_sukuutaa",
+      "reading": "すくーたー",
+      "headword": "スクーター",
+      "label": "scooter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20952_nirinsha",
+      "reading": "にりんしゃ",
+      "headword": "{二輪車|にりんしゃ}",
+      "label": "two-wheeled vehicle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26791_gentsuki",
+      "reading": "げんつき",
+      "headword": "{原付|げんつき}",
+      "label": "moped"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29138_jidounirinsha",
+      "reading": "じどうにりんしゃ",
+      "headword": "{自動二輪車|じどうにりんしゃ}",
+      "label": "motorcycle"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T02:32:54Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

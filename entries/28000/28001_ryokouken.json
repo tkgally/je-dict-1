@@ -17,7 +17,9 @@
       "id": "28001_ryokouken_ex1",
       "japanese": "{旅行券|りょこうけん}が{当|あ}たった。",
       "english": "I won a travel voucher.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28001_ryokouken_ex2",
       "japanese": "{結婚|けっこん}のお{祝|いわ}いに{旅行券|りょこうけん}を{贈|おく}った。",
       "english": "I gave a travel voucher as a wedding gift.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,39 @@
       "id": "28001_ryokouken_ex3",
       "japanese": "{懸賞|けんしょう}の{一等|いっとう}は{十万円分|じゅうまんえんぶん}の{旅行券|りょこうけん}だった。",
       "english": "The first prize in the contest was a travel voucher worth 100,000 yen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n- {旅行券|りょこうけん}を{贈|おく}る: to give a travel voucher\n- {旅行券|りょこうけん}が{当|あ}たる: to win a travel voucher\n- ペア{旅行券|りょこうけん}: a travel voucher for two\n\nSIMILAR WORDS:\n- {商品券|しょうひんけん}: gift certificate — for general goods, not specifically travel\n- {宿泊券|しゅくはくけん}: lodging voucher — covers only the stay, not transport",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22121_shouhinken",
+      "reading": "しょうひんけん",
+      "headword": "{商品券|しょうひんけん}",
+      "label": "gift certificate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["travel", "money"],
+      "politeness": "plain",
+      "semantic": [
+        "travel",
+        "money"
+      ],
       "domain": []
     },
     "created": "2026-05-24T03:09:30Z",
-    "modified": "2026-05-24T03:09:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

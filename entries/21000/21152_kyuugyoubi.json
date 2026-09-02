@@ -17,7 +17,9 @@
       "id": "21152_kyuugyoubi_ex1",
       "japanese": "{休業日|きゅうぎょうび}は{水曜日|すいようび}です。",
       "english": "The closed day is Wednesday.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21152_kyuugyoubi_ex2",
       "japanese": "{休業日|きゅうぎょうび}のお{知|し}らせが{入口|いりぐち}に{貼|は}ってある。",
       "english": "A notice about closed days is posted at the entrance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "21152_kyuugyoubi_ex3",
       "japanese": "{年末年始|ねんまつねんし}は{休業日|きゅうぎょうび}となりますので、ご{了承|りょうしょう}ください。",
       "english": "Please note that we will be closed during the New Year holiday period.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {休業|きゅうぎょう} (business closure) + {日|び} (day). Commonly seen on signs at shops, restaurants, and public facilities to indicate when they are closed. Different from a personal day off ({休日|きゅうじつ}).\n\nCOMMON COLLOCATIONS:\n- {定休日|ていきゅうび}: regular closing day — a fixed weekly day off\n- {臨時|りんじ}{休業日|きゅうぎょうび}: temporary closure day\n- {年間|ねんかん}{休業日|きゅうぎょうび}: annual closed days\n\nSIMILAR WORDS:\n- {定休日|ていきゅうび}: regular closing day — the most common term on shop signs\n- {休日|きゅうじつ}: holiday; day off — more general, often refers to personal days off\n- {営業日|えいぎょうび}: business day — the opposite, a day when the business is open",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09541_teikyuubi",
+      "reading": "ていきゅうび",
+      "headword": "{定休日|ていきゅうび}",
+      "label": "regular closing day"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03028_kyuujitsu",
+      "reading": "きゅうじつ",
+      "headword": "{休日|きゅうじつ}",
+      "label": "holiday"
+    },
+    {
+      "type": "antonym",
+      "target_id": "26866_eigyoubi",
+      "reading": "えいぎょうび",
+      "headword": "{営業日|えいぎょうび}",
+      "label": "business day"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21940_kyuukanbi",
+      "reading": "きゅうかんび",
+      "headword": "{休刊日|きゅうかんび}",
+      "label": "newspaper holiday"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-03-31T21:36:26Z",
-    "modified": "2026-03-31T21:36:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

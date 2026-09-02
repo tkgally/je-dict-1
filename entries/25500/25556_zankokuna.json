@@ -3,7 +3,7 @@
   "headword": "{残酷|ざんこく}な",
   "reading": "ざんこくな",
   "romaji": "zankokuna",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "cruel; brutal; merciless",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Describes cruelty that is deliberate or inherent in a situation, often involving pain or suffering imposed on others. Stronger and more visceral than simply being unkind.\n\nCOMMON COLLOCATIONS:\n- {残酷|ざんこく}な{仕打|しう}ち: cruel treatment\n- {残酷|ざんこく}な{運命|うんめい}: cruel fate\n- {残酷|ざんこく}な{現実|げんじつ}: harsh reality\n- {残酷|ざんこく}な{刑罰|けいばつ}: cruel punishment\n\nSIMILAR WORDS:\n- {酷|ひど}い: mean, terrible — more general and colloquial, covers a wider range from bad weather to unfair treatment\n- {非情|ひじょう}な: heartless, cold-blooded — emphasizes lack of emotion rather than active cruelty\n- {無慈悲|むじひ}な: merciless — focuses specifically on showing no mercy or compassion\n\nREGISTER:\nUsed in both written and spoken Japanese. Common in news, literature, and discussions about social issues. The noun form {残酷|ざんこく} can also be used directly.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16027_hijou",
+      "reading": "ひじょう",
+      "headword": "{非情|ひじょう}",
+      "label": "heartless, cold-blooded"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15759_mujihi",
+      "reading": "むじひ",
+      "headword": "{無慈悲|むじひ}",
+      "label": "merciless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25557_hisanna",
+      "reading": "ひさんな",
+      "headword": "{悲惨|ひさん}な",
+      "label": "tragic"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +75,13 @@
       "pos": [
         "adjective-na"
       ],
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "evaluation"
       ]
     },
     "created": "2026-04-26T11:16:03Z",
-    "modified": "2026-04-26T11:16:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

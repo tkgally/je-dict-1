@@ -3,7 +3,7 @@
   "headword": "{請求|せいきゅう}する",
   "reading": "せいきゅうする",
   "romaji": "seikyuusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to bill; to charge; to demand",
   "definitions": [
     {
@@ -81,6 +81,36 @@
   ],
   "notes": "Covers both billing/invoicing (sense 1) and formal demands/claims (sense 2). The noun form {請求|せいきゅう} is very common in business and legal contexts.\n\nCOMMON COLLOCATIONS:\n- {請求書|せいきゅうしょ}: invoice; bill\n- {請求額|せいきゅうがく}: billed amount\n- {請求先|せいきゅうさき}: billing address; party to be billed\n- {損害賠償請求|そんがいばいしょうせいきゅう}: claim for damages\n- {不当請求|ふとうせいきゅう}: unjust billing; fraudulent charge\n\nSIMILAR WORDS:\n- {要求|ようきゅう}する: to demand — broader, used for any demand including informal ones\n- {催促|さいそく}する: to urge payment — focuses on reminding someone to pay or act\n- {徴収|ちょうしゅう}する: to collect (taxes, fees) — used by authorities collecting payments",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25533_youkyuusuru",
+      "reading": "ようきゅうする",
+      "headword": "{要求|ようきゅう}する",
+      "label": "to demand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26806_saisokusuru",
+      "reading": "さいそくする",
+      "headword": "{催促|さいそく}する",
+      "label": "to urge payment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16563_choushuu",
+      "reading": "ちょうしゅう",
+      "headword": "{徴収|ちょうしゅう}",
+      "label": "to collect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25228_shinseisuru",
+      "reading": "しんせいする",
+      "headword": "{申請|しんせい}する",
+      "label": "to apply (for)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -101,7 +131,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T13:08:22Z",
-    "modified": "2026-05-06T13:08:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

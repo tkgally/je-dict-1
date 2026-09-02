@@ -3,7 +3,7 @@
   "headword": "{反目|はんもく}",
   "reading": "はんもく",
   "romaji": "hanmoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "discord; antagonism; being at odds",
   "definitions": [
     {
@@ -46,6 +46,43 @@
   ],
   "notes": "Literally \"turning eyes away from each other\" — from {反|はん} (oppose, turn against) + {目|もく} (eyes). Describes a state of hostility, especially between people who have a relationship that would normally be harmonious (family members, colleagues, allies).\n\nCOMMON COLLOCATIONS:\n- {反目|はんもく}する: to be at odds, to be hostile\n- {反目|はんもく}し{合|あ}う: to be mutually antagonistic\n- {反目|はんもく}を{生|う}む: to breed discord\n- {長年|ながねん}の{反目|はんもく}: long-standing animosity\n\nSIMILAR WORDS:\n- {対立|たいりつ}: opposition, confrontation — a broader term for conflict, not limited to personal relationships\n- {不和|ふわ}: discord, disharmony — focuses on the lack of harmony, often in families\n- {確執|かくしつ}: feud, deep-seated conflict — stronger than {反目|はんもく}, implying an entrenched dispute",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04500_tairitsu",
+      "reading": "たいりつ",
+      "headword": "{対立|たいりつ}",
+      "label": "opposition, confrontation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16133_fuwa",
+      "reading": "ふわ",
+      "headword": "{不和|ふわ}",
+      "label": "discord, disharmony"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17294_kakushitsu",
+      "reading": "かくしつ",
+      "headword": "{確執|かくしつ}",
+      "label": "feud, deep-seated conflict"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12914_tekitai",
+      "reading": "てきたい",
+      "headword": "{敵対|てきたい}",
+      "label": "hostility, antagonism, opposition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25405_tekitaisuru",
+      "reading": "てきたいする",
+      "headword": "{敵対|てきたい}する",
+      "label": "to be hostile toward"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +99,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T02:21:17Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

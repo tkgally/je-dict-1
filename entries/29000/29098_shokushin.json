@@ -3,7 +3,7 @@
   "headword": "{触診|しょくしん}",
   "reading": "しょくしん",
   "romaji": "shokushin",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "palpation; physical examination by touch",
   "definitions": [
     {
@@ -25,7 +25,7 @@
     },
     {
       "id": "29098_shokushin_ex2",
-      "japanese": "{触診|しょくしん}で{しこり|しこり}が{見|み}つかった。",
+      "japanese": "{触診|しょくしん}でしこりが{見|み}つかった。",
       "english": "A lump was found during palpation.",
       "sense_numbers": [
         1
@@ -46,6 +46,22 @@
   ],
   "notes": "{触|しょく} means to touch; {診|しん} means to examine medically. One of the standard clinical examination methods.\n\nCOMMON COLLOCATIONS:\n- {触診|しょくしん}する: to palpate\n- {触診|しょくしん}を{行|おこな}う: to perform palpation\n- {腹部|ふくぶ}{触診|しょくしん}: abdominal palpation\n\nRELATED EXAMINATION TYPES:\n- {視診|ししん}: visual inspection\n- {聴診|ちょうしん}: auscultation (listening with stethoscope)\n- {打診|だしん}: percussion (tapping to assess sound)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29063_choushin",
+      "reading": "ちょうしん",
+      "headword": "{聴診|ちょうしん}",
+      "label": "auscultation"
+    },
+    {
+      "type": "related",
+      "target_id": "05831_dashin",
+      "reading": "だしん",
+      "headword": "{打診|だしん}",
+      "label": "percussion"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health"
       ],
@@ -64,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-06-10T12:35:28Z",
-    "modified": "2026-08-09T06:33:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

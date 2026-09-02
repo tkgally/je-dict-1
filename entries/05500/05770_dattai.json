@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {脱退|だったい}⟦する→する：00392_suru⟧: to withdraw, secede\n- {脱退|だったい}⟦を→を：00422_wo⟧⟦{表明|ひょうめい}→表明：14052_hyoumei⟧⟦する→する：00392_suru⟧: to announce withdrawal\n- {脱退|だったい}⟦{届|とどけ}→届け：07558_todoke⟧: notice of withdrawal\n- ⟦{途中|とちゅう}→途中：01684_tochuu⟧{脱退|だったい}: mid-term withdrawal\n\nCONTRAST:\n- ⟦{加盟|かめい}→加盟：05769_kamei⟧: joining\n- ⟦{加入|かにゅう}→加入：11915_kanyuu⟧: enrollment\n\nRELATED TERMS:\n- ⟦{離脱|りだつ}→離脱：14583_ridatsu⟧: withdrawal (more formal/political)\n- ⟦{退会|たいかい}→退会：16082_taikai⟧: leaving a membership organization\n- ⟦{脱会|だっかい}→脱会：26135_dakkai⟧: leaving a religious organization",
+  "notes": "COMMON COLLOCATIONS:\n- {脱退|だったい}⟦する→する：00392_suru⟧: to withdraw, secede\n- {脱退|だったい}⟦を→を：00422_wo⟧⟦{表明|ひょうめい}→表明：14052_hyoumei⟧⟦する→する：00392_suru⟧: to announce withdrawal\n- {脱退|だったい}⟦{届|とどけ}→届け：07558_todoke⟧: notice of withdrawal\n- ⟦{途中|とちゅう}→途中：01684_tochuu⟧{脱退|だったい}: mid-term withdrawal\n\nSIMILAR WORDS:\n- ⟦{加盟|かめい}→加盟：05769_kamei⟧: joining\n- ⟦{加入|かにゅう}→加入：11915_kanyuu⟧: enrollment\n\nRELATED WORDS:\n- ⟦{離脱|りだつ}→離脱：14583_ridatsu⟧: withdrawal (more formal/political)\n- ⟦{退会|たいかい}→退会：16082_taikai⟧: leaving a membership organization\n- ⟦{脱会|だっかい}→脱会：26135_dakkai⟧: leaving a religious organization",
   "cross_references": [
     {
       "type": "antonym",
@@ -145,11 +145,53 @@
       "reading": "りだつ",
       "headword": "{離脱|りだつ}",
       "label": "withdrawal (formal/political)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11915_kanyuu",
+      "reading": "かにゅう",
+      "headword": "{加入|かにゅう}",
+      "label": "enrollment"
+    },
+    {
+      "type": "related",
+      "target_id": "16082_taikai",
+      "reading": "たいかい",
+      "headword": "{退会|たいかい}",
+      "label": "leaving a membership organization"
+    },
+    {
+      "type": "related",
+      "target_id": "26135_dakkai",
+      "reading": "だっかい",
+      "headword": "{脱会|だっかい}",
+      "label": "leaving a religious organization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19799_taidan",
+      "reading": "たいだん",
+      "headword": "{退団|たいだん}",
+      "label": "leaving a group"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20734_taikaisuru",
+      "reading": "たいかいする",
+      "headword": "{退会|たいかい}する",
+      "label": "to withdraw from"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21919_rihansuru",
+      "reading": "りはんする",
+      "headword": "{離反|りはん}する",
+      "label": "to defect"
     }
   ],
   "metadata": {
     "created": "2026-01-16T09:46:13Z",
-    "modified": "2026-06-08T14:06:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

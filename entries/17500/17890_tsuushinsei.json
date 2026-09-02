@@ -19,7 +19,9 @@
       "english": "I attend a correspondence high school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17890_tsuushinsei_ex2",
@@ -27,7 +29,9 @@
       "english": "I am studying at a correspondence university while working.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17890_tsuushinsei_ex3",
@@ -35,21 +39,42 @@
       "english": "The advantage of distance learning is that you can study at your own pace.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nMost commonly used as a modifier before educational institutions: {通信制|つうしんせい}{高校|こうこう} (correspondence high school) and {通信制|つうしんせい}{大学|だいがく} (correspondence university). Japan has a well-established system of {通信制|つうしんせい} schools.\n\nCOMMON COLLOCATIONS:\n- {通信制|つうしんせい}{高校|こうこう} (correspondence high school)\n- {通信制|つうしんせい}{大学|だいがく} (correspondence university)\n- {通信制|つうしんせい}の{課程|かてい} (correspondence course)\n\nRELATED WORDS:\n- {全日制|ぜんにちせい}: full-time (school) system\n- {定時制|ていじせい}: part-time (evening) school system",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27057_zennichisei",
+      "reading": "ぜんにちせい",
+      "headword": "{全日制|ぜんにちせい}",
+      "label": "full-time (school) system"
+    },
+    {
+      "type": "related",
+      "target_id": "19786_teijisei",
+      "reading": "ていじせい",
+      "headword": "{定時制|ていじせい}",
+      "label": "part-time (evening) school system"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T08:28:37Z",
-    "modified": "2026-03-19T08:28:37Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

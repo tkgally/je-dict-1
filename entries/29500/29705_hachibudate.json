@@ -17,7 +17,9 @@
       "id": "29705_hachibudate_ex1",
       "japanese": "クリームを{八分立|はちぶだ}てにする。",
       "english": "Whip the cream to firm peaks.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29705_hachibudate_ex2",
       "japanese": "{八分立|はちぶだ}てなら{形|かたち}がしっかり{残|のこ}る。",
       "english": "At firm peaks, the cream keeps its shape well.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29705_hachibudate_ex3",
       "japanese": "デコレーションには、しっかりした{八分立|はちぶだ}てのクリームを{使|つか}う。",
       "english": "For decorating, use firmly whipped cream at the firm-peak stage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A baking term literally meaning \"eight-tenths whipped,\" formed from {八分|はちぶ} (eight parts) + {立|だ}て (whipping, from {泡立|あわだ}てる). Describes cream whipped until it holds firm, standing peaks — stiffer than {七分立|しちぶだ}て.\n\nCOMMON COLLOCATIONS:\n- {八分立|はちぶだ}てにする: to whip to firm peaks\n- {八分立|はちぶだ}てのクリーム: firmly whipped cream\n\nSIMILAR WORDS:\n- {七分立|しちぶだ}て: whipped to soft peaks — one stage softer, still flows\n- {泡立|あわだ}てる: to whip, to beat — the underlying verb",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29704_shichibudate",
+      "reading": "しちぶだて",
+      "headword": "{七分立|しちぶだ}て",
+      "label": "whipped to soft peaks"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06419_awadateru",
+      "reading": "あわだてる",
+      "headword": "{泡立|あわだ}てる",
+      "label": "to whip, to beat"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["cooking"],
+      "politeness": "plain",
+      "semantic": [
+        "cooking"
+      ],
       "domain": []
     },
     "created": "2026-07-06T09:17:25Z",
-    "modified": "2026-07-06T09:17:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

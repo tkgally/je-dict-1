@@ -3,7 +3,7 @@
   "headword": "{昔|むかし}ながら",
   "reading": "むかしながら",
   "romaji": "mukashinagara",
-  "part_of_speech": "expression",
+  "part_of_speech": "expression, no-adjective",
   "gloss": "traditional; old-fashioned; unchanged from the old days",
   "definitions": [
     {
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Almost always used as a pre-noun modifier with の: {昔|むかし}ながらの〜. Carries a positive or nostalgic nuance — it appreciates the preservation of old ways rather than criticizing something as outdated. Very common in food and craft contexts.\n\nCOMMON COLLOCATIONS:\n- {昔|むかし}ながらの{味|あじ}: traditional taste\n- {昔|むかし}ながらの{製法|せいほう}: traditional manufacturing method\n- {昔|むかし}ながらの{町並|まちな}み: traditional streetscape\n- {昔|むかし}ながらの{暮|く}らし: traditional way of living\n- {昔|むかし}ながらの{中華|ちゅうか}そば: old-fashioned Chinese noodles\n\nSIMILAR WORDS:\n- {伝統的|でんとうてき}: traditional — more formal, often implies cultural heritage preservation\n- {古風|こふう}な: old-fashioned — can be positive or negative depending on context\n- {昔|むかし}からの: from long ago — similar but emphasizes the time period rather than unchanged character\n- レトロ: retro — loanword, suggests intentional old-fashioned aesthetic\n\nGRAMMAR NOTE:\nながら here means \"as it has been\" or \"remaining in a state.\" Different from the ながら meaning \"while doing\" (e.g., {歩|ある}きながら). This is an archaic use of ながら that survives in fixed expressions.",
-  "cross_references": [],
+  "notes": "Almost always used as a pre-noun modifier with の: {昔|むかし}ながらの〜. Carries a positive or nostalgic nuance — it appreciates the preservation of old ways rather than criticizing something as outdated. Very common in food and craft contexts.\n\nCOMMON COLLOCATIONS:\n- {昔|むかし}ながらの{味|あじ}: traditional taste\n- {昔|むかし}ながらの{製法|せいほう}: traditional manufacturing method\n- {昔|むかし}ながらの{町並|まちな}み: traditional streetscape\n- {昔|むかし}ながらの{暮|く}らし: traditional way of living\n- {昔|むかし}ながらの{中華|ちゅうか}そば: old-fashioned Chinese noodles\n\nSIMILAR WORDS:\n- {伝統的|でんとうてき}: traditional — more formal, often implies cultural heritage preservation\n- {古風|こふう}な: old-fashioned — can be positive or negative depending on context\n- {昔|むかし}からの: from long ago — similar but emphasizes the time period rather than unchanged character\n- レトロ: retro — loanword, suggests intentional old-fashioned aesthetic\n\nCOMMON PATTERNS:\nながら here means \"as it has been\" or \"remaining in a state.\" Different from the ながら meaning \"while doing\" (e.g., {歩|ある}きながら). This is an archaic use of ながら that survives in fixed expressions.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04802_dentouteki",
+      "reading": "でんとうてき",
+      "headword": "{伝統的|でんとうてき}",
+      "label": "traditional"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11893_kofuu",
+      "reading": "こふう",
+      "headword": "{古風|こふう}",
+      "label": "old-fashioned"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22560_mukashifuu",
+      "reading": "むかしふう",
+      "headword": "{昔風|むかしふう}",
+      "label": "old-fashioned"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,6 +84,6 @@
       ]
     },
     "created": "2026-05-05T12:13:10Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

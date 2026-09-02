@@ -17,7 +17,9 @@
       "id": "26438_senshijidai_ex1",
       "japanese": "{先史|せんし}{時代|じだい}の{遺跡|いせき}が{発見|はっけん}された。",
       "english": "Prehistoric ruins were discovered.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26438_senshijidai_ex2",
       "japanese": "{先史|せんし}{時代|じだい}の{人々|ひとびと}は{石器|せっき}を{使|つか}っていた。",
       "english": "People in prehistoric times used stone tools.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,43 @@
       "id": "26438_senshijidai_ex3",
       "japanese": "この{博物館|はくぶつかん}には{先史|せんし}{時代|じだい}から{現代|げんだい}までの{展示|てんじ}がある。",
       "english": "This museum has exhibits ranging from prehistoric times to the present.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {先史|せんし} (prehistory, before written history) and {時代|じだい} (era, period). Commonly encountered in museum descriptions, history textbooks, and cultural discussions. In Japan, the Jomon period is the most well-known part of the prehistoric era.\n\nCOMMON COLLOCATIONS:\n- {先史|せんし}{時代|じだい}の{遺跡|いせき}: prehistoric ruins\n- {先史|せんし}{時代|じだい}の{人類|じんるい}: prehistoric humans\n- {先史|せんし}{時代|じだい}の{文化|ぶんか}: prehistoric culture\n- {先史|せんし}{時代|じだい}{研究|けんきゅう}: prehistoric studies\n\nSIMILAR WORDS:\n- {有史|ゆうし}{以前|いぜん}: before recorded history — a more literary way to say the same thing\n- {古代|こだい}: ancient times — the period after writing was developed, not before\n- {原始|げんし}{時代|じだい}: primitive era — focuses on the level of technology and social development, not the presence of writing",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05324_kodai",
+      "reading": "こだい",
+      "headword": "{古代|こだい}",
+      "label": "ancient times"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25951_genshijidai",
+      "reading": "げんしじだい",
+      "headword": "{原始時代|げんしじだい}",
+      "label": "primitive era"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["history"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "history"
+      ]
     },
     "created": "2026-05-01T16:21:21Z",
-    "modified": "2026-05-01T16:21:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "07701_fumaeru",
   "headword": "{踏|ふ}まえる",
   "reading": "ふまえる",
-  "part_of_speech": "ichidan verb, transitive",
+  "part_of_speech": "verb (ichidan, transitive)",
   "gloss": "to be based on; to take into account; to consider",
   "conjugation": {
     "type": "ichidan",
@@ -130,10 +130,26 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\nFrom {踏|ふ}む (to step on) - figuratively \"standing on\" something as a foundation\n\nTRANSITIVITY:\n{他動詞|たどうし} (transitive) - takes a を object\n\nCOMMON PATTERNS:\n・〜を{踏|ふ}まえて - based on ~, considering ~\n・〜を{踏|ふ}まえた + noun - a ~ based on...\n\nREGISTER:\nOften used in formal or business contexts when discussing decisions or proposals based on certain factors.\n\nRELATED:\n・{基|もと}づく - to be based on\n・{考慮|こうりょ}する - to consider\n・{前提|ぜんてい}とする - to premise on",
+  "notes": "ETYMOLOGY:\nFrom {踏|ふ}む (to step on) - figuratively \"standing on\" something as a foundation\n\nTRANSITIVITY:\n{他動詞|たどうし} (transitive) - takes a を object\n\nCOMMON PATTERNS:\n- 〜を{踏|ふ}まえて - based on ~, considering ~\n- 〜を{踏|ふ}まえた + noun - a ~ based on...\n\nREGISTER:\nOften used in formal or business contexts when discussing decisions or proposals based on certain factors.\n\nRELATED WORDS:\n- {基|もと}づく - to be based on\n- {考慮|こうりょ}する - to consider\n- {前提|ぜんてい}とする - to premise on",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02315_motozuku",
+      "reading": "もとづく",
+      "headword": "{基|もと}づく",
+      "label": "to be based on"
+    },
+    {
+      "type": "related",
+      "target_id": "06061_kouryosuru",
+      "reading": "こうりょする",
+      "headword": "{考慮|こうりょ}する",
+      "label": "to consider"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +158,7 @@
       ],
       "transitivity": "transitive",
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "cognition"
       ],

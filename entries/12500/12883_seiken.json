@@ -19,7 +19,9 @@
       "english": "The government changed hands.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12883_seiken_ex2",
@@ -27,7 +29,9 @@
       "english": "The current administration is pushing forward economic reforms.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12883_seiken_ex3",
@@ -35,22 +39,52 @@
       "english": "The opposition party is trying to reclaim power in the next election.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA central term in political news and discourse. Can refer abstractly to political power itself or concretely to a specific administration (e.g., {安倍|あべ}{政権|せいけん}, the Abe administration). Frequently appears in news headlines.\n\nCOMMON COLLOCATIONS:\n- {政権|せいけん}{交代|こうたい}: change of government\n- {政権|せいけん}を{握|にぎ}る: to hold power, to be in power\n- {政権|せいけん}を{取|と}る: to take power\n- {現|げん}{政権|せいけん}: the current administration\n- {連立|れんりつ}{政権|せいけん}: coalition government\n\nSIMILAR WORDS:\n- {政府|せいふ}: government (the institution/organization)\n- {内閣|ないかく}: cabinet (the prime minister and ministers)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03294_seifu",
+      "reading": "せいふ",
+      "headword": "{政府|せいふ}",
+      "label": "government"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04800_naikaku",
+      "reading": "ないかく",
+      "headword": "{内閣|ないかく}",
+      "label": "cabinet"
+    },
+    {
+      "type": "related",
+      "target_id": "05241_yotou",
+      "reading": "よとう",
+      "headword": "{与党|よとう}",
+      "label": "ruling party"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T12:46:59Z",
-    "modified": "2026-02-22T12:46:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "style": ["written"]
+      "semantic": [
+        "general"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

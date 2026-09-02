@@ -17,7 +17,9 @@
       "id": "21004_toppatsuteki_ex1",
       "japanese": "{突発的|とっぱつてき}な{事故|じこ}が{起|お}きた。",
       "english": "A sudden accident occurred.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21004_toppatsuteki_ex2",
       "japanese": "{突発的|とっぱつてき}な{出費|しゅっぴ}に{備|そな}えて{貯金|ちょきん}している。",
       "english": "I'm saving money in case of unexpected expenses.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "21004_toppatsuteki_ex3",
       "japanese": "{突発的|とっぱつてき}に{発生|はっせい}した{停電|ていでん}で、{会議|かいぎ}が{中断|ちゅうだん}された。",
       "english": "The meeting was interrupted by a sudden power outage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from {突発|とっぱつ} (sudden occurrence) + {的|てき} (characteristic of). Describes events that happen abruptly and without any prior signs or planning. Commonly used in news, official reports, and everyday conversation about unexpected situations.\n\nCOMMON COLLOCATIONS:\n- {突発的|とっぱつてき}な{事故|じこ}: sudden accident\n- {突発的|とっぱつてき}な{出来事|できごと}: unexpected event\n- {突発的|とっぱつてき}に{発生|はっせい}する: to occur suddenly\n- {突発的|とっぱつてき}な{行動|こうどう}: impulsive action\n\nSIMILAR WORDS:\n- {急|きゅう}な: sudden, abrupt — more colloquial and broader in usage\n- {偶発的|ぐうはつてき}: accidental, incidental — emphasizes chance rather than suddenness\n- {計画的|けいかくてき}: planned, deliberate — the opposite, describing premeditated actions",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13042_kyuu",
+      "reading": "きゅう",
+      "headword": "{急|きゅう}",
+      "label": "sudden, abrupt"
+    },
+    {
+      "type": "antonym",
+      "target_id": "21003_keikakuteki",
+      "reading": "けいかくてき",
+      "headword": "{計画的|けいかくてき}",
+      "label": "planned, deliberate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23821_hossateki",
+      "reading": "ほっさてき",
+      "headword": "{発作的|ほっさてき}",
+      "label": "fit-like"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-03-31T14:07:40Z",
-    "modified": "2026-03-31T14:07:40Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

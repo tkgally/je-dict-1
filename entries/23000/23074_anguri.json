@@ -3,7 +3,7 @@
   "headword": "あんぐり",
   "reading": "あんぐり",
   "romaji": "anguri",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "gaping; open-mouthed; agape",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "23074_anguri_ex1",
       "japanese": "あんぐり{口|くち}を{開|あ}ける。",
       "english": "To gape open-mouthed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23074_anguri_ex2",
       "japanese": "{請求書|せいきゅうしょ}の{金額|きんがく}を{見|み}てあんぐりした。",
       "english": "I was left gaping when I saw the amount on the bill.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,46 @@
       "id": "23074_anguri_ex3",
       "japanese": "{彼|かれ}の{突拍子|とっぴょうし}もない{発言|はつげん}に、{全員|ぜんいん}があんぐりと{口|くち}を{開|あ}けた。",
       "english": "Everyone gaped open-mouthed at his outrageous remark.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A mimetic word that vividly evokes the image of a mouth hanging open in shock. Often used with {口|くち}を{開|あ}ける (to open one's mouth) or simply as あんぐりする.\n\nCOMMON PATTERNS:\n- あんぐりする: to gape, to be left open-mouthed\n- あんぐり{口|くち}を{開|あ}ける: to gape with mouth wide open\n- あんぐりと{口|くち}を{開|あ}けた: gaped open-mouthed\n\nSIMILAR WORDS:\n- ぽかんと: blankly — mouth open from being dazed or spacing out; less shock\n- {唖然|あぜん}と: speechless — formal word for being struck dumb with shock\n- {開|あ}いた{口|くち}が{塞|ふさ}がらない: jaw-dropping (idiom) — so shocked one can't close one's mouth\n- びっくり: surprised — general surprise; not specifically about the mouth",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17866_pokanto",
+      "reading": "ぽかんと",
+      "headword": "ポカンと",
+      "label": "blankly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03003_bikkuri",
+      "reading": "びっくり",
+      "headword": "びっくり",
+      "label": "surprised"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "onomatopoeia"],
+      "pos": [
+        "adverb",
+        "onomatopoeia"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["descriptive", "emotion"]
+      "semantic": [
+        "descriptive",
+        "emotion"
+      ]
     },
     "created": "2026-04-08T17:36:08Z",
-    "modified": "2026-07-31T00:25:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

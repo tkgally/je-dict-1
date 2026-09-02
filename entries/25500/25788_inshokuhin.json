@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {飲食|いんしょく} (eating and drinking) and {品|ひん} (goods; products). Commonly seen on signs, in regulations, and in business contexts. The related term {飲食|いんしょく} refers to the act of eating and drinking, while {飲食品|いんしょくひん} specifically refers to the products themselves.\n\nCOMMON COLLOCATIONS:\n- {飲食品|いんしょくひん}の{持|も}ち{込|こ}み: bringing in food and drink\n- {飲食品|いんしょくひん}の{販売|はんばい}: sale of food and beverages\n- {飲食品|いんしょくひん}{売|う}り{場|ば}: food and beverage section\n\nRELATED TERMS:\n- {飲食|いんしょく}: eating and drinking — the activity rather than the products\n- {飲食店|いんしょくてん}: restaurant; eatery — an establishment serving food and drink\n- {食品|しょくひん}: food products — excludes beverages\n- {飲料|いんりょう}: beverages; drinks — covers only the drink side",
-  "cross_references": [],
+  "notes": "A compound of {飲食|いんしょく} (eating and drinking) and {品|ひん} (goods; products). Commonly seen on signs, in regulations, and in business contexts. The related term {飲食|いんしょく} refers to the act of eating and drinking, while {飲食品|いんしょくひん} specifically refers to the products themselves.\n\nCOMMON COLLOCATIONS:\n- {飲食品|いんしょくひん}の{持|も}ち{込|こ}み: bringing in food and drink\n- {飲食品|いんしょくひん}の{販売|はんばい}: sale of food and beverages\n- {飲食品|いんしょくひん}{売|う}り{場|ば}: food and beverage section\n\nRELATED WORDS:\n- {飲食|いんしょく}: eating and drinking — the activity rather than the products\n- {飲食店|いんしょくてん}: restaurant; eatery — an establishment serving food and drink\n- {食品|しょくひん}: food products — excludes beverages\n- {飲料|いんりょう}: beverages; drinks — covers only the drink side",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15093_inshokuten",
+      "reading": "いんしょくてん",
+      "headword": "{飲食店|いんしょくてん}",
+      "label": "restaurant"
+    },
+    {
+      "type": "related",
+      "target_id": "03011_inryou",
+      "reading": "いんりょう",
+      "headword": "{飲料|いんりょう}",
+      "label": "beverages"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food",
         "shopping"
       ]
     },
     "created": "2026-04-27T13:12:01Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

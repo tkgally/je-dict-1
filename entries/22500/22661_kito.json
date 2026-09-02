@@ -46,6 +46,29 @@
   ],
   "notes": "A compound of {企|き} (plan/scheme) and {図|と} (diagram/plan). A formal, somewhat literary word for planning or scheming. Often appears in news reporting, legal contexts, and academic writing.\n\nCOMMON COLLOCATIONS:\n- {企図|きと}する: to plan, to attempt\n- {犯行|はんこう}を{企図|きと}する: to plan a crime\n- {自殺|じさつ}を{企図|きと}する: to attempt suicide (medical/clinical term)\n- {改革|かいかく}を{企図|きと}する: to design a reform\n\nSIMILAR WORDS:\n- {計画|けいかく}: plan — neutral and everyday; lacks the calculated/scheming nuance\n- {策謀|さくぼう}: plot, intrigue — more strongly negative, implies deception\n- {企|たくら}む: to scheme — a verb with similar meaning but more colloquial and always negative\n- {意図|いと}: intention — focuses on the intent itself rather than the planning action",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01172_keikaku",
+      "reading": "けいかく",
+      "headword": "{計画|けいかく}",
+      "label": "plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22967_sakubou",
+      "reading": "さくぼう",
+      "headword": "{策謀|さくぼう}",
+      "label": "plot, intrigue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12625_ito",
+      "reading": "いと",
+      "headword": "{意図|いと}",
+      "label": "intention"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,11 +80,11 @@
         "abstract"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "verb_class": "suru"
     },
     "created": "2026-04-06T21:27:19Z",
-    "modified": "2026-04-06T21:27:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

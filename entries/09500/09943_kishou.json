@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{気象|きしょう} refers to atmospheric conditions and their study.\n\nCOMMON COMPOUNDS:\n- {気象|きしょう}{庁|ちょう}: Japan Meteorological Agency\n- {気象|きしょう}{予報|よほう}: weather forecast\n- {気象|きしょう}{観測|かんそく}: meteorological observation\n- {気象|きしょう}{条件|じょうけん}: weather conditions\n- {気象|きしょう}{情報|じょうほう}: weather information\n\nSIMILAR WORDS:\n- {天気|てんき}: weather (everyday usage)\n- {天候|てんこう}: weather (formal)",
+  "notes": "{気象|きしょう} refers to atmospheric conditions and their study.\n\nCOMPOUNDS:\n- {気象|きしょう}{庁|ちょう}: Japan Meteorological Agency\n- {気象|きしょう}{予報|よほう}: weather forecast\n- {気象|きしょう}{観測|かんそく}: meteorological observation\n- {気象|きしょう}{条件|じょうけん}: weather conditions\n- {気象|きしょう}{情報|じょうほう}: weather information\n\nSIMILAR WORDS:\n- {天気|てんき}: weather (everyday usage)\n- {天候|てんこう}: weather (formal)",
   "cross_references": [
     {
       "type": "synonym",
@@ -58,11 +58,32 @@
       "reading": "てんこう",
       "headword": "{天候|てんこう}",
       "label": "weather (formal)"
+    },
+    {
+      "type": "related",
+      "target_id": "00231_kikou",
+      "reading": "きこう",
+      "headword": "{気候|きこう}",
+      "label": "climate"
+    },
+    {
+      "type": "related",
+      "target_id": "01678_tenkiyohou",
+      "reading": "てんきよほう",
+      "headword": "{天気予報|てんきよほう}",
+      "label": "weather forecast"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27360_kiryuu",
+      "reading": "きりゅう",
+      "headword": "{気流|きりゅう}",
+      "label": "air current"
     }
   ],
   "metadata": {
     "created": "2026-02-04T10:52:33Z",
-    "modified": "2026-04-23T08:17:03Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

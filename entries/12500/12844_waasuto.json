@@ -19,7 +19,9 @@
       "english": "A new worst record was set.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12844_waasuto_ex2",
@@ -27,7 +29,9 @@
       "english": "It ranked first on the worst public safety list.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12844_waasuto_ex3",
@@ -35,21 +39,42 @@
       "english": "It was selected as one of the three worst films of the year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed almost exclusively in rankings and record contexts. Often paired with numbers: ワースト1 (the worst), ワースト3 (the three worst), ワースト10 (the ten worst). Functions as the opposite of ベスト in ranking contexts.\n\nCOMMON COLLOCATIONS:\n- ワースト{記録|きろく}: worst record\n- ワースト1: the worst (number one worst)\n- ワーストランキング: worst ranking\n\nSIMILAR WORDS:\n- {最悪|さいあく}: the worst (native Japanese, used as both noun and na-adjective)\n- ベスト: best (the opposite in ranking contexts)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13009_saiaku",
+      "reading": "さいあく",
+      "headword": "{最悪|さいあく}",
+      "label": "the worst"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04681_besuto",
+      "reading": "べすと",
+      "headword": "ベスト",
+      "label": "best"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T11:55:58Z",
-    "modified": "2026-02-22T11:55:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

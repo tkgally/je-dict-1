@@ -3,7 +3,7 @@
   "headword": "{着金|ちゃっきん}する",
   "reading": "ちゃっきんする",
   "romaji": "chakkinsuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to receive payment; for money to arrive",
   "definitions": [
     {
@@ -47,6 +47,29 @@
   "notes": "A する verb composed of {着|ちゃく} (arrive) + {金|きん} (money). Used in business and banking contexts for money arriving at its destination.\n\nCOMMON COLLOCATIONS:\n- {着金|ちゃっきん}を{確認|かくにん}する: to confirm receipt of funds\n- {着金|ちゃっきん}{予定日|よていび}: expected date of fund arrival\n- {着金|ちゃっきん}{通知|つうち}: payment arrival notification\n- {着金|ちゃっきん}が{遅|おく}れる: for the payment to be delayed\n\nSIMILAR WORDS:\n- {入金|にゅうきん}する: to deposit/receive money — more general; can also mean to pay money in\n- {振|ふ}り{込|こ}む: to transfer money — describes the sender's action, not the arrival\n- {送金|そうきん}する: to remit money — the act of sending money",
   "conjugation_type": "suru",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05467_nyuukin",
+      "reading": "にゅうきん",
+      "headword": "{入金|にゅうきん}",
+      "label": "to deposit/receive money"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10992_furikomu",
+      "reading": "ふりこむ",
+      "headword": "{振|ふ}り{込|こ}む",
+      "label": "to transfer money"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09774_soukin",
+      "reading": "そうきん",
+      "headword": "{送金|そうきん}",
+      "label": "to remit money"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-31T09:52:02Z",
-    "modified": "2026-03-31T09:52:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

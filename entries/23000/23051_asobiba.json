@@ -17,7 +17,9 @@
       "id": "23051_asobiba_ex1",
       "japanese": "{子|こ}どもたちの{遊|あそ}び{場|ば}。",
       "english": "A playground for children.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23051_asobiba_ex2",
       "japanese": "{公園|こうえん}は{子|こ}どもたちのいい{遊|あそ}び{場|ば}になっている。",
       "english": "The park has become a great play area for children.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "23051_asobiba_ex3",
       "japanese": "{都会|とかい}では{子|こ}どもの{遊|あそ}び{場|ば}がどんどん{少|すく}なくなっている。",
       "english": "In cities, places for children to play are steadily decreasing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {遊|あそ}び (play) + {場|ば} (place). The {場|ば} suffix is productive in Japanese, creating place nouns from activities.\n\nCOMMON COLLOCATIONS:\n- {子|こ}どもの{遊|あそ}び{場|ば}: children's playground\n- {格好|かっこう}の{遊|あそ}び{場|ば}: an ideal play spot\n- {遊|あそ}び{場|ば}がない: there's nowhere to play\n\nSIMILAR WORDS:\n- {遊園地|ゆうえんち}: amusement park — a commercial facility with rides and attractions\n- {公園|こうえん}: park — a general public green space\n- {広場|ひろば}: plaza, open space — a public open area, not specifically for play",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03174_yuuenchi",
+      "reading": "ゆうえんち",
+      "headword": "{遊園地|ゆうえんち}",
+      "label": "amusement park"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00581_kouen",
+      "reading": "こうえん",
+      "headword": "{公園|こうえん}",
+      "label": "park"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00104_hiroba",
+      "reading": "ひろば",
+      "headword": "{広場|ひろば}",
+      "label": "plaza, open space"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     },
     "created": "2026-04-08T17:26:14Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

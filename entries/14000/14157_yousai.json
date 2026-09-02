@@ -19,7 +19,9 @@
       "english": "To attack the enemy's fortress.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14157_yousai_ex2",
@@ -27,7 +29,9 @@
       "english": "This island was once used as a military fortress.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14157_yousai_ex3",
@@ -35,21 +39,42 @@
       "english": "The impregnable fortress finally fell.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{要塞|ようさい} refers specifically to fortified military positions, as opposed to {城|しろ} (castle), which may serve as a residence. {要塞|ようさい} emphasizes the defensive, strategic nature of the structure. The word appears frequently in historical, military, and gaming contexts. It can also be used figuratively to describe any extremely well-protected place.\n\nCOMMON COLLOCATIONS:\n- {要塞|ようさい}を{築|きず}く: to build a fortress\n- {要塞|ようさい}を{攻略|こうりゃく}する: to conquer a fortress\n- {軍事|ぐんじ}{要塞|ようさい}: military fortress\n- {難攻不落|なんこうふらく}の{要塞|ようさい}: impregnable fortress",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24086_joukaku",
+      "reading": "じょうかく",
+      "headword": "{城郭|じょうかく}",
+      "label": "castle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24127_toride",
+      "reading": "とりで",
+      "headword": "{砦|とりで}",
+      "label": "fortress"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T01:48:45Z",
-    "modified": "2026-02-28T01:48:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

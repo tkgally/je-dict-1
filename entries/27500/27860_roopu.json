@@ -17,7 +17,9 @@
       "id": "27860_roopu_ex1",
       "japanese": "ロープで{縛|しば}る。",
       "english": "to tie something with rope.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27860_roopu_ex2",
       "japanese": "{船|ふね}を{岸壁|がんぺき}にロープでつないだ。",
       "english": "We tied the boat to the quay with a rope.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "27860_roopu_ex3",
       "japanese": "{救助隊|きゅうじょたい}はロープを{使|つか}って{崖|がけ}の{下|した}にいる{人|ひと}を{引|ひ}き{上|あ}げた。",
       "english": "The rescue team used a rope to pull up the person at the bottom of the cliff.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Loanword from English 'rope.' The general word for thick cord; thinner cord is ひも or {縄|なわ}.\n\nCOMMON COLLOCATIONS:\n- ロープを{張|は}る: to string up / stretch a rope\n- ロープで{縛|しば}る: to bind with rope\n- {命綱|いのちづな}のロープ: a lifeline rope\n\nSIMILAR WORDS:\n- {縄|なわ}: rope made of twisted straw or fiber, often for traditional uses\n- ひも: string; cord — thinner than a rope",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03511_nawa",
+      "reading": "なわ",
+      "headword": "{縄|なわ}",
+      "label": "rope made of twisted straw or fiber…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02251_himo",
+      "reading": "ひも",
+      "headword": "{紐|ひも}",
+      "label": "string"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03891_tsuna",
+      "reading": "つな",
+      "headword": "{綱|つな}",
+      "label": "rope, cord, cable"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["tool"],
+      "politeness": "plain",
+      "semantic": [
+        "tool"
+      ],
       "domain": []
     },
     "created": "2026-05-21T04:04:20Z",
-    "modified": "2026-05-21T04:04:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

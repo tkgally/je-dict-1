@@ -3,7 +3,7 @@
   "headword": "{激高|げきたか}",
   "reading": "げきたか",
   "romaji": "gekitaka",
-  "part_of_speech": "noun, adjective-na",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "extremely expensive; sky-high price",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "23166_gekitaka_ex1",
       "japanese": "このレストランは{激高|げきたか}だ。",
       "english": "This restaurant is insanely expensive.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23166_gekitaka_ex2",
       "japanese": "{修理|しゅうり}{代|だい}が{激高|げきたか}で{驚|おどろ}いた。",
       "english": "I was shocked at the sky-high repair cost.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "23166_gekitaka_ex3",
       "japanese": "{駅前|えきまえ}の{駐車場|ちゅうしゃじょう}は{激高|げきたか}なので、もう{少|すこ}し{遠|とお}い{所|ところ}に{停|と}めよう。",
       "english": "The parking lot in front of the station is outrageously expensive, so let's park somewhere a bit farther away.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {激|げき} (extreme, intense) + {高|たか} (high, expensive). An informal, emphatic expression used to describe prices that feel shockingly high. Part of a productive pattern where {激|げき} intensifies adjectives.\n\nThe {激|げき}〜 INTENSIFIER PATTERN:\n- {激安|げきやす}: dirt cheap\n- {激高|げきたか}: sky-high expensive\n- {激辛|げきから}: extremely spicy\n- {激甘|げきあま}: extremely sweet\n- {激混|げきこ}み: extremely crowded\n- {激レア|げきれあ}: extremely rare\n\nCOMMON COLLOCATIONS:\n- {激高|げきたか}の{店|みせ}: an extremely expensive shop\n- {激高|げきたか}な{料金|りょうきん}: outrageously high fees\n- {激高|げきたか}で{手|て}が{出|で}ない: so expensive one can't afford it\n\nSIMILAR WORDS:\n- {高額|こうがく}: high price — neutral, formal term for a large monetary amount\n- {高|たか}い: expensive — the standard adjective, without the emphatic shock value\n- {法外|ほうがい}: exorbitant — formal; implies the price is unreasonably or unjustly high",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14704_kougaku",
+      "reading": "こうがく",
+      "headword": "{高額|こうがく}",
+      "label": "high price"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00500_takai",
+      "reading": "たかい",
+      "headword": "{高|たか}い",
+      "label": "expensive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20324_hougai",
+      "reading": "ほうがい",
+      "headword": "{法外|ほうがい}",
+      "label": "exorbitant"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["quantity"]
+      "semantic": [
+        "quantity"
+      ]
     },
     "created": "2026-04-08T20:41:17Z",
-    "modified": "2026-04-08T20:41:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

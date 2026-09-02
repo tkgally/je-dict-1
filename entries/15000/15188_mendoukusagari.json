@@ -19,7 +19,9 @@
       "english": "He's a lazy person who can't be bothered with things.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15188_mendoukusagari_ex2",
@@ -27,7 +29,9 @@
       "english": "Since I can't be bothered with cooking, I always eat convenience store bento.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15188_mendoukusagari_ex3",
@@ -35,21 +39,56 @@
       "english": "Please tell me some easy exercises that even a lazy person can keep up with.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{面倒|めんどう}くさがり is a noun describing a personality type. It is formed from {面倒|めんどう}くさい (bothersome, annoying) + がり (a person who tends to feel a certain way). It is mildly self-deprecating and often used humorously.\n\nGRAMMAR:\nCan be used as a na-adjective modifier: {面倒|めんどう}くさがりな{人|ひと} (a person who can't be bothered).\n\nRELATED WORDS:\n- {面倒|めんどう}くさい (bothersome — the base adjective)\n- {怠|なま}け{者|もの} (lazy person — stronger, more critical)\n- ずぼら (sloppy, slovenly — related personality trait)",
-  "cross_references": [],
+  "notes": "USAGE:\n{面倒|めんどう}くさがり is a noun describing a personality type. It is formed from {面倒|めんどう}くさい (bothersome, annoying) + がり (a person who tends to feel a certain way). It is mildly self-deprecating and often used humorously.\n\nCOMMON PATTERNS:\nCan be used as a na-adjective modifier: {面倒|めんどう}くさがりな{人|ひと} (a person who can't be bothered).\n\nRELATED WORDS:\n- {面倒|めんどう}くさい (bothersome — the base adjective)\n- {怠|なま}け{者|もの} (lazy person — stronger, more critical)\n- ずぼら (sloppy, slovenly — related personality trait)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16970_namakemono",
+      "reading": "なまけもの",
+      "headword": "{怠|なま}け{者|もの}",
+      "label": "lazy person"
+    },
+    {
+      "type": "related",
+      "target_id": "19762_zubora",
+      "reading": "ずぼら",
+      "headword": "ずぼら",
+      "label": "sloppy, slovenly"
+    },
+    {
+      "type": "related",
+      "target_id": "07867_monogusa",
+      "reading": "ものぐさ",
+      "headword": "ものぐさ",
+      "label": "lazy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28186_bushou",
+      "reading": "ぶしょう",
+      "headword": "{不精|ぶしょう}",
+      "label": "laziness"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T09:08:08Z",
-    "modified": "2026-03-05T09:08:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

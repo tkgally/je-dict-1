@@ -3,7 +3,7 @@
   "headword": "{中継|ちゅうけい}する",
   "reading": "ちゅうけいする",
   "romaji": "chuukeisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to relay; to broadcast live",
   "definitions": [
     {
@@ -81,6 +81,22 @@
   ],
   "notes": "A compound of {中|ちゅう} (middle) and {継|けい} (relay, succeed). The noun form {中継|ちゅうけい} is very commonly used on its own, especially in the phrase {生中継|なまちゅうけい} (live broadcast).\n\nCOMMON COLLOCATIONS:\n- {生|なま}{中継|ちゅうけい}: live broadcast\n- {衛星|えいせい}{中継|ちゅうけい}: satellite relay/broadcast\n- {中継|ちゅうけい}{地点|ちてん}: relay point\n- {中継|ちゅうけい}{局|きょく}: relay station\n\nSIMILAR WORDS:\n- {放送|ほうそう}する: to broadcast — general term for any broadcast, not necessarily live\n- {配信|はいしん}する: to stream, to distribute — commonly used for internet streaming",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01852_housousuru",
+      "reading": "ほうそうする",
+      "headword": "{放送|ほうそう}する",
+      "label": "to broadcast"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23206_haishinsuru",
+      "reading": "はいしんする",
+      "headword": "{配信|はいしん}する",
+      "label": "to stream, to distribute"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -96,7 +112,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T03:18:53Z",
-    "modified": "2026-04-02T03:18:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -44,8 +44,59 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {販売|はんばい} (sales) + {店|てん} (shop). A general term for any shop that sells goods. In practice, often used with qualifiers to indicate the type of store.\n\nCOMMON COLLOCATIONS:\n- {正規|せいき}{販売店|はんばいてん}: authorized dealer\n- {特約|とくやく}{販売店|はんばいてん}: exclusive dealership\n- {指定|してい}{販売店|はんばいてん}: designated retailer\n- {販売店|はんばいてん}{一覧|いちらん}: list of retail stores\n\nRELATED TERMS:\n- {小売店|こうりてん}: retail shop — more specific to retail (as opposed to wholesale)\n- {取扱店|とりあつかいてん}: authorized handler/dealer — emphasizes being licensed to sell\n- {卸売店|おろしうりてん}: wholesaler — sells in bulk to other businesses",
+  "notes": "Composed of {販売|はんばい} (sales) + {店|てん} (shop). A general term for any shop that sells goods. In practice, often used with qualifiers to indicate the type of store.\n\nCOMMON COLLOCATIONS:\n- {正規|せいき}{販売店|はんばいてん}: authorized dealer\n- {特約|とくやく}{販売店|はんばいてん}: exclusive dealership\n- {指定|してい}{販売店|はんばいてん}: designated retailer\n- {販売店|はんばいてん}{一覧|いちらん}: list of retail stores\n\nRELATED WORDS:\n- {小売店|こうりてん}: retail shop — more specific to retail (as opposed to wholesale)\n- {取扱店|とりあつかいてん}: authorized handler/dealer — emphasizes being licensed to sell\n- {卸売店|おろしうりてん}: wholesaler — sells in bulk to other businesses",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20689_kouriten",
+      "reading": "こうりてん",
+      "headword": "{小売店|こうりてん}",
+      "label": "retail shop"
+    },
+    {
+      "type": "related",
+      "target_id": "24107_toriatsukaiten",
+      "reading": "とりあつかいてん",
+      "headword": "{取扱店|とりあつかいてん}",
+      "label": "authorized handler/dealer"
+    },
+    {
+      "type": "related",
+      "target_id": "24113_oroshiuriten",
+      "reading": "おろしうりてん",
+      "headword": "{卸売店|おろしうりてん}",
+      "label": "wholesaler"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08913_shoppu",
+      "reading": "しょっぷ",
+      "headword": "ショップ",
+      "label": "shop, store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21690_dairiten",
+      "reading": "だいりてん",
+      "headword": "{代理店|だいりてん}",
+      "label": "agency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22458_kourigyousha",
+      "reading": "こうりぎょうしゃ",
+      "headword": "{小売業者|こうりぎょうしゃ}",
+      "label": "retailer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25100_toritsugiten",
+      "reading": "とりつぎてん",
+      "headword": "{取次店|とりつぎてん}",
+      "label": "agency"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +111,6 @@
       ]
     },
     "created": "2026-03-30T20:10:46Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

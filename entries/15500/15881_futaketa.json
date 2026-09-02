@@ -19,7 +19,9 @@
       "english": "The score reached double digits.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15881_futaketa_ex2",
@@ -27,7 +29,9 @@
       "english": "When the temperature reaches double digits, it feels warm.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15881_futaketa_ex3",
@@ -35,10 +39,12 @@
       "english": "That player has already hit double-digit home runs this season.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{二桁|ふたけた} refers to numbers with two digits (10-99). Often used to mark a threshold — reaching double digits in scores, temperatures, or growth rates.\n\nCOMPOSITION:\n{二|ふた} (two) + {桁|けた} (digit/place value)\n\nCOMMON COLLOCATIONS:\n- {二桁|ふたけた}の{数字|すうじ}: a two-digit number\n- {二桁|ふたけた}に{達|たっ}する: to reach double digits\n- {二桁|ふたけた}の{成長|せいちょう}: double-digit growth\n- {二桁|ふたけた}の{得点|とくてん}: double-digit score\n\nRELATED DIGIT COUNTERS:\n- {一桁|ひとけた}: single digit (1-9)\n- {三桁|みけた}: three digits (100-999)\n- {四桁|よけた}: four digits (1,000-9,999)\n- {桁違|けたちが}い: on a different order of magnitude",
+  "notes": "{二桁|ふたけた} refers to numbers with two digits (10-99). Often used to mark a threshold — reaching double digits in scores, temperatures, or growth rates.\n\nETYMOLOGY:\n{二|ふた} (two) + {桁|けた} (digit/place value)\n\nCOMMON COLLOCATIONS:\n- {二桁|ふたけた}の{数字|すうじ}: a two-digit number\n- {二桁|ふたけた}に{達|たっ}する: to reach double digits\n- {二桁|ふたけた}の{成長|せいちょう}: double-digit growth\n- {二桁|ふたけた}の{得点|とくてん}: double-digit score\n\nRELATED DIGIT COUNTERS:\n- {一桁|ひとけた}: single digit (1-9)\n- {三桁|みけた}: three digits (100-999)\n- {四桁|よけた}: four digits (1,000-9,999)\n- {桁違|けたちが}い: on a different order of magnitude",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,36 @@
       "reading": "けた",
       "headword": "{桁|けた}",
       "label": "digit, place value"
+    },
+    {
+      "type": "related",
+      "target_id": "08950_hitoketa",
+      "reading": "ひとけた",
+      "headword": "{一桁|ひとけた}",
+      "label": "single digit"
+    },
+    {
+      "type": "related",
+      "target_id": "29812_sanketa",
+      "reading": "さんけた",
+      "headword": "{三桁|さんけた}",
+      "label": "three digits"
     }
   ],
   "metadata": {
     "created": "2026-03-08T13:21:32Z",
-    "modified": "2026-05-02T07:20:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["number"]
+      "semantic": [
+        "number"
+      ]
     }
   }
 }

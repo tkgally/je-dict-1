@@ -39,7 +39,7 @@
     },
     {
       "id": "03251_shori_ex3",
-      "japanese": "⟦{ゴミ|ごみ}→ゴミ：00840_gomi⟧⟦の→の：09472_no⟧{処理|しょり}⟦{方法|ほうほう}→方法：03621_houhou⟧⟦を→を：00422_wo⟧⟦{改善|かいぜん}する→改善する：26828_kaizensuru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
+      "japanese": "⟦ゴミ→ゴミ：00840_gomi⟧⟦の→の：09472_no⟧{処理|しょり}⟦{方法|ほうほう}→方法：03621_houhou⟧⟦を→を：00422_wo⟧⟦{改善|かいぜん}する→改善する：26828_kaizensuru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We need to improve waste disposal methods.",
       "notes": null,
       "has_audio": false,
@@ -109,7 +109,7 @@
     },
     {
       "id": "03251_shori_ex10",
-      "japanese": "⟦{データ|でーた}→データ：03944_deeta⟧{処理|しょり}⟦{能力|のうりょく}→能力：03541_nouryoku⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
+      "japanese": "⟦データ→データ：03944_deeta⟧{処理|しょり}⟦{能力|のうりょく}→能力：03541_nouryoku⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
       "english": "It has high data processing capability.",
       "notes": null,
       "has_audio": false,
@@ -128,11 +128,26 @@
       ]
     }
   ],
-  "notes": "{処理|しょり}⟦する→する：00392_suru⟧ is commonly used as a する-verb in business and technical contexts.\n\nCOMMON COLLOCATIONS:\n- {処理|しょり}⟦する→する：00392_suru⟧ (to process, to handle)\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧{処理|しょり} (information processing)\n- ⟦{データ|でーた}→データ：03944_deeta⟧{処理|しょり} (data processing)\n- ⟦{廃棄物|はいきぶつ}→廃棄物：04634_haikibutsu⟧{処理|しょり} (waste disposal)\n- {処理|しょり}⟦{能力|のうりょく}→能力：03541_nouryoku⟧ (processing capacity)\n- {処理|しょり}⟦{速度|そくど}→速度：03319_sokudo⟧ (processing speed)\n\nBUSINESS USAGE:\n- ⟦{事務|じむ}→事務：11418_jimu⟧{処理|しょり} (administrative work)\n- ⟦{迅速|じんそく}→迅速：14294_jinsoku⟧⟦に→に：00314_ni⟧{処理|しょり}⟦する→する：00392_suru⟧ (to handle promptly)",
-  "cross_references": [],
+  "notes": "{処理|しょり}⟦する→する：00392_suru⟧ is commonly used as a する-verb in business and technical contexts.\n\nCOMMON COLLOCATIONS:\n- {処理|しょり}⟦する→する：00392_suru⟧ (to process, to handle)\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧{処理|しょり} (information processing)\n- ⟦データ→データ：03944_deeta⟧{処理|しょり} (data processing)\n- ⟦{廃棄物|はいきぶつ}→廃棄物：04634_haikibutsu⟧{処理|しょり} (waste disposal)\n- {処理|しょり}⟦{能力|のうりょく}→能力：03541_nouryoku⟧ (processing capacity)\n- {処理|しょり}⟦{速度|そくど}→速度：03319_sokudo⟧ (processing speed)\n\nBUSINESS USAGE:\n- ⟦{事務|じむ}→事務：11418_jimu⟧{処理|しょり} (administrative work)\n- ⟦{迅速|じんそく}→迅速：14294_jinsoku⟧⟦に→に：00314_ni⟧{処理|しょり}⟦する→する：00392_suru⟧ (to handle promptly)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05518_taisho",
+      "reading": "たいしょ",
+      "headword": "{対処|たいしょ}",
+      "label": "dealing with"
+    },
+    {
+      "type": "related",
+      "target_id": "07911_atoshimatsu",
+      "reading": "あとしまつ",
+      "headword": "{後始末|あとしまつ}",
+      "label": "cleaning up"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T00:54:20Z",
-    "modified": "2026-05-24T18:09:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

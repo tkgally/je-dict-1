@@ -17,7 +17,9 @@
       "id": "28681_suiminyaku_ex1",
       "japanese": "{睡眠薬|すいみんやく}を{飲|の}んだ。",
       "english": "I took a sleeping pill.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28681_suiminyaku_ex2",
       "japanese": "{医者|いしゃ}に{弱|よわ}い{睡眠薬|すいみんやく}を{処方|しょほう}してもらった。",
       "english": "I had the doctor prescribe a mild sleeping pill.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "28681_suiminyaku_ex3",
       "japanese": "{睡眠薬|すいみんやく}に{頼|たよ}りすぎると{依存|いぞん}してしまう{恐|おそ}れがある。",
       "english": "Relying too heavily on sleeping pills can lead to dependence.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {睡眠|すいみん} (sleep) + {薬|やく} (medicine). The everyday term for prescription or over-the-counter sleep aids.\n\nCOMMON COLLOCATIONS:\n- {睡眠薬|すいみんやく}を{飲|の}む: to take a sleeping pill\n- {睡眠薬|すいみんやく}を{処方|しょほう}する: to prescribe sleeping pills\n- {睡眠薬|すいみんやく}に{頼|たよ}る: to rely on sleeping pills\n- {強|つよ}い/{弱|よわ}い{睡眠薬|すいみんやく}: strong/mild sleeping pills\n\nSIMILAR WORDS:\n- {睡眠導入剤|すいみんどうにゅうざい}: sleep-inducing drug — more clinical term, technically distinguished but often used interchangeably\n- {安定剤|あんていざい}: tranquilizer — for anxiety rather than sleep, but sometimes confused",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24310_chinseizai",
+      "reading": "ちんせいざい",
+      "headword": "{鎮静剤|ちんせいざい}",
+      "label": "sedative"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25606_masuiyaku",
+      "reading": "ますいやく",
+      "headword": "{麻酔薬|ますいやく}",
+      "label": "anesthetic"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["health"],
-      "domain": ["medical"]
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-06-04T02:08:09Z",
-    "modified": "2026-06-04T02:08:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

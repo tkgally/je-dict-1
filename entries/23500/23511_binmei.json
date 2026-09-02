@@ -17,7 +17,9 @@
       "id": "23511_binmei_ex1",
       "japanese": "{便名|びんめい}を{教|おし}えてください。",
       "english": "Please tell me the flight number.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23511_binmei_ex2",
       "japanese": "{便名|びんめい}はJL305です。",
       "english": "The flight number is JL305.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23511_binmei_ex3",
       "japanese": "{搭乗券|とうじょうけん}に{便名|びんめい}と{出発時刻|しゅっぱつじこく}が{書|か}いてあります。",
       "english": "The flight number and departure time are written on the boarding pass.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,37 @@
       "id": "23511_binmei_ex4",
       "japanese": "{到着|とうちゃく}ロビーの{電光掲示板|でんこうけいじばん}で{便名|びんめい}を{確認|かくにん}した。",
       "english": "I checked the flight number on the electronic board in the arrivals lobby.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {便|びん} (service, flight — as in a scheduled transport run) and {名|めい} (name, designation). The word {便|びん} itself is a useful counter/noun for scheduled services: {一便|いちびん} (first flight/service), {最終便|さいしゅうびん} (last flight/service).\n\nThis is essential vocabulary for anyone traveling by air in Japan. You will see {便名|びんめい} on booking confirmations, boarding passes, airport information boards, and immigration forms. When picking someone up from the airport, asking for the {便名|びんめい} is the standard way to track their arrival.\n\nCOMMON COLLOCATIONS:\n- {便名|びんめい}を{確認|かくにん}する: to confirm the flight number\n- {便名|びんめい}を{入力|にゅうりょく}する: to enter the flight number\n- {便名|びんめい}で{検索|けんさく}する: to search by flight number\n\nSIMILAR WORDS:\n- フライトナンバー: flight number — the English loanword equivalent; less common in formal Japanese contexts\n- {便|びん}: flight, service — the broader term for a scheduled transport run\n- {航空便|こうくうびん}: airmail; air service — refers to the service itself rather than its identifying number",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24353_koukuubin",
+      "reading": "こうくうびん",
+      "headword": "{航空便|こうくうびん}",
+      "label": "airmail"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["travel"]
+      "semantic": [
+        "travel"
+      ]
     },
     "created": "2026-04-12T14:12:55Z",
-    "modified": "2026-06-15T07:58:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{編成|へんせい}する",
   "reading": "へんせいする",
   "romaji": "henseisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to organize; to form; to compose (a group)",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Emphasizes the deliberate assembly and arrangement of components into an organized whole. The resulting group has structure and purpose, not just a random collection.\n\nCOMMON COLLOCATIONS:\n- チームを{編成|へんせい}する: to form a team\n- {予算|よさん}を{編成|へんせい}する: to draw up a budget\n- {部隊|ぶたい}を{編成|へんせい}する: to organize a military unit\n- {番組|ばんぐみ}{編成|へんせい}: program scheduling (TV/radio)\n- {列車|れっしゃ}{編成|へんせい}: train composition/formation\n- {編成|へんせい}{替|が}え: reorganization\n\nSIMILAR WORDS:\n- {組織|そしき}する: to organize — broader, focuses on creating an organizational structure\n- {結成|けっせい}する: to form / to establish — for newly creating a group, party, or alliance\n- {構成|こうせい}する: to compose / to make up — focuses on what elements something consists of\n\nREGISTER:\nFormal. Standard in administrative, military, and media contexts. In casual speech, people more often say チームを{作|つく}る or グループを{組|く}む.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03320_soshiki",
+      "reading": "そしき",
+      "headword": "{組織|そしき}",
+      "label": "to organize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13809_kessei",
+      "reading": "けっせい",
+      "headword": "{結成|けっせい}",
+      "label": "to form / to establish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02729_kousei",
+      "reading": "こうせい",
+      "headword": "{構成|こうせい}",
+      "label": "to compose / to make up"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +83,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T20:08:14Z",
-    "modified": "2026-04-05T20:08:14Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

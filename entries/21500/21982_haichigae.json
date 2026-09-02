@@ -3,7 +3,7 @@
   "headword": "{配置換|はいちが}え",
   "reading": "はいちがえ",
   "romaji": "haichigae",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reassignment; reshuffling; redeployment",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Composed of {配置|はいち} (arrangement, placement) + {換|か}え (changing, replacing). Most commonly refers to personnel transfers within an organization but can also mean physically rearranging items or spaces.\n\nCOMMON COLLOCATIONS:\n- {人事|じんじ}{配置換|はいちが}え: personnel reshuffling\n- {配置換|はいちが}えになる: to be reassigned\n- {配置換|はいちが}えを{行|おこな}う: to carry out a reshuffling\n- {配置換|はいちが}えを{命|めい}じられる: to be ordered to transfer\n\nSIMILAR WORDS:\n- {異動|いどう}: transfer, reassignment — the standard HR term for job transfers; {配置換|はいちが}え emphasizes the rearrangement aspect\n- {転勤|てんきん}: job transfer (to different location) — implies geographic relocation; {配置換|はいちが}え can be within the same office\n- {模様替|もようが}え: redecorating, rearranging — for rooms and spaces; {配置換|はいちが}え focuses on functional arrangement",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01818_idou",
+      "reading": "いどう",
+      "headword": "{異動|いどう}",
+      "label": "transfer, reassignment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04555_tenkin",
+      "reading": "てんきん",
+      "headword": "{転勤|てんきん}",
+      "label": "job transfer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07708_moyougae",
+      "reading": "もようがえ",
+      "headword": "{模様替|もようが}え",
+      "label": "redecorating, rearranging"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29987_sekigae",
+      "reading": "せきがえ",
+      "headword": "{席替|せきが}え",
+      "label": "changing seats"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-04T18:29:39Z",
-    "modified": "2026-04-04T18:29:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

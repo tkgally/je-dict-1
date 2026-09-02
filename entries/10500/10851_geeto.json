@@ -19,7 +19,9 @@
       "english": "I head to the boarding gate.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10851_geeto_ex2",
@@ -27,7 +29,9 @@
       "english": "Please wait until the gate opens.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10851_geeto_ex3",
@@ -35,20 +39,48 @@
       "english": "The boarding gate at the airport was changed, so I hurried to the new one.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "ゲート comes from English \"gate\" and is used primarily for controlled entry/exit points at facilities.\n\nCOMMON COMPOUNDS:\n- {搭乗|とうじょう}ゲート: boarding gate (airport)\n- {改札|かいさつ}ゲート: ticket gate (train station)\n- {入場|にゅうじょう}ゲート: entrance gate\n- スタートゲート: starting gate\n\nSIMILAR WORDS:\n- {門|もん}: gate (traditional, for buildings, temples, etc.)\n- {改札|かいさつ}: ticket gate (at train stations, more common than ゲート in this context)\n- ゲート is typically used for modern facilities like airports and stadiums, while {門|もん} is for traditional architecture.",
-  "cross_references": [],
+  "notes": "ゲート comes from English \"gate\" and is used primarily for controlled entry/exit points at facilities.\n\nCOMPOUNDS:\n- {搭乗|とうじょう}ゲート: boarding gate (airport)\n- {改札|かいさつ}ゲート: ticket gate (train station)\n- {入場|にゅうじょう}ゲート: entrance gate\n- スタートゲート: starting gate\n\nSIMILAR WORDS:\n- {門|もん}: gate (traditional, for buildings, temples, etc.)\n- {改札|かいさつ}: ticket gate (at train stations, more common than ゲート in this context)\n- ゲート is typically used for modern facilities like airports and stadiums, while {門|もん} is for traditional architecture.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14603_mon",
+      "reading": "もん",
+      "headword": "{門|もん}",
+      "label": "gate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04120_kaisatsu",
+      "reading": "かいさつ",
+      "headword": "{改札|かいさつ}",
+      "label": "ticket gate"
+    },
+    {
+      "type": "related",
+      "target_id": "09927_toujouguchi",
+      "reading": "とうじょうぐち",
+      "headword": "{搭乗口|とうじょうぐち}",
+      "label": "boarding gate"
+    }
+  ],
   "metadata": {
     "created": "2026-02-11T06:42:06Z",
-    "modified": "2026-02-11T06:42:06Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

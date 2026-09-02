@@ -3,7 +3,7 @@
   "headword": "{身|み}じろぎ",
   "reading": "みじろぎ",
   "romaji": "mijirogi",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "stirring; slight movement of the body",
   "definitions": [
     {
@@ -46,6 +46,15 @@
   ],
   "notes": "A literary and descriptive word almost always encountered in negative constructions. The pattern {身|み}じろぎもしない (not stirring at all) is a common literary device to convey tension, concentration, or fear.\n\nCOMMON PATTERNS:\n- {身|み}じろぎもしない: not moving at all; perfectly still\n- {身|み}じろぎもせず: without stirring (connective form)\n- {身|み}じろぎ{一|ひと}つしない: not making the slightest movement\n\nSIMILAR WORDS:\n- {微動|びどう}だにしない: not budging an inch — very similar in meaning and usage\n- じっとする: to stay still; to keep motionless — more everyday\n- {動|うご}かない: not moving — plain, neutral description\n\nETYMOLOGY:\nFrom {身|み} (body) and じろぐ (to stir, to shift), an older verb meaning to move slightly. The verb じろぐ itself is rarely used independently in modern Japanese.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25342_jittosuru",
+      "reading": "じっとする",
+      "headword": "じっとする",
+      "label": "to stay still"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -55,11 +64,13 @@
       ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["movement"],
+      "semantic": [
+        "movement"
+      ],
       "verb_class": "suru"
     },
     "created": "2026-04-08T14:19:44Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

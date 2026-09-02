@@ -17,7 +17,9 @@
       "id": "22319_chouzou_ex1",
       "japanese": "{公園|こうえん}に{彫像|ちょうぞう}が{立|た}っている。",
       "english": "A statue stands in the park.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22319_chouzou_ex2",
       "japanese": "{大理石|だいりせき}の{彫像|ちょうぞう}が{美術館|びじゅつかん}に{展示|てんじ}されている。",
       "english": "A marble statue is exhibited at the art museum.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "22319_chouzou_ex3",
       "japanese": "この{寺|てら}には{平安|へいあん}{時代|じだい}に{作|つく}られた{仏|ほとけ}の{彫像|ちょうぞう}が{数多|かずおお}く{残|のこ}されている。",
       "english": "This temple preserves numerous Buddhist statues made during the Heian period.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {彫|ちょう} (carve/engrave) + {像|ぞう} (image/figure). Refers specifically to three-dimensional sculptural works, as opposed to flat reliefs or paintings.\n\nCOMMON COLLOCATIONS:\n- {彫像|ちょうぞう}を{作|つく}る: to make a statue\n- {青銅|せいどう}の{彫像|ちょうぞう}: bronze statue\n- {大理石|だいりせき}の{彫像|ちょうぞう}: marble statue\n- {仏|ぶつ}の{彫像|ちょうぞう}: Buddhist statue/sculpture\n\nSIMILAR WORDS:\n- {像|ぞう}: statue/image — broader term, includes any representational figure\n- {銅像|どうぞう}: bronze statue — specifically made of bronze\n- {塑像|そぞう}: clay figure — made by molding rather than carving\n- {彫刻|ちょうこく}: sculpture — the art form or practice, broader than {彫像|ちょうぞう}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14471_douzou",
+      "reading": "どうぞう",
+      "headword": "{銅像|どうぞう}",
+      "label": "bronze statue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04448_choukoku",
+      "reading": "ちょうこく",
+      "headword": "{彫刻|ちょうこく}",
+      "label": "sculpture"
+    },
+    {
+      "type": "related",
+      "target_id": "27327_horimono",
+      "reading": "ほりもの",
+      "headword": "{彫|ほ}り{物|もの}",
+      "label": "carving"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["art"]
+      "semantic": [
+        "art"
+      ]
     },
     "created": "2026-04-05T18:27:12Z",
-    "modified": "2026-04-05T18:27:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

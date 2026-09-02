@@ -63,15 +63,37 @@
       ]
     }
   ],
-  "notes": "{温|ぬる}い is an i-adjective meaning lukewarm or tepid. It usually carries a slightly negative nuance — something that should be hot (or cold) but isn't.\n\nFORMS:\n- Adverbial: {温|ぬる}く ({温|ぬる}く⟦なる→なる：01970_naru⟧ — to become lukewarm)\n- Past: {温|ぬる}かった\n\nTEMPERATURE SCALE:\n- ⟦{熱|あつ}い→熱い：09888_atsui⟧: hot (for objects/liquids)\n- ⟦{暖|あたた}かい→暖かい：00618_atatakai⟧/⟦{温|あたた}かい→温かい：13395_atatakai⟧: warm (pleasant)\n- {温|ぬる}い: lukewarm (often unpleasant)\n- ⟦{冷|つめ}たい→冷たい：00681_tsumetai⟧: cold\n\nCOMMON COLLOCATIONS:\n- {温|ぬる}い⟦お{湯|ゆ}→お湯：02518_oyu⟧: lukewarm water\n- {温|ぬる}い⟦{風呂|ふろ}→おふろ：00802_ofuro⟧: lukewarm bath\n- {温|ぬる}く⟦なる→なる：01970_naru⟧: to become lukewarm\n\nFIGURATIVE USE:\nCan describe a half-hearted or lenient attitude: {温|ぬる}い⟦{対応|たいおう}→対応：02510_taiou⟧ (slack response), {温|ぬる}い⟦{考|かんが}え→考え：00855_kangae⟧ (soft thinking). This is always negative.",
+  "notes": "{温|ぬる}い is an i-adjective meaning lukewarm or tepid. It usually carries a slightly negative nuance — something that should be hot (or cold) but isn't.\n\nFORMS:\n- Adverbial: {温|ぬる}く ({温|ぬる}く⟦なる→なる：01970_naru⟧ — to become lukewarm)\n- Past: {温|ぬる}かった\n\nTEMPERATURE SCALE:\n- ⟦{熱|あつ}い→熱い：09888_atsui⟧: hot (for objects/liquids)\n- ⟦{暖|あたた}かい→暖かい：00618_atatakai⟧/⟦{温|あたた}かい→温かい：13395_atatakai⟧: warm (pleasant)\n- {温|ぬる}い: lukewarm (often unpleasant)\n- ⟦{冷|つめ}たい→冷たい：00681_tsumetai⟧: cold\n\nCOMMON COLLOCATIONS:\n- {温|ぬる}い⟦お{湯|ゆ}→お湯：02518_oyu⟧: lukewarm water\n- {温|ぬる}い⟦{風呂|ふろ}→おふろ：00802_ofuro⟧: lukewarm bath\n- {温|ぬる}く⟦なる→なる：01970_naru⟧: to become lukewarm\n\nUSAGE:\nCan describe a half-hearted or lenient attitude: {温|ぬる}い⟦{対応|たいおう}→対応：02510_taiou⟧ (slack response), {温|ぬる}い⟦{考|かんが}え→考え：00855_kangae⟧ (soft thinking). This is always negative.",
   "cross_references": [
-    {"type": "contrast", "target_id": "09888_atsui", "reading": "あつい", "headword": "{熱|あつ}い"},
-    {"type": "antonym", "target_id": "00681_tsumetai", "reading": "つめたい", "headword": "{冷|つめ}たい"},
-    {"type": "contrast", "target_id": "00618_atatakai", "reading": "あたたかい", "headword": "{暖|あたた}かい"}
+    {
+      "type": "contrast",
+      "target_id": "09888_atsui",
+      "reading": "あつい",
+      "headword": "{熱|あつ}い"
+    },
+    {
+      "type": "antonym",
+      "target_id": "00681_tsumetai",
+      "reading": "つめたい",
+      "headword": "{冷|つめ}たい"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00618_atatakai",
+      "reading": "あたたかい",
+      "headword": "{暖|あたた}かい"
+    },
+    {
+      "type": "related",
+      "target_id": "02518_oyu",
+      "reading": "おゆ",
+      "headword": "お{湯|ゆ}",
+      "label": "hot water"
+    }
   ],
   "metadata": {
     "created": "2026-01-11T09:50:00Z",
-    "modified": "2026-05-22T22:07:52Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

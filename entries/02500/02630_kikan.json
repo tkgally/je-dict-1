@@ -49,7 +49,7 @@
     },
     {
       "id": "02630_kikan_ex4",
-      "japanese": "⟦{金融|きんゆう}→金融：02664_kinyuu⟧{機関|きかん}⟦から→から：00504_kara⟧⟦{お金|おかね}→お金：00611_okane⟧⟦を→を：00422_wo⟧⟦{借|か}りる→借りる：00532_kariru⟧。",
+      "japanese": "⟦{金融|きんゆう}→金融：02664_kinyuu⟧{機関|きかん}⟦から→から：00504_kara⟧⟦お{金|かね}→お金：00611_okane⟧⟦を→を：00422_wo⟧⟦{借|か}りる→借りる：00532_kariru⟧。",
       "english": "To borrow money from a financial institution.",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "{機関|きかん} has two main meanings: organization and engine.\n\nORGANIZATION MEANING:\n- ⟦{政府|せいふ}→政府：03294_seifu⟧{機関|きかん} (government agency)\n- ⟦{金融|きんゆう}→金融：02664_kinyuu⟧{機関|きかん} (financial institution)\n- ⟦{医療|いりょう}→医療：01836_iryou⟧{機関|きかん} (medical institution)\n- ⟦{教育|きょういく}→教育：01313_kyouiku⟧{機関|きかん} (educational institution)\n- ⟦{国際|こくさい}→国際：01406_kokusai⟧{機関|きかん} (international organization)\n\nENGINE MEANING:\n- ⟦{蒸気|じょうき}→蒸気：04278_jouki⟧{機関|きかん} (steam engine)\n- ⟦{機関|きかん}{車|しゃ}→機関車：25424_kikansha⟧ (locomotive)\n\nHOMOPHONES:\n- {機関|きかん}: organization, engine\n- ⟦{器官|きかん}→器官：02685_kikan⟧: organ (body part)\n- ⟦{期間|きかん}→期間：00229_kikan⟧: period, duration\n- ⟦{季刊|きかん}→季刊：02787_kikan⟧: quarterly publication",
+  "notes": "{機関|きかん} has two main meanings: organization and engine.\n\nORGANIZATION MEANING:\n- ⟦{政府|せいふ}→政府：03294_seifu⟧{機関|きかん} (government agency)\n- ⟦{金融|きんゆう}→金融：02664_kinyuu⟧{機関|きかん} (financial institution)\n- ⟦{医療|いりょう}→医療：01836_iryou⟧{機関|きかん} (medical institution)\n- ⟦{教育|きょういく}→教育：01313_kyouiku⟧{機関|きかん} (educational institution)\n- ⟦{国際|こくさい}→国際：01406_kokusai⟧{機関|きかん} (international organization)\n\nENGINE MEANING:\n- ⟦{蒸気|じょうき}→蒸気：04278_jouki⟧{機関|きかん} (steam engine)\n- ⟦{機関|きかん}{車|しゃ}→機関車：25424_kikansha⟧ (locomotive)\n\nWATCH OUT:\n- {機関|きかん}: organization, engine\n- ⟦{器官|きかん}→器官：02685_kikan⟧: organ (body part)\n- ⟦{期間|きかん}→期間：00229_kikan⟧: period, duration\n- ⟦{季刊|きかん}→季刊：02787_kikan⟧: quarterly publication",
   "cross_references": [
     {
       "type": "contrast",
@@ -86,11 +86,18 @@
       "headword": "{期間|きかん}",
       "label": "period, duration",
       "target_id": "00229_kikan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03320_soshiki",
+      "reading": "そしき",
+      "headword": "{組織|そしき}",
+      "label": "organization, structure"
     }
   ],
   "metadata": {
     "created": "2026-01-11T06:43:14Z",
-    "modified": "2026-07-31T09:22:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

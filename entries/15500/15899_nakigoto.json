@@ -19,7 +19,9 @@
       "english": "Stop whining.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15899_nakigoto_ex2",
@@ -27,7 +29,9 @@
       "english": "Nothing will change if you just keep complaining.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15899_nakigoto_ex3",
@@ -35,7 +39,9 @@
       "english": "He completed the job without complaining until the very end.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE: {泣|な}き{言|ごと} implies weak, self-pitying complaints rather than legitimate grievances. It is most commonly used in the pattern {泣|な}き{言|ごと}を{言|い}う (to whine, to complain).\n\nThe word carries a negative connotation — using it implies that the speaker considers the complaints unjustified or unproductive.\n\nCOMMON COLLOCATIONS:\n- {泣|な}き{言|ごと}を{言|い}う: to whine, to complain\n- {泣|な}き{言|ごと}を{言|い}わない: to not complain\n- {泣|な}き{言|ごと}ばかり: nothing but whining\n\nSIMILAR WORDS:\n- {泣|な}き{言|ごと}: self-pitying complaint (negative nuance)\n- {愚痴|ぐち}: grumbling, griping (general complaint)\n- {文句|もんく}: complaint, objection (can be legitimate or not)",
@@ -53,18 +59,43 @@
       "reading": "もんく",
       "headword": "{文句|もんく}",
       "label": "complaint, objection"
+    },
+    {
+      "type": "related",
+      "target_id": "07394_tawagoto",
+      "reading": "たわごと",
+      "headword": "たわ{言|ごと}",
+      "label": "nonsense"
+    },
+    {
+      "type": "related",
+      "target_id": "07395_kurigoto",
+      "reading": "くりごと",
+      "headword": "{繰|く}り{言|ごと}",
+      "label": "repetitive complaints"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17446_yowane",
+      "reading": "よわね",
+      "headword": "{弱音|よわね}",
+      "label": "complaints"
     }
   ],
   "metadata": {
     "created": "2026-03-08T13:57:00Z",
-    "modified": "2026-05-02T08:18:57Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

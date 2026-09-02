@@ -17,7 +17,9 @@
       "id": "21821_kusachi_ex1",
       "japanese": "{草地|くさち}に{寝転|ねころ}ぶ。",
       "english": "To lie down on the grass.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21821_kusachi_ex2",
       "japanese": "{広|ひろ}い{草地|くさち}で{子|こ}どもたちが{遊|あそ}んでいる。",
       "english": "Children are playing on a wide grassy field.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "21821_kusachi_ex3",
       "japanese": "{川沿|かわぞ}いの{草地|くさち}にはたくさんの{野花|のばな}が{咲|さ}いていて、{春|はる}になると{散歩|さんぽ}する{人|ひと}で{賑|にぎ}わう。",
       "english": "The grassy area along the river is full of wildflowers, and it bustles with walkers in spring.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {草|くさ} (grass) and {地|ち} (land, ground). A straightforward descriptive term for any grass-covered terrain. The reading くさち uses the native Japanese (kun'yomi) readings of both characters.\n\nCOMMON COLLOCATIONS:\n- {草地|くさち}に{座|すわ}る: to sit on the grass\n- {草地|くさち}に{寝転|ねころ}ぶ: to lie down on the grass\n- {広|ひろ}い{草地|くさち}: a wide grassy area\n- {草地|くさち}を{歩|ある}く: to walk across the grassland\n\nSIMILAR WORDS:\n- {芝生|しばふ}: lawn — specifically maintained, trimmed grass\n- {原|はら}っぱ: open field, vacant lot with grass — informal, often used for children's play areas\n- {牧草地|ぼくそうち}: pasture — grassland specifically for grazing livestock\n- {草原|そうげん}: prairie, grassland — larger-scale, often used for vast open grasslands",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03196_shibafu",
+      "reading": "しばふ",
+      "headword": "{芝生|しばふ}",
+      "label": "lawn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30132_harappa",
+      "reading": "はらっぱ",
+      "headword": "{原|はら}っぱ",
+      "label": "open field, vacant lot with grass"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05035_sougen",
+      "reading": "そうげん",
+      "headword": "{草原|そうげん}",
+      "label": "prairie, grassland"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature"]
+      "semantic": [
+        "nature"
+      ]
     },
     "created": "2026-04-03T18:26:58Z",
-    "modified": "2026-07-26T03:19:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -46,6 +46,22 @@
   ],
   "notes": "A common word in commerce and food marketing. Very frequently seen on food packaging and restaurant advertising to emphasize freshness and quality by highlighting the direct-from-source supply chain.\n\nCOMMON COLLOCATIONS:\n- {産地|さんち}{直送|ちょくそう}: shipped straight from the production area\n- {工場|こうじょう}{直送|ちょくそう}: factory-direct shipping\n- {漁港|ぎょこう}{直送|ちょくそう}: shipped straight from the fishing port\n- {農家|のうか}{直送|ちょくそう}: shipped directly from the farm\n- {直送|ちょくそう}{便|びん}: direct shipment service\n\nSIMILAR WORDS:\n- {発送|はっそう}する: to ship, dispatch — general word for sending out goods; does not imply direct sourcing\n- {配送|はいそう}する: to deliver — focuses on the delivery process rather than the directness of the route\n- {直販|ちょくはん}する: to sell directly — selling directly to consumers, not just shipping\n\nUSAGE:\nThe noun form {産地|さんち}{直送|ちょくそう} is extremely common in advertising and menus, functioning almost as a quality label.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21737_hassousuru",
+      "reading": "はっそうする",
+      "headword": "{発送|はっそう}する",
+      "label": "to ship, dispatch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21738_haisousuru",
+      "reading": "はいそうする",
+      "headword": "{配送|はいそう}する",
+      "label": "to deliver"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -55,11 +71,14 @@
       ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action", "business"],
+      "semantic": [
+        "action",
+        "business"
+      ],
       "verb_class": "suru"
     },
     "created": "2026-04-08T15:40:16Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

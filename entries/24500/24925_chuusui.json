@@ -3,7 +3,7 @@
   "headword": "{注水|ちゅうすい}",
   "reading": "ちゅうすい",
   "romaji": "chuusui",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "water injection; pouring water",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A compound of {注|ちゅう} (pour, inject) and {水|すい} (water). This word became widely known in Japan during the 2011 Fukushima nuclear disaster, when {注水|ちゅうすい} operations to cool the damaged reactors were a constant topic in news coverage.\n\nBeyond nuclear emergencies, {注水|ちゅうすい} is used in agriculture (flooding rice paddies), industry (filling tanks and systems), and cooking.\n\nCOMMON COLLOCATIONS:\n- {注水|ちゅうすい}する: to inject/pour water\n- {注水|ちゅうすい}{作業|さぎょう}: water injection work\n- {緊急|きんきゅう}{注水|ちゅうすい}: emergency water injection\n- {注水|ちゅうすい}{量|りょう}: amount of water injected\n- {注水|ちゅうすい}を{開始|かいし}する: to begin water injection\n\nSIMILAR WORDS:\n- {加水|かすい}: adding water — focuses on mixing water into a substance (e.g., dough, a solution)\n- {給水|きゅうすい}: water supply — providing water to people, buildings, or systems\n- {排水|はいすい}: drainage — the opposite process: removing water",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24921_kasui",
+      "reading": "かすい",
+      "headword": "{加水|かすい}",
+      "label": "adding water"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15031_kyuusui",
+      "reading": "きゅうすい",
+      "headword": "{給水|きゅうすい}",
+      "label": "water supply"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11104_haisui",
+      "reading": "はいすい",
+      "headword": "{排水|はいすい}",
+      "label": "drainage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-21T13:13:10Z",
-    "modified": "2026-08-03T09:30:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

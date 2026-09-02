@@ -19,7 +19,9 @@
       "english": "The team's morale is high.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19824_shiki_ex2",
@@ -27,7 +29,9 @@
       "english": "Morale has dropped due to a losing streak.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19824_shiki_ex3",
@@ -35,21 +39,50 @@
       "english": "The coach's words instantly boosted the players' morale.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Refers to the collective spirit and motivation of a group. Originally a military term but now widely used in sports, business, and organizational contexts.\n\nCOMMON COLLOCATIONS:\n- {士気|しき}が{高|たか}い / {低|ひく}い — morale is high / low\n- {士気|しき}が{上|あ}がる / {下|さ}がる — morale rises / drops\n- {士気|しき}を{高|たか}める — to boost morale\n- {士気|しき}を{鼓舞|こぶ}する — to inspire morale\n- {士気|しき}に{関|かか}わる — to affect morale\n\nUSAGE:\nTypically used for groups rather than individuals. Common in news reporting about military units, sports teams, and company workforces.\n\nSIMILAR WORDS:\n- やる{気|き} — motivation (individual, informal)\n- {意気込|いきご}み — enthusiasm, eagerness (can be individual or group)\n- モチベーション — motivation (loanword, common in business)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05089_yaruki",
+      "reading": "やるき",
+      "headword": "やる{気|き}",
+      "label": "motivation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09060_ikigomi",
+      "reading": "いきごみ",
+      "headword": "{意気込|いきご}み",
+      "label": "enthusiasm, eagerness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06184_mochibeeshon",
+      "reading": "もちべーしょん",
+      "headword": "モチベーション",
+      "label": "motivation"
+    }
+  ],
   "metadata": {
     "created": "2026-03-27T02:08:23Z",
-    "modified": "2026-03-27T02:08:23Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["abstract", "society"]
+      "semantic": [
+        "abstract",
+        "society"
+      ]
     }
   }
 }

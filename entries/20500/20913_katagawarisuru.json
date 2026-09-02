@@ -3,7 +3,7 @@
   "headword": "{肩代|かたが}わりする",
   "reading": "かたがわりする",
   "romaji": "katagawarisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to take over (a burden, debt, responsibility)",
   "definitions": [
     {
@@ -47,6 +47,29 @@
   "notes": "Composed of {肩|かた} (shoulder) + {代|か}わり (substitution) + する. The image is of placing someone else's burden on your own shoulders. Most commonly used for financial obligations but can extend to any responsibility.\n\nCOMMON COLLOCATIONS:\n- {借金|しゃっきん}を{肩代|かたが}わりする: to take over a debt\n- {費用|ひよう}を{肩代|かたが}わりする: to cover costs (for someone)\n- {責任|せきにん}を{肩代|かたが}わりする: to take over a responsibility\n- {損失|そんしつ}を{肩代|かたが}わりする: to absorb a loss\n\nSIMILAR WORDS:\n- {立|た}て{替|か}える: to pay on someone's behalf (with expectation of repayment)\n- {引|ひ}き{受|う}ける: to take on, to undertake — more general, not specifically about burdens\n- {負担|ふたん}する: to bear (a cost) — neutral, doesn't imply taking it from someone else",
   "conjugation_type": "suru",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05759_tatekaeru",
+      "reading": "たてかえる",
+      "headword": "{立|た}て{替|か}える",
+      "label": "to pay on someone's behalf"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03140_hikiukeru",
+      "reading": "ひきうける",
+      "headword": "{引|ひ}き{受|う}ける",
+      "label": "to take on, to undertake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09752_futan",
+      "reading": "ふたん",
+      "headword": "{負担|ふたん}",
+      "label": "to bear"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-30T20:15:20Z",
-    "modified": "2026-03-30T20:15:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

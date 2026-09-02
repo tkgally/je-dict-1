@@ -3,7 +3,7 @@
   "id": "12840_purei",
   "headword": "プレイ",
   "reading": "ぷれい",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "play, playing",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,25 @@
     }
   ],
   "notes": "USAGE:\nUsed as both a noun and suru verb. In sports, プレイ refers to individual actions or moves (ファインプレイ = great play, ラフプレイ = rough play). In gaming, ゲームをプレイする is the standard expression.\n\nCOMMON COLLOCATIONS:\n- ファインプレイ: fine play, great play\n- フェアプレイ: fair play\n- ラフプレイ: rough play\n- ゲームをプレイする: to play a game\n- プレイヤー: player\n\nSIMILAR WORDS:\n- {遊|あそ}ぶ: to play (general, children's play, leisure)\n- {演奏|えんそう}する: to play (music, formal)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00550_asobu",
+      "reading": "あそぶ",
+      "headword": "{遊|あそ}ぶ",
+      "label": "to play"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20349_ensousuru",
+      "reading": "えんそうする",
+      "headword": "{演奏|えんそう}する",
+      "label": "to play"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T11:54:34Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

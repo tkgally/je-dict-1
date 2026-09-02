@@ -17,7 +17,9 @@
       "id": "26312_rittou_ex1",
       "japanese": "{立冬|りっとう}を{過|す}ぎると{朝晩|あさばん}{冷|ひ}え{込|こ}む。",
       "english": "After the start of winter, mornings and evenings become quite cold.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26312_rittou_ex2",
       "japanese": "{立冬|りっとう}の{日|ひ}に{鍋料理|なべりょうり}を{食|た}べるのが{我|わ}が{家|や}の{恒例|こうれい}だ。",
       "english": "Eating hot pot on the first day of winter is a tradition in our family.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,58 @@
       "id": "26312_rittou_ex3",
       "japanese": "{暦|こよみ}の{上|うえ}では{立冬|りっとう}を{迎|むか}えたが、{今年|ことし}はまだ{暖|あたた}かい{日|ひ}が{続|つづ}いている。",
       "english": "On the calendar we've reached the start of winter, but this year warm days still continue.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "One of the {二十四節気|にじゅうしせっき} (24 solar terms). Falls around November 7-8, marking the calendrical start of winter. Like {立秋|りっしゅう}, the actual weather may not yet feel wintry at this time. The phrase {暦|こよみ}の{上|うえ}では (according to the calendar) is often used to acknowledge the gap between the calendar date and actual weather.\n\nCOMMON COLLOCATIONS:\n- {立冬|りっとう}を{迎|むか}える: to reach the start of winter\n- {立冬|りっとう}を{過|す}ぎる: to pass the start of winter\n- {立冬|りっとう}の{候|こう}: seasonal greeting phrase for this time of year\n- {暦|こよみ}の{上|うえ}では{立冬|りっとう}: calendrically it is the start of winter\n\nSIMILAR WORDS:\n- {立春|りっしゅん}: start of spring (around February 4)\n- {立夏|りっか}: start of summer (around May 6)\n- {立秋|りっしゅう}: start of autumn (around August 7)\n- {冬至|とうじ}: winter solstice — the shortest day of the year, distinct from the start of winter",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22417_risshun",
+      "reading": "りっしゅん",
+      "headword": "{立春|りっしゅん}",
+      "label": "start of spring"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20374_rikka",
+      "reading": "りっか",
+      "headword": "{立夏|りっか}",
+      "label": "start of summer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26285_risshuu",
+      "reading": "りっしゅう",
+      "headword": "{立秋|りっしゅう}",
+      "label": "start of autumn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11756_touji",
+      "reading": "とうじ",
+      "headword": "{冬至|とうじ}",
+      "label": "winter solstice"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-season"]
+      "semantic": [
+        "time-season"
+      ]
     },
     "created": "2026-04-30T15:37:54Z",
-    "modified": "2026-04-30T15:37:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

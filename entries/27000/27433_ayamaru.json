@@ -3,7 +3,7 @@
   "headword": "{誤|あやま}る",
   "reading": "あやまる",
   "romaji": "ayamaru",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to err; to make a mistake; to misjudge",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Transitive godan verb ({誤|あやま}る・{誤|あやま}って・{誤|あやま}った). More formal and written than {間違|まちが}える. The passive form {誤|あやま}られる is uncommon; the participial {誤|あやま}った is frequently used as a modifier ('mistaken X').\n\nTRANSITIVITY:\nTransitive: marks what is gotten wrong with を.\n- {判断|はんだん}を{誤|あやま}る: to misjudge\n- {道|みち}を{誤|あやま}る: to take the wrong path (also figurative: 'go astray')\n\nCOMMON COLLOCATIONS:\n- {判断|はんだん}を{誤|あやま}る: to misjudge\n- {選択|せんたく}を{誤|あやま}る: to choose wrongly\n- {誤|あやま}った{情報|じょうほう}: incorrect information\n- {使|つか}い{方|かた}を{誤|あやま}る: to use incorrectly\n\nSIMILAR WORDS:\n- {間違|まちが}える: to make a mistake — much more common in everyday speech; broader scope\n- {謝|あやま}る: to apologize — same reading, different kanji and meaning\n- {失敗|しっぱい}する: to fail — focuses on a failed outcome, not the wrong choice itself",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01109_machigaeru",
+      "reading": "まちがえる",
+      "headword": "{間違|まちが}える",
+      "label": "to make a mistake"
+    },
+    {
+      "type": "homophone",
+      "target_id": "01177_ayamaru",
+      "reading": "あやまる",
+      "headword": "{謝|あやま}る",
+      "label": "to apologize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01636_shippai",
+      "reading": "しっぱい",
+      "headword": "{失敗|しっぱい}",
+      "label": "to fail"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +77,7 @@
       ],
       "transitivity": "transitive",
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "cognition"
       ],
@@ -62,7 +85,7 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-05-12T03:04:54Z",
-    "modified": "2026-05-12T03:04:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

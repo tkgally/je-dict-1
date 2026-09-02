@@ -19,7 +19,9 @@
       "english": "Saliva contains digestive enzymes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15943_daeki_ex2",
@@ -27,7 +29,9 @@
       "english": "When you get nervous, saliva becomes harder to produce.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15943_daeki_ex3",
@@ -35,10 +39,12 @@
       "english": "A saliva test can check for the presence of an infection.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{唾液|だえき} is the formal, medical, and scientific term for saliva. In everyday speech, {つば} or {唾|つば} is more common. {唾液|だえき} is used in health, medical, and educational contexts.\n\nCOMMON COLLOCATIONS:\n- {唾液|だえき}{検査|けんさ} (saliva test)\n- {唾液|だえき}の{分泌|ぶんぴつ} (saliva secretion)\n- {唾液|だえき}{腺|せん} (salivary gland)\n- {唾液|だえき}が{出|で}る (to produce saliva)\n\nSIMILAR WORDS:\n{つば} ({唾|つば}) is the everyday word for spit or saliva. {よだれ} means drool, especially involuntary drooling.",
+  "notes": "USAGE:\n{唾液|だえき} is the formal, medical, and scientific term for saliva. In everyday speech, つば or {唾|つば} is more common. {唾液|だえき} is used in health, medical, and educational contexts.\n\nCOMMON COLLOCATIONS:\n- {唾液|だえき}{検査|けんさ} (saliva test)\n- {唾液|だえき}の{分泌|ぶんぴつ} (saliva secretion)\n- {唾液|だえき}{腺|せん} (salivary gland)\n- {唾液|だえき}が{出|で}る (to produce saliva)\n\nSIMILAR WORDS:\nつば ({唾|つば}) is the everyday word for spit or saliva. よだれ means drool, especially involuntary drooling.",
   "prominent_see_also": [
     {
       "target_id": "09110_tsuba",
@@ -61,19 +67,39 @@
       "reading": "なまつば",
       "headword": "{生唾|なまつば}",
       "label": "saliva from anticipation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24309_neneki",
+      "reading": "ねんえき",
+      "headword": "{粘液|ねんえき}",
+      "label": "mucus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27259_shoukaeki",
+      "reading": "しょうかえき",
+      "headword": "{消化液|しょうかえき}",
+      "label": "digestive fluid"
     }
   ],
   "metadata": {
     "created": "2026-03-09T00:42:57Z",
-    "modified": "2026-05-03T07:09:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["body-internal"],
-      "domain": ["medical"]
+      "semantic": [
+        "body-internal"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

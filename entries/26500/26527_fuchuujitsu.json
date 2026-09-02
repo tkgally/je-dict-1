@@ -3,7 +3,7 @@
   "headword": "{不忠実|ふちゅうじつ}",
   "reading": "ふちゅうじつ",
   "romaji": "fuchuujitsu",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "unfaithful; disloyal; untrue",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "The negative form of {忠実|ちゅうじつ} (faithful; loyal), formed with the prefix {不|ふ}. Functions as a na-adjective: {不忠実|ふちゅうじつ}な + noun, {不忠実|ふちゅうじつ}だ as predicate.\n\nCOMMON COLLOCATIONS:\n- {不忠実|ふちゅうじつ}な{態度|たいど}: disloyal attitude\n- {不忠実|ふちゅうじつ}な{翻訳|ほんやく}: unfaithful translation\n- {原作|げんさく}に{不忠実|ふちゅうじつ}: unfaithful to the original\n- {不忠実|ふちゅうじつ}な{部下|ぶか}: disloyal subordinate\n\nSIMILAR WORDS:\n- {不誠実|ふせいじつ}: insincere; dishonest — focuses on sincerity rather than loyalty\n- {裏切|うらぎ}り: betrayal — a stronger, more active word implying deliberate treachery\n- {不義理|ふぎり}: failing in one's social obligations — specifically about social duty",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21660_fuseijitsu",
+      "reading": "ふせいじつ",
+      "headword": "{不誠実|ふせいじつ}",
+      "label": "insincere"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17967_uragiri",
+      "reading": "うらぎり",
+      "headword": "{裏切|うらぎ}り",
+      "label": "betrayal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17218_fugiri",
+      "reading": "ふぎり",
+      "headword": "{不義理|ふぎり}",
+      "label": "failing in one's social obligations"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +75,13 @@
       "pos": [
         "adjective-na"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "personality"
       ]
     },
     "created": "2026-05-02T14:34:55Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

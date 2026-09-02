@@ -17,7 +17,9 @@
       "id": "20972_kokorogahiroi_ex1",
       "japanese": "{彼|かれ}は{心|こころ}が{広|ひろ}い{人|ひと}だ。",
       "english": "He is a broad-minded person.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20972_kokorogahiroi_ex2",
       "japanese": "{上司|じょうし}は{心|こころ}が{広|ひろ}くて、{失敗|しっぱい}しても{怒|おこ}らない。",
       "english": "My boss is generous and doesn't get angry even when I make mistakes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,66 @@
       "id": "20972_kokorogahiroi_ex3",
       "japanese": "{心|こころ}が{広|ひろ}い{人|ひと}は、{小|ちい}さなことで{文句|もんく}を{言|い}わない。",
       "english": "A tolerant person doesn't complain about small things.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "An idiomatic expression meaning broad-minded or generous. Literally '{心|こころ} (heart) が (is) {広|ひろ}い (wide).' Functions as an i-adjective phrase modifying nouns or as a predicate.\n\nCOMMON COLLOCATIONS:\n- {心|こころ}が{広|ひろ}い{人|ひと}: a broad-minded person\n- {心|こころ}が{広|ひろ}くて{優|やさ}しい: broad-minded and kind\n\nCONTRAST:\n- {心|こころ}が{狭|せま}い: narrow-minded, petty — the direct opposite\n\nSIMILAR EXPRESSIONS:\n- {寛大|かんだい}な: generous, lenient — more formal; often used for official pardons or tolerance\n- {器|うつわ}が{大|おお}きい: big-hearted — similar meaning using a different metaphor (vessel/container)",
+  "notes": "An idiomatic expression meaning broad-minded or generous. Literally '{心|こころ} (heart) が (is) {広|ひろ}い (wide).' Functions as an i-adjective phrase modifying nouns or as a predicate.\n\nCOMMON COLLOCATIONS:\n- {心|こころ}が{広|ひろ}い{人|ひと}: a broad-minded person\n- {心|こころ}が{広|ひろ}くて{優|やさ}しい: broad-minded and kind\n\nSIMILAR WORDS:\n- {心|こころ}が{狭|せま}い: narrow-minded, petty — the direct opposite\n- {寛大|かんだい}な: generous, lenient — more formal; often used for official pardons or tolerance\n- {器|うつわ}が{大|おお}きい: big-hearted — similar meaning using a different metaphor (vessel/container)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "25593_kokorogasemai",
+      "reading": "こころがせまい",
+      "headword": "{心|こころ}が{狭|せま}い",
+      "label": "narrow-minded, petty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15278_kandai",
+      "reading": "かんだい",
+      "headword": "{寛大|かんだい}",
+      "label": "generous, lenient"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25704_utsuwagaookii",
+      "reading": "うつわがおおきい",
+      "headword": "{器|うつわ}が{大|おお}きい",
+      "label": "big-hearted"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21413_doryou",
+      "reading": "どりょう",
+      "headword": "{度量|どりょう}",
+      "label": "magnanimity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25703_futokorogafukai",
+      "reading": "ふところがふかい",
+      "headword": "{懐|ふところ}が{深|ふか}い",
+      "label": "broad-minded"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["personality", "expression"]
+      "semantic": [
+        "personality",
+        "expression"
+      ]
     },
     "created": "2026-03-31T09:44:25Z",
-    "modified": "2026-03-31T09:44:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

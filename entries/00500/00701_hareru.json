@@ -153,18 +153,32 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: X⟦が→が：00051_ga⟧{晴|は}れる (X clears up).\n\nASPECT: ている indicates resulting state. {晴|は}れている = 'is clear/sunny' (current weather state).\n\nCOMMON PATTERNS:\n・⟦{空|そら}→{空|そら}：02216_sora⟧⟦が→が：00051_ga⟧{晴|は}れる (sky clears)\n・⟦{明日|あした}→{明日|あした}：00501_ashita⟧{晴|は}れる (will clear up tomorrow)\n・{晴|は}れた⟦{日|ひ}→{日|ひ}：02249_hi⟧ (sunny day)\n・{晴|は}れ{時|とき}々⟦{曇|くも}り→{曇|くも}る：00723_kumoru⟧ (partly cloudy)\n\nNoun: {晴|は}れ (clear weather). Opposite: ⟦{曇|くも}る→{曇|くも}る：00723_kumoru⟧ (become cloudy). Weather words: {晴|は}れ, ⟦{曇|くも}り→{曇|くも}る：00723_kumoru⟧, ⟦{雨|あめ}→{雨|あめ}：00583_ame⟧.",
+  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). No pair verb. Pattern: X⟦が→が：00051_ga⟧{晴|は}れる (X clears up).\n\nASPECT: ている indicates resulting state. {晴|は}れている = 'is clear/sunny' (current weather state).\n\nCOMMON PATTERNS:\n- ⟦{空|そら}→{空|そら}：02216_sora⟧⟦が→が：00051_ga⟧{晴|は}れる (sky clears)\n- ⟦{明日|あした}→{明日|あした}：00501_ashita⟧{晴|は}れる (will clear up tomorrow)\n- {晴|は}れた⟦{日|ひ}→{日|ひ}：02249_hi⟧ (sunny day)\n- {晴|は}れ{時|とき}々⟦{曇|くも}り→{曇|くも}る：00723_kumoru⟧ (partly cloudy)\n\nNoun: {晴|は}れ (clear weather). Opposite: ⟦{曇|くも}る→{曇|くも}る：00723_kumoru⟧ (become cloudy). Weather words: {晴|は}れ, ⟦{曇|くも}り→{曇|くも}る：00723_kumoru⟧, ⟦{雨|あめ}→{雨|あめ}：00583_ame⟧.",
   "cross_references": [
     {
       "type": "see_also",
       "reading": "くもる",
       "headword": "{曇|くも}る",
       "target_id": "00723_kumoru"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19897_hyoukai",
+      "reading": "ひょうかい",
+      "headword": "{氷解|ひょうかい}",
+      "label": "clearing up, vanishing (of doubts)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27987_furiyamu",
+      "reading": "ふりやむ",
+      "headword": "{降|ふ}り{止|や}む",
+      "label": "to stop raining"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:10:52Z",
-    "modified": "2026-06-10T14:04:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

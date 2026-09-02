@@ -22,7 +22,9 @@
       "id": "21712_teikiatsu_ex1",
       "japanese": "{低気圧|ていきあつ}が{近|ちか}づいている。",
       "english": "A low-pressure system is approaching.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "21712_teikiatsu_ex2",
       "japanese": "{低気圧|ていきあつ}の{影響|えいきょう}で{天気|てんき}が{崩|くず}れるだろう。",
       "english": "The weather will likely deteriorate due to the low-pressure system.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "21712_teikiatsu_ex3",
       "japanese": "{発達|はったつ}した{低気圧|ていきあつ}が{日本海|にほんかい}{側|がわ}を{通過|つうか}し、{各地|かくち}で{強風|きょうふう}と{大雨|おおあめ}になった。",
       "english": "A developed low-pressure system passed over the Sea of Japan side, bringing strong winds and heavy rain to various regions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "21712_teikiatsu_ex4",
       "japanese": "{今日|きょう}は{低気圧|ていきあつ}だね。",
       "english": "You seem to be in a bad mood today.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "21712_teikiatsu_ex5",
       "japanese": "{月曜日|げつようび}の{朝|あさ}はいつも{低気圧|ていきあつ}になる。",
       "english": "I always feel down on Monday mornings.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,7 +72,9 @@
       "id": "21712_teikiatsu_ex6",
       "japanese": "{彼女|かのじょ}は{低気圧|ていきあつ}のときに{話|はな}しかけると{怒|おこ}られるから、そっとしておいたほうがいい。",
       "english": "If you talk to her when she's in a bad mood, she'll get angry, so it's better to leave her alone.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -75,6 +87,27 @@
       "reading": "こうきあつ",
       "headword": "{高気圧|こうきあつ}",
       "label": "high pressure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01455_taifuu",
+      "reading": "たいふう",
+      "headword": "{台風|たいふう}",
+      "label": "typhoon"
+    },
+    {
+      "type": "related",
+      "target_id": "23240_ondanzensen",
+      "reading": "おんだんぜんせん",
+      "headword": "{温暖前線|おんだんぜんせん}",
+      "label": "warm front"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27375_taikiatsu",
+      "reading": "たいきあつ",
+      "headword": "{大気圧|たいきあつ}",
+      "label": "atmospheric pressure"
     }
   ],
   "metadata": {
@@ -84,11 +117,17 @@
     "vocabulary_tier": "general",
     "jlpt_level": null,
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["weather", "emotion"],
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "weather",
+        "emotion"
+      ],
       "register": [],
       "usage": []
     },
-    "modified": "2026-05-01T04:26:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

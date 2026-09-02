@@ -17,7 +17,9 @@
       "id": "19401_semento_ex1",
       "japanese": "セメントを{混|ま}ぜる。",
       "english": "To mix cement.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19401_semento_ex2",
       "japanese": "{壁|かべ}のひびをセメントで{埋|う}めた。",
       "english": "I filled the cracks in the wall with cement.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "19401_semento_ex3",
       "japanese": "セメントと{砂|すな}と{水|みず}を{混|ま}ぜて、コンクリートを{作|つく}った。",
       "english": "I made concrete by mixing cement, sand, and water.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "セメント refers to the powdery building material that hardens when mixed with water, used in construction for binding bricks, making concrete, and filling cracks. From English \"cement.\"\n\nCOMMON COLLOCATIONS:\n- セメントを{混|ま}ぜる: to mix cement\n- セメントを{塗|ぬ}る: to apply/spread cement\n- セメントが{固|かた}まる: cement hardens\n- セメント{工場|こうじょう}: cement factory\n\nRELATED TERMS:\n- コンクリート: concrete (cement mixed with gravel and water)\n- モルタル: mortar (cement mixed with sand and water)",
+  "notes": "セメント refers to the powdery building material that hardens when mixed with water, used in construction for binding bricks, making concrete, and filling cracks. From English \"cement.\"\n\nCOMMON COLLOCATIONS:\n- セメントを{混|ま}ぜる: to mix cement\n- セメントを{塗|ぬ}る: to apply/spread cement\n- セメントが{固|かた}まる: cement hardens\n- セメント{工場|こうじょう}: cement factory\n\nRELATED WORDS:\n- コンクリート: concrete (cement mixed with gravel and water)\n- モルタル: mortar (cement mixed with sand and water)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10858_konkuriito",
+      "reading": "こんくりーと",
+      "headword": "コンクリート",
+      "label": "concrete"
+    },
+    {
+      "type": "related",
+      "target_id": "29718_morutaru",
+      "reading": "もるたる",
+      "headword": "モルタル",
+      "label": "mortar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30101_kotsuzai",
+      "reading": "こつざい",
+      "headword": "{骨材|こつざい}",
+      "label": "aggregate (construction material)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     },
     "created": "2026-03-25T13:28:10Z",
-    "modified": "2026-07-26T21:32:58Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

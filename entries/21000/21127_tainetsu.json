@@ -3,7 +3,7 @@
   "headword": "{耐熱|たいねつ}",
   "reading": "たいねつ",
   "romaji": "tainetsu",
-  "part_of_speech": "noun; no-adjective",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "heat-resistant; heatproof",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "21127_tainetsu_ex1",
       "japanese": "{耐熱|たいねつ}ガラスの{容器|ようき}を{使|つか}う。",
       "english": "Use a heat-resistant glass container.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21127_tainetsu_ex2",
       "japanese": "このボウルは{耐熱|たいねつ}なので、{電子|でんし}レンジで{使|つか}える。",
       "english": "This bowl is heat-resistant, so it can be used in the microwave.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "21127_tainetsu_ex3",
       "japanese": "{耐熱|たいねつ}{温度|おんど}は200{度|ど}までとなっています。",
       "english": "The heat-resistant temperature is up to 200 degrees.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A technical modifier meaning \"heat-resistant.\" Functions as a prefix-like noun that modifies the following noun. Very common in product descriptions, cooking instructions, and materials science.\n\nCOMMON COLLOCATIONS:\n- {耐熱|たいねつ}ガラス: heat-resistant glass (Pyrex-type)\n- {耐熱|たいねつ}{容器|ようき}: heat-resistant container\n- {耐熱|たいねつ}{温度|おんど}: heat-resistance temperature\n- {耐熱|たいねつ}{素材|そざい}: heat-resistant material\n- {耐熱|たいねつ}{皿|さら}: heat-resistant dish\n\nWORD FORMATION:\nBuilt with the prefix {耐|たい}〜 (resistance to ~), which combines with many nouns:\n- {耐水|たいすい}: water-resistant\n- {耐震|たいしん}: earthquake-resistant\n- {耐久|たいきゅう}: durable, long-lasting\n\nUSAGE:\nCommonly seen on product labels and in recipe instructions. {耐熱|たいねつ}{容器|ようき}に{入|い}れてレンジで{温|あたた}める (put in a heat-resistant container and microwave) is a standard instruction.",
+  "notes": "A technical modifier meaning \"heat-resistant.\" Functions as a prefix-like noun that modifies the following noun. Very common in product descriptions, cooking instructions, and materials science.\n\nCOMMON COLLOCATIONS:\n- {耐熱|たいねつ}ガラス: heat-resistant glass (Pyrex-type)\n- {耐熱|たいねつ}{容器|ようき}: heat-resistant container\n- {耐熱|たいねつ}{温度|おんど}: heat-resistance temperature\n- {耐熱|たいねつ}{素材|そざい}: heat-resistant material\n- {耐熱|たいねつ}{皿|さら}: heat-resistant dish\n\nFORMS:\nBuilt with the prefix {耐|たい}〜 (resistance to ~), which combines with many nouns:\n- {耐水|たいすい}: water-resistant\n- {耐震|たいしん}: earthquake-resistant\n- {耐久|たいきゅう}: durable, long-lasting\n\nUSAGE:\nCommonly seen on product labels and in recipe instructions. {耐熱|たいねつ}{容器|ようき}に{入|い}れてレンジで{温|あたた}める (put in a heat-resistant container and microwave) is a standard instruction.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24232_taisui",
+      "reading": "たいすい",
+      "headword": "{耐水|たいすい}",
+      "label": "water resistance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26388_denshirenjika",
+      "reading": "でんしれんじか",
+      "headword": "{電子|でんし}レンジ{可|か}",
+      "label": "microwave-safe"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life"]
+      "semantic": [
+        "daily-life"
+      ]
     },
     "created": "2026-03-31T20:21:53Z",
-    "modified": "2026-03-31T20:21:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

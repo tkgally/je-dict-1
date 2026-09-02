@@ -17,7 +17,9 @@
       "id": "19219_hanzaisha_ex1",
       "japanese": "{犯罪者|はんざいしゃ}を{逮捕|たいほ}する。",
       "english": "To arrest a criminal.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19219_hanzaisha_ex2",
       "japanese": "{犯罪者|はんざいしゃ}は{裁判|さいばん}にかけられた。",
       "english": "The criminal was put on trial.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,59 @@
       "id": "19219_hanzaisha_ex3",
       "japanese": "{警察|けいさつ}は{犯罪者|はんざいしゃ}の{行方|ゆくえ}を{追|お}っている。",
       "english": "The police are tracking the criminal's whereabouts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A general term for someone who has committed a crime. Broader than {犯人|はんにん}, which typically refers to the perpetrator of a specific incident.\n\nFORMATION:\n{犯罪|はんざい} (crime) + {者|しゃ} (person).\n\nCOMMON COLLOCATIONS:\n- {犯罪者|はんざいしゃ}を{逮捕|たいほ}する: to arrest a criminal\n- {犯罪者|はんざいしゃ}を{裁|さば}く: to judge a criminal\n- {凶悪|きょうあく}{犯罪者|はんざいしゃ}: violent criminal\n- {犯罪者|はんざいしゃ}の{更生|こうせい}: rehabilitation of criminals\n\nRELATED TERMS:\n- {犯人|はんにん}: perpetrator (of a specific crime, more colloquial)\n- {容疑者|ようぎしゃ}: suspect\n- {被告人|ひこくにん}: defendant\n- {受刑者|じゅけいしゃ}: prisoner, convict",
+  "notes": "A general term for someone who has committed a crime. Broader than {犯人|はんにん}, which typically refers to the perpetrator of a specific incident.\n\nFORMS:\n{犯罪|はんざい} (crime) + {者|しゃ} (person).\n\nCOMMON COLLOCATIONS:\n- {犯罪者|はんざいしゃ}を{逮捕|たいほ}する: to arrest a criminal\n- {犯罪者|はんざいしゃ}を{裁|さば}く: to judge a criminal\n- {凶悪|きょうあく}{犯罪者|はんざいしゃ}: violent criminal\n- {犯罪者|はんざいしゃ}の{更生|こうせい}: rehabilitation of criminals\n\nRELATED WORDS:\n- {犯人|はんにん}: perpetrator (of a specific crime, more colloquial)\n- {容疑者|ようぎしゃ}: suspect\n- {被告人|ひこくにん}: defendant\n- {受刑者|じゅけいしゃ}: prisoner, convict",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03572_hannin",
+      "reading": "はんにん",
+      "headword": "{犯人|はんにん}",
+      "label": "perpetrator"
+    },
+    {
+      "type": "related",
+      "target_id": "15039_yougisha",
+      "reading": "ようぎしゃ",
+      "headword": "{容疑者|ようぎしゃ}",
+      "label": "suspect"
+    },
+    {
+      "type": "related",
+      "target_id": "20130_hikokunin",
+      "reading": "ひこくにん",
+      "headword": "{被告人|ひこくにん}",
+      "label": "defendant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13984_zainin",
+      "reading": "ざいにん",
+      "headword": "{罪人|ざいにん}",
+      "label": "criminal, sinner, offender"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["law", "person"]
+      "semantic": [
+        "law",
+        "person"
+      ]
     },
     "created": "2026-03-25T01:34:11Z",
-    "modified": "2026-03-25T05:40:40Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

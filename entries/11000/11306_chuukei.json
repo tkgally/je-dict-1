@@ -2,7 +2,7 @@
   "id": "11306_chuukei",
   "headword": "{中継|ちゅうけい}",
   "reading": "ちゅうけい",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "relay, live broadcast",
   "conjugation": {
     "type": "suru",
@@ -143,10 +143,32 @@
       "note": "live broadcast"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02093_housou",
+      "reading": "ほうそう",
+      "headword": "{放送|ほうそう}",
+      "label": "broadcast"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04898_haishin",
+      "reading": "はいしん",
+      "headword": "{配信|はいしん}",
+      "label": "distribution, streaming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01852_housousuru",
+      "reading": "ほうそうする",
+      "headword": "{放送|ほうそう}する",
+      "label": "broadcast"
+    }
+  ],
   "metadata": {
     "created": "2026-02-15T22:39:42Z",
-    "modified": "2026-05-03T09:07:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

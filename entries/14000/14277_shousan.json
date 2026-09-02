@@ -3,7 +3,7 @@
   "id": "14277_shousan",
   "headword": "{賞賛|しょうさん}",
   "reading": "しょうさん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "praise; admiration; commendation",
   "conjugation": {
     "type": "suru",
@@ -149,11 +149,32 @@
       "reading": "ぜっさん",
       "headword": "{絶賛|ぜっさん}",
       "label": "rave praise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13751_tataeru",
+      "reading": "たたえる",
+      "headword": "{称|たた}える",
+      "label": "to extol, to honor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19713_gekishou",
+      "reading": "げきしょう",
+      "headword": "{激賞|げきしょう}",
+      "label": "high praise"
+    },
+    {
+      "type": "homophone",
+      "target_id": "21287_shousan",
+      "reading": "しょうさん",
+      "headword": "{称賛|しょうさん}",
+      "label": "praise"
     }
   ],
   "metadata": {
     "created": "2026-02-28T09:22:41Z",
-    "modified": "2026-04-30T06:34:37Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

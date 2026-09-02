@@ -19,7 +19,9 @@
       "english": "Do you have the original?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15697_genpon_ex2",
@@ -27,7 +29,9 @@
       "english": "We need the original, not a copy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15697_genpon_ex3",
@@ -35,7 +39,9 @@
       "english": "The original of the contract is kept in the safe.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCommonly encountered when dealing with official paperwork, where authorities may require the original document rather than a photocopy. Also used in publishing to refer to the original text of a translated work.\n\nCOMMON COLLOCATIONS:\n- {原本|げんぽん}を{提出|ていしゅつ}する (to submit the original)\n- {原本|げんぽん}を{確認|かくにん}する (to verify the original)\n- {原本|げんぽん}{証明|しょうめい} (certification of the original)\n- {原本|げんぽん}に{相違|そうい}ない (identical to the original)\n\nSIMILAR WORDS:\n- {原文|げんぶん}: original text (especially of a translation)\n- {写|うつ}し: copy, duplicate\n- {正本|せいほん}: authenticated copy, official copy",
@@ -46,18 +52,43 @@
       "reading": "げんぶん",
       "headword": "{原文|げんぶん}",
       "label": "original text"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22466_utsushi",
+      "reading": "うつし",
+      "headword": "{写|うつ}し",
+      "label": "copy, duplicate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26453_seihon",
+      "reading": "せいほん",
+      "headword": "{正本|せいほん}",
+      "label": "authenticated copy, official copy"
+    },
+    {
+      "type": "related",
+      "target_id": "20963_shahon",
+      "reading": "しゃほん",
+      "headword": "{写本|しゃほん}",
+      "label": "manuscript"
     }
   ],
   "metadata": {
     "created": "2026-03-08T07:38:33Z",
-    "modified": "2026-05-01T10:15:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{憂慮|ゆうりょ}",
   "reading": "ゆうりょ",
   "romaji": "yuuryo",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "concern; anxiety; apprehension",
   "conjugation": {
     "type": "suru",
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "A formal word for deep concern or worry about serious matters. Much more formal than {心配|しんぱい} and typically used in official statements, diplomatic language, and news reporting.\n\nCOMMON COLLOCATIONS:\n- {憂慮|ゆうりょ}を{示|しめ}す: to express concern\n- {憂慮|ゆうりょ}すべき: deserving of concern; worrisome\n- {深|ふか}い{憂慮|ゆうりょ}: deep concern\n- {憂慮|ゆうりょ}の{念|ねん}: feelings of concern\n- {憂慮|ゆうりょ}に{堪|た}えない: unbearably worrying\n\nSIMILAR WORDS:\n- {心配|しんぱい}: worry — everyday, personal, and less formal\n- {懸念|けねん}: concern — also formal, but slightly less grave than {憂慮|ゆうりょ}\n- {不安|ふあん}: anxiety — more emotional and personal\n\nFORMATION:\n{憂|ゆう} (grief, sorrow) + {慮|りょ} (consideration, thought) — sorrowful deliberation.",
+  "notes": "A formal word for deep concern or worry about serious matters. Much more formal than {心配|しんぱい} and typically used in official statements, diplomatic language, and news reporting.\n\nCOMMON COLLOCATIONS:\n- {憂慮|ゆうりょ}を{示|しめ}す: to express concern\n- {憂慮|ゆうりょ}すべき: deserving of concern; worrisome\n- {深|ふか}い{憂慮|ゆうりょ}: deep concern\n- {憂慮|ゆうりょ}の{念|ねん}: feelings of concern\n- {憂慮|ゆうりょ}に{堪|た}えない: unbearably worrying\n\nSIMILAR WORDS:\n- {心配|しんぱい}: worry — everyday, personal, and less formal\n- {懸念|けねん}: concern — also formal, but slightly less grave than {憂慮|ゆうりょ}\n- {不安|ふあん}: anxiety — more emotional and personal\n\nFORMS:\n{憂|ゆう} (grief, sorrow) + {慮|りょ} (consideration, thought) — sorrowful deliberation.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00811_shinpai",
+      "reading": "しんぱい",
+      "headword": "{心配|しんぱい}",
+      "label": "worry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05622_kenen",
+      "reading": "けねん",
+      "headword": "{懸念|けねん}",
+      "label": "concern"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00836_fuan",
+      "reading": "ふあん",
+      "headword": "{不安|ふあん}",
+      "label": "anxiety"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +174,6 @@
       "verb_class": "suru"
     },
     "created": "2026-04-01T15:26:33Z",
-    "modified": "2026-04-01T15:26:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

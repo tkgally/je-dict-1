@@ -16,7 +16,9 @@
       "id": "20533_ikkaikagiri_ex1",
       "japanese": "このクーポンは{一回限|いっかいかぎ}り{有効|ゆうこう}です。",
       "english": "This coupon is valid for one use only.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "20533_ikkaikagiri_ex2",
       "japanese": "{一回限|いっかいかぎ}りのチャンスを{逃|のが}すな。",
       "english": "Don't miss this once-only chance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,22 +36,51 @@
       "id": "20533_ikkaikagiri_ex3",
       "japanese": "{無料体験|むりょうたいけん}は{一回限|いっかいかぎ}りとなっておりますので、ご{了承|りょうしょう}ください。",
       "english": "Please understand that the free trial is limited to one time only.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {一回|いっかい} (one time) and {限|かぎ}り (limit, only). Functions as a noun that modifies other nouns with の, or stands alone as a predicate.\n\nCOMMON COLLOCATIONS:\n- {一回限|いっかいかぎ}りの{特別|とくべつ}サービス: a one-time-only special service\n- {一回限|いっかいかぎ}り{有効|ゆうこう}: valid for one use\n- {一回限|いっかいかぎ}りのイベント: a one-time event\n\nSIMILAR EXPRESSIONS:\n- {一度|いちど}きり: only once — emphasizes the emotional weight of a single occurrence\n- {単発|たんぱつ}: one-time, one-shot — used for events, jobs, or projects\n- {限定|げんてい}: limited — broader term for limited availability",
+  "notes": "Composed of {一回|いっかい} (one time) and {限|かぎ}り (limit, only). Functions as a noun that modifies other nouns with の, or stands alone as a predicate.\n\nCOMMON COLLOCATIONS:\n- {一回限|いっかいかぎ}りの{特別|とくべつ}サービス: a one-time-only special service\n- {一回限|いっかいかぎ}り{有効|ゆうこう}: valid for one use\n- {一回限|いっかいかぎ}りのイベント: a one-time event\n\nSIMILAR WORDS:\n- {一度|いちど}きり: only once — emphasizes the emotional weight of a single occurrence\n- {単発|たんぱつ}: one-time, one-shot — used for events, jobs, or projects\n- {限定|げんてい}: limited — broader term for limited availability",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22058_ichidokiri",
+      "reading": "いちどきり",
+      "headword": "{一度|いちど}きり",
+      "label": "only once"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20543_tanpatsu",
+      "reading": "たんぱつ",
+      "headword": "{単発|たんぱつ}",
+      "label": "one-time, one-shot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10997_gentei",
+      "reading": "げんてい",
+      "headword": "{限定|げんてい}",
+      "label": "limited"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity"]
+      "semantic": [
+        "quantity"
+      ]
     },
     "created": "2026-03-29T17:06:30Z",
-    "modified": "2026-03-29T17:06:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

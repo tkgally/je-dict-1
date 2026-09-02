@@ -17,7 +17,9 @@
       "id": "22571_tsuuchisettei_ex1",
       "japanese": "{通知設定|つうちせってい}を{変更|へんこう}する。",
       "english": "To change the notification settings.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22571_tsuuchisettei_ex2",
       "japanese": "アプリの{通知設定|つうちせってい}をオフにした。",
       "english": "I turned off the app's notification settings.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "22571_tsuuchisettei_ex3",
       "japanese": "{通知設定|つうちせってい}を{見直|みなお}して、{必要|ひつよう}のないアラートを{減|へ}らした。",
       "english": "I reviewed the notification settings and reduced unnecessary alerts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {通知|つうち} (notification, alert) and {設定|せってい} (settings, configuration). A modern technology term used for configuring how and when a device or application sends alerts to the user. Ubiquitous in smartphone, app, and web service contexts.\n\nCOMMON COLLOCATIONS:\n- {通知設定|つうちせってい}を{変更|へんこう}する: to change notification settings\n- {通知設定|つうちせってい}をオンにする: to turn on notifications\n- {通知設定|つうちせってい}をオフにする: to turn off notifications\n- {通知設定|つうちせってい}{画面|がめん}: notification settings screen\n\nRELATED TERMS:\n- プッシュ{通知|つうち}: push notification — a specific type of notification sent by apps\n- {着信|ちゃくしん}{通知|つうち}: incoming call notification\n- {通知|つうち}{音|おん}: notification sound",
+  "notes": "A compound of {通知|つうち} (notification, alert) and {設定|せってい} (settings, configuration). A modern technology term used for configuring how and when a device or application sends alerts to the user. Ubiquitous in smartphone, app, and web service contexts.\n\nCOMMON COLLOCATIONS:\n- {通知設定|つうちせってい}を{変更|へんこう}する: to change notification settings\n- {通知設定|つうちせってい}をオンにする: to turn on notifications\n- {通知設定|つうちせってい}をオフにする: to turn off notifications\n- {通知設定|つうちせってい}{画面|がめん}: notification settings screen\n\nRELATED WORDS:\n- プッシュ{通知|つうち}: push notification — a specific type of notification sent by apps\n- {着信|ちゃくしん}{通知|つうち}: incoming call notification\n- {通知|つうち}{音|おん}: notification sound",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06477_pusshutsuuchi",
+      "reading": "ぷっしゅつうち",
+      "headword": "プッシュ{通知|つうち}",
+      "label": "push notification"
+    },
+    {
+      "type": "related",
+      "target_id": "29832_tsuuchion",
+      "reading": "つうちおん",
+      "headword": "{通知音|つうちおん}",
+      "label": "notification sound"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["technology", "daily-life"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "technology",
+        "daily-life"
+      ],
       "formality": "neutral",
       "politeness": "plain"
     },
     "created": "2026-04-06T18:14:03Z",
-    "modified": "2026-04-06T18:14:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "22920_kanbandaore_ex1",
       "japanese": "あの{店|みせ}は{看板倒|かんばんだお}れだ。",
       "english": "That shop is all show and no substance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22920_kanbandaore_ex2",
       "japanese": "{有名|ゆうめい}シェフの{店|みせ}だが、{味|あじ}は{看板倒|かんばんだお}れだった。",
       "english": "It was a famous chef's restaurant, but the taste didn't live up to the name.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "22920_kanbandaore_ex3",
       "japanese": "スローガンだけ{立派|りっぱ}で{実行|じっこう}が{伴|ともな}わないのは{看板倒|かんばんだお}れと{言|い}わざるを{得|え}ない。",
       "english": "Having impressive slogans without follow-through can only be called all talk and no action.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Literally \"the signboard has fallen over\" — the impressive sign ({看板|かんばん}) collapses ({倒|たお}れ), meaning the outward appearance or reputation does not hold up. A vivid metaphor for businesses, policies, or people that promise much but deliver little.\n\nCOMMON COLLOCATIONS:\n- {看板倒|かんばんだお}れに{終|お}わる: to end up as empty promises\n- {看板倒|かんばんだお}れの{政策|せいさく}: a policy that's all talk\n- {看板倒|かんばんだお}れにならないように: so as not to be all show\n\nSIMILAR WORDS:\n- {名前負|なまえま}け: losing to one's name — when someone or something can't live up to a grand name\n- {有名無実|ゆうめいむじつ}: famous in name only — formal expression for something that exists in name but has no substance\n- {羊頭狗肉|ようとうくにく}: sheep's head, dog meat — advertising something fine but selling something inferior (more literary)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06459_yuumeimujitsu",
+      "reading": "ゆうめいむじつ",
+      "headword": "{有名無実|ゆうめいむじつ}",
+      "label": "famous in name only"
+    },
+    {
+      "type": "related",
+      "target_id": "23385_kanbanwokakageru",
+      "reading": "かんばんをかかげる",
+      "headword": "{看板|かんばん}を{掲|かか}げる",
+      "label": "to hang out a sign"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["idiom"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "idiom"
+      ],
       "formality": "neutral",
       "politeness": "plain"
     },
     "created": "2026-04-07T21:09:31Z",
-    "modified": "2026-04-07T21:09:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

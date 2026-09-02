@@ -3,7 +3,7 @@
   "headword": "{潔癖|けっぺき}",
   "reading": "けっぺき",
   "romaji": "keppeki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "fastidiousness; obsessive cleanliness; perfectionism about purity",
   "definitions": [
     {
@@ -80,7 +80,22 @@
     }
   ],
   "notes": "Functions both as a noun and as a na-adjective ({潔癖|けっぺき}な). Sense 1 (cleanliness obsession) is more common in everyday conversation, while sense 2 (moral strictness) appears more in written or formal contexts. The compound {潔癖|けっぺき}{症|しょう} is very common and implies a near-pathological level of cleanliness obsession.\n\nCOMMON COLLOCATIONS:\n- {潔癖|けっぺき}{症|しょう}: mysophobia; cleanliness obsession\n- {潔癖|けっぺき}な{性格|せいかく}: fastidious personality\n- {潔癖|けっぺき}すぎる: too fastidious\n- {金銭的|きんせんてき}に{潔癖|けっぺき}: scrupulous about money\n\nSIMILAR WORDS:\n- きれい{好|ず}き: cleanliness-loving — a milder, more positive term for liking cleanliness\n- {神経質|しんけいしつ}: nervous; neurotic — broader term for being overly sensitive or anxious about things\n- {几帳面|きちょうめん}: meticulous; precise — focuses on being methodical and orderly, not specifically about cleanliness",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07606_shinkeishitsu",
+      "reading": "しんけいしつ",
+      "headword": "{神経質|しんけいしつ}",
+      "label": "nervous"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06868_kichoumen",
+      "reading": "きちょうめん",
+      "headword": "{几帳面|きちょうめん}",
+      "label": "meticulous"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -97,6 +112,6 @@
       "domain": []
     },
     "created": "2026-05-05T16:19:01Z",
-    "modified": "2026-05-05T16:19:01Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

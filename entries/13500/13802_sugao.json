@@ -24,7 +24,9 @@
       "english": "She has a beautiful bare face.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13802_sugao_ex2",
@@ -32,7 +34,9 @@
       "english": "On days off, I often go without makeup.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13802_sugao_ex3",
@@ -40,7 +44,9 @@
       "english": "There's a big difference between her bare face and her face with makeup.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13802_sugao_ex4",
@@ -48,7 +54,9 @@
       "english": "To get close to a celebrity's true self.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13802_sugao_ex5",
@@ -56,7 +64,9 @@
       "english": "There's a real side of them that they don't show in front of the camera.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13802_sugao_ex6",
@@ -64,21 +74,56 @@
       "english": "The director's true character was glimpsed in the interview.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nIn sense 1, often used as a no-adjective ({素顔|すがお}の + noun). In sense 2, commonly used in media and entertainment to talk about the private side of public figures.\n\nCOMMON COLLOCATIONS:\n- {素顔|すがお}に{迫|せま}る: to get at someone's true self\n- {素顔|すがお}を{見|み}せる: to show one's true face\n- {素顔|すがお}が{美|うつく}しい: to be naturally beautiful\n- {素顔|すがお}のまま: as-is, without makeup/pretense",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10170_honsei",
+      "reading": "ほんせい",
+      "headword": "{本性|ほんせい}",
+      "label": "true nature"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12873_honshou",
+      "reading": "ほんしょう",
+      "headword": "{本性|ほんしょう}",
+      "label": "true nature, true character"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25097_jigao",
+      "reading": "じがお",
+      "headword": "{地顔|じがお}",
+      "label": "natural face"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26327_jitsuzou",
+      "reading": "じつぞう",
+      "headword": "{実像|じつぞう}",
+      "label": "real image"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T04:14:48Z",
-    "modified": "2026-02-27T04:14:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-part"]
+      "semantic": [
+        "body-part"
+      ]
     }
   }
 }

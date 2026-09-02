@@ -17,7 +17,9 @@
       "id": "25893_bajiru_ex1",
       "japanese": "パスタにバジルをのせる。",
       "english": "Put basil on the pasta.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25893_bajiru_ex2",
       "japanese": "{庭|にわ}でバジルを{育|そだ}てている。",
       "english": "I'm growing basil in the garden.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "25893_bajiru_ex3",
       "japanese": "トマトとモッツァレラとバジルのサラダは{夏|なつ}にぴったりだ。",
       "english": "A salad of tomato, mozzarella, and basil is perfect for summer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"basil.\" One of the most popular herbs in Japanese home cooking, especially since the spread of Italian cuisine in Japan. Easy to grow at home, making it a common choice for kitchen gardens and balcony herb pots.\n\nThe Japanese name {目箒|めぼうき} exists but is rarely used in modern Japanese. バジル is the standard term in supermarkets, recipes, and restaurants.\n\nCOMMON COLLOCATIONS:\n- フレッシュバジル: fresh basil\n- バジルソース: basil sauce (pesto)\n- バジルの{葉|は}: basil leaves\n- バジルを{育|そだ}てる: to grow basil\n- バジルペースト: basil paste\n\nSIMILAR WORDS:\n- パセリ: parsley — another common herb, used more as a garnish\n- シソ: shiso; perilla — a related herb native to East Asia, sometimes called \"Japanese basil\"\n- ハーブ: herb — the general category",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21585_paseri",
+      "reading": "ぱせり",
+      "headword": "パセリ",
+      "label": "parsley"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11246_haabu",
+      "reading": "はーぶ",
+      "headword": "ハーブ",
+      "label": "herb"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food", "plant-general"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "plant-general"
+      ]
     },
     "created": "2026-04-28T11:25:02Z",
-    "modified": "2026-04-28T11:25:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

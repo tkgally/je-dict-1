@@ -17,7 +17,9 @@
       "id": "28987_botabota_ex1",
       "japanese": "{血|ち}がぼたぼたと{床|ゆか}に{落|お}ちた。",
       "english": "Blood dripped onto the floor in heavy drops.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28987_botabota_ex2",
       "japanese": "{雨|あめ}がぼたぼたと{傘|かさ}を{叩|たた}いた。",
       "english": "Rain drummed heavily on the umbrella in big drops.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,54 @@
       "id": "28987_botabota_ex3",
       "japanese": "{絞|しぼ}った{雑巾|ぞうきん}から{水|みず}がぼたぼたと{垂|た}れている。",
       "english": "Water is dripping in big drops from the rag I wrung out.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Suggests larger, heavier drops than ぽたぽた. The 「ぼ」 sound carries a sense of weight or viscosity.\n\nCOMMON COLLOCATIONS:\n- ぼたぼた{落|お}ちる: to drip in large drops\n- ぼたぼたと{垂|た}れる: to drip down heavily\n- ぼたぼたと{滴|したた}る: to fall in heavy drops\n\nSIMILAR WORDS:\n- ぽたぽた: smaller, slower drops — lighter, more delicate sound\n- たらたら: a thin continuous trickle — connected flow rather than separate drops\n- だらだら: a sluggish ongoing flow — even thicker and more sustained",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05715_potapota",
+      "reading": "ぽたぽた",
+      "headword": "ぽたぽた",
+      "label": "smaller, slower drops"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28988_taratara",
+      "reading": "たらたら",
+      "headword": "たらたら",
+      "label": "a thin continuous trickle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05843_daradara",
+      "reading": "だらだら",
+      "headword": "だらだら",
+      "label": "a sluggish ongoing flow"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "onomatopoeia"],
+      "pos": [
+        "adverb",
+        "onomatopoeia"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["descriptive", "onomatopoeia"],
+      "politeness": "plain",
+      "semantic": [
+        "descriptive",
+        "onomatopoeia"
+      ],
       "domain": []
     },
     "created": "2026-06-08T07:55:39Z",
-    "modified": "2026-06-08T07:55:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

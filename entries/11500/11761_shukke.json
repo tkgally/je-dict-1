@@ -2,7 +2,7 @@
   "id": "11761_shukke",
   "headword": "{出家|しゅっけ}",
   "reading": "しゅっけ",
-  "part_of_speech": "noun; noun (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "entering the priesthood, becoming a monk or nun",
   "conjugation": {
     "type": "suru",
@@ -133,11 +133,19 @@
       ]
     }
   ],
-  "notes": "A Buddhist term literally meaning \"leaving home\" ({出|しゅつ} = leave, {家|け} = home/household). In Japanese history, many nobles and warriors took Buddhist vows, often for political reasons or after retirement.\n\nThe opposite is {在家|ざいけ} (lay person, remaining in secular life).\n\nCOMMON COLLOCATIONS:\n・{出家|しゅっけ}する (to enter the priesthood)\n・{出家|しゅっけ}{得度|とくど} (taking the tonsure and ordination)\n・{出家|しゅっけ}{者|しゃ} (one who has entered the priesthood)",
-  "cross_references": [],
+  "notes": "A Buddhist term literally meaning \"leaving home\" ({出|しゅつ} = leave, {家|け} = home/household). In Japanese history, many nobles and warriors took Buddhist vows, often for political reasons or after retirement.\n\nThe opposite is {在家|ざいけ} (lay person, remaining in secular life).\n\nCOMMON COLLOCATIONS:\n- {出家|しゅっけ}する (to enter the priesthood)\n- {出家|しゅっけ}{得度|とくど} (taking the tonsure and ordination)\n- {出家|しゅっけ}{者|しゃ} (one who has entered the priesthood)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25077_teihatsu",
+      "reading": "ていはつ",
+      "headword": "{剃髪|ていはつ}",
+      "label": "head shaving"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T23:15:01Z",
-    "modified": "2026-03-29T03:07:52Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

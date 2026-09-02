@@ -3,7 +3,7 @@
   "headword": "{沸騰|ふっとう}する",
   "reading": "ふっとうする",
   "romaji": "futtousuru",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to boil; to reach boiling point",
   "conjugation": {
     "type": "suru",
@@ -177,8 +177,37 @@
       "note": "noun form"
     }
   ],
-  "cross_references": [],
-  "notes": "Literally means to boil (of a liquid), and is commonly used figuratively to describe heated emotions or public uproar.\n\nCOMMON COLLOCATIONS:\n- お{湯|ゆ}が{沸騰|ふっとう}する: the water boils\n- {沸騰|ふっとう}したお{湯|ゆ}: boiling water\n- {世論|よろん}が{沸騰|ふっとう}する: public opinion boils over\n- {会場|かいじょう}が{沸騰|ふっとう}する: the venue erupts\n\nSIMILAR WORDS:\n- {沸|わ}く: to boil (native Japanese, everyday); also means to well up (emotions)\n- {沸|わ}かす: to bring to a boil (transitive)\n- {煮立|にた}つ: to come to a boil (used in cooking)\n\nNOTE:\nIn cooking contexts, {沸騰|ふっとう} specifically refers to a rolling boil at 100°C, while {沸|わ}く can refer to water that is merely hot enough.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01122_waku",
+      "reading": "わく",
+      "headword": "{沸|わ}く",
+      "label": "to boil"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01105_wakasu",
+      "reading": "わかす",
+      "headword": "{沸|わ}かす",
+      "label": "to bring to a boil"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13404_nitatsu",
+      "reading": "にたつ",
+      "headword": "{煮立|にた}つ",
+      "label": "to come to a boil"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21380_wakitatsu",
+      "reading": "わきたつ",
+      "headword": "{沸|わ}き{立|た}つ",
+      "label": "to boil up"
+    }
+  ],
+  "notes": "Literally means to boil (of a liquid), and is commonly used figuratively to describe heated emotions or public uproar.\n\nCOMMON COLLOCATIONS:\n- お{湯|ゆ}が{沸騰|ふっとう}する: the water boils\n- {沸騰|ふっとう}したお{湯|ゆ}: boiling water\n- {世論|よろん}が{沸騰|ふっとう}する: public opinion boils over\n- {会場|かいじょう}が{沸騰|ふっとう}する: the venue erupts\n\nSIMILAR WORDS:\n- {沸|わ}く: to boil (native Japanese, everyday); also means to well up (emotions)\n- {沸|わ}かす: to bring to a boil (transitive)\n- {煮立|にた}つ: to come to a boil (used in cooking)\n\nUSAGE:\nIn cooking contexts, {沸騰|ふっとう} specifically refers to a rolling boil at 100°C, while {沸|わ}く can refer to water that is merely hot enough.",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -196,6 +225,6 @@
       "verb_class": "suru"
     },
     "created": "2026-04-04T19:27:15Z",
-    "modified": "2026-04-07T05:56:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

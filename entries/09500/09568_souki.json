@@ -18,7 +18,9 @@
       "english": "To detect the illness early.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09568_souki_ex2",
@@ -26,7 +28,9 @@
       "english": "I chose early retirement.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09568_souki_ex3",
@@ -34,21 +38,42 @@
       "english": "We aim for an early resolution of the problem.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{早期|そうき} means \"early stage\" or \"early period\" — it refers to the beginning phase of a process, condition, or timeline. Almost always used as a modifier before another noun.\n\nCOMMON COMPOUNDS:\n- {早期|そうき}{発見|はっけん}: early detection\n- {早期|そうき}{治療|ちりょう}: early treatment\n- {早期|そうき}{退職|たいしょく}: early retirement\n- {早期|そうき}{解決|かいけつ}: early resolution\n- {早期|そうき}{教育|きょういく}: early education\n\nCOMMON PATTERNS:\n- {早期|そうき}に{発見|はっけん}する: to detect at an early stage\n- {早期|そうき}の{段階|だんかい}で: at an early stage\n\nSIMILAR WORDS:\n- {初期|しょき}: initial stage (the very beginning; also used for \"early\" in diseases)\n- {早急|さっきゅう}: urgent, prompt (emphasizes speed rather than timing)",
-  "cross_references": [],
+  "notes": "{早期|そうき} means \"early stage\" or \"early period\" — it refers to the beginning phase of a process, condition, or timeline. Almost always used as a modifier before another noun.\n\nCOMPOUNDS:\n- {早期|そうき}{発見|はっけん}: early detection\n- {早期|そうき}{治療|ちりょう}: early treatment\n- {早期|そうき}{退職|たいしょく}: early retirement\n- {早期|そうき}{解決|かいけつ}: early resolution\n- {早期|そうき}{教育|きょういく}: early education\n\nCOMMON PATTERNS:\n- {早期|そうき}に{発見|はっけん}する: to detect at an early stage\n- {早期|そうき}の{段階|だんかい}で: at an early stage\n\nSIMILAR WORDS:\n- {初期|しょき}: initial stage (the very beginning; also used for \"early\" in diseases)\n- {早急|さっきゅう}: urgent, prompt (emphasizes speed rather than timing)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11742_shoki",
+      "reading": "しょき",
+      "headword": "{初期|しょき}",
+      "label": "initial stage (the very beginning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18512_sakkyuu",
+      "reading": "さっきゅう",
+      "headword": "{早急|さっきゅう}",
+      "label": "urgent, prompt"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T00:29:56Z",
-    "modified": "2026-03-29T09:23:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

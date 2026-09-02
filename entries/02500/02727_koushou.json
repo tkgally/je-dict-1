@@ -2,7 +2,7 @@
   "id": "02727_koushou",
   "headword": "{交渉|こうしょう}",
   "reading": "こうしょう",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "negotiation, bargaining",
   "conjugation": {
     "type": "suru",
@@ -133,11 +133,33 @@
       ]
     }
   ],
-  "notes": "{交渉|こうしょう} refers to discussion aimed at reaching an agreement between two or more parties. Used in both formal (diplomatic, business) and everyday (salary, contract) contexts.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {交渉|こうしょう}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {交渉|こうしょう}⟦する→する：00392_suru⟧: to negotiate\n- {交渉|こうしょう}⟦に→に：00314_ni⟧⟦{応|おう}じる→応じる：02018_oujiru⟧: to respond to/accept negotiations\n- {交渉|こうしょう}⟦が→が：00051_ga⟧⟦まとまる→まとまる：01642_matomaru⟧: negotiations conclude successfully\n- {交渉|こうしょう}⟦が→が：00051_ga⟧⟦{決裂|けつれつ}する→決裂：14895_ketsuretsu⟧: negotiations break down\n- {交渉|こうしょう}⟦の→の：09472_no⟧⟦{余地|よち}→余地：07612_yochi⟧: room for negotiation\n\nCOMMON TYPES:\n- ⟦{賃金|ちんぎん}→賃金：04842_chingin⟧{交渉|こうしょう}: wage negotiation\n- ⟦{外交|がいこう}→外交：02627_gaikou⟧{交渉|こうしょう}: diplomatic negotiation\n- ⟦{団体|だんたい}→団体：03426_dantai⟧{交渉|こうしょう}: collective bargaining",
-  "cross_references": [],
+  "notes": "{交渉|こうしょう} refers to discussion aimed at reaching an agreement between two or more parties. Used in both formal (diplomatic, business) and everyday (salary, contract) contexts.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {交渉|こうしょう}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {交渉|こうしょう}⟦する→する：00392_suru⟧: to negotiate\n- {交渉|こうしょう}⟦に→に：00314_ni⟧⟦{応|おう}じる→応じる：02018_oujiru⟧: to respond to/accept negotiations\n- {交渉|こうしょう}⟦が→が：00051_ga⟧⟦まとまる→まとまる：01642_matomaru⟧: negotiations conclude successfully\n- {交渉|こうしょう}⟦が→が：00051_ga⟧⟦{決裂|けつれつ}する→決裂：14895_ketsuretsu⟧: negotiations break down\n- {交渉|こうしょう}⟦の→の：09472_no⟧⟦{余地|よち}→余地：07612_yochi⟧: room for negotiation\n\nTYPES:\n- ⟦{賃金|ちんぎん}→賃金：04842_chingin⟧{交渉|こうしょう}: wage negotiation\n- ⟦{外交|がいこう}→外交：02627_gaikou⟧{交渉|こうしょう}: diplomatic negotiation\n- ⟦{団体|だんたい}→団体：03426_dantai⟧{交渉|こうしょう}: collective bargaining",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07703_kakehiki",
+      "reading": "かけひき",
+      "headword": "{駆|か}け{引|ひ}き",
+      "label": "bargaining"
+    },
+    {
+      "type": "related",
+      "target_id": "08360_negiru",
+      "reading": "ねぎる",
+      "headword": "{値切|ねぎ}る",
+      "label": "to haggle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27667_danpan",
+      "reading": "だんぱん",
+      "headword": "{談判|だんぱん}",
+      "label": "negotiation"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T07:28:00Z",
-    "modified": "2026-05-21T21:13:53Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

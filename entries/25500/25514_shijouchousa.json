@@ -17,7 +17,9 @@
       "id": "25514_shijouchousa_ex1",
       "japanese": "{市場調査|しじょうちょうさ}を{行|おこな}う。",
       "english": "To conduct market research.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25514_shijouchousa_ex2",
       "japanese": "{新製品|しんせいひん}の{発売|はつばい}{前|まえ}に{市場調査|しじょうちょうさ}が{必要|ひつよう}だ。",
       "english": "Market research is necessary before launching a new product.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,44 @@
       "id": "25514_shijouchousa_ex3",
       "japanese": "{市場調査|しじょうちょうさ}の{結果|けっか}をもとに、ターゲット{層|そう}を{見直|みなお}すことにした。",
       "english": "Based on the results of the market research, we decided to reassess the target demographic.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {市場|しじょう} (market) + {調査|ちょうさ} (investigation; survey). A standard business term used across industries. The loanword マーケティングリサーチ is also used but {市場調査|しじょうちょうさ} remains the dominant term in formal and corporate Japanese.\n\nCOMMON COLLOCATIONS:\n- {市場調査|しじょうちょうさ}を{行|おこな}う: to conduct market research\n- {市場調査|しじょうちょうさ}の{結果|けっか}: results of market research\n- {市場調査|しじょうちょうさ}{会社|かいしゃ}: market research company\n- {市場調査|しじょうちょうさ}{報告書|ほうこくしょ}: market research report\n\nSIMILAR WORDS:\n- マーケティング: marketing — broader; encompasses strategy, advertising, and promotion, not just research\n- {世論調査|よろんちょうさ}: opinion poll — surveys public opinion on social/political issues rather than consumer behavior\n- {消費者調査|しょうひしゃちょうさ}: consumer survey — narrower; focuses specifically on consumer attitudes and behavior",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05222_maaketingu",
+      "reading": "まーけてぃんぐ",
+      "headword": "マーケティング",
+      "label": "marketing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16942_yoronchousa",
+      "reading": "よろんちょうさ",
+      "headword": "{世論調査|よろんちょうさ}",
+      "label": "opinion poll"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business", "economics"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "economics"
+      ]
     },
     "created": "2026-04-25T15:18:10Z",
-    "modified": "2026-04-25T15:18:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

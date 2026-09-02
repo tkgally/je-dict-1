@@ -3,7 +3,7 @@
   "headword": "{省電力|しょうでんりょく}",
   "reading": "しょうでんりょく",
   "romaji": "shoudenryoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "power saving; low power consumption",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "24848_shoudenryoku_ex1",
       "japanese": "{省電力|しょうでんりょく}モードに{切|き}り{替|か}えた。",
       "english": "I switched to power-saving mode.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24848_shoudenryoku_ex2",
       "japanese": "この{新|あたら}しいチップは{省電力|しょうでんりょく}{設計|せっけい}になっている。",
       "english": "This new chip has a power-efficient design.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,41 @@
       "id": "24848_shoudenryoku_ex3",
       "japanese": "{省電力|しょうでんりょく}タイプのエアコンに{買|か}い{替|か}えたら、{電気代|でんきだい}がかなり{下|さ}がった。",
       "english": "After replacing the air conditioner with an energy-efficient type, the electricity bill went down considerably.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from {省|しょう} (to conserve/reduce) + {電力|でんりょく} (electric power). Widely used in technology, appliance marketing, and environmental discussions.\n\nCOMMON COLLOCATIONS:\n- {省電力|しょうでんりょく}モード: power-saving mode\n- {省電力|しょうでんりょく}{設計|せっけい}: power-efficient design\n- {省電力|しょうでんりょく}{化|か}: making more energy-efficient\n- {省電力|しょうでんりょく}タイプ: energy-saving type\n\nSIMILAR WORDS:\n- {省エネ}: energy saving — broader term covering all forms of energy, not just electricity; more commonly used in everyday speech\n- {低消費電力|ていしょうひでんりょく}: low power consumption — more technical, used in specifications\n- {節電|せつでん}: electricity conservation — focuses on the act of saving electricity through behavior rather than device design",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07136_setsuden",
+      "reading": "せつでん",
+      "headword": "{節電|せつでん}",
+      "label": "electricity conservation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["electronics"],
-      "domain": ["technical"]
+      "semantic": [
+        "electronics"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-04-21T10:24:47Z",
-    "modified": "2026-04-21T10:24:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

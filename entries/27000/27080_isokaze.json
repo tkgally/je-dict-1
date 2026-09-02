@@ -17,7 +17,9 @@
       "id": "27080_isokaze_ex1",
       "japanese": "{磯風|いそかぜ}が{心地|ここち}よい。",
       "english": "The sea breeze feels pleasant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27080_isokaze_ex2",
       "japanese": "{磯風|いそかぜ}に{乗|の}って{潮|しお}の{香|かお}りが{漂|ただよ}ってきた。",
       "english": "The scent of salt drifted in on the sea breeze.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,38 @@
       "id": "27080_isokaze_ex3",
       "japanese": "{岬|みさき}に{立|た}つと、{強|つよ}い{磯風|いそかぜ}が{髪|かみ}を{乱|みだ}し、{波|なみ}の{音|おと}が{耳|みみ}に{響|ひび}いた。",
       "english": "Standing on the cape, the strong sea breeze tossed my hair and the sound of waves echoed in my ears.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {磯|いそ} (rocky shore, seaside rocks) + {風|かぜ} (wind). Unlike the neutral {海風|うみかぜ}/{海風|かいふう} (sea breeze), {磯風|いそかぜ} carries a literary and sensory quality, evoking the smell of seaweed, salt spray, and the rugged Japanese coastline. Often appears in literature, poetry, travel writing, and place descriptions.\n\nCOMMON COLLOCATIONS:\n- {磯風|いそかぜ}が{吹|ふ}く: the sea breeze blows\n- {磯風|いそかぜ}に{当|あ}たる: to be in the sea breeze\n- {磯風|いそかぜ}の{香|かお}り: the scent of the sea breeze\n- {強|つよ}い{磯風|いそかぜ}: strong sea breeze\n\nSIMILAR WORDS:\n- {海風|うみかぜ}: sea breeze — the everyday neutral term for wind blowing from the sea\n- {潮風|しおかぜ}: salty ocean breeze — emphasizes the salt spray carried by the wind\n- {浜風|はまかぜ}: beach wind — wind from a sandy beach, lighter in nuance than {磯風|いそかぜ}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17591_shiokaze",
+      "reading": "しおかぜ",
+      "headword": "{潮風|しおかぜ}",
+      "label": "salty ocean breeze"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature", "weather"]
+      "semantic": [
+        "nature",
+        "weather"
+      ]
     },
     "created": "2026-05-06T16:11:27Z",
-    "modified": "2026-05-06T16:11:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

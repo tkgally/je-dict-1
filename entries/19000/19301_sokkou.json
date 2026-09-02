@@ -17,7 +17,9 @@
       "id": "19301_sokkou_ex1",
       "japanese": "この{薬|くすり}は{即効|そっこう}がある。",
       "english": "This medicine takes effect immediately.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19301_sokkou_ex2",
       "japanese": "{即効性|そっこうせい}のある{対策|たいさく}が{必要|ひつよう}だ。",
       "english": "We need a measure that takes effect immediately.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,37 @@
       "id": "19301_sokkou_ex3",
       "japanese": "この{方法|ほうほう}には{即効|そっこう}が{期待|きたい}できないが、{長期的|ちょうきてき}には{効果|こうか}がある。",
       "english": "You can't expect immediate results from this method, but it is effective in the long term.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Describes an effect that appears instantly or very quickly. Most commonly encountered in the compound {即効性|そっこうせい} (immediate effectiveness).\n\nCOMMON COLLOCATIONS:\n- {即効性|そっこうせい} — immediate effectiveness\n- {即効|そっこう}がある — to have immediate effect\n- {即効|そっこう}{薬|やく} — fast-acting medicine\n\nSIMILAR WORDS:\n- {速効|そっこう}: same reading and very similar meaning — sometimes used interchangeably, but {速効|そっこう} emphasizes speed while {即効|そっこう} emphasizes immediacy\n- {効果|こうか}: effect, efficacy — general term without the 'immediate' nuance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02726_kouka",
+      "reading": "こうか",
+      "headword": "{効果|こうか}",
+      "label": "effect, efficacy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-03-25T06:05:19Z",
-    "modified": "2026-03-25T06:05:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

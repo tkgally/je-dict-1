@@ -17,7 +17,9 @@
       "id": "27921_hatoko_ex1",
       "japanese": "{彼女|かのじょ}は{私|わたし}のはとこだ。",
       "english": "She is my second cousin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27921_hatoko_ex2",
       "japanese": "{法事|ほうじ}ではとこに{久|ひさ}しぶりに{会|あ}った。",
       "english": "I saw my second cousin for the first time in a while at the memorial service.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "27921_hatoko_ex3",
       "japanese": "はとことは{祖父母|そふぼ}の{兄弟|きょうだい}の{孫|まご}にあたる{関係|かんけい}だ。",
       "english": "A second cousin is the grandchild of one's grandparent's sibling.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A second cousin: the child of a parent's cousin, sharing a great-grandparent. Also said as またいとこ or written {再従兄弟|はとこ} (and several other kanji forms by sex), though the kana form is most common.\n\nSIMILAR WORDS:\n- いとこ: (first) cousin — the child of a parent's sibling; one generation closer than はとこ\n- {親戚|しんせき}: relative — the general term for any extended-family relation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01816_itoko",
+      "reading": "いとこ",
+      "headword": "いとこ",
+      "label": "(first) cousin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03260_shinseki",
+      "reading": "しんせき",
+      "headword": "{親戚|しんせき}",
+      "label": "relative"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["family"],
+      "politeness": "plain",
+      "semantic": [
+        "family"
+      ],
       "domain": []
     },
     "created": "2026-05-23T02:04:30Z",
-    "modified": "2026-05-23T02:04:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

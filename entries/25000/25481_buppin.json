@@ -17,7 +17,9 @@
       "id": "25481_buppin_ex1",
       "japanese": "{救援|きゅうえん}{物品|ぶっぴん}を{届|とど}ける。",
       "english": "To deliver relief supplies.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25481_buppin_ex2",
       "japanese": "{会社|かいしゃ}の{物品|ぶっぴん}を{私的|してき}に{使用|しよう}してはいけない。",
       "english": "You must not use company property for personal purposes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,50 @@
       "id": "25481_buppin_ex3",
       "japanese": "{被災地|ひさいち}に{食料|しょくりょう}や{衣類|いるい}などの{物品|ぶっぴん}を{送|おく}るボランティアに{参加|さんか}した。",
       "english": "I participated in volunteer work sending supplies like food and clothing to the disaster-stricken area.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {物|ぶつ} (thing; object) and {品|ぴん} (article; item). A formal word used in official, administrative, and business contexts. In everyday conversation, {物|もの} or {品物|しなもの} is more natural.\n\nCOMMON COLLOCATIONS:\n- {救援|きゅうえん}{物品|ぶっぴん}: relief supplies\n- {支援|しえん}{物品|ぶっぴん}: support goods; aid supplies\n- {物品|ぶっぴん}{管理|かんり}: inventory management; property management\n- {物品|ぶっぴん}{購入|こうにゅう}: purchasing goods\n- {物品|ぶっぴん}{税|ぜい}: commodity tax\n\nSIMILAR WORDS:\n- {品物|しなもの}: goods; merchandise — everyday term for items, especially in shopping\n- {物|もの}: thing; object — the most general, everyday word\n- {商品|しょうひん}: merchandise; product — specifically items for sale\n- {備品|びひん}: equipment; fixtures — items belonging to an organization, kept for regular use",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00886_shinamono",
+      "reading": "しなもの",
+      "headword": "{品物|しなもの}",
+      "label": "goods"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01436_shouhin",
+      "reading": "しょうひん",
+      "headword": "{商品|しょうひん}",
+      "label": "merchandise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16253_bihin",
+      "reading": "びひん",
+      "headword": "{備品|びひん}",
+      "label": "equipment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-04-25T14:18:46Z",
-    "modified": "2026-04-25T14:18:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\nどこ (where) + でも (even, any)\n\nPATTERN:\nThe ~でも pattern creates \"any-\" words:\n- {誰|だれ}でも - anyone\n- {何|なん}でも - anything\n- いつでも - anytime\n- どちらでも - either one\n\nPOPULAR CULTURE:\nドラえもん's iconic gadget is called どこでもドア (Anywhere Door) - a door that can transport you anywhere.\n\nCONTRAST:\n- どこでも (anywhere) ↔ どこか (somewhere)\n- どこでも (anywhere) ↔ どこも + neg (nowhere)\n- どこでも (anywhere) ↔ どこにも + neg (to nowhere)",
+  "notes": "COMPOUNDS:\nどこ (where) + でも (even, any)\n\nCOMMON PATTERNS:\nThe ~でも pattern creates \"any-\" words:\n- {誰|だれ}でも - anyone\n- {何|なん}でも - anything\n- いつでも - anytime\n- どちらでも - either one\n\nPOPULAR CULTURE:\nドラえもん's iconic gadget is called どこでもドア (Anywhere Door) - a door that can transport you anywhere.\n\nSIMILAR WORDS:\n- どこでも (anywhere) ↔ どこか (somewhere)\n- どこでも (anywhere) ↔ どこも + neg (nowhere)\n- どこでも (anywhere) ↔ どこにも + neg (to nowhere)",
   "cross_references": [
     {
       "type": "related",
@@ -51,6 +51,27 @@
       "headword": "{何|なん}でも",
       "label": "anything, everything",
       "target_id": "00304_nandemo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03826_itsudemo",
+      "reading": "いつでも",
+      "headword": "いつでも",
+      "label": "anytime, always"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22954_dokonidemo",
+      "reading": "どこにでも",
+      "headword": "どこにでも",
+      "label": "everywhere"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27246_dokonimo",
+      "reading": "どこにも",
+      "headword": "どこにも",
+      "label": "nowhere (with negative)"
     }
   ],
   "metadata": {
@@ -60,12 +81,13 @@
         "adverb"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "grammatical",
         "geography"
       ]
     },
     "created": "2026-01-27T08:12:28Z",
-    "modified": "2026-06-26T00:19:24Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

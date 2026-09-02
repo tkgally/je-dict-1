@@ -24,7 +24,9 @@
       "english": "It was relatively easy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16763_warini_ex2",
@@ -32,7 +34,9 @@
       "english": "This restaurant is surprisingly good.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16763_warini_ex3",
@@ -40,7 +44,9 @@
       "english": "Considering how much I ate, I didn't gain weight.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "16763_warini_ex4",
@@ -48,7 +54,9 @@
       "english": "The quality isn't good for the high price.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "16763_warini_ex5",
@@ -56,7 +64,9 @@
       "english": "My grades aren't improving considering how much I studied.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "16763_warini_ex6",
@@ -64,21 +74,43 @@
       "english": "They look young for their age.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
-  "notes": "GRAMMAR:\nIn sense 1, {割|わり}に functions as a standalone adverb meaning \"comparatively.\" In sense 2, it follows a clause (verb/adjective + {割|わり}に) and means \"considering that...\" The colloquial form {割|わり}には (with は) adds slight emphasis.\n\nCOMMON PATTERNS:\n- Verb た{割|わり}に (considering that [someone] did...)\n- Noun の{割|わり}に (for a...)\n- い-adj {割|わり}に (considering it's...)\n- な-adj な{割|わり}に (considering it's...)",
-  "cross_references": [],
+  "notes": "COMMON PATTERNS:\nIn sense 1, {割|わり}に functions as a standalone adverb meaning \"comparatively.\" In sense 2, it follows a clause (verb/adjective + {割|わり}に) and means \"considering that...\" The colloquial form {割|わり}には (with は) adds slight emphasis.\n- Verb た{割|わり}に (considering that [someone] did...)\n- Noun の{割|わり}に (for a...)\n- い-adj {割|わり}に (considering it's...)\n- な-adj な{割|わり}に (considering it's...)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06172_hikakuteki",
+      "reading": "ひかくてき",
+      "headword": "{比較的|ひかくてき}",
+      "label": "relatively, comparatively"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27461_warikashi",
+      "reading": "わりかし",
+      "headword": "わりかし",
+      "label": "fairly"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T06:28:39Z",
-    "modified": "2026-03-14T06:28:39Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["degree", "comparison"]
+      "semantic": [
+        "degree",
+        "comparison"
+      ]
     }
   }
 }

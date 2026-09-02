@@ -3,7 +3,7 @@
   "headword": "{奉献|ほうけん}",
   "reading": "ほうけん",
   "romaji": "houken",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "dedication; offering; consecration",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "{奉献|ほうけん} combines {奉|ほう} (to offer respectfully) and {献|けん} (to present, to dedicate). It is a formal word used in religious, ceremonial, or solemn contexts. In Shinto, it refers to making offerings to {神|かみ}; in Christianity, it refers to consecration or dedication.\n\nCOMMON COLLOCATIONS:\n- {奉献|ほうけん}{式|しき} — dedication ceremony\n- {奉献|ほうけん}{物|もの}/{奉献|ほうけん}{品|ひん} — offering; dedicated item\n- {奉献|ほうけん}の{祈|いの}り — prayer of dedication\n\nSIMILAR WORDS:\n- {奉納|ほうのう} — offering to a shrine or temple (more commonly used in Shinto contexts)\n- {献上|けんじょう} — presenting to a person of high rank\n- {捧|ささ}げる — to offer; to devote (a more general verb)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12200_hounou",
+      "reading": "ほうのう",
+      "headword": "{奉納|ほうのう}",
+      "label": "offering to a shrine or temple"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13528_kenjou",
+      "reading": "けんじょう",
+      "headword": "{献上|けんじょう}",
+      "label": "presenting to a person of high rank"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02055_sasageru",
+      "reading": "ささげる",
+      "headword": "{捧|ささ}げる",
+      "label": "to offer"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +76,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "religion",
         "culture"
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-29T16:32:08Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

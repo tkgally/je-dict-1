@@ -2,7 +2,7 @@
   "id": "02301_toku",
   "headword": "{解|と}く",
   "reading": "とく",
-  "part_of_speech": "godan verb, transitive",
+  "part_of_speech": "verb (godan, transitive)",
   "gloss": "to solve, to untie, to explain",
   "conjugation": {
     "type": "godan",
@@ -211,11 +211,32 @@
       "reading": "むすぶ",
       "headword": "{結|むす}ぶ",
       "label": "to tie"
+    },
+    {
+      "type": "related",
+      "target_id": "00136_kaiketsu",
+      "reading": "かいけつ",
+      "headword": "{解決|かいけつ}",
+      "label": "solution, resolution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10504_hodoku",
+      "reading": "ほどく",
+      "headword": "ほどく",
+      "label": "to untie, to undo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14274_tokiakasu",
+      "reading": "ときあかす",
+      "headword": "{解|と}き{明|あ}かす",
+      "label": "to solve"
     }
   ],
   "metadata": {
     "created": "2026-01-09T08:17:01Z",
-    "modified": "2026-08-12T06:27:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

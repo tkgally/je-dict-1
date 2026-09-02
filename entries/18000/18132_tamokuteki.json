@@ -3,7 +3,7 @@
   "id": "18132_tamokuteki",
   "headword": "{多目的|たもくてき}",
   "reading": "たもくてき",
-  "part_of_speech": "adjective (na) / pre-noun adjectival",
+  "part_of_speech": "na-adjective, pre-noun adjectival",
   "gloss": "multipurpose; multi-use",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "A meeting was held in the multipurpose hall.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18132_tamokuteki_ex2",
@@ -27,7 +29,9 @@
       "english": "This room can be used for multiple purposes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18132_tamokuteki_ex3",
@@ -35,21 +39,43 @@
       "english": "The station has multipurpose restrooms that can also be used by wheelchair users.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nVery commonly seen on signs in public facilities. {多目的|たもくてき}トイレ (multipurpose/accessible restroom) is one of the most frequent uses, referring to restrooms with accessibility features for wheelchair users, parents with small children, and ostomates.\n\nCOMMON COLLOCATIONS:\n- {多目的|たもくてき}ホール (multipurpose hall)\n- {多目的|たもくてき}トイレ (multipurpose/accessible restroom)\n- {多目的|たもくてき}ルーム (multipurpose room)\n- {多目的|たもくてき}に{使|つか}う (to use for multiple purposes)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18683_takinou",
+      "reading": "たきのう",
+      "headword": "{多機能|たきのう}",
+      "label": "multi-function"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23808_tayouto",
+      "reading": "たようと",
+      "headword": "{多用途|たようと}",
+      "label": "multi-purpose"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T06:42:54Z",
-    "modified": "2026-03-20T06:42:54Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "pre-noun-adjectival"],
+      "pos": [
+        "adjective-na",
+        "pre-noun-adjectival"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

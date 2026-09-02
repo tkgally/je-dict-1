@@ -19,7 +19,9 @@
       "english": "I visited a farm in Hokkaido.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20586_noujou_ex2",
@@ -27,7 +29,9 @@
       "english": "This farm raises a hundred dairy cows.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20586_noujou_ex3",
@@ -35,21 +39,64 @@
       "english": "My father now runs the farm that my grandfather started when he was young.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Refers to an organized, typically large-scale agricultural operation. Composed of {農|のう} (agriculture) + {場|じょう} (place).\n\nCOMMON COLLOCATIONS:\n- {農場|のうじょう}を{経営|けいえい}する (run a farm)\n- {農場|のうじょう}で{働|はたら}く (work on a farm)\n- {牧畜|ぼくちく}{農場|のうじょう} (livestock farm)\n- {観光|かんこう}{農場|のうじょう} (tourist farm)\n\nSIMILAR WORDS:\n- {農家|のうか} — farmhouse, or a farming household/family (focuses on the people)\n- {牧場|ぼくじょう} — ranch, pasture (specifically for raising animals)\n- {畑|はたけ} — field (a specific plot of cultivated land, smaller scale)\n- {田|た}んぼ — rice paddy (specifically for rice cultivation)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03539_nouka",
+      "reading": "のうか",
+      "headword": "{農家|のうか}",
+      "label": "farmhouse, or a farming household/family"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06103_bokujou",
+      "reading": "ぼくじょう",
+      "headword": "{牧場|ぼくじょう}",
+      "label": "ranch, pasture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00842_hatake",
+      "reading": "はたけ",
+      "headword": "{畑|はたけ}",
+      "label": "field"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00402_tanbo",
+      "reading": "たんぼ",
+      "headword": "{田|た}んぼ",
+      "label": "rice paddy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26824_nouen",
+      "reading": "のうえん",
+      "headword": "{農園|のうえん}",
+      "label": "farm"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T19:17:28Z",
-    "modified": "2026-03-29T19:17:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["place", "agriculture"]
+      "semantic": [
+        "place",
+        "agriculture"
+      ]
     }
   }
 }

@@ -2,7 +2,7 @@
   "id": "02941_kopiisuru",
   "headword": "コピーする",
   "reading": "こぴーする",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to copy",
   "conjugation": {
     "type": "suru",
@@ -153,11 +153,26 @@
       ]
     }
   ],
-  "notes": "コピーする is a suru-verb from English \"copy,\" used for both photocopying and digital copying.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧コピーする\n\nCOMMON EXPRESSIONS:\n- コピー⟦をとる→取る：00565_toru⟧: to make a copy\n- コピー⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: same as above\n- ⟦コピー{機|き}→コピー機：23548_kopiiki⟧: copy machine, copier\n- ⟦コピー{用紙|ようし}→コピー用紙：08137_kopiiyoushi⟧: copy paper\n\nCONTEXTS:\n- Office: ⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧コピーする (copy a document)\n- Digital: ⟦ファイル→ファイル：05280_fairu⟧⟦を→を：00422_wo⟧コピーする (copy a file)\n- キーボード: Ctrl+C でコピーする (copy with Ctrl+C)\n\nCOUNTER:\n- コピーを⟦{一枚|いちまい}→〜枚：00650_mai⟧: one copy\n- {十部|じゅうぶ}コピーする: make 10 copies\n\nRELATED WORDS:\n- ⟦{複写|ふくしゃ}する→複写する：21626_fukushasuru⟧: to copy (formal)\n- ⟦{印刷|いんさつ}する→印刷する：21677_insatsusuru⟧: to print\n- ペーストする: to paste",
-  "cross_references": [],
+  "notes": "コピーする is a suru-verb from English \"copy,\" used for both photocopying and digital copying.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧コピーする\n\nCOMMON EXPRESSIONS:\n- コピー⟦をとる→取る：00565_toru⟧: to make a copy\n- コピー⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: same as above\n- ⟦コピー{機|き}→コピー機：23548_kopiiki⟧: copy machine, copier\n- ⟦コピー{用紙|ようし}→コピー用紙：08137_kopiiyoushi⟧: copy paper\n\nUSAGE:\n- Office: ⟦{書類|しょるい}→書類：01103_shorui⟧⟦を→を：00422_wo⟧コピーする (copy a document)\n- Digital: ⟦ファイル→ファイル：05280_fairu⟧⟦を→を：00422_wo⟧コピーする (copy a file)\n- キーボード: Ctrl+C でコピーする (copy with Ctrl+C)\n\nCOUNTER:\n- コピーを⟦{一枚|いちまい}→〜枚：00650_mai⟧: one copy\n- {十部|じゅうぶ}コピーする: make 10 copies\n\nRELATED WORDS:\n- ⟦{複写|ふくしゃ}する→複写する：21626_fukushasuru⟧: to copy (formal)\n- ⟦{印刷|いんさつ}する→印刷する：21677_insatsusuru⟧: to print\n- ペーストする: to paste",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21626_fukushasuru",
+      "reading": "ふくしゃする",
+      "headword": "{複写|ふくしゃ}する",
+      "label": "to copy"
+    },
+    {
+      "type": "related",
+      "target_id": "21677_insatsusuru",
+      "reading": "いんさつする",
+      "headword": "{印刷|いんさつ}する",
+      "label": "to print"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:10:00Z",
-    "modified": "2026-08-03T15:18:36Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

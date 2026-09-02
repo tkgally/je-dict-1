@@ -4,7 +4,7 @@
   "headword": "{鼻歌|はなうた}を{歌|うた}う",
   "reading": "はなうたをうたう",
   "romaji": "hanautawoutau",
-  "part_of_speech": "expression",
+  "part_of_speech": "expression, verb (godan)",
   "gloss": "to hum a tune; to sing to oneself",
   "definitions": [
     {
@@ -56,16 +56,32 @@
     }
   ],
   "notes": "{鼻歌|はなうた} (humming, nose-singing) + を + {歌|うた}う (to sing). Humming with the mouth closed or half-closed, typically while doing other activities. Often implies being in a pleasant or relaxed mood.\n\nCOMMON COLLOCATIONS:\n- {鼻歌|はなうた}を{歌|うた}いながら: while humming\n- {鼻歌|はなうた}{交|ま}じりに: with a hum mixed in; humming as one goes\n- {鼻歌|はなうた}が{出|で}る: a hum comes out (involuntarily, from good mood)\n\nSIMILAR WORDS:\n- {口|くち}ずさむ: to hum, to murmur a song — more literary; can refer to quietly singing words as well as humming\n- {歌|うた}う: to sing — full singing, not just humming\n\nUSAGE:\nThe verb is {歌|うた}う (godan), conjugating as {歌|うた}わない, {歌|うた}って, etc. While {鼻歌|はなうた} can also be used on its own as a noun, the full expression {鼻歌|はなうた}を{歌|うた}う is the natural way to describe the action of humming.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18513_kuchizusamu",
+      "reading": "くちずさむ",
+      "headword": "{口|くち}ずさむ",
+      "label": "to hum, to murmur a song"
+    },
+    {
+      "type": "related",
+      "target_id": "00684_utau",
+      "reading": "うたう",
+      "headword": "{歌|うた}う",
+      "label": "to sing"
+    }
+  ],
   "metadata": {
     "created": "2026-04-18T09:12:27Z",
-    "modified": "2026-04-18T09:12:27Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "expression",
         "verb-godan"
       ],
+      "politeness": "plain",
       "semantic": [
         "music",
         "action"

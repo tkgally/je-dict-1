@@ -22,7 +22,9 @@
       "id": "21688_atatakasa_ex1",
       "japanese": "{春|はる}の{暖|あたた}かさが{気持|きも}ちいい。",
       "english": "The warmth of spring feels nice.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "21688_atatakasa_ex2",
       "japanese": "コートのおかげで{暖|あたた}かさを{感|かん}じた。",
       "english": "Thanks to the coat, I felt warmth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "21688_atatakasa_ex3",
       "japanese": "{南|みなみ}の{島|しま}の{暖|あたた}かさに{慣|な}れると、{冬|ふゆ}の{日本|にほん}が{辛|つら}くなる。",
       "english": "Once you get used to the warmth of a southern island, Japanese winters become hard to bear.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "21688_atatakasa_ex4",
       "japanese": "{彼女|かのじょ}の{言葉|ことば}に{暖|あたた}かさを{感|かん}じた。",
       "english": "I felt warmth in her words.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "21688_atatakasa_ex5",
       "japanese": "{家族|かぞく}の{暖|あたた}かさが{恋|こい}しい。",
       "english": "I miss the warmth of my family.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,66 @@
       "id": "21688_atatakasa_ex6",
       "japanese": "{人|ひと}の{暖|あたた}かさに{触|ふ}れて、この{町|まち}に{住|す}みたいと{思|おも}った。",
       "english": "Experiencing the warmth of the people here made me want to live in this town.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from the i-adjective {暖|あたた}かい by replacing い with さ (the standard way to nominalize i-adjectives). Can also be written {温|あたた}かさ, but {暖|あたた}かさ is more common for weather/climate warmth, while {温|あたた}かさ tends to appear for emotional warmth or warm food/drinks. In practice, the two kanji are often interchangeable.\n\nCOMMON COLLOCATIONS:\n- {暖|あたた}かさを{感|かん}じる: to feel warmth\n- {人|ひと}の{暖|あたた}かさ: human warmth/kindness\n- {春|はる}の{暖|あたた}かさ: the warmth of spring\n\nRELATED TERMS:\n- {暖|あたた}かい: warm (the adjective form)\n- {暑|あつ}さ: heat (summer heat, hot weather)\n- {冷|つめ}たさ: coldness (antonym)",
+  "notes": "Formed from the i-adjective {暖|あたた}かい by replacing い with さ (the standard way to nominalize i-adjectives). Can also be written {温|あたた}かさ, but {暖|あたた}かさ is more common for weather/climate warmth, while {温|あたた}かさ tends to appear for emotional warmth or warm food/drinks. In practice, the two kanji are often interchangeable.\n\nCOMMON COLLOCATIONS:\n- {暖|あたた}かさを{感|かん}じる: to feel warmth\n- {人|ひと}の{暖|あたた}かさ: human warmth/kindness\n- {春|はる}の{暖|あたた}かさ: the warmth of spring\n\nRELATED WORDS:\n- {暖|あたた}かい: warm (the adjective form)\n- {暑|あつ}さ: heat (summer heat, hot weather)\n- {冷|つめ}たさ: coldness (antonym)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00618_atatakai",
+      "reading": "あたたかい",
+      "headword": "{暖|あたた}かい",
+      "label": "warm"
+    },
+    {
+      "type": "related",
+      "target_id": "12973_atsusa",
+      "reading": "あつさ",
+      "headword": "{暑|あつ}さ",
+      "label": "heat"
+    },
+    {
+      "type": "antonym",
+      "target_id": "25425_tsumetasa",
+      "reading": "つめたさ",
+      "headword": "{冷|つめ}たさ",
+      "label": "coldness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10392_nukumori",
+      "reading": "ぬくもり",
+      "headword": "{温|ぬく}もり",
+      "label": "warmth, tenderness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12336_samusa",
+      "reading": "さむさ",
+      "headword": "{寒|さむ}さ",
+      "label": "coldness, the cold"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather", "emotion"]
+      "semantic": [
+        "weather",
+        "emotion"
+      ]
     },
     "created": "2026-04-02T21:22:49Z",
-    "modified": "2026-04-02T21:22:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

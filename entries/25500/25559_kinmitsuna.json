@@ -3,7 +3,7 @@
   "headword": "{緊密|きんみつ}な",
   "reading": "きんみつな",
   "romaji": "kinmitsuna",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "close; tight; intimate",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Describes connections that are tightly woven and well-maintained. Most commonly used for organizational, diplomatic, or professional relationships rather than personal emotional closeness.\n\nCOMMON COLLOCATIONS:\n- {緊密|きんみつ}な{関係|かんけい}: close relationship\n- {緊密|きんみつ}な{連携|れんけい}: close cooperation\n- {緊密|きんみつ}に{協力|きょうりょく}する: to cooperate closely\n- {緊密|きんみつ}な{連絡|れんらく}: close communication\n- {緊密|きんみつ}な{協議|きょうぎ}: close consultation\n\nSIMILAR WORDS:\n- {親密|しんみつ}な: intimate, close — used for personal relationships and emotional closeness between individuals\n- {密接|みっせつ}な: closely connected — emphasizes inseparable linkage between things or concepts, often used abstractly\n- {親|した}しい: friendly, close — casual and warm, used for personal friendships\n\nREGISTER:\nFormal. Common in news, diplomacy, business, and official statements. Rarely used in casual conversation.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14140_shinmitsu",
+      "reading": "しんみつ",
+      "headword": "{親密|しんみつ}",
+      "label": "intimate, close"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12289_missetsu",
+      "reading": "みっせつ",
+      "headword": "{密接|みっせつ}",
+      "label": "closely connected"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02345_shitashii",
+      "reading": "したしい",
+      "headword": "{親|した}しい",
+      "label": "friendly, close"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +75,12 @@
       "pos": [
         "adjective-na"
       ],
+      "politeness": "plain",
       "semantic": [
         "descriptive"
       ]
     },
     "created": "2026-04-26T11:17:13Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

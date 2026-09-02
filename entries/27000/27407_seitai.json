@@ -46,6 +46,43 @@
   ],
   "notes": "Compound of {整|せい} (\"to arrange, align\") + {体|たい} (\"body\"). Note that {整体|せいたい} is homophonous with {声帯|せいたい} (vocal cords) and {生態|せいたい} (ecology) — context disambiguates.\n\nCOMMON COLLOCATIONS:\n- {整体|せいたい}に{通|かよ}う: to go to a seitai clinic regularly\n- {整体|せいたい}を{受|う}ける: to get a seitai treatment\n- {整体|せいたい}{師|し}: seitai practitioner\n- {整体|せいたい}{院|いん}: seitai clinic\n- {骨盤|こつばん}{矯正|きょうせい}{整体|せいたい}: pelvic-alignment seitai\n\nSIMILAR WORDS:\n- {指圧|しあつ}: shiatsu — finger-pressure massage; licensed profession\n- カイロプラクティック: chiropractic — Western adjustment system; similar in approach\n- {整骨|せいこつ}/{接骨|せっこつ}: osteopathy/bonesetting — focuses on bone and joint injuries; nationally licensed",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27406_shiatsu",
+      "reading": "しあつ",
+      "headword": "{指圧|しあつ}",
+      "label": "shiatsu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24109_seikotsu",
+      "reading": "せいこつ",
+      "headword": "{整骨|せいこつ}",
+      "label": "osteopathy/bonesetting"
+    },
+    {
+      "type": "related",
+      "target_id": "00272_massaaji",
+      "reading": "まっさーじ",
+      "headword": "マッサージ",
+      "label": "massage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20981_sekkotsuin",
+      "reading": "せっこついん",
+      "headword": "{接骨院|せっこついん}",
+      "label": "bone-setting clinic"
+    },
+    {
+      "type": "related",
+      "target_id": "24945_shiseikyousei",
+      "reading": "しせいきょうせい",
+      "headword": "{姿勢矯正|しせいきょうせい}",
+      "label": "posture correction"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +90,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health",
         "body-part"
@@ -63,6 +100,6 @@
       ]
     },
     "created": "2026-05-11T07:08:10Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

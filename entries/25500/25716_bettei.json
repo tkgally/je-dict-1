@@ -45,7 +45,29 @@
     }
   ],
   "notes": "{別|べつ} (separate, other) + {邸|てい} (mansion, residence). Carries a more elegant and formal nuance than {別荘|べっそう}. Often used for historical properties belonging to aristocrats, feudal lords, or wealthy families. In modern usage, upscale hotels and ryokan sometimes use {別邸|べってい} in their names to evoke exclusivity.\n\nCOMMON COLLOCATIONS:\n- {旧|きゅう}{別邸|べってい} — former villa\n- {別邸|べってい}を{構|かま}える — maintain a villa\n- {皇室|こうしつ}の{別邸|べってい} — imperial villa\n\nSIMILAR WORDS:\n- {別荘|べっそう} — vacation house; cottage — the more common, everyday word\n- {邸宅|ていたく} — mansion; residence — a large, impressive home (not necessarily secondary)\n- {離宮|りきゅう} — detached palace — specifically an imperial or royal secondary palace",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11786_bessou",
+      "reading": "べっそう",
+      "headword": "{別荘|べっそう}",
+      "label": "vacation house"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14434_teitaku",
+      "reading": "ていたく",
+      "headword": "{邸宅|ていたく}",
+      "label": "mansion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20230_rikyuu",
+      "reading": "りきゅう",
+      "headword": "{離宮|りきゅう}",
+      "label": "detached palace"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +75,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "building",
         "culture"
       ]
     },
     "created": "2026-04-26T16:33:29Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

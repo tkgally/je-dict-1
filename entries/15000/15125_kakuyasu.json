@@ -3,7 +3,7 @@
   "id": "15125_kakuyasu",
   "headword": "{格安|かくやす}",
   "reading": "かくやす",
-  "part_of_speech": "na-adjective / noun",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "bargain; very cheap; budget",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "I found a bargain airline ticket.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15125_kakuyasu_ex2",
@@ -27,7 +29,9 @@
       "english": "This shop is cheap and the quality is good too.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15125_kakuyasu_ex3",
@@ -35,21 +39,72 @@
       "english": "When I switched to a budget smartphone plan, my monthly bill was cut in half.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{格安|かくやす} modifies nouns directly (without な in many compounds): {格安|かくやす}{航空券|こうくうけん}, {格安|かくやす}SIM. It is widely used in advertising and shopping contexts.\n\nCOMMON COLLOCATIONS:\n- {格安|かくやす}{航空会社|こうくうがいしゃ} (budget airline, LCC)\n- {格安|かくやす}SIM (budget SIM card)\n- {格安|かくやす}スマホ (budget smartphone plan)\n- {格安|かくやす}{物件|ぶっけん} (bargain property)\n- {格安|かくやす}で{手|て}に{入|い}れる (to get at a bargain price)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00464_yasui",
+      "reading": "やすい",
+      "headword": "{安|やす}い",
+      "label": "cheap, inexpensive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06020_nisokusanmon",
+      "reading": "にそくさんもん",
+      "headword": "{二束三文|にそくさんもん}",
+      "label": "dirt cheap"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09558_okaidoku",
+      "reading": "おかいどく",
+      "headword": "お{買|か}い{得|どく}",
+      "label": "good bargain, good deal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20236_hakaku",
+      "reading": "はかく",
+      "headword": "{破格|はかく}",
+      "label": "exceptional"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22116_yasumono",
+      "reading": "やすもの",
+      "headword": "{安物|やすもの}",
+      "label": "cheap item"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29126_sutene",
+      "reading": "すてね",
+      "headword": "{捨|す}て{値|ね}",
+      "label": "throwaway price"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T07:54:49Z",
-    "modified": "2026-03-05T07:54:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["money", "shopping"]
+      "semantic": [
+        "money",
+        "shopping"
+      ]
     }
   }
 }

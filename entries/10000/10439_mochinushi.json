@@ -19,7 +19,9 @@
       "english": "Who is the owner of this car?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10439_mochinushi_ex2",
@@ -27,7 +29,9 @@
       "english": "The owner of the lost item was found.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10439_mochinushi_ex3",
@@ -35,20 +39,69 @@
       "english": "She is the possessor of wonderful talent.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{持|も}ち{主|ぬし} combines {持|も}ち (holding, from {持|も}つ) + {主|ぬし} (master, owner). It refers to the owner of objects or the possessor of qualities and abilities.\n\nCOMMON PATTERNS:\n- 〜の{持|も}ち{主|ぬし}: the owner of ~\n- {落|お}とし{物|もの}の{持|も}ち{主|ぬし}: owner of lost property\n- {才能|さいのう}の{持|も}ち{主|ぬし}: person of talent\n- {美声|びせい}の{持|も}ち{主|ぬし}: person with a beautiful voice\n- {不思議|ふしぎ}な{力|ちから}の{持|も}ち{主|ぬし}: possessor of mysterious power\n\nSIMILAR WORDS:\n- {持|も}ち{主|ぬし}: owner (everyday, also for abstract qualities)\n- {所有者|しょゆうしゃ}: owner (formal, legal contexts, objects only)\n- オーナー: owner (business, loanword)\n\nNOTE:\nUnlike {所有者|しょゆうしゃ}, which is limited to physical or legal ownership, {持|も}ち{主|ぬし} is frequently used for personal qualities: {優|やさ}しさの{持|も}ち{主|ぬし} (a kind person).",
-  "cross_references": [],
+  "notes": "{持|も}ち{主|ぬし} combines {持|も}ち (holding, from {持|も}つ) + {主|ぬし} (master, owner). It refers to the owner of objects or the possessor of qualities and abilities.\n\nCOMMON PATTERNS:\n- 〜の{持|も}ち{主|ぬし}: the owner of ~\n- {落|お}とし{物|もの}の{持|も}ち{主|ぬし}: owner of lost property\n- {才能|さいのう}の{持|も}ち{主|ぬし}: person of talent\n- {美声|びせい}の{持|も}ち{主|ぬし}: person with a beautiful voice\n- {不思議|ふしぎ}な{力|ちから}の{持|も}ち{主|ぬし}: possessor of mysterious power\n\nSIMILAR WORDS:\n- {持|も}ち{主|ぬし}: owner (everyday, also for abstract qualities)\n- {所有者|しょゆうしゃ}: owner (formal, legal contexts, objects only)\n- オーナー: owner (business, loanword)\n\nUSAGE:\nUnlike {所有者|しょゆうしゃ}, which is limited to physical or legal ownership, {持|も}ち{主|ぬし} is frequently used for personal qualities: {優|やさ}しさの{持|も}ち{主|ぬし} (a kind person).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21212_shoyuusha",
+      "reading": "しょゆうしゃ",
+      "headword": "{所有者|しょゆうしゃ}",
+      "label": "owner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10830_oonaa",
+      "reading": "おーなー",
+      "headword": "オーナー",
+      "label": "owner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15281_kainushi",
+      "reading": "かいぬし",
+      "headword": "{飼|か}い{主|ぬし}",
+      "label": "pet owner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19814_hoyuusha",
+      "reading": "ほゆうしゃ",
+      "headword": "{保有者|ほゆうしゃ}",
+      "label": "holder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25202_kyouyuusha",
+      "reading": "きょうゆうしゃ",
+      "headword": "{共有者|きょうゆうしゃ}",
+      "label": "co-owner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28959_hojisha",
+      "reading": "ほじしゃ",
+      "headword": "{保持者|ほじしゃ}",
+      "label": "holder (of a record, title, qualification)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T11:20:16Z",
-    "modified": "2026-03-30T02:16:27Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

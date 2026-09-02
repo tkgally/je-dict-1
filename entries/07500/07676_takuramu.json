@@ -2,7 +2,7 @@
   "id": "07676_takuramu",
   "headword": "たくらむ",
   "reading": "たくらむ",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to scheme; to plot; to plan (something devious)",
   "conjugation": {
     "type": "godan",
@@ -130,10 +130,19 @@
       ]
     }
   ],
-  "notes": "VERB TYPE:\n{他動詞|たどうし} (transitive verb)\nGodan verb ({五段動詞|ごだんどうし})\n\nKANJI:\nCan be written as {企|たくら}む.\n\n・たくらまない (negative)\n・たくらんで (te-form)\n・たくらんだ (past)\n\nNUANCE:\nAlmost always used with negative connotations. For neutral or positive planning, use {計画|けいかく}する or {企|くわだ}てる.\n\nSIMILAR WORDS:\n・{企|たくら}む - same word with kanji\n・{企|くわだ}てる - to plan, attempt (more neutral)\n・{謀|はか}る - to plot, conspire (literary)",
+  "notes": "VERB TYPE:\n{他動詞|たどうし} (transitive verb)\nGodan verb ({五段動詞|ごだんどうし})\n\nWRITING:\nCan be written as {企|たくら}む.\n\n- たくらまない (negative)\n- たくらんで (te-form)\n- たくらんだ (past)\n\nUSAGE:\nAlmost always used with negative connotations. For neutral or positive planning, use {計画|けいかく}する or {企|くわだ}てる.\n\nSIMILAR WORDS:\n- {企|たくら}む - same word with kanji\n- {企|くわだ}てる - to plan, attempt (more neutral)\n- {謀|はか}る - to plot, conspire (literary)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15422_kuwadateru",
+      "reading": "くわだてる",
+      "headword": "{企|くわだ}てる",
+      "label": "to plan, attempt"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T14:05:39Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +151,7 @@
       ],
       "transitivity": "transitive",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "cognition",
         "evaluation"

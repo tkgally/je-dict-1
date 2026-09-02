@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{湿気|しっけ} refers to moisture or dampness in the air or materials.\n\nCOMMON PATTERNS:\n- {湿気|しっけ}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧ (high humidity)\n- {湿気|しっけ}⟦が→が：00051_ga⟧⟦こもる→こもる：07414_komoru⟧ (moisture builds up)\n- {湿気|しっけ}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to remove moisture)\n- {湿気|しっけ}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧ (to prevent moisture)\n\nRELATED TERMS:\n- ⟦{湿度|しつど}→湿度：03181_shitsudo⟧ (humidity - as a measurement)\n- ⟦{除湿|じょしつ}→除湿：09623_joshitsu⟧ (dehumidification)\n- ⟦{乾燥|かんそう}→乾燥：00184_kansou⟧ (dryness - opposite condition)\n\nUSAGE NOTE:\n{湿気|しっけ} focuses on the tangible feeling of dampness, while ⟦{湿度|しつど}→湿度：03181_shitsudo⟧ is used for numerical humidity measurements.",
+  "notes": "{湿気|しっけ} refers to moisture or dampness in the air or materials.\n\nCOMMON PATTERNS:\n- {湿気|しっけ}⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧ (high humidity)\n- {湿気|しっけ}⟦が→が：00051_ga⟧⟦こもる→こもる：07414_komoru⟧ (moisture builds up)\n- {湿気|しっけ}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to remove moisture)\n- {湿気|しっけ}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧ (to prevent moisture)\n\nRELATED WORDS:\n- ⟦{湿度|しつど}→湿度：03181_shitsudo⟧ (humidity - as a measurement)\n- ⟦{除湿|じょしつ}→除湿：09623_joshitsu⟧ (dehumidification)\n- ⟦{乾燥|かんそう}→乾燥：00184_kansou⟧ (dryness - opposite condition)\n\nUSAGE:\n{湿気|しっけ} focuses on the tangible feeling of dampness, while ⟦{湿度|しつど}→湿度：03181_shitsudo⟧ is used for numerical humidity measurements.",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,39 @@
       "reading": "かんそう",
       "headword": "{乾燥|かんそう}",
       "label": "dryness"
+    },
+    {
+      "type": "related",
+      "target_id": "09623_joshitsu",
+      "reading": "じょしつ",
+      "headword": "{除湿|じょしつ}",
+      "label": "dehumidification"
+    },
+    {
+      "type": "related",
+      "target_id": "08132_kanshitsu",
+      "reading": "かんしつ",
+      "headword": "{乾湿|かんしつ}",
+      "label": "dry and wet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16859_shimeppoi",
+      "reading": "しめっぽい",
+      "headword": "{湿|しめ}っぽい",
+      "label": "damp"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27363_tsuuki",
+      "reading": "つうき",
+      "headword": "{通気|つうき}",
+      "label": "ventilation"
     }
   ],
   "metadata": {
     "created": "2026-01-11T13:40:30Z",
-    "modified": "2026-08-13T15:50:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

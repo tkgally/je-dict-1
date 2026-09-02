@@ -17,7 +17,9 @@
       "id": "20219_naya_ex1",
       "japanese": "{納屋|なや}に{道具|どうぐ}をしまった。",
       "english": "I put the tools away in the shed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20219_naya_ex2",
       "japanese": "{古|ふる}い{納屋|なや}を{修理|しゅうり}する{必要|ひつよう}がある。",
       "english": "We need to repair the old barn.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "20219_naya_ex3",
       "japanese": "{祖父|そふ}の{家|いえ}の{裏|うら}には{大|おお}きな{納屋|なや}があり、{農機具|のうきぐ}や{収穫|しゅうかく}した{米|こめ}が{保管|ほかん}されていた。",
       "english": "Behind my grandfather's house there was a large barn where farm equipment and harvested rice were stored.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A traditional Japanese agricultural outbuilding. Unlike Western barns that may house livestock, {納屋|なや} primarily refers to storage buildings for crops, tools, and supplies. The word is composed of {納|な} (to store) + {屋|や} (building).\n\nCOMMON COLLOCATIONS:\n- {納屋|なや}に{入|い}れる: to put in the barn\n- {納屋|なや}を{建|た}てる: to build a shed\n- {古|ふる}い{納屋|なや}: an old barn\n- {納屋|なや}の{中|なか}: inside the barn\n\nSIMILAR WORDS:\n- {倉庫|そうこ}: warehouse, storage — larger, more modern or commercial\n- {蔵|くら}: traditional Japanese storehouse — typically a fireproof building with thick walls\n- {物置|ものおき}: storage shed — a smaller structure, often in residential settings",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04044_souko",
+      "reading": "そうこ",
+      "headword": "{倉庫|そうこ}",
+      "label": "warehouse, storage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13991_kura",
+      "reading": "くら",
+      "headword": "{蔵|くら}",
+      "label": "traditional Japanese storehouse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17243_monooki",
+      "reading": "ものおき",
+      "headword": "{物置|ものおき}",
+      "label": "storage shed"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building", "agriculture"]
+      "semantic": [
+        "building",
+        "agriculture"
+      ]
     },
     "created": "2026-03-28T17:13:08Z",
-    "modified": "2026-03-28T17:13:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

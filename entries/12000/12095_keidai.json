@@ -19,7 +19,9 @@
       "english": "Cherry blossoms are blooming on the temple grounds.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12095_keidai_ex2",
@@ -27,7 +29,9 @@
       "english": "Visitors for the New Year shrine visit were lining up on the shrine grounds.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12095_keidai_ex3",
@@ -35,21 +39,36 @@
       "english": "On the grounds of this temple, there is a great tree over three hundred years old.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed for both Buddhist temples ({寺|てら}) and Shinto shrines ({神社|じんじゃ}). The {境内|けいだい} is the area within the sacred boundary, distinct from the surrounding neighborhood. Many temple and shrine grounds in Japan are open to the public and serve as parks and community spaces.\n\nCOMMON COLLOCATIONS:\n- {境内|けいだい}に{入|はい}る: enter the precincts\n- {境内|けいだい}を{散策|さんさく}する: stroll through the grounds\n- {寺|てら}の{境内|けいだい}: temple grounds\n- {神社|じんじゃ}の{境内|けいだい}: shrine precincts\n- {境内|けいだい}マップ: grounds map",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25612_shiniki",
+      "reading": "しんいき",
+      "headword": "{神域|しんいき}",
+      "label": "sacred precinct"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T04:55:28Z",
-    "modified": "2026-02-20T04:55:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building", "geography"]
+      "semantic": [
+        "building",
+        "geography"
+      ]
     }
   }
 }

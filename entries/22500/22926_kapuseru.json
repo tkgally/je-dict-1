@@ -22,7 +22,9 @@
       "id": "22926_kapuseru_ex1",
       "japanese": "カプセルを{飲|の}む。",
       "english": "I take a capsule.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "22926_kapuseru_ex2",
       "japanese": "この{薬|くすり}は{錠剤|じょうざい}とカプセルの2{種類|しゅるい}がある。",
       "english": "This medicine comes in two forms: tablets and capsules.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "22926_kapuseru_ex3",
       "japanese": "カプセルが{大|おお}きくて{飲|の}みにくい{場合|ばあい}は{医師|いし}に{相談|そうだん}してください。",
       "english": "If the capsule is too large and hard to swallow, please consult your doctor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "22926_kapuseru_ex4",
       "japanese": "カプセルホテルに{泊|と}まる。",
       "english": "I stay at a capsule hotel.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "22926_kapuseru_ex5",
       "japanese": "{卒業式|そつぎょうしき}でタイムカプセルを{埋|う}めた。",
       "english": "We buried a time capsule at the graduation ceremony.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,52 @@
       "id": "22926_kapuseru_ex6",
       "japanese": "{宇宙|うちゅう}カプセルが{無事|ぶじ}に{地球|ちきゅう}に{帰還|きかん}した。",
       "english": "The space capsule returned safely to Earth.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English \"capsule.\" Used broadly in Japanese for any small sealed container, with the pharmaceutical and pod/container senses being equally common.\n\nCOMMON COLLOCATIONS:\n- カプセル{剤|ざい}: capsule medication\n- カプセルホテル: capsule hotel\n- タイムカプセル: time capsule\n- カプセルトイ: capsule toy (gashapon)\n- {宇宙|うちゅう}カプセル: space capsule\n\nCULTURAL CONTEXT:\nCapsule hotels (カプセルホテル) are a uniquely Japanese accommodation style invented in 1979, offering compact sleeping pods at budget prices. They are especially popular with business travelers who miss the last train.\n\nSIMILAR WORDS:\n- {錠剤|じょうざい}: tablet — a solid pill form of medicine, as opposed to a capsule\n- {顆粒|かりゅう}: granules — medicine in granular powder form",
+  "notes": "From English \"capsule.\" Used broadly in Japanese for any small sealed container, with the pharmaceutical and pod/container senses being equally common.\n\nCOMMON COLLOCATIONS:\n- カプセル{剤|ざい}: capsule medication\n- カプセルホテル: capsule hotel\n- タイムカプセル: time capsule\n- カプセルトイ: capsule toy (gashapon)\n- {宇宙|うちゅう}カプセル: space capsule\n\nCULTURAL NOTE:\nCapsule hotels (カプセルホテル) are a uniquely Japanese accommodation style invented in 1979, offering compact sleeping pods at budget prices. They are especially popular with business travelers who miss the last train.\n\nSIMILAR WORDS:\n- {錠剤|じょうざい}: tablet — a solid pill form of medicine, as opposed to a capsule\n- {顆粒|かりゅう}: granules — medicine in granular powder form",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17290_jouzai",
+      "reading": "じょうざい",
+      "headword": "{錠剤|じょうざい}",
+      "label": "tablet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24069_karyuu",
+      "reading": "かりゅう",
+      "headword": "{顆粒|かりゅう}",
+      "label": "granules"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27515_konagusuri",
+      "reading": "こなぐすり",
+      "headword": "{粉薬|こなぐすり}",
+      "label": "powdered medicine"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["health", "daily-life"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "health",
+        "daily-life"
+      ],
       "formality": "neutral",
       "politeness": "plain"
     },
     "created": "2026-04-07T21:09:31Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

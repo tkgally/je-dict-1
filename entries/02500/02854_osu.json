@@ -2,7 +2,7 @@
   "id": "02854_osu",
   "headword": "{押|お}す",
   "reading": "おす",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to push, to press",
   "conjugation": {
     "type": "godan",
@@ -218,7 +218,7 @@
       ]
     }
   ],
-  "notes": "{押|お}す is a godan verb meaning to push, press, or stamp.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: {押|お}される (passive, to be pushed)\n\nCOMMON PATTERNS:\n- ⟦ボタン→ボタン：02963_botan⟧を{押|お}す: to press a button\n- ⟦{扉|とびら}→扉：04494_tobira⟧を{押|お}す: to push a door\n- ⟦ハンコ→判子：00089_hanko⟧を{押|お}す: to stamp a seal\n- ⟦{印鑑|いんかん}→印鑑：05290_inkan⟧を{押|お}す: to affix one's seal\n\nANTONYM:\n⟦{引|ひ}く→引く：01978_hiku⟧ (to pull)\n\nDOOR SIGNS:\n- {押|お}す: Push\n- ⟦{引|ひ}く→引く：01978_hiku⟧: Pull\n\nNOTE:\nStamping a seal (⟦{判子|はんこ}→判子：00089_hanko⟧/⟦{印鑑|いんかん}→印鑑：05290_inkan⟧) is common in Japan for official documents instead of signatures.",
+  "notes": "{押|お}す is a godan verb meaning to push, press, or stamp.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: {押|お}される (passive, to be pushed)\n\nCOMMON PATTERNS:\n- ⟦ボタン→ボタン：02963_botan⟧を{押|お}す: to press a button\n- ⟦{扉|とびら}→扉：04494_tobira⟧を{押|お}す: to push a door\n- ⟦ハンコ→判子：00089_hanko⟧を{押|お}す: to stamp a seal\n- ⟦{印鑑|いんかん}→印鑑：05290_inkan⟧を{押|お}す: to affix one's seal\n\nSIMILAR WORDS:\n⟦{引|ひ}く→引く：01978_hiku⟧ (to pull)\n\nDOOR SIGNS:\n- {押|お}す: Push\n- ⟦{引|ひ}く→引く：01978_hiku⟧: Pull\n\nUSAGE:\nStamping a seal (⟦{判子|はんこ}→判子：00089_hanko⟧/⟦{印鑑|いんかん}→印鑑：05290_inkan⟧) is common in Japan for official documents instead of signatures.",
   "cross_references": [
     {
       "type": "antonym",
@@ -226,11 +226,25 @@
       "reading": "ひく",
       "headword": "{引|ひ}く",
       "label": "to pull"
+    },
+    {
+      "type": "related",
+      "target_id": "02021_osaeru",
+      "reading": "おさえる",
+      "headword": "{押|お}さえる",
+      "label": "to press down, to restrain, to suppress"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24722_kurikkusuru",
+      "reading": "くりっくする",
+      "headword": "クリックする",
+      "label": "to click (a mouse button or link)"
     }
   ],
   "metadata": {
     "created": "2026-01-11T09:21:30Z",
-    "modified": "2026-06-12T09:58:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

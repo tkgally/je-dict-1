@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "A statistical term composed of {中央|ちゅうおう} (center; middle) and {値|ち} (value). The {中央値|ちゅうおうち} is frequently used in news and economic reporting because, unlike the {平均値|へいきんち} (mean/average), it is not skewed by extremely high or low values. This makes it especially useful for income, housing prices, and other data with uneven distributions.\n\nCOMMON COLLOCATIONS:\n- {年収|ねんしゅう}の{中央値|ちゅうおうち}: median income\n- {中央値|ちゅうおうち}を{求|もと}める: to calculate the median\n- {中央値|ちゅうおうち}と{平均値|へいきんち}: median and average\n\nRELATED TERMS:\n- {平均値|へいきんち}: average; mean — the sum of all values divided by the count\n- {最頻値|さいひんち}: mode — the most frequently occurring value in a data set\n- {偏差値|へんさち}: deviation score — a standardized score used heavily in Japanese education",
-  "cross_references": [],
+  "notes": "A statistical term composed of {中央|ちゅうおう} (center; middle) and {値|ち} (value). The {中央値|ちゅうおうち} is frequently used in news and economic reporting because, unlike the {平均値|へいきんち} (mean/average), it is not skewed by extremely high or low values. This makes it especially useful for income, housing prices, and other data with uneven distributions.\n\nCOMMON COLLOCATIONS:\n- {年収|ねんしゅう}の{中央値|ちゅうおうち}: median income\n- {中央値|ちゅうおうち}を{求|もと}める: to calculate the median\n- {中央値|ちゅうおうち}と{平均値|へいきんち}: median and average\n\nRELATED WORDS:\n- {平均値|へいきんち}: average; mean — the sum of all values divided by the count\n- {最頻値|さいひんち}: mode — the most frequently occurring value in a data set\n- {偏差値|へんさち}: deviation score — a standardized score used heavily in Japanese education",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "30167_heikinchi",
+      "reading": "へいきんち",
+      "headword": "平均値",
+      "label": "average"
+    },
+    {
+      "type": "related",
+      "target_id": "08553_hensachi",
+      "reading": "へんさち",
+      "headword": "{偏差値|へんさち}",
+      "label": "deviation score"
+    },
+    {
+      "type": "related",
+      "target_id": "30166_saishouchi",
+      "reading": "さいしょうち",
+      "headword": "最小値",
+      "label": "minimum value"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +75,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "number",
         "science"
       ]
     },
     "created": "2026-04-27T13:12:50Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

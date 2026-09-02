@@ -19,7 +19,9 @@
       "english": "Please tell me your account number.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16092_kouzabangou_ex2",
@@ -27,7 +29,9 @@
       "english": "An account number is needed for the bank transfer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16092_kouzabangou_ex3",
@@ -35,21 +39,43 @@
       "english": "I entered the wrong account number and accidentally sent the money to someone else.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAn essential banking term. Japanese bank transfers typically require the {銀行|ぎんこう}{名|めい} (bank name), {支店|してん}{名|めい} (branch name), {口座|こうざ}{種別|しゅべつ} (account type), and {口座|こうざ}{番号|ばんごう} (account number).\n\nCOMMON COLLOCATIONS:\n- {口座|こうざ}{番号|ばんごう}を{確認|かくにん}する (to confirm the account number)\n- {口座|こうざ}{番号|ばんごう}を{入力|にゅうりょく}する (to enter the account number)\n- {口座|こうざ}{番号|ばんごう}を{控|ひか}える (to note down the account number)\n\nSIMILAR WORDS:\n- {口座|こうざ}: bank account — the account itself\n- {暗証|あんしょう}{番号|ばんごう}: PIN — the secret number used for authentication",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07681_anshoubangou",
+      "reading": "あんしょうばんごう",
+      "headword": "{暗証番号|あんしょうばんごう}",
+      "label": "PIN"
+    },
+    {
+      "type": "related",
+      "target_id": "27021_ginkoukouza",
+      "reading": "ぎんこうこうざ",
+      "headword": "{銀行口座|ぎんこうこうざ}",
+      "label": "bank account"
+    }
+  ],
   "metadata": {
     "created": "2026-03-09T12:23:53Z",
-    "modified": "2026-03-09T12:23:53Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["finance", "daily-life"]
+      "semantic": [
+        "finance",
+        "daily-life"
+      ]
     }
   }
 }

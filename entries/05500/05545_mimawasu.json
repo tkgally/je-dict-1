@@ -154,10 +154,32 @@
     }
   ],
   "notes": "{見回|みまわ}す is a compound verb: ⟦{見|み}る→見る：00283_miru⟧ (to see) + ⟦{回|まわ}す→回す：01158_mawasu⟧ (to turn around). It means to look around in all directions, scanning the surroundings.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes を for the area being surveyed: ⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧{見回|みまわ}す\n\nASPECT (ている):\n{見回|みまわ}している means \"is looking around\" (ongoing action).\n\nCOMMON PATTERNS:\n- ⟦{辺|あた}り→辺り：01770_atari⟧⟦を→を：00422_wo⟧{見回|みまわ}す: to look around the area\n- ⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧{見回|みまわ}す: to look around the room\n- ⟦きょろきょろ→きょろきょろ：07514_kyorokyoro⟧{見回|みまわ}す: to look around restlessly\n\nSIMILAR WORDS:\n- ⟦{見渡|みわた}す→見渡す：07169_miwatasu⟧: to survey, to look out over (wider panoramic view)\n- ⟦{見回|みまわ}る→見回る：18267_mimawaru⟧: to patrol, to make rounds (walking around to check)\n- ⟦{見|み}つめる→見つめる：04571_mitsumeru⟧: to gaze at (focused on one point, not scanning)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07169_miwatasu",
+      "reading": "みわたす",
+      "headword": "{見渡|みわた}す",
+      "label": "to survey, to look out over"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18267_mimawaru",
+      "reading": "みまわる",
+      "headword": "{見回|みまわ}る",
+      "label": "to patrol, to make rounds"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04571_mitsumeru",
+      "reading": "みつめる",
+      "headword": "{見|み}つめる",
+      "label": "to gaze at"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T08:09:26Z",
-    "modified": "2026-06-06T21:13:04Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

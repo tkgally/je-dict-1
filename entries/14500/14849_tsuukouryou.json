@@ -19,7 +19,9 @@
       "english": "The toll is 500 yen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14849_tsuukouryou_ex2",
@@ -27,7 +29,9 @@
       "english": "There is a toll to cross this bridge.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14849_tsuukouryou_ex3",
@@ -35,21 +39,42 @@
       "english": "The expressway toll is paid automatically with an ETC card, so there's no need to stop at the toll booth.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE NOTES:\n{通行料|つうこうりょう} is a compound of {通行|つうこう} (passage, traffic) and {料|りょう} (fee). It refers specifically to fees for using roads, bridges, or tunnels.\n\nSIMILAR WORDS:\n- {通行料金|つうこうりょうきん} is a longer, more formal synonym\n- {高速料金|こうそくりょうきん} specifically refers to expressway tolls\n- {有料道路|ゆうりょうどうろ} means toll road\n\nCOMMON COLLOCATIONS:\n- {通行料|つうこうりょう}を{払|はら}う (pay a toll)\n- {通行料|つうこうりょう}がかかる (a toll is charged)\n- {通行料|つうこうりょう}{無料|むりょう} (toll-free)\n\nIn Japan, most expressways charge tolls. The ETC ({自動料金収受|じどうりょうきんしゅうじゅ}システム) system allows cashless payment.",
-  "cross_references": [],
+  "notes": "USAGE:\n{通行料|つうこうりょう} is a compound of {通行|つうこう} (passage, traffic) and {料|りょう} (fee). It refers specifically to fees for using roads, bridges, or tunnels.\n\nSIMILAR WORDS:\n- {通行料金|つうこうりょうきん} is a longer, more formal synonym\n- {高速料金|こうそくりょうきん} specifically refers to expressway tolls\n- {有料道路|ゆうりょうどうろ} means toll road\n\nCOMMON COLLOCATIONS:\n- {通行料|つうこうりょう}を{払|はら}う (pay a toll)\n- {通行料|つうこうりょう}がかかる (a toll is charged)\n- {通行料|つうこうりょう}{無料|むりょう} (toll-free)\n\nIn Japan, most expressways charge tolls. The ETC ({自動料金収受|じどうりょうきんしゅうじゅ}システム) system allows cashless payment.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09263_yuuryoudouro",
+      "reading": "ゆうりょうどうろ",
+      "headword": "{有料道路|ゆうりょうどうろ}",
+      "label": "means toll road"
+    },
+    {
+      "type": "related",
+      "target_id": "09243_ryoukinjo",
+      "reading": "りょうきんじょ",
+      "headword": "{料金所|りょうきんじょ}",
+      "label": "toll booth, toll gate"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T04:33:09Z",
-    "modified": "2026-03-04T04:33:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     }
   }
 }

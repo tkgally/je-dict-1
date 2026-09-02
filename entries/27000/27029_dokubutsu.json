@@ -17,7 +17,9 @@
       "id": "27029_dokubutsu_ex1",
       "japanese": "{毒物|どくぶつ}の{取|と}り{扱|あつか}いに{注意|ちゅうい}する。",
       "english": "To be careful when handling toxic substances.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27029_dokubutsu_ex2",
       "japanese": "{毒物|どくぶつ}は{鍵|かぎ}のかかる{場所|ばしょ}に{保管|ほかん}しなければならない。",
       "english": "Toxic substances must be stored in a locked location.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,48 @@
       "id": "27029_dokubutsu_ex3",
       "japanese": "{日本|にほん}では{毒物|どくぶつ}および{劇物|げきぶつ}の{販売|はんばい}には{資格|しかく}が{必要|ひつよう}だ。",
       "english": "In Japan, a qualification is required to sell toxic and hazardous substances.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A formal, technical term used in legal, scientific, and safety contexts. In Japanese law, {毒物及|どくぶつおよ}び{劇物取締法|げきぶつとりしまりほう} (the Poisonous and Deleterious Substances Control Act) regulates the handling of these substances. {毒物|どくぶつ} refers to the more dangerous category, while {劇物|げきぶつ} covers less lethal but still hazardous substances.\n\nCOMMON COLLOCATIONS:\n- {毒物|どくぶつ}{劇物|げきぶつ}: toxic and hazardous substances\n- {毒物|どくぶつ}の{混入|こんにゅう}: contamination with poison\n- {毒物|どくぶつ}{取扱者|とりあつかいしゃ}: handler of toxic substances\n- {毒物|どくぶつ}を{検出|けんしゅつ}する: to detect a toxic substance\n\nSIMILAR WORDS:\n- {毒|どく}: poison — the general, everyday word\n- {毒薬|どくやく}: poisonous drug; toxic medicine — specifically refers to pharmaceutical-grade poisons\n- {有毒|ゆうどく}: toxic; poisonous — an adjective describing something as containing poison\n- {劇物|げきぶつ}: deleterious substance — legally a less dangerous category than {毒物|どくぶつ}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27037_dokuyaku",
+      "reading": "どくやく",
+      "headword": "{毒薬|どくやく}",
+      "label": "poisonous drug"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23801_yuudoku",
+      "reading": "ゆうどく",
+      "headword": "{有毒|ゆうどく}",
+      "label": "toxic"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["health"],
-      "domain": ["legal", "medical"]
+      "semantic": [
+        "health"
+      ],
+      "domain": [
+        "legal",
+        "medical"
+      ]
     },
     "created": "2026-05-06T14:22:45Z",
-    "modified": "2026-05-06T14:22:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

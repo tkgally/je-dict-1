@@ -3,7 +3,7 @@
   "headword": "フォーマット",
   "reading": "ふぉーまっと",
   "romaji": "foomatto",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "format; layout; template",
   "definitions": [
     {
@@ -81,6 +81,29 @@
   ],
   "notes": "A loanword from English \"format\" used widely in business, IT, and media contexts. Sense 1 (layout/structure) is used for documents, files, and media types. Sense 2 (disk initialization) is a computing term. Can be used as a noun or with する as a verb (フォーマットする).\n\nCOMMON COLLOCATIONS:\n- フォーマットする — to format (a disk)\n- ファイルフォーマット — file format\n- フォーマットに{従|したが}う — follow the format\n- フォーマットを{変更|へんこう}する — change the format\n\nSIMILAR WORDS:\n- {書式|しょしき} — format, form; the native Japanese term, often used for official document layouts and form templates\n- {形式|けいしき} — form, format, formality; broader term covering the structure or style of something\n- テンプレート — template; specifically a reusable model or pattern, while フォーマット is more about the overall structure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15840_shoshiki",
+      "reading": "しょしき",
+      "headword": "{書式|しょしき}",
+      "label": "format, form"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00211_keishiki",
+      "reading": "けいしき",
+      "headword": "{形式|けいしき}",
+      "label": "form, format, formality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11493_tenpureeto",
+      "reading": "てんぷれーと",
+      "headword": "テンプレート",
+      "label": "template"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -88,6 +111,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "technology",
         "business"
@@ -95,7 +119,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-18T13:19:18Z",
-    "modified": "2026-04-18T13:19:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

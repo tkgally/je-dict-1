@@ -3,7 +3,7 @@
   "headword": "{口|くち}をつぐむ",
   "reading": "くちをつぐむ",
   "romaji": "kuchiwotsugumu",
-  "part_of_speech": "expression; godan verb",
+  "part_of_speech": "expression, verb (godan)",
   "gloss": "to keep silent; to clam up; to shut one's mouth",
   "conjugation_note": "Conjugates as a godan む verb (つぐむ → つぐんで, つぐんだ, etc.)",
   "definitions": [
@@ -55,8 +55,38 @@
       "notes": null
     }
   ],
-  "notes": "An idiomatic expression meaning to deliberately keep silent. The verb つぐむ means to close or seal (the lips), so the literal image is of pressing one's lips together to prevent words from coming out.\n\nCOMMON PATTERNS:\n- {口|くち}をつぐむ: to clam up, go silent\n- {口|くち}をつぐんで{黙|だま}る: to shut one's mouth and stay quiet\n- {固|かた}く{口|くち}をつぐむ: to keep one's mouth firmly shut\n\nNUANCE:\nImplies deliberate silence — the person has something they could say but chooses not to. Often used in contexts involving secrets, scandals, or uncomfortable truths. Different from simply being quiet ({黙|だま}る), which doesn't necessarily imply withholding information.\n\nSIMILAR WORDS:\n- {黙|だま}る: to be silent — general silence; not necessarily deliberate withholding\n- {口|くち}を{閉|と}ざす: to seal one's lips — very similar, slightly more literary\n- {黙秘|もくひ}する: to exercise the right to remain silent — legal term",
+  "notes": "An idiomatic expression meaning to deliberately keep silent. The verb つぐむ means to close or seal (the lips), so the literal image is of pressing one's lips together to prevent words from coming out.\n\nCOMMON PATTERNS:\n- {口|くち}をつぐむ: to clam up, go silent\n- {口|くち}をつぐんで{黙|だま}る: to shut one's mouth and stay quiet\n- {固|かた}く{口|くち}をつぐむ: to keep one's mouth firmly shut\n\nUSAGE:\nImplies deliberate silence — the person has something they could say but chooses not to. Often used in contexts involving secrets, scandals, or uncomfortable truths. Different from simply being quiet ({黙|だま}る), which doesn't necessarily imply withholding information.\n\nSIMILAR WORDS:\n- {黙|だま}る: to be silent — general silence; not necessarily deliberate withholding\n- {口|くち}を{閉|と}ざす: to seal one's lips — very similar, slightly more literary\n- {黙秘|もくひ}する: to exercise the right to remain silent — legal term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02287_damaru",
+      "reading": "だまる",
+      "headword": "{黙|だま}る",
+      "label": "to be silent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23119_kuchiwotozasu",
+      "reading": "くちをとざす",
+      "headword": "{口|くち}を{閉|と}ざす",
+      "label": "to seal one's lips"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08393_mokuhi",
+      "reading": "もくひ",
+      "headword": "{黙秘|もくひ}",
+      "label": "to exercise the right to remain silent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18270_damarikomu",
+      "reading": "だまりこむ",
+      "headword": "{黙|だま}り{込|こ}む",
+      "label": "to fall silent"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -72,7 +102,7 @@
       "verb_class": "godan-mu"
     },
     "created": "2026-03-31T20:18:26Z",
-    "modified": "2026-03-31T20:18:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

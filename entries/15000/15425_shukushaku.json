@@ -19,7 +19,9 @@
       "english": "What is the scale of this map?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15425_shukushaku_ex2",
@@ -27,7 +29,9 @@
       "english": "I used a map with a scale of 1:50,000.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15425_shukushaku_ex3",
@@ -35,22 +39,52 @@
       "english": "I made an architectural model at one-hundredth the actual scale.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{縮尺|しゅくしゃく} is a technical term used with maps, architectural drawings, and scale models. The scale is typically expressed as a fraction (e.g., {五万分|ごまんぶん}の{一|いち} = 1:50,000).\n\nCOMMON COLLOCATIONS:\n- {縮尺|しゅくしゃく}を{変|か}える (to change the scale)\n- {大|おお}{縮尺|しゅくしゃく} (large scale — showing more detail)\n- {小|しょう}{縮尺|しゅくしゃく} (small scale — covering wider area)\n- {縮尺|しゅくしゃく}{模型|もけい} (scale model)\n\nRELATED WORDS:\n- {拡大|かくだい}: enlargement\n- {縮小|しゅくしょう}: reduction\n- スケール: scale (loanword)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02553_kakudai",
+      "reading": "かくだい",
+      "headword": "{拡大|かくだい}",
+      "label": "enlargement"
+    },
+    {
+      "type": "related",
+      "target_id": "02568_shukushou",
+      "reading": "しゅくしょう",
+      "headword": "{縮小|しゅくしょう}",
+      "label": "reduction"
+    },
+    {
+      "type": "related",
+      "target_id": "07823_sukeeru",
+      "reading": "すけーる",
+      "headword": "スケール",
+      "label": "scale"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T13:46:58Z",
-    "modified": "2026-03-06T13:46:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

@@ -19,7 +19,9 @@
       "english": "I'm a layman in that field.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14559_mongaikan_ex2",
@@ -27,7 +29,9 @@
       "english": "I'd like you to explain it in a way even a non-expert can understand.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14559_mongaikan_ex3",
@@ -35,21 +39,42 @@
       "english": "Since I'm no expert on legal matters, it would be better to consult a specialist.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Literally \"a person outside the gate\" ({門|もん} gate + {外|がい} outside + {漢|かん} man/person). The image is of someone standing outside the gate of a school or discipline, unable to enter.\n\nOften used with humility when disclaiming expertise. The speaker frequently refers to themselves as a {門外漢|もんがいかん}.\n\nCOMMON PATTERNS:\n- ～の{門外漢|もんがいかん} (a layman in ~)\n- {門外漢|もんがいかん}にもわかる (understandable even to a layman)\n- {門外漢|もんがいかん}ながら (though I am no expert)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26018_senmongai",
+      "reading": "せんもんがい",
+      "headword": "{専門外|せんもんがい}",
+      "label": "outside one's specialty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26730_hisenmon",
+      "reading": "ひせんもん",
+      "headword": "{非専門|ひせんもん}",
+      "label": "non-specialist"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T07:12:09Z",
-    "modified": "2026-03-02T07:12:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

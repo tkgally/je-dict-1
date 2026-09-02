@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{女|おんな}の{子|こ} refers to a female child or young woman. The age range is flexible, from toddlers to young adults in casual usage.\n\nRELATED TERMS:\n- {女|おんな}の{子|こ}: girl (casual, everyday)\n- ⟦{男|おとこ}の{子|こ}→男の子：02862_otokonoko⟧: boy\n- ⟦{子供|こども}→子供：00554_kodomo⟧: child/children\n- ⟦{少女|しょうじょ}→少女：03233_shoujo⟧: girl (literary, often for teenagers)\n- ⟦{女子|じょし}→女子：03350_joshi⟧: girl/female (in compounds, schools, sports)\n\nUSAGE:\n{女|おんな}の{子|こ} is the standard everyday word. It can refer to young women casually, while ⟦{女性|じょせい}→女性：01617_josei⟧ is more appropriate in formal contexts. In compounds like ⟦{女子|じょし}→女子：03350_joshi⟧⟦トイレ→トイレ：00818_toire⟧ (women's restroom), ⟦{女子|じょし}→女子：03350_joshi⟧ is used instead.\n\nPRONUNCIATION:\nThe reading is おんなのこ, not *おんなのご.",
+  "notes": "{女|おんな}の{子|こ} refers to a female child or young woman. The age range is flexible, from toddlers to young adults in casual usage.\n\nRELATED WORDS:\n- {女|おんな}の{子|こ}: girl (casual, everyday)\n- ⟦{男|おとこ}の{子|こ}→男の子：02862_otokonoko⟧: boy\n- ⟦{子供|こども}→子供：00554_kodomo⟧: child/children\n- ⟦{少女|しょうじょ}→少女：03233_shoujo⟧: girl (literary, often for teenagers)\n- ⟦{女子|じょし}→女子：03350_joshi⟧: girl/female (in compounds, schools, sports)\n\nUSAGE:\n{女|おんな}の{子|こ} is the standard everyday word. It can refer to young women casually, while ⟦{女性|じょせい}→女性：01617_josei⟧ is more appropriate in formal contexts. In compounds like ⟦{女子|じょし}→女子：03350_joshi⟧⟦トイレ→トイレ：00818_toire⟧ (women's restroom), ⟦{女子|じょし}→女子：03350_joshi⟧ is used instead.\n\nPRONUNCIATION:\nThe reading is おんなのこ, not *おんなのご.",
   "cross_references": [
     {
       "type": "antonym",
@@ -85,11 +85,32 @@
       "reading": "こども",
       "headword": "{子供|こども}",
       "label": "child"
+    },
+    {
+      "type": "related",
+      "target_id": "03350_joshi",
+      "reading": "じょし",
+      "headword": "{女子|じょし}",
+      "label": "girl/female"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01617_josei",
+      "reading": "じょせい",
+      "headword": "{女性|じょせい}",
+      "label": "woman, female"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28058_joji",
+      "reading": "じょじ",
+      "headword": "{女児|じょじ}",
+      "label": "girl"
     }
   ],
   "metadata": {
     "created": "2026-01-11T09:27:30Z",
-    "modified": "2026-08-12T18:18:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

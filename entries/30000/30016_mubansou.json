@@ -3,7 +3,7 @@
   "headword": "{無伴奏|むばんそう}",
   "reading": "むばんそう",
   "romaji": "mubansou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "unaccompanied; without accompaniment",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "30016_mubansou_ex1",
       "japanese": "{無伴奏|むばんそう}で{歌|うた}う。",
       "english": "To sing without accompaniment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30016_mubansou_ex2",
       "japanese": "バッハの{無伴奏|むばんそう}チェロ{組曲|くみきょく}が{好|す}きだ。",
       "english": "I love Bach's unaccompanied cello suites.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "30016_mubansou_ex3",
       "japanese": "この{曲|きょく}は{無伴奏|むばんそう}の{合唱|がっしょう}のために{書|か}かれている。",
       "english": "This piece was written for unaccompanied chorus.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A term of classical music. Used before a noun or with の to describe a work or performance with no accompaniment.\n\nCOMMON COLLOCATIONS:\n- {無伴奏|むばんそう}チェロ{組曲|くみきょく}: unaccompanied cello suite\n- {無伴奏|むばんそう}{合唱|がっしょう}: unaccompanied chorus (a cappella)\n- {無伴奏|むばんそう}で{歌|うた}う: to sing without accompaniment\n\nSIMILAR WORDS:\n- アカペラ: a cappella — the everyday word for unaccompanied singing, especially in pop and choral contexts\n- {独奏|どくそう}: solo (instrumental) — one player, but does not itself mean \"without accompaniment\"",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30017_akapera",
+      "reading": "あかぺら",
+      "headword": "アカペラ",
+      "label": "a cappella"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07539_dokusou",
+      "reading": "どくそう",
+      "headword": "{独奏|どくそう}",
+      "label": "solo"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["music"],
+      "politeness": "plain",
+      "semantic": [
+        "music"
+      ],
       "domain": []
     },
     "created": "2026-07-21T18:18:56Z",
-    "modified": "2026-07-21T18:18:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

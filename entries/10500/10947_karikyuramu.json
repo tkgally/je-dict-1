@@ -19,7 +19,9 @@
       "english": "To review the curriculum.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10947_karikyuramu_ex2",
@@ -27,7 +29,9 @@
       "english": "A new curriculum was introduced.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10947_karikyuramu_ex3",
@@ -35,22 +39,87 @@
       "english": "This university's curriculum includes a lot of practical training.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n- カリキュラムを{組|く}む: to design/structure a curriculum\n- カリキュラムを{見直|みなお}す: to review/revise the curriculum\n- カリキュラムに{沿|そ}って: along the curriculum, following the curriculum\n- {教育|きょういく}カリキュラム: educational curriculum\n\nSIMILAR WORDS:\n- {教育|きょういく}{課程|かてい}: educational course/program (more formal, native Japanese)\n- {学習|がくしゅう}{指導|しどう}{要領|ようりょう}: national curriculum guidelines (official term in Japan's education system)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23560_kyouikukatei",
+      "reading": "きょういくかてい",
+      "headword": "{教育|きょういく}{課程|かてい}",
+      "label": "educational course/program"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26215_gakushuushidouyouryou",
+      "reading": "がくしゅうしどうようりょう",
+      "headword": "{学習指導要領|がくしゅうしどうようりょう}",
+      "label": "national curriculum guidelines"
+    },
+    {
+      "type": "related",
+      "target_id": "08552_jikanwari",
+      "reading": "じかんわり",
+      "headword": "{時間割|じかんわり}",
+      "label": "class schedule"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16670_shidouan",
+      "reading": "しどうあん",
+      "headword": "{指導案|しどうあん}",
+      "label": "lesson plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24023_jugyoukeikaku",
+      "reading": "じゅぎょうけいかく",
+      "headword": "{授業計画|じゅぎょうけいかく}",
+      "label": "lesson plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24688_kyoukakatei",
+      "reading": "きょうかかてい",
+      "headword": "{教科課程|きょうかかてい}",
+      "label": "curriculum"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26171_kyouan",
+      "reading": "きょうあん",
+      "headword": "{教案|きょうあん}",
+      "label": "lesson plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26607_jugyouan",
+      "reading": "じゅぎょうあん",
+      "headword": "{授業案|じゅぎょうあん}",
+      "label": "lesson plan"
+    }
+  ],
   "metadata": {
     "created": "2026-02-11T19:11:53Z",
-    "modified": "2026-02-11T19:11:53Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"],
-      "domain": ["academic"]
+      "semantic": [
+        "education"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

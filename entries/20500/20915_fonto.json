@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A loanword from English \"font.\" An essential term in computing, design, and publishing. Japanese fonts must handle thousands of kanji characters in addition to hiragana, katakana, and Latin letters.\n\nCOMMON COLLOCATIONS:\n- フォントを{変更|へんこう}する: to change the font\n- フォントサイズ: font size\n- フォントの{種類|しゅるい}: font types\n- {手書|てが}きフォント: handwritten-style font\n- フリーフォント: free font\n\nJAPANESE FONT CATEGORIES:\n- {明朝体|みんちょうたい}: Mincho (serif) — the most traditional Japanese typeface, with varying stroke thickness\n- ゴシック{体|たい}: Gothic (sans-serif) — uniform stroke width, commonly used for headings and digital text\n- {教科書体|きょうかしょたい}: textbook style — resembles handwritten characters, used in educational materials\n\nRELATED TERMS:\n- {書体|しょたい}: typeface, font style — the Japanese-origin equivalent\n- {活字|かつじ}: type, printing type — originally movable type, now used broadly",
+  "notes": "A loanword from English \"font.\" An essential term in computing, design, and publishing. Japanese fonts must handle thousands of kanji characters in addition to hiragana, katakana, and Latin letters.\n\nCOMMON COLLOCATIONS:\n- フォントを{変更|へんこう}する: to change the font\n- フォントサイズ: font size\n- フォントの{種類|しゅるい}: font types\n- {手書|てが}きフォント: handwritten-style font\n- フリーフォント: free font\n\nJAPANESE FONT CATEGORIES:\n- {明朝体|みんちょうたい}: Mincho (serif) — the most traditional Japanese typeface, with varying stroke thickness\n- ゴシック{体|たい}: Gothic (sans-serif) — uniform stroke width, commonly used for headings and digital text\n- {教科書体|きょうかしょたい}: textbook style — resembles handwritten characters, used in educational materials\n\nRELATED WORDS:\n- {書体|しょたい}: typeface, font style — the Japanese-origin equivalent\n- {活字|かつじ}: type, printing type — originally movable type, now used broadly",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13024_shotai",
+      "reading": "しょたい",
+      "headword": "{書体|しょたい}",
+      "label": "typeface, font style"
+    },
+    {
+      "type": "related",
+      "target_id": "00202_katsuji",
+      "reading": "かつじ",
+      "headword": "{活字|かつじ}",
+      "label": "type, printing type"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03337_jitai",
+      "reading": "じたい",
+      "headword": "{字体|じたい}",
+      "label": "font, typeface, lettering style"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-03-30T20:16:01Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "He claimed it was self-defense.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18184_seitoubouei_ex2",
@@ -27,7 +29,9 @@
       "english": "Self-defense was recognized in the trial.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18184_seitoubouei_ex3",
@@ -35,22 +39,52 @@
       "english": "I was hit first so I fought back in self-defense, but going too far would constitute excessive defense.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA legal term defined in Article 36 of the Japanese Penal Code. Also widely used in casual conversation when justifying a defensive action. The boundary between {正当防衛|せいとうぼうえい} and {過剰防衛|かじょうぼうえい} (excessive defense) is a frequent topic in legal discussions and crime dramas.\n\nCOMMON COLLOCATIONS:\n- {正当防衛|せいとうぼうえい}が{成立|せいりつ}する (self-defense is established)\n- {正当防衛|せいとうぼうえい}を{主張|しゅちょう}する (to claim self-defense)\n- {正当防衛|せいとうぼうえい}が{認|みと}められる (self-defense is recognized)\n\nRELATED TERMS:\n- {過剰防衛|かじょうぼうえい}: excessive defense — when the response goes beyond what is necessary\n- {緊急避難|きんきゅうひなん}: act of necessity — another legal justification for otherwise unlawful acts",
-  "cross_references": [],
+  "notes": "USAGE:\nA legal term defined in Article 36 of the Japanese Penal Code. Also widely used in casual conversation when justifying a defensive action. The boundary between {正当防衛|せいとうぼうえい} and {過剰防衛|かじょうぼうえい} (excessive defense) is a frequent topic in legal discussions and crime dramas.\n\nCOMMON COLLOCATIONS:\n- {正当防衛|せいとうぼうえい}が{成立|せいりつ}する (self-defense is established)\n- {正当防衛|せいとうぼうえい}を{主張|しゅちょう}する (to claim self-defense)\n- {正当防衛|せいとうぼうえい}が{認|みと}められる (self-defense is recognized)\n\nRELATED WORDS:\n- {過剰防衛|かじょうぼうえい}: excessive defense — when the response goes beyond what is necessary\n- {緊急避難|きんきゅうひなん}: act of necessity — another legal justification for otherwise unlawful acts",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18323_goshinjutsu",
+      "reading": "ごしんじゅつ",
+      "headword": "{護身術|ごしんじゅつ}",
+      "label": "self-defense (art/technique)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19714_goshin",
+      "reading": "ごしん",
+      "headword": "{護身|ごしん}",
+      "label": "self-defense"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24111_jikobouei",
+      "reading": "じこぼうえい",
+      "headword": "{自己防衛|じこぼうえい}",
+      "label": "self-defense"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T09:04:12Z",
-    "modified": "2026-03-20T09:04:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

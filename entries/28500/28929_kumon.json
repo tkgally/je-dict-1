@@ -3,7 +3,7 @@
   "headword": "{苦悶|くもん}",
   "reading": "くもん",
   "romaji": "kumon",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "agony; anguish; deep suffering",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Compound of {苦|く} (suffering) + {悶|もん} (writhing in pain). Used as a noun and as a する verb ({苦悶|くもん}する). Implies severe, ongoing torment — not minor discomfort.\n\nCOMMON COLLOCATIONS:\n- {苦悶|くもん}の{表情|ひょうじょう}: a look of agony\n- {苦悶|くもん}に{満|み}ちた{声|こえ}: a voice full of anguish\n- {苦悶|くもん}する: to writhe/agonize\n- {心|こころ}の{苦悶|くもん}: inner anguish\n- {苦悶|くもん}の{末|すえ}: after great anguish\n\nREGISTER:\nLiterary and heavy in tone. In casual speech, use {苦|くる}しむ or {悩|なや}む instead.\n\nSIMILAR WORDS:\n- {苦痛|くつう}: pain; suffering — broader, can be mild or severe\n- {苦悩|くのう}: anguish; distress — emphasizes the mental/emotional side\n- {懊悩|おうのう}: deep mental anguish — even more literary",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02652_kutsuu",
+      "reading": "くつう",
+      "headword": "{苦痛|くつう}",
+      "label": "pain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05517_kunou",
+      "reading": "くのう",
+      "headword": "{苦悩|くのう}",
+      "label": "anguish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09462_ounou",
+      "reading": "おうのう",
+      "headword": "{懊悩|おうのう}",
+      "label": "deep mental anguish"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +77,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ],
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-06-07T03:04:58Z",
-    "modified": "2026-08-09T06:35:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -17,7 +17,9 @@
       "id": "28413_hougaku_ex1",
       "japanese": "{大学|だいがく}で{法学|ほうがく}を{学|まな}ぶ。",
       "english": "Study law at university.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28413_hougaku_ex2",
       "japanese": "{法学|ほうがく}の{授業|じゅぎょう}は{難|むずか}しい。",
       "english": "The law class is difficult.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "28413_hougaku_ex3",
       "japanese": "{法学|ほうがく}を{専門|せんもん}にしている{学生|がくせい}は、{将来|しょうらい}{弁護士|べんごし}を{目指|めざ}している。",
       "english": "Students who specialize in law aim to become lawyers in the future.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {法|ほう} (law) + {学|がく} (study, -ology). Refers to the academic field, not the body of laws themselves.\n\nCOMMON COLLOCATIONS:\n- {法学|ほうがく}{部|ぶ}: faculty of law\n- {法学|ほうがく}{者|しゃ}: legal scholar\n- {法学|ほうがく}{概論|がいろん}: introduction to law\n- {法学|ほうがく}を{学|まな}ぶ: study law\n- {法学|ほうがく}を{専攻|せんこう}する: major in law\n\nSIMILAR WORDS:\n- {法律|ほうりつ}: law — refers to the actual body of laws, not the study of them\n- {法律学|ほうりつがく}: jurisprudence — close synonym of {法学|ほうがく}; somewhat more formal\n- {法|ほう}: law — broadest term; covers both statutes and principles",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01722_houritsu",
+      "reading": "ほうりつ",
+      "headword": "{法律|ほうりつ}",
+      "label": "law"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25460_hanzaigaku",
+      "reading": "はんざいがく",
+      "headword": "{犯罪学|はんざいがく}",
+      "label": "criminology"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["education", "law"],
+      "politeness": "plain",
+      "semantic": [
+        "education",
+        "law"
+      ],
       "domain": []
     },
     "created": "2026-05-30T04:08:44Z",
-    "modified": "2026-05-30T04:08:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "21805_kisochishiki_ex1",
       "japanese": "{基礎|きそ}{知識|ちしき}を{身|み}につける。",
       "english": "To acquire basic knowledge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21805_kisochishiki_ex2",
       "japanese": "まず{基礎|きそ}{知識|ちしき}がないと{理解|りかい}できない。",
       "english": "You can't understand it without basic knowledge first.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "21805_kisochishiki_ex3",
       "japanese": "この{本|ほん}はプログラミングの{基礎|きそ}{知識|ちしき}をわかりやすく{説明|せつめい}している。",
       "english": "This book explains the fundamentals of programming in an easy-to-understand way.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {基礎|きそ} (foundation, basics) and {知識|ちしき} (knowledge). Refers to the minimum knowledge needed to engage with a subject, skill, or profession. Commonly used in educational and professional contexts.\n\nCOMMON COLLOCATIONS:\n- {基礎|きそ}{知識|ちしき}を{身|み}につける: to acquire basic knowledge\n- {基礎|きそ}{知識|ちしき}を{学|まな}ぶ: to learn the basics\n- {基礎|きそ}{知識|ちしき}がある: to have basic knowledge\n- {基礎|きそ}{知識|ちしき}が{足|た}りない: to lack basic knowledge\n\nSIMILAR WORDS:\n- {予備|よび}{知識|ちしき}: prerequisite knowledge — knowledge needed before tackling a specific topic\n- {常識|じょうしき}: common sense — general knowledge expected of adults in society\n- {基本|きほん}: basics — broader term for fundamentals, not limited to knowledge",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17945_yobichishiki",
+      "reading": "よびちしき",
+      "headword": "{予備知識|よびちしき}",
+      "label": "prerequisite knowledge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03287_joushiki",
+      "reading": "じょうしき",
+      "headword": "{常識|じょうしき}",
+      "label": "common sense"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00226_kihon",
+      "reading": "きほん",
+      "headword": "{基本|きほん}",
+      "label": "basics"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-04-03T18:21:33Z",
-    "modified": "2026-04-03T18:21:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

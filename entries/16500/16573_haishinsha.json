@@ -19,7 +19,9 @@
       "english": "I watched a video by a popular streamer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16573_haishinsha_ex2",
@@ -27,7 +29,9 @@
       "english": "She is active as a game streamer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16573_haishinsha_ex3",
@@ -35,7 +39,9 @@
       "english": "Recently, many young people want to become streamers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {配信|はいしん} (distribution, streaming) and {者|しゃ} (person). While {配信|はいしん} can refer to any digital content delivery, {配信者|はいしんしゃ} in modern usage almost exclusively means someone who livestreams or creates online video content. Often shortened to just {配信者|はいしんしゃ} without further qualification.\n\nCOMMON COLLOCATIONS:\n- {人気|にんき}{配信者|はいしんしゃ} (popular streamer)\n- ゲーム{配信者|はいしんしゃ} (game streamer)\n- {配信者|はいしんしゃ}として{活動|かつどう}する (to be active as a streamer)\n- {配信者|はいしんしゃ}デビュー (debut as a streamer)\n\nSIMILAR WORDS:\n- ストリーマー: streamer — English loanword, used interchangeably\n- ユーチューバー: YouTuber — specifically for YouTube creators",
@@ -46,19 +52,61 @@
       "reading": "はいしん",
       "headword": "{配信|はいしん}",
       "label": "streaming (base word)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29476_sutoriimaa",
+      "reading": "すとりーまー",
+      "headword": "ストリーマー",
+      "label": "streamer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06475_yuuchuubaa",
+      "reading": "ゆーちゅーばー",
+      "headword": "ユーチューバー",
+      "label": "YouTuber"
+    },
+    {
+      "type": "related",
+      "target_id": "06444_nagesen",
+      "reading": "なげせん",
+      "headword": "{投|な}げ{銭|せん}",
+      "label": "online tipping, virtual tip"
+    },
+    {
+      "type": "related",
+      "target_id": "29828_jikkyousha",
+      "reading": "じっきょうしゃ",
+      "headword": "{実況者|じっきょうしゃ}",
+      "label": "live streamer"
+    },
+    {
+      "type": "related",
+      "target_id": "29829_buichuubaa",
+      "reading": "ぶいちゅーばー",
+      "headword": "Vチューバー",
+      "label": "VTuber"
     }
   ],
   "metadata": {
     "created": "2026-03-13T23:59:32Z",
-    "modified": "2026-05-04T08:25:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "occupation"],
-      "domain": ["technical"]
+      "semantic": [
+        "person",
+        "occupation"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

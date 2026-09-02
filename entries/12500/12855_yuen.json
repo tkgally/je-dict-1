@@ -19,7 +19,9 @@
       "english": "That is the basis of his strength.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12855_yuen_ex2",
@@ -27,7 +29,9 @@
       "english": "What is it that makes humans human?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12855_yuen_ex3",
@@ -35,22 +39,46 @@
       "english": "The reason this region is called a famous production area lies in its unique climate and soil.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA literary/formal word. The most common pattern is 「Xの{所以|ゆえん}」 meaning \"the reason for X\" or \"what makes X what it is.\" Also used in the rhetorical pattern 「XがXたる{所以|ゆえん}」 (what makes X truly X), which sounds elevated and philosophical.\n\nCOMMON PATTERNS:\n- ...の{所以|ゆえん}: the reason for..., the basis of...\n- XがXたる{所以|ゆえん}: what makes X truly X\n\nSIMILAR WORDS:\n- {理由|りゆう}: reason (everyday, neutral)\n- {根拠|こんきょ}: grounds, basis (formal, factual)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01102_riyuu",
+      "reading": "りゆう",
+      "headword": "{理由|りゆう}",
+      "label": "reason"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10147_konkyo",
+      "reading": "こんきょ",
+      "headword": "{根拠|こんきょ}",
+      "label": "grounds, basis"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T12:00:17Z",
-    "modified": "2026-02-22T12:00:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "style": ["written", "literary"]
+      "semantic": [
+        "general"
+      ],
+      "style": [
+        "written",
+        "literary"
+      ]
     }
   }
 }

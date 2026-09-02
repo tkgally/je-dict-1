@@ -2,7 +2,7 @@
   "id": "21321_tekkyosuru",
   "headword": "{撤去|てっきょ}する",
   "reading": "てっきょする",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to remove; to dismantle; to take down",
   "definitions": [
     {
@@ -45,6 +45,36 @@
   ],
   "notes": "Compound of {撤|てつ} (withdraw) + {去|きょ} (remove). Used for removing installed or placed structures, equipment, and objects. More formal than {取|と}り{除|のぞ}く and implies removing something that was deliberately set up.\n\nCOMMON COLLOCATIONS:\n- {看板|かんばん}を{撤去|てっきょ}する: to remove a sign\n- {足場|あしば}を{撤去|てっきょ}する: to remove scaffolding\n- {障害物|しょうがいぶつ}を{撤去|てっきょ}する: to clear obstacles\n- {強制|きょうせい}{撤去|てっきょ}: forced removal\n- {撤去|てっきょ}{費用|ひよう}: removal costs\n\nSIMILAR WORDS:\n- {除去|じょきょ}する: to remove (more general; stains, substances, threats)\n- {撤収|てっしゅう}する: to withdraw, to pull out (troops, equipment from a location)\n- {解体|かいたい}する: to demolish (breaking apart a structure entirely)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22368_jokyosuru",
+      "reading": "じょきょする",
+      "headword": "{除去|じょきょ}する",
+      "label": "to remove (more general"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12922_tesshuu",
+      "reading": "てっしゅう",
+      "headword": "{撤収|てっしゅう}",
+      "label": "to withdraw, to pull out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06223_kaitai",
+      "reading": "かいたい",
+      "headword": "{解体|かいたい}",
+      "label": "to demolish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25537_haikisuru",
+      "reading": "はいきする",
+      "headword": "{廃棄|はいき}する",
+      "label": "to discard"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T00:59:13Z",
-    "modified": "2026-04-02T00:59:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -46,12 +46,44 @@
   ],
   "notes": "A general term for authoritative religious texts regarded as sacred or divinely inspired. Can refer to the Bible, the Quran, Buddhist sutras, or the scriptures of any religion.\n\nCOMMON COLLOCATIONS:\n- {聖典|せいてん}の{教|おし}え: teachings of the scriptures\n- {聖典|せいてん}を{学|まな}ぶ: to study the scriptures\n- {聖典|せいてん}{研究|けんきゅう}: scriptural studies\n\nSIMILAR WORDS:\n- {経典|きょうてん}: sutra, religious text — often specifically Buddhist scriptures\n- {聖書|せいしょ}: the Bible — specifically the Christian scripture\n- {教典|きょうてん}: religious canon — the body of authoritative texts of a particular faith",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24153_kyouten",
+      "reading": "きょうてん",
+      "headword": "{経典|きょうてん}",
+      "label": "sutra, religious text"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17969_seisho",
+      "reading": "せいしょ",
+      "headword": "{聖書|せいしょ}",
+      "label": "the Bible"
+    },
+    {
+      "type": "related",
+      "target_id": "24049_kyuuyakuseisho",
+      "reading": "きゅうやくせいしょ",
+      "headword": "{旧約聖書|きゅうやくせいしょ}",
+      "label": "Old Testament"
+    },
+    {
+      "type": "related",
+      "target_id": "24050_shinyakuseisho",
+      "reading": "しんやくせいしょ",
+      "headword": "{新約聖書|しんやくせいしょ}",
+      "label": "New Testament"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "religion"
       ],
@@ -60,6 +92,6 @@
       ]
     },
     "created": "2026-04-17T21:39:01Z",
-    "modified": "2026-04-17T21:39:01Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

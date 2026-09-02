@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{参加者|さんかしゃ} combines ⟦{参加|さんか}→参加：02498_sanka⟧ (participation) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person).\n\nCOMMON PATTERNS:\n- {参加者|さんかしゃ}⟦を→を：00422_wo⟧⟦{募集|ぼしゅう}→募集：03035_boshuu⟧⟦する→する：00392_suru⟧ (to recruit participants)\n- {参加者|さんかしゃ}⟦{数|すう}→数：03360_suu⟧ (number of participants)\n- {参加者|さんかしゃ}⟦{全員|ぜんいん}→全員：03310_zenin⟧ (all participants)\n\nRELATED ～{者|しゃ} COMPOUNDS:\n- ⟦{希望者|きぼうしゃ}→希望者：03050_kibousha⟧ (applicant)\n- ⟦{利用者|りようしゃ}→利用者：03189_riyousha⟧ (user)\n- ⟦{出席者|しゅっせきしゃ}→出席者：20975_shussekisha⟧ (attendee)\n- ⟦{関係者|かんけいしゃ}→関係者：16441_kankeisha⟧ (person concerned)\n\nUSAGE NOTES:\n- Used for events, workshops, competitions, surveys, etc.\n- More formal than simply saying ⟦{参加|さんか}→参加：02498_sanka⟧⟦する→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧",
+  "notes": "{参加者|さんかしゃ} combines ⟦{参加|さんか}→参加：02498_sanka⟧ (participation) + ⟦{者|しゃ}→〜者：04662_sha⟧ (person).\n\nCOMMON PATTERNS:\n- {参加者|さんかしゃ}⟦を→を：00422_wo⟧⟦{募集|ぼしゅう}→募集：03035_boshuu⟧⟦する→する：00392_suru⟧ (to recruit participants)\n- {参加者|さんかしゃ}⟦{数|すう}→数：03360_suu⟧ (number of participants)\n- {参加者|さんかしゃ}⟦{全員|ぜんいん}→全員：03310_zenin⟧ (all participants)\n\nRELATED ～{者|しゃ} COMPOUNDS:\n- ⟦{希望者|きぼうしゃ}→希望者：03050_kibousha⟧ (applicant)\n- ⟦{利用者|りようしゃ}→利用者：03189_riyousha⟧ (user)\n- ⟦{出席者|しゅっせきしゃ}→出席者：20975_shussekisha⟧ (attendee)\n- ⟦{関係者|かんけいしゃ}→関係者：16441_kankeisha⟧ (person concerned)\n\nUSAGE:\n- Used for events, workshops, competitions, surveys, etc.\n- More formal than simply saying ⟦{参加|さんか}→参加：02498_sanka⟧⟦する→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧",
   "cross_references": [
     {
       "type": "related",
@@ -78,11 +78,53 @@
       "headword": "{希望者|きぼうしゃ}",
       "label": "applicant",
       "target_id": "03050_kibousha"
+    },
+    {
+      "type": "related",
+      "target_id": "06476_gamenkyouyuu",
+      "reading": "がめんきょうゆう",
+      "headword": "{画面共有|がめんきょうゆう}",
+      "label": "screen sharing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19023_raijousha",
+      "reading": "らいじょうしゃ",
+      "headword": "{来場者|らいじょうしゃ}",
+      "label": "visitor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20975_shussekisha",
+      "reading": "しゅっせきしゃ",
+      "headword": "{出席者|しゅっせきしゃ}",
+      "label": "attendee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22915_hikensha",
+      "reading": "ひけんしゃ",
+      "headword": "{被験者|ひけんしゃ}",
+      "label": "test subject"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23599_nyuujousha",
+      "reading": "にゅうじょうしゃ",
+      "headword": "{入場者|にゅうじょうしゃ}",
+      "label": "attendee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23920_shutsujousha",
+      "reading": "しゅつじょうしゃ",
+      "headword": "{出場者|しゅつじょうしゃ}",
+      "label": "participant"
     }
   ],
   "metadata": {
     "created": "2026-01-11T11:14:00Z",
-    "modified": "2026-05-23T18:11:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

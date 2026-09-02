@@ -17,7 +17,9 @@
       "id": "29533_bubunnisshoku_ex1",
       "japanese": "{部分|ぶぶん}{日食|にっしょく}が{見|み}えた。",
       "english": "A partial solar eclipse was visible.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29533_bubunnisshoku_ex2",
       "japanese": "{今日|きょう}は{各地|かくち}で{部分|ぶぶん}{日食|にっしょく}が{観測|かんそく}された。",
       "english": "A partial solar eclipse was observed in many places today.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29533_bubunnisshoku_ex3",
       "japanese": "{部分|ぶぶん}{日食|にっしょく}でも、{太陽|たいよう}を{直接|ちょくせつ}{見|み}るのは{危険|きけん}だ。",
       "english": "Even during a partial solar eclipse, looking directly at the sun is dangerous.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {部分|ぶぶん} (partial) + {日食|にっしょく} (solar eclipse).\n\nCOMMON COLLOCATIONS:\n- {部分|ぶぶん}{日食|にっしょく}を{観測|かんそく}する: to observe a partial solar eclipse\n- {部分|ぶぶん}{日食|にっしょく}が{見|み}られる: a partial solar eclipse can be seen\n\nSIMILAR WORDS:\n- {皆既|かいき}{日食|にっしょく}: total eclipse — the Sun is completely hidden\n- {金環|きんかん}{日食|にっしょく}: annular eclipse — a ring of sunlight remains",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29532_kaikinisshoku",
+      "reading": "かいきにっしょく",
+      "headword": "{皆既|かいき}{日食|にっしょく}",
+      "label": "total eclipse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29534_kinkannisshoku",
+      "reading": "きんかんにっしょく",
+      "headword": "{金環|きんかん}{日食|にっしょく}",
+      "label": "annular eclipse"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["science"],
+      "politeness": "plain",
+      "semantic": [
+        "science"
+      ],
       "domain": []
     },
     "created": "2026-06-28T09:18:52Z",
-    "modified": "2026-06-28T09:18:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "28549_bijutsuhin_ex1",
       "japanese": "{貴重|きちょう}な{美術品|びじゅつひん}を{展示|てんじ}する。",
       "english": "We exhibit valuable works of art.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28549_bijutsuhin_ex2",
       "japanese": "この{美術品|びじゅつひん}は{江戸|えど}{時代|じだい}のものだ。",
       "english": "This artwork is from the Edo period.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "28549_bijutsuhin_ex3",
       "japanese": "{個人|こじん}{所有|しょゆう}の{美術品|びじゅつひん}が{美術館|びじゅつかん}に{寄贈|きぞう}されることもある。",
       "english": "Privately owned works of art are sometimes donated to museums.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {美術|びじゅつ} (fine art) + {品|ひん} (article, item). Emphasizes the work as a tangible object, distinguishing it from {美術|びじゅつ} (the activity/field of fine art).\n\nCOMMON COLLOCATIONS:\n- {美術品|びじゅつひん}の{展示|てんじ}: art exhibition\n- {美術品|びじゅつひん}を{収集|しゅうしゅう}する: to collect art\n- {美術品|びじゅつひん}の{鑑定|かんてい}: art appraisal\n- {高価|こうか}な{美術品|びじゅつひん}: expensive artwork\n\nSIMILAR WORDS:\n- {美術|びじゅつ}: fine art — the field or activity, not the individual object\n- {芸術|げいじゅつ}{作品|さくひん}: work of art — broader, includes music, literature, and performance\n- {骨董品|こっとうひん}: antique — older items valued for age as well as artistry",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06990_kottouhin",
+      "reading": "こっとうひん",
+      "headword": "{骨董品|こっとうひん}",
+      "label": "antique"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17221_kobijutsu",
+      "reading": "こびじゅつ",
+      "headword": "{古美術|こびじゅつ}",
+      "label": "antique art"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["art", "culture"],
+      "politeness": "plain",
+      "semantic": [
+        "art",
+        "culture"
+      ],
       "domain": []
     },
     "created": "2026-06-01T04:07:37Z",
-    "modified": "2026-06-01T04:07:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

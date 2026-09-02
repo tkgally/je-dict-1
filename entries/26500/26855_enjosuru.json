@@ -3,7 +3,7 @@
   "headword": "{援助|えんじょ}する",
   "reading": "えんじょする",
   "romaji": "enjosuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to assist; to aid; to support; to provide aid",
   "definitions": [
     {
@@ -55,7 +55,43 @@
     }
   ],
   "notes": "Typically implies organized, institutional support rather than casual personal help. Very common in discussions of international relations, foreign aid, and disaster response. Japan is a major provider of ODA ({政府|せいふ}{開発|かいはつ}{援助|えんじょ}, Official Development Assistance).\n\nCOMMON COLLOCATIONS:\n- {経済|けいざい}{援助|えんじょ}: economic aid\n- {人道|じんどう}{援助|えんじょ}: humanitarian aid\n- {食料|しょくりょう}{援助|えんじょ}: food aid\n- {軍事|ぐんじ}{援助|えんじょ}: military aid\n- {開発|かいはつ}{援助|えんじょ}: development aid\n- {援助|えんじょ}{金|きん}: financial assistance, grants\n\nSIMILAR WORDS:\n- {手伝|てつだ}う: to help — everyday personal help\n- {支援|しえん}する: to support — broader support including non-material help\n- {助|たす}ける: to save, to help — immediate help, less formal",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00898_tetsudau",
+      "reading": "てつだう",
+      "headword": "{手伝|てつだ}う",
+      "label": "to help"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25534_shiensuru",
+      "reading": "しえんする",
+      "headword": "{支援|しえん}する",
+      "label": "to support"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00895_tasukeru",
+      "reading": "たすける",
+      "headword": "{助|たす}ける",
+      "label": "to save, to help"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21876_joseisuru",
+      "reading": "じょせいする",
+      "headword": "{助成|じょせい}する",
+      "label": "to subsidize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26783_tedasukesuru",
+      "reading": "てだすけする",
+      "headword": "{手助|てだす}けする",
+      "label": "to help"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,7 +107,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T13:14:58Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

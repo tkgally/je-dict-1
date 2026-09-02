@@ -17,7 +17,9 @@
       "id": "20458_chourihou_ex1",
       "japanese": "{調理法|ちょうりほう}によって{味|あじ}が{変|か}わる。",
       "english": "The flavor changes depending on the cooking method.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20458_chourihou_ex2",
       "japanese": "この{野菜|やさい}にはどんな{調理法|ちょうりほう}が{合|あ}いますか。",
       "english": "What cooking methods suit this vegetable?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "20458_chourihou_ex3",
       "japanese": "{同|おな}じ{食材|しょくざい}でも{調理法|ちょうりほう}を{変|か}えれば、まったく{違|ちが}う{料理|りょうり}になる。",
       "english": "Even with the same ingredients, if you change the cooking method, it becomes a completely different dish.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {調理|ちょうり} (cooking, food preparation) and {法|ほう} (method, way). Refers to specific techniques like {焼|や}く (grilling), {蒸|む}す (steaming), {煮|に}る (simmering), and {揚|あ}げる (deep-frying).\n\nCOMMON JAPANESE COOKING METHODS:\n- {焼|や}く — to grill, roast, bake\n- {煮|に}る — to simmer, stew\n- {蒸|む}す — to steam\n- {揚|あ}げる — to deep-fry\n- {炒|いた}める — to stir-fry\n- {茹|ゆ}でる — to boil\n\nCOMMON COLLOCATIONS:\n- {調理法|ちょうりほう}を{工夫|くふう}する — to be creative with cooking methods\n- {調理法|ちょうりほう}を{変|か}える — to change the cooking method\n- {基本的|きほんてき}な{調理法|ちょうりほう} — basic cooking methods\n\nSIMILAR WORDS:\n- レシピ — recipe (loanword, more common for specific instructions)\n- {料理法|りょうりほう} — cooking method (synonym, slightly less common)\n- {調理|ちょうり} — cooking, food preparation (the process itself)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07157_reshipi",
+      "reading": "れしぴ",
+      "headword": "レシピ",
+      "label": "recipe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26096_ryourihou",
+      "reading": "りょうりほう",
+      "headword": "{料理法|りょうりほう}",
+      "label": "cooking method"
+    },
+    {
+      "type": "related",
+      "target_id": "27119_yakikata",
+      "reading": "やきかた",
+      "headword": "{焼|や}き{方|かた}",
+      "label": "way of grilling"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "cooking"]
+      "semantic": [
+        "food",
+        "cooking"
+      ]
     },
     "created": "2026-03-29T14:15:55Z",
-    "modified": "2026-03-29T14:15:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

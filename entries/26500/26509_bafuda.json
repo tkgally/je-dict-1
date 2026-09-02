@@ -17,7 +17,9 @@
       "id": "26509_bafuda_ex1",
       "japanese": "{場札|ばふだ}を{確認|かくにん}してから{手札|てふだ}を{出|だ}す。",
       "english": "Check the table cards before playing a card from your hand.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26509_bafuda_ex2",
       "japanese": "{場札|ばふだ}に{合|あ}う{札|ふだ}が{手元|てもと}にない。",
       "english": "I don't have a card in my hand that matches any of the table cards.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,52 @@
       "id": "26509_bafuda_ex3",
       "japanese": "{花札|はなふだ}では、{場札|ばふだ}と{同|おな}じ{月|つき}の{札|ふだ}を{手札|てふだ}から{出|だ}して{合|あ}わせると、{両方|りょうほう}を{取|と}ることができる。",
       "english": "In hanafuda, if you play a card from your hand that matches the month of a table card, you can take both.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {場|ば} (place, field) and {札|ふだ} (card, tag). A card game term referring to cards that are in play on the table, as opposed to {手札|てふだ} (cards in one's hand) or {山札|やまふだ} (draw pile). Most commonly associated with {花札|はなふだ} (hanafuda) and {かるた|かるた} (karuta) but also used in other card games.\n\nCOMMON COLLOCATIONS:\n- {場札|ばふだ}に{合|あ}わせる: to match a table card\n- {場札|ばふだ}を{取|と}る: to take a table card\n- {場札|ばふだ}を{並|なら}べる: to lay out the table cards\n\nRELATED TERMS:\n- {手札|てふだ}: hand (cards held by a player)\n- {山札|やまふだ}: draw pile / stock pile\n- {花札|はなふだ}: hanafuda — traditional Japanese flower card game",
-  "cross_references": [],
+  "notes": "Composed of {場|ば} (place, field) and {札|ふだ} (card, tag). A card game term referring to cards that are in play on the table, as opposed to {手札|てふだ} (cards in one's hand) or {山札|やまふだ} (draw pile). Most commonly associated with {花札|はなふだ} (hanafuda) and かるた (karuta) but also used in other card games.\n\nCOMMON COLLOCATIONS:\n- {場札|ばふだ}に{合|あ}わせる: to match a table card\n- {場札|ばふだ}を{取|と}る: to take a table card\n- {場札|ばふだ}を{並|なら}べる: to lay out the table cards\n\nRELATED WORDS:\n- {手札|てふだ}: hand (cards held by a player)\n- {山札|やまふだ}: draw pile / stock pile\n- {花札|はなふだ}: hanafuda — traditional Japanese flower card game",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18171_tefuda",
+      "reading": "てふだ",
+      "headword": "{手札|てふだ}",
+      "label": "hand"
+    },
+    {
+      "type": "related",
+      "target_id": "19911_yamafuda",
+      "reading": "やまふだ",
+      "headword": "{山札|やまふだ}",
+      "label": "draw pile / stock pile"
+    },
+    {
+      "type": "related",
+      "target_id": "22650_hanafuda",
+      "reading": "はなふだ",
+      "headword": "{花札|はなふだ}",
+      "label": "hanafuda"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-02T13:35:06Z",
-    "modified": "2026-05-02T13:35:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

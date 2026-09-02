@@ -3,7 +3,7 @@
   "headword": "{支援|しえん}する",
   "reading": "しえんする",
   "romaji": "shiensuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to support; to aid; to assist",
   "definitions": [
     {
@@ -45,7 +45,36 @@
     }
   ],
   "notes": "{支援|しえん}する implies organized, sustained help rather than a one-time favor. It is widely used in news, government policy, NGO work, and business contexts. The help may be financial, logistical, emotional, or technical.\n\nCOMMON COLLOCATIONS:\n- {資金|しきん}{支援|しえん}: financial support\n- {技術|ぎじゅつ}{支援|しえん}: technical support\n- {復興|ふっこう}{支援|しえん}: reconstruction aid\n- {子育|こそだ}て{支援|しえん}: childcare support\n- {就職|しゅうしょく}{支援|しえん}: job-hunting assistance\n- {支援|しえん}{団体|だんたい}: support organization\n\nSIMILAR WORDS:\n- {援助|えんじょ}する: to aid — often implies material or financial aid, especially in international contexts\n- {応援|おうえん}する: to cheer on; to root for — more personal and emotional, includes cheering at events\n- {助|たす}ける: to help; to rescue — more immediate and personal, often used for direct physical help",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26855_enjosuru",
+      "reading": "えんじょする",
+      "headword": "{援助|えんじょ}する",
+      "label": "to aid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21988_ouensuru",
+      "reading": "おうえんする",
+      "headword": "{応援|おうえん}する",
+      "label": "to cheer on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00895_tasukeru",
+      "reading": "たすける",
+      "headword": "{助|たす}ける",
+      "label": "to help"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21876_joseisuru",
+      "reading": "じょせいする",
+      "headword": "{助成|じょせい}する",
+      "label": "to subsidize"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +83,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "action",
         "society"
@@ -62,7 +93,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T16:14:53Z",
-    "modified": "2026-04-25T16:14:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

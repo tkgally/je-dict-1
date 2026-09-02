@@ -2,7 +2,7 @@
   "id": "03484_dokusho",
   "headword": "{読書|どくしょ}",
   "reading": "どくしょ",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reading (books)",
   "conjugation": {
     "type": "suru",
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {読書|どくしょ} specifically refers to reading books as an activity. It's a very common hobby in Japan and a standard response when asked about hobbies.\n\nCOMMON PATTERNS:\n・{読書|どくしょ}⟦する→する：00392_suru⟧ (to read)\n・{読書|どくしょ}⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧ (to like reading)\n・{読書|どくしょ}⟦{家|か}→〜家：28339_ka⟧ (avid reader)\n・{読書|どくしょ}⟦{量|りょう}→量：03799_ryou⟧ (amount of reading)\n\nCULTURAL NOTE:\n「{読書|どくしょ}⟦の→の：09472_no⟧⟦{秋|あき}→秋：02276_aki⟧」(Autumn is for reading) is a common expression in Japan. Autumn's cooler weather and longer nights are considered ideal for quiet reading.\n\nRELATED WORDS:\n・⟦{読|よ}む→読む：00426_yomu⟧ (to read - verb)\n・⟦{愛読|あいどく}→愛読：15980_aidoku⟧ (favorite reading, avid reading)\n・⟦{精読|せいどく}→精読：15982_seidoku⟧ (close/careful reading)\n・⟦{多読|たどく}→多読：15981_tadoku⟧ (extensive reading)\n・⟦{速読|そくどく}→速読：22402_sokudoku⟧ (speed reading)",
+  "notes": "USAGE: {読書|どくしょ} specifically refers to reading books as an activity. It's a very common hobby in Japan and a standard response when asked about hobbies.\n\nCOMMON PATTERNS:\n- {読書|どくしょ}⟦する→する：00392_suru⟧ (to read)\n- {読書|どくしょ}⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧ (to like reading)\n- {読書|どくしょ}⟦{家|か}→〜家：28339_ka⟧ (avid reader)\n- {読書|どくしょ}⟦{量|りょう}→量：03799_ryou⟧ (amount of reading)\n\nCULTURAL NOTE:\n「{読書|どくしょ}⟦の→の：09472_no⟧⟦{秋|あき}→秋：02276_aki⟧」(Autumn is for reading) is a common expression in Japan. Autumn's cooler weather and longer nights are considered ideal for quiet reading.\n\nRELATED WORDS:\n- ⟦{読|よ}む→読む：00426_yomu⟧ (to read - verb)\n- ⟦{愛読|あいどく}→愛読：15980_aidoku⟧ (favorite reading, avid reading)\n- ⟦{精読|せいどく}→精読：15982_seidoku⟧ (close/careful reading)\n- ⟦{多読|たどく}→多読：15981_tadoku⟧ (extensive reading)\n- ⟦{速読|そくどく}→速読：22402_sokudoku⟧ (speed reading)",
   "cross_references": [
     {
       "type": "related",
@@ -161,11 +161,46 @@
       "headword": "{読|よ}む",
       "label": "to read",
       "target_id": "00426_yomu"
+    },
+    {
+      "type": "related",
+      "target_id": "15980_aidoku",
+      "reading": "あいどく",
+      "headword": "{愛読|あいどく}",
+      "label": "favorite reading, avid reading"
+    },
+    {
+      "type": "related",
+      "target_id": "15982_seidoku",
+      "reading": "せいどく",
+      "headword": "{精読|せいどく}",
+      "label": "close/careful reading"
+    },
+    {
+      "type": "related",
+      "target_id": "15981_tadoku",
+      "reading": "たどく",
+      "headword": "{多読|たどく}",
+      "label": "extensive reading"
+    },
+    {
+      "type": "related",
+      "target_id": "22402_sokudoku",
+      "reading": "そくどく",
+      "headword": "{速読|そくどく}",
+      "label": "speed reading"
+    },
+    {
+      "type": "related",
+      "target_id": "15472_tsundoku",
+      "reading": "つんどく",
+      "headword": "{積|つ}ん{読|どく}",
+      "label": "buying books and leaving them unread"
     }
   ],
   "metadata": {
     "created": "2026-01-12T09:57:00Z",
-    "modified": "2026-08-13T15:50:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",

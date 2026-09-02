@@ -3,7 +3,7 @@
   "headword": "冒涜的",
   "reading": "ぼうとくてき",
   "romaji": "boutokuteki",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "blasphemous; sacrilegious",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "From the noun {冒涜|ぼうとく} (blasphemy, desecration) + the adjectival suffix {的|てき}. Written {冒瀆|ぼうとく} in older texts; {涜|とく} is the simplified form in general use today.\n\nCOMMON COLLOCATIONS:\n- {冒涜的|ぼうとくてき}な{行為|こうい}: a sacrilegious act\n- {冒涜的|ぼうとくてき}な{表現|ひょうげん}: a profane expression\n- {神|かみ}への{冒涜|ぼうとく}: blasphemy against God\n\nSIMILAR WORDS:\n- {不敬|ふけい}な: disrespectful (toward the emperor or a superior) — a narrower, formal register\n- {不謹慎|ふきんしん}な: inappropriate, in poor taste — about tactlessness, not desecration",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19476_fukei",
+      "reading": "ふけい",
+      "headword": "{不敬|ふけい}",
+      "label": "disrespectful"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18251_fukinshin",
+      "reading": "ふきんしん",
+      "headword": "{不謹慎|ふきんしん}",
+      "label": "inappropriate, in poor taste"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "adjective-na"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "religion",
         "evaluation"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-08-01T15:24:22Z",
-    "modified": "2026-08-01T15:24:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

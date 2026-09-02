@@ -3,7 +3,7 @@
   "headword": "{反発的|はんぱつてき}",
   "reading": "はんぱつてき",
   "romaji": "hanpatsuteki",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "resistant; defiant; repulsive",
   "definitions": [
     {
@@ -22,7 +22,9 @@
       "id": "25952_hanpatsuteki_ex1",
       "japanese": "{彼|かれ}は{上司|じょうし}に{反発的|はんぱつてき}な{態度|たいど}を{取|と}った。",
       "english": "He took a defiant attitude toward his boss.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "25952_hanpatsuteki_ex2",
       "japanese": "{思春期|ししゅんき}の{子供|こども}は{親|おや}に{反発的|はんぱつてき}になりやすい。",
       "english": "Adolescent children tend to become resistant toward their parents.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "25952_hanpatsuteki_ex3",
       "japanese": "{新|あたら}しい{政策|せいさく}に{対|たい}して{市民|しみん}は{反発的|はんぱつてき}な{反応|はんのう}を{示|しめ}した。",
       "english": "Citizens showed a resistant reaction to the new policy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "25952_hanpatsuteki_ex4",
       "japanese": "{同|おな}じ{極|きょく}の{磁石|じしゃく}は{反発的|はんぱつてき}だ。",
       "english": "Same-polarity magnets are repulsive.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "25952_hanpatsuteki_ex5",
       "japanese": "この{素材|そざい}は{水|みず}に{対|たい}して{反発的|はんぱつてき}な{性質|せいしつ}を{持|も}つ。",
       "english": "This material has a water-repellent property.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,21 +72,52 @@
       "id": "25952_hanpatsuteki_ex6",
       "japanese": "{二|ふた}つの{集団|しゅうだん}の{間|あいだ}には{反発的|はんぱつてき}な{力|ちから}が{働|はたら}いている。",
       "english": "A repulsive force is at work between the two groups.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A na-adjective formed from {反発|はんぱつ} (repulsion; resistance) plus {的|てき}. Sense 1 describes psychological or social resistance, while sense 2 describes physical repulsion. The word {反発|はんぱつ} itself has both meanings, and the adjective inherits them.\n\nCOMMON COLLOCATIONS:\n- {反発的|はんぱつてき}な{態度|たいど}: resistant attitude\n- {反発的|はんぱつてき}な{反応|はんのう}: oppositional reaction\n- {反発的|はんぱつてき}な{力|ちから}: repulsive force\n- {反発的|はんぱつてき}になる: to become defiant\n\nSIMILAR WORDS:\n- {反抗的|はんこうてき}: rebellious; defiant — stronger than {反発的|はんぱつてき}, implying active resistance against authority\n- {敵対的|てきたいてき}: hostile; antagonistic — implies deeper hostility rather than mere resistance\n- {批判的|ひはんてき}: critical — intellectual opposition through analysis rather than emotional pushback",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21089_hankouteki",
+      "reading": "はんこうてき",
+      "headword": "{反抗的|はんこうてき}",
+      "label": "rebellious"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25936_tekitaiteki",
+      "reading": "てきたいてき",
+      "headword": "{敵対的|てきたいてき}",
+      "label": "hostile"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05665_hihanteki",
+      "reading": "ひはんてき",
+      "headword": "{批判的|ひはんてき}",
+      "label": "critical"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
-      "semantic": ["personality", "science"]
+      "pos": [
+        "adjective-na"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "personality",
+        "science"
+      ]
     },
     "created": "2026-04-28T13:35:05Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

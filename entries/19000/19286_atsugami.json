@@ -17,7 +17,9 @@
       "id": "19286_atsugami_ex1",
       "japanese": "{厚紙|あつがみ}で{箱|はこ}を{作|つく}る。",
       "english": "I make a box out of cardboard.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19286_atsugami_ex2",
       "japanese": "{写真|しゃしん}を{送|おく}るときは{厚紙|あつがみ}で{挟|はさ}んでください。",
       "english": "When mailing photos, please sandwich them between pieces of cardboard.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "19286_atsugami_ex3",
       "japanese": "{子|こ}どもたちが{厚紙|あつがみ}とハサミを{使|つか}って{工作|こうさく}をしている。",
       "english": "The children are doing crafts with cardboard and scissors.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {厚|あつ}い (thick) + {紙|かみ} (paper). Refers to stiff paper stock, not corrugated cardboard (which is {段|だん}ボール).\n\nCOMMON COLLOCATIONS:\n- {厚紙|あつがみ}で{作|つく}る — to make from cardboard\n- {厚紙|あつがみ}を{切|き}る — to cut cardboard\n- {厚紙|あつがみ}に{印刷|いんさつ}する — to print on cardstock\n\nSIMILAR WORDS:\n- {段|だん}ボール — corrugated cardboard (heavier, used for shipping boxes)\n- {画用紙|がようし} — drawing paper (thick but for art use)\n- {薄紙|うすがみ} — thin paper, tissue paper (opposite in thickness)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18885_danbooru",
+      "reading": "だんぼーる",
+      "headword": "{段|だん}ボール",
+      "label": "corrugated cardboard"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11511_gayoushi",
+      "reading": "がようし",
+      "headword": "{画用紙|がようし}",
+      "label": "drawing paper"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     },
     "created": "2026-03-25T04:45:12Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

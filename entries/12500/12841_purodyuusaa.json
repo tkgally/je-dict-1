@@ -19,7 +19,9 @@
       "english": "I was appointed as the producer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12841_purodyuusaa_ex2",
@@ -27,7 +29,9 @@
       "english": "I had a meeting with the program's producer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12841_purodyuusaa_ex3",
@@ -35,21 +39,56 @@
       "english": "Films produced by famous producers always generate buzz.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften abbreviated to P (ピー) in industry slang, as in {総合|そうごう}P (executive producer). In Japanese TV, the プロデューサー has a higher position than the ディレクター, overseeing the entire project including budget and staffing.\n\nCOMMON COLLOCATIONS:\n- {音楽|おんがく}プロデューサー: music producer\n- {映画|えいが}プロデューサー: film producer\n- エグゼクティブプロデューサー: executive producer\n\nSIMILAR WORDS:\n- ディレクター: director (handles on-site direction)\n- {監督|かんとく}: director (film/sports context)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12834_direkutaa",
+      "reading": "でぃれくたー",
+      "headword": "ディレクター",
+      "label": "director"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00185_kantoku",
+      "reading": "かんとく",
+      "headword": "{監督|かんとく}",
+      "label": "director"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15916_enshutsuka",
+      "reading": "えんしゅつか",
+      "headword": "{演出家|えんしゅつか}",
+      "label": "director, stage director"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23765_seisakusha",
+      "reading": "せいさくしゃ",
+      "headword": "{制作者|せいさくしゃ}",
+      "label": "creator"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T11:54:54Z",
-    "modified": "2026-02-22T11:54:54Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     }
   }
 }

@@ -46,17 +46,49 @@
   ],
   "notes": "A compound of {表|おもて} (surface, front) and {地|じ} (fabric, cloth). Found on clothing labels and in sewing, tailoring, and fashion contexts. The reading uses the kun'yomi おもて for {表|おもて} and the on'yomi じ for {地|じ}.\n\nCOMMON COLLOCATIONS:\n- {表地|おもてじ}と{裏地|うらじ}: outer fabric and lining\n- {表地|おもてじ}の{素材|そざい}: material of the outer fabric\n- {表地|おもてじ}: ウール / シルク / {綿|めん}: outer fabric: wool / silk / cotton\n\nSIMILAR WORDS:\n- {裏地|うらじ}: lining fabric — the inner layer of a garment, the direct counterpart to {表地|おもてじ}\n- {生地|きじ}: fabric; cloth; material — a general term for any textile, not specific to the outer layer\n- {芯地|しんじ}: interfacing; interlining — stiff fabric placed between outer and inner layers to add structure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07101_uraji",
+      "reading": "うらじ",
+      "headword": "{裏地|うらじ}",
+      "label": "lining fabric"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02631_kiji",
+      "reading": "きじ",
+      "headword": "{生地|きじ}",
+      "label": "fabric"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26746_shinji",
+      "reading": "しんじ",
+      "headword": "{芯地|しんじ}",
+      "label": "interfacing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25006_uranuno",
+      "reading": "うらぬの",
+      "headword": "{裏布|うらぬの}",
+      "label": "lining cloth"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "clothing"
       ]
     },
     "created": "2026-04-22T10:16:07Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

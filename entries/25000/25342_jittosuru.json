@@ -3,7 +3,7 @@
   "headword": "じっとする",
   "reading": "じっとする",
   "romaji": "jittosuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb, adverb",
   "gloss": "to stay still; to remain motionless; to stare fixedly",
   "definitions": [
     {
@@ -81,6 +81,36 @@
   ],
   "notes": "An onomatopoeic suru-verb where じっと expresses the idea of being fixed in place or focused without movement. In sense 1, it describes physical stillness — holding one's body motionless. In sense 2, it describes visual fixation — staring without looking away. Both senses share the core idea of sustained, unbroken focus or immobility.\n\nじっと can also function as an adverb without する: じっと{待|ま}つ (to wait patiently without moving), じっと{耐|た}える (to endure without flinching).\n\nCOMMON COLLOCATIONS:\n- じっとしている: to be staying still\n- じっと{見|み}る: to stare at\n- じっと{見|み}つめる: to gaze at intently\n- じっと{待|ま}つ: to wait patiently\n- じっと{我慢|がまん}する: to endure without moving\n- じっとしていられない: to be unable to stay still\n\nSIMILAR WORDS:\n- {動|うご}かない: to not move — neutral description of absence of movement, without the nuance of effort or intent\n- {黙|だま}っている: to be silent — focuses on not speaking rather than not moving\n- {凝視|ぎょうし}する: to stare; to gaze — formal/literary equivalent of the staring sense",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25402_gyoushisuru",
+      "reading": "ぎょうしする",
+      "headword": "{凝視|ぎょうし}する",
+      "label": "to stare"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15849_seishi",
+      "reading": "せいし",
+      "headword": "{静止|せいし}",
+      "label": "stillness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22982_mijirogi",
+      "reading": "みじろぎ",
+      "headword": "{身|み}じろぎ",
+      "label": "stirring"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26796_seishisuru",
+      "reading": "せいしする",
+      "headword": "{静止|せいし}する",
+      "label": "to stand still"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -88,6 +118,7 @@
         "verb-suru",
         "adverb"
       ],
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "movement"
@@ -95,7 +126,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T15:25:36Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

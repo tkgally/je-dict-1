@@ -19,7 +19,9 @@
       "english": "Kanazawa is a famous castle town.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12105_joukamachi_ex2",
@@ -27,7 +29,9 @@
       "english": "The old townscape of the castle town remains preserved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12105_joukamachi_ex3",
@@ -35,21 +39,43 @@
       "english": "This area once flourished as a castle town, and samurai residences and merchant houses still dot the landscape.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCastle towns were the political, economic, and cultural centers of feudal domains during the Edo period. They were deliberately planned, with samurai districts ({武家|ぶけ}{屋敷|やしき}), merchant quarters, and temple areas arranged around the castle. Today, many {城下町|じょうかまち} are popular tourist destinations known for their historical atmosphere.\n\nCOMMON COLLOCATIONS:\n- {城下町|じょうかまち}の{町並|まちな}み: castle town streetscape\n- {城下町|じょうかまち}として{栄|さか}える: flourish as a castle town\n- {城下町|じょうかまち}を{散策|さんさく}する: stroll through a castle town\n- {旧|きゅう}{城下町|じょうかまち}: former castle town",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22535_monzenmachi",
+      "reading": "もんぜんまち",
+      "headword": "{門前町|もんぜんまち}",
+      "label": "temple town"
+    },
+    {
+      "type": "related",
+      "target_id": "24803_bukeyashiki",
+      "reading": "ぶけやしき",
+      "headword": "{武家屋敷|ぶけやしき}",
+      "label": "samurai residence"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T04:59:56Z",
-    "modified": "2026-02-20T04:59:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography", "building"]
+      "semantic": [
+        "geography",
+        "building"
+      ]
     }
   }
 }

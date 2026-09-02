@@ -46,6 +46,29 @@
   ],
   "notes": "Refers to both the physical surface of a game board and the current state of play on it. Most commonly used in the context of {将棋|しょうぎ} (shogi), {囲碁|いご} (go), and チェス (chess). Also used in board game and video game contexts.\n\nCOMMON COLLOCATIONS:\n- {盤面|ばんめん}を{見|み}る: to look at the board\n- {盤面|ばんめん}が{動|うご}く: the board position changes\n- {盤面|ばんめん}を{読|よ}む: to read the board position\n- {盤面|ばんめん}{全体|ぜんたい}: the entire board\n\nSIMILAR WORDS:\n- {局面|きょくめん}: phase, situation — used in games and more broadly for situations\n- {盤|ばん}: board — the physical board itself ({将棋盤|しょうぎばん}, {碁盤|ごばん})\n- {棋譜|きふ}: game record — the written record of moves played",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05777_kyokumen",
+      "reading": "きょくめん",
+      "headword": "{局面|きょくめん}",
+      "label": "phase, situation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23969_kifu",
+      "reading": "きふ",
+      "headword": "{棋譜|きふ}",
+      "label": "game record"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24835_shougiban",
+      "reading": "しょうぎばん",
+      "headword": "{将棋盤|しょうぎばん}",
+      "label": "shogi board"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-04-01T17:24:55Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

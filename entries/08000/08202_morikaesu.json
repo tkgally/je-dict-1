@@ -2,7 +2,7 @@
   "id": "08202_morikaesu",
   "headword": "{盛|も}り{返|かえ}す",
   "reading": "もりかえす",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to rally; to make a comeback; to regain strength",
   "conjugation": {
     "type": "godan",
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n- {盛|も}り{返|かえ}す (to rally, recover)\n- {勢|いきお}いを{盛|も}り{返|かえ}す (to regain momentum)\n\nCONTEXT:\nUsed in sports (team comebacks), economics (recovery), health (recovering from illness), and business (company turnaround).\n\nTRANSITIVITY:\nCan be used both transitively and intransitively.\n\nRELATED:\n- {持|も}ち{直|なお}す (to recover, rally - similar)\n- {挽回|ばんかい}する (to recover, make up for)\n- {復活|ふっかつ}する (to revive)",
+  "notes": "USAGE:\n- {盛|も}り{返|かえ}す (to rally, recover)\n- {勢|いきお}いを{盛|も}り{返|かえ}す (to regain momentum)\nUsed in sports (team comebacks), economics (recovery), health (recovering from illness), and business (company turnaround).\n\nTRANSITIVITY:\nCan be used both transitively and intransitively.\n\nRELATED WORDS:\n- {持|も}ち{直|なお}す (to recover, rally - similar)\n- {挽回|ばんかい}する (to recover, make up for)\n- {復活|ふっかつ}する (to revive)",
   "cross_references": [
     {
       "type": "synonym",
@@ -141,6 +141,20 @@
       "headword": "{持|も}ち{直|なお}す",
       "label": "to recover; to rally; to improve",
       "target_id": "08203_mochinaosu"
+    },
+    {
+      "type": "related",
+      "target_id": "16313_bankai",
+      "reading": "ばんかい",
+      "headword": "{挽回|ばんかい}",
+      "label": "to recover, make up for"
+    },
+    {
+      "type": "related",
+      "target_id": "12565_fukkatsu",
+      "reading": "ふっかつ",
+      "headword": "{復活|ふっかつ}",
+      "label": "to revive"
     }
   ],
   "metadata": {
@@ -151,6 +165,7 @@
       ],
       "transitivity": "both",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "competition",
         "recovery"
@@ -158,6 +173,6 @@
       "verb_class": "godan-su"
     },
     "created": "2026-01-25T08:05:33Z",
-    "modified": "2026-04-10T06:37:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{暗号|あんごう} (code, cipher) + {化|か} (change into) → turning into code\n\nVERB FORM:\n{暗号化|あんごうか}する (to encrypt)\n\nANTONYM:\n{復号|ふくごう} (decryption)\n\nTECHNICAL TERMS:\n- {暗号化|あんごうか}{鍵|かぎ} / {暗号|あんごう}{鍵|かぎ} (encryption key)\n- {公開鍵暗号|こうかいかぎあんごう} (public-key encryption)\n- {対称|たいしょう}{暗号化|あんごうか} (symmetric encryption)\n- エンドツーエンド{暗号化|あんごうか} (end-to-end encryption)\n\nRELATED WORDS:\n- {暗号|あんごう} (cipher, code)\n- {復号|ふくごう} (decryption)\n- セキュリティ (security)",
+  "notes": "FORMS:\n{暗号|あんごう} (code, cipher) + {化|か} (change into) → turning into code\n{暗号化|あんごうか}する (to encrypt)\n\nSIMILAR WORDS:\n{復号|ふくごう} (decryption)\n\nTECHNICAL TERMS:\n- {暗号化|あんごうか}{鍵|かぎ} / {暗号|あんごう}{鍵|かぎ} (encryption key)\n- {公開鍵暗号|こうかいかぎあんごう} (public-key encryption)\n- {対称|たいしょう}{暗号化|あんごうか} (symmetric encryption)\n- エンドツーエンド{暗号化|あんごうか} (end-to-end encryption)\n\nRELATED WORDS:\n- {暗号|あんごう} (cipher, code)\n- {復号|ふくごう} (decryption)\n- セキュリティ (security)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,13 +142,14 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "technology"
       ],
       "verb_class": "suru"
     },
     "created": "2026-01-26T05:21:17Z",
-    "modified": "2026-08-12T12:50:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "cross_references": [
     {
@@ -157,6 +158,27 @@
       "reading": "ふくごう",
       "headword": "{復号|ふくごう}",
       "label": "decryption"
+    },
+    {
+      "type": "related",
+      "target_id": "04867_sekyuriti",
+      "reading": "せきゅりてぃ",
+      "headword": "セキュリティ",
+      "label": "security"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23268_angoukagi",
+      "reading": "あんごうかぎ",
+      "headword": "{暗号鍵|あんごうかぎ}",
+      "label": "encryption key"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27345_fugouka",
+      "reading": "ふごうか",
+      "headword": "{符号化|ふごうか}",
+      "label": "encoding (math/computing)"
     }
   ]
 }

@@ -17,7 +17,9 @@
       "id": "29975_koonaakikku_ex1",
       "japanese": "コーナーキックを{得|え}た。",
       "english": "They won a corner kick.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29975_koonaakikku_ex2",
       "japanese": "コーナーキックから{得点|とくてん}した。",
       "english": "They scored off a corner kick.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29975_koonaakikku_ex3",
       "japanese": "{後半|こうはん}のコーナーキックで{同点|どうてん}に{追|お}いついた。",
       "english": "They drew level from a corner kick in the second half.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Often shortened to コーナー in commentary.\n\nCOMMON COLLOCATIONS:\n- コーナーキックを{蹴|け}る: to take a corner kick\n- コーナーキックを{得|え}る: to win a corner kick\n- コーナーキックから{得点|とくてん}する: to score from a corner kick\n\nSIMILAR WORDS:\n- フリーキック: free kick — awarded for a foul, taken from where the foul occurred, not the corner",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29961_furiikikku",
+      "reading": "ふりーきっく",
+      "headword": "フリーキック",
+      "label": "free kick"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29976_penarutikikku",
+      "reading": "ぺなるてぃきっく",
+      "headword": "ペナルティキック",
+      "label": "penalty kick (soccer)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports"],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-07-20T06:17:59Z",
-    "modified": "2026-07-20T06:17:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

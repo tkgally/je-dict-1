@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Composed of {徘徊|はいかい} (wandering/roaming) and {者|しゃ} (person). In contemporary Japan, this word is strongly associated with elderly people with dementia ({認知症|にんちしょう}) who leave home and cannot find their way back. This is a significant social issue in Japan's rapidly aging society, and communities have organized watch networks to help locate {徘徊者|はいかいしゃ}.\n\nNOTE ON SENSITIVITY:\nSome advocates prefer avoiding {徘徊|はいかい} when referring to people with dementia, as the word can carry negative connotations of aimless, suspicious wandering. Alternatives include {行方不明者|ゆくえふめいしゃ} (missing person) or simply describing the situation.\n\nCOMMON COLLOCATIONS:\n- {徘徊者|はいかいしゃ}を{保護|ほご}する: to give protective care to a wanderer\n- {徘徊者|はいかいしゃ}を{発見|はっけん}する: to find a wandering person\n- {認知症|にんちしょう}の{徘徊者|はいかいしゃ}: a wanderer with dementia\n\nSIMILAR WORDS:\n- {徘徊|はいかい}: wandering/roaming — the base verb-noun\n- {不審者|ふしんしゃ}: suspicious person — a different category of concern\n- {行方不明者|ゆくえふめいしゃ}: missing person — a more neutral term",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11348_fushinsha",
+      "reading": "ふしんしゃ",
+      "headword": "{不審者|ふしんしゃ}",
+      "label": "suspicious person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28538_yukuefumeisha",
+      "reading": "ゆくえふめいしゃ",
+      "headword": "{行方不明者|ゆくえふめいしゃ}",
+      "label": "missing person"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "person",
         "society"
       ]
     },
     "created": "2026-05-04T14:18:55Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

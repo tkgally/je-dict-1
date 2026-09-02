@@ -25,7 +25,7 @@
     },
     {
       "id": "19198_jouhourouei_ex2",
-      "japanese": "{顧客|こきゃく}の{情報漏洩|じょうほうろうえい}を{防|ふせ}ぐため、{社内|しゃない}の{セキュリティ}{体制|たいせい}を{強化|きょうか}した。",
+      "japanese": "{顧客|こきゃく}の{情報漏洩|じょうほうろうえい}を{防|ふせ}ぐため、{社内|しゃない}のセキュリティ{体制|たいせい}を{強化|きょうか}した。",
       "english": "To prevent customer information leaks, we strengthened the company's security framework.",
       "sense_numbers": [
         1
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {情報|じょうほう} (information) + {漏洩|ろうえい} (leaking, disclosure). A frequently used term in news and business. Common collocations: {情報漏洩|じょうほうろうえい}を{防|ふせ}ぐ (to prevent an information leak), {情報漏洩|じょうほうろうえい}{事件|じけん} (data breach incident), {情報漏洩|じょうほうろうえい}{対策|たいさく} (data leak prevention measures). Japan's {個人情報保護法|こじんじょうほうほごほう} (Act on Protection of Personal Information) sets strict requirements for handling personal data. {漏洩|ろうえい} can also be read {漏泄|ろうせつ}, though {ろうえい} is the standard reading.",
+  "notes": "Composed of {情報|じょうほう} (information) + {漏洩|ろうえい} (leaking, disclosure). A frequently used term in news and business. Common collocations: {情報漏洩|じょうほうろうえい}を{防|ふせ}ぐ (to prevent an information leak), {情報漏洩|じょうほうろうえい}{事件|じけん} (data breach incident), {情報漏洩|じょうほうろうえい}{対策|たいさく} (data leak prevention measures). Japan's {個人情報保護法|こじんじょうほうほごほう} (Act on Protection of Personal Information) sets strict requirements for handling personal data. {漏洩|ろうえい} can also be read {漏泄|ろうせつ}, though ろうえい is the standard reading.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02435_moreru",
+      "reading": "もれる",
+      "headword": "{漏|も}れる",
+      "label": "to leak"
+    },
+    {
+      "type": "related",
+      "target_id": "18842_kojinjouhou",
+      "reading": "こじんじょうほう",
+      "headword": "{個人情報|こじんじょうほう}",
+      "label": "personal information"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23565_kimitsuhoji",
+      "reading": "きみつほじ",
+      "headword": "{機密|きみつ}{保持|ほじ}",
+      "label": "confidentiality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28491_kojinjouhouryuushutsu",
+      "reading": "こじんじょうほうりゅうしゅつ",
+      "headword": "{個人情報流出|こじんじょうほうりゅうしゅつ}",
+      "label": "personal data leak"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +93,6 @@
       ]
     },
     "created": "2026-03-24T14:00:04Z",
-    "modified": "2026-06-12T12:41:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

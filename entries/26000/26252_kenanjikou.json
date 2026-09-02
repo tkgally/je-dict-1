@@ -17,7 +17,9 @@
       "id": "26252_kenanjikou_ex1",
       "japanese": "{懸案事項|けんあんじこう}を{確認|かくにん}する。",
       "english": "Let's review the pending matters.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26252_kenanjikou_ex2",
       "japanese": "{会議|かいぎ}で{懸案事項|けんあんじこう}について{話|はな}し{合|あ}った。",
       "english": "We discussed the outstanding issues at the meeting.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,54 @@
       "id": "26252_kenanjikou_ex3",
       "japanese": "{長年|ながねん}の{懸案事項|けんあんじこう}であった{法案|ほうあん}が、ようやく{可決|かけつ}された。",
       "english": "The bill, which had been a long-standing issue, was finally passed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {懸案|けんあん} (pending problem; matter of concern) and {事項|じこう} (matter; item). A formal compound frequently used in meeting agendas, reports, and official documents.\n\nCOMMON COLLOCATIONS:\n- {懸案事項|けんあんじこう}の{解決|かいけつ}: resolution of outstanding issues\n- {懸案事項|けんあんじこう}リスト: list of pending matters\n- {長年|ながねん}の{懸案事項|けんあんじこう}: long-standing issue\n- {主|おも}な{懸案事項|けんあんじこう}: major outstanding issues\n- {懸案事項|けんあんじこう}を{整理|せいり}する: to organize pending items\n\nSIMILAR WORDS:\n- {懸案|けんあん}: pending matter — the shorter, more concise form; {懸案事項|けんあんじこう} is more formal and explicit\n- {課題|かだい}: issue; challenge; task — broader in scope and less formal; can refer to problems, assignments, or goals\n- {問題点|もんだいてん}: problem area; issue — focuses on what is problematic rather than what is unresolved\n- {未解決|みかいけつ}: unresolved — emphasizes the lack of resolution rather than the need for action",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00132_kadai",
+      "reading": "かだい",
+      "headword": "{課題|かだい}",
+      "label": "issue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20619_mondaiten",
+      "reading": "もんだいてん",
+      "headword": "{問題点|もんだいてん}",
+      "label": "problem area"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17292_mikaiketsu",
+      "reading": "みかいけつ",
+      "headword": "{未解決|みかいけつ}",
+      "label": "unresolved"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-04-30T13:39:44Z",
-    "modified": "2026-04-30T13:39:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

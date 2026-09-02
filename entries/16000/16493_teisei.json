@@ -3,7 +3,7 @@
   "id": "16493_teisei",
   "headword": "{訂正|ていせい}",
   "reading": "ていせい",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "correction; revision",
   "conjugation": {
     "type": "suru",
@@ -149,11 +149,32 @@
       "headword": "{添削|てんさく}",
       "label": "correction, editing (of writing)",
       "type": "related"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21081_kousei",
+      "reading": "こうせい",
+      "headword": "{校正|こうせい}",
+      "label": "proofreading"
+    },
+    {
+      "type": "related",
+      "target_id": "18463_torikeshisen",
+      "reading": "とりけしせん",
+      "headword": "{取|と}り{消|け}し{線|せん}",
+      "label": "strikethrough (line)"
+    },
+    {
+      "type": "related",
+      "target_id": "20961_seigohyou",
+      "reading": "せいごひょう",
+      "headword": "{正誤表|せいごひょう}",
+      "label": "errata"
     }
   ],
   "metadata": {
     "created": "2026-03-13T03:46:02Z",
-    "modified": "2026-08-08T15:25:40Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

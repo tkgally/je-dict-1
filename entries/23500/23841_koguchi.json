@@ -115,7 +115,29 @@
     }
   ],
   "notes": "Compound of {小|こ} ('small') and {口|ぐち} ('mouth; opening; end'), with sequential voicing turning くち into ぐち. The sense development goes from the concrete 'small opening/end (of a cut object)' (sense 2) to the figurative business sense (sense 1). Sense 3 is a bookbinding specialization of sense 2.\n\nUSAGE:\n- Sense 1 is the most frequent in modern text, especially in finance and business: {小口|こぐち}{現金|げんきん} ('petty cash'), {小口|こぐち}{融資|ゆうし} ('small loan'), {小口|こぐち}{預金|よきん} ('small-lot deposit').\n- The paired contrast with {大口|おおぐち} is very productive: {大口|おおぐち}{注文|ちゅうもん} / {小口|こぐち}{注文|ちゅうもん} ('large/small order').\n- Sense 2 survives prominently in the cooking term {小口|こぐち}{切|ぎ}り, one of the basic cutting methods taught in every Japanese cookbook.\n- Sense 3 is specialist vocabulary used by publishers, bookbinders, and book lovers.\n\nCOMMON COLLOCATIONS:\n- {小口|こぐち}{現金|げんきん}: petty cash\n- {小口|こぐち}{取引|とりひき}: small-lot transaction\n- {小口|こぐち}{融資|ゆうし}: small loan\n- {小口|こぐち}{顧客|こきゃく}: small-scale customer\n- {小口|こぐち}{切|ぎ}り: thin round-slice cutting (cooking)\n- {本|ほん}の{小口|こぐち}: edge of a book\n\nSIMILAR WORDS:\n- {大口|おおぐち}: large-lot; large-scale — the direct antonym for sense 1.\n- {少額|しょうがく}: small amount (of money) — near-synonym for sense 1 when referring specifically to money, but without the 'lot size' nuance.\n- {断面|だんめん}: cross section; cut surface — near-synonym for sense 2, more technical and general.\n- {小銭|こぜに}: small change; coins — refers to small-denomination money; distinct from {小口|こぐち} which is about transaction size, not denomination.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15387_shougaku",
+      "reading": "しょうがく",
+      "headword": "{少額|しょうがく}",
+      "label": "small amount"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21317_danmen",
+      "reading": "だんめん",
+      "headword": "{断面|だんめん}",
+      "label": "cross section"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02759_kozeni",
+      "reading": "こぜに",
+      "headword": "{小銭|こぜに}",
+      "label": "small change"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -132,6 +154,6 @@
       ]
     },
     "created": "2026-04-15T06:07:08Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

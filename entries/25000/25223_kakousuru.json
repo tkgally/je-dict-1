@@ -81,12 +81,37 @@
   ],
   "notes": "Refers to transforming raw materials into a finished or usable form through manufacturing or processing. In modern usage, it is widely used for editing or manipulating digital content such as photos and data.\n\nCOMMON COLLOCATIONS:\n- {食品|しょくひん}{加工|かこう}: food processing\n- {加工|かこう}{食品|しょくひん}: processed food\n- {画像|がぞう}{加工|かこう}: image editing\n- {金属|きんぞく}{加工|かこう}: metalworking\n- {加工|かこう}{技術|ぎじゅつ}: processing technology\n\nSIMILAR WORDS:\n- {製造|せいぞう}する: to manufacture — focuses on creating finished products, especially in industrial settings\n- {編集|へんしゅう}する: to edit — used for editing text, video, or audio content, while {加工|かこう} is more common for image manipulation\n- {処理|しょり}する: to process; to handle — broader term covering any kind of handling or dealing with something, not limited to physical transformation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03289_seizou",
+      "reading": "せいぞう",
+      "headword": "{製造|せいぞう}",
+      "label": "to manufacture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21991_henshuusuru",
+      "reading": "へんしゅうする",
+      "headword": "{編集|へんしゅう}する",
+      "label": "to edit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25531_shorisuru",
+      "reading": "しょりする",
+      "headword": "{処理|しょり}する",
+      "label": "to process"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "creation",
         "technology"
@@ -94,7 +119,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T11:23:23Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -3,7 +3,7 @@
   "id": "18378_yuuhatsusuru",
   "headword": "{誘発|ゆうはつ}する",
   "reading": "ゆうはつする",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to trigger; to induce; to cause",
   "conjugation": {
     "type": "suru",
@@ -134,11 +134,40 @@
       ]
     }
   ],
-  "notes": "PATTERN:\nA が B を{誘発|ゆうはつ}する (A triggers/induces B)\n\nCOMMON COLLOCATIONS:\n- {事故|じこ}を{誘発|ゆうはつ}する (to trigger an accident)\n- {病気|びょうき}を{誘発|ゆうはつ}する (to induce illness)\n- アレルギーを{誘発|ゆうはつ}する (to trigger allergies)\n- {地震|じしん}を{誘発|ゆうはつ}する (to trigger an earthquake)\n\nSIMILAR WORDS:\n- {引|ひ}き{起|お}こす: To cause, to bring about — more general and common in everyday speech.\n- {招|まね}く: To invite, to bring upon oneself — implies the cause was avoidable or negligent.\n- {促|うなが}す: To urge, to promote — neutral, often positive, unlike {誘発|ゆうはつ} which tends toward negative outcomes.",
-  "cross_references": [],
+  "notes": "COMMON PATTERNS:\nA が B を{誘発|ゆうはつ}する (A triggers/induces B)\n\nCOMMON COLLOCATIONS:\n- {事故|じこ}を{誘発|ゆうはつ}する (to trigger an accident)\n- {病気|びょうき}を{誘発|ゆうはつ}する (to induce illness)\n- アレルギーを{誘発|ゆうはつ}する (to trigger allergies)\n- {地震|じしん}を{誘発|ゆうはつ}する (to trigger an earthquake)\n\nSIMILAR WORDS:\n- {引|ひ}き{起|お}こす: To cause, to bring about — more general and common in everyday speech.\n- {招|まね}く: To invite, to bring upon oneself — implies the cause was avoidable or negligent.\n- {促|うなが}す: To urge, to promote — neutral, often positive, unlike {誘発|ゆうはつ} which tends toward negative outcomes.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06165_hikiokosu",
+      "reading": "ひきおこす",
+      "headword": "{引|ひ}き{起|お}こす",
+      "label": "To cause, to bring about"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02425_maneku",
+      "reading": "まねく",
+      "headword": "{招|まね}く",
+      "label": "To invite, to bring upon oneself"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10875_unagasu",
+      "reading": "うながす",
+      "headword": "{促|うなが}す",
+      "label": "To urge, to promote"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21726_shokuhatsusuru",
+      "reading": "しょくはつする",
+      "headword": "{触発|しょくはつ}する",
+      "label": "to trigger"
+    }
+  ],
   "metadata": {
     "created": "2026-03-21T10:54:49Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

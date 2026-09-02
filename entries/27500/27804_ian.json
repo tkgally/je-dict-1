@@ -17,7 +17,9 @@
       "id": "27804_ian_ex1",
       "japanese": "{慰安|いあん}のために{旅行|りょこう}に{行|い}く。",
       "english": "To go on a trip for recreation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27804_ian_ex2",
       "japanese": "{会社|かいしゃ}の{慰安|いあん}{旅行|りょこう}に{参加|さんか}した。",
       "english": "I took part in the company recreational trip.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,59 @@
       "id": "27804_ian_ex3",
       "japanese": "{日々|ひび}の{労|ろう}をねぎらう{慰安|いあん}の{会|かい}が{開|ひら}かれた。",
       "english": "A recreational gathering was held to thank everyone for their daily efforts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers to easing fatigue or grief and providing rest and enjoyment. In modern use it appears mostly in fixed compounds.\n\nCOMMON COLLOCATIONS:\n- {慰安|いあん}{旅行|りょこう}: a company recreational trip\n- {慰安|いあん}{会|かい}: a recreational get-together\n\nSIMILAR WORDS:\n- {娯楽|ごらく}: amusement; entertainment — leisure for its own sake, without the 'easing hardship' nuance\n- {慰|なぐさ}め: consolation — comfort for grief specifically",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00074_goraku",
+      "reading": "ごらく",
+      "headword": "{娯楽|ごらく}",
+      "label": "amusement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21650_nagusame",
+      "reading": "なぐさめ",
+      "headword": "{慰|なぐさ}め",
+      "label": "consolation"
+    },
+    {
+      "type": "related",
+      "target_id": "02133_nagusameru",
+      "reading": "なぐさめる",
+      "headword": "{慰|なぐさ}める",
+      "label": "to comfort, to console"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25276_irou",
+      "reading": "いろう",
+      "headword": "{慰労|いろう}",
+      "label": "appreciation for hard work"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["leisure"],
+      "politeness": "plain",
+      "semantic": [
+        "leisure"
+      ],
       "domain": []
     },
     "created": "2026-05-19T03:07:48Z",
-    "modified": "2026-05-19T03:07:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

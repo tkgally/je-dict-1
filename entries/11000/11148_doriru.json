@@ -24,7 +24,9 @@
       "english": "Drill a hole.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11148_doriru_ex2",
@@ -32,7 +34,9 @@
       "english": "I screwed into the wall using an electric drill.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11148_doriru_ex3",
@@ -40,7 +44,9 @@
       "english": "We need a bigger drill for this construction work.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11148_doriru_ex4",
@@ -48,7 +54,9 @@
       "english": "Do kanji drill exercises.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11148_doriru_ex5",
@@ -56,7 +64,9 @@
       "english": "I do one page of math drills every day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11148_doriru_ex6",
@@ -64,21 +74,43 @@
       "english": "We were assigned three drill workbooks as summer homework.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nSense 2 is extremely common in the context of Japanese elementary education. ドリル workbooks are a staple of daily homework and summer assignments. Parents often buy additional ドリル for extra practice.\n\nCOMMON COLLOCATIONS:\n- {漢字|かんじ}ドリル: kanji practice workbook\n- {算数|さんすう}ドリル: math drill workbook\n- {計算|けいさん}ドリル: calculation drill workbook\n- {電動|でんどう}ドリル: electric drill\n- ドリルで{穴|あな}を{開|あ}ける: to drill a hole",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21219_renshuumondai",
+      "reading": "れんしゅうもんだい",
+      "headword": "{練習問題|れんしゅうもんだい}",
+      "label": "practice questions"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22063_hanpukurenshuu",
+      "reading": "はんぷくれんしゅう",
+      "headword": "{反復練習|はんぷくれんしゅう}",
+      "label": "drill practice"
+    }
+  ],
   "metadata": {
     "created": "2026-02-14T05:09:43Z",
-    "modified": "2026-02-14T05:09:43Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool", "education"]
+      "semantic": [
+        "tool",
+        "education"
+      ]
     }
   }
 }

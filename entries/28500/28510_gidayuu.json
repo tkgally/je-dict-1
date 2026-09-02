@@ -17,7 +17,9 @@
       "id": "28510_gidayuu_ex1",
       "japanese": "{義太夫|ぎだゆう}を{習|なら}っている。",
       "english": "I am studying gidayū chanting.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28510_gidayuu_ex2",
       "japanese": "{文楽|ぶんらく}では{義太夫|ぎだゆう}が{物語|ものがたり}を{語|かた}る。",
       "english": "In bunraku, the gidayū narrator tells the story.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "28510_gidayuu_ex3",
       "japanese": "{祖父|そふ}は{若|わか}い{頃|ころ}から{義太夫|ぎだゆう}の{語|かた}り{手|て}として{活動|かつどう}してきた。",
       "english": "My grandfather has worked as a gidayū chanter since he was young.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Short for {義太夫節|ぎだゆうぶし}, named after the 17th-century chanter {竹本義太夫|たけもとぎだゆう}. Functions both as the vocal narration of {文楽|ぶんらく} (bunraku puppet theater) and as an independent classical art form.\n\nCOMMON COLLOCATIONS:\n- {義太夫|ぎだゆう}を{語|かた}る: to perform gidayū\n- {義太夫|ぎだゆう}{節|ぶし}: the full name of the genre\n- {女|おんな}{義太夫|ぎだゆう}: female gidayū performance\n\nSIMILAR WORDS:\n- {長唄|ながうた}: nagauta — shamisen song style for kabuki\n- {浄瑠璃|じょうるり}: jōruri — the broader genre of narrative chanting that gidayū belongs to",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28511_nagauta",
+      "reading": "ながうた",
+      "headword": "{長唄|ながうた}",
+      "label": "nagauta"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16585_joururi",
+      "reading": "じょうるり",
+      "headword": "{浄瑠璃|じょうるり}",
+      "label": "jōruri"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["culture", "music"],
+      "politeness": "plain",
+      "semantic": [
+        "culture",
+        "music"
+      ],
       "domain": []
     },
     "created": "2026-06-01T03:07:14Z",
-    "modified": "2026-06-01T03:07:14Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

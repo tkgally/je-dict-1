@@ -19,7 +19,9 @@
       "english": "Humanitarian aid was sent to the disaster area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18890_jindoushien_ex2",
@@ -27,7 +29,9 @@
       "english": "The international community is calling for humanitarian aid.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18890_jindoushien_ex3",
@@ -35,22 +39,45 @@
       "english": "Humanitarian aid to the conflict zone is being obstructed for political reasons.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA standard term in news reports about international affairs and disaster response. Japan actively participates in humanitarian aid through organizations like JICA and the Red Cross.\n\nCOMMON COLLOCATIONS:\n- {人道|じんどう}{支援|しえん}を{行|おこな}う (to provide humanitarian aid)\n- {人道|じんどう}{支援|しえん}{物資|ぶっし} (humanitarian aid supplies)\n- {人道|じんどう}{支援|しえん}{活動|かつどう} (humanitarian aid activities)\n- {緊急|きんきゅう}{人道|じんどう}{支援|しえん} (emergency humanitarian aid)\n\nSIMILAR WORDS:\n- {国際|こくさい}{協力|きょうりょく}: international cooperation — broader, includes development aid and technical assistance\n- {災害|さいがい}{支援|しえん}: disaster relief — specifically for natural disasters",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22688_kokusaikyouryoku",
+      "reading": "こくさいきょうりょく",
+      "headword": "{国際協力|こくさいきょうりょく}",
+      "label": "international cooperation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23273_heiwaijikatsudou",
+      "reading": "へいわいじかつどう",
+      "headword": "{平和維持活動|へいわいじかつどう}",
+      "label": "peacekeeping operations"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:24:45Z",
-    "modified": "2026-03-23T06:24:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

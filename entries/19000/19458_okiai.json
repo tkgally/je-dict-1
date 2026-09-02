@@ -18,7 +18,9 @@
       "english": "I can see a ship offshore.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19458_okiai_ex2",
@@ -26,7 +28,9 @@
       "english": "A large whale was swimming offshore.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19458_okiai_ex3",
@@ -34,22 +38,43 @@
       "english": "The typhoon passed through the waters offshore.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{沖合|おきあい} refers to the area of sea at some distance from the shore, beyond the immediate coastal zone. It is commonly used in weather reports, fishing contexts, and news about maritime incidents to specify locations away from land.\n\nSTRUCTURE:\n- {沖|おき} (open sea, offshore) + {合|あい} (area around)\n\nCOMMON PATTERNS:\n- {沖合|おきあい}で (offshore, in the open sea)\n- {沖合|おきあい}に (out to sea)\n- ～の{沖合|おきあい} (off the coast of ~)\n- {沖合|おきあい}～キロ (~ kilometers offshore)\n\nRELATED WORDS:\n- {沖|おき} (open sea — also used alone, slightly more literary)\n- {岸|きし} (shore, bank — opposite direction)\n- {沿岸|えんがん} (coast, coastal area — closer to shore than {沖合|おきあい})",
-  "cross_references": [],
+  "notes": "{沖合|おきあい} refers to the area of sea at some distance from the shore, beyond the immediate coastal zone. It is commonly used in weather reports, fishing contexts, and news about maritime incidents to specify locations away from land.\n\nCOMMON PATTERNS:\n- {沖|おき} (open sea, offshore) + {合|あい} (area around)\n- {沖合|おきあい}で (offshore, in the open sea)\n- {沖合|おきあい}に (out to sea)\n- ～の{沖合|おきあい} (off the coast of ~)\n- {沖合|おきあい}～キロ (~ kilometers offshore)\n\nRELATED WORDS:\n- {沖|おき} (open sea — also used alone, slightly more literary)\n- {岸|きし} (shore, bank — opposite direction)\n- {沿岸|えんがん} (coast, coastal area — closer to shore than {沖合|おきあい})",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02545_kishi",
+      "reading": "きし",
+      "headword": "{岸|きし}",
+      "label": "shore, bank"
+    },
+    {
+      "type": "related",
+      "target_id": "13280_engan",
+      "reading": "えんがん",
+      "headword": "{沿岸|えんがん}",
+      "label": "coast, coastal area"
+    }
+  ],
   "metadata": {
     "created": "2026-03-25T14:52:30Z",
-    "modified": "2026-03-25T14:52:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

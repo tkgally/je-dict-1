@@ -3,7 +3,7 @@
   "headword": "{無味|むみ}",
   "reading": "むみ",
   "romaji": "mumi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "tastelessness; lack of flavor; insipidity",
   "definitions": [
     {
@@ -46,6 +46,15 @@
   ],
   "notes": "Compound of {無|む} (without; lacking) + {味|み} (taste; flavor). Often appears in the set compound {無味|むみ}{無臭|むしゅう} (tasteless and odorless) or {無味|むみ}{乾燥|かんそう} (dry and dull).\n\nSET COMPOUNDS:\n- {無味|むみ}{無臭|むしゅう}: tasteless and odorless — used for water, chemicals, gases\n- {無味|むみ}{乾燥|かんそう}: dry and dull; lacking character — figurative, used for writing, speeches, personalities\n\nCOMMON COLLOCATIONS:\n- {無味|むみ}な{食事|しょくじ}: a tasteless meal\n- {無味|むみ}な{生活|せいかつ}: a dull life\n- ほとんど{無味|むみ}: almost tasteless\n\nSIMILAR WORDS:\n- {味気|あじけ}ない: bland; dreary; uninteresting — more emotional, implies sadness or disappointment at the lack of flavor or interest\n- {淡白|たんぱく}: plain; light-flavored — neutral or positive, describes mild taste or a reserved personality",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21055_ajikenai",
+      "reading": "あじけない",
+      "headword": "{味気|あじけ}ない",
+      "label": "bland"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,11 +63,13 @@
         "adjective-na"
       ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["descriptive"],
+      "politeness": "plain",
+      "semantic": [
+        "descriptive"
+      ],
       "domain": []
     },
     "created": "2026-05-08T12:13:36Z",
-    "modified": "2026-08-07T06:30:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

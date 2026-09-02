@@ -3,7 +3,7 @@
   "headword": "{逃亡|とうぼう}する",
   "reading": "とうぼうする",
   "romaji": "toubousuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to flee; to run away; to escape; to abscond",
   "definitions": [
     {
@@ -55,7 +55,36 @@
     }
   ],
   "notes": "A serious, somewhat formal word associated with crime, war, and political persecution. Stronger and more dramatic than simply 'running away' — implies a sustained escape from authorities or dire circumstances. Very common in news reports and crime dramas.\n\nCOMMON COLLOCATIONS:\n- {海外|かいがい}に{逃亡|とうぼう}する: to flee abroad\n- {逃亡|とうぼう}{生活|せいかつ}: life on the run\n- {逃亡|とうぼう}を{図|はか}る: to attempt to flee\n- {逃亡|とうぼう}{中|ちゅう}: on the run; at large\n- {逃亡|とうぼう}{犯|はん}: fugitive\n\nSIMILAR WORDS:\n- {逃|に}げる: to run away — general and everyday; not specifically from the law\n- {亡命|ぼうめい}する: to seek asylum; to defect — political escape to another country\n- {脱走|だっそう}する: to desert; to break out — specifically from confinement or military duty",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01151_nigeru",
+      "reading": "にげる",
+      "headword": "{逃|に}げる",
+      "label": "to run away"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11424_boumei",
+      "reading": "ぼうめい",
+      "headword": "{亡命|ぼうめい}",
+      "label": "to seek asylum"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15529_dassou",
+      "reading": "だっそう",
+      "headword": "{脱走|だっそう}",
+      "label": "to desert"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25505_senpukusuru",
+      "reading": "せんぷくする",
+      "headword": "{潜伏|せんぷく}する",
+      "label": "to lie hidden"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,7 +100,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T14:16:39Z",
-    "modified": "2026-06-15T07:59:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

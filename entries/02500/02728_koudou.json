@@ -2,7 +2,7 @@
   "id": "02728_koudou",
   "headword": "{行動|こうどう}",
   "reading": "こうどう",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "action, behavior, conduct",
   "conjugation": {
     "type": "suru",
@@ -141,11 +141,32 @@
       "reading": "こうい",
       "headword": "{行為|こうい}",
       "label": "act, deed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10520_furumai",
+      "reading": "ふるまい",
+      "headword": "{振|ふ}る{舞|ま}い",
+      "label": "behavior, demeanor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04074_dousa",
+      "reading": "どうさ",
+      "headword": "{動作|どうさ}",
+      "label": "movement, action, operation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20499_hinkou",
+      "reading": "ひんこう",
+      "headword": "{品行|ひんこう}",
+      "label": "conduct"
     }
   ],
   "metadata": {
     "created": "2026-01-11T07:28:00Z",
-    "modified": "2026-05-21T21:14:47Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

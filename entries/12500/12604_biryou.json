@@ -3,7 +3,7 @@
   "id": "12604_biryou",
   "headword": "{微量|びりょう}",
   "reading": "びりょう",
-  "part_of_speech": "noun, adjective (no)",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "trace amount, minute quantity",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "A trace amount of poison was detected.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12604_biryou_ex2",
@@ -27,7 +29,9 @@
       "english": "This food product contains a minute amount of additives.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12604_biryou_ex3",
@@ -35,7 +39,9 @@
       "english": "Caution is needed because there are substances that affect the body even in trace amounts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA precise, somewhat technical word. Common in scientific reports, food labeling, medical contexts, and environmental discussions. Used as a の-adjective: {微量|びりょう}の{成分|せいぶん} (trace component).\n\nSIMILAR WORDS:\nCompare with {少量|しょうりょう} (a small amount), which refers to a small but noticeable quantity. {微量|びりょう} suggests an even smaller amount — barely detectable.\n\nCOMMON COLLOCATIONS:\n- {微量|びりょう}{元素|げんそ}: trace element\n- {微量|びりょう}の{成分|せいぶん}: trace component\n- {微量|びりょう}でも: even in trace amounts\n- {微量|びりょう}に{含|ふく}まれる: to be present in minute quantities",
@@ -53,19 +59,33 @@
       "reading": "たいりょう",
       "headword": "{大量|たいりょう}",
       "label": "large amount"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18709_kinshou",
+      "reading": "きんしょう",
+      "headword": "{僅少|きんしょう}",
+      "label": "very small amount"
     }
   ],
   "metadata": {
     "created": "2026-02-22T04:09:16Z",
-    "modified": "2026-04-27T06:29:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["quantity"],
-      "domain": ["technical"]
+      "semantic": [
+        "quantity"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

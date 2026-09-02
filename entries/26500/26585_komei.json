@@ -3,7 +3,7 @@
   "headword": "{呼名|こめい}",
   "reading": "こめい",
   "romaji": "komei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "roll call; calling names aloud; designation",
   "definitions": [
     {
@@ -80,7 +80,29 @@
     }
   ],
   "notes": "Combines {呼|こ} (to call) and {名|めい} (name). Sense 1 is more commonly encountered in everyday life (schools, ceremonies), while sense 2 is technical, appearing in engineering and manufacturing standards.\n\nCOMMON COLLOCATIONS:\n- {呼名|こめい}する: to call out names\n- {呼名|こめい}{点呼|てんこ}: name-calling roll call\n- {呼名|こめい}{寸法|すんぽう}: nominal dimensions\n- {呼名|こめい}{径|けい}: nominal diameter\n\nSIMILAR WORDS:\n- {点呼|てんこ}: roll call — specifically checking attendance, often in military or organizational settings\n- {呼称|こしょう}: designation, name — a more common word for the naming/designation sense\n- {名称|めいしょう}: official name — the formal, fixed name of something",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15724_tenko",
+      "reading": "てんこ",
+      "headword": "{点呼|てんこ}",
+      "label": "roll call"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12126_koshou",
+      "reading": "こしょう",
+      "headword": "{呼称|こしょう}",
+      "label": "designation, name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12031_meishou",
+      "reading": "めいしょう",
+      "headword": "{名称|めいしょう}",
+      "label": "official name"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -97,7 +119,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-03T12:32:34Z",
-    "modified": "2026-05-03T12:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

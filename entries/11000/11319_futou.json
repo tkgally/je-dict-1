@@ -2,7 +2,7 @@
   "id": "11319_futou",
   "headword": "{不当|ふとう}",
   "reading": "ふとう",
-  "part_of_speech": "na-adjective / noun",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "unfair, unjust",
   "schema_version": "2.0",
   "definitions": [
@@ -19,7 +19,9 @@
       "english": "I received unfair treatment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11319_futou_ex2",
@@ -27,7 +29,9 @@
       "english": "This price is unreasonably high.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11319_futou_ex3",
@@ -35,7 +39,9 @@
       "english": "The worker filed a lawsuit against the unfair dismissal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{不当|ふとう} describes something that falls short of accepted standards of fairness.\n\nCOMMON COLLOCATIONS:\n- {不当|ふとう}{解雇|かいこ} (unfair dismissal)\n- {不当|ふとう}な{扱|あつか}い (unfair treatment)\n- {不当|ふとう}な{利益|りえき} (unfair profit, unjust enrichment)\n- {不当|ふとう}な{要求|ようきゅう} (unreasonable demand)\n- {不当|ふとう}に{高|たか}い (unreasonably expensive)\n- {不当|ふとう}{表示|ひょうじ} (misleading labeling)\n\nOften seen in legal and labor contexts. The opposite is {正当|せいとう} (just, legitimate).",
@@ -46,18 +52,39 @@
       "reading": "せいとう",
       "headword": "{正当|せいとう}",
       "label": "legitimate, just"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20324_hougai",
+      "reading": "ほうがい",
+      "headword": "{法外|ほうがい}",
+      "label": "outrageous"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24561_fukousei",
+      "reading": "ふこうせい",
+      "headword": "{不公正|ふこうせい}",
+      "label": "unfair"
     }
   ],
   "metadata": {
     "created": "2026-02-15T22:42:13Z",
-    "modified": "2026-04-28T06:26:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"],
-      "domain": ["legal"]
+      "semantic": [
+        "descriptive"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

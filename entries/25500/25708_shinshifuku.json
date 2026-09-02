@@ -17,7 +17,9 @@
       "id": "25708_shinshifuku_ex1",
       "japanese": "{紳士服|しんしふく}{売|う}り{場|ば}はどこですか。",
       "english": "Where is the menswear section?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25708_shinshifuku_ex2",
       "japanese": "{駅前|えきまえ}に{紳士服|しんしふく}の{店|みせ}がある。",
       "english": "There is a menswear shop in front of the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "25708_shinshifuku_ex3",
       "japanese": "{息子|むすこ}の{入社式|にゅうしゃしき}のために{紳士服|しんしふく}を{買|か}いに{行|い}った。",
       "english": "I went to buy men's clothing for my son's company entrance ceremony.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -46,16 +52,29 @@
       "reading": "ふじんふく",
       "headword": "{婦人|ふじん}{服|ふく}",
       "label": "women's clothing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01050_sebiro",
+      "reading": "せびろ",
+      "headword": "{背広|せびろ}",
+      "label": "business suit"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["clothing", "daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "clothing",
+        "daily-life"
+      ]
     },
     "created": "2026-04-26T16:30:42Z",
-    "modified": "2026-05-07T10:07:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

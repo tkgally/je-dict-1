@@ -17,7 +17,9 @@
       "id": "18784_douryoku_ex1",
       "japanese": "{蒸気|じょうき}を{動力|どうりょく}にする。",
       "english": "To use steam as the power source.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18784_douryoku_ex2",
       "japanese": "この{船|ふね}は{風力|ふうりょく}を{動力|どうりょく}として{利用|りよう}している。",
       "english": "This ship uses wind power as its driving force.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "18784_douryoku_ex3",
       "japanese": "{電気自動車|でんきじどうしゃ}は{電池|でんち}を{動力源|どうりょくげん}とし、ガソリンを{使|つか}わない。",
       "english": "Electric vehicles use batteries as their power source and do not use gasoline.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Common collocations: {動力源|どうりょくげん} (power source), {動力|どうりょく}{装置|そうち} (power unit/drive system), {動力|どうりょく}{伝達|でんたつ} (power transmission), {原子力|げんしりょく}{動力|どうりょく} (nuclear power). Often appears in discussions of engines, industrial machinery, and energy technology. Related: エンジン (engine — the mechanical device itself), {馬力|ばりき} (horsepower — a unit of power), {推進力|すいしんりょく} (propulsive force — emphasizes forward movement).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23127_mootaa",
+      "reading": "もーたー",
+      "headword": "モーター",
+      "label": "motor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24244_kudou",
+      "reading": "くどう",
+      "headword": "{駆動|くどう}",
+      "label": "drive"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-03-23T03:39:42Z",
-    "modified": "2026-03-23T03:39:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

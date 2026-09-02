@@ -17,7 +17,9 @@
       "id": "27072_rakku_ex1",
       "japanese": "{本|ほん}をラックに{並|なら}べた。",
       "english": "I lined up the books on the rack.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27072_rakku_ex2",
       "japanese": "{新|あたら}しいラックを{買|か}って{部屋|へや}を{片付|かたづ}けた。",
       "english": "I bought a new rack and tidied up the room.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "27072_rakku_ex3",
       "japanese": "サーバーラックの{設置|せっち}には{十分|じゅうぶん}なスペースと{冷却|れいきゃく}{設備|せつび}が{必要|ひつよう}だ。",
       "english": "Installing a server rack requires sufficient space and cooling equipment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"rack.\" A broadly used loanword for various types of open shelving and storage frames. Unlike {棚|たな} (shelf), ラック emphasizes the open-frame structure and often implies something that can be assembled or reconfigured.\n\nCOMMON COLLOCATIONS:\n- メタルラック: metal rack; wire shelving\n- マガジンラック: magazine rack\n- スパイスラック: spice rack\n- サーバーラック: server rack\n- ラックに{置|お}く: to put on a rack\n- ラックを{組|く}み{立|た}てる: to assemble a rack\n\nSIMILAR WORDS:\n- {棚|たな}: shelf — a native Japanese word for any shelf, including built-in or enclosed shelving\n- シェルフ: shelf — a less common English loanword, used mainly in furniture branding\n- スタンド: stand — for vertical display or holding a single item upright",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01650_tana",
+      "reading": "たな",
+      "headword": "{棚|たな}",
+      "label": "shelf"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00394_sutando",
+      "reading": "すたんど",
+      "headword": "スタンド",
+      "label": "stand"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["furniture", "daily-life"]
+      "semantic": [
+        "furniture",
+        "daily-life"
+      ]
     },
     "created": "2026-05-06T16:08:43Z",
-    "modified": "2026-05-06T16:08:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

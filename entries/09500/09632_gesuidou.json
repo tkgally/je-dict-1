@@ -18,7 +18,9 @@
       "english": "This area has a well-developed sewerage system.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09632_gesuidou_ex2",
@@ -26,7 +28,9 @@
       "english": "The road is blocked due to sewer construction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09632_gesuidou_ex3",
@@ -34,10 +38,12 @@
       "english": "The sewer overflowed due to heavy rain.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{下水道|げすいどう} refers to the underground pipe system that collects and transports wastewater and rainwater. It refers specifically to the infrastructure, not the water itself.\n\nCOMPOSITION:\n{下水|げすい} (sewage, drainage) + {道|どう} (way, channel).\n\nCOMMON COLLOCATIONS:\n- {下水道|げすいどう}の{工事|こうじ}: sewer construction\n- {下水道|げすいどう}を{整備|せいび}する: to develop a sewerage system\n- {下水道|げすいどう}があふれる: the sewer overflows\n- {下水道|げすいどう}{処理場|しょりじょう}: sewage treatment plant\n\nCONTRAST:\n- {下水道|げすいどう}: sewerage system (the infrastructure)\n- {下水|げすい}: sewage, drainage water (the water itself)\n- {上水道|じょうすいどう}: water supply system (clean water, opposite)\n\nNOTE:\n{下水道|げすいどう}{普及率|ふきゅうりつ} (sewerage coverage rate) varies significantly between urban and rural areas in Japan.",
+  "notes": "{下水道|げすいどう} refers to the underground pipe system that collects and transports wastewater and rainwater. It refers specifically to the infrastructure, not the water itself.\n\nETYMOLOGY:\n{下水|げすい} (sewage, drainage) + {道|どう} (way, channel).\n\nCOMMON COLLOCATIONS:\n- {下水道|げすいどう}の{工事|こうじ}: sewer construction\n- {下水道|げすいどう}を{整備|せいび}する: to develop a sewerage system\n- {下水道|げすいどう}があふれる: the sewer overflows\n- {下水道|げすいどう}{処理場|しょりじょう}: sewage treatment plant\n\nSIMILAR WORDS:\n- {下水道|げすいどう}: sewerage system (the infrastructure)\n- {下水|げすい}: sewage, drainage water (the water itself)\n- {上水道|じょうすいどう}: water supply system (clean water, opposite)\n\nUSAGE:\n{下水道|げすいどう}{普及率|ふきゅうりつ} (sewerage coverage rate) varies significantly between urban and rural areas in Japan.",
   "cross_references": [
     {
       "type": "antonym",
@@ -59,18 +65,36 @@
       "reading": "おすい",
       "headword": "{汚水|おすい}",
       "label": "dirty water"
+    },
+    {
+      "type": "related",
+      "target_id": "20521_jousui",
+      "reading": "じょうすい",
+      "headword": "{上水|じょうすい}",
+      "label": "water supply"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20884_joukasou",
+      "reading": "じょうかそう",
+      "headword": "{浄化槽|じょうかそう}",
+      "label": "septic tank, sewage treatment tank"
     }
   ],
   "metadata": {
     "created": "2026-02-03T02:58:32Z",
-    "modified": "2026-04-23T06:13:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

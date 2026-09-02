@@ -18,7 +18,9 @@
       "english": "The working conditions are terrible.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11917_retsuaku_ex2",
@@ -26,7 +28,9 @@
       "english": "Inferior quality products are circulating in the market.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11917_retsuaku_ex3",
@@ -34,22 +38,43 @@
       "english": "Disease spreads easily in areas with terrible sanitary conditions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A strong, somewhat formal word typically used to criticize conditions or quality — especially in discussions of labor, living conditions, and product quality. Not typically used to describe people directly.\n\nCOMMON COLLOCATIONS:\n・{劣悪|れつあく}な{環境|かんきょう} (terrible environment)\n・{劣悪|れつあく}な{条件|じょうけん} (terrible conditions)\n・{劣悪|れつあく}な{品質|ひんしつ} (inferior quality)\n・{劣悪|れつあく}な{待遇|たいぐう} (terrible treatment)",
-  "cross_references": [],
+  "notes": "A strong, somewhat formal word typically used to criticize conditions or quality — especially in discussions of labor, living conditions, and product quality. Not typically used to describe people directly.\n\nCOMMON COLLOCATIONS:\n- {劣悪|れつあく}な{環境|かんきょう} (terrible environment)\n- {劣悪|れつあく}な{条件|じょうけん} (terrible conditions)\n- {劣悪|れつあく}な{品質|ひんしつ} (inferior quality)\n- {劣悪|れつあく}な{待遇|たいぐう} (terrible treatment)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20553_akushitsu",
+      "reading": "あくしつ",
+      "headword": "{悪質|あくしつ}",
+      "label": "malicious"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23685_teihinshitsu",
+      "reading": "ていひんしつ",
+      "headword": "{低品質|ていひんしつ}",
+      "label": "low quality"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T14:16:06Z",
-    "modified": "2026-02-18T14:16:06Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

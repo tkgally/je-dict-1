@@ -17,7 +17,9 @@
       "id": "22453_dantairyokou_ex1",
       "japanese": "{団体旅行|だんたいりょこう}で{北海道|ほっかいどう}に{行|い}った。",
       "english": "I went to Hokkaido on a group tour.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22453_dantairyokou_ex2",
       "japanese": "{団体旅行|だんたいりょこう}は{個人|こじん}{旅行|りょこう}より{安|やす}いことが{多|おお}い。",
       "english": "Group tours are often cheaper than individual travel.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "22453_dantairyokou_ex3",
       "japanese": "{会社|かいしゃ}の{団体旅行|だんたいりょこう}で{温泉|おんせん}{旅館|りょかん}に{一泊|いっぱく}した。",
       "english": "We stayed one night at a hot spring inn on a company group trip.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {団体|だんたい} (group, organization) + {旅行|りょこう} (travel). Covers any organized group travel — company trips ({社員旅行|しゃいんりょこう}), school excursions ({修学旅行|しゅうがくりょこう}), and commercial package tours.\n\nCOMMON COLLOCATIONS:\n- {団体旅行|だんたいりょこう}に{参加|さんか}する: to join a group tour\n- {団体旅行|だんたいりょこう}を{企画|きかく}する: to plan a group tour\n- {団体旅行|だんたいりょこう}{割引|わりびき}: group travel discount\n- {海外|かいがい}{団体旅行|だんたいりょこう}: overseas group tour\n\nSIMILAR WORDS:\n- {個人|こじん}{旅行|りょこう}: individual travel — self-planned travel without a group\n- パッケージツアー: package tour — a commercial tour product with set itinerary, often used for overseas trips\n- {社員旅行|しゃいんりょこう}: company trip — specifically for employees of a company\n- {修学旅行|しゅうがくりょこう}: school excursion — a multi-day educational trip organized by schools",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27279_kojinryokou",
+      "reading": "こじんりょこう",
+      "headword": "{個人|こじん}{旅行|りょこう}",
+      "label": "individual travel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05590_shuugakuryokou",
+      "reading": "しゅうがくりょこう",
+      "headword": "{修学旅行|しゅうがくりょこう}",
+      "label": "school excursion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26270_kankoutsuaa",
+      "reading": "かんこうつあー",
+      "headword": "{観光|かんこう}ツアー",
+      "label": "sightseeing tour"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["travel"]
+      "semantic": [
+        "travel"
+      ]
     },
     "created": "2026-04-06T12:10:56Z",
-    "modified": "2026-04-06T12:10:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

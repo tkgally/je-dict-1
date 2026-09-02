@@ -17,7 +17,9 @@
       "id": "20771_osage_ex1",
       "japanese": "おさげの{女|おんな}の{子|こ}。",
       "english": "A girl with braids.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20771_osage_ex2",
       "japanese": "{髪|かみ}をおさげにする。",
       "english": "To wear one's hair in braids.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "20771_osage_ex3",
       "japanese": "{小学生|しょうがくせい}のころ、{毎朝|まいあさ}{母|はは}におさげを{編|あ}んでもらっていた。",
       "english": "When I was in elementary school, my mother braided my hair every morning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From お{下|さ}げ, literally \"hanging down\" with the honorific prefix お. Originally referred to any hair hanging down the back, but now specifically means braided pigtails.\n\nUSAGE:\nStrongly associated with young girls, especially schoolgirls. The image of おさげ evokes childhood and innocence in Japanese culture. Also called {三|み}つ{編|あ}み (three-strand braid) when referring to the braiding technique itself.\n\nCOMMON COLLOCATIONS:\n- おさげの{女|おんな}の{子|こ} — a girl with braids\n- おさげにする — to wear in braids\n- おさげを{編|あ}む — to braid pigtails\n- おさげ{髪|がみ} — braided hair\n\nSIMILAR WORDS:\n- {三|み}つ{編|あ}み — braid, plait; refers to the braiding technique\n- ツインテール — twin tails; ponytails on each side (not braided)\n- ポニーテール — ponytail; a single tail at the back",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18439_mitsuami",
+      "reading": "みつあみ",
+      "headword": "{三|み}つ{編|あ}み",
+      "label": "braid, plait"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20944_poniiteeru",
+      "reading": "ぽにーてーる",
+      "headword": "ポニーテール",
+      "label": "ponytail"
+    },
+    {
+      "type": "related",
+      "target_id": "22943_amigami",
+      "reading": "あみがみ",
+      "headword": "{編|あ}み{髪|がみ}",
+      "label": "braided hair"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["appearance"]
+      "semantic": [
+        "appearance"
+      ]
     },
     "created": "2026-03-30T15:19:19Z",
-    "modified": "2026-03-30T15:19:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

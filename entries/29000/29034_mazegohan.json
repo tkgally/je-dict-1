@@ -18,15 +18,19 @@
       "id": "29034_mazegohan_ex1",
       "japanese": "{鮭|さけ}の{混|ま}ぜご{飯|はん}を{作|つく}る。",
       "english": "To make salmon mixed rice.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29034_mazegohan_ex2",
-      "japanese":" {残|のこ}り{野菜|やさい}で{混|ま}ぜご{飯|はん}にしよう。",
+      "japanese": " {残|のこ}り{野菜|やさい}で{混|ま}ぜご{飯|はん}にしよう。",
       "english": "Let's make mixed rice with the leftover vegetables.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -34,21 +38,50 @@
       "id": "29034_mazegohan_ex3",
       "japanese": "{炊|た}きたてのご{飯|はん}に{具|ぐ}を{混|ま}ぜるだけで{美味|おい}しい{混|ま}ぜご{飯|はん}ができる。",
       "english": "Just mix ingredients into freshly cooked rice and you have a delicious mixed rice dish.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A rice dish where plain cooked rice is tossed with ingredients and seasonings. The key distinction from similar dishes: the mixing happens after cooking.\n\nSIMILAR WORDS:\n- {炊|た}き{込|こ}みご{飯|はん}: seasoned rice cooked with ingredients from the start (the ingredients and broth are added to raw rice before cooking)\n- チャーハン: fried rice (stir-fried in a wok with oil)\n- {寿司|すし}めし / 酢{飯|めし}: sushi rice (vinegar-seasoned mixed rice)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05883_takikomigohan",
+      "reading": "たきこみごはん",
+      "headword": "{炊|た}き{込|こ}みご{飯|はん}",
+      "label": "seasoned rice cooked with ingredients…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17671_chaahan",
+      "reading": "ちゃーはん",
+      "headword": "チャーハン",
+      "label": "fried rice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14460_sumeshi",
+      "reading": "すめし",
+      "headword": "{酢飯|すめし}",
+      "label": "sushi rice"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-06-09T06:03:47Z",
-    "modified": "2026-06-09T06:03:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

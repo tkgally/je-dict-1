@@ -17,7 +17,9 @@
       "id": "20029_touchakuguchi_ex1",
       "japanese": "{到着口|とうちゃくぐち}で{待|ま}っている。",
       "english": "I'm waiting at the arrivals gate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20029_touchakuguchi_ex2",
       "japanese": "{到着口|とうちゃくぐち}は1{階|かい}にあります。",
       "english": "The arrivals exit is on the first floor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "20029_touchakuguchi_ex3",
       "japanese": "{友人|ゆうじん}を{迎|むか}えに{空港|くうこう}の{到着口|とうちゃくぐち}まで{行|い}った。",
       "english": "I went to the airport arrivals gate to pick up my friend.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {到着|とうちゃく} (arrival) and {口|ぐち} (gate/exit/mouth). A practical travel vocabulary word seen on signs in airports and train stations.\n\nCOMMON COLLOCATIONS:\n- {到着口|とうちゃくぐち}で{待|ま}つ: to wait at the arrivals gate\n- {到着口|とうちゃくぐち}に{迎|むか}えに{行|い}く: to go to the arrivals gate to meet someone\n- {国際線|こくさいせん}{到着口|とうちゃくぐち}: international arrivals gate\n- {国内線|こくないせん}{到着口|とうちゃくぐち}: domestic arrivals gate\n\nRELATED WORDS:\n- {出発口|しゅっぱつぐち}: departure gate — the opposite\n- {到着|とうちゃく}: arrival\n- {到着|とうちゃく}ロビー: arrivals lobby\n- {搭乗口|とうじょうぐち}: boarding gate — where passengers board the plane\n\nSIMILAR WORDS:\n- {改札口|かいさつぐち}: ticket gate — at train stations\n- {出口|でぐち}: exit — general term for any exit\n- {入口|いりぐち}: entrance — general term for any entrance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09927_toujouguchi",
+      "reading": "とうじょうぐち",
+      "headword": "{搭乗口|とうじょうぐち}",
+      "label": "boarding gate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09552_kaisatsuguchi",
+      "reading": "かいさつぐち",
+      "headword": "{改札口|かいさつぐち}",
+      "label": "ticket gate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02508_deguchi",
+      "reading": "でぐち",
+      "headword": "{出口|でぐち}",
+      "label": "exit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["travel", "place"]
+      "semantic": [
+        "travel",
+        "place"
+      ]
     },
     "created": "2026-03-28T05:27:30Z",
-    "modified": "2026-03-28T05:27:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "18860_shohouyaku_ex1",
       "japanese": "{処方薬|しょほうやく}をもらいに{薬局|やっきょく}に{行|い}く。",
       "english": "I'm going to the pharmacy to pick up my prescription.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18860_shohouyaku_ex2",
       "japanese": "この{薬|くすり}は{処方薬|しょほうやく}なので、{医師|いし}の{処方箋|しょほうせん}が{必要|ひつよう}です。",
       "english": "This medicine is a prescription drug, so you need a doctor's prescription.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "18860_shohouyaku_ex3",
       "japanese": "{処方薬|しょほうやく}は{用法|ようほう}・{用量|ようりょう}を{守|まも}って{正|ただ}しく{服用|ふくよう}してください。",
       "english": "Please take prescription medicine correctly, following the prescribed dosage and instructions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -43,16 +49,66 @@
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09711_zutsuuyaku",
+      "reading": "ずつうやく",
+      "headword": "{頭痛薬|ずつうやく}",
+      "label": "headache medicine"
+    },
+    {
+      "type": "related",
+      "target_id": "09713_genetsuzai",
+      "reading": "げねつざい",
+      "headword": "{解熱剤|げねつざい}",
+      "label": "fever reducer"
+    },
+    {
+      "type": "related",
+      "target_id": "09834_shihanyaku",
+      "reading": "しはんやく",
+      "headword": "{市販薬|しはんやく}",
+      "label": "over-the-counter medicine"
+    },
+    {
+      "type": "related",
+      "target_id": "24532_kouatsuyaku",
+      "reading": "こうあつやく",
+      "headword": "{降圧薬|こうあつやく}",
+      "label": "antihypertensive drug"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25994_jouyouyaku",
+      "reading": "じょうようやく",
+      "headword": "{常用薬|じょうようやく}",
+      "label": "regular medication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26175_tonpukuyaku",
+      "reading": "とんぷくやく",
+      "headword": "{頓服薬|とんぷくやく}",
+      "label": "medicine taken as needed"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-03-23T05:35:09Z",
-    "modified": "2026-03-23T05:35:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "20220_oyamoto_ex1",
       "japanese": "{親元|おやもと}を{離|はな}れた。",
       "english": "I left my parents' home.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20220_oyamoto_ex2",
       "japanese": "{大学|だいがく}{入学|にゅうがく}を{機|き}に{親元|おやもと}を{離|はな}れて{一人暮|ひとりぐ}らしを{始|はじ}めた。",
       "english": "I started living alone after leaving my parents' home when I entered university.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "20220_oyamoto_ex3",
       "japanese": "{子|こ}どもの{頃|ころ}は{親元|おやもと}にいるのが{当|あ}たり{前|まえ}だったが、{社会人|しゃかいじん}になってからは{帰|かえ}る{機会|きかい}も{減|へ}った。",
       "english": "When I was a child, being at my parents' home was natural, but since I started working, opportunities to visit have decreased.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {親|おや} (parent) + {元|もと} (place of origin, side of). Often used in the context of leaving home for the first time — for college, work, or marriage. Carries an emotional nuance of parental care and the family nest.\n\nCOMMON COLLOCATIONS:\n- {親元|おやもと}を{離|はな}れる: to leave one's parents' home\n- {親元|おやもと}で{暮|く}らす: to live at one's parents' home\n- {親元|おやもと}に{帰|かえ}る: to return to one's parents' home\n- {親元|おやもと}に{戻|もど}る: to go back to one's parents' place\n\nSIMILAR WORDS:\n- {実家|じっか}: family home, parents' house — more neutral, refers to the house itself\n- {故郷|ふるさと}: hometown — broader, the place where one grew up\n- {生家|せいか}: birthplace, house where one was born — specifically the birth home",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03076_jikka",
+      "reading": "じっか",
+      "headword": "{実家|じっか}",
+      "label": "family home, parents' house"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25466_furusato",
+      "reading": "ふるさと",
+      "headword": "{故郷|ふるさと}",
+      "label": "hometown"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["family", "home"]
+      "semantic": [
+        "family",
+        "home"
+      ]
     },
     "created": "2026-03-28T17:13:26Z",
-    "modified": "2026-03-28T17:13:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

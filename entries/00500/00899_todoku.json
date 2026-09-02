@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{届|とど}ける→届ける：01248_todokeru⟧ (transitive). Pattern: X⟦が→が：00051_ga⟧{届|とど}く (X arrives/reaches).\n\nASPECT: ている indicates resulting state. {届|とど}いている = 'has arrived' (and is here now).\n\nCOMMON PATTERNS:\n・⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦が→が：00051_ga⟧{届|とど}く (package arrives)\n・⟦{手|て}→手：00569_te⟧⟦が→が：00051_ga⟧{届|とど}く (can reach - physical)\n・⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧{届|とど}く (voice reaches - figurative)\n・⟦まだ→まだ：00603_mada⟧{届|とど}いていない (hasn't arrived yet)\n\nPAIR: ⟦{届|とど}ける→届ける：01248_todokeru⟧ (transitive) - ⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧⟦{届|とど}けた→届ける：01248_todokeru⟧ (delivered the package).",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{届|とど}ける→届ける：01248_todokeru⟧ (transitive). Pattern: X⟦が→が：00051_ga⟧{届|とど}く (X arrives/reaches).\n\nASPECT: ている indicates resulting state. {届|とど}いている = 'has arrived' (and is here now).\n\nCOMMON PATTERNS:\n- ⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦が→が：00051_ga⟧{届|とど}く (package arrives)\n- ⟦{手|て}→手：00569_te⟧⟦が→が：00051_ga⟧{届|とど}く (can reach - physical)\n- ⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧{届|とど}く (voice reaches - figurative)\n- ⟦まだ→まだ：00603_mada⟧{届|とど}いていない (hasn't arrived yet)\n\nPAIR: ⟦{届|とど}ける→届ける：01248_todokeru⟧ (transitive) - ⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧⟦{届|とど}けた→届ける：01248_todokeru⟧ (delivered the package).",
   "cross_references": [
     {
       "type": "pair",
@@ -216,11 +216,18 @@
       "reading": "とどける",
       "headword": "{届|とど}ける",
       "label": "transitive: to deliver"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02129_tassuru",
+      "reading": "たっする",
+      "headword": "{達|たっ}する",
+      "label": "to reach, to attain, to arrive at"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:47:14Z",
-    "modified": "2026-05-13T14:08:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

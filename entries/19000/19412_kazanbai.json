@@ -17,7 +17,9 @@
       "id": "19412_kazanbai_ex1",
       "japanese": "{火山灰|かざんばい}が{降|ふ}っている。",
       "english": "Volcanic ash is falling.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19412_kazanbai_ex2",
       "japanese": "{噴火|ふんか}のあと、{町|まち}は{火山灰|かざんばい}に{覆|おお}われた。",
       "english": "After the eruption, the town was covered in volcanic ash.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "19412_kazanbai_ex3",
       "japanese": "{鹿児島|かごしま}では{桜島|さくらじま}の{火山灰|かざんばい}が{日常的|にちじょうてき}に{降|ふ}るため、{住民|じゅうみん}は{対策|たいさく}に{慣|な}れている。",
       "english": "In Kagoshima, volcanic ash from Sakurajima falls regularly, so residents are accustomed to dealing with it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{火山灰|かざんばい} refers to fine particles of rock ejected during a volcanic eruption. A compound of {火山|かざん} (volcano) + {灰|はい} (ash). The reading uses {灰|ばい}, the on'yomi.\n\nCOMMON COLLOCATIONS:\n- {火山灰|かざんばい}が{降|ふ}る: volcanic ash falls\n- {火山灰|かざんばい}に{覆|おお}われる: to be covered in volcanic ash\n- {火山灰|かざんばい}を{取|と}り{除|のぞ}く: to remove volcanic ash\n- {火山灰|かざんばい}が{積|つ}もる: volcanic ash accumulates\n\nCULTURAL NOTE:\nJapan has many active volcanoes, so {火山灰|かざんばい} is a practical concern. In {鹿児島|かごしま}, {桜島|さくらじま} regularly deposits ash, and special collection bags ({克灰袋|こくはいぶくろ}) are distributed by the city.\n\nRELATED:\n- {噴火|ふんか}: volcanic eruption\n- {火山|かざん}: volcano\n- {溶岩|ようがん}: lava",
+  "notes": "{火山灰|かざんばい} refers to fine particles of rock ejected during a volcanic eruption. A compound of {火山|かざん} (volcano) + {灰|はい} (ash). The reading uses {灰|ばい}, the on'yomi.\n\nCOMMON COLLOCATIONS:\n- {火山灰|かざんばい}が{降|ふ}る: volcanic ash falls\n- {火山灰|かざんばい}に{覆|おお}われる: to be covered in volcanic ash\n- {火山灰|かざんばい}を{取|と}り{除|のぞ}く: to remove volcanic ash\n- {火山灰|かざんばい}が{積|つ}もる: volcanic ash accumulates\n\nCULTURAL NOTE:\nJapan has many active volcanoes, so {火山灰|かざんばい} is a practical concern. In {鹿児島|かごしま}, {桜島|さくらじま} regularly deposits ash, and special collection bags ({克灰袋|こくはいぶくろ}) are distributed by the city.\n\nRELATED WORDS:\n- {噴火|ふんか}: volcanic eruption\n- {火山|かざん}: volcano\n- {溶岩|ようがん}: lava",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00045_funka",
+      "reading": "ふんか",
+      "headword": "{噴火|ふんか}",
+      "label": "volcanic eruption"
+    },
+    {
+      "type": "related",
+      "target_id": "13328_yougan",
+      "reading": "ようがん",
+      "headword": "{溶岩|ようがん}",
+      "label": "lava"
+    },
+    {
+      "type": "related",
+      "target_id": "19155_funen",
+      "reading": "ふんえん",
+      "headword": "{噴煙|ふんえん}",
+      "label": "volcanic smoke"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     },
     "created": "2026-03-25T13:28:10Z",
-    "modified": "2026-03-31T09:28:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

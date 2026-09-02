@@ -22,7 +22,9 @@
       "id": "19266_kyojuuchi_ex1",
       "japanese": "{居住地|きょじゅうち}を{記入|きにゅう}してください。",
       "english": "Please fill in your place of residence.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "19266_kyojuuchi_ex2",
       "japanese": "{現在|げんざい}の{居住地|きょじゅうち}は{東京|とうきょう}です。",
       "english": "My current place of residence is Tokyo.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "19266_kyojuuchi_ex3",
       "japanese": "{申請書|しんせいしょ}には{居住地|きょじゅうち}の{証明|しょうめい}が{必要|ひつよう}です。",
       "english": "Proof of residence is required for the application.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "19266_kyojuuchi_ex4",
       "japanese": "この{辺|あた}りは{居住地|きょじゅうち}として{人気|にんき}がある。",
       "english": "This area is popular as a residential district.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "19266_kyojuuchi_ex5",
       "japanese": "{工場|こうじょう}の{近|ちか}くに{居住地|きょじゅうち}を{作|つく}るべきではない。",
       "english": "Residential areas shouldn't be built near factories.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,51 @@
       "id": "19266_kyojuuchi_ex6",
       "japanese": "{古代|こだい}の{居住地|きょじゅうち}{跡|あと}が{発掘|はっくつ}された。",
       "english": "Remains of an ancient settlement were excavated.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A formal term for where someone lives. Sense 1 is most common in everyday use — appearing on forms, applications, and official documents. Sense 2 is used in urban planning, archaeology, and geography.\n\nCOMMON COLLOCATIONS:\n- {居住地|きょじゅうち}の{変更|へんこう}: change of residence\n- {居住地|きょじゅうち}{証明|しょうめい}: proof of residence\n- {現在|げんざい}の{居住地|きょじゅうち}: current place of residence\n- {居住地|きょじゅうち}{域|いき}: residential zone\n\nSIMILAR WORDS:\n- {住所|じゅうしょ}: address — more specific and common in everyday use\n- {住居|じゅうきょ}: dwelling, residence — refers to the building itself rather than the location\n- {住|す}まい: home, residence — casual, warm tone",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01430_juusho",
+      "reading": "じゅうしょ",
+      "headword": "{住所|じゅうしょ}",
+      "label": "address"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11612_juukyo",
+      "reading": "じゅうきょ",
+      "headword": "{住居|じゅうきょ}",
+      "label": "dwelling, residence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11555_sumai",
+      "reading": "すまい",
+      "headword": "{住|す}まい",
+      "label": "home, residence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     },
     "created": "2026-03-25T03:40:33Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

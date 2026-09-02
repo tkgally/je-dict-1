@@ -19,7 +19,9 @@
       "english": "I joined the company as a new graduate.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12871_shinsotsu_ex2",
@@ -27,7 +29,9 @@
       "english": "Interviews for new graduate recruitment have begun.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12871_shinsotsu_ex3",
@@ -35,7 +39,9 @@
       "english": "Job hunting for new graduates often starts in the second half of the third year of university.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA key term in Japanese employment culture. Japan's {新卒|しんそつ}{一括|いっかつ}{採用|さいよう} (mass hiring of new graduates) system means most large companies hire graduates simultaneously each April. Missing this window can significantly impact career prospects. Often used as a modifier: {新卒|しんそつ} + noun.\n\nCOMMON COLLOCATIONS:\n- {新卒|しんそつ}{採用|さいよう}: new graduate recruitment\n- {新卒|しんそつ}{一括|いっかつ}{採用|さいよう}: mass hiring of new graduates\n- {新卒|しんそつ}で{入社|にゅうしゃ}する: to join a company as a new graduate\n\nSIMILAR WORDS:\n- {既卒|きそつ}: previous graduate (someone who graduated but did not find employment immediately)\n- {中途|ちゅうと}{採用|さいよう}: mid-career hiring",
@@ -46,19 +52,47 @@
       "reading": "きそつ",
       "headword": "{既卒|きそつ}",
       "label": "previous graduate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17725_chuutosaiyou",
+      "reading": "ちゅうとさいよう",
+      "headword": "{中途採用|ちゅうとさいよう}",
+      "label": "mid-career hiring"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15310_shinshakaijin",
+      "reading": "しんしゃかいじん",
+      "headword": "{新社会人|しんしゃかいじん}",
+      "label": "new member of the workforce"
+    },
+    {
+      "type": "related",
+      "target_id": "19285_daisotsu",
+      "reading": "だいそつ",
+      "headword": "{大卒|だいそつ}",
+      "label": "university graduate"
     }
   ],
   "metadata": {
     "created": "2026-02-22T12:42:32Z",
-    "modified": "2026-05-01T05:08:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work", "education"],
-      "domain": ["business"]
+      "semantic": [
+        "work",
+        "education"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

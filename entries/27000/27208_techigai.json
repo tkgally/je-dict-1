@@ -17,7 +17,9 @@
       "id": "27208_techigai_ex1",
       "japanese": "{手違|てちが}いで{荷物|にもつ}が{届|とど}かなかった。",
       "english": "Due to a mix-up, the package didn't arrive.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27208_techigai_ex2",
       "japanese": "{予約|よやく}に{手違|てちが}いがあったようです。",
       "english": "It seems there was a mistake with the reservation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,61 @@
       "id": "27208_techigai_ex3",
       "japanese": "{事務|じむ}{手続|てつづ}きの{手違|てちが}いで、{書類|しょるい}が{二重|にじゅう}に{発行|はっこう}されてしまった。",
       "english": "Due to an administrative error, the documents were issued twice.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A polite, blame-deflecting word for mistakes — commonly used in customer service, business, and formal apologies. By attributing the problem to a \"procedural error\" rather than personal negligence, it softens responsibility. Composed of {手|て} (hand/process) + {違|ちが}い (difference/error).\n\nCOMMON COLLOCATIONS:\n- {手違|てちが}いがある: there is a mistake\n- {手違|てちが}いで: due to a mistake/error\n- {手違|てちが}いが{生|しょう}じる: a mistake occurs\n- {事務的|じむてき}な{手違|てちが}い: an administrative error\n- {手違|てちが}いをお{詫|わ}びする: to apologize for a mistake\n\nSIMILAR WORDS:\n- {間違|まちが}い: mistake; error — the most general word for mistakes of any kind\n- {行|い}き{違|ちが}い: miscommunication; crossing paths — emphasizes two parties failing to connect properly\n- {勘違|かんちが}い: misunderstanding — a mistake in one's understanding or assumption\n- ミス: mistake — a casual loanword for errors, especially at work",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03733_machigai",
+      "reading": "まちがい",
+      "headword": "{間違|まちが}い",
+      "label": "mistake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09985_ikichigai",
+      "reading": "いきちがい",
+      "headword": "{行|い}き{違|ちが}い",
+      "label": "miscommunication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17609_kanchigai",
+      "reading": "かんちがい",
+      "headword": "{勘違|かんちが}い",
+      "label": "misunderstanding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00285_misu",
+      "reading": "みす",
+      "headword": "ミス",
+      "label": "mistake"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-05-07T16:12:35Z",
-    "modified": "2026-05-07T16:12:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

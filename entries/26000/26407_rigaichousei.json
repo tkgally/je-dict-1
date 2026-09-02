@@ -17,7 +17,9 @@
       "id": "26407_rigaichousei_ex1",
       "japanese": "{関係者|かんけいしゃ}{間|かん}の{利害|りがい}{調整|ちょうせい}が{難|むずか}しい。",
       "english": "Coordinating interests among the parties involved is difficult.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26407_rigaichousei_ex2",
       "japanese": "{政策|せいさく}を{決|き}める{前|まえ}に、{各省庁|かくしょうちょう}の{利害|りがい}{調整|ちょうせい}が{必要|ひつよう}だ。",
       "english": "Before deciding on policy, coordination of interests among the ministries is necessary.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,51 @@
       "id": "26407_rigaichousei_ex3",
       "japanese": "{地域|ちいき}{住民|じゅうみん}と{開発|かいはつ}{業者|ぎょうしゃ}の{利害|りがい}{調整|ちょうせい}に{時間|じかん}がかかり、{計画|けいかく}が{遅|おく}れている。",
       "english": "The plan is delayed because coordinating the interests of local residents and the developer is taking time.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {利害|りがい} (interests, gains and losses) and {調整|ちょうせい} (adjustment, coordination). This concept is central to Japanese consensus-building ({根回|ねまわ}し) culture, where decisions are often preceded by extensive behind-the-scenes negotiation to align all parties before a formal announcement.\n\nCOMMON COLLOCATIONS:\n- {利害|りがい}{調整|ちょうせい}を{行|おこな}う: to carry out interest coordination\n- {利害|りがい}{調整|ちょうせい}が{難航|なんこう}する: interest coordination hits difficulties\n- {利害|りがい}{調整|ちょうせい}の{役割|やくわり}: the role of mediating interests\n- {利害|りがい}{調整|ちょうせい}に{時間|じかん}がかかる: interest coordination takes time\n\nUSAGE:\nCommon in political reporting, especially regarding legislation that affects multiple stakeholders. Also appears in business contexts when departments or companies have conflicting objectives.\n\nSIMILAR WORDS:\n- {根回|ねまわ}し: prior consultation, groundwork — informal consensus-building before a decision\n- {利害関係|りがいかんけい}: conflict of interest; interest relationship — the state of having competing interests\n- {調停|ちょうてい}: mediation, arbitration — a more formal legal process for dispute resolution",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07727_nemawashi",
+      "reading": "ねまわし",
+      "headword": "{根回|ねまわ}し",
+      "label": "prior consultation, groundwork"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19524_rigaikankei",
+      "reading": "りがいかんけい",
+      "headword": "{利害関係|りがいかんけい}",
+      "label": "conflict of interest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14251_choutei",
+      "reading": "ちょうてい",
+      "headword": "{調停|ちょうてい}",
+      "label": "mediation, arbitration"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["politics", "business"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "politics",
+        "business"
+      ]
     },
     "created": "2026-05-01T14:11:52Z",
-    "modified": "2026-05-01T14:11:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

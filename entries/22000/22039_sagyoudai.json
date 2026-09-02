@@ -17,7 +17,9 @@
       "id": "22039_sagyoudai_ex1",
       "japanese": "{作業台|さぎょうだい}の{上|うえ}に{道具|どうぐ}を{並|なら}べる。",
       "english": "To line up tools on the workbench.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22039_sagyoudai_ex2",
       "japanese": "キッチンの{作業台|さぎょうだい}で{野菜|やさい}を{切|き}る。",
       "english": "To cut vegetables on the kitchen worktop.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "22039_sagyoudai_ex3",
       "japanese": "{高|たか}さを{調整|ちょうせい}できる{作業台|さぎょうだい}を{購入|こうにゅう}して、{作業|さぎょう}{効率|こうりつ}が{上|あ}がった。",
       "english": "I bought a height-adjustable workbench, and my work efficiency improved.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {作業|さぎょう} (work, operation) and {台|だい} (stand, table, platform). Refers to any flat surface designed for performing work, from workshop benches to kitchen counters.\n\nCOMMON COLLOCATIONS:\n- {作業台|さぎょうだい}の{上|うえ}: on the workbench\n- {作業台|さぎょうだい}を{設置|せっち}する: to set up a workbench\n- ステンレス{製|せい}の{作業台|さぎょうだい}: stainless steel work table\n- {折|お}りたたみ{作業台|さぎょうだい}: folding work table\n\nSIMILAR WORDS:\n- ワークベンチ: workbench — the English loanword, used mainly in DIY contexts\n- {調理台|ちょうりだい}: kitchen counter / prep station — specifically for cooking\n- {工作台|こうさくだい}: craft table / workshop bench — specifically for crafting or machining",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24699_chouridai",
+      "reading": "ちょうりだい",
+      "headword": "{調理台|ちょうりだい}",
+      "label": "kitchen counter / prep station"
+    },
+    {
+      "type": "related",
+      "target_id": "06548_manriki",
+      "reading": "まんりき",
+      "headword": "{万力|まんりき}",
+      "label": "vise"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["object"]
+      "semantic": [
+        "object"
+      ]
     },
     "created": "2026-04-04T21:13:54Z",
-    "modified": "2026-04-04T21:13:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

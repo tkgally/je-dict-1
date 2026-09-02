@@ -43,7 +43,51 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{向|む}こう (over there, the other side) + {側|がわ} (side)\n\nSIMILAR EXPRESSIONS:\n- {向|む}こう - over there (general direction)\n- {向|む}こう{側|がわ} - the other side (specific side)\n- {反対側|はんたいがわ} - opposite side\n- {裏側|うらがわ} - back side, reverse side\n\nPATTERN:\n~{側|がわ} (side) compounds:\n- こちら{側|がわ} - this side\n- あちら{側|がわ} - that side\n- {右側|みぎがわ} - right side\n- {左側|ひだりがわ} - left side\n- {外側|そとがわ} - outside\n- {内側|うちがわ} - inside",
+  "notes": "COMPOUNDS:\n{向|む}こう (over there, the other side) + {側|がわ} (side)\n\nSIMILAR WORDS:\n- {向|む}こう - over there (general direction)\n- {向|む}こう{側|がわ} - the other side (specific side)\n- {反対側|はんたいがわ} - opposite side\n- {裏側|うらがわ} - back side, reverse side\n\nCOMMON PATTERNS:\n~{側|がわ} (side) compounds:\n- こちら{側|がわ} - this side\n- あちら{側|がわ} - that side\n- {右側|みぎがわ} - right side\n- {左側|ひだりがわ} - left side\n- {外側|そとがわ} - outside\n- {内側|うちがわ} - inside",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16780_hantaigawa",
+      "reading": "はんたいがわ",
+      "headword": "{反対側|はんたいがわ}",
+      "label": "opposite side"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03042_uragawa",
+      "reading": "うらがわ",
+      "headword": "{裏側|うらがわ}",
+      "label": "back side, reverse side"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20150_katagawa",
+      "reading": "かたがわ",
+      "headword": "{片側|かたがわ}",
+      "label": "one side"
+    },
+    {
+      "type": "related",
+      "target_id": "22602_kochiragawa",
+      "reading": "こちらがわ",
+      "headword": "こちら{側|がわ}",
+      "label": "this side"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26583_tonarigawa",
+      "reading": "となりがわ",
+      "headword": "{隣側|となりがわ}",
+      "label": "the side next to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26865_mukaigawa",
+      "reading": "むかいがわ",
+      "headword": "{向|む}かい{側|がわ}",
+      "label": "opposite side"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +95,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "geography",
         "direction"
       ]
     },
     "created": "2026-01-27T08:12:28Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

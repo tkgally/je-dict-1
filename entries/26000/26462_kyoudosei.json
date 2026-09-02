@@ -17,7 +17,9 @@
       "id": "26462_kyoudosei_ex1",
       "japanese": "この{料理|りょうり}には{強|つよ}い{郷土性|きょうどせい}がある。",
       "english": "This dish has a strong local character.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26462_kyoudosei_ex2",
       "japanese": "{郷土性|きょうどせい}を{活|い}かした{町|まち}づくりが{進|すす}んでいる。",
       "english": "Town development that makes use of local character is progressing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,44 @@
       "id": "26462_kyoudosei_ex3",
       "japanese": "{作家|さっか}の{作品|さくひん}には{故郷|ふるさと}の{風景|ふうけい}や{方言|ほうげん}など{豊|ゆた}かな{郷土性|きょうどせい}が{表|あらわ}れている。",
       "english": "The author's works display a rich local character through hometown scenery and dialect.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {郷土|きょうど} (one's native place, homeland) and {性|せい} (nature, quality). A term used in cultural studies, literary criticism, and regional development discussions. Japan's strong regional identities in food, dialect, and customs make this concept particularly relevant.\n\nCOMMON COLLOCATIONS:\n- {郷土性|きょうどせい}が{豊|ゆた}か: rich in local character\n- {郷土性|きょうどせい}を{活|い}かす: to make use of local character\n- {郷土性|きょうどせい}のある{作品|さくひん}: a work with local character\n- {郷土性|きょうどせい}が{薄|うす}れる: local character fading\n\nSIMILAR WORDS:\n- {郷土|きょうど}: native place, homeland — the base noun without the abstract quality suffix\n- {地域性|ちいきせい}: regional character — a more neutral, administrative term for regional distinctiveness\n- {風土|ふうど}: natural features, climate and culture — the combined natural and cultural character of a place",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22565_chiikisei",
+      "reading": "ちいきせい",
+      "headword": "{地域性|ちいきせい}",
+      "label": "regional character"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14628_fuudo",
+      "reading": "ふうど",
+      "headword": "{風土|ふうど}",
+      "label": "natural features, climate and culture"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["culture", "society"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "culture",
+        "society"
+      ]
     },
     "created": "2026-05-02T11:30:57Z",
-    "modified": "2026-05-02T11:30:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

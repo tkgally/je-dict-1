@@ -16,7 +16,9 @@
       "id": "09291_kateikyoushi_ex1",
       "japanese": "{家庭教師|かていきょうし}を{雇|やと}う。",
       "english": "To hire a private tutor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09291_kateikyoushi_ex2",
       "japanese": "{家庭教師|かていきょうし}に{数学|すうがく}を{教|おそ}わっている。",
       "english": "I'm being taught math by a private tutor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,23 +36,51 @@
       "id": "09291_kateikyoushi_ex3",
       "japanese": "{大学生|だいがくせい}の{頃|ころ}、{家庭教師|かていきょうし}のアルバイトをしていた。",
       "english": "When I was a university student, I worked part-time as a private tutor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{家庭教師|かていきょうし} provides individualized instruction, often to help students prepare for exams or catch up with schoolwork. It is a common part-time job for university students in Japan.\n\nCOMMON COLLOCATIONS:\n- {家庭教師|かていきょうし}を{頼|たの}む (to ask for a tutor)\n- {家庭教師|かていきょうし}のバイト (tutoring part-time job)\n- {家庭教師|かていきょうし}{派遣|はけん} (tutor dispatch service)\n\nRELATED TERMS:\n- {塾講師|じゅくこうし} (cram school teacher)\n- {塾|じゅく} (cram school)\n- {個別指導|こべつしどう} (individual instruction)",
-  "cross_references": [],
+  "notes": "{家庭教師|かていきょうし} provides individualized instruction, often to help students prepare for exams or catch up with schoolwork. It is a common part-time job for university students in Japan.\n\nCOMMON COLLOCATIONS:\n- {家庭教師|かていきょうし}を{頼|たの}む (to ask for a tutor)\n- {家庭教師|かていきょうし}のバイト (tutoring part-time job)\n- {家庭教師|かていきょうし}{派遣|はけん} (tutor dispatch service)\n\nRELATED WORDS:\n- {塾講師|じゅくこうし} (cram school teacher)\n- {塾|じゅく} (cram school)\n- {個別指導|こべつしどう} (individual instruction)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09974_jukukoushi",
+      "reading": "じゅくこうし",
+      "headword": "{塾講師|じゅくこうし}",
+      "label": "cram school teacher"
+    },
+    {
+      "type": "related",
+      "target_id": "04702_juku",
+      "reading": "じゅく",
+      "headword": "{塾|じゅく}",
+      "label": "cram school"
+    },
+    {
+      "type": "related",
+      "target_id": "17360_kobetsushidou",
+      "reading": "こべつしどう",
+      "headword": "{個別|こべつ}{指導|しどう}",
+      "label": "individual instruction"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T06:19:49Z",
-    "modified": "2026-02-01T06:19:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     }
   }
 }

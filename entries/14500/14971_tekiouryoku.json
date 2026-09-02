@@ -19,7 +19,9 @@
       "english": "He has high adaptability.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14971_tekiouryoku_ex2",
@@ -27,7 +29,9 @@
       "english": "Children are said to be more adaptable than adults.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14971_tekiouryoku_ex3",
@@ -35,21 +39,42 @@
       "english": "Overseas assignments require not only language skills but also the ability to adapt to different cultures.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of {適応|てきおう} (adaptation) and {力|りょく} (power, ability). Follows the productive Japanese pattern of adding {力|りょく} to abstract nouns to form 'ability to X.'\n\nSIMILAR WORDS:\n- {順応力|じゅんのうりょく} is a close synonym, slightly more passive\n- {柔軟性|じゅうなんせい} means flexibility, a related quality\n\nCOMMON COLLOCATIONS:\n- {適応力|てきおうりょく}が{高|たか}い (highly adaptable)\n- {適応力|てきおうりょく}がある (to have adaptability)\n- {適応力|てきおうりょく}に{優|すぐ}れた (excellent in adaptability)\n- {環境|かんきょう}への{適応力|てきおうりょく} (adaptability to the environment)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05796_juunansei",
+      "reading": "じゅうなんせい",
+      "headword": "{柔軟性|じゅうなんせい}",
+      "label": "means flexibility, a related quality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29134_junnousei",
+      "reading": "じゅんのうせい",
+      "headword": "{順応性|じゅんのうせい}",
+      "label": "adaptability"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T08:03:32Z",
-    "modified": "2026-03-04T08:03:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     }
   }
 }

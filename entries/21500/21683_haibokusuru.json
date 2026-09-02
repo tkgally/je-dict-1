@@ -3,7 +3,7 @@
   "headword": "{敗北|はいぼく}する",
   "reading": "はいぼくする",
   "romaji": "haibokusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to be defeated; to lose",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "A formal, weighty word for defeat. More dramatic and literary than {負|ま}ける. Frequently appears in news coverage of elections, sports, and military history.\n\nCOMMON COLLOCATIONS:\n- {敗北|はいぼく}を{喫|きっ}する: to suffer a defeat\n- {敗北|はいぼく}を{認|みと}める: to acknowledge defeat\n- {敗北|はいぼく}{感|かん}: sense of defeat\n- {大|たい}{敗北|はいぼく}: major defeat\n\nSIMILAR WORDS:\n- {負|ま}ける: to lose (everyday, versatile)\n- {惨敗|ざんぱい}する: to suffer a crushing defeat\n- {勝利|しょうり}する: to win (antonym)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01134_makeru",
+      "reading": "まける",
+      "headword": "{負|ま}ける",
+      "label": "to lose"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08236_zanpai",
+      "reading": "ざんぱい",
+      "headword": "{惨敗|ざんぱい}",
+      "label": "to suffer a crushing defeat"
+    },
+    {
+      "type": "antonym",
+      "target_id": "11795_shouri",
+      "reading": "しょうり",
+      "headword": "{勝利|しょうり}",
+      "label": "to win"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20577_koufukusuru",
+      "reading": "こうふくする",
+      "headword": "{降伏|こうふく}する",
+      "label": "to surrender"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +90,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T21:21:12Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -22,7 +22,9 @@
       "id": "25887_hanmaa_ex1",
       "japanese": "ハンマーで{釘|くぎ}を{打|う}つ。",
       "english": "To drive a nail with a hammer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "25887_hanmaa_ex2",
       "japanese": "ハンマーを{振|ふ}り{下|お}ろして{壁|かべ}を{壊|こわ}した。",
       "english": "I swung the hammer down and broke the wall.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "25887_hanmaa_ex3",
       "japanese": "{工具箱|こうぐばこ}からハンマーとドライバーを{取|と}り{出|だ}した。",
       "english": "I took a hammer and screwdriver out of the toolbox.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "25887_hanmaa_ex4",
       "japanese": "ハンマー{投|な}げの{選手|せんしゅ}は{体格|たいかく}がいい。",
       "english": "Hammer throw athletes have good builds.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "25887_hanmaa_ex5",
       "japanese": "{彼|かれ}はハンマー{投|な}げで{日本記録|にほんきろく}を{更新|こうしん}した。",
       "english": "He set a new Japanese record in the hammer throw.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,53 @@
       "id": "25887_hanmaa_ex6",
       "japanese": "ハンマーを{回転|かいてん}させながら{遠|とお}くへ{投|な}げる{技術|ぎじゅつ}は{難|むずか}しい。",
       "english": "The technique of spinning and throwing the hammer far is difficult.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"hammer.\" The standard term for a hammer in modern Japanese, used more commonly than the native word {金槌|かなづち} in many contexts, especially in DIY, construction, and sports.\n\nIn athletics, ハンマー{投|な}げ (hammer throw) is one of the field events in track and field. Japan has produced notable hammer throw athletes.\n\nCOMMON COLLOCATIONS:\n- ハンマーで{打|う}つ: to hit with a hammer\n- ハンマーを{振|ふ}る: to swing a hammer\n- ハンマー{投|な}げ: hammer throw (athletics)\n- ハンマーで{壊|こわ}す: to break with a hammer\n- ハンマーで{叩|たた}く: to strike with a hammer\n\nSIMILAR WORDS:\n- {金槌|かなづち}: hammer — the native Japanese word, refers specifically to a metalworking or carpentry hammer\n- {槌|つち}: mallet; hammer — broader native term, includes wooden mallets\n- トンカチ: hammer — colloquial/onomatopoeic term (from the sound of hammering)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05476_kanazuchi",
+      "reading": "かなづち",
+      "headword": "{金槌|かなづち}",
+      "label": "hammer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29978_tsuchi",
+      "reading": "つち",
+      "headword": "{槌|つち}",
+      "label": "mallet"
+    },
+    {
+      "type": "related",
+      "target_id": "06547_tagane",
+      "reading": "たがね",
+      "headword": "たがね",
+      "label": "cold chisel"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["tool"],
-      "domain": ["technical"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "tool"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-04-28T11:22:31Z",
-    "modified": "2026-04-28T11:22:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

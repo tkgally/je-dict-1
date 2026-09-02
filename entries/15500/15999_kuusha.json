@@ -24,7 +24,9 @@
       "english": "An available taxi just won't come.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15999_kuusha_ex2",
@@ -32,7 +34,9 @@
       "english": "I spotted a taxi showing the 'vacant' sign.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15999_kuusha_ex3",
@@ -40,7 +44,9 @@
       "english": "On rainy days, it's hard to find an available taxi.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15999_kuusha_ex4",
@@ -48,7 +54,9 @@
       "english": "The truck returned empty.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15999_kuusha_ex5",
@@ -56,7 +64,9 @@
       "english": "Reducing the distance driven empty is a challenge.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15999_kuusha_ex6",
@@ -64,21 +74,35 @@
       "english": "A high empty-vehicle rate reduces a transport company's revenue.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nMost commonly encountered on taxi signs in Japan. Japanese taxis display {空車|くうしゃ} on the rooftop light or dashboard when available. The opposite states are {賃走|ちんそう} (metered/occupied), {回送|かいそう} (out of service/returning to base), and {迎車|げいしゃ} (dispatched to pick up a customer).\n\nCOMMON COLLOCATIONS:\n- {空車|くうしゃ}のタクシー (an available taxi)\n- {空車|くうしゃ}{表示|ひょうじ} (vacant indicator)\n- {空車|くうしゃ}{率|りつ} (empty-vehicle ratio)\n\nSIMILAR WORDS:\n- {回送|かいそう}: out of service, deadheading — a taxi not accepting passengers\n- {賃走|ちんそう}: metered, occupied — a taxi currently carrying a fare",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15487_mansha",
+      "reading": "まんしゃ",
+      "headword": "{満車|まんしゃ}",
+      "label": "full (parking lot)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-09T06:20:44Z",
-    "modified": "2026-03-09T06:20:44Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     }
   }
 }

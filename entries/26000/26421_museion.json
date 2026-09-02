@@ -17,7 +17,9 @@
       "id": "26421_museion_ex1",
       "japanese": "「か」は{無声音|むせいおん}だ。",
       "english": "\"Ka\" is a voiceless sound.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26421_museion_ex2",
       "japanese": "{英語|えいご}の「p」と「b」は{無声音|むせいおん}と{有声音|ゆうせいおん}の{対|つい}だ。",
       "english": "The English \"p\" and \"b\" are a pair of voiceless and voiced sounds.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,50 @@
       "id": "26421_museion_ex3",
       "japanese": "{日本語|にほんご}では{母音|ぼいん}に{挟|はさ}まれた{無声音|むせいおん}が{有声化|ゆうせいか}することがある。",
       "english": "In Japanese, voiceless sounds between vowels sometimes become voiced.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {無声|むせい} (voiceless, without voice) and {音|おん} (sound). The antonym of {有声音|ゆうせいおん} (voiced sound). Voiceless sounds are produced by airflow through the mouth without the vocal cords vibrating.\n\nJAPANESE VOICELESS CONSONANT SERIES:\n- {か行|かぎょう} (ka, ki, ku, ke, ko): voiceless velar\n- {さ行|さぎょう} (sa, shi, su, se, so): voiceless alveolar\n- {た行|たぎょう} (ta, chi, tsu, te, to): voiceless dental\n- {は行|はぎょう} (ha, hi, fu, he, ho): voiceless glottal/bilabial\n- {ぱ行|ぱぎょう} (pa, pi, pu, pe, po): voiceless bilabial\n\nCOMMON COLLOCATIONS:\n- {無声音|むせいおん}の{子音|しいん}: voiceless consonant\n- {無声音|むせいおん}と{有声音|ゆうせいおん}: voiceless and voiced sounds\n- {無声|むせい}{破裂音|はれつおん}: voiceless plosive\n\nSIMILAR WORDS:\n- {有声音|ゆうせいおん}: voiced sound — the opposite; produced with vocal cord vibration\n- {清音|せいおん}: voiceless kana — the traditional Japanese term for basic unmarked kana\n- {濁音|だくおん}: voiced kana — kana marked with dakuten",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "26420_yuuseion",
+      "reading": "ゆうせいおん",
+      "headword": "{有声音|ゆうせいおん}",
+      "label": "voiced sound"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23458_seion",
+      "reading": "せいおん",
+      "headword": "{清音|せいおん}",
+      "label": "voiceless kana"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19295_dakuon",
+      "reading": "だくおん",
+      "headword": "{濁音|だくおん}",
+      "label": "voiced kana"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["language"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "language"
+      ]
     },
     "created": "2026-05-01T15:37:54Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

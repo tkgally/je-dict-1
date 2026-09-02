@@ -2,7 +2,7 @@
   "id": "01888_enki",
   "headword": "{延期|えんき}",
   "reading": "えんき",
-  "part_of_speech": "noun/suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "postponement, delay",
   "conjugation": {
     "type": "suru",
@@ -141,11 +141,39 @@
       "reading": "ちゅうし",
       "headword": "{中止|ちゅうし}",
       "label": "cancellation (not rescheduled)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15354_junen",
+      "reading": "じゅんえん",
+      "headword": "{順延|じゅんえん}",
+      "label": "postponement to the next available day"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08030_sakiokuri",
+      "reading": "さきおくり",
+      "headword": "{先送|さきおく}り",
+      "label": "putting off, deferring"
+    },
+    {
+      "type": "related",
+      "target_id": "02480_okuraseru",
+      "reading": "おくらせる",
+      "headword": "{遅|おく}らせる",
+      "label": "to delay, to postpone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07398_atomawashi",
+      "reading": "あとまわし",
+      "headword": "{後回|あとまわ}し",
+      "label": "putting off"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:30:00Z",
-    "modified": "2026-05-17T16:13:11Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

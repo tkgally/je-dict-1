@@ -3,7 +3,7 @@
   "id": "13935_kouchaku",
   "headword": "{膠着|こうちゃく}",
   "reading": "こうちゃく",
-  "part_of_speech": "noun; verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "stalemate; deadlock",
   "conjugation": {
     "type": "suru",
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "KANJI NOTE:\n{膠|こう} means \"glue\" (from animal hides), so the word literally evokes the image of things being stuck together and unable to move.\n\nCOMMON COLLOCATIONS:\n- {膠着|こうちゃく}{状態|じょうたい} (state of deadlock/stalemate)\n- {膠着|こうちゃく}に{陥|おちい}る (fall into a stalemate)\n- {膠着|こうちゃく}を{打破|だは}する (break a deadlock)\n- {膠着|こうちゃく}した{戦線|せんせん} (stalled front line)\n\nSIMILAR WORDS:\n- {行|い}き{詰|づ}まり: deadlock, impasse (more everyday)\n- {停滞|ていたい}: stagnation (emphasizes lack of progress; can be one-sided)",
+  "notes": "WRITING:\n{膠|こう} means \"glue\" (from animal hides), so the word literally evokes the image of things being stuck together and unable to move.\n\nCOMMON COLLOCATIONS:\n- {膠着|こうちゃく}{状態|じょうたい} (state of deadlock/stalemate)\n- {膠着|こうちゃく}に{陥|おちい}る (fall into a stalemate)\n- {膠着|こうちゃく}を{打破|だは}する (break a deadlock)\n- {膠着|こうちゃく}した{戦線|せんせん} (stalled front line)\n\nSIMILAR WORDS:\n- {行|い}き{詰|づ}まり: deadlock, impasse (more everyday)\n- {停滞|ていたい}: stagnation (emphasizes lack of progress; can be one-sided)",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,25 @@
       "reading": "ていたい",
       "headword": "{停滞|ていたい}",
       "label": "stagnation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08033_ikizumari",
+      "reading": "いきづまり",
+      "headword": "{行|い}き{詰|づ}まり",
+      "label": "deadlock, impasse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23034_kochaku",
+      "reading": "こちゃく",
+      "headword": "{固着|こちゃく}",
+      "label": "fixation"
     }
   ],
   "metadata": {
     "created": "2026-02-27T07:08:16Z",
-    "modified": "2026-04-29T09:23:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

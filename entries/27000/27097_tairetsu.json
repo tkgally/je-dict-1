@@ -17,7 +17,9 @@
       "id": "27097_tairetsu_ex1",
       "japanese": "{隊列|たいれつ}を{組|く}んで{行進|こうしん}する。",
       "english": "To march in formation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27097_tairetsu_ex2",
       "japanese": "{子|こ}どもたちが{隊列|たいれつ}を{作|つく}って{歩|ある}いていた。",
       "english": "The children were walking in a line.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "27097_tairetsu_ex3",
       "japanese": "{兵士|へいし}たちは{整然|せいぜん}とした{隊列|たいれつ}で{広場|ひろば}を{横切|よこぎ}った。",
       "english": "The soldiers crossed the square in orderly formation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {隊|たい} (group, squad) + {列|れつ} (row, line). Implies organized, purposeful arrangement of people in lines or columns, carrying a sense of order and discipline.\n\nCOMMON COLLOCATIONS:\n- {隊列|たいれつ}を{組|く}む: to form a line/formation\n- {隊列|たいれつ}を{作|つく}る: to make a formation\n- {隊列|たいれつ}を{乱|みだ}す: to break formation; to disrupt the ranks\n- {隊列|たいれつ}を{整|ととの}える: to straighten the formation\n- {隊列|たいれつ}{行進|こうしん}: marching in formation\n\nSIMILAR WORDS:\n- {行列|ぎょうれつ}: line; queue; procession — a general word for people lined up, often waiting. {隊列|たいれつ} implies more military discipline and organization.\n- {列|れつ}: row; line — the most basic word for a line of people or things. {隊列|たいれつ} specifically implies a group moving or standing in organized formation.\n- {縦隊|じゅうたい}: column (military) — a specific formation type where people are lined up front to back.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09699_gyouretsu",
+      "reading": "ぎょうれつ",
+      "headword": "{行列|ぎょうれつ}",
+      "label": "line"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23463_juuretsu",
+      "reading": "じゅうれつ",
+      "headword": "{縦列|じゅうれつ}",
+      "label": "column"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-05-07T11:15:25Z",
-    "modified": "2026-05-07T11:15:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

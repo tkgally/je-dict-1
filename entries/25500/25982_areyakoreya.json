@@ -3,7 +3,7 @@
   "headword": "あれやこれや",
   "reading": "あれやこれや",
   "romaji": "areyakoreya",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, adverb",
   "gloss": "this and that; various things; one thing and another",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "25982_areyakoreya_ex1",
       "japanese": "あれやこれやと{忙|いそが}しい。",
       "english": "I'm busy with this and that.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25982_areyakoreya_ex2",
       "japanese": "あれやこれやと{考|かんが}えているうちに、{夜|よる}が{明|あ}けてしまった。",
       "english": "While I was thinking about one thing and another, dawn came.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "25982_areyakoreya_ex3",
       "japanese": "{引|ひ}っ{越|こ}しの{準備|じゅんび}であれやこれやと{買|か}い{物|もの}をしていたら、{思|おも}った{以上|いじょう}にお{金|かね}がかかった。",
       "english": "Buying this and that in preparation for the move ended up costing more than I expected.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from あれ (that) + や (and) + これ (this) + や (and). Often followed by the particle と when used adverbially. Conveys a sense of dealing with multiple scattered matters, often with a nuance of being overwhelmed or busy. Can be used both for physical things and abstract concerns.\n\nUSAGE:\n- あれやこれやと + verb: doing various things\n- あれやこれやで + result: because of various things\n\nSIMILAR WORDS:\n- あれこれ: this and that — shorter, more common form with essentially the same meaning\n- {色々|いろいろ}: various — more neutral, simply indicating variety without the scattered nuance\n- {何|なに}やかや: one thing or another — similar nuance of miscellaneous items or concerns",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22192_arekore",
+      "reading": "あれこれ",
+      "headword": "あれこれ",
+      "label": "this and that"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02352_iroiro",
+      "reading": "いろいろ",
+      "headword": "{色々|いろいろ}",
+      "label": "various"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adverb"],
-      "semantic": ["communication"]
+      "pos": [
+        "noun",
+        "adverb"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-04-28T14:16:26Z",
-    "modified": "2026-04-28T14:16:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

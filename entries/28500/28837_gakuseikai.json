@@ -17,7 +17,9 @@
       "id": "28837_gakuseikai_ex1",
       "japanese": "{学生会|がくせいかい}に{所属|しょぞく}している。",
       "english": "I belong to the student association.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28837_gakuseikai_ex2",
       "japanese": "{学生会|がくせいかい}の{役員|やくいん}{選挙|せんきょ}が{行|おこな}われた。",
       "english": "Elections for student association officers were held.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "28837_gakuseikai_ex3",
       "japanese": "{学生会|がくせいかい}は{大学|だいがく}の{文化祭|ぶんかさい}{運営|うんえい}を{担当|たんとう}している。",
       "english": "The student association is in charge of running the university festival.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{学生|がくせい} (student, typically university level) + {会|かい} (association). Naming for university student government varies: some schools use {学生会|がくせいかい}, others use {自治会|じちかい} ('self-government association'). Below university level, the standard term is {生徒会|せいとかい}.\n\nCOMMON COLLOCATIONS:\n- {学生会|がくせいかい}の{役員|やくいん}: student association officer\n- {学生会|がくせいかい}{活動|かつどう}: student association activities\n- {学生会|がくせいかい}{選挙|せんきょ}: student association election\n\nSIMILAR WORDS:\n- {生徒会|せいとかい}: student council (junior high / high school)\n- {児童会|じどうかい}: elementary school student council\n- {自治会|じちかい}: self-government association — also a common name for university student government, and for local residents' associations",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05378_seitokai",
+      "reading": "せいとかい",
+      "headword": "{生徒会|せいとかい}",
+      "label": "student council"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28836_jidoukai",
+      "reading": "じどうかい",
+      "headword": "{児童会|じどうかい}",
+      "label": "elementary school student council"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22488_jichikai",
+      "reading": "じちかい",
+      "headword": "{自治会|じちかい}",
+      "label": "self-government association"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["education"],
+      "politeness": "plain",
+      "semantic": [
+        "education"
+      ],
       "domain": []
     },
     "created": "2026-06-06T02:07:42Z",
-    "modified": "2026-06-06T02:07:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

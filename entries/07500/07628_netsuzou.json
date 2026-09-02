@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・データを{捏造|ねつぞう}する - to fabricate data\n・{証拠|しょうこ}を{捏造|ねつぞう}する - to forge evidence\n・{歴史|れきし}の{捏造|ねつぞう} - falsification of history\n・{論文|ろんぶん}{捏造|ねつぞう} - research fraud/fabrication\n\nUSAGE CONTEXT:\nCommon in news reporting about scandals, academic misconduct, or legal cases.\n\nRELATED WORDS:\n・{改竄|かいざん} - falsification, tampering (altering existing documents)\n・{歪曲|わいきょく} - distortion, misrepresentation\n・{偽造|ぎぞう} - forgery, counterfeiting (especially documents, money)",
+  "notes": "COMMON COLLOCATIONS:\n- データを{捏造|ねつぞう}する - to fabricate data\n- {証拠|しょうこ}を{捏造|ねつぞう}する - to forge evidence\n- {歴史|れきし}の{捏造|ねつぞう} - falsification of history\n- {論文|ろんぶん}{捏造|ねつぞう} - research fraud/fabrication\n\nUSAGE:\nCommon in news reporting about scandals, academic misconduct, or legal cases.\n\nRELATED WORDS:\n- {改竄|かいざん} - falsification, tampering (altering existing documents)\n- {歪曲|わいきょく} - distortion, misrepresentation\n- {偽造|ぎぞう} - forgery, counterfeiting (especially documents, money)",
   "cross_references": [
     {
       "type": "synonym",
@@ -145,11 +145,32 @@
       "reading": "ぎぞう",
       "headword": "{偽造|ぎぞう}",
       "label": "forgery, counterfeiting"
+    },
+    {
+      "type": "related",
+      "target_id": "07968_waikyoku",
+      "reading": "わいきょく",
+      "headword": "{歪曲|わいきょく}",
+      "label": "distortion, misrepresentation"
+    },
+    {
+      "type": "related",
+      "target_id": "07627_inpei",
+      "reading": "いんぺい",
+      "headword": "{隠蔽|いんぺい}",
+      "label": "concealment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25260_funshoku",
+      "reading": "ふんしょく",
+      "headword": "{粉飾|ふんしょく}",
+      "label": "embellishment"
     }
   ],
   "metadata": {
     "created": "2026-01-20T13:21:59Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -158,6 +179,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "communication",
         "action"

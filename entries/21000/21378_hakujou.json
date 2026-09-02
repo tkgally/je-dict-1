@@ -3,7 +3,7 @@
   "headword": "{白状|はくじょう}する",
   "reading": "はくじょう",
   "romaji": "hakujou",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to confess; to admit; to come clean",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Specifically implies confessing something negative — a crime, lie, secret, or wrongdoing. The word carries a sense of finally giving in and telling the truth, often after concealment or under pressure.\n\nCOMMON COLLOCATIONS:\n- {罪|つみ}を{白状|はくじょう}する: to confess a crime\n- {正直|しょうじき}に{白状|はくじょう}する: to confess honestly\n- {全|すべ}てを{白状|はくじょう}する: to confess everything\n- {白状|はくじょう}させる: to make someone confess\n\nSIMILAR WORDS:\n- {告白|こくはく}する: to confess — broader, includes confessing feelings (especially romantic) as well as secrets\n- {自白|じはく}する: to confess (legal term) — specifically a criminal confession in a legal context\n- {打|う}ち{明|あ}ける: to confide — softer, sharing a secret willingly rather than under pressure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19631_kokuhakusuru",
+      "reading": "こくはくする",
+      "headword": "{告白|こくはく}する",
+      "label": "to confess"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13969_jihaku",
+      "reading": "じはく",
+      "headword": "{自白|じはく}",
+      "label": "to confess"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04230_uchiakeru",
+      "reading": "うちあける",
+      "headword": "{打|う}ち{明|あ}ける",
+      "label": "to confide"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +86,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T02:03:52Z",
-    "modified": "2026-04-02T02:03:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

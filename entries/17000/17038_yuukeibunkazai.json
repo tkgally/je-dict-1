@@ -19,7 +19,9 @@
       "english": "This building is designated as a tangible cultural property.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17038_yuukeibunkazai_ex2",
@@ -27,7 +29,9 @@
       "english": "I visited a nationally designated tangible cultural property.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17038_yuukeibunkazai_ex3",
@@ -35,21 +39,44 @@
       "english": "A local old storehouse was registered as a tangible cultural property, and preservation activities have begun.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nPart of Japan's cultural property protection system established in 1950. There are two levels: {重要文化財|じゅうようぶんかざい} (Important Cultural Properties, designated by the national government) and {登録有形文化財|とうろくゆうけいぶんかざい} (Registered Tangible Cultural Properties, a lighter registration system). Prefectures and municipalities also designate their own.\n\nSIMILAR WORDS:\n- {無形文化財|むけいぶんかざい}: intangible cultural property — non-physical cultural assets like performing arts and craftsmanship techniques\n- {国宝|こくほう}: national treasure — the highest designation for especially important cultural properties",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17485_mukeibunkazai",
+      "reading": "むけいぶんかざい",
+      "headword": "{無形文化財|むけいぶんかざい}",
+      "label": "intangible cultural property"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09642_kokuhou",
+      "reading": "こくほう",
+      "headword": "{国宝|こくほう}",
+      "label": "national treasure"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T07:20:58Z",
-    "modified": "2026-03-15T07:20:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["culture", "history", "law"]
+      "semantic": [
+        "culture",
+        "history",
+        "law"
+      ]
     }
   }
 }

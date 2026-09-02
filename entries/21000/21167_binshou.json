@@ -17,7 +17,9 @@
       "id": "21167_binshou_ex1",
       "japanese": "{猫|ねこ}は{敏捷|びんしょう}な{動物|どうぶつ}だ。",
       "english": "Cats are agile animals.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21167_binshou_ex2",
       "japanese": "{彼|かれ}は{体|からだ}が{大|おお}きいのに{敏捷|びんしょう}に{動|うご}く。",
       "english": "Despite his large frame, he moves nimbly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "21167_binshou_ex3",
       "japanese": "{敏捷|びんしょう}な{身|み}のこなしで{相手|あいて}の{攻撃|こうげき}をかわした。",
       "english": "With agile movements, he dodged the opponent's attack.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {敏|びん} (quick, alert) + {捷|しょう} (nimble). Describes quick, coordinated physical movement. Also commonly seen in games as a character stat ({敏捷性|びんしょうせい}, agility). Can function as a na-adjective or as a noun.\n\nCOMMON COLLOCATIONS:\n- {敏捷|びんしょう}な{動|うご}き: agile movement\n- {敏捷性|びんしょうせい}: agility (as an attribute or stat)\n- {敏捷|びんしょう}に{動|うご}く: to move nimbly\n\nSIMILAR WORDS:\n- {素早|すばや}い: quick; swift — more everyday, broader usage\n- {機敏|きびん}: quick; alert — emphasizes responsiveness and quick thinking\n- {俊敏|しゅんびん}: quick and agile — literary, very similar in meaning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17093_subayai",
+      "reading": "すばやい",
+      "headword": "{素早|すばや}い",
+      "label": "quick"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09191_kibin",
+      "reading": "きびん",
+      "headword": "{機敏|きびん}",
+      "label": "quick"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09194_shunbin",
+      "reading": "しゅんびん",
+      "headword": "{俊敏|しゅんびん}",
+      "label": "quick and agile"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-03-31T21:41:45Z",
-    "modified": "2026-03-31T21:41:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

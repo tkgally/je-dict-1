@@ -3,7 +3,7 @@
   "headword": "{海外旅行|かいがいりょこう}",
   "reading": "かいがいりょこう",
   "romaji": "kaigairyokou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "overseas travel; international travel; trip abroad",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {海外|かいがい} (overseas) + {旅行|りょこう} (travel). One of the most commonly used travel-related compounds in Japanese. Frequently appears in travel agency advertising, insurance products, and everyday conversation about vacation plans.\n\nCOMMON COLLOCATIONS:\n- {海外旅行|かいがいりょこう}に{行|い}く — go on an overseas trip\n- {海外旅行|かいがいりょこう}{保険|ほけん} — overseas travel insurance\n- {海外旅行|かいがいりょこう}が{好|す}き — like traveling abroad\n- {海外旅行|かいがいりょこう}の{準備|じゅんび} — preparation for overseas travel\n\nSIMILAR WORDS:\n- {国内旅行|こくないりょこう} — domestic travel; the counterpart for travel within Japan\n- {渡航|とこう} — traveling abroad; more formal and administrative, used in official contexts like visa applications\n- {外遊|がいゆう} — foreign tour; a formal term, often used for official or diplomatic trips abroad",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24242_kokunairyokou",
+      "reading": "こくないりょこう",
+      "headword": "{国内旅行|こくないりょこう}",
+      "label": "domestic travel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17919_tokou",
+      "reading": "とこう",
+      "headword": "{渡航|とこう}",
+      "label": "traveling abroad"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24173_kaigaishucchou",
+      "reading": "かいがいしゅっちょう",
+      "headword": "{海外出張|かいがいしゅっちょう}",
+      "label": "overseas business trip"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,14 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "travel"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-18T13:23:19Z",
-    "modified": "2026-04-18T13:23:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

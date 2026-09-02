@@ -17,7 +17,9 @@
       "id": "24746_kouzan_ex1",
       "japanese": "{高山|こうざん}に{登|のぼ}るのは{危険|きけん}だ。",
       "english": "Climbing high mountains is dangerous.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24746_kouzan_ex2",
       "japanese": "{高山|こうざん}{植物|しょくぶつ}は{厳|きび}しい{環境|かんきょう}に{適応|てきおう}している。",
       "english": "Alpine plants have adapted to harsh environments.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,38 @@
       "id": "24746_kouzan_ex3",
       "japanese": "この{地域|ちいき}には{標高|ひょうこう}三千メートルを{超|こ}える{高山|こうざん}がいくつもある。",
       "english": "There are several high mountains exceeding 3,000 meters in altitude in this region.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {高|こう} (high) and {山|ざん} (mountain). Generally refers to mountains above approximately 2,500 meters in Japan, where the tree line gives way to alpine vegetation. Japan's highest peak, {富士山|ふじさん}, stands at 3,776 meters.\n\nNote: The reading こうざん refers to high mountains as a geographical category. The city name {高山|たかやま} in Gifu Prefecture uses a different reading.\n\nCOMMON COLLOCATIONS:\n- {高山|こうざん}{植物|しょくぶつ}: alpine plants\n- {高山|こうざん}{病|びょう}: altitude sickness\n- {高山|こうざん}{地帯|ちたい}: alpine zone\n- {高山|こうざん}{気候|きこう}: alpine climate\n\nSIMILAR WORDS:\n- {山岳|さんがく}: mountains, mountainous terrain — emphasizes rugged mountain landscape rather than height\n- {山|やま}: mountain — the general everyday word",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12522_sangaku",
+      "reading": "さんがく",
+      "headword": "{山岳|さんがく}",
+      "label": "mountains, mountainous terrain"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["geography", "nature"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "geography",
+        "nature"
+      ]
     },
     "created": "2026-04-20T14:30:17Z",
-    "modified": "2026-04-20T14:30:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

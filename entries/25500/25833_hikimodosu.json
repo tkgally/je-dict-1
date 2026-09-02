@@ -3,7 +3,7 @@
   "headword": "{引|ひ}き{戻|もど}す",
   "reading": "ひきもどす",
   "romaji": "hikimodosu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to pull back; to bring back; to drag back",
   "definitions": [
     {
@@ -80,7 +80,15 @@
     }
   ],
   "notes": "A compound verb formed from {引|ひ}く (to pull) + {戻|もど}す (to return). The literal meaning of physically pulling something back extends naturally to figurative uses like restoring a state or recalling someone.\n\nTRANSITIVITY:\nTransitive. The intransitive counterpart is {引|ひ}き{戻|もど}る (to go back, to return).\n\nCOMMON COLLOCATIONS:\n- {現実|げんじつ}に{引|ひ}き{戻|もど}す: to bring back to reality\n- {記憶|きおく}を{引|ひ}き{戻|もど}す: to bring back memories\n- {原点|げんてん}に{引|ひ}き{戻|もど}す: to bring back to the starting point\n- {手|て}を{引|ひ}き{戻|もど}す: to pull one's hand back\n\nSIMILAR WORDS:\n- {引|ひ}き{返|かえ}す: to turn back; to retrace one's steps — focuses on reversing direction, not pulling someone/something\n- {呼|よ}び{戻|もど}す: to call back; to summon back — uses calling rather than physical pulling\n- {連|つ}れ{戻|もど}す: to bring back (a person) — implies taking someone back, often a runaway or missing person",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07004_yobimodosu",
+      "reading": "よびもどす",
+      "headword": "{呼|よ}び{戻|もど}す",
+      "label": "to call back"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -88,6 +96,8 @@
       "pos": [
         "verb-godan"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "movement"
       ],
@@ -95,7 +105,7 @@
       "transitivity": "transitive"
     },
     "created": "2026-04-27T15:06:59Z",
-    "modified": "2026-04-27T15:06:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

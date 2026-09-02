@@ -3,7 +3,7 @@
   "id": "20852_sorasu",
   "headword": "{反|そ}らす",
   "reading": "そらす",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to bend back; to warp; to arch",
   "conjugation": {
     "type": "godan",
@@ -145,10 +145,25 @@
     }
   ],
   "notes": "The transitive form of {反|そ}る (to warp, to bend back). Most commonly used for arching the body or back. Also used for physical objects that bend or warp.\n\nCOMMON COLLOCATIONS:\n- {背中|せなか}を{反|そ}らす: to arch one's back\n- {体|からだ}を{反|そ}らす: to bend one's body back\n- {胸|むね}を{反|そ}らす: to puff out one's chest (with pride)\n- {腰|こし}を{反|そ}らす: to arch one's lower back\n\nTRANSITIVITY:\nTransitive. The intransitive counterpart is {反|そ}る (to warp, to curve back). Note: the homophone {逸|そ}らす means \"to avert\" (e.g., {目|め}を{逸|そ}らす — to avert one's eyes) and is a different word.\n\nSIMILAR WORDS:\n- {反|そ}る: to warp, to bend back (intransitive)\n- {曲|ま}げる: to bend (more general, any direction)\n- {逸|そ}らす: to avert, to divert (different meaning despite identical pronunciation)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02529_mageru",
+      "reading": "まげる",
+      "headword": "{曲|ま}げる",
+      "label": "to bend"
+    },
+    {
+      "type": "homophone",
+      "target_id": "10362_sorasu",
+      "reading": "そらす",
+      "headword": "{逸|そ}らす",
+      "label": "to avert, to divert"
+    }
+  ],
   "metadata": {
     "created": "2026-03-30T18:26:48Z",
-    "modified": "2026-07-29T00:22:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

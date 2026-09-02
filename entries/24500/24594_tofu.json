@@ -3,7 +3,7 @@
   "headword": "{塗布|とふ}",
   "reading": "とふ",
   "romaji": "tofu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "application (of ointment, cream, paint, etc.); spreading on a surface",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "A formal term for applying or spreading a substance onto a surface, most commonly used in medical and pharmaceutical contexts. In everyday speech, {塗|ぬ}る is the standard verb for applying or spreading.\n\nCOMMON COLLOCATIONS:\n- {薬|くすり}を{塗布|とふ}する: to apply medicine\n- {軟膏|なんこう}を{塗布|とふ}する: to apply ointment\n- {塗布|とふ}{量|りょう}: amount to apply\n- {塗布|とふ}{面|めん}: application surface\n\nSIMILAR WORDS:\n- {塗|ぬ}る: to paint, to apply — everyday verb for spreading substances on surfaces\n- {散布|さんぷ}: spraying, scattering — applying a substance by spraying rather than direct contact",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01174_nuru",
+      "reading": "ぬる",
+      "headword": "{塗|ぬ}る",
+      "label": "to paint, to apply"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21064_sanpu",
+      "reading": "さんぷ",
+      "headword": "{散布|さんぷ}",
+      "label": "spraying, scattering"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-19T16:26:24Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -17,7 +17,9 @@
       "id": "26883_ippakufutsuka_ex1",
       "japanese": "{一泊二日|いっぱくふつか}で{温泉|おんせん}に{行|い}った。",
       "english": "I went to a hot spring for an overnight trip.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26883_ippakufutsuka_ex2",
       "japanese": "{一泊二日|いっぱくふつか}の{社員旅行|しゃいんりょこう}が{計画|けいかく}されている。",
       "english": "An overnight company trip is being planned.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "26883_ippakufutsuka_ex3",
       "japanese": "{京都|きょうと}{一泊二日|いっぱくふつか}のプランを{探|さが}している。",
       "english": "I'm looking for a one-night Kyoto trip plan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,23 +47,51 @@
       "id": "26883_ippakufutsuka_ex4",
       "japanese": "{一泊二日|いっぱくふつか}では{時間|じかん}が{足|た}りないので、{二泊三日|にはくみっか}にしよう。",
       "english": "One night isn't enough time, so let's make it two nights.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "An extremely common expression in Japanese travel culture. Japan's domestic travel industry structures packages and plans around this counting system: ○泊○日 (○ nights ○ days). The pattern extends naturally: 二泊三日 (2 nights 3 days), 三泊四日, etc.\n\nCOMMON COLLOCATIONS:\n- {一泊二日|いっぱくふつか}の{旅行|りょこう}: overnight trip\n- {一泊二日|いっぱくふつか}プラン: overnight plan/package\n- {一泊二日|いっぱくふつか}で: for one night (duration)\n- {一泊二日|いっぱくふつか}{二食付|にしょくつ}き: one night with two meals included\n\nRELATED EXPRESSIONS:\n- {二泊三日|にはくみっか}: two nights three days\n- {日帰|ひがえ}り: day trip (no overnight stay)\n- {連泊|れんぱく}: consecutive nights' stay",
-  "cross_references": [],
+  "notes": "An extremely common expression in Japanese travel culture. Japan's domestic travel industry structures packages and plans around this counting system: ○泊○日 (○ nights ○ days). The pattern extends naturally: 二泊三日 (2 nights 3 days), 三泊四日, etc.\n\nCOMMON COLLOCATIONS:\n- {一泊二日|いっぱくふつか}の{旅行|りょこう}: overnight trip\n- {一泊二日|いっぱくふつか}プラン: overnight plan/package\n- {一泊二日|いっぱくふつか}で: for one night (duration)\n- {一泊二日|いっぱくふつか}{二食付|にしょくつ}き: one night with two meals included\n\nRELATED WORDS:\n- {二泊三日|にはくみっか}: two nights three days\n- {日帰|ひがえ}り: day trip (no overnight stay)\n- {連泊|れんぱく}: consecutive nights' stay",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16274_nihakumikka",
+      "reading": "にはくみっか",
+      "headword": "{二泊三日|にはくみっか}",
+      "label": "two nights three days"
+    },
+    {
+      "type": "related",
+      "target_id": "17612_higaeri",
+      "reading": "ひがえり",
+      "headword": "{日帰|ひがえ}り",
+      "label": "day trip"
+    },
+    {
+      "type": "related",
+      "target_id": "07049_renpaku",
+      "reading": "れんぱく",
+      "headword": "{連泊|れんぱく}",
+      "label": "consecutive nights' stay"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["travel"]
+      "semantic": [
+        "travel"
+      ]
     },
     "created": "2026-05-05T14:22:11Z",
-    "modified": "2026-05-05T14:22:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

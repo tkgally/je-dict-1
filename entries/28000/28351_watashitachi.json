@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "Standard plural of {私|わたし} (I). Politeness-neutral and safe in nearly any context. Choice of first-person plural depends on speaker register and group composition.\n\nFIRST-PERSON PLURALS:\n- {私|わたし}たち: we (standard, neutral)\n- {私|わたくし}たち: we (very formal)\n- {僕|ぼく}たち / {僕|ぼく}ら: we (masculine, casual to neutral)\n- {俺|おれ}たち / {俺|おれ}ら: we (masculine, casual/rough)\n- うちら: we (feminine, casual)\n- {我々|われわれ}: we (formal speeches, in-group identity)\n\nUSAGE NOTES:\n- INCLUSIVE: includes the listener when context allows ({私|わたし}たちで{決|き}めよう Let's decide together).\n- EXCLUSIVE: excludes the listener in most narrative contexts ({私|わたし}たちは{昨日|きのう}{映画|えいが}を{見|み}に{行|い}きました We went to a movie yesterday).\n\nGRAMMAR:\nThe possessive is {私|わたし}たちの (our). たち can attach to other personal nouns to mean 'and others' ({先生|せんせい}たち the teachers).",
+  "notes": "Standard plural of {私|わたし} (I). Politeness-neutral and safe in nearly any context. Choice of first-person plural depends on speaker register and group composition.\n\nFIRST-PERSON PLURALS:\n- {私|わたし}たち: we (standard, neutral)\n- {私|わたくし}たち: we (very formal)\n- {僕|ぼく}たち / {僕|ぼく}ら: we (masculine, casual to neutral)\n- {俺|おれ}たち / {俺|おれ}ら: we (masculine, casual/rough)\n- うちら: we (feminine, casual)\n- {我々|われわれ}: we (formal speeches, in-group identity)\n\nUSAGE:\n- INCLUSIVE: includes the listener when context allows ({私|わたし}たちで{決|き}めよう Let's decide together).\n- EXCLUSIVE: excludes the listener in most narrative contexts ({私|わたし}たちは{昨日|きのう}{映画|えいが}を{見|み}に{行|い}きました We went to a movie yesterday).\n\nCOMMON PATTERNS:\nThe possessive is {私|わたし}たちの (our). たち can attach to other personal nouns to mean 'and others' ({先生|せんせい}たち the teachers).",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,14 +53,14 @@
         "pronoun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "person"
       ],
       "domain": []
     },
     "created": "2026-05-29T03:08:25Z",
-    "modified": "2026-08-14T03:25:14Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "cross_references": [
     {
@@ -69,6 +69,34 @@
       "reading": "われわれ",
       "headword": "{我々|われわれ}",
       "label": "formal/written \"we\""
+    },
+    {
+      "type": "contrast",
+      "target_id": "20354_watashidomo",
+      "reading": "わたしども",
+      "headword": "{私|わたし}{共|ども}",
+      "label": "we"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22784_bokura",
+      "reading": "ぼくら",
+      "headword": "{僕|ぼく}ら",
+      "label": "we"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22787_watakushidomo",
+      "reading": "わたくしども",
+      "headword": "{私|わたくし}ども",
+      "label": "we"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30645_uchira",
+      "reading": "うちら",
+      "headword": "うちら",
+      "label": "we"
     }
   ]
 }

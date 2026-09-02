@@ -46,6 +46,29 @@
   ],
   "notes": "Means 'established by the Tokyo Metropolitan Government.' Attaches to public institutions: {都立高校|とりつこうこう}, {都立|とりつ}{病院|びょういん}.\n\nCOMMON COLLOCATIONS:\n- {都立高校|とりつこうこう}: metropolitan high school\n- {都立|とりつ}{公園|こうえん}: metropolitan park\n\nSIMILAR WORDS:\n- {県立|けんりつ}: prefectural (run by a {県|けん})\n- {市立|しりつ}: municipal (run by a city)\n- {私立|しりつ}: private — not government-run",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21885_kenritsu",
+      "reading": "けんりつ",
+      "headword": "{県立|けんりつ}",
+      "label": "prefectural"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19923_shiritsu",
+      "reading": "しりつ",
+      "headword": "{市立|しりつ}",
+      "label": "municipal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00370_shiritsu",
+      "reading": "しりつ",
+      "headword": "{私立|しりつ}",
+      "label": "private"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "society"
       ],
       "domain": []
     },
     "created": "2026-05-24T02:02:35Z",
-    "modified": "2026-08-08T03:24:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

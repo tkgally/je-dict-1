@@ -2,7 +2,7 @@
   "id": "00006_aru",
   "headword": "ある",
   "reading": "ある",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to exist, to be (inanimate)",
   "conjugation": {
     "type": "aru",
@@ -53,7 +53,7 @@
     {
       "sense_number": 2,
       "gloss": "to have, to possess",
-      "explanation": "Expresses possession, often with the structure [person]は[thing]がある. {お金|おかね}がある (to have money), {時間|じかん}がある (to have time)."
+      "explanation": "Expresses possession, often with the structure [person]は[thing]がある. お{金|かね}がある (to have money), {時間|じかん}がある (to have time)."
     },
     {
       "sense_number": 3,
@@ -213,7 +213,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Counterpart for animate beings: ⟦いる→いる：00495_iru⟧. Pattern: X⟦が→が：00051_ga⟧ある.\n\nASPECT: ある is a stative verb and does not normally take ている. Use ある directly for existence/possession.\n\nCOMMON PATTERNS:\n・⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧ある (have time)\n・⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦が→が：00051_ga⟧ある (have a question)\n・〜⟦に→に：00314_ni⟧〜⟦が→が：00051_ga⟧ある (there is ~ at/in ~)\n・〜⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧ある (have the experience of ~)\n\nIRREGULAR FORMS:\n・Negative: ⟦ない→ない：01118_nai⟧ (not あらない)\n・Te-form: あって\n\nIMPORTANT: ある is for inanimate objects, ⟦いる→いる：00495_iru⟧ is for animate beings. This distinction is fundamental in Japanese.",
+  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Counterpart for animate beings: ⟦いる→いる：00495_iru⟧. Pattern: X⟦が→が：00051_ga⟧ある.\n\nASPECT: ある is a stative verb and does not normally take ている. Use ある directly for existence/possession.\n\nCOMMON PATTERNS:\n- ⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧ある (have time)\n- ⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦が→が：00051_ga⟧ある (have a question)\n- 〜⟦に→に：00314_ni⟧〜⟦が→が：00051_ga⟧ある (there is ~ at/in ~)\n- 〜⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧ある (have the experience of ~)\n\nIRREGULAR FORMS:\n- Negative: ⟦ない→ない：01118_nai⟧ (not あらない)\n- Te-form: あって\n\nIMPORTANT: ある is for inanimate objects, ⟦いる→いる：00495_iru⟧ is for animate beings. This distinction is fundamental in Japanese.",
   "prominent_see_also": [
     {
       "target_id": "00495_iru",
@@ -229,11 +229,39 @@
       "reading": "ない",
       "headword": "ない",
       "label": "nonexistent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00478_motsu",
+      "reading": "もつ",
+      "headword": "{持|も}つ",
+      "label": "to hold, to have, to carry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03326_sonzai",
+      "reading": "そんざい",
+      "headword": "{存在|そんざい}",
+      "label": "existence, being"
+    },
+    {
+      "type": "related",
+      "target_id": "09891_ichisuru",
+      "reading": "いちする",
+      "headword": "{位置|いち}する",
+      "label": "to be located"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17185_sonzaisuru",
+      "reading": "そんざいする",
+      "headword": "{存在|そんざい}する",
+      "label": "to exist"
     }
   ],
   "metadata": {
     "created": "2026-01-05T10:43:43Z",
-    "modified": "2026-04-11T01:25:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

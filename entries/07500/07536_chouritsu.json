@@ -2,7 +2,7 @@
   "id": "07536_chouritsu",
   "headword": "{調律|ちょうりつ}",
   "reading": "ちょうりつ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "tuning (musical instrument)",
   "conjugation": {
     "type": "suru",
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{調|ちょう} (adjust, tone) + {律|りつ} (rhythm, law)\n\nRELATED VOCABULARY:\n・{調律師|ちょうりつし} - piano tuner (professional)\n・{調弦|ちょうげん} - tuning (for string instruments specifically)\n・チューニング - tuning (loanword, used for guitars, etc.)\n・{音程|おんてい} - pitch, interval\n・{音叉|おんさ} - tuning fork\n・チューナー - tuner (device)\n\nCOLLOCATIONS:\n・ピアノを{調律|ちょうりつ}する - to tune a piano\n・{調律|ちょうりつ}が{狂|くる}う - tuning goes off\n・{調律|ちょうりつ}を{合|あ}わせる - to adjust the tuning\n\nNOTE:\n{調律|ちょうりつ} is primarily used for keyboard instruments like pianos. For guitars and other string instruments, チューニング or {調弦|ちょうげん} is more common.",
+  "notes": "ETYMOLOGY:\n{調|ちょう} (adjust, tone) + {律|りつ} (rhythm, law)\n\nRELATED WORDS:\n- {調律師|ちょうりつし} - piano tuner (professional)\n- {調弦|ちょうげん} - tuning (for string instruments specifically)\n- チューニング - tuning (loanword, used for guitars, etc.)\n- {音程|おんてい} - pitch, interval\n- {音叉|おんさ} - tuning fork\n- チューナー - tuner (device)\n\nCOMMON COLLOCATIONS:\n- ピアノを{調律|ちょうりつ}する - to tune a piano\n- {調律|ちょうりつ}が{狂|くる}う - tuning goes off\n- {調律|ちょうりつ}を{合|あ}わせる - to adjust the tuning\n\nUSAGE:\n{調律|ちょうりつ} is primarily used for keyboard instruments like pianos. For guitars and other string instruments, チューニング or {調弦|ちょうげん} is more common.",
   "cross_references": [
     {
       "type": "related",
@@ -138,11 +138,25 @@
       "headword": "{転調|てんちょう}",
       "label": "modulation",
       "target_id": "07537_tenchou"
+    },
+    {
+      "type": "related",
+      "target_id": "07109_ontei",
+      "reading": "おんてい",
+      "headword": "{音程|おんてい}",
+      "label": "pitch, interval"
+    },
+    {
+      "type": "related",
+      "target_id": "15494_onritsu",
+      "reading": "おんりつ",
+      "headword": "{音律|おんりつ}",
+      "label": "melody"
     }
   ],
   "metadata": {
     "created": "2026-01-20T08:47:47Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +165,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "music"
       ],

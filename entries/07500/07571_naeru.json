@@ -2,7 +2,7 @@
   "id": "07571_naeru",
   "headword": "{萎|な}える",
   "reading": "なえる",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to wilt; to lose energy; to go limp",
   "conjugation": {
     "type": "ichidan",
@@ -203,7 +203,7 @@
       "notes": null
     }
   ],
-  "notes": "VERB TYPE:\n{自動詞|じどうし} (intransitive verb)\n\nIchidan verb ({一段動詞|いちだんどうし}/{下一段|しもいちだん})\n・{萎|な}えない (negative)\n・{萎|な}えて (te-form)\n・{萎|な}えた (past)\n\nCOMMON PATTERNS:\n・やる{気|き}が{萎|な}える - to lose motivation\n・{気持|きも}ちが{萎|な}える - to become dispirited\n・{足|あし}が{萎|な}える - legs go weak\n・{手|て}が{萎|な}える - hands go limp\n\nRELATED WORDS:\n・しおれる - to wilt (mainly for plants)\n・{萎縮|いしゅく}する - to shrink, to atrophy\n・{衰|おとろ}える - to weaken, decline\n\nUSAGE NOTES:\nIn casual speech, often used to express disappointment or loss of enthusiasm, similar to English \"that killed my vibe\" or \"I lost steam.\"",
+  "notes": "VERB TYPE:\n{自動詞|じどうし} (intransitive verb)\n\nIchidan verb ({一段動詞|いちだんどうし}/{下一段|しもいちだん})\n- {萎|な}えない (negative)\n- {萎|な}えて (te-form)\n- {萎|な}えた (past)\n\nCOMMON PATTERNS:\n- やる{気|き}が{萎|な}える - to lose motivation\n- {気持|きも}ちが{萎|な}える - to become dispirited\n- {足|あし}が{萎|な}える - legs go weak\n- {手|て}が{萎|な}える - hands go limp\n\nRELATED WORDS:\n- しおれる - to wilt (mainly for plants)\n- {萎縮|いしゅく}する - to shrink, to atrophy\n- {衰|おとろ}える - to weaken, decline\n\nUSAGE:\nIn casual speech, often used to express disappointment or loss of enthusiasm, similar to English \"that killed my vibe\" or \"I lost steam.\"",
   "cross_references": [
     {
       "type": "synonym",
@@ -225,11 +225,18 @@
       "reading": "おとろえる",
       "headword": "{衰|おとろ}える",
       "label": "to weaken, decline"
+    },
+    {
+      "type": "related",
+      "target_id": "06762_ishukusuru",
+      "reading": "いしゅくする",
+      "headword": "{萎縮|いしゅく}する",
+      "label": "to shrink, to atrophy"
     }
   ],
   "metadata": {
     "created": "2026-01-20T10:31:31Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -238,6 +245,7 @@
       ],
       "transitivity": "intransitive",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "change"

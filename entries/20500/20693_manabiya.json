@@ -17,7 +17,9 @@
       "id": "20693_manabiya_ex1",
       "japanese": "{懐|なつ}かしい{学|まな}び{舎|や}を{訪|たず}ねた。",
       "english": "I visited my dear old school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20693_manabiya_ex2",
       "japanese": "この{学|まな}び{舎|や}で{過|す}ごした{日々|ひび}は{忘|わす}れられない。",
       "english": "I can never forget the days I spent at this school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "20693_manabiya_ex3",
       "japanese": "{卒業式|そつぎょうしき}の{日|ひ}、{生徒|せいと}たちは{涙|なみだ}を{流|なが}しながら{学|まな}び{舎|や}に{別|わか}れを{告|つ}げた。",
       "english": "On graduation day, the students said farewell to their school with tears in their eyes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {学|まな}び (learning) + {舎|や} (building/house). A literary and somewhat poetic word for school, carrying a strong sense of nostalgia and emotional attachment.\n\nUSAGE:\nUnlike the neutral {学校|がっこう}, {学|まな}び{舎|や} is used in sentimental contexts — graduation speeches, memoirs, school songs, and reflections on one's youth. It emphasizes the emotional bond between students and their school building.\n\nCOMMON COLLOCATIONS:\n- {学|まな}び{舎|や}を{巣立|すだ}つ: to leave one's school (graduate)\n- {懐|なつ}かしい{学|まな}び{舎|や}: one's fondly remembered school\n- {学|まな}び{舎|や}に{別|わか}れを{告|つ}げる: to say farewell to one's school\n\nSIMILAR WORDS:\n- {学校|がっこう}: school — the standard, neutral term\n- {母校|ぼこう}: alma mater — emphasizes the relationship to a graduate\n- {校舎|こうしゃ}: school building — refers to the physical structure without emotional connotation\n\nREGISTER:\nLiterary and formal. Common in speeches, essays, and song lyrics. Rarely used in casual conversation.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00055_gakkou",
+      "reading": "がっこう",
+      "headword": "{学校|がっこう}",
+      "label": "school"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14958_bokou",
+      "reading": "ぼこう",
+      "headword": "{母校|ぼこう}",
+      "label": "alma mater"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02801_kousha",
+      "reading": "こうしゃ",
+      "headword": "{校舎|こうしゃ}",
+      "label": "school building"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-03-30T07:48:33Z",
-    "modified": "2026-03-30T07:48:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

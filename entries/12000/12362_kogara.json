@@ -3,7 +3,7 @@
   "id": "12362_kogara",
   "headword": "{小柄|こがら}",
   "reading": "こがら",
-  "part_of_speech": "adjective (na), noun",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "small build, petite",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "She is a petite woman.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12362_kogara_ex2",
@@ -27,7 +29,9 @@
       "english": "He is small but strong.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12362_kogara_ex3",
@@ -35,10 +39,12 @@
       "english": "Using her small frame to advantage, she can move quickly even in tight spaces.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{小柄|こがら} is a polite and neutral way to describe someone who is small in stature. It is not rude or offensive. It is the opposite of {大柄|おおがら} (large build, big-framed).\n\nCOLLOCATIONS:\n- {小柄|こがら}な{人|ひと} — a small-framed person\n- {小柄|こがら}な{体|からだ} — a small body\n- {小柄|こがら}な{女性|じょせい} — a petite woman\n\nSIMILAR WORDS:\n{背|せ}が{低|ひく}い simply means short in height. {小柄|こがら} describes the overall frame being small, not just height. {華奢|きゃしゃ} means slender and delicate, emphasizing fragility rather than just small size.",
+  "notes": "USAGE:\n{小柄|こがら} is a polite and neutral way to describe someone who is small in stature. It is not rude or offensive. It is the opposite of {大柄|おおがら} (large build, big-framed).\n\nCOMMON COLLOCATIONS:\n- {小柄|こがら}な{人|ひと} — a small-framed person\n- {小柄|こがら}な{体|からだ} — a small body\n- {小柄|こがら}な{女性|じょせい} — a petite woman\n\nSIMILAR WORDS:\n{背|せ}が{低|ひく}い simply means short in height. {小柄|こがら} describes the overall frame being small, not just height. {華奢|きゃしゃ} means slender and delicate, emphasizing fragility rather than just small size.",
   "cross_references": [
     {
       "type": "antonym",
@@ -53,18 +59,44 @@
       "reading": "きゃしゃ",
       "headword": "{華奢|きゃしゃ}",
       "label": "slender, delicate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20273_koburi",
+      "reading": "こぶり",
+      "headword": "{小|こ}ぶり",
+      "label": "smallish"
+    },
+    {
+      "type": "related",
+      "target_id": "22857_yasegata",
+      "reading": "やせがた",
+      "headword": "やせ{形|がた}",
+      "label": "slender build"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24964_chuunikuchuusei",
+      "reading": "ちゅうにくちゅうせい",
+      "headword": "{中肉中背|ちゅうにくちゅうせい}",
+      "label": "medium build"
     }
   ],
   "metadata": {
     "created": "2026-02-21T05:26:20Z",
-    "modified": "2026-04-26T10:06:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["size"]
+      "semantic": [
+        "size"
+      ]
     }
   }
 }

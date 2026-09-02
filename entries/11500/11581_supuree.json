@@ -19,7 +19,9 @@
       "english": "To spray.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11581_supuree_ex2",
@@ -27,7 +29,9 @@
       "english": "I used insect repellent spray.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11581_supuree_ex3",
@@ -35,21 +39,56 @@
       "english": "I fixed my hairstyle with hair spray before going out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "スプレー is a loanword from English \"spray.\" It refers to both the container (spray can) and the act of spraying.\n\nCOMMON TYPES:\n- ヘアスプレー: hair spray\n- {虫|むし}よけスプレー: insect repellent spray\n- {消臭|しょうしゅう}スプレー: deodorizing spray\n- {殺虫|さっちゅう}スプレー: insecticide spray\n- {制汗|せいかん}スプレー: antiperspirant spray\n\nCOMMON PATTERNS:\n- スプレーを{吹|ふ}きかける: to spray (onto something)\n- スプレーをかける: to spray\n- スプレー{缶|かん}: spray can, aerosol can\n\nNOTE:\nスプレー{缶|かん} require special disposal in Japan — they must be emptied and often punctured before being discarded as non-burnable waste, though rules vary by municipality.",
-  "cross_references": [],
+  "notes": "スプレー is a loanword from English \"spray.\" It refers to both the container (spray can) and the act of spraying.\n\nTYPES:\n- ヘアスプレー: hair spray\n- {虫|むし}よけスプレー: insect repellent spray\n- {消臭|しょうしゅう}スプレー: deodorizing spray\n- {殺虫|さっちゅう}スプレー: insecticide spray\n- {制汗|せいかん}スプレー: antiperspirant spray\n\nCOMMON PATTERNS:\n- スプレーを{吹|ふ}きかける: to spray (onto something)\n- スプレーをかける: to spray\n- スプレー{缶|かん}: spray can, aerosol can\n\nUSAGE:\nスプレー{缶|かん} require special disposal in Japan — they must be emptied and often punctured before being discarded as non-burnable waste, though rules vary by municipality.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08278_jouro",
+      "reading": "じょうろ",
+      "headword": "じょうろ",
+      "label": "watering can"
+    },
+    {
+      "type": "related",
+      "target_id": "15171_kirifuki",
+      "reading": "きりふき",
+      "headword": "{霧吹|きりふ}き",
+      "label": "spray bottle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21104_funmu",
+      "reading": "ふんむ",
+      "headword": "{噴霧|ふんむ}",
+      "label": "spraying"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25071_funmuki",
+      "reading": "ふんむき",
+      "headword": "{噴霧器|ふんむき}",
+      "label": "sprayer"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T13:42:00Z",
-    "modified": "2026-03-25T09:40:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     }
   }
 }

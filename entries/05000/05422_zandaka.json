@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{残高|ざんだか} means the current balance in a financial account. Combines ⟦{残|ざん}→残：noentry⟧ (remaining) + ⟦{高|だか}→高：noentry⟧ (amount/quantity). Used for bank accounts, prepaid cards, and electronic money.\n\nCOMMON COMPOUNDS:\n- {残高|ざんだか}⟦{確認|かくにん}→確認：00158_kakunin⟧: balance inquiry\n- {残高|ざんだか}⟦{不足|ぶそく}→不足：03598_fusoku⟧: insufficient balance/funds\n- {残高|ざんだか}⟦{照会|しょうかい}→照会：16171_shoukai⟧: balance check (formal)\n- ⟦{預金|よきん}→預金：05420_yokin⟧{残高|ざんだか}: deposit balance\n- ⟦{口座|こうざ}→口座：05419_kouza⟧{残高|ざんだか}: account balance\n\nMODERN USAGE:\n- ⟦チャージ→チャージ：09729_chaaji⟧{残高|ざんだか}: charged balance (for IC cards like Suica, PASMO)\n- ⟦ポイント→ポイント：11283_pointo⟧{残高|ざんだか}: points balance\n- {残高|ざんだか}⟦{不足|ぶそく}→不足：03598_fusoku⟧⟦で→で：00502_de⟧⟦{引|ひ}き{落|お}とし→引落し：07556_hikiotoshi⟧⟦できない→できる：00557_dekiru⟧: unable to withdraw due to insufficient balance\n\nRELATED WORDS:\n- ⟦{預金|よきん}→預金：05420_yokin⟧: deposit, savings\n- ⟦{口座|こうざ}→口座：05419_kouza⟧: bank account\n- ⟦{引|ひ}き{落|お}とし→引落し：07556_hikiotoshi⟧: automatic debit/withdrawal",
+  "notes": "{残高|ざんだか} means the current balance in a financial account. Combines ⟦{残|ざん}→残：noentry⟧ (remaining) + ⟦{高|だか}→高：noentry⟧ (amount/quantity). Used for bank accounts, prepaid cards, and electronic money.\n\nCOMPOUNDS:\n- {残高|ざんだか}⟦{確認|かくにん}→確認：00158_kakunin⟧: balance inquiry\n- {残高|ざんだか}⟦{不足|ぶそく}→不足：03598_fusoku⟧: insufficient balance/funds\n- {残高|ざんだか}⟦{照会|しょうかい}→照会：16171_shoukai⟧: balance check (formal)\n- ⟦{預金|よきん}→預金：05420_yokin⟧{残高|ざんだか}: deposit balance\n- ⟦{口座|こうざ}→口座：05419_kouza⟧{残高|ざんだか}: account balance\n\nMODERN USAGE:\n- ⟦チャージ→チャージ：09729_chaaji⟧{残高|ざんだか}: charged balance (for IC cards like Suica, PASMO)\n- ⟦ポイント→ポイント：11283_pointo⟧{残高|ざんだか}: points balance\n- {残高|ざんだか}⟦{不足|ぶそく}→不足：03598_fusoku⟧⟦で→で：00502_de⟧⟦{引|ひ}き{落|お}とし→引落し：07556_hikiotoshi⟧⟦できない→できる：00557_dekiru⟧: unable to withdraw due to insufficient balance\n\nRELATED WORDS:\n- ⟦{預金|よきん}→預金：05420_yokin⟧: deposit, savings\n- ⟦{口座|こうざ}→口座：05419_kouza⟧: bank account\n- ⟦{引|ひ}き{落|お}とし→引落し：07556_hikiotoshi⟧: automatic debit/withdrawal",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,46 @@
       "headword": "{預金|よきん}",
       "label": "deposit/savings",
       "target_id": "05420_yokin"
+    },
+    {
+      "type": "related",
+      "target_id": "05419_kouza",
+      "reading": "こうざ",
+      "headword": "{口座|こうざ}",
+      "label": "bank account"
+    },
+    {
+      "type": "related",
+      "target_id": "07556_hikiotoshi",
+      "reading": "ひきおとし",
+      "headword": "{引落|ひきおと}し",
+      "label": "automatic debit/withdrawal"
+    },
+    {
+      "type": "related",
+      "target_id": "09924_tsuuchou",
+      "reading": "つうちょう",
+      "headword": "{通帳|つうちょう}",
+      "label": "bankbook, passbook"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20756_zangaku",
+      "reading": "ざんがく",
+      "headword": "{残額|ざんがく}",
+      "label": "remaining balance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30052_kariiregaku",
+      "reading": "かりいれがく",
+      "headword": "{借入額|かりいれがく}",
+      "label": "amount borrowed"
     }
   ],
   "metadata": {
     "created": "2026-01-16T06:00:17Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -24,7 +24,9 @@
       "english": "The outline of the mountain is clearly visible.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14295_rinkaku_ex2",
@@ -32,7 +34,9 @@
       "english": "A person's silhouette faintly emerged in the darkness.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14295_rinkaku_ex3",
@@ -40,7 +44,9 @@
       "english": "Emphasize the contour of the eyes with eyeliner.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14295_rinkaku_ex4",
@@ -48,7 +54,9 @@
       "english": "The outline of the plan is becoming clear.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14295_rinkaku_ex5",
@@ -56,7 +64,9 @@
       "english": "Let's grasp the overall outline first, then get into the details.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14295_rinkaku_ex6",
@@ -64,21 +74,49 @@
       "english": "Through repeated discussions, the outline of the new system gradually became clear.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "Compound of {輪|りん} (ring, circle) + {郭|かく} (enclosure, outline). Both senses share the idea of an outer boundary that defines a shape.\n\nCOMMON COLLOCATIONS:\n- {輪郭|りんかく}がはっきりする (the outline becomes clear)\n- {輪郭|りんかく}がぼやける (the outline blurs)\n- {輪郭|りんかく}を{描|えが}く (to draw an outline)\n- {輪郭|りんかく}をつかむ (to grasp the outline)\n- {顔|かお}の{輪郭|りんかく} (contour of the face)\n\nSIMILAR WORDS:\n- {概要|がいよう}: summary, overview (focuses on content, not shape)\n- {外形|がいけい}: external shape, form (more technical)\n- シルエット: silhouette (loanword, specifically a dark shape against light)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06747_gaiyou",
+      "reading": "がいよう",
+      "headword": "{概要|がいよう}",
+      "label": "summary, overview"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18908_shiruetto",
+      "reading": "しるえっと",
+      "headword": "シルエット",
+      "label": "silhouette"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23733_sotowaku",
+      "reading": "そとわく",
+      "headword": "{外枠|そとわく}",
+      "label": "outer frame"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T09:30:08Z",
-    "modified": "2026-02-28T09:30:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

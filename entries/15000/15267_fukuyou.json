@@ -3,7 +3,7 @@
   "id": "15267_fukuyou",
   "headword": "{服用|ふくよう}",
   "reading": "ふくよう",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "taking medicine; ingesting medication",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,46 @@
     }
   ],
   "notes": "USAGE:\n{服用|ふくよう} is a formal, medical term for taking oral medication. Used with する. More formal than {薬|くすり}を{飲|の}む.\n\nCOMMON COLLOCATIONS:\n- {薬|くすり}を{服用|ふくよう}する (to take medicine)\n- {食前|しょくぜん}に{服用|ふくよう}する (to take before meals)\n- {食後|しょくご}に{服用|ふくよう}する (to take after meals)\n- {服用量|ふくようりょう} (dosage)\n- {服用|ふくよう}{方法|ほうほう} (how to take medicine)\n\nSIMILAR WORDS:\n- {服用|ふくよう}: taking medicine orally (formal, medical)\n- {飲|の}む: to drink; to take medicine (everyday)\n- {投与|とうよ}: administering medication (used by medical professionals)\n- {内服|ないふく}: oral administration (medical, technical)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00322_nomu",
+      "reading": "のむ",
+      "headword": "{飲|の}む",
+      "label": "to drink"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12894_touyo",
+      "reading": "とうよ",
+      "headword": "{投与|とうよ}",
+      "label": "administering medication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21858_naifuku",
+      "reading": "ないふく",
+      "headword": "{内服|ないふく}",
+      "label": "oral administration"
+    },
+    {
+      "type": "related",
+      "target_id": "05015_fukusayou",
+      "reading": "ふくさよう",
+      "headword": "{副作用|ふくさよう}",
+      "label": "side effect"
+    },
+    {
+      "type": "related",
+      "target_id": "18471_tonpuku",
+      "reading": "とんぷく",
+      "headword": "{頓服|とんぷく}",
+      "label": "medicine taken as needed (not on a regular schedule)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T08:10:43Z",
-    "modified": "2026-07-16T07:06:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -19,7 +19,9 @@
       "english": "To walk along a mountain path.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12406_yamamichi_ex2",
@@ -27,7 +29,9 @@
       "english": "The mountain trail was steep and slippery.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12406_yamamichi_ex3",
@@ -35,21 +39,42 @@
       "english": "After climbing up the narrow mountain path for about two hours, I reached the summit with a nice view.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "STRUCTURE:\n{山|やま} (mountain) + {道|みち} (road, path).\n\nUSAGE:\n{山道|やまみち} is a straightforward compound referring to paths or roads in the mountains. It is commonly used in hiking, travel, and literary contexts. Compare with {登山道|とざんどう}, which specifically refers to a designated climbing trail up a mountain.\n\nCOMMON COLLOCATIONS:\n- {山道|やまみち}を{登|のぼ}る: to climb a mountain path\n- {山道|やまみち}を{下|くだ}る: to descend a mountain path\n- {険|けわ}しい{山道|やまみち}: a steep mountain path\n- {山道|やまみち}を{迷|まよ}う: to get lost on a mountain trail",
-  "cross_references": [],
+  "notes": "COMMON PATTERNS:\n{山|やま} (mountain) + {道|みち} (road, path).\n\nUSAGE:\n{山道|やまみち} is a straightforward compound referring to paths or roads in the mountains. It is commonly used in hiking, travel, and literary contexts. Compare with {登山道|とざんどう}, which specifically refers to a designated climbing trail up a mountain.\n\nCOMMON COLLOCATIONS:\n- {山道|やまみち}を{登|のぼ}る: to climb a mountain path\n- {山道|やまみち}を{下|くだ}る: to descend a mountain path\n- {険|けわ}しい{山道|やまみち}: a steep mountain path\n- {山道|やまみち}を{迷|まよ}う: to get lost on a mountain trail",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21917_rindou",
+      "reading": "りんどう",
+      "headword": "{林道|りんどう}",
+      "label": "forest road"
+    },
+    {
+      "type": "related",
+      "target_id": "23600_tougemichi",
+      "reading": "とうげみち",
+      "headword": "{峠道|とうげみち}",
+      "label": "mountain pass road"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T06:12:01Z",
-    "modified": "2026-02-21T06:12:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

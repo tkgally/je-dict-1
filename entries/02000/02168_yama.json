@@ -114,7 +114,7 @@
     },
     {
       "id": "02168_yama_ex10",
-      "japanese": "⟦{ゴミ|ごみ}→ゴミ：00840_gomi⟧⟦の→の：09472_no⟧{山|やま}⟦に→に：00314_ni⟧⟦なっていた→なる：01970_naru⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧⟦{掃除|そうじ}した→掃除：02889_souji⟧。",
+      "japanese": "⟦ゴミ→ゴミ：00840_gomi⟧⟦の→の：09472_no⟧{山|やま}⟦に→に：00314_ni⟧⟦なっていた→なる：01970_naru⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧⟦{掃除|そうじ}した→掃除：02889_souji⟧。",
       "english": "I cleaned the room that had become a pile of garbage.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "02168_yama_ex11",
-      "japanese": "⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦は→は：00079_ha⟧⟦{ここ|ここ}→ここ：00961_koko⟧⟦から→から：00504_kara⟧{山|やま}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧。",
+      "japanese": "⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦は→は：00079_ha⟧⟦ここ→ここ：00961_koko⟧⟦から→から：00504_kara⟧{山|やま}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧。",
       "english": "The story reaches its climax from here.",
       "notes": null,
       "has_audio": false,
@@ -173,14 +173,33 @@
       ]
     }
   ],
-  "notes": "{山|やま} is one of the most fundamental Japanese words, with meanings extending well beyond the physical sense of 'mountain.'\n\nSENSES:\n1. Physical mountain or hill\n2. A large pile or heap of things (figurative)\n3. The climax, peak, or critical point of a situation\n\nKEY EXPRESSIONS:\n- {山|やま}⟦を→を：00422_wo⟧⟦{張|は}る→張る：12583_haru⟧: to make a guess, to speculate\n- {山|やま}⟦を→を：00422_wo⟧⟦{越|こ}える→越える：02099_koeru⟧: to get over the worst/critical point\n- {山|やま}⟦ほど→程：01724_hodo⟧: a huge amount of, mountains of\n- {山|やま}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to reach the climax (of a story)\n\nCOMMON COMPOUNDS:\n- ⟦{富士山|ふじさん}→富士山：09514_fujisan⟧: Mt. Fuji\n- ⟦{火山|かざん}→火山：04020_kazan⟧: volcano\n- ⟦{登山|とざん}→登山：03457_tozan⟧: mountain climbing\n- ⟦{山道|やまみち}→山道：12406_yamamichi⟧: mountain path\n- ⟦{山|やま}{小屋|ごや}→山小屋：18402_yamagoya⟧: mountain hut\n\nNOTE: Mountain names use {山|さん} or {山|ざん} in on'yomi readings: ⟦{富士山|ふじさん}→富士山：09514_fujisan⟧, ⟦{高野山|こうやさん}→高野山：noentry⟧.",
+  "notes": "{山|やま} is one of the most fundamental Japanese words, with meanings extending well beyond the physical sense of 'mountain.'\n\nFUNCTIONS:\n1. Physical mountain or hill\n2. A large pile or heap of things (figurative)\n3. The climax, peak, or critical point of a situation\n\nCOMMON EXPRESSIONS:\n- {山|やま}⟦を→を：00422_wo⟧⟦{張|は}る→張る：12583_haru⟧: to make a guess, to speculate\n- {山|やま}⟦を→を：00422_wo⟧⟦{越|こ}える→越える：02099_koeru⟧: to get over the worst/critical point\n- {山|やま}⟦ほど→程：01724_hodo⟧: a huge amount of, mountains of\n- {山|やま}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to reach the climax (of a story)\n\nCOMPOUNDS:\n- ⟦{富士山|ふじさん}→富士山：09514_fujisan⟧: Mt. Fuji\n- ⟦{火山|かざん}→火山：04020_kazan⟧: volcano\n- ⟦{登山|とざん}→登山：03457_tozan⟧: mountain climbing\n- ⟦{山道|やまみち}→山道：12406_yamamichi⟧: mountain path\n- ⟦{山|やま}{小屋|ごや}→山小屋：18402_yamagoya⟧: mountain hut\n\nNOTE: Mountain names use {山|さん} or {山|ざん} in on'yomi readings: ⟦{富士山|ふじさん}→富士山：09514_fujisan⟧, ⟦{高野山|こうやさん}→高野山：noentry⟧.",
   "cross_references": [
-    {"type": "related", "target_id": "03457_tozan", "reading": "とざん", "headword": "{登山|とざん}", "label": "mountain climbing"},
-    {"type": "related", "target_id": "09514_fujisan", "reading": "ふじさん", "headword": "{富士山|ふじさん}", "label": "Mt. Fuji"}
+    {
+      "type": "related",
+      "target_id": "03457_tozan",
+      "reading": "とざん",
+      "headword": "{登山|とざん}",
+      "label": "mountain climbing"
+    },
+    {
+      "type": "related",
+      "target_id": "09514_fujisan",
+      "reading": "ふじさん",
+      "headword": "{富士山|ふじさん}",
+      "label": "Mt. Fuji"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20394_kyuuryou",
+      "reading": "きゅうりょう",
+      "headword": "{丘陵|きゅうりょう}",
+      "label": "hill"
+    }
   ],
   "metadata": {
     "created": "2026-01-09T12:14:33Z",
-    "modified": "2026-05-18T17:34:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

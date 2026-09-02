@@ -128,7 +128,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {仲間|なかま} implies a stronger bond than just 'friend'. It suggests people who share experiences, goals, or a sense of belonging together.\n\nNUANCES:\n・Implies solidarity and loyalty\n・Often used for teammates, colleagues, or fellow group members\n・Can indicate being 'one of us'\n\nCOMMON PATTERNS:\n・{仲間|なかま}⟦に→に：00314_ni⟧⟦{入|い}る→入る：00494_hairu⟧ (to join a group)\n・{仲間|なかま}⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧ (to include in the group)\n・{仲間|なかま}⟦{外|はず}れ→外れ：10487_hazure⟧ (being left out, ostracism)\n・{仲間|なかま}⟦{意識|いしき}→意識：01714_ishiki⟧ (sense of belonging)\n・〜⟦の→の：09472_no⟧{仲間|なかま} (belonging to the ~ category/group)\n\nSIMILAR WORDS:\n・⟦{友達|ともだち}→友達：01478_tomodachi⟧ - friend (general)\n・⟦{同僚|どうりょう}→同僚：01023_douryou⟧ - colleague (work)\n・⟦{仲良|なかよ}し→仲良し：11449_nakayoshi⟧ - close friend\n・⟦{同士|どうし}→同士：03474_doushi⟧ - fellow (suffix)",
+  "notes": "USAGE: {仲間|なかま} implies a stronger bond than just 'friend'. It suggests people who share experiences, goals, or a sense of belonging together.\n\nUSAGE:\n- Implies solidarity and loyalty\n- Often used for teammates, colleagues, or fellow group members\n- Can indicate being 'one of us'\n\nCOMMON PATTERNS:\n- {仲間|なかま}⟦に→に：00314_ni⟧⟦{入|い}る→入る：00494_hairu⟧ (to join a group)\n- {仲間|なかま}⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧ (to include in the group)\n- {仲間|なかま}⟦{外|はず}れ→外れ：10487_hazure⟧ (being left out, ostracism)\n- {仲間|なかま}⟦{意識|いしき}→意識：01714_ishiki⟧ (sense of belonging)\n- 〜⟦の→の：09472_no⟧{仲間|なかま} (belonging to the ~ category/group)\n\nSIMILAR WORDS:\n- ⟦{友達|ともだち}→友達：01478_tomodachi⟧ - friend (general)\n- ⟦{同僚|どうりょう}→同僚：01023_douryou⟧ - colleague (work)\n- ⟦{仲良|なかよ}し→仲良し：11449_nakayoshi⟧ - close friend\n- ⟦{同士|どうし}→同士：03474_doushi⟧ - fellow (suffix)",
   "cross_references": [
     {
       "type": "related",
@@ -150,11 +150,67 @@
       "headword": "{仲間外|なかまはず}れ",
       "label": "exclusion from a group",
       "type": "related"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01023_douryou",
+      "reading": "どうりょう",
+      "headword": "{同僚|どうりょう}",
+      "label": "colleague"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11449_nakayoshi",
+      "reading": "なかよし",
+      "headword": "{仲良|なかよ}し",
+      "label": "close friend"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01762_doushi",
+      "reading": "どうし",
+      "headword": "{同志|どうし}",
+      "label": "comrade, like-minded person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20019_senyuu",
+      "reading": "せんゆう",
+      "headword": "{戦友|せんゆう}",
+      "label": "comrade-in-arms"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23023_douhou",
+      "reading": "どうほう",
+      "headword": "{同胞|どうほう}",
+      "label": "fellow countrymen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24065_totou",
+      "reading": "ととう",
+      "headword": "{徒党|ととう}",
+      "label": "faction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24298_kyouryokusha",
+      "reading": "きょうりょくしゃ",
+      "headword": "{協力者|きょうりょくしゃ}",
+      "label": "collaborator"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30758_aibou",
+      "reading": "あいぼう",
+      "headword": "{相棒|あいぼう}",
+      "label": "partner"
     }
   ],
   "metadata": {
     "created": "2026-01-12T10:04:00Z",
-    "modified": "2026-08-08T15:24:53Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

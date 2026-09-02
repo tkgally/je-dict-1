@@ -17,7 +17,9 @@
       "id": "27803_kyoudo_ex1",
       "japanese": "{強度|きょうど}が{高|たか}い。",
       "english": "The strength is high.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27803_kyoudo_ex2",
       "japanese": "この{素材|そざい}は{強度|きょうど}が{足|た}りない。",
       "english": "This material isn't strong enough.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "27803_kyoudo_ex3",
       "japanese": "トレーニングの{強度|きょうど}を{少|すこ}しずつ{上|あ}げていく。",
       "english": "We gradually raise the intensity of the training.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A technical-sounding noun for measurable strength or intensity. Common in engineering, materials, and fitness contexts.\n\nCOMMON COLLOCATIONS:\n- {強度|きょうど}が{高|たか}い／{低|ひく}い: high / low in strength\n- {強度|きょうど}{不足|ぶそく}: insufficient strength\n- {引|ひ}っ{張|ぱ}り{強度|きょうど}: tensile strength\n\nSIMILAR WORDS:\n- {強|つよ}さ: strength — the everyday word; {強度|きょうど} is more technical and quantified\n- {硬度|こうど}: hardness — resistance to scratching or denting, not to breaking",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25692_tsuyosa",
+      "reading": "つよさ",
+      "headword": "{強|つよ}さ",
+      "label": "strength"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["science"],
+      "politeness": "plain",
+      "semantic": [
+        "science"
+      ],
       "domain": []
     },
     "created": "2026-05-19T03:07:48Z",
-    "modified": "2026-05-19T03:07:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

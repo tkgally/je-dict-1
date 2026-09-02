@@ -19,7 +19,9 @@
       "english": "Fine particles are floating in the air.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14970_ryuushi_ex2",
@@ -27,7 +29,9 @@
       "english": "Particle physics is the study of how the universe is structured.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14970_ryuushi_ex3",
@@ -35,22 +39,39 @@
       "english": "PM2.5 refers to particles with a diameter of 2.5 micrometers or less, which are harmful to health because they penetrate deep into the lungs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A compound of {粒|りゅう} (grain) and {子|し} (small thing). Used widely in both scientific and everyday contexts.\n\nCOMMON COMPOUNDS:\n- {素粒子|そりゅうし} (elementary particle)\n- {微粒子|びりゅうし} (fine particle)\n- {粒子|りゅうし}{加速器|かそくき} (particle accelerator)\n- {粒子|りゅうし}の{大|おお}きさ (particle size)\n\nSIMILAR WORDS:\n- {粒|つぶ} is the everyday word for a grain or bead\n- {粒子|りゅうし} is more technical and scientific\n- {分子|ぶんし} means molecule, which is a specific type of particle",
-  "cross_references": [],
+  "notes": "A compound of {粒|りゅう} (grain) and {子|し} (small thing). Used widely in both scientific and everyday contexts.\n\nCOMPOUNDS:\n- {素粒子|そりゅうし} (elementary particle)\n- {微粒子|びりゅうし} (fine particle)\n- {粒子|りゅうし}{加速器|かそくき} (particle accelerator)\n- {粒子|りゅうし}の{大|おお}きさ (particle size)\n\nSIMILAR WORDS:\n- {粒|つぶ} is the everyday word for a grain or bead\n- {粒子|りゅうし} is more technical and scientific\n- {分子|ぶんし} means molecule, which is a specific type of particle",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11769_bunshi",
+      "reading": "ぶんし",
+      "headword": "{分子|ぶんし}",
+      "label": "means molecule, which is a specific…"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T08:03:11Z",
-    "modified": "2026-03-04T08:03:11Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic", "technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic",
+        "technical"
+      ]
     }
   }
 }

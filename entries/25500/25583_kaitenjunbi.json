@@ -3,7 +3,7 @@
   "headword": "{開店準備|かいてんじゅんび}",
   "reading": "かいてんじゅんび",
   "romaji": "kaitenjunbi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "preparation for opening; getting ready to open a shop",
   "definitions": [
     {
@@ -45,7 +45,15 @@
     }
   ],
   "notes": "Used both for daily opening routines (cleaning, stocking, setting up) and for the broader preparations before a new business launches. You may see {開店準備中|かいてんじゅんびちゅう} on signs outside shops that haven't opened yet for the day.\n\nCOMMON COLLOCATIONS:\n- {開店準備|かいてんじゅんび}{中|ちゅう}: preparing to open (sign)\n- {開店準備|かいてんじゅんび}に{入|はい}る: to begin opening preparations\n- {開店準備|かいてんじゅんび}を{進|すす}める: to proceed with opening preparations\n\nSIMILAR WORDS:\n- {閉店準備|へいてんじゅんび}: closing preparations — the counterpart, getting ready to close\n- {開店|かいてん}: opening (of a shop) — the event itself, without the preparation aspect\n- {仕込|しこ}み: prep work — specifically the behind-the-scenes work in restaurants (cooking prep, etc.)\n\nREGISTER:\nNeutral. Common in retail, food service, and small business contexts.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09206_shikomi",
+      "reading": "しこみ",
+      "headword": "{仕込|しこ}み",
+      "label": "prep work"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +62,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "work",
         "business"
@@ -61,7 +71,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-26T11:25:59Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -153,18 +153,53 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pattern: X⟦が→が：00051_ga⟧{痩|や}せる (X loses weight).\n\nASPECT: ている indicates state. {痩|や}せている = 'is thin' (state of being thin, not the process).\n\nCOMMON PATTERNS:\n・{痩|や}せる (lose weight)\n・{痩|や}せている (is thin—state)\n・{痩|や}せたい (want to lose weight)\n・{痩|や}せすぎ (too thin)\n・⟦ダイエット→ダイエット：17678_daietto⟧⟦して→する：00392_suru⟧{痩|や}せる (lose weight by dieting)\n\nOPPOSITE: ⟦{太|ふと}る→太る：01190_futoru⟧ (to gain weight)\n\nNUANCE: {痩|や}せている can be positive (slim) or negative (too thin) depending on context. More polite alternatives:\n・⟦スリム→スリム：21695_surimu⟧ (slim—neutral/positive)\n・⟦{細|ほそ}い→細い：02962_hosoi⟧ (slender—often positive)\n\nKANJI: Often written in hiragana as やせる in casual contexts.",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pattern: X⟦が→が：00051_ga⟧{痩|や}せる (X loses weight).\n\nASPECT: ている indicates state. {痩|や}せている = 'is thin' (state of being thin, not the process).\n\nCOMMON PATTERNS:\n- {痩|や}せる (lose weight)\n- {痩|や}せている (is thin—state)\n- {痩|や}せたい (want to lose weight)\n- {痩|や}せすぎ (too thin)\n- ⟦ダイエット→ダイエット：17678_daietto⟧⟦して→する：00392_suru⟧{痩|や}せる (lose weight by dieting)\n\nOPPOSITE: ⟦{太|ふと}る→太る：01190_futoru⟧ (to gain weight)\n\nNUANCE: {痩|や}せている can be positive (slim) or negative (too thin) depending on context. More polite alternatives:\n- ⟦スリム→スリム：21695_surimu⟧ (slim—neutral/positive)\n- ⟦{細|ほそ}い→細い：02962_hosoi⟧ (slender—often positive)\n\nKANJI: Often written in hiragana as やせる in casual contexts.",
   "cross_references": [
     {
       "type": "see_also",
       "reading": "ふとる",
       "headword": "{太|ふと}る",
       "target_id": "01190_futoru"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02962_hosoi",
+      "reading": "ほそい",
+      "headword": "{細|ほそ}い",
+      "label": "thin, slender"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05900_garigari",
+      "reading": "がりがり",
+      "headword": "がりがり",
+      "label": "crunching"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13355_genryou",
+      "reading": "げんりょう",
+      "headword": "{減量|げんりょう}",
+      "label": "weight reduction, cutting weight"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22522_yasehosoru",
+      "reading": "やせほそる",
+      "headword": "やせ{細|ほそ}る",
+      "label": "to become emaciated"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22637_yasekokeru",
+      "reading": "やせこける",
+      "headword": "{痩|や}せこける",
+      "label": "to become gaunt"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:26:46Z",
-    "modified": "2026-06-10T14:04:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

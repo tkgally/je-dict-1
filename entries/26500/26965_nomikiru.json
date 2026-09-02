@@ -3,7 +3,7 @@
   "headword": "{飲|の}み{切|き}る",
   "reading": "のみきる",
   "romaji": "nomikiru",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to drink up; to finish drinking",
   "definitions": [
     {
@@ -55,7 +55,22 @@
     }
   ],
   "notes": "Compound of {飲|の}む (to drink) and {切|き}る (completive suffix meaning to finish completely). Part of the productive V + {切|き}る pattern where {切|き}る indicates doing something to completion.\n\nCOMMON COLLOCATIONS:\n- ビールを{飲|の}み{切|き}る: to finish one's beer\n- {薬|くすり}を{飲|の}み{切|き}る: to take all of the medicine\n- {一気|いっき}に{飲|の}み{切|き}る: to drink up in one go\n- {飲|の}み{切|き}れない: can't finish drinking (it all)\n\nRELATED PATTERNS:\nThe V + {切|き}る pattern is used with many verbs to express completion:\n- {食|た}べ{切|き}る: to eat up completely\n- {使|つか}い{切|き}る: to use up completely\n- {読|よ}み{切|き}る: to read all the way through\n\nSIMILAR WORDS:\n- {飲|の}み{干|ほ}す: to drain, drink dry — more literary; emphasizes draining a vessel completely\n- {飲|の}む: to drink — basic verb without the completion nuance",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21473_nomihosu",
+      "reading": "のみほす",
+      "headword": "{飲|の}み{干|ほ}す",
+      "label": "to drain, drink dry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00322_nomu",
+      "reading": "のむ",
+      "headword": "{飲|の}む",
+      "label": "to drink"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -72,7 +87,7 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-05-06T12:18:00Z",
-    "modified": "2026-08-06T12:50:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

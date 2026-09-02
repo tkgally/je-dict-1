@@ -55,7 +55,29 @@
     }
   ],
   "notes": "Composed of {計画|けいかく} (plan) + {書|しょ} (document). The suffix {書|しょ} indicates a formal written document. Used in business, academic, and government contexts for proposals that need approval or funding.\n\nCOMMON COLLOCATIONS:\n- {計画書|けいかくしょ}を{作成|さくせい}する: prepare a plan document\n- {計画書|けいかくしょ}を{提出|ていしゅつ}する: submit a plan\n- {計画書|けいかくしょ}を{書|か}く: write a plan\n- {事業|じぎょう}{計画書|けいかくしょ}: business plan\n- {研究|けんきゅう}{計画書|けいかくしょ}: research proposal\n- {実行|じっこう}{計画書|けいかくしょ}: implementation plan\n\nSIMILAR WORDS:\n- {企画書|きかくしょ}: project proposal (more creative/planning-oriented)\n- {提案書|ていあんしょ}: proposal document (suggesting something to a client)\n- {報告書|ほうこくしょ}: report (after the fact, not before)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20593_kikakusho",
+      "reading": "きかくしょ",
+      "headword": "{企画書|きかくしょ}",
+      "label": "project proposal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15212_teiansho",
+      "reading": "ていあんしょ",
+      "headword": "{提案書|ていあんしょ}",
+      "label": "proposal document"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06744_houkokusho",
+      "reading": "ほうこくしょ",
+      "headword": "{報告書|ほうこくしょ}",
+      "label": "report"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,12 +85,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "business",
         "communication"
       ]
     },
     "created": "2026-04-27T16:21:44Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

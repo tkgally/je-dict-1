@@ -133,7 +133,7 @@
   "notes": "The process of killing bacteria and microorganisms. Used in medical, food safety, and hygiene contexts.\n\nCOMPOUND: {殺|さつ} (kill) + {菌|きん} (bacteria)\n\nCOMMON COLLOCATIONS:\n- {殺菌|さっきん}する: to sterilize\n- {殺菌|さっきん}{効果|こうか}: sterilization effect\n- {殺菌|さっきん}{作用|さよう}: antibacterial action\n- {殺菌|さっきん}{処理|しょり}: sterilization treatment\n- {加熱|かねつ}{殺菌|さっきん}: heat sterilization\n\nRELATED HYGIENE TERMS (in order of strength):\n- {除菌|じょきん}: germ removal (weakest — removes but doesn't necessarily kill)\n- {殺菌|さっきん}: sterilization (kills bacteria)\n- {消毒|しょうどく}: disinfection (reduces pathogens to safe levels)\n- {滅菌|めっきん}: complete sterilization (destroys all microorganisms)\n- {抗菌|こうきん}: antibacterial (prevents bacterial growth)",
   "metadata": {
     "created": "2026-02-03T11:36:14Z",
-    "modified": "2026-04-07T03:52:40Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
@@ -156,6 +156,55 @@
       "reading": "しょうどく",
       "headword": "{消毒|しょうどく}",
       "label": "disinfection"
+    },
+    {
+      "type": "related",
+      "target_id": "07789_jokin",
+      "reading": "じょきん",
+      "headword": "{除菌|じょきん}",
+      "label": "germ removal (weakest"
+    },
+    {
+      "type": "related",
+      "target_id": "24175_mekkin",
+      "reading": "めっきん",
+      "headword": "{滅菌|めっきん}",
+      "label": "complete sterilization"
+    },
+    {
+      "type": "related",
+      "target_id": "21567_koukin",
+      "reading": "こうきん",
+      "headword": "{抗菌|こうきん}",
+      "label": "antibacterial"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17806_shimetsu",
+      "reading": "しめつ",
+      "headword": "{死滅|しめつ}",
+      "label": "extinction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22352_mekkinsuru",
+      "reading": "めっきんする",
+      "headword": "{滅菌|めっきん}する",
+      "label": "to sterilize"
+    },
+    {
+      "type": "related",
+      "target_id": "23035_shoudokuyaku",
+      "reading": "しょうどくやく",
+      "headword": "{消毒薬|しょうどくやく}",
+      "label": "disinfectant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24235_boufu",
+      "reading": "ぼうふ",
+      "headword": "{防腐|ぼうふ}",
+      "label": "antisepsis"
     }
   ]
 }

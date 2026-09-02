@@ -2,7 +2,7 @@
   "id": "11669_naishin",
   "headword": "{内心|ないしん}",
   "reading": "ないしん",
-  "part_of_speech": "noun / adverb",
+  "part_of_speech": "noun, adverb",
   "gloss": "inwardly, in one's heart",
   "schema_version": "2.0",
   "definitions": [
@@ -19,7 +19,9 @@
       "english": "I was secretly relieved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11669_naishin_ex2",
@@ -27,7 +29,9 @@
       "english": "He was smiling, but inside he was angry.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11669_naishin_ex3",
@@ -35,20 +39,56 @@
       "english": "While feeling anxious inside, I put on a calm front.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Often implies a contrast between one's outward appearance and true feelings. Very common in narrative and descriptive writing.\n\nUSAGE PATTERNS:\n・{内心|ないしん} + verb/adjective (adverbial use: inwardly felt/did X)\n・{内心|ないしん}では (in one's heart, internally)\n・{内心|ないしん}を{明|あ}かす (reveal one's true feelings)\n\nCOMMON COLLOCATIONS:\n・{内心|ないしん}ほっとする (be secretly relieved)\n・{内心|ないしん}{穏|おだ}やかでない (uneasy inside)\n・{内心|ないしん}を{隠|かく}す (hide one's true feelings)\n\nDISTINCTIONS:\n・{内心|ないしん}: focuses on private thoughts/feelings contrasted with outward behavior\n・{本心|ほんしん}: one's true intention or genuine feelings (not necessarily hidden)",
-  "cross_references": [],
+  "notes": "Often implies a contrast between one's outward appearance and true feelings. Very common in narrative and descriptive writing.\n\nCOMMON PATTERNS:\n- {内心|ないしん} + verb/adjective (adverbial use: inwardly felt/did X)\n- {内心|ないしん}では (in one's heart, internally)\n- {内心|ないしん}を{明|あ}かす (reveal one's true feelings)\n\nCOMMON COLLOCATIONS:\n- {内心|ないしん}ほっとする (be secretly relieved)\n- {内心|ないしん}{穏|おだ}やかでない (uneasy inside)\n- {内心|ないしん}を{隠|かく}す (hide one's true feelings)\n\nSIMILAR WORDS:\n- {内心|ないしん}: focuses on private thoughts/feelings contrasted with outward behavior\n- {本心|ほんしん}: one's true intention or genuine feelings (not necessarily hidden)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12864_honshin",
+      "reading": "ほんしん",
+      "headword": "{本心|ほんしん}",
+      "label": "one's true intention or genuine feelings"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11689_naimen",
+      "reading": "ないめん",
+      "headword": "{内面|ないめん}",
+      "label": "inner side, inner feelings"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21532_munenouchi",
+      "reading": "むねのうち",
+      "headword": "{胸|むね}の{内|うち}",
+      "label": "one's inner thoughts"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25870_shinchuu",
+      "reading": "しんちゅう",
+      "headword": "{心中|しんちゅう}",
+      "label": "one's true feelings"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T20:17:53Z",
-    "modified": "2026-02-17T20:17:53Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adverb"],
+      "pos": [
+        "noun",
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
   }
 }

@@ -9,7 +9,7 @@
     {
       "sense_number": 1,
       "gloss": "carport; covered parking",
-      "explanation": "A simple roofed structure for parking a car, usually attached to or next to a house. Has a roof but no full walls, distinguishing it from a {ガレージ}."
+      "explanation": "A simple roofed structure for parking a car, usually attached to or next to a house. Has a roof but no full walls, distinguishing it from a ガレージ."
     }
   ],
   "examples": [
@@ -46,6 +46,29 @@
   ],
   "notes": "Loanword from English 'carport'. Refers specifically to the roof-only structure outside a house, not a full garage.\n\nCOMMON COLLOCATIONS:\n- カーポートを{設置|せっち}する: to install a carport\n- カーポート{付|つ}き: with a carport (real estate listing)\n- カーポートの{屋根|やね}: the carport roof\n\nSIMILAR WORDS:\n- ガレージ: garage — fully enclosed with walls and usually a door\n- {駐車場|ちゅうしゃじょう}: parking lot / parking space — generic term, may be outdoors and uncovered\n- {車庫|しゃこ}: garage / car shed — Japanese equivalent of ガレージ",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05073_gareeji",
+      "reading": "がれーじ",
+      "headword": "ガレージ",
+      "label": "garage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01667_chuushajou",
+      "reading": "ちゅうしゃじょう",
+      "headword": "{駐車場|ちゅうしゃじょう}",
+      "label": "parking lot / parking space"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00361_shako",
+      "reading": "しゃこ",
+      "headword": "{車庫|しゃこ}",
+      "label": "garage / car shed"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "building",
         "transportation"
@@ -61,6 +84,6 @@
       "domain": []
     },
     "created": "2026-05-13T04:06:44Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

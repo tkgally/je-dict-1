@@ -17,7 +17,9 @@
       "id": "27211_ooshio_ex1",
       "japanese": "{明日|あした}は{大潮|おおしお}だ。",
       "english": "Tomorrow is a spring tide.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27211_ooshio_ex2",
       "japanese": "{大潮|おおしお}の{日|ひ}は{潮干狩|しおひが}りに{最適|さいてき}だ。",
       "english": "Spring tide days are ideal for clam digging.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "27211_ooshio_ex3",
       "japanese": "{大潮|おおしお}のときは{海面|かいめん}が{普段|ふだん}より{大|おお}きく{上下|じょうげ}するので、{釣|つ}りの{条件|じょうけん}が{変|か}わる。",
       "english": "During spring tides, the sea level rises and falls more than usual, so fishing conditions change.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "An important concept for fishing, coastal activities, and traditional Japanese life. Spring tides occur roughly twice a month, around the {新月|しんげつ} (new moon) and {満月|まんげつ} (full moon). Composed of {大|おお} (big/great) + {潮|しお} (tide).\n\nCOMMON COLLOCATIONS:\n- {大潮|おおしお}の{日|ひ}: spring tide day\n- {大潮|おおしお}の{時期|じき}: spring tide period\n- {大潮|おおしお}{満潮|まんちょう}: high water at spring tide\n- {大潮|おおしお}{干潮|かんちょう}: low water at spring tide\n\nSIMILAR WORDS:\n- {小潮|こしお}: neap tide — the opposite, with the smallest tidal range, occurring at quarter moons\n- {満潮|まんちょう}: high tide — the peak water level, regardless of whether it is a spring or neap tide\n- {干潮|かんちょう}: low tide — the lowest water level\n- {潮|しお}: tide — the general word for tides\n\nCULTURAL NOTE:\nJapanese fishing calendars and tide tables ({潮見表|しおみひょう}) prominently mark {大潮|おおしお} days, as many fish are more active during spring tides. {潮干狩|しおひが}り (clam digging at low tide) is a popular spring activity best done during {大潮|おおしお}.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06530_manchou",
+      "reading": "まんちょう",
+      "headword": "{満潮|まんちょう}",
+      "label": "high tide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06531_kanchou",
+      "reading": "かんちょう",
+      "headword": "{干潮|かんちょう}",
+      "label": "low tide"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature"],
+      "semantic": [
+        "nature"
+      ],
       "domain": []
     },
     "created": "2026-05-07T16:13:53Z",
-    "modified": "2026-05-07T16:13:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

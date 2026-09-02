@@ -2,7 +2,7 @@
   "id": "04563_saiyou",
   "headword": "{採用|さいよう}",
   "reading": "さいよう",
-  "part_of_speech": "noun/suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "hiring",
   "conjugation": {
     "type": "suru",
@@ -155,11 +155,32 @@
       "reading": "ふさいよう",
       "headword": "{不採用|ふさいよう}",
       "label": "rejection, not hired"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04221_toriireru",
+      "reading": "とりいれる",
+      "headword": "{取|と}り{入|い}れる",
+      "label": "to adopt"
+    },
+    {
+      "type": "related",
+      "target_id": "04690_kyuujin",
+      "reading": "きゅうじん",
+      "headword": "{求人|きゅうじん}",
+      "label": "job offer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20862_toru",
+      "reading": "とる",
+      "headword": "{採|と}る",
+      "label": "to gather"
     }
   ],
   "metadata": {
     "created": "2026-01-14T19:02:47Z",
-    "modified": "2026-06-01T14:25:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

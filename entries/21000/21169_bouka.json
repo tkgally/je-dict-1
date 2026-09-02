@@ -19,7 +19,9 @@
       "english": "Please close the fire door.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21169_bouka_ex2",
@@ -27,7 +29,9 @@
       "english": "Fire prevention measures are strict in this area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21169_bouka_ex3",
@@ -35,21 +39,63 @@
       "english": "Fire prevention drills are held every year at school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{防|ぼう} means 'to prevent' or 'to protect against,' and {火|か} means 'fire.' {防火|ぼうか} covers both preventing fires from starting and limiting their spread through fireproof materials and construction.\n\nCOMMON COLLOCATIONS:\n- {防火|ぼうか}ドア (fire door)\n- {防火|ぼうか}{訓練|くんれん} (fire prevention drill)\n- {防火|ぼうか}{対策|たいさく} (fire prevention measures)\n- {防火|ぼうか}{壁|へき} (firewall, fire barrier)\n- {防火|ぼうか}{水槽|すいそう} (fire cistern)\n\nSIMILAR WORDS:\n- {消火|しょうか} — fire extinguishing (putting out a fire that has already started)\n- {耐火|たいか} — fire resistance (ability of a material to withstand fire)\n- {防災|ぼうさい} — disaster prevention (broader, covers earthquakes, floods, etc.)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13291_shouka",
+      "reading": "しょうか",
+      "headword": "{消火|しょうか}",
+      "label": "fire extinguishing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07907_bousai",
+      "reading": "ぼうさい",
+      "headword": "{防災|ぼうさい}",
+      "label": "disaster prevention"
+    },
+    {
+      "type": "related",
+      "target_id": "06428_bousui",
+      "reading": "ぼうすい",
+      "headword": "{防水|ぼうすい}",
+      "label": "waterproof, waterproofing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25554_shoukasuru",
+      "reading": "しょうかする",
+      "headword": "{消火|しょうか}する",
+      "label": "to extinguish (a fire)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30754_boudan",
+      "reading": "ぼうだん",
+      "headword": "{防弾|ぼうだん}",
+      "label": "bulletproof"
+    }
+  ],
   "metadata": {
     "created": "2026-03-31T22:13:56Z",
-    "modified": "2026-03-31T22:13:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life"]
+      "semantic": [
+        "daily-life"
+      ]
     }
   }
 }

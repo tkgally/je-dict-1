@@ -3,7 +3,7 @@
   "headword": "{吝嗇|りんしょく}",
   "reading": "りんしょく",
   "romaji": "rinshoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "stinginess; miserliness",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "A literary, somewhat old-fashioned word for extreme stinginess. The na-adjective form {吝嗇|りんしょく}な is used to describe miserly people or behavior. While {節約|せつやく} (economizing) is positive and {倹約|けんやく} (frugality) is neutral to positive, {吝嗇|りんしょく} is unambiguously negative, implying selfishness and pettiness.\n\nThe alternate reading けち is colloquial and far more common in everyday speech, written in hiragana or as ケチ in katakana.\n\nCOMMON COLLOCATIONS:\n- {吝嗇|りんしょく}な{人|ひと}: a miserly person\n- {吝嗇|りんしょく}な{性格|せいかく}: a stingy personality\n- {吝嗇|りんしょく}ぶり: one's stinginess; miserly ways\n- {吝嗇|りんしょく}{家|か}: a miser\n\nSIMILAR WORDS:\n- ケチ: stingy; cheap — the everyday colloquial equivalent\n- {倹約|けんやく}: frugality; thrift — neutral to positive, implies wise spending\n- {節約|せつやく}: economizing; saving — positive, implies cutting unnecessary expenses\n- {守銭奴|しゅせんど}: miser; money-grubber — strongly negative, emphasizing obsession with money",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02792_kechi",
+      "reading": "けち",
+      "headword": "けち",
+      "label": "stingy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09203_kenyaku",
+      "reading": "けんやく",
+      "headword": "{倹約|けんやく}",
+      "label": "frugality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03302_setsuyaku",
+      "reading": "せつやく",
+      "headword": "{節約|せつやく}",
+      "label": "economizing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09097_kechinbo",
+      "reading": "けちんぼ",
+      "headword": "けちんぼ",
+      "label": "cheapskate, miser"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,12 +83,13 @@
         "noun",
         "adjective-na"
       ],
+      "politeness": "plain",
       "semantic": [
         "personality",
         "abstract"
       ]
     },
     "created": "2026-04-22T10:14:56Z",
-    "modified": "2026-06-15T07:59:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

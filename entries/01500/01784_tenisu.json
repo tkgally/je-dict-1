@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "テニス is from English \"tennis.\" It's a popular sport in Japan with many public courts available.\n\nCOMMON EXPRESSIONS:\n- テニスをする: to play tennis\n- テニスコート: tennis court\n- テニス⟦ラケット→ラケット：00351_raketto⟧: tennis racket\n- テニスボール: tennis ball\n- テニス⟦{部|ぶ}→〜部：00440_bu⟧: tennis club (at school)\n- テニスウェア: tennis wear\n\nRELATED RACKET SPORTS:\n- ⟦バドミントン→バドミントン：20550_badominton⟧: badminton\n- ⟦{卓球|たっきゅう}→卓球：18289_takkyuu⟧: table tennis, ping pong\n- ⟦スカッシュ→スカッシュ：23875_sukasshu⟧: squash\n\nUSAGE NOTE:\nJapan uses テニス for lawn tennis. {軟式|なんしき}テニス (soft tennis) is a Japanese variant using softer balls, popular in schools.",
-  "cross_references": [],
+  "notes": "テニス is from English \"tennis.\" It's a popular sport in Japan with many public courts available.\n\nCOMMON EXPRESSIONS:\n- テニスをする: to play tennis\n- テニスコート: tennis court\n- テニス⟦ラケット→ラケット：00351_raketto⟧: tennis racket\n- テニスボール: tennis ball\n- テニス⟦{部|ぶ}→〜部：00440_bu⟧: tennis club (at school)\n- テニスウェア: tennis wear\n\nRELATED RACKET SPORTS:\n- ⟦バドミントン→バドミントン：20550_badominton⟧: badminton\n- ⟦{卓球|たっきゅう}→卓球：18289_takkyuu⟧: table tennis, ping pong\n- ⟦スカッシュ→スカッシュ：23875_sukasshu⟧: squash\n\nUSAGE:\nJapan uses テニス for lawn tennis. {軟式|なんしき}テニス (soft tennis) is a Japanese variant using softer balls, popular in schools.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20550_badominton",
+      "reading": "ばどみんとん",
+      "headword": "バドミントン",
+      "label": "badminton"
+    },
+    {
+      "type": "related",
+      "target_id": "18289_takkyuu",
+      "reading": "たっきゅう",
+      "headword": "{卓球|たっきゅう}",
+      "label": "table tennis, ping pong"
+    },
+    {
+      "type": "related",
+      "target_id": "23875_sukasshu",
+      "reading": "すかっしゅ",
+      "headword": "スカッシュ",
+      "label": "squash"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:41:03Z",
-    "modified": "2026-05-16T22:11:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

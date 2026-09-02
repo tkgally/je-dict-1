@@ -3,7 +3,7 @@
   "headword": "{私有化|しゆうか}",
   "reading": "しゆうか",
   "romaji": "shiyuuka",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "privatization; transfer to private ownership",
   "definitions": [
     {
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "The transfer of publicly owned assets or enterprises into private ownership. Composed of {私有|しゆう} (private ownership) + {化|か} (transformation suffix). Often discussed in the context of economic reform, particularly post-communist transitions and neoliberal policy.\n\nCOMMON COLLOCATIONS:\n- {国有|こくゆう}{企業|きぎょう}の{私有化|しゆうか} — privatization of state-owned enterprises\n- {土地|とち}の{私有化|しゆうか} — privatization of land\n- {大規模|だいきぼ}な{私有化|しゆうか} — large-scale privatization\n- {私有化|しゆうか}{政策|せいさく} — privatization policy\n\nSIMILAR WORDS:\n- {民営化|みんえいか} — privatization (of operations/management; the more common term in Japanese domestic politics, e.g., postal privatization)\n- {国有化|こくゆうか} — nationalization (the opposite process)\n- {公有化|こうゆうか} — transfer to public ownership\n\nUSAGE NOTE:\n{民営化|みんえいか} and {私有化|しゆうか} both translate as \"privatization\" but differ in nuance. {民営化|みんえいか} typically refers to transferring management or operations to private companies while the government may retain some ownership or oversight. {私有化|しゆうか} emphasizes full transfer of ownership to private hands.",
+  "notes": "The transfer of publicly owned assets or enterprises into private ownership. Composed of {私有|しゆう} (private ownership) + {化|か} (transformation suffix). Often discussed in the context of economic reform, particularly post-communist transitions and neoliberal policy.\n\nCOMMON COLLOCATIONS:\n- {国有|こくゆう}{企業|きぎょう}の{私有化|しゆうか} — privatization of state-owned enterprises\n- {土地|とち}の{私有化|しゆうか} — privatization of land\n- {大規模|だいきぼ}な{私有化|しゆうか} — large-scale privatization\n- {私有化|しゆうか}{政策|せいさく} — privatization policy\n\nSIMILAR WORDS:\n- {民営化|みんえいか} — privatization (of operations/management; the more common term in Japanese domestic politics, e.g., postal privatization)\n- {国有化|こくゆうか} — nationalization (the opposite process)\n- {公有化|こうゆうか} — transfer to public ownership\n\nUSAGE:\n{民営化|みんえいか} and {私有化|しゆうか} both translate as \"privatization\" but differ in nuance. {民営化|みんえいか} typically refers to transferring management or operations to private companies while the government may retain some ownership or oversight. {私有化|しゆうか} emphasizes full transfer of ownership to private hands.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17587_mineika",
+      "reading": "みんえいか",
+      "headword": "{民営化|みんえいか}",
+      "label": "privatization (of operations/management"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17588_kokuyuuka",
+      "reading": "こくゆうか",
+      "headword": "{国有化|こくゆうか}",
+      "label": "nationalization"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +69,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "economics",
         "politics"
@@ -63,7 +81,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-21T09:24:20Z",
-    "modified": "2026-04-21T09:24:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

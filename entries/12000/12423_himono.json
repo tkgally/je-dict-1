@@ -19,7 +19,9 @@
       "english": "To grill dried fish.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12423_himono_ex2",
@@ -27,7 +29,9 @@
       "english": "I had dried horse mackerel for breakfast.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12423_himono_ex3",
@@ -35,21 +39,56 @@
       "english": "In the coastal town, dried fish are laid out at storefronts, welcoming travelers along with the scent of the sea.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "STRUCTURE:\n{干|ひ} (dry) + {物|もの} (thing). Literally \"dried thing.\"\n\nUSAGE:\n{干物|ひもの} primarily refers to dried fish, which is a staple of traditional Japanese breakfasts. Common types include {鯵|あじ} (horse mackerel), {鯖|さば} (mackerel), and {鰯|いわし} (sardine). The fish is typically split open ({開|ひら}き), salted, and dried. {干物|ひもの} is often associated with seaside towns and {旅館|りょかん} (Japanese inns). Colloquially, {干物|ひもの}{女|おんな} (\"dried fish woman\") is slang for a woman who stays home and lives a lazy lifestyle.\n\nCOMMON COLLOCATIONS:\n- {干物|ひもの}を{焼|や}く: to grill dried fish\n- {鯵|あじ}の{干物|ひもの}: dried horse mackerel\n- {干物|ひもの}{屋|や}: dried fish shop\n- {自家製|じかせい}{干物|ひもの}: homemade dried fish",
-  "cross_references": [],
+  "notes": "COMMON PATTERNS:\n{干|ひ} (dry) + {物|もの} (thing). Literally \"dried thing.\"\n\nUSAGE:\n{干物|ひもの} primarily refers to dried fish, which is a staple of traditional Japanese breakfasts. Common types include {鯵|あじ} (horse mackerel), {鯖|さば} (mackerel), and {鰯|いわし} (sardine). The fish is typically split open ({開|ひら}き), salted, and dried. {干物|ひもの} is often associated with seaside towns and {旅館|りょかん} (Japanese inns). Colloquially, {干物|ひもの}{女|おんな} (\"dried fish woman\") is slang for a woman who stays home and lives a lazy lifestyle.\n\nCOMMON COLLOCATIONS:\n- {干物|ひもの}を{焼|や}く: to grill dried fish\n- {鯵|あじ}の{干物|ひもの}: dried horse mackerel\n- {干物|ひもの}{屋|や}: dried fish shop\n- {自家製|じかせい}{干物|ひもの}: homemade dried fish",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00115_hosu",
+      "reading": "ほす",
+      "headword": "{干|ほ}す",
+      "label": "to dry, to air"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12379_enzou",
+      "reading": "えんぞう",
+      "headword": "{塩蔵|えんぞう}",
+      "label": "salt preservation, salt pickling"
+    },
+    {
+      "type": "related",
+      "target_id": "20795_doraifuruutsu",
+      "reading": "どらいふるーつ",
+      "headword": "ドライフルーツ",
+      "label": "dried fruit"
+    },
+    {
+      "type": "related",
+      "target_id": "21115_tenpiboshi",
+      "reading": "てんぴぼし",
+      "headword": "{天日干|てんぴぼ}し",
+      "label": "sun-drying"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T06:12:01Z",
-    "modified": "2026-02-21T06:12:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

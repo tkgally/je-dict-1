@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "ガス{代|だい} is one of the common utility costs in Japan.\n\nRELATED UTILITY BILLS:\n- {電気代|でんきだい}: electricity bill\n- {水道代|すいどうだい}: water bill\n- ガス{代|だい}: gas bill\n- {光熱費|こうねつひ}: utility costs (collective term)\n\nGAS TYPES IN JAPAN:\n- {都市|とし}ガス: city gas (piped natural gas)\n- プロパンガス/LPガス: propane gas (tank delivery)\n\nNOTE:\nCity gas is generally cheaper than propane gas, so ガス{代|だい} can vary significantly depending on the type of gas service available.",
-  "cross_references": [],
+  "notes": "ガス{代|だい} is one of the common utility costs in Japan.\n\nRELATED UTILITY BILLS:\n- {電気代|でんきだい}: electricity bill\n- {水道代|すいどうだい}: water bill\n- ガス{代|だい}: gas bill\n- {光熱費|こうねつひ}: utility costs (collective term)\n\nGAS TYPES IN JAPAN:\n- {都市|とし}ガス: city gas (piped natural gas)\n- プロパンガス/LPガス: propane gas (tank delivery)\n\nUSAGE:\nCity gas is generally cheaper than propane gas, so ガス{代|だい} can vary significantly depending on the type of gas service available.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09543_denkidai",
+      "reading": "でんきだい",
+      "headword": "{電気代|でんきだい}",
+      "label": "electricity bill"
+    },
+    {
+      "type": "related",
+      "target_id": "09544_suidoudai",
+      "reading": "すいどうだい",
+      "headword": "{水道代|すいどうだい}",
+      "label": "water bill"
+    },
+    {
+      "type": "related",
+      "target_id": "08244_kounetsuhi",
+      "reading": "こうねつひ",
+      "headword": "{光熱費|こうねつひ}",
+      "label": "utility costs"
+    }
+  ],
   "metadata": {
     "created": "2026-01-29T06:12:54Z",
-    "modified": "2026-01-29T06:12:54Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -3,7 +3,7 @@
   "headword": "{撮影|さつえい}する",
   "reading": "さつえいする",
   "romaji": "satsueisuru",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to photograph; to film; to shoot",
   "conjugation": {
     "type": "suru",
@@ -171,6 +171,36 @@
   ],
   "notes": "Covers both still photography and video/film recording. More formal than {撮|と}る, which is the everyday word for taking photos.\n\nCOMMON COLLOCATIONS:\n- {写真|しゃしん}を{撮影|さつえい}する: to take a photo\n- {動画|どうが}を{撮影|さつえい}する: to shoot a video\n- {映画|えいが}の{撮影|さつえい}: film shooting\n- {撮影|さつえい}{禁止|きんし}: photography/filming prohibited\n- {撮影|さつえい}{現場|げんば}: filming location, set\n- {撮影|さつえい}{許可|きょか}: filming/photography permit\n\nSIMILAR WORDS:\n- {撮|と}る: to take (a photo) — everyday casual word\n- {録画|ろくが}する: to record (video) — emphasizes the recording/saving aspect\n- {収録|しゅうろく}する: to record (a TV show) — typically in a studio setting",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00760_toru",
+      "reading": "とる",
+      "headword": "{撮|と}る",
+      "label": "to take"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04441_rokuga",
+      "reading": "ろくが",
+      "headword": "{録画|ろくが}",
+      "label": "to record"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08378_shuuroku",
+      "reading": "しゅうろく",
+      "headword": "{収録|しゅうろく}",
+      "label": "to record"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25388_rokuonsuru",
+      "reading": "ろくおんする",
+      "headword": "{録音|ろくおん}する",
+      "label": "to record (audio)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -187,6 +217,6 @@
       "verb_class": "suru"
     },
     "created": "2026-04-04T19:29:05Z",
-    "modified": "2026-04-04T19:29:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

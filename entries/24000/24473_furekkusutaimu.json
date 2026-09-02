@@ -46,18 +46,63 @@
   ],
   "notes": "A loanword from English \"flex time.\" Refers to a work arrangement where employees can choose their start and end times within certain limits, as long as they work during a designated core time period and complete their required hours.\n\nCOMMON COLLOCATIONS:\n- フレックスタイム{制|せい}: flextime system\n- フレックスタイムを{導入|どうにゅう}する: to introduce flextime\n- フレックスタイム{制度|せいど}: flextime system (more formal)\n- コアタイム: core time (mandatory hours within flextime)\n\nUSAGE:\nIn Japanese workplaces, flextime systems typically have a コアタイム (core time) when all employees must be present (e.g., 10:00-15:00) and フレキシブルタイム (flexible time) windows at the start and end of the day. The abbreviated form フレックス is also commonly used: 「うちはフレックスだから」 (We have flextime, so...).\n\nSIMILAR WORDS:\n- {裁量|さいりょう}{労働|ろうどう}{制|せい}: discretionary work system (even more flexible)\n- {変則|へんそく}{勤務|きんむ}: irregular working hours (shift-based)\n- テレワーク: remote work (different type of flexible arrangement)\n- {時差|じさ}{出勤|しゅっきん}: staggered commuting hours (fixed but offset)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25086_hensokukinmu",
+      "reading": "へんそくきんむ",
+      "headword": "{変則勤務|へんそくきんむ}",
+      "label": "irregular working hours"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05397_terewaaku",
+      "reading": "てれわーく",
+      "headword": "テレワーク",
+      "label": "remote work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08594_jisashukkin",
+      "reading": "じさしゅっきん",
+      "headword": "{時差出勤|じさしゅっきん}",
+      "label": "staggered commuting hours"
+    },
+    {
+      "type": "related",
+      "target_id": "06158_zaitakukinmu",
+      "reading": "ざいたくきんむ",
+      "headword": "{在宅勤務|ざいたくきんむ}",
+      "label": "work from home"
+    },
+    {
+      "type": "related",
+      "target_id": "07111_waakuraifubaransu",
+      "reading": "わーくらいふばらんす",
+      "headword": "ワークライフバランス",
+      "label": "work-life balance"
+    },
+    {
+      "type": "related",
+      "target_id": "23314_furekkusu",
+      "reading": "ふれっくす",
+      "headword": "フレックス",
+      "label": "flextime (work arrangement)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "business",
         "daily-life"
       ]
     },
     "created": "2026-04-19T11:19:46Z",
-    "modified": "2026-04-19T11:19:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

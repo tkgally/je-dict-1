@@ -3,7 +3,7 @@
   "headword": "{奏上|そうじょう}",
   "reading": "そうじょう",
   "romaji": "soujou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reporting to the emperor or a deity; respectful address",
   "definitions": [
     {
@@ -56,6 +56,13 @@
       "type": "synonym",
       "reading": "じょうそう",
       "headword": "{上奏|じょうそう}"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03618_houkoku",
+      "reading": "ほうこく",
+      "headword": "{報告|ほうこく}",
+      "label": "report"
     }
   ],
   "schema_version": "2.0",
@@ -67,7 +74,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "communication",
         "history"
@@ -76,7 +83,7 @@
       "verb_class": "suru"
     },
     "created": "2026-08-15T12:20:22Z",
-    "modified": "2026-08-15T12:20:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

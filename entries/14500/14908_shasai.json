@@ -19,7 +19,9 @@
       "english": "To record with a dashcam.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14908_shasai_ex2",
@@ -27,7 +29,9 @@
       "english": "I updated the maps on the car's built-in navigation system.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14908_shasai_ex3",
@@ -35,22 +39,45 @@
       "english": "Many recent cars come equipped with on-board Wi-Fi as standard.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{車載|しゃさい} functions primarily as a prefix or modifier attached to nouns to indicate that something is designed for use in or mounted on a vehicle. It is very common in product descriptions, technical specifications, and everyday conversation about car accessories.\n\nCOMMON COLLOCATIONS:\n- {車載|しゃさい}カメラ (dashcam, vehicle camera)\n- {車載|しゃさい}ナビ (car navigation system)\n- {車載|しゃさい}{充電器|じゅうでんき} (car charger)\n- {車載|しゃさい}{冷蔵庫|れいぞうこ} (portable car refrigerator)\n- {車載|しゃさい}スピーカー (car speaker)\n\nSIMILAR WORDS:\n- {車載|しゃさい}: vehicle-mounted (built into or designed for a vehicle)\n- {搭載|とうさい}: equipped with (broader; any device or feature installed in something)\n- {車内|しゃない}: inside the vehicle (refers to the interior space, not equipment)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12789_tousai",
+      "reading": "とうさい",
+      "headword": "{搭載|とうさい}",
+      "label": "equipped with (broader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06203_shanai",
+      "reading": "しゃない",
+      "headword": "{車内|しゃない}",
+      "label": "inside the vehicle"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T05:52:20Z",
-    "modified": "2026-03-04T05:52:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"],
-      "domain": ["technical"]
+      "semantic": [
+        "transportation"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

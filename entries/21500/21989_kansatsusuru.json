@@ -3,7 +3,7 @@
   "headword": "{観察|かんさつ}する",
   "reading": "かんさつする",
   "romaji": "kansatsusuru",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to observe; to watch closely",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,36 @@
   ],
   "notes": "Implies systematic, purposeful watching — not casual looking. Commonly used in science education, nature study, and medical/clinical contexts.\n\nCOMMON COLLOCATIONS:\n- {自然|しぜん}を{観察|かんさつ}する: to observe nature\n- {行動|こうどう}を{観察|かんさつ}する: to observe behavior\n- {観察|かんさつ}{力|りょく}: powers of observation\n- {観察|かんさつ}{日記|にっき}: observation diary (common school assignment)\n- {経過|けいか}{観察|かんさつ}: follow-up observation (medical)\n\nSIMILAR WORDS:\n- {見|み}る: to look, see — general and casual\n- {注目|ちゅうもく}する: to pay attention to, focus on — emphasizes directing attention\n- {監視|かんし}する: to monitor, surveil — implies watching for security or control purposes\n- {観測|かんそく}する: to observe (scientific instruments) — used for weather, astronomy",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00283_miru",
+      "reading": "みる",
+      "headword": "{見|み}る",
+      "label": "to look, see"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25530_chuumokusuru",
+      "reading": "ちゅうもくする",
+      "headword": "{注目|ちゅうもく}する",
+      "label": "to pay attention to, focus on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05521_kanshi",
+      "reading": "かんし",
+      "headword": "{監視|かんし}",
+      "label": "to monitor, surveil"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00183_kansoku",
+      "reading": "かんそく",
+      "headword": "{観測|かんそく}",
+      "label": "to observe"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +182,6 @@
       "verb_class": "suru"
     },
     "created": "2026-04-04T19:28:45Z",
-    "modified": "2026-04-04T19:28:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

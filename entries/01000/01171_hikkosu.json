@@ -43,11 +43,61 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pattern: X⟦に→に：00314_ni⟧{引|ひ}っ{越|こ}す (move to X).\n\nASPECT: ている indicates completed action with ongoing relevance. {引|ひ}っ{越|こ}している = 'have moved' or 'am in the process of moving.'\n\nCOMMON PATTERNS:\n・X⟦に→に：00314_ni⟧{引|ひ}っ{越|こ}す (move to X)\n・⟦{引|ひ}っ{越|こ}し→引越し：03704_hikkoshi⟧ (moving, relocation—noun)\n・⟦{引|ひ}っ{越|こ}し→引越し：03704_hikkoshi⟧⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧ (moving company)\n・⟦{引|ひ}っ{越|こ}し→引越し：03704_hikkoshi⟧⟦{祝|いわ}い→祝い：01838_iwai⟧ (housewarming gift)\n・{引|ひ}っ{越|こ}して⟦{来|く}る→来る：00254_kuru⟧ (move here)\n\nCONTRAST WITH ⟦{移|うつ}る→移る：01232_utsuru⟧:\n・{引|ひ}っ{越|こ}す: specifically moving residence\n・⟦{移|うつ}る→移る：01232_utsuru⟧: more general 'move/transfer' (residence, job, location)\n\nCOMPOUND VERB: ⟦{引|ひ}く→引く：01978_hiku⟧ (pull) + ⟦{越|こ}す→越す：02282_kosu⟧ (cross over) → implies moving belongings over to a new place.",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pattern: X⟦に→に：00314_ni⟧{引|ひ}っ{越|こ}す (move to X).\n\nASPECT: ている indicates completed action with ongoing relevance. {引|ひ}っ{越|こ}している = 'have moved' or 'am in the process of moving.'\n\nCOMMON PATTERNS:\n- X⟦に→に：00314_ni⟧{引|ひ}っ{越|こ}す (move to X)\n- ⟦{引|ひ}っ{越|こ}し→引越し：03704_hikkoshi⟧ (moving, relocation—noun)\n- ⟦{引|ひ}っ{越|こ}し→引越し：03704_hikkoshi⟧⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧ (moving company)\n- ⟦{引|ひ}っ{越|こ}し→引越し：03704_hikkoshi⟧⟦{祝|いわ}い→祝い：01838_iwai⟧ (housewarming gift)\n- {引|ひ}っ{越|こ}して⟦{来|く}る→来る：00254_kuru⟧ (move here)\n\nCONTRAST WITH ⟦{移|うつ}る→移る：01232_utsuru⟧:\n- {引|ひ}っ{越|こ}す: specifically moving residence\n- ⟦{移|うつ}る→移る：01232_utsuru⟧: more general 'move/transfer' (residence, job, location)\n\nCOMPOUND VERB: ⟦{引|ひ}く→引く：01978_hiku⟧ (pull) + ⟦{越|こ}す→越す：02282_kosu⟧ (cross over) → implies moving belongings over to a new place.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01232_utsuru",
+      "reading": "うつる",
+      "headword": "{移|うつ}る",
+      "label": "more general 'move/transfer'"
+    },
+    {
+      "type": "related",
+      "target_id": "07417_hikkomu",
+      "reading": "ひっこむ",
+      "headword": "{引|ひ}っ{込|こ}む",
+      "label": "to withdraw"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20210_itensuru",
+      "reading": "いてんする",
+      "headword": "{移転|いてん}する",
+      "label": "to relocate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21604_tenkyosuru",
+      "reading": "てんきょする",
+      "headword": "{転居|てんきょ}する",
+      "label": "to move"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22430_idousuru",
+      "reading": "いどうする",
+      "headword": "{移動|いどう}する",
+      "label": "to move"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26917_tennyuusuru",
+      "reading": "てんにゅうする",
+      "headword": "{転入|てんにゅう}する",
+      "label": "to transfer in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26918_tenshutsusuru",
+      "reading": "てんしゅつする",
+      "headword": "{転出|てんしゅつ}する",
+      "label": "to transfer out"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:19:34Z",
-    "modified": "2026-05-14T15:12:54Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

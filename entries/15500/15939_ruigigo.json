@@ -19,7 +19,9 @@
       "english": "A synonym for 'big' is 'enormous.'",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15939_ruigigo_ex2",
@@ -27,7 +29,9 @@
       "english": "Distinguishing between synonyms is difficult.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15939_ruigigo_ex3",
@@ -35,7 +39,9 @@
       "english": "I looked up synonyms in the dictionary and understood the subtle differences in nuance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{類義語|るいぎご} is the standard term used in language education and linguistics. It appears frequently in textbooks, dictionaries, and language exams.\n\nCOMMON COLLOCATIONS:\n- {類義語|るいぎご}{辞典|じてん} (thesaurus, synonym dictionary)\n- {類義語|るいぎご}の{使|つか}い{分|わ}け (distinguishing between synonyms)\n- {類義語|るいぎご}を{調|しら}べる (to look up synonyms)\n\nRELATED WORDS:\n{対義語|たいぎご} means antonym. {同義語|どうぎご} means a word with exactly the same meaning, while {類義語|るいぎご} includes words with similar but not identical meanings.",
@@ -52,19 +58,46 @@
       "reading": "どうぎご",
       "headword": "{同義語|どうぎご}",
       "label": "exact synonym (stricter)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23852_haseigo",
+      "reading": "はせいご",
+      "headword": "{派生語|はせいご}",
+      "label": "derived word"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24354_hanigo",
+      "reading": "はんいご",
+      "headword": "{反意語|はんいご}",
+      "label": "antonym"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29409_hantaigo",
+      "reading": "はんたいご",
+      "headword": "{反対語|はんたいご}",
+      "label": "antonym"
     }
   ],
   "metadata": {
     "created": "2026-03-09T00:41:27Z",
-    "modified": "2026-05-02T09:03:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"],
-      "domain": ["academic"]
+      "semantic": [
+        "education"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

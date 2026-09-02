@@ -17,7 +17,9 @@
       "id": "24930_keitaihin_ex1",
       "japanese": "{携帯品|けいたいひん}にご{注意|ちゅうい}ください。",
       "english": "Please watch your personal belongings.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24930_keitaihin_ex2",
       "japanese": "{携帯品|けいたいひん}の{検査|けんさ}にご{協力|きょうりょく}ください。",
       "english": "Please cooperate with the inspection of your carry-on items.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,44 @@
       "id": "24930_keitaihin_ex3",
       "japanese": "{空港|くうこう}では{携帯品|けいたいひん}から{目|め}を{離|はな}さないようにしてください。",
       "english": "At the airport, please do not leave your personal belongings unattended.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {携帯|けいたい} (carrying, portable) and {品|ひん} (item, article). This word is commonly seen in formal announcements, signage, and regulations at airports, train stations, and other public facilities.\n\nNote that while {携帯|けいたい} is commonly associated with mobile phones in casual speech, in {携帯品|けいたいひん} it retains its original meaning of \"things one carries.\"\n\nCOMMON COLLOCATIONS:\n- {携帯品|けいたいひん}の{検査|けんさ}: inspection of personal items\n- {携帯品|けいたいひん}に{注意|ちゅうい}: watch your belongings\n- {携帯品|けいたいひん}{申告|しんこく}: declaration of personal effects (customs)\n- {携帯品|けいたいひん}の{持|も}ち{込|こ}み: bringing in personal items\n\nSIMILAR WORDS:\n- {手荷物|てにもつ}: hand luggage, carry-on baggage — specifically luggage brought aboard transportation\n- {所持品|しょじひん}: belongings, possessions on one's person — more formal; used in legal and police contexts\n- {身|み}の{回|まわ}り{品|ひん}: personal effects — everyday items one keeps close; slightly more informal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09928_tenimotsu",
+      "reading": "てにもつ",
+      "headword": "{手荷物|てにもつ}",
+      "label": "hand luggage, carry-on baggage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20346_shojihin",
+      "reading": "しょじひん",
+      "headword": "{所持品|しょじひん}",
+      "label": "belongings, possessions on one's person"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["travel", "daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "travel",
+        "daily-life"
+      ]
     },
     "created": "2026-04-21T13:16:55Z",
-    "modified": "2026-04-21T13:16:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

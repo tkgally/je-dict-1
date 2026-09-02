@@ -3,7 +3,7 @@
   "headword": "{送信|そうしん}する",
   "reading": "そうしんする",
   "romaji": "soushinsuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to send; to transmit",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Used specifically for electronic or signal-based communication. The basic meaning is dispatching information from a sender to a receiver through some medium (email, radio, network, etc.).\n\nCOMMON COLLOCATIONS:\n- メールを{送信|そうしん}する: to send an email\n- データを{送信|そうしん}する: to transmit data\n- {信号|しんごう}を{送信|そうしん}する: to transmit a signal\n- {送信|そうしん}ボタン: send button\n- {送信|そうしん}{済|ず}み: already sent\n\nSIMILAR WORDS:\n- {送|おく}る: to send — general-purpose; includes physical items and people\n- {発信|はっしん}する: to dispatch/originate — emphasizes the point of origin; also used for broadcasting ideas\n- {転送|てんそう}する: to forward — sending something received onward to another recipient",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00742_okuru",
+      "reading": "おくる",
+      "headword": "{送|おく}る",
+      "label": "to send"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04895_hasshin",
+      "reading": "はっしん",
+      "headword": "{発信|はっしん}",
+      "label": "to dispatch/originate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21617_tensousuru",
+      "reading": "てんそうする",
+      "headword": "{転送|てんそう}する",
+      "label": "to forward"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T11:04:56Z",
-    "modified": "2026-05-05T11:04:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{続|つづ}ける→続ける：01231_tsuzukeru⟧ (transitive). Pattern: X⟦が→が：00051_ga⟧{続|つづ}く (X continues).\n\nASPECT: ている indicates ongoing state. {続|つづ}いている = 'is continuing' (ongoing state).\n\nCOMMON PATTERNS:\n・⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧{続|つづ}く (rain continues)\n・⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧{続|つづ}く (story continues)\n・⟦{道|みち}→道：00505_michi⟧⟦が→が：00051_ga⟧{続|つづ}く (road continues)\n・⟦{続|つづ}き→続き：03526_tsuzuki⟧⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧ (read the continuation)\n\nPAIR: ⟦{続|つづ}ける→続ける：01231_tsuzukeru⟧ (transitive) - ⟦{勉強|べんきょう}→勉強：00770_benkyou⟧⟦を→を：00422_wo⟧{続|つづ}ける (continue studying). Noun: ⟦{続|つづ}き→続き：03526_tsuzuki⟧ (continuation).",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{続|つづ}ける→続ける：01231_tsuzukeru⟧ (transitive). Pattern: X⟦が→が：00051_ga⟧{続|つづ}く (X continues).\n\nASPECT: ている indicates ongoing state. {続|つづ}いている = 'is continuing' (ongoing state).\n\nCOMMON PATTERNS:\n- ⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧{続|つづ}く (rain continues)\n- ⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧{続|つづ}く (story continues)\n- ⟦{道|みち}→道：00505_michi⟧⟦が→が：00051_ga⟧{続|つづ}く (road continues)\n- ⟦{続|つづ}き→続き：03526_tsuzuki⟧⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧ (read the continuation)\n\nPAIR: ⟦{続|つづ}ける→続ける：01231_tsuzukeru⟧ (transitive) - ⟦{勉強|べんきょう}→勉強：00770_benkyou⟧⟦を→を：00422_wo⟧{続|つづ}ける (continue studying). Noun: ⟦{続|つづ}き→続き：03526_tsuzuki⟧ (continuation).",
   "cross_references": [
     {
       "type": "pair",
@@ -71,11 +71,32 @@
       "reading": "つづける",
       "headword": "{続|つづ}ける",
       "label": "transitive: to continue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22173_renzokusuru",
+      "reading": "れんぞくする",
+      "headword": "{連続|れんぞく}する",
+      "label": "to continue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26885_nagatsuzukisuru",
+      "reading": "ながつづきする",
+      "headword": "{長続|ながつづ}きする",
+      "label": "to last long"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26920_jizokusuru",
+      "reading": "じぞくする",
+      "headword": "{持続|じぞく}する",
+      "label": "to continue"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:39:03Z",
-    "modified": "2026-05-13T14:08:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

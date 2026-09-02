@@ -3,7 +3,7 @@
   "headword": "{破壊|はかい}する",
   "reading": "はかいする",
   "romaji": "hakaisuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to destroy; to demolish; to break down",
   "definitions": [
     {
@@ -81,6 +81,29 @@
   ],
   "notes": "A strong word implying thorough or severe damage. It carries a sense of violence or force, unlike milder words like {壊|こわ}す. The noun form {破壊|はかい} is frequently used in compound expressions.\n\nCOMMON COLLOCATIONS:\n- {環境|かんきょう}{破壊|はかい}: environmental destruction\n- {自己|じこ}{破壊|はかい}: self-destruction\n- {大量|たいりょう}{破壊|はかい}{兵器|へいき}: weapons of mass destruction\n- {破壊|はかい}{力|りょく}: destructive power\n- {破壊|はかい}{的|てき}: destructive\n\nSIMILAR WORDS:\n- {壊|こわ}す: to break — everyday word for breaking physical objects; less dramatic than {破壊|はかい}する\n- {潰|つぶ}す: to crush; to squash — focuses on flattening or pressing something until it loses shape\n- {崩壊|ほうかい}する: to collapse; to crumble — emphasizes falling apart or disintegrating, often from within",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01241_kowasu",
+      "reading": "こわす",
+      "headword": "{壊|こわ}す",
+      "label": "to break"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00410_tsubusu",
+      "reading": "つぶす",
+      "headword": "{潰|つぶ}す",
+      "label": "to crush"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09067_houkai",
+      "reading": "ほうかい",
+      "headword": "{崩壊|ほうかい}",
+      "label": "to collapse"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -96,7 +119,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-06T16:52:27Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

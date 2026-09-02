@@ -3,7 +3,7 @@
   "headword": "{自由勝手|じゆうかって}",
   "reading": "じゆうかって",
   "romaji": "jiyuukatte",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "doing as one pleases; acting freely and selfishly",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "A four-character compound combining {自由|じゆう} (freedom) and {勝手|かって} (selfishness, doing as one pleases). Both components can stand alone with similar meanings, but together they emphasize unbridled, selfish behavior. Almost always used critically.\n\nCOMMON COLLOCATIONS:\n- {自由勝手|じゆうかって}な{行動|こうどう}: self-centered behavior\n- {自由勝手|じゆうかって}な{振|ふ}る{舞|ま}い: acting however one pleases\n- {自由勝手|じゆうかって}にする: to do as one pleases\n- {自由勝手|じゆうかって}に{振|ふ}る{舞|ま}う: to behave freely and selfishly\n\nSIMILAR WORDS:\n- {勝手|かって}: selfish, arbitrary — the shorter, more common word for selfish behavior\n- {身勝手|みがって}: selfish — emphasizes self-centeredness at others' expense\n- {気まま}: whimsical, free-spirited — lighter tone, not necessarily negative\n- {奔放|ほんぽう}: uninhibited — can be positive or negative depending on context",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14345_migatte",
+      "reading": "みがって",
+      "headword": "{身勝手|みがって}",
+      "label": "selfish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20059_honpou",
+      "reading": "ほんぽう",
+      "headword": "{奔放|ほんぽう}",
+      "label": "uninhibited"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26529_wagakatte",
+      "reading": "わがかって",
+      "headword": "{我|わが}{勝手|かって}",
+      "label": "selfishness"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +83,6 @@
       ]
     },
     "created": "2026-05-03T12:32:58Z",
-    "modified": "2026-05-03T12:32:58Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

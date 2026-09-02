@@ -3,7 +3,7 @@
   "headword": "{過小|かしょう}",
   "reading": "かしょう",
   "romaji": "kashou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "too small; underestimation; insufficiency",
   "definitions": [
     {
@@ -45,6 +45,22 @@
     }
   ],
   "notes": "Means something is smaller or less than it should be, or that something is being evaluated as less significant than it really is. Combines {過|か} (excess, going beyond) and {小|しょう} (small) — literally \"excessively small.\"\n\nUSAGE:\n- Most commonly appears in the compound {過小|かしょう}{評価|ひょうか} (underestimation)\n- Functions as a noun or a prefix-like modifier with な or に\n- The opposite is {過大|かだい} (overestimation, too large)\n- Used in formal and analytical writing more than in casual conversation\n\nCOMMON COLLOCATIONS:\n- {過小|かしょう}{評価|ひょうか}: underestimation\n- {過小|かしょう}{評価|ひょうか}する: to underestimate\n- {過小|かしょう}な{見積|みつ}もり: an underestimate\n- {過小|かしょう}{申告|しんこく}: underreporting (e.g., taxes, income)\n\nSIMILAR WORDS:\n- {過大|かだい}: too large, overestimation — the opposite\n- {過剰|かじょう}: excessive, surplus — emphasizes having too much\n- {不足|ふそく}: shortage, insufficiency — focuses on lacking rather than being evaluated too low",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04123_kajou",
+      "reading": "かじょう",
+      "headword": "{過剰|かじょう}",
+      "label": "excessive, surplus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03598_fusoku",
+      "reading": "ふそく",
+      "headword": "{不足|ふそく}",
+      "label": "shortage, insufficiency"
+    }
+  ],
   "metadata": {
     "entry_id": "21716_kashou",
     "schema_version": "2.0",
@@ -56,6 +72,7 @@
         "noun",
         "adjective-na"
       ],
+      "politeness": "plain",
       "semantic": [
         "quantity"
       ],
@@ -64,6 +81,6 @@
       ],
       "usage": []
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

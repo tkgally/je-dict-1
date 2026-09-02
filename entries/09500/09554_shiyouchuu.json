@@ -17,24 +17,30 @@
       "japanese": "トイレは{使用中|しようちゅう}です。",
       "english": "The toilet is occupied.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09554_shiyouchuu_ex2",
       "japanese": "{会議室|かいぎしつ}が{使用中|しようちゅう}になっている。",
       "english": "The meeting room is in use.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09554_shiyouchuu_ex3",
       "japanese": "{使用中|しようちゅう}のランプが{点灯|てんとう}している。",
       "english": "The 'in use' light is on.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A compound of {使用|しよう} (use) + {中|ちゅう} (during). Functions as a status indicator meaning \"currently in use\" or \"occupied.\"\n\nCOMMON CONTEXTS:\n- トイレ/お{手洗|てあら}い: restroom (the most common context)\n- {会議室|かいぎしつ}: meeting rooms\n- コピー{機|き}: copy machines\n- {更衣室|こういしつ}: changing rooms\n\nCOMMON COLLOCATIONS:\n- {使用中|しようちゅう}の{表示|ひょうじ}: \"in use\" indicator\n- {使用中|しようちゅう}になる: to become occupied\n- {使用中|しようちゅう}のランプ: \"in use\" light\n\nRELATED 〜{中|ちゅう} EXPRESSIONS:\n- {故障中|こしょうちゅう}: out of order\n- {営業中|えいぎょうちゅう}: open for business\n- {準備中|じゅんびちゅう}: in preparation / closed for setup\n- {清掃中|せいそうちゅう}: being cleaned\n\nCONTRAST:\n- {空|あ}き/{空室|くうしつ}: vacant, available",
+  "notes": "A compound of {使用|しよう} (use) + {中|ちゅう} (during). Functions as a status indicator meaning \"currently in use\" or \"occupied.\"\n\nUSAGE:\n- トイレ/お{手洗|てあら}い: restroom (the most common context)\n- {会議室|かいぎしつ}: meeting rooms\n- コピー{機|き}: copy machines\n- {更衣室|こういしつ}: changing rooms\n\nCOMMON COLLOCATIONS:\n- {使用中|しようちゅう}の{表示|ひょうじ}: \"in use\" indicator\n- {使用中|しようちゅう}になる: to become occupied\n- {使用中|しようちゅう}のランプ: \"in use\" light\n\nRELATED 〜{中|ちゅう} EXPRESSIONS:\n- {故障中|こしょうちゅう}: out of order\n- {営業中|えいぎょうちゅう}: open for business\n- {準備中|じゅんびちゅう}: in preparation / closed for setup\n- {清掃中|せいそうちゅう}: being cleaned\n\nSIMILAR WORDS:\n- {空|あ}き/{空室|くうしつ}: vacant, available",
   "cross_references": [
     {
       "type": "related",
@@ -49,18 +55,64 @@
       "reading": "えいぎょうちゅう",
       "headword": "{営業中|えいぎょうちゅう}",
       "label": "open for business"
+    },
+    {
+      "type": "related",
+      "target_id": "09540_junbichuu",
+      "reading": "じゅんびちゅう",
+      "headword": "{準備中|じゅんびちゅう}",
+      "label": "in preparation / closed for setup"
+    },
+    {
+      "type": "related",
+      "target_id": "10260_seisouchuu",
+      "reading": "せいそうちゅう",
+      "headword": "{清掃中|せいそうちゅう}",
+      "label": "being cleaned"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10464_aki",
+      "reading": "あき",
+      "headword": "{空|あ}き",
+      "label": "vacant, available"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14798_kuushitsu",
+      "reading": "くうしつ",
+      "headword": "{空室|くうしつ}",
+      "label": "vacant, available"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22500_kadouchuu",
+      "reading": "かどうちゅう",
+      "headword": "{稼働中|かどうちゅう}",
+      "label": "in operation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24976_tsuuwachuu",
+      "reading": "つうわちゅう",
+      "headword": "{通話中|つうわちゅう}",
+      "label": "on a call"
     }
   ],
   "metadata": {
     "created": "2026-02-02T10:42:08Z",
-    "modified": "2026-04-23T05:18:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["expression"]
+      "semantic": [
+        "expression"
+      ]
     }
   }
 }

@@ -22,7 +22,9 @@
       "japanese": "{土地|とち}の{共有者|きょうゆうしゃ}は{三人|さんにん}いる。",
       "english": "There are three co-owners of the land.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -30,7 +32,9 @@
       "japanese": "{共有者|きょうゆうしゃ}{全員|ぜんいん}の{同意|どうい}が{必要|ひつよう}だ。",
       "english": "The consent of all co-owners is required.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -38,7 +42,9 @@
       "japanese": "マンションの{共有者|きょうゆうしゃ}として{管理費|かんりひ}を{負担|ふたん}している。",
       "english": "As a co-owner of the condominium, I bear the management fee.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -46,7 +52,9 @@
       "japanese": "ファイルの{共有者|きょうゆうしゃ}を{追加|ついか}する。",
       "english": "I'll add people who can share the file.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -54,7 +62,9 @@
       "japanese": "この{情報|じょうほう}の{共有者|きょうゆうしゃ}は{限|かぎ}られている。",
       "english": "The people who share this information are limited.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -62,7 +72,9 @@
       "japanese": "クラウド{上|じょう}のフォルダの{共有者|きょうゆうしゃ}を{確認|かくにん}してください。",
       "english": "Please check who has sharing access to the folder on the cloud.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
@@ -74,11 +86,25 @@
       "headword": "共有",
       "label": "shared ownership; sharing",
       "target_id": "11666_kyouyuu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21212_shoyuusha",
+      "reading": "しょゆうしゃ",
+      "headword": "{所有者|しょゆうしゃ}",
+      "label": "owner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10439_mochinushi",
+      "reading": "もちぬし",
+      "headword": "{持|も}ち{主|ぬし}",
+      "label": "owner, possessor"
     }
   ],
   "metadata": {
     "created": "2026-04-23T14:41:00Z",
-    "modified": "2026-04-23T14:41:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

@@ -3,7 +3,7 @@
   "headword": "{子会社化|こがいしゃか}",
   "reading": "こがいしゃか",
   "romaji": "kogaishaka",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "subsidiarization; making into a subsidiary",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Compound of {子会社|こがいしゃ} (subsidiary company) and the suffix {化|か} (turning into; -ization). The suffix ~{化|か} is extremely productive in business Japanese for describing transformation processes.\n\nCOMMON COLLOCATIONS:\n- {完全|かんぜん}{子会社化|こがいしゃか}: making a wholly-owned subsidiary\n- {子会社化|こがいしゃか}を{発表|はっぴょう}する: to announce subsidiarization\n- {子会社化|こがいしゃか}を{検討|けんとう}する: to consider making into a subsidiary\n- {買収|ばいしゅう}による{子会社化|こがいしゃか}: subsidiarization through acquisition\n\nSIMILAR WORDS:\n- {買収|ばいしゅう}: acquisition, the broader act of purchasing a company\n- {合併|がっぺい}: merger, combining two companies into one entity\n- {分社化|ぶんしゃか}: spin-off, splitting off a division into its own company\n- {吸収合併|きゅうしゅうがっぺい}: absorption merger, one company absorbs another",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04780_baishuu",
+      "reading": "ばいしゅう",
+      "headword": "{買収|ばいしゅう}",
+      "label": "acquisition, the broader act…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04778_gappei",
+      "reading": "がっぺい",
+      "headword": "{合併|がっぺい}",
+      "label": "merger, combining two companies…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-21T14:22:27Z",
-    "modified": "2026-06-15T07:57:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

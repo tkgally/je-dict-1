@@ -3,7 +3,7 @@
   "headword": "{記憶|きおく}する",
   "reading": "きおくする",
   "romaji": "kiokusuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to memorize; to remember; to commit to memory",
   "definitions": [
     {
@@ -55,7 +55,29 @@
     }
   ],
   "notes": "The noun {記憶|きおく} (memory) is extremely common and appears in everyday conversation, while the verb form {記憶|きおく}する is somewhat more formal than {覚|おぼ}える. Also used in computing contexts for data storage.\n\nCOMMON COLLOCATIONS:\n- {記憶|きおく}{力|りょく}: memory (ability)\n- {記憶|きおく}に{残|のこ}る: to remain in memory\n- {記憶|きおく}が{薄|うす}れる: memory fades\n- {記憶|きおく}{喪失|そうしつ}: amnesia; memory loss\n- {記憶|きおく}{容量|ようりょう}: memory capacity (computing)\n\nSIMILAR WORDS:\n- {覚|おぼ}える: to remember, to memorize — everyday term, less formal\n- {暗記|あんき}する: to memorize by heart — specifically rote memorization\n- {思|おも}い{出|だ}す: to recall — retrieving a memory, not storing one",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00739_oboeru",
+      "reading": "おぼえる",
+      "headword": "{覚|おぼ}える",
+      "label": "to remember, to memorize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01701_anki",
+      "reading": "あんき",
+      "headword": "{暗記|あんき}",
+      "label": "to memorize by heart"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01258_omoidasu",
+      "reading": "おもいだす",
+      "headword": "{思|おも}い{出|だ}す",
+      "label": "to recall"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,7 +93,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T13:13:03Z",
-    "modified": "2026-05-05T13:13:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

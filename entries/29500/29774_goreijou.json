@@ -17,7 +17,9 @@
       "id": "29774_goreijou_ex1",
       "japanese": "{御令嬢|ごれいじょう}のご{結婚|けっこん}、おめでとうございます。",
       "english": "Congratulations on your daughter's marriage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29774_goreijou_ex2",
       "japanese": "{御令嬢|ごれいじょう}のご{活躍|かつやく}を{伺|うかが}っております。",
       "english": "I have been hearing of your daughter's fine accomplishments.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29774_goreijou_ex3",
       "japanese": "{社長|しゃちょう}の{御令嬢|ごれいじょう}が{留学|りゅうがく}から{帰|かえ}ってこられた。",
       "english": "The president's daughter has returned from studying abroad.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from the honorific prefix {御|ご} + {令嬢|れいじょう} (another's daughter). A formal keigo term used to elevate the listener's family; never used for one's own daughter.\n\nUSAGE:\n- Appears mainly in formal letters, speeches, and announcements (weddings, funerals, business).\n- In everyday conversation, {娘|むすめ}さん is the ordinary polite equivalent.\n\nSIMILAR WORDS:\n- {御令息|ごれいそく}: your son (honorific) — the male counterpart.\n- {娘|むすめ}さん: your daughter — polite but far more casual and common in speech.\n- お{嬢|じょう}さん: young lady; your daughter — polite and common in everyday speech.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29766_goreisoku",
+      "reading": "ごれいそく",
+      "headword": "御令息",
+      "label": "your son"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01566_ojousan",
+      "reading": "おじょうさん",
+      "headword": "お{嬢|じょう}さん",
+      "label": "young lady"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "honorific",
-      "semantic": ["family"],
+      "semantic": [
+        "family"
+      ],
       "domain": []
     },
     "created": "2026-07-11T21:17:16Z",
-    "modified": "2026-07-11T21:17:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

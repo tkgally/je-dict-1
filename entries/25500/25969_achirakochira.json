@@ -3,7 +3,7 @@
   "headword": "あちらこちら",
   "reading": "あちらこちら",
   "romaji": "achirakochira",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, adverb",
   "gloss": "here and there; all over the place; various places",
   "definitions": [
     {
@@ -52,6 +52,34 @@
       "headword": "あちこち",
       "label": "same meaning, more common",
       "target_id": "01687_achikochi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30344_acchikocchi",
+      "reading": "あっちこっち",
+      "headword": "あっちこっち",
+      "label": "here and there"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00116_houbou",
+      "reading": "ほうぼう",
+      "headword": "{方々|ほうぼう}",
+      "label": "all around"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15861_itarutokoro",
+      "reading": "いたるところ",
+      "headword": "{至|いた}る{所|ところ}",
+      "label": "everywhere"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21008_sokokashiko",
+      "reading": "そこかしこ",
+      "headword": "そこかしこ",
+      "label": "here and there"
     }
   ],
   "schema_version": "2.0",
@@ -62,11 +90,12 @@
         "noun",
         "adverb"
       ],
+      "politeness": "plain",
       "semantic": [
         "direction"
       ]
     },
     "created": "2026-04-28T14:11:31Z",
-    "modified": "2026-08-02T12:18:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

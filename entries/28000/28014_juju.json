@@ -3,7 +3,7 @@
   "headword": "授受",
   "reading": "じゅじゅ",
   "romaji": "juju",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "giving and receiving; transfer; exchange",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Composed of {授|じゅ} (to give, confer) + {受|じゅ} (to receive). Refers to a two-way handover. A formal, written-register word.\n\nCOMMON COLLOCATIONS:\n- {金銭|きんせん}の{授受|じゅじゅ}: the exchange of money\n- {書類|しょるい}の{授受|じゅじゅ}: the handover of documents\n- {授受|じゅじゅ}{動詞|どうし}: giving-and-receiving verbs (a grammar term for あげる・くれる・もらう)\n\nSIMILAR WORDS:\n- やり{取|と}り: exchange — far more casual and everyday\n- {受|う}け{渡|わた}し: delivery / handover — emphasizes the physical passing of goods",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07702_yaritori",
+      "reading": "やりとり",
+      "headword": "やり{取|と}り",
+      "label": "exchange"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22763_ukewatashi",
+      "reading": "うけわたし",
+      "headword": "{受|う}け{渡|わた}し",
+      "label": "delivery / handover"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "communication",
         "business"
@@ -63,7 +79,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-24T03:09:30Z",
-    "modified": "2026-05-24T03:09:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

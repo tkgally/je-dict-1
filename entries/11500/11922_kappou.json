@@ -18,7 +18,9 @@
       "english": "We went to eat traditional Japanese haute cuisine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11922_kappou_ex2",
@@ -26,7 +28,9 @@
       "english": "There's a long-established Japanese fine dining restaurant in front of the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11922_kappou_ex3",
@@ -34,22 +38,64 @@
       "english": "The true appeal of kappou dining is eating at the counter while watching the chef's craftsmanship.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Literally means \"cutting ({割|か}つ) and cooking ({烹|ほう}じる)\" — the two fundamental Japanese culinary techniques. {割烹|かっぽう} restaurants are typically upscale establishments where seasonal ingredients are prepared with refined technique. Often features counter seating where diners watch the chef at work.\n\nCOMMON COMPOUNDS:\n・{割烹|かっぽう}{料理|りょうり} (Japanese haute cuisine)\n・{割烹|かっぽう}{着|ぎ} (traditional cooking apron/smock)\n・{割烹|かっぽう}{料理|りょうり}{店|てん} (kappou restaurant)",
-  "cross_references": [],
+  "notes": "Literally means \"cutting ({割|か}つ) and cooking ({烹|ほう}じる)\" — the two fundamental Japanese culinary techniques. {割烹|かっぽう} restaurants are typically upscale establishments where seasonal ingredients are prepared with refined technique. Often features counter seating where diners watch the chef at work.\n\nCOMPOUNDS:\n- {割烹|かっぽう}{料理|りょうり} (Japanese haute cuisine)\n- {割烹|かっぽう}{着|ぎ} (traditional cooking apron/smock)\n- {割烹|かっぽう}{料理|りょうり}{店|てん} (kappou restaurant)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21710_ryoutei",
+      "reading": "りょうてい",
+      "headword": "{料亭|りょうてい}",
+      "label": "high-class Japanese restaurant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25920_koukyuuryoutei",
+      "reading": "こうきゅうりょうてい",
+      "headword": "{高級|こうきゅう}{料亭|りょうてい}",
+      "label": "high-class Japanese restaurant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26980_kaisekiryouri",
+      "reading": "かいせきりょうり",
+      "headword": "{会席料理|かいせきりょうり}",
+      "label": "kaiseki cuisine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27134_washokuya",
+      "reading": "わしょくや",
+      "headword": "{和食屋|わしょくや}",
+      "label": "Japanese food restaurant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27551_ryouriya",
+      "reading": "りょうりや",
+      "headword": "{料理屋|りょうりや}",
+      "label": "Japanese restaurant (traditional)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T14:17:31Z",
-    "modified": "2026-02-18T14:17:31Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

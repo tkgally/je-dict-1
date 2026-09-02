@@ -17,7 +17,9 @@
       "id": "23622_shinchoukei_ex1",
       "japanese": "{身長計|しんちょうけい}で{測|はか}る。",
       "english": "I measure with a stadiometer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23622_shinchoukei_ex2",
       "japanese": "{学校|がっこう}の{保健室|ほけんしつ}に{身長計|しんちょうけい}がある。",
       "english": "There is a stadiometer in the school nurse's office.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23622_shinchoukei_ex3",
       "japanese": "{子供|こども}の{成長|せいちょう}を{記録|きろく}するために{家庭用|かていよう}の{身長計|しんちょうけい}を{買|か}った。",
       "english": "I bought a home stadiometer to record my child's growth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,45 @@
       "id": "23622_shinchoukei_ex4",
       "japanese": "{健康診断|けんこうしんだん}では、まず{身長計|しんちょうけい}の{前|まえ}に{立|た}って{身長|しんちょう}を{測|はか}られる。",
       "english": "At a health checkup, you first stand in front of the stadiometer and have your height measured.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {身長|しんちょう} (height, stature) and the suffix {計|けい} (measuring device). Refers specifically to a device that measures standing height; for weight, the equivalent is {体重計|たいじゅうけい}.\n\nUSAGE:\nStandard equipment in Japanese school health offices ({保健室|ほけんしつ}) and clinics, where annual height and weight measurements are part of routine checkups. Home versions are common in families with young children.\n\nCOMMON COLLOCATIONS:\n- {身長計|しんちょうけい}で{測|はか}る: to measure with a stadiometer\n- {身長計|しんちょうけい}の{前|まえ}に{立|た}つ: to stand in front of the stadiometer\n- {家庭用|かていよう}{身長計|しんちょうけい}: home-use stadiometer\n\nSIMILAR WORDS:\n- {体重計|たいじゅうけい}: bathroom scale — measures weight, the natural counterpart\n- {身長|しんちょう}{計測器|けいそくき}: height measuring device — a more technical synonym\n- メジャー: tape measure — flexible measuring tape, used for body circumference rather than height",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05485_taijuukei",
+      "reading": "たいじゅうけい",
+      "headword": "{体重計|たいじゅうけい}",
+      "label": "bathroom scale"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11595_mejaa",
+      "reading": "めじゃー",
+      "headword": "メジャー",
+      "label": "tape measure"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life", "health"]
+      "semantic": [
+        "daily-life",
+        "health"
+      ]
     },
     "created": "2026-04-13T17:19:37Z",
-    "modified": "2026-07-28T18:20:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

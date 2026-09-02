@@ -3,7 +3,7 @@
   "headword": "{紛|まぎ}れ{込|こ}む",
   "reading": "まぎれこむ",
   "romaji": "magirekomu",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to slip into; to get mixed in; to blend into",
   "definitions": [
     {
@@ -80,7 +80,29 @@
     }
   ],
   "notes": "Compound of {紛|まぎ}れる (to become indistinguishable, to blend) and {込|こ}む (directional suffix indicating going inward). The {込|こ}む suffix adds the nuance of entering or penetrating into something.\n\nCOMMON COLLOCATIONS:\n- {人混|ひとご}みに{紛|まぎ}れ{込|こ}む: to slip into a crowd\n- {群衆|ぐんしゅう}に{紛|まぎ}れ{込|こ}む: to blend into a throng\n- {書類|しょるい}に{紛|まぎ}れ{込|こ}む: to get mixed in with documents\n- {荷物|にもつ}に{紛|まぎ}れ{込|こ}む: to get mixed in with luggage\n\nSIMILAR WORDS:\n- {忍|しの}び{込|こ}む: to sneak in — emphasizes stealth and deliberate intent, often for a criminal purpose\n- {入|はい}り{込|こ}む: to enter, go into — neutral; simply describes going inside without the nuance of blending in\n- {混|ま}じる: to be mixed — describes the state of being blended rather than the action of slipping in",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12578_shinobikomu",
+      "reading": "しのびこむ",
+      "headword": "{忍|しの}び{込|こ}む",
+      "label": "to sneak in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04629_hairikomu",
+      "reading": "はいりこむ",
+      "headword": "{入|はい}り{込|こ}む",
+      "label": "to enter, go into"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02421_majiru",
+      "reading": "まじる",
+      "headword": "{混|ま}じる",
+      "label": "to be mixed"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -97,7 +119,7 @@
       "verb_class": "godan-mu"
     },
     "created": "2026-05-06T12:16:25Z",
-    "modified": "2026-05-06T12:16:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

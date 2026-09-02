@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {素|そ} (basic/elemental) + {数|すう} (number), suggesting a number in its most basic, indivisible form. A fundamental term in mathematics.\n\nCOMMON COLLOCATIONS:\n- {素数|そすう}を{求|もと}める: to find a prime number\n- {素数|そすう}の{判定|はんてい}: primality test\n- {最大|さいだい}の{素数|そすう}: the largest prime number\n- {素数|そすう}の{一覧|いちらん}: a list of prime numbers\n\nRELATED TERMS:\n- {合成数|ごうせいすう}: composite number — a number that is not prime (has divisors other than 1 and itself)\n- {因数|いんすう}: factor — a number that divides another evenly\n- {素因数分解|そいんすうぶんかい}: prime factorization — breaking a number into its prime factors\n\nCULTURAL NOTE:\nPrime numbers appear in Japanese pop culture, notably in the manga and anime series featuring mathematical themes. The concept is taught in Japanese middle school mathematics.",
+  "notes": "Composed of {素|そ} (basic/elemental) + {数|すう} (number), suggesting a number in its most basic, indivisible form. A fundamental term in mathematics.\n\nCOMMON COLLOCATIONS:\n- {素数|そすう}を{求|もと}める: to find a prime number\n- {素数|そすう}の{判定|はんてい}: primality test\n- {最大|さいだい}の{素数|そすう}: the largest prime number\n- {素数|そすう}の{一覧|いちらん}: a list of prime numbers\n\nRELATED WORDS:\n- {合成数|ごうせいすう}: composite number — a number that is not prime (has divisors other than 1 and itself)\n- {因数|いんすう}: factor — a number that divides another evenly\n- {素因数分解|そいんすうぶんかい}: prime factorization — breaking a number into its prime factors\n\nCULTURAL NOTE:\nPrime numbers appear in Japanese pop culture, notably in the manga and anime series featuring mathematical themes. The concept is taught in Japanese middle school mathematics.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09634_kisuu",
+      "reading": "きすう",
+      "headword": "{奇数|きすう}",
+      "label": "odd number"
+    },
+    {
+      "type": "related",
+      "target_id": "20737_baisuu",
+      "reading": "ばいすう",
+      "headword": "{倍数|ばいすう}",
+      "label": "multiple (of a number)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30120_soinsuu",
+      "reading": "そいんすう",
+      "headword": "{素因数|そいんすう}",
+      "label": "prime factor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-30T14:27:07Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

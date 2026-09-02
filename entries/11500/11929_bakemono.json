@@ -23,7 +23,9 @@
       "english": "Monsters appear in the old mansion.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11929_bakemono_ex2",
@@ -31,7 +33,9 @@
       "english": "When I was a child, I was scared of monster stories.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11929_bakemono_ex3",
@@ -39,7 +43,9 @@
       "english": "Various monsters appear in Japanese folktales.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11929_bakemono_ex4",
@@ -47,7 +53,9 @@
       "english": "That athlete is a monster.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11929_bakemono_ex5",
@@ -55,7 +63,9 @@
       "english": "He has monster-like stamina.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11929_bakemono_ex6",
@@ -63,22 +73,50 @@
       "english": "Her memory is freakishly good.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
-  "notes": "From {化|ば}ける (to transform) + {物|もの} (thing). In Japanese folklore, {化|ば}け{物|もの} specifically refers to creatures that shapeshift or transform, such as fox and tanuki spirits. Broader than {幽霊|ゆうれい} (ghost of a dead person).\n\nCOMMON PATTERNS:\n・{化|ば}け{物|もの}が{出|で}る (a monster appears)\n・{化|ば}け{物|もの}みたいな (monster-like, freakish)\n・{化|ば}け{物|もの}じみている (freakish, monstrous)\n・{化|ば}け{物|もの}{屋敷|やしき} (haunted house)",
-  "cross_references": [],
+  "notes": "From {化|ば}ける (to transform) + {物|もの} (thing). In Japanese folklore, {化|ば}け{物|もの} specifically refers to creatures that shapeshift or transform, such as fox and tanuki spirits. Broader than {幽霊|ゆうれい} (ghost of a dead person).\n\nCOMMON PATTERNS:\n- {化|ば}け{物|もの}が{出|で}る (a monster appears)\n- {化|ば}け{物|もの}みたいな (monster-like, freakish)\n- {化|ば}け{物|もの}じみている (freakish, monstrous)\n- {化|ば}け{物|もの}{屋敷|やしき} (haunted house)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09086_obake",
+      "reading": "おばけ",
+      "headword": "おばけ",
+      "label": "ghost, monster"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12842_monsutaa",
+      "reading": "もんすたー",
+      "headword": "モンスター",
+      "label": "monster"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14842_mamono",
+      "reading": "まもの",
+      "headword": "{魔物|まもの}",
+      "label": "demon"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T14:19:46Z",
-    "modified": "2026-02-18T14:19:46Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

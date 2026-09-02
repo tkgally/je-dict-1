@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{昨夜|さくや} means \"last night.\" This word has two standard readings with different registers.\n\nREADINGS:\n- さくや: formal, written, news\n- ⟦ゆうべ→ゆうべ：02487_yuube⟧: casual, spoken, everyday\n\nCOMMON PATTERNS:\n- {昨夜|さくや}⟦の→の：09472_no⟧⟦{出来事|できごと}→出来事：03446_dekigoto⟧: last night's events\n- {昨夜|さくや}⟦から→から：00504_kara⟧: since last night\n- {昨夜|さくや}⟦{遅|おそ}く→遅い：00533_osoi⟧: late last night\n\nSIMILAR TIME WORDS:\n- ⟦{昨日|きのう}→昨日：00859_kinou⟧: yesterday\n- ⟦{今夜|こんや}→今夜：01411_konya⟧: tonight\n- ⟦{一昨夜|いっさくや}→一昨夜：27989_issakuya⟧: the night before last\n- ⟦{前夜|ぜんや}→前夜：11876_zenya⟧: the previous night, the eve\n\nREGISTER:\nさくや is preferred in news reports, formal writing, and literature. In conversation, ⟦ゆうべ→ゆうべ：02487_yuube⟧ is more natural.",
+  "notes": "{昨夜|さくや} means \"last night.\" This word has two standard readings with different registers.\n\nPRONUNCIATION:\n- さくや: formal, written, news\n- ⟦ゆうべ→ゆうべ：02487_yuube⟧: casual, spoken, everyday\n\nCOMMON PATTERNS:\n- {昨夜|さくや}⟦の→の：09472_no⟧⟦{出来事|できごと}→出来事：03446_dekigoto⟧: last night's events\n- {昨夜|さくや}⟦から→から：00504_kara⟧: since last night\n- {昨夜|さくや}⟦{遅|おそ}く→遅い：00533_osoi⟧: late last night\n\nSIMILAR TIME WORDS:\n- ⟦{昨日|きのう}→昨日：00859_kinou⟧: yesterday\n- ⟦{今夜|こんや}→今夜：01411_konya⟧: tonight\n- ⟦{一昨夜|いっさくや}→一昨夜：27989_issakuya⟧: the night before last\n- ⟦{前夜|ぜんや}→前夜：11876_zenya⟧: the previous night, the eve\n\nREGISTER:\nさくや is preferred in news reports, formal writing, and literature. In conversation, ⟦ゆうべ→ゆうべ：02487_yuube⟧ is more natural.",
   "cross_references": [
     {
       "target_id": "02487_yuube",
@@ -78,11 +78,39 @@
       "headword": "昨日",
       "type": "related",
       "note": "yesterday"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01411_konya",
+      "reading": "こんや",
+      "headword": "{今夜|こんや}",
+      "label": "tonight"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11876_zenya",
+      "reading": "ぜんや",
+      "headword": "{前夜|ぜんや}",
+      "label": "the previous night, the eve"
+    },
+    {
+      "type": "related",
+      "target_id": "02882_konban",
+      "reading": "こんばん",
+      "headword": "{今晩|こんばん}",
+      "label": "tonight, this evening"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10970_sakuban",
+      "reading": "さくばん",
+      "headword": "{昨晩|さくばん}",
+      "label": "last night, last evening"
     }
   ],
   "metadata": {
     "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-08-12T06:32:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

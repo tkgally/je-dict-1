@@ -16,7 +16,9 @@
       "id": "08476_chienshoumei_ex1",
       "japanese": "{駅|えき}で{遅延証明|ちえんしょうめい}をもらった。",
       "english": "I got a delay certificate at the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "08476_chienshoumei_ex2",
       "japanese": "{遅延証明|ちえんしょうめい}を{会社|かいしゃ}に{提出|ていしゅつ}する。",
       "english": "To submit a delay certificate to the company.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,20 +36,65 @@
       "id": "08476_chienshoumei_ex3",
       "japanese": "{遅延証明|ちえんしょうめい}があれば{遅刻|ちこく}{扱|あつか}いにならない。",
       "english": "With a delay certificate, it won't be counted as being late.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{遅延|ちえん} (delay) + {証明|しょうめい} (certificate, proof)\n\nFULL FORM:\n{遅延証明書|ちえんしょうめいしょ} - delay certificate (with {書|しょ} for 'document')\n\nHOW TO GET:\n- Collected at station exits or platforms\n- Available online from railway company websites\n- Displayed on digital boards for certain delay durations (usually 5+ or 10+ minutes)\n\nCULTURAL CONTEXT:\nJapanese companies and schools often require {遅延証明|ちえんしょうめい} to excuse lateness. The certificate typically shows the date, line name, and duration of delay.\n\nRELATED:\n- {人身事故|じんしんじこ} - accident involving a person\n- {遅刻届|ちこくとどけ} - tardiness report\n- {運転見合|うんてんみあ}わせ - service suspension",
+  "notes": "COMPOUNDS:\n{遅延|ちえん} (delay) + {証明|しょうめい} (certificate, proof)\n\nFULL FORM:\n{遅延証明書|ちえんしょうめいしょ} - delay certificate (with {書|しょ} for 'document')\n\nHOW TO GET:\n- Collected at station exits or platforms\n- Available online from railway company websites\n- Displayed on digital boards for certain delay durations (usually 5+ or 10+ minutes)\n\nCULTURAL NOTE:\nJapanese companies and schools often require {遅延証明|ちえんしょうめい} to excuse lateness. The certificate typically shows the date, line name, and duration of delay.\n\nRELATED WORDS:\n- {人身事故|じんしんじこ} - accident involving a person\n- {遅刻届|ちこくとどけ} - tardiness report\n- {運転見合|うんてんみあ}わせ - service suspension",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08475_jinshinjiko",
+      "reading": "じんしんじこ",
+      "headword": "{人身事故|じんしんじこ}",
+      "label": "accident involving a person"
+    },
+    {
+      "type": "related",
+      "target_id": "07827_chikokutodoke",
+      "reading": "ちこくとどけ",
+      "headword": "{遅刻届|ちこくとどけ}",
+      "label": "tardiness report"
+    },
+    {
+      "type": "related",
+      "target_id": "08695_untenmiawase",
+      "reading": "うんてんみあわせ",
+      "headword": "{運転|うんてん}{見合|みあ}わせ",
+      "label": "service suspension"
+    },
+    {
+      "type": "related",
+      "target_id": "08775_shanaihousou",
+      "reading": "しゃないほうそう",
+      "headword": "{車内|しゃない}{放送|ほうそう}",
+      "label": "in-vehicle announcement"
+    },
+    {
+      "type": "related",
+      "target_id": "08776_unkoujoukyou",
+      "reading": "うんこうじょうきょう",
+      "headword": "{運行|うんこう}{状況|じょうきょう}",
+      "label": "service status"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["transportation", "work"]
+      "politeness": "plain",
+      "semantic": [
+        "transportation",
+        "work"
+      ]
     },
     "created": "2026-01-27T03:47:32Z",
-    "modified": "2026-01-27T03:47:32Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

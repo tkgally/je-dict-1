@@ -17,7 +17,9 @@
       "id": "24681_shutsugenhindo_ex1",
       "japanese": "この{漢字|かんじ}は{出現頻度|しゅつげんひんど}が{高|たか}い。",
       "english": "This kanji has a high frequency of occurrence.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24681_shutsugenhindo_ex2",
       "japanese": "{単語|たんご}の{出現頻度|しゅつげんひんど}に{基|もと}づいて{学習|がくしゅう}{順序|じゅんじょ}を{決|き}めた。",
       "english": "We determined the study order based on word frequency.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,41 @@
       "id": "24681_shutsugenhindo_ex3",
       "japanese": "{出現頻度|しゅつげんひんど}の{低|ひく}い{語彙|ごい}は{上級者|じょうきゅうしゃ}でも{知|し}らないことがあるので、{辞書|じしょ}を{引|ひ}く{習慣|しゅうかん}が{大切|たいせつ}だ。",
       "english": "Even advanced learners may not know low-frequency vocabulary, so it is important to develop the habit of using a dictionary.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {出現|しゅつげん} (appearance, emergence) and {頻度|ひんど} (frequency). A standard analytical term used across many fields — from corpus linguistics and natural language processing to biology and meteorology.\n\nUSAGE:\nParticularly common in language learning and linguistics, where word frequency lists determine vocabulary curricula. Also used in scientific research to describe how often a phenomenon is observed. Can be shortened to just {頻度|ひんど} when the context makes the meaning clear.\n\nCOMMON COLLOCATIONS:\n- {出現頻度|しゅつげんひんど}が{高|たか}い: high frequency of occurrence\n- {出現頻度|しゅつげんひんど}が{低|ひく}い: low frequency of occurrence\n- {出現頻度|しゅつげんひんど}を{調|しら}べる: to check the frequency of occurrence\n- {出現頻度|しゅつげんひんど}{順|じゅん}: in order of frequency\n\nSIMILAR WORDS:\n- {頻度|ひんど}: frequency — the general term for how often something happens\n- {使用頻度|しようひんど}: frequency of use — how often something is used rather than just appearing\n- {発生頻度|はっせいひんど}: frequency of occurrence (events) — focuses on events happening rather than items appearing\n- {出現率|しゅつげんりつ}: occurrence rate — similar concept expressed as a percentage or ratio",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28042_hasseihindo",
+      "reading": "はっせいひんど",
+      "headword": "発生頻度",
+      "label": "frequency of occurrence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["science", "language"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "science",
+        "language"
+      ]
     },
     "created": "2026-04-20T11:28:46Z",
-    "modified": "2026-04-20T11:28:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

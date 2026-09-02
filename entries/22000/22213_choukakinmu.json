@@ -3,7 +3,7 @@
   "headword": "{超過勤務|ちょうかきんむ}",
   "reading": "ちょうかきんむ",
   "romaji": "choukakinmu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "overtime work; work beyond regular hours",
   "definitions": [
     {
@@ -46,6 +46,15 @@
   ],
   "notes": "Composed of {超過|ちょうか} (excess, exceeding) + {勤務|きんむ} (duty, work). A formal, administrative term for overtime. In everyday conversation, {残業|ざんぎょう} is much more common.\n\nCOMMON COLLOCATIONS:\n- {超過勤務|ちょうかきんむ}{手当|てあて} — overtime pay/allowance\n- {超過勤務|ちょうかきんむ}{時間|じかん} — overtime hours\n- {超過勤務|ちょうかきんむ}{命令|めいれい} — overtime order (official directive to work overtime)\n- {超過勤務|ちょうかきんむ}の{削減|さくげん} — reduction of overtime\n\nSIMILAR WORDS:\n- {残業|ざんぎょう} — overtime (everyday term; far more commonly used in conversation)\n- {時間外|じかんがい}{労働|ろうどう} — work outside regular hours (legal/labor law term)\n- {勤務|きんむ} — work, duty (general term)\n\nREGISTER:\nPrimarily used in official, administrative, and legal contexts — government documents, labor regulations, and corporate HR materials. In everyday workplace conversation, {残業|ざんぎょう} is strongly preferred.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01071_zangyou",
+      "reading": "ざんぎょう",
+      "headword": "{残業|ざんぎょう}",
+      "label": "overtime (everyday term"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,14 +63,14 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "work"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-05T14:19:38Z",
-    "modified": "2026-04-05T14:19:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

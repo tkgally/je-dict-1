@@ -65,13 +65,38 @@
   ],
   "notes": "すり refers to a pickpocket or the act of pickpocketing. Usually written in hiragana (the kanji {掏摸|すり} exists but is rarely used).\n\nETYMOLOGY:\nFrom the verb ⟦{擦|す}る→擦る：04262_kosuru⟧ (to rub/swipe), referring to the stealthy hand motion used in pickpocketing.\n\nCOMMON EXPRESSIONS:\n- すり⟦に→に：00314_ni⟧⟦{遭|あ}う→遭う：09500_au⟧: to be pickpocketed\n- すり⟦に→に：00314_ni⟧⟦{気|き}をつける→気をつける：09771_kiwotsukeru⟧: to watch out for pickpockets\n- すり⟦に→に：00314_ni⟧⟦{財布|さいふ}→財布：00663_saifu⟧⟦を→を：00422_wo⟧⟦{取|と}られる→取る：00565_toru⟧: to have one's wallet taken by a pickpocket\n- すり⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧: there are many pickpockets\n\nRELATED WORDS:\n- ⟦{窃盗|せっとう}→窃盗：15280_settou⟧: theft\n- ⟦ひったくり→ひったくり：16928_hittakuri⟧: purse-snatching\n- ⟦{泥棒|どろぼう}→泥棒：01688_dorobou⟧: thief, burglar\n\nWARNING SIGNS:\nすり⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧ (Beware of pickpockets) is commonly seen in crowded areas like trains and tourist spots.",
   "cross_references": [
-    {"type": "related", "reading": "せっとう", "headword": "{窃盗|せっとう}", "label": "theft (broader crime)", "target_id": "15280_settou"},
-    {"type": "related", "reading": "ひったくり", "headword": "ひったくり", "label": "purse-snatching", "target_id": "16928_hittakuri"},
-    {"type": "related", "reading": "どろぼう", "headword": "{泥棒|どろぼう}", "label": "thief, burglar", "target_id": "01688_dorobou"}
+    {
+      "type": "related",
+      "reading": "せっとう",
+      "headword": "{窃盗|せっとう}",
+      "label": "theft (broader crime)",
+      "target_id": "15280_settou"
+    },
+    {
+      "type": "related",
+      "reading": "ひったくり",
+      "headword": "ひったくり",
+      "label": "purse-snatching",
+      "target_id": "16928_hittakuri"
+    },
+    {
+      "type": "related",
+      "reading": "どろぼう",
+      "headword": "{泥棒|どろぼう}",
+      "label": "thief, burglar",
+      "target_id": "01688_dorobou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21576_okibiki",
+      "reading": "おきびき",
+      "headword": "{置|お}き{引|び}き",
+      "label": "theft of unattended belongings"
+    }
   ],
   "metadata": {
     "created": "2026-01-08T03:55:00Z",
-    "modified": "2026-05-14T23:12:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

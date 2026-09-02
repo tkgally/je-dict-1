@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{授業|じゅぎょう} refers to a class or lesson in an educational setting. It emphasizes the teaching session itself rather than the subject matter.\n\nCOMMON PATTERNS:\n- {授業|じゅぎょう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to attend/take a class (student's perspective)\n- {授業|じゅぎょう}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to teach a class (teacher's perspective)\n- {授業|じゅぎょう}⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧: to attend class\n- {授業|じゅぎょう}⟦を→を：00422_wo⟧⟦{休|やす}む→休む：00606_yasumu⟧: to miss/skip class\n\nCOMMON COMPOUNDS:\n- ⟦{授業|じゅぎょう}{料|りょう}→授業料：14967_jugyouryou⟧: tuition fee\n- ⟦{授業|じゅぎょう}{中|ちゅう}→授業中：20544_jugyouchuu⟧: during class\n- ⟦{課外|かがい}→課外：27204_kagai⟧{授業|じゅぎょう}: extracurricular lesson\n\nRELATED WORDS:\n- ⟦{講義|こうぎ}→講義：01579_kougi⟧: lecture (university level)\n- ⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧: classroom\n- ⟦{科目|かもく}→科目：00163_kamoku⟧: subject, course",
+  "notes": "{授業|じゅぎょう} refers to a class or lesson in an educational setting. It emphasizes the teaching session itself rather than the subject matter.\n\nCOMMON PATTERNS:\n- {授業|じゅぎょう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to attend/take a class (student's perspective)\n- {授業|じゅぎょう}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to teach a class (teacher's perspective)\n- {授業|じゅぎょう}⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧: to attend class\n- {授業|じゅぎょう}⟦を→を：00422_wo⟧⟦{休|やす}む→休む：00606_yasumu⟧: to miss/skip class\n\nCOMPOUNDS:\n- ⟦{授業|じゅぎょう}{料|りょう}→授業料：14967_jugyouryou⟧: tuition fee\n- ⟦{授業|じゅぎょう}{中|ちゅう}→授業中：20544_jugyouchuu⟧: during class\n- ⟦{課外|かがい}→課外：27204_kagai⟧{授業|じゅぎょう}: extracurricular lesson\n\nRELATED WORDS:\n- ⟦{講義|こうぎ}→講義：01579_kougi⟧: lecture (university level)\n- ⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧: classroom\n- ⟦{科目|かもく}→科目：00163_kamoku⟧: subject, course",
   "cross_references": [
     {
       "type": "synonym",
@@ -85,11 +85,60 @@
       "reading": "しゅくだい",
       "headword": "{宿題|しゅくだい}",
       "label": "homework; also an unfinished task carried over"
+    },
+    {
+      "type": "related",
+      "target_id": "00794_kyoushitsu",
+      "reading": "きょうしつ",
+      "headword": "{教室|きょうしつ}",
+      "label": "classroom"
+    },
+    {
+      "type": "related",
+      "target_id": "01084_kurasu",
+      "reading": "くらす",
+      "headword": "クラス",
+      "label": "class"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01542_ressun",
+      "reading": "れっすん",
+      "headword": "レッスン",
+      "label": "lesson"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02735_kouen",
+      "reading": "こうえん",
+      "headword": "{講演|こうえん}",
+      "label": "lecture, speech, address"
+    },
+    {
+      "type": "related",
+      "target_id": "08552_jikanwari",
+      "reading": "じかんわり",
+      "headword": "{時間割|じかんわり}",
+      "label": "class schedule"
+    },
+    {
+      "type": "related",
+      "target_id": "09973_hokou",
+      "reading": "ほこう",
+      "headword": "{補講|ほこう}",
+      "label": "make-up class, supplementary lesson"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09998_kyouka",
+      "reading": "きょうか",
+      "headword": "{教科|きょうか}",
+      "label": "school subject, curriculum subject"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:41:37Z",
-    "modified": "2026-08-13T12:37:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

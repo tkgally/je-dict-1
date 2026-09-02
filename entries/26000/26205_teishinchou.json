@@ -17,7 +17,9 @@
       "id": "26205_teishinchou_ex1",
       "japanese": "{低身長|ていしんちょう}でも{似合|にあ}う{服|ふく}はたくさんある。",
       "english": "There are many clothes that look good even with a short stature.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26205_teishinchou_ex2",
       "japanese": "{子供|こども}の{低身長|ていしんちょう}が{気|き}になって{病院|びょういん}に{相談|そうだん}した。",
       "english": "I was concerned about my child's short stature and consulted a hospital.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,37 @@
       "id": "26205_teishinchou_ex3",
       "japanese": "{低身長|ていしんちょう}の{原因|げんいん}には{遺伝的|いでんてき}なものと{成長|せいちょう}ホルモンの{不足|ふそく}によるものがある。",
       "english": "Causes of short stature include genetic factors and growth hormone deficiency.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {低|てい} (low) and {身長|しんちょう} (height, stature). Used in medical contexts to describe children whose growth falls below standard curves, but also used casually in fashion and lifestyle contexts to discuss styling tips for shorter people. The medical threshold is typically below -2 standard deviations from the mean for age and sex.\n\nCOMMON COLLOCATIONS:\n- {低身長|ていしんちょう}の{治療|ちりょう} — treatment for short stature\n- {低身長|ていしんちょう}の{原因|げんいん} — cause of short stature\n- {低身長|ていしんちょう}{向|む}け — for short-statured people\n- {低身長|ていしんちょう}コーデ — outfit coordination for short stature\n\nSIMILAR WORDS:\n- {高身長|こうしんちょう} — tall stature (the opposite)\n- {身長|しんちょう} — height, stature (the base measurement)\n- {背|せ}が{低|ひく}い — short (casual way to say someone is short)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "26602_koushinchou",
+      "reading": "こうしんちょう",
+      "headword": "{高身長|こうしんちょう}",
+      "label": "tall stature"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["size", "health"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "size",
+        "health"
+      ]
     },
     "created": "2026-04-30T11:31:53Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

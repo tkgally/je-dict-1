@@ -78,11 +78,40 @@
       ]
     }
   ],
-  "notes": "COMMON COMPOUND WORDS:\n・⟦{哲学者|てつがくしゃ}→哲学者：23941_tetsugakusha⟧ (philosopher)\n・⟦{哲学的|てつがくてき}→哲学的：27040_tetsugakuteki⟧ (philosophical)\n・⟦{人生|じんせい}→人生：03355_jinsei⟧{哲学|てつがく} (philosophy of life)\n・⟦{経営|けいえい}→経営：02740_keiei⟧{哲学|てつがく} (business philosophy, management philosophy)\n・⟦{西洋|せいよう}→西洋：01446_seiyou⟧{哲学|てつがく} (Western philosophy)\n・⟦{東洋|とうよう}→東洋：03454_touyou⟧{哲学|てつがく} (Eastern philosophy)\n\nUSAGE NOTE:\nIn everyday speech, {哲学|てつがく} often refers to one's personal principles or approach to life/work rather than the academic discipline.",
-  "cross_references": [],
+  "notes": "COMPOUNDS:\n- ⟦{哲学者|てつがくしゃ}→哲学者：23941_tetsugakusha⟧ (philosopher)\n- ⟦{哲学的|てつがくてき}→哲学的：27040_tetsugakuteki⟧ (philosophical)\n- ⟦{人生|じんせい}→人生：03355_jinsei⟧{哲学|てつがく} (philosophy of life)\n- ⟦{経営|けいえい}→経営：02740_keiei⟧{哲学|てつがく} (business philosophy, management philosophy)\n- ⟦{西洋|せいよう}→西洋：01446_seiyou⟧{哲学|てつがく} (Western philosophy)\n- ⟦{東洋|とうよう}→東洋：03454_touyou⟧{哲学|てつがく} (Eastern philosophy)\n\nUSAGE:\nIn everyday speech, {哲学|てつがく} often refers to one's personal principles or approach to life/work rather than the academic discipline.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06027_rinen",
+      "reading": "りねん",
+      "headword": "{理念|りねん}",
+      "label": "principle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13914_bigaku",
+      "reading": "びがく",
+      "headword": "{美学|びがく}",
+      "label": "aesthetics"
+    },
+    {
+      "type": "related",
+      "target_id": "23553_rinrigaku",
+      "reading": "りんりがく",
+      "headword": "{倫理学|りんりがく}",
+      "label": "ethics"
+    },
+    {
+      "type": "related",
+      "target_id": "23819_genshougaku",
+      "reading": "げんしょうがく",
+      "headword": "{現象学|げんしょうがく}",
+      "label": "phenomenology"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T09:36:30Z",
-    "modified": "2026-05-26T15:12:19Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

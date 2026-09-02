@@ -19,7 +19,9 @@
       "english": "There is heavy traffic in the urban area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17083_shigaichi_ex2",
@@ -27,7 +29,9 @@
       "english": "I live a little away from the city center.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17083_shigaichi_ex3",
@@ -35,7 +39,9 @@
       "english": "Due to urban redevelopment, old shopping streets are gradually disappearing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCommon in urban planning, real estate, and news contexts. Also used in speed limit signs: {市街地|しがいち}では{時速|じそく}40km.\n\nCOMMON COLLOCATIONS:\n- {市街地|しがいち}{中心部|ちゅうしんぶ} (city center)\n- {市街地|しがいち}の{開発|かいはつ} (urban development)\n- {市街地|しがいち}{走行|そうこう} (driving in urban areas)\n\nSIMILAR WORDS:\n- {繁華街|はんかがい}: entertainment district — specifically the lively shopping and entertainment area\n- {都心|としん}: city center — the very center or core of a large city\n- {郊外|こうがい}: suburbs — the areas surrounding the urban center",
@@ -53,18 +59,44 @@
       "reading": "はんかがい",
       "headword": "{繁華街|はんかがい}",
       "label": "entertainment district"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04072_toshin",
+      "reading": "としん",
+      "headword": "{都心|としん}",
+      "label": "city center"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21534_chuushingai",
+      "reading": "ちゅうしんがい",
+      "headword": "{中心街|ちゅうしんがい}",
+      "label": "city center"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25732_misshuuchi",
+      "reading": "みっしゅうち",
+      "headword": "{密集地|みっしゅうち}",
+      "label": "densely populated area"
     }
   ],
   "metadata": {
     "created": "2026-03-15T09:53:49Z",
-    "modified": "2026-05-05T08:12:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography", "building"]
+      "semantic": [
+        "geography",
+        "building"
+      ]
     }
   }
 }

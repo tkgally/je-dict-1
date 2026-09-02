@@ -208,12 +208,18 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{降|お}ろす→降ろす：01923_orosu⟧ (transitive, to let someone off/unload). Pattern: X⟦を→を：00422_wo⟧/⟦から→から：00504_kara⟧{降|お}りる.\n\nASPECT: ている indicates resulting state. {降|お}りている = 'has gotten off' or 'is off (the vehicle).'\n\nCOMMON PATTERNS:\n・⟦{電車|でんしゃ}→電車：00522_densha⟧⟦を→を：00422_wo⟧{降|お}りる (get off the train)\n・⟦バス→バス：00769_basu⟧⟦から→から：00504_kara⟧{降|お}りる (get off the bus)\n・⟦{階段|かいだん}→階段：00782_kaidan⟧⟦を→を：00422_wo⟧{降|お}りる (go down the stairs)\n・⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧⟦{駅|えき}→駅：02180_eki⟧⟦で→で：00502_de⟧{降|お}りる (get off at the next station)\n\nOpposite: ⟦{乗|の}る→乗る：00511_noru⟧ (to get on). Also written as {下|お}りる.",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{降|お}ろす→降ろす：01923_orosu⟧ (transitive, to let someone off/unload). Pattern: X⟦を→を：00422_wo⟧/⟦から→から：00504_kara⟧{降|お}りる.\n\nASPECT: ている indicates resulting state. {降|お}りている = 'has gotten off' or 'is off (the vehicle).'\n\nCOMMON PATTERNS:\n- ⟦{電車|でんしゃ}→電車：00522_densha⟧⟦を→を：00422_wo⟧{降|お}りる (get off the train)\n- ⟦バス→バス：00769_basu⟧⟦から→から：00504_kara⟧{降|お}りる (get off the bus)\n- ⟦{階段|かいだん}→階段：00782_kaidan⟧⟦を→を：00422_wo⟧{降|お}りる (go down the stairs)\n- ⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧⟦{駅|えき}→駅：02180_eki⟧⟦で→で：00502_de⟧{降|お}りる (get off at the next station)\n\nOpposite: ⟦{乗|の}る→乗る：00511_noru⟧ (to get on). Also written as {下|お}りる.",
   "prominent_see_also": [
     {
       "target_id": "01923_orosu",
       "reading": "おろす",
       "headword": "{降|お}ろす",
+      "note": "transitive"
+    },
+    {
+      "target_id": "02029_orosu",
+      "reading": "おろす",
+      "headword": "{下|お}ろす",
       "note": "transitive"
     }
   ],
@@ -231,11 +237,25 @@
       "reading": "のぼる",
       "headword": "{登|のぼ}る",
       "label": "to climb"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20612_kousha",
+      "reading": "こうしゃ",
+      "headword": "{降車|こうしゃ}",
+      "label": "getting off (a vehicle)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21396_geshasuru",
+      "reading": "げしゃする",
+      "headword": "{下車|げしゃ}する",
+      "label": "to get off (a vehicle)"
     }
   ],
   "metadata": {
     "created": "2026-01-07T14:51:24Z",
-    "modified": "2026-05-11T23:16:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

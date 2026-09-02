@@ -17,7 +17,9 @@
       "id": "27071_furuneemu_ex1",
       "japanese": "フルネームで{書|か}いてください。",
       "english": "Please write your full name.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27071_furuneemu_ex2",
       "japanese": "{彼|かれ}のフルネームを{知|し}らない。",
       "english": "I don't know his full name.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "27071_furuneemu_ex3",
       "japanese": "{申込書|もうしこみしょ}にはフルネームと{住所|じゅうしょ}を{記入|きにゅう}する{必要|ひつよう}がある。",
       "english": "You need to fill in your full name and address on the application form.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A wasei-eigo-style compound from English \"full\" + \"name.\" While the component words are English, フルネーム is used naturally in Japanese and is well understood. In Japanese naming conventions, the full name consists of {姓|せい} (family name) followed by {名|めい} (given name).\n\nCOMMON COLLOCATIONS:\n- フルネームで{書|か}く: to write one's full name\n- フルネームで{呼|よ}ぶ: to call someone by their full name\n- フルネームを{記入|きにゅう}する: to fill in one's full name\n- フルネームで{検索|けんさく}する: to search by full name\n\nSIMILAR WORDS:\n- {氏名|しめい}: full name — the formal/official term used on documents and forms\n- {名前|なまえ}: name — can mean either full name or given name depending on context\n- {本名|ほんみょう}: real name — as opposed to a stage name, pen name, or username",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04033_shimei",
+      "reading": "しめい",
+      "headword": "{氏名|しめい}",
+      "label": "full name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02234_namae",
+      "reading": "なまえ",
+      "headword": "{名前|なまえ}",
+      "label": "name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13034_honmyou",
+      "reading": "ほんみょう",
+      "headword": "{本名|ほんみょう}",
+      "label": "real name"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-05-06T16:08:25Z",
-    "modified": "2026-05-06T16:08:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

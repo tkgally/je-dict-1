@@ -17,7 +17,9 @@
       "id": "24950_hisenkyoken_ex1",
       "japanese": "{被選挙権|ひせんきょけん}は25{歳|さい}からだ。",
       "english": "The right to run for office starts at age 25.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24950_hisenkyoken_ex2",
       "japanese": "{参議院議員|さんぎいんぎいん}の{被選挙権|ひせんきょけん}は30{歳以上|さいいじょう}と{定|さだ}められている。",
       "english": "The eligibility to run for the House of Councillors is set at age 30 or older.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "24950_hisenkyoken_ex3",
       "japanese": "{選挙権|せんきょけん}が18{歳|さい}に{引|ひ}き{下|さ}げられたのに{対|たい}し、{被選挙権|ひせんきょけん}の{年齢|ねんれい}はまだ{変|か}わっていない。",
       "english": "While the voting age was lowered to 18, the age requirement for the right to run for office still hasn't changed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {被|ひ} (passive; receiving) + {選挙|せんきょ} (election) + {権|けん} (right). Literally the right to \"be elected,\" contrasting with {選挙権|せんきょけん}, the right to vote (\"to elect\"). The {被|ひ} prefix marks the passive side of the election process.\n\nCOMMON COLLOCATIONS:\n- {被選挙権|ひせんきょけん}を{持|も}つ: to have the right to run for office\n- {被選挙権|ひせんきょけん}の{年齢|ねんれい}: age of eligibility for candidacy\n- {被選挙権|ひせんきょけん}を{失|うしな}う: to lose eligibility to run for office\n- {被選挙権|ひせんきょけん}の{引|ひ}き{下|さ}げ: lowering of candidacy age\n\nSIMILAR WORDS:\n- {選挙権|せんきょけん}: right to vote, active suffrage\n- {参政権|さんせいけん}: political rights, the broader concept encompassing both voting and candidacy\n- {公民権|こうみんけん}: civil rights",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18066_sanseiken",
+      "reading": "さんせいけん",
+      "headword": "{参政権|さんせいけん}",
+      "label": "political rights, the broader concept…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27950_touhyouken",
+      "reading": "とうひょうけん",
+      "headword": "{投票権|とうひょうけん}",
+      "label": "right to vote"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     },
     "created": "2026-04-21T14:22:55Z",
-    "modified": "2026-06-15T07:57:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

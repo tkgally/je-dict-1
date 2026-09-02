@@ -19,7 +19,9 @@
       "english": "The main hall is designated as a national treasure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13090_honden_ex2",
@@ -27,7 +29,9 @@
       "english": "Behind the main hall stands an old cedar tree.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13090_honden_ex3",
@@ -35,21 +39,57 @@
       "english": "The main hall of this shrine was built during the Muromachi period and has extremely high historical value.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{本殿|ほんでん} refers specifically to the main building of a Shinto shrine ({神社|じんじゃ}), where the {御神体|ごしんたい} (sacred object representing the deity) is housed. It is distinct from the {拝殿|はいでん} (worship hall), where visitors pray.\n\nThe {本殿|ほんでん} is typically located behind the {拝殿|はいでん} and is often not accessible to the general public.\n\nFor Buddhist temples, the equivalent term is {本堂|ほんどう} (main hall).\n\nCOMMON COLLOCATIONS:\n- {本殿|ほんでん}を{参拝|さんぱい}する: to worship at the main hall\n- {本殿|ほんでん}の{建築|けんちく}{様式|ようしき}: architectural style of the main hall\n- {国宝|こくほう}の{本殿|ほんでん}: a main hall designated as a national treasure",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18822_shinden",
+      "reading": "しんでん",
+      "headword": "{神殿|しんでん}",
+      "label": "temple"
+    },
+    {
+      "type": "related",
+      "target_id": "20755_shaden",
+      "reading": "しゃでん",
+      "headword": "{社殿|しゃでん}",
+      "label": "shrine building"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24252_haiden",
+      "reading": "はいでん",
+      "headword": "{拝殿|はいでん}",
+      "label": "worship hall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26627_saiden",
+      "reading": "さいでん",
+      "headword": "{祭殿|さいでん}",
+      "label": "ceremonial hall"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T10:46:17Z",
-    "modified": "2026-02-23T10:46:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["religion", "building"]
+      "semantic": [
+        "religion",
+        "building"
+      ]
     }
   }
 }

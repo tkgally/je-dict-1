@@ -17,7 +17,9 @@
       "id": "26341_funa_ex1",
       "japanese": "{池|いけ}で{鮒|ふな}を{釣|つ}った。",
       "english": "I caught a crucian carp in the pond.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26341_funa_ex2",
       "japanese": "{琵琶湖|びわこ}の{鮒寿司|ふなずし}は{有名|ゆうめい}な{郷土|きょうど}{料理|りょうり}だ。",
       "english": "Funazushi from Lake Biwa is a famous local dish.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26341_funa_ex3",
       "japanese": "{子|こ}どものころ、{近所|きんじょ}の{川|かわ}でよく{鮒|ふな}を{捕|つか}まえて{遊|あそ}んだものだ。",
       "english": "When I was a child, I used to catch crucian carp in the nearby river and play with them.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A common freshwater fish in Japan, smaller and rounder than koi. It has been part of Japanese food culture for centuries, particularly in the form of {鮒寿司|ふなずし}, a fermented sushi from Shiga Prefecture considered a precursor to modern sushi.\n\nCOMMON COLLOCATIONS:\n- {鮒寿司|ふなずし}: fermented crucian carp sushi (Shiga specialty)\n- {鮒釣|ふなつ}り: crucian carp fishing\n- {金魚|きんぎょ}の{祖先|そせん}は{鮒|ふな}: goldfish descend from crucian carp\n\nPROVERBS:\n- {鮒|ふな}の{仲間|なかま}には{鮒|ふな}: like attracts like (lit. among crucian carp, only crucian carp)\n\nSIMILAR WORDS:\n- {鯉|こい}: koi, common carp — larger and more elongated\n- {金魚|きんぎょ}: goldfish — domesticated variety originally bred from crucian carp",
-  "cross_references": [],
+  "notes": "A common freshwater fish in Japan, smaller and rounder than koi. It has been part of Japanese food culture for centuries, particularly in the form of {鮒寿司|ふなずし}, a fermented sushi from Shiga Prefecture considered a precursor to modern sushi.\n\nCOMMON COLLOCATIONS:\n- {鮒寿司|ふなずし}: fermented crucian carp sushi (Shiga specialty)\n- {鮒釣|ふなつ}り: crucian carp fishing\n- {金魚|きんぎょ}の{祖先|そせん}は{鮒|ふな}: goldfish descend from crucian carp\n\nCOMMON EXPRESSIONS:\n- {鮒|ふな}の{仲間|なかま}には{鮒|ふな}: like attracts like (lit. among crucian carp, only crucian carp)\n\nSIMILAR WORDS:\n- {鯉|こい}: koi, common carp — larger and more elongated\n- {金魚|きんぎょ}: goldfish — domesticated variety originally bred from crucian carp",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02209_koi",
+      "reading": "こい",
+      "headword": "{鯉|こい}",
+      "label": "koi, common carp"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00233_kingyo",
+      "reading": "きんぎょ",
+      "headword": "{金魚|きんぎょ}",
+      "label": "goldfish"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["nature", "food"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "nature",
+        "food"
+      ]
     },
     "created": "2026-05-01T11:30:43Z",
-    "modified": "2026-05-01T11:30:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

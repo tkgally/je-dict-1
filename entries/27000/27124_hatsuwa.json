@@ -3,7 +3,7 @@
   "headword": "{発話|はつわ}",
   "reading": "はつわ",
   "romaji": "hatsuwa",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "utterance; speech; speaking (the act of producing speech)",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "A formal/technical term for the act of speaking or an instance of spoken language. Combines {発|はつ} (emit/produce) and {話|わ} (speech/talk). Commonly used in linguistics, language education, speech therapy, and technology contexts.\n\nCOMMON COLLOCATIONS:\n- {発話|はつわ}{量|りょう}: amount of speech output\n- {発話|はつわ}{能力|のうりょく}: speaking ability\n- {発話|はつわ}を{分析|ぶんせき}する: to analyze speech\n- {自発的|じはつてき}な{発話|はつわ}: spontaneous speech\n\nSIMILAR WORDS:\n- {発言|はつげん}: statement, remark — emphasizes the content and context of what is said, often in public settings\n- {発音|はつおん}: pronunciation — focuses on how sounds are produced\n- {会話|かいわ}: conversation — interactive exchange between speakers",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05099_hatsugen",
+      "reading": "はつげん",
+      "headword": "{発言|はつげん}",
+      "label": "statement, remark"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01698_hatsuon",
+      "reading": "はつおん",
+      "headword": "{発音|はつおん}",
+      "label": "pronunciation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01271_kaiwa",
+      "reading": "かいわ",
+      "headword": "{会話|かいわ}",
+      "label": "conversation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30041_hatsugo",
+      "reading": "はつご",
+      "headword": "発語",
+      "label": "utterance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-07T12:15:26Z",
-    "modified": "2026-05-07T12:15:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

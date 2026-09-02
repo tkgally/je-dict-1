@@ -218,11 +218,40 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{止|と}まる→止まる：00555_tomaru⟧ (intransitive). Pattern: X⟦を→を：00422_wo⟧{止|と}める (stop X).\n\nASPECT: ている indicates resulting state. {止|と}めている = 'have stopped' or 'is parked.'\n\nCOMMON PATTERNS:\n・⟦{車|くるま}→車：00516_kuruma⟧⟦を→を：00422_wo⟧{止|と}める (stop/park a car)\n・⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦を→を：00422_wo⟧{止|と}める (stop the music)\n・⟦{息|いき}→息：02176_iki⟧⟦を→を：00422_wo⟧{止|と}める (hold one's breath)\n・⟦ここ→ここ：00961_koko⟧⟦に→に：00314_ni⟧{止|と}める (park/stop here)\n\nPAIR: ⟦{止|と}まる→止まる：00555_tomaru⟧ (intransitive) - ⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{止|と}まった→止まる：00555_tomaru⟧ (train stopped).\n\nNote: ⟦{泊|と}める→泊める：13281_tomeru⟧ (let someone stay) uses different kanji.",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{止|と}まる→止まる：00555_tomaru⟧ (intransitive). Pattern: X⟦を→を：00422_wo⟧{止|と}める (stop X).\n\nASPECT: ている indicates resulting state. {止|と}めている = 'have stopped' or 'is parked.'\n\nCOMMON PATTERNS:\n- ⟦{車|くるま}→車：00516_kuruma⟧⟦を→を：00422_wo⟧{止|と}める (stop/park a car)\n- ⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦を→を：00422_wo⟧{止|と}める (stop the music)\n- ⟦{息|いき}→息：02176_iki⟧⟦を→を：00422_wo⟧{止|と}める (hold one's breath)\n- ⟦ここ→ここ：00961_koko⟧⟦に→に：00314_ni⟧{止|と}める (park/stop here)\n\nPAIR: ⟦{止|と}まる→止まる：00555_tomaru⟧ (intransitive) - ⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{止|と}まった→止まる：00555_tomaru⟧ (train stopped).\n\nNote: ⟦{泊|と}める→泊める：13281_tomeru⟧ (let someone stay) uses different kanji.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02328_yosu",
+      "reading": "よす",
+      "headword": "よす",
+      "label": "to stop, to give up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20992_teishisuru",
+      "reading": "ていしする",
+      "headword": "{停止|ていし}する",
+      "label": "to stop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22431_chuushasuru",
+      "reading": "ちゅうしゃする",
+      "headword": "{駐車|ちゅうしゃ}する",
+      "label": "to park (a vehicle)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22563_oshitodomeru",
+      "reading": "おしとどめる",
+      "headword": "{押|お}し{留|とど}める",
+      "label": "to restrain"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:55:05Z",
-    "modified": "2026-05-12T16:12:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

@@ -17,7 +17,9 @@
       "id": "29902_koorogi_ex1",
       "japanese": "{夜|よる}にコオロギが{鳴|な}く。",
       "english": "Crickets chirp at night.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29902_koorogi_ex2",
       "japanese": "{秋|あき}になるとコオロギの{声|こえ}が{聞|き}こえる。",
       "english": "When autumn comes, you can hear the sound of crickets.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "29902_koorogi_ex3",
       "japanese": "{静|しず}かな{夜|よる}、コオロギの{鳴|な}き{声|ごえ}が{秋|あき}の{訪|おとず}れを{感|かん}じさせる。",
       "english": "On a quiet night, the chirping of crickets makes you feel the arrival of autumn.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A cricket, strongly associated with autumn in Japan, where its chirping ({鳴|な}き{声|ごえ}) is a seasonal sound enjoyed much like birdsong.\n\nCOMMON COLLOCATIONS:\n- コオロギが{鳴|な}く: a cricket chirps\n- コオロギの{鳴|な}き{声|ごえ}: the chirping of a cricket\n\nSIMILAR WORDS:\n- キリギリス: katydid — a green relative that sings in summer grassland\n- {鈴虫|すずむし}: bell cricket — prized for its clear, bell-like chirp",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29901_kirigirisu",
+      "reading": "きりぎりす",
+      "headword": "キリギリス",
+      "label": "katydid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28685_suzumushi",
+      "reading": "すずむし",
+      "headword": "{鈴虫|すずむし}",
+      "label": "bell cricket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06515_batta",
+      "reading": "ばった",
+      "headword": "バッタ",
+      "label": "grasshopper, locust"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["animal-insect"],
+      "politeness": "plain",
+      "semantic": [
+        "animal-insect"
+      ],
       "domain": []
     },
     "created": "2026-07-16T21:18:06Z",
-    "modified": "2026-07-16T21:18:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

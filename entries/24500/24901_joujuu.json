@@ -3,7 +3,7 @@
   "headword": "{常住|じょうじゅう}",
   "reading": "じょうじゅう",
   "romaji": "joujuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "permanent residence; constancy; permanence",
   "definitions": [
     {
@@ -81,6 +81,29 @@
   ],
   "notes": "Has two distinct uses. In everyday language, {常住|じょうじゅう} means living somewhere permanently or being always stationed at a location. In Buddhist philosophy, it refers to the concept of eternal, unchanging existence — the opposite of {無常|むじょう} (impermanence).\n\nCOMMON COLLOCATIONS:\n- {常住|じょうじゅう}する: to reside permanently; to be stationed\n- {常住|じょうじゅう}{人口|じんこう}: permanent population\n- {常住|じょうじゅう}{不滅|ふめつ}: eternal and indestructible (Buddhist term)\n\nSIMILAR WORDS:\n- {定住|ていじゅう}: permanent settlement — focuses on the act of settling down in a place, while {常住|じょうじゅう} emphasizes continuous presence\n- {常駐|じょうちゅう}: being permanently stationed — used for personnel assigned to a location, such as guards or IT staff\n- {無常|むじょう}: impermanence — the Buddhist opposite of {常住|じょうじゅう}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12524_teijuu",
+      "reading": "ていじゅう",
+      "headword": "{定住|ていじゅう}",
+      "label": "permanent settlement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21124_jouchuu",
+      "reading": "じょうちゅう",
+      "headword": "{常駐|じょうちゅう}",
+      "label": "being permanently stationed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13422_mujou",
+      "reading": "むじょう",
+      "headword": "{無常|むじょう}",
+      "label": "impermanence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -97,7 +120,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-21T12:11:50Z",
-    "modified": "2026-04-21T12:11:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

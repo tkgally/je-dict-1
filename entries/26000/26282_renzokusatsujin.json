@@ -44,11 +44,27 @@
     }
   ],
   "notes": "A compound of {連続|れんぞく} (consecutive, serial) + {殺人|さつじん} (murder). Refers to a series of murders committed by the same perpetrator, typically with a cooling-off period between each killing. Commonly encountered in news reports and crime fiction.\n\nCOMMON COLLOCATIONS:\n- {連続殺人|れんぞくさつじん}{事件|じけん}: serial murder case\n- {連続殺人|れんぞくさつじん}{犯|はん}: serial killer\n- {連続殺人|れんぞくさつじん}の{容疑者|ようぎしゃ}: serial murder suspect\n- {連続殺人|れんぞくさつじん}の{捜査|そうさ}: serial murder investigation\n\nSIMILAR WORDS:\n- {連続殺人犯|れんぞくさつじんはん}: serial killer (the perpetrator)\n- {大量殺人|たいりょうさつじん}: mass murder (many victims in a single event, not spread over time)\n- {殺人事件|さつじんじけん}: murder case (a single murder incident)\n- シリアルキラー: serial killer (loanword; used in casual media discussions)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23634_tairyousatsujin",
+      "reading": "たいりょうさつじん",
+      "headword": "{大量殺人|たいりょうさつじん}",
+      "label": "mass murder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30413_satsujinjiken",
+      "reading": "さつじんじけん",
+      "headword": "{殺人|さつじん}{事件|じけん}",
+      "label": "murder case"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
+      "politeness": "plain",
       "semantic": [
         "law"
       ],
@@ -57,6 +73,6 @@
       ]
     },
     "created": "2026-04-30T14:29:13Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

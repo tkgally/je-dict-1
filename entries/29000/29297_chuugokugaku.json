@@ -17,7 +17,9 @@
       "id": "29297_chuugokugaku_ex1",
       "japanese": "{大学|だいがく}で{中国学|ちゅうごくがく}を{専攻|せんこう}する。",
       "english": "Major in Chinese studies at university.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29297_chuugokugaku_ex2",
       "japanese": "{彼女|かのじょ}は{中国学|ちゅうごくがく}を{研究|けんきゅう}している。",
       "english": "She does research in Chinese studies.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "29297_chuugokugaku_ex3",
       "japanese": "{中国学|ちゅうごくがく}では、{古典|こてん}の{原文|げんぶん}を{読|よ}み{解|と}く{力|ちから}が{求|もと}められる。",
       "english": "Chinese studies requires the ability to read and interpret classical texts in the original.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {中国|ちゅうごく} (China) + the suffix {学|がく} (the study of). One of many academic fields named with the ～{学|がく} pattern.\n\nCOMMON COLLOCATIONS:\n- {中国学|ちゅうごくがく}を{専攻|せんこう}する: to major in Chinese studies\n- {中国学|ちゅうごくがく}の{研究者|けんきゅうしゃ}: a scholar of Chinese studies\n\nSIMILAR WORDS:\n- {漢学|かんがく}: classical Chinese learning — the older tradition focused on Chinese classics and Confucian texts\n- {東洋学|とうようがく}: Oriental studies — a broader field covering Asia as a whole",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24281_kangaku",
+      "reading": "かんがく",
+      "headword": "{漢学|かんがく}",
+      "label": "classical Chinese learning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18582_touyougaku",
+      "reading": "とうようがく",
+      "headword": "{東洋学|とうようがく}",
+      "label": "Oriental studies"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["education"],
-      "domain": ["academic"]
+      "politeness": "plain",
+      "semantic": [
+        "education"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-06-16T15:19:08Z",
-    "modified": "2026-06-16T15:19:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "26188_sehi_ex1",
       "japanese": "{春|はる}に{施肥|せひ}を{行|おこな}う。",
       "english": "Fertilization is carried out in spring.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26188_sehi_ex2",
       "japanese": "{適切|てきせつ}な{施肥|せひ}が{作物|さくもつ}の{成長|せいちょう}を{促|うなが}す。",
       "english": "Proper fertilization promotes crop growth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,51 @@
       "id": "26188_sehi_ex3",
       "japanese": "{過剰|かじょう}な{施肥|せひ}は{土壌|どじょう}の{質|しつ}を{悪化|あっか}させることがある。",
       "english": "Excessive fertilization can degrade soil quality.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A technical term used in agriculture and gardening. Composed of {施|ほどこ}す (to apply, to give) and {肥|こえ} (fertilizer). This word is often encountered in farming manuals, gardening guides, and agricultural science.\n\nCOMMON COLLOCATIONS:\n- {施肥|せひ}を{行|おこな}う — to apply fertilizer\n- {施肥|せひ}{量|りょう} — amount of fertilizer applied\n- {施肥|せひ}{時期|じき} — fertilizing season/timing\n- {追|つい}{肥|ひ}する — to apply additional fertilizer (top-dressing)\n\nRELATED TERMS:\n- {肥料|ひりょう} — fertilizer (the substance itself)\n- {元肥|もとごえ} — base fertilizer (applied before planting)\n- {追肥|ついひ} — additional fertilizer (applied during growth)",
-  "cross_references": [],
+  "notes": "A technical term used in agriculture and gardening. Composed of {施|ほどこ}す (to apply, to give) and {肥|こえ} (fertilizer). This word is often encountered in farming manuals, gardening guides, and agricultural science.\n\nCOMMON COLLOCATIONS:\n- {施肥|せひ}を{行|おこな}う — to apply fertilizer\n- {施肥|せひ}{量|りょう} — amount of fertilizer applied\n- {施肥|せひ}{時期|じき} — fertilizing season/timing\n- {追|つい}{肥|ひ}する — to apply additional fertilizer (top-dressing)\n\nRELATED WORDS:\n- {肥料|ひりょう} — fertilizer (the substance itself)\n- {元肥|もとごえ} — base fertilizer (applied before planting)\n- {追肥|ついひ} — additional fertilizer (applied during growth)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06102_hiryou",
+      "reading": "ひりょう",
+      "headword": "{肥料|ひりょう}",
+      "label": "fertilizer"
+    },
+    {
+      "type": "related",
+      "target_id": "26356_motogoe",
+      "reading": "もとごえ",
+      "headword": "{元肥|もとごえ}",
+      "label": "base fertilizer"
+    },
+    {
+      "type": "related",
+      "target_id": "08232_tsuihi",
+      "reading": "ついひ",
+      "headword": "{追肥|ついひ}",
+      "label": "additional fertilizer"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["work"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "work"
+      ]
     },
     "created": "2026-04-30T11:25:57Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

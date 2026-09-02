@@ -3,7 +3,7 @@
   "headword": "{共用|きょうよう}",
   "reading": "きょうよう",
   "romaji": "kyouyou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "shared use; communal use",
   "definitions": [
     {
@@ -52,6 +52,41 @@
       "reading": "せんよう",
       "headword": "{専用|せんよう}",
       "label": "exclusive use"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11666_kyouyuu",
+      "reading": "きょうゆう",
+      "headword": "{共有|きょうゆう}",
+      "label": "shared ownership"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11652_koukyou",
+      "reading": "こうきょう",
+      "headword": "{公共|こうきょう}",
+      "label": "public"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15781_kenyou",
+      "reading": "けんよう",
+      "headword": "{兼用|けんよう}",
+      "label": "dual-purpose"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20299_kenyousuru",
+      "reading": "けんようする",
+      "headword": "{兼用|けんよう}する",
+      "label": "to use for two purposes"
+    },
+    {
+      "type": "related",
+      "target_id": "26704_kojinyou",
+      "reading": "こじんよう",
+      "headword": "{個人用|こじんよう}",
+      "label": "for personal use"
     }
   ],
   "schema_version": "2.0",
@@ -70,7 +105,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T15:22:13Z",
-    "modified": "2026-04-26T10:06:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

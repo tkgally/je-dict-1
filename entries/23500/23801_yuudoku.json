@@ -3,7 +3,7 @@
   "headword": "{有毒|ゆうどく}",
   "reading": "ゆうどく",
   "romaji": "yuudoku",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective, no-adjective",
   "gloss": "poisonous; toxic",
   "definitions": [
     {
@@ -54,8 +54,52 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {有|ゆう} ('having; possessing') and {毒|どく} ('poison'), literally 'having poison'. Pattern {有|ゆう}- vs {無|む}- ('not having') produces matched antonyms: {有毒|ゆうどく} / {無毒|むどく}, {有害|ゆうがい} / {無害|むがい}, {有料|ゆうりょう} / {無料|むりょう}.\n\nUSAGE:\n- As a na-adjective before nouns: {有毒|ゆうどく}な{植物|しょくぶつ} ('poisonous plant'), {有毒|ゆうどく}な{物質|ぶっしつ} ('toxic substance').\n- As a prefix in compound nouns without な: {有毒|ゆうどく}ガス, {有毒|ゆうどく}{物質|ぶっしつ}, {有毒|ゆうどく}{成分|せいぶん}.\n- Used literally, not metaphorically. For emotionally/socially harmful situations Japanese usually prefers {有害|ゆうがい} ('harmful') or borrows トキシック.\n\nCOMMON COLLOCATIONS:\n- {有毒|ゆうどく}ガス: toxic gas\n- {有毒|ゆうどく}{物質|ぶっしつ}: toxic substance\n- {有毒|ゆうどく}{成分|せいぶん}: toxic component\n- {有毒|ゆうどく}{植物|しょくぶつ}: poisonous plant\n- {有毒|ゆうどく}{生物|せいぶつ}: venomous/poisonous creature\n- {有毒|ゆうどく}{廃棄|はいき}{物|ぶつ}: toxic waste\n- {有毒|ゆうどく}{煙|けむり}: toxic smoke/fumes\n\nSIMILAR WORDS:\n- {有害|ゆうがい}: harmful — broader; covers anything damaging to health or society (pollution, bad influence), not only poisons.\n- {毒性|どくせい}: toxicity — the noun describing the property; {毒性|どくせい}が{強|つよ}い ('highly toxic').\n- {猛毒|もうどく}: deadly poison — an intensified noun; a step up from {有毒|ゆうどく}.\n\nANTONYM:\n- {無毒|むどく}: non-toxic; harmless",
+  "notes": "Compound of {有|ゆう} ('having; possessing') and {毒|どく} ('poison'), literally 'having poison'. Pattern {有|ゆう}- vs {無|む}- ('not having') produces matched antonyms: {有毒|ゆうどく} / {無毒|むどく}, {有害|ゆうがい} / {無害|むがい}, {有料|ゆうりょう} / {無料|むりょう}.\n\nUSAGE:\n- As a na-adjective before nouns: {有毒|ゆうどく}な{植物|しょくぶつ} ('poisonous plant'), {有毒|ゆうどく}な{物質|ぶっしつ} ('toxic substance').\n- As a prefix in compound nouns without な: {有毒|ゆうどく}ガス, {有毒|ゆうどく}{物質|ぶっしつ}, {有毒|ゆうどく}{成分|せいぶん}.\n- Used literally, not metaphorically. For emotionally/socially harmful situations Japanese usually prefers {有害|ゆうがい} ('harmful') or borrows トキシック.\n\nCOMMON COLLOCATIONS:\n- {有毒|ゆうどく}ガス: toxic gas\n- {有毒|ゆうどく}{物質|ぶっしつ}: toxic substance\n- {有毒|ゆうどく}{成分|せいぶん}: toxic component\n- {有毒|ゆうどく}{植物|しょくぶつ}: poisonous plant\n- {有毒|ゆうどく}{生物|せいぶつ}: venomous/poisonous creature\n- {有毒|ゆうどく}{廃棄|はいき}{物|ぶつ}: toxic waste\n- {有毒|ゆうどく}{煙|けむり}: toxic smoke/fumes\n\nSIMILAR WORDS:\n- {有害|ゆうがい}: harmful — broader; covers anything damaging to health or society (pollution, bad influence), not only poisons.\n- {毒性|どくせい}: toxicity — the noun describing the property; {毒性|どくせい}が{強|つよ}い ('highly toxic').\n- {猛毒|もうどく}: deadly poison — an intensified noun; a step up from {有毒|ゆうどく}.\n- {無毒|むどく}: non-toxic; harmless",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13002_yuugai",
+      "reading": "ゆうがい",
+      "headword": "{有害|ゆうがい}",
+      "label": "harmful"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22201_dokusei",
+      "reading": "どくせい",
+      "headword": "{毒性|どくせい}",
+      "label": "toxicity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19081_moudoku",
+      "reading": "もうどく",
+      "headword": "{猛毒|もうどく}",
+      "label": "deadly poison"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27157_mudoku",
+      "reading": "むどく",
+      "headword": "{無毒|むどく}",
+      "label": "non-toxic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22132_yuugaibusshitsu",
+      "reading": "ゆうがいぶっしつ",
+      "headword": "{有害物質|ゆうがいぶっしつ}",
+      "label": "harmful substance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27029_dokubutsu",
+      "reading": "どくぶつ",
+      "headword": "{毒物|どくぶつ}",
+      "label": "toxic substance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -70,6 +114,6 @@
       ]
     },
     "created": "2026-04-14T21:18:59Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

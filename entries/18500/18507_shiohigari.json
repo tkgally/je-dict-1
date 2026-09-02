@@ -44,8 +44,59 @@
       "notes": null
     }
   ],
-  "notes": "A seasonal spring activity popular with families, especially during Golden Week (late April to early May). The main target is {あさり} (short-necked clam). Famous spots include {千葉|ちば}{県|けん} and {愛知|あいち}{県|けん} coastal areas. The word combines {潮干|しおひ} (ebb tide) with {狩|か}り (hunting/gathering). Related: {干潟|ひがた} (tidal flat), {大潮|おおしお} (spring tide — the best time for clamming).",
+  "notes": "A seasonal spring activity popular with families, especially during Golden Week (late April to early May). The main target is あさり (short-necked clam). Famous spots include {千葉|ちば}{県|けん} and {愛知|あいち}{県|けん} coastal areas. The word combines {潮干|しおひ} (ebb tide) with {狩|か}り (hunting/gathering). Related: {干潟|ひがた} (tidal flat), {大潮|おおしお} (spring tide — the best time for clamming).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07148_hikishio",
+      "reading": "ひきしお",
+      "headword": "{引|ひ}き{潮|しお}",
+      "label": "ebb tide"
+    },
+    {
+      "type": "related",
+      "target_id": "15017_sansaitori",
+      "reading": "さんさいとり",
+      "headword": "{山菜採|さんさいと}り",
+      "label": "gathering wild vegetables"
+    },
+    {
+      "type": "related",
+      "target_id": "20147_kinokogari",
+      "reading": "きのこがり",
+      "headword": "{茸狩|きのこが}り",
+      "label": "mushroom picking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27856_hotarugari",
+      "reading": "ほたるがり",
+      "headword": "{蛍狩|ほたるが}り",
+      "label": "firefly viewing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27924_ringogari",
+      "reading": "りんごがり",
+      "headword": "りんご{狩|が}り",
+      "label": "apple picking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28844_isoasobi",
+      "reading": "いそあそび",
+      "headword": "{磯遊|いそあそ}び",
+      "label": "playing at a rocky shore"
+    },
+    {
+      "type": "related",
+      "target_id": "29826_kudamonogari",
+      "reading": "くだものがり",
+      "headword": "{果物|くだもの}{狩|が}り",
+      "label": "fruit picking (as a leisure outing)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +110,6 @@
       ]
     },
     "created": "2026-03-22T03:18:46Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

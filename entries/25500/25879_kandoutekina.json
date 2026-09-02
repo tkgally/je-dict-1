@@ -3,7 +3,7 @@
   "headword": "{感動的|かんどうてき}な",
   "reading": "かんどうてきな",
   "romaji": "kandoutekina",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "moving; touching; inspiring",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "25879_kandoutekina_ex1",
       "japanese": "{感動的|かんどうてき}な{映画|えいが}だった。",
       "english": "It was a moving film.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25879_kandoutekina_ex2",
       "japanese": "{彼女|かのじょ}のスピーチはとても{感動的|かんどうてき}で、{涙|なみだ}が{出|で}た。",
       "english": "Her speech was so moving that it brought me to tears.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,50 @@
       "id": "25879_kandoutekina_ex3",
       "japanese": "{選手|せんしゅ}たちの{最後|さいご}まで{諦|あきら}めない{姿|すがた}は、{観客|かんきゃく}にとって{感動的|かんどうてき}な{瞬間|しゅんかん}だった。",
       "english": "The athletes' refusal to give up until the very end was a moving moment for the audience.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A na-adjective formed from {感動|かんどう} (being deeply moved) + {的|てき} (adjective-forming suffix). Describes something that has the power to move people emotionally. While {感動|かんどう} is the noun/verb-suru form describing the feeling itself, {感動的|かんどうてき}な describes the quality of something that produces that feeling.\n\nOften used in reviews, descriptions of performances, and narratives. Almost always carries a positive connotation — being moved in a good way.\n\nCOMMON COLLOCATIONS:\n- {感動的|かんどうてき}な{話|はなし}: a moving story\n- {感動的|かんどうてき}な{場面|ばめん}: a touching scene\n- {感動的|かんどうてき}なスピーチ: an inspiring speech\n- {感動的|かんどうてき}な{結末|けつまつ}: a moving ending\n- {感動的|かんどうてき}な{演奏|えんそう}: a moving performance\n\nSIMILAR WORDS:\n- {感動|かんどう}する: to be moved — the verb form describing the experience of being moved\n- {印象的|いんしょうてき}な: impressive — focuses on leaving a strong impression, not necessarily emotional\n- {心|こころ}に{残|のこ}る: unforgettable; lingering in the heart — more colloquial, emphasizes lasting memory",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21603_kandousuru",
+      "reading": "かんどうする",
+      "headword": "{感動|かんどう}する",
+      "label": "to be moved"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22371_inshoutekina",
+      "reading": "いんしょうてきな",
+      "headword": "{印象的|いんしょうてき}な",
+      "label": "impressive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30508_doramachikku",
+      "reading": "どらまちっく",
+      "headword": "ドラマチック",
+      "label": "dramatic"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
-      "semantic": ["emotion"]
+      "pos": [
+        "adjective-na"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "emotion"
+      ]
     },
     "created": "2026-04-28T11:18:56Z",
-    "modified": "2026-04-28T11:18:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "Japanese word order is different from English.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14279_gojun_ex2",
@@ -27,7 +29,9 @@
       "english": "If you get the word order wrong, the meaning can change.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14279_gojun_ex3",
@@ -35,22 +39,45 @@
       "english": "Japanese has a basic subject-object-verb word order, but because it uses particles, words can be rearranged relatively freely.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Compound of {語|ご} (word) + {順|じゅん} (order). Frequently encountered in language textbooks and linguistic discussions.\n\nJapanese is classified as an SOV (subject-object-verb) language, contrasting with English SVO order. However, Japanese {語順|ごじゅん} is relatively flexible because grammatical relationships are marked by particles rather than position.\n\nCOMMON COLLOCATIONS:\n- {語順|ごじゅん}が{違|ちが}う (word order is different)\n- {語順|ごじゅん}を{変|か}える (to change word order)\n- {基本|きほん}の{語順|ごじゅん} (basic word order)\n- {自由|じゆう}な{語順|ごじゅん} (flexible word order)\n\nRELATED WORDS:\n- {文法|ぶんぽう}: grammar\n- {構文|こうぶん}: sentence structure, syntax",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01506_bunpou",
+      "reading": "ぶんぽう",
+      "headword": "{文法|ぶんぽう}",
+      "label": "grammar"
+    },
+    {
+      "type": "related",
+      "target_id": "26934_koubun",
+      "reading": "こうぶん",
+      "headword": "{構文|こうぶん}",
+      "label": "sentence structure, syntax"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T09:23:36Z",
-    "modified": "2026-02-28T09:23:36Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"],
-      "domain": ["academic"]
+      "semantic": [
+        "education"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

@@ -79,10 +79,32 @@
     }
   ],
   "notes": "{障害|しょうがい} has two main meanings: obstacle/hindrance and disability/impairment.\n\nMEANING 1 - OBSTACLE:\n- {障害|しょうがい}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become an obstacle)\n- {障害|しょうがい}⟦を→を：00422_wo⟧⟦{乗|の}り{越|こ}える→乗り越える：04620_norikoeru⟧ (to overcome an obstacle)\n- ⟦{通信|つうしん}→通信：03514_tsuushin⟧{障害|しょうがい} (communication failure/outage)\n- ⟦システム→システム：08428_shisutemu⟧{障害|しょうがい} (system failure)\n\nMEANING 2 - DISABILITY:\n- ⟦{身体|しんたい}→身体：03330_shintai⟧{障害|しょうがい} (physical disability)\n- ⟦{知的|ちてき}→知的：13700_chiteki⟧{障害|しょうがい} (intellectual disability)\n- ⟦{視覚|しかく}→視覚：02837_shikaku⟧{障害|しょうがい} (visual impairment)\n- ⟦{聴覚|ちょうかく}→聴覚：13911_choukaku⟧{障害|しょうがい} (hearing impairment)\n- ⟦{障害者|しょうがいしゃ}→障害者：27165_shougaisha⟧ (person with disability)\n\nNOTE ON WRITING:\nSome organizations and individuals prefer writing {障|しょう}がい instead of {障害|しょうがい} to avoid the negative connotation of the kanji {害|がい} (harm).\n\nNOTE: {障害|しょうがい} and {生涯|しょうがい} (lifetime) are homophones.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14576_sogai",
+      "reading": "そがい",
+      "headword": "{阻害|そがい}",
+      "label": "obstruction"
+    },
+    {
+      "type": "homophone",
+      "target_id": "22910_shougai",
+      "reading": "しょうがい",
+      "headword": "{傷害|しょうがい}",
+      "label": "injury"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25111_tsumazuki",
+      "reading": "つまずき",
+      "headword": "{躓|つまず}き",
+      "label": "stumble"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T13:40:30Z",
-    "modified": "2026-05-24T15:08:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -17,7 +17,9 @@
       "id": "21747_kyuushokusha_ex1",
       "japanese": "{求職者|きゅうしょくしゃ}が{増|ふ}えている。",
       "english": "The number of job seekers is increasing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21747_kyuushokusha_ex2",
       "japanese": "ハローワークは{求職者|きゅうしょくしゃ}を{支援|しえん}する{機関|きかん}だ。",
       "english": "Hello Work is an agency that supports job seekers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,12 +37,30 @@
       "id": "21747_kyuushokusha_ex3",
       "japanese": "{景気|けいき}が{悪化|あっか}し、{一|ひと}つの{求人|きゅうじん}に{対|たい}して{何十人|なんじゅうにん}もの{求職者|きゅうしょくしゃ}が{応募|おうぼ}するようになった。",
       "english": "The economy worsened, and dozens of job seekers began applying for each job opening.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {求職|きゅうしょく} (seeking employment) and {者|しゃ} (person). This is the formal, standard term used in official documents, labor statistics, and news reporting.\n\nUSAGE:\n- Used in official and formal contexts\n- ハローワーク (Hello Work, the public employment service) uses this term in its official communications\n- Often paired with {求人|きゅうじん} (job opening/recruitment) in labor market discussions\n\nCOMMON COLLOCATIONS:\n- {求職者|きゅうしょくしゃ}{支援|しえん}: job seeker support\n- {求職者|きゅうしょくしゃ}{数|すう}: number of job seekers\n- {求職者|きゅうしょくしゃ}{給付金|きゅうふきん}: job seeker benefits\n- {有効|ゆうこう}{求人|きゅうじん}{倍率|ばいりつ}: effective job openings-to-applicants ratio\n\nSIMILAR WORDS:\n- {就活生|しゅうかつせい}: job-hunting student — specifically students engaged in {就職|しゅうしょく}{活動|かつどう} (job hunting)\n- {失業者|しつぎょうしゃ}: unemployed person — someone without a job; may or may not be actively seeking work\n- {応募者|おうぼしゃ}: applicant — someone who has applied for a specific position",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22385_shitsugyousha",
+      "reading": "しつぎょうしゃ",
+      "headword": "{失業者|しつぎょうしゃ}",
+      "label": "unemployed person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20440_oubosha",
+      "reading": "おうぼしゃ",
+      "headword": "{応募者|おうぼしゃ}",
+      "label": "applicant"
+    }
+  ],
   "metadata": {
     "entry_id": "21747_kyuushokusha",
     "schema_version": "2.0",
@@ -46,11 +68,19 @@
     "vocabulary_tier": "general",
     "jlpt_level": null,
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["society", "work"],
-      "register": ["formal"],
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "society",
+        "work"
+      ],
+      "register": [
+        "formal"
+      ],
       "usage": []
     },
-    "modified": "2026-04-03T15:30:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

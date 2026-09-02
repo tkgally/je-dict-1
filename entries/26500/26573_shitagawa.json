@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Refers to the lower surface or the part underneath something. Formed from {下|した} (below) and {側|がわ} (side). Used when specifying which side of an object you mean, often in contexts involving inspection, cleaning, or spatial description.\n\nCOMMON COLLOCATIONS:\n- {机|つくえ}の{下側|したがわ}: underside of a desk\n- {車|くるま}の{下側|したがわ}: underside of a car\n- {下側|したがわ}から{見|み}る: to look from below\n- {下側|したがわ}に{貼|は}る: to stick on the underside\n\nSIMILAR WORDS:\n- {上側|うわがわ}: upper side — the opposite direction\n- {裏側|うらがわ}: back side, reverse — refers to the hidden face rather than specifically the lower one\n- {底|そこ}: bottom — the very lowest surface, not a \"side\"",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03042_uragawa",
+      "reading": "うらがわ",
+      "headword": "{裏側|うらがわ}",
+      "label": "back side, reverse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12560_soko",
+      "reading": "そこ",
+      "headword": "{底|そこ}",
+      "label": "bottom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26583_tonarigawa",
+      "reading": "となりがわ",
+      "headword": "{隣側|となりがわ}",
+      "label": "the side next to"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +82,6 @@
       ]
     },
     "created": "2026-05-03T12:28:23Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

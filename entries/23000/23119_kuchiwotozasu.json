@@ -3,7 +3,7 @@
   "headword": "{口|くち}を{閉|と}ざす",
   "reading": "くちをとざす",
   "romaji": "kuchiwotozasu",
-  "part_of_speech": "verb",
+  "part_of_speech": "expression, verb (godan)",
   "gloss": "to clam up; to keep silent; to refuse to speak",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Literally \"to close one's mouth.\" A set expression using {閉|と}ざす (to shut, to close off), which is more literary than {閉|し}める. The expression implies a deliberate, often stubborn refusal to talk, not merely being quiet.\n\nCOMMON COLLOCATIONS:\n- {固|かた}く{口|くち}を{閉|と}ざす: to keep one's mouth firmly shut\n- {一切|いっさい}{口|くち}を{閉|と}ざす: to refuse to say anything at all\n- {口|くち}を{閉|と}ざしたまま: while remaining silent\n\nSIMILAR WORDS:\n- {黙|だま}る: to fall silent — more general; simply stopping talking\n- {口|くち}をつぐむ: to shut one's mouth — very similar, slightly less literary\n- {沈黙|ちんもく}する: to remain silent — more formal; emphasizes the state of silence itself",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02287_damaru",
+      "reading": "だまる",
+      "headword": "{黙|だま}る",
+      "label": "to fall silent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21119_kuchiwotsugumu",
+      "reading": "くちをつぐむ",
+      "headword": "{口|くち}をつぐむ",
+      "label": "to shut one's mouth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25361_chinmokusuru",
+      "reading": "ちんもくする",
+      "headword": "{沈黙|ちんもく}する",
+      "label": "to remain silent"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "godan-su"
     },
     "created": "2026-04-08T19:22:04Z",
-    "modified": "2026-04-08T19:22:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

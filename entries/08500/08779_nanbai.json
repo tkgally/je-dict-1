@@ -16,7 +16,9 @@
       "id": "08779_nanbai_ex1",
       "japanese": "コーヒーは{何杯|なんばい}{飲|の}みますか。",
       "english": "How many cups of coffee do you drink?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "08779_nanbai_ex2",
       "japanese": "ご{飯|はん}を{何杯|なんばい}{食|た}べましたか。",
       "english": "How many bowls of rice did you eat?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "08779_nanbai_ex3",
       "japanese": "ビールは{何杯|なんばい}{頼|たの}む？",
       "english": "How many beers should we order?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -51,18 +57,30 @@
       "reading": "なんさつ",
       "headword": "{何冊|なんさつ}",
       "label": "how many (books)"
+    },
+    {
+      "type": "homophone",
+      "target_id": "22969_nanbai",
+      "reading": "なんばい",
+      "headword": "{何倍|なんばい}",
+      "label": "how many times"
     }
   ],
-  "notes": "COUNTER QUESTION:\n{何杯|なんばい} combines {何|なん} (what/how many) with the counter {杯|はい} for cupfuls/glassfuls/bowlfuls.\n\nOBJECTS COUNTED WITH {杯|はい}:\n- コーヒー/{紅茶|こうちゃ} - coffee/tea (cups)\n- {水|みず}/ジュース - water/juice (glasses)\n- ビール/{酒|さけ} - beer/sake (glasses)\n- ご{飯|はん} - rice (bowls)\n- ラーメン/{蕎麦|そば} - ramen/soba (bowls)\n\nCOUNTING PATTERN:\n- {一杯|いっぱい} - one cup/glass\n- {二杯|にはい} - two cups/glasses\n- {三杯|さんばい} - three cups/glasses\n- {何杯|なんばい}/{何杯|なんぱい} - how many?\n\nPRONUNCIATION NOTE:\nThe counter follows rendaku rules: はい → ばい/ぱい after certain numbers. Both なんばい and なんぱい are acceptable.",
+  "notes": "COUNTER QUESTION:\n{何杯|なんばい} combines {何|なん} (what/how many) with the counter {杯|はい} for cupfuls/glassfuls/bowlfuls.\n\nOBJECTS COUNTED WITH {杯|はい}:\n- コーヒー/{紅茶|こうちゃ} - coffee/tea (cups)\n- {水|みず}/ジュース - water/juice (glasses)\n- ビール/{酒|さけ} - beer/sake (glasses)\n- ご{飯|はん} - rice (bowls)\n- ラーメン/{蕎麦|そば} - ramen/soba (bowls)\n\nCOUNTING PATTERNS:\n- {一杯|いっぱい} - one cup/glass\n- {二杯|にはい} - two cups/glasses\n- {三杯|さんばい} - three cups/glasses\n- {何杯|なんばい}/{何杯|なんぱい} - how many?\n\nPRONUNCIATION:\nThe counter follows rendaku rules: はい → ばい/ぱい after certain numbers. Both なんばい and なんぱい are acceptable.",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity", "grammatical"]
+      "semantic": [
+        "quantity",
+        "grammatical"
+      ]
     },
     "created": "2026-01-28T04:51:23Z",
-    "modified": "2026-04-22T05:10:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

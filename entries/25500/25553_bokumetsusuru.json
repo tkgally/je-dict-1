@@ -3,7 +3,7 @@
   "headword": "{撲滅|ぼくめつ}する",
   "reading": "ぼくめつする",
   "romaji": "bokumetsusuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to eradicate; to stamp out; to wipe out",
   "definitions": [
     {
@@ -44,8 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "{撲滅|ぼくめつ}する is a strong, dramatic word — literally \"strike and destroy.\" It is used in the context of campaigns, movements, and determined efforts against social ills. The noun form {撲滅|ぼくめつ} is very common in slogans and campaign names.\n\nCOMMON COLLOCATIONS:\n- {犯罪|はんざい}{撲滅|ぼくめつ}: crime eradication\n- いじめ{撲滅|ぼくめつ}: bullying eradication\n- {差別|さべつ}{撲滅|ぼくめつ}: elimination of discrimination\n- {撲滅|ぼくめつ}{運動|うんどう}: eradication campaign\n- {撲滅|ぼくめつ}{キャンペーン}: eradication campaign\n\nSIMILAR WORDS:\n- {根絶|こんぜつ}する: to root out; to eradicate — emphasizes pulling out by the roots; very close synonym\n- {排除|はいじょ}する: to exclude; to eliminate — focuses on removing from a system, less dramatic\n- {撤廃|てっぱい}する: to abolish — used for laws, systems, and regulations rather than social evils",
-  "cross_references": [],
+  "notes": "{撲滅|ぼくめつ}する is a strong, dramatic word — literally \"strike and destroy.\" It is used in the context of campaigns, movements, and determined efforts against social ills. The noun form {撲滅|ぼくめつ} is very common in slogans and campaign names.\n\nCOMMON COLLOCATIONS:\n- {犯罪|はんざい}{撲滅|ぼくめつ}: crime eradication\n- いじめ{撲滅|ぼくめつ}: bullying eradication\n- {差別|さべつ}{撲滅|ぼくめつ}: elimination of discrimination\n- {撲滅|ぼくめつ}{運動|うんどう}: eradication campaign\n- {撲滅|ぼくめつ}キャンペーン: eradication campaign\n\nSIMILAR WORDS:\n- {根絶|こんぜつ}する: to root out; to eradicate — emphasizes pulling out by the roots; very close synonym\n- {排除|はいじょ}する: to exclude; to eliminate — focuses on removing from a system, less dramatic\n- {撤廃|てっぱい}する: to abolish — used for laws, systems, and regulations rather than social evils",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18244_konzetsu",
+      "reading": "こんぜつ",
+      "headword": "{根絶|こんぜつ}",
+      "label": "to root out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07631_haijo",
+      "reading": "はいじょ",
+      "headword": "{排除|はいじょ}",
+      "label": "to exclude"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12911_teppai",
+      "reading": "てっぱい",
+      "headword": "{撤廃|てっぱい}",
+      "label": "to abolish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21319_kujosuru",
+      "reading": "くじょする",
+      "headword": "{駆除|くじょ}する",
+      "label": "to exterminate"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +83,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "action",
         "society"
@@ -62,7 +93,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T16:22:51Z",
-    "modified": "2026-04-25T16:22:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

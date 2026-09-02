@@ -17,7 +17,9 @@
       "id": "21058_shurui_ex1",
       "japanese": "{酒類|しゅるい}の{販売|はんばい}は{禁止|きんし}されています。",
       "english": "The sale of alcoholic beverages is prohibited.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21058_shurui_ex2",
       "japanese": "この{店|みせ}では{酒類|しゅるい}の{持|も}ち{込|こ}みはできません。",
       "english": "Bringing your own alcohol is not allowed at this establishment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "21058_shurui_ex3",
       "japanese": "{未成年者|みせいねんしゃ}への{酒類|しゅるい}の{提供|ていきょう}は{法律|ほうりつ}で{禁|きん}じられている。",
       "english": "Providing alcoholic beverages to minors is prohibited by law.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "An official, formal term for alcoholic beverages as a category. Commonly encountered on store signs, in legal texts, and in business/regulatory contexts. In casual speech, お{酒|さけ} is used instead.\n\nCOMMON COLLOCATIONS:\n- {酒類|しゅるい}の{販売|はんばい}: sale of alcohol\n- {酒類|しゅるい}{提供|ていきょう}: serving of alcohol\n- {酒類|しゅるい}{免許|めんきょ}: liquor license\n- {酒類|しゅるい}の{持|も}ち{込|こ}み: bringing in one's own alcohol\n- {酒類|しゅるい}{取扱店|とりあつかいてん}: establishment licensed to sell alcohol\n\nHOMOPHONE NOTE:\nNot to be confused with {種類|しゅるい} (type, kind), which has the same reading but entirely different meaning and kanji.\n\nSIMILAR WORDS:\n- お{酒|さけ}: alcohol, sake — everyday term for alcoholic drinks\n- アルコール: alcohol — also used in everyday speech and on product labels\n- {酒類|しゅるい}: the formal/regulatory category term",
+  "notes": "An official, formal term for alcoholic beverages as a category. Commonly encountered on store signs, in legal texts, and in business/regulatory contexts. In casual speech, お{酒|さけ} is used instead.\n\nCOMMON COLLOCATIONS:\n- {酒類|しゅるい}の{販売|はんばい}: sale of alcohol\n- {酒類|しゅるい}{提供|ていきょう}: serving of alcohol\n- {酒類|しゅるい}{免許|めんきょ}: liquor license\n- {酒類|しゅるい}の{持|も}ち{込|こ}み: bringing in one's own alcohol\n- {酒類|しゅるい}{取扱店|とりあつかいてん}: establishment licensed to sell alcohol\n\nWATCH OUT:\nNot to be confused with {種類|しゅるい} (type, kind), which has the same reading but entirely different meaning and kanji.\n\nSIMILAR WORDS:\n- お{酒|さけ}: alcohol, sake — everyday term for alcoholic drinks\n- アルコール: alcohol — also used in everyday speech and on product labels\n- {酒類|しゅるい}: the formal/regulatory category term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01045_osake",
+      "reading": "おさけ",
+      "headword": "お{酒|さけ}",
+      "label": "alcohol, sake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01771_arukooru",
+      "reading": "あるこーる",
+      "headword": "アルコール",
+      "label": "alcohol"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-03-31T16:20:34Z",
-    "modified": "2026-07-26T03:19:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "To enroll in social insurance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18894_shakaihoken_ex2",
@@ -27,7 +29,9 @@
       "english": "Even part-time workers can enroll in social insurance if they meet the conditions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18894_shakaihoken_ex3",
@@ -35,22 +39,45 @@
       "english": "Social insurance premiums are deducted from your salary, so your take-home pay decreases.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nJapan's social insurance ({社会|しゃかい}{保険|ほけん}) broadly covers {健康|けんこう}{保険|ほけん} (health insurance), {厚生|こうせい}{年金|ねんきん} (employees' pension), {雇用|こよう}{保険|ほけん} (unemployment insurance), and {労災|ろうさい}{保険|ほけん} (workers' compensation). Often abbreviated to {社保|しゃほ} in casual speech.\n\nCOMMON COLLOCATIONS:\n- {社会|しゃかい}{保険|ほけん}に{加入|かにゅう}する (to enroll in social insurance)\n- {社会|しゃかい}{保険|ほけん}{料|りょう} (social insurance premiums)\n- {社会|しゃかい}{保険|ほけん}{完備|かんび} (full social insurance coverage — seen in job listings)\n- {社会|しゃかい}{保険|ほけん}{制度|せいど} (social insurance system)\n\nSIMILAR WORDS:\n- {国民|こくみん}{健康|けんこう}{保険|ほけん}: National Health Insurance — for self-employed and others not covered by employer insurance\n- {生命|せいめい}{保険|ほけん}: life insurance — private, not government-mandated",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24671_kokuminkenkouhoken",
+      "reading": "こくみんけんこうほけん",
+      "headword": "{国民健康保険|こくみんけんこうほけん}",
+      "label": "National Health Insurance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18637_seimeihoken",
+      "reading": "せいめいほけん",
+      "headword": "{生命|せいめい}{保険|ほけん}",
+      "label": "life insurance"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:26:04Z",
-    "modified": "2026-03-23T06:26:04Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "id": "16719_matohazure",
   "headword": "{的外|まとはず}れ",
   "reading": "まとはずれ",
-  "part_of_speech": "noun, adjective (na)",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "off the mark, irrelevant",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "To ask an irrelevant question.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16719_matohazure_ex2",
@@ -27,7 +29,9 @@
       "english": "That criticism is off the mark.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16719_matohazure_ex3",
@@ -35,20 +39,77 @@
       "english": "The conversation isn't progressing because of nothing but irrelevant answers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Literally \"missing the target\" ({的|まと} = target, {外|はず}れ = miss). Used as a na-adjective to describe remarks, actions, or ideas that fail to address the real issue.\n\nUSAGE:\nAs a na-adjective: {的外|まとはず}れな + noun\nAs a predicate: 〜は{的外|まとはず}れだ\n\nCOMMON COLLOCATIONS:\n- {的外|まとはず}れな{質問|しつもん}: irrelevant question\n- {的外|まとはず}れな{回答|かいとう}: off-the-mark answer\n- {的外|まとはず}れな{批判|ひはん}: misguided criticism\n- {的外|まとはず}れな{意見|いけん}: a pointless opinion\n\nCONTRAST:\n- {的|まと}を{射|い}る: to hit the mark, to be spot-on (opposite meaning)\n- {見当外|けんとうはず}れ: off base, wide of the mark (near-synonym, often about guesses or estimates)",
-  "cross_references": [],
+  "notes": "Literally \"missing the target\" ({的|まと} = target, {外|はず}れ = miss). Used as a na-adjective to describe remarks, actions, or ideas that fail to address the real issue.\n\nUSAGE:\nAs a na-adjective: {的外|まとはず}れな + noun\nAs a predicate: 〜は{的外|まとはず}れだ\n\nCOMMON COLLOCATIONS:\n- {的外|まとはず}れな{質問|しつもん}: irrelevant question\n- {的外|まとはず}れな{回答|かいとう}: off-the-mark answer\n- {的外|まとはず}れな{批判|ひはん}: misguided criticism\n- {的外|まとはず}れな{意見|いけん}: a pointless opinion\n\nSIMILAR WORDS:\n- {的|まと}を{射|い}る: to hit the mark, to be spot-on (opposite meaning)\n- {見当外|けんとうはず}れ: off base, wide of the mark (near-synonym, often about guesses or estimates)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27226_kentouhazure",
+      "reading": "けんとうはずれ",
+      "headword": "{見当外|けんとうはず}れ",
+      "label": "off base, wide of the mark"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18771_kentouchigai",
+      "reading": "けんとうちがい",
+      "headword": "{見当違|けんとうちが}い",
+      "label": "wrong guess"
+    },
+    {
+      "type": "related",
+      "target_id": "19729_pinboke",
+      "reading": "ぴんぼけ",
+      "headword": "ピンボケ",
+      "label": "out of focus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19738_okadochigai",
+      "reading": "おかどちがい",
+      "headword": "お{門違|かどちが}い",
+      "label": "barking up the wrong tree"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20504_tonchinkan",
+      "reading": "とんちんかん",
+      "headword": "{頓珍漢|とんちんかん}",
+      "label": "nonsensical"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20624_nemohamonai",
+      "reading": "ねもはもない",
+      "headword": "{根|ね}も{葉|は}もない",
+      "label": "groundless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21040_sujichigai",
+      "reading": "すじちがい",
+      "headword": "{筋違|すじちが}い",
+      "label": "misplaced"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T04:25:57Z",
-    "modified": "2026-03-25T05:40:40Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

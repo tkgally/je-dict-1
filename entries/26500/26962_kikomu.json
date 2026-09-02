@@ -3,7 +3,7 @@
   "headword": "{着込|きこ}む",
   "reading": "きこむ",
   "romaji": "kikomu",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to bundle up; to put on many layers",
   "definitions": [
     {
@@ -55,7 +55,29 @@
     }
   ],
   "notes": "Compound of {着|き}る (to wear) and {込|こ}む (suffix indicating thoroughness or accumulation). The {込|こ}む adds the nuance of putting on clothes in abundance or layers.\n\nCOMMON COLLOCATIONS:\n- {厚|あつ}く{着込|きこ}む: to dress in thick layers\n- たくさん{着込|きこ}む: to put on lots of layers\n- {何枚|なんまい}も{着込|きこ}む: to wear many layers\n- しっかり{着込|きこ}む: to bundle up properly\n\nSIMILAR WORDS:\n- {重|かさ}ね{着|ぎ}: layering clothes — a noun describing the fashion or practice of wearing layers\n- {着|き}る: to wear, put on — basic verb for wearing; no implication of multiple layers\n- {羽織|はお}る: to throw on, drape over — putting on a single outer garment casually",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26975_kasanegi",
+      "reading": "かさねぎ",
+      "headword": "{重|かさ}ね{着|ぎ}",
+      "label": "layering clothes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00541_kiru",
+      "reading": "きる",
+      "headword": "{着|き}る",
+      "label": "to wear, put on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13901_haoru",
+      "reading": "はおる",
+      "headword": "{羽織|はお}る",
+      "label": "to throw on, drape over"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -72,7 +94,7 @@
       "verb_class": "godan-mu"
     },
     "created": "2026-05-06T12:16:56Z",
-    "modified": "2026-08-06T12:50:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

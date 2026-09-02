@@ -19,7 +19,9 @@
       "english": "To live in a foreign land.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13721_ikoku_ex2",
@@ -27,7 +29,9 @@
       "english": "I was captivated by the streets filled with an exotic atmosphere.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13721_ikoku_ex3",
@@ -35,22 +39,45 @@
       "english": "In a foreign land, I thought of home and shed tears.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nMore literary and emotional than {外国|がいこく}. While {外国|がいこく} is the standard, neutral word for 'foreign country,' {異国|いこく} evokes a sense of distance, exoticism, or longing. It often appears in literary prose, travel writing, and historical narratives.\n\nThe compound {異国|いこく}{情緒|じょうちょ} (exotic atmosphere) is especially common when describing places like {長崎|ながさき} or {神戸|こうべ} that have historical foreign influence.\n\nCOMMON COLLOCATIONS:\n- {異国|いこく}の{地|ち}: a foreign land\n- {異国|いこく}{情緒|じょうちょ}: exotic atmosphere\n- {異国|いこく}{文化|ぶんか}: foreign culture\n- {異国|いこく}の{人|ひと}: a foreigner (literary)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02868_gaikoku",
+      "reading": "がいこく",
+      "headword": "{外国|がいこく}",
+      "label": "foreign country"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28893_takoku",
+      "reading": "たこく",
+      "headword": "{他国|たこく}",
+      "label": "another country"
+    }
+  ],
   "metadata": {
     "created": "2026-02-26T13:37:51Z",
-    "modified": "2026-02-26T13:37:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"],
-      "style": ["literary"]
+      "semantic": [
+        "geography"
+      ],
+      "style": [
+        "literary"
+      ]
     }
   }
 }

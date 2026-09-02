@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{終|お}わり is a noun meaning \"end\" or \"conclusion,\" derived from the verb ⟦{終|お}わる→終わる：00567_owaru⟧ (to end).\n\nCOMMON PATTERNS:\n- 〜⟦の→の：09472_no⟧{終|お}わり⟦に→に：00314_ni⟧: at the end of ~\n- {終|お}わり⟦まで→まで：00490_made⟧: until the end\n- ⟦これ→これ：00963_kore⟧⟦で→で：00502_de⟧{終|お}わり⟦です→です：09485_desu⟧: that's all / this is the end\n- {終|お}わり⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧: endless, never-ending\n\nSIMILAR WORDS:\n- ⟦{終了|しゅうりょう}→終了：02563_shuuryou⟧: end, conclusion (more formal, used for events/sessions)\n- ⟦{最後|さいご}→最後：01413_saigo⟧: the last, the final (focuses on the last item/moment)\n- ⟦{末|すえ}→末：03362_sue⟧/{終|お}わり: end of a time period (⟦{月末|げつまつ}→月末：00070_getsumatsu⟧, ⟦{年末|ねんまつ}→年末：17688_nenmatsu⟧)\n\nANTONYM:\n⟦{始|はじ}まり→始まり：02474_hajimari⟧ (beginning)",
+  "notes": "{終|お}わり is a noun meaning \"end\" or \"conclusion,\" derived from the verb ⟦{終|お}わる→終わる：00567_owaru⟧ (to end).\n\nCOMMON PATTERNS:\n- 〜⟦の→の：09472_no⟧{終|お}わり⟦に→に：00314_ni⟧: at the end of ~\n- {終|お}わり⟦まで→まで：00490_made⟧: until the end\n- ⟦これ→これ：00963_kore⟧⟦で→で：00502_de⟧{終|お}わり⟦です→です：09485_desu⟧: that's all / this is the end\n- {終|お}わり⟦の→の：09472_no⟧⟦ない→ない：01118_nai⟧: endless, never-ending\n\nSIMILAR WORDS:\n- ⟦{終了|しゅうりょう}→終了：02563_shuuryou⟧: end, conclusion (more formal, used for events/sessions)\n- ⟦{最後|さいご}→最後：01413_saigo⟧: the last, the final (focuses on the last item/moment)\n- ⟦{末|すえ}→末：03362_sue⟧/{終|お}わり: end of a time period (⟦{月末|げつまつ}→月末：00070_getsumatsu⟧, ⟦{年末|ねんまつ}→年末：17688_nenmatsu⟧)\n⟦{始|はじ}まり→始まり：02474_hajimari⟧ (beginning)",
   "cross_references": [
     {
       "type": "see_also",
@@ -90,11 +90,46 @@
       "reading": "はじめ",
       "headword": "{初|はじ}め",
       "label": "beginning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02563_shuuryou",
+      "reading": "しゅうりょう",
+      "headword": "{終了|しゅうりょう}",
+      "label": "end, conclusion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01413_saigo",
+      "reading": "さいご",
+      "headword": "{最後|さいご}",
+      "label": "the last, the final"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03362_sue",
+      "reading": "すえ",
+      "headword": "{末|すえ}",
+      "label": "end of a time period"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13839_shuuen",
+      "reading": "しゅうえん",
+      "headword": "{終焉|しゅうえん}",
+      "label": "end, demise, termination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29777_shuumatsu",
+      "reading": "しゅうまつ",
+      "headword": "終末",
+      "label": "end"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:26:57Z",
-    "modified": "2026-05-15T13:13:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

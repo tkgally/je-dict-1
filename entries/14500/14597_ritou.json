@@ -19,7 +19,9 @@
       "english": "I live on a remote island.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14597_ritou_ex2",
@@ -27,7 +29,9 @@
       "english": "The only way to access the remote island is by ferry.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14597_ritou_ex3",
@@ -35,7 +39,9 @@
       "english": "Japan has hundreds of remote islands, each with its own unique culture and nature.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{離島|りとう} is used in official, travel, and geographical contexts. Japan has over 400 inhabited remote islands ({有人|ゆうじん}{離島|りとう}), many of which face challenges like depopulation and limited infrastructure. The government has specific policies for {離島|りとう}{振興|しんこう} (remote island development).\n\nCOMMON COLLOCATIONS:\n- {離島|りとう}{振興|しんこう} (remote island development/promotion)\n- {離島|りとう}に{住|す}む (to live on a remote island)\n- {離島|りとう}への{交通|こうつう} (transportation to remote islands)\n- {有人|ゆうじん}{離島|りとう} (inhabited remote island)\n- {無人|むじん}{離島|りとう} (uninhabited remote island)\n\nSIMILAR WORDS:\n- {離島|りとう}: remote/outlying island (official, geographical term)\n- {孤島|ことう}: isolated island (literary; emphasizes complete isolation)\n- {島|しま}: island (general term)",
@@ -53,18 +59,43 @@
       "reading": "しま",
       "headword": "{島|しま}",
       "label": "island (general)"
+    },
+    {
+      "type": "related",
+      "target_id": "05500_hondo",
+      "reading": "ほんど",
+      "headword": "{本土|ほんど}",
+      "label": "mainland"
+    },
+    {
+      "type": "related",
+      "target_id": "20960_enkakuchi",
+      "reading": "えんかくち",
+      "headword": "{遠隔地|えんかくち}",
+      "label": "remote area"
+    },
+    {
+      "type": "related",
+      "target_id": "21137_toumin",
+      "reading": "とうみん",
+      "headword": "{島民|とうみん}",
+      "label": "islander"
     }
   ],
   "metadata": {
     "created": "2026-03-02T07:51:14Z",
-    "modified": "2026-04-30T09:17:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

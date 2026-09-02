@@ -19,7 +19,9 @@
       "english": "I often buy health foods.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17355_kenkoushokuhin_ex2",
@@ -27,7 +29,9 @@
       "english": "The health food market is expanding year by year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17355_kenkoushokuhin_ex3",
@@ -35,21 +39,49 @@
       "english": "Just because something is health food doesn't mean eating too much of it won't have the opposite effect.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA broad category in Japan that includes supplements, organic products, and functional foods. Japan has specific regulatory categories for these products.\n\nCOMMON COLLOCATIONS:\n- {健康|けんこう}{食品|しょくひん}コーナー (health food section)\n- {健康|けんこう}{食品|しょくひん}{売|う}り{場|ば} (health food department)\n\nRELATED TERMS:\n- サプリメント: supplement\n- {栄養|えいよう}{補助|ほじょ}{食品|しょくひん}: nutritional supplement food\n- {特定|とくてい}{保健用|ほけんよう}{食品|しょくひん}: foods for specified health uses (トクホ)",
-  "cross_references": [],
+  "notes": "USAGE:\nA broad category in Japan that includes supplements, organic products, and functional foods. Japan has specific regulatory categories for these products.\n\nCOMMON COLLOCATIONS:\n- {健康|けんこう}{食品|しょくひん}コーナー (health food section)\n- {健康|けんこう}{食品|しょくひん}{売|う}り{場|ば} (health food department)\n\nRELATED WORDS:\n- サプリメント: supplement\n- {栄養|えいよう}{補助|ほじょ}{食品|しょくひん}: nutritional supplement food\n- {特定|とくてい}{保健用|ほけんよう}{食品|しょくひん}: foods for specified health uses (トクホ)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10937_sapurimento",
+      "reading": "さぷりめんと",
+      "headword": "サプリメント",
+      "label": "supplement"
+    },
+    {
+      "type": "related",
+      "target_id": "29274_eiyouhojoshokuhin",
+      "reading": "えいようほじょしょくひん",
+      "headword": "{栄養補助食品|えいようほじょしょくひん}",
+      "label": "nutritional supplement food"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17366_eiyouzai",
+      "reading": "えいようざい",
+      "headword": "{栄養|えいよう}{剤|ざい}",
+      "label": "nutritional supplement"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T08:17:38Z",
-    "modified": "2026-03-17T08:17:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

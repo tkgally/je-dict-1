@@ -46,17 +46,42 @@
   ],
   "notes": "Composed of {車線|しゃせん} (traffic lane) + {規制|きせい} (regulation; restriction). Commonly encountered in traffic reports, highway information displays, and navigation apps. Japan's road information services frequently announce lane restrictions, especially on expressways.\n\nCOMMON COLLOCATIONS:\n- {車線規制|しゃせんきせい}を{行|おこな}う: implement lane restrictions\n- {車線規制|しゃせんきせい}{区間|くかん}: restricted lane section\n- {車線規制|しゃせんきせい}{情報|じょうほう}: lane restriction information\n- {車線規制|しゃせんきせい}が{解除|かいじょ}される: lane restriction is lifted\n\nSIMILAR WORDS:\n- {通行止|つうこうど}め: road closure — complete closure of the road, not just lane restriction\n- {渋滞|じゅうたい}: traffic jam; congestion — the result, not the cause\n- {交通規制|こうつうきせい}: traffic regulation — broader term covering all types of traffic controls",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19920_tsuukoudome",
+      "reading": "つうこうどめ",
+      "headword": "{通行止|つうこうど}め",
+      "label": "road closure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03279_juutai",
+      "reading": "じゅうたい",
+      "headword": "{渋滞|じゅうたい}",
+      "label": "traffic jam"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22414_koutsuukisei",
+      "reading": "こうつうきせい",
+      "headword": "{交通規制|こうつうきせい}",
+      "label": "traffic regulation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "transportation"
       ]
     },
     "created": "2026-04-22T11:29:30Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

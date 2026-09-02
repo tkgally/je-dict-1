@@ -22,7 +22,9 @@
       "id": "22942_gushou_ex1",
       "japanese": "{具象|ぐしょう}{的|てき}に{説明|せつめい}してください。",
       "english": "Please explain it concretely.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "22942_gushou_ex2",
       "japanese": "{抽象|ちゅうしょう}を{具象|ぐしょう}に{変|か}える{力|ちから}が{大切|たいせつ}だ。",
       "english": "The ability to turn the abstract into the concrete is important.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "22942_gushou_ex3",
       "japanese": "{彼|かれ}の{考|かんが}えを{具象|ぐしょう}{化|か}するのは{難|むずか}しい。",
       "english": "It's difficult to give concrete form to his ideas.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "22942_gushou_ex4",
       "japanese": "{具象|ぐしょう}{画|が}が{好|す}きです。",
       "english": "I like representational painting.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "22942_gushou_ex5",
       "japanese": "この{美術館|びじゅつかん}は{具象|ぐしょう}と{抽象|ちゅうしょう}の{両方|りょうほう}を{展示|てんじ}している。",
       "english": "This art museum exhibits both figurative and abstract works.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,23 +72,52 @@
       "id": "22942_gushou_ex6",
       "japanese": "{具象|ぐしょう}{彫刻|ちょうこく}の{展覧会|てんらんかい}が{開|ひら}かれている。",
       "english": "An exhibition of figurative sculpture is being held.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {具|ぐ} (tool, means, to be furnished with) and {象|しょう} (image, form). The word contrasts directly with {抽象|ちゅうしょう} (abstract). Can function as a noun or as the stem for the na-adjective {具象|ぐしょう}{的|てき}.\n\nCOMMON COLLOCATIONS:\n- {具象|ぐしょう}{的|てき}: concrete, tangible (adjectival form)\n- {具象|ぐしょう}{化|か}: concretization, making concrete\n- {具象|ぐしょう}{画|が}: representational painting\n- {具象|ぐしょう}{彫刻|ちょうこく}: figurative sculpture\n- {具象|ぐしょう}{表現|ひょうげん}: concrete expression\n\nSIMILAR WORDS:\n- {具体|ぐたい}: concrete, specific — more common in everyday usage; {具象|ぐしょう} is more literary and art-related\n- {抽象|ちゅうしょう}: abstract — the direct opposite\n- {写実|しゃじつ}: realism — in art, focuses on faithful depiction; overlaps with {具象|ぐしょう} but emphasizes accuracy",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02675_gutai",
+      "reading": "ぐたい",
+      "headword": "{具体|ぐたい}",
+      "label": "concrete, specific"
+    },
+    {
+      "type": "antonym",
+      "target_id": "08670_chuushou",
+      "reading": "ちゅうしょう",
+      "headword": "{抽象|ちゅうしょう}",
+      "label": "abstract"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20133_shajitsu",
+      "reading": "しゃじつ",
+      "headword": "{写実|しゃじつ}",
+      "label": "realism"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
-      "semantic": ["art", "abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "art",
+        "abstract"
+      ],
       "formality": "formal"
     },
     "created": "2026-04-08T07:45:16Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

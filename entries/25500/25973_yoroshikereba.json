@@ -17,7 +17,9 @@
       "id": "25973_yoroshikereba_ex1",
       "japanese": "よろしければ、どうぞ{召|め}し{上|あ}がってください。",
       "english": "If you'd like, please help yourself.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25973_yoroshikereba_ex2",
       "japanese": "よろしければ、{連絡先|れんらくさき}を{教|おし}えていただけますか。",
       "english": "If you don't mind, could you give me your contact information?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,36 @@
       "id": "25973_yoroshikereba_ex3",
       "japanese": "よろしければ、{来週|らいしゅう}の{会議|かいぎ}にご{参加|さんか}いただけないでしょうか。",
       "english": "If it's not too much trouble, would you be able to attend next week's meeting?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The conditional form of よろしい, the polite equivalent of いい (good; alright). This expression softens requests, offers, and suggestions by explicitly giving the listener the option to decline. It is a hallmark of polite Japanese and is used extensively in customer service, business, and formal social interactions.\n\nUSAGE:\n- Placed at the beginning of a sentence as a polite lead-in\n- Often followed by polite request forms like ～ていただけますか or ～てください\n- Can stand alone as a question: よろしければ？ (If that's alright?)\n\nFORMALITY LEVELS:\n- よければ: casual equivalent\n- よろしければ: standard polite\n- よろしかったら: slightly softer variant (also polite)\n\nSIMILAR WORDS:\n- もしよければ: if you'd like — slightly less formal, with もし adding emphasis on the hypothetical\n- {差|さ}し{支|つか}えなければ: if it's not inconvenient — more formal, used when asking for potentially sensitive information\n- よかったら: if you'd like — casual equivalent for informal situations",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16548_sashitsukaenakereba",
+      "reading": "さしつかえなければ",
+      "headword": "{差|さ}し{支|つか}えなければ",
+      "label": "if it's not inconvenient"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
-      "semantic": ["communication"]
+      "pos": [
+        "expression"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-04-28T14:12:54Z",
-    "modified": "2026-04-28T14:12:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

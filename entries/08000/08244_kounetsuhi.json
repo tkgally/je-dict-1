@@ -43,7 +43,65 @@
       "notes": null
     }
   ],
-  "notes": "COMPOSITION:\n{光|ひかり} (light) + {熱|ねつ} (heat) + {費|ひ} (expense)\n\nINCLUDES:\n- {電気代|でんきだい} (electricity bill)\n- {ガス代|がすだい} (gas bill)\n- Sometimes {水道代|すいどうだい} (water bill)\n\nUSAGE:\n- {光熱費|こうねつひ}を{節約|せつやく}する (to save on utilities)\n- {光熱費|こうねつひ}がかかる/かさむ (utilities cost/add up)\n- {光熱費|こうねつひ}{込|こ}み (utilities included)\n\nIN RENTAL CONTEXTS:\n- {家賃|やちん} + {光熱費|こうねつひ} = total monthly housing cost\n- {光熱費|こうねつひ}{別|べつ} (utilities not included)\n\nRELATED:\n- {生活費|せいかつひ} (living expenses)\n- {固定費|こていひ} (fixed costs)\n- {公共料金|こうきょうりょうきん} (public utility charges)",
+  "notes": "ETYMOLOGY:\n{光|ひかり} (light) + {熱|ねつ} (heat) + {費|ひ} (expense)\n\nINCLUDES:\n- {電気代|でんきだい} (electricity bill)\n- {ガス代|がすだい} (gas bill)\n- Sometimes {水道代|すいどうだい} (water bill)\n\nUSAGE:\n- {光熱費|こうねつひ}を{節約|せつやく}する (to save on utilities)\n- {光熱費|こうねつひ}がかかる/かさむ (utilities cost/add up)\n- {光熱費|こうねつひ}{込|こ}み (utilities included)\n\nIN RENTAL CONTEXTS:\n- {家賃|やちん} + {光熱費|こうねつひ} = total monthly housing cost\n- {光熱費|こうねつひ}{別|べつ} (utilities not included)\n\nRELATED WORDS:\n- {生活費|せいかつひ} (living expenses)\n- {固定費|こていひ} (fixed costs)\n- {公共料金|こうきょうりょうきん} (public utility charges)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19424_seikatsuhi",
+      "reading": "せいかつひ",
+      "headword": "{生活費|せいかつひ}",
+      "label": "living expenses"
+    },
+    {
+      "type": "related",
+      "target_id": "21066_koteihi",
+      "reading": "こていひ",
+      "headword": "{固定費|こていひ}",
+      "label": "fixed costs"
+    },
+    {
+      "type": "related",
+      "target_id": "16766_koukyouryoukin",
+      "reading": "こうきょうりょうきん",
+      "headword": "{公共料金|こうきょうりょうきん}",
+      "label": "public utility charges"
+    },
+    {
+      "type": "related",
+      "target_id": "08943_gasudai",
+      "reading": "がすだい",
+      "headword": "ガス{代|だい}",
+      "label": "gas bill"
+    },
+    {
+      "type": "related",
+      "target_id": "11512_zairyouhi",
+      "reading": "ざいりょうひ",
+      "headword": "{材料費|ざいりょうひ}",
+      "label": "material cost, cost of materials"
+    },
+    {
+      "type": "related",
+      "target_id": "22703_suidouryoukin",
+      "reading": "すいどうりょうきん",
+      "headword": "{水道料金|すいどうりょうきん}",
+      "label": "water bill"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26946_denkiryoukin",
+      "reading": "でんきりょうきん",
+      "headword": "{電気料金|でんきりょうきん}",
+      "label": "electricity bill"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28952_gasuryoukin",
+      "reading": "がすりょうきん",
+      "headword": "ガス{料金|りょうきん}",
+      "label": "gas bill"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +109,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "money"
       ]
     },
     "created": "2026-01-25T09:58:37Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

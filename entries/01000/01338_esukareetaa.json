@@ -63,14 +63,33 @@
       ]
     }
   ],
-  "notes": "エスカレーター is a loanword from English 'escalator' referring to a moving staircase.\n\nCOMMON EXPRESSIONS:\n- エスカレーター⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to get on the escalator\n- エスカレーター⟦で→で：00502_de⟧⟦{上|あ}がる→上がる：00615_agaru⟧: to go up by escalator\n- エスカレーター⟦で→で：00502_de⟧⟦{下|お}りる→降りる：00568_oriru⟧: to go down by escalator\n- エスカレーター⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use the escalator\n\nREGIONAL ETIQUETTE:\n- ⟦{東京|とうきょう}→東京：09564_toukyou⟧: stand on the left, walk on the right\n- ⟦{大阪|おおさか}→大阪：09779_oosaka⟧: stand on the right, walk on the left\n- Recently, safety campaigns encourage standing on both sides without walking\n\nRELATED WORDS:\n- ⟦エレベーター→エレベーター：01340_erebeetaa⟧: elevator\n- ⟦{階段|かいだん}→階段：00782_kaidan⟧: stairs\n- ⟦{動|うご}く→動く：00904_ugoku⟧⟦{歩道|ほどう}→歩道：03723_hodou⟧: moving walkway\n\nVOCABULARY:\n- ⟦{上|のぼ}り→上り：03943_nobori⟧エスカレーター: up escalator\n- ⟦{下|くだ}り→下り：02659_kudari⟧エスカレーター: down escalator\n- エスカレーター⟦の→の：09472_no⟧⟦{手|て}すり→手すり：12754_tesuri⟧: escalator handrail\n\nNOTE:\nIn formal Japanese, the term is sometimes written as エスカレータ (without the final ー), but both forms are acceptable.",
+  "notes": "エスカレーター is a loanword from English 'escalator' referring to a moving staircase.\n\nCOMMON EXPRESSIONS:\n- エスカレーター⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to get on the escalator\n- エスカレーター⟦で→で：00502_de⟧⟦{上|あ}がる→上がる：00615_agaru⟧: to go up by escalator\n- エスカレーター⟦で→で：00502_de⟧⟦{下|お}りる→降りる：00568_oriru⟧: to go down by escalator\n- エスカレーター⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use the escalator\n\nREGIONAL ETIQUETTE:\n- ⟦{東京|とうきょう}→東京：09564_toukyou⟧: stand on the left, walk on the right\n- ⟦{大阪|おおさか}→大阪：09779_oosaka⟧: stand on the right, walk on the left\n- Recently, safety campaigns encourage standing on both sides without walking\n\nRELATED WORDS:\n- ⟦エレベーター→エレベーター：01340_erebeetaa⟧: elevator\n- ⟦{階段|かいだん}→階段：00782_kaidan⟧: stairs\n- ⟦{動|うご}く→動く：00904_ugoku⟧⟦{歩道|ほどう}→歩道：03723_hodou⟧: moving walkway\n- ⟦{上|のぼ}り→上り：03943_nobori⟧エスカレーター: up escalator\n- ⟦{下|くだ}り→下り：02659_kudari⟧エスカレーター: down escalator\n- エスカレーター⟦の→の：09472_no⟧⟦{手|て}すり→手すり：12754_tesuri⟧: escalator handrail\n\nUSAGE:\nIn formal Japanese, the term is sometimes written as エスカレータ (without the final ー), but both forms are acceptable.",
   "cross_references": [
-    {"type": "related", "reading": "えれべーたー", "headword": "エレベーター", "label": "elevator", "target_id": "01340_erebeetaa"},
-    {"type": "related", "reading": "かいだん", "headword": "{階段|かいだん}", "label": "stairs", "target_id": "00782_kaidan"}
+    {
+      "type": "related",
+      "reading": "えれべーたー",
+      "headword": "エレベーター",
+      "label": "elevator",
+      "target_id": "01340_erebeetaa"
+    },
+    {
+      "type": "related",
+      "reading": "かいだん",
+      "headword": "{階段|かいだん}",
+      "label": "stairs",
+      "target_id": "00782_kaidan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23450_shoukouki",
+      "reading": "しょうこうき",
+      "headword": "{昇降機|しょうこうき}",
+      "label": "elevator"
+    }
   ],
   "metadata": {
     "created": "2026-01-08T03:55:00Z",
-    "modified": "2026-05-14T23:12:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

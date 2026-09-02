@@ -24,7 +24,9 @@
       "english": "The two lines are parallel.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16975_heikousen_ex2",
@@ -32,7 +34,9 @@
       "english": "Parallel lines do not intersect.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16975_heikousen_ex3",
@@ -40,7 +44,9 @@
       "english": "I'll use the properties of parallel lines to draw the figure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16975_heikousen_ex4",
@@ -48,7 +54,9 @@
       "english": "The discussion remains at a deadlock.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "16975_heikousen_ex5",
@@ -56,7 +64,9 @@
       "english": "The negotiations reached an impasse.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "16975_heikousen_ex6",
@@ -64,21 +74,56 @@
       "english": "Both sides' positions remained at an impasse, and no agreement was reached.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nSense 1 is the mathematical term. Sense 2 is a very common figurative usage in news and everyday speech, describing negotiations, discussions, or opinions that cannot converge — like parallel lines that never meet.\n\nCOMMON COLLOCATIONS:\n- {平行線|へいこうせん}をたどる (to reach an impasse)\n- {平行線|へいこうせん}のまま (remaining at a deadlock)\n- {議論|ぎろん}が{平行線|へいこうせん} (the discussion is deadlocked)\n\nSIMILAR WORDS:\n- {膠着|こうちゃく}{状態|じょうたい}: stalemate — more formal, emphasizes being stuck\n- {堂々巡|どうどうめぐ}り: going around in circles — repetitive lack of progress",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27263_kouchakujoutai",
+      "reading": "こうちゃくじょうたい",
+      "headword": "{膠着|こうちゃく}{状態|じょうたい}",
+      "label": "stalemate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19936_doudoumeguri",
+      "reading": "どうどうめぐり",
+      "headword": "{堂々巡|どうどうめぐ}り",
+      "label": "going around in circles"
+    },
+    {
+      "type": "antonym",
+      "target_id": "23724_kousasen",
+      "reading": "こうさせん",
+      "headword": "{交差線|こうさせん}",
+      "label": "intersecting lines"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24003_suisen",
+      "reading": "すいせん",
+      "headword": "{垂線|すいせん}",
+      "label": "perpendicular line"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T04:37:57Z",
-    "modified": "2026-03-15T04:37:57Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

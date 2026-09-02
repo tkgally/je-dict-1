@@ -17,7 +17,9 @@
       "id": "26195_isen_ex1",
       "japanese": "{地図|ちず}に{緯線|いせん}を{引|ひ}く。",
       "english": "To draw lines of latitude on a map.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26195_isen_ex2",
       "japanese": "{赤道|せきどう}は{緯度|いど}ゼロ{度|ど}の{緯線|いせん}である。",
       "english": "The equator is the line of latitude at zero degrees.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,59 @@
       "id": "26195_isen_ex3",
       "japanese": "{北緯|ほくい}38{度|ど}の{緯線|いせん}は{朝鮮半島|ちょうせんはんとう}の{軍事境界線|ぐんじきょうかいせん}の{目安|めやす}として{知|し}られている。",
       "english": "The 38th parallel north is known as a rough marker for the military demarcation line on the Korean Peninsula.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A geography term composed of {緯|い} (latitude) and {線|せん} (line). Lines of latitude run horizontally (east-west) around the globe, in contrast to {経線|けいせん} (lines of longitude), which run vertically (north-south).\n\nCOMMON COLLOCATIONS:\n- {緯線|いせん}と{経線|けいせん} — latitude and longitude lines\n- {北緯|ほくい}〜{度|ど}の{緯線|いせん} — the latitude line at 〜 degrees north\n- {緯線|いせん}に{沿|そ}って — along the line of latitude\n\nRELATED TERMS:\n- {経線|けいせん} — line of longitude; meridian\n- {緯度|いど} — latitude (the measurement itself)\n- {赤道|せきどう} — equator (the zero-degree latitude line)",
-  "cross_references": [],
+  "notes": "A geography term composed of {緯|い} (latitude) and {線|せん} (line). Lines of latitude run horizontally (east-west) around the globe, in contrast to {経線|けいせん} (lines of longitude), which run vertically (north-south).\n\nCOMMON COLLOCATIONS:\n- {緯線|いせん}と{経線|けいせん} — latitude and longitude lines\n- {北緯|ほくい}〜{度|ど}の{緯線|いせん} — the latitude line at 〜 degrees north\n- {緯線|いせん}に{沿|そ}って — along the line of latitude\n\nRELATED WORDS:\n- {経線|けいせん} — line of longitude; meridian\n- {緯度|いど} — latitude (the measurement itself)\n- {赤道|せきどう} — equator (the zero-degree latitude line)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "26002_keisen",
+      "reading": "けいせん",
+      "headword": "{経線|けいせん}",
+      "label": "line of longitude"
+    },
+    {
+      "type": "related",
+      "target_id": "03978_ido",
+      "reading": "いど",
+      "headword": "{緯度|いど}",
+      "label": "latitude"
+    },
+    {
+      "type": "related",
+      "target_id": "04358_sekidou",
+      "reading": "せきどう",
+      "headword": "{赤道|せきどう}",
+      "label": "equator"
+    },
+    {
+      "type": "related",
+      "target_id": "26054_shigosen",
+      "reading": "しごせん",
+      "headword": "{子午線|しごせん}",
+      "label": "meridian"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["geography", "science"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "geography",
+        "science"
+      ]
     },
     "created": "2026-04-30T11:28:22Z",
-    "modified": "2026-04-30T11:28:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

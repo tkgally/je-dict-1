@@ -3,7 +3,7 @@
   "id": "14550_nagame",
   "headword": "{長|なが}め",
   "reading": "ながめ",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "somewhat long; longish; on the long side",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "Please cut my hair on the longer side.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14550_nagame_ex2",
@@ -27,7 +29,9 @@
       "english": "Today's meeting ran a bit long.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14550_nagame_ex3",
@@ -35,21 +39,35 @@
       "english": "You should set aside a bit more time than you think you'll need.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Formed from {長|なが}い + め (the suffix indicating degree/tendency). This め pattern is productive in Japanese and can attach to many adjectives: {短|みじか}め (on the short side), {多|おお}め (on the large/many side), {少|すく}なめ (on the small/few side).\n\nPATTERN:\n- {長|なが}めに + verb (do something for a somewhat longer time/length)\n- {長|なが}めの + noun (a somewhat long ~)\n\nDo not confuse with {眺|なが}め (view; scenery), which has the same reading but completely different meaning and kanji.",
-  "cross_references": [],
+  "notes": "Formed from {長|なが}い + め (the suffix indicating degree/tendency). This め pattern is productive in Japanese and can attach to many adjectives: {短|みじか}め (on the short side), {多|おお}め (on the large/many side), {少|すく}なめ (on the small/few side).\n\nCOMMON PATTERNS:\n- {長|なが}めに + verb (do something for a somewhat longer time/length)\n- {長|なが}めの + noun (a somewhat long ~)\n\nDo not confuse with {眺|なが}め (view; scenery), which has the same reading but completely different meaning and kanji.",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "20900_mijikame",
+      "reading": "みじかめ",
+      "headword": "{短|みじか}め",
+      "label": "somewhat short"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T06:29:18Z",
-    "modified": "2026-03-02T06:29:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["size"]
+      "semantic": [
+        "size"
+      ]
     }
   }
 }

@@ -17,7 +17,9 @@
       "id": "22188_onamae_ex1",
       "japanese": "お{名前|なまえ}は？",
       "english": "What is your name?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22188_onamae_ex2",
       "japanese": "お{名前|なまえ}をお{聞|き}かせいただけますか。",
       "english": "Could you tell me your name?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,37 @@
       "id": "22188_onamae_ex3",
       "japanese": "こちらにお{名前|なまえ}と{住所|じゅうしょ}をご{記入|きにゅう}ください。",
       "english": "Please write your name and address here.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "One of the first polite expressions learners encounter. The お prefix makes {名前|なまえ} honorific, so it is used to refer to the listener's or a third person's name, not one's own.\n\nCOMMON PATTERNS:\n- お{名前|なまえ}は？ — What is your name? (casual-polite)\n- お{名前|なまえ}を{伺|うかが}ってもよろしいですか — May I ask your name? (very polite)\n- お{名前|なまえ}をどうぞ — Your name, please\n\nUSAGE:\n- At receptions, clinics, and service counters, staff will say お{名前|なまえ}をお{願|ねが}いします (your name, please)\n- When filling out forms, instructions may say お{名前|なまえ} to indicate the name field\n- Do not use お{名前|なまえ} when giving your own name; simply say {名前|なまえ} or {私|わたし}の{名前|なまえ}は～です",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24855_gohoumei",
+      "reading": "ごほうめい",
+      "headword": "ご{芳名|ほうめい}",
+      "label": "your honored name (very formal)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "polite",
-      "semantic": ["identity"]
+      "semantic": [
+        "identity"
+      ]
     },
     "created": "2026-04-05T04:31:39Z",
-    "modified": "2026-04-05T04:31:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

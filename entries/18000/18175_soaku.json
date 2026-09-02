@@ -3,7 +3,7 @@
   "id": "18175_soaku",
   "headword": "{粗悪|そあく}",
   "reading": "そあく",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "inferior; poor quality; shoddy",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "Please be careful of inferior products.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18175_soaku_ex2",
@@ -27,7 +29,9 @@
       "english": "I was stuck with a shoddy product and took a loss.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18175_soaku_ex3",
@@ -35,7 +39,9 @@
       "english": "I bought a cheap product online, but it was made of shoddy materials and broke right away.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nMost commonly modifies nouns like {製品|せいひん} (product), {品|しな} (goods), {素材|そざい} (material). The compound {粗悪品|そあくひん} (inferior goods) is very common. Often appears in consumer warnings, product reviews, and news about counterfeit goods.\n\nCOMMON COLLOCATIONS:\n- {粗悪品|そあくひん} (inferior goods; shoddy product)\n- {粗悪|そあく}な{素材|そざい} (poor-quality materials)\n- {粗悪|そあく}な{模造品|もぞうひん} (shoddy counterfeit)\n\nSIMILAR WORDS:\n- {低品質|ていひんしつ}: low quality — more neutral and technical\n- {安物|やすもの}: cheap goods — emphasizes low price rather than poor quality itself",
@@ -46,18 +52,29 @@
       "reading": "やすもの",
       "headword": "{安物|やすもの}",
       "label": "cheap goods"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23685_teihinshitsu",
+      "reading": "ていひんしつ",
+      "headword": "{低品質|ていひんしつ}",
+      "label": "low quality"
     }
   ],
   "metadata": {
     "created": "2026-03-20T09:00:18Z",
-    "modified": "2026-05-08T06:14:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

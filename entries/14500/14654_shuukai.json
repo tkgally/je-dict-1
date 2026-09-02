@@ -3,7 +3,7 @@
   "id": "14654_shuukai",
   "headword": "{集会|しゅうかい}",
   "reading": "しゅうかい",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "assembly; meeting; gathering",
   "conjugation": {
     "type": "suru",
@@ -149,11 +149,32 @@
       "reading": "つどい",
       "headword": "{集|つど}い",
       "label": "gathering (warm)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01689_atsumari",
+      "reading": "あつまり",
+      "headword": "{集|あつ}まり",
+      "label": "gathering, meeting, collection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02605_kaigou",
+      "reading": "かいごう",
+      "headword": "{会合|かいごう}",
+      "label": "meeting, assembly, gathering"
+    },
+    {
+      "type": "related",
+      "target_id": "24514_demokoushin",
+      "reading": "でもこうしん",
+      "headword": "デモ{行進|こうしん}",
+      "label": "demonstration march"
     }
   ],
   "metadata": {
     "created": "2026-03-02T09:36:40Z",
-    "modified": "2026-04-30T09:17:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

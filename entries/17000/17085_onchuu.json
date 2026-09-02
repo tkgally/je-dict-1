@@ -19,7 +19,9 @@
       "english": "Dear XX Corporation",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17085_onchuu_ex2",
@@ -27,7 +29,9 @@
       "english": "I wrote 'Human Resources Department' (with the honorific address) on the envelope.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17085_onchuu_ex3",
@@ -35,23 +39,41 @@
       "english": "When you know the individual's name, use 'sama' instead of 'onchuu.'",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed exclusively in written correspondence — letters, envelopes, faxes, and business emails. Never used in spoken Japanese. It replaces {様|さま} when addressing an organization rather than a person.\n\nRULES:\n- Use {御中|おんちゅう} when writing to a company or department without a specific person's name\n- Use {様|さま} when writing to a specific individual\n- Never combine both: ○○{会社|かいしゃ} {御中|おんちゅう} {田中|たなか}{様|さま} is INCORRECT\n- The correct form is: ○○{会社|かいしゃ} {田中|たなか}{様|さま}\n\nCOMMON COLLOCATIONS:\n- ○○{株式会社|かぶしきがいしゃ} {御中|おんちゅう} (Dear XX Corporation)\n- ○○{部|ぶ} {御中|おんちゅう} (Dear XX Department)\n- ○○{事務局|じむきょく} {御中|おんちゅう} (Dear XX Secretariat)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23265_kankeishakakui",
+      "reading": "かんけいしゃかくい",
+      "headword": "{関係者各位|かんけいしゃかくい}",
+      "label": "to whom it may concern"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T09:54:25Z",
-    "modified": "2026-03-15T09:54:25Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["suffix"],
+      "pos": [
+        "suffix"
+      ],
       "formality": "formal",
       "politeness": "polite",
-      "semantic": ["communication"],
-      "domain": ["business"],
-      "style": ["written"]
+      "semantic": [
+        "communication"
+      ],
+      "domain": [
+        "business"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

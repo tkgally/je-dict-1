@@ -19,7 +19,9 @@
       "english": "This method is optimal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13010_saiteki_ex2",
@@ -27,7 +29,9 @@
       "english": "To find the optimal conditions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13010_saiteki_ex3",
@@ -35,21 +39,43 @@
       "english": "This land is blessed with a climate ideal for agriculture.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nFunctions as a na-adjective ({最適|さいてき}な) and noun. Often used with に to indicate what something is optimal for: ～に{最適|さいてき}. Common in technical, business, and everyday contexts.\n\nCOMMON COLLOCATIONS:\n- {最適|さいてき}な{方法|ほうほう}: optimal method\n- {最適|さいてき}な{条件|じょうけん}: optimal conditions\n- {最適|さいてき}な{環境|かんきょう}: optimal environment\n- ～に{最適|さいてき}: ideal for ~\n- {最適|さいてき}{化|か}: optimization",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02297_tekisuru",
+      "reading": "てきする",
+      "headword": "{適|てき}する",
+      "label": "to suit, to be suitable for"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13873_zekkou",
+      "reading": "ぜっこう",
+      "headword": "{絶好|ぜっこう}",
+      "label": "best, ideal, perfect (opportunity or condition)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T06:28:54Z",
-    "modified": "2026-02-23T06:28:54Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["evaluation"]
+      "semantic": [
+        "evaluation"
+      ]
     }
   }
 }

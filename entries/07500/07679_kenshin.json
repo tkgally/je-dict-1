@@ -130,10 +130,33 @@
       ]
     }
   ],
-  "notes": "VERB FORM:\n{検診|けんしん}する - to examine, screen (medical)\n\nCOMMON COLLOCATIONS:\n・{健康|けんこう}{検診|けんしん} - health checkup\n・がん{検診|けんしん} - cancer screening\n・{歯科|しか}{検診|けんしん} - dental checkup\n・{乳|にゅう}がん{検診|けんしん} - breast cancer screening\n・{検診|けんしん}を{受|う}ける - to have a checkup\n・{検診|けんしん}の{結果|けっか} - checkup results\n\nSIMILAR WORDS:\n・{健康診断|けんこうしんだん} ({健診|けんしん}) - health examination (broader)\n・{人間ドック|にんげんドック} - comprehensive medical examination",
+  "notes": "FORMS:\n{検診|けんしん}する - to examine, screen (medical)\n\nCOMMON COLLOCATIONS:\n- {健康|けんこう}{検診|けんしん} - health checkup\n- がん{検診|けんしん} - cancer screening\n- {歯科|しか}{検診|けんしん} - dental checkup\n- {乳|にゅう}がん{検診|けんしん} - breast cancer screening\n- {検診|けんしん}を{受|う}ける - to have a checkup\n- {検診|けんしん}の{結果|けっか} - checkup results\n\nSIMILAR WORDS:\n- {健康診断|けんこうしんだん} ({健診|けんしん}) - health examination (broader)\n- {人間ドック|にんげんドック} - comprehensive medical examination",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05979_kenkoushindan",
+      "reading": "けんこうしんだん",
+      "headword": "{健康診断|けんこうしんだん}",
+      "label": "health checkup"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23310_ningendokku",
+      "reading": "にんげんどっく",
+      "headword": "{人間|にんげん}ドック",
+      "label": "comprehensive medical examination"
+    },
+    {
+      "type": "related",
+      "target_id": "23239_jikakushoujou",
+      "reading": "じかくしょうじょう",
+      "headword": "{自覚症状|じかくしょうじょう}",
+      "label": "subjective symptoms"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T14:05:39Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +165,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health"
       ],

@@ -4,7 +4,7 @@
   "headword": "{清白|せいはく}",
   "reading": "せいはく",
   "romaji": "seihaku",
-  "part_of_speech": "noun, adjective-na",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "purity; innocence; integrity",
   "definitions": [
     {
@@ -46,6 +46,36 @@
     }
   ],
   "notes": "A formal, literary word for moral purity and innocence. Combines {清|せい} (clean/pure) and {白|はく} (white/blank), both carrying connotations of moral cleanliness. Often appears in legal, political, and literary contexts when discussing someone's moral character or innocence.\n\nCOMMON COLLOCATIONS:\n- {清白|せいはく}を{証明|しょうめい}する: to prove one's innocence\n- {清白|せいはく}を{主張|しゅちょう}する: to assert one's innocence\n- {清白|せいはく}な{人格|じんかく}: a person of integrity\n\nSIMILAR WORDS:\n- {潔白|けっぱく}: innocence/integrity — more commonly used, especially in legal contexts\n- {清廉|せいれん}: integrity/incorruptibility — emphasizes freedom from corruption, especially of officials\n- {無実|むじつ}: innocence (of a crime) — specifically legal innocence, not a general moral quality\n- {純粋|じゅんすい}: pure — broader usage, can describe personality, intentions, or substances",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17952_keppaku",
+      "reading": "けっぱく",
+      "headword": "{潔白|けっぱく}",
+      "label": "innocence/integrity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20342_seiren",
+      "reading": "せいれん",
+      "headword": "{清廉|せいれん}",
+      "label": "integrity/incorruptibility"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09504_mujitsu",
+      "reading": "むじつ",
+      "headword": "{無実|むじつ}",
+      "label": "innocence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08673_junsui",
+      "reading": "じゅんすい",
+      "headword": "{純粋|じゅんすい}",
+      "label": "pure"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,11 +83,12 @@
         "noun",
         "adjective-na"
       ],
+      "politeness": "plain",
       "semantic": [
         "society"
       ]
     },
     "created": "2026-04-19T10:11:16Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

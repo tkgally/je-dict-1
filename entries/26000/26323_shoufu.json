@@ -17,7 +17,9 @@
       "id": "26323_shoufu_ex1",
       "japanese": "その{小説|しょうせつ}には{娼婦|しょうふ}が{登場|とうじょう}する。",
       "english": "A prostitute appears in that novel.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26323_shoufu_ex2",
       "japanese": "{戦後|せんご}の{混乱期|こんらんき}には{多|おお}くの{女性|じょせい}が{娼婦|しょうふ}として{働|はたら}かざるを{得|え}なかった。",
       "english": "During the chaos of the postwar period, many women had no choice but to work as prostitutes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,51 @@
       "id": "26323_shoufu_ex3",
       "japanese": "マネの{有名|ゆうめい}な{絵画|かいが}「オランピア」は{娼婦|しょうふ}を{描|えが}いた{作品|さくひん}として{当時|とうじ}{大|おお}きな{論争|ろんそう}を{巻|ま}き{起|お}こした。",
       "english": "Manet's famous painting 'Olympia' sparked great controversy at the time as a work depicting a prostitute.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {娼|しょう} (prostitute) and {婦|ふ} (woman). A direct term for a female sex worker that carries historical weight. It appears frequently in literature, historical texts, and discussions of social issues, but is considered too blunt for polite conversation.\n\nCOMMON COLLOCATIONS:\n- {街|まち}の{娼婦|しょうふ}: streetwalker\n- {娼婦|しょうふ}として{働|はたら}く: to work as a prostitute\n- {娼婦|しょうふ}を{描|えが}く: to depict a prostitute\n\nSIMILAR WORDS:\n- {売春婦|ばいしゅんふ}: prostitute — more clinical, focuses on the act of selling sex\n- {遊女|ゆうじょ}: courtesan — historical term for women in licensed pleasure quarters during the Edo period\n- {花魁|おいらん}: oiran — a high-ranking courtesan of the Edo period\n- {風俗嬢|ふうぞくじょう}: sex industry worker — modern colloquial term",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29363_baishunfu",
+      "reading": "ばいしゅんふ",
+      "headword": "{売春婦|ばいしゅんふ}",
+      "label": "prostitute"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16645_yuujo",
+      "reading": "ゆうじょ",
+      "headword": "{遊女|ゆうじょ}",
+      "label": "courtesan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15374_oiran",
+      "reading": "おいらん",
+      "headword": "{花魁|おいらん}",
+      "label": "oiran"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["society", "history"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "society",
+        "history"
+      ]
     },
     "created": "2026-04-30T16:23:33Z",
-    "modified": "2026-04-30T16:23:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

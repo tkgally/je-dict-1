@@ -3,7 +3,7 @@
   "headword": "{常識的|じょうしきてき}",
   "reading": "じょうしきてき",
   "romaji": "joushikiteki",
-  "part_of_speech": "な-adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "sensible; reasonable; common-sense",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "19262_joushikiteki_ex1",
       "japanese": "{常識的|じょうしきてき}に{考|かんが}えてください。",
       "english": "Please think about it sensibly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19262_joushikiteki_ex2",
       "japanese": "{彼|かれ}は{常識的|じょうしきてき}な{判断|はんだん}ができる{人|ひと}だ。",
       "english": "He's someone who can make sensible judgments.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "19262_joushikiteki_ex3",
       "japanese": "{常識的|じょうしきてき}な{範囲|はんい}でお{願|ねが}いします。",
       "english": "Please keep it within reasonable bounds.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Derived from {常識|じょうしき} (common sense) with the suffix {的|てき}. Describes behavior, thinking, or standards that conform to widely shared social expectations.\n\nCOMMON COLLOCATIONS:\n- {常識的|じょうしきてき}な{判断|はんだん}: sensible judgment\n- {常識的|じょうしきてき}な{範囲|はんい}: reasonable range/scope\n- {常識的|じょうしきてき}に{考|かんが}えて: thinking sensibly, by common sense\n- {常識的|じょうしきてき}な{対応|たいおう}: reasonable response\n\nSIMILAR WORDS:\n- {合理的|ごうりてき}: rational — based on logic rather than social norms\n- {妥当|だとう}: appropriate, valid — focuses on correctness rather than conventionality\n- {非常識|ひじょうしき}: lacking common sense — the opposite\n\nUSAGE:\nOften used to set expectations or evaluate behavior. The adverbial form {常識的|じょうしきてき}に is very common, especially in phrases like {常識的|じょうしきてき}に{考|かんが}えて (by any reasonable standard).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06199_gouriteki",
+      "reading": "ごうりてき",
+      "headword": "{合理的|ごうりてき}",
+      "label": "rational"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04053_datou",
+      "reading": "だとう",
+      "headword": "{妥当|だとう}",
+      "label": "appropriate, valid"
+    },
+    {
+      "type": "antonym",
+      "target_id": "14615_hijoushiki",
+      "reading": "ひじょうしき",
+      "headword": "{非常識|ひじょうしき}",
+      "label": "lacking common sense"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-03-25T03:40:33Z",
-    "modified": "2026-03-25T03:40:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

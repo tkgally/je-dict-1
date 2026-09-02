@@ -3,7 +3,7 @@
   "headword": "{押|お}し{通|とお}す",
   "reading": "おしとおす",
   "romaji": "oshitoosu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to push through; to persist in; to force one's way",
   "definitions": [
     {
@@ -81,6 +81,29 @@
   ],
   "notes": "A compound godan verb ({押|お}す + {通|とお}す) meaning to push something all the way through. The figurative sense of persisting stubbornly is more common than the physical sense.\n\nCOMMON COLLOCATIONS:\n- {意見|いけん}を{押|お}し{通|とお}す: to push through one's opinion\n- {主張|しゅちょう}を{押|お}し{通|とお}す: to insist on one's claim\n- {我|わ}を{押|お}し{通|とお}す: to insist on having one's way\n- {無理|むり}を{押|お}し{通|とお}す: to force something unreasonable through\n\nUSAGE:\nOften carries a negative nuance of stubbornness or forceful behavior, though it can also convey admirable determination depending on context.\n\nSIMILAR WORDS:\n- {押|お}し{切|き}る: to override, to push past — emphasizes overcoming resistance at a specific point\n- {貫|つらぬ}く: to carry through, to stick to — more literary; emphasizes unwavering commitment to principles\n- {通|とお}す: to let through, to carry through — broader meaning; {押|お}し{通|とお}す adds the forceful element",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06793_oshikiru",
+      "reading": "おしきる",
+      "headword": "{押|お}し{切|き}る",
+      "label": "to override, to push past"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18728_tsuranuku",
+      "reading": "つらぬく",
+      "headword": "{貫|つらぬ}く",
+      "label": "to carry through, to stick to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22028_tsuranukitoosu",
+      "reading": "つらぬきとおす",
+      "headword": "{貫|つらぬ}き{通|とお}す",
+      "label": "to persist with"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -96,7 +119,7 @@
       "verb_class": "godan-su"
     },
     "created": "2026-03-30T14:24:01Z",
-    "modified": "2026-03-30T14:24:01Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

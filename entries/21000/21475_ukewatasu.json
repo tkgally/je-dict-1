@@ -3,7 +3,7 @@
   "headword": "{受|う}け{渡|わた}す",
   "reading": "うけわたす",
   "romaji": "ukewatasu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to hand over; to deliver; to transfer",
   "definitions": [
     {
@@ -45,6 +45,22 @@
     }
   ],
   "notes": "A compound verb combining {受|う}ける (to receive) and {渡|わた}す (to hand over), expressing the act of transferring something from one party to another. The compound emphasizes the complete transaction — both the giving and receiving sides.\n\nUSAGE:\n- Often used in business, real estate, and formal transactions\n- The noun form {受|う}け{渡|わた}し is very common, meaning \"handover\" or \"delivery\"\n- Can refer to physical items, documents, or abstract things like authority\n\nCOMMON COLLOCATIONS:\n- {鍵|かぎ}の{受|う}け{渡|わた}し: key handover\n- {商品|しょうひん}の{受|う}け{渡|わた}し: product delivery\n- {受|う}け{渡|わた}し{日|び}: delivery date\n- {受|う}け{渡|わた}し{場所|ばしょ}: handover location\n\nSIMILAR WORDS:\n- {渡|わた}す: to hand over; one-directional, from giver's perspective\n- {引|ひ}き{渡|わた}す: to hand over, surrender; often used in legal or formal contexts\n- {納品|のうひん}する: to deliver goods; more specifically about commercial delivery",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12486_hikiwatasu",
+      "reading": "ひきわたす",
+      "headword": "{引|ひ}き{渡|わた}す",
+      "label": "to hand over, surrender"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05134_nouhin",
+      "reading": "のうひん",
+      "headword": "{納品|のうひん}",
+      "label": "to deliver goods"
+    }
+  ],
   "metadata": {
     "entry_id": "21475_ukewatasu",
     "schema_version": "2.0",
@@ -55,6 +71,7 @@
       "pos": [
         "verb-godan"
       ],
+      "politeness": "plain",
       "semantic": [
         "business",
         "action"
@@ -63,7 +80,7 @@
       "usage": [],
       "verb_class": "godan-su"
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

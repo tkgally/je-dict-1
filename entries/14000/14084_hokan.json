@@ -3,7 +3,7 @@
   "id": "14084_hokan",
   "headword": "{補完|ほかん}",
   "reading": "ほかん",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "supplementation; completion; complementing",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,32 @@
     }
   ],
   "notes": "USAGE:\nCommonly used in business, academic, and technical contexts. The pattern {互|たが}いに{補完|ほかん}する (to complement each other) is especially frequent. Also appears in computing contexts such as {自動|じどう}{補完|ほかん} (autocomplete).\n\nSIMILAR WORDS:\n- {補足|ほそく}: supplementary explanation, additional note\n- {補充|ほじゅう}: replenishment, filling a vacancy\n- {補填|ほてん}: compensation, making up a deficit\n\nCOMMON COLLOCATIONS:\n- {互|たが}いに{補完|ほかん}する: to complement each other\n- {補完|ほかん}{関係|かんけい}: complementary relationship\n- {補完|ほかん}{的|てき}: complementary\n- {自動|じどう}{補完|ほかん}: autocomplete",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08386_hosoku",
+      "reading": "ほそく",
+      "headword": "{補足|ほそく}",
+      "label": "supplementary explanation, additional…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14037_hojuu",
+      "reading": "ほじゅう",
+      "headword": "{補充|ほじゅう}",
+      "label": "replenishment, filling a vacancy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16968_hoten",
+      "reading": "ほてん",
+      "headword": "{補填|ほてん}",
+      "label": "compensation, making up a deficit"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T23:14:33Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

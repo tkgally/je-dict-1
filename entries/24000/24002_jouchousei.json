@@ -17,7 +17,9 @@
       "id": "24002_jouchousei_ex1",
       "japanese": "{冗長性|じょうちょうせい}を{確保|かくほ}する。",
       "english": "To ensure redundancy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24002_jouchousei_ex2",
       "japanese": "このシステムは{冗長性|じょうちょうせい}が{高|たか}く、{障害|しょうがい}に{強|つよ}い。",
       "english": "This system has high redundancy and is resistant to failures.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,62 @@
       "id": "24002_jouchousei_ex3",
       "japanese": "{文章|ぶんしょう}の{冗長性|じょうちょうせい}を{減|へ}らすために{不要|ふよう}な{語|ご}を{削|けず}った。",
       "english": "I cut out unnecessary words to reduce the redundancy of the writing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The noun form of the {な}-adjective {冗長|じょうちょう} ('long-winded; redundant'), made into a noun with the abstract-noun suffix -{性|せい}. Used in technical and academic writing for the property of having extra or duplicate elements in a system.\n\nUSAGE:\n- **Positive sense (engineering, IT, biology):** having backup components or duplicate paths so that the system continues to function when part of it fails. Essential for reliable servers, networks, aircraft, power grids, and genetic codes.\n- **Negative sense (writing, speech):** wordiness; saying the same thing twice or padding text with unnecessary expressions. In this sense, {冗長性|じょうちょうせい}を{減|へ}らす ('reduce redundancy') means 'tighten the writing'.\n- **Information theory:** a quantifiable measure of the amount of predictable or repeated information in a signal.\n\nCOMMON COLLOCATIONS:\n- {冗長性|じょうちょうせい}を{確保|かくほ}する: to ensure redundancy\n- {冗長性|じょうちょうせい}を{持|も}たせる: to build in redundancy\n- {冗長性|じょうちょうせい}が{高|たか}い: redundancy is high; highly redundant\n- {冗長性|じょうちょうせい}が{低|ひく}い: redundancy is low\n- {冗長性|じょうちょうせい}を{減|へ}らす: to reduce redundancy (in writing)\n- システムの{冗長性|じょうちょうせい}: system redundancy\n\nSIMILAR WORDS:\n- {冗長|じょうちょう}: long-winded; redundant — the {な}-adjective root; describes text or explanations that could be shorter.\n- {重複|ちょうふく}: duplication; overlap — the act or fact of two things overlapping; often undesirable.\n- {予備|よび}: backup; spare; reserve — concrete noun for the backup element itself, such as a spare part or reserve team.\n- {バックアップ|ばっくあっぷ}: backup — loanword commonly used in IT for backup copies and standby systems.\n- {多重化|たじゅうか}: multiplexing; duplication — specific technical term in communications for having multiple channels over one medium.",
+  "notes": "The noun form of the な-adjective {冗長|じょうちょう} ('long-winded; redundant'), made into a noun with the abstract-noun suffix -{性|せい}. Used in technical and academic writing for the property of having extra or duplicate elements in a system.\n\nUSAGE:\n- **Positive sense (engineering, IT, biology):** having backup components or duplicate paths so that the system continues to function when part of it fails. Essential for reliable servers, networks, aircraft, power grids, and genetic codes.\n- **Negative sense (writing, speech):** wordiness; saying the same thing twice or padding text with unnecessary expressions. In this sense, {冗長性|じょうちょうせい}を{減|へ}らす ('reduce redundancy') means 'tighten the writing'.\n- **Information theory:** a quantifiable measure of the amount of predictable or repeated information in a signal.\n\nCOMMON COLLOCATIONS:\n- {冗長性|じょうちょうせい}を{確保|かくほ}する: to ensure redundancy\n- {冗長性|じょうちょうせい}を{持|も}たせる: to build in redundancy\n- {冗長性|じょうちょうせい}が{高|たか}い: redundancy is high; highly redundant\n- {冗長性|じょうちょうせい}が{低|ひく}い: redundancy is low\n- {冗長性|じょうちょうせい}を{減|へ}らす: to reduce redundancy (in writing)\n- システムの{冗長性|じょうちょうせい}: system redundancy\n\nSIMILAR WORDS:\n- {冗長|じょうちょう}: long-winded; redundant — the な-adjective root; describes text or explanations that could be shorter.\n- {重複|ちょうふく}: duplication; overlap — the act or fact of two things overlapping; often undesirable.\n- {予備|よび}: backup; spare; reserve — concrete noun for the backup element itself, such as a spare part or reserve team.\n- バックアップ: backup — loanword commonly used in IT for backup copies and standby systems.\n- {多重化|たじゅうか}: multiplexing; duplication — specific technical term in communications for having multiple channels over one medium.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22806_choufuku",
+      "reading": "ちょうふく",
+      "headword": "{重複|ちょうふく}",
+      "label": "duplication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03993_yobi",
+      "reading": "よび",
+      "headword": "{予備|よび}",
+      "label": "backup"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04870_bakkuappu",
+      "reading": "ばっくあっぷ",
+      "headword": "バックアップ",
+      "label": "backup"
+    },
+    {
+      "type": "related",
+      "target_id": "08932_kayousei",
+      "reading": "かようせい",
+      "headword": "{可用性|かようせい}",
+      "label": "availability (IT)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["technology", "abstract"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "technology",
+        "abstract"
+      ]
     },
     "created": "2026-04-15T18:44:20Z",
-    "modified": "2026-04-15T18:44:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

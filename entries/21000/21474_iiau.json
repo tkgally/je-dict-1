@@ -3,7 +3,7 @@
   "headword": "{言|い}い{合|あ}う",
   "reading": "いいあう",
   "romaji": "iiau",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to quarrel; to argue with each other; to say to each other; to exchange words",
   "definitions": [
     {
@@ -80,6 +80,29 @@
     }
   ],
   "notes": "A compound verb formed from {言|い}う (to say) + {合|あ}う (to do together/mutually). The {合|あ}う suffix adds reciprocity — both parties are speaking. In practice, sense 1 (arguing) is more common than sense 2 (exchanging words).\n\nUSAGE:\n- Sense 1 often appears as the noun form {言|い}い{合|あ}い (an argument, a quarrel)\n- Sense 2 is typically used with a quoted phrase or specific content being exchanged\n- The subject is usually plural or implies two or more people\n\nCOMMON COLLOCATIONS:\n- {言|い}い{合|あ}いになる: to get into an argument\n- {言|い}い{合|あ}いをする: to have an argument\n- {冗談|じょうだん}を{言|い}い{合|あ}う: to exchange jokes\n- {悪口|わるくち}を{言|い}い{合|あ}う: to trade insults\n\nSIMILAR WORDS:\n- {口論|こうろん}する: a more formal word for arguing verbally\n- {喧嘩|けんか}する: to fight or quarrel; broader than {言|い}い{合|あ}う, which is limited to verbal exchange\n- {話|はな}し{合|あ}う: to discuss; implies a calmer, more productive exchange",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08371_kouron",
+      "reading": "こうろん",
+      "headword": "{口論|こうろん}",
+      "label": "a more formal word for arguing verbally"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02996_kenka",
+      "reading": "けんか",
+      "headword": "{喧嘩|けんか}",
+      "label": "to fight or quarrel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02396_hanashiau",
+      "reading": "はなしあう",
+      "headword": "{話|はな}し{合|あ}う",
+      "label": "to discuss"
+    }
+  ],
   "metadata": {
     "entry_id": "21474_iiau",
     "schema_version": "2.0",
@@ -90,6 +113,7 @@
       "pos": [
         "verb-godan"
       ],
+      "politeness": "plain",
       "semantic": [
         "communication"
       ],
@@ -97,7 +121,7 @@
       "usage": [],
       "verb_class": "godan-u"
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

@@ -17,7 +17,9 @@
       "id": "24219_sutooru_ex1",
       "japanese": "ストールを{巻|ま}く。",
       "english": "Wrap a stole around one's shoulders.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24219_sutooru_ex2",
       "japanese": "カシミヤのストールは{肌触|はだざわ}りがいい。",
       "english": "A cashmere stole feels nice against the skin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "24219_sutooru_ex3",
       "japanese": "{冷房|れいぼう}が{効|き}きすぎる{時|とき}は、{薄手|うすで}のストールが{一枚|いちまい}あると{助|たす}かる。",
       "english": "When the air conditioning is too strong, having a light stole really helps.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A loanword from English \"stole.\" In Japanese fashion terminology, ストール covers a wider range of wraps than the English word.\n\nUSAGE:\nIn English, a \"stole\" often implies a formal fur or evening wrap, but Japanese ストール is used much more broadly — it includes casual cotton or linen wraps for summer, wool wraps for winter, and everything in between. It is distinguished from マフラー mainly by its width and versatility: a ストール is wider and can be draped over the shoulders, while a マフラー is typically narrower and worn around the neck for warmth.\n\nCOMMON COLLOCATIONS:\n- ストールを{巻|ま}く: to wrap a stole\n- ストールを{羽織|はお}る: to drape a stole over one's shoulders\n- {大判|おおばん}ストール: large-format stole\n- {薄手|うすで}のストール: lightweight stole\n- {春|はる}{夏|なつ}{用|よう}ストール: spring/summer stole\n\nSIMILAR WORDS:\n- マフラー: scarf, muffler — narrower, worn around the neck, primarily for warmth in cold weather\n- ショール: shawl — similar to ストール but often implies a triangular or more traditional drape\n- スカーフ: scarf — typically a square piece of silk or satin, tied or folded, often more decorative than functional",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04533_mafuraa",
+      "reading": "まふらー",
+      "headword": "マフラー",
+      "label": "scarf, muffler"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28551_shooru",
+      "reading": "しょーる",
+      "headword": "ショール",
+      "label": "shawl"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18213_erimaki",
+      "reading": "えりまき",
+      "headword": "{襟巻|えりま}き",
+      "label": "scarf"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28552_nekkuwoomaa",
+      "reading": "ねっくうぉーまー",
+      "headword": "ネックウォーマー",
+      "label": "neck warmer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ]
     },
     "created": "2026-04-18T10:23:35Z",
-    "modified": "2026-04-18T10:23:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

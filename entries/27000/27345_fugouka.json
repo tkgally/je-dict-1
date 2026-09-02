@@ -4,7 +4,7 @@
   "reading": "ふごうか",
   "romaji": "fugouka",
   "schema_version": "2.0",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "encoding (math/computing)",
   "definitions": [
     {
@@ -55,10 +55,33 @@
       "notes": null
     }
   ],
-  "notes": "{符号化|ふごうか} is a technical term meaning \"encoding,\" formed from {符号|ふごう} (\"code, sign\") and the productive suffix ~{化|か} (\"-ization\"). It is used across mathematics, information theory, telecommunications, and computer science, and is the standard formal translation for English \"encoding\" in academic and technical writing.\n\nFORMATION:\n- {符号|ふごう} (\"code, symbol\") + ~{化|か} (\"-ization, becoming\") → {符号化|ふごうか}\n\nCOMMON COLLOCATIONS:\n- {文字|もじ}{符号化|ふごうか} / {文字|もじ}{符号化|ふごうか}{方式|ほうしき}: character encoding / character encoding scheme\n- {符号化|ふごうか}する: to encode\n- {符号化|ふごうか}される: to be encoded\n- {符号化|ふごうか}{方式|ほうしき}: encoding scheme / coding system\n- {音声|おんせい}{符号化|ふごうか}: audio encoding / speech coding\n- {映像|えいぞう}{符号化|ふごうか}: video encoding\n- {誤|あやま}り{訂正|ていせい}{符号化|ふごうか}: error-correcting coding\n\nSIMILAR / CONTRASTING TERMS:\n- {復号|ふくごう} / {復号化|ふくごうか}: decoding (the inverse operation)\n- エンコード: encode (loanword; common in everyday IT contexts, especially file conversions)\n- デコード: decode (the loanword counterpart)\n- {暗号化|あんごうか}: encryption (a related but distinct operation; encrypts for secrecy rather than to convert form)\n- {圧縮|あっしゅく}: compression (often combined with encoding for audio/video codecs)\n\nUSAGE NOTES:\n- In casual programming and IT speech, the loanword エンコード is more common (\"このファイル、UTF-8でエンコードしてある\"). {符号化|ふごうか} is preferred in academic papers, formal documentation, and standards documents.\n- {符号化|ふごうか} should not be confused with {暗号化|あんごうか} (\"encryption\"), which specifically refers to converting data into a form unreadable without a key. Encoding ({符号化|ふごうか}) is about representation, encryption ({暗号化|あんごうか}) is about secrecy.",
+  "notes": "{符号化|ふごうか} is a technical term meaning \"encoding,\" formed from {符号|ふごう} (\"code, sign\") and the productive suffix ~{化|か} (\"-ization\"). It is used across mathematics, information theory, telecommunications, and computer science, and is the standard formal translation for English \"encoding\" in academic and technical writing.\n\nFORMS:\n- {符号|ふごう} (\"code, symbol\") + ~{化|か} (\"-ization, becoming\") → {符号化|ふごうか}\n\nCOMMON COLLOCATIONS:\n- {文字|もじ}{符号化|ふごうか} / {文字|もじ}{符号化|ふごうか}{方式|ほうしき}: character encoding / character encoding scheme\n- {符号化|ふごうか}する: to encode\n- {符号化|ふごうか}される: to be encoded\n- {符号化|ふごうか}{方式|ほうしき}: encoding scheme / coding system\n- {音声|おんせい}{符号化|ふごうか}: audio encoding / speech coding\n- {映像|えいぞう}{符号化|ふごうか}: video encoding\n- {誤|あやま}り{訂正|ていせい}{符号化|ふごうか}: error-correcting coding\n\nSIMILAR / CONTRASTING TERMS:\n- {復号|ふくごう} / {復号化|ふくごうか}: decoding (the inverse operation)\n- エンコード: encode (loanword; common in everyday IT contexts, especially file conversions)\n- デコード: decode (the loanword counterpart)\n- {暗号化|あんごうか}: encryption (a related but distinct operation; encrypts for secrecy rather than to convert form)\n- {圧縮|あっしゅく}: compression (often combined with encoding for audio/video codecs)\n\nUSAGE:\n- In casual programming and IT speech, the loanword エンコード is more common (\"このファイル、UTF-8でエンコードしてある\"). {符号化|ふごうか} is preferred in academic papers, formal documentation, and standards documents.\n- {符号化|ふごうか} should not be confused with {暗号化|あんごうか} (\"encryption\"), which specifically refers to converting data into a form unreadable without a key. Encoding ({符号化|ふごうか}) is about representation, encryption ({暗号化|あんごうか}) is about secrecy.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08416_fukugou",
+      "reading": "ふくごう",
+      "headword": "{復号|ふくごう}",
+      "label": "decoding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08415_angouka",
+      "reading": "あんごうか",
+      "headword": "{暗号化|あんごうか}",
+      "label": "encryption (a related but distinct…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04884_asshuku",
+      "reading": "あっしゅく",
+      "headword": "{圧縮|あっしゅく}",
+      "label": "compression"
+    }
+  ],
   "metadata": {
     "created": "2026-05-09T12:08:45Z",
-    "modified": "2026-05-09T12:08:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

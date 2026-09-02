@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {申|もう}し{訳|わけ} is primarily used in apology expressions and is very polite. It literally means \"excuse\" or \"explanation.\"\n\nPOLITENESS LEVELS:\n・{申|もう}し{訳|わけ}ございません (most polite/formal)\n・{申|もう}し{訳|わけ}ありません (very polite)\n・{申|もう}し{訳|わけ}ない (casual but still apologetic)\n\nCONTRAST:\n・{申|もう}し{訳|わけ}ありません - very polite apology\n・⟦すみません→すみません：00998_sumimasen⟧ - standard polite apology\n・⟦ごめんなさい→ごめんなさい：00931_gomennasai⟧ - casual apology\n・⟦ごめん→御免：00072_gomen⟧ - very casual apology",
+  "notes": "USAGE: {申|もう}し{訳|わけ} is primarily used in apology expressions and is very polite. It literally means \"excuse\" or \"explanation.\"\n\nPOLITENESS LEVELS:\n- {申|もう}し{訳|わけ}ございません (most polite/formal)\n- {申|もう}し{訳|わけ}ありません (very polite)\n- {申|もう}し{訳|わけ}ない (casual but still apologetic)\n\nSIMILAR WORDS:\n- {申|もう}し{訳|わけ}ありません - very polite apology\n- ⟦すみません→すみません：00998_sumimasen⟧ - standard polite apology\n- ⟦ごめんなさい→ごめんなさい：00931_gomennasai⟧ - casual apology\n- ⟦ごめん→御免：00072_gomen⟧ - very casual apology",
   "cross_references": [
     {
       "type": "related",
@@ -78,11 +78,32 @@
       "reading": "ごめんなさい",
       "headword": "ごめんなさい",
       "label": "casual apology"
+    },
+    {
+      "type": "keigo",
+      "target_id": "18087_moushiwakegozaimasen",
+      "reading": "もうしわけございません",
+      "headword": "{申|もう}し{訳|わけ}ございません",
+      "label": "polite"
+    },
+    {
+      "type": "keigo",
+      "target_id": "21409_moushiwakearimasen",
+      "reading": "もうしわけありません",
+      "headword": "{申|もう}し{訳|わけ}ありません",
+      "label": "polite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00072_gomen",
+      "reading": "ごめん",
+      "headword": "{御免|ごめん}",
+      "label": "very casual apology"
     }
   ],
   "metadata": {
     "created": "2026-01-12T13:34:27Z",
-    "modified": "2026-05-27T18:36:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{決|き}まる→決まる：01233_kimaru⟧ (intransitive, to be decided). Pattern: X⟦を→を：00422_wo⟧{決|き}める (decide X).\n\nASPECT: ている indicates resulting state. {決|き}めている = 'have decided' (current decision).\n\nCOMMON PATTERNS:\n・⟦{日|ひ}→日：02249_hi⟧⟦を→を：00422_wo⟧{決|き}める (decide on a date)\n・⟦{何|なに}→何：00498_nani⟧⟦を→を：00422_wo⟧〜⟦か→か：09473_ka⟧{決|き}める (decide what to ~)\n・⟦まだ→まだ：00603_mada⟧{決|き}めていない (haven't decided yet)\n・{決|き}めた！ (I've decided!)\n\nPAIR: ⟦{決|き}まる→決まる：01233_kimaru⟧ (intransitive) - ⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦{決|き}まった→決まる：01233_kimaru⟧ (the time was decided).",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{決|き}まる→決まる：01233_kimaru⟧ (intransitive, to be decided). Pattern: X⟦を→を：00422_wo⟧{決|き}める (decide X).\n\nASPECT: ている indicates resulting state. {決|き}めている = 'have decided' (current decision).\n\nCOMMON PATTERNS:\n- ⟦{日|ひ}→日：02249_hi⟧⟦を→を：00422_wo⟧{決|き}める (decide on a date)\n- ⟦{何|なに}→何：00498_nani⟧⟦を→を：00422_wo⟧〜⟦か→か：09473_ka⟧{決|き}める (decide what to ~)\n- ⟦まだ→まだ：00603_mada⟧{決|き}めていない (haven't decided yet)\n- {決|き}めた！ (I've decided!)\n\nPAIR: ⟦{決|き}まる→決まる：01233_kimaru⟧ (intransitive) - ⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦{決|き}まった→決まる：01233_kimaru⟧ (the time was decided).",
   "cross_references": [
     {
       "type": "related",
@@ -161,11 +161,32 @@
       "reading": "えらぶ",
       "headword": "{選|えら}ぶ",
       "label": "to choose (pick from options)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10448_sadameru",
+      "reading": "さだめる",
+      "headword": "{定|さだ}める",
+      "label": "to establish, to set, to determine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21022_ketteisuru",
+      "reading": "けっていする",
+      "headword": "{決定|けってい}する",
+      "label": "to decide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28116_ketsuisuru",
+      "reading": "けついする",
+      "headword": "{決意|けつい}する",
+      "label": "to resolve"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:58:24Z",
-    "modified": "2026-07-25T09:17:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -18,7 +18,9 @@
       "english": "This castle has been designated as a national treasure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09642_kokuhou_ex2",
@@ -26,7 +28,9 @@
       "english": "I went to the museum to see the national treasure paintings.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09642_kokuhou_ex3",
@@ -34,10 +38,12 @@
       "english": "Japan has more than a thousand national treasures.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{国宝|こくほう} is the highest classification of cultural property in Japan, designated by the national government under the Cultural Properties Protection Act.\n\nWORD FORMATION:\n{国|こく} (country) + {宝|ほう} (treasure)\n\nCATEGORIES:\nIncludes buildings, paintings, sculptures, crafts, calligraphy, swords, and historical documents of exceptional importance.\n\nCOMMON COLLOCATIONS:\n- {国宝|こくほう}に{指定|してい}する: to designate as a national treasure\n- {国宝|こくほう}に{指定|してい}されている: to be designated as a national treasure\n- {国宝|こくほう}{級|きゅう}: national-treasure class (figurative)\n\nRELATED TERMS:\n- {重要|じゅうよう}{文化財|ぶんかざい}: important cultural property (one level below {国宝|こくほう})\n- {世界|せかい}{遺産|いさん}: world heritage site\n- {文化|ぶんか}{遺産|いさん}: cultural heritage",
+  "notes": "{国宝|こくほう} is the highest classification of cultural property in Japan, designated by the national government under the Cultural Properties Protection Act.\n\nFORMS:\n{国|こく} (country) + {宝|ほう} (treasure)\n\nTYPES:\nIncludes buildings, paintings, sculptures, crafts, calligraphy, swords, and historical documents of exceptional importance.\n\nCOMMON COLLOCATIONS:\n- {国宝|こくほう}に{指定|してい}する: to designate as a national treasure\n- {国宝|こくほう}に{指定|してい}されている: to be designated as a national treasure\n- {国宝|こくほう}{級|きゅう}: national-treasure class (figurative)\n\nRELATED WORDS:\n- {重要|じゅうよう}{文化財|ぶんかざい}: important cultural property (one level below {国宝|こくほう})\n- {世界|せかい}{遺産|いさん}: world heritage site\n- {文化|ぶんか}{遺産|いさん}: cultural heritage",
   "cross_references": [
     {
       "type": "related",
@@ -52,18 +58,43 @@
       "reading": "せかいいさん",
       "headword": "{世界遺産|せかいいさん}",
       "label": "world heritage site"
+    },
+    {
+      "type": "related",
+      "target_id": "17353_bunkaisan",
+      "reading": "ぶんかいさん",
+      "headword": "{文化|ぶんか}{遺産|いさん}",
+      "label": "cultural heritage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13829_hihou",
+      "reading": "ひほう",
+      "headword": "{秘宝|ひほう}",
+      "label": "hidden treasure, secret treasure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17038_yuukeibunkazai",
+      "reading": "ゆうけいぶんかざい",
+      "headword": "{有形文化財|ゆうけいぶんかざい}",
+      "label": "tangible cultural property"
     }
   ],
   "metadata": {
     "created": "2026-02-03T02:58:32Z",
-    "modified": "2026-04-23T06:13:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

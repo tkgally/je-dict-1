@@ -43,7 +43,37 @@
       "notes": null
     }
   ],
-  "notes": "TECHNOLOGY TERM:\n{音声入力|おんせいにゅうりょく} combines {音声|おんせい} (voice/speech) + {入力|にゅうりょく} (input). It's used for various speech-to-text and voice control features.\n\nCOMMON APPLICATIONS:\n- スマートフォン - smartphones\n- スマートスピーカー - smart speakers\n- {音声|おんせい}アシスタント - voice assistants\n- {文字|もじ}{起|お}こし - transcription\n\nCOMMON COLLOCATIONS:\n- {音声入力|おんせいにゅうりょく}を{使|つか}う - to use voice input\n- {音声入力|おんせいにゅうりょく}{機能|きのう} - voice input function\n- {音声入力|おんせいにゅうりょく}に{対応|たいおう} - supports voice input\n\nRELATED TERMS:\n- {音声認識|おんせいにんしき} - speech recognition\n- {音声|おんせい}コマンド - voice command\n- {顔認証|かおにんしょう} - facial recognition\n- {指紋認証|しもんにんしょう} - fingerprint authentication",
+  "notes": "TECHNOLOGY TERM:\n{音声入力|おんせいにゅうりょく} combines {音声|おんせい} (voice/speech) + {入力|にゅうりょく} (input). It's used for various speech-to-text and voice control features.\n\nCOMMON APPLICATIONS:\n- スマートフォン - smartphones\n- スマートスピーカー - smart speakers\n- {音声|おんせい}アシスタント - voice assistants\n- {文字|もじ}{起|お}こし - transcription\n\nCOMMON COLLOCATIONS:\n- {音声入力|おんせいにゅうりょく}を{使|つか}う - to use voice input\n- {音声入力|おんせいにゅうりょく}{機能|きのう} - voice input function\n- {音声入力|おんせいにゅうりょく}に{対応|たいおう} - supports voice input\n\nRELATED WORDS:\n- {音声認識|おんせいにんしき} - speech recognition\n- {音声|おんせい}コマンド - voice command\n- {顔認証|かおにんしょう} - facial recognition\n- {指紋認証|しもんにんしょう} - fingerprint authentication",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15961_onseininshiki",
+      "reading": "おんせいにんしき",
+      "headword": "{音声認識|おんせいにんしき}",
+      "label": "speech recognition"
+    },
+    {
+      "type": "related",
+      "target_id": "08591_kaoninshou",
+      "reading": "かおにんしょう",
+      "headword": "{顔認証|かおにんしょう}",
+      "label": "facial recognition"
+    },
+    {
+      "type": "related",
+      "target_id": "08592_shimonninshou",
+      "reading": "しもんにんしょう",
+      "headword": "{指紋認証|しもんにんしょう}",
+      "label": "fingerprint authentication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23911_roomajinyuuryoku",
+      "reading": "ろーまじにゅうりょく",
+      "headword": "ローマ{字入力|じにゅうりょく}",
+      "label": "romaji input (method of typing Japanese using the Latin alphabet)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,11 +81,12 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "technology"
       ]
     },
     "created": "2026-01-27T11:49:11Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "08264_tokasu",
   "headword": "{溶|と}かす",
   "reading": "とかす",
-  "part_of_speech": "godan verb (transitive)",
+  "part_of_speech": "verb (godan, transitive)",
   "gloss": "to melt; to dissolve; to thaw",
   "conjugation": {
     "type": "godan",
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY:\nTransitive ({他動詞|たどうし})\nIntransitive pair: {溶|と}ける\n\nUSAGE:\n- {熱|ねつ}で{溶|と}かす (to melt with heat)\n- {水|みず}に{溶|と}かす (to dissolve in water)\n- {溶|と}かして{混|ま}ぜる (to melt and mix)\n\nCOOKING:\n- バター/チョコレートを{溶|と}かす (to melt butter/chocolate)\n- {粉|こな}を{水|みず}で{溶|と}かす (to dissolve powder in water)\n\nKANJI NOTE:\n{溶|と}かす - for dissolving/melting (most common in cooking)\n{融|と}かす - for melting metals or ice\n{解|と}かす - for melting/thawing frozen items\n\nRELATED:\n- {溶|と}ける (to melt, to dissolve - intransitive)\n- {溶解|ようかい} (dissolution)\n- {融解|ゆうかい} (melting)",
+  "notes": "TRANSITIVITY:\nTransitive ({他動詞|たどうし})\nIntransitive pair: {溶|と}ける\n\nUSAGE:\n- {熱|ねつ}で{溶|と}かす (to melt with heat)\n- {水|みず}に{溶|と}かす (to dissolve in water)\n- {溶|と}かして{混|ま}ぜる (to melt and mix)\n\nCOOKING:\n- バター/チョコレートを{溶|と}かす (to melt butter/chocolate)\n- {粉|こな}を{水|みず}で{溶|と}かす (to dissolve powder in water)\n\nWRITING:\n{溶|と}かす - for dissolving/melting (most common in cooking)\n{融|と}かす - for melting metals or ice\n{解|と}かす - for melting/thawing frozen items\n\nRELATED WORDS:\n- {溶|と}ける (to melt, to dissolve - intransitive)\n- {溶解|ようかい} (dissolution)\n- {融解|ゆうかい} (melting)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +142,7 @@
       ],
       "transitivity": "transitive",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "cooking",
         "action"
@@ -149,7 +150,7 @@
       "verb_class": "godan-su"
     },
     "created": "2026-01-25T09:58:37Z",
-    "modified": "2026-07-02T15:18:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "prominent_see_also": [
     {
@@ -159,5 +160,34 @@
       "note": "intransitive"
     }
   ],
-  "cross_references": []
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17585_youkai",
+      "reading": "ようかい",
+      "headword": "{溶解|ようかい}",
+      "label": "dissolution"
+    },
+    {
+      "type": "related",
+      "target_id": "08404_yuukai",
+      "reading": "ゆうかい",
+      "headword": "{融解|ゆうかい}",
+      "label": "melting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18672_kishaku",
+      "reading": "きしゃく",
+      "headword": "{希釈|きしゃく}",
+      "label": "dilution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19085_kaitou",
+      "reading": "かいとう",
+      "headword": "{解凍|かいとう}",
+      "label": "thawing"
+    }
+  ]
 }

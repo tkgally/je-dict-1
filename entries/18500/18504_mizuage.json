@@ -3,7 +3,7 @@
   "headword": "{水揚|みずあ}げ",
   "reading": "みずあげ",
   "romaji": "mizuage",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "landing a catch; unloading; sales revenue",
   "conjugation": {
     "type": "suru",
@@ -169,8 +169,17 @@
       "notes": null
     }
   ],
-  "notes": "The fishing sense (landing a catch) is the primary meaning and appears frequently in news about the fishing industry.\n\nSENSE 1 — FISHING:\n- {水揚|みずあ}げ{量|りょう}: amount of catch landed\n- {水揚|みずあ}げ{高|だか}: value of the catch\n- {水揚|みずあ}げする: to land/unload fish\n- {水揚|みずあ}げ{港|こう}: landing port\n\nSENSE 2 — SALES REVENUE:\nUsed for gross sales or proceeds, but {売|う}り{上|あ}げ is more common in general business. {水揚|みずあ}げ{高|だか} can refer to either fishing revenue or general sales depending on context.\n\nFORMATION:\n{水|みず} (water) + {揚|あ}げ (raising up) — originally the act of lifting goods out of the water onto land.",
+  "notes": "The fishing sense (landing a catch) is the primary meaning and appears frequently in news about the fishing industry.\n\nSENSE 1 — FISHING:\n- {水揚|みずあ}げ{量|りょう}: amount of catch landed\n- {水揚|みずあ}げ{高|だか}: value of the catch\n- {水揚|みずあ}げする: to land/unload fish\n- {水揚|みずあ}げ{港|こう}: landing port\n\nSENSE 2 — SALES REVENUE:\nUsed for gross sales or proceeds, but {売|う}り{上|あ}げ is more common in general business. {水揚|みずあ}げ{高|だか} can refer to either fishing revenue or general sales depending on context.\n\nFORMS:\n{水|みず} (water) + {揚|あ}げ (raising up) — originally the act of lifting goods out of the water onto land.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29455_gyokakuryou",
+      "reading": "ぎょかくりょう",
+      "headword": "漁獲量",
+      "label": "catch"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -186,6 +195,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-22T03:16:17Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

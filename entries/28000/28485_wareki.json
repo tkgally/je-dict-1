@@ -46,6 +46,29 @@
   ],
   "notes": "Years are counted from the start of each emperor's reign and prefixed with the era name ({元号|げんごう}): e.g., {令和|れいわ}{元年|がんねん} (Reiwa 1 = 2019), {平成|へいせい}30{年|ねん} (Heisei 30 = 2018).\n\nCOMMON COLLOCATIONS:\n- {和暦|われき}で{書|か}く: to write in the Japanese calendar\n- {和暦|われき}に{変換|へんかん}する: to convert to the Japanese calendar\n- {和暦|われき}と{西暦|せいれき}: Japanese and Western calendars\n\nSIMILAR WORDS:\n- {西暦|せいれき}: Western (Gregorian) calendar — the counterpart, used worldwide\n- {元号|げんごう}: era name itself (e.g., {令和|れいわ}, {平成|へいせい})",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04355_seireki",
+      "reading": "せいれき",
+      "headword": "{西暦|せいれき}",
+      "label": "Western (Gregorian) calendar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16318_gengou",
+      "reading": "げんごう",
+      "headword": "{元号|げんごう}",
+      "label": "era name itself"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26998_nengou",
+      "reading": "ねんごう",
+      "headword": "{年号|ねんごう}",
+      "label": "era name"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-general",
         "culture"
@@ -61,6 +84,6 @@
       "domain": []
     },
     "created": "2026-06-01T02:06:49Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Refers to a waterfront structure for ships to dock. While the kanji {埠|ふ} specifically denotes a wharf or landing place, it is rarely used outside this compound.\n\nCOMMON COLLOCATIONS:\n- {埠頭|ふとう}に{着|つ}く: to arrive at the wharf\n- {埠頭|ふとう}で{荷|に}を{降|お}ろす: to unload cargo at the dock\n- コンテナ{埠頭|ふとう}: container terminal\n- {旅客|りょかく}{埠頭|ふとう}: passenger terminal\n\nSIMILAR WORDS:\n- {港|みなと}: port, harbor — the broader term for the entire port area\n- {桟橋|さんばし}: pier, jetty — a narrower structure extending into the water\n- {波止場|はとば}: wharf — a slightly literary or nostalgic synonym\n\nNOTE:\nMajor Japanese ports like {横浜|よこはま}, {神戸|こうべ}, and {東京|とうきょう} have well-known named {埠頭|ふとう} that double as landmarks and tourist destinations.",
+  "notes": "Refers to a waterfront structure for ships to dock. While the kanji {埠|ふ} specifically denotes a wharf or landing place, it is rarely used outside this compound.\n\nCOMMON COLLOCATIONS:\n- {埠頭|ふとう}に{着|つ}く: to arrive at the wharf\n- {埠頭|ふとう}で{荷|に}を{降|お}ろす: to unload cargo at the dock\n- コンテナ{埠頭|ふとう}: container terminal\n- {旅客|りょかく}{埠頭|ふとう}: passenger terminal\n\nSIMILAR WORDS:\n- {港|みなと}: port, harbor — the broader term for the entire port area\n- {桟橋|さんばし}: pier, jetty — a narrower structure extending into the water\n- {波止場|はとば}: wharf — a slightly literary or nostalgic synonym\n\nUSAGE:\nMajor Japanese ports like {横浜|よこはま}, {神戸|こうべ}, and {東京|とうきょう} have well-known named {埠頭|ふとう} that double as landmarks and tourist destinations.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01512_minato",
+      "reading": "みなと",
+      "headword": "{港|みなと}",
+      "label": "port, harbor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09241_sanbashi",
+      "reading": "さんばし",
+      "headword": "{桟橋|さんばし}",
+      "label": "pier, jetty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15348_hatoba",
+      "reading": "はとば",
+      "headword": "{波止場|はとば}",
+      "label": "wharf"
+    },
+    {
+      "type": "related",
+      "target_id": "19675_ganpeki",
+      "reading": "がんぺき",
+      "headword": "{岸壁|がんぺき}",
+      "label": "quay wall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21296_funatsukiba",
+      "reading": "ふなつきば",
+      "headword": "{船着|ふなつ}き{場|ば}",
+      "label": "boat landing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +97,6 @@
       ]
     },
     "created": "2026-03-30T07:46:06Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

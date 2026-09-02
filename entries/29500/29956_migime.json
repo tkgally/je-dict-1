@@ -17,7 +17,9 @@
       "id": "29956_migime_ex1",
       "japanese": "{右|みぎ}{目|め}に{涙|なみだ}がたまる。",
       "english": "Tears well up in my right eye.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29956_migime_ex2",
       "japanese": "ボールが{右|みぎ}{目|め}の{近|ちか}くに{当|あ}たった。",
       "english": "The ball hit me near my right eye.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "29956_migime_ex3",
       "japanese": "{願|ねが}いがかなったので、だるまの{右|みぎ}{目|め}を{書|か}き{入|い}れた。",
       "english": "Since my wish came true, I filled in the daruma's right eye.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers to the right eye from the point of view of the person whose eye it is.\n\nCOMMON COLLOCATIONS:\n- {右|みぎ}{目|め}をつぶる: to close/wink the right eye\n- {右|みぎ}{目|め}の{視力|しりょく}: vision in the right eye\n\nRELATED WORDS:\n- {左|ひだり}{目|め}: left eye\n- {両目|りょうめ}: both eyes\n- {片目|かため}: one eye",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29955_hidarime",
+      "reading": "ひだりめ",
+      "headword": "{左|ひだり}{目|め}",
+      "label": "left eye"
+    },
+    {
+      "type": "related",
+      "target_id": "21275_ryoume",
+      "reading": "りょうめ",
+      "headword": "{両目|りょうめ}",
+      "label": "both eyes"
+    },
+    {
+      "type": "related",
+      "target_id": "20229_katame",
+      "reading": "かため",
+      "headword": "{片目|かため}",
+      "label": "one eye"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-part"],
+      "semantic": [
+        "body-part"
+      ],
       "domain": []
     },
     "created": "2026-07-19T18:17:15Z",
-    "modified": "2026-07-19T18:17:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "25641_chirigaku_ex1",
       "japanese": "{大学|だいがく}で{地理学|ちりがく}を{専攻|せんこう}している。",
       "english": "I'm majoring in geography at university.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25641_chirigaku_ex2",
       "japanese": "{地理学|ちりがく}は{自然|しぜん}と{人間|にんげん}の{関係|かんけい}を{研究|けんきゅう}する{学問|がくもん}だ。",
       "english": "Geography is a discipline that studies the relationship between nature and humans.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,43 @@
       "id": "25641_chirigaku_ex3",
       "japanese": "{近年|きんねん}、{地理学|ちりがく}は{都市計画|としけいかく}や{防災|ぼうさい}など{実践的|じっせんてき}な{分野|ぶんや}でも{注目|ちゅうもく}されている。",
       "english": "In recent years, geography has been gaining attention in practical fields such as urban planning and disaster prevention.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {地理|ちり} (geography, topography) and {学|がく} (study, discipline). {地理学|ちりがく} is the formal academic term, while {地理|ちり} alone is used more casually for geography as a school subject.\n\nIn Japanese high schools, geography is grouped under {社会|しゃかい} (social studies) alongside {歴史|れきし} (history) and {公民|こうみん} (civics).\n\nCOMMON COLLOCATIONS:\n- {地理学|ちりがく}{者|しゃ}: geographer\n- {人文|じんぶん}{地理学|ちりがく}: human geography\n- {自然|しぜん}{地理学|ちりがく}: physical geography\n- {地理学|ちりがく}{科|か}: geography department\n\nSIMILAR WORDS:\n- {地理|ちり}: geography — the everyday or school-subject term, while {地理学|ちりがく} emphasizes the academic discipline\n- {地学|ちがく}: earth science — a broader field including geology, meteorology, and astronomy\n- {地質学|ちしつがく}: geology — the study of rocks, minerals, and earth's structure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07106_chigaku",
+      "reading": "ちがく",
+      "headword": "{地学|ちがく}",
+      "label": "earth science"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25643_chishitsugaku",
+      "reading": "ちしつがく",
+      "headword": "{地質学|ちしつがく}",
+      "label": "geology"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["education"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-04-26T13:26:27Z",
-    "modified": "2026-04-26T13:26:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

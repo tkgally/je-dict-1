@@ -17,7 +17,9 @@
       "id": "21783_baikingu_ex1",
       "japanese": "{昼|ひる}はバイキングにしよう。",
       "english": "Let's go for a buffet for lunch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21783_baikingu_ex2",
       "japanese": "このホテルの{朝食|ちょうしょく}バイキングは{種類|しゅるい}が{豊富|ほうふ}だ。",
       "english": "This hotel's breakfast buffet has a wide variety.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,12 +37,30 @@
       "id": "21783_baikingu_ex3",
       "japanese": "バイキング{形式|けいしき}のレストランで、{好|す}きなものを{好|す}きなだけ{食|た}べられる。",
       "english": "At a buffet-style restaurant, you can eat as much of whatever you like.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A Japanese-English word (wasei-eigo) derived from \"Viking.\" The term originated from the Imperial Hotel in Tokyo, which in 1958 named its buffet-style restaurant \"Viking\" after being inspired by Scandinavian smorgasbord. The name stuck and became the standard Japanese word for buffet-style dining.\n\nUSAGE:\n- Used specifically for self-service, all-you-can-eat style meals\n- Very common in hotel and restaurant contexts\n- The loanword ビュッフェ (buffet) is also used, especially in upscale or international settings\n\nCOMMON COLLOCATIONS:\n- {朝食|ちょうしょく}バイキング: breakfast buffet\n- ランチバイキング: lunch buffet\n- バイキング{形式|けいしき}: buffet style\n- {食|た}べ{放題|ほうだい}バイキング: all-you-can-eat buffet\n- デザートバイキング: dessert buffet\n\nSIMILAR WORDS:\n- ビュッフェ: buffet — the French/English loanword; used in more formal or international contexts\n- {食|た}べ{放題|ほうだい}: all-you-can-eat — focuses on the unlimited eating aspect rather than the self-service format\n- ブッフェ: buffet — variant pronunciation of ビュッフェ",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11156_byuffe",
+      "reading": "びゅっふぇ",
+      "headword": "ビュッフェ",
+      "label": "buffet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08291_tabehoudai",
+      "reading": "たべほうだい",
+      "headword": "{食|た}べ{放題|ほうだい}",
+      "label": "all-you-can-eat"
+    }
+  ],
   "metadata": {
     "entry_id": "21783_baikingu",
     "schema_version": "2.0",
@@ -46,11 +68,18 @@
     "vocabulary_tier": "general",
     "jlpt_level": null,
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food"],
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "register": [],
-      "usage": ["wasei-eigo"]
+      "usage": [
+        "wasei-eigo"
+      ]
     },
-    "modified": "2026-04-03T17:09:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

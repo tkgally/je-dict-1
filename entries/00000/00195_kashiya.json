@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "ALTERNATIVE READING: Also read as かしいえ, but かしや is more common.\n\nSIGNS:\n・「{貸家|かしや}」 (House for Rent)\n・「{貸家|かしや}⟦{募集|ぼしゅう}→募集：03035_boshuu⟧」 (Rental house available)\n\nRELATED TERMS:\n・⟦{貸間|かしま}→貸間：00193_kashima⟧ (room for rent)\n・⟦{賃貸|ちんたい}→賃貸：06081_chintai⟧⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧ (rental housing - formal)\n・⟦{借家|しゃくや}→借家：19997_shakka⟧ (rented house - from tenant's perspective)\n・⟦{持|も}ち{家|いえ}→持ち家：27371_mochiie⟧ (owned home - opposite)\n\nCONTRAST:\n・{貸家|かしや} (renting out - owner's perspective)\n・⟦{借家|しゃくや}→借家：19997_shakka⟧ (renting - tenant's perspective)\n\nNOTE: In real estate contexts, ⟦{賃貸|ちんたい}→賃貸：06081_chintai⟧⟦{一戸建|いっこだ}て→一戸建て：19687_ikkodate⟧ (rental single-family house) is often used in modern listings.",
+  "notes": "ALTERNATIVE READING: Also read as かしいえ, but かしや is more common.\n\nSIGNS:\n- 「{貸家|かしや}」 (House for Rent)\n- 「{貸家|かしや}⟦{募集|ぼしゅう}→募集：03035_boshuu⟧」 (Rental house available)\n\nRELATED WORDS:\n- ⟦{貸間|かしま}→貸間：00193_kashima⟧ (room for rent)\n- ⟦{賃貸|ちんたい}→賃貸：06081_chintai⟧⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧ (rental housing - formal)\n- ⟦{借家|しゃくや}→借家：19997_shakka⟧ (rented house - from tenant's perspective)\n- ⟦{持|も}ち{家|いえ}→持ち家：27371_mochiie⟧ (owned home - opposite)\n\nSIMILAR WORDS:\n- {貸家|かしや} (renting out - owner's perspective)\n- ⟦{借家|しゃくや}→借家：19997_shakka⟧ (renting - tenant's perspective)\n\nNOTE: In real estate contexts, ⟦{賃貸|ちんたい}→賃貸：06081_chintai⟧⟦{一戸建|いっこだ}て→一戸建て：19687_ikkodate⟧ (rental single-family house) is often used in modern listings.",
   "cross_references": [
     {
       "type": "contrast",
@@ -78,11 +78,32 @@
       "headword": "{貸間|かしま}",
       "label": "room for rent",
       "target_id": "00193_kashima"
+    },
+    {
+      "type": "related",
+      "target_id": "20779_chintaijuutaku",
+      "reading": "ちんたいじゅうたく",
+      "headword": "{賃貸住宅|ちんたいじゅうたく}",
+      "label": "rental housing"
+    },
+    {
+      "type": "related",
+      "target_id": "27371_mochiie",
+      "reading": "もちいえ",
+      "headword": "{持|も}ち{家|いえ}",
+      "label": "owned home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29494_shakuya",
+      "reading": "しゃくや",
+      "headword": "{借家|しゃくや}",
+      "label": "rented house"
     }
   ],
   "metadata": {
     "created": "2026-01-13T10:53:53Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{侵犯|しんぱん}",
   "reading": "しんぱん",
   "romaji": "shinpan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "violation; infringement; encroachment",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "A formal word for crossing a boundary that should not be crossed. Most common in the context of territory, airspace, and sovereignty, but also used for rights.\n\nCOMMON COLLOCATIONS:\n- {領空|りょうくう}{侵犯|しんぱん}: airspace violation\n- {領海|りょうかい}{侵犯|しんぱん}: violation of territorial waters\n- {主権|しゅけん}の{侵犯|しんぱん}: infringement of sovereignty\n\nSIMILAR WORDS:\n- {侵害|しんがい}: infringement — used for rights and interests ({人権侵害|じんけんしんがい}), not physical territory\n- {侵入|しんにゅう}: intrusion; break-in — the act of physically entering, without the nuance of violating rights",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11563_shingai",
+      "reading": "しんがい",
+      "headword": "{侵害|しんがい}",
+      "label": "infringement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11440_shinnyuu",
+      "reading": "しんにゅう",
+      "headword": "{侵入|しんにゅう}",
+      "label": "intrusion"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "military",
         "action"
@@ -64,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-03T18:18:03Z",
-    "modified": "2026-07-03T18:18:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

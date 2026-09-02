@@ -19,7 +19,9 @@
       "english": "The legitimate son inherited the family headship.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15626_chakunan_ex2",
@@ -27,7 +29,9 @@
       "english": "The lord's legitimate heir died at a young age.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15626_chakunan_ex3",
@@ -35,21 +39,43 @@
       "english": "It was unusual for the second son rather than the legitimate heir to become the domain lord.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{嫡男|ちゃくなん} is primarily a historical term associated with the Japanese feudal system, where the eldest son of the principal wife had the right of succession. It appears frequently in historical dramas, period novels, and discussions of samurai lineage.\n\nCOMMON COLLOCATIONS:\n- {嫡男|ちゃくなん}が{家督|かとく}を{継|つ}ぐ (the heir inherits the headship)\n- {嫡男|ちゃくなん}として{生|う}まれる (to be born as the legitimate heir)\n\nSIMILAR WORDS:\n- {長男|ちょうなん}: eldest son (modern, general usage)\n- {嫡子|ちゃくし}: legitimate child (includes daughters)\n- {跡継|あとつ}ぎ: successor, heir (general term)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14519_chounan",
+      "reading": "ちょうなん",
+      "headword": "{長男|ちょうなん}",
+      "label": "eldest son"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14299_atotsugi",
+      "reading": "あとつぎ",
+      "headword": "{跡継|あとつ}ぎ",
+      "label": "successor, heir"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T13:43:42Z",
-    "modified": "2026-03-07T13:43:42Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["history", "family"]
+      "semantic": [
+        "history",
+        "family"
+      ]
     }
   }
 }

@@ -2,7 +2,7 @@
   "id": "01692_nebou",
   "headword": "{寝坊|ねぼう}",
   "reading": "ねぼう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "oversleeping",
   "conjugation": {
     "type": "suru",
@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "{寝坊|ねぼう} is composed of {寝|ね} (sleep) + {坊|ぼう} (person, in compounds).\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {寝坊|ねぼう}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {寝坊|ねぼう}⟦する→する：00392_suru⟧: to oversleep\n- {寝坊|ねぼう}⟦して→する：00392_suru⟧⟦{遅刻|ちこく}→遅刻：03465_chikoku⟧⟦する→する：00392_suru⟧: to be late due to oversleeping\n- {寝坊|ねぼう}⟦しない→する：00392_suru⟧⟦ように→ように：10081_youni⟧: so as not to oversleep\n\nRELATED TERMS:\n- ⟦{遅刻|ちこく}→遅刻：03465_chikoku⟧: being late\n- ⟦{早起|はやお}き→早起き：02477_hayaoki⟧: early riser, waking up early\n- ⟦{朝寝坊|あさねぼう}→朝寝坊：02516_asanebou⟧: morning oversleeping\n- ⟦{二度寝|にどね}→二度寝：07694_nidone⟧: going back to sleep\n\nOPPOSITE: ⟦{早起|はやお}き→早起き：02477_hayaoki⟧ (early riser)",
+  "notes": "{寝坊|ねぼう} is composed of {寝|ね} (sleep) + {坊|ぼう} (person, in compounds).\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {寝坊|ねぼう}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {寝坊|ねぼう}⟦する→する：00392_suru⟧: to oversleep\n- {寝坊|ねぼう}⟦して→する：00392_suru⟧⟦{遅刻|ちこく}→遅刻：03465_chikoku⟧⟦する→する：00392_suru⟧: to be late due to oversleeping\n- {寝坊|ねぼう}⟦しない→する：00392_suru⟧⟦ように→ように：10081_youni⟧: so as not to oversleep\n\nRELATED WORDS:\n- ⟦{遅刻|ちこく}→遅刻：03465_chikoku⟧: being late\n- ⟦{早起|はやお}き→早起き：02477_hayaoki⟧: early riser, waking up early\n- ⟦{朝寝坊|あさねぼう}→朝寝坊：02516_asanebou⟧: morning oversleeping\n- ⟦{二度寝|にどね}→二度寝：07694_nidone⟧: going back to sleep\n\nOPPOSITE: ⟦{早起|はやお}き→早起き：02477_hayaoki⟧ (early riser)",
   "cross_references": [
     {
       "type": "antonym",
@@ -216,11 +216,32 @@
       "headword": "{早起|はやお}き",
       "label": "early riser",
       "target_id": "02477_hayaoki"
+    },
+    {
+      "type": "related",
+      "target_id": "03465_chikoku",
+      "reading": "ちこく",
+      "headword": "{遅刻|ちこく}",
+      "label": "being late"
+    },
+    {
+      "type": "related",
+      "target_id": "07694_nidone",
+      "reading": "にどね",
+      "headword": "{二度寝|にどね}",
+      "label": "going back to sleep"
+    },
+    {
+      "type": "related",
+      "target_id": "07692_nebusoku",
+      "reading": "ねぶそく",
+      "headword": "{寝不足|ねぶそく}",
+      "label": "lack of sleep"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:34:14Z",
-    "modified": "2026-05-16T16:26:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

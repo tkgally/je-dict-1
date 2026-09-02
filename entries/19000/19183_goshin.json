@@ -3,7 +3,7 @@
   "headword": "{誤審|ごしん}",
   "reading": "ごしん",
   "romaji": "goshin",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "misjudgment; bad call (in sports or law)",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,22 @@
   ],
   "notes": "Composed of {誤|ご} (error, mistake) + {審|しん} (judge, examine). Primarily a sports term, used when referees or umpires make incorrect calls. Common collocations: {誤審|ごしん}をする (to make a bad call), {誤審|ごしん}{問題|もんだい} (officiating controversy), {誤審|ごしん}を{認|みと}める (to acknowledge a bad call). Related to the growing use of VAR (ビデオ・アシスタント・レフェリー) in soccer and video {判定|はんてい} (video review) in various sports. Part of the {誤〜|ご〜} prefix family: {誤解|ごかい} (misunderstanding), {誤用|ごよう} (misuse), {誤報|ごほう} (false report).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25743_hanteimisu",
+      "reading": "はんていみす",
+      "headword": "{判定|はんてい}ミス",
+      "label": "judgment error"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26629_gohan",
+      "reading": "ごはん",
+      "headword": "{誤判|ごはん}",
+      "label": "misjudgment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -145,10 +161,13 @@
       ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["evaluation", "sports"],
+      "semantic": [
+        "evaluation",
+        "sports"
+      ],
       "verb_class": "suru"
     },
     "created": "2026-03-24T13:55:12Z",
-    "modified": "2026-07-26T21:32:58Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

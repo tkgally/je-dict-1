@@ -3,7 +3,7 @@
   "headword": "{苦労知|くろうし}らず",
   "reading": "くろうしらず",
   "romaji": "kuroushirazu",
-  "part_of_speech": "noun; adjective-na",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "carefree; having known no hardship; sheltered",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A compound of {苦労|くろう} (hardship, difficulty) and {知|し}らず (not knowing). Describes someone who has been fortunate enough — or sheltered enough — to never experience real difficulty. The tone can be neutral (simply describing someone's fortunate upbringing) or slightly critical (implying naivety or a lack of empathy due to inexperience).\n\nCOMMON COLLOCATIONS:\n- {苦労知|くろうし}らずに{育|そだ}つ: to grow up without hardship\n- {苦労知|くろうし}らずの{人生|じんせい}: a life without hardship\n- {苦労知|くろうし}らずのお{坊|ぼっ}ちゃん: sheltered rich boy\n\nSIMILAR WORDS:\n- {世間知|せけんし}らず: naive about the ways of the world — focuses on social inexperience\n- のんき: carefree, easygoing — personality trait rather than life circumstance\n- お{気楽|きらく}: carefree, happy-go-lucky — more colloquial and often slightly critical",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22674_sekenshirazu",
+      "reading": "せけんしらず",
+      "headword": "{世間知|せけんし}らず",
+      "label": "naive about the ways of the world"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00323_nonki",
+      "reading": "のんき",
+      "headword": "{呑気|のんき}",
+      "label": "carefree, easygoing"
+    },
+    {
+      "type": "related",
+      "target_id": "20965_kuroushou",
+      "reading": "くろうしょう",
+      "headword": "{苦労性|くろうしょう}",
+      "label": "born worrier"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +84,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-06T18:13:41Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "You can enjoy it even without background knowledge.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17945_yobichishiki_ex2",
@@ -27,7 +29,9 @@
       "english": "I'll explain the basic terms as background knowledge.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17945_yobichishiki_ex3",
@@ -35,22 +39,38 @@
       "english": "You can understand this movie more deeply if you have some background knowledge of history.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {予備|よび} (preliminary, spare) and {知識|ちしき} (knowledge). Commonly used in educational and media contexts to describe what readers or viewers should know beforehand.\n\nCOMMON COLLOCATIONS:\n- {予備知識|よびちしき}がある (to have background knowledge)\n- {予備知識|よびちしき}がない (to lack background knowledge)\n- {予備知識|よびちしき}なしで (without background knowledge)\n- {予備知識|よびちしき}として (as background knowledge)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21805_kisochishiki",
+      "reading": "きそちしき",
+      "headword": "{基礎|きそ}{知識|ちしき}",
+      "label": "basic knowledge"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T09:20:02Z",
-    "modified": "2026-03-19T09:20:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

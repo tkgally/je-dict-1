@@ -3,7 +3,7 @@
   "headword": "{指揮|しき}する",
   "reading": "しきする",
   "romaji": "shikisuru",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to command; to conduct; to lead",
   "conjugation": {
     "type": "suru",
@@ -171,6 +171,36 @@
   ],
   "notes": "Used for authoritative leadership of organized groups. The two main domains are organizational/military command and musical conducting.\n\nCOMMON COLLOCATIONS:\n- {部隊|ぶたい}を{指揮|しき}する: to command troops\n- オーケストラを{指揮|しき}する: to conduct an orchestra\n- {作戦|さくせん}を{指揮|しき}する: to direct an operation\n- {指揮|しき}{者|しゃ}: conductor; commander\n- {指揮|しき}{官|かん}: commanding officer\n- {指揮|しき}{系統|けいとう}: chain of command\n- {指揮|しき}{棒|ぼう}: baton (conductor's)\n\nSIMILAR WORDS:\n- {統率|とうそつ}する: to lead, command — emphasizes bringing a group together\n- {監督|かんとく}する: to supervise, direct — emphasizes overseeing\n- {率|ひき}いる: to lead — literary, used for leading groups of people",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17858_tousotsusuru",
+      "reading": "とうそつする",
+      "headword": "{統率|とうそつ}する",
+      "label": "to lead, command"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21986_kantokusuru",
+      "reading": "かんとくする",
+      "headword": "{監督|かんとく}する",
+      "label": "to supervise, direct"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10879_hikiiru",
+      "reading": "ひきいる",
+      "headword": "{率|ひき}いる",
+      "label": "to lead"
+    },
+    {
+      "type": "related",
+      "target_id": "06565_shikisha",
+      "reading": "しきしゃ",
+      "headword": "{指揮者|しきしゃ}",
+      "label": "conductor (music)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -187,6 +217,6 @@
       "verb_class": "suru"
     },
     "created": "2026-04-04T19:30:58Z",
-    "modified": "2026-04-04T19:30:58Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

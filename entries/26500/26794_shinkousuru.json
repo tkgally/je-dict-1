@@ -3,7 +3,7 @@
   "headword": "{進行|しんこう}する",
   "reading": "しんこうする",
   "romaji": "shinkousuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to progress; to advance",
   "definitions": [
     {
@@ -80,7 +80,36 @@
     }
   ],
   "notes": "Implies steady, continuous movement forward. Unlike {進|すす}む which is a general verb for moving forward, {進行|しんこう}する specifically refers to processes, events, or conditions advancing through stages.\n\nCOMMON COLLOCATIONS:\n- {進行|しんこう}{方向|ほうこう}: direction of travel\n- {進行|しんこう}{役|やく}: facilitator; emcee\n- {進行|しんこう}{中|ちゅう}: in progress\n- {進行|しんこう}が{早|はや}い: progressing quickly\n- {進行|しんこう}を{止|と}める: to halt the progression\n\nSIMILAR WORDS:\n- {進|すす}む: to advance; to go forward — more general; can describe physical movement\n- {進展|しんてん}する: to develop; to make progress — implies a positive breakthrough or advance\n- {悪化|あっか}する: to worsen — explicitly negative; {進行|しんこう}する is more neutral even when describing disease",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01225_susumu",
+      "reading": "すすむ",
+      "headword": "{進|すす}む",
+      "label": "to advance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14374_shinten",
+      "reading": "しんてん",
+      "headword": "{進展|しんてん}",
+      "label": "to develop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18844_akkasuru",
+      "reading": "あっかする",
+      "headword": "{悪化|あっか}する",
+      "label": "to worsen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21996_keikasuru",
+      "reading": "けいかする",
+      "headword": "{経過|けいか}する",
+      "label": "to pass"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -97,7 +126,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T11:09:59Z",
-    "modified": "2026-08-06T12:46:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

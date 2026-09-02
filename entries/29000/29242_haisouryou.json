@@ -17,7 +17,9 @@
       "id": "29242_haisouryou_ex1",
       "japanese": "{配送料|はいそうりょう}は{無料|むりょう}です。",
       "english": "Delivery is free of charge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29242_haisouryou_ex2",
       "japanese": "{合計|ごうけい}{金額|きんがく}に{配送料|はいそうりょう}が{加|くわ}わる。",
       "english": "A delivery fee is added to the total amount.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,48 @@
       "id": "29242_haisouryou_ex3",
       "japanese": "{一定|いってい}の{金額|きんがく}{以上|いじょう}{買|か}うと{配送料|はいそうりょう}が{無料|むりょう}になるお{店|みせ}が{多|おお}い。",
       "english": "Many shops waive the delivery fee once you buy above a certain amount.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from {配送|はいそう} (delivery, distribution) + {料|りょう} (fee, charge). Standard term on shopping sites for the cost of shipping an order.\n\nCOMMON COLLOCATIONS:\n- {配送料|はいそうりょう}{無料|むりょう}: free delivery\n- {配送料|はいそうりょう}がかかる: a delivery fee applies\n- {配送料|はいそうりょう}を{含|ふく}む: to include the delivery fee\n\nSIMILAR WORDS:\n- {送料|そうりょう}: postage; shipping — the most common everyday word; {配送料|はいそうりょう} sounds slightly more formal or business-like\n- {手数料|てすうりょう}: handling fee — a service charge, not specifically for delivery",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05423_tesuuryou",
+      "reading": "てすうりょう",
+      "headword": "{手数料|てすうりょう}",
+      "label": "handling fee"
+    },
+    {
+      "type": "related",
+      "target_id": "07950_chakubarai",
+      "reading": "ちゃくばらい",
+      "headword": "{着払|ちゃくばら}い",
+      "label": "collect on delivery"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["money", "shopping"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "money",
+        "shopping"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-06-14T12:18:51Z",
-    "modified": "2026-06-14T12:18:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

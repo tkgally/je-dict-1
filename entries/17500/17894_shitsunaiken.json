@@ -19,7 +19,9 @@
       "english": "Our dog is an indoor dog.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17894_shitsunaiken_ex2",
@@ -27,7 +29,9 @@
       "english": "Small breeds are suited for keeping indoors.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17894_shitsunaiken_ex3",
@@ -35,21 +39,42 @@
       "english": "Recently, more people are keeping even large dogs as indoor dogs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {室内|しつない} (indoors) and {犬|けん} (dog). Reflects the modern Japanese trend of keeping dogs inside the home rather than in an outdoor kennel.\n\nCOMMON COLLOCATIONS:\n- {室内犬|しつないけん}として{飼|か}う (to keep as an indoor dog)\n- {室内犬|しつないけん}に{向|む}いている (suited for keeping indoors)\n- {室内犬|しつないけん}{向|む}けの{犬種|けんしゅ} (dog breeds suitable for indoor living)\n\nRELATED WORDS:\n- {室外犬|しつがいけん}: outdoor dog\n- {番犬|ばんけん}: guard dog\n- {愛犬|あいけん}: pet dog, beloved dog",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22378_banken",
+      "reading": "ばんけん",
+      "headword": "{番犬|ばんけん}",
+      "label": "guard dog"
+    },
+    {
+      "type": "related",
+      "target_id": "27504_aiken",
+      "reading": "あいけん",
+      "headword": "{愛犬|あいけん}",
+      "label": "pet dog, beloved dog"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T08:29:48Z",
-    "modified": "2026-03-19T08:29:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["animal-mammal"]
+      "semantic": [
+        "animal-mammal"
+      ]
     }
   }
 }

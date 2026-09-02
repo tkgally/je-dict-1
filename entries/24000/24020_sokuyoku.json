@@ -3,7 +3,7 @@
   "headword": "{足浴|そくよく}",
   "reading": "そくよく",
   "romaji": "sokuyoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "foot bath; soaking one's feet in hot water",
   "definitions": [
     {
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Sino-Japanese compound of {足|そく} ('foot') and {浴|よく} ('bathing'). A somewhat technical term used especially in healthcare, nursing, and wellness contexts. In everyday conversation the native Japanese word {足湯|あしゆ} is far more common, especially at hot-spring resorts and roadside rest stops.\n\nUSAGE:\n- Most common in nursing, eldercare, and medical writing, where it names a standard care procedure for warming patients, improving circulation, or promoting sleep.\n- Also appears in wellness and sleep-hygiene articles recommending a foot bath as a home remedy.\n- Takes {する} to form a verb: {足浴|そくよく}する ('to do a foot bath'), but {足浴|そくよく}を{する} and {足浴|そくよく}を{行|おこな}う are equally common.\n\nCOMMON COLLOCATIONS:\n- {足浴|そくよく}をする: to take a foot bath\n- {足浴|そくよく}を{行|おこな}う: to perform a foot bath (clinical register)\n- {足浴|そくよく}の{効果|こうか}: the effects of a foot bath\n- {手浴|しゅよく}・{足浴|そくよく}: hand bath and foot bath (paired care term)\n- {温|あたた}かい{足浴|そくよく}: a warm foot bath\n\nSIMILAR WORDS:\n- {足湯|あしゆ}: foot bath — native Japanese word; refers especially to public hot-spring foot-bath facilities, and more casual in tone.\n- {入浴|にゅうよく}: bathing — general word for taking a bath; contrasted with {足浴|そくよく} in nursing contexts when a full bath is not possible.\n- {手浴|しゅよく}: hand bath — soaking the hands in warm water, a parallel nursing procedure.\n- {半身浴|はんしんよく}: half-body bath — soaking the body up to the waist only, a popular wellness practice.\n- {温浴|おんよく}: warm bathing — broader term covering any warm-water bathing for therapeutic purposes.",
+  "notes": "Sino-Japanese compound of {足|そく} ('foot') and {浴|よく} ('bathing'). A somewhat technical term used especially in healthcare, nursing, and wellness contexts. In everyday conversation the native Japanese word {足湯|あしゆ} is far more common, especially at hot-spring resorts and roadside rest stops.\n\nUSAGE:\n- Most common in nursing, eldercare, and medical writing, where it names a standard care procedure for warming patients, improving circulation, or promoting sleep.\n- Also appears in wellness and sleep-hygiene articles recommending a foot bath as a home remedy.\n- Takes する to form a verb: {足浴|そくよく}する ('to do a foot bath'), but {足浴|そくよく}をする and {足浴|そくよく}を{行|おこな}う are equally common.\n\nCOMMON COLLOCATIONS:\n- {足浴|そくよく}をする: to take a foot bath\n- {足浴|そくよく}を{行|おこな}う: to perform a foot bath (clinical register)\n- {足浴|そくよく}の{効果|こうか}: the effects of a foot bath\n- {手浴|しゅよく}・{足浴|そくよく}: hand bath and foot bath (paired care term)\n- {温|あたた}かい{足浴|そくよく}: a warm foot bath\n\nSIMILAR WORDS:\n- {足湯|あしゆ}: foot bath — native Japanese word; refers especially to public hot-spring foot-bath facilities, and more casual in tone.\n- {入浴|にゅうよく}: bathing — general word for taking a bath; contrasted with {足浴|そくよく} in nursing contexts when a full bath is not possible.\n- {手浴|しゅよく}: hand bath — soaking the hands in warm water, a parallel nursing procedure.\n- {半身浴|はんしんよく}: half-body bath — soaking the body up to the waist only, a popular wellness practice.\n- {温浴|おんよく}: warm bathing — broader term covering any warm-water bathing for therapeutic purposes.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14296_ashiyu",
+      "reading": "あしゆ",
+      "headword": "{足湯|あしゆ}",
+      "label": "foot bath"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11642_nyuuyoku",
+      "reading": "にゅうよく",
+      "headword": "{入浴|にゅうよく}",
+      "label": "bathing"
+    },
+    {
+      "type": "related",
+      "target_id": "21203_nikkouyoku",
+      "reading": "にっこうよく",
+      "headword": "{日光浴|にっこうよく}",
+      "label": "sunbathing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +88,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-15T20:08:20Z",
-    "modified": "2026-04-15T20:08:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

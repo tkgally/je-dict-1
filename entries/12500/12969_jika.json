@@ -19,7 +19,9 @@
       "english": "This fish is at market price.",
       "notes": "Common at sushi restaurants for premium items",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12969_jika_ex2",
@@ -27,7 +29,9 @@
       "english": "The market price of the land rose significantly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12969_jika_ex3",
@@ -35,22 +39,66 @@
       "english": "The companies in the top 10 domestically by market capitalization were announced.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCommonly seen in two contexts: (1) restaurant menus, where {時価|じか} means the price fluctuates daily (especially for fresh seafood at sushi restaurants), and (2) finance and real estate, where it refers to the current market valuation of assets.\n\nCOMMON COLLOCATIONS:\n- {時価|じか}{総額|そうがく}: market capitalization\n- {時価|じか}{評価|ひょうか}: mark-to-market valuation\n- {時価|じか}で: at market price\n\nSIMILAR WORDS:\n- {定価|ていか}: list price, retail price (fixed)\n- {相場|そうば}: market price, going rate\n- {原価|げんか}: cost price",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04066_teika",
+      "reading": "ていか",
+      "headword": "{定価|ていか}",
+      "label": "list price, retail price"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07668_souba",
+      "reading": "そうば",
+      "headword": "{相場|そうば}",
+      "label": "market price, going rate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05470_genka",
+      "reading": "げんか",
+      "headword": "{原価|げんか}",
+      "label": "cost price"
+    },
+    {
+      "type": "related",
+      "target_id": "07073_gakumen",
+      "reading": "がくめん",
+      "headword": "{額面|がくめん}",
+      "label": "face value"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24931_genzaikakaku",
+      "reading": "げんざいかかく",
+      "headword": "{現在価格|げんざいかかく}",
+      "label": "current price"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T23:43:50Z",
-    "modified": "2026-02-22T23:43:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["general"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

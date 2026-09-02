@@ -63,18 +63,53 @@
       ]
     }
   ],
-  "notes": "COMPOUND: {賞味|しょうみ} (appreciation of taste) + ⟦{期限|きげん}→期限：12861_kigen⟧ (time limit)\n\nCOMMON PATTERNS:\n・{賞味期限|しょうみきげん}が⟦{切|き}れる→切れる：01936_kireru⟧ (best-before date expires)\n・{賞味期限|しょうみきげん}⟦{内|ない}→内：09853_nai⟧に⟦{食|た}べる→食べる：00396_taberu⟧ (eat within the best-before date)\n・{賞味期限|しょうみきげん}が⟦{近|ちか}い→近い：00530_chikai⟧ (best-before date is approaching)\n\nDISTINCTION: {賞味期限|しょうみきげん} (best-before) refers to quality, while ⟦{消費期限|しょうひきげん}→消費期限：06077_shouhikigen⟧ (use-by) refers to safety. Products past their {賞味期限|しょうみきげん} may still be safe but may have reduced quality.",
+  "notes": "COMPOUND: {賞味|しょうみ} (appreciation of taste) + ⟦{期限|きげん}→期限：12861_kigen⟧ (time limit)\n\nCOMMON PATTERNS:\n- {賞味期限|しょうみきげん}が⟦{切|き}れる→切れる：01936_kireru⟧ (best-before date expires)\n- {賞味期限|しょうみきげん}⟦{内|ない}→内：09853_nai⟧に⟦{食|た}べる→食べる：00396_taberu⟧ (eat within the best-before date)\n- {賞味期限|しょうみきげん}が⟦{近|ちか}い→近い：00530_chikai⟧ (best-before date is approaching)\n\nDISTINCTION: {賞味期限|しょうみきげん} (best-before) refers to quality, while ⟦{消費期限|しょうひきげん}→消費期限：06077_shouhikigen⟧ (use-by) refers to safety. Products past their {賞味期限|しょうみきげん} may still be safe but may have reduced quality.",
   "cross_references": [
     {
       "type": "contrast",
       "reading": "しょうひきげん",
       "headword": "{消費期限|しょうひきげん}",
       "target_id": "06077_shouhikigen"
+    },
+    {
+      "type": "related",
+      "target_id": "06415_yuukoukigen",
+      "reading": "ゆうこうきげん",
+      "headword": "{有効期限|ゆうこうきげん}",
+      "label": "expiration date"
+    },
+    {
+      "type": "related",
+      "target_id": "06605_kakoushokuhin",
+      "reading": "かこうしょくひん",
+      "headword": "{加工|かこう}{食品|しょくひん}",
+      "label": "processed food"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22047_shiyoukigen",
+      "reading": "しようきげん",
+      "headword": "{使用期限|しようきげん}",
+      "label": "use-by date"
+    },
+    {
+      "type": "related",
+      "target_id": "24935_shokuhinhozon",
+      "reading": "しょくひんほぞん",
+      "headword": "{食品保存|しょくひんほぞん}",
+      "label": "food preservation"
+    },
+    {
+      "type": "related",
+      "target_id": "29838_genzairyoumei",
+      "reading": "げんざいりょうめい",
+      "headword": "{原材料名|げんざいりょうめい}",
+      "label": "list of ingredients (on a food label)"
     }
   ],
   "metadata": {
     "created": "2026-01-17T02:09:14Z",
-    "modified": "2026-06-12T01:39:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

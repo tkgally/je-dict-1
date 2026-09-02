@@ -17,7 +17,9 @@
       "id": "21247_kitakaze_ex1",
       "japanese": "{北風|きたかぜ}が{強|つよ}い。",
       "english": "The north wind is strong.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21247_kitakaze_ex2",
       "japanese": "{北風|きたかぜ}が{吹|ふ}いて、とても{寒|さむ}かった。",
       "english": "The north wind was blowing and it was very cold.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "21247_kitakaze_ex3",
       "japanese": "「{北風|きたかぜ}と{太陽|たいよう}」はイソップ{物語|ものがたり}の{有名|ゆうめい}な{話|はなし}だ。",
       "english": "\"The North Wind and the Sun\" is a famous Aesop's fable.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A concrete weather term that also carries cultural and literary associations. In Japanese, {北風|きたかぜ} evokes winter cold and harshness.\n\nCOMMON COLLOCATIONS:\n- {北風|きたかぜ}が{吹|ふ}く: the north wind blows\n- {冷|つめ}たい{北風|きたかぜ}: cold north wind\n- {北風|きたかぜ}と{太陽|たいよう}: the North Wind and the Sun (Aesop's fable)\n\nWIND DIRECTIONS:\n- {北風|きたかぜ}: north wind\n- {南風|みなみかぜ}: south wind\n- {東風|こち}/{ひがしかぜ}: east wind\n- {西風|にしかぜ}: west wind\n\nCULTURAL NOTE:\nThe fable of {北風|きたかぜ}と{太陽|たいよう} (The North Wind and the Sun) is well known in Japan and is often referenced in discussions about persuasion versus force. The north wind represents harshness, while the sun represents warmth and gentleness.",
+  "notes": "A concrete weather term that also carries cultural and literary associations. In Japanese, {北風|きたかぜ} evokes winter cold and harshness.\n\nCOMMON COLLOCATIONS:\n- {北風|きたかぜ}が{吹|ふ}く: the north wind blows\n- {冷|つめ}たい{北風|きたかぜ}: cold north wind\n- {北風|きたかぜ}と{太陽|たいよう}: the North Wind and the Sun (Aesop's fable)\n\nWIND DIRECTIONS:\n- {北風|きたかぜ}: north wind\n- {南風|みなみかぜ}: south wind\n- {東風|こち}/ひがしかぜ: east wind\n- {西風|にしかぜ}: west wind\n\nCULTURAL NOTE:\nThe fable of {北風|きたかぜ}と{太陽|たいよう} (The North Wind and the Sun) is well known in Japan and is often referenced in discussions about persuasion versus force. The north wind represents harshness, while the sun represents warmth and gentleness.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08557_kogarashi",
+      "reading": "こがらし",
+      "headword": "{木枯|こが}らし",
+      "label": "cold wintry wind"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21249_kanpuu",
+      "reading": "かんぷう",
+      "headword": "{寒風|かんぷう}",
+      "label": "cold wind"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27544_minamikaze",
+      "reading": "みなみかぜ",
+      "headword": "{南風|みなみかぜ}",
+      "label": "south wind"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature", "weather"]
+      "semantic": [
+        "nature",
+        "weather"
+      ]
     },
     "created": "2026-04-01T15:26:57Z",
-    "modified": "2026-04-01T15:26:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "27196_boukatobira_ex1",
       "japanese": "{防火扉|ぼうかとびら}は{常|つね}に{閉|し}めておいてください。",
       "english": "Please keep the fire door closed at all times.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27196_boukatobira_ex2",
       "japanese": "{火災|かさい}が{発生|はっせい}すると、{防火扉|ぼうかとびら}が{自動的|じどうてき}に{閉|し}まる。",
       "english": "When a fire breaks out, the fire doors close automatically.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "27196_boukatobira_ex3",
       "japanese": "{避難訓練|ひなんくんれん}の{際|さい}、{防火扉|ぼうかとびら}の{前|まえ}に{物|もの}を{置|お}いてはいけないと{注意|ちゅうい}された。",
       "english": "During the evacuation drill, we were warned not to place objects in front of the fire doors.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {防火|ぼうか} (fire prevention/fireproofing) + {扉|とびら} (door). Found in apartment buildings, offices, schools, and commercial buildings throughout Japan. Japanese building codes ({建築基準法|けんちくきじゅんほう}) require fire doors in structures above a certain size.\n\nCOMMON COLLOCATIONS:\n- {防火扉|ぼうかとびら}を{閉|し}める: to close the fire door\n- {防火扉|ぼうかとびら}が{作動|さどう}する: the fire door activates\n- {防火扉|ぼうかとびら}の{点検|てんけん}: fire door inspection\n- {防火扉|ぼうかとびら}の{前|まえ}: in front of the fire door\n\nRELATED TERMS:\n- {防火|ぼうか}: fire prevention; fireproofing\n- {防火壁|ぼうかへき}: firewall (physical wall in a building)\n- {非常口|ひじょうぐち}: emergency exit\n- {避難経路|ひなんけいろ}: evacuation route",
+  "notes": "A compound of {防火|ぼうか} (fire prevention/fireproofing) + {扉|とびら} (door). Found in apartment buildings, offices, schools, and commercial buildings throughout Japan. Japanese building codes ({建築基準法|けんちくきじゅんほう}) require fire doors in structures above a certain size.\n\nCOMMON COLLOCATIONS:\n- {防火扉|ぼうかとびら}を{閉|し}める: to close the fire door\n- {防火扉|ぼうかとびら}が{作動|さどう}する: the fire door activates\n- {防火扉|ぼうかとびら}の{点検|てんけん}: fire door inspection\n- {防火扉|ぼうかとびら}の{前|まえ}: in front of the fire door\n\nRELATED WORDS:\n- {防火|ぼうか}: fire prevention; fireproofing\n- {防火壁|ぼうかへき}: firewall (physical wall in a building)\n- {非常口|ひじょうぐち}: emergency exit\n- {避難経路|ひなんけいろ}: evacuation route",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07045_hijouguchi",
+      "reading": "ひじょうぐち",
+      "headword": "{非常口|ひじょうぐち}",
+      "label": "emergency exit"
+    },
+    {
+      "type": "related",
+      "target_id": "07138_hinankeiro",
+      "reading": "ひなんけいろ",
+      "headword": "{避難経路|ひなんけいろ}",
+      "label": "evacuation route"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     },
     "created": "2026-05-07T15:23:07Z",
-    "modified": "2026-05-07T15:23:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

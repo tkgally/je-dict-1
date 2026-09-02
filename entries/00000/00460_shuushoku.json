@@ -2,7 +2,7 @@
   "id": "00460_shuushoku",
   "headword": "{修飾|しゅうしょく}",
   "reading": "しゅうしょく",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "modification (grammar), ornamentation",
   "conjugation": {
     "type": "suru",
@@ -169,10 +169,25 @@
     }
   ],
   "notes": "{修飾|しゅうしょく} is primarily used as a grammatical term in Japanese language study. It describes how adjectives, adverbs, and relative clauses add information to other words.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]を{修飾|しゅうしょく}する\n\nGRAMMAR TERMS:\n- {修飾|しゅうしょく}{語|ご}: modifier\n- {被|ひ}{修飾|しゅうしょく}{語|ご}: word being modified\n- {連体|れんたい}{修飾|しゅうしょく}: noun modification\n- {連用|れんよう}{修飾|しゅうしょく}: verb/adverb modification\n\nThe second meaning (ornamentation) is less common in everyday usage.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14104_soushoku",
+      "reading": "そうしょく",
+      "headword": "{装飾|そうしょく}",
+      "label": "decoration, ornamentation"
+    },
+    {
+      "type": "related",
+      "target_id": "21309_shuushokugo",
+      "reading": "しゅうしょくご",
+      "headword": "{修飾語|しゅうしょくご}",
+      "label": "modifier (grammar)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T23:49:28Z",
-    "modified": "2026-06-10T03:02:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

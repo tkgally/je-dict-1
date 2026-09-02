@@ -17,7 +17,9 @@
       "id": "28560_taimukaado_ex1",
       "japanese": "{出勤時|しゅっきんじ}にタイムカードを{押|お}す。",
       "english": "I punch the time card when I come in to work.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28560_taimukaado_ex2",
       "japanese": "タイムカードを{忘|わす}れて、{手書|てが}きで{記録|きろく}した。",
       "english": "I forgot to punch the time card, so I recorded it by hand.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "28560_taimukaado_ex3",
       "japanese": "{最近|さいきん}はタイムカードのかわりに、スマホで{勤怠|きんたい}{管理|かんり}をする{会社|かいしゃ}が{増|ふ}えている。",
       "english": "Recently, more companies are managing attendance with smartphones instead of time cards.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English 'time card'. Refers to both physical paper cards and the digital equivalents used by modern attendance systems.\n\nCOMMON COLLOCATIONS:\n- タイムカードを{押|お}す: to punch a time card (verb {押|お}す is standard)\n- タイムカードを{切|き}る: to clock in/out (alternative phrasing)\n- タイムカードを{打|う}つ: to stamp the time card\n\nRELATED TERMS:\n- {勤怠|きんたい}{管理|かんり}: attendance management\n- {打刻|だこく}: clocking in/out (the act of stamping the time)\n- タイムレコーダー: time clock (the machine itself)",
+  "notes": "From English 'time card'. Refers to both physical paper cards and the digital equivalents used by modern attendance systems.\n\nCOMMON COLLOCATIONS:\n- タイムカードを{押|お}す: to punch a time card (verb {押|お}す is standard)\n- タイムカードを{切|き}る: to clock in/out (alternative phrasing)\n- タイムカードを{打|う}つ: to stamp the time card\n\nRELATED WORDS:\n- {勤怠|きんたい}{管理|かんり}: attendance management\n- {打刻|だこく}: clocking in/out (the act of stamping the time)\n- タイムレコーダー: time clock (the machine itself)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "28561_dakoku",
+      "reading": "だこく",
+      "headword": "{打刻|だこく}",
+      "label": "clocking in/out"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["work"],
+      "politeness": "plain",
+      "semantic": [
+        "work"
+      ],
       "domain": []
     },
     "created": "2026-06-02T02:07:31Z",
-    "modified": "2026-06-02T02:07:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

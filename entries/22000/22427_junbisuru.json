@@ -3,7 +3,7 @@
   "headword": "{準備|じゅんび}する",
   "reading": "じゅんびする",
   "romaji": "junbisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to prepare; to get ready; to make preparations",
   "definitions": [
     {
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "One of the most frequently used verbs in daily Japanese. Used broadly for any kind of advance preparation, from packing for a trip to setting up a meeting room. Often takes the pattern {準備|じゅんび}をする (with を particle) as well as {準備|じゅんび}する.\n\nCOMMON COLLOCATIONS:\n- {準備|じゅんび}が{整|ととの}う: preparations are complete\n- {準備|じゅんび}が{できる}: to be ready\n- {準備|じゅんび}{不足|ぶそく}: lack of preparation\n- {準備|じゅんび}{期間|きかん}: preparation period\n- {心|こころ}の{準備|じゅんび}: mental preparation\n\nSIMILAR WORDS:\n- {用意|ようい}する: to prepare / to arrange — focuses on having things ready and at hand; more concrete and immediate\n- {支度|したく}する: to get ready — focuses on personal preparation like getting dressed or packing\n- {備|そな}える: to prepare for / to provide against — emphasizes precaution against future events\n\nUSAGE:\n{準備|じゅんび}する is the most general and versatile preparation verb. It works for both concrete tasks (preparing materials) and abstract contexts (preparing mentally). {用意|ようい}する is more about having specific items ready, while {準備|じゅんび}する covers the broader process of getting ready.",
+  "notes": "One of the most frequently used verbs in daily Japanese. Used broadly for any kind of advance preparation, from packing for a trip to setting up a meeting room. Often takes the pattern {準備|じゅんび}をする (with を particle) as well as {準備|じゅんび}する.\n\nCOMMON COLLOCATIONS:\n- {準備|じゅんび}が{整|ととの}う: preparations are complete\n- {準備|じゅんび}ができる: to be ready\n- {準備|じゅんび}{不足|ぶそく}: lack of preparation\n- {準備|じゅんび}{期間|きかん}: preparation period\n- {心|こころ}の{準備|じゅんび}: mental preparation\n\nSIMILAR WORDS:\n- {用意|ようい}する: to prepare / to arrange — focuses on having things ready and at hand; more concrete and immediate\n- {支度|したく}する: to get ready — focuses on personal preparation like getting dressed or packing\n- {備|そな}える: to prepare for / to provide against — emphasizes precaution against future events\n\nUSAGE:\n{準備|じゅんび}する is the most general and versatile preparation verb. It works for both concrete tasks (preparing materials) and abstract contexts (preparing mentally). {用意|ようい}する is more about having specific items ready, while {準備|じゅんび}する covers the broader process of getting ready.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22428_youisuru",
+      "reading": "よういする",
+      "headword": "{用意|ようい}する",
+      "label": "to prepare / to arrange"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01828_shitakusuru",
+      "reading": "したくする",
+      "headword": "{支度|したく}する",
+      "label": "to get ready"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02125_sonaeru",
+      "reading": "そなえる",
+      "headword": "{備|そな}える",
+      "label": "to prepare for / to provide against"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-06T10:36:48Z",
-    "modified": "2026-04-06T10:36:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -2,7 +2,7 @@
   "id": "08226_okikaeru",
   "headword": "{置|お}き{換|か}える",
   "reading": "おきかえる",
-  "part_of_speech": "ichidan verb (transitive)",
+  "part_of_speech": "verb (ichidan, transitive)",
   "gloss": "to replace; to substitute; to rephrase",
   "conjugation": {
     "type": "ichidan",
@@ -176,6 +176,35 @@
       "headword": "{入|い}れ{替|か}える",
       "label": "to replace; to swap; to exchange",
       "target_id": "08227_irekaeru"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01252_torikaeru",
+      "reading": "とりかえる",
+      "headword": "{取|と}り{替|か}える",
+      "label": "to exchange, replace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04595_iikaeru",
+      "reading": "いいかえる",
+      "headword": "{言|い}い{換|か}える",
+      "label": "to rephrase"
+    },
+    {
+      "type": "related",
+      "target_id": "08225_kakikaeru",
+      "reading": "かきかえる",
+      "headword": "{書|か}き{換|か}える",
+      "label": "to rewrite"
+    }
+  ],
+  "prominent_see_also": [
+    {
+      "target_id": "30074_okikawaru",
+      "reading": "おきかわる",
+      "headword": "{置|お}き{換|か}わる",
+      "note": "intransitive"
     }
   ],
   "metadata": {
@@ -186,6 +215,7 @@
       ],
       "transitivity": "transitive",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "change",
         "language"
@@ -193,6 +223,6 @@
       "verb_class": "ichidan"
     },
     "created": "2026-01-25T08:30:51Z",
-    "modified": "2026-04-10T06:37:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "23125_kameiten_ex1",
       "japanese": "この{加盟店|かめいてん}で{使|つか}えます。",
       "english": "You can use it at this member store.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23125_kameiten_ex2",
       "japanese": "{加盟店|かめいてん}の{一覧|いちらん}はウェブサイトで{確認|かくにん}できる。",
       "english": "You can check the list of participating stores on the website.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,66 @@
       "id": "23125_kameiten_ex3",
       "japanese": "このクレジットカードは{全国|ぜんこく}の{加盟店|かめいてん}で{利用|りよう}できる。",
       "english": "This credit card can be used at affiliated shops throughout the country.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {加盟|かめい} (joining, affiliation) and {店|てん} (shop, store). Very commonly seen in everyday life in Japan on signs and websites for credit card networks, point card systems, and franchise businesses.\n\nCOMMON COLLOCATIONS:\n- {加盟店|かめいてん}{一覧|いちらん}: list of member stores\n- {加盟店|かめいてん}で{利用|りよう}する: to use at a member store\n- {加盟店|かめいてん}になる: to become a member store\n- {加盟店|かめいてん}{手数料|てすうりょう}: merchant processing fee\n\nSIMILAR WORDS:\n- {提携店|ていけいてん}: partner store — a store that cooperates with another business through a specific agreement\n- {直営店|ちょくえいてん}: directly managed store — a store operated directly by the parent company, not a franchise\n- フランチャイズ{店|てん}: franchise store — specifically a franchised outlet",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24942_teikeiten",
+      "reading": "ていけいてん",
+      "headword": "{提携店|ていけいてん}",
+      "label": "partner store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20450_chokueiten",
+      "reading": "ちょくえいてん",
+      "headword": "{直営店|ちょくえいてん}",
+      "label": "directly managed store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20702_furanchaizu",
+      "reading": "ふらんちゃいず",
+      "headword": "フランチャイズ",
+      "label": "franchise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24025_keiretsuten",
+      "reading": "けいれつてん",
+      "headword": "{系列店|けいれつてん}",
+      "label": "affiliated store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29644_furanchaijii",
+      "reading": "ふらんちゃいじー",
+      "headword": "フランチャイジー",
+      "label": "franchisee"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business", "shopping"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "business",
+        "shopping"
+      ],
       "formality": "neutral",
       "politeness": "plain"
     },
     "created": "2026-04-08T19:24:38Z",
-    "modified": "2026-04-08T19:24:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

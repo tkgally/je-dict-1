@@ -17,7 +17,9 @@
       "id": "26152_ringisho_ex1",
       "japanese": "{稟議書|りんぎしょ}を{回|まわ}す。",
       "english": "To circulate an approval request document.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26152_ringisho_ex2",
       "japanese": "{新|あたら}しいパソコンを{購入|こうにゅう}するために{稟議書|りんぎしょ}を{作成|さくせい}した。",
       "english": "I drafted an approval request to purchase a new computer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,50 @@
       "id": "26152_ringisho_ex3",
       "japanese": "{部長|ぶちょう}の{承認|しょうにん}がないと{稟議書|りんぎしょ}が{先|さき}に{進|すす}まないので、{早|はや}めに{相談|そうだん}しておこう。",
       "english": "The approval document can't move forward without the department head's sign-off, so let's consult them early.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A core concept of Japanese corporate culture. The {稟議|りんぎ} system (also written {禀議|りんぎ}) is a bottom-up decision-making process where a proposal originates at a lower level and is circulated upward through the organization, collecting approval stamps ({判子|はんこ} or {印鑑|いんかん}) from each relevant manager.\n\nThis process can be slow but ensures that all stakeholders are informed and have a chance to object. Many companies have moved to electronic ringi systems ({電子稟議|でんしりんぎ}) to speed up the process.\n\nCOMMON COLLOCATIONS:\n- {稟議書|りんぎしょ}を{回|まわ}す: to circulate an approval document\n- {稟議書|りんぎしょ}を{作成|さくせい}する: to draft an approval document\n- {稟議書|りんぎしょ}を{提出|ていしゅつ}する: to submit an approval document\n- {稟議書|りんぎしょ}が{通|とお}る: for an approval document to be approved\n- {稟議書|りんぎしょ}が{却下|きゃっか}される: for an approval to be rejected\n\nSIMILAR WORDS:\n- {稟議|りんぎ}: the ringi system/process itself — the broader concept\n- {決裁|けっさい}: formal approval, authorization — the act of approving\n- {起案|きあん}: drafting a proposal — the first step before ringi",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11100_kessai",
+      "reading": "けっさい",
+      "headword": "{決裁|けっさい}",
+      "label": "formal approval, authorization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15569_kian",
+      "reading": "きあん",
+      "headword": "{起案|きあん}",
+      "label": "drafting a proposal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20593_kikakusho",
+      "reading": "きかくしょ",
+      "headword": "{企画書|きかくしょ}",
+      "label": "proposal"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-04-29T15:28:44Z",
-    "modified": "2026-04-29T15:28:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

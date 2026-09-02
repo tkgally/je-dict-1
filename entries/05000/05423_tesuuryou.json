@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{手数料|てすうりょう} refers to a service charge or handling fee. Composed of ⟦{手数|てすう}→手数：30427_tesuu⟧ (trouble, effort) + ⟦{料|りょう}→料：noentry⟧ (fee). One of the most common fee-related words in everyday Japanese.\n\nCOMMON TYPES:\n- ⟦{振込|ふりこみ}→振込：05421_furikomi⟧{手数料|てすうりょう}: bank transfer fee\n- ⟦ATM→ATM：08755_eetiiemu⟧{手数料|てすうりょう}: ATM fee\n- ⟦{仲介|ちゅうかい}→仲介：09718_chuukai⟧{手数料|てすうりょう}: brokerage/agent fee\n- ⟦{代行|だいこう}→代行：11433_daikou⟧{手数料|てすうりょう}: agency/service fee\n- ⟦{解約|かいやく}→解約：06129_kaiyaku⟧{手数料|てすうりょう}: cancellation fee\n\nCOMMON PATTERNS:\n- {手数料|てすうりょう}⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧: a fee is charged\n- {手数料|てすうりょう}⟦{無料|むりょう}→無料：01662_muryou⟧: no fee, free of charge\n- {手数料|てすうりょう}⟦{込|こ}み→込み：28615_komi⟧: fee included\n\nSIMILAR WORDS:\n- ⟦{料金|りょうきん}→料金：03797_ryoukin⟧: fee, charge (general)\n- ⟦{手数|てすう}→手数：30427_tesuu⟧: trouble, bother (the base word)\n- ⟦{送料|そうりょう}→送料：06128_souryou⟧: shipping fee\n- ⟦{利用料|りようりょう}→利用料：noentry⟧: usage fee",
+  "notes": "{手数料|てすうりょう} refers to a service charge or handling fee. Composed of ⟦{手数|てすう}→手数：30427_tesuu⟧ (trouble, effort) + ⟦{料|りょう}→料：noentry⟧ (fee). One of the most common fee-related words in everyday Japanese.\n\nTYPES:\n- ⟦{振込|ふりこみ}→振込：05421_furikomi⟧{手数料|てすうりょう}: bank transfer fee\n- ⟦ATM→ATM：08755_eetiiemu⟧{手数料|てすうりょう}: ATM fee\n- ⟦{仲介|ちゅうかい}→仲介：09718_chuukai⟧{手数料|てすうりょう}: brokerage/agent fee\n- ⟦{代行|だいこう}→代行：11433_daikou⟧{手数料|てすうりょう}: agency/service fee\n- ⟦{解約|かいやく}→解約：06129_kaiyaku⟧{手数料|てすうりょう}: cancellation fee\n\nCOMMON PATTERNS:\n- {手数料|てすうりょう}⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧: a fee is charged\n- {手数料|てすうりょう}⟦{無料|むりょう}→無料：01662_muryou⟧: no fee, free of charge\n- {手数料|てすうりょう}⟦{込|こ}み→込み：28615_komi⟧: fee included\n\nSIMILAR WORDS:\n- ⟦{料金|りょうきん}→料金：03797_ryoukin⟧: fee, charge (general)\n- ⟦{手数|てすう}→手数：30427_tesuu⟧: trouble, bother (the base word)\n- ⟦{送料|そうりょう}→送料：06128_souryou⟧: shipping fee\n- ⟦{利用料|りようりょう}→利用料：noentry⟧: usage fee",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,67 @@
       "headword": "{振込|ふりこみ}",
       "label": "bank transfer",
       "target_id": "05421_furikomi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03797_ryoukin",
+      "reading": "りょうきん",
+      "headword": "{料金|りょうきん}",
+      "label": "fee, charge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06128_souryou",
+      "reading": "そうりょう",
+      "headword": "{送料|そうりょう}",
+      "label": "shipping fee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22313_tsuikaryoukin",
+      "reading": "ついかりょうきん",
+      "headword": "{追加|ついか}{料金|りょうきん}",
+      "label": "additional charge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22442_kihonryoukin",
+      "reading": "きほんりょうきん",
+      "headword": "{基本料金|きほんりょうきん}",
+      "label": "basic fee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23749_warimashiryoukin",
+      "reading": "わりましりょうきん",
+      "headword": "{割増料金|わりましりょうきん}",
+      "label": "surcharge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25149_kanriryou",
+      "reading": "かんりりょう",
+      "headword": "{管理料|かんりりょう}",
+      "label": "management fee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27929_saabisuryou",
+      "reading": "さーびすりょう",
+      "headword": "サービス{料|りょう}",
+      "label": "service charge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28971_shoukairyou",
+      "reading": "しょうかいりょう",
+      "headword": "{紹介料|しょうかいりょう}",
+      "label": "referral fee"
     }
   ],
   "metadata": {
     "created": "2026-01-16T06:00:17Z",
-    "modified": "2026-08-20T06:21:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

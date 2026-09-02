@@ -3,7 +3,7 @@
   "id": "12894_touyo",
   "headword": "{投与|とうよ}",
   "reading": "とうよ",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "administration, dosing (of medicine)",
   "conjugation": {
     "type": "suru",
@@ -149,11 +149,32 @@
       "reading": "とうにゅう",
       "headword": "{投入|とうにゅう}",
       "label": "deployment, commitment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15267_fukuyou",
+      "reading": "ふくよう",
+      "headword": "{服用|ふくよう}",
+      "label": "taking medicine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05976_shohou",
+      "reading": "しょほう",
+      "headword": "{処方|しょほう}",
+      "label": "prescription"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21605_fukuyousuru",
+      "reading": "ふくようする",
+      "headword": "{服用|ふくよう}する",
+      "label": "to take (medicine)"
     }
   ],
   "metadata": {
     "created": "2026-02-22T14:21:41Z",
-    "modified": "2026-04-27T09:13:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Refers to any wide, busy road, typically the main thoroughfare in a town or city. Many Japanese cities have streets officially named {大通|おおどお}り, such as Sapporo's famous {大通|おおどお}り{公園|こうえん}.\n\nCOMMON COLLOCATIONS:\n- {大通|おおどお}りに{面|めん}する: to face the main street\n- {大通|おおどお}り{沿|ぞ}い: along the main street\n- {駅前|えきまえ}{大通|おおどお}り: the main street in front of the station\n- {大通|おおどお}りを{渡|わた}る: to cross the main street\n\nSIMILAR WORDS:\n- {通|とお}り: street; road — a general term for any street\n- {目抜|めぬ}き{通|どお}り: high street; main shopping street — emphasizes commercial activity\n- {裏通|うらどお}り: back street; side street — the opposite of {大通|おおどお}り",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "09383_uradoori",
+      "reading": "うらどおり",
+      "headword": "{裏通|うらどお}り",
+      "label": "back street"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18552_omotedoori",
+      "reading": "おもてどおり",
+      "headword": "{表通|おもてどお}り",
+      "label": "main street"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +76,6 @@
       "domain": []
     },
     "created": "2026-05-05T16:10:48Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

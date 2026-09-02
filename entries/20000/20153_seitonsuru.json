@@ -3,7 +3,7 @@
   "headword": "{整頓|せいとん}する",
   "reading": "せいとんする",
   "romaji": "seitonsuru",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to tidy up; to put in order",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,29 @@
   ],
   "notes": "A する-verb from {整頓|せいとん}, meaning to arrange things neatly in their proper places. Almost always appears paired with {整理|せいり} in the set phrase {整理|せいり}{整頓|せいとん}, which is ubiquitous in Japanese schools, workplaces, and homes.\n\nTRANSITIVITY:\nTransitive — takes を to mark the thing being tidied.\n\nCOMMON COLLOCATIONS:\n- {整理|せいり}{整頓|せいとん} — tidying and organizing (a set phrase)\n- {身|み}の{回|まわ}りを{整頓|せいとん}する — to tidy up one's personal space\n- {整頓|せいとん}された{部屋|へや} — a well-organized room\n\nSIMILAR WORDS:\n- {整理|せいり}する — to organize, sort out (includes discarding unnecessary things)\n- {片付|かたづ}ける — to tidy up, put away (more casual, everyday)\n- {掃除|そうじ}する — to clean (focuses on removing dirt, not organizing)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21729_seirisuru",
+      "reading": "せいりする",
+      "headword": "{整理|せいり}する",
+      "label": "to organize, sort out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01192_katazukeru",
+      "reading": "かたづける",
+      "headword": "{片付|かたづ}ける",
+      "label": "to tidy up, put away"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02889_souji",
+      "reading": "そうじ",
+      "headword": "{掃除|そうじ}",
+      "label": "to clean"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +175,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T15:12:49Z",
-    "modified": "2026-03-28T15:12:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -43,8 +43,37 @@
       ]
     }
   ],
-  "notes": "{回収|かいしゅう} is a noun/suru-verb meaning to collect or retrieve items.\n\nCOMMON PATTERNS:\n- {回収|かいしゅう}⟦する→する：00392_suru⟧ (to collect)\n- ⟦ゴミ→ごみ：00840_gomi⟧⟦の→の：09472_no⟧{回収|かいしゅう} (garbage collection)\n- ⟦{資源|しげん}→資源：03167_shigen⟧{回収|かいしゅう} (resource recovery/recycling)\n- ⟦{費用|ひよう}→費用：03588_hiyou⟧⟦を→を：00422_wo⟧{回収|かいしゅう}⟦する→する：00392_suru⟧ (recover costs)\n- {回収|かいしゅう}⟦{日|び}→日：02249_hi⟧ (collection day)\n\nMEANINGS:\n1. Physical collection: garbage, recyclables\n2. Business: recover costs, investments\n3. Recall: ⟦{商品|しょうひん}→商品：01436_shouhin⟧{回収|かいしゅう} (product recall)",
-  "cross_references": [],
+  "notes": "{回収|かいしゅう} is a noun/suru-verb meaning to collect or retrieve items.\n\nCOMMON PATTERNS:\n- {回収|かいしゅう}⟦する→する：00392_suru⟧ (to collect)\n- ⟦ゴミ→ごみ：00840_gomi⟧⟦の→の：09472_no⟧{回収|かいしゅう} (garbage collection)\n- ⟦{資源|しげん}→資源：03167_shigen⟧{回収|かいしゅう} (resource recovery/recycling)\n- ⟦{費用|ひよう}→費用：03588_hiyou⟧⟦を→を：00422_wo⟧{回収|かいしゅう}⟦する→する：00392_suru⟧ (recover costs)\n- {回収|かいしゅう}⟦{日|び}→日：02249_hi⟧ (collection day)\n\nUSAGE:\n1. Physical collection: garbage, recyclables\n2. Business: recover costs, investments\n3. Recall: ⟦{商品|しょうひん}→商品：01436_shouhin⟧{回収|かいしゅう} (product recall)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09538_gomishuushuu",
+      "reading": "ごみしゅうしゅう",
+      "headword": "ごみ{収集|しゅうしゅう}",
+      "label": "garbage collection, trash pickup"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20644_shuukin",
+      "reading": "しゅうきん",
+      "headword": "{集金|しゅうきん}",
+      "label": "collection of money"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22262_toritate",
+      "reading": "とりたて",
+      "headword": "{取|と}り{立|た}て",
+      "label": "collection (of debts)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29697_rikooru",
+      "reading": "りこーる",
+      "headword": "リコール",
+      "label": "recall (of a defective product)"
+    }
+  ],
   "prominent_see_also": [
     {
       "target_id": "12924_kaishuu",
@@ -55,7 +84,7 @@
   ],
   "metadata": {
     "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-05-23T15:11:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "id": "11096_hanpuku",
   "headword": "{反復|はんぷく}",
   "reading": "はんぷく",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "repetition, iteration",
   "conjugation": {
     "type": "suru",
@@ -142,11 +142,25 @@
       "reading": "くりかえす",
       "headword": "{繰|く}り{返|かえ}す",
       "label": "to repeat (everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10320_kurikaeshi",
+      "reading": "くりかえし",
+      "headword": "{繰|く}り{返|かえ}し",
+      "label": "more everyday/casual term for repetition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09017_saihatsu",
+      "reading": "さいはつ",
+      "headword": "{再発|さいはつ}",
+      "label": "recurrence"
     }
   ],
   "metadata": {
     "created": "2026-02-13T12:41:35Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

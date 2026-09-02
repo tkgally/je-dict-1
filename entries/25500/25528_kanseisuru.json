@@ -3,7 +3,7 @@
   "headword": "{完成|かんせい}する",
   "reading": "かんせいする",
   "romaji": "kanseisuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to complete; to finish",
   "definitions": [
     {
@@ -45,7 +45,50 @@
     }
   ],
   "notes": "{完成|かんせい}する is used when something reaches its finished, polished state. It often implies a significant undertaking — a building, artwork, product, or project — rather than a simple everyday task. The intransitive pattern ～が{完成|かんせい}する is more common than the transitive ～を{完成|かんせい}する; the causative ～を{完成|かんせい}させる is preferred for transitive use.\n\nUSAGE:\n- Intransitive: {作品|さくひん}が{完成|かんせい}する (the work is completed)\n- Transitive (causative preferred): {作品|さくひん}を{完成|かんせい}させる (to complete the work)\n\nCOMMON COLLOCATIONS:\n- ビルが{完成|かんせい}する: a building is completed\n- {作品|さくひん}を{完成|かんせい}させる: to complete a work\n- {完成|かんせい}{予定|よてい}: scheduled completion\n- {完成|かんせい}{間近|まぢか}: nearing completion\n- {完成|かんせい}{品|ひん}: finished product\n\nSIMILAR WORDS:\n- {仕上|しあ}げる: to finish up — focuses on the final touches or finishing process\n- {終了|しゅうりょう}する: to end; to conclude — marks the end of a process or event, not necessarily the creation of something\n- {達成|たっせい}する: to achieve; to accomplish — emphasizes reaching a goal rather than finishing a creation",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04664_shiageru",
+      "reading": "しあげる",
+      "headword": "{仕上|しあ}げる",
+      "label": "to finish up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22990_shuuryousuru",
+      "reading": "しゅうりょうする",
+      "headword": "{終了|しゅうりょう}する",
+      "label": "to end"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22183_tasseisuru",
+      "reading": "たっせいする",
+      "headword": "{達成|たっせい}する",
+      "label": "to achieve"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02519_kanseisaseru",
+      "reading": "かんせいさせる",
+      "headword": "{完成|かんせい}させる",
+      "label": "to complete, to finish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10407_dekiagaru",
+      "reading": "できあがる",
+      "headword": "{出来上|できあ}がる",
+      "label": "to be completed, to be finished, to be ready"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20676_kanryousuru",
+      "reading": "かんりょうする",
+      "headword": "{完了|かんりょう}する",
+      "label": "to complete"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +97,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "action",
         "creation"
@@ -62,7 +107,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T16:12:42Z",
-    "modified": "2026-04-25T16:12:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -17,7 +17,9 @@
       "id": "27588_nipponginkouken_ex1",
       "japanese": "{紙幣|しへい}には「{日本銀行券|にっぽんぎんこうけん}」と{書|か}いてある。",
       "english": "\"Bank of Japan Note\" is printed on the bill.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27588_nipponginkouken_ex2",
       "japanese": "{新|あたら}しい{日本銀行券|にっぽんぎんこうけん}が{発行|はっこう}された。",
       "english": "New Bank of Japan notes have been issued.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,55 @@
       "id": "27588_nipponginkouken_ex3",
       "japanese": "{日本銀行券|にっぽんぎんこうけん}は{日本|にほん}の{法定通貨|ほうていつうか}である。",
       "english": "Bank of Japan notes are Japan's legal tender.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The formal legal name for Japanese paper currency. In daily life people simply say {紙幣|しへい} (banknote) or {お札|おさつ} (bill); {日本銀行券|にっぽんぎんこうけん} appears mainly on the bills themselves and in financial or legal contexts.\n\nCOMMON COLLOCATIONS:\n- {日本銀行券|にっぽんぎんこうけん}{発行高|はっこうだか}: amount of Bank of Japan notes in circulation\n- {新|しん}{日本銀行券|にっぽんぎんこうけん}: new-design Bank of Japan notes\n- {旧|きゅう}{日本銀行券|にっぽんぎんこうけん}: old-design Bank of Japan notes\n\nSIMILAR WORDS:\n- {紙幣|しへい}: banknote — everyday term\n- {お札|おさつ}: bill — colloquial\n- {硬貨|こうか}: coin — issued by the government, not the Bank of Japan",
+  "notes": "The formal legal name for Japanese paper currency. In daily life people simply say {紙幣|しへい} (banknote) or お{札|さつ} (bill); {日本銀行券|にっぽんぎんこうけん} appears mainly on the bills themselves and in financial or legal contexts.\n\nCOMMON COLLOCATIONS:\n- {日本銀行券|にっぽんぎんこうけん}{発行高|はっこうだか}: amount of Bank of Japan notes in circulation\n- {新|しん}{日本銀行券|にっぽんぎんこうけん}: new-design Bank of Japan notes\n- {旧|きゅう}{日本銀行券|にっぽんぎんこうけん}: old-design Bank of Japan notes\n\nSIMILAR WORDS:\n- {紙幣|しへい}: banknote — everyday term\n- お{札|さつ}: bill — colloquial\n- {硬貨|こうか}: coin — issued by the government, not the Bank of Japan",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00363_shihei",
+      "reading": "しへい",
+      "headword": "{紙幣|しへい}",
+      "label": "banknote"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19147_osatsu",
+      "reading": "おさつ",
+      "headword": "お{札|さつ}",
+      "label": "bill"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02745_kouka",
+      "reading": "こうか",
+      "headword": "{硬貨|こうか}",
+      "label": "coin"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["money", "finance"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "money",
+        "finance"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-05-14T04:05:39Z",
-    "modified": "2026-05-14T04:05:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

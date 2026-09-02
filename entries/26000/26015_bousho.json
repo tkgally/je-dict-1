@@ -17,7 +17,9 @@
       "id": "26015_bousho_ex1",
       "japanese": "{都内|とない}{某所|ぼうしょ}で{会|あ}った。",
       "english": "We met at a certain place in Tokyo.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26015_bousho_ex2",
       "japanese": "{某所|ぼうしょ}にある{隠|かく}れ{家|が}レストランに{行|い}った。",
       "english": "I went to a hidden restaurant at an undisclosed location.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "26015_bousho_ex3",
       "japanese": "{撮影|さつえい}は{関東|かんとう}{某所|ぼうしょ}で{行|おこな}われたそうだ。",
       "english": "I heard that the filming took place at a certain location in the Kanto region.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -45,16 +51,28 @@
       "target_id": "26014_bousha",
       "reading": "ぼうしゃ",
       "label": "某〜 pattern for companies"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02361_dokoka",
+      "reading": "どこか",
+      "headword": "どこか",
+      "label": "somewhere"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["geography"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "geography"
+      ]
     },
     "created": "2026-04-28T16:12:29Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

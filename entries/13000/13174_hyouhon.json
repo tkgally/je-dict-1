@@ -24,7 +24,9 @@
       "english": "To make an insect specimen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13174_hyouhon_ex2",
@@ -32,7 +34,9 @@
       "english": "Rare mineral specimens are displayed at the museum.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13174_hyouhon_ex3",
@@ -40,7 +44,9 @@
       "english": "I inherited my grandfather's collection of butterfly specimens.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13174_hyouhon_ex4",
@@ -48,7 +54,9 @@
       "english": "A sample survey was conducted.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13174_hyouhon_ex5",
@@ -56,7 +64,9 @@
       "english": "If the sample size is too small, accurate results cannot be obtained.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13174_hyouhon_ex6",
@@ -64,22 +74,73 @@
       "english": "Data was analyzed based on a randomly selected sample.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "ETYMOLOGY:\n{標|ひょう} (mark, sign, model) + {本|ほん} (origin, base, book). Literally \"a model example.\"\n\nUSAGE:\nIn everyday Japanese, {標本|ひょうほん} most commonly refers to preserved specimens of insects, plants, or animals. In academic and statistical contexts, it means a sample drawn from a population. For everyday product samples or free samples, サンプル or {見本|みほん} is more natural.\n\nCOMMON COLLOCATIONS:\n- {昆虫|こんちゅう}{標本|ひょうほん}: insect specimen\n- {植物|しょくぶつ}{標本|ひょうほん}: plant specimen\n- {標本|ひょうほん}を{採取|さいしゅ}する: to collect specimens\n- {標本|ひょうほん}{調査|ちょうさ}: sample survey\n- {標本|ひょうほん}{抽出|ちゅうしゅつ}: sampling\n\nSIMILAR WORDS:\n- サンプル: sample (loanword, general use)\n- {見本|みほん}: sample, model (for products or demonstrations)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10939_sanpuru",
+      "reading": "さんぷる",
+      "headword": "サンプル",
+      "label": "sample"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00279_mihon",
+      "reading": "みほん",
+      "headword": "{見本|みほん}",
+      "label": "sample, model"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21508_shiryou",
+      "reading": "しりょう",
+      "headword": "{試料|しりょう}",
+      "label": "sample"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24624_seppen",
+      "reading": "せっぺん",
+      "headword": "{切片|せっぺん}",
+      "label": "section"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27683_hakusei",
+      "reading": "はくせい",
+      "headword": "{剥製|はくせい}",
+      "label": "taxidermy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28834_oshibana",
+      "reading": "おしばな",
+      "headword": "{押|お}し{花|ばな}",
+      "label": "pressed flower"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T12:22:32Z",
-    "modified": "2026-02-23T12:22:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

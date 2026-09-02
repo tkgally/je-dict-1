@@ -19,7 +19,9 @@
       "english": "Let's decide by majority vote.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16369_tasuuketsu_ex2",
@@ -27,7 +29,9 @@
       "english": "As a result of the majority vote, Hawaii was chosen as the travel destination.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16369_tasuuketsu_ex3",
@@ -35,21 +39,56 @@
       "english": "A majority vote doesn't necessarily lead to the right conclusion.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{多数決|たすうけつ} is composed of {多数|たすう} (majority) and {決|けつ} (decision). It refers specifically to the principle or method of deciding by majority.\n\nCOMMON COLLOCATIONS:\n- {多数決|たすうけつ}で{決|き}める (to decide by majority vote)\n- {多数決|たすうけつ}を{取|と}る (to take a vote)\n- {多数決|たすうけつ}の{原理|げんり} (the principle of majority rule)\n\nSIMILAR WORDS:\n- {投票|とうひょう}: voting, balloting — the act of casting a vote (broader than majority rule)\n- {挙手|きょしゅ}: raising hands — a common method for conducting a {多数決|たすうけつ}\n- {全会一致|ぜんかいいっち}: unanimous decision — the opposite approach, requiring all to agree",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03453_touhyou",
+      "reading": "とうひょう",
+      "headword": "{投票|とうひょう}",
+      "label": "voting, balloting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16852_kyoshu",
+      "reading": "きょしゅ",
+      "headword": "{挙手|きょしゅ}",
+      "label": "raising hands"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09760_zenkaiicchi",
+      "reading": "ぜんかいいっち",
+      "headword": "{全会一致|ぜんかいいっち}",
+      "label": "unanimous decision"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05611_shousuu",
+      "reading": "しょうすう",
+      "headword": "{少数|しょうすう}",
+      "label": "minority"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T02:36:18Z",
-    "modified": "2026-03-12T02:36:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

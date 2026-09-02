@@ -22,7 +22,9 @@
       "id": "27201_shingouki_ex1",
       "japanese": "{信号機|しんごうき}が{赤|あか}になった。",
       "english": "The traffic light turned red.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "27201_shingouki_ex2",
       "japanese": "あの{交差点|こうさてん}には{信号機|しんごうき}がない。",
       "english": "There is no traffic light at that intersection.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "27201_shingouki_ex3",
       "japanese": "{歩行者用|ほこうしゃよう}の{信号機|しんごうき}が{青|あお}に{変|か}わるまで{待|ま}ってください。",
       "english": "Please wait until the pedestrian signal turns green.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "27201_shingouki_ex4",
       "japanese": "{鉄道|てつどう}の{信号機|しんごうき}が{故障|こしょう}した。",
       "english": "The railway signal device broke down.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "27201_shingouki_ex5",
       "japanese": "{船|ふね}の{信号機|しんごうき}で{位置|いち}を{知|し}らせる。",
       "english": "To communicate position using a ship's signaling device.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,23 +72,54 @@
       "id": "27201_shingouki_ex6",
       "japanese": "この{区間|くかん}では{自動|じどう}の{信号機|しんごうき}が{列車|れっしゃ}の{運行|うんこう}を{管理|かんり}している。",
       "english": "In this section, automatic signal devices manage train operations.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers specifically to the physical device, as opposed to {信号|しんごう} which refers to the signal itself or is used colloquially for traffic lights in general. In everyday speech, most people say {信号|しんごう} when talking about traffic lights, while {信号機|しんごうき} is the more precise, technical term for the actual equipment. Composed of {信号|しんごう} (signal) + {機|き} (machine/device).\n\nCOMMON COLLOCATIONS:\n- {信号機|しんごうき}の{設置|せっち}: installation of a traffic light\n- {信号機|しんごうき}の{故障|こしょう}: traffic light malfunction\n- {歩行者用|ほこうしゃよう}{信号機|しんごうき}: pedestrian signal\n- {押|お}しボタン{式|しき}{信号機|しんごうき}: push-button traffic light\n- LED{信号機|しんごうき}: LED traffic light\n\nSIMILAR WORDS:\n- {信号|しんごう}: signal; traffic light — the everyday word for traffic lights; {信号機|しんごうき} emphasizes the physical device\n- {標識|ひょうしき}: sign; road sign — a fixed sign rather than a light-based signal\n\nCULTURAL NOTE:\nIn Japan, the green traffic light is traditionally called {青|あお} (blue) rather than {緑|みどり} (green), reflecting the broader Japanese color category where {青|あお} historically encompassed both blue and green.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15865_hyoushiki",
+      "reading": "ひょうしき",
+      "headword": "{標識|ひょうしき}",
+      "label": "sign"
+    },
+    {
+      "type": "related",
+      "target_id": "06502_oudanhodou",
+      "reading": "おうだんほどう",
+      "headword": "{横断歩道|おうだんほどう}",
+      "label": "crosswalk, pedestrian crossing"
+    },
+    {
+      "type": "related",
+      "target_id": "24518_kiiroshingou",
+      "reading": "きいろしんごう",
+      "headword": "{黄色信号|きいろしんごう}",
+      "label": "yellow traffic light"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"],
-      "domain": ["technical"]
+      "semantic": [
+        "transportation"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-05-07T16:07:21Z",
-    "modified": "2026-08-07T06:31:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

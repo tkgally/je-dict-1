@@ -2,7 +2,7 @@
   "id": "11961_hinin",
   "headword": "{否認|ひにん}",
   "reading": "ひにん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "denial; disavowal; to deny",
   "conjugation": {
     "type": "suru",
@@ -133,11 +133,26 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{容疑|ようぎ}を{否認|ひにん}する (deny allegations/charges)\n・{関与|かんよ}を{否認|ひにん}する (deny involvement)\n・{全面|ぜんめん}{否認|ひにん} (complete denial)\n・{事実|じじつ}を{否認|ひにん}する (deny the facts)\n\nSIMILAR WORDS:\n{否定|ひてい} (denial, negation) is a broader term — you can deny facts, ideas, or existence. {否認|ひにん} is more specific and formal, typically used for denying accusations, charges, or responsibility. In legal contexts, {否認|ひにん} is the standard term for a defendant's denial of charges.",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- {容疑|ようぎ}を{否認|ひにん}する (deny allegations/charges)\n- {関与|かんよ}を{否認|ひにん}する (deny involvement)\n- {全面|ぜんめん}{否認|ひにん} (complete denial)\n- {事実|じじつ}を{否認|ひにん}する (deny the facts)\n\nSIMILAR WORDS:\n{否定|ひてい} (denial, negation) is a broader term — you can deny facts, ideas, or existence. {否認|ひにん} is more specific and formal, typically used for denying accusations, charges, or responsibility. In legal contexts, {否認|ひにん} is the standard term for a defendant's denial of charges.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03707_hitei",
+      "reading": "ひてい",
+      "headword": "{否定|ひてい}",
+      "label": "denial, negation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30336_fukyoka",
+      "reading": "ふきょか",
+      "headword": "{不許可|ふきょか}",
+      "label": "denial of permission"
+    }
+  ],
   "metadata": {
     "created": "2026-02-19T10:56:31Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "WEATHER:\n・⟦{高|こう}{気圧|きあつ}→高気圧：14808_koukiatsu⟧ (high pressure system — brings clear weather)\n・⟦{低|てい}{気圧|きあつ}→低気圧：21712_teikiatsu⟧ (low pressure system — brings clouds/rain)\n・{気圧|きあつ}⟦の→の：09472_no⟧⟦{谷|たに}→谷：02223_tani⟧ (pressure trough)\n・{気圧|きあつ}⟦の→の：09472_no⟧⟦{変化|へんか}→変化：03615_henka⟧ (pressure change)\n\nUNITS:\n・hPa (⟦ヘクトパスカル→ヘクトパスカル：noentry⟧) — standard unit\n・1気圧 = 1013.25 hPa (standard atmospheric pressure)\n\nHEALTH:\n・{気圧|きあつ}⟦の→の：09472_no⟧⟦{変化|へんか}→変化：03615_henka⟧⟦で→で：00502_de⟧⟦{頭痛|ずつう}→頭痛：03369_zutsuu⟧ (weather-related headaches)\n・⟦{気象病|きしょうびょう}→気象病：27377_kishoubyou⟧ (meteoropathy — illness affected by weather)\n\nSCIENCE:\n・⟦{大気圧|たいきあつ}→大気圧：27375_taikiatsu⟧ (atmospheric pressure — formal)\n・⟦{気圧計|きあつけい}→気圧計：27376_kiatsukei⟧ (barometer)",
-  "cross_references": [],
+  "notes": "WEATHER:\n- ⟦{高|こう}{気圧|きあつ}→高気圧：14808_koukiatsu⟧ (high pressure system — brings clear weather)\n- ⟦{低|てい}{気圧|きあつ}→低気圧：21712_teikiatsu⟧ (low pressure system — brings clouds/rain)\n- {気圧|きあつ}⟦の→の：09472_no⟧⟦{谷|たに}→谷：02223_tani⟧ (pressure trough)\n- {気圧|きあつ}⟦の→の：09472_no⟧⟦{変化|へんか}→変化：03615_henka⟧ (pressure change)\n\nUNITS:\n- hPa (⟦ヘクトパスカル→ヘクトパスカル：noentry⟧) — standard unit\n- 1気圧 = 1013.25 hPa (standard atmospheric pressure)\n\nHEALTH:\n- {気圧|きあつ}⟦の→の：09472_no⟧⟦{変化|へんか}→変化：03615_henka⟧⟦で→で：00502_de⟧⟦{頭痛|ずつう}→頭痛：03369_zutsuu⟧ (weather-related headaches)\n- ⟦{気象病|きしょうびょう}→気象病：27377_kishoubyou⟧ (meteoropathy — illness affected by weather)\n\nSCIENCE:\n- ⟦{大気圧|たいきあつ}→大気圧：27375_taikiatsu⟧ (atmospheric pressure — formal)\n- ⟦{気圧計|きあつけい}→気圧計：27376_kiatsukei⟧ (barometer)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21749_suiatsu",
+      "reading": "すいあつ",
+      "headword": "{水圧|すいあつ}",
+      "label": "water pressure"
+    },
+    {
+      "type": "related",
+      "target_id": "23240_ondanzensen",
+      "reading": "おんだんぜんせん",
+      "headword": "{温暖前線|おんだんぜんせん}",
+      "label": "warm front"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24095_genatsu",
+      "reading": "げんあつ",
+      "headword": "{減圧|げんあつ}",
+      "label": "decompression"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T10:53:53Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

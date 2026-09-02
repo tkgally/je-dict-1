@@ -3,7 +3,7 @@
   "id": "10675_hijoukin",
   "headword": "{非常勤|ひじょうきん}",
   "reading": "ひじょうきん",
-  "part_of_speech": "noun, adjective (no)",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "part-time, non-regular (employment)",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "I work as a part-time lecturer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10675_hijoukin_ex2",
@@ -27,7 +29,9 @@
       "english": "Part-time staff now receive bonuses too.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10675_hijoukin_ex3",
@@ -35,7 +39,9 @@
       "english": "I hold three part-time positions at different universities.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONTRAST WITH {常勤|じょうきん}:\n- {非常勤|ひじょうきん}: part-time, non-permanent\n- {常勤|じょうきん}: full-time, permanent\n\nCOMMON COLLOCATIONS:\n- {非常勤|ひじょうきん}{講師|こうし}: part-time lecturer\n- {非常勤|ひじょうきん}{職員|しょくいん}: part-time staff\n- {非常勤|ひじょうきん}{役員|やくいん}: non-standing director\n\nUSAGE:\nPrimarily used in institutional and official contexts (universities, government offices). For general part-time work, パートタイム or パート is more common in everyday speech.",
@@ -46,19 +52,33 @@
       "reading": "じょうきん",
       "headword": "{常勤|じょうきん}",
       "label": "full-time"
+    },
+    {
+      "type": "antonym",
+      "target_id": "26894_furutaimu",
+      "reading": "ふるたいむ",
+      "headword": "フルタイム",
+      "label": "full-time"
     }
   ],
   "metadata": {
     "created": "2026-02-09T02:36:47Z",
-    "modified": "2026-04-24T08:40:04Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

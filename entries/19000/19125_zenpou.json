@@ -17,7 +17,9 @@
       "id": "19125_zenpou_ex1",
       "japanese": "{前方|ぜんぽう}に{注意|ちゅうい}してください。",
       "english": "Please watch ahead.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19125_zenpou_ex2",
       "japanese": "{前方|ぜんぽう}に{大|おお}きな{橋|はし}が{見|み}えてきた。",
       "english": "A large bridge came into view ahead.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "19125_zenpou_ex3",
       "japanese": "{車|くるま}の{前方|ぜんぽう}に{子|こ}どもが{飛|と}び{出|だ}してきたので、{急|きゅう}ブレーキをかけた。",
       "english": "A child jumped out in front of the car, so I slammed on the brakes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{前方|ぜんぽう} is a formal word for 'ahead' or 'in front.' More formal than {前|まえ}, and commonly used in driving, announcements, and written instructions.\n\nCOMMON COLLOCATIONS:\n- {前方|ぜんぽう}{不注意|ふちゅうい}: failure to watch ahead (common traffic violation)\n- {前方|ぜんぽう}{確認|かくにん}: forward check (driving safety)\n- {前方|ぜんぽう}に{注意|ちゅうい}: watch ahead\n- {前方|ぜんぽう}{後方|こうほう}: front and back\n\nDIRECTION SET:\n- {前方|ぜんぽう}: front, ahead\n- {後方|こうほう}: rear, behind\n- {左方|さほう}: left side\n- {右方|うほう}: right side\n\nCONTRAST WITH {前|まえ}:\n{前|まえ} is everyday and casual. {前方|ぜんぽう} is formal and often technical — used in traffic reports, announcements, and official instructions.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "19126_kouhou",
+      "reading": "こうほう",
+      "headword": "{後方|こうほう}",
+      "label": "rear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20217_zenretsu",
+      "reading": "ぜんれつ",
+      "headword": "{前列|ぜんれつ}",
+      "label": "front row"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["direction"]
+      "semantic": [
+        "direction"
+      ]
     },
     "created": "2026-03-24T10:01:56Z",
-    "modified": "2026-03-26T04:30:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

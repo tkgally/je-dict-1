@@ -17,7 +17,9 @@
       "id": "26227_satougashi_ex1",
       "japanese": "{砂糖菓子|さとうがし}をお{土産|みやげ}に{買|か}った。",
       "english": "I bought sugar confections as a souvenir.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26227_satougashi_ex2",
       "japanese": "この{砂糖菓子|さとうがし}は{見|み}た{目|め}が{美|うつく}しい。",
       "english": "These sugar confections are beautiful to look at.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,65 @@
       "id": "26227_satougashi_ex3",
       "japanese": "{職人|しょくにん}が{一|ひと}つ{一|ひと}つ{手作|てづく}りした{砂糖菓子|さとうがし}が、ショーケースに{並|なら}んでいる。",
       "english": "Sugar confections, each handmade by a craftsman, are lined up in the display case.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {砂糖|さとう} (sugar) and {菓子|かし} (confection, sweets — voiced to がし through rendaku). Refers specifically to sweets where sugar is the primary ingredient and defining characteristic.\n\nIn Japanese confectionery tradition, {砂糖菓子|さとうがし} includes decorative items like {金平糖|こんぺいとう} (konpeito star-shaped sugar candy) and {飴|あめ}{細工|ざいく} (candy sculpting). Western-style sugar crafts such as fondant decorations also fall under this term.\n\nThe word is also used figuratively in the expression {砂糖菓子|さとうがし}のような to mean overly sweet or saccharine, describing something unrealistically pleasant.\n\nCOMMON COLLOCATIONS:\n- {砂糖菓子|さとうがし}のような: saccharine; overly sweet (figurative)\n- {手作|てづく}りの{砂糖菓子|さとうがし}: handmade sugar confections\n- {砂糖菓子|さとうがし}{細工|ざいく}: sugar craft; decorative sugar work\n\nSIMILAR WORDS:\n- {飴|あめ}: hard candy — a specific type of sugar sweet\n- {和菓子|わがし}: Japanese confections — broader category of traditional sweets\n- {洋菓子|ようがし}: Western confections — broader category of Western-style sweets\n- お{菓子|かし}: snacks; sweets — the most general term",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00687_ame",
+      "reading": "あめ",
+      "headword": "{飴|あめ}",
+      "label": "hard candy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04962_wagashi",
+      "reading": "わがし",
+      "headword": "{和菓子|わがし}",
+      "label": "Japanese confections"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04998_yougashi",
+      "reading": "ようがし",
+      "headword": "{洋菓子|ようがし}",
+      "label": "Western confections"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02852_okashi",
+      "reading": "おかし",
+      "headword": "お{菓子|かし}",
+      "label": "snacks"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17151_amezaiku",
+      "reading": "あめざいく",
+      "headword": "{飴細工|あめざいく}",
+      "label": "candy sculpture"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-30T12:16:37Z",
-    "modified": "2026-04-30T12:16:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

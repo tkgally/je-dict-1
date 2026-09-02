@@ -3,7 +3,7 @@
   "headword": "{昼型|ひるがた}",
   "reading": "ひるがた",
   "romaji": "hirugata",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "daytime type; morning person; diurnal lifestyle",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Formed from {昼|ひる} (daytime) and {型|がた} (type, pattern). Commonly used in discussions about sleep schedules, health, and lifestyle. In Japanese popular discourse, people often classify themselves as either {昼型|ひるがた} or {夜型|よるがた}.\n\nCOMMON COLLOCATIONS:\n- {昼型|ひるがた}の{生活|せいかつ}: daytime lifestyle\n- {昼型|ひるがた}の{人間|にんげん}: a daytime person\n- {昼型|ひるがた}に{切|き}り{替|か}える: to switch to a daytime schedule\n- {昼型|ひるがた}に{戻|もど}す: to go back to a daytime schedule\n\nSIMILAR WORDS:\n- {夜型|よるがた}: night-owl type — the opposite lifestyle pattern\n- {朝型|あさがた}: morning type — similar to {昼型|ひるがた} but emphasizes early rising specifically",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20463_yorugata",
+      "reading": "よるがた",
+      "headword": "{夜型|よるがた}",
+      "label": "night-owl type"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16867_asagata",
+      "reading": "あさがた",
+      "headword": "{朝型|あさがた}",
+      "label": "morning type"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +76,6 @@
       ]
     },
     "created": "2026-05-03T12:29:04Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

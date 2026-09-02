@@ -19,7 +19,9 @@
       "english": "The number of patients with heart disease is increasing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16370_shikkan_ex2",
@@ -27,7 +29,9 @@
       "english": "This medicine is effective for autoimmune diseases.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16370_shikkan_ex3",
@@ -35,7 +39,9 @@
       "english": "Many lifestyle-related diseases are conditions that can be prevented through diet and exercise.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{疾患|しっかん} is a formal medical term composed of {疾|しつ} (illness) and {患|かん} (affliction). It is preferred in medical, scientific, and formal writing over more casual terms.\n\nCOMMON COLLOCATIONS:\n- {心臓|しんぞう}{疾患|しっかん} (heart disease)\n- {呼吸器|こきゅうき}{疾患|しっかん} (respiratory disease)\n- {精神|せいしん}{疾患|しっかん} (mental illness)\n- {難治性|なんちせい}{疾患|しっかん} (intractable disease)\n- {基礎|きそ}{疾患|しっかん} (underlying medical condition)\n\nSIMILAR WORDS:\n- {病気|びょうき}: illness, sickness — everyday, neutral term\n- {病|やまい}: illness — slightly literary or traditional\n- {症状|しょうじょう}: symptom — refers to signs of illness, not the disease itself",
@@ -46,19 +52,39 @@
       "reading": "びょうき",
       "headword": "{病気|びょうき}",
       "label": "illness, everyday term"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13610_yamai",
+      "reading": "やまい",
+      "headword": "{病|やまい}",
+      "label": "illness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03234_shoujou",
+      "reading": "しょうじょう",
+      "headword": "{症状|しょうじょう}",
+      "label": "symptom"
     }
   ],
   "metadata": {
     "created": "2026-03-12T02:36:36Z",
-    "modified": "2026-05-03T09:07:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

@@ -17,7 +17,9 @@
       "id": "21588_okaachan_ex1",
       "japanese": "お{母|かあ}ちゃん、おなかすいた。",
       "english": "Mom, I'm hungry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21588_okaachan_ex2",
       "japanese": "お{母|かあ}ちゃんの{料理|りょうり}が{一番|いちばん}おいしい。",
       "english": "Mom's cooking is the best.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "21588_okaachan_ex3",
       "japanese": "{大人|おとな}になっても、つい「お{母|かあ}ちゃん」と{呼|よ}んでしまう。",
       "english": "Even as an adult, I end up calling her 'okaachan' without thinking.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A casual, affectionate variant of お{母|かあ}さん, formed by replacing さん with the diminutive ちゃん. Commonly used by young children and in warm, informal family contexts.\n\nREGISTER:\nMore casual and childlike than お{母|かあ}さん. Some adults continue using it in private, though it sounds childish in formal settings. Has a warm, down-to-earth nuance.\n\nSIMILAR WORDS:\n- お{母|かあ}さん: mother — the standard polite form\n- ママ: mama — modern, widely used by young children and in casual settings\n- {母|はは}: mother — humble form used when speaking about one's own mother to others\n- おふくろ: one's mother — masculine, colloquial term used by adult men\n- お{母|かあ}ちゃん has a more traditional, working-class, or regional flavor compared to ママ",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02851_okaasan",
+      "reading": "おかあさん",
+      "headword": "お{母|かあ}さん",
+      "label": "mother"
+    },
+    {
+      "type": "related",
+      "target_id": "00549_haha",
+      "reading": "はは",
+      "headword": "{母|はは}",
+      "label": "mother"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10246_ofukuro",
+      "reading": "おふくろ",
+      "headword": "おふくろ",
+      "label": "one's mother"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["family"]
+      "semantic": [
+        "family"
+      ]
     },
     "created": "2026-04-02T17:26:24Z",
-    "modified": "2026-04-02T17:26:24Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

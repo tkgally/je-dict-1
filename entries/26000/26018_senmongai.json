@@ -3,7 +3,7 @@
   "headword": "{専門外|せんもんがい}",
   "reading": "せんもんがい",
   "romaji": "senmongai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "outside one's specialty; not one's field",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "26018_senmongai_ex1",
       "japanese": "それは{専門外|せんもんがい}です。",
       "english": "That's outside my area of expertise.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26018_senmongai_ex2",
       "japanese": "{専門外|せんもんがい}のことはよくわからない。",
       "english": "I don't know much about things outside my field.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,52 @@
       "id": "26018_senmongai_ex3",
       "japanese": "{専門外|せんもんがい}の{質問|しつもん}にも{丁寧|ていねい}に{答|こた}えてくれた。",
       "english": "They kindly answered questions that were outside their specialty.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from {専門|せんもん} (specialty) + {外|がい} (outside). Commonly used by professionals to politely decline answering questions or to express the limits of their knowledge. Functions as a noun and as a modifier with の.\n\nCOMMON COLLOCATIONS:\n- {専門外|せんもんがい}のことはわからない: I don't understand things outside my field\n- {専門外|せんもんがい}の{分野|ぶんや}: a field outside one's specialty\n- {専門外|せんもんがい}の{質問|しつもん}: a question outside one's expertise\n\nSIMILAR WORDS:\n- {門外漢|もんがいかん}: layperson; outsider to a field — more literary, emphasizes being an amateur\n- {畑違|はたけちが}い: wrong field; not one's area — more colloquial, implies a mismatch\n- {素人|しろうと}: amateur; layperson — broader term for someone without expertise",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14559_mongaikan",
+      "reading": "もんがいかん",
+      "headword": "{門外漢|もんがいかん}",
+      "label": "layperson"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04270_shirouto",
+      "reading": "しろうと",
+      "headword": "{素人|しろうと}",
+      "label": "amateur"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26730_hisenmon",
+      "reading": "ひせんもん",
+      "headword": "{非専門|ひせんもん}",
+      "label": "non-specialist"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
-      "semantic": ["education", "work"]
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "education",
+        "work"
+      ]
     },
     "created": "2026-04-28T16:13:26Z",
-    "modified": "2026-04-28T16:13:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

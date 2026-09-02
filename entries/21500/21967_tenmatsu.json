@@ -17,7 +17,9 @@
       "id": "21967_tenmatsu_ex1",
       "japanese": "{事件|じけん}の{顛末|てんまつ}を{聞|き}く。",
       "english": "To hear the full account of the incident.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21967_tenmatsu_ex2",
       "japanese": "{事故|じこ}の{顛末|てんまつ}を{報告書|ほうこくしょ}にまとめた。",
       "english": "I compiled the full details of the accident into a report.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,65 @@
       "id": "21967_tenmatsu_ex3",
       "japanese": "{彼|かれ}はその{騒動|そうどう}の{顛末|てんまつ}を{最初|さいしょ}から{最後|さいご}まで{詳|くわ}しく{語|かた}ってくれた。",
       "english": "He told me in detail the whole story of the incident from beginning to end.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {顛|てん} (top, beginning) + {末|まつ} (end). Literally 'from top to end,' meaning the complete course of events. Often used when recounting problems, incidents, or noteworthy sequences of events.\n\nCOMMON COLLOCATIONS:\n- {事件|じけん}の{顛末|てんまつ}: the full account of an incident\n- {顛末|てんまつ}を{報告|ほうこく}する: to report the full details\n- {顛末|てんまつ}を{語|かた}る: to tell the whole story\n- {顛末書|てんまつしょ}: an incident report (formal document)\n\nSIMILAR WORDS:\n- {経緯|けいい}: circumstances, background — focuses on the process and reasons; {顛末|てんまつ} focuses on the complete story including the outcome\n- いきさつ: circumstances, sequence of events — more conversational; {顛末|てんまつ} is more formal\n- {始末|しまつ}: handling/aftermath — focuses on dealing with consequences; {顛末|てんまつ} focuses on narrating what happened\n\nREGISTER:\nFormal. Common in business reports, news, and official accounts of incidents.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02782_keii",
+      "reading": "けいい",
+      "headword": "{経緯|けいい}",
+      "label": "circumstances, background"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15620_ikisatsu",
+      "reading": "いきさつ",
+      "headword": "いきさつ",
+      "label": "circumstances, sequence of events"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12230_shimatsu",
+      "reading": "しまつ",
+      "headword": "{始末|しまつ}",
+      "label": "handling/aftermath"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15261_ichibushijuu",
+      "reading": "いちぶしじゅう",
+      "headword": "{一部始終|いちぶしじゅう}",
+      "label": "the whole story"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17328_kotonoshidai",
+      "reading": "ことのしだい",
+      "headword": "{事|こと}の{次第|しだい}",
+      "label": "the circumstances"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-04-04T18:24:27Z",
-    "modified": "2026-04-04T18:24:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "19531_kigengawarui_ex1",
       "japanese": "{今日|きょう}は{機嫌|きげん}が{悪|わる}い。",
       "english": "I'm in a bad mood today.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19531_kigengawarui_ex2",
       "japanese": "{上司|じょうし}が{機嫌|きげん}が{悪|わる}いから、{気|き}をつけて。",
       "english": "The boss is in a bad mood, so be careful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "19531_kigengawarui_ex3",
       "japanese": "{朝|あさ}から{機嫌|きげん}が{悪|わる}い{父|ちち}に{話|はな}しかけるのは{怖|こわ}かった。",
       "english": "I was afraid to talk to my father, who had been grumpy since morning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{機嫌|きげん} means mood or temper. This expression describes a temporary state of being irritable or displeased, not a permanent personality trait. It is one of the most common ways to describe someone's bad mood in everyday Japanese.\n\nRELATED EXPRESSIONS:\n- {機嫌|きげん}がいい — in a good mood (the opposite)\n- {機嫌|きげん}を{取|と}る — to try to please someone, to humor someone\n- {機嫌|きげん}を{直|なお}す — to get over a bad mood, to cheer up\n- {機嫌|きげん}を{損|そこ}ねる — to offend someone, to upset someone's mood\n- ご{機嫌|きげん} — mood (polite); also used as a greeting: ご{機嫌|きげん}いかが？\n\nSIMILAR WORDS:\n- {不機嫌|ふきげん} — bad mood, displeasure; the na-adjective/noun form ({不機嫌|ふきげん}な{顔|かお})\n- イライラする — to be irritated; focuses on the internal frustration\n- むっとする — to get sulky/offended; implies a sudden change in mood",
+  "notes": "{機嫌|きげん} means mood or temper. This expression describes a temporary state of being irritable or displeased, not a permanent personality trait. It is one of the most common ways to describe someone's bad mood in everyday Japanese.\n\nRELATED WORDS:\n- {機嫌|きげん}がいい — in a good mood (the opposite)\n- {機嫌|きげん}を{取|と}る — to try to please someone, to humor someone\n- {機嫌|きげん}を{直|なお}す — to get over a bad mood, to cheer up\n- {機嫌|きげん}を{損|そこ}ねる — to offend someone, to upset someone's mood\n- ご{機嫌|きげん} — mood (polite); also used as a greeting: ご{機嫌|きげん}いかが？\n\nSIMILAR WORDS:\n- {不機嫌|ふきげん} — bad mood, displeasure; the na-adjective/noun form ({不機嫌|ふきげん}な{顔|かお})\n- イライラする — to be irritated; focuses on the internal frustration\n- むっとする — to get sulky/offended; implies a sudden change in mood",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18866_kigenwosokoneru",
+      "reading": "きげんをそこねる",
+      "headword": "{機嫌|きげん}を{損|そこ}ねる",
+      "label": "to offend someone, to upset someone's…"
+    },
+    {
+      "type": "related",
+      "target_id": "25581_gokigen",
+      "reading": "ごきげん",
+      "headword": "ご{機嫌|きげん}",
+      "label": "mood"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17453_fukigen",
+      "reading": "ふきげん",
+      "headword": "{不機嫌|ふきげん}",
+      "label": "bad mood, displeasure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28623_muttosuru",
+      "reading": "むっとする",
+      "headword": "むっとする",
+      "label": "to get sulky/offended"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     },
     "created": "2026-03-26T04:18:46Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

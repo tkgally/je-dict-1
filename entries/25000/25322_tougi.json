@@ -3,7 +3,7 @@
   "headword": "{討議|とうぎ}",
   "reading": "とうぎ",
   "romaji": "tougi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "discussion; debate; deliberation",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "A formal word for structured discussion or debate, typically in institutional settings such as parliament, committees, or conferences. Composed of {討|とう} (attack, debate) and {議|ぎ} (deliberation). Implies a thorough examination of issues from multiple perspectives.\n\nCOMMON COLLOCATIONS:\n- {討議|とうぎ}する: to discuss, to deliberate\n- {討議|とうぎ}を{行|おこな}う: to hold a discussion\n- {討議|とうぎ}{事項|じこう}: items for discussion, agenda\n- {自由|じゆう}{討議|とうぎ}: open discussion, free debate\n\nSIMILAR WORDS:\n- {議論|ぎろん}: argument, discussion — the most common word for debate, less formal\n- {討論|とうろん}: debate — more adversarial, opposing sides argue their positions\n- {審議|しんぎ}: deliberation — specifically examining and judging, used in parliament\n- {協議|きょうぎ}: consultation, negotiation — aims to reach agreement",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02650_giron",
+      "reading": "ぎろん",
+      "headword": "{議論|ぎろん}",
+      "label": "argument, discussion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05100_touron",
+      "reading": "とうろん",
+      "headword": "{討論|とうろん}",
+      "label": "debate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19112_shingi",
+      "reading": "しんぎ",
+      "headword": "{審議|しんぎ}",
+      "label": "deliberation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02635_kyougi",
+      "reading": "きょうぎ",
+      "headword": "{協議|きょうぎ}",
+      "label": "consultation, negotiation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +83,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "communication"
       ],
@@ -62,7 +93,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T14:27:56Z",
-    "modified": "2026-04-24T14:27:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

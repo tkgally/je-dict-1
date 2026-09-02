@@ -46,17 +46,41 @@
   ],
   "notes": "A compound of {購入|こうにゅう} (purchase) and {者|しゃ} (person). Used in business, legal, and commercial contexts to refer to someone who has bought or is buying something.\n\nCOMMON COLLOCATIONS:\n- {購入者|こうにゅうしゃ}{限定|げんてい}: purchaser-only; exclusive to buyers\n- {購入者|こうにゅうしゃ}レビュー: buyer reviews\n- {購入者|こうにゅうしゃ}{情報|じょうほう}: buyer information\n- {購入者|こうにゅうしゃ}{特典|とくてん}: buyer bonus/perks\n\nSIMILAR WORDS:\n- {買|か}い{手|て}: buyer — more general, often used in negotiations and real estate\n- {消費者|しょうひしゃ}: consumer — broader term for someone who uses goods or services\n- {顧客|こきゃく}: customer; client — focuses on the ongoing relationship rather than a single transaction",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24770_kaite",
+      "reading": "かいて",
+      "headword": "{買|か}い{手|て}",
+      "label": "buyer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09866_shouhisha",
+      "reading": "しょうひしゃ",
+      "headword": "{消費者|しょうひしゃ}",
+      "label": "consumer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08632_kokyaku",
+      "reading": "こきゃく",
+      "headword": "{顧客|こきゃく}",
+      "label": "customer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "shopping"
       ]
     },
     "created": "2026-04-25T13:30:11Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{寝小便|ねしょうべん}",
   "reading": "ねしょうべん",
   "romaji": "neshouben",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "bedwetting; wetting the bed",
   "definitions": [
     {
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {寝|ね} (sleeping) and {小便|しょうべん} (urine, urination). A colloquial term used in everyday conversation, particularly among parents discussing child development. The verb form is {寝小便|ねしょうべん}をする.\n\nCOMMON COLLOCATIONS:\n- {寝小便|ねしょうべん}をする: to wet the bed\n- {寝小便|ねしょうべん}が{治|なお}る: for bedwetting to stop\n- {寝小便|ねしょうべん}の{癖|くせ}: bedwetting habit\n\nSIMILAR WORDS:\n- おねしょ: bedwetting — the more common, child-friendly word used in casual conversation with children\n- {夜尿症|やにょうしょう}: nocturnal enuresis — the formal medical term used by doctors and in clinical settings\n\nUSAGE NOTE:\nIn casual speech with children, おねしょ is far more common. {寝小便|ねしょうべん} is used more among adults or in somewhat more direct, matter-of-fact contexts.",
-  "cross_references": [],
+  "notes": "Composed of {寝|ね} (sleeping) and {小便|しょうべん} (urine, urination). A colloquial term used in everyday conversation, particularly among parents discussing child development. The verb form is {寝小便|ねしょうべん}をする.\n\nCOMMON COLLOCATIONS:\n- {寝小便|ねしょうべん}をする: to wet the bed\n- {寝小便|ねしょうべん}が{治|なお}る: for bedwetting to stop\n- {寝小便|ねしょうべん}の{癖|くせ}: bedwetting habit\n\nSIMILAR WORDS:\n- おねしょ: bedwetting — the more common, child-friendly word used in casual conversation with children\n- {夜尿症|やにょうしょう}: nocturnal enuresis — the formal medical term used by doctors and in clinical settings\n\nUSAGE:\nIn casual speech with children, おねしょ is far more common. {寝小便|ねしょうべん} is used more among adults or in somewhat more direct, matter-of-fact contexts.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09094_onesho",
+      "reading": "おねしょ",
+      "headword": "おねしょ",
+      "label": "bedwetting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27749_yanyoushou",
+      "reading": "やにょうしょう",
+      "headword": "{夜尿|やにょう}{症|しょう}",
+      "label": "nocturnal enuresis"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -65,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-03T16:13:47Z",
-    "modified": "2026-05-03T16:13:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

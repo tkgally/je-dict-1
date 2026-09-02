@@ -2,7 +2,7 @@
   "id": "04840_koyou",
   "headword": "{雇用|こよう}",
   "reading": "こよう",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "employment",
   "conjugation": {
     "type": "suru",
@@ -141,11 +141,25 @@
       "reading": "やとう",
       "headword": "{雇|やと}う",
       "label": "to hire (verb)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03776_seiki",
+      "reading": "せいき",
+      "headword": "{正規|せいき}",
+      "label": "regular, legitimate, official"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20129_shieki",
+      "reading": "しえき",
+      "headword": "{使役|しえき}",
+      "label": "employment"
     }
   ],
   "metadata": {
     "created": "2026-01-16T00:30:19Z",
-    "modified": "2026-07-31T09:22:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

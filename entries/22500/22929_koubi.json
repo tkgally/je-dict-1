@@ -3,7 +3,7 @@
   "headword": "{交尾|こうび}",
   "reading": "こうび",
   "romaji": "koubi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "mating; copulation (of animals)",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Composed of {交|こう} (intersect, exchange) and {尾|び} (tail). Literally \"crossing tails.\" A scientific, neutral term used exclusively for animals — never for humans in standard usage. Common in biology textbooks, nature documentaries, and wildlife observation contexts.\n\nCOMMON COLLOCATIONS:\n- {交尾|こうび}する: to mate\n- {交尾|こうび}の{時期|じき}: mating season\n- {交尾|こうび}{行動|こうどう}: mating behavior\n- {交尾|こうび}{相手|あいて}: mating partner\n\nSIMILAR WORDS:\n- つがい: mating pair — refers to a bonded pair of animals, often birds\n- {繁殖|はんしょく}: breeding, reproduction — broader term covering the whole reproductive process including raising young\n- {生殖|せいしょく}: reproduction — the biological process; more technical and scientific",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08671_hanshoku",
+      "reading": "はんしょく",
+      "headword": "{繁殖|はんしょく}",
+      "label": "breeding, reproduction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27947_seishoku",
+      "reading": "せいしょく",
+      "headword": "{生殖|せいしょく}",
+      "label": "reproduction"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,17 @@
         "noun",
         "verb-suru"
       ],
-      "semantic": ["science", "nature", "action"],
+      "semantic": [
+        "science",
+        "nature",
+        "action"
+      ],
       "formality": "neutral",
       "politeness": "plain",
       "verb_class": "suru"
     },
     "created": "2026-04-07T21:09:31Z",
-    "modified": "2026-07-31T00:29:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

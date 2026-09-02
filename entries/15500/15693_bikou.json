@@ -19,7 +19,9 @@
       "english": "Please fill in the remarks column.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15693_bikou_ex2",
@@ -27,7 +29,9 @@
       "english": "Please refer to the notes for detailed information.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15693_bikou_ex3",
@@ -35,21 +39,49 @@
       "english": "If there are any special notes, please write them in the remarks section of the application form.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal, administrative term commonly found on forms, documents, spreadsheets, and databases. Almost always appears as a section header ({備考|びこう}{欄|らん}) rather than in conversational speech.\n\nCOMMON COLLOCATIONS:\n- {備考|びこう}{欄|らん} (remarks column/section)\n- {備考|びこう}に{記載|きさい}する (to note in the remarks)\n- {備考|びこう}を{参照|さんしょう}する (to refer to the notes)\n\nSIMILAR WORDS:\n- {注|ちゅう}: note, annotation (shorter, used inline)\n- {注記|ちゅうき}: annotation, note (formal, in documents)\n- {補足|ほそく}: supplement, addition (broader in usage)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03434_chuu",
+      "reading": "ちゅう",
+      "headword": "{注|ちゅう}",
+      "label": "note, annotation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22220_chuuki",
+      "reading": "ちゅうき",
+      "headword": "{注記|ちゅうき}",
+      "label": "annotation, note"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08386_hosoku",
+      "reading": "ほそく",
+      "headword": "{補足|ほそく}",
+      "label": "supplement, addition"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T07:37:07Z",
-    "modified": "2026-03-08T07:37:07Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     }
   }
 }

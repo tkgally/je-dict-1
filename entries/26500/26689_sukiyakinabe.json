@@ -17,7 +17,9 @@
       "id": "26689_sukiyakinabe_ex1",
       "japanese": "すき{焼|や}き{鍋|なべ}を{火|ひ}にかけた。",
       "english": "I put the sukiyaki pot on the heat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26689_sukiyakinabe_ex2",
       "japanese": "{祖母|そぼ}から{鉄|てつ}のすき{焼|や}き{鍋|なべ}を{受|う}け{継|つ}いだ。",
       "english": "I inherited an iron sukiyaki pot from my grandmother.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,52 @@
       "id": "26689_sukiyakinabe_ex3",
       "japanese": "お{正月|しょうがつ}にはいつも{家族|かぞく}で{大|おお}きなすき{焼|や}き{鍋|なべ}を{囲|かこ}んで{食事|しょくじ}をする。",
       "english": "At New Year's, our family always gathers around a large sukiyaki pot for a meal.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of すき{焼|や}き (sukiyaki, a Japanese hot pot dish) and {鍋|なべ} (pot). The traditional すき{焼|や}き{鍋|なべ} is made of cast iron ({鋳鉄|ちゅうてつ}) and has a wide, flat shape that distinguishes it from deeper hot pot vessels.\n\nCOMMON COLLOCATIONS:\n- すき{焼|や}き{鍋|なべ}を{囲|かこ}む: to gather around a sukiyaki pot\n- {鉄|てつ}のすき{焼|や}き{鍋|なべ}: iron sukiyaki pot\n- すき{焼|や}き{鍋|なべ}に{具材|ぐざい}を{入|い}れる: to add ingredients to the sukiyaki pot\n\nCULTURAL NOTE:\nSukiyaki is traditionally cooked at the table, so the pot is both a cooking vessel and a serving dish. In many families, a well-seasoned cast-iron sukiyaki pot is a treasured kitchen heirloom passed down through generations.\n\nSIMILAR WORDS:\n- {土鍋|どなべ}: clay pot — used for nabemono (Japanese hot pot), deeper than a sukiyaki pot\n- {鉄鍋|てつなべ}: iron pot — general term; the sukiyaki pot is a specific type\n- フライパン: frying pan — similar shape but different material and purpose",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07949_donabe",
+      "reading": "どなべ",
+      "headword": "{土鍋|どなべ}",
+      "label": "clay pot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23918_tetsunabe",
+      "reading": "てつなべ",
+      "headword": "{鉄鍋|てつなべ}",
+      "label": "iron pot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01025_furaipan",
+      "reading": "ふらいぱん",
+      "headword": "フライパン",
+      "label": "frying pan"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food", "cooking"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "cooking"
+      ]
     },
     "created": "2026-05-04T13:51:16Z",
-    "modified": "2026-05-04T13:51:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

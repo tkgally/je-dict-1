@@ -3,7 +3,7 @@
   "headword": "{遠慮|えんりょ}する",
   "reading": "えんりょする",
   "romaji": "enryosuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to refrain; to hold back; to decline politely",
   "conjugation": {
     "type": "suru",
@@ -171,6 +171,50 @@
   ],
   "notes": "A fundamental concept in Japanese social behavior. {遠慮|えんりょ} involves restraining one's desires or actions out of consideration for others, modesty, or social appropriateness. It is deeply embedded in Japanese communication — declining food, refusing help, or softening requests all involve {遠慮|えんりょ}.\n\nCOMMON EXPRESSIONS:\n- {遠慮|えんりょ}なく — without reserve, freely\n- ご{遠慮|えんりょ}ください — please refrain (polite request, common on signs)\n- {遠慮|えんりょ}しないで — don't hold back (casual)\n- {遠慮|えんりょ}がち — reserved, diffident\n\nCOMMON COLLOCATIONS:\n- {遠慮|えんりょ}させていただく — to decline (humble)\n- {遠慮|えんりょ}する{必要|ひつよう}はない — there's no need to hold back\n- {遠慮|えんりょ}なく{言|い}う — to say freely without reserve\n\nCULTURAL NOTE:\nIn Japanese culture, {遠慮|えんりょ} is generally considered a virtue. Guests are expected to show {遠慮|えんりょ} when offered food or drinks, and hosts counter with {遠慮|えんりょ}しないで. The first refusal is often ritualistic rather than sincere.\n\nSIMILAR WORDS:\n- {控|ひか}える — to refrain; more formal and often used for concrete actions\n- {断|ことわ}る — to refuse; more direct than {遠慮|えんりょ}する\n- {辞退|じたい}する — to decline formally; used for official offers or positions",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10054_hikaeru",
+      "reading": "ひかえる",
+      "headword": "{控|ひか}える",
+      "label": "to refrain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02102_kotowaru",
+      "reading": "ことわる",
+      "headword": "{断|ことわ}る",
+      "label": "to refuse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18992_jitaisuru",
+      "reading": "じたいする",
+      "headword": "{辞退|じたい}する",
+      "label": "to decline formally"
+    },
+    {
+      "type": "related",
+      "target_id": "07884_habakaru",
+      "reading": "はばかる",
+      "headword": "{憚|はばか}る",
+      "label": "to hesitate"
+    },
+    {
+      "type": "related",
+      "target_id": "09158_tsutsushimu",
+      "reading": "つつしむ",
+      "headword": "{慎|つつし}む",
+      "label": "to refrain from, to be prudent, to be careful"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19535_teichounikotowaru",
+      "reading": "ていちょうにことわる",
+      "headword": "{丁重|ていちょう}に{断|ことわ}る",
+      "label": "to politely decline"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -187,6 +231,6 @@
       ]
     },
     "created": "2026-03-26T04:14:28Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

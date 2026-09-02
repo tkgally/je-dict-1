@@ -3,7 +3,7 @@
   "id": "16987_judouteki",
   "headword": "{受動的|じゅどうてき}",
   "reading": "じゅどうてき",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "passive; inactive",
   "definitions": [
     {
@@ -59,11 +59,25 @@
       "reading": "のうどうてき",
       "headword": "{能動的|のうどうてき}",
       "label": "active, proactive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04779_shoukyokuteki",
+      "reading": "しょうきょくてき",
+      "headword": "{消極的|しょうきょくてき}",
+      "label": "negative, passive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25731_hannouteki",
+      "reading": "はんのうてき",
+      "headword": "{反応的|はんのうてき}",
+      "label": "reactive"
     }
   ],
   "metadata": {
     "created": "2026-03-15T05:53:16Z",
-    "modified": "2026-07-22T03:30:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

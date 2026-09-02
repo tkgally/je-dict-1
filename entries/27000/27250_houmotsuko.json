@@ -22,7 +22,9 @@
       "id": "27250_houmotsuko_ex1",
       "japanese": "{寺|てら}の{宝物庫|ほうもつこ}を{見学|けんがく}する。",
       "english": "To visit the temple's treasure house.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "27250_houmotsuko_ex2",
       "japanese": "{宝物庫|ほうもつこ}には{国宝|こくほう}に{指定|してい}された{仏像|ぶつぞう}が{収|おさ}められている。",
       "english": "The treasure house contains Buddha statues designated as national treasures.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "27250_houmotsuko_ex3",
       "japanese": "{城|しろ}の{宝物庫|ほうもつこ}から{貴重|きちょう}な{刀剣|とうけん}が{発見|はっけん}された。",
       "english": "Precious swords were discovered in the castle's treasure house.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "27250_houmotsuko_ex4",
       "japanese": "この{図書館|としょかん}は{知識|ちしき}の{宝物庫|ほうもつこ}だ。",
       "english": "This library is a treasure trove of knowledge.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "27250_houmotsuko_ex5",
       "japanese": "この{地域|ちいき}は{自然|しぜん}の{宝物庫|ほうもつこ}と{呼|よ}ばれている。",
       "english": "This region is called a treasure house of nature.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,23 +72,45 @@
       "id": "27250_houmotsuko_ex6",
       "japanese": "{祖母|そぼ}の{家|いえ}は{昔|むかし}の{写真|しゃしん}や{手紙|てがみ}の{宝物庫|ほうもつこ}だった。",
       "english": "My grandmother's house was a treasure trove of old photos and letters.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {宝物|ほうもつ} (treasure; valuable object) + {庫|こ} (storehouse). The reading {宝物|ほうもつ} is the on'yomi compound; the kun'yomi equivalent {宝物|たからもの} means \"treasure\" in a more personal, emotional sense.\n\nMany Japanese temples and shrines have a {宝物庫|ほうもつこ} or {宝物殿|ほうもつでん} (treasure hall) where religious artifacts, donated objects, and cultural properties are displayed.\n\nCOMMON COLLOCATIONS:\n- {宝物庫|ほうもつこ}を{公開|こうかい}する: to open the treasure house to the public\n- {知識|ちしき}の{宝物庫|ほうもつこ}: a treasure house of knowledge\n- {文化|ぶんか}の{宝物庫|ほうもつこ}: a treasure house of culture\n\nSIMILAR WORDS:\n- {宝物殿|ほうもつでん}: treasure hall — a more formal term, often used for grander structures at shrines and temples\n- {宝庫|ほうこ}: treasury; treasure house — a shorter synonym, more commonly used in figurative expressions\n- {蔵|くら}: storehouse; warehouse — a traditional Japanese storage building, not specifically for treasures",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17392_houko",
+      "reading": "ほうこ",
+      "headword": "{宝庫|ほうこ}",
+      "label": "treasury"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13991_kura",
+      "reading": "くら",
+      "headword": "{蔵|くら}",
+      "label": "storehouse"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["culture"],
+      "semantic": [
+        "culture"
+      ],
       "domain": []
     },
     "created": "2026-05-08T11:17:25Z",
-    "modified": "2026-05-08T11:17:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

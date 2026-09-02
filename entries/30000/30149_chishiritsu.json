@@ -46,6 +46,22 @@
   ],
   "notes": "{致死|ちし} (causing death) + {率|りつ} (rate, ratio). Counts deaths only among people who actually contracted the disease, which is why the figure is often much larger than a mortality rate for the whole population.\n\nCOMMON COLLOCATIONS:\n- {致死率|ちしりつ}が{高|たか}い: to have a high fatality rate\n- {致死率|ちしりつ}を{下|さ}げる: to lower the fatality rate\n- {致死率|ちしりつ}{一|いち}パーセント: a fatality rate of one percent\n\nSIMILAR WORDS:\n- {死亡率|しぼうりつ}: mortality rate — deaths measured against a whole population\n- {感染率|かんせんりつ}: infection rate — how many people catch the disease, not how many die",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25714_shibouritsu",
+      "reading": "しぼうりつ",
+      "headword": "{死亡率|しぼうりつ}",
+      "label": "mortality rate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30144_kansenritsu",
+      "reading": "かんせんりつ",
+      "headword": "{感染率|かんせんりつ}",
+      "label": "infection rate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health",
         "quantity"
@@ -63,6 +79,6 @@
       ]
     },
     "created": "2026-07-27T03:18:27Z",
-    "modified": "2026-07-27T03:18:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

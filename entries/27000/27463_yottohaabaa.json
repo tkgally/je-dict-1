@@ -17,7 +17,9 @@
       "id": "27463_yottohaabaa_ex1",
       "japanese": "ヨットハーバーに{船|ふね}が{並|なら}んでいる。",
       "english": "Boats are lined up at the marina.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27463_yottohaabaa_ex2",
       "japanese": "{海岸|かいがん}{沿|ぞ}いにヨットハーバーがある。",
       "english": "There's a yacht harbor along the coast.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,59 @@
       "id": "27463_yottohaabaa_ex3",
       "japanese": "{夕方|ゆうがた}、ヨットハーバーから{出航|しゅっこう}したヨットが{夕日|ゆうひ}を{背|せ}に{進|すす}んでいった。",
       "english": "In the evening, a yacht that left the marina sailed on with the sunset behind it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound loanword from English 'yacht harbor.' In English the term 'marina' is more common, but in Japanese ヨットハーバー is the standard everyday word. マリーナ also exists, often interchangeable.\n\nCOMMON COLLOCATIONS:\n- ヨットハーバーに{停泊|ていはく}する: to moor at a marina\n- ヨットハーバーから{出航|しゅっこう}する: to depart from a marina\n- {大型|おおがた}ヨットハーバー: large marina\n\nSIMILAR WORDS:\n- マリーナ: marina — close synonym\n- {港|みなと}: harbor; port — broader term, includes commercial and fishing harbors\n- {漁港|ぎょこう}: fishing port",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23850_mariina",
+      "reading": "まりーな",
+      "headword": "マリーナ",
+      "label": "marina"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01512_minato",
+      "reading": "みなと",
+      "headword": "{港|みなと}",
+      "label": "harbor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20623_gyokou",
+      "reading": "ぎょこう",
+      "headword": "{漁港|ぎょこう}",
+      "label": "fishing port"
+    },
+    {
+      "type": "related",
+      "target_id": "27462_yottoreesu",
+      "reading": "よっとれーす",
+      "headword": "ヨットレース",
+      "label": "yacht race"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["transportation"],
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ],
       "domain": []
     },
     "created": "2026-05-12T04:10:44Z",
-    "modified": "2026-05-12T04:10:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

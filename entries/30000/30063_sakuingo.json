@@ -17,7 +17,9 @@
       "id": "30063_sakuingo_ex1",
       "japanese": "{索引語|さくいんご}を{選|えら}ぶ。",
       "english": "Choose index terms.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30063_sakuingo_ex2",
       "japanese": "{論文|ろんぶん}に{索引語|さくいんご}をつける。",
       "english": "Attach index terms to a paper.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "30063_sakuingo_ex3",
       "japanese": "{適切|てきせつ}な{索引語|さくいんご}をつけると、{文献|ぶんけん}が{検索|けんさく}しやすくなる。",
       "english": "Assigning appropriate index terms makes documents easier to search.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {索引|さくいん} (index) with {語|ご} (word, term). A term used to index or retrieve a document, in publishing and information science.\n\nCOMMON COLLOCATIONS:\n- {索引語|さくいんご}をつける: to assign index terms\n- {索引語|さくいんご}の{選定|せんてい}: selection of index terms\n\nSIMILAR WORDS:\n- キーワード: keyword — the everyday, broader term\n- {見出|みだ}し{語|ご}: headword — the word that heads a dictionary or index entry",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10832_kiiwaado",
+      "reading": "きーわーど",
+      "headword": "キーワード",
+      "label": "keyword"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24989_midashigo",
+      "reading": "みだしご",
+      "headword": "{見出|みだ}し{語|ご}",
+      "label": "headword"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["language"],
+      "politeness": "plain",
+      "semantic": [
+        "language"
+      ],
       "domain": []
     },
     "created": "2026-07-23T00:19:28Z",
-    "modified": "2026-07-23T00:19:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

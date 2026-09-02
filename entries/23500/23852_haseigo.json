@@ -44,8 +44,51 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {派生|はせい} ('derivation; derivative formation') and {語|ご} ('word'). A technical term from linguistics and dictionary-making.\n\nUSAGE:\n- Most common in linguistics, lexicography, and language-teaching materials. Appears often in dictionary front matter and in English-learning vocabulary books.\n- In dictionary entries, {派生語|はせいご} often appears as a section listing secondary words formed from the headword; English example: 'happy' → 'happiness', 'unhappy', 'happily'.\n- Contrasts with {複合語|ふくごうご} ('compound word'), which joins two independent words rather than adding an affix.\n\nCOMMON COLLOCATIONS:\n- {派生語|はせいご}を{覚|おぼ}える: to learn derivatives\n- {派生語|はせいご}{辞典|じてん}: dictionary of derivatives\n- {派生語|はせいご}を{含|ふく}む: to include derived words\n- {派生語|はせいご}の{一覧|いちらん}: a list of derivatives\n\nSIMILAR WORDS:\n- {複合語|ふくごうご}: compound word — formed by combining two independent words (e.g., {駅前|えきまえ}).\n- {類義語|るいぎご}: synonym — different word with similar meaning.\n- {同義語|どうぎご}: synonym — nearly synonymous alternative.\n- {語源|ごげん}: etymology; word origin — the historical source of a word.\n\nRELATED TERMS:\n- {派生|はせい}する: to derive; to originate from — the base verb.\n- {接頭辞|せっとうじ}: prefix.\n- {接尾辞|せつびじ}: suffix.",
-  "cross_references": [],
+  "notes": "Compound of {派生|はせい} ('derivation; derivative formation') and {語|ご} ('word'). A technical term from linguistics and dictionary-making.\n\nUSAGE:\n- Most common in linguistics, lexicography, and language-teaching materials. Appears often in dictionary front matter and in English-learning vocabulary books.\n- In dictionary entries, {派生語|はせいご} often appears as a section listing secondary words formed from the headword; English example: 'happy' → 'happiness', 'unhappy', 'happily'.\n- Contrasts with {複合語|ふくごうご} ('compound word'), which joins two independent words rather than adding an affix.\n\nCOMMON COLLOCATIONS:\n- {派生語|はせいご}を{覚|おぼ}える: to learn derivatives\n- {派生語|はせいご}{辞典|じてん}: dictionary of derivatives\n- {派生語|はせいご}を{含|ふく}む: to include derived words\n- {派生語|はせいご}の{一覧|いちらん}: a list of derivatives\n\nSIMILAR WORDS:\n- {複合語|ふくごうご}: compound word — formed by combining two independent words (e.g., {駅前|えきまえ}).\n- {類義語|るいぎご}: synonym — different word with similar meaning.\n- {同義語|どうぎご}: synonym — nearly synonymous alternative.\n- {語源|ごげん}: etymology; word origin — the historical source of a word.\n\nRELATED WORDS:\n- {派生|はせい}する: to derive; to originate from — the base verb.\n- {接頭辞|せっとうじ}: prefix.\n- {接尾辞|せつびじ}: suffix.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15939_ruigigo",
+      "reading": "るいぎご",
+      "headword": "{類義語|るいぎご}",
+      "label": "synonym"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26263_dougigo",
+      "reading": "どうぎご",
+      "headword": "{同義語|どうぎご}",
+      "label": "synonym"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14215_gogen",
+      "reading": "ごげん",
+      "headword": "{語源|ごげん}",
+      "label": "etymology"
+    },
+    {
+      "type": "related",
+      "target_id": "13325_hasei",
+      "reading": "はせい",
+      "headword": "{派生|はせい}",
+      "label": "to derive"
+    },
+    {
+      "type": "related",
+      "target_id": "16602_settouji",
+      "reading": "せっとうじ",
+      "headword": "{接頭辞|せっとうじ}",
+      "label": "prefix."
+    },
+    {
+      "type": "related",
+      "target_id": "16601_setsubiji",
+      "reading": "せつびじ",
+      "headword": "{接尾辞|せつびじ}",
+      "label": "suffix."
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +103,6 @@
       ]
     },
     "created": "2026-04-15T07:13:37Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

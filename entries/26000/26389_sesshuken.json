@@ -17,7 +17,9 @@
       "id": "26389_sesshuken_ex1",
       "japanese": "{接種券|せっしゅけん}が{届|とど}いた。",
       "english": "The vaccination voucher arrived.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26389_sesshuken_ex2",
       "japanese": "{接種券|せっしゅけん}を{持|も}って{病院|びょういん}に{行|い}ってください。",
       "english": "Please bring your vaccination voucher to the hospital.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26389_sesshuken_ex3",
       "japanese": "{引越|ひっこ}しをしたら、{新|あたら}しい{市区町村|しくちょうそん}で{接種券|せっしゅけん}を{再発行|さいはっこう}してもらう{必要|ひつよう}がある。",
       "english": "If you move, you need to have a new vaccination voucher reissued by your new municipality.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {接種|せっしゅ} (vaccination, inoculation) and {券|けん} (ticket, voucher). This term became widely known during the COVID-19 pandemic when Japan distributed vaccination vouchers to all residents through their registered municipalities.\n\nThe voucher system reflects Japan's municipal-based healthcare administration. Vouchers are typically mailed to residents and contain a barcode or number linked to the person's vaccination records. They are used for flu shots, childhood immunizations, and other public health campaigns as well.\n\nCOMMON COLLOCATIONS:\n- {接種券|せっしゅけん}を{受|う}け{取|と}る: to receive a vaccination voucher\n- {接種券|せっしゅけん}を{再発行|さいはっこう}する: to reissue a vaccination voucher\n- {接種券|せっしゅけん}{付|つ}きの{予診票|よしんひょう}: pre-examination questionnaire with voucher attached\n\nSIMILAR WORDS:\n- {予診票|よしんひょう}: pre-vaccination questionnaire — filled out before receiving a shot\n- {接種|せっしゅ}{証明書|しょうめいしょ}: vaccination certificate — proof of vaccination\n- {予防接種|よぼうせっしゅ}: preventive vaccination — the general term for immunization",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30034_yoshinhyou",
+      "reading": "よしんひょう",
+      "headword": "予診票",
+      "label": "pre-vaccination questionnaire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11068_yobousesshu",
+      "reading": "よぼうせっしゅ",
+      "headword": "{予防接種|よぼうせっしゅ}",
+      "label": "preventive vaccination"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["health", "daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "health",
+        "daily-life"
+      ]
     },
     "created": "2026-05-01T13:33:57Z",
-    "modified": "2026-05-01T13:33:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

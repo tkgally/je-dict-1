@@ -19,7 +19,9 @@
       "english": "A group of tourists arrived by bus.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17069_dantaikyaku_ex2",
@@ -27,7 +29,9 @@
       "english": "This inn frequently hosts group customers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17069_dantaikyaku_ex3",
@@ -35,7 +39,9 @@
       "english": "During the autumn foliage season, temples get crowded with tour groups.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCommonly used in tourism and hospitality. Hotels, restaurants, and tourist sites often have special rates and arrangements for {団体客|だんたいきゃく}.\n\nCOMMON COLLOCATIONS:\n- {団体客|だんたいきゃく}{向|む}け (aimed at groups)\n- {団体客|だんたいきゃく}{割引|わりびき} (group discount)\n- {海外|かいがい}からの{団体客|だんたいきゃく} (group tourists from abroad)\n\nSIMILAR WORDS:\n- {個人客|こじんきゃく}: individual customer — a single traveler or small private group\n- {観光客|かんこうきゃく}: tourist — any tourist, whether traveling alone or in a group",
@@ -46,18 +52,37 @@
       "reading": "かんこうきゃく",
       "headword": "{観光客|かんこうきゃく}",
       "label": "tourist (individual or group)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26436_kojinkyaku",
+      "reading": "こじんきゃく",
+      "headword": "{個人|こじん}{客|きゃく}",
+      "label": "individual customer"
+    },
+    {
+      "type": "related",
+      "target_id": "25781_hitorikyaku",
+      "reading": "ひとりきゃく",
+      "headword": "{一人客|ひとりきゃく}",
+      "label": "solo customer"
     }
   ],
   "metadata": {
     "created": "2026-03-15T09:49:32Z",
-    "modified": "2026-05-05T08:12:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "travel"]
+      "semantic": [
+        "person",
+        "travel"
+      ]
     }
   }
 }

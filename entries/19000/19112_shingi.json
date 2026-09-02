@@ -3,7 +3,7 @@
   "headword": "{審議|しんぎ}",
   "reading": "しんぎ",
   "romaji": "shingi",
-  "part_of_speech": "noun; verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "deliberation; discussion",
   "conjugation": {
     "type": "suru",
@@ -134,8 +134,45 @@
       "notes": null
     }
   ],
-  "notes": "A formal word used mainly in legislative, judicial, and administrative contexts.\n\nCOMMON COLLOCATIONS:\n- {審議|しんぎ}する: to deliberate\n- {審議|しんぎ}に{入|はい}る: to enter deliberation\n- {審議|しんぎ}{中|ちゅう}: under deliberation\n- {審議|しんぎ}を{尽|つ}くす: to deliberate thoroughly\n- {審議|しんぎ}{会|かい}: deliberation council\n\nHOMOPHONE:\n{真偽|しんぎ} (truth or falsehood) is pronounced the same but has a completely different meaning.\n\nSIMILAR WORDS:\n- {審議|しんぎ}: formal deliberation (legislature, committee)\n- {議論|ぎろん}: discussion, debate (general)\n- {検討|けんとう}: examination, consideration (less formal)",
+  "notes": "A formal word used mainly in legislative, judicial, and administrative contexts.\n\nCOMMON COLLOCATIONS:\n- {審議|しんぎ}する: to deliberate\n- {審議|しんぎ}に{入|はい}る: to enter deliberation\n- {審議|しんぎ}{中|ちゅう}: under deliberation\n- {審議|しんぎ}を{尽|つ}くす: to deliberate thoroughly\n- {審議|しんぎ}{会|かい}: deliberation council\n\nWATCH OUT:\n{真偽|しんぎ} (truth or falsehood) is pronounced the same but has a completely different meaning.\n\nSIMILAR WORDS:\n- {審議|しんぎ}: formal deliberation (legislature, committee)\n- {議論|ぎろん}: discussion, debate (general)\n- {検討|けんとう}: examination, consideration (less formal)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02650_giron",
+      "reading": "ぎろん",
+      "headword": "{議論|ぎろん}",
+      "label": "discussion, debate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02710_kentou",
+      "reading": "けんとう",
+      "headword": "{検討|けんとう}",
+      "label": "examination, consideration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05100_touron",
+      "reading": "とうろん",
+      "headword": "{討論|とうろん}",
+      "label": "debate, discussion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20270_shitsugi",
+      "reading": "しつぎ",
+      "headword": "{質疑|しつぎ}",
+      "label": "questioning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25322_tougi",
+      "reading": "とうぎ",
+      "headword": "{討議|とうぎ}",
+      "label": "discussion"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -154,6 +191,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-24T09:58:17Z",
-    "modified": "2026-03-27T03:48:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{局限|きょくげん}",
   "reading": "きょくげん",
   "romaji": "kyokugen",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "restriction; localization; confinement to a limited area",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {局|きょく} (bureau/limited area) + {限|げん} (limit). Functions both as a noun and as a する verb ({局限|きょくげん}する: to confine/restrict). Commonly encountered in medical, military, and academic writing.\n\nCOMMON COLLOCATIONS:\n- ～に{局限|きょくげん}される: to be confined to...\n- ～に{局限|きょくげん}する: to confine/restrict to...\n- {局限|きょくげん}された{範囲|はんい}: restricted range\n- {局限|きょくげん}{性|せい}: localized nature\n\nSIMILAR WORDS:\n- {極限|きょくげん}: extreme limit; utmost — same pronunciation but completely different meaning; refers to the ultimate boundary of capacity\n- {限定|げんてい}: limitation; restriction — more common in everyday use, often for products or offers\n- {制限|せいげん}: restriction; limitation — broader, used for rules and regulations",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "13231_kyokugen",
+      "reading": "きょくげん",
+      "headword": "{極限|きょくげん}",
+      "label": "extreme limit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10997_gentei",
+      "reading": "げんてい",
+      "headword": "{限定|げんてい}",
+      "label": "limitation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03375_seigen",
+      "reading": "せいげん",
+      "headword": "{制限|せいげん}",
+      "label": "restriction"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +88,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-21T10:31:43Z",
-    "modified": "2026-04-21T10:31:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

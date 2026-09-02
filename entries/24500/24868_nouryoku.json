@@ -3,7 +3,7 @@
   "headword": "{濃緑|のうりょく}",
   "reading": "のうりょく",
   "romaji": "nouryoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "dark green; deep green",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "24868_nouryoku_ex1",
       "japanese": "{濃緑|のうりょく}の{森|もり}が{広|ひろ}がっていた。",
       "english": "A deep green forest stretched out before us.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24868_nouryoku_ex2",
       "japanese": "{夏|なつ}になると{葉|は}が{濃緑|のうりょく}{色|しょく}に{変|か}わる。",
       "english": "In summer, the leaves turn a deep green color.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "24868_nouryoku_ex3",
       "japanese": "{濃緑|のうりょく}の{制服|せいふく}を{着|き}た{生徒|せいと}たちが{校門|こうもん}をくぐっていった。",
       "english": "Students wearing dark green uniforms walked through the school gate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {濃|のう} (dense/thick/dark) + {緑|りょく} (green). The on'yomi reading {のうりょく} is a homophone of {能力|のうりょく} (ability), so context is needed to distinguish them.\n\nCOMMON COLLOCATIONS:\n- {濃緑|のうりょく}{色|しょく}: dark green color\n- {濃緑|のうりょく}の{葉|は}: dark green leaves\n- {濃緑|のうりょく}の{森|もり}: deep green forest\n\nRELATED COLOR WORDS:\n- {深緑|しんりょく}/{深緑|ふかみどり}: deep green — near-synonym; {深緑|ふかみどり} is the native reading\n- {新緑|しんりょく}: fresh green (of new leaves in spring) — bright and light, the opposite mood\n- {淡緑|たんりょく}: light green; pale green — the opposite intensity\n- {黄緑|きみどり}: yellow-green — lighter and warmer",
+  "notes": "Composed of {濃|のう} (dense/thick/dark) + {緑|りょく} (green). The on'yomi reading のうりょく is a homophone of {能力|のうりょく} (ability), so context is needed to distinguish them.\n\nCOMMON COLLOCATIONS:\n- {濃緑|のうりょく}{色|しょく}: dark green color\n- {濃緑|のうりょく}の{葉|は}: dark green leaves\n- {濃緑|のうりょく}の{森|もり}: deep green forest\n\nRELATED COLOR WORDS:\n- {深緑|しんりょく}/{深緑|ふかみどり}: deep green — near-synonym; {深緑|ふかみどり} is the native reading\n- {新緑|しんりょく}: fresh green (of new leaves in spring) — bright and light, the opposite mood\n- {淡緑|たんりょく}: light green; pale green — the opposite intensity\n- {黄緑|きみどり}: yellow-green — lighter and warmer",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20363_fukamidori",
+      "reading": "ふかみどり",
+      "headword": "{深緑|ふかみどり}",
+      "label": "deep green"
+    },
+    {
+      "type": "related",
+      "target_id": "12724_shinryoku",
+      "reading": "しんりょく",
+      "headword": "{新緑|しんりょく}",
+      "label": "fresh green"
+    },
+    {
+      "type": "related",
+      "target_id": "15605_kimidori",
+      "reading": "きみどり",
+      "headword": "{黄緑|きみどり}",
+      "label": "yellow-green"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["color"]
+      "semantic": [
+        "color"
+      ]
     },
     "created": "2026-04-21T10:34:00Z",
-    "modified": "2026-06-15T07:59:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

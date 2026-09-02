@@ -2,7 +2,7 @@
   "id": "30688_funade",
   "headword": "{船出|ふなで}",
   "reading": "ふなで",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "setting sail; departure by ship; a new start",
   "definitions": [
     {
@@ -80,6 +80,29 @@
   ],
   "notes": "{船|ふね} + {出|で}る, with the compound reading ふなで. Used as a noun and with する.\n\nCOMMON COLLOCATIONS:\n- {船出|ふなで}する: to set sail; to make a fresh start\n- {新|あたら}しい{船出|ふなで}: a new beginning\n- {人生|じんせい}の{船出|ふなで}: the start of a new chapter in life\n- {船出|ふなで}を{祝|いわ}う: to celebrate someone's new start\n\nSIMILAR WORDS:\n- {出港|しゅっこう}: departure from port — the plain factual term used in schedules and news\n- {門出|かどで}: setting out — the same congratulatory use, without the nautical image\n- {出発|しゅっぱつ}: departure — the general word for any kind of setting off",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11764_shukkou",
+      "reading": "しゅっこう",
+      "headword": "{出港|しゅっこう}",
+      "label": "departure from port"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15268_kadode",
+      "reading": "かどで",
+      "headword": "{門出|かどで}",
+      "label": "setting out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02085_shuppatsu",
+      "reading": "しゅっぱつ",
+      "headword": "{出発|しゅっぱつ}",
+      "label": "departure"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -88,7 +111,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "transportation",
         "change"
@@ -97,7 +120,7 @@
       "verb_class": "suru"
     },
     "created": "2026-08-16T06:19:38Z",
-    "modified": "2026-08-16T06:19:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

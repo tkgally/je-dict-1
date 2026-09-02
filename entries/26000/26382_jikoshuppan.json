@@ -3,7 +3,7 @@
   "headword": "{自己出版|じこしゅっぱん}",
   "reading": "じこしゅっぱん",
   "romaji": "jikoshuppan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "self-publishing",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Composed of {自己|じこ} (self) and {出版|しゅっぱん} (publishing). In Japan, self-publishing has traditionally been done through {自費出版|じひしゅっぱん} (paying out of pocket for a publisher's services), but {自己出版|じこしゅっぱん} has come to refer more specifically to the modern model where the author handles everything independently, especially through digital platforms.\n\nCOMMON COLLOCATIONS:\n- {自己出版|じこしゅっぱん}する: to self-publish\n- {自己出版|じこしゅっぱん}の{本|ほん}: self-published book\n- {電子書籍|でんししょせき}の{自己出版|じこしゅっぱん}: e-book self-publishing\n\nSIMILAR WORDS:\n- {自費出版|じひしゅっぱん}: vanity publishing — paying a publisher to produce your book; the traditional Japanese model\n- {商業出版|しょうぎょうしゅっぱん}: commercial publishing — the publisher bears costs and selects manuscripts\n- {同人誌|どうじんし}: doujinshi — self-published fan works or indie magazines, a major Japanese subculture",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23968_jihishuppan",
+      "reading": "じひしゅっぱん",
+      "headword": "{自費|じひ}{出版|しゅっぱん}",
+      "label": "vanity publishing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26541_shougyoushuppan",
+      "reading": "しょうぎょうしゅっぱん",
+      "headword": "{商業出版|しょうぎょうしゅっぱん}",
+      "label": "commercial publishing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07326_doujinshi",
+      "reading": "どうじんし",
+      "headword": "{同人誌|どうじんし}",
+      "label": "doujinshi"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +76,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "culture",
         "media"
@@ -61,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-01T13:31:15Z",
-    "modified": "2026-05-01T13:31:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -3,7 +3,7 @@
   "headword": "{密会|みっかい}",
   "reading": "みっかい",
   "romaji": "mikkai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "secret meeting; clandestine rendezvous",
   "definitions": [
     {
@@ -52,6 +52,13 @@
       "reading": "おうせ",
       "headword": "{逢瀬|おうせ}",
       "label": "tryst (literary/poetic)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17980_mitsudan",
+      "reading": "みつだん",
+      "headword": "{密談|みつだん}",
+      "label": "secret talk"
     }
   ],
   "schema_version": "2.0",
@@ -62,13 +69,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "society"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-25T14:20:18Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

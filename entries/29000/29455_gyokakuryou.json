@@ -17,7 +17,9 @@
       "id": "29455_gyokakuryou_ex1",
       "japanese": "{漁獲量|ぎょかくりょう}が{減|へ}る。",
       "english": "for the catch to decline.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29455_gyokakuryou_ex2",
       "japanese": "{今年|ことし}はサンマの{漁獲量|ぎょかくりょう}が{少|すく}ない。",
       "english": "The saury catch is small this year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29455_gyokakuryou_ex3",
       "japanese": "{海水温|かいすいおん}の{上昇|じょうしょう}が{漁獲量|ぎょかくりょう}に{大|おお}きく{影響|えいきょう}している。",
       "english": "Rising sea temperatures are greatly affecting the size of catches.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Usually measured by weight (tons or kilograms); central to fisheries statistics and resource management.\n\nCOMMON COLLOCATIONS:\n- {漁獲量|ぎょかくりょう}が{増|ふ}える: for the catch to grow\n- {漁獲量|ぎょかくりょう}が{落|お}ち{込|こ}む: for the catch to slump\n- {漁獲量|ぎょかくりょう}を{制限|せいげん}する: to limit the catch\n\nSIMILAR WORDS:\n- {水揚|みずあ}げ: landings — the catch brought into port, often discussed by value\n- {収穫量|しゅうかくりょう}: harvest yield — the parallel term for crops",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18504_mizuage",
+      "reading": "みずあげ",
+      "headword": "{水揚|みずあ}げ",
+      "label": "landings"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29470_shuukakuryou",
+      "reading": "しゅうかくりょう",
+      "headword": "{収穫量|しゅうかくりょう}",
+      "label": "harvest yield"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["quantity"],
+      "politeness": "plain",
+      "semantic": [
+        "quantity"
+      ],
       "domain": []
     },
     "created": "2026-06-24T00:19:16Z",
-    "modified": "2026-06-24T00:19:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

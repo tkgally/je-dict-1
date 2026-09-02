@@ -19,7 +19,9 @@
       "english": "Steam is rising from the hot water.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13263_suijouki_ex2",
@@ -27,7 +29,9 @@
       "english": "The water vapor cooled and turned into droplets.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13263_suijouki_ex3",
@@ -35,22 +39,38 @@
       "english": "A large amount of steam was gushing from the volcanic crater.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nIn everyday Japanese, {水蒸気|すいじょうき} refers to both the invisible gaseous state of water and the visible white mist (which is technically tiny water droplets). In scientific usage, {水蒸気|すいじょうき} strictly means the invisible gas. The word {湯気|ゆげ} is the everyday term for visible steam rising from hot liquids.\n\nCOMMON COLLOCATIONS:\n- {水蒸気|すいじょうき}が{発生|はっせい}する: steam is generated\n- {水蒸気|すいじょうき}{爆発|ばくはつ}: steam explosion (phreatic eruption)\n- {水蒸気|すいじょうき}を{含|ふく}む: to contain water vapor\n- {大気中|たいきちゅう}の{水蒸気|すいじょうき}: atmospheric water vapor",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03991_yuge",
+      "reading": "ゆげ",
+      "headword": "{湯気|ゆげ}",
+      "label": "steam"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T07:28:48Z",
-    "modified": "2026-02-24T07:28:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"],
-      "domain": ["academic"]
+      "semantic": [
+        "weather"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

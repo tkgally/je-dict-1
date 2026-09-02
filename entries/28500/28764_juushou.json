@@ -17,7 +17,9 @@
       "id": "28764_juushou_ex1",
       "japanese": "{二重唱|にじゅうしょう}を{披露|ひろう}した。",
       "english": "They performed a duet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28764_juushou_ex2",
       "japanese": "{四重唱|しじゅうしょう}は{四人|よにん}の{歌|うた}{手|て}で{構成|こうせい}される。",
       "english": "A vocal quartet is made up of four singers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28764_juushou_ex3",
       "japanese": "オペラの{重唱|じゅうしょう}は、{登場人物|とうじょうじんぶつ}の{心理|しんり}を{重|かさ}ね{合|あ}わせて{表現|ひょうげん}する。",
       "english": "Vocal ensembles in opera layer the inner thoughts of the characters together.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {重|じゅう} (layer; multiple) + {唱|しょう} (singing). Number prefixes specify the size: {二重唱|にじゅうしょう} (duet), {三重唱|さんじゅうしょう} (trio), {四重唱|しじゅうしょう} (quartet).\n\nCOMMON COLLOCATIONS:\n- {二重唱|にじゅうしょう}: duet\n- {三重唱|さんじゅうしょう}: trio\n- {四重唱|しじゅうしょう}: quartet\n- {重唱|じゅうしょう}を{披露|ひろう}する: to perform an ensemble piece\n\nSIMILAR WORDS:\n- {合唱|がっしょう}: chorus; choral singing — multiple singers per part\n- {独唱|どくしょう}: solo singing — a single singer with accompaniment\n- {重奏|じゅうそう}: instrumental ensemble — same idea but with instruments (string quartet = {弦楽四重奏|げんがくしじゅうそう})",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04900_gasshou",
+      "reading": "がっしょう",
+      "headword": "{合唱|がっしょう}",
+      "label": "chorus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05232_dokushou",
+      "reading": "どくしょう",
+      "headword": "{独唱|どくしょう}",
+      "label": "solo singing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["music"],
+      "politeness": "plain",
+      "semantic": [
+        "music"
+      ],
       "domain": []
     },
     "created": "2026-06-05T02:07:15Z",
-    "modified": "2026-06-05T02:07:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

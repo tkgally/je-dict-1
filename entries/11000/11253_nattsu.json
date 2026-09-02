@@ -19,7 +19,9 @@
       "english": "I bought mixed nuts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11253_nattsu_ex2",
@@ -27,7 +29,9 @@
       "english": "Nuts are rich in nutrients and perfect as a snack.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11253_nattsu_ex3",
@@ -35,21 +39,35 @@
       "english": "I have a nut allergy, so I always check the ingredients.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nナッツ is the standard loanword for nuts as a food category. Individual nut types also use loanwords: アーモンド (almond), カシューナッツ (cashew), マカダミアナッツ (macadamia), ピーナッツ (peanut). The native word {木|き}の{実|み} also means nuts/tree nuts but has a broader meaning that includes acorns and other non-edible seeds.\n\nCOMMON COLLOCATIONS:\n- ミックスナッツ: mixed nuts\n- ナッツアレルギー: nut allergy\n- ナッツ{類|るい}: nut varieties\n- {素焼|すや}きナッツ: plain roasted nuts (unsalted, no oil)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26619_shujitsu",
+      "reading": "しゅじつ",
+      "headword": "{種実|しゅじつ}",
+      "label": "nuts and seeds"
+    }
+  ],
   "metadata": {
     "created": "2026-02-15T09:16:30Z",
-    "modified": "2026-02-15T09:16:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

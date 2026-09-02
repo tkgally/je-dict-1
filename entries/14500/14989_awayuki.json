@@ -19,7 +19,9 @@
       "english": "Light snow is fluttering down.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14989_awayuki_ex2",
@@ -27,7 +29,9 @@
       "english": "The light morning snow had disappeared by noon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14989_awayuki_ex3",
@@ -35,22 +39,45 @@
       "english": "The light snow that had accumulated in the garden was sparkling in the sunlight.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{淡雪|あわゆき} refers to light, delicate snow that melts easily. It carries a poetic, literary nuance and is frequently used in haiku and classical literature to symbolize transience.\n\nCOMMON COLLOCATIONS:\n- {淡雪|あわゆき}が{降|ふ}る (light snow falls)\n- {淡雪|あわゆき}が{舞|ま}う (light snow flutters)\n- {淡雪|あわゆき}が{消|き}える (light snow melts away)\n\nSIMILAR WORDS:\n- {淡雪|あわゆき}: light, delicate snow that melts quickly (poetic)\n- {粉雪|こなゆき}: powdery snow, fine dry snow\n- {初雪|はつゆき}: first snow of the season",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13858_konayuki",
+      "reading": "こなゆき",
+      "headword": "{粉雪|こなゆき}",
+      "label": "powdery snow, fine dry snow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11784_hatsuyuki",
+      "reading": "はつゆき",
+      "headword": "{初雪|はつゆき}",
+      "label": "first snow of the season"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T11:05:50Z",
-    "modified": "2026-03-04T11:05:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"],
-      "style": ["literary"]
+      "semantic": [
+        "weather"
+      ],
+      "style": [
+        "literary"
+      ]
     }
   }
 }

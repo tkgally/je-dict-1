@@ -17,7 +17,9 @@
       "id": "28239_chikusangyou_ex1",
       "japanese": "この{地域|ちいき}は{畜産業|ちくさんぎょう}が{盛|さか}んだ。",
       "english": "The livestock industry is thriving in this region.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28239_chikusangyou_ex2",
       "japanese": "{飼料|しりょう}の{値上|ねあ}がりが{畜産業|ちくさんぎょう}を{圧迫|あっぱく}している。",
       "english": "Rising feed prices are squeezing the livestock industry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28239_chikusangyou_ex3",
       "japanese": "{家族|かぞく}は{代々|だいだい}{畜産業|ちくさんぎょう}を{営|いとな}み、{乳牛|にゅうぎゅう}を{育|そだ}てている。",
       "english": "My family has run a livestock business for generations, raising dairy cows.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {畜産|ちくさん} (livestock raising) + {業|ぎょう} (industry, business).\n\nCOMMON COLLOCATIONS:\n- {畜産業|ちくさんぎょう}が{盛|さか}んだ: the livestock industry is thriving\n- {畜産業|ちくさんぎょう}を{営|いとな}む: to run a livestock business\n\nSIMILAR WORDS:\n- {農業|のうぎょう}: agriculture — broader; growing crops as well as raising animals\n- {酪農|らくのう}: dairy farming — a specific branch focused on milk-producing animals",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01491_nougyou",
+      "reading": "のうぎょう",
+      "headword": "{農業|のうぎょう}",
+      "label": "agriculture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06104_rakunou",
+      "reading": "らくのう",
+      "headword": "{酪農|らくのう}",
+      "label": "dairy farming"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-27T04:08:18Z",
-    "modified": "2026-05-27T04:08:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

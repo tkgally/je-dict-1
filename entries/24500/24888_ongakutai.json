@@ -17,7 +17,9 @@
       "id": "24888_ongakutai_ex1",
       "japanese": "{陸上自衛隊|りくじょうじえいたい}{音楽隊|おんがくたい}の{演奏|えんそう}を{聴|き}いた。",
       "english": "I listened to a performance by the Ground Self-Defense Force band.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24888_ongakutai_ex2",
       "japanese": "パレードで{音楽隊|おんがくたい}が{先頭|せんとう}を{歩|ある}いた。",
       "english": "The marching band led the parade.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "24888_ongakutai_ex3",
       "japanese": "{警察|けいさつ}{音楽隊|おんがくたい}が{市民|しみん}コンサートを{開|ひら}いて{地域|ちいき}の{交流|こうりゅう}を{深|ふか}めている。",
       "english": "The police band holds community concerts to deepen ties with local residents.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {音楽|おんがく} (music) + {隊|たい} (corps/squad/group). The suffix {隊|たい} gives this word a structured, organizational feel, distinguishing it from casual music groups.\n\nCOMMON COLLOCATIONS:\n- {軍|ぐん}{楽隊|がくたい}/{音楽隊|おんがくたい}: military band\n- {警察|けいさつ}{音楽隊|おんがくたい}: police band\n- {自衛隊|じえいたい}{音楽隊|おんがくたい}: Self-Defense Forces band\n- {音楽隊|おんがくたい}の{演奏|えんそう}: band performance\n- {音楽隊|おんがくたい}{員|いん}: band member\n\nCULTURAL NOTE:\nIn Japan, the {自衛隊|じえいたい}{音楽隊|おんがくたい} (Self-Defense Forces bands) are well known and regularly perform free public concerts. Each branch of the SDF has its own {音楽隊|おんがくたい}. Their concerts are popular community events.\n\nSIMILAR WORDS:\n- バンド: band (loanword) — typically refers to rock/pop bands\n- {楽団|がくだん}: orchestra; musical ensemble — classical or jazz ensembles\n- {楽隊|がくたい}: band; musical group — similar meaning but slightly older-fashioned\n- {吹奏楽|すいそうがく}{部|ぶ}: wind ensemble club — school club for wind instruments",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05508_bando",
+      "reading": "ばんど",
+      "headword": "バンド",
+      "label": "band"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13181_gakudan",
+      "reading": "がくだん",
+      "headword": "{楽団|がくだん}",
+      "label": "orchestra"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27464_suisougakubu",
+      "reading": "すいそうがくぶ",
+      "headword": "{吹奏楽部|すいそうがくぶ}",
+      "label": "wind ensemble club"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["music", "military"]
+      "semantic": [
+        "music",
+        "military"
+      ]
     },
     "created": "2026-04-21T11:26:30Z",
-    "modified": "2026-04-21T11:26:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

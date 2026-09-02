@@ -17,7 +17,9 @@
       "id": "23188_gunkaku_ex1",
       "japanese": "{軍拡|ぐんかく}{競争|きょうそう}が{激|はげ}しくなっている。",
       "english": "The arms race is intensifying.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23188_gunkaku_ex2",
       "japanese": "{周辺国|しゅうへんこく}の{軍拡|ぐんかく}に{懸念|けねん}を{示|しめ}した。",
       "english": "They expressed concern about the military buildup of neighboring countries.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "23188_gunkaku_ex3",
       "japanese": "{軍拡|ぐんかく}か{軍縮|ぐんしゅく}かで{国内|こくない}の{意見|いけん}が{分|わ}かれている。",
       "english": "Domestic opinion is divided over whether to expand or reduce the military.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "An abbreviation of {軍備|ぐんび}{拡張|かくちょう} (military expansion). Frequently used in news and political discourse about defense policy and international security.\n\nCOMMON COLLOCATIONS:\n- {軍拡|ぐんかく}{競争|きょうそう}: arms race\n- {軍拡|ぐんかく}{路線|ろせん}: expansionist military policy\n- {軍拡|ぐんかく}{予算|よさん}: military expansion budget\n\nSIMILAR WORDS:\n- {軍縮|ぐんしゅく}: disarmament, military reduction — the opposite; abbreviation of {軍備|ぐんび}{縮小|しゅくしょう}\n- {軍備|ぐんび}: armament, military preparedness — the broader concept of military equipment and readiness\n- {再軍備|さいぐんび}: rearmament — rebuilding military forces after disarmament",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "24085_gunshuku",
+      "reading": "ぐんしゅく",
+      "headword": "{軍縮|ぐんしゅく}",
+      "label": "disarmament, military reduction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22011_gunbi",
+      "reading": "ぐんび",
+      "headword": "{軍備|ぐんび}",
+      "label": "armament, military preparedness"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["politics", "military"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "politics",
+        "military"
+      ],
       "formality": "formal",
       "politeness": "plain"
     },
     "created": "2026-04-08T21:25:58Z",
-    "modified": "2026-04-08T21:25:58Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

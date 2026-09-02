@@ -64,10 +64,46 @@
     }
   ],
   "notes": "{睡眠|すいみん} is the formal/medical term for sleep.\n\nCOMMON COLLOCATIONS:\n- {睡眠|すいみん}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to get sleep)\n- {睡眠|すいみん}⟦{不足|ぶそく}→不足：03598_fusoku⟧ (lack of sleep, sleep deprivation)\n- {睡眠|すいみん}⟦{時間|じかん}→時間：00468_jikan⟧ (sleep time, hours of sleep)\n- {睡眠|すいみん}⟦{障害|しょうがい}→障害：03228_shougai⟧ (sleep disorder)\n- {睡眠|すいみん}⟦の→の：09472_no⟧⟦{質|しつ}→質：01425_shitsu⟧ (sleep quality)\n- {睡眠|すいみん}⟦{薬|くすり}→薬：00793_kusuri⟧ (sleeping pill)\n\nSIMILAR WORDS:\n- {睡眠|すいみん}: sleep (formal, medical term)\n- ⟦{眠|ねむ}り→眠り：13673_nemuri⟧: sleep (poetic, literary)\n- ⟦{眠|ねむ}る→眠る：01181_nemuru⟧: to sleep (verb, everyday usage)\n- ⟦{寝|ね}る→寝る：00470_neru⟧: to sleep, to go to bed (more casual)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13673_nemuri",
+      "reading": "ねむり",
+      "headword": "{眠|ねむ}り",
+      "label": "sleep"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01181_nemuru",
+      "reading": "ねむる",
+      "headword": "{眠|ねむ}る",
+      "label": "to sleep"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00470_neru",
+      "reading": "ねる",
+      "headword": "{寝|ね}る",
+      "label": "to sleep, to go to bed"
+    },
+    {
+      "type": "related",
+      "target_id": "08548_netsuki",
+      "reading": "ねつき",
+      "headword": "{寝|ね}つき",
+      "label": "ability to fall asleep"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20594_nyuumin",
+      "reading": "にゅうみん",
+      "headword": "{入眠|にゅうみん}",
+      "label": "falling asleep"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T06:37:15Z",
-    "modified": "2026-05-25T13:14:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

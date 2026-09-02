@@ -17,7 +17,9 @@
       "id": "22457_gaibun_ex1",
       "japanese": "{外聞|がいぶん}が{悪|わる}い。",
       "english": "It looks bad to others.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22457_gaibun_ex2",
       "japanese": "{外聞|がいぶん}を{気|き}にして{本音|ほんね}を{言|い}えない。",
       "english": "I can't say what I really think because I'm worried about appearances.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "22457_gaibun_ex3",
       "japanese": "{外聞|がいぶん}もはばからず{大声|おおごえ}で{泣|な}いてしまった。",
       "english": "I burst into tears loudly, not caring what anyone thought.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {外|がい} (outside) + {聞|ぶん} (what is heard). Literally means \"what is heard by those outside\" — i.e., one's reputation or how things appear to others. Frequently used in negative contexts, expressing concern about looking bad.\n\nCOMMON COLLOCATIONS:\n- {外聞|がいぶん}が{悪|わる}い: it looks bad (to others)\n- {外聞|がいぶん}を{気|き}にする: to worry about appearances\n- {外聞|がいぶん}もはばからず: without caring about appearances\n- {外聞|がいぶん}を{繕|つくろ}う: to keep up appearances\n\nSIMILAR WORDS:\n- {体裁|ていさい}: appearances — focuses on outward form and how things look on the surface\n- {世間体|せけんてい}: social appearances — one's standing in the eyes of the community; very close in meaning\n- {評判|ひょうばん}: reputation — based on actual evaluation by others, not just concern about image\n- {面目|めんもく}: honor, face — one's dignity or prestige in social contexts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09154_teisai",
+      "reading": "ていさい",
+      "headword": "{体裁|ていさい}",
+      "label": "appearances"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09157_sekentei",
+      "reading": "せけんてい",
+      "headword": "{世間体|せけんてい}",
+      "label": "social appearances"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03586_hyouban",
+      "reading": "ひょうばん",
+      "headword": "{評判|ひょうばん}",
+      "label": "reputation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["society"]
+      "semantic": [
+        "society"
+      ]
     },
     "created": "2026-04-06T12:12:20Z",
-    "modified": "2026-04-06T12:12:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "26994_sairen_ex1",
       "japanese": "{救急車|きゅうきゅうしゃ}のサイレンが{聞|き}こえた。",
       "english": "I heard the siren of an ambulance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26994_sairen_ex2",
       "japanese": "{正午|しょうご}になると{工場|こうじょう}のサイレンが{鳴|な}る。",
       "english": "The factory siren sounds at noon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,59 @@
       "id": "26994_sairen_ex3",
       "japanese": "{津波|つなみ}{警報|けいほう}のサイレンが{鳴|な}ったら、すぐに{高|たか}い{場所|ばしょ}へ{避難|ひなん}してください。",
       "english": "When the tsunami warning siren sounds, please evacuate to high ground immediately.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"siren.\" In Japan, sirens are encountered in several everyday contexts: emergency vehicles (ambulances, fire trucks, police cars), factory shift signals, and disaster warning systems. The noon siren ({正午|しょうご}のサイレン) is still heard in many communities.\n\nCOMMON COLLOCATIONS:\n- サイレンが{鳴|な}る: a siren sounds\n- サイレンを{鳴|な}らす: to sound a siren\n- {防災|ぼうさい}サイレン: disaster prevention siren\n- {消防車|しょうぼうしゃ}のサイレン: fire truck siren\n- サイレンの{音|おと}: the sound of a siren\n\nSIMILAR WORDS:\n- {警報|けいほう}: alarm; warning — a broader term that includes sirens but also announcements and signals\n- {非常|ひじょう}ベル: emergency bell — a different type of alarm, typically for fire alarms in buildings",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09515_keihou",
+      "reading": "けいほう",
+      "headword": "{警報|けいほう}",
+      "label": "alarm"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19859_hijouberu",
+      "reading": "ひじょうべる",
+      "headword": "{非常|ひじょう}ベル",
+      "label": "emergency bell"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22646_keiteki",
+      "reading": "けいてき",
+      "headword": "{警笛|けいてき}",
+      "label": "warning whistle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25750_kaitentou",
+      "reading": "かいてんとう",
+      "headword": "{回転灯|かいてんとう}",
+      "label": "rotating light"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool", "general"]
+      "semantic": [
+        "tool",
+        "general"
+      ]
     },
     "created": "2026-05-06T13:10:47Z",
-    "modified": "2026-05-06T13:10:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

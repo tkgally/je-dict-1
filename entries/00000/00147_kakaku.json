@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{価格|かかく} is the formal term for price, commonly used in business and official contexts.\n\nCONTRAST WITH SIMILAR WORDS:\n- {価格|かかく}: price (formal, business)\n- ⟦{値段|ねだん}→値段：00871_nedan⟧: price (everyday, casual)\n- ⟦{料金|りょうきん}→料金：03797_ryoukin⟧: fee, charge (for services)\n- ⟦{定価|ていか}→定価：04066_teika⟧: list price, fixed price\n- ⟦{原価|げんか}→原価：05470_genka⟧: cost price\n\nCOMMON EXPRESSIONS:\n- {価格|かかく}⟦{競争|きょうそう}→競争：01388_kyousou⟧: price competition\n- {価格|かかく}⟦{設定|せってい}→設定：04767_settei⟧: pricing\n- ⟦{適正|てきせい}→適正：09686_tekisei⟧{価格|かかく}: fair price\n- ⟦{市場|しじょう}→市場：09685_shijou⟧{価格|かかく}: market price\n- {価格|かかく}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧/⟦{下|さ}がる→下がる：01188_sagaru⟧: prices rise/fall\n\nUSAGE NOTE:\n{価格|かかく} sounds more formal than ⟦{値段|ねだん}→値段：00871_nedan⟧. Use ⟦{値段|ねだん}→値段：00871_nedan⟧ in casual conversation.",
+  "notes": "{価格|かかく} is the formal term for price, commonly used in business and official contexts.\n\nCONTRAST WITH SIMILAR WORDS:\n- {価格|かかく}: price (formal, business)\n- ⟦{値段|ねだん}→値段：00871_nedan⟧: price (everyday, casual)\n- ⟦{料金|りょうきん}→料金：03797_ryoukin⟧: fee, charge (for services)\n- ⟦{定価|ていか}→定価：04066_teika⟧: list price, fixed price\n- ⟦{原価|げんか}→原価：05470_genka⟧: cost price\n\nCOMMON EXPRESSIONS:\n- {価格|かかく}⟦{競争|きょうそう}→競争：01388_kyousou⟧: price competition\n- {価格|かかく}⟦{設定|せってい}→設定：04767_settei⟧: pricing\n- ⟦{適正|てきせい}→適正：09686_tekisei⟧{価格|かかく}: fair price\n- ⟦{市場|しじょう}→市場：09685_shijou⟧{価格|かかく}: market price\n- {価格|かかく}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧/⟦{下|さ}がる→下がる：01188_sagaru⟧: prices rise/fall\n\nUSAGE:\n{価格|かかく} sounds more formal than ⟦{値段|ねだん}→値段：00871_nedan⟧. Use ⟦{値段|ねだん}→値段：00871_nedan⟧ in casual conversation.",
   "cross_references": [
     {
       "type": "synonym",
@@ -78,11 +78,39 @@
       "reading": "りょうきん",
       "headword": "{料金|りょうきん}",
       "label": "fee, charge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04066_teika",
+      "reading": "ていか",
+      "headword": "{定価|ていか}",
+      "label": "list price, fixed price"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05470_genka",
+      "reading": "げんか",
+      "headword": "{原価|げんか}",
+      "label": "cost price"
+    },
+    {
+      "type": "related",
+      "target_id": "00131_kachi",
+      "reading": "かち",
+      "headword": "{価値|かち}",
+      "label": "value, worth"
+    },
+    {
+      "type": "related",
+      "target_id": "09532_nefuda",
+      "reading": "ねふだ",
+      "headword": "{値札|ねふだ}",
+      "label": "price tag"
     }
   ],
   "metadata": {
     "created": "2026-01-10T08:42:54Z",
-    "modified": "2026-03-31T07:54:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

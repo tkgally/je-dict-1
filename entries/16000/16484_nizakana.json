@@ -19,7 +19,9 @@
       "english": "Dinner tonight is simmered fish.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16484_nizakana_ex2",
@@ -27,7 +29,9 @@
       "english": "My mother's simmered fish is the best.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16484_nizakana_ex3",
@@ -35,7 +39,9 @@
       "english": "When I ordered the simmered fish set meal at the restaurant, they served simmered golden-eye snapper.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA classic component of Japanese home cooking ({家庭料理|かていりょうり}). Common fish used for {煮魚|にざかな} include {鯖|さば} (mackerel), {鰈|かれい} (flounder), and {金目鯛|きんめだい} (golden-eye snapper). The cooking method is called {煮付|につ}け.\n\nCOMMON COLLOCATIONS:\n- {煮魚|にざかな}{定食|ていしょく} (simmered fish set meal)\n- {煮魚|にざかな}を{作|つく}る (to make simmered fish)\n\nSIMILAR WORDS:\n- {焼|や}き{魚|ざかな}: grilled fish — another staple of Japanese cuisine\n- {煮付|につ}け: simmered dish — the cooking method itself, can apply to fish or vegetables",
@@ -46,18 +52,37 @@
       "reading": "やきざかな",
       "headword": "{焼|や}き{魚|ざかな}",
       "label": "grilled fish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18831_nitsuke",
+      "reading": "につけ",
+      "headword": "{煮付|につ}け",
+      "label": "simmered dish"
+    },
+    {
+      "type": "related",
+      "target_id": "22075_namazakana",
+      "reading": "なまざかな",
+      "headword": "{生魚|なまざかな}",
+      "label": "raw fish"
     }
   ],
   "metadata": {
     "created": "2026-03-13T02:09:12Z",
-    "modified": "2026-05-04T04:08:05Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "cooking"]
+      "semantic": [
+        "food",
+        "cooking"
+      ]
     }
   }
 }

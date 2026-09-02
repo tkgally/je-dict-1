@@ -3,7 +3,7 @@
   "headword": "{短縮|たんしゅく}する",
   "reading": "たんしゅくする",
   "romaji": "tanshukusuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to shorten; to reduce; to cut down",
   "definitions": [
     {
@@ -55,7 +55,29 @@
     }
   ],
   "notes": "Primarily used for reducing time or duration rather than physical length. Very common in business and news contexts, especially regarding work reform ({働|はたら}き{方|かた}{改革|かいかく}).\n\nCOMMON COLLOCATIONS:\n- {時間|じかん}{短縮|たんしゅく}: time reduction\n- {工期|こうき}{短縮|たんしゅく}: shortened construction period\n- {短縮|たんしゅく}{営業|えいぎょう}: reduced business hours\n- URL{短縮|たんしゅく}: URL shortening\n- {距離|きょり}の{短縮|たんしゅく}: distance reduction\n\nSIMILAR WORDS:\n- {縮|ちぢ}める: to shrink — more physical; making something smaller\n- {省略|しょうりゃく}する: to abbreviate — omitting parts of text or speech\n- {削減|さくげん}する: to cut — reducing quantity or budget",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04245_chijimeru",
+      "reading": "ちぢめる",
+      "headword": "{縮|ちぢ}める",
+      "label": "to shrink"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03244_shouryaku",
+      "reading": "しょうりゃく",
+      "headword": "{省略|しょうりゃく}",
+      "label": "to abbreviate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25399_sakugensuru",
+      "reading": "さくげんする",
+      "headword": "{削減|さくげん}する",
+      "label": "to cut"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,7 +93,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T13:07:15Z",
-    "modified": "2026-08-06T12:46:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

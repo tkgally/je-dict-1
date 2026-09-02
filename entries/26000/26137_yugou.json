@@ -3,7 +3,7 @@
   "headword": "{癒合|ゆごう}",
   "reading": "ゆごう",
   "romaji": "yugou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "healing; fusion (of bones or tissue)",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Composed of {癒|ゆ} (heal, cure) and {合|ごう} (join, unite). A medical term most commonly encountered in discussions of bone fractures, surgical recovery, and wound healing.\n\nThe term describes the natural biological process where separated tissue grows back together. When this process fails or is incomplete, the condition is called {癒合不全|ゆごうふぜん} (non-union) or {遷延癒合|せんえんゆごう} (delayed union). In botany, {癒合|ゆごう} can also describe the natural fusion of plant parts.\n\nCOMMON COLLOCATIONS:\n- {骨|ほね}が{癒合|ゆごう}する: bones heal/fuse\n- {癒合|ゆごう}が{進|すす}む: healing progresses\n- {癒合|ゆごう}が{遅|おそ}い: healing is slow\n- {癒合不全|ゆごうふぜん}: non-union; failure to heal\n- {完全|かんぜん}{癒合|ゆごう}: complete healing/fusion\n\nSIMILAR WORDS:\n- {治癒|ちゆ}: healing, cure — broader term for recovery from illness or injury, not limited to tissue joining\n- {回復|かいふく}: recovery — general recovery of health or function\n- {接合|せつごう}: joining, bonding — a more general term for things joining together, used in both medical and non-medical contexts",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13303_chiyu",
+      "reading": "ちゆ",
+      "headword": "{治癒|ちゆ}",
+      "label": "healing, cure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03812_kaifuku",
+      "reading": "かいふく",
+      "headword": "{回復|かいふく}",
+      "label": "recovery"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -65,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-29T14:39:50Z",
-    "modified": "2026-08-05T09:30:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -46,12 +46,43 @@
   ],
   "notes": "The board used for {将棋|しょうぎ} (Japanese chess). Composed of {将棋|しょうぎ} (shogi) + {盤|ばん} (board). A standard {将棋盤|しょうぎばん} has a 9x9 grid of 81 squares. Professional and formal boards are thick blocks of wood, often made from {榧|かや} (Japanese torreya), and stand on four legs.\n\nTYPES:\n- {脚|あし}{付|つ}き{将棋盤|しょうぎばん} — leg-mounted shogi board (formal, sits on the floor)\n- {卓上|たくじょう}{将棋盤|しょうぎばん} — tabletop shogi board (thinner, placed on a table)\n- {折|お}り{畳|たた}み{将棋盤|しょうぎばん} — folding shogi board (portable, casual play)\n\nCOMMON COLLOCATIONS:\n- {将棋盤|しょうぎばん}に{向|む}かう — to sit down at the shogi board\n- {将棋盤|しょうぎばん}と{駒|こま} — shogi board and pieces\n- {将棋盤|しょうぎばん}を{挟|はさ}んで — across the shogi board (facing each other)\n\nSIMILAR WORDS:\n- {碁盤|ごばん} — go board (19x19 grid for the game of go)\n- {盤面|ばんめん} — board position/state (the current arrangement of pieces)\n- チェス{盤|ばん} — chess board",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13716_goban",
+      "reading": "ごばん",
+      "headword": "{碁盤|ごばん}",
+      "label": "go board"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21297_banmen",
+      "reading": "ばんめん",
+      "headword": "{盤面|ばんめん}",
+      "label": "board position/state"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26232_banjou",
+      "reading": "ばんじょう",
+      "headword": "{盤上|ばんじょう}",
+      "label": "on the board"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30035_igoban",
+      "reading": "いごばん",
+      "headword": "囲碁盤",
+      "label": "go board"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "leisure",
         "culture"
@@ -59,6 +90,6 @@
       "usage": []
     },
     "created": "2026-04-21T09:23:47Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

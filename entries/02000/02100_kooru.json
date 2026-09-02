@@ -44,10 +44,53 @@
     }
   ],
   "notes": "{凍|こお}る means to freeze, to become frozen.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Causative: {凍|こお}らせる (to freeze something)\n\nASPECT (ている):\n{凍|こお}っている indicates a frozen state: ⟦{水|みず}→水：02258_mizu⟧⟦が→が：00051_ga⟧{凍|こお}っている (the water is frozen).\n\nCOMMON PATTERNS:\n- ⟦{水|みず}→水：02258_mizu⟧⟦が→が：00051_ga⟧{凍|こお}る: water freezes\n- ⟦{湖|みずうみ}→湖：00867_mizuumi⟧⟦が→が：00051_ga⟧{凍|こお}る: the lake freezes\n- {凍|こお}りつく: to freeze solid\n- ⟦カチカチ→カチカチ：05719_kachikachi⟧に{凍|こお}る: to freeze rock-hard\n\nRELATED WORDS:\n- ⟦{氷|こおり}→氷：02753_koori⟧: ice\n- ⟦{冷凍|れいとう}→冷凍：11730_reitou⟧: freezing (for food preservation)\n- ⟦{冷凍庫|れいとうこ}→冷凍庫：14721_reitouko⟧: freezer\n- ⟦{凍結|とうけつ}→凍結：09613_touketsu⟧: freezing (roads), also 'freeze' (of accounts)\n\nFIGURATIVE:\n- ⟦{血|ち}→血：01659_chi⟧⟦が→が：00051_ga⟧{凍|こお}る: blood runs cold (from fear)\n- ⟦{場|ば}→場：03699_ba⟧⟦が→が：00051_ga⟧{凍|こお}る: the atmosphere freezes (awkward silence)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02753_koori",
+      "reading": "こおり",
+      "headword": "{氷|こおり}",
+      "label": "ice"
+    },
+    {
+      "type": "related",
+      "target_id": "11730_reitou",
+      "reading": "れいとう",
+      "headword": "{冷凍|れいとう}",
+      "label": "freezing"
+    },
+    {
+      "type": "related",
+      "target_id": "14721_reitouko",
+      "reading": "れいとうこ",
+      "headword": "{冷凍庫|れいとうこ}",
+      "label": "freezer"
+    },
+    {
+      "type": "related",
+      "target_id": "09613_touketsu",
+      "reading": "とうけつ",
+      "headword": "{凍結|とうけつ}",
+      "label": "freezing (roads), also 'freeze'"
+    },
+    {
+      "type": "related",
+      "target_id": "08560_shimobashira",
+      "reading": "しもばしら",
+      "headword": "{霜柱|しもばしら}",
+      "label": "frost pillars"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08668_gyouko",
+      "reading": "ぎょうこ",
+      "headword": "{凝固|ぎょうこ}",
+      "label": "solidification"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:29:05Z",
-    "modified": "2026-05-18T14:17:42Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

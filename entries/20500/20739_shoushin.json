@@ -3,7 +3,7 @@
   "headword": "{小心|しょうしん}",
   "reading": "しょうしん",
   "romaji": "shoushin",
-  "part_of_speech": "na-adjective",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "timid; faint-hearted; cowardly",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {小|しょう} (small) + {心|しん} (heart), literally 'small-hearted.' Carries a somewhat negative connotation, implying excessive timidity or lack of courage.\n\nCOMMON COLLOCATIONS:\n- {小心者|しょうしんもの}: a timid person, a coward\n- {小心|しょうしん}な{性格|せいかく}: a timid personality\n- {小心翼々|しょうしんよくよく}: extremely cautious and fearful (four-character idiom)\n\nUSAGE:\nOften used self-deprecatingly ({小心者|しょうしんもの}なので...) or to describe someone's hidden timidity that contrasts with their outward appearance.\n\nSIMILAR WORDS:\n- {臆病|おくびょう}: cowardly, chicken-hearted — stronger negative sense; more about fear of danger\n- {気|き}が{小|ちい}さい: timid, meek — more colloquial; literally 'having a small spirit'\n- {慎重|しんちょう}: cautious, careful — neutral to positive; prudent rather than fearful\n- {大胆|だいたん}: bold, daring — the direct opposite",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07608_okubyou",
+      "reading": "おくびょう",
+      "headword": "{臆病|おくびょう}",
+      "label": "cowardly, chicken-hearted"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03264_shinchou",
+      "reading": "しんちょう",
+      "headword": "{慎重|しんちょう}",
+      "label": "cautious, careful"
+    },
+    {
+      "type": "antonym",
+      "target_id": "07609_daitan",
+      "reading": "だいたん",
+      "headword": "{大胆|だいたん}",
+      "label": "bold, daring"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-03-30T14:31:34Z",
-    "modified": "2026-03-30T14:31:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

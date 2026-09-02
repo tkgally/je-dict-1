@@ -17,7 +17,9 @@
       "id": "24703_toujitsuyoyaku_ex1",
       "japanese": "{当日予約|とうじつよやく}はできますか。",
       "english": "Can I make a same-day reservation?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24703_toujitsuyoyaku_ex2",
       "japanese": "この{旅館|りょかん}は{当日予約|とうじつよやく}を{受|う}け{付|つ}けていない。",
       "english": "This inn doesn't accept same-day reservations.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "24703_toujitsuyoyaku_ex3",
       "japanese": "{人気|にんき}のレストランは{当日予約|とうじつよやく}だと{席|せき}が{取|と}れないことが{多|おお}い。",
       "english": "At popular restaurants, you often can't get a table with a same-day reservation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {当日|とうじつ} (that day, the day itself) and {予約|よやく} (reservation). A practical compound used frequently in daily life, travel, and service industries.\n\nCOMMON COLLOCATIONS:\n- {当日予約|とうじつよやく}が{可能|かのう}: same-day reservation possible\n- {当日予約|とうじつよやく}{不可|ふか}: no same-day reservations\n- {当日予約|とうじつよやく}を{受|う}け{付|つ}ける: to accept same-day reservations\n- {当日予約|とうじつよやく}{割引|わりびき}: same-day booking discount\n\nCONTRASTING TERMS:\n- {事前予約|じぜんよやく}: advance reservation — booking made ahead of time\n- {前日予約|ぜんじつよやく}: day-before reservation — booking made one day prior\n- {飛|と}び{込|こ}み: walk-in — arriving without any reservation at all",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22770_jizenyoyaku",
+      "reading": "じぜんよやく",
+      "headword": "{事前予約|じぜんよやく}",
+      "label": "advance reservation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07114_tobikomi",
+      "reading": "とびこみ",
+      "headword": "{飛|と}び{込|こ}み",
+      "label": "walk-in"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-04-20T12:14:38Z",
-    "modified": "2026-04-20T12:14:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

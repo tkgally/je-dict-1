@@ -17,7 +17,9 @@
       "id": "25427_sabun_ex1",
       "japanese": "{差分|さぶん}を{確認|かくにん}する。",
       "english": "I check the differences.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25427_sabun_ex2",
       "japanese": "{前回|ぜんかい}との{差分|さぶん}だけをアップデートする。",
       "english": "We update only the differences from the previous version.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "25427_sabun_ex3",
       "japanese": "ファイルの{差分|さぶん}を{比較|ひかく}して、どこが{変|か}わったか{確認|かくにん}してください。",
       "english": "Please compare the file differences and check what has changed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{差分|さぶん} literally means \"difference portion\" ({差|さ} + {分|ぶん}). While {差|さ} and {違|ちが}い are general words for \"difference,\" {差分|さぶん} specifically refers to the measurable or identifiable gap between two comparable things, and is especially common in technical fields.\n\nCOMMON COLLOCATIONS:\n- {差分|さぶん}バックアップ: differential backup\n- {差分|さぶん}{更新|こうしん}: incremental update\n- {差分|さぶん}を{取|と}る: extract the difference\n- {差分|さぶん}{比較|ひかく}: diff comparison\n\nSIMILAR WORDS:\n- {差|さ}: difference — more general, used for any kind of gap or disparity\n- {違|ちが}い: difference — emphasizes qualitative distinction rather than quantitative measurement\n- {相違|そうい}: discrepancy — formal term for difference, often used in legal or business writing\n\nDOMAIN:\nVery common in software development (file diffs, version control), data processing, and mathematics ({差分|さぶん}{方程式|ほうていしき} — difference equation).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03432_chigai",
+      "reading": "ちがい",
+      "headword": "{違|ちが}い",
+      "label": "difference"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04043_soui",
+      "reading": "そうい",
+      "headword": "{相違|そうい}",
+      "label": "discrepancy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity"],
-      "domain": ["technical"]
+      "semantic": [
+        "quantity"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-04-25T12:40:39Z",
-    "modified": "2026-04-25T12:40:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

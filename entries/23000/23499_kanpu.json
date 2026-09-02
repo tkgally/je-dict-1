@@ -3,7 +3,7 @@
   "headword": "{還付|かんぷ}",
   "reading": "かんぷ",
   "romaji": "kanpu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "refund; reimbursement; return (of money)",
   "definitions": [
     {
@@ -56,6 +56,22 @@
   ],
   "notes": "Composed of {還|かん} (return, give back) and {付|ふ} (attach, deliver), with voicing ふ→ぷ. The word carries an official, administrative tone — it is the standard term used in tax, insurance, and government contexts, rather than in casual shopping situations.\n\nThe most common context is {税金|ぜいきん}の{還付|かんぷ} (tax refund), which many residents of Japan encounter during {確定申告|かくていしんこく} (annual tax filing). The derived noun {還付金|かんぷきん} (refund money) is also very frequent.\n\nCOMMON COLLOCATIONS:\n- {還付金|かんぷきん}: refund money\n- {還付|かんぷ}{申請|しんせい}: refund application\n- {還付|かんぷ}を{受|う}ける: to receive a refund\n- {税金|ぜいきん}の{還付|かんぷ}: tax refund\n- {還付|かんぷ}{手続|てつづ}き: refund process/procedure\n\nSIMILAR WORDS:\n- {返金|へんきん}: refund — the general everyday word for getting money back (e.g., from a store)\n- {払|はら}い{戻|もど}し: reimbursement, payout — used for insurance payouts and refunds\n- {返還|へんかん}: return, restitution — returning something (not only money) to its rightful owner",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06130_henkin",
+      "reading": "へんきん",
+      "headword": "{返金|へんきん}",
+      "label": "refund"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14357_henkan",
+      "reading": "へんかん",
+      "headword": "{返還|へんかん}",
+      "label": "return, restitution"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -72,7 +88,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-12T14:06:33Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

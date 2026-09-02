@@ -3,7 +3,7 @@
   "headword": "{建|た}て{増|ま}し",
   "reading": "たてまし",
   "romaji": "tatemashi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "building extension; addition (to a house)",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "The everyday word for enlarging a house by building on. {増築|ぞうちく} is the more formal, technical term used on permits and in construction contexts.\n\nCOMMON COLLOCATIONS:\n- {部屋|へや}を{建|た}て{増|ま}しする: to add on a room\n- {建|た}て{増|ま}しを{繰|く}り{返|かえ}す: to keep adding on\n- {二階|にかい}を{建|た}て{増|ま}しする: to add a second floor\n\nSIMILAR WORDS:\n- {増築|ぞうちく}: extension/addition — the formal, technical equivalent\n- {改築|かいちく}: rebuilding/remodeling — reconstructing an existing structure, not enlarging it",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06568_zouchiku",
+      "reading": "ぞうちく",
+      "headword": "{増築|ぞうちく}",
+      "label": "extension/addition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06224_kaichiku",
+      "reading": "かいちく",
+      "headword": "{改築|かいちく}",
+      "label": "rebuilding/remodeling"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "building"
       ],
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-21T18:18:56Z",
-    "modified": "2026-07-21T18:25:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

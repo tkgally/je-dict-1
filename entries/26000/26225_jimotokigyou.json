@@ -17,7 +17,9 @@
       "id": "26225_jimotokigyou_ex1",
       "japanese": "{地元企業|じもときぎょう}で{働|はたら}きたい。",
       "english": "I want to work at a local company.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26225_jimotokigyou_ex2",
       "japanese": "{地元企業|じもときぎょう}が{祭|まつ}りのスポンサーになった。",
       "english": "A local company became a sponsor of the festival.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,47 @@
       "id": "26225_jimotokigyou_ex3",
       "japanese": "{市|し}は{地元企業|じもときぎょう}を{支援|しえん}するために、{補助金|ほじょきん}{制度|せいど}を{設|もう}けている。",
       "english": "The city has established a subsidy program to support local businesses.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {地元|じもと} (local area, home turf) and {企業|きぎょう} (company, enterprise). A common compound in news, local government communications, and job-hunting contexts.\n\nIn rural Japan, {地元企業|じもときぎょう} are often central to the community, providing employment and sponsoring local events. The term carries positive connotations of community involvement and regional identity.\n\nCOMMON COLLOCATIONS:\n- {地元企業|じもときぎょう}に{就職|しゅうしょく}する: to get a job at a local company\n- {地元企業|じもときぎょう}を{応援|おうえん}する: to support local businesses\n- {地元企業|じもときぎょう}との{連携|れんけい}: cooperation with local businesses\n- {地元企業|じもときぎょう}の{活性化|かっせいか}: revitalization of local businesses\n\nSIMILAR WORDS:\n- {中小企業|ちゅうしょうきぎょう}: small and medium-sized enterprise — about size, not location\n- {地場産業|じばさんぎょう}: local industry — broader, referring to the industry sector of a region\n- {大手企業|おおてきぎょう}: major corporation — the opposite scale",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24117_chuushoukigyou",
+      "reading": "ちゅうしょうきぎょう",
+      "headword": "{中小企業|ちゅうしょうきぎょう}",
+      "label": "small and medium-sized enterprise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24792_jibasangyou",
+      "reading": "じばさんぎょう",
+      "headword": "{地場|じば}{産業|さんぎょう}",
+      "label": "local industry"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-04-30T12:14:58Z",
-    "modified": "2026-04-30T12:14:58Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

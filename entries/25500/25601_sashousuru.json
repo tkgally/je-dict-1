@@ -3,7 +3,7 @@
   "headword": "{詐称|さしょう}する",
   "reading": "さしょうする",
   "romaji": "sashousuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to misrepresent; to falsely claim; to impersonate",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A suru-verb from {詐称|さしょう}, combining {詐|さ} (fraud, deception) and {称|しょう} (to call, to claim). This is a formal term frequently used in legal, news, and business contexts when someone has lied about their identity or credentials.\n\nThe noun form {詐称|さしょう} is also used independently, often in compounds.\n\nCOMMON COLLOCATIONS:\n- {経歴|けいれき}{詐称|さしょう}: falsifying one's career history\n- {学歴|がくれき}{詐称|さしょう}: falsifying educational credentials\n- {年齢|ねんれい}{詐称|さしょう}: lying about one's age\n- {身分|みぶん}{詐称|さしょう}: identity fraud\n\nSIMILAR WORDS:\n- {偽|いつわ}る: to deceive, to falsify — more literary and general\n- なりすます: to impersonate, to pretend to be — emphasizes assuming another person's identity\n- {詐欺|さぎ}: fraud — the broader crime of deception for gain",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10882_itsuwaru",
+      "reading": "いつわる",
+      "headword": "{偽|いつわ}る",
+      "label": "to deceive, to falsify"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20291_narisumasu",
+      "reading": "なりすます",
+      "headword": "なりすます",
+      "label": "to impersonate, to pretend to be"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09789_sagi",
+      "reading": "さぎ",
+      "headword": "{詐欺|さぎ}",
+      "label": "fraud"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,14 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "law"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-26T12:36:05Z",
-    "modified": "2026-04-26T12:36:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

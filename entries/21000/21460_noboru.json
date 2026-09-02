@@ -3,7 +3,7 @@
   "headword": "{上|のぼ}る",
   "reading": "のぼる",
   "romaji": "noboru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to go up; to amount to; to come up (as a topic)",
   "conjugation": {
     "type": "godan",
@@ -212,6 +212,27 @@
       "reading": "のぼり",
       "headword": "{上|のぼ}り",
       "label": "ascent (noun)"
+    },
+    {
+      "type": "homophone",
+      "target_id": "00660_noboru",
+      "reading": "のぼる",
+      "headword": "{登|のぼ}る",
+      "label": "to climb"
+    },
+    {
+      "type": "homophone",
+      "target_id": "12960_noboru",
+      "reading": "のぼる",
+      "headword": "{昇|のぼ}る",
+      "label": "to rise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00615_agaru",
+      "reading": "あがる",
+      "headword": "{上|あ}がる",
+      "label": "to go up, to rise"
     }
   ],
   "schema_version": "2.0",
@@ -229,6 +250,6 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-04-02T04:10:07Z",
-    "modified": "2026-04-07T09:34:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

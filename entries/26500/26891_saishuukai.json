@@ -22,7 +22,9 @@
       "id": "26891_saishuukai_ex1",
       "japanese": "{最終回|さいしゅうかい}は{来週|らいしゅう}{放送|ほうそう}される。",
       "english": "The final episode will air next week.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "26891_saishuukai_ex2",
       "japanese": "あのドラマの{最終回|さいしゅうかい}は{泣|な}けた。",
       "english": "The final episode of that drama made me cry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "26891_saishuukai_ex3",
       "japanese": "{最終回|さいしゅうかい}の{視聴率|しちょうりつ}が{歴代|れきだい}{最高|さいこう}を{記録|きろく}した。",
       "english": "The final episode recorded the highest viewership ratings in history.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "26891_saishuukai_ex4",
       "japanese": "{最終回|さいしゅうかい}の{攻撃|こうげき}で{逆転|ぎゃくてん}した。",
       "english": "They made a comeback in the final inning.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "26891_saishuukai_ex5",
       "japanese": "{試合|しあい}は{最終回|さいしゅうかい}に{入|はい}った。",
       "english": "The game has entered the final inning.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,24 +72,53 @@
       "id": "26891_saishuukai_ex6",
       "japanese": "{最終回|さいしゅうかい}のマウンドには{守護神|しゅごしん}が{上|あ}がった。",
       "english": "The closer took the mound in the final inning.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {最終|さいしゅう} (final) and {回|かい} (episode, round, installment). Most commonly encountered in entertainment contexts (TV, anime, manga) and in baseball.\n\nCOMMON COLLOCATIONS:\n- {最終回|さいしゅうかい}スペシャル: final episode special (extended-length finale)\n- {最終回|さいしゅうかい}を{迎|むか}える: to reach the final episode/round\n- {最終回|さいしゅうかい}{放送|ほうそう}: final episode broadcast\n- {最終回|さいしゅうかい}の{結末|けつまつ}: ending of the final episode\n\nSIMILAR WORDS:\n- {最終話|さいしゅうわ}: final episode — uses {話|わ} (story/chapter) instead of {回|かい}; often used for anime and manga\n- {千秋楽|せんしゅうらく}: final day of a performance run or sumo tournament — more formal and traditional\n- フィナーレ: finale — loanword used for concerts, stage shows, and events",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16501_senshuuraku",
+      "reading": "せんしゅうらく",
+      "headword": "{千秋楽|せんしゅうらく}",
+      "label": "final day of a performance run or sumo…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20712_kanketsuhen",
+      "reading": "かんけつへん",
+      "headword": "{完結編|かんけつへん}",
+      "label": "final volume"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24943_rensaishuuryou",
+      "reading": "れんさいしゅうりょう",
+      "headword": "{連載終了|れんさいしゅうりょう}",
+      "label": "end of serialization"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["media", "sports"],
+      "semantic": [
+        "media",
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-05-05T15:07:23Z",
-    "modified": "2026-05-05T15:07:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

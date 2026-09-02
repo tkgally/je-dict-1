@@ -17,7 +17,9 @@
       "id": "24338_kousou_ex1",
       "japanese": "{香草|こうそう}を{添|そ}えた{料理|りょうり}。",
       "english": "A dish garnished with herbs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24338_kousou_ex2",
       "japanese": "{鶏肉|とりにく}に{香草|こうそう}をまぶして{焼|や}く。",
       "english": "Coat the chicken with herbs and grill it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "24338_kousou_ex3",
       "japanese": "ベランダで{香草|こうそう}を{育|そだ}てて、{料理|りょうり}に{使|つか}っている。",
       "english": "I grow herbs on the balcony and use them in cooking.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {香|こう} (fragrance, aroma) and {草|そう} (grass, plant). Literally \"fragrant plant.\"\n\nCOMMON COLLOCATIONS:\n- {香草|こうそう}{焼|や}き: herb-grilled (a common cooking style)\n- {香草|こうそう}パン{粉|こ}{焼|や}き: herb breadcrumb bake\n- {香草|こうそう}を{添|そ}える: to garnish with herbs\n- {香草|こうそう}ソース: herb sauce\n- {香草|こうそう}バター: herb butter\n\nUSAGE:\n{香草|こうそう} is the standard Japanese word for culinary herbs. It appears frequently on restaurant menus (especially for Western and Mediterranean dishes) and in recipe descriptions. {香草|こうそう}{焼|や}き (herb-grilled) is one of the most common preparations. Note that {香草|こうそう} specifically refers to aromatic herbs for cooking — it does not cover medicinal herbs.\n\nSIMILAR WORDS:\n- ハーブ: herb (loanword) — the English loanword, used interchangeably in casual contexts and on product labels\n- {薬草|やくそう}: medicinal herb — herbs used for medicine, not cooking\n- スパイス: spice — dried seeds, bark, or roots used for flavoring, distinct from fresh leafy herbs",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11246_haabu",
+      "reading": "はーぶ",
+      "headword": "ハーブ",
+      "label": "herb"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14033_yakusou",
+      "reading": "やくそう",
+      "headword": "{薬草|やくそう}",
+      "label": "medicinal herb"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11054_supaisu",
+      "reading": "すぱいす",
+      "headword": "スパイス",
+      "label": "spice"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "nature"]
+      "semantic": [
+        "food",
+        "nature"
+      ]
     },
     "created": "2026-04-18T14:32:44Z",
-    "modified": "2026-04-18T14:32:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

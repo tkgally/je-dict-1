@@ -17,7 +17,9 @@
       "id": "25736_ryokoukaban_ex1",
       "japanese": "{旅行鞄|りょこうかばん}に{荷物|にもつ}を{詰|つ}めた。",
       "english": "I packed my things into the travel bag.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25736_ryokoukaban_ex2",
       "japanese": "{新|あたら}しい{旅行鞄|りょこうかばん}を{買|か}おうと{思|おも}っている。",
       "english": "I'm thinking of buying a new suitcase.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,57 @@
       "id": "25736_ryokoukaban_ex3",
       "japanese": "{空港|くうこう}で{旅行鞄|りょこうかばん}が{見|み}つからなくて、{係員|かかりいん}に{相談|そうだん}した。",
       "english": "I couldn't find my luggage at the airport, so I consulted a staff member.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {旅行|りょこう} (travel) + {鞄|かばん} (bag). A somewhat formal or traditional-sounding compound. In everyday conversation, many speakers simply say スーツケース (suitcase) or キャリーバッグ (wheeled carry bag) for specific types.\n\nCOMMON COLLOCATIONS:\n- {旅行鞄|りょこうかばん}に{詰|つ}める: to pack into a travel bag\n- {旅行鞄|りょこうかばん}を{持|も}つ: to carry a travel bag\n- {大型|おおがた}の{旅行鞄|りょこうかばん}: a large suitcase\n- {旅行鞄|りょこうかばん}を{預|あず}ける: to check luggage\n\nSIMILAR WORDS:\n- スーツケース: suitcase — specifically a hard-shell or semi-hard rolling case\n- キャリーバッグ: carry bag — a wheeled travel bag, common loanword in Japan\n- {鞄|かばん}: bag — the general term for any bag\n- トランク: trunk — an older term for a large, sturdy suitcase",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01781_suutsukeesu",
+      "reading": "すーつけーす",
+      "headword": "スーツケース",
+      "label": "suitcase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27966_kyariibaggu",
+      "reading": "きゃりーばっぐ",
+      "headword": "キャリーバッグ",
+      "label": "carry bag"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24218_toranku",
+      "reading": "とらんく",
+      "headword": "トランク",
+      "label": "trunk"
+    },
+    {
+      "type": "related",
+      "target_id": "27285_bosutonbaggu",
+      "reading": "ぼすとんばっぐ",
+      "headword": "ボストンバッグ",
+      "label": "Boston bag"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["travel"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "travel"
+      ]
     },
     "created": "2026-04-27T11:16:37Z",
-    "modified": "2026-04-27T11:16:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "23487_sosei_ex1",
       "japanese": "{岩石|がんせき}の{組成|そせい}を{調|しら}べる。",
       "english": "Examine the composition of rock.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23487_sosei_ex2",
       "japanese": "この{合金|ごうきん}の{化学|かがく}{組成|そせい}は{複雑|ふくざつ}だ。",
       "english": "The chemical composition of this alloy is complex.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "23487_sosei_ex3",
       "japanese": "{大気|たいき}の{組成|そせい}は{主|おも}に{窒素|ちっそ}と{酸素|さんそ}からなっている。",
       "english": "The composition of the atmosphere consists mainly of nitrogen and oxygen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {組|そ} (assemble, put together) and {成|せい} (form, become). Primarily used in scientific and technical writing to describe the elemental or material makeup of something. Less commonly, it can also mean the act of organizing or forming a group, though {編成|へんせい} is more standard for that meaning.\n\nCOMMON COLLOCATIONS:\n- {化学|かがく}{組成|そせい}: chemical composition\n- {鉱物|こうぶつ}{組成|そせい}: mineral composition\n- {成分|せいぶん}{組成|そせい}: component makeup\n- {組成|そせい}を{分析|ぶんせき}する: to analyze the composition\n- {組成|そせい}が{異|こと}なる: to differ in composition\n\nSIMILAR WORDS:\n- {成分|せいぶん}: ingredient, component — focuses on individual elements rather than the overall makeup\n- {構成|こうせい}: structure, constitution — broader term used for organizations, texts, and abstract systems as well as physical ones\n- {組織|そしき}: organization, tissue — emphasizes the structural arrangement rather than the material content",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04344_seibun",
+      "reading": "せいぶん",
+      "headword": "{成分|せいぶん}",
+      "label": "ingredient, component"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02729_kousei",
+      "reading": "こうせい",
+      "headword": "{構成|こうせい}",
+      "label": "structure, constitution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03320_soshiki",
+      "reading": "そしき",
+      "headword": "{組織|そしき}",
+      "label": "organization, tissue"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["science"]
+      "semantic": [
+        "science"
+      ]
     },
     "created": "2026-04-12T10:27:02Z",
-    "modified": "2026-04-12T10:27:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

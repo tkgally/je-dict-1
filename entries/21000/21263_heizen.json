@@ -3,7 +3,7 @@
   "headword": "{平然|へいぜん}",
   "reading": "へいぜん",
   "romaji": "heizen",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "calm; nonchalant",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "21263_heizen_ex1",
       "japanese": "{彼|かれ}は{平然|へいぜん}としていた。",
       "english": "He was perfectly calm.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21263_heizen_ex2",
       "japanese": "{嘘|うそ}をついても{平然|へいぜん}としている。",
       "english": "Even after lying, he acts completely nonchalant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "21263_heizen_ex3",
       "japanese": "{大勢|おおぜい}の{前|まえ}で{失敗|しっぱい}したのに、{平然|へいぜん}と{話|はな}し{続|つづ}けた。",
       "english": "Despite making a mistake in front of a large crowd, she continued speaking calmly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Can be used as a na-adjective ({平然|へいぜん}とした{顔|かお}) or adverbially ({平然|へいぜん}と). Often carries a nuance of surprise or criticism — the speaker finds the person's calmness unexpected or even inappropriate given the situation. When used negatively, it implies someone is shameless or unfazed when they should feel embarrassment or guilt.\n\nCOMMON PATTERNS:\n- {平然|へいぜん}としている: to be unperturbed, to act as if nothing happened\n- {平然|へいぜん}とした{顔|かお}: a calm/unfazed face\n- {平然|へいぜん}と{嘘|うそ}をつく: to lie without batting an eye\n\nSIMILAR WORDS:\n- {冷静|れいせい}: calm, composed — neutral and positive; implies rational self-control\n- {泰然|たいぜん}: composed, unruffled — literary and positive; implies admirable calmness\n- {平気|へいき}: fine, unfazed — more colloquial; can mean \"not bothered\" or \"okay with it\"",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03781_reisei",
+      "reading": "れいせい",
+      "headword": "{冷静|れいせい}",
+      "label": "calm, composed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09173_taizen",
+      "reading": "たいぜん",
+      "headword": "{泰然|たいぜん}",
+      "label": "composed, unruffled"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00095_heiki",
+      "reading": "へいき",
+      "headword": "{平気|へいき}",
+      "label": "fine, unfazed"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     },
     "created": "2026-04-01T16:12:10Z",
-    "modified": "2026-04-01T16:12:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

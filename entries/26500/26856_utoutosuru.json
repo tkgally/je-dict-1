@@ -3,7 +3,7 @@
   "headword": "うとうとする",
   "reading": "うとうとする",
   "romaji": "utoutosuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to doze off; to nod off; to drowse",
   "definitions": [
     {
@@ -55,7 +55,36 @@
     }
   ],
   "notes": "Mimetic word describing the state of repeatedly drifting into and out of light sleep. The reduplication うとうと conveys the wavering, unstable quality of half-sleep. Unlike deliberate napping, this word implies an involuntary drowsiness.\n\nCOMMON COLLOCATIONS:\n- うとうとし{始|はじ}める: to start nodding off\n- うとうとしていたら: while dozing off...\n- {思|おも}わずうとうとする: to involuntarily doze off\n- うとうとしてしまう: to end up dozing off (with regret)\n\nSIMILAR WORDS:\n- {居眠|いねむ}りする: to doze (while seated) — more deliberate or longer sleep, often used for sleeping at one's desk or workplace\n- うたた{寝|ね}する: to take a nap unintentionally — implies actually falling asleep, not just drifting\n- まどろむ: to slumber — literary, poetic; a pleasant light sleep",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01822_inemuri",
+      "reading": "いねむり",
+      "headword": "{居眠|いねむ}り",
+      "label": "to doze"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08036_utatane",
+      "reading": "うたたね",
+      "headword": "うたた{寝|ね}",
+      "label": "to take a nap unintentionally"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12514_madoromu",
+      "reading": "まどろむ",
+      "headword": "{微睡|まどろ}む",
+      "label": "to slumber"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26887_boottosuru",
+      "reading": "ぼーっとする",
+      "headword": "ぼーっとする",
+      "label": "to space out"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,7 +100,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T14:09:06Z",
-    "modified": "2026-05-05T14:09:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -2,7 +2,7 @@
   "id": "01522_yoyaku",
   "headword": "{予約|よやく}",
   "reading": "よやく",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reservation, booking",
   "definitions": [
     {
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{予約|よやく} means reservation, booking, or appointment. As a verbal noun, it forms {予約|よやく}⟦する→する：00392_suru⟧ (to reserve/book).\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{予約|よやく}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {予約|よやく}⟦する→する：00392_suru⟧: to make a reservation\n- {予約|よやく}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to make a reservation\n- {予約|よやく}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to book, make an appointment\n- {予約|よやく}⟦を→を：00422_wo⟧⟦{取|と}り{消|け}す→取り消す：04224_torikesu⟧: to cancel a reservation\n\nCOMMON COLLOCATIONS:\n- ⟦レストラン→レストラン：01048_resutoran⟧⟦の→の：09472_no⟧{予約|よやく}: restaurant reservation\n- ⟦ホテル→ホテル：01027_hoteru⟧⟦の→の：09472_no⟧{予約|よやく}: hotel booking\n- ⟦{病院|びょういん}→病院：00577_byouin⟧⟦の→の：09472_no⟧{予約|よやく}: doctor's appointment\n- ⟦{予約|よやく}{済|ず}み→予約済み：21797_yoyakuzumi⟧: already reserved\n\nRELATED:\n- ⟦{予約|よやく}{席|せき}→予約席：14828_yoyakuseki⟧: reserved seat\n- ⟦{予約|よやく}{制|せい}→予約制：07058_yoyakusei⟧: reservation required\n- ⟦{要|よう}→要：10000_you⟧{予約|よやく}: reservation necessary",
+  "notes": "{予約|よやく} means reservation, booking, or appointment. As a verbal noun, it forms {予約|よやく}⟦する→する：00392_suru⟧ (to reserve/book).\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{予約|よやく}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {予約|よやく}⟦する→する：00392_suru⟧: to make a reservation\n- {予約|よやく}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to make a reservation\n- {予約|よやく}⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to book, make an appointment\n- {予約|よやく}⟦を→を：00422_wo⟧⟦{取|と}り{消|け}す→取り消す：04224_torikesu⟧: to cancel a reservation\n\nCOMMON COLLOCATIONS:\n- ⟦レストラン→レストラン：01048_resutoran⟧⟦の→の：09472_no⟧{予約|よやく}: restaurant reservation\n- ⟦ホテル→ホテル：01027_hoteru⟧⟦の→の：09472_no⟧{予約|よやく}: hotel booking\n- ⟦{病院|びょういん}→病院：00577_byouin⟧⟦の→の：09472_no⟧{予約|よやく}: doctor's appointment\n- ⟦{予約|よやく}{済|ず}み→予約済み：21797_yoyakuzumi⟧: already reserved\n\nRELATED WORDS:\n- ⟦{予約|よやく}{席|せき}→予約席：14828_yoyakuseki⟧: reserved seat\n- ⟦{予約|よやく}{制|せい}→予約制：07058_yoyakusei⟧: reservation required\n- ⟦{要|よう}→要：10000_you⟧{予約|よやく}: reservation necessary",
   "cross_references": [
     {
       "type": "contrast",
@@ -51,11 +51,46 @@
       "reading": "やくそく",
       "headword": "{約束|やくそく}",
       "label": "promise, appointment"
+    },
+    {
+      "type": "related",
+      "target_id": "07604_tehai",
+      "reading": "てはい",
+      "headword": "{手配|てはい}",
+      "label": "arrangement"
+    },
+    {
+      "type": "related",
+      "target_id": "08289_maeuri",
+      "reading": "まえうり",
+      "headword": "{前売|まえう}り",
+      "label": "advance sale"
+    },
+    {
+      "type": "related",
+      "target_id": "08292_kashikiri",
+      "reading": "かしきり",
+      "headword": "{貸|か}し{切|き}り",
+      "label": "reserved"
+    },
+    {
+      "type": "related",
+      "target_id": "08306_torioki",
+      "reading": "とりおき",
+      "headword": "{取|と}り{置|お}き",
+      "label": "holding an item"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30410_kyanserumachi",
+      "reading": "きゃんせるまち",
+      "headword": "キャンセル{待|ま}ち",
+      "label": "waitlist"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:20:03Z",
-    "modified": "2026-05-15T20:14:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

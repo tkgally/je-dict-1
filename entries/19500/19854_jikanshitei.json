@@ -3,7 +3,7 @@
   "headword": "{時間指定|じかんしてい}",
   "reading": "じかんしてい",
   "romaji": "jikanshitei",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "time designation; scheduled delivery time",
   "conjugation": {
     "type": "suru",
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "Most commonly encountered in the context of package delivery in Japan. Major carriers like ヤマト{運輸|うんゆ} and {佐川急便|さがわきゅうびん} offer time-slot delivery as a standard service, typically in 2-hour windows.\n\nCOMMON COLLOCATIONS:\n- {時間指定|じかんしてい}{配達|はいたつ} — time-slot delivery\n- {時間指定|じかんしてい}する — to specify a time\n- {時間指定|じかんしてい}{不可|ふか} — time designation not available\n- {時間指定|じかんしてい}{便|びん} — scheduled delivery service\n\nRELATED TERMS:\n- {日時指定|にちじしてい} — date and time designation\n- {再配達|さいはいたつ} — redelivery\n- {置|お}き{配|はい} — contactless delivery (leave at door)",
+  "notes": "Most commonly encountered in the context of package delivery in Japan. Major carriers like ヤマト{運輸|うんゆ} and {佐川急便|さがわきゅうびん} offer time-slot delivery as a standard service, typically in 2-hour windows.\n\nCOMMON COLLOCATIONS:\n- {時間指定|じかんしてい}{配達|はいたつ} — time-slot delivery\n- {時間指定|じかんしてい}する — to specify a time\n- {時間指定|じかんしてい}{不可|ふか} — time designation not available\n- {時間指定|じかんしてい}{便|びん} — scheduled delivery service\n\nRELATED WORDS:\n- {日時指定|にちじしてい} — date and time designation\n- {再配達|さいはいたつ} — redelivery\n- {置|お}き{配|はい} — contactless delivery (leave at door)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09690_saihaitatsu",
+      "reading": "さいはいたつ",
+      "headword": "{再配達|さいはいたつ}",
+      "label": "redelivery"
+    },
+    {
+      "type": "related",
+      "target_id": "09720_okihai",
+      "reading": "おきはい",
+      "headword": "{置|お}き{配|はい}",
+      "label": "contactless delivery"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +167,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-27T03:27:30Z",
-    "modified": "2026-03-27T03:27:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

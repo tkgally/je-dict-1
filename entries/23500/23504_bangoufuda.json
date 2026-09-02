@@ -17,7 +17,9 @@
       "id": "23504_bangoufuda_ex1",
       "japanese": "{番号札|ばんごうふだ}をお{取|と}りください。",
       "english": "Please take a numbered ticket.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23504_bangoufuda_ex2",
       "japanese": "{番号札|ばんごうふだ}の{順番|じゅんばん}にお{呼|よ}びします。",
       "english": "We will call you in the order of your ticket number.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23504_bangoufuda_ex3",
       "japanese": "{市役所|しやくしょ}で{番号札|ばんごうふだ}を{取|と}って、30{分|ぷん}も{待|ま}たされた。",
       "english": "I took a number at city hall and was made to wait 30 minutes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,44 @@
       "id": "23504_bangoufuda_ex4",
       "japanese": "{入口|いりぐち}の{機械|きかい}から{番号札|ばんごうふだ}が{出|で}てくるので、それを{持|も}って{待合|まちあい}スペースでお{待|ま}ちください。",
       "english": "A numbered ticket comes out of the machine at the entrance — please take it and wait in the waiting area.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {番号|ばんごう} (number) and {札|ふだ} (tag, ticket, card). This is the standard term for the numbered tickets used in queuing systems throughout Japan — at banks, post offices, government counters, hospital reception desks, and many restaurants.\n\nThe system is ubiquitous in daily life in Japan. You typically take a {番号札|ばんごうふだ} from a machine or dispenser near the entrance, and then wait for your number to be displayed on a screen or called out by staff. Knowing this word is practical for navigating everyday errands.\n\nCOMMON COLLOCATIONS:\n- {番号札|ばんごうふだ}を{取|と}る: to take a numbered ticket\n- {番号札|ばんごうふだ}の{順番|じゅんばん}: the order of ticket numbers\n- {番号札|ばんごうふだ}をお{持|も}ちですか: do you have a numbered ticket?\n\nSIMILAR WORDS:\n- {整理券|せいりけん}: numbered ticket (for a queue or bus boarding order) — a near-synonym, often used on buses and at large events\n- {受付番号|うけつけばんごう}: reception number — the number assigned at check-in, similar in function\n- {引換券|ひきかえけん}: exchange ticket, claim ticket — a ticket for picking up or exchanging something, different purpose",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08288_seiriken",
+      "reading": "せいりけん",
+      "headword": "{整理券|せいりけん}",
+      "label": "numbered ticket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19009_hikikaeken",
+      "reading": "ひきかえけん",
+      "headword": "{引換券|ひきかえけん}",
+      "label": "exchange ticket, claim ticket"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life"]
+      "semantic": [
+        "daily-life"
+      ]
     },
     "created": "2026-04-12T14:09:11Z",
-    "modified": "2026-04-12T14:09:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

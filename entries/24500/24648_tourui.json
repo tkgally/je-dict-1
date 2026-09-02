@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {糖|とう} (sugar) and {類|るい} (type, class). Refers to sugars as a chemical or nutritional category, not to table sugar in everyday cooking.\n\nUSAGE:\nMost commonly encountered on Japanese food labels and in health-related contexts. Japanese nutrition labels distinguish between {糖質|とうしつ} (total digestible carbohydrates minus fiber) and {糖類|とうるい} (simple sugars like glucose and sucrose). Products marketed as '{糖類|とうるい}ゼロ' (zero sugars) may still contain sugar alcohols or artificial sweeteners.\n\nCOMMON COLLOCATIONS:\n- {糖類|とうるい}ゼロ: zero sugars; sugar-free\n- {糖類|とうるい}の{摂取|せっしゅ}: sugar intake\n- {糖類|とうるい}{不使用|ふしよう}: no added sugars\n- {糖類|とうるい}を{控|ひか}える: to cut back on sugars\n\nSIMILAR WORDS:\n- {砂糖|さとう}: sugar — specifically table sugar (sucrose); {糖類|とうるい} is the broader scientific/nutritional category\n- {糖質|とうしつ}: carbohydrates (digestible) — a broader category that includes {糖類|とうるい} plus starches and sugar alcohols\n- {糖分|とうぶん}: sugar content — the amount of sugar in a food, used more casually than {糖類|とうるい}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00884_satou",
+      "reading": "さとう",
+      "headword": "{砂糖|さとう}",
+      "label": "sugar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11091_toushitsu",
+      "reading": "とうしつ",
+      "headword": "{糖質|とうしつ}",
+      "label": "carbohydrates"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15847_toubun",
+      "reading": "とうぶん",
+      "headword": "{糖分|とうぶん}",
+      "label": "sugar content"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,6 +87,6 @@
       ]
     },
     "created": "2026-04-20T10:32:42Z",
-    "modified": "2026-08-03T21:38:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

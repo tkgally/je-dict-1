@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "KANJI: The kanji {靄|もや} is complex and often written in hiragana.\n\nWEATHER DISTINCTIONS:\n・{霧|きり} (fog) - visibility less than 1km, thicker than {靄|もや}\n・{靄|もや} (haze/mist) - visibility 1-10km\n・{霞|かすみ} (haze) - often used poetically, especially for spring haze\n\nMETEOROLOGICAL NOTE: In Japanese weather terminology, {靄|もや} specifically refers to reduced visibility between 1-10 km due to water droplets. When visibility drops below 1 km, it becomes {霧|きり} (fog).\n\nCOMMON COLLOCATIONS:\n・{靄|もや}がかかる (haze/mist covers)\n・{靄|もや}が{晴|は}れる (haze clears)\n・{靄|もや}に{包|つつ}まれる (to be enveloped in mist)",
+  "notes": "KANJI: The kanji {靄|もや} is complex and often written in hiragana.\n\nWEATHER DISTINCTIONS:\n- {霧|きり} (fog) - visibility less than 1km, thicker than {靄|もや}\n- {靄|もや} (haze/mist) - visibility 1-10km\n- {霞|かすみ} (haze) - often used poetically, especially for spring haze\n\nMETEOROLOGICAL NOTE: In Japanese weather terminology, {靄|もや} specifically refers to reduced visibility between 1-10 km due to water droplets. When visibility drops below 1 km, it becomes {霧|きり} (fog).\n\nCOMMON COLLOCATIONS:\n- {靄|もや}がかかる (haze/mist covers)\n- {靄|もや}が{晴|は}れる (haze clears)\n- {靄|もや}に{包|つつ}まれる (to be enveloped in mist)",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,32 @@
       "headword": "{霙|みぞれ}",
       "label": "weather",
       "target_id": "06505_mizore"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02200_kiri",
+      "reading": "きり",
+      "headword": "{霧|きり}",
+      "label": "fog, mist"
+    },
+    {
+      "type": "related",
+      "target_id": "07378_noumu",
+      "reading": "のうむ",
+      "headword": "{濃霧|のうむ}",
+      "label": "dense fog"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28015_enmu",
+      "reading": "えんむ",
+      "headword": "煙霧",
+      "label": "haze"
     }
   ],
   "metadata": {
     "created": "2026-01-17T20:54:57Z",
-    "modified": "2026-07-16T09:21:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

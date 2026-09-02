@@ -2,7 +2,7 @@
   "id": "04125_kannen",
   "headword": "{観念|かんねん}",
   "reading": "かんねん",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "idea, concept, notion; resignation",
   "conjugation": {
     "type": "suru",
@@ -168,10 +168,40 @@
       ]
     }
   ],
-  "notes": "USAGE: {観念|かんねん} has two distinct meanings depending on context.\n\nSENSE 1 - CONCEPT:\n・⟦{時間|じかん}→時間：00468_jikan⟧⟦の→の：09472_no⟧{観念|かんねん} (sense of time)\n・⟦{固定|こてい}→固定：10996_kotei⟧{観念|かんねん} (fixed idea, preconception)\n・⟦{先入観|せんにゅうかん}→先入観：07312_sennyuukan⟧/{観念|かんねん} (preconceived notion)\n・⟦{道徳|どうとく}→道徳：03478_doutoku⟧{観念|かんねん} (moral sense)\n\nSENSE 2 - RESIGNATION:\n・{観念|かんねん}⟦する→する：00392_suru⟧ (to give up, resign oneself)\n・{観念|かんねん}しろ (Give up! - imperative)\n\nPHILOSOPHICAL USE: In philosophy, {観念|かんねん} translates 'idea' in the philosophical sense (e.g., {観念論|かんねんろん} = idealism).\n\nRELATED:\n・⟦{概念|がいねん}→概念：04709_gainen⟧ - concept (more formal/technical)\n・⟦{考|かんが}え→考え：00855_kangae⟧ - thought, idea (more casual)",
+  "notes": "USAGE: {観念|かんねん} has two distinct meanings depending on context.\n\nSENSE 1 - CONCEPT:\n- ⟦{時間|じかん}→時間：00468_jikan⟧⟦の→の：09472_no⟧{観念|かんねん} (sense of time)\n- ⟦{固定|こてい}→固定：10996_kotei⟧{観念|かんねん} (fixed idea, preconception)\n- ⟦{先入観|せんにゅうかん}→先入観：07312_sennyuukan⟧/{観念|かんねん} (preconceived notion)\n- ⟦{道徳|どうとく}→道徳：03478_doutoku⟧{観念|かんねん} (moral sense)\n\nSENSE 2 - RESIGNATION:\n- {観念|かんねん}⟦する→する：00392_suru⟧ (to give up, resign oneself)\n- {観念|かんねん}しろ (Give up! - imperative)\n\nPHILOSOPHICAL USE: In philosophy, {観念|かんねん} translates 'idea' in the philosophical sense (e.g., {観念論|かんねんろん} = idealism).\n\nRELATED WORDS:\n- ⟦{概念|がいねん}→概念：04709_gainen⟧ - concept (more formal/technical)\n- ⟦{考|かんが}え→考え：00855_kangae⟧ - thought, idea (more casual)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04709_gainen",
+      "reading": "がいねん",
+      "headword": "{概念|がいねん}",
+      "label": "concept"
+    },
+    {
+      "type": "related",
+      "target_id": "00855_kangae",
+      "reading": "かんがえ",
+      "headword": "{考|かんが}え",
+      "label": "thought, idea"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07166_akirame",
+      "reading": "あきらめ",
+      "headword": "{諦|あきら}め",
+      "label": "resignation"
+    },
+    {
+      "type": "related",
+      "target_id": "07853_teikan",
+      "reading": "ていかん",
+      "headword": "{諦観|ていかん}",
+      "label": "resignation"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-05-29T17:08:55Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

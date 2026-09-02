@@ -3,7 +3,7 @@
   "headword": "{適合|てきごう}する",
   "reading": "てきごうする",
   "romaji": "tekigousuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to conform to; to be compatible with; to fit",
   "definitions": [
     {
@@ -45,7 +45,36 @@
     }
   ],
   "notes": "{適合|てきごう}する means to match, fit, or comply with a standard or condition. It is formal and commonly used in technical, regulatory, and scientific contexts. In biology, it describes adaptation to an environment.\n\nUSAGE:\n- ～に{適合|てきごう}する: to conform to ~; to be compatible with ~\n\nCOMMON COLLOCATIONS:\n- {基準|きじゅん}に{適合|てきごう}する: to meet the standard\n- {規格|きかく}に{適合|てきごう}する: to conform to specifications\n- {条件|じょうけん}に{適合|てきごう}する: to meet the conditions\n- {適合|てきごう}{性|せい}: compatibility; conformity\n- {不|ふ}{適合|てきごう}: non-conformance; incompatibility\n\nSIMILAR WORDS:\n- {合|あ}う: to fit; to match — everyday word for fitting or suiting\n- {適応|てきおう}する: to adapt — focuses on the process of adjusting to new conditions over time\n- {準拠|じゅんきょ}する: to be based on; to conform to — more specific to following rules or standards as a basis",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10466_au",
+      "reading": "あう",
+      "headword": "{合|あ}う",
+      "label": "to fit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26969_tekiousuru",
+      "reading": "てきおうする",
+      "headword": "{適応|てきおう}する",
+      "label": "to adapt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19684_junkyosuru",
+      "reading": "じゅんきょする",
+      "headword": "{準拠|じゅんきょ}する",
+      "label": "to be based on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20213_gacchisuru",
+      "reading": "がっちする",
+      "headword": "{合致|がっち}する",
+      "label": "to match"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +83,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "evaluation",
         "science"
@@ -62,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T16:21:01Z",
-    "modified": "2026-04-25T16:21:01Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

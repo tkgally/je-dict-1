@@ -18,7 +18,9 @@
       "english": "A bird is perching on the power line.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11507_densen_ex2",
@@ -26,7 +28,9 @@
       "english": "The power line was severed by the typhoon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11507_densen_ex3",
@@ -34,22 +38,50 @@
       "english": "In this area, work is underway to bury the power lines underground.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{電線|でんせん} refers to wires or cables that carry electricity, including both overhead power lines and building wiring.\n\nWORD FORMATION:\n{電|でん} (electricity) + {線|せん} (line/wire)\n\nCOMMON COLLOCATIONS:\n- {電線|でんせん}が{切|き}れる (power line snaps)\n- {電線|でんせん}を{引|ひ}く (to run electric wire)\n- {電線|でんせん}に{触|さわ}る (to touch a wire — dangerous)\n- {電線|でんせん}を{地中|ちちゅう}に{埋|う}める (to bury power lines underground)\n\nCULTURAL NOTE:\nOverhead power lines and utility poles ({電柱|でんちゅう}) are a characteristic feature of Japanese cities. There is an ongoing government effort called {無電柱化|むでんちゅうか} (utility pole elimination) to bury lines underground.\n\nRELATED:\n- {電柱|でんちゅう}: utility pole\n- {送電線|そうでんせん}: transmission line (high-voltage)\n- {配線|はいせん}: wiring (inside buildings)",
-  "cross_references": [],
+  "notes": "{電線|でんせん} refers to wires or cables that carry electricity, including both overhead power lines and building wiring.\n\nFORMS:\n{電|でん} (electricity) + {線|せん} (line/wire)\n\nCOMMON COLLOCATIONS:\n- {電線|でんせん}が{切|き}れる (power line snaps)\n- {電線|でんせん}を{引|ひ}く (to run electric wire)\n- {電線|でんせん}に{触|さわ}る (to touch a wire — dangerous)\n- {電線|でんせん}を{地中|ちちゅう}に{埋|う}める (to bury power lines underground)\n\nCULTURAL NOTE:\nOverhead power lines and utility poles ({電柱|でんちゅう}) are a characteristic feature of Japanese cities. There is an ongoing government effort called {無電柱化|むでんちゅうか} (utility pole elimination) to bury lines underground.\n\nRELATED WORDS:\n- {電柱|でんちゅう}: utility pole\n- {送電線|そうでんせん}: transmission line (high-voltage)\n- {配線|はいせん}: wiring (inside buildings)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17913_denchuu",
+      "reading": "でんちゅう",
+      "headword": "{電柱|でんちゅう}",
+      "label": "utility pole"
+    },
+    {
+      "type": "related",
+      "target_id": "07862_haisen",
+      "reading": "はいせん",
+      "headword": "{配線|はいせん}",
+      "label": "wiring"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24629_dousen",
+      "reading": "どうせん",
+      "headword": "{導線|どうせん}",
+      "label": "conductor wire"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T01:54:44Z",
-    "modified": "2026-03-30T03:20:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["electronics"]
+      "semantic": [
+        "electronics"
+      ]
     }
   }
 }

@@ -17,7 +17,9 @@
       "id": "27964_kaizenan_ex1",
       "japanese": "{改善案|かいぜんあん}を{考|かんが}える。",
       "english": "I think up an improvement proposal.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27964_kaizenan_ex2",
       "japanese": "{社員|しゃいん}から{改善案|かいぜんあん}を{募集|ぼしゅう}した。",
       "english": "We invited improvement proposals from the employees.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "27964_kaizenan_ex3",
       "japanese": "{現状|げんじょう}の{問題点|もんだいてん}を{整理|せいり}したうえで{改善案|かいぜんあん}をまとめた。",
       "english": "After sorting out the problems with the current situation, I put together an improvement proposal.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A proposal aimed at correcting a problem or making an existing process, product, or workflow better. Common in business and quality-management contexts.\n\nCOMMON COLLOCATIONS:\n- {改善案|かいぜんあん}を{出|だ}す・{提案|ていあん}する: to put forward an improvement proposal\n- {改善案|かいぜんあん}をまとめる: to compile an improvement plan\n- {改善案|かいぜんあん}を{検討|けんとう}する: to consider an improvement proposal\n\nSIMILAR WORDS:\n- {企画案|きかくあん}: project proposal — proposes something new, rather than fixing what exists\n- {対策|たいさく}: countermeasure — focuses on dealing with a specific problem",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27963_kikakuan",
+      "reading": "きかくあん",
+      "headword": "{企画案|きかくあん}",
+      "label": "project proposal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02511_taisaku",
+      "reading": "たいさく",
+      "headword": "{対策|たいさく}",
+      "label": "countermeasure"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-05-23T04:06:38Z",
-    "modified": "2026-05-23T04:06:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "25171_daigakukyouin_ex1",
       "japanese": "{父|ちち}は{大学教員|だいがくきょういん}です。",
       "english": "My father is a university faculty member.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25171_daigakukyouin_ex2",
       "japanese": "{大学教員|だいがくきょういん}は{研究|けんきゅう}と{教育|きょういく}の{両方|りょうほう}を{行|おこな}う。",
       "english": "University faculty members carry out both research and teaching.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,52 @@
       "id": "25171_daigakukyouin_ex3",
       "japanese": "{大学教員|だいがくきょういん}の{公募|こうぼ}に{応募|おうぼ}するには、{博士号|はくしごう}と{一定|いってい}の{研究|けんきゅう}{業績|ぎょうせき}が{求|もと}められる。",
       "english": "To apply for a university faculty position, a doctoral degree and a certain level of research accomplishment are required.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {大学|だいがく} (university) and {教員|きょういん} (teaching staff, instructor). This is the standard general term for any person employed in a teaching or research role at a university, regardless of rank.\n\nJapanese universities have a hierarchy of academic positions: {教授|きょうじゅ} (professor), {准教授|じゅんきょうじゅ} (associate professor), {講師|こうし} (lecturer), and {助教|じょきょう} (assistant professor).\n\nCOMMON COLLOCATIONS:\n- {大学教員|だいがくきょういん}の{公募|こうぼ}: open recruitment for faculty positions\n- {大学教員|だいがくきょういん}になる: to become a university instructor\n- {大学教員|だいがくきょういん}として{働|はたら}く: to work as a university faculty member\n\nSIMILAR WORDS:\n- {教授|きょうじゅ}: professor — the highest academic rank\n- {研究者|けんきゅうしゃ}: researcher — broader term not limited to university-affiliated roles\n- {教師|きょうし}: teacher — more commonly used for primary and secondary school teachers",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02589_kyouju",
+      "reading": "きょうじゅ",
+      "headword": "{教授|きょうじゅ}",
+      "label": "professor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02573_kenkyuusha",
+      "reading": "けんきゅうしゃ",
+      "headword": "{研究者|けんきゅうしゃ}",
+      "label": "researcher"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03029_kyoushi",
+      "reading": "きょうし",
+      "headword": "{教師|きょうし}",
+      "label": "teacher"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["education", "occupation"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "education",
+        "occupation"
+      ]
     },
     "created": "2026-04-23T13:23:03Z",
-    "modified": "2026-04-23T13:23:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

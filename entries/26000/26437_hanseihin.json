@@ -17,7 +17,9 @@
       "id": "26437_hanseihin_ex1",
       "japanese": "{半製品|はんせいひん}を{別|べつ}の{工場|こうじょう}に{送|おく}る。",
       "english": "Send the semi-finished products to another factory.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26437_hanseihin_ex2",
       "japanese": "{半製品|はんせいひん}の{在庫|ざいこ}{管理|かんり}が{課題|かだい}になっている。",
       "english": "Inventory management of semi-finished products has become an issue.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,44 @@
       "id": "26437_hanseihin_ex3",
       "japanese": "この{会社|かいしゃ}は{半製品|はんせいひん}を{輸入|ゆにゅう}し、{国内|こくない}で{最終|さいしゅう}{加工|かこう}を{行|おこな}っている。",
       "english": "This company imports semi-finished products and does the final processing domestically.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {半|はん} (half, semi-) and {製品|せいひん} (manufactured product). Used in manufacturing, accounting, and supply chain contexts. In accounting, semi-finished goods are classified as inventory.\n\nCOMMON COLLOCATIONS:\n- {半製品|はんせいひん}の{在庫|ざいこ}: semi-finished product inventory\n- {半製品|はんせいひん}を{加工|かこう}する: to process semi-finished products\n- {半製品|はんせいひん}{倉庫|そうこ}: semi-finished product warehouse\n- {半製品|はんせいひん}の{段階|だんかい}: semi-finished stage\n\nSIMILAR WORDS:\n- {完成品|かんせいひん}: finished product — a product ready for sale or use\n- {仕掛品|しかかりひん}: work in process — an accounting term for products still on the production line\n- {原材料|げんざいりょう}: raw materials — materials that have not yet undergone any manufacturing",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17426_kanseihin",
+      "reading": "かんせいひん",
+      "headword": "{完成品|かんせいひん}",
+      "label": "finished product"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18966_genzairyou",
+      "reading": "げんざいりょう",
+      "headword": "{原材料|げんざいりょう}",
+      "label": "raw materials"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-05-01T16:21:02Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

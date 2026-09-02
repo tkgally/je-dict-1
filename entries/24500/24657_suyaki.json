@@ -3,7 +3,7 @@
   "headword": "{素焼|すや}き",
   "reading": "すやき",
   "romaji": "suyaki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "bisque firing; unglazed pottery; plain grilling",
   "definitions": [
     {
@@ -81,6 +81,36 @@
   ],
   "notes": "Composed of {素|す} (plain, bare, unadorned) and {焼|や}き (firing, grilling). The {素|す} prefix indicates that nothing extra has been added — no glaze in ceramics, no seasoning in cooking.\n\nUSAGE:\nIn ceramics, {素焼|すや}き refers to both the process and the product. It is the essential first step in making glazed pottery. In cooking, {素焼|すや}き emphasizes simplicity and respect for the ingredient's natural taste — a core value in Japanese cuisine.\n\nCOMMON COLLOCATIONS:\n- {素焼|すや}きの{器|うつわ}: unglazed vessel\n- {素焼|すや}きの{植木鉢|うえきばち}: unglazed flowerpot\n- {素焼|すや}きにする: to bisque-fire; to plain-grill\n- {野菜|やさい}の{素焼|すや}き: plain-grilled vegetables\n- {魚|さかな}の{素焼|すや}き: plain-grilled fish\n\nSIMILAR WORDS:\n- {焼成|しょうせい}: firing (kiln) — the technical term for kiln firing in general; {素焼|すや}き specifically means firing without glaze\n- {塩焼|しおや}き: salt-grilled — grilling with salt, one step up from the completely unseasoned {素焼|すや}き\n- {釉薬|ゆうやく}: glaze — the coating applied after the {素焼|すや}き stage in pottery",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24651_shousei",
+      "reading": "しょうせい",
+      "headword": "{焼成|しょうせい}",
+      "label": "firing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12120_shioyaki",
+      "reading": "しおやき",
+      "headword": "{塩焼|しおや}き",
+      "label": "salt-grilled"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23335_yuuyaku",
+      "reading": "ゆうやく",
+      "headword": "{釉薬|ゆうやく}",
+      "label": "glaze"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26130_shouyuyaki",
+      "reading": "しょうゆやき",
+      "headword": "{醤油焼|しょうゆや}き",
+      "label": "soy sauce grilling"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -101,7 +131,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-20T10:38:53Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

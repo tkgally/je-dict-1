@@ -46,6 +46,36 @@
   ],
   "notes": "{絹|きぬ} (silk) + {糸|いと} (thread). Also occasionally read けんし in technical contexts (e.g., the textile industry).\n\nCOMMON COLLOCATIONS:\n- {絹糸|きぬいと}で{織|お}る: to weave with silk thread\n- {絹糸|きぬいと}で{縫|ぬ}う: to sew with silk thread\n- {絹糸|きぬいと}の{光沢|こうたく}: the luster of silk thread\n- {細|ほそ}い{絹糸|きぬいと}: fine silk thread\n\nRELATED WORDS:\n- {絹|きぬ}: silk (the material itself)\n- {糸|いと}: thread (general)\n- {木綿糸|もめんいと}: cotton thread\n- {毛糸|けいと}: wool yarn\n- {蚕|かいこ}: silkworm\n- {繭|まゆ}: cocoon",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00212_keito",
+      "reading": "けいと",
+      "headword": "{毛糸|けいと}",
+      "label": "wool yarn"
+    },
+    {
+      "type": "related",
+      "target_id": "21218_kaiko",
+      "reading": "かいこ",
+      "headword": "{蚕|かいこ}",
+      "label": "silkworm"
+    },
+    {
+      "type": "related",
+      "target_id": "13861_mayu",
+      "reading": "まゆ",
+      "headword": "{繭|まゆ}",
+      "label": "cocoon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26461_kenshi",
+      "reading": "けんし",
+      "headword": "{繭糸|けんし}",
+      "label": "silk thread"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +83,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "material",
         "art"
@@ -61,6 +91,6 @@
       "domain": []
     },
     "created": "2026-05-15T03:09:54Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

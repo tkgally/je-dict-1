@@ -17,7 +17,9 @@
       "id": "29256_migishasen_ex1",
       "japanese": "{右車線|みぎしゃせん}に{移|うつ}る。",
       "english": "I move into the right lane.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29256_migishasen_ex2",
       "japanese": "{右折|うせつ}するので{右車線|みぎしゃせん}を{走|はし}った。",
       "english": "Since I was turning right, I drove in the right lane.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "29256_migishasen_ex3",
       "japanese": "{追|お}い{越|こ}すときだけ{右車線|みぎしゃせん}を{使|つか}い、すぐに{左|ひだり}に{戻|もど}るのが{基本|きほん}だ。",
       "english": "The rule of thumb is to use the right lane only when overtaking and then return to the left right away.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from {右|みぎ} (right) + {車線|しゃせん} (traffic lane). In Japan's left-hand traffic, the right lane is generally the overtaking lane and the lane used to prepare for right turns.\n\nCOMMON COLLOCATIONS:\n- {右車線|みぎしゃせん}に{入|はい}る: to enter the right lane\n- {右車線|みぎしゃせん}を{走|はし}る: to drive in the right lane\n\nSIMILAR WORDS:\n- {左車線|ひだりしゃせん}: left lane — the opposite; in Japan the main travel lane\n- {追|お}い{越|こ}し{車線|しゃせん}: passing lane — names the lane by its function rather than its position",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "26706_hidarishasen",
+      "reading": "ひだりしゃせん",
+      "headword": "{左車線|ひだりしゃせん}",
+      "label": "left lane"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["transportation"],
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ],
       "domain": []
     },
     "created": "2026-06-14T12:18:51Z",
-    "modified": "2026-06-14T12:18:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

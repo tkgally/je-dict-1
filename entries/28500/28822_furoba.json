@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "{風呂|ふろ} (bath) + {場|ば} (place). Refers specifically to the wet area where one bathes — in a typical Japanese home this is a separate room from the toilet ({トイレ}) and from the dressing area ({脱衣所|だついじょ}).\n\nCOMMON COLLOCATIONS:\n- {風呂場|ふろば}を{掃除|そうじ}する: to clean the bathroom\n- {風呂場|ふろば}の{排水口|はいすいこう}: bathroom drain\n- {風呂場|ふろば}で{転|ころ}ぶ: to slip in the bathroom\n\nSIMILAR WORDS:\n- お{風呂|ふろ}: the bath (the act or the tub itself)\n- {浴室|よくしつ}: bathroom — more formal, used in real estate and instructions\n- {脱衣所|だついじょ}: changing area just outside the bath\n- トイレ: toilet — a separate room in most Japanese homes",
+  "notes": "{風呂|ふろ} (bath) + {場|ば} (place). Refers specifically to the wet area where one bathes — in a typical Japanese home this is a separate room from the toilet (トイレ) and from the dressing area ({脱衣所|だついじょ}).\n\nCOMMON COLLOCATIONS:\n- {風呂場|ふろば}を{掃除|そうじ}する: to clean the bathroom\n- {風呂場|ふろば}の{排水口|はいすいこう}: bathroom drain\n- {風呂場|ふろば}で{転|ころ}ぶ: to slip in the bathroom\n\nSIMILAR WORDS:\n- お{風呂|ふろ}: the bath (the act or the tub itself)\n- {浴室|よくしつ}: bathroom — more formal, used in real estate and instructions\n- {脱衣所|だついじょ}: changing area just outside the bath\n- トイレ: toilet — a separate room in most Japanese homes",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00802_ofuro",
+      "reading": "おふろ",
+      "headword": "お{風呂|ふろ}",
+      "label": "the bath"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05301_yokushitsu",
+      "reading": "よくしつ",
+      "headword": "{浴室|よくしつ}",
+      "label": "bathroom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17619_datsuijo",
+      "reading": "だついじょ",
+      "headword": "{脱衣所|だついじょ}",
+      "label": "changing area just outside the bath"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00818_toire",
+      "reading": "といれ",
+      "headword": "トイレ",
+      "label": "toilet"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +83,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "building",
         "daily-life"
@@ -61,6 +91,6 @@
       "domain": []
     },
     "created": "2026-06-06T02:07:42Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

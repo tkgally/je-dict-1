@@ -18,7 +18,9 @@
       "english": "To get a qualification through distance learning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09975_tsuushinkyouiku_ex2",
@@ -26,7 +28,9 @@
       "english": "I graduated from university through correspondence courses while working.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09975_tsuushinkyouiku_ex3",
@@ -34,21 +38,42 @@
       "english": "I bought correspondence course materials for my child.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{通信教育|つうしんきょういく} is a compound of {通信|つうしん} (communication) and {教育|きょういく} (education).\n\nTYPES:\n- {大学|だいがく}{通信|つうしん}{教育|きょういく}: university correspondence courses\n- {資格|しかく}{取得|しゅとく}のための{通信|つうしん}{教育|きょういく}: correspondence courses for qualifications\n- {子|こ}ども{向|む}け{通信|つうしん}{教育|きょういく}: correspondence courses for children\n\nMODERN CONTEXT:\nIncreasingly includes online learning ({オンライン{学習|がくしゅう}}, eラーニング) in addition to traditional mail-based courses.",
-  "cross_references": [],
+  "notes": "{通信教育|つうしんきょういく} is a compound of {通信|つうしん} (communication) and {教育|きょういく} (education).\n\nTYPES:\n- {大学|だいがく}{通信|つうしん}{教育|きょういく}: university correspondence courses\n- {資格|しかく}{取得|しゅとく}のための{通信|つうしん}{教育|きょういく}: correspondence courses for qualifications\n- {子|こ}ども{向|む}け{通信|つうしん}{教育|きょういく}: correspondence courses for children\n\nMODERN CONTEXT:\nIncreasingly includes online learning (オンライン{学習|がくしゅう}, eラーニング) in addition to traditional mail-based courses.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24828_enkakukyouiku",
+      "reading": "えんかくきょういく",
+      "headword": "{遠隔|えんかく}{教育|きょういく}",
+      "label": "distance education"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26517_jitakugakushuu",
+      "reading": "じたくがくしゅう",
+      "headword": "{自宅|じたく}{学習|がくしゅう}",
+      "label": "home study"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T12:05:01Z",
-    "modified": "2026-02-04T12:05:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

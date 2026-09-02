@@ -128,7 +128,7 @@
       ]
     }
   ],
-  "notes": "お{兄|にい}さん is the polite term for 'older brother' and can also be used to address young men.\n\nFAMILY TERM VARIANTS:\n- お{兄|にい}さん: someone's older brother (polite, used for others')\n- ⟦{兄|あに}→兄：00570_ani⟧: my older brother (humble, used for own)\n- お{兄|にい}ちゃん: older brother (casual/affectionate)\n- ⟦{兄貴|あにき}→兄貴：11623_aniki⟧: older brother (masculine, informal)\n\nADDRESSING STRANGERS:\nUsed to address young men you don't know, similar to 'young man' or 'mister' in English. Common when asking for help or getting attention.\n\nRELATED TERMS:\n- ⟦お{姉|ねえ}さん→お姉さん：02859_oneesan⟧: older sister (polite) / young woman\n- ⟦{弟|おとうと}→弟：00572_otouto⟧: younger brother\n- ⟦{妹|いもうと}→妹：00573_imouto⟧: younger sister",
+  "notes": "お{兄|にい}さん is the polite term for 'older brother' and can also be used to address young men.\n\nFAMILY TERM VARIANTS:\n- お{兄|にい}さん: someone's older brother (polite, used for others')\n- ⟦{兄|あに}→兄：00570_ani⟧: my older brother (humble, used for own)\n- お{兄|にい}ちゃん: older brother (casual/affectionate)\n- ⟦{兄貴|あにき}→兄貴：11623_aniki⟧: older brother (masculine, informal)\n\nADDRESSING STRANGERS:\nUsed to address young men you don't know, similar to 'young man' or 'mister' in English. Common when asking for help or getting attention.\n\nRELATED WORDS:\n- ⟦お{姉|ねえ}さん→お姉さん：02859_oneesan⟧: older sister (polite) / young woman\n- ⟦{弟|おとうと}→弟：00572_otouto⟧: younger brother\n- ⟦{妹|いもうと}→妹：00573_imouto⟧: younger sister",
   "cross_references": [
     {
       "type": "keigo",
@@ -143,11 +143,39 @@
       "reading": "おねえさん",
       "headword": "お{姉|ねえ}さん",
       "label": "older sister (polite)"
+    },
+    {
+      "type": "related",
+      "target_id": "00572_otouto",
+      "reading": "おとうと",
+      "headword": "{弟|おとうと}",
+      "label": "younger brother"
+    },
+    {
+      "type": "related",
+      "target_id": "00573_imouto",
+      "reading": "いもうと",
+      "headword": "{妹|いもうと}",
+      "label": "younger sister"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22785_oniichan",
+      "reading": "おにいちゃん",
+      "headword": "お{兄|にい}ちゃん",
+      "label": "older brother (affectionate)"
+    },
+    {
+      "type": "related",
+      "target_id": "27447_otoutosan",
+      "reading": "おとうとさん",
+      "headword": "{弟|おとうと}さん",
+      "label": "younger brother (polite — someone else's)"
     }
   ],
   "metadata": {
     "created": "2026-01-11T09:23:30Z",
-    "modified": "2026-06-12T09:58:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

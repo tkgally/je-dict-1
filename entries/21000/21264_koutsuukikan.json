@@ -17,7 +17,9 @@
       "id": "21264_koutsuukikan_ex1",
       "japanese": "{公共|こうきょう}{交通機関|こうつうきかん}を{利用|りよう}する。",
       "english": "To use public transportation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21264_koutsuukikan_ex2",
       "japanese": "{台風|たいふう}で{交通機関|こうつうきかん}が{乱|みだ}れている。",
       "english": "Transportation services are disrupted due to the typhoon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "21264_koutsuukikan_ex3",
       "japanese": "{東京|とうきょう}は{交通機関|こうつうきかん}が{発達|はったつ}しているので、{車|くるま}がなくても{生活|せいかつ}できる。",
       "english": "Tokyo's transportation network is so well developed that you can live without a car.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {交通|こうつう} (traffic, transportation) and {機関|きかん} (system, institution). Very commonly used in daily life, especially when discussing commuting, travel planning, and weather disruptions. The phrase {公共交通機関|こうきょうこうつうきかん} (public transportation) is particularly frequent.\n\nCOMMON COLLOCATIONS:\n- {公共|こうきょう}{交通機関|こうつうきかん}: public transportation\n- {交通機関|こうつうきかん}が{麻痺|まひ}する: transportation is paralyzed\n- {交通機関|こうつうきかん}が{乱|みだ}れる: transportation is disrupted\n- {交通機関|こうつうきかん}を{利用|りよう}する: to use public transport\n\nRELATED TERMS:\n- {交通手段|こうつうしゅだん}: means of transportation — focuses on individual methods (car, bike, etc.) rather than the system\n- {鉄道|てつどう}: railway — the most common form of public transport in Japan\n- {路線|ろせん}: route, line — specific train or bus lines within the transport network",
+  "notes": "A compound of {交通|こうつう} (traffic, transportation) and {機関|きかん} (system, institution). Very commonly used in daily life, especially when discussing commuting, travel planning, and weather disruptions. The phrase {公共交通機関|こうきょうこうつうきかん} (public transportation) is particularly frequent.\n\nCOMMON COLLOCATIONS:\n- {公共|こうきょう}{交通機関|こうつうきかん}: public transportation\n- {交通機関|こうつうきかん}が{麻痺|まひ}する: transportation is paralyzed\n- {交通機関|こうつうきかん}が{乱|みだ}れる: transportation is disrupted\n- {交通機関|こうつうきかん}を{利用|りよう}する: to use public transport\n\nRELATED WORDS:\n- {交通手段|こうつうしゅだん}: means of transportation — focuses on individual methods (car, bike, etc.) rather than the system\n- {鉄道|てつどう}: railway — the most common form of public transport in Japan\n- {路線|ろせん}: route, line — specific train or bus lines within the transport network",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03550_tetsudou",
+      "reading": "てつどう",
+      "headword": "{鉄道|てつどう}",
+      "label": "railway"
+    },
+    {
+      "type": "related",
+      "target_id": "11341_rosen",
+      "reading": "ろせん",
+      "headword": "{路線|ろせん}",
+      "label": "route, line"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01694_norimono",
+      "reading": "のりもの",
+      "headword": "{乗|の}り{物|もの}",
+      "label": "vehicle, ride"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29441_yusoukikan",
+      "reading": "ゆそうきかん",
+      "headword": "{輸送機関|ゆそうきかん}",
+      "label": "means of transport"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-04-01T16:12:29Z",
-    "modified": "2026-04-01T16:12:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "japanese": "{山奥|やまおく}に{飛瀑|ひばく}がある。",
       "english": "There is a waterfall deep in the mountains.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -25,7 +27,9 @@
       "japanese": "{飛瀑|ひばく}の{音|おと}が{谷|たに}に{響|ひび}いた。",
       "english": "The sound of the waterfall echoed through the valley.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -33,15 +37,25 @@
       "japanese": "{断崖|だんがい}から{落|お}ちる{飛瀑|ひばく}は{壮大|そうだい}な{景色|けしき}だった。",
       "english": "The waterfall plunging from the cliff was a magnificent sight.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     }
   ],
   "notes": "Composed of {飛|ひ} (to fly) + {瀑|ばく} (waterfall). Literally \"flying waterfall,\" evoking the image of water leaping or plunging from a height. A literary term used primarily in written descriptions of nature and landscape.\n\nUSAGE:\n- More poetic and literary than the everyday word {滝|たき}\n- Often found in travel writing, nature descriptions, classical poetry, and place names\n- Evokes grandeur and the dynamic energy of falling water\n\nCOMMON COLLOCATIONS:\n- {飛瀑|ひばく}が{落|お}ちる: a waterfall plunges\n- {飛瀑|ひばく}の{轟音|ごうおん}: the thundering sound of a waterfall\n- {飛瀑|ひばく}{直下|ちょっか}: directly below a waterfall\n\nSIMILAR WORDS:\n- {滝|たき}: waterfall — the standard everyday word\n- {瀑布|ばくふ}: waterfall — another literary/formal synonym\n- {落差|らくさ}: drop, fall — the height of a waterfall's descent",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02219_taki",
+      "reading": "たき",
+      "headword": "{滝|たき}",
+      "label": "waterfall"
+    }
+  ],
   "metadata": {
     "created": "2026-04-23T14:46:50Z",
-    "modified": "2026-04-23T14:46:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

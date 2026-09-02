@@ -3,7 +3,7 @@
   "headword": "{創作的|そうさくてき}",
   "reading": "そうさくてき",
   "romaji": "sousakuteki",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "creative; original; inventive",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "25938_sousakuteki_ex1",
       "japanese": "{創作的|そうさくてき}な{活動|かつどう}に{取|と}り{組|く}む。",
       "english": "To engage in creative activities.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25938_sousakuteki_ex2",
       "japanese": "もっと{創作的|そうさくてき}なアプローチが{必要|ひつよう}だ。",
       "english": "A more creative approach is needed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,44 @@
       "id": "25938_sousakuteki_ex3",
       "japanese": "{子供|こども}たちの{創作的|そうさくてき}な{才能|さいのう}を{伸|の}ばす{教育|きょういく}が{大切|たいせつ}だ。",
       "english": "Education that nurtures children's creative talents is important.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A na-adjective formed from {創作|そうさく} (creation; original work) plus {的|てき}. Emphasizes the act of producing something new — literary works, art, or original ideas. Less common than {創造的|そうぞうてき} in everyday use but carries a stronger association with artistic and literary creation.\n\nCOMMON COLLOCATIONS:\n- {創作的|そうさくてき}な{活動|かつどう}: creative activities\n- {創作的|そうさくてき}な{才能|さいのう}: creative talent\n- {創作的|そうさくてき}な{表現|ひょうげん}: creative expression\n- {創作的|そうさくてき}な{仕事|しごと}: creative work\n\nSIMILAR WORDS:\n- {創造的|そうぞうてき}: creative; innovative — broader in scope, used for any kind of original thinking including scientific and business innovation\n- {独創的|どくそうてき}: original; unique — emphasizes uniqueness and novelty more strongly\n- {芸術的|げいじゅつてき}: artistic — focuses specifically on art and aesthetic quality rather than the creative process",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05695_souzouteki",
+      "reading": "そうぞうてき",
+      "headword": "{創造的|そうぞうてき}",
+      "label": "creative"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06242_dokusouteki",
+      "reading": "どくそうてき",
+      "headword": "{独創的|どくそうてき}",
+      "label": "original"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
-      "semantic": ["art", "evaluation"]
+      "pos": [
+        "adjective-na"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "art",
+        "evaluation"
+      ]
     },
     "created": "2026-04-28T13:30:19Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

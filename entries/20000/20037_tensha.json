@@ -171,6 +171,29 @@
   ],
   "notes": "Compound of {転|てん} (transfer, turn) and {写|しゃ} (copy, photograph). Has both an everyday meaning (transferring images/patterns) and a specialized biological meaning.\n\nCOMMON COLLOCATIONS (general):\n- {転写|てんしゃ}シート: transfer sheet\n- {転写|てんしゃ}シール: transfer sticker/decal\n- {転写|てんしゃ}する: to transfer, to copy\n\nCOMMON COLLOCATIONS (biology):\n- {転写|てんしゃ}{因子|いんし}: transcription factor\n- {遺伝子|いでんし}{転写|てんしゃ}: gene transcription\n- {転写|てんしゃ}{調節|ちょうせつ}: transcription regulation\n- {逆|ぎゃく}{転写|てんしゃ}: reverse transcription\n\nSIMILAR WORDS:\n- {複写|ふくしゃ}: copying, duplication — making an identical copy (photocopying)\n- {翻訳|ほんやく}: translation — in biology, the process of RNA being translated into protein (the step after {転写|てんしゃ})\n- {写|うつ}す: to copy, to transcribe — the everyday verb for copying text or images",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19000_fukusha",
+      "reading": "ふくしゃ",
+      "headword": "{複写|ふくしゃ}",
+      "label": "copying, duplication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01725_honyaku",
+      "reading": "ほんやく",
+      "headword": "{翻訳|ほんやく}",
+      "label": "translation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01227_utsusu",
+      "reading": "うつす",
+      "headword": "{写|うつ}す",
+      "label": "to copy, to transcribe"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -187,6 +210,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T05:30:14Z",
-    "modified": "2026-03-28T05:30:14Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

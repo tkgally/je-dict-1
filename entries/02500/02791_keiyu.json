@@ -2,7 +2,7 @@
   "id": "02791_keiyu",
   "headword": "{経由|けいゆ}",
   "reading": "けいゆ",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "via, by way of",
   "conjugation": {
     "type": "suru",
@@ -153,11 +153,40 @@
       ]
     }
   ],
-  "notes": "{経由|けいゆ} means passing through an intermediate point on the way to a final destination. It can describe physical routes, communication channels, or abstract processes.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{経由|けいゆ}する\n\nTWO GRAMMATICAL PATTERNS:\n- 〜{経由|けいゆ}で: noun modifier (no particle before {経由|けいゆ}), e.g. ⟦{大阪|おおさか}→大阪：09779_oosaka⟧{経由|けいゆ}で⟦{東京|とうきょう}→東京：09564_toukyou⟧へ\n- 〜を{経由|けいゆ}して: verb pattern with を, e.g. ⟦{香港|ほんこん}→香港：noentry⟧⟦を→を：00422_wo⟧{経由|けいゆ}して⟦{届|とど}く→届く：00899_todoku⟧\n\nUSAGE DOMAINS:\n- Travel/transport: ⟦{成田|なりた}→成田：30511_narita⟧{経由|けいゆ}の⟦{便|びん}→便：noentry⟧ (flight via Narita)\n- Communication: ⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦を→を：00422_wo⟧{経由|けいゆ}して⟦{連絡|れんらく}する→連絡：01524_renraku⟧ (contact through a friend)\n- Technology: ⟦サーバー→サーバー：04755_saabaa⟧⟦を→を：00422_wo⟧{経由|けいゆ}する (go through a server)\n\nCONTRAST:\n- {経由|けいゆ}: emphasizes passing through a point along the way\n- ⟦{通|とお}って→通る：01243_tooru⟧: more casual, simply means \"going through\"\n- ⟦{経|へ}て→経る：13876_heru⟧: more literary, emphasizes a process or passage of time",
-  "cross_references": [],
+  "notes": "{経由|けいゆ} means passing through an intermediate point on the way to a final destination. It can describe physical routes, communication channels, or abstract processes.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{経由|けいゆ}する\n\nTWO GRAMMATICAL PATTERNS:\n- 〜{経由|けいゆ}で: noun modifier (no particle before {経由|けいゆ}), e.g. ⟦{大阪|おおさか}→大阪：09779_oosaka⟧{経由|けいゆ}で⟦{東京|とうきょう}→東京：09564_toukyou⟧へ\n- 〜を{経由|けいゆ}して: verb pattern with を, e.g. ⟦{香港|ほんこん}→香港：noentry⟧⟦を→を：00422_wo⟧{経由|けいゆ}して⟦{届|とど}く→届く：00899_todoku⟧\n\nUSAGE DOMAINS:\n- Travel/transport: ⟦{成田|なりた}→成田：30511_narita⟧{経由|けいゆ}の⟦{便|びん}→便：noentry⟧ (flight via Narita)\n- Communication: ⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦を→を：00422_wo⟧{経由|けいゆ}して⟦{連絡|れんらく}する→連絡：01524_renraku⟧ (contact through a friend)\n- Technology: ⟦サーバー→サーバー：04755_saabaa⟧⟦を→を：00422_wo⟧{経由|けいゆ}する (go through a server)\n\nSIMILAR WORDS:\n- {経由|けいゆ}: emphasizes passing through a point along the way\n- ⟦{通|とお}って→通る：01243_tooru⟧: more casual, simply means \"going through\"\n- ⟦{経|へ}て→経る：13876_heru⟧: more literary, emphasizes a process or passage of time",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01243_tooru",
+      "reading": "とおる",
+      "headword": "{通|とお}る",
+      "label": "more casual, simply means \"going…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13876_heru",
+      "reading": "へる",
+      "headword": "{経|へ}る",
+      "label": "more literary, emphasizes a process…"
+    },
+    {
+      "type": "related",
+      "target_id": "09926_noritsugi",
+      "reading": "のりつぎ",
+      "headword": "{乗|の}り{継|つ}ぎ",
+      "label": "transfer, transit, connection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22435_tsuukasuru",
+      "reading": "つうかする",
+      "headword": "{通過|つうか}する",
+      "label": "to pass through"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T08:45:00Z",
-    "modified": "2026-08-12T06:29:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

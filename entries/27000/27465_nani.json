@@ -17,7 +17,9 @@
       "id": "27465_nani_ex1",
       "japanese": "{何位|なんい}でしたか?",
       "english": "What place did you finish?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27465_nani_ex2",
       "japanese": "{日本|にほん}は{世界|せかい}ランキングで{何位|なんい}ですか?",
       "english": "What is Japan's world ranking?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,59 @@
       "id": "27465_nani_ex3",
       "japanese": "{今回|こんかい}の{大会|たいかい}で{彼女|かのじょ}が{何位|なんい}に{入|はい}るか、{誰|だれ}にも{予想|よそう}できなかった。",
       "english": "No one could predict what place she would finish in this tournament.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {何|なん} (what) + the counter {位|い} (place/rank). Standard interrogative for asking about ranking.\n\nCOMMON USES:\n- {何位|なんい}になる: to come in what place\n- {何位|なんい}に{入|はい}る: to finish in what position\n- ランキング{何位|なんい}: what rank in the ranking\n\nRELATED TERMS:\n- {一位|いちい}: first place\n- {二位|にい}: second place\n- {上位|じょうい}: high rank; top positions\n- {順位|じゅんい}: ranking; order of placement",
+  "notes": "Compound of {何|なん} (what) + the counter {位|い} (place/rank). Standard interrogative for asking about ranking.\n\nCOMMON COLLOCATIONS:\n- {何位|なんい}になる: to come in what place\n- {何位|なんい}に{入|はい}る: to finish in what position\n- ランキング{何位|なんい}: what rank in the ranking\n\nRELATED WORDS:\n- {一位|いちい}: first place\n- {二位|にい}: second place\n- {上位|じょうい}: high rank; top positions\n- {順位|じゅんい}: ranking; order of placement",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08926_ichii",
+      "reading": "いちい",
+      "headword": "{一位|いちい}",
+      "label": "first place"
+    },
+    {
+      "type": "related",
+      "target_id": "27466_nii",
+      "reading": "にい",
+      "headword": "{二位|にい}",
+      "label": "second place"
+    },
+    {
+      "type": "related",
+      "target_id": "11188_joui",
+      "reading": "じょうい",
+      "headword": "{上位|じょうい}",
+      "label": "high rank"
+    },
+    {
+      "type": "related",
+      "target_id": "14679_juni",
+      "reading": "じゅんい",
+      "headword": "{順位|じゅんい}",
+      "label": "ranking"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-05-12T04:10:44Z",
-    "modified": "2026-05-12T04:10:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

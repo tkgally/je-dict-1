@@ -24,7 +24,9 @@
       "english": "Let's wash our hands before eating.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12761_tearai_ex2",
@@ -32,7 +34,9 @@
       "english": "Please wash this sweater by hand.",
       "notes": "Used for laundry care instructions.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12761_tearai_ex3",
@@ -40,7 +44,9 @@
       "english": "Frequent handwashing is important for infection prevention.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12761_tearai_ex4",
@@ -48,7 +54,9 @@
       "english": "Where is the restroom?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12761_tearai_ex5",
@@ -56,7 +64,9 @@
       "english": "I'll go to the restroom.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12761_tearai_ex6",
@@ -64,7 +74,9 @@
       "english": "The restroom at this restaurant was very clean.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "{手洗|てあら}い has two distinct meanings: the literal act of washing hands and a polite euphemism for the restroom.\n\nSENSE 1 — HANDWASHING:\n- {手洗|てあら}いをする: to wash one's hands\n- {手洗|てあら}い{可能|かのう}: hand-washable (laundry label)\n\nSENSE 2 — RESTROOM:\nUsed as a polite, indirect way to say 'toilet.' Common in formal settings and signage.\n\nSIMILAR WORDS FOR RESTROOM:\n- トイレ: toilet (most common in daily speech)\n- お{手洗|てあら}い: restroom (polite, with お prefix)\n- {化粧室|けしょうしつ}: powder room (very polite)\n- {洗面所|せんめんじょ}: washroom (literally 'face-washing place')",
@@ -83,18 +95,37 @@
       "reading": "といれ",
       "headword": "トイレ",
       "label": "toilet (common)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15885_keshoushitsu",
+      "reading": "けしょうしつ",
+      "headword": "{化粧室|けしょうしつ}",
+      "label": "powder room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17618_senmenjo",
+      "reading": "せんめんじょ",
+      "headword": "{洗面所|せんめんじょ}",
+      "label": "washroom"
     }
   ],
   "metadata": {
     "created": "2026-02-22T10:04:46Z",
-    "modified": "2026-04-27T08:29:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life", "building"]
+      "semantic": [
+        "daily-life",
+        "building"
+      ]
     }
   }
 }

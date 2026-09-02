@@ -79,8 +79,38 @@
       "notes": null
     }
   ],
-  "notes": "Written with {様|よう} ('appearance; state') + {態|たい} ('form; attitude'). Sounds formal and often appears in medical reports, news broadcasts, and academic writing.\n\nUSAGE:\n- The most frequent everyday context is news and medical reports on an injured or ill person's condition, where {様態|ようたい} and {容態|ようだい} are near-interchangeable.\n- In grammar instruction, {様態|ようたい} refers to expressions of appearance or likelihood, especially そうだ (e.g., {雨|あめ}が{降|ふ}りそうだ 'it looks like it'll rain').\n- Not used in casual conversation about feelings or moods — use {調子|ちょうし} or {具合|ぐあい} instead.\n\nCOMMON COLLOCATIONS:\n- {様態|ようたい}が{悪化|あっか}する: condition worsens\n- {様態|ようたい}が{安定|あんてい}する: condition stabilizes\n- {様態|ようたい}を{見守|みまも}る: to watch (someone's) condition closely\n- {様態|ようたい}の{助動詞|じょどうし}: auxiliary of appearance (grammar)\n- {行動|こうどう}{様態|ようたい}: behavioral mode\n\nSIMILAR WORDS:\n- {容態|ようだい} / {ようたい}: condition (of a patient) — essentially the same meaning in sense 1; 容態 is more common in medical writing, 様態 slightly broader.\n- {状態|じょうたい}: state; condition — the general everyday word; does not carry the same formal/clinical tone.\n- {具合|ぐあい}: condition; how one feels — casual, everyday word for physical or mechanical condition.\n- {調子|ちょうし}: condition; form — used for health, mood, or how something is functioning.",
+  "notes": "Written with {様|よう} ('appearance; state') + {態|たい} ('form; attitude'). Sounds formal and often appears in medical reports, news broadcasts, and academic writing.\n\nUSAGE:\n- The most frequent everyday context is news and medical reports on an injured or ill person's condition, where {様態|ようたい} and {容態|ようだい} are near-interchangeable.\n- In grammar instruction, {様態|ようたい} refers to expressions of appearance or likelihood, especially そうだ (e.g., {雨|あめ}が{降|ふ}りそうだ 'it looks like it'll rain').\n- Not used in casual conversation about feelings or moods — use {調子|ちょうし} or {具合|ぐあい} instead.\n\nCOMMON COLLOCATIONS:\n- {様態|ようたい}が{悪化|あっか}する: condition worsens\n- {様態|ようたい}が{安定|あんてい}する: condition stabilizes\n- {様態|ようたい}を{見守|みまも}る: to watch (someone's) condition closely\n- {様態|ようたい}の{助動詞|じょどうし}: auxiliary of appearance (grammar)\n- {行動|こうどう}{様態|ようたい}: behavioral mode\n\nSIMILAR WORDS:\n- {容態|ようだい} / ようたい: condition (of a patient) — essentially the same meaning in sense 1; 容態 is more common in medical writing, 様態 slightly broader.\n- {状態|じょうたい}: state; condition — the general everyday word; does not carry the same formal/clinical tone.\n- {具合|ぐあい}: condition; how one feels — casual, everyday word for physical or mechanical condition.\n- {調子|ちょうし}: condition; form — used for health, mood, or how something is functioning.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09797_youdai",
+      "reading": "ようだい",
+      "headword": "{容態|ようだい}",
+      "label": "condition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03345_joutai",
+      "reading": "じょうたい",
+      "headword": "{状態|じょうたい}",
+      "label": "state"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01391_guai",
+      "reading": "ぐあい",
+      "headword": "{具合|ぐあい}",
+      "label": "condition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03491_choushi",
+      "reading": "ちょうし",
+      "headword": "{調子|ちょうし}",
+      "label": "condition"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -98,6 +128,6 @@
       ]
     },
     "created": "2026-04-15T17:16:12Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

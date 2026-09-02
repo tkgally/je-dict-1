@@ -19,7 +19,9 @@
       "english": "The dictionary contains abundant usage examples.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13578_yourei_ex2",
@@ -27,7 +29,9 @@
       "english": "If you look at the usage examples, you can easily understand how to use it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13578_yourei_ex3",
@@ -35,21 +39,42 @@
       "english": "This grammar book has few usage examples, so it's hard to understand how the items are actually used.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{用例|ようれい} refers specifically to examples that demonstrate how something is used in practice. Most commonly found in discussions about dictionaries, language learning materials, and technical documentation.\n\nCOMMON COLLOCATIONS:\n- {用例|ようれい}を{示|しめ}す (show usage examples)\n- {用例|ようれい}を{集|あつ}める (collect usage examples)\n- {豊富|ほうふ}な{用例|ようれい} (abundant examples)\n- {用例|ようれい}{検索|けんさく} (example search)\n\nSIMILAR WORDS:\n- {例文|れいぶん}: example sentence (specifically a sentence, often in language study)\n- {例|れい}: example (general, broader)\n- {実例|じつれい}: actual example, real-world case (emphasis on being from real situations)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19450_reibun",
+      "reading": "れいぶん",
+      "headword": "{例文|れいぶん}",
+      "label": "example sentence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04217_jitsurei",
+      "reading": "じつれい",
+      "headword": "{実例|じつれい}",
+      "label": "actual example, real-world case"
+    }
+  ],
   "metadata": {
     "created": "2026-02-25T14:35:52Z",
-    "modified": "2026-02-25T14:35:52Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

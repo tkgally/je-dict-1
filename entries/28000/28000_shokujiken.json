@@ -17,7 +17,9 @@
       "id": "28000_shokujiken_ex1",
       "japanese": "{食事券|しょくじけん}をもらった。",
       "english": "I got a meal voucher.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28000_shokujiken_ex2",
       "japanese": "このプランには{朝食|ちょうしょく}の{食事券|しょくじけん}が{付|つ}いている。",
       "english": "This plan comes with a breakfast meal voucher.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "28000_shokujiken_ex3",
       "japanese": "{商店街|しょうてんがい}の{福引|ふくび}きで{食事券|しょくじけん}が{当|あ}たった。",
       "english": "I won a meal voucher in the shopping district's raffle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n- {食事券|しょくじけん}を{使|つか}う: to use a meal voucher\n- {食事券|しょくじけん}{付|つ}き: comes with a meal voucher\n- {食事券|しょくじけん}が{当|あ}たる: to win a meal voucher\n\nSIMILAR WORDS:\n- {商品券|しょうひんけん}: gift certificate — usable for goods at a store, broader than a meal\n- クーポン: coupon — typically a discount rather than a prepaid value",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22121_shouhinken",
+      "reading": "しょうひんけん",
+      "headword": "{商品券|しょうひんけん}",
+      "label": "gift certificate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06446_kuupon",
+      "reading": "くーぽん",
+      "headword": "クーポン",
+      "label": "coupon"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food", "money"],
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "money"
+      ],
       "domain": []
     },
     "created": "2026-05-24T03:09:30Z",
-    "modified": "2026-05-24T03:09:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "28054_shoubainin_ex1",
       "japanese": "{彼|かれ}は{根|ね}っからの{商売人|しょうばいにん}だ。",
       "english": "He's a born businessman.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28054_shoubainin_ex2",
       "japanese": "さすが{商売人|しょうばいにん}、{値段|ねだん}{交渉|こうしょう}がうまい。",
       "english": "Just like a real trader, he's good at price negotiation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,53 @@
       "id": "28054_shoubainin_ex3",
       "japanese": "{親|おや}が{商売人|しょうばいにん}だったので、{小|ちい}さい{頃|ころ}からお{金|かね}の{大切|たいせつ}さを{学|まな}んだ。",
       "english": "Since my parents were merchants, I learned the value of money from a young age.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers to someone in trade or commerce, especially a private or small-business owner. Often carries admiration for business savvy.\n\nCOMMON COLLOCATIONS:\n- さすが{商売人|しょうばいにん}: just what you'd expect from a businessperson\n- {商売人|しょうばいにん}{気質|かたぎ}: a merchant's temperament\n\nSIMILAR WORDS:\n- {商人|しょうにん}: merchant — more formal and literary\n- {実業家|じつぎょうか}: industrialist; entrepreneur — larger-scale business",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03236_shounin",
+      "reading": "しょうにん",
+      "headword": "{商人|しょうにん}",
+      "label": "merchant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12294_jitsugyouka",
+      "reading": "じつぎょうか",
+      "headword": "{実業家|じつぎょうか}",
+      "label": "industrialist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26869_akindo",
+      "reading": "あきんど",
+      "headword": "{商人|あきんど}",
+      "label": "merchant"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["occupation", "business"],
+      "politeness": "plain",
+      "semantic": [
+        "occupation",
+        "business"
+      ],
       "domain": []
     },
     "created": "2026-05-25T02:04:35Z",
-    "modified": "2026-05-25T02:04:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

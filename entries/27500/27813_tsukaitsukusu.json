@@ -3,7 +3,7 @@
   "headword": "{使|つか}い{尽|つ}くす",
   "reading": "つかいつくす",
   "romaji": "tsukaitsukusu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to use up completely; to exhaust; to consume entirely",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Compound of {使|つか}う (to use) + {尽|つ}くす (to exhaust, to use up completely). Implies that the resource is now entirely gone.\n\nCOMMON COLLOCATIONS:\n- {体力|たいりょく}を{使|つか}い{尽|つ}くす: to use up all one's stamina\n- {資源|しげん}を{使|つか}い{尽|つ}くす: to exhaust resources\n- {予算|よさん}を{使|つか}い{尽|つ}くす: to spend the entire budget\n- {力|ちから}を{使|つか}い{尽|つ}くす: to give everything one has\n\nSIMILAR WORDS:\n- {使|つか}い{切|き}る: to use up — very close in meaning; {尽|つ}くす emphasizes that nothing at all remains\n- {消費|しょうひ}する: to consume — neutral, does not imply total depletion",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11518_tsukaikiru",
+      "reading": "つかいきる",
+      "headword": "{使|つか}い{切|き}る",
+      "label": "to use up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25230_shouhisuru",
+      "reading": "しょうひする",
+      "headword": "{消費|しょうひ}する",
+      "label": "to consume"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28240_nomitsukusu",
+      "reading": "のみつくす",
+      "headword": "{飲|の}み{尽|つ}くす",
+      "label": "to drink up"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "verb-godan"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
@@ -62,7 +85,7 @@
       "verb_class": "godan-su"
     },
     "created": "2026-05-19T04:03:25Z",
-    "modified": "2026-05-19T04:03:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

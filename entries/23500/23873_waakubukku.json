@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Loanword from English 'workbook'. Most commonly refers to exercise books used in school or language learning, but also covers self-study and training books with writing-based activities.\n\nUSAGE:\n- Used especially for language-learning and school-subject workbooks where students write answers directly in the book.\n- Often paired with {教科書|きょうかしょ} ('textbook') as the companion exercise volume.\n- Also extended to self-improvement and skills-training books that guide the reader through written exercises.\n\nCOMMON COLLOCATIONS:\n- ワークブックを{使|つか}う: to use a workbook\n- ワークブックに{書|か}き{込|こ}む: to write in a workbook\n- {英語|えいご}のワークブック: an English workbook\n- ワークブック{形式|けいしき}: workbook format\n- {問題集|もんだいしゅう}とワークブック: problem sets and workbooks\n\nSIMILAR WORDS:\n- {問題集|もんだいしゅう}: problem collection — focused on practice problems (especially for exams), usually with answers provided but without the instructional scaffolding of a workbook.\n- {練習帳|れんしゅうちょう}: practice book / exercise notebook — a native equivalent, often used for children's writing and kanji practice.\n- {教科書|きょうかしょ}: textbook — the main instructional book the workbook supplements.\n- {参考書|さんこうしょ}: reference book, study guide — explanatory, not exercise-based.\n\nREGISTER:\nModern and common in educational publishing. {練習帳|れんしゅうちょう} feels more traditional and is more associated with elementary school and children's materials.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09602_mondaishuu",
+      "reading": "もんだいしゅう",
+      "headword": "{問題集|もんだいしゅう}",
+      "label": "problem collection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01085_kyoukasho",
+      "reading": "きょうかしょ",
+      "headword": "{教科書|きょうかしょ}",
+      "label": "textbook"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05142_sankousho",
+      "reading": "さんこうしょ",
+      "headword": "{参考書|さんこうしょ}",
+      "label": "reference book, study guide"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +82,6 @@
       ]
     },
     "created": "2026-04-15T09:10:08Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -22,7 +22,9 @@
       "id": "25415_oonami_ex1",
       "japanese": "{大波|おおなみ}が{来|き}た。",
       "english": "A big wave came.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "25415_oonami_ex2",
       "japanese": "{台風|たいふう}で{海|うみ}に{大波|おおなみ}が{立|た}っている。",
       "english": "Large waves are rising in the sea because of the typhoon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "25415_oonami_ex3",
       "japanese": "サーファーたちが{大波|おおなみ}に{乗|の}ろうと{沖|おき}に{向|む}かった。",
       "english": "The surfers headed offshore to ride the big waves.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "25415_oonami_ex4",
       "japanese": "{変化|へんか}の{大波|おおなみ}が{押|お}し{寄|よ}せている。",
       "english": "A great wave of change is sweeping in.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "25415_oonami_ex5",
       "japanese": "{不況|ふきょう}の{大波|おおなみ}が{中小企業|ちゅうしょうきぎょう}を{飲|の}み{込|こ}んだ。",
       "english": "The wave of recession engulfed small and medium enterprises.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,59 @@
       "id": "25415_oonami_ex6",
       "japanese": "グローバル{化|か}の{大波|おおなみ}は{日本|にほん}の{産業|さんぎょう}にも{大|おお}きな{影響|えいきょう}を{与|あた}えた。",
       "english": "The great wave of globalization had a major impact on Japanese industry as well.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{大波|おおなみ} literally means \"big wave\" ({大|おお} + {波|なみ}) but is also widely used figuratively for powerful trends or forces.\n\nCOMMON COLLOCATIONS:\n- {大波|おおなみ}が{立|た}つ: large waves rise\n- {大波|おおなみ}に{乗|の}る: ride a big wave; ride a wave (of change)\n- {大波|おおなみ}が{押|お}し{寄|よ}せる: a great wave surges in\n- {大波|おおなみ}に{飲|の}まれる: be swallowed by a big wave\n- {大波|おおなみ}{小波|こなみ}: ups and downs; rough patches and calm ones\n\nSIMILAR WORDS:\n- {荒波|あらなみ}: rough waves; stormy seas — emphasizes roughness and turbulence rather than size\n- {高波|たかなみ}: high wave — often used in weather warnings for dangerously high surf\n- {津波|つなみ}: tsunami — a seismic sea wave, distinct from ordinary large waves",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14026_aranami",
+      "reading": "あらなみ",
+      "headword": "{荒波|あらなみ}",
+      "label": "rough waves"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19938_takanami",
+      "reading": "たかなみ",
+      "headword": "{高波|たかなみ}",
+      "label": "high wave"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05064_tsunami",
+      "reading": "つなみ",
+      "headword": "{津波|つなみ}",
+      "label": "tsunami"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24210_hatou",
+      "reading": "はとう",
+      "headword": "{波濤|はとう}",
+      "label": "surging waves"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather", "geography"]
+      "semantic": [
+        "weather",
+        "geography"
+      ]
     },
     "created": "2026-04-25T12:34:28Z",
-    "modified": "2026-04-25T12:34:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

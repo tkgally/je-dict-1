@@ -3,7 +3,7 @@
   "headword": "{廃業|はいぎょう}",
   "reading": "はいぎょう",
   "romaji": "haigyou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "closing a business; going out of business",
   "definitions": [
     {
@@ -52,6 +52,41 @@
       "reading": "かいぎょう",
       "headword": "{開業|かいぎょう}",
       "label": "opening a business"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09698_heiten",
+      "reading": "へいてん",
+      "headword": "{閉店|へいてん}",
+      "label": "closing a shop (can be temporary…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03452_tousan",
+      "reading": "とうさん",
+      "headword": "{倒産|とうさん}",
+      "label": "bankruptcy, business failure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11541_kyuugyou",
+      "reading": "きゅうぎょう",
+      "headword": "{休業|きゅうぎょう}",
+      "label": "temporary closure, suspension…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26990_tousansuru",
+      "reading": "とうさんする",
+      "headword": "{倒産|とうさん}する",
+      "label": "to go bankrupt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27268_keieihatan",
+      "reading": "けいえいはたん",
+      "headword": "{経営|けいえい}{破綻|はたん}",
+      "label": "business failure"
     }
   ],
   "schema_version": "2.0",
@@ -70,7 +105,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-29T21:19:15Z",
-    "modified": "2026-04-30T09:17:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

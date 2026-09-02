@@ -3,7 +3,7 @@
   "headword": "{短慮|たんりょ}",
   "reading": "たんりょ",
   "romaji": "tanryo",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "rashness; imprudence; hasty thinking",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "29491_tanryo_ex1",
       "japanese": "{短慮|たんりょ}を{慎|つつし}む。",
       "english": "to refrain from rash behavior.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29491_tanryo_ex2",
       "japanese": "{短慮|たんりょ}な{行動|こうどう}は{後悔|こうかい}を{招|まね}く。",
       "english": "Rash actions invite regret.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "29491_tanryo_ex3",
       "japanese": "{一時|いちじ}の{短慮|たんりょ}から、{彼|かれ}は{大切|たいせつ}な{仕事|しごと}を{辞|や}めてしまった。",
       "english": "Out of a moment's rashness, he quit his important job.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {短|たん} (short) + {慮|りょ} (thought, consideration); literally 'short thinking.' A formal, somewhat literary word for acting without enough forethought.\n\nUSAGE:\n- As a noun: {短慮|たんりょ}を{慎|つつし}む (to refrain from rashness)\n- As a na-adjective: {短慮|たんりょ}な{判断|はんだん} (a rash judgment)\n\nSIMILAR WORDS:\n- {軽率|けいそつ}: careless; hasty — more common, emphasizes carelessness\n- {浅慮|せんりょ}: shallow thinking — close synonym, also formal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06866_keisotsu",
+      "reading": "けいそつ",
+      "headword": "{軽率|けいそつ}",
+      "label": "careless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06278_keikyomoudou",
+      "reading": "けいきょもうどう",
+      "headword": "{軽挙妄動|けいきょもうどう}",
+      "label": "rash action, reckless behavior"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["personality"],
+      "politeness": "plain",
+      "semantic": [
+        "personality"
+      ],
       "domain": []
     },
     "created": "2026-06-26T09:20:43Z",
-    "modified": "2026-06-26T09:20:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

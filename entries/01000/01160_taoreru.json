@@ -203,11 +203,47 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{倒|たお}す→倒す：01954_taosu⟧ (transitive, to knock down). Pattern: X⟦が→が：00051_ga⟧{倒|たお}れる (X falls down).\n\nASPECT: ている indicates resulting state. {倒|たお}れている = 'is lying fallen' or 'has collapsed.'\n\nCOMMON PATTERNS:\n・⟦{木|き}→木：00524_ki⟧⟦が→が：00051_ga⟧{倒|たお}れる (tree falls)\n・⟦{病気|びょうき}→病気：00771_byouki⟧⟦で→で：00502_de⟧{倒|たお}れる (collapse from illness)\n・⟦{過労|かろう}→過労：08563_karou⟧⟦で→で：00502_de⟧{倒|たお}れる (collapse from overwork)\n・⟦{政府|せいふ}→政府：03294_seifu⟧⟦が→が：00051_ga⟧{倒|たお}れる (government falls)\n・⟦ばったり→ばったり：03701_battari⟧{倒|たお}れる (fall down suddenly)\n\nCONTRAST:\n・{倒|たお}れる (intransitive): X falls/collapses\n・⟦{倒|たお}す→倒す：01954_taosu⟧ (transitive): (someone) knocks X down",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{倒|たお}す→倒す：01954_taosu⟧ (transitive, to knock down). Pattern: X⟦が→が：00051_ga⟧{倒|たお}れる (X falls down).\n\nASPECT: ている indicates resulting state. {倒|たお}れている = 'is lying fallen' or 'has collapsed.'\n\nCOMMON PATTERNS:\n- ⟦{木|き}→木：00524_ki⟧⟦が→が：00051_ga⟧{倒|たお}れる (tree falls)\n- ⟦{病気|びょうき}→病気：00771_byouki⟧⟦で→で：00502_de⟧{倒|たお}れる (collapse from illness)\n- ⟦{過労|かろう}→過労：08563_karou⟧⟦で→で：00502_de⟧{倒|たお}れる (collapse from overwork)\n- ⟦{政府|せいふ}→政府：03294_seifu⟧⟦が→が：00051_ga⟧{倒|たお}れる (government falls)\n- ⟦ばったり→ばったり：03701_battari⟧{倒|たお}れる (fall down suddenly)\n\nSIMILAR WORDS:\n- {倒|たお}れる (intransitive): X falls/collapses\n- ⟦{倒|たお}す→倒す：01954_taosu⟧ (transitive): (someone) knocks X down",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03452_tousan",
+      "reading": "とうさん",
+      "headword": "{倒産|とうさん}",
+      "label": "bankruptcy (corporate)"
+    },
+    {
+      "type": "related",
+      "target_id": "09101_kokeru",
+      "reading": "こける",
+      "headword": "こける",
+      "label": "to fall down, to tumble"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24430_kontou",
+      "reading": "こんとう",
+      "headword": "{昏倒|こんとう}",
+      "label": "fainting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25308_toukai",
+      "reading": "とうかい",
+      "headword": "{倒壊|とうかい}",
+      "label": "collapse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29046_taorekomu",
+      "reading": "たおれこむ",
+      "headword": "{倒|たお}れ{込|こ}む",
+      "label": "to collapse onto"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:01:22Z",
-    "modified": "2026-05-14T14:17:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

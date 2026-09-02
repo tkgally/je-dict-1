@@ -17,7 +17,9 @@
       "id": "27058_aokusa_ex1",
       "japanese": "{青草|あおくさ}の{匂|にお}いがする。",
       "english": "I can smell fresh grass.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27058_aokusa_ex2",
       "japanese": "{牛|うし}が{青草|あおくさ}を{食|た}べている。",
       "english": "The cows are eating fresh grass.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "27058_aokusa_ex3",
       "japanese": "{春|はる}になると{野原|のはら}が{青草|あおくさ}で{覆|おお}われて、{気持|きも}ちのいい{季節|きせつ}だ。",
       "english": "In spring the fields are covered with green grass — it's a pleasant season.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {青|あお} (green/blue) and {草|くさ} (grass/plants). In Japanese, {青|あお} is traditionally used for the color of vegetation, not {緑|みどり}. This is the same usage seen in {青葉|あおば} (green leaves) and {青田|あおた} (green rice paddies).\n\nCOMMON COLLOCATIONS:\n- {青草|あおくさ}の{匂|にお}い — the smell of fresh grass\n- {青草|あおくさ}を{刈|か}る — to mow green grass\n- {青草|あおくさ}が{生|は}える — green grass grows\n\nSIMILAR WORDS:\n- {雑草|ざっそう} — weeds (unwanted plants, regardless of color)\n- {芝生|しばふ} — lawn; turf (cultivated grass)\n- {枯|か}れ{草|くさ} — dried/dead grass (the opposite of {青草|あおくさ})\n- {牧草|ぼくそう} — pasture grass; fodder (grass specifically for livestock)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04996_zassou",
+      "reading": "ざっそう",
+      "headword": "{雑草|ざっそう}",
+      "label": "weeds"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03196_shibafu",
+      "reading": "しばふ",
+      "headword": "{芝生|しばふ}",
+      "label": "lawn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25486_bokusou",
+      "reading": "ぼくそう",
+      "headword": "{牧草|ぼくそう}",
+      "label": "pasture grass"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["plant-general"]
+      "semantic": [
+        "plant-general"
+      ]
     },
     "created": "2026-05-06T15:14:20Z",
-    "modified": "2026-05-06T15:14:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

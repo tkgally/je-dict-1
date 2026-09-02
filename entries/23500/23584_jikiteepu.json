@@ -17,7 +17,9 @@
       "id": "23584_jikiteepu_ex1",
       "japanese": "{磁気|じき}テープにデータを{保存|ほぞん}する。",
       "english": "To save data onto magnetic tape.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23584_jikiteepu_ex2",
       "japanese": "{昔|むかし}は{音楽|おんがく}を{磁気|じき}テープに{録音|ろくおん}していた。",
       "english": "In the past, music was recorded onto magnetic tape.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,48 @@
       "id": "23584_jikiteepu_ex3",
       "japanese": "{大量|たいりょう}のデータを{長期|ちょうき}{保管|ほかん}するには、{今|いま}でも{磁気|じき}テープが{使|つか}われている。",
       "english": "Magnetic tape is still used today for the long-term storage of large amounts of data.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {磁気|じき} (magnetism) and the loanword テープ (tape). Covers cassette audio tapes, VHS video tapes, and computer backup tapes. Although consumer use has declined dramatically, magnetic tape remains important for enterprise data archiving because of its low cost per terabyte and long shelf life.\n\nCOMMON COLLOCATIONS:\n- {磁気|じき}テープに{記録|きろく}する: to record onto magnetic tape\n- {磁気|じき}テープが{劣化|れっか}する: the magnetic tape deteriorates\n- {磁気|じき}テープ{装置|そうち}: magnetic tape drive\n- バックアップ{用|よう}の{磁気|じき}テープ: magnetic tape for backups\n\nRELATED TERMS:\n- カセットテープ: cassette tape — an audio format using magnetic tape\n- ビデオテープ: videotape — a video format using magnetic tape\n- ハードディスク: hard disk — a magnetic storage device using rotating platters rather than tape",
+  "notes": "Compound of {磁気|じき} (magnetism) and the loanword テープ (tape). Covers cassette audio tapes, VHS video tapes, and computer backup tapes. Although consumer use has declined dramatically, magnetic tape remains important for enterprise data archiving because of its low cost per terabyte and long shelf life.\n\nCOMMON COLLOCATIONS:\n- {磁気|じき}テープに{記録|きろく}する: to record onto magnetic tape\n- {磁気|じき}テープが{劣化|れっか}する: the magnetic tape deteriorates\n- {磁気|じき}テープ{装置|そうち}: magnetic tape drive\n- バックアップ{用|よう}の{磁気|じき}テープ: magnetic tape for backups\n\nRELATED WORDS:\n- カセットテープ: cassette tape — an audio format using magnetic tape\n- ビデオテープ: videotape — a video format using magnetic tape\n- ハードディスク: hard disk — a magnetic storage device using rotating platters rather than tape",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27932_kasettoteepu",
+      "reading": "かせっとてーぷ",
+      "headword": "カセットテープ",
+      "label": "cassette tape"
+    },
+    {
+      "type": "related",
+      "target_id": "06603_haadodisuku",
+      "reading": "はーどでぃすく",
+      "headword": "ハードディスク",
+      "label": "hard disk"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["technical"],
-      "semantic": ["technology", "media"]
+      "domain": [
+        "technical"
+      ],
+      "semantic": [
+        "technology",
+        "media"
+      ]
     },
     "created": "2026-04-12T18:10:48Z",
-    "modified": "2026-04-12T18:10:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

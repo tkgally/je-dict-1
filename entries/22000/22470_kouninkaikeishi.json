@@ -17,7 +17,9 @@
       "id": "22470_kouninkaikeishi_ex1",
       "japanese": "{公認会計士|こうにんかいけいし}の{試験|しけん}に{合格|ごうかく}した。",
       "english": "I passed the CPA exam.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22470_kouninkaikeishi_ex2",
       "japanese": "{公認会計士|こうにんかいけいし}に{決算|けっさん}の{監査|かんさ}を{依頼|いらい}した。",
       "english": "We asked a certified public accountant to audit the financial statements.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "22470_kouninkaikeishi_ex3",
       "japanese": "{公認会計士|こうにんかいけいし}は{日本|にほん}で{最|もっと}も{難|むずか}しい{国家資格|こっかしかく}の{一|ひと}つとされている。",
       "english": "The CPA qualification is considered one of the most difficult national certifications in Japan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {公認|こうにん} (officially certified) + {会計|かいけい} (accounting) + {士|し} (professional, specialist). The Japanese CPA certification is considered one of the three most difficult national examinations, alongside the bar exam ({司法試験|しほうしけん}) and the medical exam.\n\nCOMMON COLLOCATIONS:\n- {公認会計士|こうにんかいけいし}{試験|しけん}: CPA exam\n- {公認会計士|こうにんかいけいし}に{依頼|いらい}する: to hire a CPA\n- {公認会計士|こうにんかいけいし}の{資格|しかく}: CPA qualification\n- {公認会計士|こうにんかいけいし}{事務所|じむしょ}: CPA office / accounting firm\n\nSIMILAR WORDS:\n- {税理士|ぜいりし}: tax accountant — specializes in tax filing and advice; a separate qualification from CPA\n- {会計士|かいけいし}: accountant — a general term; without {公認|こうにん}, it does not imply the national certification\n- {監査法人|かんさほうじん}: audit firm — an organization of CPAs that performs corporate audits",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06571_zeirishi",
+      "reading": "ぜいりし",
+      "headword": "{税理士|ぜいりし}",
+      "label": "tax accountant"
+    },
+    {
+      "type": "related",
+      "target_id": "05972_kansa",
+      "reading": "かんさ",
+      "headword": "{監査|かんさ}",
+      "label": "audit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-04-06T12:19:32Z",
-    "modified": "2026-04-06T12:19:32Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

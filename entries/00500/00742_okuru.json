@@ -208,11 +208,47 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: XをYに{送|おく}る (send X to Y) or Xを{送|おく}る (see X off).\n\nASPECT: ている indicates ongoing action or completed action depending on context. {送|おく}っている = 'is sending' or 'has sent.'\n\nCOMMON PATTERNS:\n・⟦{手紙|てがみ}→てがみ：00675_tegami⟧を{送|おく}る (send a letter)\n・⟦メール→めーる：04435_meeru⟧を{送|おく}る (send an email)\n・⟦{荷物|にもつ}→にもつ：00737_nimotsu⟧を{送|おく}る (send a package)\n・⟦{駅|えき}→えき：02180_eki⟧まで{送|おく}る (walk someone to the station)\n\nRelated:\n- {送|おく}り{迎|むか}え (pick-up and drop-off)\n- ⟦{見送|みおく}る→みおくる：04240_miokuru⟧ (to see off).",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: XをYに{送|おく}る (send X to Y) or Xを{送|おく}る (see X off).\n\nASPECT: ている indicates ongoing action or completed action depending on context. {送|おく}っている = 'is sending' or 'has sent.'\n\nCOMMON PATTERNS:\n- ⟦{手紙|てがみ}→てがみ：00675_tegami⟧を{送|おく}る (send a letter)\n- ⟦メール→めーる：04435_meeru⟧を{送|おく}る (send an email)\n- ⟦{荷物|にもつ}→にもつ：00737_nimotsu⟧を{送|おく}る (send a package)\n- ⟦{駅|えき}→えき：02180_eki⟧まで{送|おく}る (walk someone to the station)\n\nRelated:\n- {送|おく}り{迎|むか}え (pick-up and drop-off)\n- ⟦{見送|みおく}る→みおくる：04240_miokuru⟧ (to see off).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10458_hassou",
+      "reading": "はっそう",
+      "headword": "{発送|はっそう}",
+      "label": "shipping"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17692_soushin",
+      "reading": "そうしん",
+      "headword": "{送信|そうしん}",
+      "label": "sending, transmission"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21617_tensousuru",
+      "reading": "てんそうする",
+      "headword": "{転送|てんそう}する",
+      "label": "to forward"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21737_hassousuru",
+      "reading": "はっそうする",
+      "headword": "{発送|はっそう}する",
+      "label": "to send"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26780_soushinsuru",
+      "reading": "そうしんする",
+      "headword": "{送信|そうしん}する",
+      "label": "to send"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:13:46Z",
-    "modified": "2026-04-10T06:37:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

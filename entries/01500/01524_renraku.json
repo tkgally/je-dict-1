@@ -2,7 +2,7 @@
   "id": "01524_renraku",
   "headword": "{連絡|れんらく}",
   "reading": "れんらく",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "contact, communication",
   "definitions": [
     {
@@ -79,10 +79,67 @@
     }
   ],
   "notes": "{連絡|れんらく} means contact/communication or connection (transport).\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {連絡|れんらく}⟦する→する：00392_suru⟧\n\nVERBAL USAGE:\n{連絡|れんらく}⟦する→する：00392_suru⟧ is the verbal form (to contact, to get in touch).\n\nCOMMON EXPRESSIONS:\n- {連絡|れんらく}⟦する→する：00392_suru⟧: to contact\n- {連絡|れんらく}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to get in touch\n- {連絡|れんらく}⟦が→が：00051_ga⟧⟦{来|く}る→来る：00254_kuru⟧: to receive contact\n- {連絡|れんらく}⟦が→が：00051_ga⟧⟦{取|と}れない→取る：00565_toru⟧: unable to reach\n- ⟦{連絡|れんらく}{先|さき}→連絡先：03191_renrakusaki⟧: contact information\n- {連絡|れんらく}⟦{網|もう}→網：noentry⟧: contact network\n\nTRANSPORT MEANING:\n- {連絡|れんらく}⟦バス→バス：00769_basu⟧: connecting bus\n- {連絡|れんらく}⟦が→が：00051_ga⟧⟦{良|よ}い→いい：00118_ii⟧/⟦{悪|わる}い→悪い：00908_warui⟧: good/poor connections\n\nNote: {連絡|れんらく}⟦ください→下さい：02899_kudasai⟧ is a common way to ask someone to contact you.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03252_shirase",
+      "reading": "しらせ",
+      "headword": "{知|し}らせ",
+      "label": "notice, notification"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03411_tayori",
+      "reading": "たより",
+      "headword": "{便|たよ}り",
+      "label": "news, letter, correspondence"
+    },
+    {
+      "type": "related",
+      "target_id": "07702_yaritori",
+      "reading": "やりとり",
+      "headword": "やり{取|と}り",
+      "label": "exchange"
+    },
+    {
+      "type": "related",
+      "target_id": "08385_moushiokuri",
+      "reading": "もうしおくり",
+      "headword": "{申|もう}し{送|おく}り",
+      "label": "handover briefing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19242_shousoku",
+      "reading": "しょうそく",
+      "headword": "{消息|しょうそく}",
+      "label": "whereabouts"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19764_otosata",
+      "reading": "おとさた",
+      "headword": "{音沙汰|おとさた}",
+      "label": "news"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20101_koushin",
+      "reading": "こうしん",
+      "headword": "{交信|こうしん}",
+      "label": "communication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24082_onshin",
+      "reading": "おんしん",
+      "headword": "{音信|おんしん}",
+      "label": "correspondence"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:39:15Z",
-    "modified": "2026-05-15T20:14:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

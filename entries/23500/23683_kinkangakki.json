@@ -17,7 +17,9 @@
       "id": "23683_kinkangakki_ex1",
       "japanese": "{金管楽器|きんかんがっき}を{演奏|えんそう}する。",
       "english": "To play a brass instrument.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23683_kinkangakki_ex2",
       "japanese": "トランペットは{代表的|だいひょうてき}な{金管楽器|きんかんがっき}だ。",
       "english": "The trumpet is a representative brass instrument.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23683_kinkangakki_ex3",
       "japanese": "{金管楽器|きんかんがっき}は{唇|くちびる}を{震|ふる}わせて{音|おと}を{出|だ}す。",
       "english": "Brass instruments produce sound by vibrating the lips.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,65 @@
       "id": "23683_kinkangakki_ex4",
       "japanese": "{吹奏楽部|すいそうがくぶ}では、{金管楽器|きんかんがっき}と{木管楽器|もっかんがっき}が{一緒|いっしょ}に{演奏|えんそう}する。",
       "english": "In the wind-band club, brass instruments and woodwinds play together.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {金管|きんかん} (brass tube / metal pipe) and {楽器|がっき} (musical instrument). Refers to the brass family of instruments, which produce sound by the player buzzing the lips into a cup-shaped mouthpiece.\n\nNote that, as in English, the category is defined by playing technique rather than the actual material — instruments made of brass that are played with reeds (such as the saxophone) are classified as {木管楽器|もっかんがっき}, not {金管楽器|きんかんがっき}.\n\nCOMMON COLLOCATIONS:\n- {金管楽器|きんかんがっき}を{吹|ふ}く: to play a brass instrument\n- {金管|きんかん}{パート}: the brass section (of a band or orchestra)\n- {金管|きんかん}{五重奏|ごじゅうそう}: a brass quintet\n- {金管楽器|きんかんがっき}の{響|ひび}き: the sound of brass\n\nMEMBERS OF THE FAMILY:\n- トランペット: trumpet\n- トロンボーン: trombone\n- ホルン / フレンチホルン: (French) horn\n- チューバ: tuba\n- ユーフォニアム: euphonium\n\nSIMILAR WORDS:\n- {木管楽器|もっかんがっき}: woodwind instrument — the contrasting category (flute, clarinet, oboe, saxophone)\n- {打楽器|だがっき}: percussion instrument\n- {弦楽器|げんがっき}: string instrument\n- {管楽器|かんがっき}: wind instrument (covers both brass and woodwind)",
+  "notes": "Composed of {金管|きんかん} (brass tube / metal pipe) and {楽器|がっき} (musical instrument). Refers to the brass family of instruments, which produce sound by the player buzzing the lips into a cup-shaped mouthpiece.\n\nNote that, as in English, the category is defined by playing technique rather than the actual material — instruments made of brass that are played with reeds (such as the saxophone) are classified as {木管楽器|もっかんがっき}, not {金管楽器|きんかんがっき}.\n\nCOMMON COLLOCATIONS:\n- {金管楽器|きんかんがっき}を{吹|ふ}く: to play a brass instrument\n- {金管|きんかん}パート: the brass section (of a band or orchestra)\n- {金管|きんかん}{五重奏|ごじゅうそう}: a brass quintet\n- {金管楽器|きんかんがっき}の{響|ひび}き: the sound of brass\n\nMEMBERS OF THE FAMILY:\n- トランペット: trumpet\n- トロンボーン: trombone\n- ホルン / フレンチホルン: (French) horn\n- チューバ: tuba\n- ユーフォニアム: euphonium\n\nSIMILAR WORDS:\n- {木管楽器|もっかんがっき}: woodwind instrument — the contrasting category (flute, clarinet, oboe, saxophone)\n- {打楽器|だがっき}: percussion instrument\n- {弦楽器|げんがっき}: string instrument\n- {管楽器|かんがっき}: wind instrument (covers both brass and woodwind)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25946_mokkangakki",
+      "reading": "もっかんがっき",
+      "headword": "{木管楽器|もっかんがっき}",
+      "label": "woodwind instrument"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07532_dagakki",
+      "reading": "だがっき",
+      "headword": "{打楽器|だがっき}",
+      "label": "percussion instrument"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07534_gengakki",
+      "reading": "げんがっき",
+      "headword": "{弦楽器|げんがっき}",
+      "label": "string instrument"
+    },
+    {
+      "type": "related",
+      "target_id": "07535_suisougaku",
+      "reading": "すいそうがく",
+      "headword": "{吹奏楽|すいそうがく}",
+      "label": "wind band music"
+    },
+    {
+      "type": "related",
+      "target_id": "08139_toronboon",
+      "reading": "とろんぼーん",
+      "headword": "トロンボーン",
+      "label": "trombone"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["music"]
+      "semantic": [
+        "music"
+      ]
     },
     "created": "2026-04-14T00:46:30Z",
-    "modified": "2026-04-14T00:46:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

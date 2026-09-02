@@ -3,7 +3,7 @@
   "headword": "{連載終了|れんさいしゅうりょう}",
   "reading": "れんさいしゅうりょう",
   "romaji": "rensaishuuryou",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "end of serialization",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Compound of {連載|れんさい} (serialization) and {終了|しゅうりょう} (end; conclusion). This is a key term in manga and publishing culture. A {連載終了|れんさいしゅうりょう} can be either a planned conclusion ({完結|かんけつ}) or an early cancellation ({打|う}ち{切|き}り).\n\nCOMMON COLLOCATIONS:\n- {連載終了|れんさいしゅうりょう}を{迎|むか}える: to reach the end of serialization\n- {連載終了|れんさいしゅうりょう}が{発表|はっぴょう}される: end of serialization is announced\n- {連載終了|れんさいしゅうりょう}{後|ご}: after serialization ends\n- {惜|お}しまれつつ{連載終了|れんさいしゅうりょう}: ending serialization to widespread regret\n\nSIMILAR WORDS:\n- {完結|かんけつ}: completion, implies the story reached its intended conclusion\n- {打|う}ち{切|き}り: cancellation, implies early termination due to low popularity\n- {最終回|さいしゅうかい}: final episode/installment, refers to the last chapter itself",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12279_kanketsu",
+      "reading": "かんけつ",
+      "headword": "{完結|かんけつ}",
+      "label": "completion, implies the story reached…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08296_uchikiri",
+      "reading": "うちきり",
+      "headword": "{打|う}ち{切|き}り",
+      "label": "cancellation, implies early termination…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26891_saishuukai",
+      "reading": "さいしゅうかい",
+      "headword": "{最終回|さいしゅうかい}",
+      "label": "final episode/installment, refers…"
+    },
+    {
+      "type": "related",
+      "target_id": "22580_rensaichuu",
+      "reading": "れんさいちゅう",
+      "headword": "{連載中|れんさいちゅう}",
+      "label": "currently serialized"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-21T14:19:13Z",
-    "modified": "2026-04-21T14:19:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -17,7 +17,9 @@
       "id": "21087_kahen_ex1",
       "japanese": "{可変|かへん}{速度|そくど}のモーター。",
       "english": "A variable-speed motor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21087_kahen_ex2",
       "japanese": "{角度|かくど}が{可変|かへん}のスタンドを{使|つか}っている。",
       "english": "I'm using a stand with an adjustable angle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "21087_kahen_ex3",
       "japanese": "この{椅子|いす}は{高|たか}さが{可変|かへん}なので、{子供|こども}から{大人|おとな}まで{使|つか}える。",
       "english": "This chair has adjustable height, so it can be used by both children and adults.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A technical modifier meaning \"variable\" or \"adjustable.\" Most commonly appears before another noun to describe something that can be changed or modified. Contrasts with {固定|こてい} (fixed).\n\nCOMMON COLLOCATIONS:\n- {可変|かへん}{速度|そくど}: variable speed\n- {可変|かへん}{抵抗|ていこう}: variable resistor\n- {可変|かへん}{長|ちょう}: variable length\n- {可変|かへん}{翼|つばさ}: variable-geometry wing (swing wing)\n\nSIMILAR WORDS:\n- {固定|こてい}: fixed, stationary — the direct opposite; something that cannot be changed\n- {調節|ちょうせつ}{可能|かのう}: adjustable — a more explanatory way to say the same thing; more common in everyday speech\n- {変動|へんどう}: fluctuation, variation — describes natural or market-driven changes rather than user-adjustable settings\n\nETYMOLOGY:\n{可|か} (possible) + {変|へん} (change) — \"able to be changed.\"",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "10996_kotei",
+      "reading": "こてい",
+      "headword": "{固定|こてい}",
+      "label": "fixed, stationary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09936_hendou",
+      "reading": "へんどう",
+      "headword": "{変動|へんどう}",
+      "label": "fluctuation, variation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["technology"]
+      "semantic": [
+        "technology"
+      ]
     },
     "created": "2026-03-31T17:14:05Z",
-    "modified": "2026-03-31T17:14:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "28797_suchiimu_ex1",
       "japanese": "アイロンのスチームを{使|つか}った。",
       "english": "I used the steam function on the iron.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28797_suchiimu_ex2",
       "japanese": "スチームオーブンで{野菜|やさい}を{調理|ちょうり}した。",
       "english": "I cooked the vegetables in a steam oven.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "28797_suchiimu_ex3",
       "japanese": "{冬|ふゆ}は{加湿器|かしつき}のスチームで{部屋|へや}の{乾燥|かんそう}を{防|ふせ}いでいる。",
       "english": "In winter I prevent the room from drying out with steam from a humidifier.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English 'steam'. Used in technical and product contexts rather than for everyday descriptions of visible steam.\n\nCOMMON COMPOUNDS:\n- スチームアイロン: steam iron\n- スチームオーブン: steam oven\n- スチームクリーナー: steam cleaner\n- スチーム{機能|きのう}: steam function\n\nSIMILAR WORDS:\n- {湯気|ゆげ}: visible steam rising from hot food, baths, etc. — the everyday word\n- {蒸気|じょうき}: vapor; steam — technical/scientific term, used in {蒸気機関|じょうききかん} (steam engine)",
+  "notes": "From English 'steam'. Used in technical and product contexts rather than for everyday descriptions of visible steam.\n\nCOMPOUNDS:\n- スチームアイロン: steam iron\n- スチームオーブン: steam oven\n- スチームクリーナー: steam cleaner\n- スチーム{機能|きのう}: steam function\n\nSIMILAR WORDS:\n- {湯気|ゆげ}: visible steam rising from hot food, baths, etc. — the everyday word\n- {蒸気|じょうき}: vapor; steam — technical/scientific term, used in {蒸気機関|じょうききかん} (steam engine)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03991_yuge",
+      "reading": "ゆげ",
+      "headword": "{湯気|ゆげ}",
+      "label": "visible steam rising from hot food…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04278_jouki",
+      "reading": "じょうき",
+      "headword": "{蒸気|じょうき}",
+      "label": "vapor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["technology", "daily-life"],
+      "politeness": "plain",
+      "semantic": [
+        "technology",
+        "daily-life"
+      ],
       "domain": []
     },
     "created": "2026-06-05T04:08:23Z",
-    "modified": "2026-06-05T04:08:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

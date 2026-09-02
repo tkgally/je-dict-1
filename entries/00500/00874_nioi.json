@@ -63,14 +63,54 @@
       ]
     }
   ],
-  "notes": "{匂|にお}い refers to smells perceived by the nose, and can describe both pleasant and unpleasant odors.\n\nCOMMON PATTERNS:\n- {匂|にお}い⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧: to smell (of something), to have a smell\n- ⟦いい→いい：00118_ii⟧{匂|にお}い⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧: to smell good\n- ⟦{変|へん}な→変：01124_hen⟧{匂|にお}い⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧: to smell strange\n- {匂|にお}い⟦を→を：00422_wo⟧⟦{嗅|か}ぐ→嗅ぐ：02036_kagu⟧: to smell (actively sniff)\n- {匂|にお}い⟦が→が：00051_ga⟧⟦して→する：00392_suru⟧⟦くる→来る：00254_kuru⟧: a smell comes wafting over\n\nKANJI VARIANTS:\n- {匂|にお}い: neutral, can be good or bad\n- {臭|にお}い: often implies a bad smell\n\nSIMILAR WORDS:\n- ⟦{香|かお}り→香り：00189_kaori⟧: fragrance, pleasant scent (flowers, perfume)\n- ⟦{臭|くさ}さ→臭い：01133_kusai⟧: stench, foul odor (always negative)\n- ⟦{香|こう}→香：17307_kou⟧: incense; fragrance (literary)\n\nRELATED VERB:\n- ⟦{匂|にお}う→匂う：00319_niou⟧: to smell, to give off a scent",
+  "notes": "{匂|にお}い refers to smells perceived by the nose, and can describe both pleasant and unpleasant odors.\n\nCOMMON PATTERNS:\n- {匂|にお}い⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧: to smell (of something), to have a smell\n- ⟦いい→いい：00118_ii⟧{匂|にお}い⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧: to smell good\n- ⟦{変|へん}な→変：01124_hen⟧{匂|にお}い⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧: to smell strange\n- {匂|にお}い⟦を→を：00422_wo⟧⟦{嗅|か}ぐ→嗅ぐ：02036_kagu⟧: to smell (actively sniff)\n- {匂|にお}い⟦が→が：00051_ga⟧⟦して→する：00392_suru⟧⟦くる→来る：00254_kuru⟧: a smell comes wafting over\n\nWRITING:\n- {匂|にお}い: neutral, can be good or bad\n- {臭|にお}い: often implies a bad smell\n\nSIMILAR WORDS:\n- ⟦{香|かお}り→香り：00189_kaori⟧: fragrance, pleasant scent (flowers, perfume)\n- ⟦{臭|くさ}さ→臭い：01133_kusai⟧: stench, foul odor (always negative)\n- ⟦{香|こう}→香：17307_kou⟧: incense; fragrance (literary)\n\nRELATED VERB:\n- ⟦{匂|にお}う→匂う：00319_niou⟧: to smell, to give off a scent",
   "cross_references": [
-    {"type": "related", "target_id": "00319_niou", "reading": "におう", "headword": "{匂|にお}う", "label": "to give off a smell (verb)"},
-    {"type": "related", "target_id": "02036_kagu", "reading": "かぐ", "headword": "{嗅|か}ぐ", "label": "to smell (active sniffing)"}
+    {
+      "type": "related",
+      "target_id": "00319_niou",
+      "reading": "におう",
+      "headword": "{匂|にお}う",
+      "label": "to give off a smell (verb)"
+    },
+    {
+      "type": "related",
+      "target_id": "02036_kagu",
+      "reading": "かぐ",
+      "headword": "{嗅|か}ぐ",
+      "label": "to smell (active sniffing)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00189_kaori",
+      "reading": "かおり",
+      "headword": "{香|かお}り",
+      "label": "fragrance, pleasant scent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01133_kusai",
+      "reading": "くさい",
+      "headword": "{臭|くさ}い",
+      "label": "stench, foul odor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17307_kou",
+      "reading": "こう",
+      "headword": "{香|こう}",
+      "label": "incense"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23058_kouki",
+      "reading": "こうき",
+      "headword": "{香気|こうき}",
+      "label": "fragrance"
+    }
   ],
   "metadata": {
     "created": "2026-01-07T12:10:38Z",
-    "modified": "2026-05-17T23:15:37Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

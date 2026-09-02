@@ -17,7 +17,9 @@
       "id": "29018_soushinsaki_ex1",
       "japanese": "{送信先|そうしんさき}を{確認|かくにん}してください。",
       "english": "Please check the recipient.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29018_soushinsaki_ex2",
       "japanese": "{送信先|そうしんさき}の{名前|なまえ}を{間違|まちが}えてメールを{出|だ}してしまった。",
       "english": "I accidentally sent the email with the wrong recipient name.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,39 @@
       "id": "29018_soushinsaki_ex3",
       "japanese": "{個人情報|こじんじょうほう}を{含|ふく}むメールは、{送信先|そうしんさき}が{正|ただ}しいか{必|かなら}ず{確認|かくにん}しよう。",
       "english": "For emails containing personal information, always make sure to verify that the recipient is correct.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {送信|そうしん} (transmission) + {先|さき} (destination). The 〜{先|さき} suffix forms many \"destination/contact\" words: {連絡先|れんらくさき} (contact address), {宛先|あてさき} (addressee).\n\nCOMMON COLLOCATIONS:\n- {送信先|そうしんさき}を{確認|かくにん}する: to verify the recipient\n- {送信先|そうしんさき}を{選|えら}ぶ: to choose the recipient\n- {送信先|そうしんさき}{不明|ふめい}: recipient unknown / address not found\n- {送信先|そうしんさき}{一覧|いちらん}: list of recipients\n\nSIMILAR WORDS:\n- {宛先|あてさき}: addressee — used for postal mail as well as email\n- {受信者|じゅしんしゃ}: receiver, recipient — focuses on the person, not the address\n- {宛|あて}: addressed to (suffix) — used in formal address lines, e.g. {社長|しゃちょう}{宛|あて}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12275_atesaki",
+      "reading": "あてさき",
+      "headword": "{宛先|あてさき}",
+      "label": "addressee"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["communication", "technology"],
+      "politeness": "plain",
+      "semantic": [
+        "communication",
+        "technology"
+      ],
       "domain": []
     },
     "created": "2026-06-08T08:29:10Z",
-    "modified": "2026-06-08T08:29:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

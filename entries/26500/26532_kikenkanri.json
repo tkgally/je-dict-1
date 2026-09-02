@@ -45,7 +45,29 @@
     }
   ],
   "notes": "A compound of {危険|きけん} (danger; hazard) and {管理|かんり} (management; control). Distinguished from {危機|きき}{管理|かんり} (crisis management, reactive) and リスク{管理|かんり} (risk management, probabilistic), {危険|きけん}{管理|かんり} emphasizes proactive identification and prevention of concrete dangers.\n\nCOMMON COLLOCATIONS:\n- {危険|きけん}{管理|かんり}{体制|たいせい}: hazard management system\n- {危険|きけん}{管理|かんり}{意識|いしき}: safety awareness\n- {危険|きけん}{管理|かんり}マニュアル: hazard management manual\n- {危険|きけん}{管理|かんり}{教育|きょういく}: safety management training\n\nSIMILAR WORDS:\n- {危機|きき}{管理|かんり}: crisis management — dealing with crises after they occur\n- リスク{管理|かんり}: risk management — assessing and mitigating probabilistic risks\n- {安全|あんぜん}{管理|かんり}: safety management — broader term for ensuring safety in general",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25685_kikikanri",
+      "reading": "ききかんり",
+      "headword": "{危機|きき}{管理|かんり}",
+      "label": "crisis management"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26519_risukukanri",
+      "reading": "りすくかんり",
+      "headword": "リスク{管理|かんり}",
+      "label": "risk management"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23551_anzenkanri",
+      "reading": "あんぜんかんり",
+      "headword": "{安全|あんぜん}{管理|かんり}",
+      "label": "safety management"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +75,13 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business"
       ]
     },
     "created": "2026-05-02T14:36:57Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

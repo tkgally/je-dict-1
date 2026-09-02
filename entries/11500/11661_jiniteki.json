@@ -2,7 +2,7 @@
   "id": "11661_jiniteki",
   "headword": "{人為的|じんいてき}",
   "reading": "じんいてき",
-  "part_of_speech": "adjective (na)",
+  "part_of_speech": "na-adjective",
   "gloss": "artificial, man-made",
   "schema_version": "2.0",
   "definitions": [
@@ -19,7 +19,9 @@
       "english": "This is a human error.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11661_jin_iteki_ex2",
@@ -27,7 +29,9 @@
       "english": "The cause of the fire was man-made.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11661_jin_iteki_ex3",
@@ -35,20 +39,34 @@
       "english": "Man-made environmental destruction is having a serious impact on ecosystems.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Used to contrast human-caused events with natural ones. Common in discussions about disasters, environmental issues, and errors.\n\nCOMMON COLLOCATIONS:\n・{人為的|じんいてき}なミス (human error)\n・{人為的|じんいてき}な{原因|げんいん} (human-caused cause)\n・{人為的|じんいてき}な{操作|そうさ} (human manipulation)\n・{人為的|じんいてき}な{環境|かんきょう}{破壊|はかい} (man-made environmental destruction)\n\nFORMS:\n・{人為的|じんいてき}な + noun (modifier)\n・{人為的|じんいてき}に + verb (adverbial: artificially, deliberately)",
-  "cross_references": [],
+  "notes": "Used to contrast human-caused events with natural ones. Common in discussions about disasters, environmental issues, and errors.\n\nCOMMON COLLOCATIONS:\n- {人為的|じんいてき}なミス (human error)\n- {人為的|じんいてき}な{原因|げんいん} (human-caused cause)\n- {人為的|じんいてき}な{操作|そうさ} (human manipulation)\n- {人為的|じんいてき}な{環境|かんきょう}{破壊|はかい} (man-made environmental destruction)\n\nFORMS:\n- {人為的|じんいてき}な + noun (modifier)\n- {人為的|じんいてき}に + verb (adverbial: artificially, deliberately)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29312_jinsai",
+      "reading": "じんさい",
+      "headword": "{人災|じんさい}",
+      "label": "man-made disaster"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T18:43:45Z",
-    "modified": "2026-02-17T18:43:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

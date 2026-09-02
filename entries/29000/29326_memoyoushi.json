@@ -17,7 +17,9 @@
       "id": "29326_memoyoushi_ex1",
       "japanese": "メモ{用紙|ようし}に{電話番号|でんわばんごう}を{書|か}いた。",
       "english": "I wrote the phone number on a piece of memo paper.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29326_memoyoushi_ex2",
       "japanese": "メモ{用紙|ようし}が{切|き}れてしまった。",
       "english": "I've run out of memo paper.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,43 @@
       "id": "29326_memoyoushi_ex3",
       "japanese": "{会議|かいぎ}{中|ちゅう}に{気|き}づいたことをメモ{用紙|ようし}に{書|か}き{留|と}めた。",
       "english": "I jotted down what I noticed during the meeting on a sheet of memo paper.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of メモ (memo, from English) + {用紙|ようし} (paper for a specific use).\n\nCOMMON COLLOCATIONS:\n- メモ{用紙|ようし}に{書|か}く: to write on memo paper\n- メモ{用紙|ようし}を{渡|わた}す: to hand over a memo sheet\n- {一枚|いちまい}のメモ{用紙|ようし}: a single sheet of memo paper\n\nSIMILAR WORDS:\n- {付箋|ふせん}: sticky note — has an adhesive strip, whereas メモ{用紙|ようし} is plain paper.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08245_fusen",
+      "reading": "ふせん",
+      "headword": "{付箋|ふせん}",
+      "label": "sticky note"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25093_fusenshi",
+      "reading": "ふせんし",
+      "headword": "{付箋紙|ふせんし}",
+      "label": "sticky note"
+    }
+  ],
   "metadata": {
     "created": "2026-06-18T15:20:33Z",
-    "modified": "2026-06-18T15:20:33Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["tool"],
+      "politeness": "plain",
+      "semantic": [
+        "tool"
+      ],
       "domain": []
     }
   }

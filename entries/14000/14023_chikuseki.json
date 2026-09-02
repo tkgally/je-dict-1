@@ -3,7 +3,7 @@
   "id": "14023_chikuseki",
   "headword": "{蓄積|ちくせき}",
   "reading": "ちくせき",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "accumulation; buildup",
   "conjugation": {
     "type": "suru",
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "A compound of {蓄|ちく} (store, save) and {積|せき} (pile up, accumulate). Can be used as a noun or as a suru verb ({蓄積|ちくせき}する).\n\nPARTICLE PATTERNS:\n- [thing]が{蓄積|ちくせき}する (something accumulates)\n- [thing]を{蓄積|ちくせき}する (to accumulate something)\n\nCOMMON COLLOCATIONS:\n- {疲労|ひろう}が{蓄積|ちくせき}する (fatigue accumulates)\n- {知識|ちしき}を{蓄積|ちくせき}する (accumulate knowledge)\n- データを{蓄積|ちくせき}する (accumulate data)\n- {経験|けいけん}の{蓄積|ちくせき} (accumulation of experience)\n- {脂肪|しぼう}の{蓄積|ちくせき} (fat buildup)\n\nA versatile word used across many domains — health (fatigue, stress, fat), business (data, capital), and personal development (knowledge, experience). More formal than {溜|た}まる (to accumulate, informal).",
-  "cross_references": [],
+  "notes": "A compound of {蓄|ちく} (store, save) and {積|せき} (pile up, accumulate). Can be used as a noun or as a suru verb ({蓄積|ちくせき}する).\n\nCOMMON PATTERNS:\n- [thing]が{蓄積|ちくせき}する (something accumulates)\n- [thing]を{蓄積|ちくせき}する (to accumulate something)\n\nCOMMON COLLOCATIONS:\n- {疲労|ひろう}が{蓄積|ちくせき}する (fatigue accumulates)\n- {知識|ちしき}を{蓄積|ちくせき}する (accumulate knowledge)\n- データを{蓄積|ちくせき}する (accumulate data)\n- {経験|けいけん}の{蓄積|ちくせき} (accumulation of experience)\n- {脂肪|しぼう}の{蓄積|ちくせき} (fat buildup)\n\nA versatile word used across many domains — health (fatigue, stress, fat), business (data, capital), and personal development (knowledge, experience). More formal than {溜|た}まる (to accumulate, informal).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01964_tsumoru",
+      "reading": "つもる",
+      "headword": "{積|つ}もる",
+      "label": "to pile up, to accumulate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29631_taiseki",
+      "reading": "たいせき",
+      "headword": "{堆積|たいせき}",
+      "label": "deposition"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T09:18:12Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

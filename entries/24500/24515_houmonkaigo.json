@@ -17,7 +17,9 @@
       "id": "24515_houmonkaigo_ex1",
       "japanese": "{祖母|そぼ}は{訪問介護|ほうもんかいご}を{利用|りよう}している。",
       "english": "My grandmother uses home care services.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24515_houmonkaigo_ex2",
       "japanese": "{訪問介護|ほうもんかいご}のヘルパーが{週|しゅう}に{三回|さんかい}{来|き}てくれる。",
       "english": "A home care helper comes three times a week.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,45 @@
       "id": "24515_houmonkaigo_ex3",
       "japanese": "{高齢化|こうれいか}が{進|すす}む{日本|にほん}では、{訪問介護|ほうもんかいご}の{需要|じゅよう}が{年々|ねんねん}{増加|ぞうか}しており、{人手不足|ひとでぶそく}が{深刻|しんこく}な{問題|もんだい}となっている。",
       "english": "In Japan, where the aging population is growing, the demand for home care is increasing year by year, and labor shortages have become a serious problem.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {訪問|ほうもん} (visiting) and {介護|かいご} (nursing care). This is a key service within Japan's {介護保険|かいごほけん} (long-term care insurance) system, which covers citizens aged 65 and over who need assistance.\n\nHome care helpers ({訪問介護員|ほうもんかいごいん}, commonly called ホームヘルパー) assist with tasks like bathing, meal preparation, cleaning, and medication management.\n\nCOMMON COLLOCATIONS:\n- {訪問介護|ほうもんかいご}サービス: home care service\n- {訪問介護|ほうもんかいご}{員|いん}: home care worker\n- {訪問介護|ほうもんかいご}{事業所|じぎょうしょ}: home care agency\n- {訪問介護|ほうもんかいご}を{受|う}ける: to receive home care\n\nRELATED TERMS:\n- {介護|かいご}: nursing care; caregiving\n- {訪問看護|ほうもんかんご}: home nursing (medical, by a nurse)\n- {介護保険|かいごほけん}: long-term care insurance\n- {在宅介護|ざいたくかいご}: home-based care (broader term)",
+  "notes": "A compound of {訪問|ほうもん} (visiting) and {介護|かいご} (nursing care). This is a key service within Japan's {介護保険|かいごほけん} (long-term care insurance) system, which covers citizens aged 65 and over who need assistance.\n\nHome care helpers ({訪問介護員|ほうもんかいごいん}, commonly called ホームヘルパー) assist with tasks like bathing, meal preparation, cleaning, and medication management.\n\nCOMMON COLLOCATIONS:\n- {訪問介護|ほうもんかいご}サービス: home care service\n- {訪問介護|ほうもんかいご}{員|いん}: home care worker\n- {訪問介護|ほうもんかいご}{事業所|じぎょうしょ}: home care agency\n- {訪問介護|ほうもんかいご}を{受|う}ける: to receive home care\n\nRELATED WORDS:\n- {介護|かいご}: nursing care; caregiving\n- {訪問看護|ほうもんかんご}: home nursing (medical, by a nurse)\n- {介護保険|かいごほけん}: long-term care insurance\n- {在宅介護|ざいたくかいご}: home-based care (broader term)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18931_zaitakukaigo",
+      "reading": "ざいたくかいご",
+      "headword": "{在宅介護|ざいたくかいご}",
+      "label": "home-based care"
+    },
+    {
+      "type": "related",
+      "target_id": "20025_kaigoshi",
+      "reading": "かいごし",
+      "headword": "{介護士|かいごし}",
+      "label": "care worker"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["health", "society"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "health",
+        "society"
+      ]
     },
     "created": "2026-04-19T13:06:22Z",
-    "modified": "2026-04-19T13:06:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

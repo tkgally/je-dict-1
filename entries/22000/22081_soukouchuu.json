@@ -46,18 +46,43 @@
   ],
   "notes": "A compound of {走行|そうこう} (traveling, running of a vehicle) and {中|ちゅう} (during). Refers to the state of a vehicle being in motion. Very commonly seen on signs, in safety instructions, and in traffic-related contexts. Almost always refers to vehicles (cars, trains, buses), not people running.\n\nCOMMON COLLOCATIONS:\n- {走行中|そうこうちゅう}の{車両|しゃりょう}: a vehicle in motion\n- {走行中|そうこうちゅう}は{席|せき}を{立|た}たないでください: please do not stand while the vehicle is moving\n- {走行中|そうこうちゅう}に{異音|いおん}がする: to hear a strange noise while driving\n\nSIMILAR WORDS:\n- {運転中|うんてんちゅう} — while driving (focuses on the driver's activity)\n- {停車中|ていしゃちゅう} — while stopped (the opposite state)\n- {移動中|いどうちゅう} — while moving; in transit (broader, includes walking or any travel)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09659_untenchuu",
+      "reading": "うんてんちゅう",
+      "headword": "{運転中|うんてんちゅう}",
+      "label": "while driving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24482_teishachuu",
+      "reading": "ていしゃちゅう",
+      "headword": "{停車中|ていしゃちゅう}",
+      "label": "while stopped"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26486_idouchuu",
+      "reading": "いどうちゅう",
+      "headword": "{移動中|いどうちゅう}",
+      "label": "while moving"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "transportation"
       ],
       "usage_context": []
     },
     "created": "2026-04-04T22:22:41Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

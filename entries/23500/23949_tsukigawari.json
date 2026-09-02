@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {月|つき} ('month') and {替|が}わり ('change; replacement', the noun form of {替|か}わる). Parallels {日替|ひが}わり ('changing daily; daily special') and {週替|しゅうが}わり ('changing weekly').\n\nUSAGE:\n- Most often used attributively with の: {月替|つきが}わりのランチ, {月替|つきが}わりのメニュー.\n- Can also stand alone as a predicate: {メニューは{月替|つきが}わりです} ('the menu changes every month').\n- Implies a pleasant sense of novelty and seasonality; strongly positive in marketing contexts.\n\nCOMMON COLLOCATIONS:\n- {月替|つきが}わりメニュー: monthly menu\n- {月替|つきが}わりのランチ: monthly lunch special\n- {月替|つきが}わりのデザート: monthly dessert special\n- {月替|つきが}わりで{提供|ていきょう}する: to offer on a monthly rotation\n- {月替|つきが}わりの{特集|とくしゅう}: monthly feature\n\nSIMILAR WORDS:\n- {日替|ひが}わり: changing daily; daily special — same pattern, shorter cycle; typical of daily lunch sets and bento boxes.\n- {週替|しゅうが}わり: changing weekly; weekly special — weekly cycle, common for specials and promotions.\n- {季節限定|きせつげんてい}: seasonal, season-limited — tied to the four seasons rather than a fixed monthly rhythm.\n- {定番|ていばん}: standard item; fixed offering — the opposite concept, items that don't change over time.",
+  "notes": "Compound of {月|つき} ('month') and {替|が}わり ('change; replacement', the noun form of {替|か}わる). Parallels {日替|ひが}わり ('changing daily; daily special') and {週替|しゅうが}わり ('changing weekly').\n\nUSAGE:\n- Most often used attributively with の: {月替|つきが}わりのランチ, {月替|つきが}わりのメニュー.\n- Can also stand alone as a predicate: メニューは{月替|つきが}わりです ('the menu changes every month').\n- Implies a pleasant sense of novelty and seasonality; strongly positive in marketing contexts.\n\nCOMMON COLLOCATIONS:\n- {月替|つきが}わりメニュー: monthly menu\n- {月替|つきが}わりのランチ: monthly lunch special\n- {月替|つきが}わりのデザート: monthly dessert special\n- {月替|つきが}わりで{提供|ていきょう}する: to offer on a monthly rotation\n- {月替|つきが}わりの{特集|とくしゅう}: monthly feature\n\nSIMILAR WORDS:\n- {日替|ひが}わり: changing daily; daily special — same pattern, shorter cycle; typical of daily lunch sets and bento boxes.\n- {週替|しゅうが}わり: changing weekly; weekly special — weekly cycle, common for specials and promotions.\n- {季節限定|きせつげんてい}: seasonal, season-limited — tied to the four seasons rather than a fixed monthly rhythm.\n- {定番|ていばん}: standard item; fixed offering — the opposite concept, items that don't change over time.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09745_higawari",
+      "reading": "ひがわり",
+      "headword": "{日替|ひが}わり",
+      "label": "changing daily"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09824_shuugawari",
+      "reading": "しゅうがわり",
+      "headword": "{週替|しゅうが}わり",
+      "label": "changing weekly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09823_kisetsugentei",
+      "reading": "きせつげんてい",
+      "headword": "{季節|きせつ}{限定|げんてい}",
+      "label": "seasonal, season-limited"
+    },
+    {
+      "type": "antonym",
+      "target_id": "12265_teiban",
+      "reading": "ていばん",
+      "headword": "{定番|ていばん}",
+      "label": "standard item"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-04-15T15:57:49Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "id": "13841_keishou",
   "headword": "{継承|けいしょう}",
   "reading": "けいしょう",
-  "part_of_speech": "noun / verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "succession, inheritance, carrying on",
   "conjugation": {
     "type": "suru",
@@ -156,11 +156,39 @@
       "reading": "ひきつぎ",
       "headword": "{引|ひ}き{継|つ}ぎ",
       "label": "handover, taking over duties"
+    },
+    {
+      "type": "related",
+      "target_id": "02292_tsugu",
+      "reading": "つぐ",
+      "headword": "{継|つ}ぐ",
+      "label": "to succeed, to inherit, to follow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14284_toushuu",
+      "reading": "とうしゅう",
+      "headword": "{踏襲|とうしゅう}",
+      "label": "following (a precedent)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20112_koukei",
+      "reading": "こうけい",
+      "headword": "{後継|こうけい}",
+      "label": "succession"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24749_shoukei",
+      "reading": "しょうけい",
+      "headword": "{承継|しょうけい}",
+      "label": "succession"
     }
   ],
   "metadata": {
     "created": "2026-02-27T05:12:53Z",
-    "modified": "2026-04-29T09:23:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -17,7 +17,9 @@
       "id": "28367_shikazan_ex1",
       "japanese": "あの{山|やま}は{死火山|しかざん}だ。",
       "english": "That mountain is an extinct volcano.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28367_shikazan_ex2",
       "japanese": "{死火山|しかざん}と{呼|よ}ばれていた{山|やま}が{噴火|ふんか}した。",
       "english": "A mountain that had been called an extinct volcano erupted.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,53 @@
       "id": "28367_shikazan_ex3",
       "japanese": "{現在|げんざい}、{気象庁|きしょうちょう}は{死火山|しかざん}という{区分|くぶん}を{使|つか}わず、すべての{火山|かざん}を{活火山|かっかざん}として{扱|あつか}っている。",
       "english": "Currently, the Meteorological Agency does not use the category \"extinct volcano,\" instead treating all volcanoes as active.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {死|し} (dead) + {火山|かざん} (volcano). The label is now considered scientifically unreliable because some \"extinct\" volcanoes have erupted again.\n\nRELATED TERMS:\n- {活火山|かっかざん}: active volcano — currently or recently erupting\n- {休火山|きゅうかざん}: dormant volcano — not active, but potentially capable of erupting\n- {火山|かざん}: volcano\n- {噴火|ふんか}: eruption\n\nUSAGE:\nStill common in general speech and older textbooks, but rare in current scientific writing. Japanese volcanology now classifies volcanoes that have erupted in the last 10,000 years as {活火山|かっかざん}.",
+  "notes": "Compound of {死|し} (dead) + {火山|かざん} (volcano). The label is now considered scientifically unreliable because some \"extinct\" volcanoes have erupted again.\n\nRELATED WORDS:\n- {活火山|かっかざん}: active volcano — currently or recently erupting\n- {休火山|きゅうかざん}: dormant volcano — not active, but potentially capable of erupting\n- {火山|かざん}: volcano\n- {噴火|ふんか}: eruption\n\nUSAGE:\nStill common in general speech and older textbooks, but rare in current scientific writing. Japanese volcanology now classifies volcanoes that have erupted in the last 10,000 years as {活火山|かっかざん}.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15901_kakkazan",
+      "reading": "かっかざん",
+      "headword": "{活火山|かっかざん}",
+      "label": "active volcano"
+    },
+    {
+      "type": "related",
+      "target_id": "28330_kyuukazan",
+      "reading": "きゅうかざん",
+      "headword": "{休火山|きゅうかざん}",
+      "label": "dormant volcano"
+    },
+    {
+      "type": "related",
+      "target_id": "00045_funka",
+      "reading": "ふんか",
+      "headword": "{噴火|ふんか}",
+      "label": "eruption"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["nature", "geography"],
+      "politeness": "plain",
+      "semantic": [
+        "nature",
+        "geography"
+      ],
       "domain": []
     },
     "created": "2026-05-29T04:09:30Z",
-    "modified": "2026-05-29T04:09:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "29892_kousa_ex1",
       "japanese": "{今日|きょう}は{黄砂|こうさ}がひどい。",
       "english": "The yellow dust is bad today.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29892_kousa_ex2",
       "japanese": "{黄砂|こうさ}で{車|くるま}が{汚|よご}れてしまった。",
       "english": "My car got dirty from the yellow dust.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "29892_kousa_ex3",
       "japanese": "{春|はる}になると{大陸|たいりく}から{黄砂|こうさ}が{飛|と}んできて、{空|そら}がかすむ。",
       "english": "When spring comes, yellow dust blows in from the continent and hazes the sky.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A seasonal phenomenon of spring in Japan, treated as an air-quality and health concern alongside pollen. Often mentioned in weather forecasts.\n\nCOMMON COLLOCATIONS:\n- {黄砂|こうさ}が{飛|と}ぶ: yellow dust blows in\n- {黄砂|こうさ}がひどい: the yellow dust is heavy\n- {黄砂|こうさ}{対策|たいさく}: measures against yellow dust",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20389_sunaarashi",
+      "reading": "すなあらし",
+      "headword": "{砂嵐|すなあらし}",
+      "label": "sandstorm"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["weather"],
+      "politeness": "plain",
+      "semantic": [
+        "weather"
+      ],
       "domain": []
     },
     "created": "2026-07-16T21:18:06Z",
-    "modified": "2026-07-16T21:18:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

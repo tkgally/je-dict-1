@@ -3,7 +3,7 @@
   "headword": "{再婚|さいこん}",
   "reading": "さいこん",
   "romaji": "saikon",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "remarriage; second marriage",
   "definitions": [
     {
@@ -54,8 +54,45 @@
       "notes": null
     }
   ],
-  "notes": "Refers to marrying again after a divorce or the death of a spouse. Unlike {初婚|しょこん} (first marriage), {再婚|さいこん} implies a previous marriage has ended.\n\nCOMMON COLLOCATIONS:\n- {再婚|さいこん}する: to remarry\n- {再婚|さいこん}{相手|あいて}: a remarriage partner\n- {再婚|さいこん}{禁止|きんし}{期間|きかん}: waiting period before remarriage\n- {再婚|さいこん}{家庭|かてい}: a blended family\n\nRELATED TERMS:\n- {初婚|しょこん}: first marriage\n- {離婚|りこん}: divorce\n- {結婚|けっこん}: marriage\n- {連|つ}れ{子|こ}: a child from a previous marriage",
+  "notes": "Refers to marrying again after a divorce or the death of a spouse. Unlike {初婚|しょこん} (first marriage), {再婚|さいこん} implies a previous marriage has ended.\n\nCOMMON COLLOCATIONS:\n- {再婚|さいこん}する: to remarry\n- {再婚|さいこん}{相手|あいて}: a remarriage partner\n- {再婚|さいこん}{禁止|きんし}{期間|きかん}: waiting period before remarriage\n- {再婚|さいこん}{家庭|かてい}: a blended family\n\nRELATED WORDS:\n- {初婚|しょこん}: first marriage\n- {離婚|りこん}: divorce\n- {結婚|けっこん}: marriage\n- {連|つ}れ{子|こ}: a child from a previous marriage",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "25564_shokon",
+      "reading": "しょこん",
+      "headword": "{初婚|しょこん}",
+      "label": "first marriage"
+    },
+    {
+      "type": "related",
+      "target_id": "02530_rikon",
+      "reading": "りこん",
+      "headword": "{離婚|りこん}",
+      "label": "divorce"
+    },
+    {
+      "type": "related",
+      "target_id": "02514_kekkon",
+      "reading": "けっこん",
+      "headword": "{結婚|けっこん}",
+      "label": "marriage"
+    },
+    {
+      "type": "related",
+      "target_id": "10100_tsureko",
+      "reading": "つれこ",
+      "headword": "{連|つ}れ{子|こ}",
+      "label": "a child from a previous marriage"
+    },
+    {
+      "type": "related",
+      "target_id": "27329_batsuni",
+      "reading": "ばつに",
+      "headword": "バツニ",
+      "label": "divorced twice (slang)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,11 +100,16 @@
         "noun",
         "verb-suru"
       ],
-      "semantic": ["family", "society"],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "family",
+        "society"
+      ],
       "verb_class": "suru"
     },
     "created": "2026-04-07T17:03:36Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

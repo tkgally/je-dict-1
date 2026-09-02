@@ -35,7 +35,7 @@
     },
     {
       "id": "24661_kisen_ex3",
-      "japanese": "{祖父|そふ}は{若|わか}い{頃|ころ}、{汽船|きせん}に{乗|の}って{横浜|よこはま}から{サンフランシスコ|さんふらんしすこ}まで{渡|わた}ったそうだ。",
+      "japanese": "{祖父|そふ}は{若|わか}い{頃|ころ}、{汽船|きせん}に{乗|の}って{横浜|よこはま}からサンフランシスコまで{渡|わた}ったそうだ。",
       "english": "I hear my grandfather crossed from Yokohama to San Francisco by steamship when he was young.",
       "sense_numbers": [
         1
@@ -46,6 +46,22 @@
   ],
   "notes": "Composed of {汽|き} (steam) and {船|せん} (ship). Historically refers to steam-powered vessels that replaced sailing ships in the 19th century. In modern Japanese, the word appears mainly in historical and literary contexts, though it can still be used informally for large passenger ships.\n\nCOMMON COLLOCATIONS:\n- {汽船|きせん}に{乗|の}る: to board a steamship\n- {外国|がいこく}{汽船|きせん}: a foreign steamship\n- {汽船|きせん}{会社|がいしゃ}: steamship company\n- {定期|ていき}{汽船|きせん}: regular steamer service\n\nSIMILAR WORDS:\n- {船|ふね}: ship, boat — the general word for any watercraft\n- {客船|きゃくせん}: passenger ship — a modern vessel carrying passengers regardless of power source\n- {蒸気船|じょうきせん}: steamship — a more literal and less common synonym emphasizing the steam power\n- {帆船|はんせん}: sailing ship — a ship powered by wind and sails, the type that steamships replaced",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16792_kyakusen",
+      "reading": "きゃくせん",
+      "headword": "{客船|きゃくせん}",
+      "label": "passenger ship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22530_hansen",
+      "reading": "はんせん",
+      "headword": "{帆船|はんせん}",
+      "label": "sailing ship"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,6 +80,6 @@
       ]
     },
     "created": "2026-04-20T11:17:36Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

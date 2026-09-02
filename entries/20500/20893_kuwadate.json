@@ -17,7 +17,9 @@
       "id": "20893_kuwadate_ex1",
       "japanese": "{企|くわだ}てが{失敗|しっぱい}した。",
       "english": "The plan failed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20893_kuwadate_ex2",
       "japanese": "{大胆|だいたん}な{企|くわだ}てを{実行|じっこう}に{移|うつ}す。",
       "english": "To put a bold plan into action.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "20893_kuwadate_ex3",
       "japanese": "{彼|かれ}の{企|くわだ}ては{事前|じぜん}に{発覚|はっかく}して{未然|みぜん}に{防|ふせ}がれた。",
       "english": "His plot was discovered beforehand and prevented.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The noun form of the verb {企|くわだ}てる (to plan, to scheme). While it can refer to neutral or positive plans, it often carries a nuance of ambition, secrecy, or cunning — closer to English \"scheme\" or \"plot\" than a simple \"plan.\"\n\nCOMMON COLLOCATIONS:\n- {企|くわだ}てを{実行|じっこう}する: to carry out a plan\n- {企|くわだ}てが{失敗|しっぱい}する: for a plan to fail\n- {企|くわだ}てが{発覚|はっかく}する: for a plot to be discovered\n- {大胆|だいたん}な{企|くわだ}て: a bold scheme\n\nSIMILAR WORDS:\n- {計画|けいかく}: plan — neutral and general-purpose; the most common word for \"plan\"\n- {陰謀|いんぼう}: conspiracy — stronger negative connotation, implies a hidden group effort\n- {企画|きかく}: project/planning — used in business contexts for project proposals",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01172_keikaku",
+      "reading": "けいかく",
+      "headword": "{計画|けいかく}",
+      "label": "plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10887_inbou",
+      "reading": "いんぼう",
+      "headword": "{陰謀|いんぼう}",
+      "label": "conspiracy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04879_kikaku",
+      "reading": "きかく",
+      "headword": "{企画|きかく}",
+      "label": "project/planning"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-03-30T20:09:14Z",
-    "modified": "2026-03-30T20:09:14Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

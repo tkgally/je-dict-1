@@ -17,7 +17,9 @@
       "id": "19979_kutsubera_ex1",
       "japanese": "{靴|くつ}べらを{使|つか}う。",
       "english": "To use a shoehorn.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19979_kutsubera_ex2",
       "japanese": "{玄関|げんかん}に{靴|くつ}べらが{置|お}いてある。",
       "english": "There's a shoehorn in the entryway.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "19979_kutsubera_ex3",
       "japanese": "この{靴|くつ}は{靴|くつ}べらがないと{履|は}きにくい。",
       "english": "These shoes are hard to put on without a shoehorn.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {靴|くつ} (shoe) and へら (spatula, flat tool). Written in mixed script as {靴|くつ}べら; the kanji form {靴篦|くつべら} exists but is rarely used.\n\nCULTURAL CONTEXT:\nShoehorns are a common household item in Japan, where shoes are removed at the {玄関|げんかん} (entryway) of homes, schools, and many businesses. Long-handled shoehorns are often placed near the entrance for convenience.\n\nCOMMON COLLOCATIONS:\n- {靴|くつ}べらを{使|つか}う — to use a shoehorn\n- {靴|くつ}べらで{靴|くつ}を{履|は}く — to put on shoes with a shoehorn\n- {長|なが}い{靴|くつ}べら — a long-handled shoehorn\n\nRELATED TERMS:\n- {玄関|げんかん} — entryway; where shoes are removed in Japanese homes\n- {靴|くつ} — shoes\n- {下駄箱|げたばこ} — shoe cupboard, shoe rack",
+  "notes": "A compound of {靴|くつ} (shoe) and へら (spatula, flat tool). Written in mixed script as {靴|くつ}べら; the kanji form {靴篦|くつべら} exists but is rarely used.\n\nCULTURAL NOTE:\nShoehorns are a common household item in Japan, where shoes are removed at the {玄関|げんかん} (entryway) of homes, schools, and many businesses. Long-handled shoehorns are often placed near the entrance for convenience.\n\nCOMMON COLLOCATIONS:\n- {靴|くつ}べらを{使|つか}う — to use a shoehorn\n- {靴|くつ}べらで{靴|くつ}を{履|は}く — to put on shoes with a shoehorn\n- {長|なが}い{靴|くつ}べら — a long-handled shoehorn\n\nRELATED WORDS:\n- {玄関|げんかん} — entryway; where shoes are removed in Japanese homes\n- {靴|くつ} — shoes\n- {下駄箱|げたばこ} — shoe cupboard, shoe rack",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05003_genkan",
+      "reading": "げんかん",
+      "headword": "{玄関|げんかん}",
+      "label": "entryway"
+    },
+    {
+      "type": "related",
+      "target_id": "06490_getabako",
+      "reading": "げたばこ",
+      "headword": "{下駄箱|げたばこ}",
+      "label": "shoe cupboard, shoe rack"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life", "clothing"]
+      "semantic": [
+        "daily-life",
+        "clothing"
+      ]
     },
     "created": "2026-03-28T04:34:49Z",
-    "modified": "2026-03-28T04:34:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

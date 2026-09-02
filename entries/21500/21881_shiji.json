@@ -17,7 +17,9 @@
       "id": "21881_shiji_ex1",
       "japanese": "{私事|しじ}で{恐縮|きょうしゅく}ですが。",
       "english": "I'm sorry to bring up a personal matter, but...",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21881_shiji_ex2",
       "japanese": "{私事|しじ}ではございますが、この{度|たび}{結婚|けっこん}いたしました。",
       "english": "On a personal note, I recently got married.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "21881_shiji_ex3",
       "japanese": "{仕事|しごと}と{私事|しじ}はきちんと{分|わ}けるべきだ。",
       "english": "One should properly separate work and personal matters.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {私|し} (private/personal) + {事|じ} (matter/affair). A formal word used especially in business and professional settings when introducing personal topics.\n\nREADING:\nAlso sometimes read as わたくしごと, which sounds even more formal and humble.\n\nCOMMON COLLOCATIONS:\n- {私事|しじ}で{恐縮|きょうしゅく}ですが: I'm sorry to mention something personal, but...\n- {私事|しじ}ではございますが: on a personal note (very polite)\n- {私事|しじ}を{優先|ゆうせん}する: to prioritize personal matters\n\nSIMILAR WORDS:\n- {個人的|こじんてき}なこと: personal thing — more casual, everyday usage\n- {公私|こうし}: public and private (matters) — used for the contrast between work and personal life\n- {私用|しよう}: personal use/business — focuses on activities done for personal reasons",
+  "notes": "Composed of {私|し} (private/personal) + {事|じ} (matter/affair). A formal word used especially in business and professional settings when introducing personal topics.\n\nPRONUNCIATION:\nAlso sometimes read as わたくしごと, which sounds even more formal and humble.\n\nCOMMON COLLOCATIONS:\n- {私事|しじ}で{恐縮|きょうしゅく}ですが: I'm sorry to mention something personal, but...\n- {私事|しじ}ではございますが: on a personal note (very polite)\n- {私事|しじ}を{優先|ゆうせん}する: to prioritize personal matters\n\nSIMILAR WORDS:\n- {個人的|こじんてき}なこと: personal thing — more casual, everyday usage\n- {公私|こうし}: public and private (matters) — used for the contrast between work and personal life\n- {私用|しよう}: personal use/business — focuses on activities done for personal reasons",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21213_koushi",
+      "reading": "こうし",
+      "headword": "{公私|こうし}",
+      "label": "public and private"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00459_shiyou",
+      "reading": "しよう",
+      "headword": "{私用|しよう}",
+      "label": "personal use/business"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["daily-life"]
+      "semantic": [
+        "daily-life"
+      ]
     },
     "created": "2026-04-03T20:24:39Z",
-    "modified": "2026-04-03T20:24:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

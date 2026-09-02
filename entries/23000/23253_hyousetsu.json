@@ -3,7 +3,7 @@
   "headword": "{剽窃|ひょうせつ}",
   "reading": "ひょうせつ",
   "romaji": "hyousetsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "plagiarism",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Composed of {剽|ひょう} (to steal, to plunder) and {窃|せつ} (to steal stealthily). Both characters mean \"steal,\" reflecting the strong negative force of the word. {剽窃|ひょうせつ} is a formal, somewhat technical term used in academia, publishing, and legal discussions. In everyday speech, the katakana loanword パクる (to rip off) is much more common.\n\nUSAGE:\nFrequently takes する to form a verb: {剽窃|ひょうせつ}する (to plagiarize). It can also be modified to {剽窃|ひょうせつ}{行為|こうい} (an act of plagiarism) for abstract reference.\n\nCOMMON COLLOCATIONS:\n- {論文|ろんぶん}の{剽窃|ひょうせつ}: plagiarism in a paper\n- {剽窃|ひょうせつ}{疑惑|ぎわく}: suspicion of plagiarism\n- {剽窃|ひょうせつ}が{発覚|はっかく}する: plagiarism is uncovered\n- {剽窃|ひょうせつ}{行為|こうい}: an act of plagiarism\n\nSIMILAR WORDS:\n- {盗用|とうよう}: unauthorized use of someone's work — very close in meaning\n- {盗作|とうさく}: plagiarism of a creative work (literature, music)\n- {無断転載|むだんてんさい}: unauthorized reproduction — often of online content\n- パクリ / パクる: rip-off / to rip off — casual, slangy equivalent",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23322_touyou",
+      "reading": "とうよう",
+      "headword": "{盗用|とうよう}",
+      "label": "unauthorized use of someone's work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18034_tousaku",
+      "reading": "とうさく",
+      "headword": "{盗作|とうさく}",
+      "label": "plagiarism of a creative work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18914_mudantensai",
+      "reading": "むだんてんさい",
+      "headword": "{無断転載|むだんてんさい}",
+      "label": "unauthorized reproduction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09296_pakuru",
+      "reading": "ぱくる",
+      "headword": "パクる",
+      "label": "rip-off / to rip off"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-11T14:19:23Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

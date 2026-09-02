@@ -3,7 +3,7 @@
   "headword": "{国有|こくゆう}",
   "reading": "こくゆう",
   "romaji": "kokuyuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "state-owned; nationally owned; government-owned",
   "definitions": [
     {
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {国|こく} (nation) + {有|ゆう} (possession). Frequently appears in fixed compounds rather than as a standalone modifier.\n\nCOMMON COMPOUNDS:\n- {国有地|こくゆうち}: state-owned land\n- {国有林|こくゆうりん}: national forest\n- {国有|こくゆう}{鉄道|てつどう}: state-owned railway (historical: JNR before privatization)\n- {国有|こくゆう}{化|か}: nationalization\n- {国有|こくゆう}{財産|ざいさん}: state property\n\nSIMILAR WORDS:\n- {公有|こうゆう}: publicly owned — broader, includes municipal and prefectural ownership\n- {私有|しゆう}: privately owned — direct opposite\n- {民営|みんえい}: privately operated — used for businesses, vs. {国営|こくえい} (state-operated)",
+  "notes": "Compound of {国|こく} (nation) + {有|ゆう} (possession). Frequently appears in fixed compounds rather than as a standalone modifier.\n\nCOMPOUNDS:\n- {国有地|こくゆうち}: state-owned land\n- {国有林|こくゆうりん}: national forest\n- {国有|こくゆう}{鉄道|てつどう}: state-owned railway (historical: JNR before privatization)\n- {国有|こくゆう}{化|か}: nationalization\n- {国有|こくゆう}{財産|ざいさん}: state property\n\nSIMILAR WORDS:\n- {公有|こうゆう}: publicly owned — broader, includes municipal and prefectural ownership\n- {私有|しゆう}: privately owned — direct opposite\n- {民営|みんえい}: privately operated — used for businesses, vs. {国営|こくえい} (state-operated)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21178_kouyuu",
+      "reading": "こうゆう",
+      "headword": "{公有|こうゆう}",
+      "label": "publicly owned"
+    },
+    {
+      "type": "antonym",
+      "target_id": "19205_shiyuu",
+      "reading": "しゆう",
+      "headword": "{私有|しゆう}",
+      "label": "privately owned"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "adjective-no"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "politics",
         "economics"
@@ -62,6 +78,6 @@
       "domain": []
     },
     "created": "2026-05-30T03:12:26Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

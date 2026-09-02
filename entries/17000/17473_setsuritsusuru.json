@@ -3,7 +3,7 @@
   "id": "17473_setsuritsusuru",
   "headword": "{設立|せつりつ}する",
   "reading": "せつりつする",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to establish; to found; to set up",
   "conjugation": {
     "type": "suru",
@@ -156,11 +156,32 @@
       "reading": "せっち",
       "headword": "{設置|せっち}",
       "label": "installation, setup"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25497_seiritsusuru",
+      "reading": "せいりつする",
+      "headword": "{成立|せいりつ}する",
+      "label": "to be established"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26989_secchisuru",
+      "reading": "せっちする",
+      "headword": "{設置|せっち}する",
+      "label": "to set up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30272_kaisetsusuru",
+      "reading": "かいせつする",
+      "headword": "{開設|かいせつ}する",
+      "label": "to open"
     }
   ],
   "metadata": {
     "created": "2026-03-18T02:10:07Z",
-    "modified": "2026-05-06T08:07:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

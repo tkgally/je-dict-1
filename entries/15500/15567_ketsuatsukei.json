@@ -45,10 +45,32 @@
     }
   ],
   "notes": "Composed of {血圧|けつあつ} (blood pressure) and {計|けい} (gauge, meter). The suffix {計|けい} is productive and appears in many instrument names such as {体温計|たいおんけい} (thermometer) and {体重計|たいじゅうけい} (scale).\n\nCOMMON COLLOCATIONS:\n- {血圧計|けつあつけい}で{測|はか}る (to measure with a blood pressure monitor)\n- {家庭用|かていよう}{血圧計|けつあつけい} (home blood pressure monitor)\n- {手首|てくび}{式|しき}{血圧計|けつあつけい} (wrist-type blood pressure monitor)\n- {上腕|じょうわん}{式|しき}{血圧計|けつあつけい} (upper arm-type blood pressure monitor)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05484_taionkei",
+      "reading": "たいおんけい",
+      "headword": "{体温計|たいおんけい}",
+      "label": "thermometer (for body temperature)"
+    },
+    {
+      "type": "related",
+      "target_id": "07103_teiketsuatsu",
+      "reading": "ていけつあつ",
+      "headword": "{低血圧|ていけつあつ}",
+      "label": "low blood pressure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16293_choushinki",
+      "reading": "ちょうしんき",
+      "headword": "{聴診器|ちょうしんき}",
+      "label": "stethoscope"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T11:21:01Z",
-    "modified": "2026-07-17T12:56:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

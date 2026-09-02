@@ -3,7 +3,7 @@
   "headword": "{散乱|さんらん}",
   "reading": "さんらん",
   "romaji": "sanran",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "scattering; being strewn about; disorder",
   "conjugation": {
     "type": "suru",
@@ -135,6 +135,29 @@
     }
   ],
   "notes": "Describes things being scattered or strewn about in a disorderly way. Combines {散|さん} (scatter) and {乱|らん} (disorder), emphasizing the messy, chaotic nature of the scattering.\n\nUSAGE:\n- Most commonly used with {散乱|さんらん}している (state of being scattered)\n- Often describes the aftermath of storms, accidents, or general untidiness\n- In physics, {散乱|さんらん} also refers to the scattering of light or particles\n\nCOMMON COLLOCATIONS:\n- ゴミが{散乱|さんらん}する: garbage is strewn about\n- {書類|しょるい}が{散乱|さんらん}する: documents are scattered\n- {破片|はへん}が{散乱|さんらん}する: fragments are scattered\n- {光|ひかり}の{散乱|さんらん}: scattering of light (physics)\n\nSIMILAR WORDS:\n- {散|ち}らかる: to be messy, cluttered — more casual and everyday\n- {散|ち}らばる: to be scattered — neutral, without the disorder nuance\n- {乱雑|らんざつ}: messy, disorderly — describes the state rather than the act of scattering",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04357_chirakaru",
+      "reading": "ちらかる",
+      "headword": "{散|ち}らかる",
+      "label": "to be messy, cluttered"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12713_chirabaru",
+      "reading": "ちらばる",
+      "headword": "{散|ち}らばる",
+      "label": "to be scattered"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18551_ranzatsu",
+      "reading": "らんざつ",
+      "headword": "{乱雑|らんざつ}",
+      "label": "messy, disorderly"
+    }
+  ],
   "metadata": {
     "entry_id": "21487_sanran",
     "schema_version": "2.0",
@@ -146,6 +169,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "descriptive"
       ],
@@ -153,6 +177,6 @@
       "usage": [],
       "verb_class": "suru"
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY:\n{自動詞|じどうし} (intransitive)\nPattern: AがBを{上回|うわまわ}る (A exceeds B)\n\nASPECT (ている):\n{上回|うわまわ}っている - is exceeding (state of being above)\n\nCOMMON COLLOCATIONS:\n・{予想|よそう}を{上回|うわまわ}る - to exceed expectations\n・{目標|もくひょう}を{上回|うわまわ}る - to surpass the target\n・{去年|きょねん}を{上回|うわまわ}る - to exceed last year\n・{平均|へいきん}を{上回|うわまわ}る - to be above average\n\nANTONYM:\n{下回|したまわ}る - to fall below",
+  "notes": "TRANSITIVITY:\n{自動詞|じどうし} (intransitive)\nPattern: AがBを{上回|うわまわ}る (A exceeds B)\n\nASPECT (ている):\n{上回|うわまわ}っている - is exceeding (state of being above)\n\nCOMMON COLLOCATIONS:\n- {予想|よそう}を{上回|うわまわ}る - to exceed expectations\n- {目標|もくひょう}を{上回|うわまわ}る - to surpass the target\n- {去年|きょねん}を{上回|うわまわ}る - to exceed last year\n- {平均|へいきん}を{上回|うわまわ}る - to be above average\n\nSIMILAR WORDS:\n{下回|したまわ}る - to fall below",
   "cross_references": [
     {
       "type": "antonym",
@@ -138,11 +138,32 @@
       "headword": "{下回|したまわ}る",
       "label": "to fall below",
       "target_id": "07649_shitamawaru"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02465_kosu",
+      "reading": "こす",
+      "headword": "{超|こ}す",
+      "label": "to exceed, to surpass"
+    },
+    {
+      "type": "related",
+      "target_id": "07991_ryouga",
+      "reading": "りょうが",
+      "headword": "{凌駕|りょうが}",
+      "label": "surpassing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20255_yuuetsu",
+      "reading": "ゆうえつ",
+      "headword": "{優越|ゆうえつ}",
+      "label": "superiority"
     }
   ],
   "metadata": {
     "created": "2026-01-20T13:21:59Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +173,7 @@
       "transitivity": "intransitive",
       "verb_class": "godan-ru",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "evaluation",
         "quantity"

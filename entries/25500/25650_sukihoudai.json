@@ -17,7 +17,9 @@
       "id": "25650_sukihoudai_ex1",
       "japanese": "{子供|こども}に{好|す}き{放題|ほうだい}させてはいけない。",
       "english": "You shouldn't let children do whatever they want.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25650_sukihoudai_ex2",
       "japanese": "{彼|かれ}は{好|す}き{放題|ほうだい}に{金|かね}を{使|つか}っている。",
       "english": "He spends money however he pleases.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "25650_sukihoudai_ex3",
       "japanese": "{若|わか}いころは{好|す}き{放題|ほうだい}やっていたが、{今|いま}は{反省|はんせい}している。",
       "english": "I did whatever I wanted when I was young, but now I regret it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {好|す}き (liking, preference) and {放題|ほうだい} (as much as one likes, without limit). Carries a distinctly negative or critical nuance — used to describe behavior that is selfish, undisciplined, or excessive. Rarely complimentary.\n\nCOMMON PATTERNS:\n- {好|す}き{放題|ほうだい}にする: to do as one pleases\n- {好|す}き{放題|ほうだい}に{言|い}う: to say whatever one wants (without restraint)\n- {好|す}き{放題|ほうだい}やる: to do whatever one likes\n\nSIMILAR EXPRESSIONS:\n- {言|い}いたい{放題|ほうだい}: saying whatever one wants (critical)\n- {食|た}べ{放題|ほうだい}: all-you-can-eat (neutral, commercial) — uses the same {放題|ほうだい} pattern but without the negative nuance\n- わがまま: selfish, willful — describes the personality trait rather than the behavior\n- {勝手|かって}に: on one's own, without permission — focuses on acting without consent",
+  "notes": "A compound of {好|す}き (liking, preference) and {放題|ほうだい} (as much as one likes, without limit). Carries a distinctly negative or critical nuance — used to describe behavior that is selfish, undisciplined, or excessive. Rarely complimentary.\n\nCOMMON PATTERNS:\n- {好|す}き{放題|ほうだい}にする: to do as one pleases\n- {好|す}き{放題|ほうだい}に{言|い}う: to say whatever one wants (without restraint)\n- {好|す}き{放題|ほうだい}やる: to do whatever one likes\n\nSIMILAR WORDS:\n- {言|い}いたい{放題|ほうだい}: saying whatever one wants (critical)\n- {食|た}べ{放題|ほうだい}: all-you-can-eat (neutral, commercial) — uses the same {放題|ほうだい} pattern but without the negative nuance\n- わがまま: selfish, willful — describes the personality trait rather than the behavior\n- {勝手|かって}に: on one's own, without permission — focuses on acting without consent",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08291_tabehoudai",
+      "reading": "たべほうだい",
+      "headword": "{食|た}べ{放題|ほうだい}",
+      "label": "all-you-can-eat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03789_wagamama",
+      "reading": "わがまま",
+      "headword": "わがまま",
+      "label": "selfish, willful"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03021_katte",
+      "reading": "かって",
+      "headword": "{勝手|かって}",
+      "label": "on one's own, without permission"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adverb"],
+      "pos": [
+        "noun",
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     },
     "created": "2026-04-26T14:25:43Z",
-    "modified": "2026-04-26T14:25:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "22959_sanseisha_ex1",
       "japanese": "{賛成者|さんせいしゃ}は{手|て}を{挙|あ}げてください。",
       "english": "Those in favor, please raise your hand.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22959_sanseisha_ex2",
       "japanese": "{賛成者|さんせいしゃ}が{過半数|かはんすう}を{超|こ}えた。",
       "english": "The number of supporters exceeded a majority.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "22959_sanseisha_ex3",
       "japanese": "この{提案|ていあん}に{対|たい}する{賛成者|さんせいしゃ}は{少|すく}なかった。",
       "english": "There were few supporters for this proposal.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {賛成|さんせい} (agreement, approval) and {者|しゃ} (person). Used in formal settings like meetings, votes, and debates to identify those who support a motion.\n\nCOMMON COLLOCATIONS:\n- {賛成者|さんせいしゃ}{多数|たすう}: majority in favor\n- {賛成者|さんせいしゃ}と{反対者|はんたいしゃ}: supporters and opponents\n- {賛成者|さんせいしゃ}を{集|あつ}める: to gather supporters\n- {賛成者|さんせいしゃ}{数|すう}: number of people in favor\n\nUSAGE:\nCommonly heard in parliamentary proceedings, committee meetings, and formal votes. Also used in general discussion about public opinion on issues.\n\nRELATED TERMS:\n- {反対者|はんたいしゃ}: opponent, person against — the direct opposite\n- {支持者|しじしゃ}: supporter, backer — broader term for ongoing support\n- {賛同者|さんどうしゃ}: person who endorses — very similar but implies active endorsement\n- {賛成|さんせい}: agreement, approval — the base noun",
+  "notes": "Composed of {賛成|さんせい} (agreement, approval) and {者|しゃ} (person). Used in formal settings like meetings, votes, and debates to identify those who support a motion.\n\nCOMMON COLLOCATIONS:\n- {賛成者|さんせいしゃ}{多数|たすう}: majority in favor\n- {賛成者|さんせいしゃ}と{反対者|はんたいしゃ}: supporters and opponents\n- {賛成者|さんせいしゃ}を{集|あつ}める: to gather supporters\n- {賛成者|さんせいしゃ}{数|すう}: number of people in favor\n\nUSAGE:\nCommonly heard in parliamentary proceedings, committee meetings, and formal votes. Also used in general discussion about public opinion on issues.\n\nRELATED WORDS:\n- {反対者|はんたいしゃ}: opponent, person against — the direct opposite\n- {支持者|しじしゃ}: supporter, backer — broader term for ongoing support\n- {賛同者|さんどうしゃ}: person who endorses — very similar but implies active endorsement\n- {賛成|さんせい}: agreement, approval — the base noun",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17852_shijisha",
+      "reading": "しじしゃ",
+      "headword": "{支持者|しじしゃ}",
+      "label": "supporter, backer"
+    },
+    {
+      "type": "related",
+      "target_id": "23373_sandousha",
+      "reading": "さんどうしゃ",
+      "headword": "{賛同者|さんどうしゃ}",
+      "label": "person who endorses"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
-      "semantic": ["politics", "person"],
+      "politeness": "plain",
+      "semantic": [
+        "politics",
+        "person"
+      ],
       "formality": "formal"
     },
     "created": "2026-04-08T07:52:06Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

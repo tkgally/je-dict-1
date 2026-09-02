@@ -17,7 +17,9 @@
       "id": "19723_shokuryounan_ex1",
       "japanese": "{戦後|せんご}は{食糧難|しょくりょうなん}に{苦|くる}しんだ。",
       "english": "People suffered from food shortages after the war.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19723_shokuryounan_ex2",
       "japanese": "{干|かん}ばつによる{食糧難|しょくりょうなん}が{深刻化|しんこくか}している。",
       "english": "The food shortage caused by the drought is worsening.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "19723_shokuryounan_ex3",
       "japanese": "{世界|せかい}{人口|じんこう}の{増加|ぞうか}に{伴|ともな}い、{将来的|しょうらいてき}な{食糧難|しょくりょうなん}が{懸念|けねん}されている。",
       "english": "With the increase in world population, future food shortages are a concern.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {食糧|しょくりょう} (food supply, provisions) + {難|なん} (difficulty, hardship). Refers to a large-scale food shortage affecting a region or country, not an individual's lack of food. In Japan, the term is strongly associated with the severe food shortages of the immediate postwar period (1945-1948).\n\nCOMMON COLLOCATIONS:\n- {食糧難|しょくりょうなん}に{陥|おちい}る — to fall into a food crisis\n- {食糧難|しょくりょうなん}を{乗|の}り{越|こ}える — to overcome a food shortage\n- {深刻|しんこく}な{食糧難|しょくりょうなん} — severe food shortage\n\nSIMILAR WORDS:\n- {飢饉|ききん} — famine; more severe, implies mass starvation\n- {食糧不足|しょくりょうぶそく} — food insufficiency; more neutral, technical term\n- {飢餓|きが} — starvation, hunger; refers to the physical condition of being starved",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00230_kikin",
+      "reading": "ききん",
+      "headword": "{飢饉|ききん}",
+      "label": "famine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23776_shokuryoubusoku",
+      "reading": "しょくりょうぶそく",
+      "headword": "{食糧不足|しょくりょうぶそく}",
+      "label": "food insufficiency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18841_kiga",
+      "reading": "きが",
+      "headword": "{飢餓|きが}",
+      "label": "starvation, hunger"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "society"]
+      "semantic": [
+        "food",
+        "society"
+      ]
     },
     "created": "2026-03-26T14:34:45Z",
-    "modified": "2026-03-26T14:34:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

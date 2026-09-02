@@ -19,7 +19,9 @@
       "english": "Her mother tongue is French.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13207_bokokugo_ex2",
@@ -27,7 +29,9 @@
       "english": "I can express my feelings well if it's in my native language.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13207_bokokugo_ex3",
@@ -35,7 +39,9 @@
       "english": "People with different native languages were communicating using English as a common language.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed when referring to someone's first language, especially in international or multilingual contexts. More formal and precise than {母語|ぼご}.\n\nCOMMON COLLOCATIONS:\n- {母国語|ぼこくご}で{話|はな}す: to speak in one's native language\n- {母国語|ぼこくご}の{教育|きょういく}: native language education\n- {母国語|ぼこくご}と{外国語|がいこくご}: native and foreign languages\n\nSIMILAR WORDS:\n- {母語|ぼご}: mother tongue (linguistics term; technically the language acquired first, which may differ from the national language)\n- {国語|こくご}: national language (refers specifically to a country's official language, or the school subject in Japan)",
@@ -54,18 +60,37 @@
       "reading": "こくご",
       "headword": "{国語|こくご}",
       "label": "national language, Japanese (subject)"
+    },
+    {
+      "type": "related",
+      "target_id": "03023_gaikokugo",
+      "reading": "がいこくご",
+      "headword": "{外国語|がいこくご}",
+      "label": "foreign language"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21041_daiichigengo",
+      "reading": "だいいちげんご",
+      "headword": "{第一言語|だいいちげんご}",
+      "label": "first language"
     }
   ],
   "metadata": {
     "created": "2026-02-24T06:16:04Z",
-    "modified": "2026-04-28T06:26:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education", "communication"]
+      "semantic": [
+        "education",
+        "communication"
+      ]
     }
   }
 }

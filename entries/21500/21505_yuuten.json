@@ -17,7 +17,9 @@
       "id": "21505_yuuten_ex1",
       "japanese": "{氷|こおり}の{融点|ゆうてん}は{零度|れいど}だ。",
       "english": "The melting point of ice is zero degrees.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21505_yuuten_ex2",
       "japanese": "{金属|きんぞく}によって{融点|ゆうてん}は{大|おお}きく{異|こと}なる。",
       "english": "Melting points vary greatly depending on the metal.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "21505_yuuten_ex3",
       "japanese": "この{物質|ぶっしつ}は{融点|ゆうてん}が{非常|ひじょう}に{高|たか}いため、{特殊|とくしゅ}な{炉|ろ}が{必要|ひつよう}だ。",
       "english": "Because this substance has a very high melting point, a special furnace is required.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A scientific term used in chemistry and physics for the temperature at which a solid becomes liquid. Composed of {融|ゆう} (melting) + {点|てん} (point).\n\nCOMMON COLLOCATIONS:\n- {融点|ゆうてん}が{高|たか}い: to have a high melting point\n- {融点|ゆうてん}が{低|ひく}い: to have a low melting point\n- {融点|ゆうてん}に{達|たっ}する: to reach the melting point\n- {融点|ゆうてん}を{測定|そくてい}する: to measure the melting point\n\nRELATED TERMS:\n- {沸点|ふってん}: boiling point\n- {凝固点|ぎょうこてん}: freezing point\n- {融解|ゆうかい}: melting, fusion",
+  "notes": "A scientific term used in chemistry and physics for the temperature at which a solid becomes liquid. Composed of {融|ゆう} (melting) + {点|てん} (point).\n\nCOMMON COLLOCATIONS:\n- {融点|ゆうてん}が{高|たか}い: to have a high melting point\n- {融点|ゆうてん}が{低|ひく}い: to have a low melting point\n- {融点|ゆうてん}に{達|たっ}する: to reach the melting point\n- {融点|ゆうてん}を{測定|そくてい}する: to measure the melting point\n\nRELATED WORDS:\n- {沸点|ふってん}: boiling point\n- {凝固点|ぎょうこてん}: freezing point\n- {融解|ゆうかい}: melting, fusion",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "25307_futten",
+      "reading": "ふってん",
+      "headword": "{沸点|ふってん}",
+      "label": "boiling point"
+    },
+    {
+      "type": "related",
+      "target_id": "26289_gyoukoten",
+      "reading": "ぎょうこてん",
+      "headword": "{凝固点|ぎょうこてん}",
+      "label": "freezing point"
+    },
+    {
+      "type": "related",
+      "target_id": "08404_yuukai",
+      "reading": "ゆうかい",
+      "headword": "{融解|ゆうかい}",
+      "label": "melting, fusion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26303_yuukaiten",
+      "reading": "ゆうかいてん",
+      "headword": "{融解点|ゆうかいてん}",
+      "label": "melting point"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["science"]
+      "semantic": [
+        "science"
+      ]
     },
     "created": "2026-04-02T14:08:09Z",
-    "modified": "2026-04-02T14:08:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

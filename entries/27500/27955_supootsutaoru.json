@@ -17,7 +17,9 @@
       "id": "27955_supootsutaoru_ex1",
       "japanese": "{首|くび}にスポーツタオルをかける。",
       "english": "I drape a sports towel around my neck.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27955_supootsutaoru_ex2",
       "japanese": "ジムにスポーツタオルを{持|も}っていく。",
       "english": "I take a sports towel to the gym.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "27955_supootsutaoru_ex3",
       "japanese": "{応援|おうえん}グッズとして、チーム{名|めい}{入|い}りのスポーツタオルが{売|う}られている。",
       "english": "Sports towels printed with the team name are sold as cheering goods.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A long, thin towel (longer than a face towel) meant to hang around the neck. Often sold with team logos or designs as fan merchandise at concerts and sporting events.\n\nSIMILAR WORDS:\n- タオル: towel — the general word\n- バスタオル: bath towel — large, for drying the body after bathing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01533_taoru",
+      "reading": "たおる",
+      "headword": "タオル",
+      "label": "towel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04511_basutaoru",
+      "reading": "ばすたおる",
+      "headword": "バスタオル",
+      "label": "bath towel"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"],
+      "semantic": [
+        "leisure"
+      ],
       "domain": []
     },
     "created": "2026-05-23T04:06:38Z",
-    "modified": "2026-05-23T04:06:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

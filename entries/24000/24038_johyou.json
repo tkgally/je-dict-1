@@ -3,7 +3,7 @@
   "headword": "{除氷|じょひょう}",
   "reading": "じょひょう",
   "romaji": "johyou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "de-icing; ice removal",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Compound of {除|じょ} ('to remove; to clear away') and {氷|ひょう} ('ice'). A technical term used mainly in aviation, but also in other transport and engineering contexts where ice build-up is a hazard.\n\nUSAGE:\n- Most familiar to passengers from cold-weather airline travel: aircraft are sprayed with heated de-icing fluid (typically glycol-based) before takeoff to remove ice and snow from the wings and tail.\n- {除氷|じょひょう} can be used as a する-verb: {除氷|じょひょう}する ('to de-ice').\n- Distinct from {防氷|ぼうひょう} ('anti-icing'), which prevents ice from forming, while {除氷|じょひょう} removes it after it has formed.\n- Common in news reports about flight delays during winter snowstorms.\n\nCOMMON COLLOCATIONS:\n- {除氷|じょひょう}{作業|さぎょう}: de-icing operation\n- {除氷|じょひょう}{装置|そうち}: de-icing equipment\n- {除氷|じょひょう}{液|えき}: de-icing fluid\n- {機体|きたい}を{除氷|じょひょう}する: to de-ice the aircraft\n- {除氷|じょひょう}{車|しゃ}: de-icing vehicle (truck)\n\nSIMILAR WORDS:\n- {防氷|ぼうひょう}: anti-icing — prevents ice from forming in the first place; complements {除氷|じょひょう}.\n- {融雪|ゆうせつ}: snow melting — removing snow by melting (e.g., on roads).\n- {除雪|じょせつ}: snow removal — removing snow from roads, train lines, runways, etc.\n- {解氷|かいひょう}: ice thawing — natural or general thawing of ice; less technical than {除氷|じょひょう}.\n- {結氷|けっぴょう}: ice formation — the opposite physical process.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29813_yuusetsu",
+      "reading": "ゆうせつ",
+      "headword": "{融雪|ゆうせつ}",
+      "label": "snow melting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18195_josetsu",
+      "reading": "じょせつ",
+      "headword": "{除雪|じょせつ}",
+      "label": "snow removal"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -69,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-15T21:02:35Z",
-    "modified": "2026-04-15T21:02:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

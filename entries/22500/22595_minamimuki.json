@@ -3,7 +3,7 @@
   "headword": "{南向|みなみむ}き",
   "reading": "みなみむき",
   "romaji": "minamimuki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "south-facing; facing south",
   "definitions": [
     {
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {南|みなみ} (south) and {向|む}き (facing, orientation). In Japanese real estate, {南向|みなみむ}き is highly valued because south-facing rooms get the most sunlight throughout the day. It is one of the most important criteria when choosing an apartment or house in Japan.\n\nCOMMON COLLOCATIONS:\n- {南向|みなみむ}きの{部屋|へや}: south-facing room\n- {南向|みなみむ}きの{窓|まど}: south-facing window\n- {南向|みなみむ}きの{物件|ぶっけん}: south-facing property\n- {南向|みなみむ}きのバルコニー: south-facing balcony\n\nRELATED TERMS:\n- {北向|きたむ}き: north-facing — least desirable for sunlight\n- {東向|ひがしむ}き: east-facing — gets morning sun\n- {西向|にしむ}き: west-facing — gets afternoon sun\n- {日当|ひあ}たり: sun exposure — a key factor in Japanese housing",
+  "notes": "A compound of {南|みなみ} (south) and {向|む}き (facing, orientation). In Japanese real estate, {南向|みなみむ}き is highly valued because south-facing rooms get the most sunlight throughout the day. It is one of the most important criteria when choosing an apartment or house in Japan.\n\nCOMMON COLLOCATIONS:\n- {南向|みなみむ}きの{部屋|へや}: south-facing room\n- {南向|みなみむ}きの{窓|まど}: south-facing window\n- {南向|みなみむ}きの{物件|ぶっけん}: south-facing property\n- {南向|みなみむ}きのバルコニー: south-facing balcony\n\nRELATED WORDS:\n- {北向|きたむ}き: north-facing — least desirable for sunlight\n- {東向|ひがしむ}き: east-facing — gets morning sun\n- {西向|にしむ}き: west-facing — gets afternoon sun\n- {日当|ひあ}たり: sun exposure — a key factor in Japanese housing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07498_hiatari",
+      "reading": "ひあたり",
+      "headword": "{日当|ひあ}たり",
+      "label": "sun exposure"
+    },
+    {
+      "type": "related",
+      "target_id": "08329_ekichika",
+      "reading": "えきちか",
+      "headword": "{駅近|えきちか}",
+      "label": "close to station"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27543_minamigawa",
+      "reading": "みなみがわ",
+      "headword": "{南側|みなみがわ}",
+      "label": "south side"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +84,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-06T19:14:21Z",
-    "modified": "2026-07-30T15:38:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

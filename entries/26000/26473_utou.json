@@ -45,7 +45,22 @@
     }
   ],
   "notes": "The origin of this term relates to traditional Japanese customs. In the drinking culture, the {左|ひだり} (left) side was associated with sake (because craftsmen held their chisel in the left hand and their hammer — {槌|つち}, homophonous with a sake vessel — in the right), so {左党|さとう} came to mean a drinker. {右党|うとう} is its counterpart for non-drinkers.\n\nThis is an older expression that is still understood but less commonly used in modern casual conversation, where {下戸|げこ} (non-drinker) is more typical.\n\nCOMMON COLLOCATIONS:\n- {右党|うとう}の{人|ひと}: a non-drinker\n- {右党|うとう}も{左党|さとう}も: both drinkers and non-drinkers\n\nSIMILAR WORDS:\n- {左党|さとう}: drinker, sake lover — the opposite term for someone who enjoys alcohol\n- {下戸|げこ}: non-drinker — the more common word for someone who can't or doesn't drink\n- {上戸|じょうご}: heavy drinker — someone who can drink a lot",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "23468_satou",
+      "reading": "さとう",
+      "headword": "{左党|さとう}",
+      "label": "drinker, sake lover"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19823_geko",
+      "reading": "げこ",
+      "headword": "{下戸|げこ}",
+      "label": "non-drinker"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "person",
         "culture"
       ]
     },
     "created": "2026-05-02T11:35:03Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

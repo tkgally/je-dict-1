@@ -3,7 +3,7 @@
   "headword": "{洗顔|せんがん}",
   "reading": "せんがん",
   "romaji": "sengan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "face washing",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Refers specifically to washing the face as part of daily hygiene or skincare. In Japanese beauty culture, the face-washing step is considered fundamental to skincare and is often discussed in detail.\n\nCOMMON COLLOCATIONS:\n- {洗顔|せんがん}する: to wash one's face\n- {洗顔料|せんがんりょう}: face wash (product)\n- {洗顔|せんがん}フォーム: cleansing foam\n- {洗顔|せんがん}ネット: face-washing net (for lathering)\n- {朝|あさ}{洗顔|せんがん}: morning face wash\n\nSIMILAR WORDS:\n- {洗面|せんめん}: washing one's face and hands — broader term that also covers hand washing; often used in compound {洗面所|せんめんじょ} (washroom)\n- クレンジング: cleansing — specifically removing makeup, often done before {洗顔|せんがん} in a double-cleanse routine",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04376_senmen",
+      "reading": "せんめん",
+      "headword": "{洗面|せんめん}",
+      "label": "washing one's face and hands"
+    },
+    {
+      "type": "related",
+      "target_id": "20475_senpatsu",
+      "reading": "せんぱつ",
+      "headword": "{洗髪|せんぱつ}",
+      "label": "washing one's hair"
+    },
+    {
+      "type": "related",
+      "target_id": "23572_kaowoarau",
+      "reading": "かおをあらう",
+      "headword": "{顔|かお}を{洗|あら}う",
+      "label": "to wash one's face"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-01T16:09:11Z",
-    "modified": "2026-07-29T00:24:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

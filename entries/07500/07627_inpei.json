@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{証拠|しょうこ}を{隠蔽|いんぺい}する - to conceal evidence\n・{事実|じじつ}を{隠蔽|いんぺい}する - to cover up facts\n・{情報|じょうほう}{隠蔽|いんぺい} - information concealment\n・{隠蔽|いんぺい}{工作|こうさく} - cover-up operation\n\nNUANCE:\nThis word has a strongly negative connotation, implying deliberate and often illegal concealment of wrongdoing.\n\nRELATED WORDS:\n・{発覚|はっかく} - coming to light (opposite outcome)\n・{暴露|ばくろ} - exposure (the act of revealing)\n・{捏造|ねつぞう} - fabrication",
+  "notes": "COMMON COLLOCATIONS:\n- {証拠|しょうこ}を{隠蔽|いんぺい}する - to conceal evidence\n- {事実|じじつ}を{隠蔽|いんぺい}する - to cover up facts\n- {情報|じょうほう}{隠蔽|いんぺい} - information concealment\n- {隠蔽|いんぺい}{工作|こうさく} - cover-up operation\n\nUSAGE:\nThis word has a strongly negative connotation, implying deliberate and often illegal concealment of wrongdoing.\n\nRELATED WORDS:\n- {発覚|はっかく} - coming to light (opposite outcome)\n- {暴露|ばくろ} - exposure (the act of revealing)\n- {捏造|ねつぞう} - fabrication",
   "cross_references": [
     {
       "type": "antonym",
@@ -145,11 +145,39 @@
       "headword": "{発覚|はっかく}",
       "label": "coming to light",
       "target_id": "07629_hakkaku"
+    },
+    {
+      "type": "related",
+      "target_id": "07628_netsuzou",
+      "reading": "ねつぞう",
+      "headword": "{捏造|ねつぞう}",
+      "label": "fabrication"
+    },
+    {
+      "type": "related",
+      "target_id": "07874_houmuru",
+      "reading": "ほうむる",
+      "headword": "{葬|ほうむ}る",
+      "label": "to bury"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21903_hitoku",
+      "reading": "ひとく",
+      "headword": "{秘匿|ひとく}",
+      "label": "concealment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25905_himitsushugi",
+      "reading": "ひみつしゅぎ",
+      "headword": "{秘密|ひみつ}{主義|しゅぎ}",
+      "label": "secretiveness"
     }
   ],
   "metadata": {
     "created": "2026-01-20T13:21:59Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -158,6 +186,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "communication",
         "action"

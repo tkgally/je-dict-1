@@ -17,7 +17,9 @@
       "id": "21810_amazora_ex1",
       "japanese": "{今日|きょう}は{一日|いちにち}{雨空|あまぞら}だった。",
       "english": "It was a rainy sky all day today.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21810_amazora_ex2",
       "japanese": "{雨空|あまぞら}の{下|した}、{傘|かさ}をさして{歩|ある}いた。",
       "english": "I walked with an umbrella under the rainy sky.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,38 @@
       "id": "21810_amazora_ex3",
       "japanese": "{朝|あさ}から{雨空|あまぞら}が{続|つづ}いていたが、{夕方|ゆうがた}になってようやく{晴|は}れ{間|ま}が{見|み}えた。",
       "english": "The overcast sky continued from morning, but a break in the clouds finally appeared toward evening.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {雨|あま} (rain) and {空|そら} (sky), where {雨|あま} uses the combining form あま rather than あめ. Evokes a mood of gloom or melancholy, and is common in literary and poetic contexts as well as weather descriptions.\n\nCOMMON COLLOCATIONS:\n- {雨空|あまぞら}が{広|ひろ}がる: an overcast sky spreads\n- {雨空|あまぞら}の{下|した}: under a rainy sky\n- {雨空|あまぞら}が{続|つづ}く: the rainy sky continues\n- どんよりした{雨空|あまぞら}: a gloomy, overcast sky\n\nSIMILAR WORDS:\n- {曇|くも}り{空|ぞら}: cloudy sky — overcast but not necessarily rainy\n- {夕焼|ゆうや}け{空|ぞら}: sunset sky — a sky pattern compound with the same structure\n- {梅雨空|つゆぞら}: rainy season sky — specifically the sky during Japan's June-July rainy season",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17451_kumorizora",
+      "reading": "くもりぞら",
+      "headword": "{曇|くも}り{空|ぞら}",
+      "label": "cloudy sky"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather", "nature"]
+      "semantic": [
+        "weather",
+        "nature"
+      ]
     },
     "created": "2026-04-03T18:23:13Z",
-    "modified": "2026-04-03T18:23:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

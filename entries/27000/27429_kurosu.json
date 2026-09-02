@@ -22,7 +22,9 @@
       "id": "27429_kurosu_ex1",
       "japanese": "テーブルにクロスを{敷|し}いた。",
       "english": "I spread a cloth on the table.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "27429_kurosu_ex2",
       "japanese": "メガネ{用|よう}のクロスでレンズを{拭|ふ}いた。",
       "english": "I wiped the lenses with a glasses cleaning cloth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "27429_kurosu_ex3",
       "japanese": "{壁|かべ}のクロスを{張|は}り{替|か}えるだけで{部屋|へや}の{印象|いんしょう}が{大|おお}きく{変|か}わる。",
       "english": "Just by replacing the wall covering, the impression of the room changes dramatically.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "27429_kurosu_ex4",
       "japanese": "{腕|うで}をクロスさせる。",
       "english": "To cross one's arms.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "27429_kurosu_ex5",
       "japanese": "{彼|かれ}は{右|みぎ}サイドからクロスを{上|あ}げた。",
       "english": "He sent up a cross from the right side.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,23 +72,54 @@
       "id": "27429_kurosu_ex6",
       "japanese": "{選手|せんしゅ}たちのパスが{鮮|あざ}やかにクロスして、ゴール{前|まえ}でチャンスが{生|う}まれた。",
       "english": "The players' passes crossed beautifully and a chance was created in front of the goal.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Two unrelated loanwords have merged into the same katakana form: \"cloth\" (sense 1) and \"cross\" (sense 2). Context almost always disambiguates them.\n\nSENSE 1 (cloth) COLLOCATIONS:\n- テーブルクロス: tablecloth\n- メガネクロス: glasses cleaning cloth\n- {壁|かべ}クロス / {壁紙|かべがみ}クロス: wall covering, wallpaper\n- クロスを{敷|し}く: to lay out a cloth\n\nSENSE 2 (cross) COLLOCATIONS:\n- クロスする: to cross over; to intersect\n- クロスを{上|あ}げる: to send in a cross (soccer)\n- クロスカウンター: cross counter (boxing)\n- クロスワード: crossword\n\nSIMILAR WORDS:\n- {布|ぬの}: cloth, fabric — native term; broader; lacks the 'tablecloth/wall covering' nuance\n- {十字|じゅうじ}: cross-shape — native counterpart to sense 2; preferred for the religious/geometric cross",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01489_nuno",
+      "reading": "ぬの",
+      "headword": "{布|ぬの}",
+      "label": "cloth, fabric"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11919_juuji",
+      "reading": "じゅうじ",
+      "headword": "{十字|じゅうじ}",
+      "label": "cross-shape"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16077_kabegami",
+      "reading": "かべがみ",
+      "headword": "{壁紙|かべがみ}",
+      "label": "wallpaper"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["daily-life", "sports", "loanword"],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life",
+        "sports",
+        "loanword"
+      ],
       "domain": []
     },
     "created": "2026-05-11T07:40:10Z",
-    "modified": "2026-05-11T07:40:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

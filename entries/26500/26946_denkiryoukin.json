@@ -45,7 +45,36 @@
     }
   ],
   "notes": "A compound of {電気|でんき} (electricity) and {料金|りょうきん} (fee, charge). This is the standard term for electricity costs in everyday conversation and official billing. In casual speech, {電気代|でんきだい} is more common and carries the same meaning.\n\nCOMMON COLLOCATIONS:\n- {電気料金|でんきりょうきん}を{払|はら}う: to pay the electricity bill\n- {電気料金|でんきりょうきん}が{上|あ}がる: electricity charges go up\n- {電気料金|でんきりょうきん}の{明細|めいさい}: electricity bill statement\n- {電気料金|でんきりょうきん}の{値上|ねあ}げ: electricity rate increase\n\nSIMILAR WORDS:\n- {電気代|でんきだい}: electricity cost — more casual, used in everyday conversation\n- {水道料金|すいどうりょうきん}: water bill — same structure for water utility charges\n- {ガス料金|がすりょうきん}: gas bill — same structure for gas utility charges\n- {光熱費|こうねつひ}: utility costs — collective term for electricity, gas, and water",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09543_denkidai",
+      "reading": "でんきだい",
+      "headword": "{電気代|でんきだい}",
+      "label": "electricity cost"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22703_suidouryoukin",
+      "reading": "すいどうりょうきん",
+      "headword": "{水道料金|すいどうりょうきん}",
+      "label": "water bill"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28952_gasuryoukin",
+      "reading": "がすりょうきん",
+      "headword": "ガス{料金|りょうきん}",
+      "label": "gas bill"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08244_kounetsuhi",
+      "reading": "こうねつひ",
+      "headword": "{光熱費|こうねつひ}",
+      "label": "utility costs"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +90,6 @@
       "domain": []
     },
     "created": "2026-05-06T11:07:25Z",
-    "modified": "2026-05-06T11:07:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

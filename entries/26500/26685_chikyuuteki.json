@@ -3,7 +3,7 @@
   "headword": "{地球的|ちきゅうてき}",
   "reading": "ちきゅうてき",
   "romaji": "chikyuuteki",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "global; planetary; earth-wide",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Composed of {地球|ちきゅう} (Earth, the planet) and {的|てき} (adjectival suffix). Emphasizes a scope that encompasses the entire planet, in contrast to national or regional perspectives. Common in environmental discussions, academic writing, and journalism.\n\nCOMMON COLLOCATIONS:\n- {地球的|ちきゅうてき}な{視野|しや}: global perspective/outlook\n- {地球的|ちきゅうてき}な{規模|きぼ}: planetary scale\n- {地球的|ちきゅうてき}な{課題|かだい}: global challenge\n- {地球的|ちきゅうてき}な{危機|きき}: planetary crisis\n\nSIMILAR WORDS:\n- グローバル: global — English loanword; more common in business contexts\n- {世界的|せかいてき}: worldwide — focuses on the human world and international scope rather than the physical planet\n- {国際的|こくさいてき}: international — emphasizes relations between nations, not planetary scope",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10847_guroobaru",
+      "reading": "ぐろーばる",
+      "headword": "グローバル",
+      "label": "global"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20935_sekaiteki",
+      "reading": "せかいてき",
+      "headword": "{世界的|せかいてき}",
+      "label": "worldwide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06457_kokusaiteki",
+      "reading": "こくさいてき",
+      "headword": "{国際的|こくさいてき}",
+      "label": "international"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +75,14 @@
       "pos": [
         "adjective-na"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "nature",
         "science"
       ]
     },
     "created": "2026-05-04T13:49:43Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -55,7 +55,22 @@
     }
   ],
   "notes": "Composed of {炭火|すみび} (charcoal fire) + {焼|や}き (grilling). Charcoal grilling is considered superior to gas grilling in Japanese cuisine because of the intense infrared heat and the subtle smoky flavor it imparts. Many yakitori shops and unagi restaurants specifically advertise charcoal grilling as a mark of quality.\n\nCOMMON COLLOCATIONS:\n- {炭火焼|すみびや}きの{焼|や}き{鳥|とり}: charcoal-grilled yakitori\n- {炭火焼|すみびや}きの{鰻|うなぎ}: charcoal-grilled eel\n- {炭火焼|すみびや}き{料理|りょうり}: charcoal-grilled cuisine\n- {備長炭|びんちょうたん}で{焼|や}く: grill over binchotan charcoal\n\nSIMILAR WORDS:\n- {網焼|あみや}き: grilling on a wire rack (method, not fuel)\n- {直火焼|じかびや}き: direct-flame grilling (includes gas)\n- {炙|あぶ}り: searing or lightly grilling the surface",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16761_amiyaki",
+      "reading": "あみやき",
+      "headword": "{網焼|あみや}き",
+      "label": "grilling on a wire rack"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15216_aburi",
+      "reading": "あぶり",
+      "headword": "{炙|あぶ}り",
+      "label": "searing or lightly grilling the surface"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,12 +78,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food",
         "cooking"
       ]
     },
     "created": "2026-04-27T16:21:44Z",
-    "modified": "2026-04-27T16:21:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

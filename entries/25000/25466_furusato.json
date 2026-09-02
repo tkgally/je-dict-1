@@ -79,13 +79,69 @@
       "notes": null
     }
   ],
-  "notes": "The most emotionally resonant word for \"hometown\" in Japanese. While {故郷|こきょう} (the on'yomi reading) is more formal and literary, {故郷|ふるさと} is the everyday word carrying deep nostalgia and warmth. It often evokes images of rural landscapes, childhood memories, and family ties.\n\nCOMMON COLLOCATIONS:\n- {故郷|ふるさと}に{帰|かえ}る: to return to one's hometown\n- {故郷|ふるさと}が{恋|こい}しい: to miss one's hometown\n- {故郷|ふるさと}を{離|はな}れる: to leave one's hometown\n- {故郷|ふるさと}を{訪|おとず}れる: to visit one's hometown\n- {心|こころ}の{故郷|ふるさと}: spiritual home\n\nSIMILAR WORDS:\n- {故郷|こきょう}: hometown — same kanji, on'yomi reading; more formal and literary\n- {地元|じもと}: local area — where one currently lives or is from; less emotional than {故郷|ふるさと}\n- {田舎|いなか}: countryside — emphasizes the rural character, can be slightly negative\n- {出身地|しゅっしんち}: place of origin — neutral, factual term used on forms and in introductions\n\nCULTURAL NOTE:\n{故郷|ふるさと} is one of the most beloved words in Japanese culture. The song \"{故郷|ふるさと}\" (1914) is known by virtually every Japanese person and is often sung at school graduations and community events. The concept of {ふるさと}{納税|のうぜい} (hometown tax donation) allows people to direct part of their taxes to their home region.",
+  "notes": "The most emotionally resonant word for \"hometown\" in Japanese. While {故郷|こきょう} (the on'yomi reading) is more formal and literary, {故郷|ふるさと} is the everyday word carrying deep nostalgia and warmth. It often evokes images of rural landscapes, childhood memories, and family ties.\n\nCOMMON COLLOCATIONS:\n- {故郷|ふるさと}に{帰|かえ}る: to return to one's hometown\n- {故郷|ふるさと}が{恋|こい}しい: to miss one's hometown\n- {故郷|ふるさと}を{離|はな}れる: to leave one's hometown\n- {故郷|ふるさと}を{訪|おとず}れる: to visit one's hometown\n- {心|こころ}の{故郷|ふるさと}: spiritual home\n\nSIMILAR WORDS:\n- {故郷|こきょう}: hometown — same kanji, on'yomi reading; more formal and literary\n- {地元|じもと}: local area — where one currently lives or is from; less emotional than {故郷|ふるさと}\n- {田舎|いなか}: countryside — emphasizes the rural character, can be slightly negative\n- {出身地|しゅっしんち}: place of origin — neutral, factual term used on forms and in introductions\n\nCULTURAL NOTE:\n{故郷|ふるさと} is one of the most beloved words in Japanese culture. The song \"{故郷|ふるさと}\" (1914) is known by virtually every Japanese person and is often sung at school graduations and community events. The concept of ふるさと{納税|のうぜい} (hometown tax donation) allows people to direct part of their taxes to their home region.",
   "cross_references": [
     {
       "type": "related",
       "target_id": "02733_kokyou",
       "reading": "こきょう",
       "label": "variant reading (on'yomi); more formal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09941_jimoto",
+      "reading": "じもと",
+      "headword": "{地元|じもと}",
+      "label": "local area"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01320_inaka",
+      "reading": "いなか",
+      "headword": "{田舎|いなか}",
+      "label": "countryside"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15396_shusshinchi",
+      "reading": "しゅっしんち",
+      "headword": "{出身地|しゅっしんち}",
+      "label": "place of origin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03076_jikka",
+      "reading": "じっか",
+      "headword": "{実家|じっか}",
+      "label": "parents' home, family home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17954_bokoku",
+      "reading": "ぼこく",
+      "headword": "{母国|ぼこく}",
+      "label": "motherland"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18863_kyouri",
+      "reading": "きょうり",
+      "headword": "{郷里|きょうり}",
+      "label": "hometown"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20220_oyamoto",
+      "reading": "おやもと",
+      "headword": "{親元|おやもと}",
+      "label": "parents' home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27141_sokoku",
+      "reading": "そこく",
+      "headword": "{祖国|そこく}",
+      "label": "homeland"
     }
   ],
   "schema_version": "2.0",
@@ -95,12 +151,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "geography",
         "culture"
       ]
     },
     "created": "2026-04-25T14:12:21Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

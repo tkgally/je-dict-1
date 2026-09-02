@@ -17,7 +17,9 @@
       "id": "28770_furongasu_ex1",
       "japanese": "フロンガスは{使用|しよう}が{制限|せいげん}されている。",
       "english": "The use of CFCs is restricted.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28770_furongasu_ex2",
       "japanese": "{古|ふる}い{冷蔵庫|れいぞうこ}にはフロンガスが{使|つか}われていた。",
       "english": "CFCs were used in older refrigerators.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,48 @@
       "id": "28770_furongasu_ex3",
       "japanese": "フロンガスがオゾン{層|そう}を{破壊|はかい}することが{明|あき}らかになって{以来|いらい}、{国際的|こくさいてき}な{規制|きせい}が{進|すす}んだ。",
       "english": "Since it became clear that CFCs destroy the ozone layer, international regulations have advanced.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "フロン is the Japanese short form for fluorocarbons/freon; フロンガス is the gas form. The Montreal Protocol (1987) led to a gradual phase-out, with replacement refrigerants ({代替|だいたい}フロン) now in common use.\n\nCOMMON COLLOCATIONS:\n- フロンガスを{放出|ほうしゅつ}する: to release CFCs\n- フロンガスの{回収|かいしゅう}: recovery of CFCs (legal requirement when disposing of appliances)\n- フロンガス{規制|きせい}: CFC regulations\n- {代替|だいたい}フロン: replacement CFCs (HFCs, HCFCs)\n\nSIMILAR WORDS:\n- オゾン{層|そう}: ozone layer — the atmospheric layer CFCs damage\n- {温室効果|おんしつこうか}ガス: greenhouse gas — broader category; CFCs also contribute to warming",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05246_ozonsou",
+      "reading": "おぞんそう",
+      "headword": "オゾン{層|そう}",
+      "label": "ozone layer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24833_onshitsukoukagasu",
+      "reading": "おんしつこうかがす",
+      "headword": "{温室|おんしつ}{効果|こうか}ガス",
+      "label": "greenhouse gas"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["science"],
-      "domain": ["academic", "technical"]
+      "politeness": "plain",
+      "semantic": [
+        "science"
+      ],
+      "domain": [
+        "academic",
+        "technical"
+      ]
     },
     "created": "2026-06-05T02:07:15Z",
-    "modified": "2026-06-05T02:07:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{意思表示|いしひょうじ}",
   "reading": "いしひょうじ",
   "romaji": "ishihyouji",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "expression of one's intention; declaration of intent",
   "definitions": [
     {
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {意思|いし} (will/intention) and {表示|ひょうじ} (expression/indication). In everyday use, it means making one's wishes or decisions clear. In legal contexts, it is a technical term referring to a legally binding declaration of intent.\n\nCOMMON COLLOCATIONS:\n- {意思表示|いしひょうじ}をする: to express one's intention\n- {明確|めいかく}な{意思表示|いしひょうじ}: clear expression of intent\n- {書面|しょめん}による{意思表示|いしひょうじ}: written declaration of intent\n- {意思表示|いしひょうじ}の{撤回|てっかい}: withdrawal of a declaration of intent\n\nUSAGE NOTE:\nDo not confuse {意思|いし} (will/intention) with {意志|いし} (willpower/determination). {意思表示|いしひょうじ} uses {意思|いし}, focusing on what one intends or wishes, not on the strength of one's resolve.\n\nSIMILAR WORDS:\n- {表明|ひょうめい}: public declaration — more formal, often used for public statements of position\n- {申告|しんこく}: declaration/report — official reporting, as in tax filing",
+  "notes": "Composed of {意思|いし} (will/intention) and {表示|ひょうじ} (expression/indication). In everyday use, it means making one's wishes or decisions clear. In legal contexts, it is a technical term referring to a legally binding declaration of intent.\n\nCOMMON COLLOCATIONS:\n- {意思表示|いしひょうじ}をする: to express one's intention\n- {明確|めいかく}な{意思表示|いしひょうじ}: clear expression of intent\n- {書面|しょめん}による{意思表示|いしひょうじ}: written declaration of intent\n- {意思表示|いしひょうじ}の{撤回|てっかい}: withdrawal of a declaration of intent\n\nUSAGE:\nDo not confuse {意思|いし} (will/intention) with {意志|いし} (willpower/determination). {意思表示|いしひょうじ} uses {意思|いし}, focusing on what one intends or wishes, not on the strength of one's resolve.\n\nSIMILAR WORDS:\n- {表明|ひょうめい}: public declaration — more formal, often used for public statements of position\n- {申告|しんこく}: declaration/report — official reporting, as in tax filing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14052_hyoumei",
+      "reading": "ひょうめい",
+      "headword": "{表明|ひょうめい}",
+      "label": "public declaration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03687_shinkoku",
+      "reading": "しんこく",
+      "headword": "{申告|しんこく}",
+      "label": "declaration/report"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T21:08:10Z",
-    "modified": "2026-04-05T21:08:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

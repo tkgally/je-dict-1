@@ -3,7 +3,7 @@
   "headword": "銘刻",
   "reading": "めいこく",
   "romaji": "meikoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "inscription; engraving",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "A formal word used both literally for carved inscriptions and figuratively for vivid, lasting impressions.\n\nCOMMON COLLOCATIONS:\n- {石|いし}に{銘刻|めいこく}する: to engrave in stone\n- {心|こころ}に{銘刻|めいこく}する: to engrave in one's heart\n- {銘刻|めいこく}された{文字|もじ}: engraved characters\n\nSIMILAR WORDS:\n- {刻印|こくいん}: stamp; engraved mark — emphasizes a stamped or imprinted mark\n- {銘記|めいき}: to bear firmly in mind — figurative only, never a physical carving",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29469_kokuin",
+      "reading": "こくいん",
+      "headword": "{刻印|こくいん}",
+      "label": "stamp"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17488_meiki",
+      "reading": "めいき",
+      "headword": "{銘記|めいき}",
+      "label": "to bear firmly in mind"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "creation"
       ],
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-06-24T00:19:16Z",
-    "modified": "2026-06-24T00:19:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

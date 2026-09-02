@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{作家|さっか} refers to writers, especially novelists and literary authors.\n\nWORD FORMATION:\n⟦{作|さく}→作：27430_saku⟧ (create) + ⟦{家|か}→家：noentry⟧ (professional suffix)\n\nSCOPE:\nPrimarily refers to literary writers—novelists, fiction authors, etc.\n\nRELATED PROFESSIONS:\n- ⟦{小説家|しょうせつか}→小説家：03070_shousetsuka⟧: novelist\n- ⟦{脚本家|きゃくほんか}→脚本家：13962_kyakuhonka⟧: screenwriter\n- ⟦{漫画家|まんがか}→漫画家：08643_mangaka⟧: manga artist\n- ⟦{随筆家|ずいひつか}→随筆家：noentry⟧: essayist\n- ⟦{詩人|しじん}→詩人：03171_shijin⟧: poet\n- ⟦ライター→ライター：00350_raitaa⟧: writer (general, often for non-fiction)\n\nCOMMON EXPRESSIONS:\n- {作家|さっか}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become a writer\n- ⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{作家|さっか}: famous author\n- {作家|さっか}⟦{活動|かつどう}→活動：00201_katsudou⟧: writing career",
+  "notes": "{作家|さっか} refers to writers, especially novelists and literary authors.\n\nFORMS:\n⟦{作|さく}→作：27430_saku⟧ (create) + ⟦{家|か}→家：noentry⟧ (professional suffix)\n\nUSAGE:\nPrimarily refers to literary writers—novelists, fiction authors, etc.\n\nRELATED PROFESSIONS:\n- ⟦{小説家|しょうせつか}→小説家：03070_shousetsuka⟧: novelist\n- ⟦{脚本家|きゃくほんか}→脚本家：13962_kyakuhonka⟧: screenwriter\n- ⟦{漫画家|まんがか}→漫画家：08643_mangaka⟧: manga artist\n- ⟦{随筆家|ずいひつか}→随筆家：noentry⟧: essayist\n- ⟦{詩人|しじん}→詩人：03171_shijin⟧: poet\n- ⟦ライター→ライター：00350_raitaa⟧: writer (general, often for non-fiction)\n\nCOMMON EXPRESSIONS:\n- {作家|さっか}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become a writer\n- ⟦{有名|ゆうめい}→有名：01106_yuumei⟧な{作家|さっか}: famous author\n- {作家|さっか}⟦{活動|かつどう}→活動：00201_katsudou⟧: writing career",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,67 @@
       "reading": "しょうせつか",
       "headword": "{小説家|しょうせつか}",
       "label": "novelist"
+    },
+    {
+      "type": "related",
+      "target_id": "13962_kyakuhonka",
+      "reading": "きゃくほんか",
+      "headword": "{脚本家|きゃくほんか}",
+      "label": "screenwriter"
+    },
+    {
+      "type": "related",
+      "target_id": "08643_mangaka",
+      "reading": "まんがか",
+      "headword": "{漫画家|まんがか}",
+      "label": "manga artist"
+    },
+    {
+      "type": "related",
+      "target_id": "03171_shijin",
+      "reading": "しじん",
+      "headword": "{詩人|しじん}",
+      "label": "poet"
+    },
+    {
+      "type": "related",
+      "target_id": "00350_raitaa",
+      "reading": "らいたー",
+      "headword": "ライター",
+      "label": "writer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04169_sakusha",
+      "reading": "さくしゃ",
+      "headword": "{作者|さくしゃ}",
+      "label": "author, writer, creator"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04348_hissha",
+      "reading": "ひっしゃ",
+      "headword": "{筆者|ひっしゃ}",
+      "label": "writer, author"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12989_bungou",
+      "reading": "ぶんごう",
+      "headword": "{文豪|ぶんごう}",
+      "label": "literary master, great author"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22346_shippitsusha",
+      "reading": "しっぴつしゃ",
+      "headword": "{執筆者|しっぴつしゃ}",
+      "label": "author"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:57:54Z",
-    "modified": "2026-04-04T06:28:19Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

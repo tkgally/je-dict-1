@@ -17,7 +17,9 @@
       "id": "21610_futsuuressha_ex1",
       "japanese": "{普通|ふつう}{列車|れっしゃ}で{行|い}く。",
       "english": "I'll go by local train.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21610_futsuuressha_ex2",
       "japanese": "{次|つぎ}の{普通|ふつう}{列車|れっしゃ}は{何時|なんじ}ですか。",
       "english": "What time is the next local train?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "21610_futsuuressha_ex3",
       "japanese": "{普通|ふつう}{列車|れっしゃ}だと{二時間|にじかん}かかるが、{特急|とっきゅう}なら{一時間|いちじかん}で{着|つ}く。",
       "english": "The local train takes two hours, but the express gets there in one.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The most basic train service class in Japan, stopping at every station. Often shortened to {普通|ふつう} in conversation and on station signs.\n\nJAPAN TRAIN HIERARCHY (slowest to fastest):\n- {普通|ふつう}/{各駅停車|かくえきていしゃ}: local (stops at all stations)\n- {快速|かいそく}: rapid\n- {急行|きゅうこう}: express\n- {特急|とっきゅう}: limited express\n- {新幹線|しんかんせん}: bullet train\n\nCOMMON COLLOCATIONS:\n- {普通|ふつう}{列車|れっしゃ}の{切符|きっぷ}: local train ticket\n- {普通|ふつう}{列車|れっしゃ}{自由席|じゆうせき}: unreserved seat on a local train\n\nSIMILAR WORDS:\n- {各駅停車|かくえきていしゃ}: local train (lit. stopping at each station) — synonym, more descriptive\n- {鈍行|どんこう}: slow train — colloquial, slightly old-fashioned\n\nUSAGE:\nNo additional fare is required beyond the basic ticket price. On station platforms, displayed as {普通|ふつう} on departure boards.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15471_kakuekiteisha",
+      "reading": "かくえきていしゃ",
+      "headword": "{各駅停車|かくえきていしゃ}",
+      "label": "local train"
+    },
+    {
+      "type": "related",
+      "target_id": "27449_kakueki",
+      "reading": "かくえき",
+      "headword": "{各駅|かくえき}",
+      "label": "each station"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-04-02T18:13:07Z",
-    "modified": "2026-04-02T18:13:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

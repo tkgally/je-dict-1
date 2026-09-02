@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "アルコール is a loanword from Dutch \"alcohol,\" referring both to the chemical compound and alcoholic drinks in general.\n\nCOMMON COMPOUNDS:\n- アルコール⟦{飲料|いんりょう}→飲料：03011_inryou⟧: alcoholic beverage\n- アルコール⟦{消毒|しょうどく}→消毒：07591_shoudoku⟧: alcohol disinfection\n- アルコール⟦{度数|どすう}→度数：19737_dosuu⟧: alcohol content/percentage\n- ⟦ノンアルコール→ノンアルコール：noentry⟧: non-alcoholic\n\nCOMMON EXPRESSIONS:\n- アルコール⟦を→を：00422_wo⟧⟦{控|ひか}える→控える：10054_hikaeru⟧: to cut back on alcohol\n- アルコール⟦が→が：00051_ga⟧⟦{入|はい}っている→入る：00494_hairu⟧: contains alcohol\n- アルコール⟦に→に：00314_ni⟧⟦{弱|よわ}い→弱い：00825_yowai⟧: can't hold one's liquor\n\nRELATED:\n- ⟦お{酒|さけ}→お酒：01045_osake⟧: alcohol (general, also sake specifically)\n- ⟦{飲酒|いんしゅ}→飲酒：08635_inshu⟧: drinking alcohol (formal)\n- ⟦{禁酒|きんしゅ}→禁酒：15803_kinshu⟧: abstinence from alcohol",
+  "notes": "アルコール is a loanword from Dutch \"alcohol,\" referring both to the chemical compound and alcoholic drinks in general.\n\nCOMPOUNDS:\n- アルコール⟦{飲料|いんりょう}→飲料：03011_inryou⟧: alcoholic beverage\n- アルコール⟦{消毒|しょうどく}→消毒：07591_shoudoku⟧: alcohol disinfection\n- アルコール⟦{度数|どすう}→度数：19737_dosuu⟧: alcohol content/percentage\n- ⟦ノンアルコール→ノンアルコール：noentry⟧: non-alcoholic\n\nCOMMON EXPRESSIONS:\n- アルコール⟦を→を：00422_wo⟧⟦{控|ひか}える→控える：10054_hikaeru⟧: to cut back on alcohol\n- アルコール⟦が→が：00051_ga⟧⟦{入|はい}っている→入る：00494_hairu⟧: contains alcohol\n- アルコール⟦に→に：00314_ni⟧⟦{弱|よわ}い→弱い：00825_yowai⟧: can't hold one's liquor\n\nRELATED WORDS:\n- ⟦お{酒|さけ}→お酒：01045_osake⟧: alcohol (general, also sake specifically)\n- ⟦{飲酒|いんしゅ}→飲酒：08635_inshu⟧: drinking alcohol (formal)\n- ⟦{禁酒|きんしゅ}→禁酒：15803_kinshu⟧: abstinence from alcohol",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,11 +51,32 @@
       "reading": "おさけ",
       "headword": "お{酒|さけ}",
       "label": "alcohol (general/sake)"
+    },
+    {
+      "type": "related",
+      "target_id": "08635_inshu",
+      "reading": "いんしゅ",
+      "headword": "{飲酒|いんしゅ}",
+      "label": "drinking alcohol"
+    },
+    {
+      "type": "related",
+      "target_id": "15803_kinshu",
+      "reading": "きんしゅ",
+      "headword": "{禁酒|きんしゅ}",
+      "label": "abstinence from alcohol"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21058_shurui",
+      "reading": "しゅるい",
+      "headword": "{酒類|しゅるい}",
+      "label": "alcoholic beverages"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:52:42Z",
-    "modified": "2026-05-16T22:11:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

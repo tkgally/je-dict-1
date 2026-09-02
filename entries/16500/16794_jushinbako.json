@@ -19,7 +19,9 @@
       "english": "A new email arrived in my inbox.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16794_jushinbako_ex2",
@@ -27,7 +29,9 @@
       "english": "My inbox was full, so I deleted old emails.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16794_jushinbako_ex3",
@@ -35,10 +39,12 @@
       "english": "I set up a filter so that spam wouldn't get into my inbox.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{受信箱|じゅしんばこ} is the standard Japanese term for an email inbox or received messages folder. A compound of {受信|じゅしん} (receiving) and {箱|はこ} (box).\n\nCOMMON COLLOCATIONS:\n- {受信箱|じゅしんばこ}を{確認|かくにん}する: to check one's inbox\n- {受信箱|じゅしんばこ}を{整理|せいり}する: to organize one's inbox\n- {受信箱|じゅしんばこ}が{空|から}: inbox is empty\n- {受信箱|じゅしんばこ}がいっぱい: inbox is full\n\nRELATED TERMS:\n- {送信箱|そうしんばこ}: outbox / sent folder\n- {受信|じゅしん}トレイ: inbox tray (alternative term, especially on smartphones)\n- {迷惑|めいわく}メールフォルダ: spam folder\n- {下書|したが}き: drafts",
+  "notes": "{受信箱|じゅしんばこ} is the standard Japanese term for an email inbox or received messages folder. A compound of {受信|じゅしん} (receiving) and {箱|はこ} (box).\n\nCOMMON COLLOCATIONS:\n- {受信箱|じゅしんばこ}を{確認|かくにん}する: to check one's inbox\n- {受信箱|じゅしんばこ}を{整理|せいり}する: to organize one's inbox\n- {受信箱|じゅしんばこ}が{空|から}: inbox is empty\n- {受信箱|じゅしんばこ}がいっぱい: inbox is full\n\nRELATED WORDS:\n- {送信箱|そうしんばこ}: outbox / sent folder\n- {受信|じゅしん}トレイ: inbox tray (alternative term, especially on smartphones)\n- {迷惑|めいわく}メールフォルダ: spam folder\n- {下書|したが}き: drafts",
   "cross_references": [
     {
       "type": "related",
@@ -53,19 +59,33 @@
       "reading": "そうしん",
       "headword": "{送信|そうしん}",
       "label": "sending (messages)"
+    },
+    {
+      "type": "related",
+      "target_id": "06836_shitagaki",
+      "reading": "したがき",
+      "headword": "{下書|したが}き",
+      "label": "drafts"
     }
   ],
   "metadata": {
     "created": "2026-03-14T10:32:03Z",
-    "modified": "2026-05-05T04:05:07Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["technical"],
-      "semantic": ["technology", "communication"]
+      "domain": [
+        "technical"
+      ],
+      "semantic": [
+        "technology",
+        "communication"
+      ]
     }
   }
 }

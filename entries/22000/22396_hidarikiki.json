@@ -3,7 +3,7 @@
   "headword": "{左利|ひだりき}き",
   "reading": "ひだりきき",
   "romaji": "hidarikiki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "left-handed; left-handedness",
   "definitions": [
     {
@@ -87,6 +87,20 @@
       "reading": "みぎきき",
       "headword": "{右利|みぎき}き",
       "label": "right-handed"
+    },
+    {
+      "type": "related",
+      "target_id": "10975_hidarite",
+      "reading": "ひだりて",
+      "headword": "{左手|ひだりて}",
+      "label": "left hand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20740_kikiude",
+      "reading": "ききうで",
+      "headword": "{利|き}き{腕|うで}",
+      "label": "dominant arm"
     }
   ],
   "schema_version": "2.0",
@@ -105,6 +119,6 @@
       ]
     },
     "created": "2026-04-05T21:08:10Z",
-    "modified": "2026-08-01T06:42:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

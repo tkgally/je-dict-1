@@ -17,7 +17,9 @@
       "id": "19695_naikin_ex1",
       "japanese": "{今日|きょう}は{内勤|ないきん}の{日|ひ}だ。",
       "english": "Today is a desk work day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19695_naikin_ex2",
       "japanese": "{内勤|ないきん}から{外回|そとまわ}りに{異動|いどう}になった。",
       "english": "I was transferred from office duty to outside sales.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,37 @@
       "id": "19695_naikin_ex3",
       "japanese": "{内勤|ないきん}が{中心|ちゅうしん}なので、{運動不足|うんどうぶそく}になりがちだ。",
       "english": "Since my work is mostly at a desk, I tend to not get enough exercise.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Used in workplace contexts to distinguish between people who work at their desks in the office and those who go out to meet clients or do fieldwork. Can function as a noun modifier: {内勤|ないきん}の{社員|しゃいん} (office-based employees).\n\nCOMMON COLLOCATIONS:\n- {内勤|ないきん}の{仕事|しごと}: desk/office work\n- {内勤|ないきん}{社員|しゃいん}: office-based employee\n- {内勤|ないきん}に{異動|いどう}する: to be transferred to office duty\n\nSIMILAR WORDS:\n- {外勤|がいきん}: outside work, fieldwork — the direct opposite of {内勤|ないきん}\n- {外回|そとまわ}り: outside rounds, visiting clients — similar to {外勤|がいきん} but more colloquial\n- デスクワーク: desk work — loanword, used more casually and not specific to job classification",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17708_sotomawari",
+      "reading": "そとまわり",
+      "headword": "{外回|そとまわ}り",
+      "label": "outside rounds, visiting clients"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     },
     "created": "2026-03-26T12:38:04Z",
-    "modified": "2026-03-26T12:38:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

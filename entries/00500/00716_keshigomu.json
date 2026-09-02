@@ -44,10 +44,46 @@
     }
   ],
   "notes": "{消|け}しゴム is a tool for erasing pencil marks, part of basic stationery vocabulary.\n\nETYMOLOGY:\nCombines ⟦{消|け}す→{消|け}す：00528_kesu⟧ (to erase) + ⟦ゴム→ゴム：00073_gomu⟧ (rubber, from English 'gum').\n\nCOUNTER:\n⟦{個|こ}→〜{個|こ}：00645_ko⟧ is used: {一|いっ}{個|こ}, {二|に}{個|こ}, etc.\n\nCOMMON EXPRESSIONS:\n- {消|け}しゴムで⟦{消|け}す→{消|け}す：00528_kesu⟧: to erase with an eraser\n- {消|け}しゴムを⟦{使|つか}う→{使|つか}う：00473_tsukau⟧: to use an eraser\n- {消|け}しゴムを⟦{貸|か}す→{貸|か}す：00537_kasu⟧: to lend an eraser\n\nRELATED WORDS:\n- ⟦{鉛筆|えんぴつ}→{鉛筆|えんぴつ}：00694_enpitsu⟧: pencil\n- ⟦{消|け}す→{消|け}す：00528_kesu⟧: to erase\n- {砂|すな}{消|け}し: ink eraser",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00694_enpitsu",
+      "reading": "えんぴつ",
+      "headword": "{鉛筆|えんぴつ}",
+      "label": "pencil"
+    },
+    {
+      "type": "related",
+      "target_id": "00528_kesu",
+      "reading": "けす",
+      "headword": "{消|け}す",
+      "label": "to erase"
+    },
+    {
+      "type": "related",
+      "target_id": "00738_nooto",
+      "reading": "のーと",
+      "headword": "ノート",
+      "label": "notebook"
+    },
+    {
+      "type": "related",
+      "target_id": "22906_shuuseiteepu",
+      "reading": "しゅうせいてーぷ",
+      "headword": "{修正|しゅうせい}テープ",
+      "label": "correction tape"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24875_kokubankeshi",
+      "reading": "こくばんけし",
+      "headword": "{黒板消|こくばんけ}し",
+      "label": "blackboard eraser"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:50:57Z",
-    "modified": "2026-05-12T17:12:19Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

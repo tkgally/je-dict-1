@@ -19,7 +19,9 @@
       "english": "The accuracy of voice recognition has improved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15961_onseininshiki_ex2",
@@ -27,7 +29,9 @@
       "english": "This app can input text using voice recognition.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15961_onseininshiki_ex3",
@@ -35,21 +39,49 @@
       "english": "Thanks to voice recognition technology, it has become possible to operate a smartphone even while driving.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound noun formed from {音声|おんせい} (voice, audio) + {認識|にんしき} (recognition). Widely used in technology contexts. Often appears as a modifier: {音声認識|おんせいにんしき}{技術|ぎじゅつ} (voice recognition technology).\n\nCOMMON COLLOCATIONS:\n- {音声認識|おんせいにんしき}{技術|ぎじゅつ} (voice recognition technology)\n- {音声認識|おんせいにんしき}{機能|きのう} (voice recognition function)\n- {音声認識|おんせいにんしき}の{精度|せいど} (voice recognition accuracy)\n- {音声認識|おんせいにんしき}で{入力|にゅうりょく}する (to input via voice recognition)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08590_onseinyuuryoku",
+      "reading": "おんせいにゅうりょく",
+      "headword": "{音声入力|おんせいにゅうりょく}",
+      "label": "voice input"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24679_mojininshiki",
+      "reading": "もじにんしき",
+      "headword": "{文字認識|もじにんしき}",
+      "label": "character recognition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25950_gazouninshiki",
+      "reading": "がぞうにんしき",
+      "headword": "{画像認識|がぞうにんしき}",
+      "label": "image recognition"
+    }
+  ],
   "metadata": {
     "created": "2026-03-09T03:52:08Z",
-    "modified": "2026-03-09T03:52:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technology"]
+      "semantic": [
+        "technology"
+      ]
     }
   }
 }

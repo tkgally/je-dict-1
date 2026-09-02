@@ -18,7 +18,9 @@
       "english": "To write a doctoral dissertation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09969_hakushironbun_ex2",
@@ -26,7 +28,9 @@
       "english": "I'm almost done with my doctoral dissertation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09969_hakushironbun_ex3",
@@ -34,10 +38,12 @@
       "english": "I'm preparing for the oral defense of my doctoral dissertation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{博士論文|はくしろんぶん} is a compound of {博士|はくし} (doctorate) and {論文|ろんぶん} (thesis, paper).\n\nABBREVIATION:\n{博論|はくろん} is the common abbreviation.\n\nRELATED TERMS:\n- {修士論文|しゅうしろんぶん}: master's thesis\n- {学位論文|がくいろんぶん}: degree thesis (general term)\n- {学位|がくい}: academic degree\n\nDEFENSE PROCESS:\n- {口頭試問|こうとうしもん}: oral examination/defense\n- {審査|しんさ}{委員|いいん}: examination committee\n- {最終|さいしゅう}{審査|しんさ}: final review",
+  "notes": "{博士論文|はくしろんぶん} is a compound of {博士|はくし} (doctorate) and {論文|ろんぶん} (thesis, paper).\n\nFORMS:\n{博論|はくろん} is the common abbreviation.\n\nRELATED WORDS:\n- {修士論文|しゅうしろんぶん}: master's thesis\n- {学位論文|がくいろんぶん}: degree thesis (general term)\n- {学位|がくい}: academic degree\n\nDEFENSE PROCESS:\n- {口頭試問|こうとうしもん}: oral examination/defense\n- {審査|しんさ}{委員|いいん}: examination committee\n- {最終|さいしゅう}{審査|しんさ}: final review",
   "cross_references": [
     {
       "type": "related",
@@ -45,18 +51,43 @@
       "reading": "しゅうしろんぶん",
       "headword": "{修士論文|しゅうしろんぶん}",
       "label": "master's thesis"
+    },
+    {
+      "type": "related",
+      "target_id": "26492_gakuironbun",
+      "reading": "がくいろんぶん",
+      "headword": "{学位論文|がくいろんぶん}",
+      "label": "degree thesis"
+    },
+    {
+      "type": "related",
+      "target_id": "10196_gakui",
+      "reading": "がくい",
+      "headword": "{学位|がくい}",
+      "label": "academic degree"
+    },
+    {
+      "type": "related",
+      "target_id": "09259_sotsugyouronbun",
+      "reading": "そつぎょうろんぶん",
+      "headword": "{卒業論文|そつぎょうろんぶん}",
+      "label": "graduation thesis, senior thesis"
     }
   ],
   "metadata": {
     "created": "2026-02-04T12:02:51Z",
-    "modified": "2026-04-23T08:17:03Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

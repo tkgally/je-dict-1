@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{日本語|にほんご} is the Japanese language.\n\nPATTERN FOR LANGUAGES:\n{国|くに}/{地域|ちいき} + {語|ご} = language:\n- ⟦{英語|えいご}→英語：02274_eigo⟧: English\n- ⟦{中国語|ちゅうごくご}→中国語：10966_chuugokugo⟧: Chinese\n- ⟦{韓国語|かんこくご}→韓国語：25419_kankokugo⟧: Korean\n- ⟦フランス{語|ご}→フランス語：24509_furansugo⟧: French\n\nCOMMON EXPRESSIONS:\n- {日本語|にほんご}⟦を→を：00422_wo⟧⟦{勉強|べんきょう}する→勉強する：00527_benkyousuru⟧: to study Japanese\n- {日本語|にほんご}⟦で→で：00502_de⟧⟦{話|はな}す→話す：00467_hanasu⟧: to speak in Japanese\n- {日本語|にほんご}⟦が→が：00051_ga⟧⟦{上手|じょうず}→上手：00707_jouzu⟧: good at Japanese\n\nCOMPOUNDS:\n- {日本語|にほんご}⟦{教育|きょういく}→教育：01313_kyouiku⟧: Japanese language education\n- {日本語|にほんご}⟦{能力|のうりょく}→能力：03541_nouryoku⟧⟦{試験|しけん}→試験：01422_shiken⟧: Japanese Language Proficiency Test (JLPT)\n- {日本語|にほんご}⟦{学校|がっこう}→学校：00055_gakkou⟧: Japanese language school\n\nRELATED:\n- ⟦{国語|こくご}→国語：02739_kokugo⟧: national language (Japanese in Japan's school curriculum)",
+  "notes": "{日本語|にほんご} is the Japanese language.\n\nPATTERN FOR LANGUAGES:\n{国|くに}/{地域|ちいき} + {語|ご} = language:\n- ⟦{英語|えいご}→英語：02274_eigo⟧: English\n- ⟦{中国語|ちゅうごくご}→中国語：10966_chuugokugo⟧: Chinese\n- ⟦{韓国語|かんこくご}→韓国語：25419_kankokugo⟧: Korean\n- ⟦フランス{語|ご}→フランス語：24509_furansugo⟧: French\n\nCOMMON EXPRESSIONS:\n- {日本語|にほんご}⟦を→を：00422_wo⟧⟦{勉強|べんきょう}する→勉強する：00527_benkyousuru⟧: to study Japanese\n- {日本語|にほんご}⟦で→で：00502_de⟧⟦{話|はな}す→話す：00467_hanasu⟧: to speak in Japanese\n- {日本語|にほんご}⟦が→が：00051_ga⟧⟦{上手|じょうず}→上手：00707_jouzu⟧: good at Japanese\n\nCOMPOUNDS:\n- {日本語|にほんご}⟦{教育|きょういく}→教育：01313_kyouiku⟧: Japanese language education\n- {日本語|にほんご}⟦{能力|のうりょく}→能力：03541_nouryoku⟧⟦{試験|しけん}→試験：01422_shiken⟧: Japanese Language Proficiency Test (JLPT)\n- {日本語|にほんご}⟦{学校|がっこう}→学校：00055_gakkou⟧: Japanese language school\n\nRELATED WORDS:\n- ⟦{国語|こくご}→国語：02739_kokugo⟧: national language (Japanese in Japan's school curriculum)",
   "cross_references": [
     {
       "type": "related",
@@ -71,11 +71,18 @@
       "headword": "{英語|えいご}",
       "target_id": "02274_eigo",
       "label": "English language"
+    },
+    {
+      "type": "related",
+      "target_id": "02739_kokugo",
+      "reading": "こくご",
+      "headword": "{国語|こくご}",
+      "label": "national language"
     }
   ],
   "metadata": {
     "created": "2026-01-07T15:53:10Z",
-    "modified": "2026-05-12T13:16:23Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

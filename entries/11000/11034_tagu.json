@@ -19,7 +19,9 @@
       "english": "To check the price tag.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11034_tagu_ex2",
@@ -27,7 +29,9 @@
       "english": "I added tags to the social media post.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11034_tagu_ex3",
@@ -35,21 +39,49 @@
       "english": "The washing instructions are on the clothing tag, so check it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nタグ covers both physical labels (clothing tags, price tags, luggage tags) and digital tags (hashtags, HTML tags, metadata labels). ハッシュタグ (hashtag) is the most common digital use.\n\nタグ{付|づ}け means \"tagging\" (applying tags to items or posts).\n\nCOMMON COLLOCATIONS:\n- タグを{付|つ}ける: to attach a tag, to tag\n- {名前|なまえ}タグ: name tag\n- ハッシュタグ: hashtag\n- タグを{外|はず}す: to remove a tag",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00348_raberu",
+      "reading": "らべる",
+      "headword": "ラベル",
+      "label": "label"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19865_nifuda",
+      "reading": "にふだ",
+      "headword": "{荷札|にふだ}",
+      "label": "luggage tag"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23002_fuda",
+      "reading": "ふだ",
+      "headword": "{札|ふだ}",
+      "label": "tag"
+    }
+  ],
   "metadata": {
     "created": "2026-02-12T20:10:50Z",
-    "modified": "2026-02-12T20:10:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

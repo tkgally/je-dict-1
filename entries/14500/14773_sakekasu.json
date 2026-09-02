@@ -19,7 +19,9 @@
       "english": "I made amazake from sake lees.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14773_sakekasu_ex2",
@@ -27,7 +29,9 @@
       "english": "Sake lees soup warms the body.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14773_sakekasu_ex3",
@@ -35,7 +39,9 @@
       "english": "When winter comes, fresh sake lees from breweries become available and line the supermarket shelves.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE: {酒粕|さけかす} is a common cooking ingredient in Japanese cuisine. It is most widely available in winter, when sake production peaks.\n\nCOMMON COLLOCATIONS:\n- {粕汁|かすじる} (sake lees soup — a warming winter dish)\n- {粕漬|かすづ}け (pickling in sake lees)\n- {甘酒|あまざけ} (sweet sake drink made from sake lees or rice koji)\n- {酒粕|さけかす}パック (sake lees face mask — a beauty product)\n\nAlternate written forms include {酒糟|さけかす}. The word {粕|かす} alone means \"dregs\" or \"sediment\" and appears in other compounds like {糠粕|ぬかかす} and the figurative expression {糟糠|そうこう}の{妻|つま} (a wife who shared one's hardships).",
@@ -46,18 +52,43 @@
       "reading": "あまざけ",
       "headword": "{甘酒|あまざけ}",
       "label": "amazake (made from sake lees)"
+    },
+    {
+      "type": "related",
+      "target_id": "08230_kasuzuke",
+      "reading": "かすづけ",
+      "headword": "{粕漬|かすづ}け",
+      "label": "sake lees pickle"
+    },
+    {
+      "type": "related",
+      "target_id": "24953_wasabizuke",
+      "reading": "わさびづけ",
+      "headword": "{山葵漬|わさびづ}け",
+      "label": "wasabi pickles"
+    },
+    {
+      "type": "related",
+      "target_id": "24970_kasujiru",
+      "reading": "かすじる",
+      "headword": "{粕汁|かすじる}",
+      "label": "sake lees soup"
     }
   ],
   "metadata": {
     "created": "2026-03-03T11:28:35Z",
-    "modified": "2026-04-30T10:37:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

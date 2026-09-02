@@ -44,14 +44,25 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {入院|にゅういん} (hospitalization) and {患者|かんじゃ} (patient). Used in medical and administrative contexts to distinguish from {外来|がいらい}{患者|かんじゃ} (outpatient).\n\nCOMMON COLLOCATIONS:\n- {入院|にゅういん}{患者|かんじゃ}{数|すう} — number of inpatients\n- {入院|にゅういん}{患者|かんじゃ}の{ケア|けあ} — inpatient care\n- {入院|にゅういん}{患者|かんじゃ}{用|よう} — for inpatient use\n- {長期|ちょうき}{入院|にゅういん}{患者|かんじゃ} — long-term inpatient\n\nSIMILAR WORDS:\n- {外来|がいらい}{患者|かんじゃ} — outpatient (visits the hospital without staying overnight)\n- {通院|つういん}{患者|かんじゃ} — patient who commutes to the hospital for regular treatment\n- {入所者|にゅうしょしゃ} — resident (of a care facility, not a hospital)",
+  "notes": "A compound of {入院|にゅういん} (hospitalization) and {患者|かんじゃ} (patient). Used in medical and administrative contexts to distinguish from {外来|がいらい}{患者|かんじゃ} (outpatient).\n\nCOMMON COLLOCATIONS:\n- {入院|にゅういん}{患者|かんじゃ}{数|すう} — number of inpatients\n- {入院|にゅういん}{患者|かんじゃ}のケア — inpatient care\n- {入院|にゅういん}{患者|かんじゃ}{用|よう} — for inpatient use\n- {長期|ちょうき}{入院|にゅういん}{患者|かんじゃ} — long-term inpatient\n\nSIMILAR WORDS:\n- {外来|がいらい}{患者|かんじゃ} — outpatient (visits the hospital without staying overnight)\n- {通院|つういん}{患者|かんじゃ} — patient who commutes to the hospital for regular treatment\n- {入所者|にゅうしょしゃ} — resident (of a care facility, not a hospital)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09895_gairai",
+      "reading": "がいらい",
+      "headword": "{外来|がいらい}",
+      "label": "outpatient"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "person"
@@ -59,6 +70,6 @@
       "usage": []
     },
     "created": "2026-04-20T16:24:32Z",
-    "modified": "2026-08-03T09:30:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

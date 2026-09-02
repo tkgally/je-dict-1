@@ -17,7 +17,9 @@
       "id": "26337_hakanakunaru_ex1",
       "japanese": "{祖母|そぼ}がはかなくなった。",
       "english": "My grandmother passed away.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26337_hakanakunaru_ex2",
       "japanese": "{若|わか}くしてはかなくなった{詩人|しじん}の{作品|さくひん}を{集|あつ}めている。",
       "english": "I collect the works of poets who passed away young.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "26337_hakanakunaru_ex3",
       "japanese": "{長|なが}い{闘病|とうびょう}{生活|せいかつ}の{末|すえ}、{彼女|かのじょ}は{静|しず}かにはかなくなり、{家族|かぞく}に{見守|みまも}られながら{旅立|たびだ}った。",
       "english": "After a long battle with illness, she quietly passed away, departing while watched over by her family.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From the adjective はかない (fleeting, transient, ephemeral) in its ku-form + なる (to become). The expression encapsulates a deeply Japanese sensibility about mortality — life is fleeting, and death is a natural return to impermanence.\n\nThis is one of many Japanese euphemisms for death, reflecting the cultural tendency to speak about death indirectly. It is more literary and poetic than {亡|な}くなる, which is the standard polite word for dying.\n\nREGISTER:\nLiterary and poetic. Used in written prose, obituaries, speeches, and formal settings. In everyday speech, {亡|な}くなる is far more common.\n\nSIMILAR WORDS:\n- {亡|な}くなる: to pass away — the standard polite euphemism for death\n- {死|し}ぬ: to die — direct and blunt; avoided when speaking about people respectfully\n- {逝|い}く: to pass on — literary, gentle euphemism\n- {他界|たかい}する: to depart this world — formal, used in obituaries\n- {永眠|えいみん}する: to enter eternal sleep — very formal, found in written notices",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02639_nakunaru",
+      "reading": "なくなる",
+      "headword": "{亡|な}くなる",
+      "label": "to pass away"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00669_shinu",
+      "reading": "しぬ",
+      "headword": "{死|し}ぬ",
+      "label": "to die"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28113_iku",
+      "reading": "いく",
+      "headword": "{逝|い}く",
+      "label": "to pass on"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
-      "semantic": ["existence", "culture"],
+      "pos": [
+        "expression"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "existence",
+        "culture"
+      ],
       "register": "literary"
     },
     "created": "2026-04-30T16:29:27Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

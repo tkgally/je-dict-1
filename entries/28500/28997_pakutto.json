@@ -17,7 +17,9 @@
       "id": "28997_pakutto_ex1",
       "japanese": "{犬|いぬ}がパンをぱくっと{食|た}べた。",
       "english": "The dog snapped up the bread in one bite.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28997_pakutto_ex2",
       "japanese": "おにぎりをぱくっとほおばった。",
       "english": "I stuffed the rice ball into my mouth in one big bite.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "28997_pakutto_ex3",
       "japanese": "{鯉|こい}が{餌|えさ}を{水面|すいめん}でぱくっと{食|く}いついた。",
       "english": "The carp snapped at the bait right at the surface of the water.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers to a single action of biting, in contrast to the repeated ぱくぱく (\"chomping away\"). Often used playfully or to describe an eager bite.\n\nCOMMON COLLOCATIONS:\n- ぱくっと{食|た}べる: to eat in one bite\n- ぱくっとほおばる: to stuff one's mouth in a single bite\n- ぱくっと{食|く}いつく: to snap at; to bite onto\n- ぱくっと{開|ひら}く: to open wide (mouth, lid)\n\nSIMILAR WORDS:\n- ぱくぱく: chomping repeatedly — sustained eating\n- がぶっと: biting hard and deep — more aggressive\n- もぐもぐ: chewing with the mouth closed — quiet, sustained chewing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05723_pakupaku",
+      "reading": "ぱくぱく",
+      "headword": "ぱくぱく",
+      "label": "chomping repeatedly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05775_mogumogu",
+      "reading": "もぐもぐ",
+      "headword": "もぐもぐ",
+      "label": "chewing with the mouth closed"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "onomatopoeia"],
+      "pos": [
+        "adverb",
+        "onomatopoeia"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["descriptive", "onomatopoeia"],
+      "politeness": "plain",
+      "semantic": [
+        "descriptive",
+        "onomatopoeia"
+      ],
       "domain": []
     },
     "created": "2026-06-08T07:55:39Z",
-    "modified": "2026-06-08T07:55:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

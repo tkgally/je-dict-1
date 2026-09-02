@@ -46,6 +46,36 @@
   ],
   "notes": "Formed from {生体|せいたい} (living body) + {認証|にんしょう} (authentication). Standard on smartphones and banking apps, and increasingly at airports and office entrances.\n\nCOMMON COLLOCATIONS:\n- {生体認証|せいたいにんしょう}を{使|つか}う: to use biometric authentication\n- {生体認証|せいたいにんしょう}{機能|きのう}: a biometric authentication feature\n- {顔|かお}{認証|にんしょう}: face recognition\n- {指紋|しもん}{認証|にんしょう}: fingerprint authentication\n\nSIMILAR WORDS:\n- {本人|ほんにん}{確認|かくにん}: identity verification — the broader purpose, which may be done with documents instead\n- {二段階|にだんかい}{認証|にんしょう}: two-step verification — a different approach, using a second code rather than a body feature",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15142_honninkakunin",
+      "reading": "ほんにんかくにん",
+      "headword": "{本人|ほんにん}{確認|かくにん}",
+      "label": "identity verification"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08618_nidankaininshou",
+      "reading": "にだんかいにんしょう",
+      "headword": "{二段階認証|にだんかいにんしょう}",
+      "label": "two-step verification"
+    },
+    {
+      "type": "related",
+      "target_id": "08592_shimonninshou",
+      "reading": "しもんにんしょう",
+      "headword": "{指紋認証|しもんにんしょう}",
+      "label": "fingerprint authentication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30118_tayousoninshou",
+      "reading": "たようそにんしょう",
+      "headword": "{多要素認証|たようそにんしょう}",
+      "label": "multi-factor authentication"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +83,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "technology"
       ],
@@ -62,6 +92,6 @@
       ]
     },
     "created": "2026-07-26T12:19:17Z",
-    "modified": "2026-07-26T12:19:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

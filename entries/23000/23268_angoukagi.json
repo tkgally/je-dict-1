@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {暗号|あんごう} (cipher, code, encryption) and {鍵|かぎ} (key). A calque of the English term \"encryption key,\" used in cryptography, security standards, and technical documentation.\n\nUSAGE:\n- Used in technical writing, network/security news, and developer documentation.\n- Often appears in compounds describing the key type: {公開鍵|こうかいかぎ} (public key), {秘密鍵|ひみつかぎ} (private/secret key), {共通鍵|きょうつうかぎ} (common/symmetric key).\n- The reading is {あんごうかぎ}; be careful not to mix it with {暗号化|あんごうか} (encryption, as a process).\n- Pronunciation: the {鍵|かぎ} in compounds like this is usually read as かぎ, not けん.\n\nCOMMON COLLOCATIONS:\n- {暗号鍵|あんごうかぎ}を{生成|せいせい}する: to generate an encryption key\n- {暗号鍵|あんごうかぎ}を{管理|かんり}する: to manage encryption keys\n- {暗号鍵|あんごうかぎ}が{漏|も}れる: for the encryption key to leak\n- {暗号鍵|あんごうかぎ}の{交換|こうかん}: exchange of encryption keys\n- {強力|きょうりょく}な{暗号鍵|あんごうかぎ}: a strong encryption key\n\nSIMILAR WORDS:\n- {暗号|あんごう}: cipher, code, encryption — the broader term\n- {暗号化|あんごうか}: encryption (the process) — often used with する as a verb\n- {復号|ふくごう}: decryption — undoing encryption\n- {公開鍵|こうかいかぎ}: public key — the publishable half of an asymmetric key pair\n- {秘密鍵|ひみつかぎ}: private/secret key — the half that must be kept confidential\n- パスワード: password — what end users remember, not the raw cryptographic key",
+  "notes": "Composed of {暗号|あんごう} (cipher, code, encryption) and {鍵|かぎ} (key). A calque of the English term \"encryption key,\" used in cryptography, security standards, and technical documentation.\n\nUSAGE:\n- Used in technical writing, network/security news, and developer documentation.\n- Often appears in compounds describing the key type: {公開鍵|こうかいかぎ} (public key), {秘密鍵|ひみつかぎ} (private/secret key), {共通鍵|きょうつうかぎ} (common/symmetric key).\n- The reading is あんごうかぎ; be careful not to mix it with {暗号化|あんごうか} (encryption, as a process).\n- Pronunciation: the {鍵|かぎ} in compounds like this is usually read as かぎ, not けん.\n\nCOMMON COLLOCATIONS:\n- {暗号鍵|あんごうかぎ}を{生成|せいせい}する: to generate an encryption key\n- {暗号鍵|あんごうかぎ}を{管理|かんり}する: to manage encryption keys\n- {暗号鍵|あんごうかぎ}が{漏|も}れる: for the encryption key to leak\n- {暗号鍵|あんごうかぎ}の{交換|こうかん}: exchange of encryption keys\n- {強力|きょうりょく}な{暗号鍵|あんごうかぎ}: a strong encryption key\n\nSIMILAR WORDS:\n- {暗号|あんごう}: cipher, code, encryption — the broader term\n- {暗号化|あんごうか}: encryption (the process) — often used with する as a verb\n- {復号|ふくごう}: decryption — undoing encryption\n- {公開鍵|こうかいかぎ}: public key — the publishable half of an asymmetric key pair\n- {秘密鍵|ひみつかぎ}: private/secret key — the half that must be kept confidential\n- パスワード: password — what end users remember, not the raw cryptographic key",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08415_angouka",
+      "reading": "あんごうか",
+      "headword": "{暗号化|あんごうか}",
+      "label": "encryption"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08416_fukugou",
+      "reading": "ふくごう",
+      "headword": "{復号|ふくごう}",
+      "label": "decryption"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05277_pasuwaado",
+      "reading": "ぱすわーど",
+      "headword": "パスワード",
+      "label": "password"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-11T15:09:41Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

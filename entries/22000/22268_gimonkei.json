@@ -17,7 +17,9 @@
       "id": "22268_gimonkei_ex1",
       "japanese": "この{文|ぶん}を{疑問形|ぎもんけい}にしてください。",
       "english": "Please put this sentence into question form.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22268_gimonkei_ex2",
       "japanese": "{疑問形|ぎもんけい}の{作|つく}り{方|かた}を{練習|れんしゅう}する。",
       "english": "To practice how to form questions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "22268_gimonkei_ex3",
       "japanese": "{日本語|にほんご}の{疑問形|ぎもんけい}は{文末|ぶんまつ}に「か」を{付|つ}けるのが{基本|きほん}だ。",
       "english": "The basic way to form questions in Japanese is to add ka at the end of the sentence.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A grammatical term used in language education and linguistics. Refers to the form of a sentence structured as a question.\n\nJAPANESE QUESTION FORMATION:\n- {丁寧|ていねい}{語|ご}: add か to the end (e.g., {行|い}きますか)\n- {普通|ふつう}{体|たい}: rising intonation or の (e.g., {行|い}くの？)\n- {疑問詞|ぎもんし} (question words): {何|なに}, {誰|だれ}, いつ, どこ, etc.\n\nRELATED TERMS:\n- {疑問文|ぎもんぶん}: interrogative sentence — the sentence itself, not the form\n- {疑問詞|ぎもんし}: interrogative word (who, what, where, etc.)\n- {肯定形|こうていけい}: affirmative form\n- {否定形|ひていけい}: negative form\n\nFORMATION:\n{疑問|ぎもん} (question, doubt) + {形|けい} (form, shape)",
+  "notes": "A grammatical term used in language education and linguistics. Refers to the form of a sentence structured as a question.\n\nJAPANESE QUESTION FORMATION:\n- {丁寧|ていねい}{語|ご}: add か to the end (e.g., {行|い}きますか)\n- {普通|ふつう}{体|たい}: rising intonation or の (e.g., {行|い}くの？)\n- {疑問詞|ぎもんし} (question words): {何|なに}, {誰|だれ}, いつ, どこ, etc.\n\nRELATED WORDS:\n- {疑問文|ぎもんぶん}: interrogative sentence — the sentence itself, not the form\n- {疑問詞|ぎもんし}: interrogative word (who, what, where, etc.)\n- {肯定形|こうていけい}: affirmative form\n- {否定形|ひていけい}: negative form\n\nFORMS:\n{疑問|ぎもん} (question, doubt) + {形|けい} (form, shape)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22947_kouteikei",
+      "reading": "こうていけい",
+      "headword": "{肯定形|こうていけい}",
+      "label": "affirmative form"
+    },
+    {
+      "type": "related",
+      "target_id": "11500_hiteikei",
+      "reading": "ひていけい",
+      "headword": "{否定形|ひていけい}",
+      "label": "negative form"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["language"]
+      "semantic": [
+        "language"
+      ]
     },
     "created": "2026-04-05T16:31:46Z",
-    "modified": "2026-04-05T16:31:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

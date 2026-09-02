@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "ALTERNATIVE TERMS:\n・⟦ピッチャー→ピッチャー：09482_picchaa⟧ (pitcher - loanword, equally common)\n\nTYPES OF PITCHERS:\n・⟦{先発|せんぱつ}→先発：17735_senpatsu⟧{投手|とうしゅ} (starting pitcher)\n・⟦{中|なか}{継|つ}ぎ→中継ぎ：30003_nakatsugi⟧ (relief pitcher, middle reliever)\n・⟦{抑|おさ}え→抑え：30004_osae⟧／⟦クローザー→クローザー：30005_kuroozaa⟧ (closer)\n・⟦{敗戦|はいせん}→敗戦：12917_haisen⟧⟦{処理|しょり}→処理：03251_shori⟧{投手|とうしゅ} (mop-up pitcher)\n\nKEY STATISTICS:\n・⟦{防御率|ぼうぎょりつ}→防御率：08871_bougyoritsu⟧ (ERA - earned run average)\n・⟦{奪三振|だつさんしん}→奪三振：30006_datsusanshin⟧ (strikeouts)\n・⟦{勝利|しょうり}→勝利：11795_shouri⟧{投手|とうしゅ} (winning pitcher)\n・⟦{敗戦|はいせん}→敗戦：12917_haisen⟧{投手|とうしゅ} (losing pitcher)\n\nCOMMON COLLOCATIONS:\n・{投手|とうしゅ}⟦を→を：00422_wo⟧⟦{交代|こうたい}→交代：14943_koutai⟧⟦する→する：00392_suru⟧ (to change pitchers)\n・{投手|とうしゅ}⟦が→が：00051_ga⟧⟦{崩|くず}れる→崩れる：04248_kuzureru⟧ (pitcher falls apart/loses effectiveness)\n・{投手|とうしゅ}⟦{陣|じん}→陣：noentry⟧ (pitching staff)\n・⟦エース→エース：28537_eesu⟧{投手|とうしゅ} (ace pitcher)",
+  "notes": "ALTERNATIVE TERMS:\n- ⟦ピッチャー→ピッチャー：09482_picchaa⟧ (pitcher - loanword, equally common)\n\nTYPES OF PITCHERS:\n- ⟦{先発|せんぱつ}→先発：17735_senpatsu⟧{投手|とうしゅ} (starting pitcher)\n- ⟦{中|なか}{継|つ}ぎ→中継ぎ：30003_nakatsugi⟧ (relief pitcher, middle reliever)\n- ⟦{抑|おさ}え→抑え：30004_osae⟧／⟦クローザー→クローザー：30005_kuroozaa⟧ (closer)\n- ⟦{敗戦|はいせん}→敗戦：12917_haisen⟧⟦{処理|しょり}→処理：03251_shori⟧{投手|とうしゅ} (mop-up pitcher)\n\nKEY STATISTICS:\n- ⟦{防御率|ぼうぎょりつ}→防御率：08871_bougyoritsu⟧ (ERA - earned run average)\n- ⟦{奪三振|だつさんしん}→奪三振：30006_datsusanshin⟧ (strikeouts)\n- ⟦{勝利|しょうり}→勝利：11795_shouri⟧{投手|とうしゅ} (winning pitcher)\n- ⟦{敗戦|はいせん}→敗戦：12917_haisen⟧{投手|とうしゅ} (losing pitcher)\n\nCOMMON COLLOCATIONS:\n- {投手|とうしゅ}⟦を→を：00422_wo⟧⟦{交代|こうたい}→交代：14943_koutai⟧⟦する→する：00392_suru⟧ (to change pitchers)\n- {投手|とうしゅ}⟦が→が：00051_ga⟧⟦{崩|くず}れる→崩れる：04248_kuzureru⟧ (pitcher falls apart/loses effectiveness)\n- {投手|とうしゅ}⟦{陣|じん}→陣：noentry⟧ (pitching staff)\n- ⟦エース→エース：28537_eesu⟧{投手|とうしゅ} (ace pitcher)",
   "cross_references": [
     {
       "type": "antonym",
@@ -79,11 +79,53 @@
       "reading": "なげる",
       "headword": "{投|な}げる",
       "label": "verb: to pitch, to throw"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09482_picchaa",
+      "reading": "ぴっちゃー",
+      "headword": "ピッチャー",
+      "label": "pitcher"
+    },
+    {
+      "type": "related",
+      "target_id": "08871_bougyoritsu",
+      "reading": "ぼうぎょりつ",
+      "headword": "{防御率|ぼうぎょりつ}",
+      "label": "ERA, earned run average"
+    },
+    {
+      "type": "related",
+      "target_id": "21674_gaiyashu",
+      "reading": "がいやしゅ",
+      "headword": "{外野手|がいやしゅ}",
+      "label": "outfielder (baseball)"
+    },
+    {
+      "type": "related",
+      "target_id": "23978_shimeidasha",
+      "reading": "しめいだしゃ",
+      "headword": "{指名打者|しめいだしゃ}",
+      "label": "designated hitter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25025_naiyashu",
+      "reading": "ないやしゅ",
+      "headword": "{内野手|ないやしゅ}",
+      "label": "infielder (baseball)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27328_dagguauto",
+      "reading": "だっぐあうと",
+      "headword": "ダッグアウト",
+      "label": "dugout (baseball)"
     }
   ],
   "metadata": {
     "created": "2026-01-18T00:32:03Z",
-    "modified": "2026-08-29T12:18:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

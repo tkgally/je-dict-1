@@ -24,7 +24,9 @@
       "english": "To pull a lever.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11263_rebaa_ex2",
@@ -32,7 +34,9 @@
       "english": "Tilt this lever to the right and it starts moving.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11263_rebaa_ex3",
@@ -40,7 +44,9 @@
       "english": "I operated the emergency lever and stopped the train.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11263_rebaa_ex4",
@@ -48,7 +54,9 @@
       "english": "Liver is rich in iron.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11263_rebaa_ex5",
@@ -56,7 +64,9 @@
       "english": "I like yakitori liver skewers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11263_rebaa_ex6",
@@ -64,21 +74,43 @@
       "english": "Stir-fried liver and chives is a staple menu item at set-meal restaurants.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nBoth senses come from English but from different words: sense 1 from \"lever\" and sense 2 from \"liver.\" Context usually makes the meaning clear.\n\nSense 2 is very common in food contexts. レバニラ{炒|いた}め (stir-fried liver with garlic chives) is one of the most well-known liver dishes in Japan. Some people dislike the strong taste, and レバーが{苦手|にがて} (not being good with liver) is a common expression.\n\nCOMMON COLLOCATIONS:\n- レバーを{引|ひ}く: to pull a lever\n- レバーを{倒|たお}す: to push/tilt a lever\n- {鶏|とり}レバー: chicken liver\n- レバニラ{炒|いた}め: stir-fried liver and chives\n- レバー{刺|さ}し: raw liver (now banned in restaurants for beef)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29686_aamu",
+      "reading": "あーむ",
+      "headword": "アーム",
+      "label": "arm (mechanical)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30550_sunagimo",
+      "reading": "すなぎも",
+      "headword": "{砂肝|すなぎも}",
+      "label": "chicken gizzard (as food)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-15T09:19:18Z",
-    "modified": "2026-02-15T09:19:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool", "food"]
+      "semantic": [
+        "tool",
+        "food"
+      ]
     }
   }
 }

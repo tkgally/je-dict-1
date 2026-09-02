@@ -19,7 +19,9 @@
       "english": "To be careful of poisonous plants.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18118_dokusou_ex2",
@@ -27,7 +29,9 @@
       "english": "When picking wild vegetables, you need to be careful not to confuse them with poisonous plants.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18118_dokusou_ex3",
@@ -35,7 +39,9 @@
       "english": "Someone mistakenly ate a poisonous plant thinking it was edible and was transported to the hospital.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften appears in news about accidental poisoning from misidentified wild plants, which is a recurring problem in Japan, particularly with mountain vegetables ({山菜|さんさい}).\n\nCOMMON COLLOCATIONS:\n- {毒草|どくそう}を{見分|みわ}ける (to distinguish poisonous plants)\n- {毒草|どくそう}と{間違|まちが}える (to mistake for a poisonous plant)\n- {毒草|どくそう}{図鑑|ずかん} (poisonous plant field guide)\n\nSIMILAR WORDS:\n- {薬草|やくそう}: medicinal herb — the opposite, a plant with healing properties\n- {毒|どく}キノコ: poisonous mushroom — the fungal equivalent",
@@ -46,18 +52,29 @@
       "reading": "やくそう",
       "headword": "{薬草|やくそう}",
       "label": "medicinal herb"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25213_dokukinoko",
+      "reading": "どくきのこ",
+      "headword": "{毒茸|どくきのこ}",
+      "label": "poisonous mushroom"
     }
   ],
   "metadata": {
     "created": "2026-03-20T02:47:23Z",
-    "modified": "2026-05-08T05:05:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["plant-general"]
+      "semantic": [
+        "plant-general"
+      ]
     }
   }
 }

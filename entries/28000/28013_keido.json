@@ -3,7 +3,7 @@
   "headword": "軽度",
   "reading": "けいど",
   "romaji": "keido",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "mild; slight; minor (in degree)",
   "definitions": [
     {
@@ -44,8 +44,17 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {軽|けい} (light) + {度|ど} (degree). Most common in medical and clinical contexts. Used attributively with の: {軽度|けいど}の〜.\n\nCOMMON COLLOCATIONS:\n- {軽度|けいど}の{症状|しょうじょう}: mild symptoms\n- {軽度|けいど}の{障害|しょうがい}: a mild disability\n- {軽度|けいど}の{認知症|にんちしょう}: mild dementia\n\nANTONYMS:\n- {重度|じゅうど}: severe (degree)\n- {中度|ちゅうど} / {中等度|ちゅうとうど}: moderate (degree)",
+  "notes": "Composed of {軽|けい} (light) + {度|ど} (degree). Most common in medical and clinical contexts. Used attributively with の: {軽度|けいど}の〜.\n\nCOMMON COLLOCATIONS:\n- {軽度|けいど}の{症状|しょうじょう}: mild symptoms\n- {軽度|けいど}の{障害|しょうがい}: a mild disability\n- {軽度|けいど}の{認知症|にんちしょう}: mild dementia\n\nSIMILAR WORDS:\n- {重度|じゅうど}: severe (degree)\n- {中度|ちゅうど} / {中等度|ちゅうとうど}: moderate (degree)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28683_juudo",
+      "reading": "じゅうど",
+      "headword": "{重度|じゅうど}",
+      "label": "severe"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +63,7 @@
         "adjective-no"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "quantity",
         "health"
@@ -62,6 +71,6 @@
       "domain": []
     },
     "created": "2026-05-24T03:09:30Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

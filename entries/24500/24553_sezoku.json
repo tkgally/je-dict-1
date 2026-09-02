@@ -4,7 +4,7 @@
   "headword": "{世俗|せぞく}",
   "reading": "せぞく",
   "romaji": "sezoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "worldly; secular; mundane",
   "definitions": [
     {
@@ -81,10 +81,25 @@
     }
   ],
   "notes": "Composed of {世|せ} (world) and {俗|ぞく} (customs/common). Can function both as a noun meaning 'the secular world' and as a modifier (with {的|てき} or の) meaning 'worldly/secular'. Often contrasted with religious or spiritual life, particularly in Buddhist contexts where it represents the ordinary world that monks leave behind.\n\nCOMMON COLLOCATIONS:\n- {世俗|せぞく}{的|てき}な: secular, worldly (adjectival form)\n- {世俗|せぞく}を{離|はな}れる: to leave the secular world\n- {世俗|せぞく}の{欲|よく}: worldly desires\n- {世俗|せぞく}{権力|けんりょく}: secular power/authority\n- {世俗|せぞく}{主義|しゅぎ}: secularism\n\nSIMILAR WORDS:\n- {俗世|ぞくせ}: the secular world — same meaning, reversed character order\n- {現世|げんせ}: this world, the present life — Buddhist term contrasting with the afterlife\n- {世間|せけん}: the world, society — everyday term for public opinion and social norms",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20421_gense",
+      "reading": "げんせ",
+      "headword": "{現世|げんせ}",
+      "label": "this world, the present life"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03299_seken",
+      "reading": "せけん",
+      "headword": "{世間|せけん}",
+      "label": "the world, society"
+    }
+  ],
   "metadata": {
     "created": "2026-04-19T14:17:46Z",
-    "modified": "2026-04-19T14:17:46Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

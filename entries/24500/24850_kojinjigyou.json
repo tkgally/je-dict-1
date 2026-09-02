@@ -17,7 +17,9 @@
       "id": "24850_kojinjigyou_ex1",
       "japanese": "{個人事業|こじんじぎょう}を{始|はじ}めた。",
       "english": "I started a sole proprietorship.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24850_kojinjigyou_ex2",
       "japanese": "{個人事業|こじんじぎょう}の{届出|とどけで}を{税務署|ぜいむしょ}に{出|だ}す{必要|ひつよう}がある。",
       "english": "You need to file a sole proprietorship registration with the tax office.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,55 @@
       "id": "24850_kojinjigyou_ex3",
       "japanese": "フリーランスとして{働|はたら}く{場合|ばあい}、{多|おお}くの{人|ひと}が{個人事業|こじんじぎょう}{主|ぬし}として{確定申告|かくていしんこく}をする。",
       "english": "When working as a freelancer, many people file tax returns as a sole proprietor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {個人|こじん} (individual) + {事業|じぎょう} (business). This is a formal legal and tax term in Japan. A person running a {個人事業|こじんじぎょう} is called a {個人事業主|こじんじぎょうぬし} (sole proprietor).\n\nCOMMON COLLOCATIONS:\n- {個人事業主|こじんじぎょうぬし}: sole proprietor\n- {個人事業|こじんじぎょう}の{開業届|かいぎょうとどけ}: business opening notification\n- {個人事業|こじんじぎょう}を{始|はじ}める: to start a sole proprietorship\n- {個人事業|こじんじぎょう}{税|ぜい}: individual business tax\n\nSIMILAR WORDS:\n- {自営業|じえいぎょう}: self-employment — more general and everyday term for working for oneself\n- {法人|ほうじん}: corporation — a legally incorporated entity, contrasted with {個人事業|こじんじぎょう}\n- フリーランス: freelancer — describes the work style rather than the legal business structure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15723_jieigyou",
+      "reading": "じえいぎょう",
+      "headword": "{自営業|じえいぎょう}",
+      "label": "self-employment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13298_houjin",
+      "reading": "ほうじん",
+      "headword": "{法人|ほうじん}",
+      "label": "corporation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06152_furiiransu",
+      "reading": "ふりーらんす",
+      "headword": "フリーランス",
+      "label": "freelancer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business", "legal"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business",
+        "legal"
+      ]
     },
     "created": "2026-04-21T10:25:37Z",
-    "modified": "2026-04-21T10:25:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

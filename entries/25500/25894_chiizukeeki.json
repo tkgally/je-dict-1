@@ -17,7 +17,9 @@
       "id": "25894_chiizukeeki_ex1",
       "japanese": "チーズケーキを{一|ひと}つください。",
       "english": "One cheesecake, please.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25894_chiizukeeki_ex2",
       "japanese": "このカフェのチーズケーキは{濃厚|のうこう}で{美味|おい}しい。",
       "english": "This café's cheesecake is rich and delicious.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "25894_chiizukeeki_ex3",
       "japanese": "{誕生日|たんじょうび}に{手作|てづく}りのチーズケーキを{焼|や}いてプレゼントした。",
       "english": "I baked a homemade cheesecake as a birthday present.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -53,16 +59,36 @@
       "reading": "けーき",
       "headword": "ケーキ",
       "label": "cake (compound base)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27694_shootokeeki",
+      "reading": "しょーとけーき",
+      "headword": "ショートケーキ",
+      "label": "shortcake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27311_taruto",
+      "reading": "たると",
+      "headword": "タルト",
+      "label": "tart"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-28T11:25:22Z",
-    "modified": "2026-05-09T00:37:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

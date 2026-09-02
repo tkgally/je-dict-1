@@ -9,7 +9,7 @@
     {
       "sense_number": 1,
       "gloss": "apple orchard",
-      "explanation": "An orchard where apples are grown commercially. Common throughout the apple-producing regions of Japan, especially Aomori, Nagano, and Iwate. Often appears in tourism contexts, since many orchards offer pick-your-own apple experiences ({りんご{狩|が}り}) in the autumn harvest season."
+      "explanation": "An orchard where apples are grown commercially. Common throughout the apple-producing regions of Japan, especially Aomori, Nagano, and Iwate. Often appears in tourism contexts, since many orchards offer pick-your-own apple experiences (りんご{狩|が}り) in the autumn harvest season."
     }
   ],
   "examples": [
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Compound of りんご ('apple') and the suffix {園|えん} ('garden; orchard; plantation'), commonly attached to fruit names to denote orchards: also seen in {ぶどう{園|えん}} ('vineyard'), {みかん{園|えん}} ('mandarin orange grove'), {梨|なし}{園|えん} ('pear orchard'). The headword is usually written with りんご in kana, though the kanji {林檎|りんご} also appears.\n\nUSAGE:\n- Strongly associated with northern Japan, especially Aomori (Japan's leading apple producer) and Nagano.\n- Many orchards are open to the public during the autumn harvest for {りんご{狩|が}り} ('apple picking'), making the word common in tourism brochures and seasonal news.\n- Other plantation suffixes are: {園|えん} (general, for fruit/flower farms), {農園|のうえん} (a working farm garden), {果樹園|かじゅえん} (fruit orchard, more general).\n\nCOMMON COLLOCATIONS:\n- りんご{園|えん}を{経営|けいえい}する: to run an apple orchard\n- りんご{園|えん}を{訪|おとず}れる: to visit an apple orchard\n- {広|ひろ}いりんご{園|えん}: a vast apple orchard\n- りんご{園|えん}でりんご{狩|が}り: apple picking at an orchard\n- {家族|かぞく}{経営|けいえい}のりんご{園|えん}: a family-run apple orchard\n\nSIMILAR WORDS:\n- {果樹園|かじゅえん}: fruit orchard — general term for any orchard.\n- {ぶどう{園|えん}}: vineyard — same suffix pattern but for grapes.\n- {農園|のうえん}: farm; plantation — broader term for a cultivated farm or garden, including fruit, vegetables, and flowers.\n- {林檎農家|りんごのうか}: apple farmer / apple-growing household — refers to the people, not the place.\n- りんご{狩|が}り: apple picking — the seasonal activity at a りんご{園|えん}.",
+  "notes": "Compound of りんご ('apple') and the suffix {園|えん} ('garden; orchard; plantation'), commonly attached to fruit names to denote orchards: also seen in ぶどう{園|えん} ('vineyard'), みかん{園|えん} ('mandarin orange grove'), {梨|なし}{園|えん} ('pear orchard'). The headword is usually written with りんご in kana, though the kanji {林檎|りんご} also appears.\n\nUSAGE:\n- Strongly associated with northern Japan, especially Aomori (Japan's leading apple producer) and Nagano.\n- Many orchards are open to the public during the autumn harvest for りんご{狩|が}り ('apple picking'), making the word common in tourism brochures and seasonal news.\n- Other plantation suffixes are: {園|えん} (general, for fruit/flower farms), {農園|のうえん} (a working farm garden), {果樹園|かじゅえん} (fruit orchard, more general).\n\nCOMMON COLLOCATIONS:\n- りんご{園|えん}を{経営|けいえい}する: to run an apple orchard\n- りんご{園|えん}を{訪|おとず}れる: to visit an apple orchard\n- {広|ひろ}いりんご{園|えん}: a vast apple orchard\n- りんご{園|えん}でりんご{狩|が}り: apple picking at an orchard\n- {家族|かぞく}{経営|けいえい}のりんご{園|えん}: a family-run apple orchard\n\nSIMILAR WORDS:\n- {果樹園|かじゅえん}: fruit orchard — general term for any orchard.\n- ぶどう{園|えん}: vineyard — same suffix pattern but for grapes.\n- {農園|のうえん}: farm; plantation — broader term for a cultivated farm or garden, including fruit, vegetables, and flowers.\n- {林檎農家|りんごのうか}: apple farmer / apple-growing household — refers to the people, not the place.\n- りんご{狩|が}り: apple picking — the seasonal activity at a りんご{園|えん}.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06472_kajuen",
+      "reading": "かじゅえん",
+      "headword": "{果樹園|かじゅえん}",
+      "label": "fruit orchard"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26824_nouen",
+      "reading": "のうえん",
+      "headword": "{農園|のうえん}",
+      "label": "farm"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27924_ringogari",
+      "reading": "りんごがり",
+      "headword": "りんご{狩|が}り",
+      "label": "apple picking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24042_ringonouka",
+      "reading": "りんごのうか",
+      "headword": "りんご{農家|のうか}",
+      "label": "apple farmer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -65,6 +95,6 @@
       ]
     },
     "created": "2026-04-15T21:02:35Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

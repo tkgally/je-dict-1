@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{扱|あつか}う is a godan verb meaning to handle, treat, or deal with something or someone.\n\nTRANSITIVITY:\nTransitive verb (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧). Takes ⟦を→を：00422_wo⟧ particle.\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{扱|あつか}う: to handle/deal with ~\n- 〜{扱|あつか}い⟦する→する：00392_suru⟧: to treat as ~ (e.g., ⟦{子供|こども}→子供：00554_kodomo⟧{扱|あつか}い⟦する→する：00392_suru⟧)\n- ⟦{取|と}り{扱|あつか}う→取り扱う：06162_toriatsukau⟧: to handle, manage (compound verb)\n- ⟦{丁寧|ていねい}→丁寧：00896_teinei⟧⟦に→に：00314_ni⟧{扱|あつか}う: to handle carefully\n\nRELATED TERMS:\n- ⟦{取|と}り{扱|あつか}い→取り扱い：09806_toriatsukai⟧: handling, treatment, service\n- {扱|あつか}い⟦{方|かた}→方：10665_kata⟧: way of handling\n- ⟦{取扱|とりあつかい}{説明書|せつめいしょ}→取扱説明書：10278_toriatsukaisetsumeisho⟧: instruction manual\n\nASPECT (ている):\n- {扱|あつか}っている: handles, deals in, carries (habitual/ongoing — describes what a business or person regularly deals with)\n- Note: For shops and businesses, {扱|あつか}っている is the standard form for describing what they sell or handle. ⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧⟦{輸入品|ゆにゅうひん}→輸入品：11505_yunyuuhin⟧⟦を→を：00422_wo⟧{扱|あつか}っています = 'this shop deals in imported goods.' For a momentary act of handling, use plain {扱|あつか}う or the て form.",
+  "notes": "{扱|あつか}う is a godan verb meaning to handle, treat, or deal with something or someone.\n\nTRANSITIVITY:\nTransitive verb (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧). Takes ⟦を→を：00422_wo⟧ particle.\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{扱|あつか}う: to handle/deal with ~\n- 〜{扱|あつか}い⟦する→する：00392_suru⟧: to treat as ~ (e.g., ⟦{子供|こども}→子供：00554_kodomo⟧{扱|あつか}い⟦する→する：00392_suru⟧)\n- ⟦{取|と}り{扱|あつか}う→取り扱う：06162_toriatsukau⟧: to handle, manage (compound verb)\n- ⟦{丁寧|ていねい}→丁寧：00896_teinei⟧⟦に→に：00314_ni⟧{扱|あつか}う: to handle carefully\n\nRELATED WORDS:\n- ⟦{取|と}り{扱|あつか}い→取り扱い：09806_toriatsukai⟧: handling, treatment, service\n- {扱|あつか}い⟦{方|かた}→方：10665_kata⟧: way of handling\n- ⟦{取扱|とりあつかい}{説明書|せつめいしょ}→取扱説明書：10278_toriatsukaisetsumeisho⟧: instruction manual\n\nASPECT (ている):\n- {扱|あつか}っている: handles, deals in, carries (habitual/ongoing — describes what a business or person regularly deals with)\n- Note: For shops and businesses, {扱|あつか}っている is the standard form for describing what they sell or handle. ⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧⟦{輸入品|ゆにゅうひん}→輸入品：11505_yunyuuhin⟧⟦を→を：00422_wo⟧{扱|あつか}っています = 'this shop deals in imported goods.' For a momentary act of handling, use plain {扱|あつか}う or the て form.",
   "prominent_see_also": [
     {
       "target_id": "12777_atsukai",
@@ -142,10 +142,46 @@
       "note": "noun form"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09806_toriatsukai",
+      "reading": "とりあつかい",
+      "headword": "{取|と}り{扱|あつか}い",
+      "label": "handling, treatment, service"
+    },
+    {
+      "type": "related",
+      "target_id": "21915_atsukaikata",
+      "reading": "あつかいかた",
+      "headword": "{扱|あつか}い{方|かた}",
+      "label": "way of handling"
+    },
+    {
+      "type": "related",
+      "target_id": "10278_toriatsukaisetsumeisho",
+      "reading": "とりあつかいせつめいしょ",
+      "headword": "{取扱説明書|とりあつかいせつめいしょ}",
+      "label": "instruction manual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18999_sousasuru",
+      "reading": "そうさする",
+      "headword": "{操作|そうさ}する",
+      "label": "to operate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25531_shorisuru",
+      "reading": "しょりする",
+      "headword": "{処理|しょり}する",
+      "label": "to handle"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:04:06Z",
-    "modified": "2026-05-17T15:19:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

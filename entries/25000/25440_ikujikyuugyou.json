@@ -17,7 +17,9 @@
       "id": "25440_ikujikyuugyou_ex1",
       "japanese": "{育児|いくじ}{休業|きゅうぎょう}を{取|と}る。",
       "english": "To take childcare leave.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25440_ikujikyuugyou_ex2",
       "japanese": "{男性|だんせい}の{育児|いくじ}{休業|きゅうぎょう}{取得|しゅとく}{率|りつ}が{上|あ}がっている。",
       "english": "The rate of men taking childcare leave is increasing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "25440_ikujikyuugyou_ex3",
       "japanese": "{育児|いくじ}{休業|きゅうぎょう}{中|ちゅう}は{雇用|こよう}{保険|ほけん}から{給付|きゅうふ}{金|きん}が{支給|しきゅう}される。",
       "english": "During childcare leave, benefits are paid from employment insurance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,20 +47,51 @@
       "id": "25440_ikujikyuugyou_ex4",
       "japanese": "{彼女|かのじょ}は{出産|しゅっさん}{後|ご}、{育児|いくじ}{休業|きゅうぎょう}を{取得|しゅとく}して{子育|こそだ}てに{専念|せんねん}した。",
       "english": "After giving birth, she took childcare leave and devoted herself to raising her child.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {育児|いくじ} (childcare) and {休業|きゅうぎょう} (leave from work). Often abbreviated to {育休|いくきゅう} in everyday conversation.\n\nJapan's Childcare and Family Care Leave Act ({育児|いくじ}・{介護|かいご}{休業|きゅうぎょう}{法|ほう}) guarantees employees the right to take leave until their child turns one year old, with extensions possible up to two years.\n\nCOMMON COLLOCATIONS:\n- {育児|いくじ}{休業|きゅうぎょう}を{取|と}る: to take childcare leave\n- {育児|いくじ}{休業|きゅうぎょう}{取得|しゅとく}{率|りつ}: childcare leave uptake rate\n- {育児|いくじ}{休業|きゅうぎょう}{給付|きゅうふ}{金|きん}: childcare leave benefits\n- {育児|いくじ}{休業|きゅうぎょう}{中|ちゅう}: during childcare leave\n- {男性|だんせい}{育児|いくじ}{休業|きゅうぎょう}: paternity leave\n\nCULTURAL CONTEXT:\nWhile Japan has had generous childcare leave provisions on paper for decades, actual uptake by fathers has historically been very low. Government campaigns to encourage male {育休|いくきゅう} have gained momentum in recent years, and the rate has been rising steadily.\n\nSIMILAR WORDS:\n- {育休|いくきゅう}: childcare leave (abbreviation) — the casual, everyday form\n- {産休|さんきゅう}: maternity leave — specifically the period around childbirth\n- {介護|かいご}{休業|きゅうぎょう}: family care leave — leave for caring for elderly or ill family members",
+  "notes": "A compound of {育児|いくじ} (childcare) and {休業|きゅうぎょう} (leave from work). Often abbreviated to {育休|いくきゅう} in everyday conversation.\n\nJapan's Childcare and Family Care Leave Act ({育児|いくじ}・{介護|かいご}{休業|きゅうぎょう}{法|ほう}) guarantees employees the right to take leave until their child turns one year old, with extensions possible up to two years.\n\nCOMMON COLLOCATIONS:\n- {育児|いくじ}{休業|きゅうぎょう}を{取|と}る: to take childcare leave\n- {育児|いくじ}{休業|きゅうぎょう}{取得|しゅとく}{率|りつ}: childcare leave uptake rate\n- {育児|いくじ}{休業|きゅうぎょう}{給付|きゅうふ}{金|きん}: childcare leave benefits\n- {育児|いくじ}{休業|きゅうぎょう}{中|ちゅう}: during childcare leave\n- {男性|だんせい}{育児|いくじ}{休業|きゅうぎょう}: paternity leave\n\nCULTURAL NOTE:\nWhile Japan has had generous childcare leave provisions on paper for decades, actual uptake by fathers has historically been very low. Government campaigns to encourage male {育休|いくきゅう} have gained momentum in recent years, and the rate has been rising steadily.\n\nSIMILAR WORDS:\n- {育休|いくきゅう}: childcare leave (abbreviation) — the casual, everyday form\n- {産休|さんきゅう}: maternity leave — specifically the period around childbirth\n- {介護|かいご}{休業|きゅうぎょう}: family care leave — leave for caring for elderly or ill family members",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08565_ikukyuu",
+      "reading": "いくきゅう",
+      "headword": "{育休|いくきゅう}",
+      "label": "childcare leave"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06997_sankyuu",
+      "reading": "さんきゅう",
+      "headword": "{産休|さんきゅう}",
+      "label": "maternity leave"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23751_kaigokyuugyou",
+      "reading": "かいごきゅうぎょう",
+      "headword": "{介護休業|かいごきゅうぎょう}",
+      "label": "family care leave"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["work", "family"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "work",
+        "family"
+      ]
     },
     "created": "2026-04-25T13:29:21Z",
-    "modified": "2026-04-25T13:29:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

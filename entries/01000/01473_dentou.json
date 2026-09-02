@@ -64,10 +64,39 @@
     }
   ],
   "notes": "{電灯|でんとう} is a somewhat formal term for electric lights.\n\nCOMMON EXPRESSIONS:\n- {電灯|でんとう}⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to turn on the light\n- {電灯|でんとう}⟦を→を：00422_wo⟧⟦{消|け}す→消す：00528_kesu⟧: to turn off the light\n- {電灯|でんとう}⟦が→が：00051_ga⟧⟦{消|き}える→消える：02520_kieru⟧: the light goes out\n- ⟦{街灯|がいとう}→街灯：14025_gaitou⟧: street light\n\nSIMILAR WORDS:\n- ⟦{電気|でんき}→電気：09780_denki⟧: electricity, also commonly used for \"lights\" in casual speech\n- ⟦{明|あ}かり→明かり：01681_akari⟧: light, illumination (general term)\n- ⟦ライト→ライト：13631_raito⟧: light (loanword, often for specific fixtures)\n- ⟦{照明|しょうめい}→照明：03243_shoumei⟧: lighting, illumination (formal)\n\nNote: In casual speech, ⟦{電気|でんき}→電気：09780_denki⟧をつける is more common than {電灯|でんとう}をつける.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09780_denki",
+      "reading": "でんき",
+      "headword": "{電気|でんき}",
+      "label": "electricity, also commonly used…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01681_akari",
+      "reading": "あかり",
+      "headword": "{明|あ}かり",
+      "label": "light, illumination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13631_raito",
+      "reading": "らいと",
+      "headword": "ライト",
+      "label": "light"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03243_shoumei",
+      "reading": "しょうめい",
+      "headword": "{照明|しょうめい}",
+      "label": "lighting, illumination"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:53:52Z",
-    "modified": "2026-05-15T18:20:47Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -17,7 +17,9 @@
       "id": "23347_tatekaebarai_ex1",
       "japanese": "{交通|こうつう}{費|ひ}を{立替|たてか}え{払|ばら}いする。",
       "english": "To pay the transportation costs out of pocket (and be reimbursed later).",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23347_tatekaebarai_ex2",
       "japanese": "{会社|かいしゃ}の{経費|けいひ}を{立替|たてか}え{払|ばら}いして、{後|あと}で{精算|せいさん}する。",
       "english": "I pay for company expenses out of pocket and settle up later.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23347_tatekaebarai_ex3",
       "japanese": "{出張|しゅっちょう}の{際|さい}の{宿泊|しゅくはく}{費|ひ}は、{原則|げんそく}として{本人|ほんにん}の{立替|たてか}え{払|ばら}いになっている。",
       "english": "As a rule, accommodation costs during business trips are paid up front by the employee.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,7 +47,9 @@
       "id": "23347_tatekaebarai_ex4",
       "japanese": "{立替|たてか}え{払|ばら}いをした{分|ぶん}については、{領収書|りょうしゅうしょ}を{添|そ}えて{申請書|しんせいしょ}を{提出|ていしゅつ}してください。",
       "english": "For the amounts you have paid out of pocket, please submit a request form with the receipts attached.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -61,18 +69,44 @@
       "reading": "たてかえ",
       "headword": "{立替|たてか}え",
       "label": "noun: advance payment (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10899_seisan",
+      "reading": "せいさん",
+      "headword": "{精算|せいさん}",
+      "label": "settling accounts"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30208_keihiseisan",
+      "reading": "けいひせいさん",
+      "headword": "経費精算",
+      "label": "expense reimbursement / expense report"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30226_karibarai",
+      "reading": "かりばらい",
+      "headword": "{仮払|かりばら}い",
+      "label": "payment on account / advance…"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business", "money"]
+      "semantic": [
+        "business",
+        "money"
+      ]
     },
     "created": "2026-04-11T18:41:19Z",
-    "modified": "2026-06-08T14:06:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

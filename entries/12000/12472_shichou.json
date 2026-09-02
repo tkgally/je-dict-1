@@ -19,7 +19,9 @@
       "english": "A new mayor took office.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12472_shichou_ex2",
@@ -27,7 +29,9 @@
       "english": "The mayoral election will be held next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12472_shichou_ex3",
@@ -35,21 +39,35 @@
       "english": "The mayor announced a new disaster prevention plan at a press conference.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nJapanese local government heads have different titles depending on the type of municipality: {市長|しちょう} (city mayor), {町長|ちょうちょう} (town mayor), {村長|そんちょう} (village head), {区長|くちょう} (ward mayor). Together, these are collectively called {首長|しゅちょう} (head of a local government).\n\nCOMMON COLLOCATIONS:\n- {市長|しちょう}{選挙|せんきょ}: mayoral election\n- {市長|しちょう}{選|せん}: mayoral race\n- {副|ふく}{市長|しちょう}: vice mayor\n- {前|ぜん}{市長|しちょう}: former mayor",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22073_kenchiji",
+      "reading": "けんちじ",
+      "headword": "{県知事|けんちじ}",
+      "label": "prefectural governor"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T10:30:29Z",
-    "modified": "2026-02-21T10:30:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     }
   }
 }

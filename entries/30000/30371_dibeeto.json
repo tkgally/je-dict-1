@@ -3,7 +3,7 @@
   "headword": "ディベート",
   "reading": "でぃべーと",
   "romaji": "dibeeto",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "debate (formal, competitive)",
   "definitions": [
     {
@@ -65,6 +65,27 @@
       "type": "related",
       "reading": "ぎろん",
       "headword": "{議論|ぎろん}"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08371_kouron",
+      "reading": "こうろん",
+      "headword": "{口論|こうろん}",
+      "label": "quarrel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24557_benron",
+      "reading": "べんろん",
+      "headword": "{弁論|べんろん}",
+      "label": "oral argument"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25422_touronkai",
+      "reading": "とうろんかい",
+      "headword": "{討論会|とうろんかい}",
+      "label": "debate"
     }
   ],
   "schema_version": "2.0",
@@ -76,7 +97,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "communication",
         "education"
@@ -85,7 +106,7 @@
       "verb_class": "suru"
     },
     "created": "2026-08-03T18:24:04Z",
-    "modified": "2026-08-03T18:24:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

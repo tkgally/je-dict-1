@@ -43,12 +43,29 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {占領|せんりょう} (occupation, military seizure) + {地|ち} (land/territory). Refers to land controlled by a foreign military power or conquering force. Commonly encountered in history textbooks, news coverage of conflicts, and political discussions.\n\nCOMMON COLLOCATIONS:\n- {占領地|せんりょうち}の{統治|とうち}: governance of occupied territory\n- {占領地|せんりょうち}からの{撤退|てったい}: withdrawal from occupied territory\n- {占領地|せんりょうち}の{住民|じゅうみん}: residents of occupied territory\n- {占領地|せんりょうち}{行政|ぎょうせい}: occupied territory administration\n\nSIMILAR WORDS:\n- {占領区|せんりょうく}: occupied zone/sector (smaller administrative division within occupied territory)\n- {植民地|しょくみんち}: colony (territory exploited economically over a long period, not just militarily held)\n- {領土|りょうど}: territory (one's own sovereign territory; neutral term)\n\nHISTORICAL NOTE:\nIn Japanese history, the term is most associated with the post-WWII Allied occupation of Japan (1945-1952) and Japan's own wartime occupations in Asia.",
-  "cross_references": [],
+  "notes": "A compound of {占領|せんりょう} (occupation, military seizure) + {地|ち} (land/territory). Refers to land controlled by a foreign military power or conquering force. Commonly encountered in history textbooks, news coverage of conflicts, and political discussions.\n\nCOMMON COLLOCATIONS:\n- {占領地|せんりょうち}の{統治|とうち}: governance of occupied territory\n- {占領地|せんりょうち}からの{撤退|てったい}: withdrawal from occupied territory\n- {占領地|せんりょうち}の{住民|じゅうみん}: residents of occupied territory\n- {占領地|せんりょうち}{行政|ぎょうせい}: occupied territory administration\n\nSIMILAR WORDS:\n- {占領区|せんりょうく}: occupied zone/sector (smaller administrative division within occupied territory)\n- {植民地|しょくみんち}: colony (territory exploited economically over a long period, not just militarily held)\n- {領土|りょうど}: territory (one's own sovereign territory; neutral term)\n\nETYMOLOGY:\nIn Japanese history, the term is most associated with the post-WWII Allied occupation of Japan (1945-1952) and Japan's own wartime occupations in Asia.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16073_shokuminchi",
+      "reading": "しょくみんち",
+      "headword": "{植民地|しょくみんち}",
+      "label": "colony"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15711_ryoudo",
+      "reading": "りょうど",
+      "headword": "{領土|りょうど}",
+      "label": "territory (one's own sovereign territory"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "politics",
         "military",
@@ -59,6 +76,6 @@
       ]
     },
     "created": "2026-04-30T14:24:08Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

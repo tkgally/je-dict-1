@@ -3,7 +3,7 @@
   "headword": "{立体視|りったいし}",
   "reading": "りったいし",
   "romaji": "rittaishi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "stereoscopic vision; seeing in 3D",
   "definitions": [
     {
@@ -46,6 +46,15 @@
   ],
   "notes": "Compound of {立体|りったい} (three-dimensional solid) + {視|し} (vision, viewing). It takes する to form a verb ({立体視|りったいし}する, to view in 3D). The brain creates the sense of depth from the slight difference between the two eyes' images ({視差|しさ}, parallax).\n\nCOMMON COLLOCATIONS:\n- {立体視|りったいし}する: to view stereoscopically\n- {立体視|りったいし}{画像|がぞう}: a stereoscopic image\n\nSIMILAR WORDS:\n- {遠近感|えんきんかん}: sense of depth, perspective — the perceived effect\n- {両眼視|りょうがんし}: binocular vision — using both eyes together (more technical)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27663_enkinkan",
+      "reading": "えんきんかん",
+      "headword": "{遠近感|えんきんかん}",
+      "label": "sense of depth, perspective"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -56,7 +65,7 @@
       "transitivity": null,
       "verb_class": "suru",
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "cognition",
         "science"
@@ -66,7 +75,7 @@
       ]
     },
     "created": "2026-05-25T03:05:12Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

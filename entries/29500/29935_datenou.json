@@ -17,7 +17,9 @@
       "id": "29935_datenou_ex1",
       "japanese": "{彼|かれ}は{今年|ことし}の{打点|だてん}{王|おう}だ。",
       "english": "He is this year's RBI leader.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29935_datenou_ex2",
       "japanese": "{打点|だてん}{王|おう}のタイトルを{取|と}る。",
       "english": "To win the RBI title.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "29935_datenou_ex3",
       "japanese": "{四番|よんばん}{打者|だしゃ}が{百|ひゃく}{打点|だてん}を{超|こ}えて{打点|だてん}{王|おう}に{輝|かがや}いた。",
       "english": "The cleanup hitter surpassed 100 RBIs to claim the RBI title.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {打点|だてん} (runs batted in, RBI) + {王|おう} (king). The title awarded to the player with the most RBIs in a season.\n\nRELATED TITLES:\n- {首位|しゅい}{打者|だしゃ}: batting champion\n- {本塁打|ほんるいだ}{王|おう}: home run leader\n- {盗塁|とうるい}{王|おう}: stolen base leader",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "26604_shuidasha",
+      "reading": "しゅいだしゃ",
+      "headword": "{首位|しゅい}{打者|だしゃ}",
+      "label": "batting champion"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports"],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-07-18T06:23:31Z",
-    "modified": "2026-07-18T06:23:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

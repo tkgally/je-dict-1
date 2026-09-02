@@ -22,7 +22,10 @@
       "id": "21085_honsuji_ex1",
       "japanese": "{本筋|ほんすじ}に{戻|もど}ろう。",
       "english": "Let's get back to the main point.",
-      "sense_numbers": [1, 2],
+      "sense_numbers": [
+        1,
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +33,9 @@
       "id": "21085_honsuji_ex2",
       "japanese": "{映画|えいが}の{本筋|ほんすじ}はシンプルだ。",
       "english": "The main plot of the movie is simple.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +43,9 @@
       "id": "21085_honsuji_ex3",
       "japanese": "サブストーリーが{多|おお}すぎて{本筋|ほんすじ}が{見|み}えなくなっている。",
       "english": "There are too many subplots and the main storyline has become unclear.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +53,9 @@
       "id": "21085_honsuji_ex4",
       "japanese": "それは{本筋|ほんすじ}からずれている。",
       "english": "That's straying from the main point.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +63,9 @@
       "id": "21085_honsuji_ex5",
       "japanese": "{問題|もんだい}を{解決|かいけつ}するには、{本筋|ほんすじ}から{考|かんが}えるべきだ。",
       "english": "To solve the problem, we should think from the fundamental perspective.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +73,51 @@
       "id": "21085_honsuji_ex6",
       "japanese": "{議論|ぎろん}が{本筋|ほんすじ}からそれて、{関係|かんけい}のない{話題|わだい}に{移|うつ}ってしまった。",
       "english": "The discussion strayed from the main point and shifted to an unrelated topic.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {本|ほん} (main, true) and {筋|すじ} (line, thread, plot) to mean the central thread — either the main plot of a story or the core point/proper approach in a discussion or endeavor.\n\nCOMMON COLLOCATIONS:\n- {本筋|ほんすじ}に{戻|もど}る: to return to the main point\n- {本筋|ほんすじ}からそれる: to stray from the main point\n- {本筋|ほんすじ}からずれる: to deviate from the main topic\n- {本筋|ほんすじ}から{考|かんが}える: to think from the fundamental perspective\n\nSIMILAR WORDS:\n- {要点|ようてん}: main point, gist — focuses on the key facts or argument to be communicated\n- {主題|しゅだい}: theme, subject — the overarching topic or theme of a work\n- {筋道|すじみち}: logic, reasoning — the logical flow or proper sequence of thought",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01668_youten",
+      "reading": "ようてん",
+      "headword": "{要点|ようてん}",
+      "label": "main point, gist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11545_shudai",
+      "reading": "しゅだい",
+      "headword": "{主題|しゅだい}",
+      "label": "theme, subject"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18257_sujimichi",
+      "reading": "すじみち",
+      "headword": "{筋道|すじみち}",
+      "label": "logic, reasoning"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-03-31T17:13:22Z",
-    "modified": "2026-03-31T17:13:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

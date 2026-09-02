@@ -17,7 +17,9 @@
       "id": "25959_atojie_ex1",
       "japanese": "それは{後知恵|あとぢえ}だ。",
       "english": "That's hindsight.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25959_atojie_ex2",
       "japanese": "{後知恵|あとぢえ}で{批判|ひはん}するのは{簡単|かんたん}だ。",
       "english": "It's easy to criticize with hindsight.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,37 @@
       "id": "25959_atojie_ex3",
       "japanese": "{後知恵|あとぢえ}にすぎないが、あのとき{別|べつ}の{道|みち}を{選|えら}ぶべきだった。",
       "english": "It's nothing but hindsight, but I should have chosen a different path at that time.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {後|あと} (after) and {知恵|ちえ} (wisdom). Refers to the tendency to see past events as having been predictable, or to realize the correct course of action only after the opportunity has passed. Often used critically to point out that someone's advice or analysis is only useful in retrospect.\n\nCOMMON COLLOCATIONS:\n- {後知恵|あとぢえ}にすぎない: nothing but hindsight\n- {後知恵|あとぢえ}で{言|い}う: to say with hindsight\n- {後知恵|あとぢえ}バイアス: hindsight bias\n\nSIMILAR WORDS:\n- {結果論|けっかろん}: arguing from results — similar concept but emphasizes judging decisions based solely on outcomes\n- {先見|せんけん}の{明|めい}: foresight — the opposite quality, the ability to predict future events",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19677_senkennomei",
+      "reading": "せんけんのめい",
+      "headword": "{先見|せんけん}の{明|めい}",
+      "label": "foresight"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["cognition"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "cognition"
+      ]
     },
     "created": "2026-04-28T14:07:42Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "22047_shiyoukigen_ex1",
       "japanese": "{使用期限|しようきげん}を{確認|かくにん}する。",
       "english": "To check the use-by date.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22047_shiyoukigen_ex2",
       "japanese": "この{薬|くすり}は{使用期限|しようきげん}が{切|き}れている。",
       "english": "This medicine is past its expiration date.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "22047_shiyoukigen_ex3",
       "japanese": "{使用期限|しようきげん}を{過|す}ぎた{化粧品|けしょうひん}は{肌|はだ}トラブルの{原因|げんいん}になることがある。",
       "english": "Cosmetics that are past their use-by date can cause skin problems.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {使用|しよう} (use) and {期限|きげん} (deadline, time limit). Refers to the last date a product should be used, as opposed to the date it should be consumed.\n\nCOMMON COLLOCATIONS:\n- {使用期限|しようきげん}が{切|き}れる: to expire (use-by date)\n- {使用期限|しようきげん}を{過|す}ぎる: to go past the use-by date\n- {使用期限|しようきげん}を{確認|かくにん}する: to check the use-by date\n- {使用期限|しようきげん}{内|ない}: within the use-by date\n\nSIMILAR WORDS:\n- {賞味期限|しょうみきげん}: best-before date — for food; indicates when quality is best, not safety\n- {消費期限|しょうひきげん}: expiration date (for consumption) — for perishable food; a safety deadline\n- {有効期限|ゆうこうきげん}: expiration date (for validity) — for licenses, passes, contracts, etc.\n\nNOTE:\nIn Japan, {使用期限|しようきげん} is most commonly found on medicine packaging and cosmetics. It is distinct from the food-related terms {賞味期限|しょうみきげん} and {消費期限|しょうひきげん}.",
+  "notes": "Composed of {使用|しよう} (use) and {期限|きげん} (deadline, time limit). Refers to the last date a product should be used, as opposed to the date it should be consumed.\n\nCOMMON COLLOCATIONS:\n- {使用期限|しようきげん}が{切|き}れる: to expire (use-by date)\n- {使用期限|しようきげん}を{過|す}ぎる: to go past the use-by date\n- {使用期限|しようきげん}を{確認|かくにん}する: to check the use-by date\n- {使用期限|しようきげん}{内|ない}: within the use-by date\n\nSIMILAR WORDS:\n- {賞味期限|しょうみきげん}: best-before date — for food; indicates when quality is best, not safety\n- {消費期限|しょうひきげん}: expiration date (for consumption) — for perishable food; a safety deadline\n- {有効期限|ゆうこうきげん}: expiration date (for validity) — for licenses, passes, contracts, etc.\n\nUSAGE:\nIn Japan, {使用期限|しようきげん} is most commonly found on medicine packaging and cosmetics. It is distinct from the food-related terms {賞味期限|しょうみきげん} and {消費期限|しょうひきげん}.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06076_shoumikigen",
+      "reading": "しょうみきげん",
+      "headword": "{賞味期限|しょうみきげん}",
+      "label": "best-before date"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06077_shouhikigen",
+      "reading": "しょうひきげん",
+      "headword": "{消費期限|しょうひきげん}",
+      "label": "expiration date"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06415_yuukoukigen",
+      "reading": "ゆうこうきげん",
+      "headword": "{有効期限|ゆうこうきげん}",
+      "label": "expiration date"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21308_taiyounensuu",
+      "reading": "たいようねんすう",
+      "headword": "{耐用年数|たいようねんすう}",
+      "label": "service life"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life"]
+      "semantic": [
+        "daily-life"
+      ]
     },
     "created": "2026-04-04T21:17:07Z",
-    "modified": "2026-04-04T21:17:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

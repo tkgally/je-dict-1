@@ -17,7 +17,9 @@
       "id": "23438_tenkoufuryou_ex1",
       "japanese": "{天候不良|てんこうふりょう}のため{中止|ちゅうし}です。",
       "english": "It is canceled due to bad weather.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23438_tenkoufuryou_ex2",
       "japanese": "{天候不良|てんこうふりょう}により、{便|びん}が{欠航|けっこう}になった。",
       "english": "The flight was canceled due to inclement weather.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "23438_tenkoufuryou_ex3",
       "japanese": "{天候不良|てんこうふりょう}が{続|つづ}いたため、{農作物|のうさくもつ}に{大|おお}きな{被害|ひがい}が{出|で}た。",
       "english": "Because of the continued bad weather, the crops suffered significant damage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A formal compound of {天候|てんこう} (weather) and {不良|ふりょう} (poor, defective). Primarily used in official announcements, news reports, and signage to explain cancellations or delays.\n\nCOMMON COLLOCATIONS:\n- {天候不良|てんこうふりょう}のため: due to bad weather\n- {天候不良|てんこうふりょう}により: on account of adverse weather\n- {天候不良|てんこうふりょう}が{予想|よそう}される: bad weather is expected\n- {天候不良|てんこうふりょう}の{影響|えいきょう}: the effects of bad weather\n\nSIMILAR WORDS:\n- {悪天候|あくてんこう}: bad weather — also formal, slightly more common in news reporting\n- {荒天|こうてん}: stormy weather — implies more severe conditions (strong wind, heavy rain)\n- {天気|てんき}が{悪|わる}い: the weather is bad — casual everyday expression\n\nUSAGE:\nYou will see this on signs at airports, train stations, and event venues. The pattern 〜のため{中止|ちゅうし} (canceled due to ~) or 〜により{延期|えんき} (postponed due to ~) is extremely common.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16184_akutenkou",
+      "reading": "あくてんこう",
+      "headword": "{悪天候|あくてんこう}",
+      "label": "bad weather"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16432_kouten",
+      "reading": "こうてん",
+      "headword": "{荒天|こうてん}",
+      "label": "stormy weather"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     },
     "created": "2026-04-12T06:53:21Z",
-    "modified": "2026-04-12T06:53:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

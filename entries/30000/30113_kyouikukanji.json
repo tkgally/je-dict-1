@@ -46,6 +46,29 @@
   ],
   "notes": "Also called {学習漢字|がくしゅうかんじ}. The grade assignment is the {学年別|がくねんべつ}{漢字|かんじ}{配当表|はいとうひょう}, which is why Japanese materials often label a kanji as \"grade 3\" or \"grade 5\".\n\nCOMMON COLLOCATIONS:\n- {教育漢字|きょういくかんじ}を{習|なら}う: to learn the elementary-school kanji\n- {教育漢字|きょういくかんじ}だけの{文章|ぶんしょう}: text using only elementary-school kanji\n- {学年別|がくねんべつ}{漢字|かんじ}{配当表|はいとうひょう}: the grade-by-grade kanji allocation table\n\nSIMILAR WORDS:\n- {常用漢字|じょうようかんじ}: general-use kanji — the wider adult list that includes all the {教育漢字|きょういくかんじ}\n- {人名用漢字|じんめいようかんじ}: name kanji — an additional list usable only in personal names",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20778_jouyoukanji",
+      "reading": "じょうようかんじ",
+      "headword": "{常用漢字|じょうようかんじ}",
+      "label": "general-use kanji"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30112_jinmeiyoukanji",
+      "reading": "じんめいようかんじ",
+      "headword": "{人名用漢字|じんめいようかんじ}",
+      "label": "name kanji"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30127_gakushuukanji",
+      "reading": "がくしゅうかんじ",
+      "headword": "{学習漢字|がくしゅうかんじ}",
+      "label": "kanji taught in elementary school"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "language",
         "education"
@@ -61,6 +84,6 @@
       "domain": []
     },
     "created": "2026-07-25T18:20:39Z",
-    "modified": "2026-07-25T18:20:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

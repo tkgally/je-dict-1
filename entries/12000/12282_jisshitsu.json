@@ -24,7 +24,9 @@
       "english": "The actual value is low.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12282_jisshitsu_ex2",
@@ -32,7 +34,9 @@
       "english": "The nominal and the actual are different.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12282_jisshitsu_ex3",
@@ -40,7 +44,9 @@
       "english": "Real wages have not kept up with price increases, making life harder.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12282_jisshitsu_ex4",
@@ -48,7 +54,9 @@
       "english": "He is effectively the leader.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12282_jisshitsu_ex5",
@@ -56,7 +64,9 @@
       "english": "This proposal has been practically rejected.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12282_jisshitsu_ex6",
@@ -64,7 +74,9 @@
       "english": "The vice president effectively runs the company.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nSense 1 is common in economics: {実質|じっしつ}GDP ({実質|じっしつ}{国内総生産|こくないそうせいさん}), {実質|じっしつ}{賃金|ちんぎん} (real wages), {実質|じっしつ}{成長率|せいちょうりつ} (real growth rate). These contrast with {名目|めいもく} (nominal) values. Sense 2 is widely used in everyday conversation to mean \"in practice\" or \"for all intents and purposes.\"\n\nCOMMON COLLOCATIONS:\n- {実質|じっしつ}{的|てき}: substantial, practical, effective\n- {実質|じっしつ}{賃金|ちんぎん}: real wages\n- {実質|じっしつ}GDP: real GDP\n- {名目|めいもく}と{実質|じっしつ}: nominal vs. real\n- {実質|じっしつ}{無料|むりょう}: practically free",
@@ -75,19 +87,33 @@
       "reading": "めいもく",
       "headword": "{名目|めいもく}",
       "label": "nominal, in name only"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29801_meijitsu",
+      "reading": "めいじつ",
+      "headword": "{名実|めいじつ}",
+      "label": "name and reality"
     }
   ],
   "metadata": {
     "created": "2026-02-20T15:07:48Z",
-    "modified": "2026-04-26T09:20:33Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adverb"],
+      "pos": [
+        "noun",
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{緩徐|かんじょ}",
   "reading": "かんじょ",
   "romaji": "kanjo",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "slow; gradual; unhurried",
   "definitions": [
     {
@@ -54,8 +54,31 @@
       "notes": null
     }
   ],
-  "notes": "A formal, somewhat literary word describing slowness or gradual pace. Most commonly encountered in two specialized domains: classical music ({緩徐|かんじょ}{楽章|がくしょう} = slow movement) and medicine ({緩徐|かんじょ}に{進行|しんこう}する = to progress gradually). Not used in casual conversation.\n\nCOMMON COLLOCATIONS:\n- {緩徐|かんじょ}{楽章|がくしょう}: slow movement (in classical music)\n- {緩徐|かんじょ}な{進行|しんこう}: slow progression\n- {緩徐|かんじょ}に{進行|しんこう}する: to progress gradually\n- {緩徐|かんじょ}な{流|なが}れ: a gentle flow\n\nSIMILAR WORDS:\n- {緩|ゆる}やか: gentle, gradual — the most common everyday word for a gentle/slow pace\n- {遅|おそ}い: slow — basic, everyday term\n- ゆっくり: slowly, leisurely — adverb for doing things at a relaxed pace\n- {漸進的|ぜんしんてき}: gradual, progressive — formal, emphasizes step-by-step advancement\n\nFORMATION:\n{緩|かん} (loose, relaxed) + {徐|じょ} (slowly, gently) — both characters convey unhurried gentleness.",
+  "notes": "A formal, somewhat literary word describing slowness or gradual pace. Most commonly encountered in two specialized domains: classical music ({緩徐|かんじょ}{楽章|がくしょう} = slow movement) and medicine ({緩徐|かんじょ}に{進行|しんこう}する = to progress gradually). Not used in casual conversation.\n\nCOMMON COLLOCATIONS:\n- {緩徐|かんじょ}{楽章|がくしょう}: slow movement (in classical music)\n- {緩徐|かんじょ}な{進行|しんこう}: slow progression\n- {緩徐|かんじょ}に{進行|しんこう}する: to progress gradually\n- {緩徐|かんじょ}な{流|なが}れ: a gentle flow\n\nSIMILAR WORDS:\n- {緩|ゆる}やか: gentle, gradual — the most common everyday word for a gentle/slow pace\n- {遅|おそ}い: slow — basic, everyday term\n- ゆっくり: slowly, leisurely — adverb for doing things at a relaxed pace\n- {漸進的|ぜんしんてき}: gradual, progressive — formal, emphasizes step-by-step advancement\n\nFORMS:\n{緩|かん} (loose, relaxed) + {徐|じょ} (slowly, gently) — both characters convey unhurried gentleness.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13813_yuruyaka",
+      "reading": "ゆるやか",
+      "headword": "{緩|ゆる}やか",
+      "label": "gentle, gradual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00533_osoi",
+      "reading": "おそい",
+      "headword": "{遅|おそ}い",
+      "label": "slow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21964_zenshinteki",
+      "reading": "ぜんしんてき",
+      "headword": "{漸進的|ぜんしんてき}",
+      "label": "gradual, progressive"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -71,6 +94,6 @@
       ]
     },
     "created": "2026-04-18T16:31:30Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

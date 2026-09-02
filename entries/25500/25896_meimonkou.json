@@ -17,7 +17,9 @@
       "id": "25896_meimonkou_ex1",
       "japanese": "{息子|むすこ}を{名門校|めいもんこう}に{入|い}れたい。",
       "english": "I want to get my son into a prestigious school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25896_meimonkou_ex2",
       "japanese": "あの{名門校|めいもんこう}は{毎年|まいとし}{東大|とうだい}に{多|おお}くの{合格者|ごうかくしゃ}を{出|だ}す。",
       "english": "That prestigious school produces many successful Tokyo University applicants every year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,37 @@
       "id": "25896_meimonkou_ex3",
       "japanese": "{甲子園|こうしえん}には{全国|ぜんこく}の{名門校|めいもんこう}が{集|あつ}まる。",
       "english": "Elite schools from across the country gather at Koshien.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {名門|めいもん} (distinguished family/lineage; prestigious institution) + {校|こう} (school). Refers to schools renowned for their tradition, academic excellence, or competitive success in sports.\n\nIn Japan, {名門校|めいもんこう} can refer to academic powerhouses (schools that send many students to top universities), or to schools famous for sports achievements (especially in baseball at {甲子園|こうしえん} or in {駅伝|えきでん} relay racing).\n\nCOMMON COLLOCATIONS:\n- {名門校|めいもんこう}に{通|かよ}う: to attend a prestigious school\n- {名門校|めいもんこう}の{出身|しゅっしん}: graduate of a prestigious school\n- {名門校|めいもんこう}{同士|どうし}の{対戦|たいせん}: a match between elite schools\n- {私立|しりつ}{名門校|めいもんこう}: private prestigious school\n- {地元|じもと}の{名門校|めいもんこう}: local elite school\n\nSIMILAR WORDS:\n- {名門|めいもん}: prestigious institution — the base word, also used for families and organizations\n- {進学校|しんがくこう}: college-prep school — specifically focused on academic achievement and university entrance\n- {有名校|ゆうめいこう}: famous school — simply well-known, without the prestige connotation",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17212_shingakukou",
+      "reading": "しんがくこう",
+      "headword": "{進学校|しんがくこう}",
+      "label": "college-prep school"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["education"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-04-28T11:26:07Z",
-    "modified": "2026-04-28T11:26:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

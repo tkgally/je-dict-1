@@ -17,7 +17,9 @@
       "id": "26675_oroshiurikakaku_ex1",
       "japanese": "{卸売価格|おろしうりかかく}で{仕入|しい}れた。",
       "english": "I purchased at wholesale price.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26675_oroshiurikakaku_ex2",
       "japanese": "{卸売価格|おろしうりかかく}と{小売価格|こうりかかく}の{差|さ}が{利益|りえき}になる。",
       "english": "The difference between the wholesale price and retail price becomes the profit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,54 @@
       "id": "26675_oroshiurikakaku_ex3",
       "japanese": "{原材料費|げんざいりょうひ}の{高騰|こうとう}により、{卸売価格|おろしうりかかく}が{上昇|じょうしょう}し、{小売店|こうりてん}にも{影響|えいきょう}が{出|で}ている。",
       "english": "Due to soaring raw material costs, wholesale prices have risen, and the impact is being felt by retail stores as well.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {卸売|おろしうり} (wholesale) and {価格|かかく} (price). Used in business, economics, and news reporting about market trends and pricing.\n\nCOMMON COLLOCATIONS:\n- {卸売価格|おろしうりかかく}で{買|か}う: to buy at wholesale price\n- {卸売価格|おろしうりかかく}が{上|あ}がる: wholesale prices rise\n- {卸売価格|おろしうりかかく}が{下|さ}がる: wholesale prices fall\n- {卸売価格|おろしうりかかく}{指数|しすう}: wholesale price index\n\nSIMILAR WORDS:\n- {小売価格|こうりかかく}: retail price — the price paid by the end consumer\n- {仕入|しい}れ{値|ね}: purchase price; cost price — the price a shop pays for stock, similar but more colloquial\n- {希望小売価格|きぼうこうりかかく}: manufacturer's suggested retail price (MSRP)\n- {定価|ていか}: list price; fixed price",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21592_shiirene",
+      "reading": "しいれね",
+      "headword": "{仕入|しい}れ{値|ね}",
+      "label": "purchase price"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29233_kiboukourikakaku",
+      "reading": "きぼうこうりかかく",
+      "headword": "{希望小売価格|きぼうこうりかかく}",
+      "label": "manufacturer's suggested retail price"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04066_teika",
+      "reading": "ていか",
+      "headword": "{定価|ていか}",
+      "label": "list price"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-05-04T12:46:49Z",
-    "modified": "2026-05-04T12:46:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

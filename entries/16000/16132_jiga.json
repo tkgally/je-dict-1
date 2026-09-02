@@ -19,7 +19,9 @@
       "english": "To awaken to one's self.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16132_jiga_ex2",
@@ -27,7 +29,9 @@
       "english": "Children begin to develop a sense of self around age three.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16132_jiga_ex3",
@@ -35,21 +39,42 @@
       "english": "He has too strong an ego, so teamwork doesn't go well.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{自我|じが} refers to the psychological concept of self or ego. It is more abstract and intellectual than {自分|じぶん} (oneself), which is a basic pronoun. {自我|じが} is often used in developmental psychology to describe a child's growing awareness of being a separate individual.\n\nCOMMON COLLOCATIONS:\n- {自我|じが}に{目覚|めざ}める (to become self-aware)\n- {自我|じが}が{芽生|めば}える (self-awareness emerges)\n- {自我|じが}が{強|つよ}い (to have a strong ego)\n- {自我|じが}を{抑|おさ}える (to suppress one's ego)\n- {自我|じが}{崩壊|ほうかい} (ego collapse, loss of identity)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23225_jikodouitsusei",
+      "reading": "じこどういつせい",
+      "headword": "{自己同一性|じこどういつせい}",
+      "label": "self-identity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28341_onore",
+      "reading": "おのれ",
+      "headword": "{己|おのれ}",
+      "label": "oneself"
+    }
+  ],
   "metadata": {
     "created": "2026-03-10T06:01:41Z",
-    "modified": "2026-03-10T06:01:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     }
   }
 }

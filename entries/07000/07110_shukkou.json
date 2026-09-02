@@ -2,7 +2,7 @@
   "id": "07110_shukkou",
   "headword": "{出向|しゅっこう}",
   "reading": "しゅっこう",
-  "part_of_speech": "noun; verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "temporary transfer; secondment",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "TYPES OF SECONDMENT:\n・{在籍|ざいせき}{出向|しゅっこう} (secondment while remaining on original company's roster)\n・{転籍|てんせき}{出向|しゅっこう} (transfer with change of employer - permanent)\n\nRELATED BUSINESS TERMS:\n・{出向|しゅっこう}{先|さき} (destination company for secondment)\n・{出向|しゅっこう}{元|もと} (original/sending company)\n・{出向|しゅっこう}{社員|しゃいん} (seconded employee)\n・{転勤|てんきん} (job transfer within the same company)\n\nJAPANESE BUSINESS CONTEXT: {出向|しゅっこう} is a common practice in Japanese companies, often used to:\n- Train employees at affiliated companies\n- Support struggling subsidiaries\n- Develop business relationships between companies\n- Manage excess personnel without layoffs",
+  "notes": "TYPES OF SECONDMENT:\n- {在籍|ざいせき}{出向|しゅっこう} (secondment while remaining on original company's roster)\n- {転籍|てんせき}{出向|しゅっこう} (transfer with change of employer - permanent)\n\nRELATED BUSINESS TERMS:\n- {出向|しゅっこう}{先|さき} (destination company for secondment)\n- {出向|しゅっこう}{元|もと} (original/sending company)\n- {出向|しゅっこう}{社員|しゃいん} (seconded employee)\n- {転勤|てんきん} (job transfer within the same company)\n\nJAPANESE BUSINESS CONTEXT: {出向|しゅっこう} is a common practice in Japanese companies, often used to:\n- Train employees at affiliated companies\n- Support struggling subsidiaries\n- Develop business relationships between companies\n- Manage excess personnel without layoffs",
   "cross_references": [
     {
       "type": "contrast",
@@ -141,11 +141,25 @@
       "headword": "{転勤|てんきん}",
       "label": "internal transfer",
       "target_id": "04555_tenkin"
+    },
+    {
+      "type": "related",
+      "target_id": "01094_shucchou",
+      "reading": "しゅっちょう",
+      "headword": "{出張|しゅっちょう}",
+      "label": "business trip"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26317_tenseki",
+      "reading": "てんせき",
+      "headword": "{転籍|てんせき}",
+      "label": "change of registered domicile"
     }
   ],
   "metadata": {
     "created": "2026-01-18T23:18:44Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

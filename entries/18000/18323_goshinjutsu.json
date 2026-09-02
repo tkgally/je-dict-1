@@ -19,7 +19,9 @@
       "english": "I'm learning self-defense.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18323_goshinjutsu_ex2",
@@ -27,7 +29,9 @@
       "english": "I'm attending a self-defense class for women.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18323_goshinjutsu_ex3",
@@ -35,21 +39,42 @@
       "english": "Aikido is also excellent as a form of self-defense.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nRefers to the techniques themselves rather than the act of defending oneself. {護身術|ごしんじゅつ}{教室|きょうしつ} (self-defense classes) are popular in Japan, especially classes designed for women.\n\nCOMMON COLLOCATIONS:\n- {護身術|ごしんじゅつ}を{学|まな}ぶ/{習|なら}う (to learn self-defense)\n- {護身術|ごしんじゅつ}{教室|きょうしつ} (self-defense class)\n- {護身術|ごしんじゅつ}として (as self-defense)\n\nSIMILAR WORDS:\n- {正当防衛|せいとうぼうえい}: legitimate self-defense — the legal concept\n- {武術|ぶじゅつ}: martial arts — broader term for fighting arts",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18184_seitoubouei",
+      "reading": "せいとうぼうえい",
+      "headword": "{正当防衛|せいとうぼうえい}",
+      "label": "legitimate self-defense"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13244_bujutsu",
+      "reading": "ぶじゅつ",
+      "headword": "{武術|ぶじゅつ}",
+      "label": "martial arts"
+    }
+  ],
   "metadata": {
     "created": "2026-03-21T09:13:16Z",
-    "modified": "2026-03-21T09:13:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     }
   }
 }

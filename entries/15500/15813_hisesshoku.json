@@ -19,7 +19,9 @@
       "english": "Contactless payment is available.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15813_hisesshoku_ex2",
@@ -27,7 +29,9 @@
       "english": "I took my temperature with a non-contact thermometer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15813_hisesshoku_ex3",
@@ -35,21 +39,43 @@
       "english": "Triggered by the pandemic, contactless services spread rapidly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{非接触|ひせっしょく} functions as a noun that modifies other nouns, often with の or as a prefix: {非接触|ひせっしょく}{決済|けっさい} (contactless payment), {非接触|ひせっしょく}{型|がた} (non-contact type). It became widely used during the COVID-19 pandemic as contactless services expanded.\n\nCOMMON COLLOCATIONS:\n- {非接触|ひせっしょく}{決済|けっさい} (contactless payment)\n- {非接触|ひせっしょく}{型|がた} (non-contact type)\n- {非接触|ひせっしょく}ICカード (contactless IC card)\n- {非接触|ひせっしょく}センサー (non-contact sensor)\n\nRELATED TERMS:\n- {接触|せっしょく} means contact or touching.\n- タッチ{決済|けっさい} is another term for contactless payment using loanword.\n- {非対面|ひたいめん} means without face-to-face interaction.",
-  "cross_references": [],
+  "notes": "USAGE:\n{非接触|ひせっしょく} functions as a noun that modifies other nouns, often with の or as a prefix: {非接触|ひせっしょく}{決済|けっさい} (contactless payment), {非接触|ひせっしょく}{型|がた} (non-contact type). It became widely used during the COVID-19 pandemic as contactless services expanded.\n\nCOMMON COLLOCATIONS:\n- {非接触|ひせっしょく}{決済|けっさい} (contactless payment)\n- {非接触|ひせっしょく}{型|がた} (non-contact type)\n- {非接触|ひせっしょく}ICカード (contactless IC card)\n- {非接触|ひせっしょく}センサー (non-contact sensor)\n\nRELATED WORDS:\n- {接触|せっしょく} means contact or touching.\n- タッチ{決済|けっさい} is another term for contactless payment using loanword.\n- {非対面|ひたいめん} means without face-to-face interaction.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09692_tacchikessai",
+      "reading": "たっちけっさい",
+      "headword": "タッチ{決済|けっさい}",
+      "label": "is another term for contactless payment…"
+    },
+    {
+      "type": "related",
+      "target_id": "15439_hitaimen",
+      "reading": "ひたいめん",
+      "headword": "{非対面|ひたいめん}",
+      "label": "means without face-to-face interaction."
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T10:10:01Z",
-    "modified": "2026-03-08T10:10:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technology", "daily-life"]
+      "semantic": [
+        "technology",
+        "daily-life"
+      ]
     }
   }
 }

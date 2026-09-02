@@ -17,7 +17,9 @@
       "id": "21233_taiikusai_ex1",
       "japanese": "{体育祭|たいいくさい}は{十月|じゅうがつ}にある。",
       "english": "The sports festival is in October.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21233_taiikusai_ex2",
       "japanese": "{体育祭|たいいくさい}のリレーで{一位|いちい}になった。",
       "english": "I came first in the relay at the sports festival.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "21233_taiikusai_ex3",
       "japanese": "{今年|ことし}の{体育祭|たいいくさい}は{雨|あめ}で{延期|えんき}になったが、{翌週|よくしゅう}{無事|ぶじ}に{開催|かいさい}された。",
       "english": "This year's sports festival was postponed due to rain, but was successfully held the following week.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A major annual school event in Japanese education, alongside {文化祭|ぶんかさい} (cultural festival). Students are divided into teams (often by color — {赤組|あかぐみ}, {白組|しろぐみ}, etc.) and compete in various events.\n\nCOMMON EVENTS:\n- リレー: relay race\n- {綱引|つなひ}き: tug-of-war\n- {騎馬戦|きばせん}: mock cavalry battle\n- {玉入|たまい}れ: ball toss\n- {応援合戦|おうえんがっせん}: cheering competition\n\nSIMILAR WORDS:\n- {運動会|うんどうかい}: sports day — used more for elementary schools and community events; {体育祭|たいいくさい} is used for middle and high schools\n- {文化祭|ぶんかさい}: cultural festival — the arts-focused counterpart\n\nCULTURAL CONTEXT:\nThe {体育祭|たいいくさい} is one of the most anticipated school events. Students practice for weeks in advance, and families often come to watch. The emphasis is on teamwork and school spirit rather than individual athletic achievement.",
+  "notes": "A major annual school event in Japanese education, alongside {文化祭|ぶんかさい} (cultural festival). Students are divided into teams (often by color — {赤組|あかぐみ}, {白組|しろぐみ}, etc.) and compete in various events.\n\nCOMMON EVENTS:\n- リレー: relay race\n- {綱引|つなひ}き: tug-of-war\n- {騎馬戦|きばせん}: mock cavalry battle\n- {玉入|たまい}れ: ball toss\n- {応援合戦|おうえんがっせん}: cheering competition\n\nSIMILAR WORDS:\n- {運動会|うんどうかい}: sports day — used more for elementary schools and community events; {体育祭|たいいくさい} is used for middle and high schools\n- {文化祭|ぶんかさい}: cultural festival — the arts-focused counterpart\n\nCULTURAL NOTE:\nThe {体育祭|たいいくさい} is one of the most anticipated school events. Students practice for weeks in advance, and families often come to watch. The emphasis is on teamwork and school spirit rather than individual athletic achievement.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03013_undoukai",
+      "reading": "うんどうかい",
+      "headword": "{運動会|うんどうかい}",
+      "label": "sports day"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05589_bunkasai",
+      "reading": "ぶんかさい",
+      "headword": "{文化祭|ぶんかさい}",
+      "label": "cultural festival"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education", "culture"]
+      "semantic": [
+        "education",
+        "culture"
+      ]
     },
     "created": "2026-04-01T15:21:11Z",
-    "modified": "2026-04-01T15:21:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

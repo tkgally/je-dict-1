@@ -3,7 +3,7 @@
   "id": "13371_gekidou",
   "headword": "{激動|げきどう}",
   "reading": "げきどう",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "upheaval, turbulence",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,32 @@
     }
   ],
   "notes": "{激動|げきどう} describes intense, dramatic change affecting society, politics, or history on a large scale. The kanji combine {激|げき} (violent, intense) and {動|どう} (movement).\n\nCOMMON PATTERNS:\n- {激動|げきどう}の{時代|じだい}: turbulent era\n- {激動|げきどう}の{中|なか}: in the midst of upheaval\n- {激動|げきどう}する: to undergo upheaval\n- {激動|げきどう}の{歴史|れきし}: turbulent history\n- {激動|げきどう}の{一年|いちねん}: a tumultuous year\n\nREGISTER:\nCarries a literary and dramatic tone. Most common in written contexts — history books, news commentary, political analysis, and documentaries. Not typically used in everyday conversation.\n\nSIMILAR WORDS:\n- {動乱|どうらん}: upheaval, unrest (often implies armed conflict or political chaos)\n- {混乱|こんらん}: confusion, disorder (broader and less dramatic)\n- {変動|へんどう}: change, fluctuation (more neutral; used for prices, exchange rates, etc.)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19154_douran",
+      "reading": "どうらん",
+      "headword": "{動乱|どうらん}",
+      "label": "upheaval, unrest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02811_konran",
+      "reading": "こんらん",
+      "headword": "{混乱|こんらん}",
+      "label": "confusion, disorder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09936_hendou",
+      "reading": "へんどう",
+      "headword": "{変動|へんどう}",
+      "label": "change, fluctuation (more neutral"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T11:03:09Z",
-    "modified": "2026-03-29T09:23:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{燃料補給|ねんりょうほきゅう}",
   "reading": "ねんりょうほきゅう",
   "romaji": "nenryouhokyuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "refueling; fuel supply; fuel replenishment",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Compound of {燃料|ねんりょう} (fuel) and {補給|ほきゅう} (replenishment, supply). It behaves as a noun and often takes する to form a verb ({燃料補給|ねんりょうほきゅう}する, \"to refuel\"). Register is neutral-formal and the word is standard in news, military reporting, and technical writing; in casual speech speakers are more likely to say {給油|きゅうゆ} for cars at a gas station.\n\nCOMMON COLLOCATIONS:\n- {燃料補給|ねんりょうほきゅう}する: to refuel\n- {燃料補給|ねんりょうほきゅう}を{行|おこな}う: to carry out refueling\n- {空中|くうちゅう}{燃料補給|ねんりょうほきゅう}: in-flight refueling\n- {燃料補給|ねんりょうほきゅう}{基地|きち}: refueling base\n- {燃料補給|ねんりょうほきゅう}{機|き}: refueling aircraft (tanker plane)\n\nSIMILAR WORDS:\n- {給油|きゅうゆ}: refueling (with oil or gasoline) — the everyday word for filling up a car\n- {補給|ほきゅう}: replenishment, resupply — general term, not limited to fuel\n- ガソリンを{入|い}れる: to put in gas — the most casual conversational phrasing\n- {満|まん}タン: full tank — casual; what you ask for at a gas station",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18553_kyuuyu",
+      "reading": "きゅうゆ",
+      "headword": "{給油|きゅうゆ}",
+      "label": "refueling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24454_mantan",
+      "reading": "まんたん",
+      "headword": "{満|まん}タン",
+      "label": "full tank"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-15T14:03:17Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

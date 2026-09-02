@@ -17,7 +17,9 @@
       "id": "26893_chiryouhi_ex1",
       "japanese": "{治療費|ちりょうひ}が{高|たか}い。",
       "english": "The medical expenses are high.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26893_chiryouhi_ex2",
       "japanese": "{保険|ほけん}で{治療費|ちりょうひ}の{一部|いちぶ}がカバーされる。",
       "english": "Insurance covers part of the medical expenses.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,41 @@
       "id": "26893_chiryouhi_ex3",
       "japanese": "{事故|じこ}の{加害者|かがいしゃ}に{治療費|ちりょうひ}を{請求|せいきゅう}するつもりだ。",
       "english": "I intend to claim medical expenses from the person who caused the accident.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {治療|ちりょう} (treatment, therapy) and {費|ひ} (cost, expense). The {費|ひ} suffix attaches to many nouns to form expense-related words.\n\nCOMMON COLLOCATIONS:\n- {治療費|ちりょうひ}を{払|はら}う: to pay medical expenses\n- {治療費|ちりょうひ}を{請求|せいきゅう}する: to bill for / claim medical expenses\n- {治療費|ちりょうひ}の{負担|ふたん}: burden of medical costs\n- {治療費|ちりょうひ}の{自己|じこ}{負担|ふたん}: out-of-pocket medical costs\n- {高額|こうがく}{治療費|ちりょうひ}: expensive medical bills\n\nRELATED TERMS:\n- {医療費|いりょうひ}: medical costs — broader term that includes all healthcare-related expenses\n- {入院費|にゅういんひ}: hospitalization costs\n- {薬代|くすりだい}: medication costs\n- {診察料|しんさつりょう}: consultation fee\n\nUSAGE:\nIn Japan's universal healthcare system, patients typically pay 30% of {治療費|ちりょうひ} out of pocket, with national health insurance covering the rest. The term frequently appears in discussions about healthcare costs, insurance claims, and accident liability.",
-  "cross_references": [],
+  "notes": "A compound of {治療|ちりょう} (treatment, therapy) and {費|ひ} (cost, expense). The {費|ひ} suffix attaches to many nouns to form expense-related words.\n\nCOMMON COLLOCATIONS:\n- {治療費|ちりょうひ}を{払|はら}う: to pay medical expenses\n- {治療費|ちりょうひ}を{請求|せいきゅう}する: to bill for / claim medical expenses\n- {治療費|ちりょうひ}の{負担|ふたん}: burden of medical costs\n- {治療費|ちりょうひ}の{自己|じこ}{負担|ふたん}: out-of-pocket medical costs\n- {高額|こうがく}{治療費|ちりょうひ}: expensive medical bills\n\nRELATED WORDS:\n- {医療費|いりょうひ}: medical costs — broader term that includes all healthcare-related expenses\n- {入院費|にゅういんひ}: hospitalization costs\n- {薬代|くすりだい}: medication costs\n- {診察料|しんさつりょう}: consultation fee\n\nUSAGE:\nIn Japan's universal healthcare system, patients typically pay 30% of {治療費|ちりょうひ} out of pocket, with national health insurance covering the rest. The term frequently appears in discussions about healthcare costs, insurance claims, and accident liability.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24692_iryouhi",
+      "reading": "いりょうひ",
+      "headword": "{医療費|いりょうひ}",
+      "label": "medical costs"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["health", "money"],
-      "domain": ["medical"]
+      "semantic": [
+        "health",
+        "money"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-05-05T15:08:11Z",
-    "modified": "2026-05-05T15:08:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

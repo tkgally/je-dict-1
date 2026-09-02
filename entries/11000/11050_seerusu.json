@@ -19,7 +19,9 @@
       "english": "I got a sales call.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11050_seerusu_ex2",
@@ -27,7 +29,9 @@
       "english": "He's good at sales.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11050_seerusu_ex3",
@@ -35,22 +39,38 @@
       "english": "A door-to-door salesperson came, but I turned them away.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nセールス often implies proactive or direct selling (door-to-door, phone sales, pitching). It can also refer to a salesperson (short for セールスマン or セールスパーソン).\n\nNote the difference from セール (a sale/discount event at a store). セールス is the act of selling; セール is a promotional sale.\n\nCOMMON COLLOCATIONS:\n- {訪問|ほうもん}セールス: door-to-door sales\n- セールスマン: salesman\n- セールストーク: sales pitch\n- セールス{活動|かつどう}: sales activities",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09341_urikomi",
+      "reading": "うりこみ",
+      "headword": "{売|う}り{込|こ}み",
+      "label": "sales pitch, self-promotion"
+    }
+  ],
   "metadata": {
     "created": "2026-02-12T20:10:50Z",
-    "modified": "2026-02-12T20:10:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["work"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

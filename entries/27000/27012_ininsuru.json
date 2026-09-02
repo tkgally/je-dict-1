@@ -3,7 +3,7 @@
   "headword": "{委任|いにん}する",
   "reading": "いにんする",
   "romaji": "ininsuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to entrust; to delegate",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A formal word used mainly in legal, business, and administrative contexts. The {委任状|いにんじょう} (power of attorney / letter of delegation) is a document you encounter when someone acts on your behalf — common at shareholder meetings, legal proceedings, and government offices.\n\nCOMMON COLLOCATIONS:\n- {委任状|いにんじょう}: power of attorney; letter of delegation\n- {委任|いにん}を{受|う}ける: to receive a delegation of authority\n- {権限|けんげん}の{委任|いにん}: delegation of authority\n- {白紙委任|はくしいにん}: carte blanche; blank check delegation\n\nSIMILAR WORDS:\n- {任|まか}せる: to leave to; to entrust — more casual and broader; used in everyday situations\n- {委託|いたく}する: to consign; to outsource — often involves entrusting a specific task or service to an outside party\n- {依頼|いらい}する: to request; to ask — making a request rather than delegating authority",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02417_makaseru",
+      "reading": "まかせる",
+      "headword": "{任|まか}せる",
+      "label": "to leave to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05620_itaku",
+      "reading": "いたく",
+      "headword": "{委託|いたく}",
+      "label": "to consign"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02594_irai",
+      "reading": "いらい",
+      "headword": "{依頼|いらい}",
+      "label": "to request"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -66,7 +89,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T13:17:00Z",
-    "modified": "2026-05-06T13:17:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

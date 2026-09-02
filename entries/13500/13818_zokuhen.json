@@ -19,7 +19,9 @@
       "english": "I'm looking forward to the sequel.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13818_zokuhen_ex2",
@@ -27,7 +29,9 @@
       "english": "The sequel to that movie will be released next year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13818_zokuhen_ex3",
@@ -35,21 +39,56 @@
       "english": "The sequel to the hugely popular novel lived up to expectations.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCommonly used for movies, novels, manga, anime, and video games. Can also refer to non-fiction sequels or follow-up reports.\n\nCOMMON COLLOCATIONS:\n- {続編|ぞくへん}が{出|で}る: a sequel comes out\n- {続編|ぞくへん}を{制作|せいさく}する: to produce a sequel\n- {待望|たいぼう}の{続編|ぞくへん}: long-awaited sequel\n- {続編|ぞくへん}{決定|けってい}: sequel confirmed\n\nSIMILAR WORDS:\n{続|つづ}き (continuation) is more casual and can refer to the continuation of anything, not just creative works. {第|だい}2{作|さく} (second installment) is a more neutral term. {続編|ぞくへん} specifically implies a new work that follows up on a previous one.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03526_tsuzuki",
+      "reading": "つづき",
+      "headword": "{続|つづ}き",
+      "label": "continuation"
+    },
+    {
+      "type": "antonym",
+      "target_id": "20712_kanketsuhen",
+      "reading": "かんけつへん",
+      "headword": "{完結編|かんけつへん}",
+      "label": "final volume"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25484_honpen",
+      "reading": "ほんぺん",
+      "headword": "{本編|ほんぺん}",
+      "label": "main part"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30236_zensaku",
+      "reading": "ぜんさく",
+      "headword": "{前作|ぜんさく}",
+      "label": "previous work"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T04:21:18Z",
-    "modified": "2026-02-27T04:21:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

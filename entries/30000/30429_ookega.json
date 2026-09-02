@@ -46,6 +46,22 @@
   ],
   "notes": "From {大|おお} (big) + けが (injury). Usually written with けが in kana, though {大怪我|おおけが} also appears.\n\nCOMMON COLLOCATIONS:\n- {大|おお}けがをする: to be seriously injured\n- {大|おお}けがを{負|お}う: to sustain a serious injury (written style)\n- {大|おお}けがにつながる: to lead to a serious injury\n- {命|いのち}に{別状|べつじょう}はないが{大|おお}けが: badly hurt but not life-threatening\n\nSIMILAR WORDS:\n- けが: injury — the neutral word, any severity\n- {軽傷|けいしょう}: minor injury — the news-report opposite, paired with {重傷|じゅうしょう} (serious injury)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16546_keishou",
+      "reading": "けいしょう",
+      "headword": "{軽傷|けいしょう}",
+      "label": "minor injury"
+    },
+    {
+      "type": "related",
+      "target_id": "01632_kegasuru",
+      "reading": "けがする",
+      "headword": "けがする",
+      "label": "to get injured"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health"
       ],
       "domain": []
     },
     "created": "2026-08-05T15:24:36Z",
-    "modified": "2026-08-05T15:24:36Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

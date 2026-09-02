@@ -3,7 +3,7 @@
   "headword": "{相乗|あいの}り",
   "reading": "あいのり",
   "romaji": "ainori",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "ride-sharing; sharing a vehicle",
   "definitions": [
     {
@@ -79,8 +79,23 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {相|あい} (mutual, together) and {乗|の}り (riding). The literal sense of sharing a vehicle is the most common everyday usage, especially with taxis. The figurative sense of piggybacking on someone else's efforts or momentum is frequently used in business and politics.\n\nAlso the name of a well-known Japanese reality TV show ({あいのり}) about people looking for love on a shared road trip.\n\nCOMMON COLLOCATIONS:\n- タクシーに{相乗|あいの}りする: to share a taxi\n- {相乗|あいの}り{料金|りょうきん}: shared ride fare\n- {人気|にんき}に{相乗|あいの}りする: to ride on someone's popularity\n- {相乗|あいの}り{候補|こうほ}: joint candidate (politics — supported by multiple parties)\n\nSIMILAR WORDS:\n- カープール: carpool — English loanword; more formal/modern\n- ライドシェア: ride-share — the modern app-based ride-sharing concept\n- {便乗|びんじょう}: taking advantage of an opportunity; free ride — stronger nuance of exploiting a situation",
-  "cross_references": [],
+  "notes": "Composed of {相|あい} (mutual, together) and {乗|の}り (riding). The literal sense of sharing a vehicle is the most common everyday usage, especially with taxis. The figurative sense of piggybacking on someone else's efforts or momentum is frequently used in business and politics.\n\nAlso the name of a well-known Japanese reality TV show (あいのり) about people looking for love on a shared road trip.\n\nCOMMON COLLOCATIONS:\n- タクシーに{相乗|あいの}りする: to share a taxi\n- {相乗|あいの}り{料金|りょうきん}: shared ride fare\n- {人気|にんき}に{相乗|あいの}りする: to ride on someone's popularity\n- {相乗|あいの}り{候補|こうほ}: joint candidate (politics — supported by multiple parties)\n\nSIMILAR WORDS:\n- カープール: carpool — English loanword; more formal/modern\n- ライドシェア: ride-share — the modern app-based ride-sharing concept\n- {便乗|びんじょう}: taking advantage of an opportunity; free ride — stronger nuance of exploiting a situation",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07634_binjou",
+      "reading": "びんじょう",
+      "headword": "{便乗|びんじょう}",
+      "label": "taking advantage of an opportunity"
+    },
+    {
+      "type": "related",
+      "target_id": "27975_futarinori",
+      "reading": "ふたりのり",
+      "headword": "{二人乗|ふたりの}り",
+      "label": "riding double"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -89,6 +104,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "transportation",
         "society"
@@ -96,7 +112,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-28T15:34:45Z",
-    "modified": "2026-04-28T15:34:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

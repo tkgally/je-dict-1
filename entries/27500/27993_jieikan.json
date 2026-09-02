@@ -17,7 +17,9 @@
       "id": "27993_jieikan_ex1",
       "japanese": "{兄|あに}は{自衛官|じえいかん}だ。",
       "english": "My older brother is an SDF member.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27993_jieikan_ex2",
       "japanese": "{自衛官|じえいかん}が{被災地|ひさいち}で{救助|きゅうじょ}{活動|かつどう}を{行|おこな}った。",
       "english": "SDF personnel carried out rescue operations in the disaster area.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "27993_jieikan_ex3",
       "japanese": "{自衛官|じえいかん}になるには、{採用|さいよう}{試験|しけん}に{合格|ごうかく}しなければならない。",
       "english": "To become an SDF member, you must pass the recruitment examination.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A member of the {自衛隊|じえいたい} (Japan Self-Defense Forces). Because Japan's constitution renounces war, members are called {自衛官|じえいかん} rather than {兵士|へいし} (soldier).\n\nCOMMON COLLOCATIONS:\n- {自衛官|じえいかん}になる: to become an SDF member\n- {現役|げんえき}{自衛官|じえいかん}: an active-duty SDF member\n\nSIMILAR WORDS:\n- {自衛隊|じえいたい}: the Self-Defense Forces (the organization itself)\n- {兵士|へいし}: soldier — the general word, avoided for Japan's own forces",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05790_jieitai",
+      "reading": "じえいたい",
+      "headword": "{自衛隊|じえいたい}",
+      "label": "the Self-Defense Forces"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11680_heishi",
+      "reading": "へいし",
+      "headword": "{兵士|へいし}",
+      "label": "soldier"
+    },
+    {
+      "type": "related",
+      "target_id": "02994_gunjin",
+      "reading": "ぐんじん",
+      "headword": "{軍人|ぐんじん}",
+      "label": "military personnel, soldier"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["occupation"],
+      "politeness": "plain",
+      "semantic": [
+        "occupation"
+      ],
       "domain": []
     },
     "created": "2026-05-24T02:02:35Z",
-    "modified": "2026-05-24T02:02:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "Spring water from the mountains is cold and delicious.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18173_wakimizu_ex2",
@@ -27,7 +29,9 @@
       "english": "The spring water here has been used as drinking water since long ago.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18173_wakimizu_ex3",
@@ -35,7 +39,9 @@
       "english": "Local people come every morning with plastic bottles to draw spring water.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nJapan has many famous spring water sites ({名水|めいすい}), and visiting them is a form of nature tourism. Spring water is prized for making tofu, sake, and tea. The word carries connotations of purity and naturalness.\n\nCOMMON COLLOCATIONS:\n- {湧|わ}き{水|みず}を{汲|く}む (to draw spring water)\n- {湧|わ}き{水|みず}スポット (spring water spot)\n- {天然|てんねん}の{湧|わ}き{水|みず} (natural spring water)\n\nSIMILAR WORDS:\n- {泉|いずみ}: spring, fountain — the source itself, broader meaning\n- {地下水|ちかすい}: groundwater — water underground, more technical",
@@ -46,18 +52,36 @@
       "reading": "いずみ",
       "headword": "{泉|いずみ}",
       "label": "spring, fountain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09600_chikasui",
+      "reading": "ちかすい",
+      "headword": "{地下水|ちかすい}",
+      "label": "groundwater"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14607_amamizu",
+      "reading": "あまみず",
+      "headword": "{雨水|あまみず}",
+      "label": "rainwater"
     }
   ],
   "metadata": {
     "created": "2026-03-20T08:59:32Z",
-    "modified": "2026-05-08T06:14:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

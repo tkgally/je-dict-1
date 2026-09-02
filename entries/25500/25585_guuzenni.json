@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "The adverbial form of {偶然|ぐうぜん} (coincidence). Can also be used without に as an adverb ({偶然|ぐうぜん}{会|あ}った is equally common). The に form emphasizes the manner in which something happened.\n\nCOMMON COLLOCATIONS:\n- {偶然|ぐうぜん}に{出会|であ}う: to meet by chance\n- {偶然|ぐうぜん}に{見|み}つける: to find accidentally\n- {偶然|ぐうぜん}に{知|し}る: to learn by chance\n- {偶然|ぐうぜん}の{一致|いっち}: coincidence, chance match\n\nSIMILAR WORDS:\n- たまたま: by chance, happen to — more casual and spoken; often implies a lucky or unlucky coincidence\n- {思|おも}いがけず: unexpectedly — emphasizes the surprise element\n- {図|はか}らずも: unexpectedly, by a twist of fate — literary, often for fortunate or ironic coincidences\n\nGRAMMAR NOTE:\nBoth {偶然|ぐうぜん} and {偶然|ぐうぜん}に function as adverbs. The form without に is slightly more common in casual speech.",
-  "cross_references": [],
+  "notes": "The adverbial form of {偶然|ぐうぜん} (coincidence). Can also be used without に as an adverb ({偶然|ぐうぜん}{会|あ}った is equally common). The に form emphasizes the manner in which something happened.\n\nCOMMON COLLOCATIONS:\n- {偶然|ぐうぜん}に{出会|であ}う: to meet by chance\n- {偶然|ぐうぜん}に{見|み}つける: to find accidentally\n- {偶然|ぐうぜん}に{知|し}る: to learn by chance\n- {偶然|ぐうぜん}の{一致|いっち}: coincidence, chance match\n\nSIMILAR WORDS:\n- たまたま: by chance, happen to — more casual and spoken; often implies a lucky or unlucky coincidence\n- {思|おも}いがけず: unexpectedly — emphasizes the surprise element\n- {図|はか}らずも: unexpectedly, by a twist of fate — literary, often for fortunate or ironic coincidences\n\nCOMMON PATTERNS:\nBoth {偶然|ぐうぜん} and {偶然|ぐうぜん}に function as adverbs. The form without に is slightly more common in casual speech.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03408_tamatama",
+      "reading": "たまたま",
+      "headword": "{偶々|たまたま}",
+      "label": "by chance, happen to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07152_omoigakezu",
+      "reading": "おもいがけず",
+      "headword": "{思|おも}いがけず",
+      "label": "unexpectedly"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +68,12 @@
       "pos": [
         "adverb"
       ],
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ]
     },
     "created": "2026-04-26T11:26:39Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

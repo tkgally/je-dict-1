@@ -17,7 +17,9 @@
       "id": "28514_kikaitaisou_ex1",
       "japanese": "{娘|むすめ}は{器械体操|きかいたいそう}を{習|なら}っている。",
       "english": "My daughter is learning artistic gymnastics.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28514_kikaitaisou_ex2",
       "japanese": "{彼|かれ}は{器械体操|きかいたいそう}の{選手|せんしゅ}としてオリンピックに{出場|しゅつじょう}した。",
       "english": "He competed in the Olympics as an artistic gymnast.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "28514_kikaitaisou_ex3",
       "japanese": "{器械体操|きかいたいそう}では{鉄棒|てつぼう}や{平行棒|へいこうぼう}などの{種目|しゅもく}がある。",
       "english": "Artistic gymnastics has events such as the horizontal bar and parallel bars.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {器械|きかい} (apparatus) + {体操|たいそう} (gymnastics, exercise). Refers to the form of gymnastics seen at the Olympics, performed on six (men's) or four (women's) pieces of apparatus.\n\nCOMMON COLLOCATIONS:\n- {器械体操|きかいたいそう}の{選手|せんしゅ}: artistic gymnast\n- {器械体操|きかいたいそう}{部|ぶ}: gymnastics club\n- {器械体操|きかいたいそう}の{大会|たいかい}: gymnastics competition\n\nSIMILAR WORDS:\n- {新体操|しんたいそう}: rhythmic gymnastics — uses ribbon, ball, hoop, rope, or clubs\n- {体操|たいそう}: gymnastics, calisthenics — general term, includes everyday exercise\n- {床運動|ゆかうんどう}: floor exercise — one event within artistic gymnastics",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22205_shintaisou",
+      "reading": "しんたいそう",
+      "headword": "{新体操|しんたいそう}",
+      "label": "rhythmic gymnastics"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25172_taisousenshu",
+      "reading": "たいそうせんしゅ",
+      "headword": "{体操選手|たいそうせんしゅ}",
+      "label": "gymnast"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26394_taisoukyougi",
+      "reading": "たいそうきょうぎ",
+      "headword": "{体操競技|たいそうきょうぎ}",
+      "label": "artistic gymnastics"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports"],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-06-01T03:08:44Z",
-    "modified": "2026-06-01T03:08:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

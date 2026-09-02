@@ -17,7 +17,9 @@
       "id": "24646_keijourieki_ex1",
       "japanese": "{今期|こんき}の{経常利益|けいじょうりえき}は{前年比|ぜんねんひ}で{増加|ぞうか}した。",
       "english": "This term's ordinary profit increased compared to last year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24646_keijourieki_ex2",
       "japanese": "{経常利益|けいじょうりえき}が{過去|かこ}{最高|さいこう}を{記録|きろく}した。",
       "english": "Ordinary profit reached a record high.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,62 @@
       "id": "24646_keijourieki_ex3",
       "japanese": "{円安|えんやす}の{影響|えいきょう}で{輸出企業|ゆしゅつきぎょう}の{経常利益|けいじょうりえき}が{大幅|おおはば}に{改善|かいぜん}し、{株価|かぶか}も{上昇|じょうしょう}した。",
       "english": "Due to the weak yen, export companies' ordinary profits improved significantly and stock prices also rose.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {経常|けいじょう} (ordinary, recurring) and {利益|りえき} (profit). This is one of the most important profit metrics in Japanese financial reporting and appears in virtually every corporate earnings announcement.\n\nUSAGE:\nIn Japanese accounting, {経常利益|けいじょうりえき} includes operating profit ({営業利益|えいぎょうりえき}) plus non-operating income and expenses such as interest and dividends. It excludes extraordinary gains and losses. This metric is given more prominence in Japanese business reporting than in Western accounting traditions.\n\nCOMMON COLLOCATIONS:\n- {経常利益|けいじょうりえき}が{増加|ぞうか}する: ordinary profit increases\n- {経常利益|けいじょうりえき}が{減少|げんしょう}する: ordinary profit decreases\n- {経常利益|けいじょうりえき}{率|りつ}: ordinary profit margin\n- {連結|れんけつ}{経常利益|けいじょうりえき}: consolidated ordinary profit\n- {経常利益|けいじょうりえき}{予想|よそう}: ordinary profit forecast\n\nSIMILAR WORDS:\n- {営業利益|えいぎょうりえき}: operating profit — profit from core business operations only, excluding financial income/expenses\n- {純利益|じゅんりえき}: net profit — the bottom line after all items including taxes and extraordinary items\n- {売上高|うりあげだか}: sales; revenue — total revenue before any expenses are subtracted",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22690_eigyourieki",
+      "reading": "えいぎょうりえき",
+      "headword": "{営業利益|えいぎょうりえき}",
+      "label": "operating profit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18911_junrieki",
+      "reading": "じゅんりえき",
+      "headword": "{純利益|じゅんりえき}",
+      "label": "net profit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12376_uriagedaka",
+      "reading": "うりあげだか",
+      "headword": "{売上高|うりあげだか}",
+      "label": "sales"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23473_eigyoushuueki",
+      "reading": "えいぎょうしゅうえき",
+      "headword": "{営業収益|えいぎょうしゅうえき}",
+      "label": "operating revenue"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["business", "economics"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "business",
+        "economics"
+      ]
     },
     "created": "2026-04-20T10:31:08Z",
-    "modified": "2026-04-20T10:31:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "I bought a cherry-blossom-pink scarf.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15614_sakurairo_ex2",
@@ -27,7 +29,9 @@
       "english": "The sky was dyed cherry blossom pink by the sunset.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15614_sakurairo_ex3",
@@ -35,21 +39,42 @@
       "english": "When spring comes, cherry-blossom-pink sweets and drinks line the store shelves.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CULTURAL NOTE:\n{桜色|さくらいろ} is one of Japan's traditional color names ({伝統色|でんとうしょく}). It is strongly associated with spring and is widely used in seasonal marketing — many spring-limited products feature this color.\n\nCOMMON COLLOCATIONS:\n- {桜色|さくらいろ}に{染|そ}まる (to be dyed cherry blossom pink)\n- {桜色|さくらいろ}の{頬|ほお} (rosy/blushing cheeks)\n- {桜色|さくらいろ}の{着物|きもの} (a pink kimono)\n\nRELATED COLORS:\n- {薄桃色|うすももいろ} (light peach) — similar but slightly warmer\n- ピンク — the general loanword for pink",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04718_pinku",
+      "reading": "ぴんく",
+      "headword": "ピンク",
+      "label": "the general loanword for pink"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24019_usubeniiro",
+      "reading": "うすべにいろ",
+      "headword": "{薄紅色|うすべにいろ}",
+      "label": "pale pink"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T13:10:37Z",
-    "modified": "2026-03-07T13:10:37Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["color"]
+      "semantic": [
+        "color"
+      ]
     }
   }
 }

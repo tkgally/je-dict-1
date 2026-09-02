@@ -2,7 +2,7 @@
   "id": "01906_oudan",
   "headword": "{横断|おうだん}",
   "reading": "おうだん",
-  "part_of_speech": "noun/suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "crossing, traversing",
   "conjugation": {
     "type": "suru",
@@ -218,11 +218,26 @@
       ]
     }
   ],
-  "notes": "A compound of ⟦{横|よこ}→横：02984_yoko⟧ (horizontal/sideways) + ⟦{断|だん}→断：noentry⟧ (cut across). Means crossing from one side to another, especially roads or large areas.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{横断|おうだん}する\n\nCOMMON COLLOCATIONS:\n- {横断|おうだん}⟦{歩道|ほどう}→歩道：03723_hodou⟧: crosswalk, pedestrian crossing\n- {横断|おうだん}⟦{禁止|きんし}→禁止：02643_kinshi⟧: no crossing (road sign)\n- ⟦{道路|どうろ}→道路：01481_douro⟧⟦を→を：00422_wo⟧{横断|おうだん}する: to cross the road\n\nCOMMON COMPOUNDS (TRAVERSAL):\n- ⟦{大陸|たいりく}→大陸：03400_tairiku⟧{横断|おうだん}: transcontinental crossing\n- ⟦{日本|にほん}→日本：03876_nihon⟧{横断|おうだん}: crossing Japan\n- ⟦アメリカ→アメリカ：01769_amerika⟧{横断|おうだん}⟦{旅行|りょこう}→旅行：00748_ryokou⟧: cross-country trip across America\n- ⟦シベリア→シベリア：noentry⟧{横断|おうだん}⟦{鉄道|てつどう}→鉄道：03550_tetsudou⟧: Trans-Siberian Railway\n\nCONTRAST:\n- {横断|おうだん}: crossing (side to side, horizontally)\n- ⟦{縦断|じゅうだん}→縦断：09035_juudan⟧: traversing (top to bottom, lengthwise)\n\nNOTE:\nIn everyday life, {横断|おうだん}⟦{歩道|ほどう}→歩道：03723_hodou⟧ (crosswalk) is the most commonly encountered compound.",
-  "cross_references": [],
+  "notes": "A compound of ⟦{横|よこ}→横：02984_yoko⟧ (horizontal/sideways) + ⟦{断|だん}→断：noentry⟧ (cut across). Means crossing from one side to another, especially roads or large areas.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{横断|おうだん}する\n\nCOMMON COLLOCATIONS:\n- {横断|おうだん}⟦{歩道|ほどう}→歩道：03723_hodou⟧: crosswalk, pedestrian crossing\n- {横断|おうだん}⟦{禁止|きんし}→禁止：02643_kinshi⟧: no crossing (road sign)\n- ⟦{道路|どうろ}→道路：01481_douro⟧⟦を→を：00422_wo⟧{横断|おうだん}する: to cross the road\n\nCOMMON COMPOUNDS (TRAVERSAL):\n- ⟦{大陸|たいりく}→大陸：03400_tairiku⟧{横断|おうだん}: transcontinental crossing\n- ⟦{日本|にほん}→日本：03876_nihon⟧{横断|おうだん}: crossing Japan\n- ⟦アメリカ→アメリカ：01769_amerika⟧{横断|おうだん}⟦{旅行|りょこう}→旅行：00748_ryokou⟧: cross-country trip across America\n- ⟦シベリア→シベリア：noentry⟧{横断|おうだん}⟦{鉄道|てつどう}→鉄道：03550_tetsudou⟧: Trans-Siberian Railway\n\nSIMILAR WORDS:\n- {横断|おうだん}: crossing (side to side, horizontally)\n- ⟦{縦断|じゅうだん}→縦断：09035_juudan⟧: traversing (top to bottom, lengthwise)\n\nUSAGE:\nIn everyday life, {横断|おうだん}⟦{歩道|ほどう}→歩道：03723_hodou⟧ (crosswalk) is the most commonly encountered compound.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09035_juudan",
+      "reading": "じゅうだん",
+      "headword": "{縦断|じゅうだん}",
+      "label": "traversing"
+    },
+    {
+      "type": "related",
+      "target_id": "21984_kousasuru",
+      "reading": "こうさする",
+      "headword": "{交差|こうさ}する",
+      "label": "to intersect"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:30:00Z",
-    "modified": "2026-05-17T17:14:21Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

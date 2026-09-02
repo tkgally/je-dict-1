@@ -19,7 +19,9 @@
       "english": "Which one of you did this?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18614_doitsu_ex2",
@@ -27,7 +29,9 @@
       "english": "Every single one of them is useless.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18614_doitsu_ex3",
@@ -35,22 +39,52 @@
       "english": "Which one of you is the culprit? Come out!",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "REGISTER:\nVery rough and rude. Part of the こそあど series at the vulgar level: こいつ (this one), そいつ (that one), あいつ (that one over there), どいつ (which one). These all refer to people in a dismissive or derogatory way.\n\nSET PHRASE:\nどいつもこいつも is a fixed expression meaning \"every last one of them\" with a strong tone of exasperation or contempt.\n\nPOLITENESS SCALE (who/which person):\n- どなた: very polite\n- {誰|だれ}: neutral\n- どいつ: rude/vulgar",
-  "cross_references": [],
+  "notes": "REGISTER:\nVery rough and rude. Part of the こそあど series at the vulgar level: こいつ (this one), そいつ (that one), あいつ (that one over there), どいつ (which one). These all refer to people in a dismissive or derogatory way.\n\nCOMMON EXPRESSIONS:\nどいつもこいつも is a fixed expression meaning \"every last one of them\" with a strong tone of exasperation or contempt.\n\nPOLITENESS SCALE (who/which person):\n- どなた: very polite\n- {誰|だれ}: neutral\n- どいつ: rude/vulgar",
+  "cross_references": [
+    {
+      "type": "keigo",
+      "target_id": "02923_donata",
+      "reading": "どなた",
+      "headword": "どなた",
+      "label": "polite"
+    },
+    {
+      "type": "related",
+      "target_id": "08267_aitsu",
+      "reading": "あいつ",
+      "headword": "あいつ",
+      "label": "that guy"
+    },
+    {
+      "type": "related",
+      "target_id": "08268_koitsu",
+      "reading": "こいつ",
+      "headword": "こいつ",
+      "label": "this guy"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T09:58:11Z",
-    "modified": "2026-03-22T09:58:11Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["pronoun"],
+      "pos": [
+        "pronoun"
+      ],
       "formality": "vulgar",
       "politeness": "plain",
-      "semantic": ["grammatical"],
-      "style": ["spoken"]
+      "semantic": [
+        "grammatical"
+      ],
+      "style": [
+        "spoken"
+      ]
     }
   }
 }

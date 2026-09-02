@@ -3,7 +3,7 @@
   "headword": "{移動|いどう}する",
   "reading": "いどうする",
   "romaji": "idousuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to move; to transfer; to relocate",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A versatile and very common verb used for any kind of movement from one location to another. Applies to people traveling, objects being relocated, weather systems moving, or even data being transferred.\n\nCOMMON COLLOCATIONS:\n- {移動|いどう}{手段|しゅだん}: means of transportation\n- {移動|いどう}{時間|じかん}: travel time\n- {移動|いどう}{距離|きょり}: distance traveled\n- {移動|いどう}{中|ちゅう}: in transit, on the move\n- {大{移動|いどう}: mass migration\n\nSIMILAR WORDS:\n- {動|うご}く: to move — more general; includes movement in place (not just from A to B)\n- {引|ひ}っ{越|こ}す: to move (house) — specifically for changing residence\n- {転勤|てんきん}する: to transfer (job) — specifically a work transfer to a different location\n\nUSAGE:\nIn modern Japanese, {移動|いどう}する is commonly used for describing how people get around: {車|くるま}で{移動|いどう}する (travel by car), {徒歩|とほ}で{移動|いどう}する (travel on foot). It is also used in technology contexts for moving files or data.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00904_ugoku",
+      "reading": "うごく",
+      "headword": "{動|うご}く",
+      "label": "to move"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01171_hikkosu",
+      "reading": "ひっこす",
+      "headword": "{引|ひ}っ{越|こ}す",
+      "label": "to move"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04555_tenkin",
+      "reading": "てんきん",
+      "headword": "{転勤|てんきん}",
+      "label": "to transfer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-06T10:38:10Z",
-    "modified": "2026-04-06T10:38:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

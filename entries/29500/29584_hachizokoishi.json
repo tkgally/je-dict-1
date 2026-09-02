@@ -17,7 +17,9 @@
       "id": "29584_hachizokoishi_ex1",
       "japanese": "{鉢底石|はちぞこいし}を{敷|し}く。",
       "english": "Lay drainage stones at the bottom.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29584_hachizokoishi_ex2",
       "japanese": "{土|つち}を{入|い}れる{前|まえ}に{鉢底石|はちぞこいし}を{入|い}れる。",
       "english": "Put in drainage stones before adding the soil.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "29584_hachizokoishi_ex3",
       "japanese": "{水|みず}はけをよくするために{鉢底石|はちぞこいし}を{使|つか}う。",
       "english": "Use drainage stones to improve drainage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {鉢底|はちぞこ} (pot bottom) + {石|いし} (stone).\n\nCOMMON COLLOCATIONS:\n- {鉢底石|はちぞこいし}を{敷|し}く: to lay drainage stones\n- {水|みず}はけをよくする: to improve drainage\n\nRELATED:\n- {軽石|かるいし}: pumice — a common material for drainage stones\n- {培養土|ばいようど}: potting soil, added on top of the stones",
+  "notes": "Compound of {鉢底|はちぞこ} (pot bottom) + {石|いし} (stone).\n\nCOMMON COLLOCATIONS:\n- {鉢底石|はちぞこいし}を{敷|し}く: to lay drainage stones\n- {水|みず}はけをよくする: to improve drainage\n\nRELATED WORDS:\n- {軽石|かるいし}: pumice — a common material for drainage stones\n- {培養土|ばいようど}: potting soil, added on top of the stones",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29594_karuishi",
+      "reading": "かるいし",
+      "headword": "{軽石|かるいし}",
+      "label": "pumice"
+    },
+    {
+      "type": "related",
+      "target_id": "29583_baiyoudo",
+      "reading": "ばいようど",
+      "headword": "{培養土|ばいようど}",
+      "label": "potting soil, added on top of the stones"
+    },
+    {
+      "type": "related",
+      "target_id": "06329_uekibachi",
+      "reading": "うえきばち",
+      "headword": "{植木鉢|うえきばち}",
+      "label": "flower pot, plant pot"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["tool"],
+      "politeness": "plain",
+      "semantic": [
+        "tool"
+      ],
       "domain": []
     },
     "created": "2026-06-30T09:20:35Z",
-    "modified": "2026-06-30T09:20:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

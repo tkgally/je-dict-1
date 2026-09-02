@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Combines {割烹|かっぽう} (cooking, culinary arts — literally \"cutting and boiling\") with {料理|りょうり} (cooking, cuisine). {割烹|かっぽう} originally referred to the fundamental techniques of Japanese cooking: {割|かつ} (cutting) and {烹|ほう} (boiling/simmering).\n\nCOMMON COLLOCATIONS:\n- {割烹料理|かっぽうりょうり}の{店|みせ}: Japanese fine dining restaurant\n- {割烹料理|かっぽうりょうり}{店|てん}: kappo restaurant\n- {本格的|ほんかくてき}な{割烹料理|かっぽうりょうり}: authentic Japanese haute cuisine\n\nCULTURAL NOTE:\n{割烹|かっぽう} restaurants typically feature a counter where guests sit facing the chef, creating an intimate dining experience. This style predates the modern sushi counter. The atmosphere is more relaxed than {懐石|かいせき} (kaiseki), though both are high-end Japanese dining.\n\nSIMILAR WORDS:\n- {懐石料理|かいせきりょうり}: kaiseki cuisine — a more formalized, multi-course presentation rooted in tea ceremony traditions\n- {会席料理|かいせきりょうり}: banquet cuisine — similar to kaiseki but designed for social gatherings, often with alcohol\n- {和食|わしょく}: Japanese food — the general term for Japanese cuisine",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26980_kaisekiryouri",
+      "reading": "かいせきりょうり",
+      "headword": "{会席料理|かいせきりょうり}",
+      "label": "banquet cuisine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10436_washoku",
+      "reading": "わしょく",
+      "headword": "{和食|わしょく}",
+      "label": "Japanese food"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +76,6 @@
       "domain": []
     },
     "created": "2026-05-06T11:10:49Z",
-    "modified": "2026-05-06T11:10:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

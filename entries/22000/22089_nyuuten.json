@@ -3,7 +3,7 @@
   "headword": "{入店|にゅうてん}",
   "reading": "にゅうてん",
   "romaji": "nyuuten",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "entering a store; admission to a restaurant",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Used in commercial and service contexts. While {店|みせ}に{入|はい}る is the everyday way to say \"enter a store,\" {入店|にゅうてん} appears on signs, in policies, and in business communication.\n\nCOMMON COLLOCATIONS:\n- {入店|にゅうてん}する: to enter a store\n- {入店|にゅうてん}{時|じ}: at the time of entering\n- {入店|にゅうてん}{拒否|きょひ}: refusal of entry\n- {入店|にゅうてん}{制限|せいげん}: entry restrictions\n- {入店|にゅうてん}{待|ま}ち: waiting to get in\n\nSIMILAR WORDS:\n- {退店|たいてん}: leaving a store — the antonym, used in the same formal register\n- {来店|らいてん}: visiting a store — from the store's perspective, describing a customer's visit\n- {入場|にゅうじょう}: admission — used for venues like theaters, stadiums, and events rather than shops",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13067_raiten",
+      "reading": "らいてん",
+      "headword": "{来店|らいてん}",
+      "label": "visiting a store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03521_nyuujou",
+      "reading": "にゅうじょう",
+      "headword": "{入場|にゅうじょう}",
+      "label": "admission"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +77,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T02:21:17Z",
-    "modified": "2026-04-05T02:21:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

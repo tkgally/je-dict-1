@@ -3,7 +3,7 @@
   "id": "13842_touchi",
   "headword": "{統治|とうち}",
   "reading": "とうち",
-  "part_of_speech": "noun / verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "rule, governance, administration",
   "conjugation": {
     "type": "suru",
@@ -142,11 +142,39 @@
       "reading": "しはい",
       "headword": "{支配|しはい}",
       "label": "domination, control"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01629_seiji",
+      "reading": "せいじ",
+      "headword": "{政治|せいじ}",
+      "label": "politics, government"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21836_tousei",
+      "reading": "とうせい",
+      "headword": "{統制|とうせい}",
+      "label": "control, regulation"
+    },
+    {
+      "type": "related",
+      "target_id": "02462_osameru",
+      "reading": "おさめる",
+      "headword": "{治|おさ}める",
+      "label": "to govern, to rule, to manage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25222_shihaisuru",
+      "reading": "しはいする",
+      "headword": "{支配|しはい}する",
+      "label": "to rule"
     }
   ],
   "metadata": {
     "created": "2026-02-27T05:13:13Z",
-    "modified": "2026-04-29T09:23:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

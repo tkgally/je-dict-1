@@ -19,7 +19,9 @@
       "english": "I spread fresh cream on the cake.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15884_namakuriimu_ex2",
@@ -27,7 +29,9 @@
       "english": "Whip the fresh cream to make whipped cream.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15884_namakuriimu_ex3",
@@ -35,21 +39,49 @@
       "english": "This pasta sauce uses plenty of fresh cream, giving it a rich flavor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMPOSITION:\n{生|なま} (raw, fresh, unprocessed) + クリーム (cream). The {生|なま} prefix distinguishes it from processed or plant-based cream substitutes.\n\nUSAGE:\nIn Japan, {生|なま}クリーム specifically refers to cream made purely from milk fat (typically 35-47% fat content), as opposed to cheaper substitutes that contain vegetable oils.\n\nCOMMON COLLOCATIONS:\n- {生|なま}クリームを{泡立|あわだ}てる (to whip fresh cream)\n- {生|なま}クリームを{加|くわ}える (to add fresh cream)\n- {生|なま}クリームたっぷり (lots of fresh cream)",
-  "cross_references": [],
+  "notes": "ETYMOLOGY:\n{生|なま} (raw, fresh, unprocessed) + クリーム (cream). The {生|なま} prefix distinguishes it from processed or plant-based cream substitutes.\n\nUSAGE:\nIn Japan, {生|なま}クリーム specifically refers to cream made purely from milk fat (typically 35-47% fat content), as opposed to cheaper substitutes that contain vegetable oils.\n\nCOMMON COLLOCATIONS:\n- {生|なま}クリームを{泡立|あわだ}てる (to whip fresh cream)\n- {生|なま}クリームを{加|くわ}える (to add fresh cream)\n- {生|なま}クリームたっぷり (lots of fresh cream)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21061_rennyuu",
+      "reading": "れんにゅう",
+      "headword": "{練乳|れんにゅう}",
+      "label": "condensed milk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27419_kondensumiruku",
+      "reading": "こんでんすみるく",
+      "headword": "コンデンスミルク",
+      "label": "condensed milk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29702_merenge",
+      "reading": "めれんげ",
+      "headword": "メレンゲ",
+      "label": "meringue"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T13:21:32Z",
-    "modified": "2026-03-08T13:21:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

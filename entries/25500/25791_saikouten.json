@@ -86,6 +86,13 @@
       "type": "antonym",
       "description": "Antonym pair: highest vs. lowest score/point",
       "target_id": "25792_saiteiten"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03156_manten",
+      "reading": "まんてん",
+      "headword": "{満点|まんてん}",
+      "label": "perfect score"
     }
   ],
   "schema_version": "2.0",
@@ -95,12 +102,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "education",
         "quantity"
       ]
     },
     "created": "2026-04-27T13:13:19Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

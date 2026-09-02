@@ -3,7 +3,7 @@
   "id": "12516_hissu",
   "headword": "{必須|ひっす}",
   "reading": "ひっす",
-  "part_of_speech": "na-adjective / noun",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "essential, indispensable, mandatory",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "English ability is essential for this job.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12516_hissu_ex2",
@@ -27,7 +29,9 @@
       "english": "Please fill in all required fields to apply.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12516_hissu_ex3",
@@ -35,7 +39,9 @@
       "english": "Stockpiling emergency food is essential as a disaster preparedness measure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nFunctions as both a na-adjective ({必須|ひっす}な / {必須|ひっす}の) and a predicate noun ({必須|ひっす}だ / {必須|ひっす}である). Very common in job listings, academic requirements, and technical documentation. Often appears in compound nouns like {必須|ひっす}{条件|じょうけん} and {必須|ひっす}{科目|かもく}.\n\nCOMMON COLLOCATIONS:\n- {必須|ひっす}{条件|じょうけん}: essential requirement\n- {必須|ひっす}{科目|かもく}: required subject/course\n- {必須|ひっす}{項目|こうもく}: required field/item\n- {必須|ひっす}アミノ{酸|さん}: essential amino acid",
@@ -53,19 +59,40 @@
       "reading": "ふかけつ",
       "headword": "{不可欠|ふかけつ}",
       "label": "indispensable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08641_hisshuu",
+      "reading": "ひっしゅう",
+      "headword": "{必修|ひっしゅう}",
+      "label": "required"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24167_hitsuju",
+      "reading": "ひつじゅ",
+      "headword": "{必需|ひつじゅ}",
+      "label": "necessity"
     }
   ],
   "metadata": {
     "created": "2026-02-21T11:11:09Z",
-    "modified": "2026-04-27T06:29:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"],
-      "style": ["written"]
+      "semantic": [
+        "descriptive"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

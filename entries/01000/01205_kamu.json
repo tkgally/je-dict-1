@@ -168,11 +168,26 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{噛|か}む (bite/chew X). No intransitive pair.\n\nASPECT: ている indicates ongoing action. {噛|か}んで⟦いる→いる：00495_iru⟧ = 'is biting/chewing.'\n\nCOMMON PATTERNS:\n・⟦ガム→ガム：00058_gamu⟧⟦を→を：00422_wo⟧{噛|か}む (chew gum)\n・⟦よく→よく：00601_yoku⟧{噛|か}む (chew well)\n・⟦{指|ゆび}→指：01518_yubi⟧⟦を→を：00422_wo⟧{噛|か}む (bite one's finger)\n・⟦{噛|か}みつく→噛みつく：26963_kamitsuku⟧ (to bite into, attack—compound)\n・{噛|か}み⟦{切|き}る→切る：02693_kiru⟧ (to bite off)\n\nKANJI NOTE: Often written in hiragana (かむ) in everyday contexts. The kanji {噛|か}む is more formal.\n\nIDIOMS:\n・⟦{舌|した}→舌：02154_shita⟧⟦を→を：00422_wo⟧{噛|か}む (bite one's tongue; also: stumble over words)\n・⟦{歯|は}→歯：00778_ha⟧⟦を→を：00422_wo⟧⟦{食|く}いしばる→食いしばる：14624_kuishibaru⟧ (grit one's teeth—different expression for similar context)",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{噛|か}む (bite/chew X). No intransitive pair.\n\nASPECT: ている indicates ongoing action. {噛|か}んで⟦いる→いる：00495_iru⟧ = 'is biting/chewing.'\n\nCOMMON PATTERNS:\n- ⟦ガム→ガム：00058_gamu⟧⟦を→を：00422_wo⟧{噛|か}む (chew gum)\n- ⟦よく→よく：00601_yoku⟧{噛|か}む (chew well)\n- ⟦{指|ゆび}→指：01518_yubi⟧⟦を→を：00422_wo⟧{噛|か}む (bite one's finger)\n- ⟦{噛|か}みつく→噛みつく：26963_kamitsuku⟧ (to bite into, attack—compound)\n- {噛|か}み⟦{切|き}る→切る：02693_kiru⟧ (to bite off)\n\nKANJI NOTE: Often written in hiragana (かむ) in everyday contexts. The kanji {噛|か}む is more formal.\n\nCOMMON EXPRESSIONS:\n- ⟦{舌|した}→舌：02154_shita⟧⟦を→を：00422_wo⟧{噛|か}む (bite one's tongue; also: stumble over words)\n- ⟦{歯|は}→歯：00778_ha⟧⟦を→を：00422_wo⟧⟦{食|く}いしばる→食いしばる：14624_kuishibaru⟧ (grit one's teeth—different expression for similar context)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25510_soshakusuru",
+      "reading": "そしゃくする",
+      "headword": "{咀嚼|そしゃく}する",
+      "label": "to chew"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26963_kamitsuku",
+      "reading": "かみつく",
+      "headword": "{噛|か}みつく",
+      "label": "to bite"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:09:42Z",
-    "modified": "2026-05-14T18:11:23Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

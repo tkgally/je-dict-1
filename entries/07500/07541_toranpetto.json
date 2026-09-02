@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "CLASSIFICATION:\nトランペット is a {金管楽器|きんかんがっき} (brass instrument).\n\nRELATED BRASS INSTRUMENTS:\n・トロンボーン - trombone\n・ホルン - horn (French horn)\n・チューバ - tuba\n・コルネット - cornet\n\nGENRES:\nUsed in classical orchestras, jazz bands, {吹奏楽|すいそうがく} (wind ensembles), and popular music.\n\nCOLLOCATIONS:\n・トランペットを{吹|ふ}く - to play the trumpet\n・トランペット{奏者|そうしゃ} - trumpet player\n・トランペットソロ - trumpet solo\n・トランペットの{音色|ねいろ} - trumpet tone/sound\n\nNOTE:\nKnown for its bright, powerful sound. Often featured in fanfares and heroic musical passages.",
+  "notes": "CLASSIFICATION:\nトランペット is a {金管楽器|きんかんがっき} (brass instrument).\n\nRELATED BRASS INSTRUMENTS:\n- トロンボーン - trombone\n- ホルン - horn (French horn)\n- チューバ - tuba\n- コルネット - cornet\n\nGENRES:\nUsed in classical orchestras, jazz bands, {吹奏楽|すいそうがく} (wind ensembles), and popular music.\n\nCOMMON COLLOCATIONS:\n- トランペットを{吹|ふ}く - to play the trumpet\n- トランペット{奏者|そうしゃ} - trumpet player\n- トランペットソロ - trumpet solo\n- トランペットの{音色|ねいろ} - trumpet tone/sound\n\nUSAGE:\nKnown for its bright, powerful sound. Often featured in fanfares and heroic musical passages.",
   "cross_references": [
     {
       "type": "related",
@@ -55,11 +55,32 @@
       "headword": "サックス",
       "label": "saxophone",
       "target_id": "07540_sakkusu"
+    },
+    {
+      "type": "related",
+      "target_id": "08139_toronboon",
+      "reading": "とろんぼーん",
+      "headword": "トロンボーン",
+      "label": "trombone"
+    },
+    {
+      "type": "related",
+      "target_id": "23742_horun",
+      "reading": "ほるん",
+      "headword": "ホルン",
+      "label": "horn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09958_rappa",
+      "reading": "らっぱ",
+      "headword": "ラッパ",
+      "label": "trumpet"
     }
   ],
   "metadata": {
     "created": "2026-01-20T08:47:47Z",
-    "modified": "2026-01-24T14:24:36Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -67,6 +88,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "music"
       ]

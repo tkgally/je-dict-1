@@ -3,7 +3,7 @@
   "id": "15395_zangyaku",
   "headword": "{残虐|ざんぎゃく}",
   "reading": "ざんぎゃく",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "cruel; brutal; atrocious",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "We will not tolerate cruel acts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15395_zangyaku_ex2",
@@ -27,7 +29,9 @@
       "english": "That movie has many brutal scenes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15395_zangyaku_ex3",
@@ -35,21 +39,42 @@
       "english": "Many atrocious incidents are recorded throughout history.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{残虐|ざんぎゃく} describes severe cruelty that goes beyond ordinary unkindness. It is used for serious contexts such as war crimes, torture, and extreme violence.\n\nCOMMON COLLOCATIONS:\n- {残虐|ざんぎゃく}な{行為|こうい} (cruel act)\n- {残虐|ざんぎゃく}な{犯罪|はんざい} (brutal crime)\n- {残虐性|ざんぎゃくせい} (cruelty; brutality — noun form)\n\nSIMILAR WORDS:\n{残酷|ざんこく} (cruel) is similar but slightly more common in everyday use. {残虐|ざんぎゃく} implies a more extreme degree of cruelty.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13201_zankoku",
+      "reading": "ざんこく",
+      "headword": "{残酷|ざんこく}",
+      "label": "cruel"
+    },
+    {
+      "type": "related",
+      "target_id": "08002_bankou",
+      "reading": "ばんこう",
+      "headword": "{蛮行|ばんこう}",
+      "label": "barbaric act"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T12:34:47Z",
-    "modified": "2026-03-06T12:34:47Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

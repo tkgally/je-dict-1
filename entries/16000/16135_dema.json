@@ -19,7 +19,9 @@
       "english": "That's a false rumor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16135_dema_ex2",
@@ -27,7 +29,9 @@
       "english": "Misinformation is spreading on social media.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16135_dema_ex3",
@@ -35,7 +39,9 @@
       "english": "Spreading false rumors during a disaster is an extremely dangerous act.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "ETYMOLOGY:\nFrom German 'Demagogie' (demagoguery). Originally used in political contexts to describe propaganda, but the meaning has broadened to include any false rumor or misinformation.\n\nUSAGE:\nデマ is stronger than {噂|うわさ} (rumor), as it specifically implies the information is false. It has become especially common in the context of internet misinformation.\n\nCOMMON COLLOCATIONS:\n- デマを{流|なが}す (to spread a false rumor)\n- デマが{広|ひろ}がる (misinformation spreads)\n- デマ{情報|じょうほう} (false information)\n- デマに{惑|まど}わされる (to be misled by misinformation)",
@@ -46,18 +52,36 @@
       "reading": "うわさ",
       "headword": "{噂|うわさ}",
       "label": "rumor (neutral, not necessarily false)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21907_ryuugen",
+      "reading": "りゅうげん",
+      "headword": "{流言|りゅうげん}",
+      "label": "rumor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28748_toshidensetsu",
+      "reading": "としでんせつ",
+      "headword": "{都市伝説|としでんせつ}",
+      "label": "urban legend"
     }
   ],
   "metadata": {
     "created": "2026-03-10T06:02:46Z",
-    "modified": "2026-05-03T05:08:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

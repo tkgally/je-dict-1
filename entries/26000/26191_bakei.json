@@ -17,7 +17,9 @@
       "id": "26191_bakei_ex1",
       "japanese": "{美|うつく}しい{場景|ばけい}が{広|ひろ}がっていた。",
       "english": "A beautiful scene spread out before us.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26191_bakei_ex2",
       "japanese": "{小説|しょうせつ}の{冒頭|ぼうとう}の{場景|ばけい}が{印象的|いんしょうてき}だった。",
       "english": "The opening scene of the novel was memorable.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,50 @@
       "id": "26191_bakei_ex3",
       "japanese": "{戦後|せんご}の{焼|や}け{野原|のはら}の{場景|ばけい}は{多|おお}くの{作家|さっか}に{影響|えいきょう}を{与|あた}えた。",
       "english": "The scene of the postwar burnt-out wasteland influenced many writers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A somewhat literary or formal word for a scene or setting, composed of {場|ば} (place) and {景|けい} (scenery, view). More evocative than the everyday word {場面|ばめん}, emphasizing the visual or atmospheric quality of a scene.\n\nCOMMON COLLOCATIONS:\n- {美|うつく}しい{場景|ばけい} — beautiful scene\n- {印象的|いんしょうてき}な{場景|ばけい} — memorable scene\n- {壮大|そうだい}な{場景|ばけい} — grand spectacle\n- {場景|ばけい}が{広|ひろ}がる — a scene unfolds\n\nSIMILAR WORDS:\n- {場面|ばめん} — scene (more common, used for specific moments in stories or events)\n- {光景|こうけい} — sight, spectacle (emphasizes what is visually witnessed)\n- {風景|ふうけい} — landscape, scenery (natural or outdoor views)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03702_bamen",
+      "reading": "ばめん",
+      "headword": "{場面|ばめん}",
+      "label": "scene"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02799_koukei",
+      "reading": "こうけい",
+      "headword": "{光景|こうけい}",
+      "label": "sight, spectacle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03591_fuukei",
+      "reading": "ふうけい",
+      "headword": "{風景|ふうけい}",
+      "label": "landscape, scenery"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["art"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "art"
+      ]
     },
     "created": "2026-04-30T11:26:58Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

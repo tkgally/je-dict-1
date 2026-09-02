@@ -19,7 +19,9 @@
       "english": "There is a strange smell coming from the room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16019_ishuu_ex2",
@@ -27,7 +29,9 @@
       "english": "A resident who noticed the strange smell called the police.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16019_ishuu_ex3",
@@ -35,10 +39,12 @@
       "english": "A foul odor drifted from the factory, and complaints poured in from surrounding residents.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{異臭|いしゅう} is commonly found in news reports and official communications. The most typical pattern is {異臭|いしゅう}がする (there is a strange smell).\n\nCOMMON COLLOCATIONS:\n- {異臭|いしゅう}がする (there is a strange smell)\n- {異臭|いしゅう}を{放|はな}つ (to emit a foul odor)\n- {異臭|いしゅう}が{漂|ただよ}う (a stench wafts/drifts)\n- {異臭|いしゅう}{騒|さわ}ぎ (commotion over a strange smell)\n\nNUANCE:\nUnlike {臭|にお}い, which can be neutral (any smell), {異臭|いしゅう} always implies something abnormal and usually unpleasant. It often signals danger or something requiring investigation.",
+  "notes": "USAGE:\n{異臭|いしゅう} is commonly found in news reports and official communications. The most typical pattern is {異臭|いしゅう}がする (there is a strange smell).\nUnlike {臭|にお}い, which can be neutral (any smell), {異臭|いしゅう} always implies something abnormal and usually unpleasant. It often signals danger or something requiring investigation.\n\nCOMMON COLLOCATIONS:\n- {異臭|いしゅう}がする (there is a strange smell)\n- {異臭|いしゅう}を{放|はな}つ (to emit a foul odor)\n- {異臭|いしゅう}が{漂|ただよ}う (a stench wafts/drifts)\n- {異臭|いしゅう}{騒|さわ}ぎ (commotion over a strange smell)",
   "cross_references": [
     {
       "type": "contrast",
@@ -53,18 +59,29 @@
       "reading": "くさい",
       "headword": "{臭|くさ}い",
       "label": "smelly, stinky"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15871_akushuu",
+      "reading": "あくしゅう",
+      "headword": "{悪臭|あくしゅう}",
+      "label": "stench"
     }
   ],
   "metadata": {
     "created": "2026-03-09T08:33:32Z",
-    "modified": "2026-05-02T10:22:31Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

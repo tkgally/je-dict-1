@@ -3,7 +3,7 @@
   "headword": "{注|つ}ぎ{足|た}す",
   "reading": "つぎたす",
   "romaji": "tsugitasu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to top up; to add more; to replenish",
   "definitions": [
     {
@@ -45,6 +45,22 @@
     }
   ],
   "notes": "A compound verb combining {注|つ}ぐ (to pour) and {足|た}す (to add, supplement). Specifically describes the action of replenishing a liquid or substance that has been partially consumed or reduced. Very common in cooking and dining contexts.\n\nUSAGE:\n- Primarily used for liquids: water, soup, oil, beverages\n- Implies the container already has some of the substance — you are adding more\n- In Japanese dining culture, it is polite to {注|つ}ぎ{足|た}す drinks for others before they run out\n\nTRANSITIVITY: Transitive (takes を)\n\nCOMMON COLLOCATIONS:\n- お{湯|ゆ}を{注|つ}ぎ{足|た}す: to top up hot water\n- {水|みず}を{注|つ}ぎ{足|た}す: to add more water\n- {油|あぶら}を{注|つ}ぎ{足|た}す: to top up the oil\n- ビールを{注|つ}ぎ{足|た}す: to pour more beer\n\nSIMILAR WORDS:\n- {足|た}す: to add — more general; not limited to pouring\n- {注|つ}ぐ: to pour — the base verb; simply pouring, not specifically replenishing\n- {補充|ほじゅう}する: to replenish, restock — more formal; used for supplies and inventory\n- おかわりする: to have another serving — from the recipient's perspective; asking for more",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02470_tsugu",
+      "reading": "つぐ",
+      "headword": "{注|つ}ぐ",
+      "label": "to pour"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25240_hojuusuru",
+      "reading": "ほじゅうする",
+      "headword": "{補充|ほじゅう}する",
+      "label": "to replenish, restock"
+    }
+  ],
   "metadata": {
     "entry_id": "21792_tsugitasu",
     "schema_version": "2.0",
@@ -56,6 +72,7 @@
         "verb-godan"
       ],
       "transitivity": "transitive",
+      "politeness": "plain",
       "semantic": [
         "food"
       ],
@@ -63,7 +80,7 @@
       "usage": [],
       "verb_class": "godan-su"
     },
-    "modified": "2026-04-10T06:37:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

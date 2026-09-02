@@ -17,7 +17,9 @@
       "id": "25522_sasagemono_ex1",
       "japanese": "{神|かみ}への{捧|ささ}げ{物|もの}を{用意|ようい}した。",
       "english": "I prepared an offering for the gods.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25522_sasagemono_ex2",
       "japanese": "{祭壇|さいだん}に{捧|ささ}げ{物|もの}が{並|なら}べられていた。",
       "english": "Offerings were arranged on the altar.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,37 @@
       "id": "25522_sasagemono_ex3",
       "japanese": "この{作品|さくひん}は{亡|な}き{師匠|ししょう}への{捧|ささ}げ{物|もの}として{書|か}かれた。",
       "english": "This work was written as a tribute to the late master.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {捧|ささ}げる (to offer; to dedicate) + {物|もの} (thing). Used in both religious and secular contexts. In religious usage, it refers to physical offerings placed at altars or shrines. In secular usage, it can refer to a creative work, performance, or gesture dedicated to someone.\n\nCOMMON COLLOCATIONS:\n- {神|かみ}への{捧|ささ}げ{物|もの}: offering to the gods\n- {祭壇|さいだん}の{捧|ささ}げ{物|もの}: altar offering\n- {捧|ささ}げ{物|もの}をする: to make an offering\n\nSIMILAR WORDS:\n- {供|そな}え{物|もの}: offering (at a shrine, grave, or altar) — the more common everyday word for offerings placed at Buddhist altars or graves\n- {貢|みつ}ぎ{物|もの}: tribute — specifically something given to a superior or ruler, often implying obligation\n- {奉納|ほうのう}{品|ひん}: votive offering — a formal offering dedicated to a shrine or temple",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18160_sonaemono",
+      "reading": "そなえもの",
+      "headword": "{供|そな}え{物|もの}",
+      "label": "offering"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["religion", "culture"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "religion",
+        "culture"
+      ]
     },
     "created": "2026-04-25T15:21:43Z",
-    "modified": "2026-04-25T15:21:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

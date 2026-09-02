@@ -3,7 +3,7 @@
   "headword": "{内在|ないざい}",
   "reading": "ないざい",
   "romaji": "naizai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "inherence; being inherent; internal existence",
   "definitions": [
     {
@@ -56,6 +56,22 @@
   ],
   "notes": "Composed of {内|ない} (within, inside) and {在|ざい} (exist, be present). The word belongs to academic and intellectual register, appearing in philosophy, social science, literary criticism, and formal analysis. It contrasts sharply with {外在|がいざい} (external existence).\n\nIn philosophy, {内在|ないざい} is used to translate the concept of \"immanence\" — the idea that qualities or principles exist within the thing itself rather than being transcendent or externally imposed.\n\nCOMMON COLLOCATIONS:\n- {内在|ないざい}する: to be inherent in, to exist within\n- {内在|ないざい}する{矛盾|むじゅん}: inherent contradiction\n- {内在|ないざい}{的|てき}: inherent, intrinsic (as modifier)\n- {内在|ないざい}{的|てき}{価値|かち}: intrinsic value\n\nSIMILAR WORDS:\n- {固有|こゆう}: inherent, intrinsic — emphasizes that something belongs uniquely to a particular entity; less abstract than {内在|ないざい}\n- {潜在|せんざい}: latent, potential — something hidden within that has not yet surfaced; {内在|ないざい} does not imply hiddenness\n- {外在|がいざい}: external existence — the direct opposite, meaning existing outside or being imposed from without",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05615_koyuu",
+      "reading": "こゆう",
+      "headword": "{固有|こゆう}",
+      "label": "inherent, intrinsic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13390_senzai",
+      "reading": "せんざい",
+      "headword": "{潜在|せんざい}",
+      "label": "latent, potential"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -71,7 +87,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-17T20:09:54Z",
-    "modified": "2026-04-17T20:09:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

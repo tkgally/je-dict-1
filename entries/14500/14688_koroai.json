@@ -24,7 +24,9 @@
       "english": "It's about the right time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14688_koroai_ex2",
@@ -32,7 +34,9 @@
       "english": "I stood up when I saw the right moment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14688_koroai_ex3",
@@ -40,7 +44,9 @@
       "english": "The conversation was lively, but considering the time of the last train, I decided to leave at an opportune moment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14688_koroai_ex4",
@@ -48,7 +54,9 @@
       "english": "It's a suitable size.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14688_koroai_ex5",
@@ -56,7 +64,9 @@
       "english": "The soup has reached a suitable temperature.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14688_koroai_ex6",
@@ -64,21 +74,42 @@
       "english": "I'm looking for a restaurant with reasonable prices.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "A refined-sounding word that conveys social awareness of appropriate timing. Frequently used when politely excusing oneself from gatherings.\n\nCOMMON COLLOCATIONS:\n- {頃合|ころあ}いを{見|み}る / {見計|みはか}らう (gauge the right moment)\n- {頃合|ころあ}いだ (it's the right time)\n- そろそろ{頃合|ころあ}いだ (it's about time)\n- {頃合|ころあ}いの～ (a suitable/moderate ~)\n\nSIMILAR WORDS:\n- タイミング is the loanword for timing (neutral)\n- {潮時|しおどき} means the right time to act, often to stop/withdraw\n- {頃合|ころあ}い has a softer, more measured nuance",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17683_taimingu",
+      "reading": "たいみんぐ",
+      "headword": "タイミング",
+      "label": "is the loanword for timing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10921_shiodoki",
+      "reading": "しおどき",
+      "headword": "{潮時|しおどき}",
+      "label": "means the right time to act, often…"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T11:05:06Z",
-    "modified": "2026-03-02T11:05:06Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

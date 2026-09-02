@@ -3,7 +3,7 @@
   "id": "17934_shoshinshamuke",
   "headword": "{初心者向|しょしんしゃむ}け",
   "reading": "しょしんしゃむけ",
-  "part_of_speech": "noun, adjective (no)",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "for beginners; beginner-friendly",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "I took a course for beginners.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17934_shoshinshamuke_ex2",
@@ -27,7 +29,9 @@
       "english": "This cookbook is aimed at beginners and easy to understand.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17934_shoshinshamuke_ex3",
@@ -35,7 +39,9 @@
       "english": "It's a beginner-friendly hiking course, so it's fine even if you're not confident about your fitness.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA very common label on books, courses, websites, and products in Japan. Uses the productive suffix {向|む}け (aimed at). Often contrasted with {上級者向|じょうきゅうしゃむ}け (for advanced users) or {経験者向|けいけんしゃむ}け (for experienced people).\n\nCOMMON COLLOCATIONS:\n- {初心者向|しょしんしゃむ}けの{本|ほん} (book for beginners)\n- {初心者向|しょしんしゃむ}けの{講座|こうざ} (course for beginners)\n- {初心者向|しょしんしゃむ}けコース (beginner course)",
@@ -46,18 +52,44 @@
       "reading": "こどもむけ",
       "headword": "{子供向|こどもむ}け",
       "label": "for children"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18849_nyuumonsho",
+      "reading": "にゅうもんしょ",
+      "headword": "{入門書|にゅうもんしょ}",
+      "label": "introductory book"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23686_joukyuushamuke",
+      "reading": "じょうきゅうしゃむけ",
+      "headword": "{上級者向|じょうきゅうしゃむ}け",
+      "label": "for advanced users"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23687_shokyuushamuke",
+      "reading": "しょきゅうしゃむけ",
+      "headword": "{初級者向|しょきゅうしゃむ}け",
+      "label": "for beginners"
     }
   ],
   "metadata": {
     "created": "2026-03-19T09:16:37Z",
-    "modified": "2026-05-07T10:07:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     }
   }

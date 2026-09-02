@@ -18,7 +18,9 @@
       "english": "Let's go drink at an izakaya.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09635_izakaya_ex2",
@@ -26,7 +28,9 @@
       "english": "After work, I went to an izakaya with my colleagues.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09635_izakaya_ex3",
@@ -34,10 +38,12 @@
       "english": "This izakaya has a reputation for delicious food.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "CULTURAL NOTE:\nIzakayas are popular gathering places for friends and coworkers. They typically offer a wide variety of small dishes meant for sharing, along with beer, sake, and other drinks. Many have a casual, lively atmosphere.\n\nCOMMON PATTERNS:\n・{居酒屋|いざかや}で{飲|の}む (to drink at an izakaya)\n・{居酒屋|いざかや}に{行|い}く (to go to an izakaya)\n\nSIMILAR:\n・バー (bar - Western-style)\n・{飲|の}み{屋|や} (drinking establishment - informal)",
+  "notes": "CULTURAL NOTE:\nIzakayas are popular gathering places for friends and coworkers. They typically offer a wide variety of small dishes meant for sharing, along with beer, sake, and other drinks. Many have a casual, lively atmosphere.\n\nCOMMON PATTERNS:\n- {居酒屋|いざかや}で{飲|の}む (to drink at an izakaya)\n- {居酒屋|いざかや}に{行|い}く (to go to an izakaya)\n\nSIMILAR:\n- バー (bar - Western-style)\n- {飲|の}み{屋|や} (drinking establishment - informal)",
   "cross_references": [
     {
       "type": "related",
@@ -45,18 +51,50 @@
       "reading": "のみや",
       "headword": "{飲|の}み{屋|や}",
       "label": "drinking place (informal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07060_baa",
+      "reading": "ばー",
+      "headword": "バー",
+      "label": "bar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25455_washokuten",
+      "reading": "わしょくてん",
+      "headword": "{和食店|わしょくてん}",
+      "label": "Japanese restaurant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27528_pabu",
+      "reading": "ぱぶ",
+      "headword": "パブ",
+      "label": "pub"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27551_ryouriya",
+      "reading": "りょうりや",
+      "headword": "{料理屋|りょうりや}",
+      "label": "Japanese restaurant (traditional)"
     }
   ],
   "metadata": {
     "created": "2026-02-03T02:58:32Z",
-    "modified": "2026-04-23T06:13:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

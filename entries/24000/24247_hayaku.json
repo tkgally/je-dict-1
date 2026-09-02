@@ -17,7 +17,9 @@
       "id": "24247_hayaku_ex1",
       "japanese": "{端役|はやく}でも{出演|しゅつえん}できてうれしい。",
       "english": "I'm happy even to appear in a minor role.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24247_hayaku_ex2",
       "japanese": "{彼女|かのじょ}は{端役|はやく}から{主役|しゅやく}にまで{成長|せいちょう}した。",
       "english": "She grew from bit parts all the way to leading roles.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,54 @@
       "id": "24247_hayaku_ex3",
       "japanese": "{有名|ゆうめい}な{俳優|はいゆう}でも{若|わか}い{頃|ころ}は{端役|はやく}ばかりだったそうだ。",
       "english": "Even famous actors apparently had nothing but minor roles when they were young.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {端|は} ('edge; margin; peripheral') and {役|やく} ('role; part'). The word evokes a position at the margins of the main action — someone who appears briefly without driving the story.\n\nUSAGE:\n- Primarily used in theater, film, and television contexts\n- Can be used figuratively to describe a person playing an insignificant part in a project or event\n- Often contrasted with {主役|しゅやく} ('leading role') or {大役|たいやく} ('important role')\n- The story arc of rising from {端役|はやく} to stardom is a common narrative in entertainment industry stories\n\nCOMMON COLLOCATIONS:\n- {端役|はやく}を{演|えん}じる: to play a minor role\n- {端役|はやく}ばかり: nothing but minor roles\n- {端役|はやく}から{始|はじ}める: to start from minor roles\n- {端役|はやく}{俳優|はいゆう}: bit-part actor\n\nSIMILAR WORDS:\n- {脇役|わきやく}: supporting role — a more significant secondary role that contributes to the plot, unlike the marginal {端役|はやく}\n- {主役|しゅやく}: leading role; protagonist — the antonym; the central role in a production\n- エキストラ: extra — a background performer with no lines, even smaller than a {端役|はやく}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13933_wakiyaku",
+      "reading": "わきやく",
+      "headword": "{脇役|わきやく}",
+      "label": "supporting role"
+    },
+    {
+      "type": "antonym",
+      "target_id": "04199_shuyaku",
+      "reading": "しゅやく",
+      "headword": "{主役|しゅやく}",
+      "label": "leading role"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18098_joen",
+      "reading": "じょえん",
+      "headword": "{助演|じょえん}",
+      "label": "supporting role"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"],
-      "domain": ["academic"]
+      "semantic": [
+        "leisure"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-04-18T11:22:55Z",
-    "modified": "2026-04-18T11:22:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A common word in health and science contexts. Though technically {菌|きん} refers to bacteria/fungi, in everyday Japanese {病原菌|びょうげんきん} is used loosely to mean any disease-causing microorganism, including viruses.\n\nCOMMON COLLOCATIONS:\n- {病原菌|びょうげんきん}を{除去|じょきょ}する: to remove pathogens\n- {病原菌|びょうげんきん}の{感染|かんせん}: infection by pathogens\n- {病原菌|びょうげんきん}が{繁殖|はんしょく}する: pathogens multiply\n- {病原菌|びょうげんきん}を{持|も}つ: to carry pathogens\n\nRELATED TERMS:\n- {細菌|さいきん}: bacteria — broader term for all bacteria\n- ウイルス: virus — technically distinct from bacteria\n- {病原体|びょうげんたい}: pathogen — more precise scientific term covering all disease-causing agents\n\nFORMATION:\n{病原|びょうげん} (disease-causing) + {菌|きん} (bacteria/germ)",
+  "notes": "A common word in health and science contexts. Though technically {菌|きん} refers to bacteria/fungi, in everyday Japanese {病原菌|びょうげんきん} is used loosely to mean any disease-causing microorganism, including viruses.\n\nCOMMON COLLOCATIONS:\n- {病原菌|びょうげんきん}を{除去|じょきょ}する: to remove pathogens\n- {病原菌|びょうげんきん}の{感染|かんせん}: infection by pathogens\n- {病原菌|びょうげんきん}が{繁殖|はんしょく}する: pathogens multiply\n- {病原菌|びょうげんきん}を{持|も}つ: to carry pathogens\n\nRELATED WORDS:\n- {細菌|さいきん}: bacteria — broader term for all bacteria\n- ウイルス: virus — technically distinct from bacteria\n- {病原体|びょうげんたい}: pathogen — more precise scientific term covering all disease-causing agents\n\nFORMS:\n{病原|びょうげん} (disease-causing) + {菌|きん} (bacteria/germ)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13791_saikin",
+      "reading": "さいきん",
+      "headword": "{細菌|さいきん}",
+      "label": "bacteria"
+    },
+    {
+      "type": "related",
+      "target_id": "05223_uirusu",
+      "reading": "ういるす",
+      "headword": "ウイルス",
+      "label": "virus"
+    },
+    {
+      "type": "related",
+      "target_id": "19570_byougentai",
+      "reading": "びょうげんたい",
+      "headword": "{病原体|びょうげんたい}",
+      "label": "pathogen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17825_baikin",
+      "reading": "ばいきん",
+      "headword": "ばい{菌|きん}",
+      "label": "germs"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-04-05T19:23:27Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

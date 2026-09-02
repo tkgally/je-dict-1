@@ -46,6 +46,22 @@
   ],
   "notes": "From English \"smart contract.\" A blockchain-based program that automatically enforces the terms of an agreement when preset conditions are satisfied, removing the need for a trusted intermediary.\n\nCOMMON COLLOCATIONS:\n- スマートコントラクトを{実行|じっこう}する: to execute a smart contract\n- スマートコントラクトで{自動化|じどうか}する: to automate with a smart contract\n- スマートコントラクトを{開発|かいはつ}する: to develop a smart contract\n\nSIMILAR WORDS:\n- ブロックチェーン: blockchain — the distributed ledger technology on which smart contracts run\n- {契約|けいやく}: contract; agreement — an ordinary legal or business agreement, not the automated program",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06401_burokkucheen",
+      "reading": "ぶろっくちぇーん",
+      "headword": "ブロックチェーン",
+      "label": "blockchain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02698_keiyaku",
+      "reading": "けいやく",
+      "headword": "{契約|けいやく}",
+      "label": "contract"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "technology"
       ],
       "domain": []
     },
     "created": "2026-07-05T03:18:57Z",
-    "modified": "2026-07-05T03:18:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

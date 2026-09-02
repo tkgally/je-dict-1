@@ -3,7 +3,7 @@
   "id": "14704_kougaku",
   "headword": "{高額|こうがく}",
   "reading": "こうがく",
-  "part_of_speech": "noun, adjective-na",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "large sum; high price; expensive",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "I made an expensive purchase.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14704_kougaku_ex2",
@@ -27,7 +29,9 @@
       "english": "I used the high-cost medical expense reimbursement system.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14704_kougaku_ex3",
@@ -35,7 +39,9 @@
       "english": "This apartment is expensive because it's close to the station, but I think the price is reasonable considering the convenience.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Compound of {高|こう} (high) + {額|がく} (amount). Functions as both a noun and a no-/na-adjective.\n\nCOMMON COLLOCATIONS:\n- {高額|こうがく}な{商品|しょうひん} (expensive product)\n- {高額|こうがく}{医療費|いりょうひ} (high medical expenses)\n- {高額|こうがく}{納税者|のうぜいしゃ} (high taxpayer)\n- {高額|こうがく}{当選|とうせん} (winning a large amount, as in lottery)\n- {高額|こうがく}{請求|せいきゅう} (large bill/charge)\n\nSIMILAR WORDS:\n{高価|こうか} (expensive, costly) describes the value or quality of goods, while {高額|こうがく} focuses on the monetary amount. {高値|たかね} refers specifically to market prices.",
@@ -46,18 +52,44 @@
       "reading": "こうか",
       "headword": "{高価|こうか}",
       "label": "expensive (item quality)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15387_shougaku",
+      "reading": "しょうがく",
+      "headword": "{少額|しょうがく}",
+      "label": "small amount (of money)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20324_hougai",
+      "reading": "ほうがい",
+      "headword": "{法外|ほうがい}",
+      "label": "outrageous"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23166_gekitaka",
+      "reading": "げきたか",
+      "headword": "{激高|げきたか}",
+      "label": "extremely expensive"
     }
   ],
   "metadata": {
     "created": "2026-03-03T09:04:50Z",
-    "modified": "2026-04-07T03:12:19Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["economics"]
+      "semantic": [
+        "economics"
+      ]
     }
   }
 }

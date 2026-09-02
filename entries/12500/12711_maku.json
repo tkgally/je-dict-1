@@ -3,7 +3,7 @@
   "id": "12711_maku",
   "headword": "{撒|ま}く",
   "reading": "まく",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to scatter, to sprinkle, to spread",
   "conjugation": {
     "type": "godan",
@@ -170,10 +170,39 @@
     }
   ],
   "notes": "TRANSITIVITY:\nTransitive ({他動詞|たどうし}). Takes を for what is scattered or who is shaken off.\n\nASPECT (ている):\n{撒|ま}いている describes an ongoing scattering action.\n\nCOMMON COLLOCATIONS:\n- {水|みず}を{撒|ま}く: to sprinkle water\n- {塩|しお}を{撒|ま}く: to spread salt\n- {豆|まめ}を{撒|ま}く: to scatter beans (Setsubun)\n- {尾行|びこう}を{撒|ま}く: to shake off a tail\n\nSIMILAR WORDS:\n- {蒔|ま}く: to sow (seeds, specifically for planting)\n- {撒|ま}く: to scatter, to sprinkle (broader, not necessarily for planting)\n- {巻|ま}く: to wind, to wrap (different kanji and meaning)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "02418_maku",
+      "reading": "まく",
+      "headword": "{巻|ま}く",
+      "label": "to wind, to wrap"
+    },
+    {
+      "type": "related",
+      "target_id": "08433_makichirasu",
+      "reading": "まきちらす",
+      "headword": "{撒|ま}き{散|ち}らす",
+      "label": "to scatter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21064_sanpu",
+      "reading": "さんぷ",
+      "headword": "{散布|さんぷ}",
+      "label": "spraying"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21621_sanpusuru",
+      "reading": "さんぷする",
+      "headword": "{散布|さんぷ}する",
+      "label": "to scatter"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T06:19:41Z",
-    "modified": "2026-04-27T07:31:57Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

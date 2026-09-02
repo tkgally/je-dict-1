@@ -2,7 +2,7 @@
   "id": "05140_kyuugaku",
   "headword": "{休学|きゅうがく}",
   "reading": "きゅうがく",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "leave of absence from school",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "Temporarily suspending enrollment while maintaining student status. Common reasons include illness, financial hardship, family circumstances, or studying abroad.\n\nCOMMON COLLOCATIONS:\n- {休学|きゅうがく}⟦する→する：00392_suru⟧: to take a leave of absence\n- {休学|きゅうがく}⟦{届|とどけ}→届け：07558_todoke⟧: leave of absence application form\n- {休学|きゅうがく}⟦{期間|きかん}→期間：00229_kikan⟧: period of leave\n- {休学|きゅうがく}⟦{中|ちゅう}→中：09840_chuu⟧: currently on leave\n\nUSAGE:\nUnlike ⟦{退学|たいがく}→退学：03387_taigaku⟧ (withdrawal), {休学|きゅうがく} preserves the student's enrollment. The student can return via ⟦{復学|ふくがく}→復学：21607_fukugaku⟧. Most universities allow up to 2 years of leave.\n\nRELATED TERMS:\n- ⟦{復学|ふくがく}→復学：21607_fukugaku⟧: returning to school after leave\n- ⟦{退学|たいがく}→退学：03387_taigaku⟧: dropping out/withdrawal (permanent)\n- ⟦{留年|りゅうねん}→留年：05141_ryuunen⟧: repeating a year\n- ⟦{入学|にゅうがく}→入学：02092_nyuugaku⟧: enrollment",
+  "notes": "Temporarily suspending enrollment while maintaining student status. Common reasons include illness, financial hardship, family circumstances, or studying abroad.\n\nCOMMON COLLOCATIONS:\n- {休学|きゅうがく}⟦する→する：00392_suru⟧: to take a leave of absence\n- {休学|きゅうがく}⟦{届|とどけ}→届け：07558_todoke⟧: leave of absence application form\n- {休学|きゅうがく}⟦{期間|きかん}→期間：00229_kikan⟧: period of leave\n- {休学|きゅうがく}⟦{中|ちゅう}→中：09840_chuu⟧: currently on leave\n\nUSAGE:\nUnlike ⟦{退学|たいがく}→退学：03387_taigaku⟧ (withdrawal), {休学|きゅうがく} preserves the student's enrollment. The student can return via ⟦{復学|ふくがく}→復学：21607_fukugaku⟧. Most universities allow up to 2 years of leave.\n\nRELATED WORDS:\n- ⟦{復学|ふくがく}→復学：21607_fukugaku⟧: returning to school after leave\n- ⟦{退学|たいがく}→退学：03387_taigaku⟧: dropping out/withdrawal (permanent)\n- ⟦{留年|りゅうねん}→留年：05141_ryuunen⟧: repeating a year\n- ⟦{入学|にゅうがく}→入学：02092_nyuugaku⟧: enrollment",
   "cross_references": [
     {
       "type": "antonym",
@@ -155,11 +155,32 @@
       "reading": "りゅうねん",
       "headword": "{留年|りゅうねん}",
       "label": "repeating a year"
+    },
+    {
+      "type": "related",
+      "target_id": "02092_nyuugaku",
+      "reading": "にゅうがく",
+      "headword": "{入学|にゅうがく}",
+      "label": "enrollment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04189_zaigaku",
+      "reading": "ざいがく",
+      "headword": "{在学|ざいがく}",
+      "label": "enrolled in school, attending"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22314_teigaku",
+      "reading": "ていがく",
+      "headword": "{停学|ていがく}",
+      "label": "school suspension"
     }
   ],
   "metadata": {
     "created": "2026-01-16T02:32:54Z",
-    "modified": "2026-06-04T16:09:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

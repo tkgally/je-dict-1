@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{覚|おぼ}える (memorize/learn X).\n\nASPECT: ている indicates resulting state. {覚|おぼ}えている = 'remember' (state of having memorized). This is a key verb where ている means the result, not ongoing action.\n\nCOMMON PATTERNS:\n・⟦{漢字|かんじ}→漢字：09480_kanji⟧⟦を→を：00422_wo⟧{覚|おぼ}える (memorize kanji)\n・⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧{覚|おぼ}える (remember a name)\n・⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧{覚|おぼ}える (remember a face)\n・{覚|おぼ}えている (remember - state)\n\nOpposite: ⟦{忘|わす}れる→忘れる：00474_wasureru⟧ (to forget). Different from ⟦{習|なら}う→習う：00479_narau⟧ which emphasizes learning from a teacher.\n\nDo not confuse {覚|おぼ}えている with ⟦{思|おも}い{出|だ}す→思い出す：01258_omoidasu⟧. {覚|おぼ}えている is the ongoing state of holding something in memory; ⟦{思|おも}い{出|だ}す→思い出す：01258_omoidasu⟧ is the act of retrieving it at a particular moment. English 'remember' covers both, so learners often use the wrong one.",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{覚|おぼ}える (memorize/learn X).\n\nASPECT: ている indicates resulting state. {覚|おぼ}えている = 'remember' (state of having memorized). This is a key verb where ている means the result, not ongoing action.\n\nCOMMON PATTERNS:\n- ⟦{漢字|かんじ}→漢字：09480_kanji⟧⟦を→を：00422_wo⟧{覚|おぼ}える (memorize kanji)\n- ⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧{覚|おぼ}える (remember a name)\n- ⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧{覚|おぼ}える (remember a face)\n- {覚|おぼ}えている (remember - state)\n\nOpposite: ⟦{忘|わす}れる→忘れる：00474_wasureru⟧ (to forget). Different from ⟦{習|なら}う→習う：00479_narau⟧ which emphasizes learning from a teacher.\n\nDo not confuse {覚|おぼ}えている with ⟦{思|おも}い{出|だ}す→思い出す：01258_omoidasu⟧. {覚|おぼ}えている is the ongoing state of holding something in memory; ⟦{思|おも}い{出|だ}す→思い出す：01258_omoidasu⟧ is the act of retrieving it at a particular moment. English 'remember' covers both, so learners often use the wrong one.",
   "cross_references": [
     {
       "type": "antonym",
@@ -230,11 +230,32 @@
       "reading": "おもいだす",
       "headword": "{思|おも}い{出|だ}す",
       "label": "to recall, to call to mind"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01987_manabu",
+      "reading": "まなぶ",
+      "headword": "{学|まな}ぶ",
+      "label": "to learn, to study"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26850_kiokusuru",
+      "reading": "きおくする",
+      "headword": "{記憶|きおく}する",
+      "label": "to memorize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26964_oboekomu",
+      "reading": "おぼえこむ",
+      "headword": "{覚|おぼ}え{込|こ}む",
+      "label": "to memorize thoroughly"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:22:51Z",
-    "modified": "2026-07-31T03:18:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

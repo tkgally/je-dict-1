@@ -17,7 +17,9 @@
       "id": "24973_jouin_ex1",
       "japanese": "{乗員|じょういん}{全員|ぜんいん}が{無事|ぶじ}だった。",
       "english": "All crew members were safe.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24973_jouin_ex2",
       "japanese": "この{飛行機|ひこうき}の{乗員|じょういん}は{十二名|じゅうにめい}です。",
       "english": "The crew of this aircraft consists of twelve people.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,44 @@
       "id": "24973_jouin_ex3",
       "japanese": "{事故|じこ}で{車両|しゃりょう}の{乗員|じょういん}{三名|さんめい}が{病院|びょういん}に{搬送|はんそう}されたが、{命|いのち}に{別状|べつじょう}はない。",
       "english": "Three occupants of the vehicle were taken to the hospital after the accident, but their lives are not in danger.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {乗|じょう} (to ride/board) and {員|いん} (member/personnel). Used in both professional contexts (crew of an aircraft, ship, or spacecraft) and in general reporting about vehicle occupants.\n\nIn news reports, {乗員|じょういん} often appears alongside {乗客|じょうきゃく} (passengers) in the set phrase {乗員|じょういん}{乗客|じょうきゃく} or {乗客|じょうきゃく}{乗員|じょういん}, covering everyone on board a vehicle.\n\nCOMMON COLLOCATIONS:\n- {乗員|じょういん}{全員|ぜんいん}: all crew/occupants\n- {乗員|じょういん}{乗客|じょうきゃく}: crew and passengers\n- {乗員|じょういん}{数|すう}: number of crew/occupants\n- {乗員|じょういん}を{救助|きゅうじょ}する: to rescue crew members\n\nSIMILAR WORDS:\n- {乗客|じょうきゃく}: passenger (those being transported, not operating the vehicle)\n- {搭乗員|とうじょういん}: crew member (specifically for aircraft)\n- {船員|せんいん}: ship crew member",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03284_joukyaku",
+      "reading": "じょうきゃく",
+      "headword": "{乗客|じょうきゃく}",
+      "label": "passenger"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22495_senin",
+      "reading": "せんいん",
+      "headword": "{船員|せんいん}",
+      "label": "ship crew member"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["transportation"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-04-22T09:19:14Z",
-    "modified": "2026-06-15T07:57:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

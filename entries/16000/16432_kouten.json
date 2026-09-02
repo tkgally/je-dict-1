@@ -19,7 +19,9 @@
       "english": "The flight was canceled due to stormy weather.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16432_kouten_ex2",
@@ -27,7 +29,9 @@
       "english": "Rough weather is expected, so please refrain from going out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16432_kouten_ex3",
@@ -35,10 +39,12 @@
       "english": "Despite the stormy weather, the fishermen went out to sea.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{荒天|こうてん} is a formal, written-style word typically seen in weather advisories, transportation announcements, and news reports. In everyday speech, people say {天気|てんき}が{悪|わる}い or {嵐|あらし} instead.\n\nCOMMON COLLOCATIONS:\n- {荒天|こうてん}のため (due to rough weather)\n- {荒天|こうてん}が{続|つづ}く (rough weather continues)\n- {荒天|こうてん}{時|じ} (during bad weather)\n- {荒天|こうてん}{中止|ちゅうし} (canceled due to bad weather)\n\nNOTE:\nThe opposite is {好天|こうてん} (fine weather), which is the same reading but written with {好|こう} instead of {荒|こう}. Context usually makes the meaning clear.",
+  "notes": "USAGE:\n{荒天|こうてん} is a formal, written-style word typically seen in weather advisories, transportation announcements, and news reports. In everyday speech, people say {天気|てんき}が{悪|わる}い or {嵐|あらし} instead.\nThe opposite is {好天|こうてん} (fine weather), which is the same reading but written with {好|こう} instead of {荒|こう}. Context usually makes the meaning clear.\n\nCOMMON COLLOCATIONS:\n- {荒天|こうてん}のため (due to rough weather)\n- {荒天|こうてん}が{続|つづ}く (rough weather continues)\n- {荒天|こうてん}{時|じ} (during bad weather)\n- {荒天|こうてん}{中止|ちゅうし} (canceled due to bad weather)",
   "prominent_see_also": [
     {
       "target_id": "17466_kouten",
@@ -47,18 +53,39 @@
       "note": "change for the better"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21731_fuuu",
+      "reading": "ふうう",
+      "headword": "{風雨|ふうう}",
+      "label": "wind and rain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23438_tenkoufuryou",
+      "reading": "てんこうふりょう",
+      "headword": "{天候不良|てんこうふりょう}",
+      "label": "bad weather"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T09:07:08Z",
-    "modified": "2026-05-03T10:12:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["weather"],
-      "style": ["written"]
+      "semantic": [
+        "weather"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

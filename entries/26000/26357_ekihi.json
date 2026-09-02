@@ -17,7 +17,9 @@
       "id": "26357_ekihi_ex1",
       "japanese": "{週|しゅう}に{一回|いっかい}、{液肥|えきひ}を{与|あた}える。",
       "english": "Apply liquid fertilizer once a week.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26357_ekihi_ex2",
       "japanese": "{液肥|えきひ}を{水|みず}で{薄|うす}めてから{使|つか}ってください。",
       "english": "Please dilute the liquid fertilizer with water before using.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26357_ekihi_ex3",
       "japanese": "{観葉植物|かんようしょくぶつ}には、{成長期|せいちょうき}に{液肥|えきひ}を{定期的|ていきてき}に{与|あた}えると{元気|げんき}に{育|そだ}つ。",
       "english": "If you regularly give liquid fertilizer to foliage plants during the growing season, they'll grow vigorously.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {液|えき} (liquid) and {肥|ひ} (fertilizer). A convenient and popular fertilizer type for home gardening. Typically sold as a concentrate that is diluted with water before application.\n\nCOMMON COLLOCATIONS:\n- {液肥|えきひ}を{薄|うす}める: to dilute liquid fertilizer\n- {液肥|えきひ}を{与|あた}える: to apply liquid fertilizer\n- {液肥|えきひ}を{撒|ま}く: to spread liquid fertilizer\n- {有機|ゆうき}{液肥|えきひ}: organic liquid fertilizer\n\nSIMILAR WORDS:\n- {固形肥料|こけいひりょう}: solid fertilizer — granular or pellet form\n- {元肥|もとごえ}: base fertilizer — applied before planting\n- {追肥|ついひ}: supplemental fertilizer — applied during growth, which {液肥|えきひ} is often used for",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26356_motogoe",
+      "reading": "もとごえ",
+      "headword": "{元肥|もとごえ}",
+      "label": "base fertilizer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08232_tsuihi",
+      "reading": "ついひ",
+      "headword": "{追肥|ついひ}",
+      "label": "supplemental fertilizer"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["work", "nature"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "work",
+        "nature"
+      ]
     },
     "created": "2026-05-01T11:37:01Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "29489_mojisuu_ex1",
       "japanese": "{文字数|もじすう}を{数|かぞ}える。",
       "english": "to count the number of characters.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29489_mojisuu_ex2",
       "japanese": "レポートには{文字数|もじすう}の{制限|せいげん}がある。",
       "english": "The report has a character limit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29489_mojisuu_ex3",
       "japanese": "ツイートは{文字数|もじすう}が{限|かぎ}られているので、{言|い}いたいことを{短|みじか}くまとめた。",
       "english": "Tweets have a limited character count, so I summarized what I wanted to say briefly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {文字|もじ} (character, letter) + {数|すう} (number, count). Refers to how many characters a piece of text contains, usually in the context of a length limit.\n\nCOMMON COLLOCATIONS:\n- {文字数|もじすう}を{数|かぞ}える: to count the characters\n- {文字数|もじすう}{制限|せいげん}: character limit\n- {文字数|もじすう}が{多|おお}い: to have many characters (be long)\n- {文字数|もじすう}をオーバーする: to exceed the character count",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23953_peejisuu",
+      "reading": "ぺーじすう",
+      "headword": "ページ{数|すう}",
+      "label": "number of pages"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26033_ketasuu",
+      "reading": "けたすう",
+      "headword": "{桁数|けたすう}",
+      "label": "number of digits"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["language"],
+      "politeness": "plain",
+      "semantic": [
+        "language"
+      ],
       "domain": []
     },
     "created": "2026-06-26T09:20:43Z",
-    "modified": "2026-06-26T09:20:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

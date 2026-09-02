@@ -24,7 +24,9 @@
       "english": "It takes three to five days.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15995_naishi_ex2",
@@ -32,7 +34,9 @@
       "english": "The expected number of participants is between 100 and 200.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15995_naishi_ex3",
@@ -40,7 +44,9 @@
       "english": "Punished by a fine or possibly imprisonment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15995_naishi_ex4",
@@ -48,7 +54,9 @@
       "english": "It might take several weeks, or even several months.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15995_naishi_ex5",
@@ -56,7 +64,9 @@
       "english": "Suspension, or even dismissal, is possible.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15995_naishi_ex6",
@@ -64,21 +74,42 @@
       "english": "This problem could affect the local community, or even the entire nation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nA formal conjunction used primarily in written language, legal documents, and academic texts. Sense 1 (range) is the more common usage. In everyday speech, から〜まで or 〜から〜 is preferred for expressing ranges.\n\nCOMMON COLLOCATIONS:\n- A{乃至|ないし}B (A to/through B)\n- {数|すう}〜、{乃至|ないし}{数|すう}〜 (several X, or even several Y)\n\nSIMILAR WORDS:\n- から〜まで: from... to... — the everyday equivalent for expressing ranges\n- もしくは: or, alternatively — a formal alternative conjunction without the range meaning\n- あるいは: or, possibly — less formal than {乃至|ないし}",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06924_moshikuha",
+      "reading": "もしくは",
+      "headword": "{若|も}しくは",
+      "label": "or, alternatively"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03825_aruiha",
+      "reading": "あるいは",
+      "headword": "あるいは",
+      "label": "or, possibly"
+    }
+  ],
   "metadata": {
     "created": "2026-03-09T06:18:52Z",
-    "modified": "2026-07-16T12:18:52Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["conjunction"],
+      "pos": [
+        "conjunction"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["grammatical"]
+      "semantic": [
+        "grammatical"
+      ]
     }
   }
 }

@@ -9,7 +9,7 @@
     {
       "sense_number": 1,
       "gloss": "rock fishing; shore fishing from rocky coasts",
-      "explanation": "Recreational fishing done from rocky shorelines or coastal rocks, often targeting fish like {黒鯛|くろだい} or {メジナ}. A distinct style from boat fishing or pier fishing."
+      "explanation": "Recreational fishing done from rocky shorelines or coastal rocks, often targeting fish like {黒鯛|くろだい} or メジナ. A distinct style from boat fishing or pier fishing."
     }
   ],
   "examples": [
@@ -17,7 +17,9 @@
       "id": "28845_isozuri_ex1",
       "japanese": "{父|ちち}と{磯釣|いそづ}りに{行|い}った。",
       "english": "I went rock fishing with my father.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28845_isozuri_ex2",
       "japanese": "{磯釣|いそづ}りには{滑|すべ}り{止|ど}め{付|つ}きの{靴|くつ}が{必要|ひつよう}だ。",
       "english": "For rock fishing, non-slip shoes are essential.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,39 @@
       "id": "28845_isozuri_ex3",
       "japanese": "{波|なみ}の{高|たか}い{日|ひ}は{磯釣|いそづ}りは{危険|きけん}だから{中止|ちゅうし}した{方|ほう}がいい。",
       "english": "On days with high waves, rock fishing is dangerous, so you should call it off.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {磯|いそ} (rocky shore) + {釣|つ}り (fishing), with rendaku (つり → づり). A serious hobby with its own gear and culture; considered one of the more rugged styles of recreational fishing due to the terrain and exposure to waves.\n\nCOMMON COLLOCATIONS:\n- {磯釣|いそづ}りに{行|い}く: to go rock fishing\n- {磯釣|いそづ}り{師|し}: a rock-fishing enthusiast\n- {磯釣|いそづ}り{場|ば}: a rock-fishing spot\n\nSIMILAR WORDS:\n- {船釣|ふなづ}り: boat fishing — from a boat at sea\n- {投|な}げ{釣|づ}り: surf casting — long-distance casting from a beach\n- {渓流釣|けいりゅうづ}り: mountain stream fishing — in rivers, not the sea",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28844_isoasobi",
+      "reading": "いそあそび",
+      "headword": "{磯遊|いそあそ}び",
+      "label": "playing at a rocky shore"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["leisure", "nature"],
+      "politeness": "plain",
+      "semantic": [
+        "leisure",
+        "nature"
+      ],
       "domain": []
     },
     "created": "2026-06-06T03:08:18Z",
-    "modified": "2026-06-06T03:08:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

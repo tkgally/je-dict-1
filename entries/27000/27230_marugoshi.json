@@ -3,7 +3,7 @@
   "headword": "{丸腰|まるごし}",
   "reading": "まるごし",
   "romaji": "marugoshi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "unarmed; without weapons; defenseless",
   "definitions": [
     {
@@ -22,7 +22,9 @@
       "id": "27230_marugoshi_ex1",
       "japanese": "{丸腰|まるごし}で{戦|たたか}う。",
       "english": "To fight unarmed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "27230_marugoshi_ex2",
       "japanese": "{犯人|はんにん}は{丸腰|まるごし}だった。",
       "english": "The suspect was unarmed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "27230_marugoshi_ex3",
       "japanese": "{武器|ぶき}を{持|も}った{相手|あいて}に{丸腰|まるごし}で{立|た}ち{向|む}かった。",
       "english": "He stood up to an armed opponent while unarmed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "27230_marugoshi_ex4",
       "japanese": "{資料|しりょう}も{用意|ようい}せず{丸腰|まるごし}で{会議|かいぎ}に{出|で}た。",
       "english": "I went to the meeting unprepared, without any materials.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "27230_marugoshi_ex5",
       "japanese": "{交渉|こうしょう}の{場|ば}に{丸腰|まるごし}で{行|い}くわけにはいかない。",
       "english": "I can't go to the negotiation table empty-handed.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,23 +72,60 @@
       "id": "27230_marugoshi_ex6",
       "japanese": "{丸腰|まるごし}で{面接|めんせつ}に{臨|のぞ}んだが、{意外|いがい}と{上手|うま}くいった。",
       "english": "I went into the interview unprepared, but it went surprisingly well.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From {丸|まる} (bare/completely) + {腰|こし} (waist/hip). In the samurai era, swords were worn at the waist, so {丸腰|まるごし} meant a bare waist — no sword. Used as a no-adjective modifier ({丸腰|まるごし}の).\n\nCOMMON COLLOCATIONS:\n- {丸腰|まるごし}で{挑|いど}む: to take on a challenge unarmed/unprepared\n- {丸腰|まるごし}の{状態|じょうたい}: an unarmed/defenseless state\n- {丸腰|まるごし}で{立|た}ち{向|む}かう: to face something defenseless\n\nSIMILAR WORDS:\n- {素手|すで}: bare-handed — emphasizes using only one's hands, without tools or weapons\n- {無防備|むぼうび}: defenseless; unguarded — emphasizes vulnerability and lack of defense\n- {手ぶら}: empty-handed — refers to not carrying anything; often used casually for visiting without gifts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13817_sude",
+      "reading": "すで",
+      "headword": "{素手|すで}",
+      "label": "bare-handed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21148_muboubi",
+      "reading": "むぼうび",
+      "headword": "{無防備|むぼうび}",
+      "label": "defenseless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17537_maruhadaka",
+      "reading": "まるはだか",
+      "headword": "{丸裸|まるはだか}",
+      "label": "stark naked"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26617_kuuken",
+      "reading": "くうけん",
+      "headword": "{空拳|くうけん}",
+      "label": "bare fists"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-07T16:25:08Z",
-    "modified": "2026-05-07T16:25:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

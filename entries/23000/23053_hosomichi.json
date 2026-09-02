@@ -17,7 +17,9 @@
       "id": "23053_hosomichi_ex1",
       "japanese": "{細道|ほそみち}を{歩|ある}く。",
       "english": "To walk along a narrow path.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23053_hosomichi_ex2",
       "japanese": "{家|いえ}と{家|いえ}の{間|あいだ}の{細道|ほそみち}を{抜|ぬ}ける。",
       "english": "To pass through the narrow lane between houses.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "23053_hosomichi_ex3",
       "japanese": "{山|やま}の{中|なか}の{細道|ほそみち}をたどっていくと、{小|ちい}さな{神社|じんじゃ}が{見|み}えた。",
       "english": "Following the narrow path through the mountains, a small shrine came into view.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {細|ほそ}い (narrow/thin) + {道|みち} (path/road).\n\nCOMMON COLLOCATIONS:\n- {細道|ほそみち}を{通|とお}る: to go through a narrow path\n- {細道|ほそみち}を{抜|ぬ}ける: to pass through a narrow lane\n- {細道|ほそみち}に{入|はい}る: to enter a narrow path\n\nCULTURAL NOTE:\nFamously appears in the title of Matsuo Basho's travel journal {奥|おく}の{細道|ほそみち} (The Narrow Road to the Interior, 1689), one of the most celebrated works of Japanese literature.\n\nSIMILAR WORDS:\n- {小道|こみち}: small path — a diminutive, charming path; more literary\n- {路地|ろじ}: alley, back lane — typically an urban narrow passage between buildings\n- {裏道|うらみち}: back road — a road behind main streets, used as a shortcut",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21202_komichi",
+      "reading": "こみち",
+      "headword": "{小道|こみち}",
+      "label": "small path"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06501_roji",
+      "reading": "ろじ",
+      "headword": "{路地|ろじ}",
+      "label": "alley, back lane"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19428_uramichi",
+      "reading": "うらみち",
+      "headword": "{裏道|うらみち}",
+      "label": "back road"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     },
     "created": "2026-04-08T17:26:57Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

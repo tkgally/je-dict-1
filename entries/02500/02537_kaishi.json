@@ -2,7 +2,7 @@
   "id": "02537_kaishi",
   "headword": "{開始|かいし}",
   "reading": "かいし",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "start, beginning",
   "conjugation": {
     "type": "suru",
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "{開始|かいし} means start or beginning. It is commonly used in formal and business contexts.\n\nTRANSITIVITY:\n- Pattern: X⟦を→を：00422_wo⟧{開始|かいし}⟦する→する：00392_suru⟧ (to start X) - transitive use\n- Pattern: X⟦が→が：00051_ga⟧{開始|かいし}⟦する→する：00392_suru⟧ (X starts) - less common\n\nCOMMON COLLOCATIONS:\n- {開始|かいし}⟦{時間|じかん}→時間：00468_jikan⟧ (start time)\n- {開始|かいし}⟦{日|び}→日：02249_hi⟧/⟦{日|にち}→日：12732_nichi⟧ (start date)\n- ⟦{販売|はんばい}→販売：03573_hanbai⟧{開始|かいし} (sales start)\n- ⟦{営業|えいぎょう}→営業：01878_eigyou⟧{開始|かいし} (business opening)\n- ⟦サービス→サービス：01531_saabisu⟧{開始|かいし} (service launch)\n\nANTONYM:\n- ⟦{終了|しゅうりょう}→終了：02563_shuuryou⟧ (end, conclusion)\n\nSIMILAR WORDS:\n- ⟦{始|はじ}まる→始まる：00841_hajimaru⟧/⟦{始|はじ}める→始める：00531_hajimeru⟧: more general, used in everyday speech\n- {開始|かいし}⟦する→する：00392_suru⟧: more formal, used for events, services, operations",
+  "notes": "{開始|かいし} means start or beginning. It is commonly used in formal and business contexts.\n\nTRANSITIVITY:\n- Pattern: X⟦を→を：00422_wo⟧{開始|かいし}⟦する→する：00392_suru⟧ (to start X) - transitive use\n- Pattern: X⟦が→が：00051_ga⟧{開始|かいし}⟦する→する：00392_suru⟧ (X starts) - less common\n\nCOMMON COLLOCATIONS:\n- {開始|かいし}⟦{時間|じかん}→時間：00468_jikan⟧ (start time)\n- {開始|かいし}⟦{日|び}→日：02249_hi⟧/⟦{日|にち}→日：12732_nichi⟧ (start date)\n- ⟦{販売|はんばい}→販売：03573_hanbai⟧{開始|かいし} (sales start)\n- ⟦{営業|えいぎょう}→営業：01878_eigyou⟧{開始|かいし} (business opening)\n- ⟦サービス→サービス：01531_saabisu⟧{開始|かいし} (service launch)\n\nSIMILAR WORDS:\n- ⟦{終了|しゅうりょう}→終了：02563_shuuryou⟧ (end, conclusion)\n- ⟦{始|はじ}まる→始まる：00841_hajimaru⟧/⟦{始|はじ}める→始める：00531_hajimeru⟧: more general, used in everyday speech\n- {開始|かいし}⟦する→する：00392_suru⟧: more formal, used for events, services, operations",
   "cross_references": [
     {
       "type": "antonym",
@@ -175,11 +175,32 @@
       "reading": "すたーと",
       "headword": "スタート",
       "label": "dynamic, races/projects"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00841_hajimaru",
+      "reading": "はじまる",
+      "headword": "{始|はじ}まる",
+      "label": "more general, used in everyday speech"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07822_roonchi",
+      "reading": "ろーんち",
+      "headword": "ローンチ",
+      "label": "launch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08174_kaimaku",
+      "reading": "かいまく",
+      "headword": "{開幕|かいまく}",
+      "label": "opening"
     }
   ],
   "metadata": {
     "created": "2026-01-11T09:08:02Z",
-    "modified": "2026-06-11T18:03:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

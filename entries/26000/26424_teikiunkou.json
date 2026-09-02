@@ -17,7 +17,9 @@
       "id": "26424_teikiunkou_ex1",
       "japanese": "このバスは{定期|ていき}{運行|うんこう}している。",
       "english": "This bus runs on a regular schedule.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26424_teikiunkou_ex2",
       "japanese": "{台風|たいふう}の{影響|えいきょう}で{定期|ていき}{運行|うんこう}が{中止|ちゅうし}された。",
       "english": "Regular service was suspended due to the typhoon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,37 @@
       "id": "26424_teikiunkou_ex3",
       "japanese": "{離島|りとう}へのフェリーは{週|しゅう}に{3便|さんびん}の{定期|ていき}{運行|うんこう}が{行|おこな}われており、{島民|とうみん}の{生活|せいかつ}を{支|ささ}えている。",
       "english": "Ferries to the remote island run three scheduled services per week, supporting the islanders' daily lives.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {定期|ていき} (regular, scheduled) and {運行|うんこう} (operation, running). Used for all forms of scheduled public transportation.\n\nCOMMON COLLOCATIONS:\n- {定期|ていき}{運行|うんこう}する: to operate on a regular schedule\n- {定期|ていき}{運行|うんこう}を{再開|さいかい}する: to resume regular service\n- {定期|ていき}{運行|うんこう}を{中止|ちゅうし}する: to suspend regular service\n- {定期|ていき}{運行|うんこう}ダイヤ: regular service timetable\n- {定期|ていき}{運行|うんこう}{路線|ろせん}: regular service route\n\nSIMILAR WORDS:\n- {臨時|りんじ}{運行|うんこう}: special/temporary service — extra runs outside the regular schedule\n- {運行|うんこう}: operation, service — the general term without specifying regularity\n- {定期便|ていきびん}: scheduled flight/service — often used for air and sea transport",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23212_teikibin",
+      "reading": "ていきびん",
+      "headword": "{定期便|ていきびん}",
+      "label": "scheduled flight/service"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["transportation"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-05-01T15:39:01Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

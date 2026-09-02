@@ -18,7 +18,9 @@
       "english": "To take a retake exam.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09972_saishiken_ex2",
@@ -26,7 +28,9 @@
       "english": "I failed the exam, so I have to take a retake.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09972_saishiken_ex3",
@@ -34,10 +38,12 @@
       "english": "If I don't pass the retake exam, I won't get the credit.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {再|さい} (again) + {試験|しけん} (exam). Specifically for students who took but failed the original exam.\n\nABBREVIATION:\nCommonly shortened to {再試|さいし} in student speech.\n\nCOMMON PATTERNS:\n- {再試験|さいしけん}を{受|う}ける: to take a retake exam\n- {再試験|さいしけん}に{合格|ごうかく}する: to pass the retake\n- {再試験|さいしけん}の{対象|たいしょう}: eligible for a retake\n\nUSAGE:\nSome institutions cap the maximum grade on a retake (e.g., {可|か} or C only). The retake is typically harder or covers more material.\n\nRELATED TERMS:\n- {追試|ついし}: make-up exam (for students who were absent, not who failed)\n- {補講|ほこう}: make-up class\n- {単位|たんい}: academic credit",
+  "notes": "Compound of {再|さい} (again) + {試験|しけん} (exam). Specifically for students who took but failed the original exam.\n\nFORMS:\nCommonly shortened to {再試|さいし} in student speech.\n\nCOMMON PATTERNS:\n- {再試験|さいしけん}を{受|う}ける: to take a retake exam\n- {再試験|さいしけん}に{合格|ごうかく}する: to pass the retake\n- {再試験|さいしけん}の{対象|たいしょう}: eligible for a retake\n\nUSAGE:\nSome institutions cap the maximum grade on a retake (e.g., {可|か} or C only). The retake is typically harder or covers more material.\n\nRELATED WORDS:\n- {追試|ついし}: make-up exam (for students who were absent, not who failed)\n- {補講|ほこう}: make-up class\n- {単位|たんい}: academic credit",
   "cross_references": [
     {
       "type": "contrast",
@@ -45,18 +51,36 @@
       "reading": "ついし",
       "headword": "{追試|ついし}",
       "label": "make-up exam (for absences)"
+    },
+    {
+      "type": "related",
+      "target_id": "09973_hokou",
+      "reading": "ほこう",
+      "headword": "{補講|ほこう}",
+      "label": "make-up class"
+    },
+    {
+      "type": "related",
+      "target_id": "03412_tani",
+      "reading": "たんい",
+      "headword": "{単位|たんい}",
+      "label": "academic credit"
     }
   ],
   "metadata": {
     "created": "2026-02-04T12:04:01Z",
-    "modified": "2026-04-23T08:17:03Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

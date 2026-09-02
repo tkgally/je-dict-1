@@ -3,7 +3,7 @@
   "headword": "{選択式|せんたくしき}",
   "reading": "せんたくしき",
   "romaji": "sentakushiki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "multiple-choice (format)",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Composed of {選択|せんたく} (selection, choice) + {式|しき} (format, style). Used in educational and testing contexts. The suffix {式|しき} here indicates a format or method.\n\nCOMMON COLLOCATIONS:\n- {選択式|せんたくしき}の{問題|もんだい}: multiple-choice question\n- {選択式|せんたくしき}の{試験|しけん}: multiple-choice exam\n- {四択|よんたく}{選択式|せんたくしき}: four-option multiple-choice\n\nSIMILAR WORDS:\n- {択一式|たくいつしき}: multiple-choice — essentially the same meaning, slightly more formal\n- {記述式|きじゅつしき}: written-answer format — the opposite, where answers are written out\n- {記入式|きにゅうしき}: fill-in format — answers are written in blanks",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24618_takuitsushiki",
+      "reading": "たくいつしき",
+      "headword": "{択一式|たくいつしき}",
+      "label": "multiple-choice"
+    },
+    {
+      "type": "antonym",
+      "target_id": "19067_kijutsushiki",
+      "reading": "きじゅつしき",
+      "headword": "{記述式|きじゅつしき}",
+      "label": "written-answer format"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-05T02:21:17Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

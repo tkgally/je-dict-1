@@ -3,7 +3,7 @@
   "headword": "{示談|じだん}",
   "reading": "じだん",
   "romaji": "jidan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "out-of-court settlement; private settlement",
   "definitions": [
     {
@@ -56,6 +56,36 @@
   ],
   "notes": "A commonly used legal term in Japan, composed of {示|じ} (show, indicate) + {談|だん} (talk, discussion). Refers to resolving a dispute — typically a traffic accident, assault case, or civil conflict — through direct negotiation between the parties, usually with a cash payment and a written agreement that the matter is closed. In minor criminal cases, reaching a {示談|じだん} with the victim can influence prosecution or sentencing.\n\nCOMMON COLLOCATIONS:\n- {示談|じだん}にする: to settle (out of court)\n- {示談|じだん}が{成立|せいりつ}する: a settlement is reached\n- {示談|じだん}{交渉|こうしょう}: settlement negotiations\n- {示談|じだん}{金|きん}: settlement money; settlement payment\n- {示談|じだん}{書|しょ}: settlement agreement (written document)\n- {示談|じだん}に{応|おう}じる: to accept a settlement offer\n\nSIMILAR WORDS:\n- {和解|わかい}: reconciliation; settlement — used in both formal court settlements and everyday reconciliation; slightly broader\n- {調停|ちょうてい}: mediation — settlement facilitated by a third party (e.g., a court-appointed mediator)\n- {裁判|さいばん}: trial — the alternative that a {示談|じだん} aims to avoid\n\nUSAGE:\nIn Japan, {示談|じだん} is common in the context of traffic accidents and minor assaults. Accepting a {示談|じだん} typically means the victim agrees not to pursue the matter further, and reaching a {示談|じだん} before prosecution can be a significant mitigating factor in criminal cases.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10578_wakai",
+      "reading": "わかい",
+      "headword": "{和解|わかい}",
+      "label": "reconciliation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14251_choutei",
+      "reading": "ちょうてい",
+      "headword": "{調停|ちょうてい}",
+      "label": "mediation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02773_saiban",
+      "reading": "さいばん",
+      "headword": "{裁判|さいばん}",
+      "label": "trial"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14912_wakaisuru",
+      "reading": "わかいする",
+      "headword": "{和解|わかい}する",
+      "label": "to reconcile"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -72,7 +102,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-11T17:04:08Z",
-    "modified": "2026-04-11T17:04:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -17,7 +17,9 @@
       "id": "26358_paakingumeetaa_ex1",
       "japanese": "パーキングメーターに{小銭|こぜに}を{入|い}れた。",
       "english": "I put coins into the parking meter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26358_paakingumeetaa_ex2",
       "japanese": "パーキングメーターの{時間|じかん}が{切|き}れると{駐車違反|ちゅうしゃいはん}になる。",
       "english": "When the parking meter time runs out, it becomes a parking violation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26358_paakingumeetaa_ex3",
       "japanese": "この{通|とお}りにはパーキングメーターが{設置|せっち}されていて、{六十分|ろくじゅっぷん}{以内|いない}なら{路上|ろじょう}{駐車|ちゅうしゃ}できる。",
       "english": "Parking meters are installed on this street, and you can park on the road for up to 60 minutes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A loanword from English \"parking meter.\" In Japan, parking meters are found mainly on major streets in urban areas and allow parking for a set time (usually 60 minutes) during operating hours (typically 9:00 AM to 7:00 PM). Outside operating hours, the meters are generally free to use.\n\nCOMMON COLLOCATIONS:\n- パーキングメーターに{入|い}れる: to put (coins) in the parking meter\n- パーキングメーターの{時間|じかん}が{切|き}れる: the parking meter time expires\n- パーキングメーターを{設置|せっち}する: to install parking meters\n\nSIMILAR WORDS:\n- {駐車場|ちゅうしゃじょう}: parking lot, parking garage — a dedicated facility\n- コインパーキング: coin parking (lot) — a small automated pay-by-time parking lot\n- パーキングチケット: parking ticket (receipt from meter); also a type of metered parking using dashboard tickets",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01667_chuushajou",
+      "reading": "ちゅうしゃじょう",
+      "headword": "{駐車場|ちゅうしゃじょう}",
+      "label": "parking lot, parking garage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24421_koinpaakingu",
+      "reading": "こいんぱーきんぐ",
+      "headword": "コインパーキング",
+      "label": "coin parking"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["transportation", "daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "transportation",
+        "daily-life"
+      ]
     },
     "created": "2026-05-01T11:37:20Z",
-    "modified": "2026-05-01T11:37:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -9,7 +9,7 @@
     {
       "sense_number": 1,
       "gloss": "attendee; guest (at a ceremony such as a wedding or funeral)",
-      "explanation": "A person present at a formal ceremony such as a wedding, funeral, or memorial. Used in formal contexts; the everyday word for a guest is {ゲスト} or {お{客|きゃく}さん}."
+      "explanation": "A person present at a formal ceremony such as a wedding, funeral, or memorial. Used in formal contexts; the everyday word for a guest is ゲスト or お{客|きゃく}さん."
     }
   ],
   "examples": [
@@ -46,6 +46,22 @@
   ],
   "notes": "Composed of {参列|さんれつ} (attendance at a ceremony) + 〜{者|しゃ} (person). Refers specifically to those attending a formal ceremony, not just any gathering.\n\nCOMMON COLLOCATIONS:\n- {結婚式|けっこんしき}の{参列者|さんれつしゃ}: wedding guests\n- {葬儀|そうぎ}の{参列者|さんれつしゃ}: funeral attendees\n- {参列者|さんれつしゃ}{名簿|めいぼ}: list of attendees\n- {参列者|さんれつしゃ}{全員|ぜんいん}: all the attendees\n\nSIMILAR WORDS:\n- {出席者|しゅっせきしゃ}: attendee — broader; used for meetings, classes, conferences\n- {来賓|らいひん}: invited guest of honor — VIPs at formal events\n- {会葬者|かいそうしゃ}: funeral attendee — more specific to funerals only",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20975_shussekisha",
+      "reading": "しゅっせきしゃ",
+      "headword": "{出席者|しゅっせきしゃ}",
+      "label": "attendee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28580_raihin",
+      "reading": "らいひん",
+      "headword": "{来賓|らいひん}",
+      "label": "invited guest of honor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "person",
         "culture"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-05-31T02:08:49Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

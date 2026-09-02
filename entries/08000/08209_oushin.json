@@ -2,7 +2,7 @@
   "id": "08209_oushin",
   "headword": "{往診|おうしん}",
   "reading": "おうしん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "house call; home visit (medical)",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n- {往診|おうしん}する (to make a house call)\n- {往診|おうしん}を{頼|たの}む (to request a house call)\n- {往診|おうしん}{可能|かのう} (house calls available)\n- {往診|おうしん}{料|りょう} (house call fee)\n\nCONTEXT:\nCommon for elderly or immobile patients who cannot visit a hospital. Increasingly important in Japan's aging society.\n\nRELATED:\n- {回診|かいしん} (ward rounds - inside hospital)\n- {訪問診療|ほうもんしんりょう} (home medical care - more comprehensive)\n- {在宅医療|ざいたくいりょう} (home healthcare)\n- {診察|しんさつ} (medical examination)",
+  "notes": "USAGE:\n- {往診|おうしん}する (to make a house call)\n- {往診|おうしん}を{頼|たの}む (to request a house call)\n- {往診|おうしん}{可能|かのう} (house calls available)\n- {往診|おうしん}{料|りょう} (house call fee)\nCommon for elderly or immobile patients who cannot visit a hospital. Increasingly important in Japan's aging society.\n\nRELATED WORDS:\n- {回診|かいしん} (ward rounds - inside hospital)\n- {訪問診療|ほうもんしんりょう} (home medical care - more comprehensive)\n- {在宅医療|ざいたくいりょう} (home healthcare)\n- {診察|しんさつ} (medical examination)",
   "cross_references": [
     {
       "type": "related",
@@ -141,6 +141,20 @@
       "headword": "{回診|かいしん}",
       "label": "ward rounds",
       "target_id": "08208_kaishin"
+    },
+    {
+      "type": "related",
+      "target_id": "23886_zaitakuiryou",
+      "reading": "ざいたくいりょう",
+      "headword": "{在宅医療|ざいたくいりょう}",
+      "label": "home healthcare"
+    },
+    {
+      "type": "related",
+      "target_id": "03259_shinsatsu",
+      "reading": "しんさつ",
+      "headword": "{診察|しんさつ}",
+      "label": "medical examination"
     }
   ],
   "metadata": {
@@ -151,6 +165,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "healthcare"
@@ -158,6 +173,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-25T08:07:49Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

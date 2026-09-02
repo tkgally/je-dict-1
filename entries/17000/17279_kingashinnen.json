@@ -19,7 +19,9 @@
       "english": "I wrote 'Happy New Year' on the New Year's card.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17279_kingashinnen_ex2",
@@ -27,7 +29,9 @@
       "english": "There's a 'Happy New Year' decoration at the entrance of the company.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17279_kingashinnen_ex3",
@@ -35,10 +39,12 @@
       "english": "For New Year's cards to superiors, it is considered proper to use four-character greetings like 'Kinga Shinnen.'",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nThis is the most common formal four-character New Year's greeting ({賀詞|がし}). It is primarily written, not spoken. Appears on {年賀状|ねんがじょう} (New Year's postcards), store decorations, and company greetings.\n\nFORMALITY:\nFour-character greetings like {謹賀新年|きんがしんねん} and {恭賀新年|きょうがしんねん} are appropriate for superiors and formal contexts. Two-character greetings like {賀正|がしょう} and {迎春|げいしゅん} are considered less formal and should not be used toward superiors.\n\nCULTURE:\nJapanese New Year's cards ({年賀状|ねんがじょう}) are sent to arrive on January 1st. The greeting printed on the card reflects the relationship between sender and recipient.",
+  "notes": "USAGE:\nThis is the most common formal four-character New Year's greeting ({賀詞|がし}). It is primarily written, not spoken. Appears on {年賀状|ねんがじょう} (New Year's postcards), store decorations, and company greetings.\n\nREGISTER:\nFour-character greetings like {謹賀新年|きんがしんねん} and {恭賀新年|きょうがしんねん} are appropriate for superiors and formal contexts. Two-character greetings like {賀正|がしょう} and {迎春|げいしゅん} are considered less formal and should not be used toward superiors.\n\nCULTURAL NOTE:\nJapanese New Year's cards ({年賀状|ねんがじょう}) are sent to arrive on January 1st. The greeting printed on the card reflects the relationship between sender and recipient.",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,36 @@
       "reading": "ねんがじょう",
       "headword": "{年賀状|ねんがじょう}",
       "label": "New Year's card"
+    },
+    {
+      "type": "related",
+      "target_id": "14993_gashou",
+      "reading": "がしょう",
+      "headword": "{賀正|がしょう}",
+      "label": "New Year's greeting"
+    },
+    {
+      "type": "related",
+      "target_id": "14994_geishun",
+      "reading": "げいしゅん",
+      "headword": "{迎春|げいしゅん}",
+      "label": "welcoming the New Year"
     }
   ],
   "metadata": {
     "created": "2026-03-17T04:30:46Z",
-    "modified": "2026-05-06T06:14:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["greeting"]
+      "semantic": [
+        "greeting"
+      ]
     }
   }
 }

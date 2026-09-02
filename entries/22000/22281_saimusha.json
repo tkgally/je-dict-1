@@ -17,7 +17,9 @@
       "id": "22281_saimusha_ex1",
       "japanese": "{債務者|さいむしゃ}が{返済|へんさい}できない。",
       "english": "The debtor cannot repay.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22281_saimusha_ex2",
       "japanese": "{債務者|さいむしゃ}の{権利|けんり}は{法律|ほうりつ}で{守|まも}られている。",
       "english": "The rights of debtors are protected by law.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,59 @@
       "id": "22281_saimusha_ex3",
       "japanese": "{多重|たじゅう}{債務者|さいむしゃ}を{救済|きゅうさい}するための{制度|せいど}が{設|もう}けられた。",
       "english": "A system was established to help people with multiple debts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A formal legal and financial term. The opposite of {債権者|さいけんしゃ} (creditor).\n\nCOMMON COLLOCATIONS:\n- {多重|たじゅう}{債務者|さいむしゃ}: person with multiple debts\n- {債務者|さいむしゃ}の{義務|ぎむ}: debtor's obligation\n- {債務者|さいむしゃ}{保護|ほご}: debtor protection\n- {連帯|れんたい}{債務者|さいむしゃ}: joint debtor\n\nOPPOSITE:\n- {債権者|さいけんしゃ}: creditor — the person or entity owed money\n\nRELATED TERMS:\n- {債務|さいむ}: debt, obligation\n- {借金|しゃっきん}: debt, loan — more everyday term\n- {負債|ふさい}: liability, debt — used in accounting\n\nFORMATION:\n{債務|さいむ} (debt, obligation) + {者|しゃ} (person)",
+  "notes": "A formal legal and financial term. The opposite of {債権者|さいけんしゃ} (creditor).\n\nCOMMON COLLOCATIONS:\n- {多重|たじゅう}{債務者|さいむしゃ}: person with multiple debts\n- {債務者|さいむしゃ}の{義務|ぎむ}: debtor's obligation\n- {債務者|さいむしゃ}{保護|ほご}: debtor protection\n- {連帯|れんたい}{債務者|さいむしゃ}: joint debtor\n\nSIMILAR WORDS:\n- {債権者|さいけんしゃ}: creditor — the person or entity owed money\n\nRELATED WORDS:\n- {債務|さいむ}: debt, obligation\n- {借金|しゃっきん}: debt, loan — more everyday term\n- {負債|ふさい}: liability, debt — used in accounting\n\nFORMS:\n{債務|さいむ} (debt, obligation) + {者|しゃ} (person)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22802_saikensha",
+      "reading": "さいけんしゃ",
+      "headword": "{債権者|さいけんしゃ}",
+      "label": "creditor"
+    },
+    {
+      "type": "related",
+      "target_id": "03203_shakkin",
+      "reading": "しゃっきん",
+      "headword": "{借金|しゃっきん}",
+      "label": "debt, loan"
+    },
+    {
+      "type": "related",
+      "target_id": "14950_fusai",
+      "reading": "ふさい",
+      "headword": "{負債|ふさい}",
+      "label": "liability, debt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23595_hasansha",
+      "reading": "はさんしゃ",
+      "headword": "{破産者|はさんしゃ}",
+      "label": "bankrupt person"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["finance", "law"]
+      "semantic": [
+        "finance",
+        "law"
+      ]
     },
     "created": "2026-04-05T16:37:00Z",
-    "modified": "2026-04-05T16:37:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

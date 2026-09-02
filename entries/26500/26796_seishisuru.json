@@ -3,7 +3,7 @@
   "headword": "{静止|せいし}する",
   "reading": "せいしする",
   "romaji": "seishisuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to stand still; to remain motionless",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Emphasizes complete absence of movement. Often used in scientific, technical, or literary contexts. The noun form {静止|せいし} is common in compound words.\n\nCOMMON COLLOCATIONS:\n- {静止|せいし}{画像|がぞう}: still image\n- {静止|せいし}{軌道|きどう}: geostationary orbit\n- {静止|せいし}{状態|じょうたい}: stationary state\n- {静止|せいし}{衛星|えいせい}: geostationary satellite\n- ぴたりと{静止|せいし}する: to come to a dead stop\n\nSIMILAR WORDS:\n- {止|と}まる: to stop — everyday word; can refer to stopping movement or functioning\n- {停止|ていし}する: to halt; to cease operation — often for machines, systems, or deliberate stopping\n- じっとする: to stay still — colloquial; often used as a command to children or animals",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00555_tomaru",
+      "reading": "とまる",
+      "headword": "{止|と}まる",
+      "label": "to stop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20992_teishisuru",
+      "reading": "ていしする",
+      "headword": "{停止|ていし}する",
+      "label": "to halt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25342_jittosuru",
+      "reading": "じっとする",
+      "headword": "じっとする",
+      "label": "to stay still"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T11:10:46Z",
-    "modified": "2026-08-06T12:46:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

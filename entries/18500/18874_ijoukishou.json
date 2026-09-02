@@ -19,7 +19,9 @@
       "english": "There has been a lot of extreme weather this year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18874_ijoukishou_ex2",
@@ -27,7 +29,9 @@
       "english": "It is said that global warming is the cause of extreme weather.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18874_ijoukishou_ex3",
@@ -35,21 +39,49 @@
       "english": "Damage to crops from extreme weather is becoming serious.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA frequently used term in news broadcasts and newspaper articles. Japan experiences various forms of extreme weather including {猛暑|もうしょ} (intense heat), {豪雨|ごうう} (heavy rain), and {大雪|おおゆき} (heavy snow).\n\nCOMMON COLLOCATIONS:\n- {異常|いじょう}{気象|きしょう}が{続|つづ}く (extreme weather continues)\n- {異常|いじょう}{気象|きしょう}による{被害|ひがい} (damage from extreme weather)\n- {異常|いじょう}{気象|きしょう}の{原因|げんいん} (cause of abnormal weather)\n- {異常|いじょう}{気象|きしょう}が{増|ふ}えている (extreme weather is increasing)\n\nSIMILAR WORDS:\n- {天災|てんさい}: natural disaster — a broader term including earthquakes and tsunamis\n- {気候|きこう}{変動|へんどう}: climate change — refers to long-term trends, not individual events",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29302_tensai",
+      "reading": "てんさい",
+      "headword": "{天災|てんさい}",
+      "label": "natural disaster"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04627_kikouhendou",
+      "reading": "きこうへんどう",
+      "headword": "{気候変動|きこうへんどう}",
+      "label": "climate change"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23642_danpa",
+      "reading": "だんぱ",
+      "headword": "{暖波|だんぱ}",
+      "label": "warm spell"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:18:02Z",
-    "modified": "2026-03-23T06:18:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     }
   }
 }

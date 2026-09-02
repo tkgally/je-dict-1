@@ -17,33 +17,67 @@
       "japanese": "モバイルバッテリーを{持|も}っていくのを{忘|わす}れた。",
       "english": "I forgot to bring my portable battery.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07553_mobairubatterii_ex2",
       "japanese": "{大容量|だいようりょう}のモバイルバッテリーを{買|か}った。",
       "english": "I bought a high-capacity power bank.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07553_mobairubatterii_ex3",
       "japanese": "モバイルバッテリーでスマホを{充電|じゅうでん}する。",
       "english": "Charge my smartphone with a portable battery.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "ETYMOLOGY:\nFrom English \"mobile battery.\"\n\nALTERNATIVE NAMES:\n・{携帯|けいたい}{充電器|じゅうでんき} - portable charger\n・ポータブル{充電器|じゅうでんき} - portable charger\n・パワーバンク - power bank\n\nSPECIFICATIONS VOCABULARY:\n・{容量|ようりょう} - capacity (measured in mAh)\n・{出力|しゅつりょく} - output\n・{急速充電|きゅうそくじゅうでん} - fast charging\n・USB{端子|たんし} - USB port\n\nCOMMON COLLOCATIONS:\n・モバイルバッテリーを{充電|じゅうでん}する - to charge the power bank\n・モバイルバッテリーで{充電|じゅうでん}する - to charge with a power bank\n・モバイルバッテリーが{切|き}れた - the power bank is dead\n\nNOTE:\n{飛行機|ひこうき}の{機内持|きないも}ち{込|こ}み{制限|せいげん}があるので、{容量|ようりょう}に{注意|ちゅうい}が{必要|ひつよう}。\n(Airlines have restrictions on carry-on, so be aware of capacity limits.)",
+  "notes": "ETYMOLOGY:\nFrom English \"mobile battery.\"\n\nALTERNATIVE NAMES:\n- {携帯|けいたい}{充電器|じゅうでんき} - portable charger\n- ポータブル{充電器|じゅうでんき} - portable charger\n- パワーバンク - power bank\n\nSPECIFICATIONS VOCABULARY:\n- {容量|ようりょう} - capacity (measured in mAh)\n- {出力|しゅつりょく} - output\n- {急速充電|きゅうそくじゅうでん} - fast charging\n- USB{端子|たんし} - USB port\n\nCOMMON COLLOCATIONS:\n- モバイルバッテリーを{充電|じゅうでん}する - to charge the power bank\n- モバイルバッテリーで{充電|じゅうでん}する - to charge with a power bank\n- モバイルバッテリーが{切|き}れた - the power bank is dead\n\nUSAGE:\n{飛行機|ひこうき}の{機内持|きないも}ち{込|こ}み{制限|せいげん}があるので、{容量|ようりょう}に{注意|ちゅうい}が{必要|ひつよう}。\n(Airlines have restrictions on carry-on, so be aware of capacity limits.)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08750_keitaijuudenki",
+      "reading": "けいたいじゅうでんき",
+      "headword": "{携帯|けいたい}{充電|じゅうでん}{器|き}",
+      "label": "portable charger"
+    },
+    {
+      "type": "related",
+      "target_id": "07688_denchigire",
+      "reading": "でんちぎれ",
+      "headword": "{電池切|でんちぎ}れ",
+      "label": "dead battery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24955_yobidengen",
+      "reading": "よびでんげん",
+      "headword": "{予備電源|よびでんげん}",
+      "label": "backup power source"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T08:47:47Z",
-    "modified": "2026-01-20T08:47:47Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["technology"]
+      "politeness": "plain",
+      "semantic": [
+        "technology"
+      ]
     }
   }
 }

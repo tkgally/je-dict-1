@@ -3,7 +3,7 @@
   "headword": "{赤面|せきめん}",
   "reading": "せきめん",
   "romaji": "sekimen",
-  "part_of_speech": "noun; noun (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "blushing; turning red in the face",
   "definitions": [
     {
@@ -64,6 +64,22 @@
     }
   ],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08152_tereru",
+      "reading": "てれる",
+      "headword": "{照|て}れる",
+      "label": "to feel embarrassed, to be shy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24203_ganmensouhaku",
+      "reading": "がんめんそうはく",
+      "headword": "{顔面蒼白|がんめんそうはく}",
+      "label": "turning pale"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -80,7 +96,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-31T20:18:49Z",
-    "modified": "2026-04-24T06:24:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

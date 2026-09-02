@@ -78,18 +78,60 @@
       ]
     }
   ],
-  "notes": "MEDICAL USAGE:\n{発熱|はつねつ} is the medical/formal term for having a fever. It's commonly used in medical settings and official announcements.\n\nFEVER THRESHOLDS IN JAPAN:\n- 37.5°C: Commonly used threshold for 'fever' in public health guidelines\n- 38°C: Generally considered moderate fever\n- 39°C+: High fever\n\nVERB USAGE:\n- {発熱|はつねつ}⟦する→する：00392_suru⟧: to develop a fever / to generate heat\n- {発熱|はつねつ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have a fever\n\nRELATED TERMS:\n- ⟦{熱|ねつ}→熱：01690_netsu⟧: fever, heat (casual term)\n- ⟦{高熱|こうねつ}→高熱：14649_kounetsu⟧: high fever\n- ⟦{微熱|びねつ}→微熱：12513_binetsu⟧: low-grade fever\n- ⟦{解熱|げねつ}→解熱：23429_genetsu⟧: fever reduction\n- ⟦{解熱剤|げねつざい}→解熱剤：09713_genetsuzai⟧: fever reducer, antipyretic\n\nTECHNICAL USAGE (sense 2):\nIn physics and engineering, {発熱|はつねつ} refers to heat generation:\n- {発熱|はつねつ}⟦{反応|はんのう}→反応：04812_hannou⟧: exothermic reaction\n- {発熱|はつねつ}⟦{体|たい}→体：noentry⟧: heating element",
+  "notes": "MEDICAL USAGE:\n{発熱|はつねつ} is the medical/formal term for having a fever. It's commonly used in medical settings and official announcements.\n\nFEVER THRESHOLDS IN JAPAN:\n- 37.5°C: Commonly used threshold for 'fever' in public health guidelines\n- 38°C: Generally considered moderate fever\n- 39°C+: High fever\n\nVERB USAGE:\n- {発熱|はつねつ}⟦する→する：00392_suru⟧: to develop a fever / to generate heat\n- {発熱|はつねつ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have a fever\n\nRELATED WORDS:\n- ⟦{熱|ねつ}→熱：01690_netsu⟧: fever, heat (casual term)\n- ⟦{高熱|こうねつ}→高熱：14649_kounetsu⟧: high fever\n- ⟦{微熱|びねつ}→微熱：12513_binetsu⟧: low-grade fever\n- ⟦{解熱|げねつ}→解熱：23429_genetsu⟧: fever reduction\n- ⟦{解熱剤|げねつざい}→解熱剤：09713_genetsuzai⟧: fever reducer, antipyretic\n\nTECHNICAL USAGE (sense 2):\nIn physics and engineering, {発熱|はつねつ} refers to heat generation:\n- {発熱|はつねつ}⟦{反応|はんのう}→反応：04812_hannou⟧: exothermic reaction\n- {発熱|はつねつ}⟦{体|たい}→体：noentry⟧: heating element",
   "cross_references": [
     {
       "type": "related",
       "reading": "ねつ",
       "headword": "{熱|ねつ}",
       "target_id": "01690_netsu"
+    },
+    {
+      "type": "related",
+      "target_id": "14649_kounetsu",
+      "reading": "こうねつ",
+      "headword": "{高熱|こうねつ}",
+      "label": "high fever"
+    },
+    {
+      "type": "related",
+      "target_id": "12513_binetsu",
+      "reading": "びねつ",
+      "headword": "{微熱|びねつ}",
+      "label": "low-grade fever"
+    },
+    {
+      "type": "related",
+      "target_id": "23429_genetsu",
+      "reading": "げねつ",
+      "headword": "{解熱|げねつ}",
+      "label": "fever reduction"
+    },
+    {
+      "type": "related",
+      "target_id": "09713_genetsuzai",
+      "reading": "げねつざい",
+      "headword": "{解熱剤|げねつざい}",
+      "label": "fever reducer, antipyretic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15477_heinetsu",
+      "reading": "へいねつ",
+      "headword": "{平熱|へいねつ}",
+      "label": "normal body temperature"
+    },
+    {
+      "type": "related",
+      "target_id": "19228_kenon",
+      "reading": "けんおん",
+      "headword": "{検温|けんおん}",
+      "label": "taking one's temperature"
     }
   ],
   "metadata": {
     "created": "2026-01-17T08:49:23Z",
-    "modified": "2026-08-25T00:21:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

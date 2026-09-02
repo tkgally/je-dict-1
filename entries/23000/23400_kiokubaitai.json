@@ -54,8 +54,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {記憶|きおく} (memory, recording) + {媒体|ばいたい} (medium, carrier, vehicle). Literally 'memory medium.' {媒体|ばいたい} is a productive compound element also used in {広告|こうこく}{媒体|ばいたい} (advertising medium) and {情報|じょうほう}{媒体|ばいたい} (information medium).\n\nCOMMON COLLOCATIONS:\n- {記憶媒体|きおくばいたい}に{保存|ほぞん}する: to save to a storage medium\n- {記憶媒体|きおくばいたい}を{接続|せつぞく}する: to connect a storage device\n- {外部|がいぶ}{記憶媒体|きおくばいたい}: external storage medium\n- {記憶媒体|きおくばいたい}の{容量|ようりょう}: the capacity of a storage medium\n- {記憶媒体|きおくばいたい}を{廃棄|はいき}する: to dispose of a storage medium\n\nTYPICAL EXAMPLES:\n- USBメモリ: USB memory stick\n- SDカード / microSDカード: SD card, microSD card\n- {外付|そとづ}けハードディスク: external hard disk\n- SSD: solid-state drive\n- CD / DVD / ブルーレイ: optical discs\n- {磁気|じき}テープ: magnetic tape (used for long-term backup)\n- フロッピーディスク: floppy disk (historical)\n\nSIMILAR WORDS:\n- {記録媒体|きろくばいたい}: recording medium — a near-synonym, perhaps slightly more common in contexts involving recording (audio, video, photography) rather than general data storage.\n- {記憶装置|きおくそうち}: storage device — emphasizes the device hardware (with built-in controller electronics) rather than the bare medium; includes RAM and CPU cache as well as external storage.\n- ストレージ: storage — an increasingly common loanword in IT contexts, often referring to cloud storage or data storage systems.\n- メディア: media — the loanword, used casually for the same concept (e.g. DVDメディア = 'DVD media').\n\nDOMAIN NOTE:\nIn corporate information-security policies, '{記憶媒体|きおくばいたい}' is a standard keyword — the phrase {記憶媒体|きおくばいたい}{管理|かんり} ('storage media management') refers to the entire set of rules governing how employees can use, transport, and dispose of storage devices that might contain confidential data.\n\nREGISTER:\nFormal and technical. Common in written IT and business contexts. In casual speech, Japanese speakers use more specific words: USBメモリ, SDカード, ハードディスク, etc.",
+  "notes": "Composed of {記憶|きおく} (memory, recording) + {媒体|ばいたい} (medium, carrier, vehicle). Literally 'memory medium.' {媒体|ばいたい} is a productive compound element also used in {広告|こうこく}{媒体|ばいたい} (advertising medium) and {情報|じょうほう}{媒体|ばいたい} (information medium).\n\nCOMMON COLLOCATIONS:\n- {記憶媒体|きおくばいたい}に{保存|ほぞん}する: to save to a storage medium\n- {記憶媒体|きおくばいたい}を{接続|せつぞく}する: to connect a storage device\n- {外部|がいぶ}{記憶媒体|きおくばいたい}: external storage medium\n- {記憶媒体|きおくばいたい}の{容量|ようりょう}: the capacity of a storage medium\n- {記憶媒体|きおくばいたい}を{廃棄|はいき}する: to dispose of a storage medium\n\nTYPICAL EXAMPLES:\n- USBメモリ: USB memory stick\n- SDカード / microSDカード: SD card, microSD card\n- {外付|そとづ}けハードディスク: external hard disk\n- SSD: solid-state drive\n- CD / DVD / ブルーレイ: optical discs\n- {磁気|じき}テープ: magnetic tape (used for long-term backup)\n- フロッピーディスク: floppy disk (historical)\n\nSIMILAR WORDS:\n- {記録媒体|きろくばいたい}: recording medium — a near-synonym, perhaps slightly more common in contexts involving recording (audio, video, photography) rather than general data storage.\n- {記憶装置|きおくそうち}: storage device — emphasizes the device hardware (with built-in controller electronics) rather than the bare medium; includes RAM and CPU cache as well as external storage.\n- ストレージ: storage — an increasingly common loanword in IT contexts, often referring to cloud storage or data storage systems.\n- メディア: media — the loanword, used casually for the same concept (e.g. DVDメディア = 'DVD media').\n\nUSAGE:\nIn corporate information-security policies, '{記憶媒体|きおくばいたい}' is a standard keyword — the phrase {記憶媒体|きおくばいたい}{管理|かんり} ('storage media management') refers to the entire set of rules governing how employees can use, transport, and dispose of storage devices that might contain confidential data.\n\nREGISTER:\nFormal and technical. Common in written IT and business contexts. In casual speech, Japanese speakers use more specific words: USBメモリ, SDカード, ハードディスク, etc.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09281_kirokubaitai",
+      "reading": "きろくばいたい",
+      "headword": "{記録媒体|きろくばいたい}",
+      "label": "recording medium"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26493_kiokusouchi",
+      "reading": "きおくそうち",
+      "headword": "{記憶装置|きおくそうち}",
+      "label": "storage device"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06959_sutoreeji",
+      "reading": "すとれーじ",
+      "headword": "ストレージ",
+      "label": "storage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11165_media",
+      "reading": "めでぃあ",
+      "headword": "メディア",
+      "label": "media"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -77,6 +107,6 @@
       ]
     },
     "created": "2026-04-12T00:59:41Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

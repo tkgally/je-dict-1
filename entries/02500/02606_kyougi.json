@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "{競技|きょうぎ} refers to sports events and competitions.\n\nCOMMON PATTERNS:\n- {競技|きょうぎ}⟦に→に：00314_ni⟧⟦{参加|さんか}する→参加：02498_sanka⟧ (to participate in a competition)\n- {競技|きょうぎ}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧ (to hold a competition)\n- 〜{競技|きょうぎ} (~ event/sport)\n\nTYPES OF EVENTS:\n- ⟦{陸上|りくじょう}→陸上：09245_rikujou⟧{競技|きょうぎ} (track and field)\n- ⟦{水泳|すいえい}→水泳：01623_suiei⟧{競技|きょうぎ} (swimming events)\n- ⟦{球技|きゅうぎ}→球技：09279_kyuugi⟧ (ball sports)\n- ⟦{団体|だんたい}→団体：03426_dantai⟧{競技|きょうぎ} (team sports)\n- ⟦{個人|こじん}→個人：02758_kojin⟧{競技|きょうぎ} (individual events)\n\nCOMPOUND WORDS:\n- ⟦{競技|きょうぎ}{場|じょう}→競技場：15763_kyougijou⟧ (stadium, arena)\n- {競技|きょうぎ}⟦{会|かい}→会：27493_kai⟧ (athletic meet)\n- {競技|きょうぎ}⟦{者|しゃ}→〜者：04662_sha⟧ (competitor, athlete)\n\nHOMOPHONE:\n- ⟦{協議|きょうぎ}→協議：02635_kyougi⟧ (discussion, negotiation) - different meaning",
-  "cross_references": [],
+  "notes": "{競技|きょうぎ} refers to sports events and competitions.\n\nCOMMON PATTERNS:\n- {競技|きょうぎ}⟦に→に：00314_ni⟧⟦{参加|さんか}する→参加：02498_sanka⟧ (to participate in a competition)\n- {競技|きょうぎ}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧ (to hold a competition)\n- 〜{競技|きょうぎ} (~ event/sport)\n\nTYPES OF EVENTS:\n- ⟦{陸上|りくじょう}→陸上：09245_rikujou⟧{競技|きょうぎ} (track and field)\n- ⟦{水泳|すいえい}→水泳：01623_suiei⟧{競技|きょうぎ} (swimming events)\n- ⟦{球技|きゅうぎ}→球技：09279_kyuugi⟧ (ball sports)\n- ⟦{団体|だんたい}→団体：03426_dantai⟧{競技|きょうぎ} (team sports)\n- ⟦{個人|こじん}→個人：02758_kojin⟧{競技|きょうぎ} (individual events)\n\nCOMPOUNDS:\n- ⟦{競技|きょうぎ}{場|じょう}→競技場：15763_kyougijou⟧ (stadium, arena)\n- {競技|きょうぎ}⟦{会|かい}→会：27493_kai⟧ (athletic meet)\n- {競技|きょうぎ}⟦{者|しゃ}→〜者：04662_sha⟧ (competitor, athlete)\n\nWATCH OUT:\n- ⟦{協議|きょうぎ}→協議：02635_kyougi⟧ (discussion, negotiation) - different meaning",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01388_kyousou",
+      "reading": "きょうそう",
+      "headword": "{競争|きょうそう}",
+      "label": "competition, contest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27734_shumoku",
+      "reading": "しゅもく",
+      "headword": "{種目|しゅもく}",
+      "label": "event"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29647_konpetishon",
+      "reading": "こんぺてぃしょん",
+      "headword": "コンペティション",
+      "label": "competition"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:32:52Z",
-    "modified": "2026-05-21T16:10:36Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

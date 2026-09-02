@@ -19,7 +19,9 @@
       "english": "Japan is an island country.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12339_shimaguni_ex2",
@@ -27,7 +29,9 @@
       "english": "Being an island country, a culture of eating fish developed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12339_shimaguni_ex3",
@@ -35,21 +39,42 @@
       "english": "Japan, an island nation, is surrounded by the sea.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{島国|しまぐに} is a compound of {島|しま} (island) + {国|くに} (country). The reading uses rendaku ({国|くに} → ぐに).\n\nCULTURAL NOTE:\nIn Japanese discourse, {島国|しまぐに} frequently appears in discussions about Japan's national character, isolation, and cultural uniqueness. The phrase {島国根性|しまぐにこんじょう} (island mentality) refers to perceived insular or parochial attitudes.\n\nEXAMPLES OF ISLAND COUNTRIES:\n- {日本|にほん} (Japan)\n- イギリス (United Kingdom)\n- フィリピン (Philippines)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03400_tairiku",
+      "reading": "たいりく",
+      "headword": "{大陸|たいりく}",
+      "label": "continent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26679_kaiyoukokka",
+      "reading": "かいようこっか",
+      "headword": "{海洋国家|かいようこっか}",
+      "label": "maritime nation"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T02:56:32Z",
-    "modified": "2026-02-21T02:56:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

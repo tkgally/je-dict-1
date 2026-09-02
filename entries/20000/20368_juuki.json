@@ -17,7 +17,9 @@
       "id": "20368_juuki_ex1",
       "japanese": "{店舗|てんぽ}の{什器|じゅうき}を{新|あたら}しくした。",
       "english": "We replaced the store fixtures.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20368_juuki_ex2",
       "japanese": "イベント{用|よう}の{什器|じゅうき}をレンタルした。",
       "english": "We rented fixtures for the event.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "20368_juuki_ex3",
       "japanese": "{什器|じゅうき}の{配置|はいち}を{変|か}えたら、{売|う}り{場|ば}の{雰囲気|ふんいき}がガラリと{変|か}わった。",
       "english": "When we rearranged the fixtures, the sales floor atmosphere changed completely.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A business and retail term for movable equipment used in commercial spaces. Very common in the retail, hospitality, and event industries.\n\nFORMATION:\n{什|じゅう} (various items, household goods) + {器|き} (vessel, equipment). The kanji {什|じゅう} originally meant \"ten\" or \"miscellaneous items.\"\n\nCOMMON COLLOCATIONS:\n- {什器|じゅうき}{備品|びひん}: fixtures and furnishings\n- {店舗|てんぽ}{什器|じゅうき}: store fixtures\n- {什器|じゅうき}レンタル: fixture rental\n- {什器|じゅうき}の{搬入|はんにゅう}: bringing in fixtures\n- {什器|じゅうき}の{設置|せっち}: installation of fixtures\n\nSIMILAR WORDS:\n- {備品|びひん}: supplies, equipment — broader term covering office supplies and smaller items\n- {設備|せつび}: facilities, installations — usually refers to permanent, built-in infrastructure\n- {家具|かぐ}: furniture — for homes, while {什器|じゅうき} is primarily for commercial use",
+  "notes": "A business and retail term for movable equipment used in commercial spaces. Very common in the retail, hospitality, and event industries.\n\nFORMS:\n{什|じゅう} (various items, household goods) + {器|き} (vessel, equipment). The kanji {什|じゅう} originally meant \"ten\" or \"miscellaneous items.\"\n\nCOMMON COLLOCATIONS:\n- {什器|じゅうき}{備品|びひん}: fixtures and furnishings\n- {店舗|てんぽ}{什器|じゅうき}: store fixtures\n- {什器|じゅうき}レンタル: fixture rental\n- {什器|じゅうき}の{搬入|はんにゅう}: bringing in fixtures\n- {什器|じゅうき}の{設置|せっち}: installation of fixtures\n\nSIMILAR WORDS:\n- {備品|びひん}: supplies, equipment — broader term covering office supplies and smaller items\n- {設備|せつび}: facilities, installations — usually refers to permanent, built-in infrastructure\n- {家具|かぐ}: furniture — for homes, while {什器|じゅうき} is primarily for commercial use",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16253_bihin",
+      "reading": "びひん",
+      "headword": "{備品|びひん}",
+      "label": "supplies, equipment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03301_setsubi",
+      "reading": "せつび",
+      "headword": "{設備|せつび}",
+      "label": "facilities, installations"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12314_kagu",
+      "reading": "かぐ",
+      "headword": "{家具|かぐ}",
+      "label": "furniture"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work", "business"]
+      "semantic": [
+        "work",
+        "business"
+      ]
     },
     "created": "2026-03-29T11:09:54Z",
-    "modified": "2026-03-29T11:09:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

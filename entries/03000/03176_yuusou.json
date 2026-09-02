@@ -63,18 +63,46 @@
       ]
     }
   ],
-  "notes": "{郵送|ゆうそう} specifically refers to sending items through the postal system. It is a suru-verb noun: {郵送|ゆうそう}⟦する→する：00392_suru⟧ means \"to mail.\"\n\nWORD FORMATION:\n{郵|ゆう} (mail, postal) + {送|そう} (send).\n\nCOMMON EXPRESSIONS:\n- {郵送|ゆうそう}⟦する→する：00392_suru⟧: to mail, send by post\n- {郵送|ゆうそう}⟦で→で：00502_de⟧: by mail\n- {郵送|ゆうそう}⟦{料金|りょうきん}→料金：03797_ryoukin⟧: postage\n- {郵送|ゆうそう}⟦{費|ひ}→〜費：noentry⟧: postage cost\n- {郵送|ゆうそう}⟦{先|さき}→先：02883_saki⟧: mailing address/destination\n\nSIMILAR WORDS:\n- ⟦{郵便|ゆうびん}→郵便：03803_yuubin⟧: mail, postal service (the system itself)\n- ⟦{配送|はいそう}→配送：05464_haisou⟧: delivery, shipping (broader, includes courier services)\n- ⟦{発送|はっそう}→発送：10458_hassou⟧: dispatch, sending out (focus on the sender's action)\n- ⟦{送付|そうふ}→送付：07345_soufu⟧: sending, forwarding (formal/written)\n\nUSAGE:\nIn modern Japan, {郵送|ゆうそう} specifically implies the postal service, not private couriers like ヤマト{運輸|うんゆ} or {佐川|さがわ}{急便|きゅうびん}. For those, ⟦{配送|はいそう}→配送：05464_haisou⟧ or ⟦{宅配|たくはい}→宅配：09571_takuhai⟧ is used.",
+  "notes": "{郵送|ゆうそう} specifically refers to sending items through the postal system. It is a suru-verb noun: {郵送|ゆうそう}⟦する→する：00392_suru⟧ means \"to mail.\"\n\nFORMS:\n{郵|ゆう} (mail, postal) + {送|そう} (send).\n\nCOMMON EXPRESSIONS:\n- {郵送|ゆうそう}⟦する→する：00392_suru⟧: to mail, send by post\n- {郵送|ゆうそう}⟦で→で：00502_de⟧: by mail\n- {郵送|ゆうそう}⟦{料金|りょうきん}→料金：03797_ryoukin⟧: postage\n- {郵送|ゆうそう}⟦{費|ひ}→〜費：noentry⟧: postage cost\n- {郵送|ゆうそう}⟦{先|さき}→先：02883_saki⟧: mailing address/destination\n\nSIMILAR WORDS:\n- ⟦{郵便|ゆうびん}→郵便：03803_yuubin⟧: mail, postal service (the system itself)\n- ⟦{配送|はいそう}→配送：05464_haisou⟧: delivery, shipping (broader, includes courier services)\n- ⟦{発送|はっそう}→発送：10458_hassou⟧: dispatch, sending out (focus on the sender's action)\n- ⟦{送付|そうふ}→送付：07345_soufu⟧: sending, forwarding (formal/written)\n\nUSAGE:\nIn modern Japan, {郵送|ゆうそう} specifically implies the postal service, not private couriers like ヤマト{運輸|うんゆ} or {佐川|さがわ}{急便|きゅうびん}. For those, ⟦{配送|はいそう}→配送：05464_haisou⟧ or ⟦{宅配|たくはい}→宅配：09571_takuhai⟧ is used.",
   "cross_references": [
     {
       "type": "related",
       "reading": "ゆうびん",
       "headword": "{郵便|ゆうびん}",
       "target_id": "03803_yuubin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05464_haisou",
+      "reading": "はいそう",
+      "headword": "{配送|はいそう}",
+      "label": "delivery, shipping"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10458_hassou",
+      "reading": "はっそう",
+      "headword": "{発送|はっそう}",
+      "label": "dispatch, sending out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07345_soufu",
+      "reading": "そうふ",
+      "headword": "{送付|そうふ}",
+      "label": "sending, forwarding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23418_toukan",
+      "reading": "とうかん",
+      "headword": "{投函|とうかん}",
+      "label": "mailing (a letter)"
     }
   ],
   "metadata": {
     "created": "2026-01-11T12:02:41Z",
-    "modified": "2026-05-24T13:23:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

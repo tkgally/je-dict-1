@@ -19,7 +19,9 @@
       "english": "I filed a claim for damages.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14802_isharyou_ex2",
@@ -27,7 +29,9 @@
       "english": "He paid consolation money at the time of the divorce.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14802_isharyou_ex3",
@@ -35,22 +39,45 @@
       "english": "It went to court over the amount of compensation for the traffic accident.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A legal term that has become widely known through media coverage of divorce and accident cases.\n\nCOMMON COLLOCATIONS:\n- {慰謝料|いしゃりょう}を{請求|せいきゅう}する (to claim damages)\n- {慰謝料|いしゃりょう}を{支払|しはら}う (to pay damages)\n- {慰謝料|いしゃりょう}を{受|う}け{取|と}る (to receive damages)\n- {離婚|りこん}{慰謝料|いしゃりょう} (divorce settlement money)\n\nUSAGE NOTE:\nIn Japanese law, {慰謝料|いしゃりょう} specifically compensates for emotional or psychological suffering, distinct from {損害賠償|そんがいばいしょう} (general damages, including material losses). It is most commonly associated with divorce cases involving infidelity.",
-  "cross_references": [],
+  "notes": "A legal term that has become widely known through media coverage of divorce and accident cases.\n\nCOMMON COLLOCATIONS:\n- {慰謝料|いしゃりょう}を{請求|せいきゅう}する (to claim damages)\n- {慰謝料|いしゃりょう}を{支払|しはら}う (to pay damages)\n- {慰謝料|いしゃりょう}を{受|う}け{取|と}る (to receive damages)\n- {離婚|りこん}{慰謝料|いしゃりょう} (divorce settlement money)\n\nUSAGE:\nIn Japanese law, {慰謝料|いしゃりょう} specifically compensates for emotional or psychological suffering, distinct from {損害賠償|そんがいばいしょう} (general damages, including material losses). It is most commonly associated with divorce cases involving infidelity.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02133_nagusameru",
+      "reading": "なぐさめる",
+      "headword": "{慰|なぐさ}める",
+      "label": "to comfort, to console"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24434_mimaikin",
+      "reading": "みまいきん",
+      "headword": "{見舞金|みまいきん}",
+      "label": "sympathy money"
+    }
+  ],
   "metadata": {
     "created": "2026-03-03T12:53:26Z",
-    "modified": "2026-03-03T12:53:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

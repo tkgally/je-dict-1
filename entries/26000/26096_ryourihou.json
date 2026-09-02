@@ -17,7 +17,9 @@
       "id": "26096_ryourihou_ex1",
       "japanese": "{料理法|りょうりほう}を{調|しら}べる。",
       "english": "To look up a cooking method.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26096_ryourihou_ex2",
       "japanese": "この{魚|さかな}の{料理法|りょうりほう}を{教|おし}えてください。",
       "english": "Please teach me how to cook this fish.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,50 @@
       "id": "26096_ryourihou_ex3",
       "japanese": "{同|おな}じ{食材|しょくざい}でも{料理法|りょうりほう}を{変|か}えると{全|まった}く{違|ちが}う{味|あじ}になる。",
       "english": "Even with the same ingredients, changing the cooking method produces a completely different flavor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {料理|りょうり} (cooking; cuisine) and {法|ほう} (method; way). Used to refer to the specific technique or procedure for preparing a dish. Common in cookbooks, recipe sites, and cooking shows.\n\nCOMMON COLLOCATIONS:\n- {料理法|りょうりほう}を{工夫|くふう}する: to devise a cooking method\n- {伝統的|でんとうてき}な{料理法|りょうりほう}: traditional cooking method\n- {簡単|かんたん}な{料理法|りょうりほう}: easy cooking method\n- {料理法|りょうりほう}を{紹介|しょうかい}する: to introduce a cooking method\n\nSIMILAR WORDS:\n- {調理法|ちょうりほう}: cooking method — more technical/professional term often used in food science or commercial kitchens\n- レシピ: recipe — focuses on the specific step-by-step instructions and ingredient list\n- {作|つく}り{方|かた}: way of making — more casual, used in everyday conversation",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20458_chourihou",
+      "reading": "ちょうりほう",
+      "headword": "{調理法|ちょうりほう}",
+      "label": "cooking method"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07157_reshipi",
+      "reading": "れしぴ",
+      "headword": "レシピ",
+      "label": "recipe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27938_tsukurikata",
+      "reading": "つくりかた",
+      "headword": "{作|つく}り{方|かた}",
+      "label": "way of making"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-29T13:31:56Z",
-    "modified": "2026-04-29T13:31:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

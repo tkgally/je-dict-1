@@ -3,7 +3,7 @@
   "headword": "{搾|しぼ}る",
   "reading": "しぼる",
   "romaji": "shiboru",
-  "part_of_speech": "godan verb, transitive",
+  "part_of_speech": "verb (godan, transitive)",
   "gloss": "to squeeze out; to extract; to milk",
   "conjugation": {
     "type": "godan",
@@ -169,8 +169,38 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n\nKANJI DISTINCTION:\n{搾|しぼ}る vs. {絞|しぼ}る — both read しぼる but use different kanji:\n- {搾|しぼ}る: to squeeze out, extract by pressing (juice, oil, milk)\n- {絞|しぼ}る: to wring (a towel), to narrow down (choices), to strangle\n\nCOMMON PATTERNS:\n- {果汁|かじゅう}を{搾|しぼ}る: to squeeze juice\n- {乳|ちち}を{搾|しぼ}る: to milk\n- {油|あぶら}を{搾|しぼ}る: to press oil\n- {搾|しぼ}りたて: freshly squeezed/milked\n\nASPECT (ている):\n{搾|しぼ}っている describes the ongoing action of squeezing or milking.\n\nRELATED:\n- {搾取|さくしゅ}: exploitation (figuratively \"squeezing\" people)",
+  "notes": "TRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n\nKANJI DISTINCTION:\n{搾|しぼ}る vs. {絞|しぼ}る — both read しぼる but use different kanji:\n- {搾|しぼ}る: to squeeze out, extract by pressing (juice, oil, milk)\n- {絞|しぼ}る: to wring (a towel), to narrow down (choices), to strangle\n\nCOMMON PATTERNS:\n- {果汁|かじゅう}を{搾|しぼ}る: to squeeze juice\n- {乳|ちち}を{搾|しぼ}る: to milk\n- {油|あぶら}を{搾|しぼ}る: to press oil\n- {搾|しぼ}りたて: freshly squeezed/milked\n\nASPECT (ている):\n{搾|しぼ}っている describes the ongoing action of squeezing or milking.\n\nRELATED WORDS:\n- {搾取|さくしゅ}: exploitation (figuratively \"squeezing\" people)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12820_sakushu",
+      "reading": "さくしゅ",
+      "headword": "{搾取|さくしゅ}",
+      "label": "exploitation"
+    },
+    {
+      "type": "homophone",
+      "target_id": "03926_shiboru",
+      "reading": "しぼる",
+      "headword": "{絞|しぼ}る",
+      "label": "to wring, to squeeze"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14963_shiboritoru",
+      "reading": "しぼりとる",
+      "headword": "{搾|しぼ}り{取|と}る",
+      "label": "to squeeze out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24081_assaku",
+      "reading": "あっさく",
+      "headword": "{圧搾|あっさく}",
+      "label": "compression"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -187,6 +217,6 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-03-23T01:54:39Z",
-    "modified": "2026-04-03T05:49:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

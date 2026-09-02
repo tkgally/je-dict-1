@@ -19,7 +19,9 @@
       "english": "I look up a historical idiom.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18562_kojiseigo_ex2",
@@ -27,7 +29,9 @@
       "english": "'Contradiction' (矛盾) is a famous historical idiom.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18562_kojiseigo_ex3",
@@ -35,22 +39,45 @@
       "english": "We learned the origins of historical idioms in Japanese class.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA term used in Japanese language education. Many {故事成語|こじせいご} come from ancient Chinese texts ({漢文|かんぶん}). Common examples include {矛盾|むじゅん} (contradiction), {蛇足|だそく} (something unnecessary), and {五十歩百歩|ごじっぽひゃっぽ} (pot calling the kettle black).\n\nCOMMON COLLOCATIONS:\n- {故事成語|こじせいご}の{由来|ゆらい} (the origin of a historical idiom)\n- {故事成語|こじせいご}を{使|つか}う (to use a historical idiom)\n- {故事成語|こじせいご}{辞典|じてん} (dictionary of historical idioms)\n\nSIMILAR WORDS:\n- {四字熟語|よじじゅくご}: four-character compound — fixed four-kanji expressions, some of which are also {故事成語|こじせいご}\n- {諺|ことわざ}: proverb — a broader category of traditional sayings",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15663_yojijukugo",
+      "reading": "よじじゅくご",
+      "headword": "{四字熟語|よじじゅくご}",
+      "label": "four-character compound"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02765_kotowaza",
+      "reading": "ことわざ",
+      "headword": "{諺|ことわざ}",
+      "label": "proverb"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T08:56:34Z",
-    "modified": "2026-03-22T08:56:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["language"],
-      "domain": ["academic"]
+      "semantic": [
+        "language"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

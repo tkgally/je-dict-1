@@ -17,7 +17,9 @@
       "id": "28142_uun_ex1",
       "japanese": "うーん、どうしようかな。",
       "english": "Hmm, what should I do?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28142_uun_ex2",
       "japanese": "うーん、それはちょっと{難|むずか}しいね。",
       "english": "Well... that's a bit difficult.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,54 @@
       "id": "28142_uun_ex3",
       "japanese": "「{行|い}く？」「うーん、やっぱりやめておく。」",
       "english": "\"Are you going?\" \"Hmm... actually, I'll pass.\"",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A drawn-out vocalization showing that the speaker is thinking, hesitating, or reluctant. The long vowel signals that an answer is not coming immediately.\n\nTYPICAL USES:\n- Buying time to think before answering\n- Expressing mild doubt or reluctance ('well, I'm not sure...')\n- Reacting to something troubling or hard to decide\n\nSIMILAR WORDS:\n- うん: yeah, mm — short; a casual 'yes' or simple acknowledgment\n- えーと: um, let me see — filler used while searching for words",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06910_eeto",
+      "reading": "えーと",
+      "headword": "えーと",
+      "label": "um, let me see"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20860_fumu",
+      "reading": "ふむ",
+      "headword": "ふむ",
+      "label": "hmm"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23425_eeto",
+      "reading": "ええと",
+      "headword": "ええと",
+      "label": "well..."
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["interjection"],
+      "pos": [
+        "interjection"
+      ],
       "formality": "informal",
-      "politeness": null,
-      "semantic": ["communication"],
-      "domain": ["colloquial"]
+      "politeness": "plain",
+      "semantic": [
+        "communication"
+      ],
+      "domain": [
+        "colloquial"
+      ]
     },
     "created": "2026-05-26T03:08:00Z",
-    "modified": "2026-05-26T03:08:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

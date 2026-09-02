@@ -17,7 +17,9 @@
       "id": "24627_kasen_ex1",
       "japanese": "この{業界|ぎょうかい}は{寡占|かせん}{状態|じょうたい}にある。",
       "english": "This industry is in an oligopolistic state.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24627_kasen_ex2",
       "japanese": "{大手|おおて}3{社|しゃ}による{寡占|かせん}が{続|つづ}いている。",
       "english": "The oligopoly by the three major companies continues.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,61 @@
       "id": "24627_kasen_ex3",
       "japanese": "{携帯電話|けいたいでんわ}{市場|しじょう}では{少数|しょうすう}のキャリアによる{寡占|かせん}が{形成|けいせい}され、{新規参入|しんきさんにゅう}が{難|むずか}しくなっている。",
       "english": "In the mobile phone market, an oligopoly has formed among a small number of carriers, making it difficult for new entrants.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {寡|か} ('few') and {占|せん} ('occupy; monopolize'). Literally 'occupation by few,' which neatly captures the concept of oligopoly. An important term in economics education and business news.\n\nUSAGE:\nFrequently appears in economic analysis, news articles about market concentration, and competition law discussions. The term contrasts with {独占|どくせん} ('monopoly,' domination by one) and {完全競争|かんぜんきょうそう} ('perfect competition,' many sellers). Most real-world markets fall somewhere between {寡占|かせん} and {完全競争|かんぜんきょうそう}.\n\nCOMMON COLLOCATIONS:\n- {寡占|かせん}{市場|しじょう}: oligopolistic market\n- {寡占|かせん}{状態|じょうたい}: oligopolistic conditions\n- {寡占|かせん}{体制|たいせい}: oligopolistic structure\n- {寡占|かせん}が{進|すす}む: oligopoly advances\n- {寡占|かせん}を{崩|くず}す: to break up an oligopoly\n\nSIMILAR WORDS:\n- {独占|どくせん}: monopoly — market control by a single entity; more extreme than {寡占|かせん}\n- {複占|ふくせん}: duopoly — market dominated by exactly two firms; a specific case of {寡占|かせん}\n- {下線|かせん}: underline — homophone with different kanji; completely unrelated\n- {河川|かせん}: river — another homophone; also unrelated",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13494_dokusen",
+      "reading": "どくせん",
+      "headword": "{独占|どくせん}",
+      "label": "monopoly"
+    },
+    {
+      "type": "homophone",
+      "target_id": "00190_kasen",
+      "reading": "かせん",
+      "headword": "{下線|かせん}",
+      "label": "underline"
+    },
+    {
+      "type": "homophone",
+      "target_id": "13276_kasen",
+      "reading": "かせん",
+      "headword": "{河川|かせん}",
+      "label": "river"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21851_senbai",
+      "reading": "せんばい",
+      "headword": "{専売|せんばい}",
+      "label": "monopoly"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["economics"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "economics"
+      ]
     },
     "created": "2026-04-20T09:16:06Z",
-    "modified": "2026-04-20T09:16:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

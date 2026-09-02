@@ -2,7 +2,7 @@
   "id": "07667_tsukaihatasu",
   "headword": "{使|つか}い{果|は}たす",
   "reading": "つかいはたす",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to use up completely; to exhaust; to spend all",
   "conjugation": {
     "type": "godan",
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "VERB TYPE:\n{他動詞|たどうし} (transitive verb)\nGodan verb ({五段動詞|ごだんどうし})\n\n・{使|つか}い{果|は}たさない (negative)\n・{使|つか}い{果|は}たして (te-form)\n・{使|つか}い{果|は}たした (past)\n\nCOMMON OBJECTS:\n・{貯金|ちょきん}を{使|つか}い{果|は}たす - to use up one's savings\n・{体力|たいりょく}を{使|つか}い{果|は}たす - to exhaust one's energy\n・{予算|よさん}を{使|つか}い{果|は}たす - to spend the entire budget\n・{資源|しげん}を{使|つか}い{果|は}たす - to deplete resources\n\nCOMPOUND VERB:\n{果|は}たす adds the meaning of \"completely\" or \"to the end.\"",
+  "notes": "VERB TYPE:\n{他動詞|たどうし} (transitive verb)\nGodan verb ({五段動詞|ごだんどうし})\n\n- {使|つか}い{果|は}たさない (negative)\n- {使|つか}い{果|は}たして (te-form)\n- {使|つか}い{果|は}たした (past)\n\nCOMMON OBJECTS:\n- {貯金|ちょきん}を{使|つか}い{果|は}たす - to use up one's savings\n- {体力|たいりょく}を{使|つか}い{果|は}たす - to exhaust one's energy\n- {予算|よさん}を{使|つか}い{果|は}たす - to spend the entire budget\n- {資源|しげん}を{使|つか}い{果|は}たす - to deplete resources\n\nCOMPOUND VERB:\n{果|は}たす adds the meaning of \"completely\" or \"to the end.\"",
   "cross_references": [
     {
       "type": "related",
@@ -145,11 +145,18 @@
       "reading": "つかいわける",
       "headword": "{使|つか}い{分|わ}ける",
       "label": "to use selectively"
+    },
+    {
+      "type": "related",
+      "target_id": "07876_tsukaikomu",
+      "reading": "つかいこむ",
+      "headword": "{使|つか}い{込|こ}む",
+      "label": "to embezzle"
     }
   ],
   "metadata": {
     "created": "2026-01-20T14:05:39Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -158,6 +165,7 @@
       ],
       "transitivity": "transitive",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "consumption",
         "action"

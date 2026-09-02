@@ -24,7 +24,9 @@
       "english": "To set a trap.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13816_wana_ex2",
@@ -32,7 +34,9 @@
       "english": "The hunter set traps in the mountains.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13816_wana_ex3",
@@ -40,7 +44,9 @@
       "english": "A wild boar was caught in a trap.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13816_wana_ex4",
@@ -48,7 +54,9 @@
       "english": "I fell into a trap.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13816_wana_ex5",
@@ -56,7 +64,9 @@
       "english": "Sweet words might be a trap.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13816_wana_ex6",
@@ -64,10 +74,12 @@
       "english": "Please be careful of the scammer's traps.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
-  "notes": "{罠|わな} means a trap or snare, used both literally (for catching animals) and figuratively (a scheme to deceive someone).\n\nCOMMON COLLOCATIONS:\n- {罠|わな}を{仕掛|しか}ける: to set a trap\n- {罠|わな}にかかる: to get caught in a trap\n- {罠|わな}にはまる: to fall into a trap\n- {罠|わな}に{落|お}ちる: to fall into a trap\n- {罠|わな}を{見破|みやぶ}る: to see through a trap\n- {罠|わな}を{逃|のが}れる: to escape a trap\n\nUSAGE:\nThe figurative sense (sense 2) is very common in everyday speech. Often written in hiragana as わな in casual contexts.\n\nRELATED:\n- {落|お}とし{穴|あな}: pitfall, booby trap\n- {策略|さくりゃく}: scheme, stratagem\n- {騙|だま}す: to deceive",
+  "notes": "{罠|わな} means a trap or snare, used both literally (for catching animals) and figuratively (a scheme to deceive someone).\n\nCOMMON COLLOCATIONS:\n- {罠|わな}を{仕掛|しか}ける: to set a trap\n- {罠|わな}にかかる: to get caught in a trap\n- {罠|わな}にはまる: to fall into a trap\n- {罠|わな}に{落|お}ちる: to fall into a trap\n- {罠|わな}を{見破|みやぶ}る: to see through a trap\n- {罠|わな}を{逃|のが}れる: to escape a trap\n\nUSAGE:\nThe figurative sense (sense 2) is very common in everyday speech. Often written in hiragana as わな in casual contexts.\n\nRELATED WORDS:\n- {落|お}とし{穴|あな}: pitfall, booby trap\n- {策略|さくりゃく}: scheme, stratagem\n- {騙|だま}す: to deceive",
   "cross_references": [
     {
       "type": "synonym",
@@ -75,18 +87,64 @@
       "reading": "おとしあな",
       "headword": "{落|お}とし{穴|あな}",
       "label": "pitfall, booby trap"
+    },
+    {
+      "type": "related",
+      "target_id": "13785_sakuryaku",
+      "reading": "さくりゃく",
+      "headword": "{策略|さくりゃく}",
+      "label": "scheme, stratagem"
+    },
+    {
+      "type": "related",
+      "target_id": "02286_damasu",
+      "reading": "だます",
+      "headword": "{騙|だま}す",
+      "label": "to deceive"
+    },
+    {
+      "type": "related",
+      "target_id": "02238_nezumi",
+      "reading": "ねずみ",
+      "headword": "{鼠|ねずみ}",
+      "label": "mouse, rat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12835_torappu",
+      "reading": "とらっぷ",
+      "headword": "トラップ",
+      "label": "trap"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24180_kansei",
+      "reading": "かんせい",
+      "headword": "{陥穽|かんせい}",
+      "label": "pitfall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24359_jucchuu",
+      "reading": "じゅっちゅう",
+      "headword": "{術中|じゅっちゅう}",
+      "label": "trap"
     }
   ],
   "metadata": {
     "created": "2026-02-27T04:20:30Z",
-    "modified": "2026-04-29T08:23:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     }
   }
 }

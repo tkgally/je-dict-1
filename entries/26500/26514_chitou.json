@@ -3,7 +3,7 @@
   "headword": "{遅答|ちとう}",
   "reading": "ちとう",
   "romaji": "chitou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "delayed reply; late response",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Composed of {遅|ち} (late, delayed) and {答|とう} (answer, reply). A formal term used mainly in written correspondence — business emails, official letters, and formal communication — to politely acknowledge that one's response is overdue. Often appears at the opening of a letter or email as an apology.\n\nCOMMON COLLOCATIONS:\n- {遅答|ちとう}をお{詫|わ}びする: to apologize for the late reply\n- {遅答|ちとう}になる: to become a late reply\n- {遅答|ちとう}ながら: though belated\n\nSIMILAR WORDS:\n- {返事|へんじ}が{遅|おそ}い: slow reply — more colloquial expression\n- {遅延|ちえん}: delay — more general, applies to any kind of delay\n- {返答|へんとう}: reply/answer — neutral term without the connotation of lateness",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06749_chien",
+      "reading": "ちえん",
+      "headword": "{遅延|ちえん}",
+      "label": "delay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10440_hentou",
+      "reading": "へんとう",
+      "headword": "{返答|へんとう}",
+      "label": "reply/answer"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -65,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-02T13:37:19Z",
-    "modified": "2026-05-02T13:37:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

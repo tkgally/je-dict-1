@@ -17,7 +17,9 @@
       "id": "25753_katsudouryoukei_ex1",
       "japanese": "{活動量計|かつどうりょうけい}をつけて{走|はし}っている。",
       "english": "I run wearing an activity tracker.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25753_katsudouryoukei_ex2",
       "japanese": "{活動量計|かつどうりょうけい}で{毎日|まいにち}の{歩数|ほすう}を{確認|かくにん}している。",
       "english": "I check my daily step count on the activity tracker.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,45 @@
       "id": "25753_katsudouryoukei_ex3",
       "japanese": "{健康|けんこう}{管理|かんり}のために{活動量計|かつどうりょうけい}を{購入|こうにゅう}したが、{睡眠|すいみん}の{質|しつ}まで{測定|そくてい}できるので{驚|おどろ}いた。",
       "english": "I bought an activity tracker for health management, and was surprised it can even measure sleep quality.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {活動量|かつどうりょう} (amount of activity) + {計|けい} (meter, gauge). The Japanese term specifically emphasizes measuring the quantity of physical activity. In practice, this overlaps heavily with スマートウォッチ (smartwatch) and フィットネストラッカー (fitness tracker).\n\nCOMMON COLLOCATIONS:\n- {活動量計|かつどうりょうけい}をつける: to wear an activity tracker\n- {活動量計|かつどうりょうけい}で{計測|けいそく}する: to measure with an activity tracker\n- {腕時計型|うでどけいがた}{活動量計|かつどうりょうけい}: wristwatch-type activity tracker\n- {活動量計|かつどうりょうけい}のデータ: activity tracker data\n\nSIMILAR WORDS:\n- {万歩計|まんぽけい}: pedometer — a simpler device that counts only steps\n- スマートウォッチ: smartwatch — a more advanced device with many features beyond activity tracking\n- フィットネストラッカー: fitness tracker — the English loanword equivalent",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20347_manpokei",
+      "reading": "まんぽけい",
+      "headword": "{万歩計|まんぽけい}",
+      "label": "pedometer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28554_sumaatowocchi",
+      "reading": "すまーとうぉっち",
+      "headword": "スマートウォッチ",
+      "label": "smartwatch"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["technology", "health"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "technology",
+        "health"
+      ]
     },
     "created": "2026-04-27T11:23:01Z",
-    "modified": "2026-04-27T11:23:01Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{再始動|さいしどう}",
   "reading": "さいしどう",
   "romaji": "saishidou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "restart; relaunch; reboot",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "A compound of {再|さい} (again, re-) and {始動|しどう} (starting, activation). Often used in technical, industrial, and IT contexts. Can also be used as a verb with する.\n\nCOMMON COLLOCATIONS:\n- {再始動|さいしどう}する: to restart\n- {再始動|さいしどう}を{試|こころ}みる: to attempt a restart\n- {再始動|さいしどう}{手順|てじゅん}: restart procedure\n- {再始動|さいしどう}に{時間|じかん}がかかる: the restart takes time\n\nSIMILAR WORDS:\n- {再起動|さいきどう}: reboot, restart — often used for computers and electronic devices\n- {再開|さいかい}: resumption, reopening — broader term for resuming activities, business, or events\n- {始動|しどう}: starting, activation — the initial start, without the \"again\" nuance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09222_saikidou",
+      "reading": "さいきどう",
+      "headword": "{再起動|さいきどう}",
+      "label": "reboot, restart"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05219_saikai",
+      "reading": "さいかい",
+      "headword": "{再開|さいかい}",
+      "label": "resumption, reopening"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +69,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "technology",
         "business"
@@ -60,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-23T13:25:48Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

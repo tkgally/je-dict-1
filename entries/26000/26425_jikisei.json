@@ -17,7 +17,9 @@
       "id": "26425_jikisei_ex1",
       "japanese": "この{茶碗|ちゃわん}は{磁器|じき}{製|せい}だ。",
       "english": "This teacup is made of porcelain.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26425_jikisei_ex2",
       "japanese": "{磁器|じき}{製|せい}の{花瓶|かびん}は{割|わ}れやすいので{注意|ちゅうい}が{必要|ひつよう}だ。",
       "english": "Porcelain vases are fragile and require care.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,37 @@
       "id": "26425_jikisei_ex3",
       "japanese": "{有田焼|ありたやき}は{日本|にほん}を{代表|だいひょう}する{磁器|じき}{製|せい}の{食器|しょっき}で、{海外|かいがい}でも{高|たか}く{評価|ひょうか}されている。",
       "english": "Arita ware is a representative Japanese porcelain tableware that is also highly regarded overseas.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {磁器|じき} (porcelain) and {製|せい} (made of, manufactured from). The suffix {製|せい} is productive and attaches to many materials: {木製|もくせい} (wooden), {金属製|きんぞくせい} (metal), {革製|かわせい} (leather), etc.\n\nCOMMON COLLOCATIONS:\n- {磁器|じき}{製|せい}の{食器|しょっき}: porcelain tableware\n- {磁器|じき}{製|せい}の{人形|にんぎょう}: porcelain doll\n- {磁器|じき}{製|せい}の{花瓶|かびん}: porcelain vase\n- {磁器|じき}{製|せい}のタイル: porcelain tile\n\nJAPANESE PORCELAIN:\n- {有田焼|ありたやき}: Arita ware (Saga Prefecture)\n- {九谷焼|くたにやき}: Kutani ware (Ishikawa Prefecture)\n- {伊万里焼|いまりやき}: Imari ware (Saga Prefecture)\n\nSIMILAR WORDS:\n- {陶器|とうき}{製|せい}: made of earthenware/pottery — {陶器|とうき} is softer and more porous than {磁器|じき}\n- {陶磁器|とうじき}: ceramics — the collective term for both pottery and porcelain\n- {瀬戸物|せともの}: ceramic ware — a colloquial term for ceramics in general",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15698_toujiki",
+      "reading": "とうじき",
+      "headword": "{陶磁器|とうじき}",
+      "label": "ceramics"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["descriptive", "art"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "descriptive",
+        "art"
+      ]
     },
     "created": "2026-05-01T15:39:30Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

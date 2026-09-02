@@ -3,7 +3,7 @@
   "headword": "{分析|ぶんせき}する",
   "reading": "ぶんせきする",
   "romaji": "bunsekisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to analyze; to examine",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "A fundamental word in academic, scientific, and business contexts. It implies methodical, detailed examination — breaking a complex subject into parts to understand it better. Used for data, situations, problems, markets, texts, and more.\n\nThe noun form {分析|ぶんせき} is extremely common in compound nouns.\n\nCOMMON COLLOCATIONS:\n- データを{分析|ぶんせき}する: to analyze data\n- {原因|げんいん}を{分析|ぶんせき}する: to analyze the cause\n- {状況|じょうきょう}を{分析|ぶんせき}する: to analyze the situation\n- {市場|しじょう}{分析|ぶんせき}: market analysis\n- {統計|とうけい}{分析|ぶんせき}: statistical analysis\n- {成分|せいぶん}{分析|ぶんせき}: component analysis\n\nSIMILAR WORDS:\n- {調|しら}べる: to investigate; to look into — more general, less technical than {分析|ぶんせき}する\n- {検討|けんとう}する: to examine; to consider — focuses on evaluating options or feasibility\n- {解析|かいせき}する: to analyze (technical) — more specialized, used in mathematics, engineering, and computer science",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01213_shiraberu",
+      "reading": "しらべる",
+      "headword": "{調|しら}べる",
+      "label": "to investigate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17455_kentousuru",
+      "reading": "けんとうする",
+      "headword": "{検討|けんとう}する",
+      "label": "to examine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16075_kaiseki",
+      "reading": "かいせき",
+      "headword": "{解析|かいせき}",
+      "label": "to analyze"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21320_bunkaisuru",
+      "reading": "ぶんかいする",
+      "headword": "{分解|ぶんかい}する",
+      "label": "to disassemble"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +83,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "cognition",
         "business"
@@ -60,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T15:23:59Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

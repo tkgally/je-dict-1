@@ -3,7 +3,7 @@
   "headword": "{規模|きぼ}{拡大|かくだい}",
   "reading": "きぼかくだい",
   "romaji": "kibokakudai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "expansion of scale; scaling up",
   "definitions": [
     {
@@ -45,7 +45,15 @@
     }
   ],
   "notes": "A compound of {規模|きぼ} (scale; scope) and {拡大|かくだい} (expansion; enlargement). Commonly used in business, economics, and organizational contexts. Can function as a noun or be used with する as a verb.\n\nCOMMON COLLOCATIONS:\n- {事業|じぎょう}の{規模|きぼ}{拡大|かくだい}: business expansion\n- {規模|きぼ}{拡大|かくだい}を{図|はか}る: to plan/pursue expansion\n- {急速|きゅうそく}な{規模|きぼ}{拡大|かくだい}: rapid scaling up\n- {規模|きぼ}{拡大|かくだい}{路線|ろせん}: expansion strategy\n\nSIMILAR WORDS:\n- {拡張|かくちょう}: expansion; extension — broader term, can apply to physical or abstract expansion\n- スケールアップ: scale-up — loanword used in business and manufacturing\n- {規模|きぼ}{縮小|しゅくしょう}: downsizing — the opposite, reducing scale",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12812_kakuchou",
+      "reading": "かくちょう",
+      "headword": "{拡張|かくちょう}",
+      "label": "expansion"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,13 +62,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-29T13:36:19Z",
-    "modified": "2026-04-29T13:36:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {童謡|どうよう} specifically refers to songs for children. Japanese nursery rhymes often have seasonal themes and are associated with childhood memories.\n\nFAMOUS JAPANESE CHILDREN'S SONGS:\n・⟦{赤|あか}→赤：02842_aka⟧⟦とんぼ→蜻蛉：05204_tonbo⟧ (Red Dragonfly)\n・⟦{春|はる}→春：00627_haru⟧⟦が→が：00051_ga⟧⟦{来|き}た→来る：00254_kuru⟧ (Spring Has Come)\n・⟦ふるさと→故郷：25466_furusato⟧ (Hometown)\n・⟦{七|なな}→七：00734_nana⟧⟦つ→つ：01004_tsu⟧⟦の→の：09472_no⟧⟦{子|こ}→子：09851_ko⟧ (Seven Children)\n・⟦チューリップ→チューリップ：05487_chuurippu⟧ (Tulip)\n・⟦{浜辺|はまべ}→浜辺：17948_hamabe⟧⟦の→の：09472_no⟧⟦{歌|うた}→歌：02179_uta⟧ (Song of the Seashore)\n\nHOMOPHONE:\n・⟦{動揺|どうよう}→動揺：03482_douyou⟧ (agitation, disturbance) - same reading, different meaning\n\nRELATED WORDS:\n・⟦{子守|こもり}{歌|うた}→子守歌：19434_komoriuta⟧ (lullaby)\n・⟦{歌謡曲|かようきょく}→歌謡曲：20396_kayoukyoku⟧ (popular song)\n・⟦{唱歌|しょうか}→唱歌：21282_shouka⟧ (school song, anthem)",
+  "notes": "USAGE: {童謡|どうよう} specifically refers to songs for children. Japanese nursery rhymes often have seasonal themes and are associated with childhood memories.\n\nFAMOUS JAPANESE CHILDREN'S SONGS:\n- ⟦{赤|あか}→赤：02842_aka⟧⟦とんぼ→蜻蛉：05204_tonbo⟧ (Red Dragonfly)\n- ⟦{春|はる}→春：00627_haru⟧⟦が→が：00051_ga⟧⟦{来|き}た→来る：00254_kuru⟧ (Spring Has Come)\n- ⟦ふるさと→故郷：25466_furusato⟧ (Hometown)\n- ⟦{七|なな}→七：00734_nana⟧⟦つ→つ：01004_tsu⟧⟦の→の：09472_no⟧⟦{子|こ}→子：09851_ko⟧ (Seven Children)\n- ⟦チューリップ→チューリップ：05487_chuurippu⟧ (Tulip)\n- ⟦{浜辺|はまべ}→浜辺：17948_hamabe⟧⟦の→の：09472_no⟧⟦{歌|うた}→歌：02179_uta⟧ (Song of the Seashore)\n\nWATCH OUT:\n- ⟦{動揺|どうよう}→動揺：03482_douyou⟧ (agitation, disturbance) - same reading, different meaning\n\nRELATED WORDS:\n- ⟦{子守|こもり}{歌|うた}→子守歌：19434_komoriuta⟧ (lullaby)\n- ⟦{歌謡曲|かようきょく}→歌謡曲：20396_kayoukyoku⟧ (popular song)\n- ⟦{唱歌|しょうか}→唱歌：21282_shouka⟧ (school song, anthem)",
   "prominent_see_also": [
     {
       "target_id": "03482_douyou",
@@ -78,10 +78,39 @@
       "note": "same, similar"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19434_komoriuta",
+      "reading": "こもりうた",
+      "headword": "{子守歌|こもりうた}",
+      "label": "lullaby"
+    },
+    {
+      "type": "related",
+      "target_id": "20396_kayoukyoku",
+      "reading": "かようきょく",
+      "headword": "{歌謡曲|かようきょく}",
+      "label": "popular song"
+    },
+    {
+      "type": "related",
+      "target_id": "21282_shouka",
+      "reading": "しょうか",
+      "headword": "{唱歌|しょうか}",
+      "label": "school song, anthem"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22456_warabeuta",
+      "reading": "わらべうた",
+      "headword": "わらべうた",
+      "label": "children's folk song"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T09:55:00Z",
-    "modified": "2026-06-12T18:22:23Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "schema_version": "2.0",

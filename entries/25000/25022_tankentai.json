@@ -17,7 +17,9 @@
       "id": "25022_tankentai_ex1",
       "japanese": "{探検隊|たんけんたい}が{出発|しゅっぱつ}した。",
       "english": "The expedition set out.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25022_tankentai_ex2",
       "japanese": "{南極|なんきょく}{探検隊|たんけんたい}は{厳|きび}しい{寒|さむ}さに{耐|た}えた。",
       "english": "The Antarctic expedition endured severe cold.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,52 @@
       "id": "25022_tankentai_ex3",
       "japanese": "{子|こ}どもたちは{森|もり}の{中|なか}で{探検隊|たんけんたい}ごっこをして{遊|あそ}んでいた。",
       "english": "The children were playing expedition in the forest.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {探検|たんけん} (exploration) + {隊|たい} (team; squad). Used both for serious historical and scientific expeditions and playfully for children's adventure games.\n\nCOMMON COLLOCATIONS:\n- {探検隊|たんけんたい}を{組|く}む: form an expedition\n- {探検隊|たんけんたい}を{派遣|はけん}する: dispatch an expedition\n- {探検隊|たんけんたい}に{参加|さんか}する: join an expedition\n- {探検隊|たんけんたい}ごっこ: playing expedition (children's game)\n\nSIMILAR WORDS:\n- {調査隊|ちょうさたい}: survey team — focuses on research and data collection rather than discovery\n- {遠征隊|えんせいたい}: expeditionary force — can imply a military component\n- {冒険家|ぼうけんか}: adventurer — an individual rather than a group",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25462_enseitai",
+      "reading": "えんせいたい",
+      "headword": "{遠征隊|えんせいたい}",
+      "label": "expeditionary force"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20564_boukenka",
+      "reading": "ぼうけんか",
+      "headword": "{冒険家|ぼうけんか}",
+      "label": "adventurer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27953_tankenka",
+      "reading": "たんけんか",
+      "headword": "{探検家|たんけんか}",
+      "label": "explorer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["travel", "nature"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "travel",
+        "nature"
+      ]
     },
     "created": "2026-04-22T11:23:57Z",
-    "modified": "2026-04-22T11:23:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

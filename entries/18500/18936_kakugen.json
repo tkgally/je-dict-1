@@ -17,7 +17,9 @@
       "id": "18936_kakugen_ex1",
       "japanese": "これは{有名|ゆうめい}な{格言|かくげん}だ。",
       "english": "This is a famous maxim.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18936_kakugen_ex2",
       "japanese": "{祖父|そふ}はよく{格言|かくげん}を{引用|いんよう}して{話|はな}した。",
       "english": "My grandfather often spoke by quoting proverbs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "18936_kakugen_ex3",
       "japanese": "「{時|とき}は{金|かね}なり」という{格言|かくげん}は{世界中|せかいじゅう}で{知|し}られている。",
       "english": "The maxim 'time is money' is known throughout the world.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Distinguished from related words: {諺|ことわざ} (proverb) refers to folk sayings passed down through generations, while {格言|かくげん} tends to refer to more literary or attributed sayings. {名言|めいげん} (famous saying) emphasizes that the quote is well-known and often attributed to a specific person. Common collocations include {格言|かくげん}を{引用|いんよう}する (to quote an aphorism) and {格言|かくげん}{集|しゅう} (collection of maxims).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02765_kotowaza",
+      "reading": "ことわざ",
+      "headword": "{諺|ことわざ}",
+      "label": "proverb, saying, maxim"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20185_meigen",
+      "reading": "めいげん",
+      "headword": "{名言|めいげん}",
+      "label": "famous saying"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20974_kingen",
+      "reading": "きんげん",
+      "headword": "{金言|きんげん}",
+      "label": "wise saying"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22461_keiku",
+      "reading": "けいく",
+      "headword": "{警句|けいく}",
+      "label": "epigram"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["language"]
+      "semantic": [
+        "language"
+      ]
     },
     "created": "2026-03-23T10:15:39Z",
-    "modified": "2026-03-23T10:15:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

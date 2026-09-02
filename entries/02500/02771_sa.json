@@ -2,7 +2,7 @@
   "id": "02771_sa",
   "headword": "{差|さ}",
   "reading": "さ",
-  "part_of_speech": "noun / suffix",
+  "part_of_speech": "noun, suffix",
   "gloss": "difference, gap, margin",
   "definitions": [
     {
@@ -51,11 +51,39 @@
       "headword": "{違|ちが}い",
       "label": "difference, discrepancy",
       "target_id": "03432_chigai"
+    },
+    {
+      "type": "related",
+      "target_id": "05333_hikizan",
+      "reading": "ひきざん",
+      "headword": "{引|ひ}き{算|ざん}",
+      "label": "subtraction"
+    },
+    {
+      "type": "related",
+      "target_id": "10044_zure",
+      "reading": "ずれ",
+      "headword": "ずれ",
+      "label": "gap, discrepancy, deviation, misalignment"
+    },
+    {
+      "type": "related",
+      "target_id": "26727_shou",
+      "reading": "しょう",
+      "headword": "{商|しょう}",
+      "label": "quotient"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28329_baratsuki",
+      "reading": "ばらつき",
+      "headword": "ばらつき",
+      "label": "variation"
     }
   ],
   "metadata": {
     "created": "2026-01-11T08:02:15Z",
-    "modified": "2026-06-12T04:00:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

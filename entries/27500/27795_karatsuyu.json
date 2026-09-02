@@ -17,7 +17,9 @@
       "id": "27795_karatsuyu_ex1",
       "japanese": "{今年|ことし}は{空梅雨|からつゆ}だ。",
       "english": "This year the rainy season is dry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27795_karatsuyu_ex2",
       "japanese": "{空梅雨|からつゆ}で{水不足|みずぶそく}が{心配|しんぱい}されている。",
       "english": "With the dry rainy season, water shortages are a concern.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "27795_karatsuyu_ex3",
       "japanese": "{空梅雨|からつゆ}が{続|つづ}くと{農作物|のうさくもつ}の{生育|せいいく}に{影響|えいきょう}が{出|で}る。",
       "english": "A prolonged dry rainy season affects the growth of crops.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The prefix {空|から}- means 'empty' — the rainy season arrives but brings little rain. Read からつゆ, not くうばいう.\n\nCOMMON COLLOCATIONS:\n- {空梅雨|からつゆ}になる: to turn into a dry rainy season\n- {空梅雨|からつゆ}{気味|ぎみ}: somewhat short of rain\n\nSIMILAR WORDS:\n- {梅雨|つゆ}: the rainy season — June through July in most of Japan\n- {梅雨明|つゆあ}け: the end of the rainy season",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08338_tsuyuake",
+      "reading": "つゆあけ",
+      "headword": "{梅雨明|つゆあ}け",
+      "label": "the end of the rainy season"
+    },
+    {
+      "type": "related",
+      "target_id": "08337_tsuyuiri",
+      "reading": "つゆいり",
+      "headword": "{梅雨入|つゆい}り",
+      "label": "start of the rainy season"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["weather"],
+      "politeness": "plain",
+      "semantic": [
+        "weather"
+      ],
       "domain": []
     },
     "created": "2026-05-19T03:07:48Z",
-    "modified": "2026-05-19T03:07:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

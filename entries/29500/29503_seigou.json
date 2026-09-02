@@ -3,7 +3,7 @@
   "headword": "{整合|せいごう}",
   "reading": "せいごう",
   "romaji": "seigou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "consistency; conformity; alignment",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Combines {整|せい} (arrange, order) + {合|ごう} (match, fit). The condition of things fitting together without contradiction, or the act of making them do so. Frequent in technical and administrative writing.\n\nCOMMON COLLOCATIONS:\n- {整合|せいごう}を{取|と}る: to make things consistent\n- {整合|せいごう}{性|せい}: consistency (as a property)\n- {整合|せいごう}を{図|はか}る: to seek alignment\n\nSIMILAR WORDS:\n- {一致|いっち}: agreement; match — emphasizes things being identical or in accord\n- {矛盾|むじゅん}: contradiction — the opposite state, where things conflict",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01733_icchi",
+      "reading": "いっち",
+      "headword": "{一致|いっち}",
+      "label": "agreement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05215_mujun",
+      "reading": "むじゅん",
+      "headword": "{矛盾|むじゅん}",
+      "label": "contradiction"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ],
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-06-26T09:20:43Z",
-    "modified": "2026-06-26T09:20:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -24,7 +24,9 @@
       "english": "Please tell me how to read this kanji.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14269_yomikata_ex2",
@@ -32,7 +34,9 @@
       "english": "The reading of my name is difficult, so people often get it wrong.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14269_yomikata_ex3",
@@ -40,7 +44,9 @@
       "english": "Japanese characters have two types of readings: on'yomi and kun'yomi.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14269_yomikata_ex4",
@@ -48,7 +54,9 @@
       "english": "The interpretation of the data is different.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14269_yomikata_ex5",
@@ -56,7 +64,9 @@
       "english": "Even for the same news, the interpretation varies depending on the person.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14269_yomikata_ex6",
@@ -64,21 +74,50 @@
       "english": "Learning to read the flow of a match only comes with accumulated experience.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "{読|よ}み{方|かた} follows the productive ～{方|かた} (way of doing) pattern attached to the verb stem of {読|よ}む.\n\nSense 1 is especially common in language-learning contexts when asking about kanji pronunciation. Sense 2 extends to interpreting data, situations, or texts.\n\nCOMMON COLLOCATIONS:\n- {漢字|かんじ}の{読|よ}み{方|かた} (how to read a kanji)\n- {名前|なまえ}の{読|よ}み{方|かた} (reading of a name)\n- {地図|ちず}の{読|よ}み{方|かた} (how to read a map)\n- データの{読|よ}み{方|かた} (how to interpret data)\n\nSIMILAR WORDS:\n- {発音|はつおん}: pronunciation in general, not limited to reading\n- {解釈|かいしゃく}: interpretation, more formal and analytical",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01698_hatsuon",
+      "reading": "はつおん",
+      "headword": "{発音|はつおん}",
+      "label": "pronunciation in general, not limited…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02603_kaishaku",
+      "reading": "かいしゃく",
+      "headword": "{解釈|かいしゃく}",
+      "label": "interpretation, more formal…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25434_onkun",
+      "reading": "おんくん",
+      "headword": "{音訓|おんくん}",
+      "label": "on'yomi and kun'yomi"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T09:19:13Z",
-    "modified": "2026-02-28T09:19:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication", "education"]
+      "semantic": [
+        "communication",
+        "education"
+      ]
     }
   }
 }

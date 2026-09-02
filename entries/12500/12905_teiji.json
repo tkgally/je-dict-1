@@ -3,7 +3,7 @@
   "id": "12905_teiji",
   "headword": "{提示|ていじ}",
   "reading": "ていじ",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "presentation, showing, display",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,39 @@
     }
   ],
   "notes": "USAGE:\nUsed as both a noun and a suru verb. Covers a range of contexts: showing ID or tickets, presenting evidence, offering terms or proposals. The act implies deliberately putting something forward for another person to see or consider. More formal than {見|み}せる (to show).\n\nCOMMON COLLOCATIONS:\n- {身分証|みぶんしょう}を{提示|ていじ}する: to present identification\n- {条件|じょうけん}を{提示|ていじ}する: to present conditions\n- {証拠|しょうこ}を{提示|ていじ}する: to present evidence\n- {価格|かかく}を{提示|ていじ}する: to quote a price\n\nSIMILAR WORDS:\n- {提出|ていしゅつ}: submission (handing over documents formally)\n- {掲示|けいじ}: posting, notice (displaying for public view)\n- {表示|ひょうじ}: display, indication (on screens or labels)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03542_teishutsu",
+      "reading": "ていしゅつ",
+      "headword": "{提出|ていしゅつ}",
+      "label": "submission"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02838_keiji",
+      "reading": "けいじ",
+      "headword": "{掲示|けいじ}",
+      "label": "posting, notice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03143_hyouji",
+      "reading": "ひょうじ",
+      "headword": "{表示|ひょうじ}",
+      "label": "display, indication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24053_teiki",
+      "reading": "ていき",
+      "headword": "{提起|ていき}",
+      "label": "raising (an issue)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T14:26:00Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{私|わたし} is the most standard and versatile first-person pronoun in Japanese, appropriate for nearly all situations. Used by both men and women.\n\nREADINGS:\n- わたし: standard polite form\n- わたくし: very formal (business, speeches, ceremonies)\n\nFIRST-PERSON PRONOUN HIERARCHY:\n- ⟦{私|わたくし}→私：02987_watakushi⟧: very formal, both genders\n- {私|わたし}: polite/neutral, both genders (safest default)\n- ⟦あたし→あたし：noentry⟧: casual, mainly female\n- ⟦{僕|ぼく}→僕：01729_boku⟧: casual, male (softer tone)\n- ⟦{俺|おれ}→俺：02185_ore⟧: very casual, male (rough/masculine)\n\nUSAGE NOTES:\n- In formal writing and business, {私|わたし} or ⟦{私|わたくし}→私：02987_watakushi⟧ is always appropriate\n- In casual conversation, men often switch to ⟦{僕|ぼく}→僕：01729_boku⟧ or ⟦{俺|おれ}→俺：02185_ore⟧\n- Japanese often drops the subject entirely when context makes it clear, so {私|わたし} is used less frequently than \"I\" in English",
+  "notes": "{私|わたし} is the most standard and versatile first-person pronoun in Japanese, appropriate for nearly all situations. Used by both men and women.\n\nPRONUNCIATION:\n- わたし: standard polite form\n- わたくし: very formal (business, speeches, ceremonies)\n\nFIRST-PERSON PRONOUN HIERARCHY:\n- ⟦{私|わたくし}→私：02987_watakushi⟧: very formal, both genders\n- {私|わたし}: polite/neutral, both genders (safest default)\n- ⟦あたし→あたし：noentry⟧: casual, mainly female\n- ⟦{僕|ぼく}→僕：01729_boku⟧: casual, male (softer tone)\n- ⟦{俺|おれ}→俺：02185_ore⟧: very casual, male (rough/masculine)\n\nUSAGE:\n- In formal writing and business, {私|わたし} or ⟦{私|わたくし}→私：02987_watakushi⟧ is always appropriate\n- In casual conversation, men often switch to ⟦{僕|ぼく}→僕：01729_boku⟧ or ⟦{俺|おれ}→俺：02185_ore⟧\n- Japanese often drops the subject entirely when context makes it clear, so {私|わたし} is used less frequently than \"I\" in English",
   "cross_references": [
     {
       "type": "related",
@@ -71,11 +71,32 @@
       "headword": "{自分|じぶん}",
       "label": "oneself (reflexive)",
       "target_id": "02887_jibun"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02185_ore",
+      "reading": "おれ",
+      "headword": "{俺|おれ}",
+      "label": "I, me (masculine, casual)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28132_atashi",
+      "reading": "あたし",
+      "headword": "あたし",
+      "label": "I"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30648_ware",
+      "reading": "われ",
+      "headword": "{我|われ}",
+      "label": "I"
     }
   ],
   "metadata": {
     "created": "2026-01-11T10:10:00Z",
-    "modified": "2026-08-12T06:29:54Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "schema_version": "2.0",
     "vocabulary_tier": "basic",

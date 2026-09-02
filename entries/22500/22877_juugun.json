@@ -3,7 +3,7 @@
   "headword": "{従軍|じゅうぐん}",
   "reading": "じゅうぐん",
   "romaji": "juugun",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "military service; serving in the army; following the troops",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Composed of {従|じゅう} (to follow, to accompany) + {軍|ぐん} (army, military). Originally meant \"to follow the army\" and can refer to both combatants and non-combatants who accompany military forces.\n\nCOMMON COLLOCATIONS:\n- {従軍|じゅうぐん}{記者|きしゃ}: war correspondent; embedded journalist\n- {従軍|じゅうぐん}{看護婦|かんごふ}: military nurse (historical)\n- {従軍|じゅうぐん}{経験|けいけん}: military service experience\n- {従軍|じゅうぐん}する: to serve in the military; to follow the troops\n\nSIMILAR WORDS:\n- {兵役|へいえき}: military service, conscription — focuses on compulsory service\n- {出征|しゅっせい}: going to war — emphasizes departing for the battlefield\n- {入隊|にゅうたい}: enlisting — the act of joining the military",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19964_heieki",
+      "reading": "へいえき",
+      "headword": "{兵役|へいえき}",
+      "label": "military service, conscription"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12064_nyuutai",
+      "reading": "にゅうたい",
+      "headword": "{入隊|にゅうたい}",
+      "label": "enlisting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +77,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-07T19:16:05Z",
-    "modified": "2026-04-07T19:16:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

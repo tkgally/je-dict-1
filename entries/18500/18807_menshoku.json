@@ -3,7 +3,7 @@
   "headword": "{免職|めんしょく}",
   "reading": "めんしょく",
   "romaji": "menshoku",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "dismissal from a post; removal from office",
   "conjugation": {
     "type": "suru",
@@ -134,11 +134,34 @@
       "notes": null
     }
   ],
-  "notes": "{免職|めんしょく} is a formal term for dismissal from an official position, primarily used for {公務員|こうむいん} (civil servants) and government employees.\n\nCOMMON COLLOCATIONS:\n- {免職|めんしょく}になる: to be dismissed from one's post\n- {免職|めんしょく}する: to dismiss someone\n- {免職|めんしょく}{処分|しょぶん}: dismissal action\n\nTYPES:\n- {懲戒|ちょうかい}{免職|めんしょく}: disciplinary dismissal (most severe)\n- {諭旨|ゆし}{免職|めんしょく}: dismissal under advisement (less severe, allows the person to resign)\n\nCONTRAST:\n- {解雇|かいこ}: firing/dismissal (for private-sector employees)\n- {罷免|ひめん}: removal from office (for high-ranking officials)\n- {首|くび}にする/なる: to fire/be fired (colloquial)\n\nUSAGE:\n{免職|めんしょく} appears mainly in news reports about public servants. For private companies, {解雇|かいこ} or the colloquial {首|くび} is used instead.",
+  "notes": "{免職|めんしょく} is a formal term for dismissal from an official position, primarily used for {公務員|こうむいん} (civil servants) and government employees.\n\nCOMMON COLLOCATIONS:\n- {免職|めんしょく}になる: to be dismissed from one's post\n- {免職|めんしょく}する: to dismiss someone\n- {免職|めんしょく}{処分|しょぶん}: dismissal action\n\nTYPES:\n- {懲戒|ちょうかい}{免職|めんしょく}: disciplinary dismissal (most severe)\n- {諭旨|ゆし}{免職|めんしょく}: dismissal under advisement (less severe, allows the person to resign)\n\nSIMILAR WORDS:\n- {解雇|かいこ}: firing/dismissal (for private-sector employees)\n- {罷免|ひめん}: removal from office (for high-ranking officials)\n- {首|くび}にする/なる: to fire/be fired (colloquial)\n\nUSAGE:\n{免職|めんしょく} appears mainly in news reports about public servants. For private companies, {解雇|かいこ} or the colloquial {首|くび} is used instead.",
   "synonyms": [],
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04561_kaiko",
+      "reading": "かいこ",
+      "headword": "{解雇|かいこ}",
+      "label": "firing/dismissal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29397_himen",
+      "reading": "ひめん",
+      "headword": "{罷免|ひめん}",
+      "label": "removal from office"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26138_menkan",
+      "reading": "めんかん",
+      "headword": "{免官|めんかん}",
+      "label": "dismissal from office"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -157,6 +180,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-23T04:40:45Z",
-    "modified": "2026-06-15T07:58:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

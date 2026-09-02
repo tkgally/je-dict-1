@@ -3,7 +3,7 @@
   "headword": "{更新|こうしん}する",
   "reading": "こうしんする",
   "romaji": "koushinsuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to update; to renew; to break (a record)",
   "definitions": [
     {
@@ -56,6 +56,22 @@
   ],
   "notes": "Transitive ({他動詞|たどうし}); the noun {更新|こうしん} takes する. Covers replacing with something newer (data, software), renewing (contracts, licenses), and surpassing a previous record.\n\nCOMMON COLLOCATIONS:\n- {記録|きろく}を{更新|こうしん}する: to break a record\n- {契約|けいやく}を{更新|こうしん}する: to renew a contract\n- データを{更新|こうしん}する: to update data\n\nSIMILAR WORDS:\n- {新|あたら}しくする: to make new — plainer and more general\n- {改|あらた}める: to revise; to change — emphasizes correcting rather than renewing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12923_aratameru",
+      "reading": "あらためる",
+      "headword": "{改|あらた}める",
+      "label": "to revise"
+    },
+    {
+      "type": "related",
+      "target_id": "08225_kakikaeru",
+      "reading": "かきかえる",
+      "headword": "{書|か}き{換|か}える",
+      "label": "to rewrite"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +80,7 @@
       ],
       "transitivity": "transitive",
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
@@ -72,7 +88,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-24T02:02:35Z",
-    "modified": "2026-05-24T02:02:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

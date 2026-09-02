@@ -17,7 +17,9 @@
       "id": "18440_reifuku_ex1",
       "japanese": "{礼服|れいふく}を{着|き}て{出席|しゅっせき}した。",
       "english": "I attended wearing formal clothes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18440_reifuku_ex2",
       "japanese": "{礼服|れいふく}はクリーニングに{出|だ}しておこう。",
       "english": "Let's send the formal suit to the dry cleaner.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "18440_reifuku_ex3",
       "japanese": "{社会人|しゃかいじん}になったら{礼服|れいふく}を{一着|いっちゃく}は{持|も}っておくべきだ。",
       "english": "Once you're a working adult, you should have at least one set of formal wear.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -46,18 +52,64 @@
       "reading": "せいそう",
       "headword": "{正装|せいそう}",
       "label": "formal dress (state/act)"
+    },
+    {
+      "type": "related",
+      "target_id": "11898_mofuku",
+      "reading": "もふく",
+      "headword": "{喪服|もふく}",
+      "label": "mourning clothes"
+    },
+    {
+      "type": "related",
+      "target_id": "13718_ryakushiki",
+      "reading": "りゃくしき",
+      "headword": "{略式|りゃくしき}",
+      "label": "simplified/informal style"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12995_haregi",
+      "reading": "はれぎ",
+      "headword": "{晴|は}れ{着|ぎ}",
+      "label": "formal clothes, festive attire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25770_enbifuku",
+      "reading": "えんびふく",
+      "headword": "{燕尾服|えんびふく}",
+      "label": "tailcoat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27070_takishiido",
+      "reading": "たきしーど",
+      "headword": "タキシード",
+      "label": "tuxedo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27084_mooningu",
+      "reading": "もーにんぐ",
+      "headword": "モーニング",
+      "label": "morning service"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ]
     },
     "created": "2026-03-22T02:27:26Z",
-    "modified": "2026-05-03T04:25:32Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

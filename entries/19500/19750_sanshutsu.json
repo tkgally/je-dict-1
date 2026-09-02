@@ -136,6 +136,36 @@
   ],
   "notes": "Compound of {産|さん} (produce, give birth) and {出|しゅつ} (put out, emit). Primarily used for natural resources and agricultural products that a region yields, rather than manufactured goods.\n\nUsed both as a noun ({産出|さんしゅつ}) and as a する verb ({産出|さんしゅつ}する — to produce, to yield).\n\nCOMMON COLLOCATIONS:\n- {産出量|さんしゅつりょう} — production volume; yield\n- {産出国|さんしゅつこく} — producing country\n- {石油|せきゆ}を{産出|さんしゅつ}する — to produce oil\n- {鉱物|こうぶつ}を{産出|さんしゅつ}する — to produce minerals\n\nSIMILAR WORDS:\n- {生産|せいさん} — production; broader term including manufacturing\n- {算出|さんしゅつ} — calculation (same reading, different kanji — a common homophone)\n- {産地|さんち} — production area; place of origin\n- {採掘|さいくつ} — mining; extraction",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01444_seisan",
+      "reading": "せいさん",
+      "headword": "{生産|せいさん}",
+      "label": "production"
+    },
+    {
+      "type": "homophone",
+      "target_id": "15350_sanshutsu",
+      "reading": "さんしゅつ",
+      "headword": "{算出|さんしゅつ}",
+      "label": "calculation (same reading, different…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04031_sanchi",
+      "reading": "さんち",
+      "headword": "{産地|さんち}",
+      "label": "production area"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07996_saikutsu",
+      "reading": "さいくつ",
+      "headword": "{採掘|さいくつ}",
+      "label": "mining"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +182,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-26T15:23:54Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

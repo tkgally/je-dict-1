@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Combines {水|すい} (water) and {柱|ちゅう} (pillar, column). Describes water shooting up in a vertical column shape. Commonly seen in news reports about broken water mains, volcanic eruptions near water, and natural phenomena like geysers.\n\nCOMMON COLLOCATIONS:\n- {水柱|すいちゅう}が{上|あ}がる: a water column rises\n- {水柱|すいちゅう}が{立|た}つ: a water column forms\n- {水柱|すいちゅう}が{噴|ふ}き{出|だ}す: a water column erupts\n- ミリ{水柱|すいちゅう}: millimeters of water column (pressure unit)\n\nSIMILAR WORDS:\n- {噴水|ふんすい}: fountain — an artificial, controlled water display\n- {水中|すいちゅう}: underwater — a homophone with completely different meaning ({中|ちゅう} means \"inside\" not \"pillar\")",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09637_funsui",
+      "reading": "ふんすい",
+      "headword": "{噴水|ふんすい}",
+      "label": "fountain"
+    },
+    {
+      "type": "homophone",
+      "target_id": "13310_suichuu",
+      "reading": "すいちゅう",
+      "headword": "{水中|すいちゅう}",
+      "label": "underwater"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +75,6 @@
       ]
     },
     "created": "2026-05-03T12:30:02Z",
-    "modified": "2026-06-15T07:59:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

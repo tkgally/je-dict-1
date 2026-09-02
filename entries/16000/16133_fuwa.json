@@ -19,7 +19,9 @@
       "english": "The marital discord is continuing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16133_fuwa_ex2",
@@ -27,7 +29,9 @@
       "english": "I moved because of family discord.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16133_fuwa_ex3",
@@ -35,21 +39,42 @@
       "english": "We set up a forum for discussion to resolve the internal discord.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{不和|ふわ} describes a sustained state of conflict or lack of harmony between people. It is more formal and serious than {仲|なか}が{悪|わる}い (to be on bad terms), which is more conversational.\n\nCOMMON COLLOCATIONS:\n- {夫婦|ふうふ}{不和|ふわ} (marital discord)\n- {家庭|かてい}{不和|ふわ} (family discord)\n- {不和|ふわ}が{生|しょう}じる (discord arises)\n- {不和|ふわ}を{招|まね}く (to invite discord)\n- {不和|ふわ}を{解消|かいしょう}する (to resolve discord)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09129_atsureki",
+      "reading": "あつれき",
+      "headword": "{軋轢|あつれき}",
+      "label": "friction, discord, conflict"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22102_hanmoku",
+      "reading": "はんもく",
+      "headword": "{反目|はんもく}",
+      "label": "discord"
+    }
+  ],
   "metadata": {
     "created": "2026-03-10T06:02:00Z",
-    "modified": "2026-03-10T06:02:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

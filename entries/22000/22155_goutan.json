@@ -3,7 +3,7 @@
   "headword": "{豪胆|ごうたん}",
   "reading": "ごうたん",
   "romaji": "goutan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "bold; daring; fearless",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "22155_goutan_ex1",
       "japanese": "{豪胆|ごうたん}な{人物|じんぶつ}。",
       "english": "A bold, fearless person.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22155_goutan_ex2",
       "japanese": "{彼|かれ}は{豪胆|ごうたん}にも{一人|ひとり}で{交渉|こうしょう}に{臨|のぞ}んだ。",
       "english": "He boldly went into the negotiation alone.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,66 @@
       "id": "22155_goutan_ex3",
       "japanese": "{危機的|ききてき}な{状況|じょうきょう}でも{冷静|れいせい}さを{失|うしな}わない{豪胆|ごうたん}さが、リーダーには{求|もと}められる。",
       "english": "Leaders are expected to have the boldness to remain calm even in critical situations.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Describes a personality trait of being unflinching and composed in the face of danger or pressure. Combines {豪|ごう} (grand, powerful) and {胆|たん} (gall, nerve).\n\nCOMMON COLLOCATIONS:\n- {豪胆|ごうたん}な{性格|せいかく}: a bold personality\n- {豪胆|ごうたん}な{人物|じんぶつ}: a daring person\n- {豪胆|ごうたん}さ: boldness; fearlessness\n- {豪胆|ごうたん}にも: boldly; with remarkable nerve\n\nSIMILAR WORDS:\n- {大胆|だいたん}: bold; daring — more common in everyday use; often describes actions rather than personality\n- {勇猛|ゆうもう}: brave and fierce — implies aggressive fighting spirit, not just composure\n- {勇敢|ゆうかん}: brave; courageous — more general bravery; does not emphasize calmness under pressure\n- {肝|きも}が{据|す}わっている: to have guts — colloquial expression for the same quality\n\nREGISTER:\nFormal and literary. Often used in biographical descriptions, historical narratives, and character evaluations.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07609_daitan",
+      "reading": "だいたん",
+      "headword": "{大胆|だいたん}",
+      "label": "bold"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22154_yuumou",
+      "reading": "ゆうもう",
+      "headword": "{勇猛|ゆうもう}",
+      "label": "brave and fierce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07637_yuukan",
+      "reading": "ゆうかん",
+      "headword": "{勇敢|ゆうかん}",
+      "label": "brave"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22162_buyuu",
+      "reading": "ぶゆう",
+      "headword": "{武勇|ぶゆう}",
+      "label": "bravery in battle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26815_daitanfuteki",
+      "reading": "だいたんふてき",
+      "headword": "{大胆不敵|だいたんふてき}",
+      "label": "bold and fearless"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["personality"]
+      "semantic": [
+        "personality"
+      ]
     },
     "created": "2026-04-05T04:03:41Z",
-    "modified": "2026-04-05T04:03:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "25939_chuukosha_ex1",
       "japanese": "{中古車|ちゅうこしゃ}を{買|か}った。",
       "english": "I bought a used car.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25939_chuukosha_ex2",
       "japanese": "{中古車|ちゅうこしゃ}の{販売店|はんばいてん}で{試乗|しじょう}してきた。",
       "english": "I went for a test drive at a used car dealership.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,52 @@
       "id": "25939_chuukosha_ex3",
       "japanese": "{新車|しんしゃ}は{高|たか}いので、{状態|じょうたい}の{良|よ}い{中古車|ちゅうこしゃ}を{探|さが}すことにした。",
       "english": "Since a new car is expensive, I decided to look for a used car in good condition.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {中古|ちゅうこ} (secondhand; used) and {車|しゃ} (car; vehicle). Japan has an especially large and well-organized used car market, with vehicles often in excellent condition due to the country's strict vehicle inspection system ({車検|しゃけん}).\n\nCOMMON COLLOCATIONS:\n- {中古車|ちゅうこしゃ}{販売|はんばい}: used car sales\n- {中古車|ちゅうこしゃ}{販売店|はんばいてん}: used car dealership\n- {中古車|ちゅうこしゃ}{市場|しじょう}: used car market\n- {中古車|ちゅうこしゃ}を{探|さが}す: to look for a used car\n- {認定|にんてい}{中古車|ちゅうこしゃ}: certified pre-owned vehicle\n\nSIMILAR WORDS:\n- {新車|しんしゃ}: new car — the direct opposite\n- {中古|ちゅうこ}: secondhand; used — the general term for any secondhand item, not limited to cars\n- {中古品|ちゅうこひん}: secondhand goods — broader category covering all used items",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "11334_shinsha",
+      "reading": "しんしゃ",
+      "headword": "{新車|しんしゃ}",
+      "label": "new car"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08302_chuukohin",
+      "reading": "ちゅうこひん",
+      "headword": "{中古品|ちゅうこひん}",
+      "label": "secondhand goods"
+    },
+    {
+      "type": "related",
+      "target_id": "23864_yunyuusha",
+      "reading": "ゆにゅうしゃ",
+      "headword": "{輸入車|ゆにゅうしゃ}",
+      "label": "imported car"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["transportation", "business"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "transportation",
+        "business"
+      ]
     },
     "created": "2026-04-28T13:30:38Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

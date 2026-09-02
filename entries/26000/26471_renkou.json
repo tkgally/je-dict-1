@@ -3,7 +3,7 @@
   "headword": "{練功|れんこう}",
   "reading": "れんこう",
   "romaji": "renkou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "training; practice; cultivating skill through repetition",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Composed of {練|れん} (to refine, to polish) and {功|こう} (skill, merit, achievement). Borrowed from Chinese {練功|れんこう} (liàngōng). While {練習|れんしゅう} is the general word for practice, {練功|れんこう} carries a more disciplined, meditative connotation associated with martial arts and body-mind cultivation traditions.\n\nCOMMON COLLOCATIONS:\n- {練功|れんこう}を{重|かさ}ねる: to accumulate practice\n- {練功|れんこう}を{続|つづ}ける: to continue training\n- {気功|きこう}の{練功|れんこう}: qigong practice\n- {練功|れんこう}{場|じょう}: training ground\n\nSIMILAR WORDS:\n- {練習|れんしゅう}: practice — the general, everyday word for practicing any skill\n- {修行|しゅぎょう}: ascetic training, discipline — training with a spiritual or character-building dimension\n- {鍛錬|たんれん}: tempering, forging — rigorous physical or mental training to build strength",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05323_renshuu",
+      "reading": "れんしゅう",
+      "headword": "{練習|れんしゅう}",
+      "label": "practice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05522_shugyou",
+      "reading": "しゅぎょう",
+      "headword": "{修行|しゅぎょう}",
+      "label": "ascetic training, discipline"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08190_tanren",
+      "reading": "たんれん",
+      "headword": "{鍛錬|たんれん}",
+      "label": "tempering, forging"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +76,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "sports",
         "culture"
@@ -61,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-02T11:34:16Z",
-    "modified": "2026-05-02T11:34:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

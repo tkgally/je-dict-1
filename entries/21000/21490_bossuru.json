@@ -3,7 +3,7 @@
   "headword": "{没|ぼっ}する",
   "reading": "ぼっする",
   "romaji": "bossuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to sink; to set (sun); to be submerged; to die; to pass away (formal/literary); to be absorbed in; to be immersed in",
   "conjugation": {
     "type": "suru",
@@ -205,6 +205,29 @@
     }
   ],
   "notes": "A literary verb with multiple related meanings, all sharing the core idea of something sinking or disappearing. The character {没|ぼつ} means \"to sink\" or \"to disappear.\"\n\nUSAGE:\n- Sense 1 is mainly literary; in everyday speech, {沈|しず}む is more common\n- Sense 2 is the formal/biographical way to say someone died; common in historical writing\n- Sense 3 appears most often in the compound {没頭|ぼっとう}する (to be absorbed in) and {没入|ぼつにゅう}する (to be immersed in)\n\nCOMMON COLLOCATIONS:\n- {日|ひ}が{没|ぼっ}する: the sun sets\n- {没年|ぼつねん}: year of death\n- {没後|ぼつご}: after someone's death; posthumously\n- {没頭|ぼっとう}する: to be absorbed in\n- {没入|ぼつにゅう}する: to be immersed in\n- {埋没|まいぼつ}する: to be buried; to fall into obscurity\n\nSIMILAR WORDS:\n- {沈|しず}む: to sink — the everyday equivalent for sense 1\n- {亡|な}くなる: to pass away — the standard euphemism for death\n- {没頭|ぼっとう}する: to be absorbed in — the most common compound using {没|ぼつ}",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02061_shizumu",
+      "reading": "しずむ",
+      "headword": "{沈|しず}む",
+      "label": "to sink"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02639_nakunaru",
+      "reading": "なくなる",
+      "headword": "{亡|な}くなる",
+      "label": "to pass away"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18376_bottousuru",
+      "reading": "ぼっとうする",
+      "headword": "{没頭|ぼっとう}する",
+      "label": "to be absorbed in"
+    }
+  ],
   "metadata": {
     "entry_id": "21490_bossuru",
     "schema_version": "2.0",
@@ -215,6 +238,7 @@
       "pos": [
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "nature",
         "existence",
@@ -227,6 +251,6 @@
       "usage": [],
       "verb_class": "suru"
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

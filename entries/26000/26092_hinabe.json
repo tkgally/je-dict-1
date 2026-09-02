@@ -17,7 +17,9 @@
       "id": "26092_hinabe_ex1",
       "japanese": "{今夜|こんや}は{火鍋|ひなべ}を{食|た}べに{行|い}こう。",
       "english": "Let's go eat hot pot tonight.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26092_hinabe_ex2",
       "japanese": "{辛|から}いスープとマイルドなスープの{二|ふた}つに{分|わ}かれた{火鍋|ひなべ}が{人気|にんき}だ。",
       "english": "Hot pot with the broth divided into spicy and mild halves is popular.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "26092_hinabe_ex3",
       "japanese": "{友人|ゆうじん}と{火鍋|ひなべ}{専門店|せんもんてん}に{行|い}って、{好|す}きな{具材|ぐざい}を{選|えら}んで{楽|たの}しんだ。",
       "english": "I went to a hot pot restaurant with friends and enjoyed choosing our own ingredients.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Originally a Chinese dish ({火锅|ひなべ} in Chinese), it has become widely popular in Japan. The defining feature is a pot of boiling broth kept simmering at the table, into which diners dip thinly sliced meat, vegetables, tofu, and noodles.\n\nCOMMON COLLOCATIONS:\n- {火鍋|ひなべ}{専門店|せんもんてん} — hot pot restaurant\n- {火鍋|ひなべ}を{囲|かこ}む — to gather around a hot pot\n- {火鍋|ひなべ}の{具材|ぐざい} — hot pot ingredients\n- {薬膳|やくぜん}{火鍋|ひなべ} — medicinal herb hot pot\n\nSIMILAR WORDS:\n- {鍋|なべ} — pot; hot pot (general Japanese term for any communal pot dish)\n- しゃぶしゃぶ — shabu-shabu (Japanese-style hot pot with thin meat slices)\n- すき{焼|や}き — sukiyaki (sweet soy-based Japanese hot pot)\n\nCULTURAL NOTE:\nJapanese {鍋|なべ} (hot pot) culture has existed for centuries, but {火鍋|ひなべ} specifically refers to the Chinese style, distinguished by its intensely spiced broth (often with Sichuan peppercorns and chili oil) and the split-pot ({鴛鴦鍋|おしどりなべ}) format. Many Chinese-style {火鍋|ひなべ} restaurants have opened across Japan in recent years.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10479_shabushabu",
+      "reading": "しゃぶしゃぶ",
+      "headword": "しゃぶしゃぶ",
+      "label": "shabu-shabu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10368_sukiyaki",
+      "reading": "すきやき",
+      "headword": "すき{焼|や}き",
+      "label": "sukiyaki"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-29T12:43:14Z",
-    "modified": "2026-04-29T12:43:14Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

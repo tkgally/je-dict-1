@@ -3,7 +3,7 @@
   "headword": "{下校|げこう}する",
   "reading": "げこうする",
   "romaji": "gekousuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to leave school; to go home from school",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "The opposite of {登校|とうこう}する (to go to school). Specifically refers to students leaving school, not teachers or other staff.\n\nCOMMON COLLOCATIONS:\n- {下校|げこう}{時間|じかん}: time to leave school\n- {下校|げこう}{時刻|じこく}: dismissal time\n- {下校|げこう}{途中|とちゅう}: on the way home from school\n- {集団|しゅうだん}{下校|げこう}: group dismissal (walking home together for safety)\n- {一斉|いっせい}{下校|げこう}: all-school dismissal at once\n\nSIMILAR WORDS:\n- {登校|とうこう}する: to go to school — the antonym, describing the morning trip to school\n- {帰宅|きたく}する: to go home — more general, applies to anyone returning home from anywhere, while {下校|げこう} is specific to students leaving school\n- {退校|たいこう}する: to leave school (permanently) — refers to withdrawal or expulsion from a school, not daily departure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "16560_toukou",
+      "reading": "とうこう",
+      "headword": "{登校|とうこう}",
+      "label": "to go to school"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22169_kitakusuru",
+      "reading": "きたくする",
+      "headword": "{帰宅|きたく}する",
+      "label": "to go home"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T11:19:42Z",
-    "modified": "2026-04-25T11:19:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Specifically refers to a poet who writes {和歌|わか} (waka) or {短歌|たんか} (tanka), the traditional 31-syllable Japanese poem form. Composed of {歌|か} (song/poem) + {人|じん} (person).\n\nCOMMON COLLOCATIONS:\n- {歌人|かじん}の{歌集|かしゅう}: a poet's collection of tanka\n- {近代|きんだい}{歌人|かじん}: modern-era waka poet\n- {女流|じょりゅう}{歌人|かじん}: female waka poet\n- {宮廷|きゅうてい}{歌人|かじん}: court poet\n\nSIMILAR WORDS:\n- {俳人|はいじん}: haiku poet — a poet who writes haiku\n- {詩人|しじん}: poet — a general term for any poet, especially those writing modern free verse\n- {歌手|かしゅ}: singer — a different word entirely, not to be confused with {歌人|かじん}\n\nNOTE:\nDo not confuse {歌人|かじん} with the homophone {佳人|かじん} (a beautiful woman). The {歌人|かじん} tradition stretches from the {万葉集|まんようしゅう} era to the present day, with modern {歌人|かじん} continuing to innovate within the 5-7-5-7-7 syllable form.",
+  "notes": "Specifically refers to a poet who writes {和歌|わか} (waka) or {短歌|たんか} (tanka), the traditional 31-syllable Japanese poem form. Composed of {歌|か} (song/poem) + {人|じん} (person).\n\nCOMMON COLLOCATIONS:\n- {歌人|かじん}の{歌集|かしゅう}: a poet's collection of tanka\n- {近代|きんだい}{歌人|かじん}: modern-era waka poet\n- {女流|じょりゅう}{歌人|かじん}: female waka poet\n- {宮廷|きゅうてい}{歌人|かじん}: court poet\n\nSIMILAR WORDS:\n- {俳人|はいじん}: haiku poet — a poet who writes haiku\n- {詩人|しじん}: poet — a general term for any poet, especially those writing modern free verse\n- {歌手|かしゅ}: singer — a different word entirely, not to be confused with {歌人|かじん}\n\nUSAGE:\nDo not confuse {歌人|かじん} with the homophone {佳人|かじん} (a beautiful woman). The {歌人|かじん} tradition stretches from the {万葉集|まんようしゅう} era to the present day, with modern {歌人|かじん} continuing to innovate within the 5-7-5-7-7 syllable form.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09569_haijin",
+      "reading": "はいじん",
+      "headword": "{俳人|はいじん}",
+      "label": "haiku poet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03171_shijin",
+      "reading": "しじん",
+      "headword": "{詩人|しじん}",
+      "label": "poet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00197_kashu",
+      "reading": "かしゅ",
+      "headword": "{歌手|かしゅ}",
+      "label": "singer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-03-29T16:27:51Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

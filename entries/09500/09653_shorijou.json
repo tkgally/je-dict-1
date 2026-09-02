@@ -18,7 +18,9 @@
       "english": "Sewage is cleaned at the wastewater treatment plant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09653_shorijou_ex2",
@@ -26,7 +28,9 @@
       "english": "I toured the waste processing plant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09653_shorijou_ex3",
@@ -34,10 +38,12 @@
       "english": "Construction of a new processing plant is being planned.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{処理場|しょりじょう} is a compound of {処理|しょり} (processing/treatment) and {場|じょう} (place/facility). It refers to a facility where waste or sewage is processed, treated, or disposed of.\n\nCOMMON TYPES:\n- {下水|げすい}{処理場|しょりじょう}: sewage treatment plant\n- ゴミ{処理場|しょりじょう}: waste processing facility\n- {汚水|おすい}{処理場|しょりじょう}: wastewater treatment plant\n- {食肉|しょくにく}{処理場|しょりじょう}: meat processing plant\n\nRELATED TERMS:\n- {処理|しょり}する: to process, to treat\n- {施設|しせつ}: facility (broader term)\n- {浄水場|じょうすいじょう}: water purification plant\n\nNOTE:\nThe suffix {場|じょう} (not {所|じょ}) marks the word as a large-scale facility. Compare with {処理所|しょりじょ}, which is rarely used.",
+  "notes": "{処理場|しょりじょう} is a compound of {処理|しょり} (processing/treatment) and {場|じょう} (place/facility). It refers to a facility where waste or sewage is processed, treated, or disposed of.\n\nTYPES:\n- {下水|げすい}{処理場|しょりじょう}: sewage treatment plant\n- ゴミ{処理場|しょりじょう}: waste processing facility\n- {汚水|おすい}{処理場|しょりじょう}: wastewater treatment plant\n- {食肉|しょくにく}{処理場|しょりじょう}: meat processing plant\n\nRELATED WORDS:\n- {処理|しょり}する: to process, to treat\n- {施設|しせつ}: facility (broader term)\n- {浄水場|じょうすいじょう}: water purification plant\n\nUSAGE:\nThe suffix {場|じょう} (not {所|じょ}) marks the word as a large-scale facility. Compare with {処理所|しょりじょ}, which is rarely used.",
   "cross_references": [
     {
       "type": "related",
@@ -52,18 +58,43 @@
       "reading": "おすい",
       "headword": "{汚水|おすい}",
       "label": "wastewater"
+    },
+    {
+      "type": "related",
+      "target_id": "25531_shorisuru",
+      "reading": "しょりする",
+      "headword": "{処理|しょり}する",
+      "label": "to process, to treat"
+    },
+    {
+      "type": "related",
+      "target_id": "02503_shisetsu",
+      "reading": "しせつ",
+      "headword": "{施設|しせつ}",
+      "label": "facility"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24890_shoukyakujou",
+      "reading": "しょうきゃくじょう",
+      "headword": "{焼却場|しょうきゃくじょう}",
+      "label": "incineration plant"
     }
   ],
   "metadata": {
     "created": "2026-02-03T02:58:32Z",
-    "modified": "2026-04-23T06:13:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

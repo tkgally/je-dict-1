@@ -19,7 +19,9 @@
       "english": "I'm studying Chinese.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10966_chuugokugo_ex2",
@@ -27,7 +29,9 @@
       "english": "Chinese pronunciation is difficult.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10966_chuugokugo_ex3",
@@ -35,21 +39,42 @@
       "english": "I majored in Chinese and English at university.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{中国語|ちゅうごくご} refers to the Chinese language. In everyday use, it typically means Mandarin ({普通話|ふつうわ}).\n\nWORD FORMATION:\n{中国|ちゅうごく} (China) + {語|ご} (language). The suffix ～{語|ご} forms language names: {日本語|にほんご}, {英語|えいご}, {韓国語|かんこくご}, etc.\n\nCOMMON COLLOCATIONS:\n- {中国語|ちゅうごくご}を{話|はな}す: to speak Chinese\n- {中国語|ちゅうごくご}を{勉強|べんきょう}する: to study Chinese\n- {中国語|ちゅうごくご}の{発音|はつおん}: Chinese pronunciation\n- {中国語|ちゅうごくご}{検定|けんてい}: Chinese language proficiency test\n\nSPECIFIC VARIETIES:\n- {広東語|かんとんご}: Cantonese\n- {普通話|ふつうわ}: Mandarin (standard Chinese)\n- {台湾語|たいわんご}: Taiwanese",
-  "cross_references": [],
+  "notes": "{中国語|ちゅうごくご} refers to the Chinese language. In everyday use, it typically means Mandarin ({普通話|ふつうわ}).\n\nFORMS:\n{中国|ちゅうごく} (China) + {語|ご} (language). The suffix ～{語|ご} forms language names: {日本語|にほんご}, {英語|えいご}, {韓国語|かんこくご}, etc.\n\nCOMMON COLLOCATIONS:\n- {中国語|ちゅうごくご}を{話|はな}す: to speak Chinese\n- {中国語|ちゅうごくご}を{勉強|べんきょう}する: to study Chinese\n- {中国語|ちゅうごくご}の{発音|はつおん}: Chinese pronunciation\n- {中国語|ちゅうごくご}{検定|けんてい}: Chinese language proficiency test\n\nSPECIFIC VARIETIES:\n- {広東語|かんとんご}: Cantonese\n- {普通話|ふつうわ}: Mandarin (standard Chinese)\n- {台湾語|たいわんご}: Taiwanese",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16643_kantongo",
+      "reading": "かんとんご",
+      "headword": "{広東語|かんとんご}",
+      "label": "Cantonese (language)"
+    },
+    {
+      "type": "related",
+      "target_id": "28074_doitsugo",
+      "reading": "どいつご",
+      "headword": "ドイツ{語|ご}",
+      "label": "German"
+    }
+  ],
   "metadata": {
     "created": "2026-02-11T23:06:15Z",
-    "modified": "2026-03-27T01:43:05Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["language"]
+      "semantic": [
+        "language"
+      ]
     }
   }
 }

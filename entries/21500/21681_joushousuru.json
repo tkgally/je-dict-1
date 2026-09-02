@@ -3,7 +3,7 @@
   "headword": "{上昇|じょうしょう}する",
   "reading": "じょうしょうする",
   "romaji": "joushousuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to rise; to go up; to increase",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A formal, often written word for upward movement or increase. Common in news, weather reports, and business contexts.\n\nCOMMON COLLOCATIONS:\n- {気温|きおん}が{上昇|じょうしょう}する: temperature rises\n- {株価|かぶか}が{上昇|じょうしょう}する: stock prices rise\n- {上昇|じょうしょう}{気流|きりゅう}: updraft, rising air current\n- {上昇|じょうしょう}{傾向|けいこう}: upward trend\n\nSIMILAR WORDS:\n- {上|あ}がる: to go up (everyday, more versatile)\n- {増加|ぞうか}する: to increase (focuses on quantity, not direction)\n- {高騰|こうとう}する: to soar, skyrocket (implies dramatic increase in price)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00615_agaru",
+      "reading": "あがる",
+      "headword": "{上|あ}がる",
+      "label": "to go up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03329_zouka",
+      "reading": "ぞうか",
+      "headword": "{増加|ぞうか}",
+      "label": "to increase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14647_koutou",
+      "reading": "こうとう",
+      "headword": "{高騰|こうとう}",
+      "label": "to soar, skyrocket"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T21:20:39Z",
-    "modified": "2026-04-02T21:20:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

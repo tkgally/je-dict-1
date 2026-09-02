@@ -17,7 +17,9 @@
       "id": "18843_oshirase_ex1",
       "japanese": "お{知|し}らせがあります。",
       "english": "I have an announcement.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18843_oshirase_ex2",
       "japanese": "{大切|たいせつ}なお{知|し}らせですので、よくお{読|よ}みください。",
       "english": "This is an important notice, so please read it carefully.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "18843_oshirase_ex3",
       "japanese": "{休業|きゅうぎょう}のお{知|し}らせが{店|みせ}の{入|い}り{口|ぐち}に{貼|は}ってあった。",
       "english": "A notice about the closure was posted at the entrance of the shop.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -43,15 +49,42 @@
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01208_shiraseru",
+      "reading": "しらせる",
+      "headword": "{知|し}らせる",
+      "label": "to notify, to inform"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23842_tsuuchisho",
+      "reading": "つうちしょ",
+      "headword": "{通知書|つうちしょ}",
+      "label": "notice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25620_gyoumurenraku",
+      "reading": "ぎょうむれんらく",
+      "headword": "{業務連絡|ぎょうむれんらく}",
+      "label": "work-related notice"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "polite",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-03-23T05:29:56Z",
-    "modified": "2026-03-23T05:29:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

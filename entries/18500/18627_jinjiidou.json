@@ -19,7 +19,9 @@
       "english": "There will be personnel changes in April.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18627_jinjiidou_ex2",
@@ -27,7 +29,9 @@
       "english": "I was assigned to the sales department in the personnel reshuffle.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18627_jinjiidou_ex3",
@@ -35,22 +39,46 @@
       "english": "A large-scale personnel reshuffle was announced, and the office is in an uproar.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nIn Japanese companies, {人事|じんじ}{異動|いどう} typically happens at the start of the fiscal year (April) or mid-year (October). It is a normal part of corporate life and can include transfers to different departments, branch offices, or even subsidiaries.\n\nCOMMON COLLOCATIONS:\n- {人事|じんじ}{異動|いどう}が{発表|はっぴょう}される (personnel changes are announced)\n- {人事|じんじ}{異動|いどう}の{内示|ないじ} (unofficial notification of transfer)\n- {定期|ていき}{人事|じんじ}{異動|いどう} (regular personnel reshuffle)\n- {人事|じんじ}{異動|いどう}の{季節|きせつ} (personnel transfer season)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08610_haichitenkan",
+      "reading": "はいちてんかん",
+      "headword": "{配置転換|はいちてんかん}",
+      "label": "job transfer"
+    },
+    {
+      "type": "related",
+      "target_id": "21047_battekijinji",
+      "reading": "ばってきじんじ",
+      "headword": "{抜擢人事|ばってきじんじ}",
+      "label": "promotion based on merit"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T10:41:08Z",
-    "modified": "2026-03-22T10:41:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work", "change"],
-      "domain": ["business"]
+      "semantic": [
+        "work",
+        "change"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

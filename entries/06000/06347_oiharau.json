@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Takes ⟦を→を：00422_wo⟧. Compound verb: ⟦{追|お}う→追う：02016_ou⟧ + ⟦{払|はら}う→払う：00535_harau⟧.\n\nNUANCE: The {払|はら}う component adds the sense of sweeping away or brushing off. Can be used both for physical beings (animals, people) and abstract concepts (worries, bad thoughts).\n\nCOMMON PATTERNS:\n・⟦{虫|むし}→虫：02262_mushi⟧⟦を→を：00422_wo⟧{追|お}い{払|はら}う: to shoo away bugs\n・⟦{邪気|じゃき}→邪気：29599_jaki⟧⟦を→を：00422_wo⟧{追|お}い{払|はら}う: to drive away evil spirits\n・⟦{不安|ふあん}→不安：00836_fuan⟧⟦を→を：00422_wo⟧{追|お}い{払|はら}う: to chase away anxiety\n\nSIMILAR:\n・⟦{追|お}い{出|だ}す→追い出す：04625_oidasu⟧: to throw out, to kick out (more forceful)\n・⟦{振|ふ}り{払|はら}う→振り払う：06239_furiharau⟧: to shake off",
+  "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Takes ⟦を→を：00422_wo⟧. Compound verb: ⟦{追|お}う→追う：02016_ou⟧ + ⟦{払|はら}う→払う：00535_harau⟧.\n\nNUANCE: The {払|はら}う component adds the sense of sweeping away or brushing off. Can be used both for physical beings (animals, people) and abstract concepts (worries, bad thoughts).\n\nCOMMON PATTERNS:\n- ⟦{虫|むし}→虫：02262_mushi⟧⟦を→を：00422_wo⟧{追|お}い{払|はら}う: to shoo away bugs\n- ⟦{邪気|じゃき}→邪気：29599_jaki⟧⟦を→を：00422_wo⟧{追|お}い{払|はら}う: to drive away evil spirits\n- ⟦{不安|ふあん}→不安：00836_fuan⟧⟦を→を：00422_wo⟧{追|お}い{払|はら}う: to chase away anxiety\n\nSIMILAR:\n- ⟦{追|お}い{出|だ}す→追い出す：04625_oidasu⟧: to throw out, to kick out (more forceful)\n- ⟦{振|ふ}り{払|はら}う→振り払う：06239_furiharau⟧: to shake off",
   "cross_references": [
     {
       "type": "related",
@@ -143,11 +143,32 @@
       "reading": "おう",
       "headword": "{追|お}う",
       "target_id": "02016_ou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06239_furiharau",
+      "reading": "ふりはらう",
+      "headword": "{振|ふ}り{払|はら}う",
+      "label": "to shake off"
+    },
+    {
+      "type": "related",
+      "target_id": "07979_kuchiku",
+      "reading": "くちく",
+      "headword": "{駆逐|くちく}",
+      "label": "expulsion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21875_gekitaisuru",
+      "reading": "げきたいする",
+      "headword": "{撃退|げきたい}する",
+      "label": "to repel"
     }
   ],
   "metadata": {
     "created": "2026-01-17T11:08:25Z",
-    "modified": "2026-08-25T00:21:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

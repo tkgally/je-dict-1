@@ -18,7 +18,9 @@
       "english": "Cumulonimbus clouds can be seen in the summer sky.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10085_nyuudougumo_ex2",
@@ -26,7 +28,9 @@
       "english": "Thunderhead clouds are forming, so there might be an evening shower.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10085_nyuudougumo_ex3",
@@ -34,20 +38,56 @@
       "english": "A gigantic cumulonimbus cloud was billowing up beyond the mountains.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "ETYMOLOGY:\nThe name {入道雲|にゅうどうぐも} comes from {入道|にゅうどう} (Buddhist monk) + {雲|くも} (cloud). The towering white cloud formation resembles the shaved, bald head of a monk.\n\nSEASONAL REFERENCE:\n{入道雲|にゅうどうぐも} is a quintessential summer image in Japan, often depicted in art and anime as a symbol of summer vacation and childhood nostalgia.\n\nWEATHER NOTE:\nThese clouds often bring sudden afternoon thunderstorms ({夕立|ゆうだち}) in summer.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22808_amagumo",
+      "reading": "あまぐも",
+      "headword": "{雨雲|あまぐも}",
+      "label": "rain cloud"
+    },
+    {
+      "type": "related",
+      "target_id": "23702_sekiun",
+      "reading": "せきうん",
+      "headword": "{積雲|せきうん}",
+      "label": "cumulus cloud"
+    },
+    {
+      "type": "related",
+      "target_id": "27189_raiun",
+      "reading": "らいうん",
+      "headword": "{雷雲|らいうん}",
+      "label": "thundercloud"
+    },
+    {
+      "type": "related",
+      "target_id": "27194_sekiranun",
+      "reading": "せきらんうん",
+      "headword": "{積乱雲|せきらんうん}",
+      "label": "cumulonimbus cloud"
+    }
+  ],
   "metadata": {
     "created": "2026-02-05T02:42:19Z",
-    "modified": "2026-02-05T02:42:19Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature", "weather"]
+      "semantic": [
+        "nature",
+        "weather"
+      ]
     }
   }
 }

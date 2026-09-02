@@ -17,7 +17,9 @@
       "id": "18655_inko_ex1",
       "japanese": "インコを{飼|か}っている。",
       "english": "I keep a parakeet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18655_inko_ex2",
       "japanese": "うちのインコは{言葉|ことば}を{覚|おぼ}えるのが{早|はや}い。",
       "english": "Our parakeet is quick at learning words.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "18655_inko_ex3",
       "japanese": "{肩|かた}に{乗|の}ったインコが{楽|たの}しそうに{歌|うた}っている。",
       "english": "The parakeet perched on my shoulder is singing happily.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Written in katakana; the kanji {鸚哥|いんこ} exists but is rarely used.\n\nCOMMON SPECIES IN JAPAN:\n- セキセイインコ: budgerigar (the most popular pet parakeet)\n- オカメインコ: cockatiel\n\nCOMMON COLLOCATIONS:\n- インコを{飼|か}う: to keep a parakeet\n- インコがしゃべる: a parakeet talks\n- インコに{言葉|ことば}を{教|おし}える: to teach a parakeet words\n\nCONTRAST:\n- オウム: larger parrots and cockatoos (distinct from インコ)\n- In casual speech, people sometimes use インコ and オウム interchangeably, but strictly, インコ refers to smaller species.\n\nNOTE:\nインコ are among the most popular pet birds in Japan, prized for their ability to mimic speech.",
+  "notes": "Written in katakana; the kanji {鸚哥|いんこ} exists but is rarely used.\n\nCOMMON SPECIES IN JAPAN:\n- セキセイインコ: budgerigar (the most popular pet parakeet)\n- オカメインコ: cockatiel\n\nCOMMON COLLOCATIONS:\n- インコを{飼|か}う: to keep a parakeet\n- インコがしゃべる: a parakeet talks\n- インコに{言葉|ことば}を{教|おし}える: to teach a parakeet words\n\nSIMILAR WORDS:\n- オウム: larger parrots and cockatoos (distinct from インコ)\n- In casual speech, people sometimes use インコ and オウム interchangeably, but strictly, インコ refers to smaller species.\n\nUSAGE:\nインコ are among the most popular pet birds in Japan, prized for their ability to mimic speech.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04942_oumu",
+      "reading": "おうむ",
+      "headword": "{鸚鵡|おうむ}",
+      "label": "larger parrots and cockatoos"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27937_bunchou",
+      "reading": "ぶんちょう",
+      "headword": "{文鳥|ぶんちょう}",
+      "label": "Java sparrow (pet bird)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["animal-bird"]
+      "semantic": [
+        "animal-bird"
+      ]
     },
     "created": "2026-03-22T11:45:16Z",
-    "modified": "2026-03-26T19:36:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

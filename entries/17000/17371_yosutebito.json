@@ -19,7 +19,9 @@
       "english": "He lives like a hermit.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17371_yosutebito_ex2",
@@ -27,7 +29,9 @@
       "english": "He leads a reclusive life deep in the mountains.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17371_yosutebito_ex3",
@@ -35,22 +39,45 @@
       "english": "After retirement, I want to leave the city and live quietly in the countryside like a hermit.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nLiterally \"person who has abandoned the world\" ({世|よ} = the world + {捨|す}てる = to abandon + {人|びと} = person). Has a literary, somewhat romantic nuance. Often used metaphorically rather than literally — describing someone who lives very simply or avoids social engagement.\n\nNOTE: In Japanese literary tradition, there are famous {世捨|よす}て{人|びと} such as the poet {鴨|かもの}{長明|ちょうめい}, author of {方丈記|ほうじょうき}.\n\nSIMILAR WORDS:\n- {隠者|いんじゃ}: hermit, recluse — more formal, literary\n- {仙人|せんにん}: hermit, sage — mythical/supernatural connotation\n- {引|ひ}きこもり: shut-in — modern term, negative connotation",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11607_sennin",
+      "reading": "せんにん",
+      "headword": "{仙人|せんにん}",
+      "label": "hermit, sage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10491_hikikomori",
+      "reading": "ひきこもり",
+      "headword": "{引|ひ}きこもり",
+      "label": "shut-in"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T08:23:22Z",
-    "modified": "2026-03-17T08:23:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"],
-      "style": ["literary"]
+      "semantic": [
+        "person"
+      ],
+      "style": [
+        "literary"
+      ]
     }
   }
 }

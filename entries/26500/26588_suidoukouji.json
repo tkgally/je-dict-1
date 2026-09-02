@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Combines {水道|すいどう} (water supply, plumbing) and {工事|こうじ} (construction work). A very practical term encountered in daily life — on road signs, apartment notices, and municipal announcements. The phrase {水道工事|すいどうこうじ}のため{断水|だんすい} (\"water shut off for plumbing work\") is especially common.\n\nCOMMON COLLOCATIONS:\n- {水道工事|すいどうこうじ}{業者|ぎょうしゃ}: plumbing contractor\n- {水道工事|すいどうこうじ}{中|ちゅう}: plumbing work in progress\n- {水道工事|すいどうこうじ}の{見積|みつ}もり: plumbing work estimate\n- {水道工事|すいどうこうじ}のため{断水|だんすい}: water shutoff for plumbing work\n\nRELATED TERMS:\n- {水道管|すいどうかん}: water pipe — the pipes being worked on\n- {配管|はいかん}{工事|こうじ}: piping work — a broader term covering all pipe installation\n- {下水道|げすいどう}{工事|こうじ}: sewer construction — specifically for drainage systems",
-  "cross_references": [],
+  "notes": "Combines {水道|すいどう} (water supply, plumbing) and {工事|こうじ} (construction work). A very practical term encountered in daily life — on road signs, apartment notices, and municipal announcements. The phrase {水道工事|すいどうこうじ}のため{断水|だんすい} (\"water shut off for plumbing work\") is especially common.\n\nCOMMON COLLOCATIONS:\n- {水道工事|すいどうこうじ}{業者|ぎょうしゃ}: plumbing contractor\n- {水道工事|すいどうこうじ}{中|ちゅう}: plumbing work in progress\n- {水道工事|すいどうこうじ}の{見積|みつ}もり: plumbing work estimate\n- {水道工事|すいどうこうじ}のため{断水|だんすい}: water shutoff for plumbing work\n\nRELATED WORDS:\n- {水道管|すいどうかん}: water pipe — the pipes being worked on\n- {配管|はいかん}{工事|こうじ}: piping work — a broader term covering all pipe installation\n- {下水道|げすいどう}{工事|こうじ}: sewer construction — specifically for drainage systems",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08094_suidoukan",
+      "reading": "すいどうかん",
+      "headword": "{水道管|すいどうかん}",
+      "label": "water pipe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21295_suidouya",
+      "reading": "すいどうや",
+      "headword": "{水道屋|すいどうや}",
+      "label": "plumber"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +75,6 @@
       ]
     },
     "created": "2026-05-03T12:34:18Z",
-    "modified": "2026-05-03T12:34:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

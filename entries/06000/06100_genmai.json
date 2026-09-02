@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{玄米|げんまい} is rice that has only had its husk removed, retaining the bran (⟦{糠|ぬか}→糠：noentry⟧) and germ. It requires longer cooking time and more water than white rice.\n\nCOMMON PATTERNS:\n・{玄米|げんまい}⟦ご{飯|はん}→ご飯：00776_gohan⟧ (cooked brown rice)\n・{玄米|げんまい}⟦を→を：00422_wo⟧⟦{炊|た}く→炊く：02127_taku⟧ (cook brown rice)\n・{玄米|げんまい}⟦{食|しょく}→食：noentry⟧ (brown rice diet)\n\nRELATED TERMS:\n・⟦{発芽|はつが}→発芽：18956_hatsuga⟧{玄米|げんまい} (germinated brown rice - GABA rice)\n・⟦{精米|せいまい}→精米：06615_seimai⟧ (rice polishing)\n・⟦{分|ぶ}づき{米|まい}→分づき米：noentry⟧ (partially polished rice)",
+  "notes": "USAGE:\n{玄米|げんまい} is rice that has only had its husk removed, retaining the bran (⟦{糠|ぬか}→糠：noentry⟧) and germ. It requires longer cooking time and more water than white rice.\n\nCOMMON PATTERNS:\n- {玄米|げんまい}⟦ご{飯|はん}→ご飯：00776_gohan⟧ (cooked brown rice)\n- {玄米|げんまい}⟦を→を：00422_wo⟧⟦{炊|た}く→炊く：02127_taku⟧ (cook brown rice)\n- {玄米|げんまい}⟦{食|しょく}→食：noentry⟧ (brown rice diet)\n\nRELATED WORDS:\n- ⟦{発芽|はつが}→発芽：18956_hatsuga⟧{玄米|げんまい} (germinated brown rice - GABA rice)\n- ⟦{精米|せいまい}→精米：06615_seimai⟧ (rice polishing)\n- ⟦{分|ぶ}づき{米|まい}→分づき米：noentry⟧ (partially polished rice)",
   "cross_references": [
     {
       "type": "related",
@@ -71,11 +71,39 @@
       "headword": "{白米|はくまい}",
       "label": "white rice",
       "target_id": "06101_hakumai"
+    },
+    {
+      "type": "related",
+      "target_id": "06615_seimai",
+      "reading": "せいまい",
+      "headword": "{精米|せいまい}",
+      "label": "rice polishing"
+    },
+    {
+      "type": "related",
+      "target_id": "20948_zakkoku",
+      "reading": "ざっこく",
+      "headword": "{雑穀|ざっこく}",
+      "label": "millet"
+    },
+    {
+      "type": "related",
+      "target_id": "27969_momi",
+      "reading": "もみ",
+      "headword": "{籾|もみ}",
+      "label": "unhulled rice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28489_musenmai",
+      "reading": "むせんまい",
+      "headword": "{無洗米|むせんまい}",
+      "label": "no-wash rice"
     }
   ],
   "metadata": {
     "created": "2026-01-17T03:13:44Z",
-    "modified": "2026-06-12T21:50:42Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

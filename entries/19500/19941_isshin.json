@@ -3,7 +3,7 @@
   "headword": "{一新|いっしん}",
   "reading": "いっしん",
   "romaji": "isshin",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "complete renewal; overhaul; fresh start",
   "conjugation": {
     "type": "suru",
@@ -144,6 +144,22 @@
     }
   ],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07520_sasshin",
+      "reading": "さっしん",
+      "headword": "{刷新|さっしん}",
+      "label": "reform, overhaul"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04815_kaikaku",
+      "reading": "かいかく",
+      "headword": "{改革|かいかく}",
+      "label": "reform"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -159,6 +175,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-27T06:09:33Z",
-    "modified": "2026-03-27T06:09:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

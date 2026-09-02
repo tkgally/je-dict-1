@@ -22,7 +22,9 @@
       "id": "22754_sawa_ex1",
       "japanese": "{沢|さわ}の{水|みず}がきれいだ。",
       "english": "The water in the mountain stream is clear.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "22754_sawa_ex2",
       "japanese": "{沢|さわ}を{登|のぼ}るのは{冒険|ぼうけん}のようだ。",
       "english": "Climbing up the mountain stream is like an adventure.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "22754_sawa_ex3",
       "japanese": "{夏|なつ}になると{沢|さわ}で{水遊|みずあそ}びをする{人|ひと}が{多|おお}い。",
       "english": "In summer, many people play in mountain streams.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "22754_sawa_ex4",
       "japanese": "この{辺|あた}りは{沢|さわ}が{多|おお}い。",
       "english": "There are many marshy areas around here.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "22754_sawa_ex5",
       "japanese": "{沢|さわ}{地|ち}には{独特|どくとく}の{植物|しょくぶつ}が{生|は}えている。",
       "english": "Distinctive plants grow in marshy areas.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,52 @@
       "id": "22754_sawa_ex6",
       "japanese": "{森|もり}の{奥|おく}にある{沢|さわ}では{珍|めずら}しい{野鳥|やちょう}が{観察|かんさつ}できる。",
       "english": "In the marshes deep in the forest, you can observe rare wild birds.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A basic nature word with two related meanings. In the mountain stream sense, it refers to small rocky streams in valleys — the activity of {沢登|さわのぼ}り (stream climbing/canyoneering) is a popular outdoor pursuit in Japan. The swamp/marsh sense is common in place names. Also very frequently seen as a component in surnames ({沢田|さわだ}, {大沢|おおさわ}, etc.).\n\nCOMMON COLLOCATIONS:\n- {沢登|さわのぼ}り: stream climbing, canyoneering\n- {沢|さわ}{水|みず}: stream water\n- {沢|さわ}{沿|ぞ}い: along the stream\n- {沢|さわ}{地|ち}: marshland\n\nSIMILAR WORDS:\n- {渓流|けいりゅう}: mountain stream — a more formal, literary synonym for the stream sense\n- {湿地|しっち}: wetland, marshland — a more formal term for the marsh sense\n- {小川|おがわ}: brook, small stream — a gentler stream, usually in flatter terrain",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15855_keiryuu",
+      "reading": "けいりゅう",
+      "headword": "{渓流|けいりゅう}",
+      "label": "mountain stream"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05036_shicchi",
+      "reading": "しっち",
+      "headword": "{湿地|しっち}",
+      "label": "wetland, marshland"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06695_ogawa",
+      "reading": "おがわ",
+      "headword": "{小川|おがわ}",
+      "label": "brook, small stream"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["nature", "geography"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "nature",
+        "geography"
+      ],
       "formality": "neutral",
       "politeness": "plain"
     },
     "created": "2026-04-07T14:18:15Z",
-    "modified": "2026-04-07T14:18:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

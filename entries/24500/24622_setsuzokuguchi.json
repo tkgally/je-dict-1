@@ -17,7 +17,9 @@
       "id": "24622_setsuzokuguchi_ex1",
       "japanese": "{接続口|せつぞくぐち}にホースをつなぐ。",
       "english": "Connect the hose to the outlet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24622_setsuzokuguchi_ex2",
       "japanese": "この{機器|きき}には{接続口|せつぞくぐち}が3つある。",
       "english": "This device has three connection ports.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "24622_setsuzokuguchi_ex3",
       "japanese": "{水道|すいどう}の{接続口|せつぞくぐち}から{水漏|みずも}れが{発生|はっせい}したため、{業者|ぎょうしゃ}に{修理|しゅうり}を{依頼|いらい}した。",
       "english": "A leak occurred at the water pipe connection, so we called a contractor for repairs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {接続|せつぞく} ('connection') and {口|ぐち} ('opening; mouth'). A practical term encountered in product manuals, plumbing work, and technical documentation. The {口|ぐち} suffix indicates a physical opening where something is inserted or attached.\n\nUSAGE:\nUsed across multiple technical domains. In plumbing, it refers to pipe fittings and water connections. In electronics, it can refer to ports or connectors, though {端子|たんし} and ポート are more common for electronic connections specifically.\n\nCOMMON COLLOCATIONS:\n- {水道|すいどう}の{接続口|せつぞくぐち}: water pipe connection\n- {接続口|せつぞくぐち}のサイズ: connector size\n- {接続口|せつぞくぐち}をふさぐ: to seal a connection point\n- {接続口|せつぞくぐち}に{接続|せつぞく}する: to connect to the port\n\nSIMILAR WORDS:\n- {端子|たんし}: terminal; connector — specifically for electrical/electronic connections\n- ポート: port — loanword commonly used for computer and network ports\n- {差込口|さしこみぐち}: plug socket; insertion port — an opening designed for plugging something in\n- {接続|せつぞく}: connection — the act or state of connecting, without implying a physical opening",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30215_tanshi",
+      "reading": "たんし",
+      "headword": "端子",
+      "label": "terminal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24425_pooto",
+      "reading": "ぽーと",
+      "headword": "ポート",
+      "label": "port"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["technology"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "technology"
+      ]
     },
     "created": "2026-04-20T09:13:53Z",
-    "modified": "2026-04-20T09:13:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

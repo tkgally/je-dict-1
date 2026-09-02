@@ -3,7 +3,7 @@
   "headword": "{催促|さいそく}する",
   "reading": "さいそくする",
   "romaji": "saisoku suru",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to urge; to press; to demand promptly",
   "definitions": [
     {
@@ -45,7 +45,43 @@
     }
   ],
   "notes": "Implies that the person being urged is overdue or slow in fulfilling an obligation. Carries a slightly pushy or impatient nuance — stronger than simply asking or reminding.\n\nCOMMON COLLOCATIONS:\n- {支払|しはら}いを{催促|さいそく}する: to press for payment\n- {返事|へんじ}を{催促|さいそく}する: to urge a reply\n- {催促|さいそく}の{電話|でんわ}: a phone call pressing for action\n- {催促|さいそく}{状|じょう}: a demand letter, reminder notice\n\nSIMILAR WORDS:\n- {促|うなが}す: to prompt/urge — more neutral and polite, used for encouragement as well as reminders\n- {督促|とくそく}する: to demand — stronger and more formal, often used in legal/financial contexts\n- {急|せ}かす: to rush someone — focuses on speed rather than fulfillment of obligation\n\nUSAGE:\nCommon in both business and daily life. Being {催促|さいそく}される (pressed/urged) is somewhat uncomfortable in Japanese culture, so people often try to fulfill obligations before reaching that point.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10875_unagasu",
+      "reading": "うながす",
+      "headword": "{促|うなが}す",
+      "label": "to prompt/urge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09002_tokusoku",
+      "reading": "とくそく",
+      "headword": "{督促|とくそく}",
+      "label": "to demand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12596_sekasu",
+      "reading": "せかす",
+      "headword": "{急|せ}かす",
+      "label": "to rush someone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20289_toritateru",
+      "reading": "とりたてる",
+      "headword": "{取|と}り{立|た}てる",
+      "label": "to collect forcibly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26988_seikyuusuru",
+      "reading": "せいきゅうする",
+      "headword": "{請求|せいきゅう}する",
+      "label": "to bill"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,7 +99,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T12:08:01Z",
-    "modified": "2026-05-05T12:08:01Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

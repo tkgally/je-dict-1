@@ -22,7 +22,9 @@
       "id": "25990_fuuha_ex1",
       "japanese": "{風波|ふうは}が{高|たか}い。",
       "english": "The wind and waves are high.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "25990_fuuha_ex2",
       "japanese": "{漁船|ぎょせん}は{風波|ふうは}に{耐|た}えながら{進|すす}んだ。",
       "english": "The fishing boat pressed on, enduring the wind and waves.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "25990_fuuha_ex3",
       "japanese": "{激|はげ}しい{風波|ふうは}のため、{出港|しゅっこう}が{見合|みあ}わされた。",
       "english": "Departure from port was postponed due to severe wind and waves.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "25990_fuuha_ex4",
       "japanese": "{風波|ふうは}が{立|た}った。",
       "english": "Trouble arose.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "25990_fuuha_ex5",
       "japanese": "{人事異動|じんじいどう}をめぐって{風波|ふうは}が{起|お}きた。",
       "english": "Discord arose over the personnel changes.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,21 +72,51 @@
       "id": "25990_fuuha_ex6",
       "japanese": "{社内|しゃない}の{風波|ふうは}が{収|おさ}まるまで、{新|あたら}しいプロジェクトは{延期|えんき}された。",
       "english": "The new project was postponed until the internal discord subsided.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Literally means wind and waves, but the figurative sense of trouble or discord is more commonly encountered. The word evokes the image of a calm surface being disturbed — just as waves disrupt still water, {風波|ふうは} describes conflict that disrupts a previously peaceful situation.\n\nCOMMON COLLOCATIONS:\n- {風波|ふうは}が{立|た}つ: trouble arises; discord develops\n- {風波|ふうは}が{起|お}きる: conflict occurs\n- {風波|ふうは}が{収|おさ}まる: trouble subsides\n- {風波|ふうは}を{招|まね}く: to invite trouble\n- {風波|ふうは}に{耐|た}える: to endure rough seas; to weather trouble\n\nSIMILAR WORDS:\n- {波風|なみかぜ}: wind and waves (reversed order) — same figurative meaning of trouble, often used in the set phrase {波風|なみかぜ}を{立|た}てる (to stir up trouble)\n- {波乱|はらん}: upheaval, turbulence — implies larger-scale disruption\n- {騒動|そうどう}: commotion, disturbance — more concrete and immediate than {風波|ふうは}",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16755_namikaze",
+      "reading": "なみかぜ",
+      "headword": "{波風|なみかぜ}",
+      "label": "wind and waves"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13271_haran",
+      "reading": "はらん",
+      "headword": "{波乱|はらん}",
+      "label": "upheaval, turbulence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14656_soudou",
+      "reading": "そうどう",
+      "headword": "{騒動|そうどう}",
+      "label": "commotion, disturbance"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["weather", "society"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "weather",
+        "society"
+      ]
     },
     "created": "2026-04-28T15:30:05Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

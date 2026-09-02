@@ -3,7 +3,7 @@
   "headword": "{感性的|かんせいてき}",
   "reading": "かんせいてき",
   "romaji": "kanseiteki",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "sensory; emotional; intuitive; aesthetic",
   "definitions": [
     {
@@ -46,18 +46,50 @@
   ],
   "notes": "Formed from {感性|かんせい} (sensitivity, sensibility) plus {的|てき}. The base word {感性|かんせい} is a key concept in Japanese aesthetics and psychology, referring to one's innate ability to perceive beauty, emotion, and subtlety.\n\n{感性的|かんせいてき} is frequently used in discussions of art, design, music, literature, and marketing to describe approaches or works that appeal to emotion and intuition rather than rational analysis.\n\nCOMMON COLLOCATIONS:\n- {感性的|かんせいてき}な{表現|ひょうげん}: emotional/aesthetic expression\n- {感性的|かんせいてき}な{判断|はんだん}: intuitive judgment\n- {感性的|かんせいてき}な{価値|かち}: aesthetic value\n- {感性的|かんせいてき}な{人|ひと}: a sensitive/intuitive person\n\nSIMILAR WORDS:\n- {感情的|かんじょうてき}: emotional — focuses on being driven by emotions, often with a negative connotation of being irrational\n- {直感的|ちょっかんてき}: intuitive — emphasizes gut-level understanding rather than aesthetic sensitivity\n- {論理的|ろんりてき}: logical — the opposite; based on reason and systematic thinking\n- {感覚的|かんかくてき}: sensory, perceptual — closer to raw sensory perception than aesthetic sensitivity",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05678_kanjouteki",
+      "reading": "かんじょうてき",
+      "headword": "{感情的|かんじょうてき}",
+      "label": "emotional"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05848_chokkanteki",
+      "reading": "ちょっかんてき",
+      "headword": "{直感的|ちょっかんてき}",
+      "label": "intuitive"
+    },
+    {
+      "type": "antonym",
+      "target_id": "05672_ronriteki",
+      "reading": "ろんりてき",
+      "headword": "{論理的|ろんりてき}",
+      "label": "logical"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05744_kankakuteki",
+      "reading": "かんかくてき",
+      "headword": "{感覚的|かんかくてき}",
+      "label": "sensory, perceptual"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "adjective-na"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "art"
       ]
     },
     "created": "2026-04-21T13:14:10Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

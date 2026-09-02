@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{並|なら}ぶ→並ぶ：00605_narabu⟧ (intransitive). Pattern: X⟦を→を：00422_wo⟧{並|なら}べる (line up X).\n\nASPECT: ている indicates resulting state. {並|なら}べている = 'have lined up' or 'is arranging.'\n\nCOMMON PATTERNS:\n・⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧{並|なら}べる (arrange books)\n・⟦{椅子|いす}→椅子：00706_isu⟧⟦を→を：00422_wo⟧{並|なら}べる (line up chairs)\n・お⟦{皿|さら}→皿：00883_sara⟧⟦を→を：00422_wo⟧{並|なら}べる (set out plates)\n・⟦きれいに→きれい：00717_kirei⟧{並|なら}べる (arrange neatly)\n\nPAIR: ⟦{並|なら}ぶ→並ぶ：00605_narabu⟧ (intransitive) - ⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{並|なら}んでいる→並ぶ：00605_narabu⟧ (people are lined up).",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{並|なら}ぶ→並ぶ：00605_narabu⟧ (intransitive). Pattern: X⟦を→を：00422_wo⟧{並|なら}べる (line up X).\n\nASPECT: ている indicates resulting state. {並|なら}べている = 'have lined up' or 'is arranging.'\n\nCOMMON PATTERNS:\n- ⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧{並|なら}べる (arrange books)\n- ⟦{椅子|いす}→椅子：00706_isu⟧⟦を→を：00422_wo⟧{並|なら}べる (line up chairs)\n- お⟦{皿|さら}→皿：00883_sara⟧⟦を→を：00422_wo⟧{並|なら}べる (set out plates)\n- ⟦きれいに→きれい：00717_kirei⟧{並|なら}べる (arrange neatly)\n\nPAIR: ⟦{並|なら}ぶ→並ぶ：00605_narabu⟧ (intransitive) - ⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{並|なら}んでいる→並ぶ：00605_narabu⟧ (people are lined up).",
   "cross_references": [
     {
       "type": "pair",
@@ -176,11 +176,25 @@
       "headword": "{並|なら}ぶ",
       "target_id": "00605_narabu",
       "label": "intransitive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01092_oku",
+      "reading": "おく",
+      "headword": "{置|お}く",
+      "label": "to put, to place"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25340_narabekaeru",
+      "reading": "ならべかえる",
+      "headword": "{並|なら}べ{替|か}える",
+      "label": "to rearrange"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:02:52Z",
-    "modified": "2026-06-11T14:27:31Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -201,6 +215,12 @@
       "target_id": "00605_narabu",
       "reading": "ならぶ",
       "headword": "{並|なら}ぶ",
+      "note": "intransitive"
+    },
+    {
+      "target_id": "23579_ichiretsuninarabu",
+      "reading": "いちれつにならぶ",
+      "headword": "{一列|いちれつ}に{並|なら}ぶ",
       "note": "intransitive"
     }
   ]

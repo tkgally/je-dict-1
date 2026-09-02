@@ -17,7 +17,9 @@
       "id": "29587_handoruneemu_ex1",
       "japanese": "ハンドルネームで{投稿|とうこう}する。",
       "english": "Post under a handle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29587_handoruneemu_ex2",
       "japanese": "{本名|ほんみょう}ではなくハンドルネームを{使|つか}う。",
       "english": "Use a handle rather than your real name.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,54 @@
       "id": "29587_handoruneemu_ex3",
       "japanese": "{掲示板|けいじばん}では{彼|かれ}のハンドルネームしか{知|し}らない。",
       "english": "On the forum, I only know him by his handle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Wasei-eigo (Japanese-coined English) from \"handle\" + \"name\"; natural English would be \"username,\" \"screen name,\" or \"handle.\" Commonly abbreviated HN.\n\nCOMMON COLLOCATIONS:\n- ハンドルネームを{付|つ}ける: to choose a handle\n- ハンドルネームで{活動|かつどう}する: to operate under a handle\n\nSIMILAR WORDS:\n- ニックネーム: nickname — used offline too, not specifically online\n- {本名|ほんみょう}: one's real name\n- アカウント{名|めい}: account name",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23549_nikkuneemu",
+      "reading": "にっくねーむ",
+      "headword": "ニックネーム",
+      "label": "nickname"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13034_honmyou",
+      "reading": "ほんみょう",
+      "headword": "{本名|ほんみょう}",
+      "label": "one's real name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25452_penneemu",
+      "reading": "ぺんねーむ",
+      "headword": "ペンネーム",
+      "label": "pen name"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["communication"],
-      "domain": ["internet"]
+      "politeness": "plain",
+      "semantic": [
+        "communication"
+      ],
+      "domain": [
+        "internet"
+      ]
     },
     "created": "2026-06-30T09:20:35Z",
-    "modified": "2026-06-30T09:20:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

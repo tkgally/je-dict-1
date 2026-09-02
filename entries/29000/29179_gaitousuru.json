@@ -45,9 +45,46 @@
   ],
   "notes": "COMMON PATTERNS:\n- 〜に{該当|がいとう}する: to fall under ~; to apply to ~\n- 〜が{該当|がいとう}する: ~ applies/qualifies\n- {該当|がいとう}しない: not applicable; does not apply\n- {該当|がいとう}する{場合|ばあい}: when applicable; if this applies\n\nFrequently seen on official forms, regulations, and notices. Often appears as 「{該当|がいとう}する{項目|こうもく}に{丸|まる}をつけてください」 (Please circle the applicable item).\n\nSIMILAR WORDS:\n- {当|あ}てはまる: to apply; to fit — more everyday; used for general matching\n- {適用|てきよう}する: to apply (a rule, law, etc.) — used when actively applying something",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10212_atehamaru",
+      "reading": "あてはまる",
+      "headword": "{当|あ}てはまる",
+      "label": "to apply"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21739_tekiyousuru",
+      "reading": "てきようする",
+      "headword": "{適用|てきよう}する",
+      "label": "to apply"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20213_gacchisuru",
+      "reading": "がっちする",
+      "headword": "{合致|がっち}する",
+      "label": "to match"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21036_kizokusuru",
+      "reading": "きぞくする",
+      "headword": "{帰属|きぞく}する",
+      "label": "to belong to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21146_soutousuru",
+      "reading": "そうとうする",
+      "headword": "{相当|そうとう}する",
+      "label": "to correspond to"
+    }
+  ],
   "metadata": {
     "created": "2026-06-12T08:59:17Z",
-    "modified": "2026-06-12T08:59:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -55,7 +92,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "action"
       ],

@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{秘密|ひみつ}を{暴露|ばくろ}する - to expose a secret\n・{真実|しんじつ}を{暴露|ばくろ}する - to reveal the truth\n・{暴露|ばくろ}{本|ぼん} - tell-all book, exposé\n・{暴露|ばくろ}{記事|きじ} - exposé article\n\nNUANCE:\nOften implies sensational or scandalous revelation. Used frequently in media and tabloid contexts.\n\nRELATED WORDS:\n・{発覚|はっかく} - coming to light (passive discovery)\n・{隠蔽|いんぺい} - concealment (opposite action)\n・{告発|こくはつ} - accusation, disclosure (formal/legal)",
+  "notes": "COMMON COLLOCATIONS:\n- {秘密|ひみつ}を{暴露|ばくろ}する - to expose a secret\n- {真実|しんじつ}を{暴露|ばくろ}する - to reveal the truth\n- {暴露|ばくろ}{本|ぼん} - tell-all book, exposé\n- {暴露|ばくろ}{記事|きじ} - exposé article\n\nUSAGE:\nOften implies sensational or scandalous revelation. Used frequently in media and tabloid contexts.\n\nRELATED WORDS:\n- {発覚|はっかく} - coming to light (passive discovery)\n- {隠蔽|いんぺい} - concealment (opposite action)\n- {告発|こくはつ} - accusation, disclosure (formal/legal)",
   "cross_references": [
     {
       "type": "antonym",
@@ -145,11 +145,39 @@
       "headword": "{発覚|はっかく}",
       "label": "coming to light",
       "target_id": "07629_hakkaku"
+    },
+    {
+      "type": "related",
+      "target_id": "07999_kokuhatsu",
+      "reading": "こくはつ",
+      "headword": "{告発|こくはつ}",
+      "label": "accusation, disclosure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12962_akarumi",
+      "reading": "あかるみ",
+      "headword": "{明|あか}るみ",
+      "label": "coming to light, public knowledge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20077_roken",
+      "reading": "ろけん",
+      "headword": "{露見|ろけん}",
+      "label": "disclosure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20596_kougai",
+      "reading": "こうがい",
+      "headword": "{口外|こうがい}",
+      "label": "disclosing"
     }
   ],
   "metadata": {
     "created": "2026-01-20T13:21:59Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -158,6 +186,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "communication"
       ],

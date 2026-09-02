@@ -2,7 +2,7 @@
   "id": "07566_jidouka",
   "headword": "{自動化|じどうか}",
   "reading": "じどうか",
-  "part_of_speech": "noun/suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "automation",
   "conjugation": {
     "type": "suru",
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{自動|じどう} (automatic) + {化|か} (-ization)\n\nCOMMON COLLOCATIONS:\n・{自動化|じどうか}する - to automate\n・{自動化|じどうか}が{進|すす}む - automation progresses\n・{自動化|じどうか}を{導入|どうにゅう}する - to introduce automation\n・{自動化|じどうか}システム - automation system\n\nCOMMON CONTEXTS:\n・{工場|こうじょう}の{自動化|じどうか} - factory automation\n・{事務処理|じむしょり}の{自動化|じどうか} - office work automation\n・{家事|かじ}の{自動化|じどうか} - household automation\n・AI{技術|ぎじゅつ}による{自動化|じどうか} - automation through AI technology\n\nRELATED WORDS:\n・{自動|じどう} - automatic\n・オートメーション - automation (loanword)\n・ロボット{化|か} - robotization",
+  "notes": "ETYMOLOGY:\n{自動|じどう} (automatic) + {化|か} (-ization)\n\nCOMMON COLLOCATIONS:\n- {自動化|じどうか}する - to automate\n- {自動化|じどうか}が{進|すす}む - automation progresses\n- {自動化|じどうか}を{導入|どうにゅう}する - to introduce automation\n- {自動化|じどうか}システム - automation system\n\nUSAGE:\n- {工場|こうじょう}の{自動化|じどうか} - factory automation\n- {事務処理|じむしょり}の{自動化|じどうか} - office work automation\n- {家事|かじ}の{自動化|じどうか} - household automation\n- AI{技術|ぎじゅつ}による{自動化|じどうか} - automation through AI technology\n\nRELATED WORDS:\n- {自動|じどう} - automatic\n- オートメーション - automation (loanword)\n- ロボット{化|か} - robotization",
   "cross_references": [
     {
       "type": "related",
@@ -145,11 +145,53 @@
       "reading": "こうりつか",
       "headword": "{効率化|こうりつか}",
       "label": "streamlining"
+    },
+    {
+      "type": "related",
+      "target_id": "04878_jinkouchinou",
+      "reading": "じんこうちのう",
+      "headword": "{人工知能|じんこうちのう}",
+      "label": "artificial intelligence"
+    },
+    {
+      "type": "related",
+      "target_id": "07563_kasseika",
+      "reading": "かっせいか",
+      "headword": "{活性化|かっせいか}",
+      "label": "activation"
+    },
+    {
+      "type": "related",
+      "target_id": "07644_kashika",
+      "reading": "かしか",
+      "headword": "{可視化|かしか}",
+      "label": "visualization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20908_shouryokuka",
+      "reading": "しょうりょくか",
+      "headword": "{省力化|しょうりょくか}",
+      "label": "labor-saving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23913_kikaika",
+      "reading": "きかいか",
+      "headword": "{機械化|きかいか}",
+      "label": "mechanization (replacement of manual labor by machines)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25713_shouryoku",
+      "reading": "しょうりょく",
+      "headword": "{省力|しょうりょく}",
+      "label": "labor-saving"
     }
   ],
   "metadata": {
     "created": "2026-01-20T10:31:31Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -158,6 +200,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "technology",
         "action"

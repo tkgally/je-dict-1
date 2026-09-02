@@ -45,11 +45,34 @@
     }
   ],
   "notes": "A compound of {鍵|かぎ} (key) + {語|ご} (word). This is the Japanese-origin equivalent of the loanword キーワード. While both are used, {鍵語|かぎご} tends to appear in formal academic writing, particularly in fields like linguistics, literary criticism, and the humanities.\n\nCOMMON COLLOCATIONS:\n- {鍵語|かぎご}{検索|けんさく}: keyword search\n- {鍵語|かぎご}を{抽出|ちゅうしゅつ}する: to extract keywords\n- {重要|じゅうよう}な{鍵語|かぎご}: important keyword\n- {鍵語|かぎご}{索引|さくいん}: keyword index\n\nSIMILAR WORDS:\n- キーワード: keyword (loanword; far more common in everyday usage, technology, and business)\n- {見出|みだ}し{語|ご}: headword, entry word (specifically the word that heads a dictionary entry)\n- {術語|じゅつご}: technical term (specialized vocabulary of a particular field)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10832_kiiwaado",
+      "reading": "きーわーど",
+      "headword": "キーワード",
+      "label": "keyword (loanword"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24989_midashigo",
+      "reading": "みだしご",
+      "headword": "{見出|みだ}し{語|ご}",
+      "label": "headword, entry word"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28410_jutsugo",
+      "reading": "じゅつご",
+      "headword": "{術語|じゅつご}",
+      "label": "technical term"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
+      "politeness": "plain",
       "semantic": [
         "language",
         "science"
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-30T14:26:48Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "ぐうたら",
   "reading": "ぐうたら",
   "romaji": "guutara",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "lazy; idle; good-for-nothing",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "27861_guutara_ex1",
       "japanese": "{弟|おとうと}は{本当|ほんとう}にぐうたらだ。",
       "english": "My little brother is really lazy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27861_guutara_ex2",
       "japanese": "{休|やす}みの{日|ひ}は{一日中|いちにちじゅう}ぐうたらしている。",
       "english": "On my days off I laze around all day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,54 @@
       "id": "27861_guutara_ex3",
       "japanese": "{学生|がくせい}{時代|じだい}はぐうたらだったが、{就職|しゅうしょく}してから{人|ひと}が{変|か}わったように{働|はたら}くようになった。",
       "english": "He was a lazybones in his student days, but after getting a job he started working as if he were a different person.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Colloquial word for a habitually lazy person or lazy behavior. Used as a な-adjective (ぐうたらな{人|ひと}) or as a noun.\n\nCOMMON COLLOCATIONS:\n- ぐうたら{者|もの}: a lazybones; good-for-nothing\n- ぐうたらな{生活|せいかつ}: an idle, lazy lifestyle\n- ぐうたらする: to laze around\n\nSIMILAR WORDS:\n- {怠|なま}け{者|もの}: lazy person — neutral-to-critical, more common in writing\n- ものぐさ: someone who finds everything too much trouble — emphasizes not bothering rather than general idleness",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16970_namakemono",
+      "reading": "なまけもの",
+      "headword": "{怠|なま}け{者|もの}",
+      "label": "lazy person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07867_monogusa",
+      "reading": "ものぐさ",
+      "headword": "ものぐさ",
+      "label": "someone who finds everything too much…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05176_gorogoro",
+      "reading": "ごろごろ",
+      "headword": "ごろごろ",
+      "label": "rumbling"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "informal",
-      "politeness": null,
-      "semantic": ["personality", "descriptive"],
+      "politeness": "plain",
+      "semantic": [
+        "personality",
+        "descriptive"
+      ],
       "domain": []
     },
     "created": "2026-05-21T04:04:20Z",
-    "modified": "2026-05-21T04:04:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

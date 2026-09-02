@@ -17,7 +17,9 @@
       "id": "19689_shigotonakama_ex1",
       "japanese": "{仕事仲間|しごとなかま}と{昼|ひる}ご{飯|はん}を{食|た}べた。",
       "english": "I had lunch with my work colleagues.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19689_shigotonakama_ex2",
       "japanese": "{彼|かれ}はただの{仕事仲間|しごとなかま}ではなく、{親友|しんゆう}だ。",
       "english": "He's not just a work colleague — he's a close friend.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "19689_shigotonakama_ex3",
       "japanese": "{週末|しゅうまつ}に{仕事仲間|しごとなかま}と{飲|の}みに{行|い}くことが{多|おお}い。",
       "english": "I often go out drinking with my coworkers on weekends.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Carries a warmer, more personal tone than {同僚|どうりょう} (colleague). {仲間|なかま} implies camaraderie and a sense of being on the same team, so {仕事仲間|しごとなかま} suggests people you get along with at work, not merely people who happen to work at the same place.\n\nCOMMON COLLOCATIONS:\n- {仕事仲間|しごとなかま}と{飲|の}みに{行|い}く: to go drinking with coworkers\n- {仕事仲間|しごとなかま}に{恵|めぐ}まれる: to be blessed with good colleagues\n- {大切|たいせつ}な{仕事仲間|しごとなかま}: valued coworkers\n\nSIMILAR WORDS:\n- {同僚|どうりょう}: colleague — more formal and neutral; no implication of personal closeness\n- {職場|しょくば}の{人|ひと}: people at one's workplace — general, no warmth implied\n- {同期|どうき}: someone who joined the company in the same year — specific to hiring cohort",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01023_douryou",
+      "reading": "どうりょう",
+      "headword": "{同僚|どうりょう}",
+      "label": "colleague"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12029_douki",
+      "reading": "どうき",
+      "headword": "{同期|どうき}",
+      "label": "someone who joined the company…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work", "people"]
+      "semantic": [
+        "work",
+        "people"
+      ]
     },
     "created": "2026-03-26T12:38:04Z",
-    "modified": "2026-03-26T12:38:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

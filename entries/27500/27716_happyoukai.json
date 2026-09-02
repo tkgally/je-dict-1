@@ -17,7 +17,9 @@
       "id": "27716_happyoukai_ex1",
       "japanese": "{娘|むすめ}のピアノの{発表会|はっぴょうかい}に{行|い}った。",
       "english": "I went to my daughter's piano recital.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27716_happyoukai_ex2",
       "japanese": "{発表会|はっぴょうかい}に{向|む}けて{毎日|まいにち}{練習|れんしゅう}している。",
       "english": "I practice every day for the recital.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,25 +37,58 @@
       "id": "27716_happyoukai_ex3",
       "japanese": "{新製品|しんせいひん}の{発表会|はっぴょうかい}には{多|おお}くの{記者|きしゃ}が{集|あつ}まった。",
       "english": "Many reporters gathered at the new-product presentation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {発表|はっぴょう} (announcement, presentation) and {会|かい} (gathering). Covers everything from children's lesson recitals to corporate product launches.\n\nCOMMON COLLOCATIONS:\n- ピアノの{発表会|はっぴょうかい}: a piano recital\n- {発表会|はっぴょうかい}を{開|ひら}く: to hold a presentation event\n- {新製品|しんせいひん}{発表会|はっぴょうかい}: a new-product launch event\n\nSIMILAR WORDS:\n- リサイタル: recital — used for professional soloists rather than students\n- {演奏会|えんそうかい}: concert — a formal musical performance, often by an ensemble",
   "cross_references": [
-    {"type": "related", "target_id": "27701_risaitaru", "reading": "りさいたる", "headword": "リサイタル", "label": "recital"}
+    {
+      "type": "related",
+      "target_id": "27701_risaitaru",
+      "reading": "りさいたる",
+      "headword": "リサイタル",
+      "label": "recital"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18026_ensoukai",
+      "reading": "えんそうかい",
+      "headword": "{演奏会|えんそうかい}",
+      "label": "concert"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11498_ongakukai",
+      "reading": "おんがくかい",
+      "headword": "{音楽会|おんがくかい}",
+      "label": "concert, musical performance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30193_shiinkai",
+      "reading": "しいんかい",
+      "headword": "試飲会",
+      "label": "tasting event"
+    }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     },
     "created": "2026-05-17T03:10:36Z",
-    "modified": "2026-05-17T03:10:36Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

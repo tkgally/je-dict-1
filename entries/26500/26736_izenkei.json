@@ -45,7 +45,22 @@
     }
   ],
   "notes": "A grammatical term from classical Japanese ({古典|こてん}{文法|ぶんぽう}). The character {已|い} means \"already,\" so {已然形|いぜんけい} literally means \"the form for what has already happened.\" In classical Japanese, this form followed by ば expressed a realized condition (\"since/because X happened\"), unlike the modern hypothetical use (\"if X\").\n\nCOMMON COLLOCATIONS:\n- {已然形|いぜんけい}＋ば: realis form + ba (confirmed condition)\n- {六|ろく}{活用形|かつようけい}: the six conjugation forms (of which {已然形|いぜんけい} is one)\n\nSIMILAR WORDS:\n- {仮定形|かていけい}: hypothetical form — the modern grammar equivalent; expresses \"if\" rather than \"since\"\n- {未然形|みぜんけい}: irrealis form — the opposite conjugation base, expressing what has not yet happened",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24811_kateikei",
+      "reading": "かていけい",
+      "headword": "{仮定形|かていけい}",
+      "label": "hypothetical form"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23610_mizenkei",
+      "reading": "みぜんけい",
+      "headword": "{未然形|みぜんけい}",
+      "label": "irrealis form"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,6 +78,6 @@
       ]
     },
     "created": "2026-05-04T15:30:43Z",
-    "modified": "2026-08-06T12:46:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

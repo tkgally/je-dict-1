@@ -19,7 +19,9 @@
       "english": "I'm the organizer for this drinking party.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16378_kanji_ex2",
@@ -27,7 +29,9 @@
       "english": "The organizer reserved a restaurant for us.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16378_kanji_ex3",
@@ -35,21 +39,57 @@
       "english": "New employees are often tasked with being the organizer for welcome parties.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{幹事|かんじ} refers to the person responsible for organizing a group event. In Japanese workplaces, the {幹事|かんじ} handles choosing the venue, collecting money, coordinating schedules, and making sure everything runs smoothly. It is a culturally significant role, often assigned to younger or newer members as part of workplace socialization.\n\nCOMMON COLLOCATIONS:\n- {幹事|かんじ}を{務|つと}める (to serve as organizer)\n- {幹事|かんじ}を{任|まか}される (to be entrusted with organizing)\n- {幹事|かんじ}{役|やく} (the role of organizer)\n- {飲|の}み{会|かい}の{幹事|かんじ} (the organizer of a drinking party)\n- {幹事長|かんじちょう} (secretary-general — used in political parties)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07859_sewanin",
+      "reading": "せわにん",
+      "headword": "{世話人|せわにん}",
+      "label": "organizer"
+    },
+    {
+      "type": "related",
+      "target_id": "08355_nijikai",
+      "reading": "にじかい",
+      "headword": "{二次会|にじかい}",
+      "label": "after-party"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23542_jikkouiin",
+      "reading": "じっこういいん",
+      "headword": "{実行|じっこう}{委員|いいん}",
+      "label": "organizing committee member"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24621_shukan",
+      "reading": "しゅかん",
+      "headword": "{主幹|しゅかん}",
+      "label": "chief editor"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T05:11:29Z",
-    "modified": "2026-03-12T05:11:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "work"]
+      "semantic": [
+        "person",
+        "work"
+      ]
     }
   }
 }

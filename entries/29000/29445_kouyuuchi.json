@@ -17,7 +17,9 @@
       "id": "29445_kouyuuchi_ex1",
       "japanese": "ここは{公有地|こうゆうち}だ。",
       "english": "This is public land.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29445_kouyuuchi_ex2",
       "japanese": "{公有地|こうゆうち}に{建物|たてもの}を{建|た}てる。",
       "english": "to put up a building on public land.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "29445_kouyuuchi_ex3",
       "japanese": "{市|し}は{公有地|こうゆうち}の{一部|いちぶ}を{公園|こうえん}として{整備|せいび}した。",
       "english": "The city developed part of the public land into a park.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Used in administrative, legal, and urban-planning contexts for land held by the public sector.\n\nCOMMON COLLOCATIONS:\n- {公有地|こうゆうち}の{管理|かんり}: management of public land\n- {公有地|こうゆうち}を{売却|ばいきゃく}する: to sell off public land\n- {公有地|こうゆうち}の{有効|ゆうこう}{利用|りよう}: effective use of public land\n\nSIMILAR WORDS:\n- {私有地|しゆうち}: privately owned land — the direct antonym\n- {国有地|こくゆうち}: state-owned land — owned specifically by the national government",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "22702_shiyuuchi",
+      "reading": "しゆうち",
+      "headword": "{私有地|しゆうち}",
+      "label": "privately owned land"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29463_kokuyuuchi",
+      "reading": "こくゆうち",
+      "headword": "{国有地|こくゆうち}",
+      "label": "state-owned land"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["society"],
-      "domain": ["legal"]
+      "politeness": "plain",
+      "semantic": [
+        "society"
+      ],
+      "domain": [
+        "legal"
+      ]
     },
     "created": "2026-06-24T00:19:16Z",
-    "modified": "2026-06-24T00:19:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "It is as stated in the subject line.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14099_hyoudai_ex2",
@@ -27,7 +29,9 @@
       "english": "I will respond regarding the matter stated in the subject.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14099_hyoudai_ex3",
@@ -35,10 +39,12 @@
       "english": "The title of a thesis must accurately represent its content.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE NOTE:\n{表題|ひょうだい} is a formal word most commonly encountered in business emails and official documents. The phrase {表題|ひょうだい}の{件|けん} (the matter in the subject line) is a standard opening in business correspondence.\n\nCOMMON COLLOCATIONS:\n- {表題|ひょうだい}の{件|けん} (the matter in the subject)\n- {表題|ひょうだい}のとおり (as per the title/subject)\n- {表題|ひょうだい}を{付|つ}ける (give a title)\n- {表題|ひょうだい}{曲|きょく} (title track — of an album)\n\nSIMILAR WORDS:\n- タイトル: title (loanword, more casual and versatile)\n- {題名|だいめい}: title of a work (books, films, etc.)\n- {標題|ひょうだい}: title, heading (same reading, used interchangeably in some contexts)\n- {件名|けんめい}: subject line (specifically for emails)",
+  "notes": "USAGE:\n{表題|ひょうだい} is a formal word most commonly encountered in business emails and official documents. The phrase {表題|ひょうだい}の{件|けん} (the matter in the subject line) is a standard opening in business correspondence.\n\nCOMMON COLLOCATIONS:\n- {表題|ひょうだい}の{件|けん} (the matter in the subject)\n- {表題|ひょうだい}のとおり (as per the title/subject)\n- {表題|ひょうだい}を{付|つ}ける (give a title)\n- {表題|ひょうだい}{曲|きょく} (title track — of an album)\n\nSIMILAR WORDS:\n- タイトル: title (loanword, more casual and versatile)\n- {題名|だいめい}: title of a work (books, films, etc.)\n- {標題|ひょうだい}: title, heading (same reading, used interchangeably in some contexts)\n- {件名|けんめい}: subject line (specifically for emails)",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,19 +52,39 @@
       "reading": "だいめい",
       "headword": "{題名|だいめい}",
       "label": "title (of a work)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03855_taitoru",
+      "reading": "たいとる",
+      "headword": "タイトル",
+      "label": "title"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11552_kenmei",
+      "reading": "けんめい",
+      "headword": "{件名|けんめい}",
+      "label": "subject line"
     }
   ],
   "metadata": {
     "created": "2026-02-28T00:46:56Z",
-    "modified": "2026-04-29T10:23:05Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"],
-      "domain": ["business"]
+      "semantic": [
+        "communication"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

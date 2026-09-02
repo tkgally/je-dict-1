@@ -3,7 +3,7 @@
   "headword": "{解釈|かいしゃく}する",
   "reading": "かいしゃくする",
   "romaji": "kaishakusuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to interpret; to construe; to understand as",
   "definitions": [
     {
@@ -55,7 +55,29 @@
     }
   ],
   "notes": "Used in academic, legal, and everyday contexts when discussing how to understand the meaning of words, actions, or events. Unlike {翻訳|ほんやく}する (to translate between languages), {解釈|かいしゃく}する is about deriving meaning within the same language.\n\nCOMMON COLLOCATIONS:\n- {拡大|かくだい}{解釈|かいしゃく}: broad interpretation\n- {厳密|げんみつ}な{解釈|かいしゃく}: strict interpretation\n- {憲法|けんぽう}{解釈|かいしゃく}: constitutional interpretation\n- {自由|じゆう}な{解釈|かいしゃく}: free interpretation\n- {解釈|かいしゃく}が{分|わ}かれる: interpretations differ\n\nSIMILAR WORDS:\n- {理解|りかい}する: to understand — grasping meaning without the analytical connotation\n- {翻訳|ほんやく}する: to translate — converting between languages\n- {解明|かいめい}する: to clarify — uncovering truth through investigation",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06059_rikaisuru",
+      "reading": "りかいする",
+      "headword": "{理解|りかい}する",
+      "label": "to understand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01725_honyaku",
+      "reading": "ほんやく",
+      "headword": "{翻訳|ほんやく}",
+      "label": "to translate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26852_kaimeisuru",
+      "reading": "かいめいする",
+      "headword": "{解明|かいめい}する",
+      "label": "to clarify"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,7 +93,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T13:08:09Z",
-    "modified": "2026-05-05T13:08:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

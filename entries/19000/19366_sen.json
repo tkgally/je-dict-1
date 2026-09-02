@@ -17,7 +17,9 @@
       "id": "19366_sen_ex1",
       "japanese": "ボトルの{栓|せん}を{抜|ぬ}く。",
       "english": "Pull the cork from the bottle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19366_sen_ex2",
       "japanese": "{風呂|ふろ}の{栓|せん}を{閉|し}め{忘|わす}れた。",
       "english": "I forgot to put the plug in the bathtub.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "19366_sen_ex3",
       "japanese": "{消火栓|しょうかせん}の{前|まえ}には{駐車|ちゅうしゃ}しないでください。",
       "english": "Please do not park in front of the fire hydrant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A general word for any kind of stopper, plug, cork, or tap that seals or controls flow through an opening.\n\nCOMMON COLLOCATIONS:\n- {栓|せん}を{抜|ぬ}く — to pull a cork/plug\n- {栓|せん}を{閉|し}める — to close a plug/stopper\n- {栓|せん}をする — to plug, to cork\n- {栓|せん}を{開|あ}ける — to open a tap/valve\n\nCOMMON COMPOUNDS:\n- {栓抜|せんぬ}き — bottle opener, corkscrew\n- {消火栓|しょうかせん} — fire hydrant\n- {水栓|すいせん} — faucet, water tap\n- {蛇口|じゃぐち}の{栓|せん} — faucet tap\n- {血栓|けっせん} — blood clot, thrombus\n- {脳血栓|のうけっせん} — cerebral thrombosis\n\nSIMILAR WORDS:\n- ふた — lid, cap (more general, for containers)\n- コルク — cork (the material)\n- {蓋|ふた} — lid, cover (broader range of closures)",
+  "notes": "A general word for any kind of stopper, plug, cork, or tap that seals or controls flow through an opening.\n\nCOMMON COLLOCATIONS:\n- {栓|せん}を{抜|ぬ}く — to pull a cork/plug\n- {栓|せん}を{閉|し}める — to close a plug/stopper\n- {栓|せん}をする — to plug, to cork\n- {栓|せん}を{開|あ}ける — to open a tap/valve\n\nCOMPOUNDS:\n- {栓抜|せんぬ}き — bottle opener, corkscrew\n- {消火栓|しょうかせん} — fire hydrant\n- {水栓|すいせん} — faucet, water tap\n- {蛇口|じゃぐち}の{栓|せん} — faucet tap\n- {血栓|けっせん} — blood clot, thrombus\n- {脳血栓|のうけっせん} — cerebral thrombosis\n\nSIMILAR WORDS:\n- ふた — lid, cap (more general, for containers)\n- コルク — cork (the material)\n- {蓋|ふた} — lid, cover (broader range of closures)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03896_futa",
+      "reading": "ふた",
+      "headword": "{蓋|ふた}",
+      "label": "lid, cap"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19422_koruku",
+      "reading": "こるく",
+      "headword": "コルク",
+      "label": "cork"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24014_binbuta",
+      "reading": "びんぶた",
+      "headword": "{瓶蓋|びんぶた}",
+      "label": "bottle cap"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     },
     "created": "2026-03-25T10:19:05Z",
-    "modified": "2026-07-26T21:46:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

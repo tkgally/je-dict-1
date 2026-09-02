@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "ぶどう (grapes) is usually written in hiragana. The kanji {葡萄|ぶどう} exists but is rarely used.\n\nCOUNTING:\n- ⟦{一房|ひとふさ}→一房：27641_hitofusa⟧: one bunch\n- ⟦{一粒|ひとつぶ}→一粒：27642_hitotsubu⟧: one grape\n\nJAPANESE VARIETIES:\n- ⟦{巨峰|きょほう}→巨峰：27643_kyohou⟧: Kyoho (large, dark purple)\n- ⟦マスカット→マスカット：noentry⟧: Muscat\n- ⟦シャインマスカット→シャインマスカット：noentry⟧: Shine Muscat (premium)\n- ⟦デラウェア→デラウェア：noentry⟧: Delaware (small, seedless)\n\nRELATED PRODUCTS:\n- ⟦ワイン→ワイン：01067_wain⟧: wine\n- ⟦レーズン→レーズン：12843_reezun⟧: raisins\n- ぶどう⟦{酒|しゅ}→酒：02211_sake⟧: grape wine\n- ぶどう⟦{畑|ばたけ}→畑：00842_hatake⟧: vineyard\n\nCULTURAL NOTE:\n⟦{山梨県|やまなしけん}→山梨県：noentry⟧ is Japan's top grape-producing region. Japanese grapes tend to be larger and sweeter than Western varieties.",
+  "notes": "ぶどう (grapes) is usually written in hiragana. The kanji {葡萄|ぶどう} exists but is rarely used.\n\nCOUNTING PATTERNS:\n- ⟦{一房|ひとふさ}→一房：27641_hitofusa⟧: one bunch\n- ⟦{一粒|ひとつぶ}→一粒：27642_hitotsubu⟧: one grape\n\nJAPANESE VARIETIES:\n- ⟦{巨峰|きょほう}→巨峰：27643_kyohou⟧: Kyoho (large, dark purple)\n- ⟦マスカット→マスカット：noentry⟧: Muscat\n- ⟦シャインマスカット→シャインマスカット：noentry⟧: Shine Muscat (premium)\n- ⟦デラウェア→デラウェア：noentry⟧: Delaware (small, seedless)\n\nRELATED PRODUCTS:\n- ⟦ワイン→ワイン：01067_wain⟧: wine\n- ⟦レーズン→レーズン：12843_reezun⟧: raisins\n- ぶどう⟦{酒|しゅ}→酒：02211_sake⟧: grape wine\n- ぶどう⟦{畑|ばたけ}→畑：00842_hatake⟧: vineyard\n\nCULTURAL NOTE:\n⟦{山梨県|やまなしけん}→山梨県：noentry⟧ is Japan's top grape-producing region. Japanese grapes tend to be larger and sweeter than Western varieties.",
   "prominent_see_also": [
     {
       "target_id": "09640_budou",
@@ -72,10 +72,25 @@
       "note": "martial arts (homophone)"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01067_wain",
+      "reading": "わいん",
+      "headword": "ワイン",
+      "label": "wine"
+    },
+    {
+      "type": "related",
+      "target_id": "12843_reezun",
+      "reading": "れーずん",
+      "headword": "レーズン",
+      "label": "raisins"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:57:32Z",
-    "modified": "2026-08-09T12:26:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

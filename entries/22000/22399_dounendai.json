@@ -3,7 +3,7 @@
   "headword": "{同年代|どうねんだい}",
   "reading": "どうねんだい",
   "romaji": "dounendai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "same age group; same generation",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {同|どう} (same) and {年代|ねんだい} (age group/era). Refers to people who are roughly the same age — not necessarily born in the same year, but within the same general bracket (typically within about 5 years).\n\nCOMMON COLLOCATIONS:\n- {同年代|どうねんだい}の{人|ひと}: person of the same age group\n- {同年代|どうねんだい}の{子供|こども}: children of the same age\n- {同年代|どうねんだい}と{比|くら}べて: compared with one's age group\n- {同年代|どうねんだい}の{平均|へいきん}: average for the age group\n\nSIMILAR WORDS:\n- {同世代|どうせだい}: same generation — very close in meaning but emphasizes generational identity (shared cultural experiences) rather than just age\n- {同年齢|どうねんれい}: same age — refers to the exact same age, more precise than {同年代|どうねんだい}\n- {同期|どうき}: same year/cohort — people who entered a school or company in the same year",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17141_dousedai",
+      "reading": "どうせだい",
+      "headword": "{同世代|どうせだい}",
+      "label": "same generation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12029_douki",
+      "reading": "どうき",
+      "headword": "{同期|どうき}",
+      "label": "same year/cohort"
+    },
+    {
+      "type": "related",
+      "target_id": "10051_onaidoshi",
+      "reading": "おないどし",
+      "headword": "{同|おな}い{年|どし}",
+      "label": "same age"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +84,6 @@
       ]
     },
     "created": "2026-04-05T21:08:10Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

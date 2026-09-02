@@ -17,7 +17,9 @@
       "id": "23435_gyokairui_ex1",
       "japanese": "{新鮮|しんせん}な{魚介類|ぎょかいるい}を{買|か}う。",
       "english": "To buy fresh seafood.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23435_gyokairui_ex2",
       "japanese": "この{市場|いちば}は{魚介類|ぎょかいるい}が{豊富|ほうふ}だ。",
       "english": "This market has a rich selection of seafood.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23435_gyokairui_ex3",
       "japanese": "{魚介類|ぎょかいるい}のアレルギーがあるので、{注文|ちゅうもん}する{前|まえ}に{確認|かくにん}してください。",
       "english": "I have a seafood allergy, so please check before ordering.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,7 +47,9 @@
       "id": "23435_gyokairui_ex4",
       "japanese": "{北海道|ほっかいどう}は{魚介類|ぎょかいるい}がおいしいことで{有名|ゆうめい}だ。",
       "english": "Hokkaido is famous for its delicious seafood.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -61,18 +69,44 @@
       "reading": "かいさんぶつ",
       "headword": "{海産物|かいさんぶつ}",
       "label": "ocean products"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05881_kaisen",
+      "reading": "かいせん",
+      "headword": "{海鮮|かいせん}",
+      "label": "seafood"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22541_kairui",
+      "reading": "かいるい",
+      "headword": "{貝類|かいるい}",
+      "label": "shellfish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30404_shiifuudo",
+      "reading": "しーふーど",
+      "headword": "シーフード",
+      "label": "seafood"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["food", "nature"]
+      "semantic": [
+        "food",
+        "nature"
+      ]
     },
     "created": "2026-04-12T06:51:25Z",
-    "modified": "2026-05-04T07:39:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

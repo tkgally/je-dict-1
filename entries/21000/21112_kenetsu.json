@@ -3,7 +3,7 @@
   "headword": "{検閲|けんえつ}",
   "reading": "けんえつ",
   "romaji": "kenetsu",
-  "part_of_speech": "noun; noun (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "censorship; inspection of content",
   "definitions": [
     {
@@ -54,8 +54,24 @@
       "notes": null
     }
   ],
-  "notes": "Refers to the official examination and potential suppression of media, publications, and communications. In Japanese history, censorship was extensive during the prewar and wartime periods, and post-WWII occupation-era censorship by GHQ is also well documented.\n\nCOMMON COLLOCATIONS:\n- {検閲|けんえつ}を{受|う}ける: to be censored / undergo censorship\n- {検閲|けんえつ}する: to censor\n- {検閲|けんえつ}{制度|せいど}: censorship system\n- {事前|じぜん}{検閲|けんえつ}: prior censorship\n- {検閲|けんえつ}{官|かん}: censor (the person)\n\nHISTORICAL CONTEXT:\nJapan's postwar constitution ({日本国憲法|にほんこくけんぽう} Article 21) explicitly prohibits censorship ({検閲|けんえつ}は、これをしてはならない). This is a reaction to the extensive media controls of the prewar military government.\n\nSIMILAR WORDS:\n- {規制|きせい}: regulation — broader term; restrictions imposed by rules, not necessarily involving content review\n- {言論統制|げんろんとうせい}: speech control — controlling what people say, a broader concept than censorship",
+  "notes": "Refers to the official examination and potential suppression of media, publications, and communications. In Japanese history, censorship was extensive during the prewar and wartime periods, and post-WWII occupation-era censorship by GHQ is also well documented.\n\nCOMMON COLLOCATIONS:\n- {検閲|けんえつ}を{受|う}ける: to be censored / undergo censorship\n- {検閲|けんえつ}する: to censor\n- {検閲|けんえつ}{制度|せいど}: censorship system\n- {事前|じぜん}{検閲|けんえつ}: prior censorship\n- {検閲|けんえつ}{官|かん}: censor (the person)\n\nETYMOLOGY:\nJapan's postwar constitution ({日本国憲法|にほんこくけんぽう} Article 21) explicitly prohibits censorship ({検閲|けんえつ}は、これをしてはならない). This is a reaction to the extensive media controls of the prewar military government.\n\nSIMILAR WORDS:\n- {規制|きせい}: regulation — broader term; restrictions imposed by rules, not necessarily involving content review\n- {言論統制|げんろんとうせい}: speech control — controlling what people say, a broader concept than censorship",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02598_kisei",
+      "reading": "きせい",
+      "headword": "{規制|きせい}",
+      "label": "regulation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25958_firutaringu",
+      "reading": "ふぃるたりんぐ",
+      "headword": "フィルタリング",
+      "label": "filtering"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -72,7 +88,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-31T20:15:35Z",
-    "modified": "2026-03-31T20:15:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

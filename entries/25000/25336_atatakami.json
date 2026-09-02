@@ -17,7 +17,9 @@
       "id": "25336_atatakami_ex1",
       "japanese": "{手作|てづく}りの{料理|りょうり}には{温|あたた}かみがある。",
       "english": "Homemade cooking has a warm touch to it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25336_atatakami_ex2",
       "japanese": "{彼|かれ}の{言葉|ことば}には{温|あたた}かみが{感|かん}じられた。",
       "english": "I could feel warmth in his words.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,52 @@
       "id": "25336_atatakami_ex3",
       "japanese": "{木|き}の{家具|かぐ}は{金属|きんぞく}にはない{温|あたた}かみがあって、{部屋|へや}の{雰囲気|ふんいき}が{柔|やわ}らかくなる。",
       "english": "Wooden furniture has a warmth that metal lacks, and it softens the atmosphere of a room.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from the i-adjective {温|あたた}かい + the suffix み, which converts adjectives into nouns expressing the quality or feeling of that adjective. Unlike {温|あたた}かさ (which measures degree of warmth), {温|あたた}かみ emphasizes the subjective, emotional quality — a sense of gentleness, comfort, or human touch.\n\nPrimarily used for emotional or aesthetic warmth rather than physical temperature.\n\nCOMMON COLLOCATIONS:\n- {温|あたた}かみがある: to have warmth; to feel warm\n- {温|あたた}かみを{感|かん}じる: to feel warmth\n- {温|あたた}かみのある{声|こえ}: a warm voice\n- {温|あたた}かみのある{色|いろ}: a warm color\n- {人|ひと}の{温|あたた}かみ: human warmth\n\nSIMILAR WORDS:\n- {温|あたた}かさ: warmth (degree) — more objective, can refer to physical temperature\n- {優|やさ}しさ: kindness; gentleness — focuses on character rather than atmosphere\n- ぬくもり: warmth; coziness — more physical and intimate, often body warmth or the warmth of being held",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25588_yasashisa",
+      "reading": "やさしさ",
+      "headword": "{優|やさ}しさ",
+      "label": "kindness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10392_nukumori",
+      "reading": "ぬくもり",
+      "headword": "{温|ぬく}もり",
+      "label": "warmth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26025_tezukurikan",
+      "reading": "てづくりかん",
+      "headword": "{手作|てづく}り{感|かん}",
+      "label": "handmade feel"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["emotion", "abstract"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "emotion",
+        "abstract"
+      ]
     },
     "created": "2026-04-24T15:23:11Z",
-    "modified": "2026-04-24T15:23:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

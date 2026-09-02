@@ -3,7 +3,7 @@
   "headword": "{昏睡|こんすい}",
   "reading": "こんすい",
   "romaji": "konsui",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "coma; deep unconscious state",
   "definitions": [
     {
@@ -56,6 +56,29 @@
   ],
   "notes": "Compound of {昏|こん} ('darkness; dim') and {睡|すい} ('sleep'). Literally 'dark sleep'. A medical Sino-Japanese term; the everyday synonym-like phrase for 'pass out' is {意識|いしき}を{失|うしな}う ('to lose consciousness'), which is broader.\n\nUSAGE:\n- The most natural form is the set phrase {昏睡|こんすい}{状態|じょうたい} ('comatose state').\n- Typical verbs: {昏睡|こんすい}{状態|じょうたい}に{陥|おちい}る / になる ('fall into a coma'), {昏睡|こんすい}{状態|じょうたい}が{続|つづ}く ('remain comatose'), {昏睡|こんすい}{状態|じょうたい}から{目覚|めざ}める / {脱|だっ}する ('emerge from a coma').\n- {昏睡|こんすい}する is grammatical but much less frequent than the {状態|じょうたい} phrase.\n- Also appears in the criminal-law term {昏睡|こんすい}{強盗|ごうとう} ('knockout robbery' — drugging a victim to rob them).\n\nCOMMON COLLOCATIONS:\n- {昏睡|こんすい}{状態|じょうたい}: comatose state\n- {昏睡|こんすい}{状態|じょうたい}に{陥|おちい}る: to fall into a coma\n- {昏睡|こんすい}{状態|じょうたい}が{続|つづ}く: to remain in a coma\n- {昏睡|こんすい}{状態|じょうたい}から{目覚|めざ}める: to wake from a coma\n- {深|ふか}い{昏睡|こんすい}: deep coma\n- {昏睡|こんすい}{強盗|ごうとう}: knockout robbery (legal term)\n\nSIMILAR WORDS:\n- {意識|いしき}{不明|ふめい}: unconsciousness — broader news-style term, common in press reports.\n- {気絶|きぜつ}: fainting; passing out — sudden, typically brief.\n- {失神|しっしん}: fainting; syncope — medical term for transient loss of consciousness.\n- {植物|しょくぶつ}{状態|じょうたい}: persistent vegetative state — chronic and severe, different clinical category.\n\nMEDICAL NOTE:\nIn Japanese medical settings, level of consciousness is commonly graded with the Japan Coma Scale (JCS); the Glasgow Coma Scale is also used. {昏睡|こんすい} corresponds to the most severe grades in both systems.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19929_kizetsu",
+      "reading": "きぜつ",
+      "headword": "{気絶|きぜつ}",
+      "label": "fainting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20933_shisshin",
+      "reading": "しっしん",
+      "headword": "{失神|しっしん}",
+      "label": "fainting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25783_ishikisoushitsu",
+      "reading": "いしきそうしつ",
+      "headword": "{意識|いしき}{喪失|そうしつ}",
+      "label": "loss of consciousness"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -71,7 +94,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-14T21:20:46Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -3,7 +3,7 @@
   "headword": "{踏破|とうは}",
   "reading": "とうは",
   "romaji": "touha",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "traversing; completing a route on foot",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,22 @@
   ],
   "notes": "Combines {踏|とう} (to tread, to step on) and {破|は} (to break through). Carries a strong sense of achievement — not just walking, but conquering a challenging route. Often used in mountaineering and long-distance hiking contexts.\n\nCOMMON COLLOCATIONS:\n- {全|ぜん}ルートを{踏破|とうは}する — to complete the entire route\n- {山脈|さんみゃく}を{踏破|とうは}する — to traverse a mountain range\n- {踏破|とうは}{距離|きょり} — distance covered on foot\n\nSIMILAR WORDS:\n- {縦走|じゅうそう} — ridge traverse (specifically hiking along mountain ridges)\n- {完走|かんそう} — completing a race (running, not walking)\n- {走破|そうは} — completing a route by running or driving",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16981_kansou",
+      "reading": "かんそう",
+      "headword": "{完走|かんそう}",
+      "label": "completing a race"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22108_souha",
+      "reading": "そうは",
+      "headword": "{走破|そうは}",
+      "label": "completing a route by running or driving"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +167,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-27T00:20:08Z",
-    "modified": "2026-03-27T00:20:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

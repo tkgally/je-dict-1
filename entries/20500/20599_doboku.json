@@ -19,7 +19,9 @@
       "english": "The civil engineering work has started.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20599_doboku_ex2",
@@ -27,7 +29,9 @@
       "english": "He is majoring in civil engineering at university.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20599_doboku_ex3",
@@ -35,21 +39,50 @@
       "english": "After the earthquake, large-scale civil engineering work was carried out to restore roads and bridges.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Composed of {土|ど} (earth, soil) + {木|ぼく} (wood, timber) — the two fundamental materials of traditional construction. In modern usage, it refers specifically to civil engineering as opposed to building construction ({建築|けんちく}).\n\nCOMMON COLLOCATIONS:\n- {土木|どぼく}{工事|こうじ} (civil engineering work, construction work)\n- {土木|どぼく}{工学|こうがく} (civil engineering as an academic discipline)\n- {土木|どぼく}{作業|さぎょう} (construction labor)\n- {土木|どぼく}{技術者|ぎじゅつしゃ} (civil engineer)\n\nSIMILAR WORDS:\n- {建築|けんちく} — architecture, building construction (focuses on buildings)\n- {建設|けんせつ} — construction (broader term covering both civil engineering and building)\n- インフラ — infrastructure (loanword, refers to the completed systems rather than the engineering work)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02709_kenchiku",
+      "reading": "けんちく",
+      "headword": "{建築|けんちく}",
+      "label": "architecture, building construction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02708_kensetsu",
+      "reading": "けんせつ",
+      "headword": "{建設|けんせつ}",
+      "label": "construction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09898_infura",
+      "reading": "いんふら",
+      "headword": "インフラ",
+      "label": "infrastructure"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T19:21:56Z",
-    "modified": "2026-03-29T19:21:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technical", "work"]
+      "semantic": [
+        "technical",
+        "work"
+      ]
     }
   }
 }

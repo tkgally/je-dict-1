@@ -17,7 +17,9 @@
       "id": "29447_chakushukin_ex1",
       "japanese": "{着手金|ちゃくしゅきん}を{払|はら}う。",
       "english": "to pay a retainer fee.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29447_chakushukin_ex2",
       "japanese": "{弁護士|べんごし}に{着手金|ちゃくしゅきん}を{支払|しはら}った。",
       "english": "I paid the lawyer a retainer fee.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "29447_chakushukin_ex3",
       "japanese": "{着手金|ちゃくしゅきん}は{結果|けっか}に{関係|かんけい}なく{返|かえ}ってこないことが{多|おお}い。",
       "english": "The retainer is often non-refundable regardless of the outcome.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Common in legal fees and construction or design contracts, where it is paid before work starts.\n\nCOMMON COLLOCATIONS:\n- {着手金|ちゃくしゅきん}を{請求|せいきゅう}する: to charge a retainer\n- {着手金|ちゃくしゅきん}{無料|むりょう}: no upfront fee\n- {着手金|ちゃくしゅきん}の{相場|そうば}: the going rate for a retainer\n\nSIMILAR WORDS:\n- {成功報酬|せいこうほうしゅう}: contingency fee — paid only on a successful result, after the work\n- {手付金|てつけきん}: deposit — a down payment securing a sale or contract",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29464_seikouhoushuu",
+      "reading": "せいこうほうしゅう",
+      "headword": "{成功報酬|せいこうほうしゅう}",
+      "label": "contingency fee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29465_tetsukekin",
+      "reading": "てつけきん",
+      "headword": "{手付金|てつけきん}",
+      "label": "deposit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["money"],
-      "domain": ["legal"]
+      "politeness": "plain",
+      "semantic": [
+        "money"
+      ],
+      "domain": [
+        "legal"
+      ]
     },
     "created": "2026-06-24T00:19:16Z",
-    "modified": "2026-06-24T00:19:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

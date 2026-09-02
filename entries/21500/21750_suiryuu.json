@@ -17,7 +17,9 @@
       "id": "21750_suiryuu_ex1",
       "japanese": "{水流|すいりゅう}が{速|はや}い。",
       "english": "The water current is fast.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21750_suiryuu_ex2",
       "japanese": "{大雨|おおあめ}で{川|かわ}の{水流|すいりゅう}が{激|はげ}しくなった。",
       "english": "The river current became fierce due to heavy rain.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,12 +37,37 @@
       "id": "21750_suiryuu_ex3",
       "japanese": "この{地域|ちいき}では{地下|ちか}{水流|すいりゅう}を{利用|りよう}した{発電|はつでん}が{行|おこな}われている。",
       "english": "In this region, power generation using underground water currents is being carried out.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {水|すい} (water) and {流|りゅう} (flow, current). Refers to the physical movement of water, whether in natural settings (rivers, oceans) or artificial ones (pipes, channels).\n\nUSAGE:\n- Described with {速|はや}い/{遅|おそ}い (fast/slow) or {強|つよ}い/{弱|よわ}い (strong/weak)\n- Common in geography, weather reports, and outdoor safety contexts\n- Used in both scientific and everyday settings\n\nCOMMON COLLOCATIONS:\n- {水流|すいりゅう}が{速|はや}い: the current is fast\n- {水流|すいりゅう}に{流|なが}される: to be carried away by the current\n- {激|はげ}しい{水流|すいりゅう}: fierce current\n- {地下|ちか}{水流|すいりゅう}: underground water current\n- {水流|すいりゅう}を{利用|りよう}する: to utilize water flow\n\nSIMILAR WORDS:\n- {流|なが}れ: flow, current — the everyday word for any kind of flow (water, air, traffic, time)\n- {潮流|ちょうりゅう}: tidal current, ocean current — specifically ocean currents; also used figuratively for trends\n- {河川|かせん}: river — the body of water itself rather than the movement of water within it",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03504_nagare",
+      "reading": "ながれ",
+      "headword": "{流|なが}れ",
+      "label": "flow, current"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13417_chouryuu",
+      "reading": "ちょうりゅう",
+      "headword": "{潮流|ちょうりゅう}",
+      "label": "tidal current, ocean current"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13276_kasen",
+      "reading": "かせん",
+      "headword": "{河川|かせん}",
+      "label": "river"
+    }
+  ],
   "metadata": {
     "entry_id": "21750_suiryuu",
     "schema_version": "2.0",
@@ -46,11 +75,17 @@
     "vocabulary_tier": "general",
     "jlpt_level": null,
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["nature"],
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "nature"
+      ],
       "register": [],
       "usage": []
     },
-    "modified": "2026-04-03T15:31:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "リユース",
   "reading": "りゆーす",
   "romaji": "riyuusu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reuse; secondhand use",
   "definitions": [
     {
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "From English \"reuse.\" Part of the 3R ({スリーアール}) framework promoted in Japan's environmental policy: リデュース (reduce), リユース (reuse), リサイクル (recycle). Also functions as a suru verb (リユースする).\n\nCOMMON COLLOCATIONS:\n- リユース{品|ひん}: reused goods, secondhand items\n- リユースショップ: secondhand shop, reuse shop\n- リユースする: to reuse\n- リユース{可能|かのう}: reusable\n\nSIMILAR WORDS:\n- リサイクル: recycle — processing materials into new products, rather than reusing as-is\n- リデュース: reduce — reducing waste at the source\n- {再利用|さいりよう}: reuse — the Sino-Japanese equivalent, used in formal or technical contexts\n- {中古|ちゅうこ}: secondhand, used — describes items that have been previously owned",
+  "notes": "From English \"reuse.\" Part of the 3R (スリーアール) framework promoted in Japan's environmental policy: リデュース (reduce), リユース (reuse), リサイクル (recycle). Also functions as a suru verb (リユースする).\n\nCOMMON COLLOCATIONS:\n- リユース{品|ひん}: reused goods, secondhand items\n- リユースショップ: secondhand shop, reuse shop\n- リユースする: to reuse\n- リユース{可能|かのう}: reusable\n\nSIMILAR WORDS:\n- リサイクル: recycle — processing materials into new products, rather than reusing as-is\n- リデュース: reduce — reducing waste at the source\n- {再利用|さいりよう}: reuse — the Sino-Japanese equivalent, used in formal or technical contexts\n- {中古|ちゅうこ}: secondhand, used — describes items that have been previously owned",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04624_risaikuru",
+      "reading": "りさいくる",
+      "headword": "リサイクル",
+      "label": "recycle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26364_ridyuusu",
+      "reading": "りでゅーす",
+      "headword": "リデュース",
+      "label": "reduce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18649_sairiyou",
+      "reading": "さいりよう",
+      "headword": "{再利用|さいりよう}",
+      "label": "reuse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03479_chuuko",
+      "reading": "ちゅうこ",
+      "headword": "{中古|ちゅうこ}",
+      "label": "secondhand, used"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +95,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-26T15:17:56Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

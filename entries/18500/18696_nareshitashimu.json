@@ -3,7 +3,7 @@
   "headword": "{慣|な}れ{親|した}しむ",
   "reading": "なれしたしむ",
   "romaji": "nareshitashimu",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to become familiar with; to get accustomed to",
   "conjugation": {
     "type": "godan",
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "{慣|な}れ{親|した}しむ means to become deeply familiar with something through long, affectionate exposure — building a sense of attachment, not just routine.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- Particle pattern: ～に{慣|な}れ{親|した}しむ (to become familiar with ～)\n- A compound verb formed from {慣|な}れる (to get used to) + {親|した}しむ (to feel close to). The combination conveys both familiarity and emotional warmth.\n\nASPECT (ている):\n- The past form {慣|な}れ{親|した}しんだ (used as a noun-modifier) is by far the most common form in real text: 'familiar, beloved, long-cherished.'\n- Less commonly seen in present-tense form.\n\nCOMMON PATTERNS:\n- {慣|な}れ{親|した}しんだ{味|あじ}: a familiar (and beloved) taste\n- {慣|な}れ{親|した}しんだ{土地|とち}: a familiar (and dear) place\n- {慣|な}れ{親|した}しんだ{環境|かんきょう}: a familiar environment\n- {幼|おさな}い{頃|ころ}から{慣|な}れ{親|した}しんでいる: to have been familiar with since childhood\n- {日本|にほん}{文化|ぶんか}に{慣|な}れ{親|した}しむ: to become familiar with Japanese culture\n\nSIMILAR VERBS:\n- {慣|な}れる: to get used to (purely about adjustment, no emotional warmth).\n- {親|した}しむ: to feel close to, to enjoy (often used with arts, books, nature).\n- {馴染|なじ}む: to fit in, to settle into (similar feel, somewhat broader).",
+  "notes": "{慣|な}れ{親|した}しむ means to become deeply familiar with something through long, affectionate exposure — building a sense of attachment, not just routine.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- Particle pattern: ～に{慣|な}れ{親|した}しむ (to become familiar with ～)\n- A compound verb formed from {慣|な}れる (to get used to) + {親|した}しむ (to feel close to). The combination conveys both familiarity and emotional warmth.\n\nASPECT (ている):\n- The past form {慣|な}れ{親|した}しんだ (used as a noun-modifier) is by far the most common form in real text: 'familiar, beloved, long-cherished.'\n- Less commonly seen in present-tense form.\n\nCOMMON PATTERNS:\n- {慣|な}れ{親|した}しんだ{味|あじ}: a familiar (and beloved) taste\n- {慣|な}れ{親|した}しんだ{土地|とち}: a familiar (and dear) place\n- {慣|な}れ{親|した}しんだ{環境|かんきょう}: a familiar environment\n- {幼|おさな}い{頃|ころ}から{慣|な}れ{親|した}しんでいる: to have been familiar with since childhood\n- {日本|にほん}{文化|ぶんか}に{慣|な}れ{親|した}しむ: to become familiar with Japanese culture\n\nSIMILAR WORDS:\n- {慣|な}れる: to get used to (purely about adjustment, no emotional warmth).\n- {親|した}しむ: to feel close to, to enjoy (often used with arts, books, nature).\n- {馴染|なじ}む: to fit in, to settle into (similar feel, somewhat broader).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00870_nareru",
+      "reading": "なれる",
+      "headword": "{慣|な}れる",
+      "label": "to get used to (purely…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14631_najimu",
+      "reading": "なじむ",
+      "headword": "{馴染|なじ}む",
+      "label": "to fit in, to settle into (similar…"
+    },
+    {
+      "type": "related",
+      "target_id": "08505_tabenareru",
+      "reading": "たべなれる",
+      "headword": "{食|た}べ{慣|な}れる",
+      "label": "to become used to eating"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +174,6 @@
       "verb_class": "godan-mu"
     },
     "created": "2026-03-23T00:20:01Z",
-    "modified": "2026-04-10T13:28:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

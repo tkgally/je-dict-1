@@ -18,7 +18,9 @@
       "english": "To observe stars at the observatory.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09949_tenmondai_ex2",
@@ -26,7 +28,9 @@
       "english": "We made observations at the observatory.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09949_tenmondai_ex3",
@@ -34,21 +38,56 @@
       "english": "The national observatory has a large telescope.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A facility equipped with telescopes and instruments for observing celestial bodies and phenomena.\n\nFORMATION:\n{天文|てんもん} (astronomy) + {台|だい} (platform, station).\n\nCOMMON COLLOCATIONS:\n- {国立|こくりつ}{天文台|てんもんだい}: national astronomical observatory\n- {天文台|てんもんだい}で{観測|かんそく}する: to observe at the observatory\n- {天文台|てんもんだい}を{訪|おとず}れる: to visit an observatory\n\nRELATED WORDS:\n- {天文|てんもん}{学|がく}: astronomy\n- {望遠鏡|ぼうえんきょう}: telescope\n- {観測|かんそく}: observation\n- プラネタリウム: planetarium\n\nJAPAN NOTE:\nThe {国立|こくりつ}{天文台|てんもんだい} in {三鷹|みたか}, Tokyo is Japan's leading astronomical research institution.",
-  "cross_references": [],
+  "notes": "A facility equipped with telescopes and instruments for observing celestial bodies and phenomena.\n\nFORMS:\n{天文|てんもん} (astronomy) + {台|だい} (platform, station).\n\nCOMMON COLLOCATIONS:\n- {国立|こくりつ}{天文台|てんもんだい}: national astronomical observatory\n- {天文台|てんもんだい}で{観測|かんそく}する: to observe at the observatory\n- {天文台|てんもんだい}を{訪|おとず}れる: to visit an observatory\n\nRELATED WORDS:\n- {天文|てんもん}{学|がく}: astronomy\n- {望遠鏡|ぼうえんきょう}: telescope\n- {観測|かんそく}: observation\n- プラネタリウム: planetarium\n\nJAPAN NOTE:\nThe {国立|こくりつ}{天文台|てんもんだい} in {三鷹|みたか}, Tokyo is Japan's leading astronomical research institution.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07108_tenmongaku",
+      "reading": "てんもんがく",
+      "headword": "{天文学|てんもんがく}",
+      "label": "astronomy"
+    },
+    {
+      "type": "related",
+      "target_id": "05483_bouenkyou",
+      "reading": "ぼうえんきょう",
+      "headword": "{望遠鏡|ぼうえんきょう}",
+      "label": "telescope"
+    },
+    {
+      "type": "related",
+      "target_id": "00183_kansoku",
+      "reading": "かんそく",
+      "headword": "{観測|かんそく}",
+      "label": "observation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26242_kansokujo",
+      "reading": "かんそくじょ",
+      "headword": "{観測所|かんそくじょ}",
+      "label": "observatory"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T10:52:33Z",
-    "modified": "2026-03-25T05:40:40Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

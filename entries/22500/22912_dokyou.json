@@ -3,7 +3,7 @@
   "headword": "{読経|どきょう}",
   "reading": "どきょう",
   "romaji": "dokyou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sutra chanting; reading of Buddhist scriptures",
   "definitions": [
     {
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A word most Japanese people encounter in the context of funerals and memorial services, which are predominantly Buddhist in Japan. Even people who are not particularly religious are familiar with {読経|どきょう} as part of funeral rites.\n\nCOMMON COLLOCATIONS:\n- {読経|どきょう}する: to chant sutras\n- {読経|どきょう}の{声|こえ}: the sound/voice of sutra chanting\n- {読経|どきょう}が{始|はじ}まる: the sutra chanting begins\n- {読経|どきょう}{料|りょう}: payment for sutra chanting services\n\nRELATED TERMS:\n- {経文|きょうもん}: sutra text\n- {般若心経|はんにゃしんぎょう}: Heart Sutra — one of the most commonly chanted sutras\n- {念仏|ねんぶつ}: nembutsu, chanting the name of Amida Buddha\n- {法要|ほうよう}: Buddhist memorial service\n\nNOTE:\nDo not confuse with the homophone {度胸|どきょう} (courage, nerve).",
+  "notes": "A word most Japanese people encounter in the context of funerals and memorial services, which are predominantly Buddhist in Japan. Even people who are not particularly religious are familiar with {読経|どきょう} as part of funeral rites.\n\nCOMMON COLLOCATIONS:\n- {読経|どきょう}する: to chant sutras\n- {読経|どきょう}の{声|こえ}: the sound/voice of sutra chanting\n- {読経|どきょう}が{始|はじ}まる: the sutra chanting begins\n- {読経|どきょう}{料|りょう}: payment for sutra chanting services\n\nRELATED WORDS:\n- {経文|きょうもん}: sutra text\n- {般若心経|はんにゃしんぎょう}: Heart Sutra — one of the most commonly chanted sutras\n- {念仏|ねんぶつ}: nembutsu, chanting the name of Amida Buddha\n- {法要|ほうよう}: Buddhist memorial service\n\nUSAGE:\nDo not confuse with the homophone {度胸|どきょう} (courage, nerve).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24001_kyoumon",
+      "reading": "きょうもん",
+      "headword": "{経文|きょうもん}",
+      "label": "sutra text"
+    },
+    {
+      "type": "related",
+      "target_id": "12850_nenbutsu",
+      "reading": "ねんぶつ",
+      "headword": "{念仏|ねんぶつ}",
+      "label": "nembutsu, chanting the name of Amida…"
+    },
+    {
+      "type": "related",
+      "target_id": "05924_houyou",
+      "reading": "ほうよう",
+      "headword": "{法要|ほうよう}",
+      "label": "Buddhist memorial service"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27054_eishou",
+      "reading": "えいしょう",
+      "headword": "{詠唱|えいしょう}",
+      "label": "chanting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-07T20:17:00Z",
-    "modified": "2026-04-07T20:17:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

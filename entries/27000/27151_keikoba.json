@@ -17,7 +17,9 @@
       "id": "27151_keikoba_ex1",
       "japanese": "{稽古場|けいこば}で{練習|れんしゅう}する。",
       "english": "To practice at the training hall.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27151_keikoba_ex2",
       "japanese": "{力士|りきし}たちが{稽古場|けいこば}に{集|あつ}まった。",
       "english": "The sumo wrestlers gathered at the practice hall.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "27151_keikoba_ex3",
       "japanese": "{歌舞伎|かぶき}{役者|やくしゃ}は{毎朝|まいあさ}{稽古場|けいこば}で{舞|まい}の{稽古|けいこ}をしている。",
       "english": "The kabuki actor practices dance at the rehearsal hall every morning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {稽古|けいこ} (practice, training) and {場|ば} (place). Used specifically for spaces where traditional arts or martial arts are practiced. Not used for modern sports facilities like gyms.\n\nCOMMON COLLOCATIONS:\n- {稽古場|けいこば}で{稽古|けいこ}する — to practice at the training hall\n- {稽古場|けいこば}に{通|かよ}う — to attend the practice hall regularly\n- {相撲|すもう}{部屋|べや}の{稽古場|けいこば} — the practice ring at a sumo stable\n\nSIMILAR WORDS:\n- {道場|どうじょう} — martial arts hall; specifically for martial arts like {剣道|けんどう}, {柔道|じゅうどう}, {空手|からて}\n- {練習場|れんしゅうじょう} — practice facility; more general, used for sports and modern activities\n- ジム — gym; modern fitness or training facility\n- スタジオ — studio; for dance, music, or other modern performing arts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14326_doujou",
+      "reading": "どうじょう",
+      "headword": "{道場|どうじょう}",
+      "label": "martial arts hall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23351_renshuujou",
+      "reading": "れんしゅうじょう",
+      "headword": "{練習場|れんしゅうじょう}",
+      "label": "practice facility"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11583_sutajio",
+      "reading": "すたじお",
+      "headword": "スタジオ",
+      "label": "studio"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     },
     "created": "2026-05-07T13:13:00Z",
-    "modified": "2026-05-07T13:13:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

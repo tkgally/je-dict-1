@@ -2,7 +2,7 @@
   "id": "07698_chokkou",
   "headword": "{直行|ちょっこう}",
   "reading": "ちょっこう",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "going directly; direct route; direct travel",
   "conjugation": {
     "type": "suru",
@@ -168,7 +168,7 @@
       "notes": null
     }
   ],
-  "notes": "ETYMOLOGY:\n{直|ちょく} (direct) + {行|こう} (going)\n\nWORKPLACE USAGE:\n「{直行|ちょっこう}{直帰|ちょっき}」is a common expression meaning to go directly to a worksite (like a client's office) and then go straight home without stopping at the main office.\n\nCOMMON COMPOUNDS:\n・{直行便|ちょっこうびん} - direct flight\n・{直行|ちょっこう}バス - direct bus\n\nRELATED:\n・{直帰|ちょっき} - going straight home\n・{出社|しゅっしゃ} - going to the office\n・{在宅|ざいたく} - working from home",
+  "notes": "ETYMOLOGY:\n{直|ちょく} (direct) + {行|こう} (going)\n\nWORKPLACE USAGE:\n「{直行|ちょっこう}{直帰|ちょっき}」is a common expression meaning to go directly to a worksite (like a client's office) and then go straight home without stopping at the main office.\n\nCOMPOUNDS:\n- {直行便|ちょっこうびん} - direct flight\n- {直行|ちょっこう}バス - direct bus\n\nRELATED WORDS:\n- {直帰|ちょっき} - going straight home\n- {出社|しゅっしゃ} - going to the office\n- {在宅|ざいたく} - working from home",
   "cross_references": [
     {
       "type": "related",
@@ -183,11 +183,25 @@
       "reading": "ちょくつう",
       "headword": "{直通|ちょくつう}",
       "label": "direct connection, nonstop"
+    },
+    {
+      "type": "related",
+      "target_id": "06155_shussha",
+      "reading": "しゅっしゃ",
+      "headword": "{出社|しゅっしゃ}",
+      "label": "going to the office"
+    },
+    {
+      "type": "related",
+      "target_id": "07696_zaitaku",
+      "reading": "ざいたく",
+      "headword": "{在宅|ざいたく}",
+      "label": "working from home"
     }
   ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-04-29T07:15:05Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -196,6 +210,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "work",
         "travel"

@@ -54,20 +54,44 @@
       "notes": null
     }
   ],
-  "notes": "A formal term for someone devoted to the field of education. Unlike {先生|せんせい}, which refers to a specific teacher, {教育者|きょういくしゃ} describes someone whose identity and life work center on education in a broader sense.\n\nCOMMON COLLOCATIONS:\n- {優|すぐ}れた{教育者|きょういくしゃ}: an outstanding educator\n- {教育者|きょういくしゃ}としての{立場|たちば}: one's position as an educator\n- {教育者|きょういくしゃ}の{養成|ようせい}: training of educators\n- {教育者|きょういくしゃ}の{使命|しめい}: the mission of an educator\n\nSIMILAR WORDS:\n- {先生|せんせい}: teacher; refers to a specific person who teaches, used as both a title and a general term\n- {教師|きょうし}: teacher (more formal than {先生|せんせい}); focuses on the professional role of teaching in a school\n- {指導者|しどうしゃ}: leader or instructor; broader term that includes coaches, mentors, and leaders outside of formal education\n\nWORD FORMATION:\n{教育|きょういく} (education) + {者|しゃ} (person). The suffix {者|しゃ} marks a person defined by their role or profession.",
+  "notes": "A formal term for someone devoted to the field of education. Unlike {先生|せんせい}, which refers to a specific teacher, {教育者|きょういくしゃ} describes someone whose identity and life work center on education in a broader sense.\n\nCOMMON COLLOCATIONS:\n- {優|すぐ}れた{教育者|きょういくしゃ}: an outstanding educator\n- {教育者|きょういくしゃ}としての{立場|たちば}: one's position as an educator\n- {教育者|きょういくしゃ}の{養成|ようせい}: training of educators\n- {教育者|きょういくしゃ}の{使命|しめい}: the mission of an educator\n\nSIMILAR WORDS:\n- {先生|せんせい}: teacher; refers to a specific person who teaches, used as both a title and a general term\n- {教師|きょうし}: teacher (more formal than {先生|せんせい}); focuses on the professional role of teaching in a school\n- {指導者|しどうしゃ}: leader or instructor; broader term that includes coaches, mentors, and leaders outside of formal education\n\nFORMS:\n{教育|きょういく} (education) + {者|しゃ} (person). The suffix {者|しゃ} marks a person defined by their role or profession.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00609_sensei",
+      "reading": "せんせい",
+      "headword": "{先生|せんせい}",
+      "label": "teacher"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03029_kyoushi",
+      "reading": "きょうし",
+      "headword": "{教師|きょうし}",
+      "label": "teacher"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03062_shidousha",
+      "reading": "しどうしゃ",
+      "headword": "{指導者|しどうしゃ}",
+      "label": "leader or instructor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "education",
         "person"
       ]
     },
     "created": "2026-04-24T12:17:31Z",
-    "modified": "2026-04-24T12:17:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

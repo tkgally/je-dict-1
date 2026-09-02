@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {乗車|じょうしゃ} is used for getting on trains, buses, and cars. For aircraft, use ⟦{搭乗|とうじょう}→搭乗：06200_toujou⟧ instead.\n\nAS A SURU VERB: {乗車|じょうしゃ}⟦する→する：00392_suru⟧ (to board)\n\nCOMMON COLLOCATIONS:\n・⟦{乗車券|じょうしゃけん}→乗車券：05298_joushaken⟧ (train ticket, boarding ticket)\n・{乗車|じょうしゃ}⟦{位置|いち}→位置：11554_ichi⟧ (boarding position)\n・{乗車|じょうしゃ}⟦{拒否|きょひ}→拒否：08242_kyohi⟧ (refusal of boarding)\n・{乗車|じょうしゃ}⟦{時間|じかん}→時間：00468_jikan⟧ (boarding time)\n・{乗車|じょうしゃ}⟦{定員|ていいん}→定員：04532_teiin⟧ (passenger capacity)\n\nANTONYM: ⟦{降車|こうしゃ}→降車：20612_kousha⟧ (getting off, alighting)\n\nRELATED TERMS:\n・⟦{搭乗|とうじょう}→搭乗：06200_toujou⟧ - boarding (aircraft, ship)\n・⟦{下車|げしゃ}→下車：00068_gesha⟧ - alighting, getting off",
+  "notes": "USAGE: {乗車|じょうしゃ} is used for getting on trains, buses, and cars. For aircraft, use ⟦{搭乗|とうじょう}→搭乗：06200_toujou⟧ instead.\n\nAS A SURU VERB: {乗車|じょうしゃ}⟦する→する：00392_suru⟧ (to board)\n\nCOMMON COLLOCATIONS:\n- ⟦{乗車券|じょうしゃけん}→乗車券：05298_joushaken⟧ (train ticket, boarding ticket)\n- {乗車|じょうしゃ}⟦{位置|いち}→位置：11554_ichi⟧ (boarding position)\n- {乗車|じょうしゃ}⟦{拒否|きょひ}→拒否：08242_kyohi⟧ (refusal of boarding)\n- {乗車|じょうしゃ}⟦{時間|じかん}→時間：00468_jikan⟧ (boarding time)\n- {乗車|じょうしゃ}⟦{定員|ていいん}→定員：04532_teiin⟧ (passenger capacity)\n\nANTONYM: ⟦{降車|こうしゃ}→降車：20612_kousha⟧ (getting off, alighting)\n\nRELATED WORDS:\n- ⟦{搭乗|とうじょう}→搭乗：06200_toujou⟧ - boarding (aircraft, ship)\n- ⟦{下車|げしゃ}→下車：00068_gesha⟧ - alighting, getting off",
   "cross_references": [
     {
       "type": "antonym",
@@ -155,11 +155,25 @@
       "reading": "げしゃ",
       "headword": "{下車|げしゃ}",
       "label": "alighting"
+    },
+    {
+      "type": "related",
+      "target_id": "20526_joukou",
+      "reading": "じょうこう",
+      "headword": "{乗降|じょうこう}",
+      "label": "getting on and off"
+    },
+    {
+      "type": "antonym",
+      "target_id": "21396_geshasuru",
+      "reading": "げしゃする",
+      "headword": "{下車|げしゃ}する",
+      "label": "to get off (a vehicle)"
     }
   ],
   "metadata": {
     "created": "2026-01-17T04:49:53Z",
-    "modified": "2026-06-20T03:21:40Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

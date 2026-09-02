@@ -3,7 +3,7 @@
   "headword": "{忘却|ぼうきゃく}する",
   "reading": "ぼうきゃくする",
   "romaji": "boukyakusuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to forget completely; to consign to oblivion",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "A literary and formal word for forgetting. Much more elevated in register than {忘|わす}れる. Often used in philosophical, historical, or emotional contexts where the act of forgetting carries weight or significance.\n\nCOMMON COLLOCATIONS:\n- {忘却|ぼうきゃく}の{彼方|かなた}に: beyond the realm of memory; into oblivion\n- {記憶|きおく}から{忘却|ぼうきゃく}される: to be forgotten from memory\n- {歴史|れきし}の{忘却|ぼうきゃく}: the forgetting of history\n- {忘却|ぼうきゃく}{曲線|きょくせん}: forgetting curve (psychology)\n\nSIMILAR WORDS:\n- {忘|わす}れる: to forget — the standard everyday word\n- {失念|しつねん}する: to slip one's mind — polite/formal; used to apologize for forgetting\n- {風化|ふうか}する: to weather away; to fade from memory — implies gradual loss through neglect",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00474_wasureru",
+      "reading": "わすれる",
+      "headword": "{忘|わす}れる",
+      "label": "to forget"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16319_shitsunen",
+      "reading": "しつねん",
+      "headword": "{失念|しつねん}",
+      "label": "to slip one's mind"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17583_fuuka",
+      "reading": "ふうか",
+      "headword": "{風化|ふうか}",
+      "label": "to weather away"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T11:11:06Z",
-    "modified": "2026-08-06T12:46:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

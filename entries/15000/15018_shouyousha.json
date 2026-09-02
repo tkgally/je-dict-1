@@ -19,7 +19,9 @@
       "english": "Sales of commercial vehicles are growing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15018_shouyousha_ex2",
@@ -27,7 +29,9 @@
       "english": "This parking lot is for commercial vehicles only.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15018_shouyousha_ex3",
@@ -35,7 +39,9 @@
       "english": "The adoption of electric commercial vehicles is progressing in the logistics industry.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{商用車|しょうようしゃ} covers a wide range of vehicles used for business: delivery trucks, cargo vans, buses, and other non-passenger vehicles. It is commonly seen in news about the automotive industry and in parking regulations.\n\nCOMMON COLLOCATIONS:\n- {商用車|しょうようしゃ}メーカー (commercial vehicle manufacturer)\n- {商用車|しょうようしゃ}{市場|しじょう} (commercial vehicle market)\n- {小型|こがた}{商用車|しょうようしゃ} (light commercial vehicle)\n- {電気|でんき}{商用車|しょうようしゃ} (electric commercial vehicle)\n\nRELATED WORDS:\n- {乗用車|じょうようしゃ}: passenger car\n- {軽|けい}トラック: light truck (kei truck)\n- {貨物車|かもつしゃ}: freight vehicle",
@@ -46,18 +52,36 @@
       "reading": "じょうようしゃ",
       "headword": "{乗用車|じょうようしゃ}",
       "label": "passenger car"
+    },
+    {
+      "type": "related",
+      "target_id": "24767_kamotsusha",
+      "reading": "かもつしゃ",
+      "headword": "{貨物車|かもつしゃ}",
+      "label": "freight vehicle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24282_eigyousha",
+      "reading": "えいぎょうしゃ",
+      "headword": "{営業車|えいぎょうしゃ}",
+      "label": "company car"
     }
   ],
   "metadata": {
     "created": "2026-03-04T11:17:27Z",
-    "modified": "2026-05-01T05:08:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     }
   }
 }

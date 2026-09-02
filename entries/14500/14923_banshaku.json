@@ -3,7 +3,7 @@
   "id": "14923_banshaku",
   "headword": "{晩酌|ばんしゃく}",
   "reading": "ばんしゃく",
-  "part_of_speech": "noun / verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "evening drink; drinking at home in the evening",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,25 @@
     }
   ],
   "notes": "USAGE:\n{晩酌|ばんしゃく} specifically refers to drinking at home in the evening, not going out to drink. It conveys a sense of relaxation and daily routine. The word has a warm, familiar connotation and is often associated with the image of a tired worker unwinding at home.\n\nCOMMON COLLOCATIONS:\n- {晩酌|ばんしゃく}をする (to have an evening drink)\n- {晩酌|ばんしゃく}のお{供|とも} (accompaniment for one's evening drink — i.e., snacks)\n- {晩酌|ばんしゃく}を{楽|たの}しむ (to enjoy one's evening drink)\n- {晩酌|ばんしゃく}に{付|つ}き{合|あ}う (to join someone for their evening drink)\n\nSIMILAR WORDS:\n- {晩酌|ばんしゃく}: evening drink at home (routine, relaxed)\n- {飲|の}み{会|かい}: drinking party (social, at a restaurant or bar)\n- {一杯|いっぱい}やる: to have a drink (casual, can be anywhere)\n- {宅飲|たくの}み: drinking at home (modern slang, can be social)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09371_nomikai",
+      "reading": "のみかい",
+      "headword": "{飲|の}み{会|かい}",
+      "label": "drinking party"
+    },
+    {
+      "type": "related",
+      "target_id": "02464_kumu",
+      "reading": "くむ",
+      "headword": "{酌|く}む",
+      "label": "to pour (sake), to serve drinks"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T05:59:00Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

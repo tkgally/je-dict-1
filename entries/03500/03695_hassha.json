@@ -2,7 +2,7 @@
   "id": "03695_hassha",
   "headword": "{発射|はっしゃ}",
   "reading": "はっしゃ",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "firing, shooting, launch",
   "conjugation": {
     "type": "suru",
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "{発射|はっしゃ} means firing, shooting, or launching — used for projectiles, weapons, rockets, and missiles.\n\nCOMMON COLLOCATIONS:\n・{発射|はっしゃ}⟦する→する：00392_suru⟧ (to fire, to launch)\n・{発射|はっしゃ}⟦ボタン→ボタン：02963_botan⟧ (launch button)\n・{発射|はっしゃ}{台|だい} (launch pad)\n・⟦ミサイル→ミサイル：26959_misairu⟧{発射|はっしゃ} (missile launch)\n・⟦ロケット→ロケット：00353_roketto⟧{発射|はっしゃ} (rocket launch)\n・{発射|はっしゃ}{音|おん} (firing sound)\n\nHOMOPHONE:\n⟦{発車|はっしゃ}→発車：03694_hassha⟧ means departure of a vehicle (train, bus). Same pronunciation, completely different meaning — a common source of confusion for learners.\n\nRELATED:\n・⟦{打|う}ち{上|あ}げる→打ち上げる：06732_uchiageru⟧ (also used for rocket launches, less technical)\n・⟦{射撃|しゃげき}→射撃：16089_shageki⟧ (shooting, marksmanship)",
+  "notes": "{発射|はっしゃ} means firing, shooting, or launching — used for projectiles, weapons, rockets, and missiles.\n\nCOMMON COLLOCATIONS:\n- {発射|はっしゃ}⟦する→する：00392_suru⟧ (to fire, to launch)\n- {発射|はっしゃ}⟦ボタン→ボタン：02963_botan⟧ (launch button)\n- {発射|はっしゃ}{台|だい} (launch pad)\n- ⟦ミサイル→ミサイル：26959_misairu⟧{発射|はっしゃ} (missile launch)\n- ⟦ロケット→ロケット：00353_roketto⟧{発射|はっしゃ} (rocket launch)\n- {発射|はっしゃ}{音|おん} (firing sound)\n\nWATCH OUT:\n⟦{発車|はっしゃ}→発車：03694_hassha⟧ means departure of a vehicle (train, bus). Same pronunciation, completely different meaning — a common source of confusion for learners.\n\nRELATED WORDS:\n- ⟦{打|う}ち{上|あ}げる→打ち上げる：06732_uchiageru⟧ (also used for rocket launches, less technical)\n- ⟦{射撃|しゃげき}→射撃：16089_shageki⟧ (shooting, marksmanship)",
   "cross_references": [
     {
       "type": "contrast",
@@ -176,11 +176,39 @@
       "headword": "{発車|はっしゃ}",
       "label": "vehicle departure (homophone)",
       "target_id": "03694_hassha"
+    },
+    {
+      "type": "related",
+      "target_id": "06732_uchiageru",
+      "reading": "うちあげる",
+      "headword": "{打|う}ち{上|あ}げる",
+      "label": "also used for rocket launches, less…"
+    },
+    {
+      "type": "related",
+      "target_id": "16089_shageki",
+      "reading": "しゃげき",
+      "headword": "{射撃|しゃげき}",
+      "label": "shooting, marksmanship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22394_shashutsu",
+      "reading": "しゃしゅつ",
+      "headword": "{射出|しゃしゅつ}",
+      "label": "ejection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24807_chakudan",
+      "reading": "ちゃくだん",
+      "headword": "{着弾|ちゃくだん}",
+      "label": "impact of a projectile"
     }
   ],
   "metadata": {
     "created": "2026-01-12T12:24:37Z",
-    "modified": "2026-05-26T22:10:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

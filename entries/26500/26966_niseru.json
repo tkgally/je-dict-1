@@ -3,7 +3,7 @@
   "headword": "{似|に}せる",
   "reading": "にせる",
   "romaji": "niseru",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to imitate; to make to resemble; to copy",
   "definitions": [
     {
@@ -55,7 +55,29 @@
     }
   ],
   "notes": "Causative-like form derived from {似|に}る (to resemble). While {似|に}る describes a state of resemblance, {似|に}せる describes the deliberate act of making something resemble something else. The word {偽|にせ} (fake, counterfeit) is etymologically related.\n\nCOMMON COLLOCATIONS:\n- {本物|ほんもの}に{似|に}せる: to make to resemble the genuine article\n- {声|こえ}を{似|に}せる: to imitate a voice\n- {形|かたち}を{似|に}せる: to copy the shape\n- {似|に}せて{作|つく}る: to make in imitation of\n\nSIMILAR WORDS:\n- {真似|まね}する: to imitate, mimic — broader; includes imitating behavior, gestures, and speech\n- {模倣|もほう}する: to imitate, emulate — formal; used for copying styles, methods, or works\n- {似|に}る: to resemble — describes a natural or existing resemblance, not a deliberate act",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03736_mane",
+      "reading": "まね",
+      "headword": "{真似|まね}",
+      "label": "to imitate, mimic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25364_mohousuru",
+      "reading": "もほうする",
+      "headword": "{模倣|もほう}する",
+      "label": "to imitate, emulate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01159_niru",
+      "reading": "にる",
+      "headword": "{似|に}る",
+      "label": "to resemble"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -72,7 +94,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-05-06T12:18:20Z",
-    "modified": "2026-08-06T12:50:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

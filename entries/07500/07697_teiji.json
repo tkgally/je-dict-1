@@ -78,10 +78,33 @@
       "notes": null
     }
   ],
-  "notes": "ETYMOLOGY:\n{定|てい} (fixed, determined) + {時|じ} (time)\n\nWORKPLACE USAGE:\n「{定時|ていじ}で{上|あ}がる」(to leave at regular time) or 「{定時|ていじ}{退社|たいしゃ}」is the expression for leaving work without overtime.\n\nRELATED WORK TERMS:\n・{残業|ざんぎょう} - overtime work\n・{退勤|たいきん} - leaving work\n・{勤怠|きんたい} - attendance/time management\n\nCOLLOCATIONS:\n・{定時|ていじ}で{帰|かえ}る/{上|あ}がる - to leave at regular time\n・{定時|ていじ}{退社|たいしゃ} - leaving work on time\n・{定時|ていじ}に{間|ま}に{合|あ}う - to make it on time",
+  "notes": "ETYMOLOGY:\n{定|てい} (fixed, determined) + {時|じ} (time)\n\nWORKPLACE USAGE:\n「{定時|ていじ}で{上|あ}がる」(to leave at regular time) or 「{定時|ていじ}{退社|たいしゃ}」is the expression for leaving work without overtime.\n\nRELATED WORK TERMS:\n- {残業|ざんぎょう} - overtime work\n- {退勤|たいきん} - leaving work\n- {勤怠|きんたい} - attendance/time management\n\nCOMMON COLLOCATIONS:\n- {定時|ていじ}で{帰|かえ}る/{上|あ}がる - to leave at regular time\n- {定時|ていじ}{退社|たいしゃ} - leaving work on time\n- {定時|ていじ}に{間|ま}に{合|あ}う - to make it on time",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01071_zangyou",
+      "reading": "ざんぎょう",
+      "headword": "{残業|ざんぎょう}",
+      "label": "overtime work"
+    },
+    {
+      "type": "related",
+      "target_id": "04550_taikin",
+      "reading": "たいきん",
+      "headword": "{退勤|たいきん}",
+      "label": "leaving work"
+    },
+    {
+      "type": "related",
+      "target_id": "07731_kintai",
+      "reading": "きんたい",
+      "headword": "{勤怠|きんたい}",
+      "label": "attendance/time management"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -89,6 +112,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "time-general",
         "work"

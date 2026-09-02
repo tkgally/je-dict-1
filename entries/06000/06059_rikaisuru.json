@@ -2,7 +2,7 @@
   "id": "06059_rikaisuru",
   "headword": "{理解|りかい}する",
   "reading": "りかいする",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to understand, to comprehend",
   "conjugation": {
     "type": "suru",
@@ -208,18 +208,67 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{理解|りかい}する (understand X).\n\nASPECT: ⟦ている→ている：noentry⟧ indicates resulting state. {理解|りかい}している = 'understands' or 'has understood.'\n\nCOMMON PATTERNS:\n・⟦{深|ふか}く→深い：01211_fukai⟧{理解|りかい}する (deeply understand)\n・⟦{相互|そうご}→相互：04045_sougo⟧{理解|りかい} (mutual understanding)\n・{理解|りかい}⟦を→を：00422_wo⟧⟦{示|しめ}す→示す：01948_shimesu⟧ (show understanding)\n・{理解|りかい}⟦に→に：00314_ni⟧⟦{苦|くる}しむ→苦しむ：01938_kurushimu⟧ (struggle to understand)\n\nSIMILAR WORDS: ⟦{分|わ}かる→分かる：00463_wakaru⟧ is more casual and intuitive; {理解|りかい}する implies intellectual comprehension.",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{理解|りかい}する (understand X).\n\nASPECT: ⟦ている→ている：noentry⟧ indicates resulting state. {理解|りかい}している = 'understands' or 'has understood.'\n\nCOMMON PATTERNS:\n- ⟦{深|ふか}く→深い：01211_fukai⟧{理解|りかい}する (deeply understand)\n- ⟦{相互|そうご}→相互：04045_sougo⟧{理解|りかい} (mutual understanding)\n- {理解|りかい}⟦を→を：00422_wo⟧⟦{示|しめ}す→示す：01948_shimesu⟧ (show understanding)\n- {理解|りかい}⟦に→に：00314_ni⟧⟦{苦|くる}しむ→苦しむ：01938_kurushimu⟧ (struggle to understand)\n\nSIMILAR WORDS: ⟦{分|わ}かる→分かる：00463_wakaru⟧ is more casual and intuitive; {理解|りかい}する implies intellectual comprehension.",
   "cross_references": [
     {
       "type": "related",
       "reading": "わかる",
       "headword": "{分|わ}かる",
       "target_id": "00463_wakaru"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19628_haakusuru",
+      "reading": "はあくする",
+      "headword": "{把握|はあく}する",
+      "label": "to grasp"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20835_kokoroeru",
+      "reading": "こころえる",
+      "headword": "{心得|こころえ}る",
+      "label": "to understand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21992_ryoukaisuru",
+      "reading": "りょうかいする",
+      "headword": "{了解|りょうかい}する",
+      "label": "to understand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25269_kumitoru",
+      "reading": "くみとる",
+      "headword": "{汲|く}み{取|と}る",
+      "label": "to scoop up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25356_ninshikisuru",
+      "reading": "にんしきする",
+      "headword": "{認識|にんしき}する",
+      "label": "to recognize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26805_nattokusuru",
+      "reading": "なっとくする",
+      "headword": "{納得|なっとく}する",
+      "label": "to be convinced"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26837_kaishakusuru",
+      "reading": "かいしゃくする",
+      "headword": "{解釈|かいしゃく}する",
+      "label": "to interpret"
     }
   ],
   "metadata": {
     "created": "2026-01-17T02:05:10Z",
-    "modified": "2026-06-11T19:37:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

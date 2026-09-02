@@ -2,7 +2,7 @@
   "id": "07570_kamosu",
   "headword": "{醸|かも}す",
   "reading": "かもす",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to brew; to create (an atmosphere)",
   "conjugation": {
     "type": "godan",
@@ -168,7 +168,7 @@
       "notes": null
     }
   ],
-  "notes": "VERB TYPE:\n{他動詞|たどうし} (transitive verb)\n\nGodan verb ({五段動詞|ごだんどうし}) ending in す\n・{醸|かも}さない (negative)\n・{醸|かも}して (te-form)\n・{醸|かも}した (past)\n\nCOMMON COLLOCATIONS:\n・{酒|さけ}を{醸|かも}す - to brew sake\n・{物議|ぶつぎ}を{醸|かも}す - to create controversy\n・{雰囲気|ふんいき}を{醸|かも}し{出|だ}す - to create an atmosphere\n・{波紋|はもん}を{醸|かも}す - to cause ripples (figuratively)\n\nRELATED WORDS:\n・{醸造|じょうぞう} - brewing, fermentation\n・{発酵|はっこう} - fermentation\n・{味噌|みそ}を{醸|かも}す - to brew miso\n\nUSAGE NOTES:\nThe compound {醸|かも}し{出|だ}す is commonly used for sense 2, meaning to create or evoke an atmosphere or feeling.",
+  "notes": "VERB TYPE:\n{他動詞|たどうし} (transitive verb)\n\nGodan verb ({五段動詞|ごだんどうし}) ending in す\n- {醸|かも}さない (negative)\n- {醸|かも}して (te-form)\n- {醸|かも}した (past)\n\nCOMMON COLLOCATIONS:\n- {酒|さけ}を{醸|かも}す - to brew sake\n- {物議|ぶつぎ}を{醸|かも}す - to create controversy\n- {雰囲気|ふんいき}を{醸|かも}し{出|だ}す - to create an atmosphere\n- {波紋|はもん}を{醸|かも}す - to cause ripples (figuratively)\n\nRELATED WORDS:\n- {醸造|じょうぞう} - brewing, fermentation\n- {発酵|はっこう} - fermentation\n- {味噌|みそ}を{醸|かも}す - to brew miso\n\nUSAGE:\nThe compound {醸|かも}し{出|だ}す is commonly used for sense 2, meaning to create or evoke an atmosphere or feeling.",
   "cross_references": [
     {
       "type": "related",
@@ -176,11 +176,25 @@
       "reading": "じょうぞう",
       "headword": "{醸造|じょうぞう}",
       "label": "brewing; fermentation"
+    },
+    {
+      "type": "related",
+      "target_id": "13605_hakkou",
+      "reading": "はっこう",
+      "headword": "{発酵|はっこう}",
+      "label": "fermentation"
+    },
+    {
+      "type": "related",
+      "target_id": "09133_jousei",
+      "reading": "じょうせい",
+      "headword": "{醸成|じょうせい}",
+      "label": "brewing, cultivation, fostering"
     }
   ],
   "metadata": {
     "created": "2026-01-20T10:31:31Z",
-    "modified": "2026-04-19T06:26:07Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -189,6 +203,7 @@
       ],
       "transitivity": "transitive",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food",
         "creation"

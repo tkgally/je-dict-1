@@ -3,7 +3,7 @@
   "headword": "{調和|ちょうわ}する",
   "reading": "ちょうわする",
   "romaji": "chouwasuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to harmonize; to be in harmony; to blend",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Emphasizes balance and pleasing integration of different elements. Often used in aesthetic, architectural, and philosophical contexts. The noun {調和|ちょうわ} is equally common and frequently appears as a modifier.\n\nCOMMON COLLOCATIONS:\n- {調和|ちょうわ}のとれた: well-balanced; harmonious\n- {調和|ちょうわ}を{保|たも}つ: to maintain harmony\n- {調和|ちょうわ}を{乱|みだ}す: to disrupt harmony\n- {色|いろ}の{調和|ちょうわ}: color harmony\n- {自然|しぜん}との{調和|ちょうわ}: harmony with nature\n\nSIMILAR WORDS:\n- {一致|いっち}する: to match; to agree — emphasizes sameness rather than balanced blending\n- バランスが{取|と}れる: to be balanced — more casual; focuses on proportional balance\n- {融合|ゆうごう}する: to fuse; to merge — implies elements combining into one, not just coexisting pleasingly",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19648_icchisuru",
+      "reading": "いっちする",
+      "headword": "{一致|いっち}する",
+      "label": "to match"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14036_yuugou",
+      "reading": "ゆうごう",
+      "headword": "{融合|ゆうごう}",
+      "label": "to fuse"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T16:13:25Z",
-    "modified": "2026-05-05T16:13:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

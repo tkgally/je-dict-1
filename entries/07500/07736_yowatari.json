@@ -2,7 +2,7 @@
   "id": "07736_yowatari",
   "headword": "{世渡|よわた}り",
   "reading": "よわたり",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "getting through life; making one's way in the world",
   "conjugation": {
     "type": "suru",
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{世|よ} (world, society) + {渡|わた}り (crossing, getting across) - crossing through the world/society.\n\nUSAGE:\nOften used with:\n・{上手|じょうず} - good at social navigation\n・{下手|へた} - bad at social navigation\n\nCOLLOCATIONS:\n・{世渡|よわた}りが{上手|じょうず} - good at getting by\n・{世渡|よわた}りが{下手|へた} - not good at social navigation\n・{世渡|よわた}り{上手|じょうず} - socially savvy person\n\nRELATED:\n・{処世術|しょせいじゅつ} - wisdom for getting through life\n・{根回|ねまわ}し - behind-the-scenes preparation",
+  "notes": "ETYMOLOGY:\n{世|よ} (world, society) + {渡|わた}り (crossing, getting across) - crossing through the world/society.\n\nUSAGE:\nOften used with:\n- {上手|じょうず} - good at social navigation\n- {下手|へた} - bad at social navigation\n\nCOMMON COLLOCATIONS:\n- {世渡|よわた}りが{上手|じょうず} - good at getting by\n- {世渡|よわた}りが{下手|へた} - not good at social navigation\n- {世渡|よわた}り{上手|じょうず} - socially savvy person\n\nRELATED WORDS:\n- {処世術|しょせいじゅつ} - wisdom for getting through life\n- {根回|ねまわ}し - behind-the-scenes preparation",
   "cross_references": [
     {
       "type": "related",
@@ -138,11 +138,32 @@
       "headword": "{処世術|しょせいじゅつ}",
       "label": "wisdom for living",
       "target_id": "07737_shoseijutsu"
+    },
+    {
+      "type": "related",
+      "target_id": "07727_nemawashi",
+      "reading": "ねまわし",
+      "headword": "{根回|ねまわ}し",
+      "label": "behind-the-scenes preparation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22542_shosei",
+      "reading": "しょせい",
+      "headword": "{処世|しょせい}",
+      "label": "getting along in the world"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24443_seko",
+      "reading": "せこ",
+      "headword": "{世故|せこ}",
+      "label": "worldly wisdom"
     }
   ],
   "metadata": {
     "created": "2026-01-21T00:27:02Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +172,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "society",
         "daily-life"

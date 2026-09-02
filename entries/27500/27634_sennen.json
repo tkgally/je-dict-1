@@ -46,6 +46,29 @@
   ],
   "notes": "{先|せん} (previous, earlier) + {年|ねん} (year). Used more in writing and formal speech than in casual conversation.\n\nSIMILAR WORDS:\n- {去年|きょねん}: last year — specifically the year before this one\n- {一昨年|おととし}: the year before last — exactly two years ago\n- {数年前|すうねんまえ}: a few years ago — neutral, common in conversation\n- {往年|おうねん}: bygone years, days of yore — more literary, evokes nostalgia\n\nREGISTER: Sounds slightly stiff or written; in casual speech {数年前|すうねんまえ} or 'この{前|まえ}' is more natural.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00727_kyonen",
+      "reading": "きょねん",
+      "headword": "{去年|きょねん}",
+      "label": "last year"
+    },
+    {
+      "type": "related",
+      "target_id": "00751_sengetsu",
+      "reading": "せんげつ",
+      "headword": "{先月|せんげつ}",
+      "label": "last month"
+    },
+    {
+      "type": "related",
+      "target_id": "00752_senshuu",
+      "reading": "せんしゅう",
+      "headword": "{先週|せんしゅう}",
+      "label": "last week"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ],
       "domain": []
     },
     "created": "2026-05-15T04:12:19Z",
-    "modified": "2026-08-07T15:50:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

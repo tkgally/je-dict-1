@@ -17,7 +17,9 @@
       "id": "26141_kyuujosha_ex1",
       "japanese": "{救助者|きゅうじょしゃ}が{現場|げんば}に{駆|か}けつけた。",
       "english": "Rescuers rushed to the scene.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26141_kyuujosha_ex2",
       "japanese": "{救助者|きゅうじょしゃ}の{迅速|じんそく}な{対応|たいおう}のおかげで、{全員|ぜんいん}{無事|ぶじ}だった。",
       "english": "Thanks to the rescuers' swift response, everyone was safe.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,44 @@
       "id": "26141_kyuujosha_ex3",
       "japanese": "{地震|じしん}の{後|あと}、{多|おお}くの{救助者|きゅうじょしゃ}が{被災地|ひさいち}に{入|はい}り、{瓦礫|がれき}の{下|した}から{生存者|せいぞんしゃ}を{探|さが}した。",
       "english": "After the earthquake, many rescuers entered the disaster area and searched for survivors under the rubble.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {救助|きゅうじょ} (rescue) and {者|しゃ} (person). The {者|しゃ} suffix is productive in Japanese for forming agent nouns from action nouns.\n\nWhile {救助者|きゅうじょしゃ} can refer to anyone who performs a rescue, in news and official contexts it often refers to trained professionals such as firefighters, coast guard members, or disaster relief workers. For civilians who happen to rescue someone, the phrase {救助|きゅうじょ}した{人|ひと} is also common.\n\nCOMMON COLLOCATIONS:\n- {救助者|きゅうじょしゃ}が{到着|とうちゃく}する: rescuers arrive\n- {救助者|きゅうじょしゃ}を{派遣|はけん}する: to dispatch rescuers\n- {救助者|きゅうじょしゃ}の{活動|かつどう}: rescue activities\n- {救助者|きゅうじょしゃ}と{被救助者|ひきゅうじょしゃ}: rescuer and person being rescued\n\nSIMILAR WORDS:\n- {救助隊|きゅうじょたい}: rescue team — an organized group rather than an individual\n- {救急隊員|きゅうきゅうたいいん}: paramedic, EMT — specifically emergency medical responders\n- {救助|きゅうじょ}: rescue — the act itself\n- {救援者|きゅうえんしゃ}: relief worker — focuses more on aid and support than immediate rescue from danger",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23912_kyuujotai",
+      "reading": "きゅうじょたい",
+      "headword": "{救助隊|きゅうじょたい}",
+      "label": "rescue team"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22769_kyuukyuutaiin",
+      "reading": "きゅうきゅうたいいん",
+      "headword": "{救急隊員|きゅうきゅうたいいん}",
+      "label": "paramedic, EMT"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     },
     "created": "2026-04-29T14:42:49Z",
-    "modified": "2026-04-29T14:42:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

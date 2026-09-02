@@ -23,7 +23,9 @@
       "english": "This line is crowded in the morning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11341_rosen_ex2",
@@ -31,7 +33,9 @@
       "english": "I checked the route map to confirm the transfer station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11341_rosen_ex3",
@@ -39,20 +43,56 @@
       "english": "The government is taking a course that prioritizes economic growth.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
-  "notes": "{路線|ろせん} primarily refers to transportation routes, but is also used figuratively for policy direction.\n\nWORD FORMATION:\n{路|ろ} (road, path) + {線|せん} (line)\n\nCOMMON COLLOCATIONS (transportation):\n- {路線|ろせん}{図|ず}: route map\n- {路線|ろせん}バス: route bus (regular service bus)\n- {路線|ろせん}{変更|へんこう}: route change\n- {新|しん}{路線|ろせん}: new line/route\n\nCOMMON COLLOCATIONS (figurative):\n- {路線|ろせん}を{取|と}る: to take a course/direction\n- {路線|ろせん}{変更|へんこう}: change of course/policy\n- {路線|ろせん}{対立|たいりつ}: policy conflict",
+  "notes": "{路線|ろせん} primarily refers to transportation routes, but is also used figuratively for policy direction.\n\nFORMS:\n{路|ろ} (road, path) + {線|せん} (line)\n\nCOMMON COLLOCATIONS (transportation):\n- {路線|ろせん}{図|ず}: route map\n- {路線|ろせん}バス: route bus (regular service bus)\n- {路線|ろせん}{変更|へんこう}: route change\n- {新|しん}{路線|ろせん}: new line/route\n\nCOMMON COLLOCATIONS (figurative):\n- {路線|ろせん}を{取|と}る: to take a course/direction\n- {路線|ろせん}{変更|へんこう}: change of course/policy\n- {路線|ろせん}{対立|たいりつ}: policy conflict",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04041_senro",
+      "reading": "せんろ",
+      "headword": "{線路|せんろ}",
+      "label": "railway track, railroad line"
+    },
+    {
+      "type": "related",
+      "target_id": "21264_koutsuukikan",
+      "reading": "こうつうきかん",
+      "headword": "{交通機関|こうつうきかん}",
+      "label": "transportation system"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22486_honsen",
+      "reading": "ほんせん",
+      "headword": "{本線|ほんせん}",
+      "label": "main line (railway, road, etc.)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24370_shisen",
+      "reading": "しせん",
+      "headword": "{支線|しせん}",
+      "label": "branch line"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T00:41:26Z",
-    "modified": "2026-02-16T00:41:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     }
   }
 }

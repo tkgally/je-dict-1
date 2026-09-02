@@ -3,7 +3,7 @@
   "headword": "{取|と}り{寄|よ}せる",
   "reading": "とりよせる",
   "romaji": "toriyoseru",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to order; to send away for; to have something delivered",
   "definitions": [
     {
@@ -45,7 +45,15 @@
     }
   ],
   "notes": "Specifically implies ordering from a distant or special source rather than buying at a local store. Very commonly used for regional specialty foods (お{取|と}り{寄|よ}せグルメ). The honorific prefix お is frequently attached in commercial contexts.\n\nCOMMON COLLOCATIONS:\n- お{取|と}り{寄|よ}せグルメ: mail-order gourmet food\n- {産地|さんち}から{取|と}り{寄|よ}せる: order directly from the production area\n- ネットで{取|と}り{寄|よ}せる: order online for delivery\n- {取|と}り{寄|よ}せ{品|ひん}: items ordered from elsewhere\n\nSIMILAR WORDS:\n- {注文|ちゅうもん}する: to order — general ordering, including at restaurants; {取|と}り{寄|よ}せる specifically implies ordering from a distant source\n- {通販|つうはん}で{買|か}う: to buy via mail order — more neutral; {取|と}り{寄|よ}せる carries a nuance of specialty or luxury\n\nCULTURAL NOTE:\nお{取|と}り{寄|よ}せ culture is very popular in Japan, where people order famous local specialties ({名物|めいぶつ}) from other regions. Department store catalogs and online services specialize in this.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03485_chuumon",
+      "reading": "ちゅうもん",
+      "headword": "{注文|ちゅうもん}",
+      "label": "to order"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,7 +70,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-05-05T12:07:08Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

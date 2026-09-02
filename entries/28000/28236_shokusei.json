@@ -17,7 +17,9 @@
       "id": "28236_shokusei_ex1",
       "japanese": "この{地域|ちいき}の{植生|しょくせい}は{豊|ゆた}かだ。",
       "english": "The vegetation of this area is rich.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28236_shokusei_ex2",
       "japanese": "{火事|かじ}の{後|あと}、{植生|しょくせい}が{少|すこ}しずつ{回復|かいふく}した。",
       "english": "After the fire, the vegetation gradually recovered.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28236_shokusei_ex3",
       "japanese": "{標高|ひょうこう}によって、{山|やま}の{植生|しょくせい}は{大|おお}きく{変化|へんか}する。",
       "english": "The mountain's vegetation changes greatly with altitude.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A technical term referring to plant cover as a collective phenomenon, not to individual plants.\n\nCOMMON COLLOCATIONS:\n- {植生|しょくせい}{調査|ちょうさ}: vegetation survey\n- {自然|しぜん}{植生|しょくせい}: natural vegetation\n- {植生|しょくせい}が{回復|かいふく}する: vegetation recovers\n\nSIMILAR WORDS:\n- {植物|しょくぶつ}: plant(s) — refers to plants as objects or organisms, not to the overall plant cover of a region",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03248_shokubutsu",
+      "reading": "しょくぶつ",
+      "headword": "{植物|しょくぶつ}",
+      "label": "plant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24320_soumoku",
+      "reading": "そうもく",
+      "headword": "{草木|そうもく}",
+      "label": "plants"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["plant-general"],
+      "semantic": [
+        "plant-general"
+      ],
       "domain": []
     },
     "created": "2026-05-27T04:08:18Z",
-    "modified": "2026-05-27T04:08:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

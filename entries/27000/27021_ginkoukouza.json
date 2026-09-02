@@ -17,7 +17,9 @@
       "id": "27021_ginkoukouza_ex1",
       "japanese": "{銀行口座|ぎんこうこうざ}を{開|ひら}く。",
       "english": "To open a bank account.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27021_ginkoukouza_ex2",
       "japanese": "{日本|にほん}で{銀行口座|ぎんこうこうざ}を{作|つく}るには{何|なに}が{必要|ひつよう}ですか。",
       "english": "What do you need to open a bank account in Japan?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,75 @@
       "id": "27021_ginkoukouza_ex3",
       "japanese": "{給料|きゅうりょう}は{毎月|まいつき}{銀行口座|ぎんこうこうざ}に{振|ふ}り{込|こ}まれる。",
       "english": "Salary is deposited into the bank account every month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A practical compound word that learners in Japan will encounter frequently. In everyday conversation, people often shorten it to just {口座|こうざ} when the banking context is already clear.\n\nCOMMON COLLOCATIONS:\n- {銀行口座|ぎんこうこうざ}を{開設|かいせつ}する: to open a bank account (formal)\n- {銀行口座|ぎんこうこうざ}を{作|つく}る: to create a bank account\n- {銀行口座|ぎんこうこうざ}に{振|ふ}り{込|こ}む: to transfer money into a bank account\n- {銀行口座|ぎんこうこうざ}の{残高|ざんだか}: bank account balance\n- {銀行口座|ぎんこうこうざ}を{凍結|とうけつ}する: to freeze a bank account\n\nRELATED TERMS:\n- {口座番号|こうざばんごう}: account number\n- {普通預金|ふつうよきん}: ordinary savings account (the most common type)\n- {当座預金|とうざよきん}: checking account; current account\n- {定期預金|ていきよきん}: fixed-term deposit; time deposit",
+  "notes": "A practical compound word that learners in Japan will encounter frequently. In everyday conversation, people often shorten it to just {口座|こうざ} when the banking context is already clear.\n\nCOMMON COLLOCATIONS:\n- {銀行口座|ぎんこうこうざ}を{開設|かいせつ}する: to open a bank account (formal)\n- {銀行口座|ぎんこうこうざ}を{作|つく}る: to create a bank account\n- {銀行口座|ぎんこうこうざ}に{振|ふ}り{込|こ}む: to transfer money into a bank account\n- {銀行口座|ぎんこうこうざ}の{残高|ざんだか}: bank account balance\n- {銀行口座|ぎんこうこうざ}を{凍結|とうけつ}する: to freeze a bank account\n\nRELATED WORDS:\n- {口座番号|こうざばんごう}: account number\n- {普通預金|ふつうよきん}: ordinary savings account (the most common type)\n- {当座預金|とうざよきん}: checking account; current account\n- {定期預金|ていきよきん}: fixed-term deposit; time deposit",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16092_kouzabangou",
+      "reading": "こうざばんごう",
+      "headword": "{口座|こうざ}{番号|ばんごう}",
+      "label": "account number"
+    },
+    {
+      "type": "related",
+      "target_id": "23520_futsuuyokin",
+      "reading": "ふつうよきん",
+      "headword": "{普通|ふつう}{預金|よきん}",
+      "label": "ordinary savings account"
+    },
+    {
+      "type": "related",
+      "target_id": "27031_touzayokin",
+      "reading": "とうざよきん",
+      "headword": "{当座預金|とうざよきん}",
+      "label": "checking account"
+    },
+    {
+      "type": "related",
+      "target_id": "22251_teikiyokin",
+      "reading": "ていきよきん",
+      "headword": "{定期預金|ていきよきん}",
+      "label": "fixed-term deposit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24399_yokinkouza",
+      "reading": "よきんこうざ",
+      "headword": "{預金|よきん}{口座|こうざ}",
+      "label": "bank account"
+    },
+    {
+      "type": "related",
+      "target_id": "27035_kashikinko",
+      "reading": "かしきんこ",
+      "headword": "{貸金庫|かしきんこ}",
+      "label": "safe deposit box"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["money"],
-      "domain": ["business"]
+      "semantic": [
+        "money"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-05-06T14:19:46Z",
-    "modified": "2026-05-06T14:19:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

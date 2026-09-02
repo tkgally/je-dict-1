@@ -24,7 +24,9 @@
       "english": "My husband is good at cooking.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12330_danna_ex2",
@@ -32,7 +34,9 @@
       "english": "What does your husband do for work?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12330_danna_ex3",
@@ -40,7 +44,9 @@
       "english": "Sir, what would you like?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "{旦那|だんな} is an informal word for \"husband\" widely used in casual speech. It is less formal than {夫|おっと} (used in polite/official contexts) and {主人|しゅじん} (traditional, somewhat formal).\n\nFORMS:\n- {旦那|だんな}: plain (talking about one's own husband)\n- {旦那|だんな}さん: when referring to someone else's husband\n- {旦那|だんな}さま: polite/honorific (used by shop staff addressing male customers)\n\nSIMILAR WORDS:\n- {夫|おっと}: husband (neutral, used in formal speech and writing)\n- {主人|しゅじん}: husband (traditional, formal)\n- {亭主|ていしゅ}: husband (informal, sometimes humorous)",
@@ -58,18 +64,36 @@
       "reading": "しゅじん",
       "headword": "{主人|しゅじん}",
       "label": "husband (traditional)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11470_teishu",
+      "reading": "ていしゅ",
+      "headword": "{亭主|ていしゅ}",
+      "label": "husband"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06810_tsureai",
+      "reading": "つれあい",
+      "headword": "{連|つ}れ{合|あ}い",
+      "label": "spouse, partner"
     }
   ],
   "metadata": {
     "created": "2026-02-21T02:56:32Z",
-    "modified": "2026-04-26T09:20:33Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["family"]
+      "semantic": [
+        "family"
+      ]
     }
   }
 }

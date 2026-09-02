@@ -17,7 +17,9 @@
       "id": "25182_hikikaejo_ex1",
       "japanese": "チケットの{引換所|ひきかえじょ}はどこですか。",
       "english": "Where is the ticket exchange counter?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25182_hikikaejo_ex2",
       "japanese": "{景品|けいひん}の{引換所|ひきかえじょ}に{長|なが}い{列|れつ}ができていた。",
       "english": "A long line had formed at the prize redemption booth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,45 @@
       "id": "25182_hikikaejo_ex3",
       "japanese": "{空港|くうこう}の{到着|とうちゃく}ロビーにある{引換所|ひきかえじょ}で、{予約|よやく}したレンタカーの{鍵|かぎ}を{受|う}け{取|と}った。",
       "english": "I picked up the keys for the rental car I reserved at the exchange counter in the airport arrivals lobby.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {引換|ひきかえ} (exchange, redemption) and {所|じょ} (place, counter). The {所|じょ} suffix creates place nouns: {案内所|あんないじょ} (information desk), {受付所|うけつけじょ} (reception), {両替所|りょうがえじょ} (currency exchange).\n\nCOMMON COLLOCATIONS:\n- チケット{引換所|ひきかえじょ}: ticket exchange counter\n- {景品|けいひん}{引換所|ひきかえじょ}: prize redemption booth\n- {引換所|ひきかえじょ}で{受|う}け{取|と}る: to receive at the exchange counter\n- {引換所|ひきかえじょ}に{並|なら}ぶ: to line up at the exchange counter\n\nSIMILAR WORDS:\n- {受付|うけつけ}: reception desk — a more general service counter\n- {窓口|まどぐち}: service window, counter — a broader term for any service window\n- {両替所|りょうがえじょ}: currency exchange — specifically for exchanging money",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01325_uketsuke",
+      "reading": "うけつけ",
+      "headword": "{受付|うけつけ}",
+      "label": "reception desk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03154_madoguchi",
+      "reading": "まどぐち",
+      "headword": "{窓口|まどぐち}",
+      "label": "service window, counter"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["daily-life", "travel"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "daily-life",
+        "travel"
+      ]
     },
     "created": "2026-04-23T13:27:34Z",
-    "modified": "2026-04-23T13:27:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

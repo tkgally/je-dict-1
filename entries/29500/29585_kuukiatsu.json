@@ -17,7 +17,9 @@
       "id": "29585_kuukiatsu_ex1",
       "japanese": "タイヤの{空気圧|くうきあつ}を{調|しら}べる。",
       "english": "Check the tire pressure.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29585_kuukiatsu_ex2",
       "japanese": "{空気圧|くうきあつ}が{低|ひく}いと{燃費|ねんぴ}が{悪|わる}くなる。",
       "english": "Low tire pressure worsens fuel economy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "29585_kuukiatsu_ex3",
       "japanese": "{月|つき}に{一度|いちど}は{自転車|じてんしゃ}の{空気圧|くうきあつ}を{確認|かくにん}しよう。",
       "english": "Let's check the bicycle's tire pressure once a month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {空気|くうき} (air) + {圧|あつ} (pressure). In everyday use it almost always means tire pressure.\n\nCOMMON COLLOCATIONS:\n- {空気圧|くうきあつ}を{調整|ちょうせい}する: to adjust the air pressure\n- {空気圧|くうきあつ}が{足|た}りない: the pressure is too low\n- {適正|てきせい}{空気圧|くうきあつ}: the proper / recommended pressure\n\nSIMILAR WORDS:\n- {気圧|きあつ}: atmospheric pressure — pressure of the atmosphere, used in weather\n- {水圧|すいあつ}: water pressure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21749_suiatsu",
+      "reading": "すいあつ",
+      "headword": "{水圧|すいあつ}",
+      "label": "water pressure"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["transportation"],
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ],
       "domain": []
     },
     "created": "2026-06-30T09:20:35Z",
-    "modified": "2026-06-30T09:20:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

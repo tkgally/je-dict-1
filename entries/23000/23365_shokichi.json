@@ -56,6 +56,22 @@
   ],
   "notes": "Composed of {初期|しょき} (initial; early stage) + {値|ち} (value; a reading borrowed from the on'yomi of {値|ち}, used in technical vocabulary). A fundamental term in programming and system settings.\n\nTWO RELATED MEANINGS:\n1. INITIAL VALUE (programming / math): the first value a variable holds when declared or when execution begins.\n2. DEFAULT VALUE (settings / UI): the value a form field or configuration item is set to until the user changes it.\n\nIn casual Japanese tech-support contexts, these two meanings often blur — \"the number that's already there\" is simply called {初期値|しょきち}.\n\nCOMMON COLLOCATIONS:\n- {初期値|しょきち}を{設定|せってい}する: to set the initial value\n- {初期値|しょきち}に{戻|もど}す: to restore to the initial / default value\n- {初期値|しょきち}のまま: at / with the default value unchanged\n- {初期値|しょきち}を{変更|へんこう}する: to change the default value\n- {初期値|しょきち}はゼロ: the initial value is zero\n\nSIMILAR / RELATED TERMS:\n- デフォルト{値|ち}: default value — a katakana-based synonym; very common in programming and UI writing.\n- {既定値|きていち}: prescribed / default value — a somewhat more formal synonym, preferred in Microsoft and some corporate documentation.\n- {設定値|せっていち}: a set/configured value — any value a user has chosen, whether or not it is the default.\n- {開始値|かいしち}: starting value — typically used for loops and ranges (e.g., a slider's minimum value).\n- {初期化|しょきか}: initialization — the verb-like action of giving something its initial values.\n\nREGISTER:\nTechnical. Appropriate in programming documentation, software manuals, UI dialogs, engineering reports, and tech-support conversations. In general conversation, speakers would typically say {最初|さいしょ}の{値|あたい} (the first value) or use デフォルト instead.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09223_shokika",
+      "reading": "しょきか",
+      "headword": "{初期化|しょきか}",
+      "label": "initialization"
+    },
+    {
+      "type": "related",
+      "target_id": "26747_zokuseichi",
+      "reading": "ぞくせいち",
+      "headword": "{属性値|ぞくせいち}",
+      "label": "attribute value"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -74,6 +90,6 @@
       ]
     },
     "created": "2026-04-11T20:11:57Z",
-    "modified": "2026-07-27T06:23:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

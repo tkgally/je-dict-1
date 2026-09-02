@@ -18,7 +18,9 @@
       "english": "A new chairman was elected.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11610_kaichou_ex2",
@@ -26,7 +28,9 @@
       "english": "The chairman gave the opening address.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11610_kaichou_ex3",
@@ -34,10 +38,12 @@
       "english": "She served as PTA president for three years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Used for the head of associations, clubs, committees, and similar organizations — not for commercial companies, where {社長|しゃちょう} is used instead. In large corporate groups, {会長|かいちょう} may refer to the chairman of the board, a position above {社長|しゃちょう}.\n\nCOMMON COLLOCATIONS:\n・{会長|かいちょう}に{就任|しゅうにん}する — to assume the chairmanship\n・{会長|かいちょう}を{務|つと}める — to serve as chairman\n・{副|ふく}{会長|かいちょう} — vice president\n・{名誉|めいよ}{会長|かいちょう} — honorary chairman",
+  "notes": "Used for the head of associations, clubs, committees, and similar organizations — not for commercial companies, where {社長|しゃちょう} is used instead. In large corporate groups, {会長|かいちょう} may refer to the chairman of the board, a position above {社長|しゃちょう}.\n\nCOMMON COLLOCATIONS:\n- {会長|かいちょう}に{就任|しゅうにん}する — to assume the chairmanship\n- {会長|かいちょう}を{務|つと}める — to serve as chairman\n- {副|ふく}{会長|かいちょう} — vice president\n- {名誉|めいよ}{会長|かいちょう} — honorary chairman",
   "cross_references": [
     {
       "type": "contrast",
@@ -45,19 +51,38 @@
       "reading": "しゃちょう",
       "headword": "{社長|しゃちょう}",
       "label": "company president"
+    },
+    {
+      "type": "related",
+      "target_id": "19385_iinchou",
+      "reading": "いいんちょう",
+      "headword": "{委員長|いいんちょう}",
+      "label": "chairperson"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26898_rijichou",
+      "reading": "りじちょう",
+      "headword": "{理事長|りじちょう}",
+      "label": "chairperson"
     }
   ],
   "metadata": {
     "created": "2026-02-17T14:35:44Z",
-    "modified": "2026-04-25T07:03:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation", "work"]
+      "semantic": [
+        "occupation",
+        "work"
+      ]
     }
   }
 }

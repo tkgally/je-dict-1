@@ -44,7 +44,36 @@
     }
   ],
   "notes": "A compound of {和|わ} (Japanese) and {裁|さい} (cutting/sewing). Contrasted with {洋裁|ようさい} (Western-style dressmaking). Japanese sewing uses different techniques — kimono are sewn entirely by hand with straight seams, and the fabric can be taken apart and resewn.\n\nCOMMON COLLOCATIONS:\n- {和裁|わさい}を{習|なら}う: to learn Japanese sewing\n- {和裁|わさい}{教室|きょうしつ}: Japanese sewing class\n- {和裁|わさい}{士|し}: certified Japanese sewing professional\n- {和裁|わさい}の{技術|ぎじゅつ}: Japanese sewing techniques\n\nSIMILAR WORDS:\n- {洋裁|ようさい}: Western-style dressmaking — cutting and sewing Western clothing\n- {裁縫|さいほう}: sewing — general term for all sewing\n- {仕立|した}て: tailoring — making garments to order",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20802_yousai",
+      "reading": "ようさい",
+      "headword": "{洋裁|ようさい}",
+      "label": "Western-style dressmaking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04163_saihou",
+      "reading": "さいほう",
+      "headword": "{裁縫|さいほう}",
+      "label": "sewing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11645_shitate",
+      "reading": "したて",
+      "headword": "{仕立|した}て",
+      "label": "tailoring"
+    },
+    {
+      "type": "related",
+      "target_id": "26779_shitateya",
+      "reading": "したてや",
+      "headword": "{仕立屋|したてや}",
+      "label": "tailor"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +89,6 @@
       "domain": []
     },
     "created": "2026-03-30T17:17:11Z",
-    "modified": "2026-03-30T17:17:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

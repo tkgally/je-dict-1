@@ -17,7 +17,9 @@
       "id": "20097_nunoji_ex1",
       "japanese": "{布地|ぬのじ}を{選|えら}ぶ。",
       "english": "To choose a fabric.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20097_nunoji_ex2",
       "japanese": "この{布地|ぬのじ}は{手触|てざわ}りがいい。",
       "english": "This fabric feels nice to the touch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "20097_nunoji_ex3",
       "japanese": "{高級|こうきゅう}な{布地|ぬのじ}を{使|つか}って{仕立|した}てたスーツは{着心地|きごこち}が{全|まった}く{違|ちが}う。",
       "english": "A suit tailored from high-quality fabric feels completely different to wear.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers to textile material before it is made into a finished product. Composed of {布|ぬの} (cloth) + {地|じ} (base material/ground). Commonly used in sewing, fashion, and textile contexts.\n\nCOMMON COLLOCATIONS:\n- {布地|ぬのじ}を{裁|た}つ: to cut fabric\n- {布地|ぬのじ}を{選|えら}ぶ: to choose fabric\n- {綿|めん}の{布地|ぬのじ}: cotton fabric\n- {絹|きぬ}の{布地|ぬのじ}: silk fabric\n- {薄手|うすで}の{布地|ぬのじ}: thin/lightweight fabric\n\nSIMILAR WORDS:\n- {布|ぬの}: cloth — a more general and everyday word; can also refer to a finished piece of cloth\n- {生地|きじ}: fabric, material — very similar to {布地|ぬのじ}; also means dough in cooking contexts\n- {織物|おりもの}: woven fabric, textile — emphasizes the weaving process\n\nUSAGE:\n{布地|ぬのじ} specifically refers to the raw material, while {布|ぬの} is broader. In everyday speech, {生地|きじ} is often used interchangeably with {布地|ぬのじ} for fabric.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02631_kiji",
+      "reading": "きじ",
+      "headword": "{生地|きじ}",
+      "label": "fabric, material"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10583_orimono",
+      "reading": "おりもの",
+      "headword": "{織物|おりもの}",
+      "label": "woven fabric, textile"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["material"]
+      "semantic": [
+        "material"
+      ]
     },
     "created": "2026-03-28T12:53:33Z",
-    "modified": "2026-03-28T12:53:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "24214_piinattsu_ex1",
       "japanese": "ピーナッツを{食|た}べる。",
       "english": "Eat peanuts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24214_piinattsu_ex2",
       "japanese": "{塩味|しおあじ}のピーナッツが{好|す}きだ。",
       "english": "I like salted peanuts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "24214_piinattsu_ex3",
       "japanese": "この{菓子|かし}にはピーナッツが{入|はい}っているので、アレルギーの{方|かた}はご{注意|ちゅうい}ください。",
       "english": "This snack contains peanuts, so please be careful if you have allergies.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A loanword from English \"peanuts.\" In Japan, peanuts are enjoyed as bar snacks, in rice crackers, and as a key ingredient in Chiba Prefecture's famous peanut products.\n\nCOMMON COLLOCATIONS:\n- ピーナッツバター: peanut butter\n- ピーナッツオイル: peanut oil\n- {殻|から}つきピーナッツ: peanuts in the shell\n- ピーナッツアレルギー: peanut allergy\n- ピーナッツ{味噌|みそ}: peanut miso (a specialty of Chiba)\n\nSIMILAR WORDS:\n- {落花生|らっかせい}: peanut — the formal/standard Japanese word, often used for the plant or raw/unprocessed peanuts, while ピーナッツ tends to refer to the roasted snack\n- {南京豆|なんきんまめ}: peanut — an older, literary term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21198_rakkasei",
+      "reading": "らっかせい",
+      "headword": "{落花生|らっかせい}",
+      "label": "peanut"
+    },
+    {
+      "type": "related",
+      "target_id": "25069_kashuunattsu",
+      "reading": "かしゅーなっつ",
+      "headword": "カシューナッツ",
+      "label": "cashew nut"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-18T10:21:18Z",
-    "modified": "2026-04-18T10:21:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "03514_tsuushin",
   "headword": "{通信|つうしん}",
   "reading": "つうしん",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "communication, correspondence",
   "conjugation": {
     "type": "suru",
@@ -168,11 +168,33 @@
       ]
     }
   ],
-  "notes": "COMMON COMPOUND WORDS:\n・{通信|つうしん}⟦{教育|きょういく}→教育：01313_kyouiku⟧ (distance learning, correspondence education)\n・⟦{無線|むせん}→無線：09226_musen⟧{通信|つうしん} (wireless communication)\n・{通信|つうしん}⟦{販売|はんばい}→販売：03573_hanbai⟧ (mail-order sales)\n・{通信|つうしん}⟦{社|しゃ}→社：04660_sha⟧ (news agency)\n・{通信|つうしん}⟦{速度|そくど}→速度：03319_sokudo⟧ (communication speed)\n・{通信|つうしん}⟦{費|ひ}→費：noentry⟧ (communication expenses)\n\nMODERN USAGE:\n・⟦データ→データ：03944_deeta⟧{通信|つうしん} (data communication)\n・⟦{衛星|えいせい}→衛星：01880_eisei⟧{通信|つうしん} (satellite communication)",
-  "cross_references": [],
+  "notes": "COMPOUNDS:\n- {通信|つうしん}⟦{教育|きょういく}→教育：01313_kyouiku⟧ (distance learning, correspondence education)\n- ⟦{無線|むせん}→無線：09226_musen⟧{通信|つうしん} (wireless communication)\n- {通信|つうしん}⟦{販売|はんばい}→販売：03573_hanbai⟧ (mail-order sales)\n- {通信|つうしん}⟦{社|しゃ}→社：04660_sha⟧ (news agency)\n- {通信|つうしん}⟦{速度|そくど}→速度：03319_sokudo⟧ (communication speed)\n- {通信|つうしん}⟦{費|ひ}→費：noentry⟧ (communication expenses)\n\nMODERN USAGE:\n- ⟦データ→データ：03944_deeta⟧{通信|つうしん} (data communication)\n- ⟦{衛星|えいせい}→衛星：01880_eisei⟧{通信|つうしん} (satellite communication)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20101_koushin",
+      "reading": "こうしん",
+      "headword": "{交信|こうしん}",
+      "label": "communication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21718_buntsuu",
+      "reading": "ぶんつう",
+      "headword": "{文通|ぶんつう}",
+      "label": "correspondence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25909_densou",
+      "reading": "でんそう",
+      "headword": "{伝送|でんそう}",
+      "label": "transmission"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T09:28:00Z",
-    "modified": "2026-05-25T23:13:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

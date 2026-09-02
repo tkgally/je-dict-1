@@ -3,7 +3,7 @@
   "headword": "ひやっと",
   "reading": "ひやっと",
   "romaji": "hiyatto",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "with a sudden cold sensation; with a startling chill",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Mimetic word (擬態語) for a sudden cold sensation or startled feeling. Used with する to form a predicate: ひやっとする.\n\nCOMMON COLLOCATIONS:\n- ひやっとする: to feel a sudden chill; to get a start (figurative)\n- ひやっとした{感触|かんしょく}: a sudden cold touch\n- ひやっとした{空気|くうき}: chilly air\n- ひやっとする{思|おも}いをする: to have a frightening near-miss experience\n\nNOTE: The figurative use (a chill of fear or near-miss) is very common: ひやっとした (I was startled, I had a close call).\n\nSIMILAR WORDS:\n- すーすー: cool, airy sensation — a sustained gentle coolness rather than a sudden chill\n- ひんやり: pleasantly cool — typically not unpleasant\n- ぞっと: with a shudder — used for horror or disgust rather than cold",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29047_suusuu",
+      "reading": "すーすー",
+      "headword": "すーすー",
+      "label": "cool, airy sensation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05836_hinyari",
+      "reading": "ひんやり",
+      "headword": "ひんやり",
+      "label": "pleasantly cool"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05272_zotto",
+      "reading": "ぞっと",
+      "headword": "ぞっと",
+      "label": "with a shudder"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,13 +77,13 @@
         "onomatopoeia"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "descriptive"
       ],
       "domain": []
     },
     "created": "2026-06-09T17:37:19Z",
-    "modified": "2026-08-09T06:33:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

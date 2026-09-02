@@ -46,6 +46,22 @@
   ],
   "notes": "Compound of {変更|へんこう} (change) + {線|せん} (line). The standalone word is uncommon; the standard term is {日付|ひづけ}{変更線|へんこうせん} (date-change line).\n\nCOMMON COLLOCATIONS:\n- {日付|ひづけ}{変更線|へんこうせん}: International Date Line (full term)\n- {変更線|へんこうせん}を{越|こ}える: to cross the date line\n- {変更線|へんこうせん}を{通過|つうか}する: to pass over the date line\n\nSIMILAR WORDS:\n- {経度|けいど}: longitude — the angular measure, not the dateline itself\n- {時差|じさ}: time difference — between time zones, related but distinct concept",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00209_keido",
+      "reading": "けいど",
+      "headword": "{経度|けいど}",
+      "label": "longitude"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03075_jisa",
+      "reading": "じさ",
+      "headword": "{時差|じさ}",
+      "label": "time difference"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "geography"
       ],
       "domain": []
     },
     "created": "2026-05-29T02:13:12Z",
-    "modified": "2026-05-29T02:13:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

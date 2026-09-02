@@ -17,7 +17,9 @@
       "id": "25639_haishafukkatsusen_ex1",
       "japanese": "{敗者復活戦|はいしゃふっかつせん}で{勝|か}ち{上|あ}がった。",
       "english": "I advanced through the repechage round.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25639_haishafukkatsusen_ex2",
       "japanese": "この{大会|たいかい}には{敗者復活戦|はいしゃふっかつせん}があるので、{一度|いちど}{負|ま}けてもチャンスがある。",
       "english": "This tournament has a consolation round, so there's still a chance even after losing once.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,51 @@
       "id": "25639_haishafukkatsusen_ex3",
       "japanese": "{一回戦|いっかいせん}で{敗退|はいたい}したが、{敗者復活戦|はいしゃふっかつせん}から{這|は}い{上|あ}がって{決勝|けっしょう}まで{進|すす}んだ。",
       "english": "I was eliminated in the first round, but fought my way back through the repechage to reach the final.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {敗者|はいしゃ} (loser, defeated person), {復活|ふっかつ} (revival, comeback), and {戦|せん} (match, battle). This format is common in Japanese sports tournaments ({柔道|じゅうどう}, {相撲|すもう}, etc.), TV talent competitions, and quiz shows.\n\nThe concept is equivalent to a repechage in Western sports terminology, particularly in rowing and martial arts at the Olympics.\n\nCOMMON COLLOCATIONS:\n- {敗者復活戦|はいしゃふっかつせん}に{回|まわ}る: to drop to the repechage bracket\n- {敗者復活戦|はいしゃふっかつせん}から{勝|か}ち{上|あ}がる: to win back from the losers' bracket\n- {敗者復活戦|はいしゃふっかつせん}{出場|しゅつじょう}: appearing in the consolation round\n\nSIMILAR WORDS:\n- {予選|よせん}: preliminary round — the initial qualifying stage, before the main competition\n- {決勝戦|けっしょうせん}: final match — the championship round\n- {準決勝|じゅんけっしょう}: semifinal — the round before the final",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04745_yosen",
+      "reading": "よせん",
+      "headword": "{予選|よせん}",
+      "label": "preliminary round"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09244_kesshousen",
+      "reading": "けっしょうせん",
+      "headword": "{決勝戦|けっしょうせん}",
+      "label": "final match"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04911_junkesshou",
+      "reading": "じゅんけっしょう",
+      "headword": "{準決勝|じゅんけっしょう}",
+      "label": "semifinal"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["sports"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ]
     },
     "created": "2026-04-26T13:25:43Z",
-    "modified": "2026-04-26T13:25:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

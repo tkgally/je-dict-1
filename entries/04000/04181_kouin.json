@@ -43,10 +43,40 @@
       ]
     }
   ],
-  "notes": "SIMILAR WORDS:\n・⟦{労働者|ろうどうしゃ}→労働者：23971_roudousha⟧ - worker, laborer (broader term)\n・⟦{従業員|じゅうぎょういん}→従業員：10018_juugyouin⟧ - employee (general, any type of business)\n・⟦{作業員|さぎょういん}→作業員：24136_sagyouin⟧ - worker, operative (various types of manual work)\n\nCOMMON COLLOCATIONS:\n・⟦{工場|こうじょう}→工場：01082_koujou⟧{工員|こういん} (factory worker)\n・⟦{熟練|じゅくれん}→熟練：09081_jukuren⟧{工員|こういん} (skilled worker)\n\nNOTE: The term is somewhat dated and ⟦{従業員|じゅうぎょういん}→従業員：10018_juugyouin⟧ or ⟦{作業員|さぎょういん}→作業員：24136_sagyouin⟧ may be preferred in modern usage.",
+  "notes": "SIMILAR WORDS:\n- ⟦{労働者|ろうどうしゃ}→労働者：23971_roudousha⟧ - worker, laborer (broader term)\n- ⟦{従業員|じゅうぎょういん}→従業員：10018_juugyouin⟧ - employee (general, any type of business)\n- ⟦{作業員|さぎょういん}→作業員：24136_sagyouin⟧ - worker, operative (various types of manual work)\n\nCOMMON COLLOCATIONS:\n- ⟦{工場|こうじょう}→工場：01082_koujou⟧{工員|こういん} (factory worker)\n- ⟦{熟練|じゅくれん}→熟練：09081_jukuren⟧{工員|こういん} (skilled worker)\n\nNOTE: The term is somewhat dated and ⟦{従業員|じゅうぎょういん}→従業員：10018_juugyouin⟧ or ⟦{作業員|さぎょういん}→作業員：24136_sagyouin⟧ may be preferred in modern usage.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23971_roudousha",
+      "reading": "ろうどうしゃ",
+      "headword": "{労働者|ろうどうしゃ}",
+      "label": "worker, laborer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10018_juugyouin",
+      "reading": "じゅうぎょういん",
+      "headword": "{従業員|じゅうぎょういん}",
+      "label": "employee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24136_sagyouin",
+      "reading": "さぎょういん",
+      "headword": "{作業員|さぎょういん}",
+      "label": "worker, operative"
+    },
+    {
+      "type": "homophone",
+      "target_id": "23489_kouin",
+      "reading": "こういん",
+      "headword": "{行員|こういん}",
+      "label": "bank employee"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T13:58:45Z",
-    "modified": "2026-06-10T17:34:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

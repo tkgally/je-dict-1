@@ -3,7 +3,7 @@
   "headword": "しおしお",
   "reading": "しおしお",
   "romaji": "shioshio",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "dejectedly; droopingly; in a wilted manner",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "An onomatopoeic (mimetic) word that evokes the image of something wilting or drooping. Can describe both physical wilting (plants, vegetables losing freshness) and emotional dejection (people looking dispirited or crestfallen). Often used with the particle と as しおしおと.\n\nCOMMON COLLOCATIONS:\n- しおしおと{歩|ある}く: to walk dejectedly\n- しおしおと{帰|かえ}る: to go home with one's tail between one's legs\n- しおしおに{萎|しお}れる: to wilt completely\n- しおしおになる: to become wilted/dejected\n\nSIMILAR WORDS:\n- しょんぼり: dejectedly; gloomily — similar dejection but focuses more on sadness and loneliness\n- ぐったり: limply; exhaustedly — focuses on physical exhaustion and loss of energy\n- しなしな: limply; floppily — describes something that has lost its stiffness or firmness",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05834_shonbori",
+      "reading": "しょんぼり",
+      "headword": "しょんぼり",
+      "label": "dejectedly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05835_guttari",
+      "reading": "ぐったり",
+      "headword": "ぐったり",
+      "label": "limply"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,11 +69,13 @@
         "adverb",
         "onomatopoeia"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ]
     },
     "created": "2026-04-23T11:29:00Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

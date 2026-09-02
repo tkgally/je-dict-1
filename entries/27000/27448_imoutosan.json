@@ -17,7 +17,9 @@
       "id": "27448_imoutosan_ex1",
       "japanese": "{妹|いもうと}さんはお{元気|げんき}ですか。",
       "english": "Is your younger sister well?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27448_imoutosan_ex2",
       "japanese": "{妹|いもうと}さんは{今|いま}、{大学生|だいがくせい}ですか。",
       "english": "Is your younger sister a university student now?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "27448_imoutosan_ex3",
       "japanese": "{妹|いもうと}さんが{結婚|けっこん}されると{聞|き}いて、とても{嬉|うれ}しく{思|おも}いました。",
       "english": "I was very glad to hear that your younger sister is getting married.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Polite reference form for someone else's younger sister — {妹|いもうと} + the honorific suffix さん. Do not use for one's own younger sister when speaking to outsiders.\n\nUSAGE:\n- Used when talking about the listener's or a third party's younger sister\n- For one's own younger sister (to outsiders): {妹|いもうと}\n- Within the family, older siblings call a younger sister by name, not by {妹|いもうと}さん\n\nCOMMON COLLOCATIONS:\n- {妹|いもうと}さんはおいくつですか: How old is your younger sister?\n- {妹|いもうと}さんによろしく: Say hi to your younger sister\n- {妹|いもうと}さんとよく{似|に}ている: looks a lot like your younger sister\n\nRELATED WORDS:\n- {妹|いもうと}: one's own younger sister (humble; for outsiders)\n- お{姉|ねえ}さん: older sister (polite)\n- {弟|おとうと}さん: someone else's younger brother (parallel form)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02859_oneesan",
+      "reading": "おねえさん",
+      "headword": "お{姉|ねえ}さん",
+      "label": "older sister"
+    },
+    {
+      "type": "related",
+      "target_id": "27447_otoutosan",
+      "reading": "おとうとさん",
+      "headword": "{弟|おとうと}さん",
+      "label": "someone else's younger brother"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "polite",
-      "semantic": ["family"],
+      "semantic": [
+        "family"
+      ],
       "domain": []
     },
     "created": "2026-05-12T03:04:54Z",
-    "modified": "2026-05-12T03:04:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

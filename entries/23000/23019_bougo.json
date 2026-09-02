@@ -3,7 +3,7 @@
   "headword": "{防護|ぼうご}",
   "reading": "ぼうご",
   "romaji": "bougo",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "protection; defense; guarding",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Emphasizes shielding or guarding against specific threats — radiation, chemicals, impact, etc. More technical and concrete than {防御|ぼうぎょ}, which focuses on actively defending against an attack.\n\nCOMMON COLLOCATIONS:\n- {防護|ぼうご}スーツ: protective suit\n- {防護|ぼうご}マスク: protective mask\n- {防護|ぼうご}メガネ: protective goggles\n- {防護|ぼうご}{服|ふく}: protective clothing\n- {防護|ぼうご}{柵|さく}: protective fence/barrier\n- {放射線|ほうしゃせん}{防護|ぼうご}: radiation protection\n\nSIMILAR WORDS:\n- {防御|ぼうぎょ}: defense — emphasizes actively repelling an attack, common in military and sports contexts\n- {保護|ほご}: protection — broader term for safeguarding people, rights, or the environment\n- {防衛|ぼうえい}: defense — used for national defense or self-defense on a large scale",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14575_bougyo",
+      "reading": "ぼうぎょ",
+      "headword": "{防御|ぼうぎょ}",
+      "label": "defense"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03625_hogo",
+      "reading": "ほご",
+      "headword": "{保護|ほご}",
+      "label": "protection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09783_bouei",
+      "reading": "ぼうえい",
+      "headword": "{防衛|ぼうえい}",
+      "label": "defense"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -55,11 +78,14 @@
       ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action", "health"],
+      "semantic": [
+        "action",
+        "health"
+      ],
       "verb_class": "suru"
     },
     "created": "2026-04-08T16:21:06Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -19,7 +19,9 @@
       "english": "Judging by the way he talks, he seems to be in favor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15424_kuchiburi_ex2",
@@ -27,7 +29,9 @@
       "english": "From the way you're talking, you already knew, didn't you?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15424_kuchiburi_ex3",
@@ -35,21 +39,63 @@
       "english": "Judging from the way my boss was talking, this project is likely to be cancelled.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{口|くち}ぶり is used when inferring someone's thoughts, intentions, or feelings from the way they speak. Often appears with から{判断|はんだん}すると (judging from) or では (based on). Also written as {口振|くちぶ}り.\n\nCOMMON COLLOCATIONS:\n- {口|くち}ぶりから{察|さっ}する (to infer from someone's tone)\n- その{口|くち}ぶりでは (from the way you talk)\n- {偉|えら}そうな{口|くち}ぶり (a pompous manner of speaking)\n\nRELATED WORDS:\n- {話|はな}し{方|かた}: way of speaking\n- {口調|くちょう}: tone of voice\n- {言|い}い{方|かた}: way of saying something",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15767_hanashikata",
+      "reading": "はなしかた",
+      "headword": "{話|はな}し{方|かた}",
+      "label": "way of speaking"
+    },
+    {
+      "type": "related",
+      "target_id": "11803_kuchou",
+      "reading": "くちょう",
+      "headword": "{口調|くちょう}",
+      "label": "tone of voice"
+    },
+    {
+      "type": "related",
+      "target_id": "14165_iikata",
+      "reading": "いいかた",
+      "headword": "{言|い}い{方|かた}",
+      "label": "way of saying something"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20735_hanashiburi",
+      "reading": "はなしぶり",
+      "headword": "{話|はな}しぶり",
+      "label": "way of speaking"
+    },
+    {
+      "type": "related",
+      "target_id": "24051_kakiburi",
+      "reading": "かきぶり",
+      "headword": "{書|か}きぶり",
+      "label": "writing style, manner of writing"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T13:46:37Z",
-    "modified": "2026-03-06T13:46:37Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"],
+      "semantic": [
+        "communication"
+      ],
       "domain": []
     }
   }

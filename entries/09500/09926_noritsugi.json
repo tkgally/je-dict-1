@@ -18,7 +18,9 @@
       "english": "There's a transfer in Singapore.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09926_noritsugi_ex2",
@@ -26,7 +28,9 @@
       "english": "The layover time is two hours.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09926_noritsugi_ex3",
@@ -34,10 +38,12 @@
       "english": "I missed my connection and had to wait for the next flight.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Used for both air travel (connecting flights) and ground transportation (transferring trains or buses).\n\nCOMMON COLLOCATIONS:\n- {乗|の}り{継|つ}ぎ{便|びん} (connecting flight)\n- {乗|の}り{継|つ}ぎ{時間|じかん} (layover/transfer time)\n- {乗|の}り{継|つ}ぎ{客|きゃく} (transit passenger)\n- {乗|の}り{継|つ}ぎをする (to make a transfer)\n\nRELATED TERMS:\n- {乗|の}り{換|か}え: changing trains (often used for trains within a city)\n- {直行便|ちょっこうびん}: direct flight\n- {経由|けいゆ}: via, by way of",
+  "notes": "Used for both air travel (connecting flights) and ground transportation (transferring trains or buses).\n\nCOMMON COLLOCATIONS:\n- {乗|の}り{継|つ}ぎ{便|びん} (connecting flight)\n- {乗|の}り{継|つ}ぎ{時間|じかん} (layover/transfer time)\n- {乗|の}り{継|つ}ぎ{客|きゃく} (transit passenger)\n- {乗|の}り{継|つ}ぎをする (to make a transfer)\n\nRELATED WORDS:\n- {乗|の}り{換|か}え: changing trains (often used for trains within a city)\n- {直行便|ちょっこうびん}: direct flight\n- {経由|けいゆ}: via, by way of",
   "prominent_see_also": [
     {
       "target_id": "10128_noritsugu",
@@ -53,18 +59,44 @@
       "reading": "のりかえ",
       "headword": "{乗|の}り{換|か}え",
       "label": "transfer (within city)"
+    },
+    {
+      "type": "related",
+      "target_id": "10098_chokkoubin",
+      "reading": "ちょっこうびん",
+      "headword": "{直行便|ちょっこうびん}",
+      "label": "direct flight"
+    },
+    {
+      "type": "related",
+      "target_id": "02791_keiyu",
+      "reading": "けいゆ",
+      "headword": "{経由|けいゆ}",
+      "label": "via, by way of"
+    },
+    {
+      "type": "related",
+      "target_id": "10099_keiyubin",
+      "reading": "けいゆびん",
+      "headword": "{経由便|けいゆびん}",
+      "label": "connecting flight, flight with layover"
     }
   ],
   "metadata": {
     "created": "2026-02-04T06:17:12Z",
-    "modified": "2026-04-23T08:17:03Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["travel", "transportation"]
+      "semantic": [
+        "travel",
+        "transportation"
+      ]
     }
   }
 }

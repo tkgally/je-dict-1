@@ -17,7 +17,9 @@
       "id": "28841_kisetsusei_ex1",
       "japanese": "{季節性|きせつせい}インフルエンザが{流行|りゅうこう}している。",
       "english": "Seasonal flu is going around.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28841_kisetsusei_ex2",
       "japanese": "この{商品|しょうひん}は{季節性|きせつせい}が{高|たか}い。",
       "english": "This product has strong seasonality.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "28841_kisetsusei_ex3",
       "japanese": "{売上|うりあげ}の{季節性|きせつせい}を{考慮|こうりょ}して{在庫|ざいこ}を{調整|ちょうせい}する。",
       "english": "We adjust inventory taking into account the seasonality of sales.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {季節|きせつ} (season) + {性|せい} (nature, property — abstract noun suffix). Used both as an attributive noun ({季節性|きせつせい}インフルエンザ = seasonal flu) and predicatively to describe how strongly something varies with the seasons.\n\nCOMMON COLLOCATIONS:\n- {季節性|きせつせい}インフルエンザ: seasonal flu\n- {季節性|きせつせい}アレルギー: seasonal allergy\n- {季節性|きせつせい}{商品|しょうひん}: seasonal product\n- {季節性|きせつせい}{需要|じゅよう}: seasonal demand\n- {季節性|きせつせい}が{高|たか}い／{低|ひく}い: highly／weakly seasonal\n\nSIMILAR WORDS:\n- {季節|きせつ}: season — the noun itself\n- {旬|しゅん}: peak season (for food) — narrower, about the best time to eat something",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12716_shun",
+      "reading": "しゅん",
+      "headword": "{旬|しゅん}",
+      "label": "peak season"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-06-06T03:06:54Z",
-    "modified": "2026-06-06T03:06:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

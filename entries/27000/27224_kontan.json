@@ -17,7 +17,9 @@
       "id": "27224_kontan_ex1",
       "japanese": "いったい{何|なに}の{魂胆|こんたん}があるんだ。",
       "english": "What on earth is your scheme?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27224_kontan_ex2",
       "japanese": "{彼|かれ}の{魂胆|こんたん}は{見|み}え{透|す}いている。",
       "english": "His motives are completely transparent.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,59 @@
       "id": "27224_kontan_ex3",
       "japanese": "{安|やす}く{買|か}い{叩|たた}いて{高|たか}く{売|う}るという{魂胆|こんたん}だろう。",
       "english": "Their scheme is probably to buy low and sell high.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Always carries a negative nuance — the hidden plan is assumed to be selfish, dishonest, or underhanded. Originally composed of {魂|こん} (soul) + {胆|たん} (gall/liver), referring to the innermost thoughts and intentions. In modern usage, it focuses entirely on scheming rather than its original meaning of inner spirit.\n\nCOMMON COLLOCATIONS:\n- {魂胆|こんたん}が{見|み}え{透|す}いている: the motives are see-through/obvious\n- {何|なに}の{魂胆|こんたん}: what kind of scheme/ulterior motive\n- {魂胆|こんたん}を{見抜|みぬ}く: to see through someone's scheme\n- {裏|うら}の{魂胆|こんたん}: hidden agenda behind the scenes\n\nSIMILAR WORDS:\n- {下心|したごころ}: ulterior motive — often implies romantic/sexual interest; more personal and emotional than {魂胆|こんたん}\n- {企|たくら}み: scheme; plot — similar but slightly more literary\n- {思惑|おもわく}: calculation; hidden motive — can be used neutrally in business contexts; less inherently negative\n- {陰謀|いんぼう}: conspiracy — larger scale and more serious than {魂胆|こんたん}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27220_shitagokoro",
+      "reading": "したごころ",
+      "headword": "{下心|したごころ}",
+      "label": "ulterior motive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20805_takurami",
+      "reading": "たくらみ",
+      "headword": "{企|たくら}み",
+      "label": "scheme"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12574_omowaku",
+      "reading": "おもわく",
+      "headword": "{思惑|おもわく}",
+      "label": "calculation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10887_inbou",
+      "reading": "いんぼう",
+      "headword": "{陰謀|いんぼう}",
+      "label": "conspiracy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["personality"],
+      "semantic": [
+        "personality"
+      ],
       "domain": []
     },
     "created": "2026-05-07T16:22:12Z",
-    "modified": "2026-05-07T16:22:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{加水|かすい}",
   "reading": "かすい",
   "romaji": "kasui",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "adding water; hydration",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "A compound of {加|か} (add) and {水|すい} (water). This word is used in several specialized contexts. In ramen culture, {加水|かすい}{率|りつ} (hydration rate) is a key specification that determines noodle texture — higher hydration produces softer, chewier noodles, while lower hydration yields firmer, drier noodles.\n\nIn chemistry, {加水|かすい} appears in the important compound {加水|かすい}{分解|ぶんかい} (hydrolysis), meaning the chemical breakdown of a compound through reaction with water.\n\nCOMMON COLLOCATIONS:\n- {加水|かすい}{率|りつ}: hydration rate (especially for noodles)\n- {加水|かすい}{分解|ぶんかい}: hydrolysis\n- {加水|かすい}{量|りょう}: amount of water added\n- {加水|かすい}する: to add water\n\nSIMILAR WORDS:\n- {注水|ちゅうすい}: pouring water, water injection — emphasizes the physical act of pouring or injecting water\n- {希釈|きしゃく}: dilution — more technical term used in chemistry and pharmacy",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24925_chuusui",
+      "reading": "ちゅうすい",
+      "headword": "{注水|ちゅうすい}",
+      "label": "pouring water, water injection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18672_kishaku",
+      "reading": "きしゃく",
+      "headword": "{希釈|きしゃく}",
+      "label": "dilution"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +69,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food",
         "science"
@@ -60,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-21T13:10:46Z",
-    "modified": "2026-04-21T13:10:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

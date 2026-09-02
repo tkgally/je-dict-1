@@ -19,7 +19,9 @@
       "english": "Flood damage occurred due to heavy rain.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13261_suigai_ex2",
@@ -27,7 +29,9 @@
       "english": "This area suffers from flood damage every year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13261_suigai_ex3",
@@ -35,7 +39,9 @@
       "english": "River embankments were improved to prevent flood damage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{水害|すいがい} specifically refers to damage caused by water from natural events like floods, typhoons, and heavy rains. Compare with {洪水|こうずい} (flood), which refers to the flooding event itself, and {浸水|しんすい} (inundation), which describes the state of being submerged in water. Japan experiences frequent {水害|すいがい} during the rainy season ({梅雨|つゆ}) and typhoon season.\n\nCOMMON COLLOCATIONS:\n- {水害|すいがい}が{発生|はっせい}する: flood damage occurs\n- {水害|すいがい}を{防|ふせ}ぐ: to prevent flood damage\n- {水害|すいがい}に{遭|あ}う: to suffer flood damage\n- {水害|すいがい}{対策|たいさく}: flood damage countermeasures\n- {水害|すいがい}{保険|ほけん}: flood insurance",
@@ -53,18 +59,43 @@
       "reading": "さいがい",
       "headword": "{災害|さいがい}",
       "label": "disaster"
+    },
+    {
+      "type": "related",
+      "target_id": "23614_yukashitashinsui",
+      "reading": "ゆかしたしんすい",
+      "headword": "{床下浸水|ゆかしたしんすい}",
+      "label": "below-floor flooding"
+    },
+    {
+      "type": "related",
+      "target_id": "23615_yukaueshinsui",
+      "reading": "ゆかうえしんすい",
+      "headword": "{床上浸水|ゆかうえしんすい}",
+      "label": "above-floor flooding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24429_setsugai",
+      "reading": "せつがい",
+      "headword": "{雪害|せつがい}",
+      "label": "snow damage"
     }
   ],
   "metadata": {
     "created": "2026-02-24T07:28:06Z",
-    "modified": "2026-04-28T08:04:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     }
   }
 }

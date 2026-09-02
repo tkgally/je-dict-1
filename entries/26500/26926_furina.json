@@ -3,7 +3,7 @@
   "headword": "{不利|ふり}な",
   "reading": "ふりな",
   "romaji": "furina",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "disadvantageous; unfavorable; adverse",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "The opposite of {有利|ゆうり}な (advantageous). Commonly used in legal, business, competitive, and strategic contexts. The noun form {不利|ふり} can stand alone as a predicate: Xに{不利|ふり}だ (is disadvantageous to X).\n\nCOMMON COLLOCATIONS:\n- {不利|ふり}な{条件|じょうけん}: unfavorable conditions\n- {不利|ふり}な{立場|たちば}: disadvantageous position\n- {不利|ふり}な{状況|じょうきょう}: unfavorable situation\n- {不利|ふり}な{証拠|しょうこ}: damaging evidence\n- {不利|ふり}に{働|はたら}く: to work against (someone)\n\nSIMILAR WORDS:\n- {有利|ゆうり}な: advantageous — the direct opposite\n- {不都合|ふつごう}な: inconvenient; unfavorable — emphasizes being problematic or troublesome\n- マイナスの: negative — more casual; often used for impact or effect",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "03651_yuuri",
+      "reading": "ゆうり",
+      "headword": "{有利|ゆうり}",
+      "label": "advantageous"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19876_futsugou",
+      "reading": "ふつごう",
+      "headword": "{不都合|ふつごう}",
+      "label": "inconvenient"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,6 +77,6 @@
       "domain": []
     },
     "created": "2026-05-05T16:16:32Z",
-    "modified": "2026-05-05T16:16:32Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

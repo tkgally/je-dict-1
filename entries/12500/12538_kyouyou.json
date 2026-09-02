@@ -3,7 +3,7 @@
   "id": "12538_kyouyou",
   "headword": "{強要|きょうよう}",
   "reading": "きょうよう",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "coercion, compulsion, demand",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,25 @@
     }
   ],
   "notes": "USAGE:\nCarries a negative connotation. The person being forced is typically the object marked with に, and the action being forced is marked with を ({人|ひと}に〜を{強要|きょうよう}する). In legal and workplace contexts, {強要|きょうよう} can describe behavior that constitutes harassment or even a criminal offense ({強要罪|きょうようざい}).\n\nCOMMON COLLOCATIONS:\n- {強要|きょうよう}{罪|ざい}: crime of coercion (Criminal Code)\n- {服従|ふくじゅう}を{強要|きょうよう}する: to demand obedience\n- {署名|しょめい}を{強要|きょうよう}する: to coerce a signature",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12500_kyousei",
+      "reading": "きょうせい",
+      "headword": "{強制|きょうせい}",
+      "label": "compulsion, coercion, enforcement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21959_murijii",
+      "reading": "むりじい",
+      "headword": "{無理強|むりじ}い",
+      "label": "forcing"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T12:01:28Z",
-    "modified": "2026-07-06T12:49:19Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

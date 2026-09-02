@@ -17,7 +17,9 @@
       "id": "28547_kyoushinshou_ex1",
       "japanese": "{父|ちち}は{狭心症|きょうしんしょう}を{患|わずら}っている。",
       "english": "My father has angina.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28547_kyoushinshou_ex2",
       "japanese": "{階段|かいだん}を{上|のぼ}ると{狭心症|きょうしんしょう}の{発作|ほっさ}が{起|お}きる。",
       "english": "Going up stairs brings on an angina attack.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,40 @@
       "id": "28547_kyoushinshou_ex3",
       "japanese": "{狭心症|きょうしんしょう}は{放置|ほうち}しておくと{心筋梗塞|しんきんこうそく}に{進行|しんこう}する{危険|きけん}がある。",
       "english": "If left untreated, angina carries a risk of progressing to a heart attack.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {狭|きょう} (narrow) + {心|しん} (heart) + {症|しょう} (illness, condition). Refers to the symptom complex caused by narrowed coronary arteries.\n\nCOMMON COLLOCATIONS:\n- {狭心症|きょうしんしょう}の{発作|ほっさ}: angina attack\n- {狭心症|きょうしんしょう}を{患|わずら}う: to suffer from angina\n- {狭心症|きょうしんしょう}の{治療|ちりょう}: treatment for angina\n\nSIMILAR WORDS:\n- {心筋梗塞|しんきんこうそく}: myocardial infarction; heart attack — when a coronary artery is completely blocked; more severe than {狭心症|きょうしんしょう}\n- {心臓発作|しんぞうほっさ}: heart attack (colloquial) — non-medical umbrella term covering both",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20487_shinkinkousoku",
+      "reading": "しんきんこうそく",
+      "headword": "{心筋梗塞|しんきんこうそく}",
+      "label": "myocardial infarction"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["health"],
-      "domain": ["medical"]
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-06-01T04:07:37Z",
-    "modified": "2026-06-01T04:07:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

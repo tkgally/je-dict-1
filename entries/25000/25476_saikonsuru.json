@@ -3,7 +3,7 @@
   "headword": "{再婚|さいこん}する",
   "reading": "さいこんする",
   "romaji": "saikonsuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to remarry",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A compound of {再|さい} (again; re-) and {婚|こん} (marriage). The noun form {再婚|さいこん} is equally common. In Japan, remarriage has become increasingly common and socially accepted, though it still carries some social considerations, especially when children from previous marriages are involved ({連|つ}れ{子|こ}).\n\nCOMMON COLLOCATIONS:\n- {再婚|さいこん}{相手|あいて}: remarriage partner\n- {再婚|さいこん}{家庭|かてい}: remarried family; blended family\n- {再婚|さいこん}を{考|かんが}える: to consider remarrying\n- バツイチで{再婚|さいこん}: to remarry after one divorce\n\nSIMILAR WORDS:\n- {結婚|けっこん}する: to marry — first or subsequent marriage; the general term\n- {離婚|りこん}する: to divorce — the end of a marriage; often mentioned alongside {再婚|さいこん}\n- {初婚|しょこん}: first marriage — contrasts with {再婚|さいこん}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02514_kekkon",
+      "reading": "けっこん",
+      "headword": "{結婚|けっこん}",
+      "label": "to marry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21333_rikonsuru",
+      "reading": "りこんする",
+      "headword": "{離婚|りこん}する",
+      "label": "to divorce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25564_shokon",
+      "reading": "しょこん",
+      "headword": "{初婚|しょこん}",
+      "label": "first marriage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +76,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "society",
         "family"
@@ -60,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T14:16:37Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

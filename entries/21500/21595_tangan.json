@@ -3,7 +3,7 @@
   "headword": "{嘆願|たんがん}",
   "reading": "たんがん",
   "romaji": "tangan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "petition; supplication; earnest plea",
   "definitions": [
     {
@@ -46,6 +46,43 @@
   ],
   "notes": "Compound of {嘆|たん} (lament, sigh) and {願|がん} (wish, request). The {嘆|たん} element conveys the emotional weight — this is not a routine request but a plea made with great earnestness or desperation.\n\nCOMMON COLLOCATIONS:\n- {嘆願|たんがん}する: to petition, to plead\n- {嘆願|たんがん}{書|しょ}: written petition\n- {嘆願|たんがん}を{受|う}ける: to receive a petition\n- {減刑|げんけい}を{嘆願|たんがん}する: to petition for a reduced sentence\n\nSIMILAR WORDS:\n- {請願|せいがん}: formal petition — an official petition to a government body; more procedural\n- {懇願|こんがん}: entreaty — earnest personal pleading, often face-to-face\n- {哀願|あいがん}: supplication — pleading with pity and sorrow; even more emotional\n- {陳情|ちんじょう}: representation, appeal — formally presenting grievances to authorities",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12686_kongan",
+      "reading": "こんがん",
+      "headword": "{懇願|こんがん}",
+      "label": "entreaty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16758_aigan",
+      "reading": "あいがん",
+      "headword": "{哀願|あいがん}",
+      "label": "supplication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14663_chinjou",
+      "reading": "ちんじょう",
+      "headword": "{陳情|ちんじょう}",
+      "label": "representation, appeal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21596_aigansuru",
+      "reading": "あいがんする",
+      "headword": "{哀願|あいがん}する",
+      "label": "to plead"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25407_kongansuru",
+      "reading": "こんがんする",
+      "headword": "{懇願|こんがん}する",
+      "label": "to implore"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +99,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T17:28:43Z",
-    "modified": "2026-04-02T17:28:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

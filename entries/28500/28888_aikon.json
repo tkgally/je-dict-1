@@ -17,7 +17,9 @@
       "id": "28888_aikon_ex1",
       "japanese": "アイコンをタップする。",
       "english": "Tap the icon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28888_aikon_ex2",
       "japanese": "SNSのアイコンを{変更|へんこう}した。",
       "english": "I changed my social media profile picture.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28888_aikon_ex3",
       "japanese": "デスクトップにあるアイコンをダブルクリックするとアプリが{起動|きどう}する。",
       "english": "Double-clicking the icon on the desktop launches the app.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Loanword from English \"icon.\" In Japanese the social-media \"profile picture\" sense is at least as common as the computer-interface sense.\n\nCOMMON COLLOCATIONS:\n- アイコンを{押|お}す/タップする: to press / tap the icon\n- アイコンをクリックする: to click the icon\n- アイコンを{変|か}える: to change one's profile picture\n- プロフィールアイコン: profile icon\n- アプリのアイコン: an app icon\n\nSIMILAR WORDS:\n- ロゴ: logo — a brand mark, not an interactive interface element\n- プロフィール{画像|がぞう}: profile image — more formal/technical phrasing for the same thing as a social-media アイコン",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11264_rogo",
+      "reading": "ろご",
+      "headword": "ロゴ",
+      "label": "logo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26380_purofiirushashin",
+      "reading": "ぷろふぃーるしゃしん",
+      "headword": "プロフィール{写真|しゃしん}",
+      "label": "profile photo"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["technology"],
+      "politeness": "plain",
+      "semantic": [
+        "technology"
+      ],
       "domain": []
     },
     "created": "2026-06-07T02:04:13Z",
-    "modified": "2026-06-07T02:04:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

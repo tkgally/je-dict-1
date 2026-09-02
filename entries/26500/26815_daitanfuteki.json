@@ -3,7 +3,7 @@
   "headword": "{大胆不敵|だいたんふてき}",
   "reading": "だいたんふてき",
   "romaji": "daitanfuteki",
-  "part_of_speech": "noun",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "bold and fearless; dauntless; audacious",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "A four-character compound ({四字熟語|よじじゅくご}) that can be used either admiringly (for courage) or critically (for recklessness or audacity). Context determines whether the speaker views the boldness positively or negatively.\n\nCOMMON COLLOCATIONS:\n- {大胆不敵|だいたんふてき}な{行動|こうどう}: bold and fearless action\n- {大胆不敵|だいたんふてき}な{態度|たいど}: a dauntless attitude\n- {大胆不敵|だいたんふてき}にも: audaciously (adverbial use)\n- {大胆不敵|だいたんふてき}な{笑|え}み: a fearless smile\n\nSIMILAR WORDS:\n- {大胆|だいたん}: bold — simpler form without the fearlessness component\n- {豪胆|ごうたん}: brave, stout-hearted — emphasizes inner courage without the sense of defiance\n- {厚顔無恥|こうがんむち}: brazen and shameless — purely negative, about lacking shame rather than having courage\n- {勇敢|ゆうかん}: brave, courageous — straightforwardly positive\n\nETYMOLOGY:\n{大胆|だいたん} (bold, daring) + {不敵|ふてき} (fearless, defiant). {不敵|ふてき} literally means \"without enemy\" — so fearless that one acts as if no opponent exists.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22155_goutan",
+      "reading": "ごうたん",
+      "headword": "{豪胆|ごうたん}",
+      "label": "brave, stout-hearted"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06393_kouganmuchi",
+      "reading": "こうがんむち",
+      "headword": "{厚顔無恥|こうがんむち}",
+      "label": "brazen and shameless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07637_yuukan",
+      "reading": "ゆうかん",
+      "headword": "{勇敢|ゆうかん}",
+      "label": "brave, courageous"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,6 +84,6 @@
       ]
     },
     "created": "2026-05-05T12:12:13Z",
-    "modified": "2026-05-05T12:12:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

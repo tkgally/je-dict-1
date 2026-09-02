@@ -3,7 +3,7 @@
   "headword": "{太|ふと}め",
   "reading": "ふとめ",
   "romaji": "futome",
-  "part_of_speech": "na-adjective",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "somewhat thick; on the thick side; plumpish",
   "definitions": [
     {
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Formed by adding the suffix め to the adjective {太|ふと}い. The め suffix creates a softer, approximate expression. Can describe both objects (thick noodles, thick lines) and people's body types (plumpish), though when referring to people it serves as a more polite or indirect way of saying {太|ふと}い.\n\nCOMMON COLLOCATIONS:\n- {太|ふと}めの{麺|めん}: thicker noodles\n- {太|ふと}めの{糸|いと}: thicker thread\n- {太|ふと}めの{体型|たいけい}: a heavier build\n- {太|ふと}めに{切|き}る: to cut into thicker pieces\n\nRELATED TERMS:\n- {細|ほそ}め: on the thin side — the opposite\n- {短|みじか}め: on the short side — same pattern\n- {大|おお}きめ: on the large side — same pattern",
+  "notes": "Formed by adding the suffix め to the adjective {太|ふと}い. The め suffix creates a softer, approximate expression. Can describe both objects (thick noodles, thick lines) and people's body types (plumpish), though when referring to people it serves as a more polite or indirect way of saying {太|ふと}い.\n\nCOMMON COLLOCATIONS:\n- {太|ふと}めの{麺|めん}: thicker noodles\n- {太|ふと}めの{糸|いと}: thicker thread\n- {太|ふと}めの{体型|たいけい}: a heavier build\n- {太|ふと}めに{切|き}る: to cut into thicker pieces\n\nRELATED WORDS:\n- {細|ほそ}め: on the thin side — the opposite\n- {短|みじか}め: on the short side — same pattern\n- {大|おお}きめ: on the large side — same pattern",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "20902_hosome",
+      "reading": "ほそめ",
+      "headword": "{細|ほそ}め",
+      "label": "on the thin side"
+    },
+    {
+      "type": "related",
+      "target_id": "20900_mijikame",
+      "reading": "みじかめ",
+      "headword": "{短|みじか}め",
+      "label": "on the short side"
+    },
+    {
+      "type": "related",
+      "target_id": "21239_ookime",
+      "reading": "おおきめ",
+      "headword": "{大|おお}きめ",
+      "label": "on the large side"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-03-30T20:11:39Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

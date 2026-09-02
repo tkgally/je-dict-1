@@ -46,6 +46,22 @@
   ],
   "notes": "Composed of {発信|はっしん} (transmission, sending) and {履歴|りれき} (history, log, record). A practical technology term that anyone with a smartphone encounters regularly.\n\nUSAGE:\nPrimarily used in the context of phone calls and messaging. On Japanese smartphones, the call log typically shows {発信履歴|はっしんりれき} (outgoing), {着信履歴|ちゃくしんりれき} (incoming), and {不在着信|ふざいちゃくしん} (missed calls) as separate views.\n\nCOMMON COLLOCATIONS:\n- {発信履歴|はっしんりれき}を{確認|かくにん}する: to check the outgoing call log\n- {発信履歴|はっしんりれき}を{削除|さくじょ}する: to delete the outgoing call history\n- {発信履歴|はっしんりれき}から{電話|でんわ}する: to call from the outgoing log\n- {発信履歴|はっしんりれき}の{一覧|いちらん}: outgoing call list\n\nSIMILAR WORDS:\n- {着信履歴|ちゃくしんりれき}: incoming call history — the record of calls received\n- {通話履歴|つうわりれき}: call history — a broader term covering both incoming and outgoing calls\n- {不在着信|ふざいちゃくしん}: missed call — a call that was not answered\n- {履歴|りれき}: history, log — the general term for any recorded history (browsing history, call history, etc.)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17362_chakushinrireki",
+      "reading": "ちゃくしんりれき",
+      "headword": "{着信|ちゃくしん}{履歴|りれき}",
+      "label": "incoming call history"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08041_fuzaichakushin",
+      "reading": "ふざいちゃくしん",
+      "headword": "{不在着信|ふざいちゃくしん}",
+      "label": "missed call"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,6 +80,6 @@
       ]
     },
     "created": "2026-04-20T11:29:09Z",
-    "modified": "2026-04-20T11:29:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

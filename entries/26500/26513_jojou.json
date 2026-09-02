@@ -3,7 +3,7 @@
   "headword": "{如上|じょじょう}",
   "reading": "じょじょう",
   "romaji": "jojou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "as stated above; the above; aforementioned",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "26513_jojou_ex1",
       "japanese": "{如上|じょじょう}の{理由|りゆう}により{却下|きゃっか}する。",
       "english": "The request is rejected for the reasons stated above.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26513_jojou_ex2",
       "japanese": "{如上|じょじょう}の{通|とお}り、{本件|ほんけん}は{承認|しょうにん}された。",
       "english": "As stated above, this matter has been approved.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,62 @@
       "id": "26513_jojou_ex3",
       "japanese": "{如上|じょじょう}の{事実|じじつ}に{基|もと}づき、{被告|ひこく}に{対|たい}して{損害賠償|そんがいばいしょう}を{命|めい}じるものとする。",
       "english": "Based on the aforementioned facts, the defendant is hereby ordered to pay damages.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {如|じょ} (like, as) and {上|じょう} (above). A formal written expression found in legal texts, official documents, and academic writing. Rarely used in spoken Japanese or informal writing.\n\nCOMMON COLLOCATIONS:\n- {如上|じょじょう}の{通|とお}り: as stated above\n- {如上|じょじょう}の{理由|りゆう}: for the above reasons\n- {如上|じょじょう}の{事実|じじつ}: the aforementioned facts\n\nSIMILAR WORDS:\n- {以上|いじょう}: the above; that is all — more common and versatile\n- {上記|じょうき}: the above-mentioned — commonly used in business writing\n- {前述|ぜんじゅつ}: aforementioned — used in academic and formal contexts\n- {右|みぎ}: the above (in vertical writing) — traditional legal/formal usage",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01308_ijou",
+      "reading": "いじょう",
+      "headword": "{以上|いじょう}",
+      "label": "the above"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11375_jouki",
+      "reading": "じょうき",
+      "headword": "{上記|じょうき}",
+      "label": "the above-mentioned"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11911_zenjutsu",
+      "reading": "ぜんじゅつ",
+      "headword": "{前述|ぜんじゅつ}",
+      "label": "aforementioned"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02257_migi",
+      "reading": "みぎ",
+      "headword": "{右|みぎ}",
+      "label": "the above"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     },
     "created": "2026-05-02T13:36:52Z",
-    "modified": "2026-05-02T13:36:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

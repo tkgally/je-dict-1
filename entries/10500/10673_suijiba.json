@@ -19,7 +19,9 @@
       "english": "To prepare a meal in the cooking area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10673_suijiba_ex2",
@@ -27,7 +29,9 @@
       "english": "The cooking area at the campsite has running water.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10673_suijiba_ex3",
@@ -35,10 +39,12 @@
       "english": "Please clean up after using the cooking area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{炊事場|すいじば} refers to a cooking facility, especially a shared or communal one. It is rarely used for a home kitchen.\n\nWORD FORMATION:\n{炊事|すいじ} (cooking) + {場|ば} (place)\n\nTYPICAL SETTINGS:\n- キャンプ{場|じょう} (campsite)\n- {寮|りょう} (dormitory)\n- {合宿所|がっしゅくじょ} (training camp lodge)\n- {山小屋|やまごや} (mountain hut)\n\nCOMMON PATTERNS:\n- {炊事場|すいじば}で{料理|りょうり}する: to cook in the cooking area\n- {炊事場|すいじば}を{使|つか}う: to use the cooking facility\n- {炊事場|すいじば}を{片|かた}づける: to clean up the cooking area\n\nCONTRAST:\n- {台所|だいどころ}: kitchen (home, traditional)\n- キッチン: kitchen (home, modern/Western style)\n- {厨房|ちゅうぼう}: kitchen (professional, restaurant)",
+  "notes": "{炊事場|すいじば} refers to a cooking facility, especially a shared or communal one. It is rarely used for a home kitchen.\n\nFORMS:\n{炊事|すいじ} (cooking) + {場|ば} (place)\n\nTYPICAL SETTINGS:\n- キャンプ{場|じょう} (campsite)\n- {寮|りょう} (dormitory)\n- {合宿所|がっしゅくじょ} (training camp lodge)\n- {山小屋|やまごや} (mountain hut)\n\nCOMMON PATTERNS:\n- {炊事場|すいじば}で{料理|りょうり}する: to cook in the cooking area\n- {炊事場|すいじば}を{使|つか}う: to use the cooking facility\n- {炊事場|すいじば}を{片|かた}づける: to clean up the cooking area\n\nSIMILAR WORDS:\n- {台所|だいどころ}: kitchen (home, traditional)\n- キッチン: kitchen (home, modern/Western style)\n- {厨房|ちゅうぼう}: kitchen (professional, restaurant)",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,18 +52,43 @@
       "reading": "だいどころ",
       "headword": "{台所|だいどころ}",
       "label": "kitchen (home)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10815_kicchin",
+      "reading": "きっちん",
+      "headword": "キッチン",
+      "label": "kitchen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11940_chuubou",
+      "reading": "ちゅうぼう",
+      "headword": "{厨房|ちゅうぼう}",
+      "label": "kitchen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23278_chouriba",
+      "reading": "ちょうりば",
+      "headword": "{調理場|ちょうりば}",
+      "label": "kitchen"
     }
   ],
   "metadata": {
     "created": "2026-02-09T02:36:47Z",
-    "modified": "2026-04-24T08:40:04Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

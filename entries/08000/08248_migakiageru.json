@@ -2,7 +2,7 @@
   "id": "08248_migakiageru",
   "headword": "{磨|みが}き{上|あ}げる",
   "reading": "みがきあげる",
-  "part_of_speech": "ichidan verb (transitive)",
+  "part_of_speech": "verb (ichidan, transitive)",
   "gloss": "to polish up; to refine; to perfect",
   "conjugation": {
     "type": "ichidan",
@@ -168,7 +168,30 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY:\nTransitive ({他動詞|たどうし})\n\nCOMPOUND VERB:\n{磨|みが}く (to polish/brush) + {上|あ}げる (to finish/complete)\nThe {上|あ}げる adds completion or bringing to perfection.\n\nSENSE 1 (Physical):\n- {床|ゆか}/{窓|まど}/{靴|くつ}を{磨|みが}き{上|あ}げる\n- Often results in something shiny (ピカピカ)\n\nSENSE 2 (Figurative):\n- {技術|ぎじゅつ}/{腕|うで}/{才能|さいのう}を{磨|みが}き{上|あ}げる\n- Used for skills, abilities, artistic qualities\n\nRELATED:\n- {磨|みが}く (to polish, to brush)\n- {鍛|きた}え{上|あ}げる (to train thoroughly)\n- {仕上|しあ}げる (to finish, to complete)",
+  "notes": "TRANSITIVITY:\nTransitive ({他動詞|たどうし})\n\nCOMPOUND VERB:\n{磨|みが}く (to polish/brush) + {上|あ}げる (to finish/complete)\nThe {上|あ}げる adds completion or bringing to perfection.\n\nSENSE 1 (Physical):\n- {床|ゆか}/{窓|まど}/{靴|くつ}を{磨|みが}き{上|あ}げる\n- Often results in something shiny (ピカピカ)\n\nSENSE 2 (Figurative):\n- {技術|ぎじゅつ}/{腕|うで}/{才能|さいのう}を{磨|みが}き{上|あ}げる\n- Used for skills, abilities, artistic qualities\n\nRELATED WORDS:\n- {磨|みが}く (to polish, to brush)\n- {鍛|きた}え{上|あ}げる (to train thoroughly)\n- {仕上|しあ}げる (to finish, to complete)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02427_migaku",
+      "reading": "みがく",
+      "headword": "{磨|みが}く",
+      "label": "to polish, to brush"
+    },
+    {
+      "type": "related",
+      "target_id": "08247_kitaeageru",
+      "reading": "きたえあげる",
+      "headword": "{鍛|きた}え{上|あ}げる",
+      "label": "to train thoroughly"
+    },
+    {
+      "type": "related",
+      "target_id": "04664_shiageru",
+      "reading": "しあげる",
+      "headword": "{仕上|しあ}げる",
+      "label": "to finish, to complete"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -177,6 +200,7 @@
       ],
       "transitivity": "transitive",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "action",
         "improvement"
@@ -184,6 +208,6 @@
       "verb_class": "ichidan"
     },
     "created": "2026-01-25T09:58:37Z",
-    "modified": "2026-04-10T06:37:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "25996_hadashitsu_ex1",
       "japanese": "{自分|じぶん}の{肌質|はだしつ}を{知|し}ることが{大切|たいせつ}だ。",
       "english": "It's important to know your own skin type.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25996_hadashitsu_ex2",
       "japanese": "{肌質|はだしつ}に{合|あ}った{化粧水|けしょうすい}を{選|えら}んでください。",
       "english": "Please choose a toner that suits your skin type.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,52 @@
       "id": "25996_hadashitsu_ex3",
       "japanese": "{季節|きせつ}の{変|か}わり{目|め}には{肌質|はだしつ}が{変化|へんか}しやすいので、スキンケアを{見直|みなお}すとよい。",
       "english": "Skin type tends to change at the turn of the seasons, so it's good to reconsider your skincare routine.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {肌|はだ} (skin) and {質|しつ} (quality, nature). A core term in the Japanese beauty and skincare industry, which is one of the largest in the world. Understanding this word is essential for shopping for cosmetics or visiting a dermatologist in Japan.\n\nCOMMON SKIN TYPES:\n- {乾燥肌|かんそうはだ}: dry skin\n- {脂性肌|しせいはだ}: oily skin\n- {混合肌|こんごうはだ}: combination skin\n- {敏感肌|びんかんはだ}: sensitive skin\n- {普通肌|ふつうはだ}: normal skin\n\nCOMMON COLLOCATIONS:\n- {肌質|はだしつ}に{合|あ}う: to suit one's skin type\n- {肌質|はだしつ}を{改善|かいぜん}する: to improve skin quality\n- {肌質|はだしつ}{診断|しんだん}: skin type analysis\n- {肌質|はだしつ}が{変|か}わる: skin type changes\n\nSIMILAR WORDS:\n- {肌|はだ}: skin — the body part itself\n- {肌触|はだざわ}り: texture, feel (of skin or fabric) — how something feels to the touch\n- {体質|たいしつ}: constitution, physical makeup — broader term for overall body type",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06637_hadazawari",
+      "reading": "はだざわり",
+      "headword": "{肌触|はだざわ}り",
+      "label": "texture, feel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08243_taishitsu",
+      "reading": "たいしつ",
+      "headword": "{体質|たいしつ}",
+      "label": "constitution, physical makeup"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22072_kamishitsu",
+      "reading": "かみしつ",
+      "headword": "{髪質|かみしつ}",
+      "label": "hair texture"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["body-part", "appearance"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "body-part",
+        "appearance"
+      ]
     },
     "created": "2026-04-28T15:32:55Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

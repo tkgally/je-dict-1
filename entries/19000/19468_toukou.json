@@ -3,7 +3,7 @@
   "headword": "{投降|とうこう}",
   "reading": "とうこう",
   "romaji": "toukou",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "surrender; capitulation",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,36 @@
   ],
   "notes": "Specifically refers to surrendering to an opposing force — giving up resistance and submitting to the other side. Most commonly used in military and historical contexts, but can also appear in crime/law enforcement reporting when a suspect turns themselves in.\n\nCOMMON COLLOCATIONS:\n- {投降|とうこう}する — to surrender\n- {無条件|むじょうけん}{投降|とうこう} — unconditional surrender\n- {投降|とうこう}を{呼|よ}びかける — to call for surrender\n- {投降|とうこう}{勧告|かんこく} — a demand to surrender\n\nSIMILAR WORDS:\n- {降伏|こうふく} — surrender, capitulation; very similar meaning, slightly more formal and often used for formal/national-level capitulation\n- {降参|こうさん} — giving up, admitting defeat; lighter, can be used casually (e.g., in games or arguments)\n- {自首|じしゅ} — turning oneself in to police; specifically for criminal suspects",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03770_koufuku",
+      "reading": "こうふく",
+      "headword": "{降伏|こうふく}",
+      "label": "surrender, capitulation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15127_kousan",
+      "reading": "こうさん",
+      "headword": "{降参|こうさん}",
+      "label": "giving up, admitting defeat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23257_jishu",
+      "reading": "じしゅ",
+      "headword": "{自首|じしゅ}",
+      "label": "turning oneself in to police"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20577_koufukusuru",
+      "reading": "こうふくする",
+      "headword": "{降伏|こうふく}する",
+      "label": "to surrender"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -154,6 +184,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-26T01:19:27Z",
-    "modified": "2026-03-26T01:19:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

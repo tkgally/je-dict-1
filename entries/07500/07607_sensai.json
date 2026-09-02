@@ -78,7 +78,7 @@
       "notes": null
     }
   ],
-  "notes": "NUANCE:\n{繊細|せんさい} generally has positive or neutral connotations, unlike {神経質|しんけいしつ} which can be negative.\n\nCOMMON COLLOCATIONS:\n・{繊細|せんさい}なタッチ - delicate touch\n・{繊細|せんさい}な{模様|もよう} - fine patterns\n・{繊細|せんさい}な{感性|かんせい} - delicate sensibility\n・{繊細|せんさい}な{味|あじ} - subtle taste\n\nUSAGE:\nCan describe:\n- Physical qualities (craftsmanship, design)\n- Sensory qualities (taste, texture)\n- Personal qualities (sensitivity, emotionality)\n\nRELATED:\n・{神経質|しんけいしつ} - nervous (often negative)\n・デリケート - delicate (loanword)\n・{微妙|びみょう} - subtle, delicate",
+  "notes": "USAGE:\n{繊細|せんさい} generally has positive or neutral connotations, unlike {神経質|しんけいしつ} which can be negative.\nCan describe:\n- Physical qualities (craftsmanship, design)\n- Sensory qualities (taste, texture)\n- Personal qualities (sensitivity, emotionality)\n\nCOMMON COLLOCATIONS:\n- {繊細|せんさい}なタッチ - delicate touch\n- {繊細|せんさい}な{模様|もよう} - fine patterns\n- {繊細|せんさい}な{感性|かんせい} - delicate sensibility\n- {繊細|せんさい}な{味|あじ} - subtle taste\n\nRELATED WORDS:\n- {神経質|しんけいしつ} - nervous (often negative)\n- デリケート - delicate (loanword)\n- {微妙|びみょう} - subtle, delicate",
   "cross_references": [
     {
       "type": "contrast",
@@ -100,11 +100,39 @@
       "headword": "{敏感|びんかん}",
       "label": "sensitive, responsive",
       "target_id": "06641_binkan"
+    },
+    {
+      "type": "related",
+      "target_id": "03589_bimyou",
+      "reading": "びみょう",
+      "headword": "{微妙|びみょう}",
+      "label": "subtle, delicate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03775_seikou",
+      "reading": "せいこう",
+      "headword": "{精巧|せいこう}",
+      "label": "elaborate, exquisite, intricate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12697_kanjusei",
+      "reading": "かんじゅせい",
+      "headword": "{感受性|かんじゅせい}",
+      "label": "sensitivity, receptivity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22654_seisai",
+      "reading": "せいさい",
+      "headword": "{精細|せいさい}",
+      "label": "detailed"
     }
   ],
   "metadata": {
     "created": "2026-01-20T12:57:12Z",
-    "modified": "2026-07-26T06:18:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -113,6 +141,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "descriptive",
         "personality"

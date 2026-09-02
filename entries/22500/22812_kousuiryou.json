@@ -44,20 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "The measured amount of rain, snow, or other forms of water that fall from the sky, typically expressed in millimeters. A compound of {降水|こうすい} (precipitation) and {量|りょう} (amount).\n\nCOMMON COLLOCATIONS:\n- {年間|ねんかん}{降水量|こうすいりょう}: annual precipitation\n- {月間|げっかん}{降水量|こうすいりょう}: monthly precipitation\n- {降水量|こうすいりょう}が{多|おお}い: precipitation is high\n- {降水量|こうすいりょう}が{少|すく}ない: precipitation is low\n- {平均|へいきん}{降水量|こうすいりょう}: average precipitation\n\nRELATED TERMS:\n- {降雨量|こううりょう}: rainfall amount (rain only, not snow)\n- {積雪量|せきせつりょう}: snowfall amount\n- {梅雨|つゆ}: rainy season",
+  "notes": "The measured amount of rain, snow, or other forms of water that fall from the sky, typically expressed in millimeters. A compound of {降水|こうすい} (precipitation) and {量|りょう} (amount).\n\nCOMMON COLLOCATIONS:\n- {年間|ねんかん}{降水量|こうすいりょう}: annual precipitation\n- {月間|げっかん}{降水量|こうすいりょう}: monthly precipitation\n- {降水量|こうすいりょう}が{多|おお}い: precipitation is high\n- {降水量|こうすいりょう}が{少|すく}ない: precipitation is low\n- {平均|へいきん}{降水量|こうすいりょう}: average precipitation\n\nRELATED WORDS:\n- {降雨量|こううりょう}: rainfall amount (rain only, not snow)\n- {積雪量|せきせつりょう}: snowfall amount\n- {梅雨|つゆ}: rainy season",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02232_tsuyu",
+      "reading": "つゆ",
+      "headword": "{梅雨|つゆ}",
+      "label": "rainy season"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24555_uryou",
+      "reading": "うりょう",
+      "headword": "{雨量|うりょう}",
+      "label": "rainfall"
+    },
+    {
+      "type": "related",
+      "target_id": "25563_kousuikakuritsu",
+      "reading": "こうすいかくりつ",
+      "headword": "{降水確率|こうすいかくりつ}",
+      "label": "chance of precipitation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "weather",
         "science"
       ]
     },
     "created": "2026-04-07T17:06:21Z",
-    "modified": "2026-04-07T17:06:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

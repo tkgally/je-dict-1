@@ -17,7 +17,9 @@
       "id": "19570_byougentai_ex1",
       "japanese": "{新|あたら}しい{病原体|びょうげんたい}が{発見|はっけん}された。",
       "english": "A new pathogen was discovered.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19570_byougentai_ex2",
       "japanese": "この{病原体|びょうげんたい}は{空気|くうき}{感染|かんせん}する。",
       "english": "This pathogen is transmitted through the air.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,66 @@
       "id": "19570_byougentai_ex3",
       "japanese": "{手洗|てあら}いやマスクは、{病原体|びょうげんたい}の{感染|かんせん}を{防|ふせ}ぐための{基本的|きほんてき}な{対策|たいさく}だ。",
       "english": "Handwashing and masks are basic measures to prevent the spread of pathogens.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {病原|びょうげん} (cause of disease) + {体|たい} (body, entity). A formal scientific term that became much more widely known through news coverage of infectious disease outbreaks.\n\nCOMMON COLLOCATIONS:\n- {病原体|びょうげんたい}を{特定|とくてい}する — to identify a pathogen\n- {病原体|びょうげんたい}の{感染|かんせん} — infection by a pathogen\n- {未知|みち}の{病原体|びょうげんたい} — an unknown pathogen\n- {病原体|びょうげんたい}を{排除|はいじょ}する — to eliminate a pathogen\n\nRELATED TERMS:\n- ウイルス — virus\n- {細菌|さいきん} — bacteria\n- {寄生虫|きせいちゅう} — parasite\n- {感染症|かんせんしょう} — infectious disease\n- {免疫|めんえき} — immunity",
+  "notes": "Composed of {病原|びょうげん} (cause of disease) + {体|たい} (body, entity). A formal scientific term that became much more widely known through news coverage of infectious disease outbreaks.\n\nCOMMON COLLOCATIONS:\n- {病原体|びょうげんたい}を{特定|とくてい}する — to identify a pathogen\n- {病原体|びょうげんたい}の{感染|かんせん} — infection by a pathogen\n- {未知|みち}の{病原体|びょうげんたい} — an unknown pathogen\n- {病原体|びょうげんたい}を{排除|はいじょ}する — to eliminate a pathogen\n\nRELATED WORDS:\n- ウイルス — virus\n- {細菌|さいきん} — bacteria\n- {寄生虫|きせいちゅう} — parasite\n- {感染症|かんせんしょう} — infectious disease\n- {免疫|めんえき} — immunity",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05223_uirusu",
+      "reading": "ういるす",
+      "headword": "ウイルス",
+      "label": "virus"
+    },
+    {
+      "type": "related",
+      "target_id": "13791_saikin",
+      "reading": "さいきん",
+      "headword": "{細菌|さいきん}",
+      "label": "bacteria"
+    },
+    {
+      "type": "related",
+      "target_id": "15681_kansenshou",
+      "reading": "かんせんしょう",
+      "headword": "{感染症|かんせんしょう}",
+      "label": "infectious disease"
+    },
+    {
+      "type": "related",
+      "target_id": "05032_meneki",
+      "reading": "めんえき",
+      "headword": "{免疫|めんえき}",
+      "label": "immunity"
+    },
+    {
+      "type": "related",
+      "target_id": "22355_byougenkin",
+      "reading": "びょうげんきん",
+      "headword": "{病原菌|びょうげんきん}",
+      "label": "pathogenic bacteria"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["health", "science"]
+      "semantic": [
+        "health",
+        "science"
+      ]
     },
     "created": "2026-03-26T05:18:56Z",
-    "modified": "2026-03-26T05:18:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "23071_gouisho_ex1",
       "japanese": "{合意書|ごういしょ}に{署名|しょめい}する。",
       "english": "To sign an agreement.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23071_gouisho_ex2",
       "japanese": "{両者|りょうしゃ}の{間|あいだ}で{合意書|ごういしょ}を{交|か}わした。",
       "english": "Both parties exchanged a written agreement.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,59 @@
       "id": "23071_gouisho_ex3",
       "japanese": "{離婚|りこん}の{条件|じょうけん}について{合意書|ごういしょ}を{作成|さくせい}し、{弁護士|べんごし}に{確認|かくにん}してもらった。",
       "english": "We drafted an agreement on the divorce conditions and had a lawyer review it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {合意|ごうい} (agreement/consensus) + {書|しょ} (document). Used in legal, business, and personal contexts where parties need to formally record their agreement.\n\nCOMMON COLLOCATIONS:\n- {合意書|ごういしょ}を{作成|さくせい}する: to draft an agreement\n- {合意書|ごういしょ}に{署名|しょめい}する: to sign an agreement\n- {合意書|ごういしょ}を{交|か}わす: to exchange agreements\n- {合意書|ごういしょ}の{内容|ないよう}: contents of the agreement\n\nSIMILAR WORDS:\n- {契約書|けいやくしょ}: contract — a more formal and legally binding document\n- {覚書|おぼえがき}: memorandum — a written record of understanding, similar in function\n- {同意書|どういしょ}: consent form — a document expressing consent to something specific\n- {誓約書|せいやくしょ}: written pledge — a document with a promise or oath",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06416_keiyakusho",
+      "reading": "けいやくしょ",
+      "headword": "{契約書|けいやくしょ}",
+      "label": "contract"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07963_oboegaki",
+      "reading": "おぼえがき",
+      "headword": "{覚書|おぼえがき}",
+      "label": "memorandum"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06449_douisho",
+      "reading": "どういしょ",
+      "headword": "{同意書|どういしょ}",
+      "label": "consent form"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08013_seiyakusho",
+      "reading": "せいやくしょ",
+      "headword": "{誓約書|せいやくしょ}",
+      "label": "written pledge"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["law", "business"]
+      "semantic": [
+        "law",
+        "business"
+      ]
     },
     "created": "2026-04-08T17:35:09Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "26413_fukukichou_ex1",
       "japanese": "{副|ふく}{機長|きちょう}が{操縦|そうじゅう}を{担当|たんとう}した。",
       "english": "The copilot handled the flying.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26413_fukukichou_ex2",
       "japanese": "{副|ふく}{機長|きちょう}は{機長|きちょう}の{指示|しじ}に{従|したが}って{計器|けいき}を{確認|かくにん}する。",
       "english": "The copilot checks the instruments following the captain's directions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,44 @@
       "id": "26413_fukukichou_ex3",
       "japanese": "{機長|きちょう}が{体調|たいちょう}{不良|ふりょう}になったため、{副|ふく}{機長|きちょう}が{代|か}わりに{着陸|ちゃくりく}を{行|おこな}った。",
       "english": "Because the captain became unwell, the copilot took over and performed the landing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {副|ふく} (vice-, deputy) and {機長|きちょう} (aircraft captain). In commercial aviation, the {副機長|ふくきちょう} sits in the right seat and shares flying duties with the {機長|きちょう}.\n\nCOMMON COLLOCATIONS:\n- {副|ふく}{機長|きちょう}が{操縦|そうじゅう}する: the copilot flies\n- {副|ふく}{機長|きちょう}に{昇格|しょうかく}する: to be promoted to copilot\n- {副|ふく}{機長|きちょう}を{務|つと}める: to serve as copilot\n\nSIMILAR WORDS:\n- {機長|きちょう}: captain, pilot in command — the senior pilot with ultimate authority\n- {操縦士|そうじゅうし}: pilot — a general term for anyone who flies an aircraft\n- {副操縦士|ふくそうじゅうし}: copilot — a more formal synonym used in regulations and official documents",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20748_soujuushi",
+      "reading": "そうじゅうし",
+      "headword": "{操縦士|そうじゅうし}",
+      "label": "pilot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23826_fukusoujuushi",
+      "reading": "ふくそうじゅうし",
+      "headword": "{副操縦士|ふくそうじゅうし}",
+      "label": "copilot"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["transportation", "occupation"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "transportation",
+        "occupation"
+      ]
     },
     "created": "2026-05-01T15:33:52Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

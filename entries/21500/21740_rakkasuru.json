@@ -3,7 +3,7 @@
   "headword": "{落下|らっか}する",
   "reading": "らっかする",
   "romaji": "rakkasuru",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to fall; to drop; to plunge",
   "definitions": [
     {
@@ -45,6 +45,29 @@
     }
   ],
   "notes": "A somewhat formal or technical term for falling. It specifically describes objects falling downward due to gravity, often from a considerable height. It is commonly used in news reports, scientific contexts, and safety warnings.\n\nUSAGE:\n- Intransitive: {物|もの}が{落下|らっか}する\n- Often used for dangerous or newsworthy falling events\n- The noun {落下|らっか} is used in physics for gravitational fall\n\nCOMMON COLLOCATIONS:\n- {落下|らっか}{物|ぶつ}: falling object\n- {落下|らっか}{事故|じこ}: falling accident\n- {自由|じゆう}{落下|らっか}: free fall\n- {落下|らっか}{速度|そくど}: falling speed\n- {落下|らっか}{防止|ぼうし}: fall prevention\n- {落下|らっか}{地点|ちてん}: point of impact\n\nSIMILAR WORDS:\n- {落|お}ちる: to fall — the most common everyday word for falling\n- {転落|てんらく}する: to fall, to tumble — implies falling from an edge or elevated place, often with injury\n- {墜落|ついらく}する: to crash, to plummet — used for aircraft crashes or dramatic plunges from great heights",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01242_ochiru",
+      "reading": "おちる",
+      "headword": "{落|お}ちる",
+      "label": "to fall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19790_tenraku",
+      "reading": "てんらく",
+      "headword": "{転落|てんらく}",
+      "label": "to fall, to tumble"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21423_tsuirakusuru",
+      "reading": "ついらくする",
+      "headword": "{墜落|ついらく}する",
+      "label": "to crash, to plummet"
+    }
+  ],
   "metadata": {
     "entry_id": "21740_rakkasuru",
     "schema_version": "2.0",
@@ -56,6 +79,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "action",
         "nature"
@@ -66,7 +90,7 @@
       "usage": [],
       "verb_class": "suru"
     },
-    "modified": "2026-04-03T15:27:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

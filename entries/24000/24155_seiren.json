@@ -3,7 +3,7 @@
   "headword": "{製錬|せいれん}",
   "reading": "せいれん",
   "romaji": "seiren",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "smelting; refining (of metals from ore)",
   "definitions": [
     {
@@ -56,6 +56,29 @@
   ],
   "notes": "Composed of {製|せい} (manufacture, produce) and {錬|れん} (refine, temper). Refers specifically to the process of extracting metal from ore — the first stage of turning raw mineral resources into usable metals.\n\nThe word is distinct from the homophone {精錬|せいれん}, which refers to the further purification of already-extracted metal to achieve higher purity. {製錬|せいれん} = ore → crude metal; {精錬|せいれん} = crude metal → pure metal.\n\nCOMMON COLLOCATIONS:\n- {製錬|せいれん}{所|じょ}: smelting plant, smelter\n- {製錬|せいれん}{技術|ぎじゅつ}: smelting technology\n- {銅|どう}の{製錬|せいれん}: copper smelting\n- {製錬|せいれん}する: to smelt, to refine from ore\n\nSIMILAR WORDS:\n- {精錬|せいれん}: refining, purification — a later stage that purifies crude metal further; homophone with different kanji\n- {冶金|やきん}: metallurgy — the broader science and technology of working with metals\n- {鋳造|ちゅうぞう}: casting — shaping molten metal in molds, a different process entirely",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "21301_seiren",
+      "reading": "せいれん",
+      "headword": "{精錬|せいれん}",
+      "label": "refining, purification"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24156_yakin",
+      "reading": "やきん",
+      "headword": "{冶金|やきん}",
+      "label": "metallurgy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23244_chuuzou",
+      "reading": "ちゅうぞう",
+      "headword": "{鋳造|ちゅうぞう}",
+      "label": "casting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -72,7 +95,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-17T20:12:37Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

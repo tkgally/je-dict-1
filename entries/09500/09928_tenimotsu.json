@@ -18,7 +18,9 @@
       "english": "You can have only one piece of carry-on luggage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09928_tenimotsu_ex2",
@@ -26,7 +28,9 @@
       "english": "Please go through the baggage inspection.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09928_tenimotsu_ex3",
@@ -34,20 +38,70 @@
       "english": "Please store your hand luggage under your seat or in the overhead bin.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A common travel term used at airports and train stations.\n\nCOMMON COLLOCATIONS:\n- {手荷物|てにもつ}{検査|けんさ} (baggage inspection/security check)\n- {手荷物|てにもつ}{預|あず}かり{所|じょ} (baggage storage/left luggage)\n- {手荷物|てにもつ}{制限|せいげん} (carry-on restrictions)\n- {手荷物|てにもつ}を{持|も}ち{込|こ}む (to bring carry-on luggage)\n\nRELATED TERMS:\n- {預|あず}け{荷物|にもつ}: checked baggage\n- {機内|きない}{持|も}ち{込|こ}み: carry-on (for flights)\n- {荷物|にもつ}: luggage, baggage",
+  "notes": "A common travel term used at airports and train stations.\n\nCOMMON COLLOCATIONS:\n- {手荷物|てにもつ}{検査|けんさ} (baggage inspection/security check)\n- {手荷物|てにもつ}{預|あず}かり{所|じょ} (baggage storage/left luggage)\n- {手荷物|てにもつ}{制限|せいげん} (carry-on restrictions)\n- {手荷物|てにもつ}を{持|も}ち{込|こ}む (to bring carry-on luggage)\n\nRELATED WORDS:\n- {預|あず}け{荷物|にもつ}: checked baggage\n- {機内|きない}{持|も}ち{込|こ}み: carry-on (for flights)\n- {荷物|にもつ}: luggage, baggage",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10203_azukenimotsu",
+      "reading": "あずけにもつ",
+      "headword": "{預|あず}け{荷物|にもつ}",
+      "label": "checked baggage"
+    },
+    {
+      "type": "related",
+      "target_id": "10204_kinaimochikomi",
+      "reading": "きないもちこみ",
+      "headword": "{機内持|きないも}ち{込|こ}み",
+      "label": "carry-on"
+    },
+    {
+      "type": "related",
+      "target_id": "10195_amidana",
+      "reading": "あみだな",
+      "headword": "{網棚|あみだな}",
+      "label": "luggage rack, overhead rack"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20346_shojihin",
+      "reading": "しょじひん",
+      "headword": "{所持品|しょじひん}",
+      "label": "personal belongings"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20690_azukeirenimotsu",
+      "reading": "あずけいれにもつ",
+      "headword": "{預|あず}け{入|い}れ{荷物|にもつ}",
+      "label": "checked baggage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24930_keitaihin",
+      "reading": "けいたいひん",
+      "headword": "{携帯品|けいたいひん}",
+      "label": "personal belongings"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T06:17:12Z",
-    "modified": "2026-02-04T06:17:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["travel"]
+      "semantic": [
+        "travel"
+      ]
     }
   }
 }

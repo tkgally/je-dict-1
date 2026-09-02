@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "COMMON PATTERNS:\n・{頂上|ちょうじょう}⟦に→に：00314_ni⟧⟦{登|のぼ}る→登る：00660_noboru⟧/⟦に→に：00314_ni⟧⟦{着|つ}く→着く：00680_tsuku⟧ (to reach the summit)\n・{頂上|ちょうじょう}⟦を→を：00422_wo⟧⟦{目指|めざ}す→目指す：10528_mezasu⟧ (to aim for the top)\n\nCOMMON COMPOUND WORDS:\n・{頂上|ちょうじょう}⟦{会談|かいだん}→会談：11542_kaidan⟧ (summit meeting, summit talks)\n・{頂上|ちょうじょう}⟦{決戦|けっせん}→決戦：13253_kessen⟧ (final showdown, championship match)\n\nSIMILAR WORDS:\n・{頂上|ちょうじょう}: Summit, peak (of a mountain)\n・⟦{山頂|さんちょう}→山頂：09942_sanchou⟧: Mountain top (more literary/formal)\n・⟦{頂点|ちょうてん}→頂点：05448_chouten⟧: Apex, peak (often figurative - peak of career, etc.)",
+  "notes": "COMMON PATTERNS:\n- {頂上|ちょうじょう}⟦に→に：00314_ni⟧⟦{登|のぼ}る→登る：00660_noboru⟧/⟦に→に：00314_ni⟧⟦{着|つ}く→着く：00680_tsuku⟧ (to reach the summit)\n- {頂上|ちょうじょう}⟦を→を：00422_wo⟧⟦{目指|めざ}す→目指す：10528_mezasu⟧ (to aim for the top)\n\nCOMPOUNDS:\n- {頂上|ちょうじょう}⟦{会談|かいだん}→会談：11542_kaidan⟧ (summit meeting, summit talks)\n- {頂上|ちょうじょう}⟦{決戦|けっせん}→決戦：13253_kessen⟧ (final showdown, championship match)\n\nSIMILAR WORDS:\n- {頂上|ちょうじょう}: Summit, peak (of a mountain)\n- ⟦{山頂|さんちょう}→山頂：09942_sanchou⟧: Mountain top (more literary/formal)\n- ⟦{頂点|ちょうてん}→頂点：05448_chouten⟧: Apex, peak (often figurative - peak of career, etc.)",
   "cross_references": [
     {
       "type": "antonym",
@@ -86,11 +86,32 @@
       "reading": "ふもと",
       "headword": "{麓|ふもと}",
       "label": "foot of a mountain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09942_sanchou",
+      "reading": "さんちょう",
+      "headword": "{山頂|さんちょう}",
+      "label": "Mountain top"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05448_chouten",
+      "reading": "ちょうてん",
+      "headword": "{頂点|ちょうてん}",
+      "label": "Apex, peak (often figurative"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23001_mine",
+      "reading": "みね",
+      "headword": "{峰|みね}",
+      "label": "peak"
     }
   ],
   "metadata": {
     "created": "2026-01-12T09:23:00Z",
-    "modified": "2026-05-25T22:05:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

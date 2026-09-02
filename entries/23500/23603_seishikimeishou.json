@@ -17,7 +17,9 @@
       "id": "23603_seishikimeishou_ex1",
       "japanese": "{正式名称|せいしきめいしょう}は{何|なん}ですか。",
       "english": "What is the official name?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23603_seishikimeishou_ex2",
       "japanese": "「コンビニ」の{正式名称|せいしきめいしょう}は「コンビニエンスストア」だ。",
       "english": "The official name of \"konbini\" is \"convenience store.\"",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "23603_seishikimeishou_ex3",
       "japanese": "{書類|しょるい}には{必|かなら}ず{会社|かいしゃ}の{正式名称|せいしきめいしょう}を{記入|きにゅう}してください。",
       "english": "Please be sure to enter the official name of the company on the documents.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {正式|せいしき} (formal, official) and {名称|めいしょう} (name, designation). Used especially when contrasting a formal name with a nickname, abbreviation, or everyday term — a very common rhetorical move in Japanese quiz shows, trivia, and news explanations.\n\nCOMMON COLLOCATIONS:\n- {正式名称|せいしきめいしょう}は〜: the official name is...\n- {正式名称|せいしきめいしょう}で{呼|よ}ぶ: to call (something) by its official name\n- {正式名称|せいしきめいしょう}を{記入|きにゅう}する: to write in the official name\n- {会社|かいしゃ}の{正式名称|せいしきめいしょう}: the official name of the company\n\nSIMILAR WORDS:\n- {略称|りゃくしょう}: abbreviated name, short name — the opposite of {正式名称|せいしきめいしょう}\n- {通称|つうしょう}: common name, popular name — what something is usually called in practice\n- {名称|めいしょう}: name, designation (the general word, without the \"official\" nuance)\n- {本名|ほんみょう}: real name — used for people, not organizations",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "13562_ryakushou",
+      "reading": "りゃくしょう",
+      "headword": "{略称|りゃくしょう}",
+      "label": "abbreviated name, short name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14404_tsuushou",
+      "reading": "つうしょう",
+      "headword": "{通称|つうしょう}",
+      "label": "common name, popular name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13034_honmyou",
+      "reading": "ほんみょう",
+      "headword": "{本名|ほんみょう}",
+      "label": "real name"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["language", "business"]
+      "semantic": [
+        "language",
+        "business"
+      ]
     },
     "created": "2026-04-12T19:25:11Z",
-    "modified": "2026-04-12T19:25:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

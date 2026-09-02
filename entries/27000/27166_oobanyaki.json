@@ -17,7 +17,9 @@
       "id": "27166_oobanyaki_ex1",
       "japanese": "{大判焼|おおばんや}きを{二|ふた}つください。",
       "english": "Two oobanyaki, please.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27166_oobanyaki_ex2",
       "japanese": "{屋台|やたい}で{焼|や}きたての{大判焼|おおばんや}きを{買|か}った。",
       "english": "I bought freshly baked oobanyaki at a street stall.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,37 @@
       "id": "27166_oobanyaki_ex3",
       "japanese": "この{店|みせ}の{大判焼|おおばんや}きはクリーム{入|い}りが{一番|いちばん}{人気|にんき}だ。",
       "english": "At this shop, the cream-filled oobanyaki is the most popular.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A popular Japanese street food consisting of a round cake made from a wheat flour batter, cooked in a special iron mold and filled with {餡|あん} (sweet red bean paste), custard cream, or savory fillings. The name {大判|おおばん} refers to a large oval gold coin from the Edo period, which the cake's shape resembles.\n\nCOMMON FILLINGS:\n- {小倉|おぐら}{餡|あん}: sweet red bean paste (classic)\n- カスタードクリーム: custard cream\n- {白|しろ}{餡|あん}: white bean paste\n- チョコレート: chocolate\n\nREGIONAL NAMES:\nThis food is known by many names depending on the region. The variety of names is a well-known topic in Japanese culture:\n- {今川焼|いまがわや}き: the most widely recognized name, used in the Kanto region\n- {回転焼|かいてんや}き: used in Kansai and western Japan\n- おやき: used in parts of Hokkaido and Tohoku\n- {太鼓|たいこ}まんじゅう: used in some areas\n\nSIMILAR WORDS:\n- たい{焼|や}き: a fish-shaped filled cake — uses similar batter and filling but shaped like a sea bream\n- どら{焼|や}き: a pancake-like cake with bean paste — two flat rounds sandwiching the filling rather than a single molded cake",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10393_dorayaki",
+      "reading": "どらやき",
+      "headword": "どら{焼|や}き",
+      "label": "a pancake-like cake with bean paste"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-05-07T14:09:47Z",
-    "modified": "2026-05-07T14:09:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

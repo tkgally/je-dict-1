@@ -3,7 +3,7 @@
   "headword": "{無農薬|むのうやく}",
   "reading": "むのうやく",
   "romaji": "munouyaku",
-  "part_of_speech": "noun; adjective (no)",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "pesticide-free; organic (without pesticides)",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "19133_munouyaku_ex1",
       "japanese": "{無農薬|むのうやく}{野菜|やさい}を{買|か}っている。",
       "english": "I buy pesticide-free vegetables.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19133_munouyaku_ex2",
       "japanese": "この{農家|のうか}は{無農薬|むのうやく}で{米|こめ}を{栽培|さいばい}している。",
       "english": "This farmer grows rice without pesticides.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,59 @@
       "id": "19133_munouyaku_ex3",
       "japanese": "{無農薬|むのうやく}{栽培|さいばい}は{手間|てま}がかかるが、{安全性|あんぜんせい}が{高|たか}い。",
       "english": "Pesticide-free farming takes more effort, but offers higher safety.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{無農薬|むのうやく} means grown or produced without the use of chemical pesticides. Often used as a modifier (の-adjective) before nouns.\n\nWORD FORMATION:\n{無|む} (without) + {農薬|のうやく} (agricultural chemicals/pesticides).\n\nCOMMON COLLOCATIONS:\n- {無農薬|むのうやく}{野菜|やさい}: pesticide-free vegetables\n- {無農薬|むのうやく}{栽培|さいばい}: pesticide-free cultivation\n- {無農薬|むのうやく}{米|こめ}: pesticide-free rice\n- {無農薬|むのうやく}で{育|そだ}てる: to grow without pesticides\n\nCONTRAST:\n- {無農薬|むのうやく}: specifically no pesticides (narrower meaning)\n- {有機|ゆうき}: organic (broader — also covers fertilizers, soil management, and certification standards)\n- {減農薬|げんのうやく}: reduced-pesticide (uses fewer chemicals but not zero)",
+  "notes": "{無農薬|むのうやく} means grown or produced without the use of chemical pesticides. Often used as a modifier (の-adjective) before nouns.\n\nFORMS:\n{無|む} (without) + {農薬|のうやく} (agricultural chemicals/pesticides).\n\nCOMMON COLLOCATIONS:\n- {無農薬|むのうやく}{野菜|やさい}: pesticide-free vegetables\n- {無農薬|むのうやく}{栽培|さいばい}: pesticide-free cultivation\n- {無農薬|むのうやく}{米|こめ}: pesticide-free rice\n- {無農薬|むのうやく}で{育|そだ}てる: to grow without pesticides\n\nSIMILAR WORDS:\n- {無農薬|むのうやく}: specifically no pesticides (narrower meaning)\n- {有機|ゆうき}: organic (broader — also covers fertilizers, soil management, and certification standards)\n- {減農薬|げんのうやく}: reduced-pesticide (uses fewer chemicals but not zero)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03643_yuuki",
+      "reading": "ゆうき",
+      "headword": "{有機|ゆうき}",
+      "label": "organic (broader"
+    },
+    {
+      "type": "related",
+      "target_id": "19091_mutou",
+      "reading": "むとう",
+      "headword": "{無糖|むとう}",
+      "label": "sugar-free"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19283_mutenka",
+      "reading": "むてんか",
+      "headword": "{無添加|むてんか}",
+      "label": "additive-free"
+    },
+    {
+      "type": "related",
+      "target_id": "27059_yuukishokuhin",
+      "reading": "ゆうきしょくひん",
+      "headword": "{有機食品|ゆうきしょくひん}",
+      "label": "organic food"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-03-24T10:04:14Z",
-    "modified": "2026-04-03T03:01:14Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

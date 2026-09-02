@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{小説家|しょうせつか} combines ⟦{小説|しょうせつ}→小説：01434_shousetsu⟧ (novel) + {家|か} (professional suffix).\n\nRELATED ～{家|か} PROFESSIONS:\n- ⟦{作家|さっか}→作家：01414_sakka⟧ (writer, author)\n- ⟦{画家|がか}→画家：02583_gaka⟧ (painter)\n- ⟦{音楽家|おんがくか}→音楽家：27511_ongakuka⟧ (musician)\n- ⟦{漫画家|まんがか}→漫画家：08643_mangaka⟧ (manga artist)\n- ⟦{専門家|せんもんか}→専門家：03088_senmonka⟧ (specialist, expert)\n\nSIMILAR WORDS:\n- {小説家|しょうせつか}: novelist (writes novels specifically)\n- ⟦{作家|さっか}→作家：01414_sakka⟧: writer, author (broader term)\n- ⟦{著者|ちょしゃ}→著者：03501_chosha⟧: author (of a specific work)\n\nUSAGE NOTES:\n- The ～{家|か} suffix indicates someone who specializes in or practices something professionally",
+  "notes": "{小説家|しょうせつか} combines ⟦{小説|しょうせつ}→小説：01434_shousetsu⟧ (novel) + {家|か} (professional suffix).\n\nRELATED ～{家|か} PROFESSIONS:\n- ⟦{作家|さっか}→作家：01414_sakka⟧ (writer, author)\n- ⟦{画家|がか}→画家：02583_gaka⟧ (painter)\n- ⟦{音楽家|おんがくか}→音楽家：27511_ongakuka⟧ (musician)\n- ⟦{漫画家|まんがか}→漫画家：08643_mangaka⟧ (manga artist)\n- ⟦{専門家|せんもんか}→専門家：03088_senmonka⟧ (specialist, expert)\n\nSIMILAR WORDS:\n- {小説家|しょうせつか}: novelist (writes novels specifically)\n- ⟦{作家|さっか}→作家：01414_sakka⟧: writer, author (broader term)\n- ⟦{著者|ちょしゃ}→著者：03501_chosha⟧: author (of a specific work)\n\nUSAGE:\n- The ～{家|か} suffix indicates someone who specializes in or practices something professionally",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,67 @@
       "headword": "{作家|さっか}",
       "label": "writer",
       "target_id": "01414_sakka"
+    },
+    {
+      "type": "related",
+      "target_id": "02583_gaka",
+      "reading": "がか",
+      "headword": "{画家|がか}",
+      "label": "painter"
+    },
+    {
+      "type": "related",
+      "target_id": "27511_ongakuka",
+      "reading": "おんがくか",
+      "headword": "{音楽家|おんがくか}",
+      "label": "musician"
+    },
+    {
+      "type": "related",
+      "target_id": "08643_mangaka",
+      "reading": "まんがか",
+      "headword": "{漫画家|まんがか}",
+      "label": "manga artist"
+    },
+    {
+      "type": "related",
+      "target_id": "03088_senmonka",
+      "reading": "せんもんか",
+      "headword": "{専門家|せんもんか}",
+      "label": "specialist, expert"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03501_chosha",
+      "reading": "ちょしゃ",
+      "headword": "{著者|ちょしゃ}",
+      "label": "author"
+    },
+    {
+      "type": "related",
+      "target_id": "03084_seijika",
+      "reading": "せいじか",
+      "headword": "{政治家|せいじか}",
+      "label": "politician, statesman"
+    },
+    {
+      "type": "related",
+      "target_id": "03171_shijin",
+      "reading": "しじん",
+      "headword": "{詩人|しじん}",
+      "label": "poet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12989_bungou",
+      "reading": "ぶんごう",
+      "headword": "{文豪|ぶんごう}",
+      "label": "literary master, great author"
     }
   ],
   "metadata": {
     "created": "2026-01-11T11:15:00Z",
-    "modified": "2026-06-12T09:58:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

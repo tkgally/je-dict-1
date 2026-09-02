@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {精神|せいしん} (mind, spirit) and {科|か} (department, specialty). The standard term for the psychiatry department in Japanese hospitals and clinics.\n\nCOMMON COLLOCATIONS:\n- {精神科|せいしんか}を{受診|じゅしん}する: to visit a psychiatrist\n- {精神科|せいしんか}に{通|かよ}う: to attend psychiatric treatment regularly\n- {精神科|せいしんか}{医|い}: psychiatrist\n- {精神科|せいしんか}{病院|びょういん}: psychiatric hospital\n\nSIMILAR WORDS:\n- {心療|しんりょう}{内科|ないか}: psychosomatic medicine department — treats physical symptoms caused by psychological factors; often perceived as less stigmatized\n- {神経|しんけい}{科|か}: neurology department — treats neurological conditions (not psychiatric ones)\n- カウンセリング: counseling — talk therapy, not necessarily medical\n\nNOTE:\nIn Japan, some clinics use the name {心療|しんりょう}{内科|ないか} (psychosomatic medicine) instead of {精神科|せいしんか} to reduce the stigma associated with psychiatric care. Both departments may treat similar conditions like depression and anxiety.",
+  "notes": "Compound of {精神|せいしん} (mind, spirit) and {科|か} (department, specialty). The standard term for the psychiatry department in Japanese hospitals and clinics.\n\nCOMMON COLLOCATIONS:\n- {精神科|せいしんか}を{受診|じゅしん}する: to visit a psychiatrist\n- {精神科|せいしんか}に{通|かよ}う: to attend psychiatric treatment regularly\n- {精神科|せいしんか}{医|い}: psychiatrist\n- {精神科|せいしんか}{病院|びょういん}: psychiatric hospital\n\nSIMILAR WORDS:\n- {心療|しんりょう}{内科|ないか}: psychosomatic medicine department — treats physical symptoms caused by psychological factors; often perceived as less stigmatized\n- {神経|しんけい}{科|か}: neurology department — treats neurological conditions (not psychiatric ones)\n- カウンセリング: counseling — talk therapy, not necessarily medical\n\nUSAGE:\nIn Japan, some clinics use the name {心療|しんりょう}{内科|ないか} (psychosomatic medicine) instead of {精神科|せいしんか} to reduce the stigma associated with psychiatric care. Both departments may treat similar conditions like depression and anxiety.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30654_shinryounaika",
+      "reading": "しんりょうないか",
+      "headword": "{心療内科|しんりょうないか}",
+      "label": "psychosomatic medicine department"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28050_shinkeika",
+      "reading": "しんけいか",
+      "headword": "{神経科|しんけいか}",
+      "label": "neurology department"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10946_kaunseringu",
+      "reading": "かうんせりんぐ",
+      "headword": "カウンセリング",
+      "label": "counseling"
+    },
+    {
+      "type": "related",
+      "target_id": "18441_seishinshikkan",
+      "reading": "せいしんしっかん",
+      "headword": "{精神疾患|せいしんしっかん}",
+      "label": "mental illness"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-04-02T17:26:05Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

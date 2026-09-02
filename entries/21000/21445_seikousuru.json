@@ -3,7 +3,7 @@
   "headword": "{成功|せいこう}する",
   "reading": "せいこうする",
   "romaji": "seikousuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to succeed; to be successful",
   "definitions": [
     {
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {成|せい} (to become, to achieve) and {功|こう} (merit, achievement). One of the most fundamental words for expressing success. The noun form {成功|せいこう} is equally common. The causative form {成功|せいこう}させる (to make something succeed) is frequently used.\n\nCOMMON COLLOCATIONS:\n- {大|おお}{成功|せいこう}: great success\n- {成功|せいこう}を{収|おさ}める: to achieve success\n- {成功|せいこう}{体験|たいけん}: experience of success\n- {成功|せいこう}の{秘訣|ひけつ}: the secret to success\n- {成功|せいこう}{率|りつ}: success rate\n\nSIMILAR WORDS:\n- {うまくいく}: to go well — casual, everyday expression for things working out\n- {達成|たっせい}する: to achieve, to accomplish — focuses on reaching a specific goal or target\n- {失敗|しっぱい}する: to fail — the antonym",
+  "notes": "A compound of {成|せい} (to become, to achieve) and {功|こう} (merit, achievement). One of the most fundamental words for expressing success. The noun form {成功|せいこう} is equally common. The causative form {成功|せいこう}させる (to make something succeed) is frequently used.\n\nCOMMON COLLOCATIONS:\n- {大|おお}{成功|せいこう}: great success\n- {成功|せいこう}を{収|おさ}める: to achieve success\n- {成功|せいこう}{体験|たいけん}: experience of success\n- {成功|せいこう}の{秘訣|ひけつ}: the secret to success\n- {成功|せいこう}{率|りつ}: success rate\n\nSIMILAR WORDS:\n- うまくいく: to go well — casual, everyday expression for things working out\n- {達成|たっせい}する: to achieve, to accomplish — focuses on reaching a specific goal or target\n- {失敗|しっぱい}する: to fail — the antonym",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21787_umakuiku",
+      "reading": "うまくいく",
+      "headword": "{上手|うま}くいく",
+      "label": "to go well"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22183_tasseisuru",
+      "reading": "たっせいする",
+      "headword": "{達成|たっせい}する",
+      "label": "to achieve, to accomplish"
+    },
+    {
+      "type": "antonym",
+      "target_id": "01636_shippai",
+      "reading": "しっぱい",
+      "headword": "{失敗|しっぱい}",
+      "label": "to fail"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T03:26:45Z",
-    "modified": "2026-04-02T03:26:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

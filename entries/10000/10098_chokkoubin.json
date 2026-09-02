@@ -18,7 +18,9 @@
       "english": "There is a direct flight from Tokyo to Paris.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10098_chokkoubin_ex2",
@@ -26,7 +28,9 @@
       "english": "Direct flights are expensive but convenient.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10098_chokkoubin_ex3",
@@ -34,10 +38,12 @@
       "english": "You can save time with a direct flight compared to a connecting flight.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{直行便|ちょっこうびん} refers to a flight that goes directly from origin to destination without stopping. While primarily used for flights, it can also apply to direct bus or train services.\n\nCOMPOSITION:\n{直行|ちょっこう} (going directly) + {便|びん} (service, flight).\n\nCOMMON PATTERNS:\n- {直行便|ちょっこうびん}がある: there is a direct flight\n- {直行便|ちょっこうびん}で{行|い}く: to go by direct flight\n- 〜への{直行便|ちょっこうびん}: direct flight to ~\n\nCONTRAST:\n- {直行便|ちょっこうびん}: direct/nonstop flight\n- {経由便|けいゆびん}: connecting flight (with stops)\n- {乗|の}り{継|つ}ぎ{便|びん}: transfer flight\n\nRELATED TERMS:\n- {直行|ちょっこう}: going directly (without detours)\n- {直通|ちょくつう}: direct service (trains/buses running without transfers)",
+  "notes": "{直行便|ちょっこうびん} refers to a flight that goes directly from origin to destination without stopping. While primarily used for flights, it can also apply to direct bus or train services.\n\nETYMOLOGY:\n{直行|ちょっこう} (going directly) + {便|びん} (service, flight).\n\nCOMMON PATTERNS:\n- {直行便|ちょっこうびん}がある: there is a direct flight\n- {直行便|ちょっこうびん}で{行|い}く: to go by direct flight\n- 〜への{直行便|ちょっこうびん}: direct flight to ~\n\nSIMILAR WORDS:\n- {直行便|ちょっこうびん}: direct/nonstop flight\n- {経由便|けいゆびん}: connecting flight (with stops)\n- {乗|の}り{継|つ}ぎ{便|びん}: transfer flight\n\nRELATED WORDS:\n- {直行|ちょっこう}: going directly (without detours)\n- {直通|ちょくつう}: direct service (trains/buses running without transfers)",
   "cross_references": [
     {
       "type": "antonym",
@@ -45,17 +51,35 @@
       "reading": "けいゆびん",
       "headword": "{経由便|けいゆびん}",
       "label": "connecting flight"
+    },
+    {
+      "type": "related",
+      "target_id": "13653_chokutsuu",
+      "reading": "ちょくつう",
+      "headword": "{直通|ちょくつう}",
+      "label": "direct service"
+    },
+    {
+      "type": "related",
+      "target_id": "09926_noritsugi",
+      "reading": "のりつぎ",
+      "headword": "{乗|の}り{継|つ}ぎ",
+      "label": "transfer, transit, connection"
     }
   ],
   "metadata": {
     "created": "2026-02-05T02:47:54Z",
-    "modified": "2026-07-10T21:18:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["travel"]
+      "semantic": [
+        "travel"
+      ]
     }
   }
 }

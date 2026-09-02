@@ -3,7 +3,7 @@
   "headword": "{発掘|はっくつ}する",
   "reading": "はっくつする",
   "romaji": "hakkutsusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to excavate; to unearth; to discover",
   "definitions": [
     {
@@ -81,6 +81,29 @@
   ],
   "notes": "The literal meaning of digging up (sense 1) extends naturally to the figurative meaning of discovering hidden talent (sense 2). Both senses are commonly used in news and everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {発掘調査|はっくつちょうさ}: excavation survey; archaeological dig\n- {発掘現場|はっくつげんば}: excavation site\n- {人材|じんざい}を{発掘|はっくつ}する: to discover talented people\n- {化石|かせき}を{発掘|はっくつ}する: to excavate fossils\n- {才能|さいのう}の{発掘|はっくつ}: talent scouting; discovery of talent\n\nSIMILAR WORDS:\n- {掘|ほ}る: to dig — the basic verb for digging; physical action only\n- {発見|はっけん}する: to discover — general discovery, not specifically digging up or finding talent\n- {採掘|さいくつ}する: to mine; to extract — specifically for mining minerals and resources",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00442_horu",
+      "reading": "ほる",
+      "headword": "{掘|ほ}る",
+      "label": "to dig"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26929_hakkensuru",
+      "reading": "はっけんする",
+      "headword": "{発見|はっけん}する",
+      "label": "to discover"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07996_saikutsu",
+      "reading": "さいくつ",
+      "headword": "{採掘|さいくつ}",
+      "label": "to mine"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -96,7 +119,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T13:13:18Z",
-    "modified": "2026-05-06T13:13:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

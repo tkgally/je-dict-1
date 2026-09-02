@@ -3,7 +3,7 @@
   "headword": "{解除|かいじょ}する",
   "reading": "かいじょする",
   "romaji": "kaijosuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to cancel; to lift; to release; to remove",
   "definitions": [
     {
@@ -55,7 +55,36 @@
     }
   ],
   "notes": "A versatile word used across many domains — legal (canceling contracts), safety (lifting warnings), technology (unlocking devices), and politics (lifting sanctions). It always implies returning to a state before the restriction was imposed.\n\nCOMMON COLLOCATIONS:\n- {契約|けいやく}{解除|かいじょ}: contract cancellation\n- {規制|きせい}{解除|かいじょ}: deregulation; lifting of restrictions\n- ロック{解除|かいじょ}: unlocking\n- {警報|けいほう}{解除|かいじょ}: warning lifted\n- {制裁|せいさい}{解除|かいじょ}: lifting of sanctions\n- {非常事態|ひじょうじたい}{宣言|せんげん}の{解除|かいじょ}: lifting of state of emergency\n\nSIMILAR WORDS:\n- {取|と}り{消|け}す: to cancel — more general cancellation (reservations, orders)\n- {撤廃|てっぱい}する: to abolish — permanently removing a law or system\n- {解放|かいほう}する: to liberate — freeing from physical or metaphorical constraint",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04224_torikesu",
+      "reading": "とりけす",
+      "headword": "{取|と}り{消|け}す",
+      "label": "to cancel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12911_teppai",
+      "reading": "てっぱい",
+      "headword": "{撤廃|てっぱい}",
+      "label": "to abolish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22170_kaihousuru",
+      "reading": "かいほうする",
+      "headword": "{解放|かいほう}する",
+      "label": "to liberate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21324_kaishousuru",
+      "reading": "かいしょうする",
+      "headword": "{解消|かいしょう}する",
+      "label": "to resolve"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,7 +100,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T13:10:26Z",
-    "modified": "2026-08-06T12:46:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

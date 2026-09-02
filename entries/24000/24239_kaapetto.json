@@ -17,7 +17,9 @@
       "id": "24239_kaapetto_ex1",
       "japanese": "カーペットに{染|し}みがついた。",
       "english": "A stain got on the carpet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24239_kaapetto_ex2",
       "japanese": "{新|あたら}しいカーペットを{敷|し}いた。",
       "english": "We laid a new carpet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "24239_kaapetto_ex3",
       "japanese": "このカーペットは{毎日|まいにち}{掃除機|そうじき}をかけないと{埃|ほこり}が{溜|た}まる。",
       "english": "If you don't vacuum this carpet every day, dust builds up.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Loanword from English 'carpet.' In Japan, カーペット typically refers to wall-to-wall or large area carpeting, as distinct from smaller floor coverings.\n\nCOMMON COLLOCATIONS:\n- カーペットを{敷|し}く: to lay/spread a carpet\n- カーペットに{掃除機|そうじき}をかける: to vacuum a carpet\n- カーペットを{張|は}り{替|か}える: to replace carpet\n- {電気|でんき}カーペット: heated carpet (a popular winter item in Japan)\n- タイルカーペット: carpet tiles\n\nSIMILAR WORDS:\n- {絨毯|じゅうたん}: carpet; rug — a more traditional Japanese word for carpet, often implying a finer or more decorative floor covering\n- ラグ: rug — a smaller floor covering that does not span the entire room\n- マット: mat — a small, functional floor covering placed at entrances or in bathrooms\n- {敷物|しきもの}: floor covering — a general native Japanese term for anything spread on a floor",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04497_juutan",
+      "reading": "じゅうたん",
+      "headword": "{絨毯|じゅうたん}",
+      "label": "carpet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21812_matto",
+      "reading": "まっと",
+      "headword": "マット",
+      "label": "mat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17130_shikimono",
+      "reading": "しきもの",
+      "headword": "{敷物|しきもの}",
+      "label": "floor covering"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["furniture"]
+      "semantic": [
+        "furniture"
+      ]
     },
     "created": "2026-04-18T11:19:33Z",
-    "modified": "2026-04-18T11:19:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

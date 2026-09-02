@@ -19,7 +19,9 @@
       "english": "I got a job at a large corporation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12277_daikigyou_ex2",
@@ -27,7 +29,9 @@
       "english": "Working conditions differ greatly between large corporations and small-to-medium enterprises.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12277_daikigyou_ex3",
@@ -35,7 +39,9 @@
       "english": "There are several large company factories in this area, creating many jobs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften appears in discussions about employment, the economy, and business. In Japan, working for a {大企業|だいきぎょう} is traditionally considered prestigious and secure. The contrast pair {大企業|だいきぎょう} vs. {中小企業|ちゅうしょうきぎょう} (SMEs) is very common in economic discussions.\n\nCOMMON COLLOCATIONS:\n- {大企業|だいきぎょう}に{就職|しゅうしょく}する: to get a job at a large company\n- {大企業|だいきぎょう}の{社員|しゃいん}: employee of a large company\n- {大企業|だいきぎょう}{病|びょう}: big company syndrome (bureaucratic inefficiency)\n- {大企業|だいきぎょう}{優遇|ゆうぐう}: favorable treatment of large corporations",
@@ -53,19 +59,39 @@
       "reading": "ちゅうしょうきぎょう",
       "headword": "{中小企業|ちゅうしょうきぎょう}",
       "label": "small/medium business"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09953_chuushou",
+      "reading": "ちゅうしょう",
+      "headword": "{中小|ちゅうしょう}",
+      "label": "small and medium-sized"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24330_joujoukigyou",
+      "reading": "じょうじょうきぎょう",
+      "headword": "{上場企業|じょうじょうきぎょう}",
+      "label": "listed company"
     }
   ],
   "metadata": {
     "created": "2026-02-20T15:05:49Z",
-    "modified": "2026-04-26T08:07:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

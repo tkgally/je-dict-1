@@ -17,7 +17,9 @@
       "id": "18781_koutaisei_ex1",
       "japanese": "この{工場|こうじょう}は{交代制|こうたいせい}で{稼働|かどう}している。",
       "english": "This factory operates on a shift system.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18781_koutaisei_ex2",
       "japanese": "{看護師|かんごし}は{三|さん}{交代制|こうたいせい}で{働|はたら}いている。",
       "english": "The nurses work on a three-shift rotation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "18781_koutaisei_ex3",
       "japanese": "{交代制|こうたいせい}の{勤務|きんむ}は{生活|せいかつ}リズムが{崩|くず}れやすいのが{難点|なんてん}だ。",
       "english": "The drawback of shift work is that it tends to disrupt your daily rhythm.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Common types: {二|に}{交代制|こうたいせい} (two-shift system, typically day and night), {三|さん}{交代制|こうたいせい} (three-shift system, 8 hours each). Common collocations: {交代制|こうたいせい}{勤務|きんむ} (shift work), {交代制|こうたいせい}で{働|はたら}く (to work in shifts). The suffix ～{制|せい} indicates a system or structure: {会員制|かいいんせい} (membership system), {予約制|よやくせい} (reservation-only system). Related: シフト{制|せい} (shift system — using the English loanword), {当番制|とうばんせい} (duty rotation system).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09549_yakin",
+      "reading": "やきん",
+      "headword": "{夜勤|やきん}",
+      "label": "night shift, night duty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23160_rinbansei",
+      "reading": "りんばんせい",
+      "headword": "{輪番制|りんばんせい}",
+      "label": "rotation system"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     },
     "created": "2026-03-23T03:38:51Z",
-    "modified": "2026-03-23T03:38:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "He was arrested for attempted murder.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13085_misui_ex2",
@@ -27,7 +29,9 @@
       "english": "An attempted robbery incident occurred.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13085_misui_ex3",
@@ -35,22 +39,38 @@
       "english": "The crime ended as an attempt, but the suspect was charged with an attempted offense.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{未遂|みすい} is used primarily in legal and news contexts. It attaches to crime names as a suffix: {殺人|さつじん}{未遂|みすい} (attempted murder), {強盗|ごうとう}{未遂|みすい} (attempted robbery).\n\nThe phrase {未遂|みすい}に{終|お}わる (to end as an attempt / to fail) describes an action that was attempted but ultimately unsuccessful.\n\nIn Japanese criminal law, {未遂|みすい}{罪|ざい} (attempted crime) is treated differently from {既遂|きすい} (completed crime) in sentencing.\n\nCOMMON COLLOCATIONS:\n- {殺人|さつじん}{未遂|みすい}: attempted murder\n- {強盗|ごうとう}{未遂|みすい}: attempted robbery\n- {未遂|みすい}に{終|お}わる: to end as an attempt\n- {未遂|みすい}{罪|ざい}: attempted crime (legal term)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "23639_kisui",
+      "reading": "きすい",
+      "headword": "{既遂|きすい}",
+      "label": "consummated crime"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T10:44:12Z",
-    "modified": "2026-02-23T10:44:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["legal"],
-      "semantic": ["society"]
+      "domain": [
+        "legal"
+      ],
+      "semantic": [
+        "society"
+      ]
     }
   }
 }

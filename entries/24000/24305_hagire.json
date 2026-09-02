@@ -25,7 +25,7 @@
     },
     {
       "id": "24305_hagire_ex2",
-      "japanese": "{手芸|しゅげい}{店|てん}で{きれい|きれい}な{端切|はぎ}れを{安|やす}く{買|か}えた。",
+      "japanese": "{手芸|しゅげい}{店|てん}できれいな{端切|はぎ}れを{安|やす}く{買|か}えた。",
       "english": "I was able to buy pretty fabric remnants cheaply at the craft store.",
       "sense_numbers": [
         1
@@ -46,18 +46,42 @@
   ],
   "notes": "Written {端切|はぎ}れ or はぎれ. Refers to small pieces of fabric left over from cutting larger pieces. Popular in Japanese craft culture for making small pouches, patchwork, and decorative items. Craft stores often sell collections of coordinated {端切|はぎ}れ.\n\nCOMMON COLLOCATIONS:\n- {端切|はぎ}れで{作|つく}る — make from scraps\n- {端切|はぎ}れセット — assorted fabric scrap set\n- {端切|はぎ}れを{利用|りよう}する — make use of fabric remnants\n- {端切|はぎ}れ{活用|かつよう} — utilizing fabric scraps\n\nSIMILAR WORDS:\n- {布切|ぬのき}れ — piece of cloth; a more general term for any piece of fabric, not necessarily a leftover\n- {余|あま}り{布|ぬの} — leftover fabric; emphasizes that the fabric is surplus, not specifically a small scrap\n- {裁|た}ち{落|お}とし — cutting scraps; the pieces that fall away when fabric is cut to pattern",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24358_nunokire",
+      "reading": "ぬのきれ",
+      "headword": "{布切|ぬのき}れ",
+      "label": "piece of cloth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21149_kirehashi",
+      "reading": "きれはし",
+      "headword": "{切|き}れ{端|はし}",
+      "label": "scrap"
+    },
+    {
+      "type": "related",
+      "target_id": "22090_kamikire",
+      "reading": "かみきれ",
+      "headword": "{紙切|かみき}れ",
+      "label": "scrap of paper"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "art",
         "clothing"
       ]
     },
     "created": "2026-04-18T13:17:03Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

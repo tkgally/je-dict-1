@@ -19,7 +19,9 @@
       "english": "They entered the territorial waters.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15850_ryoukai_ex2",
@@ -27,7 +29,9 @@
       "english": "A foreign ship passed through the territorial waters.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15850_ryoukai_ex3",
@@ -35,10 +39,12 @@
       "english": "Japan's territorial waters are defined as extending 12 nautical miles from the coastline.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMPOSITION:\n{領|りょう} (territory) + {海|かい} (sea).\n\nRELATED TERMS:\n{領空|りょうくう} — territorial airspace\n{領土|りょうど} — territory (land)\n{排他的経済水域|はいたてきけいざいすいいき} (EEZ) — exclusive economic zone\n\nCOMMON COLLOCATIONS:\n- {領海|りょうかい}{侵犯|しんぱん} (violation of territorial waters)\n- {領海|りょうかい}に{侵入|しんにゅう}する (to intrude into territorial waters)\n- {領海|りょうかい}を{守|まも}る (to defend territorial waters)",
+  "notes": "ETYMOLOGY:\n{領|りょう} (territory) + {海|かい} (sea).\n\nRELATED WORDS:\n{領空|りょうくう} — territorial airspace\n{領土|りょうど} — territory (land)\n{排他的経済水域|はいたてきけいざいすいいき} (EEZ) — exclusive economic zone\n\nCOMMON COLLOCATIONS:\n- {領海|りょうかい}{侵犯|しんぱん} (violation of territorial waters)\n- {領海|りょうかい}に{侵入|しんにゅう}する (to intrude into territorial waters)\n- {領海|りょうかい}を{守|まも}る (to defend territorial waters)",
   "cross_references": [
     {
       "type": "related",
@@ -53,19 +59,54 @@
       "reading": "りょうくう",
       "headword": "{領空|りょうくう}",
       "label": "territorial airspace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23766_koukai",
+      "reading": "こうかい",
+      "headword": "{公海|こうかい}",
+      "label": "the high seas"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26896_suiiki",
+      "reading": "すいいき",
+      "headword": "{水域|すいいき}",
+      "label": "waters"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26897_kaiiki",
+      "reading": "かいいき",
+      "headword": "{海域|かいいき}",
+      "label": "sea area"
+    },
+    {
+      "type": "related",
+      "target_id": "29664_kairi",
+      "reading": "かいり",
+      "headword": "{海里|かいり}",
+      "label": "nautical mile"
     }
   ],
   "metadata": {
     "created": "2026-03-08T12:24:55Z",
-    "modified": "2026-05-02T04:22:54Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["legal"],
-      "semantic": ["geography", "politics"]
+      "domain": [
+        "legal"
+      ],
+      "semantic": [
+        "geography",
+        "politics"
+      ]
     }
   }
 }

@@ -17,7 +17,9 @@
       "id": "27761_heikaku_ex1",
       "japanese": "{平角|へいかく}は180{度|ど}だ。",
       "english": "A straight angle is 180 degrees.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27761_heikaku_ex2",
       "japanese": "{直角|ちょっかく}を{二|ふた}つ{合|あ}わせると{平角|へいかく}になる。",
       "english": "Two right angles together make a straight angle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,54 @@
       "id": "27761_heikaku_ex3",
       "japanese": "{一直線|いっちょくせん}に{並|なら}んだ{二|ふた}つの{半直線|はんちょくせん}がつくる{角|かく}を{平角|へいかく}という。",
       "english": "The angle formed by two rays lying in a straight line is called a straight angle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {平|へい} (flat, level) + {角|かく} (angle). A mathematics term for an angle of exactly 180 degrees.\n\nRELATED TERMS:\n- {直角|ちょっかく}: right angle — 90 degrees\n- {鋭角|えいかく}: acute angle — less than 90 degrees\n- {鈍角|どんかく}: obtuse angle — between 90 and 180 degrees",
+  "notes": "Composed of {平|へい} (flat, level) + {角|かく} (angle). A mathematics term for an angle of exactly 180 degrees.\n\nRELATED WORDS:\n- {直角|ちょっかく}: right angle — 90 degrees\n- {鋭角|えいかく}: acute angle — less than 90 degrees\n- {鈍角|どんかく}: obtuse angle — between 90 and 180 degrees",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05444_chokkaku",
+      "reading": "ちょっかく",
+      "headword": "{直角|ちょっかく}",
+      "label": "right angle"
+    },
+    {
+      "type": "related",
+      "target_id": "05554_eikaku",
+      "reading": "えいかく",
+      "headword": "{鋭角|えいかく}",
+      "label": "acute angle"
+    },
+    {
+      "type": "related",
+      "target_id": "05555_donkaku",
+      "reading": "どんかく",
+      "headword": "{鈍角|どんかく}",
+      "label": "obtuse angle"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-05-18T03:04:42Z",
-    "modified": "2026-05-18T03:04:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

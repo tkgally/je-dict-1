@@ -19,7 +19,9 @@
       "english": "He is the team captain.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16187_shushou_ex2",
@@ -27,7 +29,9 @@
       "english": "As captain, I gave the athletes' oath.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16187_shushou_ex3",
@@ -35,21 +39,43 @@
       "english": "She was chosen as the new captain because she has the ability to bring the team together.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{主将|しゅしょう} is used in sports contexts for the team captain, the player who leads the team and often serves as the representative in ceremonies. In baseball, the {主将|しゅしょう} is distinct from the {監督|かんとく} (manager). In historical contexts, it refers to the supreme commander of an army.\n\nSIMILAR WORDS:\nキャプテン (captain) is the loanword equivalent used more casually. {副|ふく}{主将|しゅしょう} is the vice-captain.\n\nCOMMON COLLOCATIONS:\n- {主将|しゅしょう}を{務|つと}める (to serve as captain)\n- {主将|しゅしょう}に{選|えら}ばれる (to be chosen as captain)\n- {副|ふく}{主将|しゅしょう} (vice-captain)\n- {選手宣誓|せんしゅせんせい} (athletes' oath — often given by the captain)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00258_kyaputen",
+      "reading": "きゃぷてん",
+      "headword": "キャプテン",
+      "label": "captain"
+    },
+    {
+      "type": "related",
+      "target_id": "23377_fukukyaputen",
+      "reading": "ふくきゃぷてん",
+      "headword": "{副|ふく}キャプテン",
+      "label": "vice-captain"
+    }
+  ],
   "metadata": {
     "created": "2026-03-11T01:04:29Z",
-    "modified": "2026-03-11T01:04:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["sports", "role"]
+      "semantic": [
+        "sports",
+        "role"
+      ]
     }
   }
 }

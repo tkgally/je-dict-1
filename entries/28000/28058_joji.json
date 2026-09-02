@@ -17,7 +17,9 @@
       "id": "28058_joji_ex1",
       "japanese": "{元気|げんき}な{女児|じょじ}が{生|う}まれた。",
       "english": "A healthy girl was born.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28058_joji_ex2",
       "japanese": "この{服|ふく}は{女児|じょじ}{用|よう}です。",
       "english": "These clothes are for girls.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,53 @@
       "id": "28058_joji_ex3",
       "japanese": "{事故|じこ}に{巻|ま}き{込|こ}まれた{幼|おさな}い{女児|じょじ}は{無事|ぶじ}{保護|ほご}された。",
       "english": "The young girl caught up in the accident was safely taken into protection.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formal and official; common in birth announcements, product labels ({女児|じょじ}{用|よう}), and news. Everyday speech uses {女|おんな}の{子|こ}.\n\nCOMMON COLLOCATIONS:\n- {女児|じょじ}を{出産|しゅっさん}する: to give birth to a girl\n- {女児|じょじ}{用|よう}: for girls (on products)\n\nSIMILAR WORDS:\n- {女|おんな}の{子|こ}: girl — everyday, neutral\n- {男児|だんじ}: male child — the male counterpart",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02865_onnanoko",
+      "reading": "おんなのこ",
+      "headword": "{女|おんな}の{子|こ}",
+      "label": "girl"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28053_danji",
+      "reading": "だんじ",
+      "headword": "{男児|だんじ}",
+      "label": "male child"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03233_shoujo",
+      "reading": "しょうじょ",
+      "headword": "{少女|しょうじょ}",
+      "label": "girl, young girl"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["person", "family"],
+      "politeness": "plain",
+      "semantic": [
+        "person",
+        "family"
+      ],
       "domain": []
     },
     "created": "2026-05-25T02:04:35Z",
-    "modified": "2026-05-25T02:04:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

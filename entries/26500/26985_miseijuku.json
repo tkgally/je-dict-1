@@ -3,7 +3,7 @@
   "headword": "{未成熟|みせいじゅく}",
   "reading": "みせいじゅく",
   "romaji": "miseijuku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "immature; unripe; not fully developed",
   "definitions": [
     {
@@ -55,7 +55,22 @@
     }
   ],
   "notes": "Composed of {未|み} (not yet) + {成熟|せいじゅく} (maturity, ripeness). The prefix {未|み} indicates that the state has not yet been reached, implying it may be reached in the future. This is different from {不|ふ}, which negates more absolutely.\n\nCOMMON COLLOCATIONS:\n- {未成熟|みせいじゅく}な{市場|しじょう}: an immature market\n- {未成熟|みせいじゅく}な{技術|ぎじゅつ}: immature technology\n- {未成熟|みせいじゅく}な{段階|だんかい}: an immature stage\n- {精神的|せいしんてき}に{未成熟|みせいじゅく}: emotionally immature\n\nRELATED PATTERNS:\n{未|み}～ as a prefix meaning 'not yet':\n- {未完成|みかんせい}: incomplete, unfinished\n- {未経験|みけいけん}: inexperienced\n- {未確認|みかくにん}: unconfirmed\n\nSIMILAR WORDS:\n- {成熟|せいじゅく}: mature, ripe — the opposite; having reached full development\n- {未熟|みじゅく}: immature, unskilled — more common in everyday use; often implies lack of skill\n- {幼稚|ようち}: childish, infantile — more negative; implies thinking or behavior is inappropriately childlike",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13015_mijuku",
+      "reading": "みじゅく",
+      "headword": "{未熟|みじゅく}",
+      "label": "immature, unskilled"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04088_youchi",
+      "reading": "ようち",
+      "headword": "{幼稚|ようち}",
+      "label": "childish, infantile"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -72,6 +87,6 @@
       "domain": []
     },
     "created": "2026-05-06T12:25:52Z",
-    "modified": "2026-05-06T12:25:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

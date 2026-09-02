@@ -17,7 +17,9 @@
       "id": "28074_doitsugo_ex1",
       "japanese": "ドイツ{語|ご}を{勉強|べんきょう}している。",
       "english": "I'm studying German.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28074_doitsugo_ex2",
       "japanese": "{彼女|かのじょ}はドイツ{語|ご}が{話|はな}せる。",
       "english": "She can speak German.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "28074_doitsugo_ex3",
       "japanese": "この{哲学|てつがく}の{論文|ろんぶん}は、もともとドイツ{語|ご}で{書|か}かれている。",
       "english": "This philosophy paper was originally written in German.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "ドイツ (Germany, from the German word 'Deutsch') + the suffix {語|ご} (language). Like other language names, it combines a country or people name with {語|ご}.\n\nCOMMON COLLOCATIONS:\n- ドイツ{語|ご}を{習|なら}う: to learn German\n- ドイツ{語|ご}{圏|けん}: the German-speaking world\n- ドイツ{語|ご}が{得意|とくい}だ: to be good at German\n\nRELATED LANGUAGE NAMES:\n- {英語|えいご}: English\n- フランス{語|ご}: French\n- {中国語|ちゅうごくご}: Chinese",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02274_eigo",
+      "reading": "えいご",
+      "headword": "{英語|えいご}",
+      "label": "English"
+    },
+    {
+      "type": "related",
+      "target_id": "24509_furansugo",
+      "reading": "ふらんすご",
+      "headword": "フランス{語|ご}",
+      "label": "French"
+    },
+    {
+      "type": "related",
+      "target_id": "10966_chuugokugo",
+      "reading": "ちゅうごくご",
+      "headword": "{中国語|ちゅうごくご}",
+      "label": "Chinese"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["language"],
+      "politeness": "plain",
+      "semantic": [
+        "language"
+      ],
       "domain": []
     },
     "created": "2026-05-25T03:05:12Z",
-    "modified": "2026-05-25T03:05:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

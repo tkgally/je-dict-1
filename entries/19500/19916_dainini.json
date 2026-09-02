@@ -18,7 +18,9 @@
       "english": "Secondly, there is the issue of cost.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19916_dainini_ex2",
@@ -26,7 +28,9 @@
       "english": "We prioritize safety first and efficiency second.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19916_dainini_ex3",
@@ -34,21 +38,49 @@
       "english": "There are three reasons for opposing it. First... second... third...",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A formal enumeration marker used in structured arguments. Part of the series {第一|だいいち}に (firstly), {第二|だいに}に (secondly), {第三|だいさん}に (thirdly), and so on.\n\nCOMMON PATTERNS:\n- {第一|だいいち}に…、{第二|だいに}に…: firstly..., secondly...\n- {第二|だいに}の{理由|りゆう}は…: the second reason is...\n- {第二|だいに}に{挙|あ}げられるのは…: what can be cited second is...\n\nSIMILAR WORDS:\n- {次|つぎ}に: next — less formal; can be sequential rather than hierarchical\n- そして: and then — conversational connector\n- また: also, furthermore — adds without implying a numbered order\n- {二|ふた}つ{目|め}に: as the second item — slightly less formal alternative",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30273_tsugini",
+      "reading": "つぎに",
+      "headword": "{次|つぎ}に",
+      "label": "next"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00969_mata",
+      "reading": "また",
+      "headword": "また",
+      "label": "also, furthermore"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30351_futatsume",
+      "reading": "ふたつめ",
+      "headword": "{二|ふた}つ{目|め}",
+      "label": "as the second item"
+    }
+  ],
   "metadata": {
     "created": "2026-03-27T05:37:40Z",
-    "modified": "2026-03-27T05:37:40Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     }
   }

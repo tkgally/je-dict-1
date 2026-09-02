@@ -3,7 +3,7 @@
   "headword": "{遮光|しゃこう}",
   "reading": "しゃこう",
   "romaji": "shakou",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "light blocking; shading",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,22 @@
   ],
   "notes": "Refers to blocking or shielding from light. Very commonly seen as a modifier in compound terms for products and materials.\n\nCOMMON COLLOCATIONS:\n- {遮光|しゃこう}カーテン — blackout curtain\n- {遮光|しゃこう}{性|せい} — light-blocking property\n- {遮光|しゃこう}レンズ — tinted/shaded lens\n- {遮光|しゃこう}フィルム — light-blocking film\n- {遮光|しゃこう}{率|りつ} — light-blocking rate\n\nSIMILAR WORDS:\n- {遮断|しゃだん} — blocking, shutting off (broader; used for sound, electricity, etc.)\n- {日除|ひよ}け — sunshade, awning (physical shade from the sun)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15673_shadan",
+      "reading": "しゃだん",
+      "headword": "{遮断|しゃだん}",
+      "label": "blocking, shutting off (broader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18418_hiyoke",
+      "reading": "ひよけ",
+      "headword": "{日除|ひよ}け",
+      "label": "sunshade, awning"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +167,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-27T03:26:14Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

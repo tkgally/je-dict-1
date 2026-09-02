@@ -81,12 +81,36 @@
   ],
   "notes": "Has two related but distinct uses. In sense 1, it refers to formal ceremonies and rituals, especially religious or cultural ones. In sense 2, it means polite formality or protocol observed in social and diplomatic interactions.\n\nCOMMON COLLOCATIONS:\n- {宗教|しゅうきょう}{儀礼|ぎれい}: religious ceremony\n- {通過|つうか}{儀礼|ぎれい}: rite of passage\n- {儀礼|ぎれい}{的|てき}な: ceremonial, formal, perfunctory\n- {儀礼|ぎれい}{訪問|ほうもん}: courtesy visit\n\nSIMILAR WORDS:\n- {礼儀|れいぎ}: manners, politeness — everyday personal conduct\n- {式典|しきてん}: ceremony — a specific formal event\n- {儀式|ぎしき}: ceremony, ritual — largely synonymous with sense 1, but more focused on the structured procedure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03780_reigi",
+      "reading": "れいぎ",
+      "headword": "{礼儀|れいぎ}",
+      "label": "manners, politeness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09526_shikiten",
+      "reading": "しきてん",
+      "headword": "{式典|しきてん}",
+      "label": "ceremony"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00071_gishiki",
+      "reading": "ぎしき",
+      "headword": "{儀式|ぎしき}",
+      "label": "ceremony, ritual"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "culture"
       ],
@@ -95,6 +119,6 @@
       ]
     },
     "created": "2026-04-24T14:22:46Z",
-    "modified": "2026-04-24T14:22:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

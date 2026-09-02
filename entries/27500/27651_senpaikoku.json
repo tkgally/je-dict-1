@@ -17,7 +17,9 @@
       "id": "27651_senpaikoku_ex1",
       "japanese": "{戦敗国|せんぱいこく}は{多|おお}くの{賠償金|ばいしょうきん}を{支払|しはら}った。",
       "english": "The defeated nation paid large reparations.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27651_senpaikoku_ex2",
       "japanese": "{日本|にほん}は{第二次世界大戦|だいにじせかいたいせん}の{戦敗国|せんぱいこく}だ。",
       "english": "Japan is a defeated nation of World War II.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "27651_senpaikoku_ex3",
       "japanese": "{戦敗国|せんぱいこく}の{復興|ふっこう}は{周辺諸国|しゅうへんしょこく}の{援助|えんじょ}によって{進|すす}められた。",
       "english": "The reconstruction of the defeated nation was carried out with the help of neighboring countries.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{戦|せん} (war, battle) + {敗|ぱい} (defeat) + {国|こく} (country). A formal compound used primarily in historical, political, and journalistic writing.\n\nUSAGE: More common in writing than in speech. The synonym {敗戦国|はいせんこく} is used more frequently; both refer to the same concept.\n\nANTONYMS:\n- {戦勝国|せんしょうこく}: victorious nation\n\nSIMILAR WORDS:\n- {敗戦国|はいせんこく}: defeated nation — same meaning, more common\n- {敗者|はいしゃ}: loser, defeated party — broader, can apply to individuals\n- {戦後|せんご}: postwar — adjective/noun for the period after defeat",
+  "notes": "{戦|せん} (war, battle) + {敗|ぱい} (defeat) + {国|こく} (country). A formal compound used primarily in historical, political, and journalistic writing.\n\nUSAGE: More common in writing than in speech. The synonym {敗戦国|はいせんこく} is used more frequently; both refer to the same concept.\n\nSIMILAR WORDS:\n- {戦勝国|せんしょうこく}: victorious nation\n- {敗戦国|はいせんこく}: defeated nation — same meaning, more common\n- {敗者|はいしゃ}: loser, defeated party — broader, can apply to individuals\n- {戦後|せんご}: postwar — adjective/noun for the period after defeat",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12941_haisha",
+      "reading": "はいしゃ",
+      "headword": "{敗者|はいしゃ}",
+      "label": "loser, defeated party"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12853_sengo",
+      "reading": "せんご",
+      "headword": "{戦後|せんご}",
+      "label": "postwar"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["politics", "history"],
+      "politeness": "plain",
+      "semantic": [
+        "politics",
+        "history"
+      ],
       "domain": []
     },
     "created": "2026-05-15T04:12:19Z",
-    "modified": "2026-05-15T04:12:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

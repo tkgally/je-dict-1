@@ -3,7 +3,7 @@
   "headword": "{停止|ていし}する",
   "reading": "ていしする",
   "romaji": "teishisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to stop; to halt; to suspend",
   "definitions": [
     {
@@ -82,6 +82,57 @@
   "notes": "A する verb composed of {停|てい} (stop) + {止|し} (cease). A formal, written-style word for stopping or halting. Both transitive (to stop something) and intransitive (something stops) uses are common.\n\nCOMMON COLLOCATIONS:\n- {一時|いちじ}{停止|ていし}: temporary stop/pause\n- {運転|うんてん}{停止|ていし}: shutdown (of a machine/plant)\n- {免許|めんきょ}{停止|ていし}: license suspension\n- {活動|かつどう}を{停止|ていし}する: to cease activities\n- {緊急|きんきゅう}{停止|ていし}: emergency stop\n\nSIMILAR WORDS:\n- {止|と}まる / {止|と}める: to stop — everyday equivalent; less formal\n- {中止|ちゅうし}する: to cancel, to call off — stopping something planned before or during execution\n- {中断|ちゅうだん}する: to interrupt, to break off — implies temporary interruption with possible resumption",
   "conjugation_type": "suru",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00555_tomaru",
+      "reading": "とまる",
+      "headword": "{止|と}まる",
+      "label": "to stop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00678_tomeru",
+      "reading": "とめる",
+      "headword": "{止|と}める",
+      "label": "to stop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21909_chuushisuru",
+      "reading": "ちゅうしする",
+      "headword": "{中止|ちゅうし}する",
+      "label": "to cancel, to call off"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18998_chuudansuru",
+      "reading": "ちゅうだんする",
+      "headword": "{中断|ちゅうだん}する",
+      "label": "to interrupt, to break off"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21325_teishasuru",
+      "reading": "ていしゃする",
+      "headword": "{停車|ていしゃ}する",
+      "label": "to stop (a vehicle)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26796_seishisuru",
+      "reading": "せいしする",
+      "headword": "{静止|せいし}する",
+      "label": "to stand still"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27006_kyuushisuru",
+      "reading": "きゅうしする",
+      "headword": "{休止|きゅうし}する",
+      "label": "to suspend"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -96,7 +147,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-31T09:50:47Z",
-    "modified": "2026-03-31T09:50:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

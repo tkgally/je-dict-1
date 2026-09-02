@@ -3,7 +3,7 @@
   "id": "16398_okusoku",
   "headword": "{憶測|おくそく}",
   "reading": "おくそく",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "speculation; conjecture; guess",
   "conjugation": {
     "type": "suru",
@@ -134,11 +134,47 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{憶測|おくそく} generally has a negative connotation, implying that the conclusion drawn is not well-founded. It is common in news commentary and formal discussions.\n\nCOMMON COLLOCATIONS:\n- {憶測|おくそく}が{飛|と}び{交|か}う (speculation flies around)\n- {憶測|おくそく}で{判断|はんだん}する (to judge based on speculation)\n- {憶測|おくそく}に{過|す}ぎない (it's nothing more than speculation)\n- {憶測|おくそく}を{呼|よ}ぶ (to invite speculation)\n- {憶測|おくそく}{記事|きじ} (speculative article)\n\nKANJI NOTE:\nAlso written as {臆測|おくそく} with a different first character. Both writings are accepted and have the same meaning.",
-  "cross_references": [],
+  "notes": "USAGE:\n{憶測|おくそく} generally has a negative connotation, implying that the conclusion drawn is not well-founded. It is common in news commentary and formal discussions.\n\nCOMMON COLLOCATIONS:\n- {憶測|おくそく}が{飛|と}び{交|か}う (speculation flies around)\n- {憶測|おくそく}で{判断|はんだん}する (to judge based on speculation)\n- {憶測|おくそく}に{過|す}ぎない (it's nothing more than speculation)\n- {憶測|おくそく}を{呼|よ}ぶ (to invite speculation)\n- {憶測|おくそく}{記事|きじ} (speculative article)\n\nWRITING:\nAlso written as {臆測|おくそく} with a different first character. Both writings are accepted and have the same meaning.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12821_suisoku",
+      "reading": "すいそく",
+      "headword": "{推測|すいそく}",
+      "label": "guess"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17957_suisokusuru",
+      "reading": "すいそくする",
+      "headword": "{推測|すいそく}する",
+      "label": "to guess"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21186_atezuiryou",
+      "reading": "あてずいりょう",
+      "headword": "{当|あ}て{推量|ずいりょう}",
+      "label": "guesswork"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21807_suiryou",
+      "reading": "すいりょう",
+      "headword": "{推量|すいりょう}",
+      "label": "conjecture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21920_suiryousuru",
+      "reading": "すいりょうする",
+      "headword": "{推量|すいりょう}する",
+      "label": "to conjecture"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T05:18:59Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

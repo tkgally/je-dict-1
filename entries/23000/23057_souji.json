@@ -3,7 +3,7 @@
   "headword": "{相似|そうじ}",
   "reading": "そうじ",
   "romaji": "souji",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "similarity; resemblance; likeness",
   "definitions": [
     {
@@ -81,6 +81,36 @@
   ],
   "notes": "A compound of {相|そう} (mutual) + {似|じ} (resemble). Used across registers from everyday description to mathematical terminology.\n\nCOMMON COLLOCATIONS:\n- {相似|そうじ}している: to resemble each other\n- {相似|そうじ}{点|てん}: point of similarity\n- {相似|そうじ}{形|けい}: similar figure (geometry)\n- {相似|そうじ}{比|ひ}: similarity ratio\n\nSIMILAR WORDS:\n- {類似|るいじ}: similarity — the more common general term for resemblance between things\n- {似|に}ている: to resemble — the everyday verb for looking alike\n- {酷似|こくじ}: striking resemblance — emphasizes very close similarity\n- {合同|ごうどう}: congruence (geometry) — same shape AND same size",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14672_ruiji",
+      "reading": "るいじ",
+      "headword": "{類似|るいじ}",
+      "label": "similarity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19943_kokuji",
+      "reading": "こくじ",
+      "headword": "{酷似|こくじ}",
+      "label": "striking resemblance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04185_goudou",
+      "reading": "ごうどう",
+      "headword": "{合同|ごうどう}",
+      "label": "congruence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21772_ruijisei",
+      "reading": "るいじせい",
+      "headword": "{類似性|るいじせい}",
+      "label": "similarity"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -90,11 +120,14 @@
       ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["abstract", "science"],
+      "semantic": [
+        "abstract",
+        "science"
+      ],
       "verb_class": "suru"
     },
     "created": "2026-04-08T17:29:12Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -3,7 +3,7 @@
   "headword": "{書|か}き{損|そこ}ねる",
   "reading": "かきそこねる",
   "romaji": "kakisokoneru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to fail to write; to make a mistake in writing",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "A compound verb: {書|か}く (to write) + {損|そこ}ねる (to fail to do, to botch). The auxiliary verb 〜{損|そこ}ねる attaches to the stem of another verb to express failure or a missed opportunity. It follows the ichidan conjugation pattern.\n\nRELATED COMPOUND VERBS WITH 〜{損|そこ}ねる:\n- {言|い}い{損|そこ}ねる: to fail to say, to misspeak\n- {読|よ}み{損|そこ}ねる: to misread, to fail to read\n- {食|た}べ{損|そこ}ねる: to miss out on eating\n- {乗|の}り{損|そこ}ねる: to miss (a train, bus)\n\nSIMILAR WORDS:\n- {書|か}き{間違|まちが}える: to write incorrectly — focuses on the error itself rather than the failure\n- {書|か}き{直|なお}す: to rewrite — the action taken after making a writing mistake\n- {書|か}き{落|お}とす: to omit in writing — to accidentally leave something out",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21977_kakimachigaeru",
+      "reading": "かきまちがえる",
+      "headword": "{書|か}き{間違|まちが}える",
+      "label": "to write incorrectly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04597_kakinaosu",
+      "reading": "かきなおす",
+      "headword": "{書|か}き{直|なお}す",
+      "label": "to rewrite"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +76,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-04-05T02:21:17Z",
-    "modified": "2026-04-05T02:21:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

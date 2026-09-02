@@ -17,7 +17,9 @@
       "id": "22265_funosuu_ex1",
       "japanese": "マイナス3は{負|ふ}の{数|すう}だ。",
       "english": "Minus 3 is a negative number.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22265_funosuu_ex2",
       "japanese": "{負|ふ}の{数|すう}と{正|せい}の{数|すう}を{足|た}す。",
       "english": "To add a negative number and a positive number.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "22265_funosuu_ex3",
       "japanese": "{中学校|ちゅうがっこう}で{負|ふ}の{数|すう}の{計算|けいさん}を{初|はじ}めて{習|なら}った。",
       "english": "I first learned calculations with negative numbers in junior high school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A basic mathematical term introduced in Japanese junior high school (middle school) math. In the Japanese curriculum, negative numbers are taught in the first year of {中学校|ちゅうがっこう}.\n\nRELATED TERMS:\n- {正|せい}の{数|すう}: positive number\n- {整数|せいすう}: integer\n- {自然数|しぜんすう}: natural number\n- {絶対値|ぜったいち}: absolute value\n\nFORMATION:\n{負|ふ} (negative, minus) + の (possessive particle) + {数|すう} (number)\n\nNOTE:\nIn everyday speech, マイナス (minus) is more commonly used for temperatures and financial losses, while {負|ふ}の{数|すう} is specifically the mathematical term.",
+  "notes": "A basic mathematical term introduced in Japanese junior high school (middle school) math. In the Japanese curriculum, negative numbers are taught in the first year of {中学校|ちゅうがっこう}.\n\nRELATED WORDS:\n- {正|せい}の{数|すう}: positive number\n- {整数|せいすう}: integer\n- {自然数|しぜんすう}: natural number\n- {絶対値|ぜったいち}: absolute value\n\nFORMS:\n{負|ふ} (negative, minus) + の (possessive particle) + {数|すう} (number)\n\nUSAGE:\nIn everyday speech, マイナス (minus) is more commonly used for temperatures and financial losses, while {負|ふ}の{数|すう} is specifically the mathematical term.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04328_seisuu",
+      "reading": "せいすう",
+      "headword": "{整数|せいすう}",
+      "label": "integer"
+    },
+    {
+      "type": "related",
+      "target_id": "23397_shizensuu",
+      "reading": "しぜんすう",
+      "headword": "{自然数|しぜんすう}",
+      "label": "natural number"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["mathematics"]
+      "semantic": [
+        "mathematics"
+      ]
     },
     "created": "2026-04-05T16:27:41Z",
-    "modified": "2026-06-15T07:56:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

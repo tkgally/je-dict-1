@@ -19,7 +19,9 @@
       "english": "I received an honorarium for the lecture.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16034_sharei_ex2",
@@ -27,7 +29,9 @@
       "english": "We will give a reward to those who cooperate with the survey.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16034_sharei_ex3",
@@ -35,10 +39,12 @@
       "english": "The amount of the honorarium varies depending on the nature of the work, so please confirm in advance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{謝礼|しゃれい} implies gratitude rather than a contractual obligation. It is often used for one-time services such as lectures, consultations, survey participation, and expert advice.\n\nCOMMON COLLOCATIONS:\n- {謝礼|しゃれい}を{渡|わた}す / {支払|しはら}う (to pay an honorarium)\n- {謝礼|しゃれい}を{受|う}け{取|と}る (to receive an honorarium)\n- {講演|こうえん}{謝礼|しゃれい} (lecture honorarium)\n- {謝礼|しゃれい}{金|きん} (monetary reward)\n\nNUANCE:\nUnlike {報酬|ほうしゅう} (remuneration), which implies a formal payment for professional work, {謝礼|しゃれい} carries a stronger sense of personal gratitude and is often a token of appreciation rather than full market-rate compensation.",
+  "notes": "USAGE:\n{謝礼|しゃれい} implies gratitude rather than a contractual obligation. It is often used for one-time services such as lectures, consultations, survey participation, and expert advice.\nUnlike {報酬|ほうしゅう} (remuneration), which implies a formal payment for professional work, {謝礼|しゃれい} carries a stronger sense of personal gratitude and is often a token of appreciation rather than full market-rate compensation.\n\nCOMMON COLLOCATIONS:\n- {謝礼|しゃれい}を{渡|わた}す / {支払|しはら}う (to pay an honorarium)\n- {謝礼|しゃれい}を{受|う}け{取|と}る (to receive an honorarium)\n- {講演|こうえん}{謝礼|しゃれい} (lecture honorarium)\n- {謝礼|しゃれい}{金|きん} (monetary reward)",
   "cross_references": [
     {
       "type": "contrast",
@@ -46,18 +52,29 @@
       "reading": "ほうしゅう",
       "headword": "{報酬|ほうしゅう}",
       "label": "professional remuneration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22035_shakin",
+      "reading": "しゃきん",
+      "headword": "{謝金|しゃきん}",
+      "label": "honorarium"
     }
   ],
   "metadata": {
     "created": "2026-03-09T08:39:15Z",
-    "modified": "2026-05-02T10:22:31Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

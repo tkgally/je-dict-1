@@ -3,7 +3,7 @@
   "headword": "{可視|かし}",
   "reading": "かし",
   "romaji": "kashi",
-  "part_of_speech": "noun, adjective (の)",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "visible; visual; within the range of sight",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "22274_kashi_ex1",
       "japanese": "{可視|かし}{光線|こうせん}は{人|ひと}の{目|め}に{見|み}える{光|ひかり}だ。",
       "english": "Visible light is light that can be seen by the human eye.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22274_kashi_ex2",
       "japanese": "データの{可視|かし}{化|か}を{進|すす}める。",
       "english": "To promote data visualization.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "22274_kashi_ex3",
       "japanese": "{可視|かし}{範囲|はんい}の{外|そと}にある{星|ほし}は{望遠鏡|ぼうえんきょう}でしか{見|み}えない。",
       "english": "Stars outside the visible range can only be seen with a telescope.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Primarily used as a prefix in compound words rather than as a standalone adjective. Appears frequently in scientific, technical, and business contexts.\n\nCOMMON COMPOUNDS:\n- {可視|かし}{光|こう}/{可視|かし}{光線|こうせん}: visible light\n- {可視|かし}{化|か}: visualization (making data or processes visible)\n- {可視|かし}{範囲|はんい}: visible range\n- {可視|かし}{領域|りょういき}: visible spectrum/domain\n\nOPPOSITE:\n- {不可視|ふかし}: invisible, non-visible\n- {赤外線|せきがいせん}: infrared (below visible light)\n- {紫外線|しがいせん}: ultraviolet (above visible light)\n\nFORMATION:\n{可|か} (possible) + {視|し} (to see) — literally \"can be seen\"",
+  "notes": "Primarily used as a prefix in compound words rather than as a standalone adjective. Appears frequently in scientific, technical, and business contexts.\n\nCOMPOUNDS:\n- {可視|かし}{光|こう}/{可視|かし}{光線|こうせん}: visible light\n- {可視|かし}{化|か}: visualization (making data or processes visible)\n- {可視|かし}{範囲|はんい}: visible range\n- {可視|かし}{領域|りょういき}: visible spectrum/domain\n\nSIMILAR WORDS:\n- {不可視|ふかし}: invisible, non-visible\n- {赤外線|せきがいせん}: infrared (below visible light)\n- {紫外線|しがいせん}: ultraviolet (above visible light)\n\nFORMS:\n{可|か} (possible) + {視|し} (to see) — literally \"can be seen\"",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15005_sekigaisen",
+      "reading": "せきがいせん",
+      "headword": "{赤外線|せきがいせん}",
+      "label": "infrared"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07375_shigaisen",
+      "reading": "しがいせん",
+      "headword": "{紫外線|しがいせん}",
+      "label": "ultraviolet"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["science"]
+      "semantic": [
+        "science"
+      ]
     },
     "created": "2026-04-05T16:34:00Z",
-    "modified": "2026-04-05T16:34:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

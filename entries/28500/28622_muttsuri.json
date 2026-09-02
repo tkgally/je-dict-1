@@ -3,7 +3,7 @@
   "headword": "むっつり",
   "reading": "むっつり",
   "romaji": "muttsuri",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "sullenly; silently; taciturn",
   "definitions": [
     {
@@ -52,6 +52,13 @@
       "reading": "むすっと",
       "headword": "むすっと",
       "label": "sullenly; in a sulk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06644_mukuchi",
+      "reading": "むくち",
+      "headword": "{無口|むくち}",
+      "label": "taciturn"
     }
   ],
   "schema_version": "2.0",
@@ -63,7 +70,7 @@
         "onomatopoeia"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "action"
@@ -71,6 +78,6 @@
       "domain": []
     },
     "created": "2026-06-03T02:08:21Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

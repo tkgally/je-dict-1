@@ -2,7 +2,7 @@
   "id": "00710_kaigi",
   "headword": "{会議|かいぎ}",
   "reading": "かいぎ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "meeting, conference",
   "conjugation": {
     "type": "suru",
@@ -133,11 +133,68 @@
       ]
     }
   ],
-  "notes": "{会議|かいぎ} is a common business term for meeting or conference.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- No standard transitive pair\n- Pattern: {会議|かいぎ}する\n\nVERB USAGE:\n- {会議|かいぎ}する: to hold a meeting\n- {会議|かいぎ}を⟦{開|ひら}く→{開|ひら}く：01979_hiraku⟧: to hold/open a meeting\n- {会議|かいぎ}に⟦{出|で}る→{出|で}る：00513_deru⟧: to attend a meeting\n- {会議|かいぎ}に⟦{出席|しゅっせき}→{出席|しゅっせき}：02084_shusseki⟧する: to attend a meeting (formal)\n\nTYPES OF MEETINGS:\n- ⟦{定例|ていれい}→{定例|ていれい}：11502_teirei⟧{会議|かいぎ}: regular meeting\n- ⟦{緊急|きんきゅう}→{緊急|きんきゅう}：11327_kinkyuu⟧{会議|かいぎ}: emergency meeting\n- ⟦{役員|やくいん}→{役員|やくいん}：11329_yakuin⟧{会議|かいぎ}: board meeting\n- ⟦オンライン→オンライン：05278_onrain⟧{会議|かいぎ}: online meeting\n- ⟦ビデオ→ビデオ：01499_bideo⟧{会議|かいぎ}: video conference\n\nRELATED TERMS:\n- ⟦{会議室|かいぎしつ}→{会議室|かいぎしつ}：01265_kaigishitsu⟧: meeting room\n- {会議|かいぎ}⟦{中|ちゅう}→〜{中|ちゅう}：09840_chuu⟧: in a meeting\n- ⟦{議題|ぎだい}→{議題|ぎだい}：11330_gidai⟧: agenda item\n- ⟦{議事録|ぎじろく}→{議事録|ぎじろく}：07482_gijiroku⟧: meeting minutes",
-  "cross_references": [],
+  "notes": "{会議|かいぎ} is a common business term for meeting or conference.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- No standard transitive pair\n- Pattern: {会議|かいぎ}する\n\nVERB USAGE:\n- {会議|かいぎ}する: to hold a meeting\n- {会議|かいぎ}を⟦{開|ひら}く→{開|ひら}く：01979_hiraku⟧: to hold/open a meeting\n- {会議|かいぎ}に⟦{出|で}る→{出|で}る：00513_deru⟧: to attend a meeting\n- {会議|かいぎ}に⟦{出席|しゅっせき}→{出席|しゅっせき}：02084_shusseki⟧する: to attend a meeting (formal)\n\nTYPES OF MEETINGS:\n- ⟦{定例|ていれい}→{定例|ていれい}：11502_teirei⟧{会議|かいぎ}: regular meeting\n- ⟦{緊急|きんきゅう}→{緊急|きんきゅう}：11327_kinkyuu⟧{会議|かいぎ}: emergency meeting\n- ⟦{役員|やくいん}→{役員|やくいん}：11329_yakuin⟧{会議|かいぎ}: board meeting\n- ⟦オンライン→オンライン：05278_onrain⟧{会議|かいぎ}: online meeting\n- ⟦ビデオ→ビデオ：01499_bideo⟧{会議|かいぎ}: video conference\n\nRELATED WORDS:\n- ⟦{会議室|かいぎしつ}→{会議室|かいぎしつ}：01265_kaigishitsu⟧: meeting room\n- {会議|かいぎ}⟦{中|ちゅう}→〜{中|ちゅう}：09840_chuu⟧: in a meeting\n- ⟦{議題|ぎだい}→{議題|ぎだい}：11330_gidai⟧: agenda item\n- ⟦{議事録|ぎじろく}→{議事録|ぎじろく}：07482_gijiroku⟧: meeting minutes",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11330_gidai",
+      "reading": "ぎだい",
+      "headword": "{議題|ぎだい}",
+      "label": "agenda item"
+    },
+    {
+      "type": "related",
+      "target_id": "07482_gijiroku",
+      "reading": "ぎじろく",
+      "headword": "{議事録|ぎじろく}",
+      "label": "meeting minutes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04228_uchiawaseru",
+      "reading": "うちあわせる",
+      "headword": "{打|う}ち{合|あ}わせる",
+      "label": "to arrange"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11542_kaidan",
+      "reading": "かいだん",
+      "headword": "{会談|かいだん}",
+      "label": "conference, talks, meeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17068_teireikai",
+      "reading": "ていれいかい",
+      "headword": "{定例会|ていれいかい}",
+      "label": "regular meeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19693_kondankai",
+      "reading": "こんだんかい",
+      "headword": "{懇談会|こんだんかい}",
+      "label": "informal meeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21902_kyougikai",
+      "reading": "きょうぎかい",
+      "headword": "{協議会|きょうぎかい}",
+      "label": "council"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28191_hanseikai",
+      "reading": "はんせいかい",
+      "headword": "{反省会|はんせいかい}",
+      "label": "review meeting"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:50:02Z",
-    "modified": "2026-05-12T17:12:19Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

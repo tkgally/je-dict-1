@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {発|ほつ} (emit, develop) and {疹|しん} (rash). Can also be read はっしん, though ほっしん is more common in medical and everyday usage. The duplicate check flagged entry 20451 ({発信|はっしん}, transmission) as sharing the same kanji with a different reading — these are unrelated words.\n\nCOMMON COLLOCATIONS:\n- {発疹|ほっしん}が{出|で}る: a rash appears\n- {発疹|ほっしん}が{広|ひろ}がる: a rash spreads\n- アレルギー{性|せい}{発疹|ほっしん}: allergic rash\n- {薬疹|やくしん}: drug-induced rash\n\nSIMILAR WORDS:\n- {湿疹|しっしん}: eczema — a specific type of chronic or recurring skin inflammation\n- かぶれ: rash from contact — typically caused by touching an irritant (plants, chemicals)\n- {蕁麻疹|じんましん}: hives, urticaria — raised itchy welts, often from allergies",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06951_shisshin",
+      "reading": "しっしん",
+      "headword": "{湿疹|しっしん}",
+      "label": "eczema"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25271_kabure",
+      "reading": "かぶれ",
+      "headword": "かぶれ",
+      "label": "rash from contact"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15182_jinmashin",
+      "reading": "じんましん",
+      "headword": "{蕁麻疹|じんましん}",
+      "label": "hives, urticaria"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-08T19:20:39Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

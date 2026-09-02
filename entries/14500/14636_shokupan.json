@@ -19,7 +19,9 @@
       "english": "I bought one loaf of bread.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14636_shokupan_ex2",
@@ -27,7 +29,9 @@
       "english": "In the morning I eat toast with butter.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14636_shokupan_ex3",
@@ -35,21 +39,42 @@
       "english": "This shop's bread is popular because it's soft all the way to the crust.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Short for {主食|しゅしょく}パン (staple bread). Refers specifically to the rectangular white loaf sold at bakeries and supermarkets, as distinct from other bread types like フランスパン (baguette) or {菓子|かし}パン (sweet bread).\n\nCOMMON COLLOCATIONS:\n- {食|しょく}パンを{焼|や}く (toast bread)\n- {食|しょく}パンの{耳|みみ} (bread crust — literally \"ears\")\n- {六枚切|ろくまいぎ}りの{食|しょく}パン (bread sliced into six)\n\nIn Japan, {食|しょく}パン is typically sold in thicker slices than Western bread. The most popular thickness is {六枚切|ろくまいぎ}り (6 slices per loaf), though {四枚切|よんまいぎ}り (4 slices, thick) is common in the Kansai region.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20532_toosuto",
+      "reading": "とーすと",
+      "headword": "トースト",
+      "label": "toast"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26512_komekopan",
+      "reading": "こめこぱん",
+      "headword": "{米粉|こめこ}パン",
+      "label": "rice flour bread"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T09:29:48Z",
-    "modified": "2026-03-02T09:29:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

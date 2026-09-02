@@ -43,11 +43,40 @@
       ]
     }
   ],
-  "notes": "From English 'bell'. ベル refers to various types of bells that produce a ringing sound.\n\nCOMMON EXPRESSIONS:\n- ベル⟦が→が：00051_ga⟧⟦{鳴|な}る→鳴る：01143_naru⟧: the bell rings\n- ベル⟦を→を：00422_wo⟧⟦{押|お}す→押す：02854_osu⟧: to press the bell (doorbell)\n- ベル⟦を→を：00422_wo⟧⟦{鳴|な}らす→鳴らす：02381_narasu⟧: to ring the bell\n\nTYPES:\n- ⟦ドア→ドア：00773_doa⟧ベル: doorbell\n- ⟦{呼|よ}び{鈴|りん}→呼び鈴：21575_yobirin⟧: call bell\n- ⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦の→の：09472_no⟧ベル: bicycle bell\n- ⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦の→の：09472_no⟧ベル: class bell\n\nRELATED:\n- ⟦{鈴|すず}→鈴：03890_suzu⟧: small bell, jingle bell (traditional Japanese style)\n- ⟦{鐘|かね}→鐘：02654_kane⟧: large bell (temple bell)\n- ⟦チャイム→チャイム：00024_chaimu⟧: chime (often used for school bells)",
-  "cross_references": [],
+  "notes": "From English 'bell'. ベル refers to various types of bells that produce a ringing sound.\n\nCOMMON EXPRESSIONS:\n- ベル⟦が→が：00051_ga⟧⟦{鳴|な}る→鳴る：01143_naru⟧: the bell rings\n- ベル⟦を→を：00422_wo⟧⟦{押|お}す→押す：02854_osu⟧: to press the bell (doorbell)\n- ベル⟦を→を：00422_wo⟧⟦{鳴|な}らす→鳴らす：02381_narasu⟧: to ring the bell\n\nTYPES:\n- ⟦ドア→ドア：00773_doa⟧ベル: doorbell\n- ⟦{呼|よ}び{鈴|りん}→呼び鈴：21575_yobirin⟧: call bell\n- ⟦{自転車|じてんしゃ}→自転車：00633_jitensha⟧⟦の→の：09472_no⟧ベル: bicycle bell\n- ⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦の→の：09472_no⟧ベル: class bell\n\nRELATED WORDS:\n- ⟦{鈴|すず}→鈴：03890_suzu⟧: small bell, jingle bell (traditional Japanese style)\n- ⟦{鐘|かね}→鐘：02654_kane⟧: large bell (temple bell)\n- ⟦チャイム→チャイム：00024_chaimu⟧: chime (often used for school bells)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03890_suzu",
+      "reading": "すず",
+      "headword": "{鈴|すず}",
+      "label": "small bell, jingle bell"
+    },
+    {
+      "type": "related",
+      "target_id": "02654_kane",
+      "reading": "かね",
+      "headword": "{鐘|かね}",
+      "label": "large bell"
+    },
+    {
+      "type": "related",
+      "target_id": "00024_chaimu",
+      "reading": "ちゃいむ",
+      "headword": "チャイム",
+      "label": "chime"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21575_yobirin",
+      "reading": "よびりん",
+      "headword": "{呼|よ}び{鈴|りん}",
+      "label": "doorbell"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T03:55:00Z",
-    "modified": "2026-05-15T14:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

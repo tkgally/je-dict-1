@@ -19,7 +19,9 @@
       "english": "To place a stone on the go board.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13716_goban_ex2",
@@ -27,7 +29,9 @@
       "english": "I inherited the go board my grandfather used to use.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13716_goban_ex3",
@@ -35,21 +39,50 @@
       "english": "The streets of Kyoto are laid out in a grid pattern like a go board.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nThe expression {碁盤|ごばん}の{目|め} (go-board grid) is a common metaphor for a neat grid pattern, especially when describing city street layouts like those of {京都|きょうと} and {奈良|なら}.\n\nCOMMON COLLOCATIONS:\n- {碁盤|ごばん}の{目|め}: grid pattern (like a go board)\n- {碁盤|ごばん}に{向|む}かう: to sit down at a go board\n- {碁盤|ごばん}の{目|め}のような{街|まち}: a city with grid-pattern streets\n- {碁盤|ごばん}{目状|めじょう}: in a grid pattern",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19754_goishi",
+      "reading": "ごいし",
+      "headword": "{碁石|ごいし}",
+      "label": "Go stone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24835_shougiban",
+      "reading": "しょうぎばん",
+      "headword": "{将棋盤|しょうぎばん}",
+      "label": "shogi board"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26232_banjou",
+      "reading": "ばんじょう",
+      "headword": "{盤上|ばんじょう}",
+      "label": "on the board"
+    }
+  ],
   "metadata": {
     "created": "2026-02-26T13:36:03Z",
-    "modified": "2026-02-26T13:36:03Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure", "tool"]
+      "semantic": [
+        "leisure",
+        "tool"
+      ]
     }
   }
 }

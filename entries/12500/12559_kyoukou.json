@@ -3,7 +3,7 @@
   "id": "12559_kyoukou",
   "headword": "{強行|きょうこう}",
   "reading": "きょうこう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "forcing through, pushing ahead despite opposition",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,32 @@
     }
   ],
   "notes": "USAGE:\nCarries a negative nuance in many contexts, suggesting recklessness or disregard for others' opinions. Common in news reporting about political decisions, construction projects, or events held despite opposition.\n\nDo not confuse with the homophone {強硬|きょうこう} (hard-line, uncompromising), which describes an attitude or stance rather than an action.\n\nCOMMON COLLOCATIONS:\n- {強行|きょうこう}{採決|さいけつ}: forced vote, ramming a vote through\n- {強行|きょうこう}{突破|とっぱ}: forcing one's way through\n- {強行|きょうこう}{軍|ぐん}: forced march\n- {強行|きょうこう}する: to force through, to carry out by force",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "17078_kyoukou",
+      "reading": "きょうこう",
+      "headword": "{凶行|きょうこう}",
+      "label": "violent act"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21480_kankou",
+      "reading": "かんこう",
+      "headword": "{敢行|かんこう}",
+      "label": "bold execution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21868_kankousuru",
+      "reading": "かんこうする",
+      "headword": "{敢行|かんこう}する",
+      "label": "to carry out boldly"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T13:23:20Z",
-    "modified": "2026-07-06T12:49:19Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

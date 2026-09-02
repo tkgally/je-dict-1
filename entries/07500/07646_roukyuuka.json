@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{建物|たてもの}の{老朽化|ろうきゅうか} - building deterioration\n・{設備|せつび}の{老朽化|ろうきゅうか} - equipment aging\n・インフラの{老朽化|ろうきゅうか} - infrastructure deterioration\n・{老朽化|ろうきゅうか}した{橋|はし} - an aging bridge\n・{老朽化|ろうきゅうか}{対策|たいさく} - measures against deterioration\n\nUSAGE NOTES:\nPrimarily used for physical structures and equipment, not for people (though {老化|ろうか} can be used for biological aging).\n\nRELATED WORDS:\n・{劣化|れっか} - deterioration, degradation (more general)\n・{老化|ろうか} - aging (biological)",
+  "notes": "COMMON COLLOCATIONS:\n- {建物|たてもの}の{老朽化|ろうきゅうか} - building deterioration\n- {設備|せつび}の{老朽化|ろうきゅうか} - equipment aging\n- インフラの{老朽化|ろうきゅうか} - infrastructure deterioration\n- {老朽化|ろうきゅうか}した{橋|はし} - an aging bridge\n- {老朽化|ろうきゅうか}{対策|たいさく} - measures against deterioration\n\nUSAGE:\nPrimarily used for physical structures and equipment, not for people (though {老化|ろうか} can be used for biological aging).\n\nRELATED WORDS:\n- {劣化|れっか} - deterioration, degradation (more general)\n- {老化|ろうか} - aging (biological)",
   "cross_references": [
     {
       "type": "related",
@@ -138,11 +138,32 @@
       "headword": "{劣化|れっか}",
       "label": "deterioration",
       "target_id": "07647_rekka"
+    },
+    {
+      "type": "related",
+      "target_id": "13905_rouka",
+      "reading": "ろうか",
+      "headword": "{老化|ろうか}",
+      "label": "aging"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22517_furubokeru",
+      "reading": "ふるぼける",
+      "headword": "{古|ふる}ぼける",
+      "label": "to look old and worn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28785_boroi",
+      "reading": "ぼろい",
+      "headword": "ぼろい",
+      "label": "shabby"
     }
   ],
   "metadata": {
     "created": "2026-01-20T13:21:59Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +172,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "change"
       ],

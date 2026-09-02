@@ -3,7 +3,7 @@
   "headword": "{再診|さいしん}",
   "reading": "さいしん",
   "romaji": "saishin",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "follow-up medical visit; re-examination (by a doctor)",
   "definitions": [
     {
@@ -61,7 +61,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-11T14:19:23Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",
@@ -160,6 +160,41 @@
       "reading": "しょしん",
       "headword": "{初診|しょしん}",
       "label": "first visit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03259_shinsatsu",
+      "reading": "しんさつ",
+      "headword": "{診察|しんさつ}",
+      "label": "medical examination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11890_jushin",
+      "reading": "じゅしん",
+      "headword": "{受診|じゅしん}",
+      "label": "seeing a doctor, consultation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05975_tsuuin",
+      "reading": "つういん",
+      "headword": "{通院|つういん}",
+      "label": "going to the hospital/clinic…"
+    },
+    {
+      "type": "related",
+      "target_id": "09709_shinsatsuken",
+      "reading": "しんさつけん",
+      "headword": "{診察券|しんさつけん}",
+      "label": "patient registration card"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23339_saikensa",
+      "reading": "さいけんさ",
+      "headword": "{再検査|さいけんさ}",
+      "label": "reexamination"
     }
   ]
 }

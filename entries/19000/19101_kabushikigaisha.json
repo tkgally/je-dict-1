@@ -17,7 +17,9 @@
       "id": "19101_kabushikigaisha_ex1",
       "japanese": "{株式会社|かぶしきがいしゃ}を{設立|せつりつ}した。",
       "english": "I established a corporation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19101_kabushikigaisha_ex2",
       "japanese": "{彼|かれ}は{株式会社|かぶしきがいしゃ}ABCの{社長|しゃちょう}です。",
       "english": "He is the president of ABC Corporation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "19101_kabushikigaisha_ex3",
       "japanese": "{日本|にほん}で{株式会社|かぶしきがいしゃ}を{作|つく}るには、{資本金|しほんきん}が{一円|いちえん}から{可能|かのう}になった。",
       "english": "In Japan, it has become possible to create a corporation with as little as one yen in capital.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Often abbreviated as ({株|かぶ}) in written contexts, placed either before or after the company name: {株式会社|かぶしきがいしゃ}トヨタ or トヨタ{株式会社|かぶしきがいしゃ}. The position (before or after) is determined by the company's official registration. Other Japanese corporate forms include {合同会社|ごうどうがいしゃ} (LLC, abbreviated {合|ごう}), {合資会社|ごうしがいしゃ} (limited partnership), and {合名会社|ごうめいがいしゃ} (general partnership). Colloquially often shortened to {株|かぶ} when referring to shares or the stock market.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24678_eirihoujin",
+      "reading": "えいりほうじん",
+      "headword": "{営利法人|えいりほうじん}",
+      "label": "for-profit corporation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27499_yuugengaisha",
+      "reading": "ゆうげんがいしゃ",
+      "headword": "{有限会社|ゆうげんがいしゃ}",
+      "label": "limited liability company"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-03-24T09:39:14Z",
-    "modified": "2026-03-24T09:39:14Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "26330_senbun_ex1",
       "japanese": "{線分|せんぶん}ABの{長|なが}さを{求|もと}めなさい。",
       "english": "Find the length of line segment AB.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26330_senbun_ex2",
       "japanese": "{二点|にてん}を{結|むす}ぶ{線分|せんぶん}を{引|ひ}いた。",
       "english": "I drew a line segment connecting two points.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,44 @@
       "id": "26330_senbun_ex3",
       "japanese": "{三角形|さんかっけい}の{各辺|かくへん}は{線分|せんぶん}であり、その{長|なが}さの{合計|ごうけい}が{周|しゅう}の{長|なが}さになる。",
       "english": "Each side of a triangle is a line segment, and the sum of their lengths is the perimeter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {線|せん} (line) and {分|ぶん} (part, segment). A fundamental geometry term taught in elementary and middle school mathematics. The concept distinguishes a bounded portion of a line (with two endpoints) from a full {直線|ちょくせん} (line, extending infinitely) or a {半直線|はんちょくせん} (ray, extending infinitely in one direction).\n\nCOMMON COLLOCATIONS:\n- {線分|せんぶん}の{長|なが}さ: length of a line segment\n- {線分|せんぶん}の{中点|ちゅうてん}: midpoint of a line segment\n- {線分|せんぶん}を{引|ひ}く: to draw a line segment\n- {線分|せんぶん}ABを{二等分|にとうぶん}する: to bisect line segment AB\n\nRELATED TERMS:\n- {直線|ちょくせん}: straight line — extends infinitely in both directions\n- {半直線|はんちょくせん}: ray — has one endpoint, extends infinitely in one direction\n- {辺|へん}: side (of a polygon) — a line segment forming part of a shape",
-  "cross_references": [],
+  "notes": "Composed of {線|せん} (line) and {分|ぶん} (part, segment). A fundamental geometry term taught in elementary and middle school mathematics. The concept distinguishes a bounded portion of a line (with two endpoints) from a full {直線|ちょくせん} (line, extending infinitely) or a {半直線|はんちょくせん} (ray, extending infinitely in one direction).\n\nCOMMON COLLOCATIONS:\n- {線分|せんぶん}の{長|なが}さ: length of a line segment\n- {線分|せんぶん}の{中点|ちゅうてん}: midpoint of a line segment\n- {線分|せんぶん}を{引|ひ}く: to draw a line segment\n- {線分|せんぶん}ABを{二等分|にとうぶん}する: to bisect line segment AB\n\nRELATED WORDS:\n- {直線|ちょくせん}: straight line — extends infinitely in both directions\n- {半直線|はんちょくせん}: ray — has one endpoint, extends infinitely in one direction\n- {辺|へん}: side (of a polygon) — a line segment forming part of a shape",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05440_chokusen",
+      "reading": "ちょくせん",
+      "headword": "{直線|ちょくせん}",
+      "label": "straight line"
+    },
+    {
+      "type": "related",
+      "target_id": "00937_hen",
+      "reading": "へん",
+      "headword": "{辺|へん}",
+      "label": "side"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["science"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "science"
+      ]
     },
     "created": "2026-04-30T16:26:09Z",
-    "modified": "2026-08-05T09:33:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -16,7 +16,9 @@
       "id": "08085_nomigotae_ex1",
       "japanese": "このスムージーは{飲|の}みごたえがある。",
       "english": "This smoothie is satisfying to drink.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "08085_nomigotae_ex2",
       "japanese": "{飲|の}みごたえのあるビールを{探|さが}している。",
       "english": "I'm looking for a beer with good body.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,20 +36,44 @@
       "id": "08085_nomigotae_ex3",
       "japanese": "タピオカミルクティーは{飲|の}みごたえがあって{人気|にんき}だ。",
       "english": "Bubble tea is popular because it's satisfying to drink.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{飲|の}みごたえ refers to the satisfying quality of a beverage, particularly its body or substance.\n\nPATTERN:\n{飲|の}み + ごたえ: satisfaction/substance when drinking\n\nCOMMON EXPRESSIONS:\n- {飲|の}みごたえがある: to be satisfying to drink\n- {飲|の}みごたえのある + noun: a satisfying ~\n\nRELATED 〜ごたえ WORDS:\n- {食|た}べごたえ: satisfying to eat (filling)\n- {見|み}ごたえ: worth watching\n- {読|よ}みごたえ: worth reading\n- {やり}ごたえ: satisfying to do",
+  "notes": "{飲|の}みごたえ refers to the satisfying quality of a beverage, particularly its body or substance.\n\nCOMMON PATTERNS:\n{飲|の}み + ごたえ: satisfaction/substance when drinking\n\nCOMMON EXPRESSIONS:\n- {飲|の}みごたえがある: to be satisfying to drink\n- {飲|の}みごたえのある + noun: a satisfying ~\n\nRELATED 〜ごたえ WORDS:\n- {食|た}べごたえ: satisfying to eat (filling)\n- {見|み}ごたえ: worth watching\n- {読|よ}みごたえ: worth reading\n- やりごたえ: satisfying to do",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08039_tabegotae",
+      "reading": "たべごたえ",
+      "headword": "{食|た}べごたえ",
+      "label": "satisfying to eat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16473_nodogoshi",
+      "reading": "のどごし",
+      "headword": "{喉越|のどご}し",
+      "label": "the feel of food or drink going down the throat"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["consumption", "food"]
+      "politeness": "plain",
+      "semantic": [
+        "consumption",
+        "food"
+      ]
     },
     "created": "2026-01-25T01:25:57Z",
-    "modified": "2026-06-21T13:03:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

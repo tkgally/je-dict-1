@@ -19,7 +19,9 @@
       "english": "I painted a picture with paints.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16182_enogu_ex2",
@@ -27,7 +29,9 @@
       "english": "I ran out of red paint.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16182_enogu_ex3",
@@ -35,21 +39,43 @@
       "english": "During art class, I used watercolors to paint a landscape.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{絵|え}の{具|ぐ} is the general word for art paints. It is a standard item in Japanese school supplies, with {水彩|すいさい}{絵|え}の{具|ぐ} (watercolors) being the most common type used in elementary school art classes ({図工|ずこう}). The word {具|ぐ} here means \"tool\" or \"material.\"\n\nCOMMON COLLOCATIONS:\n- {水彩|すいさい}{絵|え}の{具|ぐ} (watercolor paints)\n- {油|あぶら}{絵|え}の{具|ぐ} (oil paints)\n- {絵|え}の{具|ぐ}セット (paint set)\n- {絵|え}の{具|ぐ}を{混|ま}ぜる (to mix paints)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00342_penki",
+      "reading": "ぺんき",
+      "headword": "ペンキ",
+      "label": "paint"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25640_suisaienogu",
+      "reading": "すいさいえのぐ",
+      "headword": "{水彩絵具|すいさいえのぐ}",
+      "label": "watercolor paint"
+    }
+  ],
   "metadata": {
     "created": "2026-03-11T01:02:43Z",
-    "modified": "2026-03-11T01:02:43Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["art", "tool"]
+      "semantic": [
+        "art",
+        "tool"
+      ]
     }
   }
 }

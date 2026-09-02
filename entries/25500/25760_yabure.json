@@ -17,7 +17,9 @@
       "id": "25760_yabure_ex1",
       "japanese": "シャツに{破|やぶ}れがある。",
       "english": "There's a tear in the shirt.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25760_yabure_ex2",
       "japanese": "{障子|しょうじ}の{破|やぶ}れを{直|なお}さなければならない。",
       "english": "I need to fix the tear in the paper sliding door.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,44 @@
       "id": "25760_yabure_ex3",
       "japanese": "{袋|ふくろ}の{破|やぶ}れから{中身|なかみ}がこぼれてしまった。",
       "english": "The contents spilled out through the tear in the bag.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The nominalized form of the ichidan verb {破|やぶ}れる (to tear, to be torn). Refers specifically to physical damage — a rip, hole, or torn spot in a material.\n\nCOMMON COLLOCATIONS:\n- {破|やぶ}れを{直|なお}す: to repair a tear\n- {破|やぶ}れを{繕|つくろ}う: to mend a tear\n- {破|やぶ}れがある: to have a tear\n- {破|やぶ}れ{目|め}: the torn spot; the rip\n\nSIMILAR WORDS:\n- {穴|あな}: hole — a broader term for any opening, not necessarily from tearing\n- {裂|さ}け{目|め}: split; crack — a long narrow tear, often in a harder material\n- ほころび: coming apart at the seams — a smaller, more gradual kind of opening in fabric",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01691_ana",
+      "reading": "あな",
+      "headword": "{穴|あな}",
+      "label": "hole"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10042_sakeme",
+      "reading": "さけめ",
+      "headword": "{裂|さ}け{目|め}",
+      "label": "split"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "daily-life"
+      ]
     },
     "created": "2026-04-27T12:16:06Z",
-    "modified": "2026-04-27T12:16:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

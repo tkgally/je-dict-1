@@ -2,7 +2,7 @@
   "id": "02608_kyuushuu",
   "headword": "{吸収|きゅうしゅう}",
   "reading": "きゅうしゅう",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "absorption, suction, assimilation",
   "conjugation": {
     "type": "suru",
@@ -169,10 +169,32 @@
     }
   ],
   "notes": "{吸収|きゅうしゅう} means absorption, both physical and metaphorical.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{吸収|きゅうしゅう}する\n\nCOMMON PATTERNS:\n- {吸収|きゅうしゅう}する (to absorb)\n- {吸収|きゅうしゅう}される (to be absorbed)\n- 〜⟦を→を：00422_wo⟧{吸収|きゅうしゅう}する (to absorb ~)\n\nPHYSICAL USAGE:\n- ⟦{水分|すいぶん}→水分：04302_suibun⟧⟦を→を：00422_wo⟧{吸収|きゅうしゅう}する (to absorb moisture)\n- ⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦を→を：00422_wo⟧{吸収|きゅうしゅう}する (to absorb nutrients)\n\nABSTRACT USAGE:\n- ⟦{知識|ちしき}→知識：01463_chishiki⟧⟦を→を：00422_wo⟧{吸収|きゅうしゅう}する (to absorb knowledge)\n- ⟦{文化|ぶんか}→文化：01504_bunka⟧⟦を→を：00422_wo⟧{吸収|きゅうしゅう}する (to absorb culture)\n\nBUSINESS:\n- ⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦を→を：00422_wo⟧{吸収|きゅうしゅう}する (to absorb/acquire a company)\n- {吸収|きゅうしゅう}⟦{合併|がっぺい}→合併：04778_gappei⟧ (absorption merger)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08390_hansha",
+      "reading": "はんしゃ",
+      "headword": "{反射|はんしゃ}",
+      "label": "reflection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19670_heigou",
+      "reading": "へいごう",
+      "headword": "{併合|へいごう}",
+      "label": "annexation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24162_kyuuin",
+      "reading": "きゅういん",
+      "headword": "{吸引|きゅういん}",
+      "label": "suction"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:43:53Z",
-    "modified": "2026-05-21T16:10:36Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

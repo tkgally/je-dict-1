@@ -19,7 +19,9 @@
       "english": "I accepted his offer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13560_moushide_ex2",
@@ -27,7 +29,9 @@
       "english": "Numerous offers to volunteer were received.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13560_moushide_ex3",
@@ -35,7 +39,9 @@
       "english": "Please inform your supervisor of your resignation request at least one month in advance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal noun derived from the verb {申|もう}し{出|で}る. Used to refer to offers, proposals, and requests in business, administrative, and official settings.\n\nCOMMON COLLOCATIONS:\n- {申|もう}し{出|で}を{受|う}ける (receive an offer)\n- {申|もう}し{出|で}を{受|う}け{入|い}れる (accept an offer)\n- {申|もう}し{出|で}を{断|ことわ}る (decline an offer)\n- {退職|たいしょく}の{申|もう}し{出|で} (resignation request)\n\nSIMILAR WORDS:\n- {提案|ていあん}: proposal, suggestion (more about ideas or plans)\n- {申請|しんせい}: application, formal request (more bureaucratic, involves paperwork)\n- {申|もう}し{込|こ}み: application, entry (specifically for registering or signing up for something)",
@@ -47,17 +53,43 @@
       "note": "verb form"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03536_teian",
+      "reading": "ていあん",
+      "headword": "{提案|ていあん}",
+      "label": "proposal, suggestion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04207_shinsei",
+      "reading": "しんせい",
+      "headword": "{申請|しんせい}",
+      "label": "application, formal request"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03161_moushikomi",
+      "reading": "もうしこみ",
+      "headword": "{申|もう}し{込|こ}み",
+      "label": "application, entry"
+    }
+  ],
   "metadata": {
     "created": "2026-02-25T14:28:22Z",
-    "modified": "2026-04-24T07:04:04Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

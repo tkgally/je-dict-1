@@ -17,7 +17,9 @@
       "id": "20172_ushirogawa_ex1",
       "japanese": "{後|うし}ろ{側|がわ}に{回|まわ}る。",
       "english": "To go around to the back.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20172_ushirogawa_ex2",
       "japanese": "{車|くるま}の{後|うし}ろ{側|がわ}に{傷|きず}がある。",
       "english": "There's a scratch on the back of the car.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "20172_ushirogawa_ex3",
       "japanese": "{会場|かいじょう}の{後|うし}ろ{側|がわ}の{席|せき}はまだ{空|あ}いている。",
       "english": "The seats at the back of the venue are still available.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {後|うし}ろ (behind, back) and {側|がわ} (side). Part of the directional {側|がわ} series along with {前側|まえがわ} (front side), {右側|みぎがわ} (right side), {左側|ひだりがわ} (left side).\n\nCOMMON COLLOCATIONS:\n- {後|うし}ろ{側|がわ}の{席|せき} — back seat\n- {後|うし}ろ{側|がわ}から{見|み}る — to look from behind\n- {建物|たてもの}の{後|うし}ろ{側|がわ} — the back of a building\n\nSIMILAR WORDS:\n- {背面|はいめん} — back surface, rear (more formal/technical)\n- {裏側|うらがわ} — reverse side, back side (for flat objects, or hidden side)\n- {前側|まえがわ} — front side (antonym)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20610_haimen",
+      "reading": "はいめん",
+      "headword": "{背面|はいめん}",
+      "label": "back surface, rear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03042_uragawa",
+      "reading": "うらがわ",
+      "headword": "{裏側|うらがわ}",
+      "label": "reverse side, back side"
+    },
+    {
+      "type": "antonym",
+      "target_id": "20171_maegawa",
+      "reading": "まえがわ",
+      "headword": "{前側|まえがわ}",
+      "label": "front side"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["position"]
+      "semantic": [
+        "position"
+      ]
     },
     "created": "2026-03-28T15:12:49Z",
-    "modified": "2026-03-28T15:12:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -128,7 +128,7 @@
       ]
     }
   ],
-  "notes": "お{姉|ねえ}さん is the polite term for 'older sister,' also used to address young women.\n\nSENSE 1 - OLDER SISTER:\nUsed to refer to someone else's older sister, or when speaking to/about your own sister politely.\n\nSENSE 2 - YOUNG WOMAN:\nUsed to address a young woman you don't know (like 'miss').\n\nFAMILY TERM SYSTEM:\n- ⟦{姉|あね}→姉：00571_ane⟧: my older sister (humble, when talking to others)\n- お{姉|ねえ}さん: older sister (polite, for others' sisters)\n- お{姉|ねえ}ちゃん: older sister (casual/affectionate)\n- {姉貴|あねき}: older sister (masculine/rough speech)\n\nCONTRAST WITH YOUNGER SISTER:\n- ⟦{妹|いもうと}→妹：00573_imouto⟧: my younger sister\n- {妹|いもうと}さん: younger sister (polite)\n\nNOTE:\nChildren often call their own older sister お{姉|ねえ}ちゃん or お{姉|ねえ}さん directly.",
+  "notes": "お{姉|ねえ}さん is the polite term for 'older sister,' also used to address young women.\n\nSENSE 1 - OLDER SISTER:\nUsed to refer to someone else's older sister, or when speaking to/about your own sister politely.\n\nSENSE 2 - YOUNG WOMAN:\nUsed to address a young woman you don't know (like 'miss').\n\nFAMILY TERM SYSTEM:\n- ⟦{姉|あね}→姉：00571_ane⟧: my older sister (humble, when talking to others)\n- お{姉|ねえ}さん: older sister (polite, for others' sisters)\n- お{姉|ねえ}ちゃん: older sister (casual/affectionate)\n- {姉貴|あねき}: older sister (masculine/rough speech)\n\nCONTRAST WITH YOUNGER SISTER:\n- ⟦{妹|いもうと}→妹：00573_imouto⟧: my younger sister\n- {妹|いもうと}さん: younger sister (polite)\n\nUSAGE:\nChildren often call their own older sister お{姉|ねえ}ちゃん or お{姉|ねえ}さん directly.",
   "cross_references": [
     {
       "type": "keigo",
@@ -143,11 +143,32 @@
       "reading": "おにいさん",
       "headword": "お{兄|にい}さん",
       "label": "older brother (polite)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00573_imouto",
+      "reading": "いもうと",
+      "headword": "{妹|いもうと}",
+      "label": "my younger sister"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27448_imoutosan",
+      "reading": "いもうとさん",
+      "headword": "{妹|いもうと}さん",
+      "label": "younger sister"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27278_oneechan",
+      "reading": "おねえちゃん",
+      "headword": "お{姉|ねえ}ちゃん",
+      "label": "older sister (informal)"
     }
   ],
   "metadata": {
     "created": "2026-01-11T09:24:00Z",
-    "modified": "2026-06-12T09:58:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

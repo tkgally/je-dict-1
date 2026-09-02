@@ -3,7 +3,7 @@
   "headword": "{突|つ}っつく",
   "reading": "つっつく",
   "romaji": "tsuttsuku",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to poke; to peck at; to pick at (food); to nitpick",
   "definitions": [
     {
@@ -116,6 +116,29 @@
   ],
   "notes": "A colloquial godan verb that is an emphatic or repeated-action form of {突|つ}く (to poke). The っ gemination adds a sense of repeated, light action.\n\nCOMMON COLLOCATIONS:\n- {指|ゆび}で{突|つ}っつく: to poke with a finger\n- {鍋|なべ}を{突|つ}っつく: to share a hot pot (picking at it together)\n- {細|こま}かいことを{突|つ}っつく: to nitpick\n- {痛|いた}いところを{突|つ}っつく: to touch on a sore spot\n\nUSAGE:\nThe hot-pot usage ({鍋|なべ}を{突|つ}っつく) is a common casual expression for sharing a communal dish, conveying a friendly, informal atmosphere.\n\nSIMILAR WORDS:\n- {突|つ}く: to poke, to thrust — the base verb; more general and can indicate a single, stronger action\n- つつく: to peck, to poke — a softer variant without the geminate っ; essentially the same word\n- {指摘|してき}する: to point out — formal equivalent of the nitpicking sense",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12735_tsuku",
+      "reading": "つく",
+      "headword": "{突|つ}く",
+      "label": "to poke, to thrust"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10373_tsutsuku",
+      "reading": "つつく",
+      "headword": "つつく",
+      "label": "to peck, to poke"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27890_shitekisuru",
+      "reading": "してきする",
+      "headword": "指摘する",
+      "label": "to point out"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -132,7 +155,7 @@
       "verb_class": "godan-ku"
     },
     "created": "2026-03-30T14:24:25Z",
-    "modified": "2026-03-30T14:24:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

@@ -17,7 +17,9 @@
       "id": "28739_tentsuyu_ex1",
       "japanese": "{天|てん}つゆをつけて{食|た}べる。",
       "english": "Dip it in tempura sauce and eat it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28739_tentsuyu_ex2",
       "japanese": "{大根|だいこん}おろしを{天|てん}つゆに{入|い}れる。",
       "english": "Stir grated daikon into the tempura sauce.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "28739_tentsuyu_ex3",
       "japanese": "{天|てん}つゆは{家|いえ}でも{出汁|だし}、しょうゆ、みりんを{合|あ}わせれば{簡単|かんたん}に{作|つく}れる。",
       "english": "Tempura sauce is easy to make at home by combining dashi, soy sauce, and mirin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Standard accompaniment to tempura, served warm in a small bowl. The basic ratio is roughly 4:1:1 ({出汁|だし}:soy sauce:mirin), though recipes vary.\n\nCOMMON COLLOCATIONS:\n- {天|てん}つゆをつける: to dip in tempura sauce\n- {大根|だいこん}おろし{入|い}りの{天|てん}つゆ: tempura sauce with grated daikon\n- {天|てん}つゆを{作|つく}る: to make tempura sauce\n\nSIMILAR WORDS:\n- {塩|しお}: salt — the other classic tempura accompaniment\n- そばつゆ: soba broth/dipping sauce — similar base, used for soba",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00887_shio",
+      "reading": "しお",
+      "headword": "{塩|しお}",
+      "label": "salt"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-06-04T04:07:37Z",
-    "modified": "2026-06-04T04:07:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

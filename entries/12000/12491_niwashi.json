@@ -19,7 +19,9 @@
       "english": "I asked a gardener to tend to the pine tree.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12491_niwashi_ex2",
@@ -27,7 +29,9 @@
       "english": "That gardener has a reputation for being skilled.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12491_niwashi_ex3",
@@ -35,21 +39,42 @@
       "english": "Many long-established inns in Kyoto have dedicated gardeners on staff.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nRefers to a professional gardener, particularly one who works with traditional Japanese-style gardens ({日本庭園|にほんていえん}). The work involves pruning trees, arranging stones, and maintaining the aesthetic balance of the garden. Unlike the English word \"gardener,\" {庭師|にわし} implies a high level of skill and craftsmanship.\n\nRELATED WORDS:\n- {植木屋|うえきや}: tree trimmer, nurseryman (more casual, focused on plants)\n- ガーデナー: gardener (loanword, used for Western-style gardening)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29574_uekiya",
+      "reading": "うえきや",
+      "headword": "{植木|うえき}{屋|や}",
+      "label": "tree trimmer, nurseryman"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26427_zouenshi",
+      "reading": "ぞうえんし",
+      "headword": "{造園|ぞうえん}{士|し}",
+      "label": "landscape gardener"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T11:00:26Z",
-    "modified": "2026-02-21T11:00:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     }
   }
 }

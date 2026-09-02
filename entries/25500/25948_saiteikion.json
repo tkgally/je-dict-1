@@ -17,7 +17,9 @@
       "id": "25948_saiteikion_ex1",
       "japanese": "{今朝|けさ}の{最低気温|さいていきおん}は{零下|れいか}3{度|ど}だった。",
       "english": "This morning's low temperature was minus 3 degrees.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25948_saiteikion_ex2",
       "japanese": "{明日|あした}の{最低気温|さいていきおん}は10{度|ど}の{予報|よほう}だ。",
       "english": "Tomorrow's forecasted low is 10 degrees.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "25948_saiteikion_ex3",
       "japanese": "{冬|ふゆ}になると{最低気温|さいていきおん}が{氷点下|ひょうてんか}まで{下|さ}がる{地域|ちいき}もある。",
       "english": "In winter, there are regions where the minimum temperature drops below freezing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {最低|さいてい} (minimum; lowest) and {気温|きおん} (air temperature). One of the most common weather terms heard in daily forecasts. In Japanese weather reports, {最低気温|さいていきおん} typically refers to the overnight or early-morning low.\n\nCOMMON COLLOCATIONS:\n- {最低気温|さいていきおん}が{下|さ}がる: the low temperature drops\n- {最低気温|さいていきおん}が{氷点下|ひょうてんか}になる: the minimum temperature goes below freezing\n- {今日|きょう}の{最低気温|さいていきおん}: today's low\n- {最低気温|さいていきおん}の{予報|よほう}: forecast low temperature\n\nSIMILAR WORDS:\n- {最高気温|さいこうきおん}: maximum temperature; high — the counterpart, indicating the day's highest temperature\n- {気温|きおん}: air temperature — the general term for temperature\n- {冷え込み|ひえこみ}: cold snap; chill — describes the feeling of a sudden drop in temperature, especially overnight",
-  "cross_references": [],
+  "notes": "A compound of {最低|さいてい} (minimum; lowest) and {気温|きおん} (air temperature). One of the most common weather terms heard in daily forecasts. In Japanese weather reports, {最低気温|さいていきおん} typically refers to the overnight or early-morning low.\n\nCOMMON COLLOCATIONS:\n- {最低気温|さいていきおん}が{下|さ}がる: the low temperature drops\n- {最低気温|さいていきおん}が{氷点下|ひょうてんか}になる: the minimum temperature goes below freezing\n- {今日|きょう}の{最低気温|さいていきおん}: today's low\n- {最低気温|さいていきおん}の{予報|よほう}: forecast low temperature\n\nSIMILAR WORDS:\n- {最高気温|さいこうきおん}: maximum temperature; high — the counterpart, indicating the day's highest temperature\n- {気温|きおん}: air temperature — the general term for temperature\n- {冷え込|ひえこ}み: cold snap; chill — describes the feeling of a sudden drop in temperature, especially overnight",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26070_saikoukion",
+      "reading": "さいこうきおん",
+      "headword": "{最高気温|さいこうきおん}",
+      "label": "maximum temperature"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20445_hiekomi",
+      "reading": "ひえこみ",
+      "headword": "{冷|ひ}え{込|こ}み",
+      "label": "cold snap"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["weather", "science"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "weather",
+        "science"
+      ]
     },
     "created": "2026-04-28T13:33:47Z",
-    "modified": "2026-04-28T13:33:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

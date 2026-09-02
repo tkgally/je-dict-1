@@ -17,7 +17,9 @@
       "id": "28669_dochiraka_ex1",
       "japanese": "どちらか{選|えら}んでください。",
       "english": "Please pick one of the two.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28669_dochiraka_ex2",
       "japanese": "どちらかと{言|い}えば{紅茶|こうちゃ}の{方|ほう}が{好|す}きだ。",
       "english": "If I had to choose, I'd say I prefer black tea.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,59 @@
       "id": "28669_dochiraka_ex3",
       "japanese": "{紙|かみ}か{電子版|でんしばん}か、どちらかをお{選|えら}びいただけます。",
       "english": "You can choose either the paper or the digital version.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Refers to a pair, not three or more. Use どれか for three or more options. The casual contraction どっちか is extremely common in speech.\n\nFIXED EXPRESSIONS:\n- どちらかと{言|い}えば: if I had to say which; if anything\n- どちらかと{言|い}うと: if one had to choose between them\n- どちらか{一方|いっぽう}: one or the other (of the two)\n- どちらか{選|えら}ぶ: to choose between two\n\nSIMILAR WORDS:\n- どちらも: both — covers the pair\n- どちらでも: either is fine; any one will do\n- どれか: any one of (three or more)\n- どっちか: casual contracted form",
+  "notes": "Refers to a pair, not three or more. Use どれか for three or more options. The casual contraction どっちか is extremely common in speech.\n\nCOMMON EXPRESSIONS:\n- どちらかと{言|い}えば: if I had to say which; if anything\n- どちらかと{言|い}うと: if one had to choose between them\n- どちらか{一方|いっぽう}: one or the other (of the two)\n- どちらか{選|えら}ぶ: to choose between two\n\nSIMILAR WORDS:\n- どちらも: both — covers the pair\n- どちらでも: either is fine; any one will do\n- どれか: any one of (three or more)\n- どっちか: casual contracted form",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08721_dochiramo",
+      "reading": "どちらも",
+      "headword": "どちらも",
+      "label": "both"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22606_doreka",
+      "reading": "どれか",
+      "headword": "どれか",
+      "label": "any one of"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26335_docchika",
+      "reading": "どっちか",
+      "headword": "どっちか",
+      "label": "casual contracted form"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22057_izureka",
+      "reading": "いずれか",
+      "headword": "いずれか",
+      "label": "one or the other"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["pronoun"],
+      "pos": [
+        "pronoun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-06-03T04:18:53Z",
-    "modified": "2026-06-03T04:18:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

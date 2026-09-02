@@ -3,7 +3,7 @@
   "headword": "{恐喝|きょうかつ}",
   "reading": "きょうかつ",
   "romaji": "kyoukatsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "blackmail; extortion",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "A legal term for a specific category of crime under the Japanese Penal Code ({刑法|けいほう}). {恐喝罪|きょうかつざい} (the crime of extortion) involves using intimidation to extract money or property from a victim. More specific than {脅迫|きょうはく}, which covers threats in general. Can be used with する as a suru-verb.\n\nCOMMON COLLOCATIONS:\n- {恐喝|きょうかつ}{罪|ざい}: the crime of extortion\n- {恐喝|きょうかつ}{未遂|みすい}: attempted extortion\n- {恐喝|きょうかつ}{事件|じけん}: extortion case\n- {恐喝|きょうかつ}の{容疑|ようぎ}: suspicion of extortion\n- {恐喝|きょうかつ}{犯|はん}: extortionist\n\nSIMILAR WORDS:\n- {脅迫|きょうはく}: threat; intimidation — the broader act of threatening; does not necessarily involve demanding money\n- {強請|ゆす}り: extortion; shakedown — a more colloquial term for extortion\n- {詐欺|さぎ}: fraud; swindling — obtaining money through deception rather than threats\n- {強盗|ごうとう}: robbery — taking property by force, not through threats alone",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27205_kyouhaku",
+      "reading": "きょうはく",
+      "headword": "{脅迫|きょうはく}",
+      "label": "threat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09789_sagi",
+      "reading": "さぎ",
+      "headword": "{詐欺|さぎ}",
+      "label": "fraud"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02818_goutou",
+      "reading": "ごうとう",
+      "headword": "{強盗|ごうとう}",
+      "label": "robbery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27206_odosu",
+      "reading": "おどす",
+      "headword": "{脅|おど}す",
+      "label": "to threaten"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +94,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-07T16:13:30Z",
-    "modified": "2026-08-07T06:31:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

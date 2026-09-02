@@ -17,7 +17,9 @@
       "id": "19601_kessansho_ex1",
       "japanese": "{決算書|けっさんしょ}を{確認|かくにん}した。",
       "english": "I checked the financial statement.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19601_kessansho_ex2",
       "japanese": "{毎年|まいとし}、{決算書|けっさんしょ}を{作成|さくせい}しなければならない。",
       "english": "Financial statements must be prepared every year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "19601_kessansho_ex3",
       "japanese": "{決算書|けっさんしょ}を{見|み}れば、{会社|かいしゃ}の{経営状態|けいえいじょうたい}がわかる。",
       "english": "By looking at the financial statements, you can understand the company's financial condition.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {決算|けっさん} (settlement of accounts) and {書|しょ} (document). An essential business and accounting term. In Japan, companies are required to prepare {決算書|けっさんしょ} at the end of each fiscal year.\n\nCOMMON COLLOCATIONS:\n- {決算書|けっさんしょ}を{作成|さくせい}する — to prepare financial statements\n- {決算書|けっさんしょ}を{提出|ていしゅつ}する — to submit financial statements\n- {決算書|けっさんしょ}を{分析|ぶんせき}する — to analyze financial statements\n- {連結|れんけつ}{決算書|けっさんしょ} — consolidated financial statements\n\nRELATED TERMS:\n- {決算|けっさん} — settlement of accounts; the broader process of closing books for a period\n- {貸借対照表|たいしゃくたいしょうひょう} — balance sheet; one component of a full set of financial statements\n- {損益計算書|そんえきけいさんしょ} — income statement; another key financial document",
+  "notes": "A compound of {決算|けっさん} (settlement of accounts) and {書|しょ} (document). An essential business and accounting term. In Japan, companies are required to prepare {決算書|けっさんしょ} at the end of each fiscal year.\n\nCOMMON COLLOCATIONS:\n- {決算書|けっさんしょ}を{作成|さくせい}する — to prepare financial statements\n- {決算書|けっさんしょ}を{提出|ていしゅつ}する — to submit financial statements\n- {決算書|けっさんしょ}を{分析|ぶんせき}する — to analyze financial statements\n- {連結|れんけつ}{決算書|けっさんしょ} — consolidated financial statements\n\nRELATED WORDS:\n- {決算|けっさん} — settlement of accounts; the broader process of closing books for a period\n- {貸借対照表|たいしゃくたいしょうひょう} — balance sheet; one component of a full set of financial statements\n- {損益計算書|そんえきけいさんしょ} — income statement; another key financial document",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24521_taishakutaishouhyou",
+      "reading": "たいしゃくたいしょうひょう",
+      "headword": "{貸借対照表|たいしゃくたいしょうひょう}",
+      "label": "balance sheet"
+    },
+    {
+      "type": "related",
+      "target_id": "24522_sonekikeisansho",
+      "reading": "そんえきけいさんしょ",
+      "headword": "{損益計算書|そんえきけいさんしょ}",
+      "label": "income statement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24870_zaimushohyou",
+      "reading": "ざいむしょひょう",
+      "headword": "{財務諸表|ざいむしょひょう}",
+      "label": "financial statements"
+    },
+    {
+      "type": "related",
+      "target_id": "25816_kessanhoukoku",
+      "reading": "けっさんほうこく",
+      "headword": "{決算報告|けっさんほうこく}",
+      "label": "financial report"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-03-26T07:30:25Z",
-    "modified": "2026-03-26T07:30:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

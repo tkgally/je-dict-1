@@ -44,11 +44,27 @@
     }
   ],
   "notes": "Refers to small passenger vehicles, generally with an engine displacement of 660cc to 2000cc. In Japan's vehicle classification system, {小型車|こがたしゃ} occupies the middle category between {軽自動車|けいじどうしゃ} (kei cars, 660cc and under) and {普通車|ふつうしゃ} (standard/full-size cars).\n\nCOMMON COLLOCATIONS:\n- {小型車|こがたしゃ}を{運転|うんてん}する: to drive a compact car\n- {小型車|こがたしゃ}{専用|せんよう}{駐車場|ちゅうしゃじょう}: compact car-only parking\n- {小型車|こがたしゃ}{免許|めんきょ}: license for small vehicles\n- {小型車|こがたしゃ}クラス: compact car class (for rentals)\n\nSIMILAR WORDS:\n- {軽自動車|けいじどうしゃ}: kei car (even smaller; 660cc max engine; yellow license plate in Japan)\n- {普通車|ふつうしゃ}: standard car (larger; white license plate)\n- コンパクトカー: compact car (loanword; used in marketing and casual speech)\n- {大型車|おおがたしゃ}: large vehicle (trucks, buses)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14298_keijidousha",
+      "reading": "けいじどうしゃ",
+      "headword": "{軽自動車|けいじどうしゃ}",
+      "label": "kei car (even smaller"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20940_futsuusha",
+      "reading": "ふつうしゃ",
+      "headword": "{普通車|ふつうしゃ}",
+      "label": "standard car (larger"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
+      "politeness": "plain",
       "semantic": [
         "transportation"
       ],
@@ -57,6 +73,6 @@
       ]
     },
     "created": "2026-04-30T14:24:31Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

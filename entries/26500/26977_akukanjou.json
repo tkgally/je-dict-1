@@ -55,7 +55,29 @@
     }
   ],
   "notes": "Composed of {悪|あく} (bad, evil) and {感情|かんじょう} (feeling, emotion). A straightforward compound describing negative interpersonal feelings. Often appears in formal or written contexts when discussing relationships or conflicts.\n\nCOMMON COLLOCATIONS:\n- {悪感情|あくかんじょう}を{抱|いだ}く: to harbor ill will\n- {悪感情|あくかんじょう}が{生|う}まれる: for bad feelings to arise\n- {悪感情|あくかんじょう}はない: to have no ill will\n- {悪感情|あくかんじょう}を{持|も}つ: to have bad feelings\n\nSIMILAR WORDS:\n- {敵意|てきい}: hostility, enmity — stronger; implies active opposition or antagonism\n- {反感|はんかん}: antipathy, aversion — focuses on instinctive dislike or opposition\n- {悪意|あくい}: malice, ill intent — implies deliberate intention to harm, not just negative feelings",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16853_tekii",
+      "reading": "てきい",
+      "headword": "{敵意|てきい}",
+      "label": "hostility, enmity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08675_hankan",
+      "reading": "はんかん",
+      "headword": "{反感|はんかん}",
+      "label": "antipathy, aversion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19922_akui",
+      "reading": "あくい",
+      "headword": "{悪意|あくい}",
+      "label": "malice, ill intent"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,6 +93,6 @@
       "domain": []
     },
     "created": "2026-05-06T12:22:29Z",
-    "modified": "2026-05-06T12:22:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

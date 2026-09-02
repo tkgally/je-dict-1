@@ -17,7 +17,9 @@
       "id": "28368_sason_ex1",
       "japanese": "{為替|かわせ}{差損|さそん}が{出|で}た。",
       "english": "We incurred a foreign-exchange loss.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28368_sason_ex2",
       "japanese": "{円高|えんだか}で{大|おお}きな{差損|さそん}を{計上|けいじょう}した。",
       "english": "We booked a large exchange loss due to the strong yen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,39 @@
       "id": "28368_sason_ex3",
       "japanese": "{輸出|ゆしゅつ}{企業|きぎょう}は、{急激|きゅうげき}な{円高|えんだか}によって、{多額|たがく}の{為替|かわせ}{差損|さそん}を{被|こうむ}った。",
       "english": "Export companies suffered large foreign-exchange losses due to the sudden appreciation of the yen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {差|さ} (difference) + {損|そん} (loss). Used almost exclusively in business and accounting contexts.\n\nCOMMON COLLOCATIONS:\n- {為替|かわせ}{差損|さそん}: foreign-exchange loss\n- {差損|さそん}が{出|で}る: an exchange loss arises\n- {差損|さそん}を{計上|けいじょう}する: book/record a loss\n- {差損|さそん}を{被|こうむ}る: suffer a loss\n\nSIMILAR WORDS:\n- {差益|さえき}: gain on difference — its opposite, profit from a favorable rate or price change\n- {損失|そんしつ}: loss — general term for any kind of financial loss",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04875_sonshitsu",
+      "reading": "そんしつ",
+      "headword": "{損失|そんしつ}",
+      "label": "loss"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["business", "finance"],
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "finance"
+      ],
       "domain": []
     },
     "created": "2026-05-29T04:09:30Z",
-    "modified": "2026-05-29T04:09:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{応援|おうえん}する",
   "reading": "おうえんする",
   "romaji": "ouensuru",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to support; to cheer; to root for",
   "conjugation": {
     "type": "suru",
@@ -171,6 +171,43 @@
   ],
   "notes": "One of the most common words for showing support. In everyday conversation, {応援|おうえん}する covers both cheering at events and general emotional support. The phrase いつも{応援|おうえん}しています is a warm, encouraging expression often used on social media or toward public figures.\n\nCOMMON COLLOCATIONS:\n- チームを{応援|おうえん}する: to cheer for a team\n- {応援|おうえん}に{駆|か}けつける: to rush to cheer/help\n- {応援|おうえん}{団|だん}: cheering squad, pep squad\n- {応援|おうえん}{歌|か}: fight song, cheer song\n- {応援|おうえん}{演説|えんぜつ}: campaign speech (in support of a candidate)\n\nSIMILAR WORDS:\n- {支援|しえん}する: to support, assist — more formal; used for aid and institutional support\n- {声援|せいえん}を{送|おく}る: to send cheers — specifically vocal encouragement\n- {後押|あとお}しする: to back up, give a push — emphasizes practical help",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25534_shiensuru",
+      "reading": "しえんする",
+      "headword": "{支援|しえん}する",
+      "label": "to support, assist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12509_atooshi",
+      "reading": "あとおし",
+      "headword": "{後押|あとお}し",
+      "label": "to back up, give a push"
+    },
+    {
+      "type": "related",
+      "target_id": "05304_hagemasu",
+      "reading": "はげます",
+      "headword": "{励|はげ}ます",
+      "label": "to encourage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21545_genkizukeru",
+      "reading": "げんきづける",
+      "headword": "{元気|げんき}づける",
+      "label": "to encourage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26792_ouendan",
+      "reading": "おうえんだん",
+      "headword": "{応援団|おうえんだん}",
+      "label": "cheering squad"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -187,6 +224,6 @@
       "verb_class": "suru"
     },
     "created": "2026-04-04T19:28:21Z",
-    "modified": "2026-04-04T19:28:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

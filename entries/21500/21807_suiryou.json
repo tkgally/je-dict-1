@@ -3,7 +3,7 @@
   "headword": "{推量|すいりょう}",
   "reading": "すいりょう",
   "romaji": "suiryou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "conjecture; inference; guessing",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Combines {推|すい} (infer, guess) and {量|りょう} (measure, gauge). Can function as a noun or with する as a verb meaning 'to conjecture.' Frequently encountered in Japanese grammar study where {推量|すいりょう} refers to the grammatical mood of speculation or probability (e.g., the だろう/でしょう forms).\n\nCOMMON COLLOCATIONS:\n- {推量|すいりょう}する: to conjecture, to surmise\n- {推量|すいりょう}にすぎない: to be nothing more than conjecture\n- {推量|すいりょう}の{域|いき}を{出|で}ない: to not go beyond the realm of speculation\n- {推量|すいりょう}{表現|ひょうげん}: conjectural expression (grammar)\n- {推量|すいりょう}{形|けい}: conjectural form (grammar)\n\nSIMILAR WORDS:\n- {推測|すいそく}: guess, conjecture — more general term for guessing based on evidence\n- {憶測|おくそく}: speculation — often implies baseless or unfounded guessing\n- {推理|すいり}: reasoning, deduction — implies logical steps rather than simple guessing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12821_suisoku",
+      "reading": "すいそく",
+      "headword": "{推測|すいそく}",
+      "label": "guess, conjecture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16398_okusoku",
+      "reading": "おくそく",
+      "headword": "{憶測|おくそく}",
+      "label": "speculation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18951_suiri",
+      "reading": "すいり",
+      "headword": "{推理|すいり}",
+      "label": "reasoning, deduction"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-03T18:22:07Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

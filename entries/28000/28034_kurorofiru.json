@@ -17,7 +17,9 @@
       "id": "28034_kurorofiru_ex1",
       "japanese": "{葉|は}が{緑|みどり}なのはクロロフィルのためだ。",
       "english": "Leaves are green because of chlorophyll.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28034_kurorofiru_ex2",
       "japanese": "クロロフィルは{光合成|こうごうせい}に{欠|か}かせない。",
       "english": "Chlorophyll is essential to photosynthesis.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28034_kurorofiru_ex3",
       "japanese": "{秋|あき}になるとクロロフィルが{分解|ぶんかい}され、{葉|は}が{赤|あか}や{黄色|きいろ}に{変|か}わる。",
       "english": "In autumn, chlorophyll breaks down and the leaves turn red and yellow.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Borrowed scientific term for the green pigment central to photosynthesis.\n\nCOMMON COLLOCATIONS:\n- クロロフィルを{含|ふく}む: to contain chlorophyll\n- クロロフィルの{分解|ぶんかい}: the breakdown of chlorophyll\n\nSIMILAR WORDS:\n- {葉緑素|ようりょくそ}: chlorophyll — the Sino-Japanese term, common in textbooks\n- {葉緑体|ようりょくたい}: chloroplast — the cell structure that contains chlorophyll",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22631_youryokuso",
+      "reading": "ようりょくそ",
+      "headword": "{葉緑素|ようりょくそ}",
+      "label": "chlorophyll"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23706_youryokutai",
+      "reading": "ようりょくたい",
+      "headword": "{葉緑体|ようりょくたい}",
+      "label": "chloroplast"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["science"],
+      "politeness": "plain",
+      "semantic": [
+        "science"
+      ],
       "domain": []
     },
     "created": "2026-05-24T04:10:04Z",
-    "modified": "2026-05-24T04:10:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

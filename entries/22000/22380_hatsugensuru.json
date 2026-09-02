@@ -3,7 +3,7 @@
   "headword": "{発現|はつげん}する",
   "reading": "はつげんする",
   "romaji": "hatsugensuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to manifest; to appear; to be expressed",
   "definitions": [
     {
@@ -81,6 +81,29 @@
   ],
   "notes": "Describes something hidden or potential becoming actual and observable. Especially common in medical and biological contexts. The noun form {発現|はつげん} is frequently used on its own, particularly in the biology term {遺伝子|いでんし}{発現|はつげん} (gene expression).\n\nCOMMON COLLOCATIONS:\n- {効果|こうか}が{発現|はつげん}する: an effect manifests\n- {副作用|ふくさよう}が{発現|はつげん}する: side effects appear\n- {遺伝子|いでんし}{発現|はつげん}: gene expression\n- {発現|はつげん}パターン: expression pattern\n- {発現|はつげん}{頻度|ひんど}: frequency of occurrence\n\nSIMILAR WORDS:\n- {発症|はっしょう}する: to develop (a disease) — specifically for disease onset with symptoms\n- {現|あらわ}れる: to appear — everyday word for something becoming visible\n- {出現|しゅつげん}する: to appear / to emerge — for something new appearing on the scene\n- {表出|ひょうしゅつ}する: to express outwardly — for emotions or inner states becoming visible\n\nREGISTER:\nFormal/technical. Standard in medical literature, pharmaceutical documents, and biology research. In everyday speech, {現|あらわ}れる or {出|で}る are more natural.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22367_hasshousuru",
+      "reading": "はっしょうする",
+      "headword": "{発症|はっしょう}する",
+      "label": "to develop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01870_arawareru",
+      "reading": "あらわれる",
+      "headword": "{現|あらわ}れる",
+      "label": "to appear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20928_shutsugensuru",
+      "reading": "しゅつげんする",
+      "headword": "{出現|しゅつげん}する",
+      "label": "to appear / to emerge"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -96,7 +119,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T20:11:55Z",
-    "modified": "2026-04-05T20:11:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -3,7 +3,7 @@
   "headword": "{加算|かさん}",
   "reading": "かさん",
   "romaji": "kasan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "addition; adding up; surcharge",
   "definitions": [
     {
@@ -81,6 +81,29 @@
   ],
   "notes": "Compound of {加|か} (add) + {算|さん} (calculate). Functions as both a noun and a suru-verb. Used in mathematical, financial, and administrative contexts.\n\nCOMMON COLLOCATIONS:\n- {加算|かさん}する: to add; to tally up\n- {加算|かさん}{税|ぜい}: additional tax\n- ポイント{加算|かさん}: point addition (loyalty programs)\n- {加算|かさん}{料金|りょうきん}: surcharge; additional fee\n- {累積|るいせき}{加算|かさん}: cumulative addition\n\nSIMILAR WORDS:\n- {足|た}し{算|ざん}: addition (arithmetic) — the basic term taught in elementary school\n- {追加|ついか}: addition; supplement — adding something new, not necessarily numerical\n- {上乗|うわの}せ: markup; surcharge — specifically an extra amount on top of a base price\n- {減算|げんさん}: subtraction — the opposite operation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05332_tashizan",
+      "reading": "たしざん",
+      "headword": "{足|た}し{算|ざん}",
+      "label": "addition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04060_tsuika",
+      "reading": "ついか",
+      "headword": "{追加|ついか}",
+      "label": "addition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11202_uwanose",
+      "reading": "うわのせ",
+      "headword": "{上乗|うわの}せ",
+      "label": "markup"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -97,7 +120,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-21T11:24:37Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

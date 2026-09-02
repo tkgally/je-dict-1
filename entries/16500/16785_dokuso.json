@@ -19,7 +19,9 @@
       "english": "To expel toxins from the body.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16785_dokuso_ex2",
@@ -27,7 +29,9 @@
       "english": "This mushroom contains a strong toxin.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16785_dokuso_ex3",
@@ -35,7 +39,9 @@
       "english": "Food poisoning is often caused by toxins produced by bacteria.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed in both scientific and health/wellness contexts. In popular health media, {毒素|どくそ}を{排出|はいしゅつ}する (to expel toxins) is a common phrase associated with detox trends.\n\nCOMMON COLLOCATIONS:\n- {毒素|どくそ}を{排出|はいしゅつ}する (to expel toxins)\n- {毒素|どくそ}が{回|まわ}る (for toxin to spread through the body)\n- {細菌|さいきん}{毒素|どくそ} (bacterial toxin)\n\nSIMILAR WORDS:\n- {毒|どく}: poison — a broader, more general term\n- {有害物質|ゆうがいぶっしつ}: harmful substance — broader term covering chemicals and pollutants",
@@ -46,18 +52,37 @@
       "reading": "どく",
       "headword": "{毒|どく}",
       "label": "poison (general term)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22132_yuugaibusshitsu",
+      "reading": "ゆうがいぶっしつ",
+      "headword": "{有害物質|ゆうがいぶっしつ}",
+      "label": "harmful substance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28572_rouhaibutsu",
+      "reading": "ろうはいぶつ",
+      "headword": "{老廃物|ろうはいぶつ}",
+      "label": "waste products (biological)"
     }
   ],
   "metadata": {
     "created": "2026-03-14T10:32:03Z",
-    "modified": "2026-05-05T04:05:07Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["science", "health"]
+      "semantic": [
+        "science",
+        "health"
+      ]
     }
   }
 }

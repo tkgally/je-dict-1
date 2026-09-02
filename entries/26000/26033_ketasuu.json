@@ -17,7 +17,9 @@
       "id": "26033_ketasuu_ex1",
       "japanese": "パスワードの{桁数|けたすう}を{増|ふ}やした。",
       "english": "I increased the number of digits in my password.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26033_ketasuu_ex2",
       "japanese": "{桁数|けたすう}が{多|おお}いほどセキュリティが{高|たか}くなる。",
       "english": "The more digits there are, the higher the security.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,38 @@
       "id": "26033_ketasuu_ex3",
       "japanese": "{売上|うりあげ}の{桁数|けたすう}が{去年|きょねん}とは{違|ちが}う。",
       "english": "The sales figures are on a completely different scale from last year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {桁|けた} (digit; order of magnitude) + {数|すう} (number; count). Frequently used in technology contexts (passwords, PIN codes, data) as well as in business when discussing figures and amounts.\n\nCOMMON COLLOCATIONS:\n- {桁数|けたすう}を{増|ふ}やす: to increase the number of digits\n- {桁数|けたすう}が{違|ちが}う: to be on a different order of magnitude\n- {桁数|けたすう}{制限|せいげん}: digit limit\n- {有効|ゆうこう}{桁数|けたすう}: significant figures (in math/science)\n\nSIMILAR WORDS:\n- {桁|けた}: digit; order of magnitude — the base word, also used in {桁|けた}が{違|ちが}う\n- {位|くらい}: place (ones, tens, etc.) — the positional value of a digit\n- {文字数|もじすう}: character count — similar concept but counts characters, not just digits",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29489_mojisuu",
+      "reading": "もじすう",
+      "headword": "{文字数|もじすう}",
+      "label": "character count"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["number", "science"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "number",
+        "science"
+      ]
     },
     "created": "2026-04-28T16:18:20Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{印字|いんじ}",
   "reading": "いんじ",
   "romaji": "inji",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "printing; imprinting characters",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,29 @@
   ],
   "notes": "Composed of {印|いん} (print, stamp) + {字|じ} (character, letter). Refers specifically to the printing of text characters, as opposed to images or graphics. Commonly used in business and manufacturing contexts for labels, receipts, and documents.\n\nCOMMON COLLOCATIONS:\n- {印字|いんじ}する — to print (characters)\n- {印字|いんじ}が{薄|うす}い — the print is faint\n- {印字|いんじ}{品質|ひんしつ} — print quality\n- {印字|いんじ}{速度|そくど} — print speed\n- {印字|いんじ}{面|めん} — printed surface\n\nSIMILAR WORDS:\n- {印刷|いんさつ} — printing; broader term covering all types of printing, including images and mass production\n- プリント — print; loanword used for printing in general\n- {刻印|こくいん} — engraving, stamping; physically pressing characters into a surface",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01844_insatsu",
+      "reading": "いんさつ",
+      "headword": "{印刷|いんさつ}",
+      "label": "printing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01539_purinto",
+      "reading": "ぷりんと",
+      "headword": "プリント",
+      "label": "print"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29469_kokuin",
+      "reading": "こくいん",
+      "headword": "{刻印|こくいん}",
+      "label": "engraving, stamping"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +174,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-26T14:33:28Z",
-    "modified": "2026-03-26T14:33:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

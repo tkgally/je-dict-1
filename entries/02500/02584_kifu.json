@@ -2,7 +2,7 @@
   "id": "02584_kifu",
   "headword": "{寄付|きふ}",
   "reading": "きふ",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "donation, contribution",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{寄付|きふ} refers to voluntary giving to charities or causes.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{寄付|きふ}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {寄付|きふ}⟦する→する：00392_suru⟧ (to donate)\n- {寄付|きふ}⟦を→を：00422_wo⟧⟦{募|つの}る→募る：10878_tsunoru⟧ (to solicit donations)\n- 〜⟦に→に：00314_ni⟧{寄付|きふ}⟦する→する：00392_suru⟧ (to donate to ~)\n\nCOMPOUND WORDS:\n- {寄付|きふ}⟦{金|きん}→金：02666_kin⟧ (donation money)\n- {寄付|きふ}⟦{者|しゃ}→者：04662_sha⟧ (donor)\n- {寄付|きふ}⟦{行為|こうい}→行為：10021_koui⟧ (act of donation)\n\nALTERNATIVE WRITING:\n- {寄附|きふ} is also used (same meaning)\n\nSIMILAR WORDS:\n- ⟦{募金|ぼきん}→募金：11830_bokin⟧: fundraising, collection\n- ⟦{献金|けんきん}→献金：13497_kenkin⟧: contribution (often political)\n- ⟦{贈与|ぞうよ}→贈与：27143_zouyo⟧: gift, donation (legal term)",
+  "notes": "{寄付|きふ} refers to voluntary giving to charities or causes.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{寄付|きふ}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {寄付|きふ}⟦する→する：00392_suru⟧ (to donate)\n- {寄付|きふ}⟦を→を：00422_wo⟧⟦{募|つの}る→募る：10878_tsunoru⟧ (to solicit donations)\n- 〜⟦に→に：00314_ni⟧{寄付|きふ}⟦する→する：00392_suru⟧ (to donate to ~)\n\nCOMPOUNDS:\n- {寄付|きふ}⟦{金|きん}→金：02666_kin⟧ (donation money)\n- {寄付|きふ}⟦{者|しゃ}→者：04662_sha⟧ (donor)\n- {寄付|きふ}⟦{行為|こうい}→行為：10021_koui⟧ (act of donation)\n\nALTERNATIVE WRITING:\n- {寄附|きふ} is also used (same meaning)\n\nSIMILAR WORDS:\n- ⟦{募金|ぼきん}→募金：11830_bokin⟧: fundraising, collection\n- ⟦{献金|けんきん}→献金：13497_kenkin⟧: contribution (often political)\n- ⟦{贈与|ぞうよ}→贈与：27143_zouyo⟧: gift, donation (legal term)",
   "cross_references": [
     {
       "type": "synonym",
@@ -141,11 +141,53 @@
       "reading": "ぼきん",
       "headword": "{募金|ぼきん}",
       "label": "fundraising"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13497_kenkin",
+      "reading": "けんきん",
+      "headword": "{献金|けんきん}",
+      "label": "contribution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27143_zouyo",
+      "reading": "ぞうよ",
+      "headword": "{贈与|ぞうよ}",
+      "label": "gift, donation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22850_kishin",
+      "reading": "きしん",
+      "headword": "{寄進|きしん}",
+      "label": "donation (to a temple or shrine)"
+    },
+    {
+      "type": "homophone",
+      "target_id": "23969_kifu",
+      "reading": "きふ",
+      "headword": "{棋譜|きふ}",
+      "label": "game record (shogi, go, chess)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24600_fuse",
+      "reading": "ふせ",
+      "headword": "{布施|ふせ}",
+      "label": "alms"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24650_kennou",
+      "reading": "けんのう",
+      "headword": "{献納|けんのう}",
+      "label": "dedication"
     }
   ],
   "metadata": {
     "created": "2026-01-11T10:21:49Z",
-    "modified": "2026-06-11T18:03:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

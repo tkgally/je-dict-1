@@ -19,7 +19,9 @@
       "english": "He is a gourmet.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15230_bishokuka_ex2",
@@ -27,7 +29,9 @@
       "english": "I had my gourmet friend recommend a restaurant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15230_bishokuka_ex3",
@@ -35,20 +39,56 @@
       "english": "The blog of the well-known food connoisseur features famous restaurants from across the country.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "FORMATION: {美|び} (beautiful) + {食|しょく} (food) + {家|か} (person/expert). The suffix {家|か} denotes a person who specializes in or is known for something.\n\nCOMMON COLLOCATIONS:\n- {美食家|びしょくか}として{知|し}られる: to be known as a gourmet\n- {美食家|びしょくか}の{舌|した}: a gourmet's palate\n- {美食家|びしょくか}も{唸|うな}る: to impress even gourmets\n\nSIMILAR WORDS:\n- グルメ: gourmet (loanword, more casual and commonly used in everyday speech)\n- {食通|しょくつう}: food connoisseur (similar formality to {美食家|びしょくか})\n- {食|く}いしん{坊|ぼう}: glutton, big eater (focuses on quantity rather than quality)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10845_gurume",
+      "reading": "ぐるめ",
+      "headword": "グルメ",
+      "label": "gourmet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15101_shokutsuu",
+      "reading": "しょくつう",
+      "headword": "{食通|しょくつう}",
+      "label": "food connoisseur"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16180_kuishinbou",
+      "reading": "くいしんぼう",
+      "headword": "{食|く}いしん{坊|ぼう}",
+      "label": "glutton, big eater"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24352_shokudouraku",
+      "reading": "しょくどうらく",
+      "headword": "{食道楽|しょくどうらく}",
+      "label": "gourmet"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T10:18:46Z",
-    "modified": "2026-03-05T10:18:46Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "food"]
+      "semantic": [
+        "person",
+        "food"
+      ]
     }
   }
 }

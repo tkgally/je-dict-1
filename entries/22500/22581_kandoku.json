@@ -3,7 +3,7 @@
   "headword": "{完読|かんどく}",
   "reading": "かんどく",
   "romaji": "kandoku",
-  "part_of_speech": "noun; verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reading through completely; finishing a book",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A compound of {完|かん} (complete) and {読|どく} (reading). Emphasizes the act of reading something all the way through to the end, especially when the text is long or challenging. Often carries a sense of accomplishment.\n\nCOMMON COLLOCATIONS:\n- {完読|かんどく}する: to read through completely\n- {完読|かんどく}できる: to be able to finish reading\n- {一気|いっき}に{完読|かんどく}する: to read through in one sitting\n- {完読|かんどく}{率|りつ}: completion rate (for reading)\n\nSIMILAR WORDS:\n- {読了|どくりょう}: finishing a book — very similar in meaning; slightly more formal\n- {読破|どくは}: reading through (a difficult or long work) — implies overcoming a challenge\n- {通読|つうどく}: reading through from start to finish — neutral; doesn't imply difficulty",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19606_dokuha",
+      "reading": "どくは",
+      "headword": "{読破|どくは}",
+      "label": "reading through"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19800_tsuudoku",
+      "reading": "つうどく",
+      "headword": "{通読|つうどく}",
+      "label": "reading through from start to finish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20895_dokuhasuru",
+      "reading": "どくはする",
+      "headword": "{読破|どくは}する",
+      "label": "to read through"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-06T18:18:12Z",
-    "modified": "2026-08-01T06:42:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

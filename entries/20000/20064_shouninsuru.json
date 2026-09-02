@@ -3,7 +3,7 @@
   "headword": "{承認|しょうにん}する",
   "reading": "しょうにんする",
   "romaji": "shounin suru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to approve; to authorize; to ratify; to recognize officially",
   "conjugation": {
     "type": "suru",
@@ -134,8 +134,38 @@
       "notes": null
     }
   ],
-  "notes": "Formal approval or official recognition by an authority. Used in government, business, legal, and diplomatic contexts. Implies that something has been examined and officially accepted.\n\nPARTICLE PATTERN:\n- [proposal/document]を{承認|しょうにん}する: to approve [something]\n\nCOMMON COLLOCATIONS:\n- {承認|しょうにん}を{受|う}ける: to receive approval\n- {承認|しょうにん}を{得|え}る: to obtain approval\n- {承認|しょうにん}{手続|てつづ}き: approval procedure\n- {国家|こっか}{承認|しょうにん}: state recognition (diplomatic)\n- {薬事|やくじ}{承認|しょうにん}: pharmaceutical approval\n\nSIMILAR WORDS:\n- {許可|きょか}する: to permit — grants permission to do something; {承認|しょうにん} approves something that has been proposed or submitted\n- {認|みと}める: to recognize/acknowledge — broader and less formal\n- {了承|りょうしょう}する: to consent/accept — accepting a situation with understanding, less about formal authority",
+  "notes": "Formal approval or official recognition by an authority. Used in government, business, legal, and diplomatic contexts. Implies that something has been examined and officially accepted.\n\nCOMMON PATTERNS:\n- [proposal/document]を{承認|しょうにん}する: to approve [something]\n\nCOMMON COLLOCATIONS:\n- {承認|しょうにん}を{受|う}ける: to receive approval\n- {承認|しょうにん}を{得|え}る: to obtain approval\n- {承認|しょうにん}{手続|てつづ}き: approval procedure\n- {国家|こっか}{承認|しょうにん}: state recognition (diplomatic)\n- {薬事|やくじ}{承認|しょうにん}: pharmaceutical approval\n\nSIMILAR WORDS:\n- {許可|きょか}する: to permit — grants permission to do something; {承認|しょうにん} approves something that has been proposed or submitted\n- {認|みと}める: to recognize/acknowledge — broader and less formal\n- {了承|りょうしょう}する: to consent/accept — accepting a situation with understanding, less about formal authority",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20063_kyokasuru",
+      "reading": "きょかする",
+      "headword": "{許可|きょか}する",
+      "label": "to permit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02429_mitomeru",
+      "reading": "みとめる",
+      "headword": "{認|みと}める",
+      "label": "to recognize/acknowledge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20062_ryoushousuru",
+      "reading": "りょうしょうする",
+      "headword": "{了承|りょうしょう}する",
+      "label": "to consent/accept"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21332_youninsuru",
+      "reading": "ようにんする",
+      "headword": "{容認|ようにん}する",
+      "label": "to tolerate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +182,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T06:16:11Z",
-    "modified": "2026-03-28T06:16:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

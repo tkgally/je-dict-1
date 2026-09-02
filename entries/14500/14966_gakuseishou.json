@@ -19,7 +19,9 @@
       "english": "Please show me your student ID.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14966_gakuseishou_ex2",
@@ -27,7 +29,9 @@
       "english": "If you have a student ID, you can get a discount.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14966_gakuseishou_ex3",
@@ -35,21 +39,42 @@
       "english": "Please make sure to bring your student ID when taking exams.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of {学生|がくせい} (student) and {証|しょう} (certificate, proof).\n\nIn Japan, {学生証|がくせいしょう} is essential for student discounts ({学割|がくわり}) on trains, museums, movies, and more. Students typically carry it at all times.\n\nSIMILAR WORDS:\n- {身分証明書|みぶんしょうめいしょ} is a general ID document\n- {社員証|しゃいんしょう} is an employee ID card\n\nCOMMON COLLOCATIONS:\n- {学生証|がくせいしょう}を{提示|ていじ}する (to present one's student ID)\n- {学生証|がくせいしょう}の{再発行|さいはっこう} (reissue of student ID)\n- {学生証|がくせいしょう}を{紛失|ふんしつ}する (to lose one's student ID)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09809_mibunshoumeisho",
+      "reading": "みぶんしょうめいしょ",
+      "headword": "{身分|みぶん}{証明書|しょうめいしょ}",
+      "label": "is a general ID document"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22652_shainshou",
+      "reading": "しゃいんしょう",
+      "headword": "{社員証|しゃいんしょう}",
+      "label": "is an employee ID card"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T08:01:32Z",
-    "modified": "2026-03-04T08:01:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

@@ -17,7 +17,9 @@
       "id": "26535_sekishu_ex1",
       "japanese": "{席種|せきしゅ}を{選|えら}んでください。",
       "english": "Please select your seat category.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26535_sekishu_ex2",
       "japanese": "この{公演|こうえん}には{三|みっ}つの{席種|せきしゅ}がある。",
       "english": "There are three seat categories for this performance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,45 @@
       "id": "26535_sekishu_ex3",
       "japanese": "{席種|せきしゅ}によって{料金|りょうきん}が{大|おお}きく{異|こと}なるので、{予算|よさん}に{合|あ}わせて{選|えら}ぶといい。",
       "english": "The price varies greatly depending on the seat category, so it's best to choose based on your budget.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {席|せき} (seat) and {種|しゅ} (type, kind). Commonly encountered on ticket purchasing websites and at box offices for events, concerts, and theaters. The term classifies seats by factors such as location (arena vs. balcony), view quality, and amenities.\n\nCOMMON COLLOCATIONS:\n- {席種|せきしゅ}を{選|えら}ぶ: to choose a seat category\n- {席種|せきしゅ}{別|べつ}{料金|りょうきん}: pricing by seat type\n- {全|ぜん}{席種|せきしゅ}: all seat categories\n- {指定|してい}{席種|せきしゅ}: designated seat type\n\nSIMILAR WORDS:\n- {座席|ざせき}: seat — refers to the physical seat itself, not the category\n- {等級|とうきゅう}: class, grade — broader term for ranking or classification, used for train classes (グリーン{車|しゃ}) and hotel ratings",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02832_zaseki",
+      "reading": "ざせき",
+      "headword": "{座席|ざせき}",
+      "label": "seat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28928_toukyuu",
+      "reading": "とうきゅう",
+      "headword": "{等級|とうきゅう}",
+      "label": "class, grade"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-02T15:25:39Z",
-    "modified": "2026-05-02T15:25:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

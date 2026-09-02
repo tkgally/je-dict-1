@@ -2,7 +2,7 @@
   "id": "08189_kaidashi",
   "headword": "{買|か}い{出|だ}し",
   "reading": "かいだし",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "shopping trip for supplies; buying in bulk",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,30 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n- {買|か}い{出|だ}しに{行|い}く (to go on a shopping trip)\n- {買|か}い{出|だ}しを{頼|たの}む (to ask someone to do the shopping)\n- {食材|しょくざい}の{買|か}い{出|だ}し (grocery shopping)\n\nNUANCE:\nImplies a purposeful trip to acquire supplies, often for an event, meal preparation, or stocking up. Different from casual shopping ({買|か}い{物|もの}).\n\nRELATED:\n- まとめ{買|が}い (bulk buying - the act of buying in quantity)\n- {買|か}いだめ (stocking up)\n- {買|か}い{物|もの} (shopping - general)",
+  "notes": "USAGE:\n- {買|か}い{出|だ}しに{行|い}く (to go on a shopping trip)\n- {買|か}い{出|だ}しを{頼|たの}む (to ask someone to do the shopping)\n- {食材|しょくざい}の{買|か}い{出|だ}し (grocery shopping)\nImplies a purposeful trip to acquire supplies, often for an event, meal preparation, or stocking up. Different from casual shopping ({買|か}い{物|もの}).\n\nRELATED WORDS:\n- まとめ{買|が}い (bulk buying - the act of buying in quantity)\n- {買|か}いだめ (stocking up)\n- {買|か}い{物|もの} (shopping - general)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08046_matomegai",
+      "reading": "まとめがい",
+      "headword": "まとめ{買|が}い",
+      "label": "bulk buying"
+    },
+    {
+      "type": "related",
+      "target_id": "08047_kaidame",
+      "reading": "かいだめ",
+      "headword": "{買|か}いだめ",
+      "label": "stocking up"
+    },
+    {
+      "type": "related",
+      "target_id": "00853_kaimono",
+      "reading": "かいもの",
+      "headword": "{買|か}い{物|もの}",
+      "label": "shopping"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +165,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "shopping",
         "daily-life"
@@ -149,6 +173,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-25T08:01:19Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

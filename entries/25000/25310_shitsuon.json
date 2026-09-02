@@ -44,19 +44,51 @@
       "notes": null
     }
   ],
-  "notes": "The temperature inside a room or enclosed space. Used in everyday contexts such as cooking instructions and home comfort, as well as scientific contexts where experiments are conducted at room temperature (typically around 20-25°C).\n\nCOMMON COLLOCATIONS:\n- {室温|しつおん}に{戻|もど}す: bring to room temperature\n- {室温|しつおん}で{保存|ほぞん}する: store at room temperature\n- {室温|しつおん}を{調整|ちょうせい}する: adjust the room temperature\n- {室温|しつおん}{管理|かんり}: room temperature management\n\nRELATED TERMS:\n- {気温|きおん}: air temperature — outdoor temperature\n- {体温|たいおん}: body temperature\n- {水温|すいおん}: water temperature",
+  "notes": "The temperature inside a room or enclosed space. Used in everyday contexts such as cooking instructions and home comfort, as well as scientific contexts where experiments are conducted at room temperature (typically around 20-25°C).\n\nCOMMON COLLOCATIONS:\n- {室温|しつおん}に{戻|もど}す: bring to room temperature\n- {室温|しつおん}で{保存|ほぞん}する: store at room temperature\n- {室温|しつおん}を{調整|ちょうせい}する: adjust the room temperature\n- {室温|しつおん}{管理|かんり}: room temperature management\n\nRELATED WORDS:\n- {気温|きおん}: air temperature — outdoor temperature\n- {体温|たいおん}: body temperature\n- {水温|すいおん}: water temperature",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00235_kion",
+      "reading": "きおん",
+      "headword": "{気温|きおん}",
+      "label": "air temperature"
+    },
+    {
+      "type": "related",
+      "target_id": "03385_taion",
+      "reading": "たいおん",
+      "headword": "{体温|たいおん}",
+      "label": "body temperature"
+    },
+    {
+      "type": "related",
+      "target_id": "27380_suion",
+      "reading": "すいおん",
+      "headword": "{水温|すいおん}",
+      "label": "water temperature"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23470_setteiondo",
+      "reading": "せっていおんど",
+      "headword": "{設定温度|せっていおんど}",
+      "label": "set temperature"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life"
       ]
     },
     "created": "2026-04-24T14:23:13Z",
-    "modified": "2026-04-24T14:23:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

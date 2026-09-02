@@ -19,7 +19,9 @@
       "english": "I joined the company as a mid-career hire.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17725_chuutosaiyou_ex2",
@@ -27,7 +29,9 @@
       "english": "This company actively hires mid-career professionals.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17725_chuutosaiyou_ex3",
@@ -35,22 +39,45 @@
       "english": "In mid-career hiring, companies often look for people who can contribute immediately.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{中途採用|ちゅうとさいよう} is contrasted with {新卒採用|しんそつさいよう} (hiring of new graduates), which has traditionally been the dominant hiring model in Japan. As the labor market evolves, {中途採用|ちゅうとさいよう} has become increasingly common.\n\nCOMMON COLLOCATIONS:\n- {中途採用|ちゅうとさいよう}{枠|わく} (mid-career hiring slot)\n- {中途採用|ちゅうとさいよう}{面接|めんせつ} (mid-career interview)\n- {中途採用|ちゅうとさいよう}で{入社|にゅうしゃ}する (to join via mid-career hiring)\n\nCULTURE:\nTraditionally, Japanese companies hired almost exclusively from new graduates ({新卒一括採用|しんそついっかつさいよう}). {中途採用|ちゅうとさいよう} was once seen as less prestigious, but this perception has changed significantly.",
-  "cross_references": [],
+  "notes": "USAGE:\n{中途採用|ちゅうとさいよう} is contrasted with {新卒採用|しんそつさいよう} (hiring of new graduates), which has traditionally been the dominant hiring model in Japan. As the labor market evolves, {中途採用|ちゅうとさいよう} has become increasingly common.\n\nCOMMON COLLOCATIONS:\n- {中途採用|ちゅうとさいよう}{枠|わく} (mid-career hiring slot)\n- {中途採用|ちゅうとさいよう}{面接|めんせつ} (mid-career interview)\n- {中途採用|ちゅうとさいよう}で{入社|にゅうしゃ}する (to join via mid-career hiring)\n\nCULTURAL NOTE:\nTraditionally, Japanese companies hired almost exclusively from new graduates ({新卒一括採用|しんそついっかつさいよう}). {中途採用|ちゅうとさいよう} was once seen as less prestigious, but this perception has changed significantly.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12871_shinsotsu",
+      "reading": "しんそつ",
+      "headword": "{新卒|しんそつ}",
+      "label": "new graduate, fresh graduate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29208_shinsotsusaiyou",
+      "reading": "しんそつさいよう",
+      "headword": "{新卒採用|しんそつさいよう}",
+      "label": "new graduate hiring"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T14:42:20Z",
-    "modified": "2026-03-18T14:42:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["work"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

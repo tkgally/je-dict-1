@@ -16,7 +16,9 @@
       "id": "08304_kiseihin_ex1",
       "japanese": "{既製品|きせいひん}のスーツを{買|か}った。",
       "english": "I bought an off-the-rack suit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "08304_kiseihin_ex2",
       "japanese": "{既製品|きせいひん}では{合|あ}うサイズがなかった。",
       "english": "There was no suitable size among the ready-made products.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,20 +36,66 @@
       "id": "08304_kiseihin_ex3",
       "japanese": "{手作|てづく}りより{既製品|きせいひん}のほうが{安|やす}くて{早|はや}い。",
       "english": "Ready-made products are cheaper and faster than handmade ones.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{既製|きせい} (ready-made, pre-made) + {品|ひん} (item, goods)\n\nCONTRAST:\n- {手作|てづく}り (handmade) - opposite concept\n- オーダーメイド (custom-made) - opposite concept\n- {注文品|ちゅうもんひん} (custom order item)\n\nCOMMON CONTEXTS:\n- {既製品|きせいひん}の{服|ふく} (ready-to-wear clothing)\n- {既製|きせい}{服|ふく} (ready-made clothes)\n\nNUANCE:\nWhile {既製品|きせいひん} is neutral, it can sometimes imply less personalization compared to custom or handmade items.",
+  "notes": "FORMS:\n{既製|きせい} (ready-made, pre-made) + {品|ひん} (item, goods)\n\nSIMILAR WORDS:\n- {手作|てづく}り (handmade) - opposite concept\n- オーダーメイド (custom-made) - opposite concept\n- {注文品|ちゅうもんひん} (custom order item)\n\nUSAGE:\n- {既製品|きせいひん}の{服|ふく} (ready-to-wear clothing)\n- {既製|きせい}{服|ふく} (ready-made clothes)\nWhile {既製品|きせいひん} is neutral, it can sometimes imply less personalization compared to custom or handmade items.",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "08300_tezukuri",
+      "reading": "てづくり",
+      "headword": "{手作|てづく}り",
+      "label": "handmade"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08964_chuumonhin",
+      "reading": "ちゅうもんひん",
+      "headword": "{注文品|ちゅうもんひん}",
+      "label": "custom order item"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08303_shinpin",
+      "reading": "しんぴん",
+      "headword": "{新品|しんぴん}",
+      "label": "brand new item"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19980_kiseifuku",
+      "reading": "きせいふく",
+      "headword": "{既製服|きせいふく}",
+      "label": "ready-made clothing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24763_ryousanhin",
+      "reading": "りょうさんひん",
+      "headword": "{量産品|りょうさんひん}",
+      "label": "mass-produced product"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["shopping", "products", "manufacturing"]
+      "politeness": "plain",
+      "semantic": [
+        "shopping",
+        "products",
+        "manufacturing"
+      ]
     },
     "created": "2026-01-25T23:09:50Z",
-    "modified": "2026-01-25T23:09:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

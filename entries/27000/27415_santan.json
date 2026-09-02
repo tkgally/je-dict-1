@@ -3,7 +3,7 @@
   "headword": "{惨憺|さんたん}",
   "reading": "さんたん",
   "romaji": "santan",
-  "part_of_speech": "adjective-taru",
+  "part_of_speech": "taru-adjective",
   "gloss": "wretched; miserable; disastrous",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "27415_santan_ex1",
       "japanese": "{惨憺|さんたん}たる{結果|けっか}に{終|お}わった。",
       "english": "It ended in a disastrous result.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27415_santan_ex2",
       "japanese": "{現場|げんば}は{惨憺|さんたん}たる{有様|ありさま}だった。",
       "english": "The scene was a wretched sight.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,53 @@
       "id": "27415_santan_ex3",
       "japanese": "{苦心|くしん}{惨憺|さんたん}の{末|すえ}、ようやく{完成|かんせい}にこぎつけた。",
       "english": "After painstaking effort, we finally managed to complete it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A literary たる-adjective derived from Classical Japanese. In modern usage it appears almost exclusively in the prenominal form {惨憺|さんたん}たる or in the fixed compound {苦心|くしん}{惨憺|さんたん}.\n\nCOMMON COLLOCATIONS:\n- {惨憺|さんたん}たる{結果|けっか}: disastrous results\n- {惨憺|さんたん}たる{有様|ありさま}: a wretched state\n- {惨憺|さんたん}たる{光景|こうけい}: a grim scene\n- {苦心|くしん}{惨憺|さんたん}: painstaking effort; toiling agonizingly\n\nUSAGE:\nNever used as a plain predicate (×{惨憺|さんたん}だ is unnatural). Modern speakers use {悲惨|ひさん} or ひどい in everyday conversation; {惨憺|さんたん} sounds formal or literary.\n\nSIMILAR WORDS:\n- {悲惨|ひさん}: tragic; miserable — much more common in everyday speech\n- {惨|みじ}め: miserable; pitiful — focuses on personal humiliation\n- ひどい: terrible; awful — colloquial, very general",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12633_hisan",
+      "reading": "ひさん",
+      "headword": "{悲惨|ひさん}",
+      "label": "tragic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04851_mijime",
+      "reading": "みじめ",
+      "headword": "{惨|みじ}め",
+      "label": "miserable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01097_hidoi",
+      "reading": "ひどい",
+      "headword": "ひどい",
+      "label": "terrible"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-taru"],
+      "pos": [
+        "adjective-taru"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["emotion", "evaluation"],
+      "politeness": "plain",
+      "semantic": [
+        "emotion",
+        "evaluation"
+      ],
       "domain": []
     },
     "created": "2026-05-11T07:40:10Z",
-    "modified": "2026-05-11T07:40:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

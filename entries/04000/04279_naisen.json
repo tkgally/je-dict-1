@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {内線|ないせん} most commonly refers to telephone extensions in offices and organizations. The second meaning (civil war) is used in historical and political contexts.\n\nCOMMON PATTERNS:\n- {内線|ないせん}⟦{番号|ばんごう}→番号：02939_bangou⟧ (extension number)\n- {内線|ないせん}⟦で→で：00502_de⟧⟦{電話|でんわ}→電話：01471_denwa⟧⟦する→する：00392_suru⟧ (to call on the internal line)\n- {内線|ないせん}XXXX⟦{番|ばん}→番：09873_ban⟧ (extension number XXXX)\n\nCONTRAST:\n- {内線|ないせん} - internal line (within organization)\n- ⟦{外線|がいせん}→外線：15004_gaisen⟧ - external line (outside calls)",
+  "notes": "USAGE: {内線|ないせん} most commonly refers to telephone extensions in offices and organizations. The second meaning (civil war) is used in historical and political contexts.\n\nCOMMON PATTERNS:\n- {内線|ないせん}⟦{番号|ばんごう}→番号：02939_bangou⟧ (extension number)\n- {内線|ないせん}⟦で→で：00502_de⟧⟦{電話|でんわ}→電話：01471_denwa⟧⟦する→する：00392_suru⟧ (to call on the internal line)\n- {内線|ないせん}XXXX⟦{番|ばん}→番：09873_ban⟧ (extension number XXXX)\n\nSIMILAR WORDS:\n- {内線|ないせん} - internal line (within organization)\n- ⟦{外線|がいせん}→外線：15004_gaisen⟧ - external line (outside calls)",
   "cross_references": [
     {
       "type": "antonym",
@@ -93,11 +93,25 @@
       "reading": "ないせん",
       "headword": "{内戦|ないせん}",
       "label": "civil war"
+    },
+    {
+      "type": "related",
+      "target_id": "20953_shigaikyokuban",
+      "reading": "しがいきょくばん",
+      "headword": "{市外局番|しがいきょくばん}",
+      "label": "area code"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30099_kyokuban",
+      "reading": "きょくばん",
+      "headword": "{局番|きょくばん}",
+      "label": "telephone exchange number"
     }
   ],
   "metadata": {
     "created": "2026-01-14T00:58:16Z",
-    "modified": "2026-05-30T16:12:37Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

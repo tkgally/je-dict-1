@@ -19,7 +19,9 @@
       "english": "This is the first time I've seen scenery this beautiful.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18054_korehodo_ex2",
@@ -27,7 +29,9 @@
       "english": "I didn't think it would be this difficult.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18054_korehodo_ex3",
@@ -35,21 +39,49 @@
       "english": "I hadn't expected this many people to gather.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften appears in patterns expressing surprise or emphasis: これほど〜とは{思|おも}わなかった (I didn't think it would be this...), これほど〜は{初|はじ}めてだ (this is the first time something is this...). Tends toward written or slightly formal style.\n\nRELATED WORDS:\n- それほど: to that extent\n- あれほど: to that extent (with nuance of emphasis or reproach, as in \"I told you that much\")\n- どれほど: to what extent, how much\n\nCOMMON PATTERNS:\n- これほど〜とは: expressing surprise at the degree\n- これほど〜のは{初|はじ}めて: first time at this level\n- これほどまでに: to this extent (emphatic)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01563_sorehodo",
+      "reading": "それほど",
+      "headword": "それほど",
+      "label": "to that extent"
+    },
+    {
+      "type": "related",
+      "target_id": "20078_arehodo",
+      "reading": "あれほど",
+      "headword": "あれほど",
+      "label": "to that extent"
+    },
+    {
+      "type": "related",
+      "target_id": "22424_dorehodo",
+      "reading": "どれほど",
+      "headword": "どれほど",
+      "label": "to what extent, how much"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T01:03:43Z",
-    "modified": "2026-03-20T01:03:43Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity"]
+      "semantic": [
+        "quantity"
+      ]
     }
   }
 }

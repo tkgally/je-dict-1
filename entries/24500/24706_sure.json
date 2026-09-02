@@ -17,7 +17,9 @@
       "id": "24706_sure_ex1",
       "japanese": "{靴|くつ}{擦|ず}れができた。",
       "english": "I got a blister from my shoes rubbing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24706_sure_ex2",
       "japanese": "{襟|えり}の{擦|す}れが{目立|めだ}つようになった。",
       "english": "The wear on the collar has become noticeable.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "24706_sure_ex3",
       "japanese": "{長距離|ちょうきょり}を{走|はし}ると、{太|ふと}ももの{内側|うちがわ}に{擦|す}れが{起|お}きやすい。",
       "english": "When running long distances, chafing tends to occur on the inner thighs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The noun form of {擦|す}れる (to rub, to chafe). Frequently appears in compounds and is an everyday word for physical wear caused by friction. The reading changes to ずれ in some compounds (e.g., {靴|くつ}ずれ).\n\nCOMMON COLLOCATIONS:\n- {靴|くつ}{擦|ず}れ: shoe blister, shoe rubbing\n- {擦|す}れ{傷|きず}: abrasion, scrape wound\n- {擦|す}れて{痛|いた}い: hurts from rubbing\n- {股|また}{擦|ず}れ: inner thigh chafing\n- {袖|そで}の{擦|す}れ: wear on sleeves\n\nSIMILAR WORDS:\n- {摩擦|まさつ}: friction — the physical force itself, more technical and scientific\n- {傷|きず}: wound, scratch — broader term for any damage or injury\n- {磨耗|まもう}: wear, abrasion — more technical, used for mechanical or material wear",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00271_masatsu",
+      "reading": "まさつ",
+      "headword": "{摩擦|まさつ}",
+      "label": "friction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02201_kizu",
+      "reading": "きず",
+      "headword": "{傷|きず}",
+      "label": "wound, scratch"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-04-20T12:16:06Z",
-    "modified": "2026-06-15T07:58:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

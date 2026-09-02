@@ -17,7 +17,9 @@
       "id": "20139_kinrui_ex1",
       "japanese": "きのこは{菌類|きんるい}の{一種|いっしゅ}だ。",
       "english": "Mushrooms are a type of fungus.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20139_kinrui_ex2",
       "japanese": "{菌類|きんるい}は{生態系|せいたいけい}で{重要|じゅうよう}な{役割|やくわり}を{果|は}たしている。",
       "english": "Fungi play an important role in the ecosystem.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "20139_kinrui_ex3",
       "japanese": "{菌類|きんるい}には{有益|ゆうえき}なものと{有害|ゆうがい}なものがある。",
       "english": "There are both beneficial and harmful fungi.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {菌|きん} (fungus, germ, bacteria) + {類|るい} (kind, category). A scientific classification term covering all fungal organisms.\n\nCOMMON COLLOCATIONS:\n- {菌類|きんるい}の{研究|けんきゅう}: study of fungi (mycology)\n- {菌類|きんるい}が{繁殖|はんしょく}する: fungi proliferate\n- {菌類|きんるい}の{分類|ぶんるい}: classification of fungi\n- {有害|ゆうがい}{菌類|きんるい}: harmful fungi\n\nSIMILAR WORDS:\n- {細菌|さいきん}: bacteria — a different kingdom of microorganisms; often confused with fungi\n- カビ: mold — a specific type of fungus; everyday term\n- {酵母|こうぼ}: yeast — a type of single-celled fungus used in brewing and baking\n- きのこ: mushroom — the visible fruiting body of certain fungi\n\nUSAGE:\nA formal, scientific term. In everyday conversation, people are more likely to refer to specific types of fungi (きのこ for mushrooms, カビ for mold) rather than using the umbrella term {菌類|きんるい}.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13791_saikin",
+      "reading": "さいきん",
+      "headword": "{細菌|さいきん}",
+      "label": "bacteria"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07055_kabi",
+      "reading": "かび",
+      "headword": "カビ",
+      "label": "mold"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04994_kinoko",
+      "reading": "きのこ",
+      "headword": "{茸|きのこ}",
+      "label": "mushroom"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["science", "nature"]
+      "semantic": [
+        "science",
+        "nature"
+      ]
     },
     "created": "2026-03-28T14:20:01Z",
-    "modified": "2026-03-28T14:20:01Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

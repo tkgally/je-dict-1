@@ -22,7 +22,9 @@
       "id": "19186_koutei_ex1",
       "japanese": "{片道|かたみち}の{行程|こうてい}は{約|やく}3{時間|じかん}だ。",
       "english": "The one-way journey is about three hours.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "19186_koutei_ex2",
       "japanese": "{旅|たび}の{行程|こうてい}を{確認|かくにん}する。",
       "english": "To confirm the travel itinerary.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "19186_koutei_ex3",
       "japanese": "{山頂|さんちょう}までの{行程|こうてい}は{険|けわ}しいが、{景色|けしき}は{素晴|すば}らしい。",
       "english": "The journey to the summit is steep, but the scenery is wonderful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "19186_koutei_ex4",
       "japanese": "エンジンの{行程|こうてい}を{測定|そくてい}する。",
       "english": "To measure the engine stroke.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "19186_koutei_ex5",
       "japanese": "この{機械|きかい}は4{行程|こうてい}サイクルで{動|うご}く。",
       "english": "This machine operates on a four-stroke cycle.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,38 @@
       "id": "19186_koutei_ex6",
       "japanese": "{製造|せいぞう}{行程|こうてい}の{各段階|かくだんかい}で{品質|ひんしつ}{検査|けんさ}を{行|おこな}う。",
       "english": "Quality inspections are conducted at each stage of the manufacturing process.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {行|こう} (go, travel) + {程|てい} (degree, extent, distance). Not to be confused with the homophone {工程|こうてい} (work process, production schedule), which focuses specifically on work/production steps, while {行程|こうてい} in sense 2 refers to mechanical strokes or stages. Common collocations: {行程|こうてい}{表|ひょう} (itinerary chart), {往復|おうふく}{行程|こうてい} (round-trip distance), {一日|いちにち}の{行程|こうてい} (a day's journey). In mountaineering and hiking, {行程|こうてい} specifically refers to the route distance and time estimate for the climb.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04289_nittei",
+      "reading": "にってい",
+      "headword": "{日程|にってい}",
+      "label": "schedule, program"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "general"]
+      "semantic": [
+        "transportation",
+        "general"
+      ]
     },
     "created": "2026-03-24T13:56:08Z",
-    "modified": "2026-03-24T13:56:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

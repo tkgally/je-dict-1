@@ -78,11 +78,33 @@
       ]
     }
   ],
-  "notes": "ちろちろ is a gentle onomatopoeia, often associated with small flames or shy/furtive glances.\n\nCOMMON PATTERNS:\n- ちろちろ⟦{燃|も}える→燃える：02312_moeru⟧: to burn flickeringly\n- ちろちろ⟦{見|み}る→見る：00283_miru⟧: to steal glances\n\nCONTRAST:\n- ⟦めらめら→めらめら：05375_meramera⟧: burning intensely\n- ⟦ゆらゆら→ゆらゆら：04817_yurayura⟧: swaying gently (larger movements)\n- ⟦じろじろ→じろじろ：06907_jirojiro⟧: staring rudely (more direct, impolite)",
-  "cross_references": [],
+  "notes": "ちろちろ is a gentle onomatopoeia, often associated with small flames or shy/furtive glances.\n\nCOMMON PATTERNS:\n- ちろちろ⟦{燃|も}える→燃える：02312_moeru⟧: to burn flickeringly\n- ちろちろ⟦{見|み}る→見る：00283_miru⟧: to steal glances\n\nSIMILAR WORDS:\n- ⟦めらめら→めらめら：05375_meramera⟧: burning intensely\n- ⟦ゆらゆら→ゆらゆら：04817_yurayura⟧: swaying gently (larger movements)\n- ⟦じろじろ→じろじろ：06907_jirojiro⟧: staring rudely (more direct, impolite)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05375_meramera",
+      "reading": "めらめら",
+      "headword": "めらめら",
+      "label": "burning intensely"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04817_yurayura",
+      "reading": "ゆらゆら",
+      "headword": "ゆらゆら",
+      "label": "swaying gently"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06907_jirojiro",
+      "reading": "じろじろ",
+      "headword": "じろじろ",
+      "label": "staring rudely"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T21:25:32Z",
-    "modified": "2026-06-10T01:00:42Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

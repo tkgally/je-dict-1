@@ -3,7 +3,7 @@
   "headword": "{依存的|いそんてき}",
   "reading": "いそんてき",
   "romaji": "isonteki",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "dependent; reliant",
   "definitions": [
     {
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {依存|いそん} (dependence) plus the adjectival suffix {的|てき}. Primarily used in psychology, relationships, and social commentary. Almost always carries a negative connotation — healthy reliance is usually expressed differently.\n\nCOMMON COLLOCATIONS:\n- {依存的|いそんてき}な{関係|かんけい}: dependent relationship\n- {依存的|いそんてき}な{性格|せいかく}: dependent personality\n- {依存的|いそんてき}な{態度|たいど}: dependent attitude\n- {依存的|いそんてき}になる: to become dependent\n\nSIMILAR WORDS:\n- {依存|いそん}する: to depend on — the verb form; more neutral than {依存的|いそんてき}\n- {甘|あま}えた: spoiled; clingy — describes dependency in a more emotional, interpersonal way\n- {自立|じりつ}した: independent; self-reliant — the antonym\n\nPRONUNCIATION NOTE:\nThe reading いそん is now standard, though the older pronunciation いぞん is still heard.",
-  "cross_references": [],
+  "notes": "Formed from {依存|いそん} (dependence) plus the adjectival suffix {的|てき}. Primarily used in psychology, relationships, and social commentary. Almost always carries a negative connotation — healthy reliance is usually expressed differently.\n\nCOMMON COLLOCATIONS:\n- {依存的|いそんてき}な{関係|かんけい}: dependent relationship\n- {依存的|いそんてき}な{性格|せいかく}: dependent personality\n- {依存的|いそんてき}な{態度|たいど}: dependent attitude\n- {依存的|いそんてき}になる: to become dependent\n\nSIMILAR WORDS:\n- {依存|いそん}する: to depend on — the verb form; more neutral than {依存的|いそんてき}\n- {甘|あま}えた: spoiled; clingy — describes dependency in a more emotional, interpersonal way\n- {自立|じりつ}した: independent; self-reliant — the antonym\n\nPRONUNCIATION:\nThe reading いそん is now standard, though the older pronunciation いぞん is still heard.",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "13970_jiritsu",
+      "reading": "じりつ",
+      "headword": "{自立|じりつ}",
+      "label": "independent"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +61,14 @@
       "pos": [
         "adjective-na"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "cognition",
         "evaluation"
       ]
     },
     "created": "2026-04-27T12:19:03Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

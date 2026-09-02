@@ -19,7 +19,9 @@
       "english": "Many years have passed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13198_saigetsu_ex2",
@@ -27,7 +29,9 @@
       "english": "Memories fade with the passage of time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13198_saigetsu_ex3",
@@ -35,7 +39,9 @@
       "english": "It took many years and great expense to complete.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA somewhat literary word. More evocative and reflective than {時間|じかん} or {年月|ねんげつ}. Often used when looking back on a significant span of time or when emphasizing the weight of time passed. Common in written language, speeches, and narrative.\n\nCOMMON COLLOCATIONS:\n- {歳月|さいげつ}が{流|なが}れる: time passes (poetic)\n- {歳月|さいげつ}が{経|た}つ: years go by\n- {長|なが}い{歳月|さいげつ}: many years, a long time\n- {歳月|さいげつ}をかける: to spend years on something\n\nSIMILAR WORDS:\n- {年月|ねんげつ}: years and months (more neutral, less literary)\n- {月日|つきひ}: days and months, time (everyday, warm tone)\n- {時|とき}: time (general, abstract)",
@@ -53,19 +59,40 @@
       "reading": "つきひ",
       "headword": "{月日|つきひ}",
       "label": "days and months (everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02918_toki",
+      "reading": "とき",
+      "headword": "{時|とき}",
+      "label": "time"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03458_toshitsuki",
+      "reading": "としつき",
+      "headword": "{年月|としつき}",
+      "label": "years, time (passage)"
     }
   ],
   "metadata": {
     "created": "2026-02-24T06:11:52Z",
-    "modified": "2026-04-28T06:26:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-general"],
-      "style": ["written", "literary"]
+      "semantic": [
+        "time-general"
+      ],
+      "style": [
+        "written",
+        "literary"
+      ]
     }
   }
 }

@@ -17,7 +17,9 @@
       "id": "27734_shumoku_ex1",
       "japanese": "{好|す}きな{種目|しゅもく}は{水泳|すいえい}だ。",
       "english": "My favorite event is swimming.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27734_shumoku_ex2",
       "japanese": "オリンピックには{多|おお}くの{種目|しゅもく}がある。",
       "english": "The Olympics has many events.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "27734_shumoku_ex3",
       "japanese": "{運動会|うんどうかい}でどの{種目|しゅもく}に{出|で}るか{迷|まよ}っている。",
       "english": "I can't decide which event to enter at the sports day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {種|しゅ} (kind, type) + {目|もく} (item, category). Refers to an individual event or category within a larger competition or program.\n\nCOMMON COLLOCATIONS:\n- {競技|きょうぎ}{種目|しゅもく}: a competitive event\n- {種目|しゅもく}{別|べつ}: by event; per category\n- {正式|せいしき}{種目|しゅもく}: an official event\n\nSIMILAR WORDS:\n- {競技|きょうぎ}: a sporting event; competition — emphasizes the contest itself, while {種目|しゅもく} emphasizes its place as one category among several",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02606_kyougi",
+      "reading": "きょうぎ",
+      "headword": "{競技|きょうぎ}",
+      "label": "a sporting event"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01560_shurui",
+      "reading": "しゅるい",
+      "headword": "{種類|しゅるい}",
+      "label": "kind, type, variety"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports"],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-05-17T04:06:49Z",
-    "modified": "2026-05-17T04:06:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

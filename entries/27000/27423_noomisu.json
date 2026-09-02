@@ -17,7 +17,9 @@
       "id": "27423_noomisu_ex1",
       "japanese": "{今日|きょう}はノーミスでクリアした。",
       "english": "Today I cleared it with no mistakes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27423_noomisu_ex2",
       "japanese": "{彼女|かのじょ}はノーミスで{演奏|えんそう}を{終|お}えた。",
       "english": "She finished her performance without a single mistake.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "27423_noomisu_ex3",
       "japanese": "{大事|だいじ}な{場面|ばめん}でノーミスを{続|つづ}けられる{選手|せんしゅ}は{本当|ほんとう}に{強|つよ}い。",
       "english": "A player who can keep making no mistakes in important moments is truly strong.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Japanese-coined loanword from English \"no\" + \"miss.\" Used as a noun and adverbially with で. Functions as the casual antonym of ケアレスミス. Note that \"no miss\" in this exact form is not used in English — it is wasei-eigo.\n\nCOMMON COLLOCATIONS:\n- ノーミスでクリアする: to clear (a game/stage) with no mistakes\n- ノーミスで{演奏|えんそう}する: to perform without a mistake\n- ノーミスを{狙|ねら}う: to aim for a flawless run\n- ノーミスが{続|つづ}く: a streak of error-free attempts continues\n\nSIMILAR WORDS:\n- ケアレスミス: careless mistake — direct counterpart describing the errors that ノーミス avoids\n- {完璧|かんぺき}: perfect — adjectival; broader, includes flawless quality, not just absence of mistakes\n- パーフェクト: perfect — loanword; often used for full marks or perfect scores",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27420_kearesumisu",
+      "reading": "けあれすみす",
+      "headword": "ケアレスミス",
+      "label": "careless mistake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09505_kanpeki",
+      "reading": "かんぺき",
+      "headword": "{完璧|かんぺき}",
+      "label": "perfect"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
-      "politeness": null,
-      "semantic": ["evaluation", "sports", "loanword"],
+      "politeness": "plain",
+      "semantic": [
+        "evaluation",
+        "sports",
+        "loanword"
+      ],
       "domain": []
     },
     "created": "2026-05-11T07:40:10Z",
-    "modified": "2026-05-11T07:40:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

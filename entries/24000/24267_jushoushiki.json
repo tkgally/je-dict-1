@@ -17,7 +17,9 @@
       "id": "24267_jushoushiki_ex1",
       "japanese": "{受賞式|じゅしょうしき}に{出席|しゅっせき}する。",
       "english": "I will attend the award ceremony.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24267_jushoushiki_ex2",
       "japanese": "{受賞式|じゅしょうしき}で{感動的|かんどうてき}なスピーチが{行|おこな}われた。",
       "english": "A moving speech was given at the award ceremony.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "24267_jushoushiki_ex3",
       "japanese": "ノーベル{賞|しょう}の{受賞式|じゅしょうしき}は{毎年|まいとし}ストックホルムで{開催|かいさい}される。",
       "english": "The Nobel Prize award ceremony is held in Stockholm every year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {受賞|じゅしょう} ('receiving a prize') and {式|しき} ('ceremony'). Follows the productive {〜式|しき} pattern: {卒業式|そつぎょうしき} ('graduation ceremony'), {結婚式|けっこんしき} ('wedding ceremony'), {入学式|にゅうがくしき} ('entrance ceremony').\n\nUSAGE:\n- Commonly encountered in news about film, literature, music, and academic awards\n- The word focuses on the ceremony itself, not the act of winning — for the latter, use {受賞|じゅしょう}\n- Often modified by the name of the specific award: ノーベル{賞|しょう}{受賞式|じゅしょうしき}\n\nCOMMON COLLOCATIONS:\n- {受賞式|じゅしょうしき}に{出席|しゅっせき}する: to attend an award ceremony\n- {受賞式|じゅしょうしき}を{開催|かいさい}する: to hold an award ceremony\n- {受賞式|じゅしょうしき}のスピーチ: award ceremony speech\n- {年間|ねんかん}{受賞式|じゅしょうしき}: annual award ceremony\n\nSIMILAR WORDS:\n- {授賞式|じゅしょうしき}: award-giving ceremony — same reading, written with {授|じゅ} ('to grant') instead of {受|じゅ} ('to receive'); focuses on the giver's perspective\n- {表彰式|ひょうしょうしき}: commendation ceremony — broader, includes recognition of merit not limited to prizes\n- {式典|しきてん}: ceremony — general term for any formal ceremony",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20175_hyoushoushiki",
+      "reading": "ひょうしょうしき",
+      "headword": "{表彰式|ひょうしょうしき}",
+      "label": "commendation ceremony"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09526_shikiten",
+      "reading": "しきてん",
+      "headword": "{式典|しきてん}",
+      "label": "ceremony"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-04-18T12:18:49Z",
-    "modified": "2026-04-18T12:18:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

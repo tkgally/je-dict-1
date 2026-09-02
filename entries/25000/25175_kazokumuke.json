@@ -3,7 +3,7 @@
   "headword": "{家族向|かぞくむ}け",
   "reading": "かぞくむけ",
   "romaji": "kazokumuke",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "for families; family-oriented",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "25175_kazokumuke_ex1",
       "japanese": "{家族向|かぞくむ}けのレストランを{探|さが}している。",
       "english": "I'm looking for a family-friendly restaurant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25175_kazokumuke_ex2",
       "japanese": "このマンションは{家族向|かぞくむ}けの{間取|まど}りになっている。",
       "english": "This apartment has a layout designed for families.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,46 @@
       "id": "25175_kazokumuke_ex3",
       "japanese": "{週末|しゅうまつ}に{家族向|かぞくむ}けのイベントが{公園|こうえん}で{開催|かいさい}されるので、{子|こ}どもたちを{連|つ}れて{行|い}こうと{思|おも}う。",
       "english": "A family-oriented event will be held in the park this weekend, so I'm thinking of taking the children.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {家族|かぞく} (family) and {向|む}け (aimed at, intended for). The ～{向|む}け pattern is extremely productive and indicates the target audience or purpose: {子|こ}ども{向|む}け (for children), {大人|おとな}{向|む}け (for adults), {初心者|しょしんしゃ}{向|む}け (for beginners).\n\nUsed as a noun modifier with の, or directly before another noun.\n\nCOMMON COLLOCATIONS:\n- {家族向|かぞくむ}けの{住宅|じゅうたく}: family-oriented housing\n- {家族向|かぞくむ}けの{映画|えいが}: family-friendly movie\n- {家族向|かぞくむ}けの{旅行|りょこう}プラン: family travel plan\n- {家族向|かぞくむ}けイベント: family-oriented event\n\nSIMILAR WORDS:\n- {児童向|じどうむ}け: for children — targets children specifically\n- {幼児向|ようじむ}け: for toddlers/young children — targets younger children\n- ファミリー{向|む}け: family-oriented — katakana loanword version, often used in marketing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25176_jidoumuke",
+      "reading": "じどうむけ",
+      "headword": "{児童向|じどうむ}け",
+      "label": "for children"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26433_youjimuke",
+      "reading": "ようじむけ",
+      "headword": "{幼児|ようじ}{向|む}け",
+      "label": "for toddlers/young children"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
-      "semantic": ["family", "daily-life"]
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "family",
+        "daily-life"
+      ]
     },
     "created": "2026-04-23T13:24:35Z",
-    "modified": "2026-04-23T13:24:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "ラウンド",
   "reading": "らうんど",
   "romaji": "raundo",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "round (of golf, boxing, negotiations)",
   "definitions": [
     {
@@ -81,6 +81,29 @@
   ],
   "notes": "A loanword from English \"round.\" Most commonly associated with golf in everyday Japanese.\n\nUSAGE:\nIn casual conversation, ラウンド without further context almost always means a round of golf. For boxing and tournaments, the context (ボクシング, {試合|しあい}, etc.) is usually provided. ラウンドする is used as a suru-verb meaning \"to play a round of golf.\" In business contexts, ラウンド can refer to rounds of funding ({資金調達|しきんちょうたつ}ラウンド) or rounds of negotiation.\n\nCOMMON COLLOCATIONS:\n- ラウンドする: to play a round of golf\n- ラウンドを{回|まわ}る: to go around the course\n- {第|だい}1ラウンド: round one, first round\n- {最終|さいしゅう}ラウンド: final round\n- ハーフラウンド: half round (9 holes of golf)\n- {練習|れんしゅう}ラウンド: practice round\n\nSIMILAR WORDS:\n- {回戦|かいせん}: round (of a tournament) — the native counter for tournament rounds ({一回戦|いっかいせん} = first round)\n- {局|きょく}: round, game — used for go, shogi, and similar board games\n- セット: set — used in tennis, volleyball, and similar sports",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02687_kyoku",
+      "reading": "きょく",
+      "headword": "{局|きょく}",
+      "label": "round, game"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03853_setto",
+      "reading": "せっと",
+      "headword": "セット",
+      "label": "set"
+    },
+    {
+      "type": "related",
+      "target_id": "05235_bokushingu",
+      "reading": "ぼくしんぐ",
+      "headword": "ボクシング",
+      "label": "boxing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -96,7 +119,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-18T10:27:54Z",
-    "modified": "2026-04-18T10:27:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

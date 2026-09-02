@@ -3,7 +3,7 @@
   "headword": "{丸|まる}まる",
   "reading": "まるまる",
   "romaji": "marumaru",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to curl up; to roll into a ball; to become rounded",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "A godan verb derived from {丸|まる}い (round). Describes the process of something taking on a round, compact shape — by curling, rolling, or contracting.\n\nCOMMON COLLOCATIONS:\n- {丸|まる}まって{寝|ね}る: to sleep curled up\n- {体|からだ}を{丸|まる}める: to curl one's body up (transitive)\n- {布団|ふとん}の{中|なか}で{丸|まる}まる: to curl up inside the blanket\n- {猫|ねこ}が{丸|まる}まる: a cat curls into a ball\n\nNOTE: The transitive counterpart is {丸|まる}める (to round something; to roll something into a ball): {紙|かみ}を{丸|まる}める (to crumple paper).\n\nSIMILAR WORDS:\n- {縮|ちぢ}こまる: to huddle, to scrunch up — implies shrinking from cold or fear\n- うずくまる: to crouch, to squat — lower-body crouch rather than full body curl",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08217_chijikomaru",
+      "reading": "ちぢこまる",
+      "headword": "{縮|ちぢ}こまる",
+      "label": "to huddle, to scrunch up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18290_uzukumaru",
+      "reading": "うずくまる",
+      "headword": "うずくまる",
+      "label": "to crouch, to squat"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "verb-godan"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "movement",
         "appearance"
@@ -62,7 +78,7 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-06-09T17:38:37Z",
-    "modified": "2026-08-09T06:33:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

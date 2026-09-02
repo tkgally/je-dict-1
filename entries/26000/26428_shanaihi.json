@@ -17,7 +17,9 @@
       "id": "26428_shanaihi_ex1",
       "japanese": "この{資料|しりょう}は{社内|しゃない}{秘|ひ}です。",
       "english": "This document is confidential.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26428_shanaihi_ex2",
       "japanese": "{社内|しゃない}{秘|ひ}の{情報|じょうほう}を{外部|がいぶ}に{漏|も}らさないでください。",
       "english": "Please do not leak confidential information to outsiders.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,43 @@
       "id": "26428_shanaihi_ex3",
       "japanese": "{会議|かいぎ}で{配|くば}られた{社内|しゃない}{秘|ひ}の{書類|しょるい}は、{使用後|しようご}にシュレッダーで{処分|しょぶん}することになっている。",
       "english": "Confidential documents distributed at the meeting are to be shredded after use.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {社内|しゃない} (within the company) and {秘|ひ} (secret, confidential). This label is a standard part of Japanese corporate document classification. It is often stamped in red on the cover or header of documents.\n\nDOCUMENT CLASSIFICATION LEVELS (from least to most restricted):\n- {社内|しゃない}{限|かぎ}り: for internal distribution (less restrictive)\n- {社内|しゃない}{秘|ひ}: confidential within the company\n- {部外|ぶがい}{秘|ひ}: confidential outside the department\n- {極秘|ごくひ}: top secret\n\nCOMMON COLLOCATIONS:\n- {社内|しゃない}{秘|ひ}の{資料|しりょう}: confidential materials\n- {社内|しゃない}{秘|ひ}の{情報|じょうほう}: confidential information\n- {社内|しゃない}{秘|ひ}{扱|あつか}い: treated as confidential\n\nSIMILAR WORDS:\n- {機密|きみつ}: classified, secret — a stronger, more formal term\n- {極秘|ごくひ}: top secret — the highest level of confidentiality\n- {部外|ぶがい}{秘|ひ}: not to be disclosed outside the department",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13179_kimitsu",
+      "reading": "きみつ",
+      "headword": "{機密|きみつ}",
+      "label": "classified, secret"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13162_gokuhi",
+      "reading": "ごくひ",
+      "headword": "{極秘|ごくひ}",
+      "label": "top secret"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-05-01T15:40:52Z",
-    "modified": "2026-05-01T15:40:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

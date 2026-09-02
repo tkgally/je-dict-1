@@ -4,7 +4,7 @@
   "headword": "{顔面蒼白|がんめんそうはく}",
   "reading": "がんめんそうはく",
   "romaji": "ganmensouhaku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "deathly pale; white as a sheet",
   "definitions": [
     {
@@ -56,16 +56,32 @@
     }
   ],
   "notes": "A four-character compound ({四字熟語|よじじゅくご}): {顔面|がんめん} (face) + {蒼白|そうはく} (pale, pallid). Describes the dramatic loss of color from the face.\n\nCOMMON COLLOCATIONS:\n- {顔面蒼白|がんめんそうはく}になる: turn deathly pale\n- {顔面蒼白|がんめんそうはく}で{立|た}ちすくむ: stand frozen, pale-faced\n- {顔面蒼白|がんめんそうはく}の{患者|かんじゃ}: a pale-faced patient\n\nSIMILAR WORDS:\n- {青|あお}ざめる: to turn pale — a verb form; more commonly used in everyday speech\n- {血|ち}の{気|け}が{引|ひ}く: the blood drains from one's face — a vivid idiomatic expression for turning pale\n- {真|ま}っ{青|さお}になる: to turn completely pale/blue — casual and common\n\nUSAGE:\nMore dramatic and literary than {青|あお}ざめる. Commonly appears in novels, news reports about emergencies, and dramatic descriptions. Can be used as a na-adjective ({顔面蒼白|がんめんそうはく}な{表情|ひょうじょう}) or as a noun with になる.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14612_aozameru",
+      "reading": "あおざめる",
+      "headword": "{青|あお}ざめる",
+      "label": "to turn pale"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21120_sekimen",
+      "reading": "せきめん",
+      "headword": "{赤面|せきめん}",
+      "label": "blushing"
+    }
+  ],
   "metadata": {
     "created": "2026-04-18T09:14:04Z",
-    "modified": "2026-08-02T18:32:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun",
         "adjective-na"
       ],
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "body-part",

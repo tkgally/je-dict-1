@@ -3,7 +3,7 @@
   "headword": "{停留|ていりゅう}",
   "reading": "ていりゅう",
   "romaji": "teiryuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "stopping; halting; staying in one place",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Compound of {停|てい} (halt) + {留|りゅう} (stay/remain). Most commonly encountered in the compound {停留所|ていりゅうじょ} (bus stop/tram stop), which is one of the first words visitors to Japan learn for navigating public transport.\n\nCOMMON COLLOCATIONS:\n- {停留所|ていりゅうじょ}: bus stop; tram stop\n- バス{停留所|ていりゅうじょ}: bus stop\n- {路面|ろめん}{電車|でんしゃ}{停留所|ていりゅうじょ}: streetcar stop\n- {停留|ていりゅう}{時間|じかん}: stopping time; dwell time\n\nSIMILAR WORDS:\n- {停車|ていしゃ}: stopping (of a vehicle) — specifically about a vehicle stopping temporarily, not the place\n- {停止|ていし}: halt; cessation — broader; can mean stopping any activity or process\n- {滞留|たいりゅう}: staying; lingering — implies remaining longer than expected\n- バス{停|てい}: bus stop (abbreviated form) — casual abbreviation often seen on maps",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04534_teisha",
+      "reading": "ていしゃ",
+      "headword": "{停車|ていしゃ}",
+      "label": "stopping"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04067_teishi",
+      "reading": "ていし",
+      "headword": "{停止|ていし}",
+      "label": "halt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25835_tairyuu",
+      "reading": "たいりゅう",
+      "headword": "{滞留|たいりゅう}",
+      "label": "staying"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05295_basutei",
+      "reading": "ばすてい",
+      "headword": "バス{停|てい}",
+      "label": "bus stop"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-21T11:22:54Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

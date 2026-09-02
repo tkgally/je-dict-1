@@ -17,7 +17,9 @@
       "id": "22465_iiwatashi_ex1",
       "japanese": "{判決|はんけつ}の{言|い}い{渡|わた}しがあった。",
       "english": "The sentence was pronounced.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22465_iiwatashi_ex2",
       "japanese": "{裁判長|さいばんちょう}から{有罪|ゆうざい}の{言|い}い{渡|わた}しを{受|う}けた。",
       "english": "He received a guilty verdict from the presiding judge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "22465_iiwatashi_ex3",
       "japanese": "{解雇|かいこ}の{言|い}い{渡|わた}しを{受|う}けて、{彼女|かのじょ}は{言葉|ことば}を{失|うしな}った。",
       "english": "Upon being notified of her dismissal, she was lost for words.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The noun form of the verb {言|い}い{渡|わた}す (to pronounce, to hand down). Used primarily in legal and formal contexts for official declarations or decisions delivered to a person.\n\nCOMMON COLLOCATIONS:\n- {判決|はんけつ}の{言|い}い{渡|わた}し: pronouncement of a verdict\n- {言|い}い{渡|わた}しを{受|う}ける: to receive a pronouncement\n- {刑|けい}の{言|い}い{渡|わた}し: sentencing\n- {解雇|かいこ}の{言|い}い{渡|わた}し: notification of dismissal\n\nSIMILAR WORDS:\n- {判決|はんけつ}: verdict, judgment — the decision itself, while {言|い}い{渡|わた}し emphasizes the act of delivering it\n- {宣告|せんこく}: declaration, sentencing — a formal announcement, often used in medical contexts ({余命|よめい}{宣告|せんこく}, life expectancy notification)\n- {通告|つうこく}: notification — a formal notice or announcement, broader than legal contexts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05906_hanketsu",
+      "reading": "はんけつ",
+      "headword": "{判決|はんけつ}",
+      "label": "verdict, judgment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06819_senkoku",
+      "reading": "せんこく",
+      "headword": "{宣告|せんこく}",
+      "label": "declaration, sentencing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20432_tsuukoku",
+      "reading": "つうこく",
+      "headword": "{通告|つうこく}",
+      "label": "notification"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["law"]
+      "semantic": [
+        "law"
+      ]
     },
     "created": "2026-04-06T12:17:45Z",
-    "modified": "2026-04-06T12:17:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

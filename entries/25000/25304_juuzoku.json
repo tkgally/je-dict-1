@@ -3,7 +3,7 @@
   "headword": "{従属|じゅうぞく}",
   "reading": "じゅうぞく",
   "romaji": "juuzoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "subordination; dependence; subjection",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Describes a state of being under the control or authority of another. Composed of {従|じゅう} (follow, obey) and {属|ぞく} (belong to). Used in political, economic, social, and grammatical contexts.\n\nCOMMON COLLOCATIONS:\n- {従属|じゅうぞく}{関係|かんけい}: subordinate relationship\n- {従属|じゅうぞく}{的|てき}: dependent, subordinate (adjective)\n- AにBが{従属|じゅうぞく}する: B is subordinate to A\n- {従属|じゅうぞく}{節|せつ}: subordinate clause (grammar)\n\nSIMILAR WORDS:\n- {依存|いぞん}: dependence — emphasizes reliance rather than power hierarchy\n- {服従|ふくじゅう}: obedience, submission — stronger, implies actively obeying\n- {隷属|れいぞく}: subjugation — implies being enslaved or in servitude",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11441_izon",
+      "reading": "いぞん",
+      "headword": "{依存|いぞん}",
+      "label": "dependence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15351_fukujuu",
+      "reading": "ふくじゅう",
+      "headword": "{服従|ふくじゅう}",
+      "label": "obedience, submission"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20868_reizoku",
+      "reading": "れいぞく",
+      "headword": "{隷属|れいぞく}",
+      "label": "subjugation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21921_reizokusuru",
+      "reading": "れいぞくする",
+      "headword": "{隷属|れいぞく}する",
+      "label": "to be subservient to"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +83,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "society"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-24T14:20:43Z",
-    "modified": "2026-04-24T14:20:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

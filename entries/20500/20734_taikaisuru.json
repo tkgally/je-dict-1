@@ -3,7 +3,7 @@
   "headword": "{退会|たいかい}する",
   "reading": "たいかいする",
   "romaji": "taikaisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to withdraw from; to cancel membership; to unsubscribe",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A する verb composed of {退|たい} (withdraw/retreat) + {会|かい} (association/group). Very common in modern life for cancelling subscriptions, gym memberships, online services, and club memberships.\n\nCOMMON COLLOCATIONS:\n- {退会|たいかい}{手続|てつづ}き: withdrawal procedure\n- {退会|たいかい}{届|とどけ}: withdrawal notice/form\n- {退会|たいかい}を{申|もう}し{出|で}る: to apply for withdrawal\n- {退会|たいかい}{済|ず}み: already cancelled/withdrawn\n\nUSAGE:\nFrequently encountered on websites and apps where users manage their accounts. The {退会|たいかい} button on Japanese websites is the equivalent of 'Delete Account' or 'Cancel Membership.'\n\nSIMILAR WORDS:\n- {入会|にゅうかい}する: to join, to sign up — the direct opposite\n- {脱退|だったい}する: to withdraw, to secede — stronger; used for leaving political parties, unions, or international organizations\n- {解約|かいやく}する: to cancel (a contract) — specifically about terminating a contract or subscription",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "19522_nyuukaisuru",
+      "reading": "にゅうかいする",
+      "headword": "{入会|にゅうかい}する",
+      "label": "to join, to sign up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05770_dattai",
+      "reading": "だったい",
+      "headword": "{脱退|だったい}",
+      "label": "to withdraw, to secede"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06129_kaiyaku",
+      "reading": "かいやく",
+      "headword": "{解約|かいやく}",
+      "label": "to cancel"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +83,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-30T14:29:56Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

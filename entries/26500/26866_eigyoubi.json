@@ -17,7 +17,9 @@
       "id": "26866_eigyoubi_ex1",
       "japanese": "{営業日|えいぎょうび}は{月曜|げつよう}から{金曜|きんよう}までです。",
       "english": "Business days are Monday through Friday.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26866_eigyoubi_ex2",
       "japanese": "{発送|はっそう}は{翌|よく}{営業日|えいぎょうび}になります。",
       "english": "Shipping will be on the next business day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "26866_eigyoubi_ex3",
       "japanese": "お{届|とど}けまで3{営業日|えいぎょうび}ほどかかります。",
       "english": "Delivery takes about 3 business days.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,23 +47,51 @@
       "id": "26866_eigyoubi_ex4",
       "japanese": "{年末年始|ねんまつねんし}は{営業日|えいぎょうび}が{変更|へんこう}になる{場合|ばあい}がございます。",
       "english": "Business days may change during the year-end and New Year period.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Extremely common in commercial and administrative contexts. Appears constantly on websites, store signs, and official notices. Distinguished from 定休日 (regular day off) and 休業日 (closed day).\n\nCOMMON COLLOCATIONS:\n- {翌|よく}{営業日|えいぎょうび}: next business day\n- ○{営業日|えいぎょうび}{以内|いない}: within ○ business days\n- {営業日|えいぎょうび}カレンダー: business day calendar\n- {営業日|えいぎょうび}{変更|へんこう}: change in business days\n\nSIMILAR WORDS:\n- {平日|へいじつ}: weekday — calendar-based (Mon-Fri), not business-specific\n- {定休日|ていきゅうび}: regular day off — the scheduled closing day of a business\n- {休業日|きゅうぎょうび}: closed day — a day when business is suspended",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03033_heijitsu",
+      "reading": "へいじつ",
+      "headword": "{平日|へいじつ}",
+      "label": "weekday"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09541_teikyuubi",
+      "reading": "ていきゅうび",
+      "headword": "{定休日|ていきゅうび}",
+      "label": "regular day off"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21152_kyuugyoubi",
+      "reading": "きゅうぎょうび",
+      "headword": "{休業日|きゅうぎょうび}",
+      "label": "closed day"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-05-05T14:14:43Z",
-    "modified": "2026-05-05T14:14:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

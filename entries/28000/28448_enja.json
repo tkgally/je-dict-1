@@ -17,7 +17,9 @@
       "id": "28448_enja_ex1",
       "japanese": "{遠|とお}い{縁者|えんじゃ}にあたる。",
       "english": "(They) are distant relations.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28448_enja_ex2",
       "japanese": "{親類|しんるい}{縁者|えんじゃ}{一同|いちどう}が{集|あつ}まった。",
       "english": "Relatives and connections all gathered together.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,53 @@
       "id": "28448_enja_ex3",
       "japanese": "{彼|かれ}には{頼|たよ}れる{縁者|えんじゃ}が{一人|ひとり}もいない。",
       "english": "He has not a single relative he can rely on.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {縁|えん} (connection, tie) + {者|じゃ} (person). Formal vocabulary, more often seen in written language or legal/genealogical contexts than in everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {親類|しんるい}{縁者|えんじゃ}: relatives and connections (set phrase)\n- {遠|とお}い{縁者|えんじゃ}: a distant relation\n- {縁者|えんじゃ}にあたる: to be a relation (of someone)\n\nSIMILAR WORDS:\n- {親戚|しんせき}: relatives — the everyday word; usually blood/marriage relatives\n- {親類|しんるい}: relatives — similar to {親戚|しんせき} but slightly more formal\n- {身内|みうち}: family; one's own people — emphasizes the inner circle of close kin",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03260_shinseki",
+      "reading": "しんせき",
+      "headword": "{親戚|しんせき}",
+      "label": "relatives"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04210_shinrui",
+      "reading": "しんるい",
+      "headword": "{親類|しんるい}",
+      "label": "relatives"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14300_miuchi",
+      "reading": "みうち",
+      "headword": "{身内|みうち}",
+      "label": "family"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["family", "person"],
+      "politeness": "plain",
+      "semantic": [
+        "family",
+        "person"
+      ],
       "domain": []
     },
     "created": "2026-05-31T03:09:05Z",
-    "modified": "2026-05-31T03:09:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

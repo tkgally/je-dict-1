@@ -17,7 +17,9 @@
       "id": "26371_nokezori_ex1",
       "japanese": "のけぞりの{姿勢|しせい}になった。",
       "english": "I ended up leaning way back.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26371_nokezori_ex2",
       "japanese": "{驚|おどろ}いてのけぞりになるほどの{値段|ねだん}だった。",
       "english": "The price was so shocking I practically fell over backward.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,51 @@
       "id": "26371_nokezori_ex3",
       "japanese": "{赤|あか}ちゃんが{急|きゅう}にのけぞりになって、{抱|だ}いていた{母親|ははおや}は{慌|あわ}てた。",
       "english": "The baby suddenly arched backward, and the mother holding it panicked.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The noun form of the verb のけぞる (to bend/lean backward, to recoil). The verb form is more commonly used than the noun.\n\nのけぞる often describes an involuntary backward movement caused by surprise, shock, or disgust. It can also describe babies arching their backs, or a physical posture in certain exercises or stretches.\n\nCOMMON PATTERNS:\n- のけぞりになる: to end up leaning backward\n- のけぞりの{姿勢|しせい}: a backward-leaning posture\n\nRELATED WORDS:\n- のけぞる: to bend backward, to recoil — the verb form (more common)\n- {仰向|あおむ}け: lying face-up — a resting position, not a recoil\n- {反|そ}り{返|かえ}る: to arch backward — similar meaning, more deliberate",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05538_nokezoru",
+      "reading": "のけぞる",
+      "headword": "{仰|の}け{反|ぞ}る",
+      "label": "to bend backward, to recoil"
+    },
+    {
+      "type": "related",
+      "target_id": "05548_aomuke",
+      "reading": "あおむけ",
+      "headword": "{仰向|あおむ}け",
+      "label": "lying face-up"
+    },
+    {
+      "type": "related",
+      "target_id": "16769_sorikaeru",
+      "reading": "そりかえる",
+      "headword": "{反|そ}り{返|かえ}る",
+      "label": "to arch backward"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["movement"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "movement"
+      ]
     },
     "created": "2026-05-01T12:42:42Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

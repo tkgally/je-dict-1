@@ -22,7 +22,9 @@
       "id": "25450_rikigaku_ex1",
       "japanese": "{力学|りきがく}を{学|まな}ぶ。",
       "english": "To study mechanics.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "25450_rikigaku_ex2",
       "japanese": "ニュートン{力学|りきがく}は{古典|こてん}{物理学|ぶつりがく}の{基礎|きそ}だ。",
       "english": "Newtonian mechanics is the foundation of classical physics.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "25450_rikigaku_ex3",
       "japanese": "{大学|だいがく}で{量子|りょうし}{力学|りきがく}の{講義|こうぎ}を{受|う}けたが、{非常|ひじょう}に{難|むずか}しかった。",
       "english": "I took a lecture on quantum mechanics at university, but it was extremely difficult.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "25450_rikigaku_ex4",
       "japanese": "{国際|こくさい}{政治|せいじ}の{力学|りきがく}が{変|か}わりつつある。",
       "english": "The dynamics of international politics are changing.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "25450_rikigaku_ex5",
       "japanese": "{組織|そしき}の{力学|りきがく}を{理解|りかい}する。",
       "english": "To understand the power dynamics of an organization.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,20 +72,45 @@
       "id": "25450_rikigaku_ex6",
       "japanese": "{選挙|せんきょ}{後|ご}の{党内|とうない}の{力学|りきがく}が{大|おお}きく{変動|へんどう}した。",
       "english": "The intra-party dynamics shifted significantly after the election.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {力|りき} (force, power) and {学|がく} (study, science). In academic contexts, refers to the physics discipline. In media and commentary, the figurative sense of \"dynamics\" or \"power dynamics\" is also very common.\n\nCOMMON COLLOCATIONS:\n- {量子|りょうし}{力学|りきがく}: quantum mechanics\n- {古典|こてん}{力学|りきがく}: classical mechanics\n- {流体|りゅうたい}{力学|りきがく}: fluid dynamics\n- {熱|ねつ}{力学|りきがく}: thermodynamics\n- {政治|せいじ}の{力学|りきがく}: political dynamics\n- {力学|りきがく}が{働|はたら}く: dynamics are at work\n\nSIMILAR WORDS:\n- {物理学|ぶつりがく}: physics — the broader discipline\n- ダイナミクス: dynamics — the loanword, used in business and social contexts\n- {力|ちから}{関係|かんけい}: power relationship — more concrete than the abstract {力学|りきがく}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09631_butsurigaku",
+      "reading": "ぶつりがく",
+      "headword": "{物理学|ぶつりがく}",
+      "label": "physics"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29784_denjikigaku",
+      "reading": "でんじきがく",
+      "headword": "電磁気学",
+      "label": "electromagnetism (the field of study)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["science", "politics"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "science",
+        "politics"
+      ]
     },
     "created": "2026-04-25T13:33:10Z",
-    "modified": "2026-04-25T13:33:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

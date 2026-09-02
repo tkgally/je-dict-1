@@ -17,7 +17,9 @@
       "id": "21705_ryakugo_ex1",
       "japanese": "それは{何|なん}の{略語|りゃくご}ですか。",
       "english": "What is that an abbreviation for?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21705_ryakugo_ex2",
       "japanese": "{日本語|にほんご}にも{英語|えいご}からの{略語|りゃくご}が{多|おお}い。",
       "english": "There are many abbreviations from English in Japanese too.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,12 +37,51 @@
       "id": "21705_ryakugo_ex3",
       "japanese": "この{文書|ぶんしょ}では{略語|りゃくご}を{使|つか}う{場合|ばあい}、{最初|さいしょ}に{正式名称|せいしきめいしょう}を{記載|きさい}してください。",
       "english": "In this document, when using abbreviations, please write out the full name first.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers to a word or phrase that has been shortened from its full form. Combines {略|りゃく} (abbreviation, omission) and {語|ご} (word, language).\n\nUSAGE:\n- Used for both abbreviations (shortened words) and acronyms (words formed from initials)\n- Japanese has many abbreviations formed by taking the first two mora of compound words (e.g., スマホ from スマートフォン)\n- English-origin acronyms are also common in Japanese (e.g., SNS, IT, AI)\n\nCOMMON COLLOCATIONS:\n- {略語|りゃくご}を{使|つか}う: to use an abbreviation\n- {略語|りゃくご}の{意味|いみ}: the meaning of an abbreviation\n- {略語|りゃくご}で{言|い}う: to say in abbreviated form\n- {略語|りゃくご}{一覧|いちらん}: list of abbreviations\n\nSIMILAR WORDS:\n- {省略|しょうりゃく}: omission, abbreviation — the act of shortening, broader in scope\n- {頭文字|かしらもじ}: initials, acronym — specifically refers to initial letters\n- {短縮形|たんしゅくけい}: shortened form — a more technical/linguistic term",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03244_shouryaku",
+      "reading": "しょうりゃく",
+      "headword": "{省略|しょうりゃく}",
+      "label": "omission, abbreviation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23422_tanshukukei",
+      "reading": "たんしゅくけい",
+      "headword": "{短縮形|たんしゅくけい}",
+      "label": "shortened form"
+    },
+    {
+      "type": "related",
+      "target_id": "04006_ryakusu",
+      "reading": "りゃくす",
+      "headword": "{略|りゃく}す",
+      "label": "to abbreviate"
+    },
+    {
+      "type": "related",
+      "target_id": "08413_hanrei",
+      "reading": "はんれい",
+      "headword": "{凡例|はんれい}",
+      "label": "explanatory notes"
+    },
+    {
+      "type": "related",
+      "target_id": "25313_zougo",
+      "reading": "ぞうご",
+      "headword": "{造語|ぞうご}",
+      "label": "coined word"
+    }
+  ],
   "metadata": {
     "entry_id": "21705_ryakugo",
     "schema_version": "2.0",
@@ -46,11 +89,17 @@
     "vocabulary_tier": "general",
     "jlpt_level": null,
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["language"],
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "language"
+      ],
       "register": [],
       "usage": []
     },
-    "modified": "2026-04-02T22:08:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -18,7 +18,9 @@
       "english": "Train the upper body.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11509_jouhanshin_ex2",
@@ -26,7 +28,9 @@
       "english": "I raised my upper body and sat up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11509_jouhanshin_ex3",
@@ -34,10 +38,12 @@
       "english": "They took an X-ray of my upper body to check for any abnormalities.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "The upper half of the human body, roughly from the waist up. Used in fitness, medicine, and everyday descriptions.\n\nFORMATION:\n{上|じょう} (upper) + {半身|はんしん} (half the body).\n\nCOMMON COLLOCATIONS:\n- {上半身|じょうはんしん}を{鍛|きた}える: to train the upper body\n- {上半身|じょうはんしん}を{起|お}こす: to raise the upper body (sit up)\n- {上半身|じょうはんしん}{裸|はだか}: naked from the waist up\n- {上半身|じょうはんしん}の{筋肉|きんにく}: upper body muscles\n\nCONTRAST:\n- {下半身|かはんしん}: lower body (waist down)\n- {全身|ぜんしん}: the whole body",
+  "notes": "The upper half of the human body, roughly from the waist up. Used in fitness, medicine, and everyday descriptions.\n\nFORMS:\n{上|じょう} (upper) + {半身|はんしん} (half the body).\n\nCOMMON COLLOCATIONS:\n- {上半身|じょうはんしん}を{鍛|きた}える: to train the upper body\n- {上半身|じょうはんしん}を{起|お}こす: to raise the upper body (sit up)\n- {上半身|じょうはんしん}{裸|はだか}: naked from the waist up\n- {上半身|じょうはんしん}の{筋肉|きんにく}: upper body muscles\n\nSIMILAR WORDS:\n- {下半身|かはんしん}: lower body (waist down)\n- {全身|ぜんしん}: the whole body",
   "cross_references": [
     {
       "type": "antonym",
@@ -45,19 +51,37 @@
       "reading": "かはんしん",
       "headword": "{下半身|かはんしん}",
       "label": "lower body"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03313_zenshin",
+      "reading": "ぜんしん",
+      "headword": "{全身|ぜんしん}",
+      "label": "the whole body"
+    },
+    {
+      "type": "related",
+      "target_id": "19448_joutai",
+      "reading": "じょうたい",
+      "headword": "{上体|じょうたい}",
+      "label": "upper body, torso"
     }
   ],
   "metadata": {
     "created": "2026-02-17T01:54:44Z",
-    "modified": "2026-04-25T06:08:04Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-part"]
+      "semantic": [
+        "body-part"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{改新|かいしん}",
   "reading": "かいしん",
   "romaji": "kaishin",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reform; renewal; innovation",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Compound of {改|かい} (change, reform) and {新|しん} (new). Most strongly associated with {大化|たいか}の{改新|かいしん} (Taika Reform, 645 CE), which centralized political power under the emperor and is a key topic in Japanese history education.\n\nCOMMON COLLOCATIONS:\n- {大化|たいか}の{改新|かいしん}: the Taika Reform (645 CE)\n- {制度|せいど}の{改新|かいしん}: institutional reform\n- {改新|かいしん}を{行|おこな}う: to carry out reform\n\nSIMILAR WORDS:\n- {改革|かいかく}: reform — the most common modern word for reform, used broadly\n- {刷新|さっしん}: renovation, overhaul — implies sweeping, dramatic renewal\n- {革新|かくしん}: innovation, reform — emphasizes radical or progressive change\n- {維新|いしん}: restoration, revolution — used historically ({明治|めいじ}{維新|いしん}, Meiji Restoration)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04815_kaikaku",
+      "reading": "かいかく",
+      "headword": "{改革|かいかく}",
+      "label": "reform"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07520_sasshin",
+      "reading": "さっしん",
+      "headword": "{刷新|さっしん}",
+      "label": "renovation, overhaul"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05617_kakushin",
+      "reading": "かくしん",
+      "headword": "{革新|かくしん}",
+      "label": "innovation, reform"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13869_ishin",
+      "reading": "いしん",
+      "headword": "{維新|いしん}",
+      "label": "restoration, revolution"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T17:27:22Z",
-    "modified": "2026-04-02T17:27:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

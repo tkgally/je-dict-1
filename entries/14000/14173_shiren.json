@@ -19,7 +19,9 @@
       "english": "This is a great trial.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14173_shiren_ex2",
@@ -27,7 +29,9 @@
       "english": "I became stronger by overcoming the ordeal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14173_shiren_ex3",
@@ -35,21 +39,42 @@
       "english": "Various trials await us in life, but they are what help us grow.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{試練|しれん} implies that hardship has a purpose — testing and strengthening the person who endures it. It is more positive in connotation than {苦難|くなん} (suffering) or {困難|こんなん} (difficulty), as it suggests growth through adversity. Often used in motivational or reflective contexts.\n\nCOMMON COLLOCATIONS:\n- {試練|しれん}を{乗|の}り{越|こ}える: to overcome a trial\n- {試練|しれん}に{立|た}ち{向|む}かう: to face an ordeal\n- {試練|しれん}に{耐|た}える: to endure a trial\n- {厳|きび}しい{試練|しれん}: a harsh ordeal",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22285_gyakkyou",
+      "reading": "ぎゃっきょう",
+      "headword": "{逆境|ぎゃっきょう}",
+      "label": "adversity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25318_kunan",
+      "reading": "くなん",
+      "headword": "{苦難|くなん}",
+      "label": "hardship"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T01:54:22Z",
-    "modified": "2026-02-28T01:54:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

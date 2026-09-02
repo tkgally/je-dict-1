@@ -17,7 +17,9 @@
       "id": "27748_ryouseishuyou_ex1",
       "japanese": "{検査|けんさ}の{結果|けっか}、{良性|りょうせい}{腫瘍|しゅよう}だった。",
       "english": "The test showed it was a benign tumor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27748_ryouseishuyou_ex2",
       "japanese": "{良性|りょうせい}{腫瘍|しゅよう}なので{心配|しんぱい}いらないと{言|い}われた。",
       "english": "I was told it was a benign tumor, so there was nothing to worry about.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "27748_ryouseishuyou_ex3",
       "japanese": "{医師|いし}は、しこりは{良性|りょうせい}{腫瘍|しゅよう}でほぼ{転移|てんい}の{心配|しんぱい}はないと{説明|せつめい}した。",
       "english": "The doctor explained that the lump was a benign tumor with almost no risk of spreading.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {良性|りょうせい} (benign, non-malignant) + {腫瘍|しゅよう} (tumor, growth). A medical term for a tumor that stays in place and does not metastasize.\n\nUSAGE:\n- {良性|りょうせい}{腫瘍|しゅよう}と{診断|しんだん}される: to be diagnosed with a benign tumor\n\nSIMILAR WORDS:\n- {悪性|あくせい}{腫瘍|しゅよう}: malignant tumor — a cancerous tumor that can invade tissue and spread; the direct antonym\n- がん: cancer — the everyday word for a malignant growth",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "23229_akuseishuyou",
+      "reading": "あくせいしゅよう",
+      "headword": "{悪性腫瘍|あくせいしゅよう}",
+      "label": "malignant tumor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02629_gan",
+      "reading": "がん",
+      "headword": "{癌|がん}",
+      "label": "cancer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-05-18T03:04:42Z",
-    "modified": "2026-05-18T03:04:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

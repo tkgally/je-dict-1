@@ -17,7 +17,9 @@
       "id": "27858_konbanha_ex1",
       "japanese": "こんばんは。",
       "english": "Good evening.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27858_konbanha_ex2",
       "japanese": "こんばんは、{今日|きょう}は{冷|ひ}えますね。",
       "english": "Good evening, it's chilly today, isn't it?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "27858_konbanha_ex3",
       "japanese": "{会場|かいじょう}に{入|はい}ると、{係|かかり}の{人|ひと}が「こんばんは」と{笑顔|えがお}で{迎|むか}えてくれた。",
       "english": "When I entered the venue, the staff greeted me with a smile and a 'good evening.'",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The evening counterpart to おはようございます (morning) and こんにちは (daytime), used roughly from dusk onward.\n\nUSAGE:\n- The final は is the topic particle and is pronounced わ.\n- Works in both casual and polite settings.\n\nRELATED GREETINGS:\n- こんにちは: hello (daytime)\n- おはようございます: good morning\n- おやすみなさい: good night (on parting or going to bed)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02839_konnichiha",
+      "reading": "こんにちは",
+      "headword": "こんにちは",
+      "label": "hello"
+    },
+    {
+      "type": "related",
+      "target_id": "16581_oyasuminasai",
+      "reading": "おやすみなさい",
+      "headword": "おやすみなさい",
+      "label": "good night"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "polite",
-      "semantic": ["communication"],
+      "semantic": [
+        "communication"
+      ],
       "domain": []
     },
     "created": "2026-05-21T04:04:20Z",
-    "modified": "2026-05-21T04:04:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -16,7 +16,9 @@
       "id": "20337_mayoke_ex1",
       "japanese": "{玄関|げんかん}に{魔除|まよ}けを{飾|かざ}った。",
       "english": "I placed a protective charm at the entrance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "20337_mayoke_ex2",
       "japanese": "この{石|いし}は{魔除|まよ}けの{効果|こうか}があると{言|い}われている。",
       "english": "This stone is said to have protective powers against evil.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,22 +36,52 @@
       "id": "20337_mayoke_ex3",
       "japanese": "{節分|せつぶん}に{柊|ひいらぎ}と{鰯|いわし}の{頭|あたま}を{飾|かざ}るのは、{古|ふる}くからの{魔除|まよ}けの{風習|ふうしゅう}だ。",
       "english": "Decorating with holly and sardine heads at Setsubun is an ancient custom for warding off evil.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {魔|ま} (demon, evil spirit) + {除|よ}け (warding off, protection). The suffix 〜{除|よ}け is productive and appears in other protective compounds.\n\nCOMMON COLLOCATIONS:\n- {魔除|まよ}けの{効果|こうか}: evil-warding effect\n- {魔除|まよ}けのお{守|まも}り: protective amulet\n- {魔除|まよ}けの{風習|ふうしゅう}: evil-warding custom\n- {魔除|まよ}けを{飾|かざ}る: to display a protective charm\n\nRELATED WORDS WITH 〜{除|よ}け:\n- {虫除|むしよ}け: insect repellent\n- {日除|ひよ}け: sunshade, parasol\n- {雨除|あまよ}け: rain shelter\n\nCULTURAL NOTE:\nIn Japan, common {魔除|まよ}け items include {鬼瓦|おにがわら} (demon-faced roof tiles), {注連縄|しめなわ} (sacred Shinto ropes), and {鏡|かがみ} (mirrors). {獅子舞|ししまい} (lion dances) performed at festivals also serve as {魔除|まよ}け.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09715_mushiyoke",
+      "reading": "むしよけ",
+      "headword": "{虫除|むしよ}け",
+      "label": "insect repellent"
+    },
+    {
+      "type": "related",
+      "target_id": "18418_hiyoke",
+      "reading": "ひよけ",
+      "headword": "{日除|ひよ}け",
+      "label": "sunshade, parasol"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24744_yakuyoke",
+      "reading": "やくよけ",
+      "headword": "{厄除|やくよ}け",
+      "label": "warding off bad luck"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["culture", "religion"]
+      "semantic": [
+        "culture",
+        "religion"
+      ]
     },
     "created": "2026-03-28T21:15:58Z",
-    "modified": "2026-03-28T21:15:58Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

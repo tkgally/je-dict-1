@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {中|ちゅう} (middle) and {距離|きょり} (distance). Commonly used as a prefix-like modifier in compound nouns.\n\nCOMMON COLLOCATIONS:\n- {中距離|ちゅうきょり}{走|そう}: middle-distance running (typically 800m to 1500m)\n- {中距離|ちゅうきょり}ミサイル: medium-range missile\n- {中距離|ちゅうきょり}{通勤|つうきん}: medium-distance commute\n- {中距離|ちゅうきょり}バス: medium-distance bus\n\nRELATED TERMS:\n- {短距離|たんきょり}: short distance — the shorter end of the scale\n- {長距離|ちょうきょり}: long distance — the longer end of the scale\n- {距離|きょり}: distance — the base word\n\nNOTE:\nIn track and field, {中距離|ちゅうきょり} typically refers to 800m and 1500m events. In military contexts, definitions of medium range vary by era and weapon system.",
+  "notes": "Composed of {中|ちゅう} (middle) and {距離|きょり} (distance). Commonly used as a prefix-like modifier in compound nouns.\n\nCOMMON COLLOCATIONS:\n- {中距離|ちゅうきょり}{走|そう}: middle-distance running (typically 800m to 1500m)\n- {中距離|ちゅうきょり}ミサイル: medium-range missile\n- {中距離|ちゅうきょり}{通勤|つうきん}: medium-distance commute\n- {中距離|ちゅうきょり}バス: medium-distance bus\n\nRELATED WORDS:\n- {短距離|たんきょり}: short distance — the shorter end of the scale\n- {長距離|ちょうきょり}: long distance — the longer end of the scale\n- {距離|きょり}: distance — the base word\n\nUSAGE:\nIn track and field, {中距離|ちゅうきょり} typically refers to 800m and 1500m events. In military contexts, definitions of medium range vary by era and weapon system.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09270_tankyori",
+      "reading": "たんきょり",
+      "headword": "{短距離|たんきょり}",
+      "label": "short distance"
+    },
+    {
+      "type": "related",
+      "target_id": "09271_choukyori",
+      "reading": "ちょうきょり",
+      "headword": "{長距離|ちょうきょり}",
+      "label": "long distance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19019_kinkyori",
+      "reading": "きんきょり",
+      "headword": "{近距離|きんきょり}",
+      "label": "short distance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-04-08T14:20:51Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

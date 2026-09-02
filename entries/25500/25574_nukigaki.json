@@ -3,7 +3,7 @@
   "headword": "{抜|ぬ}き{書|が}き",
   "reading": "ぬきがき",
   "romaji": "nukigaki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "extract; excerpt; selected passages",
   "definitions": [
     {
@@ -45,7 +45,36 @@
     }
   ],
   "notes": "Refers to the act of selecting and copying out important passages from a text, or the resulting collection of excerpts. A useful study and research technique.\n\nCOMMON COLLOCATIONS:\n- {抜|ぬ}き{書|が}きする: to make an extract, to copy out selected parts\n- {抜|ぬ}き{書|が}きノート: notebook of excerpts\n- {要点|ようてん}の{抜|ぬ}き{書|が}き: extract of key points\n\nETYMOLOGY:\nComposed of {抜|ぬ}き (pulling out, selecting) and {書|が}き (writing). Literally, writing by pulling out selected parts.\n\nSIMILAR WORDS:\n- {引用|いんよう}: quotation, citation — a formal attribution of someone else's words, with the source specified\n- {抜粋|ばっすい}: excerpt, extract — more formal, often used for officially selected portions of documents\n- {要約|ようやく}: summary — condenses the content into fewer words rather than copying verbatim",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01850_inyou",
+      "reading": "いんよう",
+      "headword": "{引用|いんよう}",
+      "label": "quotation, citation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15277_bassui",
+      "reading": "ばっすい",
+      "headword": "{抜粋|ばっすい}",
+      "label": "excerpt, extract"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14128_youyaku",
+      "reading": "ようやく",
+      "headword": "{要約|ようやく}",
+      "label": "summary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20742_kakinuku",
+      "reading": "かきぬく",
+      "headword": "{書|か}き{抜|ぬ}く",
+      "label": "to extract (by writing)"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +83,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "education",
         "communication"
@@ -61,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-26T11:22:20Z",
-    "modified": "2026-04-26T11:22:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

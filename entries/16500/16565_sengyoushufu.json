@@ -19,7 +19,9 @@
       "english": "My mother was a full-time housewife.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16565_sengyoushufu_ex2",
@@ -27,7 +29,9 @@
       "english": "The number of full-time housewives is decreasing year by year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16565_sengyoushufu_ex3",
@@ -35,7 +39,9 @@
       "english": "Now that childcare has settled down, I'm thinking about returning to work from being a full-time housewife.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {専業|せんぎょう} (exclusive occupation) and {主婦|しゅふ} (housewife). Commonly discussed in the context of changing social roles, work-life balance, and demographics in Japan. The male equivalent is {専業主夫|せんぎょうしゅふ} (stay-at-home husband), written with a different kanji for the last character.\n\nCOMMON COLLOCATIONS:\n- {専業主婦|せんぎょうしゅふ}{世帯|せたい} (single-income household with a stay-at-home wife)\n- {専業主婦|せんぎょうしゅふ}から{働|はたら}きに{出|で}る (to enter the workforce after being a housewife)\n\nSIMILAR WORDS:\n- {主婦|しゅふ}: housewife — broader term that includes both working and non-working wives\n- {共働|ともばたら}き: dual-income couple — the opposite household arrangement",
@@ -53,18 +59,37 @@
       "reading": "ともばたらき",
       "headword": "{共働|ともばたら}き",
       "label": "dual-income couple"
+    },
+    {
+      "type": "homophone",
+      "target_id": "20248_sengyoushufu",
+      "reading": "せんぎょうしゅふ",
+      "headword": "{専業主夫|せんぎょうしゅふ}",
+      "label": "full-time househusband"
+    },
+    {
+      "type": "related",
+      "target_id": "22901_tomobatarakisetai",
+      "reading": "ともばたらきせたい",
+      "headword": "{共働|ともばたら}き{世帯|せたい}",
+      "label": "dual-income household"
     }
   ],
   "metadata": {
     "created": "2026-03-13T23:57:04Z",
-    "modified": "2026-05-04T07:39:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "family"]
+      "semantic": [
+        "person",
+        "family"
+      ]
     }
   }
 }

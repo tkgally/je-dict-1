@@ -2,7 +2,7 @@
   "id": "07559_rihaasaru",
   "headword": "リハーサル",
   "reading": "りはーさる",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "rehearsal",
   "conjugation": {
     "type": "suru",
@@ -130,10 +130,54 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\nFrom English \"rehearsal.\"\n\nABBREVIATION:\n・リハ - common short form\n  {例|れい}: 「{今日|きょう}リハある？」 - \"Do we have rehearsal today?\"\n\nCOMMON COLLOCATIONS:\n・リハーサルをする/を{行|おこな}う - to have/hold a rehearsal\n・{通|とお}しリハーサル - run-through rehearsal\n・ゲネプロ - dress rehearsal (from German \"Generalprobe\")\n・リハーサル{室|しつ} - rehearsal room\n・リハーサル{スタジオ} - rehearsal studio\n\nCONTEXTS:\n・{音楽|おんがく} - music (band, orchestra, concert)\n・{演劇|えんげき} - theater\n・{映画|えいが}/テレビ - film/TV\n・プレゼン - presentations\n・{結婚式|けっこんしき} - weddings\n・イベント - events\n\nRELATED TERMS:\n・{練習|れんしゅう} - practice (more general)\n・{稽古|けいこ} - practice (traditional arts)\n・{本番|ほんばん} - actual performance",
+  "notes": "ETYMOLOGY:\nFrom English \"rehearsal.\"\n\nFORMS:\n- リハ - common short form\n  {例|れい}: 「{今日|きょう}リハある？」 - \"Do we have rehearsal today?\"\n\nCOMMON COLLOCATIONS:\n- リハーサルをする/を{行|おこな}う - to have/hold a rehearsal\n- {通|とお}しリハーサル - run-through rehearsal\n- ゲネプロ - dress rehearsal (from German \"Generalprobe\")\n- リハーサル{室|しつ} - rehearsal room\n- リハーサルスタジオ - rehearsal studio\n\nUSAGE:\n- {音楽|おんがく} - music (band, orchestra, concert)\n- {演劇|えんげき} - theater\n- {映画|えいが}/テレビ - film/TV\n- プレゼン - presentations\n- {結婚式|けっこんしき} - weddings\n- イベント - events\n\nRELATED WORDS:\n- {練習|れんしゅう} - practice (more general)\n- {稽古|けいこ} - practice (traditional arts)\n- {本番|ほんばん} - actual performance",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05323_renshuu",
+      "reading": "れんしゅう",
+      "headword": "{練習|れんしゅう}",
+      "label": "practice"
+    },
+    {
+      "type": "related",
+      "target_id": "00210_keiko",
+      "reading": "けいこ",
+      "headword": "{稽古|けいこ}",
+      "label": "practice"
+    },
+    {
+      "type": "related",
+      "target_id": "19392_honban",
+      "reading": "ほんばん",
+      "headword": "{本番|ほんばん}",
+      "label": "actual performance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20015_yokouenshuu",
+      "reading": "よこうえんしゅう",
+      "headword": "{予行演習|よこうえんしゅう}",
+      "label": "rehearsal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24255_butaigeiko",
+      "reading": "ぶたいげいこ",
+      "headword": "{舞台稽古|ぶたいげいこ}",
+      "label": "dress rehearsal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24789_tooshigeiko",
+      "reading": "とおしげいこ",
+      "headword": "{通|とお}し{稽古|げいこ}",
+      "label": "full run-through rehearsal"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T08:47:47Z",
-    "modified": "2026-08-10T18:29:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +186,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "entertainment",
         "action"

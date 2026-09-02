@@ -3,7 +3,7 @@
   "id": "16956_kanbyou",
   "headword": "{看病|かんびょう}",
   "reading": "かんびょう",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "nursing; caring for a sick person",
   "conjugation": {
     "type": "suru",
@@ -149,11 +149,25 @@
       "reading": "かいご",
       "headword": "{介護|かいご}",
       "label": "long-term caregiving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01843_sewasuru",
+      "reading": "せわする",
+      "headword": "{世話|せわ}する",
+      "label": "care, looking after"
+    },
+    {
+      "type": "related",
+      "target_id": "09784_byounin",
+      "reading": "びょうにん",
+      "headword": "{病人|びょうにん}",
+      "label": "sick person"
     }
   ],
   "metadata": {
     "created": "2026-03-15T04:30:40Z",
-    "modified": "2026-05-05T06:07:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -16,7 +16,9 @@
       "id": "21318_tozansha_ex1",
       "japanese": "{登山者|とざんしゃ}が{増|ふ}えている。",
       "english": "The number of mountain climbers is increasing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "21318_tozansha_ex2",
       "japanese": "{多|おお}くの{登山者|とざんしゃ}が{山頂|さんちょう}を{目指|めざ}した。",
       "english": "Many climbers aimed for the summit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,22 +36,45 @@
       "id": "21318_tozansha_ex3",
       "japanese": "{悪天候|あくてんこう}のため、{登山者|とざんしゃ}は{下山|げざん}するよう{指示|しじ}された。",
       "english": "Due to bad weather, the climbers were instructed to descend.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {登山|とざん} (mountain climbing) + {者|しゃ} (person). A straightforward and common term used in news, signs at trailheads, and general conversation about mountain activities.\n\nCOMMON COLLOCATIONS:\n- {登山者|とざんしゃ}{向|む}け: aimed at climbers\n- {登山者|とざんしゃ}{数|すう}: number of climbers\n- {登山者|とざんしゃ}カード: climber registration card\n- {遭難|そうなん}した{登山者|とざんしゃ}: stranded climber\n\nRELATED TERMS:\n- {登山|とざん}: mountain climbing\n- {登山家|とざんか}: mountaineer (professional or serious enthusiast)\n- {山歩|やまある}き: mountain walking, hiking (more casual)",
+  "notes": "Compound of {登山|とざん} (mountain climbing) + {者|しゃ} (person). A straightforward and common term used in news, signs at trailheads, and general conversation about mountain activities.\n\nCOMMON COLLOCATIONS:\n- {登山者|とざんしゃ}{向|む}け: aimed at climbers\n- {登山者|とざんしゃ}{数|すう}: number of climbers\n- {登山者|とざんしゃ}カード: climber registration card\n- {遭難|そうなん}した{登山者|とざんしゃ}: stranded climber\n\nRELATED WORDS:\n- {登山|とざん}: mountain climbing\n- {登山家|とざんか}: mountaineer (professional or serious enthusiast)\n- {山歩|やまある}き: mountain walking, hiking (more casual)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21614_yamaaruki",
+      "reading": "やまあるき",
+      "headword": "{山歩|やまある}き",
+      "label": "mountain walking, hiking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23744_haikaa",
+      "reading": "はいかー",
+      "headword": "ハイカー",
+      "label": "hiker"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "sports"]
+      "semantic": [
+        "person",
+        "sports"
+      ]
     },
     "created": "2026-04-02T00:58:15Z",
-    "modified": "2026-04-02T00:58:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

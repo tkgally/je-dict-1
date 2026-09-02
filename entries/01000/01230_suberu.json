@@ -211,11 +211,33 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pattern: X⟦が→が：00051_ga⟧{滑|すべ}る (X slides/slips).\n\nASPECT: ている indicates ongoing action or state. {滑|すべ}っている = 'is sliding/slipping.'\n\nCOMMON PATTERNS:\n・⟦{氷|こおり}→氷：02753_koori⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦を→を：00422_wo⟧{滑|すべ}る (slide on ice)\n・⟦スキー→スキー：03849_sukii⟧⟦で→で：00502_de⟧{滑|すべ}る (ski—lit. 'slide on skis')\n・⟦{足|あし}→足：00575_ashi⟧⟦が→が：00051_ga⟧{滑|すべ}る (foot slips)\n・⟦{滑|すべ}りやすい→滑りやすい：27611_suberiyasui⟧ (slippery)\n・⟦{滑|すべ}り{台|だい}→滑り台：06325_suberidai⟧ (slide—playground equipment)\n\nCOLLOQUIAL MEANINGS:\n・⟦{試験|しけん}→試験：01422_shiken⟧⟦に→に：00314_ni⟧{滑|すべ}る (fail an exam—casual)\n・⟦{冗談|じょうだん}→冗談：03347_joudan⟧⟦が→が：00051_ga⟧{滑|すべ}る (joke falls flat)\n\nRELATED:\n・⟦{滑|なめ}らか→滑らか：06068_nameraka⟧ (smooth—adjective)\n・⟦{滑|すべ}り{止|ど}め→滑り止め：27612_suberidome⟧ (non-slip, backup school)",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pattern: X⟦が→が：00051_ga⟧{滑|すべ}る (X slides/slips).\n\nASPECT: ている indicates ongoing action or state. {滑|すべ}っている = 'is sliding/slipping.'\n\nCOMMON PATTERNS:\n- ⟦{氷|こおり}→氷：02753_koori⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦を→を：00422_wo⟧{滑|すべ}る (slide on ice)\n- ⟦スキー→スキー：03849_sukii⟧⟦で→で：00502_de⟧{滑|すべ}る (ski—lit. 'slide on skis')\n- ⟦{足|あし}→足：00575_ashi⟧⟦が→が：00051_ga⟧{滑|すべ}る (foot slips)\n- ⟦{滑|すべ}りやすい→滑りやすい：27611_suberiyasui⟧ (slippery)\n- ⟦{滑|すべ}り{台|だい}→滑り台：06325_suberidai⟧ (slide—playground equipment)\n\nCOLLOQUIAL MEANINGS:\n- ⟦{試験|しけん}→試験：01422_shiken⟧⟦に→に：00314_ni⟧{滑|すべ}る (fail an exam—casual)\n- ⟦{冗談|じょうだん}→冗談：03347_joudan⟧⟦が→が：00051_ga⟧{滑|すべ}る (joke falls flat)\n\nRELATED WORDS:\n- ⟦{滑|なめ}らか→滑らか：06068_nameraka⟧ (smooth—adjective)\n- ⟦{滑|すべ}り{止|ど}め→滑り止め：27612_suberidome⟧ (non-slip, backup school)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06068_nameraka",
+      "reading": "なめらか",
+      "headword": "{滑|なめ}らか",
+      "label": "smooth—adjective"
+    },
+    {
+      "type": "related",
+      "target_id": "27612_suberidome",
+      "reading": "すべりどめ",
+      "headword": "{滑|すべ}り{止|ど}め",
+      "label": "non-slip, backup school"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22404_kassou",
+      "reading": "かっそう",
+      "headword": "{滑走|かっそう}",
+      "label": "gliding"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:14:40Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

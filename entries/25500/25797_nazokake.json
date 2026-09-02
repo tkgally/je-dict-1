@@ -17,7 +17,9 @@
       "id": "25797_nazokake_ex1",
       "japanese": "{謎|なぞ}かけを{出|だ}してみよう。",
       "english": "Let me pose a riddle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,29 +27,62 @@
       "id": "25797_nazokake_ex2",
       "japanese": "この{謎|なぞ}かけの{答|こた}えが{分|わ}かりますか。",
       "english": "Can you figure out the answer to this riddle?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25797_nazokake_ex3",
-      "japanese": "{落語家|らくごか}は{謎|なぞ}かけが{上手|うま}い{人|ひと}が{多|おお}く、{観客|かんきゃく}からの{お題|おだい}にすぐ{答|こた}える。",
+      "japanese": "{落語家|らくごか}は{謎|なぞ}かけが{上手|うま}い{人|ひと}が{多|おお}く、{観客|かんきゃく}からのお{題|だい}にすぐ{答|こた}える。",
       "english": "Many rakugo performers are skilled at riddles and can instantly answer topics given by the audience.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A traditional form of Japanese wordplay that follows the pattern 'X とかけて Y と{解|と}く。その{心|こころ}は Z' (X and Y have something in common — the connection is Z). The humor relies on puns ({駄洒落|だじゃれ}) or unexpected double meanings. It is closely associated with {落語|らくご} (comic storytelling) and variety shows.\n\nFORMAT:\n- Standard pattern: 「AとかけてBと{解|と}く。その{心|こころ}は？」(What do A and B have in common? The connection is...)\n- The answer typically involves a homophone or word with multiple meanings\n\nCOMMON COLLOCATIONS:\n- {謎|なぞ}かけを{出|だ}す: to pose a riddle\n- {謎|なぞ}かけの{答|こた}え: the answer to a riddle\n- {謎|なぞ}かけに{答|こた}える: to answer a riddle\n\nRELATED TERMS:\n- {謎々|なぞなぞ}: riddle (general) — broader term for any riddle, especially children's riddles\n- {駄洒落|だじゃれ}: pun; bad joke — the wordplay mechanism that {謎|なぞ}かけ often relies on\n- {落語|らくご}: comic storytelling — the traditional art form where {謎|なぞ}かけ is frequently performed",
-  "cross_references": [],
+  "notes": "A traditional form of Japanese wordplay that follows the pattern 'X とかけて Y と{解|と}く。その{心|こころ}は Z' (X and Y have something in common — the connection is Z). The humor relies on puns ({駄洒落|だじゃれ}) or unexpected double meanings. It is closely associated with {落語|らくご} (comic storytelling) and variety shows.\n\nFORMAT:\n- Standard pattern: 「AとかけてBと{解|と}く。その{心|こころ}は？」(What do A and B have in common? The connection is...)\n- The answer typically involves a homophone or word with multiple meanings\n\nCOMMON COLLOCATIONS:\n- {謎|なぞ}かけを{出|だ}す: to pose a riddle\n- {謎|なぞ}かけの{答|こた}え: the answer to a riddle\n- {謎|なぞ}かけに{答|こた}える: to answer a riddle\n\nRELATED WORDS:\n- {謎々|なぞなぞ}: riddle (general) — broader term for any riddle, especially children's riddles\n- {駄洒落|だじゃれ}: pun; bad joke — the wordplay mechanism that {謎|なぞ}かけ often relies on\n- {落語|らくご}: comic storytelling — the traditional art form where {謎|なぞ}かけ is frequently performed",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04283_nazonazo",
+      "reading": "なぞなぞ",
+      "headword": "{謎々|なぞなぞ}",
+      "label": "riddle"
+    },
+    {
+      "type": "related",
+      "target_id": "10148_dajare",
+      "reading": "だじゃれ",
+      "headword": "{駄洒落|だじゃれ}",
+      "label": "pun"
+    },
+    {
+      "type": "related",
+      "target_id": "04457_rakugo",
+      "reading": "らくご",
+      "headword": "{落語|らくご}",
+      "label": "comic storytelling"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["culture", "language"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "culture",
+        "language"
+      ]
     },
     "created": "2026-04-27T13:18:12Z",
-    "modified": "2026-04-27T13:18:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

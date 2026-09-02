@@ -17,7 +17,9 @@
       "id": "27824_shinsatsu_ex1",
       "japanese": "{銀行|ぎんこう}で{新札|しんさつ}に{両替|りょうがえ}した。",
       "english": "I exchanged my money for new bills at the bank.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27824_shinsatsu_ex2",
       "japanese": "ご{祝儀|しゅうぎ}には{新札|しんさつ}を{用意|ようい}するのがマナーだ。",
       "english": "It is good manners to prepare crisp new bills for gift money.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,39 @@
       "id": "27824_shinsatsu_ex3",
       "japanese": "{結婚式|けっこんしき}に{招|まね}かれたので、{前日|ぜんじつ}までに{銀行|ぎんこう}で{新札|しんさつ}をそろえておいた。",
       "english": "Since I was invited to a wedding, I got crisp new bills ready at the bank by the day before.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A brand-new, unwrinkled banknote. There is a strong custom of giving crisp new bills as celebratory gift money for weddings and other happy occasions; offering old, wrinkled bills is considered impolite.\n\nCOMMON COLLOCATIONS:\n- {新札|しんさつ}に{両替|りょうがえ}する: to exchange for new bills\n- {新札|しんさつ}を{用意|ようい}する: to prepare crisp bills\n- ピン{札|さつ}: crisp new bill (colloquial synonym)\n\nSIMILAR WORDS:\n- {旧札|きゅうさつ}: old-design banknote — a bill of a discontinued design\n- お{札|さつ}: banknote; bill — the general word for paper money",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19147_osatsu",
+      "reading": "おさつ",
+      "headword": "お{札|さつ}",
+      "label": "banknote"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["money", "culture"],
+      "politeness": "plain",
+      "semantic": [
+        "money",
+        "culture"
+      ],
       "domain": []
     },
     "created": "2026-05-19T04:03:25Z",
-    "modified": "2026-05-19T04:03:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

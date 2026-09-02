@@ -56,6 +56,36 @@
   ],
   "notes": "An extremely common time expression in conversational Japanese. The time frame it refers to is intentionally vague — it could be anything from a few days ago to several weeks ago, depending on context.\n\nCOMMON PATTERNS:\n- この{前|まえ}、～: The other day, ~\n- この{前|まえ}の + noun: last ~ / the previous ~\n- この{前|まえ}{会|あ}った{時|とき}: when we met the other day\n\nSIMILAR WORDS:\n- {先日|せんじつ}: the other day; more formal and polite, suitable for business and written contexts\n- {最近|さいきん}: recently; refers to a broader, ongoing time period rather than a specific point\n- {前回|ぜんかい}: last time; more precise, referring to a specific previous occasion in a series\n- このあいだ: the other day; essentially synonymous with この{前|まえ} in casual speech\n\nREGISTER:\nCasual. In formal or business settings, {先日|せんじつ} is preferred.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03305_senjitsu",
+      "reading": "せんじつ",
+      "headword": "{先日|せんじつ}",
+      "label": "the other day"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00881_saikin",
+      "reading": "さいきん",
+      "headword": "{最近|さいきん}",
+      "label": "recently"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11817_zenkai",
+      "reading": "ぜんかい",
+      "headword": "{前回|ぜんかい}",
+      "label": "last time"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01257_konoaida",
+      "reading": "このあいだ",
+      "headword": "この{間|あいだ}",
+      "label": "the other day"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,11 +93,12 @@
         "expression",
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ]
     },
     "created": "2026-04-24T12:15:12Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

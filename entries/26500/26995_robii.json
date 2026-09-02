@@ -17,7 +17,9 @@
       "id": "26995_robii_ex1",
       "japanese": "ホテルのロビーで{待|ま}ち{合|あ}わせしよう。",
       "english": "Let's meet in the hotel lobby.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26995_robii_ex2",
       "japanese": "{劇場|げきじょう}のロビーには{大|おお}きなポスターが{飾|かざ}られていた。",
       "english": "Large posters were displayed in the theater lobby.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "26995_robii_ex3",
       "japanese": "チェックインまで{時間|じかん}があったので、ロビーのソファーで{本|ほん}を{読|よ}んで{過|す}ごした。",
       "english": "Since I had time until check-in, I spent it reading a book on the lobby sofa.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"lobby.\" Used almost exclusively for the physical space (entrance hall), not for political lobbying, which is expressed as ロビー{活動|かつどう} or ロビイング.\n\nCOMMON COLLOCATIONS:\n- ホテルのロビー: hotel lobby\n- ロビーで{待|ま}つ: to wait in the lobby\n- ロビー{活動|かつどう}: lobbying (political)\n- {一階|いっかい}ロビー: first-floor lobby\n- ロビーラウンジ: lobby lounge\n\nSIMILAR WORDS:\n- {玄関|げんかん}: entrance; entryway — the entrance area of a Japanese house, not a large public space\n- エントランス: entrance — the entrance area of a building, often overlaps with ロビー\n- {待合室|まちあいしつ}: waiting room — a smaller, designated room for waiting, unlike a large open lobby",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05003_genkan",
+      "reading": "げんかん",
+      "headword": "{玄関|げんかん}",
+      "label": "entrance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08938_entoransu",
+      "reading": "えんとらんす",
+      "headword": "エントランス",
+      "label": "entrance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07373_machiaishitsu",
+      "reading": "まちあいしつ",
+      "headword": "{待合室|まちあいしつ}",
+      "label": "waiting room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29687_raunji",
+      "reading": "らうんじ",
+      "headword": "ラウンジ",
+      "label": "lounge"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     },
     "created": "2026-05-06T13:11:06Z",
-    "modified": "2026-05-06T13:11:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

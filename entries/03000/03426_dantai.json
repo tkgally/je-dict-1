@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "COMMON COMPOUNDS:\n- {団体|だんたい}⟦{旅行|りょこう}→旅行：00748_ryokou⟧ (group travel)\n- {団体|だんたい}⟦{行動|こうどう}→行動：02728_koudou⟧ (group action, acting as a group)\n- {団体|だんたい}⟦{競技|きょうぎ}→競技：02606_kyougi⟧ (team sport)\n- {団体|だんたい}⟦{割引|わりびき}→割引：01526_waribiki⟧ (group discount)\n- ⟦{宗教|しゅうきょう}→宗教：03208_shuukyou⟧{団体|だんたい} (religious organization)\n- ⟦{非営利|ひえいり}→非営利：19298_hieiri⟧{団体|だんたい} (non-profit organization, NPO)\n\nSIMILAR WORDS:\n- {団体|だんたい}: Organization, group (general)\n- ⟦{組織|そしき}→組織：03320_soshiki⟧: Organization (structured entity)\n- ⟦グループ→グループ：03840_guruupu⟧: Group (loanword, casual)\n- ⟦{集団|しゅうだん}→集団：03211_shuudan⟧: Group, mass (collection of people)",
+  "notes": "COMPOUNDS:\n- {団体|だんたい}⟦{旅行|りょこう}→旅行：00748_ryokou⟧ (group travel)\n- {団体|だんたい}⟦{行動|こうどう}→行動：02728_koudou⟧ (group action, acting as a group)\n- {団体|だんたい}⟦{競技|きょうぎ}→競技：02606_kyougi⟧ (team sport)\n- {団体|だんたい}⟦{割引|わりびき}→割引：01526_waribiki⟧ (group discount)\n- ⟦{宗教|しゅうきょう}→宗教：03208_shuukyou⟧{団体|だんたい} (religious organization)\n- ⟦{非営利|ひえいり}→非営利：19298_hieiri⟧{団体|だんたい} (non-profit organization, NPO)\n\nSIMILAR WORDS:\n- {団体|だんたい}: Organization, group (general)\n- ⟦{組織|そしき}→組織：03320_soshiki⟧: Organization (structured entity)\n- ⟦グループ→グループ：03840_guruupu⟧: Group (loanword, casual)\n- ⟦{集団|しゅうだん}→集団：03211_shuudan⟧: Group, mass (collection of people)",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,32 @@
       "reading": "しゅうだん",
       "headword": "{集団|しゅうだん}",
       "label": "collective group"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03840_guruupu",
+      "reading": "ぐるーぷ",
+      "headword": "グループ",
+      "label": "Group"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22750_ooninzuu",
+      "reading": "おおにんずう",
+      "headword": "{大人数|おおにんずう}",
+      "label": "large number of people"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28066_ikkou",
+      "reading": "いっこう",
+      "headword": "{一行|いっこう}",
+      "label": "party"
     }
   ],
   "metadata": {
     "created": "2026-01-12T14:46:00Z",
-    "modified": "2026-06-12T18:25:47Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

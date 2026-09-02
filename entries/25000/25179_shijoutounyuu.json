@@ -3,7 +3,7 @@
   "headword": "{市場投入|しじょうとうにゅう}",
   "reading": "しじょうとうにゅう",
   "romaji": "shijoutounyuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "market launch; market introduction",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "A compound of {市場|しじょう} (market) and {投入|とうにゅう} (putting in, investment). Commonly used in business news, press releases, and corporate strategy discussions. Can also be used as a verb with する.\n\nNote that {市場|しじょう} in this context is read しじょう (market in the business/economic sense), not いちば (physical marketplace).\n\nCOMMON COLLOCATIONS:\n- {市場投入|しじょうとうにゅう}する: to launch on the market\n- {市場投入|しじょうとうにゅう}の{時期|じき}: timing of the market launch\n- {市場投入|しじょうとうにゅう}を{急|いそ}ぐ: to rush the market launch\n- {市場投入|しじょうとうにゅう}{後|ご}: after market introduction\n\nSIMILAR WORDS:\n- {発売|はつばい}: release, going on sale — more commonly used for consumer products\n- {上市|じょうし}: market listing, launch — more formal, used in pharmaceutical and financial contexts\n- {商品化|しょうひんか}: commercialization — the broader process of turning something into a product",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04315_hatsubai",
+      "reading": "はつばい",
+      "headword": "{発売|はつばい}",
+      "label": "release, going on sale"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30135_shouhinka",
+      "reading": "しょうひんか",
+      "headword": "{商品化|しょうひんか}",
+      "label": "commercialization"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +69,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "business",
         "economics"
@@ -60,7 +77,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-23T13:26:12Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

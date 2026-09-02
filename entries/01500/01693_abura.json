@@ -78,11 +78,33 @@
       ]
     }
   ],
-  "notes": "{油|あぶら} refers to oil, primarily cooking oil.\n\nCOMMON PATTERNS:\n- {油|あぶら}⟦で→で：00502_de⟧⟦{揚|あ}げる→揚げる：16879_ageru⟧ (deep-fry in oil)\n- {油|あぶら}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧ (add oil to a pan)\n- ⟦{油|あぶら}っこい→脂っこい：14728_aburakkoi⟧ (oily, greasy)\n- {油|あぶら}⟦を→を：00422_wo⟧⟦{売|う}る→売る：00906_uru⟧ (idle away time - idiom)\n\nKANJI NOTE:\n- {油|あぶら}: oil (general, cooking)\n- ⟦{脂|あぶら}→脂：01916_abura⟧: fat (from animals, body fat)\n\nRELATED WORDS:\n- ⟦サラダ→サラダ：01364_sarada⟧{油|あぶら} (salad oil)\n- ⟦ごま→胡麻：10337_goma⟧{油|あぶら} (sesame oil)\n- ⟦オリーブオイル→オリーブオイル：noentry⟧ (olive oil)",
-  "cross_references": [],
+  "notes": "{油|あぶら} refers to oil, primarily cooking oil.\n\nCOMMON PATTERNS:\n- {油|あぶら}⟦で→で：00502_de⟧⟦{揚|あ}げる→揚げる：16879_ageru⟧ (deep-fry in oil)\n- {油|あぶら}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧ (add oil to a pan)\n- ⟦{油|あぶら}っこい→脂っこい：14728_aburakkoi⟧ (oily, greasy)\n- {油|あぶら}⟦を→を：00422_wo⟧⟦{売|う}る→売る：00906_uru⟧ (idle away time - idiom)\n\nWRITING:\n- {油|あぶら}: oil (general, cooking)\n- ⟦{脂|あぶら}→脂：01916_abura⟧: fat (from animals, body fat)\n\nRELATED WORDS:\n- ⟦サラダ→サラダ：01364_sarada⟧{油|あぶら} (salad oil)\n- ⟦ごま→胡麻：10337_goma⟧{油|あぶら} (sesame oil)\n- ⟦オリーブオイル→オリーブオイル：noentry⟧ (olive oil)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21131_saradaabura",
+      "reading": "さらだあぶら",
+      "headword": "サラダ{油|あぶら}",
+      "label": "salad oil"
+    },
+    {
+      "type": "related",
+      "target_id": "08482_agetate",
+      "reading": "あげたて",
+      "headword": "{揚|あ}げ{立|た}て",
+      "label": "freshly fried"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10731_oiru",
+      "reading": "おいる",
+      "headword": "オイル",
+      "label": "oil"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T11:57:15Z",
-    "modified": "2026-05-16T19:11:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

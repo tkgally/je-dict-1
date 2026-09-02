@@ -17,7 +17,9 @@
       "id": "27154_hakei_ex1",
       "japanese": "{音|おと}の{波形|はけい}を{表示|ひょうじ}する。",
       "english": "To display the sound waveform.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27154_hakei_ex2",
       "japanese": "{心電図|しんでんず}の{波形|はけい}に{異常|いじょう}はない。",
       "english": "There are no abnormalities in the ECG waveform.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,54 @@
       "id": "27154_hakei_ex3",
       "japanese": "このソフトを{使|つか}えば、{録音|ろくおん}した{音声|おんせい}の{波形|はけい}を{細|こま}かく{編集|へんしゅう}できる。",
       "english": "With this software, you can edit the waveform of recorded audio in detail.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {波|なみ} (wave) and {形|かたち} (shape). While the component kanji have native Japanese readings, this word uses the on'yomi readings. Commonly encountered in science, engineering, music production, and medical contexts.\n\nCOMMON COLLOCATIONS:\n- {波形|はけい}を{表示|ひょうじ}する — to display a waveform\n- {波形|はけい}を{分析|ぶんせき}する — to analyze a waveform\n- {波形|はけい}{編集|へんしゅう} — waveform editing\n- {正弦波|せいげんは}{波形|はけい} — sine waveform\n- {心電図|しんでんず}の{波形|はけい} — ECG waveform\n\nSIMILAR WORDS:\n- {波|なみ} — wave; the physical wave itself, not its shape or graphical representation\n- {波長|はちょう} — wavelength; the distance between wave peaks, a measurement rather than a shape\n- {周波数|しゅうはすう} — frequency; how often a wave cycles, not its visual form",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27087_hachou",
+      "reading": "はちょう",
+      "headword": "{波長|はちょう}",
+      "label": "wavelength"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25041_shuuhasuu",
+      "reading": "しゅうはすう",
+      "headword": "{周波数|しゅうはすう}",
+      "label": "frequency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24496_hajou",
+      "reading": "はじょう",
+      "headword": "{波状|はじょう}",
+      "label": "wavy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-05-07T13:14:10Z",
-    "modified": "2026-05-07T13:14:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

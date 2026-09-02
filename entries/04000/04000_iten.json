@@ -2,7 +2,7 @@
   "id": "04000_iten",
   "headword": "{移転|いてん}",
   "reading": "いてん",
-  "part_of_speech": "noun, する-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "relocation; transfer",
   "conjugation": {
     "type": "suru",
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "USAGE: Used for official or formal relocation of businesses, organizations, or legal transfers.\n\nCOMMON COMPOUNDS:\n・{移転|いてん}⟦{先|さき}→先：02883_saki⟧ (new location/destination)\n・{移転|いてん}⟦{届|とどけ}→届け：07558_todoke⟧ (notice of relocation)\n・⟦{所有権|しょゆうけん}→所有権：17082_shoyuuken⟧{移転|いてん} (transfer of ownership)\n・⟦{本社|ほんしゃ}→本社：09565_honsha⟧{移転|いてん} (headquarters relocation)\n\nSIMILAR WORDS:\n・⟦{引|ひ}っ{越|こ}し→引越し：03704_hikkoshi⟧ (moving - usually for personal/household moves)\n・⟦{移動|いどう}→移動：01741_idou⟧ (movement - more general)\n・⟦{移住|いじゅう}→移住：13752_ijuu⟧ (migration - for people changing residence)\n\nNOTE: {移転|いてん} is more formal and often used for businesses and legal contexts.",
+  "notes": "USAGE: Used for official or formal relocation of businesses, organizations, or legal transfers.\n\nCOMPOUNDS:\n- {移転|いてん}⟦{先|さき}→先：02883_saki⟧ (new location/destination)\n- {移転|いてん}⟦{届|とどけ}→届け：07558_todoke⟧ (notice of relocation)\n- ⟦{所有権|しょゆうけん}→所有権：17082_shoyuuken⟧{移転|いてん} (transfer of ownership)\n- ⟦{本社|ほんしゃ}→本社：09565_honsha⟧{移転|いてん} (headquarters relocation)\n\nSIMILAR WORDS:\n- ⟦{引|ひ}っ{越|こ}し→引越し：03704_hikkoshi⟧ (moving - usually for personal/household moves)\n- ⟦{移動|いどう}→移動：01741_idou⟧ (movement - more general)\n- ⟦{移住|いじゅう}→移住：13752_ijuu⟧ (migration - for people changing residence)\n\nNOTE: {移転|いてん} is more formal and often used for businesses and legal contexts.",
   "cross_references": [
     {
       "type": "related",
@@ -190,11 +190,25 @@
       "headword": "{移住|いじゅう}",
       "label": "migration (people)",
       "target_id": "13752_ijuu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15236_tenkyo",
+      "reading": "てんきょ",
+      "headword": "{転居|てんきょ}",
+      "label": "moving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15629_jouto",
+      "reading": "じょうと",
+      "headword": "{譲渡|じょうと}",
+      "label": "transfer"
     }
   ],
   "metadata": {
     "created": "2026-01-13T07:50:37Z",
-    "modified": "2026-05-28T17:10:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

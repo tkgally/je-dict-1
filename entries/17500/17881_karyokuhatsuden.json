@@ -19,7 +19,9 @@
       "english": "Japan relies on thermal power generation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17881_karyokuhatsuden_ex2",
@@ -27,7 +29,9 @@
       "english": "Thermal power generation emits a large amount of carbon dioxide.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17881_karyokuhatsuden_ex3",
@@ -35,7 +39,9 @@
       "english": "As the shift to renewable energy progresses, the share of thermal power generation is declining.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {火力|かりょく} (thermal power, firepower) and {発電|はつでん} (power generation). Frequently appears in news about energy policy and environmental issues.\n\nCOMMON COLLOCATIONS:\n- {火力発電所|かりょくはつでんしょ} (thermal power plant)\n- {火力発電|かりょくはつでん}に{頼|たよ}る (to rely on thermal power)\n- {火力発電|かりょくはつでん}の{割合|わりあい} (share of thermal power)\n\nRELATED WORDS:\n- {原子力発電|げんしりょくはつでん}: nuclear power generation\n- {水力発電|すいりょくはつでん}: hydroelectric power generation\n- {太陽光発電|たいようこうはつでん}: solar power generation",
@@ -53,19 +59,39 @@
       "reading": "げんしりょくはつでん",
       "headword": "{原子力発電|げんしりょくはつでん}",
       "label": "nuclear power generation"
+    },
+    {
+      "type": "related",
+      "target_id": "23609_suiryokuhatsuden",
+      "reading": "すいりょくはつでん",
+      "headword": "{水力発電|すいりょくはつでん}",
+      "label": "hydroelectric power generation"
+    },
+    {
+      "type": "related",
+      "target_id": "07831_taiyoukouhatsuden",
+      "reading": "たいようこうはつでん",
+      "headword": "{太陽光発電|たいようこうはつでん}",
+      "label": "solar power generation"
     }
   ],
   "metadata": {
     "created": "2026-03-19T08:25:50Z",
-    "modified": "2026-05-07T09:10:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

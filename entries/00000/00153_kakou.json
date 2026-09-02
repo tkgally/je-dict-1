@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "HOMOPHONE: ⟦{火口|かこう}→火口：00448_kakou⟧ (crater) has the same reading.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {下降|かこう}⟦する→する：00392_suru⟧\n\nPATTERNS:\n・{下降|かこう}⟦する→する：00392_suru⟧ (to descend, to decline)\n・{下降|かこう}⟦{傾向|けいこう}→傾向：02695_keikou⟧ (declining trend)\n・{下降|かこう}⟦{気流|きりゅう}→気流：27360_kiryuu⟧ (downdraft)\n・⟦{急|きゅう}→急：13042_kyuu⟧{下降|かこう} (sharp decline)\n\nANTONYM:\n・⟦{上昇|じょうしょう}→上昇：11296_joushou⟧ (rise, ascent)\n\nSIMILAR WORDS:\n・⟦{低下|ていか}→低下：04065_teika⟧ (decline, decrease - for quality, levels)\n・⟦{降下|こうか}→降下：21547_kouka⟧ (descent - more technical)\n・⟦{減少|げんしょう}→減少：02719_genshou⟧ (decrease - for quantities)",
+  "notes": "HOMOPHONE: ⟦{火口|かこう}→火口：00448_kakou⟧ (crater) has the same reading.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {下降|かこう}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {下降|かこう}⟦する→する：00392_suru⟧ (to descend, to decline)\n- {下降|かこう}⟦{傾向|けいこう}→傾向：02695_keikou⟧ (declining trend)\n- {下降|かこう}⟦{気流|きりゅう}→気流：27360_kiryuu⟧ (downdraft)\n- ⟦{急|きゅう}→急：13042_kyuu⟧{下降|かこう} (sharp decline)\n\nSIMILAR WORDS:\n- ⟦{上昇|じょうしょう}→上昇：11296_joushou⟧ (rise, ascent)\n- ⟦{低下|ていか}→低下：04065_teika⟧ (decline, decrease - for quality, levels)\n- ⟦{降下|こうか}→降下：21547_kouka⟧ (descent - more technical)\n- ⟦{減少|げんしょう}→減少：02719_genshou⟧ (decrease - for quantities)",
   "cross_references": [
     {
       "type": "antonym",
@@ -148,11 +148,46 @@
       "headword": "{火口|かこう}",
       "label": "crater (homophone)",
       "target_id": "00448_kakou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04065_teika",
+      "reading": "ていか",
+      "headword": "{低下|ていか}",
+      "label": "decline, decrease"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21547_kouka",
+      "reading": "こうか",
+      "headword": "{降下|こうか}",
+      "label": "descent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02719_genshou",
+      "reading": "げんしょう",
+      "headword": "{減少|げんしょう}",
+      "label": "decrease"
+    },
+    {
+      "type": "related",
+      "target_id": "08000_donka",
+      "reading": "どんか",
+      "headword": "{鈍化|どんか}",
+      "label": "slowing down"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17324_kagerigamieru",
+      "reading": "かげりがみえる",
+      "headword": "{陰|かげ}りが{見|み}える",
+      "label": "to show signs of decline"
     }
   ],
   "metadata": {
     "created": "2026-01-13T10:53:53Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

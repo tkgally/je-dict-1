@@ -17,7 +17,9 @@
       "id": "20472_tsuuyouguchi_ex1",
       "japanese": "{通用口|つうようぐち}から{入|はい}ってください。",
       "english": "Please enter through the service entrance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20472_tsuuyouguchi_ex2",
       "japanese": "{配達|はいたつ}は{通用口|つうようぐち}を{使|つか}ってください。",
       "english": "Please use the service entrance for deliveries.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "20472_tsuuyouguchi_ex3",
       "japanese": "{正面|しょうめん}の{入|い}り{口|ぐち}は{閉|し}まっていたので、{通用口|つうようぐち}から{建物|たてもの}に{入|はい}った。",
       "english": "The front entrance was closed, so I entered the building through the side door.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {通用|つうよう} (general use, common use) + {口|ぐち} (entrance, opening). Refers to a door used for everyday or practical access, as opposed to the formal main entrance.\n\nCOMMON COLLOCATIONS:\n- {通用口|つうようぐち}から{入|はい}る: to enter through the service entrance\n- {通用口|つうようぐち}を{使|つか}う: to use the service entrance\n- {裏|うら}の{通用口|つうようぐち}: the back service entrance\n\nSIMILAR WORDS:\n- {正面玄関|しょうめんげんかん}: main entrance — the formal front entrance of a building\n- {裏口|うらぐち}: back door — a door at the rear, sometimes with connotations of doing things secretly\n- {非常口|ひじょうぐち}: emergency exit — used only in emergencies",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04101_uraguchi",
+      "reading": "うらぐち",
+      "headword": "{裏口|うらぐち}",
+      "label": "back door"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07045_hijouguchi",
+      "reading": "ひじょうぐち",
+      "headword": "{非常口|ひじょうぐち}",
+      "label": "emergency exit"
+    },
+    {
+      "type": "related",
+      "target_id": "21070_deiriguchi",
+      "reading": "でいりぐち",
+      "headword": "{出入|でい}り{口|ぐち}",
+      "label": "entrance and exit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24623_tsuuyoumon",
+      "reading": "つうようもん",
+      "headword": "{通用門|つうようもん}",
+      "label": "service entrance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     },
     "created": "2026-03-29T15:19:27Z",
-    "modified": "2026-03-29T15:19:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "23062_saiyaku_ex1",
       "japanese": "{災厄|さいやく}に{見舞|みま}われる。",
       "english": "To be struck by calamity.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23062_saiyaku_ex2",
       "japanese": "{人々|ひとびと}は{災厄|さいやく}から{身|み}を{守|まも}るために{祈|いの}った。",
       "english": "People prayed to protect themselves from disaster.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "23062_saiyaku_ex3",
       "japanese": "{戦争|せんそう}は{人類|じんるい}にとって{最大|さいだい}の{災厄|さいやく}であると{言|い}われている。",
       "english": "War is said to be the greatest calamity for humankind.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {災|さい} (disaster) + {厄|やく} (misfortune/evil). A literary word that conveys a grave, almost fateful quality. Often used in written and formal contexts.\n\nCOMMON COLLOCATIONS:\n- {災厄|さいやく}に{見舞|みま}われる: to be struck by calamity\n- {災厄|さいやく}を{逃|のが}れる: to escape disaster\n- {災厄|さいやく}を{払|はら}う: to ward off calamity\n- {災厄|さいやく}から{守|まも}る: to protect from disaster\n\nSIMILAR WORDS:\n- {災害|さいがい}: disaster — the standard term for natural disasters (earthquake, flood, etc.)\n- {厄災|やくさい}: calamity — nearly synonymous; reversed character order\n- {惨事|さんじ}: terrible event, tragedy — emphasizes the horrifying nature\n- {天災|てんさい}: natural disaster — specifically disasters of natural origin",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09636_saigai",
+      "reading": "さいがい",
+      "headword": "{災害|さいがい}",
+      "label": "disaster"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24387_yakusai",
+      "reading": "やくさい",
+      "headword": "{厄災|やくさい}",
+      "label": "calamity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28385_sanji",
+      "reading": "さんじ",
+      "headword": "{惨事|さんじ}",
+      "label": "terrible event, tragedy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29302_tensai",
+      "reading": "てんさい",
+      "headword": "{天災|てんさい}",
+      "label": "natural disaster"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-04-08T17:31:46Z",
-    "modified": "2026-04-08T17:31:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

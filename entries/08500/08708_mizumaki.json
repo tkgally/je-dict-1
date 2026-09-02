@@ -43,7 +43,30 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{水|みず} (water) + {撒|ま}き (sprinkling)\n\nUSES:\n- {庭|にわ}の{水撒|みずま}き - watering the garden\n- {道|みち}の{水撒|みずま}き - sprinkling water on the street (\"uchimizu\" custom)\n- {花|はな}への{水撒|みずま}き - watering flowers\n\nJAPANESE CUSTOM:\n{打|う}ち{水|みず} (uchimizu) is a traditional Japanese practice of sprinkling water on streets and gardens to cool the surroundings in summer. This practice reduces temperature through evaporation.\n\nRELATED HOUSEHOLD CHORES:\n- {草取|くさと}り - weeding\n- {芝刈|しばか}り - lawn mowing\n- {掃除|そうじ} - cleaning",
+  "notes": "COMPOUNDS:\n{水|みず} (water) + {撒|ま}き (sprinkling)\n\nFUNCTIONS:\n- {庭|にわ}の{水撒|みずま}き - watering the garden\n- {道|みち}の{水撒|みずま}き - sprinkling water on the street (\"uchimizu\" custom)\n- {花|はな}への{水撒|みずま}き - watering flowers\n\nJAPANESE CUSTOM:\n{打|う}ち{水|みず} (uchimizu) is a traditional Japanese practice of sprinkling water on streets and gardens to cool the surroundings in summer. This practice reduces temperature through evaporation.\n\nRELATED HOUSEHOLD CHORES:\n- {草取|くさと}り - weeding\n- {芝刈|しばか}り - lawn mowing\n- {掃除|そうじ} - cleaning",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08533_kusatori",
+      "reading": "くさとり",
+      "headword": "{草取|くさと}り",
+      "label": "weeding"
+    },
+    {
+      "type": "related",
+      "target_id": "08532_shibakari",
+      "reading": "しばかり",
+      "headword": "{芝刈|しばか}り",
+      "label": "lawn mowing"
+    },
+    {
+      "type": "related",
+      "target_id": "02889_souji",
+      "reading": "そうじ",
+      "headword": "{掃除|そうじ}",
+      "label": "cleaning"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +74,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "plant-general"
       ]
     },
     "created": "2026-01-28T02:49:47Z",
-    "modified": "2026-08-12T12:51:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

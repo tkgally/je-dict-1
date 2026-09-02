@@ -3,7 +3,7 @@
   "headword": "{分娩|ぶんべん}",
   "reading": "ぶんべん",
   "romaji": "bunben",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "childbirth; delivery; labor",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "The formal/medical term for childbirth. Used primarily in medical contexts, official documents, and news reporting. In everyday conversation, {出産|しゅっさん} or {産|う}む is far more common.\n\nCOMMON COLLOCATIONS:\n- {自然|しぜん}{分娩|ぶんべん}: natural childbirth\n- {無痛|むつう}{分娩|ぶんべん}: painless delivery (epidural birth)\n- {分娩|ぶんべん}{室|しつ}: delivery room\n- {分娩|ぶんべん}{台|だい}: delivery bed\n- {分娩|ぶんべん}{予定日|よていび}: expected delivery date\n- {異常|いじょう}{分娩|ぶんべん}: abnormal delivery, complicated birth\n\nSIMILAR WORDS:\n- {出産|しゅっさん}: childbirth, giving birth — the standard general-purpose word\n- お{産|さん}: childbirth — casual, warm, and commonly used in everyday speech\n- {産|う}む: to give birth — the verb form\n- {陣痛|じんつう}: labor pains, contractions — specifically the pain during labor",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11734_shussan",
+      "reading": "しゅっさん",
+      "headword": "{出産|しゅっさん}",
+      "label": "childbirth, giving birth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01899_umu",
+      "reading": "うむ",
+      "headword": "{産|う}む",
+      "label": "to give birth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20281_jintsuu",
+      "reading": "じんつう",
+      "headword": "{陣痛|じんつう}",
+      "label": "labor pains, contractions"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26987_shussansuru",
+      "reading": "しゅっさんする",
+      "headword": "{出産|しゅっさん}する",
+      "label": "to give birth"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +94,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-07T16:47:12Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -17,7 +17,9 @@
       "id": "19717_anda_ex1",
       "japanese": "{安打|あんだ}を{打|う}つ。",
       "english": "To get a base hit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19717_anda_ex2",
       "japanese": "{今日|きょう}の{試合|しあい}で{三|さん}{安打|あんだ}を{記録|きろく}した。",
       "english": "He recorded three hits in today's game.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,86 @@
       "id": "19717_anda_ex3",
       "japanese": "イチロー{選手|せんしゅ}はメジャーリーグ{通算|つうさん}{三千|さんぜん}{安打|あんだ}を{達成|たっせい}した{偉大|いだい}な{打者|だしゃ}だ。",
       "english": "Ichiro is a great batter who achieved 3,000 career hits in Major League Baseball.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {安|あん} (safe) + {打|だ} (hit, strike). A fundamental baseball term. The word ヒット (from English 'hit') is also widely used and often interchangeable in casual contexts.\n\nCOMMON COLLOCATIONS:\n- {安打|あんだ}を{打|う}つ — to get a hit\n- {安打|あんだ}を{放|はな}つ — to deliver a hit (more formal)\n- {安打|あんだ}{数|すう} — number of hits\n- {安打|あんだ}{製造機|せいぞうき} — hit machine (figurative, prolific hitter)\n\nTYPES OF HITS:\n- {単打|たんだ} — single\n- {二塁打|にるいだ} — double\n- {三塁打|さんるいだ} — triple\n- {本塁打|ほんるいだ} — home run\n\nSIMILAR WORDS:\n- ヒット — hit; loanword, used interchangeably in casual speech\n- {打撃|だげき} — batting, hitting; broader term for the act of batting",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11161_hitto",
+      "reading": "ひっと",
+      "headword": "ヒット",
+      "label": "hit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12775_dageki",
+      "reading": "だげき",
+      "headword": "{打撃|だげき}",
+      "label": "batting, hitting"
+    },
+    {
+      "type": "related",
+      "target_id": "06542_daseki",
+      "reading": "だせき",
+      "headword": "{打席|だせき}",
+      "label": "at-bat, plate appearance"
+    },
+    {
+      "type": "related",
+      "target_id": "08589_daten",
+      "reading": "だてん",
+      "headword": "{打点|だてん}",
+      "label": "RBI (run batted in)"
+    },
+    {
+      "type": "related",
+      "target_id": "09486_shutsurui",
+      "reading": "しゅつるい",
+      "headword": "{出塁|しゅつるい}",
+      "label": "getting on base (baseball)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24569_honruida",
+      "reading": "ほんるいだ",
+      "headword": "{本塁打|ほんるいだ}",
+      "label": "home run"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29451_ruida",
+      "reading": "るいだ",
+      "headword": "塁打",
+      "label": "total bases (baseball)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29482_tanda",
+      "reading": "たんだ",
+      "headword": "{単打|たんだ}",
+      "label": "single (baseball hit)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["sports"]
+      "semantic": [
+        "sports"
+      ]
     },
     "created": "2026-03-26T14:31:13Z",
-    "modified": "2026-03-26T14:31:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

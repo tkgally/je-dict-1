@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {寮|りょう} refers to communal living quarters, typically for students or employees.\n\nCOMMON PATTERNS:\n・⟦{学生|がくせい}→学生：00610_gakusei⟧{寮|りょう} (student dormitory)\n・⟦{社員|しゃいん}→社員：03065_shain⟧{寮|りょう} (company dormitory)\n・{寮|りょう}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧ (to move into a dorm)\n・{寮|りょう}⟦{生活|せいかつ}→生活：01443_seikatsu⟧ (dorm life)\n・{寮|りょう}⟦{費|ひ}→費：09877_hi⟧ (dormitory fees)\n\nNOTE: Different from ⟦ホテル→ホテル：01027_hoteru⟧ (hotel) or ⟦{旅館|りょかん}→旅館：01049_ryokan⟧ (Japanese inn) which are for temporary stays.",
+  "notes": "USAGE: {寮|りょう} refers to communal living quarters, typically for students or employees.\n\nCOMMON PATTERNS:\n- ⟦{学生|がくせい}→学生：00610_gakusei⟧{寮|りょう} (student dormitory)\n- ⟦{社員|しゃいん}→社員：03065_shain⟧{寮|りょう} (company dormitory)\n- {寮|りょう}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧ (to move into a dorm)\n- {寮|りょう}⟦{生活|せいかつ}→生活：01443_seikatsu⟧ (dorm life)\n- {寮|りょう}⟦{費|ひ}→費：09877_hi⟧ (dormitory fees)\n\nNOTE: Different from ⟦ホテル→ホテル：01027_hoteru⟧ (hotel) or ⟦{旅館|りょかん}→旅館：01049_ryokan⟧ (Japanese inn) which are for temporary stays.",
   "cross_references": [
     {
       "type": "contrast",
@@ -51,11 +51,25 @@
       "reading": "ほてる",
       "headword": "ホテル",
       "note": "hotel (temporary stays)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20478_kishukusha",
+      "reading": "きしゅくしゃ",
+      "headword": "{寄宿舎|きしゅくしゃ}",
+      "label": "dormitory"
+    },
+    {
+      "type": "related",
+      "target_id": "27324_hoomusutei",
+      "reading": "ほーむすてい",
+      "headword": "ホームステイ",
+      "label": "homestay (staying with a host family)"
     }
   ],
   "metadata": {
     "created": "2026-01-12T13:34:27Z",
-    "modified": "2026-05-27T18:25:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

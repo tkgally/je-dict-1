@@ -22,7 +22,9 @@
       "id": "20695_mamako_ex1",
       "japanese": "{継子|ままこ}を{育|そだ}てる。",
       "english": "To raise a stepchild.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "20695_mamako_ex2",
       "japanese": "{彼女|かのじょ}は{継子|ままこ}を{自分|じぶん}の{子|こ}のように{大切|たいせつ}にしている。",
       "english": "She cherishes her stepchild as if it were her own.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "20695_mamako_ex3",
       "japanese": "{継子|ままこ}との{関係|かんけい}に{悩|なや}む{親|おや}は{少|すく}なくない。",
       "english": "There are quite a few parents who struggle with their relationship with their stepchildren.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "20695_mamako_ex4",
       "japanese": "{継子|ままこ}{扱|あつか}いされる。",
       "english": "To be treated like a stepchild.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "20695_mamako_ex5",
       "japanese": "あの{部署|ぶしょ}は{社内|しゃない}で{継子|ままこ}{扱|あつか}いされている。",
       "english": "That department is treated like a stepchild within the company.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,58 @@
       "id": "20695_mamako_ex6",
       "japanese": "{地方|ちほう}の{交通|こうつう}インフラは{長年|ながねん}{継子|ままこ}{扱|あつか}いされてきた。",
       "english": "Rural transportation infrastructure has been neglected for years.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "An old native Japanese word. まま means 'step-' (as in step-parent) and {子|こ} means child. The prefix まま also appears in {継父|ままちち} (stepfather) and {継母|ままはは} (stepmother).\n\nETYMOLOGY:\nThe prefix まま is of ancient origin and is thought to derive from a word meaning 'not real' or 'substitute.' It predates Chinese-derived words for step-relations.\n\nCOMMON COLLOCATIONS:\n- {継子|ままこ}{扱|あつか}い: being treated unfairly, like a stepchild\n- {継子|ままこ}いじめ: bullying of a stepchild\n- {継子|ままこ}を{育|そだ}てる: to raise a stepchild\n\nSIMILAR WORDS:\n- {連|つ}れ{子|こ}: a child from a previous relationship — neutral, commonly used in modern contexts\n- {養子|ようし}: adopted child — a child formally adopted, not necessarily a stepchild\n- {実子|じっし}: biological child — one's own child by birth\n\nNOTE:\nIn modern usage, {連|つ}れ{子|こ} is more commonly used than {継子|ままこ} to refer to stepchildren without negative connotation. {継子|ままこ} can carry undertones of the old fairy-tale motif of the mistreated stepchild, making it somewhat loaded.",
+  "notes": "An old native Japanese word. まま means 'step-' (as in step-parent) and {子|こ} means child. The prefix まま also appears in {継父|ままちち} (stepfather) and {継母|ままはは} (stepmother).\n\nETYMOLOGY:\nThe prefix まま is of ancient origin and is thought to derive from a word meaning 'not real' or 'substitute.' It predates Chinese-derived words for step-relations.\n\nCOMMON COLLOCATIONS:\n- {継子|ままこ}{扱|あつか}い: being treated unfairly, like a stepchild\n- {継子|ままこ}いじめ: bullying of a stepchild\n- {継子|ままこ}を{育|そだ}てる: to raise a stepchild\n\nSIMILAR WORDS:\n- {連|つ}れ{子|こ}: a child from a previous relationship — neutral, commonly used in modern contexts\n- {養子|ようし}: adopted child — a child formally adopted, not necessarily a stepchild\n- {実子|じっし}: biological child — one's own child by birth\n\nUSAGE:\nIn modern usage, {連|つ}れ{子|こ} is more commonly used than {継子|ままこ} to refer to stepchildren without negative connotation. {継子|ままこ} can carry undertones of the old fairy-tale motif of the mistreated stepchild, making it somewhat loaded.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10100_tsureko",
+      "reading": "つれこ",
+      "headword": "{連|つ}れ{子|こ}",
+      "label": "a child from a previous relationship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14626_youshi",
+      "reading": "ようし",
+      "headword": "{養子|ようし}",
+      "label": "adopted child"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21069_jisshi",
+      "reading": "じっし",
+      "headword": "{実子|じっし}",
+      "label": "biological child"
+    },
+    {
+      "type": "related",
+      "target_id": "18220_mamahaha",
+      "reading": "ままはは",
+      "headword": "{継母|ままはは}",
+      "label": "stepmother"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["family"]
+      "semantic": [
+        "family"
+      ]
     },
     "created": "2026-03-30T07:49:19Z",
-    "modified": "2026-03-30T07:49:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

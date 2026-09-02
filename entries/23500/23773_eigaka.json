@@ -3,7 +3,7 @@
   "headword": "{映画化|えいがか}",
   "reading": "えいがか",
   "romaji": "eigaka",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "film adaptation; making into a movie",
   "definitions": [
     {
@@ -54,8 +54,45 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {映画|えいが} ('film; movie') and the suffix {化|か} ('-ization; turning into'). Very productive pattern that appears in many compound nouns: {映画化|えいがか}, {ドラマ化|どらまか} ('TV drama adaptation'), {漫画化|まんがか} ('manga adaptation'), etc.\n\nUSAGE:\nUsed both as a noun (a film adaptation) and with する as a verb (to adapt into a film). The passive {映画化|えいがか}される is extremely common in news and entertainment writing, since the original work is usually the topic.\n\nCOMMON COLLOCATIONS:\n- {小説|しょうせつ}の{映画化|えいがか}: a film adaptation of a novel\n- {映画化|えいがか}される: to be adapted into a film\n- {映画化|えいがか}{決定|けってい}: film adaptation confirmed\n- {映画化|えいがか}{権|けん}: film adaptation rights\n- {原作|げんさく}に{忠実|ちゅうじつ}な{映画化|えいがか}: a faithful film adaptation\n- {実写|じっしゃ}{映画化|えいがか}: live-action film adaptation\n\nRELATED TERMS:\n- {ドラマ化|どらまか}: TV drama adaptation\n- {舞台化|ぶたいか}: stage adaptation\n- {アニメ化|あにめか}: anime adaptation\n- {原作|げんさく}: the original work (novel, manga, etc.)\n- {脚色|きゃくしょく}: dramatic adaptation; scripting",
+  "notes": "Compound of {映画|えいが} ('film; movie') and the suffix {化|か} ('-ization; turning into'). Very productive pattern that appears in many compound nouns: {映画化|えいがか}, {ドラマ化|どらまか} ('TV drama adaptation'), {漫画化|まんがか} ('manga adaptation'), etc.\n\nUSAGE:\nUsed both as a noun (a film adaptation) and with する as a verb (to adapt into a film). The passive {映画化|えいがか}される is extremely common in news and entertainment writing, since the original work is usually the topic.\n\nCOMMON COLLOCATIONS:\n- {小説|しょうせつ}の{映画化|えいがか}: a film adaptation of a novel\n- {映画化|えいがか}される: to be adapted into a film\n- {映画化|えいがか}{決定|けってい}: film adaptation confirmed\n- {映画化|えいがか}{権|けん}: film adaptation rights\n- {原作|げんさく}に{忠実|ちゅうじつ}な{映画化|えいがか}: a faithful film adaptation\n- {実写|じっしゃ}{映画化|えいがか}: live-action film adaptation\n\nRELATED WORDS:\n- {ドラマ化|どらまか}: TV drama adaptation\n- {舞台化|ぶたいか}: stage adaptation\n- {アニメ化|あにめか}: anime adaptation\n- {原作|げんさく}: the original work (novel, manga, etc.)\n- {脚色|きゃくしょく}: dramatic adaptation; scripting",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "26046_doramaka",
+      "reading": "どらまか",
+      "headword": "ドラマ{化|か}",
+      "label": "TV drama adaptation"
+    },
+    {
+      "type": "related",
+      "target_id": "23065_animeka",
+      "reading": "あにめか",
+      "headword": "アニメ{化|か}",
+      "label": "anime adaptation"
+    },
+    {
+      "type": "related",
+      "target_id": "11827_gensaku",
+      "reading": "げんさく",
+      "headword": "{原作|げんさく}",
+      "label": "the original work"
+    },
+    {
+      "type": "related",
+      "target_id": "18162_kyakushoku",
+      "reading": "きゃくしょく",
+      "headword": "{脚色|きゃくしょく}",
+      "label": "dramatic adaptation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17313_jisshaka",
+      "reading": "じっしゃか",
+      "headword": "{実写化|じっしゃか}",
+      "label": "live-action adaptation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -72,7 +109,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-14T20:18:03Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

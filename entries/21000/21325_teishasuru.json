@@ -2,7 +2,7 @@
   "id": "21325_teishasuru",
   "headword": "{停車|ていしゃ}する",
   "reading": "ていしゃする",
-  "part_of_speech": "noun, suru verb, intransitive",
+  "part_of_speech": "noun, suru verb (intransitive)",
   "gloss": "to stop (a vehicle); to make a stop",
   "definitions": [
     {
@@ -45,6 +45,29 @@
   ],
   "notes": "Compound of {停|てい} (stop) + {車|しゃ} (vehicle). Specifically refers to vehicles or trains stopping. Not used for people stopping walking.\n\nCOMMON COLLOCATIONS:\n- {停車|ていしゃ}{駅|えき}: stations where a train stops\n- {停車|ていしゃ}{位置|いち}: stopping position\n- {臨時|りんじ}{停車|ていしゃ}: unscheduled stop\n- {停車|ていしゃ}{中|ちゅう}: while stopped\n\nSIMILAR WORDS:\n- {止|と}まる: to stop (general, everyday — for any object or person)\n- {駐車|ちゅうしゃ}する: to park (leaving a vehicle stationary for a period)\n- {停止|ていし}する: to halt, to cease (broader usage — can be used for operations, activities)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00555_tomaru",
+      "reading": "とまる",
+      "headword": "{止|と}まる",
+      "label": "to stop (general, everyday"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22431_chuushasuru",
+      "reading": "ちゅうしゃする",
+      "headword": "{駐車|ちゅうしゃ}する",
+      "label": "to park"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20992_teishisuru",
+      "reading": "ていしする",
+      "headword": "{停止|ていし}する",
+      "label": "to halt, to cease (broader usage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T01:00:25Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

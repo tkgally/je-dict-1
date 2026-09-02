@@ -17,7 +17,9 @@
       "id": "26120_shumijin_ex1",
       "japanese": "{彼|かれ}は{多趣味|たしゅみ}な{趣味人|しゅみじん}だ。",
       "english": "He is a hobbyist with many interests.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26120_shumijin_ex2",
       "japanese": "{趣味人|しゅみじん}が{集|あつ}まるイベントに{参加|さんか}した。",
       "english": "I participated in an event where hobbyists gathered.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26120_shumijin_ex3",
       "japanese": "{祖父|そふ}は{茶道|さどう}や{陶芸|とうげい}を{楽|たの}しむ{趣味人|しゅみじん}で、{退職後|たいしょくご}の{生活|せいかつ}を{満喫|まんきつ}している。",
       "english": "My grandfather is a man of refined tastes who enjoys tea ceremony and pottery, fully savoring his retirement.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {趣味|しゅみ} (hobby; taste) and {人|じん} (person). Carries a positive connotation — it suggests someone who enriches their life through cultural pursuits and hobbies, not merely someone who has a pastime. Often used to describe people who have developed refined aesthetic sensibilities.\n\nCOMMON COLLOCATIONS:\n- {趣味人|しゅみじん}の{集|つど}い: gathering of hobbyists\n- {真|しん}の{趣味人|しゅみじん}: a true connoisseur\n- {趣味人|しゅみじん}として{知|し}られる: known as a person of refined tastes\n\nSIMILAR WORDS:\n- {愛好家|あいこうか}: enthusiast; aficionado — emphasizes devotion to a specific interest\n- マニア: enthusiast; geek — loanword, sometimes implies obsessive dedication\n- {通|つう}: connoisseur; expert — implies deep knowledge in a particular field",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15008_aikouka",
+      "reading": "あいこうか",
+      "headword": "{愛好家|あいこうか}",
+      "label": "enthusiast"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11150_mania",
+      "reading": "まにあ",
+      "headword": "マニア",
+      "label": "enthusiast"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["person", "culture"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "person",
+        "culture"
+      ]
     },
     "created": "2026-04-29T13:42:32Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

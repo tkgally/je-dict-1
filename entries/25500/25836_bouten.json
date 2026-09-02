@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Composed of {傍|ぼう} (beside) + {点|てん} (dot). A typographical term essential for reading Japanese literature. In vertical writing, dots appear to the right of each character; in horizontal writing, they appear above. The most common dot shape is a filled circle (●), but sesame dots (﹅) and other shapes are also used.\n\nUnlike bold or italics in English, {傍点|ぼうてん} are placed on individual characters rather than changing the font style. They are especially common in novels, manga, and editorial writing to convey tone, irony, or emphasis that would be expressed through stress in spoken Japanese.\n\nCOMMON COLLOCATIONS:\n- {傍点|ぼうてん}を{打|う}つ: to place emphasis dots\n- {傍点|ぼうてん}を{付|つ}ける: to add emphasis dots\n- {傍点|ぼうてん}{付|つ}き: with emphasis dots\n\nSIMILAR WORDS:\n- ルビ: ruby text; furigana — small characters placed beside kanji to indicate reading, not emphasis\n- {圏点|けんてん}: emphasis marks — a synonym, slightly more formal\n- {強調|きょうちょう}: emphasis — the general concept, not specific to dots",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21516_rubi",
+      "reading": "るび",
+      "headword": "ルビ",
+      "label": "ruby text"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02600_kyouchou",
+      "reading": "きょうちょう",
+      "headword": "{強調|きょうちょう}",
+      "label": "emphasis"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "language",
         "communication"
       ]
     },
     "created": "2026-04-27T15:08:17Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

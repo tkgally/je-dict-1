@@ -3,7 +3,7 @@
   "headword": "{計画|けいかく}する",
   "reading": "けいかくする",
   "romaji": "keikakusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to plan; to scheme; to project",
   "definitions": [
     {
@@ -47,6 +47,36 @@
   "notes": "A する verb composed of {計|けい} (measure, calculate) + {画|かく} (plan, scheme). One of the most common する verbs for expressing planned actions and projects.\n\nCOMMON COLLOCATIONS:\n- {計画|けいかく}を{立|た}てる: to make a plan (using the noun form)\n- {計画|けいかく}{通|どお}り: as planned\n- {計画|けいかく}{的|てき}に: in a planned manner, systematically\n- {計画|けいかく}を{実行|じっこう}する: to carry out a plan\n- {計画|けいかく}が{頓挫|とんざ}する: for a plan to fall through\n\nSIMILAR WORDS:\n- {企画|きかく}する: to plan, to organize — emphasizes creative planning for events, products, or projects\n- {予定|よてい}する: to schedule, to plan — focuses on when something will happen rather than the detailed strategy\n- {策定|さくてい}する: to formulate (a plan/policy) — more formal; used for official policy-making\n- {立案|りつあん}する: to draft a plan — emphasizes the drafting stage of plan creation",
   "conjugation_type": "suru",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29396_kikakusuru",
+      "reading": "きかくする",
+      "headword": "{企画|きかく}する",
+      "label": "to plan, to organize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00824_yotei",
+      "reading": "よてい",
+      "headword": "{予定|よてい}",
+      "label": "to schedule, to plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15603_ritsuan",
+      "reading": "りつあん",
+      "headword": "{立案|りつあん}",
+      "label": "to draft a plan"
+    },
+    {
+      "type": "related",
+      "target_id": "15422_kuwadateru",
+      "reading": "くわだてる",
+      "headword": "{企|くわだ}てる",
+      "label": "to plan"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-31T09:52:40Z",
-    "modified": "2026-03-31T09:52:40Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

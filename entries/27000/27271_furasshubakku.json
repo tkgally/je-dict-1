@@ -3,7 +3,7 @@
   "headword": "フラッシュバック",
   "reading": "ふらっしゅばっく",
   "romaji": "furasshubakku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "flashback",
   "definitions": [
     {
@@ -79,8 +79,38 @@
       "notes": null
     }
   ],
-  "notes": "From English \"flashback.\" Used both as a noun and with する as a verb (フラッシュバックする). The psychological sense (sense 1) and the narrative technique sense (sense 2) are both widely understood.\n\nGRAMMAR:\n- As a noun: フラッシュバックが{起|お}きる (a flashback occurs)\n- As a verb: {記憶|きおく}がフラッシュバックする (memories flash back)\n- フラッシュバックを{起|お}こす: to trigger a flashback\n\nCOMMON COLLOCATIONS:\n- フラッシュバックに{苦|くる}しむ: to suffer from flashbacks\n- フラッシュバックが{起|お}きる: a flashback occurs\n- {過去|かこ}のフラッシュバック: flashback to the past\n- トラウマのフラッシュバック: traumatic flashback\n\nSIMILAR WORDS:\n- {回想|かいそう}: recollection; reminiscence — voluntary and deliberate, unlike flashbacks which are often involuntary\n- {追憶|ついおく}: retrospection; remembrance — literary, implies nostalgic or emotional looking back",
+  "notes": "From English \"flashback.\" Used both as a noun and with する as a verb (フラッシュバックする). The psychological sense (sense 1) and the narrative technique sense (sense 2) are both widely understood.\n\nCOMMON PATTERNS:\n- As a noun: フラッシュバックが{起|お}きる (a flashback occurs)\n- As a verb: {記憶|きおく}がフラッシュバックする (memories flash back)\n- フラッシュバックを{起|お}こす: to trigger a flashback\n\nCOMMON COLLOCATIONS:\n- フラッシュバックに{苦|くる}しむ: to suffer from flashbacks\n- フラッシュバックが{起|お}きる: a flashback occurs\n- {過去|かこ}のフラッシュバック: flashback to the past\n- トラウマのフラッシュバック: traumatic flashback\n\nSIMILAR WORDS:\n- {回想|かいそう}: recollection; reminiscence — voluntary and deliberate, unlike flashbacks which are often involuntary\n- {追憶|ついおく}: retrospection; remembrance — literary, implies nostalgic or emotional looking back",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11839_kaisou",
+      "reading": "かいそう",
+      "headword": "{回想|かいそう}",
+      "label": "recollection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15687_tsuioku",
+      "reading": "ついおく",
+      "headword": "{追憶|ついおく}",
+      "label": "retrospection"
+    },
+    {
+      "type": "related",
+      "target_id": "08766_piitiiesudii",
+      "reading": "ぴーてぃーえすでぃー",
+      "headword": "PTSD",
+      "label": "PTSD"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25637_soumatounoyou",
+      "reading": "そうまとうのよう",
+      "headword": "{走馬灯|そうまとう}のよう",
+      "label": "like a revolving lantern"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -89,7 +119,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "general"
       ],
@@ -97,7 +127,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-08T12:12:21Z",
-    "modified": "2026-05-08T12:12:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

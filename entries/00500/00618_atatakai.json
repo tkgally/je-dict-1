@@ -2,7 +2,7 @@
   "id": "00618_atatakai",
   "headword": "{暖|あたた}かい",
   "reading": "あたたかい",
-  "part_of_speech": "adjective (i-adjective)",
+  "part_of_speech": "i-adjective",
   "gloss": "warm",
   "definitions": [
     {
@@ -133,11 +133,39 @@
       "headword": "{寒|さむ}い",
       "target_id": "00664_samui",
       "label": "cold (weather)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00619_atsui",
+      "reading": "あつい",
+      "headword": "{暑|あつ}い",
+      "label": "hot (unpleasantly so"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09888_atsui",
+      "reading": "あつい",
+      "headword": "{熱|あつ}い",
+      "label": "hot (to the touch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05786_nukunuku",
+      "reading": "ぬくぬく",
+      "headword": "ぬくぬく",
+      "label": "snugly warm, comfortably"
+    },
+    {
+      "type": "related",
+      "target_id": "21688_atatakasa",
+      "reading": "あたたかさ",
+      "headword": "{暖|あたた}かさ",
+      "label": "warmth"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:13:10Z",
-    "modified": "2026-08-04T09:27:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

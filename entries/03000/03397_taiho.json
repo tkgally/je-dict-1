@@ -2,7 +2,7 @@
   "id": "03397_taiho",
   "headword": "{逮捕|たいほ}",
   "reading": "たいほ",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "arrest, apprehension",
   "conjugation": {
     "type": "suru",
@@ -141,11 +141,53 @@
       "headword": "{釈放|しゃくほう}",
       "label": "release",
       "target_id": "14806_shakuhou"
+    },
+    {
+      "type": "related",
+      "target_id": "02803_kousoku",
+      "reading": "こうそく",
+      "headword": "{拘束|こうそく}",
+      "label": "detention"
+    },
+    {
+      "type": "related",
+      "target_id": "10577_kiso",
+      "reading": "きそ",
+      "headword": "{起訴|きそ}",
+      "label": "indictment"
+    },
+    {
+      "type": "related",
+      "target_id": "15039_yougisha",
+      "reading": "ようぎしゃ",
+      "headword": "{容疑者|ようぎしゃ}",
+      "label": "suspect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12881_hokaku",
+      "reading": "ほかく",
+      "headword": "{捕獲|ほかく}",
+      "label": "capture, seizure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18897_shimeitehai",
+      "reading": "しめいてはい",
+      "headword": "{指名|しめい}{手配|てはい}",
+      "label": "wanted (by police)"
+    },
+    {
+      "type": "related",
+      "target_id": "18957_tejou",
+      "reading": "てじょう",
+      "headword": "{手錠|てじょう}",
+      "label": "handcuffs"
     }
   ],
   "metadata": {
     "created": "2026-01-12T14:17:00Z",
-    "modified": "2026-06-12T18:22:23Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -2,7 +2,7 @@
   "id": "02811_konran",
   "headword": "{混乱|こんらん}",
   "reading": "こんらん",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "confusion, chaos, disorder",
   "conjugation": {
     "type": "suru",
@@ -151,11 +151,67 @@
       "reading": "こんざつ",
       "headword": "{混雑|こんざつ}",
       "label": "congestion, crowding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14656_soudou",
+      "reading": "そうどう",
+      "headword": "{騒動|そうどう}",
+      "label": "commotion, disturbance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11171_panikku",
+      "reading": "ぱにっく",
+      "headword": "パニック",
+      "label": "panic"
+    },
+    {
+      "type": "related",
+      "target_id": "09170_konwaku",
+      "reading": "こんわく",
+      "headword": "{困惑|こんわく}",
+      "label": "bewilderment, perplexity, confusion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13371_gekidou",
+      "reading": "げきどう",
+      "headword": "{激動|げきどう}",
+      "label": "upheaval, turbulence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16723_touwaku",
+      "reading": "とうわく",
+      "headword": "{当惑|とうわく}",
+      "label": "bewilderment, confusion, perplexity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19580_sakusou",
+      "reading": "さくそう",
+      "headword": "{錯綜|さくそう}",
+      "label": "complication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21429_muchitsujo",
+      "reading": "むちつじょ",
+      "headword": "{無秩序|むちつじょ}",
+      "label": "disorder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25777_sakuran",
+      "reading": "さくらん",
+      "headword": "{錯乱|さくらん}",
+      "label": "confusion"
     }
   ],
   "metadata": {
     "created": "2026-01-11T08:52:30Z",
-    "modified": "2026-05-22T15:14:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

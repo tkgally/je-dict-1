@@ -3,7 +3,7 @@
   "headword": "{通過|つうか}する",
   "reading": "つうかする",
   "romaji": "tsuukasuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to pass through; to transit; to go through",
   "definitions": [
     {
@@ -81,6 +81,36 @@
   ],
   "notes": "A versatile verb with both physical (passing through a place) and abstract (passing a screening) meanings. Very common in news, train announcements, and business contexts.\n\nCOMMON COLLOCATIONS:\n- {通過|つうか}{駅|えき}: a station the train passes through\n- {通過|つうか}{点|てん}: a passing point; a milestone\n- {通過|つうか}{儀礼|ぎれい}: rite of passage\n- {審査|しんさ}を{通過|つうか}する: to pass a screening\n- {国会|こっかい}を{通過|つうか}する: to pass through parliament\n\nSIMILAR WORDS:\n- {通|とお}る: to pass / to go through — more general and casual; used in everyday speech\n- {通|つう}じる: to lead to / to be understood — focuses on connection or communication\n- {経由|けいゆ}する: to go via / to transit through — emphasizes the route taken\n\nUSAGE:\nOn Japanese trains, station announcements frequently say この{電車|でんしゃ}は〇〇{駅|えき}を{通過|つうか}します to warn passengers that the express train won't stop at certain stations.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01243_tooru",
+      "reading": "とおる",
+      "headword": "{通|とお}る",
+      "label": "to pass / to go through"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02289_tsuujiru",
+      "reading": "つうじる",
+      "headword": "{通|つう}じる",
+      "label": "to lead to / to be understood"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02791_keiyu",
+      "reading": "けいゆ",
+      "headword": "{経由|けいゆ}",
+      "label": "to go via / to transit through"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21035_toukasuru",
+      "reading": "とうかする",
+      "headword": "{透過|とうか}する",
+      "label": "to pass through"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -96,7 +126,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-06T10:39:56Z",
-    "modified": "2026-04-06T10:39:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

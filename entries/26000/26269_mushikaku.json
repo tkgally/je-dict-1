@@ -3,7 +3,7 @@
   "headword": "{無資格|むしかく}",
   "reading": "むしかく",
   "romaji": "mushikaku",
-  "part_of_speech": "noun, adjective-no",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "unqualified; unlicensed; without credentials",
   "definitions": [
     {
@@ -44,11 +44,20 @@
     }
   ],
   "notes": "A compound of {無|む} (without) + {資格|しかく} (qualification/license). Used to describe lacking the formal credentials, certifications, or legal authorization required for an activity or profession.\n\nCOMMON COLLOCATIONS:\n- {無資格|むしかく}{者|しゃ}: unqualified person\n- {無資格|むしかく}で{働|はたら}く: to work without qualifications\n- {無資格|むしかく}{診療|しんりょう}: unlicensed medical practice\n- {無資格|むしかく}{運転|うんてん}: driving without a license\n\nSIMILAR WORDS:\n- {無免許|むめんきょ}: unlicensed (specifically lacking a formal license/permit, especially for driving)\n- {資格|しかく}なし: without qualifications (informal phrasing)\n- {不適格|ふてきかく}: disqualified, unfit (implies being judged unsuitable, not merely lacking credentials)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24253_futekikaku",
+      "reading": "ふてきかく",
+      "headword": "{不適格|ふてきかく}",
+      "label": "disqualified, unfit"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
+      "politeness": "plain",
       "semantic": [
         "work"
       ],
@@ -58,6 +67,6 @@
       ]
     },
     "created": "2026-04-30T14:23:26Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

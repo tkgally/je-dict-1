@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {播種|はしゅ} (sowing, seeding) and {期|き} (period, season). {播種|はしゅ} itself combines {播|は} (to sow, to scatter) and {種|しゅ} (seed). An agricultural term that appears in farming guides, weather reports during planting season, and discussions of traditional farming calendars.\n\nCOMMON COLLOCATIONS:\n- {播種期|はしゅき}に{入|はい}る: to enter the sowing season\n- {播種期|はしゅき}を{迎|むか}える: to welcome the sowing season\n- {適正|てきせい}{播種期|はしゅき}: optimal sowing period\n- {播種期|はしゅき}が{遅|おく}れる: the sowing season is delayed\n\nSIMILAR WORDS:\n- {種まき|たねまき}: seed sowing — the native Japanese word for the same activity, more common in everyday speech\n- {田植え|たうえ}: rice planting — specifically transplanting rice seedlings into paddies\n- {収穫期|しゅうかくき}: harvest season — the counterpart period at the end of the growing cycle",
-  "cross_references": [],
+  "notes": "Composed of {播種|はしゅ} (sowing, seeding) and {期|き} (period, season). {播種|はしゅ} itself combines {播|は} (to sow, to scatter) and {種|しゅ} (seed). An agricultural term that appears in farming guides, weather reports during planting season, and discussions of traditional farming calendars.\n\nCOMMON COLLOCATIONS:\n- {播種期|はしゅき}に{入|はい}る: to enter the sowing season\n- {播種期|はしゅき}を{迎|むか}える: to welcome the sowing season\n- {適正|てきせい}{播種期|はしゅき}: optimal sowing period\n- {播種期|はしゅき}が{遅|おく}れる: the sowing season is delayed\n\nSIMILAR WORDS:\n- {種|たね}まき: seed sowing — the native Japanese word for the same activity, more common in everyday speech\n- {田植|たう}え: rice planting — specifically transplanting rice seedlings into paddies\n- {収穫期|しゅうかくき}: harvest season — the counterpart period at the end of the growing cycle",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08104_tanemaki",
+      "reading": "たねまき",
+      "headword": "{種|たね}まき",
+      "label": "seed sowing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22734_taue",
+      "reading": "たうえ",
+      "headword": "{田植|たう}え",
+      "label": "rice planting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21343_shuukakuki",
+      "reading": "しゅうかくき",
+      "headword": "{収穫期|しゅうかくき}",
+      "label": "harvest season"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +75,13 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "nature"
       ]
     },
     "created": "2026-05-02T11:29:38Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "00748_ryokou",
   "headword": "{旅行|りょこう}",
   "reading": "りょこう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "trip, travel",
   "conjugation": {
     "type": "suru",
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "{旅行|りょこう} means trip or travel and can function as both a noun and a する verb.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- No standard transitive pair\n- Pattern: {旅行|りょこう}する\n\nCOMMON PATTERNS:\n- {旅行|りょこう}に{行|い}く: to go on a trip\n- {旅行|りょこう}する: to travel\n- {旅行|りょこう}の⟦{計画|けいかく}→けいかく：01172_keikaku⟧を⟦{立|た}てる→たてる：01196_tateru⟧: to make travel plans\n\nCOMMON COMPOUNDS:\n- ⟦{海外|かいがい}→かいがい：00134_kaigai⟧{旅行|りょこう}: overseas travel\n- ⟦{国内|こくない}→こくない：02998_kokunai⟧{旅行|りょこう}: domestic travel\n- {旅行|りょこう}⟦{会社|かいしゃ}→会社：00607_kaisha⟧: travel agency\n- ⟦{旅行|りょこう}{者|しゃ}→旅行者：22927_ryokousha⟧: traveler\n- {旅行|りょこう}⟦{先|さき}→先：02883_saki⟧: travel destination\n- ⟦{新婚|しんこん}→新婚：12879_shinkon⟧{旅行|りょこう}: honeymoon\n\nRELATED WORDS:\n- ⟦{旅|たび}→たび：03407_tabi⟧: journey (more literary)\n- ⟦{観光|かんこう}→かんこう：00173_kankou⟧: sightseeing",
+  "notes": "{旅行|りょこう} means trip or travel and can function as both a noun and a する verb.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- No standard transitive pair\n- Pattern: {旅行|りょこう}する\n\nCOMMON PATTERNS:\n- {旅行|りょこう}に{行|い}く: to go on a trip\n- {旅行|りょこう}する: to travel\n- {旅行|りょこう}の⟦{計画|けいかく}→けいかく：01172_keikaku⟧を⟦{立|た}てる→たてる：01196_tateru⟧: to make travel plans\n\nCOMPOUNDS:\n- ⟦{海外|かいがい}→かいがい：00134_kaigai⟧{旅行|りょこう}: overseas travel\n- ⟦{国内|こくない}→こくない：02998_kokunai⟧{旅行|りょこう}: domestic travel\n- {旅行|りょこう}⟦{会社|かいしゃ}→会社：00607_kaisha⟧: travel agency\n- ⟦{旅行|りょこう}{者|しゃ}→旅行者：22927_ryokousha⟧: traveler\n- {旅行|りょこう}⟦{先|さき}→先：02883_saki⟧: travel destination\n- ⟦{新婚|しんこん}→新婚：12879_shinkon⟧{旅行|りょこう}: honeymoon\n\nRELATED WORDS:\n- ⟦{旅|たび}→たび：03407_tabi⟧: journey (more literary)\n- ⟦{観光|かんこう}→かんこう：00173_kankou⟧: sightseeing",
   "cross_references": [
     {
       "type": "contrast",
@@ -161,11 +161,46 @@
       "reading": "しゅっちょう",
       "headword": "{出張|しゅっちょう}",
       "label": "business trip"
+    },
+    {
+      "type": "related",
+      "target_id": "00173_kankou",
+      "reading": "かんこう",
+      "headword": "{観光|かんこう}",
+      "label": "sightseeing"
+    },
+    {
+      "type": "related",
+      "target_id": "08285_tsuaa",
+      "reading": "つあー",
+      "headword": "ツアー",
+      "label": "tour"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12987_tabiji",
+      "reading": "たびじ",
+      "headword": "{旅路|たびじ}",
+      "label": "journey, one's travels, road of travel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21995_tokousuru",
+      "reading": "とこうする",
+      "headword": "{渡航|とこう}する",
+      "label": "to travel overseas"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26986_shucchousuru",
+      "reading": "しゅっちょうする",
+      "headword": "{出張|しゅっちょう}する",
+      "label": "to go on a business trip"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:19:52Z",
-    "modified": "2026-05-12T18:11:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

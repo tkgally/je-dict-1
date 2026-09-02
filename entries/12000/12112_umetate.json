@@ -19,7 +19,9 @@
       "english": "This island was created through land reclamation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12112_umetate_ex2",
@@ -27,7 +29,9 @@
       "english": "Apartment buildings line the reclaimed land.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12112_umetate_ex3",
@@ -35,21 +39,43 @@
       "english": "Vast areas of land were created through the landfill construction in Tokyo Bay.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nMuch of Tokyo's waterfront, including Odaiba and parts of the port area, was created through {埋|う}め{立|た}て. The word can refer to both the process and the resulting land. {埋|う}め{立|た}て{地|ち} (reclaimed land) and {埋|う}め{立|た}て{処分場|しょぶんじょう} (landfill disposal site) are common compound forms.\n\nCOMMON COLLOCATIONS:\n- {埋|う}め{立|た}て{地|ち}: reclaimed land\n- {埋|う}め{立|た}て{処分場|しょぶんじょう}: landfill disposal site\n- {埋|う}め{立|た}て{工事|こうじ}: landfill construction\n- {海|うみ}を{埋|う}め{立|た}てる: reclaim land from the sea\n- {埋|う}め{立|た}てゴミ: landfill waste",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08099_umetatechi",
+      "reading": "うめたてち",
+      "headword": "{埋立地|うめたてち}",
+      "label": "reclaimed land"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28986_kantaku",
+      "reading": "かんたく",
+      "headword": "{干拓|かんたく}",
+      "label": "land reclamation (by draining)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T05:29:21Z",
-    "modified": "2026-02-20T05:29:21Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography", "general"]
+      "semantic": [
+        "geography",
+        "general"
+      ]
     }
   }
 }

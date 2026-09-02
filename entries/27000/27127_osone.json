@@ -3,7 +3,7 @@
   "headword": "{遅寝|おそね}",
   "reading": "おそね",
   "romaji": "osone",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "going to bed late; staying up late",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Combines {遅|おそ}い (late) and {寝|ね} (sleep). Describes going to bed at a late hour, as opposed to {早寝|はやね} (going to bed early). Often used in discussions about sleep habits, health, and children's routines.\n\nCOMMON COLLOCATIONS:\n- {遅寝|おそね}{遅起|おそお}き: going to bed late and getting up late\n- {遅寝|おそね}{早起|はやお}き: going to bed late and getting up early\n- {遅寝|おそね}の{習慣|しゅうかん}: habit of staying up late\n\nSIMILAR WORDS:\n- {夜更|よふ}かし: staying up late — more common in everyday conversation, often implies doing something fun\n- {早寝|はやね}: going to bed early — the antonym\n- {寝不足|ねぶそく}: sleep deprivation — the result of not getting enough sleep",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07693_yofukashi",
+      "reading": "よふかし",
+      "headword": "{夜更|よふ}かし",
+      "label": "staying up late"
+    },
+    {
+      "type": "antonym",
+      "target_id": "12994_hayane",
+      "reading": "はやね",
+      "headword": "{早寝|はやね}",
+      "label": "going to bed early"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07692_nebusoku",
+      "reading": "ねぶそく",
+      "headword": "{寝不足|ねぶそく}",
+      "label": "sleep deprivation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-07T12:16:27Z",
-    "modified": "2026-05-07T12:16:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

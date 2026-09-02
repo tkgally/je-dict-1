@@ -24,7 +24,9 @@
       "english": "Perform at a concert hall.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11169_hooru_ex2",
@@ -32,7 +34,9 @@
       "english": "This hall has wonderful acoustics.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11169_hooru_ex3",
@@ -40,7 +44,9 @@
       "english": "A lecture will be held at the civic hall.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11169_hooru_ex4",
@@ -48,7 +54,9 @@
       "english": "We're hiring front-of-house staff.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11169_hooru_ex5",
@@ -56,7 +64,9 @@
       "english": "I checked in at the hotel lobby.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11169_hooru_ex6",
@@ -64,21 +74,70 @@
       "english": "In a restaurant, work is divided between the front-of-house and the kitchen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nIn restaurant job listings, ホール refers to the dining area and ホールスタッフ means front-of-house staff (waiters, hosts). This is a very common distinction in Japanese job ads: ホール vs. キッチン.\n\nCOMMON COLLOCATIONS:\n- コンサートホール: concert hall\n- {市民|しみん}ホール: civic hall, community center\n- ホールスタッフ: front-of-house staff (restaurant)\n- {多目的|たもくてき}ホール: multipurpose hall\n- {大|おお}ホール／{小|しょう}ホール: large hall / small hall",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01586_koudou",
+      "reading": "こうどう",
+      "headword": "{講堂|こうどう}",
+      "label": "auditorium, lecture hall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02714_gekijou",
+      "reading": "げきじょう",
+      "headword": "{劇場|げきじょう}",
+      "label": "theater, playhouse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04119_kaikan",
+      "reading": "かいかん",
+      "headword": "{会館|かいかん}",
+      "label": "meeting hall, assembly hall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27738_koukaidou",
+      "reading": "こうかいどう",
+      "headword": "{公会堂|こうかいどう}",
+      "label": "public hall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28878_shikijou",
+      "reading": "しきじょう",
+      "headword": "{式場|しきじょう}",
+      "label": "ceremony hall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30140_shuukaijou",
+      "reading": "しゅうかいじょう",
+      "headword": "{集会場|しゅうかいじょう}",
+      "label": "assembly hall"
+    }
+  ],
   "metadata": {
     "created": "2026-02-14T05:15:09Z",
-    "modified": "2026-02-14T05:15:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

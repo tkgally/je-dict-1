@@ -43,11 +43,40 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No transitive pair. Pattern: X⟦に→に：00314_ni⟧{謝|あやま}る (apologize to X).\n\nASPECT: ている indicates resulting state or repeated action. {謝|あやま}っている = 'has apologized' (resulting state) or 'keeps apologizing.'\n\nCOMMON PATTERNS:\n・⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧{謝|あやま}る (apologize to someone)\n・⟦{心|こころ}→心：01321_kokoro⟧⟦から→から：00504_kara⟧{謝|あやま}る (apologize sincerely)\n・⟦{素直|すなお}→素直：00391_sunao⟧⟦に→に：00314_ni⟧{謝|あやま}る (apologize honestly/obediently)\n・⟦{間違|まちが}い→間違い：03733_machigai⟧⟦を→を：00422_wo⟧{謝|あやま}る (apologize for a mistake)\n\nHOMOPHONE: Don't confuse with ⟦{誤|あやま}る→誤る：27433_ayamaru⟧ (to make an error), which uses different kanji. {謝|あやま}る = apologize, ⟦{誤|あやま}る→誤る：27433_ayamaru⟧ = err.\n\nREGISTER: Neutral. In very formal situations, ⟦お{詫|わ}びする→お詫びする：28881_owabisuru⟧ is more appropriate.",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No transitive pair. Pattern: X⟦に→に：00314_ni⟧{謝|あやま}る (apologize to X).\n\nASPECT: ている indicates resulting state or repeated action. {謝|あやま}っている = 'has apologized' (resulting state) or 'keeps apologizing.'\n\nCOMMON PATTERNS:\n- ⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧{謝|あやま}る (apologize to someone)\n- ⟦{心|こころ}→心：01321_kokoro⟧⟦から→から：00504_kara⟧{謝|あやま}る (apologize sincerely)\n- ⟦{素直|すなお}→素直：00391_sunao⟧⟦に→に：00314_ni⟧{謝|あやま}る (apologize honestly/obediently)\n- ⟦{間違|まちが}い→間違い：03733_machigai⟧⟦を→を：00422_wo⟧{謝|あやま}る (apologize for a mistake)\n\nHOMOPHONE: Don't confuse with ⟦{誤|あやま}る→誤る：27433_ayamaru⟧ (to make an error), which uses different kanji. {謝|あやま}る = apologize, ⟦{誤|あやま}る→誤る：27433_ayamaru⟧ = err.\n\nREGISTER: Neutral. In very formal situations, ⟦お{詫|わ}びする→お詫びする：28881_owabisuru⟧ is more appropriate.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06307_nakanaorisuru",
+      "reading": "なかなおりする",
+      "headword": "{仲直|なかなお}りする",
+      "label": "to make up"
+    },
+    {
+      "type": "related",
+      "target_id": "08266_owabi",
+      "reading": "おわび",
+      "headword": "お{詫|わ}び",
+      "label": "apology"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19520_shazaisuru",
+      "reading": "しゃざいする",
+      "headword": "{謝罪|しゃざい}する",
+      "label": "to apologize"
+    },
+    {
+      "type": "homophone",
+      "target_id": "27433_ayamaru",
+      "reading": "あやまる",
+      "headword": "{誤|あやま}る",
+      "label": "to err"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T10:50:39Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

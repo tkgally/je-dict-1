@@ -17,7 +17,9 @@
       "id": "18793_houshoukin_ex1",
       "japanese": "{報奨金|ほうしょうきん}が{支払|しはら}われた。",
       "english": "A reward was paid.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18793_houshoukin_ex2",
       "japanese": "{有力|ゆうりょく}な{情報|じょうほう}を{提供|ていきょう}した{人|ひと}には{報奨金|ほうしょうきん}が{出|で}る。",
       "english": "A reward is offered to anyone who provides useful information.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "18793_houshoukin_ex3",
       "japanese": "{会社|かいしゃ}は{優秀|ゆうしゅう}な{成績|せいせき}を{収|おさ}めた{社員|しゃいん}に{報奨金|ほうしょうきん}を{与|あた}える{制度|せいど}を{導入|どうにゅう}した。",
       "english": "The company introduced a system of giving bonuses to employees who achieve outstanding results.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Common collocations: {報奨金|ほうしょうきん}を{受|う}け{取|と}る (to receive a reward), {報奨金|ほうしょうきん}{制度|せいど} (incentive/reward system), {報奨金|ほうしょうきん}を{出|だ}す (to offer a reward). Used in various contexts: criminal investigations (reward for information), corporate incentives (performance bonuses), and government programs (incentive payments). Related: ボーナス (bonus — mainly for regular employment bonuses), {賞金|しょうきん} (prize money — for competitions), {懸賞金|けんしょうきん} (bounty — for wanted persons).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22049_iroukin",
+      "reading": "いろうきん",
+      "headword": "{慰労金|いろうきん}",
+      "label": "consolation money"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22330_kenshoukin",
+      "reading": "けんしょうきん",
+      "headword": "{懸賞金|けんしょうきん}",
+      "label": "prize money"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-03-23T03:42:33Z",
-    "modified": "2026-03-23T03:42:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

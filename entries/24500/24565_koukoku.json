@@ -4,7 +4,7 @@
   "headword": "{公告|こうこく}",
   "reading": "こうこく",
   "romaji": "koukoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "public notice; official announcement; proclamation",
   "definitions": [
     {
@@ -46,10 +46,32 @@
     }
   ],
   "notes": "Composed of {公|こう} (public/official) and {告|こく} (announce/tell). A formal legal and administrative term for official announcements made to the general public. Distinguished from {広告|こうこく} (advertisement), which is a homophone but uses a different first kanji ({広|こう} meaning \"wide/spread\").\n\nCOMMON COLLOCATIONS:\n- {公告|こうこく}を{出|だ}す: to issue a public notice\n- {公告|こうこく}を{掲載|けいさい}する: to publish a public notice\n- {官報|かんぽう}{公告|こうこく}: notice in the official gazette\n- {決算|けっさん}{公告|こうこく}: financial statement disclosure\n\nSIMILAR WORDS:\n- {広告|こうこく}: advertisement — commercial promotion, not official notices\n- {告知|こくち}: notification — informing someone of something specific\n- {公示|こうじ}: official announcement — similar but often used for elections and official displays\n- {布告|ふこく}: proclamation — a more authoritative decree, often historical",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "02747_koukoku",
+      "reading": "こうこく",
+      "headword": "{広告|こうこく}",
+      "label": "advertisement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17348_kokuchi",
+      "reading": "こくち",
+      "headword": "{告知|こくち}",
+      "label": "notification"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22238_tsuutatsu",
+      "reading": "つうたつ",
+      "headword": "{通達|つうたつ}",
+      "label": "official notice"
+    }
+  ],
   "metadata": {
     "created": "2026-04-19T15:14:33Z",
-    "modified": "2026-08-03T09:22:27Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

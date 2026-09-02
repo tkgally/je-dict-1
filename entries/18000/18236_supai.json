@@ -19,7 +19,9 @@
       "english": "He was a spy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18236_supai_ex2",
@@ -27,7 +29,9 @@
       "english": "I like spy movies and watch them often.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18236_supai_ex3",
@@ -35,21 +39,70 @@
       "english": "There might be a spy who has infiltrated the organization.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nFrom English \"spy.\" Used both for real espionage contexts and in entertainment (spy movies, spy novels). In casual usage, can refer to someone leaking information within a group (a mole or informant).\n\nCOMMON COLLOCATIONS:\n- スパイ{映画|えいが} (spy movie)\n- スパイ{小説|しょうせつ} (spy novel)\n- スパイ{活動|かつどう} (espionage activities)\n- {産業|さんぎょう}スパイ (industrial spy; corporate espionage)\n\nSIMILAR WORDS:\n- {諜報員|ちょうほういん}: intelligence agent — more formal, used in official or military contexts\n- {工作員|こうさくいん}: operative; agent — emphasis on covert operations, often used in news",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30160_chouhouin",
+      "reading": "ちょうほういん",
+      "headword": "{諜報員|ちょうほういん}",
+      "label": "intelligence agent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30169_kousakuin",
+      "reading": "こうさくいん",
+      "headword": "工作員",
+      "label": "operative"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21188_mikkokusha",
+      "reading": "みっこくしゃ",
+      "headword": "{密告者|みっこくしゃ}",
+      "label": "informer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21193_kanchou",
+      "reading": "かんちょう",
+      "headword": "{間諜|かんちょう}",
+      "label": "spy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21590_mittei",
+      "reading": "みってい",
+      "headword": "{密偵|みってい}",
+      "label": "spy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30337_naitsuusha",
+      "reading": "ないつうしゃ",
+      "headword": "{内通者|ないつうしゃ}",
+      "label": "informant"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T13:44:03Z",
-    "modified": "2026-03-20T13:44:03Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

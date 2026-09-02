@@ -3,7 +3,7 @@
   "headword": "{転出|てんしゅつ}",
   "reading": "てんしゅつ",
   "romaji": "tenshutsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "moving out; transfer (to another location)",
   "definitions": [
     {
@@ -86,6 +86,20 @@
       "reading": "てんきん",
       "description": "{転勤|てんきん} — job transfer",
       "target_id": "04555_tenkin"
+    },
+    {
+      "type": "antonym",
+      "target_id": "22235_tennyuu",
+      "reading": "てんにゅう",
+      "headword": "{転入|てんにゅう}",
+      "label": "moving in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15236_tenkyo",
+      "reading": "てんきょ",
+      "headword": "{転居|てんきょ}",
+      "label": "change of residence"
     }
   ],
   "schema_version": "2.0",
@@ -96,6 +110,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "work"
@@ -103,7 +119,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-26T16:26:32Z",
-    "modified": "2026-06-19T03:23:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -3,7 +3,7 @@
   "headword": "{哺乳|ほにゅう}",
   "reading": "ほにゅう",
   "romaji": "honyuu",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "nursing; suckling; breastfeeding",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Refers to the act of feeding milk to young, either through breastfeeding or bottle-feeding. Most commonly encountered in the compound {哺乳|ほにゅう}{類|るい} (mammals), which defines the entire class of animals that nurse their young.\n\nCOMMON COLLOCATIONS:\n- {哺乳|ほにゅう}{類|るい}: mammals\n- {哺乳|ほにゅう}{瓶|びん}: baby bottle, nursing bottle\n- {哺乳|ほにゅう}{動物|どうぶつ}: mammalian animal\n- {哺乳|ほにゅう}{期|き}: nursing period\n\nSIMILAR WORDS:\n- {授乳|じゅにゅう}: breastfeeding — specifically the act of a mother nursing; more commonly used in parenting contexts than {哺乳|ほにゅう}\n- {搾乳|さくにゅう}: milking — extracting milk from an animal or expressing breast milk with a pump\n- {母乳|ぼにゅう}: breast milk — the substance itself, not the act of feeding",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14937_junyuu",
+      "reading": "じゅにゅう",
+      "headword": "{授乳|じゅにゅう}",
+      "label": "breastfeeding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24182_sakunyuu",
+      "reading": "さくにゅう",
+      "headword": "{搾乳|さくにゅう}",
+      "label": "milking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13237_bonyuu",
+      "reading": "ぼにゅう",
+      "headword": "{母乳|ぼにゅう}",
+      "label": "breast milk"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +76,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "science",
         "family"
@@ -61,7 +86,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-17T21:37:32Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

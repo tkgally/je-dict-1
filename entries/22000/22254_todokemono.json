@@ -17,7 +17,9 @@
       "id": "22254_todokemono_ex1",
       "japanese": "{届|とど}け{物|もの}が{届|とど}いた。",
       "english": "A delivery arrived.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22254_todokemono_ex2",
       "japanese": "{隣|となり}の{家|いえ}に{届|とど}け{物|もの}をした。",
       "english": "I made a delivery to the neighboring house.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "22254_todokemono_ex3",
       "japanese": "{母|はは}から{届|とど}け{物|もの}が{届|とど}いたので、{中身|なかみ}を{確認|かくにん}した。",
       "english": "A package arrived from my mother, so I checked what was inside.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Refers to something delivered to a person, often with a nuance of personal care or thoughtfulness. While {荷物|にもつ} is a neutral word for a package or parcel, {届|とど}け{物|もの} suggests something specifically intended for the recipient.\n\nCOMMON COLLOCATIONS:\n- {届|とど}け{物|もの}をする: to make a delivery\n- {届|とど}け{物|もの}が{届|とど}く: a delivery arrives\n- {届|とど}け{物|もの}を{預|あず}かる: to hold a delivery (for someone)\n\nSIMILAR WORDS:\n- {荷物|にもつ}: package, parcel — neutral term for any shipped item\n- {贈|おく}り{物|もの}: gift — emphasizes the gift-giving aspect\n- {届|とど}け{物|もの} falls between the two, covering both deliveries and personal gifts sent to someone\n\nFORMATION:\n{届|とど}ける (to deliver) + {物|もの} (thing)",
+  "notes": "Refers to something delivered to a person, often with a nuance of personal care or thoughtfulness. While {荷物|にもつ} is a neutral word for a package or parcel, {届|とど}け{物|もの} suggests something specifically intended for the recipient.\n\nCOMMON COLLOCATIONS:\n- {届|とど}け{物|もの}をする: to make a delivery\n- {届|とど}け{物|もの}が{届|とど}く: a delivery arrives\n- {届|とど}け{物|もの}を{預|あず}かる: to hold a delivery (for someone)\n\nSIMILAR WORDS:\n- {荷物|にもつ}: package, parcel — neutral term for any shipped item\n- {贈|おく}り{物|もの}: gift — emphasizes the gift-giving aspect\n- {届|とど}け{物|もの} falls between the two, covering both deliveries and personal gifts sent to someone\n\nFORMS:\n{届|とど}ける (to deliver) + {物|もの} (thing)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00737_nimotsu",
+      "reading": "にもつ",
+      "headword": "{荷物|にもつ}",
+      "label": "package, parcel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01343_okurimono",
+      "reading": "おくりもの",
+      "headword": "{贈|おく}り{物|もの}",
+      "label": "gift"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life"]
+      "semantic": [
+        "daily-life"
+      ]
     },
     "created": "2026-04-05T16:22:52Z",
-    "modified": "2026-04-05T16:22:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

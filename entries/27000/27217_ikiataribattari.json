@@ -3,7 +3,7 @@
   "headword": "{行|い}き{当|あ}たりばったり",
   "reading": "いきあたりばったり",
   "romaji": "ikiataribattari",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective, no-adjective",
   "gloss": "haphazard; unplanned; playing it by ear",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "27217_ikiataribattari_ex1",
       "japanese": "{行|い}き{当|あ}たりばったりの{旅|たび}が{好|す}きだ。",
       "english": "I like unplanned trips.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27217_ikiataribattari_ex2",
       "japanese": "{計画|けいかく}を{立|た}てず、{行|い}き{当|あ}たりばったりで{行動|こうどう}した。",
       "english": "I acted without making a plan, just playing it by ear.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,40 @@
       "id": "27217_ikiataribattari_ex3",
       "japanese": "{行|い}き{当|あ}たりばったりの{経営|けいえい}では、いずれ{失敗|しっぱい}する。",
       "english": "Haphazard management will eventually lead to failure.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Can carry either a positive or negative nuance depending on context. When describing travel or leisure, it suggests a carefree, adventurous spirit. In work or business contexts, it implies irresponsible lack of planning. Functions as a noun modified by の, or as an adverbial modifier with で.\n\nETYMOLOGY:\nFrom {行|い}き{当|あ}たる (to come across by chance) + ばったり (suddenly encountering). The doubling creates an emphatic sense of doing whatever one happens upon.\n\nCOMMON COLLOCATIONS:\n- {行|い}き{当|あ}たりばったりの{旅|たび}: an unplanned trip\n- {行|い}き{当|あ}たりばったりの{生活|せいかつ}: an aimless lifestyle\n- {行|い}き{当|あ}たりばったりで{決|き}める: to decide on the fly\n- {行|い}き{当|あ}たりばったりに{行動|こうどう}する: to act haphazardly\n\nSIMILAR WORDS:\n- {出|で}たとこ{勝負|しょうぶ}: playing it by ear; taking one's chances — similar meaning but focuses more on the element of risk\n- {無計画|むけいかく}: unplanned; without a plan — a more neutral, descriptive term\n- {場当|ばあ}たり: ad hoc; improvised — often negative, implying stopgap measures without thinking ahead",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27016_mukeikaku",
+      "reading": "むけいかく",
+      "headword": "{無計画|むけいかく}",
+      "label": "unplanned"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-na",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-07T16:17:23Z",
-    "modified": "2026-05-07T16:17:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "09451_omoikaesu",
   "headword": "{思|おも}い{返|かえ}す",
   "reading": "おもいかえす",
-  "part_of_speech": "godan verb (transitive)",
+  "part_of_speech": "verb (godan, transitive)",
   "gloss": "to reconsider; to recall, to look back on",
   "conjugation": {
     "type": "godan",
@@ -169,9 +169,18 @@
     }
   ],
   "notes": "{思|おも}い{返|かえ}す combines {思|おも}う (to think) with {返|かえ}す (to return), conveying the sense of returning to past thoughts or reconsidering.\n\nUsage patterns:\n- 〜を{思|おも}い{返|かえ}す (to recall/reconsider something)\n- {今|いま}{思|おも}い{返|かえ}しても (even now when I think back)\n- よく{思|おも}い{返|かえ}してみる (to think it over carefully)\n\nTransitivity: {他動詞|たどうし} (transitive)\nConjugation: {五段|ごだん} (godan/u-verb)\n\nRelated words:\n- {思|おも}い{出|だ}す: to remember, recall (more spontaneous)\n- {振|ふ}り{返|かえ}る: to look back on, reflect\n- {考|かんが}え{直|なお}す: to reconsider, think again",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23249_omoimegurasu",
+      "reading": "おもいめぐらす",
+      "headword": "{思|おも}い{巡|めぐ}らす",
+      "label": "to ponder"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T15:13:57Z",
-    "modified": "2026-08-13T09:37:24Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -179,7 +188,7 @@
         "verb-godan"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "cognition",
         "action"

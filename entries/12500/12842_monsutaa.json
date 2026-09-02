@@ -24,7 +24,9 @@
       "english": "Defeat the monster!",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12842_monsutaa_ex2",
@@ -32,7 +34,9 @@
       "english": "A monster is lurking in the depths of the forest.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12842_monsutaa_ex3",
@@ -40,7 +44,9 @@
       "english": "100 types of monsters appear in this game.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12842_monsutaa_ex4",
@@ -48,7 +54,9 @@
       "english": "Many teachers are troubled by monster parents.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12842_monsutaa_ex5",
@@ -56,7 +64,9 @@
       "english": "He's a monster-class rookie.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12842_monsutaa_ex6",
@@ -64,21 +74,42 @@
       "english": "We need a manual for dealing with monster complainers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nIn games and fantasy (sense 1), モンスター is the default term for enemies or creatures. In everyday Japanese (sense 2), モンスター is used as a modifier to describe someone who is unreasonably demanding or exceptionally powerful.\n\nCOMMON COLLOCATIONS:\n- モンスターペアレント: monster parent (unreasonably demanding parent)\n- モンスタークレーマー: monster complainer\n- モンスター{級|きゅう}: monster-class, monstrously good/strong\n\nSIMILAR WORDS:\n- {怪物|かいぶつ}: monster, freak (native Japanese equivalent)\n- {化|ば}け{物|もの}: monster, ghost (traditional Japanese monsters)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12673_kaibutsu",
+      "reading": "かいぶつ",
+      "headword": "{怪物|かいぶつ}",
+      "label": "monster, freak"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11929_bakemono",
+      "reading": "ばけもの",
+      "headword": "{化|ば}け{物|もの}",
+      "label": "monster, ghost"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T11:55:14Z",
-    "modified": "2026-02-22T11:55:14Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

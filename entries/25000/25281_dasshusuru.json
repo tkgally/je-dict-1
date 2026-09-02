@@ -3,7 +3,7 @@
   "headword": "{奪取|だっしゅ}する",
   "reading": "だっしゅする",
   "romaji": "dasshusuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to seize; to capture; to take by force",
   "definitions": [
     {
@@ -46,12 +46,37 @@
   ],
   "notes": "Composed of {奪|だつ} (seize, rob) + {取|しゅ} (take). A strong word implying forcible or aggressive acquisition, often used for political power, military objectives, or championship titles.\n\nCOMMON COLLOCATIONS:\n- {政権|せいけん}{奪取|だっしゅ}: seizure of power\n- {王座|おうざ}{奪取|だっしゅ}: capturing the throne/championship\n- タイトル{奪取|だっしゅ}: winning/capturing a title\n- {領土|りょうど}{奪取|だっしゅ}: territorial seizure\n- {利権|りけん}を{奪取|だっしゅ}する: to seize concessions/interests\n\nSIMILAR WORDS:\n- {奪|うば}う: to snatch, steal — a more common verb for taking by force, used in everyday contexts\n- {略奪|りゃくだつ}する: to plunder — implies looting and pillaging\n- {獲得|かくとく}する: to acquire, obtain — neutral; does not imply force",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01895_ubau",
+      "reading": "うばう",
+      "headword": "{奪|うば}う",
+      "label": "to snatch, steal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13576_ryakudatsu",
+      "reading": "りゃくだつ",
+      "headword": "{略奪|りゃくだつ}",
+      "label": "to plunder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05624_kakutoku",
+      "reading": "かくとく",
+      "headword": "{獲得|かくとく}",
+      "label": "to acquire, obtain"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "politics",
         "military"
@@ -59,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T13:15:24Z",
-    "modified": "2026-04-24T13:15:24Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

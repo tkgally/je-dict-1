@@ -44,20 +44,59 @@
       "notes": null
     }
   ],
-  "notes": "A type of {鍋|なべ}{料理|りょうり} (hot pot dish) where various ingredients — typically seafood, meat, tofu, and vegetables — are simmered together in a dashi-based broth. The name comes from {寄|よ}せる (to bring together), reflecting the mix of assorted ingredients.\n\nCOMMON COLLOCATIONS:\n- {寄|よ}せ{鍋|なべ}を{作|つく}る: to make mixed hot pot\n- {寄|よ}せ{鍋|なべ}の{具材|ぐざい}: hot pot ingredients\n- {寄|よ}せ{鍋|なべ}セット: hot pot ingredient set (sold at supermarkets)\n\nCULTURAL NOTE:\nA quintessential winter dish in Japan. Unlike specialized hot pots like すき{焼|や}き or しゃぶしゃぶ, {寄|よ}せ{鍋|なべ} has no fixed recipe — families use whatever ingredients they like. It is commonly eaten as a communal meal, with everyone sharing from the same pot.\n\nRELATED TERMS:\n- {鍋|なべ}{料理|りょうり}: hot pot cooking\n- すき{焼|や}き: sukiyaki\n- しゃぶしゃぶ: shabu-shabu\n- {闇鍋|やみなべ}: surprise hot pot (everyone secretly adds an ingredient)",
+  "notes": "A type of {鍋|なべ}{料理|りょうり} (hot pot dish) where various ingredients — typically seafood, meat, tofu, and vegetables — are simmered together in a dashi-based broth. The name comes from {寄|よ}せる (to bring together), reflecting the mix of assorted ingredients.\n\nCOMMON COLLOCATIONS:\n- {寄|よ}せ{鍋|なべ}を{作|つく}る: to make mixed hot pot\n- {寄|よ}せ{鍋|なべ}の{具材|ぐざい}: hot pot ingredients\n- {寄|よ}せ{鍋|なべ}セット: hot pot ingredient set (sold at supermarkets)\n\nCULTURAL NOTE:\nA quintessential winter dish in Japan. Unlike specialized hot pots like すき{焼|や}き or しゃぶしゃぶ, {寄|よ}せ{鍋|なべ} has no fixed recipe — families use whatever ingredients they like. It is commonly eaten as a communal meal, with everyone sharing from the same pot.\n\nRELATED WORDS:\n- {鍋|なべ}{料理|りょうり}: hot pot cooking\n- すき{焼|や}き: sukiyaki\n- しゃぶしゃぶ: shabu-shabu\n- {闇鍋|やみなべ}: surprise hot pot (everyone secretly adds an ingredient)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19952_naberyouri",
+      "reading": "なべりょうり",
+      "headword": "{鍋料理|なべりょうり}",
+      "label": "hot pot cooking"
+    },
+    {
+      "type": "related",
+      "target_id": "10368_sukiyaki",
+      "reading": "すきやき",
+      "headword": "すき{焼|や}き",
+      "label": "sukiyaki"
+    },
+    {
+      "type": "related",
+      "target_id": "10479_shabushabu",
+      "reading": "しゃぶしゃぶ",
+      "headword": "しゃぶしゃぶ",
+      "label": "shabu-shabu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24241_chankonabe",
+      "reading": "ちゃんこなべ",
+      "headword": "ちゃんこ{鍋|なべ}",
+      "label": "chanko nabe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28920_mizutaki",
+      "reading": "みずたき",
+      "headword": "{水炊|みずた}き",
+      "label": "mizutaki (chicken hot pot)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food",
         "culture"
       ]
     },
     "created": "2026-04-07T17:07:31Z",
-    "modified": "2026-04-07T17:07:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

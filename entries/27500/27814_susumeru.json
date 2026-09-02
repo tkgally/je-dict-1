@@ -3,7 +3,7 @@
   "headword": "{薦|すす}める",
   "reading": "すすめる",
   "romaji": "susumeru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to recommend; to endorse; to put forward",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Written with 薦 when recommending a specific item, work, or candidate as worthy of being chosen. The recommender vouches for the thing's quality.\n\nCOMMON COLLOCATIONS:\n- {本|ほん}を{薦|すす}める: to recommend a book\n- {候補|こうほ}に{薦|すす}める: to put forward as a candidate\n- {自信|じしん}を{持|も}って{薦|すす}める: to recommend with confidence\n\nSIMILAR WORDS:\n- {勧|すす}める: to urge; to encourage — recommends doing an action, e.g. {入会|にゅうかい}を{勧|すす}める; the two spellings overlap and are often used interchangeably\n- {進|すす}める: to advance; to move forward — an unrelated verb with the same reading",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "02120_susumeru",
+      "reading": "すすめる",
+      "headword": "{勧|すす}める",
+      "label": "to urge"
+    },
+    {
+      "type": "homophone",
+      "target_id": "01949_susumeru",
+      "reading": "すすめる",
+      "headword": "{進|すす}める",
+      "label": "to advance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18699_suishousuru",
+      "reading": "すいしょうする",
+      "headword": "{推奨|すいしょう}する",
+      "label": "to recommend"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "verb-ichidan"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "communication"
       ],
@@ -62,7 +85,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-05-19T04:03:25Z",
-    "modified": "2026-05-19T04:03:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

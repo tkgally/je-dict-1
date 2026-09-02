@@ -3,7 +3,7 @@
   "id": "14294_jinsoku",
   "headword": "{迅速|じんそく}",
   "reading": "じんそく",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "swift; prompt; rapid",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "Please respond promptly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14294_jinsoku_ex2",
@@ -27,7 +29,9 @@
       "english": "The government should take swift countermeasures.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14294_jinsoku_ex3",
@@ -35,21 +39,49 @@
       "english": "Thanks to the swift action of the fire brigade, the damage was kept to a minimum.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Compound of {迅|じん} (swift) + {速|そく} (fast). A formal word that appears frequently in official statements, business correspondence, and news reports.\n\nUsed as a na-adjective ({迅速|じんそく}な) or adverbially ({迅速|じんそく}に). Conveys both speed and the sense of competent, efficient action.\n\nCOMMON COLLOCATIONS:\n- {迅速|じんそく}な{対応|たいおう} (prompt response)\n- {迅速|じんそく}に{対応|たいおう}する (to respond swiftly)\n- {迅速|じんそく}な{判断|はんだん} (swift judgment)\n- {迅速|じんそく}な{行動|こうどう} (swift action)\n\nSIMILAR WORDS:\n- {素早|すばや}い: quick, nimble (conversational, can describe physical agility)\n- {速|はや}い: fast (general, everyday word)\n- {敏速|びんそく}: nimble and quick (similar formality but less common)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17093_subayai",
+      "reading": "すばやい",
+      "headword": "{素早|すばや}い",
+      "label": "quick, nimble"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02634_kyuusoku",
+      "reading": "きゅうそく",
+      "headword": "{急速|きゅうそく}",
+      "label": "rapid, swift"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15283_sumiyaka",
+      "reading": "すみやか",
+      "headword": "{速|すみ}やか",
+      "label": "speedy"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T09:29:46Z",
-    "modified": "2026-02-28T09:29:46Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

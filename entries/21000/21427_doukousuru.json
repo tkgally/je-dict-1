@@ -3,7 +3,7 @@
   "headword": "{同行|どうこう}する",
   "reading": "どうこうする",
   "romaji": "doukousuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to accompany; to go together",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A compound of {同|どう} (same, together) and {行|こう} (go). More formal than {一緒|いっしょ}に{行|い}く. Often used in business, travel, and official contexts where someone goes along in a professional role.\n\nCOMMON COLLOCATIONS:\n- {出張|しゅっちょう}に{同行|どうこう}する: to accompany on a business trip\n- {取材|しゅざい}に{同行|どうこう}する: to accompany on a news report\n- {同行者|どうこうしゃ}: companion, person accompanying\n- {同行|どうこう}を{求|もと}める: to request someone's company\n\nSIMILAR WORDS:\n- {付|つ}き{添|そ}う: to attend, to escort — implies providing care or support\n- {随行|ずいこう}する: to accompany (a superior) — more formal, specifically following a person of higher status\n- {一緒|いっしょ}に{行|い}く: to go together — the casual everyday expression",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10585_tsukisou",
+      "reading": "つきそう",
+      "headword": "{付|つ}き{添|そ}う",
+      "label": "to attend, to escort"
+    },
+    {
+      "type": "related",
+      "target_id": "08736_otomosuru",
+      "reading": "おともする",
+      "headword": "お{供|とも}する",
+      "label": "to accompany (humble)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23753_tsureteiku",
+      "reading": "つれていく",
+      "headword": "{連|つ}れていく",
+      "label": "to take (someone) along"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T03:20:30Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

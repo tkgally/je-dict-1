@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "{発症|はっしょう} refers specifically to the moment when symptoms of a disease first appear. Common in medical and health-related contexts.\n\nCOMPOUND: {発|はつ} (emit/appear) + {症|しょう} (symptom)\n\nCOMMON COLLOCATIONS:\n- {発症|はっしょう}する: to develop (a disease)\n- {発症|はっしょう}{率|りつ}: incidence rate\n- {発症|はっしょう}{時期|じき}: time of onset\n- {発症|はっしょう}リスク: risk of onset\n- {発症|はっしょう}を{防|ふせ}ぐ: to prevent onset\n- {発症|はっしょう}から～{日|にち}: ~ days after onset\n\nHOMOPHONE:\nNot to be confused with {発祥|はっしょう} (origin, birthplace of something).\n\nSIMILAR WORDS:\n- {発病|はつびょう}: falling ill (broader; emphasizes becoming sick rather than symptom onset)\n- {再発|さいはつ}: recurrence, relapse",
-  "cross_references": [],
+  "notes": "{発症|はっしょう} refers specifically to the moment when symptoms of a disease first appear. Common in medical and health-related contexts.\n\nCOMPOUND: {発|はつ} (emit/appear) + {症|しょう} (symptom)\n\nCOMMON COLLOCATIONS:\n- {発症|はっしょう}する: to develop (a disease)\n- {発症|はっしょう}{率|りつ}: incidence rate\n- {発症|はっしょう}{時期|じき}: time of onset\n- {発症|はっしょう}リスク: risk of onset\n- {発症|はっしょう}を{防|ふせ}ぐ: to prevent onset\n- {発症|はっしょう}から～{日|にち}: ~ days after onset\n\nWATCH OUT:\nNot to be confused with {発祥|はっしょう} (origin, birthplace of something).\n\nSIMILAR WORDS:\n- {発病|はつびょう}: falling ill (broader; emphasizes becoming sick rather than symptom onset)\n- {再発|さいはつ}: recurrence, relapse",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27015_hatsubyou",
+      "reading": "はつびょう",
+      "headword": "{発病|はつびょう}",
+      "label": "falling ill (broader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09017_saihatsu",
+      "reading": "さいはつ",
+      "headword": "{再発|さいはつ}",
+      "label": "recurrence, relapse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16655_senpukukikan",
+      "reading": "せんぷくきかん",
+      "headword": "{潜伏期間|せんぷくきかん}",
+      "label": "incubation period"
+    }
+  ],
   "metadata": {
     "created": "2026-01-30T14:53:28Z",
-    "modified": "2026-06-23T01:38:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

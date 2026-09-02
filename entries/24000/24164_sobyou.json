@@ -3,7 +3,7 @@
   "headword": "{素描|そびょう}",
   "reading": "そびょう",
   "romaji": "sobyou",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sketch; rough drawing; dessin",
   "definitions": [
     {
@@ -81,6 +81,29 @@
   ],
   "notes": "In its literal sense, refers to a drawing made with simple materials like pencil or charcoal, without color. In its figurative sense, means to give a brief, evocative portrayal of something in writing.\n\nCOMMON COLLOCATIONS:\n- {人物|じんぶつ}{素描|そびょう}: figure sketch; character sketch\n- {素描|そびょう}{帳|ちょう}: sketchbook\n- {木炭|もくたん}{素描|そびょう}: charcoal sketch\n- {時代|じだい}の{素描|そびょう}: sketch of an era\n\nSIMILAR WORDS:\n- スケッチ: sketch — the loanword equivalent; more casual and widely used in everyday conversation\n- デッサン: dessin — specifically refers to academic drawing exercises focusing on form and proportion\n- {下書|したが}き: rough draft — refers to a preliminary version of writing or drawing, not a finished sketch",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22554_sukecchi",
+      "reading": "すけっち",
+      "headword": "スケッチ",
+      "label": "sketch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23408_dessan",
+      "reading": "でっさん",
+      "headword": "デッサン",
+      "label": "dessin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06836_shitagaki",
+      "reading": "したがき",
+      "headword": "{下書|したが}き",
+      "label": "rough draft"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -88,6 +111,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "art"
       ],
@@ -97,7 +121,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-17T21:36:43Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -35,7 +35,7 @@
     },
     {
       "id": "24177_seikatsuyouhin_ex3",
-      "japanese": "{被災地|ひさいち}に{生活用品|せいかつようひん}を{届|とど}ける{ボランティア|ぼらんてぃあ}が{集|あつ}まった。",
+      "japanese": "{被災地|ひさいち}に{生活用品|せいかつようひん}を{届|とど}けるボランティアが{集|あつ}まった。",
       "english": "Volunteers gathered to deliver daily necessities to the disaster-affected area.",
       "sense_numbers": [
         1
@@ -46,12 +46,30 @@
   ],
   "notes": "A general term for items used in everyday life such as toiletries, cleaning supplies, kitchen items, and personal care products. Commonly seen in store signage and shopping contexts.\n\nCOMMON COLLOCATIONS:\n- {生活用品|せいかつようひん}{売|う}り{場|ば}: daily necessities section (in a store)\n- {生活用品|せいかつようひん}を{揃|そろ}える: to get one's daily necessities together\n- {生活用品|せいかつようひん}の{支援|しえん}: providing daily necessities (as aid)\n\nSIMILAR WORDS:\n- {日用品|にちようひん}: daily goods — very similar in meaning; {日用品|にちようひん} is slightly more common in everyday speech\n- {生活|せいかつ}{必需品|ひつじゅひん}: daily necessities — emphasizes the essential, indispensable nature of the items\n- {消耗品|しょうもうひん}: consumable goods — items that are used up and need replacing, such as tissues or batteries",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09547_nichiyouhin",
+      "reading": "にちようひん",
+      "headword": "{日用品|にちようひん}",
+      "label": "daily goods"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09548_shoumouhin",
+      "reading": "しょうもうひん",
+      "headword": "{消耗品|しょうもうひん}",
+      "label": "consumable goods"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "shopping"
@@ -59,6 +77,6 @@
       "usage": []
     },
     "created": "2026-04-17T21:41:46Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

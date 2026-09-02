@@ -19,7 +19,9 @@
       "english": "I'm working as a contract employee.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12260_keiyakushain_ex2",
@@ -27,7 +29,9 @@
       "english": "I was promoted from contract employee to regular employee.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12260_keiyakushain_ex3",
@@ -35,10 +39,12 @@
       "english": "Even when contract employees do the same work as regular employees, there are often differences in salary and benefits.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA key term in Japanese employment culture. Japan's labor market distinguishes sharply between {正社員|せいしゃいん} (regular, permanent employees) and various forms of non-regular employment including {契約|けいやく}{社員|しゃいん}, {派遣|はけん}{社員|しゃいん} (temporary agency workers), and パート (part-timers).\n\nCOMMON COLLOCATIONS:\n- {契約|けいやく}{社員|しゃいん}として{採用|さいよう}する: to hire as a contract employee\n- {契約|けいやく}{社員|しゃいん}の{更新|こうしん}: contract renewal\n- {契約|けいやく}{社員|しゃいん}から{正社員|せいしゃいん}へ: from contract to regular employee\n\nRELATED TERMS:\n{正社員|せいしゃいん} (regular/permanent employee), {派遣|はけん}{社員|しゃいん} (temporary agency worker), {非正規|ひせいき}{雇用|こよう} (non-regular employment).",
+  "notes": "USAGE:\nA key term in Japanese employment culture. Japan's labor market distinguishes sharply between {正社員|せいしゃいん} (regular, permanent employees) and various forms of non-regular employment including {契約|けいやく}{社員|しゃいん}, {派遣|はけん}{社員|しゃいん} (temporary agency workers), and パート (part-timers).\n\nCOMMON COLLOCATIONS:\n- {契約|けいやく}{社員|しゃいん}として{採用|さいよう}する: to hire as a contract employee\n- {契約|けいやく}{社員|しゃいん}の{更新|こうしん}: contract renewal\n- {契約|けいやく}{社員|しゃいん}から{正社員|せいしゃいん}へ: from contract to regular employee\n\nRELATED WORDS:\n{正社員|せいしゃいん} (regular/permanent employee), {派遣|はけん}{社員|しゃいん} (temporary agency worker), {非正規|ひせいき}{雇用|こよう} (non-regular employment).",
   "cross_references": [
     {
       "type": "contrast",
@@ -46,18 +52,44 @@
       "reading": "せいしゃいん",
       "headword": "{正社員|せいしゃいん}",
       "label": "permanent employee"
+    },
+    {
+      "type": "related",
+      "target_id": "05606_furiitaa",
+      "reading": "ふりーたー",
+      "headword": "フリーター",
+      "label": "freeter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17155_shokutaku",
+      "reading": "しょくたく",
+      "headword": "{嘱託|しょくたく}",
+      "label": "commission"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18875_hakenshain",
+      "reading": "はけんしゃいん",
+      "headword": "{派遣|はけん}{社員|しゃいん}",
+      "label": "temporary worker"
     }
   ],
   "metadata": {
     "created": "2026-02-20T13:42:46Z",
-    "modified": "2026-04-26T08:07:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work", "occupation"]
+      "semantic": [
+        "work",
+        "occupation"
+      ]
     }
   }
 }

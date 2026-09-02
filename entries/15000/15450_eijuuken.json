@@ -19,7 +19,9 @@
       "english": "I obtained permanent residency.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15450_eijuuken_ex2",
@@ -27,7 +29,9 @@
       "english": "Applying for permanent residency takes time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15450_eijuuken_ex3",
@@ -35,22 +39,59 @@
       "english": "After living in Japan for over ten years, I was finally granted permanent residency.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA formal legal term commonly encountered in immigration contexts. Relevant for foreign nationals living in Japan.\n\nCOMMON COLLOCATIONS:\n- {永住権|えいじゅうけん}を{取得|しゅとく}する (to obtain permanent residency)\n- {永住権|えいじゅうけん}を{申請|しんせい}する (to apply for permanent residency)\n- {永住権|えいじゅうけん}が{認|みと}められる (to be granted permanent residency)\n- {永住権|えいじゅうけん}{保持者|ほじしゃ} (permanent resident)\n\nRELATED:\n- {在留資格|ざいりゅうしかく} (residence status)\n- {帰化|きか} (naturalization — becoming a citizen, distinct from permanent residency)",
-  "cross_references": [],
+  "notes": "USAGE:\nA formal legal term commonly encountered in immigration contexts. Relevant for foreign nationals living in Japan.\n\nCOMMON COLLOCATIONS:\n- {永住権|えいじゅうけん}を{取得|しゅとく}する (to obtain permanent residency)\n- {永住権|えいじゅうけん}を{申請|しんせい}する (to apply for permanent residency)\n- {永住権|えいじゅうけん}が{認|みと}められる (to be granted permanent residency)\n- {永住権|えいじゅうけん}{保持者|ほじしゃ} (permanent resident)\n\nRELATED WORDS:\n- {在留資格|ざいりゅうしかく} (residence status)\n- {帰化|きか} (naturalization — becoming a citizen, distinct from permanent residency)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18891_zairyuushikaku",
+      "reading": "ざいりゅうしかく",
+      "headword": "{在留|ざいりゅう}{資格|しかく}",
+      "label": "residence status"
+    },
+    {
+      "type": "related",
+      "target_id": "19840_kika",
+      "reading": "きか",
+      "headword": "{帰化|きか}",
+      "label": "naturalization"
+    },
+    {
+      "type": "related",
+      "target_id": "26608_zairyuuken",
+      "reading": "ざいりゅうけん",
+      "headword": "{在留権|ざいりゅうけん}",
+      "label": "right of residence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27047_kyojuuken",
+      "reading": "きょじゅうけん",
+      "headword": "{居住権|きょじゅうけん}",
+      "label": "right of residence"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T07:35:37Z",
-    "modified": "2026-03-07T07:35:37Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

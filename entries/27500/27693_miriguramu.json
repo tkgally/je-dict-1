@@ -17,7 +17,9 @@
       "id": "27693_miriguramu_ex1",
       "japanese": "この{薬|くすり}は{五|ご}ミリグラムだ。",
       "english": "This medicine is five milligrams.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27693_miriguramu_ex2",
       "japanese": "{一日|いちにち}に{塩分|えんぶん}を{何|なん}ミリグラム{取|と}っていますか。",
       "english": "How many milligrams of salt do you consume per day?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,25 +37,44 @@
       "id": "27693_miriguramu_ex3",
       "japanese": "ラベルには{一回分|いっかいぶん}あたり{五百|ごひゃく}ミリグラムと{書|か}いてある。",
       "english": "The label says 500 milligrams per serving.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Borrowed from English \"milligram\"; one milligram is 0.001 grams.\n\nCOMMON COLLOCATIONS:\n- {五|ご}ミリグラムの{錠剤|じょうざい}: a five-milligram tablet\n- ミリグラム{単位|たんい}で{量|はか}る: to measure in milligrams\n\nRELATED UNITS:\n- ミリグラム (mg): milligram — 0.001 g\n- グラム (g): gram\n- キログラム (kg): kilogram — 1,000 g",
   "cross_references": [
-    {"type": "related", "target_id": "01354_guramu", "reading": "ぐらむ", "headword": "グラム", "label": "gram"}
+    {
+      "type": "related",
+      "target_id": "01354_guramu",
+      "reading": "ぐらむ",
+      "headword": "グラム",
+      "label": "gram"
+    },
+    {
+      "type": "related",
+      "target_id": "02872_kiroguramu",
+      "reading": "きろぐらむ",
+      "headword": "キログラム",
+      "label": "kg"
+    }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-05-17T03:10:36Z",
-    "modified": "2026-05-17T03:10:36Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

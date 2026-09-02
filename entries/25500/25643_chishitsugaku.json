@@ -17,7 +17,9 @@
       "id": "25643_chishitsugaku_ex1",
       "japanese": "{地質学|ちしつがく}を{専攻|せんこう}して{火山|かざん}を{研究|けんきゅう}したい。",
       "english": "I want to major in geology and study volcanoes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25643_chishitsugaku_ex2",
       "japanese": "{地質学|ちしつがく}の{調査|ちょうさ}で、この{地域|ちいき}には{活断層|かつだんそう}があることが{分|わ}かった。",
       "english": "A geological survey revealed that there is an active fault in this area.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,45 @@
       "id": "25643_chishitsugaku_ex3",
       "japanese": "{地震|じしん}が{頻発|ひんぱつ}する{日本|にほん}では、{地質学|ちしつがく}の{知識|ちしき}が{建築|けんちく}や{都市計画|としけいかく}にも{活|い}かされている。",
       "english": "In earthquake-prone Japan, geological knowledge is also applied to architecture and urban planning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {地質|ちしつ} (geological composition) and {学|がく} (study, discipline). Particularly relevant in Japan, which sits on the junction of four tectonic plates and has numerous active volcanoes and frequent earthquakes.\n\nCOMMON COLLOCATIONS:\n- {地質学|ちしつがく}{者|しゃ}: geologist\n- {地質学|ちしつがく}の{教授|きょうじゅ}: geology professor\n- {地質学|ちしつがく}{的|てき}{調査|ちょうさ}: geological survey\n- {応用|おうよう}{地質学|ちしつがく}: applied geology\n\nSIMILAR WORDS:\n- {地学|ちがく}: earth science — a broader field that includes geology, meteorology, and oceanography\n- {鉱物学|こうぶつがく}: mineralogy — the study of minerals specifically\n- {地理学|ちりがく}: geography — studies spatial relationships between people and environments, overlaps with geology in physical geography",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07106_chigaku",
+      "reading": "ちがく",
+      "headword": "{地学|ちがく}",
+      "label": "earth science"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25641_chirigaku",
+      "reading": "ちりがく",
+      "headword": "{地理学|ちりがく}",
+      "label": "geography"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["education", "nature"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "education",
+        "nature"
+      ]
     },
     "created": "2026-04-26T13:27:11Z",
-    "modified": "2026-04-26T13:27:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

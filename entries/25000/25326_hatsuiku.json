@@ -3,7 +3,7 @@
   "headword": "{発育|はついく}",
   "reading": "はついく",
   "romaji": "hatsuiku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "growth; development (physical)",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Specifically refers to physical growth and development of the body, especially of children, infants, and organisms. Composed of {発|はつ} (emit, develop) and {育|いく} (grow, raise). Primarily used in medical, childcare, and biological contexts.\n\nCOMMON COLLOCATIONS:\n- {発育|はついく}が{良|よ}い/{悪|わる}い: good/poor development\n- {発育|はついく}{状態|じょうたい}: growth condition\n- {発育|はついく}{不良|ふりょう}: poor growth, failure to thrive\n- {発育|はついく}{段階|だんかい}: stage of development\n\nSIMILAR WORDS:\n- {成長|せいちょう}: growth — broader; includes physical, mental, and figurative growth\n- {発達|はったつ}: development — emphasizes functional and mental development\n- {生育|せいいく}: growth — used for plants and organisms in natural environments",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03290_seichou",
+      "reading": "せいちょう",
+      "headword": "{成長|せいちょう}",
+      "label": "growth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03559_hattatsu",
+      "reading": "はったつ",
+      "headword": "{発達|はったつ}",
+      "label": "development"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22487_seiiku",
+      "reading": "せいいく",
+      "headword": "{生育|せいいく}",
+      "label": "growth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00455_seichou",
+      "reading": "せいちょう",
+      "headword": "{生長|せいちょう}",
+      "label": "growth (of plants/organisms)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +83,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health"
       ],
@@ -62,7 +94,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T14:29:31Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

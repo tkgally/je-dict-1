@@ -3,7 +3,7 @@
   "id": "16981_kansou",
   "headword": "{完走|かんそう}",
   "reading": "かんそう",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "finishing a race; running the full course",
   "conjugation": {
     "type": "suru",
@@ -143,10 +143,32 @@
       "note": "verb form"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03845_gooru",
+      "reading": "ごーる",
+      "headword": "ゴール",
+      "label": "goal, finish line"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19804_touha",
+      "reading": "とうは",
+      "headword": "{踏破|とうは}",
+      "label": "traversing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22108_souha",
+      "reading": "そうは",
+      "headword": "{走破|そうは}",
+      "label": "running the full distance"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T04:40:24Z",
-    "modified": "2026-05-05T06:07:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

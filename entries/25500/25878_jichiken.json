@@ -55,7 +55,22 @@
     }
   ],
   "notes": "Composed of {自治|じち} (self-governance) + {権|けん} (right). Used in political, legal, and academic contexts to discuss the right of communities, regions, or institutions to manage their own affairs without external control.\n\nCOMMON COLLOCATIONS:\n- {自治権|じちけん}を{認|みと}める: recognize the right to self-governance\n- {自治権|じちけん}を{求|もと}める: demand autonomy\n- {自治権|じちけん}を{獲得|かくとく}する: obtain autonomy\n- {自治権|じちけん}の{拡大|かくだい}: expansion of autonomy\n- {地方|ちほう}{自治権|じちけん}: local autonomy\n\nSIMILAR WORDS:\n- {自治|じち}: self-governance (the concept itself, without the \"right\" nuance)\n- {自主権|じしゅけん}: sovereignty, independence (broader)\n- {自律|じりつ}: self-regulation, autonomy (often personal or organizational)\n- {独立|どくりつ}: independence (complete separation, stronger than autonomy)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13955_jiritsu",
+      "reading": "じりつ",
+      "headword": "{自律|じりつ}",
+      "label": "self-regulation, autonomy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03488_dokuritsu",
+      "reading": "どくりつ",
+      "headword": "{独立|どくりつ}",
+      "label": "independence"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,12 +78,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "politics",
         "law"
       ]
     },
     "created": "2026-04-27T16:21:44Z",
-    "modified": "2026-04-27T16:21:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

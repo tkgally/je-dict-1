@@ -19,7 +19,9 @@
       "english": "This building is made of reinforced concrete.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17904_tekkinkonkuriito_ex2",
@@ -27,7 +29,9 @@
       "english": "Reinforced concrete buildings have high earthquake resistance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17904_tekkinkonkuriito_ex3",
@@ -35,7 +39,9 @@
       "english": "I live in a thirty-year-old reinforced concrete apartment building.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften abbreviated as RC ({鉄筋|てっきん}コンクリートの{略|りゃく}) in real estate listings and construction documents. Appears frequently in apartment and housing descriptions.\n\nCOMMON COLLOCATIONS:\n- {鉄筋|てっきん}コンクリート{造|づく}り (reinforced concrete construction)\n- {鉄筋|てっきん}コンクリートの{建物|たてもの} (reinforced concrete building)\n- RC{造|ぞう} (RC construction — abbreviated form)\n\nRELATED WORDS:\n- {鉄骨|てっこつ}: steel frame\n- {木造|もくぞう}: wooden construction\n- {耐震|たいしん}: earthquake-resistant",
@@ -46,19 +52,39 @@
       "reading": "もくぞう",
       "headword": "{木造|もくぞう}",
       "label": "wooden construction"
+    },
+    {
+      "type": "related",
+      "target_id": "24552_tekkotsu",
+      "reading": "てっこつ",
+      "headword": "{鉄骨|てっこつ}",
+      "label": "steel frame"
+    },
+    {
+      "type": "related",
+      "target_id": "06222_taishin",
+      "reading": "たいしん",
+      "headword": "{耐震|たいしん}",
+      "label": "earthquake-resistant"
     }
   ],
   "metadata": {
     "created": "2026-03-19T08:32:42Z",
-    "modified": "2026-05-07T09:10:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"],
-      "domain": ["technical"]
+      "semantic": [
+        "building"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

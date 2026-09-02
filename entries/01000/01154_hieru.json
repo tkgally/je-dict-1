@@ -189,7 +189,7 @@
     },
     {
       "id": "01154_hieru_ex9",
-      "japanese": "⟦{お腹|おなか}→お腹：00805_onaka⟧⟦が→が：00051_ga⟧{冷|ひ}えない⟦ように→ように：10081_youni⟧⟦{気|き}をつけて→気をつける：09771_kiwotsukeru⟧。",
+      "japanese": "⟦お{腹|なか}→お腹：00805_onaka⟧⟦が→が：00051_ga⟧{冷|ひ}えない⟦ように→ように：10081_youni⟧⟦{気|き}をつけて→気をつける：09771_kiwotsukeru⟧。",
       "english": "Be careful not to let your stomach get cold.",
       "notes": null,
       "has_audio": false,
@@ -208,11 +208,19 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{冷|ひ}やす→冷やす：02403_hiyasu⟧ (transitive, to cool something). Pattern: X⟦が→が：00051_ga⟧{冷|ひ}える (X gets cold).\n\nASPECT: ている indicates resulting state. {冷|ひ}えている = 'is cold' (state).\n\nCOMMON PATTERNS:\n・⟦ビール→ビール：01015_biiru⟧⟦が→が：00051_ga⟧{冷|ひ}えている (beer is cold)\n・⟦{体|からだ}→体：00784_karada⟧⟦が→が：00051_ga⟧{冷|ひ}える (body gets cold)\n・⟦{足|あし}→足：00575_ashi⟧⟦が→が：00051_ga⟧{冷|ひ}える (feet get cold)\n・⟦{冷|ひ}え{性|しょう}→冷え性：18211_hieshou⟧ (sensitivity to cold—noun)\n・⟦{底冷|そこび}え→底冷え：17601_sokobie⟧ (deep chill)\n\nCONTRAST:\n・{冷|ひ}える (intransitive): X gets cold\n・⟦{冷|ひ}やす→冷やす：02403_hiyasu⟧ (transitive): cool X down\n\nSIMILAR VERBS:\n・⟦{冷|さ}める→冷める：02114_sameru⟧: to cool down (food/drinks), to lose enthusiasm\n・{冷|ひ}える: to get cold (body, atmosphere)",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{冷|ひ}やす→冷やす：02403_hiyasu⟧ (transitive, to cool something). Pattern: X⟦が→が：00051_ga⟧{冷|ひ}える (X gets cold).\n\nASPECT: ている indicates resulting state. {冷|ひ}えている = 'is cold' (state).\n\nCOMMON PATTERNS:\n- ⟦ビール→ビール：01015_biiru⟧⟦が→が：00051_ga⟧{冷|ひ}えている (beer is cold)\n- ⟦{体|からだ}→体：00784_karada⟧⟦が→が：00051_ga⟧{冷|ひ}える (body gets cold)\n- ⟦{足|あし}→足：00575_ashi⟧⟦が→が：00051_ga⟧{冷|ひ}える (feet get cold)\n- ⟦{冷|ひ}え{性|しょう}→冷え性：18211_hieshou⟧ (sensitivity to cold—noun)\n- ⟦{底冷|そこび}え→底冷え：17601_sokobie⟧ (deep chill)\n\nSIMILAR WORDS:\n- {冷|ひ}える (intransitive): X gets cold\n- ⟦{冷|ひ}やす→冷やす：02403_hiyasu⟧ (transitive): cool X down\n- ⟦{冷|さ}める→冷める：02114_sameru⟧: to cool down (food/drinks), to lose enthusiasm\n- {冷|ひ}える: to get cold (body, atmosphere)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02114_sameru",
+      "reading": "さめる",
+      "headword": "{冷|さ}める",
+      "label": "to cool down (food/drinks), to lose…"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:50:13Z",
-    "modified": "2026-05-14T14:17:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

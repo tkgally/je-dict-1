@@ -17,7 +17,9 @@
       "id": "29499_honron_ex1",
       "japanese": "{本論|ほんろん}に{入|はい}る。",
       "english": "to get to the main point.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29499_honron_ex2",
       "japanese": "{前置|まえお}きはこのくらいにして、{本論|ほんろん}に{移|うつ}ろう。",
       "english": "Enough preamble; let's move on to the main discussion.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "29499_honron_ex3",
       "japanese": "この{論文|ろんぶん}の{本論|ほんろん}では、{三|みっ}つの{原因|げんいん}について{詳|くわ}しく{述|の}べる。",
       "english": "The body of this paper discusses three causes in detail.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {本|ほん} (main, principal) + {論|ろん} (argument, discussion). The core part of a discussion or essay, distinct from the introduction or side topics; also the main point itself.\n\nCOMMON COLLOCATIONS:\n- {本論|ほんろん}に{入|はい}る: to get to the main subject\n- {本論|ほんろん}に{移|うつ}る: to move on to the main discussion\n- {本論|ほんろん}から{外|はず}れる: to stray from the main point\n\nSIMILAR WORDS:\n- {序論|じょろん}: introduction — the opening section that precedes the {本論|ほんろん}\n- {結論|けつろん}: conclusion — the closing section that follows it",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23169_joron",
+      "reading": "じょろん",
+      "headword": "{序論|じょろん}",
+      "label": "introduction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02704_ketsuron",
+      "reading": "けつろん",
+      "headword": "{結論|けつろん}",
+      "label": "conclusion"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["language"],
-      "domain": ["academic"]
+      "politeness": "plain",
+      "semantic": [
+        "language"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-06-26T09:20:43Z",
-    "modified": "2026-06-26T09:20:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

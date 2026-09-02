@@ -19,7 +19,9 @@
       "english": "Let me introduce today's guest.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10849_gesuto_ex2",
@@ -27,7 +29,9 @@
       "english": "I participated in the event as a guest.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10849_gesuto_ex3",
@@ -35,10 +39,12 @@
       "english": "Shows with popular actors as guest stars get higher ratings.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "ゲスト comes from English \"guest\" and is commonly used in entertainment and hospitality.\n\nCOMMON COMPOUNDS:\n- ゲスト{出演|しゅつえん}: guest appearance\n- ゲストハウス: guesthouse\n- ゲストルーム: guest room\n- スペシャルゲスト: special guest\n\nSIMILAR WORDS:\n- {客|きゃく}: customer, guest, visitor (broader, more traditional term)\n- {招待客|しょうたいきゃく}: invited guest (formal)\n- ゲスト is primarily used for special invitees on shows, at events, or in hospitality settings, while {客|きゃく} covers customers and visitors more generally.",
+  "notes": "ゲスト comes from English \"guest\" and is commonly used in entertainment and hospitality.\n\nCOMPOUNDS:\n- ゲスト{出演|しゅつえん}: guest appearance\n- ゲストハウス: guesthouse\n- ゲストルーム: guest room\n- スペシャルゲスト: special guest\n\nSIMILAR WORDS:\n- {客|きゃく}: customer, guest, visitor (broader, more traditional term)\n- {招待客|しょうたいきゃく}: invited guest (formal)\n- ゲスト is primarily used for special invitees on shows, at events, or in hospitality settings, while {客|きゃく} covers customers and visitors more generally.",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,17 +52,35 @@
       "reading": "きゃく",
       "headword": "{客|きゃく}",
       "label": "customer, visitor (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28262_shoutaikyaku",
+      "reading": "しょうたいきゃく",
+      "headword": "{招待客|しょうたいきゃく}",
+      "label": "invited guest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28580_raihin",
+      "reading": "らいひん",
+      "headword": "{来賓|らいひん}",
+      "label": "guest of honor"
     }
   ],
   "metadata": {
     "created": "2026-02-11T06:42:06Z",
-    "modified": "2026-04-24T09:07:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

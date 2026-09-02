@@ -17,7 +17,9 @@
       "id": "24851_shinou_ex1",
       "japanese": "{震央|しんおう}は{海底|かいてい}だった。",
       "english": "The epicenter was on the seabed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24851_shinou_ex2",
       "japanese": "{震央|しんおう}に{近|ちか}い{地域|ちいき}では{被害|ひがい}が{大|おお}きかった。",
       "english": "Damage was severe in areas close to the epicenter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,40 @@
       "id": "24851_shinou_ex3",
       "japanese": "{気象庁|きしょうちょう}の{発表|はっぴょう}によると、{震央|しんおう}は{千葉県|ちばけん}{南部|なんぶ}で、{震源|しんげん}の{深|ふか}さは{約|やく}30キロだった。",
       "english": "According to the Japan Meteorological Agency's announcement, the epicenter was in southern Chiba Prefecture, with a hypocenter depth of approximately 30 kilometers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {震|しん} (earthquake/tremor) + {央|おう} (center). This is the technical seismological term for the surface point above the earthquake origin. In everyday Japanese, {震源|しんげん} or {震源地|しんげんち} are used more loosely to mean \"epicenter\" even though they technically refer to the underground origin point.\n\nCOMMON COLLOCATIONS:\n- {震央|しんおう}{付近|ふきん}: near the epicenter\n- {震央|しんおう}からの{距離|きょり}: distance from the epicenter\n- {震央|しんおう}{分布|ぶんぷ}: epicenter distribution\n\nSIMILAR WORDS:\n- {震源|しんげん}: seismic focus; hypocenter — the underground point where the earthquake originates\n- {震源地|しんげんち}: the place of origin — often used loosely as a synonym for epicenter, and also used figuratively for the source of a problem",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16060_shingen",
+      "reading": "しんげん",
+      "headword": "{震源|しんげん}",
+      "label": "seismic focus"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["geography"],
-      "domain": ["technical"]
+      "semantic": [
+        "geography"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-04-21T10:26:00Z",
-    "modified": "2026-06-15T07:59:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

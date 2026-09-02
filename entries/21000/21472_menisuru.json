@@ -3,7 +3,7 @@
   "headword": "{目|め}にする",
   "reading": "めにする",
   "romaji": "me ni suru",
-  "part_of_speech": "expression",
+  "part_of_speech": "expression, suru verb",
   "gloss": "to see; to come across; to catch sight of",
   "conjugation": {
     "type": "suru",
@@ -135,6 +135,29 @@
     }
   ],
   "notes": "An idiomatic expression meaning to see or catch sight of something, often implying that the encounter was unplanned or incidental. It carries a slightly more literary or formal tone than {見|み}る.\n\nUSAGE:\n- Often used when encountering something unexpectedly or for the first time\n- Common in written Japanese and news reporting\n- Frequently appears in the past tense ({目|め}にした)\n\nCOMMON COLLOCATIONS:\n- {光景|こうけい}を{目|め}にする: to witness a scene\n- {記事|きじ}を{目|め}にする: to come across an article\n- {現実|げんじつ}を{目|め}にする: to see the reality\n- {初|はじ}めて{目|め}にする: to see for the first time\n\nSIMILAR WORDS:\n- {見|み}る: the basic word for seeing; neutral and general\n- {見|み}かける: to happen to see someone; implies spotting a person\n- {目撃|もくげき}する: to witness (more dramatic, often used for accidents or crimes)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00283_miru",
+      "reading": "みる",
+      "headword": "{見|み}る",
+      "label": "the basic word for seeing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01644_mikakeru",
+      "reading": "みかける",
+      "headword": "{見|み}かける",
+      "label": "to happen to see someone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20232_mokugekisuru",
+      "reading": "もくげきする",
+      "headword": "{目撃|もくげき}する",
+      "label": "to witness"
+    }
+  ],
   "metadata": {
     "entry_id": "21472_menisuru",
     "schema_version": "2.0",
@@ -146,6 +169,7 @@
         "expression",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "cognition"
       ],
@@ -153,6 +177,6 @@
       "usage": [],
       "verb_class": "suru"
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

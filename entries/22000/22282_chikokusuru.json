@@ -3,7 +3,7 @@
   "headword": "{遅刻|ちこく}する",
   "reading": "ちこくする",
   "romaji": "chikokusuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to be late; to arrive late; to be tardy",
   "definitions": [
     {
@@ -56,6 +56,22 @@
   ],
   "notes": "Refers specifically to arriving after a set start time, most commonly for school, work, or formal appointments. In Japanese society, punctuality is highly valued, and {遅刻|ちこく} carries a stronger sense of social fault than the English word \"late.\"\n\nCOMMON COLLOCATIONS:\n- {学校|がっこう}に{遅刻|ちこく}する: to be late for school\n- {会社|かいしゃ}に{遅刻|ちこく}する: to be late for work\n- {遅刻|ちこく}{届|とど}け: late arrival notice\n- {遅刻|ちこく}{常習|じょうしゅう}: habitual lateness\n- {遅刻|ちこく}ぎりぎり: barely on time / cutting it close\n\nSIMILAR WORDS:\n- {遅|おく}れる: to be late — more general; can describe delays of any kind, not just arriving late to a scheduled event\n- {間|ま}に{合|あ}わない: to not make it in time — focuses on missing a deadline rather than arriving late to a place",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00741_okureru",
+      "reading": "おくれる",
+      "headword": "{遅|おく}れる",
+      "label": "to be late"
+    },
+    {
+      "type": "antonym",
+      "target_id": "22434_soutaisuru",
+      "reading": "そうたいする",
+      "headword": "{早退|そうたい}する",
+      "label": "to leave early (from work or school)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -71,7 +87,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T17:03:27Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

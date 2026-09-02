@@ -2,7 +2,7 @@
   "id": "02091_nyuuin",
   "headword": "{入院|にゅういん}",
   "reading": "にゅういん",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "hospitalization, admission to hospital",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{入院|にゅういん} means being admitted to and staying in a hospital for medical treatment.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {入院|にゅういん}する\n\nGRAMMAR:\nUsed as a noun or する verb ({入院|にゅういん}する = to be hospitalized).\n\nCOMMON COLLOCATIONS:\n- {入院|にゅういん}する: to be hospitalized\n- {入院|にゅういん}⟦{中|ちゅう}→〜中：09840_chuu⟧: during hospitalization\n- {入院|にゅういん}⟦{費|ひ}→費：09877_hi⟧: hospital expenses\n- {入院|にゅういん}⟦{患者|かんじゃ}→患者：00170_kanja⟧: inpatient\n- {入院|にゅういん}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: admission procedures\n\nCONTRAST:\n- {入院|にゅういん}: hospitalization (entering hospital)\n- ⟦{退院|たいいん}→退院：02090_taiin⟧: discharge (leaving hospital)\n- ⟦{通院|つういん}→通院：05975_tsuuin⟧: outpatient visits (going to hospital without staying)\n\nETYMOLOGY:\n{入|にゅう} (enter) + {院|いん} (institution/hospital)",
+  "notes": "{入院|にゅういん} means being admitted to and staying in a hospital for medical treatment.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {入院|にゅういん}する\n\nCOMMON PATTERNS:\nUsed as a noun or する verb ({入院|にゅういん}する = to be hospitalized).\n\nCOMMON COLLOCATIONS:\n- {入院|にゅういん}する: to be hospitalized\n- {入院|にゅういん}⟦{中|ちゅう}→〜中：09840_chuu⟧: during hospitalization\n- {入院|にゅういん}⟦{費|ひ}→費：09877_hi⟧: hospital expenses\n- {入院|にゅういん}⟦{患者|かんじゃ}→患者：00170_kanja⟧: inpatient\n- {入院|にゅういん}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: admission procedures\n\nSIMILAR WORDS:\n- {入院|にゅういん}: hospitalization (entering hospital)\n- ⟦{退院|たいいん}→退院：02090_taiin⟧: discharge (leaving hospital)\n- ⟦{通院|つういん}→通院：05975_tsuuin⟧: outpatient visits (going to hospital without staying)\n\nETYMOLOGY:\n{入|にゅう} (enter) + {院|いん} (institution/hospital)",
   "cross_references": [
     {
       "type": "antonym",
@@ -155,11 +155,39 @@
       "headword": "お{見舞|みま}い",
       "target_id": "01351_omimai",
       "label": "get-well visit; get-well gift"
+    },
+    {
+      "type": "related",
+      "target_id": "00771_byouki",
+      "reading": "びょうき",
+      "headword": "{病気|びょうき}",
+      "label": "illness, disease"
+    },
+    {
+      "type": "antonym",
+      "target_id": "01847_taiinsuru",
+      "reading": "たいいんする",
+      "headword": "{退院|たいいん}する",
+      "label": "leaving hospital"
+    },
+    {
+      "type": "related",
+      "target_id": "08207_ryouyou",
+      "reading": "りょうよう",
+      "headword": "{療養|りょうよう}",
+      "label": "recuperation"
+    },
+    {
+      "type": "related",
+      "target_id": "08208_kaishin",
+      "reading": "かいしん",
+      "headword": "{回診|かいしん}",
+      "label": "doctor's rounds"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:45:24Z",
-    "modified": "2026-08-13T21:29:55Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

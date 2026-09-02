@@ -17,7 +17,9 @@
       "id": "26545_kumiwaza_ex1",
       "japanese": "{柔道|じゅうどう}は{組|く}み{技|わざ}が{中心|ちゅうしん}の{武道|ぶどう}だ。",
       "english": "Judo is a martial art centered on grappling techniques.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26545_kumiwaza_ex2",
       "japanese": "あの{選手|せんしゅ}は{組|く}み{技|わざ}が{得意|とくい}で、{寝技|ねわざ}に{持|も}ち{込|こ}むのがうまい。",
       "english": "That athlete is skilled in grappling techniques and is good at taking fights to the ground.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,38 @@
       "id": "26545_kumiwaza_ex3",
       "japanese": "{総合格闘技|そうごうかくとうぎ}では{打撃|だげき}だけでなく{組|く}み{技|わざ}の{練習|れんしゅう}も{欠|か}かせない。",
       "english": "In mixed martial arts, practicing grappling techniques is indispensable alongside striking.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {組|く}み (grappling, interlocking) and {技|わざ} (technique). In Japanese martial arts terminology, techniques are broadly divided into {組|く}み{技|わざ} (grappling) and {打撃技|だげきわざ} (striking). Grappling includes throws ({投|な}げ{技|わざ}), joint locks ({関節技|かんせつわざ}), pins ({固|かた}め{技|わざ}), and chokes ({絞|し}め{技|わざ}).\n\nCOMMON COLLOCATIONS:\n- {組|く}み{技|わざ}を{仕掛|しか}ける: to initiate a grappling technique\n- {組|く}み{技|わざ}の{攻防|こうぼう}: grappling exchanges\n- {組|く}み{技|わざ}に{強|つよ}い: strong in grappling\n- {組|く}み{技|わざ}の{基本|きほん}: grappling fundamentals\n\nSIMILAR WORDS:\n- {寝技|ねわざ}: ground technique — grappling done specifically on the ground\n- {立|た}ち{技|わざ}: standing technique — techniques performed while standing, including both strikes and throws\n- {関節技|かんせつわざ}: joint lock — a specific category of grappling technique targeting joints",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23981_kansetsuwaza",
+      "reading": "かんせつわざ",
+      "headword": "{関節技|かんせつわざ}",
+      "label": "joint lock"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-02T15:29:35Z",
-    "modified": "2026-05-02T15:29:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

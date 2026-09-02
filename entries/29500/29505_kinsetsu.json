@@ -3,7 +3,7 @@
   "headword": "{近接|きんせつ}",
   "reading": "きんせつ",
   "romaji": "kinsetsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "proximity; adjacency; coming close",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Combines {近|きん} (near) + {接|せつ} (touch, adjoin). Being or coming close to something in space or time; a formal alternative to {近|ちか}づく.\n\nCOMMON COLLOCATIONS:\n- ～に{近接|きんせつ}する: to be adjacent to ～\n- {近接|きんせつ}{戦|せん}: close-quarters combat\n- {近接|きんせつ}{撮影|さつえい}: close-up photography\n\nSIMILAR WORDS:\n- {隣接|りんせつ}: adjoining — specifically sharing a border, right next to\n- {接近|せっきん}: approach — emphasizes the movement of drawing nearer",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14578_rinsetsu",
+      "reading": "りんせつ",
+      "headword": "{隣接|りんせつ}",
+      "label": "adjoining"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04365_sekkin",
+      "reading": "せっきん",
+      "headword": "{接近|せっきん}",
+      "label": "approach"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ],
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-06-26T09:20:43Z",
-    "modified": "2026-06-26T09:20:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

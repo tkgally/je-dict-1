@@ -3,7 +3,7 @@
   "id": "17692_soushin",
   "headword": "{送信|そうしん}",
   "reading": "そうしん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sending, transmission",
   "conjugation": {
     "type": "suru",
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "{送信|そうしん} is used specifically for electronic or signal transmission. For physically sending letters or packages, {送|おく}る or {発送|はっそう} is used instead.\n\nCOMMON COLLOCATIONS:\n- {送信|そうしん}する: to send (electronically)\n- {送信|そうしん}ボタン: send button\n- {送信|そうしん}{取|と}り{消|け}し: unsend, recall message\n- {送信|そうしん}{者|しゃ}: sender\n- {送信|そうしん}{済|ず}み: sent (status)\n- {送信|そうしん}{先|さき}: recipient address/destination\n\nCONTRAST:\n- {送信|そうしん}: sending (electronic) ↔ {受信|じゅしん}: receiving\n- {送信|そうしん}: electronic transmission ↔ {発送|はっそう}: shipping (physical)\n- {送|おく}る: general \"to send\" — covers both physical and electronic",
+  "notes": "{送信|そうしん} is used specifically for electronic or signal transmission. For physically sending letters or packages, {送|おく}る or {発送|はっそう} is used instead.\n\nCOMMON COLLOCATIONS:\n- {送信|そうしん}する: to send (electronically)\n- {送信|そうしん}ボタン: send button\n- {送信|そうしん}{取|と}り{消|け}し: unsend, recall message\n- {送信|そうしん}{者|しゃ}: sender\n- {送信|そうしん}{済|ず}み: sent (status)\n- {送信|そうしん}{先|さき}: recipient address/destination\n\nSIMILAR WORDS:\n- {送信|そうしん}: sending (electronic) ↔ {受信|じゅしん}: receiving\n- {送信|そうしん}: electronic transmission ↔ {発送|はっそう}: shipping (physical)\n- {送|おく}る: general \"to send\" — covers both physical and electronic",
   "cross_references": [
     {
       "type": "antonym",
@@ -142,11 +142,32 @@
       "headword": "{受信|じゅしん}",
       "label": "receiving",
       "target_id": "04896_jushin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00742_okuru",
+      "reading": "おくる",
+      "headword": "{送|おく}る",
+      "label": "general \"to send\""
+    },
+    {
+      "type": "related",
+      "target_id": "01377_fuakkusu",
+      "reading": "ふあっくす",
+      "headword": "ファックス",
+      "label": "fax"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25909_densou",
+      "reading": "でんそう",
+      "headword": "{伝送|でんそう}",
+      "label": "transmission"
     }
   ],
   "metadata": {
     "created": "2026-02-13T05:17:28Z",
-    "modified": "2026-03-30T04:48:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

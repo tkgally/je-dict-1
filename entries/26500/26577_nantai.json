@@ -3,7 +3,7 @@
   "headword": "{軟体|なんたい}",
   "reading": "なんたい",
   "romaji": "nantai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "soft body; soft-bodied",
   "definitions": [
     {
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Combines {軟|なん} (soft) and {体|たい} (body). Almost always encountered in the compound {軟体動物|なんたいどうぶつ} (mollusks — the phylum Mollusca), which includes snails, clams, octopuses, and squid. Also used figuratively to describe a person with unusual flexibility.\n\nCOMMON COLLOCATIONS:\n- {軟体|なんたい}{動物|どうぶつ}: mollusk (the most common usage)\n- {軟体|なんたい}{動物|どうぶつ}{門|もん}: phylum Mollusca\n- {軟体|なんたい}{生物|せいぶつ}: soft-bodied organism\n\nRELATED TERMS:\n- {節足|せっそく}{動物|どうぶつ}: arthropod — another major invertebrate group\n- {甲殻|こうかく}{類|るい}: crustaceans — hard-shelled invertebrates, in contrast to soft-bodied ones",
-  "cross_references": [],
+  "notes": "Combines {軟|なん} (soft) and {体|たい} (body). Almost always encountered in the compound {軟体動物|なんたいどうぶつ} (mollusks — the phylum Mollusca), which includes snails, clams, octopuses, and squid. Also used figuratively to describe a person with unusual flexibility.\n\nCOMMON COLLOCATIONS:\n- {軟体|なんたい}{動物|どうぶつ}: mollusk (the most common usage)\n- {軟体|なんたい}{動物|どうぶつ}{門|もん}: phylum Mollusca\n- {軟体|なんたい}{生物|せいぶつ}: soft-bodied organism\n\nRELATED WORDS:\n- {節足|せっそく}{動物|どうぶつ}: arthropod — another major invertebrate group\n- {甲殻|こうかく}{類|るい}: crustaceans — hard-shelled invertebrates, in contrast to soft-bodied ones",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27745_sessokudoubutsu",
+      "reading": "せっそくどうぶつ",
+      "headword": "{節足|せっそく}{動物|どうぶつ}",
+      "label": "arthropod"
+    },
+    {
+      "type": "related",
+      "target_id": "20910_koukakurui",
+      "reading": "こうかくるい",
+      "headword": "{甲殻類|こうかくるい}",
+      "label": "crustaceans"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +76,6 @@
       ]
     },
     "created": "2026-05-03T12:29:43Z",
-    "modified": "2026-06-15T07:59:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

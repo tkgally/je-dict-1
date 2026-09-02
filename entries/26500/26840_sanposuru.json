@@ -3,7 +3,7 @@
   "headword": "{散歩|さんぽ}する",
   "reading": "さんぽする",
   "romaji": "sanposuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to take a walk; to go for a stroll",
   "definitions": [
     {
@@ -55,7 +55,22 @@
     }
   ],
   "notes": "One of the most common daily activities mentioned in Japanese conversation. Taking a {散歩|さんぽ} is considered both a health practice and a form of relaxation. The particle used with locations varies: {公園|こうえん}を{散歩|さんぽ}する (through/around a park) or {公園|こうえん}で{散歩|さんぽ}する (at a park).\n\nCOMMON COLLOCATIONS:\n- {朝|あさ}の{散歩|さんぽ}: morning walk\n- {犬|いぬ}の{散歩|さんぽ}: walking the dog\n- {散歩|さんぽ}{道|みち}: walking path\n- {散歩|さんぽ}コース: walking route\n- {散歩|さんぽ}に{行|い}く: to go for a walk\n\nSIMILAR WORDS:\n- {歩|ある}く: to walk — neutral verb for the physical action of walking\n- ウォーキング: walking (exercise) — implies deliberate exercise with health goals\n- {徘徊|はいかい}する: to wander — aimless walking, sometimes with negative connotation",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00538_aruku",
+      "reading": "あるく",
+      "headword": "{歩|ある}く",
+      "label": "to walk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09037_haikai",
+      "reading": "はいかい",
+      "headword": "{徘徊|はいかい}",
+      "label": "to wander"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,7 +86,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T13:09:22Z",
-    "modified": "2026-06-15T07:59:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

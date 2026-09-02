@@ -3,7 +3,7 @@
   "headword": "{配信|はいしん}する",
   "reading": "はいしんする",
   "romaji": "haishinsuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to stream; to distribute; to deliver content",
   "definitions": [
     {
@@ -81,6 +81,22 @@
   ],
   "notes": "A compound of {配|はい} (distribute) and {信|しん} (message, information). Originally used for distributing news and information, it has become strongly associated with online streaming and content delivery.\n\nCOMMON COLLOCATIONS:\n- {動画|どうが}{配信|はいしん}: video streaming/distribution\n- {音楽|おんがく}{配信|はいしん}: music streaming/distribution\n- {生|なま}{配信|はいしん}: live streaming\n- {配信|はいしん}サービス: streaming/distribution service\n- {配信|はいしん}{者|しゃ}: streamer, content distributor\n- {配信|はいしん}{開始|かいし}: start of distribution/streaming\n\nSIMILAR WORDS:\n- {放送|ほうそう}する: to broadcast — traditional TV/radio broadcasting\n- {配信|はいしん} is specifically for internet-based distribution and streaming, while {放送|ほうそう} covers traditional broadcast media",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01852_housousuru",
+      "reading": "ほうそうする",
+      "headword": "{放送|ほうそう}する",
+      "label": "to broadcast"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21422_chuukeisuru",
+      "reading": "ちゅうけいする",
+      "headword": "{中継|ちゅうけい}する",
+      "label": "to relay"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -97,7 +113,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-10T03:39:15Z",
-    "modified": "2026-04-10T03:39:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

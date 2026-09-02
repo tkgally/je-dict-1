@@ -3,7 +3,7 @@
   "headword": "{大喜|おおよろこ}び",
   "reading": "おおよろこび",
   "romaji": "ooyorokobi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "great joy; delight; being overjoyed",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "{大|おお} (big) + {喜|よろこ}び (joy). Used both as a noun and with する as a verb ({大喜|おおよろこ}びする).\n\nCOMMON COLLOCATIONS:\n- {大喜|おおよろこ}びする: to be overjoyed\n- {大喜|おおよろこ}びで: with great delight (adverbial)\n- ～に{大喜|おおよろこ}び: overjoyed at ～\n\nSIMILAR WORDS:\n- {喜|よろこ}び: joy — neutral; lower intensity\n- {歓喜|かんき}: rapture; great joy — more formal/literary; sometimes used for collective joy (e.g., a stadium of fans)\n- {狂喜|きょうき}: wild/frantic joy — even stronger, sometimes with a connotation of being beside oneself",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13172_kanki",
+      "reading": "かんき",
+      "headword": "{歓喜|かんき}",
+      "label": "rapture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06435_kyouki",
+      "reading": "きょうき",
+      "headword": "{狂喜|きょうき}",
+      "label": "wild/frantic joy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ],
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-06-06T04:04:02Z",
-    "modified": "2026-06-06T04:04:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

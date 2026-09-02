@@ -34,7 +34,7 @@
     },
     {
       "id": "01024_eigakan_ex3",
-      "japanese": "{映画館|えいがかん}⟦の→の：09472_no⟧⟦{チケット|ちけっと}→チケット：11014_chiketto⟧⟦を→を：00422_wo⟧⟦{予約|よやく}→予約：01522_yoyaku⟧⟦しました→する：00392_suru⟧。",
+      "japanese": "{映画館|えいがかん}⟦の→の：09472_no⟧⟦チケット→チケット：11014_chiketto⟧⟦を→を：00422_wo⟧⟦{予約|よやく}→予約：01522_yoyaku⟧⟦しました→する：00392_suru⟧。",
       "english": "I reserved movie theater tickets.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{映画館|えいがかん} is a compound of ⟦{映画|えいが}→映画：02273_eiga⟧ (movie) + ⟦{館|かん}→館：17308_kan⟧ (hall/building).\n\nALTERNATIVE WORDS:\n- ⟦シネマ→シネマ：10959_shinema⟧: cinema (loanword)\n- ⟦シアター→シアター：15079_shiataa⟧: theater (loanword)\n- ⟦{劇場|げきじょう}→劇場：02714_gekijou⟧: theater (formal)\n\nCOMMON EXPRESSIONS:\n- {映画館|えいがかん}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go to the movies\n- {映画館|えいがかん}⟦で→で：00502_de⟧⟦{見|み}る→見る：00283_miru⟧: to watch at the theater\n- {映画館|えいがかん}⟦の→の：09472_no⟧⟦{席|せき}→席：02215_seki⟧: movie theater seat\n\nJAPAN-SPECIFIC:\n- Tickets often reserved in advance with assigned seats\n- ⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧ (Movie Day, 1st of each month): discounted tickets\n- Talking during movies is considered very rude\n- Many theaters offer premium options like 4DX, IMAX\n\nOTHER ⟦{館|かん}→館：17308_kan⟧ BUILDINGS:\n- ⟦{図書館|としょかん}→図書館：00580_toshokan⟧: library\n- ⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧: art museum\n- ⟦{水族館|すいぞくかん}→水族館：09220_suizokukan⟧: aquarium",
+  "notes": "{映画館|えいがかん} is a compound of ⟦{映画|えいが}→映画：02273_eiga⟧ (movie) + ⟦{館|かん}→館：17308_kan⟧ (hall/building).\n\nSIMILAR WORDS:\n- ⟦シネマ→シネマ：10959_shinema⟧: cinema (loanword)\n- ⟦シアター→シアター：15079_shiataa⟧: theater (loanword)\n- ⟦{劇場|げきじょう}→劇場：02714_gekijou⟧: theater (formal)\n\nCOMMON EXPRESSIONS:\n- {映画館|えいがかん}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go to the movies\n- {映画館|えいがかん}⟦で→で：00502_de⟧⟦{見|み}る→見る：00283_miru⟧: to watch at the theater\n- {映画館|えいがかん}⟦の→の：09472_no⟧⟦{席|せき}→席：02215_seki⟧: movie theater seat\n\nJAPAN-SPECIFIC:\n- Tickets often reserved in advance with assigned seats\n- ⟦{映画|えいが}→映画：02273_eiga⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧ (Movie Day, 1st of each month): discounted tickets\n- Talking during movies is considered very rude\n- Many theaters offer premium options like 4DX, IMAX\n\nOTHER ⟦{館|かん}→館：17308_kan⟧ BUILDINGS:\n- ⟦{図書館|としょかん}→図書館：00580_toshokan⟧: library\n- ⟦{美術館|びじゅつかん}→美術館：01717_bijutsukan⟧: art museum\n- ⟦{水族館|すいぞくかん}→水族館：09220_suizokukan⟧: aquarium",
   "cross_references": [
     {
       "type": "synonym",
@@ -65,11 +65,25 @@
       "headword": "{映画|えいが}",
       "target_id": "02273_eiga",
       "label": "movie, film"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15079_shiataa",
+      "reading": "しあたー",
+      "headword": "シアター",
+      "label": "theater"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23150_meigaza",
+      "reading": "めいがざ",
+      "headword": "{名画座|めいがざ}",
+      "label": "repertory cinema"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:47:50Z",
-    "modified": "2026-08-13T21:29:55Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

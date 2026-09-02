@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {車掌|しゃしょう} refers to the person on trains or buses who makes announcements, checks tickets, and assists passengers.\n\nRESPONSIBILITIES:\n・⟦{車内|しゃない}→車内：06203_shanai⟧⟦アナウンス→アナウンス：10700_anaunsu⟧ (making announcements)\n・⟦{切符|きっぷ}→切符：00643_kippu⟧⟦の→の：09472_no⟧⟦{確認|かくにん}→確認：00158_kakunin⟧ (ticket inspection)\n・⟦ドア→ドア：00773_doa⟧⟦の→の：09472_no⟧⟦{開閉|かいへい}→開閉：06610_kaihei⟧ (door operation)\n・⟦{乗客|じょうきゃく}→乗客：03284_joukyaku⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{案内|あんない}→案内：01291_annai⟧ (passenger assistance)\n\nPOLITE ADDRESS: When speaking to a conductor, {車掌|しゃしょう}⟦さん→さん：09848_san⟧ is commonly used.\n\nRELATED TERMS:\n・⟦{運転士|うんてんし}→運転士：07339_untenshi⟧/⟦{運転手|うんてんしゅ}→運転手：01333_untenshu⟧ - train/bus driver\n・⟦{駅員|えきいん}→駅員：05503_ekiin⟧ - station staff",
+  "notes": "USAGE: {車掌|しゃしょう} refers to the person on trains or buses who makes announcements, checks tickets, and assists passengers.\n\nRESPONSIBILITIES:\n- ⟦{車内|しゃない}→車内：06203_shanai⟧⟦アナウンス→アナウンス：10700_anaunsu⟧ (making announcements)\n- ⟦{切符|きっぷ}→切符：00643_kippu⟧⟦の→の：09472_no⟧⟦{確認|かくにん}→確認：00158_kakunin⟧ (ticket inspection)\n- ⟦ドア→ドア：00773_doa⟧⟦の→の：09472_no⟧⟦{開閉|かいへい}→開閉：06610_kaihei⟧ (door operation)\n- ⟦{乗客|じょうきゃく}→乗客：03284_joukyaku⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧⟦{案内|あんない}→案内：01291_annai⟧ (passenger assistance)\n\nPOLITE ADDRESS: When speaking to a conductor, {車掌|しゃしょう}⟦さん→さん：09848_san⟧ is commonly used.\n\nRELATED WORDS:\n- ⟦{運転士|うんてんし}→運転士：07339_untenshi⟧/⟦{運転手|うんてんしゅ}→運転手：01333_untenshu⟧ - train/bus driver\n- ⟦{駅員|えきいん}→駅員：05503_ekiin⟧ - station staff",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,32 @@
       "reading": "えきいん",
       "headword": "{駅員|えきいん}",
       "label": "station staff"
+    },
+    {
+      "type": "related",
+      "target_id": "01333_untenshu",
+      "reading": "うんてんしゅ",
+      "headword": "{運転手|うんてんしゅ}",
+      "label": "train/bus driver"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21612_joumuin",
+      "reading": "じょうむいん",
+      "headword": "{乗務員|じょうむいん}",
+      "label": "crew member"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22199_kichou",
+      "reading": "きちょう",
+      "headword": "{機長|きちょう}",
+      "label": "captain (of an aircraft)"
     }
   ],
   "metadata": {
     "created": "2026-01-17T04:49:53Z",
-    "modified": "2026-06-20T12:23:53Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

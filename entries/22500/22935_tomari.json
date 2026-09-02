@@ -17,7 +17,9 @@
       "id": "22935_tomari_ex1",
       "japanese": "{今日|きょう}は{泊|とま}まりですか。",
       "english": "Are you staying overnight today?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22935_tomari_ex2",
       "japanese": "{友達|ともだち}の{家|いえ}に{泊|とま}まりに{行|い}く。",
       "english": "I'm going to stay over at a friend's house.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,19 +37,38 @@
       "id": "22935_tomari_ex3",
       "japanese": "{出張|しゅっちょう}で{二泊|にはく}の{泊|とま}まりになりそうだ。",
       "english": "It looks like the business trip will be a two-night stay.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The noun form of the verb {泊|と}まる (to stay overnight). Used colloquially to describe staying somewhere overnight, especially in casual speech about sleepovers, work shifts, or travel.\n\nCOMMON COLLOCATIONS:\n- {泊|とま}まりがけ: staying overnight (as part of a plan)\n- {泊|とま}まり{込|こ}み: staying in / live-in\n- {泊|とま}まり{客|きゃく}: overnight guest\n- お{泊|とま}まり: overnight stay (polite/childish)\n- お{泊|とま}まり{会|かい}: sleepover party\n\nUSAGE:\nIn work contexts, {泊|とま}まり{勤務|きんむ} refers to an overnight shift. For children, お{泊|とま}まり is the standard word for sleepovers.\n\nSIMILAR WORDS:\n- {宿泊|しゅくはく}: accommodation — formal/written; {泊|とま}まり is casual and spoken\n- {一泊|いっぱく}: one night's stay — uses the counter {泊|はく} for counting nights",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03216_shukuhaku",
+      "reading": "しゅくはく",
+      "headword": "{宿泊|しゅくはく}",
+      "label": "accommodation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08892_ippaku",
+      "reading": "いっぱく",
+      "headword": "{一泊|いっぱく}",
+      "label": "one night's stay"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "travel",
         "daily-life"
@@ -53,6 +76,6 @@
       "formality": "neutral"
     },
     "created": "2026-04-08T07:42:51Z",
-    "modified": "2026-04-08T07:42:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

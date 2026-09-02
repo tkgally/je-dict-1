@@ -17,7 +17,9 @@
       "id": "24642_busson_ex1",
       "japanese": "{幸|さいわ}い{物損|ぶっそん}だけで{済|す}んだ。",
       "english": "Fortunately, it was only property damage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24642_busson_ex2",
       "japanese": "{物損|ぶっそん}{事故|じこ}の{場合|ばあい}は{警察|けいさつ}への{届|とど}け{出|で}が{必要|ひつよう}だ。",
       "english": "In the case of a property damage accident, reporting to the police is required.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,62 @@
       "id": "24642_busson_ex3",
       "japanese": "{台風|たいふう}による{物損|ぶっそん}{被害|ひがい}は{数億円|すうおくえん}に{上|のぼ}ると{見積|みつ}もられている。",
       "english": "Property damage from the typhoon is estimated to amount to several hundred million yen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Abbreviation of {物的|ぶってき}{損害|そんがい} (material damage). Contrasts with {人損|じんそん} or {人身|じんしん} (personal injury). Essential vocabulary for understanding traffic accident reports and insurance documents.\n\nUSAGE:\nMost frequently encountered in the compound {物損|ぶっそん}{事故|じこ} (property damage accident), which refers to a traffic accident where only vehicles or objects are damaged and no one is injured. This distinction matters for insurance claims and police reports.\n\nCOMMON COLLOCATIONS:\n- {物損|ぶっそん}{事故|じこ}: property damage accident (no injuries)\n- {物損|ぶっそん}{被害|ひがい}: property damage losses\n- {物損|ぶっそん}のみ: property damage only\n- {物損|ぶっそん}{扱|あつか}い: treated as property damage\n- {物損|ぶっそん}{請求|せいきゅう}: property damage claim\n\nSIMILAR WORDS:\n- {人身|じんしん}{事故|じこ}: personal injury accident — an accident involving bodily harm, contrasted with {物損|ぶっそん}{事故|じこ}\n- {損害|そんがい}: damage; loss — the broader term for any kind of damage or loss\n- {破損|はそん}: breakage; damage — focuses on the physical breaking of an object rather than the legal/insurance concept",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08475_jinshinjiko",
+      "reading": "じんしんじこ",
+      "headword": "{人身事故|じんしんじこ}",
+      "label": "personal injury accident"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02615_songai",
+      "reading": "そんがい",
+      "headword": "{損害|そんがい}",
+      "label": "damage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13679_hason",
+      "reading": "はそん",
+      "headword": "{破損|はそん}",
+      "label": "breakage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25139_jison",
+      "reading": "じそん",
+      "headword": "{自損|じそん}",
+      "label": "self-inflicted damage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["law", "daily-life"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "law",
+        "daily-life"
+      ]
     },
     "created": "2026-04-20T10:28:57Z",
-    "modified": "2026-04-20T10:28:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

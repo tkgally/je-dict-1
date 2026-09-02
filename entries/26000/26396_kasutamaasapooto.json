@@ -17,7 +17,9 @@
       "id": "26396_kasutamaasapooto_ex1",
       "japanese": "カスタマーサポートに{電話|でんわ}した。",
       "english": "I called customer support.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26396_kasutamaasapooto_ex2",
       "japanese": "カスタマーサポートの{対応|たいおう}がとても{丁寧|ていねい}だった。",
       "english": "The customer support response was very polite.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,43 @@
       "id": "26396_kasutamaasapooto_ex3",
       "japanese": "{商品|しょうひん}に{不具合|ふぐあい}があったので、カスタマーサポートに{問|と}い{合|あ}わせて{交換|こうかん}してもらった。",
       "english": "There was a defect in the product, so I contacted customer support and had it exchanged.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A loanword from English 'customer support.' Often abbreviated to カスタマー or CS in business contexts. Japanese customer service is internationally renowned for its thoroughness and politeness, and カスタマーサポート departments typically offer multiple contact channels including phone, email, chat, and increasingly LINE.\n\nCOMMON COLLOCATIONS:\n- カスタマーサポートに{連絡|れんらく}する: to contact customer support\n- カスタマーサポート{窓口|まどぐち}: customer support desk/contact point\n- カスタマーサポート{担当|たんとう}: customer support representative\n- {24時間|にじゅうよじかん}カスタマーサポート: 24-hour customer support\n\nSIMILAR WORDS:\n- {顧客|こきゃく}サービス: customer service — more formal, Japanese-loanword hybrid\n- お{客様|きゃくさま}サポート: customer support — uses the honorific Japanese term for customer\n- ヘルプデスク: help desk — often more technical in focus\n- {問|と}い{合|あ}わせ{窓口|まどぐち}: inquiry desk — generic contact point for questions",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23725_kokyakusaabisu",
+      "reading": "こきゃくさーびす",
+      "headword": "{顧客|こきゃく}サービス",
+      "label": "customer service"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25299_kokyakutaiou",
+      "reading": "こきゃくたいおう",
+      "headword": "{顧客対応|こきゃくたいおう}",
+      "label": "customer service"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business", "communication"]
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "business",
+        "communication"
+      ]
     },
     "created": "2026-05-01T13:36:44Z",
-    "modified": "2026-05-01T13:36:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

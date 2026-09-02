@@ -3,7 +3,7 @@
   "headword": "{目障|めざわ}り",
   "reading": "めざわり",
   "romaji": "mezawari",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "eyesore; unpleasant to look at; obstructing one's view",
   "definitions": [
     {
@@ -82,7 +82,29 @@
     }
   ],
   "notes": "Composed of {目|め} (eye) + {障|さわ}り (hindrance, obstruction). Functions as both a noun and a な-adjective ({目障|めざわ}りな). When used about a person, it is quite rude and implies that their very presence is unwelcome.\n\nCOMMON COLLOCATIONS:\n- {目障|めざわ}りな{存在|そんざい}: an unwelcome presence\n- {目障|めざわ}りな{広告|こうこく}: an annoying advertisement\n- {目障|めざわ}りだ: it's an eyesore; it's in the way\n\nSIMILAR WORDS:\n- {耳障|みみざわ}り: unpleasant to the ear; grating — the auditory counterpart\n- {邪魔|じゃま}: in the way; a nuisance — more general, not limited to visual annoyance\n- {見苦|みぐる}しい: unsightly; disgraceful — focuses on the ugliness or indecency of appearance",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20216_mimizawari",
+      "reading": "みみざわり",
+      "headword": "{耳障|みみざわ}り",
+      "label": "unpleasant to the ear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01610_jama",
+      "reading": "じゃま",
+      "headword": "{邪魔|じゃま}",
+      "label": "in the way"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23219_migurushii",
+      "reading": "みぐるしい",
+      "headword": "{見苦|みぐる}しい",
+      "label": "unsightly"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -91,12 +113,14 @@
         "noun",
         "adjective-na"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "daily-life"
       ]
     },
     "created": "2026-04-27T15:10:46Z",
-    "modified": "2026-08-04T21:27:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

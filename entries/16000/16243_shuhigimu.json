@@ -19,7 +19,9 @@
       "english": "There is a duty of confidentiality.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16243_shuhigimu_ex2",
@@ -27,7 +29,9 @@
       "english": "Doctors have a duty of confidentiality regarding patient information.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16243_shuhigimu_ex3",
@@ -35,21 +39,45 @@
       "english": "If you violate the duty of confidentiality, you may face legal consequences.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{守秘義務|しゅひぎむ} is a formal legal and professional term. It commonly appears in employment contracts and professional codes of conduct.\n\nWORD FORMATION:\n{守秘|しゅひ} (keeping secrets) + {義務|ぎむ} (duty, obligation).\n\nCOMMON COLLOCATIONS:\n- {守秘義務|しゅひぎむ}がある: to have a duty of confidentiality\n- {守秘義務|しゅひぎむ}を{守|まも}る: to uphold confidentiality\n- {守秘義務|しゅひぎむ}に{違反|いはん}する: to violate confidentiality\n- {守秘義務|しゅひぎむ}{契約|けいやく}: confidentiality agreement (NDA)",
-  "cross_references": [],
+  "notes": "USAGE:\n{守秘義務|しゅひぎむ} is a formal legal and professional term. It commonly appears in employment contracts and professional codes of conduct.\n\nFORMS:\n{守秘|しゅひ} (keeping secrets) + {義務|ぎむ} (duty, obligation).\n\nCOMMON COLLOCATIONS:\n- {守秘義務|しゅひぎむ}がある: to have a duty of confidentiality\n- {守秘義務|しゅひぎむ}を{守|まも}る: to uphold confidentiality\n- {守秘義務|しゅひぎむ}に{違反|いはん}する: to violate confidentiality\n- {守秘義務|しゅひぎむ}{契約|けいやく}: confidentiality agreement (NDA)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23565_kimitsuhoji",
+      "reading": "きみつほじ",
+      "headword": "{機密|きみつ}{保持|ほじ}",
+      "label": "confidentiality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26520_himitsuhoji",
+      "reading": "ひみつほじ",
+      "headword": "{秘密|ひみつ}{保持|ほじ}",
+      "label": "confidentiality"
+    }
+  ],
   "metadata": {
     "created": "2026-03-11T08:04:30Z",
-    "modified": "2026-03-11T08:04:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["legal", "business"],
-      "semantic": ["law"]
+      "domain": [
+        "legal",
+        "business"
+      ],
+      "semantic": [
+        "law"
+      ]
     }
   }
 }

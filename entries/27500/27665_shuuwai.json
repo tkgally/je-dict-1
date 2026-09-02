@@ -3,7 +3,7 @@
   "headword": "{収賄|しゅうわい}",
   "reading": "しゅうわい",
   "romaji": "shuuwai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "bribery; accepting a bribe",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "A legal term for the offense of accepting bribes, committed by a public official or someone in a position of trust. Takes する to mean 'to accept a bribe.'\n\nCOMMON COLLOCATIONS:\n- {収賄|しゅうわい}{容疑|ようぎ}: suspicion of bribe-taking\n- {収賄|しゅうわい}{事件|じけん}: a bribery case\n- {収賄罪|しゅうわいざい}: the crime of accepting bribes\n\nSIMILAR WORDS:\n- {贈賄|ぞうわい}: bribery (the giving side) — offering the bribe, the opposite role\n- {汚職|おしょく}: corruption — broader misuse of public office, of which {収賄|しゅうわい} is one form",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21598_zouwai",
+      "reading": "ぞうわい",
+      "headword": "{贈賄|ぞうわい}",
+      "label": "bribery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17399_oshoku",
+      "reading": "おしょく",
+      "headword": "{汚職|おしょく}",
+      "label": "corruption"
+    },
+    {
+      "type": "related",
+      "target_id": "04780_baishuu",
+      "reading": "ばいしゅう",
+      "headword": "{買収|ばいしゅう}",
+      "label": "acquisition"
+    },
+    {
+      "type": "related",
+      "target_id": "21571_wairo",
+      "reading": "わいろ",
+      "headword": "{賄賂|わいろ}",
+      "label": "bribe"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-16T03:10:15Z",
-    "modified": "2026-05-16T03:10:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

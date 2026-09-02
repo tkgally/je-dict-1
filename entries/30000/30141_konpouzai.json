@@ -46,6 +46,36 @@
   ],
   "notes": "{梱包|こんぽう} (packing for shipment) + {材|ざい} (material). Belongs to shipping and warehouse vocabulary; online shops use it constantly in product listings and reviews.\n\nCOMMON COLLOCATIONS:\n- {梱包材|こんぽうざい}を{入|い}れる: to put in packing material\n- {緩衝|かんしょう}{材|ざい}: cushioning material\n- {梱包材|こんぽうざい}を{再利用|さいりよう}する: to reuse packing material\n\nSIMILAR WORDS:\n- {包装紙|ほうそうし}: wrapping paper — decorative wrapping for a gift, not protection in transit\n- {段|だん}ボール: cardboard — the box itself rather than what cushions the contents",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11506_housoushi",
+      "reading": "ほうそうし",
+      "headword": "{包装紙|ほうそうし}",
+      "label": "wrapping paper"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18885_danbooru",
+      "reading": "だんぼーる",
+      "headword": "{段|だん}ボール",
+      "label": "cardboard"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18884_kanshouzai",
+      "reading": "かんしょうざい",
+      "headword": "{緩衝|かんしょう}{材|ざい}",
+      "label": "cushioning material"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30164_housouzai",
+      "reading": "ほうそうざい",
+      "headword": "{包装材|ほうそうざい}",
+      "label": "packaging material"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +83,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "tool"
       ],
       "domain": []
     },
     "created": "2026-07-26T12:19:17Z",
-    "modified": "2026-07-26T12:28:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

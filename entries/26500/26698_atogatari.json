@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Composed of {後|あと} (after) and {語|かた}り (narrative; talk). Written in hiragana as あとがたり or sometimes in kanji as {後語|あとがた}り. The word covers a range of post-content commentary formats — from written afterwords in books to live discussion events after performances.\n\nCOMMON COLLOCATIONS:\n- あとがたりイベント: post-show/post-screening talk event\n- あとがたりコーナー: afterword segment (in a broadcast)\n- {著者|ちょしゃ}のあとがたり: author's afterword\n\nSIMILAR WORDS:\n- あとがき: afterword/postscript — the standard term for written afterwords in books; more common in publishing\n- エピローグ: epilogue — the concluding section of a literary or dramatic work\n- {打|う}ち{上|あ}げ: wrap-up party — a social gathering after an event (different nuance: celebration, not discussion)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21507_atogaki",
+      "reading": "あとがき",
+      "headword": "あとがき",
+      "label": "afterword/postscript"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09795_uchiage",
+      "reading": "うちあげ",
+      "headword": "{打|う}ち{上|あ}げ",
+      "label": "wrap-up party"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "art",
         "media"
       ]
     },
     "created": "2026-05-04T13:55:55Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

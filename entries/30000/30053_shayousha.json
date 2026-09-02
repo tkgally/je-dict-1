@@ -17,7 +17,9 @@
       "id": "30053_shayousha_ex1",
       "japanese": "{社用車|しゃようしゃ}で{移動|いどう}する。",
       "english": "Travel by company car.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30053_shayousha_ex2",
       "japanese": "{営業|えいぎょう}には{社用車|しゃようしゃ}を{使|つか}う。",
       "english": "We use a company car for sales visits.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,61 @@
       "id": "30053_shayousha_ex3",
       "japanese": "{社用車|しゃようしゃ}を{私用|しよう}で{使|つか}ってはいけないと{決|き}められている。",
       "english": "It is a rule that company cars must not be used for personal purposes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {社用|しゃよう} (company business) with {車|しゃ} (vehicle). Refers to a vehicle a company provides for work use.\n\nCOMMON COLLOCATIONS:\n- {社用車|しゃようしゃ}を{運転|うんてん}する: to drive a company car\n- {社用車|しゃようしゃ}の{管理|かんり}: management of company vehicles\n\nSIMILAR WORDS:\n- {自家用車|じかようしゃ}: privately owned car — for personal use\n- マイカー: one's own car — a colloquial term for a personal car",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23550_jikayousha",
+      "reading": "じかようしゃ",
+      "headword": "{自家用車|じかようしゃ}",
+      "label": "privately owned car"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30031_maikaa",
+      "reading": "まいかー",
+      "headword": "マイカー",
+      "label": "one's own car"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24282_eigyousha",
+      "reading": "えいぎょうしゃ",
+      "headword": "{営業車|えいぎょうしゃ}",
+      "label": "company car"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26123_senyousha",
+      "reading": "せんようしゃ",
+      "headword": "{専用車|せんようしゃ}",
+      "label": "dedicated vehicle"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["transportation"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-07-23T00:19:28Z",
-    "modified": "2026-07-23T00:19:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

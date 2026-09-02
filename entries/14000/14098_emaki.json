@@ -19,7 +19,9 @@
       "english": "Unroll and appreciate a picture scroll.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14098_emaki_ex2",
@@ -27,7 +29,9 @@
       "english": "This picture scroll was painted during the Heian period.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14098_emaki_ex3",
@@ -35,22 +39,45 @@
       "english": "A picture scroll designated as a National Treasure was put on special display, and many visitors came from all over the country.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE NOTE:\n{絵巻|えまき} is the short form of {絵巻|えまき}{物|もの} (emakimono). These horizontal scrolls are read by unrolling them from right to left, revealing the narrative scene by scene. Famous examples include the {源氏|げんじ}{物語|ものがたり}{絵巻|えまき} (Tale of Genji picture scroll) and the {鳥獣|ちょうじゅう}{戯画|ぎが} (Scrolls of Frolicking Animals).\n\nCOMMON COLLOCATIONS:\n- {絵巻|えまき}{物|もの} (picture scroll — full form)\n- {絵巻|えまき}を{広|ひろ}げる (unroll a picture scroll)\n- {物語|ものがたり}{絵巻|えまき} (narrative picture scroll)\n\nSIMILAR WORDS:\n- {掛|か}け{軸|じく}: hanging scroll (vertical, for display)\n- {巻物|まきもの}: scroll (general term, can be text-only)",
-  "cross_references": [],
+  "notes": "USAGE:\n{絵巻|えまき} is the short form of {絵巻|えまき}{物|もの} (emakimono). These horizontal scrolls are read by unrolling them from right to left, revealing the narrative scene by scene. Famous examples include the {源氏|げんじ}{物語|ものがたり}{絵巻|えまき} (Tale of Genji picture scroll) and the {鳥獣|ちょうじゅう}{戯画|ぎが} (Scrolls of Frolicking Animals).\n\nCOMMON COLLOCATIONS:\n- {絵巻|えまき}{物|もの} (picture scroll — full form)\n- {絵巻|えまき}を{広|ひろ}げる (unroll a picture scroll)\n- {物語|ものがたり}{絵巻|えまき} (narrative picture scroll)\n\nSIMILAR WORDS:\n- {掛|か}け{軸|じく}: hanging scroll (vertical, for display)\n- {巻物|まきもの}: scroll (general term, can be text-only)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06122_kakejiku",
+      "reading": "かけじく",
+      "headword": "{掛|か}け{軸|じく}",
+      "label": "hanging scroll"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12467_makimono",
+      "reading": "まきもの",
+      "headword": "{巻物|まきもの}",
+      "label": "scroll"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T00:46:26Z",
-    "modified": "2026-02-28T00:46:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

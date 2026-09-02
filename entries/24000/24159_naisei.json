@@ -46,12 +46,36 @@
   ],
   "notes": "Refers to a country's internal governance and political matters, as opposed to foreign affairs ({外交|がいこう}). Often encountered in news and political commentary.\n\nCOMMON COLLOCATIONS:\n- {内政|ないせい}{干渉|かんしょう}: interference in domestic affairs\n- {内政|ないせい}{問題|もんだい}: domestic issue\n- {内政|ないせい}に{口出|くちだ}しする: to meddle in internal affairs\n- {内政|ないせい}{不干渉|ふかんしょう}: non-interference in domestic affairs\n\nSIMILAR WORDS:\n- {外交|がいこう}: foreign affairs, diplomacy — the counterpart to {内政|ないせい}\n- {国内|こくない}{政治|せいじ}: domestic politics — a broader, more casual synonym\n- {国政|こくせい}: national politics — covers both domestic and foreign aspects",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02627_gaikou",
+      "reading": "がいこう",
+      "headword": "{外交|がいこう}",
+      "label": "foreign affairs, diplomacy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12131_kokusei",
+      "reading": "こくせい",
+      "headword": "{国政|こくせい}",
+      "label": "national politics"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24160_gaimu",
+      "reading": "がいむ",
+      "headword": "{外務|がいむ}",
+      "label": "foreign affairs"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "politics"
       ],
@@ -60,6 +84,6 @@
       ]
     },
     "created": "2026-04-17T21:34:33Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

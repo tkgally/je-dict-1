@@ -19,7 +19,9 @@
       "english": "A wedding invitation arrived.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14769_shoutaijou_ex2",
@@ -27,7 +29,9 @@
       "english": "Let's reply to the invitation promptly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14769_shoutaijou_ex3",
@@ -35,7 +39,9 @@
       "english": "Enclosed with the invitation were a map to the venue and a reply postcard for RSVP.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE: {招待状|しょうたいじょう} refers to the physical written invitation. The act of inviting is {招待|しょうたい}する.\n\nCOMMON COLLOCATIONS:\n- {招待状|しょうたいじょう}を{送|おく}る (to send an invitation)\n- {招待状|しょうたいじょう}が{届|とど}く (an invitation arrives)\n- {招待状|しょうたいじょう}を{受|う}け{取|と}る (to receive an invitation)\n- {招待状|しょうたいじょう}の{返信|へんしん} (reply to an invitation)\n\nIn Japanese wedding etiquette, the reply postcard ({返信|へんしん}はがき) included with the {招待状|しょうたいじょう} follows specific formatting conventions, such as crossing out the honorific {御|ご} before your own name and adding {寿|ことぶき} decorations.",
@@ -46,18 +52,43 @@
       "reading": "しょうたい",
       "headword": "{招待|しょうたい}",
       "label": "invitation (the act)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19683_annaijou",
+      "reading": "あんないじょう",
+      "headword": "{案内状|あんないじょう}",
+      "label": "invitation letter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20509_shoutaiken",
+      "reading": "しょうたいけん",
+      "headword": "{招待券|しょうたいけん}",
+      "label": "complimentary ticket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23662_henshinhagaki",
+      "reading": "へんしんはがき",
+      "headword": "{返信|へんしん}はがき",
+      "label": "reply postcard"
     }
   ],
   "metadata": {
     "created": "2026-03-03T11:27:03Z",
-    "modified": "2026-04-30T10:37:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

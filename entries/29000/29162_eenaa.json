@@ -15,9 +15,11 @@
   "examples": [
     {
       "id": "29162_eenaa_ex1",
-      "japanese": "「{来月|らいげつ}{ハワイ|はわい}に{行|い}くんやって。」「ええなあ、{羨|うらや}ましい。」",
+      "japanese": "「{来月|らいげつ}ハワイに{行|い}くんやって。」「ええなあ、{羨|うらや}ましい。」",
       "english": "'I hear you're going to Hawaii next month.' 'How nice! I'm jealous.'",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29162_eenaa_ex2",
       "japanese": "「このケーキ、めっちゃおいしい!」「ええなあ、{食|た}べたい。」",
       "english": "'This cake is incredibly good!' 'Lucky you — I want some.'",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,40 @@
       "id": "29162_eenaa_ex3",
       "japanese": "「{今日|きょう}は{早|はや}く{仕事|しごと}{終|お}わったから、ゆっくりできるわ。」「ええなあ、こっちはまだ{仕事|しごと}{残|のこ}ってるのに。」",
       "english": "'I finished work early today, so I can take it easy.' 'Lucky you — I still have work left over here.'",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Kansai dialect version of standard いいなあ. The ええ component is the Kansai pronunciation of いい (good, nice). The なあ component is an emotive final particle seeking empathy or expressing feeling.\n\nUSAGE CONTEXTS:\n- Expressing envy: ええなあ, {私|わたし}も{行|い}きたい (How nice, I want to go too)\n- Approving something: ええなあ, それにしよ (Sounds good, let's do that)\n- Admiring something: ええなあ, この{景色|けしき} (What a view!)\n\nSIMILAR WORDS:\n- いいなあ (standard): same meaning — standard Japanese equivalent\n- ええやん (→ see いいやん): that's fine/good (approval)",
+  "notes": "Kansai dialect version of standard いいなあ. The ええ component is the Kansai pronunciation of いい (good, nice). The なあ component is an emotive final particle seeking empathy or expressing feeling.\n\nUSAGE:\n- Expressing envy: ええなあ, {私|わたし}も{行|い}きたい (How nice, I want to go too)\n- Approving something: ええなあ, それにしよ (Sounds good, let's do that)\n- Admiring something: ええなあ, この{景色|けしき} (What a view!)\n\nSIMILAR WORDS:\n- いいなあ (standard): same meaning — standard Japanese equivalent\n- ええやん (→ see いいやん): that's fine/good (approval)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07549_eeyan",
+      "reading": "ええやん",
+      "headword": "ええやん",
+      "label": "→ see"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["expression"],
-      "domain": ["colloquial"]
+      "semantic": [
+        "expression"
+      ],
+      "domain": [
+        "colloquial"
+      ]
     },
     "created": "2026-06-11T21:50:49Z",
-    "modified": "2026-06-11T21:50:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

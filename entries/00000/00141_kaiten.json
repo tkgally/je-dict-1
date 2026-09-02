@@ -2,7 +2,7 @@
   "id": "00141_kaiten",
   "headword": "{回転|かいてん}",
   "reading": "かいてん",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "rotation, spinning, turn",
   "conjugation": {
     "type": "suru",
@@ -169,10 +169,46 @@
     }
   ],
   "notes": "{回転|かいてん} describes circular motion or cyclical processes.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {回転|かいてん}⟦する→する：00392_suru⟧\n\nCommon expressions:\n- {回転|かいてん}⟦{寿司|ずし}→寿司：04946_sushi⟧ (conveyor belt sushi)\n- {回転|かいてん}⟦{率|りつ}→率：03802_ritsu⟧ (turnover rate)\n- {回転|かいてん}⟦{椅子|いす}→椅子：00706_isu⟧ (swivel chair)\n- ⟦{高速|こうそく}→高速：02749_kousoku⟧{回転|かいてん} (high-speed rotation)\n- ⟦{頭|あたま}→頭：00574_atama⟧⟦の→の：09472_no⟧{回転|かいてん}⟦が→が：00051_ga⟧⟦{速|はや}い→速い：00514_hayai⟧ (quick-witted, literally 'fast mental rotation')\n\nRelated terms:\n- ⟦{自転|じてん}→自転：27358_jiten⟧ (rotation on own axis)\n- ⟦{公転|こうてん}→公転：27359_kouten⟧ (revolution around another object)\n- ⟦スピン→スピン：27365_supin⟧ (spin - loanword)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01150_mawaru",
+      "reading": "まわる",
+      "headword": "{回|まわ}る",
+      "label": "to go around, to revolve"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23760_gurugurumawaru",
+      "reading": "ぐるぐるまわる",
+      "headword": "ぐるぐる{回|まわ}る",
+      "label": "to spin round and round"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27358_jiten",
+      "reading": "じてん",
+      "headword": "{自転|じてん}",
+      "label": "rotation (on its own axis)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27359_kouten",
+      "reading": "こうてん",
+      "headword": "{公転|こうてん}",
+      "label": "revolution (orbiting around another body)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27365_supin",
+      "reading": "すぴん",
+      "headword": "スピン",
+      "label": "spin (rotation of a ball, skater, etc.)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T12:17:38Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

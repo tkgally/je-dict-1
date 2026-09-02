@@ -45,7 +45,29 @@
     }
   ],
   "notes": "English loanword from \"middle age.\" In Japanese, this term has a somewhat trendier, more modern feel than the native {中年|ちゅうねん}, and is often used in marketing, media, and lifestyle contexts. It can sound softer or more positive than {中年|ちゅうねん}, which some people find less flattering.\n\nCOMMON COLLOCATIONS:\n- ミドルエイジ{向|む}け: aimed at middle-aged people\n- ミドルエイジ{世代|せだい}: the middle-age generation\n- ミドルエイジの{危機|きき}: midlife crisis\n- ミドルエイジ{男性|だんせい}/{女性|じょせい}: middle-aged men/women\n\nSIMILAR WORDS:\n- {中年|ちゅうねん}: middle age — the standard Japanese term; can carry a slightly negative or plain nuance\n- {壮年|そうねん}: prime of life — more formal, often implies vigor and capability\n- シニア: senior — the next life stage, generally 60s and above",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11307_chuunen",
+      "reading": "ちゅうねん",
+      "headword": "{中年|ちゅうねん}",
+      "label": "middle age"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19755_sounen",
+      "reading": "そうねん",
+      "headword": "{壮年|そうねん}",
+      "label": "prime of life"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08830_shinia",
+      "reading": "しにあ",
+      "headword": "シニア",
+      "label": "senior"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +75,12 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "time-period"
       ]
     },
     "created": "2026-05-04T13:54:04Z",
-    "modified": "2026-08-06T00:48:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

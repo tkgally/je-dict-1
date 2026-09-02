@@ -2,7 +2,7 @@
   "id": "03575_bakuhatsu",
   "headword": "{爆発|ばくはつ}",
   "reading": "ばくはつ",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "explosion, outburst",
   "conjugation": {
     "type": "suru",
@@ -208,10 +208,47 @@
       ]
     }
   ],
-  "notes": "USAGE: {爆発|ばくはつ} is used for literal explosions and figuratively for sudden outbursts or rapid increases.\n\nCOMMON PATTERNS:\n・{爆発|ばくはつ}する (to explode)\n・{爆発|ばくはつ}を⟦{起|お}こす→起こす：01234_okosu⟧ (to cause an explosion)\n・⟦{爆発|ばくはつ}{的|てき}→爆発的：20678_bakuhatsuteki⟧ (explosive)\n・⟦{感情|かんじょう}→感情：00171_kanjou⟧が{爆発|ばくはつ}する (emotions explode)\n\nCOMMON COMPOUNDS:\n・⟦{爆発|ばくはつ}{物|ぶつ}→爆発物：28282_bakuhatsubutsu⟧ (explosives)\n・{爆発|ばくはつ}⟦{事故|じこ}→事故：00851_jiko⟧ (explosion accident)\n・⟦{爆発|ばくはつ}{的|てき}→爆発的：20678_bakuhatsuteki⟧な⟦{人気|にんき}→人気：01488_ninki⟧ (explosive popularity)\n・⟦{人口|じんこう}→人口：01618_jinkou⟧{爆発|ばくはつ} (population explosion)\n・⟦ガス→ガス：01344_gasu⟧{爆発|ばくはつ} (gas explosion)\n・⟦{核|かく}→核：13127_kaku⟧{爆発|ばくはつ} (nuclear explosion)\n\nRELATED WORDS:\n・⟦{爆弾|ばくだん}→爆弾：10117_bakudan⟧ - bomb\n・⟦{噴火|ふんか}→噴火：00045_funka⟧ - volcanic eruption\n・⟦{破裂|はれつ}→破裂：10058_haretsu⟧ - bursting, rupture",
+  "notes": "USAGE: {爆発|ばくはつ} is used for literal explosions and figuratively for sudden outbursts or rapid increases.\n\nCOMMON PATTERNS:\n- {爆発|ばくはつ}する (to explode)\n- {爆発|ばくはつ}を⟦{起|お}こす→起こす：01234_okosu⟧ (to cause an explosion)\n- ⟦{爆発|ばくはつ}{的|てき}→爆発的：20678_bakuhatsuteki⟧ (explosive)\n- ⟦{感情|かんじょう}→感情：00171_kanjou⟧が{爆発|ばくはつ}する (emotions explode)\n\nCOMPOUNDS:\n- ⟦{爆発|ばくはつ}{物|ぶつ}→爆発物：28282_bakuhatsubutsu⟧ (explosives)\n- {爆発|ばくはつ}⟦{事故|じこ}→事故：00851_jiko⟧ (explosion accident)\n- ⟦{爆発|ばくはつ}{的|てき}→爆発的：20678_bakuhatsuteki⟧な⟦{人気|にんき}→人気：01488_ninki⟧ (explosive popularity)\n- ⟦{人口|じんこう}→人口：01618_jinkou⟧{爆発|ばくはつ} (population explosion)\n- ⟦ガス→ガス：01344_gasu⟧{爆発|ばくはつ} (gas explosion)\n- ⟦{核|かく}→核：13127_kaku⟧{爆発|ばくはつ} (nuclear explosion)\n\nRELATED WORDS:\n- ⟦{爆弾|ばくだん}→爆弾：10117_bakudan⟧ - bomb\n- ⟦{噴火|ふんか}→噴火：00045_funka⟧ - volcanic eruption\n- ⟦{破裂|はれつ}→破裂：10058_haretsu⟧ - bursting, rupture",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10117_bakudan",
+      "reading": "ばくだん",
+      "headword": "{爆弾|ばくだん}",
+      "label": "bomb"
+    },
+    {
+      "type": "related",
+      "target_id": "00045_funka",
+      "reading": "ふんか",
+      "headword": "{噴火|ふんか}",
+      "label": "volcanic eruption"
+    },
+    {
+      "type": "related",
+      "target_id": "10058_haretsu",
+      "reading": "はれつ",
+      "headword": "{破裂|はれつ}",
+      "label": "bursting, rupture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23924_bouhatsu",
+      "reading": "ぼうはつ",
+      "headword": "{暴発|ぼうはつ}",
+      "label": "accidental discharge (of a firearm)"
+    },
+    {
+      "type": "related",
+      "target_id": "27188_bakufuu",
+      "reading": "ばくふう",
+      "headword": "{爆風|ばくふう}",
+      "label": "blast"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T12:31:48Z",
-    "modified": "2026-08-13T15:50:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

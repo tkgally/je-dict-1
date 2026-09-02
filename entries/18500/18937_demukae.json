@@ -17,7 +17,9 @@
       "id": "18937_demukae_ex1",
       "japanese": "{空港|くうこう}まで{出迎|でむか}えに{行|い}く。",
       "english": "I'll go to the airport to meet them.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18937_demukae_ex2",
       "japanese": "{駅|えき}で{友人|ゆうじん}の{出迎|でむか}えをした。",
       "english": "I met my friend at the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "18937_demukae_ex3",
       "japanese": "{大統領|だいとうりょう}の{出迎|でむか}えのため、{大勢|おおぜい}の{人|ひと}が{集|あつ}まった。",
       "english": "A large crowd gathered to greet the president on arrival.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Noun form of the verb {出迎|でむか}える (to go out and meet someone arriving).\n\nCOMMON PATTERNS:\n- {出迎|でむか}えに{行|い}く: to go to meet someone\n- {出迎|でむか}えに{来|く}る: to come to meet someone\n- {出迎|でむか}えをする: to greet an arrival\n- {出迎|でむか}えの{人|ひと}: person meeting an arrival\n\nUSAGE:\nTypically used when meeting someone at a station, airport, or entrance. Implies going to a specific place to receive someone.\n\nCONTRAST:\n- {出迎|でむか}え: greeting someone on arrival\n- {見送|みおく}り: seeing someone off (opposite action)\n\nFORMALITY:\nIn business or formal settings, お{出迎|でむか}え adds the polite prefix お.",
+  "notes": "Noun form of the verb {出迎|でむか}える (to go out and meet someone arriving).\n\nCOMMON PATTERNS:\n- {出迎|でむか}えに{行|い}く: to go to meet someone\n- {出迎|でむか}えに{来|く}る: to come to meet someone\n- {出迎|でむか}えをする: to greet an arrival\n- {出迎|でむか}えの{人|ひと}: person meeting an arrival\n\nUSAGE:\nTypically used when meeting someone at a station, airport, or entrance. Implies going to a specific place to receive someone.\n\nSIMILAR WORDS:\n- {出迎|でむか}え: greeting someone on arrival\n- {見送|みおく}り: seeing someone off (opposite action)\n\nREGISTER:\nIn business or formal settings, お{出迎|でむか}え adds the polite prefix お.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03742_miokuri",
+      "reading": "みおくり",
+      "headword": "{見送|みおく}り",
+      "label": "seeing someone off"
+    },
+    {
+      "type": "related",
+      "target_id": "01193_mukaeru",
+      "reading": "むかえる",
+      "headword": "{迎|むか}える",
+      "label": "to welcome, to greet"
+    },
+    {
+      "type": "antonym",
+      "target_id": "28087_miokurinin",
+      "reading": "みおくりにん",
+      "headword": "{見送|みおく}り{人|にん}",
+      "label": "person who sees someone off"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["travel"]
+      "semantic": [
+        "travel"
+      ]
     },
     "created": "2026-03-23T10:15:54Z",
-    "modified": "2026-03-26T09:48:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

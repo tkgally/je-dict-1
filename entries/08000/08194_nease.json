@@ -16,7 +16,9 @@
       "id": "08194_nease_ex1",
       "japanese": "{寝汗|ねあせ}をかいた。",
       "english": "I broke out in a night sweat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "08194_nease_ex2",
       "japanese": "{夏|なつ}は{寝汗|ねあせ}がひどい。",
       "english": "Night sweats are bad in summer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,20 +36,50 @@
       "id": "08194_nease_ex3",
       "japanese": "{寝汗|ねあせ}で{目|め}が{覚|さ}めてパジャマを{着替|きが}えた。",
       "english": "I woke up from night sweats and changed my pajamas.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{寝汗|ねあせ} is a compound of {寝|ね} (sleep) + {汗|あせ} (sweat). It refers to perspiration that occurs while sleeping.\n\nCOMMON COLLOCATIONS:\n- {寝汗|ねあせ}をかく: to have night sweats\n- {寝汗|ねあせ}がひどい: to have bad night sweats\n- {寝汗|ねあせ}で{目|め}が{覚|さ}める: to wake up from night sweats\n- {寝汗|ねあせ}{対策|たいさく}: measures against night sweats\n\nCAUSES:\nCan be caused by hot weather, illness, fever, stress, or medications. Persistent night sweats may indicate a medical condition and are worth consulting a doctor about.\n\nRELATED TYPES OF SWEAT:\n- {汗|あせ}: sweat (general)\n- {冷|ひ}や{汗|あせ}: cold sweat (from fear or nervousness)\n- {脂汗|あぶらあせ}: greasy sweat (from pain or anxiety)\n- {手|て}{汗|あせ}: sweaty palms",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19109_hiyaase",
+      "reading": "ひやあせ",
+      "headword": "{冷|ひ}や{汗|あせ}",
+      "label": "cold sweat"
+    },
+    {
+      "type": "related",
+      "target_id": "24142_aburaase",
+      "reading": "あぶらあせ",
+      "headword": "{脂汗|あぶらあせ}",
+      "label": "greasy sweat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22403_reikan",
+      "reading": "れいかん",
+      "headword": "{冷汗|れいかん}",
+      "label": "cold sweat"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["health"]
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ]
     },
     "created": "2026-01-25T08:02:48Z",
-    "modified": "2026-06-21T13:03:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

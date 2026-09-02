@@ -3,7 +3,7 @@
   "id": "12519_enshou",
   "headword": "{延焼|えんしょう}",
   "reading": "えんしょう",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "spread of fire, fire spreading to adjacent buildings",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,18 @@
     }
   ],
   "notes": "USAGE:\nA standard term in fire reporting and disaster prevention. Japan's historically dense wooden architecture has made {延焼|えんしょう} a particularly important concept. Do not confuse with the homophone {炎症|えんしょう} (inflammation, a medical term).\n\nCOMMON COLLOCATIONS:\n- {延焼|えんしょう}を{防|ふせ}ぐ: to prevent fire spread\n- {延焼|えんしょう}する: to spread (of fire)\n- {延焼|えんしょう}{危険|きけん}: risk of fire spreading\n- {延焼|えんしょう}{防止|ぼうし}: fire spread prevention",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18581_ruishou",
+      "reading": "るいしょう",
+      "headword": "{類焼|るいしょう}",
+      "label": "spread of fire from an adjacent building"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T11:12:38Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

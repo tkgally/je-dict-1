@@ -17,7 +17,9 @@
       "id": "28227_shinsain_ex1",
       "japanese": "コンテストの{審査員|しんさいん}を{務|つと}めた。",
       "english": "I served as a judge for the contest.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28227_shinsain_ex2",
       "japanese": "{審査員|しんさいん}が{作品|さくひん}を{一|ひと}つずつ{評価|ひょうか}した。",
       "english": "The judges evaluated the works one by one.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "28227_shinsain_ex3",
       "japanese": "{厳|きび}しい{審査員|しんさいん}として{知|し}られるその{先生|せんせい}が、{今回|こんかい}は{高|たか}い{点|てん}をつけた。",
       "english": "That teacher, known as a strict judge, gave high marks this time.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {審査|しんさ} (examination, screening) + {員|いん} (member, staff).\n\nCOMMON COLLOCATIONS:\n- {審査員|しんさいん}を{務|つと}める: to serve as a judge\n- {審査員|しんさいん}{長|ちょう}: head judge; chief examiner\n- {特別|とくべつ}{審査員|しんさいん}: special / guest judge\n\nSIMILAR WORDS:\n- {審判|しんぱん}: referee; umpire — judges play and fouls in sports rather than scoring artistic or competitive entries\n- {選考|せんこう}{委員|いいん}: selection committee member — chooses among applicants (jobs, awards) rather than scoring a performance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03331_shinpan",
+      "reading": "しんぱん",
+      "headword": "{審判|しんぱん}",
+      "label": "referee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17098_mensetsukan",
+      "reading": "めんせつかん",
+      "headword": "{面接官|めんせつかん}",
+      "label": "interviewer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24882_saitensha",
+      "reading": "さいてんしゃ",
+      "headword": "{採点者|さいてんしゃ}",
+      "label": "grader"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"],
+      "semantic": [
+        "person"
+      ],
       "domain": []
     },
     "created": "2026-05-27T04:08:18Z",
-    "modified": "2026-05-27T04:08:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

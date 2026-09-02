@@ -17,7 +17,9 @@
       "id": "25515_ireihi_ex1",
       "japanese": "{慰霊碑|いれいひ}の{前|まえ}で{祈|いの}った。",
       "english": "I prayed in front of the memorial monument.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25515_ireihi_ex2",
       "japanese": "{戦没者|せんぼつしゃ}のための{慰霊碑|いれいひ}が{建|た}てられた。",
       "english": "A memorial monument was erected for those who died in the war.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,46 @@
       "id": "25515_ireihi_ex3",
       "japanese": "{毎年|まいとし}{八月|はちがつ}になると、{広島|ひろしま}の{慰霊碑|いれいひ}には{多|おお}くの{人|ひと}が{花|はな}を{手向|たむ}ける。",
       "english": "Every August, many people lay flowers at the memorial monument in Hiroshima.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {慰霊|いれい} (consolation of spirits; memorial) + {碑|ひ} (stone monument). Deeply connected to Japanese memorial culture, especially post-war remembrance. Found at battle sites, disaster locations, and places of historical tragedy. The concept of {慰霊|いれい} reflects the belief in consoling the spirits of the dead so they may rest in peace.\n\nCOMMON COLLOCATIONS:\n- {慰霊碑|いれいひ}を{建|た}てる: to erect a memorial monument\n- {慰霊碑|いれいひ}に{花|はな}を{供|そな}える: to offer flowers at a memorial\n- {慰霊碑|いれいひ}の{前|まえ}で{黙祷|もくとう}する: to observe a moment of silence at a memorial\n- {戦没者|せんぼつしゃ}{慰霊碑|いれいひ}: war dead memorial\n\nSIMILAR WORDS:\n- {記念碑|きねんひ}: monument; commemorative stele — broader; can commemorate any event or achievement, not necessarily death\n- {墓石|ぼせき}: gravestone; tombstone — marks an individual grave rather than serving as a collective memorial\n- {慰霊祭|いれいさい}: memorial service — the ceremony rather than the physical monument",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27326_boseki",
+      "reading": "ぼせき",
+      "headword": "{墓石|ぼせき}",
+      "label": "gravestone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27133_ireisai",
+      "reading": "いれいさい",
+      "headword": "{慰霊祭|いれいさい}",
+      "label": "memorial service"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["religion", "history", "culture"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "religion",
+        "history",
+        "culture"
+      ]
     },
     "created": "2026-04-25T15:18:34Z",
-    "modified": "2026-04-25T15:18:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

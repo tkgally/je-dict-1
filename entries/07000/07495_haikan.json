@@ -2,7 +2,7 @@
   "id": "07495_haikan",
   "headword": "{配管|はいかん}",
   "reading": "はいかん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "plumbing; piping; pipe installation",
   "conjugation": {
     "type": "suru",
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{配|はい} (distribute) + {管|かん} (pipe, tube)\n\nLiterally \"distributing pipes\" - the system of pipes that distributes water/gas throughout a building.\n\nTYPES OF {配管|はいかん}:\n・{給水|きゅうすい}{配管|はいかん} - water supply piping\n・{排水|はいすい}{配管|はいかん} - drainage piping\n・ガス{配管|はいかん} - gas piping\n・{空調|くうちょう}{配管|はいかん} - HVAC piping\n\nCOMMON EXPRESSIONS:\n・{配管|はいかん}{工事|こうじ} - plumbing work\n・{配管|はいかん}{業者|ぎょうしゃ} - plumber/plumbing contractor\n・{配管|はいかん}を{通|とお}す - to run pipes\n・{配管|はいかん}が{詰|つ}まる - pipes get clogged\n\nCOMMON ISSUES:\n・{水漏|みずも}れ - water leak\n・{詰|つ}まり - clogging\n・{凍結|とうけつ} - freezing (in winter)\n・{老朽化|ろうきゅうか} - deterioration (in old buildings)\n\nRELATED TERMS:\n・{水道管|すいどうかん} - water pipe\n・{排水管|はいすいかん} - drain pipe",
+  "notes": "ETYMOLOGY:\n{配|はい} (distribute) + {管|かん} (pipe, tube)\n\nLiterally \"distributing pipes\" - the system of pipes that distributes water/gas throughout a building.\n\nTYPES OF {配管|はいかん}:\n- {給水|きゅうすい}{配管|はいかん} - water supply piping\n- {排水|はいすい}{配管|はいかん} - drainage piping\n- ガス{配管|はいかん} - gas piping\n- {空調|くうちょう}{配管|はいかん} - HVAC piping\n\nCOMMON EXPRESSIONS:\n- {配管|はいかん}{工事|こうじ} - plumbing work\n- {配管|はいかん}{業者|ぎょうしゃ} - plumber/plumbing contractor\n- {配管|はいかん}を{通|とお}す - to run pipes\n- {配管|はいかん}が{詰|つ}まる - pipes get clogged\n\nCOMMON ISSUES:\n- {水漏|みずも}れ - water leak\n- {詰|つ}まり - clogging\n- {凍結|とうけつ} - freezing (in winter)\n- {老朽化|ろうきゅうか} - deterioration (in old buildings)\n\nRELATED WORDS:\n- {水道管|すいどうかん} - water pipe\n- {排水管|はいすいかん} - drain pipe",
   "cross_references": [
     {
       "type": "related",
@@ -138,11 +138,32 @@
       "headword": "{水漏|みずも}れ",
       "label": "water leak",
       "target_id": "07936_mizumore"
+    },
+    {
+      "type": "related",
+      "target_id": "08094_suidoukan",
+      "reading": "すいどうかん",
+      "headword": "{水道管|すいどうかん}",
+      "label": "water pipe"
+    },
+    {
+      "type": "related",
+      "target_id": "23157_haisuikan",
+      "reading": "はいすいかん",
+      "headword": "{排水管|はいすいかん}",
+      "label": "drain pipe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30045_sousuikan",
+      "reading": "そうすいかん",
+      "headword": "送水管",
+      "label": "water pipe"
     }
   ],
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-08-10T18:29:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +172,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "building",
         "technology"

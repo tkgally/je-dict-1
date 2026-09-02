@@ -3,7 +3,7 @@
   "headword": "{合焦|ごうしょう}",
   "reading": "ごうしょう",
   "romaji": "goushou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "focusing; being in focus",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Composed of {合|ごう} (match, fit) and {焦|しょう} (focal point). A technical term from optics and photography meaning the state where light rays converge to produce a sharp image. Often used in camera specifications, photography guides, and lens reviews.\n\nCOMMON COLLOCATIONS:\n- {合焦|ごうしょう}{速度|そくど}: focusing speed\n- {合焦|ごうしょう}{精度|せいど}: focusing accuracy\n- {合焦|ごうしょう}する: to focus / to achieve focus\n- {合焦|ごうしょう}{距離|きょり}: focused distance\n- {自動|じどう}{合焦|ごうしょう}: autofocus\n\nSIMILAR WORDS:\n- ピント: focus (from Dutch \"brandpunt\") — the everyday term for focus in photography\n- フォーカス: focus (English loanword) — used in both photography and general contexts\n- {焦点|しょうてん}: focal point — the technical/physics term; also used figuratively",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06363_pinto",
+      "reading": "ぴんと",
+      "headword": "ピント",
+      "label": "focus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13413_shouten",
+      "reading": "しょうてん",
+      "headword": "{焦点|しょうてん}",
+      "label": "focal point"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -65,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-02T13:34:44Z",
-    "modified": "2026-05-02T13:34:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

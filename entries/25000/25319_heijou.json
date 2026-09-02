@@ -3,7 +3,7 @@
   "headword": "{平常|へいじょう}",
   "reading": "へいじょう",
   "romaji": "heijou",
-  "part_of_speech": "noun / adjective (な/の)",
+  "part_of_speech": "noun, na-adjective, no-adjective",
   "gloss": "normal; ordinary; usual",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Refers to the state of things being normal, especially as contrasted with exceptional or emergency situations. Composed of {平|へい} (flat, calm) and {常|じょう} (always, ordinary). The compound {平常心|へいじょうしん} (equanimity, calm composure) is particularly common in martial arts and sports.\n\nCOMMON COLLOCATIONS:\n- {平常|へいじょう}{心|しん}: composure, equanimity\n- {平常|へいじょう}{通|どお}り: as usual, as normal\n- {平常|へいじょう}{時|じ}: normal times (as opposed to emergencies)\n- {平常|へいじょう}{運転|うんてん}: normal operation\n\nSIMILAR WORDS:\n- {普通|ふつう}: normal, ordinary — the most common everyday word\n- {通常|つうじょう}: usual, ordinary — slightly more formal, common in writing\n- {日常|にちじょう}: daily life, everyday — emphasizes routine",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01502_futsuu",
+      "reading": "ふつう",
+      "headword": "{普通|ふつう}",
+      "label": "normal, ordinary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27316_tsuujou",
+      "reading": "つうじょう",
+      "headword": "{通常|つうじょう}",
+      "label": "usual, ordinary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01595_nichijou",
+      "reading": "にちじょう",
+      "headword": "{日常|にちじょう}",
+      "label": "daily life, everyday"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,11 +77,12 @@
         "adjective-na",
         "adjective-no"
       ],
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ]
     },
     "created": "2026-04-24T14:26:42Z",
-    "modified": "2026-04-24T14:26:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

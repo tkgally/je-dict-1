@@ -3,7 +3,7 @@
   "headword": "{暴行|ぼうこう}",
   "reading": "ぼうこう",
   "romaji": "boukou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "assault; act of violence; battery",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Refers to inflicting physical violence on a person. Common in news and legal contexts, and sometimes used as a euphemism for sexual assault.\n\nCOMMON COLLOCATIONS:\n- {暴行|ぼうこう}を{加|くわ}える: to commit an assault (on someone)\n- {暴行|ぼうこう}を{受|う}ける: to be assaulted\n- {暴行|ぼうこう}{事件|じけん}: an assault case\n\nSIMILAR WORDS:\n- {暴力|ぼうりょく}: violence — the general phenomenon of force, whereas {暴行|ぼうこう} is a specific violent act\n- {傷害|しょうがい}: bodily injury (as a crime) — an assault that actually causes injury",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02528_bouryoku",
+      "reading": "ぼうりょく",
+      "headword": "{暴力|ぼうりょく}",
+      "label": "violence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22910_shougai",
+      "reading": "しょうがい",
+      "headword": "{傷害|しょうがい}",
+      "label": "bodily injury"
+    },
+    {
+      "type": "related",
+      "target_id": "08002_bankou",
+      "reading": "ばんこう",
+      "headword": "{蛮行|ばんこう}",
+      "label": "barbaric act"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18187_ouda",
+      "reading": "おうだ",
+      "headword": "{殴打|おうだ}",
+      "label": "striking"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +84,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "law",
         "society"
@@ -64,7 +94,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-21T04:04:20Z",
-    "modified": "2026-05-21T04:04:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

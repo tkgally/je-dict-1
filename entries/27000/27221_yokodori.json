@@ -3,7 +3,7 @@
   "headword": "{横取|よこど}り",
   "reading": "よこどり",
   "romaji": "yokodori",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "snatching away; stealing; intercepting",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "From {横|よこ} (side/lateral) + {取|と}り (taking). The image is of someone coming from the side to snatch something away — an unexpected, unfair taking. Can be used with する as a suru-verb. Always carries a negative nuance of unfairness.\n\nCOMMON COLLOCATIONS:\n- {手柄|てがら}を{横取|よこど}りする: to steal credit\n- {獲物|えもの}を{横取|よこど}りする: to steal someone's prey/prize\n- {客|きゃく}を{横取|よこど}りする: to poach a customer\n- ～に{横取|よこど}りされる: to have something snatched by...\n\nSIMILAR WORDS:\n- {奪|うば}う: to seize; to rob — a more forceful, direct taking\n- {掠|かす}め{取|と}る: to snatch; to swipe — emphasizes speed and stealth\n- {盗|ぬす}む: to steal — the general word for stealing\n- {横領|おうりょう}: embezzlement — a legal/formal term for misappropriating entrusted assets",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01895_ubau",
+      "reading": "うばう",
+      "headword": "{奪|うば}う",
+      "label": "to seize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01166_nusumu",
+      "reading": "ぬすむ",
+      "headword": "{盗|ぬす}む",
+      "label": "to steal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09001_ouryou",
+      "reading": "おうりょう",
+      "headword": "{横領|おうりょう}",
+      "label": "embezzlement"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-07T16:20:32Z",
-    "modified": "2026-05-07T16:20:32Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

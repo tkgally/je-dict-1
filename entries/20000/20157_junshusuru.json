@@ -3,7 +3,7 @@
   "headword": "{遵守|じゅんしゅ}する",
   "reading": "じゅんしゅする",
   "romaji": "junshusuru",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to comply with; to observe; to abide by",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,29 @@
   ],
   "notes": "A する-verb from {遵守|じゅんしゅ}, a compound of {遵|じゅん} (follow, obey) and {守|しゅ} (protect, observe). Very formal; a key term in legal compliance, corporate governance, and regulatory contexts. Sometimes read as そんしゅ, though じゅんしゅ is the standard modern reading.\n\nTRANSITIVITY:\nTransitive — takes を to mark the rules being followed.\n\nCOMMON COLLOCATIONS:\n- {法令|ほうれい}{遵守|じゅんしゅ} — legal compliance (コンプライアンス)\n- {規則|きそく}を{遵守|じゅんしゅ}する — to observe rules\n- {遵守|じゅんしゅ}{事項|じこう} — matters to be observed\n- {遵守|じゅんしゅ}{義務|ぎむ} — obligation to comply\n\nSIMILAR WORDS:\n- {守|まも}る — to protect, to observe (rules) (more casual, everyday)\n- {従|したが}う — to follow, to obey (broader, includes following people)\n- コンプライアンス — compliance (loanword, common in business)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01986_mamoru",
+      "reading": "まもる",
+      "headword": "{守|まも}る",
+      "label": "to protect, to observe (rules)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02059_shitagau",
+      "reading": "したがう",
+      "headword": "{従|したが}う",
+      "label": "to follow, to obey"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06379_konpuraiansu",
+      "reading": "こんぷらいあんす",
+      "headword": "コンプライアンス",
+      "label": "compliance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +175,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T15:12:49Z",
-    "modified": "2026-03-28T15:12:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

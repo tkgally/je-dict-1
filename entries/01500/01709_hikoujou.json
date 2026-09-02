@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{飛行場|ひこうじょう} is composed of {飛行|ひこう} (flight) + {場|じょう} (place).\n\n{飛行場|ひこうじょう} vs ⟦{空港|くうこう}→空港：00648_kuukou⟧:\n- {飛行場|ひこうじょう}: airfield, airport (general, can be smaller)\n- ⟦{空港|くうこう}→空港：00648_kuukou⟧: airport (typically larger, international)\n\nBoth are commonly used for airports.\n\nMAJOR JAPANESE AIRPORTS:\n- {成田|なりた}⟦{空港|くうこう}→空港：00648_kuukou⟧: Narita Airport\n- {羽田|はねだ}⟦{空港|くうこう}→空港：00648_kuukou⟧: Haneda Airport\n- ⟦{関西|かんさい}→関西：00179_kansai⟧⟦{空港|くうこう}→空港：00648_kuukou⟧: Kansai Airport\n\nRELATED TERMS:\n- ⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧: airplane\n- ⟦{出発|しゅっぱつ}→出発：02085_shuppatsu⟧: departure\n- ⟦{到着|とうちゃく}→到着：02526_touchaku⟧: arrival",
+  "notes": "{飛行場|ひこうじょう} is composed of {飛行|ひこう} (flight) + {場|じょう} (place).\n\n{飛行場|ひこうじょう} vs ⟦{空港|くうこう}→空港：00648_kuukou⟧:\n- {飛行場|ひこうじょう}: airfield, airport (general, can be smaller)\n- ⟦{空港|くうこう}→空港：00648_kuukou⟧: airport (typically larger, international)\n\nBoth are commonly used for airports.\n\nMAJOR JAPANESE AIRPORTS:\n- {成田|なりた}⟦{空港|くうこう}→空港：00648_kuukou⟧: Narita Airport\n- {羽田|はねだ}⟦{空港|くうこう}→空港：00648_kuukou⟧: Haneda Airport\n- ⟦{関西|かんさい}→関西：00179_kansai⟧⟦{空港|くうこう}→空港：00648_kuukou⟧: Kansai Airport\n\nRELATED WORDS:\n- ⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧: airplane\n- ⟦{出発|しゅっぱつ}→出発：02085_shuppatsu⟧: departure\n- ⟦{到着|とうちゃく}→到着：02526_touchaku⟧: arrival",
   "cross_references": [
     {
       "type": "synonym",
@@ -71,11 +71,32 @@
       "reading": "くうこう",
       "headword": "{空港|くうこう}",
       "label": "airport (common)"
+    },
+    {
+      "type": "related",
+      "target_id": "00629_hikouki",
+      "reading": "ひこうき",
+      "headword": "{飛行機|ひこうき}",
+      "label": "airplane"
+    },
+    {
+      "type": "related",
+      "target_id": "02085_shuppatsu",
+      "reading": "しゅっぱつ",
+      "headword": "{出発|しゅっぱつ}",
+      "label": "departure"
+    },
+    {
+      "type": "related",
+      "target_id": "02526_touchaku",
+      "reading": "とうちゃく",
+      "headword": "{到着|とうちゃく}",
+      "label": "arrival"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:03:25Z",
-    "modified": "2026-06-11T10:50:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

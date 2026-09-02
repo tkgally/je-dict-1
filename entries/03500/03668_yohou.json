@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {予報|よほう} is most commonly used for weather forecasts (⟦{天気|てんき}{予報|よほう}→天気予報：01678_tenkiyohou⟧), but can also be used for other types of official predictions.\n\nCOMMON PATTERNS:\n・⟦{天気|てんき}{予報|よほう}→天気予報：01678_tenkiyohou⟧ (weather forecast)\n・⟦{週間|しゅうかん}→週間：00988_shuukan⟧{予報|よほう} (weekly forecast)\n・{予報|よほう}⟦{士|し}→士：noentry⟧ (weather forecaster)\n・{予報|よほう}⟦が→が：00051_ga⟧⟦{当|あ}たる→当たる：01860_ataru⟧ (forecast is accurate)\n・{予報|よほう}⟦が→が：00051_ga⟧⟦{外|はず}れる→外れる：02395_hazureru⟧ (forecast is wrong)\n\nRELATED:\n・⟦{予測|よそく}→予測：03665_yosoku⟧ - prediction (analytical)\n・⟦{予想|よそう}→予想：03664_yosou⟧ - expectation, prediction",
+  "notes": "USAGE: {予報|よほう} is most commonly used for weather forecasts (⟦{天気|てんき}{予報|よほう}→天気予報：01678_tenkiyohou⟧), but can also be used for other types of official predictions.\n\nCOMMON PATTERNS:\n- ⟦{天気|てんき}{予報|よほう}→天気予報：01678_tenkiyohou⟧ (weather forecast)\n- ⟦{週間|しゅうかん}→週間：00988_shuukan⟧{予報|よほう} (weekly forecast)\n- {予報|よほう}⟦{士|し}→士：noentry⟧ (weather forecaster)\n- {予報|よほう}⟦が→が：00051_ga⟧⟦{当|あ}たる→当たる：01860_ataru⟧ (forecast is accurate)\n- {予報|よほう}⟦が→が：00051_ga⟧⟦{外|はず}れる→外れる：02395_hazureru⟧ (forecast is wrong)\n\nRELATED WORDS:\n- ⟦{予測|よそく}→予測：03665_yosoku⟧ - prediction (analytical)\n- ⟦{予想|よそう}→予想：03664_yosou⟧ - expectation, prediction",
   "cross_references": [
     {
       "type": "synonym",
@@ -58,11 +58,25 @@
       "reading": "よそう",
       "headword": "{予想|よそう}",
       "label": "general prediction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19654_yosokusuru",
+      "reading": "よそくする",
+      "headword": "{予測|よそく}する",
+      "label": "to predict"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27005_yochisuru",
+      "reading": "よちする",
+      "headword": "{予知|よち}する",
+      "label": "to predict"
     }
   ],
   "metadata": {
     "created": "2026-01-12T16:07:00Z",
-    "modified": "2026-05-26T21:15:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

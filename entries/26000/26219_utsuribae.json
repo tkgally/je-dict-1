@@ -17,7 +17,9 @@
       "id": "26219_utsuribae_ex1",
       "japanese": "この{料理|りょうり}は{写|うつ}り{映|ば}えがいい。",
       "english": "This dish is very photogenic.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26219_utsuribae_ex2",
       "japanese": "{写|うつ}り{映|ば}えを{意識|いしき}して{盛|も}り{付|つ}けた。",
       "english": "I plated the food with photogenic appeal in mind.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,44 @@
       "id": "26219_utsuribae_ex3",
       "japanese": "SNSでは{写|うつ}り{映|ば}えのする{写真|しゃしん}が{多|おお}くの「いいね」を{集|あつ}める。",
       "english": "On social media, photogenic pictures collect many 'likes.'",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {写|うつ}り (how something appears in a photo/on screen) and {映|は}え (shining, looking impressive — the same {映|は}え as in the popular word インスタ{映|ば}え). The reading changes to ばえ through rendaku.\n\nThis word predates the social media era but has gained renewed relevance with Instagram culture. While インスタ{映|ば}え specifically refers to looking good on Instagram, {写|うつ}り{映|ば}え is a more general term for photogenic quality that applies to any photography or filming context.\n\nCOMMON COLLOCATIONS:\n- {写|うつ}り{映|ば}えがいい: to be photogenic; to look good in photos\n- {写|うつ}り{映|ば}えがする: to be visually striking in photos\n- {写|うつ}り{映|ば}えを{気|き}にする: to care about how one looks in photos\n- {写|うつ}り{映|ば}えを{意識|いしき}する: to be conscious of photogenic appeal\n\nSIMILAR WORDS:\n- インスタ{映|ば}え: Instagrammable — specifically for social media\n- {見|み}{栄|ば}え: visual appearance; outward show — how something looks in general, not limited to photos\n- {写|うつ}り{具合|ぐあい}: how something comes out in a photo — more neutral, describing the result rather than the appeal",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09044_mibae",
+      "reading": "みばえ",
+      "headword": "{見栄|みば}え",
+      "label": "visual appearance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29814_utsuriguai",
+      "reading": "うつりぐあい",
+      "headword": "{写|うつ}り{具合|ぐあい}",
+      "label": "how something comes out in a photo"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     },
     "created": "2026-04-30T12:12:23Z",
-    "modified": "2026-04-30T12:12:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

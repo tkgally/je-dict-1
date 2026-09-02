@@ -24,7 +24,9 @@
       "english": "I like the feel of silk.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12743_kanshoku_ex2",
@@ -32,7 +34,9 @@
       "english": "This fabric has a soft feel to it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12743_kanshoku_ex3",
@@ -40,7 +44,9 @@
       "english": "A baby's skin has a smooth feel and is pleasant to touch.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12743_kanshoku_ex4",
@@ -48,7 +54,9 @@
       "english": "I got a good impression.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12743_kanshoku_ex5",
@@ -56,7 +64,9 @@
       "english": "How did the negotiation feel?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12743_kanshoku_ex6",
@@ -64,7 +74,9 @@
       "english": "The feel of the interview wasn't bad, but I don't know the result yet.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "{感触|かんしょく} has both a physical and figurative meaning. Physically, it describes the tactile sensation when touching something. Figuratively, it describes the general impression from an interaction.\n\nCOMMON COLLOCATIONS:\n- {感触|かんしょく}がいい / {良|よ}い{感触|かんしょく}: good feel, positive impression\n- {感触|かんしょく}を{確|たし}かめる: to check the feel\n- {感触|かんしょく}を{得|え}る: to get an impression\n- {柔|やわ}らかい{感触|かんしょく}: soft feel\n\nSIMILAR WORDS:\n- {手触|てざわ}り: texture, feel (specifically by hand)\n- {肌触|はだざわ}り: feel against the skin\n- {印象|いんしょう}: impression (more about visual or overall impression)",
@@ -75,18 +87,37 @@
       "reading": "てざわり",
       "headword": "{手触|てざわ}り",
       "label": "texture (by hand)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06637_hadazawari",
+      "reading": "はだざわり",
+      "headword": "{肌触|はだざわ}り",
+      "label": "feel against the skin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01846_inshou",
+      "reading": "いんしょう",
+      "headword": "{印象|いんしょう}",
+      "label": "impression"
     }
   ],
   "metadata": {
     "created": "2026-02-22T09:57:14Z",
-    "modified": "2026-08-22T00:30:21Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition", "descriptive"]
+      "semantic": [
+        "cognition",
+        "descriptive"
+      ]
     }
   }
 }

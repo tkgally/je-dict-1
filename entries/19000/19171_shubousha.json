@@ -17,7 +17,9 @@
       "id": "19171_shubousha_ex1",
       "japanese": "{事件|じけん}の{首謀者|しゅぼうしゃ}が{逮捕|たいほ}された。",
       "english": "The mastermind of the incident was arrested.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19171_shubousha_ex2",
       "japanese": "{首謀者|しゅぼうしゃ}はまだ{特定|とくてい}されていない。",
       "english": "The ringleader has not yet been identified.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,54 @@
       "id": "19171_shubousha_ex3",
       "japanese": "{警察|けいさつ}は{詐欺|さぎ}グループの{首謀者|しゅぼうしゃ}を{追|お}っている。",
       "english": "The police are pursuing the mastermind of the fraud ring.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {首謀|しゅぼう} (plotting, scheming) + {者|しゃ} (person). Almost always carries a negative connotation — the person behind illegal or harmful activities. Common collocations: {首謀者|しゅぼうしゃ}を{逮捕|たいほ}する (to arrest the ringleader), {首謀者|しゅぼうしゃ}を{特定|とくてい}する (to identify the mastermind). Compare with {黒幕|くろまく} (puppet master — someone pulling strings from behind the scenes) and {主犯|しゅはん} (principal offender — the legal term).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24748_motojime",
+      "reading": "もとじめ",
+      "headword": "{元締|もとじ}め",
+      "label": "boss"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26754_inbousha",
+      "reading": "いんぼうしゃ",
+      "headword": "{陰謀者|いんぼうしゃ}",
+      "label": "conspirator"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26787_chouhonnin",
+      "reading": "ちょうほんにん",
+      "headword": "{張本人|ちょうほんにん}",
+      "label": "main culprit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"],
-      "domain": ["legal"]
+      "semantic": [
+        "person"
+      ],
+      "domain": [
+        "legal"
+      ]
     },
     "created": "2026-03-24T11:30:53Z",
-    "modified": "2026-03-24T11:30:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

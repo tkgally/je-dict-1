@@ -3,7 +3,7 @@
   "headword": "{無計画|むけいかく}",
   "reading": "むけいかく",
   "romaji": "mukeikaku",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "unplanned; without a plan",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "27016_mukeikaku_ex1",
       "japanese": "{無計画|むけいかく}な{旅行|りょこう}。",
       "english": "An unplanned trip.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27016_mukeikaku_ex2",
       "japanese": "{無計画|むけいかく}に{買|か}い{物|もの}をすると{無駄遣|むだづか}いが{増|ふ}える。",
       "english": "If you shop without a plan, wasteful spending increases.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "27016_mukeikaku_ex3",
       "japanese": "{無計画|むけいかく}な{開発|かいはつ}が{環境|かんきょう}{破壊|はかい}につながった。",
       "english": "Unplanned development led to environmental destruction.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from {無|む} (without) + {計画|けいかく} (plan). Used both as a na-adjective ({無計画|むけいかく}な) and as a noun. Often carries a negative connotation, implying carelessness or irresponsibility.\n\nCOMMON COLLOCATIONS:\n- {無計画|むけいかく}な{行動|こうどう}: unplanned actions\n- {無計画|むけいかく}な{支出|ししゅつ}: unplanned spending\n- {無計画|むけいかく}に{進|すす}める: to proceed without a plan\n- {無計画|むけいかく}な{都市|とし}{開発|かいはつ}: unplanned urban development\n\nSIMILAR WORDS:\n- {行|い}き{当|あ}たりばったり: haphazard; random — more colloquial; emphasizes leaving things to chance\n- {計画性|けいかくせい}がない: lacking planning ability — focuses on a personal trait rather than a specific action\n- {無秩序|むちつじょ}: disorderly; chaotic — stronger, implying active disorder rather than just lack of planning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27217_ikiataribattari",
+      "reading": "いきあたりばったり",
+      "headword": "{行|い}き{当|あ}たりばったり",
+      "label": "haphazard"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21429_muchitsujo",
+      "reading": "むちつじょ",
+      "headword": "{無秩序|むちつじょ}",
+      "label": "disorderly"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["evaluation"]
+      "semantic": [
+        "evaluation"
+      ]
     },
     "created": "2026-05-06T14:17:43Z",
-    "modified": "2026-05-06T14:17:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

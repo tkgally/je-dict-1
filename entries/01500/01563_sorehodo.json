@@ -64,10 +64,60 @@
     }
   ],
   "notes": "それほど is commonly used with negative predicates to soften statements, meaning 'not particularly' or 'not that much'.\n\nCOMMON PATTERNS:\n- それほど〜ない (not that ~)\n- それほど〜なくてもいい (don't need to ~ that much)\n\nSIMILAR WORDS:\n- ⟦そんなに→そんなに：01646_sonnani⟧: similar meaning, slightly more casual\n- ⟦あまり→あまり：00604_amari⟧: also used with negatives, but stronger negation\n- ⟦たいして→たいして：07436_taishite⟧: more formal, often used in written Japanese\n\nIn positive sentences, それほど emphasizes degree: それほど⟦{大切|たいせつ}→大切：01456_taisetsu⟧な⟦こと→こと：01164_koto⟧です (It's that important).",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01646_sonnani",
+      "reading": "そんなに",
+      "headword": "そんなに",
+      "label": "similar meaning, slightly more casual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00604_amari",
+      "reading": "あまり",
+      "headword": "あまり",
+      "label": "also used with negatives, but stronger…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07436_taishite",
+      "reading": "たいして",
+      "headword": "たいして",
+      "label": "more formal, often used in written…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16929_sahodo",
+      "reading": "さほど",
+      "headword": "さほど",
+      "label": "not so much"
+    },
+    {
+      "type": "related",
+      "target_id": "18054_korehodo",
+      "reading": "これほど",
+      "headword": "これほど",
+      "label": "this much, to this extent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20078_arehodo",
+      "reading": "あれほど",
+      "headword": "あれほど",
+      "label": "that much"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30178_sokomade",
+      "reading": "そこまで",
+      "headword": "そこまで",
+      "label": "that far"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:11:27Z",
-    "modified": "2026-05-15T22:08:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

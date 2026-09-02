@@ -3,7 +3,7 @@
   "id": "17516_chinbotsu",
   "headword": "{沈没|ちんぼつ}",
   "reading": "ちんぼつ",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sinking; foundering",
   "conjugation": {
     "type": "suru",
@@ -177,11 +177,32 @@
       "reading": "しずむ",
       "headword": "{沈|しず}む",
       "label": "to sink (intransitive)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14817_sensui",
+      "reading": "せんすい",
+      "headword": "{潜水|せんすい}",
+      "label": "diving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24054_tenpuku",
+      "reading": "てんぷく",
+      "headword": "{転覆|てんぷく}",
+      "label": "capsizing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23143_suibotsu",
+      "reading": "すいぼつ",
+      "headword": "{水没|すいぼつ}",
+      "label": "submersion"
     }
   ],
   "metadata": {
     "created": "2026-03-18T07:57:49Z",
-    "modified": "2026-05-06T08:07:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

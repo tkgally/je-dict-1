@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{時|じ} is the counter for hours when telling time.\n\nCOUNTING PATTERN (o'clock):\n1: {一時|いちじ}      6: {六時|ろくじ}\n2: {二時|にじ}       7: {七時|しちじ}\n3: {三時|さんじ}     8: {八時|はちじ}\n4: {四時|よじ}       9: {九時|くじ}\n5: {五時|ごじ}      10: {十時|じゅうじ}\n\nIRREGULAR READINGS:\n- 4: よじ (not よんじ)\n- 7: しちじ (ななじ also exists but less standard)\n- 9: くじ (not きゅうじ)\n\nCOMMON PATTERNS:\n- {何時|なんじ}: what time?\n- ～{時|じ}{半|はん}: half past ~\n- ～{時|じ}ちょうど: exactly ~ o'clock\n- ～{時|じ}{頃|ごろ}: around ~ o'clock\n\nRELATED COUNTERS:\n- ～{分|ふん}/{分|ぷん}: minutes\n- ～{秒|びょう}: seconds\n- ～{時間|じかん}: duration in hours",
+  "notes": "{時|じ} is the counter for hours when telling time.\n\nCOUNTING PATTERN (o'clock):\n1: {一時|いちじ}      6: {六時|ろくじ}\n2: {二時|にじ}       7: {七時|しちじ}\n3: {三時|さんじ}     8: {八時|はちじ}\n4: {四時|よじ}       9: {九時|くじ}\n5: {五時|ごじ}      10: {十時|じゅうじ}\n\nCOUNTING PATTERNS:\n- 4: よじ (not よんじ)\n- 7: しちじ (ななじ also exists but less standard)\n- 9: くじ (not きゅうじ)\n\nCOMMON PATTERNS:\n- {何時|なんじ}: what time?\n- ～{時|じ}{半|はん}: half past ~\n- ～{時|じ}ちょうど: exactly ~ o'clock\n- ～{時|じ}{頃|ごろ}: around ~ o'clock\n\nRELATED COUNTERS:\n- ～{分|ふん}/{分|ぷん}: minutes\n- ～{秒|びょう}: seconds\n- ～{時間|じかん}: duration in hours",
   "cross_references": [
     {
       "type": "related",
@@ -72,6 +72,13 @@
       "reading": "びょう",
       "headword": "{秒|びょう}",
       "label": "second counter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00941_ichijikan",
+      "reading": "いちじかん",
+      "headword": "{一時間|いちじかん}",
+      "label": "one hour"
     }
   ],
   "metadata": {
@@ -87,6 +94,6 @@
       ]
     },
     "created": "2026-02-04T03:55:03Z",
-    "modified": "2026-08-10T12:37:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

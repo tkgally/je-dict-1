@@ -2,7 +2,7 @@
   "id": "04884_asshuku",
   "headword": "{圧縮|あっしゅく}",
   "reading": "あっしゅく",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "compression",
   "conjugation": {
     "type": "suru",
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "{圧縮|あっしゅく} means compression, used both physically and in computing. Functions as noun and suru-verb.\n\nWORD FORMATION:\n{圧|あつ} (pressure) + {縮|しゅく} (shrink)\n\nCOMMON EXPRESSIONS:\n- {圧縮|あっしゅく}⟦する→する：00392_suru⟧: to compress\n- {圧縮|あっしゅく}⟦ファイル→ファイル：05280_fairu⟧: compressed file\n- {圧縮|あっしゅく}⟦{率|りつ}→率：03802_ritsu⟧: compression ratio\n- {圧縮|あっしゅく}⟦{空気|くうき}→空気：01390_kuuki⟧: compressed air\n\nCOMPUTING TERMS:\n- ⟦ZIP→ZIP：noentry⟧{圧縮|あっしゅく}: ZIP compression\n- ⟦{画像|がぞう}→画像：13549_gazou⟧{圧縮|あっしゅく}: image compression\n- ⟦{解凍|かいとう}→解凍：19085_kaitou⟧⟦する→する：00392_suru⟧: to decompress/extract\n- ⟦{展開|てんかい}する→展開する：25229_tenkaisuru⟧: to expand (files)\n\nANTONYM:\n⟦{解凍|かいとう}→解凍：19085_kaitou⟧ (decompression) or ⟦{展開|てんかい}→展開：04542_tenkai⟧ (expansion) for computing contexts.",
+  "notes": "{圧縮|あっしゅく} means compression, used both physically and in computing. Functions as noun and suru-verb.\n\nFORMS:\n{圧|あつ} (pressure) + {縮|しゅく} (shrink)\n\nCOMMON EXPRESSIONS:\n- {圧縮|あっしゅく}⟦する→する：00392_suru⟧: to compress\n- {圧縮|あっしゅく}⟦ファイル→ファイル：05280_fairu⟧: compressed file\n- {圧縮|あっしゅく}⟦{率|りつ}→率：03802_ritsu⟧: compression ratio\n- {圧縮|あっしゅく}⟦{空気|くうき}→空気：01390_kuuki⟧: compressed air\n\nCOMPUTING TERMS:\n- ⟦ZIP→ZIP：noentry⟧{圧縮|あっしゅく}: ZIP compression\n- ⟦{画像|がぞう}→画像：13549_gazou⟧{圧縮|あっしゅく}: image compression\n- ⟦{解凍|かいとう}→解凍：19085_kaitou⟧⟦する→する：00392_suru⟧: to decompress/extract\n- ⟦{展開|てんかい}する→展開する：25229_tenkaisuru⟧: to expand (files)\n\nSIMILAR WORDS:\n⟦{解凍|かいとう}→解凍：19085_kaitou⟧ (decompression) or ⟦{展開|てんかい}→展開：04542_tenkai⟧ (expansion) for computing contexts.",
   "cross_references": [
     {
       "type": "antonym",
@@ -176,11 +176,39 @@
       "reading": "かいとう",
       "headword": "{解凍|かいとう}",
       "label": "decompress/thaw"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24081_assaku",
+      "reading": "あっさく",
+      "headword": "{圧搾|あっさく}",
+      "label": "compression"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24095_genatsu",
+      "reading": "げんあつ",
+      "headword": "{減圧|げんあつ}",
+      "label": "decompression"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25359_shukushousuru",
+      "reading": "しゅくしょうする",
+      "headword": "{縮小|しゅくしょう}する",
+      "label": "to reduce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27345_fugouka",
+      "reading": "ふごうか",
+      "headword": "{符号化|ふごうか}",
+      "label": "encoding (math/computing)"
     }
   ],
   "metadata": {
     "created": "2026-01-16T00:35:11Z",
-    "modified": "2026-06-03T13:09:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

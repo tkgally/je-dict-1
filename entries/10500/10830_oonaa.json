@@ -19,7 +19,9 @@
       "english": "I met the owner of the shop.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10830_oonaa_ex2",
@@ -27,7 +29,9 @@
       "english": "It's a restaurant where the owner cooks the food himself.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10830_oonaa_ex3",
@@ -35,10 +39,12 @@
       "english": "I received a rent increase notice from the apartment building owner.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "From English \"owner.\" Commonly used for business proprietors in Japanese.\n\nCOMPARISON:\n- オーナー: emphasizes ownership (financial/legal)\n- {店長|てんちょう}: store manager (may or may not be the owner)\n- {経営者|けいえいしゃ}: manager/executive (broader, more formal)\n- {大家|おおや}: landlord (specifically for rental property)\n\nCOMMON COMPOUNDS:\n- オーナーシェフ: owner-chef (owns and cooks at the restaurant)\n- オーナー{制度|せいど}: ownership system\n- {共同|きょうどう}オーナー: co-owner",
+  "notes": "From English \"owner.\" Commonly used for business proprietors in Japanese.\n\nSIMILAR WORDS:\n- オーナー: emphasizes ownership (financial/legal)\n- {店長|てんちょう}: store manager (may or may not be the owner)\n- {経営者|けいえいしゃ}: manager/executive (broader, more formal)\n- {大家|おおや}: landlord (specifically for rental property)\n\nCOMPOUNDS:\n- オーナーシェフ: owner-chef (owns and cooks at the restaurant)\n- オーナー{制度|せいど}: ownership system\n- {共同|きょうどう}オーナー: co-owner",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,44 @@
       "reading": "おおや",
       "headword": "{大家|おおや}",
       "label": "landlord"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30461_tenchou",
+      "reading": "てんちょう",
+      "headword": "{店長|てんちょう}",
+      "label": "store manager"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10439_mochinushi",
+      "reading": "もちぬし",
+      "headword": "{持|も}ち{主|ぬし}",
+      "label": "owner, possessor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21212_shoyuusha",
+      "reading": "しょゆうしゃ",
+      "headword": "{所有者|しょゆうしゃ}",
+      "label": "owner"
     }
   ],
   "metadata": {
     "created": "2026-02-10T08:34:26Z",
-    "modified": "2026-04-24T09:07:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "work"]
+      "semantic": [
+        "person",
+        "work"
+      ]
     }
   }
 }

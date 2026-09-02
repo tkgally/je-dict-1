@@ -46,6 +46,50 @@
   ],
   "notes": "Compound of {引|ひ}く (to pull) + {戸|と} (door). Contrasted with hinged doors, which require swing-out clearance.\n\nCOMMON COLLOCATIONS:\n- {引|ひ}き{戸|ど}を{開|あ}ける: to open a sliding door\n- {引|ひ}き{戸|ど}を{閉|し}める: to close a sliding door\n- {引|ひ}き{戸|ど}の{部屋|へや}: a room with sliding doors\n\nSIMILAR WORDS:\n- {開|ひら}き{戸|ど}: hinged door — opens by swinging on hinges\n- {襖|ふすま}: fusuma — paper-and-wood sliding panel for interior partitions\n- {障子|しょうじ}: shoji — sliding screen of translucent paper on a wooden frame",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03908_fusuma",
+      "reading": "ふすま",
+      "headword": "{襖|ふすま}",
+      "label": "fusuma"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04201_shouji",
+      "reading": "しょうじ",
+      "headword": "{障子|しょうじ}",
+      "label": "shoji"
+    },
+    {
+      "type": "related",
+      "target_id": "19985_tategu",
+      "reading": "たてぐ",
+      "headword": "{建具|たてぐ}",
+      "label": "fittings"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21182_kaitendoa",
+      "reading": "かいてんどあ",
+      "headword": "{回転|かいてん}ドア",
+      "label": "revolving door"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23423_sasshi",
+      "reading": "さっし",
+      "headword": "サッシ",
+      "label": "window sash"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27051_shoujido",
+      "reading": "しょうじど",
+      "headword": "{障子戸|しょうじど}",
+      "label": "shoji door"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +97,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "building"
       ],
       "domain": []
     },
     "created": "2026-05-13T03:09:10Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

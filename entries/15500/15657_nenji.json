@@ -24,7 +24,9 @@
       "english": "To prepare an annual report.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15657_nenji_ex2",
@@ -32,7 +34,9 @@
       "english": "I have twenty days of annual paid leave.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15657_nenji_ex3",
@@ -40,7 +44,9 @@
       "english": "The annual convention is scheduled to be held next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15657_nenji_ex4",
@@ -48,7 +54,9 @@
       "english": "There are many senior employees.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15657_nenji_ex5",
@@ -56,7 +64,9 @@
       "english": "We evaluate based on ability regardless of seniority.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15657_nenji_ex6",
@@ -64,22 +74,52 @@
       "english": "I met up with colleagues from the same year of hiring after a long time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nSense 1 is very common in business Japanese, especially in compounds like {年次|ねんじ}{報告|ほうこく} and {年次|ねんじ}{休暇|きゅうか}. Sense 2 is used in workplace and academic contexts to indicate how many years someone has been at an institution.\n\nCOMMON COLLOCATIONS:\n- {年次|ねんじ}{報告|ほうこく} (annual report)\n- {年次|ねんじ}{有給|ゆうきゅう}{休暇|きゅうか} (annual paid leave)\n- {年次|ねんじ}{大会|たいかい} (annual convention)\n- {入社|にゅうしゃ}{年次|ねんじ} (year of hiring)\n\nSIMILAR WORDS:\n- {年間|ねんかん}: over the course of a year\n- {毎年|まいとし}: every year (more everyday)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00974_nenkan",
+      "reading": "ねんかん",
+      "headword": "{年間|ねんかん}",
+      "label": "over the course of a year"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00731_maitoshi",
+      "reading": "まいとし",
+      "headword": "{毎年|まいとし}",
+      "label": "every year"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17266_nichiji",
+      "reading": "にちじ",
+      "headword": "{日次|にちじ}",
+      "label": "daily, day-by-day"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T06:42:26Z",
-    "modified": "2026-03-08T06:42:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-general"],
-      "domain": ["business"]
+      "semantic": [
+        "time-general"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

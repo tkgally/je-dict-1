@@ -17,7 +17,9 @@
       "id": "23767_yakouressha_ex1",
       "japanese": "{夜行列車|やこうれっしゃ}に{乗|の}る。",
       "english": "To take an overnight train.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23767_yakouressha_ex2",
       "japanese": "{夜行列車|やこうれっしゃ}で{北海道|ほっかいどう}まで{行|い}った。",
       "english": "I went all the way to Hokkaido by overnight train.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23767_yakouressha_ex3",
       "japanese": "{若|わか}いころ、{夜行列車|やこうれっしゃ}で{各地|かくち}を{旅|たび}したことがある。",
       "english": "When I was young, I traveled around the country by overnight train.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,59 @@
       "id": "23767_yakouressha_ex4",
       "japanese": "かつて{日本|にっぽん}には{多|おお}くの{夜行列車|やこうれっしゃ}が{走|はし}っていたが、{新幹線|しんかんせん}の{発達|はったつ}とともに{次第|しだい}に{姿|すがた}を{消|け}していった。",
       "english": "Japan once had many overnight trains, but they gradually disappeared as the Shinkansen network developed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {夜行|やこう} ('running/traveling at night') and {列車|れっしゃ} ('train'). Refers specifically to long-distance trains that operate through the night, as opposed to regular urban or commuter services that happen to run late.\n\nCULTURAL CONTEXT:\nOnce a central part of long-distance travel in Japan, overnight trains — particularly sleeper trains ({寝台|しんだい}{列車|れっしゃ}) — have largely been discontinued due to the expansion of the Shinkansen and budget airlines. Only a few remain, such as the luxury cruise train {サンライズ{出雲|いずも}}/{瀬戸|せと}, which retains a nostalgic status among rail fans.\n\nCOMMON COLLOCATIONS:\n- {夜行列車|やこうれっしゃ}に{乗|の}る: to take an overnight train\n- {夜行列車|やこうれっしゃ}で{旅|たび}する: to travel by overnight train\n- {夜行列車|やこうれっしゃ}の{旅|たび}: an overnight-train journey\n- {夜行列車|やこうれっしゃ}が{廃止|はいし}される: overnight train is discontinued\n\nSIMILAR WORDS:\n- {寝台|しんだい}{列車|れっしゃ}: sleeper train — has beds; overlaps with but is narrower than {夜行列車|やこうれっしゃ}\n- {夜行|やこう}バス: overnight bus — the modern equivalent for budget travelers\n- {夜行便|やこうびん}: night flight/service — used for planes and ships\n- {急行列車|きゅうこうれっしゃ}: express train — category based on speed, not time of day\n\nREGISTER:\nNeutral written and spoken. Particularly common in travel writing, nostalgia pieces, and discussion of rail history.",
+  "notes": "Compound of {夜行|やこう} ('running/traveling at night') and {列車|れっしゃ} ('train'). Refers specifically to long-distance trains that operate through the night, as opposed to regular urban or commuter services that happen to run late.\n\nCULTURAL NOTE:\nOnce a central part of long-distance travel in Japan, overnight trains — particularly sleeper trains ({寝台|しんだい}{列車|れっしゃ}) — have largely been discontinued due to the expansion of the Shinkansen and budget airlines. Only a few remain, such as the luxury cruise train サンライズ{出雲|いずも}/{瀬戸|せと}, which retains a nostalgic status among rail fans.\n\nCOMMON COLLOCATIONS:\n- {夜行列車|やこうれっしゃ}に{乗|の}る: to take an overnight train\n- {夜行列車|やこうれっしゃ}で{旅|たび}する: to travel by overnight train\n- {夜行列車|やこうれっしゃ}の{旅|たび}: an overnight-train journey\n- {夜行列車|やこうれっしゃ}が{廃止|はいし}される: overnight train is discontinued\n\nSIMILAR WORDS:\n- {寝台|しんだい}{列車|れっしゃ}: sleeper train — has beds; overlaps with but is narrower than {夜行列車|やこうれっしゃ}\n- {夜行|やこう}バス: overnight bus — the modern equivalent for budget travelers\n- {夜行便|やこうびん}: night flight/service — used for planes and ships\n- {急行列車|きゅうこうれっしゃ}: express train — category based on speed, not time of day\n\nREGISTER:\nNeutral written and spoken. Particularly common in travel writing, nostalgia pieces, and discussion of rail history.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25984_shindairessha",
+      "reading": "しんだいれっしゃ",
+      "headword": "{寝台列車|しんだいれっしゃ}",
+      "label": "sleeper train"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22452_yakoubasu",
+      "reading": "やこうばす",
+      "headword": "{夜行|やこう}バス",
+      "label": "overnight bus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25988_kyuukouressha",
+      "reading": "きゅうこうれっしゃ",
+      "headword": "{急行列車|きゅうこうれっしゃ}",
+      "label": "express train"
+    },
+    {
+      "type": "related",
+      "target_id": "23844_shindaisha",
+      "reading": "しんだいしゃ",
+      "headword": "{寝台車|しんだいしゃ}",
+      "label": "sleeping car"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "travel"]
+      "semantic": [
+        "transportation",
+        "travel"
+      ]
     },
     "created": "2026-04-14T19:09:41Z",
-    "modified": "2026-04-14T19:09:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

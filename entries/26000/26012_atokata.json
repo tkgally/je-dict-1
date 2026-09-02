@@ -17,7 +17,9 @@
       "id": "26012_atokata_ex1",
       "japanese": "{跡形|あとかた}もなく{消|き}えた。",
       "english": "It vanished without a trace.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26012_atokata_ex2",
       "japanese": "{建物|たてもの}は{跡形|あとかた}もなく{壊|こわ}された。",
       "english": "The building was demolished without a trace.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,50 @@
       "id": "26012_atokata_ex3",
       "japanese": "{火事|かじ}のあと、{家|いえ}は{跡形|あとかた}もなくなっていた。",
       "english": "After the fire, there was nothing left of the house.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Almost exclusively appears in the set phrase {跡形|あとかた}もない or {跡形|あとかた}もなく, meaning \"without a trace\" or \"not a vestige remaining.\" Rarely used in affirmative contexts. The word emphasizes total disappearance or destruction.\n\nCOMMON COLLOCATIONS:\n- {跡形|あとかた}もない: without a trace; completely gone\n- {跡形|あとかた}もなく{消|き}える: to vanish without a trace\n- {跡形|あとかた}もなく{壊|こわ}す: to destroy without a trace\n- {跡形|あとかた}もなくなる: to be completely gone\n\nSIMILAR WORDS:\n- {痕跡|こんせき}: trace; evidence — a more formal, scientific term that can be used affirmatively\n- {形跡|けいせき}: sign; indication — used for evidence that something occurred, often in investigations\n- {名残|なごり}: remnant; vestige — carries a nuance of lingering emotion or nostalgia",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10924_konseki",
+      "reading": "こんせき",
+      "headword": "{痕跡|こんせき}",
+      "label": "trace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17133_keiseki",
+      "reading": "けいせき",
+      "headword": "{形跡|けいせき}",
+      "label": "sign"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06630_nagori",
+      "reading": "なごり",
+      "headword": "{名残|なごり}",
+      "label": "remnant"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["abstract"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-04-28T16:11:35Z",
-    "modified": "2026-04-28T16:11:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

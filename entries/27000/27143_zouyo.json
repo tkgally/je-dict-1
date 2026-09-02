@@ -3,7 +3,7 @@
   "headword": "{贈与|ぞうよ}",
   "reading": "ぞうよ",
   "romaji": "zouyo",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "gift; donation; bestowal",
   "definitions": [
     {
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A formal, legal term for giving assets or property to another person. In everyday Japanese, {プレゼント} or {贈|おく}り{物|もの} are used for casual gifts, while {贈与|ぞうよ} refers specifically to legal transfers of assets.\n\nCOMMON COLLOCATIONS:\n- {贈与|ぞうよ}{税|ぜい} — gift tax\n- {贈与|ぞうよ}{契約|けいやく} — gift contract\n- {財産|ざいさん}{贈与|ぞうよ} — property donation\n- {生前|せいぜん}{贈与|ぞうよ} — gift given during one's lifetime (before death)\n- {贈与|ぞうよ}を{受|う}ける — to receive a gift/donation\n\nSIMILAR WORDS:\n- {贈|おく}り{物|もの} — gift, present; everyday word for gifts given on occasions\n- プレゼント — present; casual, often for birthdays and holidays\n- {寄付|きふ} — donation; giving to organizations or causes, not between individuals\n- {遺贈|いぞう} — bequest; specifically a gift left in a will, given after death",
+  "notes": "A formal, legal term for giving assets or property to another person. In everyday Japanese, プレゼント or {贈|おく}り{物|もの} are used for casual gifts, while {贈与|ぞうよ} refers specifically to legal transfers of assets.\n\nCOMMON COLLOCATIONS:\n- {贈与|ぞうよ}{税|ぜい} — gift tax\n- {贈与|ぞうよ}{契約|けいやく} — gift contract\n- {財産|ざいさん}{贈与|ぞうよ} — property donation\n- {生前|せいぜん}{贈与|ぞうよ} — gift given during one's lifetime (before death)\n- {贈与|ぞうよ}を{受|う}ける — to receive a gift/donation\n\nSIMILAR WORDS:\n- {贈|おく}り{物|もの} — gift, present; everyday word for gifts given on occasions\n- プレゼント — present; casual, often for birthdays and holidays\n- {寄付|きふ} — donation; giving to organizations or causes, not between individuals\n- {遺贈|いぞう} — bequest; specifically a gift left in a will, given after death",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01343_okurimono",
+      "reading": "おくりもの",
+      "headword": "{贈|おく}り{物|もの}",
+      "label": "gift, present"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01791_purezento",
+      "reading": "ぷれぜんと",
+      "headword": "プレゼント",
+      "label": "present"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02584_kifu",
+      "reading": "きふ",
+      "headword": "{寄付|きふ}",
+      "label": "donation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +87,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-07T13:09:43Z",
-    "modified": "2026-08-07T06:28:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

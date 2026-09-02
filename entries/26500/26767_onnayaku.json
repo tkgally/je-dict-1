@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Composed of {女|おんな} (woman) and {役|やく} (role, part). In traditional Japanese theater, the concept of men performing {女役|おんなやく} has deep cultural significance. In {歌舞伎|かぶき}, male actors specializing in female roles are called {女形|おやま}/{女方|おんながた}, and this specialization is passed down through family lines.\n\nCOMMON COLLOCATIONS:\n- {女役|おんなやく}を{演|えん}じる: to play a female role\n- {女役|おんなやく}を{務|つと}める: to serve as the female lead\n- {女役|おんなやく}の{衣装|いしょう}: costume for a female role\n\nSIMILAR WORDS:\n- {女形|おんながた}/{女方|おんながた}: onnagata — a male kabuki actor specializing in female roles\n- {男役|おとこやく}: male role — the counterpart; also significant in Takarazuka Revue\n- {主役|しゅやく}: lead role — the principal character regardless of gender",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12658_onnagata",
+      "reading": "おんながた",
+      "headword": "{女形|おんながた}",
+      "label": "onnagata"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04199_shuyaku",
+      "reading": "しゅやく",
+      "headword": "{主役|しゅやく}",
+      "label": "lead role"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +76,6 @@
       "domain": []
     },
     "created": "2026-05-04T16:22:26Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

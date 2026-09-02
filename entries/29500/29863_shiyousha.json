@@ -22,7 +22,9 @@
       "id": "29863_shiyousha_ex1",
       "japanese": "この{機械|きかい}の{使用者|しようしゃ}は{注意|ちゅうい}してください。",
       "english": "Users of this machine, please be careful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "29863_shiyousha_ex2",
       "japanese": "{薬|くすり}の{使用者|しようしゃ}が{増|ふ}えている。",
       "english": "The number of users of the drug is increasing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "29863_shiyousha_ex3",
       "japanese": "ソフトウェアの{使用者|しようしゃ}は{利用|りよう}{規約|きやく}に{同意|どうい}する{必要|ひつよう}がある。",
       "english": "Users of the software must agree to the terms of use.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "29863_shiyousha_ex4",
       "japanese": "{使用者|しようしゃ}と{労働者|ろうどうしゃ}が{話|はな}し{合|あ}う。",
       "english": "The employer and the workers discuss the matter together.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "29863_shiyousha_ex5",
       "japanese": "{使用者|しようしゃ}には{安全|あんぜん}{配慮|はいりょ}{義務|ぎむ}がある。",
       "english": "Employers have a duty to ensure safety.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,23 +72,48 @@
       "id": "29863_shiyousha_ex6",
       "japanese": "{労働|ろうどう}{条件|じょうけん}をめぐって、{使用者|しようしゃ}{側|がわ}と{組合|くみあい}が{対立|たいりつ}した。",
       "english": "Over working conditions, the employer's side and the union came into conflict.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {使用|しよう} (use) + {者|しゃ} (person). The everyday sense is \"user\"; the legal sense \"employer\" is standard in labor law, where it pairs with {労働者|ろうどうしゃ} (worker).\n\nCOMMON COLLOCATIONS:\n- {使用者|しようしゃ}{責任|せきにん}: employer's liability\n- {使用者|しようしゃ}{側|がわ}: the employer's side\n\nSIMILAR WORDS:\n- {利用者|りようしゃ}: user — of a service or facility, more than a physical tool\n- {雇用主|こようぬし}: employer — plainer everyday word than the legal {使用者|しようしゃ}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03189_riyousha",
+      "reading": "りようしゃ",
+      "headword": "{利用者|りようしゃ}",
+      "label": "user"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14964_yatoinushi",
+      "reading": "やといぬし",
+      "headword": "{雇|やと}い{主|ぬし}",
+      "label": "employer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["person", "law"],
-      "domain": ["legal"]
+      "politeness": "plain",
+      "semantic": [
+        "person",
+        "law"
+      ],
+      "domain": [
+        "legal"
+      ]
     },
     "created": "2026-07-15T12:19:49Z",
-    "modified": "2026-07-15T12:19:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

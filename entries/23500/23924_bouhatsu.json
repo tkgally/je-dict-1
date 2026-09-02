@@ -3,7 +3,7 @@
   "headword": "{暴発|ぼうはつ}",
   "reading": "ぼうはつ",
   "romaji": "bouhatsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "accidental discharge (of a firearm); sudden outburst; unplanned eruption",
   "definitions": [
     {
@@ -81,6 +81,22 @@
   ],
   "notes": "Composed of {暴|ぼう} (\"violent, unruly\") + {発|はつ} (\"firing, eruption\"). The core sense is a firearm going off by accident, but the word extends metaphorically to any sudden, unplanned outburst.\n\nTRANSITIVITY:\n- As a suru-verb, {暴発|ぼうはつ}する is intransitive: the gun, the feeling, or the conflict is the subject that \"goes off\" on its own — there is no external agent doing it.\n\nUSAGE:\n- Sense 1 is literal and is the dominant usage in news and legal contexts.\n- Sense 2 appears in writing about politics, international affairs, or emotions, often with nouns like {感情|かんじょう}, {怒|いか}り, {不満|ふまん}, or {紛争|ふんそう}.\n- Often contrasted with {発砲|はっぽう} (intentional firing): {発砲|はっぽう} is deliberate, {暴発|ぼうはつ} is accidental.\n\nCOMMON COLLOCATIONS:\n- {銃|じゅう}が{暴発|ぼうはつ}する: a gun goes off accidentally\n- {暴発|ぼうはつ}{事故|じこ}: an accidental-discharge incident\n- {感情|かんじょう}が{暴発|ぼうはつ}する: emotions suddenly erupt\n- {不満|ふまん}が{暴発|ぼうはつ}する: pent-up discontent boils over\n\nSIMILAR WORDS:\n- {発砲|はっぽう}: firing (a gun) — deliberate, not accidental.\n- {爆発|ばくはつ}: explosion — destruction by detonation; also used metaphorically for sudden outbursts (especially of anger).\n- {噴出|ふんしゅつ}: eruption, spouting out — used for liquids/gases, or metaphorically for complaints flooding out at once.\n- {誤射|ごしゃ}: mistaken shot — shooting the wrong target, a related but distinct error.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03575_bakuhatsu",
+      "reading": "ばくはつ",
+      "headword": "{爆発|ばくはつ}",
+      "label": "explosion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18287_funshutsu",
+      "reading": "ふんしゅつ",
+      "headword": "{噴出|ふんしゅつ}",
+      "label": "eruption, spouting out"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -97,7 +113,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-15T13:07:43Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

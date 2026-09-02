@@ -17,7 +17,9 @@
       "id": "27722_kenbutsunin_ex1",
       "japanese": "{見物人|けんぶつにん}が{集|あつ}まる。",
       "english": "Onlookers gather.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27722_kenbutsunin_ex2",
       "japanese": "{火事|かじ}{現場|げんば}に{見物人|けんぶつにん}が{大勢|おおぜい}いた。",
       "english": "There were many onlookers at the fire scene.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,59 @@
       "id": "27722_kenbutsunin_ex3",
       "japanese": "{祭|まつ}りの{行列|ぎょうれつ}を{見物人|けんぶつにん}が{道|みち}の{両側|りょうがわ}から{眺|なが}めていた。",
       "english": "Spectators watched the festival procession from both sides of the street.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {見物|けんぶつ} (watching, sightseeing) + {人|にん} (person). Refers to someone watching an event or spectacle, often as a casual or curious bystander rather than an invited guest.\n\nCOMMON COLLOCATIONS:\n- {見物人|けんぶつにん}が{集|あつ}まる: onlookers gather\n- {大勢|おおぜい}の{見物人|けんぶつにん}: a large crowd of spectators\n- {見物人|けんぶつにん}でにぎわう: to be lively with spectators\n\nSIMILAR WORDS:\n- {観客|かんきゃく}: audience — people who attend a performance or game, often with tickets\n- {野次馬|やじうま}: rubberneckers — onlookers who gather purely out of idle curiosity, with a negative nuance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02556_kankyaku",
+      "reading": "かんきゃく",
+      "headword": "{観客|かんきゃく}",
+      "label": "audience"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16403_yajiuma",
+      "reading": "やじうま",
+      "headword": "{野次馬|やじうま}",
+      "label": "rubberneckers"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20381_boukansha",
+      "reading": "ぼうかんしゃ",
+      "headword": "{傍観者|ぼうかんしゃ}",
+      "label": "bystander"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22893_kanshuu",
+      "reading": "かんしゅう",
+      "headword": "{観衆|かんしゅう}",
+      "label": "spectators"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["person"],
+      "politeness": "plain",
+      "semantic": [
+        "person"
+      ],
       "domain": []
     },
     "created": "2026-05-17T04:06:49Z",
-    "modified": "2026-05-17T04:06:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

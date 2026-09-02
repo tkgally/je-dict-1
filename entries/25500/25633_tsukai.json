@@ -22,7 +22,9 @@
       "id": "25633_tsukai_ex1",
       "japanese": "お{使|つか}いに{行|い}ってきて。",
       "english": "Go run an errand for me.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "25633_tsukai_ex2",
       "japanese": "{子供|こども}がひとりでお{使|つか}いに{行|い}けるようになった。",
       "english": "The child became able to go on errands by themselves.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "25633_tsukai_ex3",
       "japanese": "{母|はは}に{頼|たの}まれて、スーパーへお{使|つか}いに{行|い}った。",
       "english": "My mother asked me to go, so I ran an errand to the supermarket.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "25633_tsukai_ex4",
       "japanese": "{神|かみ}の{使|つか}いとされる{動物|どうぶつ}がいる。",
       "english": "There are animals considered to be divine messengers.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "25633_tsukai_ex5",
       "japanese": "{王|おう}は{使|つか}いを{送|おく}って{和平|わへい}を{申|もう}し{入|い}れた。",
       "english": "The king sent an envoy to propose peace.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,20 +72,50 @@
       "id": "25633_tsukai_ex6",
       "japanese": "{奈良|なら}では{鹿|しか}が{春日大社|かすがたいしゃ}の{神|かみ}の{使|つか}いとして{大切|たいせつ}にされている。",
       "english": "In Nara, deer are treasured as divine messengers of Kasuga Grand Shrine.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The noun form of {使|つか}う (to use), but with specialized meanings. The most common everyday usage is お{使|つか}い (with the polite prefix お), meaning an errand — especially a child being sent to buy something at a shop.\n\nThe TV show \"はじめてのおつかい\" (My First Errand) is a beloved long-running Japanese program that follows young children on their first solo shopping trips.\n\nCOMMON COLLOCATIONS:\n- お{使|つか}いに{行|い}く: to go on an errand\n- お{使|つか}いを{頼|たの}む: to ask someone to run an errand\n- {神|かみ}の{使|つか}い: divine messenger\n- {使|つか}いを{出|だ}す: to send a messenger\n\nSIMILAR WORDS:\n- {用事|ようじ}: errand, business to attend to — more general, can be any task or appointment\n- {使者|ししゃ}: messenger, envoy — a more formal synonym for the \"messenger\" sense\n- {買|か}い{物|もの}: shopping — focuses on the purchasing aspect rather than being sent by someone",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01520_youji",
+      "reading": "ようじ",
+      "headword": "{用事|ようじ}",
+      "label": "errand, business to attend to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21530_shisha",
+      "reading": "ししゃ",
+      "headword": "{使者|ししゃ}",
+      "label": "messenger, envoy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00853_kaimono",
+      "reading": "かいもの",
+      "headword": "{買|か}い{物|もの}",
+      "label": "shopping"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life"
+      ]
     },
     "created": "2026-04-26T13:23:12Z",
-    "modified": "2026-04-26T13:23:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

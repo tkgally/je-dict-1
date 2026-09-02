@@ -19,7 +19,9 @@
       "english": "Lions are carnivores.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18131_nikushokudoubutsu_ex2",
@@ -27,7 +29,9 @@
       "english": "Carnivores have sharp fangs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18131_nikushokudoubutsu_ex3",
@@ -35,10 +39,12 @@
       "english": "At the zoo, carnivores and herbivores are separated into different areas.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A compound of {肉食|にくしょく} (meat-eating) + {動物|どうぶつ} (animal). Used in both scientific and everyday contexts.\n\nANIMAL CLASSIFICATION SET:\n- {肉食動物|にくしょくどうぶつ}: carnivore (meat-eating animal)\n- {草食動物|そうしょくどうぶつ}: herbivore (plant-eating animal)\n- {雑食動物|ざっしょくどうぶつ}: omnivore (eats both)\n\nCOMMON EXAMPLES:\n- ライオン, トラ, オオカミ, ワシ\n\nFIGURATIVE USE:\n{肉食系|にくしょくけい} describes an aggressive, assertive person, especially in dating contexts. Its counterpart {草食系|そうしょくけい} describes a passive, non-aggressive person. These terms became popular slang in the late 2000s.\n\nRELATED TERMS:\n- {捕食者|ほしょくしゃ}: predator (more scientific)\n- {食物連鎖|しょくもつれんさ}: food chain",
+  "notes": "A compound of {肉食|にくしょく} (meat-eating) + {動物|どうぶつ} (animal). Used in both scientific and everyday contexts.\n\nANIMAL CLASSIFICATION SET:\n- {肉食動物|にくしょくどうぶつ}: carnivore (meat-eating animal)\n- {草食動物|そうしょくどうぶつ}: herbivore (plant-eating animal)\n- {雑食動物|ざっしょくどうぶつ}: omnivore (eats both)\n\nCOMMON EXAMPLES:\n- ライオン, トラ, オオカミ, ワシ\n\nUSAGE:\n{肉食系|にくしょくけい} describes an aggressive, assertive person, especially in dating contexts. Its counterpart {草食系|そうしょくけい} describes a passive, non-aggressive person. These terms became popular slang in the late 2000s.\n\nRELATED WORDS:\n- {捕食者|ほしょくしゃ}: predator (more scientific)\n- {食物連鎖|しょくもつれんさ}: food chain",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,50 @@
       "reading": "そうしょくどうぶつ",
       "headword": "{草食動物|そうしょくどうぶつ}",
       "label": "herbivore"
+    },
+    {
+      "type": "related",
+      "target_id": "09904_hoshokusha",
+      "reading": "ほしょくしゃ",
+      "headword": "{捕食者|ほしょくしゃ}",
+      "label": "predator"
+    },
+    {
+      "type": "related",
+      "target_id": "08437_shokumotsurensa",
+      "reading": "しょくもつれんさ",
+      "headword": "{食物連鎖|しょくもつれんさ}",
+      "label": "food chain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24331_nikushokukei",
+      "reading": "にくしょくけい",
+      "headword": "{肉食系|にくしょくけい}",
+      "label": "assertive type"
+    },
+    {
+      "type": "related",
+      "target_id": "24524_zasshokudoubutsu",
+      "reading": "ざっしょくどうぶつ",
+      "headword": "{雑食動物|ざっしょくどうぶつ}",
+      "label": "omnivore"
     }
   ],
   "metadata": {
     "created": "2026-03-20T06:42:25Z",
-    "modified": "2026-05-08T05:05:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["animal-general"]
+      "semantic": [
+        "animal-general"
+      ]
     }
   }
 }

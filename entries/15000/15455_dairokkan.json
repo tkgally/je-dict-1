@@ -19,7 +19,9 @@
       "english": "My sixth sense kicked in.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15455_dairokkan_ex2",
@@ -27,7 +29,9 @@
       "english": "She is a person with keen intuition.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15455_dairokkan_ex3",
@@ -35,21 +39,56 @@
       "english": "My gut feeling told me something bad was about to happen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed the same way as \"sixth sense\" in English. Often appears with {働|はたら}く (to work, to kick in) or {鋭|するど}い (sharp, keen).\n\nCOMMON COLLOCATIONS:\n- {第六感|だいろっかん}が{働|はたら}く (one's sixth sense kicks in)\n- {第六感|だいろっかん}が{鋭|するど}い (to have keen intuition)\n- {第六感|だいろっかん}で{感|かん}じる (to sense with one's sixth sense)\n\nRELATED:\n- {直感|ちょっかん} (intuition — more commonly used in everyday speech)\n- {勘|かん} (intuition, hunch — more casual)",
-  "cross_references": [],
+  "notes": "USAGE:\nUsed the same way as \"sixth sense\" in English. Often appears with {働|はたら}く (to work, to kick in) or {鋭|するど}い (sharp, keen).\n\nCOMMON COLLOCATIONS:\n- {第六感|だいろっかん}が{働|はたら}く (one's sixth sense kicks in)\n- {第六感|だいろっかん}が{鋭|するど}い (to have keen intuition)\n- {第六感|だいろっかん}で{感|かん}じる (to sense with one's sixth sense)\n\nRELATED WORDS:\n- {直感|ちょっかん} (intuition — more commonly used in everyday speech)\n- {勘|かん} (intuition, hunch — more casual)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07624_chokkan",
+      "reading": "ちょっかん",
+      "headword": "{直感|ちょっかん}",
+      "label": "intuition"
+    },
+    {
+      "type": "related",
+      "target_id": "02149_kan",
+      "reading": "かん",
+      "headword": "{勘|かん}",
+      "label": "intuition, hunch"
+    },
+    {
+      "type": "related",
+      "target_id": "05698_gokan",
+      "reading": "ごかん",
+      "headword": "{五感|ごかん}",
+      "label": "the five senses"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22214_reikan",
+      "reading": "れいかん",
+      "headword": "{霊感|れいかん}",
+      "label": "spiritual sensitivity"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T07:37:29Z",
-    "modified": "2026-03-07T07:37:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     }
   }
 }

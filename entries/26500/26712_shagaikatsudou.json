@@ -17,7 +17,9 @@
       "id": "26712_shagaikatsudou_ex1",
       "japanese": "{社外活動|しゃがいかつどう}も{評価|ひょうか}の{対象|たいしょう}になる。",
       "english": "Outside-company activities are also subject to evaluation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26712_shagaikatsudou_ex2",
       "japanese": "{社外活動|しゃがいかつどう}を{通|つう}じて、{異|こと}なる{業界|ぎょうかい}の{人|ひと}と{知|し}り{合|あ}えた。",
       "english": "Through outside-company activities, I was able to meet people from different industries.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26712_shagaikatsudou_ex3",
       "japanese": "{最近|さいきん}は{社外活動|しゃがいかつどう}を{奨励|しょうれい}する{企業|きぎょう}が{増|ふ}えてきている。",
       "english": "Recently, more companies are encouraging their employees to engage in activities outside of work.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {社外|しゃがい} (outside the company) and {活動|かつどう} (activities). Reflects the evolving Japanese work culture where employees are increasingly encouraged to develop skills and connections beyond their employer.\n\nCOMMON COLLOCATIONS:\n- {社外活動|しゃがいかつどう}に{参加|さんか}する: to participate in outside-company activities\n- {社外活動|しゃがいかつどう}を{奨励|しょうれい}する: to encourage outside activities\n- {社外活動|しゃがいかつどう}の{報告|ほうこく}: report on external activities\n\nSIMILAR WORDS:\n- {課外活動|かがいかつどう}: extracurricular activities — used in school contexts\n- {社内活動|しゃないかつどう}: in-company activities — the opposite\n- {副業|ふくぎょう}: side job — a specific type of outside activity",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08605_kagaikatsudou",
+      "reading": "かがいかつどう",
+      "headword": "{課外活動|かがいかつどう}",
+      "label": "extracurricular activities"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08479_fukugyou",
+      "reading": "ふくぎょう",
+      "headword": "{副業|ふくぎょう}",
+      "label": "side job"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["work", "society"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "work",
+        "society"
+      ]
     },
     "created": "2026-05-04T14:14:08Z",
-    "modified": "2026-05-04T14:14:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

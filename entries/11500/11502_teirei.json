@@ -18,7 +18,9 @@
       "english": "The regular meeting is on Monday.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11502_teirei_ex2",
@@ -26,7 +28,9 @@
       "english": "I compiled the monthly routine report.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11502_teirei_ex3",
@@ -34,22 +38,50 @@
       "english": "A new policy was announced at the regular press conference.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{定例|ていれい} means regular or routine — something that takes place at fixed intervals as established practice. Almost always used as a modifier before another noun.\n\nCOMPOSITION:\n{定|てい} (fixed, established) + {例|れい} (custom, precedent).\n\nCOMMON COMPOUNDS:\n- {定例|ていれい}{会議|かいぎ}: regular meeting\n- {定例|ていれい}{報告|ほうこく}: routine report\n- {定例|ていれい}{記者会見|きしゃかいけん}: regular press conference\n- {定例|ていれい}{総会|そうかい}: regular general meeting\n\nSIMILAR WORDS:\n- {定期|ていき}: periodic, regular (broader usage — {定期|ていき}{検診|けんしん}, regular checkup)\n- {恒例|こうれい}: customary, traditional (established by long practice — {恒例|こうれい}の{行事|ぎょうじ}, annual event)\n\nREGISTER:\nFormal. Commonly used in business, government, and organizational contexts.",
-  "cross_references": [],
+  "notes": "{定例|ていれい} means regular or routine — something that takes place at fixed intervals as established practice. Almost always used as a modifier before another noun.\n\nETYMOLOGY:\n{定|てい} (fixed, established) + {例|れい} (custom, precedent).\n\nCOMPOUNDS:\n- {定例|ていれい}{会議|かいぎ}: regular meeting\n- {定例|ていれい}{報告|ほうこく}: routine report\n- {定例|ていれい}{記者会見|きしゃかいけん}: regular press conference\n- {定例|ていれい}{総会|そうかい}: regular general meeting\n\nSIMILAR WORDS:\n- {定期|ていき}: periodic, regular (broader usage — {定期|ていき}{検診|けんしん}, regular checkup)\n- {恒例|こうれい}: customary, traditional (established by long practice — {恒例|こうれい}の{行事|ぎょうじ}, annual event)\n\nREGISTER:\nFormal. Commonly used in business, government, and organizational contexts.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03538_teiki",
+      "reading": "ていき",
+      "headword": "{定期|ていき}",
+      "label": "periodic, regular (broader usage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12597_kourei",
+      "reading": "こうれい",
+      "headword": "{恒例|こうれい}",
+      "label": "customary, traditional (established…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22021_shuurei",
+      "reading": "しゅうれい",
+      "headword": "{週例|しゅうれい}",
+      "label": "weekly (regular event)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T01:54:44Z",
-    "modified": "2026-03-25T09:40:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

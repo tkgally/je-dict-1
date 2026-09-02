@@ -19,7 +19,9 @@
       "english": "A rare case was reported.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18329_shourei_ex2",
@@ -27,7 +29,9 @@
       "english": "The number of infection cases this year exceeds last year's.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18329_shourei_ex3",
@@ -35,22 +39,52 @@
       "english": "We will examine treatment methods based on case reports.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal, medical/scientific term frequently seen in news reports about outbreaks, research papers, and hospital settings. Not used in casual conversation about being sick.\n\nCOMMON COLLOCATIONS:\n- {症例|しょうれい}{報告|ほうこく} (case report)\n- {症例|しょうれい}{数|すう} (number of cases)\n- {症例|しょうれい}を{分析|ぶんせき}する (to analyze cases)\n- {重症|じゅうしょう}{症例|しょうれい} (severe cases)\n\nSIMILAR WORDS:\n- {事例|じれい}: example, precedent — broader, not limited to medical contexts\n- {患者|かんじゃ}: patient — the person, not the case\n- {奨励|しょうれい}: encouragement — a homophone with different kanji and meaning",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11417_jirei",
+      "reading": "じれい",
+      "headword": "{事例|じれい}",
+      "label": "example, precedent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00170_kanja",
+      "reading": "かんじゃ",
+      "headword": "{患者|かんじゃ}",
+      "label": "patient"
+    },
+    {
+      "type": "homophone",
+      "target_id": "12213_shourei",
+      "reading": "しょうれい",
+      "headword": "{奨励|しょうれい}",
+      "label": "encouragement"
+    }
+  ],
   "metadata": {
     "created": "2026-03-21T09:15:12Z",
-    "modified": "2026-03-21T09:15:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

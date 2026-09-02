@@ -19,7 +19,9 @@
       "english": "To peel an apple.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18103_kawawomuku_ex2",
@@ -27,7 +29,9 @@
       "english": "Peel the potatoes before boiling them.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18103_kawawomuku_ex3",
@@ -35,7 +39,9 @@
       "english": "I am having my child practice peeling with a kitchen knife.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAn essential cooking vocabulary expression. The verb むく specifically means to peel by hand or with a knife. Different from {剥|は}がす, which means to peel off something stuck.\n\nCOMMON OBJECTS:\n- りんごの{皮|かわ}をむく (to peel an apple)\n- みかんの{皮|かわ}をむく (to peel a mandarin orange)\n- じゃがいもの{皮|かわ}をむく (to peel a potato)\n- {大根|だいこん}の{皮|かわ}をむく (to peel a daikon radish)\n\nTOOLS:\n- ピーラーで{皮|かわ}をむく (to peel with a peeler)\n- {包丁|ほうちょう}で{皮|かわ}をむく (to peel with a knife)",
@@ -53,18 +59,36 @@
       "reading": "はがす",
       "headword": "{剥|は}がす",
       "label": "to peel off (stuck items)"
+    },
+    {
+      "type": "related",
+      "target_id": "01036_mikan",
+      "reading": "みかん",
+      "headword": "みかん",
+      "label": "mandarin orange"
+    },
+    {
+      "type": "related",
+      "target_id": "20430_karawomuku",
+      "reading": "からをむく",
+      "headword": "{殻|から}をむく",
+      "label": "to peel"
     }
   ],
   "metadata": {
     "created": "2026-03-20T02:43:03Z",
-    "modified": "2026-05-08T05:05:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["consumption"]
+      "semantic": [
+        "consumption"
+      ]
     }
   }
 }

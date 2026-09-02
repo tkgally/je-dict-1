@@ -53,11 +53,19 @@
       ]
     }
   ],
-  "notes": "{語学|ごがく} refers to language study and language ability.\n\nCOMMON PATTERNS:\n- {語学|ごがく}を⟦{学|まな}ぶ→学ぶ：01987_manabu⟧ (to study languages)\n- {語学|ごがく}が⟦{堪能|たんのう}→堪能：12081_tannou⟧だ (to be proficient in languages)\n- {語学|ごがく}⟦{力|りょく}→力：01661_chikara⟧ (language proficiency)\n\nCOMPOUND WORDS:\n- ⟦{語学|ごがく}{学校|がっこう}→語学学校：25804_gogakugakkou⟧ (language school)\n- {語学|ごがく}⟦{留学|りゅうがく}→留学：03677_ryuugaku⟧ (study abroad for language learning)\n- {語学|ごがく}⟦{研修|けんしゅう}→研修：05322_kenshuu⟧ (language training)\n- {語学|ごがく}⟦{試験|しけん}→試験：01422_shiken⟧ (language test)\n\nSIMILAR WORDS:\n- {語学|ごがく}: language study/ability (general)\n- ⟦{外国|がいこく}{語|ご}→外国語：03023_gaikokugo⟧: foreign language\n- ⟦{言語|げんご}→言語：02717_gengo⟧{学|がく}: linguistics (academic field)",
-  "cross_references": [],
+  "notes": "{語学|ごがく} refers to language study and language ability.\n\nCOMMON PATTERNS:\n- {語学|ごがく}を⟦{学|まな}ぶ→学ぶ：01987_manabu⟧ (to study languages)\n- {語学|ごがく}が⟦{堪能|たんのう}→堪能：12081_tannou⟧だ (to be proficient in languages)\n- {語学|ごがく}⟦{力|りょく}→力：01661_chikara⟧ (language proficiency)\n\nCOMPOUNDS:\n- ⟦{語学|ごがく}{学校|がっこう}→語学学校：25804_gogakugakkou⟧ (language school)\n- {語学|ごがく}⟦{留学|りゅうがく}→留学：03677_ryuugaku⟧ (study abroad for language learning)\n- {語学|ごがく}⟦{研修|けんしゅう}→研修：05322_kenshuu⟧ (language training)\n- {語学|ごがく}⟦{試験|しけん}→試験：01422_shiken⟧ (language test)\n\nSIMILAR WORDS:\n- {語学|ごがく}: language study/ability (general)\n- ⟦{外国|がいこく}{語|ご}→外国語：03023_gaikokugo⟧: foreign language\n- ⟦{言語|げんご}→言語：02717_gengo⟧{学|がく}: linguistics (academic field)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03023_gaikokugo",
+      "reading": "がいこくご",
+      "headword": "{外国語|がいこくご}",
+      "label": "foreign language"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T08:01:45Z",
-    "modified": "2026-07-29T21:21:40Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

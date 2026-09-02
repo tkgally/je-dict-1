@@ -17,7 +17,9 @@
       "id": "25888_taimaa_ex1",
       "japanese": "タイマーを３{分|ぷん}にセットする。",
       "english": "Set the timer for three minutes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25888_taimaa_ex2",
       "japanese": "タイマーが{鳴|な}ったら{火|ひ}を{止|と}めてください。",
       "english": "Please turn off the heat when the timer goes off.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,52 @@
       "id": "25888_taimaa_ex3",
       "japanese": "エアコンのタイマーを{使|つか}えば、{朝|あさ}{起|お}きる{前|まえ}に{部屋|へや}を{暖|あたた}めておける。",
       "english": "If you use the air conditioner's timer, you can warm the room before you wake up in the morning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"timer.\" A very common loanword used daily in cooking, photography, and with household appliances. In cooking, キッチンタイマー (kitchen timer) is a standard tool. In photography, セルフタイマー (self-timer) is used for delayed shutter release.\n\nAlso used metaphorically in gaming and computing for countdown mechanisms.\n\nCOMMON COLLOCATIONS:\n- タイマーをセットする: to set a timer\n- タイマーが{鳴|な}る: the timer goes off\n- タイマー{機能|きのう}: timer function\n- セルフタイマー: self-timer (camera)\n- キッチンタイマー: kitchen timer\n\nSIMILAR WORDS:\n- ストップウォッチ: stopwatch — measures elapsed time forward, while a timer counts down\n- {時計|とけい}: clock; watch — tells the current time rather than measuring intervals\n- アラーム: alarm — alerts at a set time of day, not after a duration",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00677_tokei",
+      "reading": "とけい",
+      "headword": "{時計|とけい}",
+      "label": "clock"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10707_araamu",
+      "reading": "あらーむ",
+      "headword": "アラーム",
+      "label": "alarm"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29252_jigenshiki",
+      "reading": "じげんしき",
+      "headword": "{時限式|じげんしき}",
+      "label": "timed type"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["electronics", "tool"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "electronics",
+        "tool"
+      ]
     },
     "created": "2026-04-28T11:22:57Z",
-    "modified": "2026-04-28T11:22:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

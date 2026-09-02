@@ -17,7 +17,9 @@
       "id": "25795_shigenkoku_ex1",
       "japanese": "オーストラリアは{代表的|だいひょうてき}な{資源国|しげんこく}だ。",
       "english": "Australia is a typical resource-rich country.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25795_shigenkoku_ex2",
       "japanese": "{資源国|しげんこく}との{貿易|ぼうえき}は{日本|にほん}にとって{不可欠|ふかけつ}だ。",
       "english": "Trade with resource-rich countries is indispensable for Japan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,52 @@
       "id": "25795_shigenkoku_ex3",
       "japanese": "{資源国|しげんこく}の{経済|けいざい}は{原油|げんゆ}{価格|かかく}の{変動|へんどう}に{大|おお}きく{左右|さゆう}される。",
       "english": "The economies of resource-rich countries are heavily affected by fluctuations in crude oil prices.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {資源|しげん} (resources) and {国|こく} (country). This term appears frequently in news about international economics, energy security, and trade policy. Japan, as a country with limited natural resources, often discusses its relationship with {資源国|しげんこく} in the context of energy imports and supply chain security.\n\nCOMMON COLLOCATIONS:\n- {資源国|しげんこく}との{関係|かんけい}: relations with resource nations\n- {資源国|しげんこく}の{経済|けいざい}: economies of resource-rich countries\n- {主要|しゅよう}{資源国|しげんこく}: major resource nations\n\nRELATED TERMS:\n- {産油国|さんゆこく}: oil-producing country — specifically about petroleum\n- {先進国|せんしんこく}: developed country — categorized by economic development, not resources\n- {途上国|とじょうこく}: developing country — many resource-rich countries are also developing nations\n- {資源|しげん}: resources — the base noun",
-  "cross_references": [],
+  "notes": "Composed of {資源|しげん} (resources) and {国|こく} (country). This term appears frequently in news about international economics, energy security, and trade policy. Japan, as a country with limited natural resources, often discusses its relationship with {資源国|しげんこく} in the context of energy imports and supply chain security.\n\nCOMMON COLLOCATIONS:\n- {資源国|しげんこく}との{関係|かんけい}: relations with resource nations\n- {資源国|しげんこく}の{経済|けいざい}: economies of resource-rich countries\n- {主要|しゅよう}{資源国|しげんこく}: major resource nations\n\nRELATED WORDS:\n- {産油国|さんゆこく}: oil-producing country — specifically about petroleum\n- {先進国|せんしんこく}: developed country — categorized by economic development, not resources\n- {途上国|とじょうこく}: developing country — many resource-rich countries are also developing nations\n- {資源|しげん}: resources — the base noun",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23285_sanyukoku",
+      "reading": "さんゆこく",
+      "headword": "{産油国|さんゆこく}",
+      "label": "oil-producing country"
+    },
+    {
+      "type": "related",
+      "target_id": "11624_senshinkoku",
+      "reading": "せんしんこく",
+      "headword": "{先進国|せんしんこく}",
+      "label": "developed country"
+    },
+    {
+      "type": "related",
+      "target_id": "14424_tojoukoku",
+      "reading": "とじょうこく",
+      "headword": "{途上国|とじょうこく}",
+      "label": "developing country"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["politics", "economics"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "politics",
+        "economics"
+      ]
     },
     "created": "2026-04-27T13:16:28Z",
-    "modified": "2026-04-27T13:16:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

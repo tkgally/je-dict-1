@@ -3,7 +3,7 @@
   "headword": "{偏愛|へんあい}",
   "reading": "へんあい",
   "romaji": "henai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "partiality; favoritism; excessive fondness",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Composed of {偏|へん} (biased, leaning) + {愛|あい} (love). Denotes unbalanced affection toward one person or thing. Used both as a noun and, with する, as a verb ({偏愛|へんあい}する).\n\nCOMMON COLLOCATIONS:\n- {偏愛|へんあい}する: to be excessively fond of; to favor\n- {親|おや}の{偏愛|へんあい}: a parent's favoritism\n- ～への{偏愛|へんあい}: excessive fondness for ~\n\nSIMILAR WORDS:\n- えこひいき: favoritism — more colloquial; stresses unfair treatment of others\n- {溺愛|できあい}: doting; smothering love — excessive love that spoils, especially toward children",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20939_ekohiiki",
+      "reading": "えこひいき",
+      "headword": "{依怙贔屓|えこひいき}",
+      "label": "favoritism"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16499_dekiai",
+      "reading": "できあい",
+      "headword": "{溺愛|できあい}",
+      "label": "doting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ],
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-14T18:20:29Z",
-    "modified": "2026-07-14T18:20:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

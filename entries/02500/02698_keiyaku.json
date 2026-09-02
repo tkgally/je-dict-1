@@ -2,7 +2,7 @@
   "id": "02698_keiyaku",
   "headword": "{契約|けいやく}",
   "reading": "けいやく",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "contract, agreement",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{契約|けいやく} refers to a formal, legally binding agreement between parties. Used as both a noun and a suru verb ({契約|けいやく}⟦する→する：00392_suru⟧ = to make a contract).\n\nCOMMON PATTERNS:\n- {契約|けいやく}⟦を→を：00422_wo⟧⟦{結|むす}ぶ→結ぶ：02308_musubu⟧: to conclude/sign a contract\n- {契約|けいやく}⟦を→を：00422_wo⟧⟦{解除|かいじょ}する→解除する：26843_kaijosuru⟧: to cancel a contract\n- {契約|けいやく}⟦を→を：00422_wo⟧⟦{更新|こうしん}→更新：04765_koushin⟧⟦する→する：00392_suru⟧: to renew a contract\n- {契約|けいやく}⟦{違反|いはん}→違反：01824_ihan⟧: breach of contract\n- {契約|けいやく}⟦{内容|ないよう}→内容：01482_naiyou⟧: contract terms/contents\n- {契約|けいやく}⟦{期間|きかん}→期間：00229_kikan⟧: contract period\n\nTYPES:\n- ⟦{雇用|こよう}→雇用：04840_koyou⟧{契約|けいやく}: employment contract\n- ⟦{賃貸|ちんたい}→賃貸：06081_chintai⟧{契約|けいやく}: rental agreement\n- ⟦{売買|ばいばい}→売買：04336_baibai⟧{契約|けいやく}: sales contract\n- ⟦{契約|けいやく}{社員|しゃいん}→契約社員：12260_keiyakushain⟧: contract employee (non-permanent)\n\nRELATED:\n- ⟦{約束|やくそく}→約束：01517_yakusoku⟧: promise (informal, non-legal)\n- ⟦{協定|きょうてい}→協定：05320_kyoutei⟧: pact, accord (between organizations/nations)",
+  "notes": "{契約|けいやく} refers to a formal, legally binding agreement between parties. Used as both a noun and a suru verb ({契約|けいやく}⟦する→する：00392_suru⟧ = to make a contract).\n\nCOMMON PATTERNS:\n- {契約|けいやく}⟦を→を：00422_wo⟧⟦{結|むす}ぶ→結ぶ：02308_musubu⟧: to conclude/sign a contract\n- {契約|けいやく}⟦を→を：00422_wo⟧⟦{解除|かいじょ}する→解除する：26843_kaijosuru⟧: to cancel a contract\n- {契約|けいやく}⟦を→を：00422_wo⟧⟦{更新|こうしん}→更新：04765_koushin⟧⟦する→する：00392_suru⟧: to renew a contract\n- {契約|けいやく}⟦{違反|いはん}→違反：01824_ihan⟧: breach of contract\n- {契約|けいやく}⟦{内容|ないよう}→内容：01482_naiyou⟧: contract terms/contents\n- {契約|けいやく}⟦{期間|きかん}→期間：00229_kikan⟧: contract period\n\nTYPES:\n- ⟦{雇用|こよう}→雇用：04840_koyou⟧{契約|けいやく}: employment contract\n- ⟦{賃貸|ちんたい}→賃貸：06081_chintai⟧{契約|けいやく}: rental agreement\n- ⟦{売買|ばいばい}→売買：04336_baibai⟧{契約|けいやく}: sales contract\n- ⟦{契約|けいやく}{社員|しゃいん}→契約社員：12260_keiyakushain⟧: contract employee (non-permanent)\n\nRELATED WORDS:\n- ⟦{約束|やくそく}→約束：01517_yakusoku⟧: promise (informal, non-legal)\n- ⟦{協定|きょうてい}→協定：05320_kyoutei⟧: pact, accord (between organizations/nations)",
   "cross_references": [
     {
       "type": "antonym",
@@ -148,11 +148,46 @@
       "reading": "きやく",
       "headword": "{規約|きやく}",
       "label": "terms, bylaws"
+    },
+    {
+      "type": "related",
+      "target_id": "01517_yakusoku",
+      "reading": "やくそく",
+      "headword": "{約束|やくそく}",
+      "label": "promise"
+    },
+    {
+      "type": "related",
+      "target_id": "05320_kyoutei",
+      "reading": "きょうてい",
+      "headword": "{協定|きょうてい}",
+      "label": "pact, accord"
+    },
+    {
+      "type": "related",
+      "target_id": "04700_torihiki",
+      "reading": "とりひき",
+      "headword": "{取引|とりひき}",
+      "label": "transaction"
+    },
+    {
+      "type": "related",
+      "target_id": "04877_shoudan",
+      "reading": "しょうだん",
+      "headword": "{商談|しょうだん}",
+      "label": "business negotiation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29690_sumaatokontorakuto",
+      "reading": "すまーとこんとらくと",
+      "headword": "スマートコントラクト",
+      "label": "smart contract (blockchain)"
     }
   ],
   "metadata": {
     "created": "2026-01-11T07:25:00Z",
-    "modified": "2026-06-12T04:00:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

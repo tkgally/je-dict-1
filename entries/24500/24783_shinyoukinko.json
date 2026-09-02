@@ -17,35 +17,75 @@
       "japanese": "{信用金庫|しんようきんこ}に{預金|よきん}した。",
       "english": "I deposited money at the credit union.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "24783_shinyoukinko_ex2",
       "japanese": "{地元|じもと}の{信用金庫|しんようきんこ}から{融資|ゆうし}を{受|う}けた。",
       "english": "I received a loan from the local credit union.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "24783_shinyoukinko_ex3",
       "japanese": "この{信用金庫|しんようきんこ}は{地域|ちいき}の{中小企業|ちゅうしょうきぎょう}を{支援|しえん}することを{目的|もくてき}としている。",
       "english": "This credit union aims to support small and medium businesses in the area.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A type of cooperative financial institution ({協同組織|きょうどうそしき}) unique to Japan's financial system. Unlike banks, {信用金庫|しんようきんこ} are member-owned and focused on serving local communities. Often abbreviated to {信金|しんきん}.\n\nCOMMON COLLOCATIONS:\n- {信用金庫|しんようきんこ}に{口座|こうざ}を{開|ひら}く: to open an account at a credit union\n- {地元|じもと}の{信用金庫|しんようきんこ}: local credit union\n- {信金|しんきん}: abbreviated form\n\nSIMILAR WORDS:\n- {銀行|ぎんこう}: bank (larger, publicly traded, nationwide)\n- {信用組合|しんようくみあい}: credit cooperative (even smaller scale than {信用金庫|しんようきんこ})\n- {農協|のうきょう}: agricultural cooperative (serves farmers specifically)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00578_ginkou",
+      "reading": "ぎんこう",
+      "headword": "{銀行|ぎんこう}",
+      "label": "bank"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27727_noukyou",
+      "reading": "のうきょう",
+      "headword": "{農協|のうきょう}",
+      "label": "agricultural cooperative"
+    },
+    {
+      "type": "related",
+      "target_id": "21158_kinyuukikan",
+      "reading": "きんゆうきかん",
+      "headword": "{金融機関|きんゆうきかん}",
+      "label": "financial institution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24780_shoukengaisha",
+      "reading": "しょうけんがいしゃ",
+      "headword": "{証券会社|しょうけんがいしゃ}",
+      "label": "securities company, brokerage firm"
+    }
+  ],
   "metadata": {
     "created": "2026-04-20T15:28:03Z",
-    "modified": "2026-04-20T15:28:03Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     }
   }
 }

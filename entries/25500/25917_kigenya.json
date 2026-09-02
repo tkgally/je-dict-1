@@ -17,7 +17,9 @@
       "id": "25917_kigenya_ex1",
       "japanese": "あの{人|ひと}は{機嫌|きげん}{屋|や}だから{気|き}をつけて。",
       "english": "That person is moody, so be careful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25917_kigenya_ex2",
       "japanese": "{上司|じょうし}が{機嫌|きげん}{屋|や}だと、{職場|しょくば}の{雰囲気|ふんいき}が{日|ひ}によって{変|か}わる。",
       "english": "When the boss is moody, the workplace atmosphere changes from day to day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,52 @@
       "id": "25917_kigenya_ex3",
       "japanese": "{機嫌|きげん}{屋|や}の{友人|ゆうじん}とは{付|つ}き{合|あ}い{方|かた}を{工夫|くふう}しないと、{疲|つか}れてしまう。",
       "english": "If you don't adjust how you deal with a moody friend, it'll wear you out.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {機嫌|きげん} (mood; humor) + {屋|や} (person characterized by a trait). The suffix {屋|や} here marks someone defined by the quality — similar to {怒|おこ}りん{坊|ぼう} (hothead) or {寂|さび}しがり{屋|や} (lonely person). Carries a mildly negative nuance, implying the person is difficult or unpredictable to deal with.\n\nCOMMON COLLOCATIONS:\n- {機嫌|きげん}{屋|や}の{上司|じょうし}: a moody boss\n- {機嫌|きげん}{屋|や}だから{困|こま}る: it's a problem because they're moody\n\nSIMILAR WORDS:\n- {気分|きぶん}{屋|や}: a moody or whimsical person — very close synonym, slightly more common\n- {気|き}まぐれ: capricious; whimsical — emphasizes unpredictability of decisions and preferences\n- {短気|たんき}: short-tempered — specifically about getting angry quickly, not general moodiness",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08692_kibunya",
+      "reading": "きぶんや",
+      "headword": "{気分|きぶん}{屋|や}",
+      "label": "a moody or whimsical person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07319_kimagure",
+      "reading": "きまぐれ",
+      "headword": "{気|き}まぐれ",
+      "label": "capricious"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10913_tanki",
+      "reading": "たんき",
+      "headword": "{短気|たんき}",
+      "label": "short-tempered"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["personality", "person"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "personality",
+        "person"
+      ]
     },
     "created": "2026-04-28T12:23:54Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

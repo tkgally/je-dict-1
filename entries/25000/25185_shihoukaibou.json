@@ -17,7 +17,9 @@
       "id": "25185_shihoukaibou_ex1",
       "japanese": "{警察|けいさつ}は{司法解剖|しほうかいぼう}を{行|おこな}った。",
       "english": "The police conducted a forensic autopsy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25185_shihoukaibou_ex2",
       "japanese": "{司法解剖|しほうかいぼう}の{結果|けっか}、{死因|しいん}は{窒息|ちっそく}と{判明|はんめい}した。",
       "english": "As a result of the forensic autopsy, the cause of death was determined to be asphyxiation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,45 @@
       "id": "25185_shihoukaibou_ex3",
       "japanese": "{不審|ふしん}な{点|てん}があったため、{検察|けんさつ}は{裁判所|さいばんしょ}の{許可|きょか}を{得|え}て{司法解剖|しほうかいぼう}を{実施|じっし}することにした。",
       "english": "Because there were suspicious points, the prosecution obtained court permission and decided to carry out a forensic autopsy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {司法|しほう} (judicial, legal) and {解剖|かいぼう} (dissection, autopsy). In Japan, {司法解剖|しほうかいぼう} requires a warrant from a judge and is specifically for criminal investigations, unlike {行政解剖|ぎょうせいかいぼう} (administrative autopsy) which does not require a warrant.\n\nA common term in crime news, detective fiction, and legal dramas.\n\nCOMMON COLLOCATIONS:\n- {司法解剖|しほうかいぼう}を{行|おこな}う: to perform a forensic autopsy\n- {司法解剖|しほうかいぼう}の{結果|けっか}: results of the forensic autopsy\n- {司法解剖|しほうかいぼう}を{依頼|いらい}する: to request a forensic autopsy\n- {司法解剖|しほうかいぼう}で{死因|しいん}を{特定|とくてい}する: to determine cause of death through forensic autopsy\n\nSIMILAR WORDS:\n- {行政解剖|ぎょうせいかいぼう}: administrative autopsy — autopsy for non-criminal unnatural deaths\n- {病理解剖|びょうりかいぼう}: pathological autopsy — autopsy to study disease, performed in hospitals\n- {解剖|かいぼう}: autopsy, dissection — the general term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21854_kenshi",
+      "reading": "けんし",
+      "headword": "{検視|けんし}",
+      "label": "coroner's inquest"
+    },
+    {
+      "type": "related",
+      "target_id": "23557_houigaku",
+      "reading": "ほういがく",
+      "headword": "{法医学|ほういがく}",
+      "label": "forensic medicine"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["law", "health"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "law",
+        "health"
+      ]
     },
     "created": "2026-04-23T13:28:44Z",
-    "modified": "2026-04-23T13:28:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -18,7 +18,9 @@
       "id": "29714_genten_ex1",
       "japanese": "{原典|げんてん}に{当|あ}たる。",
       "english": "To consult the original text.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -26,7 +28,9 @@
       "id": "29714_genten_ex2",
       "japanese": "{翻訳|ほんやく}ではなく{原典|げんてん}で{読|よ}みたい。",
       "english": "I want to read it in the original, not in translation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -34,23 +38,46 @@
       "id": "29714_genten_ex3",
       "japanese": "{引用|いんよう}が{正確|せいかく}かどうか、{原典|げんてん}に{戻|もど}って{確|たし}かめた。",
       "english": "I went back to the original text to check whether the quotation was accurate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "COMPOSITION: {原|げん} (original) + {典|てん} (text, classic). Literally \"the original text.\"\n\nCOMMON COLLOCATIONS:\n- {原典|げんてん}に{当|あ}たる: to consult the original source directly\n- {原典|げんてん}に{戻|もど}る: to go back to the original text\n- {原典|げんてん}{批判|ひはん}: textual criticism (of a source)\n\nSIMILAR WORDS:\n- {原文|げんぶん}: the original wording — the actual text/wording, esp. before translation\n- {原書|げんしょ}: the original book — the physical book in its original language",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20563_genbun",
+      "reading": "げんぶん",
+      "headword": "{原文|げんぶん}",
+      "label": "the original wording"
+    },
+    {
+      "type": "related",
+      "target_id": "06424_shutten",
+      "reading": "しゅってん",
+      "headword": "{出典|しゅってん}",
+      "label": "source, reference"
+    }
+  ],
   "metadata": {
     "created": "2026-07-06T21:18:51Z",
-    "modified": "2026-07-06T21:18:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

@@ -46,6 +46,22 @@
   ],
   "notes": "A wasei-eigo coinage from English \"hello\" + \"work,\" used as the public nickname for the {公共職業安定所|こうきょうしょくぎょうあんていじょ} (also called {職安|しょくあん}).\n\nCOMMON COLLOCATIONS:\n- ハローワークに{通|かよ}う: to make repeated visits to Hello Work\n- ハローワークの{求人|きゅうじん}: job listings at Hello Work\n\nSIMILAR WORDS:\n- {職業安定所|しょくぎょうあんていじょ}: employment security office — the formal name\n- {求人|きゅうじん}サイト: job-listing website — private online alternative",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04690_kyuujin",
+      "reading": "きゅうじん",
+      "headword": "{求人|きゅうじん}",
+      "label": "job offer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28378_anteijo",
+      "reading": "あんていじょ",
+      "headword": "{安定所|あんていじょ}",
+      "label": "employment office"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "work",
         "society"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-05-25T02:04:35Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

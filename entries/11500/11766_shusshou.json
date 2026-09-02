@@ -2,7 +2,7 @@
   "id": "11766_shusshou",
   "headword": "{出生|しゅっしょう}",
   "reading": "しゅっしょう",
-  "part_of_speech": "noun; noun (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "birth",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "A formal, official term for birth used in legal, demographic, and statistical contexts. Everyday conversation uses {生|う}まれる (to be born) or {誕生|たんじょう} (birth, more celebratory).\n\nREADING NOTE:\nThe standard reading is しゅっしょう. The reading しゅっせい is also used, especially in medical contexts.\n\nCOMMON COLLOCATIONS:\n- {出生|しゅっしょう}{届|とどけ}: birth registration\n- {出生|しゅっしょう}{率|りつ}: birth rate\n- {出生|しゅっしょう}{地|ち}: birthplace\n- {出生|しゅっしょう}{証明書|しょうめいしょ}: birth certificate\n- {出生|しゅっしょう}{数|すう}: number of births\n\nSIMILAR WORDS:\n- {誕生|たんじょう}: birth (celebratory, used for birthdays)\n- {生|う}まれ: birth, origin (informal/conversational)",
+  "notes": "A formal, official term for birth used in legal, demographic, and statistical contexts. Everyday conversation uses {生|う}まれる (to be born) or {誕生|たんじょう} (birth, more celebratory).\n\nPRONUNCIATION:\nThe standard reading is しゅっしょう. The reading しゅっせい is also used, especially in medical contexts.\n\nCOMMON COLLOCATIONS:\n- {出生|しゅっしょう}{届|とどけ}: birth registration\n- {出生|しゅっしょう}{率|りつ}: birth rate\n- {出生|しゅっしょう}{地|ち}: birthplace\n- {出生|しゅっしょう}{証明書|しょうめいしょ}: birth certificate\n- {出生|しゅっしょう}{数|すう}: number of births\n\nSIMILAR WORDS:\n- {誕生|たんじょう}: birth (celebratory, used for birthdays)\n- {生|う}まれ: birth, origin (informal/conversational)",
   "cross_references": [
     {
       "type": "contrast",
@@ -141,11 +141,25 @@
       "reading": "たんじょう",
       "headword": "{誕生|たんじょう}",
       "label": "birth (celebratory)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01867_umare",
+      "reading": "うまれ",
+      "headword": "{生|う}まれ",
+      "label": "birth, origin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22914_seitan",
+      "reading": "せいたん",
+      "headword": "{生誕|せいたん}",
+      "label": "birth"
     }
   ],
   "metadata": {
     "created": "2026-02-17T23:15:01Z",
-    "modified": "2026-08-15T21:25:25Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

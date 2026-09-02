@@ -17,7 +17,9 @@
       "id": "25906_daionkyou_ex1",
       "japanese": "{大|だい}{音響|おんきょう}が{響|ひび}き{渡|わた}った。",
       "english": "A thunderous sound echoed all around.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25906_daionkyou_ex2",
       "japanese": "{花火|はなび}が{大|だい}{音響|おんきょう}とともに{夜空|よぞら}に{上|あ}がった。",
       "english": "Fireworks shot up into the night sky with a tremendous boom.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,50 @@
       "id": "25906_daionkyou_ex3",
       "japanese": "コンサート{会場|かいじょう}では{大|だい}{音響|おんきょう}のため、{耳|みみ}{栓|せん}をしている{人|ひと}も{多|おお}かった。",
       "english": "At the concert venue, many people were wearing earplugs because of the extreme volume.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {大|だい} (great; large) + {音響|おんきょう} (sound; acoustics). Describes a sound that is overwhelmingly loud, often to the point of being physically felt. Used in both literal descriptions of noise and more dramatic, literary depictions.\n\nCOMMON COLLOCATIONS:\n- {大|だい}{音響|おんきょう}が{響|ひび}く: a great sound reverberates\n- {大|だい}{音響|おんきょう}とともに: with a great roar\n- {大|だい}{音響|おんきょう}を{立|た}てる: to make a great noise\n\nSIMILAR WORDS:\n- {轟音|ごうおん}: roaring sound; thundering noise — emphasizes a rumbling, resonating quality\n- {騒音|そうおん}: noise; noise pollution — implies unwanted or disturbing sound\n- {爆音|ばくおん}: explosive sound — specifically the sound of explosions, engines, or similar blasts",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14309_gouon",
+      "reading": "ごうおん",
+      "headword": "{轟音|ごうおん}",
+      "label": "roaring sound"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03315_souon",
+      "reading": "そうおん",
+      "headword": "{騒音|そうおん}",
+      "label": "noise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15070_bakuon",
+      "reading": "ばくおん",
+      "headword": "{爆音|ばくおん}",
+      "label": "explosive sound"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["descriptive"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "descriptive"
+      ]
     },
     "created": "2026-04-28T12:19:24Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

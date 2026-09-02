@@ -16,7 +16,9 @@
       "id": "08746_webukaigi_ex1",
       "japanese": "ウェブ{会議|かいぎ}で{打|う}ち{合|あ}わせをする。",
       "english": "To have a meeting via web conference.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "08746_webukaigi_ex2",
       "japanese": "ウェブ{会議|かいぎ}の{回数|かいすう}が{増|ふ}えた。",
       "english": "The number of web conferences has increased.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,12 +36,14 @@
       "id": "08746_webukaigi_ex3",
       "japanese": "ウェブ{会議|かいぎ}のおかげで{在宅勤務|ざいたくきんむ}ができる。",
       "english": "Thanks to web conferences, I can work from home.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "SYNONYMS:\n- オンライン{会議|かいぎ} - online meeting\n- ビデオ{会議|かいぎ} - video conference\n- リモート{会議|かいぎ} - remote meeting\n- テレビ{会議|かいぎ} - teleconference\n\nCOMMON PLATFORMS:\n- Zoom\n- Microsoft Teams\n- Google Meet\n- Webex\n\nPOST-PANDEMIC WORK:\nウェブ{会議|かいぎ} became a standard business practice during and after the COVID-19 pandemic, enabling {在宅勤務|ざいたくきんむ} (working from home) and ハイブリッド{勤務|きんむ} (hybrid work).",
+  "notes": "SIMILAR WORDS:\n- オンライン{会議|かいぎ} - online meeting\n- ビデオ{会議|かいぎ} - video conference\n- リモート{会議|かいぎ} - remote meeting\n- テレビ{会議|かいぎ} - teleconference\n\nCOMMON PLATFORMS:\n- Zoom\n- Microsoft Teams\n- Google Meet\n- Webex\n\nPOST-PANDEMIC WORK:\nウェブ{会議|かいぎ} became a standard business practice during and after the COVID-19 pandemic, enabling {在宅勤務|ざいたくきんむ} (working from home) and ハイブリッド{勤務|きんむ} (hybrid work).",
   "cross_references": [
     {
       "type": "related",
@@ -45,16 +51,37 @@
       "reading": "かいぎ",
       "headword": "{会議|かいぎ}",
       "label": "meeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06606_onrainkaigi",
+      "reading": "おんらいんかいぎ",
+      "headword": "オンライン{会議|かいぎ}",
+      "label": "online meeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21751_terebikaigi",
+      "reading": "てれびかいぎ",
+      "headword": "テレビ{会議|かいぎ}",
+      "label": "teleconference"
     }
   ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["business", "technology", "communication"]
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "technology",
+        "communication"
+      ]
     },
     "created": "2026-01-28T03:35:56Z",
-    "modified": "2026-04-22T04:11:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

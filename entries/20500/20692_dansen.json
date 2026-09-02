@@ -3,7 +3,7 @@
   "headword": "{断線|だんせん}",
   "reading": "だんせん",
   "romaji": "dansen",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "disconnection; broken wire; severed line",
   "definitions": [
     {
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {断|だん} (sever/cut) + {線|せん} (line/wire). Refers to the physical breaking of a wire or cable, whether in small electronics or large infrastructure.\n\nCOMMON COLLOCATIONS:\n- {断線|だんせん}する: to break/disconnect (as a verb with する)\n- ケーブルの{断線|だんせん}: cable breakage\n- {送電線|そうでんせん}の{断線|だんせん}: power line break\n- {断線|だんせん}{箇所|かしょ}: point of disconnection\n- {断線|だんせん}を{修理|しゅうり}する: to repair a broken wire\n\nSIMILAR WORDS:\n- {切断|せつだん}: severance, cutting — a more general term for cutting, not limited to wires\n- {停電|ていでん}: power outage — the result of power line {断線|だんせん}, but can also be caused by other factors\n- {接触不良|せっしょくふりょう}: poor contact — a different type of electrical problem where the wire is not broken but the connection is loose\n\nNOTE:\nIn everyday life, {断線|だんせん} most commonly occurs with earphone/headphone cables and charging cables. It is also used in news reports about damage from natural disasters.",
+  "notes": "Composed of {断|だん} (sever/cut) + {線|せん} (line/wire). Refers to the physical breaking of a wire or cable, whether in small electronics or large infrastructure.\n\nCOMMON COLLOCATIONS:\n- {断線|だんせん}する: to break/disconnect (as a verb with する)\n- ケーブルの{断線|だんせん}: cable breakage\n- {送電線|そうでんせん}の{断線|だんせん}: power line break\n- {断線|だんせん}{箇所|かしょ}: point of disconnection\n- {断線|だんせん}を{修理|しゅうり}する: to repair a broken wire\n\nSIMILAR WORDS:\n- {切断|せつだん}: severance, cutting — a more general term for cutting, not limited to wires\n- {停電|ていでん}: power outage — the result of power line {断線|だんせん}, but can also be caused by other factors\n- {接触不良|せっしょくふりょう}: poor contact — a different type of electrical problem where the wire is not broken but the connection is loose\n\nUSAGE:\nIn everyday life, {断線|だんせん} most commonly occurs with earphone/headphone cables and charging cables. It is also used in news reports about damage from natural disasters.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20497_setsudan",
+      "reading": "せつだん",
+      "headword": "{切断|せつだん}",
+      "label": "severance, cutting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03544_teiden",
+      "reading": "ていでん",
+      "headword": "{停電|ていでん}",
+      "label": "power outage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16550_sesshokufuryou",
+      "reading": "せっしょくふりょう",
+      "headword": "{接触不良|せっしょくふりょう}",
+      "label": "poor contact"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-30T07:48:12Z",
-    "modified": "2026-03-30T07:48:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

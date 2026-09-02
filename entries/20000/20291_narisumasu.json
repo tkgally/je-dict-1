@@ -3,7 +3,7 @@
   "headword": "なりすます",
   "reading": "なりすます",
   "romaji": "narisumasu",
-  "part_of_speech": "godan verb, intransitive",
+  "part_of_speech": "verb (godan, intransitive)",
   "gloss": "to impersonate; to pose as; to pretend to be",
   "conjugation": {
     "type": "godan",
@@ -136,6 +136,29 @@
   ],
   "notes": "Literally \"to completely become\" — from なる (to become) + すます (to complete/finish). The word implies deliberately assuming a false identity, not merely acting or role-playing.\n\nUSAGE:\nVery common in news and online contexts. The noun form なりすまし is widely used for identity fraud and fake accounts. Often takes に to mark the person being impersonated.\n\nCOMMON COLLOCATIONS:\n- なりすまし{詐欺|さぎ} — impersonation fraud\n- なりすましアカウント — fake account, impersonation account\n- なりすまし{犯罪|はんざい} — identity crime\n- {本人|ほんにん}になりすます — to pose as the real person\n\nSIMILAR WORDS:\n- {装|よそお}う — to pretend, to feign (broader; can be emotions or appearances, not just identity)\n- {偽|いつわ}る — to deceive, to falsify (more formal; focuses on the dishonesty rather than the disguise)\n- ふりをする — to pretend, to act as if (lighter nuance; can be playful or casual)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09152_yosoou",
+      "reading": "よそおう",
+      "headword": "{装|よそお}う",
+      "label": "to pretend, to feign (broader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10882_itsuwaru",
+      "reading": "いつわる",
+      "headword": "{偽|いつわ}る",
+      "label": "to deceive, to falsify (more formal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25601_sashousuru",
+      "reading": "さしょうする",
+      "headword": "{詐称|さしょう}する",
+      "label": "to misrepresent"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +174,6 @@
       "verb_class": "godan-su"
     },
     "created": "2026-03-28T20:07:07Z",
-    "modified": "2026-03-28T20:07:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

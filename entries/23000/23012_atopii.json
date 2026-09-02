@@ -17,7 +17,9 @@
       "id": "23012_atopii_ex1",
       "japanese": "{子供|こども}のころからアトピーだ。",
       "english": "I've had atopic dermatitis since childhood.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23012_atopii_ex2",
       "japanese": "アトピーの{症状|しょうじょう}が{悪化|あっか}した。",
       "english": "My eczema symptoms got worse.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "23012_atopii_ex3",
       "japanese": "アトピー{性|せい}{皮膚炎|ひふえん}は{完治|かんち}が{難|むずか}しいが、{適切|てきせつ}な{治療|ちりょう}で{症状|しょうじょう}を{抑|おさ}えることができる。",
       "english": "Atopic dermatitis is hard to cure completely, but proper treatment can control the symptoms.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "In Japanese, アトピー almost always refers to atopic dermatitis (eczema) specifically, even though the medical term is broader. Very common in daily conversation as many Japanese people suffer from this condition.\n\nCOMMON COLLOCATIONS:\n- アトピー{性|せい}{皮膚炎|ひふえん}: atopic dermatitis (the full medical term)\n- アトピー{肌|はだ}: atopy-prone skin\n- アトピーが{出|で}る: for eczema to flare up\n- アトピーが{治|なお}る: for eczema to clear up\n- アトピー{体質|たいしつ}: atopic constitution; tendency toward allergies\n\nSIMILAR WORDS:\n- {湿疹|しっしん}: eczema, rash — a general medical term for skin rashes; broader than アトピー\n- アレルギー: allergy — the broader category of immune hypersensitivity\n- {肌荒|はだあ}れ: rough skin, skin irritation — a general term for skin problems\n\nCULTURAL NOTE:\nAtopic dermatitis is extremely common in Japan. There are many products marketed specifically for アトピー{肌|はだ}, and the topic comes up frequently in conversations about children's health.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06951_shisshin",
+      "reading": "しっしん",
+      "headword": "{湿疹|しっしん}",
+      "label": "eczema, rash"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04645_arerugii",
+      "reading": "あれるぎー",
+      "headword": "アレルギー",
+      "label": "allergy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08421_hadaare",
+      "reading": "はだあれ",
+      "headword": "{肌荒|はだあ}れ",
+      "label": "rough skin, skin irritation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["health"]
+      "semantic": [
+        "health"
+      ]
     },
     "created": "2026-04-08T15:44:20Z",
-    "modified": "2026-04-08T15:44:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

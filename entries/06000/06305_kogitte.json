@@ -50,18 +50,32 @@
       ]
     }
   ],
-  "notes": "FINANCIAL TERM:\n{小切手|こぎって} is a check (cheque) - a written order to a bank to pay money.\n\nKEY EXPRESSIONS:\n- {小切手|こぎって}⟦を→を：00422_wo⟧⟦{振|ふ}り{出|だ}す→振り出す：19276_furidasu⟧: to write/issue a check\n- {小切手|こぎって}⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧: to write a check\n- {小切手|こぎって}⟦を→を：00422_wo⟧⟦{換金|かんきん}→換金：28179_kankin⟧⟦する→する：00392_suru⟧: to cash a check\n- {小切手|こぎって}⟦を→を：00422_wo⟧⟦{入金|にゅうきん}→入金：05467_nyuukin⟧⟦する→する：00392_suru⟧: to deposit a check\n\nTYPES:\n- ⟦{普通|ふつう}→普通：01502_futsuu⟧{小切手|こぎって}: Regular check\n- ⟦{線引|せんびき}→線引き：13867_senbiki⟧{小切手|こぎって}: Crossed check (must be deposited, not cashed)\n- ⟦{当座|とうざ}→当座：29548_touza⟧{小切手|こぎって}: Cashier's check\n- ⟦{旅行|りょこう}{者|しゃ}→旅行者：22927_ryokousha⟧{小切手|こぎって}: Traveler's check\n\nMODERN USAGE IN JAPAN:\nUnlike in some Western countries, checks are relatively rare in everyday Japanese life. Most transactions use:\n- ⟦{現金|げんきん}→現金：02716_genkin⟧: Cash\n- ⟦{銀行|ぎんこう}{振込|ふりこみ}→銀行振込：25648_ginkoufurikomi⟧: Bank transfer\n- ⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧: Credit card\n- ⟦{電子|でんし}→電子：03449_denshi⟧⟦マネー→マネー：29549_manee⟧: Electronic money\n\nChecks are still used in business transactions, especially for large amounts.\n\nRELATED TERMS:\n- ⟦{手形|てがた}→手形：06304_tegata⟧: Promissory note\n- ⟦{当座|とうざ}{預金|よきん}→当座預金：27031_touzayokin⟧: Checking account",
+  "notes": "FINANCIAL TERM:\n{小切手|こぎって} is a check (cheque) - a written order to a bank to pay money.\n\nCOMMON EXPRESSIONS:\n- {小切手|こぎって}⟦を→を：00422_wo⟧⟦{振|ふ}り{出|だ}す→振り出す：19276_furidasu⟧: to write/issue a check\n- {小切手|こぎって}⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧: to write a check\n- {小切手|こぎって}⟦を→を：00422_wo⟧⟦{換金|かんきん}→換金：28179_kankin⟧⟦する→する：00392_suru⟧: to cash a check\n- {小切手|こぎって}⟦を→を：00422_wo⟧⟦{入金|にゅうきん}→入金：05467_nyuukin⟧⟦する→する：00392_suru⟧: to deposit a check\n\nTYPES:\n- ⟦{普通|ふつう}→普通：01502_futsuu⟧{小切手|こぎって}: Regular check\n- ⟦{線引|せんびき}→線引き：13867_senbiki⟧{小切手|こぎって}: Crossed check (must be deposited, not cashed)\n- ⟦{当座|とうざ}→当座：29548_touza⟧{小切手|こぎって}: Cashier's check\n- ⟦{旅行|りょこう}{者|しゃ}→旅行者：22927_ryokousha⟧{小切手|こぎって}: Traveler's check\n\nMODERN USAGE IN JAPAN:\nUnlike in some Western countries, checks are relatively rare in everyday Japanese life. Most transactions use:\n- ⟦{現金|げんきん}→現金：02716_genkin⟧: Cash\n- ⟦{銀行|ぎんこう}{振込|ふりこみ}→銀行振込：25648_ginkoufurikomi⟧: Bank transfer\n- ⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧: Credit card\n- ⟦{電子|でんし}→電子：03449_denshi⟧⟦マネー→マネー：29549_manee⟧: Electronic money\n\nChecks are still used in business transactions, especially for large amounts.\n\nRELATED WORDS:\n- ⟦{手形|てがた}→手形：06304_tegata⟧: Promissory note\n- ⟦{当座|とうざ}{預金|よきん}→当座預金：27031_touzayokin⟧: Checking account",
   "cross_references": [
     {
       "type": "related",
       "reading": "てがた",
       "headword": "{手形|てがた}",
       "target_id": "06304_tegata"
+    },
+    {
+      "type": "related",
+      "target_id": "27031_touzayokin",
+      "reading": "とうざよきん",
+      "headword": "{当座預金|とうざよきん}",
+      "label": "Checking account"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02716_genkin",
+      "reading": "げんきん",
+      "headword": "{現金|げんきん}",
+      "label": "cash, ready money"
     }
   ],
   "metadata": {
     "created": "2026-01-17T08:54:25Z",
-    "modified": "2026-08-25T00:21:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

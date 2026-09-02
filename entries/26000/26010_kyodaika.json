@@ -3,7 +3,7 @@
   "headword": "{巨大化|きょだいか}",
   "reading": "きょだいか",
   "romaji": "kyodaika",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "becoming enormous; enlargement; growing to a huge scale",
   "definitions": [
     {
@@ -45,7 +45,15 @@
     }
   ],
   "notes": "Formed from {巨大|きょだい} (enormous) + {化|か} (transformation suffix). Used for dramatic increases in size or scale — natural phenomena like typhoons, organizational growth like corporations, or social trends like urbanization. The nuance often implies that the growth is notable or problematic.\n\nCOMMON COLLOCATIONS:\n- {台風|たいふう}の{巨大化|きょだいか}: typhoons growing larger\n- {企業|きぎょう}の{巨大化|きょだいか}: corporations growing massive\n- {巨大化|きょだいか}する{都市|とし}: a city growing to enormous scale\n- {巨大化|きょだいか}が{進|すす}む: enlargement is progressing\n\nSIMILAR WORDS:\n- {大型化|おおがたか}: becoming larger — more neutral, used for products and equipment increasing in size\n- {拡大|かくだい}: expansion — broader term for growth in scope, area, or influence\n- {肥大化|ひだいか}: bloating; swelling — carries a negative nuance of unhealthy or excessive growth",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02553_kakudai",
+      "reading": "かくだい",
+      "headword": "{拡大|かくだい}",
+      "label": "expansion"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,13 +62,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "change"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-28T16:10:55Z",
-    "modified": "2026-04-28T16:10:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

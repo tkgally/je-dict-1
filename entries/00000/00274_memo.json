@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "メモ (from English 'memo/memorandum') refers to short notes or reminders.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧メモ⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- メモ⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to take notes\n- メモ⟦する→する：00392_suru⟧: to make a note, to jot down\n- メモ⟦を→を：00422_wo⟧⟦{残|のこ}す→残す：01975_nokosu⟧: to leave a note\n\nCOMMON COMPOUNDS:\n- メモ⟦{帳|ちょう}→帳：10012_chou⟧: memo pad, notepad\n- メモ⟦{用紙|ようし}→用紙：09588_youshi⟧: memo paper\n- ⟦{付箋|ふせん}→付箋：08245_fusen⟧メモ: sticky note\n- ⟦{伝言|でんごん}→伝言：03448_dengon⟧メモ: message memo\n\nRELATED:\n- ⟦ノート→ノート：00738_nooto⟧: notebook (for longer notes)\n- ⟦{覚|おぼ}え{書|が}き→覚書：07963_oboegaki⟧: memorandum (more formal)",
+  "notes": "メモ (from English 'memo/memorandum') refers to short notes or reminders.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧メモ⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- メモ⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to take notes\n- メモ⟦する→する：00392_suru⟧: to make a note, to jot down\n- メモ⟦を→を：00422_wo⟧⟦{残|のこ}す→残す：01975_nokosu⟧: to leave a note\n\nCOMPOUNDS:\n- メモ⟦{帳|ちょう}→帳：10012_chou⟧: memo pad, notepad\n- メモ⟦{用紙|ようし}→用紙：09588_youshi⟧: memo paper\n- ⟦{付箋|ふせん}→付箋：08245_fusen⟧メモ: sticky note\n- ⟦{伝言|でんごん}→伝言：03448_dengon⟧メモ: message memo\n\nRELATED WORDS:\n- ⟦ノート→ノート：00738_nooto⟧: notebook (for longer notes)\n- ⟦{覚|おぼ}え{書|が}き→覚書：07963_oboegaki⟧: memorandum (more formal)",
   "prominent_see_also": [
     {
       "target_id": "10295_memoru",
@@ -142,10 +142,60 @@
       "note": "to jot down (verb form)"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00738_nooto",
+      "reading": "のーと",
+      "headword": "ノート",
+      "label": "notebook"
+    },
+    {
+      "type": "related",
+      "target_id": "07963_oboegaki",
+      "reading": "おぼえがき",
+      "headword": "{覚書|おぼえがき}",
+      "label": "memorandum"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00101_hikki",
+      "reading": "ひっき",
+      "headword": "{筆記|ひっき}",
+      "label": "note-taking, writing"
+    },
+    {
+      "type": "related",
+      "target_id": "08245_fusen",
+      "reading": "ふせん",
+      "headword": "{付箋|ふせん}",
+      "label": "sticky note"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21230_bibouroku",
+      "reading": "びぼうろく",
+      "headword": "{備忘録|びぼうろく}",
+      "label": "memorandum"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22220_chuuki",
+      "reading": "ちゅうき",
+      "headword": "{注記|ちゅうき}",
+      "label": "note"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25989_shihen",
+      "reading": "しへん",
+      "headword": "{紙片|しへん}",
+      "label": "scrap of paper"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T00:40:50Z",
-    "modified": "2026-05-10T14:08:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

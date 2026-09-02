@@ -17,7 +17,9 @@
       "id": "26132_henseigan_ex1",
       "japanese": "{大理石|だいりせき}は{変成岩|へんせいがん}に{分類|ぶんるい}される。",
       "english": "Marble is classified as a metamorphic rock.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26132_henseigan_ex2",
       "japanese": "{変成岩|へんせいがん}は{高温|こうおん}や{高圧|こうあつ}のもとで{形成|けいせい}される。",
       "english": "Metamorphic rock is formed under conditions of high temperature and pressure.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "26132_henseigan_ex3",
       "japanese": "この{地域|ちいき}では、{火成岩|かせいがん}と{変成岩|へんせいがん}が{複雑|ふくざつ}に{入|い}り{混|ま}じっている。",
       "english": "In this region, igneous and metamorphic rocks are intricately mixed together.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -45,19 +51,39 @@
       "target_id": "26131_kaseigan",
       "reading": "かせいがん",
       "notes": "Paired geological term: igneous rock"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23353_taisekigan",
+      "reading": "たいせきがん",
+      "headword": "{堆積岩|たいせきがん}",
+      "label": "sedimentary rock"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20502_ganseki",
+      "reading": "がんせき",
+      "headword": "{岩石|がんせき}",
+      "label": "rock"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"],
-      "domain": ["academic"]
+      "semantic": [
+        "geography"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-04-29T14:37:30Z",
-    "modified": "2026-04-29T14:37:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

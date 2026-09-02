@@ -19,7 +19,9 @@
       "english": "I like patterned shirts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21181_garamono_ex2",
@@ -27,7 +29,9 @@
       "english": "Combining patterned and solid-color items looks stylish.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21181_garamono_ex3",
@@ -35,21 +39,42 @@
       "english": "Pairing patterned items together is difficult, but when done well it looks unique.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{柄|がら} means 'pattern' or 'design,' and {物|もの} means 'thing' or 'item.' {柄物|がらもの} is used in fashion and shopping to describe anything with a printed pattern — stripes, florals, checks, etc. It contrasts with {無地|むじ} (solid color, plain).\n\nCOMMON COLLOCATIONS:\n- {柄物|がらもの}のスカート (patterned skirt)\n- {柄物|がらもの}と{無地|むじ} (patterned and plain)\n- {柄物|がらもの}を{着|き}る (to wear something patterned)\n- {派手|はで}な{柄物|がらもの} (a boldly patterned item)\n\nSIMILAR WORDS:\n- {無地|むじ} — solid color, plain (the opposite of {柄物|がらもの})\n- {柄|がら} — pattern, design (the pattern itself, not the item)\n- プリント — print (loanword; often used for specific printed designs on clothing)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "03990_muji",
+      "reading": "むじ",
+      "headword": "{無地|むじ}",
+      "label": "solid color, plain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01539_purinto",
+      "reading": "ぷりんと",
+      "headword": "プリント",
+      "label": "print (loanword"
+    }
+  ],
   "metadata": {
     "created": "2026-03-31T22:17:58Z",
-    "modified": "2026-03-31T22:17:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life"]
+      "semantic": [
+        "daily-life"
+      ]
     }
   }
 }

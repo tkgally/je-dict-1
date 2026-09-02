@@ -19,7 +19,9 @@
       "english": "I purchased it at wholesale price.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15949_oroshine_ex2",
@@ -27,7 +29,9 @@
       "english": "The wholesale price of this product is about half the retail price.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15949_oroshine_ex3",
@@ -35,7 +39,9 @@
       "english": "Wholesale prices rose due to soaring raw material costs, forcing retailers to raise prices as well.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{卸値|おろしね} is a commerce term used in business and trade. It is sometimes encountered in everyday speech when shops advertise products at wholesale prices to attract customers.\n\nCOMMON COLLOCATIONS:\n- {卸値|おろしね}で{売|う}る (to sell at wholesale price)\n- {卸値|おろしね}で{仕入|しい}れる (to purchase at wholesale price)\n- {卸値|おろしね}が{上|あ}がる (wholesale prices rise)\n\nRELATED WORDS:\n{小売|こうり}{価格|かかく} means retail price. {卸売|おろしうり} means wholesale (the business of selling in bulk), and {卸|おろし} alone can refer to wholesale trade.",
@@ -46,19 +52,39 @@
       "reading": "おろしうり",
       "headword": "{卸売|おろしうり}",
       "label": "wholesale (business)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21592_shiirene",
+      "reading": "しいれね",
+      "headword": "{仕入|しい}れ{値|ね}",
+      "label": "purchase price"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24607_hanbaikakaku",
+      "reading": "はんばいかかく",
+      "headword": "{販売価格|はんばいかかく}",
+      "label": "selling price"
     }
   ],
   "metadata": {
     "created": "2026-03-09T00:45:10Z",
-    "modified": "2026-05-02T09:03:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

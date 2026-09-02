@@ -79,10 +79,39 @@
     }
   ],
   "notes": "{出身|しゅっしん} indicates where someone is from - their hometown, native place, or the institution they graduated from.\n\nCOMMON PATTERNS:\n- ○○{出身|しゅっしん}⟦だ→だ：09496_da⟧ (to be from XX)\n- {出身|しゅっしん}⟦は→は：00079_ha⟧○○⟦だ→だ：09496_da⟧ (one's origin is XX)\n- ○○{出身|しゅっしん}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧ (person from XX)\n\nCOMMON COLLOCATIONS:\n- {出身|しゅっしん}⟦{地|ち}→地：09852_chi⟧ (birthplace, hometown)\n- {出身|しゅっしん}⟦{校|こう}→校：noentry⟧ (alma mater)\n- {出身|しゅっしん}⟦{国|こく}→国：noentry⟧ (country of origin)\n- {出身|しゅっしん}⟦{大学|だいがく}→大学：00608_daigaku⟧ (university one graduated from)\n\nUSAGE:\n- ⟦{東京|とうきょう}→東京：09564_toukyou⟧{出身|しゅっしん} (from Tokyo)\n- ⟦{早稲田|わせだ}→早稲田：noentry⟧⟦{大学|だいがく}→大学：00608_daigaku⟧{出身|しゅっしん} (Waseda University graduate)\n- ⟦アメリカ→アメリカ：01769_amerika⟧{出身|しゅっしん} (from America)\n- ⟦{農家|のうか}→農家：03539_nouka⟧{出身|しゅっしん} (from a farming family)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01867_umare",
+      "reading": "うまれ",
+      "headword": "{生|う}まれ",
+      "label": "birth, birthplace, origin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04180_gensan",
+      "reading": "げんさん",
+      "headword": "{原産|げんさん}",
+      "label": "place of origin, native"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20751_shutsuji",
+      "reading": "しゅつじ",
+      "headword": "{出自|しゅつじ}",
+      "label": "origin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23145_shussho",
+      "reading": "しゅっしょ",
+      "headword": "{出所|しゅっしょ}",
+      "label": "release from prison"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T13:40:30Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

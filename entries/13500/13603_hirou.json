@@ -3,7 +3,7 @@
   "id": "13603_hirou",
   "headword": "{疲労|ひろう}",
   "reading": "ひろう",
-  "part_of_speech": "noun; verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "fatigue, weariness, exhaustion",
   "conjugation": {
     "type": "suru",
@@ -142,11 +142,39 @@
       "reading": "つかれ",
       "headword": "{疲|つか}れ",
       "label": "tiredness (everyday)"
+    },
+    {
+      "type": "related",
+      "target_id": "05023_kentaikan",
+      "reading": "けんたいかん",
+      "headword": "{倦怠感|けんたいかん}",
+      "label": "fatigue, malaise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06003_kyodatsu",
+      "reading": "きょだつ",
+      "headword": "{虚脱|きょだつ}",
+      "label": "lethargy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25286_natsuzukare",
+      "reading": "なつづかれ",
+      "headword": "{夏疲|なつづか}れ",
+      "label": "summer fatigue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29849_konpai",
+      "reading": "こんぱい",
+      "headword": "{困憊|こんぱい}",
+      "label": "utter exhaustion"
     }
   ],
   "metadata": {
     "created": "2026-02-26T09:54:27Z",
-    "modified": "2026-04-29T05:15:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

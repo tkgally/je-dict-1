@@ -17,7 +17,9 @@
       "id": "26186_hanshu_ex1",
       "japanese": "{藩主|はんしゅ}が{城|しろ}に{戻|もど}った。",
       "english": "The feudal lord returned to the castle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26186_hanshu_ex2",
       "japanese": "この{藩|はん}の{藩主|はんしゅ}は{学問|がくもん}を{奨励|しょうれい}した。",
       "english": "The lord of this domain promoted scholarship.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26186_hanshu_ex3",
       "japanese": "{幕末|ばくまつ}には{多|おお}くの{藩主|はんしゅ}が{藩政改革|はんせいかいかく}に{取|と}り{組|く}んだ。",
       "english": "At the end of the Edo period, many feudal lords undertook reforms of their domain's governance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A term from the Edo period (1603–1868) referring to the ruler of a {藩|はん} (feudal domain). The {藩主|はんしゅ} held authority over governance, taxation, and military forces within the domain, but owed loyalty to the {将軍|しょうぐん} (shogun) in Edo.\n\nCOMMON COLLOCATIONS:\n- {藩主|はんしゅ}の{命令|めいれい} — the lord's order\n- {初代|しょだい}{藩主|はんしゅ} — the first lord (founder of the domain)\n- {最後|さいご}の{藩主|はんしゅ} — the last lord (before abolition of domains)\n- {藩主|はんしゅ}が{代|か}わる — the lord changes (succession)\n\nRELATED TERMS:\n- {大名|だいみょう} — feudal lord (broader term used across all periods of Japanese feudalism)\n- {城主|じょうしゅ} — castle lord",
-  "cross_references": [],
+  "notes": "A term from the Edo period (1603–1868) referring to the ruler of a {藩|はん} (feudal domain). The {藩主|はんしゅ} held authority over governance, taxation, and military forces within the domain, but owed loyalty to the {将軍|しょうぐん} (shogun) in Edo.\n\nCOMMON COLLOCATIONS:\n- {藩主|はんしゅ}の{命令|めいれい} — the lord's order\n- {初代|しょだい}{藩主|はんしゅ} — the first lord (founder of the domain)\n- {最後|さいご}の{藩主|はんしゅ} — the last lord (before abolition of domains)\n- {藩主|はんしゅ}が{代|か}わる — the lord changes (succession)\n\nRELATED WORDS:\n- {大名|だいみょう} — feudal lord (broader term used across all periods of Japanese feudalism)\n- {城主|じょうしゅ} — castle lord",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10378_daimyou",
+      "reading": "だいみょう",
+      "headword": "{大名|だいみょう}",
+      "label": "feudal lord"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14859_ryoushu",
+      "reading": "りょうしゅ",
+      "headword": "{領主|りょうしゅ}",
+      "label": "feudal lord"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["history", "politics"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "history",
+        "politics"
+      ]
     },
     "created": "2026-04-30T11:25:05Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

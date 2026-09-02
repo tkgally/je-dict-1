@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "{一昨日|いっさくじつ} is the formal reading of {一昨日|おととい} (the day before yesterday). Both use the same kanji but differ in register.\n\nREADING CONTRAST:\n- おととい: everyday conversation, casual speech\n- いっさくじつ: news broadcasts, official documents, formal writing, business contexts\n\nPATTERN:\nThe {一昨|いっさく}〜 prefix means \"the ~ before last\" and applies to other time words:\n- {一昨日|いっさくじつ}: the day before yesterday\n- {一昨年|いっさくねん}: the year before last\n- {一昨晩|いっさくばん}: the night before last\n\nSIMILAR TIME WORDS:\n- {昨日|きのう}/{昨日|さくじつ}: yesterday (casual/formal)\n- {明後日|あさって}/{明後日|みょうごにち}: the day after tomorrow (casual/formal)",
-  "cross_references": [],
+  "notes": "{一昨日|いっさくじつ} is the formal reading of {一昨日|おととい} (the day before yesterday). Both use the same kanji but differ in register.\n\nREADING CONTRAST:\n- おととい: everyday conversation, casual speech\n- いっさくじつ: news broadcasts, official documents, formal writing, business contexts\n\nCOMMON PATTERNS:\nThe {一昨|いっさく}〜 prefix means \"the ~ before last\" and applies to other time words:\n- {一昨日|いっさくじつ}: the day before yesterday\n- {一昨年|いっさくねん}: the year before last\n- {一昨晩|いっさくばん}: the night before last\n\nSIMILAR TIME WORDS:\n- {昨日|きのう}/{昨日|さくじつ}: yesterday (casual/formal)\n- {明後日|あさって}/{明後日|みょうごにち}: the day after tomorrow (casual/formal)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00301_myougonichi",
+      "reading": "みょうごにち",
+      "headword": "{明後日|みょうごにち}",
+      "label": "the day after tomorrow"
+    },
+    {
+      "type": "related",
+      "target_id": "15474_issakunen",
+      "reading": "いっさくねん",
+      "headword": "{一昨年|いっさくねん}",
+      "label": "the year before last"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T02:12:10Z",
-    "modified": "2026-07-20T13:24:52Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

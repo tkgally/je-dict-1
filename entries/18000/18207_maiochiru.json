@@ -3,7 +3,7 @@
   "id": "18207_maiochiru",
   "headword": "{舞|ま}い{落|お}ちる",
   "reading": "まいおちる",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to flutter down; to fall dancing",
   "conjugation": {
     "type": "ichidan",
@@ -135,10 +135,25 @@
     }
   ],
   "notes": "USAGE:\nAn ichidan ({一段|いちだん}) compound verb combining {舞|ま}う (to dance) and {落|お}ちる (to fall). The verb evokes a graceful, floating motion. More literary and poetic than simply {落|お}ちる. Commonly used in descriptions of nature and seasonal imagery.\n\nCOMMON COLLOCATIONS:\n- {花|はな}びらが{舞|ま}い{落|お}ちる (petals flutter down)\n- {雪|ゆき}が{舞|ま}い{落|お}ちる (snow drifts down)\n- {落|お}ち{葉|ば}が{舞|ま}い{落|お}ちる (fallen leaves flutter down)\n- {羽|はね}が{舞|ま}い{落|お}ちる (a feather flutters down)\n\nSIMILAR WORDS:\n- {散|ち}る: to scatter, to fall (of petals) — broader, less poetic\n- {降|ふ}り{注|そそ}ぐ: to pour down — suggests heavier, more abundant falling",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02075_chiru",
+      "reading": "ちる",
+      "headword": "{散|ち}る",
+      "label": "to scatter, to fall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07976_furisosogu",
+      "reading": "ふりそそぐ",
+      "headword": "{降|ふ}り{注|そそ}ぐ",
+      "label": "to pour down"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T12:17:20Z",
-    "modified": "2026-07-22T00:20:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

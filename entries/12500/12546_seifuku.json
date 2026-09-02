@@ -3,7 +3,7 @@
   "id": "12546_seifuku",
   "headword": "{征服|せいふく}",
   "reading": "せいふく",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "conquest, subjugation",
   "conjugation": {
     "type": "suru",
@@ -170,10 +170,53 @@
     }
   ],
   "notes": "Do not confuse with the homophone {制服|せいふく} (uniform). {征服|せいふく} uses {征|せい} (military campaign), while {制服|せいふく} uses {制|せい} (regulate).\n\nCOMMON COLLOCATIONS:\n- {世界|せかい}{征服|せいふく}: world conquest/domination\n- {征服|せいふく}{者|しゃ}: conqueror\n- {征服|せいふく}{欲|よく}: desire to conquer\n- {自然|しぜん}を{征服|せいふく}する: to conquer nature\n- {山|やま}を{征服|せいふく}する: to conquer a mountain\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pattern: ～を{征服|せいふく}する\n\nSIMILAR WORDS:\n- {克服|こくふく}: overcoming (difficulties, weaknesses — not territories)\n- {制圧|せいあつ}: suppression, bringing under control",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02805_kokufuku",
+      "reading": "こくふく",
+      "headword": "{克服|こくふく}",
+      "label": "overcoming (difficulties, weaknesses"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23059_seiatsu",
+      "reading": "せいあつ",
+      "headword": "{制圧|せいあつ}",
+      "label": "suppression, bringing under control"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11863_senryou",
+      "reading": "せんりょう",
+      "headword": "{占領|せんりょう}",
+      "label": "occupation, military conquest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21861_heitei",
+      "reading": "へいてい",
+      "headword": "{平定|へいてい}",
+      "label": "suppression"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21863_seibatsu",
+      "reading": "せいばつ",
+      "headword": "{征伐|せいばつ}",
+      "label": "subjugation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30027_seiha",
+      "reading": "せいは",
+      "headword": "{制覇|せいは}",
+      "label": "domination"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T12:04:43Z",
-    "modified": "2026-07-06T12:49:19Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

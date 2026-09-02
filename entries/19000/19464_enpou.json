@@ -17,7 +17,9 @@
       "id": "19464_enpou_ex1",
       "japanese": "{遠方|えんぽう}から{来|き}た。",
       "english": "I came from far away.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19464_enpou_ex2",
       "japanese": "{遠方|えんぽう}のお{客様|きゃくさま}もいらっしゃいます。",
       "english": "We also have customers from distant places.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,61 @@
       "id": "19464_enpou_ex3",
       "japanese": "{遠方|えんぽう}に{住|す}んでいるため、なかなか{会|あ}う{機会|きかい}がない。",
       "english": "Since I live far away, I rarely have the chance to meet up.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A somewhat formal or literary word for a distant place. In everyday speech, {遠|とお}く or {遠|とお}い{所|ところ} is more common, but {遠方|えんぽう} appears frequently in written language, announcements, and polite speech.\n\nCOMMON COLLOCATIONS:\n- {遠方|えんぽう}から — from far away\n- {遠方|えんぽう}に{住|す}む — to live far away\n- {遠方|えんぽう}のお{客様|きゃくさま} — customers/guests from afar\n- {遠方|えんぽう}への{配送|はいそう} — delivery to distant locations\n\nSIMILAR WORDS:\n- {遠|とお}く — far away; more casual and commonly used in daily speech\n- {遠隔|えんかく} — remote; used for technology or systems (e.g., {遠隔|えんかく}{操作|そうさ}, remote control)\n- {僻地|へきち} — remote/isolated area; carries a nuance of being undeveloped or hard to access",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01680_tooku",
+      "reading": "とおく",
+      "headword": "{遠|とお}く",
+      "label": "far away"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14381_enkaku",
+      "reading": "えんかく",
+      "headword": "{遠隔|えんかく}",
+      "label": "remote"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17059_hekichi",
+      "reading": "へきち",
+      "headword": "{僻地|へきち}",
+      "label": "remote/isolated area"
+    },
+    {
+      "type": "related",
+      "target_id": "20960_enkakuchi",
+      "reading": "えんかくち",
+      "headword": "{遠隔地|えんかくち}",
+      "label": "remote area"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["geography"],
-      "style": ["written"]
+      "semantic": [
+        "geography"
+      ],
+      "style": [
+        "written"
+      ]
     },
     "created": "2026-03-26T01:17:20Z",
-    "modified": "2026-03-26T01:17:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

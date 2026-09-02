@@ -44,8 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "A casual, unrefined word for feces. Related to the verb-like grunt うん ('mm, unh') uttered during defecation — the -こ suffix is a common diminutive/childish ending (as in {猫|ねこ} → {にゃんこ}).\n\nREGISTER:\n- Strongly casual and childlike. Can sound humorous, unrefined, or vulgar depending on context — fine among close friends or family and unremarkable from a child, but inappropriate in formal, polite, or medical settings.\n- In medical or formal settings, use {便|べん} ('stool') or {大便|だいべん} ('feces, bowel movement').\n- In mild casual register, {うんち} is even softer and more childish.\n\nCOMMON COLLOCATIONS:\n- うんこをする: to poop\n- うんこがしたい: to need to poop / feel like going number two\n- うんこが{出|で}る: to have a bowel movement (plain)\n- {犬|いぬ}のうんこ: dog poop\n- うんこを{踏|ふ}む: to step in poop\n\nSIMILAR WORDS:\n- うんち: poo/poop — even softer, more childish variant.\n- {大便|だいべん}: stool/feces — formal, clinical term.\n- {便|べん}: stool — medical term, used in compounds like {便秘|べんぴ} ('constipation'), {軟便|なんべん} ('loose stool').\n- {糞|くそ} / {糞|ふん}: dung/excrement — also used as a swear word ('damn/shit') in the reading くそ.\n\nNOTES ON WRITING:\n- Written in hiragana (うんこ) most often, sometimes in katakana (ウンコ) for comic or emphatic effect.\n- No standard kanji.",
-  "cross_references": [],
+  "notes": "A casual, unrefined word for feces. Related to the verb-like grunt うん ('mm, unh') uttered during defecation — the -こ suffix is a common diminutive/childish ending (as in {猫|ねこ} → にゃんこ).\n\nREGISTER:\n- Strongly casual and childlike. Can sound humorous, unrefined, or vulgar depending on context — fine among close friends or family and unremarkable from a child, but inappropriate in formal, polite, or medical settings.\n- In medical or formal settings, use {便|べん} ('stool') or {大便|だいべん} ('feces, bowel movement').\n- In mild casual register, うんち is even softer and more childish.\n\nCOMMON COLLOCATIONS:\n- うんこをする: to poop\n- うんこがしたい: to need to poop / feel like going number two\n- うんこが{出|で}る: to have a bowel movement (plain)\n- {犬|いぬ}のうんこ: dog poop\n- うんこを{踏|ふ}む: to step in poop\n\nSIMILAR WORDS:\n- うんち: poo/poop — even softer, more childish variant.\n- {大便|だいべん}: stool/feces — formal, clinical term.\n- {便|べん}: stool — medical term, used in compounds like {便秘|べんぴ} ('constipation'), {軟便|なんべん} ('loose stool').\n- {糞|くそ} / {糞|ふん}: dung/excrement — also used as a swear word ('damn/shit') in the reading くそ.\n\nNOTES ON WRITING:\n- Written in hiragana (うんこ) most often, sometimes in katakana (ウンコ) for comic or emphatic effect.\n- No standard kanji.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09084_unchi",
+      "reading": "うんち",
+      "headword": "うんち",
+      "label": "poo/poop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24207_daiben",
+      "reading": "だいべん",
+      "headword": "{大便|だいべん}",
+      "label": "stool/feces"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26147_ben",
+      "reading": "べん",
+      "headword": "{便|べん}",
+      "label": "stool"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24450_fun",
+      "reading": "ふん",
+      "headword": "{糞|ふん}",
+      "label": "dung/excrement"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +90,6 @@
       ]
     },
     "created": "2026-04-15T08:03:08Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

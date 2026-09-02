@@ -17,7 +17,9 @@
       "id": "28590_shuukyuu_ex1",
       "japanese": "このバイトは{週給|しゅうきゅう}{払|ばら}いだ。",
       "english": "This part-time job pays weekly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28590_shuukyuu_ex2",
       "japanese": "{週給|しゅうきゅう}を{現金|げんきん}でもらう。",
       "english": "I receive my weekly pay in cash.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,53 @@
       "id": "28590_shuukyuu_ex3",
       "japanese": "{週給|しゅうきゅう}は{生活費|せいかつひ}の{計画|けいかく}が{立|た}てやすいという{利点|りてん}がある。",
       "english": "Weekly pay has the advantage of making it easier to plan living expenses.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {週|しゅう} (week) + {給|きゅう} (pay). Often appears in compounds like {週給制|しゅうきゅうせい} (weekly wage system).\n\nCOMMON COLLOCATIONS:\n- {週給|しゅうきゅう}{払|ばら}い: weekly payment\n- {週給|しゅうきゅう}{制|せい}: weekly wage system\n- {週給|しゅうきゅう}を{受|う}け{取|と}る: to receive a weekly wage\n\nRELATED TERMS:\n- {月給|げっきゅう}: monthly salary — by far the most common arrangement in Japan\n- {日給|にっきゅう}: daily wage\n- {時給|じきゅう}: hourly wage",
+  "notes": "Compound of {週|しゅう} (week) + {給|きゅう} (pay). Often appears in compounds like {週給制|しゅうきゅうせい} (weekly wage system).\n\nCOMMON COLLOCATIONS:\n- {週給|しゅうきゅう}{払|ばら}い: weekly payment\n- {週給|しゅうきゅう}{制|せい}: weekly wage system\n- {週給|しゅうきゅう}を{受|う}け{取|と}る: to receive a weekly wage\n\nRELATED WORDS:\n- {月給|げっきゅう}: monthly salary — by far the most common arrangement in Japan\n- {日給|にっきゅう}: daily wage\n- {時給|じきゅう}: hourly wage",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04692_gekkyuu",
+      "reading": "げっきゅう",
+      "headword": "{月給|げっきゅう}",
+      "label": "monthly salary"
+    },
+    {
+      "type": "related",
+      "target_id": "07960_nikkyuu",
+      "reading": "にっきゅう",
+      "headword": "{日給|にっきゅう}",
+      "label": "daily wage"
+    },
+    {
+      "type": "related",
+      "target_id": "04693_jikyuu",
+      "reading": "じきゅう",
+      "headword": "{時給|じきゅう}",
+      "label": "hourly wage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["business", "work"],
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "work"
+      ],
       "domain": []
     },
     "created": "2026-06-02T04:07:08Z",
-    "modified": "2026-06-02T04:07:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

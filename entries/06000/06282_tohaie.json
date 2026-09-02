@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "notes": "GRAMMAR: とはいえ follows nouns, adjectives, or verb plain forms. It acknowledges the preceding statement while introducing a contrasting or qualifying point.\n\nPATTERNS:\n・[noun] + とはいえ (⟦{子供|こども}→子供：00554_kodomo⟧とはいえ)\n・[i-adjective] + とはいえ (⟦{安|やす}い→安い：00464_yasui⟧とはいえ)\n・[na-adjective] + だとはいえ (⟦{簡単|かんたん}→簡単：00713_kantan⟧だとはいえ)\n・[verb plain] + とはいえ (⟦{成功|せいこう}した→成功する：21445_seikousuru⟧とはいえ)\n\nREGISTER: Slightly formal, common in written language and formal speech.\n\nSIMILAR EXPRESSIONS:\n・⟦とはいうものの→とはいうものの：06283_tohaiumonono⟧: Having said that (more emphatic)\n・⟦しかし→しかし：00986_shikashi⟧: However (more direct contrast)\n・とはいえ: Although (acknowledging while contrasting)\n・⟦ただし→ただし：00399_tadashi⟧: However, provided that (adds condition)",
+  "notes": "GRAMMAR: とはいえ follows nouns, adjectives, or verb plain forms. It acknowledges the preceding statement while introducing a contrasting or qualifying point.\n\nCOMMON PATTERNS:\n- [noun] + とはいえ (⟦{子供|こども}→子供：00554_kodomo⟧とはいえ)\n- [i-adjective] + とはいえ (⟦{安|やす}い→安い：00464_yasui⟧とはいえ)\n- [na-adjective] + だとはいえ (⟦{簡単|かんたん}→簡単：00713_kantan⟧だとはいえ)\n- [verb plain] + とはいえ (⟦{成功|せいこう}した→成功する：21445_seikousuru⟧とはいえ)\n\nREGISTER: Slightly formal, common in written language and formal speech.\n\nSIMILAR WORDS:\n- ⟦とはいうものの→とはいうものの：06283_tohaiumonono⟧: Having said that (more emphatic)\n- ⟦しかし→しかし：00986_shikashi⟧: However (more direct contrast)\n- とはいえ: Although (acknowledging while contrasting)\n- ⟦ただし→ただし：00399_tadashi⟧: However, provided that (adds condition)",
   "cross_references": [
     {
       "type": "related",
@@ -73,11 +73,46 @@
       "reading": "といっても",
       "headword": "といっても",
       "label": "colloquial"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00399_tadashi",
+      "reading": "ただし",
+      "headword": "{但|ただ}し",
+      "label": "However, provided that"
+    },
+    {
+      "type": "related",
+      "target_id": "08512_sorenishitemo",
+      "reading": "それにしても",
+      "headword": "それにしても",
+      "label": "even so"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19731_monono",
+      "reading": "ものの",
+      "headword": "ものの",
+      "label": "although"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21788_mottomo",
+      "reading": "もっとも",
+      "headword": "もっとも",
+      "label": "however"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29509_souhaittemo",
+      "reading": "そうはいっても",
+      "headword": "そうは{言|い}っても",
+      "label": "having said that"
     }
   ],
   "metadata": {
     "created": "2026-01-17T08:22:03Z",
-    "modified": "2026-06-26T12:20:37Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

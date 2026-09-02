@@ -3,7 +3,7 @@
   "headword": "{連関|れんかん}",
   "reading": "れんかん",
   "romaji": "renkan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "connection; interrelation; correlation; linkage",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A formal, academic term for the mutual connection or interrelation between things. Frequently used in scholarly writing, research, and analysis. More formal than {関係|かんけい} or {関連|かんれん}, with an emphasis on the mutual or structural nature of the connection.\n\nCOMMON COLLOCATIONS:\n- {連関|れんかん}がある: to be connected\n- {連関|れんかん}を{示|しめ}す: to show a correlation\n- {密接|みっせつ}な{連関|れんかん}: close interrelation\n- {相互|そうご}{連関|れんかん}: mutual interrelation\n\nSIMILAR WORDS:\n- {関連|かんれん}: relation, connection — more common and less formal\n- {関係|かんけい}: relationship — broadest and most everyday term\n- {相関|そうかん}: correlation — more specifically statistical or quantitative",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00177_kanren",
+      "reading": "かんれん",
+      "headword": "{関連|かんれん}",
+      "label": "relation, connection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01298_kankei",
+      "reading": "かんけい",
+      "headword": "{関係|かんけい}",
+      "label": "relationship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10001_soukan",
+      "reading": "そうかん",
+      "headword": "{相関|そうかん}",
+      "label": "correlation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +87,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-19T16:26:45Z",
-    "modified": "2026-08-03T09:25:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

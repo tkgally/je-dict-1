@@ -17,7 +17,9 @@
       "id": "26405_denshibuhin_ex1",
       "japanese": "{電子|でんし}{部品|ぶひん}が{不足|ふそく}している。",
       "english": "There is a shortage of electronic components.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26405_denshibuhin_ex2",
       "japanese": "この{工場|こうじょう}では{電子|でんし}{部品|ぶひん}を{年間|ねんかん}{百万|ひゃくまん}{個|こ}{生産|せいさん}している。",
       "english": "This factory produces one million electronic components per year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26405_denshibuhin_ex3",
       "japanese": "{半導体|はんどうたい}をはじめとする{電子|でんし}{部品|ぶひん}の{供給|きょうきゅう}{不足|ふそく}が、{世界中|せかいじゅう}の{製造業|せいぞうぎょう}に{影響|えいきょう}を{与|あた}えた。",
       "english": "The supply shortage of electronic components, especially semiconductors, affected manufacturing worldwide.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {電子|でんし} (electronic) and {部品|ぶひん} (parts, components). Japan has been a major global producer and exporter of electronic components, and this term appears frequently in business news, particularly during supply chain disruptions.\n\nCOMMON COLLOCATIONS:\n- {電子|でんし}{部品|ぶひん}メーカー: electronic component manufacturer\n- {電子|でんし}{部品|ぶひん}の{供給|きょうきゅう}: supply of electronic components\n- {電子|でんし}{部品|ぶひん}の{調達|ちょうたつ}: procurement of electronic components\n- {電子|でんし}{部品|ぶひん}を{実装|じっそう}する: to mount electronic components (on a board)\n\nEXAMPLES OF ELECTRONIC COMPONENTS:\n- {抵抗器|ていこうき}: resistor\n- コンデンサー: capacitor\n- トランジスタ: transistor\n- {集積回路|しゅうせきかいろ}(IC): integrated circuit\n- ダイオード: diode\n\nSIMILAR WORDS:\n- {半導体|はんどうたい}: semiconductor — a specific type of electronic component/material\n- {部品|ぶひん}: part, component — the general term for any machine part\n- {電子|でんし}{機器|きき}: electronic device/equipment — the finished product rather than components",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09248_handoutai",
+      "reading": "はんどうたい",
+      "headword": "{半導体|はんどうたい}",
+      "label": "semiconductor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18079_denshikiki",
+      "reading": "でんしきき",
+      "headword": "{電子機器|でんしきき}",
+      "label": "electronic device/equipment"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["technology", "business"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "technology",
+        "business"
+      ]
     },
     "created": "2026-05-01T14:11:06Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

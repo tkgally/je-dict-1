@@ -17,7 +17,9 @@
       "id": "30093_youton_ex1",
       "japanese": "{養豚|ようとん}を{営|いとな}む。",
       "english": "To run a pig farm.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30093_youton_ex2",
       "japanese": "この{地域|ちいき}は{養豚|ようとん}が{盛|さか}んだ。",
       "english": "Pig farming is thriving in this region.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "30093_youton_ex3",
       "japanese": "{祖父|そふ}は{長年|ながねん}{養豚|ようとん}{業|ぎょう}を{続|つづ}けてきた。",
       "english": "My grandfather has run a pig-farming business for many years.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The raising of pigs as livestock, and the industry built around it. Usually appears in compounds naming the place, business, or worker.\n\nCOMMON COMPOUNDS:\n- {養豚|ようとん}{場|じょう}: pig farm\n- {養豚|ようとん}{業|ぎょう}: the pig-farming industry\n- {養豚|ようとん}{農家|のうか}: pig farmer\n\nSIMILAR WORDS:\n- {養鶏|ようけい}: poultry farming — raising chickens\n- {畜産|ちくさん}: livestock farming — the broader field, covering all farm animals",
+  "notes": "The raising of pigs as livestock, and the industry built around it. Usually appears in compounds naming the place, business, or worker.\n\nCOMPOUNDS:\n- {養豚|ようとん}{場|じょう}: pig farm\n- {養豚|ようとん}{業|ぎょう}: the pig-farming industry\n- {養豚|ようとん}{農家|のうか}: pig farmer\n\nSIMILAR WORDS:\n- {養鶏|ようけい}: poultry farming — raising chickens\n- {畜産|ちくさん}: livestock farming — the broader field, covering all farm animals",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18962_youkei",
+      "reading": "ようけい",
+      "headword": "{養鶏|ようけい}",
+      "label": "poultry farming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16090_chikusan",
+      "reading": "ちくさん",
+      "headword": "{畜産|ちくさん}",
+      "label": "livestock farming"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["work"],
+      "politeness": "plain",
+      "semantic": [
+        "work"
+      ],
       "domain": []
     },
     "created": "2026-07-25T03:20:29Z",
-    "modified": "2026-07-25T03:20:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

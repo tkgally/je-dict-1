@@ -17,7 +17,9 @@
       "id": "28344_jitsu_ex1",
       "japanese": "{実|じつ}の{母親|ははおや}に{会|あ}った。",
       "english": "I met my biological mother.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28344_jitsu_ex2",
       "japanese": "{実|じつ}を{言|い}うと、まだ{決|き}めていない。",
       "english": "To tell the truth, I haven't decided yet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28344_jitsu_ex3",
       "japanese": "{彼女|かのじょ}は{義理|ぎり}の{姉|あね}で、{実|じつ}の{姉|あね}ではない。",
       "english": "She's my sister-in-law, not my biological sister.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Sino-Japanese reading of {実} meaning 'real' or 'actual'. Functions as a noun mainly in the fixed pattern {実|じつ}の〜 (biological/real ~) and a few set phrases. The same kanji is also read み (fruit; substance) as a separate everyday word.\n\nCOMMON COLLOCATIONS:\n- {実|じつ}の{母|はは} / {父|ちち} / {兄|あに} / {姉|あね}: biological mother/father/brother/sister\n- {実|じつ}の{親|おや}: biological parent\n- {実|じつ}を{言|い}うと / {実|じつ}を{言|い}えば: to tell the truth\n- {実|じつ}のところ: actually; in fact\n- {実|じつ}は: actually (sentence-initial)\n\nSIMILAR WORDS:\n- {本当|ほんとう}: real; true — the everyday equivalent\n- {現実|げんじつ}: reality — abstract; the real world as opposed to imagination\n- {本物|ほんもの}: the real thing — refers to objects, contrasted with fakes",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00779_hontou",
+      "reading": "ほんとう",
+      "headword": "{本当|ほんとう}",
+      "label": "real"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03628_honmono",
+      "reading": "ほんもの",
+      "headword": "{本物|ほんもの}",
+      "label": "the real thing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-05-29T03:08:25Z",
-    "modified": "2026-05-29T03:08:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

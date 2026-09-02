@@ -44,7 +44,22 @@
     }
   ],
   "notes": "An onomatopoeic (giongo) word that imitates the sound of rustling or shuffling. Can be used as ごそごそする (verb), ごそごそと (adverb with と), or just ごそごそ (adverb without と).\n\nCOMMON PATTERNS:\n- ごそごそ{探|さが}す: to rummage and search\n- ごそごそ{音|おと}がする: to hear rustling sounds\n- ごそごそと{動|うご}く: to move about restlessly\n- ポケットをごそごそする: to fumble in one's pocket\n\nSIMILAR ONOMATOPOEIA:\n- がさがさ: rustling — louder, rougher rustling sound\n- もそもそ: mumbling/shuffling — slower, more muffled movement\n- ごろごろ: rolling/rumbling — heavier movement or thunder",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05986_gasagasa",
+      "reading": "がさがさ",
+      "headword": "がさがさ",
+      "label": "rustling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05176_gorogoro",
+      "reading": "ごろごろ",
+      "headword": "ごろごろ",
+      "label": "rolling/rumbling"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-30T17:14:07Z",
-    "modified": "2026-03-30T17:14:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

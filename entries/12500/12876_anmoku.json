@@ -19,7 +19,9 @@
       "english": "That was a tacit understanding.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12876_anmoku_ex2",
@@ -27,7 +29,9 @@
       "english": "If you break the unspoken rules, people around you will look at you disapprovingly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12876_anmoku_ex3",
@@ -35,21 +39,43 @@
       "english": "The boss's silence was taken as tacit approval.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nVery commonly used as a modifier with の: {暗黙|あんもく}の + noun. Central to understanding Japanese communication, where much is conveyed indirectly. The phrase {暗黙|あんもく}の{了解|りょうかい} (tacit understanding) is especially common.\n\nCOMMON COLLOCATIONS:\n- {暗黙|あんもく}の{了解|りょうかい}: tacit understanding\n- {暗黙|あんもく}の{同意|どうい}: tacit consent\n- {暗黙|あんもく}の{承認|しょうにん}: tacit approval\n- {暗黙|あんもく}のルール: unspoken rule\n\nSIMILAR WORDS:\n- {暗|あん}に: implicitly (adverb)\n- {黙認|もくにん}: tacit approval, turning a blind eye (implies tolerance of something questionable)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12974_anni",
+      "reading": "あんに",
+      "headword": "{暗|あん}に",
+      "label": "implicitly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07944_mokunin",
+      "reading": "もくにん",
+      "headword": "{黙認|もくにん}",
+      "label": "tacit approval, turning a blind eye"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T12:44:23Z",
-    "modified": "2026-02-22T12:44:23Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

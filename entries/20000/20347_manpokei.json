@@ -16,7 +16,9 @@
       "id": "20347_manpokei_ex1",
       "japanese": "{万歩計|まんぽけい}で{歩数|ほすう}を{記録|きろく}している。",
       "english": "I'm recording my steps with a pedometer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "20347_manpokei_ex2",
       "japanese": "{今日|きょう}は{万歩計|まんぽけい}が{一万歩|いちまんぽ}を{超|こ}えた。",
       "english": "Today my pedometer went over ten thousand steps.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,22 +36,45 @@
       "id": "20347_manpokei_ex3",
       "japanese": "スマホの{万歩計|まんぽけい}アプリを{使|つか}って、{毎日|まいにち}の{運動量|うんどうりょう}を{管理|かんり}している。",
       "english": "I use a pedometer app on my phone to track my daily exercise.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {万歩|まんぽ} (ten thousand steps) + {計|けい} (meter, gauge). The name references the popular health guideline of walking {一万歩|いちまんぽ} (10,000 steps) per day.\n\nCOMMON COLLOCATIONS:\n- {万歩計|まんぽけい}をつける: to wear a pedometer\n- {万歩計|まんぽけい}で{計|はか}る: to measure with a pedometer\n- {万歩計|まんぽけい}アプリ: pedometer app\n\nCULTURAL NOTE:\nThe 10,000 steps per day guideline actually originated in Japan in the 1960s with the marketing of a pedometer called {万歩計|まんぽけい} (literally 'ten-thousand-step meter'). The name itself helped popularize the 10,000-step goal worldwide. Today, {歩数計|ほすうけい} is the more technically precise term, but {万歩計|まんぽけい} remains far more commonly used in everyday speech.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17072_hosuukei",
+      "reading": "ほすうけい",
+      "headword": "{歩数計|ほすうけい}",
+      "label": "pedometer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25753_katsudouryoukei",
+      "reading": "かつどうりょうけい",
+      "headword": "{活動量計|かつどうりょうけい}",
+      "label": "activity tracker"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["health", "technology"]
+      "semantic": [
+        "health",
+        "technology"
+      ]
     },
     "created": "2026-03-28T21:19:23Z",
-    "modified": "2026-03-28T21:19:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

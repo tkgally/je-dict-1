@@ -17,7 +17,9 @@
       "id": "25590_kankokuryouri_ex1",
       "japanese": "{韓国料理|かんこくりょうり}が{好|す}きだ。",
       "english": "I like Korean food.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25590_kankokuryouri_ex2",
       "japanese": "{駅前|えきまえ}に{新|あたら}しい{韓国料理|かんこくりょうり}の{店|みせ}ができた。",
       "english": "A new Korean restaurant opened in front of the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,51 @@
       "id": "25590_kankokuryouri_ex3",
       "japanese": "{最近|さいきん}の{日本|にほん}では{韓国料理|かんこくりょうり}ブームが{続|つづ}いていて、チーズタッカルビやヤンニョムチキンが{特|とく}に{人気|にんき}だ。",
       "english": "In recent Japan, the Korean food boom continues, with cheese dakgalbi and yangnyeom chicken being especially popular.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {韓国|かんこく} (South Korea) and {料理|りょうり} (cooking, cuisine). Korean food has become extremely popular in Japan, particularly among younger generations, driven by K-pop and Korean drama cultural influence (the so-called {韓流|かんりゅう} boom).\n\nCommon Korean dishes well known in Japan include キムチ (kimchi), ビビンバ (bibimbap), サムギョプサル (samgyeopsal), and チヂミ (jijim, Korean pancakes).\n\nCOMMON COLLOCATIONS:\n- {韓国料理|かんこくりょうり}の{店|みせ}: Korean restaurant\n- {韓国料理|かんこくりょうり}を{食|た}べる: to eat Korean food\n- {本格的|ほんかくてき}な{韓国料理|かんこくりょうり}: authentic Korean cuisine\n- {韓国料理|かんこくりょうり}{教室|きょうしつ}: Korean cooking class\n\nSIMILAR WORDS:\n- {中華料理|ちゅうかりょうり}: Chinese cuisine — another extremely popular foreign cuisine in Japan\n- {和食|わしょく}: Japanese cuisine — the native culinary tradition\n- {洋食|ようしょく}: Western-style food — Western dishes adapted to Japanese tastes",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18122_chuukaryouri",
+      "reading": "ちゅうかりょうり",
+      "headword": "{中華料理|ちゅうかりょうり}",
+      "label": "Chinese cuisine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10436_washoku",
+      "reading": "わしょく",
+      "headword": "{和食|わしょく}",
+      "label": "Japanese cuisine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13274_youshoku",
+      "reading": "ようしょく",
+      "headword": "{洋食|ようしょく}",
+      "label": "Western-style food"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-26T12:31:37Z",
-    "modified": "2026-04-26T12:31:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

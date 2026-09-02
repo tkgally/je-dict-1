@@ -3,7 +3,7 @@
   "headword": "{変則|へんそく}",
   "reading": "へんそく",
   "romaji": "hensoku",
-  "part_of_speech": "noun / adjective (な)",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "irregular; anomalous; unconventional",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Describes something that deviates from the standard rule or pattern. Composed of {変|へん} (change, abnormal) and {則|そく} (rule). Used frequently in sports, work scheduling, and grammar to describe non-standard arrangements.\n\nCOMMON COLLOCATIONS:\n- {変則|へんそく}{的|てき}: irregular, unconventional\n- {変則|へんそく}{勤務|きんむ}: irregular work shifts\n- {変則|へんそく}ダブルヘッダー: split doubleheader (baseball)\n- {変則|へんそく}{日程|にってい}: irregular schedule\n\nSIMILAR WORDS:\n- {不規則|ふきそく}: irregular — emphasizes lack of regularity or pattern\n- {異例|いれい}: exceptional, unprecedented — implies rarity\n- {例外|れいがい}: exception — a specific case that deviates from a rule",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15651_fukisoku",
+      "reading": "ふきそく",
+      "headword": "{不規則|ふきそく}",
+      "label": "irregular"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13564_irei",
+      "reading": "いれい",
+      "headword": "{異例|いれい}",
+      "label": "exceptional, unprecedented"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03798_reigai",
+      "reading": "れいがい",
+      "headword": "{例外|れいがい}",
+      "label": "exception"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,11 +76,13 @@
         "noun",
         "adjective-na"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ]
     },
     "created": "2026-04-24T14:24:48Z",
-    "modified": "2026-04-24T14:24:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

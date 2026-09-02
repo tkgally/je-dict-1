@@ -17,7 +17,9 @@
       "id": "26226_sougouryoku_ex1",
       "japanese": "チームの{総合力|そうごうりょく}で{勝|か}った。",
       "english": "We won with the team's overall strength.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26226_sougouryoku_ex2",
       "japanese": "{個人|こじん}の{能力|のうりょく}よりも{総合力|そうごうりょく}が{大切|たいせつ}だ。",
       "english": "Overall team capability is more important than individual ability.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,51 @@
       "id": "26226_sougouryoku_ex3",
       "japanese": "{我|わ}がチームは{一人一人|ひとりひとり}のスキルは{高|たか}くないが、{総合力|そうごうりょく}では{負|ま}けない{自信|じしん}がある。",
       "english": "Our team's individual skills aren't the highest, but we're confident we won't lose in overall capability.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {総合|そうごう} (comprehensive, overall) and {力|りょく} (power, ability). Frequently used in sports commentary, business evaluations, and educational contexts to emphasize that well-rounded capability matters more than any single outstanding trait.\n\nThe word implies a holistic assessment — not just one dimension of strength but the combination of many.\n\nCOMMON COLLOCATIONS:\n- {総合力|そうごうりょく}で{勝負|しょうぶ}する: to compete on overall strength\n- {総合力|そうごうりょく}を{高|たか}める: to raise one's overall capability\n- {総合力|そうごうりょく}に{優|すぐ}れる: to excel in overall ability\n- {総合力|そうごうりょく}の{差|さ}: the gap in overall strength\n\nSIMILAR WORDS:\n- {実力|じつりょく}: real ability; true capability — focuses on proven skill\n- {戦力|せんりょく}: fighting strength; lineup strength — specifically about competitive power\n- {底力|そこぢから}: latent power; hidden reserves — strength that emerges under pressure",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03277_jitsuryoku",
+      "reading": "じつりょく",
+      "headword": "{実力|じつりょく}",
+      "label": "real ability"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18977_senryoku",
+      "reading": "せんりょく",
+      "headword": "{戦力|せんりょく}",
+      "label": "fighting strength"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30606_sokojikara",
+      "reading": "そこぢから",
+      "headword": "{底|そこ}{力|ぢから}",
+      "label": "latent power"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     },
     "created": "2026-04-30T12:16:11Z",
-    "modified": "2026-04-30T12:16:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

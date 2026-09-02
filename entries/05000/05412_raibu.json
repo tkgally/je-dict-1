@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "ライブ comes from English 'live' and is used primarily in two contexts: music performances and real-time broadcasting.\n\nMUSIC SENSE:\nIn everyday speech, ライブ most often refers to a live music performance or concert, especially for pop, rock, and indie music. ⟦コンサート→コンサート：01360_konsaato⟧ tends to be used for larger, more formal events (classical music, big arena shows).\n\nCOMMON COMPOUNDS:\n- ⟦ライブハウス→ライブハウス：noentry⟧: small live music venue (typically standing-room)\n- ライブ⟦{会場|かいじょう}→会場：01269_kaijou⟧: concert venue\n- ⟦ワンマンライブ→ワンマンライブ：noentry⟧: solo concert (one artist only)\n\nBROADCAST SENSE:\n- ライブ⟦{配信|はいしん}→配信：04898_haishin⟧: live streaming\n- ライブ⟦{中継|ちゅうけい}→中継：11306_chuukei⟧: live broadcast/relay\n\nRELATED:\n- ⟦コンサート→コンサート：01360_konsaato⟧: concert (more formal)\n- ⟦{生|なま}→生：03509_nama⟧: live, raw (used as a prefix, e.g. ⟦{生放送|なまほうそう}→生放送：08172_namahousou⟧)",
+  "notes": "ライブ comes from English 'live' and is used primarily in two contexts: music performances and real-time broadcasting.\n\nMUSIC SENSE:\nIn everyday speech, ライブ most often refers to a live music performance or concert, especially for pop, rock, and indie music. ⟦コンサート→コンサート：01360_konsaato⟧ tends to be used for larger, more formal events (classical music, big arena shows).\n\nCOMPOUNDS:\n- ⟦ライブハウス→ライブハウス：noentry⟧: small live music venue (typically standing-room)\n- ライブ⟦{会場|かいじょう}→会場：01269_kaijou⟧: concert venue\n- ⟦ワンマンライブ→ワンマンライブ：noentry⟧: solo concert (one artist only)\n\nBROADCAST SENSE:\n- ライブ⟦{配信|はいしん}→配信：04898_haishin⟧: live streaming\n- ライブ⟦{中継|ちゅうけい}→中継：11306_chuukei⟧: live broadcast/relay\n\nRELATED WORDS:\n- ⟦コンサート→コンサート：01360_konsaato⟧: concert (more formal)\n- ⟦{生|なま}→生：03509_nama⟧: live, raw (used as a prefix, e.g. ⟦{生放送|なまほうそう}→生放送：08172_namahousou⟧)",
   "cross_references": [
     {
       "type": "synonym",
@@ -86,11 +86,53 @@
       "reading": "こんさーと",
       "headword": "コンサート",
       "label": "concert (general/formal)"
+    },
+    {
+      "type": "related",
+      "target_id": "03509_nama",
+      "reading": "なま",
+      "headword": "{生|なま}",
+      "label": "live, raw"
+    },
+    {
+      "type": "related",
+      "target_id": "08172_namahousou",
+      "reading": "なまほうそう",
+      "headword": "{生放送|なまほうそう}",
+      "label": "live broadcast"
+    },
+    {
+      "type": "related",
+      "target_id": "08285_tsuaa",
+      "reading": "つあー",
+      "headword": "ツアー",
+      "label": "tour"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11498_ongakukai",
+      "reading": "おんがくかい",
+      "headword": "{音楽会|おんがくかい}",
+      "label": "concert, musical performance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16478_namaensou",
+      "reading": "なまえんそう",
+      "headword": "{生演奏|なまえんそう}",
+      "label": "live musical performance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18026_ensoukai",
+      "reading": "えんそうかい",
+      "headword": "{演奏会|えんそうかい}",
+      "label": "concert"
     }
   ],
   "metadata": {
     "created": "2026-01-16T06:00:17Z",
-    "modified": "2026-06-06T14:06:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

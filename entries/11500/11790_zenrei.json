@@ -18,7 +18,9 @@
       "english": "This is an unprecedented situation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11790_zenrei_ex2",
@@ -26,7 +28,9 @@
       "english": "To make a judgment following past precedent.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11790_zenrei_ex3",
@@ -34,22 +38,43 @@
       "english": "Since there is no precedent for this issue, it needs to be handled carefully.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{前例|ぜんれい} refers to a past case used as a reference for current decisions. Composed of {前|ぜん} (previous) + {例|れい} (example/case).\n\nCOMMON COLLOCATIONS:\n- {前例|ぜんれい}のない: unprecedented\n- {前例|ぜんれい}に{従|したが}う: to follow precedent\n- {前例|ぜんれい}を{作|つく}る: to set a precedent\n- {前例|ぜんれい}がない: there is no precedent\n- {前例|ぜんれい}{主義|しゅぎ}: precedent-based approach (often used critically)\n\nCULTURE:\nJapanese organizations — government offices, schools, companies — often rely heavily on precedent. The phrase {前例|ぜんれい}{主義|しゅぎ} (following precedent blindly) is sometimes used critically to describe bureaucratic inflexibility.\n\nRELATED:\n- {先例|せんれい}: precedent (similar meaning, more formal/legal)",
-  "cross_references": [],
+  "notes": "{前例|ぜんれい} refers to a past case used as a reference for current decisions. Composed of {前|ぜん} (previous) + {例|れい} (example/case).\n\nCOMMON COLLOCATIONS:\n- {前例|ぜんれい}のない: unprecedented\n- {前例|ぜんれい}に{従|したが}う: to follow precedent\n- {前例|ぜんれい}を{作|つく}る: to set a precedent\n- {前例|ぜんれい}がない: there is no precedent\n- {前例|ぜんれい}{主義|しゅぎ}: precedent-based approach (often used critically)\n\nCULTURAL NOTE:\nJapanese organizations — government offices, schools, companies — often rely heavily on precedent. The phrase {前例|ぜんれい}{主義|しゅぎ} (following precedent blindly) is sometimes used critically to describe bureaucratic inflexibility.\n\nRELATED WORDS:\n- {先例|せんれい}: precedent (similar meaning, more formal/legal)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12679_kanrei",
+      "reading": "かんれい",
+      "headword": "{慣例|かんれい}",
+      "label": "custom, convention, precedent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30088_hanrei",
+      "reading": "はんれい",
+      "headword": "{判例|はんれい}",
+      "label": "judicial precedent"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T06:08:50Z",
-    "modified": "2026-03-30T12:38:04Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }

@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "WORD FORMATION: From {寝|ね}る (to sleep) with reduplication for baby talk.\n\nUSAGE: Functions as a noun and as a する verb (ねんねする = to sleep).\n\nCOMMON EXPRESSIONS:\n- ねんねする (to sleep - baby talk)\n- ねんねの{時間|じかん} (bedtime)\n- ねんね{ころり} (lullaby phrase, similar to 'rock-a-bye')\n\nRELATED WORDS:\n- {子守|こもり}{歌|うた} (lullaby)\n- おやすみ (good night)\n\nRELATED BABY TALK WORDS:\n- おてて (hands)\n- おめめ (eyes)\n- あんよ (feet/walking)\n- まんま (food)",
+  "notes": "WORD FORMATION: From {寝|ね}る (to sleep) with reduplication for baby talk.\n\nUSAGE: Functions as a noun and as a する verb (ねんねする = to sleep).\n\nCOMMON EXPRESSIONS:\n- ねんねする (to sleep - baby talk)\n- ねんねの{時間|じかん} (bedtime)\n- ねんねころり (lullaby phrase, similar to 'rock-a-bye')\n\nRELATED WORDS:\n- {子守|こもり}{歌|うた} (lullaby)\n- おやすみ (good night)\n\nRELATED BABY TALK WORDS:\n- おてて (hands)\n- おめめ (eyes)\n- あんよ (feet/walking)\n- まんま (food)",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,46 @@
       "reading": "まんま",
       "headword": "まんま",
       "label": "baby talk: food"
+    },
+    {
+      "type": "related",
+      "target_id": "19434_komoriuta",
+      "reading": "こもりうた",
+      "headword": "{子守歌|こもりうた}",
+      "label": "lullaby"
+    },
+    {
+      "type": "related",
+      "target_id": "05206_oyasumi",
+      "reading": "おやすみ",
+      "headword": "おやすみ",
+      "label": "good night"
+    },
+    {
+      "type": "related",
+      "target_id": "09104_otete",
+      "reading": "おてて",
+      "headword": "おてて",
+      "label": "hands"
+    },
+    {
+      "type": "related",
+      "target_id": "09105_omeme",
+      "reading": "おめめ",
+      "headword": "おめめ",
+      "label": "eyes"
+    },
+    {
+      "type": "related",
+      "target_id": "09106_anyo",
+      "reading": "あんよ",
+      "headword": "あんよ",
+      "label": "feet/walking"
     }
   ],
   "metadata": {
     "created": "2026-01-31T04:25:12Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -154,6 +189,7 @@
         "verb-suru"
       ],
       "formality": "informal",
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "family"

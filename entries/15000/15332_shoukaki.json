@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nAn everyday word found in safety contexts. Fire extinguishers are required in buildings in Japan and are commonly seen in hallways, kitchens, and near exits.\n\nCOMMON COLLOCATIONS:\n- {消火器|しょうかき}を{使|つか}う (to use a fire extinguisher)\n- {消火器|しょうかき}の{設置|せっち} (installation of fire extinguishers)\n- {消火器|しょうかき}の{点検|てんけん} (fire extinguisher inspection)\n\nDISTINCTION:\n{消火器|しょうかき} (fire extinguisher, a device) vs. {消化器|しょうかき} (digestive organs). The kanji differ: {火|か} (fire) vs. {化|か} (transform).",
+  "notes": "USAGE:\nAn everyday word found in safety contexts. Fire extinguishers are required in buildings in Japan and are commonly seen in hallways, kitchens, and near exits.\n\nCOMMON COLLOCATIONS:\n- {消火器|しょうかき}を{使|つか}う (to use a fire extinguisher)\n- {消火器|しょうかき}の{設置|せっち} (installation of fire extinguishers)\n- {消火器|しょうかき}の{点検|てんけん} (fire extinguisher inspection)\n\nSIMILAR WORDS:\n{消火器|しょうかき} (fire extinguisher, a device) vs. {消化器|しょうかき} (digestive organs). The kanji differ: {火|か} (fire) vs. {化|か} (transform).",
   "cross_references": [
     {
       "type": "homophone",
@@ -52,11 +52,25 @@
       "headword": "{消化器|しょうかき}",
       "target_id": "06012_shoukaki",
       "label": "digestive organs"
+    },
+    {
+      "type": "related",
+      "target_id": "06454_shoubousho",
+      "reading": "しょうぼうしょ",
+      "headword": "{消防署|しょうぼうしょ}",
+      "label": "fire station, fire department"
+    },
+    {
+      "type": "related",
+      "target_id": "07138_hinankeiro",
+      "reading": "ひなんけいろ",
+      "headword": "{避難経路|ひなんけいろ}",
+      "label": "evacuation route"
     }
   ],
   "metadata": {
     "created": "2026-03-06T09:49:59Z",
-    "modified": "2026-07-16T07:06:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -64,6 +78,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "tool"
       ]

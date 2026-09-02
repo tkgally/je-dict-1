@@ -19,7 +19,9 @@
       "english": "I'm working from home today.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18868_zaitakuwaaku_ex2",
@@ -27,7 +29,9 @@
       "english": "Remote work has increased, and I've stopped commuting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18868_zaitakuwaaku_ex3",
@@ -35,21 +39,63 @@
       "english": "It's said that self-management is important when working from home.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nBecame an everyday term in Japan from 2020 onward. Used both as a noun and with する. Often abbreviated in casual speech.\n\nCOMMON COLLOCATIONS:\n- {在宅|ざいたく}ワークをする (to work from home)\n- {在宅|ざいたく}ワークに{切|き}り{替|か}える (to switch to remote work)\n- {在宅|ざいたく}ワーク{環境|かんきょう} (work-from-home environment)\n- {在宅|ざいたく}ワーク{手当|てあて} (remote work allowance)\n\nSIMILAR WORDS:\n- テレワーク: telework — a broader term covering any remote work, not only from home\n- リモートワーク: remote work — essentially synonymous, slightly more casual",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05397_terewaaku",
+      "reading": "てれわーく",
+      "headword": "テレワーク",
+      "label": "telework"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06095_rimootowaaku",
+      "reading": "りもーとわーく",
+      "headword": "リモートワーク",
+      "label": "remote work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06158_zaitakukinmu",
+      "reading": "ざいたくきんむ",
+      "headword": "{在宅勤務|ざいたくきんむ}",
+      "label": "work from home"
+    },
+    {
+      "type": "related",
+      "target_id": "08479_fukugyou",
+      "reading": "ふくぎょう",
+      "headword": "{副業|ふくぎょう}",
+      "label": "side job"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25283_naishokusuru",
+      "reading": "ないしょくする",
+      "headword": "{内職|ないしょく}する",
+      "label": "to do piecework at home"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:15:40Z",
-    "modified": "2026-03-23T06:15:40Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

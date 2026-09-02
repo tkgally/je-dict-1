@@ -4,7 +4,7 @@
   "headword": "{宿営|しゅくえい}",
   "reading": "しゅくえい",
   "romaji": "shukuei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "encampment; bivouac; making camp",
   "definitions": [
     {
@@ -63,17 +63,46 @@
       "reading": "ろえい",
       "headword": "{露営|ろえい}",
       "label": "camping in the open, without shelter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16708_yaei",
+      "reading": "やえい",
+      "headword": "{野営|やえい}",
+      "label": "field camping"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03837_kyanpu",
+      "reading": "きゃんぷ",
+      "headword": "キャンプ",
+      "label": "camping"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22864_chuuton",
+      "reading": "ちゅうとん",
+      "headword": "{駐屯|ちゅうとん}",
+      "label": "stationing, garrisoning"
+    },
+    {
+      "type": "related",
+      "target_id": "24987_heiei",
+      "reading": "へいえい",
+      "headword": "{兵営|へいえい}",
+      "label": "barracks"
     }
   ],
   "metadata": {
     "created": "2026-04-18T09:18:20Z",
-    "modified": "2026-04-18T09:18:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "military",
         "travel"

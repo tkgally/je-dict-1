@@ -2,7 +2,7 @@
   "id": "10051_onaidoshi",
   "headword": "{同|おな}い{年|どし}",
   "reading": "おないどし",
-  "part_of_speech": "noun, adjective-no",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "same age",
   "definitions": [
     {
@@ -16,7 +16,9 @@
       "id": "10051_onaidoshi_ex1",
       "japanese": "{私|わたし}たちは{同|おな}い{年|どし}だ。",
       "english": "We are the same age.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "10051_onaidoshi_ex2",
       "japanese": "{同|おな}い{年|どし}の{友達|ともだち}。",
       "english": "A friend of the same age.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "10051_onaidoshi_ex3",
       "japanese": "{彼|かれ}と{彼女|かのじょ}は{同|おな}い{年|どし}らしい。",
       "english": "Apparently he and she are the same age.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -40,23 +46,53 @@
       "id": "10051_onaidoshi_ex4",
       "japanese": "{同|おな}い{年|どし}だと{知|し}って{親近感|しんきんかん}がわいた。",
       "english": "I felt a sense of closeness when I learned we were the same age.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{同|おな}い{年|どし} means being the same age.\n\nPRONUNCIATION:\nNote the unusual reading おない for {同|おな}い, which only appears in this word.\n\nUSAGE:\nCommonly used when discovering someone shares your birth year, often creating a sense of connection or equality.\n\nCOMMON PATTERNS:\n- {同|おな}い{年|どし}だ: to be the same age\n- {同|おな}い{年|どし}の: of the same age (attributive)\n\nCULTURAL NOTE:\nIn Japan, discovering someone is {同|おな}い{年|どし} often shifts the relationship dynamic, as age-based hierarchies ({先輩|せんぱい}/{後輩|こうはい}) become less relevant.\n\nRELATED:\n- {同年代|どうねんだい}: same generation\n- {同期|どうき}: same year (school/work entry)\n- タメ: same age (casual slang)",
-  "cross_references": [],
+  "notes": "{同|おな}い{年|どし} means being the same age.\n\nPRONUNCIATION:\nNote the unusual reading おない for {同|おな}い, which only appears in this word.\n\nUSAGE:\nCommonly used when discovering someone shares your birth year, often creating a sense of connection or equality.\n\nCOMMON PATTERNS:\n- {同|おな}い{年|どし}だ: to be the same age\n- {同|おな}い{年|どし}の: of the same age (attributive)\n\nCULTURAL NOTE:\nIn Japan, discovering someone is {同|おな}い{年|どし} often shifts the relationship dynamic, as age-based hierarchies ({先輩|せんぱい}/{後輩|こうはい}) become less relevant.\n\nRELATED WORDS:\n- {同年代|どうねんだい}: same generation\n- {同期|どうき}: same year (school/work entry)\n- タメ: same age (casual slang)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22399_dounendai",
+      "reading": "どうねんだい",
+      "headword": "{同年代|どうねんだい}",
+      "label": "same generation"
+    },
+    {
+      "type": "related",
+      "target_id": "12029_douki",
+      "reading": "どうき",
+      "headword": "{同期|どうき}",
+      "label": "same year"
+    },
+    {
+      "type": "related",
+      "target_id": "01145_tame",
+      "reading": "ため",
+      "headword": "ため",
+      "label": "same age"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T14:18:11Z",
-    "modified": "2026-02-04T14:18:11Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["interpersonal", "age"]
+      "semantic": [
+        "interpersonal",
+        "age"
+      ]
     }
   }
 }

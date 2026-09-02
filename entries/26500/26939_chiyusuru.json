@@ -3,7 +3,7 @@
   "headword": "{治癒|ちゆ}する",
   "reading": "ちゆする",
   "romaji": "chiyusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to heal; to recover; to be cured",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "A formal medical term that implies complete recovery, not just improvement. The intransitive verb {治癒|ちゆ}する means the condition heals on its own or is healed, while {治療|ちりょう}する (to treat) describes the active process of medical intervention.\n\nCOMMON COLLOCATIONS:\n- {自然|しぜん}{治癒|ちゆ}: natural healing; spontaneous recovery\n- {治癒|ちゆ}{率|りつ}: cure rate\n- {治癒|ちゆ}{力|りょく}: healing power\n- {完全|かんぜん}{治癒|ちゆ}: complete cure\n- {治癒|ちゆ}{不能|ふのう}: incurable\n\nSIMILAR WORDS:\n- {治|なお}る: to get better; to heal — the everyday word for recovering from illness or injury\n- {回復|かいふく}する: to recover — broader; includes recovering strength, energy, or normal function, not just curing disease\n- {治療|ちりょう}する: to treat; to cure — the active medical process, while {治癒|ちゆ} describes the result",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19598_naoru",
+      "reading": "なおる",
+      "headword": "{治|なお}る",
+      "label": "to get better"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21330_kaifukusuru",
+      "reading": "かいふくする",
+      "headword": "{回復|かいふく}する",
+      "label": "to recover"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03503_chiryou",
+      "reading": "ちりょう",
+      "headword": "{治療|ちりょう}",
+      "label": "to treat"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -65,7 +87,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T16:22:04Z",
-    "modified": "2026-05-05T16:22:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

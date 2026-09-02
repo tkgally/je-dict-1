@@ -3,7 +3,7 @@
   "headword": "{積算|せきさん}",
   "reading": "せきさん",
   "romaji": "sekisan",
-  "part_of_speech": "noun (する verb)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "accumulation; integration",
   "definitions": [
     {
@@ -81,6 +81,15 @@
   ],
   "notes": "Has two main uses: (1) general accumulation of quantities over time, commonly seen with temperature, rainfall, and distance measurements; (2) a technical construction/engineering term for cost estimation, where materials, labor, and overhead are calculated to project total cost.\n\nCOMMON COLLOCATIONS:\n- {積算|せきさん}{温度|おんど}: accumulated temperature\n- {積算|せきさん}{電力量|でんりょくりょう}: cumulative energy consumption\n- {積算|せきさん}{基準|きじゅん}: cost estimation standards\n- {積算|せきさん}{価格|かかく}: estimated cost\n\nSIMILAR WORDS:\n- {累計|るいけい}: cumulative total — focuses on running totals in statistics or accounting\n- {見積|みつも}もり: estimate/quotation — the resulting figure, while {積算|せきさん} is the process of calculating it",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08327_ruikei",
+      "reading": "るいけい",
+      "headword": "{累計|るいけい}",
+      "label": "cumulative total"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -88,6 +97,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "science",
         "building"
@@ -95,7 +106,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-17T17:37:04Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -19,7 +19,9 @@
       "english": "We should listen to the opinion of the person involved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12504_toujisha_ex2",
@@ -27,7 +29,9 @@
       "english": "I want the parties involved to discuss it among themselves and resolve it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12504_toujisha_ex3",
@@ -35,21 +39,56 @@
       "english": "It is important to tackle problems with a sense of personal involvement.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed in legal, social, and everyday contexts. The compound {当事者|とうじしゃ}{意識|いしき} (awareness of being personally involved) is a key concept in Japanese social discourse, referring to the mindset of treating something as one's own problem rather than someone else's.\n\nCOMMON COLLOCATIONS:\n- {当事者|とうじしゃ}{意識|いしき}: sense of personal involvement\n- {当事者|とうじしゃ}{同士|どうし}: between the parties involved\n- {当事者|とうじしゃ}の{声|こえ}: voices of those affected",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24400_keiyakusha",
+      "reading": "けいやくしゃ",
+      "headword": "{契約者|けいやくしゃ}",
+      "label": "subscriber"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26731_souguusha",
+      "reading": "そうぐうしゃ",
+      "headword": "{遭遇者|そうぐうしゃ}",
+      "label": "person who encounters"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26788_tounin",
+      "reading": "とうにん",
+      "headword": "{当人|とうにん}",
+      "label": "the person in question"
+    },
+    {
+      "type": "antonym",
+      "target_id": "26789_daisansha",
+      "reading": "だいさんしゃ",
+      "headword": "{第三者|だいさんしゃ}",
+      "label": "third party"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T11:05:58Z",
-    "modified": "2026-02-21T11:05:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

@@ -17,7 +17,9 @@
       "id": "28440_inshokubutsu_ex1",
       "japanese": "{館内|かんない}への{飲食物|いんしょくぶつ}の{持|も}ち{込|こ}みは{禁止|きんし}です。",
       "english": "Bringing food and drink into the hall is prohibited.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28440_inshokubutsu_ex2",
       "japanese": "{飲食物|いんしょくぶつ}は{各自|かくじ}で{用意|ようい}してください。",
       "english": "Please prepare your own food and drink.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "28440_inshokubutsu_ex3",
       "japanese": "{会場|かいじょう}では{飲食物|いんしょくぶつ}の{販売|はんばい}も{行|おこな}っているので、{手|て}ぶらで{来|き}ても{大丈夫|だいじょうぶ}です。",
       "english": "The venue also sells food and drink, so it's fine to come empty-handed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {飲|いん} (drink) + {食|しょく} (eat) + {物|ぶつ} (things). A formal collective noun, very common on signage, in rules, and in business writing.\n\nCOMMON COLLOCATIONS:\n- {飲食物|いんしょくぶつ}の{持|も}ち{込|こ}み: bringing in food and drink\n- {飲食物|いんしょくぶつ}{禁止|きんし}: no food or drink\n- {飲食物|いんしょくぶつ}の{販売|はんばい}: sale of food and beverages\n- {飲食物|いんしょくぶつ}{以外|いがい}: items other than food and drink\n\nSIMILAR WORDS:\n- {食|た}べ{物|もの}と{飲|の}み{物|もの}: food and drinks — everyday phrasing\n- {飲食|いんしょく}: eating and drinking — the act, not the items\n- {食品|しょくひん}: food products — narrower; refers to food alone, often packaged",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03247_shokuhin",
+      "reading": "しょくひん",
+      "headword": "{食品|しょくひん}",
+      "label": "food products"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-05-31T02:08:49Z",
-    "modified": "2026-05-31T02:08:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

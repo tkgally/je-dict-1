@@ -19,7 +19,9 @@
       "english": "Where are you from?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15396_shusshinchi_ex2",
@@ -27,7 +29,9 @@
       "english": "My hometown is Hokkaido.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15396_shusshinchi_ex3",
@@ -35,21 +39,49 @@
       "english": "When we found out we were from the same place, we became close right away.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{出身地|しゅっしんち} is a standard way to refer to one's place of origin. It is commonly asked about in {自己紹介|じこしょうかい} (self-introductions). For informal speech, {出身|しゅっしん}はどこ？ is more natural than the full compound.\n\nCOMMON COLLOCATIONS:\n- {出身地|しゅっしんち}を{聞|き}く (to ask about someone's hometown)\n- {出身地|しゅっしんち}が{同|おな}じ (to be from the same place)\n\nRELATED WORDS:\n{出身|しゅっしん} alone also means \"from\" or \"coming from\" and is used more broadly ({大学|だいがく}{出身|しゅっしん} — university graduate).",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02733_kokyou",
+      "reading": "こきょう",
+      "headword": "{故郷|こきょう}",
+      "label": "hometown, birthplace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18863_kyouri",
+      "reading": "きょうり",
+      "headword": "{郷里|きょうり}",
+      "label": "hometown"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25466_furusato",
+      "reading": "ふるさと",
+      "headword": "{故郷|ふるさと}",
+      "label": "hometown"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T12:35:07Z",
-    "modified": "2026-03-06T12:35:07Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

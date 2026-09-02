@@ -22,7 +22,9 @@
       "id": "22323_nendaimono_ex1",
       "japanese": "{年代物|ねんだいもの}のワインを{開|あ}ける。",
       "english": "To open a vintage wine.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "22323_nendaimono_ex2",
       "japanese": "このピアノは{年代物|ねんだいもの}で、{百年|ひゃくねん}{以上|いじょう}の{歴史|れきし}がある。",
       "english": "This piano is a vintage piece with over a hundred years of history.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "22323_nendaimono_ex3",
       "japanese": "{祖父|そふ}の{蔵|くら}から{年代物|ねんだいもの}の{日本酒|にほんしゅ}が{見|み}つかった。",
       "english": "An aged sake was found in my grandfather's storehouse.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "22323_nendaimono_ex4",
       "japanese": "うちのテレビは{年代物|ねんだいもの}だ。",
       "english": "Our TV is a relic.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "22323_nendaimono_ex5",
       "japanese": "この{車|くるま}はかなりの{年代物|ねんだいもの}だけど、まだ{走|はし}る。",
       "english": "This car is pretty old, but it still runs.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,44 @@
       "id": "22323_nendaimono_ex6",
       "japanese": "{年代物|ねんだいもの}のパソコンをだましだまし{使|つか}っている。",
       "english": "I'm coaxing along an ancient computer, making it work somehow.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {年代|ねんだい} (era/age) + {物|もの} (thing). The word has a dual character: it can express admiration for something's age and provenance (sense 1), or it can be used with gentle humor about something that is simply old and outdated (sense 2). Context and tone determine which reading applies.\n\nCOMMON COLLOCATIONS:\n- {年代物|ねんだいもの}のワイン: vintage wine\n- {年代物|ねんだいもの}の{家具|かぐ}: antique furniture\n- かなりの{年代物|ねんだいもの}: quite old / quite a vintage piece\n- {年代物|ねんだいもの}の{時計|とけい}: vintage watch\n\nSIMILAR WORDS:\n- {骨董品|こっとうひん}: antique — specifically collected as art or curio\n- ヴィンテージ: vintage — loanword, used mainly for wine and fashion\n- {古物|こぶつ}: old article — more neutral, used in legal/commercial contexts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06990_kottouhin",
+      "reading": "こっとうひん",
+      "headword": "{骨董品|こっとうひん}",
+      "label": "antique"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24097_kobutsu",
+      "reading": "こぶつ",
+      "headword": "{古物|こぶつ}",
+      "label": "old article"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life"]
+      "semantic": [
+        "daily-life"
+      ]
     },
     "created": "2026-04-05T18:28:27Z",
-    "modified": "2026-04-05T18:28:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -168,18 +168,39 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Compound verb: ⟦{切|き}る→切る：02693_kiru⟧ + ⟦{詰|つ}める→詰める：02078_tsumeru⟧.\n\nPATTERN: X⟦を→を：00422_wo⟧{切|き}り{詰|つ}める (cut back on X / trim X)\n\nCOMMON PATTERNS:\n・⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦を→を：00422_wo⟧{切|き}り{詰|つ}める (economize on lifestyle)\n・⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧{切|き}り{詰|つ}める (cut the budget)\n・⟦{費用|ひよう}→費用：03588_hiyou⟧⟦を→を：00422_wo⟧{切|き}り{詰|つ}める (reduce costs)\n・{切|き}り{詰|つ}めた⟦{生活|せいかつ}→生活：01443_seikatsu⟧ (frugal lifestyle)\n\nSIMILAR WORDS:\n・⟦{節約|せつやく}→節約：03302_setsuyaku⟧⟦する→する：00392_suru⟧: To economize (neutral, general)\n・{切|き}り{詰|つ}める: To cut back (implies sacrifice, doing without)\n・⟦けちる→ケチる：09431_kechiru⟧: To skimp (casual, slightly negative)",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Compound verb: ⟦{切|き}る→切る：02693_kiru⟧ + ⟦{詰|つ}める→詰める：02078_tsumeru⟧.\n\nPATTERN: X⟦を→を：00422_wo⟧{切|き}り{詰|つ}める (cut back on X / trim X)\n\nCOMMON PATTERNS:\n- ⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦を→を：00422_wo⟧{切|き}り{詰|つ}める (economize on lifestyle)\n- ⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧{切|き}り{詰|つ}める (cut the budget)\n- ⟦{費用|ひよう}→費用：03588_hiyou⟧⟦を→を：00422_wo⟧{切|き}り{詰|つ}める (reduce costs)\n- {切|き}り{詰|つ}めた⟦{生活|せいかつ}→生活：01443_seikatsu⟧ (frugal lifestyle)\n\nSIMILAR WORDS:\n- ⟦{節約|せつやく}→節約：03302_setsuyaku⟧⟦する→する：00392_suru⟧: To economize (neutral, general)\n- {切|き}り{詰|つ}める: To cut back (implies sacrifice, doing without)\n- ⟦けちる→ケチる：09431_kechiru⟧: To skimp (casual, slightly negative)",
   "cross_references": [
     {
       "type": "related",
       "reading": "せつやく",
       "headword": "{節約|せつやく}",
       "target_id": "03302_setsuyaku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25226_setsuyakusuru",
+      "reading": "せつやくする",
+      "headword": "{節約|せつやく}する",
+      "label": "To economize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09431_kechiru",
+      "reading": "けちる",
+      "headword": "ケチる",
+      "label": "To skimp"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18602_sogiotosu",
+      "reading": "そぎおとす",
+      "headword": "そぎ{落|お}とす",
+      "label": "to strip away"
     }
   ],
   "metadata": {
     "created": "2026-01-17T08:22:03Z",
-    "modified": "2026-08-25T00:21:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

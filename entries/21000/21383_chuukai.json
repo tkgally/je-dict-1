@@ -3,7 +3,7 @@
   "headword": "{仲介|ちゅうかい}する",
   "reading": "ちゅうかい",
   "romaji": "chuukai",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to mediate; to act as an intermediary; to broker",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Very commonly used in real estate ({不動産|ふどうさん}{仲介|ちゅうかい}) and business contexts. The noun form {仲介|ちゅうかい} is often used as a modifier meaning \"intermediary\" or \"brokerage.\"\n\nCOMMON COLLOCATIONS:\n- {仲介|ちゅうかい}{業者|ぎょうしゃ}: broker, intermediary agent\n- {仲介|ちゅうかい}{手数料|てすうりょう}: brokerage fee, commission\n- {仲介|ちゅうかい}{役|やく}: mediator role\n- {不動産|ふどうさん}{仲介|ちゅうかい}: real estate brokerage\n\nSIMILAR WORDS:\n- {媒介|ばいかい}する: to mediate — more formal/technical, also used in science for disease transmission\n- {調停|ちょうてい}する: to arbitrate — legal context, formal dispute resolution\n- {取|と}り{持|も}つ: to mediate — more informal, acting as a go-between in personal relationships",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15990_baikai",
+      "reading": "ばいかい",
+      "headword": "{媒介|ばいかい}",
+      "label": "to mediate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14251_choutei",
+      "reading": "ちょうてい",
+      "headword": "{調停|ちょうてい}",
+      "label": "to arbitrate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09988_torimotsu",
+      "reading": "とりもつ",
+      "headword": "{取|と}り{持|も}つ",
+      "label": "to mediate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +86,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T02:05:57Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

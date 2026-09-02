@@ -168,7 +168,7 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY:\n{他動詞|たどうし} (transitive)\nPair: {浸|ひた}る (intransitive - to be soaked)\nPattern: XをYに{浸|ひた}す\n\nASPECT (ている):\n{浸|ひた}している indicates ongoing action or resulting state (something is being/remaining soaked).\n\nCOMMON PATTERNS:\n・{水|みず}に{浸|ひた}す - to soak in water\n・お{湯|ゆ}に{浸|ひた}す - to soak in hot water\n・{出汁|だし}に{浸|ひた}す - to soak in broth\n\nCOOKING USAGE:\nUsed for rehydrating dried ingredients ({乾物|かんぶつ}), marinating, or preparing ingredients before cooking.\n\nRELATED EXPRESSIONS:\n・{浸|ひた}し{物|もの} / お{浸|ひた}し - boiled greens soaked in dashi\n・{水|みず}に{浸|ひた}しておく - to leave soaking in water",
+  "notes": "TRANSITIVITY:\n{他動詞|たどうし} (transitive)\nPair: {浸|ひた}る (intransitive - to be soaked)\nPattern: XをYに{浸|ひた}す\n\nASPECT (ている):\n{浸|ひた}している indicates ongoing action or resulting state (something is being/remaining soaked).\n\nCOMMON PATTERNS:\n- {水|みず}に{浸|ひた}す - to soak in water\n- お{湯|ゆ}に{浸|ひた}す - to soak in hot water\n- {出汁|だし}に{浸|ひた}す - to soak in broth\n\nCOOKING USAGE:\nUsed for rehydrating dried ingredients ({乾物|かんぶつ}), marinating, or preparing ingredients before cooking.\n\nRELATED WORDS:\n- {浸|ひた}し{物|もの} / お{浸|ひた}し - boiled greens soaked in dashi\n- {水|みず}に{浸|ひた}しておく - to leave soaking in water",
   "prominent_see_also": [
     {
       "target_id": "13339_hitaru",
@@ -177,9 +177,32 @@
       "note": "intransitive"
     }
   ],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10245_ohitashi",
+      "reading": "おひたし",
+      "headword": "お{浸|ひた}し",
+      "label": "boiled greens soaked in dashi"
+    },
+    {
+      "type": "related",
+      "target_id": "09861_tsukeru",
+      "reading": "つける",
+      "headword": "{漬|つ}ける",
+      "label": "to pickle, to soak"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21538_fuyakasu",
+      "reading": "ふやかす",
+      "headword": "ふやかす",
+      "label": "to soak and soften"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T08:18:22Z",
-    "modified": "2026-04-19T05:16:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -188,6 +211,7 @@
       ],
       "transitivity": "transitive",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "action"
       ],

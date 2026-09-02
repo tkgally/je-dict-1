@@ -3,7 +3,7 @@
   "headword": "{上述|じょうじゅつ}",
   "reading": "じょうじゅつ",
   "romaji": "joujutsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "mentioned above; as stated above; aforementioned",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Composed of {上|じょう} (above) + {述|じゅつ} (state, describe). Can be used as a noun ({上述|じょうじゅつ}の — the aforementioned) or with する ({上述|じょうじゅつ}した — stated above).\n\nCOMMON COLLOCATIONS:\n- {上述|じょうじゅつ}の{通|とお}り — as mentioned above\n- {上述|じょうじゅつ}した — stated above\n- {上述|じょうじゅつ}の{理由|りゆう} — the aforementioned reasons\n- {上述|じょうじゅつ}の{問題|もんだい} — the problem mentioned above\n\nSIMILAR WORDS:\n- {前記|ぜんき} — aforementioned (similar register; slightly less academic)\n- {上記|じょうき} — above-mentioned (very common in documents and forms)\n- {前述|ぜんじゅつ} — previously stated (nearly synonymous; {前|ぜん} emphasizes 'previous' over 'above')\n- {下記|かき} — below-mentioned (the opposite direction)\n- {後述|こうじゅつ} — described later (the opposite in sequence)\n\nREGISTER:\nFormal academic and legal writing. Especially common in research papers, theses, and official reports. Not used in conversation.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22210_zenki",
+      "reading": "ぜんき",
+      "headword": "{前記|ぜんき}",
+      "label": "aforementioned (similar register"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11375_jouki",
+      "reading": "じょうき",
+      "headword": "{上記|じょうき}",
+      "label": "above-mentioned"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11911_zenjutsu",
+      "reading": "ぜんじゅつ",
+      "headword": "{前述|ぜんじゅつ}",
+      "label": "previously stated (nearly synonymous"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11376_kaki",
+      "reading": "かき",
+      "headword": "{下記|かき}",
+      "label": "below-mentioned"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,14 +84,14 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "language"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-05T14:21:49Z",
-    "modified": "2026-04-05T14:21:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

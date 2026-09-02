@@ -3,7 +3,7 @@
   "headword": "{接岸|せつがん}",
   "reading": "せつがん",
   "romaji": "setsugan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "docking; coming alongside; berthing",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Compound of {接|せつ} ('to touch; to come into contact') and {岸|がん} ('shore; bank; pier'). The standard nautical term for a vessel coming alongside a pier or quay.\n\nUSAGE:\n- Used with する to form a verb: {接岸|せつがん}する ('to dock; to berth').\n- Common in maritime news, port announcements, and travel reports about cruises and ferries.\n- The opposite action is {離岸|りがん} ('casting off; departing from the pier').\n\nCOMMON COLLOCATIONS:\n- {港|みなと}に{接岸|せつがん}する: to dock at a port\n- {接岸|せつがん}{作業|さぎょう}: docking operation\n- {接岸|せつがん}{時間|じかん}: docking time\n- {接岸|せつがん}できない: unable to dock\n\nSIMILAR WORDS:\n- {離岸|りがん}: casting off; departing from shore — the opposite of {接岸|せつがん}\n- {入港|にゅうこう}: entering port — the broader process of a ship arriving at a harbor\n- {着岸|ちゃくがん}: reaching shore; landing — very close synonym, sometimes used interchangeably\n- {停泊|ていはく}: anchoring; mooring — remaining stationary in water, not necessarily at a pier",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14771_nyuukou",
+      "reading": "にゅうこう",
+      "headword": "{入港|にゅうこう}",
+      "label": "entering port"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19724_chakugan",
+      "reading": "ちゃくがん",
+      "headword": "{着岸|ちゃくがん}",
+      "label": "reaching shore"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20272_teihaku",
+      "reading": "ていはく",
+      "headword": "{停泊|ていはく}",
+      "label": "anchoring"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +88,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-18T15:27:39Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -55,7 +55,29 @@
     }
   ],
   "notes": "Compound of {側面|そくめん} ('side, side face') and {図|ず} ('drawing, diagram').\n\nUSAGE:\n- A standard technical-drawing term used in architecture, mechanical engineering, and product design.\n- Normally appears as part of a set of orthographic projections: {正面図|しょうめんず} (front view), {側面図|そくめんず} (side view), and {平面図|へいめんず} (plan/top view).\n- Sometimes further specified as {右|みぎ}{側面図|そくめんず} ('right side view') or {左|ひだり}{側面図|そくめんず} ('left side view') when the two sides differ.\n\nCOMMON COLLOCATIONS:\n- {側面図|そくめんず}を{描|えが}く/{書|か}く: to draw a side view\n- {側面図|そくめんず}で{示|しめ}す: to show in a side view\n- {右|みぎ}{側面図|そくめんず}: right side view\n- {建物|たてもの}の{側面図|そくめんず}: a building's side elevation\n\nSIMILAR WORDS:\n- {正面図|しょうめんず}: front view — the view from directly in front of the object.\n- {平面図|へいめんず}: plan view, top view — the view from directly above.\n- {断面図|だんめんず}: cross-section, sectional drawing — shows the interior along a cut plane.\n- {立面図|りつめんず}: elevation drawing — a general architectural term; side views are a kind of {立面図|りつめんず}.\n- {側面|そくめん}: side, side face (as a noun) — the base word, referring to the physical side surface rather than the drawing.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23670_heimenzu",
+      "reading": "へいめんず",
+      "headword": "{平面図|へいめんず}",
+      "label": "plan view, top view"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14837_danmenzu",
+      "reading": "だんめんず",
+      "headword": "{断面図|だんめんず}",
+      "label": "cross-section, sectional drawing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23671_ritsumenzu",
+      "reading": "りつめんず",
+      "headword": "{立面図|りつめんず}",
+      "label": "elevation drawing"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,6 +93,6 @@
       ]
     },
     "created": "2026-04-15T10:11:37Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

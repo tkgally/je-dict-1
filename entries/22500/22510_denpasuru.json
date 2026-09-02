@@ -3,7 +3,7 @@
   "headword": "{伝播|でんぱ}する",
   "reading": "でんぱする",
   "romaji": "denpasuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to spread; to propagate; to be transmitted",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A formal, often academic or scientific term for the spreading or transmission of something. It is commonly used in contexts involving disease, culture, religion, technology, and physical phenomena like sound or light waves. The kanji {播|は} means 'to sow' or 'to scatter,' reflecting the image of something being scattered outward.\n\nCOMMON COLLOCATIONS:\n- {感染|かんせん}の{伝播|でんぱ}: transmission of infection\n- {文化|ぶんか}の{伝播|でんぱ}: cultural propagation\n- {伝播|でんぱ}{速度|そくど}: propagation speed\n- {伝播|でんぱ}{経路|けいろ}: transmission route\n\nSIMILAR WORDS:\n- {広|ひろ}まる: to spread — the everyday word for something spreading among people\n- {拡散|かくさん}する: to diffuse; to spread — often used for information going viral or substances spreading\n- {伝染|でんせん}する: to be contagious — specifically for diseases spreading from person to person",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02404_hiromaru",
+      "reading": "ひろまる",
+      "headword": "{広|ひろ}まる",
+      "label": "to spread"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18995_kakusansuru",
+      "reading": "かくさんする",
+      "headword": "{拡散|かくさん}する",
+      "label": "to diffuse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04549_densen",
+      "reading": "でんせん",
+      "headword": "{伝染|でんせん}",
+      "label": "to be contagious"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +86,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-06T16:54:10Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

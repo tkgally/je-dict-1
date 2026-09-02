@@ -19,7 +19,9 @@
       "english": "I checked the call history.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17362_chakushinrireki_ex2",
@@ -27,7 +29,9 @@
       "english": "An unknown number was left in my call history.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17362_chakushinrireki_ex3",
@@ -35,21 +39,56 @@
       "english": "I called the person back from my call history.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A compound of {着信|ちゃくしん} (incoming call/message) + {履歴|りれき} (history/log). Used in everyday phone-related contexts for the record of received calls on a mobile phone.\n\nCOMMON PATTERNS:\n- {着信|ちゃくしん}{履歴|りれき}を{確認|かくにん}する: to check the call history\n- {着信|ちゃくしん}{履歴|りれき}に{残|のこ}る: to appear in call history\n- {着信|ちゃくしん}{履歴|りれき}から{折|お}り{返|かえ}す: to call back from the call history\n- {着信|ちゃくしん}{履歴|りれき}を{削除|さくじょ}する: to delete call history\n\nRELATED TERMS:\n- {発信|はっしん}{履歴|りれき}: outgoing call log\n- {不在|ふざい}{着信|ちゃくしん}: missed call\n- {通話|つうわ}{履歴|りれき}: call log (both incoming and outgoing)\n- {着信|ちゃくしん}{音|おん}: ringtone\n\nIn casual speech, people often shorten to {着歴|ちゃくれき}.",
-  "cross_references": [],
+  "notes": "A compound of {着信|ちゃくしん} (incoming call/message) + {履歴|りれき} (history/log). Used in everyday phone-related contexts for the record of received calls on a mobile phone.\n\nCOMMON PATTERNS:\n- {着信|ちゃくしん}{履歴|りれき}を{確認|かくにん}する: to check the call history\n- {着信|ちゃくしん}{履歴|りれき}に{残|のこ}る: to appear in call history\n- {着信|ちゃくしん}{履歴|りれき}から{折|お}り{返|かえ}す: to call back from the call history\n- {着信|ちゃくしん}{履歴|りれき}を{削除|さくじょ}する: to delete call history\n\nRELATED WORDS:\n- {発信|はっしん}{履歴|りれき}: outgoing call log\n- {不在|ふざい}{着信|ちゃくしん}: missed call\n- {通話|つうわ}{履歴|りれき}: call log (both incoming and outgoing)\n- {着信|ちゃくしん}{音|おん}: ringtone\n\nIn casual speech, people often shorten to {着歴|ちゃくれき}.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24682_hasshinrireki",
+      "reading": "はっしんりれき",
+      "headword": "{発信履歴|はっしんりれき}",
+      "label": "outgoing call log"
+    },
+    {
+      "type": "related",
+      "target_id": "08041_fuzaichakushin",
+      "reading": "ふざいちゃくしん",
+      "headword": "{不在着信|ふざいちゃくしん}",
+      "label": "missed call"
+    },
+    {
+      "type": "related",
+      "target_id": "08040_chakushinon",
+      "reading": "ちゃくしんおん",
+      "headword": "{着信音|ちゃくしんおん}",
+      "label": "ringtone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26383_bangoutsuuchi",
+      "reading": "ばんごうつうち",
+      "headword": "{番号通知|ばんごうつうち}",
+      "label": "caller ID"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T08:19:49Z",
-    "modified": "2026-03-26T08:50:05Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["electronics"]
+      "semantic": [
+        "electronics"
+      ]
     }
   }
 }

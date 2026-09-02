@@ -19,7 +19,9 @@
       "english": "To swing a bat.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11590_batto_ex2",
@@ -27,7 +29,9 @@
       "english": "I use a wooden bat.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11590_batto_ex3",
@@ -35,21 +39,49 @@
       "english": "When you hit the sweet spot of the bat, it makes a satisfying sound.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "From English \"bat.\" Used specifically for the striking implement in baseball and softball. Given baseball's popularity in Japan, this is a frequently encountered word.\n\nCOMMON COLLOCATIONS:\n- バットを{振|ふ}る (to swing a bat)\n- バットを{構|かま}える (to take a batting stance)\n- バットに{当|あ}てる (to make contact with the bat)\n- バットの{芯|しん} (the sweet spot of a bat)\n- {金属|きんぞく}バット (metal bat)\n- {木製|もくせい}バット (wooden bat)\n\nCULTURAL NOTE:\nIn Japanese professional baseball (NPB), wooden bats are required, while {金属|きんぞく}バット are common in {高校|こうこう}{野球|やきゅう} (high school baseball) and amateur leagues.\n\nRELATED WORDS:\n- グローブ: baseball glove\n- ボール: ball\n- {打席|だせき}: at-bat, plate appearance",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00017_booru",
+      "reading": "ぼーる",
+      "headword": "ボール",
+      "label": "ball"
+    },
+    {
+      "type": "related",
+      "target_id": "06542_daseki",
+      "reading": "だせき",
+      "headword": "{打席|だせき}",
+      "label": "at-bat, plate appearance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06755_dotto",
+      "reading": "どっと",
+      "headword": "どっと",
+      "label": "in a rush"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T13:45:47Z",
-    "modified": "2026-03-31T01:51:57Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     }
   }
 }

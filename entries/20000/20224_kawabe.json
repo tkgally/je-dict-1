@@ -17,7 +17,9 @@
       "id": "20224_kawabe_ex1",
       "japanese": "{川辺|かわべ}を{散歩|さんぽ}した。",
       "english": "I took a walk along the riverbank.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20224_kawabe_ex2",
       "japanese": "{川辺|かわべ}に{座|すわ}って{弁当|べんとう}を{食|た}べた。",
       "english": "I sat by the river and ate my lunch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,59 @@
       "id": "20224_kawabe_ex3",
       "japanese": "{春|はる}になると、{川辺|かわべ}の{桜|さくら}が{一斉|いっせい}に{咲|さ}き、{花見|はなみ}を{楽|たの}しむ{人|ひと}でにぎわう。",
       "english": "In spring, the cherry blossoms along the river bloom all at once, and the area bustles with people enjoying hanami.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {川|かわ} (river) + {辺|べ} (vicinity, edge). A simple, everyday word for the area beside a river. Also read as かわべり in some contexts.\n\nCOMMON COLLOCATIONS:\n- {川辺|かわべ}を{歩|ある}く: to walk along the riverside\n- {川辺|かわべ}に{座|すわ}る: to sit by the river\n- {川辺|かわべ}の{風景|ふうけい}: riverside scenery\n- {川辺|かわべ}の{公園|こうえん}: riverside park\n\nSIMILAR WORDS:\n- {川岸|かわぎし}: riverbank — focuses more on the bank/embankment itself\n- {岸辺|きしべ}: shore, bank — broader, can be used for lakes and seas too\n- {河川敷|かせんしき}: riverbed area — the flat area between the river and the levee",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24545_kawagishi",
+      "reading": "かわぎし",
+      "headword": "{川岸|かわぎし}",
+      "label": "riverbank"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20225_kishibe",
+      "reading": "きしべ",
+      "headword": "{岸辺|きしべ}",
+      "label": "shore, bank"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24122_kasenshiki",
+      "reading": "かせんしき",
+      "headword": "{河川敷|かせんしき}",
+      "label": "riverbed area"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24366_kagan",
+      "reading": "かがん",
+      "headword": "{河岸|かがん}",
+      "label": "riverbank"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature", "location"]
+      "semantic": [
+        "nature",
+        "location"
+      ]
     },
     "created": "2026-03-28T17:14:57Z",
-    "modified": "2026-03-28T17:14:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

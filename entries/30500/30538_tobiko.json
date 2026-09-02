@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Written in kana on most menus; the kanji {飛|と}び{子|こ} is rare. Often dyed — green with wasabi, black with squid ink — for color on a platter.\n\nCOMMON COLLOCATIONS:\n- とびこの{軍艦|ぐんかん}: gunkan sushi topped with flying fish roe\n- とびこをのせる: to top something with flying fish roe\n- {緑|みどり}のとびこ: wasabi-flavored green roe\n\nSIMILAR WORDS:\n- いくら: salmon roe — large, soft, glossy orange spheres\n- {数|かず}の{子|こ}: herring roe — a firm block of tiny eggs, eaten at New Year\n- {明太子|めんたいこ}: spicy pollock roe — sold as a whole seasoned sac",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30539_kazunoko",
+      "reading": "かずのこ",
+      "headword": "{数|かず}の{子|こ}",
+      "label": "herring roe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12729_mentaiko",
+      "reading": "めんたいこ",
+      "headword": "{明太子|めんたいこ}",
+      "label": "spicy pollock roe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23740_kyabia",
+      "reading": "きゃびあ",
+      "headword": "キャビア",
+      "label": "caviar"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,7 +76,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food",
         "animal-fish"
@@ -62,6 +84,6 @@
       "domain": []
     },
     "created": "2026-08-10T00:22:10Z",
-    "modified": "2026-08-10T00:22:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

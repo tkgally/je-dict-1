@@ -3,7 +3,7 @@
   "id": "13708_chakushoku",
   "headword": "{着色|ちゃくしょく}",
   "reading": "ちゃくしょく",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "coloring, dyeing",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,32 @@
     }
   ],
   "notes": "USAGE:\nMost commonly encountered in food labeling and manufacturing contexts. {着色|ちゃくしょく}{料|りょう} (coloring agent, food coloring) is the most frequent compound. Also used in art and craft contexts for the process of applying color.\n\nCOMMON COLLOCATIONS:\n- {着色|ちゃくしょく}{料|りょう}: coloring agent, food dye\n- {人工|じんこう}{着色|ちゃくしょく}{料|りょう}: artificial coloring\n- {着色|ちゃくしょく}{料|りょう}{不使用|ふしよう}: no artificial coloring used\n- {着色|ちゃくしょく}する: to color, to dye",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21817_saishoku",
+      "reading": "さいしょく",
+      "headword": "{彩色|さいしょく}",
+      "label": "coloring"
+    },
+    {
+      "type": "related",
+      "target_id": "22940_irozuke",
+      "reading": "いろづけ",
+      "headword": "{色|いろ}づけ",
+      "label": "coloring"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26212_irozukeru",
+      "reading": "いろづける",
+      "headword": "{色付|いろづ}ける",
+      "label": "to color"
+    }
+  ],
   "metadata": {
     "created": "2026-02-26T13:33:09Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

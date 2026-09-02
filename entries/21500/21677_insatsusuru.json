@@ -3,7 +3,7 @@
   "headword": "{印刷|いんさつ}する",
   "reading": "いんさつする",
   "romaji": "insatsusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to print",
   "definitions": [
     {
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "The standard word for printing documents, photos, books, etc. Uses する to form the verb from the noun {印刷|いんさつ}.\n\nCOMMON COLLOCATIONS:\n- {印刷|いんさつ}{物|ぶつ}: printed matter\n- {印刷|いんさつ}{機|き}: printing machine, press\n- カラー{印刷|いんさつ}: color printing\n- {両面|りょうめん}{印刷|いんさつ}: double-sided printing\n\nRELATED TERMS:\n- プリントする: to print (more casual, often for home/office printing)\n- {出版|しゅっぱん}する: to publish (broader, includes editing and distribution)\n- コピーする: to copy/photocopy",
+  "notes": "The standard word for printing documents, photos, books, etc. Uses する to form the verb from the noun {印刷|いんさつ}.\n\nCOMMON COLLOCATIONS:\n- {印刷|いんさつ}{物|ぶつ}: printed matter\n- {印刷|いんさつ}{機|き}: printing machine, press\n- カラー{印刷|いんさつ}: color printing\n- {両面|りょうめん}{印刷|いんさつ}: double-sided printing\n\nRELATED WORDS:\n- プリントする: to print (more casual, often for home/office printing)\n- {出版|しゅっぱん}する: to publish (broader, includes editing and distribution)\n- コピーする: to copy/photocopy",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03222_shuppan",
+      "reading": "しゅっぱん",
+      "headword": "{出版|しゅっぱん}",
+      "label": "to publish"
+    },
+    {
+      "type": "related",
+      "target_id": "02941_kopiisuru",
+      "reading": "こぴーする",
+      "headword": "コピーする",
+      "label": "to copy/photocopy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21387_shutsuryoku",
+      "reading": "しゅつりょく",
+      "headword": "{出力|しゅつりょく}する",
+      "label": "to output"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T21:19:21Z",
-    "modified": "2026-04-02T21:19:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

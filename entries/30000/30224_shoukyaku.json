@@ -3,7 +3,7 @@
   "headword": "{償却|しょうきゃく}",
   "reading": "しょうきゃく",
   "romaji": "shoukyaku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "amortization; writing off; paying off (a debt)",
   "definitions": [
     {
@@ -92,6 +92,13 @@
       "target_id": "22409_shoukyaku",
       "reading": "しょうきゃく",
       "headword": "{焼却|しょうきゃく}"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04776_hensai",
+      "reading": "へんさい",
+      "headword": "{返済|へんさい}",
+      "label": "repayment"
     }
   ],
   "schema_version": "2.0",
@@ -103,7 +110,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "finance",
         "action"
@@ -114,7 +121,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-29T18:17:31Z",
-    "modified": "2026-07-29T18:17:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

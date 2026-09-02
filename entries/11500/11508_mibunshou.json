@@ -18,7 +18,9 @@
       "english": "Please show your ID.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11508_mibunshou_ex2",
@@ -26,7 +28,9 @@
       "english": "I was asked to present my ID at the reception desk.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11508_mibunshou_ex3",
@@ -34,22 +38,43 @@
       "english": "A photo ID such as a driver's license or passport is required.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Short for {身分証明書|みぶんしょうめいしょ} (identification document). The abbreviated form {身分証|みぶんしょう} is the standard way to say \"ID\" in everyday Japanese.\n\nCOMMON COLLOCATIONS:\n- {身分証|みぶんしょう}を{見|み}せる: to show ID\n- {身分証|みぶんしょう}の{提示|ていじ}: presentation of ID\n- {写真付|しゃしんつ}きの{身分証|みぶんしょう}: photo ID\n- {身分証|みぶんしょう}を{携帯|けいたい}する: to carry ID\n\nCOMMON TYPES OF ID IN JAPAN:\n- {運転免許証|うんてんめんきょしょう}: driver's license (most widely accepted)\n- マイナンバーカード: My Number card (national ID)\n- パスポート: passport\n- {健康保険証|けんこうほけんしょう}: health insurance card\n- {学生証|がくせいしょう}: student ID\n\nUSAGE:\nOften required when opening bank accounts, signing contracts, picking up packages, or entering certain buildings.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22652_shainshou",
+      "reading": "しゃいんしょう",
+      "headword": "{社員証|しゃいんしょう}",
+      "label": "employee ID card"
+    },
+    {
+      "type": "related",
+      "target_id": "22898_kaiinshou",
+      "reading": "かいいんしょう",
+      "headword": "{会員証|かいいんしょう}",
+      "label": "membership card"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T01:54:44Z",
-    "modified": "2026-03-26T01:40:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

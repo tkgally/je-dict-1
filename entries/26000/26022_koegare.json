@@ -17,7 +17,9 @@
       "id": "26022_koegare_ex1",
       "japanese": "{風邪|かぜ}で{声|こえ}がれがひどい。",
       "english": "My hoarseness from the cold is terrible.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26022_koegare_ex2",
       "japanese": "カラオケで{歌|うた}いすぎて{声|こえ}がれになった。",
       "english": "I got a hoarse voice from singing too much karaoke.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,37 @@
       "id": "26022_koegare_ex3",
       "japanese": "{声|こえ}がれを{防|ふせ}ぐために、{喉|のど}を{潤|うるお}しておくことが{大切|たいせつ}だ。",
       "english": "It's important to keep your throat moist to prevent hoarseness.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {声|こえ} (voice) + がれ (from {枯|か}れる, to dry up/wither). Also written as {声枯|こえが}れ with kanji. A practical, everyday word often heard in the context of colds, singing, shouting, or public speaking.\n\nCOMMON COLLOCATIONS:\n- {声|こえ}がれがひどい: to have bad hoarseness\n- {声|こえ}がれを{治|なお}す: to cure hoarseness\n- {声|こえ}がれを{防|ふせ}ぐ: to prevent hoarseness\n- {声|こえ}がれ{気味|ぎみ}: a bit hoarse\n\nSIMILAR WORDS:\n- {嗄声|させい}: hoarseness — the medical term, used in clinical contexts\n- {声|こえ}が{枯|か}れる: for one's voice to go hoarse — the verb phrase describing the process\n- ハスキーボイス: husky voice — used as a positive descriptor, not a symptom",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27199_koegakareru",
+      "reading": "こえがかれる",
+      "headword": "{声|こえ}が{枯|か}れる",
+      "label": "for one's voice to go hoarse"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["body-part", "health"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "body-part",
+        "health"
+      ]
     },
     "created": "2026-04-28T16:14:40Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

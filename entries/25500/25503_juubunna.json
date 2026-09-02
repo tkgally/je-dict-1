@@ -3,7 +3,7 @@
   "headword": "{十分|じゅうぶん}な",
   "reading": "じゅうぶんな",
   "romaji": "juubunna",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "enough; sufficient; adequate; ample",
   "definitions": [
     {
@@ -22,7 +22,9 @@
       "id": "25503_juubunna_ex1",
       "japanese": "{十分|じゅうぶん}な{睡眠|すいみん}を{取|と}ってください。",
       "english": "Please get enough sleep.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "25503_juubunna_ex2",
       "japanese": "{準備|じゅんび}は{十分|じゅうぶん}ですか。",
       "english": "Are the preparations sufficient?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "25503_juubunna_ex3",
       "japanese": "{経験|けいけん}が{十分|じゅうぶん}でないため、もう{少|すこ}し{練習|れんしゅう}が{必要|ひつよう}だ。",
       "english": "Because my experience is not sufficient, I need a bit more practice.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "25503_juubunna_ex4",
       "japanese": "{十分|じゅうぶん}な{成果|せいか}が{出|で}た。",
       "english": "Ample results were achieved.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "25503_juubunna_ex5",
       "japanese": "この{説明|せつめい}で{十分|じゅうぶん}だと{思|おも}います。",
       "english": "I think this explanation is thorough enough.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,21 +72,44 @@
       "id": "25503_juubunna_ex6",
       "japanese": "{十分|じゅうぶん}な{時間|じかん}をかけて{検討|けんとう}した{結果|けっか}、この{方針|ほうしん}に{決|き}めた。",
       "english": "After considering it with ample time, we decided on this policy.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Also used as an adverb {十分|じゅうぶん}に (sufficiently; thoroughly). Can also be read じっぷん when meaning \"ten minutes,\" but the na-adjective meaning is always じゅうぶん. The negative form {十分|じゅうぶん}でない or {不十分|ふじゅうぶん}な (insufficient) is equally common.\n\nCOMMON COLLOCATIONS:\n- {十分|じゅうぶん}な{時間|じかん}: enough time\n- {十分|じゅうぶん}な{睡眠|すいみん}: enough sleep\n- {十分|じゅうぶん}な{準備|じゅんび}: adequate preparation\n- {十分|じゅうぶん}な{証拠|しょうこ}: sufficient evidence\n- {不十分|ふじゅうぶん}な: insufficient; inadequate\n\nSIMILAR WORDS:\n- {充分|じゅうぶん}な: sufficient — variant kanji form with the same meaning and pronunciation; both are standard\n- {足|た}りる: to be enough — a verb rather than an adjective; more conversational\n- {豊富|ほうふ}な: abundant; rich — implies having much more than needed, especially variety",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01209_tariru",
+      "reading": "たりる",
+      "headword": "{足|た}りる",
+      "label": "to be enough"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03620_houfu",
+      "reading": "ほうふ",
+      "headword": "{豊富|ほうふ}",
+      "label": "abundant"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
-      "semantic": ["quantity"]
+      "pos": [
+        "adjective-na"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "quantity"
+      ]
     },
     "created": "2026-04-25T15:13:44Z",
-    "modified": "2026-04-25T15:13:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

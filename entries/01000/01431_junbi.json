@@ -2,7 +2,7 @@
   "id": "01431_junbi",
   "headword": "{準備|じゅんび}",
   "reading": "じゅんび",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "preparation",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{準備|じゅんび} means preparation or making arrangements for something.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{準備|じゅんび}⟦する→する：00392_suru⟧\n\nVERBAL USAGE:\n{準備|じゅんび}⟦する→する：00392_suru⟧ (to prepare)\n\nCOMMON EXPRESSIONS:\n- {準備|じゅんび}⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧: to be ready, to finish preparing\n- {準備|じゅんび}⟦{中|ちゅう}→〜中：09840_chuu⟧: in preparation, under preparation\n- {準備|じゅんび}⟦を→を：00422_wo⟧⟦{整|ととの}える→整える：04259_totonoeru⟧: to get things ready\n- {準備|じゅんび}⟦{不足|ぶそく}→不足：03598_fusoku⟧: lack of preparation\n\nPATTERNS:\n- 〜⟦の→の：09472_no⟧{準備|じゅんび}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to prepare for ~\n- {準備|じゅんび}⟦に→に：00314_ni⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧: preparation takes time\n\nRELATED:\n- ⟦{用意|ようい}→用意：01746_youi⟧: preparation (often interchangeable)\n- ⟦{支度|したく}→支度：02083_shitaku⟧: getting ready (especially for going out)",
+  "notes": "{準備|じゅんび} means preparation or making arrangements for something.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{準備|じゅんび}⟦する→する：00392_suru⟧\n\nVERBAL USAGE:\n{準備|じゅんび}⟦する→する：00392_suru⟧ (to prepare)\n\nCOMMON EXPRESSIONS:\n- {準備|じゅんび}⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧: to be ready, to finish preparing\n- {準備|じゅんび}⟦{中|ちゅう}→〜中：09840_chuu⟧: in preparation, under preparation\n- {準備|じゅんび}⟦を→を：00422_wo⟧⟦{整|ととの}える→整える：04259_totonoeru⟧: to get things ready\n- {準備|じゅんび}⟦{不足|ぶそく}→不足：03598_fusoku⟧: lack of preparation\n\nCOMMON PATTERNS:\n- 〜⟦の→の：09472_no⟧{準備|じゅんび}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to prepare for ~\n- {準備|じゅんび}⟦に→に：00314_ni⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧: preparation takes time\n\nRELATED WORDS:\n- ⟦{用意|ようい}→用意：01746_youi⟧: preparation (often interchangeable)\n- ⟦{支度|したく}→支度：02083_shitaku⟧: getting ready (especially for going out)",
   "cross_references": [
     {
       "type": "synonym",
@@ -141,11 +141,53 @@
       "reading": "ようい",
       "headword": "{用意|ようい}",
       "label": "preparation (interchangeable)"
+    },
+    {
+      "type": "related",
+      "target_id": "02083_shitaku",
+      "reading": "したく",
+      "headword": "{支度|したく}",
+      "label": "getting ready"
+    },
+    {
+      "type": "related",
+      "target_id": "05589_bunkasai",
+      "reading": "ぶんかさい",
+      "headword": "{文化祭|ぶんかさい}",
+      "label": "cultural festival"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07910_mijitaku",
+      "reading": "みじたく",
+      "headword": "{身支度|みじたく}",
+      "label": "getting ready"
+    },
+    {
+      "type": "related",
+      "target_id": "08127_temawashi",
+      "reading": "てまわし",
+      "headword": "{手回|てまわ}し",
+      "label": "hand-operated"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10657_tehazu",
+      "reading": "てはず",
+      "headword": "{手筈|てはず}",
+      "label": "arrangements, preparations"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21586_zendate",
+      "reading": "ぜんだて",
+      "headword": "{膳立|ぜんだ}て",
+      "label": "preparation"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:11:06Z",
-    "modified": "2026-05-15T16:21:37Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

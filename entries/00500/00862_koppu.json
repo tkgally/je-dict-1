@@ -64,10 +64,46 @@
     }
   ],
   "notes": "コップ is a drinking glass, typically without a handle.\n\nETYMOLOGY:\nBorrowed from Dutch 'kop' (cup), not English. Usually written in katakana.\n\nCONTRAST WITH カップ:\n- コップ: handleless drinking glass (for water, juice, etc.)\n- ⟦カップ→カップ：01077_kappu⟧: cup with handle (coffee cup, tea cup)\n- ⟦グラス→グラス：00076_gurasu⟧: wine glass, elegant glassware\n\nCOMMON PATTERNS:\n- コップ⟦に→に：00314_ni⟧⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧: to pour water into a glass\n- コップ⟦で→で：00502_de⟧⟦{飲|の}む→飲む：00322_nomu⟧: to drink from a glass\n- コップ⟦{一杯|いっぱい}→一杯：01793_ippai⟧: one glass (of something)\n- コップ⟦が→が：00051_ga⟧⟦{割|わ}れる→割れる：00907_wareru⟧: the glass breaks\n\nCOMPOUNDS:\n- ⟦{紙|かみ}→紙：00712_kami⟧コップ: paper cup\n- ⟦プラスチック→プラスチック：00347_purasuchikku⟧コップ: plastic cup",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01077_kappu",
+      "reading": "かっぷ",
+      "headword": "カップ",
+      "label": "cup with handle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00076_gurasu",
+      "reading": "ぐらす",
+      "headword": "グラス",
+      "label": "wine glass, elegant glassware"
+    },
+    {
+      "type": "related",
+      "target_id": "01777_garasu",
+      "reading": "がらす",
+      "headword": "ガラス",
+      "label": "glass"
+    },
+    {
+      "type": "related",
+      "target_id": "06509_magukappu",
+      "reading": "まぐかっぷ",
+      "headword": "マグカップ",
+      "label": "mug"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22869_magu",
+      "reading": "まぐ",
+      "headword": "マグ",
+      "label": "mug"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:36:45Z",
-    "modified": "2026-05-12T23:06:47Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

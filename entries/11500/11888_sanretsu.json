@@ -2,7 +2,7 @@
   "id": "11888_sanretsu",
   "headword": "{参列|さんれつ}",
   "reading": "さんれつ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "attendance at a ceremony",
   "conjugation": {
     "type": "suru",
@@ -141,11 +141,32 @@
       "headword": "{参加|さんか}",
       "label": "participation (general)",
       "target_id": "02498_sanka"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02084_shusseki",
+      "reading": "しゅっせき",
+      "headword": "{出席|しゅっせき}",
+      "label": "attendance (meetings, classes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16239_resseki",
+      "reading": "れっせき",
+      "headword": "{列席|れっせき}",
+      "label": "attendance at a ceremony"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21638_tachiau",
+      "reading": "たちあう",
+      "headword": "{立|た}ち{会|あ}う",
+      "label": "to be present at"
     }
   ],
   "metadata": {
     "created": "2026-02-18T14:01:49Z",
-    "modified": "2026-08-15T21:26:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

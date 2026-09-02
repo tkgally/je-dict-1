@@ -17,7 +17,9 @@
       "id": "27966_kyariibaggu_ex1",
       "japanese": "キャリーバッグを{引|ひ}いて{歩|ある}く。",
       "english": "I walk pulling a wheeled bag.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27966_kyariibaggu_ex2",
       "japanese": "{機内|きない}{持|も}ち{込|こ}み{用|よう}のキャリーバッグを{買|か}った。",
       "english": "I bought a carry-on wheeled bag for taking into the cabin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "27966_kyariibaggu_ex3",
       "japanese": "{階段|かいだん}ではキャリーバッグを{持|も}ち{上|あ}げなければならず、{重|おも}くて{大変|たいへん}だった。",
       "english": "On the stairs I had to lift the wheeled bag, and it was heavy and tough.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A bag with wheels and a pull-out handle. Used for travel luggage and also for soft pet carriers with wheels.\n\nSIMILAR WORDS:\n- スーツケース: suitcase — a hard-shell traveling case; many also have wheels, and the words overlap\n- キャリーケース: carry case — near-synonym, often used for the hard-shell wheeled type\n- {旅行|りょこう}カバン: travel bag — general term for any bag used when traveling",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01781_suutsukeesu",
+      "reading": "すーつけーす",
+      "headword": "スーツケース",
+      "label": "suitcase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25736_ryokoukaban",
+      "reading": "りょこうかばん",
+      "headword": "{旅行鞄|りょこうかばん}",
+      "label": "travel bag"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"],
+      "semantic": [
+        "tool"
+      ],
       "domain": []
     },
     "created": "2026-05-23T04:06:38Z",
-    "modified": "2026-05-23T04:06:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

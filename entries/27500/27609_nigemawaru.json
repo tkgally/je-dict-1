@@ -3,7 +3,7 @@
   "headword": "{逃|に}げ{回|まわ}る",
   "reading": "にげまわる",
   "romaji": "nigemawaru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to run around trying to escape; to flee in all directions",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "TRANSITIVITY: Intransitive godan verb. Compound of {逃|に}げる (to flee) + {回|まわ}る (to go around). The 〜{回|まわ}る suffix adds a sense of doing the action repeatedly or all over.\n\nCOMMON COLLOCATIONS:\n- 〜から{逃|に}げ{回|まわ}る: to keep running from ~\n- {責任|せきにん}から{逃|に}げ{回|まわ}る: to keep dodging responsibility\n- あちこち{逃|に}げ{回|まわ}る: to run around here and there\n\nSIMILAR WORDS:\n- {逃|に}げる: to flee — single act of escaping; no sense of repeated movement\n- {逃|に}げ{出|だ}す: to break out, run away — emphasizes the start of fleeing\n- {振|ふ}り{切|き}る: to shake off — succeed in escaping a pursuer",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01151_nigeru",
+      "reading": "にげる",
+      "headword": "{逃|に}げる",
+      "label": "to flee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06041_nigedasu",
+      "reading": "にげだす",
+      "headword": "{逃|に}げ{出|だ}す",
+      "label": "to break out, run away"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06703_furikiru",
+      "reading": "ふりきる",
+      "headword": "{振|ふ}り{切|き}る",
+      "label": "to shake off"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "verb-godan"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "action",
         "movement"
@@ -62,7 +85,7 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-05-15T03:09:54Z",
-    "modified": "2026-05-15T03:09:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

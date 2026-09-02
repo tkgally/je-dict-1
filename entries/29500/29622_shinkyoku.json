@@ -17,7 +17,9 @@
       "id": "29622_shinkyoku_ex1",
       "japanese": "この{曲|きょく}は{神曲|しんきょく}だ。",
       "english": "This song is an absolute masterpiece.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29622_shinkyoku_ex2",
       "japanese": "{彼女|かのじょ}の{新|あたら}しい{歌|うた}は{神曲|しんきょく}だと{話題|わだい}だ。",
       "english": "Her new song is the talk of the town as a masterpiece.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "29622_shinkyoku_ex3",
       "japanese": "ライブで{神曲|しんきょく}が{続|つづ}いて{会場|かいじょう}が{盛|も}り{上|あ}がった。",
       "english": "The venue got fired up as one great song after another played at the concert.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -46,19 +52,32 @@
       "reading": "しんきょく",
       "headword": "{新曲|しんきょく}",
       "label": "new song"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17476_meikyoku",
+      "reading": "めいきょく",
+      "headword": "{名曲|めいきょく}",
+      "label": "a famous, classic song"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
-      "politeness": null,
-      "semantic": ["music"],
-      "domain": ["internet"]
+      "politeness": "plain",
+      "semantic": [
+        "music"
+      ],
+      "domain": [
+        "internet"
+      ]
     },
     "created": "2026-07-01T18:18:59Z",
-    "modified": "2026-07-01T18:18:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

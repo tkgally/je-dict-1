@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{再配達|さいはいたつ} is the redelivery service for undelivered packages.\n\nCOMMON PATTERNS:\n- {再配達|さいはいたつ}を{依頼|いらい}する (to request redelivery)\n- {再配達|さいはいたつ}を{頼|たの}む (to ask for redelivery)\n- {再配達|さいはいたつ}の{時間|じかん}{指定|してい} (redelivery time specification)\n\nUSAGE NOTES:\n- Can be arranged via phone, web, or LINE\n- Often available same-day if requested early\n\nRELATED TERMS:\n- {不在票|ふざいひょう}: missed delivery notice\n- {宅配ボックス|たくはいぼっくす}: delivery locker",
+  "notes": "{再配達|さいはいたつ} is the redelivery service for undelivered packages.\n\nCOMMON PATTERNS:\n- {再配達|さいはいたつ}を{依頼|いらい}する (to request redelivery)\n- {再配達|さいはいたつ}を{頼|たの}む (to ask for redelivery)\n- {再配達|さいはいたつ}の{時間|じかん}{指定|してい} (redelivery time specification)\n\nUSAGE:\n- Can be arranged via phone, web, or LINE\n- Often available same-day if requested early\n\nRELATED WORDS:\n- {不在票|ふざいひょう}: missed delivery notice\n- {宅配ボックス|たくはいぼっくす}: delivery locker",
   "metadata": {
     "created": "2026-02-03T06:48:31Z",
-    "modified": "2026-06-24T18:40:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -75,6 +75,27 @@
       "reading": "はいたつ",
       "headword": "{配達|はいたつ}",
       "label": "delivery"
+    },
+    {
+      "type": "related",
+      "target_id": "09719_takuhaibokkusu",
+      "reading": "たくはいぼっくす",
+      "headword": "{宅配|たくはい}ボックス",
+      "label": "delivery locker"
+    },
+    {
+      "type": "related",
+      "target_id": "09720_okihai",
+      "reading": "おきはい",
+      "headword": "{置|お}き{配|はい}",
+      "label": "leave-at-door delivery"
+    },
+    {
+      "type": "related",
+      "target_id": "19854_jikanshitei",
+      "reading": "じかんしてい",
+      "headword": "{時間指定|じかんしてい}",
+      "label": "time designation"
     }
   ]
 }

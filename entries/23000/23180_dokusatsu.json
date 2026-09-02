@@ -3,7 +3,7 @@
   "headword": "{毒殺|どくさつ}",
   "reading": "どくさつ",
   "romaji": "dokusatsu",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "poisoning (to death); killing by poison",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {毒|どく} (poison) and {殺|さつ} (killing). Refers specifically to killing by poison, as opposed to other methods. Frequently encountered in historical accounts (court intrigues, assassinations), crime fiction, and news reports.\n\nCOMMON COLLOCATIONS:\n- {毒殺|どくさつ}する: to poison (someone) to death\n- {毒殺|どくさつ}{事件|じけん}: poisoning case\n- {毒殺|どくさつ}{未遂|みすい}: attempted poisoning\n- {毒殺|どくさつ}された: was poisoned to death\n\nSIMILAR WORDS:\n- {中毒|ちゅうどく}: poisoning — refers to the medical condition of being poisoned, not necessarily intentional killing\n- {暗殺|あんさつ}: assassination — killing by any method, typically for political reasons\n- {殺害|さつがい}: killing, murder — general term for killing, regardless of method",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16558_chuudoku",
+      "reading": "ちゅうどく",
+      "headword": "{中毒|ちゅうどく}",
+      "label": "poisoning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10142_ansatsu",
+      "reading": "あんさつ",
+      "headword": "{暗殺|あんさつ}",
+      "label": "assassination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13226_satsugai",
+      "reading": "さつがい",
+      "headword": "{殺害|さつがい}",
+      "label": "killing, murder"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-08T21:22:17Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

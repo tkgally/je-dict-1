@@ -129,7 +129,7 @@
     },
     {
       "id": "01162_atsumaru_ex3",
-      "japanese": "⟦{来週|らいしゅう}→来週：00746_raishuu⟧、⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦が→が：00051_ga⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{集|あつ}まって⟦{パーティー|ぱーてぃー}→パーティー：02946_paatii⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
+      "japanese": "⟦{来週|らいしゅう}→来週：00746_raishuu⟧、⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦が→が：00051_ga⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{集|あつ}まって⟦パーティー→パーティー：02946_paatii⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "Next week, my friends will gather at my house for a party.",
       "notes": null,
       "has_audio": false,
@@ -139,7 +139,7 @@
     },
     {
       "id": "01162_atsumaru_ex4",
-      "japanese": "⟦{お金|おかね}→お金：00611_okane⟧⟦が→が：00051_ga⟧{集|あつ}まった。",
+      "japanese": "⟦お{金|かね}→お金：00611_okane⟧⟦が→が：00051_ga⟧{集|あつ}まった。",
       "english": "The money was collected.",
       "notes": null,
       "has_audio": false,
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{集|あつ}める→集める：01170_atsumeru⟧ (transitive, to collect/gather something). Pattern: X⟦が→が：00051_ga⟧{集|あつ}まる (X gathers).\n\nASPECT: ている indicates resulting state. {集|あつ}まっている = 'are gathered' (state), not 'are in the process of gathering.'\n\nCOMMON PATTERNS:\n・⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧{集|あつ}まる (people gather)\n・⟦{お金|おかね}→お金：00611_okane⟧⟦が→が：00051_ga⟧{集|あつ}まる (money is collected)\n・⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦が→が：00051_ga⟧{集|あつ}まる (information is gathered)\n・⟦{一か所|いっかしょ}→一箇所：26558_ikkasho⟧⟦に→に：00314_ni⟧{集|あつ}まる (gather in one place)\n\nWHEN NOT USED: Don't use for forcibly bringing things together—use ⟦{集|あつ}める→集める：01170_atsumeru⟧ instead. {集|あつ}まる implies voluntary or natural coming together.",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{集|あつ}める→集める：01170_atsumeru⟧ (transitive, to collect/gather something). Pattern: X⟦が→が：00051_ga⟧{集|あつ}まる (X gathers).\n\nASPECT: ている indicates resulting state. {集|あつ}まっている = 'are gathered' (state), not 'are in the process of gathering.'\n\nCOMMON PATTERNS:\n- ⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧{集|あつ}まる (people gather)\n- ⟦お{金|かね}→お金：00611_okane⟧⟦が→が：00051_ga⟧{集|あつ}まる (money is collected)\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦が→が：00051_ga⟧{集|あつ}まる (information is gathered)\n- ⟦{一か所|いっかしょ}→一箇所：26558_ikkasho⟧⟦に→に：00314_ni⟧{集|あつ}まる (gather in one place)\n\nWHEN NOT USED: Don't use for forcibly bringing things together—use ⟦{集|あつ}める→集める：01170_atsumeru⟧ instead. {集|あつ}まる implies voluntary or natural coming together.",
   "cross_references": [
     {
       "type": "pair",
@@ -176,11 +176,18 @@
       "reading": "あつめる",
       "headword": "{集|あつ}める",
       "label": "transitive pair"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21679_shuugousuru",
+      "reading": "しゅうごうする",
+      "headword": "{集合|しゅうごう}する",
+      "label": "to gather"
     }
   ],
   "metadata": {
     "created": "2026-01-08T10:10:35Z",
-    "modified": "2026-05-14T15:12:54Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

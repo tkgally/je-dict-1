@@ -17,7 +17,9 @@
       "id": "18689_kowake_ex1",
       "japanese": "{小分|こわ}けにする。",
       "english": "To divide into small portions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18689_kowake_ex2",
       "japanese": "お{菓子|かし}を{小分|こわ}けにして{配|くば}った。",
       "english": "I divided the sweets into small portions and handed them out.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,59 @@
       "id": "18689_kowake_ex3",
       "japanese": "{残|のこ}ったカレーを{小分|こわ}けにして{冷凍|れいとう}した。",
       "english": "I divided the leftover curry into small portions and froze them.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{小分|こわ}け means dividing something into smaller, manageable portions. Composed of {小|こ} (small) + {分|わ}け (dividing).\n\nCOMMON PATTERNS:\n- {小分|こわ}けにする: to divide into small portions\n- {小分|こわ}けにして{冷凍|れいとう}する: to portion out and freeze\n- {小分|こわ}けパック: individual portion pack\n- {小分|こわ}け{袋|ぶくろ}: small bag for portioning\n\nCOMMON CONTEXTS:\n- Cooking: dividing leftovers for freezing\n- Gift-giving: portioning out sweets or snacks\n- Organization: sorting items into smaller groups\n- Shopping: individually packaged products\n\nRELATED TERMS:\n- {分|わ}ける: to divide, to separate\n- {取|と}り{分|わ}ける: to divide up and distribute\n- {一人分|ひとりぶん}: one person's portion",
+  "notes": "{小分|こわ}け means dividing something into smaller, manageable portions. Composed of {小|こ} (small) + {分|わ}け (dividing).\n\nCOMMON PATTERNS:\n- {小分|こわ}けにする: to divide into small portions\n- {小分|こわ}けにして{冷凍|れいとう}する: to portion out and freeze\n- {小分|こわ}けパック: individual portion pack\n- {小分|こわ}け{袋|ぶくろ}: small bag for portioning\n\nUSAGE:\n- Cooking: dividing leftovers for freezing\n- Gift-giving: portioning out sweets or snacks\n- Organization: sorting items into smaller groups\n- Shopping: individually packaged products\n\nRELATED WORDS:\n- {分|わ}ける: to divide, to separate\n- {取|と}り{分|わ}ける: to divide up and distribute\n- {一人分|ひとりぶん}: one person's portion",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02333_wakeru",
+      "reading": "わける",
+      "headword": "{分|わ}ける",
+      "label": "to divide, to separate"
+    },
+    {
+      "type": "related",
+      "target_id": "22512_toriwakeru",
+      "reading": "とりわける",
+      "headword": "{取|と}り{分|わ}ける",
+      "label": "to divide up and distribute"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20252_kobukuro",
+      "reading": "こぶくろ",
+      "headword": "{小袋|こぶくろ}",
+      "label": "small bag"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26499_bunpou",
+      "reading": "ぶんぽう",
+      "headword": "{分包|ぶんぽう}",
+      "label": "individual packaging"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "daily-life"]
+      "semantic": [
+        "food",
+        "daily-life"
+      ]
     },
     "created": "2026-03-23T00:18:06Z",
-    "modified": "2026-03-25T06:54:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

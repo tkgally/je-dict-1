@@ -19,7 +19,9 @@
       "english": "Travel during the long holiday.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14847_oogatarenkyuu_ex2",
@@ -27,7 +29,9 @@
       "english": "Highways get congested during long holidays.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14847_oogatarenkyuu_ex3",
@@ -35,21 +39,42 @@
       "english": "This year's long holiday could be up to nine consecutive days off, so many people are planning overseas trips.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE NOTES:\n{大型連休|おおがたれんきゅう} most commonly refers to Golden Week (ゴールデンウィーク), the cluster of national holidays from late April to early May. NHK and other broadcasters use {大型連休|おおがたれんきゅう} instead of the trademarked term \"Golden Week.\"\n\nIt can also refer to:\n- {年末年始|ねんまつねんし} (New Year holiday period)\n- お{盆|ぼん}{休|やす}み (Obon vacation in mid-August)\n- シルバーウィーク (Silver Week in September, in years when it forms)\n\nCOMMON COLLOCATIONS:\n- {大型連休|おおがたれんきゅう}を{利用|りよう}する (take advantage of the long holiday)\n- {大型連休|おおがたれんきゅう}{中|ちゅう} (during the long holiday)\n- {大型連休|おおがたれんきゅう}{明|あ}け (after the long holiday ends)",
-  "cross_references": [],
+  "notes": "USAGE:\n{大型連休|おおがたれんきゅう} most commonly refers to Golden Week (ゴールデンウィーク), the cluster of national holidays from late April to early May. NHK and other broadcasters use {大型連休|おおがたれんきゅう} instead of the trademarked term \"Golden Week.\"\n\nIt can also refer to:\n- {年末年始|ねんまつねんし} (New Year holiday period)\n- お{盆|ぼん}{休|やす}み (Obon vacation in mid-August)\n- シルバーウィーク (Silver Week in September, in years when it forms)\n\nCOMMON COLLOCATIONS:\n- {大型連休|おおがたれんきゅう}を{利用|りよう}する (take advantage of the long holiday)\n- {大型連休|おおがたれんきゅう}{中|ちゅう} (during the long holiday)\n- {大型連休|おおがたれんきゅう}{明|あ}け (after the long holiday ends)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07720_jiidaburyuu",
+      "reading": "じーだぶりゅー",
+      "headword": "GW",
+      "label": "Golden Week"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29890_tobiishirenkyuu",
+      "reading": "とびいしれんきゅう",
+      "headword": "{飛|と}び{石|いし}{連休|れんきゅう}",
+      "label": "run of holidays broken up by workdays"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T04:32:17Z",
-    "modified": "2026-07-15T09:17:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-period"]
+      "semantic": [
+        "time-period"
+      ]
     }
   }
 }

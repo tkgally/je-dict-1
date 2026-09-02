@@ -17,7 +17,9 @@
       "id": "20000_korekutaa_ex1",
       "japanese": "{彼|かれ}は{切手|きって}のコレクターだ。",
       "english": "He is a stamp collector.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20000_korekutaa_ex2",
       "japanese": "コレクターの{間|あいだ}で{高値|たかね}で{取引|とりひき}されている。",
       "english": "It is traded at high prices among collectors.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,59 @@
       "id": "20000_korekutaa_ex3",
       "japanese": "{熱心|ねっしん}なコレクターは、{世界中|せかいじゅう}を{回|まわ}って{珍|めずら}しい{品|しな}を{探|さが}す。",
       "english": "Passionate collectors travel the world searching for rare items.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"collector.\" Refers specifically to a person who collects items as a hobby or passion, not to debt collectors or tax collectors (which use different Japanese terms).\n\nUSAGE:\nOften preceded by the type of item collected: {切手|きって}コレクター (stamp collector), {美術品|びじゅつひん}コレクター (art collector). The native Japanese equivalent {収集家|しゅうしゅうか} is more formal.\n\nCOMMON COLLOCATIONS:\n- {熱心|ねっしん}なコレクター — passionate collector\n- コレクターズアイテム — collector's item\n- コレクター{向|む}け — aimed at collectors\n- {美術品|びじゅつひん}コレクター — art collector\n\nSIMILAR WORDS:\n- {収集家|しゅうしゅうか} — collector (more formal, native Japanese)\n- マニア — enthusiast, buff (broader interest, not just collecting)\n- {愛好家|あいこうか} — enthusiast, lover of (focuses on appreciation)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16941_shuushuuka",
+      "reading": "しゅうしゅうか",
+      "headword": "{収集家|しゅうしゅうか}",
+      "label": "collector"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11150_mania",
+      "reading": "まにあ",
+      "headword": "マニア",
+      "label": "enthusiast, buff"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15008_aikouka",
+      "reading": "あいこうか",
+      "headword": "{愛好家|あいこうか}",
+      "label": "enthusiast, lover of"
+    },
+    {
+      "type": "related",
+      "target_id": "07327_korekushon",
+      "reading": "これくしょん",
+      "headword": "コレクション",
+      "label": "collection"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["hobby"],
+      "semantic": [
+        "hobby"
+      ],
       "loanword": true
     },
     "created": "2026-03-28T04:34:49Z",
-    "modified": "2026-03-28T04:34:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

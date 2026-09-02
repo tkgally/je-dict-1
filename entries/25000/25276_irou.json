@@ -3,7 +3,7 @@
   "headword": "{慰労|いろう}",
   "reading": "いろう",
   "romaji": "irou",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "appreciation for hard work; recognition of effort",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Composed of {慰|い} (comfort, console) + {労|ろう} (labor, toil). Expresses gratitude and comfort to those who have worked hard or endured hardship. Commonly used in workplace and organizational contexts.\n\nCOMMON COLLOCATIONS:\n- {慰労|いろう}{会|かい}: appreciation party; thank-you gathering\n- {慰労|いろう}{金|きん}: recognition bonus; gratuity for service\n- {慰労|いろう}の{言葉|ことば}: words of appreciation\n- {慰労|いろう}{旅行|りょこう}: appreciation trip (reward trip for employees)\n\nSIMILAR WORDS:\n- ねぎらう: to thank/appreciate someone's effort — a verb with similar meaning, used more in everyday speech\n- {慰安|いあん}: comfort, consolation — focuses more on providing relief and pleasure than recognizing effort\n- {労|ろう}をねぎらう: to appreciate someone's labor — a common expression with overlapping meaning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15729_negirau",
+      "reading": "ねぎらう",
+      "headword": "{労|ねぎら}う",
+      "label": "to thank/appreciate someone's effort"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27804_ian",
+      "reading": "いあん",
+      "headword": "{慰安|いあん}",
+      "label": "comfort, consolation"
+    },
+    {
+      "type": "related",
+      "target_id": "02133_nagusameru",
+      "reading": "なぐさめる",
+      "headword": "{慰|なぐさ}める",
+      "label": "to comfort, to console"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24089_imon",
+      "reading": "いもん",
+      "headword": "{慰問|いもん}",
+      "label": "consolation visit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +83,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "work",
         "society"
@@ -60,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T13:13:00Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

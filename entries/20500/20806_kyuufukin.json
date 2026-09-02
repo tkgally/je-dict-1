@@ -44,7 +44,36 @@
     }
   ],
   "notes": "A compound of {給付|きゅうふ} (provision/benefit) and {金|きん} (money). Became extremely common in everyday Japanese during and after the COVID-19 pandemic, when the government distributed {特別定額給付金|とくべつていがくきゅうふきん} (special cash payments) to residents.\n\nCOMMON COLLOCATIONS:\n- {給付金|きゅうふきん}を{申請|しんせい}する: to apply for a benefit payment\n- {給付金|きゅうふきん}を{受|う}け{取|と}る: to receive a benefit payment\n- {給付金|きゅうふきん}の{支給|しきゅう}: distribution of benefits\n- {給付金|きゅうふきん}{詐欺|さぎ}: benefit fraud\n\nSIMILAR WORDS:\n- {補助金|ほじょきん}: subsidy — typically for businesses or projects\n- {助成金|じょせいきん}: grant — for specific programs or research\n- {手当|てあて}: allowance — regular payments like child or housing allowance",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19222_hojokin",
+      "reading": "ほじょきん",
+      "headword": "{補助金|ほじょきん}",
+      "label": "subsidy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11343_joseikin",
+      "reading": "じょせいきん",
+      "headword": "{助成金|じょせいきん}",
+      "label": "grant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04881_teate",
+      "reading": "てあて",
+      "headword": "{手当|てあて}",
+      "label": "allowance"
+    },
+    {
+      "type": "related",
+      "target_id": "23617_hihokensha",
+      "reading": "ひほけんしゃ",
+      "headword": "{被保険者|ひほけんしゃ}",
+      "label": "the insured"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +89,6 @@
       "domain": []
     },
     "created": "2026-03-30T17:10:34Z",
-    "modified": "2026-03-30T17:10:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

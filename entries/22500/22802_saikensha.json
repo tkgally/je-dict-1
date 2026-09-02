@@ -17,7 +17,9 @@
       "id": "22802_saikensha_ex1",
       "japanese": "{債権者|さいけんしゃ}に{返済|へんさい}する。",
       "english": "To repay the creditor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22802_saikensha_ex2",
       "japanese": "{債権者|さいけんしゃ}{会議|かいぎ}が{開|ひら}かれた。",
       "english": "A creditors' meeting was held.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,13 +37,31 @@
       "id": "22802_saikensha_ex3",
       "japanese": "{破産|はさん}した{場合|ばあい}、{債権者|さいけんしゃ}への{支払|しはら}いは{裁判所|さいばんしょ}が{管理|かんり}する。",
       "english": "In the case of bankruptcy, payments to creditors are managed by the court.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A legal and financial term. Composed of {債権|さいけん} (claim, credit right) + {者|しゃ} (person). {債権|さいけん} itself combines {債|さい} (debt) and {権|けん} (right) — the right to collect a debt.\n\nCOMMON COLLOCATIONS:\n- {債権者|さいけんしゃ}{会議|かいぎ}: creditors' meeting\n- {債権者|さいけんしゃ}{保護|ほご}: creditor protection\n- {債権者|さいけんしゃ}{集会|しゅうかい}: creditors' assembly\n- {主要|しゅよう}{債権者|さいけんしゃ}: major creditor\n\nSIMILAR WORDS:\n- {債務者|さいむしゃ}: debtor — the opposite; the person who owes money\n- {貸主|かしぬし}: lender — less formal, more everyday\n- {債権|さいけん}: credit, claim — the right itself, not the person\n- {金融機関|きんゆうきかん}: financial institution — often the creditor in practice",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "22281_saimusha",
+      "reading": "さいむしゃ",
+      "headword": "{債務者|さいむしゃ}",
+      "label": "debtor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21158_kinyuukikan",
+      "reading": "きんゆうきかん",
+      "headword": "{金融機関|きんゆうきかん}",
+      "label": "financial institution"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -57,6 +79,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T16:47:36Z",
-    "modified": "2026-04-07T16:47:36Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

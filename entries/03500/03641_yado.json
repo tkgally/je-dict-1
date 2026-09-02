@@ -118,10 +118,26 @@
       ]
     }
   ],
-  "notes": "USAGE: {宿|やど} often refers to traditional Japanese-style inns, particularly in travel contexts. For modern hotels, ⟦ホテル→ホテル：01027_hoteru⟧ is more common.\n\nCOMMON PATTERNS:\n・{宿|やど}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to book lodging)\n・{宿|やど}⟦に→に：00314_ni⟧⟦{泊|と}まる→泊まる：10445_tomaru⟧ (to stay at an inn)\n・⟦{温泉|おんせん}→温泉：04117_onsen⟧{宿|やど} (hot spring inn)\n・{宿|やど}⟦{代|だい}→〜代：28331_dai⟧ (lodging fee)\n\nRELATED:\n・⟦{旅館|りょかん}→旅館：01049_ryokan⟧ (traditional Japanese inn — more specific)",
+  "notes": "USAGE: {宿|やど} often refers to traditional Japanese-style inns, particularly in travel contexts. For modern hotels, ⟦ホテル→ホテル：01027_hoteru⟧ is more common.\n\nCOMMON PATTERNS:\n- {宿|やど}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to book lodging)\n- {宿|やど}⟦に→に：00314_ni⟧⟦{泊|と}まる→泊まる：10445_tomaru⟧ (to stay at an inn)\n- ⟦{温泉|おんせん}→温泉：04117_onsen⟧{宿|やど} (hot spring inn)\n- {宿|やど}⟦{代|だい}→〜代：28331_dai⟧ (lodging fee)\n\nRELATED WORDS:\n- ⟦{旅館|りょかん}→旅館：01049_ryokan⟧ (traditional Japanese inn — more specific)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01049_ryokan",
+      "reading": "りょかん",
+      "headword": "{旅館|りょかん}",
+      "label": "traditional Japanese inn"
+    },
+    {
+      "type": "related",
+      "target_id": "16474_shukuhakushisetsu",
+      "reading": "しゅくはくしせつ",
+      "headword": "{宿泊施設|しゅくはくしせつ}",
+      "label": "lodging facilities"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T16:02:00Z",
-    "modified": "2026-08-31T12:42:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

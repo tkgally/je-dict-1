@@ -17,7 +17,9 @@
       "id": "29009_kikigotaegaaru_ex1",
       "japanese": "{彼|かれ}の{話|はなし}は{聞|き}き{応|ごた}えがある。",
       "english": "His stories are worth listening to.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29009_kikigotaegaaru_ex2",
       "japanese": "{聞|き}き{応|ごた}えのある{講演|こうえん}だった。",
       "english": "It was a lecture worth listening to.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "29009_kikigotaegaaru_ex3",
       "japanese": "ベテラン{歌手|かしゅ}の{歌唱力|かしょうりょく}はやはり{聞|き}き{応|ごた}えがある。",
       "english": "As expected, the vocal skill of a veteran singer is engaging to hear.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {聞|き}く (to listen) + {応|ごた}え (response, effect) + がある (there is). The 〜{応|ごた}えがある pattern is productive: {食|た}べ{応|ごた}えがある (filling), {読|よ}み{応|ごた}えがある (worth reading), {見|み}{応|ごた}えがある (worth watching).\n\nCOMMON COLLOCATIONS:\n- {聞|き}き{応|ごた}えのある{話|はなし}: a story worth hearing\n- {聞|き}き{応|ごた}えのある{演奏|えんそう}: a performance worth listening to\n- {実|じつ}に{聞|き}き{応|ごた}えがある: truly worth listening to\n\nSIMILAR WORDS:\n- {興味深|きょうみぶか}い: interesting — intellectual interest, doesn't imply substance\n- {面白|おもしろ}い: interesting, fun — broader and more casual\n- {見|み}{応|ごた}えがある: worth watching — the visual counterpart",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20118_kyoumibukai",
+      "reading": "きょうみぶかい",
+      "headword": "{興味深|きょうみぶか}い",
+      "label": "interesting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00589_omoshiroi",
+      "reading": "おもしろい",
+      "headword": "{面白|おもしろ}い",
+      "label": "interesting, fun"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["communication", "evaluation"],
+      "politeness": "plain",
+      "semantic": [
+        "communication",
+        "evaluation"
+      ],
       "domain": []
     },
     "created": "2026-06-08T08:26:19Z",
-    "modified": "2026-06-08T08:26:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

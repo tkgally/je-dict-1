@@ -55,7 +55,22 @@
     }
   ],
   "notes": "Compound of {増幅|ぞうふく} ('amplification') and {器|き} ('device, instrument'). Literally 'amplifying device.'\n\nUSAGE:\n- The standard technical term in electronics and physics for an amplifying device or circuit.\n- In everyday audio/hi-fi contexts, the katakana loanword アンプ (from 'amplifier') is much more common; {増幅器|ぞうふくき} appears mainly in textbooks, spec sheets, and technical writing.\n- Often modified by type: {音声|おんせい}{増幅器|ぞうふくき} ('audio amplifier'), {電力|でんりょく}{増幅器|ぞうふくき} ('power amplifier'), {高周波|こうしゅうは}{増幅器|ぞうふくき} ('radio-frequency amplifier').\n\nCOMMON COLLOCATIONS:\n- {信号|しんごう}を{増幅器|ぞうふくき}で{増幅|ぞうふく}する: to amplify a signal with an amplifier\n- {増幅器|ぞうふくき}を{内蔵|ないぞう}する: to have a built-in amplifier\n- {高|こう}{利得|りとく}の{増幅器|ぞうふくき}: a high-gain amplifier\n- {音声|おんせい}{増幅器|ぞうふくき}: audio amplifier\n\nSIMILAR WORDS:\n- アンプ: amp, amplifier — the everyday katakana term, especially for audio.\n- {増幅|ぞうふく}: amplification (as a noun / suru-verb) — the action or process rather than the device.\n- {拡声器|かくせいき}: loudspeaker, megaphone — a related but distinct device; contains an amplifier but also speakers.\n- {受信機|じゅしんき}: receiver — often contains amplifier circuits but is a complete device for receiving signals.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19994_kakuseiki",
+      "reading": "かくせいき",
+      "headword": "{拡声器|かくせいき}",
+      "label": "loudspeaker, megaphone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23942_jushinki",
+      "reading": "じゅしんき",
+      "headword": "{受信機|じゅしんき}",
+      "label": "receiver"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,6 +86,6 @@
       ]
     },
     "created": "2026-04-15T10:11:37Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

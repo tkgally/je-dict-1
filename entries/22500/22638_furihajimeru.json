@@ -3,7 +3,7 @@
   "headword": "{降|ふ}り{始|はじ}める",
   "reading": "ふりはじめる",
   "romaji": "furihajimeru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to begin to fall (rain, snow); to start raining/snowing",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A compound verb formed from {降|ふ}る (to fall — rain, snow) and {始|はじ}める (to begin). Describes the onset of precipitation. This is a natural and very common compound using the V-stem + {始|はじ}める pattern that means \"to start doing.\"\n\nUSAGE:\nThe subject is always a form of precipitation ({雨|あめ}, {雪|ゆき}, {雹|ひょう}, etc.), marked by が.\n\nCOMMON COLLOCATIONS:\n- {雨|あめ}が{降|ふ}り{始|はじ}める: to start raining\n- {雪|ゆき}が{降|ふ}り{始|はじ}める: to start snowing\n- {急|きゅう}に{降|ふ}り{始|はじ}める: to suddenly start falling\n- ポツポツ{降|ふ}り{始|はじ}める: to start falling in scattered drops\n\nSIMILAR WORDS:\n- {降|ふ}り{出|だ}す: to start falling (rain/snow) — very similar, slightly more sudden/colloquial\n- {降|ふ}る: to fall (rain/snow) — the base verb, without the inceptive meaning\n- {降|ふ}り{止|や}む: to stop falling — the opposite, precipitation ending",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03004_furidasu",
+      "reading": "ふりだす",
+      "headword": "{降|ふ}り{出|だ}す",
+      "label": "to start falling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00839_furu",
+      "reading": "ふる",
+      "headword": "{降|ふ}る",
+      "label": "to fall"
+    },
+    {
+      "type": "antonym",
+      "target_id": "27987_furiyamu",
+      "reading": "ふりやむ",
+      "headword": "{降|ふ}り{止|や}む",
+      "label": "to stop falling"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +83,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-04-06T20:29:45Z",
-    "modified": "2026-04-06T20:29:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

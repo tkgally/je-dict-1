@@ -16,7 +16,9 @@
       "id": "18335_kyoukotsu_ex1",
       "japanese": "{胸骨|きょうこつ}を{骨折|こっせつ}した。",
       "english": "I fractured my sternum.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "18335_kyoukotsu_ex2",
       "japanese": "{心臓|しんぞう}マッサージは{胸骨|きょうこつ}の{上|うえ}を{押|お}す。",
       "english": "For chest compressions, you press on the sternum.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,23 +36,54 @@
       "id": "18335_kyoukotsu_ex3",
       "japanese": "レントゲンで{胸骨|きょうこつ}に{異常|いじょう}がないか{確認|かくにん}した。",
       "english": "They checked the X-ray to see if there were any abnormalities in the sternum.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{胸骨|きょうこつ} is the flat bone at the center of the chest. Most commonly encountered in medical and first-aid contexts.\n\nCOMPOSITION:\n{胸|きょう} (chest) + {骨|こつ} (bone).\n\nCOMMON COLLOCATIONS:\n- {胸骨|きょうこつ}{圧迫|あっぱく}: chest compressions (in CPR)\n- {胸骨|きょうこつ}{骨折|こっせつ}: sternum fracture\n- {胸骨|きょうこつ}の{上|うえ}を{押|お}す: to press on the sternum\n\nRELATED ANATOMICAL TERMS:\n- {肋骨|ろっこつ}: ribs\n- {鎖骨|さこつ}: collarbone\n- {背骨|せぼね}: spine\n\nFIRST AID:\nIn CPR ({心肺蘇生法|しんぱいそせいほう}), the {胸骨|きょうこつ} is the reference point for hand placement during chest compressions.",
+  "notes": "{胸骨|きょうこつ} is the flat bone at the center of the chest. Most commonly encountered in medical and first-aid contexts.\n\nETYMOLOGY:\n{胸|きょう} (chest) + {骨|こつ} (bone).\n\nCOMMON COLLOCATIONS:\n- {胸骨|きょうこつ}{圧迫|あっぱく}: chest compressions (in CPR)\n- {胸骨|きょうこつ}{骨折|こっせつ}: sternum fracture\n- {胸骨|きょうこつ}の{上|うえ}を{押|お}す: to press on the sternum\n\nRELATED ANATOMICAL TERMS:\n- {肋骨|ろっこつ}: ribs\n- {鎖骨|さこつ}: collarbone\n- {背骨|せぼね}: spine\n\nFIRST AID:\nIn CPR ({心肺蘇生法|しんぱいそせいほう}), the {胸骨|きょうこつ} is the reference point for hand placement during chest compressions.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05962_rokkotsu",
+      "reading": "ろっこつ",
+      "headword": "{肋骨|ろっこつ}",
+      "label": "ribs"
+    },
+    {
+      "type": "related",
+      "target_id": "05859_sakotsu",
+      "reading": "さこつ",
+      "headword": "{鎖骨|さこつ}",
+      "label": "collarbone"
+    },
+    {
+      "type": "related",
+      "target_id": "17397_sebone",
+      "reading": "せぼね",
+      "headword": "{背骨|せぼね}",
+      "label": "spine"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-internal"],
-      "domain": ["medical"]
+      "semantic": [
+        "body-internal"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-03-21T09:53:50Z",
-    "modified": "2026-03-25T09:40:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "26495_kokkakanri_ex1",
       "japanese": "その{産業|さんぎょう}は{国家管理|こっかかんり}のもとにある。",
       "english": "That industry is under state control.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26495_kokkakanri_ex2",
       "japanese": "{戦時中|せんじちゅう}は{多|おお}くの{企業|きぎょう}が{国家管理|こっかかんり}に{置|お}かれた。",
       "english": "During the war, many companies were placed under state control.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,54 @@
       "id": "26495_kokkakanri_ex3",
       "japanese": "{天然資源|てんねんしげん}の{国家管理|こっかかんり}を{強化|きょうか}すべきだという{意見|いけん}が{出|で}ている。",
       "english": "There are calls to strengthen state control over natural resources.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {国家|こっか} (nation, state) and {管理|かんり} (management, control). This compound implies that the government directly oversees or operates something that might otherwise be private. Historically significant in Japan's wartime economy and in postwar debates about nationalization versus privatization.\n\nCOMMON COLLOCATIONS:\n- {国家管理|こっかかんり}のもとに{置|お}く: to place under state control\n- {国家管理|こっかかんり}を{強化|きょうか}する: to strengthen state control\n- {国家管理|こっかかんり}{体制|たいせい}: state control system\n\nSIMILAR WORDS:\n- {国有化|こくゆうか}: nationalization — specifically the act of transferring private assets to government ownership\n- {民営化|みんえいか}: privatization — the opposite process, transferring state-run operations to the private sector\n- {規制|きせい}: regulation — broader term for government rules, without implying direct management",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17588_kokuyuuka",
+      "reading": "こくゆうか",
+      "headword": "{国有化|こくゆうか}",
+      "label": "nationalization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17587_mineika",
+      "reading": "みんえいか",
+      "headword": "{民営化|みんえいか}",
+      "label": "privatization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02598_kisei",
+      "reading": "きせい",
+      "headword": "{規制|きせい}",
+      "label": "regulation"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     },
     "created": "2026-05-02T12:23:47Z",
-    "modified": "2026-05-02T12:23:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

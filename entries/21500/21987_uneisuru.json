@@ -3,7 +3,7 @@
   "headword": "{運営|うんえい}する",
   "reading": "うんえいする",
   "romaji": "uneisuru",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to operate; to run; to manage",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,29 @@
   ],
   "notes": "Refers to the ongoing management and operation of organizations, businesses, events, or systems. Emphasizes keeping things running smoothly rather than establishing or founding them.\n\nCOMMON COLLOCATIONS:\n- {会社|かいしゃ}を{運営|うんえい}する: to run a company\n- サイトを{運営|うんえい}する: to operate a website\n- イベントを{運営|うんえい}する: to manage an event\n- {運営|うんえい}{費|ひ}: operating costs\n- {運営|うんえい}{委員会|いいんかい}: management committee\n- {運営|うんえい}{方針|ほうしん}: management policy\n\nSIMILAR WORDS:\n- {経営|けいえい}する: to manage (a business) — focuses on business strategy and profit\n- {管理|かんり}する: to manage, administer — focuses on control and maintenance\n- {運用|うんよう}する: to operate, utilize — often used for funds, systems, or rules",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02740_keiei",
+      "reading": "けいえい",
+      "headword": "{経営|けいえい}",
+      "label": "to manage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21910_kanrisuru",
+      "reading": "かんりする",
+      "headword": "{管理|かんり}する",
+      "label": "to manage, administer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06811_unyou",
+      "reading": "うんよう",
+      "headword": "{運用|うんよう}",
+      "label": "to operate, utilize"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +175,6 @@
       "verb_class": "suru"
     },
     "created": "2026-04-04T19:28:03Z",
-    "modified": "2026-04-04T19:28:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

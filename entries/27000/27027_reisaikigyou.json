@@ -17,7 +17,9 @@
       "id": "27027_reisaikigyou_ex1",
       "japanese": "{零細企業|れいさいきぎょう}を{経営|けいえい}している。",
       "english": "I run a micro enterprise.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27027_reisaikigyou_ex2",
       "japanese": "{零細企業|れいさいきぎょう}は{資金繰|しきんぐ}りに{苦|くる}しむことが{多|おお}い。",
       "english": "Micro enterprises often struggle with cash flow.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,54 @@
       "id": "27027_reisaikigyou_ex3",
       "japanese": "{政府|せいふ}は{中小|ちゅうしょう}・{零細企業|れいさいきぎょう}を{支援|しえん}するための{補助金|ほじょきん}を{用意|ようい}した。",
       "english": "The government prepared subsidies to support small and micro enterprises.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The term {零細|れいさい} means 'tiny, minute' and emphasizes the extremely small scale. In Japanese business classifications, {零細企業|れいさいきぎょう} is smaller than {中小企業|ちゅうしょうきぎょう} (small and medium enterprises). Many are family businesses like local shops, restaurants, and workshops. Japan's economy has a very large number of these businesses.\n\nCOMMON COLLOCATIONS:\n- {零細企業|れいさいきぎょう}の{経営者|けいえいしゃ}: owner of a micro enterprise\n- {零細|れいさい}{農家|のうか}: small-scale farmer\n- {中小|ちゅうしょう}{零細企業|れいさいきぎょう}: small, medium, and micro enterprises\n- {零細企業|れいさいきぎょう}{向|む}け{融資|ゆうし}: loans for micro enterprises\n\nSIMILAR WORDS:\n- {中小企業|ちゅうしょうきぎょう}: small and medium enterprises (SMEs) — larger category; the standard term in business and government policy\n- {個人事業主|こじんじぎょうぬし}: sole proprietor — a legal term for a person running a business individually\n- ベンチャー{企業|きぎょう}: startup; venture company — implies innovation and growth ambition, unlike {零細|れいさい} which implies small scale",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24117_chuushoukigyou",
+      "reading": "ちゅうしょうきぎょう",
+      "headword": "{中小企業|ちゅうしょうきぎょう}",
+      "label": "small and medium enterprises"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26304_kojinjigyounushi",
+      "reading": "こじんじぎょうぬし",
+      "headword": "{個人事業主|こじんじぎょうぬし}",
+      "label": "sole proprietor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09953_chuushou",
+      "reading": "ちゅうしょう",
+      "headword": "{中小|ちゅうしょう}",
+      "label": "small and medium-sized"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-05-06T14:21:58Z",
-    "modified": "2026-05-06T14:21:58Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

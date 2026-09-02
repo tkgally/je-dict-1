@@ -3,7 +3,7 @@
   "headword": "{楽観|らっかん}する",
   "reading": "らっかんする",
   "romaji": "rakkansuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to be optimistic",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Interestingly, {楽観|らっかん}する more often appears in negative or cautionary contexts ({楽観|らっかん}できない, {楽観|らっかん}してはいけない) than in purely positive ones. The related adjective {楽観的|らっかんてき}（な） is more common for simply describing an optimistic outlook.\n\nCOMMON COLLOCATIONS:\n- {楽観的|らっかんてき}な{見方|みかた}: optimistic view\n- {楽観視|らっかんし}する: to view optimistically (often in warnings)\n- {楽観|らっかん}できる{状況|じょうきょう}: a situation one can be optimistic about\n- {楽観論|らっかんろん}: optimistic argument/theory\n\nSIMILAR WORDS:\n- {悲観|ひかん}する: to be pessimistic — the antonym\n- {楽観的|らっかんてき}（な）: optimistic (adjective) — more common than the verb form for describing personality or outlook\n- {前向|まえむ}きな: positive; forward-looking — a more casual, encouraging way to describe optimism",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "22397_hikan",
+      "reading": "ひかん",
+      "headword": "{悲観|ひかん}",
+      "label": "to be pessimistic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06090_rakkanteki",
+      "reading": "らっかんてき",
+      "headword": "{楽観的|らっかんてき}",
+      "label": "optimistic (adjective) — more common…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10073_maemuki",
+      "reading": "まえむき",
+      "headword": "{前向|まえむ}き",
+      "label": "positive"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T13:16:41Z",
-    "modified": "2026-05-06T13:16:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

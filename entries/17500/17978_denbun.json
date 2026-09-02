@@ -3,7 +3,7 @@
   "id": "17978_denbun",
   "headword": "{伝聞|でんぶん}",
   "reading": "でんぶん",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "hearsay; rumor; secondhand information",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,39 @@
     }
   ],
   "notes": "USAGE:\nA formal word used in news, legal, and academic contexts. In grammar studies, {伝聞|でんぶん} also refers to the hearsay evidential form (〜そうだ, 〜とのことだ) — a way of marking that information comes from a secondary source.\n\nCOMMON COLLOCATIONS:\n- {伝聞|でんぶん}によると (according to what one has heard)\n- {伝聞|でんぶん}{情報|じょうほう} (hearsay information)\n- {伝聞|でんぶん}{証拠|しょうこ} (hearsay evidence)\n- {伝聞|でんぶん}にすぎない (nothing more than hearsay)\n\nSIMILAR WORDS:\n- うわさ: rumor — more colloquial and informal\n- {風聞|ふうぶん}: rumor — literary synonym, less common\n- {又聞|またぎ}き: secondhand information — specifically means hearing something through an intermediary",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01871_uwasa",
+      "reading": "うわさ",
+      "headword": "{噂|うわさ}",
+      "label": "rumor"
+    },
+    {
+      "type": "related",
+      "target_id": "09802_wahou",
+      "reading": "わほう",
+      "headword": "{話法|わほう}",
+      "label": "narration style"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21570_kuchizutae",
+      "reading": "くちづたえ",
+      "headword": "{口伝|くちづた}え",
+      "label": "word of mouth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27182_kuchizute",
+      "reading": "くちづて",
+      "headword": "{口伝|くちづて}",
+      "label": "word of mouth"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T10:08:58Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

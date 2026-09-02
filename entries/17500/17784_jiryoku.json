@@ -19,7 +19,9 @@
       "english": "This magnet has strong magnetic force.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17784_jiryoku_ex2",
@@ -27,7 +29,9 @@
       "english": "It attracts metal with magnetic force.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17784_jiryoku_ex3",
@@ -35,22 +39,59 @@
       "english": "Over time, the magnetic force can weaken.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {磁|じ} (magnet, magnetic) + {力|りょく} (force, power). Used in science, technology, and everyday descriptions of magnets. Occasionally used figuratively to describe an irresistible pull or attraction.\n\nCOMMON COLLOCATIONS:\n- {磁力|じりょく}が{強|つよ}い (strong magnetic force)\n- {磁力|じりょく}が{弱|よわ}い (weak magnetic force)\n- {磁力線|じりょくせん} (magnetic lines of force)\n\nSIMILAR WORDS:\n- {磁気|じき}: magnetism — the broader phenomenon or property\n- {引力|いんりょく}: gravitational pull, attraction — a different kind of force",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03334_jiki",
+      "reading": "じき",
+      "headword": "{磁気|じき}",
+      "label": "magnetism"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25274_inryoku",
+      "reading": "いんりょく",
+      "headword": "{引力|いんりょく}",
+      "label": "gravitational pull, attraction"
+    },
+    {
+      "type": "related",
+      "target_id": "04211_jishaku",
+      "reading": "じしゃく",
+      "headword": "{磁石|じしゃく}",
+      "label": "magnet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25187_eikyuujishaku",
+      "reading": "えいきゅうじしゃく",
+      "headword": "{永久磁石|えいきゅうじしゃく}",
+      "label": "permanent magnet"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T03:56:33Z",
-    "modified": "2026-03-19T03:56:33Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

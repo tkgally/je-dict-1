@@ -3,7 +3,7 @@
   "headword": "{裁定|さいてい}",
   "reading": "さいてい",
   "romaji": "saitei",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "ruling; arbitration; decision",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,22 @@
   ],
   "notes": "Composed of {裁|さい} (to judge, decide) + {定|てい} (to determine, fix). A formal term for an authoritative decision that settles a matter. Commonly heard in sports (umpire decisions), labor disputes, and administrative proceedings.\n\nCOMMON COLLOCATIONS:\n- {裁定|さいてい}を{下|くだ}す — to hand down a ruling\n- {裁定|さいてい}に{従|したが}う — to follow a ruling\n- {裁定|さいてい}を{求|もと}める — to seek a ruling\n- {裁定|さいてい}{取引|とりひき} — arbitrage (finance)\n\nSIMILAR WORDS:\n- {判定|はんてい} — judgment, decision; used more for individual judgments, especially in sports\n- {判決|はんけつ} — verdict, court ruling; specifically a court's formal decision\n- {裁決|さいけつ} — adjudication; more formal, used in administrative law",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09767_hantei",
+      "reading": "はんてい",
+      "headword": "{判定|はんてい}",
+      "label": "judgment, decision"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05906_hanketsu",
+      "reading": "はんけつ",
+      "headword": "{判決|はんけつ}",
+      "label": "verdict, court ruling"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +168,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-26T14:34:26Z",
-    "modified": "2026-03-26T14:34:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "This company pays a fixed salary.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18879_koteikyuu_ex2",
@@ -27,7 +29,9 @@
       "english": "It's tough to get by on the base salary alone.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18879_koteikyuu_ex3",
@@ -35,7 +39,9 @@
       "english": "In addition to the fixed salary, bonuses are paid based on performance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCommon in discussions about compensation structures, job listings, and employment conditions.\n\nCOMMON COLLOCATIONS:\n- {固定|こてい}{給|きゅう}+{歩合|ぶあい}{制|せい} (fixed salary plus commission)\n- {固定|こてい}{給|きゅう}が{高|たか}い／{低|ひく}い (fixed salary is high/low)\n- {固定|こてい}{給|きゅう}{制|せい} (fixed salary system)\n\nSIMILAR WORDS:\n- {基本給|きほんきゅう}: base pay — the core pay before allowances; may still vary\n- {歩合給|ぶあいきゅう}: commission-based pay — varies with performance or sales\n- {年俸|ねんぽう}: annual salary — total pay calculated per year",
@@ -46,19 +52,53 @@
       "reading": "ぶあいせい",
       "headword": "{歩合制|ぶあいせい}",
       "label": "commission-based pay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21335_kihonkyuu",
+      "reading": "きほんきゅう",
+      "headword": "{基本給|きほんきゅう}",
+      "label": "base pay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22050_buaikyuu",
+      "reading": "ぶあいきゅう",
+      "headword": "{歩合給|ぶあいきゅう}",
+      "label": "commission-based pay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19672_nenpou",
+      "reading": "ねんぽう",
+      "headword": "{年俸|ねんぽう}",
+      "label": "annual salary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24960_doryokukyuu",
+      "reading": "どりょくきゅう",
+      "headword": "{努力給|どりょくきゅう}",
+      "label": "effort-based pay"
     }
   ],
   "metadata": {
     "created": "2026-03-23T06:20:28Z",
-    "modified": "2026-04-20T04:12:15Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

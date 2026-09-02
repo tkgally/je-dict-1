@@ -3,7 +3,7 @@
   "headword": "{無防備|むぼうび}な",
   "reading": "むぼうびな",
   "romaji": "muboubina",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "defenseless; unguarded",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "26784_muboubina_ex1",
       "japanese": "{無防備|むぼうび}な{姿|すがた}を{見|み}せた。",
       "english": "She showed a defenseless side of herself.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26784_muboubina_ex2",
       "japanese": "{鍵|かぎ}をかけないのは{無防備|むぼうび}すぎる。",
       "english": "Not locking the door is too careless.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,45 @@
       "id": "26784_muboubina_ex3",
       "japanese": "{彼|かれ}は{無防備|むぼうび}な{笑顔|えがお}で{周|まわ}りの{人|ひと}を{安心|あんしん}させる。",
       "english": "He puts people at ease with his unguarded smile.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {無|む} (without) + {防備|ぼうび} (defense/protection). Used both literally (lacking military or physical defenses) and figuratively (emotionally open, naive, carelessly exposed).\n\nCOMMON COLLOCATIONS:\n- {無防備|むぼうび}な{姿|すがた}: unguarded appearance\n- {無防備|むぼうび}な{笑顔|えがお}: unguarded smile\n- {無防備|むぼうび}な{状態|じょうたい}: defenseless state\n- {無防備|むぼうび}{都市|とし}: undefended city (international law term)\n\nUSAGE:\nIn everyday Japanese, often used positively to describe someone who is naturally open and unguarded in a charming way, especially in descriptions of attractive people. In security or military contexts, it has a purely negative connotation.\n\nSIMILAR WORDS:\n- {無力|むりょく}な: powerless — emphasizes lack of ability rather than lack of protection\n- {脆弱|ぜいじゃく}な: fragile; vulnerable — more formal; often used for systems or structures\n- {隙|すき}だらけ: full of openings — colloquial; implies carelessness",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13419_muryoku",
+      "reading": "むりょく",
+      "headword": "{無力|むりょく}",
+      "label": "powerless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07523_zeijaku",
+      "reading": "ぜいじゃく",
+      "headword": "{脆弱|ぜいじゃく}",
+      "label": "fragile"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-05T11:06:09Z",
-    "modified": "2026-05-05T11:06:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

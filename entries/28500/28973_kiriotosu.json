@@ -3,7 +3,7 @@
   "headword": "{切|き}り{落|お}とす",
   "reading": "きりおとす",
   "romaji": "kiriotosu",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to cut off; to lop off; to chop off",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Compound of {切|き}る (to cut) + {落|お}とす (to drop, let fall). The {落|お}とす element emphasizes that what is cut falls away — distinguishing it from a simple cut where the piece remains attached.\n\nTRANSITIVITY:\nTransitive. The thing cut off takes を; the body it is cut from takes から or appears as the modifier.\n- {木|き}から{枝|えだ}を{切|き}り{落|お}とす: to lop a branch off the tree\n- {髪|かみ}を{切|き}り{落|お}とす: to chop one's hair off\n\nCOMMON COLLOCATIONS:\n- {枝|えだ}を{切|き}り{落|お}とす: to lop off a branch\n- {首|くび}を{切|き}り{落|お}とす: to behead\n- {余分|よぶん}を{切|き}り{落|お}とす: to trim away the excess\n- バッサリと{切|き}り{落|お}とす: to chop off in one decisive cut\n\nSIMILAR WORDS:\n- {切|き}る: to cut — basic, does not specify whether the piece separates\n- {切|き}り{取|と}る: to cut out — emphasizes removing a piece for later use\n- {切|き}り{離|はな}す: to detach by cutting — emphasizes the separation itself, not the falling",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02693_kiru",
+      "reading": "きる",
+      "headword": "{切|き}る",
+      "label": "to cut"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04238_kiritoru",
+      "reading": "きりとる",
+      "headword": "{切|き}り{取|と}る",
+      "label": "to cut out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05763_kirihanasu",
+      "reading": "きりはなす",
+      "headword": "{切|き}り{離|はな}す",
+      "label": "to detach by cutting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +77,7 @@
       ],
       "transitivity": "transitive",
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
@@ -62,7 +85,7 @@
       "verb_class": "godan-su"
     },
     "created": "2026-06-08T04:06:16Z",
-    "modified": "2026-06-08T04:06:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

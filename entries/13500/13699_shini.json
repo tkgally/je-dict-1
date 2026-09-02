@@ -19,7 +19,9 @@
       "english": "I can't understand his true intention.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13699_shini_ex2",
@@ -27,7 +29,9 @@
       "english": "I tried to probe the real meaning behind that remark.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13699_shini_ex3",
@@ -35,21 +39,49 @@
       "english": "My true intention didn't come across, and it led to a misunderstanding.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed when referring to the genuine intention or underlying meaning that may not be immediately apparent. Often appears in contexts involving communication difficulties, political statements, or interpersonal misunderstandings.\n\nCOMMON COLLOCATIONS:\n- {真意|しんい}を{探|さぐ}る: to probe someone's true intention\n- {真意|しんい}を{問|と}う: to question the real meaning\n- {真意|しんい}が{伝|つた}わる: for one's true intention to be conveyed\n- {真意|しんい}を{測|はか}りかねる: to be unable to gauge the true intention",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12864_honshin",
+      "reading": "ほんしん",
+      "headword": "{本心|ほんしん}",
+      "label": "true feelings, real intentions"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17513_naii",
+      "reading": "ないい",
+      "headword": "{内意|ないい}",
+      "label": "real intention"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22651_honi",
+      "reading": "ほんい",
+      "headword": "{本意|ほんい}",
+      "label": "real intention"
+    }
+  ],
   "metadata": {
     "created": "2026-02-26T13:29:58Z",
-    "modified": "2026-02-26T13:29:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     }
   }
 }

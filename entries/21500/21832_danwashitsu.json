@@ -17,7 +17,9 @@
       "id": "21832_danwashitsu_ex1",
       "japanese": "{談話室|だんわしつ}でコーヒーを{飲|の}む。",
       "english": "To drink coffee in the lounge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21832_danwashitsu_ex2",
       "japanese": "{病院|びょういん}の{談話室|だんわしつ}で{家族|かぞく}と{話|はな}した。",
       "english": "I talked with my family in the hospital lounge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "21832_danwashitsu_ex3",
       "japanese": "{寮|りょう}の{談話室|だんわしつ}にはテレビやソファが{置|お}かれていて、{学生|がくせい}たちの{憩|いこ}いの{場|ば}になっている。",
       "english": "The dormitory lounge has a TV and sofas, and serves as a place of relaxation for students.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {談話|だんわ} (conversation, discussion) and {室|しつ} (room). Found in buildings where people stay for extended periods — hospitals, hotels, dormitories, retirement homes, and conference facilities.\n\nCOMMON COLLOCATIONS:\n- {病院|びょういん}の{談話室|だんわしつ}: hospital lounge\n- {寮|りょう}の{談話室|だんわしつ}: dormitory common room\n- ホテルの{談話室|だんわしつ}: hotel lounge\n- {談話室|だんわしつ}で{休|やす}む: to rest in the lounge\n\nSIMILAR WORDS:\n- ラウンジ: lounge — loanword, used for upscale or commercial settings (airport lounges, hotel lounges)\n- {休憩室|きゅうけいしつ}: break room, rest room — a room for resting, often in workplaces\n- {待合室|まちあいしつ}: waiting room — specifically for waiting, not socializing\n- {応接室|おうせつしつ}: reception room — a more formal room for receiving guests",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29687_raunji",
+      "reading": "らうんじ",
+      "headword": "ラウンジ",
+      "label": "lounge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23410_kyuukeishitsu",
+      "reading": "きゅうけいしつ",
+      "headword": "{休憩室|きゅうけいしつ}",
+      "label": "break room, rest room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07373_machiaishitsu",
+      "reading": "まちあいしつ",
+      "headword": "{待合室|まちあいしつ}",
+      "label": "waiting room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20242_ousetsushitsu",
+      "reading": "おうせつしつ",
+      "headword": "{応接室|おうせつしつ}",
+      "label": "reception room"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     },
     "created": "2026-04-03T18:30:47Z",
-    "modified": "2026-04-03T18:30:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

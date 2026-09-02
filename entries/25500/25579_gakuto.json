@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "A formal and somewhat literary word for students or scholars. Most strongly associated with the historical term {学徒|がくと}{動員|どういん} (student mobilization), which refers to the conscription of university students into military service during World War II.\n\nCOMMON COLLOCATIONS:\n- {学徒|がくと}{動員|どういん}: student mobilization (WWII term)\n- {学徒|がくと}{出陣|しゅつじん}: students going off to war\n- {法学|ほうがく}の{学徒|がくと}: student of law\n\nHISTORICAL NOTE:\n{学徒|がくと}{動員|どういん} (1943-1945) was a wartime policy that drafted university and higher school students into factories and eventually into combat. It remains a significant topic in Japanese war history and is frequently referenced in historical discussions and memorials.\n\nSIMILAR WORDS:\n- {学生|がくせい}: student — the standard modern word for a student\n- {生徒|せいと}: pupil, student — used mainly for secondary school students\n- {学者|がくしゃ}: scholar — an established academic or researcher",
-  "cross_references": [],
+  "notes": "A formal and somewhat literary word for students or scholars. Most strongly associated with the historical term {学徒|がくと}{動員|どういん} (student mobilization), which refers to the conscription of university students into military service during World War II.\n\nCOMMON COLLOCATIONS:\n- {学徒|がくと}{動員|どういん}: student mobilization (WWII term)\n- {学徒|がくと}{出陣|しゅつじん}: students going off to war\n- {法学|ほうがく}の{学徒|がくと}: student of law\n\nETYMOLOGY:\n{学徒|がくと}{動員|どういん} (1943-1945) was a wartime policy that drafted university and higher school students into factories and eventually into combat. It remains a significant topic in Japanese war history and is frequently referenced in historical discussions and memorials.\n\nSIMILAR WORDS:\n- {学生|がくせい}: student — the standard modern word for a student\n- {生徒|せいと}: pupil, student — used mainly for secondary school students\n- {学者|がくしゃ}: scholar — an established academic or researcher",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00610_gakusei",
+      "reading": "がくせい",
+      "headword": "{学生|がくせい}",
+      "label": "student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01051_seito",
+      "reading": "せいと",
+      "headword": "{生徒|せいと}",
+      "label": "pupil, student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02544_gakusha",
+      "reading": "がくしゃ",
+      "headword": "{学者|がくしゃ}",
+      "label": "scholar"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +75,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "education",
         "history"
       ]
     },
     "created": "2026-04-26T11:24:10Z",
-    "modified": "2026-06-15T07:59:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -203,18 +203,60 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{焼|や}ける→焼ける：01138_yakeru⟧ (intransitive, to burn/be grilled). Pattern: X⟦を→を：00422_wo⟧{焼|や}く (bake/grill/burn X).\n\nASPECT: ている indicates ongoing action. {焼|や}いている = 'is grilling/baking.'\n\nCOMMON PATTERNS:\n・⟦パン→パン：00553_pan⟧⟦を→を：00422_wo⟧{焼|や}く (bake bread)\n・⟦{肉|にく}→肉：02240_niku⟧⟦を→を：00422_wo⟧{焼|や}く (grill meat)\n・⟦{魚|さかな}→魚：00499_sakana⟧⟦を→を：00422_wo⟧{焼|や}く (grill fish)\n・CD⟦を→を：00422_wo⟧{焼|や}く (burn a CD)\n・⟦{日焼|ひや}け→日焼け：15469_hiyake⟧⟦する→する：00392_suru⟧ (get sunburned—related)\n\nCONTRAST:\n・{焼|や}く (transitive): bake/burn X\n・⟦{焼|や}ける→焼ける：01138_yakeru⟧ (intransitive): X burns/is grilled\n\nFOOD-RELATED TERMS:\n・⟦{焼|や}き{鳥|とり}→焼き鳥：04952_yakitori⟧ (grilled chicken skewers)\n・⟦{焼|や}き{魚|ざかな}→焼き魚：13406_yakizakana⟧ (grilled fish)\n・⟦お{好|この}み{焼|や}き→お好み焼き：10252_okonomiyaki⟧ (Japanese savory pancake)",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{焼|や}ける→焼ける：01138_yakeru⟧ (intransitive, to burn/be grilled). Pattern: X⟦を→を：00422_wo⟧{焼|や}く (bake/grill/burn X).\n\nASPECT: ている indicates ongoing action. {焼|や}いている = 'is grilling/baking.'\n\nCOMMON PATTERNS:\n- ⟦パン→パン：00553_pan⟧⟦を→を：00422_wo⟧{焼|や}く (bake bread)\n- ⟦{肉|にく}→肉：02240_niku⟧⟦を→を：00422_wo⟧{焼|や}く (grill meat)\n- ⟦{魚|さかな}→魚：00499_sakana⟧⟦を→を：00422_wo⟧{焼|や}く (grill fish)\n- CD⟦を→を：00422_wo⟧{焼|や}く (burn a CD)\n- ⟦{日焼|ひや}け→日焼け：15469_hiyake⟧⟦する→する：00392_suru⟧ (get sunburned—related)\n\nSIMILAR WORDS:\n- {焼|や}く (transitive): bake/burn X\n- ⟦{焼|や}ける→焼ける：01138_yakeru⟧ (intransitive): X burns/is grilled\n\nFOOD-RELATED TERMS:\n- ⟦{焼|や}き{鳥|とり}→焼き鳥：04952_yakitori⟧ (grilled chicken skewers)\n- ⟦{焼|や}き{魚|ざかな}→焼き魚：13406_yakizakana⟧ (grilled fish)\n- ⟦お{好|この}み{焼|や}き→お好み焼き：10252_okonomiyaki⟧ (Japanese savory pancake)",
   "cross_references": [
     {
       "type": "see_also",
       "reading": "やける",
       "headword": "{焼|や}ける",
       "target_id": "01138_yakeru"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02127_taku",
+      "reading": "たく",
+      "headword": "{炊|た}く",
+      "label": "to cook (rice), to boil"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02324_yuderu",
+      "reading": "ゆでる",
+      "headword": "{茹|ゆ}でる",
+      "label": "to boil (food)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03509_nama",
+      "reading": "なま",
+      "headword": "{生|なま}",
+      "label": "raw, uncooked, fresh"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19637_kanetsusuru",
+      "reading": "かねつする",
+      "headword": "{加熱|かねつ}する",
+      "label": "to heat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24651_shousei",
+      "reading": "しょうせい",
+      "headword": "{焼成|しょうせい}",
+      "label": "firing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27865_mushiyaki",
+      "reading": "むしやき",
+      "headword": "{蒸|む}し{焼|や}き",
+      "label": "steaming in a covered pan"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:30:58Z",
-    "modified": "2026-05-14T13:14:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

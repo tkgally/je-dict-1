@@ -16,7 +16,9 @@
       "id": "08165_minsyuku_ex1",
       "japanese": "{民宿|みんしゅく}に{泊|と}まる。",
       "english": "To stay at a guesthouse.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "08165_minsyuku_ex2",
       "japanese": "{海辺|うみべ}の{民宿|みんしゅく}を{予約|よやく}した。",
       "english": "I booked a seaside guesthouse.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "08165_minsyuku_ex3",
       "japanese": "{民宿|みんしゅく}の{朝|あさ}ご{飯|はん}は{地元|じもと}の{食材|しょくざい}を{使|つか}っている。",
       "english": "The breakfast at the guesthouse uses local ingredients.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -40,7 +46,9 @@
       "id": "08165_minsyuku_ex4",
       "japanese": "ホテルより{民宿|みんしゅく}の{方|ほう}が{安|やす}い。",
       "english": "Guesthouses are cheaper than hotels.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -48,7 +56,9 @@
       "id": "08165_minsyuku_ex5",
       "japanese": "{民宿|みんしゅく}の{女将|おかみ}さんがとても{親切|しんせつ}だった。",
       "english": "The hostess at the guesthouse was very kind.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -61,16 +71,50 @@
       "reading": "りょかん",
       "headword": "{旅館|りょかん}",
       "label": "traditional inn (formal)"
+    },
+    {
+      "type": "related",
+      "target_id": "15998_penshon",
+      "reading": "ぺんしょん",
+      "headword": "ペンション",
+      "label": "pension"
+    },
+    {
+      "type": "related",
+      "target_id": "29675_gesutohausu",
+      "reading": "げすとはうす",
+      "headword": "ゲストハウス",
+      "label": "guesthouse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25209_onsenryokan",
+      "reading": "おんせんりょかん",
+      "headword": "{温泉旅館|おんせんりょかん}",
+      "label": "hot spring inn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27577_kapuseruhoteru",
+      "reading": "かぷせるほてる",
+      "headword": "カプセルホテル",
+      "label": "capsule hotel"
     }
   ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["travel", "accommodation"]
+      "politeness": "plain",
+      "semantic": [
+        "travel",
+        "accommodation"
+      ]
     },
     "created": "2026-01-25T07:33:27Z",
-    "modified": "2026-04-20T05:05:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

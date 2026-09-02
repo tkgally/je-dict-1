@@ -18,7 +18,9 @@
       "english": "I parked my car in the multi-story parking garage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10183_rittaichuushajou_ex2",
@@ -26,7 +28,9 @@
       "english": "The parking garage was full.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10183_rittaichuushajou_ex3",
@@ -34,10 +38,12 @@
       "english": "This parking garage is mechanical, so operation is required.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {立体|りったい} (three-dimensional, multi-level) + {駐車場|ちゅうしゃじょう} (parking lot). Refers to any parking structure with multiple levels.\n\nTYPES:\n- {自走式|じそうしき}: self-parking type (drive up ramps yourself)\n- {機械式|きかいしき}: mechanical type (cars moved by machinery — common in urban Japan)\n- タワー{式|しき}: tower type (vertical stacking)\n\nCOMMON PATTERNS:\n- {立体駐車場|りったいちゅうしゃじょう}に{停|と}める: to park in a multi-story garage\n- {機械式|きかいしき}の{操作|そうさ}: operating the mechanical system\n\nCONTRAST:\n- {駐車場|ちゅうしゃじょう}: parking lot (general term)\n- {地下駐車場|ちかちゅうしゃじょう}: underground parking\n- {平面駐車場|へいめんちゅうしゃじょう}: surface-level parking lot\n- コインパーキング: coin-operated parking lot",
+  "notes": "Compound of {立体|りったい} (three-dimensional, multi-level) + {駐車場|ちゅうしゃじょう} (parking lot). Refers to any parking structure with multiple levels.\n\nTYPES:\n- {自走式|じそうしき}: self-parking type (drive up ramps yourself)\n- {機械式|きかいしき}: mechanical type (cars moved by machinery — common in urban Japan)\n- タワー{式|しき}: tower type (vertical stacking)\n\nCOMMON PATTERNS:\n- {立体駐車場|りったいちゅうしゃじょう}に{停|と}める: to park in a multi-story garage\n- {機械式|きかいしき}の{操作|そうさ}: operating the mechanical system\n\nSIMILAR WORDS:\n- {駐車場|ちゅうしゃじょう}: parking lot (general term)\n- {地下駐車場|ちかちゅうしゃじょう}: underground parking\n- {平面駐車場|へいめんちゅうしゃじょう}: surface-level parking lot\n- コインパーキング: coin-operated parking lot",
   "cross_references": [
     {
       "type": "related",
@@ -45,17 +51,36 @@
       "reading": "ちゅうしゃじょう",
       "headword": "{駐車場|ちゅうしゃじょう}",
       "label": "parking lot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17882_chikachuushajou",
+      "reading": "ちかちゅうしゃじょう",
+      "headword": "{地下駐車場|ちかちゅうしゃじょう}",
+      "label": "underground parking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24421_koinpaakingu",
+      "reading": "こいんぱーきんぐ",
+      "headword": "コインパーキング",
+      "label": "coin-operated parking lot"
     }
   ],
   "metadata": {
     "created": "2026-02-05T12:58:08Z",
-    "modified": "2026-04-24T05:12:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "building"]
+      "semantic": [
+        "transportation",
+        "building"
+      ]
     }
   }
 }

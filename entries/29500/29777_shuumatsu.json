@@ -17,15 +17,19 @@
       "id": "29777_shuumatsu_ex1",
       "japanese": "{世界|せかい}の{終末|しゅうまつ}を{描|えが}く。",
       "english": "It depicts the end of the world.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29777_shuumatsu_ex2",
-      "japanese": "この{映画|えいが}は{文明|ぶんめい}の{終末|しゅうまつ}を{テーマ|てーま}にしている。",
+      "japanese": "この{映画|えいが}は{文明|ぶんめい}の{終末|しゅうまつ}をテーマにしている。",
       "english": "This film takes the demise of civilization as its theme.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,53 @@
       "id": "29777_shuumatsu_ex3",
       "japanese": "{終末|しゅうまつ}{医療|いりょう}では、{患者|かんじゃ}の{苦痛|くつう}を{和|やわ}らげることが{重視|じゅうし}される。",
       "english": "In end-of-life care, easing the patient's suffering is given priority.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers to a grave or ultimate ending — of the world, of life, or of an era — not an everyday conclusion. A homophone of {週末|しゅうまつ} (weekend), distinguished only by context and kanji.\n\nCOMMON COLLOCATIONS:\n- {終末|しゅうまつ}{期|き}: terminal stage (e.g. of an illness)\n- {終末|しゅうまつ}{医療|いりょう}: end-of-life (terminal) care\n- {終末|しゅうまつ}{思想|しそう}: eschatology; apocalyptic thought\n- {世界|せかい}の{終末|しゅうまつ}: the end of the world\n\nSIMILAR WORDS:\n- {最後|さいご}: the last; the end — ordinary, neutral word for the final point.\n- {終|お}わり: end; ending — the everyday word, without the grave nuance.\n- {末期|まっき}: final period; terminal stage — the closing phase of an era or illness.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01413_saigo",
+      "reading": "さいご",
+      "headword": "{最後|さいご}",
+      "label": "the last"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01361_owari",
+      "reading": "おわり",
+      "headword": "{終|お}わり",
+      "label": "end"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13032_makki",
+      "reading": "まっき",
+      "headword": "{末期|まっき}",
+      "label": "final period"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["time-period", "abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "time-period",
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-07-11T21:17:16Z",
-    "modified": "2026-07-11T21:17:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "29775_reibai_ex1",
       "japanese": "{冷媒|れいばい}が{漏|も}れている。",
       "english": "The refrigerant is leaking.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29775_reibai_ex2",
       "japanese": "この{冷蔵庫|れいぞうこ}は{新|あたら}しい{冷媒|れいばい}を{使|つか}っている。",
       "english": "This refrigerator uses a new refrigerant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,40 @@
       "id": "29775_reibai_ex3",
       "japanese": "{環境|かんきょう}への{影響|えいきょう}が{少|すく}ない{冷媒|れいばい}への{切|き}り{替|か}えが{進|すす}んでいる。",
       "english": "The switch to refrigerants with less environmental impact is advancing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A technical term used in air conditioning, refrigeration, and heat-pump engineering.\n\nCOMMON COLLOCATIONS:\n- {冷媒|れいばい}ガス: refrigerant gas\n- {冷媒|れいばい}を{充填|じゅうてん}する: to charge with refrigerant\n- {冷媒|れいばい}が{漏|も}れる: refrigerant leaks\n- {代替|だいたい}{冷媒|れいばい}: alternative (substitute) refrigerant\n\nSIMILAR WORDS:\n- {冷却|れいきゃく}{材|ざい}: coolant material — broader term for anything used to cool.\n- {不凍液|ふとうえき}: antifreeze — a liquid that lowers the freezing point, as in a car radiator.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29437_reikyakuzai",
+      "reading": "れいきゃくざい",
+      "headword": "{冷却材|れいきゃくざい}",
+      "label": "coolant material"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["technology"],
-      "domain": ["technical"]
+      "politeness": "plain",
+      "semantic": [
+        "technology"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-07-11T21:17:16Z",
-    "modified": "2026-07-11T21:17:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

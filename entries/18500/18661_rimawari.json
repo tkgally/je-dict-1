@@ -17,7 +17,9 @@
       "id": "18661_rimawari_ex1",
       "japanese": "{利回|りまわ}りが{高|たか}い。",
       "english": "The yield is high.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18661_rimawari_ex2",
       "japanese": "この{債券|さいけん}の{利回|りまわ}りは{年|ねん}3%だ。",
       "english": "The yield on this bond is 3% per year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,61 @@
       "id": "18661_rimawari_ex3",
       "japanese": "{不動産|ふどうさん}{投資|とうし}では、{表面|ひょうめん}{利回|りまわ}りだけでなく{実質|じっしつ}{利回|りまわ}りも{確認|かくにん}すべきだ。",
       "english": "In real estate investment, you should check not only the gross yield but also the net yield.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A key term in finance and investing. Common collocations: {利回|りまわ}りが{高|たか}い/{低|ひく}い (high/low yield), {表面|ひょうめん}{利回|りまわ}り (gross yield), {実質|じっしつ}{利回|りまわ}り (net yield), {配当|はいとう}{利回|りまわ}り (dividend yield). Compound structure: {利|り} (profit, interest) + {回|まわ}り (rotation, return). Related: {利率|りりつ} (interest rate — for loans/deposits), {収益率|しゅうえきりつ} (rate of return — more formal).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07072_ganpon",
+      "reading": "がんぽん",
+      "headword": "{元本|がんぽん}",
+      "label": "principal (investment)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22300_riekiritsu",
+      "reading": "りえきりつ",
+      "headword": "{利益率|りえきりつ}",
+      "label": "profit margin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24110_shuuekiritsu",
+      "reading": "しゅうえきりつ",
+      "headword": "{収益率|しゅうえきりつ}",
+      "label": "rate of return"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29672_ritaan",
+      "reading": "りたーん",
+      "headword": "リターン",
+      "label": "return"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-03-22T11:46:49Z",
-    "modified": "2026-03-22T11:46:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

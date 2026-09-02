@@ -54,8 +54,23 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {集中|しゅうちゅう} ('concentration') and {豪雨|ごうう} ('heavy rain, downpour'). Literally 'concentrated heavy rain.'\n\nUSAGE:\n- Emphasizes that the rain is concentrated in both time and space — falling very hard on a limited area for a short stretch, rather than spreading out over a wide region.\n- A frequent term in weather forecasts, news reports, and disaster alerts; often appears in headlines about flash floods ({鉄砲水|てっぽうみず}) and landslides ({土砂災害|どしゃさいがい}).\n- The Japan Meteorological Agency (JMA) uses the related term {線状|せんじょう}{降水帯|こうすいたい} ('linear rainband') for a specific pattern that causes repeated {集中豪雨|しゅうちゅうごうう}.\n\nCOMMON COLLOCATIONS:\n- {集中豪雨|しゅうちゅうごうう}が{発生|はっせい}する: for a torrential downpour to occur\n- {集中豪雨|しゅうちゅうごうう}に{見舞|みま}われる: to be hit by a torrential downpour\n- {集中豪雨|しゅうちゅうごうう}による{被害|ひがい}: damage caused by a torrential downpour\n- {局地的|きょくちてき}な{集中豪雨|しゅうちゅうごうう}: a localized torrential downpour\n\nSIMILAR WORDS:\n- {豪雨|ごうう}: heavy rain, downpour — the broader term, not necessarily localized.\n- {大雨|おおあめ}: heavy rain — an everyday term, less intense in connotation than {豪雨|ごうう}.\n- {ゲリラ{豪雨|ごうう}|げりらごうう}: 'guerrilla downpour' — a journalistic term for a sudden, unpredictable, intense rainfall; overlaps heavily with {集中豪雨|しゅうちゅうごうう}.\n- {夕立|ゆうだち}: evening shower — a brief summer afternoon/evening shower, typically much lighter.",
-  "cross_references": [],
+  "notes": "Compound of {集中|しゅうちゅう} ('concentration') and {豪雨|ごうう} ('heavy rain, downpour'). Literally 'concentrated heavy rain.'\n\nUSAGE:\n- Emphasizes that the rain is concentrated in both time and space — falling very hard on a limited area for a short stretch, rather than spreading out over a wide region.\n- A frequent term in weather forecasts, news reports, and disaster alerts; often appears in headlines about flash floods ({鉄砲水|てっぽうみず}) and landslides ({土砂災害|どしゃさいがい}).\n- The Japan Meteorological Agency (JMA) uses the related term {線状|せんじょう}{降水帯|こうすいたい} ('linear rainband') for a specific pattern that causes repeated {集中豪雨|しゅうちゅうごうう}.\n\nCOMMON COLLOCATIONS:\n- {集中豪雨|しゅうちゅうごうう}が{発生|はっせい}する: for a torrential downpour to occur\n- {集中豪雨|しゅうちゅうごうう}に{見舞|みま}われる: to be hit by a torrential downpour\n- {集中豪雨|しゅうちゅうごうう}による{被害|ひがい}: damage caused by a torrential downpour\n- {局地的|きょくちてき}な{集中豪雨|しゅうちゅうごうう}: a localized torrential downpour\n\nSIMILAR WORDS:\n- {豪雨|ごうう}: heavy rain, downpour — the broader term, not necessarily localized.\n- {大雨|おおあめ}: heavy rain — an everyday term, less intense in connotation than {豪雨|ごうう}.\n- ゲリラ{豪雨|ごうう}: 'guerrilla downpour' — a journalistic term for a sudden, unpredictable, intense rainfall; overlaps heavily with {集中豪雨|しゅうちゅうごうう}.\n- {夕立|ゆうだち}: evening shower — a brief summer afternoon/evening shower, typically much lighter.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03015_ooame",
+      "reading": "おおあめ",
+      "headword": "{大雨|おおあめ}",
+      "label": "heavy rain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05862_yuudachi",
+      "reading": "ゆうだち",
+      "headword": "{夕立|ゆうだち}",
+      "label": "evening shower"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,6 +86,6 @@
       ]
     },
     "created": "2026-04-15T10:11:37Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

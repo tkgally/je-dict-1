@@ -3,7 +3,7 @@
   "headword": "{客観視|きゃっかんし}",
   "reading": "きゃっかんし",
   "romaji": "kyakkanshi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "objective viewpoint; viewing objectively",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A compound of {客観|きゃっかん} (objectivity) and {視|し} (viewing/seeing). Functions as a suru-verb: {客観視|きゃっかんし}する means \"to view objectively.\"\n\nThis word is commonly used in self-improvement, business, psychology, and counseling contexts. The ability to {自分|じぶん}を{客観視|きゃっかんし}する (see oneself objectively) is considered an important skill in Japanese professional culture, often discussed in job interviews and performance reviews.\n\nCOMMON COLLOCATIONS:\n- {自分|じぶん}を{客観視|きゃっかんし}する: to view oneself objectively\n- {状況|じょうきょう}を{客観視|きゃっかんし}する: to view the situation objectively\n- {客観視|きゃっかんし}できる: to be able to see objectively\n- {客観視|きゃっかんし}が{難|むずか}しい: difficult to view objectively\n\nSIMILAR WORDS:\n- {客観的|きゃっかんてき}: objective (adjective)\n- {俯瞰|ふかん}: bird's-eye view (looking at the big picture)\n- {主観|しゅかん}: subjectivity (the opposite perspective)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05696_kyakkanteki",
+      "reading": "きゃっかんてき",
+      "headword": "{客観的|きゃっかんてき}",
+      "label": "objective"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09330_fukan",
+      "reading": "ふかん",
+      "headword": "{俯瞰|ふかん}",
+      "label": "bird's-eye view"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11466_shukan",
+      "reading": "しゅかん",
+      "headword": "{主観|しゅかん}",
+      "label": "subjectivity"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +76,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "abstract",
         "cognition"
@@ -60,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-22T09:26:17Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -17,15 +17,19 @@
       "id": "29199_kouuirusuyaku_ex1",
       "japanese": "{抗ウイルス薬|こうういるすやく}を{服用|ふくよう}する。",
       "english": "To take an antiviral drug.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29199_kouuirusuyaku_ex2",
-      "japanese": "{インフルエンザ|いんふるえんざ}には{抗ウイルス薬|こうういるすやく}が{有効|ゆうこう}だ。",
+      "japanese": "インフルエンザには{抗ウイルス薬|こうういるすやく}が{有効|ゆうこう}だ。",
       "english": "Antiviral drugs are effective against influenza.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,48 @@
       "id": "29199_kouuirusuyaku_ex3",
       "japanese": "{医師|いし}から{抗ウイルス薬|こうういるすやく}を{処方|しょほう}してもらったが、{副作用|ふくさよう}に{注意|ちゅうい}が{必要|ひつよう}だ。",
       "english": "I was prescribed an antiviral drug by my doctor, but I need to watch out for side effects.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n- {抗ウイルス薬|こうういるすやく}を{処方|しょほう}する: to prescribe an antiviral drug\n- {抗ウイルス薬|こうういるすやく}を{投与|とうよ}する: to administer an antiviral drug\n- {新型|しんがた}{抗ウイルス薬|こうういるすやく}: new antiviral drug\n\nSIMILAR WORDS:\n- {抗生物質|こうせいぶっしつ}: antibiotic (targets bacteria, not viruses)\n- {抗菌薬|こうきんやく}: antibacterial drug",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11089_kouseibusshitsu",
+      "reading": "こうせいぶっしつ",
+      "headword": "{抗生物質|こうせいぶっしつ}",
+      "label": "antibiotic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26144_koukinyaku",
+      "reading": "こうきんやく",
+      "headword": "{抗菌薬|こうきんやく}",
+      "label": "antibacterial drug"
+    }
+  ],
   "metadata": {
     "created": "2026-06-12T13:43:54Z",
-    "modified": "2026-06-12T13:43:54Z",
+    "modified": "2026-09-02T03:02:30Z",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["health"],
-      "domain": ["medical"],
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ],
+      "domain": [
+        "medical"
+      ],
       "vocabulary_tier": "general"
-    }
+    },
+    "vocabulary_tier": "general"
   }
 }

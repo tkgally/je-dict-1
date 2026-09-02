@@ -3,7 +3,7 @@
   "id": "13576_ryakudatsu",
   "headword": "{略奪|りゃくだつ}",
   "reading": "りゃくだつ",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "plunder, looting",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,39 @@
     }
   ],
   "notes": "USAGE:\nUsed as a noun ({略奪|りゃくだつ}) or suru-verb ({略奪|りゃくだつ}する). Primarily used in historical, military, and news contexts. Can be used figuratively (e.g., {略奪|りゃくだつ}{愛|あい}, stealing someone's partner), though this usage is less common.\n\nCOMMON COLLOCATIONS:\n- {略奪|りゃくだつ}する (to plunder, to loot)\n- {略奪|りゃくだつ}{行為|こうい} (act of plunder)\n- {略奪|りゃくだつ}{品|ひん} (plundered goods, loot)\n- {略奪|りゃくだつ}{愛|あい} (stealing someone's lover)\n\nSIMILAR WORDS:\n- {強奪|ごうだつ}: robbery, forcible seizure (emphasis on force, not necessarily in war)\n- {奪|うば}う: to seize, to snatch (general verb for taking by force)\n- {窃盗|せっとう}: theft, stealing (secretive, without force)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12501_goudatsu",
+      "reading": "ごうだつ",
+      "headword": "{強奪|ごうだつ}",
+      "label": "robbery, forcible seizure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01895_ubau",
+      "reading": "うばう",
+      "headword": "{奪|うば}う",
+      "label": "to seize, to snatch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15280_settou",
+      "reading": "せっとう",
+      "headword": "{窃盗|せっとう}",
+      "label": "theft, stealing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25281_dasshusuru",
+      "reading": "だっしゅする",
+      "headword": "{奪取|だっしゅ}する",
+      "label": "to seize"
+    }
+  ],
   "metadata": {
     "created": "2026-02-25T14:34:54Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -17,7 +17,9 @@
       "id": "28831_benpiyaku_ex1",
       "japanese": "{便秘薬|べんぴやく}を{飲|の}んだ。",
       "english": "I took a laxative.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28831_benpiyaku_ex2",
       "japanese": "{薬局|やっきょく}で{便秘薬|べんぴやく}を{買|か}った。",
       "english": "I bought a laxative at the pharmacy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28831_benpiyaku_ex3",
       "japanese": "{便秘薬|べんぴやく}は{毎日|まいにち}{使|つか}わずに、{食生活|しょくせいかつ}の{改善|かいぜん}を{先|さき}にしたほうがいい。",
       "english": "Rather than using a laxative every day, it's better to improve your diet first.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{便秘|べんぴ} (constipation) + {薬|やく} (medicine). The everyday consumer term — pharmacy shelves and TV commercials use this rather than the medical-register {下剤|げざい}.\n\nCOMMON COLLOCATIONS:\n- {便秘薬|べんぴやく}を{飲|の}む: to take a laxative\n- {便秘薬|べんぴやく}に{頼|たよ}る: to rely on laxatives\n- {市販|しはん}の{便秘薬|べんぴやく}: over-the-counter laxative\n\nSIMILAR WORDS:\n- {下剤|げざい}: laxative — medical register; used in clinical contexts\n- {整腸|せいちょう}{剤|ざい}: digestive-regulating medicine — broader, also for diarrhea\n- {便秘|べんぴ}: constipation (the condition itself)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28835_gezai",
+      "reading": "げざい",
+      "headword": "{下剤|げざい}",
+      "label": "laxative"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22358_seichouzai",
+      "reading": "せいちょうざい",
+      "headword": "{整腸剤|せいちょうざい}",
+      "label": "digestive-regulating medicine"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["health"],
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ],
       "domain": []
     },
     "created": "2026-06-06T02:07:42Z",
-    "modified": "2026-06-06T02:07:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

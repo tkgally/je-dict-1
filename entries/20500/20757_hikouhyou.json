@@ -3,7 +3,7 @@
   "headword": "{非公表|ひこうひょう}",
   "reading": "ひこうひょう",
   "romaji": "hikouhyou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "undisclosed; not made public; withheld",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "A compound of {非|ひ} (non-, un-) and {公表|こうひょう} (public announcement, disclosure). Functions as a no-adjective: {非公表|ひこうひょう}の{情報|じょうほう} (undisclosed information).\n\nUSAGE:\nFrequently used in news reports, government announcements, corporate communications, and legal contexts. Often appears when organizations choose to withhold specific details such as names, amounts, or locations.\n\nCOMMON COLLOCATIONS:\n- {非公表|ひこうひょう}の{情報|じょうほう} — undisclosed information\n- {非公表|ひこうひょう}とする — to keep undisclosed\n- {金額|きんがく}は{非公表|ひこうひょう} — the amount is undisclosed\n- {氏名|しめい}{非公表|ひこうひょう} — name withheld\n\nSIMILAR WORDS:\n- {非公開|ひこうかい} — private, not open to the public; refers to events, meetings, or data not accessible to outsiders\n- {未公表|みこうひょう} — not yet disclosed; implies it may be released later\n- {機密|きみつ} — classified, confidential; implies secrecy for security reasons",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16599_hikoukai",
+      "reading": "ひこうかい",
+      "headword": "{非公開|ひこうかい}",
+      "label": "private, not open to the public"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13179_kimitsu",
+      "reading": "きみつ",
+      "headword": "{機密|きみつ}",
+      "label": "classified, confidential"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-03-30T15:13:34Z",
-    "modified": "2026-03-30T15:13:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

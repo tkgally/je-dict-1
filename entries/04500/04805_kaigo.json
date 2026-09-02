@@ -2,7 +2,7 @@
   "id": "04805_kaigo",
   "headword": "{介護|かいご}",
   "reading": "かいご",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "nursing care",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{介護|かいご} refers to the care and assistance provided to elderly, disabled, or ill people who cannot fully manage daily activities on their own. This is a critically important concept in Japan due to its rapidly aging population.\n\nCOMMON EXPRESSIONS:\n- {介護|かいご}⟦する→する：00392_suru⟧: to provide care\n- {介護|かいご}⟦{保険|ほけん}→保険：01509_hoken⟧: long-term care insurance (a national system in Japan)\n- {介護|かいご}⟦{施設|しせつ}→施設：02503_shisetsu⟧: care facility, nursing home\n- {介護|かいご}⟦{離職|りしょく}→離職：16383_rishoku⟧: quitting work to care for a family member\n- ⟦{在宅|ざいたく}→在宅：07696_zaitaku⟧{介護|かいご}: home care\n- {介護|かいご}⟦{福祉|ふくし}→福祉：13748_fukushi⟧⟦{士|し}→士：noentry⟧: certified care worker\n- ⟦{要|よう}→要：10000_you⟧{介護|かいご}: requiring nursing care (official designation)\n\nSIMILAR WORDS:\n- ⟦{看護|かんご}→看護：13668_kango⟧: nursing (medical care, typically by trained nurses)\n- ⟦{世話|せわ}→世話：02088_sewa⟧: care, looking after (more general, less formal)\n- ⟦{福祉|ふくし}→福祉：13748_fukushi⟧: welfare (broader social welfare concept)\n\nSOCIAL CONTEXT:\nJapan's {介護|かいご}⟦{保険|ほけん}→保険：01509_hoken⟧⟦{制度|せいど}→制度：03291_seido⟧ (long-term care insurance system), introduced in 2000, requires citizens over 40 to pay premiums. {介護|かいご}⟦{離職|りしょく}→離職：16383_rishoku⟧ (people leaving jobs to care for aging parents) is a growing social issue.",
+  "notes": "{介護|かいご} refers to the care and assistance provided to elderly, disabled, or ill people who cannot fully manage daily activities on their own. This is a critically important concept in Japan due to its rapidly aging population.\n\nCOMMON EXPRESSIONS:\n- {介護|かいご}⟦する→する：00392_suru⟧: to provide care\n- {介護|かいご}⟦{保険|ほけん}→保険：01509_hoken⟧: long-term care insurance (a national system in Japan)\n- {介護|かいご}⟦{施設|しせつ}→施設：02503_shisetsu⟧: care facility, nursing home\n- {介護|かいご}⟦{離職|りしょく}→離職：16383_rishoku⟧: quitting work to care for a family member\n- ⟦{在宅|ざいたく}→在宅：07696_zaitaku⟧{介護|かいご}: home care\n- {介護|かいご}⟦{福祉|ふくし}→福祉：13748_fukushi⟧⟦{士|し}→士：noentry⟧: certified care worker\n- ⟦{要|よう}→要：10000_you⟧{介護|かいご}: requiring nursing care (official designation)\n\nSIMILAR WORDS:\n- ⟦{看護|かんご}→看護：13668_kango⟧: nursing (medical care, typically by trained nurses)\n- ⟦{世話|せわ}→世話：02088_sewa⟧: care, looking after (more general, less formal)\n- ⟦{福祉|ふくし}→福祉：13748_fukushi⟧: welfare (broader social welfare concept)\n\nCULTURAL NOTE:\nJapan's {介護|かいご}⟦{保険|ほけん}→保険：01509_hoken⟧⟦{制度|せいど}→制度：03291_seido⟧ (long-term care insurance system), introduced in 2000, requires citizens over 40 to pay premiums. {介護|かいご}⟦{離職|りしょく}→離職：16383_rishoku⟧ (people leaving jobs to care for aging parents) is a growing social issue.",
   "cross_references": [
     {
       "type": "synonym",
@@ -148,11 +148,39 @@
       "reading": "せわ",
       "headword": "{世話|せわ}",
       "label": "care (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13748_fukushi",
+      "reading": "ふくし",
+      "headword": "{福祉|ふくし}",
+      "label": "welfare"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01843_sewasuru",
+      "reading": "せわする",
+      "headword": "{世話|せわ}する",
+      "label": "care, looking after"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18263_mendouwomiru",
+      "reading": "めんどうをみる",
+      "headword": "{面倒|めんどう}を{見|み}る",
+      "label": "to look after"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20215_mitoru",
+      "reading": "みとる",
+      "headword": "{看取|みと}る",
+      "label": "to watch over (a dying person)"
     }
   ],
   "metadata": {
     "created": "2026-01-16T00:27:23Z",
-    "modified": "2026-06-02T18:14:37Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

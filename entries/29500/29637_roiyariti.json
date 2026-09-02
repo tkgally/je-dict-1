@@ -17,7 +17,9 @@
       "id": "29637_roiyariti_ex1",
       "japanese": "ロイヤリティを{支払|しはら}う。",
       "english": "pay royalties",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29637_roiyariti_ex2",
       "japanese": "{売上|うりあげ}の{五|ご}パーセントをロイヤリティとして{納|おさ}める。",
       "english": "pay 5 percent of sales as a royalty",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,48 @@
       "id": "29637_roiyariti_ex3",
       "japanese": "フランチャイズ{契約|けいやく}では、{毎月|まいつき}{一定|いってい}のロイヤリティが{発生|はっせい}する。",
       "english": "Under a franchise contract, a fixed royalty accrues every month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A loanword from English \"royalty.\" Also written ロイヤルティ.\n\nUSAGE:\nThe separate meaning \"loyalty\" (as in customer loyalty) is usually written ロイヤルティ; context distinguishes the two.\n\nCOMMON COLLOCATIONS:\n- ロイヤリティを{支払|しはら}う: to pay royalties\n- ロイヤリティ{収入|しゅうにゅう}: royalty income\n\nSIMILAR WORDS:\n- {印税|いんぜい}: royalty — specifically an author's royalty on published works\n- {使用料|しようりょう}: usage fee — broader, not necessarily tied to intellectual property",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06368_inzei",
+      "reading": "いんぜい",
+      "headword": "{印税|いんぜい}",
+      "label": "royalty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29636_shiyouryou",
+      "reading": "しようりょう",
+      "headword": "{使用料|しようりょう}",
+      "label": "usage fee"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["money", "business"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "money",
+        "business"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-07-02T12:18:49Z",
-    "modified": "2026-07-02T12:18:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

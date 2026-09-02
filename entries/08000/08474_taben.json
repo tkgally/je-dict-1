@@ -2,7 +2,7 @@
   "id": "08474_taben",
   "headword": "{多弁|たべん}",
   "reading": "たべん",
-  "part_of_speech": "noun, na-adjective",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "talkative; loquacious",
   "definitions": [
     {
@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{多|た} (many) + {弁|べん} (speech)\n\nNUANCE:\nCan be neutral or slightly negative depending on context. Unlike お{喋|しゃべ}り, which is casual and often affectionate, {多弁|たべん} is more formal and can imply excessive talking.\n\nCONTRAST:\n- {多弁|たべん} (talkative) ↔ {寡黙|かもく} (taciturn)\n- {多弁|たべん} ↔ {無口|むくち} (quiet, untalkative)\n\nRELATED:\n- {雄弁|ゆうべん} - eloquent\n- {能弁|のうべん} - fluent, articulate\n- {饒舌|じょうぜつ} - garrulous, verbose\n- お{喋|しゃべ}り - chatty (casual)",
+  "notes": "COMPOUNDS:\n{多|た} (many) + {弁|べん} (speech)\n\nUSAGE:\nCan be neutral or slightly negative depending on context. Unlike お{喋|しゃべ}り, which is casual and often affectionate, {多弁|たべん} is more formal and can imply excessive talking.\n\nSIMILAR WORDS:\n- {多弁|たべん} (talkative) ↔ {寡黙|かもく} (taciturn)\n- {多弁|たべん} ↔ {無口|むくち} (quiet, untalkative)\n\nRELATED WORDS:\n- {雄弁|ゆうべん} - eloquent\n- {能弁|のうべん} - fluent, articulate\n- {饒舌|じょうぜつ} - garrulous, verbose\n- お{喋|しゃべ}り - chatty (casual)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -52,13 +52,14 @@
         "noun"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "personality",
         "communication"
       ]
     },
     "created": "2026-01-27T03:47:32Z",
-    "modified": "2026-06-22T12:38:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "cross_references": [
     {
@@ -67,6 +68,34 @@
       "reading": "かもく",
       "headword": "{寡黙|かもく}",
       "label": "taciturn, quiet"
+    },
+    {
+      "type": "related",
+      "target_id": "14579_yuuben",
+      "reading": "ゆうべん",
+      "headword": "{雄弁|ゆうべん}",
+      "label": "eloquent"
+    },
+    {
+      "type": "related",
+      "target_id": "18101_nouben",
+      "reading": "のうべん",
+      "headword": "{能弁|のうべん}",
+      "label": "fluent, articulate"
+    },
+    {
+      "type": "related",
+      "target_id": "08651_jouzetsu",
+      "reading": "じょうぜつ",
+      "headword": "{饒舌|じょうぜつ}",
+      "label": "garrulous, verbose"
+    },
+    {
+      "type": "related",
+      "target_id": "01911_oshaberi",
+      "reading": "おしゃべり",
+      "headword": "お{喋|しゃべ}り",
+      "label": "chatty"
     }
   ]
 }

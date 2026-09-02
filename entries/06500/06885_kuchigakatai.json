@@ -63,7 +63,7 @@
       "notes": null
     }
   ],
-  "notes": "STRUCTURE: ⟦{口|くち}→口：00560_kuchi⟧ (mouth) + ⟦が→が：00051_ga⟧ + ⟦{堅|かた}い→堅い：18753_katai⟧ (hard/firm). Literally 'one's mouth is firm' - implying words don't escape easily.\n\nANTONYM: ⟦{口|くち}が{軽|かる}い→口が軽い：06884_kuchigakarui⟧ (loose-lipped, indiscreet)\n\nPRENOMINAL FORM: {口|くち}の{堅|かた}い + noun (a discreet [person])\n\nRELATED EXPRESSIONS:\n- ⟦{秘密|ひみつ}→秘密：02504_himitsu⟧⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧ (to keep a secret)\n- ⟦{信頼|しんらい}→信頼：03268_shinrai⟧⟦できる→できる：00557_dekiru⟧ (trustworthy)\n\nCULTURAL NOTE: Being {口|くち}が{堅|かた}い is considered a valuable trait in Japanese business and personal relationships.",
+  "notes": "STRUCTURE: ⟦{口|くち}→口：00560_kuchi⟧ (mouth) + ⟦が→が：00051_ga⟧ + ⟦{堅|かた}い→堅い：18753_katai⟧ (hard/firm). Literally 'one's mouth is firm' - implying words don't escape easily.\n\nANTONYM: ⟦{口|くち}が{軽|かる}い→口が軽い：06884_kuchigakarui⟧ (loose-lipped, indiscreet)\n\nPRENOMINAL FORM: {口|くち}の{堅|かた}い + noun (a discreet [person])\n\nRELATED WORDS:\n- ⟦{秘密|ひみつ}→秘密：02504_himitsu⟧⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧ (to keep a secret)\n- ⟦{信頼|しんらい}→信頼：03268_shinrai⟧⟦できる→できる：00557_dekiru⟧ (trustworthy)\n\nCULTURAL NOTE: Being {口|くち}が{堅|かた}い is considered a valuable trait in Japanese business and personal relationships.",
   "cross_references": [
     {
       "type": "antonym",
@@ -71,11 +71,25 @@
       "headword": "{口|くち}が{軽|かる}い",
       "target_id": "06884_kuchigakarui",
       "label": "loose-lipped"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25905_himitsushugi",
+      "reading": "ひみつしゅぎ",
+      "headword": "{秘密|ひみつ}{主義|しゅぎ}",
+      "label": "secretiveness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30585_kuchigasuberu",
+      "reading": "くちがすべる",
+      "headword": "{口|くち}が{滑|すべ}る",
+      "label": "to let something slip"
     }
   ],
   "metadata": {
     "created": "2026-01-18T10:03:54Z",
-    "modified": "2026-08-12T00:26:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

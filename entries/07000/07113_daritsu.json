@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "READING BATTING AVERAGES IN JAPANESE:\n・.300 = 3{割|わり} (san-wari)\n・.250 = 2{割|わり}5{分|ぶ} (ni-wari go-bu)\n・.333 = 3{割|わり}3{分|ぶ}3{厘|りん} (san-wari san-bu san-rin)\n\nRELATED BASEBALL STATISTICS:\n・{防御率|ぼうぎょりつ} (ERA - earned run average)\n・{出塁率|しゅつるいりつ} (on-base percentage)\n・{打点|だてん} (RBI - runs batted in)\n・{本塁打|ほんるいだ} (home run)\n・{安打|あんだ} (hit)\n\nBASEBALL AWARDS:\n・{首位|しゅい}{打者|だしゃ} (batting champion)\n・{最優秀|さいゆうしゅう}{選手|せんしゅ} (MVP)\n・{新人王|しんじんおう} (Rookie of the Year)",
+  "notes": "READING BATTING AVERAGES IN JAPANESE:\n- .300 = 3{割|わり} (san-wari)\n- .250 = 2{割|わり}5{分|ぶ} (ni-wari go-bu)\n- .333 = 3{割|わり}3{分|ぶ}3{厘|りん} (san-wari san-bu san-rin)\n\nRELATED BASEBALL STATISTICS:\n- {防御率|ぼうぎょりつ} (ERA - earned run average)\n- {出塁率|しゅつるいりつ} (on-base percentage)\n- {打点|だてん} (RBI - runs batted in)\n- {本塁打|ほんるいだ} (home run)\n- {安打|あんだ} (hit)\n\nBASEBALL AWARDS:\n- {首位|しゅい}{打者|だしゃ} (batting champion)\n- {最優秀|さいゆうしゅう}{選手|せんしゅ} (MVP)\n- {新人王|しんじんおう} (Rookie of the Year)",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,46 @@
       "reading": "あんだ",
       "headword": "{安打|あんだ}",
       "label": "base hit"
+    },
+    {
+      "type": "related",
+      "target_id": "29931_shutsuruiritsu",
+      "reading": "しゅつるいりつ",
+      "headword": "{出塁|しゅつるい}{率|りつ}",
+      "label": "on-base percentage"
+    },
+    {
+      "type": "related",
+      "target_id": "08589_daten",
+      "reading": "だてん",
+      "headword": "{打点|だてん}",
+      "label": "RBI"
+    },
+    {
+      "type": "related",
+      "target_id": "24569_honruida",
+      "reading": "ほんるいだ",
+      "headword": "{本塁打|ほんるいだ}",
+      "label": "home run"
+    },
+    {
+      "type": "related",
+      "target_id": "06542_daseki",
+      "reading": "だせき",
+      "headword": "{打席|だせき}",
+      "label": "at-bat, plate appearance"
+    },
+    {
+      "type": "related",
+      "target_id": "26604_shuidasha",
+      "reading": "しゅいだしゃ",
+      "headword": "{首位|しゅい}{打者|だしゃ}",
+      "label": "batting champion"
     }
   ],
   "metadata": {
     "created": "2026-01-18T23:18:44Z",
-    "modified": "2026-08-10T06:41:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

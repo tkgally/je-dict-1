@@ -3,7 +3,7 @@
   "headword": "{不適当|ふてきとう}",
   "reading": "ふてきとう",
   "romaji": "futekitou",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "inappropriate; unsuitable; improper",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "23117_futekitou_ex1",
       "japanese": "その{発言|はつげん}は{不適当|ふてきとう}だ。",
       "english": "That remark is inappropriate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23117_futekitou_ex2",
       "japanese": "{不適当|ふてきとう}な{表現|ひょうげん}は{避|さ}けてください。",
       "english": "Please avoid inappropriate expressions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "23117_futekitou_ex3",
       "japanese": "この{方法|ほうほう}は{今回|こんかい}の{目的|もくてき}には{不適当|ふてきとう}だと{判断|はんだん}された。",
       "english": "This method was judged to be unsuitable for the current purpose.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {不|ふ} (not) + {適当|てきとう} (appropriate, suitable). Note that {適当|てきとう} has two common meanings: \"appropriate/suitable\" and \"careless/halfhearted.\" {不適当|ふてきとう} negates only the first meaning — it means \"not appropriate,\" never \"not careless.\"\n\nCOMMON COLLOCATIONS:\n- {不適当|ふてきとう}な{発言|はつげん}: inappropriate remark\n- {不適当|ふてきとう}な{表現|ひょうげん}: inappropriate expression\n- {不適当|ふてきとう}と{判断|はんだん}する: to judge as inappropriate\n\nSIMILAR WORDS:\n- {不適切|ふてきせつ}: inappropriate — very close in meaning; slightly more common in official or media language\n- {不向|ふむ}き: unsuited — indicates something is not a good fit for a person or purpose\n- {不相応|ふそうおう}: unbecoming, not befitting — implies something is above or below one's station or rank",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11359_futekisetsu",
+      "reading": "ふてきせつ",
+      "headword": "{不適切|ふてきせつ}",
+      "label": "inappropriate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11388_fumuki",
+      "reading": "ふむき",
+      "headword": "{不向|ふむ}き",
+      "label": "unsuited"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
-      "semantic": ["evaluation"],
+      "pos": [
+        "adjective-na"
+      ],
+      "semantic": [
+        "evaluation"
+      ],
       "formality": "formal",
       "politeness": "plain"
     },
     "created": "2026-04-08T19:21:21Z",
-    "modified": "2026-04-08T19:21:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

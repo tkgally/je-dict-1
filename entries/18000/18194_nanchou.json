@@ -19,7 +19,9 @@
       "english": "My grandfather has hearing loss and uses a hearing aid.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18194_nanchou_ex2",
@@ -27,7 +29,9 @@
       "english": "Noise-induced hearing loss is increasing among young people.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18194_nanchou_ex3",
@@ -35,22 +39,52 @@
       "english": "It is said that it's important to start treatment early for sudden hearing loss.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA medical term that also appears in everyday conversation. Often used with degree modifiers to describe severity.\n\nCOMMON COLLOCATIONS:\n- {突発性|とっぱつせい}{難聴|なんちょう} (sudden hearing loss)\n- {感音性|かんおんせい}{難聴|なんちょう} (sensorineural hearing loss)\n- {難聴|なんちょう}{者|しゃ} (person with hearing loss)\n- {軽度|けいど}の{難聴|なんちょう} (mild hearing loss)\n- {難聴|なんちょう}になる (to develop hearing loss)\n\nSIMILAR WORDS:\n- {聴覚障害|ちょうかくしょうがい}: hearing disability — a broader, more formal term often used in legal and administrative contexts",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24829_choukakushougai",
+      "reading": "ちょうかくしょうがい",
+      "headword": "{聴覚|ちょうかく}{障害|しょうがい}",
+      "label": "hearing disability"
+    },
+    {
+      "type": "related",
+      "target_id": "20327_miminari",
+      "reading": "みみなり",
+      "headword": "{耳鳴|みみな}り",
+      "label": "ringing in the ears"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30777_mimigatooi",
+      "reading": "みみがとおい",
+      "headword": "{耳|みみ}が{遠|とお}い",
+      "label": "hard of hearing"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T12:12:44Z",
-    "modified": "2026-03-20T12:12:44Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-internal"],
-      "domain": ["medical"]
+      "semantic": [
+        "body-internal"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

@@ -43,10 +43,47 @@
       ]
     }
   ],
-  "notes": "USAGE: {会館|かいかん} appears as a suffix in names of public buildings.\n\nCOMMON COMPOUNDS:\n・⟦{市民|しみん}→市民：01426_shimin⟧{会館|かいかん} (civic hall)\n・⟦{文化|ぶんか}→文化：01504_bunka⟧{会館|かいかん} (cultural center)\n・⟦{県民|けんみん}→県民：22700_kenmin⟧{会館|かいかん} (prefectural hall)\n・⟦{商工|しょうこう}→商工：noentry⟧{会館|かいかん} (chamber of commerce building)\n・⟦{婦人|ふじん}→婦人：01658_fujin⟧{会館|かいかん} (women's center)\n\nSIMILAR BUILDINGS:\n・⟦ホール→ホール：11169_hooru⟧ - hall (from English)\n・⟦{公民館|こうみんかん}→公民館：18183_kouminkan⟧ - community center\n・⟦{公会堂|こうかいどう}→公会堂：27738_koukaidou⟧ - public hall\n\nRELATED:\n・⟦{会場|かいじょう}→会場：01269_kaijou⟧ - venue (for specific events)",
+  "notes": "USAGE: {会館|かいかん} appears as a suffix in names of public buildings.\n\nCOMPOUNDS:\n- ⟦{市民|しみん}→市民：01426_shimin⟧{会館|かいかん} (civic hall)\n- ⟦{文化|ぶんか}→文化：01504_bunka⟧{会館|かいかん} (cultural center)\n- ⟦{県民|けんみん}→県民：22700_kenmin⟧{会館|かいかん} (prefectural hall)\n- ⟦{商工|しょうこう}→商工：noentry⟧{会館|かいかん} (chamber of commerce building)\n- ⟦{婦人|ふじん}→婦人：01658_fujin⟧{会館|かいかん} (women's center)\n\nSIMILAR BUILDINGS:\n- ⟦ホール→ホール：11169_hooru⟧ - hall (from English)\n- ⟦{公民館|こうみんかん}→公民館：18183_kouminkan⟧ - community center\n- ⟦{公会堂|こうかいどう}→公会堂：27738_koukaidou⟧ - public hall\n\nRELATED WORDS:\n- ⟦{会場|かいじょう}→会場：01269_kaijou⟧ - venue (for specific events)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11169_hooru",
+      "reading": "ほーる",
+      "headword": "ホール",
+      "label": "hall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18183_kouminkan",
+      "reading": "こうみんかん",
+      "headword": "{公民館|こうみんかん}",
+      "label": "community center"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27738_koukaidou",
+      "reading": "こうかいどう",
+      "headword": "{公会堂|こうかいどう}",
+      "label": "public hall"
+    },
+    {
+      "type": "related",
+      "target_id": "01269_kaijou",
+      "reading": "かいじょう",
+      "headword": "{会場|かいじょう}",
+      "label": "venue"
+    },
+    {
+      "type": "related",
+      "target_id": "07879_shuukaijo",
+      "reading": "しゅうかいじょ",
+      "headword": "{集会所|しゅうかいじょ}",
+      "label": "meeting hall"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-05-29T17:08:55Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

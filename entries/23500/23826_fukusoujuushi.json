@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Compound of {副|ふく} ('assistant; deputy; vice-'), {操縦|そうじゅう} ('piloting; operating'), and {士|し} ('-ist; licensed practitioner'). Literally 'deputy pilot'.\n\nUSAGE:\n- Standard term in Japanese aviation, used in official contexts such as airline documents, news reports, and air-traffic recordings.\n- The counterpart is {機長|きちょう} ('captain'). During flight, the two form a pair referred to collectively as {乗務員|じょうむいん}のコックピットクルー or simply パイロット.\n- In casual speech, パイロット is often used without distinguishing rank; {副操縦士|ふくそうじゅうし} is preferred when rank is relevant.\n\nCOMMON COLLOCATIONS:\n- {副操縦士|ふくそうじゅうし}を{務|つと}める: to serve as co-pilot\n- {機長|きちょう}と{副操縦士|ふくそうじゅうし}: captain and first officer\n- {副操縦士|ふくそうじゅうし}{席|せき}: co-pilot's seat\n- {副操縦士|ふくそうじゅうし}に{昇格|しょうかく}する: to be promoted to co-pilot\n- ベテランの{副操縦士|ふくそうじゅうし}: veteran first officer\n\nSIMILAR WORDS:\n- {機長|きちょう}: captain — the pilot in command, seated on the left.\n- パイロット: pilot — loanword; a general cover term that does not specify rank.\n- {操縦士|そうじゅうし}: pilot — the formal Japanese word for a licensed pilot of any aircraft; {副操縦士|ふくそうじゅうし} is its deputy counterpart.\n- {航空機関士|こうくうきかんし}: flight engineer — a third flight-deck crew member on older aircraft; rare on modern two-person cockpits.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22199_kichou",
+      "reading": "きちょう",
+      "headword": "{機長|きちょう}",
+      "label": "captain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00339_pairotto",
+      "reading": "ぱいろっと",
+      "headword": "パイロット",
+      "label": "pilot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26413_fukukichou",
+      "reading": "ふくきちょう",
+      "headword": "{副|ふく}{機長|きちょう}",
+      "label": "copilot"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +83,6 @@
       ]
     },
     "created": "2026-04-15T04:05:53Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

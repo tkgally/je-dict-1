@@ -17,7 +17,9 @@
       "id": "19474_sonmei_ex1",
       "japanese": "{祖母|そぼ}はまだ{存命|そんめい}だ。",
       "english": "My grandmother is still alive.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19474_sonmei_ex2",
       "japanese": "{存命中|そんめいちゅう}に{会|あ}いたかった。",
       "english": "I wanted to meet them while they were still alive.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "19474_sonmei_ex3",
       "japanese": "{戦争|せんそう}{体験者|たいけんしゃ}で{存命|そんめい}の{方|かた}は{年々|ねんねん}{少|すく}なくなっている。",
       "english": "The number of surviving war veterans decreases year by year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A formal word meaning \"alive\" or \"still living,\" used primarily when discussing whether notable or elderly people are still alive. It carries a respectful, documentary tone and is common in biographical writing, obituaries, and historical accounts.\n\nCOMMON COLLOCATIONS:\n- {存命中|そんめいちゅう} — while still alive, during one's lifetime\n- {存命|そんめい}の{人物|じんぶつ} — a living person (notable figure)\n- まだ{存命|そんめい}だ — is still alive\n- {存命|そんめい}であれば — if (they) were still alive\n\nSIMILAR WORDS:\n- {生存|せいぞん} — survival, being alive; broader term, often used in emergency/disaster contexts\n- {健在|けんざい} — alive and well; emphasizes being in good health, not just alive\n- {在世|ざいせい} — being in the world; literary/Buddhist term for being alive",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04335_seizon",
+      "reading": "せいぞん",
+      "headword": "{生存|せいぞん}",
+      "label": "survival, being alive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11567_kenzai",
+      "reading": "けんざい",
+      "headword": "{健在|けんざい}",
+      "label": "alive and well"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["existence"],
-      "style": ["written"]
+      "semantic": [
+        "existence"
+      ],
+      "style": [
+        "written"
+      ]
     },
     "created": "2026-03-26T01:22:03Z",
-    "modified": "2026-03-26T01:22:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

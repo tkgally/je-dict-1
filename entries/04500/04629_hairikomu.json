@@ -2,7 +2,7 @@
   "id": "04629_hairikomu",
   "headword": "{入|はい}り{込|こ}む",
   "reading": "はいりこむ",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to enter, to get into, to slip into",
   "conjugation": {
     "type": "godan",
@@ -244,7 +244,7 @@
     },
     {
       "id": "04629_hairikomu_ex14",
-      "japanese": "⟦{ゲーム|げーむ}→ゲーム：03842_geemu⟧⟦の→の：09472_no⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦に→に：00314_ni⟧{入|はい}り{込|こ}んでいる。",
+      "japanese": "⟦ゲーム→ゲーム：03842_geemu⟧⟦の→の：09472_no⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦に→に：00314_ni⟧{入|はい}り{込|こ}んでいる。",
       "english": "I'm immersed in the game world.",
       "notes": null,
       "has_audio": false,
@@ -263,11 +263,40 @@
       ]
     }
   ],
-  "notes": "{入|はい}り{込|こ}む is an intransitive verb (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧) meaning to enter or get into.\n\nCOMPOUND STRUCTURE:\n- ⟦{入|はい}る→入る：00494_hairu⟧ (to enter) + ⟦{込|こ}む→込む：00719_komu⟧ (deeply into) → to go deep into\n\nASPECT (ている):\n{入|はい}り{込|こ}んでいる indicates a state of being inside or immersed.\n\nCOMMON PATTERNS:\n- ⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧{入|はい}り{込|こ}む (get into a room)\n- ⟦{隙間|すきま}→隙間：00389_sukima⟧⟦に→に：00314_ni⟧{入|はい}り{込|こ}む (get into a gap)\n- ⟦{世界|せかい}→世界：01447_sekai⟧⟦に→に：00314_ni⟧{入|はい}り{込|こ}む (get immersed in a world)\n- ⟦{話|はなし}→話：01496_hanashi⟧⟦に→に：00314_ni⟧{入|はい}り{込|こ}む (get into a conversation/story)\n\nNUANCE:\nImplies going deeper or more thoroughly than simple ⟦{入|はい}る→入る：00494_hairu⟧. Often suggests entering somewhere one shouldn't be, or becoming deeply involved in something.",
-  "cross_references": [],
+  "notes": "{入|はい}り{込|こ}む is an intransitive verb (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧) meaning to enter or get into.\n\nETYMOLOGY:\n- ⟦{入|はい}る→入る：00494_hairu⟧ (to enter) + ⟦{込|こ}む→込む：00719_komu⟧ (deeply into) → to go deep into\n\nASPECT (ている):\n{入|はい}り{込|こ}んでいる indicates a state of being inside or immersed.\n\nCOMMON PATTERNS:\n- ⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧{入|はい}り{込|こ}む (get into a room)\n- ⟦{隙間|すきま}→隙間：00389_sukima⟧⟦に→に：00314_ni⟧{入|はい}り{込|こ}む (get into a gap)\n- ⟦{世界|せかい}→世界：01447_sekai⟧⟦に→に：00314_ni⟧{入|はい}り{込|こ}む (get immersed in a world)\n- ⟦{話|はなし}→話：01496_hanashi⟧⟦に→に：00314_ni⟧{入|はい}り{込|こ}む (get into a conversation/story)\n\nUSAGE:\nImplies going deeper or more thoroughly than simple ⟦{入|はい}る→入る：00494_hairu⟧. Often suggests entering somewhere one shouldn't be, or becoming deeply involved in something.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17343_shinnyuusuru",
+      "reading": "しんにゅうする",
+      "headword": "{侵入|しんにゅう}する",
+      "label": "to invade"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23177_haikomu",
+      "reading": "はいこむ",
+      "headword": "{這|は}い{込|こ}む",
+      "label": "to crawl into"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26062_nukekomu",
+      "reading": "ぬけこむ",
+      "headword": "{抜|ぬ}け{込|こ}む",
+      "label": "to slip into"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26961_magirekomu",
+      "reading": "まぎれこむ",
+      "headword": "{紛|まぎ}れ{込|こ}む",
+      "label": "to slip into"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T03:52:00Z",
-    "modified": "2026-06-10T17:34:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

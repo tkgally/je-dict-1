@@ -3,7 +3,7 @@
   "headword": "アンティーク",
   "reading": "あんてぃーく",
   "romaji": "antiiku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "antique; antique-style",
   "definitions": [
     {
@@ -46,6 +46,15 @@
   ],
   "notes": "From English \"antique.\" In Japanese it is a noun that modifies with の or directly in compounds, so both アンティークの{椅子|いす} and アンティーク{椅子|いす} are natural.\n\nCOMMON COLLOCATIONS:\n- アンティーク{家具|かぐ}: antique furniture\n- アンティークショップ: antique shop\n- アンティーク{調|ちょう}: antique-style, made to look old\n- アンティーク{雑貨|ざっか}: antique-style knick-knacks\n\nSIMILAR WORDS:\n- {骨董品|こっとうひん}: antique, curio — used of Japanese and Chinese pieces, with a collector's connotation\n- ヴィンテージ: vintage — newer than アンティーク, often clothing, guitars, and wine\n- レトロ: retro — the nostalgic look, whether or not the object is actually old",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06990_kottouhin",
+      "reading": "こっとうひん",
+      "headword": "{骨董品|こっとうひん}",
+      "label": "antique, curio"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +63,7 @@
         "adjective-no"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "furniture",
         "culture"
@@ -62,6 +71,6 @@
       "domain": []
     },
     "created": "2026-08-22T12:17:21Z",
-    "modified": "2026-08-22T12:17:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "22313_tsuikaryoukin_ex1",
       "japanese": "{追加|ついか}{料金|りょうきん}はかかりますか。",
       "english": "Is there an additional charge?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22313_tsuikaryoukin_ex2",
       "japanese": "{大盛|おおも}りにすると{追加|ついか}{料金|りょうきん}が{百|ひゃく}{円|えん}かかる。",
       "english": "Getting a large portion costs an extra 100 yen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,66 @@
       "id": "22313_tsuikaryoukin_ex3",
       "japanese": "{座席|ざせき}の{指定|してい}には{追加|ついか}{料金|りょうきん}が{必要|ひつよう}ですので、ご{了承|りょうしょう}ください。",
       "english": "Please note that seat reservation requires an additional fee.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A straightforward compound of {追加|ついか} (addition) + {料金|りょうきん} (fee/charge). Very commonly used in everyday situations such as restaurants, hotels, transportation, and subscriptions.\n\nCOMMON COLLOCATIONS:\n- {追加|ついか}{料金|りょうきん}がかかる: an extra charge applies\n- {追加|ついか}{料金|りょうきん}なしで: at no extra charge\n- {追加|ついか}{料金|りょうきん}が{発生|はっせい}する: an additional fee is incurred\n- {追加|ついか}{料金|りょうきん}を{支払|しはら}う: to pay an additional fee\n\nSIMILAR WORDS:\n- {割増|わりまし}{料金|りょうきん}: surcharge — specifically a percentage-based markup\n- {手数料|てすうりょう}: handling fee — for processing or service\n- {延長|えんちょう}{料金|りょうきん}: extension fee — for going over time",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23749_warimashiryoukin",
+      "reading": "わりましりょうきん",
+      "headword": "{割増料金|わりましりょうきん}",
+      "label": "surcharge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05423_tesuuryou",
+      "reading": "てすうりょう",
+      "headword": "{手数料|てすうりょう}",
+      "label": "handling fee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17087_warimashi",
+      "reading": "わりまし",
+      "headword": "{割増|わりまし}",
+      "label": "extra charge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19302_betsuryoukin",
+      "reading": "べつりょうきん",
+      "headword": "{別料金|べつりょうきん}",
+      "label": "extra charge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25444_tsuikahiyou",
+      "reading": "ついかひよう",
+      "headword": "{追加|ついか}{費用|ひよう}",
+      "label": "additional cost"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["money", "business"]
+      "semantic": [
+        "money",
+        "business"
+      ]
     },
     "created": "2026-04-05T18:25:15Z",
-    "modified": "2026-04-05T18:25:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

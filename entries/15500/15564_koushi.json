@@ -19,7 +19,9 @@
       "english": "The minister attended the meeting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15564_koushi_ex2",
@@ -27,7 +29,9 @@
       "english": "He was dispatched as minister plenipotentiary.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15564_koushi_ex3",
@@ -35,7 +39,9 @@
       "english": "During the Meiji era, ministers were dispatched to many countries and diplomatic relations were established.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Composed of {公|こう} (public, official) and {使|し} (envoy, messenger).\n\nIn modern diplomacy, most countries exchange ambassadors ({大使|たいし}) rather than ministers. The rank of {公使|こうし} is now less common but still exists in some diplomatic contexts and appears frequently in historical texts about the Meiji and Taisho periods.\n\nCOMMON COLLOCATIONS:\n- {特命|とくめい}{全権|ぜんけん}{公使|こうし} (minister plenipotentiary)\n- {公使|こうし}を{派遣|はけん}する (to dispatch a minister)\n- {公使|こうし}{館|かん} (legation)\n\nSIMILAR WORDS:\n- {公使|こうし}: minister (lower diplomatic rank)\n- {大使|たいし}: ambassador (highest diplomatic rank)\n- {領事|りょうじ}: consul (handles commercial and citizen affairs)",
@@ -53,19 +59,39 @@
       "reading": "りょうじ",
       "headword": "{領事|りょうじ}",
       "label": "consul"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23491_tokushi",
+      "reading": "とくし",
+      "headword": "{特使|とくし}",
+      "label": "special envoy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23635_tokumeizenkentaishi",
+      "reading": "とくめいぜんけんたいし",
+      "headword": "{特命全権大使|とくめいぜんけんたいし}",
+      "label": "ambassador extraordinary and plenipotentiary"
     }
   ],
   "metadata": {
     "created": "2026-03-07T11:21:01Z",
-    "modified": "2026-05-01T08:11:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"],
-      "domain": ["legal"]
+      "semantic": [
+        "person"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

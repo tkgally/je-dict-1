@@ -17,7 +17,9 @@
       "id": "27189_raiun_ex1",
       "japanese": "{西|にし}の{空|そら}に{雷雲|らいうん}が{見|み}える。",
       "english": "I can see thunderclouds in the western sky.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27189_raiun_ex2",
       "japanese": "{雷雲|らいうん}が{近|ちか}づいてきたので、{外|そと}に{出|で}ないほうがいい。",
       "english": "Thunderclouds are approaching, so you'd better stay inside.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "27189_raiun_ex3",
       "japanese": "{夏|なつ}の{午後|ごご}になると{雷雲|らいうん}が{発達|はったつ}しやすく、{突然|とつぜん}の{雷雨|らいう}になることがある。",
       "english": "On summer afternoons, thunderclouds tend to develop easily, sometimes leading to sudden thunderstorms.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {雷|らい} (thunder/lightning) + {雲|うん} (cloud). Commonly encountered in weather forecasts and everyday conversation about storms, especially during Japan's hot, humid summers when afternoon thunderstorms are frequent.\n\nCOMMON COLLOCATIONS:\n- {雷雲|らいうん}が{発達|はったつ}する: thunderclouds develop\n- {雷雲|らいうん}が{近|ちか}づく: thunderclouds approach\n- {雷雲|らいうん}が{広|ひろ}がる: thunderclouds spread\n- {雷雲|らいうん}の{下|した}: under the thunderclouds\n\nRELATED TERMS:\n- {積乱雲|せきらんうん}: cumulonimbus (the meteorological term for the cloud type)\n- {入道雲|にゅうどうぐも}: towering cumulus cloud (everyday name for large summer clouds)\n- {雷|かみなり}: thunder; lightning\n- {雷雨|らいう}: thunderstorm",
+  "notes": "A compound of {雷|らい} (thunder/lightning) + {雲|うん} (cloud). Commonly encountered in weather forecasts and everyday conversation about storms, especially during Japan's hot, humid summers when afternoon thunderstorms are frequent.\n\nCOMMON COLLOCATIONS:\n- {雷雲|らいうん}が{発達|はったつ}する: thunderclouds develop\n- {雷雲|らいうん}が{近|ちか}づく: thunderclouds approach\n- {雷雲|らいうん}が{広|ひろ}がる: thunderclouds spread\n- {雷雲|らいうん}の{下|した}: under the thunderclouds\n\nRELATED WORDS:\n- {積乱雲|せきらんうん}: cumulonimbus (the meteorological term for the cloud type)\n- {入道雲|にゅうどうぐも}: towering cumulus cloud (everyday name for large summer clouds)\n- {雷|かみなり}: thunder; lightning\n- {雷雨|らいう}: thunderstorm",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27194_sekiranun",
+      "reading": "せきらんうん",
+      "headword": "{積乱雲|せきらんうん}",
+      "label": "cumulonimbus"
+    },
+    {
+      "type": "related",
+      "target_id": "10085_nyuudougumo",
+      "reading": "にゅうどうぐも",
+      "headword": "{入道雲|にゅうどうぐも}",
+      "label": "towering cumulus cloud"
+    },
+    {
+      "type": "related",
+      "target_id": "15922_raiu",
+      "reading": "らいう",
+      "headword": "{雷雨|らいう}",
+      "label": "thunderstorm"
+    },
+    {
+      "type": "related",
+      "target_id": "22808_amagumo",
+      "reading": "あまぐも",
+      "headword": "{雨雲|あまぐも}",
+      "label": "rain cloud"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     },
     "created": "2026-05-07T15:20:06Z",
-    "modified": "2026-05-07T15:20:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

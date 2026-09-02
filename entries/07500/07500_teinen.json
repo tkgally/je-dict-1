@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{定|てい} (fixed, set) + {年|ねん} (age, year)\n\nLiterally \"set age\" - the predetermined age for retirement.\n\nRETIREMENT AGE IN JAPAN:\n・Traditional: 60{歳|さい}\n・Current trend: 65{歳|さい} (due to aging society)\n・Some companies: 70{歳|さい} or later\n\nRELATED CONCEPTS:\n・{定年退職|ていねんたいしょく} - mandatory retirement\n・{早期退職|そうきたいしょく} - early retirement\n・{再雇用|さいこよう} - rehiring (after retirement age)\n・{嘱託|しょくたく} - contract employee (post-retirement)\n\nCOMMON EXPRESSIONS:\n・{定年|ていねん}を{迎|むか}える - to reach retirement age\n・{定年|ていねん}まで{働|はたら}く - to work until retirement\n・{定年|ていねん}{延長|えんちょう} - extending retirement age\n・{定年|ていねん}{引上|ひきあ}げ - raising retirement age\n\nSOCIAL CONTEXT:\nWith Japan's aging population and labor shortage, many companies are:\n- Raising {定年|ていねん} to 65 or 70\n- Offering {再雇用|さいこよう} programs\n- Eliminating mandatory retirement altogether",
+  "notes": "ETYMOLOGY:\n{定|てい} (fixed, set) + {年|ねん} (age, year)\n\nLiterally \"set age\" - the predetermined age for retirement.\n\nRETIREMENT AGE IN JAPAN:\n- Traditional: 60{歳|さい}\n- Current trend: 65{歳|さい} (due to aging society)\n- Some companies: 70{歳|さい} or later\n\nRELATED WORDS:\n- {定年退職|ていねんたいしょく} - mandatory retirement\n- {早期退職|そうきたいしょく} - early retirement\n- {再雇用|さいこよう} - rehiring (after retirement age)\n- {嘱託|しょくたく} - contract employee (post-retirement)\n\nCOMMON EXPRESSIONS:\n- {定年|ていねん}を{迎|むか}える - to reach retirement age\n- {定年|ていねん}まで{働|はたら}く - to work until retirement\n- {定年|ていねん}{延長|えんちょう} - extending retirement age\n- {定年|ていねん}{引上|ひきあ}げ - raising retirement age\n\nCULTURAL NOTE:\nWith Japan's aging population and labor shortage, many companies are:\n- Raising {定年|ていねん} to 65 or 70\n- Offering {再雇用|さいこよう} programs\n- Eliminating mandatory retirement altogether",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,46 @@
       "headword": "{退職金|たいしょくきん}",
       "label": "retirement allowance",
       "target_id": "07959_taishokukin"
+    },
+    {
+      "type": "related",
+      "target_id": "08070_soukitaishoku",
+      "reading": "そうきたいしょく",
+      "headword": "{早期退職|そうきたいしょく}",
+      "label": "early retirement"
+    },
+    {
+      "type": "related",
+      "target_id": "16462_saikoyou",
+      "reading": "さいこよう",
+      "headword": "{再雇用|さいこよう}",
+      "label": "rehiring"
+    },
+    {
+      "type": "related",
+      "target_id": "17155_shokutaku",
+      "reading": "しょくたく",
+      "headword": "{嘱託|しょくたく}",
+      "label": "contract employee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01848_intai",
+      "reading": "いんたい",
+      "headword": "{引退|いんたい}",
+      "label": "retirement"
+    },
+    {
+      "type": "related",
+      "target_id": "24511_shuushinkoyousei",
+      "reading": "しゅうしんこようせい",
+      "headword": "{終身雇用制|しゅうしんこようせい}",
+      "label": "lifetime employment system"
     }
   ],
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-08-10T18:29:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +95,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "work",
         "time-period"

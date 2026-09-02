@@ -4,6 +4,28 @@ Validation script for je-dict-1 dictionary entries.
 
 Validates all entry files against the JSON schema and checks additional
 consistency rules (filename format, directory placement, ID uniqueness).
+
+Modes:
+    python3 build/validate.py                     # whole dictionary
+    python3 build/validate.py --changed-only      # entry files changed vs origin/main
+                                                  # (three-dot diff; falls back to HEAD~1)
+    python3 build/validate.py --range 10000 10499
+    python3 build/validate.py --id 00001_taberu
+
+Ratchet (CI, for the entries a PR touches):
+    python3 build/validate.py --changed-only --ratchet
+
+``--ratchet`` adds ERRORS, for the entries being validated, for: missing/null
+tags.politeness, missing/null tags.formality, missing tags.transitivity on
+verb-godan/verb-ichidan entries, and kana-only furigana braces such as
+``{かな}``; plus a WARNING when part_of_speech is not the canonical rendering of
+tags.pos (see build/normalize_pos.py). Unbalanced or nested furigana braces are
+always an ERROR (pre-existing cases are tolerated via
+build/data/furigana_brace_baseline.json — regenerate with --write-brace-baseline
+after repairs — except under --ratchet), and a pipe-less brace group containing
+kanji (``{稀}``) is always a WARNING. Turn --ratchet on in CI only after the backfill sweeps
+(build/backfill_register.py, build/fix_furigana_format.py) have been applied,
+otherwise every touched legacy entry fails.
 """
 
 import json
@@ -60,6 +82,8 @@ class ValidationResult:
         word_link_warnings: List of (file_path, warning_message) for word link format issues
         pos_consistency_warnings: List of (file_path, warning_message) for part_of_speech vs tags.pos mismatches
         pos_empty_count: Number of entries with empty tags.pos
+        entry_warnings: List of (file_path, warning_message) for furigana-brace
+            warnings and, with --ratchet, part_of_speech rendering warnings
     """
     total_count: int = 0
     valid_count: int = 0
@@ -75,6 +99,7 @@ class ValidationResult:
     word_link_warnings: list[tuple[Path, str]] = field(default_factory=list)
     pos_consistency_warnings: list[tuple[Path, str]] = field(default_factory=list)
     pos_empty_count: int = 0
+    entry_warnings: list[tuple[Path, str]] = field(default_factory=list)
 
 
 def load_schema(schema_path: Path) -> dict:
@@ -127,6 +152,208 @@ def find_mojibake_errors(entry: dict) -> list[str]:
                 f"(corrupted text — reconstruct via build/check_mojibake.py)"
             )
     return errors
+
+
+# --- Furigana brace integrity and per-entry ratchets ---------------------------
+# Unbalanced `{`/`}` and nested groups (`{{誇|ほこ}}り`, `{お{正月|しょうがつ}}`) render as
+# visible junk on the site, so they are hard errors. Legacy cases that predate
+# the check are tolerated through build/data/furigana_brace_baseline.json
+# (entry id -> the field paths that were already broken), regenerated with
+# `python3 build/validate.py --write-brace-baseline` — run that after a repair
+# sweep (build/fix_furigana_format.py --apply fixes the nested class; the
+# unbalanced class needs hand repair) so the tolerated set only ever shrinks.
+# The baseline is ignored under --ratchet: a PR that touches one of these
+# entries must repair it.
+FURIGANA_BRACE_BASELINE = Path(__file__).resolve().parent / 'data' / 'furigana_brace_baseline.json'
+FURIGANA_BRACE_BASELINE_DATA: Optional[dict] = None   # lazily loaded {id: [field paths]}
+
+# Set from --ratchet in main(); read by validate_entry_file() and the warning
+# collectors so every validation mode honours the flag.
+RATCHET = False
+
+KANA_ONLY_BRACE_RE = re.compile(r'\{([ぁ-ゟ゠-ヿゝゞヽヾ]+)(?:\|[^{}]*)?\}')
+NO_PIPE_BRACE_RE = re.compile(r'\{([^{}|]*)\}')
+KANJI_CHAR_RE = re.compile(r'[一-鿿㐀-䶿豈-﫿]')
+VERB_POS_NEEDING_TRANSITIVITY = {'verb-godan', 'verb-ichidan'}
+
+
+def _entry_text_fields(entry: dict):
+    """(field_path, text) for every string outside metadata (ids never carry braces)."""
+    if not isinstance(entry, dict):
+        return
+    for key, value in entry.items():
+        if key == 'metadata':
+            continue
+        yield from _walk_strings(value, str(key))
+
+
+def load_brace_baseline() -> dict:
+    """{entry id: [field paths]} tolerated by the full run (cached; {} if absent)."""
+    global FURIGANA_BRACE_BASELINE_DATA
+    if FURIGANA_BRACE_BASELINE_DATA is None:
+        try:
+            with open(FURIGANA_BRACE_BASELINE, 'r', encoding='utf-8') as f:
+                FURIGANA_BRACE_BASELINE_DATA = (json.load(f) or {}).get('entries', {})
+        except (OSError, json.JSONDecodeError):
+            FURIGANA_BRACE_BASELINE_DATA = {}
+    return FURIGANA_BRACE_BASELINE_DATA
+
+
+def collect_brace_problems(entries_dir: Path) -> dict:
+    """Map entry id -> sorted field paths with unbalanced/nested braces."""
+    out = {}
+    for file_path in sorted(entries_dir.glob('**/*.json')):
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                entry = json.load(f)
+        except (OSError, json.JSONDecodeError):
+            continue
+        fields = sorted(fp for fp, text in _entry_text_fields(entry) if furigana_brace_problem(text))
+        if fields:
+            out[entry.get('id', file_path.stem)] = fields
+    return out
+
+
+def write_brace_baseline(project_root: Path, baseline_path: Path = None) -> int:
+    """Regenerate the furigana-brace baseline from the current entries."""
+    baseline_path = baseline_path or FURIGANA_BRACE_BASELINE
+    data = collect_brace_problems(project_root / 'entries')
+    payload = {
+        "_comment": (
+            "Ratchet baseline for malformed furigana braces (unbalanced or nested "
+            "{...} groups). Maps entry id -> the field paths that were already broken "
+            "when generated; `python3 build/validate.py` tolerates exactly these and "
+            "fails on any other, and `--ratchet` tolerates none. Regenerate after a "
+            "repair sweep (build/fix_furigana_format.py --apply, then hand repairs): "
+            "python3 build/validate.py --write-brace-baseline"
+        ),
+        "generated": datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
+        "entries": data,
+    }
+    baseline_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(baseline_path, 'w', encoding='utf-8') as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2, sort_keys=True)
+        f.write('\n')
+    print(f"Wrote {baseline_path}: {len(data)} entries, "
+          f"{sum(len(v) for v in data.values())} tolerated broken field(s).")
+    return 0
+
+
+def furigana_brace_problem(text: str) -> Optional[str]:
+    """'unbalanced' when the counts differ, a '}' has no opener or a '{' is never
+    closed; 'nested' when a '{' opens inside an open brace group; else None."""
+    if text.count('{') != text.count('}'):
+        return 'unbalanced'
+    depth = 0
+    for ch in text:
+        if ch == '{':
+            depth += 1
+            if depth > 1:
+                return 'nested'
+        elif ch == '}':
+            depth -= 1
+            if depth < 0:
+                return 'unbalanced'
+    return 'unbalanced' if depth else None
+
+
+def find_furigana_brace_errors(entry: dict, ignore_allowlist: bool = False) -> list[str]:
+    """Errors for unbalanced or nested `{...}` groups in any text field.
+
+    Fields baselined in build/data/furigana_brace_baseline.json are tolerated
+    unless ignore_allowlist is set (--ratchet does that, so a touched entry
+    must be repaired).
+    """
+    if not isinstance(entry, dict):
+        return []
+    tolerated = set() if ignore_allowlist else set(load_brace_baseline().get(entry.get('id'), []))
+    errors = []
+    for field_path, text in _entry_text_fields(entry):
+        if field_path in tolerated:
+            continue
+        problem = furigana_brace_problem(text)
+        if problem == 'unbalanced':
+            errors.append(
+                f"Unbalanced furigana braces in '{field_path}': {text.count('{')} '{{' vs "
+                f"{text.count('}')} '}}' (renders as visible junk; repair the wrapper by hand)"
+            )
+        elif problem == 'nested':
+            errors.append(
+                f"Nested furigana braces in '{field_path}' (a '{{' opens inside another group, "
+                f"e.g. {{{{X|y}}}} or {{あご{{ひも}}}}; renders wrong — unnest by hand)"
+            )
+    return errors
+
+
+def find_furigana_brace_warnings(entry: dict) -> list[str]:
+    """Warnings for a pipe-less brace group that contains kanji, e.g. `{稀}`."""
+    warnings = []
+    for field_path, text in _entry_text_fields(entry):
+        if furigana_brace_problem(text):
+            continue
+        for m in NO_PIPE_BRACE_RE.finditer(text):
+            if KANJI_CHAR_RE.search(m.group(1)):
+                warnings.append(
+                    f"Brace group without a reading in '{field_path}': {m.group(0)} "
+                    f"(furigana needs {{kanji|reading}})"
+                )
+    return warnings
+
+
+def find_ratchet_errors(entry: dict) -> list[str]:
+    """--ratchet ERRORS: register tags, verb transitivity, kana-only braces."""
+    if not isinstance(entry, dict):
+        return []
+    errors = []
+    tags = ((entry.get('metadata') or {}).get('tags') or {})
+    if tags.get('politeness') is None:
+        errors.append("tags.politeness is missing/null (set it; 'plain' for ordinary words — "
+                      "see build/backfill_register.py)")
+    if tags.get('formality') is None:
+        errors.append("tags.formality is missing/null (set it; 'neutral' for ordinary words — "
+                      "see build/backfill_register.py)")
+    pos = set(tags.get('pos') or [])
+    if pos & VERB_POS_NEEDING_TRANSITIVITY and tags.get('transitivity') is None:
+        errors.append("tags.transitivity is missing on a godan/ichidan verb "
+                      "(transitive / intransitive / both)")
+    for field_path, text in _entry_text_fields(entry):
+        if furigana_brace_problem(text):
+            continue
+        for m in KANA_ONLY_BRACE_RE.finditer(text):
+            errors.append(
+                f"Kana-only furigana braces in '{field_path}': {m.group(0)} "
+                f"(braces are for kanji only — write {m.group(1)} plainly; "
+                f"see build/fix_furigana_format.py)"
+            )
+    return errors
+
+
+def find_ratchet_warnings(entry: dict) -> list[str]:
+    """--ratchet WARNING: part_of_speech is not the canonical rendering of tags.pos."""
+    if not isinstance(entry, dict):
+        return []
+    try:
+        from normalize_pos import classify
+    except Exception:  # keep the validator usable even if the helper is absent
+        return []
+    result = classify(entry)
+    if result['status'] in ('canonical', 'no-pos-tags'):
+        return []
+    if result['status'] == 'rewrite':
+        return [f"part_of_speech {result['current']!r} is not the canonical rendering of tags.pos "
+                f"(expected {result['canonical']!r}; python3 build/normalize_pos.py --ids <id> --apply)"]
+    return [f"part_of_speech {result['current']!r} disagrees with tags "
+            f"({result['reason']}); reconcile by hand"]
+
+
+def entry_warnings(entry: dict) -> list[str]:
+    """Non-fatal per-entry notes: brace warnings always, ratchet warnings with --ratchet."""
+    if entry is None:
+        return []
+    warnings = find_furigana_brace_warnings(entry)
+    if RATCHET:
+        warnings.extend(find_ratchet_warnings(entry))
+    return warnings
 
 
 def validate_cross_ref_types_sync(schema: dict) -> list[str]:
@@ -202,6 +429,12 @@ def validate_entry_file(file_path: Path, schema: dict, all_ids: set, validator: 
     # validation so the corruption is always reported, even if the entry also
     # has an unrelated schema error.
     errors.extend(find_mojibake_errors(entry))
+    # Broken furigana braces are always errors (legacy cases allow-listed
+    # except under --ratchet); the register/transitivity/kana-brace ratchets
+    # only fire with --ratchet.
+    errors.extend(find_furigana_brace_errors(entry, ignore_allowlist=RATCHET))
+    if RATCHET:
+        errors.extend(find_ratchet_errors(entry))
 
     # Validate against schema - reuse validator if provided
     if validator is None:
@@ -966,6 +1199,11 @@ def validate_all_entries(project_root: Path) -> ValidationResult:
     # Check part_of_speech vs tags.pos consistency
     pos_consistency_warnings, pos_empty_count = check_pos_consistency(entries_data)
 
+    # Furigana-brace warnings (always) and ratchet warnings (--ratchet only)
+    per_entry_warnings = []
+    for file_path, entry in entries_data:
+        per_entry_warnings.extend((file_path, msg) for msg in entry_warnings(entry))
+
     return ValidationResult(
         total_count=total,
         valid_count=valid,
@@ -980,7 +1218,8 @@ def validate_all_entries(project_root: Path) -> ValidationResult:
         word_link_errors=word_link_errors,
         word_link_warnings=word_link_warnings,
         pos_consistency_warnings=pos_consistency_warnings,
-        pos_empty_count=pos_empty_count
+        pos_empty_count=pos_empty_count,
+        entry_warnings=per_entry_warnings,
     )
 
 
@@ -1037,6 +1276,7 @@ def validate_single_entry(entry_path: Path, project_root: Path) -> int:
         link_errors, link_warnings = check_word_links([(entry_path, entry)], all_ids)
         errors.extend(msg for _, msg in link_errors)
         warnings.extend(msg for _, msg in link_warnings)
+        warnings.extend(entry_warnings(entry))
 
     if errors:
         print("Errors found:")
@@ -1093,6 +1333,7 @@ def validate_changed_only(project_root: Path) -> int:
     all_ids = set()
     dictionary_ids = load_all_entry_ids(project_root)
     invalid_files = []
+    warned_files = []
     valid = 0
 
     for rel_path in changed_files:
@@ -1103,6 +1344,9 @@ def validate_changed_only(project_root: Path) -> int:
         if entry is not None:
             link_errors, _ = check_word_links([(file_path, entry)], dictionary_ids)
             errors.extend(msg for _, msg in link_errors)
+            notes = entry_warnings(entry)
+            if notes:
+                warned_files.append((file_path, notes))
         if errors:
             invalid_files.append((file_path, errors))
         else:
@@ -1115,6 +1359,15 @@ def validate_changed_only(project_root: Path) -> int:
             print(f"  {rel_path}:")
             for error in errors:
                 print(f"    - {error}")
+            print()
+
+    if warned_files:
+        print(f"\nWarnings in {len(warned_files)} file(s) (do not fail validation):\n")
+        for file_path, notes in warned_files:
+            rel_path = file_path.relative_to(project_root)
+            print(f"  {rel_path}:")
+            for note in notes:
+                print(f"    - {note}")
             print()
 
     total = valid + len(invalid_files)
@@ -1157,6 +1410,7 @@ def validate_range(project_root: Path, start: int, end: int) -> int:
     all_ids = set()
     dictionary_ids = load_all_entry_ids(project_root)
     invalid_files = []
+    warned_files = []
     valid = 0
     entries_data = []
 
@@ -1165,6 +1419,9 @@ def validate_range(project_root: Path, start: int, end: int) -> int:
         if entry is not None:
             link_errors, _ = check_word_links([(file_path, entry)], dictionary_ids)
             errors.extend(msg for _, msg in link_errors)
+            notes = entry_warnings(entry)
+            if notes:
+                warned_files.append((file_path, notes))
         if errors:
             invalid_files.append((file_path, errors))
         else:
@@ -1191,6 +1448,15 @@ def validate_range(project_root: Path, start: int, end: int) -> int:
                 print(f"    - {error}")
             print()
 
+    if warned_files:
+        print(f"\nWarnings in {len(warned_files)} file(s) (do not fail validation):\n")
+        for file_path, notes in warned_files:
+            rel_path = file_path.relative_to(project_root)
+            print(f"  {rel_path}:")
+            for note in notes:
+                print(f"    - {note}")
+            print()
+
     total = valid + len(invalid_files)
     print(f"Validation complete: {valid}/{total} entries valid in range {start}-{end}")
 
@@ -1208,7 +1474,20 @@ def main():
                         help='Validate only entry files changed since the last commit on main')
     parser.add_argument('--range', nargs=2, metavar=('START', 'END'), type=int,
                         help='Validate entries in a specific numeric ID range (e.g., --range 10000 10499)')
+    parser.add_argument('--write-brace-baseline', action='store_true',
+                        help='Regenerate build/data/furigana_brace_baseline.json (tolerated legacy '
+                             'unbalanced/nested furigana braces) from the current entries and exit')
+    parser.add_argument('--ratchet', action='store_true',
+                        help='Also fail on missing politeness/formality, missing verb transitivity '
+                             'and kana-only furigana braces, and warn on non-canonical part_of_speech '
+                             '(CI: python3 build/validate.py --changed-only --ratchet)')
     args = parser.parse_args()
+
+    global RATCHET
+    RATCHET = bool(args.ratchet)
+
+    if args.write_brace_baseline:
+        return write_brace_baseline(Path(__file__).resolve().parent.parent)
 
     # Determine project root
     script_dir = Path(__file__).parent
@@ -1386,6 +1665,18 @@ def main():
             print(f"\n  ... and {len(result.pos_consistency_warnings) - 10} more.")
         print()
 
+    # Report furigana-brace warnings and (with --ratchet) POS rendering warnings
+    if result.entry_warnings:
+        print(f"\nEntry warnings ({len(result.entry_warnings)} issues):\n")
+        shown = result.entry_warnings[:10]
+        for file_path, warning_msg in shown:
+            rel_path = file_path.relative_to(project_root)
+            print(f"  {rel_path}:")
+            print(f"    - {warning_msg}")
+        if len(result.entry_warnings) > 10:
+            print(f"\n  ... and {len(result.entry_warnings) - 10} more.")
+        print()
+
     # Report POS empty count as informational note
     if result.pos_empty_count > 0:
         print(f"  Note: {result.pos_empty_count}/{result.valid_count} valid entries have empty tags.pos")
@@ -1412,6 +1703,8 @@ def main():
         warnings.append(f"{len(result.word_link_warnings)} word link warnings")
     if result.pos_consistency_warnings:
         warnings.append(f"{len(result.pos_consistency_warnings)} POS consistency warnings")
+    if result.entry_warnings:
+        warnings.append(f"{len(result.entry_warnings)} entry warnings")
     if warnings:
         print(f"  ({', '.join(warnings)})")
 

@@ -2,7 +2,7 @@
   "id": "04769_nyuuryoku",
   "headword": "{入力|にゅうりょく}",
   "reading": "にゅうりょく",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "input",
   "conjugation": {
     "type": "suru",
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "{入力|にゅうりょく} means input or data entry, commonly used in computing contexts.\n\nWORD FORMATION:\n⟦{入|にゅう}→入：noentry⟧ (enter) + ⟦{力|りょく}→力：01661_chikara⟧ (power/force) = entering data\n\nGRAMMAR:\nUsed as a suru verb: {入力|にゅうりょく}⟦する→する：00392_suru⟧ (to input, to enter)\n\nCOMMON EXPRESSIONS:\n- {入力|にゅうりょく}⟦する→する：00392_suru⟧: to input, to enter\n- {入力|にゅうりょく}⟦ミス→ミス：00285_misu⟧: input error, typo\n- {入力|にゅうりょく}⟦フォーム→フォーム：29244_foomu⟧: input form\n- {入力|にゅうりょく}⟦{内容|ないよう}→内容：01482_naiyou⟧: input content\n- ⟦{音声|おんせい}→音声：04445_onsei⟧{入力|にゅうりょく}: voice input\n- ⟦{文字|もじ}→文字：03632_moji⟧{入力|にゅうりょく}: text input\n\nCONTRAST:\n- {入力|にゅうりょく}: input\n- ⟦{出力|しゅつりょく}→出力：04771_shutsuryoku⟧: output",
+  "notes": "{入力|にゅうりょく} means input or data entry, commonly used in computing contexts.\n\nFORMS:\n⟦{入|にゅう}→入：noentry⟧ (enter) + ⟦{力|りょく}→力：01661_chikara⟧ (power/force) = entering data\n\nCOMMON PATTERNS:\nUsed as a suru verb: {入力|にゅうりょく}⟦する→する：00392_suru⟧ (to input, to enter)\n\nCOMMON EXPRESSIONS:\n- {入力|にゅうりょく}⟦する→する：00392_suru⟧: to input, to enter\n- {入力|にゅうりょく}⟦ミス→ミス：00285_misu⟧: input error, typo\n- {入力|にゅうりょく}⟦フォーム→フォーム：29244_foomu⟧: input form\n- {入力|にゅうりょく}⟦{内容|ないよう}→内容：01482_naiyou⟧: input content\n- ⟦{音声|おんせい}→音声：04445_onsei⟧{入力|にゅうりょく}: voice input\n- ⟦{文字|もじ}→文字：03632_moji⟧{入力|にゅうりょく}: text input\n\nSIMILAR WORDS:\n- {入力|にゅうりょく}: input\n- ⟦{出力|しゅつりょく}→出力：04771_shutsuryoku⟧: output",
   "cross_references": [
     {
       "type": "antonym",
@@ -161,11 +161,25 @@
       "headword": "{出力|しゅつりょく}",
       "label": "output",
       "target_id": "04771_shutsuryoku"
+    },
+    {
+      "type": "related",
+      "target_id": "24704_dakenon",
+      "reading": "だけんおん",
+      "headword": "{打鍵音|だけんおん}",
+      "label": "keystroke sound"
+    },
+    {
+      "type": "related",
+      "target_id": "26697_deetanyuuryoku",
+      "reading": "でーたにゅうりょく",
+      "headword": "データ{入力|にゅうりょく}",
+      "label": "data entry"
     }
   ],
   "metadata": {
     "created": "2026-01-16T00:23:38Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

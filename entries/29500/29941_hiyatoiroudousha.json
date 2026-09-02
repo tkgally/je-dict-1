@@ -17,7 +17,9 @@
       "id": "29941_hiyatoiroudousha_ex1",
       "japanese": "{日雇|ひやと}い{労働者|ろうどうしゃ}として{働|はたら}く。",
       "english": "to work as a day laborer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29941_hiyatoiroudousha_ex2",
       "japanese": "{現場|げんば}には{多|おお}くの{日雇|ひやと}い{労働者|ろうどうしゃ}がいた。",
       "english": "There were many day laborers at the work site.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29941_hiyatoiroudousha_ex3",
       "japanese": "{不況|ふきょう}のときは、{日雇|ひやと}い{労働者|ろうどうしゃ}が{仕事|しごと}を{見|み}つけるのは{難|むずか}しい。",
       "english": "In a recession, it is hard for day laborers to find work.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {日雇|ひやと}い ('daily hiring') + {労働者|ろうどうしゃ} ('worker'). Refers to workers engaged by the day, common in construction and manual labor.\n\nCOMMON COLLOCATIONS:\n- {日雇|ひやと}い{労働|ろうどう}: day labor\n- {日雇|ひやと}いで{働|はたら}く: to work by the day\n\nSIMILAR WORDS:\n- {派遣|はけん}{社員|しゃいん}: dispatch/temp worker — employed through an agency, usually longer term\n- {正社員|せいしゃいん}: full-time regular employee — the contrasting status",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18875_hakenshain",
+      "reading": "はけんしゃいん",
+      "headword": "{派遣|はけん}{社員|しゃいん}",
+      "label": "dispatch/temp worker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13194_seishain",
+      "reading": "せいしゃいん",
+      "headword": "{正社員|せいしゃいん}",
+      "label": "full-time regular employee"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["occupation"],
+      "politeness": "plain",
+      "semantic": [
+        "occupation"
+      ],
       "domain": []
     },
     "created": "2026-07-19T00:19:03Z",
-    "modified": "2026-07-19T00:19:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

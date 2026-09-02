@@ -18,7 +18,9 @@
       "english": "To exchange a defective product.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19452_furyouhin_ex2",
@@ -26,7 +28,9 @@
       "english": "Ship after removing the defective products.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19452_furyouhin_ex3",
@@ -34,7 +38,9 @@
       "english": "The product I bought was defective, so I returned it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19452_furyouhin_ex4",
@@ -42,22 +48,43 @@
       "english": "The factory conducts strict inspections to prevent defective products from occurring.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{不良品|ふりょうひん} is a product that fails to meet quality standards due to a manufacturing defect, damage, or malfunction. It is the standard term used in retail, manufacturing, and consumer complaint contexts when referring to items that need to be exchanged or returned.\n\nSTRUCTURE:\n- {不良|ふりょう} (defective, bad) + {品|ひん} (product, goods)\n\nCOMMON COLLOCATIONS:\n- {不良品|ふりょうひん}を{交換|こうかん}する (to exchange a defective product)\n- {不良品|ふりょうひん}を{返品|へんぴん}する (to return a defective product)\n- {不良品|ふりょうひん}が{出|で}る (defective products appear/turn up)\n- {不良品|ふりょうひん}が{混|ま}じる (defective items get mixed in)\n- {不良品|ふりょうひん}{率|りつ} (defect rate)\n\nRELATED WORDS:\n- {良品|りょうひん} (good-quality product)\n- {欠陥|けっかん}{品|ひん} (defective product — more formal, often for serious flaws)\n- {返品|へんぴん} (returned product)",
-  "cross_references": [],
+  "notes": "{不良品|ふりょうひん} is a product that fails to meet quality standards due to a manufacturing defect, damage, or malfunction. It is the standard term used in retail, manufacturing, and consumer complaint contexts when referring to items that need to be exchanged or returned.\n\nCOMMON PATTERNS:\n- {不良|ふりょう} (defective, bad) + {品|ひん} (product, goods)\n\nCOMMON COLLOCATIONS:\n- {不良品|ふりょうひん}を{交換|こうかん}する (to exchange a defective product)\n- {不良品|ふりょうひん}を{返品|へんぴん}する (to return a defective product)\n- {不良品|ふりょうひん}が{出|で}る (defective products appear/turn up)\n- {不良品|ふりょうひん}が{混|ま}じる (defective items get mixed in)\n- {不良品|ふりょうひん}{率|りつ} (defect rate)\n\nRELATED WORDS:\n- {良品|りょうひん} (good-quality product)\n- {欠陥|けっかん}{品|ひん} (defective product — more formal, often for serious flaws)\n- {返品|へんぴん} (returned product)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05465_henpin",
+      "reading": "へんぴん",
+      "headword": "{返品|へんぴん}",
+      "label": "returned product"
+    },
+    {
+      "type": "related",
+      "target_id": "21220_hinshitsukanri",
+      "reading": "ひんしつかんり",
+      "headword": "{品質管理|ひんしつかんり}",
+      "label": "quality control"
+    }
+  ],
   "metadata": {
     "created": "2026-03-25T14:46:00Z",
-    "modified": "2026-03-25T14:46:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

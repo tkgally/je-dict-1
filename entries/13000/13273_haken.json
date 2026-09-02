@@ -3,7 +3,7 @@
   "id": "13273_haken",
   "headword": "{派遣|はけん}",
   "reading": "はけん",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "dispatch; temporary staffing",
   "conjugation": {
     "type": "suru",
@@ -170,10 +170,25 @@
     }
   ],
   "notes": "USAGE:\nSense 1 (dispatch) is used in military, diplomatic, and organizational contexts. Sense 2 (temp staffing) is extremely common in modern Japanese and refers to the {派遣|はけん}{労働|ろうどう} system, where staffing agencies ({派遣|はけん}{会社|がいしゃ}) provide workers to client companies. This became a major social topic during the 2008 financial crisis, when mass layoffs of temp workers ({派遣|はけん}{切|ぎ}り) drew national attention.\n\nCOMMON COLLOCATIONS:\n- {派遣|はけん}する: to dispatch, to send\n- {派遣|はけん}{社員|しゃいん}: temp worker, dispatched employee\n- {派遣|はけん}{会社|がいしゃ}: staffing agency, temp agency\n- {派遣|はけん}{労働|ろうどう}: temporary work, dispatch labor\n- {派遣|はけん}{切|ぎ}り: termination of temp workers\n- {自衛隊|じえいたい}の{派遣|はけん}: dispatch of Self-Defense Forces",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23159_chuuryuu",
+      "reading": "ちゅうりゅう",
+      "headword": "{駐留|ちゅうりゅう}",
+      "label": "stationing (of troops)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25774_chuuryuusuru",
+      "reading": "ちゅうりゅうする",
+      "headword": "{駐留|ちゅうりゅう}する",
+      "label": "to station"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T07:32:36Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

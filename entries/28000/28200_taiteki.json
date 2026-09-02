@@ -17,7 +17,9 @@
       "id": "28200_taiteki_ex1",
       "japanese": "{油断|ゆだん}は{大敵|たいてき}だ。",
       "english": "Carelessness is your worst enemy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28200_taiteki_ex2",
       "japanese": "{乾燥|かんそう}は{肌|はだ}の{大敵|たいてき}だ。",
       "english": "Dryness is the enemy of the skin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28200_taiteki_ex3",
       "japanese": "ダイエット{中|ちゅう}の{人|ひと}にとって、{甘|あま}いものは{大敵|たいてき}だ。",
       "english": "For someone on a diet, sweets are the great enemy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Often used figuratively: not a literal foe, but anything that seriously threatens a goal or condition.\n\nCOMMON COLLOCATIONS:\n- {油断|ゆだん}は{大敵|たいてき}: carelessness is your worst enemy (a common saying)\n- {肌|はだ}の{大敵|たいてき}: the enemy of healthy skin\n- {健康|けんこう}の{大敵|たいてき}: a threat to one's health\n\nSIMILAR WORDS:\n- {強敵|きょうてき}: tough opponent — a strong rival, usually in a contest or fight\n- {天敵|てんてき}: natural enemy — a predator in nature, or figuratively someone one can never beat",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19957_kyouteki",
+      "reading": "きょうてき",
+      "headword": "{強敵|きょうてき}",
+      "label": "tough opponent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15846_tenteki",
+      "reading": "てんてき",
+      "headword": "{天敵|てんてき}",
+      "label": "natural enemy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["general"],
+      "politeness": "plain",
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-27T03:08:15Z",
-    "modified": "2026-05-27T03:08:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

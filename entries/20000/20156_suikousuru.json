@@ -3,7 +3,7 @@
   "headword": "{遂行|すいこう}する",
   "reading": "すいこうする",
   "romaji": "suikousuru",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to accomplish; to carry out; to execute",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,50 @@
   ],
   "notes": "A する-verb from {遂行|すいこう}, a compound of {遂|すい} (accomplish, finally) and {行|こう} (perform). Formal and somewhat stiff; common in business, military, and official contexts. Emphasizes carrying a task through to completion.\n\nTRANSITIVITY:\nTransitive — takes を to mark the task being accomplished.\n\nCOMMON COLLOCATIONS:\n- {任務|にんむ}を{遂行|すいこう}する — to carry out a mission\n- {職務|しょくむ}を{遂行|すいこう}する — to perform one's duties\n- {計画|けいかく}を{遂行|すいこう}する — to execute a plan\n- {作戦|さくせん}を{遂行|すいこう}する — to carry out an operation\n\nSIMILAR WORDS:\n- {実行|じっこう}する — to execute, to carry out (more general, less formal)\n- {履行|りこう}する — to fulfill (specifically obligations and contracts)\n- {達成|たっせい}する — to achieve, to accomplish (focuses on reaching a goal)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22146_jikkousuru",
+      "reading": "じっこうする",
+      "headword": "{実行|じっこう}する",
+      "label": "to execute, to carry out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20155_rikousuru",
+      "reading": "りこうする",
+      "headword": "{履行|りこう}する",
+      "label": "to fulfill"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22183_tasseisuru",
+      "reading": "たっせいする",
+      "headword": "{達成|たっせい}する",
+      "label": "to achieve, to accomplish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22027_kantetsusuru",
+      "reading": "かんてつする",
+      "headword": "{貫徹|かんてつ}する",
+      "label": "to carry out thoroughly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25498_shikkousuru",
+      "reading": "しっこうする",
+      "headword": "{執行|しっこう}する",
+      "label": "to execute"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27007_zokkousuru",
+      "reading": "ぞっこうする",
+      "headword": "{続行|ぞっこう}する",
+      "label": "to continue"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +196,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T15:12:49Z",
-    "modified": "2026-03-28T15:12:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

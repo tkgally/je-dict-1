@@ -3,7 +3,7 @@
   "headword": "{聡明|そうめい}",
   "reading": "そうめい",
   "romaji": "soumei",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "wise; intelligent; clear-headed",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "28251_soumei_ex1",
       "japanese": "{聡明|そうめい}な{女性|じょせい}だ。",
       "english": "She is an intelligent woman.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28251_soumei_ex2",
       "japanese": "{彼|かれ}は{若|わか}いが{聡明|そうめい}で{判断力|はんだんりょく}がある。",
       "english": "He is young but bright and has good judgment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "28251_soumei_ex3",
       "japanese": "{聡明|そうめい}な{彼女|かのじょ}は、{複雑|ふくざつ}な{問題|もんだい}もすぐに{理解|りかい}してしまう。",
       "english": "Being clear-headed, she immediately understands even complicated problems.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A complimentary, somewhat formal word praising a person's intelligence and good judgment. Used of people, not of objects or ideas.\n\nCONJUGATION:\n- Negative: {聡明|そうめい}ではない\n- Te-form: {聡明|そうめい}で\n- Past: {聡明|そうめい}だった\n\nSIMILAR WORDS:\n- {賢|かしこ}い: clever, smart — more everyday and can sound calculating; {聡明|そうめい} is more refined and admiring.\n- {頭|あたま}がいい: smart — casual and neutral, about raw ability.\n- {利口|りこう}: clever, shrewd — often of practical cleverness, and also used of animals.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00192_kashikoi",
+      "reading": "かしこい",
+      "headword": "{賢|かしこ}い",
+      "label": "clever, smart"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20316_atamagaii",
+      "reading": "あたまがいい",
+      "headword": "{頭|あたま}がいい",
+      "label": "smart"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03801_rikou",
+      "reading": "りこう",
+      "headword": "{利口|りこう}",
+      "label": "clever, shrewd"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     },
     "created": "2026-05-28T02:09:06Z",
-    "modified": "2026-05-28T02:09:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

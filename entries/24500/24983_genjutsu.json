@@ -22,7 +22,9 @@
       "id": "24983_genjutsu_ex1",
       "japanese": "{幻術|げんじゅつ}で{観客|かんきゃく}を{驚|おどろ}かせた。",
       "english": "The audience was amazed by the illusionism.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "24983_genjutsu_ex2",
       "japanese": "{忍者|にんじゃ}は{幻術|げんじゅつ}を{使|つか}って{敵|てき}を{欺|あざむ}いた。",
       "english": "The ninja used illusion techniques to deceive the enemy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "24983_genjutsu_ex3",
       "japanese": "{江戸時代|えどじだい}には{幻術|げんじゅつ}{使|つか}いの{話|はなし}が{多|おお}く{語|かた}り{継|つ}がれ、{歌舞伎|かぶき}の{演目|えんもく}にもなった。",
       "english": "During the Edo period, many stories of illusionists were passed down and became kabuki plays.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,15 +52,19 @@
       "id": "24983_genjutsu_ex4",
       "japanese": "{幻術|げんじゅつ}にかかった。",
       "english": "I fell under an illusion spell.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "24983_genjutsu_ex5",
-      "japanese": "この{キャラクター}は{幻術|げんじゅつ}タイプだ。",
+      "japanese": "このキャラクターは{幻術|げんじゅつ}タイプだ。",
       "english": "This character is an illusion-type.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,20 +72,59 @@
       "id": "24983_genjutsu_ex6",
       "japanese": "{相手|あいて}の{幻術|げんじゅつ}を{見破|みやぶ}るには、{強|つよ}い{精神力|せいしんりょく}が{必要|ひつよう}だ。",
       "english": "To see through an opponent's illusion technique, strong willpower is needed.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {幻|げん} (illusion/phantom) and {術|じゅつ} (technique/art). Historically associated with ninja lore and Edo-period entertainment, the word has gained modern prominence through anime and manga, particularly the Naruto series, where it refers to a specific category of ninja abilities.\n\nIn classical Japanese culture, {幻術|げんじゅつ} referred to various tricks and deceptions employed by traveling performers and, in legends, by supernatural beings like foxes ({狐|きつね}) and tanuki ({狸|たぬき}). These creatures were believed to bewitch humans by creating false visions.\n\nCOMMON COLLOCATIONS:\n- {幻術|げんじゅつ}を{使|つか}う: to use illusion magic\n- {幻術|げんじゅつ}にかかる: to fall under an illusion\n- {幻術|げんじゅつ}を{見破|みやぶ}る: to see through an illusion\n- {幻術|げんじゅつ}{使|つか}い: an illusionist\n\nRELATED TERMS:\n- {手品|てじな}: magic tricks; sleight of hand (stage magic)\n- {忍術|にんじゅつ}: ninja techniques\n- {妖術|ようじゅつ}: black magic; sorcery\n- {魔法|まほう}: magic (general term)",
+  "notes": "A compound of {幻|げん} (illusion/phantom) and {術|じゅつ} (technique/art). Historically associated with ninja lore and Edo-period entertainment, the word has gained modern prominence through anime and manga, particularly the Naruto series, where it refers to a specific category of ninja abilities.\n\nIn classical Japanese culture, {幻術|げんじゅつ} referred to various tricks and deceptions employed by traveling performers and, in legends, by supernatural beings like foxes ({狐|きつね}) and tanuki ({狸|たぬき}). These creatures were believed to bewitch humans by creating false visions.\n\nCOMMON COLLOCATIONS:\n- {幻術|げんじゅつ}を{使|つか}う: to use illusion magic\n- {幻術|げんじゅつ}にかかる: to fall under an illusion\n- {幻術|げんじゅつ}を{見破|みやぶ}る: to see through an illusion\n- {幻術|げんじゅつ}{使|つか}い: an illusionist\n\nRELATED WORDS:\n- {手品|てじな}: magic tricks; sleight of hand (stage magic)\n- {忍術|にんじゅつ}: ninja techniques\n- {妖術|ようじゅつ}: black magic; sorcery\n- {魔法|まほう}: magic (general term)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03443_tejina",
+      "reading": "てじな",
+      "headword": "{手品|てじな}",
+      "label": "magic tricks"
+    },
+    {
+      "type": "related",
+      "target_id": "12849_ninjutsu",
+      "reading": "にんじゅつ",
+      "headword": "{忍術|にんじゅつ}",
+      "label": "ninja techniques"
+    },
+    {
+      "type": "related",
+      "target_id": "14640_mahou",
+      "reading": "まほう",
+      "headword": "{魔法|まほう}",
+      "label": "magic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23680_kijutsu",
+      "reading": "きじゅつ",
+      "headword": "{奇術|きじゅつ}",
+      "label": "magic trick"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["culture", "entertainment"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "culture",
+        "entertainment"
+      ]
     },
     "created": "2026-04-22T09:23:53Z",
-    "modified": "2026-04-22T09:23:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -78,8 +78,30 @@
       "notes": null
     }
   ],
-  "notes": "Primarily used for animal training, especially in horse racing where {調教師|ちょうきょうし} (trainer) is an official title. When applied to people, it carries a humorous or ironic tone, implying strict discipline similar to animal training.\n\nCOMMON COLLOCATIONS:\n- {調教師|ちょうきょうし}: animal trainer (especially horse racing)\n- {調教|ちょうきょう}を{受|う}ける: to undergo training\n- {調教|ちょうきょう}が{行|い}き{届|とど}いている: to be well trained\n- {調教|ちょうきょう}する: to train/tame\n\nSIMILAR WORDS:\n- {訓練|くんれん}: training — general purpose, for people or military\n- {しつけ}: discipline — for children or pets, upbringing\n- {飼|か}い{慣|な}らす: to domesticate — focuses on the taming process",
-  "cross_references": [],
+  "notes": "Primarily used for animal training, especially in horse racing where {調教師|ちょうきょうし} (trainer) is an official title. When applied to people, it carries a humorous or ironic tone, implying strict discipline similar to animal training.\n\nCOMMON COLLOCATIONS:\n- {調教師|ちょうきょうし}: animal trainer (especially horse racing)\n- {調教|ちょうきょう}を{受|う}ける: to undergo training\n- {調教|ちょうきょう}が{行|い}き{届|とど}いている: to be well trained\n- {調教|ちょうきょう}する: to train/tame\n\nSIMILAR WORDS:\n- {訓練|くんれん}: training — general purpose, for people or military\n- しつけ: discipline — for children or pets, upbringing\n- {飼|か}い{慣|な}らす: to domesticate — focuses on the taming process",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02673_kunren",
+      "reading": "くんれん",
+      "headword": "{訓練|くんれん}",
+      "label": "training"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10342_shitsuke",
+      "reading": "しつけ",
+      "headword": "{躾|しつけ}",
+      "label": "discipline"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16798_kainarasu",
+      "reading": "かいならす",
+      "headword": "{飼|か}い{慣|な}らす",
+      "label": "to domesticate"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -98,7 +120,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-30T17:12:22Z",
-    "modified": "2026-03-30T17:12:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

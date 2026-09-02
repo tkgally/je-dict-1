@@ -3,7 +3,7 @@
   "headword": "{廃棄|はいき}する",
   "reading": "はいきする",
   "romaji": "haikisuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to discard; to dispose of; to scrap",
   "definitions": [
     {
@@ -45,7 +45,36 @@
     }
   ],
   "notes": "{廃棄|はいき}する is a formal word for disposal, implying proper procedures rather than simply throwing something away. It is common in business, environmental, and legal contexts. When applied to treaties or agreements, it means to abrogate or invalidate them.\n\nCOMMON COLLOCATIONS:\n- {産業|さんぎょう}{廃棄|はいき}{物|ぶつ}: industrial waste\n- {廃棄|はいき}{物|ぶつ}{処理|しょり}: waste disposal\n- {核|かく}{廃棄|はいき}: nuclear disarmament\n- {条約|じょうやく}を{廃棄|はいき}する: to abrogate a treaty\n- {不法|ふほう}{廃棄|はいき}: illegal dumping\n\nSIMILAR WORDS:\n- {捨|す}てる: to throw away — everyday word for discarding, less formal\n- {処分|しょぶん}する: to dispose of; to deal with — broader, includes disposal but also disciplinary action\n- {撤去|てっきょ}する: to remove; to dismantle — focuses on physical removal of structures or equipment",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00892_suteru",
+      "reading": "すてる",
+      "headword": "{捨|す}てる",
+      "label": "to throw away"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05520_shobun",
+      "reading": "しょぶん",
+      "headword": "{処分|しょぶん}",
+      "label": "to dispose of"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21321_tekkyosuru",
+      "reading": "てっきょする",
+      "headword": "{撤去|てっきょ}する",
+      "label": "to remove"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25377_haishutsusuru",
+      "reading": "はいしゅつする",
+      "headword": "{排出|はいしゅつ}する",
+      "label": "to emit"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +83,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "action",
         "nature"
@@ -62,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T16:15:57Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

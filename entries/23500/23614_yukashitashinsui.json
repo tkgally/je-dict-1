@@ -3,7 +3,7 @@
   "headword": "{床下浸水|ゆかしたしんすい}",
   "reading": "ゆかしたしんすい",
   "romaji": "yukashitashinsui",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "below-floor flooding; flooding that reaches under the floor but not into the living space",
   "definitions": [
     {
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {床下|ゆかした} (\"under the floor\") + {浸水|しんすい} (\"flooding, inundation\"). A standard category used by Japanese municipalities, fire departments, and news media when tallying damage from heavy rain or typhoons. Because traditional Japanese homes are built on raised foundations with a crawl space beneath the floor, water can enter that crawl space without reaching the living area; such cases are classified as {床下浸水|ゆかしたしんすい}.\n\nUSAGE:\n- Always appears as a fixed compound; it is not productive as a general verb phrase.\n- Typically used as a suru-verb or a simple noun: {床下浸水|ゆかしたしんすい}する, {床下浸水|ゆかしたしんすい}の{被害|ひがい}.\n- Contrasted with {床上浸水|ゆかうえしんすい}, which is treated as more serious because water enters the living space and damages tatami, flooring, and furniture.\n\nCOMMON COLLOCATIONS:\n- {床下浸水|ゆかしたしんすい}の{被害|ひがい}: damage from below-floor flooding\n- {床下浸水|ゆかしたしんすい}する: to be flooded below floor level\n- {床下浸水|ゆかしたしんすい}が{発生|はっせい}する: below-floor flooding occurs\n- {床下浸水|ゆかしたしんすい}○○{軒|けん}: XX houses with below-floor flooding\n\nCONTRAST WITH:\n- {床上浸水|ゆかうえしんすい}: above-floor flooding — water enters the living space; considered more severe and often triggers disaster assistance\n\nRELATED TERMS:\n- {浸水|しんすい}: flooding, inundation (the general term)\n- {冠水|かんすい}: submersion (typically of roads or fields)\n- {水害|すいがい}: flood damage (broad term)\n- {被害|ひがい}: damage",
+  "notes": "Composed of {床下|ゆかした} (\"under the floor\") + {浸水|しんすい} (\"flooding, inundation\"). A standard category used by Japanese municipalities, fire departments, and news media when tallying damage from heavy rain or typhoons. Because traditional Japanese homes are built on raised foundations with a crawl space beneath the floor, water can enter that crawl space without reaching the living area; such cases are classified as {床下浸水|ゆかしたしんすい}.\n\nUSAGE:\n- Always appears as a fixed compound; it is not productive as a general verb phrase.\n- Typically used as a suru-verb or a simple noun: {床下浸水|ゆかしたしんすい}する, {床下浸水|ゆかしたしんすい}の{被害|ひがい}.\n- Contrasted with {床上浸水|ゆかうえしんすい}, which is treated as more serious because water enters the living space and damages tatami, flooring, and furniture.\n\nCOMMON COLLOCATIONS:\n- {床下浸水|ゆかしたしんすい}の{被害|ひがい}: damage from below-floor flooding\n- {床下浸水|ゆかしたしんすい}する: to be flooded below floor level\n- {床下浸水|ゆかしたしんすい}が{発生|はっせい}する: below-floor flooding occurs\n- {床下浸水|ゆかしたしんすい}○○{軒|けん}: XX houses with below-floor flooding\n\nSIMILAR WORDS:\n- {床上浸水|ゆかうえしんすい}: above-floor flooding — water enters the living space; considered more severe and often triggers disaster assistance\n\nRELATED WORDS:\n- {浸水|しんすい}: flooding, inundation (the general term)\n- {冠水|かんすい}: submersion (typically of roads or fields)\n- {水害|すいがい}: flood damage (broad term)\n- {被害|ひがい}: damage",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23615_yukaueshinsui",
+      "reading": "ゆかうえしんすい",
+      "headword": "{床上浸水|ゆかうえしんすい}",
+      "label": "above-floor flooding"
+    },
+    {
+      "type": "related",
+      "target_id": "20916_kansui",
+      "reading": "かんすい",
+      "headword": "{冠水|かんすい}",
+      "label": "submersion"
+    },
+    {
+      "type": "related",
+      "target_id": "13261_suigai",
+      "reading": "すいがい",
+      "headword": "{水害|すいがい}",
+      "label": "flood damage"
+    },
+    {
+      "type": "related",
+      "target_id": "02572_higai",
+      "reading": "ひがい",
+      "headword": "{被害|ひがい}",
+      "label": "damage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-12T21:18:35Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

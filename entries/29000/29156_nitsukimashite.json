@@ -17,7 +17,9 @@
       "id": "29156_nitsukimashite_ex1",
       "japanese": "この{件|けん}につきましては、{後日|ごじつ}ご{連絡|れんらく}いたします。",
       "english": "Regarding this matter, we will contact you at a later date.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29156_nitsukimashite_ex2",
       "japanese": "ご{質問|しつもん}につきましては、お{電話|でんわ}にてお{答|こた}えいたします。",
       "english": "Regarding your questions, we will respond by telephone.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "29156_nitsukimashite_ex3",
       "japanese": "{今回|こんかい}の{不備|ふび}につきまして、{誠|まこと}に{申|もう}し{訳|わけ}ございません。",
       "english": "We sincerely apologize for the inadequacy on this occasion.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Polite form of について (regarding), formed from につく + ます-form + て. Used in formal written and spoken Japanese, particularly in business and official contexts.\n\nCOMMON PATTERNS:\n- ～につきまして(は): regarding ~; as for ~\n- ～の{件|けん}につきまして: regarding the matter of ~\n\nREGISTER: Formal/polite; the contracted form につきまして alone is already formal; the version with は (につきましては) is used for even greater emphasis or to set up a longer explanation.\n\nSIMILAR WORDS:\n- について: regarding — standard/neutral form\n- に{関|かん}して: regarding, concerning — also formal, slightly more emphatic",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03103_nitsuite",
+      "reading": "について",
+      "headword": "〜について",
+      "label": "regarding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06944_nikanshite",
+      "reading": "にかんして",
+      "headword": "に{関|かん}して",
+      "label": "regarding, concerning"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "formal",
       "politeness": "polite",
-      "semantic": ["grammatical"],
-      "domain": ["business"]
+      "semantic": [
+        "grammatical"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-06-11T21:46:11Z",
-    "modified": "2026-06-11T21:46:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

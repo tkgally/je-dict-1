@@ -17,7 +17,9 @@
       "id": "26123_senyousha_ex1",
       "japanese": "{社長|しゃちょう}の{専用車|せんようしゃ}が{到着|とうちゃく}した。",
       "english": "The president's dedicated car has arrived.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26123_senyousha_ex2",
       "japanese": "{空港|くうこう}までの{送迎|そうげい}{専用車|せんようしゃ}を{手配|てはい}した。",
       "english": "I arranged a dedicated shuttle vehicle to the airport.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,44 @@
       "id": "26123_senyousha_ex3",
       "japanese": "{選手団|せんしゅだん}は{大会|たいかい}{専用車|せんようしゃ}で{会場|かいじょう}に{移動|いどう}した。",
       "english": "The team traveled to the venue in vehicles dedicated to the tournament.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {専用|せんよう} (exclusive use; dedicated) and {車|しゃ} (vehicle; car). Can refer to a personal vehicle assigned to a VIP, a vehicle designated for a specific task, or a train car reserved for a particular purpose.\n\nCOMMON COLLOCATIONS:\n- {社長|しゃちょう}{専用車|せんようしゃ}: company president's car\n- {送迎|そうげい}{専用車|せんようしゃ}: dedicated shuttle vehicle\n- {女性|じょせい}{専用車|せんようしゃ}: women-only train car\n- {専用車|せんようしゃ}を{用意|ようい}する: to prepare a dedicated vehicle\n\nSIMILAR WORDS:\n- {社用車|しゃようしゃ}: company car — a car owned by a company for business use\n- {公用車|こうようしゃ}: official vehicle — used by government officials\n- {自家用車|じかようしゃ}: private car — a personally owned vehicle for personal use",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30053_shayousha",
+      "reading": "しゃようしゃ",
+      "headword": "{社用車|しゃようしゃ}",
+      "label": "company car"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23550_jikayousha",
+      "reading": "じかようしゃ",
+      "headword": "{自家用車|じかようしゃ}",
+      "label": "private car"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["transportation"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-04-29T13:43:42Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

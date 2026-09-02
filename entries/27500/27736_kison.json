@@ -3,7 +3,7 @@
   "headword": "{既存|きそん}",
   "reading": "きそん",
   "romaji": "kison",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "existing; pre-existing",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "27736_kison_ex1",
       "japanese": "{既存|きそん}の{制度|せいど}を{見直|みなお}す。",
       "english": "To review the existing system.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27736_kison_ex2",
       "japanese": "{新|あたら}しい{案|あん}は{既存|きそん}のものより{優|すぐ}れている。",
       "english": "The new proposal is better than the existing one.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "27736_kison_ex3",
       "japanese": "{既存|きそん}の{建物|たてもの}を{壊|こわ}さずに{改装|かいそう}して{利用|りよう}する。",
       "english": "We will renovate and use the existing building rather than demolishing it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {既|き} (already) + {存|そん} (to exist). Refers to what already exists, in contrast to something new. Read きそん, though きぞん is sometimes heard colloquially.\n\nUSAGE:\nAlmost always used attributively, with の before a noun:\n- {既存|きそん}のシステム: the existing system\n- {既存|きそん}の{建物|たてもの}: an existing building\n- {既存|きそん}の{顧客|こきゃく}: existing customers\n\nSIMILAR WORDS:\n- {現行|げんこう}: current; in force — used for rules and systems currently in effect\n- {従来|じゅうらい}: conventional; up to now — emphasizes 'as it has been until now'",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13503_genkou",
+      "reading": "げんこう",
+      "headword": "{現行|げんこう}",
+      "label": "current"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12511_juurai",
+      "reading": "じゅうらい",
+      "headword": "{従来|じゅうらい}",
+      "label": "conventional"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-05-17T04:06:49Z",
-    "modified": "2026-05-17T04:06:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

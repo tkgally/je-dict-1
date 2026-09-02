@@ -17,7 +17,9 @@
       "id": "26158_kenchikuchuu_ex1",
       "japanese": "この{建物|たてもの}は{建築中|けんちくちゅう}です。",
       "english": "This building is under construction.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26158_kenchikuchuu_ex2",
       "japanese": "{建築中|けんちくちゅう}のマンションが{駅前|えきまえ}に{増|ふ}えている。",
       "english": "Apartment buildings under construction are increasing in front of the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,50 @@
       "id": "26158_kenchikuchuu_ex3",
       "japanese": "{建築中|けんちくちゅう}のため、この{道路|どうろ}は{通行止|つうこうど}めになっています。",
       "english": "Due to construction, this road is closed to traffic.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {建築|けんちく} (architecture, construction of buildings) + {中|ちゅう} (in the middle of, during). Specifically refers to the construction of buildings and structures, as opposed to {工事中|こうじちゅう} which covers all types of construction work including road work and repairs.\n\nThe suffix {中|ちゅう} attaches to many nouns to indicate an ongoing state: {営業中|えいぎょうちゅう} (open for business), {準備中|じゅんびちゅう} (in preparation), {修理中|しゅうりちゅう} (under repair).\n\nCOMMON COLLOCATIONS:\n- {建築中|けんちくちゅう}の{建物|たてもの}: building under construction\n- {建築中|けんちくちゅう}のマンション: apartment building under construction\n- {現在|げんざい}{建築中|けんちくちゅう}: currently under construction\n\nSIMILAR WORDS:\n- {工事中|こうじちゅう}: under construction/repair — broader, includes road work, renovations, repairs\n- {建設中|けんせつちゅう}: under construction — very similar, slightly more formal; used for large-scale projects\n- {改装中|かいそうちゅう}: under renovation — for remodeling existing structures",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09625_koujichuu",
+      "reading": "こうじちゅう",
+      "headword": "{工事中|こうじちゅう}",
+      "label": "under construction/repair"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22326_kensetsuchuu",
+      "reading": "けんせつちゅう",
+      "headword": "{建設中|けんせつちゅう}",
+      "label": "under construction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24572_kaisouchuu",
+      "reading": "かいそうちゅう",
+      "headword": "{改装中|かいそうちゅう}",
+      "label": "under renovation"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["building"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "building"
+      ]
     },
     "created": "2026-04-29T15:31:19Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

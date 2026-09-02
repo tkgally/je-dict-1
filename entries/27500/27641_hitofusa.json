@@ -17,7 +17,9 @@
       "id": "27641_hitofusa_ex1",
       "japanese": "ぶどうを{一房|ひとふさ}{買|か}った。",
       "english": "I bought one bunch of grapes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27641_hitofusa_ex2",
       "japanese": "バナナが{一房|ひとふさ}{冷蔵庫|れいぞうこ}にある。",
       "english": "There's a bunch of bananas in the fridge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,39 @@
       "id": "27641_hitofusa_ex3",
       "japanese": "{巨峰|きょほう}を{一房|ひとふさ}まるごと{食|た}べきってしまった。",
       "english": "I ended up eating a whole bunch of Kyoho grapes by myself.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{一|ひと} (one) + {房|ふさ} (bunch, cluster, tassel). The counter {房|ふさ} is used for items that hang in clusters.\n\nCOUNTING WITH {房|ふさ}:\n- {一房|ひとふさ}: one bunch\n- {二房|ふたふさ}: two bunches\n- {三房|みふさ}: three bunches (also {さんぼう})\n- {何房|なんふさ}: how many bunches\n\nTYPICAL USES:\n- ぶどう{一房|ひとふさ}: a bunch of grapes\n- バナナ{一房|ひとふさ}: a bunch of bananas\n- {髪|かみ}の{毛|け}{一房|ひとふさ}: a lock of hair\n- {藤|ふじ}の{花|はな}{一房|ひとふさ}: a cluster of wisteria blossoms\n\nSIMILAR COUNTERS:\n- {一束|ひとたば}: a bundle — used for tied items (vegetables, flowers, banknotes)\n- {一粒|ひとつぶ}: a single grain — for the individual berries within a cluster",
+  "notes": "{一|ひと} (one) + {房|ふさ} (bunch, cluster, tassel). The counter {房|ふさ} is used for items that hang in clusters.\n\nCOUNTING WITH {房|ふさ}:\n- {一房|ひとふさ}: one bunch\n- {二房|ふたふさ}: two bunches\n- {三房|みふさ}: three bunches (also さんぼう)\n- {何房|なんふさ}: how many bunches\n\nTYPICAL USES:\n- ぶどう{一房|ひとふさ}: a bunch of grapes\n- バナナ{一房|ひとふさ}: a bunch of bananas\n- {髪|かみ}の{毛|け}{一房|ひとふさ}: a lock of hair\n- {藤|ふじ}の{花|はな}{一房|ひとふさ}: a cluster of wisteria blossoms\n\nSIMILAR WORDS:\n- {一束|ひとたば}: a bundle — used for tied items (vegetables, flowers, banknotes)\n- {一粒|ひとつぶ}: a single grain — for the individual berries within a cluster",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27642_hitotsubu",
+      "reading": "ひとつぶ",
+      "headword": "{一粒|ひとつぶ}",
+      "label": "a single grain"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["counting", "food"],
+      "politeness": "plain",
+      "semantic": [
+        "counting",
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-05-15T04:12:19Z",
-    "modified": "2026-05-15T04:12:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "id": "12904_sesshoku",
   "headword": "{接触|せっしょく}",
   "reading": "せっしょく",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "contact, touch",
   "conjugation": {
     "type": "suru",
@@ -170,10 +170,25 @@
     }
   ],
   "notes": "USAGE:\nUsed as both a noun and a suru verb. Sense 1 describes physical contact between objects or surfaces. Sense 2 describes interpersonal or cross-cultural contact and interaction. The word became widely familiar during the COVID-19 pandemic through the term {濃厚接触|のうこうせっしょく} (close contact).\n\nCOMMON COLLOCATIONS:\n- {接触|せっしょく}{事故|じこ}: contact accident, fender bender\n- {濃厚|のうこう}{接触|せっしょく}: close contact (epidemiology)\n- {接触|せっしょく}を{図|はか}る: to attempt contact\n- {接触|せっしょく}を{避|さ}ける: to avoid contact\n\nSIMILAR WORDS:\n- {接点|せってん}: point of contact, connection point\n- {触|ふ}れる: to touch (physical, more everyday)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12945_setten",
+      "reading": "せってん",
+      "headword": "{接点|せってん}",
+      "label": "point of contact, connection point"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01984_fureru",
+      "reading": "ふれる",
+      "headword": "{触|ふ}れる",
+      "label": "to touch"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T14:25:34Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

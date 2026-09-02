@@ -17,7 +17,9 @@
       "id": "26193_oyashiki_ex1",
       "japanese": "{丘|おか}の{上|うえ}にお{屋敷|やしき}が{見|み}える。",
       "english": "You can see a mansion on the hill.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26193_oyashiki_ex2",
       "japanese": "あのお{屋敷|やしき}には{広|ひろ}い{庭園|ていえん}がある。",
       "english": "That mansion has a spacious garden.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,44 @@
       "id": "26193_oyashiki_ex3",
       "japanese": "{江戸時代|えどじだい}の{武家|ぶけ}のお{屋敷|やしき}が{今|いま}でも{観光地|かんこうち}として{残|のこ}っている。",
       "english": "Some samurai mansions from the Edo period still remain as tourist sites today.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The polite prefix お adds refinement and is standard when referring to mansions or grand residences. Without the prefix, {屋敷|やしき} alone can refer to any large dwelling but sounds more neutral or historical. In modern usage, お{屋敷|やしき} often evokes old money, traditional architecture, or historical estates.\n\nCOMMON COLLOCATIONS:\n- お{屋敷|やしき}{街|まち} — upscale residential neighborhood\n- お{屋敷|やしき}{町|まち} — mansion district (historical)\n- {古|ふる}いお{屋敷|やしき} — old mansion\n- {立派|りっぱ}なお{屋敷|やしき} — splendid mansion\n\nSIMILAR WORDS:\n- {屋敷|やしき} — mansion, estate (without polite prefix)\n- {邸宅|ていたく} — residence, mansion (formal, written style)\n- {豪邸|ごうてい} — grand mansion (emphasizes luxury and size)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14434_teitaku",
+      "reading": "ていたく",
+      "headword": "{邸宅|ていたく}",
+      "label": "residence, mansion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18158_goutei",
+      "reading": "ごうてい",
+      "headword": "{豪邸|ごうてい}",
+      "label": "grand mansion"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["building", "daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "building",
+        "daily-life"
+      ]
     },
     "created": "2026-04-30T11:27:39Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{文通|ぶんつう}",
   "reading": "ぶんつう",
   "romaji": "buntsuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "correspondence; exchanging letters; pen pal relationship",
   "definitions": [
     {
@@ -45,6 +45,22 @@
     }
   ],
   "notes": "The practice of exchanging letters with someone on a regular basis. Combines {文|ぶん} (writing, letter) and {通|つう} (pass through, communicate).\n\nUSAGE:\n- Traditionally refers to exchanging physical letters, especially as pen pals\n- Was very popular among Japanese students in the Showa and Heisei eras as a way to make friends\n- Used with する to form the verb: {文通|ぶんつう}する (to correspond, to exchange letters)\n- While email and messaging have largely replaced physical letter writing, the word is still understood and occasionally used\n\nCOMMON COLLOCATIONS:\n- {文通|ぶんつう}する: to correspond by letter\n- {文通|ぶんつう}{相手|あいて}: pen pal, correspondent\n- {文通|ぶんつう}を{始|はじ}める: to start corresponding\n- {文通|ぶんつう}を{続|つづ}ける: to continue corresponding\n\nSIMILAR WORDS:\n- ペンパル: pen pal — the loanword, referring specifically to the person\n- {通信|つうしん}: communication, correspondence — broader; includes all forms of communication\n- {書簡|しょかん}: written correspondence, letters — more formal and literary",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03514_tsuushin",
+      "reading": "つうしん",
+      "headword": "{通信|つうしん}",
+      "label": "communication, correspondence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20091_shokan",
+      "reading": "しょかん",
+      "headword": "{書簡|しょかん}",
+      "label": "written correspondence, letters"
+    }
+  ],
   "metadata": {
     "entry_id": "21718_buntsuu",
     "schema_version": "2.0",
@@ -56,6 +72,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "communication"
       ],
@@ -63,7 +80,7 @@
       "usage": [],
       "verb_class": "suru"
     },
-    "modified": "2026-04-02T22:14:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

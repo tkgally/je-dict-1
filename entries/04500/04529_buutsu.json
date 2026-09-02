@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "ブーツ (from English \"boots\") refers to footwear that covers the ankle and often extends up the leg.\n\nCOMMON TYPES:\n- ⟦ロングブーツ→ロングブーツ：noentry⟧ (knee-high boots)\n- ⟦ショートブーツ→ショートブーツ：noentry⟧ (ankle boots)\n- ⟦ムートンブーツ→ムートンブーツ：noentry⟧ (sheepskin/UGG-style boots)\n- ⟦レインブーツ→レインブーツ：noentry⟧ (rain boots)\n- ⟦スノーブーツ→スノーブーツ：noentry⟧ (snow boots)\n\nCOMMON COLLOCATIONS:\n- ブーツ⟦を→を：00422_wo⟧⟦{履|は}く→履く：00700_haku⟧ (to wear boots)\n- ブーツ⟦を→を：00422_wo⟧⟦{脱|ぬ}ぐ→脱ぐ：00518_nugu⟧ (to take off boots)\n- ⟦レザー→レザー：noentry⟧ブーツ (leather boots)\n\nRELATED:\n- ⟦{長靴|ながぐつ}→長靴：17966_nagagutsu⟧: tall rubber boots (traditional Japanese word for rain boots)\n- ⟦{靴|くつ}→靴：00725_kutsu⟧: shoes (general)\n\nCOUNTER:\n⟦{足|そく}→足：00992_soku⟧ for pairs: ブーツ⟦{一足|いっそく}→足：00992_soku⟧ (one pair of boots).",
-  "cross_references": [],
+  "notes": "ブーツ (from English \"boots\") refers to footwear that covers the ankle and often extends up the leg.\n\nTYPES:\n- ⟦ロングブーツ→ロングブーツ：noentry⟧ (knee-high boots)\n- ⟦ショートブーツ→ショートブーツ：noentry⟧ (ankle boots)\n- ⟦ムートンブーツ→ムートンブーツ：noentry⟧ (sheepskin/UGG-style boots)\n- ⟦レインブーツ→レインブーツ：noentry⟧ (rain boots)\n- ⟦スノーブーツ→スノーブーツ：noentry⟧ (snow boots)\n\nCOMMON COLLOCATIONS:\n- ブーツ⟦を→を：00422_wo⟧⟦{履|は}く→履く：00700_haku⟧ (to wear boots)\n- ブーツ⟦を→を：00422_wo⟧⟦{脱|ぬ}ぐ→脱ぐ：00518_nugu⟧ (to take off boots)\n- ⟦レザー→レザー：noentry⟧ブーツ (leather boots)\n\nRELATED WORDS:\n- ⟦{長靴|ながぐつ}→長靴：17966_nagagutsu⟧: tall rubber boots (traditional Japanese word for rain boots)\n- ⟦{靴|くつ}→靴：00725_kutsu⟧: shoes (general)\n\nCOUNTER:\n⟦{足|そく}→足：00992_soku⟧ for pairs: ブーツ⟦{一足|いっそく}→足：00992_soku⟧ (one pair of boots).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17966_nagagutsu",
+      "reading": "ながぐつ",
+      "headword": "{長靴|ながぐつ}",
+      "label": "tall rubber boots"
+    },
+    {
+      "type": "related",
+      "target_id": "00725_kutsu",
+      "reading": "くつ",
+      "headword": "{靴|くつ}",
+      "label": "shoes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10962_shuuzu",
+      "reading": "しゅーず",
+      "headword": "シューズ",
+      "label": "shoes"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T18:59:13Z",
-    "modified": "2026-05-31T21:07:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

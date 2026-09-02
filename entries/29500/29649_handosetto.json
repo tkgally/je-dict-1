@@ -17,7 +17,9 @@
       "id": "29649_handosetto_ex1",
       "japanese": "ハンドセットを{取|と}る。",
       "english": "To pick up the handset.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29649_handosetto_ex2",
       "japanese": "ハンドセットを{置|お}くと{通話|つうわ}が{切|き}れる。",
       "english": "When you put down the handset, the call ends.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "29649_handosetto_ex3",
       "japanese": "この{電話機|でんわき}はハンドセットとコードが{分離|ぶんり}できる。",
       "english": "On this telephone, the handset can be detached from the cord.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A loanword from English \"handset,\" referring to the part of a telephone you hold to your ear and mouth. In technical and telecom contexts it can also refer to a mobile device as a whole.\n\nCOMMON COLLOCATIONS:\n- ハンドセットを{取|と}る: to pick up the handset\n- ハンドセットを{置|お}く: to hang up the handset\n- コードレスハンドセット: a cordless handset\n\nSIMILAR WORDS:\n- {受話器|じゅわき}: telephone receiver — the common native term for the same part\n- {子機|こき}: cordless handset (extension) — the portable unit of a cordless phone",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15742_juwaki",
+      "reading": "じゅわき",
+      "headword": "{受話器|じゅわき}",
+      "label": "telephone receiver"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["electronics"],
+      "politeness": "plain",
+      "semantic": [
+        "electronics"
+      ],
       "domain": []
     },
     "created": "2026-07-03T00:20:10Z",
-    "modified": "2026-07-03T00:20:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

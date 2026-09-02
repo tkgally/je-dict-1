@@ -17,7 +17,9 @@
       "id": "20181_chuuyou_ex1",
       "japanese": "{中庸|ちゅうよう}を{保|たも}つ。",
       "english": "To maintain moderation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20181_chuuyou_ex2",
       "japanese": "{何事|なにごと}も{中庸|ちゅうよう}が{大切|たいせつ}だ。",
       "english": "Moderation is important in everything.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,59 @@
       "id": "20181_chuuyou_ex3",
       "japanese": "{中庸|ちゅうよう}の{精神|せいしん}を{忘|わす}れず、{極端|きょくたん}な{判断|はんだん}を{避|さ}けるべきだ。",
       "english": "We should not forget the spirit of moderation and avoid extreme judgments.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A concept rooted in Confucian philosophy, referring to the ideal of balance and avoiding extremes. {中庸|ちゅうよう} is also the title of one of the {四書|ししょ} (Four Books) of Confucianism, known in English as \"The Doctrine of the Mean.\"\n\nCOMMON COLLOCATIONS:\n- {中庸|ちゅうよう}を{保|たも}つ: to maintain moderation\n- {中庸|ちゅうよう}を{得|え}る: to find the middle ground\n- {中庸|ちゅうよう}の{精神|せいしん}: the spirit of moderation\n- {中庸|ちゅうよう}の{徳|とく}: the virtue of moderation\n\nSIMILAR WORDS:\n- {節度|せつど}: moderation, restraint — focuses on self-control in behavior\n- {均衡|きんこう}: equilibrium, balance — more technical, about balanced states\n\n{中庸|ちゅうよう} carries philosophical weight, suggesting a principled avoidance of extremes rather than simple moderation.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13769_setsudo",
+      "reading": "せつど",
+      "headword": "{節度|せつど}",
+      "label": "moderation, restraint"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05217_kinkou",
+      "reading": "きんこう",
+      "headword": "{均衡|きんこう}",
+      "label": "equilibrium, balance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21635_onken",
+      "reading": "おんけん",
+      "headword": "{穏健|おんけん}",
+      "label": "moderate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25985_baransukankaku",
+      "reading": "ばらんすかんかく",
+      "headword": "バランス{感覚|かんかく}",
+      "label": "sense of balance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["abstract", "philosophy"]
+      "semantic": [
+        "abstract",
+        "philosophy"
+      ]
     },
     "created": "2026-03-28T16:15:01Z",
-    "modified": "2026-03-28T16:15:01Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

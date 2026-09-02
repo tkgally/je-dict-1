@@ -3,7 +3,7 @@
   "headword": "発語",
   "reading": "はつご",
   "romaji": "hatsugo",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "utterance; articulation; speaking",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Formed from {発|はつ} (to emit) + {語|ご} (word). A somewhat technical term, common in {言語|げんご}{発達|はったつ} (language development) and speech therapy.\n\nCOMMON COLLOCATIONS:\n- {発語|はつご}{障害|しょうがい}: speech impairment\n- {初|はじ}めての{発語|はつご}: first words\n\nSIMILAR WORDS:\n- {発話|はつわ}: utterance — the more standard linguistics term\n- {発音|はつおん}: pronunciation — focuses on the sounds, not the act of speaking",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27124_hatsuwa",
+      "reading": "はつわ",
+      "headword": "{発話|はつわ}",
+      "label": "utterance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01698_hatsuon",
+      "reading": "はつおん",
+      "headword": "{発音|はつおん}",
+      "label": "pronunciation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "communication"
       ],
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-22T12:20:02Z",
-    "modified": "2026-07-22T12:20:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

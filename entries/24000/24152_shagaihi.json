@@ -3,7 +3,7 @@
   "headword": "{社外秘|しゃがいひ}",
   "reading": "しゃがいひ",
   "romaji": "shagaihi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "confidential; for internal use only; company secret",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "24152_shagaihi_ex1",
       "japanese": "この{資料|しりょう}は{社外秘|しゃがいひ}です。",
       "english": "This document is confidential.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24152_shagaihi_ex2",
       "japanese": "{社外秘|しゃがいひ}の{情報|じょうほう}を{漏|も}らしてはいけない。",
       "english": "You must not leak confidential company information.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "24152_shagaihi_ex3",
       "japanese": "{社外秘|しゃがいひ}と{書|か}かれた{封筒|ふうとう}を{受|う}け{取|と}った。",
       "english": "I received an envelope marked 'confidential.'",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,52 @@
       "id": "24152_shagaihi_ex4",
       "japanese": "この{企画書|きかくしょ}は{社外秘|しゃがいひ}{扱|あつか}いでお{願|ねが}いします。",
       "english": "Please treat this proposal as confidential.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {社外|しゃがい} (outside the company) and {秘|ひ} (secret, confidential). The word literally means \"secret from those outside the company\" and is used as a classification stamp on documents.\n\nJapanese companies typically use a hierarchy of confidentiality labels. From least to most restrictive: {社外秘|しゃがいひ} (not to be shared outside the company), {部外秘|ぶがいひ} (not to be shared outside the department), and {極秘|ごくひ} (top secret). {社外秘|しゃがいひ} is the most commonly encountered level.\n\nCOMMON COLLOCATIONS:\n- {社外秘|しゃがいひ}の{資料|しりょう}: confidential documents\n- {社外秘|しゃがいひ}{扱|あつか}い: treated as confidential\n- {社外秘|しゃがいひ}{情報|じょうほう}: confidential information\n- {社外秘|しゃがいひ}を{漏|も}らす: to leak confidential information\n\nSIMILAR WORDS:\n- {部外秘|ぶがいひ}: restricted to one's own department — more restrictive, limited to a specific division\n- {極秘|ごくひ}: top secret, strictly confidential — the highest level of secrecy\n- {機密|きみつ}: classified, confidential — a broader, more general term for secrecy, not limited to corporate contexts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13162_gokuhi",
+      "reading": "ごくひ",
+      "headword": "{極秘|ごくひ}",
+      "label": "top secret, strictly confidential"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13179_kimitsu",
+      "reading": "きみつ",
+      "headword": "{機密|きみつ}",
+      "label": "classified, confidential"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27190_naibujouhou",
+      "reading": "ないぶじょうほう",
+      "headword": "{内部情報|ないぶじょうほう}",
+      "label": "internal information"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-04-17T20:11:16Z",
-    "modified": "2026-04-17T20:11:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

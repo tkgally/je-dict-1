@@ -17,7 +17,9 @@
       "id": "27852_kutsumigaki_ex1",
       "japanese": "{毎朝|まいあさ}{靴磨|くつみが}きをする。",
       "english": "I polish my shoes every morning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27852_kutsumigaki_ex2",
       "japanese": "{駅前|えきまえ}に{靴磨|くつみが}きの{店|みせ}がある。",
       "english": "There's a shoeshine stand in front of the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "27852_kutsumigaki_ex3",
       "japanese": "{大事|だいじ}な{面接|めんせつ}の{前|まえ}に、{丁寧|ていねい}に{靴磨|くつみが}きをした。",
       "english": "Before the important interview, I carefully polished my shoes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {靴|くつ} (shoes) + {磨|みが}き (polishing). Refers to the activity, the supplies, or the person who shines shoes. Used with する to mean 'to polish shoes'.\n\nCOMMON COLLOCATIONS:\n- {靴磨|くつみが}きをする: to polish shoes\n- {靴磨|くつみが}きセット: a shoeshine kit\n- {靴磨|くつみが}きの{道具|どうぐ}: shoe-polishing tools",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02427_migaku",
+      "reading": "みがく",
+      "headword": "{磨|みが}く",
+      "label": "to polish, to brush"
+    },
+    {
+      "type": "related",
+      "target_id": "15433_kawagutsu",
+      "reading": "かわぐつ",
+      "headword": "{革靴|かわぐつ}",
+      "label": "leather shoes"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["daily-life"],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life"
+      ],
       "domain": []
     },
     "created": "2026-05-21T03:11:38Z",
-    "modified": "2026-05-21T03:11:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

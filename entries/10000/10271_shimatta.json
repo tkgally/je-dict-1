@@ -18,7 +18,9 @@
       "english": "Oh no, I forgot!",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10271_shimatta_ex2",
@@ -26,7 +28,9 @@
       "english": "Darn it, I forgot to lock the door.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10271_shimatta_ex3",
@@ -34,10 +38,12 @@
       "english": "Oh no, I missed the train.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Derived from the past tense of {仕舞|しま}う (to finish/put away), but used independently as an interjection. The literal sense is that something undesirable has been completed and cannot be undone.\n\nUsed when reacting to one's own mistakes or oversights. Can be said aloud or as an internal thought.\n\nRELATED EXPRESSIONS:\n- しまった！ — standard expression of regret\n- しまったな — softer, more reflective (male speech)\n- やってしまった — I've done it (expressing regret about a completed action)",
+  "notes": "Derived from the past tense of {仕舞|しま}う (to finish/put away), but used independently as an interjection. The literal sense is that something undesirable has been completed and cannot be undone.\n\nUsed when reacting to one's own mistakes or oversights. Can be said aloud or as an internal thought.\n\nRELATED WORDS:\n- しまった！ — standard expression of regret\n- しまったな — softer, more reflective (male speech)\n- やってしまった — I've done it (expressing regret about a completed action)",
   "prominent_see_also": [
     {
       "target_id": "10272_yatta",
@@ -53,17 +59,35 @@
       "reading": "しまう",
       "headword": "{仕舞|しま}う",
       "label": "base verb"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17645_yarakashita",
+      "reading": "やらかした",
+      "headword": "やらかした",
+      "label": "I messed up, I screwed up"
+    },
+    {
+      "type": "related",
+      "target_id": "18456_chikushou",
+      "reading": "ちくしょう",
+      "headword": "ちくしょう",
+      "label": "damn it!"
     }
   ],
   "metadata": {
     "created": "2026-02-05T18:04:44Z",
-    "modified": "2026-04-24T06:24:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["interjection"],
+      "pos": [
+        "interjection"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

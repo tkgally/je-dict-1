@@ -24,7 +24,9 @@
       "english": "My spine is curved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17397_sebone_ex2",
@@ -32,7 +34,9 @@
       "english": "I fell and hurt my spine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17397_sebone_ex3",
@@ -40,7 +44,9 @@
       "english": "Poor posture puts strain on the spine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17397_sebone_ex4",
@@ -48,7 +54,9 @@
       "english": "Manufacturing is the backbone of this country's economy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "17397_sebone_ex5",
@@ -56,7 +64,9 @@
       "english": "He is the backbone of the organization.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "17397_sebone_ex6",
@@ -64,7 +74,9 @@
       "english": "A plan without a backbone will fail.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {背|せ} (back) and {骨|ほね} (bone). In its literal sense, it is the everyday word for spine. The figurative sense of 'core support' mirrors English 'backbone.'\n\nCOMMON COLLOCATIONS:\n- {背骨|せぼね}が{曲|ま}がる (the spine curves)\n- {背骨|せぼね}を{伸|の}ばす (to straighten the spine)\n- {背骨|せぼね}を{矯正|きょうせい}する (to correct the spine)\n\nSIMILAR WORDS:\n- {脊椎|せきつい}: vertebral column — the medical/anatomical term for the spine",
@@ -75,18 +87,65 @@
       "reading": "せすじ",
       "headword": "{背筋|せすじ}",
       "label": "back, posture line"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06006_sekitsui",
+      "reading": "せきつい",
+      "headword": "{脊椎|せきつい}",
+      "label": "vertebral column"
+    },
+    {
+      "type": "related",
+      "target_id": "18335_kyoukotsu",
+      "reading": "きょうこつ",
+      "headword": "{胸骨|きょうこつ}",
+      "label": "sternum"
+    },
+    {
+      "type": "related",
+      "target_id": "23601_bikotsu",
+      "reading": "びこつ",
+      "headword": "{尾骨|びこつ}",
+      "label": "coccyx"
+    },
+    {
+      "type": "related",
+      "target_id": "27744_sekitsuidoubutsu",
+      "reading": "せきついどうぶつ",
+      "headword": "{脊椎|せきつい}{動物|どうぶつ}",
+      "label": "vertebrate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30395_keitsui",
+      "reading": "けいつい",
+      "headword": "{頚椎|けいつい}",
+      "label": "cervical vertebrae"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30398_youtsui",
+      "reading": "ようつい",
+      "headword": "{腰椎|ようつい}",
+      "label": "lumbar vertebrae"
     }
   ],
   "metadata": {
     "created": "2026-03-17T10:34:13Z",
-    "modified": "2026-03-17T10:34:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-part", "abstract"]
+      "semantic": [
+        "body-part",
+        "abstract"
+      ]
     }
   }
 }

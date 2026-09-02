@@ -19,7 +19,9 @@
       "english": "I was raised by adoptive parents.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16814_youshin_ex2",
@@ -27,7 +29,9 @@
       "english": "The relationship between adoptive parents and adopted children is recognized by law.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16814_youshin_ex3",
@@ -35,7 +39,9 @@
       "english": "In some cases, permission from the family court is required to become an adoptive parent.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA legal and formal term. The opposite is {実親|じっしん} (biological parent). In Japanese law, there are two types of adoption: {普通養子縁組|ふつうようしえんぐみ} (ordinary adoption) and {特別養子縁組|とくべつようしえんぐみ} (special adoption), each with different legal implications for the {養親|ようしん}.\n\nCOMMON COLLOCATIONS:\n- {養親|ようしん}になる (to become an adoptive parent)\n- {養親|ようしん}と{養子|ようし} (adoptive parent and adopted child)\n\nSIMILAR WORDS:\n- {実親|じっしん}: biological parent — the parent by birth\n- {里親|さとおや}: foster parent — may not have legal adoption status",
@@ -59,19 +65,54 @@
       "reading": "じっしん",
       "headword": "{実親|じっしん}",
       "label": "biological parent"
+    },
+    {
+      "type": "related",
+      "target_id": "17834_youfu",
+      "reading": "ようふ",
+      "headword": "{養父|ようふ}",
+      "label": "adoptive father"
+    },
+    {
+      "type": "related",
+      "target_id": "21069_jisshi",
+      "reading": "じっし",
+      "headword": "{実子|じっし}",
+      "label": "one's own child"
+    },
+    {
+      "type": "related",
+      "target_id": "21076_youjo",
+      "reading": "ようじょ",
+      "headword": "{養女|ようじょ}",
+      "label": "adopted daughter"
+    },
+    {
+      "type": "related",
+      "target_id": "21105_youbo",
+      "reading": "ようぼ",
+      "headword": "{養母|ようぼ}",
+      "label": "adoptive mother"
     }
   ],
   "metadata": {
     "created": "2026-03-14T10:32:03Z",
-    "modified": "2026-05-05T05:04:25Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["legal"],
-      "semantic": ["family", "law"]
+      "domain": [
+        "legal"
+      ],
+      "semantic": [
+        "family",
+        "law"
+      ]
     }
   }
 }

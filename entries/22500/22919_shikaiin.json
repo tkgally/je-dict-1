@@ -17,7 +17,9 @@
       "id": "22919_shikaiin_ex1",
       "japanese": "{歯科医院|しかいいん}を{予約|よやく}した。",
       "english": "I made an appointment at the dental clinic.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22919_shikaiin_ex2",
       "japanese": "{駅前|えきまえ}に{新|あたら}しい{歯科医院|しかいいん}ができた。",
       "english": "A new dental clinic opened in front of the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,38 @@
       "id": "22919_shikaiin_ex3",
       "japanese": "{子|こ}どもの{頃|ころ}から{通|かよ}っている{歯科医院|しかいいん}が{来月|らいげつ}{閉院|へいいん}するらしい。",
       "english": "The dental clinic I've been going to since childhood is apparently closing next month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {歯科|しか} (dentistry) + {医院|いいん} (clinic). The standard term for a private dental practice in Japan. Japan has one of the highest densities of dental clinics in the world, with over 60,000 nationwide.\n\nCOMMON COLLOCATIONS:\n- {歯科医院|しかいいん}に{通|かよ}う: to visit a dental clinic regularly\n- {歯科医院|しかいいん}を{予約|よやく}する: to make a dental appointment\n- {歯科医院|しかいいん}で{治療|ちりょう}を{受|う}ける: to receive treatment at a dental clinic\n\nSIMILAR WORDS:\n- {歯医者|はいしゃ}: dentist — the casual, everyday word; also used to refer to the clinic itself colloquially\n- {歯科|しか}: dentistry — the field itself, or used as a prefix (e.g., {歯科|しか}{医師|いし} = dentist)\n- {医院|いいん}: clinic — a general medical clinic; {歯科医院|しかいいん} specifies dental",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01696_haisha",
+      "reading": "はいしゃ",
+      "headword": "{歯医者|はいしゃ}",
+      "label": "dentist"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["health", "building"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "health",
+        "building"
+      ],
       "formality": "neutral",
       "politeness": "plain"
     },
     "created": "2026-04-07T21:09:31Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

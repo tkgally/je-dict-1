@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "スター (from English 'star') refers to famous celebrities, not celestial stars (⟦{星|ほし}→星：01510_hoshi⟧).\n\nCOMMON USES:\n- ⟦{映画|えいが}→映画：02273_eiga⟧スター: movie star\n- ⟦ポップ→ポップ：27372_poppu⟧スター: pop star\n- ⟦スポーツ→スポーツ：04740_supootsu⟧スター: sports star\n- スター⟦{選手|せんしゅ}→選手：03823_senshu⟧: star player\n- スター⟦{誕生|たんじょう}→誕生：01460_tanjou⟧: birth of a star (also a famous TV talent show)\n\nRELATED TERMS:\n- ⟦{有名人|ゆうめいじん}→有名人：17812_yuumeijin⟧: famous person, celebrity\n- ⟦{芸能人|げいのうじん}→芸能人：14959_geinoujin⟧: entertainer\n- ⟦{俳優|はいゆう}→俳優：03547_haiyuu⟧: actor\n- ⟦アイドル→アイドル：05111_aidoru⟧: idol (young celebrity)\n\nFor astronomical stars, use ⟦{星|ほし}→星：01510_hoshi⟧.",
+  "notes": "スター (from English 'star') refers to famous celebrities, not celestial stars (⟦{星|ほし}→星：01510_hoshi⟧).\n\nCOMMON COLLOCATIONS:\n- ⟦{映画|えいが}→映画：02273_eiga⟧スター: movie star\n- ⟦ポップ→ポップ：27372_poppu⟧スター: pop star\n- ⟦スポーツ→スポーツ：04740_supootsu⟧スター: sports star\n- スター⟦{選手|せんしゅ}→選手：03823_senshu⟧: star player\n- スター⟦{誕生|たんじょう}→誕生：01460_tanjou⟧: birth of a star (also a famous TV talent show)\n\nRELATED WORDS:\n- ⟦{有名人|ゆうめいじん}→有名人：17812_yuumeijin⟧: famous person, celebrity\n- ⟦{芸能人|げいのうじん}→芸能人：14959_geinoujin⟧: entertainer\n- ⟦{俳優|はいゆう}→俳優：03547_haiyuu⟧: actor\n- ⟦アイドル→アイドル：05111_aidoru⟧: idol (young celebrity)\n\nFor astronomical stars, use ⟦{星|ほし}→星：01510_hoshi⟧.",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,46 @@
       "headword": "{星|ほし}",
       "label": "star (celestial)",
       "target_id": "01510_hoshi"
+    },
+    {
+      "type": "related",
+      "target_id": "17812_yuumeijin",
+      "reading": "ゆうめいじん",
+      "headword": "{有名人|ゆうめいじん}",
+      "label": "famous person, celebrity"
+    },
+    {
+      "type": "related",
+      "target_id": "14959_geinoujin",
+      "reading": "げいのうじん",
+      "headword": "{芸能人|げいのうじん}",
+      "label": "entertainer"
+    },
+    {
+      "type": "related",
+      "target_id": "03547_haiyuu",
+      "reading": "はいゆう",
+      "headword": "{俳優|はいゆう}",
+      "label": "actor"
+    },
+    {
+      "type": "related",
+      "target_id": "05111_aidoru",
+      "reading": "あいどる",
+      "headword": "アイドル",
+      "label": "idol"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30641_eigahaiyuu",
+      "reading": "えいがはいゆう",
+      "headword": "{映画俳優|えいがはいゆう}",
+      "label": "movie actor"
     }
   ],
   "metadata": {
     "created": "2026-01-12T23:49:28Z",
-    "modified": "2026-05-11T13:23:23Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

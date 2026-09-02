@@ -18,7 +18,9 @@
       "english": "I work at a major publishing company.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11765_shuppansha_ex2",
@@ -26,7 +28,9 @@
       "english": "I brought my manuscript to a publisher.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11765_shuppansha_ex3",
@@ -34,10 +38,12 @@
       "english": "That publisher mainly produces textbooks and reference books.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Composed of {出版|しゅっぱん} (publishing) + {社|しゃ} (company). Covers publishers of books, magazines, manga, and other print or digital media.\n\nMAJOR JAPANESE PUBLISHERS:\n- {講談社|こうだんしゃ}: Kodansha\n- {集英社|しゅうえいしゃ}: Shueisha\n- {新潮社|しんちょうしゃ}: Shinchosha\n- {小学館|しょうがくかん}: Shogakukan\n\nCOMMON COLLOCATIONS:\n- {大手|おおて}{出版社|しゅっぱんしゃ}: major publisher\n- {出版社|しゅっぱんしゃ}に{持|も}ち{込|こ}む: bring a manuscript to a publisher\n- {出版社|しゅっぱんしゃ}から{出|だ}す: publish through a publisher\n\nRELATED:\n- {出版|しゅっぱん}: publishing (the act)\n- {編集者|へんしゅうしゃ}: editor",
+  "notes": "Composed of {出版|しゅっぱん} (publishing) + {社|しゃ} (company). Covers publishers of books, magazines, manga, and other print or digital media.\n\nMAJOR JAPANESE PUBLISHERS:\n- {講談社|こうだんしゃ}: Kodansha\n- {集英社|しゅうえいしゃ}: Shueisha\n- {新潮社|しんちょうしゃ}: Shinchosha\n- {小学館|しょうがくかん}: Shogakukan\n\nCOMMON COLLOCATIONS:\n- {大手|おおて}{出版社|しゅっぱんしゃ}: major publisher\n- {出版社|しゅっぱんしゃ}に{持|も}ち{込|こ}む: bring a manuscript to a publisher\n- {出版社|しゅっぱんしゃ}から{出|だ}す: publish through a publisher\n\nRELATED WORDS:\n- {出版|しゅっぱん}: publishing (the act)\n- {編集者|へんしゅうしゃ}: editor",
   "cross_references": [
     {
       "type": "related",
@@ -45,19 +51,52 @@
       "reading": "しゅっぱん",
       "headword": "{出版|しゅっぱん}",
       "label": "publishing (the act)"
+    },
+    {
+      "type": "related",
+      "target_id": "09587_henshuusha",
+      "reading": "へんしゅうしゃ",
+      "headword": "{編集者|へんしゅうしゃ}",
+      "label": "editor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23882_insatsujo",
+      "reading": "いんさつじょ",
+      "headword": "{印刷所|いんさつじょ}",
+      "label": "print shop, printing house, printery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24911_hakkousho",
+      "reading": "はっこうしょ",
+      "headword": "{発行所|はっこうしょ}",
+      "label": "publishing office"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26170_insatsugaisha",
+      "reading": "いんさつがいしゃ",
+      "headword": "{印刷会社|いんさつがいしゃ}",
+      "label": "printing company"
     }
   ],
   "metadata": {
     "created": "2026-02-17T23:15:01Z",
-    "modified": "2026-04-25T08:21:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business", "media"]
+      "semantic": [
+        "business",
+        "media"
+      ]
     }
   }
 }

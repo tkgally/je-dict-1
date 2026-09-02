@@ -19,7 +19,9 @@
       "english": "There was an eerie sound.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16040_bukimi_ex2",
@@ -27,7 +29,9 @@
       "english": "The forest at night had a creepy atmosphere.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16040_bukimi_ex3",
@@ -35,7 +39,9 @@
       "english": "An eerie light was leaking from a room where no one should have been.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{不気味|ぶきみ} is a na-adjective used both as a modifier ({不気味|ぶきみ}な + noun) and predicatively ({不気味|ぶきみ}だ). The word describes a feeling of unease caused by something strange or inexplicable.\n\nCOMMON COLLOCATIONS:\n- {不気味|ぶきみ}な{雰囲気|ふんいき} (eerie atmosphere)\n- {不気味|ぶきみ}な{笑|わら}い (creepy laugh)\n- {不気味|ぶきみ}な{沈黙|ちんもく} (ominous silence)\n- {不気味|ぶきみ}に{光|ひか}る (to glow eerily)\n\nSIMILAR WORDS:\n{怖|こわ}い describes straightforward fear, while {不気味|ぶきみ} emphasizes the unsettling strangeness that causes unease. {薄気味悪|うすきみわる}い is a stronger synonym meaning even creepier or more unsettling.",
@@ -46,18 +52,58 @@
       "reading": "こわい",
       "headword": "{怖|こわ}い",
       "label": "scary, frightening"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13550_iyou",
+      "reading": "いよう",
+      "headword": "{異様|いよう}",
+      "label": "bizarre, strange, eerie"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20609_kaiki",
+      "reading": "かいき",
+      "headword": "{怪奇|かいき}",
+      "label": "mysterious"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22591_usukimiwarui",
+      "reading": "うすきみわるい",
+      "headword": "{薄気味悪|うすきみわる}い",
+      "label": "creepy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22680_kimigawarui",
+      "reading": "きみがわるい",
+      "headword": "{気味|きみ}が{悪|わる}い",
+      "label": "creepy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26250_odoroodoroshii",
+      "reading": "おどろおどろしい",
+      "headword": "おどろおどろしい",
+      "label": "eerie"
     }
   ],
   "metadata": {
     "created": "2026-03-09T10:27:15Z",
-    "modified": "2026-05-02T10:22:31Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion", "appearance"]
+      "semantic": [
+        "emotion",
+        "appearance"
+      ]
     }
   }
 }

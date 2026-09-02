@@ -16,7 +16,9 @@
       "id": "08272_okazu_ex1",
       "japanese": "{今日|きょう}のおかずは{何|なに}？",
       "english": "What's the side dish today?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "08272_okazu_ex2",
       "japanese": "おかずを{作|つく}り{過|す}ぎた。",
       "english": "I made too many side dishes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,20 +36,72 @@
       "id": "08272_okazu_ex3",
       "japanese": "このおかずはご{飯|はん}が{進|すす}む。",
       "english": "This side dish goes really well with rice.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "KANJI:\nCan be written as {御菜|おかず} or {御数|おかず}, but hiragana is most common.\n\nJAPANESE MEAL STRUCTURE:\nA traditional Japanese meal consists of:\n- ご{飯|はん} (rice) - the main staple\n- {汁|しる}{物|もの} (soup, e.g., {味噌汁|みそしる})\n- おかず (side dishes) - the accompaniments\n\nCOMMON EXPRESSIONS:\n- ご{飯|はん}のおかず (side dish for rice)\n- おかずになる (to serve as a side dish)\n- {今日|きょう}のおかず (today's side dish)\n\nRELATED:\n- {惣菜|そうざい} (prepared dishes, deli food)\n- {副菜|ふくさい} (side dish - formal)\n- {主菜|しゅさい} (main dish)",
+  "notes": "WRITING:\nCan be written as {御菜|おかず} or {御数|おかず}, but hiragana is most common.\n\nJAPANESE MEAL STRUCTURE:\nA traditional Japanese meal consists of:\n- ご{飯|はん} (rice) - the main staple\n- {汁|しる}{物|もの} (soup, e.g., {味噌汁|みそしる})\n- おかず (side dishes) - the accompaniments\n\nCOMMON EXPRESSIONS:\n- ご{飯|はん}のおかず (side dish for rice)\n- おかずになる (to serve as a side dish)\n- {今日|きょう}のおかず (today's side dish)\n\nRELATED WORDS:\n- {惣菜|そうざい} (prepared dishes, deli food)\n- {副菜|ふくさい} (side dish - formal)\n- {主菜|しゅさい} (main dish)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05827_souzai",
+      "reading": "そうざい",
+      "headword": "{惣菜|そうざい}",
+      "label": "prepared dishes, deli food"
+    },
+    {
+      "type": "related",
+      "target_id": "04993_fukusai",
+      "reading": "ふくさい",
+      "headword": "{副菜|ふくさい}",
+      "label": "side dish"
+    },
+    {
+      "type": "related",
+      "target_id": "04995_shusai",
+      "reading": "しゅさい",
+      "headword": "{主菜|しゅさい}",
+      "label": "main dish"
+    },
+    {
+      "type": "related",
+      "target_id": "08257_tsukeawase",
+      "reading": "つけあわせ",
+      "headword": "{付|つ}け{合|あ}わせ",
+      "label": "side dish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17154_fukushoku",
+      "reading": "ふくしょく",
+      "headword": "{副食|ふくしょく}",
+      "label": "side dish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26061_fukushokuhin",
+      "reading": "ふくしょくひん",
+      "headword": "{副食品|ふくしょくひん}",
+      "label": "side dishes"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["food", "cooking"]
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "cooking"
+      ]
     },
     "created": "2026-01-25T11:37:41Z",
-    "modified": "2026-01-25T11:37:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

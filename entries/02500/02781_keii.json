@@ -64,10 +64,53 @@
     }
   ],
   "notes": "{敬意|けいい} is a formal noun referring to a feeling of respect and admiration toward someone. Unlike ⟦{尊敬|そんけい}→尊敬：01454_sonkei⟧, which is also used as a verb (⟦{尊敬|そんけい}する→尊敬：01454_sonkei⟧), {敬意|けいい} is primarily used in set phrases and written language.\n\nCOMMON PATTERNS:\n- {敬意|けいい}⟦を→を：00422_wo⟧⟦{表|あらわ}す→表す：01868_arawasu⟧: to express respect\n- {敬意|けいい}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧: to pay respect\n- {敬意|けいい}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧: to have respect\n- {敬意|けいい}⟦を→を：00422_wo⟧⟦{込|こ}めて→込める：01945_komeru⟧: with respect, respectfully\n- {敬意|けいい}⟦に→に：00314_ni⟧⟦{値|あたい}する→値する：25545_ataisuru⟧: to be worthy of respect\n\nSIMILAR WORDS:\n- ⟦{尊敬|そんけい}→尊敬：01454_sonkei⟧: respect (general, also a suru verb)\n- ⟦{尊重|そんちょう}→尊重：03327_sonchou⟧: respect for opinions, rights, or values\n- ⟦{畏敬|いけい}→畏敬：10033_ikei⟧: awe, reverence (stronger than {敬意|けいい})\n\nREGISTER:\nFormal. Common in speeches, official correspondence, and written Japanese. In casual speech, ⟦{尊敬|そんけい}→尊敬：01454_sonkei⟧ or ⟦リスペクト→リスペクト：11222_risupekuto⟧ is more natural.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01454_sonkei",
+      "reading": "そんけい",
+      "headword": "{尊敬|そんけい}",
+      "label": "respect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03327_sonchou",
+      "reading": "そんちょう",
+      "headword": "{尊重|そんちょう}",
+      "label": "respect for opinions, rights, or values"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10033_ikei",
+      "reading": "いけい",
+      "headword": "{畏敬|いけい}",
+      "label": "awe, reverence"
+    },
+    {
+      "type": "related",
+      "target_id": "00417_uyamau",
+      "reading": "うやまう",
+      "headword": "{敬|うやま}う",
+      "label": "to respect"
+    },
+    {
+      "type": "homophone",
+      "target_id": "22660_keii",
+      "reading": "けいい",
+      "headword": "{敬畏|けいい}",
+      "label": "awe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24145_suukei",
+      "reading": "すうけい",
+      "headword": "{崇敬|すうけい}",
+      "label": "reverence"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T08:14:45Z",
-    "modified": "2026-05-22T14:11:04Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

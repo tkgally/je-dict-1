@@ -18,7 +18,9 @@
       "english": "The credibility of this information is low.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11618_shinpyousei_ex2",
@@ -26,7 +28,9 @@
       "english": "The credibility of the testimony is being questioned.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11618_shinpyousei_ex3",
@@ -34,22 +38,43 @@
       "english": "You should verify the credibility of online articles before citing them.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Commonly used in journalism, academia, and everyday discussion about the reliability of information. Often appears with {高|たか}い/{低|ひく}い to rate credibility, or with {欠|か}く (to lack) or {疑|うたが}う (to doubt).\n\nCOMMON PATTERNS:\n・{信憑性|しんぴょうせい}が{高|たか}い/{低|ひく}い — high/low credibility\n・{信憑性|しんぴょうせい}に{欠|か}ける — to lack credibility\n・{信憑性|しんぴょうせい}を{疑|うたが}う — to doubt the credibility\n・{信憑性|しんぴょうせい}が{問|と}われる — credibility is called into question",
-  "cross_references": [],
+  "notes": "Commonly used in journalism, academia, and everyday discussion about the reliability of information. Often appears with {高|たか}い/{低|ひく}い to rate credibility, or with {欠|か}く (to lack) or {疑|うたが}う (to doubt).\n\nCOMMON PATTERNS:\n- {信憑性|しんぴょうせい}が{高|たか}い/{低|ひく}い — high/low credibility\n- {信憑性|しんぴょうせい}に{欠|か}ける — to lack credibility\n- {信憑性|しんぴょうせい}を{疑|うたが}う — to doubt the credibility\n- {信憑性|しんぴょうせい}が{問|と}われる — credibility is called into question",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21969_shinjitsumi",
+      "reading": "しんじつみ",
+      "headword": "{真実味|しんじつみ}",
+      "label": "truthfulness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24726_shinjitsusei",
+      "reading": "しんじつせい",
+      "headword": "{真実性|しんじつせい}",
+      "label": "truthfulness"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T14:39:32Z",
-    "modified": "2026-02-17T14:39:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     }
   }
 }

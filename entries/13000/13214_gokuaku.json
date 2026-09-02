@@ -19,7 +19,9 @@
       "english": "It is a heinous and inhumane crime.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13214_gokuaku_ex2",
@@ -27,7 +29,9 @@
       "english": "The heinous criminal was finally arrested.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13214_gokuaku_ex3",
@@ -35,21 +39,43 @@
       "english": "The extremely wicked villain in the movie left a strong impression on the audience.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA strong word typically reserved for the most severe crimes and the worst criminals. {極悪|ごくあく}{非道|ひどう} is a common four-character compound meaning \"heinous and inhumane.\" Also appears in fiction and entertainment to describe ultimate villains.\n\nCOMMON COLLOCATIONS:\n- {極悪|ごくあく}{非道|ひどう}: heinous and inhumane\n- {極悪|ごくあく}な{犯罪|はんざい}: heinous crime\n- {極悪|ごくあく}{人|にん}: extremely wicked person\n\nSIMILAR WORDS:\n- {凶悪|きょうあく}: vicious, brutal (common in news for violent crimes)\n- {悪質|あくしつ}: malicious, vicious (emphasizes deliberate ill intent)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28175_kyouaku",
+      "reading": "きょうあく",
+      "headword": "{凶悪|きょうあく}",
+      "label": "vicious, brutal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20553_akushitsu",
+      "reading": "あくしつ",
+      "headword": "{悪質|あくしつ}",
+      "label": "malicious, vicious"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T06:19:20Z",
-    "modified": "2026-02-24T06:19:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["evaluation"]
+      "semantic": [
+        "evaluation"
+      ]
     }
   }
 }

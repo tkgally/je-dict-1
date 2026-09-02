@@ -3,7 +3,7 @@
   "headword": "{口|くち}にする",
   "reading": "くちにする",
   "romaji": "kuchi ni suru",
-  "part_of_speech": "expression",
+  "part_of_speech": "expression, suru verb",
   "gloss": "to say; to mention; to put into words; to eat; to drink; to put in one's mouth",
   "conjugation": {
     "type": "suru",
@@ -170,6 +170,29 @@
     }
   ],
   "notes": "An idiomatic expression using {口|くち} (mouth) + にする that has two distinct meanings depending on context. In sense 1, it means to verbalize or express something — to \"put something into words.\" In sense 2, it means to eat or drink — to literally put something in one's mouth.\n\nUSAGE:\n- Sense 1 is often used in negative contexts ({口|くち}にしない = to not mention, to keep silent about)\n- Sense 2 is slightly more formal or literary than {食|た}べる or {飲|の}む\n\nCOMMON COLLOCATIONS:\n- {不満|ふまん}を{口|くち}にする: to voice dissatisfaction\n- {弱音|よわね}を{口|くち}にする: to voice weakness or complaints\n- {本音|ほんね}を{口|くち}にする: to speak one's true feelings\n- {何|なに}も{口|くち}にしない: to not eat or drink anything\n\nSIMILAR WORDS:\n- {言|い}う: the most general word for speaking; {口|くち}にする implies deliberately putting thoughts into words\n- {述|の}べる: more formal, used for expressing opinions or facts\n- {食|た}べる: the standard word for eating; {口|くち}にする (sense 2) has a more refined or restrained nuance",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00515_iu",
+      "reading": "いう",
+      "headword": "{言|い}う",
+      "label": "the most general word for speaking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02389_noberu",
+      "reading": "のべる",
+      "headword": "{述|の}べる",
+      "label": "more formal, used for expressing…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00396_taberu",
+      "reading": "たべる",
+      "headword": "{食|た}べる",
+      "label": "the standard word for eating"
+    }
+  ],
   "metadata": {
     "entry_id": "21471_kuchinisuru",
     "schema_version": "2.0",
@@ -181,6 +204,7 @@
         "expression",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "communication",
         "food"
@@ -189,6 +213,6 @@
       "usage": [],
       "verb_class": "suru"
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{児童|じどう} is a formal term for children, typically referring to elementary school-age children (roughly ages 6-12).\n\nCOMMON COLLOCATIONS:\n- {児童|じどう}⟦{文学|ぶんがく}→文学：01505_bungaku⟧ (children's literature)\n- {児童|じどう}⟦{虐待|ぎゃくたい}→虐待：14046_gyakutai⟧ (child abuse)\n- {児童|じどう}⟦{福祉|ふくし}→福祉：13748_fukushi⟧ (child welfare)\n- ⟦{児童|じどう}{館|かん}→児童館：27103_jidoukan⟧ (children's center)\n- {児童|じどう}⟦{心理|しんり}→心理：03332_shinri⟧ (child psychology)\n\nSIMILAR WORDS:\n- {児童|じどう}: children (formal, legal/educational contexts)\n- ⟦{子供|こども}→子供：00554_kodomo⟧: children (everyday usage)\n- ⟦{幼児|ようじ}→幼児：12478_youji⟧: infant, toddler (ages 1-6)\n- ⟦{少年|しょうねん}→少年：03238_shounen⟧/⟦{少女|しょうじょ}→少女：03233_shoujo⟧: youth, boy/girl\n\nHOMOPHONES:\n- {児童|じどう}: children\n- ⟦{自動|じどう}→自動：03339_jidou⟧: automatic",
+  "notes": "{児童|じどう} is a formal term for children, typically referring to elementary school-age children (roughly ages 6-12).\n\nCOMMON COLLOCATIONS:\n- {児童|じどう}⟦{文学|ぶんがく}→文学：01505_bungaku⟧ (children's literature)\n- {児童|じどう}⟦{虐待|ぎゃくたい}→虐待：14046_gyakutai⟧ (child abuse)\n- {児童|じどう}⟦{福祉|ふくし}→福祉：13748_fukushi⟧ (child welfare)\n- ⟦{児童|じどう}{館|かん}→児童館：27103_jidoukan⟧ (children's center)\n- {児童|じどう}⟦{心理|しんり}→心理：03332_shinri⟧ (child psychology)\n\nSIMILAR WORDS:\n- {児童|じどう}: children (formal, legal/educational contexts)\n- ⟦{子供|こども}→子供：00554_kodomo⟧: children (everyday usage)\n- ⟦{幼児|ようじ}→幼児：12478_youji⟧: infant, toddler (ages 1-6)\n- ⟦{少年|しょうねん}→少年：03238_shounen⟧/⟦{少女|しょうじょ}→少女：03233_shoujo⟧: youth, boy/girl\n\nWATCH OUT:\n- {児童|じどう}: children\n- ⟦{自動|じどう}→自動：03339_jidou⟧: automatic",
   "cross_references": [
     {
       "type": "contrast",
@@ -85,11 +85,46 @@
       "headword": "{少女|しょうじょ}",
       "label": "girl",
       "target_id": "03233_shoujo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00554_kodomo",
+      "reading": "こども",
+      "headword": "{子供|こども}",
+      "label": "children"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12478_youji",
+      "reading": "ようじ",
+      "headword": "{幼児|ようじ}",
+      "label": "infant, toddler"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00610_gakusei",
+      "reading": "がくせい",
+      "headword": "{学生|がくせい}",
+      "label": "student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20652_gakudou",
+      "reading": "がくどう",
+      "headword": "{学童|がくどう}",
+      "label": "schoolchild"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27025_shouni",
+      "reading": "しょうに",
+      "headword": "{小児|しょうに}",
+      "label": "child"
     }
   ],
   "metadata": {
     "created": "2026-01-12T06:32:30Z",
-    "modified": "2026-06-12T18:17:36Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

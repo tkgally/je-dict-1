@@ -17,7 +17,9 @@
       "id": "25981_tsuzumi_ex1",
       "japanese": "{鼓|つづみ}の{音|おと}が{響|ひび}く。",
       "english": "The sound of the hand drum echoes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25981_tsuzumi_ex2",
       "japanese": "{能|のう}の{舞台|ぶたい}では{鼓|つづみ}が{重要|じゅうよう}な{役割|やくわり}を{果|は}たす。",
       "english": "The hand drum plays an important role on the Noh stage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,38 @@
       "id": "25981_tsuzumi_ex3",
       "japanese": "{伝統芸能|でんとうげいのう}の{教室|きょうしつ}で{鼓|つづみ}の{打|う}ち{方|かた}を{習|なら}い{始|はじ}めたが、{力|ちから}の{入|い}れ{具合|ぐあい}が{難|むずか}しい。",
       "english": "I started learning how to play the tsuzumi drum in a traditional performing arts class, but controlling the amount of force is difficult.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A traditional Japanese percussion instrument with an hourglass-shaped wooden body and two drumheads connected by cords. There are two main types: the {小鼓|こつづみ} (small hand drum, held on the right shoulder) and the {大鼓|おおつづみ} (large hand drum, held on the left knee). The player adjusts the pitch by squeezing the cords. The distinctive sharp calls (「ヨー」「ハッ」) made by the drummer are characteristic of Noh performance.\n\nCOMMON COLLOCATIONS:\n- {鼓|つづみ}を{打|う}つ: to play the hand drum\n- {鼓|つづみ}の{音色|ねいろ}: the tone of the hand drum\n- {小鼓|こつづみ}: small hand drum (shoulder drum)\n- {大鼓|おおつづみ}: large hand drum (knee drum)\n\nSIMILAR WORDS:\n- {太鼓|たいこ}: taiko drum — a larger drum struck with sticks, used in festivals and ensemble performances\n- {締太鼓|しめだいこ}: shime-daiko — a smaller, tightly-strung drum also used in traditional music\n- {笛|ふえ}: flute — another key instrument in Noh and kabuki ensembles",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03593_fue",
+      "reading": "ふえ",
+      "headword": "{笛|ふえ}",
+      "label": "flute"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["music", "culture"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "music",
+        "culture"
+      ]
     },
     "created": "2026-04-28T14:16:04Z",
-    "modified": "2026-04-28T14:16:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

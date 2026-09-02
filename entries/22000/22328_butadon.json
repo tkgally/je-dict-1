@@ -17,7 +17,9 @@
       "id": "22328_butadon_ex1",
       "japanese": "お{昼|ひる}は{豚丼|ぶたどん}にしよう。",
       "english": "Let's have pork bowl for lunch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22328_butadon_ex2",
       "japanese": "{牛丼|ぎゅうどん}より{豚丼|ぶたどん}のほうが{安|やす}い。",
       "english": "Pork bowl is cheaper than beef bowl.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "22328_butadon_ex3",
       "japanese": "{北海道|ほっかいどう}{帯広|おびひろ}の{豚丼|ぶたどん}は、{炭火|すみび}で{焼|や}いた{厚切|あつぎ}りの{豚肉|ぶたにく}が{特徴|とくちょう}だ。",
       "english": "The pork bowl from Obihiro, Hokkaido, is characterized by thick-cut pork grilled over charcoal.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {豚|ぶた} (pork) + {丼|どん} (rice bowl dish). There are two main styles: the chain-restaurant style (thin sliced pork simmered in sweet soy sauce, similar to {牛丼|ぎゅうどん}) and the Obihiro style from Hokkaido (thick-cut pork grilled over charcoal with a sweet soy glaze).\n\nCOMMON COLLOCATIONS:\n- {豚丼|ぶたどん}の{大盛|おおも}り: large pork bowl\n- {豚丼|ぶたどん}{弁当|べんとう}: pork bowl lunch box\n- {帯広|おびひろ}{豚丼|ぶたどん}: Obihiro-style pork bowl\n\nRELATED DONBURI:\n- {牛丼|ぎゅうどん}: beef bowl\n- {親子丼|おやこどん}: chicken and egg bowl\n- {天丼|てんどん}: tempura bowl\n- {海鮮丼|かいせんどん}: seafood bowl\n\nCULTURAL NOTE:\n{豚丼|ぶたどん} became widely popular at chain restaurants like {吉野家|よしのや} and {松屋|まつや} as an affordable alternative to {牛丼|ぎゅうどん}, especially during the BSE scare in the early 2000s when beef imports were restricted.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08600_gyuudon",
+      "reading": "ぎゅうどん",
+      "headword": "{牛丼|ぎゅうどん}",
+      "label": "beef bowl"
+    },
+    {
+      "type": "related",
+      "target_id": "17621_oyakodon",
+      "reading": "おやこどん",
+      "headword": "{親子丼|おやこどん}",
+      "label": "chicken and egg bowl"
+    },
+    {
+      "type": "related",
+      "target_id": "19279_tendon",
+      "reading": "てんどん",
+      "headword": "{天丼|てんどん}",
+      "label": "tempura bowl"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-05T18:30:03Z",
-    "modified": "2026-04-05T18:30:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

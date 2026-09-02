@@ -17,7 +17,9 @@
       "id": "25591_juerii_ex1",
       "japanese": "ジュエリーを{身|み}につける。",
       "english": "To wear jewelry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25591_juerii_ex2",
       "japanese": "{母|はは}の{誕生日|たんじょうび}にジュエリーをプレゼントした。",
       "english": "I gave jewelry as a gift for my mother's birthday.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,64 @@
       "id": "25591_juerii_ex3",
       "japanese": "{彼女|かのじょ}は{高級|こうきゅう}ジュエリーブランドの{新作|しんさく}コレクションを{楽|たの}しみにしている。",
       "english": "She is looking forward to the new collection from a luxury jewelry brand.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A loanword from English \"jewelry.\" In Japanese, ジュエリー typically refers to fine jewelry made with precious metals and gemstones, as opposed to cheaper fashion accessories.\n\nThe distinction between ジュエリー and アクセサリー is important: ジュエリー implies higher quality and value, while アクセサリー is the broader term for all accessories including costume jewelry.\n\nCOMMON COLLOCATIONS:\n- ジュエリーショップ: jewelry shop\n- ジュエリーブランド: jewelry brand\n- ジュエリーボックス: jewelry box\n- ハンドメイドジュエリー: handmade jewelry\n\nSIMILAR WORDS:\n- アクセサリー: accessory — broader term covering all decorative accessories, including costume jewelry\n- {宝石|ほうせき}: gemstone, jewel — refers specifically to the stones themselves\n- {装飾品|そうしょくひん}: ornament, decorative item — formal term for decorative accessories in general",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01761_akusesarii",
+      "reading": "あくせさりー",
+      "headword": "アクセサリー",
+      "label": "accessory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03619_houseki",
+      "reading": "ほうせき",
+      "headword": "{宝石|ほうせき}",
+      "label": "gemstone, jewel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15213_soushokuhin",
+      "reading": "そうしょくひん",
+      "headword": "{装飾品|そうしょくひん}",
+      "label": "ornament, decorative item"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22333_houshokuhin",
+      "reading": "ほうしょくひん",
+      "headword": "{宝飾品|ほうしょくひん}",
+      "label": "jewelry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24234_soushingu",
+      "reading": "そうしんぐ",
+      "headword": "{装身具|そうしんぐ}",
+      "label": "accessories"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["clothing"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "clothing"
+      ]
     },
     "created": "2026-04-26T12:31:59Z",
-    "modified": "2026-04-26T12:31:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

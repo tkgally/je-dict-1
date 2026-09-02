@@ -3,7 +3,7 @@
   "headword": "{柔弱|じゅうじゃく}",
   "reading": "じゅうじゃく",
   "romaji": "juujaku",
-  "part_of_speech": "adjective-na, noun",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "weak; feeble; effeminate; soft",
   "definitions": [
     {
@@ -45,11 +45,27 @@
     }
   ],
   "notes": "Describes physical or mental weakness, often with a nuance of being too delicate or pampered. The word is literary and somewhat old-fashioned, typically used by older speakers or in written criticism. It can describe both physical frailty and a lack of resilience or toughness.\n\nCOMMON COLLOCATIONS:\n- {柔弱|じゅうじゃく}な{体質|たいしつ}: a frail constitution\n- {柔弱|じゅうじゃく}な{性格|せいかく}: a weak/timid character\n- {柔弱|じゅうじゃく}に{育|そだ}つ: to grow up soft/pampered\n- {柔弱|じゅうじゃく}な{青年|せいねん}: an effeminate young man\n\nSIMILAR WORDS:\n- {軟弱|なんじゃく}: weak, spineless (similar meaning but more commonly used; stronger negative tone)\n- {虚弱|きょじゃく}: physically frail, delicate (medical/physical weakness without the moral judgment)\n- {ひ弱|ひよわ}: delicate, fragile (casual; often used for appearance)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14358_nanjaku",
+      "reading": "なんじゃく",
+      "headword": "{軟弱|なんじゃく}",
+      "label": "weak, spineless (similar meaning but…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09196_kyojaku",
+      "reading": "きょじゃく",
+      "headword": "{虚弱|きょじゃく}",
+      "label": "physically frail, delicate"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
+      "politeness": "plain",
       "semantic": [
         "personality",
         "health"
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-30T14:22:41Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

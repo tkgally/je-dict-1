@@ -3,7 +3,7 @@
   "headword": "{湾曲|わんきょく}",
   "reading": "わんきょく",
   "romaji": "wankyoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "curvature; curve; bend",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Describes a smooth, arc-like curve or bend. Composed of {湾|わん} (bay, inlet — suggesting a natural curve) and {曲|きょく} (bend, curve). Used for physical objects, roads, and anatomical features. Also used in optics and engineering.\n\nCOMMON COLLOCATIONS:\n- {湾曲|わんきょく}した: curved, bent\n- {湾曲|わんきょく}{部|ぶ}: curved section\n- {脊柱|せきちゅう}{湾曲|わんきょく}{症|しょう}: spinal curvature disorder (scoliosis/kyphosis)\n- {湾曲|わんきょく}ディスプレイ: curved display\n\nSIMILAR WORDS:\n- {屈曲|くっきょく}: bending, flexion — sharper, more angular bends\n- {曲線|きょくせん}: curve (line) — the geometric line itself\n- {歪|ゆが}み: distortion, warping — implies deformation from a normal shape",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22871_kukkyoku",
+      "reading": "くっきょく",
+      "headword": "{屈曲|くっきょく}",
+      "label": "bending, flexion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05441_kyokusen",
+      "reading": "きょくせん",
+      "headword": "{曲線|きょくせん}",
+      "label": "curve"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09409_yugami",
+      "reading": "ゆがみ",
+      "headword": "{歪|ゆが}み",
+      "label": "distortion, warping"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-24T14:25:54Z",
-    "modified": "2026-04-24T14:25:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

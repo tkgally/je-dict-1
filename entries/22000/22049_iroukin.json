@@ -17,7 +17,9 @@
       "id": "22049_iroukin_ex1",
       "japanese": "{退職|たいしょく}{時|じ}に{慰労金|いろうきん}が{支給|しきゅう}される。",
       "english": "A gratuity is provided upon retirement.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22049_iroukin_ex2",
       "japanese": "{長年|ながねん}の{功労|こうろう}に{対|たい}して{慰労金|いろうきん}が{贈|おく}られた。",
       "english": "A monetary reward was presented in recognition of years of meritorious service.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "22049_iroukin_ex3",
       "japanese": "{災害|さいがい}{復旧|ふっきゅう}に{当|あ}たった{職員|しょくいん}に{慰労金|いろうきん}として{一人|ひとり}{五万円|ごまんえん}が{支払|しはら}われた。",
       "english": "Staff members involved in disaster recovery were each paid fifty thousand yen as a reward for their service.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {慰労|いろう} (reward for service, consolation for hard work) and {金|きん} (money). A formal term for a monetary reward given in appreciation of someone's effort or hardship.\n\nCOMMON COLLOCATIONS:\n- {慰労金|いろうきん}を{支給|しきゅう}する: to provide a gratuity\n- {慰労金|いろうきん}を{受|う}け{取|と}る: to receive a gratuity\n- {退職|たいしょく}{慰労金|いろうきん}: retirement gratuity\n- {役員|やくいん}{慰労金|いろうきん}: executive retirement bonus\n\nSIMILAR WORDS:\n- {退職金|たいしょくきん}: severance pay / retirement allowance — the standard lump-sum payment upon leaving a company\n- {謝金|しゃきん}: honorarium — payment for a specific service like a lecture\n- {報奨金|ほうしょうきん}: bounty / incentive payment — a reward for achieving a specific goal\n\nREGISTER:\nFormal. Used in business, government, and legal contexts.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07959_taishokukin",
+      "reading": "たいしょくきん",
+      "headword": "{退職金|たいしょくきん}",
+      "label": "severance pay / retirement allowance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22035_shakin",
+      "reading": "しゃきん",
+      "headword": "{謝金|しゃきん}",
+      "label": "honorarium"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18793_houshoukin",
+      "reading": "ほうしょうきん",
+      "headword": "{報奨金|ほうしょうきん}",
+      "label": "bounty / incentive payment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["money", "business"]
+      "semantic": [
+        "money",
+        "business"
+      ]
     },
     "created": "2026-04-04T21:17:52Z",
-    "modified": "2026-04-04T21:17:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "25469_ohirune_ex1",
       "japanese": "{赤|あか}ちゃんがお{昼寝|ひるね}している。",
       "english": "The baby is taking a nap.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25469_ohirune_ex2",
       "japanese": "{日曜日|にちようび}はお{昼寝|ひるね}するのが{楽|たの}しみだ。",
       "english": "I look forward to taking a nap on Sundays.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,44 @@
       "id": "25469_ohirune_ex3",
       "japanese": "{保育園|ほいくえん}では、お{昼|ひる}ご{飯|はん}の{後|あと}にお{昼寝|ひるね}の{時間|じかん}がある。",
       "english": "At daycare, there is naptime after lunch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The polite prefix お makes this word softer and more colloquial than the plain form {昼寝|ひるね}. It is especially common when talking about children's naps (at daycare, kindergarten, etc.) and in casual adult conversation about taking a relaxing daytime rest.\n\nCOMMON COLLOCATIONS:\n- お{昼寝|ひるね}する: to take a nap\n- お{昼寝|ひるね}の{時間|じかん}: naptime\n- お{昼寝|ひるね}から{起|お}きる: to wake up from a nap\n- お{昼寝|ひるね}させる: to put someone down for a nap\n\nSIMILAR WORDS:\n- {昼寝|ひるね}: daytime nap — the plain form without お; used in neutral or written contexts\n- {仮眠|かみん}: short sleep; power nap — more formal; used for brief strategic rest, often at work\n- うたた{寝|ね}: dozing off; nodding off — falling asleep unintentionally\n\nCULTURAL NOTE:\nIn Japan, {保育園|ほいくえん} (daycare) typically has a scheduled お{昼寝|ひるね} period for young children. The concept of short naps at work ({昼寝|ひるね}) has also been gaining acceptance, with some companies introducing nap rooms.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08333_kamin",
+      "reading": "かみん",
+      "headword": "{仮眠|かみん}",
+      "label": "short sleep"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08036_utatane",
+      "reading": "うたたね",
+      "headword": "うたた{寝|ね}",
+      "label": "dozing off"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["daily-life", "health"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life",
+        "health"
+      ]
     },
     "created": "2026-04-25T14:14:02Z",
-    "modified": "2026-04-25T14:14:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

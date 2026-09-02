@@ -19,7 +19,9 @@
       "english": "I can see a snowy landscape from the window.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14666_yukigeshiki_ex2",
@@ -27,7 +29,9 @@
       "english": "The snowy scenery of Hokkaido is truly beautiful.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14666_yukigeshiki_ex3",
@@ -35,21 +39,36 @@
       "english": "Soaking in a hot spring while enjoying the snowy scenery is the ultimate luxury.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of {雪|ゆき} (snow) + {景色|けしき} (scenery). The reading changes from けしき to げしき due to rendaku (sequential voicing).\n\nCOMMON COLLOCATIONS:\n- {雪景色|ゆきげしき}を{眺|なが}める (gaze at snowy scenery)\n- {雪景色|ゆきげしき}を{楽|たの}しむ (enjoy snowy scenery)\n- {一面|いちめん}の{雪景色|ゆきげしき} (a landscape covered entirely in snow)\n\nSIMILAR COMPOUNDS:\n- {夜景|やけい} (night view)\n- {紅葉|こうよう} (autumn foliage scenery)\n- {花見|はなみ} (cherry blossom viewing — an activity, not just scenery)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29500_yukiyama",
+      "reading": "ゆきやま",
+      "headword": "{雪山|ゆきやま}",
+      "label": "snowy mountain"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T10:56:14Z",
-    "modified": "2026-03-02T10:56:14Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather", "geography"]
+      "semantic": [
+        "weather",
+        "geography"
+      ]
     }
   }
 }

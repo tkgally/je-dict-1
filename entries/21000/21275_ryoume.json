@@ -17,7 +17,9 @@
       "id": "21275_ryoume_ex1",
       "japanese": "{両目|りょうめ}を{閉|と}じた。",
       "english": "I closed both eyes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21275_ryoume_ex2",
       "japanese": "{両目|りょうめ}から{涙|なみだ}があふれた。",
       "english": "Tears overflowed from both eyes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,72 @@
       "id": "21275_ryoume_ex3",
       "japanese": "{手術後|しゅじゅつご}、{両目|りょうめ}の{視力|しりょく}が{回復|かいふく}した。",
       "english": "After surgery, the vision in both eyes recovered.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {両|りょう} (both) and {目|め} (eye). Straightforward in meaning but useful for distinguishing actions or conditions affecting both eyes versus just one. The prefix {両|りょう} is productive and appears in many similar compounds.\n\nCOMMON COLLOCATIONS:\n- {両目|りょうめ}を{開|あ}ける: to open both eyes\n- {両目|りょうめ}を{閉|と}じる: to close both eyes\n- {両目|りょうめ}で{見|み}る: to look with both eyes\n\nRELATED TERMS WITH {両|りょう}:\n- {両手|りょうて}: both hands\n- {両足|りょうあし}: both legs/feet\n- {両耳|りょうみみ}: both ears\n- {片目|かため}: one eye — the counterpart using {片|かた} (one of a pair)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09518_ryoute",
+      "reading": "りょうて",
+      "headword": "{両手|りょうて}",
+      "label": "both hands"
+    },
+    {
+      "type": "related",
+      "target_id": "28926_ryouashi",
+      "reading": "りょうあし",
+      "headword": "{両足|りょうあし}",
+      "label": "both legs/feet"
+    },
+    {
+      "type": "related",
+      "target_id": "25207_ryoumimi",
+      "reading": "りょうみみ",
+      "headword": "{両耳|りょうみみ}",
+      "label": "both ears"
+    },
+    {
+      "type": "related",
+      "target_id": "20229_katame",
+      "reading": "かため",
+      "headword": "{片目|かため}",
+      "label": "one eye"
+    },
+    {
+      "type": "related",
+      "target_id": "29955_hidarime",
+      "reading": "ひだりめ",
+      "headword": "{左|ひだり}{目|め}",
+      "label": "left eye"
+    },
+    {
+      "type": "related",
+      "target_id": "29956_migime",
+      "reading": "みぎめ",
+      "headword": "{右|みぎ}{目|め}",
+      "label": "right eye"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-part"]
+      "semantic": [
+        "body-part"
+      ]
     },
     "created": "2026-04-01T16:16:21Z",
-    "modified": "2026-04-01T16:16:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

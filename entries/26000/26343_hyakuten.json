@@ -22,7 +22,9 @@
       "id": "26343_hyakuten_ex1",
       "japanese": "{算数|さんすう}のテストで{百点|ひゃくてん}を{取|と}った。",
       "english": "I got a perfect score on the math test.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "26343_hyakuten_ex2",
       "japanese": "{百点|ひゃくてん}{満点|まんてん}のテストで{九十八点|きゅうじゅうはちてん}だった。",
       "english": "I scored 98 on a test with a perfect score of 100.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "26343_hyakuten_ex3",
       "japanese": "{娘|むすめ}が{初|はじ}めて{百点|ひゃくてん}を{取|と}ってきたので、{家族|かぞく}みんなで{喜|よろこ}んだ。",
       "english": "Our daughter brought home her first perfect score, so the whole family celebrated.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "26343_hyakuten_ex4",
       "japanese": "この{料理|りょうり}は{百点|ひゃくてん}だね。",
       "english": "This dish is perfect.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "26343_hyakuten_ex5",
       "japanese": "{彼|かれ}の{対応|たいおう}は{百点|ひゃくてん}{満点|まんてん}だった。",
       "english": "His handling of the situation was absolutely flawless.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,21 +72,44 @@
       "id": "26343_hyakuten_ex6",
       "japanese": "{今日|きょう}の{天気|てんき}は{行楽|こうらく}{日和|びより}として{百点|ひゃくてん}だ。",
       "english": "Today's weather is perfect for an outing.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {百|ひゃく} (hundred) and {点|てん} (points). While the literal meaning is simply 100 points, the word carries strong positive connotations in Japanese culture, where school tests are typically graded out of 100.\n\nCOMMON COLLOCATIONS:\n- {百点|ひゃくてん}を{取|と}る: to get a perfect score\n- {百点|ひゃくてん}{満点|まんてん}: a perfect 100 points; absolutely flawless\n- {百点|ひゃくてん}のテスト: a test scored 100\n\nUSAGE:\nThe figurative sense is very common in casual conversation. {百点|ひゃくてん}{満点|まんてん} is a set phrase that intensifies the sense of perfection, used both literally and figuratively.\n\nSIMILAR WORDS:\n- {満点|まんてん}: perfect score, full marks — more general; works with any scoring system\n- {合格点|ごうかくてん}: passing grade — the minimum acceptable score",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03156_manten",
+      "reading": "まんてん",
+      "headword": "{満点|まんてん}",
+      "label": "perfect score, full marks"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25967_goukakuten",
+      "reading": "ごうかくてん",
+      "headword": "{合格点|ごうかくてん}",
+      "label": "passing grade"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["education", "evaluation"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "education",
+        "evaluation"
+      ]
     },
     "created": "2026-05-01T11:31:37Z",
-    "modified": "2026-05-01T11:31:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

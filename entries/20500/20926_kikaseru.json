@@ -3,7 +3,7 @@
   "headword": "{聞|き}かせる",
   "reading": "きかせる",
   "romaji": "kikaseru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to tell; to let someone hear; to recite",
   "definitions": [
     {
@@ -96,6 +96,29 @@
   ],
   "conjugation_type": "ichidan",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00467_hanasu",
+      "reading": "はなす",
+      "headword": "{話|はな}す",
+      "label": "to speak, to tell"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01930_kataru",
+      "reading": "かたる",
+      "headword": "{語|かた}る",
+      "label": "to narrate, to tell"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01220_tsutaeru",
+      "reading": "つたえる",
+      "headword": "{伝|つた}える",
+      "label": "to convey, to communicate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -110,7 +133,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-03-30T21:32:56Z",
-    "modified": "2026-04-29T10:05:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

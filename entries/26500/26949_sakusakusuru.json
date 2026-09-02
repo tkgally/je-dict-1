@@ -3,7 +3,7 @@
   "headword": "サクサクする",
   "reading": "さくさくする",
   "romaji": "sakusakusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb, onomatopoeia",
   "gloss": "to be crispy; to be crunchy; to go smoothly",
   "definitions": [
     {
@@ -80,7 +80,36 @@
     }
   ],
   "notes": "An onomatopoeic word mimicking the sound of biting into something crispy. The reduplication (サクサク) intensifies the crisp quality. Very commonly used in food descriptions, cooking shows, and restaurant reviews.\n\nThe smooth/brisk sense (sense 2) is a newer extension, especially popular in tech contexts to describe responsive software or fast internet connections.\n\nCOMMON COLLOCATIONS:\n- サクサクの{食感|しょっかん}: crispy texture\n- サクサクに{揚|あ}げる: to fry until crispy\n- サクサク{進|すす}む: to progress briskly\n- サクサク{動|うご}く: to run smoothly (software)\n\nSIMILAR WORDS:\n- カリカリ: crispy — harder, more intensely crunchy texture (like crackers or burnt edges)\n- パリパリ: crispy — thin and brittle crispness (like chips or dried seaweed)\n- ザクザク: crunchy — coarser, chunkier crunch (like gravel or rough-chopped vegetables)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06718_karikari",
+      "reading": "かりかり",
+      "headword": "かりかり",
+      "label": "crispy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05259_paripari",
+      "reading": "ぱりぱり",
+      "headword": "ぱりぱり",
+      "label": "crispy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10956_zakuzaku",
+      "reading": "ざくざく",
+      "headword": "ザクザク",
+      "label": "crunchy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26984_parittosuru",
+      "reading": "ぱりっとする",
+      "headword": "パリッとする",
+      "label": "to be crisp"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -100,7 +129,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T11:08:37Z",
-    "modified": "2026-05-06T11:08:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

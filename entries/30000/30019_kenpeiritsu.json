@@ -17,7 +17,9 @@
       "id": "30019_kenpeiritsu_ex1",
       "japanese": "この{土地|とち}の{建|けん}ぺい{率|りつ}は{六十|ろくじゅう}パーセントだ。",
       "english": "The building coverage ratio for this lot is sixty percent.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30019_kenpeiritsu_ex2",
       "japanese": "{建|けん}ぺい{率|りつ}を{超|こ}える{家|いえ}は{建|た}てられない。",
       "english": "You can't build a house that exceeds the building coverage ratio.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "30019_kenpeiritsu_ex3",
       "japanese": "{地域|ちいき}によって{建|けん}ぺい{率|りつ}や{容積率|ようせきりつ}の{制限|せいげん}が{決|き}められている。",
       "english": "Limits on the building coverage ratio and floor area ratio are set depending on the area.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A term from real estate and building regulation. It caps the ground area a building may occupy on its lot; the companion figure {容積率|ようせきりつ} caps total floor area. Sometimes written {建蔽率|けんぺいりつ} with the full kanji.\n\nCOMMON COLLOCATIONS:\n- {建|けん}ぺい{率|りつ}を{超|こ}える: to exceed the building coverage ratio\n- {建|けん}ぺい{率|りつ}{六十|ろくじゅう}パーセント: a coverage ratio of 60%\n- {建|けん}ぺい{率|りつ}の{制限|せいげん}: coverage-ratio restrictions\n\nSIMILAR WORDS:\n- {容積率|ようせきりつ}: floor area ratio — total floor area relative to the lot, not just the footprint",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30020_yousekiritsu",
+      "reading": "ようせきりつ",
+      "headword": "{容積率|ようせきりつ}",
+      "label": "floor area ratio"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["building"],
+      "politeness": "plain",
+      "semantic": [
+        "building"
+      ],
       "domain": []
     },
     "created": "2026-07-21T18:18:56Z",
-    "modified": "2026-07-21T18:18:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "id": "11079_jukusui",
   "headword": "{熟睡|じゅくすい}",
   "reading": "じゅくすい",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "deep sleep, sound sleep",
   "conjugation": {
     "type": "suru",
@@ -142,11 +142,32 @@
       "headword": "{不眠|ふみん}",
       "label": "insomnia",
       "target_id": "11078_fumin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15296_bakusui",
+      "reading": "ばくすい",
+      "headword": "{爆睡|ばくすい}",
+      "label": "sleeping like a log"
+    },
+    {
+      "type": "related",
+      "target_id": "08548_netsuki",
+      "reading": "ねつき",
+      "headword": "{寝|ね}つき",
+      "label": "ability to fall asleep"
+    },
+    {
+      "type": "related",
+      "target_id": "08549_nezame",
+      "reading": "ねざめ",
+      "headword": "{寝覚|ねざ}め",
+      "label": "waking up"
     }
   ],
   "metadata": {
     "created": "2026-02-13T05:17:28Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

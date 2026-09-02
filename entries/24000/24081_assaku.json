@@ -3,7 +3,7 @@
   "headword": "{圧搾|あっさく}",
   "reading": "あっさく",
   "romaji": "assaku",
-  "part_of_speech": "noun (する verb)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "compression; pressing; squeezing",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Refers to applying mechanical pressure to squeeze, compress, or extract liquid from something. Common in industrial contexts (compressed air, hydraulic presses) and increasingly in food marketing, where {圧搾|あっさく} methods are promoted as producing higher-quality oils and juices.\n\nCOMMON COLLOCATIONS:\n- {圧搾|あっさく}{空気|くうき}: compressed air\n- {圧搾|あっさく}{機|き}: pressing machine; press\n- {圧搾|あっさく}{製法|せいほう}: pressing method (for oil, juice)\n- コールド{圧搾|あっさく}: cold pressing\n\nSIMILAR WORDS:\n- {圧縮|あっしゅく}: compression — reducing volume (gas, data), not extracting liquid\n- {搾|しぼ}る: to squeeze/wring — the everyday verb for squeezing liquid out",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04884_asshuku",
+      "reading": "あっしゅく",
+      "headword": "{圧縮|あっしゅく}",
+      "label": "compression"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18724_shiboru",
+      "reading": "しぼる",
+      "headword": "{搾|しぼ}る",
+      "label": "to squeeze/wring"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +69,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business",
         "food"
@@ -60,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-17T17:39:19Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

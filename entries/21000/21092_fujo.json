@@ -3,7 +3,7 @@
   "headword": "{扶助|ふじょ}",
   "reading": "ふじょ",
   "romaji": "fujo",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "aid; support; assistance; relief",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A formal term for aid, support, or relief, most commonly encountered in legal and social welfare contexts. Refers to institutionalized or obligatory forms of support rather than casual help.\n\nCOMMON COLLOCATIONS:\n- {生活|せいかつ}{扶助|ふじょ}: livelihood assistance (a category of welfare benefits)\n- {法律|ほうりつ}{扶助|ふじょ}: legal aid\n- {扶助|ふじょ}{義務|ぎむ}: obligation of support\n- {扶助|ふじょ}{料|りょう}: support payment, maintenance\n- {相互|そうご}{扶助|ふじょ}: mutual aid\n\nUSAGE:\nIn Japanese law, {扶助|ふじょ} appears in family law (spousal and parental support obligations) and in the welfare system ({生活|せいかつ}{保護法|ほごほう}). It carries a more formal and institutional tone than everyday words like {助|たす}け or {支援|しえん}.\n\nSIMILAR WORDS:\n- {援助|えんじょ}: aid, assistance — broader and more general; used for international aid, personal help, etc.\n- {支援|しえん}: support — emphasizes backing or helping someone achieve something\n- {扶養|ふよう}: support of dependents — specifically refers to financially supporting family members\n\nETYMOLOGY:\n{扶|ふ} (support, help) + {助|じょ} (aid, help).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01892_enjo",
+      "reading": "えんじょ",
+      "headword": "{援助|えんじょ}",
+      "label": "aid, assistance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07778_shien",
+      "reading": "しえん",
+      "headword": "{支援|しえん}",
+      "label": "support"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21549_fuyou",
+      "reading": "ふよう",
+      "headword": "{扶養|ふよう}",
+      "label": "support of dependents"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-31T17:15:44Z",
-    "modified": "2026-03-31T17:15:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

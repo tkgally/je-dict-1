@@ -3,7 +3,7 @@
   "headword": "{耽溺|たんでき}",
   "reading": "たんでき",
   "romaji": "tandeki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "indulgence; addiction; being absorbed in",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Composed of {耽|たん} (indulge, be absorbed in) and {溺|でき} (drown, be infatuated). The two characters together paint a vivid picture of drowning in indulgence. This is a literary, somewhat formal word that appears in essays, novels, and cultural criticism rather than casual conversation.\n\nCOMMON COLLOCATIONS:\n- {酒|さけ}に{耽溺|たんでき}する: to be addicted to alcohol\n- {快楽|かいらく}に{耽溺|たんでき}する: to indulge in pleasure\n- {耽溺|たんでき}{的|てき}な{生活|せいかつ}: a dissipated lifestyle\n- ギャンブルに{耽溺|たんでき}する: to be addicted to gambling\n\nSIMILAR WORDS:\n- {中毒|ちゅうどく}: addiction — more clinical and modern; used for substance addiction and figurative \"addictions\"\n- {溺|おぼ}れる: to drown in; to be infatuated with — more colloquial and versatile\n- {耽|ふけ}る: to be absorbed in; to indulge in — can be neutral or positive, unlike {耽溺|たんでき} which is almost always negative\n- {依存|いぞん}: dependence; addiction — the standard modern term for clinical addiction",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16558_chuudoku",
+      "reading": "ちゅうどく",
+      "headword": "{中毒|ちゅうどく}",
+      "label": "addiction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02026_oboreru",
+      "reading": "おぼれる",
+      "headword": "{溺|おぼ}れる",
+      "label": "to drown in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11441_izon",
+      "reading": "いぞん",
+      "headword": "{依存|いぞん}",
+      "label": "dependence"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +76,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "health"
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-30T16:20:33Z",
-    "modified": "2026-04-30T16:20:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

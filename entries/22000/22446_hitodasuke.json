@@ -17,7 +17,9 @@
       "id": "22446_hitodasuke_ex1",
       "japanese": "{人助|ひとだす}けをする。",
       "english": "To help someone out.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22446_hitodasuke_ex2",
       "japanese": "{困|こま}っている{人|ひと}の{人助|ひとだす}けがしたい。",
       "english": "I want to help people who are in trouble.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "22446_hitodasuke_ex3",
       "japanese": "{彼|かれ}は{人助|ひとだす}けが{好|す}きで、ボランティアに{積極的|せっきょくてき}に{参加|さんか}している。",
       "english": "He enjoys helping others and actively participates in volunteer work.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {人|ひと} (person/people) + {助|たす}け (help). The compound refers specifically to the act of helping other people, carrying connotations of kindness and altruism. Often used when praising someone's good deeds or discussing charitable behavior.\n\nCOMMON COLLOCATIONS:\n- {人助|ひとだす}けをする: to help others\n- {人助|ひとだす}けだと{思|おも}って: thinking of it as helping someone out\n- {人助|ひとだす}けの{精神|せいしん}: spirit of helping others\n\nUSAGE:\nOften appears in the phrase {人助|ひとだす}けだと{思|おも}って, used when asking someone for a favor — literally \"think of it as helping someone\" — as a way of making a request seem more like an act of charity than a burden.\n\nSIMILAR WORDS:\n- {手助|てだす}け: assistance — more focused on practical help with a specific task\n- {助|たす}け{合|あ}い: mutual aid — emphasizes reciprocity and community support\n- ボランティア: volunteer work — organized, formalized helping",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12769_tedasuke",
+      "reading": "てだすけ",
+      "headword": "{手助|てだす}け",
+      "label": "assistance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16991_tasukeai",
+      "reading": "たすけあい",
+      "headword": "{助|たす}け{合|あ}い",
+      "label": "mutual aid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04834_borantia",
+      "reading": "ぼらんてぃあ",
+      "headword": "ボランティア",
+      "label": "volunteer work"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life"]
+      "semantic": [
+        "daily-life"
+      ]
     },
     "created": "2026-04-06T12:08:18Z",
-    "modified": "2026-04-06T12:08:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

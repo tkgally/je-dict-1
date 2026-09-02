@@ -3,7 +3,7 @@
   "headword": "{流転|るてん}",
   "reading": "るてん",
   "romaji": "ruten",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "constant change; vicissitudes; transmigration",
   "definitions": [
     {
@@ -81,6 +81,29 @@
   ],
   "notes": "Composed of {流|る} (flow) + {転|てん} (turn, revolve). A literary word that evokes the Buddhist concept of impermanence. In everyday usage, it describes the constant turning of fortune and circumstances. In Buddhist philosophy, it refers specifically to the cycle of rebirth.\n\nCOMMON COLLOCATIONS:\n- {流転|るてん}する: to undergo constant change; to transmigrate\n- {運命|うんめい}の{流転|るてん}: vicissitudes of fate\n- {生死|しょうじ}{流転|るてん}: the cycle of life and death\n- {流転|るてん}の{人生|じんせい}: a life of constant change\n\nSIMILAR WORDS:\n- {無常|むじょう}: impermanence — the Buddhist concept that all things are transient\n- {変遷|へんせん}: transition, change — neutral term for historical or gradual change\n- {浮沈|ふちん}: ups and downs — focuses on the alternation between success and failure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13422_mujou",
+      "reading": "むじょう",
+      "headword": "{無常|むじょう}",
+      "label": "impermanence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05571_hensen",
+      "reading": "へんせん",
+      "headword": "{変遷|へんせん}",
+      "label": "transition, change"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08128_fuchin",
+      "reading": "ふちん",
+      "headword": "{浮沈|ふちん}",
+      "label": "ups and downs"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -97,7 +120,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T02:21:17Z",
-    "modified": "2026-04-05T02:21:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

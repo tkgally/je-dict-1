@@ -17,7 +17,9 @@
       "id": "19272_shougou_ex1",
       "japanese": "{商号|しょうごう}を{登録|とうろく}した。",
       "english": "I registered the business name.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19272_shougou_ex2",
       "japanese": "{商号|しょうごう}を{変更|へんこう}するには{届|とど}け{出|で}が{必要|ひつよう}だ。",
       "english": "A formal filing is required to change the business name.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "19272_shougou_ex3",
       "japanese": "{同|おな}じ{地域|ちいき}で{同一|どういつ}の{商号|しょうごう}は{使|つか}えない{場合|ばあい}がある。",
       "english": "In some cases, the same business name cannot be used in the same area.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A legal and business term for the official name under which a company or individual conducts business. In Japanese commercial law, the {商号|しょうごう} is registered with the Legal Affairs Bureau ({法務局|ほうむきょく}).\n\nCOMMON COLLOCATIONS:\n- {商号|しょうごう}{登録|とうろく}: trade name registration\n- {商号|しょうごう}{変更|へんこう}: change of business name\n- {商号|しょうごう}を{使用|しよう}する: to use a trade name\n\nSIMILAR WORDS:\n- {社名|しゃめい}: company name — more common in everyday use\n- {屋号|やごう}: shop name, house name — used for smaller businesses, traditional shops, and traditional family names\n- {商標|しょうひょう}: trademark — a different concept; protects brands and logos rather than business names\n\nREGISTER:\nFormal/legal. In everyday conversation, {社名|しゃめい} or {会社名|かいしゃめい} is more natural.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12527_yagou",
+      "reading": "やごう",
+      "headword": "{屋号|やごう}",
+      "label": "shop name, house name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12019_shouhyou",
+      "reading": "しょうひょう",
+      "headword": "{商標|しょうひょう}",
+      "label": "trademark"
+    },
+    {
+      "type": "related",
+      "target_id": "26206_kaishamei",
+      "reading": "かいしゃめい",
+      "headword": "{会社名|かいしゃめい}",
+      "label": "company name"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work", "law"]
+      "semantic": [
+        "work",
+        "law"
+      ]
     },
     "created": "2026-03-25T03:40:33Z",
-    "modified": "2026-03-25T03:40:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

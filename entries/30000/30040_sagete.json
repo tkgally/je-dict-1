@@ -17,7 +17,9 @@
       "id": "30040_sagete_ex1",
       "japanese": "{紙袋|かみぶくろ}の{提|さ}げ{手|て}。",
       "english": "The handle of a paper bag.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30040_sagete_ex2",
       "japanese": "{提|さ}げ{手|て}が{切|き}れてしまった。",
       "english": "The handle broke off.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "30040_sagete_ex3",
       "japanese": "{重|おも}い{荷物|にもつ}で{提|さ}げ{手|て}が{手|て}に{食|く}い{込|こ}む。",
       "english": "The handle digs into my hand because of the heavy load.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from the verb {提|さ}げる (to carry by hand, dangle) + {手|て} (hand). Refers to the grip part of a carryable object.\n\nCOMMON COLLOCATIONS:\n- {提|さ}げ{手|て}が{付|つ}いた{袋|ふくろ}: a bag with a handle\n- {提|さ}げ{手|て}を{握|にぎ}る: to grip the handle\n\nSIMILAR WORDS:\n- {取|と}っ{手|て}: handle, knob — for doors, drawers, and pots (a fixed grip)\n- {持|も}ち{手|て}: handle — a near-synonym, the part you hold",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24070_totte",
+      "reading": "とって",
+      "headword": "{取|と}っ{手|て}",
+      "label": "handle, knob"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22584_mochite",
+      "reading": "もちて",
+      "headword": "{持|も}ち{手|て}",
+      "label": "handle"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["tool"],
+      "politeness": "plain",
+      "semantic": [
+        "tool"
+      ],
       "domain": []
     },
     "created": "2026-07-22T12:20:02Z",
-    "modified": "2026-07-22T12:20:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

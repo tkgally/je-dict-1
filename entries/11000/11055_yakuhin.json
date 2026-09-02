@@ -24,7 +24,9 @@
       "english": "This chemical is dangerous.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11055_yakuhin_ex2",
@@ -32,7 +34,9 @@
       "english": "To prepare the chemicals for the experiment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11055_yakuhin_ex3",
@@ -40,7 +44,9 @@
       "english": "Please wear gloves when handling chemicals.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11055_yakuhin_ex4",
@@ -48,7 +54,9 @@
       "english": "This pharmaceutical product requires a doctor's prescription.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11055_yakuhin_ex5",
@@ -56,7 +64,9 @@
       "english": "Developing new pharmaceutical products takes a long time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "{薬品|やくひん} covers both industrial/laboratory chemicals and pharmaceutical products. The word emphasizes the substance itself rather than its use as medicine.\n\nCOMMON COLLOCATIONS:\n- {薬品|やくひん}を{扱|あつか}う: to handle chemicals\n- {化学|かがく}{薬品|やくひん}: chemical substances\n- {薬品|やくひん}{棚|だな}: chemical storage shelf\n- {劇|げき}{薬品|やくひん}: powerful/toxic chemicals\n\nRELATED WORDS:\n- {薬|くすり}: medicine (everyday term)\n- {医薬品|いやくひん}: pharmaceuticals (formal/regulatory term)\n- {化学|かがく}: chemistry",
@@ -74,19 +84,46 @@
       "reading": "いやくひん",
       "headword": "{医薬品|いやくひん}",
       "label": "pharmaceuticals (formal)"
+    },
+    {
+      "type": "related",
+      "target_id": "05336_kagaku_chem",
+      "reading": "かがく",
+      "headword": "{化学|かがく}",
+      "label": "chemistry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14100_yakuzai",
+      "reading": "やくざい",
+      "headword": "{薬剤|やくざい}",
+      "label": "medicine, pharmaceutical, chemical agent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19856_kagakubusshitsu",
+      "reading": "かがくぶっしつ",
+      "headword": "{化学物質|かがくぶっしつ}",
+      "label": "chemical substance"
     }
   ],
   "metadata": {
     "created": "2026-02-13T01:20:32Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

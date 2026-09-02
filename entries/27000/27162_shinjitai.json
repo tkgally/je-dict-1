@@ -17,7 +17,9 @@
       "id": "27162_shinjitai_ex1",
       "japanese": "「{学|がく}」は{新字体|しんじたい}だ。",
       "english": "学 is a new-form character.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27162_shinjitai_ex2",
       "japanese": "{現在|げんざい}の{教育|きょういく}では{新字体|しんじたい}が{使|つか}われている。",
       "english": "In current education, new-form kanji are used.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,61 @@
       "id": "27162_shinjitai_ex3",
       "japanese": "{新字体|しんじたい}は{画数|かくすう}を{減|へ}らして{書|か}きやすくしたものが{多|おお}い。",
       "english": "Many new-form kanji were made easier to write by reducing the number of strokes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {新|しん} (new), {字|じ} (character), and {体|たい} (form, style). The standard kanji forms used in Japan today. The simplification reduced stroke counts to make reading and writing easier. Not all kanji were simplified — only those deemed overly complex received new forms.\n\nCOMMON COLLOCATIONS:\n- {新字体|しんじたい}に{改|あらた}める — to convert to new-form kanji\n- {新字体|しんじたい}と{旧字体|きゅうじたい} — new-form and old-form kanji\n- {新字体|しんじたい}の{漢字|かんじ} — new-form kanji characters\n\nRELATED WORDS:\n- {旧字体|きゅうじたい} — old-form kanji; the traditional, more complex forms replaced by {新字体|しんじたい}\n- {常用漢字|じょうようかんじ} — kanji for common use; the official list of kanji approved for everyday use\n- {簡体字|かんたいじ} — simplified Chinese characters; a similar but more extensive simplification used in mainland China\n\nCULTURAL NOTE:\nJapan's simplification was more conservative than China's. Many {新字体|しんじたい} are identical to or close to the traditional forms, while Chinese {簡体字|かんたいじ} often differ drastically.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27161_kyuujitai",
+      "reading": "きゅうじたい",
+      "headword": "{旧字体|きゅうじたい}",
+      "label": "old-form kanji"
+    },
+    {
+      "type": "related",
+      "target_id": "20778_jouyoukanji",
+      "reading": "じょうようかんじ",
+      "headword": "{常用漢字|じょうようかんじ}",
+      "label": "kanji for common use"
+    },
+    {
+      "type": "related",
+      "target_id": "13894_kantaiji",
+      "reading": "かんたいじ",
+      "headword": "{簡体字|かんたいじ}",
+      "label": "simplified Chinese characters"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24448_seiji",
+      "reading": "せいじ",
+      "headword": "{正字|せいじ}",
+      "label": "standard character form"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"],
-      "domain": ["academic"]
+      "semantic": [
+        "education"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-05-07T13:17:22Z",
-    "modified": "2026-05-07T13:17:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

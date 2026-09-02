@@ -3,7 +3,7 @@
   "headword": "{追|お}い{落|お}とす",
   "reading": "おいおとす",
   "romaji": "oiotosu",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to oust; to dethrone; to drive out of a position",
   "conjugation": {
     "type": "godan",
@@ -136,6 +136,22 @@
   ],
   "notes": "A compound verb from {追|お}う (to chase) + {落|お}とす (to drop, bring down). Implies forceful removal from a high position.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Takes を for the person being ousted, から for the position\n\nCOMMON PATTERNS:\n- ライバルを{追|お}い{落|お}とす: to dethrone a rival\n- {政権|せいけん}から{追|お}い{落|お}とす: to oust from power\n- {首位|しゅい}から{追|お}い{落|お}とす: to knock from the top position\n- {地位|ちい}から{追|お}い{落|お}とす: to force out of a position\n\nUSAGE:\nUsed in politics, sports, and business competition. Carries a strong, aggressive nuance — the removal is deliberate and forceful.\n\nSIMILAR WORDS:\n- {追|お}い{出|だ}す: to drive out, to expel (more general)\n- {引|ひ}きずり{下|お}ろす: to drag down from a position",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04625_oidasu",
+      "reading": "おいだす",
+      "headword": "{追|お}い{出|だ}す",
+      "label": "to drive out, to expel"
+    },
+    {
+      "type": "related",
+      "target_id": "10206_keotosu",
+      "reading": "けおとす",
+      "headword": "{蹴落|けお}とす",
+      "label": "to kick down"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +168,6 @@
       "verb_class": "godan-su"
     },
     "created": "2026-03-23T00:25:50Z",
-    "modified": "2026-07-26T09:39:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

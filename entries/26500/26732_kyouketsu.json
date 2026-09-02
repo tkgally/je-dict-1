@@ -3,7 +3,7 @@
   "headword": "{供血|きょうけつ}",
   "reading": "きょうけつ",
   "romaji": "kyouketsu",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "blood donation; donating blood",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "A formal term for donating blood, used primarily in medical and institutional contexts. While {献血|けんけつ} is the everyday word for voluntary blood donation at blood drives, {供血|きょうけつ} emphasizes the act of supplying blood and often appears in clinical or administrative settings.\n\nCOMMON COLLOCATIONS:\n- {供血|きょうけつ}{者|しゃ}: blood donor\n- {供血|きょうけつ}{量|りょう}: amount of blood donated\n- {供血|きょうけつ}を{受|う}ける: to receive donated blood\n- {緊急|きんきゅう}{供血|きょうけつ}: emergency blood donation\n\nSIMILAR WORDS:\n- {献血|けんけつ}: voluntary blood donation — the standard everyday term, especially for blood drives\n- {輸血|ゆけつ}: blood transfusion — refers to the receiving side, not the donating side",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16161_kenketsu",
+      "reading": "けんけつ",
+      "headword": "{献血|けんけつ}",
+      "label": "voluntary blood donation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04083_yuketsu",
+      "reading": "ゆけつ",
+      "headword": "{輸血|ゆけつ}",
+      "label": "blood transfusion"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -65,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-04T15:29:23Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "LOANWORD:\nFrom English \"toner\"\n\nUSED IN:\n・レーザープリンター - laser printers\n・コピー{機|き}/{複合機|ふくごうき} - photocopiers/multifunction printers\n\nTONER TYPES:\n・{純正|じゅんせい}トナー - genuine/OEM toner (made by printer manufacturer)\n・{互換|ごかん}トナー - compatible toner (third-party)\n・リサイクルトナー - recycled/remanufactured toner\n\nCOMMON EXPRESSIONS:\n・トナーが{切|き}れる - toner runs out\n・トナーを{交換|こうかん}する - to replace toner\n・トナー{残量|ざんりょう} - toner level/remaining toner\n\nCONTRAST WITH:\n・インク - ink (used in inkjet printers)\n・トナー - toner (used in laser printers)\n\nNote: トナー is powder-based and heat-fused, while インク is liquid-based.",
+  "notes": "LOANWORD:\nFrom English \"toner\"\n\nUSED IN:\n- レーザープリンター - laser printers\n- コピー{機|き}/{複合機|ふくごうき} - photocopiers/multifunction printers\n\nTONER TYPES:\n- {純正|じゅんせい}トナー - genuine/OEM toner (made by printer manufacturer)\n- {互換|ごかん}トナー - compatible toner (third-party)\n- リサイクルトナー - recycled/remanufactured toner\n\nCOMMON EXPRESSIONS:\n- トナーが{切|き}れる - toner runs out\n- トナーを{交換|こうかん}する - to replace toner\n- トナー{残量|ざんりょう} - toner level/remaining toner\n\nSIMILAR WORDS:\n- インク - ink (used in inkjet printers)\n- トナー - toner (used in laser printers)\n\nNote: トナー is powder-based and heat-fused, while インク is liquid-based.",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,25 @@
       "headword": "カートリッジ",
       "label": "cartridge",
       "target_id": "08142_kaatorijji"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00120_inku",
+      "reading": "いんく",
+      "headword": "インク",
+      "label": "ink"
+    },
+    {
+      "type": "related",
+      "target_id": "29628_tonaakaatorijji",
+      "reading": "となーかーとりっじ",
+      "headword": "トナーカートリッジ",
+      "label": "toner cartridge"
     }
   ],
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-08-10T18:29:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +74,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "tool",
         "technology"

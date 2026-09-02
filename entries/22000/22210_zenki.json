@@ -3,7 +3,7 @@
   "headword": "{前記|ぜんき}",
   "reading": "ぜんき",
   "romaji": "zenki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "aforementioned; above-mentioned; previously stated",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Composed of {前|ぜん} (before, previous) + {記|き} (record, write). A formal written term used in documents, contracts, articles, and official correspondence to refer back to something previously written.\n\nCOMMON COLLOCATIONS:\n- {前記|ぜんき}の{通|とお}り — as stated above\n- {前記|ぜんき}の{条件|じょうけん} — the aforementioned conditions\n- {前記|ぜんき}の{内容|ないよう} — the above content\n- {前記|ぜんき}の{事項|じこう} — the aforementioned matters\n\nSIMILAR WORDS:\n- {上記|じょうき} — above-mentioned (very similar; more commonly used in modern documents)\n- {上述|じょうじゅつ} — aforementioned (more formal/academic)\n- {下記|かき} — below-mentioned (the opposite: referring to what follows)\n- {後述|こうじゅつ} — described later (formal; refers to what will be mentioned later)\n\nREGISTER:\nStrictly a written, formal term. Not used in conversation. In casual writing, {上|うえ}の or さっきの would be used instead.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11375_jouki",
+      "reading": "じょうき",
+      "headword": "{上記|じょうき}",
+      "label": "above-mentioned (very similar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22219_joujutsu",
+      "reading": "じょうじゅつ",
+      "headword": "{上述|じょうじゅつ}",
+      "label": "aforementioned"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11376_kaki",
+      "reading": "かき",
+      "headword": "{下記|かき}",
+      "label": "below-mentioned (the opposite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24208_uki",
+      "reading": "うき",
+      "headword": "{右記|うき}",
+      "label": "the above"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,12 +84,12 @@
         "adjective-no"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "language"
       ]
     },
     "created": "2026-04-05T14:18:30Z",
-    "modified": "2026-04-05T14:18:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

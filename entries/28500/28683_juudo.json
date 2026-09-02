@@ -17,7 +17,9 @@
       "id": "28683_juudo_ex1",
       "japanese": "{重度|じゅうど}の{障害|しょうがい}を{抱|かか}えている。",
       "english": "(He) has a severe disability.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28683_juudo_ex2",
       "japanese": "{祖父|そふ}は{重度|じゅうど}の{認知症|にんちしょう}と{診断|しんだん}された。",
       "english": "My grandfather was diagnosed with severe dementia.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "28683_juudo_ex3",
       "japanese": "{重度|じゅうど}の{患者|かんじゃ}には{専門|せんもん}の{医療|いりょう}スタッフが{二十四時間|にじゅうよじかん}{対応|たいおう}する。",
       "english": "Specialized medical staff attend to severe-condition patients around the clock.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {重|じゅう} (heavy) + {度|ど} (degree). Used attributively in {重度|じゅうど}の + noun. Contrasts with {中度|ちゅうど} (moderate) and {軽度|けいど} (mild) to form a three-step severity scale.\n\nCOMMON COLLOCATIONS:\n- {重度|じゅうど}の{障害|しょうがい}: severe disability\n- {重度|じゅうど}の{認知症|にんちしょう}: severe dementia\n- {重度|じゅうど}の{患者|かんじゃ}: severely ill patient\n- {重度|じゅうど}の{火傷|やけど}: severe burns\n- {重度|じゅうど}の{依存症|いぞんしょう}: severe addiction\n\nSIMILAR WORDS:\n- {軽度|けいど}: mild degree — antonym\n- {中度|ちゅうど}: moderate degree — between the two\n- {重症|じゅうしょう}: serious condition — for the patient/illness state itself, not used attributively in the same way",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "28013_keido",
+      "reading": "けいど",
+      "headword": "軽度",
+      "label": "mild degree"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09792_juushou",
+      "reading": "じゅうしょう",
+      "headword": "{重症|じゅうしょう}",
+      "label": "serious condition"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["health"],
-      "domain": ["medical"]
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-06-04T02:08:09Z",
-    "modified": "2026-06-04T02:08:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

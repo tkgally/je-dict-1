@@ -3,7 +3,7 @@
   "headword": "{移|うつ}り{気|ぎ}",
   "reading": "うつりぎ",
   "romaji": "utsurigi",
-  "part_of_speech": "na-adjective",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "fickle; capricious; changeable",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "20565_utsurigi_ex1",
       "japanese": "{彼|かれ}は{移|うつ}り{気|ぎ}な{性格|せいかく}だ。",
       "english": "He has a fickle personality.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20565_utsurigi_ex2",
       "japanese": "{移|うつ}り{気|ぎ}な{消費者|しょうひしゃ}のニーズに{応|こた}えるのは{難|むずか}しい。",
       "english": "It's difficult to meet the needs of fickle consumers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "20565_utsurigi_ex3",
       "japanese": "{趣味|しゅみ}がころころ{変|か}わるのは{移|うつ}り{気|ぎ}なところがあるからだ。",
       "english": "The reason my hobbies keep changing is that I have a fickle streak.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Literally \"transferring spirit\" — the idea that one's interest or heart easily moves to something new. Can be used as both a na-adjective ({移|うつ}り{気|ぎ}な) and a noun ({移|うつ}り{気|ぎ}). Often carries a mildly negative connotation.\n\nCOMMON COLLOCATIONS:\n- {移|うつ}り{気|ぎ}な{性格|せいかく}: fickle personality\n- {移|うつ}り{気|ぎ}な{人|ひと}: a fickle person\n- {移|うつ}り{気|ぎ}な{心|こころ}: a fickle heart\n\nSIMILAR WORDS:\n- {気|き}まぐれ: whimsical, capricious — similar but more playful; often used for spontaneous actions\n- {浮気|うわき}: infidelity, fickleness in love — specifically about romantic unfaithfulness\n- {飽|あ}きっぽい: easily bored — focuses on losing interest quickly",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07319_kimagure",
+      "reading": "きまぐれ",
+      "headword": "{気|き}まぐれ",
+      "label": "whimsical, capricious"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13285_uwaki",
+      "reading": "うわき",
+      "headword": "{浮気|うわき}",
+      "label": "infidelity, fickleness in love"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20351_akippoi",
+      "reading": "あきっぽい",
+      "headword": "{飽|あ}きっぽい",
+      "label": "easily bored"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["personality"]
+      "semantic": [
+        "personality"
+      ]
     },
     "created": "2026-03-29T18:10:37Z",
-    "modified": "2026-03-29T18:10:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

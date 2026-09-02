@@ -18,7 +18,9 @@
       "english": "The first snow of the season fell this morning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11784_hatsuyuki_ex2",
@@ -26,7 +28,9 @@
       "english": "The first snow of the season was observed in Tokyo.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11784_hatsuyuki_ex3",
@@ -34,22 +38,65 @@
       "english": "This year's first snow came later than usual, not until December.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Part of a group of seasonal \"first\" words using {初|はつ}:\n・{初日|はつひ}の{出|で} (first sunrise of the new year)\n・{初夢|はつゆめ} (first dream of the new year)\n・{初霜|はつしも} (first frost of the season)\n\nThe first snow is announced officially by local meteorological observatories and is often treated as a seasonal news event.\n\nCOMMON COLLOCATIONS:\n・{初雪|はつゆき}が{降|ふ}る (the first snow falls)\n・{初雪|はつゆき}を{観測|かんそく}する (observe the first snow)\n・{初雪|はつゆき}が{早|はや}い / {遅|おそ}い (the first snow is early / late)",
-  "cross_references": [],
+  "notes": "Part of a group of seasonal \"first\" words using {初|はつ}:\n- {初日|はつひ}の{出|で} (first sunrise of the new year)\n- {初夢|はつゆめ} (first dream of the new year)\n- {初霜|はつしも} (first frost of the season)\n\nThe first snow is announced officially by local meteorological observatories and is often treated as a seasonal news event.\n\nCOMMON COLLOCATIONS:\n- {初雪|はつゆき}が{降|ふ}る (the first snow falls)\n- {初雪|はつゆき}を{観測|かんそく}する (observe the first snow)\n- {初雪|はつゆき}が{早|はや}い / {遅|おそ}い (the first snow is early / late)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03017_ooyuki",
+      "reading": "おおゆき",
+      "headword": "{大雪|おおゆき}",
+      "label": "heavy snow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13858_konayuki",
+      "reading": "こなゆき",
+      "headword": "{粉雪|こなゆき}",
+      "label": "powder snow, fine snow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14989_awayuki",
+      "reading": "あわゆき",
+      "headword": "{淡雪|あわゆき}",
+      "label": "light snow"
+    },
+    {
+      "type": "related",
+      "target_id": "18804_hatsushimo",
+      "reading": "はつしも",
+      "headword": "{初霜|はつしも}",
+      "label": "first frost of the season"
+    },
+    {
+      "type": "related",
+      "target_id": "20359_neyuki",
+      "reading": "ねゆき",
+      "headword": "{根雪|ねゆき}",
+      "label": "lingering snow"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T23:15:01Z",
-    "modified": "2026-02-17T23:15:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather", "time"]
+      "semantic": [
+        "weather",
+        "time"
+      ]
     }
   }
 }

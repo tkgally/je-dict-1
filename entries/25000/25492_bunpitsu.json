@@ -3,7 +3,7 @@
   "headword": "{分泌|ぶんぴつ}",
   "reading": "ぶんぴつ",
   "romaji": "bunpitsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "secretion; to secrete",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A compound of {分|ぶん} (to divide; to separate) and {泌|ぴつ} (to secrete). The character {泌|ぴつ} appears almost exclusively in this word and in {泌尿器|ひにょうき} (urinary organs). Commonly encountered in health articles, biology, and discussions about hormones and skin care.\n\nCOMMON COLLOCATIONS:\n- {分泌|ぶんぴつ}する: to secrete\n- {分泌|ぶんぴつ}{物|ぶつ}: secretion (the substance)\n- {分泌|ぶんぴつ}{量|りょう}: amount of secretion\n- ホルモンの{分泌|ぶんぴつ}: hormone secretion\n- {内分泌|ないぶんぴつ}: endocrine (internal secretion)\n- {外分泌|がいぶんぴつ}: exocrine (external secretion)\n- {皮脂|ひし}の{分泌|ぶんぴつ}: sebum secretion\n\nSIMILAR WORDS:\n- {排出|はいしゅつ}: excretion; discharge — removing waste products from the body\n- {放出|ほうしゅつ}: release; emission — a broader term for releasing substances",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04632_haishutsu",
+      "reading": "はいしゅつ",
+      "headword": "{排出|はいしゅつ}",
+      "label": "excretion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12926_houshutsu",
+      "reading": "ほうしゅつ",
+      "headword": "{放出|ほうしゅつ}",
+      "label": "release"
+    },
+    {
+      "type": "related",
+      "target_id": "27747_daekisen",
+      "reading": "だえきせん",
+      "headword": "{唾液|だえき}{腺|せん}",
+      "label": "salivary gland"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +76,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "science",
         "body-internal",
@@ -61,7 +86,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T14:23:22Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

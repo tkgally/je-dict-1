@@ -19,7 +19,9 @@
       "english": "The local government provides a subsidy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13946_jichitai_ex2",
@@ -27,7 +29,9 @@
       "english": "Each municipality sets its own rules for garbage separation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13946_jichitai_ex3",
@@ -35,22 +39,59 @@
       "english": "As a countermeasure to the declining birth rate, many municipalities are enhancing their childcare support.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{自治体|じちたい} is a common word in news, politics, and daily life. Japan's local government system has two layers: {都道府県|とどうふけん} (prefectures) and {市町村|しちょうそん} (cities, towns, and villages). {自治体|じちたい} can refer to either level. The formal legal term is {地方公共団体|ちほうこうきょうだんたい}, but {自治体|じちたい} is the everyday word.\n\nCOMMON COLLOCATIONS:\n- {地方|ちほう}{自治体|じちたい}: local government\n- {各|かく}{自治体|じちたい}: each municipality\n- {自治体|じちたい}の{取|と}り{組|く}み: municipal initiatives\n- {自治体|じちたい}{職員|しょくいん}: municipal employee",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21770_chihoujichi",
+      "reading": "ちほうじち",
+      "headword": "{地方自治|ちほうじち}",
+      "label": "local self-government"
+    },
+    {
+      "type": "related",
+      "target_id": "23061_shikuchouson",
+      "reading": "しくちょうそん",
+      "headword": "{市区町村|しくちょうそん}",
+      "label": "municipalities"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26247_gyouseiku",
+      "reading": "ぎょうせいく",
+      "headword": "{行政区|ぎょうせいく}",
+      "label": "administrative district"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30276_gyouseikikan",
+      "reading": "ぎょうせいきかん",
+      "headword": "{行政機関|ぎょうせいきかん}",
+      "label": "administrative agency"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T07:47:08Z",
-    "modified": "2026-02-27T07:47:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

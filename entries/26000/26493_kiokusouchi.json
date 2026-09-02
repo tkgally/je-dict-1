@@ -17,7 +17,9 @@
       "id": "26493_kiokusouchi_ex1",
       "japanese": "パソコンの{記憶装置|きおくそうち}を{交換|こうかん}した。",
       "english": "I replaced the computer's storage device.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26493_kiokusouchi_ex2",
       "japanese": "{外部|がいぶ}{記憶装置|きおくそうち}にデータのバックアップを{取|と}っておこう。",
       "english": "Let's back up the data to an external storage device.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,68 @@
       "id": "26493_kiokusouchi_ex3",
       "japanese": "{記憶装置|きおくそうち}の{容量|ようりょう}が{足|た}りなくなったので、{大|おお}きいものに{買|か}い{替|か}えた。",
       "english": "I ran out of storage space, so I bought a larger one.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {記憶|きおく} (memory, storage) and {装置|そうち} (device, apparatus). This is the formal/technical Japanese term for computer storage. In everyday conversation, loanwords like ストレージ (storage) or ハードディスク (hard disk) are more common, but {記憶装置|きおくそうち} appears in technical documentation, textbooks, and formal product specifications.\n\nCOMMON COLLOCATIONS:\n- {外部|がいぶ}{記憶装置|きおくそうち}: external storage device\n- {内部|ないぶ}{記憶装置|きおくそうち}: internal storage\n- {補助|ほじょ}{記憶装置|きおくそうち}: secondary storage (as opposed to primary memory/RAM)\n\nSIMILAR WORDS:\n- ストレージ: storage — the common loanword used in everyday tech conversation\n- {主記憶装置|しゅきおくそうち}: main memory — specifically refers to RAM, the primary working memory\n- メモリ: memory — the loanword for RAM, often contrasted with storage in colloquial usage",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06959_sutoreeji",
+      "reading": "すとれーじ",
+      "headword": "ストレージ",
+      "label": "storage"
+    },
+    {
+      "type": "related",
+      "target_id": "06603_haadodisuku",
+      "reading": "はーどでぃすく",
+      "headword": "ハードディスク",
+      "label": "hard disk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10178_nyuuryokusouchi",
+      "reading": "にゅうりょくそうち",
+      "headword": "{入力装置|にゅうりょくそうち}",
+      "label": "input device"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10179_shutsuryokusouchi",
+      "reading": "しゅつりょくそうち",
+      "headword": "{出力装置|しゅつりょくそうち}",
+      "label": "output device"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23400_kiokubaitai",
+      "reading": "きおくばいたい",
+      "headword": "{記憶媒体|きおくばいたい}",
+      "label": "storage medium (for data)"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["electronics"],
-      "domain": ["technical"]
+      "semantic": [
+        "electronics"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-05-02T12:22:56Z",
-    "modified": "2026-05-02T12:22:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

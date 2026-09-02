@@ -3,7 +3,7 @@
   "headword": "{長期滞在|ちょうきたいざい}",
   "reading": "ちょうきたいざい",
   "romaji": "choukitaizai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "long-term stay; extended stay",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Composed of {長期|ちょうき} (long term) and {滞在|たいざい} (stay/sojourn). Very common in travel and immigration contexts. What counts as \"long-term\" depends on context — it could mean weeks for a hotel stay, or months to years for an overseas assignment.\n\nCOMMON COLLOCATIONS:\n- {長期滞在|ちょうきたいざい}ビザ: long-term stay visa\n- {長期滞在|ちょうきたいざい}{者|しゃ}: long-term resident/visitor\n- {長期滞在|ちょうきたいざい}{型|がた}ホテル: extended-stay hotel\n- {長期滞在|ちょうきたいざい}{向|む}け: designed for long-term stays\n\nSIMILAR WORDS:\n- {短期滞在|たんきたいざい}: short-term stay — the opposite, typically for tourism or brief visits\n- {在留|ざいりゅう}: residence (in a foreign country) — a more formal/legal term used in immigration law\n- {駐在|ちゅうざい}: stationing, being posted — specifically for being assigned to a post, especially overseas work assignments",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12128_zairyuu",
+      "reading": "ざいりゅう",
+      "headword": "{在留|ざいりゅう}",
+      "label": "residence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18181_chuuzai",
+      "reading": "ちゅうざい",
+      "headword": "{駐在|ちゅうざい}",
+      "label": "stationing, being posted"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -55,11 +71,14 @@
       ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["travel", "daily-life"],
+      "semantic": [
+        "travel",
+        "daily-life"
+      ],
       "verb_class": "suru"
     },
     "created": "2026-04-08T16:31:55Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -17,7 +17,9 @@
       "id": "25625_kogotowoiu_ex1",
       "japanese": "{母|はは}がまた{小言|こごと}を{言|い}っている。",
       "english": "My mother is nagging again.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25625_kogotowoiu_ex2",
       "japanese": "{部長|ぶちょう}は{毎朝|まいあさ}{小言|こごと}を{言|い}うので{苦手|にがて}だ。",
       "english": "The department head nags every morning, so I find him difficult to deal with.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,51 @@
       "id": "25625_kogotowoiu_ex3",
       "japanese": "{小言|こごと}を{言|い}いたくないけれど、{約束|やくそく}は{守|まも}ってほしい。",
       "english": "I don't want to nag, but I'd like you to keep your promises.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{小言|こごと} literally means \"small words\" and refers to petty complaints, scolding, or nagging. The expression {小言|こごと}を{言|い}う describes the act of delivering such complaints, usually about minor daily matters.\n\nThe nuance is of repetitive, somewhat tiresome complaining — the speaker may be justified, but the listener finds it annoying. Often associated with parents, spouses, or bosses.\n\nCOMMON COLLOCATIONS:\n- {小言|こごと}が{多|おお}い: to nag a lot\n- {小言|こごと}を{聞|き}かされる: to be subjected to nagging\n- いつも{小言|こごと}ばかり: always nothing but nagging\n\nSIMILAR WORDS:\n- {叱|しか}る: to scold — more authoritative, from a position of authority, and typically about a specific incident\n- {愚痴|ぐち}を{言|い}う: to grumble, to complain — venting dissatisfaction, not necessarily directed at the listener's behavior\n- {文句|もんく}を{言|い}う: to complain — a broader term for voicing complaints, can be more forceful than {小言|こごと}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01202_shikaru",
+      "reading": "しかる",
+      "headword": "{叱|しか}る",
+      "label": "to scold"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25447_guchiwoiu",
+      "reading": "ぐちをいう",
+      "headword": "{愚痴|ぐち}を{言|い}う",
+      "label": "to grumble, to complain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21303_monkuwoiu",
+      "reading": "もんくをいう",
+      "headword": "{文句|もんく}を{言|い}う",
+      "label": "to complain"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
-      "semantic": ["communication"]
+      "pos": [
+        "expression"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-04-26T13:20:07Z",
-    "modified": "2026-04-26T13:20:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

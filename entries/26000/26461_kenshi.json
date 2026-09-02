@@ -17,7 +17,9 @@
       "id": "26461_kenshi_ex1",
       "japanese": "{繭|まゆ}から{繭糸|けんし}を{取|と}り{出|だ}す。",
       "english": "To extract silk thread from cocoons.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26461_kenshi_ex2",
       "japanese": "{繭糸|けんし}の{品質|ひんしつ}は{蚕|かいこ}の{育|そだ}て{方|かた}で{変|か}わる。",
       "english": "The quality of silk thread changes depending on how the silkworms are raised.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,52 @@
       "id": "26461_kenshi_ex3",
       "japanese": "{明治|めいじ}{時代|じだい}、{日本|にほん}は{繭糸|けんし}の{輸出|ゆしゅつ}で{外貨|がいか}を{稼|かせ}いだ。",
       "english": "In the Meiji era, Japan earned foreign currency through silk thread exports.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {繭|けん} (cocoon) and {糸|し} (thread). Japan has a long history of sericulture ({養蚕|ようさん}), and silk production was a major industry from the Edo period through the early twentieth century. The {富岡|とみおか}{製糸場|せいしじょう} (Tomioka Silk Mill), a UNESCO World Heritage Site, is a famous example of Japan's silk industry.\n\nCOMMON COLLOCATIONS:\n- {繭糸|けんし}を{紡|つむ}ぐ: to spin silk thread\n- {繭糸|けんし}の{生産|せいさん}: silk thread production\n- {生|き}{繭糸|けんし}: raw silk thread\n- {繭糸|けんし}の{品質|ひんしつ}: silk thread quality\n\nSIMILAR WORDS:\n- {生糸|きいと}: raw silk — the native Japanese reading for unprocessed silk thread\n- {絹糸|きぬいと}: silk thread — processed silk thread ready for weaving\n- {絹|きぬ}: silk — the finished fabric material",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27719_kiito",
+      "reading": "きいと",
+      "headword": "{生糸|きいと}",
+      "label": "raw silk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27626_kinuito",
+      "reading": "きぬいと",
+      "headword": "{絹糸|きぬいと}",
+      "label": "silk thread"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01383_kinu",
+      "reading": "きぬ",
+      "headword": "{絹|きぬ}",
+      "label": "silk"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["culture", "history"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "culture",
+        "history"
+      ]
     },
     "created": "2026-05-02T11:30:38Z",
-    "modified": "2026-05-02T11:30:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

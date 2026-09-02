@@ -3,7 +3,7 @@
   "headword": "{走破|そうは}",
   "reading": "そうは",
   "romaji": "souha",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "running the full distance; completing a course",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {走|そう} (run) + {破|は} (break through). The {破|は} component conveys the sense of pushing through to completion despite difficulty. Primarily used in sports and travel contexts where completing a long or challenging distance is an achievement.\n\nCOMMON COLLOCATIONS:\n- {走破|そうは}する: to run/cover the full distance\n- {全|ぜん}コースを{走破|そうは}する: to complete the entire course\n- {走破|そうは}{距離|きょり}: distance covered\n- {走破|そうは}{時間|じかん}: completion time\n- {走破|そうは}{記録|きろく}: course completion record\n\nSIMILAR WORDS:\n- {完走|かんそう}: finishing a race — emphasizes completing the race, especially without dropping out\n- {踏破|とうは}: traversing on foot — used for hiking or walking through difficult terrain\n- {縦断|じゅうだん}: traveling the full length — traversing something from end to end (north-south or top-bottom)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16981_kansou",
+      "reading": "かんそう",
+      "headword": "{完走|かんそう}",
+      "label": "finishing a race"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19804_touha",
+      "reading": "とうは",
+      "headword": "{踏破|とうは}",
+      "label": "traversing on foot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09035_juudan",
+      "reading": "じゅうだん",
+      "headword": "{縦断|じゅうだん}",
+      "label": "traveling the full length"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T02:21:17Z",
-    "modified": "2026-04-05T02:21:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

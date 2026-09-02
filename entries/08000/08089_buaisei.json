@@ -16,7 +16,9 @@
       "id": "08089_buaisei_ex1",
       "japanese": "この{仕事|しごと}は{歩合制|ぶあいせい}だ。",
       "english": "This job is commission-based.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "08089_buaisei_ex2",
       "japanese": "{歩合制|ぶあいせい}の{営業職|えいぎょうしょく}は{成績|せいせき}によって{収入|しゅうにゅう}が{変|か}わる。",
       "english": "In commission-based sales positions, income varies depending on performance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,12 +36,14 @@
       "id": "08089_buaisei_ex3",
       "japanese": "{固定給|こていきゅう}と{歩合制|ぶあいせい}を{組|く}み{合|あ}わせた{給与|きゅうよ}{体系|たいけい}もある。",
       "english": "Some compensation systems combine fixed salary with commission.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{歩合制|ぶあいせい} is a commission-based pay system where compensation depends on sales or performance results.\n\nETYMOLOGY:\n{歩合|ぶあい} (percentage/rate) + {制|せい} (system).\n\nCOMMON CONTEXTS:\n- {営業職|えいぎょうしょく}: sales positions\n- {不動産|ふどうさん}: real estate agents\n- {保険|ほけん}{営業|えいぎょう}: insurance sales\n- タクシー{運転手|うんてんしゅ}: taxi drivers\n\nCONTRAST WITH OTHER PAY SYSTEMS:\n- {固定給|こていきゅう}: fixed salary\n- {時給制|じきゅうせい}: hourly wage system\n- {月給制|げっきゅうせい}: monthly salary system\n- {出来高制|できだかせい}: piece-rate system\n- {年俸制|ねんぽうせい}: annual salary system\n\nRELATED TERMS:\n- {歩合|ぶあい}: commission rate, percentage\n- {成果報酬|せいかほうしゅう}: performance-based pay\n- {基本給|きほんきゅう} + {歩合|ぶあい}: base salary plus commission",
+  "notes": "{歩合制|ぶあいせい} is a commission-based pay system where compensation depends on sales or performance results.\n\nETYMOLOGY:\n{歩合|ぶあい} (percentage/rate) + {制|せい} (system).\n\nUSAGE:\n- {営業職|えいぎょうしょく}: sales positions\n- {不動産|ふどうさん}: real estate agents\n- {保険|ほけん}{営業|えいぎょう}: insurance sales\n- タクシー{運転手|うんてんしゅ}: taxi drivers\n\nCONTRAST WITH OTHER PAY SYSTEMS:\n- {固定給|こていきゅう}: fixed salary\n- {時給制|じきゅうせい}: hourly wage system\n- {月給制|げっきゅうせい}: monthly salary system\n- {出来高制|できだかせい}: piece-rate system\n- {年俸制|ねんぽうせい}: annual salary system\n\nRELATED WORDS:\n- {歩合|ぶあい}: commission rate, percentage\n- {成果報酬|せいかほうしゅう}: performance-based pay\n- {基本給|きほんきゅう} + {歩合|ぶあい}: base salary plus commission",
   "cross_references": [
     {
       "type": "contrast",
@@ -45,16 +51,30 @@
       "reading": "こていきゅう",
       "headword": "{固定給|こていきゅう}",
       "label": "fixed salary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28589_gekkyuusei",
+      "reading": "げっきゅうせい",
+      "headword": "{月給制|げっきゅうせい}",
+      "label": "monthly salary system"
     }
   ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "semantic": ["business", "employment", "compensation"]
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "employment",
+        "compensation"
+      ]
     },
     "created": "2026-01-25T01:25:57Z",
-    "modified": "2026-04-20T04:12:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

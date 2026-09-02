@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{犯罪|はんざい}を{阻止|そし}する - to prevent a crime\n・{計画|けいかく}を{阻止|そし}する - to stop a plan\n・{侵入|しんにゅう}を{阻止|そし}する - to prevent intrusion\n・{進行|しんこう}を{阻止|そし}する - to stop the progress\n\nNUANCE:\n{阻止|そし} emphasizes the act of stopping or preventing something from happening, while {妨害|ぼうがい} emphasizes interference or obstruction.\n\nRELATED WORDS:\n・{妨害|ぼうがい} - obstruction, interference\n・{抑止|よくし} - deterrence (preventing through threat)\n・{防止|ぼうし} - prevention (more general)",
+  "notes": "COMMON COLLOCATIONS:\n- {犯罪|はんざい}を{阻止|そし}する - to prevent a crime\n- {計画|けいかく}を{阻止|そし}する - to stop a plan\n- {侵入|しんにゅう}を{阻止|そし}する - to prevent intrusion\n- {進行|しんこう}を{阻止|そし}する - to stop the progress\n\nUSAGE:\n{阻止|そし} emphasizes the act of stopping or preventing something from happening, while {妨害|ぼうがい} emphasizes interference or obstruction.\n\nRELATED WORDS:\n- {妨害|ぼうがい} - obstruction, interference\n- {抑止|よくし} - deterrence (preventing through threat)\n- {防止|ぼうし} - prevention (more general)",
   "cross_references": [
     {
       "type": "related",
@@ -138,11 +138,25 @@
       "headword": "{妨害|ぼうがい}",
       "label": "obstruction",
       "target_id": "07632_bougai"
+    },
+    {
+      "type": "related",
+      "target_id": "07985_yokushi",
+      "reading": "よくし",
+      "headword": "{抑止|よくし}",
+      "label": "deterrence"
+    },
+    {
+      "type": "related",
+      "target_id": "14571_boushi",
+      "reading": "ぼうし",
+      "headword": "{防止|ぼうし}",
+      "label": "prevention"
     }
   ],
   "metadata": {
     "created": "2026-01-20T13:21:59Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +165,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "action"
       ],

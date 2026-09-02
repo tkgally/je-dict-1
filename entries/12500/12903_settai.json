@@ -3,7 +3,7 @@
   "id": "12903_settai",
   "headword": "{接待|せったい}",
   "reading": "せったい",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "business entertainment, reception, hospitality",
   "conjugation": {
     "type": "suru",
@@ -170,10 +170,32 @@
     }
   ],
   "notes": "USAGE:\nUsed as both a noun and a suru verb. In modern Japanese, sense 1 (business entertainment) is the most common usage. {接待|せったい} is a significant aspect of Japanese business culture, where relationships are built through shared meals and leisure activities. Sense 2 (general hospitality) is older and broader, seen in traditional and religious contexts.\n\nCOMMON COLLOCATIONS:\n- {接待|せったい}ゴルフ: client entertainment golf\n- {接待|せったい}{費|ひ}: entertainment expenses\n- {接待|せったい}を{受|う}ける: to be entertained (as a guest)\n- お{遍路|へんろ}{接待|せったい}: offering hospitality to pilgrims\n\nSIMILAR WORDS:\n- もてなし: hospitality (warm, personal)\n- {歓待|かんたい}: warm reception, warm welcome (more festive)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27261_motenashi",
+      "reading": "もてなし",
+      "headword": "もてなし",
+      "label": "hospitality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16351_kantai",
+      "reading": "かんたい",
+      "headword": "{歓待|かんたい}",
+      "label": "warm reception, warm welcome"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12882_sekkyaku",
+      "reading": "せっきゃく",
+      "headword": "{接客|せっきゃく}",
+      "label": "customer service, serving customers"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T14:25:07Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -4,7 +4,7 @@
   "headword": "{配水|はいすい}",
   "reading": "はいすい",
   "romaji": "haisui",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "water distribution; water supply",
   "definitions": [
     {
@@ -46,6 +46,43 @@
     }
   ],
   "notes": "Refers to the process and infrastructure of distributing clean water to homes and buildings. This is the supply side of the water system — getting water from treatment plants to consumers.\n\nCOMMON COLLOCATIONS:\n- {配水|はいすい}{管|かん}: water distribution pipe\n- {配水|はいすい}{池|ち}: distribution reservoir\n- {配水|はいすい}{施設|しせつ}: water distribution facility\n- {配水|はいすい}{量|りょう}: volume of water distributed\n\nSIMILAR WORDS:\n- {排水|はいすい}: drainage — same pronunciation but opposite direction; removing used water. Written with {排|はい} (expel) instead of {配|はい} (distribute)\n- {給水|きゅうすい}: water supply — focuses on providing water to a specific point, often temporary (e.g., emergency water supply)\n- {上水|じょうすい}: clean water/tap water — the water itself rather than the distribution process\n- {水道|すいどう}: water service/waterworks — the broader system including pipes, treatment, and billing",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "11104_haisui",
+      "reading": "はいすい",
+      "headword": "{排水|はいすい}",
+      "label": "drainage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15031_kyuusui",
+      "reading": "きゅうすい",
+      "headword": "{給水|きゅうすい}",
+      "label": "water supply"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20521_jousui",
+      "reading": "じょうすい",
+      "headword": "{上水|じょうすい}",
+      "label": "clean water/tap water"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01058_suidou",
+      "reading": "すいどう",
+      "headword": "{水道|すいどう}",
+      "label": "water service/waterworks"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24011_sousui",
+      "reading": "そうすい",
+      "headword": "{送水|そうすい}",
+      "label": "water supply"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +90,14 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "building"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-19T10:07:02Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

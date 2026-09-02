@@ -3,7 +3,7 @@
   "headword": "{反応的|はんのうてき}",
   "reading": "はんのうてき",
   "romaji": "hannouteki",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "reactive; responsive",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "25731_hannouteki_ex1",
       "japanese": "{反応的|はんのうてき}な{対応|たいおう}では{遅|おそ}い。",
       "english": "A reactive response is too late.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25731_hannouteki_ex2",
       "japanese": "{反応的|はんのうてき}ではなく{能動的|のうどうてき}に{行動|こうどう}すべきだ。",
       "english": "We should act proactively, not reactively.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,51 @@
       "id": "25731_hannouteki_ex3",
       "japanese": "{問題|もんだい}が{起|お}きてから{反応的|はんのうてき}に{動|うご}くのではなく、{事前|じぜん}に{計画|けいかく}を{立|た}てることが{大切|たいせつ}だ。",
       "english": "Rather than reacting after problems arise, it is important to plan in advance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {反応|はんのう} (reaction, response) + {的|てき} (suffix forming na-adjectives). Often used in contrast with {能動的|のうどうてき} (proactive) or {積極的|せっきょくてき} (active, assertive). In business and management contexts, being {反応的|はんのうてき} typically carries a negative connotation, implying a lack of initiative.\n\nIn chemistry and science, it can also describe substances that readily undergo chemical reactions.\n\nCOMMON COLLOCATIONS:\n- {反応的|はんのうてき}な{態度|たいど}: reactive attitude\n- {反応的|はんのうてき}な{対応|たいおう}: reactive response\n- {反応的|はんのうてき}な{姿勢|しせい}: reactive stance\n- {反応的|はんのうてき}な{行動|こうどう}: reactive behavior\n\nSIMILAR WORDS:\n- {受動的|じゅどうてき}: passive — emphasizes lack of action, whereas {反応的|はんのうてき} implies acting only after being prompted\n- {能動的|のうどうてき}: proactive, active — the opposite; acting on one's own initiative\n- {積極的|せっきょくてき}: assertive, enthusiastic — positive connotation of taking initiative",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16987_judouteki",
+      "reading": "じゅどうてき",
+      "headword": "{受動的|じゅどうてき}",
+      "label": "passive"
+    },
+    {
+      "type": "antonym",
+      "target_id": "13963_noudouteki",
+      "reading": "のうどうてき",
+      "headword": "{能動的|のうどうてき}",
+      "label": "proactive, active"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01585_sekkyokuteki",
+      "reading": "せっきょくてき",
+      "headword": "{積極的|せっきょくてき}",
+      "label": "assertive, enthusiastic"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
-      "semantic": ["abstract"]
+      "pos": [
+        "adjective-na"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-04-27T11:14:46Z",
-    "modified": "2026-04-27T11:14:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

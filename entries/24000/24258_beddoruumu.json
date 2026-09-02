@@ -17,7 +17,9 @@
       "id": "24258_beddoruumu_ex1",
       "japanese": "ベッドルームは{二階|にかい}にある。",
       "english": "The bedroom is on the second floor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24258_beddoruumu_ex2",
       "japanese": "このマンションはベッドルームが{三|みっ}つある。",
       "english": "This apartment has three bedrooms.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "24258_beddoruumu_ex3",
       "japanese": "ベッドルームの{壁|かべ}を{落|お}ち{着|つ}いた{色|いろ}に{塗|ぬ}り{替|か}えた。",
       "english": "We repainted the bedroom walls in a calming color.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Loanword from English 'bedroom.' In Japan, the distinction between a bedroom and a general-purpose room is culturally significant — traditional Japanese rooms ({和室|わしつ}) double as living spaces by day and sleeping spaces by night using futons, while ベッドルーム implies a dedicated Western-style sleeping room with a permanent bed.\n\nUSAGE:\n- Common in real estate listings: 「3ベッドルーム」 means a three-bedroom unit\n- In everyday speech, {寝室|しんしつ} is the more traditional native word, while ベッドルーム sounds more modern and Western\n- Often used when discussing interior design and home furnishing\n\nCOMMON COLLOCATIONS:\n- マスターベッドルーム: master bedroom\n- ベッドルームの{家具|かぐ}: bedroom furniture\n- ベッドルームの{照明|しょうめい}: bedroom lighting\n- ベッドルームに{入|はい}る: to go into the bedroom\n\nSIMILAR WORDS:\n- {寝室|しんしつ}: bedroom — the native Japanese equivalent; more traditional and neutral in register\n- {寝間|ねま}: sleeping room — a slightly old-fashioned term for the room where one sleeps\n- {和室|わしつ}: Japanese-style room — a tatami-floored room that can serve as a bedroom when futons are laid out",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05300_shinshitsu",
+      "reading": "しんしつ",
+      "headword": "{寝室|しんしつ}",
+      "label": "bedroom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10437_washitsu",
+      "reading": "わしつ",
+      "headword": "{和室|わしつ}",
+      "label": "Japanese-style room"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building", "furniture"]
+      "semantic": [
+        "building",
+        "furniture"
+      ]
     },
     "created": "2026-04-18T11:28:01Z",
-    "modified": "2026-04-18T11:28:01Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

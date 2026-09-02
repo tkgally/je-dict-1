@@ -3,7 +3,7 @@
   "headword": "{触発|しょくはつ}する",
   "reading": "しょくはつする",
   "romaji": "shokuhatsusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to trigger; to inspire; to provoke",
   "definitions": [
     {
@@ -80,6 +80,22 @@
     }
   ],
   "notes": "Originally a technical term meaning to detonate by contact, now widely used figuratively for triggering events or inspiring action. Combines {触|しょく} (touch, contact) and {発|はつ} (emit, discharge).\n\nUSAGE:\n- Sense 1 is the original meaning: physical triggering (explosions, earthquakes, chain reactions)\n- Sense 2 is more common in everyday use: being stimulated or inspired to action\n- The passive form {触発|しょくはつ}される (to be triggered/inspired) is very frequent\n- に{触発|しょくはつ}されて is a common pattern meaning \"inspired by\"\n\nTRANSITIVITY:\n- Transitive\n\nCOMMON COLLOCATIONS:\n- ～に{触発|しょくはつ}される: to be inspired/triggered by\n- {触発|しょくはつ}されて～する: to do something, having been inspired\n- {連鎖|れんさ}{的|てき}に{触発|しょくはつ}する: to trigger in a chain\n\nSIMILAR WORDS:\n- {刺激|しげき}する: to stimulate — broader; can be physical or mental stimulation\n- {誘発|ゆうはつ}する: to induce, to provoke — emphasizes causing something (often negative) to happen\n- インスパイアする: to inspire — the loanword, used casually",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20205_shigekisuru",
+      "reading": "しげきする",
+      "headword": "{刺激|しげき}する",
+      "label": "to stimulate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18378_yuuhatsusuru",
+      "reading": "ゆうはつする",
+      "headword": "{誘発|ゆうはつ}する",
+      "label": "to induce, to provoke"
+    }
+  ],
   "metadata": {
     "entry_id": "21726_shokuhatsusuru",
     "schema_version": "2.0",
@@ -91,6 +107,7 @@
         "verb-suru"
       ],
       "transitivity": "transitive",
+      "politeness": "plain",
       "semantic": [
         "change"
       ],
@@ -98,7 +115,7 @@
       "usage": [],
       "verb_class": "suru"
     },
-    "modified": "2026-04-10T06:37:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

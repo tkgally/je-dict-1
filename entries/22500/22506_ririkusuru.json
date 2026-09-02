@@ -3,7 +3,7 @@
   "headword": "{離陸|りりく}する",
   "reading": "りりくする",
   "romaji": "ririkusuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to take off (aircraft)",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Used specifically for aircraft leaving the ground. The noun form {離陸|りりく} is commonly used on its own, as in {離陸|りりく}{時間|じかん} (takeoff time). This is the standard aviation term and is also used in news and travel contexts.\n\nCOMMON COLLOCATIONS:\n- {離陸|りりく}{時間|じかん}: takeoff time\n- {離陸|りりく}{準備|じゅんび}: takeoff preparations\n- {離陸|りりく}{直後|ちょくご}: immediately after takeoff\n- {緊急|きんきゅう}{離陸|りりく}: emergency takeoff\n\nSIMILAR WORDS:\n- {着陸|ちゃくりく}する: to land — the opposite, when an aircraft touches down\n- {飛|と}び{立|た}つ: to fly off; to take flight — a more literary or general expression, also used for birds\n- {出発|しゅっぱつ}する: to depart — a broader term for departure that applies to any mode of transport",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "05982_chakuriku",
+      "reading": "ちゃくりく",
+      "headword": "{着陸|ちゃくりく}",
+      "label": "to land"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19322_tobitatsu",
+      "reading": "とびたつ",
+      "headword": "{飛|と}び{立|た}つ",
+      "label": "to fly off"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01832_shuppatsusuru",
+      "reading": "しゅっぱつする",
+      "headword": "{出発|しゅっぱつ}する",
+      "label": "to depart"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21033_hasshinsuru",
+      "reading": "はっしんする",
+      "headword": "{発進|はっしん}する",
+      "label": "to depart"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-06T16:51:39Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

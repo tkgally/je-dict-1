@@ -17,7 +17,9 @@
       "id": "25853_funiochinai_ex1",
       "japanese": "{彼|かれ}の{説明|せつめい}は{腑|ふ}に{落|お}ちない。",
       "english": "His explanation doesn't make sense to me.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25853_funiochinai_ex2",
       "japanese": "{腑|ふ}に{落|お}ちない{点|てん}がいくつかある。",
       "english": "There are several points that don't sit right with me.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,12 +37,14 @@
       "id": "25853_funiochinai_ex3",
       "japanese": "{理由|りゆう}は{分|わ}かったが、どうも{腑|ふ}に{落|お}ちない{部分|ぶぶん}が{残|のこ}る。",
       "english": "I understand the reason, but somehow there's a part that just doesn't feel right.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{腑|ふ} refers to the internal organs (especially the gut), reflecting the Japanese cultural idea that understanding and intuition are felt in the belly. When something {腑|ふ}に{落|お}ちない, it literally \"doesn't fall into the gut\" — the explanation hasn't been digested or internalized.\n\nThe affirmative form {腑|ふ}に{落|お}ちる (to make sense, to click) is also used but less common than the negative.\n\nCOMMON PATTERNS:\n- {腑|ふ}に{落|お}ちない{説明|せつめい}: an unconvincing explanation\n- {腑|ふ}に{落|お}ちない{点|てん}: a point that doesn't add up\n- どうも{腑|ふ}に{落|お}ちない: something just doesn't sit right\n- {腑|ふ}に{落|お}ちる: to make sense; to click (affirmative)\n\nSIMILAR EXPRESSIONS:\n- {納得|なっとく}がいかない: to not be satisfied; to not accept — more about refusing to accept than gut feeling\n- ぴんとこない: to not click; to not resonate — more casual; implies lack of intuitive understanding\n- {合点|がてん}がいかない: to not be convinced — similar but more literary",
+  "notes": "{腑|ふ} refers to the internal organs (especially the gut), reflecting the Japanese cultural idea that understanding and intuition are felt in the belly. When something {腑|ふ}に{落|お}ちない, it literally \"doesn't fall into the gut\" — the explanation hasn't been digested or internalized.\n\nThe affirmative form {腑|ふ}に{落|お}ちる (to make sense, to click) is also used but less common than the negative.\n\nCOMMON PATTERNS:\n- {腑|ふ}に{落|お}ちない{説明|せつめい}: an unconvincing explanation\n- {腑|ふ}に{落|お}ちない{点|てん}: a point that doesn't add up\n- どうも{腑|ふ}に{落|お}ちない: something just doesn't sit right\n- {腑|ふ}に{落|お}ちる: to make sense; to click (affirmative)\n\nSIMILAR WORDS:\n- {納得|なっとく}がいかない: to not be satisfied; to not accept — more about refusing to accept than gut feeling\n- ぴんとこない: to not click; to not resonate — more casual; implies lack of intuitive understanding\n- {合点|がてん}がいかない: to not be convinced — similar but more literary",
   "cross_references": [
     {
       "type": "related",
@@ -46,16 +52,43 @@
       "reading": "くびをかしげる",
       "headword": "{首|くび}を{傾|かし}げる",
       "label": "to wonder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19533_nattokugaikanai",
+      "reading": "なっとくがいかない",
+      "headword": "{納得|なっとく}がいかない",
+      "label": "to not be satisfied"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09367_pintokonai",
+      "reading": "ぴんとこない",
+      "headword": "ピンとこない",
+      "label": "to not click"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05984_moyamoya",
+      "reading": "もやもや",
+      "headword": "もやもや",
+      "label": "hazy feeling"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
-      "semantic": ["emotion", "abstract"]
+      "pos": [
+        "expression"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "emotion",
+        "abstract"
+      ]
     },
     "created": "2026-04-27T15:16:32Z",
-    "modified": "2026-05-06T09:07:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

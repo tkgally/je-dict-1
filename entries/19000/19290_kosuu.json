@@ -17,7 +17,9 @@
       "id": "19290_kosuu_ex1",
       "japanese": "{個数|こすう}を{確認|かくにん}してください。",
       "english": "Please confirm the number of items.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19290_kosuu_ex2",
       "japanese": "{購入|こうにゅう}{個数|こすう}に{制限|せいげん}がある。",
       "english": "There is a limit on the number of items you can purchase.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "19290_kosuu_ex3",
       "japanese": "{在庫|ざいこ}の{個数|こすう}が{合|あ}わないので、もう{一度|いちど}{数|かぞ}え{直|なお}してほしい。",
       "english": "The inventory count doesn't match, so I'd like you to recount.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {個|こ} (individual item counter) + {数|すう} (number). A precise term for counting discrete items, commonly found in business, retail, and technical contexts.\n\nCOMMON COLLOCATIONS:\n- {個数|こすう}{制限|せいげん} — quantity limit\n- {購入|こうにゅう}{個数|こすう} — purchase quantity\n- {個数|こすう}を{数|かぞ}える — to count the number of items\n- {個数|こすう}を{入力|にゅうりょく}する — to enter the quantity\n\nSIMILAR WORDS:\n- {数量|すうりょう} — quantity (broader, includes weight and volume)\n- {数|かず} — number, count (everyday word)\n- {点数|てんすう} — number of items (often in retail or scoring)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05473_suuryou",
+      "reading": "すうりょう",
+      "headword": "{数量|すうりょう}",
+      "label": "quantity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04543_tensuu",
+      "reading": "てんすう",
+      "headword": "{点数|てんすう}",
+      "label": "number of items"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity"]
+      "semantic": [
+        "quantity"
+      ]
     },
     "created": "2026-03-25T04:46:24Z",
-    "modified": "2026-03-25T04:46:24Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

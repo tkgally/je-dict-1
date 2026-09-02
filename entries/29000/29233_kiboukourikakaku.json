@@ -10,7 +10,7 @@
     {
       "sense_number": 1,
       "gloss": "MSRP; manufacturer's suggested retail price",
-      "explanation": "The price that a manufacturer recommends retailers charge for a product. Often printed on product packaging or in catalogs. Actual store prices may differ. Abbreviated as {希望|きぼう}{小売価格|こうりかかく} or sometimes as {メーカー}{希望|きぼう}{小売価格|こうりかかく} (manufacturer's suggested retail price)."
+      "explanation": "The price that a manufacturer recommends retailers charge for a product. Often printed on product packaging or in catalogs. Actual store prices may differ. Abbreviated as {希望|きぼう}{小売価格|こうりかかく} or sometimes as メーカー{希望|きぼう}{小売価格|こうりかかく} (manufacturer's suggested retail price)."
     }
   ],
   "examples": [
@@ -46,10 +46,32 @@
     }
   ],
   "notes": "Literally 'desired retail price.' Seen on product packaging, in catalogs, and on manufacturers' websites. Retailers are not required to sell at this price.\n\nCOMMON COLLOCATIONS:\n- {希望小売価格|きぼうこうりかかく}（{税込|ぜいこ}み）: MSRP (tax included)\n- {希望小売価格|きぼうこうりかかく}より{安|やす}い: cheaper than MSRP\n- メーカー{希望小売価格|きぼうこうりかかく}: manufacturer's suggested retail price\n\nSIMILAR WORDS:\n- {定価|ていか}: list price; fixed price — similar concept but may imply a non-negotiable fixed price\n- {販売価格|はんばいかかく}: actual selling price — the price at which the item is actually sold",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04066_teika",
+      "reading": "ていか",
+      "headword": "{定価|ていか}",
+      "label": "list price"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24607_hanbaikakaku",
+      "reading": "はんばいかかく",
+      "headword": "{販売価格|はんばいかかく}",
+      "label": "actual selling price"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26675_oroshiurikakaku",
+      "reading": "おろしうりかかく",
+      "headword": "{卸売価格|おろしうりかかく}",
+      "label": "wholesale price"
+    }
+  ],
   "metadata": {
     "created": "2026-06-13T21:30:12Z",
-    "modified": "2026-06-13T21:30:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

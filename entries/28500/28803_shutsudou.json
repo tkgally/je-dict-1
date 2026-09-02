@@ -3,7 +3,7 @@
   "headword": "{出動|しゅつどう}",
   "reading": "しゅつどう",
   "romaji": "shutsudou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "dispatch; deployment (of emergency services)",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Compound of {出|しゅつ} (go out) + {動|どう} (move, act). Used with する to form a suru-verb. The subject is typically the responding vehicle or unit ({救急車|きゅうきゅうしゃ}が{出動|しゅつどう}する), not the individual responder.\n\nCOMMON COLLOCATIONS:\n- {現場|げんば}に{出動|しゅつどう}する: to be deployed to the scene\n- {出動|しゅつどう}{要請|ようせい}: a request for dispatch\n- {出動件数|しゅつどうけんすう}: number of dispatches (statistic)\n- {緊急|きんきゅう}{出動|しゅつどう}: emergency dispatch\n\nTYPICAL SUBJECTS:\n- {救急車|きゅうきゅうしゃ} (ambulance), {消防車|しょうぼうしゃ} (fire truck), パトカー (patrol car), {自衛隊|じえいたい} (Self-Defense Forces)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22167_rinjou",
+      "reading": "りんじょう",
+      "headword": "{臨場|りんじょう}",
+      "label": "presence (at a scene)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23173_shutsugeki",
+      "reading": "しゅつげき",
+      "headword": "{出撃|しゅつげき}",
+      "label": "sortie"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-06-05T04:08:23Z",
-    "modified": "2026-06-05T04:08:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

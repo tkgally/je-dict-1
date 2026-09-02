@@ -2,7 +2,7 @@
   "id": "01701_anki",
   "headword": "{暗記|あんき}",
   "reading": "あんき",
-  "part_of_speech": "noun/suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "memorization, learning by heart",
   "conjugation": {
     "type": "suru",
@@ -141,11 +141,60 @@
       "reading": "あんしょう",
       "headword": "{暗唱|あんしょう}",
       "label": "reciting from memory"
+    },
+    {
+      "type": "related",
+      "target_id": "00234_kioku",
+      "reading": "きおく",
+      "headword": "{記憶|きおく}",
+      "label": "memory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14270_tsumekomi",
+      "reading": "つめこみ",
+      "headword": "{詰|つ}め{込|こ}み",
+      "label": "cramming"
+    },
+    {
+      "type": "related",
+      "target_id": "17616_kiokuryoku",
+      "reading": "きおくりょく",
+      "headword": "{記憶力|きおくりょく}",
+      "label": "memory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26579_kimei",
+      "reading": "きめい",
+      "headword": "{記銘|きめい}",
+      "label": "memorization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26776_anshousuru",
+      "reading": "あんしょうする",
+      "headword": "{暗唱|あんしょう}する",
+      "label": "to recite from memory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26850_kiokusuru",
+      "reading": "きおくする",
+      "headword": "{記憶|きおく}する",
+      "label": "to memorize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26964_oboekomu",
+      "reading": "おぼえこむ",
+      "headword": "{覚|おぼ}え{込|こ}む",
+      "label": "to memorize thoroughly"
     }
   ],
   "metadata": {
     "created": "2026-01-09T11:57:15Z",
-    "modified": "2026-05-16T19:11:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

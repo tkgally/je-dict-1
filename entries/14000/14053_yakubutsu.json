@@ -19,7 +19,9 @@
       "english": "Drug abuse destroys the body.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14053_yakubutsu_ex2",
@@ -27,7 +29,9 @@
       "english": "The drug test came back positive.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14053_yakubutsu_ex3",
@@ -35,10 +39,12 @@
       "english": "Schools are conducting awareness activities about the dangers of drugs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nWhile technically neutral (meaning any pharmaceutical substance), in practice {薬物|やくぶつ} often carries a negative connotation and is strongly associated with illegal drugs and substance abuse. For everyday medicine, {薬|くすり} is more common.\n\nSIMILAR WORDS:\n- {薬|くすり}: medicine (everyday word)\n- {薬物|やくぶつ}: drug/substance (often implies illegal or controlled substances)\n- {薬剤|やくざい}: pharmaceutical, medication (technical/professional)\n\nCOMMON COMPOUNDS:\n- {薬物|やくぶつ}{乱用|らんよう}: drug abuse\n- {薬物|やくぶつ}{依存|いぞん}: drug dependence/addiction\n- {薬物|やくぶつ}{検査|けんさ}: drug test\n- {薬物|やくぶつ}{犯罪|はんざい}: drug crime",
+  "notes": "USAGE:\nWhile technically neutral (meaning any pharmaceutical substance), in practice {薬物|やくぶつ} often carries a negative connotation and is strongly associated with illegal drugs and substance abuse. For everyday medicine, {薬|くすり} is more common.\n\nSIMILAR WORDS:\n- {薬|くすり}: medicine (everyday word)\n- {薬物|やくぶつ}: drug/substance (often implies illegal or controlled substances)\n- {薬剤|やくざい}: pharmaceutical, medication (technical/professional)\n\nCOMPOUNDS:\n- {薬物|やくぶつ}{乱用|らんよう}: drug abuse\n- {薬物|やくぶつ}{依存|いぞん}: drug dependence/addiction\n- {薬物|やくぶつ}{検査|けんさ}: drug test\n- {薬物|やくぶつ}{犯罪|はんざい}: drug crime",
   "cross_references": [
     {
       "type": "related",
@@ -53,19 +59,39 @@
       "reading": "まやく",
       "headword": "{麻薬|まやく}",
       "label": "narcotics"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14100_yakuzai",
+      "reading": "やくざい",
+      "headword": "{薬剤|やくざい}",
+      "label": "pharmaceutical, medication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27037_dokuyaku",
+      "reading": "どくやく",
+      "headword": "{毒薬|どくやく}",
+      "label": "poisonous drug"
     }
   ],
   "metadata": {
     "created": "2026-02-27T10:17:06Z",
-    "modified": "2026-04-29T10:23:05Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "id": "12965_sakkon",
   "headword": "{昨今|さっこん}",
   "reading": "さっこん",
-  "part_of_speech": "noun / adverb",
+  "part_of_speech": "noun, adverb",
   "gloss": "nowadays, these days, recently",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "The recent rise in prices is serious.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12965_sakkon_ex2",
@@ -27,7 +29,9 @@
       "english": "Nowadays, more and more young people are changing jobs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12965_sakkon_ex3",
@@ -35,22 +39,53 @@
       "english": "Recent technological innovation has been remarkable, affecting every aspect of daily life.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA formal, written-register word. Used in news articles, essays, and formal speech to discuss current trends or social changes. More literary than {最近|さいきん} (recently) or このごろ (these days). Often appears at the beginning of a sentence to set the temporal frame.\n\nPATTERNS:\n- {昨今|さっこん}の + noun: recent/current + noun\n- {昨今|さっこん}、… : nowadays, …\n\nCOMMON COLLOCATIONS:\n- {昨今|さっこん}の{情勢|じょうせい}: the current situation\n- {昨今|さっこん}の{事情|じじょう}: recent circumstances\n- {昨今|さっこん}の{傾向|けいこう}: recent trends\n\nSIMILAR WORDS:\n- {最近|さいきん}: recently (general, everyday)\n- このごろ: these days (casual)\n- {近年|きんねん}: in recent years (formal, longer timeframe)",
-  "cross_references": [],
+  "notes": "USAGE:\nA formal, written-register word. Used in news articles, essays, and formal speech to discuss current trends or social changes. More literary than {最近|さいきん} (recently) or このごろ (these days). Often appears at the beginning of a sentence to set the temporal frame.\n\nCOMMON PATTERNS:\n- {昨今|さっこん}の + noun: recent/current + noun\n- {昨今|さっこん}、… : nowadays, …\n\nCOMMON COLLOCATIONS:\n- {昨今|さっこん}の{情勢|じょうせい}: the current situation\n- {昨今|さっこん}の{事情|じじょう}: recent circumstances\n- {昨今|さっこん}の{傾向|けいこう}: recent trends\n\nSIMILAR WORDS:\n- {最近|さいきん}: recently (general, everyday)\n- このごろ: these days (casual)\n- {近年|きんねん}: in recent years (formal, longer timeframe)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00881_saikin",
+      "reading": "さいきん",
+      "headword": "{最近|さいきん}",
+      "label": "recently"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01262_konogoro",
+      "reading": "このごろ",
+      "headword": "この{頃|ごろ}",
+      "label": "these days"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14349_kinnen",
+      "reading": "きんねん",
+      "headword": "{近年|きんねん}",
+      "label": "in recent years"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T23:42:17Z",
-    "modified": "2026-02-22T23:42:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adverb"],
+      "pos": [
+        "noun",
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["time-general"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

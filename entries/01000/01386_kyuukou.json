@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{急行|きゅうこう} refers to express trains that skip some stations for faster service.\n\nTRAIN TYPES (slowest to fastest):\n- ⟦{普通|ふつう}→普通：01502_futsuu⟧/⟦{各駅停車|かくえきていしゃ}→各駅停車：15471_kakuekiteisha⟧: local (all stops)\n- ⟦{快速|かいそく}→快速：09213_kaisoku⟧: rapid\n- {急行|きゅうこう}: express\n- ⟦{特急|とっきゅう}→特急：01476_tokkyuu⟧: limited express\n- ⟦{新幹線|しんかんせん}→新幹線：01053_shinkansen⟧: bullet train\n\nCOMMON EXPRESSIONS:\n- {急行|きゅうこう}⟦{電車|でんしゃ}→電車：00522_densha⟧: express train\n- {急行|きゅうこう}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to take the express\n- {急行|きゅうこう}⟦で→で：00502_de⟧⟦{行|い}く→行く：00119_iku⟧: to go by express\n\nNOTE:\nSome express services require ⟦{特急券|とっきゅうけん}→特急券：15799_tokkyuuken⟧ (express ticket) or ⟦{急行券|きゅうこうけん}→急行券：noentry⟧ in addition to the basic fare. Private railways often have different naming conventions.",
+  "notes": "{急行|きゅうこう} refers to express trains that skip some stations for faster service.\n\nTRAIN TYPES (slowest to fastest):\n- ⟦{普通|ふつう}→普通：01502_futsuu⟧/⟦{各駅停車|かくえきていしゃ}→各駅停車：15471_kakuekiteisha⟧: local (all stops)\n- ⟦{快速|かいそく}→快速：09213_kaisoku⟧: rapid\n- {急行|きゅうこう}: express\n- ⟦{特急|とっきゅう}→特急：01476_tokkyuu⟧: limited express\n- ⟦{新幹線|しんかんせん}→新幹線：01053_shinkansen⟧: bullet train\n\nCOMMON EXPRESSIONS:\n- {急行|きゅうこう}⟦{電車|でんしゃ}→電車：00522_densha⟧: express train\n- {急行|きゅうこう}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to take the express\n- {急行|きゅうこう}⟦で→で：00502_de⟧⟦{行|い}く→行く：00119_iku⟧: to go by express\n\nUSAGE:\nSome express services require ⟦{特急券|とっきゅうけん}→特急券：15799_tokkyuuken⟧ (express ticket) or ⟦{急行券|きゅうこうけん}→急行券：noentry⟧ in addition to the basic fare. Private railways often have different naming conventions.",
   "cross_references": [
     {
       "type": "homophone",
@@ -71,11 +71,25 @@
       "reading": "きゅうこう",
       "headword": "{休校|きゅうこう}",
       "label": "school closure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22126_choutokkyuu",
+      "reading": "ちょうとっきゅう",
+      "headword": "{超特急|ちょうとっきゅう}",
+      "label": "super express"
+    },
+    {
+      "type": "related",
+      "target_id": "27449_kakueki",
+      "reading": "かくえき",
+      "headword": "{各駅|かくえき}",
+      "label": "each station"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:14:06Z",
-    "modified": "2026-05-15T14:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

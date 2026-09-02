@@ -3,7 +3,7 @@
   "headword": "{除籍|じょせき}",
   "reading": "じょせき",
   "romaji": "joseki",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "removal from a register; expulsion from the rolls",
   "definitions": [
     {
@@ -81,6 +81,22 @@
   ],
   "notes": "Compound of {除|じょ} (remove) and {籍|せき} (register; membership). The word's meaning depends heavily on context — in legal/administrative settings it refers to the {戸籍|こせき} (family register) system, while in organizational contexts it means expulsion.\n\nCOMMON COLLOCATIONS:\n- {除籍|じょせき}{処分|しょぶん}: expulsion as a disciplinary action\n- {除籍謄本|じょせきとうほん}: certified copy of a removed register\n- {除籍|じょせき}になる: to be removed from the rolls\n- {党|とう}を{除籍|じょせき}される: to be expelled from a political party\n\nSIMILAR WORDS:\n- {退学|たいがく}: withdrawal from school (may be voluntary)\n- {除名|じょめい}: expulsion, specifically from an organization or group\n- {抹消|まっしょう}: deletion, erasure from a record",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03387_taigaku",
+      "reading": "たいがく",
+      "headword": "{退学|たいがく}",
+      "label": "withdrawal from school"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15522_masshou",
+      "reading": "まっしょう",
+      "headword": "{抹消|まっしょう}",
+      "label": "deletion, erasure from a record"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -99,7 +115,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-21T14:23:24Z",
-    "modified": "2026-06-15T07:57:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

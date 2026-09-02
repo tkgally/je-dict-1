@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "{損害|そんがい} emphasizes financial or material loss, often used in legal and business contexts.\n\nCOMMON PATTERNS:\n- {損害|そんがい}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to suffer damage)\n- {損害|そんがい}⟦を→を：00422_wo⟧⟦{与|あた}える→与える：01821_ataeru⟧ (to cause damage)\n- {損害|そんがい}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ (damage occurs)\n\nCOMPOUND WORDS:\n- {損害|そんがい}⟦{賠償|ばいしょう}→賠償：07641_baishou⟧ (compensation for damages)\n- {損害|そんがい}⟦{保険|ほけん}→保険：01509_hoken⟧ (property insurance)\n- {損害|そんがい}⟦{額|がく}→額：02607_gaku⟧ (amount of damage)\n\nSIMILAR WORDS:\n- {損害|そんがい}: damage (financial/legal focus)\n- ⟦{被害|ひがい}→被害：02572_higai⟧: damage received (victim perspective)\n- ⟦{害|がい}→害：02542_gai⟧: harm (general term)\n- ⟦{損|そん}→損：03325_son⟧: loss (informal, often used alone)",
+  "notes": "{損害|そんがい} emphasizes financial or material loss, often used in legal and business contexts.\n\nCOMMON PATTERNS:\n- {損害|そんがい}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to suffer damage)\n- {損害|そんがい}⟦を→を：00422_wo⟧⟦{与|あた}える→与える：01821_ataeru⟧ (to cause damage)\n- {損害|そんがい}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ (damage occurs)\n\nCOMPOUNDS:\n- {損害|そんがい}⟦{賠償|ばいしょう}→賠償：07641_baishou⟧ (compensation for damages)\n- {損害|そんがい}⟦{保険|ほけん}→保険：01509_hoken⟧ (property insurance)\n- {損害|そんがい}⟦{額|がく}→額：02607_gaku⟧ (amount of damage)\n\nSIMILAR WORDS:\n- {損害|そんがい}: damage (financial/legal focus)\n- ⟦{被害|ひがい}→被害：02572_higai⟧: damage received (victim perspective)\n- ⟦{害|がい}→害：02542_gai⟧: harm (general term)\n- ⟦{損|そん}→損：03325_son⟧: loss (informal, often used alone)",
   "cross_references": [
     {
       "type": "related",
@@ -133,11 +133,46 @@
       "headword": "{損|そん}",
       "label": "loss",
       "target_id": "03325_son"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03673_rieki",
+      "reading": "りえき",
+      "headword": "{利益|りえき}",
+      "label": "profit, benefit"
+    },
+    {
+      "type": "related",
+      "target_id": "19524_rigaikankei",
+      "reading": "りがいかんけい",
+      "headword": "{利害関係|りがいかんけい}",
+      "label": "interests"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22411_kagai",
+      "reading": "かがい",
+      "headword": "{加害|かがい}",
+      "label": "inflicting harm"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24642_busson",
+      "reading": "ぶっそん",
+      "headword": "{物損|ぶっそん}",
+      "label": "property damage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30556_higaigaku",
+      "reading": "ひがいがく",
+      "headword": "{被害額|ひがいがく}",
+      "label": "amount of damage"
     }
   ],
   "metadata": {
     "created": "2026-01-11T06:43:14Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

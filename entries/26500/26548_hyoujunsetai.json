@@ -17,7 +17,9 @@
       "id": "26548_hyoujunsetai_ex1",
       "japanese": "{標準世帯|ひょうじゅんせたい}の{電気代|でんきだい}は{月|つき}{約|やく}{一万円|いちまんえん}だ。",
       "english": "The electricity bill for a standard household is about 10,000 yen per month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26548_hyoujunsetai_ex2",
       "japanese": "{標準世帯|ひょうじゅんせたい}を{基準|きじゅん}にした{税制|ぜいせい}が{見直|みなお}されている。",
       "english": "The tax system based on the standard household model is being reviewed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,38 @@
       "id": "26548_hyoujunsetai_ex3",
       "japanese": "{少子化|しょうしか}や{単身世帯|たんしんせたい}の{増加|ぞうか}により、{標準世帯|ひょうじゅんせたい}の{定義|ていぎ}そのものが{問|と}われるようになった。",
       "english": "Due to the declining birthrate and increase in single-person households, the very definition of a standard household is being questioned.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {標準|ひょうじゅん} (standard) and {世帯|せたい} (household). The traditional {標準世帯|ひょうじゅんせたい} is defined as a household of four: a working husband, a homemaker wife, and two children. This model is used by government agencies and utility companies to calculate average costs, set rates, and design policy. However, with changing demographics in Japan, this model is increasingly seen as outdated.\n\nCOMMON COLLOCATIONS:\n- {標準世帯|ひょうじゅんせたい}の{年収|ねんしゅう}: standard household annual income\n- {標準世帯|ひょうじゅんせたい}{当|あ}たり: per standard household\n- {標準世帯|ひょうじゅんせたい}{向|む}け: for standard households\n\nSIMILAR WORDS:\n- {世帯|せたい}: household — a general term for any group of people living together\n- {単身世帯|たんしんせたい}: single-person household — the fastest-growing household type in Japan\n- {共働|ともばたら}き{世帯|せたい}: dual-income household — a household where both partners work",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22901_tomobatarakisetai",
+      "reading": "ともばたらきせたい",
+      "headword": "{共働|ともばたら}き{世帯|せたい}",
+      "label": "dual-income household"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["society"],
+      "semantic": [
+        "society"
+      ],
       "domain": []
     },
     "created": "2026-05-02T15:30:41Z",
-    "modified": "2026-05-02T15:30:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

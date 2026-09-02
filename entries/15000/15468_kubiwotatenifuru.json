@@ -19,7 +19,9 @@
       "english": "He refuses to say yes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15468_kubiwotatenifuru_ex2",
@@ -27,7 +29,9 @@
       "english": "My father finally gave his approval.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15468_kubiwotatenifuru_ex3",
@@ -35,21 +39,42 @@
       "english": "No matter how much I tried to persuade her, she wouldn't agree.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nMore often used in the NEGATIVE ({首|くび}を{縦|たて}に{振|ふ}らない) to describe refusal or reluctance to agree. The affirmative is used when emphasizing that consent was finally obtained.\n\nCONTRAST:\n- {首|くび}を{縦|たて}に{振|ふ}る (to nod yes)\n- {首|くび}を{横|よこ}に{振|ふ}る (to shake one's head no)\n\nCOMMON PATTERNS:\n- なかなか{首|くび}を{縦|たて}に{振|ふ}らない (won't easily agree)\n- やっと{首|くび}を{縦|たて}に{振|ふ}る (to finally agree)\n- {首|くび}を{縦|たて}に{振|ふ}ろうとしない (to refuse to agree)\n\nNUANCE:\nMore vivid and emphatic than simply {同意|どうい}する (to agree) or うなずく (to nod). Often used when the agreement or refusal is significant or hard-won.",
-  "cross_references": [],
+  "notes": "USAGE:\nMore often used in the NEGATIVE ({首|くび}を{縦|たて}に{振|ふ}らない) to describe refusal or reluctance to agree. The affirmative is used when emphasizing that consent was finally obtained.\nMore vivid and emphatic than simply {同意|どうい}する (to agree) or うなずく (to nod). Often used when the agreement or refusal is significant or hard-won.\n\nSIMILAR WORDS:\n- {首|くび}を{縦|たて}に{振|ふ}る (to nod yes)\n- {首|くび}を{横|よこ}に{振|ふ}る (to shake one's head no)\n\nCOMMON PATTERNS:\n- なかなか{首|くび}を{縦|たて}に{振|ふ}らない (won't easily agree)\n- やっと{首|くび}を{縦|たて}に{振|ふ}る (to finally agree)\n- {首|くび}を{縦|たて}に{振|ふ}ろうとしない (to refuse to agree)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19743_kubiwoyokonifuru",
+      "reading": "くびをよこにふる",
+      "headword": "{首|くび}を{横|よこ}に{振|ふ}る",
+      "label": "to shake one's head no"
+    },
+    {
+      "type": "related",
+      "target_id": "05544_unazuku",
+      "reading": "うなずく",
+      "headword": "{頷|うなず}く",
+      "label": "to nod"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T07:42:40Z",
-    "modified": "2026-03-07T07:42:40Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

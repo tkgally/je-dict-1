@@ -18,7 +18,9 @@
       "english": "The archaeologist discovered ancient pottery.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09657_koukogakusha_ex2",
@@ -26,7 +28,9 @@
       "english": "He is a famous archaeologist.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09657_koukogakusha_ex3",
@@ -34,10 +38,12 @@
       "english": "The archaeologists continue their excavation research at the ruins.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{考古学者|こうこがくしゃ} means archaeologist. The word combines {考古学|こうこがく} (archaeology) with {者|しゃ} (person/practitioner).\n\nWORD FORMATION:\n{考古|こうこ} (examining the old) + {学|がく} (study) + {者|しゃ} (person)\n\nRELATED TERMS:\n- {考古学|こうこがく}: archaeology\n- {発掘|はっくつ}: excavation\n- {遺跡|いせき}: ruins, archaeological site\n- {遺物|いぶつ}: artifact, relic\n- {土器|どき}: earthenware, pottery\n\nSIMILAR {学者|がくしゃ} COMPOUNDS:\n- {歴史学者|れきしがくしゃ}: historian\n- {科学者|かがくしゃ}: scientist\n- {言語学者|げんごがくしゃ}: linguist",
+  "notes": "{考古学者|こうこがくしゃ} means archaeologist. The word combines {考古学|こうこがく} (archaeology) with {者|しゃ} (person/practitioner).\n\nFORMS:\n{考古|こうこ} (examining the old) + {学|がく} (study) + {者|しゃ} (person)\n\nRELATED WORDS:\n- {考古学|こうこがく}: archaeology\n- {発掘|はっくつ}: excavation\n- {遺跡|いせき}: ruins, archaeological site\n- {遺物|いぶつ}: artifact, relic\n- {土器|どき}: earthenware, pottery\n\nSIMILAR {学者|がくしゃ} COMPOUNDS:\n- {歴史学者|れきしがくしゃ}: historian\n- {科学者|かがくしゃ}: scientist\n- {言語学者|げんごがくしゃ}: linguist",
   "cross_references": [
     {
       "type": "related",
@@ -45,18 +51,57 @@
       "reading": "こうこがく",
       "headword": "{考古学|こうこがく}",
       "label": "archaeology"
+    },
+    {
+      "type": "related",
+      "target_id": "07995_hakkutsu",
+      "reading": "はっくつ",
+      "headword": "{発掘|はっくつ}",
+      "label": "excavation"
+    },
+    {
+      "type": "related",
+      "target_id": "09527_iseki",
+      "reading": "いせき",
+      "headword": "{遺跡|いせき}",
+      "label": "ruins, archaeological site"
+    },
+    {
+      "type": "related",
+      "target_id": "14545_ibutsu",
+      "reading": "いぶつ",
+      "headword": "{遺物|いぶつ}",
+      "label": "artifact, relic"
+    },
+    {
+      "type": "related",
+      "target_id": "09658_doki",
+      "reading": "どき",
+      "headword": "{土器|どき}",
+      "label": "earthenware, pottery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24015_jinruigakusha",
+      "reading": "じんるいがくしゃ",
+      "headword": "{人類学者|じんるいがくしゃ}",
+      "label": "anthropologist"
     }
   ],
   "metadata": {
     "created": "2026-02-03T02:58:32Z",
-    "modified": "2026-04-23T06:13:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     }
   }
 }

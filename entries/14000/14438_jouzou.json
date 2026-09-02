@@ -3,7 +3,7 @@
   "id": "14438_jouzou",
   "headword": "{醸造|じょうぞう}",
   "reading": "じょうぞう",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "brewing; fermentation",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,25 @@
     }
   ],
   "notes": "A compound of {醸|じょう} (to brew, to ferment) and {造|ぞう} (to make, to create). Functions as both a noun and a suru-verb.\n\nCOMMON COLLOCATIONS:\n- {醸造|じょうぞう}する (to brew, to ferment)\n- {醸造所|じょうぞうしょ} (brewery)\n- {醸造|じょうぞう}{技術|ぎじゅつ} (brewing technique)\n- {醸造|じょうぞう}{酢|す} (brewed vinegar)\n- {醸造|じょうぞう}{酒|しゅ} (brewed alcohol — as opposed to distilled)\n\nCovers a broader range than the English \"brewing\" since it includes the fermentation of soy sauce ({醤油|しょうゆ}), miso ({味噌|みそ}), and vinegar ({酢|す}) in addition to alcoholic beverages. Japan has a long tradition of {醸造|じょうぞう} culture, with many regional breweries and fermented food producers.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07560_kurafutobiiru",
+      "reading": "くらふとびーる",
+      "headword": "クラフトビール",
+      "label": "craft beer"
+    },
+    {
+      "type": "related",
+      "target_id": "08633_sakagura",
+      "reading": "さかぐら",
+      "headword": "{酒蔵|さかぐら}",
+      "label": "sake brewery"
+    }
+  ],
   "metadata": {
     "created": "2026-03-01T09:35:42Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

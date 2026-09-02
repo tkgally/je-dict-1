@@ -17,7 +17,9 @@
       "id": "11219_rentogen_ex1",
       "japanese": "レントゲンを{撮|と}る。",
       "english": "To take an X-ray.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "11219_rentogen_ex2",
       "japanese": "レントゲンで{骨折|こっせつ}が{見|み}つかった。",
       "english": "A fracture was found on the X-ray.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,47 @@
       "id": "11219_rentogen_ex3",
       "japanese": "{健康|けんこう}{診断|しんだん}で{胸|むね}のレントゲンを{撮|と}ってもらった。",
       "english": "I had a chest X-ray taken during my health checkup.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "レントゲン is the standard everyday word for X-ray in Japanese, named after Wilhelm Röntgen. The more technical term is エックス{線|せん} (X-ray).\n\nCOMMON COLLOCATIONS:\n- レントゲンを{撮|と}る: to take an X-ray\n- レントゲン{写真|しゃしん}: X-ray photograph\n- レントゲン{検査|けんさ}: X-ray examination\n- {胸|むね}のレントゲン: chest X-ray\n\nNOTE:\nIn everyday conversation, レントゲン is far more common than エックス{線|せん}. It is used by both patients and medical staff in casual settings, while エックス{線|せん} appears in formal medical documentation.",
-  "cross_references": [],
+  "notes": "レントゲン is the standard everyday word for X-ray in Japanese, named after Wilhelm Röntgen. The more technical term is エックス{線|せん} (X-ray).\n\nCOMMON COLLOCATIONS:\n- レントゲンを{撮|と}る: to take an X-ray\n- レントゲン{写真|しゃしん}: X-ray photograph\n- レントゲン{検査|けんさ}: X-ray examination\n- {胸|むね}のレントゲン: chest X-ray\n\nUSAGE:\nIn everyday conversation, レントゲン is far more common than エックス{線|せん}. It is used by both patients and medical staff in casual settings, while エックス{線|せん} appears in formal medical documentation.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08885_shiitii",
+      "reading": "しーてぃー",
+      "headword": "CT",
+      "label": "CT scan, computed tomography"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23255_naishikyou",
+      "reading": "ないしきょう",
+      "headword": "{内視鏡|ないしきょう}",
+      "label": "endoscope"
+    }
+  ],
   "metadata": {
     "created": "2026-02-15T02:43:51Z",
-    "modified": "2026-02-15T02:43:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

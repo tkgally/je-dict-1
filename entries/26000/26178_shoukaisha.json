@@ -45,7 +45,22 @@
     }
   ],
   "notes": "{紹介者|しょうかいしゃ} is commonly used in business, membership applications, and referral programs. Many Japanese clubs, organizations, and some medical facilities require a {紹介者|しょうかいしゃ} for new members or patients.\n\nCOMMON COLLOCATIONS:\n- {紹介者|しょうかいしゃ}{欄|らん} — referrer field (on a form)\n- {紹介者|しょうかいしゃ}{制度|せいど} — referral system\n- {紹介者|しょうかいしゃ}{特典|とくてん} — referrer benefits\n- {紹介者|しょうかいしゃ}なし — no referrer\n\nSIMILAR WORDS:\n- {推薦者|すいせんしゃ} — recommender (stronger endorsement, often for jobs or schools)\n- {仲介者|ちゅうかいしゃ} — intermediary; mediator (acts as a go-between in negotiations or deals)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27046_suisensha",
+      "reading": "すいせんしゃ",
+      "headword": "{推薦者|すいせんしゃ}",
+      "label": "recommender"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23919_chuukaisha",
+      "reading": "ちゅうかいしゃ",
+      "headword": "{仲介者|ちゅうかいしゃ}",
+      "label": "intermediary"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +68,13 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "society"
       ]
     },
     "created": "2026-04-29T16:31:46Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

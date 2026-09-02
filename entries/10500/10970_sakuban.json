@@ -19,7 +19,9 @@
       "english": "I slept well last night.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10970_sakuban_ex2",
@@ -27,7 +29,9 @@
       "english": "Last night's earthquake was big.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10970_sakuban_ex3",
@@ -35,21 +39,49 @@
       "english": "Last night I had dinner with a friend and then watched a movie.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "SYNONYMS:\n・ゆうべ — the most common everyday word for \"last night\" (informal)\n・{昨夜|さくや} — literary/formal, often seen in writing\n・{昨晩|さくばん} — slightly formal, common in both speech and writing\n\n{昨晩|さくばん} is a time noun and can be used adverbially without a particle: {昨晩|さくばん}{食|た}べた (I ate last night).",
-  "cross_references": [],
+  "notes": "SIMILAR WORDS:\n- ゆうべ — the most common everyday word for \"last night\" (informal)\n- {昨夜|さくや} — literary/formal, often seen in writing\n- {昨晩|さくばん} — slightly formal, common in both speech and writing\n\n{昨晩|さくばん} is a time noun and can be used adverbially without a particle: {昨晩|さくばん}{食|た}べた (I ate last night).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02487_yuube",
+      "reading": "ゆうべ",
+      "headword": "ゆうべ",
+      "label": "the most common everyday word for \"last…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02999_sakuya",
+      "reading": "さくや",
+      "headword": "{昨夜|さくや}",
+      "label": "literary/formal, often seen in writing"
+    },
+    {
+      "type": "related",
+      "target_id": "02882_konban",
+      "reading": "こんばん",
+      "headword": "{今晩|こんばん}",
+      "label": "tonight, this evening"
+    }
+  ],
   "metadata": {
     "created": "2026-02-11T23:06:15Z",
-    "modified": "2026-02-11T23:06:15Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-period"]
+      "semantic": [
+        "time-period"
+      ]
     }
   }
 }

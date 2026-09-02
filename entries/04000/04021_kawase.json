@@ -78,11 +78,47 @@
       ]
     }
   ],
-  "notes": "READING: This is an irregular reading (ateji).\n\nCOMMON COMPOUNDS:\n・⟦{外国|がいこく}→外国：02868_gaikoku⟧{為替|かわせ} (foreign exchange)\n・{為替|かわせ}⟦レート→レート：11248_reeto⟧ (exchange rate)\n・{為替|かわせ}⟦{市場|しじょう}→市場：09685_shijou⟧ (exchange market)\n・{為替|かわせ}⟦{相場|そうば}→相場：07668_souba⟧ (exchange rate)\n・⟦{郵便|ゆうびん}→郵便：03803_yuubin⟧{為替|かわせ} (postal money order)\n・{為替|かわせ}⟦{差益|さえき}→差益：noentry⟧ (exchange gain)\n・{為替|かわせ}⟦{差損|さそん}→差損：28368_sason⟧ (exchange loss)\n\nBUSINESS/FINANCE: Essential term for international trade and financial markets.",
-  "cross_references": [],
+  "notes": "READING: This is an irregular reading (ateji).\n\nCOMPOUNDS:\n- ⟦{外国|がいこく}→外国：02868_gaikoku⟧{為替|かわせ} (foreign exchange)\n- {為替|かわせ}⟦レート→レート：11248_reeto⟧ (exchange rate)\n- {為替|かわせ}⟦{市場|しじょう}→市場：09685_shijou⟧ (exchange market)\n- {為替|かわせ}⟦{相場|そうば}→相場：07668_souba⟧ (exchange rate)\n- ⟦{郵便|ゆうびん}→郵便：03803_yuubin⟧{為替|かわせ} (postal money order)\n- {為替|かわせ}⟦{差益|さえき}→差益：noentry⟧ (exchange gain)\n- {為替|かわせ}⟦{差損|さそん}→差損：28368_sason⟧ (exchange loss)\n\nBUSINESS/FINANCE: Essential term for international trade and financial markets.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01554_doru",
+      "reading": "どる",
+      "headword": "ドル",
+      "label": "dollar"
+    },
+    {
+      "type": "related",
+      "target_id": "03508_tsuuka",
+      "reading": "つうか",
+      "headword": "{通貨|つうか}",
+      "label": "currency"
+    },
+    {
+      "type": "related",
+      "target_id": "03680_ryougae",
+      "reading": "りょうがえ",
+      "headword": "{両替|りょうがえ}",
+      "label": "currency exchange"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09774_soukin",
+      "reading": "そうきん",
+      "headword": "{送金|そうきん}",
+      "label": "remittance, money transfer"
+    },
+    {
+      "type": "related",
+      "target_id": "20536_gaikaryougae",
+      "reading": "がいかりょうがえ",
+      "headword": "{外貨両替|がいかりょうがえ}",
+      "label": "foreign currency exchange"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T07:50:37Z",
-    "modified": "2026-08-14T18:20:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

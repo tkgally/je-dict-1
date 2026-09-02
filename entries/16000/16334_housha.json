@@ -2,7 +2,7 @@
   "id": "16334_housha",
   "headword": "{放射|ほうしゃ}",
   "reading": "ほうしゃ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "radiation, emission",
   "conjugation": {
     "type": "suru",
@@ -133,11 +133,40 @@
       ]
     }
   ],
-  "notes": "COMMON COMPOUNDS:\n- {放射|ほうしゃ}{線|せん}: radiation (rays)\n- {放射|ほうしゃ}{能|のう}: radioactivity\n- {放射|ほうしゃ}{性|せい}{物質|ぶっしつ}: radioactive material\n- {放射|ほうしゃ}{状|じょう}: radial (spreading outward in a pattern)\n- {放射|ほうしゃ}{冷却|れいきゃく}: radiative cooling\n\nUSAGE NOTES:\n{放射|ほうしゃ} itself is a neutral scientific term meaning \"emission\" or \"radiating outward.\" The nuclear/radiation sense comes from the compounds {放射|ほうしゃ}{線|せん} and {放射|ほうしゃ}{能|のう}.",
-  "cross_references": [],
+  "notes": "COMPOUNDS:\n- {放射|ほうしゃ}{線|せん}: radiation (rays)\n- {放射|ほうしゃ}{能|のう}: radioactivity\n- {放射|ほうしゃ}{性|せい}{物質|ぶっしつ}: radioactive material\n- {放射|ほうしゃ}{状|じょう}: radial (spreading outward in a pattern)\n- {放射|ほうしゃ}{冷却|れいきゃく}: radiative cooling\n\nUSAGE:\n{放射|ほうしゃ} itself is a neutral scientific term meaning \"emission\" or \"radiating outward.\" The nuclear/radiation sense comes from the compounds {放射|ほうしゃ}{線|せん} and {放射|ほうしゃ}{能|のう}.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21162_shousha",
+      "reading": "しょうしゃ",
+      "headword": "{照射|しょうしゃ}",
+      "label": "irradiation"
+    },
+    {
+      "type": "related",
+      "target_id": "23583_netsudendou",
+      "reading": "ねつでんどう",
+      "headword": "{熱伝導|ねつでんどう}",
+      "label": "heat conduction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24991_dendou",
+      "reading": "でんどう",
+      "headword": "{伝導|でんどう}",
+      "label": "conduction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26634_dounetsu",
+      "reading": "どうねつ",
+      "headword": "{導熱|どうねつ}",
+      "label": "heat conduction"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T01:26:40Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

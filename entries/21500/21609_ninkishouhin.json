@@ -17,7 +17,9 @@
       "id": "21609_ninkishouhin_ex1",
       "japanese": "これは{人気|にんき}{商品|しょうひん}です。",
       "english": "This is a popular product.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21609_ninkishouhin_ex2",
       "japanese": "{人気|にんき}{商品|しょうひん}はすぐに{売|う}り{切|き}れる。",
       "english": "Popular products sell out quickly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "21609_ninkishouhin_ex3",
       "japanese": "このお{店|みせ}の{人気|にんき}{商品|しょうひん}ランキングを{見|み}てから{買|か}い{物|もの}しよう。",
       "english": "Let's check this store's popular products ranking before shopping.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A very common compound frequently seen in stores, online shopping, and advertising.\n\nCOMMON COLLOCATIONS:\n- {人気|にんき}{商品|しょうひん}ランキング: popular product ranking\n- {人気|にんき}{商品|しょうひん}{紹介|しょうかい}: popular product introduction\n- {当店|とうてん}の{人気|にんき}{商品|しょうひん}: our store's popular products\n- {人気|にんき}{商品|しょうひん}トップ10: top 10 popular products\n\nSIMILAR WORDS:\n- {売|う}れ{筋|すじ}{商品|しょうひん}: best-selling product — emphasizes actual sales volume\n- ヒット{商品|しょうひん}: hit product — implies a breakout success\n- {定番|ていばん}{商品|しょうひん}: standard/staple product — popular and consistently available\n- ロングセラー: long-seller — popular over a long period\n\nFORMATION:\n{人気|にんき} (popularity) + {商品|しょうひん} (product, merchandise).",
+  "notes": "A very common compound frequently seen in stores, online shopping, and advertising.\n\nCOMMON COLLOCATIONS:\n- {人気|にんき}{商品|しょうひん}ランキング: popular product ranking\n- {人気|にんき}{商品|しょうひん}{紹介|しょうかい}: popular product introduction\n- {当店|とうてん}の{人気|にんき}{商品|しょうひん}: our store's popular products\n- {人気|にんき}{商品|しょうひん}トップ10: top 10 popular products\n\nSIMILAR WORDS:\n- {売|う}れ{筋|すじ}{商品|しょうひん}: best-selling product — emphasizes actual sales volume\n- ヒット{商品|しょうひん}: hit product — implies a breakout success\n- {定番|ていばん}{商品|しょうひん}: standard/staple product — popular and consistently available\n- ロングセラー: long-seller — popular over a long period\n\nFORMS:\n{人気|にんき} (popularity) + {商品|しょうひん} (product, merchandise).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20528_teibanshouhin",
+      "reading": "ていばんしょうひん",
+      "headword": "{定番商品|ていばんしょうひん}",
+      "label": "standard/staple product"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11216_ronguseraa",
+      "reading": "ろんぐせらー",
+      "headword": "ロングセラー",
+      "label": "long-seller"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19249_uresuji",
+      "reading": "うれすじ",
+      "headword": "{売|う}れ{筋|すじ}",
+      "label": "best seller"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["shopping"]
+      "semantic": [
+        "shopping"
+      ]
     },
     "created": "2026-04-02T18:12:49Z",
-    "modified": "2026-04-02T18:12:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

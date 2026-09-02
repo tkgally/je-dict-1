@@ -3,7 +3,7 @@
   "headword": "{降伏|こうふく}する",
   "reading": "こうふくする",
   "romaji": "koufuku_suru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb, noun",
   "gloss": "to surrender; to capitulate; to submit",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Composed of {降|こう} (descend/submit) and {伏|ふく} (prostrate). A formal word primarily used in military and historical contexts. The noun form {降伏|こうふく} is also very common.\n\nCOMMON COLLOCATIONS:\n- {無条件|むじょうけん}{降伏|こうふく}: unconditional surrender\n- {降伏|こうふく}を{勧告|かんこく}する: to demand surrender\n- {降伏|こうふく}を{受|う}け{入|い}れる: to accept surrender\n- {降伏|こうふく}{文書|ぶんしょ}: instrument of surrender\n\nSIMILAR WORDS:\n- {投降|とうこう}する: to surrender (to authorities) — often used for individual soldiers or criminals giving themselves up\n- {屈服|くっぷく}する: to yield, submit — emphasizes being forced to accept a stronger power; not limited to military contexts\n- {敗北|はいぼく}する: to be defeated — the result of losing, without the act of giving up\n- {白旗|しろはた}を{揚|あ}げる: to raise the white flag — idiomatic expression for surrendering",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19468_toukou",
+      "reading": "とうこう",
+      "headword": "{投降|とうこう}",
+      "label": "to surrender"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19662_kuppuku",
+      "reading": "くっぷく",
+      "headword": "{屈服|くっぷく}",
+      "label": "to yield, submit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21683_haibokusuru",
+      "reading": "はいぼくする",
+      "headword": "{敗北|はいぼく}する",
+      "label": "to be defeated"
+    },
+    {
+      "type": "related",
+      "target_id": "09142_kussuru",
+      "reading": "くっする",
+      "headword": "{屈|くっ}する",
+      "label": "to yield, to submit, to succumb"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-29T18:14:35Z",
-    "modified": "2026-03-29T18:14:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

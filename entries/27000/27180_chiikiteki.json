@@ -3,7 +3,7 @@
   "headword": "{地域的|ちいきてき}",
   "reading": "ちいきてき",
   "romaji": "chiikiteki",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "regional; local; area-specific",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "27180_chiikiteki_ex1",
       "japanese": "{地域的|ちいきてき}な{特色|とくしょく}がある。",
       "english": "It has regional characteristics.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27180_chiikiteki_ex2",
       "japanese": "{方言|ほうげん}は{地域的|ちいきてき}な{違|ちが}いを{反映|はんえい}している。",
       "english": "Dialects reflect regional differences.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "27180_chiikiteki_ex3",
       "japanese": "この{問題|もんだい}は{地域的|ちいきてき}なものではなく、{全国的|ぜんこくてき}な{課題|かだい}だ。",
       "english": "This issue is not a regional one but a nationwide challenge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Derived from {地域|ちいき} (area; region) plus {的|てき}. Used when describing something that pertains to, varies by, or is limited to a specific geographic area. Often used to contrast local phenomena with broader national or global ones.\n\nCOMMON COLLOCATIONS:\n- {地域的|ちいきてき}な{差|さ}: regional differences\n- {地域的|ちいきてき}な{特徴|とくちょう}: regional features\n- {地域的|ちいきてき}な{偏|かたよ}り: regional bias/imbalance\n- {地域的|ちいきてき}な{課題|かだい}: regional issues\n- {地域的|ちいきてき}に{限定|げんてい}される: to be regionally limited\n\nSIMILAR WORDS:\n- {全国的|ぜんこくてき}: nationwide — the broader counterpart, covering the entire country\n- {局地的|きょくちてき}: localized — emphasizes a very small, specific area (often used for weather events like localized heavy rain)\n- {地方的|ちほうてき}: provincial; rural — carries a nuance of being away from major urban centers",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20017_zenkokuteki",
+      "reading": "ぜんこくてき",
+      "headword": "{全国的|ぜんこくてき}",
+      "label": "nationwide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27123_kyokuchiteki",
+      "reading": "きょくちてき",
+      "headword": "{局地的|きょくちてき}",
+      "label": "localized"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23813_kyokushoteki",
+      "reading": "きょくしょてき",
+      "headword": "{局所的|きょくしょてき}",
+      "label": "local"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     },
     "created": "2026-05-07T14:16:40Z",
-    "modified": "2026-08-07T06:31:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

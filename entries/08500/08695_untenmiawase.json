@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{運転|うんてん} (operation) + {見合|みあ}わせ (postponement/suspension)\n\nCOMMON CAUSES:\n- {人身事故|じんしんじこ} - personal injury accident\n- {車両点検|しゃりょうてんけん} - train inspection\n- {信号故障|しんごうこしょう} - signal malfunction\n- {強風|きょうふう}/{台風|たいふう} - strong wind/typhoon\n- {大雨|おおあめ} - heavy rain\n\nTRAIN ANNOUNCEMENT PATTERNS:\n- 「ただいま{運転|うんてん}を{見合|みあ}わせております」\n  \"We are currently suspending service.\"\n- 「{運転|うんてん}{見合|みあ}わせは{解除|かいじょ}されました」\n  \"The service suspension has been lifted.\"\n\nRELATED:\n- {運転再開|うんてんさいかい} - resumption of service\n- {振替輸送|ふりかえゆそう} - alternative transportation\n- {遅延|ちえん} - delay",
+  "notes": "COMPOUNDS:\n{運転|うんてん} (operation) + {見合|みあ}わせ (postponement/suspension)\n\nCOMMON CAUSES:\n- {人身事故|じんしんじこ} - personal injury accident\n- {車両点検|しゃりょうてんけん} - train inspection\n- {信号故障|しんごうこしょう} - signal malfunction\n- {強風|きょうふう}/{台風|たいふう} - strong wind/typhoon\n- {大雨|おおあめ} - heavy rain\n\nTRAIN ANNOUNCEMENT PATTERNS:\n- 「ただいま{運転|うんてん}を{見合|みあ}わせております」\n  \"We are currently suspending service.\"\n- 「{運転|うんてん}{見合|みあ}わせは{解除|かいじょ}されました」\n  \"The service suspension has been lifted.\"\n\nRELATED WORDS:\n- {運転再開|うんてんさいかい} - resumption of service\n- {振替輸送|ふりかえゆそう} - alternative transportation\n- {遅延|ちえん} - delay",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +51,13 @@
         "noun"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "transportation"
       ]
     },
     "created": "2026-01-28T02:44:29Z",
-    "modified": "2026-06-23T01:38:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "cross_references": [
     {
@@ -65,6 +66,41 @@
       "reading": "うんてんさいかい",
       "headword": "{運転|うんてん}{再開|さいかい}",
       "label": "service resumption"
+    },
+    {
+      "type": "related",
+      "target_id": "08352_furikaeyusou",
+      "reading": "ふりかえゆそう",
+      "headword": "{振替輸送|ふりかえゆそう}",
+      "label": "alternative transportation"
+    },
+    {
+      "type": "related",
+      "target_id": "06749_chien",
+      "reading": "ちえん",
+      "headword": "{遅延|ちえん}",
+      "label": "delay"
+    },
+    {
+      "type": "related",
+      "target_id": "08476_chienshoumei",
+      "reading": "ちえんしょうめい",
+      "headword": "{遅延証明|ちえんしょうめい}",
+      "label": "delay certificate"
+    },
+    {
+      "type": "related",
+      "target_id": "08697_sharyoutenken",
+      "reading": "しゃりょうてんけん",
+      "headword": "{車両|しゃりょう}{点検|てんけん}",
+      "label": "train inspection"
+    },
+    {
+      "type": "related",
+      "target_id": "08698_shingoukoshou",
+      "reading": "しんごうこしょう",
+      "headword": "{信号|しんごう}{故障|こしょう}",
+      "label": "signal malfunction"
     }
   ]
 }

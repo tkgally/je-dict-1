@@ -22,7 +22,9 @@
       "id": "19294_kuroboshi_ex1",
       "japanese": "{今日|きょう}は{黒星|くろぼし}だった。",
       "english": "Today was a loss.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "19294_kuroboshi_ex2",
       "japanese": "{横綱|よこづな}がまさかの{黒星|くろぼし}を{喫|きっ}した。",
       "english": "The grand champion suffered an unexpected defeat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "19294_kuroboshi_ex3",
       "japanese": "{開幕|かいまく}から{三|さん}{連続|れんぞく}{黒星|くろぼし}でチームの{士気|しき}が{下|さ}がっている。",
       "english": "Team morale is down after three consecutive losses from the start of the season.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "19294_kuroboshi_ex4",
       "japanese": "{経歴|けいれき}に{黒星|くろぼし}がつく。",
       "english": "It puts a black mark on your record.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "19294_kuroboshi_ex5",
       "japanese": "このプロジェクトの{失敗|しっぱい}は{大|おお}きな{黒星|くろぼし}だ。",
       "english": "The failure of this project is a big black mark.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,58 @@
       "id": "19294_kuroboshi_ex6",
       "japanese": "ここで{黒星|くろぼし}をつけたくないから、{全力|ぜんりょく}で{取|と}り{組|く}もう。",
       "english": "I don't want to get a mark against me here, so let's give it everything we've got.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From the notation system used in sumo and other sports where ● (black circle) marks a loss and ○ (white circle) marks a win. The opposite is {白星|しろぼし} (win).\n\nCOMMON COLLOCATIONS:\n- {黒星|くろぼし}を{喫|きっ}する — to suffer a defeat (formal)\n- {黒星|くろぼし}がつく — to get a loss/black mark on one's record\n- {黒星|くろぼし}{先行|せんこう} — more losses than wins\n- {連続|れんぞく}{黒星|くろぼし} — consecutive losses\n\nSIMILAR WORDS:\n- {白星|しろぼし} — win, victory (opposite)\n- {敗北|はいぼく} — defeat (formal, general)\n- {負|ま}け — loss, defeat (casual)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "19036_shiroboshi",
+      "reading": "しろぼし",
+      "headword": "{白星|しろぼし}",
+      "label": "win, victory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12872_haiboku",
+      "reading": "はいぼく",
+      "headword": "{敗北|はいぼく}",
+      "label": "defeat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02569_make",
+      "reading": "まけ",
+      "headword": "{負|ま}け",
+      "label": "loss, defeat"
+    },
+    {
+      "type": "antonym",
+      "target_id": "24797_shiroboshiwoageru",
+      "reading": "しろぼしをあげる",
+      "headword": "{白星|しろぼし}を{挙|あ}げる",
+      "label": "to score a win"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["sports"]
+      "semantic": [
+        "sports"
+      ]
     },
     "created": "2026-03-25T04:47:45Z",
-    "modified": "2026-03-25T04:47:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

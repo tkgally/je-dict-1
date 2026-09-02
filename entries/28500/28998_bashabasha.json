@@ -17,7 +17,9 @@
       "id": "28998_bashabasha_ex1",
       "japanese": "{子供|こども}が{水溜|みずた}まりでばしゃばしゃ{遊|あそ}んでいる。",
       "english": "The kids are splashing around in the puddles.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28998_bashabasha_ex2",
       "japanese": "{洗面所|せんめんじょ}で{顔|かお}をばしゃばしゃと{洗|あら}った。",
       "english": "I splashed my face with water at the sink.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,61 @@
       "id": "28998_bashabasha_ex3",
       "japanese": "{犬|いぬ}が{浅瀬|あさせ}をばしゃばしゃと{走|はし}り{回|まわ}っていた。",
       "english": "The dog was running splashily through the shallows.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Suggests lighter, more playful splashing than じゃぶじゃぶ. The 「ば」 sound implies a flat, slapping impact on water.\n\nCOMMON COLLOCATIONS:\n- ばしゃばしゃ{遊|あそ}ぶ: to splash around (playing)\n- ばしゃばしゃ{洗|あら}う: to wash with splashes\n- ばしゃばしゃ{歩|ある}く: to walk noisily through water\n\nSIMILAR WORDS:\n- じゃぶじゃぶ: heavier splashing, often through deeper water or in the laundry\n- ぴちゃぴちゃ: light spattering of small drops\n- ちゃぷちゃぷ: gentle lapping, like water at the edge of a tub",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05724_jabujabu",
+      "reading": "じゃぶじゃぶ",
+      "headword": "じゃぶじゃぶ",
+      "label": "heavier splashing, often through deeper…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28999_pichapicha",
+      "reading": "ぴちゃぴちゃ",
+      "headword": "ぴちゃぴちゃ",
+      "label": "light spattering of small drops"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29088_chapuchapu",
+      "reading": "ちゃぷちゃぷ",
+      "headword": "ちゃぷちゃぷ",
+      "label": "gentle lapping, like water at the edge…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05993_zabuzabu",
+      "reading": "ざぶざぶ",
+      "headword": "ざぶざぶ",
+      "label": "splashing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "onomatopoeia"],
+      "pos": [
+        "adverb",
+        "onomatopoeia"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["descriptive", "onomatopoeia"],
+      "politeness": "plain",
+      "semantic": [
+        "descriptive",
+        "onomatopoeia"
+      ],
       "domain": []
     },
     "created": "2026-06-08T07:55:39Z",
-    "modified": "2026-06-08T07:55:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

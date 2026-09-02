@@ -22,7 +22,9 @@
       "id": "24279_shousha_ex1",
       "japanese": "{小社|しょうしゃ}の{製品|せいひん}をご{検討|けんとう}ください。",
       "english": "Please consider our company's products.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "24279_shousha_ex2",
       "japanese": "{小社|しょうしゃ}では{品質管理|ひんしつかんり}に{細心|さいしん}の{注意|ちゅうい}を{払|はら}っております。",
       "english": "At our company, we pay the utmost attention to quality control.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "24279_shousha_ex3",
       "japanese": "{小社|しょうしゃ}は{創業|そうぎょう}より{五十年|ごじゅうねん}にわたり、お{客|きゃく}さまの{信頼|しんらい}に{応|こた}えてまいりました。",
       "english": "For over fifty years since its founding, our company has been dedicated to meeting the trust of our customers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "24279_shousha_ex4",
       "japanese": "{小社|しょうしゃ}ながら{独自|どくじ}の{技術|ぎじゅつ}を{持|も}っている。",
       "english": "Although it is a small company, it has unique technology.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "24279_shousha_ex5",
       "japanese": "{町|まち}には{小社|しょうしゃ}がいくつかある。",
       "english": "There are several small shrines in the town.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,23 +72,61 @@
       "id": "24279_shousha_ex6",
       "japanese": "{地方|ちほう}の{小社|しょうしゃ}でも{参拝者|さんぱいしゃ}が{絶|た}えない{神社|じんじゃ}がある。",
       "english": "Even among small local shrines, there are some that always have visitors.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {小|しょう} ('small') and {社|しゃ} ('company; shrine'). The humble business sense is the primary modern usage, following the Japanese pattern of using {小|しょう} as a self-deprecating prefix: {小生|しょうせい} ('I,' humble, literary), {小著|しょうちょ} ('my book,' humble).\n\nUSAGE:\n- Sense 1 (humble 'our company') is used in formal business correspondence, emails to clients, and corporate communications\n- More formal than {弊社|へいしゃ}, though both are humble; {弊社|へいしゃ} is the more common humble term in modern business\n- Sense 2 can mean either a small company or a small Shinto shrine, depending on context\n\nCOMMON COLLOCATIONS:\n- {小社|しょうしゃ}の{製品|せいひん}: our company's products\n- {小社|しょうしゃ}では: at our company\n- {小社|しょうしゃ}より: from our company\n- {小社|しょうしゃ}にて: at our company (written)\n\nSIMILAR WORDS:\n- {弊社|へいしゃ}: our company (humble) — the most common humble term for one's own company in modern business\n- {当社|とうしゃ}: our company (neutral) — a neutral reference to one's company, used in internal documents and presentations\n- {御社|おんしゃ}/{貴社|きしゃ}: your company (respectful) — used to refer to the other party's company in conversation ({御社|おんしゃ}) or writing ({貴社|きしゃ})",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17404_heisha",
+      "reading": "へいしゃ",
+      "headword": "{弊社|へいしゃ}",
+      "label": "our company"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22449_tousha",
+      "reading": "とうしゃ",
+      "headword": "{当社|とうしゃ}",
+      "label": "our company"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17179_onsha",
+      "reading": "おんしゃ",
+      "headword": "{御社|おんしゃ}",
+      "label": "your company"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15664_kisha",
+      "reading": "きしゃ",
+      "headword": "{貴社|きしゃ}",
+      "label": "your company"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "humble",
-      "semantic": ["business"],
-      "domain": ["business"]
+      "semantic": [
+        "business"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-04-18T12:24:13Z",
-    "modified": "2026-04-18T12:24:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{現金|げんきん} refers to physical currency (bills and coins) as opposed to digital or credit-based payments.\n\nCOMPONENTS:\n- {現|げん}: present, current, actual\n- {金|きん}: money, gold\n\nCOMMON PATTERNS:\n- {現金|げんきん}⟦で→で：00502_de⟧⟦{払|はら}う→払う：00535_harau⟧ (to pay in cash)\n- {現金|げんきん}⟦を→を：00422_wo⟧⟦{引|ひ}き{出|だ}す→引き出す：03002_hikidasu⟧ (to withdraw cash)\n- {現金|げんきん}⟦を→を：00422_wo⟧⟦{下|お}ろす→下ろす：02029_orosu⟧ (to withdraw cash - colloquial)\n- {現金|げんきん}⟦{払|はら}い→払い：noentry⟧ (cash payment)\n- {現金|げんきん}⟦のみ→のみ：noentry⟧ (cash only)\n\nCONTRAST WITH OTHER PAYMENT METHODS:\n- {現金|げんきん}: cash (physical money)\n- ⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧: credit card\n- ⟦{電子|でんし}マネー→電子マネー：06694_denshimanee⟧: electronic money (Suica, PayPay, etc.)\n- ⟦{振|ふ}り{込|こ}み→振り込み：05421_furikomi⟧: bank transfer\n- ⟦{小切手|こぎって}→小切手：06305_kogitte⟧: check\n\nCULTURAL NOTE:\nJapan has traditionally been a cash-heavy society, though digital payments have grown rapidly. Many small shops and restaurants still prefer {現金|げんきん}.",
+  "notes": "{現金|げんきん} refers to physical currency (bills and coins) as opposed to digital or credit-based payments.\n\nETYMOLOGY:\n- {現|げん}: present, current, actual\n- {金|きん}: money, gold\n\nCOMMON PATTERNS:\n- {現金|げんきん}⟦で→で：00502_de⟧⟦{払|はら}う→払う：00535_harau⟧ (to pay in cash)\n- {現金|げんきん}⟦を→を：00422_wo⟧⟦{引|ひ}き{出|だ}す→引き出す：03002_hikidasu⟧ (to withdraw cash)\n- {現金|げんきん}⟦を→を：00422_wo⟧⟦{下|お}ろす→下ろす：02029_orosu⟧ (to withdraw cash - colloquial)\n- {現金|げんきん}⟦{払|はら}い→払い：noentry⟧ (cash payment)\n- {現金|げんきん}⟦のみ→のみ：noentry⟧ (cash only)\n\nCONTRAST WITH OTHER PAYMENT METHODS:\n- {現金|げんきん}: cash (physical money)\n- ⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧: credit card\n- ⟦{電子|でんし}マネー→電子マネー：06694_denshimanee⟧: electronic money (Suica, PayPay, etc.)\n- ⟦{振|ふ}り{込|こ}み→振り込み：05421_furikomi⟧: bank transfer\n- ⟦{小切手|こぎって}→小切手：06305_kogitte⟧: check\n\nCULTURAL NOTE:\nJapan has traditionally been a cash-heavy society, though digital payments have grown rapidly. Many small shops and restaurants still prefer {現金|げんきん}.",
   "cross_references": [
     {
       "type": "contrast",
@@ -71,11 +71,67 @@
       "reading": "きゃっしゅれす",
       "headword": "キャッシュレス",
       "label": "cashless (electronic payment)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06968_kurejittokaado",
+      "reading": "くれじっとかーど",
+      "headword": "クレジットカード",
+      "label": "credit card"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06694_denshimanee",
+      "reading": "でんしまねー",
+      "headword": "{電子|でんし}マネー",
+      "label": "electronic money"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05421_furikomi",
+      "reading": "ふりこみ",
+      "headword": "{振込|ふりこみ}",
+      "label": "bank transfer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06305_kogitte",
+      "reading": "こぎって",
+      "headword": "{小切手|こぎって}",
+      "label": "check"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02684_kinsen",
+      "reading": "きんせん",
+      "headword": "{金銭|きんせん}",
+      "label": "money, cash"
+    },
+    {
+      "type": "related",
+      "target_id": "06304_tegata",
+      "reading": "てがた",
+      "headword": "{手形|てがた}",
+      "label": "promissory note"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21015_sokkin",
+      "reading": "そっきん",
+      "headword": "{即金|そっきん}",
+      "label": "cash payment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29549_manee",
+      "reading": "まねー",
+      "headword": "マネー",
+      "label": "money (financial/economic term)"
     }
   ],
   "metadata": {
     "created": "2026-01-11T07:27:00Z",
-    "modified": "2026-06-12T21:44:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

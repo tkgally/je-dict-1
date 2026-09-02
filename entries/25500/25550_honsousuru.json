@@ -3,7 +3,7 @@
   "headword": "{奔走|ほんそう}する",
   "reading": "ほんそうする",
   "romaji": "honsousuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to run around (busily); to make efforts; to hustle",
   "definitions": [
     {
@@ -45,7 +45,43 @@
     }
   ],
   "notes": "{奔走|ほんそう}する paints a picture of someone dashing about with energy and purpose. It carries a positive nuance of dedication and effort, implying the person is working hard for a worthy cause rather than running around aimlessly. Commonly used in news and formal writing.\n\nUSAGE:\n- ～のために{奔走|ほんそう}する: to hustle for the sake of ~\n- ～に{奔走|ほんそう}する: to busy oneself with ~\n\nCOMMON COLLOCATIONS:\n- {資金|しきん}{集|あつ}めに{奔走|ほんそう}する: to hustle to raise funds\n- {解決|かいけつ}に{奔走|ほんそう}する: to work hard to find a solution\n- {東奔西走|とうほんせいそう}: rushing about in all directions (yojijukugo)\n\nSIMILAR WORDS:\n- {走|はし}り{回|まわ}る: to run around — literal physical running, without the positive \"working hard\" nuance\n- {尽力|じんりょく}する: to make every effort — formal, focuses on effort itself rather than the image of rushing about\n- {駆|か}け{回|まわ}る: to rush around — more physical and literal than {奔走|ほんそう}",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04608_hashirimawaru",
+      "reading": "はしりまわる",
+      "headword": "{走|はし}り{回|まわ}る",
+      "label": "to run around"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09336_jinryoku",
+      "reading": "じんりょく",
+      "headword": "{尽力|じんりょく}",
+      "label": "to make every effort"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06113_kakemawaru",
+      "reading": "かけまわる",
+      "headword": "{駆|か}け{回|まわ}る",
+      "label": "to rush around"
+    },
+    {
+      "type": "related",
+      "target_id": "18722_touhonseisou",
+      "reading": "とうほんせいそう",
+      "headword": "{東奔西走|とうほんせいそう}",
+      "label": "rushing about busily"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25719_touhonseisousuru",
+      "reading": "とうほんせいそうする",
+      "headword": "{東奔西走|とうほんせいそう}する",
+      "label": "to rush about"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +90,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
@@ -61,7 +98,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T16:21:24Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

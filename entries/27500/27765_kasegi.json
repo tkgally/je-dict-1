@@ -17,7 +17,9 @@
       "id": "27765_kasegi_ex1",
       "japanese": "{今月|こんげつ}は{稼|かせ}ぎが{少|すく}ない。",
       "english": "My earnings are low this month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27765_kasegi_ex2",
       "japanese": "{彼|かれ}は{稼|かせ}ぎがいいので{生活|せいかつ}に{余裕|よゆう}がある。",
       "english": "He earns well, so he has some financial leeway.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "27765_kasegi_ex3",
       "japanese": "{家族|かぞく}を{養|やしな}うために、もっと{稼|かせ}ぎのいい{仕事|しごと}を{探|さが}している。",
       "english": "To support my family, I'm looking for a better-paying job.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The noun form of {稼|かせ}ぐ (to earn). Refers to the money earned through work, or to earning itself.\n\nCOMMON COLLOCATIONS:\n- {稼|かせ}ぎがいい: earns well; well-paying\n- {稼|かせ}ぎが{少|すく}ない: earns little\n- {共稼|ともかせ}ぎ: both spouses working; dual-income\n- {出稼|でかせ}ぎ: working away from home\n\nSIMILAR WORDS:\n- {収入|しゅうにゅう}: income — more formal and neutral\n- {給料|きゅうりょう}: salary — fixed pay from an employer",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03213_shuunyuu",
+      "reading": "しゅうにゅう",
+      "headword": "{収入|しゅうにゅう}",
+      "label": "income"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01086_kyuuryou",
+      "reading": "きゅうりょう",
+      "headword": "{給料|きゅうりょう}",
+      "label": "salary"
+    },
+    {
+      "type": "related",
+      "target_id": "02040_kasegu",
+      "reading": "かせぐ",
+      "headword": "{稼|かせ}ぐ",
+      "label": "to earn, to make money"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["work"],
+      "politeness": "plain",
+      "semantic": [
+        "work"
+      ],
       "domain": []
     },
     "created": "2026-05-18T04:14:41Z",
-    "modified": "2026-05-18T04:14:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{仮釈放|かりしゃくほう}",
   "reading": "かりしゃくほう",
   "romaji": "karishakuhou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "parole; conditional release",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A compound of {仮|かり} (temporary, provisional) and {釈放|しゃくほう} (release, discharge). In the Japanese legal system, {仮釈放|かりしゃくほう} requires approval from the regional parole board and involves supervision by a probation officer during the remaining sentence period.\n\nCOMMON COLLOCATIONS:\n- {仮釈放|かりしゃくほう}される: to be released on parole\n- {仮釈放|かりしゃくほう}を{認|みと}める: to grant parole\n- {仮釈放|かりしゃくほう}の{条件|じょうけん}: conditions of parole\n- {仮釈放|かりしゃくほう}{取|と}り{消|け}し: revocation of parole\n\nSIMILAR WORDS:\n- {釈放|しゃくほう}: release; discharge — unconditional release from custody\n- {保釈|ほしゃく}: bail — release before trial upon payment of money\n- {執行猶予|しっこうゆうよ}: suspended sentence — a sentence that is not carried out if the offender behaves well",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22384_hoshaku",
+      "reading": "ほしゃく",
+      "headword": "{保釈|ほしゃく}",
+      "label": "bail"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18434_shikkouyuuyo",
+      "reading": "しっこうゆうよ",
+      "headword": "{執行猶予|しっこうゆうよ}",
+      "label": "suspended sentence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24672_hogokansatsu",
+      "reading": "ほごかんさつ",
+      "headword": "{保護観察|ほごかんさつ}",
+      "label": "probation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-06T19:19:20Z",
-    "modified": "2026-04-06T19:19:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

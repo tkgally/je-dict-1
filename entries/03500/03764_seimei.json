@@ -63,11 +63,26 @@
       ]
     }
   ],
-  "notes": "COMPONENTS:\n・⟦{姓|せい}→姓：15390_sei⟧ - surname, family name\n・⟦{名|めい}→名：03496_na⟧ - given name, first name\n\nJAPANESE NAME ORDER:\nIn Japanese, the family name (⟦{姓|せい}→姓：15390_sei⟧) comes first, followed by the given name (⟦{名|めい}→名：03496_na⟧). This is the opposite of Western name order.\n\nCOMMON COLLOCATIONS:\n・{姓名|せいめい}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧ (to write one's full name)\n・{姓名|せいめい}⟦{判断|はんだん}→判断：03571_handan⟧ (name-based fortune telling)\n・{姓名|せいめい}⟦の→の：09472_no⟧⟦{記入|きにゅう}→記入：02624_kinyuu⟧ (entering full name on forms)\n\nHOMOPHONES:\n・⟦{声明|せいめい}→声明：03763_seimei⟧ - statement, declaration\n・⟦{生命|せいめい}→生命：03296_seimei⟧ - life",
-  "cross_references": [],
+  "notes": "ETYMOLOGY:\n- ⟦{姓|せい}→姓：15390_sei⟧ - surname, family name\n- ⟦{名|めい}→名：03496_na⟧ - given name, first name\n\nJAPANESE NAME ORDER:\nIn Japanese, the family name (⟦{姓|せい}→姓：15390_sei⟧) comes first, followed by the given name (⟦{名|めい}→名：03496_na⟧). This is the opposite of Western name order.\n\nCOMMON COLLOCATIONS:\n- {姓名|せいめい}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧ (to write one's full name)\n- {姓名|せいめい}⟦{判断|はんだん}→判断：03571_handan⟧ (name-based fortune telling)\n- {姓名|せいめい}⟦の→の：09472_no⟧⟦{記入|きにゅう}→記入：02624_kinyuu⟧ (entering full name on forms)\n\nWATCH OUT:\n- ⟦{声明|せいめい}→声明：03763_seimei⟧ - statement, declaration\n- ⟦{生命|せいめい}→生命：03296_seimei⟧ - life",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22206_jinmei",
+      "reading": "じんめい",
+      "headword": "{人名|じんめい}",
+      "label": "person's name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24855_gohoumei",
+      "reading": "ごほうめい",
+      "headword": "ご{芳名|ほうめい}",
+      "label": "your honored name (very formal)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T12:48:00Z",
-    "modified": "2026-05-27T15:47:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

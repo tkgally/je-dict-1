@@ -46,6 +46,36 @@
   ],
   "notes": "Compound of {両|りょう} (both) + {足|あし} (foot/leg). The prefix {両|りょう} attaches to paired body parts to mean \"both —\".\n\nCOMMON COLLOCATIONS:\n- {両足|りょうあし}を{揃|そろ}える: to put one's feet together\n- {両足|りょうあし}で{立|た}つ: to stand on both feet\n- {両足|りょうあし}を{広|ひろ}げる: to spread one's legs\n- {両足|りょうあし}{骨折|こっせつ}: fractures in both legs\n\nSIMILAR WORDS:\n- {片足|かたあし}: one foot/leg — paired opposite\n- {両手|りょうて}: both hands — same pattern with hands\n- {両腕|りょううで}: both arms\n- {両肩|りょうかた}: both shoulders",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09518_ryoute",
+      "reading": "りょうて",
+      "headword": "{両手|りょうて}",
+      "label": "both hands"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19455_ryouude",
+      "reading": "りょううで",
+      "headword": "{両腕|りょううで}",
+      "label": "both arms"
+    },
+    {
+      "type": "related",
+      "target_id": "21275_ryoume",
+      "reading": "りょうめ",
+      "headword": "{両目|りょうめ}",
+      "label": "both eyes"
+    },
+    {
+      "type": "related",
+      "target_id": "25207_ryoumimi",
+      "reading": "りょうみみ",
+      "headword": "{両耳|りょうみみ}",
+      "label": "both ears"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +83,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "body-part"
       ],
       "domain": []
     },
     "created": "2026-06-07T03:04:58Z",
-    "modified": "2026-08-09T06:33:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

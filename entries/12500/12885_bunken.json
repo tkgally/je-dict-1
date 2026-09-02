@@ -19,7 +19,9 @@
       "english": "I looked into the relevant literature.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12885_bunken_ex2",
@@ -27,7 +29,9 @@
       "english": "Attach a list of references at the end of the paper.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12885_bunken_ex3",
@@ -35,22 +39,66 @@
       "english": "Few documents survive from this period, so little is known in detail.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nPrimarily an academic and scholarly term. In research, {参考|さんこう}{文献|ぶんけん} (references, bibliography) is the standard term for citing sources. In historical contexts, {文献|ぶんけん} refers to surviving written records.\n\nCOMMON COLLOCATIONS:\n- {参考|さんこう}{文献|ぶんけん}: reference literature, bibliography\n- {関連|かんれん}{文献|ぶんけん}: related literature\n- {文献|ぶんけん}{調査|ちょうさ}: literature review, documentary research\n- {歴史|れきし}{文献|ぶんけん}: historical documents\n\nSIMILAR WORDS:\n- {資料|しりょう}: materials, data (broader, includes non-written sources)\n- {文書|ぶんしょ}: document, written text (individual document, more official)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04166_shiryou",
+      "reading": "しりょう",
+      "headword": "{資料|しりょう}",
+      "label": "materials, data"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12947_bunsho",
+      "reading": "ぶんしょ",
+      "headword": "{文書|ぶんしょ}",
+      "label": "document, written text"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03459_tosho",
+      "reading": "としょ",
+      "headword": "{図書|としょ}",
+      "label": "books, library books"
+    },
+    {
+      "type": "related",
+      "target_id": "15839_komonjo",
+      "reading": "こもんじょ",
+      "headword": "{古文書|こもんじょ}",
+      "label": "ancient document"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20753_shiryou",
+      "reading": "しりょう",
+      "headword": "{史料|しりょう}",
+      "label": "historical materials"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T12:47:41Z",
-    "modified": "2026-02-22T12:47:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

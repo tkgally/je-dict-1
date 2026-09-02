@@ -19,7 +19,9 @@
       "english": "It was reported in the media.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11165_media_ex2",
@@ -27,7 +29,9 @@
       "english": "You shouldn't blindly believe what the media says.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11165_media_ex3",
@@ -35,21 +39,56 @@
       "english": "With the arrival of social media, we're in an era where individuals can have their own media platforms.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nメディア is used broadly in Japanese to refer to mass media (TV, newspapers, radio) as well as newer digital media. It is frequently used in discussions about news, information literacy, and public opinion.\n\nCOMMON COLLOCATIONS:\n- マスメディア: mass media\n- ソーシャルメディア: social media\n- メディア{報道|ほうどう}: media coverage\n- メディアリテラシー: media literacy\n- メディア{露出|ろしゅつ}: media exposure\n- メディア{関係者|かんけいしゃ}: media personnel",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03872_masukomi",
+      "reading": "ますこみ",
+      "headword": "マスコミ",
+      "label": "mass media"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16660_koukokubaitai",
+      "reading": "こうこくばいたい",
+      "headword": "{広告媒体|こうこくばいたい}",
+      "label": "advertising medium"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23234_dentatsushudan",
+      "reading": "でんたつしゅだん",
+      "headword": "{伝達手段|でんたつしゅだん}",
+      "label": "means of communication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23400_kiokubaitai",
+      "reading": "きおくばいたい",
+      "headword": "{記憶媒体|きおくばいたい}",
+      "label": "storage medium (for data)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-14T05:15:09Z",
-    "modified": "2026-02-14T05:15:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

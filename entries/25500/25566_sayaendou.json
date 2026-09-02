@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A vegetable commonly used in Japanese home cooking. Often blanched briefly and used as a green garnish on dishes like {煮物|にもの} (simmered dishes), {丼|どんぶり} (rice bowls), and {親子丼|おやこどん}. Also stir-fried or used in soups.\n\nCOMMON COLLOCATIONS:\n- さやえんどうの{筋|すじ}を{取|と}る: to string snow peas\n- さやえんどうを{茹|ゆ}でる: to boil snow peas\n- さやえんどうの{卵|たまご}とじ: snow peas with egg\n\nWRITING:\nUsually written in hiragana. Can also be written {莢豌豆|さやえんどう} in kanji, but this is rare. Sometimes written as サヤエンドウ in katakana in scientific or agricultural contexts.\n\nRELATED TERMS:\n- {絹|きぬ}さや: another name for snow peas, often used interchangeably\n- {枝豆|えだまめ}: edamame (green soybeans)\n- スナップえんどう: sugar snap peas (thicker variety)",
-  "cross_references": [],
+  "notes": "A vegetable commonly used in Japanese home cooking. Often blanched briefly and used as a green garnish on dishes like {煮物|にもの} (simmered dishes), {丼|どんぶり} (rice bowls), and {親子丼|おやこどん}. Also stir-fried or used in soups.\n\nCOMMON COLLOCATIONS:\n- さやえんどうの{筋|すじ}を{取|と}る: to string snow peas\n- さやえんどうを{茹|ゆ}でる: to boil snow peas\n- さやえんどうの{卵|たまご}とじ: snow peas with egg\n\nWRITING:\nUsually written in hiragana. Can also be written {莢豌豆|さやえんどう} in kanji, but this is rare. Sometimes written as サヤエンドウ in katakana in scientific or agricultural contexts.\n\nRELATED WORDS:\n- {絹|きぬ}さや: another name for snow peas, often used interchangeably\n- {枝豆|えだまめ}: edamame (green soybeans)\n- スナップえんどう: sugar snap peas (thicker variety)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21197_edamame",
+      "reading": "えだまめ",
+      "headword": "{枝豆|えだまめ}",
+      "label": "edamame"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24840_sayaingen",
+      "reading": "さやいんげん",
+      "headword": "さやいんげん",
+      "label": "green bean"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "food",
         "nature"
       ]
     },
     "created": "2026-04-26T11:19:27Z",
-    "modified": "2026-04-26T11:19:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -46,6 +46,22 @@
   ],
   "notes": "Compound of {預金|よきん} (bank deposit) and {通帳|つうちょう} (passbook). A bank-issued booklet that records all account activity. Japanese banks still make heavy use of these paper passbooks, and ATMs have a dedicated slot for printing updates in them.\n\nCOMMON COLLOCATIONS:\n- {預金通帳|よきんつうちょう}を{記帳|きちょう}する: to update the passbook (print new entries)\n- {預金通帳|よきんつうちょう}を{再発行|さいはっこう}する: to reissue a passbook\n- {預金通帳|よきんつうちょう}を{繰|く}り{越|こ}す: to move the balance to a new book when the old one is full\n- {預金通帳|よきんつうちょう}と{印鑑|いんかん}: passbook and personal seal (often required together)\n\nSIMILAR WORDS:\n- {通帳|つうちょう}: passbook — the shorter, more colloquial form; often used alone when the context is clear\n- {口座|こうざ}: bank account — the underlying account itself, of which the passbook is a record\n- ネットバンキング: online banking — the digital alternative to a paper passbook",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05419_kouza",
+      "reading": "こうざ",
+      "headword": "{口座|こうざ}",
+      "label": "bank account"
+    },
+    {
+      "type": "related",
+      "target_id": "23593_tsuuchoukinyuu",
+      "reading": "つうちょうきにゅう",
+      "headword": "{通帳記入|つうちょうきにゅう}",
+      "label": "passbook update"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +79,6 @@
       ]
     },
     "created": "2026-04-12T18:11:48Z",
-    "modified": "2026-08-01T21:36:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

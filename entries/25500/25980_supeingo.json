@@ -17,7 +17,9 @@
       "id": "25980_supeingo_ex1",
       "japanese": "スペイン{語|ご}を{勉強|べんきょう}している。",
       "english": "I'm studying Spanish.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25980_supeingo_ex2",
       "japanese": "スペイン{語|ご}は{世界|せかい}で{二番目|にばんめ}に{母語話者|ぼごわしゃ}が{多|おお}い{言語|げんご}だ。",
       "english": "Spanish is the language with the second-largest number of native speakers in the world.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,51 @@
       "id": "25980_supeingo_ex3",
       "japanese": "{大学|だいがく}で{第二外国語|だいにがいこくご}としてスペイン{語|ご}を{選|えら}んだのは、{将来|しょうらい}{南米|なんべい}で{働|はたら}きたいと{思|おも}ったからだ。",
       "english": "I chose Spanish as my second foreign language at university because I wanted to work in South America in the future.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from スペイン (Spain) + {語|ご} (language). Spanish is one of the more popular foreign languages studied in Japan, especially at the university level as a {第二外国語|だいにがいこくご} (second foreign language). Japanese has borrowed some words from Spanish, particularly through early contact with Portuguese and Spanish missionaries in the 16th century.\n\nCOMMON COLLOCATIONS:\n- スペイン{語|ご}を{話|はな}す: to speak Spanish\n- スペイン{語|ご}の{授業|じゅぎょう}: Spanish class\n- スペイン{語|ご}{圏|けん}: Spanish-speaking world\n- スペイン{語|ご}{検定|けんてい}: Spanish language proficiency test\n\nSIMILAR WORDS:\n- ポルトガル{語|ご}: Portuguese — closely related Romance language\n- フランス{語|ご}: French — another popular second foreign language choice in Japanese universities\n- {英語|えいご}: English — the primary foreign language studied in Japan",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29235_porutogarugo",
+      "reading": "ぽるとがるご",
+      "headword": "ポルトガル{語|ご}",
+      "label": "Portuguese"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24509_furansugo",
+      "reading": "ふらんすご",
+      "headword": "フランス{語|ご}",
+      "label": "French"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02274_eigo",
+      "reading": "えいご",
+      "headword": "{英語|えいご}",
+      "label": "English"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["language"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "language"
+      ]
     },
     "created": "2026-04-28T14:15:46Z",
-    "modified": "2026-04-28T14:15:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

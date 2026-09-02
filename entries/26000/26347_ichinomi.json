@@ -17,7 +17,9 @@
       "id": "26347_ichinomi_ex1",
       "japanese": "ビールを{一飲|いちの}みにした。",
       "english": "I downed the beer in one gulp.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26347_ichinomi_ex2",
       "japanese": "{冷|つめ}たい{水|みず}を{一飲|いちの}みにして、{生|い}き{返|かえ}った{気分|きぶん}になった。",
       "english": "I drank the cold water in one gulp and felt revived.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,52 @@
       "id": "26347_ichinomi_ex3",
       "japanese": "あの{力士|りきし}なら、こんな{相手|あいて}は{一飲|いちの}みだろう。",
       "english": "For that sumo wrestler, an opponent like this would be a piece of cake.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {一|いち} (one) and {飲|の}み (drinking). The literal meaning is drinking something in a single gulp, but it extends figuratively to mean dealing with something effortlessly, as if swallowing it whole.\n\nCOMMON COLLOCATIONS:\n- {一飲|いちの}みにする: to gulp down; to make short work of\n- {一飲|いちの}みで{飲|の}み{干|ほ}す: to drain in a single gulp\n\nSIMILAR WORDS:\n- {一気飲|いっきの}み: chugging — drinking without stopping, often in a social/party context\n- {一口|ひとくち}: one sip, one bite — smaller quantity than {一飲|いちの}み\n- {丸呑|まるの}み: swallowing whole — used literally or for uncritical acceptance",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16505_ikkinomi",
+      "reading": "いっきのみ",
+      "headword": "{一気飲|いっきの}み",
+      "label": "chugging"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10474_hitokuchi",
+      "reading": "ひとくち",
+      "headword": "{一口|ひとくち}",
+      "label": "one sip, one bite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15251_marunomi",
+      "reading": "まるのみ",
+      "headword": "{丸|まる}{呑|の}み",
+      "label": "swallowing whole"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food", "daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "daily-life"
+      ]
     },
     "created": "2026-05-01T11:33:05Z",
-    "modified": "2026-05-01T11:33:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

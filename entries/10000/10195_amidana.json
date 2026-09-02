@@ -18,7 +18,9 @@
       "english": "Put the luggage on the overhead rack.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10195_amidana_ex2",
@@ -26,7 +28,9 @@
       "english": "I forgot my umbrella on the luggage rack.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10195_amidana_ex3",
@@ -34,20 +38,56 @@
       "english": "Please check for your belongings on the overhead rack before getting off.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "WORD FORMATION:\n{網|あみ} (net, mesh) + {棚|たな} (shelf)\n\nUSAGE NOTES:\nTraditionally made of rope or metal mesh, hence the name. Modern trains may have solid shelves, but the term {網棚|あみだな} is still commonly used.\n\nCOMMON PATTERNS:\n- {網棚|あみだな}に{載|の}せる (to put on the rack)\n- {網棚|あみだな}から{下|お}ろす (to take down from the rack)\n- {網棚|あみだな}の{忘|わす}れ{物|もの} (forgotten items on the rack)\n\nRELATED TERMS:\n- {忘|わす}れ{物|もの}: lost item, forgotten item\n- {手荷物|てにもつ}: hand luggage",
-  "cross_references": [],
+  "notes": "FORMS:\n{網|あみ} (net, mesh) + {棚|たな} (shelf)\n\nUSAGE:\nTraditionally made of rope or metal mesh, hence the name. Modern trains may have solid shelves, but the term {網棚|あみだな} is still commonly used.\n\nCOMMON PATTERNS:\n- {網棚|あみだな}に{載|の}せる (to put on the rack)\n- {網棚|あみだな}から{下|お}ろす (to take down from the rack)\n- {網棚|あみだな}の{忘|わす}れ{物|もの} (forgotten items on the rack)\n\nRELATED WORDS:\n- {忘|わす}れ{物|もの}: lost item, forgotten item\n- {手荷物|てにもつ}: hand luggage",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01758_wasuremono",
+      "reading": "わすれもの",
+      "headword": "{忘|わす}れ{物|もの}",
+      "label": "lost item, forgotten item"
+    },
+    {
+      "type": "related",
+      "target_id": "09928_tenimotsu",
+      "reading": "てにもつ",
+      "headword": "{手荷物|てにもつ}",
+      "label": "hand luggage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20484_nimotsuoki",
+      "reading": "にもつおき",
+      "headword": "{荷物置|にもつお}き",
+      "label": "luggage storage area"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27473_uwadana",
+      "reading": "うわだな",
+      "headword": "{上棚|うわだな}",
+      "label": "upper shelf"
+    }
+  ],
   "metadata": {
     "created": "2026-02-05T12:58:08Z",
-    "modified": "2026-02-05T12:58:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "daily-life"]
+      "semantic": [
+        "transportation",
+        "daily-life"
+      ]
     }
   }
 }

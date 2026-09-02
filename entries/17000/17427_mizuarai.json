@@ -3,7 +3,7 @@
   "id": "17427_mizuarai",
   "headword": "{水洗|みずあら}い",
   "reading": "みずあらい",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "washing with water",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,25 @@
     }
   ],
   "notes": "USAGE:\nImplies washing with water only, without detergent. In cooking, it refers to rinsing ingredients. For clothing, {水洗|みずあら}いできる means the item can be washed at home with water rather than requiring dry cleaning.\n\nCOMMON COLLOCATIONS:\n- {水洗|みずあら}いする (to wash with water)\n- {水洗|みずあら}い{可|か} (washable with water)\n- {水洗|みずあら}い{不可|ふか} (not washable with water)\n\nSIMILAR WORDS:\n- {洗濯|せんたく}: laundry, doing the wash — general washing of clothes\n- {水洗|みずあら}い: specifically washing with water only, no soap",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13283_sentaku",
+      "reading": "せんたく",
+      "headword": "{洗濯|せんたく}",
+      "label": "laundry, doing the wash"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17215_maruarai",
+      "reading": "まるあらい",
+      "headword": "{丸洗|まるあら}い",
+      "label": "washing the whole thing"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T23:20:37Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

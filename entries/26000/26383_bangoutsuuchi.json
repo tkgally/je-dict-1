@@ -17,7 +17,9 @@
       "id": "26383_bangoutsuuchi_ex1",
       "japanese": "{番号通知|ばんごうつうち}がオフになっている。",
       "english": "Caller ID is turned off.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26383_bangoutsuuchi_ex2",
       "japanese": "{番号通知|ばんごうつうち}なしの{電話|でんわ}には{出|で}ないことにしている。",
       "english": "I've decided not to answer calls without caller ID.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26383_bangoutsuuchi_ex3",
       "japanese": "{迷惑|めいわく}{電話|でんわ}が{多|おお}いので、{番号通知|ばんごうつうち}を{確認|かくにん}してから{出|で}るようにしている。",
       "english": "Since I get a lot of spam calls, I check the caller ID before answering.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {番号|ばんごう} (number) and {通知|つうち} (notification). In Japan, NTT's caller ID service is called ナンバーディスプレイ, but {番号通知|ばんごうつうち} is the more general, carrier-neutral term used for the concept itself.\n\nCalls made without displaying the number are described as {非通知|ひつうち} (withheld number), and many Japanese people automatically reject {非通知|ひつうち} calls due to the prevalence of phone scams.\n\nCOMMON COLLOCATIONS:\n- {番号通知|ばんごうつうち}サービス: caller ID service\n- {番号通知|ばんごうつうち}を{設定|せってい}する: to set up caller ID\n- {番号通知|ばんごうつうち}{拒否|きょひ}: blocking calls without caller ID\n\nSIMILAR WORDS:\n- ナンバーディスプレイ: Number Display — NTT's branded caller ID service\n- {非通知|ひつうち}: withheld number; anonymous call\n- {着信|ちゃくしん}{履歴|りれき}: call history; call log",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29603_hitsuuchi",
+      "reading": "ひつうち",
+      "headword": "{非通知|ひつうち}",
+      "label": "withheld number"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17362_chakushinrireki",
+      "reading": "ちゃくしんりれき",
+      "headword": "{着信|ちゃくしん}{履歴|りれき}",
+      "label": "call history"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["technology", "communication"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "technology",
+        "communication"
+      ]
     },
     "created": "2026-05-01T13:31:38Z",
-    "modified": "2026-05-01T13:31:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

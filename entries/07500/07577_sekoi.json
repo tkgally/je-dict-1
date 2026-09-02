@@ -78,7 +78,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMS:\n・せこい (plain)\n・せこく (adverbial)\n・せこさ (noun) - stinginess, pettiness\n\nREGISTER:\nInformal/colloquial. Can be mildly insulting when used to describe someone directly.\n\nSIMILAR WORDS:\n・けち - stingy, miserly (stronger criticism)\n・{貧乏|びんぼう}くさい - looking poor, cheap\n・こすい - cunning, crafty (regional/colloquial)\n・みみっちい - petty, stingy\n\nCONTRAST:\n・{気前|きまえ}がいい - generous\n・{太|ふと}っ{腹|ぱら} - generous, big-hearted\n\nUSAGE NOTES:\nOriginally from Kansai dialect but now widely used throughout Japan. Often used to criticize not just financial stinginess but also petty behavior in general.",
+  "notes": "FORMS:\n- せこい (plain)\n- せこく (adverbial)\n- せこさ (noun) - stinginess, pettiness\n\nREGISTER:\nInformal/colloquial. Can be mildly insulting when used to describe someone directly.\n\nSIMILAR WORDS:\n- けち - stingy, miserly (stronger criticism)\n- {貧乏|びんぼう}くさい - looking poor, cheap\n- こすい - cunning, crafty (regional/colloquial)\n- みみっちい - petty, stingy\n- {気前|きまえ}がいい - generous\n- {太|ふと}っ{腹|ぱら} - generous, big-hearted\n\nUSAGE:\nOriginally from Kansai dialect but now widely used throughout Japan. Often used to criticize not just financial stinginess but also petty behavior in general.",
   "cross_references": [
     {
       "type": "synonym",
@@ -86,11 +86,32 @@
       "reading": "けち",
       "headword": "けち",
       "label": "stingy (stronger)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07848_kosui",
+      "reading": "こすい",
+      "headword": "こすい",
+      "label": "cunning, crafty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20378_kimaegaii",
+      "reading": "きまえがいい",
+      "headword": "{気前|きまえ}がいい",
+      "label": "generous"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15692_futoppara",
+      "reading": "ふとっぱら",
+      "headword": "{太|ふと}っ{腹|ぱら}",
+      "label": "generous, big-hearted"
     }
   ],
   "metadata": {
     "created": "2026-01-20T10:31:31Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -98,6 +119,7 @@
         "adjective-i"
       ],
       "formality": "informal",
+      "politeness": "plain",
       "semantic": [
         "personality",
         "evaluation"

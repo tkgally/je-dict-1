@@ -17,7 +17,9 @@
       "id": "24904_tansohaishutsu_ex1",
       "japanese": "{炭素排出|たんそはいしゅつ}を{減|へ}らす。",
       "english": "To reduce carbon emissions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24904_tansohaishutsu_ex2",
       "japanese": "{工場|こうじょう}からの{炭素排出|たんそはいしゅつ}が{問題|もんだい}になっている。",
       "english": "Carbon emissions from factories have become a problem.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "24904_tansohaishutsu_ex3",
       "japanese": "{日本|にほん}は2050{年|ねん}までに{炭素排出|たんそはいしゅつ}を{実質|じっしつ}ゼロにする{目標|もくひょう}を{掲|かか}げている。",
       "english": "Japan has set a goal of achieving net-zero carbon emissions by 2050.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {炭素|たんそ} (carbon) + {排出|はいしゅつ} (emission; discharge). Frequently appears in news and policy discussions about climate change. The longer form {二酸化炭素排出|にさんかたんそはいしゅつ} (carbon dioxide emissions) is technically more precise, but {炭素排出|たんそはいしゅつ} is the common shorthand.\n\nCOMMON COLLOCATIONS:\n- {炭素排出|たんそはいしゅつ}{量|りょう}: amount of carbon emissions\n- {炭素排出|たんそはいしゅつ}{削減|さくげん}: carbon emission reduction\n- {炭素排出|たんそはいしゅつ}ゼロ: zero carbon emissions\n- {炭素排出|たんそはいしゅつ}{規制|きせい}: carbon emission regulations\n\nSIMILAR WORDS:\n- {温室効果ガス|おんしつこうかがす}: greenhouse gases — a broader category that includes carbon dioxide and other heat-trapping gases\n- {脱炭素|だつたんそ}: decarbonization — the process of reducing carbon emissions, often used in policy contexts\n- {排出|はいしゅつ}: emission; discharge — the general term for releasing substances, not limited to carbon",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24833_onshitsukoukagasu",
+      "reading": "おんしつこうかがす",
+      "headword": "{温室|おんしつ}{効果|こうか}ガス",
+      "label": "greenhouse gases"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06410_datsutanso",
+      "reading": "だつたんそ",
+      "headword": "{脱炭素|だつたんそ}",
+      "label": "decarbonization"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["science", "society"]
+      "semantic": [
+        "science",
+        "society"
+      ]
     },
     "created": "2026-04-21T12:13:07Z",
-    "modified": "2026-04-21T12:13:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

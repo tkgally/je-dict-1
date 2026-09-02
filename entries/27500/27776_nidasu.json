@@ -3,7 +3,7 @@
   "headword": "{煮出|にだ}す",
   "reading": "にだす",
   "romaji": "nidasu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to brew; to boil to extract (flavor)",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "TRANSITIVITY: Transitive godan verb. Xを{煮出|にだ}す. Compound of {煮|に}る (to boil) + {出|だ}す (to bring out). The {出|だ}す here means drawing the flavor out of the ingredient.\n\nCOMMON COLLOCATIONS:\n- だしを{煮出|にだ}す: to boil out stock\n- お{茶|ちゃ}を{煮出|にだ}す: to brew tea by boiling\n\nSIMILAR WORDS:\n- {煮込|にこ}む: to stew; to simmer — cooking the ingredient itself slowly, not extracting from it\n- {抽出|ちゅうしゅつ}する: to extract — a formal, technical term, not limited to boiling",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05822_nikomu",
+      "reading": "にこむ",
+      "headword": "{煮込|にこ}む",
+      "label": "to stew"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19627_chuushutsusuru",
+      "reading": "ちゅうしゅつする",
+      "headword": "{抽出|ちゅうしゅつ}する",
+      "label": "to extract"
+    },
+    {
+      "type": "related",
+      "target_id": "01971_niru",
+      "reading": "にる",
+      "headword": "{煮|に}る",
+      "label": "to boil, to simmer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27815_senjiru",
+      "reading": "せんじる",
+      "headword": "{煎|せん}じる",
+      "label": "to decoct"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +93,7 @@
       "verb_class": "godan-su"
     },
     "created": "2026-05-18T04:14:41Z",
-    "modified": "2026-05-18T04:14:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

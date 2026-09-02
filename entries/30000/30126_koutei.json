@@ -46,6 +46,29 @@
   ],
   "notes": "Formed from {公|こう} (public) + {邸|てい} (mansion, residence). Usually appears attached to the title of the post: {首相|しゅしょう}{公邸|こうてい}, {知事|ちじ}{公邸|こうてい}, {大使|たいし}{公邸|こうてい}.\n\nCOMMON COLLOCATIONS:\n- {公邸|こうてい}に{入|はい}る: to move into the official residence\n- {公邸|こうてい}を{出|で}る: to leave the official residence\n- {公邸|こうてい}で{会談|かいだん}する: to hold talks at the official residence\n\nSIMILAR WORDS:\n- {私邸|してい}: private residence — the official's own home, contrasted directly with {公邸|こうてい}\n- {官邸|かんてい}: official residence and office — for the prime minister, {官邸|かんてい} is the working headquarters, {公邸|こうてい} the living quarters\n- {官舎|かんしゃ}: government housing — ordinary housing for civil servants, not a mark of high rank",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30145_shitei",
+      "reading": "してい",
+      "headword": "{私邸|してい}",
+      "label": "private residence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12305_kantei",
+      "reading": "かんてい",
+      "headword": "{官邸|かんてい}",
+      "label": "official residence and office"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30109_shushoukantei",
+      "reading": "しゅしょうかんてい",
+      "headword": "{首相官邸|しゅしょうかんてい}",
+      "label": "prime minister's office"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "building",
         "politics"
@@ -61,6 +84,6 @@
       "domain": []
     },
     "created": "2026-07-26T12:19:17Z",
-    "modified": "2026-07-26T12:19:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

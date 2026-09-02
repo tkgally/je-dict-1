@@ -17,7 +17,9 @@
       "id": "26344_tsukiwari_ex1",
       "japanese": "{月割|つきわ}りで{支払|しはら}う。",
       "english": "To pay in monthly installments.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26344_tsukiwari_ex2",
       "japanese": "{年会費|ねんかいひ}を{月割|つきわ}り{計算|けいさん}すると、{一|ひと}か{月|げつ}{千円|せんえん}になる。",
       "english": "If you prorate the annual membership fee monthly, it comes to 1,000 yen per month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26344_tsukiwari_ex3",
       "japanese": "{途中|とちゅう}{入会|にゅうかい}の{場合|ばあい}は、{月割|つきわ}りで{料金|りょうきん}を{精算|せいさん}いたします。",
       "english": "In the case of mid-term enrollment, fees will be settled on a prorated monthly basis.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {月|つき} (month) and {割|わ}り (division, rate). Used in business, accounting, and subscription contexts to describe breaking annual or total amounts into monthly portions.\n\nCOMMON COLLOCATIONS:\n- {月割|つきわ}り{計算|けいさん}: monthly proration calculation\n- {月割|つきわ}りで{払|はら}う: to pay monthly\n- {月割|つきわ}り{料金|りょうきん}: prorated monthly fee\n- {月割|つきわ}り{額|がく}: monthly prorated amount\n\nSIMILAR WORDS:\n- {月払|つきばら}い: monthly payment — focuses on the act of paying monthly rather than the calculation\n- {分割払|ぶんかつばら}い: installment payment — more general; can be any interval\n- {日割|ひわ}り: daily proration — the same concept applied on a daily basis",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17607_bunkatsubarai",
+      "reading": "ぶんかつばらい",
+      "headword": "{分割払|ぶんかつばら}い",
+      "label": "installment payment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18920_hiwari",
+      "reading": "ひわり",
+      "headword": "{日割|ひわ}り",
+      "label": "daily proration"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business", "finance"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "finance"
+      ]
     },
     "created": "2026-05-01T11:32:03Z",
-    "modified": "2026-05-01T11:32:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

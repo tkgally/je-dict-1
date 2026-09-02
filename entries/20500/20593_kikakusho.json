@@ -19,7 +19,9 @@
       "english": "To create a proposal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20593_kikakusho_ex2",
@@ -27,7 +29,9 @@
       "english": "Please submit the proposal by next week.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20593_kikakusho_ex3",
@@ -35,21 +39,57 @@
       "english": "The proposal for the new product was approved by the boss, and development is finally starting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Composed of {企画|きかく} (planning, project) + {書|しょ} (document). A fundamental business document in Japanese corporate culture, used to formally present ideas for approval.\n\nCOMMON COLLOCATIONS:\n- {企画書|きかくしょ}を{作成|さくせい}する (create a proposal)\n- {企画書|きかくしょ}を{提出|ていしゅつ}する (submit a proposal)\n- {企画書|きかくしょ}を{書|か}く (write a proposal)\n- {企画書|きかくしょ}が{通|とお}る (a proposal is approved)\n- {企画書|きかくしょ}が{却下|きゃっか}される (a proposal is rejected)\n\nSIMILAR WORDS:\n- {提案書|ていあんしょ} — proposal document (more focused on suggesting ideas)\n- {計画書|けいかくしょ} — plan document (more detailed implementation plan)\n- {稟議書|りんぎしょ} — approval request document (for circulating for consensus)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15212_teiansho",
+      "reading": "ていあんしょ",
+      "headword": "{提案書|ていあんしょ}",
+      "label": "proposal document"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25865_keikakusho",
+      "reading": "けいかくしょ",
+      "headword": "{計画書|けいかくしょ}",
+      "label": "plan document"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26152_ringisho",
+      "reading": "りんぎしょ",
+      "headword": "{稟議書|りんぎしょ}",
+      "label": "approval request document"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22924_jigyoukeikaku",
+      "reading": "じぎょうけいかく",
+      "headword": "{事業計画|じぎょうけいかく}",
+      "label": "business plan"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T19:19:48Z",
-    "modified": "2026-03-29T19:19:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business", "document"]
+      "semantic": [
+        "business",
+        "document"
+      ]
     }
   }
 }

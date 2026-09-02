@@ -3,7 +3,7 @@
   "headword": "{密売|みつばい}",
   "reading": "みつばい",
   "romaji": "mitsubai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "illegal sale; trafficking; black market selling",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Composed of {密|みつ} (secret) and {売|ばい} (selling). Always refers to illegal transactions. The word carries a strong negative connotation and is commonly seen in news reports about crime.\n\nCOMMON COLLOCATIONS:\n- {密売|みつばい}する: to sell illegally, to traffic\n- {密売人|みつばいにん}: illegal dealer, trafficker\n- {密売|みつばい}{組織|そしき}: trafficking organization\n- {薬物|やくぶつ}{密売|みつばい}: drug trafficking\n- {密売|みつばい}ルート: trafficking route\n\nSIMILAR WORDS:\n- {密輸|みつゆ}: smuggling — illegally transporting goods across borders, not necessarily selling them\n- {闇|やみ}{取引|とりひき}: black market dealing — broader term for underground transactions\n- {不正|ふせい}{販売|はんばい}: fraudulent sales — selling legally available goods through illegal means",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20266_mitsuyu",
+      "reading": "みつゆ",
+      "headword": "{密輸|みつゆ}",
+      "label": "smuggling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18918_yamitorihiki",
+      "reading": "やみとりひき",
+      "headword": "{闇取引|やみとりひき}",
+      "label": "black market dealing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T21:08:10Z",
-    "modified": "2026-04-05T21:08:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

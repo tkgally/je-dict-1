@@ -166,10 +166,10 @@
       ]
     }
   ],
-  "notes": "{拭|ふ}く is a transitive verb (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) for wiping surfaces clean or dry.\n\nASPECT (ている):\n{拭|ふ}いている indicates wiping is in progress.\n\nPARTICLE PATTERNS:\n- [surface]⟦を→を：00422_wo⟧{拭|ふ}く — to wipe [surface]\n- [moisture/dirt]⟦を→を：00422_wo⟧{拭|ふ}く — to wipe away [moisture/dirt]\n- [cloth]⟦で→で：00502_de⟧{拭|ふ}く — to wipe with [cloth]\n\nCOMMON PATTERNS:\n- ⟦{汗|あせ}→汗：02173_ase⟧⟦を→を：00422_wo⟧{拭|ふ}く (wipe sweat)\n- ⟦{涙|なみだ}→涙：02235_namida⟧⟦を→を：00422_wo⟧{拭|ふ}く (wipe tears)\n- ⟦{床|ゆか}→床：03652_yuka⟧⟦を→を：00422_wo⟧{拭|ふ}く (wipe/mop the floor)\n- ⟦{拭|ふ}き{掃除|そうじ}→拭き掃除：18123_fukisouji⟧ (wiping/mopping)\n\nDO NOT CONFUSE:\n- {拭|ふ}く (to wipe) — different from:\n- ⟦{吹|ふ}く→吹く：02445_fuku⟧ (to blow)\n- ⟦{噴|ふ}く→噴く：26557_fuku⟧ (to spout)\n\nAll three can be read ふく but have different meanings.\n\nRELATED WORDS:\n- ⟦{雑巾|ぞうきん}→雑巾：04408_zoukin⟧ (cleaning rag)\n- ⟦{拭|ふ}き{取|と}る→拭き取る：18690_fukitoru⟧ (to wipe off)",
+  "notes": "{拭|ふ}く is a transitive verb (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) for wiping surfaces clean or dry.\n\nASPECT (ている):\n{拭|ふ}いている indicates wiping is in progress.\n\nCOMMON PATTERNS:\n- [surface]⟦を→を：00422_wo⟧{拭|ふ}く — to wipe [surface]\n- [moisture/dirt]⟦を→を：00422_wo⟧{拭|ふ}く — to wipe away [moisture/dirt]\n- [cloth]⟦で→で：00502_de⟧{拭|ふ}く — to wipe with [cloth]\n- ⟦{汗|あせ}→汗：02173_ase⟧⟦を→を：00422_wo⟧{拭|ふ}く (wipe sweat)\n- ⟦{涙|なみだ}→涙：02235_namida⟧⟦を→を：00422_wo⟧{拭|ふ}く (wipe tears)\n- ⟦{床|ゆか}→床：03652_yuka⟧⟦を→を：00422_wo⟧{拭|ふ}く (wipe/mop the floor)\n- ⟦{拭|ふ}き{掃除|そうじ}→拭き掃除：18123_fukisouji⟧ (wiping/mopping)\n\nWATCH OUT:\n- {拭|ふ}く (to wipe) — different from:\n- ⟦{吹|ふ}く→吹く：02445_fuku⟧ (to blow)\n- ⟦{噴|ふ}く→噴く：26557_fuku⟧ (to spout)\n\nAll three can be read ふく but have different meanings.\n\nRELATED WORDS:\n- ⟦{雑巾|ぞうきん}→雑巾：04408_zoukin⟧ (cleaning rag)\n- ⟦{拭|ふ}き{取|と}る→拭き取る：18690_fukitoru⟧ (to wipe off)",
   "metadata": {
     "created": "2026-01-14T08:40:32Z",
-    "modified": "2026-07-31T03:20:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -200,6 +200,27 @@
       "reading": "あらう",
       "headword": "{洗|あら}う",
       "label": "to wash (with water)"
+    },
+    {
+      "type": "related",
+      "target_id": "04408_zoukin",
+      "reading": "ぞうきん",
+      "headword": "{雑巾|ぞうきん}",
+      "label": "cleaning rag"
+    },
+    {
+      "type": "related",
+      "target_id": "18690_fukitoru",
+      "reading": "ふきとる",
+      "headword": "{拭|ふ}き{取|と}る",
+      "label": "to wipe off"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23415_nuguisaru",
+      "reading": "ぬぐいさる",
+      "headword": "ぬぐい{去|さ}る",
+      "label": "to wipe away"
     }
   ]
 }

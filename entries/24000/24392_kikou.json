@@ -3,7 +3,7 @@
   "headword": "{起工|きこう}",
   "reading": "きこう",
   "romaji": "kikou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "commencement of construction; groundbreaking",
   "definitions": [
     {
@@ -54,8 +54,38 @@
       "notes": null
     }
   ],
-  "notes": "A formal term used in construction, engineering, and news reporting for the start of building work. Typically used for large-scale projects such as buildings, bridges, dams, and public infrastructure. Small home renovations would not normally use this term.\n\nCOMMON COLLOCATIONS:\n- {起工|きこう}{式|しき}: groundbreaking ceremony\n- {起工|きこう}{日|び}: date of commencement of construction\n- {起工|きこう}する: to commence construction\n- {起工|きこう}が{遅|おく}れる: for the start of construction to be delayed\n\nSIMILAR WORDS:\n- {着工|ちゃっこう}: start of construction — very similar, slightly more commonly used in everyday news\n- {竣工|しゅんこう}: completion of construction — the opposite: when building work is finished\n- {建設|けんせつ}: construction — the general term for the activity of building\n- {地鎮祭|じちんさい}: groundbreaking ceremony — the Shinto purification ceremony held before construction\n\nFORMATION:\n{起|き} (to start, to rise) + {工|こう} (construction, work) — literally \"starting construction.\"",
+  "notes": "A formal term used in construction, engineering, and news reporting for the start of building work. Typically used for large-scale projects such as buildings, bridges, dams, and public infrastructure. Small home renovations would not normally use this term.\n\nCOMMON COLLOCATIONS:\n- {起工|きこう}{式|しき}: groundbreaking ceremony\n- {起工|きこう}{日|び}: date of commencement of construction\n- {起工|きこう}する: to commence construction\n- {起工|きこう}が{遅|おく}れる: for the start of construction to be delayed\n\nSIMILAR WORDS:\n- {着工|ちゃっこう}: start of construction — very similar, slightly more commonly used in everyday news\n- {竣工|しゅんこう}: completion of construction — the opposite: when building work is finished\n- {建設|けんせつ}: construction — the general term for the activity of building\n- {地鎮祭|じちんさい}: groundbreaking ceremony — the Shinto purification ceremony held before construction\n\nFORMS:\n{起|き} (to start, to rise) + {工|こう} (construction, work) — literally \"starting construction.\"",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11101_chakkou",
+      "reading": "ちゃっこう",
+      "headword": "{着工|ちゃっこう}",
+      "label": "start of construction"
+    },
+    {
+      "type": "antonym",
+      "target_id": "16491_shunkou",
+      "reading": "しゅんこう",
+      "headword": "{竣工|しゅんこう}",
+      "label": "completion of construction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02708_kensetsu",
+      "reading": "けんせつ",
+      "headword": "{建設|けんせつ}",
+      "label": "construction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30680_jichinsai",
+      "reading": "じちんさい",
+      "headword": "{地鎮祭|じちんさい}",
+      "label": "groundbreaking ceremony"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -71,7 +101,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-18T16:29:37Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

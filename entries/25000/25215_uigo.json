@@ -17,7 +17,9 @@
       "japanese": "{初子|ういご}が{生|う}まれた。",
       "english": "Our first child was born.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -25,7 +27,9 @@
       "japanese": "{初子|ういご}の{名前|なまえ}を{決|き}めるのに{時間|じかん}がかかった。",
       "english": "It took time to decide the name for our firstborn.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -33,15 +37,39 @@
       "japanese": "{初子|ういご}は{両親|りょうしん}にとって{特別|とくべつ}な{存在|そんざい}だと{言|い}われている。",
       "english": "It is said that the firstborn child is a special existence for parents.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     }
   ],
   "notes": "Composed of {初|うい} (first, initial) + {子|ご} (child). A classical reading — the more common modern equivalent is {第一子|だいいっし} or {最初|さいしょ}の{子|こ}. Also sometimes written as {初|うい}{児|ご}.\n\nUSAGE:\n- Somewhat literary and traditional; found in formal writing, historical texts, and family-related contexts\n- In everyday conversation, {第一子|だいいっし} or {一人目|ひとりめ}の{子|こ} is more common\n- Can also be read as はつご, though ういご is the primary reading\n\nCOMMON COLLOCATIONS:\n- {初子|ういご}が{生|う}まれる: a first child is born\n- {待望|たいぼう}の{初子|ういご}: a long-awaited firstborn\n- {初子|ういご}を{授|さず}かる: to be blessed with a first child\n\nSIMILAR WORDS:\n- {長男|ちょうなん}: eldest son — specifically male\n- {長女|ちょうじょ}: eldest daughter — specifically female\n- {第一子|だいいっし}: first child — the modern formal equivalent\n- {末っ子|すえっこ}: youngest child — the opposite position in birth order",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14519_chounan",
+      "reading": "ちょうなん",
+      "headword": "{長男|ちょうなん}",
+      "label": "eldest son"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14518_choujo",
+      "reading": "ちょうじょ",
+      "headword": "{長女|ちょうじょ}",
+      "label": "eldest daughter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15132_suekko",
+      "reading": "すえっこ",
+      "headword": "{末|すえ}っ{子|こ}",
+      "label": "youngest child"
+    }
+  ],
   "metadata": {
     "created": "2026-04-23T14:48:55Z",
-    "modified": "2026-04-23T14:48:55Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

@@ -3,7 +3,7 @@
   "headword": "{委任|いにん}",
   "reading": "いにん",
   "romaji": "inin",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "delegation; mandate; entrusting",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "A formal word composed of {委|い} (entrust) + {任|にん} (responsibility/duty). Primarily used in legal, business, and administrative contexts.\n\nCOMMON COLLOCATIONS:\n- {委任|いにん}する: to delegate, to entrust\n- {委任状|いにんじょう}: letter of proxy, power of attorney\n- {委任|いにん}{契約|けいやく}: mandate contract\n- {権限|けんげん}を{委任|いにん}する: to delegate authority\n\nSIMILAR WORDS:\n- {委託|いたく}: consignment, outsourcing — entrusting a specific task or item to another party; often commercial\n- {任命|にんめい}: appointment — formally assigning someone to a position\n- {代理|だいり}: proxy, representation — acting on behalf of someone else\n- {託|たく}す: to entrust — a more general and literary verb",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05620_itaku",
+      "reading": "いたく",
+      "headword": "{委託|いたく}",
+      "label": "consignment, outsourcing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09764_ninmei",
+      "reading": "にんめい",
+      "headword": "{任命|にんめい}",
+      "label": "appointment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03422_dairi",
+      "reading": "だいり",
+      "headword": "{代理|だいり}",
+      "label": "proxy, representation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14168_takusu",
+      "reading": "たくす",
+      "headword": "{託|たく}す",
+      "label": "to entrust"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -55,11 +85,14 @@
       ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["law", "business"],
+      "semantic": [
+        "law",
+        "business"
+      ],
       "verb_class": "suru"
     },
     "created": "2026-04-08T17:27:17Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

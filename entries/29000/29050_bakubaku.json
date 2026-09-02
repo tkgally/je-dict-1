@@ -3,7 +3,7 @@
   "headword": "ばくばく",
   "reading": "ばくばく",
   "romaji": "bakubaku",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "eating in large bites; heart pounding",
   "definitions": [
     {
@@ -71,6 +71,29 @@
   ],
   "notes": "Mimetic word (擬音語/擬態語) with two distinct uses.\n\nCOMMON COLLOCATIONS:\n- ばくばく{食|た}べる: to eat greedily in large bites\n- {心臓|しんぞう}がばくばくする: heart pounds\n- ばくばくする: heart is pounding (informal)\n\nSIMILAR WORDS:\n- もぐもぐ: chewing quietly — gentle chewing motion, not greedy\n- がつがつ: eating ravenously — stronger hunger-driven eating than ばくばく\n- どきどき: heart fluttering — lighter, often pleasantly excited; ばくばく implies stronger, more anxious pounding",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05775_mogumogu",
+      "reading": "もぐもぐ",
+      "headword": "もぐもぐ",
+      "label": "chewing quietly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05936_gatsugatsu",
+      "reading": "がつがつ",
+      "headword": "がつがつ",
+      "label": "eating ravenously"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05157_dokidoki",
+      "reading": "どきどき",
+      "headword": "どきどき",
+      "label": "heart fluttering"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -79,7 +102,7 @@
         "onomatopoeia"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "descriptive",
         "food"
@@ -87,6 +110,6 @@
       "domain": []
     },
     "created": "2026-06-09T17:37:55Z",
-    "modified": "2026-08-09T06:33:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

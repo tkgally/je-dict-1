@@ -17,7 +17,9 @@
       "id": "29454_kariirekin_ex1",
       "japanese": "{借入金|かりいれきん}を{返|かえ}す。",
       "english": "to repay a loan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29454_kariirekin_ex2",
       "japanese": "{会社|かいしゃ}の{借入金|かりいれきん}が{大|おお}きく{増|ふ}えた。",
       "english": "The company's borrowings increased substantially.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,61 @@
       "id": "29454_kariirekin_ex3",
       "japanese": "{毎月|まいつき}の{利益|りえき}の{一部|いちぶ}を{借入金|かりいれきん}の{返済|へんさい}に{充|あ}てている。",
       "english": "We put part of each month's profit toward repaying the loan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers to the borrowed money itself, viewed from the borrower's side. On a balance sheet it appears as a liability.\n\nCOMMON COLLOCATIONS:\n- {借入金|かりいれきん}を{返済|へんさい}する: to repay borrowings\n- {借入金|かりいれきん}の{残高|ざんだか}: outstanding loan balance\n- {借入金|かりいれきん}が{膨|ふく}らむ: for debt to swell\n\nSIMILAR WORDS:\n- {貸付金|かしつけきん}: loaned money — the same money seen from the lender's side\n- {借金|しゃっきん}: debt — the everyday, more casual word",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29471_kashitsukekin",
+      "reading": "かしつけきん",
+      "headword": "{貸付金|かしつけきん}",
+      "label": "loaned money"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03203_shakkin",
+      "reading": "しゃっきん",
+      "headword": "{借金|しゃっきん}",
+      "label": "debt"
+    },
+    {
+      "type": "antonym",
+      "target_id": "23291_jikoshikin",
+      "reading": "じこしきん",
+      "headword": "{自己資金|じこしきん}",
+      "label": "one's own funds"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30204_kaikakekin",
+      "reading": "かいかけきん",
+      "headword": "買掛金",
+      "label": "accounts payable"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["money"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "money"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-06-24T00:19:16Z",
-    "modified": "2026-06-24T00:19:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

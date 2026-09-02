@@ -3,7 +3,7 @@
   "id": "18148_kyuuji",
   "headword": "{給仕|きゅうじ}",
   "reading": "きゅうじ",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "waiting on tables; waiter; server",
   "conjugation": {
     "type": "suru",
@@ -178,11 +178,32 @@
       "reading": "なかい",
       "headword": "{仲居|なかい}",
       "label": "traditional inn attendant"
+    },
+    {
+      "type": "related",
+      "target_id": "05114_weitaa",
+      "reading": "うぇいたー",
+      "headword": "ウェイター",
+      "label": "waiter"
+    },
+    {
+      "type": "related",
+      "target_id": "05115_weitoresu",
+      "reading": "うぇいとれす",
+      "headword": "ウェイトレス",
+      "label": "waitress"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29685_haizen",
+      "reading": "はいぜん",
+      "headword": "{配膳|はいぜん}",
+      "label": "serving food"
     }
   ],
   "metadata": {
     "created": "2026-03-20T06:48:12Z",
-    "modified": "2026-05-08T06:14:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

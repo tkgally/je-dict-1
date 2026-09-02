@@ -22,7 +22,9 @@
       "id": "26241_tourokusha_ex1",
       "japanese": "{登録者|とうろくしゃ}{全員|ぜんいん}にメールを{送|おく}る。",
       "english": "We'll send an email to all registered persons.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "26241_tourokusha_ex2",
       "japanese": "{新規|しんき}{登録者|とうろくしゃ}には{割引|わりびき}がある。",
       "english": "There is a discount for new registrants.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "26241_tourokusha_ex3",
       "japanese": "このサービスの{登録者|とうろくしゃ}{数|すう}は{年々|ねんねん}{増加|ぞうか}している。",
       "english": "The number of registered users of this service is increasing year by year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "26241_tourokusha_ex4",
       "japanese": "{登録者|とうろくしゃ}{数|すう}が{百万人|ひゃくまんにん}を{超|こ}えた。",
       "english": "The subscriber count exceeded one million.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "26241_tourokusha_ex5",
       "japanese": "{人気|にんき}のチャンネルは{登録者|とうろくしゃ}がどんどん{増|ふ}える。",
       "english": "Popular channels gain subscribers rapidly.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,44 @@
       "id": "26241_tourokusha_ex6",
       "japanese": "この{動画|どうが}を{気|き}に{入|い}ったら、チャンネル{登録者|とうろくしゃ}になってください。",
       "english": "If you liked this video, please become a subscriber to our channel.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from {登録|とうろく} (registration) and the suffix {者|しゃ} (person). Widely used in both administrative and internet contexts.\n\nCOMMON COLLOCATIONS:\n- {登録者|とうろくしゃ}{数|すう}: number of registered users/subscribers\n- {新規|しんき}{登録者|とうろくしゃ}: new registrant/subscriber\n- チャンネル{登録者|とうろくしゃ}: channel subscriber (YouTube)\n- {登録者|とうろくしゃ}{限定|げんてい}: limited to registered users\n- {登録者|とうろくしゃ}{一覧|いちらん}: list of registered persons\n\nUSAGE:\nIn everyday internet Japanese, {登録者|とうろくしゃ} most commonly refers to YouTube subscribers. The full phrase チャンネル{登録者|とうろくしゃ}{数|すう} (channel subscriber count) is a standard metric for measuring a creator's popularity.\n\nSIMILAR WORDS:\n- {会員|かいいん}: member — implies membership in an organization, not just registration\n- フォロワー: follower — used for social media platforms like Twitter/Instagram, while {登録者|とうろくしゃ} is preferred for YouTube",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02535_kaiin",
+      "reading": "かいいん",
+      "headword": "{会員|かいいん}",
+      "label": "member"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05866_forowaa",
+      "reading": "ふぉろわー",
+      "headword": "フォロワー",
+      "label": "follower"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     },
     "created": "2026-04-30T13:34:04Z",
-    "modified": "2026-04-30T13:34:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "19952_naberyouri_ex1",
       "japanese": "{冬|ふゆ}は{鍋料理|なべりょうり}がおいしい。",
       "english": "Hot pot dishes are delicious in winter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19952_naberyouri_ex2",
       "japanese": "{家族|かぞく}みんなで{鍋料理|なべりょうり}を{囲|かこ}んだ。",
       "english": "The whole family gathered around the hot pot.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "19952_naberyouri_ex3",
       "japanese": "{日本|にほん}には{地域|ちいき}ごとに{様々|さまざま}な{鍋料理|なべりょうり}がある。",
       "english": "In Japan, there are various hot pot dishes unique to each region.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {鍋|なべ} (pot) + {料理|りょうり} (cooking, dish). Often shortened to just {鍋|なべ} in casual speech. Hot pot cooking is strongly associated with the colder months and is a quintessential communal meal in Japan — people sit around the pot and serve themselves.\n\nCOMMON TYPES:\n- {寄|よ}せ{鍋|なべ}: mixed hot pot (various ingredients, light broth)\n- {水炊|みずた}き: chicken hot pot (Hakata specialty)\n- すき{焼|や}き: sukiyaki (sweetened soy broth)\n- しゃぶしゃぶ: shabu-shabu (swishing thin meat slices in broth)\n- キムチ{鍋|なべ}: kimchi hot pot\n- もつ{鍋|なべ}: offal hot pot (Fukuoka specialty)\n\nCULTURAL NOTE:\nThe communal aspect of {鍋料理|なべりょうり} is central — eating from the same pot symbolizes closeness. The term {鍋奉行|なべぶぎょう} (hot pot magistrate) humorously refers to a person who takes charge of the cooking at the table.",
+  "notes": "Composed of {鍋|なべ} (pot) + {料理|りょうり} (cooking, dish). Often shortened to just {鍋|なべ} in casual speech. Hot pot cooking is strongly associated with the colder months and is a quintessential communal meal in Japan — people sit around the pot and serve themselves.\n\nTYPES:\n- {寄|よ}せ{鍋|なべ}: mixed hot pot (various ingredients, light broth)\n- {水炊|みずた}き: chicken hot pot (Hakata specialty)\n- すき{焼|や}き: sukiyaki (sweetened soy broth)\n- しゃぶしゃぶ: shabu-shabu (swishing thin meat slices in broth)\n- キムチ{鍋|なべ}: kimchi hot pot\n- もつ{鍋|なべ}: offal hot pot (Fukuoka specialty)\n\nCULTURAL NOTE:\nThe communal aspect of {鍋料理|なべりょうり} is central — eating from the same pot symbolizes closeness. The term {鍋奉行|なべぶぎょう} (hot pot magistrate) humorously refers to a person who takes charge of the cooking at the table.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07949_donabe",
+      "reading": "どなべ",
+      "headword": "{土鍋|どなべ}",
+      "label": "earthenware pot"
+    },
+    {
+      "type": "related",
+      "target_id": "22816_yosenabe",
+      "reading": "よせなべ",
+      "headword": "{寄|よ}せ{鍋|なべ}",
+      "label": "mixed hot pot"
+    },
+    {
+      "type": "related",
+      "target_id": "27339_chiizufondyu",
+      "reading": "ちーずふぉんでゅ",
+      "headword": "チーズフォンデュ",
+      "label": "cheese fondue"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-03-27T07:15:34Z",
-    "modified": "2026-07-23T12:19:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

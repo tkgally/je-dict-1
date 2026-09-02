@@ -3,7 +3,7 @@
   "headword": "{平準化|へいじゅんか}",
   "reading": "へいじゅんか",
   "romaji": "heijunka",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "leveling; equalization; smoothing out; standardization",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "The process of making something even, uniform, or consistent — removing peaks and valleys. A compound of {平準|へいじゅん} (level; standard) and {化|か} (transformation). Widely used in business and manufacturing.\n\nCOMMON COLLOCATIONS:\n- {業務|ぎょうむ}の{平準化|へいじゅんか}: workload leveling\n- {生産|せいさん}の{平準化|へいじゅんか}: production leveling\n- {平準化|へいじゅんか}を{図|はか}る: to aim for equalization\n- {平準化|へいじゅんか}する: to level out; to equalize\n\nUSAGE:\nIn manufacturing, {平準化|へいじゅんか} (often known internationally by its Japanese name \"heijunka\") is a key concept in the Toyota Production System, referring to the practice of leveling production volume and mix to reduce waste and unevenness.\n\nSIMILAR WORDS:\n- {均等化|きんとうか}: equalization — making things equal\n- {標準化|ひょうじゅんか}: standardization — making things conform to a standard\n- {均一化|きんいつか}: homogenization — making things uniform",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20534_hyoujunka",
+      "reading": "ひょうじゅんか",
+      "headword": "{標準化|ひょうじゅんか}",
+      "label": "standardization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08084_kinitsuka",
+      "reading": "きんいつか",
+      "headword": "{均一化|きんいつか}",
+      "label": "homogenization"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-07T17:13:14Z",
-    "modified": "2026-04-07T17:13:14Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

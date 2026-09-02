@@ -63,11 +63,54 @@
       ]
     }
   ],
-  "notes": "{秘密|ひみつ} means a secret or confidential matter. It functions as a noun and can modify other nouns with ⟦の→の：09472_no⟧ ({秘密|ひみつ}⟦の→の：09472_no⟧⟦{場所|ばしょ}→場所：00829_basho⟧, a secret place).\n\nCOMMON EXPRESSIONS:\n- {秘密|ひみつ}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧: to keep a secret\n- {秘密|ひみつ}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to keep something secret\n- {秘密|ひみつ}⟦を→を：00422_wo⟧⟦{明|あ}かす→明かす：12961_akasu⟧: to reveal a secret\n- {秘密|ひみつ}⟦を→を：00422_wo⟧⟦{打|う}ち{明|あ}ける→打ち明ける：04230_uchiakeru⟧: to confide a secret\n- {秘密|ひみつ}⟦を→を：00422_wo⟧⟦{漏|も}らす→漏らす：02436_morasu⟧: to leak a secret\n\nSIMILAR WORDS:\n- ないしょ (⟦{内緒|ないしょ}→内緒：03126_naisho⟧): casual word for secret, often used among friends and family\n- ⟦{極秘|ごくひ}→極秘：13162_gokuhi⟧: top secret, strictly confidential (formal/official)\n\nNOTE:\n{秘密|ひみつ} is neutral in register and works in both casual and formal contexts. ⟦ないしょ→内緒：03126_naisho⟧ is softer and more colloquial — ⟦ないしょ→内緒：03126_naisho⟧⟦に→に：00314_ni⟧⟦して→する：00392_suru⟧⟦ね→ね：09474_ne⟧ is the casual equivalent of {秘密|ひみつ}⟦に→に：00314_ni⟧⟦して→する：00392_suru⟧⟦おいて→置く：01092_oku⟧.",
-  "cross_references": [],
+  "notes": "{秘密|ひみつ} means a secret or confidential matter. It functions as a noun and can modify other nouns with ⟦の→の：09472_no⟧ ({秘密|ひみつ}⟦の→の：09472_no⟧⟦{場所|ばしょ}→場所：00829_basho⟧, a secret place).\n\nCOMMON EXPRESSIONS:\n- {秘密|ひみつ}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧: to keep a secret\n- {秘密|ひみつ}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to keep something secret\n- {秘密|ひみつ}⟦を→を：00422_wo⟧⟦{明|あ}かす→明かす：12961_akasu⟧: to reveal a secret\n- {秘密|ひみつ}⟦を→を：00422_wo⟧⟦{打|う}ち{明|あ}ける→打ち明ける：04230_uchiakeru⟧: to confide a secret\n- {秘密|ひみつ}⟦を→を：00422_wo⟧⟦{漏|も}らす→漏らす：02436_morasu⟧: to leak a secret\n\nSIMILAR WORDS:\n- ないしょ (⟦{内緒|ないしょ}→内緒：03126_naisho⟧): casual word for secret, often used among friends and family\n- ⟦{極秘|ごくひ}→極秘：13162_gokuhi⟧: top secret, strictly confidential (formal/official)\n\nUSAGE:\n{秘密|ひみつ} is neutral in register and works in both casual and formal contexts. ⟦ないしょ→内緒：03126_naisho⟧ is softer and more colloquial — ⟦ないしょ→内緒：03126_naisho⟧⟦に→に：00314_ni⟧⟦して→する：00392_suru⟧⟦ね→ね：09474_ne⟧ is the casual equivalent of {秘密|ひみつ}⟦に→に：00314_ni⟧⟦して→する：00392_suru⟧⟦おいて→置く：01092_oku⟧.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03126_naisho",
+      "reading": "ないしょ",
+      "headword": "{内緒|ないしょ}",
+      "label": "secret, confidentiality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13162_gokuhi",
+      "reading": "ごくひ",
+      "headword": "{極秘|ごくひ}",
+      "label": "top secret, strictly confidential"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13179_kimitsu",
+      "reading": "きみつ",
+      "headword": "{機密|きみつ}",
+      "label": "secrecy, classified information"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15548_onmitsu",
+      "reading": "おんみつ",
+      "headword": "{隠密|おんみつ}",
+      "label": "secrecy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22676_naimitsu",
+      "reading": "ないみつ",
+      "headword": "{内密|ないみつ}",
+      "label": "confidential"
+    },
+    {
+      "type": "related",
+      "target_id": "22818_shuhi",
+      "reading": "しゅひ",
+      "headword": "{守秘|しゅひ}",
+      "label": "confidentiality"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T12:40:52Z",
-    "modified": "2026-05-20T20:09:11Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

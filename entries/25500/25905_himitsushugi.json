@@ -22,7 +22,9 @@
       "id": "25905_himitsushugi_ex1",
       "japanese": "{彼|かれ}は{秘密|ひみつ}{主義|しゅぎ}だ。",
       "english": "He is secretive.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "25905_himitsushugi_ex2",
       "japanese": "{秘密|ひみつ}{主義|しゅぎ}の{友人|ゆうじん}は{何|なに}を{考|かんが}えているかわからない。",
       "english": "You never know what a secretive friend is thinking.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "25905_himitsushugi_ex3",
       "japanese": "{恋愛|れんあい}に{関|かん}しては{徹底|てってい}した{秘密|ひみつ}{主義|しゅぎ}を{貫|つらぬ}いている。",
       "english": "When it comes to romance, she maintains a thoroughly secretive stance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "25905_himitsushugi_ex4",
       "japanese": "その{企業|きぎょう}は{秘密|ひみつ}{主義|しゅぎ}で{有名|ゆうめい}だ。",
       "english": "That company is famous for its secrecy.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "25905_himitsushugi_ex5",
       "japanese": "{政府|せいふ}の{秘密|ひみつ}{主義|しゅぎ}が{批判|ひはん}されている。",
       "english": "The government's policy of secrecy is being criticized.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,21 +72,45 @@
       "id": "25905_himitsushugi_ex6",
       "japanese": "{情報|じょうほう}{公開|こうかい}が{進|すす}む{中|なか}、{秘密|ひみつ}{主義|しゅぎ}を{続|つづ}ける{組織|そしき}は{信頼|しんらい}を{失|うしな}いかねない。",
       "english": "As information disclosure advances, organizations that maintain a policy of secrecy risk losing trust.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {秘密|ひみつ} (secret) + {主義|しゅぎ} (-ism; principle). When describing a person, it characterizes someone who habitually keeps things to themselves and doesn't share personal information easily. When describing an organization, it refers to a deliberate policy of restricting information.\n\nCOMMON COLLOCATIONS:\n- {秘密|ひみつ}{主義|しゅぎ}を{貫|つらぬ}く: to maintain one's secretiveness\n- {秘密|ひみつ}{主義|しゅぎ}の{人|ひと}: a secretive person\n- {徹底|てってい}した{秘密|ひみつ}{主義|しゅぎ}: thorough secretiveness\n\nSIMILAR WORDS:\n- {秘密|ひみつ}: secret — a single piece of hidden information, not a habitual trait\n- {隠|いん}{蔽|ぺい}: concealment; cover-up — implies deliberate hiding of wrongdoing\n- {口|くち}が{堅|かた}い: tight-lipped — a positive trait of being good at keeping secrets",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07627_inpei",
+      "reading": "いんぺい",
+      "headword": "{隠蔽|いんぺい}",
+      "label": "concealment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06885_kuchigakatai",
+      "reading": "くちがかたい",
+      "headword": "{口|くち}が{堅|かた}い",
+      "label": "tight-lipped"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["personality", "society"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "personality",
+        "society"
+      ]
     },
     "created": "2026-04-28T12:18:57Z",
-    "modified": "2026-04-28T12:18:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

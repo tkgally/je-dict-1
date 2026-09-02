@@ -3,7 +3,7 @@
   "headword": "{採寸|さいすん}",
   "reading": "さいすん",
   "romaji": "saisun",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "taking measurements; measuring (for clothing)",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,22 @@
   ],
   "notes": "Most commonly used in clothing and tailoring contexts, but can also refer to measuring for furniture, curtains, or construction. Combines {採|さい} (to take/gather) and {寸|すん} (a unit of measurement).\n\nCOMMON COLLOCATIONS:\n- {採寸|さいすん}をする: to take measurements\n- {採寸|さいすん}に{行|い}く: to go for a fitting\n- {採寸|さいすん}{結果|けっか}: measurement results\n- {身体|しんたい}{採寸|さいすん}: body measurements\n\nSIMILAR WORDS:\n- {計測|けいそく}: measurement — more technical/scientific, used for instruments and precise data\n- {寸法|すんぽう}: dimensions, measurements — refers to the actual numbers/sizes rather than the act of measuring",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14189_keisoku",
+      "reading": "けいそく",
+      "headword": "{計測|けいそく}",
+      "label": "measurement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04311_sunpou",
+      "reading": "すんぽう",
+      "headword": "{寸法|すんぽう}",
+      "label": "dimensions, measurements"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +167,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-25T03:40:33Z",
-    "modified": "2026-03-25T03:40:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

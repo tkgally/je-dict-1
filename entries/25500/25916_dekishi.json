@@ -3,7 +3,7 @@
   "headword": "{溺死|できし}",
   "reading": "できし",
   "romaji": "dekishi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "death by drowning; drowning",
   "definitions": [
     {
@@ -45,7 +45,15 @@
     }
   ],
   "notes": "Composed of {溺|でき} (drowning) + {死|し} (death). A formal, clinical term used in news reports, medical contexts, and legal proceedings. The everyday way to express the concept is {溺|おぼ}れて{死|し}ぬ.\n\nCOMMON COLLOCATIONS:\n- {溺死|できし}{事故|じこ}: drowning accident\n- {溺死|できし}{体|たい}: drowned body\n- {溺死|できし}する: to drown (to death)\n- {溺死|できし}を{防|ふせ}ぐ: to prevent drowning\n\nSIMILAR WORDS:\n- {溺|おぼ}れる: to drown; to nearly drown — the general verb, doesn't necessarily imply death\n- {水死|すいし}: death by drowning — a synonym; slightly less formal\n- {入水|じゅすい}: drowning oneself — specifically suicide by entering water",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02026_oboreru",
+      "reading": "おぼれる",
+      "headword": "{溺|おぼ}れる",
+      "label": "to drown"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,13 +62,14 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "health"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-28T12:23:36Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -3,7 +3,7 @@
   "id": "14039_yukuefumei",
   "headword": "{行方不明|ゆくえふめい}",
   "reading": "ゆくえふめい",
-  "part_of_speech": "noun, adjective-na",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "missing, whereabouts unknown",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "My son has gone missing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14039_yukuefumei_ex2",
@@ -27,7 +29,9 @@
       "english": "After the typhoon, three people are still unaccounted for.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14039_yukuefumei_ex3",
@@ -35,10 +39,12 @@
       "english": "The police are making a broad appeal for information about the missing woman.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {行方|ゆくえ} (whereabouts) + {不明|ふめい} (unknown). Functions as both a noun and a na-adjective. Extremely common in news reports about disasters, accidents, and missing persons.\n\nCOMMON COLLOCATIONS:\n- {行方不明|ゆくえふめい}になる: to go missing\n- {行方不明|ゆくえふめい}{者|しゃ}: missing person\n- {行方不明|ゆくえふめい}{届|とどけ}: missing person report\n- {行方不明|ゆくえふめい}のまま: still missing\n\nGRAMMAR:\n- As noun: {行方不明|ゆくえふめい}になった{人|ひと} (a person who went missing)\n- As na-adjective: {行方不明|ゆくえふめい}な{状態|じょうたい} (a state of being missing)\n\nRELATED TERMS:\n- {失踪|しっそう}: disappearance (more deliberate connotation)\n- {行方|ゆくえ}: whereabouts\n- {安否|あんぴ}{不明|ふめい}: safety unknown (used in disaster reports)",
+  "notes": "Compound of {行方|ゆくえ} (whereabouts) + {不明|ふめい} (unknown). Functions as both a noun and a na-adjective. Extremely common in news reports about disasters, accidents, and missing persons.\n\nCOMMON COLLOCATIONS:\n- {行方不明|ゆくえふめい}になる: to go missing\n- {行方不明|ゆくえふめい}{者|しゃ}: missing person\n- {行方不明|ゆくえふめい}{届|とどけ}: missing person report\n- {行方不明|ゆくえふめい}のまま: still missing\n\nCOMMON PATTERNS:\n- As noun: {行方不明|ゆくえふめい}になった{人|ひと} (a person who went missing)\n- As na-adjective: {行方不明|ゆくえふめい}な{状態|じょうたい} (a state of being missing)\n\nRELATED WORDS:\n- {失踪|しっそう}: disappearance (more deliberate connotation)\n- {行方|ゆくえ}: whereabouts\n- {安否|あんぴ}{不明|ふめい}: safety unknown (used in disaster reports)",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,37 @@
       "reading": "ゆくえ",
       "headword": "{行方|ゆくえ}",
       "label": "whereabouts"
+    },
+    {
+      "type": "related",
+      "target_id": "12190_shissou",
+      "reading": "しっそう",
+      "headword": "{失踪|しっそう}",
+      "label": "disappearance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24663_shousokufumei",
+      "reading": "しょうそくふめい",
+      "headword": "{消息不明|しょうそくふめい}",
+      "label": "missing"
     }
   ],
   "metadata": {
     "created": "2026-02-27T10:11:56Z",
-    "modified": "2026-04-29T10:05:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

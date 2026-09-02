@@ -43,11 +43,47 @@
       ]
     }
   ],
-  "notes": "{村|むら} means village - a small rural community. It is also the smallest administrative unit in Japan.\n\nREADINGS:\n- むら: standalone word, native compounds\n- そん: in official/formal compound names\n\nADMINISTRATIVE HIERARCHY:\n- {村|むら}: village (smallest)\n- ⟦{町|まち}→町：00613_machi⟧: town\n- ⟦{市|し}→市：01599_shi⟧: city\n- ⟦{区|く}→区：noentry⟧: ward (in large cities)\n- ⟦{県|けん}→県：02151_ken⟧: prefecture\n\nCOMPOUNDS:\n- ⟦{村人|むらびと}→村人：13062_murabito⟧: villager\n- ⟦{村長|そんちょう}→村長：13091_sonchou⟧: village mayor/chief\n- ⟦{農村|のうそん}→農村：04292_nouson⟧: farming village\n- ⟦{漁村|ぎょそん}→漁村：noentry⟧: fishing village\n- ⟦{村落|そんらく}→村落：27102_sonraku⟧: village, hamlet\n\nIDIOM:\n⟦{村八分|むらはちぶ}→村八分：noentry⟧: social ostracism (historical village punishment)",
-  "cross_references": [],
+  "notes": "{村|むら} means village - a small rural community. It is also the smallest administrative unit in Japan.\n\nPRONUNCIATION:\n- むら: standalone word, native compounds\n- そん: in official/formal compound names\n\nADMINISTRATIVE HIERARCHY:\n- {村|むら}: village (smallest)\n- ⟦{町|まち}→町：00613_machi⟧: town\n- ⟦{市|し}→市：01599_shi⟧: city\n- ⟦{区|く}→区：noentry⟧: ward (in large cities)\n- ⟦{県|けん}→県：02151_ken⟧: prefecture\n\nCOMPOUNDS:\n- ⟦{村人|むらびと}→村人：13062_murabito⟧: villager\n- ⟦{村長|そんちょう}→村長：13091_sonchou⟧: village mayor/chief\n- ⟦{農村|のうそん}→農村：04292_nouson⟧: farming village\n- ⟦{漁村|ぎょそん}→漁村：noentry⟧: fishing village\n- ⟦{村落|そんらく}→村落：27102_sonraku⟧: village, hamlet\n\nCOMMON EXPRESSIONS:\n⟦{村八分|むらはちぶ}→村八分：noentry⟧: social ostracism (historical village punishment)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00613_machi",
+      "reading": "まち",
+      "headword": "{町|まち}",
+      "label": "town, city"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19622_shuuraku",
+      "reading": "しゅうらく",
+      "headword": "{集落|しゅうらく}",
+      "label": "village"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27149_madara",
+      "reading": "まだら",
+      "headword": "まだら",
+      "label": "mottled"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27831_yamazato",
+      "reading": "やまざと",
+      "headword": "{山里|やまざと}",
+      "label": "mountain village"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28329_baratsuki",
+      "reading": "ばらつき",
+      "headword": "ばらつき",
+      "label": "variation"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:18:20Z",
-    "modified": "2026-05-18T22:22:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

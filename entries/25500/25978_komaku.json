@@ -17,7 +17,9 @@
       "id": "25978_komaku_ex1",
       "japanese": "{鼓膜|こまく}が{破|やぶ}れた。",
       "english": "My eardrum ruptured.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25978_komaku_ex2",
       "japanese": "{大|おお}きな{音|おと}で{鼓膜|こまく}を{傷|きず}つけることがある。",
       "english": "Loud sounds can damage the eardrum.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "25978_komaku_ex3",
       "japanese": "{耳|みみ}の{奥|おく}が{痛|いた}かったので{病院|びょういん}に{行|い}ったら、{鼓膜|こまく}に{炎症|えんしょう}が{起|お}きていると{言|い}われた。",
       "english": "I went to the hospital because deep inside my ear hurt, and I was told there was inflammation of the eardrum.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {鼓|こ} (drum) and {膜|まく} (membrane). The name reflects the drum-like shape and vibrating function of this thin tissue. The eardrum is a common topic in everyday health conversations, especially regarding ear infections ({中耳炎|ちゅうじえん}), pressure changes during flights, and noise exposure.\n\nCOMMON COLLOCATIONS:\n- {鼓膜|こまく}が{破|やぶ}れる: the eardrum ruptures\n- {鼓膜|こまく}が{振動|しんどう}する: the eardrum vibrates\n- {鼓膜|こまく}に{穴|あな}が{開|あ}く: a hole opens in the eardrum\n- {鼓膜|こまく}の{再生|さいせい}: eardrum regeneration\n\nSIMILAR WORDS:\n- {耳|みみ}: ear — the organ as a whole\n- {中耳|ちゅうじ}: middle ear — the cavity behind the eardrum\n- {内耳|ないじ}: inner ear — the deeper part containing the cochlea and balance organs",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01513_mimi",
+      "reading": "みみ",
+      "headword": "{耳|みみ}",
+      "label": "ear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30187_choushinkei",
+      "reading": "ちょうしんけい",
+      "headword": "聴神経",
+      "label": "auditory nerve"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["body-internal", "health"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "body-internal",
+        "health"
+      ]
     },
     "created": "2026-04-28T14:15:05Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

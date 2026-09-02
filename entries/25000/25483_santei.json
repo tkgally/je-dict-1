@@ -3,7 +3,7 @@
   "headword": "{算定|さんてい}",
   "reading": "さんてい",
   "romaji": "santei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "calculation; assessment; computation",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "A compound of {算|さん} (calculate) and {定|てい} (determine; fix). A formal term used predominantly in financial, insurance, tax, and administrative contexts. In everyday conversation, {計算|けいさん} is the standard word for \"calculation.\"\n\nCOMMON COLLOCATIONS:\n- {算定|さんてい}する: to calculate; to assess\n- {算定|さんてい}{基準|きじゅん}: calculation standard; assessment criteria\n- {算定|さんてい}{方法|ほうほう}: calculation method\n- {算定|さんてい}{根拠|こんきょ}: basis for calculation\n- {損害|そんがい}を{算定|さんてい}する: to assess damages\n\nSIMILAR WORDS:\n- {計算|けいさん}: calculation — the everyday general term for any kind of calculation\n- {試算|しさん}: trial calculation; estimate — a preliminary or rough calculation\n- {査定|さてい}: assessment; appraisal — evaluating the value or quality of something, often for pricing or performance reviews",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02697_keisan",
+      "reading": "けいさん",
+      "headword": "{計算|けいさん}",
+      "label": "calculation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08326_shisan",
+      "reading": "しさん",
+      "headword": "{試算|しさん}",
+      "label": "trial calculation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07518_satei",
+      "reading": "さてい",
+      "headword": "{査定|さてい}",
+      "label": "assessment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15350_sanshutsu",
+      "reading": "さんしゅつ",
+      "headword": "{算出|さんしゅつ}",
+      "label": "calculation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +83,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "business",
         "finance"
@@ -60,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T14:19:29Z",
-    "modified": "2026-04-25T14:19:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

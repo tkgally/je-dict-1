@@ -168,7 +168,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n・{定着|ていちゃく}する - to become established, take root\n・{定着|ていちゃく}させる - to establish, make something take root (causative)\n\nCOMMON COLLOCATIONS:\n・{定着|ていちゃく}{率|りつ} - retention rate (for employees)\n・{文化|ぶんか}として{定着|ていちゃく}する - to become established as a culture\n・{社会|しゃかい}に{定着|ていちゃく}する - to become established in society\n\nTECHNICAL USAGE:\n・{写真|しゃしん}の{定着|ていちゃく} - fixing (in photography)\n・{定着|ていちゃく}{液|えき} - fixer solution\n\nRELATED:\n・{普及|ふきゅう} - spread (broader)\n・{浸透|しんとう} - permeation (deeper)",
+  "notes": "USAGE:\n- {定着|ていちゃく}する - to become established, take root\n- {定着|ていちゃく}させる - to establish, make something take root (causative)\n\nCOMMON COLLOCATIONS:\n- {定着|ていちゃく}{率|りつ} - retention rate (for employees)\n- {文化|ぶんか}として{定着|ていちゃく}する - to become established as a culture\n- {社会|しゃかい}に{定着|ていちゃく}する - to become established in society\n\nTECHNICAL USAGE:\n- {写真|しゃしん}の{定着|ていちゃく} - fixing (in photography)\n- {定着|ていちゃく}{液|えき} - fixer solution\n\nRELATED WORDS:\n- {普及|ふきゅう} - spread (broader)\n- {浸透|しんとう} - permeation (deeper)",
   "cross_references": [
     {
       "type": "related",
@@ -183,11 +183,39 @@
       "reading": "しんとう",
       "headword": "{浸透|しんとう}",
       "label": "permeation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13113_nezuku",
+      "reading": "ねづく",
+      "headword": "{根付|ねづ}く",
+      "label": "to take root, to become established"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22181_shintousuru",
+      "reading": "しんとうする",
+      "headword": "{浸透|しんとう}する",
+      "label": "to permeate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22182_fukyuusuru",
+      "reading": "ふきゅうする",
+      "headword": "{普及|ふきゅう}する",
+      "label": "to spread"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22354_koujouka",
+      "reading": "こうじょうか",
+      "headword": "{恒常化|こうじょうか}",
+      "label": "becoming permanent"
     }
   ],
   "metadata": {
     "created": "2026-01-20T12:57:12Z",
-    "modified": "2026-04-19T07:06:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -196,6 +224,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "change",
         "society"

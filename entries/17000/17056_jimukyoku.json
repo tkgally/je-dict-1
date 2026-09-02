@@ -19,7 +19,9 @@
       "english": "I contacted the secretariat.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17056_jimukyoku_ex2",
@@ -27,7 +29,9 @@
       "english": "The tournament secretariat is inside city hall.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17056_jimukyoku_ex3",
@@ -35,7 +39,9 @@
       "english": "An information email was sent from the secretariat to all participants.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCommonly used in organizational, governmental, and event contexts. The {事務局|じむきょく} is the behind-the-scenes office that keeps things running.\n\nCOMMON COLLOCATIONS:\n- {事務局|じむきょく}{長|ちょう} (secretary-general, head of secretariat)\n- {事務局|じむきょく}に{連絡|れんらく}する (to contact the secretariat)\n- {実行|じっこう}{委員会|いいんかい}{事務局|じむきょく} (executive committee secretariat)\n\nSIMILAR WORDS:\n- {事務所|じむしょ}: office — a general business office or workplace, not tied to an organization's administration\n- {本部|ほんぶ}: headquarters — the central command, higher level than {事務局|じむきょく}",
@@ -46,19 +52,32 @@
       "reading": "じむしょ",
       "headword": "{事務所|じむしょ}",
       "label": "office (general workplace)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00112_honbu",
+      "reading": "ほんぶ",
+      "headword": "{本部|ほんぶ}",
+      "label": "headquarters"
     }
   ],
   "metadata": {
     "created": "2026-03-15T09:45:11Z",
-    "modified": "2026-05-05T08:12:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

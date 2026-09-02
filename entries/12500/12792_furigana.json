@@ -19,7 +19,9 @@
       "english": "To add furigana to difficult kanji.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12792_furigana_ex2",
@@ -27,7 +29,9 @@
       "english": "In books for children, all kanji have furigana.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12792_furigana_ex3",
@@ -35,21 +39,35 @@
       "english": "Please also fill in the furigana in the name field.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{振|ふ}り{仮名|がな} is the standard term for the small phonetic readings placed alongside kanji. The word comes from {振|ふ}る (to assign, to allocate) + {仮名|かな} (kana characters).\n\nAlso written as ふりがな (all kana) in everyday usage.\n\nTYPES:\n- {総|そう}ルビ: full furigana on every kanji (common in children's materials)\n- パラルビ: selective furigana only on difficult kanji\n\nCOMMON COLLOCATIONS:\n- {振|ふ}り{仮名|がな}をつける / {振|ふ}り{仮名|がな}を{振|ふ}る: to add furigana\n- {振|ふ}り{仮名|がな}つき: with furigana included\n- {振|ふ}り{仮名|がな}{欄|らん}: furigana field (on forms)\n\nNOTE: On Japanese official forms, there is usually a space above or below the name field labeled ふりがな (written in hiragana, meaning write the reading in hiragana) or フリガナ (written in katakana, meaning write the reading in katakana).",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21516_rubi",
+      "reading": "るび",
+      "headword": "ルビ",
+      "label": "ruby text"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T10:34:07Z",
-    "modified": "2026-02-22T10:34:07Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

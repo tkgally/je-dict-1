@@ -2,7 +2,7 @@
   "id": "06060_souzousuru",
   "headword": "{想像|そうぞう}する",
   "reading": "そうぞうする",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to imagine, to fancy",
   "conjugation": {
     "type": "suru",
@@ -153,17 +153,38 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{想像|そうぞう}する (imagine X).\n\nASPECT: ⟦ている→ている：noentry⟧ indicates ongoing action. {想像|そうぞう}している = 'is imagining.'\n\nCOMMON PATTERNS:\n・{想像|そうぞう}⟦に→に：00314_ni⟧{難|かた}くない (easy to imagine)\n・{想像|そうぞう}⟦を→を：00422_wo⟧{絶|ぜっ}する (beyond imagination)\n・{想像|そうぞう}どおり (as imagined)\n・{想像|そうぞう}⟦{以上|いじょう}→以上：01308_ijou⟧⟦に→に：00314_ni⟧ (more than imagined)\n\nSIMILAR WORDS: ⟦{創造|そうぞう}する→創造：03317_souzou⟧ (same pronunciation) means 'to create' - note the different kanji.",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{想像|そうぞう}する (imagine X).\n\nASPECT: ⟦ている→ている：noentry⟧ indicates ongoing action. {想像|そうぞう}している = 'is imagining.'\n\nCOMMON PATTERNS:\n- {想像|そうぞう}⟦に→に：00314_ni⟧{難|かた}くない (easy to imagine)\n- {想像|そうぞう}⟦を→を：00422_wo⟧{絶|ぜっ}する (beyond imagination)\n- {想像|そうぞう}どおり (as imagined)\n- {想像|そうぞう}⟦{以上|いじょう}→以上：01308_ijou⟧⟦に→に：00314_ni⟧ (more than imagined)\n\nSIMILAR WORDS: ⟦{創造|そうぞう}する→創造：03317_souzou⟧ (same pronunciation) means 'to create' - note the different kanji.",
   "cross_references": [
     {
       "type": "contrast",
       "reading": "そうぞうする",
       "headword": "{創造|そうぞう}する"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19649_kuusousuru",
+      "reading": "くうそうする",
+      "headword": "{空想|くうそう}する",
+      "label": "to fantasize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20991_imeejisuru",
+      "reading": "いめーじする",
+      "headword": "イメージする",
+      "label": "to imagine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22433_rensousuru",
+      "reading": "れんそうする",
+      "headword": "{連想|れんそう}する",
+      "label": "to associate"
     }
   ],
   "metadata": {
     "created": "2026-01-17T02:05:10Z",
-    "modified": "2026-06-11T19:37:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

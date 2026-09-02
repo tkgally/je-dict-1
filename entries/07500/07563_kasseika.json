@@ -2,7 +2,7 @@
   "id": "07563_kasseika",
   "headword": "{活性化|かっせいか}",
   "reading": "かっせいか",
-  "part_of_speech": "noun/suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "activation; revitalization",
   "conjugation": {
     "type": "suru",
@@ -168,10 +168,40 @@
       "notes": null
     }
   ],
-  "notes": "WORD STRUCTURE:\n{活性|かっせい} (activity, activeness) + {化|か} (-ization, becoming)\n\nUSAGE:\nCan be used as a noun or with する to form a verb meaning \"to activate\" or \"to revitalize.\"\n\nCOMMON CONTEXTS:\n・{免疫|めんえき}システムの{活性化|かっせいか} - activation of the immune system\n・{細胞|さいぼう}の{活性化|かっせいか} - cell activation\n・{商店街|しょうてんがい}の{活性化|かっせいか} - revitalization of shopping districts\n・{組織|そしき}の{活性化|かっせいか} - organizational invigoration\n\nRELATED -{化|か} WORDS:\n・{効率化|こうりつか} - streamlining\n・{自動化|じどうか} - automation\n・{最適化|さいてきか} - optimization",
+  "notes": "ETYMOLOGY:\n{活性|かっせい} (activity, activeness) + {化|か} (-ization, becoming)\n\nUSAGE:\nCan be used as a noun or with する to form a verb meaning \"to activate\" or \"to revitalize.\"\n- {免疫|めんえき}システムの{活性化|かっせいか} - activation of the immune system\n- {細胞|さいぼう}の{活性化|かっせいか} - cell activation\n- {商店街|しょうてんがい}の{活性化|かっせいか} - revitalization of shopping districts\n- {組織|そしき}の{活性化|かっせいか} - organizational invigoration\n\nRELATED -{化|か} WORDS:\n- {効率化|こうりつか} - streamlining\n- {自動化|じどうか} - automation\n- {最適化|さいてきか} - optimization",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07565_kouritsuka",
+      "reading": "こうりつか",
+      "headword": "{効率化|こうりつか}",
+      "label": "streamlining"
+    },
+    {
+      "type": "related",
+      "target_id": "07566_jidouka",
+      "reading": "じどうか",
+      "headword": "{自動化|じどうか}",
+      "label": "automation"
+    },
+    {
+      "type": "related",
+      "target_id": "07567_saitekika",
+      "reading": "さいてきか",
+      "headword": "{最適化|さいてきか}",
+      "label": "optimization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22450_kappatsuka",
+      "reading": "かっぱつか",
+      "headword": "{活発化|かっぱつか}",
+      "label": "becoming more active"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T10:31:31Z",
-    "modified": "2026-08-10T18:29:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -180,6 +210,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "change",
         "action"

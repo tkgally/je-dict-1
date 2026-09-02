@@ -2,7 +2,7 @@
   "id": "02423_mazeru",
   "headword": "{混|ま}ぜる",
   "reading": "まぜる",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to mix, to stir",
   "conjugation": {
     "type": "ichidan",
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "{混|ま}ぜる is an ichidan transitive verb meaning to mix or blend.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: ⟦{混|ま}ざる→混ざる：02420_mazaru⟧ (intransitive, to be mixed)\n\nCOMMON PATTERNS:\n- ⟦よく→よく：00601_yoku⟧{混|ま}ぜる: to mix well\n- ⟦{軽|かる}く→軽い：00785_karui⟧{混|ま}ぜる: to mix lightly\n- 〜に{混|ま}ぜる: to mix into ~\n- ⟦{仲間|なかま}→仲間：03498_nakama⟧⟦に→に：00314_ni⟧{混|ま}ぜる: to let someone join the group\n\nCOOKING USES:\n- ⟦{卵|たまご}→卵：02222_tamago⟧⟦を→を：00422_wo⟧{混|ま}ぜる: to beat eggs\n- ⟦{材料|ざいりょう}→材料：02831_zairyou⟧⟦を→を：00422_wo⟧{混|ま}ぜる: to mix ingredients\n- ⟦ヘラ→ヘラ：04472_hera⟧⟦で→で：00502_de⟧{混|ま}ぜる: to mix with a spatula\n\nSIMILAR VERBS:\n- ⟦かき{混|ま}ぜる→かき混ぜる：15739_kakimazeru⟧: to stir (more vigorous)\n- ⟦{混|ま}ぜ{合|あ}わせる→混ぜ合わせる：27842_mazeawaseru⟧: to combine, blend together\n- ⟦{交|ま}ぜる→交ぜる：28480_mazeru⟧: alternate kanji, same meaning",
+  "notes": "{混|ま}ぜる is an ichidan transitive verb meaning to mix or blend.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: ⟦{混|ま}ざる→混ざる：02420_mazaru⟧ (intransitive, to be mixed)\n\nCOMMON PATTERNS:\n- ⟦よく→よく：00601_yoku⟧{混|ま}ぜる: to mix well\n- ⟦{軽|かる}く→軽い：00785_karui⟧{混|ま}ぜる: to mix lightly\n- 〜に{混|ま}ぜる: to mix into ~\n- ⟦{仲間|なかま}→仲間：03498_nakama⟧⟦に→に：00314_ni⟧{混|ま}ぜる: to let someone join the group\n\nCOOKING USES:\n- ⟦{卵|たまご}→卵：02222_tamago⟧⟦を→を：00422_wo⟧{混|ま}ぜる: to beat eggs\n- ⟦{材料|ざいりょう}→材料：02831_zairyou⟧⟦を→を：00422_wo⟧{混|ま}ぜる: to mix ingredients\n- ⟦ヘラ→ヘラ：04472_hera⟧⟦で→で：00502_de⟧{混|ま}ぜる: to mix with a spatula\n\nSIMILAR WORDS:\n- ⟦かき{混|ま}ぜる→かき混ぜる：15739_kakimazeru⟧: to stir (more vigorous)\n- ⟦{混|ま}ぜ{合|あ}わせる→混ぜ合わせる：27842_mazeawaseru⟧: to combine, blend together\n- ⟦{交|ま}ぜる→交ぜる：28480_mazeru⟧: alternate kanji, same meaning",
   "prominent_see_also": [
     {
       "target_id": "02420_mazaru",
@@ -190,11 +190,53 @@
       "reading": "かきまぜる",
       "headword": "かき{混|ま}ぜる",
       "label": "to stir (vigorous)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27842_mazeawaseru",
+      "reading": "まぜあわせる",
+      "headword": "{混|ま}ぜ{合|あ}わせる",
+      "label": "to combine, blend together"
+    },
+    {
+      "type": "homophone",
+      "target_id": "28480_mazeru",
+      "reading": "まぜる",
+      "headword": "{交|ま}ぜる",
+      "label": "alternate kanji, same meaning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04154_kongou",
+      "reading": "こんごう",
+      "headword": "{混合|こんごう}",
+      "label": "mixing, mixture, blend"
+    },
+    {
+      "type": "related",
+      "target_id": "06187_koneru",
+      "reading": "こねる",
+      "headword": "{捏|こ}ねる",
+      "label": "to knead"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09915_kakimawasu",
+      "reading": "かきまわす",
+      "headword": "{掻|か}き{回|まわ}す",
+      "label": "to stir, to mess up, to throw into confusion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18075_konwa",
+      "reading": "こんわ",
+      "headword": "{混和|こんわ}",
+      "label": "mixing, blending"
     }
   ],
   "metadata": {
     "created": "2026-01-09T08:57:17Z",
-    "modified": "2026-08-12T06:27:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

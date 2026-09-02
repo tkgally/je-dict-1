@@ -17,7 +17,9 @@
       "id": "28004_akatsuchi_ex1",
       "japanese": "この{辺|あた}りは{赤土|あかつち}が{多|おお}い。",
       "english": "There is a lot of red soil around here.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28004_akatsuchi_ex2",
       "japanese": "{雨|あめ}で{赤土|あかつち}がぬかるんで{歩|ある}きにくい。",
       "english": "The rain has turned the red clay muddy and hard to walk on.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "28004_akatsuchi_ex3",
       "japanese": "{沖縄|おきなわ}の{赤土|あかつち}は{雨|あめ}で{海|うみ}に{流|なが}れ{出|だ}し、サンゴに{影響|えいきょう}を{与|あた}える。",
       "english": "Okinawa's red soil washes into the sea with the rain and affects the coral.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Reddish soil colored by iron compounds, characteristic of volcanic regions such as the Kanto loam layer and Okinawa.\n\nCOMMON COLLOCATIONS:\n- {赤土|あかつち}の{道|みち}: a red-clay road\n- {赤土|あかつち}が{流|なが}れ{出|だ}す: red soil washes out (erosion)\n\nSIMILAR WORDS:\n- {粘土|ねんど}: clay — defined by texture/plasticity rather than color\n- {土壌|どじょう}: soil — a technical term for soil as a growing medium",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19435_nendo",
+      "reading": "ねんど",
+      "headword": "{粘土|ねんど}",
+      "label": "clay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12040_dojou",
+      "reading": "どじょう",
+      "headword": "{土壌|どじょう}",
+      "label": "soil"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["nature", "geography"],
+      "politeness": "plain",
+      "semantic": [
+        "nature",
+        "geography"
+      ],
       "domain": []
     },
     "created": "2026-05-24T03:09:30Z",
-    "modified": "2026-05-24T03:09:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

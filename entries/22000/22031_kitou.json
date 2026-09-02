@@ -3,7 +3,7 @@
   "headword": "{祈祷|きとう}",
   "reading": "きとう",
   "romaji": "kitou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "prayer; invocation; religious supplication",
   "definitions": [
     {
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A formal religious prayer or ritual, typically performed by a Shinto priest ({神主|かんぬし}) at a shrine or by a Buddhist priest at a temple. The person requesting the prayer usually pays a fee ({初穂料|はつほりょう} at Shinto shrines).\n\nCOMMON COLLOCATIONS:\n- {祈祷|きとう}を{受|う}ける: to receive a prayer (from a priest)\n- {祈祷|きとう}を{行|おこな}う: to perform a prayer\n- {祈祷|きとう}{料|りょう}: prayer fee\n- {祈祷|きとう}{師|し}: prayer healer; spiritual practitioner\n- {安全|あんぜん}{祈祷|きとう}: prayer for safety\n\nCULTURAL CONTEXT:\nIn Japan, {祈祷|きとう} is commonly performed at life milestones and seasonal events: {初詣|はつもうで} (New Year's shrine visit), {七五三|しちごさん} (children's festival), {車|くるま}の{祈祷|きとう} (blessing of a new car), and {地鎮祭|じちんさい} (ground-breaking ceremony). It is distinct from personal, informal prayer.\n\nSIMILAR WORDS:\n- {祈|いの}り: prayer — more general and personal; can be done by anyone\n- お{参|まい}り: visiting a shrine/temple to pray — the visit itself rather than a formal ritual\n- {祈願|きがん}: votive prayer — making a specific wish or request to a deity",
+  "notes": "A formal religious prayer or ritual, typically performed by a Shinto priest ({神主|かんぬし}) at a shrine or by a Buddhist priest at a temple. The person requesting the prayer usually pays a fee ({初穂料|はつほりょう} at Shinto shrines).\n\nCOMMON COLLOCATIONS:\n- {祈祷|きとう}を{受|う}ける: to receive a prayer (from a priest)\n- {祈祷|きとう}を{行|おこな}う: to perform a prayer\n- {祈祷|きとう}{料|りょう}: prayer fee\n- {祈祷|きとう}{師|し}: prayer healer; spiritual practitioner\n- {安全|あんぜん}{祈祷|きとう}: prayer for safety\n\nCULTURAL NOTE:\nIn Japan, {祈祷|きとう} is commonly performed at life milestones and seasonal events: {初詣|はつもうで} (New Year's shrine visit), {七五三|しちごさん} (children's festival), {車|くるま}の{祈祷|きとう} (blessing of a new car), and {地鎮祭|じちんさい} (ground-breaking ceremony). It is distinct from personal, informal prayer.\n\nSIMILAR WORDS:\n- {祈|いの}り: prayer — more general and personal; can be done by anyone\n- お{参|まい}り: visiting a shrine/temple to pray — the visit itself rather than a formal ritual\n- {祈願|きがん}: votive prayer — making a specific wish or request to a deity",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13732_inori",
+      "reading": "いのり",
+      "headword": "{祈|いの}り",
+      "label": "prayer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16837_omairi",
+      "reading": "おまいり",
+      "headword": "お{参|まい}り",
+      "label": "visiting a shrine/temple to pray"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13745_kigan",
+      "reading": "きがん",
+      "headword": "{祈願|きがん}",
+      "label": "votive prayer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-04T21:10:58Z",
-    "modified": "2026-04-04T21:10:58Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

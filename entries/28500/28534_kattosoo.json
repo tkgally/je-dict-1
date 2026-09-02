@@ -17,7 +17,9 @@
       "id": "28534_kattosoo_ex1",
       "japanese": "{白|しろ}いカットソーを{着|き}た。",
       "english": "I put on a white knit top.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28534_kattosoo_ex2",
       "japanese": "ジャケットの{下|した}にカットソーを{合|あ}わせる。",
       "english": "I'll pair a knit top under the jacket.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "28534_kattosoo_ex3",
       "japanese": "{無地|むじ}のカットソーは{着回|きまわ}しがきくので{何枚|なんまい}か{持|も}っている。",
       "english": "Plain knit tops can be mixed and matched easily, so I have several of them.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Japanese-coined word ({和製|わせい}{英語|えいご}) from English \"cut and sewn.\" A fashion-industry term that has spread into everyday use. The category includes T-shirts and other knit tops but excludes woven button-down shirts and bulkier knitwear.\n\nCOMMON COLLOCATIONS:\n- {無地|むじ}のカットソー: plain knit top\n- {半袖|はんそで}のカットソー: short-sleeve knit top\n- カットソーを{着|き}る: to wear a knit top\n- カットソー{素材|そざい}: cut-and-sewn fabric\n\nSIMILAR WORDS:\n- Tシャツ: T-shirt — a specific type of カットソー with short sleeves and a crew neck\n- ニット: knit; knitwear — heavier knit garments such as sweaters; カットソー is thinner and lighter",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08834_nitto",
+      "reading": "にっと",
+      "headword": "ニット",
+      "label": "knit"
+    },
+    {
+      "type": "related",
+      "target_id": "05433_tiishatsu",
+      "reading": "てぃーしゃつ",
+      "headword": "Tシャツ",
+      "label": "T-shirt"
+    },
+    {
+      "type": "related",
+      "target_id": "25659_poroshatsu",
+      "reading": "ぽろしゃつ",
+      "headword": "ポロシャツ",
+      "label": "polo shirt"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["clothing"],
+      "politeness": "plain",
+      "semantic": [
+        "clothing"
+      ],
       "domain": []
     },
     "created": "2026-06-01T04:07:37Z",
-    "modified": "2026-06-01T04:07:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

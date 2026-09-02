@@ -2,7 +2,7 @@
   "id": "11777_rekkyo",
   "headword": "{列挙|れっきょ}",
   "reading": "れっきょ",
-  "part_of_speech": "noun; noun (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "enumeration, listing",
   "conjugation": {
     "type": "suru",
@@ -134,10 +134,18 @@
     }
   ],
   "notes": "{列挙|れっきょ} means listing items systematically, one by one. Composed of {列|れつ} (row/line) + {挙|きょ} (to raise/cite).\n\nCOMMON COLLOCATIONS:\n- {理由|りゆう}を{列挙|れっきょ}する: to list reasons\n- {条件|じょうけん}を{列挙|れっきょ}する: to enumerate conditions\n- {事例|じれい}を{列挙|れっきょ}する: to list examples\n- {問題点|もんだいてん}を{列挙|れっきょ}する: to enumerate problems\n\nSIMILAR WORDS:\n- {羅列|られつ}: listing without organization (often implies a disorganized list)\n- {挙|あ}げる: to cite, to give (examples) — more casual\n- リストアップする: to list up (loanword, more casual)\n\nREGISTER:\n{列挙|れっきょ} is a formal, written-style word common in academic papers, legal documents, and business reports. In conversation, {挙|あ}げる is more natural.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27889_ageru",
+      "reading": "あげる",
+      "headword": "挙げる",
+      "label": "to cite, to give"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T23:15:01Z",
-    "modified": "2026-03-29T03:07:52Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

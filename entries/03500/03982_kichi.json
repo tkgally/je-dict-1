@@ -43,11 +43,40 @@
       ]
     }
   ],
-  "notes": "USAGE: Most commonly refers to military installations, but also used for research stations and operational headquarters.\n\nCOMMON COMPOUNDS:\n・⟦{軍事|ぐんじ}→軍事：14392_gunji⟧{基地|きち} (military base)\n・⟦{空軍|くうぐん}→空軍：19221_kuugun⟧{基地|きち} (air force base)\n・⟦{海軍|かいぐん}→海軍：13289_kaigun⟧{基地|きち} (naval base)\n・⟦{観測|かんそく}→観測：00183_kansoku⟧{基地|きち} (observation station)\n\nCULTURAL NOTE: U.S. military bases in Japan, especially in ⟦{沖縄|おきなわ}→沖縄：11009_okinawa⟧, are a significant political issue.",
-  "cross_references": [],
+  "notes": "USAGE: Most commonly refers to military installations, but also used for research stations and operational headquarters.\n\nCOMPOUNDS:\n- ⟦{軍事|ぐんじ}→軍事：14392_gunji⟧{基地|きち} (military base)\n- ⟦{空軍|くうぐん}→空軍：19221_kuugun⟧{基地|きち} (air force base)\n- ⟦{海軍|かいぐん}→海軍：13289_kaigun⟧{基地|きち} (naval base)\n- ⟦{観測|かんそく}→観測：00183_kansoku⟧{基地|きち} (observation station)\n\nCULTURAL NOTE: U.S. military bases in Japan, especially in ⟦{沖縄|おきなわ}→沖縄：11009_okinawa⟧, are a significant political issue.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22864_chuuton",
+      "reading": "ちゅうとん",
+      "headword": "{駐屯|ちゅうとん}",
+      "label": "stationing"
+    },
+    {
+      "type": "related",
+      "target_id": "24987_heiei",
+      "reading": "へいえい",
+      "headword": "{兵営|へいえい}",
+      "label": "barracks"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27940_suteeshon",
+      "reading": "すてーしょん",
+      "headword": "ステーション",
+      "label": "station"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30721_jinchi",
+      "reading": "じんち",
+      "headword": "{陣地|じんち}",
+      "label": "military position"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T07:50:37Z",
-    "modified": "2026-05-28T16:14:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

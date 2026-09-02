@@ -17,7 +17,9 @@
       "id": "26414_koutaisenshu_ex1",
       "japanese": "{交代|こうたい}{選手|せんしゅ}がベンチで{待機|たいき}している。",
       "english": "The substitute players are waiting on the bench.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26414_koutaisenshu_ex2",
       "japanese": "{後半|こうはん}から{交代|こうたい}{選手|せんしゅ}が{投入|とうにゅう}された。",
       "english": "Substitute players were brought in from the second half.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,51 @@
       "id": "26414_koutaisenshu_ex3",
       "japanese": "{監督|かんとく}は{残|のこ}り{10分|じゅっぷん}で{交代|こうたい}{選手|せんしゅ}を{3人|さんにん}{送|おく}り{出|だ}し、{攻撃|こうげき}を{強化|きょうか}した。",
       "english": "The manager sent in three substitutes with ten minutes remaining to strengthen the attack.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {交代|こうたい} (substitution, replacement) and {選手|せんしゅ} (player, athlete). Most commonly used in soccer, where teams are allowed a limited number of substitutions per match.\n\nCOMMON COLLOCATIONS:\n- {交代|こうたい}{選手|せんしゅ}を{出|だ}す: to send in a substitute\n- {交代|こうたい}{選手|せんしゅ}を{投入|とうにゅう}する: to bring on a substitute\n- {交代|こうたい}{選手|せんしゅ}として{出場|しゅつじょう}する: to appear as a substitute\n- {交代|こうたい}{選手|せんしゅ}が{活躍|かつやく}する: the substitute plays well\n\nSIMILAR WORDS:\n- {控|ひか}え{選手|せんしゅ}: reserve player — a player on the roster but not starting; broader than {交代選手|こうたいせんしゅ}\n- {補欠|ほけつ}: reserve, alternate — often implies not being good enough to start\n- {代打|だいだ}: pinch hitter — specific to baseball",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20951_hikaesenshu",
+      "reading": "ひかえせんしゅ",
+      "headword": "{控|ひか}え{選手|せんしゅ}",
+      "label": "reserve player"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16029_hoketsu",
+      "reading": "ほけつ",
+      "headword": "{補欠|ほけつ}",
+      "label": "reserve, alternate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19621_daida",
+      "reading": "だいだ",
+      "headword": "{代打|だいだ}",
+      "label": "pinch hitter"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["sports"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ]
     },
     "created": "2026-05-01T15:34:35Z",
-    "modified": "2026-05-01T15:34:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

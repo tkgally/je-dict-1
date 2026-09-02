@@ -19,7 +19,9 @@
       "english": "This is a colloquial name — the official name is different.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11722_zokushou_ex2",
@@ -27,7 +29,9 @@
       "english": "This law is commonly known as the 'My Number Act.'",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11722_zokushou_ex3",
@@ -35,20 +39,55 @@
       "english": "The street in front of the National Diet Building is colloquially called 'Sakura-dori,' but it officially has a different name.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {俗|ぞく} (popular, common) + {称|しょう} (name, title). Used to identify informal names in contrast to official designations.\n\nCOMMON COLLOCATIONS:\n・{俗称|ぞくしょう}で{呼|よ}ぶ (to call by a common name)\n・{俗称|ぞくしょう}で{知|し}られる (to be known by a colloquial name)\n・{正式名称|せいしきめいしょう}と{俗称|ぞくしょう} (official name and colloquial name)\n\nDISTINCTIONS:\n・{俗称|ぞくしょう}: informal or commonly used name (neutral tone)\n・{通称|つうしょう}: commonly used name, alias (similar but broader; can be semi-official)\n・{愛称|あいしょう}: nickname, pet name (affectionate)\n・{略称|りゃくしょう}: abbreviation, shortened name",
-  "cross_references": [],
+  "notes": "Compound of {俗|ぞく} (popular, common) + {称|しょう} (name, title). Used to identify informal names in contrast to official designations.\n\nCOMMON COLLOCATIONS:\n- {俗称|ぞくしょう}で{呼|よ}ぶ (to call by a common name)\n- {俗称|ぞくしょう}で{知|し}られる (to be known by a colloquial name)\n- {正式名称|せいしきめいしょう}と{俗称|ぞくしょう} (official name and colloquial name)\n\nSIMILAR WORDS:\n- {俗称|ぞくしょう}: informal or commonly used name (neutral tone)\n- {通称|つうしょう}: commonly used name, alias (similar but broader; can be semi-official)\n- {愛称|あいしょう}: nickname, pet name (affectionate)\n- {略称|りゃくしょう}: abbreviation, shortened name",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14404_tsuushou",
+      "reading": "つうしょう",
+      "headword": "{通称|つうしょう}",
+      "label": "commonly used name, alias (similar but…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12678_aishou",
+      "reading": "あいしょう",
+      "headword": "{愛称|あいしょう}",
+      "label": "nickname, pet name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13562_ryakushou",
+      "reading": "りゃくしょう",
+      "headword": "{略称|りゃくしょう}",
+      "label": "abbreviation, shortened name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13879_soushou",
+      "reading": "そうしょう",
+      "headword": "{総称|そうしょう}",
+      "label": "general term, generic name"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T21:43:49Z",
-    "modified": "2026-02-17T21:43:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

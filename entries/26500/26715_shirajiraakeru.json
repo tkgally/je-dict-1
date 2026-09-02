@@ -3,7 +3,7 @@
   "headword": "{白々明|しらじらあ}ける",
   "reading": "しらじらあける",
   "romaji": "shirajiraakeru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to dawn; to grow light",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Composed of {白々|しらじら} (whitish, pale) and {明|あ}ける (to open/dawn). A literary expression that paints the visual scene of the sky turning pale before sunrise. Often used in the pattern {白々|しらじら}と{明|あ}ける, where と marks the manner of the dawning.\n\nUSAGE:\nThis word belongs to literary and poetic registers. In everyday speech, {夜|よ}が{明|あ}ける (dawn breaks) or {朝|あさ}になる (it becomes morning) is far more common.\n\nCOMMON COLLOCATIONS:\n- {空|そら}が{白々|しらじら}と{明|あ}ける: the sky grows pale with dawn\n- {白々|しらじら}{明|あ}けの{空|そら}: the brightening dawn sky\n\nSIMILAR WORDS:\n- {夜明|よあ}け: dawn/daybreak — the standard neutral term\n- {明|あ}け{方|がた}: early dawn — refers to the time period\n- {東雲|しののめ}: dawn (literary) — classical/poetic synonym",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03655_yoake",
+      "reading": "よあけ",
+      "headword": "{夜明|よあ}け",
+      "label": "dawn/daybreak"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17595_akegata",
+      "reading": "あけがた",
+      "headword": "{明|あ}け{方|がた}",
+      "label": "early dawn"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,6 +68,7 @@
       "pos": [
         "verb-ichidan"
       ],
+      "politeness": "plain",
       "semantic": [
         "nature",
         "time-general"
@@ -60,7 +76,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-05-04T14:15:07Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

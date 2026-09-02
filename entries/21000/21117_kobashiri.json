@@ -17,7 +17,9 @@
       "id": "21117_kobashiri_ex1",
       "japanese": "{小走|こばし}りで{駅|えき}に{向|む}かった。",
       "english": "I trotted toward the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21117_kobashiri_ex2",
       "japanese": "{彼女|かのじょ}は{小走|こばし}りで{横断歩道|おうだんほどう}を{渡|わた}った。",
       "english": "She jogged across the crosswalk.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "21117_kobashiri_ex3",
       "japanese": "{雨|あめ}が{降|ふ}り{出|だ}したので、{小走|こばし}りでコンビニまで{走|はし}った。",
       "english": "It started raining, so I jogged to the convenience store.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Describes a pace between walking and running — short, quick steps taken when you need to hurry but aren't sprinting. Very common in everyday narration and descriptions of movement.\n\nCOMMON PATTERNS:\n- {小走|こばし}りで: at a trot, jogging (used adverbially with で)\n- {小走|こばし}りに{駆|か}ける: to hurry along at a trot\n- {小走|こばし}りになる: to break into a trot\n\nUSAGE:\nAlmost always used with the particle で to describe the manner of movement: {小走|こばし}りで{行|い}く, {小走|こばし}りで{向|む}かう, etc.\n\nSIMILAR WORDS:\n- {早足|はやあし}: brisk walk, quick pace — fast walking rather than jogging\n- {駆|か}け{足|あし}: running, double-time — faster pace, a real run\n- ジョギング: jogging — exercise-oriented, not the hurried everyday trot that {小走|こばし}り describes",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21118_hayaashi",
+      "reading": "はやあし",
+      "headword": "{早足|はやあし}",
+      "label": "brisk walk, quick pace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22316_kakeashi",
+      "reading": "かけあし",
+      "headword": "{駆|か}け{足|あし}",
+      "label": "running, double-time"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04738_jogingu",
+      "reading": "じょぎんぐ",
+      "headword": "ジョギング",
+      "label": "jogging"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25674_hayaaruki",
+      "reading": "はやあるき",
+      "headword": "{早歩|はやある}き",
+      "label": "fast walking"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ]
     },
     "created": "2026-03-31T20:17:42Z",
-    "modified": "2026-03-31T20:17:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

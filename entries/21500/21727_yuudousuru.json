@@ -3,7 +3,7 @@
   "headword": "{誘導|ゆうどう}する",
   "reading": "ゆうどうする",
   "romaji": "yuudousuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to guide; to lead; to induce",
   "definitions": [
     {
@@ -80,6 +80,29 @@
     }
   ],
   "notes": "Means to guide or lead someone in a particular direction, either physically or mentally. Combines {誘|ゆう} (invite, lure) and {導|どう} (guide, lead).\n\nUSAGE:\n- Sense 1 is physical guidance: directing people, vehicles, or traffic to a destination\n- Sense 2 is psychological/logical: leading someone toward a particular conclusion, answer, or action\n- Sense 2 can have negative connotations when it implies manipulation\n- Also used in military/technical contexts: {誘導|ゆうどう}ミサイル (guided missile)\n\nTRANSITIVITY:\n- Transitive\n\nCOMMON COLLOCATIONS:\n- {交通|こうつう}{誘導|ゆうどう}: traffic direction\n- {避難|ひなん}{誘導|ゆうどう}: evacuation guidance\n- {誘導|ゆうどう}{尋問|じんもん}: leading question\n- {誘導|ゆうどう}ミサイル: guided missile\n- ～に{誘導|ゆうどう}する: to guide/lead toward\n\nSIMILAR WORDS:\n- {案内|あんない}する: to guide, to show around — friendlier, service-oriented\n- {導|みちび}く: to lead, to guide — more literary; can be abstract (leading to success)\n- {操|あやつ}る: to manipulate — stronger negative connotation than {誘導|ゆうどう}",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20203_annaisuru",
+      "reading": "あんないする",
+      "headword": "{案内|あんない}する",
+      "label": "to guide, to show around"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12361_michibiku",
+      "reading": "みちびく",
+      "headword": "{導|みちび}く",
+      "label": "to lead, to guide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12707_ayatsuru",
+      "reading": "あやつる",
+      "headword": "{操|あやつ}る",
+      "label": "to manipulate"
+    }
+  ],
   "metadata": {
     "entry_id": "21727_yuudousuru",
     "schema_version": "2.0",
@@ -91,6 +114,7 @@
         "verb-suru"
       ],
       "transitivity": "transitive",
+      "politeness": "plain",
       "semantic": [
         "action",
         "communication"
@@ -99,7 +123,7 @@
       "usage": [],
       "verb_class": "suru"
     },
-    "modified": "2026-04-10T06:37:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

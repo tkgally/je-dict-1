@@ -45,7 +45,7 @@
     },
     {
       "id": "25245_secchakusuru_ex4",
-      "japanese": "{タイル|たいる}がしっかり{接着|せっちゃく}していないと、{剥|は}がれてしまう。",
+      "japanese": "タイルがしっかり{接着|せっちゃく}していないと、{剥|は}がれてしまう。",
       "english": "If the tiles aren't firmly bonded, they'll come off.",
       "sense_numbers": [
         1
@@ -56,12 +56,36 @@
   ],
   "notes": "Refers to making two surfaces stick together, either with adhesive or through a bonding process. Used in both everyday (craft, repair) and industrial/technical contexts.\n\nCOMMON COLLOCATIONS:\n- {接着剤|せっちゃくざい}: adhesive; glue\n- {接着|せっちゃく}テープ: adhesive tape\n- {接着|せっちゃく}{面|めん}: bonding surface\n- {接着|せっちゃく}{強度|きょうど}: adhesive strength\n- {接着|せっちゃく}{力|りょく}: bonding power\n\nSIMILAR WORDS:\n- くっつける: to stick; to attach — a more colloquial, everyday word for sticking things together\n- {貼|は}る: to paste; to affix — used for putting stickers, labels, or wallpaper on a surface\n- {固定|こてい}する: to fix; to secure — focuses on holding something in place, not necessarily through adhesion",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10331_kuttsukeru",
+      "reading": "くっつける",
+      "headword": "くっつける",
+      "label": "to stick"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10447_haru",
+      "reading": "はる",
+      "headword": "{貼|は}る",
+      "label": "to paste"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19647_koteisuru",
+      "reading": "こていする",
+      "headword": "{固定|こてい}する",
+      "label": "to fix"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "creation",
         "daily-life"
@@ -69,7 +93,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T11:33:14Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

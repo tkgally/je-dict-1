@@ -2,7 +2,7 @@
   "id": "11907_seitei",
   "headword": "{制定|せいてい}",
   "reading": "せいてい",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "enactment, establishment (of laws or rules)",
   "conjugation": {
     "type": "suru",
@@ -133,11 +133,33 @@
       ]
     }
   ],
-  "notes": "{制定|せいてい} refers specifically to the formal creation and enactment of laws, regulations, standards, or official rules.\n\nSCOPE:\nUsed only for legal/regulatory matters. Not for general \"creation\" or \"establishment\" of organizations or businesses.\n\nCOMMON PATTERNS:\n- {法律|ほうりつ}を{制定|せいてい}する: to enact a law\n- {制度|せいど}を{制定|せいてい}する: to establish a system/framework\n- {基準|きじゅん}を{制定|せいてい}する: to set standards\n- {条例|じょうれい}が{制定|せいてい}される: an ordinance is enacted\n\nASPECT:\n{制定|せいてい}している means a law or rule is currently in effect (resulting state), not that someone is in the process of enacting it.\n\nSIMILAR WORDS:\n- {設立|せつりつ}: establishment (of organizations, companies)\n- {創設|そうせつ}: founding, creation (of institutions)\n- {策定|さくてい}: formulation (of plans, policies — often a step before {制定|せいてい})",
-  "cross_references": [],
+  "notes": "{制定|せいてい} refers specifically to the formal creation and enactment of laws, regulations, standards, or official rules.\n\nUSAGE:\nUsed only for legal/regulatory matters. Not for general \"creation\" or \"establishment\" of organizations or businesses.\n\nCOMMON PATTERNS:\n- {法律|ほうりつ}を{制定|せいてい}する: to enact a law\n- {制度|せいど}を{制定|せいてい}する: to establish a system/framework\n- {基準|きじゅん}を{制定|せいてい}する: to set standards\n- {条例|じょうれい}が{制定|せいてい}される: an ordinance is enacted\n\nASPECT (ている):\n{制定|せいてい}している means a law or rule is currently in effect (resulting state), not that someone is in the process of enacting it.\n\nSIMILAR WORDS:\n- {設立|せつりつ}: establishment (of organizations, companies)\n- {創設|そうせつ}: founding, creation (of institutions)\n- {策定|さくてい}: formulation (of plans, policies — often a step before {制定|せいてい})",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14171_setsuritsu",
+      "reading": "せつりつ",
+      "headword": "{設立|せつりつ}",
+      "label": "establishment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11905_sousetsu",
+      "reading": "そうせつ",
+      "headword": "{創設|そうせつ}",
+      "label": "founding, creation"
+    },
+    {
+      "type": "related",
+      "target_id": "08394_koufu",
+      "reading": "こうふ",
+      "headword": "{公布|こうふ}",
+      "label": "promulgation"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T14:13:02Z",
-    "modified": "2026-04-03T06:54:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

@@ -34,7 +34,7 @@
     },
     {
       "id": "04995_shusai_ex3",
-      "japanese": "{主菜|しゅさい}⟦と→と：00512_to⟧⟦{副菜|ふくさい}→副菜：04993_fukusai⟧⟦の→の：09472_no⟧⟦{バランス|ばらんす}→バランス：03870_baransu⟧⟦を→を：00422_wo⟧⟦{考|かんが}えて→考える：00856_kangaeru⟧⟦{献立|こんだて}→献立：04155_kondate⟧⟦を→を：00422_wo⟧⟦{作|つく}ります→作る：00481_tsukuru⟧。",
+      "japanese": "{主菜|しゅさい}⟦と→と：00512_to⟧⟦{副菜|ふくさい}→副菜：04993_fukusai⟧⟦の→の：09472_no⟧⟦バランス→バランス：03870_baransu⟧⟦を→を：00422_wo⟧⟦{考|かんが}えて→考える：00856_kangaeru⟧⟦{献立|こんだて}→献立：04155_kondate⟧⟦を→を：00422_wo⟧⟦{作|つく}ります→作る：00481_tsukuru⟧。",
       "english": "I plan the menu considering the balance of main and side dishes.",
       "notes": null,
       "has_audio": false,
@@ -85,11 +85,25 @@
       "reading": "しゅしょく",
       "headword": "{主食|しゅしょく}",
       "label": "staple food"
+    },
+    {
+      "type": "related",
+      "target_id": "08272_okazu",
+      "reading": "おかず",
+      "headword": "おかず",
+      "label": "side dish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23580_meindisshu",
+      "reading": "めいんでぃっしゅ",
+      "headword": "メインディッシュ",
+      "label": "main dish"
     }
   ],
   "metadata": {
     "created": "2026-01-14T13:31:53Z",
-    "modified": "2026-06-03T18:38:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

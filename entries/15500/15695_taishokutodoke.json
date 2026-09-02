@@ -19,7 +19,9 @@
       "english": "I submitted my letter of resignation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15695_taishokutodoke_ex2",
@@ -27,7 +29,9 @@
       "english": "I submitted my resignation letter to my boss.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15695_taishokutodoke_ex3",
@@ -35,7 +39,9 @@
       "english": "Please submit your resignation letter at least one month before your desired departure date.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal document in the Japanese workplace. Distinguished from {退職願|たいしょくねがい}, which is a request to resign (and can theoretically be refused or withdrawn). A {退職届|たいしょくとどけ} is a definitive notification and is generally irrevocable once submitted.\n\nCOMMON COLLOCATIONS:\n- {退職届|たいしょくとどけ}を{出|だ}す (to submit a resignation letter)\n- {退職届|たいしょくとどけ}を{提出|ていしゅつ}する (to submit a resignation letter, formal)\n- {退職届|たいしょくとどけ}を{受理|じゅり}する (to accept a resignation letter)\n\nSIMILAR WORDS:\n- {退職願|たいしょくねがい}: resignation request (can be withdrawn; a request rather than a notification)\n- {辞表|じひょう}: letter of resignation (used by executives and public officials)",
@@ -46,18 +52,36 @@
       "reading": "たいしょく",
       "headword": "{退職|たいしょく}",
       "label": "resignation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28562_taishokunegai",
+      "reading": "たいしょくねがい",
+      "headword": "{退職願|たいしょくねがい}",
+      "label": "resignation request (can be withdrawn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27086_jihyou",
+      "reading": "じひょう",
+      "headword": "{辞表|じひょう}",
+      "label": "letter of resignation"
     }
   ],
   "metadata": {
     "created": "2026-03-08T07:37:49Z",
-    "modified": "2026-05-01T10:15:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     }
   }
 }

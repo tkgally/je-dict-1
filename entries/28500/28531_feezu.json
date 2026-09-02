@@ -17,7 +17,9 @@
       "id": "28531_feezu_ex1",
       "japanese": "{次|つぎ}のフェーズに{入|はい}った。",
       "english": "We entered the next phase.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28531_feezu_ex2",
       "japanese": "プロジェクトは{最終|さいしゅう}フェーズに{差|さ}し{掛|か}かっている。",
       "english": "The project is approaching its final phase.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "28531_feezu_ex3",
       "japanese": "{開発|かいはつ}を{三|みっ}つのフェーズに{分|わ}けて{進|すす}める{予定|よてい}だ。",
       "english": "We plan to carry out the development in three phases.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"phase.\" A business/technical loanword; not used in everyday conversation. Often appears with ordinal numbers or modifiers indicating sequence.\n\nCOMMON COLLOCATIONS:\n- {第一|だいいち}フェーズ: phase one\n- {最終|さいしゅう}フェーズ: final phase\n- フェーズに{入|はい}る: to enter a phase\n- フェーズを{分|わ}ける: to divide into phases\n- {次|つぎ}のフェーズ: the next phase\n\nSIMILAR WORDS:\n- {段階|だんかい}: stage; step — the native equivalent, broader and more common in everyday speech\n- ステージ: stage — also used for project phases but emphasizes a stable plateau more than progression",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04515_dankai",
+      "reading": "だんかい",
+      "headword": "{段階|だんかい}",
+      "label": "stage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11047_suteeji",
+      "reading": "すてーじ",
+      "headword": "ステージ",
+      "label": "stage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["business"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "business"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-06-01T04:07:37Z",
-    "modified": "2026-06-01T04:07:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

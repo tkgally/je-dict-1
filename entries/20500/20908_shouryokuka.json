@@ -3,7 +3,7 @@
   "headword": "{省力化|しょうりょくか}",
   "reading": "しょうりょくか",
   "romaji": "shouryokuka",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "labor-saving; mechanization; automation",
   "definitions": [
     {
@@ -47,6 +47,36 @@
   "notes": "Composed of {省力|しょうりょく} (saving labor) + {化|か} (-ization, making into). A key concept in Japanese business and manufacturing, especially given Japan's aging population and labor shortages.\n\nCOMMON COLLOCATIONS:\n- {省力化|しょうりょくか}を{進|すす}める: to promote labor-saving\n- {省力化|しょうりょくか}を{図|はか}る: to aim for labor-saving\n- {省力化|しょうりょくか}{技術|ぎじゅつ}: labor-saving technology\n- {省力化|しょうりょくか}{投資|とうし}: investment in automation\n\nSIMILAR WORDS:\n- {自動化|じどうか}: automation — specifically using machines to replace manual processes\n- {効率化|こうりつか}: improving efficiency — broader, not limited to labor\n- {合理化|ごうりか}: rationalization — streamlining processes, sometimes implies job cuts",
   "conjugation_type": "suru",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07566_jidouka",
+      "reading": "じどうか",
+      "headword": "{自動化|じどうか}",
+      "label": "automation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07565_kouritsuka",
+      "reading": "こうりつか",
+      "headword": "{効率化|こうりつか}",
+      "label": "improving efficiency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17148_gourika",
+      "reading": "ごうりか",
+      "headword": "{合理化|ごうりか}",
+      "label": "rationalization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23913_kikaika",
+      "reading": "きかいか",
+      "headword": "{機械化|きかいか}",
+      "label": "mechanization (replacement of manual labor by machines)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +93,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-30T20:13:44Z",
-    "modified": "2026-07-28T09:34:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{先輩|せんぱい} refers to someone senior to you in age, experience, or position within a group, school, or workplace.\n\nCULTURAL SIGNIFICANCE:\nThe {先輩|せんぱい}・⟦{後輩|こうはい}→後輩：02501_kouhai⟧ relationship is fundamental to Japanese social structure, especially in schools, clubs, and companies.\n\nUSAGE:\n- As a noun: {先輩|せんぱい}⟦に→に：00314_ni⟧⟦{聞|き}く→聞く：00483_kiku⟧ (ask a senior)\n- As an address: 〇〇{先輩|せんぱい} (Senior ~, used as a title)\n- With possessive: ⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧{先輩|せんぱい} (university senior)\n\nCOMMON EXPRESSIONS:\n- {先輩|せんぱい}⟦に→に：00314_ni⟧⟦{相談|そうだん}→相談：02089_soudan⟧⟦する→する：00392_suru⟧: to consult with a senior\n- {先輩|せんぱい}⟦から→から：00504_kara⟧⟦{教|おそ}わる→教わる：02024_osowaru⟧: to learn from a senior\n\nRELATED:\n- ⟦{後輩|こうはい}→後輩：02501_kouhai⟧: junior (opposite)\n- ⟦{同期|どうき}→同期：12029_douki⟧: same year/cohort",
+  "notes": "{先輩|せんぱい} refers to someone senior to you in age, experience, or position within a group, school, or workplace.\n\nCULTURAL NOTE:\nThe {先輩|せんぱい}・⟦{後輩|こうはい}→後輩：02501_kouhai⟧ relationship is fundamental to Japanese social structure, especially in schools, clubs, and companies.\n\nUSAGE:\n- As a noun: {先輩|せんぱい}⟦に→に：00314_ni⟧⟦{聞|き}く→聞く：00483_kiku⟧ (ask a senior)\n- As an address: 〇〇{先輩|せんぱい} (Senior ~, used as a title)\n- With possessive: ⟦{大学|だいがく}→大学：00608_daigaku⟧⟦の→の：09472_no⟧{先輩|せんぱい} (university senior)\n\nCOMMON EXPRESSIONS:\n- {先輩|せんぱい}⟦に→に：00314_ni⟧⟦{相談|そうだん}→相談：02089_soudan⟧⟦する→する：00392_suru⟧: to consult with a senior\n- {先輩|せんぱい}⟦から→から：00504_kara⟧⟦{教|おそ}わる→教わる：02024_osowaru⟧: to learn from a senior\n\nRELATED WORDS:\n- ⟦{後輩|こうはい}→後輩：02501_kouhai⟧: junior (opposite)\n- ⟦{同期|どうき}→同期：12029_douki⟧: same year/cohort",
   "cross_references": [
     {
       "type": "antonym",
@@ -78,11 +78,67 @@
       "reading": "めうえ",
       "headword": "{目上|めうえ}",
       "label": "superior (by rank/age)"
+    },
+    {
+      "type": "related",
+      "target_id": "12029_douki",
+      "reading": "どうき",
+      "headword": "{同期|どうき}",
+      "label": "same year/cohort"
+    },
+    {
+      "type": "related",
+      "target_id": "06453_buka",
+      "reading": "ぶか",
+      "headword": "{部下|ぶか}",
+      "label": "subordinate, underling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07457_furukabu",
+      "reading": "ふるかぶ",
+      "headword": "{古株|ふるかぶ}",
+      "label": "old-timer"
+    },
+    {
+      "type": "related",
+      "target_id": "08808_meshita",
+      "reading": "めした",
+      "headword": "{目下|めした}",
+      "label": "subordinate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20598_sendatsu",
+      "reading": "せんだつ",
+      "headword": "{先達|せんだつ}",
+      "label": "pioneer"
+    },
+    {
+      "type": "related",
+      "target_id": "20881_anikibun",
+      "reading": "あにきぶん",
+      "headword": "{兄貴分|あにきぶん}",
+      "label": "someone like a big brother, senior figure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21161_dousou",
+      "reading": "どうそう",
+      "headword": "{同窓|どうそう}",
+      "label": "fellow alumnus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23803_senjin",
+      "reading": "せんじん",
+      "headword": "{先人|せんじん}",
+      "label": "predecessor"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:19:34Z",
-    "modified": "2026-05-15T17:10:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{着岸|ちゃくがん}",
   "reading": "ちゃくがん",
   "romaji": "chakugan",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "docking; coming alongside a pier",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,22 @@
   ],
   "notes": "Composed of {着|ちゃく} (to arrive) + {岸|がん} (shore, bank). A nautical term describing the moment a ship reaches and secures itself to a pier or wharf. The opposite is {離岸|りがん} (leaving the pier, casting off).\n\nCOMMON COLLOCATIONS:\n- {着岸|ちゃくがん}する — to dock, to berth\n- {着岸|ちゃくがん}{予定|よてい} — scheduled docking time\n- {着岸|ちゃくがん}{作業|さぎょう} — docking operations\n\nSIMILAR WORDS:\n- {接岸|せつがん} — coming alongside a pier; very close synonym, slightly more technical\n- {入港|にゅうこう} — entering a port; broader, refers to arriving in the harbor area\n- {離岸|りがん} — leaving the pier; the opposite action",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24377_setsugan",
+      "reading": "せつがん",
+      "headword": "{接岸|せつがん}",
+      "label": "coming alongside a pier"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14771_nyuukou",
+      "reading": "にゅうこう",
+      "headword": "{入港|にゅうこう}",
+      "label": "entering a port"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +167,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-26T14:35:09Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

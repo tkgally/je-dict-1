@@ -2,7 +2,7 @@
   "id": "04189_zaigaku",
   "headword": "{在学|ざいがく}",
   "reading": "ざいがく",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "enrolled in school, attending",
   "conjugation": {
     "type": "suru",
@@ -133,10 +133,33 @@
       ]
     }
   ],
-  "notes": "A compound of {在|ざい} (being at) and {学|がく} (school/study). Refers to the state of being enrolled at an educational institution. Formal in register.\n\nCOMMON COMPOUNDS:\n- {在学|ざいがく}⟦{中|ちゅう}→中：09840_chuu⟧: while enrolled in school\n- {在学|ざいがく}{生|せい}: current student\n- {在学|ざいがく}⟦{証明書|しょうめいしょ}→証明書：09785_shoumeisho⟧: certificate of enrollment\n- {在学|ざいがく}⟦{期間|きかん}→期間：00229_kikan⟧: period of enrollment\n- {在学|ざいがく}⟦{年数|ねんすう}→年数：23485_nensuu⟧: number of years enrolled\n\nASPECT:\n- {在学|ざいがく}している: to be currently enrolled (ongoing state)\n- Used with ⟦に→に：00314_ni⟧ for the institution: ⟦{大学|だいがく}→大学：00608_daigaku⟧⟦に→に：00314_ni⟧{在学|ざいがく}している\n\nSIMILAR WORDS:\n- ⟦{在籍|ざいせき}→在籍：21436_zaiseki⟧: being registered/enrolled (broader — also used for companies and organizations)\n- ⟦{通学|つうがく}→通学：03510_tsuugaku⟧: commuting to school (the physical act of going)\n- ⟦{休学|きゅうがく}→休学：05140_kyuugaku⟧: leave of absence from school",
+  "notes": "A compound of {在|ざい} (being at) and {学|がく} (school/study). Refers to the state of being enrolled at an educational institution. Formal in register.\n\nCOMPOUNDS:\n- {在学|ざいがく}⟦{中|ちゅう}→中：09840_chuu⟧: while enrolled in school\n- {在学|ざいがく}{生|せい}: current student\n- {在学|ざいがく}⟦{証明書|しょうめいしょ}→証明書：09785_shoumeisho⟧: certificate of enrollment\n- {在学|ざいがく}⟦{期間|きかん}→期間：00229_kikan⟧: period of enrollment\n- {在学|ざいがく}⟦{年数|ねんすう}→年数：23485_nensuu⟧: number of years enrolled\n\nASPECT (ている):\n- {在学|ざいがく}している: to be currently enrolled (ongoing state)\n- Used with ⟦に→に：00314_ni⟧ for the institution: ⟦{大学|だいがく}→大学：00608_daigaku⟧⟦に→に：00314_ni⟧{在学|ざいがく}している\n\nSIMILAR WORDS:\n- ⟦{在籍|ざいせき}→在籍：21436_zaiseki⟧: being registered/enrolled (broader — also used for companies and organizations)\n- ⟦{通学|つうがく}→通学：03510_tsuugaku⟧: commuting to school (the physical act of going)\n- ⟦{休学|きゅうがく}→休学：05140_kyuugaku⟧: leave of absence from school",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21436_zaiseki",
+      "reading": "ざいせき",
+      "headword": "{在籍|ざいせき}",
+      "label": "being registered/enrolled (broader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03510_tsuugaku",
+      "reading": "つうがく",
+      "headword": "{通学|つうがく}",
+      "label": "commuting to school"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05140_kyuugaku",
+      "reading": "きゅうがく",
+      "headword": "{休学|きゅうがく}",
+      "label": "leave of absence from school"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T13:58:45Z",
-    "modified": "2026-05-29T21:12:05Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -19,7 +19,9 @@
       "english": "Suspicions of corruption surfaced.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13602_giwaku_ex2",
@@ -27,7 +29,9 @@
       "english": "The minister denied the allegations.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13602_giwaku_ex3",
@@ -35,7 +39,9 @@
       "english": "After the accounting fraud suspicions were reported, the stock price dropped sharply and anxiety spread among investors.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal word commonly used in news reporting and official contexts. Often appears in political scandals and business misconduct cases. Carries a heavier, more serious tone than casual words for doubt.\n\nSIMILAR WORDS:\n- {疑問|ぎもん}: question, doubt — intellectual uncertainty, wanting to know\n- {疑惑|ぎわく}: suspicion — moral/ethical doubt, suspecting wrongdoing\n- {嫌疑|けんぎ}: suspicion (legal) — formal term used by police/courts\n\nCOMMON COLLOCATIONS:\n- {疑惑|ぎわく}が{浮上|ふじょう}する: suspicions surface\n- {疑惑|ぎわく}を{否定|ひてい}する: deny suspicions\n- {疑惑|ぎわく}を{晴|は}らす: clear suspicions\n- {疑惑|ぎわく}が{深|ふか}まる: suspicions deepen\n- {疑惑|ぎわく}の{目|め}: suspicious eyes",
@@ -53,19 +59,46 @@
       "reading": "けんぎ",
       "headword": "{嫌疑|けんぎ}",
       "label": "suspicion (legal)"
+    },
+    {
+      "type": "related",
+      "target_id": "01889_utagau",
+      "reading": "うたがう",
+      "headword": "{疑|うたが}う",
+      "label": "to doubt, to suspect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12856_kaigi",
+      "reading": "かいぎ",
+      "headword": "{懐疑|かいぎ}",
+      "label": "doubt, skepticism"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18313_fushin",
+      "reading": "ふしん",
+      "headword": "{不信|ふしん}",
+      "label": "distrust"
     }
   ],
   "metadata": {
     "created": "2026-02-26T09:54:06Z",
-    "modified": "2026-04-29T05:15:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["cognition"],
-      "style": ["written"]
+      "semantic": [
+        "cognition"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

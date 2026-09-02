@@ -3,7 +3,7 @@
   "headword": "{流行遅|りゅうこうおく}れ",
   "reading": "りゅうこうおくれ",
   "romaji": "ryuukouokure",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "out of fashion; behind the times",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "27017_ryuukouokure_ex1",
       "japanese": "そのデザインは{流行遅|りゅうこうおく}れだ。",
       "english": "That design is out of fashion.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27017_ryuukouokure_ex2",
       "japanese": "{流行遅|りゅうこうおく}れの{服|ふく}を{着|き}ていると{笑|わら}われる。",
       "english": "If you wear outdated clothes, people will laugh at you.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,53 @@
       "id": "27017_ryuukouokure_ex3",
       "japanese": "{親|おや}が{勧|すす}めるファッションは{流行遅|りゅうこうおく}れのことが{多|おお}い。",
       "english": "The fashion that parents recommend is often out of date.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {流行|りゅうこう} (trend, fashion) + {遅|おく}れ (delay, falling behind). Used as a noun or as a no-adjective to describe things or people that are behind current trends. Can apply to fashion, technology, ideas, or culture.\n\nCOMMON COLLOCATIONS:\n- {流行遅|りゅうこうおく}れの{服|ふく}: outdated clothing\n- {流行遅|りゅうこうおく}れになる: to go out of fashion\n- {流行遅|りゅうこうおく}れの{考|かんが}え{方|かた}: outdated way of thinking\n\nSIMILAR WORDS:\n- {時代遅|じだいおく}れ: behind the times — broader; emphasizes being out of step with the era, not just fashion\n- ダサい: uncool; lame — casual slang; a subjective judgment of style rather than being literally behind trends\n- {古臭|ふるくさ}い: old-fashioned; musty — emphasizes something feeling old and stale",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12719_jidaiokure",
+      "reading": "じだいおくれ",
+      "headword": "{時代遅|じだいおく}れ",
+      "label": "behind the times"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04752_dasai",
+      "reading": "ださい",
+      "headword": "ダサい",
+      "label": "uncool"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15771_furukusai",
+      "reading": "ふるくさい",
+      "headword": "{古臭|ふるくさ}い",
+      "label": "old-fashioned"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["culture", "evaluation"]
+      "semantic": [
+        "culture",
+        "evaluation"
+      ]
     },
     "created": "2026-05-06T14:18:11Z",
-    "modified": "2026-05-06T14:18:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

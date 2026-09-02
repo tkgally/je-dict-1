@@ -3,7 +3,7 @@
   "headword": "{倒壊|とうかい}",
   "reading": "とうかい",
   "romaji": "toukai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "collapse; destruction (of a building or structure)",
   "definitions": [
     {
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Specifically describes the collapse or destruction of buildings and structures. Used extensively in disaster reporting, particularly for earthquakes and typhoons. Composed of {倒|とう} (topple) and {壊|かい} (destroy).\n\nCOMMON COLLOCATIONS:\n- {建物|たてもの}が{倒壊|とうかい}する: a building collapses\n- {全壊|ぜんかい}/{半壊|はんかい}: total/partial collapse\n- {倒壊|とうかい}の{危険|きけん}: danger of collapse\n- {倒壊|とうかい}{家屋|かおく}: collapsed buildings\n\nSIMILAR WORDS:\n- {崩壊|ほうかい}: collapse, breakdown — broader; used for systems, regimes, structures\n- {崩落|ほうらく}: cave-in, collapse — used for cliffs, tunnels, roofs falling in\n- {倒れる|たおれる}: fall over — more general; people or objects falling",
+  "notes": "Specifically describes the collapse or destruction of buildings and structures. Used extensively in disaster reporting, particularly for earthquakes and typhoons. Composed of {倒|とう} (topple) and {壊|かい} (destroy).\n\nCOMMON COLLOCATIONS:\n- {建物|たてもの}が{倒壊|とうかい}する: a building collapses\n- {全壊|ぜんかい}/{半壊|はんかい}: total/partial collapse\n- {倒壊|とうかい}の{危険|きけん}: danger of collapse\n- {倒壊|とうかい}{家屋|かおく}: collapsed buildings\n\nSIMILAR WORDS:\n- {崩壊|ほうかい}: collapse, breakdown — broader; used for systems, regimes, structures\n- {崩落|ほうらく}: cave-in, collapse — used for cliffs, tunnels, roofs falling in\n- {倒|たお}れる: fall over — more general; people or objects falling",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09067_houkai",
+      "reading": "ほうかい",
+      "headword": "{崩壊|ほうかい}",
+      "label": "collapse, breakdown"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01160_taoreru",
+      "reading": "たおれる",
+      "headword": "{倒|たお}れる",
+      "label": "fall over"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "nature"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-24T14:22:22Z",
-    "modified": "2026-04-24T14:22:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

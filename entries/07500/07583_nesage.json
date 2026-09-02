@@ -2,7 +2,7 @@
   "id": "07583_nesage",
   "headword": "{値下|ねさ}げ",
   "reading": "ねさげ",
-  "part_of_speech": "noun/suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "price reduction; price cut",
   "conjugation": {
     "type": "suru",
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{値|ね} (price, value) + {下|さ}げ (lowering, from {下|さ}げる)\n\nVERB FORM:\n{値下|ねさ}げする - to lower prices (transitive suru-verb)\n{値下|ねさ}げされる - prices are lowered (passive)\n\nCOMMON COLLOCATIONS:\n・{値下|ねさ}げを{発表|はっぴょう}する - to announce a price reduction\n・{値下|ねさ}げ{交渉|こうしょう} - price negotiation\n・{大幅|おおはば}な{値下|ねさ}げ - significant price cut\n・{値下|ねさ}げ{競争|きょうそう} - price war\n\nSIMILAR EXPRESSIONS:\n・{割引|わりびき} - discount\n・{安売|やすう}り - bargain sale\n・セール - sale\n\nANTONYM:\n・{値上|ねあ}げ - price increase",
+  "notes": "ETYMOLOGY:\n{値|ね} (price, value) + {下|さ}げ (lowering, from {下|さ}げる)\n\nFORMS:\n{値下|ねさ}げする - to lower prices (transitive suru-verb)\n{値下|ねさ}げされる - prices are lowered (passive)\n\nCOMMON COLLOCATIONS:\n- {値下|ねさ}げを{発表|はっぴょう}する - to announce a price reduction\n- {値下|ねさ}げ{交渉|こうしょう} - price negotiation\n- {大幅|おおはば}な{値下|ねさ}げ - significant price cut\n- {値下|ねさ}げ{競争|きょうそう} - price war\n\nSIMILAR WORDS:\n- {割引|わりびき} - discount\n- {安売|やすう}り - bargain sale\n- セール - sale\n- {値上|ねあ}げ - price increase",
   "cross_references": [
     {
       "type": "antonym",
@@ -138,11 +138,60 @@
       "headword": "{値上|ねあ}げ",
       "label": "price increase",
       "target_id": "07582_neage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01526_waribiki",
+      "reading": "わりびき",
+      "headword": "{割引|わりびき}",
+      "label": "discount"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07779_yasuuri",
+      "reading": "やすうり",
+      "headword": "{安売|やすう}り",
+      "label": "bargain sale"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07780_seeru",
+      "reading": "せーる",
+      "headword": "セール",
+      "label": "sale"
+    },
+    {
+      "type": "related",
+      "target_id": "08258_baagen",
+      "reading": "ばーげん",
+      "headword": "バーゲン",
+      "label": "bargain sale"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18932_kakakukaitei",
+      "reading": "かかくかいてい",
+      "headword": "{価格改定|かかくかいてい}",
+      "label": "price revision"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22228_nesagari",
+      "reading": "ねさがり",
+      "headword": "{値下|ねさ}がり",
+      "label": "price drop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22504_neagesuru",
+      "reading": "ねあげする",
+      "headword": "{値上|ねあ}げする",
+      "label": "to raise prices"
     }
   ],
   "metadata": {
     "created": "2026-01-20T10:31:31Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +200,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "economics",
         "money"

@@ -17,7 +17,9 @@
       "id": "24522_sonekikeisansho_ex1",
       "japanese": "{損益計算書|そんえきけいさんしょ}を{見|み}れば{利益|りえき}がわかる。",
       "english": "You can see the profit by looking at the income statement.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24522_sonekikeisansho_ex2",
       "japanese": "{今期|こんき}の{損益計算書|そんえきけいさんしょ}では{売上|うりあげ}が{前年比|ぜんねんひ}で{増加|ぞうか}している。",
       "english": "In this period's income statement, sales have increased compared to the previous year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,73 @@
       "id": "24522_sonekikeisansho_ex3",
       "japanese": "{投資家|とうしか}は{貸借対照表|たいしゃくたいしょうひょう}と{損益計算書|そんえきけいさんしょ}を{合|あ}わせて{分析|ぶんせき}することで、{企業|きぎょう}の{経営状態|けいえいじょうたい}をより{正確|せいかく}に{把握|はあく}できる。",
       "english": "By analyzing the balance sheet and income statement together, investors can grasp a company's management condition more accurately.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Literally \"profit-loss calculation document.\" Often abbreviated as P/L (from the English \"profit and loss\"). Shows how much money a company earned and spent over a period such as a quarter or fiscal year.\n\nThe key line items include {売上高|うりあげだか} (revenue), {売上原価|うりあげげんか} (cost of sales), {営業利益|えいぎょうりえき} (operating profit), and {当期純利益|とうきじゅんりえき} (net income).\n\nCOMMON COLLOCATIONS:\n- {損益計算書|そんえきけいさんしょ}を{作成|さくせい}する: to prepare an income statement\n- {損益計算書|そんえきけいさんしょ}の{分析|ぶんせき}: income statement analysis\n- {連結|れんけつ}{損益計算書|そんえきけいさんしょ}: consolidated income statement\n\nRELATED TERMS:\n- {貸借対照表|たいしゃくたいしょうひょう}: balance sheet (B/S)\n- {財務諸表|ざいむしょひょう}: financial statements\n- {売上|うりあげ}: sales; revenue\n- {利益|りえき}: profit",
+  "notes": "Literally \"profit-loss calculation document.\" Often abbreviated as P/L (from the English \"profit and loss\"). Shows how much money a company earned and spent over a period such as a quarter or fiscal year.\n\nThe key line items include {売上高|うりあげだか} (revenue), {売上原価|うりあげげんか} (cost of sales), {営業利益|えいぎょうりえき} (operating profit), and {当期純利益|とうきじゅんりえき} (net income).\n\nCOMMON COLLOCATIONS:\n- {損益計算書|そんえきけいさんしょ}を{作成|さくせい}する: to prepare an income statement\n- {損益計算書|そんえきけいさんしょ}の{分析|ぶんせき}: income statement analysis\n- {連結|れんけつ}{損益計算書|そんえきけいさんしょ}: consolidated income statement\n\nRELATED WORDS:\n- {貸借対照表|たいしゃくたいしょうひょう}: balance sheet (B/S)\n- {財務諸表|ざいむしょひょう}: financial statements\n- {売上|うりあげ}: sales; revenue\n- {利益|りえき}: profit",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24521_taishakutaishouhyou",
+      "reading": "たいしゃくたいしょうひょう",
+      "headword": "{貸借対照表|たいしゃくたいしょうひょう}",
+      "label": "balance sheet"
+    },
+    {
+      "type": "related",
+      "target_id": "24870_zaimushohyou",
+      "reading": "ざいむしょひょう",
+      "headword": "{財務諸表|ざいむしょひょう}",
+      "label": "financial statements"
+    },
+    {
+      "type": "related",
+      "target_id": "04102_uriage",
+      "reading": "うりあげ",
+      "headword": "{売上|うりあげ}",
+      "label": "sales"
+    },
+    {
+      "type": "related",
+      "target_id": "03673_rieki",
+      "reading": "りえき",
+      "headword": "{利益|りえき}",
+      "label": "profit"
+    },
+    {
+      "type": "related",
+      "target_id": "19601_kessansho",
+      "reading": "けっさんしょ",
+      "headword": "{決算書|けっさんしょ}",
+      "label": "financial statement"
+    },
+    {
+      "type": "related",
+      "target_id": "25816_kessanhoukoku",
+      "reading": "けっさんほうこく",
+      "headword": "{決算報告|けっさんほうこく}",
+      "label": "financial report"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business", "finance"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "finance"
+      ]
     },
     "created": "2026-04-19T13:08:49Z",
-    "modified": "2026-04-19T13:08:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

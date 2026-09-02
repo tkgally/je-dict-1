@@ -2,7 +2,7 @@
   "id": "01398_kenbutsu",
   "headword": "{見物|けんぶつ}",
   "reading": "けんぶつ",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sightseeing, watching",
   "definitions": [
     {
@@ -119,10 +119,25 @@
     }
   ],
   "notes": "{見物|けんぶつ} means sightseeing or watching, depending on context.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{見物|けんぶつ}⟦する→する：00392_suru⟧\n\nVERBAL USAGE:\n{見物|けんぶつ}⟦する→する：00392_suru⟧ is the verbal form (to go sightseeing, to watch).\n\nCOMMON PATTERNS:\n- X⟦を→を：00422_wo⟧{見物|けんぶつ}⟦する→する：00392_suru⟧: to go see X (sightseeing)\n- X⟦の→の：09472_no⟧{見物|けんぶつ}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go watch X (event)\n- {見物|けんぶつ}⟦{客|きゃく}→客：00865_kyaku⟧/⟦{見物人|けんぶつにん}→見物人：27722_kenbutsunin⟧: spectators, onlookers\n\nCOMMON COLLOCATIONS:\n- ⟦{桜|さくら}→桜：02212_sakura⟧⟦を→を：00422_wo⟧{見物|けんぶつ}⟦する→する：00392_suru⟧: to view cherry blossoms\n- ⟦{祭|まつ}り→祭り：03735_matsuri⟧⟦を→を：00422_wo⟧{見物|けんぶつ}⟦する→する：00392_suru⟧: to watch a festival\n- ⟦{名所|めいしょ}→名所：08164_meisho⟧⟦を→を：00422_wo⟧{見物|けんぶつ}⟦する→する：00392_suru⟧: to visit famous places\n\nSIMILAR WORDS:\n- ⟦{観光|かんこう}→観光：00173_kankou⟧: tourism (more general)\n- ⟦{観覧|かんらん}→観覧：08382_kanran⟧: viewing (more formal)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00173_kankou",
+      "reading": "かんこう",
+      "headword": "{観光|かんこう}",
+      "label": "tourism"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08382_kanran",
+      "reading": "かんらん",
+      "headword": "{観覧|かんらん}",
+      "label": "viewing"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:10:58Z",
-    "modified": "2026-08-09T12:26:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

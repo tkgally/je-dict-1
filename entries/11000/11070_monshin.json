@@ -3,7 +3,7 @@
   "id": "11070_monshin",
   "headword": "{問診|もんしん}",
   "reading": "もんしん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "medical interview, patient history-taking",
   "conjugation": {
     "type": "suru",
@@ -142,11 +142,18 @@
       "headword": "カルテ",
       "label": "medical chart",
       "target_id": "11069_karute"
+    },
+    {
+      "type": "related",
+      "target_id": "03259_shinsatsu",
+      "reading": "しんさつ",
+      "headword": "{診察|しんさつ}",
+      "label": "medical examination"
     }
   ],
   "metadata": {
     "created": "2026-02-13T05:17:28Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

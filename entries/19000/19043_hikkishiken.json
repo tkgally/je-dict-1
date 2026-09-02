@@ -17,7 +17,9 @@
       "id": "19043_hikkishiken_ex1",
       "japanese": "{筆記試験|ひっきしけん}に{合格|ごうかく}した。",
       "english": "I passed the written exam.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19043_hikkishiken_ex2",
       "japanese": "{面接|めんせつ}の{前|まえ}に{筆記試験|ひっきしけん}がある。",
       "english": "There is a written exam before the interview.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "19043_hikkishiken_ex3",
       "japanese": "{運転免許|うんてんめんきょ}を{取|と}るには{筆記試験|ひっきしけん}と{実技試験|じつぎしけん}の{両方|りょうほう}に{受|う}からなければならない。",
       "english": "To get a driver's license, you must pass both the written and practical exams.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {筆記|ひっき} (writing) + {試験|しけん} (exam). A test where answers are written by hand, as opposed to oral or practical exams.\n\nCOMMON COLLOCATIONS:\n- {筆記試験|ひっきしけん}を{受|う}ける: to take a written exam\n- {筆記試験|ひっきしけん}に{合格|ごうかく}する: to pass a written exam\n- {筆記試験|ひっきしけん}に{落|お}ちる: to fail a written exam\n\nCONTRASTS:\n- {面接|めんせつ}: interview\n- {口述試験|こうじゅつしけん}: oral exam\n- {実技試験|じつぎしけん}: practical exam\n\nCULTURAL NOTE:\nIn Japan, many hiring processes include a {筆記試験|ひっきしけん} covering general knowledge or aptitude (often the SPI test). {入学試験|にゅうがくしけん} (entrance exams) and {資格試験|しかくしけん} (certification tests) also typically have a written component.",
+  "notes": "Compound of {筆記|ひっき} (writing) + {試験|しけん} (exam). A test where answers are written by hand, as opposed to oral or practical exams.\n\nCOMMON COLLOCATIONS:\n- {筆記試験|ひっきしけん}を{受|う}ける: to take a written exam\n- {筆記試験|ひっきしけん}に{合格|ごうかく}する: to pass a written exam\n- {筆記試験|ひっきしけん}に{落|お}ちる: to fail a written exam\n\nSIMILAR WORDS:\n- {面接|めんせつ}: interview\n- {口述試験|こうじゅつしけん}: oral exam\n- {実技試験|じつぎしけん}: practical exam\n\nCULTURAL NOTE:\nIn Japan, many hiring processes include a {筆記試験|ひっきしけん} covering general knowledge or aptitude (often the SPI test). {入学試験|にゅうがくしけん} (entrance exams) and {資格試験|しかくしけん} (certification tests) also typically have a written component.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01100_mensetsu",
+      "reading": "めんせつ",
+      "headword": "{面接|めんせつ}",
+      "label": "interview"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22152_koutoushiken",
+      "reading": "こうとうしけん",
+      "headword": "{口頭|こうとう}{試験|しけん}",
+      "label": "oral examination"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-03-24T04:38:54Z",
-    "modified": "2026-03-31T03:18:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

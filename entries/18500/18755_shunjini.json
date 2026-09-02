@@ -17,7 +17,9 @@
       "id": "18755_shunjini_ex1",
       "japanese": "{瞬時|しゅんじ}に{判断|はんだん}する。",
       "english": "To judge in an instant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18755_shunjini_ex2",
       "japanese": "{火|ひ}は{瞬時|しゅんじ}に{建物|たてもの}{全体|ぜんたい}に{広|ひろ}がった。",
       "english": "The fire spread to the entire building in an instant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "18755_shunjini_ex3",
       "japanese": "AIが{瞬時|しゅんじ}に{大量|たいりょう}のデータを{処理|しょり}する{時代|じだい}になった。",
       "english": "We have entered an era where AI processes vast amounts of data instantaneously.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {瞬|しゅん} (blink/moment) + {時|じ} (time) + に (adverbial particle). The base noun {瞬時|しゅんじ} can also be used in other constructions: {瞬時|しゅんじ}の{判断|はんだん} (split-second judgment). Common collocations: {瞬時|しゅんじ}に{判断|はんだん}する (judge instantly), {瞬時|しゅんじ}に{反応|はんのう}する (react instantly), {瞬時|しゅんじ}に{理解|りかい}する (understand instantly). Similar expressions: {一瞬|いっしゅん}で (in a moment), たちまち (immediately).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11861_sokuza",
+      "reading": "そくざ",
+      "headword": "{即座|そくざ}",
+      "label": "immediately, on the spot, instantly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28028_isshunde",
+      "reading": "いっしゅんで",
+      "headword": "一瞬で",
+      "label": "in an instant"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     },
     "created": "2026-03-23T02:05:01Z",
-    "modified": "2026-03-23T02:05:01Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

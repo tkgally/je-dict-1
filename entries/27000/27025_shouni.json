@@ -17,7 +17,9 @@
       "id": "27025_shouni_ex1",
       "japanese": "{小児科|しょうにか}に{行|い}く。",
       "english": "To go to the pediatrics department.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27025_shouni_ex2",
       "japanese": "この{薬|くすり}は{小児|しょうに}には{使用|しよう}できません。",
       "english": "This medicine cannot be used for children.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,55 @@
       "id": "27025_shouni_ex3",
       "japanese": "{小児|しょうに}の{予防接種|よぼうせっしゅ}は{生後|せいご}{二|に}か{月|げつ}から{始|はじ}まる。",
       "english": "Children's vaccinations begin from two months after birth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Primarily used in medical, legal, and administrative contexts. In everyday conversation, {子|こ}ども is used instead. The most commonly encountered compound is {小児科|しょうにか} (pediatrics), which every parent in Japan will use.\n\nCOMMON COLLOCATIONS:\n- {小児科|しょうにか}: pediatrics; children's medicine\n- {小児科医|しょうにかい}: pediatrician\n- {小児|しょうに}{病棟|びょうとう}: children's ward\n- {小児|しょうに}ぜんそく: childhood asthma\n- {小児|しょうに}{用|よう}: for children (on packaging and dosage)\n\nSIMILAR WORDS:\n- {子|こ}ども: child — the standard everyday word\n- {幼児|ようじ}: infant; toddler — specifically younger children, roughly ages 1-6\n- {乳児|にゅうじ}: baby; infant — specifically babies under one year old\n- {児童|じどう}: schoolchild — used in educational and legal contexts for elementary-age children",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12478_youji",
+      "reading": "ようじ",
+      "headword": "{幼児|ようじ}",
+      "label": "infant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11414_nyuuji",
+      "reading": "にゅうじ",
+      "headword": "{乳児|にゅうじ}",
+      "label": "baby"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03340_jidou",
+      "reading": "じどう",
+      "headword": "{児童|じどう}",
+      "label": "schoolchild"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person", "health"],
-      "domain": ["medical"]
+      "semantic": [
+        "person",
+        "health"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-05-06T14:21:12Z",
-    "modified": "2026-08-07T06:31:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

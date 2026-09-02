@@ -17,7 +17,9 @@
       "id": "22462_chauke_ex1",
       "japanese": "{茶請|ちゃう}けに{煎餅|せんべい}を{出|だ}す。",
       "english": "To serve rice crackers as a tea snack.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22462_chauke_ex2",
       "japanese": "{茶請|ちゃう}けに{何|なに}か{甘|あま}いものはありますか。",
       "english": "Do you have something sweet to go with the tea?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "22462_chauke_ex3",
       "japanese": "{祖母|そぼ}の{家|いえ}に{行|い}くと、いつも{手作|てづく}りの{茶請|ちゃう}けが{用意|ようい}されている。",
       "english": "Whenever I visit my grandmother's house, she always has homemade tea snacks ready.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {茶|ちゃ} (tea) + {請|う}け (receiving, accompanying). Refers to snacks served alongside tea to complement the flavor. In Japanese culture, offering tea with an appropriate snack is a basic form of hospitality.\n\nCOMMON COLLOCATIONS:\n- {茶請|ちゃう}けに{出|だ}す: to serve as a tea snack\n- {茶請|ちゃう}けの{菓子|かし}: tea sweets\n- {茶請|ちゃう}けに{漬物|つけもの}: pickles as a tea snack\n\nCOMMON TEA SNACKS:\n- {煎餅|せんべい}: rice crackers\n- {饅頭|まんじゅう}: steamed buns with sweet filling\n- {羊羹|ようかん}: sweet bean jelly\n- {漬物|つけもの}: pickles (with green tea)\n\nSIMILAR WORDS:\n- {茶菓子|ちゃがし}: tea sweets — more specifically refers to sweets (wagashi) paired with tea\n- {茶|ちゃ}の{子|こ}: tea snack — an older, somewhat literary synonym\n- おやつ: snack — a general term for between-meal snacks, not specifically paired with tea",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17000_chagashi",
+      "reading": "ちゃがし",
+      "headword": "{茶菓子|ちゃがし}",
+      "label": "tea sweets"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17921_oyatsu",
+      "reading": "おやつ",
+      "headword": "おやつ",
+      "label": "snack"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "culture"]
+      "semantic": [
+        "food",
+        "culture"
+      ]
     },
     "created": "2026-04-06T12:14:07Z",
-    "modified": "2026-04-06T12:14:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

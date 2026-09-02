@@ -3,7 +3,7 @@
   "headword": "{妄信|もうしん}する",
   "reading": "もうしんする",
   "romaji": "moushinsuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to believe blindly; to have blind faith in",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Composed of {妄|もう} (delusion; recklessness) + {信|しん} (belief; faith) + する. Strongly negative — always implies that the belief is irrational or misguided. Used critically, often in contexts about misinformation, propaganda, superstition, or cults.\n\nCOMMON COLLOCATIONS:\n- {情報|じょうほう}を{妄信|もうしん}する: to blindly trust information\n- {権威|けんい}を{妄信|もうしん}する: to have blind faith in authority\n- {妄信|もうしん}してはいけない: one must not blindly believe\n- {妄信|もうしん}{的|てき}な: blindly faithful; uncritical\n\nSIMILAR WORDS:\n- {信|しん}じる: to believe — neutral; simply means to believe or trust\n- {盲信|もうしん}する: to believe blindly — same pronunciation but different kanji ({盲|もう} = blind); essentially synonymous, with {盲信|もうしん} being slightly more common\n- {鵜呑|うの}みにする: to swallow whole — to accept without question; more colloquial",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01111_shinjiru",
+      "reading": "しんじる",
+      "headword": "{信|しん}じる",
+      "label": "to believe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09239_moushin",
+      "reading": "もうしん",
+      "headword": "{盲信|もうしん}",
+      "label": "to believe blindly"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,6 +68,7 @@
       "pos": [
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "cognition",
         "communication"
@@ -60,7 +76,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T15:16:58Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

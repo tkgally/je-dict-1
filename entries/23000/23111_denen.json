@@ -22,7 +22,9 @@
       "id": "23111_denen_ex1",
       "japanese": "{田園|でんえん}が{広|ひろ}がっている。",
       "english": "The countryside stretches out before us.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "23111_denen_ex2",
       "japanese": "{窓|まど}から{美|うつく}しい{田園|でんえん}{風景|ふうけい}が{見|み}えた。",
       "english": "A beautiful rural landscape was visible from the window.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "23111_denen_ex3",
       "japanese": "{都会|とかい}を{離|はな}れて{田園|でんえん}{地帯|ちたい}に{引|ひ}っ{越|こ}した。",
       "english": "I left the city and moved to a rural area.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "23111_denen_ex4",
       "japanese": "{田園|でんえん}{生活|せいかつ}に{憧|あこが}れる。",
       "english": "I long for a pastoral life.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "23111_denen_ex5",
       "japanese": "ベートーヴェンの「{田園|でんえん}」は{有名|ゆうめい}な{交響曲|こうきょうきょく}だ。",
       "english": "Beethoven's 'Pastoral' is a famous symphony.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,52 @@
       "id": "23111_denen_ex6",
       "japanese": "この{小説|しょうせつ}は{田園|でんえん}の{暮|く}らしを{美|うつく}しく{描|えが}いている。",
       "english": "This novel beautifully depicts pastoral life.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {田|でん} (rice field) and {園|えん} (garden, park). The word paints a picture of open farmland and fields, conveying a peaceful, often idealized image of the countryside. It has literary and aesthetic overtones that {田舎|いなか} (countryside) lacks.\n\nCOMMON COLLOCATIONS:\n- {田園|でんえん}{風景|ふうけい}: rural landscape\n- {田園|でんえん}{地帯|ちたい}: rural area\n- {田園|でんえん}{生活|せいかつ}: pastoral life\n- {田園|でんえん}{都市|とし}: garden city (an urban planning concept)\n\nSIMILAR WORDS:\n- {田舎|いなか}: countryside — more everyday and conversational; can carry a negative nuance of being backward\n- {農村|のうそん}: farming village — focuses specifically on agricultural communities\n- {郊外|こうがい}: suburbs — the area between city and countryside",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01320_inaka",
+      "reading": "いなか",
+      "headword": "{田舎|いなか}",
+      "label": "countryside"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04292_nouson",
+      "reading": "のうそん",
+      "headword": "{農村|のうそん}",
+      "label": "farming village"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01403_kougai",
+      "reading": "こうがい",
+      "headword": "{郊外|こうがい}",
+      "label": "suburbs"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["geography", "nature"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "geography",
+        "nature"
+      ],
       "formality": "formal",
       "politeness": "plain"
     },
     "created": "2026-04-08T19:19:10Z",
-    "modified": "2026-04-08T19:19:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

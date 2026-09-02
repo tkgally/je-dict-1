@@ -3,7 +3,7 @@
   "headword": "{洗浴|せんよく}",
   "reading": "せんよく",
   "romaji": "senyoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "washing and bathing; bathing",
   "definitions": [
     {
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {洗|せん} (wash) and {浴|よく} (bathe). A formal compound that emphasizes both washing and soaking. Commonly encountered in healthcare, nursing care, and institutional settings where bathing assistance is a routine task.\n\nIn everyday Japanese, people say お{風呂|ふろ}に{入|はい}る (to take a bath) or シャワーを{浴|あ}びる (to take a shower). {洗浴|せんよく} belongs to written or professional registers.\n\nCOMMON COLLOCATIONS:\n- {洗浴|せんよく}{介助|かいじょ}: bathing assistance\n- {洗浴|せんよく}{施設|しせつ}: bathing facilities\n- {洗浴|せんよく}{設備|せつび}: bathing equipment\n- {洗浴|せんよく}サービス: bathing service (home care)\n\nRELATED TERMS:\n- {入浴|にゅうよく}: bathing — the most common formal term for taking a bath\n- {沐浴|もくよく}: bathing (a baby); ritual bathing — literary, often for newborn bathing or religious cleansing\n- お{風呂|ふろ}: bath — the everyday colloquial term",
-  "cross_references": [],
+  "notes": "Composed of {洗|せん} (wash) and {浴|よく} (bathe). A formal compound that emphasizes both washing and soaking. Commonly encountered in healthcare, nursing care, and institutional settings where bathing assistance is a routine task.\n\nIn everyday Japanese, people say お{風呂|ふろ}に{入|はい}る (to take a bath) or シャワーを{浴|あ}びる (to take a shower). {洗浴|せんよく} belongs to written or professional registers.\n\nCOMMON COLLOCATIONS:\n- {洗浴|せんよく}{介助|かいじょ}: bathing assistance\n- {洗浴|せんよく}{施設|しせつ}: bathing facilities\n- {洗浴|せんよく}{設備|せつび}: bathing equipment\n- {洗浴|せんよく}サービス: bathing service (home care)\n\nRELATED WORDS:\n- {入浴|にゅうよく}: bathing — the most common formal term for taking a bath\n- {沐浴|もくよく}: bathing (a baby); ritual bathing — literary, often for newborn bathing or religious cleansing\n- お{風呂|ふろ}: bath — the everyday colloquial term",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11642_nyuuyoku",
+      "reading": "にゅうよく",
+      "headword": "{入浴|にゅうよく}",
+      "label": "bathing"
+    },
+    {
+      "type": "related",
+      "target_id": "00802_ofuro",
+      "reading": "おふろ",
+      "headword": "お{風呂|ふろ}",
+      "label": "bath"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +69,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "health",
         "daily-life"
@@ -61,7 +77,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-30T16:25:28Z",
-    "modified": "2026-04-30T16:25:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

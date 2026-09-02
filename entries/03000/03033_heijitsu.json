@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{平日|へいじつ} means a regular weekday — any day that is not a weekend or public holiday. In Japan, many businesses offer different {平日|へいじつ} rates and schedules.\n\nCOMMON PATTERNS:\n- {平日|へいじつ}のみ: weekdays only\n- {平日|へいじつ}⟦{料金|りょうきん}→料金：03797_ryoukin⟧: weekday rate (often cheaper)\n- {平日|へいじつ}ダイヤ: weekday timetable/schedule\n- {平日|へいじつ}⟦{限定|げんてい}→限定：10997_gentei⟧: weekday-only (deal, menu, etc.)\n\nCONTRAST:\n- {平日|へいじつ}: weekday (Mon–Fri, non-holiday)\n- ⟦{休日|きゅうじつ}→休日：03028_kyuujitsu⟧: day off, holiday\n- ⟦{祝日|しゅくじつ}→祝日：07588_shukujitsu⟧: national/public holiday\n- ⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧: weekend\n\nNote: In Japan, ⟦{土曜日|どようび}→土曜日：00621_doyoubi⟧ (Saturday) is sometimes treated as a {平日|へいじつ} and sometimes as a ⟦{休日|きゅうじつ}→休日：03028_kyuujitsu⟧, depending on the context.",
+  "notes": "{平日|へいじつ} means a regular weekday — any day that is not a weekend or public holiday. In Japan, many businesses offer different {平日|へいじつ} rates and schedules.\n\nCOMMON PATTERNS:\n- {平日|へいじつ}のみ: weekdays only\n- {平日|へいじつ}⟦{料金|りょうきん}→料金：03797_ryoukin⟧: weekday rate (often cheaper)\n- {平日|へいじつ}ダイヤ: weekday timetable/schedule\n- {平日|へいじつ}⟦{限定|げんてい}→限定：10997_gentei⟧: weekday-only (deal, menu, etc.)\n\nSIMILAR WORDS:\n- {平日|へいじつ}: weekday (Mon–Fri, non-holiday)\n- ⟦{休日|きゅうじつ}→休日：03028_kyuujitsu⟧: day off, holiday\n- ⟦{祝日|しゅくじつ}→祝日：07588_shukujitsu⟧: national/public holiday\n- ⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧: weekend\n\nNote: In Japan, ⟦{土曜日|どようび}→土曜日：00621_doyoubi⟧ (Saturday) is sometimes treated as a {平日|へいじつ} and sometimes as a ⟦{休日|きゅうじつ}→休日：03028_kyuujitsu⟧, depending on the context.",
   "cross_references": [
     {
       "type": "antonym",
@@ -78,11 +78,25 @@
       "reading": "しゅうまつ",
       "headword": "{週末|しゅうまつ}",
       "label": "weekend"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07588_shukujitsu",
+      "reading": "しゅくじつ",
+      "headword": "{祝日|しゅくじつ}",
+      "label": "national/public holiday"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26866_eigyoubi",
+      "reading": "えいぎょうび",
+      "headword": "{営業日|えいぎょうび}",
+      "label": "business day"
     }
   ],
   "metadata": {
     "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-05-23T15:11:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -18,7 +18,9 @@
       "id": "29229_shukiobiunten_ex1",
       "japanese": "{酒気帯|しゅきお}び{運転|うんてん}で{摘発|てきはつ}された。",
       "english": "He was caught driving under the influence.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -26,7 +28,9 @@
       "id": "29229_shukiobiunten_ex2",
       "japanese": "{少|すこ}しでもお{酒|さけ}を{飲|の}んだら{酒気帯|しゅきお}び{運転|うんてん}になる{可能性|かのうせい}がある。",
       "english": "Even drinking a small amount of alcohol can result in driving under the influence.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -34,23 +38,54 @@
       "id": "29229_shukiobiunten_ex3",
       "japanese": "{酒気帯|しゅきお}び{運転|うんてん}は{免許停止|めんきょていし}や{罰金|ばっきん}の{対象|たいしょう}になる{違反|いはん}だ。",
       "english": "Driving under the influence is a violation subject to license suspension and fines.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A legal traffic offense distinct from {飲酒運転|いんしゅうんてん} (drunk driving). {酒気帯|しゅきお}び{運転|うんてん} refers specifically to driving with a blood alcohol concentration of 0.15mg/L or above (but below the 0.25mg/L threshold for the more serious charge).\n\nCOMMON COLLOCATIONS:\n- {酒気帯|しゅきお}び{運転|うんてん}で{捕|つか}まる: to be arrested for DUI\n- {酒気帯|しゅきお}び{運転|うんてん}の{疑い|うたがい}: suspicion of DUI\n\nSIMILAR WORDS:\n- {飲酒運転|いんしゅうんてん}: drunk driving — the more serious offense involving higher blood alcohol levels",
-  "cross_references": [],
+  "notes": "A legal traffic offense distinct from {飲酒運転|いんしゅうんてん} (drunk driving). {酒気帯|しゅきお}び{運転|うんてん} refers specifically to driving with a blood alcohol concentration of 0.15mg/L or above (but below the 0.25mg/L threshold for the more serious charge).\n\nCOMMON COLLOCATIONS:\n- {酒気帯|しゅきお}び{運転|うんてん}で{捕|つか}まる: to be arrested for DUI\n- {酒気帯|しゅきお}び{運転|うんてん}の{疑|うたが}い: suspicion of DUI\n\nSIMILAR WORDS:\n- {飲酒運転|いんしゅうんてん}: drunk driving — the more serious offense involving higher blood alcohol levels",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18486_inshuunten",
+      "reading": "いんしゅうんてん",
+      "headword": "{飲酒運転|いんしゅうんてん}",
+      "label": "drunk driving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25104_shuyoiunten",
+      "reading": "しゅよいうんてん",
+      "headword": "{酒酔|しゅよ}い{運転|うんてん}",
+      "label": "drunk driving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29230_dakouunten",
+      "reading": "だこううんてん",
+      "headword": "{蛇行運転|だこううんてん}",
+      "label": "reckless weaving driving"
+    }
+  ],
   "metadata": {
     "created": "2026-06-13T21:22:42Z",
-    "modified": "2026-06-13T21:22:42Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "law"],
-      "domain": ["legal"]
+      "semantic": [
+        "transportation",
+        "law"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

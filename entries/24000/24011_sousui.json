@@ -3,7 +3,7 @@
   "headword": "{送水|そうすい}",
   "reading": "そうすい",
   "romaji": "sousui",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "water supply; pumping of water; water transmission",
   "definitions": [
     {
@@ -56,6 +56,36 @@
   ],
   "notes": "Composed of {送|そう} (to send) and {水|すい} (water).\n\nUSAGE:\n{送水|そうすい} is primarily a technical or infrastructural term used in announcements by water utilities, fire-department reports, and engineering contexts. It refers specifically to the action of moving water through a conduit. In everyday home conversation about having running water in the tap, {水道|すいどう} (plumbing, tap water) is more usual. {送水|そうすい} is a する-verb, so {送水|そうすい}する means \"to pump / send water.\"\n\nCOMMON COLLOCATIONS:\n- {送水|そうすい}する: to send / pump water\n- {送水|そうすい}が{止|と}まる: the water supply stops\n- {送水|そうすい}{管|かん}: water supply pipe\n- {送水|そうすい}ポンプ: water pump (for supply)\n- {送水|そうすい}{停止|ていし}: suspension of water supply\n\nSIMILAR WORDS:\n- {給水|きゅうすい}: water supply (to end users) — focuses on the delivery side, often used for supplying drinking water in emergencies or for a specific building\n- {排水|はいすい}: drainage — the opposite direction, sending water out\n- {取水|しゅすい}: water intake — taking water from a river or reservoir, the first stage of the water cycle\n- {配水|はいすい}: water distribution — distributing the water within a municipal network (note: same pronunciation as {排水|はいすい} drainage)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15031_kyuusui",
+      "reading": "きゅうすい",
+      "headword": "{給水|きゅうすい}",
+      "label": "water supply"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11104_haisui",
+      "reading": "はいすい",
+      "headword": "{排水|はいすい}",
+      "label": "drainage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24433_haisui",
+      "reading": "はいすい",
+      "headword": "{配水|はいすい}",
+      "label": "water distribution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24453_assou",
+      "reading": "あっそう",
+      "headword": "{圧送|あっそう}",
+      "label": "pressure feeding"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -72,7 +102,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-15T19:11:45Z",
-    "modified": "2026-04-15T19:11:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

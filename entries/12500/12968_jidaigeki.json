@@ -19,7 +19,9 @@
       "english": "My grandfather loves period dramas.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12968_jidaigeki_ex2",
@@ -27,7 +29,9 @@
       "english": "This period drama is set in the Edo period.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12968_jidaigeki_ex3",
@@ -35,21 +39,42 @@
       "english": "Recently, period dramas have become popular even among younger generations, and they are now being streamed overseas as well.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nTypically refers to Japanese historical dramas set before the Meiji era (pre-1868), especially the Edo period. Iconic examples include {水戸黄門|みとこうもん} and {大河|たいが}ドラマ (NHK's year-long historical drama series). The genre is most associated with television, but also includes film and kabuki-influenced theater.\n\nCOMMON COLLOCATIONS:\n- {時代劇|じだいげき}を{見|み}る: to watch a period drama\n- {時代劇|じだいげき}の{俳優|はいゆう}: period drama actor\n- {大河|たいが}ドラマ: NHK historical drama series\n\nSIMILAR WORDS:\n- {現代劇|げんだいげき}: contemporary drama\n- {歴史|れきし}ドラマ: historical drama (broader, includes non-Japanese)\n- ドラマ: drama, TV series (general)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03867_dorama",
+      "reading": "どらま",
+      "headword": "ドラマ",
+      "label": "drama, TV series"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27951_rekishigeki",
+      "reading": "れきしげき",
+      "headword": "{歴史劇|れきしげき}",
+      "label": "historical drama"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T23:43:21Z",
-    "modified": "2026-02-22T23:43:21Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     }
   }
 }

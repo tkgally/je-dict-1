@@ -3,7 +3,7 @@
   "headword": "{就学前|しゅうがくまえ}",
   "reading": "しゅうがくまえ",
   "romaji": "shuugakumae",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "preschool age; before starting school",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "27253_shuugakumae_ex1",
       "japanese": "{就学前|しゅうがくまえ}の{子|こ}ども。",
       "english": "A preschool-age child.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27253_shuugakumae_ex2",
       "japanese": "{就学前|しゅうがくまえ}の{教育|きょういく}が{重要視|じゅうようし}されている。",
       "english": "Preschool education is considered important.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,39 @@
       "id": "27253_shuugakumae_ex3",
       "japanese": "{就学前|しゅうがくまえ}の{段階|だんかい}で、ひらがなの{読|よ}み{書|か}きを{習|なら}う{子|こ}どもが{増|ふ}えている。",
       "english": "More children are learning to read and write hiragana at the preschool stage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {就学|しゅうがく} (entering school; starting compulsory education) + {前|まえ} (before). In Japan, compulsory education begins at age 6 with {小学校|しょうがっこう} (elementary school), so {就学前|しゅうがくまえ} refers to children under 6.\n\nUsed as a no-adjective modifier: {就学前|しゅうがくまえ}の{児童|じどう} (preschool children).\n\nThe {前|まえ} suffix pattern is productive for time expressions: {出発前|しゅっぱつまえ} (before departure), {結婚前|けっこんまえ} (before marriage).\n\nCOMMON COLLOCATIONS:\n- {就学前|しゅうがくまえ}{教育|きょういく}: preschool education\n- {就学前|しゅうがくまえ}{児童|じどう}: preschool-age children\n- {就学前|しゅうがくまえ}{健康|けんこう}{診断|しんだん}: pre-enrollment health checkup\n\nSIMILAR WORDS:\n- {未就学|みしゅうがく}: not yet enrolled in school — more formal, used in official documents\n- {幼児|ようじ}: young child; toddler — refers to the age group (roughly 1-6) rather than the school status\n- {学齢|がくれい}: school age — the age at which compulsory education begins",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12478_youji",
+      "reading": "ようじ",
+      "headword": "{幼児|ようじ}",
+      "label": "young child"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"],
+      "semantic": [
+        "education"
+      ],
       "domain": []
     },
     "created": "2026-05-08T11:19:53Z",
-    "modified": "2026-05-08T11:19:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

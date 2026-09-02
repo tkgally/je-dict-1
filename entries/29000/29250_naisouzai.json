@@ -17,7 +17,9 @@
       "id": "29250_naisouzai_ex1",
       "japanese": "{内装材|ないそうざい}を{選|えら}ぶ。",
       "english": "We choose the interior materials.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29250_naisouzai_ex2",
       "japanese": "{自然|しぜん}{素材|そざい}の{内装材|ないそうざい}が{人気|にんき}だ。",
       "english": "Natural interior materials are popular.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "29250_naisouzai_ex3",
       "japanese": "{部屋|へや}の{雰囲気|ふんいき}は{内装材|ないそうざい}の{色|いろ}や{質感|しつかん}で{大|おお}きく{変|か}わる。",
       "english": "A room's atmosphere changes greatly depending on the color and texture of the interior materials.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from {内装|ないそう} (interior fittings, interior decoration) + {材|ざい} (material). Used in construction, renovation, and car-customization contexts.\n\nCOMMON COLLOCATIONS:\n- {内装材|ないそうざい}を{張|は}り{替|か}える: to replace the interior materials\n- {木|き}の{内装材|ないそうざい}: wooden interior materials\n\nSIMILAR WORDS:\n- {外装材|がいそうざい}: exterior material — the counterpart used for the outside of a building\n- {建材|けんざい}: building material — a broader term covering all materials used in construction",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26745_gaisouzai",
+      "reading": "がいそうざい",
+      "headword": "{外装材|がいそうざい}",
+      "label": "exterior material"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12646_kenzai",
+      "reading": "けんざい",
+      "headword": "{建材|けんざい}",
+      "label": "building material"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["building"],
-      "domain": ["technical"]
+      "politeness": "plain",
+      "semantic": [
+        "building"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-06-14T12:18:51Z",
-    "modified": "2026-06-14T12:18:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

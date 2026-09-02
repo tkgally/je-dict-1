@@ -2,7 +2,7 @@
   "id": "02748_kougeki",
   "headword": "{攻撃|こうげき}",
   "reading": "こうげき",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "attack, offense, assault",
   "conjugation": {
     "type": "suru",
@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "{攻撃|こうげき} means attack, both physical and verbal.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{攻撃|こうげき}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {攻撃|こうげき}⟦する→する：00392_suru⟧ (to attack)\n- {攻撃|こうげき}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive an attack)\n- {攻撃|こうげき}⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧ (to launch an attack)\n\nTYPES OF ATTACKS:\n- ⟦{軍事|ぐんじ}→軍事：14392_gunji⟧{攻撃|こうげき} (military attack)\n- ⟦サイバー→サイバー：28281_saibaa⟧{攻撃|こうげき} (cyberattack)\n- ⟦テロ→テロ：noentry⟧{攻撃|こうげき} (terrorist attack)\n- ⟦{人身|じんしん}→人身：noentry⟧{攻撃|こうげき} (personal attack)\n\nCONTRAST:\n- {攻撃|こうげき} (offense, attack) ↔ ⟦{防御|ぼうぎょ}→防御：14575_bougyo⟧/⟦{守備|しゅび}→守備：15509_shubi⟧ (defense)\n\nCOMPOUND WORDS:\n- {攻撃|こうげき}⟦{的|てき}→〜的：09839_teki⟧ (aggressive)\n- {攻撃|こうげき}⟦{力|りょく}→力：noentry⟧ (attacking power)",
+  "notes": "{攻撃|こうげき} means attack, both physical and verbal.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{攻撃|こうげき}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {攻撃|こうげき}⟦する→する：00392_suru⟧ (to attack)\n- {攻撃|こうげき}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive an attack)\n- {攻撃|こうげき}⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧ (to launch an attack)\n\nTYPES OF ATTACKS:\n- ⟦{軍事|ぐんじ}→軍事：14392_gunji⟧{攻撃|こうげき} (military attack)\n- ⟦サイバー→サイバー：28281_saibaa⟧{攻撃|こうげき} (cyberattack)\n- ⟦テロ→テロ：noentry⟧{攻撃|こうげき} (terrorist attack)\n- ⟦{人身|じんしん}→人身：noentry⟧{攻撃|こうげき} (personal attack)\n\nSIMILAR WORDS:\n- {攻撃|こうげき} (offense, attack) ↔ ⟦{防御|ぼうぎょ}→防御：14575_bougyo⟧/⟦{守備|しゅび}→守備：15509_shubi⟧ (defense)\n\nCOMPOUNDS:\n- {攻撃|こうげき}⟦{的|てき}→〜的：09839_teki⟧ (aggressive)\n- {攻撃|こうげき}⟦{力|りょく}→力：noentry⟧ (attacking power)",
   "cross_references": [
     {
       "type": "antonym",
@@ -223,11 +223,32 @@
       "reading": "しゅび",
       "headword": "{守備|しゅび}",
       "label": "defense, fielding"
+    },
+    {
+      "type": "related",
+      "target_id": "19779_hougeki",
+      "reading": "ほうげき",
+      "headword": "{砲撃|ほうげき}",
+      "label": "shelling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23173_shutsugeki",
+      "reading": "しゅつげき",
+      "headword": "{出撃|しゅつげき}",
+      "label": "sortie"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24059_koushu",
+      "reading": "こうしゅ",
+      "headword": "{攻守|こうしゅ}",
+      "label": "offense and defense"
     }
   ],
   "metadata": {
     "created": "2026-01-11T07:50:15Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

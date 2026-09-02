@@ -46,6 +46,36 @@
   ],
   "notes": "Compound of {水|みず} (water) + {炊|た}く (to simmer/cook). The defining feature is that the broth starts as plain water — flavor comes from the chicken itself.\n\nCOMMON COLLOCATIONS:\n- {博多|はかた}{水炊|みずた}き: Hakata-style mizutaki\n- {鶏|とり}の{水炊|みずた}き: chicken mizutaki\n- {水炊|みずた}きの{出汁|だし}: mizutaki broth\n- ポン{酢|ず}で{食|た}べる: to eat with ponzu\n\nSIMILAR WORDS:\n- {寄|よ}せ{鍋|なべ}: mixed hot pot — uses a seasoned broth and many ingredients\n- ちゃんこ{鍋|なべ}: chanko nabe — sumo-wrestler style hot pot\n- しゃぶしゃぶ: shabu-shabu — thin meat dipped in hot broth",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22816_yosenabe",
+      "reading": "よせなべ",
+      "headword": "{寄|よ}せ{鍋|なべ}",
+      "label": "mixed hot pot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24241_chankonabe",
+      "reading": "ちゃんこなべ",
+      "headword": "ちゃんこ{鍋|なべ}",
+      "label": "chanko nabe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10479_shabushabu",
+      "reading": "しゃぶしゃぶ",
+      "headword": "しゃぶしゃぶ",
+      "label": "shabu-shabu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28936_motsunabe",
+      "reading": "もつなべ",
+      "headword": "もつ{鍋|なべ}",
+      "label": "motsunabe"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +83,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food"
       ],
       "domain": []
     },
     "created": "2026-06-07T03:04:58Z",
-    "modified": "2026-08-09T06:33:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

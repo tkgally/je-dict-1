@@ -159,7 +159,7 @@
     },
     {
       "id": "02520_kieru_ex6",
-      "japanese": "⟦{風|かぜ}→風：00641_kaze⟧⟦で→で：00502_de⟧⟦{ろうそく|ろうそく}→蝋燭：05490_rousoku⟧⟦の→の：09472_no⟧⟦{火|ひ}→火：02248_hi⟧⟦が→が：00051_ga⟧{消|き}えた。",
+      "japanese": "⟦{風|かぜ}→風：00641_kaze⟧⟦で→で：00502_de⟧⟦ろうそく→蝋燭：05490_rousoku⟧⟦の→の：09472_no⟧⟦{火|ひ}→火：02248_hi⟧⟦が→が：00051_ga⟧{消|き}えた。",
       "english": "The candle went out in the wind.",
       "notes": null,
       "has_audio": false,
@@ -217,10 +217,39 @@
       "note": "transitive"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13351_shoushitsu",
+      "reading": "しょうしつ",
+      "headword": "{消失|しょうしつ}",
+      "label": "disappearance, vanishing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14107_usureru",
+      "reading": "うすれる",
+      "headword": "{薄|うす}れる",
+      "label": "to fade, to weaken, to diminish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18705_kieuseru",
+      "reading": "きえうせる",
+      "headword": "{消|き}え{失|う}せる",
+      "label": "to vanish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22366_shoumetsusuru",
+      "reading": "しょうめつする",
+      "headword": "{消滅|しょうめつ}する",
+      "label": "to disappear"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T09:13:03Z",
-    "modified": "2026-05-20T22:18:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

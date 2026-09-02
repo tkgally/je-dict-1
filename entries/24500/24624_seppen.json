@@ -81,6 +81,29 @@
   ],
   "notes": "Compound of {切|せつ} ('cut') and {片|へん} ('piece; fragment'). The word covers two distinct technical domains: biology/medicine (thin slices for microscopy) and mathematics (axis intercepts).\n\nUSAGE:\nIn biology and medicine (sense 1), {切片|せっぺん} refers specifically to prepared specimens. The process of making sections is called {切片|せっぺん}{作製|さくせい}. In mathematics (sense 2), {切片|せっぺん} usually appears with an axis label: y{切片|せっぺん} or x{切片|せっぺん}.\n\nCOMMON COLLOCATIONS:\n- {凍結|とうけつ}{切片|せっぺん}: frozen section\n- {薄|うす}{切片|せっぺん}: thin section\n- {切片|せっぺん}を{染色|せんしょく}する: to stain a section\n- y{切片|せっぺん}: y-intercept\n- x{切片|せっぺん}: x-intercept\n\nSIMILAR WORDS:\n- {断片|だんぺん}: fragment — a piece broken off from something; not prepared or sliced intentionally\n- {断面|だんめん}: cross-section — the surface revealed when something is cut through; focuses on the exposed surface rather than the slice itself\n- {標本|ひょうほん}: specimen — a broader term for any sample prepared for study",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10915_danpen",
+      "reading": "だんぺん",
+      "headword": "{断片|だんぺん}",
+      "label": "fragment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21317_danmen",
+      "reading": "だんめん",
+      "headword": "{断面|だんめん}",
+      "label": "cross-section"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13174_hyouhon",
+      "reading": "ひょうほん",
+      "headword": "{標本|ひょうほん}",
+      "label": "specimen"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -98,6 +121,6 @@
       ]
     },
     "created": "2026-04-20T09:14:40Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

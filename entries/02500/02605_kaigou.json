@@ -2,7 +2,7 @@
   "id": "02605_kaigou",
   "headword": "{会合|かいごう}",
   "reading": "かいごう",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "meeting, assembly, gathering",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{会合|かいごう} refers to gatherings or meetings, often more formal than casual get-togethers.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {会合|かいごう}する\n\nCOMMON PATTERNS:\n- {会合|かいごう}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧ (to hold a meeting)\n- {会合|かいごう}⟦に→に：00314_ni⟧⟦{出席|しゅっせき}する→出席：02084_shusseki⟧ (to attend a meeting)\n- {会合|かいごう}⟦を→を：00422_wo⟧⟦{設|もう}ける→設ける：14220_moukeru⟧ (to arrange a meeting)\n\nTYPES:\n- ⟦{定期|ていき}→定期：03538_teiki⟧{会合|かいごう} (regular meeting)\n- ⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧{会合|かいごう} (emergency meeting)\n- ⟦{秘密|ひみつ}→秘密：02504_himitsu⟧{会合|かいごう} (secret meeting)\n\nNUANCE:\n- More formal than ⟦{集|あつ}まり→集まり：01689_atsumari⟧ (gathering)\n- Less formal than ⟦{会議|かいぎ}→会議：00710_kaigi⟧ (conference)\n- Often implies a purpose or agenda\n\nSIMILAR WORDS:\n- ⟦{会議|かいぎ}→会議：00710_kaigi⟧: meeting, conference (business)\n- ⟦{集会|しゅうかい}→集会：14654_shuukai⟧: assembly, gathering\n- ⟦{集|あつ}まり→集まり：01689_atsumari⟧: gathering (casual)",
+  "notes": "{会合|かいごう} refers to gatherings or meetings, often more formal than casual get-togethers.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {会合|かいごう}する\n\nCOMMON PATTERNS:\n- {会合|かいごう}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧ (to hold a meeting)\n- {会合|かいごう}⟦に→に：00314_ni⟧⟦{出席|しゅっせき}する→出席：02084_shusseki⟧ (to attend a meeting)\n- {会合|かいごう}⟦を→を：00422_wo⟧⟦{設|もう}ける→設ける：14220_moukeru⟧ (to arrange a meeting)\n\nTYPES:\n- ⟦{定期|ていき}→定期：03538_teiki⟧{会合|かいごう} (regular meeting)\n- ⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧{会合|かいごう} (emergency meeting)\n- ⟦{秘密|ひみつ}→秘密：02504_himitsu⟧{会合|かいごう} (secret meeting)\n\nUSAGE:\n- More formal than ⟦{集|あつ}まり→集まり：01689_atsumari⟧ (gathering)\n- Less formal than ⟦{会議|かいぎ}→会議：00710_kaigi⟧ (conference)\n- Often implies a purpose or agenda\n\nSIMILAR WORDS:\n- ⟦{会議|かいぎ}→会議：00710_kaigi⟧: meeting, conference (business)\n- ⟦{集会|しゅうかい}→集会：14654_shuukai⟧: assembly, gathering\n- ⟦{集|あつ}まり→集まり：01689_atsumari⟧: gathering (casual)",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,39 @@
       "headword": "{会議|かいぎ}",
       "label": "conference",
       "target_id": "00710_kaigi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14654_shuukai",
+      "reading": "しゅうかい",
+      "headword": "{集会|しゅうかい}",
+      "label": "assembly, gathering"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01689_atsumari",
+      "reading": "あつまり",
+      "headword": "{集|あつ}まり",
+      "label": "gathering"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14600_tsudoi",
+      "reading": "つどい",
+      "headword": "{集|つど}い",
+      "label": "gathering"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18561_yoriai",
+      "reading": "よりあい",
+      "headword": "{寄合|よりあい}",
+      "label": "gathering"
     }
   ],
   "metadata": {
     "created": "2026-01-11T10:43:32Z",
-    "modified": "2026-05-21T16:10:36Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

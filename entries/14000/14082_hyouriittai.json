@@ -3,7 +3,7 @@
   "id": "14082_hyouriittai",
   "headword": "{表裏一体|ひょうりいったい}",
   "reading": "ひょうりいったい",
-  "part_of_speech": "noun, adjective-na",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "two sides of the same coin; inseparable",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "Freedom and responsibility are two sides of the same coin.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14082_hyouriittai_ex2",
@@ -27,7 +29,9 @@
       "english": "Risk and return are inseparably linked.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14082_hyouriittai_ex3",
@@ -35,22 +39,60 @@
       "english": "Convenience and danger are inseparable, and to enjoy the benefits of technology, one must also understand its risks.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA four-character compound ({四字熟語|よじじゅくご}) used to express that two seemingly opposite concepts are fundamentally inseparable. Often followed by だ, の{関係|かんけい}, or である. Very common in essays, editorials, and formal discussions.\n\nETYMOLOGY:\n{表|ひょう} (front/surface) + {裏|り} (back/reverse) + {一体|いったい} (one body). Literally \"front and back as one body.\"\n\nCOMMON PATTERNS:\n- AとBは{表裏一体|ひょうりいったい}だ: A and B are two sides of the same coin\n- {表裏一体|ひょうりいったい}の{関係|かんけい}: an inseparable relationship\n- {表裏一体|ひょうりいったい}をなす: to form two sides of the same coin",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19555_senakaawase",
+      "reading": "せなかあわせ",
+      "headword": "{背中合|せなかあ}わせ",
+      "label": "back to back"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22829_kirihanasenai",
+      "reading": "きりはなせない",
+      "headword": "{切|き}り{離|はな}せない",
+      "label": "inseparable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24459_fukabun",
+      "reading": "ふかぶん",
+      "headword": "{不可分|ふかぶん}",
+      "label": "indivisible"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28859_ryourin",
+      "reading": "りょうりん",
+      "headword": "{両輪|りょうりん}",
+      "label": "both wheels"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T23:13:50Z",
-    "modified": "2026-02-27T23:13:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "style": ["written"]
+      "semantic": [
+        "general"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

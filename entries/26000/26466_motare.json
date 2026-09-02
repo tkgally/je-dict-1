@@ -22,7 +22,9 @@
       "id": "26466_motare_ex1",
       "japanese": "{食|た}べすぎて{胃|い}もたれがする。",
       "english": "I have a heavy stomach from eating too much.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "26466_motare_ex2",
       "japanese": "{脂|あぶら}っこい{料理|りょうり}は{胃|い}もたれの{原因|げんいん}になりやすい。",
       "english": "Greasy food tends to cause a heavy stomach.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "26466_motare_ex3",
       "japanese": "{年|とし}を{取|と}ると{胃|い}もたれしやすくなる。",
       "english": "As you get older, you become more prone to indigestion.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "26466_motare_ex4",
       "japanese": "{椅子|いす}のもたれに{寄|よ}りかかった。",
       "english": "I leaned back against the chair's backrest.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "26466_motare_ex5",
       "japanese": "もたれのない{椅子|いす}に{長時間|ちょうじかん}{座|すわ}るのは{辛|つら}い。",
       "english": "Sitting for a long time on a chair without a backrest is tough.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,21 +72,37 @@
       "id": "26466_motare_ex6",
       "japanese": "{壁|かべ}をもたれにして{本|ほん}を{読|よ}んだ。",
       "english": "I used the wall as a backrest and read a book.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Derived from the verb もたれる (to lean against, to feel heavy in the stomach). Sense 1 most commonly appears in the compound {胃|い}もたれ (stomach heaviness), which is one of the most frequent health complaints in everyday Japanese. Sense 2 is more commonly expressed as {背|せ}もたれ (backrest).\n\nCOMMON COLLOCATIONS:\n- {胃|い}もたれ: stomach heaviness, indigestion\n- {胃|い}もたれがする: to have a heavy stomach\n- {背|せ}もたれ: backrest of a chair\n- もたれがひどい: severe indigestion\n\nSIMILAR WORDS:\n- {胸焼|むねや}け: heartburn — a burning sensation in the chest from acid reflux\n- もたれる: to lean against; to feel heavy — the verb form from which this noun derives\n- {消化不良|しょうかふりょう}: indigestion — a more formal medical term for poor digestion",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22809_muneyake",
+      "reading": "むねやけ",
+      "headword": "{胸焼|むねや}け",
+      "label": "heartburn"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["health", "daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "health",
+        "daily-life"
+      ]
     },
     "created": "2026-05-02T11:32:18Z",
-    "modified": "2026-05-02T11:32:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

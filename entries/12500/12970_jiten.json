@@ -19,7 +19,9 @@
       "english": "At that point in time, I didn't know.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12970_jiten_ex2",
@@ -27,7 +29,9 @@
       "english": "As of now, it is undecided.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12970_jiten_ex3",
@@ -35,21 +39,49 @@
       "english": "At the time the contract was signed, both parties had agreed to these conditions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nVery common in formal and semi-formal contexts. The most frequent patterns are:\n- Noun + の{時点|じてん}で: at the time/point of [noun]\n- その{時点|じてん}で: at that point\n- {現時点|げんじてん}で: at the present time, as of now\n- この{時点|じてん}で: at this point\n\nImplies that the situation described may no longer be true — it captures a snapshot of a specific moment.\n\nCOMMON COLLOCATIONS:\n- {現時点|げんじてん}: the current point in time\n- その{時点|じてん}で: at that point\n- …の{時点|じてん}で: as of …, at the time of …\n\nSIMILAR WORDS:\n- {段階|だんかい}: stage, phase (sequential progression)\n- {瞬間|しゅんかん}: moment, instant (very brief)\n- {時期|じき}: time, period (broader duration)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04515_dankai",
+      "reading": "だんかい",
+      "headword": "{段階|だんかい}",
+      "label": "stage, phase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03226_shunkan",
+      "reading": "しゅんかん",
+      "headword": "{瞬間|しゅんかん}",
+      "label": "moment, instant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03269_jiki",
+      "reading": "じき",
+      "headword": "{時期|じき}",
+      "label": "time, period"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T23:44:09Z",
-    "modified": "2026-02-22T23:44:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

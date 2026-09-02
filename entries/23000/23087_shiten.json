@@ -46,6 +46,43 @@
   ],
   "notes": "A compound of {始|し} (beginning) and {点|てん} (point). The opposite of {終点|しゅうてん} (endpoint). Used for routes, lines, and processes.\n\nCOMMON COLLOCATIONS:\n- {始点|してん}から{終点|しゅうてん}まで: from start to finish\n- {始点|してん}に{戻|もど}る: to return to the starting point\n- {始点|してん}を{決|き}める: to set the starting point\n\nSIMILAR WORDS:\n- {起点|きてん}: starting point; base point — often used for the origin of routes, measurements, or reasoning\n- {出発点|しゅっぱつてん}: departure point; starting point — emphasizes the place from which one departs\n- {終点|しゅうてん}: endpoint; terminus — the opposite of {始点|してん}\n- {視点|してん}: viewpoint; perspective — same reading but different kanji and meaning\n- {支店|してん}: branch office — same reading, different kanji",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16254_kiten",
+      "reading": "きてん",
+      "headword": "{起点|きてん}",
+      "label": "starting point"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05816_shuppatsuten",
+      "reading": "しゅっぱつてん",
+      "headword": "{出発点|しゅっぱつてん}",
+      "label": "departure point"
+    },
+    {
+      "type": "antonym",
+      "target_id": "05457_shuuten",
+      "reading": "しゅうてん",
+      "headword": "{終点|しゅうてん}",
+      "label": "endpoint"
+    },
+    {
+      "type": "homophone",
+      "target_id": "03187_shiten",
+      "reading": "してん",
+      "headword": "{視点|してん}",
+      "label": "viewpoint"
+    },
+    {
+      "type": "homophone",
+      "target_id": "03185_shiten",
+      "reading": "してん",
+      "headword": "{支店|してん}",
+      "label": "branch office"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +97,6 @@
       ]
     },
     "created": "2026-04-08T18:30:59Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

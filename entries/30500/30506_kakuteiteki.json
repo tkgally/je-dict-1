@@ -3,7 +3,7 @@
   "headword": "{確定的|かくていてき}",
   "reading": "かくていてき",
   "romaji": "kakuteiteki",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "definite; certain; all but settled",
   "definitions": [
     {
@@ -52,6 +52,20 @@
       "reading": "かくてい",
       "headword": "{確定|かくてい}",
       "label": "the noun it derives from"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02538_kakujitsu",
+      "reading": "かくじつ",
+      "headword": "{確実|かくじつ}",
+      "label": "certain, reliable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06828_ketteiteki",
+      "reading": "けっていてき",
+      "headword": "{決定的|けっていてき}",
+      "label": "decisive"
     }
   ],
   "schema_version": "2.0",
@@ -62,7 +76,7 @@
         "adjective-na"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "style": [
         "written"
       ],
@@ -73,6 +87,6 @@
       "domain": []
     },
     "created": "2026-08-08T12:24:37Z",
-    "modified": "2026-08-08T12:24:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

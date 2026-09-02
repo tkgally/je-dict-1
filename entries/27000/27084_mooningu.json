@@ -22,7 +22,9 @@
       "id": "27084_mooningu_ex1",
       "japanese": "{喫茶店|きっさてん}でモーニングを{食|た}べた。",
       "english": "I had a morning set at the coffee shop.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "27084_mooningu_ex2",
       "japanese": "この{店|みせ}のモーニングはコーヒー{一杯|いっぱい}でトーストと{卵|たまご}がつく。",
       "english": "This shop's morning set comes with toast and an egg for the price of one coffee.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "27084_mooningu_ex3",
       "japanese": "{名古屋|なごや}のモーニング{文化|ぶんか}は{全国的|ぜんこくてき}に{有名|ゆうめい}で、{小倉|おぐら}トーストなど{独自|どくじ}のメニューがある。",
       "english": "Nagoya's morning service culture is famous nationwide, with unique menu items like ogura toast.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "27084_mooningu_ex4",
       "japanese": "{結婚式|けっこんしき}でモーニングを{着|き}た。",
       "english": "I wore a morning coat at the wedding.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "27084_mooningu_ex5",
       "japanese": "{父|ちち}のモーニングを{借|か}りて{式|しき}に{出席|しゅっせき}した。",
       "english": "I borrowed my father's morning coat to attend the ceremony.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,52 @@
       "id": "27084_mooningu_ex6",
       "japanese": "{新郎|しんろう}の{父親|ちちおや}はモーニングを{着用|ちゃくよう}するのが{一般的|いっぱんてき}だ。",
       "english": "It's customary for the groom's father to wear a morning coat.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"morning.\" In Japanese, モーニング has developed specialized meanings beyond just \"morning.\" The breakfast set meaning (sense 1) is a distinctly Japanese usage — abbreviated from モーニングサービス (morning service). The formal coat meaning (sense 2) is short for モーニングコート.\n\nCULTURAL NOTE:\nThe モーニング breakfast culture is especially strong in the Nagoya/Aichi region, where elaborate breakfast sets (sometimes including full meals) are served with a coffee order. {名古屋|なごや}モーニング is a recognized cultural phenomenon.\n\nCOMMON COLLOCATIONS:\n- モーニングを{食|た}べる: to have a morning set\n- モーニングサービス: morning service (the full term)\n- モーニング{営業|えいぎょう}: morning hours business\n- モーニングを{着|き}る: to wear a morning coat\n- モーニングコート: morning coat (the full term)\n\nSIMILAR WORDS:\n- モーニングサービス: morning service — the full form of sense 1\n- タキシード: tuxedo — formal evening wear, whereas モーニング is formal daywear\n- {礼服|れいふく}: formal wear — the general category that includes モーニング",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27070_takishiido",
+      "reading": "たきしーど",
+      "headword": "タキシード",
+      "label": "tuxedo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18440_reifuku",
+      "reading": "れいふく",
+      "headword": "{礼服|れいふく}",
+      "label": "formal wear"
+    },
+    {
+      "type": "related",
+      "target_id": "20532_toosuto",
+      "reading": "とーすと",
+      "headword": "トースト",
+      "label": "toast"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "clothing"]
+      "semantic": [
+        "food",
+        "clothing"
+      ]
     },
     "created": "2026-05-06T16:13:01Z",
-    "modified": "2026-05-06T16:13:01Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

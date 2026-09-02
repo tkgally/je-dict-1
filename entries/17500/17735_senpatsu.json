@@ -3,7 +3,7 @@
   "id": "17735_senpatsu",
   "headword": "{先発|せんぱつ}",
   "reading": "せんぱつ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "starting (lineup); departing first",
   "conjugation": {
     "type": "suru",
@@ -170,10 +170,32 @@
     }
   ],
   "notes": "USAGE:\nSense 1 is very common in sports contexts, especially baseball. {先発|せんぱつ}ピッチャー (starting pitcher) and {先発|せんぱつ}メンバー (starting lineup) are standard terms.\n\nSense 2 is used in travel and logistics contexts for the person or group that departs before others.\n\nCOMMON COLLOCATIONS:\n- {先発|せんぱつ}ピッチャー (starting pitcher)\n- {先発|せんぱつ}メンバー (starting lineup)\n- {先発|せんぱつ}ローテーション (starting rotation)\n- {先発隊|せんぱつたい} (advance party)\n- {先発|せんぱつ}する (to depart first)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "20611_kouhatsu",
+      "reading": "こうはつ",
+      "headword": "{後発|こうはつ}",
+      "label": "late entry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24619_kantou",
+      "reading": "かんとう",
+      "headword": "{完投|かんとう}",
+      "label": "complete game (baseball)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30003_nakatsugi",
+      "reading": "なかつぎ",
+      "headword": "{中継|なかつ}ぎ",
+      "label": "relaying"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T14:46:00Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

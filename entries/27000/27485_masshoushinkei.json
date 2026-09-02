@@ -17,7 +17,9 @@
       "id": "27485_masshoushinkei_ex1",
       "japanese": "{末梢神経|まっしょうしんけい}に{異常|いじょう}がある。",
       "english": "There's an abnormality in the peripheral nerves.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27485_masshoushinkei_ex2",
       "japanese": "{末梢神経|まっしょうしんけい}は{体中|からだじゅう}に{張|は}り{巡|めぐ}らされている。",
       "english": "Peripheral nerves are spread throughout the body.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,69 @@
       "id": "27485_masshoushinkei_ex3",
       "japanese": "{糖尿病|とうにょうびょう}の{合併症|がっぺいしょう}として、{末梢神経|まっしょうしんけい}{障害|しょうがい}が{起|お}こることがある。",
       "english": "Peripheral nerve disorders can occur as a complication of diabetes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {末梢|まっしょう} (tip, extremity) + {神経|しんけい} (nerve). A medical term contrasted with {中枢神経|ちゅうすうしんけい} (central nervous system).\n\nCOMMON COLLOCATIONS:\n- {末梢神経|まっしょうしんけい}{障害|しょうがい}: peripheral neuropathy\n- {末梢神経|まっしょうしんけい}{系|けい}: peripheral nervous system\n- {末梢神経|まっしょうしんけい}を{刺激|しげき}する: to stimulate the peripheral nerves\n\nRELATED TERMS:\n- {中枢神経|ちゅうすうしんけい}: central nervous system — brain and spinal cord\n- {自律神経|じりつしんけい}: autonomic nervous system — controls involuntary functions\n- {神経|しんけい}: nerve — the general term",
+  "notes": "Compound of {末梢|まっしょう} (tip, extremity) + {神経|しんけい} (nerve). A medical term contrasted with {中枢神経|ちゅうすうしんけい} (central nervous system).\n\nCOMMON COLLOCATIONS:\n- {末梢神経|まっしょうしんけい}{障害|しょうがい}: peripheral neuropathy\n- {末梢神経|まっしょうしんけい}{系|けい}: peripheral nervous system\n- {末梢神経|まっしょうしんけい}を{刺激|しげき}する: to stimulate the peripheral nerves\n\nRELATED WORDS:\n- {中枢神経|ちゅうすうしんけい}: central nervous system — brain and spinal cord\n- {自律神経|じりつしんけい}: autonomic nervous system — controls involuntary functions\n- {神経|しんけい}: nerve — the general term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23223_chuusuushinkei",
+      "reading": "ちゅうすうしんけい",
+      "headword": "{中枢神経|ちゅうすうしんけい}",
+      "label": "central nervous system"
+    },
+    {
+      "type": "related",
+      "target_id": "08621_jiritsushinkei",
+      "reading": "じりつしんけい",
+      "headword": "{自律神経|じりつしんけい}",
+      "label": "autonomic nervous system"
+    },
+    {
+      "type": "related",
+      "target_id": "21420_kankakushinkei",
+      "reading": "かんかくしんけい",
+      "headword": "{感覚神経|かんかくしんけい}",
+      "label": "sensory nerve"
+    },
+    {
+      "type": "related",
+      "target_id": "23704_shinkeikei",
+      "reading": "しんけいけい",
+      "headword": "{神経系|しんけいけい}",
+      "label": "nervous system"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24839_koukanshinkei",
+      "reading": "こうかんしんけい",
+      "headword": "{交感|こうかん}{神経|しんけい}",
+      "label": "sympathetic nerve"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["health", "science"],
-      "domain": ["medical"]
+      "politeness": "plain",
+      "semantic": [
+        "health",
+        "science"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-05-12T23:54:07Z",
-    "modified": "2026-05-12T23:54:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

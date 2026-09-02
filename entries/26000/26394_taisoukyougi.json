@@ -17,7 +17,9 @@
       "id": "26394_taisoukyougi_ex1",
       "japanese": "{体操競技|たいそうきょうぎ}を{観|み}るのが{好|す}きだ。",
       "english": "I like watching gymnastics.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26394_taisoukyougi_ex2",
       "japanese": "{娘|むすめ}は{小学生|しょうがくせい}の{頃|ころ}から{体操競技|たいそうきょうぎ}を{習|なら}っている。",
       "english": "My daughter has been practicing competitive gymnastics since elementary school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,44 @@
       "id": "26394_taisoukyougi_ex3",
       "japanese": "オリンピックの{体操競技|たいそうきょうぎ}で{日本|にほん}は{金|きん}メダルを{獲得|かくとく}した。",
       "english": "Japan won a gold medal in gymnastics at the Olympics.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {体操|たいそう} (gymnastics, exercise) and {競技|きょうぎ} (competitive sport). While {体操|たいそう} alone can mean general exercise or calisthenics (like {ラジオ体操|たいそう}), adding {競技|きょうぎ} specifies the competitive sport.\n\nJapan has a strong tradition in artistic gymnastics, with notable athletes like {内村航平|うちむらこうへい} dominating the sport internationally. The sport is governed in Japan by the {日本体操協会|にほんたいそうきょうかい}.\n\nCOMMON COLLOCATIONS:\n- {体操競技|たいそうきょうぎ}{選手|せんしゅ}: gymnast (competitive)\n- {男子|だんし}{体操競技|たいそうきょうぎ}: men's gymnastics\n- {女子|じょし}{体操競技|たいそうきょうぎ}: women's gymnastics\n- {体操競技|たいそうきょうぎ}{団体|だんたい}: gymnastics team event\n\nSIMILAR WORDS:\n- {体操|たいそう}: gymnastics; exercise — broader term, includes non-competitive exercise\n- {新体操|しんたいそう}: rhythmic gymnastics — a different discipline using ribbons, balls, etc.\n- {器械体操|きかいたいそう}: apparatus gymnastics — emphasizes the equipment-based events",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22205_shintaisou",
+      "reading": "しんたいそう",
+      "headword": "{新体操|しんたいそう}",
+      "label": "rhythmic gymnastics"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28514_kikaitaisou",
+      "reading": "きかいたいそう",
+      "headword": "{器械体操|きかいたいそう}",
+      "label": "apparatus gymnastics"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["sports"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ]
     },
     "created": "2026-05-01T13:35:58Z",
-    "modified": "2026-05-01T13:35:58Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "28673_mashiteha_ex1",
       "japanese": "{大人|おとな}でも{難|むずか}しい。ましては{子供|こども}には{無理|むり}だ。",
       "english": "It's hard even for adults — much less for children.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28673_mashiteha_ex2",
       "japanese": "{歩|ある}くのもつらいのに、ましては{走|はし}るなんてとても{無理|むり}だ。",
       "english": "Even walking is hard, let alone running.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28673_mashiteha_ex3",
       "japanese": "{専門家|せんもんか}でも{判断|はんだん}に{迷|まよ}う{問題|もんだい}だ。ましては{素人|しろうと}が{即答|そくとう}できるはずがない。",
       "english": "It's a question even experts find hard to judge — there's no way amateurs could answer it on the spot.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formal conjunction at the start of a sentence. The structure compares two cases: the first is conceded to be already extreme, and the second is presented as obviously more so. Often pairs with なんて, でも, or はずがない at the end.\n\nREGISTER:\n- Written and formal speech. In casual conversation, まして or {まして}や は more common.\n- The full ましてや is interchangeable and slightly more emphatic.\n\nSIMILAR EXPRESSIONS:\n- まして: shorter form, same meaning — more conversational\n- ましてや: emphatic version — adds rhetorical weight\n- なおさら: all the more — similar logic but with positive cases ('all the more reason')\n- どころか: far from being — contrastive, focuses on contradiction rather than escalation",
+  "notes": "Formal conjunction at the start of a sentence. The structure compares two cases: the first is conceded to be already extreme, and the second is presented as obviously more so. Often pairs with なんて, でも, or はずがない at the end.\n\nREGISTER:\n- Written and formal speech. In casual conversation, まして or ましてや は more common.\n- The full ましてや is interchangeable and slightly more emphatic.\n\nSIMILAR WORDS:\n- まして: shorter form, same meaning — more conversational\n- ましてや: emphatic version — adds rhetorical weight\n- なおさら: all the more — similar logic but with positive cases ('all the more reason')\n- どころか: far from being — contrastive, focuses on contradiction rather than escalation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26861_mashiteya",
+      "reading": "ましてや",
+      "headword": "ましてや",
+      "label": "emphatic version"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30271_dokoroka",
+      "reading": "どころか",
+      "headword": "どころか",
+      "label": "far from being"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["conjunction"],
+      "pos": [
+        "conjunction"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-06-03T04:21:16Z",
-    "modified": "2026-06-03T04:21:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

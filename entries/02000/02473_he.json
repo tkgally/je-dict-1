@@ -160,7 +160,7 @@
     },
     {
       "id": "02473_he_ex7",
-      "japanese": "⟦{お客様|おきゃくさま}→お客様：08780_okyakusama⟧へ⟦の→の：09472_no⟧⟦お{知|し}らせ→知らせ：03252_shirase⟧",
+      "japanese": "⟦お{客様|きゃくさま}→お客様：08780_okyakusama⟧へ⟦の→の：09472_no⟧⟦お{知|し}らせ→知らせ：03252_shirase⟧",
       "english": "Notice to customers",
       "notes": null,
       "has_audio": false,
@@ -227,11 +227,18 @@
       "headword": "に",
       "label": "destination/location",
       "target_id": "00314_ni"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10983_sanji",
+      "reading": "さんじ",
+      "headword": "{三時|さんじ}",
+      "label": "✓ —, not (✗)"
     }
   ],
   "metadata": {
     "created": "2026-01-11T12:27:24Z",
-    "modified": "2026-06-21T15:19:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

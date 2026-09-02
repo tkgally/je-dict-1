@@ -43,11 +43,47 @@
       ]
     }
   ],
-  "notes": "TYPES OF FOULS BY SPORT:\n・⟦サッカー→サッカー：04726_sakkaa⟧: ⟦ファウル→ファウル：06584_fauru⟧、⟦ハンド→ハンド：noentry⟧ (handball)\n・⟦バスケ→バスケ：06773_basuke⟧: ⟦パーソナルファウル→パーソナルファウル：noentry⟧、⟦テクニカルファウル→テクニカルファウル：noentry⟧\n・⟦{相撲|すもう}→相撲：00390_sumou⟧: {反則|はんそく}⟦{技|わざ}→技：02172_waza⟧ (⟦{禁|きん}じ{手|て}→禁じ手：29964_kinjite⟧)\n・⟦{野球|やきゅう}→野球：04727_yakyuu⟧: ⟦{守備|しゅび}→守備：15509_shubi⟧⟦{妨害|ぼうがい}→妨害：07632_bougai⟧ (interference)\n\nCOMMON COLLOCATIONS:\n・{反則|はんそく}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to call a foul)\n・{反則|はんそく}⟦を→を：00422_wo⟧⟦{犯|おか}す→犯す：10059_okasu⟧ (to commit a foul)\n・{反則|はんそく}⟦{負|ま}け→負け：02569_make⟧ (loss by disqualification)\n・{反則|はんそく}⟦{勝|が}ち→勝ち：02540_kachi⟧ (win by opponent's disqualification)\n・⟦{悪質|あくしつ}な→悪質：20553_akushitsu⟧{反則|はんそく} (flagrant foul)\n\nRELATED TERMS:\n・⟦ルール→ルール：00354_ruuru⟧⟦{違反|いはん}→違反：01824_ihan⟧ (rule violation - more general)\n・⟦{違法|いほう}→違法：09687_ihou⟧ (illegal - legal contexts)\n・⟦ペナルティ→ペナルティ：29963_penaruti⟧ (penalty)",
-  "cross_references": [],
+  "notes": "TYPES OF FOULS BY SPORT:\n- ⟦サッカー→サッカー：04726_sakkaa⟧: ⟦ファウル→ファウル：06584_fauru⟧、⟦ハンド→ハンド：noentry⟧ (handball)\n- ⟦バスケ→バスケ：06773_basuke⟧: ⟦パーソナルファウル→パーソナルファウル：noentry⟧、⟦テクニカルファウル→テクニカルファウル：noentry⟧\n- ⟦{相撲|すもう}→相撲：00390_sumou⟧: {反則|はんそく}⟦{技|わざ}→技：02172_waza⟧ (⟦{禁|きん}じ{手|て}→禁じ手：29964_kinjite⟧)\n- ⟦{野球|やきゅう}→野球：04727_yakyuu⟧: ⟦{守備|しゅび}→守備：15509_shubi⟧⟦{妨害|ぼうがい}→妨害：07632_bougai⟧ (interference)\n\nCOMMON COLLOCATIONS:\n- {反則|はんそく}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to call a foul)\n- {反則|はんそく}⟦を→を：00422_wo⟧⟦{犯|おか}す→犯す：10059_okasu⟧ (to commit a foul)\n- {反則|はんそく}⟦{負|ま}け→負け：02569_make⟧ (loss by disqualification)\n- {反則|はんそく}⟦{勝|が}ち→勝ち：02540_kachi⟧ (win by opponent's disqualification)\n- ⟦{悪質|あくしつ}な→悪質：20553_akushitsu⟧{反則|はんそく} (flagrant foul)\n\nRELATED WORDS:\n- ⟦ルール→ルール：00354_ruuru⟧⟦{違反|いはん}→違反：01824_ihan⟧ (rule violation - more general)\n- ⟦{違法|いほう}→違法：09687_ihou⟧ (illegal - legal contexts)\n- ⟦ペナルティ→ペナルティ：29963_penaruti⟧ (penalty)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09687_ihou",
+      "reading": "いほう",
+      "headword": "{違法|いほう}",
+      "label": "illegal"
+    },
+    {
+      "type": "related",
+      "target_id": "29963_penaruti",
+      "reading": "ぺなるてぃ",
+      "headword": "ペナルティ",
+      "label": "penalty"
+    },
+    {
+      "type": "related",
+      "target_id": "06584_fauru",
+      "reading": "ふぁうる",
+      "headword": "ファウル",
+      "label": "foul (sports violation)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27347_niho",
+      "reading": "にほ",
+      "headword": "{二歩|にほ}",
+      "label": "two steps"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29964_kinjite",
+      "reading": "きんじて",
+      "headword": "{禁|きん}じ{手|て}",
+      "label": "prohibited move"
+    }
+  ],
   "metadata": {
     "created": "2026-01-17T23:51:31Z",
-    "modified": "2026-08-29T12:18:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

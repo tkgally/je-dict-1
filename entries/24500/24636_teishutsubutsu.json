@@ -17,7 +17,9 @@
       "id": "24636_teishutsubutsu_ex1",
       "japanese": "{提出物|ていしゅつぶつ}の{締|し}め{切|き}りは{明日|あした}です。",
       "english": "The deadline for the assignment is tomorrow.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24636_teishutsubutsu_ex2",
       "japanese": "{提出物|ていしゅつぶつ}を{忘|わす}れた{生徒|せいと}は{放課後|ほうかご}に{残|のこ}された。",
       "english": "The students who forgot their assignments were kept after school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,63 @@
       "id": "24636_teishutsubutsu_ex3",
       "japanese": "{今月|こんげつ}の{提出物|ていしゅつぶつ}は{研修|けんしゅう}レポートと{経費|けいひ}{精算書|せいさんしょ}の{二|ふた}つです。",
       "english": "This month's deliverables are the training report and the expense report.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {提出|ていしゅつ} (submission) and {物|ぶつ} (thing, item). Refers to anything that needs to be submitted, whether homework at school or documents at work.\n\nUSAGE:\nVery common in school and office settings. Teachers often use this word when reminding students about homework and reports. In the workplace, it covers any required deliverables such as reports, forms, and applications.\n\nCOMMON COLLOCATIONS:\n- {提出物|ていしゅつぶつ}の{締|し}め{切|き}り: assignment deadline\n- {提出物|ていしゅつぶつ}を{出|だ}す: to turn in an assignment\n- {提出物|ていしゅつぶつ}を{忘|わす}れる: to forget one's assignment\n- {提出物|ていしゅつぶつ}の{確認|かくにん}: checking submitted items\n- {提出物|ていしゅつぶつ}の{一覧|いちらん}: list of deliverables\n\nSIMILAR WORDS:\n- {宿題|しゅくだい}: homework — specifically homework assigned by a teacher, while {提出物|ていしゅつぶつ} is broader and includes workplace deliverables\n- {課題|かだい}: assignment; task — emphasizes the task or problem to be solved rather than the physical item to be submitted\n- {書類|しょるい}: documents — general term for papers and forms, not necessarily things that must be submitted",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00812_shukudai",
+      "reading": "しゅくだい",
+      "headword": "{宿題|しゅくだい}",
+      "label": "homework"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00132_kadai",
+      "reading": "かだい",
+      "headword": "{課題|かだい}",
+      "label": "assignment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01103_shorui",
+      "reading": "しょるい",
+      "headword": "{書類|しょるい}",
+      "label": "documents"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23682_teishutsushorui",
+      "reading": "ていしゅつしょるい",
+      "headword": "{提出書類|ていしゅつしょるい}",
+      "label": "documents to be submitted"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "style": ["written", "spoken"],
-      "semantic": ["education", "work"]
+      "style": [
+        "written",
+        "spoken"
+      ],
+      "semantic": [
+        "education",
+        "work"
+      ]
     },
     "created": "2026-04-20T10:25:46Z",
-    "modified": "2026-04-20T10:25:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

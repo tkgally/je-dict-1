@@ -64,7 +64,7 @@
     },
     {
       "id": "02022_osameru_ex5",
-      "japanese": "⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧⟦{ファイル|ふぁいる}→ファイル：05280_fairu⟧⟦に→に：00314_ni⟧{収|おさ}める。",
+      "japanese": "⟦データ→データ：03944_deeta⟧⟦を→を：00422_wo⟧⟦ファイル→ファイル：05280_fairu⟧⟦に→に：00314_ni⟧{収|おさ}める。",
       "english": "To store data in a file.",
       "notes": null,
       "has_audio": false,
@@ -174,10 +174,18 @@
     }
   ],
   "notes": "おさめる has different kanji depending on the meaning. This entry covers the {収|おさ}める writing.\n\nKANJI VARIATIONS:\n- {収|おさ}める: to store, obtain, achieve\n- ⟦{納|おさ}める→納める：02280_osameru⟧: to pay, deliver, dedicate\n- ⟦{治|おさ}める→治める：02462_osameru⟧: to govern, rule\n- ⟦{修|おさ}める→修める：27839_osameru⟧: to study, master\n\nCOMMON EXPRESSIONS ({収|おさ}める):\n- ⟦{成功|せいこう}→成功：02638_seikou⟧⟦を→を：00422_wo⟧{収|おさ}める: to achieve success\n- ⟦{勝利|しょうり}→勝利：11795_shouri⟧⟦を→を：00422_wo⟧{収|おさ}める: to win victory\n- ⟦{成果|せいか}→成果：06745_seika⟧⟦を→を：00422_wo⟧{収|おさ}める: to produce results\n- ⟦{鞘|さや}→鞘：14698_saya⟧⟦に→に：00314_ni⟧{収|おさ}める: to sheathe (a sword)\n- ⟦{写真|しゃしん}→写真：00753_shashin⟧⟦に→に：00314_ni⟧{収|おさ}める: to capture in a photo\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pattern: 〜⟦を→を：00422_wo⟧{収|おさ}める\n\nThe kanji {収|しゅう} relates to gathering and collecting, which connects all three senses: storing (gathering in), achieving (gathering results), paying (gathering funds to deliver).\n\nASPECT (ている):\n- {収|おさ}めている: has achieved / currently holds (resultative state)\n- Note: In the \"achieve\" sense, {収|おさ}めている expresses a lasting accomplishment, not an ongoing process. ⟦{大|おお}きな→大きな：02849_ookina⟧⟦{成功|せいこう}→成功：02638_seikou⟧⟦を→を：00422_wo⟧{収|おさ}めている means \"has achieved great success\" (and that success continues), not \"is in the process of succeeding.\"",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "27839_osameru",
+      "reading": "おさめる",
+      "headword": "{修|おさ}める",
+      "label": "to study"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:23:48Z",
-    "modified": "2026-08-11T00:23:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

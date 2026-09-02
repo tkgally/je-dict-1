@@ -3,7 +3,7 @@
   "headword": "{哀|あわ}れな",
   "reading": "あわれな",
   "romaji": "awarena",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "pitiful; pathetic; wretched",
   "definitions": [
     {
@@ -80,7 +80,22 @@
     }
   ],
   "notes": "A word with deep roots in Japanese literary tradition. The primary modern meaning is pitiful or pathetic, but the classical sense of being deeply moved by the bittersweet nature of life persists in literary and formal contexts.\n\nCOMMON COLLOCATIONS:\n- {哀|あわ}れな{姿|すがた}: pitiful sight\n- {哀|あわ}れな{最期|さいご}: pitiful end\n- {哀|あわ}れを{誘|さそ}う: to evoke pity\n- {哀|あわ}れを{感|かん}じる: to feel pathos\n- {哀|あわ}れに{思|おも}う: to feel sorry for\n\nCULTURAL NOTE:\nThe noun {哀|あわ}れ (aware) is a key concept in Japanese aesthetics, famously expressed as もののあわれ (mono no aware), the bittersweet awareness of impermanence. This classical meaning still influences the word's nuance today.\n\nSIMILAR WORDS:\n- {可哀想|かわいそう}な: pitiable — more colloquial and commonly used in everyday speech\n- {惨|みじ}めな: miserable, wretched — stronger emphasis on degradation and shame\n- {気|き}の{毒|どく}な: unfortunate, pitiful — more polite and detached expression of sympathy",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04851_mijime",
+      "reading": "みじめ",
+      "headword": "{惨|みじ}め",
+      "label": "miserable, wretched"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02581_kinodoku",
+      "reading": "きのどく",
+      "headword": "{気|き}の{毒|どく}",
+      "label": "unfortunate, pitiful"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -88,12 +103,13 @@
       "pos": [
         "adjective-na"
       ],
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "evaluation"
       ]
     },
     "created": "2026-04-26T11:16:48Z",
-    "modified": "2026-04-26T11:16:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

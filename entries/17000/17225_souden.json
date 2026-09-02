@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{送|そう} (to send) + {電|でん} (electricity). Literally 'sending electricity.'\n\nCOMMON COLLOCATIONS:\n- {送電線|そうでんせん} (power line, transmission line)\n- {送電|そうでん}を{止|と}める (to stop power transmission)\n- {送電|そうでん}{鉄塔|てっとう} (transmission tower, pylon)\n- {送電|そうでん}ロス (transmission loss)\n- {送電|そうでん}{網|もう} (power grid)\n\nSIMILAR WORDS:\n- {配電|はいでん}: power distribution — the final stage of delivering electricity to consumers\n- {発電|はつでん}: power generation — producing electricity",
+  "notes": "FORMS:\n{送|そう} (to send) + {電|でん} (electricity). Literally 'sending electricity.'\n\nCOMMON COLLOCATIONS:\n- {送電線|そうでんせん} (power line, transmission line)\n- {送電|そうでん}を{止|と}める (to stop power transmission)\n- {送電|そうでん}{鉄塔|てっとう} (transmission tower, pylon)\n- {送電|そうでん}ロス (transmission loss)\n- {送電|そうでん}{網|もう} (power grid)\n\nSIMILAR WORDS:\n- {配電|はいでん}: power distribution — the final stage of delivering electricity to consumers\n- {発電|はつでん}: power generation — producing electricity",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,32 @@
       "reading": "はつでん",
       "headword": "{発電|はつでん}",
       "label": "power generation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30069_haiden",
+      "reading": "はいでん",
+      "headword": "{配電|はいでん}",
+      "label": "power distribution"
+    },
+    {
+      "type": "antonym",
+      "target_id": "06599_chikuden",
+      "reading": "ちくでん",
+      "headword": "{蓄電|ちくでん}",
+      "label": "power storage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26030_danden",
+      "reading": "だんでん",
+      "headword": "{断電|だんでん}",
+      "label": "power outage"
     }
   ],
   "metadata": {
     "created": "2026-03-17T00:13:33Z",
-    "modified": "2026-07-23T06:28:55Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

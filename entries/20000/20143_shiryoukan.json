@@ -17,7 +17,9 @@
       "id": "20143_shiryoukan_ex1",
       "japanese": "{郷土|きょうど}{資料館|しりょうかん}を{訪|おとず}れた。",
       "english": "I visited the local history archive.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20143_shiryoukan_ex2",
       "japanese": "{歴史|れきし}{資料館|しりょうかん}には{古|ふる}い{地図|ちず}が{展示|てんじ}されている。",
       "english": "Old maps are on display at the historical archive.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "20143_shiryoukan_ex3",
       "japanese": "{平和|へいわ}{資料館|しりょうかん}で{戦争|せんそう}の{悲惨|ひさん}さを{学|まな}んだ。",
       "english": "I learned about the tragedy of war at the peace museum.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {資料|しりょう} (materials, documents, data) + {館|かん} (hall, building). A common type of public institution in Japan, typically run by local governments.\n\nCOMMON COLLOCATIONS:\n- {郷土|きょうど}{資料館|しりょうかん}: local history museum/archive\n- {歴史|れきし}{資料館|しりょうかん}: historical archive\n- {平和|へいわ}{資料館|しりょうかん}: peace museum\n- {民俗|みんぞく}{資料館|しりょうかん}: folk culture museum\n\nSIMILAR WORDS:\n- {博物館|はくぶつかん}: museum — larger, more general institution with varied collections\n- {図書館|としょかん}: library — focused on books and lending; {資料館|しりょうかん} focuses on archival materials and exhibits\n- {記念館|きねんかん}: memorial hall — dedicated to a specific person or event\n- {美術館|びじゅつかん}: art museum — specifically for fine art collections\n\nUSAGE:\nNearly every municipality in Japan has some form of {資料館|しりょうかん}. They are typically free or inexpensive to enter and serve an educational purpose. The word is often preceded by a modifier indicating the subject area.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01494_hakubutsukan",
+      "reading": "はくぶつかん",
+      "headword": "{博物館|はくぶつかん}",
+      "label": "museum"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00580_toshokan",
+      "reading": "としょかん",
+      "headword": "{図書館|としょかん}",
+      "label": "library"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01717_bijutsukan",
+      "reading": "びじゅつかん",
+      "headword": "{美術館|びじゅつかん}",
+      "label": "art museum"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education", "culture"]
+      "semantic": [
+        "education",
+        "culture"
+      ]
     },
     "created": "2026-03-28T14:21:37Z",
-    "modified": "2026-03-28T14:21:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

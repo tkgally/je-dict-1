@@ -19,7 +19,9 @@
       "english": "To transport building materials.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12646_kenzai_ex2",
@@ -27,7 +29,9 @@
       "english": "The building materials for wooden houses are mainly domestically produced timber.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12646_kenzai_ex3",
@@ -35,22 +39,59 @@
       "english": "Due to the weak yen, the price of imported building materials has risen significantly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAbbreviation of {建築|けんちく}{材料|ざいりょう}. Common in news, real estate, and construction industry contexts. Often appears with specific material types like {木|もく}{建材|けんざい} (wood building materials) or {鉄|てつ}{建材|けんざい} (steel building materials).\n\nCOMMON COLLOCATIONS:\n- {建材|けんざい}メーカー: building materials manufacturer\n- {建材|けんざい}{店|てん}: building supply store\n- {建材|けんざい}{費|ひ}: building material costs\n- {環境|かんきょう}にやさしい{建材|けんざい}: eco-friendly building materials",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24308_sekizai",
+      "reading": "せきざい",
+      "headword": "{石材|せきざい}",
+      "label": "stone material"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24616_buzai",
+      "reading": "ぶざい",
+      "headword": "{部材|ぶざい}",
+      "label": "structural member"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29250_naisouzai",
+      "reading": "ないそうざい",
+      "headword": "{内装材|ないそうざい}",
+      "label": "interior finishing material"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29285_kabezai",
+      "reading": "かべざい",
+      "headword": "{壁材|かべざい}",
+      "label": "wall material"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T05:20:51Z",
-    "modified": "2026-02-22T05:20:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

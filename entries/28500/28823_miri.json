@@ -3,7 +3,7 @@
   "headword": "ミリ",
   "reading": "みり",
   "romaji": "miri",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, prefix",
   "gloss": "millimeter; milli- (prefix)",
   "definitions": [
     {
@@ -81,6 +81,22 @@
   ],
   "notes": "Borrowed via French/Dutch 'milli'. In Japanese, ミリ alone almost always means millimeter (sense 1) — for other units, the full compound is used: ミリグラム (mg), ミリリットル (mL), ミリ{秒|びょう} (ms).\n\nCOMMON COLLOCATIONS:\n- {数|すう}ミリ: several millimeters\n- {何|なん}ミリ: how many millimeters?\n- ミリ{単位|たんい}: down to the millimeter\n- ミリメートル: full form, millimeter\n- ミリグラム: milligram\n- ミリリットル: milliliter\n\nSIMILAR WORDS:\n- センチ: centimeter — the next unit up; common everyday length\n- マイクロ: micro- (one-millionth)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01372_senchi",
+      "reading": "せんち",
+      "headword": "センチ",
+      "label": "centimeter"
+    },
+    {
+      "type": "related",
+      "target_id": "23178_mirimeetoru",
+      "reading": "みりめーとる",
+      "headword": "ミリメートル",
+      "label": "millimeter"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -89,13 +105,13 @@
         "prefix"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "quantity"
       ],
       "domain": []
     },
     "created": "2026-06-06T02:07:42Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

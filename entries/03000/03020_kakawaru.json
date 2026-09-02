@@ -2,7 +2,7 @@
   "id": "03020_kakawaru",
   "headword": "{関|かか}わる",
   "reading": "かかわる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to be concerned with, to be involved",
   "conjugation": {
     "type": "godan",
@@ -153,11 +153,26 @@
       ]
     }
   ],
-  "notes": "{関|かか}わる is an intransitive verb meaning to be connected or involved with.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n\nPARTICLE USAGE:\n- 〜⟦に→に：00314_ni⟧{関|かか}わる (to be involved with ~)\n- 〜⟦に→に：00314_ni⟧{関|かか}わらず (regardless of ~)\n\nCOMMON PATTERNS:\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧{関|かか}わる (be involved in work)\n- ⟦{命|いのち}→命：02371_inochi⟧⟦に→に：00314_ni⟧{関|かか}わる (a matter of life and death)\n- ⟦{深|ふか}く→深い：01211_fukai⟧{関|かか}わる (be deeply involved)\n\nRELATED VERBS:\n- ⟦{関係|かんけい}→関係：01298_kankei⟧⟦する→する：00392_suru⟧: to be related to\n- ⟦{携|たずさ}わる→携わる：09333_tazusawaru⟧: to be engaged in (more formal)",
-  "cross_references": [],
+  "notes": "{関|かか}わる is an intransitive verb meaning to be connected or involved with.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n\nCOMMON PATTERNS:\n- 〜⟦に→に：00314_ni⟧{関|かか}わる (to be involved with ~)\n- 〜⟦に→に：00314_ni⟧{関|かか}わらず (regardless of ~)\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧{関|かか}わる (be involved in work)\n- ⟦{命|いのち}→命：02371_inochi⟧⟦に→に：00314_ni⟧{関|かか}わる (a matter of life and death)\n- ⟦{深|ふか}く→深い：01211_fukai⟧{関|かか}わる (be deeply involved)\n\nRELATED WORDS:\n- ⟦{関係|かんけい}→関係：01298_kankei⟧⟦する→する：00392_suru⟧: to be related to\n- ⟦{携|たずさ}わる→携わる：09333_tazusawaru⟧: to be engaged in (more formal)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01298_kankei",
+      "reading": "かんけい",
+      "headword": "{関係|かんけい}",
+      "label": "to be related to"
+    },
+    {
+      "type": "related",
+      "target_id": "09333_tazusawaru",
+      "reading": "たずさわる",
+      "headword": "{携|たずさ}わる",
+      "label": "to be engaged in"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-05-23T15:11:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

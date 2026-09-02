@@ -2,7 +2,7 @@
   "id": "09774_soukin",
   "headword": "{送金|そうきん}",
   "reading": "そうきん",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "remittance, money transfer",
   "conjugation": {
     "type": "suru",
@@ -130,10 +130,61 @@
       ]
     }
   ],
-  "notes": "{送金|そうきん} means sending money to another person or institution. Compound of {送|おく}る (send) + {金|きん} (money). Used as a する verb: {送金|そうきん}する.\n\nCOMMON COLLOCATIONS:\n- {送金|そうきん}する: to send money, to remit\n- {送金|そうきん}{手数料|てすうりょう}: remittance/transfer fee\n- {海外|かいがい}{送金|そうきん}: overseas remittance\n- {銀行|ぎんこう}{送金|そうきん}: bank transfer\n- {送金|そうきん}{先|さき}: remittance destination\n\nDISTINCTION:\n- {送金|そうきん}: general term for sending money (any method)\n- {振|ふ}り{込|こ}み: bank transfer (specifically into a bank account)\n- {振|ふ}り{込|こ}む: to make a bank transfer (verb)\n- {為替|かわせ}: money order or foreign exchange\n\nREGISTER:\nSomewhat formal. In everyday speech, {振|ふ}り{込|こ}む is more commonly used for domestic bank transfers.",
+  "notes": "{送金|そうきん} means sending money to another person or institution. Compound of {送|おく}る (send) + {金|きん} (money). Used as a する verb: {送金|そうきん}する.\n\nCOMMON COLLOCATIONS:\n- {送金|そうきん}する: to send money, to remit\n- {送金|そうきん}{手数料|てすうりょう}: remittance/transfer fee\n- {海外|かいがい}{送金|そうきん}: overseas remittance\n- {銀行|ぎんこう}{送金|そうきん}: bank transfer\n- {送金|そうきん}{先|さき}: remittance destination\n\nSIMILAR WORDS:\n- {送金|そうきん}: general term for sending money (any method)\n- {振|ふ}り{込|こ}み: bank transfer (specifically into a bank account)\n- {振|ふ}り{込|こ}む: to make a bank transfer (verb)\n- {為替|かわせ}: money order or foreign exchange\n\nREGISTER:\nSomewhat formal. In everyday speech, {振|ふ}り{込|こ}む is more commonly used for domestic bank transfers.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10992_furikomu",
+      "reading": "ふりこむ",
+      "headword": "{振|ふ}り{込|こ}む",
+      "label": "to make a bank transfer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04021_kawase",
+      "reading": "かわせ",
+      "headword": "{為替|かわせ}",
+      "label": "money order or foreign exchange"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05467_nyuukin",
+      "reading": "にゅうきん",
+      "headword": "{入金|にゅうきん}",
+      "label": "deposit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20996_chakkinsuru",
+      "reading": "ちゃっきんする",
+      "headword": "{着金|ちゃっきん}する",
+      "label": "to receive payment"
+    },
+    {
+      "type": "related",
+      "target_id": "23203_furikomisaki",
+      "reading": "ふりこみさき",
+      "headword": "{振込先|ふりこみさき}",
+      "label": "transfer destination"
+    },
+    {
+      "type": "related",
+      "target_id": "25648_ginkoufurikomi",
+      "reading": "ぎんこうふりこみ",
+      "headword": "{銀行|ぎんこう}{振込|ふりこみ}",
+      "label": "bank transfer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26153_chakkin",
+      "reading": "ちゃっきん",
+      "headword": "{着金|ちゃっきん}",
+      "label": "receipt of payment"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T09:58:52Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

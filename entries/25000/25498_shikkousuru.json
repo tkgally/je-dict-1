@@ -3,7 +3,7 @@
   "headword": "{執行|しっこう}する",
   "reading": "しっこうする",
   "romaji": "shikkousuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to execute; to carry out; to enforce",
   "definitions": [
     {
@@ -80,7 +80,29 @@
     }
   ],
   "notes": "Composed of {執行|しっこう} (execution; enforcement) + する. A formal, administrative word often seen in government and legal contexts. The noun {執行|しっこう} alone frequently appears in compound terms.\n\nCOMMON COLLOCATIONS:\n- {予算|よさん}を{執行|しっこう}する: to execute a budget\n- {刑|けい}を{執行|しっこう}する: to carry out a sentence\n- {強制|きょうせい}{執行|しっこう}: compulsory enforcement (of a court order)\n- {執行|しっこう}{猶予|ゆうよ}: suspended sentence\n- {執行|しっこう}{役員|やくいん}: executive officer\n\nSIMILAR WORDS:\n- {実行|じっこう}する: to carry out; to put into practice — more general; used for plans, ideas, and personal actions\n- {施行|しこう}する: to enforce; to put into effect — specifically for laws and regulations taking effect\n- {遂行|すいこう}する: to accomplish; to carry through — emphasizes completing a mission or duty",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22146_jikkousuru",
+      "reading": "じっこうする",
+      "headword": "{実行|じっこう}する",
+      "label": "to carry out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06581_shikou",
+      "reading": "しこう",
+      "headword": "{施行|しこう}",
+      "label": "to enforce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20156_suikousuru",
+      "reading": "すいこうする",
+      "headword": "{遂行|すいこう}する",
+      "label": "to accomplish"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -88,6 +110,7 @@
       "pos": [
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "law",
         "politics"
@@ -95,7 +118,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T15:11:30Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

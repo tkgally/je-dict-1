@@ -19,7 +19,9 @@
       "english": "Elementary education lasts six years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16629_shotoukyouiku_ex2",
@@ -27,7 +29,9 @@
       "english": "Enriching elementary education is important.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16629_shotoukyouiku_ex3",
@@ -35,22 +39,52 @@
       "english": "In this country, the coverage rate of elementary education is still low.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{初等教育|しょとうきょういく} refers to the first stage of formal education — in Japan, the six years of {小学校|しょうがっこう} (elementary school, ages 6–12).\n\nUSAGE:\nA formal term used in educational policy, academic research, and official documents. In everyday conversation, {小学校|しょうがっこう}の{教育|きょういく} is more natural.\n\nJAPANESE EDUCATION LEVELS:\n- {初等教育|しょとうきょういく}: elementary education (6 years)\n- {中等教育|ちゅうとうきょういく}: secondary education ({中学校|ちゅうがっこう} 3 years + {高校|こうこう} 3 years)\n- {高等教育|こうとうきょういく}: higher education ({大学|だいがく}, etc.)\n\nRELATED:\n- {義務教育|ぎむきょういく}: compulsory education (covers elementary + middle school in Japan)\n- {就学|しゅうがく}: school enrollment",
-  "cross_references": [],
+  "notes": "{初等教育|しょとうきょういく} refers to the first stage of formal education — in Japan, the six years of {小学校|しょうがっこう} (elementary school, ages 6–12).\n\nUSAGE:\nA formal term used in educational policy, academic research, and official documents. In everyday conversation, {小学校|しょうがっこう}の{教育|きょういく} is more natural.\n\nJAPANESE EDUCATION LEVELS:\n- {初等教育|しょとうきょういく}: elementary education (6 years)\n- {中等教育|ちゅうとうきょういく}: secondary education ({中学校|ちゅうがっこう} 3 years + {高校|こうこう} 3 years)\n- {高等教育|こうとうきょういく}: higher education ({大学|だいがく}, etc.)\n\nRELATED WORDS:\n- {義務教育|ぎむきょういく}: compulsory education (covers elementary + middle school in Japan)\n- {就学|しゅうがく}: school enrollment",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13964_gimukyouiku",
+      "reading": "ぎむきょういく",
+      "headword": "{義務教育|ぎむきょういく}",
+      "label": "compulsory education"
+    },
+    {
+      "type": "related",
+      "target_id": "06963_shuugaku",
+      "reading": "しゅうがく",
+      "headword": "{就学|しゅうがく}",
+      "label": "school enrollment"
+    },
+    {
+      "type": "related",
+      "target_id": "19604_koutoukyouiku",
+      "reading": "こうとうきょういく",
+      "headword": "{高等教育|こうとうきょういく}",
+      "label": "higher education"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T01:36:58Z",
-    "modified": "2026-03-26T19:36:44Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["education"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

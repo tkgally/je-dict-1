@@ -3,7 +3,7 @@
   "headword": "しくじる",
   "reading": "しくじる",
   "romaji": "shikujiru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to fail; to blunder; to mess up",
   "definitions": [
     {
@@ -55,7 +55,29 @@
     }
   ],
   "notes": "A colloquial verb with a blunt, honest tone. Often used when taking responsibility for one's own failure or when describing someone's mistake candidly. The TV show 「しくじり{先生|せんせい}」 (Shikujiri Sensei — \"Teachers Who Blew It\"), where celebrities talk about their past failures, made this word widely recognized.\n\nTRANSITIVITY:\nCan be used both transitively ({試験|しけん}をしくじる — to fail an exam) and intransitively ({商談|しょうだん}でしくじる — to mess up in a business deal).\n\nCOMMON COLLOCATIONS:\n- {仕事|しごと}をしくじる: to mess up at work\n- {試験|しけん}をしくじる: to fail an exam\n- しくじり{先生|せんせい}: a teacher who failed (TV show title)\n- {一度|いちど}しくじる: to fail once\n\nSIMILAR WORDS:\n- {失敗|しっぱい}する: to fail — neutral and widely used; lacks the colloquial punch of しくじる\n- へまをする: to make a blunder — colloquial, often for minor practical mistakes\n- やらかす: to screw up — very colloquial/slangy, often implies the mistake was embarrassing",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01636_shippai",
+      "reading": "しっぱい",
+      "headword": "{失敗|しっぱい}",
+      "label": "to fail"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09375_yarakasu",
+      "reading": "やらかす",
+      "headword": "やらかす",
+      "label": "to screw up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17194_shisonjiru",
+      "reading": "しそんじる",
+      "headword": "{仕損|しそん}じる",
+      "label": "to fail"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -64,6 +86,7 @@
         "verb-godan"
       ],
       "formality": "informal",
+      "politeness": "plain",
       "semantic": [
         "daily-life"
       ],
@@ -71,7 +94,7 @@
       "transitivity": "both"
     },
     "created": "2026-04-27T15:11:13Z",
-    "modified": "2026-04-27T15:11:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

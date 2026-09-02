@@ -46,6 +46,22 @@
   ],
   "notes": "A card linked to a bank account that deducts the purchase amount immediately, so spending is limited to the balance available.\n\nCOMMON COLLOCATIONS:\n- デビットカードで{支払|しはら}う: to pay with a debit card\n- デビットカードを{発行|はっこう}する: to issue a debit card\n- デビットカードが{使|つか}える{店|みせ}: a shop that accepts debit cards\n\nSIMILAR WORDS:\n- クレジットカード: credit card — the amount is billed later rather than drawn immediately\n- キャッシュカード: cash card — used mainly to withdraw cash at an ATM, not to make purchases",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06968_kurejittokaado",
+      "reading": "くれじっとかーど",
+      "headword": "クレジットカード",
+      "label": "credit card"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10836_kyasshukaado",
+      "reading": "きゃっしゅかーど",
+      "headword": "キャッシュカード",
+      "label": "cash card"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "money"
       ],
       "domain": []
     },
     "created": "2026-07-05T03:18:57Z",
-    "modified": "2026-07-05T03:18:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

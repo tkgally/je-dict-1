@@ -3,7 +3,7 @@
   "headword": "{吸|す}い{上|あ}げる",
   "reading": "すいあげる",
   "romaji": "suiageru",
-  "part_of_speech": "ichidan verb, transitive",
+  "part_of_speech": "verb (ichidan, transitive)",
   "gloss": "to suck up; to absorb; to pump up",
   "conjugation": {
     "type": "ichidan",
@@ -171,6 +171,22 @@
   ],
   "notes": "A compound verb from {吸|す}う (to suck, to inhale) + {上|あ}げる (to raise). The upward direction distinguishes it from simply {吸|す}う.\n\nTRANSITIVITY:\nTransitive. No standard intransitive counterpart; the passive {吸|す}い{上|あ}げられる is used for the intransitive sense.\n\nCOMMON COLLOCATIONS:\n- {水|みず}を{吸|す}い{上|あ}げる — to suck up water\n- {意見|いけん}を{吸|す}い{上|あ}げる — to gather opinions\n- {富|とみ}を{吸|す}い{上|あ}げる — to siphon off wealth\n- {地下水|ちかすい}を{吸|す}い{上|あ}げる — to pump up groundwater\n\nSIMILAR WORDS:\n- {吸収|きゅうしゅう}する — to absorb (more formal/scientific)\n- {汲|く}み{上|あ}げる — to scoop up, to draw up (physical: water from a well; figurative: gathering opinions)\n- {搾取|さくしゅ}する — to exploit (stronger negative connotation than sense 2)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25365_kyuushuusuru",
+      "reading": "きゅうしゅうする",
+      "headword": "{吸収|きゅうしゅう}する",
+      "label": "to absorb"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12820_sakushu",
+      "reading": "さくしゅ",
+      "headword": "{搾取|さくしゅ}",
+      "label": "to exploit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -187,6 +203,6 @@
       "verb_class": "ichidan"
     },
     "created": "2026-03-28T20:13:10Z",
-    "modified": "2026-03-28T20:13:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "27106_kinmukeitai_ex1",
       "japanese": "{勤務形態|きんむけいたい}は{正社員|せいしゃいん}です。",
       "english": "My work arrangement is full-time employment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27106_kinmukeitai_ex2",
       "japanese": "{会社|かいしゃ}は{柔軟|じゅうなん}な{勤務形態|きんむけいたい}を{導入|どうにゅう}した。",
       "english": "The company introduced flexible work arrangements.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "27106_kinmukeitai_ex3",
       "japanese": "コロナ{禍|か}をきっかけに、テレワークという{新|あたら}しい{勤務形態|きんむけいたい}が{一般的|いっぱんてき}になった。",
       "english": "The pandemic led to remote work becoming a common new work arrangement.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A formal business term composed of {勤務|きんむ} (work, service) + {形態|けいたい} (form, format). Used extensively in HR contexts, job listings, and workplace policy discussions.\n\nCOMMON COLLOCATIONS:\n- {勤務形態|きんむけいたい}を{変|か}える: to change one's work arrangement\n- {柔軟|じゅうなん}な{勤務形態|きんむけいたい}: flexible work arrangements\n- {多様|たよう}な{勤務形態|きんむけいたい}: diverse work styles\n- {勤務形態|きんむけいたい}の{選択肢|せんたくし}: work arrangement options\n\nTYPES OF WORK ARRANGEMENTS:\n- {正社員|せいしゃいん}: full-time permanent employee\n- パート / アルバイト: part-time work\n- {派遣|はけん}: temporary/dispatched work\n- {契約社員|けいやくしゃいん}: contract employee\n- フレックスタイム: flextime\n- テレワーク / {在宅勤務|ざいたくきんむ}: remote work\n- {時短勤務|じたんきんむ}: shortened work hours\n\nSIMILAR WORDS:\n- {働|はたら}き{方|かた}: way of working — more casual and broader, covers work-life balance philosophy as well as employment type\n- {雇用形態|こようけいたい}: employment type — very similar but focuses specifically on the contractual relationship between employer and employee",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25439_hatarakikata",
+      "reading": "はたらきかた",
+      "headword": "{働|はたら}き{方|かた}",
+      "label": "way of working"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08613_koyoukeitai",
+      "reading": "こようけいたい",
+      "headword": "{雇用形態|こようけいたい}",
+      "label": "employment type"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-05-07T11:19:22Z",
-    "modified": "2026-05-07T11:19:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "19480_roumu_ex1",
       "japanese": "{労務|ろうむ}{管理|かんり}は{会社|かいしゃ}にとって{重要|じゅうよう}だ。",
       "english": "Labor management is important for a company.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19480_roumu_ex2",
       "japanese": "{彼女|かのじょ}は{労務|ろうむ}{担当|たんとう}として{働|はたら}いている。",
       "english": "She works as a labor affairs officer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,54 @@
       "id": "19480_roumu_ex3",
       "japanese": "{労務|ろうむ}{問題|もんだい}を{未然|みぜん}に{防|ふせ}ぐために、{就業|しゅうぎょう}{規則|きそく}を{見直|みなお}した。",
       "english": "To prevent labor issues before they arise, we reviewed the employment regulations.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A business term covering the administrative side of employee management — payroll processing, benefits administration, attendance tracking, and compliance with labor standards. In many Japanese companies, {労務|ろうむ} is a function within the HR ({人事|じんじ}) department.\n\nCOMMON COLLOCATIONS:\n- {労務|ろうむ}{管理|かんり} — labor management\n- {労務|ろうむ}{担当|たんとう} — labor affairs officer\n- {労務|ろうむ}{問題|もんだい} — labor issues/problems\n- {労務|ろうむ}{費|ひ} — labor costs\n- {労務|ろうむ}{提供|ていきょう} — provision of labor services\n\nSIMILAR WORDS:\n- {人事|じんじ} — HR, personnel affairs; broader, covering hiring, training, and evaluation as well\n- {労働|ろうどう} — labor, work; the act of working itself, not the administrative management of workers\n- {総務|そうむ} — general affairs; administrative department handling office management, not specifically labor",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00126_jinji",
+      "reading": "じんじ",
+      "headword": "{人事|じんじ}",
+      "label": "HR, personnel affairs"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03785_roudou",
+      "reading": "ろうどう",
+      "headword": "{労働|ろうどう}",
+      "label": "labor, work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16143_soumu",
+      "reading": "そうむ",
+      "headword": "{総務|そうむ}",
+      "label": "general affairs"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-03-26T01:24:07Z",
-    "modified": "2026-03-26T01:24:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

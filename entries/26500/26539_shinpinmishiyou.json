@@ -3,7 +3,7 @@
   "headword": "{新品未使用|しんぴんみしよう}",
   "reading": "しんぴんみしよう",
   "romaji": "shinpinmishiyou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "brand new, unused; new and unopened",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "26539_shinpinmishiyou_ex1",
       "japanese": "{新品未使用|しんぴんみしよう}の{商品|しょうひん}です。",
       "english": "This item is brand new and unused.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26539_shinpinmishiyou_ex2",
       "japanese": "{新品未使用|しんぴんみしよう}のバッグを{半額|はんがく}で{手|て}に{入|い}れた。",
       "english": "I got a brand new, unused bag for half price.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,48 @@
       "id": "26539_shinpinmishiyou_ex3",
       "japanese": "フリマアプリでは{新品未使用|しんぴんみしよう}の{状態|じょうたい}が{一番|いちばん}{高|たか}く{売|う}れる。",
       "english": "On flea market apps, items in brand new, unused condition sell for the highest price.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A four-character compound of {新品|しんぴん} (new item) and {未使用|みしよう} (unused). This is one of the standard condition labels on Japanese online marketplaces like メルカリ (Mercari), ラクマ (Rakuma), and ヤフオク (Yahoo Auctions). It represents the highest condition grade, indicating the item was purchased but never used or taken out of its packaging.\n\nCOMMON COLLOCATIONS:\n- {新品未使用|しんぴんみしよう}{品|ひん}: brand new, unused item\n- {新品未使用|しんぴんみしよう}タグ{付|つ}き: brand new with tags attached\n- {新品未使用|しんぴんみしよう}の{状態|じょうたい}: brand new, unused condition\n\nCONDITION GRADES:\nJapanese marketplace listings typically use these condition labels:\n- {新品未使用|しんぴんみしよう}: brand new, unused\n- {未使用|みしよう}に{近|ちか}い: near unused\n- {目立|めだ}った{傷|きず}や{汚|よご}れなし: no noticeable damage or stains\n- やや{傷|きず}や{汚|よご}れあり: some damage or stains\n- {傷|きず}や{汚|よご}れあり: has damage or stains\n\nSIMILAR WORDS:\n- {新品|しんぴん}: new item — does not specify whether it has been used or opened\n- {未開封|みかいふう}: unopened — focuses specifically on the packaging being sealed",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08303_shinpin",
+      "reading": "しんぴん",
+      "headword": "{新品|しんぴん}",
+      "label": "new item"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10677_mikaifuu",
+      "reading": "みかいふう",
+      "headword": "{未開封|みかいふう}",
+      "label": "unopened"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["colloquial"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "colloquial"
+      ]
     },
     "created": "2026-05-02T15:27:16Z",
-    "modified": "2026-05-02T15:27:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

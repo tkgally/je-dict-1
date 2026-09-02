@@ -3,7 +3,7 @@
   "headword": "{降下|こうか}",
   "reading": "こうか",
   "romaji": "kouka",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "descent; fall; drop",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {降|こう} (descend) and {下|か} (down). Describes a downward movement or decrease, used in both physical and measurable contexts.\n\nCOMMON COLLOCATIONS:\n- {気温|きおん}の{降下|こうか}: temperature drop\n- {血圧|けつあつ}の{降下|こうか}: blood pressure drop\n- {降下|こうか}{訓練|くんれん}: descent training (parachute)\n- {急降下|きゅうこうか}: nosedive, steep descent\n- {落下傘|らっかさん}{降下|こうか}: parachute descent\n\nSIMILAR WORDS:\n- {低下|ていか}: decline, deterioration — used for quality, ability, or levels declining over time\n- {降下|こうか}: descent, drop — emphasizes physical downward movement or sudden decrease\n- {下降|かこう}: descent, going down — more neutral term for downward movement\n- {落下|らっか}: falling — an object dropping due to gravity\n\nREGISTER:\nFormal and technical. Common in news reports, medical contexts, and military terminology. In everyday speech, {下|さ}がる is more natural for describing drops in temperature or pressure.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04065_teika",
+      "reading": "ていか",
+      "headword": "{低下|ていか}",
+      "label": "decline, deterioration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00153_kakou",
+      "reading": "かこう",
+      "headword": "{下降|かこう}",
+      "label": "descent, going down"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14051_rakka",
+      "reading": "らっか",
+      "headword": "{落下|らっか}",
+      "label": "falling"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T16:13:16Z",
-    "modified": "2026-04-02T16:13:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

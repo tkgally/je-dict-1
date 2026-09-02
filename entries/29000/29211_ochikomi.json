@@ -1,6 +1,6 @@
 {
   "id": "29211_ochikomi",
-  "headword": "{落ち込み|おちこみ}",
+  "headword": "{落ち込|おちこ}み",
   "reading": "おちこみ",
   "romaji": "ochikomi",
   "part_of_speech": "noun",
@@ -21,47 +21,83 @@
   "examples": [
     {
       "id": "29211_ochikomi_ex1",
-      "japanese": "{失敗|しっぱい}して、{一時|いちじ}{落ち込み|おちこみ}があった。",
+      "japanese": "{失敗|しっぱい}して、{一時|いちじ}{落ち込|おちこ}みがあった。",
       "english": "After the failure, there was a period of feeling down.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29211_ochikomi_ex2",
-      "japanese": "{落ち込み|おちこみ}から{立|た}ち{直|なお}るのに{時間|じかん}がかかった。",
+      "japanese": "{落ち込|おちこ}みから{立|た}ち{直|なお}るのに{時間|じかん}がかかった。",
       "english": "It took time to recover from the slump in spirits.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29211_ochikomi_ex3",
-      "japanese": "{今月|こんげつ}の{売上|うりあげ}は{先月|せんげつ}より{落ち込み|おちこみ}が{大きい|おおきい}。",
+      "japanese": "{今月|こんげつ}の{売上|うりあげ}は{先月|せんげつ}より{落ち込|おちこ}みが{大|おお}きい。",
       "english": "This month's sales have seen a bigger slump than last month.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29211_ochikomi_ex4",
-      "japanese": "{景気|けいき}の{落ち込み|おちこみ}が{予想|よそう}より{深刻|しんこく}だった。",
+      "japanese": "{景気|けいき}の{落ち込|おちこ}みが{予想|よそう}より{深刻|しんこく}だった。",
       "english": "The economic slump was more serious than expected.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "SIMILAR WORDS:\n- {落ち込む|おちこむ}: the base verb (to feel depressed; to slump)\n- {スランプ}: slump — mostly for performance (sports, work); loanword\n- {低迷|ていめい}: prolonged slump — implies sustained stagnation at a low level\n\nUSAGE:\nSense 1 describes a temporary emotional state; it is milder than 鬱 (うつ, depression). Sense 2 describes quantitative decline (sales, production, performance).",
+  "notes": "SIMILAR WORDS:\n- {落ち込|おちこ}む: the base verb (to feel depressed; to slump)\n- スランプ: slump — mostly for performance (sports, work); loanword\n- {低迷|ていめい}: prolonged slump — implies sustained stagnation at a low level\n\nUSAGE:\nSense 1 describes a temporary emotional state; it is milder than 鬱 (うつ, depression). Sense 2 describes quantitative decline (sales, production, performance).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05750_ochikomu",
+      "reading": "おちこむ",
+      "headword": "{落|お}ち{込|こ}む",
+      "label": "the base verb (to feel depressed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29125_suranpu",
+      "reading": "すらんぷ",
+      "headword": "スランプ",
+      "label": "slump"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09332_teimei",
+      "reading": "ていめい",
+      "headword": "{低迷|ていめい}",
+      "label": "prolonged slump"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion", "change"]
+      "semantic": [
+        "emotion",
+        "change"
+      ]
     },
     "created": "2026-06-13T03:43:05Z",
-    "modified": "2026-06-13T03:43:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

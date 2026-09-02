@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "ANTONYM:\n・⟦{内部|ないぶ}→内部：05583_naibu⟧ (inside, interior, internal)\n\nCOMMON COMPOUNDS:\n・{外部|がいぶ}⟦{委託|いたく}→委託：05620_itaku⟧ (outsourcing)\n・{外部|がいぶ}⟦{監査|かんさ}→監査：05972_kansa⟧ (external audit)\n・{外部|がいぶ}スタッフ (external staff)\n・{外部|がいぶ}⟦{講師|こうし}→講師：00451_koushi⟧ (external lecturer)\n・{外部|がいぶ}メモリ (external memory)\n・{外部|がいぶ}⟦{要因|よういん}→要因：05581_youin⟧ (external factor)\n・{外部|がいぶ}⟦{接続|せつぞく}→接続：04367_setsuzoku⟧ (external connection)\n\nPATTERNS:\n・{外部|がいぶ}⟦の→の：09472_no⟧ (external, outside)\n・{外部|がいぶ}⟦から→から：00504_kara⟧ (from outside)\n・{外部|がいぶ}⟦に→に：00314_ni⟧ (to the outside)\n・{外部|がいぶ}⟦に→に：00314_ni⟧⟦{漏|も}れる→漏れる：02435_moreru⟧ (to leak outside)\n\nSIMILAR:\n・⟦{外側|そとがわ}→外側：05450_sotogawa⟧ (outside - physical)\n・⟦{部外|ぶがい}→部外：27352_bugai⟧ (outside the group/department)",
+  "notes": "SIMILAR WORDS:\n- ⟦{内部|ないぶ}→内部：05583_naibu⟧ (inside, interior, internal)\n\nCOMPOUNDS:\n- {外部|がいぶ}⟦{委託|いたく}→委託：05620_itaku⟧ (outsourcing)\n- {外部|がいぶ}⟦{監査|かんさ}→監査：05972_kansa⟧ (external audit)\n- {外部|がいぶ}スタッフ (external staff)\n- {外部|がいぶ}⟦{講師|こうし}→講師：00451_koushi⟧ (external lecturer)\n- {外部|がいぶ}メモリ (external memory)\n- {外部|がいぶ}⟦{要因|よういん}→要因：05581_youin⟧ (external factor)\n- {外部|がいぶ}⟦{接続|せつぞく}→接続：04367_setsuzoku⟧ (external connection)\n\nCOMMON PATTERNS:\n- {外部|がいぶ}⟦の→の：09472_no⟧ (external, outside)\n- {外部|がいぶ}⟦から→から：00504_kara⟧ (from outside)\n- {外部|がいぶ}⟦に→に：00314_ni⟧ (to the outside)\n- {外部|がいぶ}⟦に→に：00314_ni⟧⟦{漏|も}れる→漏れる：02435_moreru⟧ (to leak outside)\n\nSIMILAR:\n- ⟦{外側|そとがわ}→外側：05450_sotogawa⟧ (outside - physical)\n- ⟦{部外|ぶがい}→部外：27352_bugai⟧ (outside the group/department)",
   "cross_references": [
     {
       "type": "antonym",
@@ -51,11 +51,39 @@
       "headword": "{内部|ないぶ}",
       "label": "inside/internal",
       "target_id": "05583_naibu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05450_sotogawa",
+      "reading": "そとがわ",
+      "headword": "{外側|そとがわ}",
+      "label": "outside"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27352_bugai",
+      "reading": "ぶがい",
+      "headword": "{部外|ぶがい}",
+      "label": "outside the group/department"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17992_shagai",
+      "reading": "しゃがい",
+      "headword": "{社外|しゃがい}",
+      "label": "outside the company"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24034_yososama",
+      "reading": "よそさま",
+      "headword": "{余所様|よそさま}",
+      "label": "other people (polite)"
     }
   ],
   "metadata": {
     "created": "2026-01-13T10:53:53Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "さらっと",
   "reading": "さらっと",
   "romaji": "saratto",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "smoothly and dry; lightly; casually",
   "schema_version": "2.0",
   "definitions": [
@@ -23,7 +23,9 @@
       "id": "29024_saratto_ex1",
       "japanese": "さらっとした{砂|すな}。",
       "english": "Fine, dry sand.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -31,7 +33,9 @@
       "id": "29024_saratto_ex2",
       "japanese": "{汗|あせ}をかいても{肌|はだ}がさらっとしている。",
       "english": "Even after sweating, my skin feels smooth and dry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -39,7 +43,9 @@
       "id": "29024_saratto_ex3",
       "japanese": "このローションはべたつかず、さらっとした{使用感|しようかん}が{特徴|とくちょう}です。",
       "english": "This lotion is non-sticky and is known for its light, dry feel after application.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -47,7 +53,9 @@
       "id": "29024_saratto_ex4",
       "japanese": "さらっと{読|よ}む。",
       "english": "To skim through (a text).",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -55,7 +63,9 @@
       "id": "29024_saratto_ex5",
       "japanese": "{嫌味|いやみ}をさらっと{流|なが}す。",
       "english": "To brush off a snide remark without reacting.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -63,21 +73,44 @@
       "id": "29024_saratto_ex6",
       "japanese": "{難|むずか}しい{問題|もんだい}もさらっとこなせるようになりたい。",
       "english": "I want to be able to handle even difficult problems effortlessly.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Mimetic adverb describing smoothness and lightness. The two senses share a core image of something that does not catch or cling.\n\nCOMMON COLLOCATIONS:\n- さらっとした{肌触|はだざわ}り — a smooth, dry feel\n- さらっとした{生地|きじ} — light, smooth fabric\n- さらっと{流|なが}す — to brush something off/past\n- さらっと{言|い}う — to say casually, offhandedly\n- さらっと{読|よ}む — to skim through\n\nSIMILAR WORDS:\n- すらっと: refers to a slender build, not texture\n- さらさら: repeated form, emphasizes a continuous dry, flowing quality (さらさらした{髪|かみ} — silky hair)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20121_suratto",
+      "reading": "すらっと",
+      "headword": "すらっと",
+      "label": "refers to a slender build, not texture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05255_sarasara",
+      "reading": "さらさら",
+      "headword": "さらさら",
+      "label": "repeated form, emphasizes a continuous…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "onomatopoeia"],
+      "pos": [
+        "adverb",
+        "onomatopoeia"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     },
     "created": "2026-06-09T05:59:47Z",
-    "modified": "2026-06-09T05:59:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

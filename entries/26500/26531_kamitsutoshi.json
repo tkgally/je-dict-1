@@ -17,7 +17,9 @@
       "id": "26531_kamitsutoshi_ex1",
       "japanese": "{東京|とうきょう}は{過密|かみつ}{都市|とし}の{代表|だいひょう}{例|れい}だ。",
       "english": "Tokyo is a prime example of an overcrowded city.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26531_kamitsutoshi_ex2",
       "japanese": "{過密|かみつ}{都市|とし}では{住宅|じゅうたく}{問題|もんだい}が{深刻|しんこく}だ。",
       "english": "Housing problems are serious in overcrowded cities.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,38 @@
       "id": "26531_kamitsutoshi_ex3",
       "japanese": "{過密|かみつ}{都市|とし}の{問題|もんだい}を{解決|かいけつ}するために、{地方|ちほう}への{移住|いじゅう}を{促進|そくしん}する{政策|せいさく}が{進|すす}められている。",
       "english": "Policies promoting migration to rural areas are being advanced to address the problems of overcrowded cities.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {過密|かみつ} (overcrowding; excessive density) and {都市|とし} (city). A key term in discussions of Japan's {一極|いっきょく}{集中|しゅうちゅう} (concentration in one center, i.e., Tokyo) and regional decline.\n\nCOMMON COLLOCATIONS:\n- {過密|かみつ}{都市|とし}{問題|もんだい}: overcrowded city problems\n- {過密|かみつ}{都市|とし}の{解消|かいしょう}: relieving urban overcrowding\n- {過密|かみつ}{都市|とし}と{過疎|かそ}{地域|ちいき}: overcrowded cities and depopulated regions\n\nSIMILAR WORDS:\n- {大都市|だいとし}: large city; metropolis — neutral, does not imply overcrowding\n- {過疎|かそ}{地域|ちいき}: depopulated area — the opposite problem, rural areas losing population\n- {人口|じんこう}{過密|かみつ}: population overcrowding — describes the condition rather than the place",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12204_daitoshi",
+      "reading": "だいとし",
+      "headword": "{大都市|だいとし}",
+      "label": "large city"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["society", "geography"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "society",
+        "geography"
+      ]
     },
     "created": "2026-05-02T14:36:34Z",
-    "modified": "2026-05-02T14:36:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

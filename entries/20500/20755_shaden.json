@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {社|しゃ} (shrine) and {殿|でん} (hall, palace). Refers specifically to Shinto shrine architecture, not Buddhist temples.\n\nCULTURAL CONTEXT:\nShinto shrine buildings typically include the {本殿|ほんでん} (main hall housing the deity), {拝殿|はいでん} (worship hall where visitors pray), and various auxiliary structures. {社殿|しゃでん} can refer to any of these or to the complex as a whole. Traditional shrine architecture features distinctive elements like {千木|ちぎ} (forked finials) and {鰹木|かつおぎ} (log-shaped ridge ornaments).\n\nCOMMON COLLOCATIONS:\n- {社殿|しゃでん}を{建|た}てる — to build a shrine hall\n- {社殿|しゃでん}を{再建|さいけん}する — to rebuild a shrine hall\n- {社殿|しゃでん}の{造営|ぞうえい} — construction of a shrine building\n- {朱塗|しゅぬ}りの{社殿|しゃでん} — vermilion-painted shrine building\n\nRELATED TERMS:\n- {本殿|ほんでん} — main hall of a shrine; where the deity resides\n- {拝殿|はいでん} — worship hall; where visitors pray\n- {仏殿|ぶつでん} — Buddhist temple hall; the Buddhist equivalent",
+  "notes": "A compound of {社|しゃ} (shrine) and {殿|でん} (hall, palace). Refers specifically to Shinto shrine architecture, not Buddhist temples.\n\nCULTURAL NOTE:\nShinto shrine buildings typically include the {本殿|ほんでん} (main hall housing the deity), {拝殿|はいでん} (worship hall where visitors pray), and various auxiliary structures. {社殿|しゃでん} can refer to any of these or to the complex as a whole. Traditional shrine architecture features distinctive elements like {千木|ちぎ} (forked finials) and {鰹木|かつおぎ} (log-shaped ridge ornaments).\n\nCOMMON COLLOCATIONS:\n- {社殿|しゃでん}を{建|た}てる — to build a shrine hall\n- {社殿|しゃでん}を{再建|さいけん}する — to rebuild a shrine hall\n- {社殿|しゃでん}の{造営|ぞうえい} — construction of a shrine building\n- {朱塗|しゅぬ}りの{社殿|しゃでん} — vermilion-painted shrine building\n\nRELATED WORDS:\n- {本殿|ほんでん} — main hall of a shrine; where the deity resides\n- {拝殿|はいでん} — worship hall; where visitors pray\n- {仏殿|ぶつでん} — Buddhist temple hall; the Buddhist equivalent",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13090_honden",
+      "reading": "ほんでん",
+      "headword": "{本殿|ほんでん}",
+      "label": "main hall of a shrine"
+    },
+    {
+      "type": "related",
+      "target_id": "24252_haiden",
+      "reading": "はいでん",
+      "headword": "{拝殿|はいでん}",
+      "label": "worship hall"
+    },
+    {
+      "type": "related",
+      "target_id": "25003_butsuden",
+      "reading": "ぶつでん",
+      "headword": "{仏殿|ぶつでん}",
+      "label": "Buddhist temple hall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26627_saiden",
+      "reading": "さいでん",
+      "headword": "{祭殿|さいでん}",
+      "label": "ceremonial hall"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-03-30T15:12:53Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

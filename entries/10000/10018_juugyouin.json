@@ -18,7 +18,9 @@
       "english": "This company has 100 employees.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10018_juugyouin_ex2",
@@ -26,7 +28,9 @@
       "english": "There is a parking lot exclusively for employees.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10018_juugyouin_ex3",
@@ -34,10 +38,12 @@
       "english": "It is important to increase employee satisfaction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{従業員|じゅうぎょういん} is a formal term for employees, commonly used in business contexts.\n\nWORD FORMATION:\n{従業|じゅうぎょう} (working, employment) + {員|いん} (member) = employee\n\nCOMMON EXPRESSIONS:\n- {従業員|じゅうぎょういん}{数|すう}: number of employees\n- {従業員|じゅうぎょういん}{満足度|まんぞくど}: employee satisfaction\n- {従業員|じゅうぎょういん}{教育|きょういく}: employee training\n- {正規|せいき}{従業員|じゅうぎょういん}: regular employee\n- {非正規|ひせいき}{従業員|じゅうぎょういん}: non-regular employee\n\nSIMILAR WORDS:\n- {社員|しゃいん}: company employee (often implies regular, full-time)\n- {スタッフ}: staff (loanword, casual)\n- {労働者|ろうどうしゃ}: worker, laborer (broader term)\n- {雇用者|こようしゃ}: employee (formal, legal)",
+  "notes": "{従業員|じゅうぎょういん} is a formal term for employees, commonly used in business contexts.\n\nFORMS:\n{従業|じゅうぎょう} (working, employment) + {員|いん} (member) = employee\n\nCOMMON EXPRESSIONS:\n- {従業員|じゅうぎょういん}{数|すう}: number of employees\n- {従業員|じゅうぎょういん}{満足度|まんぞくど}: employee satisfaction\n- {従業員|じゅうぎょういん}{教育|きょういく}: employee training\n- {正規|せいき}{従業員|じゅうぎょういん}: regular employee\n- {非正規|ひせいき}{従業員|じゅうぎょういん}: non-regular employee\n\nSIMILAR WORDS:\n- {社員|しゃいん}: company employee (often implies regular, full-time)\n- スタッフ: staff (loanword, casual)\n- {労働者|ろうどうしゃ}: worker, laborer (broader term)\n- {雇用者|こようしゃ}: employee (formal, legal)",
   "cross_references": [
     {
       "type": "synonym",
@@ -45,18 +51,73 @@
       "reading": "しゃいん",
       "headword": "{社員|しゃいん}",
       "label": "company employee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11046_sutaffu",
+      "reading": "すたっふ",
+      "headword": "スタッフ",
+      "label": "staff"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23971_roudousha",
+      "reading": "ろうどうしゃ",
+      "headword": "{労働者|ろうどうしゃ}",
+      "label": "worker, laborer"
+    },
+    {
+      "type": "related",
+      "target_id": "02059_shitagau",
+      "reading": "したがう",
+      "headword": "{従|したが}う",
+      "label": "to follow, to obey, to comply"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04181_kouin",
+      "reading": "こういん",
+      "headword": "{工員|こういん}",
+      "label": "factory worker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20206_shokuin",
+      "reading": "しょくいん",
+      "headword": "{職員|しょくいん}",
+      "label": "staff member"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22345_shiyounin",
+      "reading": "しようにん",
+      "headword": "{使用人|しようにん}",
+      "label": "servant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24136_sagyouin",
+      "reading": "さぎょういん",
+      "headword": "{作業員|さぎょういん}",
+      "label": "worker"
     }
   ],
   "metadata": {
     "created": "2026-02-04T13:51:51Z",
-    "modified": "2026-04-23T09:22:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["occupation"],
-      "domain": ["business"]
+      "semantic": [
+        "occupation"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

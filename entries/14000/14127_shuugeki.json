@@ -3,7 +3,7 @@
   "id": "14127_shuugeki",
   "headword": "{襲撃|しゅうげき}",
   "reading": "しゅうげき",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "attack, raid, assault",
   "conjugation": {
     "type": "suru",
@@ -142,11 +142,39 @@
       "reading": "こうげき",
       "headword": "{攻撃|こうげき}",
       "label": "attack (general)"
+    },
+    {
+      "type": "related",
+      "target_id": "01915_osou",
+      "reading": "おそう",
+      "headword": "{襲|おそ}う",
+      "label": "to attack, to strike"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17077_raishuu",
+      "reading": "らいしゅう",
+      "headword": "{来襲|らいしゅう}",
+      "label": "raid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22514_machibuseru",
+      "reading": "まちぶせる",
+      "headword": "{待|ま}ち{伏|ふ}せる",
+      "label": "to ambush"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22544_kyuushuu",
+      "reading": "きゅうしゅう",
+      "headword": "{急襲|きゅうしゅう}",
+      "label": "raid"
     }
   ],
   "metadata": {
     "created": "2026-02-28T01:15:36Z",
-    "modified": "2026-04-30T04:29:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

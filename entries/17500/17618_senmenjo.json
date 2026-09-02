@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{洗面|せんめん} (washing face) + {所|じょ} (place) → place for washing face\n\nJAPANESE HOUSE LAYOUT:\nIn Japanese homes, the {洗面所|せんめんじょ} is typically:\n- Separate from the toilet room ({トイレ})\n- Adjacent to the bathroom ({浴室|よくしつ}) and changing room ({脱衣所|だついじょ})\n- Contains sink, mirror, and often storage for toiletries and laundry\n\nCOMMON ITEMS IN {洗面所|せんめんじょ}:\n- {洗面台|せんめんだい} (bathroom vanity)\n- {洗濯機|せんたくき} (washing machine)\n- タオル (towels)\n- {歯|は}ブラシ (toothbrush)\n\nRELATED ROOMS:\n- {脱衣所|だついじょ} (changing room)\n- {浴室|よくしつ} (bathroom)\n- トイレ/お{手洗|てあら}い (toilet)",
+  "notes": "FORMS:\n{洗面|せんめん} (washing face) + {所|じょ} (place) → place for washing face\n\nJAPANESE HOUSE LAYOUT:\nIn Japanese homes, the {洗面所|せんめんじょ} is typically:\n- Separate from the toilet room (トイレ)\n- Adjacent to the bathroom ({浴室|よくしつ}) and changing room ({脱衣所|だついじょ})\n- Contains sink, mirror, and often storage for toiletries and laundry\n\nCOMMON ITEMS IN {洗面所|せんめんじょ}:\n- {洗面台|せんめんだい} (bathroom vanity)\n- {洗濯機|せんたくき} (washing machine)\n- タオル (towels)\n- {歯|は}ブラシ (toothbrush)\n\nRELATED ROOMS:\n- {脱衣所|だついじょ} (changing room)\n- {浴室|よくしつ} (bathroom)\n- トイレ/お{手洗|てあら}い (toilet)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +51,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "building"
       ]
     },
     "created": "2026-01-26T13:58:14Z",
-    "modified": "2026-08-14T21:21:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "cross_references": [
     {
@@ -72,6 +73,34 @@
       "headword": "{洗面台|せんめんだい}",
       "label": "washstand",
       "target_id": "04988_senmendai"
+    },
+    {
+      "type": "related",
+      "target_id": "05301_yokushitsu",
+      "reading": "よくしつ",
+      "headword": "{浴室|よくしつ}",
+      "label": "bathroom"
+    },
+    {
+      "type": "related",
+      "target_id": "00818_toire",
+      "reading": "といれ",
+      "headword": "トイレ",
+      "label": "toilet"
+    },
+    {
+      "type": "related",
+      "target_id": "02861_otearai",
+      "reading": "おてあらい",
+      "headword": "お{手洗|てあら}い",
+      "label": "toilet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12761_tearai",
+      "reading": "てあらい",
+      "headword": "{手洗|てあら}い",
+      "label": "handwashing"
     }
   ]
 }

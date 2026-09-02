@@ -17,7 +17,9 @@
       "id": "22458_kourigyousha_ex1",
       "japanese": "{小売業者|こうりぎょうしゃ}に{商品|しょうひん}を{卸|おろ}す。",
       "english": "To supply goods to retailers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22458_kourigyousha_ex2",
       "japanese": "{地元|じもと}の{小売業者|こうりぎょうしゃ}が{大型店|おおがたてん}に{押|お}されている。",
       "english": "Local retailers are being squeezed by large stores.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "22458_kourigyousha_ex3",
       "japanese": "ネット{通販|つうはん}の{普及|ふきゅう}で{小売業者|こうりぎょうしゃ}の{経営|けいえい}{環境|かんきょう}は{大|おお}きく{変|か}わった。",
       "english": "The spread of online shopping has drastically changed the business environment for retailers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {小売|こうり} (retail) + {業者|ぎょうしゃ} (business operator). Refers to businesses that sell products directly to end consumers. Can refer to both individual shop owners and larger retail companies.\n\nCOMMON COLLOCATIONS:\n- {小売業者|こうりぎょうしゃ}に{卸|おろ}す: to wholesale to retailers\n- {小売業者|こうりぎょうしゃ}の{経営|けいえい}: retail business management\n- {大手|おおて}{小売業者|こうりぎょうしゃ}: major retailers\n- {小売業者|こうりぎょうしゃ}と{消費者|しょうひしゃ}: retailers and consumers\n\nSIMILAR WORDS:\n- {卸売業者|おろしうりぎょうしゃ}: wholesaler — sells to businesses rather than consumers\n- {販売店|はんばいてん}: retail outlet / dealer — refers to the store itself rather than the business entity\n- {小売店|こうりてん}: retail shop — focuses on the physical store rather than the business operator",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20898_hanbaiten",
+      "reading": "はんばいてん",
+      "headword": "{販売店|はんばいてん}",
+      "label": "retail outlet / dealer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20689_kouriten",
+      "reading": "こうりてん",
+      "headword": "{小売店|こうりてん}",
+      "label": "retail shop"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-04-06T12:12:42Z",
-    "modified": "2026-04-06T12:12:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

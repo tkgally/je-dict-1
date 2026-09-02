@@ -17,7 +17,9 @@
       "id": "25021_keiryoukappu_ex1",
       "japanese": "{計量|けいりょう}カップで{水|みず}を{量|はか}る。",
       "english": "Measure water with a measuring cup.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25021_keiryoukappu_ex2",
       "japanese": "{計量|けいりょう}カップがないから、{目分量|めぶんりょう}で{入|い}れた。",
       "english": "I didn't have a measuring cup, so I added it by eye.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,52 @@
       "id": "25021_keiryoukappu_ex3",
       "japanese": "レシピ{通|どお}りに{計量|けいりょう}カップで{小麦粉|こむぎこ}を{二|に}カップ{量|はか}ってください。",
       "english": "Please measure out two cups of flour with a measuring cup, as the recipe says.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {計量|けいりょう} (measuring) + カップ (cup). A standard kitchen tool in Japan. Note that the Japanese {一|いっ}カップ (one cup) in cooking is 200ml, which differs from the US cup (approximately 240ml).\n\nCOMMON COLLOCATIONS:\n- {計量|けいりょう}カップで{量|はか}る: measure with a measuring cup\n- {計量|けいりょう}カップ{一杯|いっぱい}: one measuring cup full\n- {耐熱|たいねつ}{計量|けいりょう}カップ: heat-resistant measuring cup\n\nRELATED TERMS:\n- {計量|けいりょう}スプーン: measuring spoon\n- {大|おお}さじ: tablespoon (measurement)\n- {小|こ}さじ: teaspoon (measurement)\n- {目盛|めも}り: graduated markings; scale",
+  "notes": "Composed of {計量|けいりょう} (measuring) + カップ (cup). A standard kitchen tool in Japan. Note that the Japanese {一|いっ}カップ (one cup) in cooking is 200ml, which differs from the US cup (approximately 240ml).\n\nCOMMON COLLOCATIONS:\n- {計量|けいりょう}カップで{量|はか}る: measure with a measuring cup\n- {計量|けいりょう}カップ{一杯|いっぱい}: one measuring cup full\n- {耐熱|たいねつ}{計量|けいりょう}カップ: heat-resistant measuring cup\n\nRELATED WORDS:\n- {計量|けいりょう}スプーン: measuring spoon\n- {大|おお}さじ: tablespoon (measurement)\n- {小|こ}さじ: teaspoon (measurement)\n- {目盛|めも}り: graduated markings; scale",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22527_oosaji",
+      "reading": "おおさじ",
+      "headword": "{大|おお}さじ",
+      "label": "tablespoon"
+    },
+    {
+      "type": "related",
+      "target_id": "12435_kosaji",
+      "reading": "こさじ",
+      "headword": "{小|こ}さじ",
+      "label": "teaspoon"
+    },
+    {
+      "type": "related",
+      "target_id": "14814_memori",
+      "reading": "めもり",
+      "headword": "{目盛|めも}り",
+      "label": "graduated markings"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["cooking", "daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "cooking",
+        "daily-life"
+      ]
     },
     "created": "2026-04-22T11:23:36Z",
-    "modified": "2026-04-22T11:23:36Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

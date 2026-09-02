@@ -22,7 +22,9 @@
       "id": "26905_ketsumyaku_ex1",
       "japanese": "{血脈|けつみゃく}を{受|う}け{継|つ}ぐ。",
       "english": "To carry on the bloodline.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "26905_ketsumyaku_ex2",
       "japanese": "{名門|めいもん}の{血脈|けつみゃく}を{引|ひ}いている。",
       "english": "He is descended from a distinguished lineage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "26905_ketsumyaku_ex3",
       "japanese": "{家族|かぞく}の{血脈|けつみゃく}は{途絶|とだ}えることなく{現代|げんだい}まで{続|つづ}いている。",
       "english": "The family bloodline has continued unbroken to the present day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "26905_ketsumyaku_ex4",
       "japanese": "{全身|ぜんしん}の{血脈|けつみゃく}を{巡|めぐ}る。",
       "english": "To circulate through the blood vessels of the entire body.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "26905_ketsumyaku_ex5",
       "japanese": "{東洋|とうよう}{医学|いがく}では{血脈|けつみゃく}の{流|なが}れを{重視|じゅうし}する。",
       "english": "In Eastern medicine, the flow through blood vessels is considered important.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,24 +72,59 @@
       "id": "26905_ketsumyaku_ex6",
       "japanese": "{鍼|はり}{治療|ちりょう}は{血脈|けつみゃく}の{滞|とどこお}りを{改善|かいぜん}すると{言|い}われている。",
       "english": "Acupuncture is said to improve stagnation in the blood vessels.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {血|けつ} (blood) and {脈|みゃく} (vein, pulse, connection). The primary modern usage is the figurative sense of family lineage and hereditary ties. The literal \"blood vessel\" sense survives mainly in traditional medicine and literary contexts.\n\nCOMMON COLLOCATIONS:\n- {血脈|けつみゃく}を{引|ひ}く: to be descended from, to have the blood of\n- {血脈|けつみゃく}を{受|う}け{継|つ}ぐ: to inherit the bloodline\n- {血脈|けつみゃく}が{途絶|とだ}える: the bloodline dies out\n- {血脈|けつみゃく}を{守|まも}る: to preserve the bloodline\n\nSIMILAR WORDS:\n- {血統|けっとう}: lineage, pedigree — often used for animals (horses, dogs) as well as noble families\n- {血筋|ちすじ}: bloodline, lineage — more colloquial\n- {家系|かけい}: family line, genealogy — focuses on the family tree structure\n- {血管|けっかん}: blood vessel — the standard modern medical term (for sense 2)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14027_kettou",
+      "reading": "けっとう",
+      "headword": "{血統|けっとう}",
+      "label": "lineage, pedigree"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22423_chisuji",
+      "reading": "ちすじ",
+      "headword": "{血筋|ちすじ}",
+      "label": "bloodline, lineage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10130_kakei",
+      "reading": "かけい",
+      "headword": "{家系|かけい}",
+      "label": "family line, genealogy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02742_kekkan",
+      "reading": "けっかん",
+      "headword": "{血管|けっかん}",
+      "label": "blood vessel"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["family"],
+      "semantic": [
+        "family"
+      ],
       "domain": []
     },
     "created": "2026-05-05T15:12:32Z",
-    "modified": "2026-05-05T15:12:32Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "id": "18053_manpai",
   "headword": "{満杯|まんぱい}",
   "reading": "まんぱい",
-  "part_of_speech": "noun / adjective-na",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "full to capacity, packed full",
   "definitions": [
     {
@@ -59,11 +59,32 @@
       "reading": "まんせき",
       "headword": "{満席|まんせき}",
       "label": "all seats taken"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01793_ippai",
+      "reading": "いっぱい",
+      "headword": "{一杯|いっぱい}",
+      "label": "full"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05891_gisshiri",
+      "reading": "ぎっしり",
+      "headword": "ぎっしり",
+      "label": "packed"
+    },
+    {
+      "type": "related",
+      "target_id": "09134_houwa",
+      "reading": "ほうわ",
+      "headword": "{飽和|ほうわ}",
+      "label": "saturation"
     }
   ],
   "metadata": {
     "created": "2026-03-20T01:03:26Z",
-    "modified": "2026-05-08T04:12:06Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

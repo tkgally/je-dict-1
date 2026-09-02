@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "REGISTER:\nThis is a rough, derogatory word. It's often used when the speaker is angry or dismissive of what someone else is saying. Common in confrontational speech and media.\n\nUSAGE:\n・〜をほざく - to spout/babble (something)\n・ほざくな - shut up, stop spouting nonsense\n・{何|なに}をほざいている - what are you blabbering about\n\nCOMPARISON:\n・ほざく - to babble, mouth off (derogatory)\n・{言|い}う - to say (neutral)\n・しゃべる - to talk, chat (casual)\n・{吠|ほ}える - to bark, to yell (also derogatory when about speech)\n\nNOTE:\nVery informal and can be considered rude. Mostly heard in fiction, arguments, or when expressing strong irritation.",
+  "notes": "REGISTER:\nThis is a rough, derogatory word. It's often used when the speaker is angry or dismissive of what someone else is saying. Common in confrontational speech and media.\n\nUSAGE:\n- 〜をほざく - to spout/babble (something)\n- ほざくな - shut up, stop spouting nonsense\n- {何|なに}をほざいている - what are you blabbering about\nVery informal and can be considered rude. Mostly heard in fiction, arguments, or when expressing strong irritation.\n\nSIMILAR WORDS:\n- ほざく - to babble, mouth off (derogatory)\n- {言|い}う - to say (neutral)\n- しゃべる - to talk, chat (casual)\n- {吠|ほ}える - to bark, to yell (also derogatory when about speech)",
   "cross_references": [
     {
       "type": "synonym",
@@ -138,11 +138,25 @@
       "reading": "ほえる",
       "headword": "{吠|ほ}える",
       "label": "to bark, yell (derogatory)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00515_iu",
+      "reading": "いう",
+      "headword": "{言|い}う",
+      "label": "to say"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02117_shaberu",
+      "reading": "しゃべる",
+      "headword": "しゃべる",
+      "label": "to talk, chat"
     }
   ],
   "metadata": {
     "created": "2026-01-22T23:40:24Z",
-    "modified": "2026-07-24T07:00:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -150,6 +164,7 @@
         "verb-godan"
       ],
       "formality": "informal",
+      "politeness": "plain",
       "semantic": [
         "communication"
       ],

@@ -3,7 +3,7 @@
   "headword": "{正直|しょうじき}{一途|いちず}",
   "reading": "しょうじきいちず",
   "romaji": "shoujikiichizu",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "earnestly honest; wholeheartedly sincere",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "A four-character compound ({四字熟語|よじじゅくご}) combining {正直|しょうじき} (honest; upright) and {一途|いちず} (wholehearted; single-minded). Used as a na-adjective to describe someone whose sincerity is absolute and unwavering.\n\nCOMMON COLLOCATIONS:\n- {正直|しょうじき}{一途|いちず}な{人柄|ひとがら}: earnestly honest character\n- {正直|しょうじき}{一途|いちず}に{生|い}きる: to live wholeheartedly and honestly\n- {正直|しょうじき}{一途|いちず}な{姿勢|しせい}: an earnestly sincere attitude\n\nSIMILAR WORDS:\n- {実直|じっちょく}: honest and straightforward — similar meaning but a single word\n- {誠実|せいじつ}: sincere; faithful — more common, slightly broader\n- {一途|いちず}: wholehearted; single-minded — one component, without the honesty emphasis\n- {愚直|ぐちょく}: stubbornly honest — implies honesty to a fault",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09186_jicchoku",
+      "reading": "じっちょく",
+      "headword": "{実直|じっちょく}",
+      "label": "honest and straightforward"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14211_seijitsu",
+      "reading": "せいじつ",
+      "headword": "{誠実|せいじつ}",
+      "label": "sincere"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09185_guchoku",
+      "reading": "ぐちょく",
+      "headword": "{愚直|ぐちょく}",
+      "label": "stubbornly honest"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +75,13 @@
       "pos": [
         "adjective-na"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "personality"
       ]
     },
     "created": "2026-05-02T14:37:42Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

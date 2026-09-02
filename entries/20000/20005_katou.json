@@ -46,6 +46,36 @@
   ],
   "notes": "A compound of {加|か} (add) and {糖|とう} (sugar). Primarily used as a prefix or label on food and beverage products to indicate that sugar has been added.\n\nUSAGE:\nMost commonly encountered on product labels and in food/drink descriptions. Often contrasted with {無糖|むとう} (sugar-free) or {微糖|びとう} (lightly sweetened).\n\nCOMMON COLLOCATIONS:\n- {加糖|かとう}{練乳|れんにゅう} — sweetened condensed milk\n- {加糖|かとう}ヨーグルト — sweetened yogurt\n- {加糖|かとう}{飲料|いんりょう} — sweetened beverage\n\nSIMILAR WORDS:\n- {無糖|むとう} — sugar-free, unsweetened (opposite)\n- {微糖|びとう} — lightly sweetened (common on canned coffee)\n- {甘|あま}い — sweet (general adjective, not limited to added sugar)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "19091_mutou",
+      "reading": "むとう",
+      "headword": "{無糖|むとう}",
+      "label": "sugar-free, unsweetened"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19896_bitou",
+      "reading": "びとう",
+      "headword": "{微糖|びとう}",
+      "label": "lightly sweetened"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00617_amai",
+      "reading": "あまい",
+      "headword": "{甘|あま}い",
+      "label": "sweet"
+    },
+    {
+      "type": "homophone",
+      "target_id": "24615_katou",
+      "reading": "かとう",
+      "headword": "{果糖|かとう}",
+      "label": "fructose"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-03-28T04:34:49Z",
-    "modified": "2026-03-28T04:34:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

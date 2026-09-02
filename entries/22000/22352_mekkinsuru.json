@@ -3,7 +3,7 @@
   "headword": "{滅菌|めっきん}する",
   "reading": "めっきんする",
   "romaji": "mekkinsuru",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to sterilize; sterilization",
   "definitions": [
     {
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A technical term meaning complete elimination of microorganisms, stricter than {殺菌|さっきん} (which reduces but may not eliminate all bacteria) or {消毒|しょうどく} (disinfection).\n\nCOMMON COLLOCATIONS:\n- {滅菌|めっきん}{処理|しょり}: sterilization treatment\n- {滅菌|めっきん}{済|ず}み: sterilized; already sterilized\n- {高圧|こうあつ}{蒸気|じょうき}{滅菌|めっきん}: autoclave sterilization\n- {滅菌|めっきん}ガーゼ: sterile gauze\n\nSIMILAR WORDS:\n- {殺菌|さっきん}: bactericidal treatment — reduces bacteria but does not guarantee complete elimination\n- {消毒|しょうどく}: disinfection — removal of pathogens from surfaces, broader and less strict\n- {除菌|じょきん}: sanitization — removal of bacteria, common in household product marketing\n\nFORMATION:\n{滅|めつ} (destroy) + {菌|きん} (bacteria). Literally 'destroy bacteria.'",
+  "notes": "A technical term meaning complete elimination of microorganisms, stricter than {殺菌|さっきん} (which reduces but may not eliminate all bacteria) or {消毒|しょうどく} (disinfection).\n\nCOMMON COLLOCATIONS:\n- {滅菌|めっきん}{処理|しょり}: sterilization treatment\n- {滅菌|めっきん}{済|ず}み: sterilized; already sterilized\n- {高圧|こうあつ}{蒸気|じょうき}{滅菌|めっきん}: autoclave sterilization\n- {滅菌|めっきん}ガーゼ: sterile gauze\n\nSIMILAR WORDS:\n- {殺菌|さっきん}: bactericidal treatment — reduces bacteria but does not guarantee complete elimination\n- {消毒|しょうどく}: disinfection — removal of pathogens from surfaces, broader and less strict\n- {除菌|じょきん}: sanitization — removal of bacteria, common in household product marketing\n\nFORMS:\n{滅|めつ} (destroy) + {菌|きん} (bacteria). Literally 'destroy bacteria.'",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09781_sakkin",
+      "reading": "さっきん",
+      "headword": "{殺菌|さっきん}",
+      "label": "bactericidal treatment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07591_shoudoku",
+      "reading": "しょうどく",
+      "headword": "{消毒|しょうどく}",
+      "label": "disinfection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07789_jokin",
+      "reading": "じょきん",
+      "headword": "{除菌|じょきん}",
+      "label": "sanitization"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T19:22:26Z",
-    "modified": "2026-04-05T19:22:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

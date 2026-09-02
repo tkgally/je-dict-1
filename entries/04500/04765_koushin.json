@@ -2,7 +2,7 @@
   "id": "04765_koushin",
   "headword": "{更新|こうしん}",
   "reading": "こうしん",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "update",
   "conjugation": {
     "type": "suru",
@@ -216,11 +216,39 @@
       "reading": "へんこう",
       "headword": "{変更|へんこう}",
       "label": "change, modification"
+    },
+    {
+      "type": "related",
+      "target_id": "04762_insutooru",
+      "reading": "いんすとーる",
+      "headword": "インストール",
+      "label": "install"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06129_kaiyaku",
+      "reading": "かいやく",
+      "headword": "{解約|かいやく}",
+      "label": "cancellation (of contract)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18958_kakikae",
+      "reading": "かきかえ",
+      "headword": "{書|か}き{換|か}え",
+      "label": "rewriting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26646_saiyomikomi",
+      "reading": "さいよみこみ",
+      "headword": "{再読|さいよ}み{込|こ}み",
+      "label": "reload"
     }
   ],
   "metadata": {
     "created": "2026-01-16T00:23:38Z",
-    "modified": "2026-06-02T16:17:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

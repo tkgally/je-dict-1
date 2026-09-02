@@ -3,7 +3,7 @@
   "headword": "{書類選考|しょるいせんこう}",
   "reading": "しょるいせんこう",
   "romaji": "shoruisenkou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "document screening; resume screening",
   "definitions": [
     {
@@ -45,6 +45,15 @@
     }
   ],
   "notes": "The first stage of the hiring process in Japan, where employers evaluate candidates based on their submitted documents before deciding who to interview. Combines {書類|しょるい} (documents) and {選考|せんこう} (selection, screening).\n\nUSAGE:\n- A standard part of the Japanese job-hunting ({就活|しゅうかつ}) process\n- Applicants typically submit a {履歴書|りれきしょ} (resume) and {職務経歴書|しょくむけいれきしょ} (CV/work history)\n- Passing the {書類選考|しょるいせんこう} leads to the interview stage ({面接|めんせつ})\n- Also used for university admissions, scholarship applications, and competitions\n\nCOMMON COLLOCATIONS:\n- {書類選考|しょるいせんこう}を{通過|つうか}する: to pass the document screening\n- {書類選考|しょるいせんこう}で{落|お}ちる: to fail at the document screening stage\n- {書類選考|しょるいせんこう}の{結果|けっか}: document screening results\n- {書類選考|しょるいせんこう}{免除|めんじょ}: exemption from document screening\n\nSIMILAR WORDS:\n- {選考|せんこう}: selection, screening — the broader term for any selection process\n- {一次選考|いちじせんこう}: first round of screening — may or may not be document-based\n- {面接|めんせつ}: interview — typically the stage after {書類選考|しょるいせんこう}",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01100_mensetsu",
+      "reading": "めんせつ",
+      "headword": "{面接|めんせつ}",
+      "label": "interview"
+    }
+  ],
   "metadata": {
     "entry_id": "21724_shoruisenkou",
     "schema_version": "2.0",
@@ -56,6 +65,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "work"
       ],
@@ -63,7 +73,7 @@
       "usage": [],
       "verb_class": "suru"
     },
-    "modified": "2026-04-02T22:16:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

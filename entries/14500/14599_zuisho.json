@@ -19,7 +19,9 @@
       "english": "Clever touches can be seen throughout.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14599_zuisho_ex2",
@@ -27,7 +29,9 @@
       "english": "There are things that evoke history everywhere in this town.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14599_zuisho_ex3",
@@ -35,22 +39,52 @@
       "english": "His work is peppered with his unique humor throughout.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAlmost always used with the particle に as {随所|ずいしょ}に. Has a written or formal feel; in casual conversation, あちこち or いたるところ would be more natural.\n\nCOMMON COLLOCATIONS:\n- {随所|ずいしょ}に{見|み}られる (can be seen throughout)\n- {随所|ずいしょ}にちりばめる (to scatter throughout)\n- {随所|ずいしょ}に{工夫|くふう}がある (there are clever touches throughout)\n\nSIMILAR WORDS:\n- {随所|ずいしょ}: everywhere (literary/formal tone)\n- あちこち: here and there (casual, conversational)\n- いたるところ: everywhere (slightly formal, emphasizes completeness)\n- {各所|かくしょ}: various places (neutral, often administrative)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01687_achikochi",
+      "reading": "あちこち",
+      "headword": "あちこち",
+      "label": "here and there"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15861_itarutokoro",
+      "reading": "いたるところ",
+      "headword": "{至|いた}る{所|ところ}",
+      "label": "everywhere"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16088_kakusho",
+      "reading": "かくしょ",
+      "headword": "{各所|かくしょ}",
+      "label": "various places"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T08:23:50Z",
-    "modified": "2026-03-02T08:23:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "style": ["written"]
+      "semantic": [
+        "general"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{手助|てだす}けする",
   "reading": "てだすけする",
   "romaji": "tedasukesuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to help; to lend a hand",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Formed from {手|て} (hand) + {助|たす}け (help), conveying the image of literally lending a hand. More concrete and action-oriented than abstract forms of assistance.\n\nCOMMON COLLOCATIONS:\n- {手助|てだす}けをする: to lend a hand (with を particle variant)\n- {手助|てだす}けが{必要|ひつよう}: to need help\n- {手助|てだす}けを{求|もと}める: to seek help\n- ちょっとした{手助|てだす}け: a little bit of help\n\nSIMILAR WORDS:\n- {手伝|てつだ}う: to help — the most common everyday word for helping\n- {助|たす}ける: to save; to rescue — implies someone is in danger or serious difficulty\n- {援助|えんじょ}する: to provide aid — formal; often used for institutional or international assistance\n- サポートする: to support — loanword; often used in business and technology contexts",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00898_tetsudau",
+      "reading": "てつだう",
+      "headword": "{手伝|てつだ}う",
+      "label": "to help"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00895_tasukeru",
+      "reading": "たすける",
+      "headword": "{助|たす}ける",
+      "label": "to save"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26855_enjosuru",
+      "reading": "えんじょする",
+      "headword": "{援助|えんじょ}する",
+      "label": "to provide aid"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T11:05:51Z",
-    "modified": "2026-08-06T12:46:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

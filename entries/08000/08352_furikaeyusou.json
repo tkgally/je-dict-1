@@ -43,7 +43,44 @@
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{振替|ふりかえ} (transfer, substitution) + {輸送|ゆそう} (transport) → substitute transport\n\nHOW IT WORKS:\nWhen a train line is disrupted due to accidents, weather, or technical issues:\n1. The railway company announces {振替輸送|ふりかえゆそう}\n2. Passengers can use other participating train lines\n3. No additional fare is charged\n4. Show your original ticket or IC card at the gate\n\nCOMMON REASONS FOR DISRUPTION:\n- {人身事故|じんしんじこ} (passenger accident)\n- {車両故障|しゃりょうこしょう} (train malfunction)\n- {悪天候|あくてんこう} (bad weather)\n- {地震|じしん} (earthquake)\n\nRELATED TERMS:\n- {運転見合|うんてんみあ}わせ (suspension of service)\n- {遅延|ちえん} (delay)\n- {運行状況|うんこうじょうきょう} (service status)\n- {遅延証明書|ちえんしょうめいしょ} (delay certificate)",
+  "notes": "FORMS:\n{振替|ふりかえ} (transfer, substitution) + {輸送|ゆそう} (transport) → substitute transport\n\nHOW IT WORKS:\nWhen a train line is disrupted due to accidents, weather, or technical issues:\n1. The railway company announces {振替輸送|ふりかえゆそう}\n2. Passengers can use other participating train lines\n3. No additional fare is charged\n4. Show your original ticket or IC card at the gate\n\nCOMMON REASONS FOR DISRUPTION:\n- {人身事故|じんしんじこ} (passenger accident)\n- {車両故障|しゃりょうこしょう} (train malfunction)\n- {悪天候|あくてんこう} (bad weather)\n- {地震|じしん} (earthquake)\n\nRELATED WORDS:\n- {運転見合|うんてんみあ}わせ (suspension of service)\n- {遅延|ちえん} (delay)\n- {運行状況|うんこうじょうきょう} (service status)\n- {遅延証明書|ちえんしょうめいしょ} (delay certificate)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08695_untenmiawase",
+      "reading": "うんてんみあわせ",
+      "headword": "{運転|うんてん}{見合|みあ}わせ",
+      "label": "suspension of service"
+    },
+    {
+      "type": "related",
+      "target_id": "06749_chien",
+      "reading": "ちえん",
+      "headword": "{遅延|ちえん}",
+      "label": "delay"
+    },
+    {
+      "type": "related",
+      "target_id": "08776_unkoujoukyou",
+      "reading": "うんこうじょうきょう",
+      "headword": "{運行|うんこう}{状況|じょうきょう}",
+      "label": "service status"
+    },
+    {
+      "type": "related",
+      "target_id": "06807_unkyuu",
+      "reading": "うんきゅう",
+      "headword": "{運休|うんきゅう}",
+      "label": "service suspension (transportation)"
+    },
+    {
+      "type": "related",
+      "target_id": "08475_jinshinjiko",
+      "reading": "じんしんじこ",
+      "headword": "{人身事故|じんしんじこ}",
+      "label": "accident involving a person"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,11 +88,12 @@
         "noun"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "transportation"
       ]
     },
     "created": "2026-01-26T04:24:27Z",
-    "modified": "2026-08-12T12:50:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

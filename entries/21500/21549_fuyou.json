@@ -3,7 +3,7 @@
   "headword": "{扶養|ふよう}",
   "reading": "ふよう",
   "romaji": "fuyou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "support; maintenance; dependents",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Composed of {扶|ふ} (help, assist) and {養|よう} (nurture, support). A key term in Japanese tax and social insurance systems.\n\nCOMMON COLLOCATIONS:\n- {扶養|ふよう}{家族|かぞく}: dependents, family members being supported\n- {扶養|ふよう}{控除|こうじょ}: dependent deduction (tax term)\n- {扶養|ふよう}に{入|はい}る: to be registered as a dependent\n- {扶養|ふよう}{手当|てあて}: dependent allowance\n- {扶養|ふよう}{義務|ぎむ}: obligation to support\n\nSIMILAR WORDS:\n- {養育|よういく}: raising, rearing — focuses on bringing up children\n- {扶養|ふよう}: support — financial maintenance of dependents, administrative/legal term\n- {不要|ふよう}: unnecessary — homophone, completely different meaning\n\nCULTURAL NOTE:\nIn Japan, the {扶養|ふよう} system is an important part of the tax and social insurance framework. A spouse earning below a certain income threshold (the so-called \"income wall\") can be registered as a dependent, receiving health insurance coverage and a tax deduction for the supporting household member.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16340_youiku",
+      "reading": "よういく",
+      "headword": "{養育|よういく}",
+      "label": "raising, rearing"
+    },
+    {
+      "type": "homophone",
+      "target_id": "02527_fuyou",
+      "reading": "ふよう",
+      "headword": "{不要|ふよう}",
+      "label": "unnecessary"
+    },
+    {
+      "type": "related",
+      "target_id": "04478_yashinau",
+      "reading": "やしなう",
+      "headword": "{養|やしな}う",
+      "label": "to support, to nourish, to cultivate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21092_fujo",
+      "reading": "ふじょ",
+      "headword": "{扶助|ふじょ}",
+      "label": "aid"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +93,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T16:13:57Z",
-    "modified": "2026-04-02T16:13:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

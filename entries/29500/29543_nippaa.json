@@ -17,7 +17,9 @@
       "id": "29543_nippaa_ex1",
       "japanese": "ニッパーで{針金|はりがね}を{切|き}る。",
       "english": "Cut the wire with nippers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29543_nippaa_ex2",
       "japanese": "{模型|もけい}の{部品|ぶひん}をニッパーで{丁寧|ていねい}に{切|き}り{離|はな}した。",
       "english": "I carefully snipped the model parts off with nippers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29543_nippaa_ex3",
       "japanese": "ニッパーは{細|こま}かい{作業|さぎょう}に{便利|べんり}な{工具|こうぐ}だ。",
       "english": "Nippers are a handy tool for detailed work.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A loanword from English \"nippers\". A small tool whose blades meet to cut thin material such as wire or plastic.\n\nCOMMON COLLOCATIONS:\n- ニッパーで{切|き}る: to cut with nippers\n- {電工|でんこう}ニッパー: electrician's nippers\n\nSIMILAR WORDS:\n- ペンチ: pliers — for gripping and bending; cuts less cleanly\n- ラジオペンチ: needle-nose pliers — for gripping in tight spaces",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06314_penchi",
+      "reading": "ぺんち",
+      "headword": "ペンチ",
+      "label": "pliers"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29544_rajiopenchi",
+      "reading": "らじおぺんち",
+      "headword": "ラジオペンチ",
+      "label": "needle-nose pliers"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["tool"],
+      "politeness": "plain",
+      "semantic": [
+        "tool"
+      ],
       "domain": []
     },
     "created": "2026-06-28T09:18:52Z",
-    "modified": "2026-06-28T09:18:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "27723_juukougyou_ex1",
       "japanese": "この{国|くに}は{重工業|じゅうこうぎょう}が{強|つよ}い。",
       "english": "This country is strong in heavy industry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27723_juukougyou_ex2",
       "japanese": "{戦後|せんご}、{重工業|じゅうこうぎょう}が{急速|きゅうそく}に{発展|はってん}した。",
       "english": "After the war, heavy industry developed rapidly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,39 @@
       "id": "27723_juukougyou_ex3",
       "japanese": "この{地域|ちいき}は{鉄鋼|てっこう}や{造船|ぞうせん}などの{重工業|じゅうこうぎょう}で{知|し}られている。",
       "english": "This region is known for heavy industry such as steelmaking and shipbuilding.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {重|じゅう} (heavy) + {工業|こうぎょう} (industry, manufacturing). Covers industries that produce heavy goods and require large facilities.\n\nCOMMON COLLOCATIONS:\n- {重工業|じゅうこうぎょう}が{発展|はってん}する: heavy industry develops\n- {重工業|じゅうこうぎょう}{地帯|ちたい}: a heavy-industrial zone\n- {重化学|じゅうかがく}{工業|こうぎょう}: heavy and chemical industry\n\nSIMILAR WORDS:\n- {軽工業|けいこうぎょう}: light industry — the contrasting term, producing smaller consumer goods such as textiles and food",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27724_keikougyou",
+      "reading": "けいこうぎょう",
+      "headword": "{軽工業|けいこうぎょう}",
+      "label": "light industry"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["business", "work"],
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "work"
+      ],
       "domain": []
     },
     "created": "2026-05-17T04:06:49Z",
-    "modified": "2026-05-17T04:06:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

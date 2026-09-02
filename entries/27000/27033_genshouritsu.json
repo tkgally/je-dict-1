@@ -17,7 +17,9 @@
       "id": "27033_genshouritsu_ex1",
       "japanese": "{出生率|しゅっしょうりつ}の{減少率|げんしょうりつ}が{問題|もんだい}になっている。",
       "english": "The rate of decline in the birth rate has become a problem.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27033_genshouritsu_ex2",
       "japanese": "{売上|うりあげ}の{減少率|げんしょうりつ}は{前月比|ぜんげつひ}{十|じゅう}パーセントだった。",
       "english": "The rate of sales decline was ten percent compared to the previous month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "27033_genshouritsu_ex3",
       "japanese": "{地方|ちほう}の{人口|じんこう}{減少率|げんしょうりつ}は{都市部|としぶ}よりもはるかに{高|たか}い。",
       "english": "The population decline rate in rural areas is far higher than in urban areas.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {減少|げんしょう} (decrease) + {率|りつ} (rate). The counterpart of {増加率|ぞうかりつ}. Frequently used in discussions of demographics, economics, and public health in Japan, where population decline is a major social issue.\n\nCOMMON COLLOCATIONS:\n- {人口|じんこう}{減少率|げんしょうりつ}: population decline rate\n- {減少率|げんしょうりつ}が{加速|かそく}する: the rate of decline accelerates\n- {減少率|げんしょうりつ}が{縮小|しゅくしょう}する: the rate of decline narrows\n- {年間|ねんかん}{減少率|げんしょうりつ}: annual rate of decrease\n\nSIMILAR WORDS:\n- {増加率|ぞうかりつ}: rate of increase — the opposite\n- {低下率|ていかりつ}: rate of decline — focuses more on levels falling (quality, ability, rates) rather than quantities shrinking\n- {下落率|げらくりつ}: rate of decline; drop rate — mainly used for prices and market values",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "27032_zoukaritsu",
+      "reading": "ぞうかりつ",
+      "headword": "{増加率|ぞうかりつ}",
+      "label": "rate of increase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30147_gerakuritsu",
+      "reading": "げらくりつ",
+      "headword": "{下落率|げらくりつ}",
+      "label": "rate of decline"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["quantity"],
-      "domain": ["academic"]
+      "semantic": [
+        "quantity"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-05-06T14:25:07Z",
-    "modified": "2026-05-06T14:25:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "LEGAL CONTEXT: In Japanese law, {過失|かしつ} (negligence) is distinguished from ⟦{故意|こい}→故意：16844_koi⟧ (intent). Crimes or liability based on negligence typically carry lighter penalties.\n\nLEGAL TERMS:\n・{過失|かしつ}⟦{致死|ちし}→致死：10002_chishi⟧ (negligent homicide)\n・{過失|かしつ}⟦{傷害|しょうがい}→傷害：22910_shougai⟧ (negligent injury)\n・{過失|かしつ}⟦{責任|せきにん}→責任：03298_sekinin⟧ (liability for negligence)\n・⟦{重過失|じゅうかしつ}→重過失：27398_juukashitsu⟧ (gross negligence)\n・⟦{業務上|ぎょうむじょう}→業務上：27412_gyoumujou⟧{過失|かしつ} (professional negligence)\n\nCONTRAST:\n・{過失|かしつ} (negligence, unintentional)\n・⟦{故意|こい}→故意：16844_koi⟧ (intentional, deliberate)\n\nSIMILAR WORDS:\n・⟦{失敗|しっぱい}→失敗：01636_shippai⟧ (failure, mistake - general)\n・⟦ミス→ミス：00285_misu⟧ (mistake - casual)\n・⟦{誤|あやま}り→誤り：01772_ayamari⟧ (error, mistake - general)",
+  "notes": "LEGAL CONTEXT: In Japanese law, {過失|かしつ} (negligence) is distinguished from ⟦{故意|こい}→故意：16844_koi⟧ (intent). Crimes or liability based on negligence typically carry lighter penalties.\n\nLEGAL TERMS:\n- {過失|かしつ}⟦{致死|ちし}→致死：10002_chishi⟧ (negligent homicide)\n- {過失|かしつ}⟦{傷害|しょうがい}→傷害：22910_shougai⟧ (negligent injury)\n- {過失|かしつ}⟦{責任|せきにん}→責任：03298_sekinin⟧ (liability for negligence)\n- ⟦{重過失|じゅうかしつ}→重過失：27398_juukashitsu⟧ (gross negligence)\n- ⟦{業務上|ぎょうむじょう}→業務上：27412_gyoumujou⟧{過失|かしつ} (professional negligence)\n\nSIMILAR WORDS:\n- {過失|かしつ} (negligence, unintentional)\n- ⟦{故意|こい}→故意：16844_koi⟧ (intentional, deliberate)\n- ⟦{失敗|しっぱい}→失敗：01636_shippai⟧ (failure, mistake - general)\n- ⟦ミス→ミス：00285_misu⟧ (mistake - casual)\n- ⟦{誤|あやま}り→誤り：01772_ayamari⟧ (error, mistake - general)",
   "cross_references": [
     {
       "type": "contrast",
@@ -51,11 +51,39 @@
       "headword": "{故意|こい}",
       "label": "intent (legal)",
       "target_id": "16844_koi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01636_shippai",
+      "reading": "しっぱい",
+      "headword": "{失敗|しっぱい}",
+      "label": "failure, mistake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00285_misu",
+      "reading": "みす",
+      "headword": "ミス",
+      "label": "mistake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01772_ayamari",
+      "reading": "あやまり",
+      "headword": "{誤|あやま}り",
+      "label": "error, mistake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18506_shissaku",
+      "reading": "しっさく",
+      "headword": "{失策|しっさく}",
+      "label": "blunder"
     }
   ],
   "metadata": {
     "created": "2026-01-13T10:53:53Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

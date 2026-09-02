@@ -63,11 +63,68 @@
       ]
     }
   ],
-  "notes": "{書類|しょるい} is a general term for official documents, papers, or forms.\n\nCOMMON EXPRESSIONS:\n- {書類|しょるい}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}→提出：03542_teishutsu⟧⟦する→する：00392_suru⟧: to submit documents\n- {書類|しょるい}⟦に→に：00314_ni⟧⟦{記入|きにゅう}→記入：02624_kinyuu⟧⟦する→する：00392_suru⟧: to fill in documents\n- {書類|しょるい}⟦を→を：00422_wo⟧⟦{用意|ようい}→用意：01746_youi⟧⟦する→する：00392_suru⟧: to prepare documents\n\nCOMMON COMPOUNDS:\n- ⟦{書類選考|しょるいせんこう}→書類選考：21724_shoruisenkou⟧: document screening (in job applications)\n- ⟦{必要|ひつよう}→必要：00846_hitsuyou⟧{書類|しょるい}: required documents\n- ⟦{申請|しんせい}→申請：04207_shinsei⟧{書類|しょるい}: application documents\n- ⟦{重要|じゅうよう}→重要：01575_juuyou⟧{書類|しょるい}: important documents\n\nSIMILAR WORDS:\n- {書類|しょるい}: documents (formal papers)\n- ⟦{資料|しりょう}→資料：04166_shiryou⟧: materials, data, documents\n- ⟦{文書|ぶんしょ}→文書：12947_bunsho⟧: written document (more formal/legal)",
-  "cross_references": [],
+  "notes": "{書類|しょるい} is a general term for official documents, papers, or forms.\n\nCOMMON EXPRESSIONS:\n- {書類|しょるい}⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}→提出：03542_teishutsu⟧⟦する→する：00392_suru⟧: to submit documents\n- {書類|しょるい}⟦に→に：00314_ni⟧⟦{記入|きにゅう}→記入：02624_kinyuu⟧⟦する→する：00392_suru⟧: to fill in documents\n- {書類|しょるい}⟦を→を：00422_wo⟧⟦{用意|ようい}→用意：01746_youi⟧⟦する→する：00392_suru⟧: to prepare documents\n\nCOMPOUNDS:\n- ⟦{書類選考|しょるいせんこう}→書類選考：21724_shoruisenkou⟧: document screening (in job applications)\n- ⟦{必要|ひつよう}→必要：00846_hitsuyou⟧{書類|しょるい}: required documents\n- ⟦{申請|しんせい}→申請：04207_shinsei⟧{書類|しょるい}: application documents\n- ⟦{重要|じゅうよう}→重要：01575_juuyou⟧{書類|しょるい}: important documents\n\nSIMILAR WORDS:\n- {書類|しょるい}: documents (formal papers)\n- ⟦{資料|しりょう}→資料：04166_shiryou⟧: materials, data, documents\n- ⟦{文書|ぶんしょ}→文書：12947_bunsho⟧: written document (more formal/legal)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04166_shiryou",
+      "reading": "しりょう",
+      "headword": "{資料|しりょう}",
+      "label": "materials, data, documents"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12947_bunsho",
+      "reading": "ぶんしょ",
+      "headword": "{文書|ぶんしょ}",
+      "label": "written document"
+    },
+    {
+      "type": "related",
+      "target_id": "05280_fairu",
+      "reading": "ふぁいる",
+      "headword": "ファイル",
+      "label": "file"
+    },
+    {
+      "type": "related",
+      "target_id": "05491_hocchikisu",
+      "reading": "ほっちきす",
+      "headword": "ホッチキス",
+      "label": "stapler"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11677_koubunsho",
+      "reading": "こうぶんしょ",
+      "headword": "{公文書|こうぶんしょ}",
+      "label": "official document"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24636_teishutsubutsu",
+      "reading": "ていしゅつぶつ",
+      "headword": "{提出物|ていしゅつぶつ}",
+      "label": "assignment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24958_shibunsho",
+      "reading": "しぶんしょ",
+      "headword": "{私文書|しぶんしょ}",
+      "label": "private document"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25889_dokyumento",
+      "reading": "どきゅめんと",
+      "headword": "ドキュメント",
+      "label": "document"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:06:41Z",
-    "modified": "2026-05-13T23:19:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

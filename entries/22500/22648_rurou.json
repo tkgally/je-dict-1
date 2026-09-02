@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "A literary term for aimless wandering, often implying hardship or displacement. More dramatic and evocative than everyday words for traveling.\n\nCOMMON COLLOCATIONS:\n- {流浪|るろう}の{民|たみ}: wandering people, nomads\n- {流浪|るろう}の{旅|たび}: a wandering journey\n- {流浪|るろう}の{生活|せいかつ}: a vagabond life\n- {流浪|るろう}する: to wander, to roam\n\nSIMILAR WORDS:\n- {放浪|ほうろう}: wandering — very similar but slightly more neutral; often used for voluntary wandering or adventure\n- {漂泊|ひょうはく}: drifting — more literary, emphasizes being carried along without purpose\n- {さまよう}: to wander — a verb with a sense of being lost or confused\n\nCULTURAL NOTE:\nFamously used in the manga/anime title {流浪|るろう}に{剣心|けんしん} (Rurouni Kenshin), which popularized the word among younger generations.",
+  "notes": "A literary term for aimless wandering, often implying hardship or displacement. More dramatic and evocative than everyday words for traveling.\n\nCOMMON COLLOCATIONS:\n- {流浪|るろう}の{民|たみ}: wandering people, nomads\n- {流浪|るろう}の{旅|たび}: a wandering journey\n- {流浪|るろう}の{生活|せいかつ}: a vagabond life\n- {流浪|るろう}する: to wander, to roam\n\nSIMILAR WORDS:\n- {放浪|ほうろう}: wandering — very similar but slightly more neutral; often used for voluntary wandering or adventure\n- {漂泊|ひょうはく}: drifting — more literary, emphasizes being carried along without purpose\n- さまよう: to wander — a verb with a sense of being lost or confused\n\nCULTURAL NOTE:\nFamously used in the manga/anime title {流浪|るろう}に{剣心|けんしん} (Rurouni Kenshin), which popularized the word among younger generations.",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,6 +52,20 @@
       "reading": "ほうろう",
       "headword": "{放浪|ほうろう}",
       "label": "wandering (more neutral)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07675_samayou",
+      "reading": "さまよう",
+      "headword": "さまよう",
+      "label": "to wander"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24917_hourousha",
+      "reading": "ほうろうしゃ",
+      "headword": "{放浪者|ほうろうしゃ}",
+      "label": "wanderer"
     }
   ],
   "schema_version": "2.0",
@@ -66,11 +80,11 @@
         "movement"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "verb_class": "suru"
     },
     "created": "2026-04-06T21:23:12Z",
-    "modified": "2026-05-07T06:03:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

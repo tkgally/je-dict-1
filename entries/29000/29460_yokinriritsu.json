@@ -17,7 +17,9 @@
       "id": "29460_yokinriritsu_ex1",
       "japanese": "{預金利率|よきんりりつ}が{下|さ}がる。",
       "english": "for the deposit interest rate to fall.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29460_yokinriritsu_ex2",
       "japanese": "この{銀行|ぎんこう}は{預金利率|よきんりりつ}が{高|たか}い。",
       "english": "This bank offers a high deposit interest rate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "29460_yokinriritsu_ex3",
       "japanese": "{長|なが}く{続|つづ}く{低金利|ていきんり}で、{預金利率|よきんりりつ}はほとんどゼロに{近|ちか}い。",
       "english": "After a long stretch of low interest rates, the deposit rate is almost zero.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The rate earned by the depositor; set low in Japan during long periods of low interest rates.\n\nCOMMON COLLOCATIONS:\n- {預金利率|よきんりりつ}を{引|ひ}き{上|あ}げる: to raise the deposit rate\n- {預金利率|よきんりりつ}を{比較|ひかく}する: to compare deposit rates\n- {高|たか}い{預金利率|よきんりりつ}: a high deposit rate\n\nSIMILAR WORDS:\n- {金利|きんり}: interest rate — the broad term, covering both deposits and loans\n- {貸出金利|かしだしきんり}: lending rate — the rate a bank charges on loans, not pays on deposits",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04856_kinri",
+      "reading": "きんり",
+      "headword": "{金利|きんり}",
+      "label": "interest rate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30117_kashidashikinri",
+      "reading": "かしだしきんり",
+      "headword": "{貸出|かしだし}{金利|きんり}",
+      "label": "lending rate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["finance"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "finance"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-06-24T00:19:16Z",
-    "modified": "2026-06-24T00:19:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

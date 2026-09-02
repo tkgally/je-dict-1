@@ -46,6 +46,29 @@
   ],
   "notes": "Formed from {受|う}け{取|と}る (to receive) plus 〜{先|さき}, the suffix that names the other party or destination of an action.\n\nCOMMON COLLOCATIONS:\n- {受取先|うけとりさき}{住所|じゅうしょ}: recipient's address\n- {受取先|うけとりさき}を{指定|してい}する: to specify the recipient\n- {受取先|うけとりさき}{変更|へんこう}: change of recipient\n\nSIMILAR WORDS:\n- {送|おく}り{先|さき}: destination for sending — the same delivery seen from the sender's side\n- {宛先|あてさき}: addressee — the address written on the item itself\n- {取引先|とりひきさき}: business partner — a parallel 〜{先|さき} compound worth learning alongside this one",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23506_okurisaki",
+      "reading": "おくりさき",
+      "headword": "{送|おく}り{先|さき}",
+      "label": "destination for sending"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12275_atesaki",
+      "reading": "あてさき",
+      "headword": "{宛先|あてさき}",
+      "label": "addressee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11083_torihikisaki",
+      "reading": "とりひきさき",
+      "headword": "{取引先|とりひきさき}",
+      "label": "business partner"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "business",
         "shopping"
@@ -63,6 +86,6 @@
       ]
     },
     "created": "2026-08-02T09:20:18Z",
-    "modified": "2026-08-02T09:28:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

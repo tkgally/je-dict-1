@@ -3,7 +3,7 @@
   "headword": "{注目|ちゅうもく}する",
   "reading": "ちゅうもくする",
   "romaji": "chuumokusuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to pay attention to; to focus on; to watch closely",
   "definitions": [
     {
@@ -45,7 +45,50 @@
     }
   ],
   "notes": "{注目|ちゅうもく}する means to direct one's gaze or attention toward something noteworthy. It combines {注|ちゅう} (pour) and {目|もく} (eye), literally \"pouring one's eyes\" on something. The passive form {注目|ちゅうもく}される (to be noticed; to attract attention) is extremely common.\n\nUSAGE:\n- ～に{注目|ちゅうもく}する: pay attention to ~\n- ～が{注目|ちゅうもく}される: ~ attracts attention (passive)\n\nCOMMON COLLOCATIONS:\n- {注目|ちゅうもく}を{集|あつ}める: to attract attention\n- {注目|ちゅうもく}を{浴|あ}びる: to be in the spotlight\n- {注目|ちゅうもく}{度|ど}: degree of attention; popularity\n- {注目|ちゅうもく}{株|かぶ}: stock to watch\n- {注目|ちゅうもく}すべき{点|てん}: point worth noting\n\nSIMILAR WORDS:\n- {気|き}をつける: to be careful; to watch out — focuses on caution rather than interest\n- {着目|ちゃくもく}する: to focus on — more analytical, used when singling out a specific aspect for examination\n- {目立|めだ}つ: to stand out — describes the object being conspicuous, not the observer's action",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09771_kiwotsukeru",
+      "reading": "きをつける",
+      "headword": "{気|き}をつける",
+      "label": "to be careful"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13661_chakumoku",
+      "reading": "ちゃくもく",
+      "headword": "{着目|ちゃくもく}",
+      "label": "to focus on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02431_medatsu",
+      "reading": "めだつ",
+      "headword": "{目立|めだ}つ",
+      "label": "to stand out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21989_kansatsusuru",
+      "reading": "かんさつする",
+      "headword": "{観察|かんさつ}する",
+      "label": "to observe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22233_mewomukeru",
+      "reading": "めをむける",
+      "headword": "{目|め}を{向|む}ける",
+      "label": "to turn one's attention to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24199_chuuiwomukeru",
+      "reading": "ちゅういをむける",
+      "headword": "{注意|ちゅうい}を{向|む}ける",
+      "label": "to pay attention to"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +97,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "cognition"
       ],
@@ -61,7 +106,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T16:13:29Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

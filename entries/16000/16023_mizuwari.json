@@ -19,7 +19,9 @@
       "english": "I'll have a whisky and water, please.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16023_mizuwari_ex2",
@@ -27,7 +29,9 @@
       "english": "I like to drink shochu diluted with water.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16023_mizuwari_ex3",
@@ -35,21 +39,43 @@
       "english": "On a hot day, a water-diluted drink with plenty of ice is exceptionally delicious.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{水割|みずわ}り is formed from {水|みず} (water) + {割|わ}る (to dilute). The pattern ～{割|わ}り is used for various dilution methods: {炭酸|たんさん}{割|わ}り (with soda water), お{湯割|ゆわ}り (with hot water).\n\nCOMMON COLLOCATIONS:\n- ウイスキーの{水割|みずわ}り (whisky and water)\n- {焼酎|しょうちゅう}の{水割|みずわ}り (shochu with water)\n- {水割|みずわ}りを{作|つく}る (to make a mizuwari)\n\nCULTURE:\nIn Japan, {水割|みずわ}り is one of the standard ways to order spirits at bars and izakaya, alongside ロック (on the rocks), ストレート (neat), and お{湯割|ゆわ}り (with hot water).",
-  "cross_references": [],
+  "notes": "USAGE:\n{水割|みずわ}り is formed from {水|みず} (water) + {割|わ}る (to dilute). The pattern ～{割|わ}り is used for various dilution methods: {炭酸|たんさん}{割|わ}り (with soda water), お{湯割|ゆわ}り (with hot water).\n\nCOMMON COLLOCATIONS:\n- ウイスキーの{水割|みずわ}り (whisky and water)\n- {焼酎|しょうちゅう}の{水割|みずわ}り (shochu with water)\n- {水割|みずわ}りを{作|つく}る (to make a mizuwari)\n\nCULTURAL NOTE:\nIn Japan, {水割|みずわ}り is one of the standard ways to order spirits at bars and izakaya, alongside ロック (on the rocks), ストレート (neat), and お{湯割|ゆわ}り (with hot water).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28103_oyuwari",
+      "reading": "おゆわり",
+      "headword": "お{湯|ゆ}{割|わ}り",
+      "label": "(shochu, etc.) mixed with hot water"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28908_yuwari",
+      "reading": "ゆわり",
+      "headword": "{湯割|ゆわ}り",
+      "label": "(spirits) cut with hot water"
+    }
+  ],
   "metadata": {
     "created": "2026-03-09T08:35:02Z",
-    "modified": "2026-03-09T08:35:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "consumption"]
+      "semantic": [
+        "food",
+        "consumption"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{重視|じゅうし}する",
   "reading": "じゅうしする",
   "romaji": "juushisuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to emphasize; to attach importance to; to take seriously",
   "definitions": [
     {
@@ -55,7 +55,43 @@
     }
   ],
   "notes": "A formal word frequently used in business, education, and policy contexts to express what is prioritized or valued. The noun form {重視|じゅうし} often appears in compound expressions.\n\nCOMMON COLLOCATIONS:\n- {品質|ひんしつ}{重視|じゅうし}: quality-oriented\n- {安全|あんぜん}{重視|じゅうし}: safety-first\n- {成果|せいか}{重視|じゅうし}: results-oriented\n- {顧客|こきゃく}{重視|じゅうし}: customer-focused\n- {実績|じっせき}を{重視|じゅうし}する: to value track record\n\nSIMILAR WORDS:\n- {大切|たいせつ}にする: to value — more personal and emotional\n- {重|おも}んじる: to esteem — literary, emphasizes respect\n- {軽視|けいし}する: to make light of — the antonym, to treat as unimportant",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26940_taisetsunisuru",
+      "reading": "たいせつにする",
+      "headword": "{大切|たいせつ}にする",
+      "label": "to value"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14445_omonjiru",
+      "reading": "おもんじる",
+      "headword": "{重|おも}んじる",
+      "label": "to esteem"
+    },
+    {
+      "type": "antonym",
+      "target_id": "25406_keishisuru",
+      "reading": "けいしする",
+      "headword": "{軽視|けいし}する",
+      "label": "to make light of"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16804_juuyoushi",
+      "reading": "じゅうようし",
+      "headword": "{重要視|じゅうようし}",
+      "label": "regarding as important"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21684_kyouchousuru",
+      "reading": "きょうちょうする",
+      "headword": "{強調|きょうちょう}する",
+      "label": "to emphasize"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,7 +107,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T13:06:10Z",
-    "modified": "2026-08-06T12:46:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

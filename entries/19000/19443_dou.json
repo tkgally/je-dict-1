@@ -18,7 +18,9 @@
       "english": "I won a bronze medal.",
       "notes": "銅メダル = bronze medal",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19443_dou_ex2",
@@ -26,7 +28,9 @@
       "english": "This pot is made of copper.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19443_dou_ex3",
@@ -34,7 +38,9 @@
       "english": "Copper is a metal that conducts heat well.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19443_dou_ex4",
@@ -42,22 +48,43 @@
       "english": "The Great Buddha of Nara is made of copper.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{銅|どう} refers to both the metal copper and, in compounds, bronze (an alloy of copper and tin). Most commonly encountered in the context of {銅|どう}メダル (bronze medal).\n\nCOMMON COMPOUNDS:\n- {銅|どう}メダル: bronze medal\n- {銅像|どうぞう}: bronze statue\n- {銅貨|どうか}: copper coin\n- {銅|どう}{板|いた}: copper plate\n- {銅色|どういろ}: copper color\n- {青銅|せいどう}: bronze (copper-tin alloy)\n\nOLYMPIC MEDALS:\n- {金|きん}メダル: gold medal\n- {銀|ぎん}メダル: silver medal\n- {銅|どう}メダル: bronze medal\n\nCULTURE:\nCopper has been important in Japanese craftsmanship for centuries. Many famous Buddhist statues, including the {奈良|なら}の{大仏|だいぶつ} (Great Buddha of Nara), are made of {銅|どう}.",
-  "cross_references": [],
+  "notes": "{銅|どう} refers to both the metal copper and, in compounds, bronze (an alloy of copper and tin). Most commonly encountered in the context of {銅|どう}メダル (bronze medal).\n\nCOMPOUNDS:\n- {銅|どう}メダル: bronze medal\n- {銅像|どうぞう}: bronze statue\n- {銅貨|どうか}: copper coin\n- {銅|どう}{板|いた}: copper plate\n- {銅色|どういろ}: copper color\n- {青銅|せいどう}: bronze (copper-tin alloy)\n\nOLYMPIC MEDALS:\n- {金|きん}メダル: gold medal\n- {銀|ぎん}メダル: silver medal\n- {銅|どう}メダル: bronze medal\n\nCULTURAL NOTE:\nCopper has been important in Japanese craftsmanship for centuries. Many famous Buddhist statues, including the {奈良|なら}の{大仏|だいぶつ} (Great Buddha of Nara), are made of {銅|どう}.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02225_tetsu",
+      "reading": "てつ",
+      "headword": "{鉄|てつ}",
+      "label": "iron, steel"
+    },
+    {
+      "type": "related",
+      "target_id": "02666_kin",
+      "reading": "きん",
+      "headword": "{金|きん}",
+      "label": "gold"
+    }
+  ],
   "metadata": {
     "created": "2026-03-25T14:42:00Z",
-    "modified": "2026-07-26T21:32:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["science"]
+      "semantic": [
+        "science"
+      ]
     }
   }
 }

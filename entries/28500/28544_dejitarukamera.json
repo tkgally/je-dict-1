@@ -17,7 +17,9 @@
       "id": "28544_dejitarukamera_ex1",
       "japanese": "デジタルカメラを{買|か}い{替|か}えた。",
       "english": "I replaced my digital camera.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28544_dejitarukamera_ex2",
       "japanese": "このデジタルカメラは{画質|がしつ}がとても{良|よ}い。",
       "english": "This digital camera has very good image quality.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28544_dejitarukamera_ex3",
       "japanese": "{旅行|りょこう}のために{軽|かる}くて{高画質|こうがしつ}なデジタルカメラを{探|さが}している。",
       "english": "I'm looking for a light, high-quality digital camera for travel.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Full form of デジカメ. Used in writing, product specifications, and more formal contexts; in conversation, people usually say デジカメ.\n\nCOMMON COLLOCATIONS:\n- デジタルカメラを{買|か}う: to buy a digital camera\n- デジタルカメラの{画質|がしつ}: digital-camera image quality\n- {高性能|こうせいのう}のデジタルカメラ: high-performance digital camera\n\nSIMILAR WORDS:\n- デジカメ: the casual abbreviation\n- フィルムカメラ: film camera — the older alternative\n- {一眼|いちがん}カメラ: single-lens (DSLR/mirrorless) camera — a higher-end subcategory",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28543_dejikame",
+      "reading": "でじかめ",
+      "headword": "デジカメ",
+      "label": "the casual abbreviation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26680_ichigankamera",
+      "reading": "いちがんかめら",
+      "headword": "{一眼|いちがん}カメラ",
+      "label": "single-lens (DSLR/mirrorless) camera"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["technology"],
+      "politeness": "plain",
+      "semantic": [
+        "technology"
+      ],
       "domain": []
     },
     "created": "2026-06-01T04:07:37Z",
-    "modified": "2026-06-01T04:07:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

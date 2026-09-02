@@ -17,7 +17,9 @@
       "id": "25705_gingakei_ex1",
       "japanese": "{銀河系|ぎんがけい}には{数千億|すうせんおく}の{星|ほし}がある。",
       "english": "The Milky Way contains hundreds of billions of stars.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25705_gingakei_ex2",
       "japanese": "{太陽|たいよう}は{銀河系|ぎんがけい}の{端|はし}のほうにある。",
       "english": "The sun is located toward the edge of the Milky Way.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "25705_gingakei_ex3",
       "japanese": "{銀河系|ぎんがけい}の{中心|ちゅうしん}には{巨大|きょだい}なブラックホールがあると{考|かんが}えられている。",
       "english": "It is believed that a massive black hole exists at the center of the Milky Way.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{銀河|ぎんが} (galaxy; Milky Way) + {系|けい} (system). Specifically refers to the Milky Way — the galaxy we live in. When discussing other galaxies, the term {銀河|ぎんが} alone is used.\n\nCOMMON COLLOCATIONS:\n- {銀河系|ぎんがけい}の{中心|ちゅうしん} — the center of the galaxy\n- {銀河系|ぎんがけい}の{外|そと} — outside the galaxy\n- {銀河系|ぎんがけい}の{構造|こうぞう} — the structure of the galaxy\n\nRELATED TERMS:\n- {銀河|ぎんが} — galaxy; Milky Way — can refer to any galaxy or to the Milky Way poetically\n- {天の川|あまのがわ} — the Milky Way — the traditional Japanese name, associated with the Tanabata festival\n- {宇宙|うちゅう} — outer space; the universe",
-  "cross_references": [],
+  "notes": "{銀河|ぎんが} (galaxy; Milky Way) + {系|けい} (system). Specifically refers to the Milky Way — the galaxy we live in. When discussing other galaxies, the term {銀河|ぎんが} alone is used.\n\nCOMMON COLLOCATIONS:\n- {銀河系|ぎんがけい}の{中心|ちゅうしん} — the center of the galaxy\n- {銀河系|ぎんがけい}の{外|そと} — outside the galaxy\n- {銀河系|ぎんがけい}の{構造|こうぞう} — the structure of the galaxy\n\nRELATED WORDS:\n- {銀河|ぎんが} — galaxy; Milky Way — can refer to any galaxy or to the Milky Way poetically\n- {天の川|あまのがわ} — the Milky Way — the traditional Japanese name, associated with the Tanabata festival\n- {宇宙|うちゅう} — outer space; the universe",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05050_amanogawa",
+      "reading": "あまのがわ",
+      "headword": "{天|あま}の{川|がわ}",
+      "label": "the Milky Way"
+    },
+    {
+      "type": "related",
+      "target_id": "01861_uchuu",
+      "reading": "うちゅう",
+      "headword": "{宇宙|うちゅう}",
+      "label": "outer space"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["science", "nature"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "science",
+        "nature"
+      ]
     },
     "created": "2026-04-26T16:29:42Z",
-    "modified": "2026-04-26T16:29:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

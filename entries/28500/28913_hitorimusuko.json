@@ -17,7 +17,9 @@
       "id": "28913_hitorimusuko_ex1",
       "japanese": "{彼|かれ}は{一人息子|ひとりむすこ}だ。",
       "english": "He is an only son.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28913_hitorimusuko_ex2",
       "japanese": "{一人息子|ひとりむすこ}を{溺愛|できあい}する{母親|ははおや}。",
       "english": "A mother who dotes on her only son.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "28913_hitorimusuko_ex3",
       "japanese": "{両親|りょうしん}は{一人息子|ひとりむすこ}が{遠|とお}くに{就職|しゅうしょく}したのを{寂|さび}しがっている。",
       "english": "His parents are sad that their only son got a job far away.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {一人|ひとり} (one person) + {息子|むすこ} (son). The reading {ひとり} is irregular for {一人} in this compound.\n\nCOMMON COLLOCATIONS:\n- {一人息子|ひとりむすこ}を{持|も}つ: to have an only son\n- {一人息子|ひとりむすこ}を{溺愛|できあい}する: to dote on one's only son\n- {大切|たいせつ}な{一人息子|ひとりむすこ}: precious only son\n\nSIMILAR WORDS:\n- {一人娘|ひとりむすめ}: only daughter\n- {一人|ひとり}っ{子|こ}: only child (regardless of sex)\n- {長男|ちょうなん}: eldest son — may have younger siblings",
+  "notes": "Compound of {一人|ひとり} (one person) + {息子|むすこ} (son). The reading ひとり is irregular for {一人} in this compound.\n\nCOMMON COLLOCATIONS:\n- {一人息子|ひとりむすこ}を{持|も}つ: to have an only son\n- {一人息子|ひとりむすこ}を{溺愛|できあい}する: to dote on one's only son\n- {大切|たいせつ}な{一人息子|ひとりむすこ}: precious only son\n\nSIMILAR WORDS:\n- {一人娘|ひとりむすめ}: only daughter\n- {一人|ひとり}っ{子|こ}: only child (regardless of sex)\n- {長男|ちょうなん}: eldest son — may have younger siblings",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08957_hitorimusume",
+      "reading": "ひとりむすめ",
+      "headword": "{一人娘|ひとりむすめ}",
+      "label": "only daughter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10101_hitorikko",
+      "reading": "ひとりっこ",
+      "headword": "{一人|ひとり}っ{子|こ}",
+      "label": "only child"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14519_chounan",
+      "reading": "ちょうなん",
+      "headword": "{長男|ちょうなん}",
+      "label": "eldest son"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["family"],
+      "politeness": "plain",
+      "semantic": [
+        "family"
+      ],
       "domain": []
     },
     "created": "2026-06-07T03:04:58Z",
-    "modified": "2026-06-07T03:04:58Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

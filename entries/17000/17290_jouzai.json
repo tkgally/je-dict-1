@@ -19,7 +19,9 @@
       "english": "This medicine is in tablet form.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17290_jouzai_ex2",
@@ -27,7 +29,9 @@
       "english": "Please take the tablet with water.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17290_jouzai_ex3",
@@ -35,7 +39,9 @@
       "english": "If the tablet is too large to swallow easily, please break it in half before taking it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nThe formal/pharmaceutical term for tablet medicine. In everyday conversation, {薬|くすり} (medicine) is more common, but {錠剤|じょうざい} is used when specifying the form.\n\nMEDICINE FORMS:\n- {錠剤|じょうざい}: tablet\n- カプセル: capsule\n- {粉薬|こなぐすり}: powdered medicine\n- {液体|えきたい}{薬|やく}: liquid medicine\n- {塗|ぬ}り{薬|ぐすり}: topical ointment\n\nCOMMON COLLOCATIONS:\n- {錠剤|じょうざい}を{飲|の}む (take a tablet)\n- {錠剤|じょうざい}を{割|わ}る (break a tablet)\n- {錠剤|じょうざい}タイプ (tablet type/form)",
@@ -46,19 +52,46 @@
       "reading": "くすり",
       "headword": "{薬|くすり}",
       "label": "medicine (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22926_kapuseru",
+      "reading": "かぷせる",
+      "headword": "カプセル",
+      "label": "capsule"
+    },
+    {
+      "type": "related",
+      "target_id": "24069_karyuu",
+      "reading": "かりゅう",
+      "headword": "{顆粒|かりゅう}",
+      "label": "granule"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27515_konagusuri",
+      "reading": "こなぐすり",
+      "headword": "{粉薬|こなぐすり}",
+      "label": "powdered medicine"
     }
   ],
   "metadata": {
     "created": "2026-03-17T04:35:55Z",
-    "modified": "2026-05-06T06:14:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

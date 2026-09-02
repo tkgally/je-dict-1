@@ -17,7 +17,9 @@
       "id": "21255_koutsuujiko_ex1",
       "japanese": "{交通事故|こうつうじこ}に{遭|あ}った。",
       "english": "I was in a traffic accident.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21255_koutsuujiko_ex2",
       "japanese": "{交通事故|こうつうじこ}で{渋滞|じゅうたい}が{発生|はっせい}している。",
       "english": "A traffic jam has occurred due to a traffic accident.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,65 @@
       "id": "21255_koutsuujiko_ex3",
       "japanese": "{飲酒運転|いんしゅうんてん}による{交通事故|こうつうじこ}が{後|あと}を{絶|た}たない。",
       "english": "Traffic accidents caused by drunk driving are never-ending.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The standard term for any road traffic accident. Frequently appears in news reports and daily conversation. In Japan, even minor fender-benders are typically reported to the police.\n\nCOMMON COLLOCATIONS:\n- {交通事故|こうつうじこ}に{遭|あ}う: to be in a traffic accident\n- {交通事故|こうつうじこ}を{起|お}こす: to cause a traffic accident\n- {交通事故|こうつうじこ}{現場|げんば}: accident scene\n- {交通事故|こうつうじこ}{証明書|しょうめいしょ}: traffic accident certificate\n- {死亡|しぼう}{交通事故|こうつうじこ}: fatal traffic accident\n\nRELATED TERMS:\n- {人身事故|じんしんじこ}: accident involving personal injury — often heard in train delay announcements\n- {物損事故|ぶっそんじこ}: property-damage-only accident — no injuries involved\n- {追突事故|ついとつじこ}: rear-end collision",
+  "notes": "The standard term for any road traffic accident. Frequently appears in news reports and daily conversation. In Japan, even minor fender-benders are typically reported to the police.\n\nCOMMON COLLOCATIONS:\n- {交通事故|こうつうじこ}に{遭|あ}う: to be in a traffic accident\n- {交通事故|こうつうじこ}を{起|お}こす: to cause a traffic accident\n- {交通事故|こうつうじこ}{現場|げんば}: accident scene\n- {交通事故|こうつうじこ}{証明書|しょうめいしょ}: traffic accident certificate\n- {死亡|しぼう}{交通事故|こうつうじこ}: fatal traffic accident\n\nRELATED WORDS:\n- {人身事故|じんしんじこ}: accident involving personal injury — often heard in train delay announcements\n- {物損事故|ぶっそんじこ}: property-damage-only accident — no injuries involved\n- {追突事故|ついとつじこ}: rear-end collision",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08475_jinshinjiko",
+      "reading": "じんしんじこ",
+      "headword": "{人身事故|じんしんじこ}",
+      "label": "accident involving personal injury"
+    },
+    {
+      "type": "related",
+      "target_id": "16540_bussonjiko",
+      "reading": "ぶっそんじこ",
+      "headword": "{物損事故|ぶっそんじこ}",
+      "label": "property-damage-only accident"
+    },
+    {
+      "type": "related",
+      "target_id": "24064_tsuitotsujiko",
+      "reading": "ついとつじこ",
+      "headword": "{追突事故|ついとつじこ}",
+      "label": "rear-end collision"
+    },
+    {
+      "type": "related",
+      "target_id": "22217_koutsuuanzen",
+      "reading": "こうつうあんぜん",
+      "headword": "{交通安全|こうつうあんぜん}",
+      "label": "traffic safety"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27048_shoutotsujiko",
+      "reading": "しょうとつじこ",
+      "headword": "{衝突事故|しょうとつじこ}",
+      "label": "collision accident"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-04-01T16:09:39Z",
-    "modified": "2026-04-01T16:09:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

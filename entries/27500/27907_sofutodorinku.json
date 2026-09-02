@@ -17,7 +17,9 @@
       "id": "27907_sofutodorinku_ex1",
       "japanese": "ソフトドリンクを{頼|たの}んだ。",
       "english": "I ordered a soft drink.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27907_sofutodorinku_ex2",
       "japanese": "お{酒|さけ}が{飲|の}めないのでソフトドリンクにします。",
       "english": "I can't drink alcohol, so I'll have a soft drink.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "27907_sofutodorinku_ex3",
       "japanese": "{宴会|えんかい}の{飲|の}み{放題|ほうだい}にはソフトドリンクも{含|ふく}まれている。",
       "english": "The all-you-can-drink plan for the party includes soft drinks too.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A loanword (from English \"soft drink\"). Commonly offered at restaurants and izakaya as an option for those not drinking alcohol.\n\nCOMMON COLLOCATIONS:\n- ソフトドリンクを{頼|たの}む: order a soft drink\n- ソフトドリンクバー: drink bar (self-serve refill station)\n- {各種|かくしゅ}ソフトドリンク: assorted soft drinks\n\nSIMILAR WORDS:\n- {清涼飲料水|せいりょういんりょうすい}: the formal/written term for soft drinks, used on labels and in regulations",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17030_seiryouinryousui",
+      "reading": "せいりょういんりょうすい",
+      "headword": "{清涼飲料水|せいりょういんりょうすい}",
+      "label": "the formal/written term for soft…"
+    },
+    {
+      "type": "related",
+      "target_id": "01033_juusu",
+      "reading": "じゅーす",
+      "headword": "ジュース",
+      "label": "juice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24831_seiryouinryou",
+      "reading": "せいりょういんりょう",
+      "headword": "{清涼|せいりょう}{飲料|いんりょう}",
+      "label": "soft drink"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-05-23T02:04:30Z",
-    "modified": "2026-05-23T02:04:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

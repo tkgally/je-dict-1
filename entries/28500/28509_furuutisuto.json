@@ -17,7 +17,9 @@
       "id": "28509_furuutisuto_ex1",
       "japanese": "{彼女|かのじょ}はプロのフルーティストだ。",
       "english": "She is a professional flutist.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28509_furuutisuto_ex2",
       "japanese": "{有名|ゆうめい}なフルーティストの{演奏会|えんそうかい}に{行|い}った。",
       "english": "I went to a famous flutist's concert.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,53 @@
       "id": "28509_furuutisuto_ex3",
       "japanese": "そのフルーティストは{交響楽団|こうきょうがくだん}の{首席|しゅせき}{奏者|そうしゃ}だ。",
       "english": "That flutist is the principal player in the symphony orchestra.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Loanword from English \"flutist.\" Used mainly for serious or professional performers; a casual player is more likely described as フルートを{吹|ふ}く{人|ひと}.\n\nCOMMON COLLOCATIONS:\n- プロのフルーティスト: professional flutist\n- {首席|しゅせき}フルーティスト: principal flutist\n- {天才|てんさい}フルーティスト: prodigy flutist\n\nSIMILAR WORDS:\n- ギタリスト: guitarist\n- ピアニスト: pianist\n- バイオリニスト: violinist",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28502_gitarisuto",
+      "reading": "ぎたりすと",
+      "headword": "ギタリスト",
+      "label": "guitarist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19413_pianisuto",
+      "reading": "ぴあにすと",
+      "headword": "ピアニスト",
+      "label": "pianist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27286_baiorinisuto",
+      "reading": "ばいおりにすと",
+      "headword": "バイオリニスト",
+      "label": "violinist"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["occupation", "music"],
+      "politeness": "plain",
+      "semantic": [
+        "occupation",
+        "music"
+      ],
       "domain": []
     },
     "created": "2026-06-01T03:07:14Z",
-    "modified": "2026-06-01T03:07:14Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -18,7 +18,9 @@
       "english": "To read the user manual.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10278_toriatsukaisetsumeisho_ex2",
@@ -26,7 +28,9 @@
       "english": "I lost the instruction manual.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10278_toriatsukaisetsumeisho_ex3",
@@ -34,20 +38,48 @@
       "english": "When you don't know how to use it, please check the instruction manual.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Often abbreviated to トリセツ in casual speech. The abbreviation became widely known after a popular song by {西野|にしの}カナ titled \"トリセツ\" (2015), which compared a girlfriend's expectations to an instruction manual.\n\nCOMPONENTS: {取扱|とりあつかい} (handling) + {説明書|せつめいしょ} (explanatory document).\n\nCOMMON COLLOCATIONS:\n- {取扱説明書|とりあつかいせつめいしょ}を{読|よ}む — to read the manual\n- {取扱説明書|とりあつかいせつめいしょ}を{確認|かくにん}する — to check the manual\n- {取扱説明書|とりあつかいせつめいしょ}{付|つ}き — comes with an instruction manual",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01862_atsukau",
+      "reading": "あつかう",
+      "headword": "{扱|あつか}う",
+      "label": "to handle, to deal with"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19748_tejunsho",
+      "reading": "てじゅんしょ",
+      "headword": "{手順書|てじゅんしょ}",
+      "label": "procedure manual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20579_chuuigaki",
+      "reading": "ちゅういがき",
+      "headword": "{注意書|ちゅういが}き",
+      "label": "cautionary note"
+    }
+  ],
   "metadata": {
     "created": "2026-02-05T18:07:12Z",
-    "modified": "2026-02-05T18:07:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

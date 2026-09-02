@@ -17,7 +17,9 @@
       "id": "18660_taishibou_ex1",
       "japanese": "{体脂肪|たいしぼう}を{減|へ}らす。",
       "english": "To reduce body fat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18660_taishibou_ex2",
       "japanese": "{体脂肪|たいしぼう}{率|りつ}を{毎月|まいつき}{測|はか}っている。",
       "english": "I measure my body fat percentage every month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,54 @@
       "id": "18660_taishibou_ex3",
       "japanese": "{運動|うんどう}を{続|つづ}けたら、{体脂肪|たいしぼう}が{大|おお}きく{下|さ}がって{健康|けんこう}{診断|しんだん}の{結果|けっか}もよくなった。",
       "english": "After continuing to exercise, my body fat dropped significantly and my health checkup results improved too.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{体脂肪|たいしぼう} combines {体|たい} (body) + {脂肪|しぼう} (fat). Commonly discussed in health, fitness, and medical contexts.\n\nCOMMON COLLOCATIONS:\n- {体脂肪|たいしぼう}{率|りつ}: body fat percentage\n- {体脂肪|たいしぼう}を{減|へ}らす: to reduce body fat\n- {体脂肪|たいしぼう}を{落|お}とす: to drop body fat\n- {体脂肪|たいしぼう}{計|けい}: body fat monitor/scale\n- {体脂肪|たいしぼう}を{測|はか}る: to measure body fat\n\nTYPES OF FAT:\n- {内臓|ないぞう}{脂肪|しぼう}: visceral fat (around organs — health risk)\n- {皮下|ひか}{脂肪|しぼう}: subcutaneous fat (under the skin)\n\nRELATED:\n- {脂肪|しぼう}: fat (general term)\n- {体重|たいじゅう}: body weight\n- BMI: body mass index (used as-is in Japanese)",
+  "notes": "{体脂肪|たいしぼう} combines {体|たい} (body) + {脂肪|しぼう} (fat). Commonly discussed in health, fitness, and medical contexts.\n\nCOMMON COLLOCATIONS:\n- {体脂肪|たいしぼう}{率|りつ}: body fat percentage\n- {体脂肪|たいしぼう}を{減|へ}らす: to reduce body fat\n- {体脂肪|たいしぼう}を{落|お}とす: to drop body fat\n- {体脂肪|たいしぼう}{計|けい}: body fat monitor/scale\n- {体脂肪|たいしぼう}を{測|はか}る: to measure body fat\n\nTYPES OF FAT:\n- {内臓|ないぞう}{脂肪|しぼう}: visceral fat (around organs — health risk)\n- {皮下|ひか}{脂肪|しぼう}: subcutaneous fat (under the skin)\n\nRELATED WORDS:\n- {脂肪|しぼう}: fat (general term)\n- {体重|たいじゅう}: body weight\n- BMI: body mass index (used as-is in Japanese)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03395_taijuu",
+      "reading": "たいじゅう",
+      "headword": "{体重|たいじゅう}",
+      "label": "body weight"
+    },
+    {
+      "type": "related",
+      "target_id": "23233_hikashibou",
+      "reading": "ひかしぼう",
+      "headword": "{皮下脂肪|ひかしぼう}",
+      "label": "subcutaneous fat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28942_kinnikuryou",
+      "reading": "きんにくりょう",
+      "headword": "{筋肉量|きんにくりょう}",
+      "label": "muscle mass"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-internal"],
-      "domain": ["medical"]
+      "semantic": [
+        "body-internal"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-03-22T11:46:34Z",
-    "modified": "2026-03-27T00:47:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

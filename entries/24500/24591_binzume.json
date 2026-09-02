@@ -15,7 +15,7 @@
   "examples": [
     {
       "id": "24591_binzume_ex1",
-      "japanese": "{瓶詰|びんづめ}の{ジャム|じゃむ}を{買|か}った。",
+      "japanese": "{瓶詰|びんづめ}のジャムを{買|か}った。",
       "english": "I bought bottled jam.",
       "sense_numbers": [
         1
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Refers to food or other items preserved in glass bottles or jars. Often written as {瓶詰|びんづめ}め with the trailing め in casual contexts, though the standard form is {瓶詰|びんづめ}. Used both as a noun (bottled goods) and in the pattern ～にする (to bottle something).\n\nCOMMON COLLOCATIONS:\n- {瓶詰|びんづめ}にする: to bottle, to preserve in jars\n- {瓶詰|びんづめ}の{ジャム|じゃむ}: bottled jam\n- {瓶詰|びんづめ}の{蜂蜜|はちみつ}: bottled honey\n- {瓶詰|びんづめ}{食品|しょくひん}: bottled food products\n\nSIMILAR WORDS:\n- {缶詰|かんづめ}: canned goods — preserved in metal cans rather than glass\n- {漬物|つけもの}: pickles — preserved by brining or fermenting, not necessarily in bottles",
+  "notes": "Refers to food or other items preserved in glass bottles or jars. Often written as {瓶詰|びんづめ}め with the trailing め in casual contexts, though the standard form is {瓶詰|びんづめ}. Used both as a noun (bottled goods) and in the pattern ～にする (to bottle something).\n\nCOMMON COLLOCATIONS:\n- {瓶詰|びんづめ}にする: to bottle, to preserve in jars\n- {瓶詰|びんづめ}のジャム: bottled jam\n- {瓶詰|びんづめ}の{蜂蜜|はちみつ}: bottled honey\n- {瓶詰|びんづめ}{食品|しょくひん}: bottled food products\n\nSIMILAR WORDS:\n- {缶詰|かんづめ}: canned goods — preserved in metal cans rather than glass\n- {漬物|つけもの}: pickles — preserved by brining or fermenting, not necessarily in bottles",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00187_kanzume",
+      "reading": "かんづめ",
+      "headword": "{缶詰|かんづめ}",
+      "label": "canned goods"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04938_tsukemono",
+      "reading": "つけもの",
+      "headword": "{漬物|つけもの}",
+      "label": "pickles"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +79,6 @@
       ]
     },
     "created": "2026-04-19T16:25:18Z",
-    "modified": "2026-04-19T16:25:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

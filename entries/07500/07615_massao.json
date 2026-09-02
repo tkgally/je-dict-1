@@ -78,7 +78,7 @@
       "notes": null
     }
   ],
-  "notes": "WORD STRUCTURE:\n{真|ま}っ (emphatic prefix) + {青|あお}→{青|さお} (blue)\nNote the sound change from あお to さお.\n\nTWO MEANINGS:\nThis word has seemingly opposite meanings:\n1. Deep, vivid blue (positive)\n2. Pale, ashen (negative - loss of color from fear/shock)\n\nContext makes the meaning clear.\n\nCOMMON EXPRESSIONS:\n・{顔|かお}が{真|ま}っ{青|さお}になる - to turn pale (from shock/fear)\n・{真|ま}っ{青|さお}な{空|そら} - deep blue sky\n・{真|ま}っ{青|さお}な{海|うみ} - deep blue sea\n\nRELATED:\n・{真|ま}っ{赤|か} - bright red (also used for \"blatant\")\n・{青|あお}ざめる - to turn pale",
+  "notes": "ETYMOLOGY:\n{真|ま}っ (emphatic prefix) + {青|あお}→{青|さお} (blue)\nNote the sound change from あお to さお.\n\nTWO MEANINGS:\nThis word has seemingly opposite meanings:\n1. Deep, vivid blue (positive)\n2. Pale, ashen (negative - loss of color from fear/shock)\n\nContext makes the meaning clear.\n\nCOMMON EXPRESSIONS:\n- {顔|かお}が{真|ま}っ{青|さお}になる - to turn pale (from shock/fear)\n- {真|ま}っ{青|さお}な{空|そら} - deep blue sky\n- {真|ま}っ{青|さお}な{海|うみ} - deep blue sea\n\nRELATED WORDS:\n- {真|ま}っ{赤|か} - bright red (also used for \"blatant\")\n- {青|あお}ざめる - to turn pale",
   "cross_references": [
     {
       "type": "related",
@@ -86,11 +86,32 @@
       "headword": "{真|ま}っ{白|しろ}",
       "label": "pure white",
       "target_id": "07613_masshiro"
+    },
+    {
+      "type": "related",
+      "target_id": "03734_makka",
+      "reading": "まっか",
+      "headword": "{真|ま}っ{赤|か}",
+      "label": "bright red"
+    },
+    {
+      "type": "related",
+      "target_id": "14612_aozameru",
+      "reading": "あおざめる",
+      "headword": "{青|あお}ざめる",
+      "label": "to turn pale"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14054_souhaku",
+      "reading": "そうはく",
+      "headword": "{蒼白|そうはく}",
+      "label": "pale, pallid"
     }
   ],
   "metadata": {
     "created": "2026-01-20T12:57:12Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -99,6 +120,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "color",
         "emotion"

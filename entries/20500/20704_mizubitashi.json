@@ -3,7 +3,7 @@
   "headword": "{水浸|みずびた}し",
   "reading": "みずびたし",
   "romaji": "mizubitashi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "flooded; waterlogged; soaked",
   "definitions": [
     {
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {水|みず} (water) + {浸|ひた}し (soaking). Describes a state where everything is thoroughly wet or underwater.\n\nUSAGE:\nTypically used with になる (to become flooded) or as a predicate with だ. Common in news reports about flooding and in everyday situations like water spills or leaks.\n\nCOMMON COLLOCATIONS:\n- {水浸|みずびた}しになる: to become flooded/waterlogged\n- {水浸|みずびた}しの{部屋|へや}: a flooded room\n- {一面|いちめん}{水浸|みずびた}し: flooded all over\n- {水浸|みずびた}しの{被害|ひがい}: flood damage\n\nSIMILAR WORDS:\n- {浸水|しんすい}: flooding, inundation — a more formal, technical term used in disaster reports\n- {冠水|かんすい}: submersion — specifically about roads or fields being submerged\n- びしょ{濡|ぬ}れ: soaking wet — used for people or clothes, not for rooms or areas\n\nNOTE:\nThe ～{浸|びた}し pattern also appears in other words like {血|ち}まみれ and {汗|あせ}まみれ, though those use まみれ rather than {浸|びた}し.",
+  "notes": "Composed of {水|みず} (water) + {浸|ひた}し (soaking). Describes a state where everything is thoroughly wet or underwater.\n\nUSAGE:\nTypically used with になる (to become flooded) or as a predicate with だ. Common in news reports about flooding and in everyday situations like water spills or leaks.\nThe ～{浸|びた}し pattern also appears in other words like {血|ち}まみれ and {汗|あせ}まみれ, though those use まみれ rather than {浸|びた}し.\n\nCOMMON COLLOCATIONS:\n- {水浸|みずびた}しになる: to become flooded/waterlogged\n- {水浸|みずびた}しの{部屋|へや}: a flooded room\n- {一面|いちめん}{水浸|みずびた}し: flooded all over\n- {水浸|みずびた}しの{被害|ひがい}: flood damage\n\nSIMILAR WORDS:\n- {浸水|しんすい}: flooding, inundation — a more formal, technical term used in disaster reports\n- {冠水|かんすい}: submersion — specifically about roads or fields being submerged\n- びしょ{濡|ぬ}れ: soaking wet — used for people or clothes, not for rooms or areas",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14945_shinsui",
+      "reading": "しんすい",
+      "headword": "{浸水|しんすい}",
+      "label": "flooding, inundation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20916_kansui",
+      "reading": "かんすい",
+      "headword": "{冠水|かんすい}",
+      "label": "submersion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16748_bishonure",
+      "reading": "びしょぬれ",
+      "headword": "びしょ{濡|ぬ}れ",
+      "label": "soaking wet"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +84,6 @@
       ]
     },
     "created": "2026-03-30T07:53:23Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{進捗報告|しんちょくほうこく}",
   "reading": "しんちょくほうこく",
   "romaji": "shinchokuhoukoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "progress report; status update",
   "definitions": [
     {
@@ -55,7 +55,36 @@
     }
   ],
   "notes": "Essential business vocabulary in Japanese workplaces. Compound of 進捗 (progress, advancement) + 報告 (report). Regular progress reporting is a hallmark of Japanese corporate culture. Often abbreviated to 進捗 alone in casual workplace speech (進捗どうですか？ = How's the progress?).\n\nCOMMON COLLOCATIONS:\n- {進捗報告|しんちょくほうこく}を{行|おこな}う: to make a progress report\n- {進捗報告|しんちょくほうこく}{会議|かいぎ}: progress report meeting\n- {進捗報告|しんちょくほうこく}メール: progress report email\n- {定期|ていき}{進捗報告|しんちょくほうこく}: regular progress report\n\nSIMILAR WORDS:\n- {経過報告|けいかほうこく}: interim report — emphasizes the passage of time and developments\n- {中間報告|ちゅうかんほうこく}: mid-term report — report given at the halfway point\n- {状況報告|じょうきょうほうこく}: situation report — focuses on current conditions rather than movement forward",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22899_keikahoukoku",
+      "reading": "けいかほうこく",
+      "headword": "{経過|けいか}{報告|ほうこく}",
+      "label": "interim report"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16653_chuukanhoukoku",
+      "reading": "ちゅうかんほうこく",
+      "headword": "{中間報告|ちゅうかんほうこく}",
+      "label": "mid-term report"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26295_genjouhoukoku",
+      "reading": "げんじょうほうこく",
+      "headword": "{現状報告|げんじょうほうこく}",
+      "label": "status report"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30046_joutaihoukoku",
+      "reading": "じょうたいほうこく",
+      "headword": "状態報告",
+      "label": "status report"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -72,7 +101,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T14:21:16Z",
-    "modified": "2026-06-15T07:59:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

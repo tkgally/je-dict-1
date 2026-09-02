@@ -3,7 +3,7 @@
   "headword": "{波状|はじょう}",
   "reading": "はじょう",
   "romaji": "hajou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "wavy; wave-shaped; undulating",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "A compound of {波|は} (wave) and {状|じょう} (shape/form). Used both literally for physical wave-like shapes and figuratively for things that come in successive waves. The suffix {状|じょう} is productive and creates adjective-like nouns describing shape: {球状|きゅうじょう} (spherical), {帯状|おびじょう} (belt-shaped), {環状|かんじょう} (ring-shaped).\n\nCOMMON COLLOCATIONS:\n- {波状|はじょう}{攻撃|こうげき}: wave attack; successive attacks in waves\n- {波状|はじょう}の{模様|もよう}: wavy pattern\n- {波状|はじょう}{雲|うん}: undulating clouds\n\nSIMILAR WORDS:\n- {波形|はけい}: waveform (more technical, referring to the shape of a signal or wave)\n- {波打|なみう}つ: to undulate; to ripple (verb form)\n- うねり: swell; undulation (more colloquial)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27154_hakei",
+      "reading": "はけい",
+      "headword": "{波形|はけい}",
+      "label": "waveform"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26821_uneri",
+      "reading": "うねり",
+      "headword": "うねり",
+      "label": "swell"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,12 +69,13 @@
         "noun",
         "adjective-no"
       ],
+      "politeness": "plain",
       "semantic": [
         "appearance",
         "nature"
       ]
     },
     "created": "2026-04-19T12:33:01Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

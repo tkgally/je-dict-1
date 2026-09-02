@@ -40,10 +40,54 @@
       ]
     }
   ],
-  "notes": "RELATED TERMS:\n・⟦{蓄電|ちくでん}{池|ち}→蓄電池：08095_chikudenchi⟧ (storage battery)\n・{蓄電|ちくでん}⟦システム→システム：08428_shisutemu⟧ (power storage system)\n・⟦バッテリー→バッテリー：04425_batterii⟧ (battery)\n・⟦リチウムイオン{電池|でんち}→リチウムイオン電池：30068_richiumuiondenchi⟧ (lithium-ion battery)\n\nENERGY CONTEXT:\n・⟦{再生可能|さいせいかのう}エネルギー→再生可能エネルギー：08751_saiseikanouenerugii⟧ (renewable energy)\n・⟦{太陽光|たいようこう}{発電|はつでん}→太陽光発電：07831_taiyoukouhatsuden⟧ (solar power)\n・⟦{風力|ふうりょく}{発電|はつでん}→風力発電：08742_fuuryokuhatsuden⟧ (wind power)\n・⟦スマートグリッド→スマートグリッド：30070_sumaatoguriddo⟧ (smart grid)\n\nOPPOSITE CONCEPT:\n・⟦{発電|はつでん}→発電：04312_hatsuden⟧ (power generation)\n・⟦{送電|そうでん}→送電：17225_souden⟧ (power transmission)\n・⟦{配電|はいでん}→配電：30069_haiden⟧ (power distribution)",
+  "notes": "RELATED WORDS:\n- ⟦{蓄電|ちくでん}{池|ち}→蓄電池：08095_chikudenchi⟧ (storage battery)\n- {蓄電|ちくでん}⟦システム→システム：08428_shisutemu⟧ (power storage system)\n- ⟦バッテリー→バッテリー：04425_batterii⟧ (battery)\n- ⟦リチウムイオン{電池|でんち}→リチウムイオン電池：30068_richiumuiondenchi⟧ (lithium-ion battery)\n\nENERGY CONTEXT:\n- ⟦{再生可能|さいせいかのう}エネルギー→再生可能エネルギー：08751_saiseikanouenerugii⟧ (renewable energy)\n- ⟦{太陽光|たいようこう}{発電|はつでん}→太陽光発電：07831_taiyoukouhatsuden⟧ (solar power)\n- ⟦{風力|ふうりょく}{発電|はつでん}→風力発電：08742_fuuryokuhatsuden⟧ (wind power)\n- ⟦スマートグリッド→スマートグリッド：30070_sumaatoguriddo⟧ (smart grid)\n\nOPPOSITE CONCEPT:\n- ⟦{発電|はつでん}→発電：04312_hatsuden⟧ (power generation)\n- ⟦{送電|そうでん}→送電：17225_souden⟧ (power transmission)\n- ⟦{配電|はいでん}→配電：30069_haiden⟧ (power distribution)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04425_batterii",
+      "reading": "ばってりー",
+      "headword": "バッテリー",
+      "label": "battery"
+    },
+    {
+      "type": "related",
+      "target_id": "30068_richiumuiondenchi",
+      "reading": "りちうむいおんでんち",
+      "headword": "リチウムイオン{電池|でんち}",
+      "label": "lithium-ion battery"
+    },
+    {
+      "type": "antonym",
+      "target_id": "04312_hatsuden",
+      "reading": "はつでん",
+      "headword": "{発電|はつでん}",
+      "label": "power generation"
+    },
+    {
+      "type": "antonym",
+      "target_id": "17225_souden",
+      "reading": "そうでん",
+      "headword": "{送電|そうでん}",
+      "label": "power transmission"
+    },
+    {
+      "type": "antonym",
+      "target_id": "30069_haiden",
+      "reading": "はいでん",
+      "headword": "{配電|はいでん}",
+      "label": "power distribution"
+    },
+    {
+      "type": "related",
+      "target_id": "19289_houden",
+      "reading": "ほうでん",
+      "headword": "{放電|ほうでん}",
+      "label": "electrical discharge"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T00:57:28Z",
-    "modified": "2026-08-29T12:18:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

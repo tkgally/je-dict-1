@@ -19,7 +19,9 @@
       "english": "A riot broke out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15533_boudou_ex2",
@@ -27,7 +29,9 @@
       "english": "The police suppressed the riot.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15533_boudou_ex3",
@@ -35,7 +39,9 @@
       "english": "A food shortage triggered a large-scale uprising.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{暴動|ぼうどう} refers to violent collective action, typically against the government or authorities. It is a formal, news-register word.\n\nCOMMON COLLOCATIONS:\n- {暴動|ぼうどう}が{起|お}きる / {発生|はっせい}する (a riot breaks out)\n- {暴動|ぼうどう}を{鎮圧|ちんあつ}する (to suppress a riot)\n- {暴動|ぼうどう}に{発展|はってん}する (to develop into a riot)\n\nSIMILAR WORDS:\nデモ refers to a peaceful demonstration or protest, while {暴動|ぼうどう} specifically implies violence. {反乱|はんらん} is a broader term for rebellion, often with organized military opposition.",
@@ -46,19 +52,46 @@
       "reading": "ぼうりょく",
       "headword": "{暴力|ぼうりょく}",
       "label": "violence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11860_hanran",
+      "reading": "はんらん",
+      "headword": "{反乱|はんらん}",
+      "label": "rebellion, revolt, uprising"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23902_souran",
+      "reading": "そうらん",
+      "headword": "{騒乱|そうらん}",
+      "label": "disturbance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24822_uchikowashi",
+      "reading": "うちこわし",
+      "headword": "{打|う}ち{壊|こわ}し",
+      "label": "smashing"
     }
   ],
   "metadata": {
     "created": "2026-03-07T10:04:44Z",
-    "modified": "2026-05-01T07:30:21Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "style": ["written"]
+      "semantic": [
+        "general"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

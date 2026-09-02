@@ -2,7 +2,7 @@
   "id": "08175_heimaku",
   "headword": "{閉幕|へいまく}",
   "reading": "へいまく",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "closing; end (of show/event)",
   "conjugation": {
     "type": "suru",
@@ -178,13 +178,34 @@
       "notes": null
     }
   ],
-  "notes": "{閉幕|へいまく} literally means \"closing the curtain\" ({閉|へい} = close + {幕|まく} = curtain). Originally a theater term, it is now widely used for the end of any major event.\n\nCOMMON COLLOCATIONS:\n- {閉幕式|へいまくしき}: closing ceremony\n- {閉幕|へいまく}を{迎|むか}える: to reach the closing\n- {閉幕|へいまく}する: to close, to end (suru verb)\n\nUSAGE:\nUsed for formal or large-scale events: オリンピック, {万博|ばんぱく} (expos), {映画祭|えいがさい} (film festivals), {国会|こっかい} (parliament sessions). Not used for casual gatherings or everyday endings.\n\nCONTRAST:\n- {開幕|かいまく}: opening (antonym)\n- {終了|しゅうりょう}: ending (more general, less ceremonial)\n- {閉会|へいかい}: closing of a meeting or assembly",
+  "notes": "{閉幕|へいまく} literally means \"closing the curtain\" ({閉|へい} = close + {幕|まく} = curtain). Originally a theater term, it is now widely used for the end of any major event.\n\nCOMMON COLLOCATIONS:\n- {閉幕式|へいまくしき}: closing ceremony\n- {閉幕|へいまく}を{迎|むか}える: to reach the closing\n- {閉幕|へいまく}する: to close, to end (suru verb)\n\nUSAGE:\nUsed for formal or large-scale events: オリンピック, {万博|ばんぱく} (expos), {映画祭|えいがさい} (film festivals), {国会|こっかい} (parliament sessions). Not used for casual gatherings or everyday endings.\n\nSIMILAR WORDS:\n- {開幕|かいまく}: opening (antonym)\n- {終了|しゅうりょう}: ending (more general, less ceremonial)\n- {閉会|へいかい}: closing of a meeting or assembly",
   "cross_references": [
     {
       "type": "antonym",
       "reading": "かいまく",
       "headword": "{開幕|かいまく}",
       "target_id": "08174_kaimaku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02563_shuuryou",
+      "reading": "しゅうりょう",
+      "headword": "{終了|しゅうりょう}",
+      "label": "ending"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23962_heikai",
+      "reading": "へいかい",
+      "headword": "{閉会|へいかい}",
+      "label": "closing of a meeting or assembly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26936_heikaishiki",
+      "reading": "へいかいしき",
+      "headword": "{閉会式|へいかいしき}",
+      "label": "closing ceremony"
     }
   ],
   "metadata": {
@@ -195,6 +216,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "events",
         "theater"
@@ -202,6 +224,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-25T07:33:27Z",
-    "modified": "2026-03-26T09:48:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

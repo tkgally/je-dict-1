@@ -19,7 +19,9 @@
       "english": "To use magic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17994_majutsu_ex2",
@@ -27,7 +29,9 @@
       "english": "The boy attends a school of sorcery.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17994_majutsu_ex3",
@@ -35,7 +39,9 @@
       "english": "In medieval Europe, people accused of practicing sorcery were severely punished.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nFrequently encountered in fantasy fiction, anime, and games. Also used historically for actual occult practices. In modern usage, {魔術|まじゅつ} has a darker, more supernatural connotation compared to {魔法|まほう}.\n\nCOMMON COLLOCATIONS:\n- {魔術|まじゅつ}を{使|つか}う (to use magic)\n- {魔術|まじゅつ}{師|し} (sorcerer, magician)\n- {魔術|まじゅつ}を{学|まな}ぶ (to learn sorcery)\n- {黒|くろ}{魔術|まじゅつ} (black magic)\n\nSIMILAR WORDS:\n- {魔法|まほう}: magic — more general and often lighter in tone; common in fairy tales\n- {手品|てじな}: magic tricks — stage magic, sleight of hand\n- {呪術|じゅじゅつ}: sorcery, curse magic — emphasizes curses and shamanistic practices",
@@ -46,18 +52,43 @@
       "reading": "まほう",
       "headword": "{魔法|まほう}",
       "label": "magic (lighter tone)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03443_tejina",
+      "reading": "てじな",
+      "headword": "{手品|てじな}",
+      "label": "magic tricks"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24776_jujutsu",
+      "reading": "じゅじゅつ",
+      "headword": "{呪術|じゅじゅつ}",
+      "label": "sorcery, curse magic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23680_kijutsu",
+      "reading": "きじゅつ",
+      "headword": "{奇術|きじゅつ}",
+      "label": "magic trick"
     }
   ],
   "metadata": {
     "created": "2026-03-19T11:49:41Z",
-    "modified": "2026-05-07T10:07:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

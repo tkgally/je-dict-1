@@ -17,7 +17,9 @@
       "id": "28231_kotenbungaku_ex1",
       "japanese": "{古典文学|こてんぶんがく}を{研究|けんきゅう}している。",
       "english": "I study classical literature.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28231_kotenbungaku_ex2",
       "japanese": "{源氏物語|げんじものがたり}は{日本|にほん}の{古典文学|こてんぶんがく}の{代表作|だいひょうさく}だ。",
       "english": "The Tale of Genji is a representative work of Japanese classical literature.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28231_kotenbungaku_ex3",
       "japanese": "{高校|こうこう}の{授業|じゅぎょう}で{古典文学|こてんぶんがく}に{触|ふ}れ、{昔|むかし}の{言葉|ことば}の{美|うつく}しさを{知|し}った。",
       "english": "In high school classes I encountered classical literature and learned the beauty of the old language.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {古典|こてん} (classic, classical work) + {文学|ぶんがく} (literature).\n\nCOMMON COLLOCATIONS:\n- {古典文学|こてんぶんがく}を{学|まな}ぶ: to study classical literature\n- {日本|にほん}の{古典文学|こてんぶんがく}: Japanese classical literature\n- {古典文学|こてんぶんがく}{作品|さくひん}: a work of classical literature\n\nSIMILAR WORDS:\n- {現代|げんだい}{文学|ぶんがく}: modern literature — the contrasting term for contemporary works\n- {古文|こぶん}: classical Japanese — the old written language studied in school, not the body of literature itself",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17999_gendaibungaku",
+      "reading": "げんだいぶんがく",
+      "headword": "{現代|げんだい}{文学|ぶんがく}",
+      "label": "modern literature"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17172_kobun",
+      "reading": "こぶん",
+      "headword": "{古文|こぶん}",
+      "label": "classical Japanese"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-27T04:08:18Z",
-    "modified": "2026-05-27T04:08:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{作|つく}り{直|なお}す",
   "reading": "つくりなおす",
   "romaji": "tsukurinaosu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to remake; to redo; to make over",
   "definitions": [
     {
@@ -47,6 +47,36 @@
   "notes": "A compound verb combining {作|つく}る (to make) and {直|なお}す (to fix/redo). The {直|なお}す auxiliary indicates doing the action over again, typically to improve or correct the result.\n\nCOMMON COLLOCATIONS:\n- {最初|さいしょ}から{作|つく}り{直|なお}す: to remake from scratch\n- {一|いち}から{作|つく}り{直|なお}す: to redo from the beginning\n- {計画|けいかく}を{作|つく}り{直|なお}す: to redo a plan\n- {料理|りょうり}を{作|つく}り{直|なお}す: to remake a dish\n\nSIMILAR WORDS:\n- {書|か}き{直|なお}す: to rewrite — specifically for writing\n- やり{直|なお}す: to redo — more general, not limited to making/creating\n- {立|た}て{直|なお}す: to rebuild, to reorganize — often used for plans, health, or organizations",
   "conjugation_type": "godan-su",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04597_kakinaosu",
+      "reading": "かきなおす",
+      "headword": "{書|か}き{直|なお}す",
+      "label": "to rewrite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03172_yarinaosu",
+      "reading": "やりなおす",
+      "headword": "やり{直|なお}す",
+      "label": "to redo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03113_tatenaosu",
+      "reading": "たてなおす",
+      "headword": "{立|た}て{直|なお}す",
+      "label": "to rebuild, to reorganize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21949_shitatenaosu",
+      "reading": "したてなおす",
+      "headword": "{仕立|した}て{直|なお}す",
+      "label": "to alter"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +91,7 @@
       "verb_class": "godan-su"
     },
     "created": "2026-03-30T21:32:08Z",
-    "modified": "2026-03-30T21:32:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

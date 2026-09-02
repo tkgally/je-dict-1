@@ -17,7 +17,9 @@
       "id": "27556_tsuukinhi_ex1",
       "japanese": "{会社|かいしゃ}が{通勤費|つうきんひ}を{出|だ}してくれる。",
       "english": "The company covers commuting expenses.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27556_tsuukinhi_ex2",
       "japanese": "{通勤費|つうきんひ}は{月|つき}に{二万円|にまんえん}ほどかかる。",
       "english": "Commuting expenses come to about 20,000 yen per month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,39 @@
       "id": "27556_tsuukinhi_ex3",
       "japanese": "{転職|てんしょく}の{条件|じょうけん}として{通勤費|つうきんひ}{全額|ぜんがく}{支給|しきゅう}は{大切|たいせつ}だ。",
       "english": "Full coverage of commuting expenses is an important condition when changing jobs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {通勤|つうきん} (commuting) + {費|ひ} (expenses, fee). A standard item in Japanese employment terms. Usually reimbursed via a monthly commuter pass ({定期券|ていきけん}) or actual fare paid.\n\nCOMMON COLLOCATIONS:\n- {通勤費|つうきんひ}{支給|しきゅう}: provision of commuting expenses\n- {通勤費|つうきんひ}{全額|ぜんがく}{支給|しきゅう}: full commuting expenses covered\n- {通勤費|つうきんひ}を{請求|せいきゅう}する: to claim commuting expenses\n- {通勤費|つうきんひ}{込|こ}み: commuting expenses included\n\nSIMILAR WORDS:\n- {交通費|こうつうひ}: transportation expenses — broader term, includes any work-related travel, not just commuting\n- {通勤手当|つうきんてあて}: commuting allowance — the formal name on a paycheck\n- {定期代|ていきだい}: cost of a commuter pass",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03056_koutsuuhi",
+      "reading": "こうつうひ",
+      "headword": "{交通費|こうつうひ}",
+      "label": "transportation expenses"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["work", "money"],
+      "politeness": "plain",
+      "semantic": [
+        "work",
+        "money"
+      ],
       "domain": []
     },
     "created": "2026-05-14T01:41:20Z",
-    "modified": "2026-05-14T01:41:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

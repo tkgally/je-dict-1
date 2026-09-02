@@ -17,7 +17,9 @@
       "id": "23067_annaigakari_ex1",
       "japanese": "{案内係|あんないがかり}に{聞|き}く。",
       "english": "To ask the information attendant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23067_annaigakari_ex2",
       "japanese": "{案内係|あんないがかり}が{席|せき}まで{案内|あんない}してくれた。",
       "english": "The usher guided us to our seats.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "23067_annaigakari_ex3",
       "japanese": "{美術館|びじゅつかん}の{案内係|あんないがかり}が、{展示|てんじ}の{見|み}どころを{丁寧|ていねい}に{説明|せつめい}してくれた。",
       "english": "The museum guide carefully explained the highlights of the exhibition.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {案内|あんない} (guidance/information) + {係|がかり} (person in charge). The suffix {係|がかり} is productive and creates role nouns from activities.\n\nCOMMON COLLOCATIONS:\n- {案内係|あんないがかり}に{尋|たず}ねる: to ask the guide\n- {案内係|あんないがかり}を{務|つと}める: to serve as a guide\n- {受付|うけつけ}{案内係|あんないがかり}: reception guide\n\nSIMILAR WORDS:\n- ガイド: guide — loanword, often for tour guides\n- {案内人|あんないにん}: guide person — similar meaning but slightly more literary\n- {受付|うけつけ}: reception — the front desk or person at the front desk\n- コンシェルジュ: concierge — upscale hotel or apartment guide\n\nNOTE ON {係|がかり}:\nThe suffix {係|がかり} is used for various roles: {受付係|うけつけがかり} (receptionist), {会計係|かいけいがかり} (accountant/cashier), {連絡係|れんらくがかり} (liaison).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05116_gaido",
+      "reading": "がいど",
+      "headword": "ガイド",
+      "label": "guide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25113_annainin",
+      "reading": "あんないにん",
+      "headword": "{案内人|あんないにん}",
+      "label": "guide person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01325_uketsuke",
+      "reading": "うけつけ",
+      "headword": "{受付|うけつけ}",
+      "label": "reception"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "occupation"]
+      "semantic": [
+        "person",
+        "occupation"
+      ]
     },
     "created": "2026-04-08T17:33:30Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

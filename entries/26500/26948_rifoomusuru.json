@@ -3,7 +3,7 @@
   "headword": "リフォームする",
   "reading": "りふぉーむする",
   "romaji": "rifoomusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to renovate; to remodel; to alter (clothing)",
   "definitions": [
     {
@@ -80,7 +80,36 @@
     }
   ],
   "notes": "A Japanese-English loanword (wasei-eigo) from English \"reform,\" but used with meanings quite different from the English original. In English, \"reform\" means to improve a system or institution; in Japanese, リフォーム specifically means physical renovation of buildings or alteration of clothing.\n\nCOMMON COLLOCATIONS:\n- {家|いえ}をリフォームする: to renovate a house\n- マンションをリフォームする: to remodel an apartment\n- {全面|ぜんめん}リフォーム: full renovation\n- リフォーム{済|ず}み: already renovated\n- リフォーム{費用|ひよう}: renovation costs\n\nSIMILAR WORDS:\n- リノベーション: renovation — implies a more extensive, design-oriented overhaul that changes the concept of the space, while リフォーム is more about restoring or updating existing features\n- {改装|かいそう}する: to renovate, refit — a more formal, native Japanese term for interior renovation\n- {改築|かいちく}する: to rebuild, reconstruct — involves structural changes, not just cosmetic updates",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11211_rinobeeshon",
+      "reading": "りのべーしょん",
+      "headword": "リノベーション",
+      "label": "renovation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09682_kaisou",
+      "reading": "かいそう",
+      "headword": "{改装|かいそう}",
+      "label": "to renovate, refit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06224_kaichiku",
+      "reading": "かいちく",
+      "headword": "{改築|かいちく}",
+      "label": "to rebuild, reconstruct"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21949_shitatenaosu",
+      "reading": "したてなおす",
+      "headword": "{仕立|した}て{直|なお}す",
+      "label": "to alter"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -97,7 +126,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T11:08:10Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -2,7 +2,7 @@
   "id": "01432_shoukai",
   "headword": "{紹介|しょうかい}",
   "reading": "しょうかい",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "introduction",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{紹介|しょうかい} means introduction of a person, thing, or information.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{紹介|しょうかい}⟦する→する：00392_suru⟧\n\nVERBAL USE:\n{紹介|しょうかい}⟦する→する：00392_suru⟧: to introduce (takes を for person/thing, に for recipient)\n\nCOMMON PATTERNS:\n- A⟦を→を：00422_wo⟧B⟦に→に：00314_ni⟧{紹介|しょうかい}⟦する→する：00392_suru⟧: to introduce A to B\n- ⟦{自己|じこ}→自己：23357_jiko⟧{紹介|しょうかい}⟦する→する：00392_suru⟧: to introduce oneself\n- ⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧{紹介|しょうかい}⟦する→する：00392_suru⟧: to recommend a book\n\nCOMPOUNDS:\n- ⟦{自己紹介|じこしょうかい}→自己紹介：12331_jikoshoukai⟧: self-introduction\n- {紹介|しょうかい}⟦{状|じょう}→状：09878_jou⟧: letter of introduction\n- {紹介|しょうかい}⟦{料|りょう}→料：noentry⟧: referral fee\n\nPOLITE FORMS:\n- ⟦ご→ご：09882_go⟧{紹介|しょうかい}⟦します→する：00392_suru⟧: let me introduce (formal)\n- ⟦ご→ご：09882_go⟧{紹介|しょうかい}⟦いただく→いただく：01326_itadaku⟧: to be introduced (humble)\n\nSIMILAR WORDS:\n- ⟦{案内|あんない}→案内：01291_annai⟧: guidance, showing around\n- ⟦{推薦|すいせん}→推薦：03358_suisen⟧: recommendation (more formal endorsement)",
+  "notes": "{紹介|しょうかい} means introduction of a person, thing, or information.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{紹介|しょうかい}⟦する→する：00392_suru⟧\n\nVERBAL USE:\n{紹介|しょうかい}⟦する→する：00392_suru⟧: to introduce (takes を for person/thing, に for recipient)\n\nCOMMON PATTERNS:\n- A⟦を→を：00422_wo⟧B⟦に→に：00314_ni⟧{紹介|しょうかい}⟦する→する：00392_suru⟧: to introduce A to B\n- ⟦{自己|じこ}→自己：23357_jiko⟧{紹介|しょうかい}⟦する→する：00392_suru⟧: to introduce oneself\n- ⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧{紹介|しょうかい}⟦する→する：00392_suru⟧: to recommend a book\n\nCOMPOUNDS:\n- ⟦{自己紹介|じこしょうかい}→自己紹介：12331_jikoshoukai⟧: self-introduction\n- {紹介|しょうかい}⟦{状|じょう}→状：09878_jou⟧: letter of introduction\n- {紹介|しょうかい}⟦{料|りょう}→料：noentry⟧: referral fee\n\nKEIGO:\n- ⟦ご→ご：09882_go⟧{紹介|しょうかい}⟦します→する：00392_suru⟧: let me introduce (formal)\n- ⟦ご→ご：09882_go⟧{紹介|しょうかい}⟦いただく→いただく：01326_itadaku⟧: to be introduced (humble)\n\nSIMILAR WORDS:\n- ⟦{案内|あんない}→案内：01291_annai⟧: guidance, showing around\n- ⟦{推薦|すいせん}→推薦：03358_suisen⟧: recommendation (more formal endorsement)",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,32 @@
       "reading": "あんない",
       "headword": "{案内|あんない}",
       "label": "guidance, showing around"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03358_suisen",
+      "reading": "すいせん",
+      "headword": "{推薦|すいせん}",
+      "label": "recommendation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01449_setsumei",
+      "reading": "せつめい",
+      "headword": "{説明|せつめい}",
+      "label": "explanation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22767_kuchikiki",
+      "reading": "くちきき",
+      "headword": "{口利|くちき}き",
+      "label": "mediation"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:33:04Z",
-    "modified": "2026-05-15T16:22:31Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -17,7 +17,9 @@
       "id": "24509_furansugo_ex1",
       "japanese": "フランス{語|ご}を{習|なら}っている。",
       "english": "I'm learning French.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24509_furansugo_ex2",
       "japanese": "{大学|だいがく}で{第二外国語|だいにがいこくご}としてフランス{語|ご}を{選|えら}んだ。",
       "english": "I chose French as my second foreign language at university.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,51 @@
       "id": "24509_furansugo_ex3",
       "japanese": "フランス{語|ご}は{発音|はつおん}が{難|むずか}しいと{言|い}われているが、{文法|ぶんぽう}は{英語|えいご}と{共通点|きょうつうてん}が{多|おお}い。",
       "english": "French is said to have difficult pronunciation, but its grammar has many points in common with English.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Follows the standard pattern for language names in Japanese: country/region name + {語|ご}. French is one of the most popular second foreign languages studied at Japanese universities, alongside German and Chinese.\n\nCOMMON COLLOCATIONS:\n- フランス{語|ご}を{話|はな}す: to speak French\n- フランス{語|ご}を{勉強|べんきょう}する: to study French\n- フランス{語|ご}の{授業|じゅぎょう}: French class\n- フランス{語|ご}{圏|けん}: Francophone area\n- フランス{語|ご}{検定|けんてい}: French proficiency test (commonly called {仏検|ふつけん})\n\nSIMILAR WORDS:\n- {仏語|ふつご}: French language (abbreviated form, used in academic and formal contexts)\n- {英語|えいご}: English language\n- {独語|どくご}: German language",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02274_eigo",
+      "reading": "えいご",
+      "headword": "{英語|えいご}",
+      "label": "English language"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25980_supeingo",
+      "reading": "すぺいんご",
+      "headword": "スペイン{語|ご}",
+      "label": "Spanish language"
+    },
+    {
+      "type": "related",
+      "target_id": "28074_doitsugo",
+      "reading": "どいつご",
+      "headword": "ドイツ{語|ご}",
+      "label": "German"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["language", "education"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "language",
+        "education"
+      ]
     },
     "created": "2026-04-19T13:04:21Z",
-    "modified": "2026-04-19T13:04:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

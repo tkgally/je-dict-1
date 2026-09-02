@@ -22,7 +22,9 @@
       "id": "25956_gakujutsukaigi_ex1",
       "japanese": "{国際|こくさい}{学術会議|がくじゅつかいぎ}に{参加|さんか}した。",
       "english": "I participated in an international academic conference.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "25956_gakujutsukaigi_ex2",
       "japanese": "{来月|らいげつ}の{学術会議|がくじゅつかいぎ}で{論文|ろんぶん}を{発表|はっぴょう}する{予定|よてい}だ。",
       "english": "I plan to present a paper at next month's academic conference.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "25956_gakujutsukaigi_ex3",
       "japanese": "その{学術会議|がくじゅつかいぎ}には{世界中|せかいじゅう}から{研究者|けんきゅうしゃ}が{集|あつ}まった。",
       "english": "Researchers from around the world gathered at the academic conference.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "25956_gakujutsukaigi_ex4",
       "japanese": "{日本学術会議|にほんがくじゅつかいぎ}が{声明|せいめい}を{出|だ}した。",
       "english": "The Science Council of Japan issued a statement.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "25956_gakujutsukaigi_ex5",
       "japanese": "{学術会議|がくじゅつかいぎ}の{会員|かいいん}{選出|せんしゅつ}が{議論|ぎろん}を{呼|よ}んだ。",
       "english": "The selection of council members sparked debate.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,21 +72,44 @@
       "id": "25956_gakujutsukaigi_ex6",
       "japanese": "{学術会議|がくじゅつかいぎ}は{政府|せいふ}に{政策提言|せいさくていげん}を{行|おこな}う{役割|やくわり}を{担|にな}っている。",
       "english": "The academic council plays the role of making policy recommendations to the government.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {学術|がくじゅつ} (academic; scholarly) and {会議|かいぎ} (conference; meeting). The most prominent usage in Japan is {日本学術会議|にほんがくじゅつかいぎ} (Science Council of Japan), an advisory body to the government that has been the subject of political controversy in recent years.\n\nCOMMON COLLOCATIONS:\n- {国際|こくさい}{学術会議|がくじゅつかいぎ}: international academic conference\n- {日本学術会議|にほんがくじゅつかいぎ}: Science Council of Japan\n- {学術会議|がくじゅつかいぎ}に{参加|さんか}する: to attend an academic conference\n- {学術会議|がくじゅつかいぎ}で{発表|はっぴょう}する: to present at an academic conference\n\nSIMILAR WORDS:\n- {学会|がっかい}: academic society; conference — more commonly used for regular discipline-specific conferences and the professional associations that host them\n- シンポジウム: symposium — a smaller, discussion-focused academic gathering\n- {研究会|けんきゅうかい}: study group; research meeting — a less formal academic gathering",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04139_gakkai",
+      "reading": "がっかい",
+      "headword": "{学会|がっかい}",
+      "label": "academic society"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25416_kenkyuukai",
+      "reading": "けんきゅうかい",
+      "headword": "{研究会|けんきゅうかい}",
+      "label": "study group"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["education", "society"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "education",
+        "society"
+      ]
     },
     "created": "2026-04-28T13:36:44Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

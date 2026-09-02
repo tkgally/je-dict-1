@@ -17,7 +17,9 @@
       "id": "24898_yoyakuken_ex1",
       "japanese": "{予約券|よやくけん}を{見|み}せる。",
       "english": "To show a reservation ticket.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24898_yoyakuken_ex2",
       "japanese": "{受付|うけつけ}で{予約券|よやくけん}を{提示|ていじ}してください。",
       "english": "Please present your reservation slip at the reception desk.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "24898_yoyakuken_ex3",
       "japanese": "{人気|にんき}のレストランでは{予約券|よやくけん}がないと{入|はい}れないことがある。",
       "english": "At popular restaurants, you sometimes can't get in without a reservation ticket.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A physical or digital ticket that proves a reservation has been made. Common at hospitals (as a numbered waiting slip), popular restaurants (for walk-in queuing systems), and events. Composed of {予約|よやく} (reservation) + {券|けん} (ticket).\n\nCOMMON COLLOCATIONS:\n- {予約券|よやくけん}を{取|と}る: to get a reservation ticket\n- {予約券|よやくけん}を{発行|はっこう}する: to issue a reservation ticket\n- {予約券|よやくけん}の{番号|ばんごう}: reservation ticket number\n\nSIMILAR WORDS:\n- {整理券|せいりけん}: numbered ticket — a queuing ticket distributed in order of arrival, common on buses and at busy venues\n- {予約確認書|よやくかくにんしょ}: reservation confirmation — a more formal document confirming a booking, often used for hotels or flights\n- {引換券|ひきかえけん}: redemption ticket — a voucher for exchanging or picking up goods",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08288_seiriken",
+      "reading": "せいりけん",
+      "headword": "{整理券|せいりけん}",
+      "label": "numbered ticket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19009_hikikaeken",
+      "reading": "ひきかえけん",
+      "headword": "{引換券|ひきかえけん}",
+      "label": "redemption ticket"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life", "travel"]
+      "semantic": [
+        "daily-life",
+        "travel"
+      ]
     },
     "created": "2026-04-21T12:10:48Z",
-    "modified": "2026-04-21T12:10:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

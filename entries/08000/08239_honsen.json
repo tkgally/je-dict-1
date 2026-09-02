@@ -16,7 +16,9 @@
       "id": "08239_honsen_ex1",
       "japanese": "{本選|ほんせん}に{進|すす}んだ。",
       "english": "I advanced to the finals.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "08239_honsen_ex2",
       "japanese": "{予選|よせん}を{通過|つうか}して{本選|ほんせん}に{出場|しゅつじょう}する。",
       "english": "To pass the preliminaries and compete in the finals.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,12 +36,14 @@
       "id": "08239_honsen_ex3",
       "japanese": "{本選|ほんせん}は{来週|らいしゅう}{開催|かいさい}される。",
       "english": "The main competition will be held next week.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "USAGE:\n- {本選|ほんせん}に{進|すす}む/{出|で}る (to advance to/enter the finals)\n- {本選|ほんせん}{出場|しゅつじょう} (participation in the finals)\n\nCOMPETITION STAGES:\n- {予選|よせん} (preliminary round, qualifier)\n- {本選|ほんせん} (main round, finals)\n- {決勝|けっしょう} (final match)\n- {準決勝|じゅんけっしょう} (semifinal)\n\nCONTEXTS:\nUsed in various competitions: sports tournaments, music competitions, cooking contests, academic competitions, etc.\n\nRELATED:\n- {予選|よせん} (preliminary round - antonym)\n- {決勝戦|けっしょうせん} (final match)\n- {準々決勝|じゅんじゅんけっしょう} (quarterfinal)",
+  "notes": "USAGE:\n- {本選|ほんせん}に{進|すす}む/{出|で}る (to advance to/enter the finals)\n- {本選|ほんせん}{出場|しゅつじょう} (participation in the finals)\nUsed in various competitions: sports tournaments, music competitions, cooking contests, academic competitions, etc.\n\nCOMPETITION STAGES:\n- {予選|よせん} (preliminary round, qualifier)\n- {本選|ほんせん} (main round, finals)\n- {決勝|けっしょう} (final match)\n- {準決勝|じゅんけっしょう} (semifinal)\n\nRELATED WORDS:\n- {予選|よせん} (preliminary round - antonym)\n- {決勝戦|けっしょうせん} (final match)\n- {準々決勝|じゅんじゅんけっしょう} (quarterfinal)",
   "cross_references": [
     {
       "type": "related",
@@ -59,16 +65,36 @@
       "reading": "ほんせん",
       "headword": "{本線|ほんせん}",
       "label": "main line (railway, road, etc.)"
+    },
+    {
+      "type": "related",
+      "target_id": "09244_kesshousen",
+      "reading": "けっしょうせん",
+      "headword": "{決勝戦|けっしょうせん}",
+      "label": "final match"
+    },
+    {
+      "type": "related",
+      "target_id": "25649_junjunkesshou",
+      "reading": "じゅんじゅんけっしょう",
+      "headword": "{準々決勝|じゅんじゅんけっしょう}",
+      "label": "quarterfinal"
     }
   ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["sports", "competition"]
+      "politeness": "plain",
+      "semantic": [
+        "sports",
+        "competition"
+      ]
     },
     "created": "2026-01-25T08:33:23Z",
-    "modified": "2026-04-11T00:58:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

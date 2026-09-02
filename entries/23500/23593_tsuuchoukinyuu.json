@@ -3,7 +3,7 @@
   "headword": "{通帳記入|つうちょうきにゅう}",
   "reading": "つうちょうきにゅう",
   "romaji": "tsuuchoukinyuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "passbook update; printing transactions in a bankbook",
   "definitions": [
     {
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {通帳|つうちょう} (passbook) and {記入|きにゅう} (filling in, entering). The label appears on Japanese ATM menus and is a routine banking task. When too many transactions have accumulated while the passbook was not updated, the ATM may print a summary line instead of every transaction.\n\nCOMMON COLLOCATIONS:\n- {通帳記入|つうちょうきにゅう}をする: to update the passbook\n- {通帳記入|つうちょうきにゅう}を{済|す}ませる: to finish updating the passbook\n- {通帳記入|つうちょうきにゅう}{機|き}: dedicated passbook-update machine\n- {未記帳|みきちょう}{分|ぶん}の{通帳記入|つうちょうきにゅう}: updating with not-yet-printed transactions\n\nRELATED TERMS:\n- {通帳|つうちょう}: passbook — the booklet being updated\n- {記帳|きちょう}: bookkeeping; making an entry in a book — a near-synonym that also appears on ATM menus as {記帳|きちょう}\n- {預金通帳|よきんつうちょう}: bank passbook — the more formal full form",
+  "notes": "Compound of {通帳|つうちょう} (passbook) and {記入|きにゅう} (filling in, entering). The label appears on Japanese ATM menus and is a routine banking task. When too many transactions have accumulated while the passbook was not updated, the ATM may print a summary line instead of every transaction.\n\nCOMMON COLLOCATIONS:\n- {通帳記入|つうちょうきにゅう}をする: to update the passbook\n- {通帳記入|つうちょうきにゅう}を{済|す}ませる: to finish updating the passbook\n- {通帳記入|つうちょうきにゅう}{機|き}: dedicated passbook-update machine\n- {未記帳|みきちょう}{分|ぶん}の{通帳記入|つうちょうきにゅう}: updating with not-yet-printed transactions\n\nRELATED WORDS:\n- {通帳|つうちょう}: passbook — the booklet being updated\n- {記帳|きちょう}: bookkeeping; making an entry in a book — a near-synonym that also appears on ATM menus as {記帳|きちょう}\n- {預金通帳|よきんつうちょう}: bank passbook — the more formal full form",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18809_kichou",
+      "reading": "きちょう",
+      "headword": "{記帳|きちょう}",
+      "label": "bookkeeping"
+    },
+    {
+      "type": "related",
+      "target_id": "23587_yokintsuuchou",
+      "reading": "よきんつうちょう",
+      "headword": "{預金通帳|よきんつうちょう}",
+      "label": "bank passbook"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +81,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-12T18:13:54Z",
-    "modified": "2026-08-01T21:36:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

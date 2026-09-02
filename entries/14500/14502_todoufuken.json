@@ -19,7 +19,9 @@
       "english": "Japan has 47 prefectures.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14502_todoufuken_ex2",
@@ -27,7 +29,9 @@
       "english": "I looked up population data by prefecture.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14502_todoufuken_ex3",
@@ -35,21 +39,42 @@
       "english": "It's my dream to travel to every prefecture, and I have just three left to complete the set.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "The compound combines the four types of first-level administrative divisions in Japan: {都|と} (metropolis: {東京都|とうきょうと}), {道|どう} (territory: {北海道|ほっかいどう}), {府|ふ} (urban prefecture: {大阪府|おおさかふ} and {京都府|きょうとふ}), and {県|けん} (prefecture: the remaining 43).\n\nCOMMON COLLOCATIONS:\n- {都道府県|とどうふけん}{別|べつ} (by prefecture)\n- {各|かく}{都道府県|とどうふけん} (each prefecture)\n- {都道府県|とどうふけん}{知事|ちじ} (prefectural governor)\n- 47{都道府県|とどうふけん} (all 47 prefectures)\n\nJapanese schoolchildren memorize all 47 {都道府県|とどうふけん} and their locations as part of the elementary school curriculum.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01430_juusho",
+      "reading": "じゅうしょ",
+      "headword": "{住所|じゅうしょ}",
+      "label": "address"
+    },
+    {
+      "type": "related",
+      "target_id": "23061_shikuchouson",
+      "reading": "しくちょうそん",
+      "headword": "{市区町村|しくちょうそん}",
+      "label": "municipalities"
+    }
+  ],
   "metadata": {
     "created": "2026-03-01T12:13:48Z",
-    "modified": "2026-03-01T12:13:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

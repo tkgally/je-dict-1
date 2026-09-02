@@ -19,7 +19,9 @@
       "english": "There's a morning assembly every day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16381_chourei_ex2",
@@ -27,7 +29,9 @@
       "english": "The principal gave a talk at the morning assembly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16381_chourei_ex3",
@@ -35,21 +39,50 @@
       "english": "At our company, we start work after confirming the day's schedule at the morning meeting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{朝礼|ちょうれい} is a common practice in both Japanese schools and companies. School {朝礼|ちょうれい} typically involves the whole school gathering in the schoolyard or gym, while workplace {朝礼|ちょうれい} may be a brief stand-up meeting within a department.\n\nCOMMON COLLOCATIONS:\n- {朝礼|ちょうれい}で{話|はな}す (to speak at the morning assembly)\n- {朝礼|ちょうれい}に{出|で}る (to attend the morning assembly)\n- {全校|ぜんこう}{朝礼|ちょうれい} (whole-school morning assembly)\n- {朝礼|ちょうれい}の{時間|じかん} (morning assembly time)\n\nRELATED WORDS:\n{終礼|しゅうれい} is the end-of-day meeting or assembly, the counterpart to {朝礼|ちょうれい}.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22299_choukai",
+      "reading": "ちょうかい",
+      "headword": "{朝会|ちょうかい}",
+      "label": "morning assembly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23186_shuurei",
+      "reading": "しゅうれい",
+      "headword": "{終礼|しゅうれい}",
+      "label": "end-of-day meeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27197_teikikaigi",
+      "reading": "ていきかいぎ",
+      "headword": "{定期会議|ていきかいぎ}",
+      "label": "regular meeting"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T05:12:43Z",
-    "modified": "2026-03-12T05:12:43Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education", "work"]
+      "semantic": [
+        "education",
+        "work"
+      ]
     }
   }
 }

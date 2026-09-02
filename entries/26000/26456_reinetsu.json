@@ -45,7 +45,22 @@
     }
   ],
   "notes": "A compound of {冷|れい} (cold) and {熱|ねつ} (heat). This is an example of a paired-opposite compound ({対義|たいぎ}{複合語|ふくごうご}), similar to {寒暖|かんだん} (cold and warm). Frequently appears in engineering and materials science contexts.\n\nCOMMON COLLOCATIONS:\n- {冷熱|れいねつ}サイクル: thermal cycle\n- {冷熱|れいねつ}{試験|しけん}: thermal test\n- {冷熱|れいねつ}の{差|さ}: temperature difference\n- {冷熱|れいねつ}に{強|つよ}い: resistant to temperature extremes\n\nSIMILAR WORDS:\n- {寒暖|かんだん}: cold and warm — refers to atmospheric temperature variation, as in weather or seasonal changes\n- {温度|おんど}: temperature — the measurement of heat itself\n- {温冷|おんれい}: warm and cold — used in contexts like alternating hot and cold baths ({温冷|おんれい}{浴|よく})",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05561_kandan",
+      "reading": "かんだん",
+      "headword": "{寒暖|かんだん}",
+      "label": "cold and warm"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00333_ondo",
+      "reading": "おんど",
+      "headword": "{温度|おんど}",
+      "label": "temperature"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +68,13 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "science"
       ]
     },
     "created": "2026-05-02T11:29:02Z",
-    "modified": "2026-06-15T07:59:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

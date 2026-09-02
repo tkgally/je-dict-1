@@ -64,10 +64,46 @@
     }
   ],
   "notes": "ジャケット (from English \"jacket\") refers to various types of outerwear or suit jackets.\n\nCommon types:\n- ⟦テーラード→テーラード：noentry⟧ジャケット (tailored jacket)\n- ⟦デニム→デニム：21656_denimu⟧ジャケット (denim jacket)\n- ⟦レザー→レザー：noentry⟧ジャケット (leather jacket)\n- ⟦ダウン→ダウン：00035_daun⟧ジャケット (down jacket)\n- ⟦スーツ→スーツ：01367_suutsu⟧ジャケット (suit jacket)\n\nRelated terms:\n- ⟦{上着|うわぎ}→上着：01066_uwagi⟧ (general term for jacket/coat)\n- ⟦コート→コート：01358_kooto⟧ (coat - longer outerwear)\n- ⟦ブレザー→ブレザー：28533_burezaa⟧ (blazer)\n\nNote: ジャケット also refers to album covers (CDジャケット) and book covers.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01066_uwagi",
+      "reading": "うわぎ",
+      "headword": "{上着|うわぎ}",
+      "label": "jacket, coat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21470_autaa",
+      "reading": "あうたー",
+      "headword": "アウター",
+      "label": "outerwear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23433_buruzon",
+      "reading": "ぶるぞん",
+      "headword": "ブルゾン",
+      "label": "blouson"
+    },
+    {
+      "type": "related",
+      "target_id": "27310_daunjaketto",
+      "reading": "だうんじゃけっと",
+      "headword": "ダウンジャケット",
+      "label": "down jacket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28533_burezaa",
+      "reading": "ぶれざー",
+      "headword": "ブレザー",
+      "label": "blazer"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T18:58:23Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "core",
     "tags": {

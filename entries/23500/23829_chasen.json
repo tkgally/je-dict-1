@@ -44,8 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {茶|ちゃ} ('tea') and {筅|せん} ('whisk; brush'). The character {筅} is used almost exclusively in this word.\n\nUSAGE:\n- Tightly associated with the tea ceremony ({茶道|さどう}). The whisk is one of the core utensils alongside {茶碗|ちゃわん} ('tea bowl'), {茶杓|ちゃしゃく} ('tea scoop'), and {棗|なつめ} ('tea caddy').\n- The verb for using a tea whisk to prepare matcha is {点|た}てる, as in {お{茶|ちゃ}を{点|た}てる} ('to make tea [in the ceremonial way]'). Using {入|い}れる ('to brew') with {茶筅|ちゃせん} sounds unnatural.\n- Number of tines varies by school and style: {数穂|かずほ} (many tines, ~80) for everyday use vs. fewer-tined whisks for thicker {濃茶|こいちゃ}.\n\nCOMMON COLLOCATIONS:\n- {茶筅|ちゃせん}で{点|た}てる: to whisk (matcha) with a chasen\n- {茶筅|ちゃせん}を{振|ふ}る: to move the whisk (in the whisking motion)\n- {茶筅|ちゃせん}を{湿|しめ}らせる: to moisten the whisk\n- {茶筅通|ちゃせんとお}し: the preparatory step of warming and inspecting the whisk\n- {新品|しんぴん}の{茶筅|ちゃせん}: a brand-new tea whisk\n\nSIMILAR WORDS:\n- {茶杓|ちゃしゃく}: tea scoop — the bamboo scoop used to measure matcha powder out of the caddy.\n- {茶碗|ちゃわん}: tea bowl — in the tea ceremony, the bowl in which the matcha is whisked; in everyday life, also 'rice bowl'.\n- {抹茶|まっちゃ}: matcha — the powdered green tea that is whisked with a {茶筅|ちゃせん}.\n- {泡立|あわだ}て{器|き}: (ordinary) whisk — a Western-style wire whisk used in cooking; not a substitute for {茶筅|ちゃせん} in the tea ceremony.",
-  "cross_references": [],
+  "notes": "Compound of {茶|ちゃ} ('tea') and {筅|せん} ('whisk; brush'). The character {筅} is used almost exclusively in this word.\n\nUSAGE:\n- Tightly associated with the tea ceremony ({茶道|さどう}). The whisk is one of the core utensils alongside {茶碗|ちゃわん} ('tea bowl'), {茶杓|ちゃしゃく} ('tea scoop'), and {棗|なつめ} ('tea caddy').\n- The verb for using a tea whisk to prepare matcha is {点|た}てる, as in お{茶|ちゃ}を{点|た}てる ('to make tea [in the ceremonial way]'). Using {入|い}れる ('to brew') with {茶筅|ちゃせん} sounds unnatural.\n- Number of tines varies by school and style: {数穂|かずほ} (many tines, ~80) for everyday use vs. fewer-tined whisks for thicker {濃茶|こいちゃ}.\n\nCOMMON COLLOCATIONS:\n- {茶筅|ちゃせん}で{点|た}てる: to whisk (matcha) with a chasen\n- {茶筅|ちゃせん}を{振|ふ}る: to move the whisk (in the whisking motion)\n- {茶筅|ちゃせん}を{湿|しめ}らせる: to moisten the whisk\n- {茶筅通|ちゃせんとお}し: the preparatory step of warming and inspecting the whisk\n- {新品|しんぴん}の{茶筅|ちゃせん}: a brand-new tea whisk\n\nSIMILAR WORDS:\n- {茶杓|ちゃしゃく}: tea scoop — the bamboo scoop used to measure matcha powder out of the caddy.\n- {茶碗|ちゃわん}: tea bowl — in the tea ceremony, the bowl in which the matcha is whisked; in everyday life, also 'rice bowl'.\n- {抹茶|まっちゃ}: matcha — the powdered green tea that is whisked with a {茶筅|ちゃせん}.\n- {泡立|あわだ}て{器|き}: (ordinary) whisk — a Western-style wire whisk used in cooking; not a substitute for {茶筅|ちゃせん} in the tea ceremony.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23830_chashaku",
+      "reading": "ちゃしゃく",
+      "headword": "{茶杓|ちゃしゃく}",
+      "label": "tea scoop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01019_chawan",
+      "reading": "ちゃわん",
+      "headword": "{茶碗|ちゃわん}",
+      "label": "tea bowl"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10574_maccha",
+      "reading": "まっちゃ",
+      "headword": "{抹茶|まっちゃ}",
+      "label": "matcha"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08066_awadateki",
+      "reading": "あわだてき",
+      "headword": "{泡立|あわだ}て{器|き}",
+      "label": "(ordinary) whisk"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,6 +91,6 @@
       ]
     },
     "created": "2026-04-15T04:05:53Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

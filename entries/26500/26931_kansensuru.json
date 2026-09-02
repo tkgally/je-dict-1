@@ -3,7 +3,7 @@
   "headword": "{感染|かんせん}する",
   "reading": "かんせんする",
   "romaji": "kansensuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to be infected; to catch (a disease); to contract",
   "definitions": [
     {
@@ -45,7 +45,15 @@
     }
   ],
   "notes": "The particle に marks the pathogen or disease: Xに{感染|かんせん}する (to be infected with X). The noun form {感染|かんせん} is extremely common in news, medical, and public health contexts.\n\nCOMMON COLLOCATIONS:\n- {感染|かんせん}{者|しゃ}: infected person\n- {感染|かんせん}{症|しょう}: infectious disease\n- {感染|かんせん}{拡大|かくだい}: spread of infection\n- {感染|かんせん}{予防|よぼう}: infection prevention\n- {感染|かんせん}{経路|けいろ}: route of infection\n- {院内|いんない}{感染|かんせん}: hospital-acquired infection\n\nSIMILAR WORDS:\n- うつる: to catch (a disease); to be contagious — the everyday, colloquial word\n- {伝染|でんせん}する: to be transmitted; to spread — emphasizes the contagious spread from person to person\n- {罹患|りかん}する: to contract (a disease) — formal medical term",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04549_densen",
+      "reading": "でんせん",
+      "headword": "{伝染|でんせん}",
+      "label": "to be transmitted"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -65,7 +73,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T16:18:36Z",
-    "modified": "2026-05-05T16:18:36Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -3,7 +3,7 @@
   "headword": "{我|わが}{勝手|かって}",
   "reading": "わがかって",
   "romaji": "wagakatte",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "selfishness; doing as one pleases; willfulness",
   "definitions": [
     {
@@ -45,7 +45,36 @@
     }
   ],
   "notes": "A compound of {我|わが} (one's own; my) and {勝手|かって} (one's own convenience; selfishness). Functions as both a noun ({我|わが}{勝手|かって}を{言|い}う) and a na-adjective ({我|わが}{勝手|かって}な).\n\nCOMMON COLLOCATIONS:\n- {我|わが}{勝手|かって}な{振|ふ}る{舞|ま}い: selfish behavior\n- {我|わが}{勝手|かって}を{言|い}う: to say selfish things; to make selfish demands\n- {我|わが}{勝手|かって}な{人|ひと}: a selfish person\n- {我|わが}{勝手|かって}な{理由|りゆう}: a self-serving reason\n\nSIMILAR WORDS:\n- わがまま: selfish; spoiled — more common in everyday speech, slightly childish nuance\n- {身勝手|みがって}: selfish; self-centered — stronger negative connotation\n- {自分勝手|じぶんかって}: doing things one's own way — very close synonym, more colloquial\n- {自由勝手|じゆうかって}: acting freely as one pleases — less negative, implies freedom rather than selfishness",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03789_wagamama",
+      "reading": "わがまま",
+      "headword": "わがまま",
+      "label": "selfish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14345_migatte",
+      "reading": "みがって",
+      "headword": "{身勝手|みがって}",
+      "label": "selfish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19490_jibunkatte",
+      "reading": "じぶんかって",
+      "headword": "{自分勝手|じぶんかって}",
+      "label": "doing things one's own way"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26586_jiyuukatte",
+      "reading": "じゆうかって",
+      "headword": "{自由勝手|じゆうかって}",
+      "label": "acting freely as one pleases"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,11 +83,12 @@
         "noun",
         "adjective-na"
       ],
+      "politeness": "plain",
       "semantic": [
         "personality"
       ]
     },
     "created": "2026-05-02T14:35:47Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

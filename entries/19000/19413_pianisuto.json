@@ -17,7 +17,9 @@
       "id": "19413_pianisuto_ex1",
       "japanese": "{彼女|かのじょ}はピアニストだ。",
       "english": "She is a pianist.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19413_pianisuto_ex2",
       "japanese": "{有名|ゆうめい}なピアニストのコンサートに{行|い}った。",
       "english": "I went to a concert by a famous pianist.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,65 @@
       "id": "19413_pianisuto_ex3",
       "japanese": "{小|ちい}さいころからピアノを{習|なら}い、プロのピアニストを{目指|めざ}している。",
       "english": "Having studied piano since childhood, she aims to become a professional pianist.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "ピアニスト refers to a person who plays the piano, typically as a professional or serious performer. From English \"pianist.\" The word implies a high level of skill and is most often used for concert or recording artists rather than casual players.\n\nCOMMON COLLOCATIONS:\n- プロのピアニスト: professional pianist\n- ピアニストを{目指|めざ}す: to aspire to be a pianist\n- ピアニストとして{活躍|かつやく}する: to be active as a pianist\n- {天才|てんさい}ピアニスト: genius pianist\n\nSIMILAR WORDS:\n- {演奏者|えんそうしゃ}: performer, player (general term for any instrument)\n- {奏者|そうしゃ}: player (more formal, often in compounds like ピアノ{奏者|そうしゃ})\n- バイオリニスト: violinist\n- ギタリスト: guitarist",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25426_ensousha",
+      "reading": "えんそうしゃ",
+      "headword": "{演奏者|えんそうしゃ}",
+      "label": "performer, player"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06964_sousha",
+      "reading": "そうしゃ",
+      "headword": "{奏者|そうしゃ}",
+      "label": "player"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27286_baiorinisuto",
+      "reading": "ばいおりにすと",
+      "headword": "バイオリニスト",
+      "label": "violinist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28502_gitarisuto",
+      "reading": "ぎたりすと",
+      "headword": "ギタリスト",
+      "label": "guitarist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28509_furuutisuto",
+      "reading": "ふるーてぃすと",
+      "headword": "フルーティスト",
+      "label": "flutist"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     },
     "created": "2026-03-25T13:28:10Z",
-    "modified": "2026-03-25T13:28:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

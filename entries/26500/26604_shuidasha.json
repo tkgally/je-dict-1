@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Combines {首位|しゅい} (first place, top position) and {打者|だしゃ} (batter, hitter). A prestigious individual title in Japanese professional baseball ({日本|にほん}プロ{野球|やきゅう}), awarded to the player with the highest batting average who meets the minimum plate appearance requirement.\n\nCOMMON COLLOCATIONS:\n- {首位|しゅい}{打者|だしゃ}{争|あらそ}い: batting title race\n- {首位|しゅい}{打者|だしゃ}に{輝|かがや}く: to win the batting title\n- {首位|しゅい}{打者|だしゃ}を{獲得|かくとく}する: to capture the batting title\n- {通算|つうさん}{首位|しゅい}{打者|だしゃ}: career batting title count\n\nRELATED TERMS:\n- {打率|だりつ}: batting average\n- {本塁打|ほんるいだ}{王|おう}: home run king\n- {打点|だてん}{王|おう}: RBI leader\n- {最多|さいた}{安打|あんだ}: most hits",
-  "cross_references": [],
+  "notes": "Combines {首位|しゅい} (first place, top position) and {打者|だしゃ} (batter, hitter). A prestigious individual title in Japanese professional baseball ({日本|にほん}プロ{野球|やきゅう}), awarded to the player with the highest batting average who meets the minimum plate appearance requirement.\n\nCOMMON COLLOCATIONS:\n- {首位|しゅい}{打者|だしゃ}{争|あらそ}い: batting title race\n- {首位|しゅい}{打者|だしゃ}に{輝|かがや}く: to win the batting title\n- {首位|しゅい}{打者|だしゃ}を{獲得|かくとく}する: to capture the batting title\n- {通算|つうさん}{首位|しゅい}{打者|だしゃ}: career batting title count\n\nRELATED WORDS:\n- {打率|だりつ}: batting average\n- {本塁打|ほんるいだ}{王|おう}: home run king\n- {打点|だてん}{王|おう}: RBI leader\n- {最多|さいた}{安打|あんだ}: most hits",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07113_daritsu",
+      "reading": "だりつ",
+      "headword": "{打率|だりつ}",
+      "label": "batting average"
+    },
+    {
+      "type": "related",
+      "target_id": "29935_datenou",
+      "reading": "だてんおう",
+      "headword": "{打点|だてん}{王|おう}",
+      "label": "RBI leader"
+    },
+    {
+      "type": "related",
+      "target_id": "23383_saiyuushuusenshu",
+      "reading": "さいゆうしゅうせんしゅ",
+      "headword": "{最優秀選手|さいゆうしゅうせんしゅ}",
+      "label": "Most Valuable Player"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +83,6 @@
       "domain": []
     },
     "created": "2026-05-03T14:26:02Z",
-    "modified": "2026-05-03T14:26:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

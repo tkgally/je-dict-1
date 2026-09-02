@@ -3,7 +3,7 @@
   "headword": "{太|ふと}り{気味|ぎみ}",
   "reading": "ふとりぎみ",
   "romaji": "futorigimi",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "somewhat overweight; tending to be heavy; a bit chubby",
   "definitions": [
     {
@@ -45,6 +45,22 @@
     }
   ],
   "notes": "Composed of {太|ふと}り (the stem of {太|ふと}る, to gain weight) and {気味|ぎみ} (a suffix meaning \"tendency\" or \"somewhat\"). The ～{気味|ぎみ} pattern is productive and attaches to verb stems and nouns to indicate a slight tendency or mild state.\n\nUSAGE:\n- Functions as a na-adjective: {太|ふと}り{気味|ぎみ}だ / {太|ふと}り{気味|ぎみ}の + noun\n- The ～{気味|ぎみ} pattern softens the statement — it's less direct than {太|ふと}っている\n- Other common ～{気味|ぎみ} words: {風邪|かぜ}{気味|ぎみ} (coming down with a cold), {疲|つか}れ{気味|ぎみ} (somewhat tired), {遅|おく}れ{気味|ぎみ} (slightly behind schedule)\n\nCOMMON COLLOCATIONS:\n- {太|ふと}り{気味|ぎみ}の{体|からだ}: a slightly overweight body\n- {少|すこ}し{太|ふと}り{気味|ぎみ}: a little on the heavy side\n- {太|ふと}り{気味|ぎみ}になる: to start getting a bit heavy\n\nSIMILAR WORDS:\n- {太|ふと}っている: to be fat/overweight — more direct statement of current state\n- ぽっちゃり: plump, chubby — softer and more affectionate tone\n- {肥満|ひまん}: obesity — medical/formal term; much stronger\n- メタボ: metabolic syndrome — colloquial abbreviation; implies health concern",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13920_himan",
+      "reading": "ひまん",
+      "headword": "{肥満|ひまん}",
+      "label": "obesity"
+    },
+    {
+      "type": "related",
+      "target_id": "22574_koufungimi",
+      "reading": "こうふんぎみ",
+      "headword": "{興奮気味|こうふんぎみ}",
+      "label": "somewhat excited"
+    }
+  ],
   "metadata": {
     "entry_id": "21796_futorigimi",
     "schema_version": "2.0",
@@ -55,12 +71,13 @@
       "pos": [
         "adjective-na"
       ],
+      "politeness": "plain",
       "semantic": [
         "appearance"
       ],
       "register": [],
       "usage": []
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

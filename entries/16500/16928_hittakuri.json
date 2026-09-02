@@ -19,7 +19,9 @@
       "english": "I was the victim of a purse snatching.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16928_hittakuri_ex2",
@@ -27,7 +29,9 @@
       "english": "A snatch thief on a motorcycle grabbed my bag.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16928_hittakuri_ex3",
@@ -35,21 +39,42 @@
       "english": "Snatch thefts are frequent in this area, so please carry your bag on the side away from the road.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCan refer to both the crime itself and the person committing it. Derived from the verb ひったくる (to snatch away). A common street crime in urban areas, often committed by someone on a bicycle or motorcycle targeting pedestrians.\n\nCOMMON COLLOCATIONS:\n- ひったくりに{遭|あ}う (to be a victim of snatching)\n- ひったくり{被害|ひがい} (snatch theft damage/victimization)\n- ひったくり{犯|はん} (snatch thief — refers specifically to the criminal)\n- ひったくり{防止|ぼうし} (snatch theft prevention)\n\nSIMILAR WORDS:\n- スリ: pickpocketing — stealthily taking items from pockets or bags without the victim noticing\n- {置|お}き{引|び}き: theft of unattended belongings — taking bags or items left momentarily",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01330_suri",
+      "reading": "すり",
+      "headword": "すり",
+      "label": "pickpocketing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21576_okibiki",
+      "reading": "おきびき",
+      "headword": "{置|お}き{引|び}き",
+      "label": "theft of unattended belongings"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T02:13:04Z",
-    "modified": "2026-03-15T02:13:04Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

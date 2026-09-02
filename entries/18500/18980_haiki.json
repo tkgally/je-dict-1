@@ -16,7 +16,9 @@
       "id": "18980_haiki_ex1",
       "japanese": "{排気|はいき}ガスを{減|へ}らす。",
       "english": "To reduce exhaust emissions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "18980_haiki_ex2",
       "japanese": "トンネル{内|ない}の{排気|はいき}システムが{故障|こしょう}した。",
       "english": "The ventilation system inside the tunnel broke down.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "18980_haiki_ex3",
       "japanese": "この{車|くるま}の{排気量|はいきりょう}は2000ccだ。",
       "english": "This car has an engine displacement of 2000cc.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -45,19 +51,53 @@
       "reading": "はいき",
       "type": "homophone",
       "label": "disposal/discarding"
+    },
+    {
+      "type": "related",
+      "target_id": "04632_haishutsu",
+      "reading": "はいしゅつ",
+      "headword": "{排出|はいしゅつ}",
+      "label": "emission"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23691_soufuu",
+      "reading": "そうふう",
+      "headword": "{送風|そうふう}",
+      "label": "ventilation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23963_kyuuki",
+      "reading": "きゅうき",
+      "headword": "{吸気|きゅうき}",
+      "label": "inhalation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25377_haishutsusuru",
+      "reading": "はいしゅつする",
+      "headword": "{排出|はいしゅつ}する",
+      "label": "to emit"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"],
-      "domain": ["technical"]
+      "semantic": [
+        "transportation"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-03-23T12:08:34Z",
-    "modified": "2026-03-23T12:08:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

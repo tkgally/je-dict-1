@@ -17,7 +17,9 @@
       "id": "26722_koinyoubou_ex1",
       "japanese": "{彼|かれ}は{恋女房|こいにょうぼう}を{大切|たいせつ}にしている。",
       "english": "He treasures his beloved wife.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26722_koinyoubou_ex2",
       "japanese": "{恋女房|こいにょうぼう}と{二人|ふたり}で{小|ちい}さな{店|みせ}を{始|はじ}めた。",
       "english": "He started a small shop together with his beloved wife.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,44 @@
       "id": "26722_koinyoubou_ex3",
       "japanese": "{周囲|しゅうい}の{反対|はんたい}を{押|お}し{切|き}って{結婚|けっこん}した{恋女房|こいにょうぼう}と、もう30{年|ねん}になる。",
       "english": "It's been 30 years since I married my beloved wife against everyone's objections.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {恋|こい} (romantic love) and {女房|にょうぼう} (wife, somewhat old-fashioned). The word implies that the marriage was a love match ({恋愛結婚|れんあいけっこん}) as opposed to an arranged marriage ({見合|みあ}い{結婚|けっこん}). Has a warm, slightly nostalgic tone and is used more in narrative or literary contexts than everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {恋女房|こいにょうぼう}と{一緒|いっしょ}に: together with one's beloved wife\n- {恋女房|こいにょうぼう}を{めとる}: to take a beloved wife\n\nSIMILAR WORDS:\n- {愛妻|あいさい}: beloved wife — a more modern and common term\n- {女房|にょうぼう}: wife — the base word, somewhat old-fashioned/casual\n- {妻|つま}: wife — the standard neutral term\n- {奥|おく}さん: wife (of someone else) — polite everyday term",
-  "cross_references": [],
+  "notes": "Composed of {恋|こい} (romantic love) and {女房|にょうぼう} (wife, somewhat old-fashioned). The word implies that the marriage was a love match ({恋愛結婚|れんあいけっこん}) as opposed to an arranged marriage ({見合|みあ}い{結婚|けっこん}). Has a warm, slightly nostalgic tone and is used more in narrative or literary contexts than everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {恋女房|こいにょうぼう}と{一緒|いっしょ}に: together with one's beloved wife\n- {恋女房|こいにょうぼう}をめとる: to take a beloved wife\n\nSIMILAR WORDS:\n- {愛妻|あいさい}: beloved wife — a more modern and common term\n- {女房|にょうぼう}: wife — the base word, somewhat old-fashioned/casual\n- {妻|つま}: wife — the standard neutral term\n- {奥|おく}さん: wife (of someone else) — polite everyday term",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01005_tsuma",
+      "reading": "つま",
+      "headword": "{妻|つま}",
+      "label": "wife"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02853_okusan",
+      "reading": "おくさん",
+      "headword": "{奥|おく}さん",
+      "label": "wife"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["family", "emotion"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "family",
+        "emotion"
+      ]
     },
     "created": "2026-05-04T14:17:53Z",
-    "modified": "2026-05-04T14:17:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

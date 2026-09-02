@@ -21,7 +21,9 @@
       "id": "20543_tanpatsu_ex1",
       "japanese": "{単発|たんぱつ}のアルバイトを{探|さが}している。",
       "english": "I'm looking for a one-time part-time job.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -29,7 +31,9 @@
       "id": "20543_tanpatsu_ex2",
       "japanese": "このドラマは{連続|れんぞく}ではなく{単発|たんぱつ}だ。",
       "english": "This drama is a standalone, not a series.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -37,7 +41,9 @@
       "id": "20543_tanpatsu_ex3",
       "japanese": "{単発|たんぱつ}のイベントだったが、{好評|こうひょう}で{定期開催|ていきかいさい}になった。",
       "english": "It was a one-time event, but it was well received and became a regular event.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -45,7 +51,9 @@
       "id": "20543_tanpatsu_ex4",
       "japanese": "{単発|たんぱつ}エンジンの{小型機|こがたき}が{着陸|ちゃくりく}した。",
       "english": "A small single-engine aircraft landed.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -53,7 +61,9 @@
       "id": "20543_tanpatsu_ex5",
       "japanese": "この{銃|じゅう}は{単発|たんぱつ}で、{一発|いっぱつ}ずつ{装填|そうてん}する{必要|ひつよう}がある。",
       "english": "This gun is single-shot and needs to be loaded one round at a time.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -61,22 +71,59 @@
       "id": "20543_tanpatsu_ex6",
       "japanese": "{単発|たんぱつ}の{飛行機|ひこうき}は{双発機|そうはつき}より{燃費|ねんぴ}がいい。",
       "english": "Single-engine planes have better fuel efficiency than twin-engine ones.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {単|たん} (single) and {発|ぱつ} (emission, shot). Sense 1 is far more common in everyday use.\n\nCOMMON COLLOCATIONS:\n- {単発|たんぱつ}の{仕事|しごと}: one-time job\n- {単発|たんぱつ}ドラマ: standalone TV drama (not a series)\n- {単発|たんぱつ}のイベント: one-off event\n- {単発|たんぱつ}{講座|こうざ}: single-session course\n\nOPPOSITE:\n- {連続|れんぞく}: serial, continuous — the opposite of one-time\n- {連載|れんさい}: serialized — for publications\n\nSIMILAR WORDS:\n- {一回限|いっかいかぎ}り: one time only — emphasizes the limit\n- {一度|いちど}きり: only once — more emotional/emphatic",
+  "notes": "Composed of {単|たん} (single) and {発|ぱつ} (emission, shot). Sense 1 is far more common in everyday use.\n\nCOMMON COLLOCATIONS:\n- {単発|たんぱつ}の{仕事|しごと}: one-time job\n- {単発|たんぱつ}ドラマ: standalone TV drama (not a series)\n- {単発|たんぱつ}のイベント: one-off event\n- {単発|たんぱつ}{講座|こうざ}: single-session course\n\nSIMILAR WORDS:\n- {連続|れんぞく}: serial, continuous — the opposite of one-time\n- {連載|れんさい}: serialized — for publications\n- {一回限|いっかいかぎ}り: one time only — emphasizes the limit\n- {一度|いちど}きり: only once — more emotional/emphatic",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "03783_renzoku",
+      "reading": "れんぞく",
+      "headword": "{連続|れんぞく}",
+      "label": "serial, continuous"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14320_rensai",
+      "reading": "れんさい",
+      "headword": "{連載|れんさい}",
+      "label": "serialized"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20533_ikkaikagiri",
+      "reading": "いっかいかぎり",
+      "headword": "{一回限|いっかいかぎ}り",
+      "label": "one time only"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22058_ichidokiri",
+      "reading": "いちどきり",
+      "headword": "{一度|いちど}きり",
+      "label": "only once"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity"]
+      "semantic": [
+        "quantity"
+      ]
     },
     "created": "2026-03-29T17:09:28Z",
-    "modified": "2026-03-29T17:09:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

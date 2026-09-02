@@ -17,7 +17,9 @@
       "id": "22162_buyuu_ex1",
       "japanese": "{武勇|ぶゆう}に{優|すぐ}れた{武将|ぶしょう}。",
       "english": "A military commander of outstanding valor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22162_buyuu_ex2",
       "japanese": "{彼|かれ}の{武勇|ぶゆう}{伝|でん}は{今|いま}でも{語|かた}り{継|つ}がれている。",
       "english": "Tales of his martial valor are still handed down today.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "22162_buyuu_ex3",
       "japanese": "{戦国|せんごく}{時代|じだい}には、{武勇|ぶゆう}を{誇|ほこ}る{多|おお}くの{武士|ぶし}が{名|な}を{馳|は}せた。",
       "english": "During the Warring States period, many samurai who boasted martial valor made a name for themselves.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A literary word specifically about bravery in military or combat contexts. Combines {武|ぶ} (martial, military) and {勇|ゆう} (courage).\n\nCOMMON COLLOCATIONS:\n- {武勇|ぶゆう}{伝|でん}: tales of valor; heroic exploits\n- {武勇|ぶゆう}に{優|すぐ}れる: to be outstanding in martial valor\n- {武勇|ぶゆう}を{誇|ほこ}る: to boast martial prowess\n- {武勇|ぶゆう}を{示|しめ}す: to demonstrate bravery in battle\n\nSIMILAR WORDS:\n- {勇猛|ゆうもう}: brave and fierce — describes the quality of being both brave and aggressive\n- {勇敢|ゆうかん}: brave; courageous — more general courage, not limited to military contexts\n- {豪胆|ごうたん}: bold; daring — emphasizes fearlessness rather than martial skill\n- {武功|ぶこう}: military achievement — refers to specific accomplishments rather than the quality of bravery\n\nREGISTER:\nFormal and literary. Almost exclusively used in historical narratives, literature, and descriptions of samurai or military figures.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22154_yuumou",
+      "reading": "ゆうもう",
+      "headword": "{勇猛|ゆうもう}",
+      "label": "brave and fierce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07637_yuukan",
+      "reading": "ゆうかん",
+      "headword": "{勇敢|ゆうかん}",
+      "label": "brave"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22155_goutan",
+      "reading": "ごうたん",
+      "headword": "{豪胆|ごうたん}",
+      "label": "bold"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["personality", "history"]
+      "semantic": [
+        "personality",
+        "history"
+      ]
     },
     "created": "2026-04-05T04:06:00Z",
-    "modified": "2026-04-05T04:06:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

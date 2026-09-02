@@ -19,7 +19,9 @@
       "english": "It's hot today, so let's go with short sleeves.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15518_hansode_ex2",
@@ -27,7 +29,9 @@
       "english": "Short sleeves might be too cold.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15518_hansode_ex3",
@@ -35,7 +39,9 @@
       "english": "I was surprised to see people walking around in short sleeves even though it's only April.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{半袖|はんそで} is everyday clothing vocabulary. When discussing what to wear based on the weather or season, {半袖|はんそで} and {長袖|ながそで} are the standard pair.\n\nCOMMON COLLOCATIONS:\n- {半袖|はんそで}のシャツ (short-sleeved shirt)\n- {半袖|はんそで}Tシャツ (short-sleeved T-shirt)\n- {半袖|はんそで}で{出|で}かける (to go out in short sleeves)\n\nRELATED WORDS:\n- {長袖|ながそで}: long sleeves\n- {袖|そで}: sleeve\n- {袖|そで}なし: sleeveless",
@@ -47,17 +53,36 @@
       "note": "long sleeves"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23859_sodenashi",
+      "reading": "そでなし",
+      "headword": "{袖|そで}なし",
+      "label": "sleeveless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23421_natsufuku",
+      "reading": "なつふく",
+      "headword": "{夏服|なつふく}",
+      "label": "summer clothes"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T09:34:07Z",
-    "modified": "2026-05-01T07:30:21Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ]
     }
   }
 }

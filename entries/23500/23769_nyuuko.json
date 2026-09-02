@@ -3,7 +3,7 @@
   "headword": "{入庫|にゅうこ}",
   "reading": "にゅうこ",
   "romaji": "nyuuko",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "entering a garage/warehouse; stocking in; returning to depot",
   "definitions": [
     {
@@ -81,6 +81,29 @@
   ],
   "notes": "Compound of {入|にゅう} ('enter') and {庫|こ} ('storehouse; garage'). Functions as a する-verb: {入庫|にゅうこ}する. The direct antonym is {出庫|しゅっこ} ('stock out; leaving the depot').\n\nUSAGE:\nSense 1 is the logistics/retail meaning — very common in business contexts. Sense 2 is about vehicles returning to their base, common on station/bus-stop signage and announcements. Both uses are standard written and spoken Japanese within their respective domains; everyday conversation rarely uses this word outside workplace contexts.\n\nCOMMON COLLOCATIONS:\n- {入庫|にゅうこ}{予定|よてい}: scheduled to come into stock\n- {入庫|にゅうこ}{作業|さぎょう}: warehousing/stock-in work\n- {入庫|にゅうこ}{確認|かくにん}: stock-in confirmation\n- {入庫|にゅうこ}{処理|しょり}: stock-in processing (in inventory systems)\n- {車庫|しゃこ}に{入庫|にゅうこ}する: to return to the depot\n- {駐車場|ちゅうしゃじょう}に{入庫|にゅうこ}する: to enter a parking garage\n- {入庫|にゅうこ}{済|ず}み: already stocked in / already at the depot\n\nSIMILAR WORDS:\n- {出庫|しゅっこ}: stocking out; leaving the depot — direct antonym\n- {入荷|にゅうか}: receiving merchandise (the shipment arriving at a store) — closely related to sense 1, but emphasizes arrival rather than placement into storage\n- {納品|のうひん}: delivery of goods (to a customer/store) — from the supplier's side\n- {搬入|はんにゅう}: carrying in; bringing in (goods, equipment) — physical transport act\n\nTRANSITIVITY / PARTICLE PATTERNS:\n- Goods as subject: 〜が{入庫|にゅうこ}する ('goods come into stock')\n- With destination: 〜に{入庫|にゅうこ}する ('to enter/return to [warehouse/depot]')\n- Transitive: 〜を{入庫|にゅうこ}する ('to stock/warehouse [something]')",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07939_nyuuka",
+      "reading": "にゅうか",
+      "headword": "{入荷|にゅうか}",
+      "label": "receiving merchandise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05134_nouhin",
+      "reading": "のうひん",
+      "headword": "{納品|のうひん}",
+      "label": "delivery of goods"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16523_hannyuu",
+      "reading": "はんにゅう",
+      "headword": "{搬入|はんにゅう}",
+      "label": "carrying in"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -97,7 +120,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-14T19:10:35Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

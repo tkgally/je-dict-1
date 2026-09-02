@@ -17,7 +17,9 @@
       "id": "26528_kanseihirou_ex1",
       "japanese": "{映画|えいが}の{完成|かんせい}{披露|ひろう}{試写会|ししゃかい}が{開|ひら}かれた。",
       "english": "A premiere screening of the film was held.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26528_kanseihirou_ex2",
       "japanese": "{新|しん}ビルの{完成|かんせい}{披露|ひろう}パーティーに{招待|しょうたい}された。",
       "english": "I was invited to the completion unveiling party for the new building.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,44 @@
       "id": "26528_kanseihirou_ex3",
       "japanese": "{監督|かんとく}と{主演|しゅえん}{俳優|はいゆう}が{完成|かんせい}{披露|ひろう}{舞台挨拶|ぶたいあいさつ}に{登壇|とうだん}した。",
       "english": "The director and lead actor appeared at the premiere stage greeting.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {完成|かんせい} (completion) and {披露|ひろう} (public announcement; unveiling). Most frequently used in the entertainment industry for film and drama premieres.\n\nCOMMON COLLOCATIONS:\n- {完成|かんせい}{披露|ひろう}{試写会|ししゃかい}: premiere screening\n- {完成|かんせい}{披露|ひろう}{上映|じょうえい}: premiere showing\n- {完成|かんせい}{披露|ひろう}{舞台挨拶|ぶたいあいさつ}: premiere stage greeting\n- {完成|かんせい}{披露|ひろう}{記者会見|きしゃかいけん}: premiere press conference\n\nSIMILAR WORDS:\n- {初公開|はつこうかい}: first public showing — more general, used for any type of first reveal\n- お{披露目|ひろめ}: debut; unveiling — broader, used for introducing people, products, and events\n- プレミア{上映|じょうえい}: premiere screening (loanword) — the film industry loanword alternative",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18413_hatsukoukai",
+      "reading": "はつこうかい",
+      "headword": "{初公開|はつこうかい}",
+      "label": "first public showing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19095_ohirome",
+      "reading": "おひろめ",
+      "headword": "お{披露目|ひろめ}",
+      "label": "debut"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["entertainment"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "entertainment"
+      ]
     },
     "created": "2026-05-02T14:35:20Z",
-    "modified": "2026-05-02T14:35:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

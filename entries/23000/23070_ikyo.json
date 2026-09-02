@@ -3,7 +3,7 @@
   "headword": "{依拠|いきょ}",
   "reading": "いきょ",
   "romaji": "ikyo",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reliance; dependence; basing on",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "A formal compound of {依|い} (rely on) + {拠|きょ} (basis/grounds). Almost exclusively used in written, academic, and legal contexts.\n\nCOMMON COLLOCATIONS:\n- 〜に{依拠|いきょ}する: to be based on, to rely on\n- 〜に{依拠|いきょ}して: based on, relying on\n- {法律|ほうりつ}に{依拠|いきょ}する: to be based on law\n- {先行研究|せんこうけんきゅう}に{依拠|いきょ}する: to rely on previous research\n\nSIMILAR WORDS:\n- {基|もと}づく: to be based on — the standard everyday expression\n- {準拠|じゅんきょ}: conformity, compliance — basing on standards or rules\n- {根拠|こんきょ}: basis, grounds — the foundation itself (not the act of relying)\n- {依存|いぞん}: dependence — relying on something, often with negative connotation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02315_motozuku",
+      "reading": "もとづく",
+      "headword": "{基|もと}づく",
+      "label": "to be based on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15811_junkyo",
+      "reading": "じゅんきょ",
+      "headword": "{準拠|じゅんきょ}",
+      "label": "conformity, compliance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10147_konkyo",
+      "reading": "こんきょ",
+      "headword": "{根拠|こんきょ}",
+      "label": "basis, grounds"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11441_izon",
+      "reading": "いぞん",
+      "headword": "{依存|いぞん}",
+      "label": "dependence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-08T17:34:49Z",
-    "modified": "2026-04-08T17:34:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

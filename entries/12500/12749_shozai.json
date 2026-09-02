@@ -19,7 +19,9 @@
       "english": "The whereabouts of the criminal are unknown.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12749_shozai_ex2",
@@ -27,7 +29,9 @@
       "english": "To clarify where the responsibility lies.",
       "notes": "{責任|せきにん}の{所在|しょざい} is a set phrase meaning 'where responsibility lies.'",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12749_shozai_ex3",
@@ -35,21 +39,42 @@
       "english": "Police are continuing their investigation to confirm the whereabouts of the missing person.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{所在|しょざい} is a formal word for location or whereabouts. It is frequently used in official, legal, and investigative contexts.\n\nCOMMON COLLOCATIONS:\n- {所在|しょざい}{地|ち}: location, address (of a building or office)\n- {所在|しょざい}を{確認|かくにん}する: to confirm the whereabouts\n- {所在|しょざい}が{不明|ふめい}: whereabouts unknown\n- {責任|せきにん}の{所在|しょざい}: where responsibility lies\n- {所在|しょざい}なさげ: looking bored, having nothing to do\n\nNOTE: The expression {所在|しょざい}ない / {所在|しょざい}なさげ means 'restless, bored, having nothing to do' — an idiomatic usage unrelated to the main meaning of 'location.'",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04082_yukue",
+      "reading": "ゆくえ",
+      "headword": "{行方|ゆくえ}",
+      "label": "whereabouts, destination"
+    },
+    {
+      "type": "related",
+      "target_id": "09891_ichisuru",
+      "reading": "いちする",
+      "headword": "{位置|いち}する",
+      "label": "to be located"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T09:59:56Z",
-    "modified": "2026-08-22T00:30:21Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

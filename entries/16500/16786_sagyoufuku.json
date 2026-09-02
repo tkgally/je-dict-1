@@ -19,7 +19,9 @@
       "english": "I changed into my work clothes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16786_sagyoufuku_ex2",
@@ -27,7 +29,9 @@
       "english": "Everyone at the factory must wear work uniforms.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16786_sagyoufuku_ex3",
@@ -35,7 +39,9 @@
       "english": "I put my dirty work clothes in the washing machine and took a shower.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nIn Japan, many companies provide {作業服|さぎょうふく} to employees working in manufacturing, construction, and similar fields. The term also applies to the distinctive blue or gray uniforms commonly seen at Japanese factories.\n\nCOMMON COLLOCATIONS:\n- {作業服|さぎょうふく}を{着|き}る (to wear work clothes)\n- {作業服|さぎょうふく}に{着替|きが}える (to change into work clothes)\n- {作業服|さぎょうふく}のまま (still in one's work clothes)",
@@ -53,18 +59,37 @@
       "reading": "せいふく",
       "headword": "{制服|せいふく}",
       "label": "uniform (school/office)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24135_sagyougi",
+      "reading": "さぎょうぎ",
+      "headword": "{作業着|さぎょうぎ}",
+      "label": "work clothes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24176_bougofuku",
+      "reading": "ぼうごふく",
+      "headword": "{防護服|ぼうごふく}",
+      "label": "protective suit"
     }
   ],
   "metadata": {
     "created": "2026-03-14T10:32:03Z",
-    "modified": "2026-05-05T04:05:07Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing", "work"]
+      "semantic": [
+        "clothing",
+        "work"
+      ]
     }
   }
 }

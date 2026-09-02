@@ -17,7 +17,9 @@
       "id": "25473_sorairo_ex1",
       "japanese": "{空色|そらいろ}のワンピースを{着|き}た。",
       "english": "I wore a sky-blue dress.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25473_sorairo_ex2",
       "japanese": "{壁|かべ}を{空色|そらいろ}に{塗|ぬ}り{替|か}えた。",
       "english": "I repainted the wall sky blue.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,59 @@
       "id": "25473_sorairo_ex3",
       "japanese": "{窓|まど}から{見|み}える{空色|そらいろ}のグラデーションが{美|うつく}しく、しばらく{見|み}とれていた。",
       "english": "The gradation of sky blue visible from the window was so beautiful that I gazed at it for a while.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {空|そら} (sky) and {色|いろ} (color). One of the traditional Japanese color names ({和色|わしょく}), referring to the clear light blue of a fair-weather sky. It can function as an adjective with の (e.g., {空色|そらいろ}の{花|はな}).\n\nCOMMON COLLOCATIONS:\n- {空色|そらいろ}の{花|はな}: sky-blue flowers\n- {空色|そらいろ}の{目|め}: sky-blue eyes\n- {空色|そらいろ}に{染|そ}まる: to be dyed sky blue\n\nSIMILAR WORDS:\n- {水色|みずいろ}: light blue — very similar shade; {水色|みずいろ} is the more common everyday term for light blue\n- {青|あお}: blue — the general term for blue; covers a wider range of shades\n- {紺色|こんいろ}: dark blue; navy — a much darker blue than {空色|そらいろ}\n- {藍色|あいいろ}: indigo — a deep blue-purple traditional color",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15336_mizuiro",
+      "reading": "みずいろ",
+      "headword": "{水色|みずいろ}",
+      "label": "light blue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02841_ao",
+      "reading": "あお",
+      "headword": "{青|あお}",
+      "label": "blue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13792_koniro",
+      "reading": "こんいろ",
+      "headword": "{紺色|こんいろ}",
+      "label": "dark blue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15519_aiiro",
+      "reading": "あいいろ",
+      "headword": "{藍色|あいいろ}",
+      "label": "indigo"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["color", "nature"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "color",
+        "nature"
+      ]
     },
     "created": "2026-04-25T14:15:30Z",
-    "modified": "2026-04-25T14:15:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

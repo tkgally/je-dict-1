@@ -3,7 +3,7 @@
   "headword": "{発葉|はつよう}",
   "reading": "はつよう",
   "romaji": "hatsuyou",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "leafing out; putting out leaves",
   "definitions": [
     {
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A botanical term composed of {発|はつ} (emergence, development) and {葉|よう} (leaf). Describes the phenological event of trees and plants producing new leaves, particularly relevant in seasonal climate zones like Japan where the change from bare branches to green foliage marks the arrival of spring.\n\nCOMMON COLLOCATIONS:\n- {発葉|はつよう}{時期|じき}: leafing-out season\n- {発葉|はつよう}が{早|はや}い: early leafing out\n- {発葉|はつよう}が{遅|おく}れる: delayed leafing out\n- {発葉|はつよう}{前|まえ}: before leafing out\n\nRELATED TERMS:\n- {落葉|らくよう}: leaf fall, defoliation — the opposite seasonal process\n- {新緑|しんりょく}: fresh green leaves — the visual result of leafing out\n- {芽吹|めぶ}き: budding, sprouting — the earlier stage before full leaf emergence",
-  "cross_references": [],
+  "notes": "A botanical term composed of {発|はつ} (emergence, development) and {葉|よう} (leaf). Describes the phenological event of trees and plants producing new leaves, particularly relevant in seasonal climate zones like Japan where the change from bare branches to green foliage marks the arrival of spring.\n\nCOMMON COLLOCATIONS:\n- {発葉|はつよう}{時期|じき}: leafing-out season\n- {発葉|はつよう}が{早|はや}い: early leafing out\n- {発葉|はつよう}が{遅|おく}れる: delayed leafing out\n- {発葉|はつよう}{前|まえ}: before leafing out\n\nRELATED WORDS:\n- {落葉|らくよう}: leaf fall, defoliation — the opposite seasonal process\n- {新緑|しんりょく}: fresh green leaves — the visual result of leafing out\n- {芽吹|めぶ}き: budding, sprouting — the earlier stage before full leaf emergence",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17301_rakuyou",
+      "reading": "らくよう",
+      "headword": "{落葉|らくよう}",
+      "label": "leaf fall, defoliation"
+    },
+    {
+      "type": "related",
+      "target_id": "12724_shinryoku",
+      "reading": "しんりょく",
+      "headword": "{新緑|しんりょく}",
+      "label": "fresh green leaves"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -65,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-04T15:34:46Z",
-    "modified": "2026-05-04T15:34:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

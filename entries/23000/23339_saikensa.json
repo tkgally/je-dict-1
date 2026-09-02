@@ -3,7 +3,7 @@
   "headword": "{再検査|さいけんさ}",
   "reading": "さいけんさ",
   "romaji": "saikensa",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reexamination; retest; follow-up medical test",
   "definitions": [
     {
@@ -56,6 +56,22 @@
   ],
   "notes": "Composed of the prefix {再|さい} (again, re-) + {検査|けんさ} (inspection, examination, test). Appears most frequently in the medical phrase {再検査|さいけんさ}を{受|う}ける (to undergo a follow-up test), since Japanese annual health check-ups routinely flag borderline values and ask the patient to come back for confirmation.\n\nCOMMON COLLOCATIONS:\n- {再検査|さいけんさ}を{受|う}ける: to undergo a follow-up test\n- {再検査|さいけんさ}が{必要|ひつよう}だ: a follow-up test is needed\n- {再検査|さいけんさ}を{受|う}けるよう{指示|しじ}する: to instruct (someone) to undergo a follow-up test\n- {再検査|さいけんさ}{通知|つうち}: notice of the need for a follow-up test\n- {血液|けつえき}の{再検査|さいけんさ}: a follow-up blood test\n\nVERBAL USE:\nThe word can take する to act as a verb: {再検査|さいけんさ}する — to reexamine, to retest. In that form, the subject is the one doing the checking: {医者|いしゃ}が{数値|すうち}を{再検査|さいけんさ}した (the doctor retested the values). In patient-side usage the passive-like {再検査|さいけんさ}を{受|う}ける is much more common.\n\nSIMILAR WORDS:\n- {精密|せいみつ}{検査|けんさ}: detailed examination / thorough test — a more in-depth follow-up, usually ordered when the initial screening shows a clear problem.\n- {追加|ついか}{検査|けんさ}: additional test — tests added on top of what was originally planned, not necessarily a redo.\n- {再診|さいしん}: a return visit to the doctor — refers to the appointment itself, not to the test.\n\nUSAGE:\nBeyond medicine, you will encounter the word in quality control (factory inspections, food safety), academic contexts (retaking a test), and engineering (retesting equipment). In all these uses, it keeps the core sense of \"checking again.\"",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20629_seimitsukensa",
+      "reading": "せいみつけんさ",
+      "headword": "{精密検査|せいみつけんさ}",
+      "label": "detailed examination / thorough test"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23254_saishin",
+      "reading": "さいしん",
+      "headword": "{再診|さいしん}",
+      "label": "a return visit to the doctor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -72,7 +88,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-11T18:35:57Z",
-    "modified": "2026-04-11T18:35:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

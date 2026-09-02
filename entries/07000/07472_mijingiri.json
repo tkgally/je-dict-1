@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\nみじん ({微塵|みじん}, tiny particles) + {切|ぎ}り (cutting)\n\nLiterally \"cutting into tiny particles\" - the smallest common cutting style in Japanese cuisine.\n\nCUTTING TECHNIQUE:\nIngredients are cut into very small pieces (1-2mm), creating a uniform, fine texture. Often used for aromatics like garlic, ginger, and onions, or for ingredients that need to be invisible in the final dish.\n\nCOMMON INGREDIENTS:\n・{玉|たま}ねぎ - onion\n・にんにく - garlic\n・しょうが - ginger\n・パセリ - parsley\n・セロリ - celery\n・{人参|にんじん} - carrot\n\nCOMMON PATTERN:\n「〜をみじん{切|ぎ}りにする」 - to mince ~\n\nRELATED CUTTING TERMS:\n・{千切|せんぎ}り - julienne\n・{角切|かくぎ}り - diced\n・{薄切|うすぎ}り - thinly sliced\n・{乱切|らんぎ}り - irregular cut",
+  "notes": "ETYMOLOGY:\nみじん ({微塵|みじん}, tiny particles) + {切|ぎ}り (cutting)\n\nLiterally \"cutting into tiny particles\" - the smallest common cutting style in Japanese cuisine.\n\nCUTTING TECHNIQUE:\nIngredients are cut into very small pieces (1-2mm), creating a uniform, fine texture. Often used for aromatics like garlic, ginger, and onions, or for ingredients that need to be invisible in the final dish.\n\nCOMMON INGREDIENTS:\n- {玉|たま}ねぎ - onion\n- にんにく - garlic\n- しょうが - ginger\n- パセリ - parsley\n- セロリ - celery\n- {人参|にんじん} - carrot\n\nCOMMON PATTERN:\n「〜をみじん{切|ぎ}りにする」 - to mince ~\n\nRELATED CUTTING TERMS:\n- {千切|せんぎ}り - julienne\n- {角切|かくぎ}り - diced\n- {薄切|うすぎ}り - thinly sliced\n- {乱切|らんぎ}り - irregular cut",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,32 @@
       "headword": "{千切|せんぎ}り",
       "label": "julienne cut",
       "target_id": "07473_sengiri"
+    },
+    {
+      "type": "related",
+      "target_id": "08086_kakugiri",
+      "reading": "かくぎり",
+      "headword": "{角切|かくぎ}り",
+      "label": "diced"
+    },
+    {
+      "type": "related",
+      "target_id": "07475_usugiri",
+      "reading": "うすぎり",
+      "headword": "{薄切|うすぎ}り",
+      "label": "thinly sliced"
+    },
+    {
+      "type": "related",
+      "target_id": "08067_rangiri",
+      "reading": "らんぎり",
+      "headword": "{乱切|らんぎ}り",
+      "label": "irregular cut"
     }
   ],
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-08-10T18:29:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +81,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "cooking"
       ],

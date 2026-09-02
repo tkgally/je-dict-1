@@ -17,7 +17,9 @@
       "id": "23323_orikaeshiunten_ex1",
       "japanese": "{事故|じこ}のため{折返|おりかえ}し{運転|うんてん}となっている。",
       "english": "Due to the accident, the line is running on shuttle operation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23323_orikaeshiunten_ex2",
       "japanese": "{大雨|おおあめ}で{一部|いちぶ}{区間|くかん}が{折返|おりかえ}し{運転|うんてん}になった。",
       "english": "Due to the heavy rain, part of the line went to shuttle operation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23323_orikaeshiunten_ex3",
       "japanese": "{東京|とうきょう}{駅|えき}から{品川|しながわ}{駅|えき}までの{折返|おりかえ}し{運転|うんてん}が{続|つづ}いている。",
       "english": "Shuttle service is continuing between Tokyo Station and Shinagawa Station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,44 @@
       "id": "23323_orikaeshiunten_ex4",
       "japanese": "{信号|しんごう}{故障|こしょう}の{影響|えいきょう}で、{新宿|しんじゅく}{駅|えき}での{折返|おりかえ}し{運転|うんてん}を{実施|じっし}しています。",
       "english": "Due to a signal malfunction, we are operating shuttle service turning back at Shinjuku Station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {折返|おりかえ}し (turning back, U-turn) + {運転|うんてん} (operation). A standard railway-announcement term in Japan used when a portion of a line is blocked and trains cannot run through to the normal terminus. Trains are instead operated back and forth between an intermediate station and one endpoint.\n\nCOMMON COLLOCATIONS:\n- {折返|おりかえ}し{運転|うんてん}を{実施|じっし}する: to operate shuttle service\n- {折返|おりかえ}し{運転|うんてん}となる: to go to shuttle operation\n- {折返|おりかえ}し{運転|うんてん}{区間|くかん}: section under shuttle operation\n- {折返|おりかえ}し{運転|うんてん}{中|ちゅう}: currently operating shuttle service\n\nRELATED TERMS:\n- {運休|うんきゅう}: service suspension — no trains running at all\n- {間引|まび}き{運転|うんてん}: reduced service — fewer trains, not a turnback\n- {直通|ちょくつう}{運転|うんてん}: through operation — the normal, full-route operation; the opposite concept\n- {平常|へいじょう}{運転|うんてん}: normal operation — the baseline\n\nUSAGE:\nHeard frequently in Japanese train-line status updates (\"{山手線|やまのてせん}は{折返|おりかえ}し{運転|うんてん}を{実施|じっし}しています\"). Passengers may need to change trains or use alternative routes beyond the turnback point.",
+  "notes": "Composed of {折返|おりかえ}し (turning back, U-turn) + {運転|うんてん} (operation). A standard railway-announcement term in Japan used when a portion of a line is blocked and trains cannot run through to the normal terminus. Trains are instead operated back and forth between an intermediate station and one endpoint.\n\nCOMMON COLLOCATIONS:\n- {折返|おりかえ}し{運転|うんてん}を{実施|じっし}する: to operate shuttle service\n- {折返|おりかえ}し{運転|うんてん}となる: to go to shuttle operation\n- {折返|おりかえ}し{運転|うんてん}{区間|くかん}: section under shuttle operation\n- {折返|おりかえ}し{運転|うんてん}{中|ちゅう}: currently operating shuttle service\n\nRELATED WORDS:\n- {運休|うんきゅう}: service suspension — no trains running at all\n- {間引|まび}き{運転|うんてん}: reduced service — fewer trains, not a turnback\n- {直通|ちょくつう}{運転|うんてん}: through operation — the normal, full-route operation; the opposite concept\n- {平常|へいじょう}{運転|うんてん}: normal operation — the baseline\n\nUSAGE:\nHeard frequently in Japanese train-line status updates (\"{山手線|やまのてせん}は{折返|おりかえ}し{運転|うんてん}を{実施|じっし}しています\"). Passengers may need to change trains or use alternative routes beyond the turnback point.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06807_unkyuu",
+      "reading": "うんきゅう",
+      "headword": "{運休|うんきゅう}",
+      "label": "service suspension"
+    },
+    {
+      "type": "related",
+      "target_id": "23320_mabikiunten",
+      "reading": "まびきうんてん",
+      "headword": "{間引|まび}き{運転|うんてん}",
+      "label": "reduced service"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-04-11T17:04:08Z",
-    "modified": "2026-04-11T17:04:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

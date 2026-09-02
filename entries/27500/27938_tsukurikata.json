@@ -17,7 +17,9 @@
       "id": "27938_tsukurikata_ex1",
       "japanese": "カレーの{作|つく}り{方|かた}を{習|なら}う。",
       "english": "I learn how to make curry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27938_tsukurikata_ex2",
       "japanese": "この{箱|はこ}の{作|つく}り{方|かた}は{簡単|かんたん}だ。",
       "english": "The way to make this box is simple.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,60 @@
       "id": "27938_tsukurikata_ex3",
       "japanese": "{動画|どうが}を{見|み}れば、{基本|きほん}の{作|つく}り{方|かた}がよくわかる。",
       "english": "If you watch the video, the basic method is easy to understand.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The verb {作|つく}る (to make) plus 〜{方|かた} (way of doing). This 〜{方|かた} pattern attaches to a verb stem to mean \"the way of ~ing.\"\n\nCOMMON COLLOCATIONS:\n- {料理|りょうり}の{作|つく}り{方|かた}: how to cook a dish; recipe\n- {作|つく}り{方|かた}を{教|おし}える: to teach how to make something\n\nSIMILAR WORDS:\n- レシピ: recipe — specifically for food, listing ingredients and steps\n- {使|つか}い{方|かた}: how to use — same 〜{方|かた} pattern with {使|つか}う\n- {方法|ほうほう}: method — more abstract and formal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07157_reshipi",
+      "reading": "れしぴ",
+      "headword": "レシピ",
+      "label": "recipe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07797_tsukaikata",
+      "reading": "つかいかた",
+      "headword": "{使|つか}い{方|かた}",
+      "label": "how to use"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03621_houhou",
+      "reading": "ほうほう",
+      "headword": "{方法|ほうほう}",
+      "label": "method"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26096_ryourihou",
+      "reading": "りょうりほう",
+      "headword": "{料理法|りょうりほう}",
+      "label": "cooking method"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["general", "cooking"],
+      "politeness": "plain",
+      "semantic": [
+        "general",
+        "cooking"
+      ],
       "domain": []
     },
     "created": "2026-05-23T03:06:48Z",
-    "modified": "2026-05-23T03:06:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

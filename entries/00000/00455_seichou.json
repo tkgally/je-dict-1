@@ -2,7 +2,7 @@
   "id": "00455_seichou",
   "headword": "{生長|せいちょう}",
   "reading": "せいちょう",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "growth (of plants/organisms)",
   "conjugation": {
     "type": "suru",
@@ -141,11 +141,32 @@
       "headword": "{成長|せいちょう}",
       "label": "growth (general)",
       "target_id": "03290_seichou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25326_hatsuiku",
+      "reading": "はついく",
+      "headword": "{発育|はついく}",
+      "label": "growth and development"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03559_hattatsu",
+      "reading": "はったつ",
+      "headword": "{発達|はったつ}",
+      "label": "development"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22487_seiiku",
+      "reading": "せいいく",
+      "headword": "{生育|せいいく}",
+      "label": "growth"
     }
   ],
   "metadata": {
     "created": "2026-01-12T23:49:28Z",
-    "modified": "2026-05-11T15:21:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

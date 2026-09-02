@@ -3,7 +3,7 @@
   "headword": "{人型|ひとがた}",
   "reading": "ひとがた",
   "romaji": "hitogata",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "humanoid; human-shaped; human figure",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Describes something built or drawn in the shape of a human. Most often seen in compounds, especially {人型|ひとがた}ロボット.\n\nCOMMON COLLOCATIONS:\n- {人型|ひとがた}ロボット: humanoid robot\n- {人型|ひとがた}の{生|い}き{物|もの}: a human-shaped creature\n- {人型|ひとがた}をしている: to be shaped like a human\n\nSIMILAR WORDS:\n- ヒューマノイド: humanoid — a loanword used mainly for human-like robots\n- {人形|にんぎょう}: doll; figure — a physical doll or figurine, read differently and not used for shape in general",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29684_hyuumanoido",
+      "reading": "ひゅーまのいど",
+      "headword": "ヒューマノイド",
+      "label": "humanoid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01487_ningyou",
+      "reading": "にんぎょう",
+      "headword": "{人形|にんぎょう}",
+      "label": "doll"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,13 +70,13 @@
         "adjective-no"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "appearance"
       ],
       "domain": []
     },
     "created": "2026-07-05T03:18:57Z",
-    "modified": "2026-07-05T03:18:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

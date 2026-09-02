@@ -2,7 +2,7 @@
   "id": "03043_kashidashi",
   "headword": "{貸出|かしだし}",
   "reading": "かしだし",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "lending, loan",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{貸出|かしだし} is a compound noun from ⟦{貸|か}す→貸す：00537_kasu⟧ (to lend) + ⟦{出|だ}す→出す：01087_dasu⟧ (to put out).\n\nCOMMON COMPOUNDS:\n- {貸出|かしだし}⟦{中|ちゅう}→〜中：09840_chuu⟧ (currently on loan)\n- {貸出|かしだし}⟦{期間|きかん}→期間：00229_kikan⟧ (lending period)\n- {貸出|かしだし}⟦カード→カード：03836_kaado⟧ (library card)\n- {貸出|かしだし}⟦{冊数|さっすう}→冊数：27985_sassuu⟧ (number of books that can be borrowed)\n\nUSAGE NOTES:\n- Most commonly used in library contexts\n- Also used for equipment rental in offices\n\nRELATED WORDS:\n- ⟦{返却|へんきゃく}→返却：03149_henkyaku⟧ (return) - antonym\n- ⟦{貸|か}す→貸す：00537_kasu⟧ (to lend) - base verb\n- ⟦{借|か}りる→借りる：00532_kariru⟧ (to borrow) - opposite action",
+  "notes": "{貸出|かしだし} is a compound noun from ⟦{貸|か}す→貸す：00537_kasu⟧ (to lend) + ⟦{出|だ}す→出す：01087_dasu⟧ (to put out).\n\nCOMPOUNDS:\n- {貸出|かしだし}⟦{中|ちゅう}→〜中：09840_chuu⟧ (currently on loan)\n- {貸出|かしだし}⟦{期間|きかん}→期間：00229_kikan⟧ (lending period)\n- {貸出|かしだし}⟦カード→カード：03836_kaado⟧ (library card)\n- {貸出|かしだし}⟦{冊数|さっすう}→冊数：27985_sassuu⟧ (number of books that can be borrowed)\n\nUSAGE:\n- Most commonly used in library contexts\n- Also used for equipment rental in offices\n\nRELATED WORDS:\n- ⟦{返却|へんきゃく}→返却：03149_henkyaku⟧ (return) - antonym\n- ⟦{貸|か}す→貸す：00537_kasu⟧ (to lend) - base verb\n- ⟦{借|か}りる→借りる：00532_kariru⟧ (to borrow) - opposite action",
   "cross_references": [
     {
       "type": "antonym",
@@ -155,11 +155,25 @@
       "reading": "かりいれ",
       "headword": "{借入|かりいれ}",
       "label": "borrowing"
+    },
+    {
+      "type": "related",
+      "target_id": "00532_kariru",
+      "reading": "かりる",
+      "headword": "{借|か}りる",
+      "label": "to borrow"
+    },
+    {
+      "type": "related",
+      "target_id": "00580_toshokan",
+      "reading": "としょかん",
+      "headword": "{図書館|としょかん}",
+      "label": "library"
     }
   ],
   "metadata": {
     "created": "2026-01-11T11:12:00Z",
-    "modified": "2026-08-12T06:29:54Z",
+    "modified": "2026-09-02T03:02:30Z",
     "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",

@@ -19,7 +19,9 @@
       "english": "I signed up for non-life insurance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20874_songaihoken_ex2",
@@ -27,7 +29,9 @@
       "english": "Auto insurance is a type of non-life insurance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20874_songaihoken_ex3",
@@ -35,21 +39,50 @@
       "english": "Since we suffered typhoon damage, we started the claim process for our property insurance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Often abbreviated to {損保|そんぽ} in everyday use and company names (e.g., {損保|そんぽ}ジャパン). This is one of the two major categories of insurance in Japan, the other being {生命保険|せいめいほけん} (life insurance, abbreviated {生保|せいほ}).\n\nCOMMON COLLOCATIONS:\n- {損害保険|そんがいほけん}に{加入|かにゅう}する: to sign up for non-life insurance\n- {損害保険|そんがいほけん}{会社|がいしゃ}: non-life insurance company\n- {損害保険|そんがいほけん}の{請求|せいきゅう}: insurance claim\n- {損害保険|そんがいほけん}{料|りょう}: insurance premium\n\nTYPES OF {損害保険|そんがいほけん}:\n- {自動車|じどうしゃ}{保険|ほけん}: auto insurance\n- {火災|かさい}{保険|ほけん}: fire insurance\n- {地震|じしん}{保険|ほけん}: earthquake insurance\n- {賠償|ばいしょう}{責任|せきにん}{保険|ほけん}: liability insurance\n\nSIMILAR WORDS:\n- {生命保険|せいめいほけん}: life insurance — covers death, illness, and other personal risks\n- {損保|そんぽ}: abbreviation of {損害保険|そんがいほけん}",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18637_seimeihoken",
+      "reading": "せいめいほけん",
+      "headword": "{生命|せいめい}{保険|ほけん}",
+      "label": "life insurance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20282_kasaihoken",
+      "reading": "かさいほけん",
+      "headword": "{火災保険|かさいほけん}",
+      "label": "fire insurance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26400_jidoushahoken",
+      "reading": "じどうしゃほけん",
+      "headword": "{自動車|じどうしゃ}{保険|ほけん}",
+      "label": "car insurance"
+    }
+  ],
   "metadata": {
     "created": "2026-03-30T19:10:06Z",
-    "modified": "2026-03-30T19:10:06Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["finance", "society"]
+      "semantic": [
+        "finance",
+        "society"
+      ]
     }
   }
 }

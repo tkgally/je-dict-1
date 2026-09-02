@@ -19,7 +19,9 @@
       "english": "Please add an honorific title in the letter.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17543_keishou_ex2",
@@ -27,7 +29,9 @@
       "english": "Japanese has various honorific titles.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17543_keishou_ex3",
@@ -35,7 +39,9 @@
       "english": "Even if it says 'titles omitted' in an email, you should use honorific titles with someone for the first time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nIn Japanese, {敬称|けいしょう} covers name suffixes like さん, {様|さま}, {君|くん}, ちゃん, {先生|せんせい}, and {殿|どの}. The phrase {敬称|けいしょう}{略|りゃく} (\"titles omitted\") appears on letters, invitations, or lists where honorifics are intentionally left off for brevity.\n\nCOMMON COLLOCATIONS:\n- {敬称|けいしょう}をつける (to add an honorific title)\n- {敬称|けいしょう}{略|りゃく} (titles omitted)\n- {敬称|けいしょう}を{省|はぶ}く (to omit honorific titles)\n\nSIMILAR WORDS:\n- {呼称|こしょう}: form of address — broader, includes any way of addressing someone\n- {称号|しょうごう}: title, designation — for formal titles like academic degrees or ranks\n- {肩書|かたが}き: title, position — for job titles and official positions",
@@ -46,18 +52,36 @@
       "reading": "かたがき",
       "headword": "{肩書|かたが}き",
       "label": "job title, position"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12126_koshou",
+      "reading": "こしょう",
+      "headword": "{呼称|こしょう}",
+      "label": "form of address"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26506_shouji",
+      "reading": "しょうじ",
+      "headword": "{称辞|しょうじ}",
+      "label": "words of praise"
     }
   ],
   "metadata": {
     "created": "2026-03-18T08:07:14Z",
-    "modified": "2026-05-06T09:07:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

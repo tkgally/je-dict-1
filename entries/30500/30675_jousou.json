@@ -2,7 +2,7 @@
   "id": "30675_jousou",
   "headword": "{上奏|じょうそう}",
   "reading": "じょうそう",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "report to the throne; memorial to the emperor",
   "definitions": [
     {
@@ -45,6 +45,22 @@
   ],
   "notes": "{上|じょう} (upward) + {奏|そう} (to report to a superior). Used as a noun and with する.\n\nCOMMON COLLOCATIONS:\n- {上奏|じょうそう}する: to report to the throne\n- {上奏文|じょうそうぶん}: a written memorial to the emperor\n- {上奏|じょうそう}{権|けん}: the right to report directly to the emperor\n\nSIMILAR WORDS:\n- {奏上|そうじょう}: the same act, with the characters reversed; interchangeable in most contexts\n- {報告|ほうこく}: report — the everyday word, used for any superior or audience",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30670_soujou",
+      "reading": "そうじょう",
+      "headword": "{奏上|そうじょう}",
+      "label": "the same act, with the characters…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03618_houkoku",
+      "reading": "ほうこく",
+      "headword": "{報告|ほうこく}",
+      "label": "report"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "history",
         "politics"
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-08-16T06:19:38Z",
-    "modified": "2026-08-16T06:19:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

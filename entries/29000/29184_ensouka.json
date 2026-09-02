@@ -17,7 +17,9 @@
       "id": "29184_ensouka_ex1",
       "japanese": "彼女はピアノの{演奏家|えんそうか}だ。",
       "english": "She is a professional pianist.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29184_ensouka_ex2",
       "japanese": "{世界的|せかいてき}に{有名|ゆうめい}な{演奏家|えんそうか}がコンサートを{開|ひら}く。",
       "english": "A world-famous musician is giving a concert.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,53 @@
       "id": "29184_ensouka_ex3",
       "japanese": "その{演奏家|えんそうか}は{幼少期|ようしょうき}から{厳|きび}しい{訓練|くんれん}を{積|つ}んできた。",
       "english": "That musician has undergone rigorous training since childhood.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "More formal and specifically occupational than {演奏者|えんそうしゃ} (which simply means 'player/performer'). 演奏家 implies professionalism as a career.\n\nCOMMON COLLOCATIONS:\n- {演奏家|えんそうか}として{活動|かつどう}する: to be active as a musician\n- {著名|ちょめい}な{演奏家|えんそうか}: renowned musician\n- {若手|わかて}{演奏家|えんそうか}: young/emerging musician\n- {演奏家|えんそうか}{仲間|なかま}: fellow musicians\n\nSIMILAR WORDS:\n- {音楽家|おんがくか}: musician broadly (includes composers)\n- {演奏者|えんそうしゃ}: player, performer (not necessarily professional)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27511_ongakuka",
+      "reading": "おんがくか",
+      "headword": "{音楽家|おんがくか}",
+      "label": "musician broadly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25426_ensousha",
+      "reading": "えんそうしゃ",
+      "headword": "{演奏者|えんそうしゃ}",
+      "label": "player, performer"
+    },
+    {
+      "type": "related",
+      "target_id": "27286_baiorinisuto",
+      "reading": "ばいおりにすと",
+      "headword": "バイオリニスト",
+      "label": "violinist"
+    }
+  ],
   "metadata": {
     "created": "2026-06-12T13:37:31Z",
-    "modified": "2026-06-12T13:37:31Z",
+    "modified": "2026-09-02T03:02:30Z",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["music", "occupation"],
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "music",
+        "occupation"
+      ],
       "domain": [],
       "vocabulary_tier": "general"
-    }
+    },
+    "vocabulary_tier": "general"
   }
 }

@@ -19,7 +19,9 @@
       "english": "The labor shortage is serious.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11436_hitodebusoku_ex2",
@@ -27,7 +29,9 @@
       "english": "Due to a staff shortage, we had to close the shop.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11436_hitodebusoku_ex3",
@@ -35,22 +39,46 @@
       "english": "A chronic labor shortage continues in the nursing care industry.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE: A four-character compound consisting of {人手|ひとで} (manpower, workers) and {不足|ぶそく} (shortage, insufficiency). Very frequently appears in news and business contexts.\n\nCOMMON COLLOCATIONS:\n- {人手不足|ひとでぶそく}を{解消|かいしょう}する (to resolve a labor shortage)\n- {人手不足|ひとでぶそく}に{悩|なや}む (to struggle with a staff shortage)\n- {慢性的|まんせいてき}な{人手不足|ひとでぶそく} (chronic labor shortage)\n- {深刻|しんこく}な{人手不足|ひとでぶそく} (severe labor shortage)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30591_tegatarinai",
+      "reading": "てがたりない",
+      "headword": "{手|て}が{足|た}りない",
+      "label": "to be short-handed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30658_kyoukyuubusoku",
+      "reading": "きょうきゅうぶそく",
+      "headword": "{供給不足|きょうきゅうぶそく}",
+      "label": "supply shortage"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T10:57:49Z",
-    "modified": "2026-02-16T10:57:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["society", "work"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "society",
+        "work"
+      ]
     }
   }
 }

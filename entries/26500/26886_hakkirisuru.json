@@ -3,7 +3,7 @@
   "headword": "はっきりする",
   "reading": "はっきりする",
   "romaji": "hakkirisuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb, adverb",
   "gloss": "to become clear; to be definite; to be distinct",
   "definitions": [
     {
@@ -80,7 +80,29 @@
     }
   ],
   "notes": "An extremely common adverb/verb combination describing clarity, definiteness, or distinctness. はっきり is onomatopoeia-derived and used both as an adverb modifying other verbs and with する to form a verb meaning \"to become clear.\"\n\nCOMMON COLLOCATIONS:\n- はっきり{言|い}う: to say plainly, to speak frankly\n- はっきり{見|み}える: to be clearly visible\n- はっきりしない: unclear, vague, indecisive\n- はっきりした{態度|たいど}: a clear-cut attitude\n- はっきりした{答|こた}え: a definite answer\n\nSIMILAR WORDS:\n- {明確|めいかく}: clear, explicit — more formal and used in writing; はっきり is more conversational\n- {明|あき}らか: obvious, evident — emphasizes that something is self-evidently true\n- {鮮明|せんめい}: vivid, sharp — used specifically for visual or memory clarity\n\nUSAGE:\nはっきりしない is commonly used to describe someone who is indecisive or wishy-washy. The phrase はっきり{言|い}って (\"frankly speaking\") is a very frequent discourse marker used to introduce blunt opinions.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01664_meikaku",
+      "reading": "めいかく",
+      "headword": "{明確|めいかく}",
+      "label": "clear, explicit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02351_akiraka",
+      "reading": "あきらか",
+      "headword": "{明|あき}らか",
+      "label": "obvious, evident"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14686_senmei",
+      "reading": "せんめい",
+      "headword": "{鮮明|せんめい}",
+      "label": "vivid, sharp"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -99,7 +121,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T15:05:05Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

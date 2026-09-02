@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {能力|のうりょく} is a general term for ability or capability. It's used in professional, academic, and everyday contexts.\n\nCOMMON PATTERNS:\n・{能力|のうりょく}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (to have ability)\n・{能力|のうりょく}⟦を→を：00422_wo⟧⟦{発揮|はっき}→発揮：00086_hakki⟧⟦する→する：00392_suru⟧ (to demonstrate ability)\n・{能力|のうりょく}⟦を→を：00422_wo⟧⟦{伸|の}ばす→伸ばす：01973_nobasu⟧ (to develop one's abilities)\n・{能力|のうりょく}⟦を→を：00422_wo⟧⟦{超|こ}える→超える：01942_koeru⟧ (to exceed one's ability)\n・{能力|のうりょく}⟦{不足|ふそく}→不足：03598_fusoku⟧ (lack of ability)\n\nCOMMON COMPOUNDS:\n・{能力|のうりょく}⟦{試験|しけん}→試験：01422_shiken⟧ (proficiency test)\n・{能力|のうりょく}⟦{開発|かいはつ}→開発：06746_kaihatsu⟧ (capacity building)\n・{能力|のうりょく}⟦{主義|しゅぎ}→主義：03215_shugi⟧ (meritocracy)\n・{超|ちょう}{能力|のうりょく} (supernatural power)\n\nSIMILAR WORDS:\n・⟦{才能|さいのう}→才能：02772_sainou⟧ - talent (innate)\n・⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧ - actual ability, real strength\n・⟦{技能|ぎのう}→技能：12801_ginou⟧ - skill (technical)",
+  "notes": "USAGE: {能力|のうりょく} is a general term for ability or capability. It's used in professional, academic, and everyday contexts.\n\nCOMMON PATTERNS:\n- {能力|のうりょく}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (to have ability)\n- {能力|のうりょく}⟦を→を：00422_wo⟧⟦{発揮|はっき}→発揮：00086_hakki⟧⟦する→する：00392_suru⟧ (to demonstrate ability)\n- {能力|のうりょく}⟦を→を：00422_wo⟧⟦{伸|の}ばす→伸ばす：01973_nobasu⟧ (to develop one's abilities)\n- {能力|のうりょく}⟦を→を：00422_wo⟧⟦{超|こ}える→超える：01942_koeru⟧ (to exceed one's ability)\n- {能力|のうりょく}⟦{不足|ふそく}→不足：03598_fusoku⟧ (lack of ability)\n\nCOMPOUNDS:\n- {能力|のうりょく}⟦{試験|しけん}→試験：01422_shiken⟧ (proficiency test)\n- {能力|のうりょく}⟦{開発|かいはつ}→開発：06746_kaihatsu⟧ (capacity building)\n- {能力|のうりょく}⟦{主義|しゅぎ}→主義：03215_shugi⟧ (meritocracy)\n- {超|ちょう}{能力|のうりょく} (supernatural power)\n\nSIMILAR WORDS:\n- ⟦{才能|さいのう}→才能：02772_sainou⟧ - talent (innate)\n- ⟦{実力|じつりょく}→実力：03277_jitsuryoku⟧ - actual ability, real strength\n- ⟦{技能|ぎのう}→技能：12801_ginou⟧ - skill (technical)",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,39 @@
       "headword": "{実力|じつりょく}",
       "label": "actual ability",
       "target_id": "03277_jitsuryoku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12801_ginou",
+      "reading": "ぎのう",
+      "headword": "{技能|ぎのう}",
+      "label": "skill"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04046_soshitsu",
+      "reading": "そしつ",
+      "headword": "{素質|そしつ}",
+      "label": "aptitude, talent, quality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07466_shuwan",
+      "reading": "しゅわん",
+      "headword": "{手腕|しゅわん}",
+      "label": "skill"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24236_kaishou",
+      "reading": "かいしょう",
+      "headword": "{甲斐性|かいしょう}",
+      "label": "competence"
     }
   ],
   "metadata": {
     "created": "2026-01-12T11:12:00Z",
-    "modified": "2026-05-26T13:19:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

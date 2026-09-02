@@ -17,7 +17,9 @@
       "id": "30052_kariiregaku_ex1",
       "japanese": "{借入額|かりいれがく}を{減|へ}らす。",
       "english": "Reduce the amount borrowed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30052_kariiregaku_ex2",
       "japanese": "{毎月|まいつき}の{返済|へんさい}で{借入額|かりいれがく}が{減|へ}っていく。",
       "english": "With each month's repayment, the amount owed goes down.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "30052_kariiregaku_ex3",
       "japanese": "{住宅|じゅうたく}ローンの{借入額|かりいれがく}は{年収|ねんしゅう}の{五倍|ごばい}までが{目安|めやす}とされる。",
       "english": "For a home loan, the borrowed amount is generally guided to be up to five times one's annual income.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {借入|かりいれ} (borrowing) with {額|がく} (amount of money). Common in banking, loans, and mortgages.\n\nCOMMON COLLOCATIONS:\n- {借入額|かりいれがく}が{大|おお}きい: the loan amount is large\n- {借入額|かりいれがく}を{増|ふ}やす: to increase the amount borrowed\n- {借入額|かりいれがく}の{上限|じょうげん}: a borrowing limit\n\nSIMILAR WORDS:\n- {返済額|へんさいがく}: repayment amount — the sum being paid back\n- {残高|ざんだか}: balance — the amount still outstanding",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30033_hensaigaku",
+      "reading": "へんさいがく",
+      "headword": "返済額",
+      "label": "repayment amount"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05422_zandaka",
+      "reading": "ざんだか",
+      "headword": "{残高|ざんだか}",
+      "label": "balance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["finance"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "finance"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-07-23T00:19:28Z",
-    "modified": "2026-07-23T00:27:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

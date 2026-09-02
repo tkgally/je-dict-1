@@ -19,7 +19,9 @@
       "english": "I had my hair cut by a hairdresser.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15428_biyoushi_ex2",
@@ -27,7 +29,9 @@
       "english": "My older sister has a beautician's license.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15428_biyoushi_ex3",
@@ -35,7 +39,9 @@
       "english": "Popular hairstylists can be booked up months in advance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nIn Japan, {美容師|びようし} and {理容師|りようし} (barber) are legally distinct professions with separate licenses. {美容師|びようし} work at {美容室|びようしつ}/{美容院|びよういん} and traditionally serve women, while {理容師|りようし} work at {理容室|りようしつ}/{床屋|とこや} and traditionally serve men, though these gender distinctions have become less rigid.\n\nCOMMON COLLOCATIONS:\n- {美容師|びようし}の{免許|めんきょ} (beautician's license)\n- {美容師|びようし}になる (to become a beautician)\n- {担当|たんとう}の{美容師|びようし} (one's regular hairdresser)\n\nRELATED WORDS:\n- {美容室|びようしつ}: beauty salon\n- {美容院|びよういん}: beauty parlor\n- {理容師|りようし}: barber\n- {床屋|とこや}: barbershop",
@@ -53,18 +59,43 @@
       "reading": "びよういん",
       "headword": "{美容院|びよういん}",
       "label": "beauty salon"
+    },
+    {
+      "type": "related",
+      "target_id": "20238_biyoushitsu",
+      "reading": "びようしつ",
+      "headword": "{美容室|びようしつ}",
+      "label": "beauty salon"
+    },
+    {
+      "type": "related",
+      "target_id": "24118_riyoushi",
+      "reading": "りようし",
+      "headword": "{理容師|りようし}",
+      "label": "barber"
+    },
+    {
+      "type": "related",
+      "target_id": "01682_tokoya",
+      "reading": "とこや",
+      "headword": "{床屋|とこや}",
+      "label": "barbershop"
     }
   ],
   "metadata": {
     "created": "2026-03-06T13:48:06Z",
-    "modified": "2026-05-08T14:02:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"],
+      "semantic": [
+        "person"
+      ],
       "domain": []
     }
   }

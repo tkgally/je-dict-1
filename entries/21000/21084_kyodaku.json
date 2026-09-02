@@ -17,7 +17,9 @@
       "id": "21084_kyodaku_ex1",
       "japanese": "{使用|しよう}{許諾|きょだく}を{得|え}る。",
       "english": "To obtain permission to use.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21084_kyodaku_ex2",
       "japanese": "{著作権者|ちょさくけんしゃ}の{許諾|きょだく}なしに{転載|てんさい}してはいけない。",
       "english": "You must not reprint without the permission of the copyright holder.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "21084_kyodaku_ex3",
       "japanese": "{本人|ほんにん}の{許諾|きょだく}を{得|え}た{上|うえ}で、{個人情報|こじんじょうほう}を{提供|ていきょう}する。",
       "english": "Personal information is provided only after obtaining the individual's consent.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A formal word for permission or consent, commonly found in legal documents, contracts, and licensing agreements. More formal than {許可|きょか} and specifically implies that the person with authority has agreed to allow something.\n\nCOMMON COLLOCATIONS:\n- {許諾|きょだく}を{得|え}る: to obtain consent\n- {使用|しよう}{許諾|きょだく}: license to use, usage permission\n- {許諾|きょだく}{契約|けいやく}: licensing agreement\n- {許諾|きょだく}なしに: without permission\n- {許諾|きょだく}{済|ず}み: already approved\n\nSIMILAR WORDS:\n- {許可|きょか}: permission, approval — more general and everyday; used for official permits and authorizations from authorities\n- {承諾|しょうだく}: consent, acceptance — emphasizes the act of agreeing to a request or proposal\n- {同意|どうい}: agreement, consent — focuses on agreement between parties, often in medical or contractual contexts\n\nETYMOLOGY:\n{許|きょ} (permit) + {諾|だく} (consent, agree) — both characters reinforce the meaning of granting permission.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00259_kyoka",
+      "reading": "きょか",
+      "headword": "{許可|きょか}",
+      "label": "permission, approval"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12778_shoudaku",
+      "reading": "しょうだく",
+      "headword": "{承諾|しょうだく}",
+      "label": "consent, acceptance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05092_doui",
+      "reading": "どうい",
+      "headword": "{同意|どうい}",
+      "label": "agreement, consent"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["law"]
+      "semantic": [
+        "law"
+      ]
     },
     "created": "2026-03-31T17:13:02Z",
-    "modified": "2026-03-31T17:13:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

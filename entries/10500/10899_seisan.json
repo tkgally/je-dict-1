@@ -3,7 +3,7 @@
   "id": "10899_seisan",
   "headword": "{精算|せいさん}",
   "reading": "せいさん",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "settlement of accounts, fare adjustment",
   "conjugation": {
     "type": "suru",
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{精|せい} (precise, detailed) + {算|さん} (calculate) = precise calculation.\n\nHOMOPHONE NOTE:\nDo not confuse with {生産|せいさん} (production, manufacturing) or {清算|せいさん} (liquidation, settling debts/relationships). {精算|せいさん} specifically refers to precise accounting and expense settlement.\n\nCOMMON COMPOUNDS:\n- {精算|せいさん}{機|き}: fare adjustment machine (at train stations)\n- {精算|せいさん}{書|しょ}: expense report, settlement statement\n- {精算|せいさん}{所|じょ}: fare adjustment window\n\nCOMMON COLLOCATIONS:\n- {経費|けいひ}を{精算|せいさん}する: to settle expenses\n- {運賃|うんちん}を{精算|せいさん}する: to adjust the fare\n- {立替|たてかえ}{分|ぶん}を{精算|せいさん}する: to settle the amount advanced",
+  "notes": "FORMS:\n{精|せい} (precise, detailed) + {算|さん} (calculate) = precise calculation.\n\nWATCH OUT:\nDo not confuse with {生産|せいさん} (production, manufacturing) or {清算|せいさん} (liquidation, settling debts/relationships). {精算|せいさん} specifically refers to precise accounting and expense settlement.\n\nCOMPOUNDS:\n- {精算|せいさん}{機|き}: fare adjustment machine (at train stations)\n- {精算|せいさん}{書|しょ}: expense report, settlement statement\n- {精算|せいさん}{所|じょ}: fare adjustment window\n\nCOMMON COLLOCATIONS:\n- {経費|けいひ}を{精算|せいさん}する: to settle expenses\n- {運賃|うんちん}を{精算|せいさん}する: to adjust the fare\n- {立替|たてかえ}{分|ぶん}を{精算|せいさん}する: to settle the amount advanced",
   "cross_references": [
     {
       "type": "homophone",
@@ -149,11 +149,53 @@
       "reading": "せいさん",
       "headword": "{生産|せいさん}",
       "label": "production"
+    },
+    {
+      "type": "related",
+      "target_id": "00879_reji",
+      "reading": "れじ",
+      "headword": "レジ",
+      "label": "cash register"
+    },
+    {
+      "type": "related",
+      "target_id": "08282_chekkuauto",
+      "reading": "ちぇっくあうと",
+      "headword": "チェックアウト",
+      "label": "check-out"
+    },
+    {
+      "type": "related",
+      "target_id": "08326_shisan",
+      "reading": "しさん",
+      "headword": "{試算|しさん}",
+      "label": "trial calculation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09550_okaikei",
+      "reading": "おかいけい",
+      "headword": "お{会計|かいけい}",
+      "label": "bill, check (at restaurant)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23347_tatekaebarai",
+      "reading": "たてかえばらい",
+      "headword": "{立替|たてか}え{払|ばら}い",
+      "label": "paying on someone's behalf (to be reimbursed later)"
+    },
+    {
+      "type": "related",
+      "target_id": "23618_tatekaekin",
+      "reading": "たてかえきん",
+      "headword": "{立替金|たてかえきん}",
+      "label": "money paid on someone else's behalf"
     }
   ],
   "metadata": {
     "created": "2026-02-11T09:22:41Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

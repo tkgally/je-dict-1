@@ -17,7 +17,9 @@
       "id": "25648_ginkoufurikomi_ex1",
       "japanese": "{銀行|ぎんこう}{振込|ふりこみ}でお{願|ねが}いします。",
       "english": "By bank transfer, please.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25648_ginkoufurikomi_ex2",
       "japanese": "{家賃|やちん}は{毎月|まいつき}{銀行|ぎんこう}{振込|ふりこみ}で{支払|しはら}っている。",
       "english": "I pay the rent by bank transfer every month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "25648_ginkoufurikomi_ex3",
       "japanese": "{銀行|ぎんこう}{振込|ふりこみ}の{手数料|てすうりょう}は{振込先|ふりこみさき}によって{異|こと}なります。",
       "english": "Bank transfer fees vary depending on the destination account.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {銀行|ぎんこう} (bank) and {振込|ふりこみ} (transfer/deposit). Bank transfers remain one of the most common payment methods in Japan for rent, utility bills, online purchases, and business transactions.\n\nCOMMON COLLOCATIONS:\n- {銀行|ぎんこう}{振込|ふりこみ}で{支払|しはら}う: to pay by bank transfer\n- {銀行|ぎんこう}{振込|ふりこみ}の{手数料|てすうりょう}: bank transfer fee\n- {銀行|ぎんこう}{振込|ふりこみ}の{確認|かくにん}: confirmation of bank transfer\n- {銀行|ぎんこう}{振込|ふりこみ}{明細|めいさい}: bank transfer statement\n\nRELATED TERMS:\n- {振込|ふりこみ}: transfer/deposit (the general term)\n- {口座|こうざ}{振替|ふりかえ}: direct debit, automatic account transfer\n- {送金|そうきん}: remittance, sending money (broader term that includes international transfers)",
+  "notes": "A compound of {銀行|ぎんこう} (bank) and {振込|ふりこみ} (transfer/deposit). Bank transfers remain one of the most common payment methods in Japan for rent, utility bills, online purchases, and business transactions.\n\nCOMMON COLLOCATIONS:\n- {銀行|ぎんこう}{振込|ふりこみ}で{支払|しはら}う: to pay by bank transfer\n- {銀行|ぎんこう}{振込|ふりこみ}の{手数料|てすうりょう}: bank transfer fee\n- {銀行|ぎんこう}{振込|ふりこみ}の{確認|かくにん}: confirmation of bank transfer\n- {銀行|ぎんこう}{振込|ふりこみ}{明細|めいさい}: bank transfer statement\n\nRELATED WORDS:\n- {振込|ふりこみ}: transfer/deposit (the general term)\n- {口座|こうざ}{振替|ふりかえ}: direct debit, automatic account transfer\n- {送金|そうきん}: remittance, sending money (broader term that includes international transfers)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19853_kouzafurikae",
+      "reading": "こうざふりかえ",
+      "headword": "{口座振替|こうざふりかえ}",
+      "label": "direct debit, automatic account transfer"
+    },
+    {
+      "type": "related",
+      "target_id": "09774_soukin",
+      "reading": "そうきん",
+      "headword": "{送金|そうきん}",
+      "label": "remittance, sending money"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-04-26T14:24:57Z",
-    "modified": "2026-04-26T14:24:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

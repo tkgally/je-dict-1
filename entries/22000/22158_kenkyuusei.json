@@ -17,7 +17,9 @@
       "id": "22158_kenkyuusei_ex1",
       "japanese": "{大学|だいがく}の{研究生|けんきゅうせい}になる。",
       "english": "To become a research student at a university.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22158_kenkyuusei_ex2",
       "japanese": "{研究生|けんきゅうせい}として{一年間|いちねんかん}{日本|にほん}の{大学|だいがく}に{在籍|ざいせき}した。",
       "english": "I was enrolled at a Japanese university as a research student for one year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "22158_kenkyuusei_ex3",
       "japanese": "{多|おお}くの{留学生|りゅうがくせい}は、まず{研究生|けんきゅうせい}として{来日|らいにち}し、その{後|あと}{大学院|だいがくいん}に{進学|しんがく}する。",
       "english": "Many international students first come to Japan as research students and then advance to graduate school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "In the Japanese university system, a {研究生|けんきゅうせい} is a special status for individuals who want to study or do research at a university without being enrolled in a degree program. This is distinct from a {大学院生|だいがくいんせい} (graduate student).\n\nCOMMON COLLOCATIONS:\n- {研究生|けんきゅうせい}{制度|せいど}: research student system\n- {研究生|けんきゅうせい}として{在籍|ざいせき}する: to be enrolled as a research student\n- {研究生|けんきゅうせい}{期間|きかん}: research student period\n\nSIMILAR WORDS:\n- {大学院生|だいがくいんせい}: graduate student — enrolled in a formal master's or doctoral program\n- {聴講生|ちょうこうせい}: auditor — attends lectures but does not earn credits\n- {留学生|りゅうがくせい}: international student — refers to nationality status, not enrollment type\n\nCULTURAL NOTE:\nThe {研究生|けんきゅうせい} system is particularly important for international students coming to Japan. Many use this period (typically 6 months to 2 years) to improve their Japanese, prepare for entrance exams, and build a relationship with their prospective supervisor.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20627_daigakuinsei",
+      "reading": "だいがくいんせい",
+      "headword": "{大学院生|だいがくいんせい}",
+      "label": "graduate student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02986_ryuugakusei",
+      "reading": "りゅうがくせい",
+      "headword": "{留学生|りゅうがくせい}",
+      "label": "international student"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-04-05T04:04:40Z",
-    "modified": "2026-06-15T07:58:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

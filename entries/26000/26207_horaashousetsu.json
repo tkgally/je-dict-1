@@ -17,7 +17,9 @@
       "id": "26207_horaashousetsu_ex1",
       "japanese": "{寝|ね}る{前|まえ}にホラー{小説|しょうせつ}を{読|よ}んだ。",
       "english": "I read a horror novel before going to bed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26207_horaashousetsu_ex2",
       "japanese": "このホラー{小説|しょうせつ}は{実話|じつわ}に{基|もと}づいている。",
       "english": "This horror novel is based on a true story.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,51 @@
       "id": "26207_horaashousetsu_ex3",
       "japanese": "{日本|にほん}のホラー{小説|しょうせつ}は{独特|どくとく}の{雰囲気|ふんいき}があり、{海外|かいがい}でも{翻訳|ほんやく}されて{人気|にんき}がある。",
       "english": "Japanese horror novels have a unique atmosphere and are popular overseas in translation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of the loanword ホラー (horror, from English) and {小説|しょうせつ} (novel). Japanese horror literature ({和製|わせい}ホラー or Jホラー) is known for its atmospheric, psychological approach, often drawing on traditional ghost stories ({怪談|かいだん}) and urban legends ({都市伝説|としでんせつ}). Notable authors include {鈴木光司|すずきこうじ} (Ring) and {小野不由美|おのふゆみ}.\n\nCOMMON COLLOCATIONS:\n- ホラー{小説|しょうせつ}を{読|よ}む — to read a horror novel\n- ホラー{小説|しょうせつ}{大賞|たいしょう} — horror novel award\n- {日本|にほん}のホラー{小説|しょうせつ} — Japanese horror fiction\n- ホラー{小説|しょうせつ}の{傑作|けっさく} — horror fiction masterpiece\n\nRELATED TERMS:\n- ホラー{映画|えいが} — horror movie\n- {怪談|かいだん} — ghost story (traditional Japanese genre)\n- {推理小説|すいりしょうせつ} — mystery novel\n- SF{小説|しょうせつ} — science fiction novel",
-  "cross_references": [],
+  "notes": "A compound of the loanword ホラー (horror, from English) and {小説|しょうせつ} (novel). Japanese horror literature ({和製|わせい}ホラー or Jホラー) is known for its atmospheric, psychological approach, often drawing on traditional ghost stories ({怪談|かいだん}) and urban legends ({都市伝説|としでんせつ}). Notable authors include {鈴木光司|すずきこうじ} (Ring) and {小野不由美|おのふゆみ}.\n\nCOMMON COLLOCATIONS:\n- ホラー{小説|しょうせつ}を{読|よ}む — to read a horror novel\n- ホラー{小説|しょうせつ}{大賞|たいしょう} — horror novel award\n- {日本|にほん}のホラー{小説|しょうせつ} — Japanese horror fiction\n- ホラー{小説|しょうせつ}の{傑作|けっさく} — horror fiction masterpiece\n\nRELATED WORDS:\n- ホラー{映画|えいが} — horror movie\n- {怪談|かいだん} — ghost story (traditional Japanese genre)\n- {推理小説|すいりしょうせつ} — mystery novel\n- SF{小説|しょうせつ} — science fiction novel",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "25725_horaaeiga",
+      "reading": "ほらーえいが",
+      "headword": "ホラー{映画|えいが}",
+      "label": "horror movie"
+    },
+    {
+      "type": "related",
+      "target_id": "12608_kaidan",
+      "reading": "かいだん",
+      "headword": "{怪談|かいだん}",
+      "label": "ghost story"
+    },
+    {
+      "type": "related",
+      "target_id": "28077_suirishousetsu",
+      "reading": "すいりしょうせつ",
+      "headword": "{推理|すいり}{小説|しょうせつ}",
+      "label": "mystery novel"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["art", "entertainment"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "art",
+        "entertainment"
+      ]
     },
     "created": "2026-04-30T11:32:34Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "27239_chuuoubu_ex1",
       "japanese": "{島|しま}の{中央部|ちゅうおうぶ}に{山|やま}がある。",
       "english": "There is a mountain in the central part of the island.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27239_chuuoubu_ex2",
       "japanese": "{建物|たてもの}の{中央部|ちゅうおうぶ}にエレベーターがある。",
       "english": "There is an elevator in the center of the building.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "27239_chuuoubu_ex3",
       "japanese": "アフリカ{大陸|たいりく}の{中央部|ちゅうおうぶ}には{広大|こうだい}な{熱帯雨林|ねったいうりん}が{広|ひろ}がっている。",
       "english": "A vast tropical rainforest stretches across the central part of the African continent.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {中央|ちゅうおう} (center) + {部|ぶ} (part/section). A straightforward spatial term that is common in descriptions of geography, architecture, and layout. Slightly more formal and precise than {真|ま}ん{中|なか} (the very center).\n\nCOMMON COLLOCATIONS:\n- {都市|とし}の{中央部|ちゅうおうぶ}: the central part of a city\n- {日本|にほん}の{中央部|ちゅうおうぶ}: central Japan\n- {胸|むね}の{中央部|ちゅうおうぶ}: the center of the chest\n\nSIMILAR WORDS:\n- {中心部|ちゅうしんぶ}: the core/heart — emphasizes being the most important or active area, not just spatially central\n- {真|ま}ん{中|なか}: the very middle — more colloquial and emphatic\n- {中央|ちゅうおう}: center — the base word without {部|ぶ}, used more broadly including for abstract concepts like government",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23774_chuushinbu",
+      "reading": "ちゅうしんぶ",
+      "headword": "{中心部|ちゅうしんぶ}",
+      "label": "the core/heart"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00968_mannaka",
+      "reading": "まんなか",
+      "headword": "{真|ま}ん{中|なか}",
+      "label": "the very middle"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"],
+      "semantic": [
+        "geography"
+      ],
       "domain": []
     },
     "created": "2026-05-08T11:13:44Z",
-    "modified": "2026-08-07T06:31:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "29144_sunabokori_ex1",
       "japanese": "{砂|すな}ぼこりが{舞|ま}い{上|あ}がった。",
       "english": "Dust swirled up into the air.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29144_sunabokori_ex2",
       "japanese": "{工事現場|こうじげんば}の{近|ちか}くを{歩|ある}くと、{砂|すな}ぼこりがひどかった。",
       "english": "Walking near the construction site, the dust was terrible.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "29144_sunabokori_ex3",
       "japanese": "{強|つよ}い{風|かぜ}で{砂|すな}ぼこりが{立|た}ち{込|こ}め、{前|まえ}がよく{見|み}えなくなった。",
       "english": "A strong wind raised a cloud of dust, making it hard to see ahead.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {砂|すな} (sand) and ぼこり ({埃|ほこり}, dust). Refers specifically to airborne particles of sand or grit, as opposed to indoor household dust (ほこり/ちり).\n\nCOMMON COLLOCATIONS:\n- {砂|すな}ぼこりが{舞|ま}い{上|あ}がる: dust swirls up\n- {砂|すな}ぼこりが{立|た}つ: dust rises\n- {砂|すな}ぼこりをあびる: to get covered in dust\n\nSIMILAR WORDS:\n- {埃|ほこり}: dust (general) — indoor dust, everyday grime\n- {砂|すな}: sand — the material itself, not airborne",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03624_hokori",
+      "reading": "ほこり",
+      "headword": "{埃|ほこり}",
+      "label": "dust"
+    },
+    {
+      "type": "related",
+      "target_id": "00890_suna",
+      "reading": "すな",
+      "headword": "{砂|すな}",
+      "label": "sand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22218_funjin",
+      "reading": "ふんじん",
+      "headword": "{粉|ふん}じん",
+      "label": "dust"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["nature"],
+      "politeness": "plain",
+      "semantic": [
+        "nature"
+      ],
       "domain": []
     },
     "created": "2026-06-11T21:40:10Z",
-    "modified": "2026-06-11T21:40:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,15 +17,19 @@
       "id": "26131_kaseigan_ex1",
       "japanese": "{花崗岩|かこうがん}は{火成岩|かせいがん}の{一種|いっしゅ}だ。",
       "english": "Granite is a type of igneous rock.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26131_kaseigan_ex2",
-      "japanese": "{火成岩|かせいがん}は{マグマ}が{冷|ひ}えて{固|かた}まってできる。",
+      "japanese": "{火成岩|かせいがん}はマグマが{冷|ひ}えて{固|かた}まってできる。",
       "english": "Igneous rock is formed when magma cools and solidifies.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,54 @@
       "id": "26131_kaseigan_ex3",
       "japanese": "{日本|にほん}は{火山|かざん}が{多|おお}いため、{火成岩|かせいがん}が{広|ひろ}く{分布|ぶんぷ}している。",
       "english": "Because Japan has many volcanoes, igneous rock is widely distributed throughout the country.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {火成|かせい} (fire-formed) and {岩|がん} (rock). One of the three fundamental rock classifications taught in Japanese science education, alongside {堆積岩|たいせきがん} (sedimentary rock) and {変成岩|へんせいがん} (metamorphic rock).\n\n{火成岩|かせいがん} is further divided into two main categories depending on where the magma cooled:\n- {火山岩|かざんがん} (volcanic rock): cooled quickly at or near the surface, with fine-grained texture\n- {深成岩|しんせいがん} (plutonic rock): cooled slowly deep underground, with coarse-grained texture\n\nCOMMON COLLOCATIONS:\n- {火成岩|かせいがん}の{種類|しゅるい}: types of igneous rock\n- {火成岩|かせいがん}が{分布|ぶんぷ}する: igneous rock is distributed\n- {火成岩|かせいがん}の{成分|せいぶん}: composition of igneous rock\n- {火成岩|かせいがん}を{観察|かんさつ}する: to observe igneous rock\n\nSIMILAR WORDS:\n- {堆積岩|たいせきがん}: sedimentary rock — formed from accumulated sediment over time\n- {変成岩|へんせいがん}: metamorphic rock — formed when existing rock is transformed by heat and pressure\n- {火山岩|かざんがん}: volcanic rock — a subcategory of igneous rock that cooled on the surface\n- {岩石|がんせき}: rock (general term) — broader term for any type of rock",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23353_taisekigan",
+      "reading": "たいせきがん",
+      "headword": "{堆積岩|たいせきがん}",
+      "label": "sedimentary rock"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26132_henseigan",
+      "reading": "へんせいがん",
+      "headword": "{変成岩|へんせいがん}",
+      "label": "metamorphic rock"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20502_ganseki",
+      "reading": "がんせき",
+      "headword": "{岩石|がんせき}",
+      "label": "rock"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"],
-      "domain": ["academic"]
+      "semantic": [
+        "geography"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-04-29T14:37:08Z",
-    "modified": "2026-04-29T14:37:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

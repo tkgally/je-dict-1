@@ -16,7 +16,9 @@
       "id": "20532_toosuto_ex1",
       "japanese": "{朝|あさ}はトーストを{食|た}べる。",
       "english": "I eat toast in the morning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "20532_toosuto_ex2",
       "japanese": "トーストにバターとジャムを{塗|ぬ}った。",
       "english": "I spread butter and jam on the toast.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,22 +36,51 @@
       "id": "20532_toosuto_ex3",
       "japanese": "{厚切|あつぎ}りのトーストに{蜂蜜|はちみつ}をかけるのが{好|す}きだ。",
       "english": "I like putting honey on thick-sliced toast.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English 'toast.' In Japan, toast is typically made from {食|しょく}パン (white sandwich bread), which is often sold in thicker slices (4- or 5-slice loaves) compared to Western countries.\n\nCOMMON COLLOCATIONS:\n- トーストを{焼|や}く: to make toast\n- {厚切|あつぎ}りトースト: thick-cut toast\n- フレンチトースト: French toast\n- トーストにバターを{塗|ぬ}る: to spread butter on toast\n\nRELATED TERMS:\n- {食|しょく}パン: white sandwich bread (the bread used for toast)\n- オーブントースター: toaster oven (the standard toasting appliance in Japan, not a pop-up toaster)\n- モーニング: morning set (many cafés in Japan offer a 'morning' deal that includes toast, egg, and coffee)",
+  "notes": "From English 'toast.' In Japan, toast is typically made from {食|しょく}パン (white sandwich bread), which is often sold in thicker slices (4- or 5-slice loaves) compared to Western countries.\n\nCOMMON COLLOCATIONS:\n- トーストを{焼|や}く: to make toast\n- {厚切|あつぎ}りトースト: thick-cut toast\n- フレンチトースト: French toast\n- トーストにバターを{塗|ぬ}る: to spread butter on toast\n\nRELATED WORDS:\n- {食|しょく}パン: white sandwich bread (the bread used for toast)\n- オーブントースター: toaster oven (the standard toasting appliance in Japan, not a pop-up toaster)\n- モーニング: morning set (many cafés in Japan offer a 'morning' deal that includes toast, egg, and coffee)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14636_shokupan",
+      "reading": "しょくぱん",
+      "headword": "{食|しょく}パン",
+      "label": "white sandwich bread"
+    },
+    {
+      "type": "related",
+      "target_id": "23412_oobuntoosutaa",
+      "reading": "おーぶんとーすたー",
+      "headword": "オーブントースター",
+      "label": "toaster oven"
+    },
+    {
+      "type": "related",
+      "target_id": "27084_mooningu",
+      "reading": "もーにんぐ",
+      "headword": "モーニング",
+      "label": "morning set"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-03-29T17:06:13Z",
-    "modified": "2026-03-29T17:06:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

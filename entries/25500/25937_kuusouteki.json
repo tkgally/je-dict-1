@@ -3,7 +3,7 @@
   "headword": "{空想的|くうそうてき}",
   "reading": "くうそうてき",
   "romaji": "kuusouteki",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "imaginary; fanciful; visionary",
   "definitions": [
     {
@@ -22,7 +22,9 @@
       "id": "25937_kuusouteki_ex1",
       "japanese": "{空想的|くうそうてき}な{物語|ものがたり}が{好|す}きだ。",
       "english": "I like fanciful stories.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "25937_kuusouteki_ex2",
       "japanese": "その{計画|けいかく}は{空想的|くうそうてき}すぎて{実現|じつげん}は{難|むずか}しい。",
       "english": "That plan is too fanciful and would be hard to realize.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "25937_kuusouteki_ex3",
       "japanese": "{子供|こども}の{描|えが}く{空想的|くうそうてき}な{世界|せかい}には{大人|おとな}も{驚|おどろ}かされる。",
       "english": "Even adults are amazed by the imaginative worlds children create.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "25937_kuusouteki_ex4",
       "japanese": "{空想的|くうそうてき}{社会主義|しゃかいしゅぎ}は{理想|りそう}を{掲|かか}げた。",
       "english": "Utopian socialism held up an ideal.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "25937_kuusouteki_ex5",
       "japanese": "その{思想|しそう}は{空想的|くうそうてき}だと{批判|ひはん}された。",
       "english": "The ideology was criticized as visionary and impractical.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,21 +72,45 @@
       "id": "25937_kuusouteki_ex6",
       "japanese": "{空想的|くうそうてき}な{理想|りそう}を{語|かた}るだけでは{社会|しゃかい}は{変|か}わらない。",
       "english": "Society won't change just by talking about utopian ideals.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A na-adjective formed from {空想|くうそう} (fantasy; daydream) plus {的|てき}. Often carries a nuance of impracticality. The term {空想的|くうそうてき}{社会主義|しゃかいしゅぎ} (utopian socialism) is a well-known compound from political philosophy, contrasted with {科学的|かがくてき}{社会主義|しゃかいしゅぎ} (scientific socialism).\n\nCOMMON COLLOCATIONS:\n- {空想的|くうそうてき}な{物語|ものがたり}: fanciful story\n- {空想的|くうそうてき}な{世界|せかい}: imaginary world\n- {空想的|くうそうてき}な{計画|けいかく}: unrealistic plan\n- {空想的|くうそうてき}{社会主義|しゃかいしゅぎ}: utopian socialism\n\nSIMILAR WORDS:\n- {幻想的|げんそうてき}: fantastical; dreamlike — emphasizes beauty and atmosphere rather than impracticality\n- {非現実的|ひげんじつてき}: unrealistic — more direct criticism of impracticality, without the creative/imaginative nuance\n- {夢想的|むそうてき}: dreamy; visionary — similar meaning but less common",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25756_gensouteki",
+      "reading": "げんそうてき",
+      "headword": "{幻想的|げんそうてき}",
+      "label": "fantastical"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28242_musouteki",
+      "reading": "むそうてき",
+      "headword": "{夢想的|むそうてき}",
+      "label": "dreamy"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
-      "semantic": ["evaluation", "cognition"]
+      "pos": [
+        "adjective-na"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "evaluation",
+        "cognition"
+      ]
     },
     "created": "2026-04-28T13:29:54Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "My feet got stuck in the mud.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16209_nukarumi_ex2",
@@ -27,7 +29,9 @@
       "english": "The road had turned to mud after the rain.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16209_nukarumi_ex3",
@@ -35,20 +39,48 @@
       "english": "I walked through the mud in rubber boots, but nearly slipped several times.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nぬかるみ is the noun form related to the verb ぬかるむ (to become muddy). It can be used both literally for muddy ground and figuratively for a mess or quagmire one cannot easily escape from.\n\nCOMMON COLLOCATIONS:\n- ぬかるみに{足|あし}を{取|と}られる: to get one's feet stuck in the mud\n- ぬかるみにはまる: to get bogged down in mud\n- ぬかるみの{道|みち}: a muddy road\n\nSIMILAR WORDS:\n{泥|どろ} is the material (mud), while ぬかるみ is a muddy patch of ground. {泥濘|でいねい} is a formal/literary synonym.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09102_doronko",
+      "reading": "どろんこ",
+      "headword": "どろんこ",
+      "label": "muddy, covered in mud"
+    },
+    {
+      "type": "related",
+      "target_id": "26941_nukarumu",
+      "reading": "ぬかるむ",
+      "headword": "ぬかるむ",
+      "label": "to become muddy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26953_deinei",
+      "reading": "でいねい",
+      "headword": "{泥濘|でいねい}",
+      "label": "muddy ground"
+    }
+  ],
   "metadata": {
     "created": "2026-03-11T04:35:29Z",
-    "modified": "2026-03-11T04:35:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature"]
+      "semantic": [
+        "nature"
+      ]
     }
   }
 }

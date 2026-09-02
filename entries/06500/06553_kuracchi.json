@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "TRANSMISSION TYPES:\n・MT⟦{車|しゃ}→車：00516_kuruma⟧ (⟦マニュアル→マニュアル：26993_manyuaru⟧⟦{車|しゃ}→車：00516_kuruma⟧) - manual transmission (has clutch)\n・AT⟦{車|しゃ}→車：00516_kuruma⟧ (⟦オートマ→オートマ：29984_ootoma⟧⟦{車|しゃ}→車：00516_kuruma⟧) - automatic transmission (no clutch pedal)\n\nKEY TERMS:\n・⟦{半|はん}→半：10460_han⟧クラッチ (half-clutch, friction point)\n・クラッチ⟦ペダル→ペダル：27069_pedaru⟧ (clutch pedal)\n・クラッチ⟦が→が：00051_ga⟧⟦{滑|すべ}る→滑る：01230_suberu⟧ (clutch slips - worn clutch)\n・⟦エンスト→エンスト：29983_ensuto⟧ (engine stall)\n\nTHREE PEDALS (MT):\n・クラッチ (clutch - left)\n・⟦ブレーキ→ブレーキ：00022_bureeki⟧ (brake - middle)\n・⟦アクセル→アクセル：06332_akuseru⟧ (accelerator - right)\n\nCOLLOCATIONS:\n・クラッチ⟦を→を：00422_wo⟧⟦{踏|ふ}む→踏む：01197_fumu⟧ (to press the clutch)\n・クラッチ⟦を→を：00422_wo⟧⟦{離|はな}す→離す：19372_hanasu⟧/⟦{放|はな}す→放す：29986_hanasu⟧ (to release the clutch)\n・クラッチ⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧ (to disengage the clutch)\n・クラッチ⟦を→を：00422_wo⟧⟦{繋|つな}ぐ→繋ぐ：01962_tsunagu⟧ (to engage the clutch)\n・クラッチ⟦が→が：00051_ga⟧⟦{減|へ}る→減る：01985_heru⟧ (clutch wears out)",
-  "cross_references": [],
+  "notes": "TRANSMISSION TYPES:\n- MT⟦{車|しゃ}→車：00516_kuruma⟧ (⟦マニュアル→マニュアル：26993_manyuaru⟧⟦{車|しゃ}→車：00516_kuruma⟧) - manual transmission (has clutch)\n- AT⟦{車|しゃ}→車：00516_kuruma⟧ (⟦オートマ→オートマ：29984_ootoma⟧⟦{車|しゃ}→車：00516_kuruma⟧) - automatic transmission (no clutch pedal)\n\nKEY TERMS:\n- ⟦{半|はん}→半：10460_han⟧クラッチ (half-clutch, friction point)\n- クラッチ⟦ペダル→ペダル：27069_pedaru⟧ (clutch pedal)\n- クラッチ⟦が→が：00051_ga⟧⟦{滑|すべ}る→滑る：01230_suberu⟧ (clutch slips - worn clutch)\n- ⟦エンスト→エンスト：29983_ensuto⟧ (engine stall)\n\nTHREE PEDALS (MT):\n- クラッチ (clutch - left)\n- ⟦ブレーキ→ブレーキ：00022_bureeki⟧ (brake - middle)\n- ⟦アクセル→アクセル：06332_akuseru⟧ (accelerator - right)\n\nCOMMON COLLOCATIONS:\n- クラッチ⟦を→を：00422_wo⟧⟦{踏|ふ}む→踏む：01197_fumu⟧ (to press the clutch)\n- クラッチ⟦を→を：00422_wo⟧⟦{離|はな}す→離す：19372_hanasu⟧/⟦{放|はな}す→放す：29986_hanasu⟧ (to release the clutch)\n- クラッチ⟦を→を：00422_wo⟧⟦{切|き}る→切る：02693_kiru⟧ (to disengage the clutch)\n- クラッチ⟦を→を：00422_wo⟧⟦{繋|つな}ぐ→繋ぐ：01962_tsunagu⟧ (to engage the clutch)\n- クラッチ⟦が→が：00051_ga⟧⟦{減|へ}る→減る：01985_heru⟧ (clutch wears out)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06332_akuseru",
+      "reading": "あくせる",
+      "headword": "アクセル",
+      "label": "accelerator, gas pedal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29982_gia",
+      "reading": "ぎあ",
+      "headword": "ギア",
+      "label": "gear (of a vehicle)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-17T23:54:42Z",
-    "modified": "2026-08-29T12:18:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

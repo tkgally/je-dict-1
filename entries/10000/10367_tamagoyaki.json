@@ -52,17 +52,60 @@
       "headword": "{卵|たまご}",
       "label": "egg",
       "target_id": "02222_tamago"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08601_dashimakitamago",
+      "reading": "だしまきたまご",
+      "headword": "{出汁巻|だしま}き{卵|たまご}",
+      "label": "Japanese rolled omelet"
+    },
+    {
+      "type": "related",
+      "target_id": "10807_omuretsu",
+      "reading": "おむれつ",
+      "headword": "オムレツ",
+      "label": "omelette"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21371_dashimaki",
+      "reading": "だしまき",
+      "headword": "{出汁巻|だしま}き",
+      "label": "dashi-rolled omelette"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23737_sukuranburueggu",
+      "reading": "すくらんぶるえっぐ",
+      "headword": "スクランブルエッグ",
+      "label": "scrambled eggs"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26099_iritamago",
+      "reading": "いりたまご",
+      "headword": "{炒|い}り{卵|たまご}",
+      "label": "scrambled eggs (Japanese-style)"
+    },
+    {
+      "type": "related",
+      "target_id": "27125_atsuyaki",
+      "reading": "あつやき",
+      "headword": "{厚焼|あつや}き",
+      "label": "thick-grilled"
     }
   ],
   "metadata": {
     "created": "2026-02-07T08:30:48Z",
-    "modified": "2026-08-14T01:00:44Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food"
       ]

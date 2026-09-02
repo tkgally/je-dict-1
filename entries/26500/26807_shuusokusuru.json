@@ -3,7 +3,7 @@
   "headword": "{収束|しゅうそく}する",
   "reading": "しゅうそくする",
   "romaji": "shuusoku suru",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to converge; to subside; to come under control",
   "definitions": [
     {
@@ -80,7 +80,29 @@
     }
   ],
   "notes": "Gained widespread everyday usage during pandemic reporting. In general use, describes a crisis or disturbance gradually coming to an end. In mathematics and science, has the precise meaning of approaching a limit.\n\nCOMMON COLLOCATIONS:\n- {事態|じたい}が{収束|しゅうそく}する: the situation subsides\n- {収束|しゅうそく}に{向|む}かう: to head toward resolution\n- {収束|しゅうそく}の{見通|みとお}し: outlook for resolution\n- {早期|そうき}{収束|しゅうそく}: early resolution\n\nSIMILAR WORDS:\n- {終息|しゅうそく}: complete end/cessation — same pronunciation but written differently; implies total termination rather than gradual subsiding\n- {沈静化|ちんせいか}する: to calm down — focuses on quieting rather than reaching a conclusion\n- {解決|かいけつ}する: to resolve — implies finding a solution, while {収束|しゅうそく} describes the natural winding down of a situation\n\nNOTE ON HOMOPHONES:\n{収束|しゅうそく} (convergence, subsiding) vs. {終息|しゅうそく} (complete end). Both are used for crises, but {収束|しゅうそく} implies things are coming under control, while {終息|しゅうそく} means completely over.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16713_shuusoku",
+      "reading": "しゅうそく",
+      "headword": "{終息|しゅうそく}",
+      "label": "complete end/cessation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19510_chinseika",
+      "reading": "ちんせいか",
+      "headword": "{沈静化|ちんせいか}",
+      "label": "to calm down"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17191_kaiketsusuru",
+      "reading": "かいけつする",
+      "headword": "{解決|かいけつ}する",
+      "label": "to resolve"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -98,7 +120,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T12:08:27Z",
-    "modified": "2026-05-05T12:08:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

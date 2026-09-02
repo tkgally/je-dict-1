@@ -3,7 +3,7 @@
   "headword": "{誤認|ごにん}",
   "reading": "ごにん",
   "romaji": "gonin",
-  "part_of_speech": "noun (する verb)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "misidentification",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {誤|ご} (mistake, error) + {認|にん} (recognition). A formal word indicating that someone has incorrectly identified or perceived something. Frequently appears in news reporting, especially regarding police and legal matters.\n\nCOMMON COLLOCATIONS:\n- {誤認|ごにん}{逮捕|たいほ}: wrongful arrest\n- {誤認|ごにん}{請求|せいきゅう}: billing error; mistaken claim\n- {人物|じんぶつ}{誤認|ごにん}: misidentification of a person\n- {事実|じじつ}{誤認|ごにん}: factual error\n\nSIMILAR WORDS:\n- {誤解|ごかい}: misunderstanding (about meaning or intent, more conversational)\n- {見間違|みまちが}い: seeing incorrectly, visual mistake (everyday language)\n- {勘違|かんちが}い: misunderstanding, wrong assumption (casual, common)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02769_gokai",
+      "reading": "ごかい",
+      "headword": "{誤解|ごかい}",
+      "label": "misunderstanding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08582_mimachigai",
+      "reading": "みまちがい",
+      "headword": "{見|み}{間違|まちが}い",
+      "label": "seeing incorrectly, visual mistake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17609_kanchigai",
+      "reading": "かんちがい",
+      "headword": "{勘違|かんちが}い",
+      "label": "misunderstanding, wrong assumption"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +76,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "law",
         "abstract"
@@ -60,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-19T11:15:59Z",
-    "modified": "2026-04-19T11:15:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

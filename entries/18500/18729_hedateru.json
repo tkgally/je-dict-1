@@ -3,7 +3,7 @@
   "headword": "{隔|へだ}てる",
   "reading": "へだてる",
   "romaji": "hedateru",
-  "part_of_speech": "ichidan verb, transitive",
+  "part_of_speech": "verb (ichidan, transitive)",
   "gloss": "to separate; to keep apart; to place between",
   "conjugation": {
     "type": "ichidan",
@@ -171,6 +171,29 @@
   ],
   "notes": "{隔|へだ}てる means to place something between two things, creating separation or distance. Used for physical barriers, time intervals, and figurative distance between people.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Related intransitive: {隔|へだ}たる (to be distant, to be separated)\n\nCOMMON PATTERNS:\n- {壁|かべ}を{隔|へだ}てる: with a wall between\n- {海|うみ}を{隔|へだ}てる: across the sea\n- {時|とき}を{隔|へだ}てて: after a passage of time\n- {隔|へだ}てなく: without distinction, impartially\n\nASPECT (ている):\n{隔|へだ}てている describes an ongoing state of separation or distance between two things.\n\nRELATED WORDS:\n- {隔|へだ}たり: gap, distance (physical or emotional, noun form)\n- {隔|へだ}たる: to be distant (intransitive)\n- {分|わ}ける: to divide, to separate (more concrete/everyday)\n- {離|はな}す: to keep apart (more physical)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09618_hedatari",
+      "reading": "へだたり",
+      "headword": "{隔|へだ}たり",
+      "label": "gap, distance"
+    },
+    {
+      "type": "related",
+      "target_id": "02333_wakeru",
+      "reading": "わける",
+      "headword": "{分|わ}ける",
+      "label": "to divide, to separate"
+    },
+    {
+      "type": "related",
+      "target_id": "19372_hanasu",
+      "reading": "はなす",
+      "headword": "{離|はな}す",
+      "label": "to keep apart"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -186,6 +209,6 @@
       "verb_class": "ichidan"
     },
     "created": "2026-03-23T01:56:33Z",
-    "modified": "2026-04-04T12:31:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

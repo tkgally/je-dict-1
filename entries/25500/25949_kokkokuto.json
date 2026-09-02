@@ -17,7 +17,9 @@
       "id": "25949_kokkokuto_ex1",
       "japanese": "{状況|じょうきょう}は{刻々|こっこく}と{変|か}わっている。",
       "english": "The situation is changing moment by moment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25949_kokkokuto_ex2",
       "japanese": "{締|し}め{切|き}りが{刻々|こっこく}と{迫|せま}っている。",
       "english": "The deadline is approaching with each passing minute.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,50 @@
       "id": "25949_kokkokuto_ex3",
       "japanese": "{災害|さいがい}{現場|げんば}の{情報|じょうほう}が{刻々|こっこく}と{入|はい}ってくる。",
       "english": "Information from the disaster site keeps coming in moment by moment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "An adverb formed by repeating {刻|こく} (a unit of time; moment) with the particle と. Conveys urgency and continuous change. Often used in news reporting and descriptions of evolving situations. The repetition of {刻|こく} emphasizes the relentless, unstoppable passage of time.\n\nCOMMON COLLOCATIONS:\n- {刻々|こっこく}と{変|か}わる: to change moment by moment\n- {刻々|こっこく}と{迫|せま}る: to approach minute by minute\n- {刻々|こっこく}と{過|す}ぎる: to pass moment by moment\n- {刻々|こっこく}と{悪化|あっか}する: to worsen by the minute\n\nSIMILAR WORDS:\n- {次々|つぎつぎ}と: one after another — emphasizes succession of events rather than temporal progression\n- {徐々|じょじょ}に: gradually — implies slow change without the urgency of {刻々|こっこく}と\n- {時々刻々|じじこっこく}: every moment (literary) — a more emphatic variant, emphasizing continuous change from hour to hour and minute to minute",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07028_tsugitsugito",
+      "reading": "つぎつぎと",
+      "headword": "{次々|つぎつぎ}と",
+      "label": "one after another"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04131_jojoni",
+      "reading": "じょじょに",
+      "headword": "{徐々|じょじょ}に",
+      "label": "gradually"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19556_jijikokkoku",
+      "reading": "じじこっこく",
+      "headword": "{時々刻々|じじこっこく}",
+      "label": "every moment"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
-      "semantic": ["time-general"]
+      "pos": [
+        "adverb"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "time-general"
+      ]
     },
     "created": "2026-04-28T13:34:06Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

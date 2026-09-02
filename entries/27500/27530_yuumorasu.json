@@ -3,7 +3,7 @@
   "headword": "ユーモラス",
   "reading": "ゆーもらす",
   "romaji": "yuumorasu",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "humorous; funny; comical",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "27530_yuumorasu_ex1",
       "japanese": "{彼|かれ}はユーモラスな{人|ひと}だ。",
       "english": "He's a humorous person.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27530_yuumorasu_ex2",
       "japanese": "ユーモラスな{口調|くちょう}でスピーチを{始|はじ}めた。",
       "english": "He began the speech in a humorous tone.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "27530_yuumorasu_ex3",
       "japanese": "{先生|せんせい}の{話|はなし}はいつもユーモラスで、{学生|がくせい}たちはよく{笑|わら}っている。",
       "english": "The teacher's talks are always humorous, and the students often laugh.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Loanword from English 'humorous'. Conjugates as a na-adjective: ユーモラスな (noun-modifier), ユーモラスだ / です (predicate).\n\nCOMMON COLLOCATIONS:\n- ユーモラスな{人|ひと}: humorous person\n- ユーモラスな{表情|ひょうじょう}: a funny / amusing expression\n- ユーモラスな{描写|びょうしゃ}: humorous depiction\n- ユーモラスに{語|かた}る: to relate something humorously\n\nSIMILAR WORDS:\n- {面白|おもしろ}い: interesting; funny — much broader; covers both 'interesting' and 'funny'\n- ユーモアがある: 'has a sense of humor' — describes a person's quality; ユーモラス describes the impression they create\n- {滑稽|こっけい}な: comical; ludicrous — often implies unintentional silliness, sometimes mocking",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00589_omoshiroi",
+      "reading": "おもしろい",
+      "headword": "{面白|おもしろ}い",
+      "label": "interesting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07914_kokkei",
+      "reading": "こっけい",
+      "headword": "{滑稽|こっけい}",
+      "label": "comical"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["personality", "emotions"],
+      "politeness": "plain",
+      "semantic": [
+        "personality",
+        "emotions"
+      ],
       "domain": []
     },
     "created": "2026-05-13T04:08:10Z",
-    "modified": "2026-05-13T04:08:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

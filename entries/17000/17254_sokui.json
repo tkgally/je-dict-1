@@ -19,7 +19,9 @@
       "english": "Check your current location with GPS positioning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17254_sokui_ex2",
@@ -27,7 +29,9 @@
       "english": "The accuracy of satellite positioning systems has improved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17254_sokui_ex3",
@@ -35,21 +39,44 @@
       "english": "Positioning accuracy can decrease inside buildings.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{測位|そくい} refers to the process of determining a geographical position, especially using satellite or electronic technology.\n\nWORD FORMATION:\n{測|そく} (measure) + {位|い} (position) = measuring position\n\nCOMMON COMPOUNDS:\n- GPS{測位|そくい}: GPS positioning\n- {衛星|えいせい}{測位|そくい}: satellite positioning\n- {測位|そくい}システム: positioning system\n- {測位|そくい}{精度|せいど}: positioning accuracy\n- {測位|そくい}{衛星|えいせい}: positioning satellite\n\nHOMOPHONE WARNING:\nDo not confuse with {即位|そくい} (accession to the throne), which has the same reading but completely different meaning and kanji.\n\nREGISTER:\nTechnical term used in navigation, surveying, and technology contexts. In everyday conversation, people are more likely to say {位置|いち}{情報|じょうほう} (location information) or GPS.\n\nRELATED WORDS:\n- {測量|そくりょう}: surveying, land measurement\n- {位置|いち}: position, location\n- {測定|そくてい}: measurement",
-  "cross_references": [],
+  "notes": "{測位|そくい} refers to the process of determining a geographical position, especially using satellite or electronic technology.\n\nFORMS:\n{測|そく} (measure) + {位|い} (position) = measuring position\n\nCOMPOUNDS:\n- GPS{測位|そくい}: GPS positioning\n- {衛星|えいせい}{測位|そくい}: satellite positioning\n- {測位|そくい}システム: positioning system\n- {測位|そくい}{精度|せいど}: positioning accuracy\n- {測位|そくい}{衛星|えいせい}: positioning satellite\n\nWATCH OUT:\nDo not confuse with {即位|そくい} (accession to the throne), which has the same reading but completely different meaning and kanji.\n\nREGISTER:\nTechnical term used in navigation, surveying, and technology contexts. In everyday conversation, people are more likely to say {位置|いち}{情報|じょうほう} (location information) or GPS.\n\nRELATED WORDS:\n- {測量|そくりょう}: surveying, land measurement\n- {位置|いち}: position, location\n- {測定|そくてい}: measurement",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11554_ichi",
+      "reading": "いち",
+      "headword": "{位置|いち}",
+      "label": "position, location"
+    },
+    {
+      "type": "related",
+      "target_id": "04398_sokutei",
+      "reading": "そくてい",
+      "headword": "{測定|そくてい}",
+      "label": "measurement"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T02:18:00Z",
-    "modified": "2026-04-04T12:31:47Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["technical"],
-      "semantic": ["technology"]
+      "domain": [
+        "technical"
+      ],
+      "semantic": [
+        "technology"
+      ]
     }
   }
 }

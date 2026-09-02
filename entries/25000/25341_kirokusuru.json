@@ -3,7 +3,7 @@
   "headword": "{記録|きろく}する",
   "reading": "きろくする",
   "romaji": "kirokusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to record; to document; to register",
   "definitions": [
     {
@@ -81,6 +81,50 @@
   ],
   "notes": "A versatile suru-verb with two distinct uses. Sense 1 (to document) covers any act of preserving information — writing notes, filming, logging data, etc. Sense 2 (to register a figure) is commonly seen in news about weather records, economic figures, and sports achievements.\n\nThe noun form {記録|きろく} means \"record\" or \"documentation\" and appears in many compounds.\n\nCOMMON COLLOCATIONS:\n- {記録|きろく}に{残|のこ}す: to leave on record\n- {記録|きろく}を{更新|こうしん}する: to break/update a record\n- {記録|きろく}を{保持|ほじ}する: to hold a record\n- {映像|えいぞう}に{記録|きろく}する: to record on video\n- {世界|せかい}{記録|きろく}: world record\n- {記録|きろく}{的|てき}な: record-breaking\n\nSIMILAR WORDS:\n- {録音|ろくおん}する: to record (audio) — specifically for sound recording\n- {録画|ろくが}する: to record (video) — specifically for video recording\n- {記載|きさい}する: to describe; to state in writing — formal, used for official documents",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25388_rokuonsuru",
+      "reading": "ろくおんする",
+      "headword": "{録音|ろくおん}する",
+      "label": "to record"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04441_rokuga",
+      "reading": "ろくが",
+      "headword": "{録画|ろくが}",
+      "label": "to record"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14169_kisai",
+      "reading": "きさい",
+      "headword": "{記載|きさい}",
+      "label": "to describe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06730_kakitomeru",
+      "reading": "かきとめる",
+      "headword": "{書|か}き{留|と}める",
+      "label": "to write down"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25227_tourokusuru",
+      "reading": "とうろくする",
+      "headword": "{登録|とうろく}する",
+      "label": "to register"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25501_memosuru",
+      "reading": "めもする",
+      "headword": "メモする",
+      "label": "to jot down"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -88,6 +132,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "communication"
@@ -95,7 +140,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T15:25:08Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -17,7 +17,9 @@
       "id": "30491_warabi_ex1",
       "japanese": "{山|やま}で{蕨|わらび}を{採|と}った。",
       "english": "We picked bracken in the mountains.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30491_warabi_ex2",
       "japanese": "{蕨|わらび}は{灰汁|あく}{抜|ぬ}きをしてから{食|た}べる。",
       "english": "Bracken is eaten after removing its bitterness.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "30491_warabi_ex3",
       "japanese": "{春|はる}になると、{祖母|そぼ}が{蕨|わらび}やぜんまいを{煮物|にもの}にしてくれた。",
       "english": "When spring came, my grandmother would cook bracken and royal fern into simmered dishes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -46,19 +52,45 @@
       "reading": "あくぬき",
       "headword": "{灰汁|あく}{抜|ぬ}き",
       "label": "removing bitterness before cooking"
+    },
+    {
+      "type": "related",
+      "target_id": "30495_zenmai",
+      "reading": "ぜんまい",
+      "headword": "ぜんまい",
+      "label": "royal fern"
+    },
+    {
+      "type": "related",
+      "target_id": "17667_takenoko",
+      "reading": "たけのこ",
+      "headword": "{筍|たけのこ}",
+      "label": "bamboo shoots"
+    },
+    {
+      "type": "related",
+      "target_id": "30496_fukinotou",
+      "reading": "ふきのとう",
+      "headword": "ふきのとう",
+      "label": "butterbur bud"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["plant-general", "food"],
+      "politeness": "plain",
+      "semantic": [
+        "plant-general",
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-08-07T18:18:04Z",
-    "modified": "2026-08-07T18:18:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

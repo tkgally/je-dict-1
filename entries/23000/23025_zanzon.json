@@ -3,7 +3,7 @@
   "headword": "{残存|ざんぞん}",
   "reading": "ざんぞん",
   "romaji": "zanzon",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "survival; remaining; continued existence",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A formal word describing things that persist or survive, often implying that most others of the same kind are gone. Frequently used in academic, historical, and scientific writing.\n\nCOMMON COLLOCATIONS:\n- {残存|ざんぞん}する: to remain, to survive\n- {残存|ざんぞん}{勢力|せいりょく}: remaining forces\n- {残存|ざんぞん}{率|りつ}: survival rate, residual rate\n- {残存|ざんぞん}{価値|かち}: residual value\n- {残存|ざんぞん}{期間|きかん}: remaining period\n\nSIMILAR WORDS:\n- {残|のこ}る: to remain — everyday verb for things left behind; {残存|ざんぞん} is more formal and emphasizes survival over time\n- {現存|げんそん}: extant, currently existing — emphasizes that something exists now, often used for historical artifacts\n- {存続|そんぞく}: continuation, survival — emphasizes ongoing maintenance or continuation of an organization or system",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01187_nokoru",
+      "reading": "のこる",
+      "headword": "{残|のこ}る",
+      "label": "to remain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13544_genson",
+      "reading": "げんそん",
+      "headword": "{現存|げんそん}",
+      "label": "extant, currently existing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12242_sonzoku",
+      "reading": "そんぞく",
+      "headword": "{存続|そんぞく}",
+      "label": "continuation, survival"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-08T16:24:58Z",
-    "modified": "2026-04-08T16:24:58Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

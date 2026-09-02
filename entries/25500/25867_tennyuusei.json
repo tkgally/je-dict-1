@@ -55,7 +55,29 @@
     }
   ],
   "notes": "Composed of {転入|てんにゅう} (transfer in) + {生|せい} (student). A common trope in Japanese anime and manga is the mysterious or exciting {転入生|てんにゅうせい} who disrupts the classroom dynamic. In real life, transfer students are common in Japan due to the frequency of corporate relocations ({転勤|てんきん}).\n\nCOMMON COLLOCATIONS:\n- {転入生|てんにゅうせい}が{来|く}る: a transfer student arrives\n- {転入生|てんにゅうせい}を{迎|むか}える: welcome a transfer student\n- {転入生|てんにゅうせい}の{自己紹介|じこしょうかい}: transfer student's self-introduction\n- {転入|てんにゅう}{手続|てつづ}き: transfer enrollment procedures\n\nSIMILAR WORDS:\n- {転校生|てんこうせい}: transfer student (more common in everyday speech)\n- {編入生|へんにゅうせい}: student admitted mid-course (university level)\n- {留学生|りゅうがくせい}: international/exchange student (different concept)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19652_tenkousei",
+      "reading": "てんこうせい",
+      "headword": "{転校生|てんこうせい}",
+      "label": "transfer student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22044_hennyuusei",
+      "reading": "へんにゅうせい",
+      "headword": "{編入生|へんにゅうせい}",
+      "label": "student admitted mid-course"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02986_ryuugakusei",
+      "reading": "りゅうがくせい",
+      "headword": "{留学生|りゅうがくせい}",
+      "label": "international/exchange student"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,12 +85,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "education",
         "person"
       ]
     },
     "created": "2026-04-27T16:21:44Z",
-    "modified": "2026-08-04T21:27:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

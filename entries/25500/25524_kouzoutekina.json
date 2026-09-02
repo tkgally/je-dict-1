@@ -3,7 +3,7 @@
   "headword": "{構造的|こうぞうてき}な",
   "reading": "こうぞうてきな",
   "romaji": "kouzoutekina",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "structural; systemic",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "25524_kouzoutekina_ex1",
       "japanese": "これは{構造的|こうぞうてき}な{問題|もんだい}だ。",
       "english": "This is a structural problem.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25524_kouzoutekina_ex2",
       "japanese": "{構造的|こうぞうてき}な{改革|かいかく}が{求|もと}められている。",
       "english": "Structural reform is being called for.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,52 @@
       "id": "25524_kouzoutekina_ex3",
       "japanese": "{日本|にほん}{経済|けいざい}は{構造的|こうぞうてき}な{課題|かだい}を{抱|かか}えていると{指摘|してき}されている。",
       "english": "It has been pointed out that the Japanese economy faces structural challenges.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {構造|こうぞう} (structure) + {的|てき} (adjectival suffix) + な. Used in academic, political, and economic discussions to describe problems, changes, or features that are deeply embedded in a system. Implies that surface-level fixes won't help — the issue is fundamental.\n\nCOMMON COLLOCATIONS:\n- {構造的|こうぞうてき}な{問題|もんだい}: structural problem\n- {構造的|こうぞうてき}な{改革|かいかく}: structural reform\n- {構造的|こうぞうてき}な{変化|へんか}: structural change\n- {構造的|こうぞうてき}な{欠陥|けっかん}: structural defect\n- {構造的|こうぞうてき}{不況|ふきょう}: structural recession\n\nSIMILAR WORDS:\n- {根本的|こんぽんてき}な: fundamental; root — emphasizes getting to the root cause\n- {体系的|たいけいてき}な: systematic — describes something organized methodically\n- {組織的|そしきてき}な: organizational — relating to the organization or its systems",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17920_konponteki",
+      "reading": "こんぽんてき",
+      "headword": "{根本的|こんぽんてき}",
+      "label": "fundamental"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18636_taikeiteki",
+      "reading": "たいけいてき",
+      "headword": "{体系的|たいけいてき}",
+      "label": "systematic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27175_soshikiteki",
+      "reading": "そしきてき",
+      "headword": "{組織的|そしきてき}",
+      "label": "organizational"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
-      "semantic": ["evaluation", "economics"]
+      "pos": [
+        "adjective-na"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "evaluation",
+        "economics"
+      ]
     },
     "created": "2026-04-25T15:22:34Z",
-    "modified": "2026-04-25T15:22:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

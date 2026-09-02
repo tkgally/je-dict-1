@@ -17,7 +17,9 @@
       "id": "23306_jikyuusou_ex1",
       "japanese": "{持久走|じきゅうそう}が{苦手|にがて}だ。",
       "english": "I'm not good at long-distance running.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23306_jikyuusou_ex2",
       "japanese": "{体育|たいいく}の{授業|じゅぎょう}で{持久走|じきゅうそう}をした。",
       "english": "We did an endurance run in PE class.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23306_jikyuusou_ex3",
       "japanese": "{冬|ふゆ}になると{学校|がっこう}で{持久走|じきゅうそう}{大会|たいかい}がある。",
       "english": "In winter, schools hold endurance-running competitions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,45 @@
       "id": "23306_jikyuusou_ex4",
       "japanese": "{持久走|じきゅうそう}を{続|つづ}けていると、{体力|たいりょく}がついてくる。",
       "english": "If you keep doing endurance running, you build up stamina.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {持久|じきゅう} (endurance, lasting) + {走|そう} (running). Refers specifically to long-distance running as a form of exercise or fitness testing. In Japanese schools, {持久走|じきゅうそう} is a staple of winter PE classes, often culminating in a {持久走|じきゅうそう}{大会|たいかい} (endurance-running competition) where students run distances from 1 km up to several kilometers.\n\nCOMMON COLLOCATIONS:\n- {持久走|じきゅうそう}{大会|たいかい}: endurance-run competition\n- {持久走|じきゅうそう}が{苦手|にがて}: bad at endurance running\n- {持久走|じきゅうそう}をする: to do endurance running\n- {持久走|じきゅうそう}の{練習|れんしゅう}: endurance-running practice\n\nSIMILAR WORDS:\n- マラソン: marathon — technically a specific 42.195 km race, but used loosely in Japanese for any long-distance run\n- {長距離走|ちょうきょりそう}: long-distance running — the formal athletic-event term\n- ジョギング: jogging — more casual, for fitness at a relaxed pace\n\nCULTURAL NOTE:\n{持久走|じきゅうそう}{大会|たいかい} is a well-known Japanese school event, often associated with cold winter weather and mixed feelings among students — seen as tough training but also a rite of passage.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04732_marason",
+      "reading": "まらそん",
+      "headword": "マラソン",
+      "label": "marathon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04738_jogingu",
+      "reading": "じょぎんぐ",
+      "headword": "ジョギング",
+      "label": "jogging"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["sports", "education"]
+      "semantic": [
+        "sports",
+        "education"
+      ]
     },
     "created": "2026-04-11T17:04:08Z",
-    "modified": "2026-04-11T17:04:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

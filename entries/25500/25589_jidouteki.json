@@ -3,7 +3,7 @@
   "headword": "{自動的|じどうてき}",
   "reading": "じどうてき",
   "romaji": "jidouteki",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "automatic; automated",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "25589_jidouteki_ex1",
       "japanese": "{自動的|じどうてき}に{更新|こうしん}される。",
       "english": "It is updated automatically.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25589_jidouteki_ex2",
       "japanese": "データは{自動的|じどうてき}にバックアップされる。",
       "english": "The data is backed up automatically.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,43 @@
       "id": "25589_jidouteki_ex3",
       "japanese": "このシステムでは、{異常|いじょう}が{検出|けんしゅつ}されると{自動的|じどうてき}に{管理者|かんりしゃ}へ{通知|つうち}が{届|とど}く。",
       "english": "In this system, when an anomaly is detected, a notification is automatically sent to the administrator.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A na-adjective formed from {自動|じどう} (automatic) and the adjectival suffix {的|てき}. Most commonly used in its adverbial form {自動的|じどうてき}に to describe actions that happen without human intervention.\n\nWidely used in technology, business, and everyday contexts involving machines, software, and systems.\n\nCOMMON COLLOCATIONS:\n- {自動的|じどうてき}に{処理|しょり}する: to process automatically\n- {自動的|じどうてき}に{保存|ほぞん}される: to be saved automatically\n- {自動的|じどうてき}に{送信|そうしん}する: to send automatically\n- {自動的|じどうてき}な{制御|せいぎょ}: automatic control\n\nSIMILAR WORDS:\n- {自動|じどう}: automatic — the base noun/prefix, used in compounds like {自動|じどう}ドア (automatic door)\n- オートマチック: automatic — the English loanword, used more in casual or product contexts\n- {機械的|きかいてき}: mechanical — emphasizes machine-like, repetitive action rather than self-operation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27864_kikaiteki",
+      "reading": "きかいてき",
+      "headword": "{機械的|きかいてき}",
+      "label": "mechanical"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30288_hitorideni",
+      "reading": "ひとりでに",
+      "headword": "ひとりでに",
+      "label": "by itself"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
-      "semantic": ["technology"]
+      "pos": [
+        "adjective-na"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "technology"
+      ]
     },
     "created": "2026-04-26T12:31:15Z",
-    "modified": "2026-04-26T12:31:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

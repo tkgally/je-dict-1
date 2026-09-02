@@ -3,7 +3,7 @@
   "headword": "{幻想的|げんそうてき}",
   "reading": "げんそうてき",
   "romaji": "gensouteki",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "fantastical; dreamlike; illusory",
   "definitions": [
     {
@@ -62,6 +62,20 @@
       "headword": "{幻想|げんそう}",
       "reading": "げんそう",
       "label": "illusion; fantasy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21894_shinpiteki",
+      "reading": "しんぴてき",
+      "headword": "{神秘的|しんぴてき}",
+      "label": "mysterious"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25937_kuusouteki",
+      "reading": "くうそうてき",
+      "headword": "{空想的|くうそうてき}",
+      "label": "imaginary"
     }
   ],
   "schema_version": "2.0",
@@ -71,12 +85,13 @@
       "pos": [
         "adjective-na"
       ],
+      "politeness": "plain",
       "semantic": [
         "evaluation",
         "art"
       ]
     },
     "created": "2026-04-27T12:14:23Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

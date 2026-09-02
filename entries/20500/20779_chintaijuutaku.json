@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {賃貸|ちんたい} (rental, lease) + {住宅|じゅうたく} (housing, residence). A formal term commonly used in real estate listings, contracts, and housing discussions.\n\nCOMMON COLLOCATIONS:\n- {賃貸住宅|ちんたいじゅうたく}を{探|さが}す: to search for rental housing\n- {賃貸住宅|ちんたいじゅうたく}に{住|す}む: to live in rental housing\n- {賃貸住宅|ちんたいじゅうたく}{経営|けいえい}: rental housing management\n- {公営|こうえい}{賃貸住宅|ちんたいじゅうたく}: public rental housing\n\nSIMILAR WORDS:\n- {賃貸|ちんたい}マンション: rental apartment building — specifically refers to a condominium-style building\n- {借家|しゃくや}: rented house — more colloquial, typically refers to a standalone house\n- {分譲住宅|ぶんじょうじゅうたく}: housing for sale — the opposite, housing sold to individual owners\n\nNOTE:\nIn everyday conversation, the abbreviation {賃貸|ちんたい} is often used alone, especially in real estate contexts (e.g., {賃貸|ちんたい}で{探|さが}す means \"to search for rentals\").",
+  "notes": "Composed of {賃貸|ちんたい} (rental, lease) + {住宅|じゅうたく} (housing, residence). A formal term commonly used in real estate listings, contracts, and housing discussions.\n\nCOMMON COLLOCATIONS:\n- {賃貸住宅|ちんたいじゅうたく}を{探|さが}す: to search for rental housing\n- {賃貸住宅|ちんたいじゅうたく}に{住|す}む: to live in rental housing\n- {賃貸住宅|ちんたいじゅうたく}{経営|けいえい}: rental housing management\n- {公営|こうえい}{賃貸住宅|ちんたいじゅうたく}: public rental housing\n\nSIMILAR WORDS:\n- {賃貸|ちんたい}マンション: rental apartment building — specifically refers to a condominium-style building\n- {借家|しゃくや}: rented house — more colloquial, typically refers to a standalone house\n- {分譲住宅|ぶんじょうじゅうたく}: housing for sale — the opposite, housing sold to individual owners\n\nUSAGE:\nIn everyday conversation, the abbreviation {賃貸|ちんたい} is often used alone, especially in real estate contexts (e.g., {賃貸|ちんたい}で{探|さが}す means \"to search for rentals\").",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29494_shakuya",
+      "reading": "しゃくや",
+      "headword": "{借家|しゃくや}",
+      "label": "rented house"
+    },
+    {
+      "type": "antonym",
+      "target_id": "23884_bunjoujuutaku",
+      "reading": "ぶんじょうじゅうたく",
+      "headword": "{分譲住宅|ぶんじょうじゅうたく}",
+      "label": "housing for sale"
+    },
+    {
+      "type": "related",
+      "target_id": "00195_kashiya",
+      "reading": "かしや",
+      "headword": "{貸家|かしや}",
+      "label": "house for rent"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-30T16:09:33Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

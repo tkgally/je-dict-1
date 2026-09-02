@@ -3,7 +3,7 @@
   "headword": "{逃|に}げ{込|こ}む",
   "reading": "にげこむ",
   "romaji": "nigekomu",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to run into; to escape into; to take refuge in",
   "definitions": [
     {
@@ -45,7 +45,36 @@
     }
   ],
   "notes": "A compound verb combining {逃|に}げる (to escape) with {込|こ}む (into). The {込|こ}む component adds the nuance of entering or going deep into a space. Can be used both for literal physical escape and for casual situations like ducking out of rain.\n\nCOMMON COLLOCATIONS:\n- {建物|たてもの}に{逃|に}げ{込|こ}む: to run into a building\n- {部屋|へや}に{逃|に}げ{込|こ}む: to escape into a room\n- {茂|しげ}みに{逃|に}げ{込|こ}む: to dart into the bushes\n- {安全|あんぜん}な{場所|ばしょ}に{逃|に}げ{込|こ}む: to take refuge in a safe place\n\nSIMILAR WORDS:\n- {逃|に}げる: to escape, to flee — general fleeing without specifying a destination\n- {駆|か}け{込|こ}む: to rush into — emphasizes speed of entry rather than escape\n- {飛|と}び{込|こ}む: to jump into — physical leaping into a space\n- {逃|に}げ{出|だ}す: to run away from — emphasizes leaving rather than entering a refuge\n\nTRANSITIVITY:\nIntransitive. The destination is marked with に.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01151_nigeru",
+      "reading": "にげる",
+      "headword": "{逃|に}げる",
+      "label": "to escape, to flee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06112_kakekomu",
+      "reading": "かけこむ",
+      "headword": "{駆|か}け{込|こ}む",
+      "label": "to rush into"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04614_tobikomu",
+      "reading": "とびこむ",
+      "headword": "{飛|と}び{込|こ}む",
+      "label": "to jump into"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06041_nigedasu",
+      "reading": "にげだす",
+      "headword": "{逃|に}げ{出|だ}す",
+      "label": "to run away from"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,7 +90,7 @@
       "verb_class": "godan-mu"
     },
     "created": "2026-05-05T12:16:01Z",
-    "modified": "2026-05-05T12:16:01Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

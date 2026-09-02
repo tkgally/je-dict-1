@@ -17,7 +17,9 @@
       "id": "19237_bouonshitsu_ex1",
       "japanese": "{防音室|ぼうおんしつ}でピアノを{弾|ひ}く。",
       "english": "To play the piano in a soundproof room.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19237_bouonshitsu_ex2",
       "japanese": "マンションに{防音室|ぼうおんしつ}を{設置|せっち}した。",
       "english": "I installed a soundproof room in my apartment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "19237_bouonshitsu_ex3",
       "japanese": "{夜|よる}でも{気兼|きが}ねなく{楽器|がっき}を{練習|れんしゅう}できるように{防音室|ぼうおんしつ}を{作|つく}った。",
       "english": "I built a soundproof room so I can practice instruments at night without worrying.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{防音室|ぼうおんしつ} is a room designed to block sound transmission, used for music practice, recording, and other noise-sensitive activities.\n\nWORD FORMATION:\n{防音|ぼうおん} (soundproofing) + {室|しつ} (room).\n\nRELATED TERMS:\n- {防音|ぼうおん}{材|ざい}: soundproofing material\n- {防音|ぼうおん}{工事|こうじ}: soundproofing construction work\n- {遮音|しゃおん}: sound insulation\n- {吸音|きゅうおん}: sound absorption\n- {録音|ろくおん}スタジオ: recording studio\n\nCULTURAL CONTEXT:\nPopular in Japan because apartments (マンション) typically have thin walls. Musicians and hobbyists often install prefabricated {防音室|ぼうおんしつ} units (such as ヤマハの{防音室|ぼうおんしつ}) inside their homes to practice instruments without disturbing neighbors, especially at night.",
+  "notes": "{防音室|ぼうおんしつ} is a room designed to block sound transmission, used for music practice, recording, and other noise-sensitive activities.\n\nFORMS:\n{防音|ぼうおん} (soundproofing) + {室|しつ} (room).\n\nRELATED WORDS:\n- {防音|ぼうおん}{材|ざい}: soundproofing material\n- {防音|ぼうおん}{工事|こうじ}: soundproofing construction work\n- {遮音|しゃおん}: sound insulation\n- {吸音|きゅうおん}: sound absorption\n- {録音|ろくおん}スタジオ: recording studio\n\nCULTURAL NOTE:\nPopular in Japan because apartments (マンション) typically have thin walls. Musicians and hobbyists often install prefabricated {防音室|ぼうおんしつ} units (such as ヤマハの{防音室|ぼうおんしつ}) inside their homes to practice instruments without disturbing neighbors, especially at night.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19182_shaon",
+      "reading": "しゃおん",
+      "headword": "{遮音|しゃおん}",
+      "label": "sound insulation"
+    },
+    {
+      "type": "related",
+      "target_id": "19206_kyuuon",
+      "reading": "きゅうおん",
+      "headword": "{吸音|きゅうおん}",
+      "label": "sound absorption"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building", "music"]
+      "semantic": [
+        "building",
+        "music"
+      ]
     },
     "created": "2026-03-25T01:39:05Z",
-    "modified": "2026-07-23T12:19:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

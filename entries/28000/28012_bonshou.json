@@ -17,7 +17,9 @@
       "id": "28012_bonshou_ex1",
       "japanese": "{遠|とお}くで{梵鐘|ぼんしょう}が{鳴|な}っている。",
       "english": "A temple bell is ringing in the distance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28012_bonshou_ex2",
       "japanese": "この{寺|てら}の{梵鐘|ぼんしょう}は{江戸時代|えどじだい}に{作|つく}られた。",
       "english": "This temple's bell was cast in the Edo period.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,39 @@
       "id": "28012_bonshou_ex3",
       "japanese": "{大晦日|おおみそか}には{除夜|じょや}の{鐘|かね}として{梵鐘|ぼんしょう}を{百八回|ひゃくはちかい}{突|つ}く。",
       "english": "On New Year's Eve, the temple bell is struck 108 times as the joya-no-kane.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A large bronze temple bell, struck from outside by a swinging wooden beam ({撞木|しゅもく}) rather than an internal clapper.\n\nCOMMON COLLOCATIONS:\n- {梵鐘|ぼんしょう}を{突|つ}く / つく: to strike the temple bell\n- {梵鐘|ぼんしょう}が{鳴|な}る: the temple bell rings\n\nSIMILAR WORDS:\n- {鐘|かね}: bell — the general word for any bell\n- {除夜|じょや}の{鐘|かね}: the New Year's Eve bell-ringing, traditionally 108 strikes of a {梵鐘|ぼんしょう}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16977_joyanokane",
+      "reading": "じょやのかね",
+      "headword": "{除夜|じょや}の{鐘|かね}",
+      "label": "the New Year's Eve bell-ringing…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["religion", "culture"],
+      "politeness": "plain",
+      "semantic": [
+        "religion",
+        "culture"
+      ],
       "domain": []
     },
     "created": "2026-05-24T03:09:30Z",
-    "modified": "2026-05-24T03:09:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

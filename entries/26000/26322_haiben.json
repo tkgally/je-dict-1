@@ -3,7 +3,7 @@
   "headword": "{排便|はいべん}",
   "reading": "はいべん",
   "romaji": "haiben",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "defecation; bowel movement",
   "definitions": [
     {
@@ -44,8 +44,44 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {排|はい} (expel, discharge) and {便|べん} (stool, feces). Like {排尿|はいにょう}, this is a medical/formal term. In everyday conversation, Japanese speakers say トイレに{行|い}く or use euphemisms rather than {排便|はいべん} directly. The word appears on medical questionnaires, in health articles, and in conversations with doctors.\n\nCOMMON COLLOCATIONS:\n- {排便|はいべん}{習慣|しゅうかん}: bowel habits\n- {排便|はいべん}{障害|しょうがい}: defecation disorder\n- {排便|はいべん}{困難|こんなん}: difficulty defecating\n- {排便|はいべん}{回数|かいすう}: bowel movement frequency\n- {排便|はいべん}を{促|うなが}す: to promote bowel movements\n\nRELATED TERMS:\n- {排尿|はいにょう}: urination — the corresponding term for urinary function\n- {便秘|べんぴ}: constipation — insufficient or difficult bowel movements\n- {下痢|げり}: diarrhea — excessively frequent or loose bowel movements\n- お{通|つう}じ: bowel movement (polite, everyday term)",
-  "cross_references": [],
+  "notes": "Composed of {排|はい} (expel, discharge) and {便|べん} (stool, feces). Like {排尿|はいにょう}, this is a medical/formal term. In everyday conversation, Japanese speakers say トイレに{行|い}く or use euphemisms rather than {排便|はいべん} directly. The word appears on medical questionnaires, in health articles, and in conversations with doctors.\n\nCOMMON COLLOCATIONS:\n- {排便|はいべん}{習慣|しゅうかん}: bowel habits\n- {排便|はいべん}{障害|しょうがい}: defecation disorder\n- {排便|はいべん}{困難|こんなん}: difficulty defecating\n- {排便|はいべん}{回数|かいすう}: bowel movement frequency\n- {排便|はいべん}を{促|うなが}す: to promote bowel movements\n\nRELATED WORDS:\n- {排尿|はいにょう}: urination — the corresponding term for urinary function\n- {便秘|べんぴ}: constipation — insufficient or difficult bowel movements\n- {下痢|げり}: diarrhea — excessively frequent or loose bowel movements\n- お{通|つう}じ: bowel movement (polite, everyday term)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "26321_hainyou",
+      "reading": "はいにょう",
+      "headword": "{排尿|はいにょう}",
+      "label": "urination"
+    },
+    {
+      "type": "related",
+      "target_id": "05383_benpi",
+      "reading": "べんぴ",
+      "headword": "{便秘|べんぴ}",
+      "label": "constipation"
+    },
+    {
+      "type": "related",
+      "target_id": "05382_geri",
+      "reading": "げり",
+      "headword": "{下痢|げり}",
+      "label": "diarrhea"
+    },
+    {
+      "type": "related",
+      "target_id": "28832_otsuuji",
+      "reading": "おつうじ",
+      "headword": "お{通|つう}じ",
+      "label": "bowel movement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24207_daiben",
+      "reading": "だいべん",
+      "headword": "{大便|だいべん}",
+      "label": "feces"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +90,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "health",
         "action"
@@ -61,7 +98,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-30T16:23:14Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

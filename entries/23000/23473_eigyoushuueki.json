@@ -17,7 +17,9 @@
       "id": "23473_eigyoushuueki_ex1",
       "japanese": "{営業収益|えいぎょうしゅうえき}が{前年比|ぜんねんひ}で{増加|ぞうか}した。",
       "english": "Operating revenue increased compared to the previous year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23473_eigyoushuueki_ex2",
       "japanese": "{今期|こんき}の{営業収益|えいぎょうしゅうえき}は{過去最高|かこさいこう}を{記録|きろく}した。",
       "english": "Operating revenue this fiscal period hit a record high.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "23473_eigyoushuueki_ex3",
       "japanese": "{鉄道|てつどう}{事業|じぎょう}の{営業収益|えいぎょうしゅうえき}は{回復|かいふく}しつつあるが、コロナ{前|まえ}の{水準|すいじゅん}にはまだ{届|とど}いていない。",
       "english": "Operating revenue from the railway business is recovering, but it has not yet reached pre-COVID levels.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {営業|えいぎょう} (business, operations) and {収益|しゅうえき} (revenue, earnings). An accounting and financial term that refers specifically to income from a company's primary business activities.\n\nCOMMON COLLOCATIONS:\n- {営業収益|えいぎょうしゅうえき}が{増加|ぞうか}する: operating revenue increases\n- {営業収益|えいぎょうしゅうえき}が{減少|げんしょう}する: operating revenue decreases\n- {営業収益|えいぎょうしゅうえき}を{計上|けいじょう}する: to report operating revenue\n- {連結|れんけつ}{営業収益|えいぎょうしゅうえき}: consolidated operating revenue\n\nSIMILAR WORDS:\n- {売上高|うりあげだか}: sales revenue — more commonly used for companies that sell products; {営業収益|えいぎょうしゅうえき} is used more broadly, especially for service industries like railways and financial institutions\n- {営業利益|えいぎょうりえき}: operating profit — the profit remaining after operating expenses are subtracted from operating revenue\n- {経常利益|けいじょうりえき}: ordinary profit — includes both operating and non-operating income/expenses\n\nNOTE:\nThis term appears frequently in Japanese business news, earnings reports ({決算|けっさん}{発表|はっぴょう}), and financial analysis. It is particularly common for industries like railways, telecommunications, and financial services, which use {営業収益|えいぎょうしゅうえき} rather than {売上高|うりあげだか} in their financial statements.",
+  "notes": "A compound of {営業|えいぎょう} (business, operations) and {収益|しゅうえき} (revenue, earnings). An accounting and financial term that refers specifically to income from a company's primary business activities.\n\nCOMMON COLLOCATIONS:\n- {営業収益|えいぎょうしゅうえき}が{増加|ぞうか}する: operating revenue increases\n- {営業収益|えいぎょうしゅうえき}が{減少|げんしょう}する: operating revenue decreases\n- {営業収益|えいぎょうしゅうえき}を{計上|けいじょう}する: to report operating revenue\n- {連結|れんけつ}{営業収益|えいぎょうしゅうえき}: consolidated operating revenue\n\nSIMILAR WORDS:\n- {売上高|うりあげだか}: sales revenue — more commonly used for companies that sell products; {営業収益|えいぎょうしゅうえき} is used more broadly, especially for service industries like railways and financial institutions\n- {営業利益|えいぎょうりえき}: operating profit — the profit remaining after operating expenses are subtracted from operating revenue\n- {経常利益|けいじょうりえき}: ordinary profit — includes both operating and non-operating income/expenses\n\nUSAGE:\nThis term appears frequently in Japanese business news, earnings reports ({決算|けっさん}{発表|はっぴょう}), and financial analysis. It is particularly common for industries like railways, telecommunications, and financial services, which use {営業収益|えいぎょうしゅうえき} rather than {売上高|うりあげだか} in their financial statements.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12376_uriagedaka",
+      "reading": "うりあげだか",
+      "headword": "{売上高|うりあげだか}",
+      "label": "sales revenue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22690_eigyourieki",
+      "reading": "えいぎょうりえき",
+      "headword": "{営業利益|えいぎょうりえき}",
+      "label": "operating profit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24646_keijourieki",
+      "reading": "けいじょうりえき",
+      "headword": "{経常利益|けいじょうりえき}",
+      "label": "ordinary profit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-04-12T07:47:43Z",
-    "modified": "2026-04-12T07:47:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

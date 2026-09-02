@@ -22,7 +22,9 @@
       "id": "25967_goukakuten_ex1",
       "japanese": "{合格点|ごうかくてん}は{七十点|ななじゅってん}だ。",
       "english": "The passing score is 70 points.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,15 +32,19 @@
       "id": "25967_goukakuten_ex2",
       "japanese": "あと{五点|ごてん}で{合格点|ごうかくてん}に{届|とど}かなかった。",
       "english": "I fell short of the passing score by just five points.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "25967_goukakuten_ex3",
-      "japanese": "{試験|しけん}の{合格点|ごうかくてん}は{毎年|まいとし}{変|か}わるので、{過去|かこ}の{データ|でーた}を{確認|かくにん}しておいた{方|ほう}がいい。",
+      "japanese": "{試験|しけん}の{合格点|ごうかくてん}は{毎年|まいとし}{変|か}わるので、{過去|かこ}のデータを{確認|かくにん}しておいた{方|ほう}がいい。",
       "english": "The passing score changes every year, so you should check past data.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "25967_goukakuten_ex4",
       "japanese": "まあ{合格点|ごうかくてん}だろう。",
       "english": "I'd say it's passable.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "25967_goukakuten_ex5",
       "japanese": "{料理|りょうり}の{味|あじ}は{合格点|ごうかくてん}だが、{盛|も}り{付|つ}けがもう{少|すこ}しほしい。",
       "english": "The taste of the food is acceptable, but the presentation could be a little better.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,21 +72,57 @@
       "id": "25967_goukakuten_ex6",
       "japanese": "{初|はじ}めてにしては{合格点|ごうかくてん}をあげられる{出来栄|できば}えだった。",
       "english": "For a first attempt, the result was good enough to get a passing mark.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {合格|ごうかく} (passing; success) and {点|てん} (score; point). In its literal sense, it refers to the cutoff score on exams. In everyday conversation, it is often used figuratively to evaluate things like food, performance, or work quality, meaning \"good enough\" or \"acceptable.\"\n\nCOMMON COLLOCATIONS:\n- {合格点|ごうかくてん}に{達|たっ}する: to reach the passing score\n- {合格点|ごうかくてん}に{届|とど}かない: to fall short of the passing score\n- {合格点|ごうかくてん}をあげる: to give a passing mark (figurative)\n- {合格点|ごうかくてん}ギリギリ: barely passing\n\nSIMILAR WORDS:\n- {及第点|きゅうだいてん}: passing mark — more formal and literary; also used figuratively\n- {合格|ごうかく}ライン: passing line — often used for the borderline score in competitive entrance exams",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15356_kyuudaiten",
+      "reading": "きゅうだいてん",
+      "headword": "{及第点|きゅうだいてん}",
+      "label": "passing mark"
+    },
+    {
+      "type": "related",
+      "target_id": "03156_manten",
+      "reading": "まんてん",
+      "headword": "{満点|まんてん}",
+      "label": "perfect score, full marks"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21466_heikinten",
+      "reading": "へいきんてん",
+      "headword": "{平均点|へいきんてん}",
+      "label": "average score"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26343_hyakuten",
+      "reading": "ひゃくてん",
+      "headword": "{百点|ひゃくてん}",
+      "label": "perfect score"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["education"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-04-28T14:10:30Z",
-    "modified": "2026-04-28T14:10:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

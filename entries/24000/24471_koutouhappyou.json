@@ -3,7 +3,7 @@
   "headword": "{口頭|こうとう}{発表|はっぴょう}",
   "reading": "こうとうはっぴょう",
   "romaji": "koutouhappyou",
-  "part_of_speech": "noun (する verb)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "oral presentation",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Composed of {口頭|こうとう} (oral, verbal) + {発表|はっぴょう} (presentation, announcement). Refers specifically to presentations delivered by speaking, as opposed to written reports or poster presentations.\n\nCOMMON COLLOCATIONS:\n- {口頭|こうとう}{発表|はっぴょう}を{行|おこな}う: to give an oral presentation\n- {口頭|こうとう}{発表|はっぴょう}の{準備|じゅんび}: preparation for an oral presentation\n- {口頭|こうとう}{発表|はっぴょう}{審査|しんさ}: oral presentation evaluation\n\nSIMILAR WORDS:\n- プレゼンテーション: presentation (loanword, broader usage, common in business)\n- {研究|けんきゅう}{発表|はっぴょう}: research presentation (content-focused rather than format)\n- ポスター{発表|はっぴょう}: poster presentation (format contrast)\n- スピーチ: speech (more general, not necessarily academic)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29053_purezenteeshon",
+      "reading": "ぷれぜんてーしょん",
+      "headword": "プレゼンテーション",
+      "label": "presentation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24674_kenkyuuhappyou",
+      "reading": "けんきゅうはっぴょう",
+      "headword": "{研究発表|けんきゅうはっぴょう}",
+      "label": "research presentation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03852_supiichi",
+      "reading": "すぴーち",
+      "headword": "スピーチ",
+      "label": "speech"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22152_koutoushiken",
+      "reading": "こうとうしけん",
+      "headword": "{口頭|こうとう}{試験|しけん}",
+      "label": "oral examination"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +83,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "education",
         "business"
@@ -60,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-19T11:18:56Z",
-    "modified": "2026-04-19T11:18:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

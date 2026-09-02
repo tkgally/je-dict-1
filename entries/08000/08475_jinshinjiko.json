@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{人身|じんしん} (person, human body) + {事故|じこ} (accident)\n\nCONTEXT:\nIn Japan, this term is commonly heard in train announcements when service is disrupted. It is a euphemism that may include suicide cases, though it covers any accident involving a person on the tracks.\n\nCOMMON ANNOUNCEMENT PHRASES:\n- 「{人身事故|じんしんじこ}のため、{運転|うんてん}を{見合|みあ}わせております」\n  (Service is suspended due to an accident)\n- 「{人身事故|じんしんじこ}の{影響|えいきょう}で{遅|おく}れが{出|で}ています」\n  (There are delays due to an accident)\n\nRELATED:\n- {遅延証明|ちえんしょうめい} - delay certificate\n- {振替輸送|ふりかえゆそう} - alternative transportation\n- {運転再開|うんてんさいかい} - resumption of service",
+  "notes": "COMPOUNDS:\n{人身|じんしん} (person, human body) + {事故|じこ} (accident)\n\nUSAGE:\nIn Japan, this term is commonly heard in train announcements when service is disrupted. It is a euphemism that may include suicide cases, though it covers any accident involving a person on the tracks.\n\nCOMMON ANNOUNCEMENT PHRASES:\n- 「{人身事故|じんしんじこ}のため、{運転|うんてん}を{見合|みあ}わせております」\n  (Service is suspended due to an accident)\n- 「{人身事故|じんしんじこ}の{影響|えいきょう}で{遅|おく}れが{出|で}ています」\n  (There are delays due to an accident)\n\nRELATED WORDS:\n- {遅延証明|ちえんしょうめい} - delay certificate\n- {振替輸送|ふりかえゆそう} - alternative transportation\n- {運転再開|うんてんさいかい} - resumption of service",
   "cross_references": [
     {
       "type": "antonym",
@@ -51,6 +51,62 @@
       "reading": "ぶっそんじこ",
       "headword": "{物損事故|ぶっそんじこ}",
       "label": "property damage accident"
+    },
+    {
+      "type": "related",
+      "target_id": "08476_chienshoumei",
+      "reading": "ちえんしょうめい",
+      "headword": "{遅延証明|ちえんしょうめい}",
+      "label": "delay certificate"
+    },
+    {
+      "type": "related",
+      "target_id": "08352_furikaeyusou",
+      "reading": "ふりかえゆそう",
+      "headword": "{振替輸送|ふりかえゆそう}",
+      "label": "alternative transportation"
+    },
+    {
+      "type": "related",
+      "target_id": "08696_untensaikai",
+      "reading": "うんてんさいかい",
+      "headword": "{運転|うんてん}{再開|さいかい}",
+      "label": "resumption of service"
+    },
+    {
+      "type": "related",
+      "target_id": "08491_hoomudoa",
+      "reading": "ほーむどあ",
+      "headword": "ホームドア",
+      "label": "platform screen door"
+    },
+    {
+      "type": "related",
+      "target_id": "21255_koutsuujiko",
+      "reading": "こうつうじこ",
+      "headword": "{交通事故|こうつうじこ}",
+      "label": "traffic accident"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24064_tsuitotsujiko",
+      "reading": "ついとつじこ",
+      "headword": "{追突事故|ついとつじこ}",
+      "label": "rear-end collision"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24642_busson",
+      "reading": "ぶっそん",
+      "headword": "{物損|ぶっそん}",
+      "label": "property damage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25139_jison",
+      "reading": "じそん",
+      "headword": "{自損|じそん}",
+      "label": "self-inflicted damage"
     }
   ],
   "metadata": {
@@ -60,12 +116,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "transportation",
         "general"
       ]
     },
     "created": "2026-01-27T03:47:32Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

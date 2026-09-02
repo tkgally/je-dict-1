@@ -19,7 +19,9 @@
       "english": "Armor is on display at the museum.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14541_yoroi_ex2",
@@ -27,7 +29,9 @@
       "english": "The samurai fought wearing armor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14541_yoroi_ex3",
@@ -35,21 +39,42 @@
       "english": "Some families display armor and helmets for the Boys' Day festival.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Refers specifically to Japanese-style armor unless otherwise qualified. Western-style armor is usually distinguished as {西洋|せいよう}の{鎧|よろい}.\n\nCOMMON COLLOCATIONS:\n- {鎧|よろい}を{着|き}る / {鎧|よろい}を{身|み}につける (to put on armor)\n- {鎧|よろい}{兜|かぶと} (armor and helmet — a set phrase)\n- {鎧|よろい}を{脱|ぬ}ぐ (to remove armor; figuratively, to drop one's guard)\n\nCULTURAL NOTE:\nJapanese armor ({鎧|よろい}) is displayed during {端午|たんご}の{節句|せっく} (Boys' Day, May 5) as a symbol of strength and protection for boys.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15370_kacchuu",
+      "reading": "かっちゅう",
+      "headword": "{甲冑|かっちゅう}",
+      "label": "armor and helmet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30741_soukou",
+      "reading": "そうこう",
+      "headword": "{装甲|そうこう}",
+      "label": "armour plating"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T06:25:52Z",
-    "modified": "2026-03-02T06:25:52Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ]
     }
   }
 }

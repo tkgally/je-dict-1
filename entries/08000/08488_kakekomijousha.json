@@ -43,7 +43,30 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{駆|か}け{込|こ}む (to rush in) + {乗車|じょうしゃ} (boarding a train)\n\nSAFETY WARNING:\nFrequently announced in stations:\n- {危険|きけん}ですのでおやめください\n- {次|つぎ}の{電車|でんしゃ}をお{待|ま}ちください\n\nCONSEQUENCES:\n- Getting caught in closing doors\n- Missing belongings on platform\n- Causing train delays\n\nRELATED:\n- {発車|はっしゃ}ベル - departure bell\n- ホームドア - platform screen doors\n- {乗|の}り{遅|おく}れる - to miss a train\n- {次発|じはつ} - next train",
+  "notes": "COMPOUNDS:\n{駆|か}け{込|こ}む (to rush in) + {乗車|じょうしゃ} (boarding a train)\n\nSAFETY WARNING:\nFrequently announced in stations:\n- {危険|きけん}ですのでおやめください\n- {次|つぎ}の{電車|でんしゃ}をお{待|ま}ちください\n\nCONSEQUENCES:\n- Getting caught in closing doors\n- Missing belongings on platform\n- Causing train delays\n\nRELATED WORDS:\n- {発車|はっしゃ}ベル - departure bell\n- ホームドア - platform screen doors\n- {乗|の}り{遅|おく}れる - to miss a train\n- {次発|じはつ} - next train",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08491_hoomudoa",
+      "reading": "ほーむどあ",
+      "headword": "ホームドア",
+      "label": "platform screen doors"
+    },
+    {
+      "type": "related",
+      "target_id": "04621_noriokureru",
+      "reading": "のりおくれる",
+      "headword": "{乗|の}り{遅|おく}れる",
+      "label": "to miss a train"
+    },
+    {
+      "type": "related",
+      "target_id": "06112_kakekomu",
+      "reading": "かけこむ",
+      "headword": "{駆|か}け{込|こ}む",
+      "label": "to rush in"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +74,13 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "transportation",
         "general"
       ]
     },
     "created": "2026-01-27T08:12:28Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

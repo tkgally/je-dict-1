@@ -78,11 +78,40 @@
       ]
     }
   ],
-  "notes": "USAGE: {灰色|はいいろ} literally means 'ash color.' It can describe actual gray things or figuratively refer to ambiguous, suspicious situations.\n\nCOMMON PATTERNS:\n- {灰色|はいいろ}の + noun (gray ~)\n- {灰色|はいいろ}っぽい (grayish)\n\nFIGURATIVE USAGE:\n- {灰色|はいいろ}⟦{高官|こうかん}→高官：noentry⟧ (gray official - suspected of corruption)\n- {灰色|はいいろ}⟦{地帯|ちたい}→地帯：04057_chitai⟧ (gray zone - legal ambiguity)\n- ⟦{白|しろ}→白：13854_shiro⟧でも⟦{黒|くろ}→黒：02205_kuro⟧でもない (neither white nor black)\n\nRELATED COLORS:\n- ⟦{白|しろ}→白：13854_shiro⟧ (white)\n- ⟦{黒|くろ}→黒：02205_kuro⟧ (black)\n- グレー (gray - loanword)",
-  "cross_references": [],
+  "notes": "USAGE: {灰色|はいいろ} literally means 'ash color.' It can describe actual gray things or figuratively refer to ambiguous, suspicious situations.\n\nCOMMON PATTERNS:\n- {灰色|はいいろ}の + noun (gray ~)\n- {灰色|はいいろ}っぽい (grayish)\n\nUSAGE:\n- {灰色|はいいろ}⟦{高官|こうかん}→高官：noentry⟧ (gray official - suspected of corruption)\n- {灰色|はいいろ}⟦{地帯|ちたい}→地帯：04057_chitai⟧ (gray zone - legal ambiguity)\n- ⟦{白|しろ}→白：13854_shiro⟧でも⟦{黒|くろ}→黒：02205_kuro⟧でもない (neither white nor black)\n\nRELATED COLORS:\n- ⟦{白|しろ}→白：13854_shiro⟧ (white)\n- ⟦{黒|くろ}→黒：02205_kuro⟧ (black)\n- グレー (gray - loanword)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13854_shiro",
+      "reading": "しろ",
+      "headword": "{白|しろ}",
+      "label": "white"
+    },
+    {
+      "type": "related",
+      "target_id": "02205_kuro",
+      "reading": "くろ",
+      "headword": "{黒|くろ}",
+      "label": "black"
+    },
+    {
+      "type": "related",
+      "target_id": "24406_guree",
+      "reading": "ぐれー",
+      "headword": "グレー",
+      "label": "gray"
+    },
+    {
+      "type": "related",
+      "target_id": "05068_giniro",
+      "reading": "ぎんいろ",
+      "headword": "{銀色|ぎんいろ}",
+      "label": "silver color"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T00:58:16Z",
-    "modified": "2026-05-30T18:11:57Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

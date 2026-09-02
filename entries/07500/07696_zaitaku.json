@@ -2,7 +2,7 @@
   "id": "07696_zaitaku",
   "headword": "{在宅|ざいたく}",
   "reading": "ざいたく",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "staying at home; being home; remote work",
   "conjugation": {
     "type": "suru",
@@ -168,10 +168,40 @@
       "notes": null
     }
   ],
-  "notes": "ETYMOLOGY:\n{在|ざい} (being at) + {宅|たく} (home)\n\nCOMMON COMPOUNDS:\n・{在宅勤務|ざいたくきんむ} - remote work, working from home (WFH)\n・{在宅|ざいたく}ワーク - remote work\n・{在宅医療|ざいたくいりょう} - home healthcare\n\nMODERN USAGE:\nThe term became particularly common during and after the COVID-19 pandemic when many companies adopted remote work policies.\n\nRELATED WORK TERMS:\n・{出社|しゅっしゃ} - going to the office\n・{直行|ちょっこう} - going directly (to a site)\n・{直帰|ちょっき} - going straight home",
+  "notes": "ETYMOLOGY:\n{在|ざい} (being at) + {宅|たく} (home)\n\nCOMPOUNDS:\n- {在宅勤務|ざいたくきんむ} - remote work, working from home (WFH)\n- {在宅|ざいたく}ワーク - remote work\n- {在宅医療|ざいたくいりょう} - home healthcare\n\nMODERN USAGE:\nThe term became particularly common during and after the COVID-19 pandemic when many companies adopted remote work policies.\n\nRELATED WORK TERMS:\n- {出社|しゅっしゃ} - going to the office\n- {直行|ちょっこう} - going directly (to a site)\n- {直帰|ちょっき} - going straight home",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06155_shussha",
+      "reading": "しゅっしゃ",
+      "headword": "{出社|しゅっしゃ}",
+      "label": "going to the office"
+    },
+    {
+      "type": "related",
+      "target_id": "07698_chokkou",
+      "reading": "ちょっこう",
+      "headword": "{直行|ちょっこう}",
+      "label": "going directly"
+    },
+    {
+      "type": "related",
+      "target_id": "07699_chokki",
+      "reading": "ちょっき",
+      "headword": "{直帰|ちょっき}",
+      "label": "going straight home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22905_iegomori",
+      "reading": "いえごもり",
+      "headword": "{家|いえ}ごもり",
+      "label": "staying home"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -180,6 +210,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "work",
         "daily-life"

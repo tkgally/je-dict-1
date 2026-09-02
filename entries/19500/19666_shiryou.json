@@ -17,7 +17,9 @@
       "id": "19666_shiryou_ex1",
       "japanese": "{家畜|かちく}に{飼料|しりょう}を{与|あた}える。",
       "english": "Give feed to the livestock.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19666_shiryou_ex2",
       "japanese": "{飼料|しりょう}の{価格|かかく}が{上|あ}がっている。",
       "english": "Feed prices are rising.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,65 @@
       "id": "19666_shiryou_ex3",
       "japanese": "{輸入|ゆにゅう}{飼料|しりょう}への{依存|いぞん}を{減|へ}らすため、{国産|こくさん}{飼料|しりょう}の{生産|せいさん}を{増|ふ}やす{取|と}り{組|く}みが{進|すす}んでいる。",
       "english": "Efforts are underway to increase domestic feed production in order to reduce dependence on imported feed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {飼|し} (to raise animals, to feed) and {料|りょう} (material, ingredient). The standard formal term for animal feed used in agriculture, news, and economics.\n\nUSAGE:\nA homophone of {資料|しりょう} (materials, documents) — context usually makes the meaning clear. {飼料|しりょう} appears frequently in news about agriculture, food prices, and trade, since Japan imports much of its livestock feed.\n\nCOMMON COLLOCATIONS:\n- {配合|はいごう}{飼料|しりょう} — compound/mixed feed\n- {飼料|しりょう}{米|まい} — feed rice (rice grown for animal feed)\n- {飼料|しりょう}{用|よう} — for feed use\n- {飼料|しりょう}{価格|かかく} — feed prices\n\nSIMILAR WORDS:\n- {餌|えさ} — food for animals; general term, also used for pets and bait\n- {肥料|ひりょう} — fertilizer; for plants, not animals\n- {資料|しりょう} — materials, documents; homophone with different meaning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01886_esa",
+      "reading": "えさ",
+      "headword": "{餌|えさ}",
+      "label": "food for animals"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06102_hiryou",
+      "reading": "ひりょう",
+      "headword": "{肥料|ひりょう}",
+      "label": "fertilizer"
+    },
+    {
+      "type": "homophone",
+      "target_id": "04166_shiryou",
+      "reading": "しりょう",
+      "headword": "{資料|しりょう}",
+      "label": "materials, documents"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25486_bokusou",
+      "reading": "ぼくそう",
+      "headword": "{牧草|ぼくそう}",
+      "label": "pasture grass"
+    },
+    {
+      "type": "related",
+      "target_id": "26957_hoshikusa",
+      "reading": "ほしくさ",
+      "headword": "{干|ほ}し{草|くさ}",
+      "label": "hay"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-03-26T11:44:35Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{商|あきな}う",
   "reading": "あきなう",
   "romaji": "akinau",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to trade; to deal in; to sell",
   "conjugation": {
     "type": "godan",
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "A godan verb (う row) meaning to trade or sell goods. More literary and traditional than {売|う}る or {販売|はんばい}する. Often used when describing established businesses, family trades, or historical commerce. Related to the noun {商|あきな}い (trade, business).\n\nETYMOLOGY:\nDerived from {秋|あき}{な}う, originally referring to the harvest-season trade that took place in autumn. The kanji {商|しょう} (commerce) is used as an ateji.\n\nCOMMON COLLOCATIONS:\n- {魚|さかな}を{商|あきな}う — to deal in fish\n- {呉服|ごふく}を{商|あきな}う — to deal in kimono fabrics\n- {酒|さけ}を{商|あきな}う — to deal in sake\n- {代々|だいだい}{商|あきな}う — to trade for generations\n\nSIMILAR WORDS:\n- {売|う}る — to sell; the everyday word for selling, while {商|あきな}う implies running a trade as an ongoing business\n- {商売|しょうばい}する — to do business; more general and modern, while {商|あきな}う has a traditional flavor",
+  "notes": "A godan verb (う row) meaning to trade or sell goods. More literary and traditional than {売|う}る or {販売|はんばい}する. Often used when describing established businesses, family trades, or historical commerce. Related to the noun {商|あきな}い (trade, business).\n\nETYMOLOGY:\nDerived from {秋|あき}なう, originally referring to the harvest-season trade that took place in autumn. The kanji {商|しょう} (commerce) is used as an ateji.\n\nCOMMON COLLOCATIONS:\n- {魚|さかな}を{商|あきな}う — to deal in fish\n- {呉服|ごふく}を{商|あきな}う — to deal in kimono fabrics\n- {酒|さけ}を{商|あきな}う — to deal in sake\n- {代々|だいだい}{商|あきな}う — to trade for generations\n\nSIMILAR WORDS:\n- {売|う}る — to sell; the everyday word for selling, while {商|あきな}う implies running a trade as an ongoing business\n- {商売|しょうばい}する — to do business; more general and modern, while {商|あきな}う has a traditional flavor",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00906_uru",
+      "reading": "うる",
+      "headword": "{売|う}る",
+      "label": "to sell"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03239_shoubai",
+      "reading": "しょうばい",
+      "headword": "{商売|しょうばい}",
+      "label": "to do business"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -150,6 +166,6 @@
       "verb_class": "godan-u"
     },
     "created": "2026-03-26T07:25:06Z",
-    "modified": "2026-03-26T07:25:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

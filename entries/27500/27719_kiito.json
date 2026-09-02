@@ -17,7 +17,9 @@
       "id": "27719_kiito_ex1",
       "japanese": "{生糸|きいと}は{蚕|かいこ}から{作|つく}られる。",
       "english": "Raw silk is made from silkworms.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27719_kiito_ex2",
       "japanese": "この{町|まち}は{昔|むかし}{生糸|きいと}の{生産|せいさん}で{栄|さか}えた。",
       "english": "This town once prospered from raw silk production.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "27719_kiito_ex3",
       "japanese": "{明治|めいじ}{時代|じだい}、{生糸|きいと}は{日本|にほん}の{重要|じゅうよう}な{輸出品|ゆしゅつひん}だった。",
       "english": "In the Meiji era, raw silk was an important Japanese export.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {生|き} (raw, unprocessed) + {糸|いと} (thread). Raw silk is reeled from cocoons and later refined into the finished silk used for fabric.\n\nCOMMON COLLOCATIONS:\n- {生糸|きいと}の{生産|せいさん}: raw silk production\n- {生糸|きいと}を{輸出|ゆしゅつ}する: to export raw silk\n- {生糸|きいと}の{値段|ねだん}: the price of raw silk\n\nNOTE:\nRaw silk was a major export driving Japan's modernization in the Meiji era. Related words: {養蚕|ようさん} (silkworm raising) and {絹|きぬ} (silk fabric).",
+  "notes": "Composed of {生|き} (raw, unprocessed) + {糸|いと} (thread). Raw silk is reeled from cocoons and later refined into the finished silk used for fabric.\n\nCOMMON COLLOCATIONS:\n- {生糸|きいと}の{生産|せいさん}: raw silk production\n- {生糸|きいと}を{輸出|ゆしゅつ}する: to export raw silk\n- {生糸|きいと}の{値段|ねだん}: the price of raw silk\n\nUSAGE:\nRaw silk was a major export driving Japan's modernization in the Meiji era. Related words: {養蚕|ようさん} (silkworm raising) and {絹|きぬ} (silk fabric).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21218_kaiko",
+      "reading": "かいこ",
+      "headword": "{蚕|かいこ}",
+      "label": "silkworm"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26461_kenshi",
+      "reading": "けんし",
+      "headword": "{繭糸|けんし}",
+      "label": "silk thread"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["clothing", "materials"],
+      "politeness": "plain",
+      "semantic": [
+        "clothing",
+        "materials"
+      ],
       "domain": []
     },
     "created": "2026-05-17T04:06:49Z",
-    "modified": "2026-05-17T04:06:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

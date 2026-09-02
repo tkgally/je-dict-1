@@ -17,7 +17,9 @@
       "id": "26130_shouyuyaki_ex1",
       "japanese": "{餅|もち}の{醤油焼|しょうゆや}きが{好|す}きだ。",
       "english": "I like mochi grilled with soy sauce.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26130_shouyuyaki_ex2",
       "japanese": "{鶏肉|とりにく}を{醤油焼|しょうゆや}きにして{弁当|べんとう}に{入|い}れた。",
       "english": "I grilled chicken with soy sauce and put it in my lunch box.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,51 @@
       "id": "26130_shouyuyaki_ex3",
       "japanese": "{秋刀魚|さんま}の{醤油焼|しょうゆや}きは、{香|かお}ばしい{匂|にお}いが{食欲|しょくよく}をそそる。",
       "english": "The savory aroma of soy sauce-grilled sanma whets the appetite.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {醤油|しょうゆ} (soy sauce) and {焼|や}き (grilling, frying). One of the most basic and common Japanese cooking methods, found in home cooking, bento preparation, and restaurant menus.\n\nThe method is simple: brush or pour soy sauce over the ingredient during grilling or pan-frying. The heat causes the soy sauce to caramelize, producing the characteristic aromatic glaze. Sometimes {味醂|みりん} (mirin) or {砂糖|さとう} (sugar) is added for sweetness.\n\nCOMMON COLLOCATIONS:\n- {醤油焼|しょうゆや}きにする: to grill with soy sauce\n- {餅|もち}の{醤油焼|しょうゆや}き: mochi grilled with soy sauce\n- {魚|さかな}の{醤油焼|しょうゆや}き: fish grilled with soy sauce\n- {鶏|とり}の{醤油焼|しょうゆや}き: chicken grilled with soy sauce\n\nSIMILAR WORDS:\n- {塩焼|しおや}き: salt grilling — grilling seasoned with salt instead of soy sauce; the most basic grilling method for fish\n- {照|て}り{焼|や}き: teriyaki — soy sauce-based glaze with mirin and sugar, producing a thicker, shinier coating than plain {醤油焼|しょうゆや}き\n- {味噌焼|みそや}き: miso grilling — grilling with miso paste as the seasoning\n- {素焼|すや}き: plain grilling — grilling without any seasoning",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12120_shioyaki",
+      "reading": "しおやき",
+      "headword": "{塩焼|しおや}き",
+      "label": "salt grilling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17668_teriyaki",
+      "reading": "てりやき",
+      "headword": "{照|て}り{焼|や}き",
+      "label": "teriyaki"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24657_suyaki",
+      "reading": "すやき",
+      "headword": "{素焼|すや}き",
+      "label": "plain grilling"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-29T14:36:43Z",
-    "modified": "2026-04-29T14:36:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

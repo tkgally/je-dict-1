@@ -2,7 +2,7 @@
   "id": "05772_mesomeso",
   "headword": "めそめそ",
   "reading": "めそめそ",
-  "part_of_speech": "adverb, verb (suru)",
+  "part_of_speech": "adverb, suru verb",
   "gloss": "whimpering, sniveling",
   "conjugation": {
     "type": "suru",
@@ -153,11 +153,26 @@
       ]
     }
   ],
-  "notes": "めそめそ is a mimetic word describing weak, pitiful crying or whimpering.\n\nUSAGE:\nOften carries a slightly negative or impatient tone, suggesting the speaker wants the crying to stop. Used when someone cries in a weak, drawn-out manner.\n\nCOMMON PATTERNS:\n- めそめそ⟦{泣|な}く→泣く：00655_naku⟧: to whimper, cry pitifully\n- めそめそ⟦する→する：00392_suru⟧: to be tearful, snivel\n- めそめそしないで: stop whimpering\n\nTONE:\nImplies the crying is excessive, unwarranted, or annoying. Often used when telling someone to toughen up.\n\nCONTRAST:\n- ⟦わんわん→わんわん：05428_wanwan⟧⟦{泣|な}く→泣く：00655_naku⟧: to cry loudly (like a child)\n- ⟦しくしく→しくしく：05373_shikushiku⟧⟦{泣|な}く→泣く：00655_naku⟧: to sob quietly\n- ⟦{泣|な}く→泣く：00655_naku⟧: to cry (neutral)",
-  "cross_references": [],
+  "notes": "めそめそ is a mimetic word describing weak, pitiful crying or whimpering.\n\nUSAGE:\nOften carries a slightly negative or impatient tone, suggesting the speaker wants the crying to stop. Used when someone cries in a weak, drawn-out manner.\n\nCOMMON PATTERNS:\n- めそめそ⟦{泣|な}く→泣く：00655_naku⟧: to whimper, cry pitifully\n- めそめそ⟦する→する：00392_suru⟧: to be tearful, snivel\n- めそめそしないで: stop whimpering\n\nREGISTER:\nImplies the crying is excessive, unwarranted, or annoying. Often used when telling someone to toughen up.\n\nSIMILAR WORDS:\n- ⟦わんわん→わんわん：05428_wanwan⟧⟦{泣|な}く→泣く：00655_naku⟧: to cry loudly (like a child)\n- ⟦しくしく→しくしく：05373_shikushiku⟧⟦{泣|な}く→泣く：00655_naku⟧: to sob quietly\n- ⟦{泣|な}く→泣く：00655_naku⟧: to cry (neutral)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00655_naku",
+      "reading": "なく",
+      "headword": "{泣|な}く",
+      "label": "to cry"
+    },
+    {
+      "type": "related",
+      "target_id": "08812_oioi",
+      "reading": "おいおい",
+      "headword": "おいおい",
+      "label": "bawling"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T08:46:52Z",
-    "modified": "2026-06-08T14:06:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

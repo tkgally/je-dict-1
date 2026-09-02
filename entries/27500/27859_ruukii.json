@@ -17,7 +17,9 @@
       "id": "27859_ruukii_ex1",
       "japanese": "{彼|かれ}はルーキーだ。",
       "english": "He's a rookie.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27859_ruukii_ex2",
       "japanese": "そのルーキーは{初出場|はつしゅつじょう}で{活躍|かつやく}した。",
       "english": "That rookie performed well in his first appearance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "27859_ruukii_ex3",
       "japanese": "ルーキーながら、{今|いま}シーズンは{何度|なんど}も{試合|しあい}を{決|き}める{活躍|かつやく}を{見|み}せた。",
       "english": "Despite being a rookie, he repeatedly made game-deciding plays this season.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Loanword from English 'rookie.' Most common in professional sports such as baseball and soccer, referring to a first-year player.\n\nCOMMON COLLOCATIONS:\n- ルーキーイヤー: rookie year\n- {期待|きたい}のルーキー: a promising rookie\n- ルーキー{選手|せんしゅ}: a rookie player\n\nSIMILAR WORDS:\n- {新人|しんじん}: newcomer; new employee — broader, used in workplaces as well as sports\n- {初心者|しょしんしゃ}: beginner — focuses on lack of skill, not on being newly arrived",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02500_shinjin",
+      "reading": "しんじん",
+      "headword": "{新人|しんじん}",
+      "label": "newcomer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10149_shoshinsha",
+      "reading": "しょしんしゃ",
+      "headword": "{初心者|しょしんしゃ}",
+      "label": "beginner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07458_shingao",
+      "reading": "しんがお",
+      "headword": "{新顔|しんがお}",
+      "label": "newcomer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports"],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-05-21T04:04:20Z",
-    "modified": "2026-05-21T04:04:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

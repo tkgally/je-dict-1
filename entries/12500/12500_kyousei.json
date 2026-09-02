@@ -3,7 +3,7 @@
   "id": "12500_kyousei",
   "headword": "{強制|きょうせい}",
   "reading": "きょうせい",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "compulsion, coercion, enforcement",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,53 @@
     }
   ],
   "notes": "USAGE:\nUsed as both a noun and a suru verb. The derived na-adjective {強制的|きょうせいてき} (compulsory, forced) is also very common. Carries a negative connotation in most contexts, implying that the action goes against the subject's will.\n\nCOMMON COLLOCATIONS:\n- {強制|きょうせい}する: to force, to compel\n- {強制的|きょうせいてき}に: forcibly, compulsorily\n- {強制|きょうせい}{執行|しっこう}: forced execution (legal term)\n- {強制|きょうせい}{送還|そうかん}: forced deportation\n\nSIMILAR WORDS:\n- {強要|きょうよう}: coercion, demanding (more personal pressure)\n- {義務|ぎむ}: obligation (neutral, institutional)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12538_kyouyou",
+      "reading": "きょうよう",
+      "headword": "{強要|きょうよう}",
+      "label": "coercion, demanding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02647_gimu",
+      "reading": "ぎむ",
+      "headword": "{義務|ぎむ}",
+      "label": "obligation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04236_oshitsukeru",
+      "reading": "おしつける",
+      "headword": "{押|お}し{付|つ}ける",
+      "label": "to press against"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20158_gimuzukeru",
+      "reading": "ぎむづける",
+      "headword": "{義務付|ぎむづ}ける",
+      "label": "to obligate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21959_murijii",
+      "reading": "むりじい",
+      "headword": "{無理強|むりじ}い",
+      "label": "forcing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28603_gimuka",
+      "reading": "ぎむか",
+      "headword": "{義務化|ぎむか}",
+      "label": "making mandatory"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T11:04:11Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

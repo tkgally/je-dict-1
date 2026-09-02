@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\nFrom {竹輪|ちくわ} - literally \"bamboo ring/wheel,\" referring to the bamboo stick used in making it and the ring-like cross-section.\n\nUsually written in hiragana (ちくわ) rather than kanji.\n\nMAKING PROCESS:\nFish paste (すり{身|み}) is wrapped around a bamboo or metal rod, then grilled or steamed. When the stick is removed, a hollow tube remains.\n\nCOMMON PREPARATIONS:\n・おでん - simmered in oden broth\n・{磯辺揚|いそべあ}げ - tempura with nori seaweed\n・{煮物|にもの} - simmered dishes\n・サラダ - salads\n・お{弁当|べんとう} - lunch boxes\n\nPOPULAR SERVING STYLE:\nちくわきゅうり (chikuwa with cucumber stuffed inside) is a simple, popular snack or bento item.\n\nRELATED FISH CAKES:\n・かまぼこ - steamed fish cake (flat)\n・さつま{揚|あ}げ - fried fish cake\n・はんぺん - fluffy white fish cake\n・なると - spiral-patterned fish cake",
+  "notes": "ETYMOLOGY:\nFrom {竹輪|ちくわ} - literally \"bamboo ring/wheel,\" referring to the bamboo stick used in making it and the ring-like cross-section.\n\nUsually written in hiragana (ちくわ) rather than kanji.\n\nMAKING PROCESS:\nFish paste (すり{身|み}) is wrapped around a bamboo or metal rod, then grilled or steamed. When the stick is removed, a hollow tube remains.\n\nCOMMON PREPARATIONS:\n- おでん - simmered in oden broth\n- {磯辺揚|いそべあ}げ - tempura with nori seaweed\n- {煮物|にもの} - simmered dishes\n- サラダ - salads\n- お{弁当|べんとう} - lunch boxes\n\nPOPULAR SERVING STYLE:\nちくわきゅうり (chikuwa with cucumber stuffed inside) is a simple, popular snack or bento item.\n\nRELATED FISH CAKES:\n- かまぼこ - steamed fish cake (flat)\n- さつま{揚|あ}げ - fried fish cake\n- はんぺん - fluffy white fish cake\n- なると - spiral-patterned fish cake",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,32 @@
       "headword": "かまぼこ",
       "label": "fish cake",
       "target_id": "10307_kamaboko"
+    },
+    {
+      "type": "related",
+      "target_id": "07974_satsumaage",
+      "reading": "さつまあげ",
+      "headword": "さつま{揚|あ}げ",
+      "label": "fried fish cake"
+    },
+    {
+      "type": "related",
+      "target_id": "21733_hanpen",
+      "reading": "はんぺん",
+      "headword": "はんぺん",
+      "label": "fluffy white fish cake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26254_agekamaboko",
+      "reading": "あげかまぼこ",
+      "headword": "{揚|あ}げかまぼこ",
+      "label": "deep-fried fish cake"
     }
   ],
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-08-10T18:29:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +81,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food"
       ],

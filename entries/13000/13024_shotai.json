@@ -19,7 +19,9 @@
       "english": "To change the font.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13024_shotai_ex2",
@@ -27,7 +29,9 @@
       "english": "Which typeface will you use for this document?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13024_shotai_ex3",
@@ -35,21 +39,64 @@
       "english": "Japanese has various script styles such as block script and semi-cursive.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{書体|しょたい} refers to the style or design of written characters, covering both traditional calligraphic styles and modern digital typefaces.\n\nTRADITIONAL STYLES:\n- {楷書|かいしょ}: block script (standard, clear strokes)\n- {行書|ぎょうしょ}: semi-cursive script\n- {草書|そうしょ}: cursive script\n\nMODERN TYPEFACES:\n- {明朝体|みんちょうたい}: Ming/serif typeface\n- ゴシック{体|たい}: Gothic/sans-serif typeface\n\nCOMMON COLLOCATIONS:\n- {書体|しょたい}を{選|えら}ぶ: to choose a typeface\n- {書体|しょたい}を{変更|へんこう}する: to change the font\n- {書体|しょたい}の{種類|しゅるい}: types of typefaces\n\nSIMILAR WORDS:\nThe loanword フォント (font) is commonly used in digital contexts and is nearly interchangeable with {書体|しょたい} when referring to computer fonts.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03337_jitai",
+      "reading": "じたい",
+      "headword": "{字体|じたい}",
+      "label": "font, typeface, lettering style"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17416_hisseki",
+      "reading": "ひっせき",
+      "headword": "{筆跡|ひっせき}",
+      "label": "handwriting"
+    },
+    {
+      "type": "related",
+      "target_id": "20915_fonto",
+      "reading": "ふぉんと",
+      "headword": "フォント",
+      "label": "font"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21946_shofuu",
+      "reading": "しょふう",
+      "headword": "{書風|しょふう}",
+      "label": "calligraphic style"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24284_jikei",
+      "reading": "じけい",
+      "headword": "{字形|じけい}",
+      "label": "character shape"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T06:33:33Z",
-    "modified": "2026-03-31T03:49:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["art", "communication"]
+      "semantic": [
+        "art",
+        "communication"
+      ]
     }
   }
 }

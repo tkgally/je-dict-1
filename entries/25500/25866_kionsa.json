@@ -55,7 +55,15 @@
     }
   ],
   "notes": "Composed of {気温|きおん} (air temperature) + {差|さ} (difference). Very common in weather forecasts, health advice, and daily conversation, especially during seasonal transitions when large temperature swings can cause health issues.\n\nCOMMON COLLOCATIONS:\n- {気温差|きおんさ}が{激|はげ}しい: the temperature difference is extreme\n- {気温差|きおんさ}が{大|おお}きい: the temperature gap is large\n- {一日|いちにち}の{気温差|きおんさ}: daily temperature range\n- {朝晩|あさばん}の{気温差|きおんさ}: morning-evening temperature difference\n- {気温差|きおんさ}で{風邪|かぜ}を{引|ひ}く: catch a cold due to temperature changes\n\nUSAGE:\nOften appears in health-related contexts. Japanese weather reports frequently warn about {寒暖差|かんだんさ} (hot-cold difference), which is synonymous. The concept of {寒暖差|かんだんさ}{疲労|ひろう} (fatigue from temperature swings) is commonly discussed in health media.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07865_kandansa",
+      "reading": "かんだんさ",
+      "headword": "{寒暖差|かんだんさ}",
+      "label": "temperature difference"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,12 +71,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "weather",
         "health"
       ]
     },
     "created": "2026-04-27T16:21:44Z",
-    "modified": "2026-04-27T16:21:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

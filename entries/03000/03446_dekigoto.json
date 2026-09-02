@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {出来事|できごと} is a neutral term for events or occurrences. It can be used for anything from daily happenings to major incidents.\n\nCOMMON PATTERNS:\n・⟦{大|おお}きな→大きな：02849_ookina⟧{出来事|できごと} (big event)\n・⟦{小|ちい}さな→小さな：02913_chiisana⟧{出来事|できごと} (small incident)\n・⟦{日常|にちじょう}→日常：01595_nichijou⟧⟦の→の：09472_no⟧{出来事|できごと} (everyday occurrences)\n・⟦{歴史的|れきしてき}→歴史的：05671_rekishiteki⟧な{出来事|できごと} (historical event)\n・⟦{思|おも}いがけない→思いがけない：19375_omoigakenai⟧{出来事|できごと} (unexpected event)\n\nSIMILAR WORDS:\n・⟦{事件|じけん}→事件：01568_jiken⟧ - incident, case (often negative, newsworthy)\n・⟦{事故|じこ}→事故：00851_jiko⟧ - accident\n・⟦イベント→イベント：09594_ibento⟧ - event (often planned, loanword)\n・⟦{催|もよお}し→催し：00295_moyooshi⟧ - event, function (organized)\n・⟦{行事|ぎょうじ}→行事：00078_gyouji⟧ - event, function (scheduled/traditional)",
+  "notes": "USAGE: {出来事|できごと} is a neutral term for events or occurrences. It can be used for anything from daily happenings to major incidents.\n\nCOMMON PATTERNS:\n- ⟦{大|おお}きな→大きな：02849_ookina⟧{出来事|できごと} (big event)\n- ⟦{小|ちい}さな→小さな：02913_chiisana⟧{出来事|できごと} (small incident)\n- ⟦{日常|にちじょう}→日常：01595_nichijou⟧⟦の→の：09472_no⟧{出来事|できごと} (everyday occurrences)\n- ⟦{歴史的|れきしてき}→歴史的：05671_rekishiteki⟧な{出来事|できごと} (historical event)\n- ⟦{思|おも}いがけない→思いがけない：19375_omoigakenai⟧{出来事|できごと} (unexpected event)\n\nSIMILAR WORDS:\n- ⟦{事件|じけん}→事件：01568_jiken⟧ - incident, case (often negative, newsworthy)\n- ⟦{事故|じこ}→事故：00851_jiko⟧ - accident\n- ⟦イベント→イベント：09594_ibento⟧ - event (often planned, loanword)\n- ⟦{催|もよお}し→催し：00295_moyooshi⟧ - event, function (organized)\n- ⟦{行事|ぎょうじ}→行事：00078_gyouji⟧ - event, function (scheduled/traditional)",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,46 @@
       "headword": "{事件|じけん}",
       "label": "incident, case",
       "target_id": "01568_jiken"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00851_jiko",
+      "reading": "じこ",
+      "headword": "{事故|じこ}",
+      "label": "accident"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09594_ibento",
+      "reading": "いべんと",
+      "headword": "イベント",
+      "label": "event"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00295_moyooshi",
+      "reading": "もよおし",
+      "headword": "{催|もよお}し",
+      "label": "event, function"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00078_gyouji",
+      "reading": "ぎょうじ",
+      "headword": "{行事|ぎょうじ}",
+      "label": "event, function"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11635_jishou",
+      "reading": "じしょう",
+      "headword": "{事象|じしょう}",
+      "label": "phenomenon, event"
     }
   ],
   "metadata": {
     "created": "2026-01-12T09:31:00Z",
-    "modified": "2026-05-25T17:33:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

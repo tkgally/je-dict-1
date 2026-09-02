@@ -17,7 +17,9 @@
       "id": "27738_koukaidou_ex1",
       "japanese": "{公会堂|こうかいどう}で{演奏会|えんそうかい}が{開|ひら}かれる。",
       "english": "A concert will be held at the public hall.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27738_koukaidou_ex2",
       "japanese": "{市|し}の{公会堂|こうかいどう}は{駅|えき}の{近|ちか}くにある。",
       "english": "The city's public hall is near the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "27738_koukaidou_ex3",
       "japanese": "その{古|ふる}い{公会堂|こうかいどう}は{歴史的|れきしてき}な{建物|たてもの}として{保存|ほぞん}されている。",
       "english": "That old public hall is preserved as a historic building.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {公|こう} (public) + {会堂|かいどう} (hall, assembly hall). A municipally owned hall used for community gatherings and events.\n\nCOMMON COLLOCATIONS:\n- {市|し}の{公会堂|こうかいどう}: a city public hall\n- {公会堂|こうかいどう}で{開|ひら}く: to hold (an event) at a public hall\n- {公会堂|こうかいどう}を{借|か}りる: to rent a public hall\n\nSIMILAR WORDS:\n- {市民|しみん}{会館|かいかん}: civic center — a similar municipal facility; the more common modern name\n- ホール: hall — a loanword for a performance or event hall, often part of a larger facility",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11169_hooru",
+      "reading": "ほーる",
+      "headword": "ホール",
+      "label": "hall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01586_koudou",
+      "reading": "こうどう",
+      "headword": "{講堂|こうどう}",
+      "label": "auditorium, lecture hall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04119_kaikan",
+      "reading": "かいかん",
+      "headword": "{会館|かいかん}",
+      "label": "meeting hall, assembly hall"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["building"],
+      "politeness": "plain",
+      "semantic": [
+        "building"
+      ],
       "domain": []
     },
     "created": "2026-05-17T04:06:49Z",
-    "modified": "2026-05-17T04:06:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -16,7 +16,9 @@
       "id": "08121_taikakusen_ex1",
       "japanese": "{正方形|せいほうけい}の{対角線|たいかくせん}を{引|ひ}く。",
       "english": "To draw the diagonal of a square.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "08121_taikakusen_ex2",
       "japanese": "{長方形|ちょうほうけい}の{対角線|たいかくせん}の{長|なが}さを{計算|けいさん}する。",
       "english": "To calculate the length of the diagonal of a rectangle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,12 +36,14 @@
       "id": "08121_taikakusen_ex3",
       "japanese": "{六角形|ろっかくけい}には{九本|きゅうほん}の{対角線|たいかくせん}がある。",
       "english": "A hexagon has nine diagonals.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{対角線|たいかくせん} is a line segment connecting two non-adjacent vertices (corners) of a polygon.\n\nKANJI BREAKDOWN:\n- {対|たい}: opposite, facing\n- {角|かく}: angle, corner\n- {線|せん}: line\n\nMATHEMATICS:\nThe number of diagonals in a polygon with n sides is n(n-3)/2. For example, a square has 2 diagonals, a hexagon has 9.\n\nCOMMON EXPRESSIONS:\n- {対角線|たいかくせん}を{引|ひ}く: to draw a diagonal\n- {対角線|たいかくせん}の{長|なが}さ: length of a diagonal\n- {対角線|たいかくせん}で{分|わ}ける: to divide by a diagonal\n\nRELATED TERMS:\n- {斜線|しゃせん}: diagonal/slanted line (general)\n- {対角|たいかく}: diagonal; opposite corners\n- {頂点|ちょうてん}: vertex",
+  "notes": "{対角線|たいかくせん} is a line segment connecting two non-adjacent vertices (corners) of a polygon.\n\nWRITING:\n- {対|たい}: opposite, facing\n- {角|かく}: angle, corner\n- {線|せん}: line\n\nMATHEMATICS:\nThe number of diagonals in a polygon with n sides is n(n-3)/2. For example, a square has 2 diagonals, a hexagon has 9.\n\nCOMMON EXPRESSIONS:\n- {対角線|たいかくせん}を{引|ひ}く: to draw a diagonal\n- {対角線|たいかくせん}の{長|なが}さ: length of a diagonal\n- {対角線|たいかくせん}で{分|わ}ける: to divide by a diagonal\n\nRELATED WORDS:\n- {斜線|しゃせん}: diagonal/slanted line (general)\n- {対角|たいかく}: diagonal; opposite corners\n- {頂点|ちょうてん}: vertex",
   "cross_references": [
     {
       "type": "related",
@@ -45,16 +51,50 @@
       "reading": "しゃせん",
       "headword": "{斜線|しゃせん}",
       "label": "diagonal line (general)"
+    },
+    {
+      "type": "related",
+      "target_id": "05448_chouten",
+      "reading": "ちょうてん",
+      "headword": "{頂点|ちょうてん}",
+      "label": "vertex"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00093_hasu",
+      "reading": "はす",
+      "headword": "{斜|はす}",
+      "label": "diagonal"
+    },
+    {
+      "type": "related",
+      "target_id": "05553_takakukei",
+      "reading": "たかくけい",
+      "headword": "{多角形|たかくけい}",
+      "label": "polygon"
+    },
+    {
+      "type": "related",
+      "target_id": "23382_heikoushihenkei",
+      "reading": "へいこうしへんけい",
+      "headword": "{平行四辺形|へいこうしへんけい}",
+      "label": "parallelogram"
     }
   ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["geometry", "mathematics"]
+      "politeness": "plain",
+      "semantic": [
+        "geometry",
+        "mathematics"
+      ]
     },
     "created": "2026-01-25T05:57:14Z",
-    "modified": "2026-04-20T04:12:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

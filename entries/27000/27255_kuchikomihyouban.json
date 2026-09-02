@@ -17,7 +17,9 @@
       "id": "27255_kuchikomihyouban_ex1",
       "japanese": "{口|くち}コミ{評判|ひょうばん}がいい{店|みせ}。",
       "english": "A shop with good word-of-mouth reviews.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27255_kuchikomihyouban_ex2",
       "japanese": "ネットの{口|くち}コミ{評判|ひょうばん}を{参考|さんこう}にして{選|えら}んだ。",
       "english": "I chose it based on the online reviews.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "27255_kuchikomihyouban_ex3",
       "japanese": "この{商品|しょうひん}は{口|くち}コミ{評判|ひょうばん}がとても{高|たか}く、すぐに{売|う}り{切|き}れてしまった。",
       "english": "This product had very high word-of-mouth ratings and sold out quickly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {口|くち}コミ (word of mouth; reviews) + {評判|ひょうばん} (reputation; reviews). {口|くち}コミ itself is a blend of {口|くち} (mouth) + コミュニケーション (communication), though it is now a standalone word. In modern usage, {口|くち}コミ often refers to online reviews as much as spoken recommendations.\n\nCOMMON COLLOCATIONS:\n- {口|くち}コミ{評判|ひょうばん}が{良|よ}い: to have good reviews\n- {口|くち}コミ{評判|ひょうばん}を{調|しら}べる: to check the reviews\n- {口|くち}コミ{評判|ひょうばん}で{広|ひろ}まる: to spread through word of mouth\n\nSIMILAR WORDS:\n- {口|くち}コミ: word of mouth; reviews — the base term, used alone more often in casual speech\n- {評判|ひょうばん}: reputation; fame — the general concept of public opinion about something\n- レビュー: review — the loanword, used especially for online product and service reviews",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03586_hyouban",
+      "reading": "ひょうばん",
+      "headword": "{評判|ひょうばん}",
+      "label": "reputation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11193_rebyuu",
+      "reading": "れびゅー",
+      "headword": "レビュー",
+      "label": "review"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"],
+      "semantic": [
+        "communication"
+      ],
       "domain": []
     },
     "created": "2026-05-08T11:20:35Z",
-    "modified": "2026-05-08T11:20:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

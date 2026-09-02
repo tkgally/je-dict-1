@@ -19,7 +19,9 @@
       "english": "The investigative authorities have started to act.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18898_sousatoukyoku_ex2",
@@ -27,7 +29,9 @@
       "english": "The investigative authorities have not disclosed the details of the case.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18898_sousatoukyoku_ex3",
@@ -35,22 +39,45 @@
       "english": "According to the investigative authorities, the suspect is denying the charges.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal term found almost exclusively in news reports and legal contexts. Reporters use this term when they do not specify whether the source is police or prosecutors.\n\nCOMMON COLLOCATIONS:\n- {捜査|そうさ}{当局|とうきょく}によると (according to investigative authorities)\n- {捜査|そうさ}{当局|とうきょく}が{捜査|そうさ}を{進|すす}める (authorities advance the investigation)\n- {捜査|そうさ}{当局|とうきょく}の{発表|はっぴょう} (announcement by investigative authorities)\n\nSIMILAR WORDS:\n- {警察|けいさつ}: police — more specific and everyday\n- {検察|けんさつ}: prosecutors — the branch that decides whether to indict\n- {当局|とうきょく}: authorities — more general, not limited to criminal investigation",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01393_keisatsu",
+      "reading": "けいさつ",
+      "headword": "{警察|けいさつ}",
+      "label": "police"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11086_kensatsu",
+      "reading": "けんさつ",
+      "headword": "{検察|けんさつ}",
+      "label": "prosecutors"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:27:24Z",
-    "modified": "2026-03-23T06:27:24Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

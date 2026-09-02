@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{連|れん} (continuous, consecutive) + {休|きゅう} (rest, holiday)\n\nCOMMON VARIATIONS:\n・{三連休|さんれんきゅう} - three-day weekend\n・{四連休|よんれんきゅう} - four-day weekend\n・{大型|おおがた}{連休|れんきゅう} - extended holiday period (like Golden Week)\n・{飛|と}び{石|いし}{連休|れんきゅう} - split holidays (with a work day in between)\n\nJAPANESE HOLIDAY PERIODS:\n・ゴールデンウィーク (GW) - Golden Week (late April to early May)\n・お{盆|ぼん}{休|やす}み - Obon holidays (mid-August)\n・{年末年始|ねんまつねんし} - year-end/new year holidays\n・シルバーウィーク - Silver Week (September)\n\nCOLLOCATIONS:\n・{連休|れんきゅう}を{取|と}る - to take consecutive days off\n・{連休|れんきゅう}{中|ちゅう} - during the holidays\n・{連休|れんきゅう}{明|あ}け - after the holidays end",
+  "notes": "ETYMOLOGY:\n{連|れん} (continuous, consecutive) + {休|きゅう} (rest, holiday)\n\nCOMMON VARIATIONS:\n- {三連休|さんれんきゅう} - three-day weekend\n- {四連休|よんれんきゅう} - four-day weekend\n- {大型|おおがた}{連休|れんきゅう} - extended holiday period (like Golden Week)\n- {飛|と}び{石|いし}{連休|れんきゅう} - split holidays (with a work day in between)\n\nJAPANESE HOLIDAY PERIODS:\n- ゴールデンウィーク (GW) - Golden Week (late April to early May)\n- お{盆|ぼん}{休|やす}み - Obon holidays (mid-August)\n- {年末年始|ねんまつねんし} - year-end/new year holidays\n- シルバーウィーク - Silver Week (September)\n\nCOMMON COLLOCATIONS:\n- {連休|れんきゅう}を{取|と}る - to take consecutive days off\n- {連休|れんきゅう}{中|ちゅう} - during the holidays\n- {連休|れんきゅう}{明|あ}け - after the holidays end",
   "cross_references": [
     {
       "type": "related",
@@ -55,11 +55,25 @@
       "reading": "きゅうじつ",
       "headword": "{休日|きゅうじつ}",
       "label": "day off"
+    },
+    {
+      "type": "related",
+      "target_id": "19115_haruyasumi",
+      "reading": "はるやすみ",
+      "headword": "{春休|はるやす}み",
+      "label": "spring break"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26066_choukikyuuka",
+      "reading": "ちょうききゅうか",
+      "headword": "{長期休暇|ちょうききゅうか}",
+      "label": "long vacation"
     }
   ],
   "metadata": {
     "created": "2026-01-20T10:31:31Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -67,6 +81,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "time-period",
         "culture"

@@ -19,7 +19,9 @@
       "english": "To launch a new business venture.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17985_shinkijigyou_ex2",
@@ -27,7 +29,9 @@
       "english": "We plan to enter a new business venture starting next fiscal year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17985_shinkijigyou_ex3",
@@ -35,22 +39,38 @@
       "english": "The president decided to invest a large sum in developing a new business venture.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA standard business term frequently seen in corporate strategy, news articles, and job postings. Often contrasted with {既存|きそん}{事業|じぎょう} (existing business).\n\nCOMMON COLLOCATIONS:\n- {新規|しんき}{事業|じぎょう}を{立|た}ち{上|あ}げる (to launch a new venture)\n- {新規|しんき}{事業|じぎょう}{開発|かいはつ} (new business development)\n- {新規|しんき}{事業|じぎょう}{部|ぶ} (new business division)\n- {新規|しんき}{事業|じぎょう}に{参入|さんにゅう}する (to enter a new business area)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18121_shinkikaitaku",
+      "reading": "しんきかいたく",
+      "headword": "{新規|しんき}{開拓|かいたく}",
+      "label": "developing new business"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T11:46:56Z",
-    "modified": "2026-03-19T11:46:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

@@ -17,7 +17,9 @@
       "id": "28557_sukoa_ex1",
       "japanese": "{試合|しあい}のスコアは３{対|たい}２だった。",
       "english": "The game's score was 3 to 2.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28557_sukoa_ex2",
       "japanese": "TOEICのスコアが{上|あ}がった。",
       "english": "My TOEIC score went up.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "28557_sukoa_ex3",
       "japanese": "ゴルフのベストスコアを{更新|こうしん}するために{毎週|まいしゅう}{練習|れんしゅう}している。",
       "english": "I practice every week to update my golf best score.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English 'score'. Widely used across sports, video games, and standardized tests. The native word {得点|とくてん} is more common in formal contexts and for individual point totals.\n\nCOMMON COLLOCATIONS:\n- スコアが{上|あ}がる: score goes up\n- スコアを{更新|こうしん}する: to update/break a score\n- スコアを{出|だ}す: to score, to put up a number\n- ハイスコア: high score\n- ベストスコア: best score\n\nSIMILAR WORDS:\n- {得点|とくてん}: points scored — formal, used for individual point totals in games\n- {点数|てんすう}: points/marks — used for test grades and game points",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04909_tokuten",
+      "reading": "とくてん",
+      "headword": "{得点|とくてん}",
+      "label": "points scored"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04543_tensuu",
+      "reading": "てんすう",
+      "headword": "{点数|てんすう}",
+      "label": "points/marks"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11103_fumen",
+      "reading": "ふめん",
+      "headword": "{譜面|ふめん}",
+      "label": "musical score, sheet music"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports"],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-06-02T02:07:31Z",
-    "modified": "2026-06-02T02:07:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

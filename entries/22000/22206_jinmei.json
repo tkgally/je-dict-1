@@ -46,6 +46,36 @@
   ],
   "notes": "Composed of {人|じん} (person) + {名|めい} (name). A formal, categorical term used when discussing names as a topic — in everyday conversation, {名前|なまえ} (name) is far more common.\n\nCOMMON COLLOCATIONS:\n- {人名|じんめい}{辞典|じてん} — dictionary of personal names\n- {人名|じんめい}{用|よう}{漢字|かんじ} — kanji approved for use in names\n- {人名|じんめい}{録|ろく} — name register; directory of people\n- {人名|じんめい}の{由来|ゆらい} — origin of a person's name\n\nSIMILAR WORDS:\n- {名前|なまえ} — name (everyday term; can refer to any name, not just people's)\n- {氏名|しめい} — full name (formal; used on forms and documents)\n- {姓名|せいめい} — family name and given name (formal pair)\n- {人命|じんめい} — human life (same reading but different kanji and meaning)\n\nCULTURAL NOTE:\nIn Japan, {人名|じんめい}{用|よう}{漢字|かんじ} (name-use kanji) is a legally defined set of characters that can be used in given names. Parents must choose characters from this list or the {常用漢字|じょうようかんじ} when registering a child's name.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02234_namae",
+      "reading": "なまえ",
+      "headword": "{名前|なまえ}",
+      "label": "name (everyday term"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04033_shimei",
+      "reading": "しめい",
+      "headword": "{氏名|しめい}",
+      "label": "full name (formal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03764_seimei",
+      "reading": "せいめい",
+      "headword": "{姓名|せいめい}",
+      "label": "family name and given name"
+    },
+    {
+      "type": "homophone",
+      "target_id": "04286_jinmei",
+      "reading": "じんめい",
+      "headword": "{人命|じんめい}",
+      "label": "human life"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,12 +83,12 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "language"
       ]
     },
     "created": "2026-04-05T14:16:30Z",
-    "modified": "2026-04-05T14:16:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

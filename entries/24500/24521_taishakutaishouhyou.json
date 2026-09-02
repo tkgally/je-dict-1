@@ -17,7 +17,9 @@
       "id": "24521_taishakutaishouhyou_ex1",
       "japanese": "{貸借対照表|たいしゃくたいしょうひょう}を{確認|かくにん}してください。",
       "english": "Please check the balance sheet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24521_taishakutaishouhyou_ex2",
       "japanese": "{貸借対照表|たいしゃくたいしょうひょう}から{会社|かいしゃ}の{財務状況|ざいむじょうきょう}がわかる。",
       "english": "You can understand the company's financial condition from the balance sheet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,73 @@
       "id": "24521_taishakutaishouhyou_ex3",
       "japanese": "{決算期|けっさんき}になると{経理部|けいりぶ}は{貸借対照表|たいしゃくたいしょうひょう}や{損益計算書|そんえきけいさんしょ}などの{財務諸表|ざいむしょひょう}の{作成|さくせい}に{追|お}われる。",
       "english": "When the accounting period comes, the accounting department is busy preparing financial statements including the balance sheet and income statement.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Literally \"lending-borrowing comparison table.\" Often abbreviated as B/S (from the English \"balance sheet\") in business contexts. This is one of the three core financial statements, along with the {損益計算書|そんえきけいさんしょ} (income statement) and {キャッシュフロー計算書|けいさんしょ} (cash flow statement).\n\nThe left side ({借方|かりかた}, debit) shows assets, while the right side ({貸方|かしかた}, credit) shows liabilities and equity. The two sides must always balance.\n\nCOMMON COLLOCATIONS:\n- {貸借対照表|たいしゃくたいしょうひょう}を{作成|さくせい}する: to prepare a balance sheet\n- {貸借対照表|たいしゃくたいしょうひょう}の{分析|ぶんせき}: balance sheet analysis\n- {連結|れんけつ}{貸借対照表|たいしゃくたいしょうひょう}: consolidated balance sheet\n\nRELATED TERMS:\n- {損益計算書|そんえきけいさんしょ}: income statement (P/L)\n- {財務諸表|ざいむしょひょう}: financial statements\n- {資産|しさん}: assets\n- {負債|ふさい}: liabilities",
+  "notes": "Literally \"lending-borrowing comparison table.\" Often abbreviated as B/S (from the English \"balance sheet\") in business contexts. This is one of the three core financial statements, along with the {損益計算書|そんえきけいさんしょ} (income statement) and {キャッシュフロー計算書|けいさんしょ} (cash flow statement).\n\nThe left side ({借方|かりかた}, debit) shows assets, while the right side ({貸方|かしかた}, credit) shows liabilities and equity. The two sides must always balance.\n\nCOMMON COLLOCATIONS:\n- {貸借対照表|たいしゃくたいしょうひょう}を{作成|さくせい}する: to prepare a balance sheet\n- {貸借対照表|たいしゃくたいしょうひょう}の{分析|ぶんせき}: balance sheet analysis\n- {連結|れんけつ}{貸借対照表|たいしゃくたいしょうひょう}: consolidated balance sheet\n\nRELATED WORDS:\n- {損益計算書|そんえきけいさんしょ}: income statement (P/L)\n- {財務諸表|ざいむしょひょう}: financial statements\n- {資産|しさん}: assets\n- {負債|ふさい}: liabilities",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24522_sonekikeisansho",
+      "reading": "そんえきけいさんしょ",
+      "headword": "{損益計算書|そんえきけいさんしょ}",
+      "label": "income statement"
+    },
+    {
+      "type": "related",
+      "target_id": "24870_zaimushohyou",
+      "reading": "ざいむしょひょう",
+      "headword": "{財務諸表|ざいむしょひょう}",
+      "label": "financial statements"
+    },
+    {
+      "type": "related",
+      "target_id": "15655_shisan",
+      "reading": "しさん",
+      "headword": "{資産|しさん}",
+      "label": "assets"
+    },
+    {
+      "type": "related",
+      "target_id": "14950_fusai",
+      "reading": "ふさい",
+      "headword": "{負債|ふさい}",
+      "label": "liabilities"
+    },
+    {
+      "type": "related",
+      "target_id": "19601_kessansho",
+      "reading": "けっさんしょ",
+      "headword": "{決算書|けっさんしょ}",
+      "label": "financial statement"
+    },
+    {
+      "type": "related",
+      "target_id": "25816_kessanhoukoku",
+      "reading": "けっさんほうこく",
+      "headword": "{決算報告|けっさんほうこく}",
+      "label": "financial report"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business", "finance"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "finance"
+      ]
     },
     "created": "2026-04-19T13:08:28Z",
-    "modified": "2026-04-19T13:08:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

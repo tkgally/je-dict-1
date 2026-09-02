@@ -27,7 +27,9 @@
       "id": "25901_pointaa_ex1",
       "japanese": "ポインターをボタンの{上|うえ}に{合|あ}わせてクリックする。",
       "english": "Move the pointer over the button and click.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -35,7 +37,9 @@
       "id": "25901_pointaa_ex2",
       "japanese": "マウスを{動|うご}かすとポインターも{動|うご}く。",
       "english": "When you move the mouse, the pointer moves too.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -43,7 +47,9 @@
       "id": "25901_pointaa_ex3",
       "japanese": "{画面上|がめんじょう}のポインターの{形|かたち}が{変|か}わったら、リンクだという{合図|あいず}だ。",
       "english": "When the pointer on the screen changes shape, it's a sign that it's a link.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -51,7 +57,9 @@
       "id": "25901_pointaa_ex4",
       "japanese": "レーザーポインターでスライドを{指|さ}し{示|しめ}す。",
       "english": "I point to the slide with a laser pointer.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -59,7 +67,9 @@
       "id": "25901_pointaa_ex5",
       "japanese": "プレゼンのためにポインターを{用意|ようい}した。",
       "english": "I prepared a pointer for the presentation.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -67,7 +77,9 @@
       "id": "25901_pointaa_ex6",
       "japanese": "{猫|ねこ}がレーザーポインターの{光|ひかり}を{追|お}いかけて{走|はし}り{回|まわ}った。",
       "english": "The cat ran around chasing the laser pointer light.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -75,7 +87,9 @@
       "id": "25901_pointaa_ex7",
       "japanese": "ポインターは{鳥猟|ちょうりょう}に{使|つか}われる{犬種|けんしゅ}だ。",
       "english": "The pointer is a dog breed used for bird hunting.",
-      "sense_numbers": [3],
+      "sense_numbers": [
+        3
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -83,7 +97,9 @@
       "id": "25901_pointaa_ex8",
       "japanese": "ポインターは{獲物|えもの}を{見|み}つけると{動|うご}かずに{立|た}ち{止|ど}まる。",
       "english": "A pointer stands still without moving when it finds prey.",
-      "sense_numbers": [3],
+      "sense_numbers": [
+        3
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -91,22 +107,41 @@
       "id": "25901_pointaa_ex9",
       "japanese": "うちのポインターは{散歩中|さんぽちゅう}に{鳥|とり}を{見|み}つけるとすぐポーズを{取|と}る。",
       "english": "Our pointer immediately strikes a pose when it spots a bird during a walk.",
-      "sense_numbers": [3],
+      "sense_numbers": [
+        3
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"pointer.\" Used across several domains in Japanese: computing, presentations, and dog breeds.\n\nIn computing, ポインター and カーソル are often used interchangeably for the mouse cursor, though technically ポインター refers to the arrow icon and カーソル to the text insertion point.\n\nIn presentations, レーザーポインター is extremely common in Japanese business and academic settings. Note that the use of laser pointers is restricted in some public spaces in Japan due to safety concerns.\n\nCOMMON COLLOCATIONS:\n- マウスポインター: mouse pointer\n- レーザーポインター: laser pointer\n- ポインターを{動|うご}かす: to move the pointer\n- ポインターを{合|あ}わせる: to position the pointer\n\nSIMILAR WORDS:\n- カーソル: cursor — often used interchangeably with ポインター in computing\n- {指|ゆび}し{棒|ぼう}: pointing stick — a physical rod used to point at things on a board\n- マウス: mouse — the input device that controls the pointer",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04413_mausu",
+      "reading": "まうす",
+      "headword": "マウス",
+      "label": "mouse"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["electronics", "animal-general"],
-      "domain": ["technical"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "electronics",
+        "animal-general"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-04-28T11:28:33Z",
-    "modified": "2026-04-28T11:28:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

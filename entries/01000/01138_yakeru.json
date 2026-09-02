@@ -203,18 +203,46 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{焼|や}く→焼く：01123_yaku⟧ (transitive, to grill/burn). Pattern: X⟦が→が：00051_ga⟧{焼|や}ける (X burns/is grilled).\n\nASPECT: ている indicates resulting state. {焼|や}けている = 'is burnt' or 'has been grilled.'\n\nCOMMON PATTERNS:\n・⟦{肉|にく}→肉：02240_niku⟧⟦が→が：00051_ga⟧{焼|や}ける (meat is grilled/done)\n・⟦{家|いえ}→家：00612_ie⟧⟦が→が：00051_ga⟧{焼|や}ける (house burns down)\n・⟦{日|ひ}→日：02249_hi⟧⟦に→に：00314_ni⟧{焼|や}ける (get sunburned)\n・⟦{焼|や}け{跡|あと}→焼け跡：27607_yakeato⟧ (burned remains)\n・⟦{夕焼|ゆうや}け→夕焼け：05045_yuuyake⟧ (sunset glow)\n\nCONTRAST:\n・{焼|や}ける (intransitive): X burns/is grilled\n・⟦{焼|や}く→焼く：01123_yaku⟧ (transitive): burn/grill X\n\nRELATED EXPRESSIONS:\n・⟦{日焼|ひや}け→日焼け：15469_hiyake⟧ (sunburn, suntan—noun)\n・⟦{朝焼|あさや}け→朝焼け：04655_asayake⟧ (morning glow)",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{焼|や}く→焼く：01123_yaku⟧ (transitive, to grill/burn). Pattern: X⟦が→が：00051_ga⟧{焼|や}ける (X burns/is grilled).\n\nASPECT: ている indicates resulting state. {焼|や}けている = 'is burnt' or 'has been grilled.'\n\nCOMMON PATTERNS:\n- ⟦{肉|にく}→肉：02240_niku⟧⟦が→が：00051_ga⟧{焼|や}ける (meat is grilled/done)\n- ⟦{家|いえ}→家：00612_ie⟧⟦が→が：00051_ga⟧{焼|や}ける (house burns down)\n- ⟦{日|ひ}→日：02249_hi⟧⟦に→に：00314_ni⟧{焼|や}ける (get sunburned)\n- ⟦{焼|や}け{跡|あと}→焼け跡：27607_yakeato⟧ (burned remains)\n- ⟦{夕焼|ゆうや}け→夕焼け：05045_yuuyake⟧ (sunset glow)\n\nSIMILAR WORDS:\n- {焼|や}ける (intransitive): X burns/is grilled\n- ⟦{焼|や}く→焼く：01123_yaku⟧ (transitive): burn/grill X\n\nRELATED WORDS:\n- ⟦{日焼|ひや}け→日焼け：15469_hiyake⟧ (sunburn, suntan—noun)\n- ⟦{朝焼|あさや}け→朝焼け：04655_asayake⟧ (morning glow)",
   "cross_references": [
     {
       "type": "see_also",
       "reading": "やく",
       "headword": "{焼|や}く",
       "target_id": "01123_yaku"
+    },
+    {
+      "type": "related",
+      "target_id": "15469_hiyake",
+      "reading": "ひやけ",
+      "headword": "{日焼|ひや}け",
+      "label": "sunburn, suntan—noun"
+    },
+    {
+      "type": "related",
+      "target_id": "04655_asayake",
+      "reading": "あさやけ",
+      "headword": "{朝焼|あさや}け",
+      "label": "morning glow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02312_moeru",
+      "reading": "もえる",
+      "headword": "{燃|も}える",
+      "label": "to burn, to be on fire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20314_hiyakesuru",
+      "reading": "ひやけする",
+      "headword": "{日焼|ひや}けする",
+      "label": "to get sunburned"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:29:11Z",
-    "modified": "2026-08-09T12:26:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -169,8 +169,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {使|し} (use) + {役|えき} (service, duty). The word bridges two domains: labor/employment and grammar.\n\nCOMMON COLLOCATIONS:\n- {使役|しえき}する: to employ; to put to work\n- {使役|しえき}{形|けい}: causative form (grammar)\n- {使役|しえき}{表現|ひょうげん}: causative expression\n- {使役|しえき}{受身|うけみ}: causative-passive (grammar)\n- {使役|しえき}{動詞|どうし}: causative verb\n\nSIMILAR WORDS:\n- {雇用|こよう}: employment, hiring — neutral, modern term for employment relationships\n- {労働|ろうどう}: labor, work — focuses on the work itself rather than making someone work\n- {酷使|こくし}: overwork, exploitation — specifically harsh, excessive use of workers or resources\n\nGRAMMAR NOTE:\nAs a grammatical term, {使役|しえき} is essential for Japanese language learners. The causative form is created by adding -(s)aseru to verbs: {五段|ごだん} verbs change the final vowel to -a and add せる ({書|か}く → {書|か}かせる), while {一段|いちだん} verbs drop る and add させる ({食|た}べる → {食|た}べさせる).",
+  "notes": "Composed of {使|し} (use) + {役|えき} (service, duty). The word bridges two domains: labor/employment and grammar.\n\nCOMMON COLLOCATIONS:\n- {使役|しえき}する: to employ; to put to work\n- {使役|しえき}{形|けい}: causative form (grammar)\n- {使役|しえき}{表現|ひょうげん}: causative expression\n- {使役|しえき}{受身|うけみ}: causative-passive (grammar)\n- {使役|しえき}{動詞|どうし}: causative verb\n\nSIMILAR WORDS:\n- {雇用|こよう}: employment, hiring — neutral, modern term for employment relationships\n- {労働|ろうどう}: labor, work — focuses on the work itself rather than making someone work\n- {酷使|こくし}: overwork, exploitation — specifically harsh, excessive use of workers or resources\n\nCOMMON PATTERNS:\nAs a grammatical term, {使役|しえき} is essential for Japanese language learners. The causative form is created by adding -(s)aseru to verbs: {五段|ごだん} verbs change the final vowel to -a and add せる ({書|か}く → {書|か}かせる), while {一段|いちだん} verbs drop る and add させる ({食|た}べる → {食|た}べさせる).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04840_koyou",
+      "reading": "こよう",
+      "headword": "{雇用|こよう}",
+      "label": "employment, hiring"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03785_roudou",
+      "reading": "ろうどう",
+      "headword": "{労働|ろうどう}",
+      "label": "labor, work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17003_kokushi",
+      "reading": "こくし",
+      "headword": "{酷使|こくし}",
+      "label": "overwork, exploitation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -187,6 +210,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T14:16:13Z",
-    "modified": "2026-03-28T14:16:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

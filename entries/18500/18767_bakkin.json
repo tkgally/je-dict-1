@@ -17,7 +17,9 @@
       "id": "18767_bakkin_ex1",
       "japanese": "{罰金|ばっきん}を{払|はら}う。",
       "english": "To pay a fine.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18767_bakkin_ex2",
       "japanese": "{駐車違反|ちゅうしゃいはん}で{罰金|ばっきん}を{取|と}られた。",
       "english": "I was fined for a parking violation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "18767_bakkin_ex3",
       "japanese": "{飲酒運転|いんしゅうんてん}には{高額|こうがく}の{罰金|ばっきん}が{科|か}せられる{可能性|かのうせい}がある。",
       "english": "Drunk driving can result in a heavy fine.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Common collocations: {罰金|ばっきん}を{払|はら}う (to pay a fine), {罰金|ばっきん}を{科|か}す / {罰金|ばっきん}が{科|か}せられる (to impose a fine / to have a fine imposed), {罰金|ばっきん}{刑|けい} (fine as a criminal penalty). In Japanese law, {罰金|ばっきん} is a formal criminal penalty, distinct from {反則金|はんそくきん} (infraction penalty — the administrative fine for minor traffic violations). Informally, {罰金|ばっきん} is used casually for any monetary penalty, even playful ones among friends. Related: {科料|かりょう} (minor fine — a lighter criminal penalty), {違約金|いやくきん} (penalty for breach of contract).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02401_bassuru",
+      "reading": "ばっする",
+      "headword": "{罰|ばっ}する",
+      "label": "to punish, to penalize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29963_penaruti",
+      "reading": "ぺなるてぃ",
+      "headword": "ペナルティ",
+      "label": "penalty"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     },
     "created": "2026-03-23T03:34:31Z",
-    "modified": "2026-03-23T03:34:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

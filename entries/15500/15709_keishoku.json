@@ -19,7 +19,9 @@
       "english": "I had a light meal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15709_keishoku_ex2",
@@ -27,7 +29,9 @@
       "english": "I grabbed a quick bite at the airport.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15709_keishoku_ex3",
@@ -35,7 +39,9 @@
       "english": "This café serves drinks and light meals.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{軽食|けいしょく} is commonly seen on signs at airports, train stations, and event venues. It contrasts with a full meal ({食事|しょくじ}).\n\nCOMMON COLLOCATIONS:\n- {軽食|けいしょく}をとる (to have a light meal)\n- {軽食|けいしょく}コーナー (snack corner)\n- {軽食|けいしょく}{付|つ}き (with a light meal included)\n\nSIMILAR WORDS:\n{間食|かんしょく} refers to snacking between meals, while {軽食|けいしょく} is a light but proper meal.",
@@ -53,18 +59,29 @@
       "reading": "しょくじ",
       "headword": "{食事|しょくじ}",
       "label": "meal (full)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30264_fasutofuudo",
+      "reading": "ふぁすとふーど",
+      "headword": "ファストフード",
+      "label": "fast food"
     }
   ],
   "metadata": {
     "created": "2026-03-08T08:45:46Z",
-    "modified": "2026-05-01T10:15:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

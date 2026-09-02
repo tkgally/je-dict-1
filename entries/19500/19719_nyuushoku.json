@@ -3,7 +3,7 @@
   "headword": "{入職|にゅうしょく}",
   "reading": "にゅうしょく",
   "romaji": "nyuushoku",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "entering employment; starting a job",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,29 @@
   ],
   "notes": "Composed of {入|にゅう} (to enter) + {職|しょく} (employment, job). While {入社|にゅうしゃ} is used for joining a private company, {入職|にゅうしょく} is a more general term used especially in healthcare (hospitals, nursing homes), government, and educational institutions.\n\nCOMMON COLLOCATIONS:\n- {入職|にゅうしょく}する — to start a job, to join a workplace\n- {入職|にゅうしょく}{日|び} — start date of employment\n- {入職|にゅうしょく}{時|じ} — at the time of joining\n- {新規|しんき}{入職|にゅうしょく}{者|しゃ} — newly hired employee\n\nSIMILAR WORDS:\n- {入社|にゅうしゃ} — joining a company; specifically for private companies\n- {就職|しゅうしょく} — getting a job, finding employment; the broader process of obtaining work\n- {着任|ちゃくにん} — taking up a post; more formal, used for appointed positions",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03131_nyuusha",
+      "reading": "にゅうしゃ",
+      "headword": "{入社|にゅうしゃ}",
+      "label": "joining a company"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03209_shuushoku",
+      "reading": "しゅうしょく",
+      "headword": "{就職|しゅうしょく}",
+      "label": "getting a job, finding employment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14905_chakunin",
+      "reading": "ちゃくにん",
+      "headword": "{着任|ちゃくにん}",
+      "label": "taking up a post"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +174,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-26T14:32:49Z",
-    "modified": "2026-03-26T14:32:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

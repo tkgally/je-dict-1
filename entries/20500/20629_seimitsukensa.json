@@ -45,10 +45,32 @@
     }
   ],
   "notes": "Composed of {精密|せいみつ} (precise, detailed) + {検査|けんさ} (examination, inspection). Refers to a more thorough level of testing than a routine screening or checkup.\n\nCOMMON COLLOCATIONS:\n- {精密検査|せいみつけんさ}を{受|う}ける (to undergo a detailed examination)\n- {精密検査|せいみつけんさ}の{結果|けっか} (results of the detailed examination)\n- {精密検査|せいみつけんさ}を{勧|すす}められる (to be advised to get a detailed exam)\n- {精密検査|せいみつけんさ}が{必要|ひつよう} (a detailed examination is needed)\n\nSIMILAR WORDS:\n- {健康診断|けんこうしんだん} — health checkup; the routine annual screening that may lead to {精密検査|せいみつけんさ}\n- {検査|けんさ} — examination, inspection; the general term\n- {人間|にんげん}ドック — comprehensive health screening; a voluntary, thorough checkup (from \"human dock\")\n\nUSAGE:\nIn Japan's healthcare system, annual {健康診断|けんこうしんだん} (health checkups) are standard for employees and residents. If something abnormal is found, the next step is a {精密検査|せいみつけんさ} — a follow-up with specialized testing such as MRI, CT scans, or endoscopy.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05979_kenkoushindan",
+      "reading": "けんこうしんだん",
+      "headword": "{健康診断|けんこうしんだん}",
+      "label": "health checkup"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23310_ningendokku",
+      "reading": "にんげんどっく",
+      "headword": "{人間|にんげん}ドック",
+      "label": "comprehensive health screening"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23339_saikensa",
+      "reading": "さいけんさ",
+      "headword": "{再検査|さいけんさ}",
+      "label": "reexamination"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T20:09:28Z",
-    "modified": "2026-07-28T09:35:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

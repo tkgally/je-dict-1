@@ -2,7 +2,7 @@
   "id": "01752_riyou",
   "headword": "{利用|りよう}",
   "reading": "りよう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "use, utilization",
   "conjugation": {
     "type": "suru",
@@ -124,7 +124,7 @@
     },
     {
       "id": "01752_riyou_ex3",
-      "japanese": "この⟦{サービス|さーびす}→サービス：01531_saabisu⟧⟦は→は：00079_ha⟧⟦{無料|むりょう}→無料：01662_muryou⟧⟦で→で：00502_de⟧{利用|りよう}⟦できます→できる：00557_dekiru⟧。",
+      "japanese": "この⟦サービス→サービス：01531_saabisu⟧⟦は→は：00079_ha⟧⟦{無料|むりょう}→無料：01662_muryou⟧⟦で→で：00502_de⟧{利用|りよう}⟦できます→できる：00557_dekiru⟧。",
       "english": "You can use this service for free.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{利用|りよう} means to use or make use of something for a purpose. More formal and purposeful than ⟦{使|つか}う→使う：00473_tsukau⟧.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{利用|りよう}する\n\nCOMMON PATTERNS:\n- 〜を{利用|りよう}する: to use ~\n- {利用|りよう}できる: can use / is available\n- ご{利用|りよう}ください: please use (polite, seen on signs)\n- ⟦{有効|ゆうこう}→有効：03645_yuukou⟧⟦に→に：00314_ni⟧{利用|りよう}する: to make effective use of\n\nCOMMON COMPOUNDS:\n- {利用|りよう}⟦{者|しゃ}→〜者：04662_sha⟧: user\n- {利用|りよう}⟦{料|りょう}→料：noentry⟧: usage fee\n- {利用|りよう}⟦{規約|きやく}→規約：14184_kiyaku⟧: terms of use/service\n- {利用|りよう}⟦{可能|かのう}→可能：00175_kanou⟧: available for use\n\nSIMILAR WORDS:\n- ⟦{使|つか}う→使う：00473_tsukau⟧: to use (general, everyday)\n- {利用|りよう}する: to utilize, to make use of (purposeful, formal)\n- ⟦{活用|かつよう}→活用：02620_katsuyou⟧する: to put to practical use, to leverage",
+  "notes": "{利用|りよう} means to use or make use of something for a purpose. More formal and purposeful than ⟦{使|つか}う→使う：00473_tsukau⟧.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{利用|りよう}する\n\nCOMMON PATTERNS:\n- 〜を{利用|りよう}する: to use ~\n- {利用|りよう}できる: can use / is available\n- ご{利用|りよう}ください: please use (polite, seen on signs)\n- ⟦{有効|ゆうこう}→有効：03645_yuukou⟧⟦に→に：00314_ni⟧{利用|りよう}する: to make effective use of\n\nCOMPOUNDS:\n- {利用|りよう}⟦{者|しゃ}→〜者：04662_sha⟧: user\n- {利用|りよう}⟦{料|りょう}→料：noentry⟧: usage fee\n- {利用|りよう}⟦{規約|きやく}→規約：14184_kiyaku⟧: terms of use/service\n- {利用|りよう}⟦{可能|かのう}→可能：00175_kanou⟧: available for use\n\nSIMILAR WORDS:\n- ⟦{使|つか}う→使う：00473_tsukau⟧: to use (general, everyday)\n- {利用|りよう}する: to utilize, to make use of (purposeful, formal)\n- ⟦{活用|かつよう}→活用：02620_katsuyou⟧する: to put to practical use, to leverage",
   "cross_references": [
     {
       "type": "synonym",
@@ -148,11 +148,25 @@
       "reading": "かつよう",
       "headword": "{活用|かつよう}",
       "label": "put to practical use"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21424_katsuyousuru",
+      "reading": "かつようする",
+      "headword": "{活用|かつよう}する",
+      "label": "to put to practical use, to leverage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03442_tekiyou",
+      "reading": "てきよう",
+      "headword": "{適用|てきよう}",
+      "label": "application (of a rule)"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:30:16Z",
-    "modified": "2026-05-16T21:08:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

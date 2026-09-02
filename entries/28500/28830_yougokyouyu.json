@@ -17,7 +17,9 @@
       "id": "28830_yougokyouyu_ex1",
       "japanese": "{養護教諭|ようごきょうゆ}に{相談|そうだん}した。",
       "english": "I consulted the school nurse.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28830_yougokyouyu_ex2",
       "japanese": "{熱|ねつ}があったので、{養護教諭|ようごきょうゆ}が{保護者|ほごしゃ}に{連絡|れんらく}した。",
       "english": "Since I had a fever, the school nurse contacted my guardian.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "28830_yougokyouyu_ex3",
       "japanese": "{養護教諭|ようごきょうゆ}は{応急処置|おうきゅうしょち}だけでなく、{心|こころ}のケアも{担当|たんとう}している。",
       "english": "School nurses are in charge of mental health care as well as first aid.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{養護|ようご} (care, protection) + {教諭|きょうゆ} (licensed teacher). A formal/administrative title used in laws and official documents. In everyday school life, students and parents almost always say {保健|ほけん}の{先生|せんせい} instead.\n\nCOMMON COLLOCATIONS:\n- {養護教諭|ようごきょうゆ}に{相談|そうだん}する: to consult the school nurse\n- {養護教諭|ようごきょうゆ}{免許|めんきょ}: school-nurse teaching license\n- スクールナース: school nurse (English loanword, less common)\n\nSIMILAR WORDS:\n- {保健|ほけん}の{先生|せんせい}: 'health teacher' — the everyday term students use\n- {保健室|ほけんしつ}: the health room (their workplace)\n- {看護師|かんごし}: nurse — the medical profession in general; not a teaching position",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05380_hokenshitsu",
+      "reading": "ほけんしつ",
+      "headword": "{保健室|ほけんしつ}",
+      "label": "the health room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05055_kangoshi",
+      "reading": "かんごし",
+      "headword": "{看護師|かんごし}",
+      "label": "nurse"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["occupation", "education"],
+      "politeness": "plain",
+      "semantic": [
+        "occupation",
+        "education"
+      ],
       "domain": []
     },
     "created": "2026-06-06T02:07:42Z",
-    "modified": "2026-06-06T02:07:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{火災|かさい} means fire or fire disaster, typically referring to destructive fires.\n\nCOMMON PATTERNS:\n- {火災|かさい}⟦が→が：00051_ga⟧⟦{発生|はっせい}→発生：03133_hassei⟧する (a fire breaks out)\n- {火災|かさい}⟦が→が：00051_ga⟧⟦{起|お}きる→起きる：00521_okiru⟧ (a fire occurs)\n- {火災|かさい}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧ (to prevent fires)\n\nCOMPOUND WORDS:\n- {火災|かさい}⟦{保険|ほけん}→保険：01509_hoken⟧ (fire insurance)\n- {火災|かさい}⟦{報知器|ほうちき}→報知器：27942_houchiki⟧ (fire alarm)\n- {火災|かさい}⟦{警報|けいほう}→警報：09515_keihou⟧ (fire alert)\n- {火災|かさい}⟦{現場|げんば}→現場：02723_genba⟧ (fire scene)\n\nDIFFERENCE FROM ⟦{火事|かじ}→火事：01283_kaji⟧:\n- ⟦{火事|かじ}→火事：01283_kaji⟧: more casual, everyday word for fire\n- {火災|かさい}: more formal, often used in official/news contexts\n\nRELATED:\n- ⟦{消防|しょうぼう}→消防：03241_shoubou⟧ (fire fighting)\n- ⟦{消火|しょうか}→消火：13291_shouka⟧ (fire extinguishing)",
+  "notes": "{火災|かさい} means fire or fire disaster, typically referring to destructive fires.\n\nCOMMON PATTERNS:\n- {火災|かさい}⟦が→が：00051_ga⟧⟦{発生|はっせい}→発生：03133_hassei⟧する (a fire breaks out)\n- {火災|かさい}⟦が→が：00051_ga⟧⟦{起|お}きる→起きる：00521_okiru⟧ (a fire occurs)\n- {火災|かさい}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧ (to prevent fires)\n\nCOMPOUNDS:\n- {火災|かさい}⟦{保険|ほけん}→保険：01509_hoken⟧ (fire insurance)\n- {火災|かさい}⟦{報知器|ほうちき}→報知器：27942_houchiki⟧ (fire alarm)\n- {火災|かさい}⟦{警報|けいほう}→警報：09515_keihou⟧ (fire alert)\n- {火災|かさい}⟦{現場|げんば}→現場：02723_genba⟧ (fire scene)\n\nDIFFERENCE FROM ⟦{火事|かじ}→火事：01283_kaji⟧:\n- ⟦{火事|かじ}→火事：01283_kaji⟧: more casual, everyday word for fire\n- {火災|かさい}: more formal, often used in official/news contexts\n\nRELATED WORDS:\n- ⟦{消防|しょうぼう}→消防：03241_shoubou⟧ (fire fighting)\n- ⟦{消火|しょうか}→消火：13291_shouka⟧ (fire extinguishing)",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,11 +51,67 @@
       "headword": "{火事|かじ}",
       "label": "fire (casual)",
       "target_id": "01283_kaji"
+    },
+    {
+      "type": "related",
+      "target_id": "03241_shoubou",
+      "reading": "しょうぼう",
+      "headword": "{消防|しょうぼう}",
+      "label": "fire fighting"
+    },
+    {
+      "type": "related",
+      "target_id": "13291_shouka",
+      "reading": "しょうか",
+      "headword": "{消火|しょうか}",
+      "label": "fire extinguishing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20222_himoto",
+      "reading": "ひもと",
+      "headword": "{火元|ひもと}",
+      "label": "origin of a fire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20260_shukka",
+      "reading": "しゅっか",
+      "headword": "{出火|しゅっか}",
+      "label": "outbreak of fire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21237_shikka",
+      "reading": "しっか",
+      "headword": "{失火|しっか}",
+      "label": "accidental fire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21663_mouka",
+      "reading": "もうか",
+      "headword": "{猛火|もうか}",
+      "label": "raging fire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22379_hakka",
+      "reading": "はっか",
+      "headword": "{発火|はっか}",
+      "label": "ignition"
+    },
+    {
+      "type": "related",
+      "target_id": "27045_houkahan",
+      "reading": "ほうかはん",
+      "headword": "{放火犯|ほうかはん}",
+      "label": "arsonist"
     }
   ],
   "metadata": {
     "created": "2026-01-11T09:51:06Z",
-    "modified": "2026-08-12T06:28:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

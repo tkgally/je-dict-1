@@ -17,7 +17,9 @@
       "id": "28130_kashi_ex1",
       "japanese": "{華氏|かし}で{表|あらわ}す。",
       "english": "Express it in Fahrenheit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28130_kashi_ex2",
       "japanese": "アメリカでは{気温|きおん}を{華氏|かし}で{言|い}う。",
       "english": "In America, temperatures are given in Fahrenheit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "28130_kashi_ex3",
       "japanese": "{華氏|かし}{百|ひゃく}{度|ど}は{摂氏|せっし}{約|やく}{三十八|さんじゅうはち}{度|ど}に{当|あ}たり、かなり{暑|あつ}い。",
       "english": "100 degrees Fahrenheit is about 38 degrees Celsius, which is quite hot.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{華氏|かし} is the Fahrenheit temperature scale. The character {華|か} was chosen to transcribe the 'Fah' of Fahrenheit's name. Japan normally uses {摂氏|せっし} (Celsius), so {華氏|かし} mostly appears when discussing the US.\n\nCOMMON COLLOCATIONS:\n- {華氏|かし}{〜度|ど}: ~ degrees Fahrenheit\n- {華氏|かし}で{測|はか}る: to measure in Fahrenheit\n\nSIMILAR WORDS:\n- {摂氏|せっし}: Celsius — the standard scale in Japan",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12906_sesshi",
+      "reading": "せっし",
+      "headword": "{摂氏|せっし}",
+      "label": "Celsius"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["general"],
+      "politeness": "plain",
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-26T02:06:25Z",
-    "modified": "2026-05-26T02:06:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

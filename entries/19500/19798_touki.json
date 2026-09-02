@@ -3,7 +3,7 @@
   "headword": "{登記|とうき}",
   "reading": "とうき",
   "romaji": "touki",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "registration; registry",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,22 @@
   ],
   "notes": "A legal and administrative term that learners in Japan will encounter when buying property, starting a business, or dealing with official documents. The {法務局|ほうむきょく} (Legal Affairs Bureau) handles registration in Japan.\n\nCOMMON COLLOCATIONS:\n- {不動産|ふどうさん}{登記|とうき} — real estate registration\n- {商業|しょうぎょう}{登記|とうき} — commercial registration\n- {登記|とうき}{簿|ぼ} — register, registry book\n- {登記|とうき}{所|しょ} — registry office\n- {所有権|しょゆうけん}{移転|いてん}{登記|とうき} — ownership transfer registration\n\nSIMILAR WORDS:\n- {登録|とうろく} — registration (more general; used for memberships, accounts, etc.)\n- {届出|とどけで} — notification, filing (e.g., marriage registration at city hall)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05703_touroku",
+      "reading": "とうろく",
+      "headword": "{登録|とうろく}",
+      "label": "registration (more general"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07555_todokede",
+      "reading": "とどけで",
+      "headword": "{届出|とどけで}",
+      "label": "notification, filing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +167,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-27T00:17:37Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

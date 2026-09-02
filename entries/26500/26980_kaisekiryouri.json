@@ -55,7 +55,29 @@
     }
   ],
   "notes": "Composed of {会席|かいせき} (banquet, gathering seat) and {料理|りょうり} (cuisine). Originally developed for gatherings where sake was enjoyed, with dishes designed to accompany drinking. Not to be confused with {懐石料理|かいせきりょうり} (tea ceremony cuisine), which uses different kanji and originates from the tea ceremony tradition with a focus on simplicity.\n\nCOMMON COLLOCATIONS:\n- {会席料理|かいせきりょうり}を{頂|いただ}く: to partake of a kaiseki meal\n- {季節|きせつ}の{会席料理|かいせきりょうり}: seasonal kaiseki cuisine\n- {和風|わふう}{会席料理|かいせきりょうり}: Japanese-style kaiseki\n- {会席料理|かいせきりょうり}のコース: a kaiseki course\n\nSIMILAR WORDS:\n- {懐石料理|かいせきりょうり}: tea ceremony cuisine — same pronunciation but different kanji; simpler, lighter meals rooted in tea ceremony aesthetics\n- {割烹|かっぽう}: Japanese haute cuisine, cooking — refers to the cooking style or a restaurant serving high-end Japanese food\n- {料亭|りょうてい}: traditional Japanese restaurant — the type of establishment where kaiseki is often served",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11922_kappou",
+      "reading": "かっぽう",
+      "headword": "{割烹|かっぽう}",
+      "label": "Japanese haute cuisine, cooking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21710_ryoutei",
+      "reading": "りょうてい",
+      "headword": "{料亭|りょうてい}",
+      "label": "traditional Japanese restaurant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26954_kappouryouri",
+      "reading": "かっぽうりょうり",
+      "headword": "{割烹料理|かっぽうりょうり}",
+      "label": "Japanese haute cuisine"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,6 +93,6 @@
       "domain": []
     },
     "created": "2026-05-06T12:23:36Z",
-    "modified": "2026-08-06T12:50:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

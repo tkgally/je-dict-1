@@ -17,7 +17,9 @@
       "id": "28037_joujutsu_ex1",
       "japanese": "{杖術|じょうじゅつ}を{習|なら}っている。",
       "english": "I'm learning jojutsu.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28037_joujutsu_ex2",
       "japanese": "{杖術|じょうじゅつ}は{剣|けん}に{対抗|たいこう}するための{武術|ぶじゅつ}だ。",
       "english": "Jojutsu is a martial art for countering the sword.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28037_joujutsu_ex3",
       "japanese": "{杖術|じょうじゅつ}では、{短|みじか}い{棒|ぼう}を{使|つか}って{相手|あいて}の{動|うご}きを{封|ふう}じる。",
       "english": "In jojutsu, a short staff is used to neutralize the opponent's movements.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {杖|じょう} (staff, cane) and {術|じゅつ} (art, technique).\n\nCOMMON COLLOCATIONS:\n- {杖術|じょうじゅつ}の{稽古|けいこ}: jojutsu practice\n- {杖術|じょうじゅつ}の{型|かた}: jojutsu forms / kata\n\nSIMILAR WORDS:\n- {剣術|けんじゅつ}: swordsmanship — uses a sword rather than a staff\n- {棒術|ぼうじゅつ}: staff fighting with a longer {棒|ぼう} (bo)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20194_kenjutsu",
+      "reading": "けんじゅつ",
+      "headword": "{剣術|けんじゅつ}",
+      "label": "swordsmanship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23810_boujutsu",
+      "reading": "ぼうじゅつ",
+      "headword": "{棒術|ぼうじゅつ}",
+      "label": "staff fighting with a longer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports"],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-05-24T04:10:04Z",
-    "modified": "2026-05-24T04:10:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

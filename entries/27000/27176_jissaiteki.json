@@ -3,7 +3,7 @@
   "headword": "{実際的|じっさいてき}",
   "reading": "じっさいてき",
   "romaji": "jissaiteki",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "practical; pragmatic; realistic",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "27176_jissaiteki_ex1",
       "japanese": "{実際的|じっさいてき}な{解決策|かいけつさく}を{考|かんが}える。",
       "english": "Think of a practical solution.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27176_jissaiteki_ex2",
       "japanese": "もっと{実際的|じっさいてき}な{提案|ていあん}はありませんか。",
       "english": "Isn't there a more practical proposal?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "27176_jissaiteki_ex3",
       "japanese": "{理想|りそう}を{語|かた}るだけでなく、{実際的|じっさいてき}な{行動|こうどう}に{移|うつ}すべきだ。",
       "english": "Rather than just talking about ideals, you should move to practical action.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Describes an approach that prioritizes what works in practice over abstract theory. Derived from {実際|じっさい} (reality; actuality) plus {的|てき}. Often used when contrasting pragmatic approaches with idealistic ones.\n\nCOMMON COLLOCATIONS:\n- {実際的|じっさいてき}な{問題|もんだい}: practical problem\n- {実際的|じっさいてき}な{方法|ほうほう}: practical method\n- {実際的|じっさいてき}な{知識|ちしき}: practical knowledge\n- {実際的|じっさいてき}な{意味|いみ}で: in a practical sense\n\nSIMILAR WORDS:\n- {実用的|じつようてき}: practical; utilitarian — emphasizes usefulness and functionality of objects or skills\n- {現実的|げんじつてき}: realistic — emphasizes accepting things as they are rather than being idealistic\n- {具体的|ぐたいてき}: concrete; specific — focuses on detail and specificity rather than practicality",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12297_jitsuyouteki",
+      "reading": "じつようてき",
+      "headword": "{実用的|じつようてき}",
+      "label": "practical"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04794_genjitsuteki",
+      "reading": "げんじつてき",
+      "headword": "{現実的|げんじつてき}",
+      "label": "realistic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04781_gutaiteki",
+      "reading": "ぐたいてき",
+      "headword": "{具体的|ぐたいてき}",
+      "label": "concrete"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23956_kannenteki",
+      "reading": "かんねんてき",
+      "headword": "{観念的|かんねんてき}",
+      "label": "notional"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["evaluation"]
+      "semantic": [
+        "evaluation"
+      ]
     },
     "created": "2026-05-07T14:15:07Z",
-    "modified": "2026-05-07T14:15:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

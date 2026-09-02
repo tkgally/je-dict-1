@@ -19,7 +19,9 @@
       "english": "I took a painkiller.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15451_chintsuuzai_ex2",
@@ -27,7 +29,9 @@
       "english": "My headaches are so bad I can't go without painkillers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15451_chintsuuzai_ex3",
@@ -35,22 +39,87 @@
       "english": "Please take the painkillers prescribed by the doctor after meals.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "FORMATION:\n{鎮痛|ちんつう} (pain relief) + {剤|ざい} (medicine, agent). The suffix ～{剤|ざい} is used for various types of medicines and chemical agents.\n\nCOMMON COLLOCATIONS:\n- {鎮痛剤|ちんつうざい}を{飲|の}む (to take a painkiller)\n- {鎮痛剤|ちんつうざい}を{処方|しょほう}する (to prescribe painkillers)\n- {市販|しはん}の{鎮痛剤|ちんつうざい} (over-the-counter painkillers)\n\nRELATED:\n- {痛|いた}み{止|ど}め (pain reliever — more casual synonym)\n- {解熱鎮痛剤|げねつちんつうざい} (fever and pain reducer)",
-  "cross_references": [],
+  "notes": "FORMS:\n{鎮痛|ちんつう} (pain relief) + {剤|ざい} (medicine, agent). The suffix ～{剤|ざい} is used for various types of medicines and chemical agents.\n\nCOMMON COLLOCATIONS:\n- {鎮痛剤|ちんつうざい}を{飲|の}む (to take a painkiller)\n- {鎮痛剤|ちんつうざい}を{処方|しょほう}する (to prescribe painkillers)\n- {市販|しはん}の{鎮痛剤|ちんつうざい} (over-the-counter painkillers)\n\nRELATED WORDS:\n- {痛|いた}み{止|ど}め (pain reliever — more casual synonym)\n- {解熱鎮痛剤|げねつちんつうざい} (fever and pain reducer)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23497_itamidome",
+      "reading": "いたみどめ",
+      "headword": "{痛|いた}み{止|ど}め",
+      "label": "pain reliever"
+    },
+    {
+      "type": "related",
+      "target_id": "09711_zutsuuyaku",
+      "reading": "ずつうやく",
+      "headword": "{頭痛薬|ずつうやく}",
+      "label": "headache medicine"
+    },
+    {
+      "type": "related",
+      "target_id": "09713_genetsuzai",
+      "reading": "げねつざい",
+      "headword": "{解熱剤|げねつざい}",
+      "label": "fever reducer"
+    },
+    {
+      "type": "related",
+      "target_id": "18471_tonpuku",
+      "reading": "とんぷく",
+      "headword": "{頓服|とんぷく}",
+      "label": "medicine taken as needed (not on a regular schedule)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21929_chintsuuyaku",
+      "reading": "ちんつうやく",
+      "headword": "{鎮痛薬|ちんつうやく}",
+      "label": "painkiller"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23833_asupirin",
+      "reading": "あすぴりん",
+      "headword": "アスピリン",
+      "label": "aspirin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24310_chinseizai",
+      "reading": "ちんせいざい",
+      "headword": "{鎮静剤|ちんせいざい}",
+      "label": "sedative"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24647_kanbouyaku",
+      "reading": "かんぼうやく",
+      "headword": "{感冒薬|かんぼうやく}",
+      "label": "cold medicine"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T07:36:01Z",
-    "modified": "2026-03-07T07:36:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

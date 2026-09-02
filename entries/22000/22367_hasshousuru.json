@@ -3,7 +3,7 @@
   "headword": "{発症|はっしょう}する",
   "reading": "はっしょうする",
   "romaji": "hasshousuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to develop (a disease); to onset",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Used specifically in medical contexts to describe the onset of symptoms of a disease or condition. The noun form {発症|はっしょう} is also commonly used on its own.\n\nCOMMON COLLOCATIONS:\n- {病気|びょうき}を{発症|はっしょう}する: to develop a disease\n- {症状|しょうじょう}が{発症|はっしょう}する: symptoms appear\n- {発症|はっしょう}{時期|じき}: time of onset\n- {発症|はっしょう}{率|りつ}: incidence rate\n- {発症|はっしょう}リスク: risk of developing (a disease)\n- {発症|はっしょう}を{防|ふせ}ぐ: to prevent onset\n\nSIMILAR WORDS:\n- {発病|はつびょう}する: to fall ill — similar meaning but slightly older/more literary; {発症|はっしょう} focuses on symptom appearance\n- かかる: to catch (a disease) — everyday word for getting sick; less clinical\n- {罹患|りかん}する: to be affected by (a disease) — more formal/medical, focuses on contracting rather than symptom onset\n\nREGISTER:\nFormal/medical. Standard in news reports, medical documents, and health discussions. In casual conversation, people more often say {病気|びょうき}になる.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27043_hatsubyousuru",
+      "reading": "はつびょうする",
+      "headword": "{発病|はつびょう}する",
+      "label": "to fall ill"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00711_kakaru",
+      "reading": "かかる",
+      "headword": "かかる",
+      "label": "to catch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22380_hatsugensuru",
+      "reading": "はつげんする",
+      "headword": "{発現|はつげん}する",
+      "label": "to manifest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28057_mushoujou",
+      "reading": "むしょうじょう",
+      "headword": "{無症状|むしょうじょう}",
+      "label": "asymptomatic"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +90,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T20:07:12Z",
-    "modified": "2026-04-05T20:07:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

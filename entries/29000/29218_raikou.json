@@ -18,15 +18,19 @@
       "id": "29218_raikou_ex1",
       "japanese": "{雷光|らいこう}が{空|そら}を{走|はし}った。",
       "english": "A flash of lightning ran across the sky.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29218_raikou_ex2",
-      "japanese": "{雷光|らいこう}の{後|あと}に{大きな|おおきな}{雷鳴|らいめい}が{響|ひび}いた。",
+      "japanese": "{雷光|らいこう}の{後|あと}に{大|おお}きな{雷鳴|らいめい}が{響|ひび}いた。",
       "english": "After the lightning flash, a loud thunderclap echoed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -34,21 +38,44 @@
       "id": "29218_raikou_ex3",
       "japanese": "{真夜中|まよなか}、{雷光|らいこう}が{部屋|へや}を{一瞬|いっしゅん}{昼|ひる}のように{照|て}らした。",
       "english": "At midnight, a lightning flash lit up the room as bright as day for an instant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "SIMILAR WORDS:\n- {雷|かみなり}: thunder; lightning (general term for the phenomenon)\n- {稲妻|いなずま}: lightning bolt — the specific bolt or flash, often used in literary or dramatic contexts\n- {雷光|らいこう}: lightning flash — emphasizes the visual light; more formal/literary\n- {雷鳴|らいめい}: thunderclap — the sound (contrast with 雷光, the light)\n\nCOMMON COLLOCATIONS:\n- {雷光|らいこう}が{光|ひか}る: lightning flashes\n- {雷光|らいこう}が{走|はし}る: lightning streaks across the sky\n- {雷光|らいこう}と{雷鳴|らいめい}: lightning and thunder",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04989_inazuma",
+      "reading": "いなずま",
+      "headword": "{稲妻|いなずま}",
+      "label": "lightning bolt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06188_raimei",
+      "reading": "らいめい",
+      "headword": "{雷鳴|らいめい}",
+      "label": "thunderclap"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather", "nature"]
+      "semantic": [
+        "weather",
+        "nature"
+      ]
     },
     "created": "2026-06-13T03:45:19Z",
-    "modified": "2026-06-13T03:45:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

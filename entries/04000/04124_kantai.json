@@ -43,10 +43,40 @@
       ]
     }
   ],
-  "notes": "GEOGRAPHY: {寒帯|かんたい} refers to the climate zones between the polar circles and the poles.\n\nCLIMATE ZONES (⟦{気候帯|きこうたい}→気候帯：noentry⟧):\n・⟦{熱帯|ねったい}→熱帯：03531_nettai⟧ - tropical zone (hottest)\n・⟦{亜熱帯|あねったい}→亜熱帯：23940_anettai⟧ - subtropical zone\n・⟦{温帯|おんたい}→温帯：04479_ontai⟧ - temperate zone\n・⟦{亜寒帯|あかんたい}→亜寒帯：noentry⟧/⟦{冷帯|れいたい}→冷帯：noentry⟧ - subarctic zone\n・{寒帯|かんたい} - frigid zone (coldest)\n\nCOMMON PATTERNS:\n・{寒帯|かんたい}⟦{気候|きこう}→気候：00231_kikou⟧ (frigid climate)\n・{寒帯|かんたい}⟦{地方|ちほう}→地方：02369_chihou⟧ (frigid regions)\n\nRELATED:\n・⟦{北極圏|ほっきょくけん}→北極圏：23417_hokkyokuken⟧ - Arctic Circle\n・⟦{南極圏|なんきょくけん}→南極圏：30162_nankyokuken⟧ - Antarctic Circle",
+  "notes": "GEOGRAPHY: {寒帯|かんたい} refers to the climate zones between the polar circles and the poles.\n\nCLIMATE ZONES (⟦{気候帯|きこうたい}→気候帯：noentry⟧):\n- ⟦{熱帯|ねったい}→熱帯：03531_nettai⟧ - tropical zone (hottest)\n- ⟦{亜熱帯|あねったい}→亜熱帯：23940_anettai⟧ - subtropical zone\n- ⟦{温帯|おんたい}→温帯：04479_ontai⟧ - temperate zone\n- ⟦{亜寒帯|あかんたい}→亜寒帯：noentry⟧/⟦{冷帯|れいたい}→冷帯：noentry⟧ - subarctic zone\n- {寒帯|かんたい} - frigid zone (coldest)\n\nCOMMON PATTERNS:\n- {寒帯|かんたい}⟦{気候|きこう}→気候：00231_kikou⟧ (frigid climate)\n- {寒帯|かんたい}⟦{地方|ちほう}→地方：02369_chihou⟧ (frigid regions)\n\nRELATED WORDS:\n- ⟦{北極圏|ほっきょくけん}→北極圏：23417_hokkyokuken⟧ - Arctic Circle\n- ⟦{南極圏|なんきょくけん}→南極圏：30162_nankyokuken⟧ - Antarctic Circle",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23417_hokkyokuken",
+      "reading": "ほっきょくけん",
+      "headword": "{北極圏|ほっきょくけん}",
+      "label": "Arctic Circle"
+    },
+    {
+      "type": "related",
+      "target_id": "30162_nankyokuken",
+      "reading": "なんきょくけん",
+      "headword": "{南極圏|なんきょくけん}",
+      "label": "Antarctic Circle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22002_kyokuchi",
+      "reading": "きょくち",
+      "headword": "{極地|きょくち}",
+      "label": "polar region"
+    },
+    {
+      "type": "related",
+      "target_id": "23940_anettai",
+      "reading": "あねったい",
+      "headword": "{亜熱帯|あねったい}",
+      "label": "subtropics"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-08-14T18:20:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

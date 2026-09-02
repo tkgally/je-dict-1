@@ -3,7 +3,7 @@
   "headword": "{並|なら}べ{替|か}える",
   "reading": "ならべかえる",
   "romaji": "narabekaeru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to rearrange; to reorder; to sort",
   "definitions": [
     {
@@ -46,12 +46,30 @@
   ],
   "notes": "A compound verb formed from {並|なら}べる (to line up, to arrange) + {替|か}える (to change, to replace). The combination means to change the existing arrangement into a new one. Very common in both physical contexts (rearranging objects) and digital contexts (sorting lists, reordering data).\n\nThis is an ichidan verb that conjugates like {替|か}える.\n\nCOMMON COLLOCATIONS:\n- {順番|じゅんばん}を{並|なら}べ{替|か}える: to change the order\n- あいうえお{順|じゅん}に{並|なら}べ{替|か}える: to sort in Japanese alphabetical order\n- {日付|ひづけ}{順|じゅん}に{並|なら}べ{替|か}える: to sort by date\n- {大|おお}きさ{順|じゅん}に{並|なら}べ{替|か}える: to sort by size\n\nSIMILAR WORDS:\n- {並|なら}べる: to line up; to arrange — placing items in order, without the nuance of rearranging\n- {整理|せいり}する: to organize; to tidy — broader, includes discarding and categorizing\n- ソートする: to sort — loanword used mainly in computing and data contexts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01091_naraberu",
+      "reading": "ならべる",
+      "headword": "{並|なら}べる",
+      "label": "to line up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21729_seirisuru",
+      "reading": "せいりする",
+      "headword": "{整理|せいり}する",
+      "label": "to organize"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "verb-ichidan"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "technology"
@@ -60,7 +78,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-04-24T15:24:44Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

@@ -3,7 +3,7 @@
   "headword": "{断交|だんこう}",
   "reading": "だんこう",
   "romaji": "dankou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "severing of relations; breaking off ties",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Compound of {断|だん} (cut, sever) and {交|こう} (relations, association). Primarily used in diplomatic and international relations contexts.\n\nCOMMON COLLOCATIONS:\n- {断交|だんこう}する: to sever relations\n- {断交|だんこう}に{至|いた}る: to reach the point of severing relations\n- {断交|だんこう}{状態|じょうたい}: state of severed relations\n- {国交|こっこう}{断絶|だんぜつ}: complete severance of diplomatic relations\n\nSIMILAR WORDS:\n- {国交|こっこう}{断絶|だんぜつ}: severance of diplomatic relations — more formal and emphatic\n- {絶交|ぜっこう}: breaking off a friendship — used for personal relationships\n- {断行|だんこう}: decisive action — homophone with different meaning (to carry out resolutely)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23264_kokkoudanzetsu",
+      "reading": "こっこうだんぜつ",
+      "headword": "{国交断絶|こっこうだんぜつ}",
+      "label": "severance of diplomatic relations"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15544_zekkou",
+      "reading": "ぜっこう",
+      "headword": "{絶交|ぜっこう}",
+      "label": "breaking off a friendship"
+    },
+    {
+      "type": "homophone",
+      "target_id": "15618_dankou",
+      "reading": "だんこう",
+      "headword": "{断行|だんこう}",
+      "label": "decisive action"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T17:25:04Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

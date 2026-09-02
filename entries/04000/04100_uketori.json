@@ -68,10 +68,33 @@
       ]
     }
   ],
-  "notes": "USAGE: {受取|うけとり} can refer to both the document (receipt) and the act of receiving.\n\nCOMMON PATTERNS:\n・{受取|うけとり}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧ (to write a receipt)\n・{受取|うけとり}⟦を→を：00422_wo⟧⟦{発行|はっこう}する→発行する：19236_hakkousuru⟧ (to issue a receipt)\n・⟦{受取|うけとり}{証|しょう}→受取証：27078_uketorishou⟧ (receipt, acknowledgment)\n・⟦{受取|うけとり}{人|にん}→受取人：19162_uketorinin⟧ (recipient, addressee)\n\nWRITING VARIATIONS: Can also be written as {受け取り|うけとり}.\n\nRELATED:\n・⟦レシート→レシート：05291_reshiito⟧ - receipt (from English, for store purchases)\n・⟦{領収書|りょうしゅうしょ}→領収書：04697_ryoushuusho⟧ - official receipt (more formal)",
+  "notes": "USAGE: {受取|うけとり} can refer to both the document (receipt) and the act of receiving.\n\nCOMMON PATTERNS:\n- {受取|うけとり}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧ (to write a receipt)\n- {受取|うけとり}⟦を→を：00422_wo⟧⟦{発行|はっこう}する→発行する：19236_hakkousuru⟧ (to issue a receipt)\n- ⟦{受取|うけとり}{証|しょう}→受取証：27078_uketorishou⟧ (receipt, acknowledgment)\n- ⟦{受取|うけとり}{人|にん}→受取人：19162_uketorinin⟧ (recipient, addressee)\n\nWRITING VARIATIONS: Can also be written as {受け取|うけと}り.\n\nRELATED WORDS:\n- ⟦レシート→レシート：05291_reshiito⟧ - receipt (from English, for store purchases)\n- ⟦{領収書|りょうしゅうしょ}→領収書：04697_ryoushuusho⟧ - official receipt (more formal)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05291_reshiito",
+      "reading": "れしーと",
+      "headword": "レシート",
+      "label": "receipt"
+    },
+    {
+      "type": "related",
+      "target_id": "04697_ryoushuusho",
+      "reading": "りょうしゅうしょ",
+      "headword": "{領収書|りょうしゅうしょ}",
+      "label": "official receipt"
+    },
+    {
+      "type": "related",
+      "target_id": "01883_uketoru",
+      "reading": "うけとる",
+      "headword": "{受|う}け{取|と}る",
+      "label": "to receive, to accept"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-03-03T02:49:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

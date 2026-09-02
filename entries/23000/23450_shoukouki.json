@@ -17,7 +17,9 @@
       "id": "23450_shoukouki_ex1",
       "japanese": "{昇降機|しょうこうき}は{点検中|てんけんちゅう}です。",
       "english": "The elevator is under maintenance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23450_shoukouki_ex2",
       "japanese": "{建物|たてもの}に{昇降機|しょうこうき}の{設置|せっち}が{義務|ぎむ}づけられている。",
       "english": "Installation of an elevator is mandatory in the building.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "23450_shoukouki_ex3",
       "japanese": "{車椅子|くるまいす}の{方|かた}は{昇降機|しょうこうき}をご{利用|りよう}ください。",
       "english": "Wheelchair users, please use the elevator.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {昇降|しょうこう} (ascending and descending) and {機|き} (machine). This is the formal/legal term for elevators and lifts, used in building codes, safety regulations, and official signage.\n\nCOMMON COLLOCATIONS:\n- {昇降機|しょうこうき}の{設置|せっち}: installation of an elevator\n- {昇降機|しょうこうき}の{点検|てんけん}: elevator inspection\n- {昇降機|しょうこうき}{検査|けんさ}: elevator inspection/certification\n- {小荷物|こにもつ}{昇降機|しょうこうき}: dumbwaiter (small freight elevator)\n\nSIMILAR WORDS:\n- エレベーター: elevator — the everyday word used in conversation and most signage\n- リフト: lift — often used for ski lifts, wheelchair lifts, or platform lifts\n- エスカレーター: escalator — moving staircase; different mechanism\n\nREGISTER:\nFormal/technical. You will encounter this word in legal documents ({建築基準法|けんちくきじゅんほう} — Building Standards Act), safety inspection certificates, and formal public notices. In everyday speech, エレベーター is overwhelmingly preferred.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01340_erebeetaa",
+      "reading": "えれべーたー",
+      "headword": "エレベーター",
+      "label": "elevator"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30409_rifuto",
+      "reading": "りふと",
+      "headword": "リフト",
+      "label": "lift"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01338_esukareetaa",
+      "reading": "えすかれーたー",
+      "headword": "エスカレーター",
+      "label": "escalator"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["technology"]
+      "semantic": [
+        "technology"
+      ]
     },
     "created": "2026-04-12T07:00:15Z",
-    "modified": "2026-06-15T07:58:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "22917_zanji_ex1",
       "japanese": "{暫時|ざんじ}お{待|ま}ちください。",
       "english": "Please wait for a moment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22917_zanji_ex2",
       "japanese": "{会議|かいぎ}を{暫時|ざんじ}{休憩|きゅうけい}とする。",
       "english": "The meeting will take a brief recess.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "22917_zanji_ex3",
       "japanese": "{暫時|ざんじ}{沈黙|ちんもく}が{続|つづ}いた{後|あと}、{議長|ぎちょう}が{口|くち}を{開|ひら}いた。",
       "english": "After a brief silence, the chairperson spoke up.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A formal, literary adverb meaning \"for a while\" or \"briefly.\" Composed of {暫|ざん} (temporary, for now) and {時|じ} (time). Common in parliamentary proceedings, formal announcements, and literary prose. Rarely used in casual conversation.\n\nCOMMON COLLOCATIONS:\n- {暫時|ざんじ}{休憩|きゅうけい}: brief recess\n- {暫時|ざんじ}お{待|ま}ちください: please wait a moment (very formal)\n- {暫時|ざんじ}{中断|ちゅうだん}: temporary suspension\n\nSIMILAR WORDS:\n- しばらく: for a while — the standard everyday word; much more common in speech\n- {暫|しばら}く: same word as above in kanji form\n- {一時|いちじ}: temporarily — focuses on something being provisional rather than on duration\n- {当面|とうめん}: for the time being — emphasizes the immediate future rather than a short pause",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01267_shibaraku",
+      "reading": "しばらく",
+      "headword": "しばらく",
+      "label": "for a while"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01799_ichiji",
+      "reading": "いちじ",
+      "headword": "{一時|いちじ}",
+      "label": "temporarily"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07579_toumen",
+      "reading": "とうめん",
+      "headword": "{当面|とうめん}",
+      "label": "for the time being"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
-      "semantic": ["time-general"],
+      "pos": [
+        "adverb"
+      ],
+      "semantic": [
+        "time-general"
+      ],
       "formality": "formal",
       "politeness": "plain"
     },
     "created": "2026-04-07T21:09:31Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

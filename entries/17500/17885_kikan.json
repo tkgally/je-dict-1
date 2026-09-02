@@ -19,7 +19,9 @@
       "english": "There are ten published volumes so far.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17885_kikan_ex2",
@@ -27,7 +29,9 @@
       "english": "I bought all the published volumes at once.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17885_kikan_ex3",
@@ -35,7 +39,9 @@
       "english": "This series has five published volumes, and the next one is scheduled for release next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nFrequently seen in online bookstores, publisher catalogs, and manga/light novel reviews. Often followed by the number of volumes.\n\nCOMMON COLLOCATIONS:\n- {既刊|きかん}○{巻|かん} (X volumes published)\n- {既刊|きかん}を{読|よ}む (to read the existing volumes)\n- {既刊|きかん}まとめ{買|が}い (buying all existing volumes together)\n\nSIMILAR WORDS:\n- {新刊|しんかん}: new publication, latest volume — the opposite concept\n- {未刊|みかん}: unpublished\n- {続刊|ぞっかん}: continuation, subsequent volumes",
@@ -46,18 +52,36 @@
       "reading": "しんかん",
       "headword": "{新刊|しんかん}",
       "label": "new publication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17073_zenkan",
+      "reading": "ぜんかん",
+      "headword": "{全巻|ぜんかん}",
+      "label": "complete set of volumes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29343_kinkan",
+      "reading": "きんかん",
+      "headword": "{近刊|きんかん}",
+      "label": "forthcoming publication"
     }
   ],
   "metadata": {
     "created": "2026-03-19T08:26:55Z",
-    "modified": "2026-05-04T04:08:05Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

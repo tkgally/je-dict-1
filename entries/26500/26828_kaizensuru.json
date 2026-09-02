@@ -3,7 +3,7 @@
   "headword": "{改善|かいぜん}する",
   "reading": "かいぜんする",
   "romaji": "kaizensuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to improve; to make better; to reform",
   "definitions": [
     {
@@ -55,7 +55,50 @@
     }
   ],
   "notes": "One of the most well-known Japanese business concepts internationally. The noun {改善|かいぜん} (kaizen) refers to continuous, incremental improvement and is widely used as a loanword in English business contexts, particularly in manufacturing and lean management.\n\nCOMMON COLLOCATIONS:\n- {業務|ぎょうむ}{改善|かいぜん}: operational improvement\n- {体質|たいしつ}{改善|かいぜん}: constitutional improvement\n- {環境|かんきょう}{改善|かいぜん}: environmental improvement\n- {改善|かいぜん}{策|さく}: improvement measure\n- {改善|かいぜん}{点|てん}: point of improvement\n\nSIMILAR WORDS:\n- {直|なお}す: to fix — corrects something broken rather than making something better\n- {向上|こうじょう}する: to improve — emphasizes raising quality or level upward\n- {是正|ぜせい}する: to correct — fixing something wrong or unjust, more formal",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00869_naosu",
+      "reading": "なおす",
+      "headword": "{直|なお}す",
+      "label": "to fix"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18997_koujousuru",
+      "reading": "こうじょうする",
+      "headword": "{向上|こうじょう}する",
+      "label": "to improve"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05631_zesei",
+      "reading": "ぜせい",
+      "headword": "{是正|ぜせい}",
+      "label": "to correct"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17545_uwamuku",
+      "reading": "うわむく",
+      "headword": "{上向|うわむ}く",
+      "label": "to turn upward"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18844_akkasuru",
+      "reading": "あっかする",
+      "headword": "{悪化|あっか}する",
+      "label": "to worsen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23131_koujousaseru",
+      "reading": "こうじょうさせる",
+      "headword": "{向上|こうじょう}させる",
+      "label": "to improve"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,7 +114,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T13:04:34Z",
-    "modified": "2026-08-06T12:46:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

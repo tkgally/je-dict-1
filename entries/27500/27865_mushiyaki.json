@@ -17,7 +17,9 @@
       "id": "27865_mushiyaki_ex1",
       "japanese": "{鶏肉|とりにく}を{蒸|む}し{焼|や}きにする。",
       "english": "to steam-bake chicken.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27865_mushiyaki_ex2",
       "japanese": "ホイルで{包|つつ}んで{蒸|む}し{焼|や}きにすると、{魚|さかな}がふっくら{仕上|しあ}がる。",
       "english": "If you wrap it in foil and steam-bake it, the fish turns out plump and tender.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "27865_mushiyaki_ex3",
       "japanese": "キャンプでは、アルミホイルに{野菜|やさい}と{肉|にく}を{包|つつ}んで{炭火|すみび}で{蒸|む}し{焼|や}きにするのが{定番|ていばん}だ。",
       "english": "When camping, wrapping vegetables and meat in foil and steam-baking them over charcoal is a standard dish.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A method of cooking food in a sealed environment (a lidded pan, foil, or leaves) so it cooks gently in trapped steam, keeping it moist. Usually used in the phrase {蒸|む}し{焼|や}きにする.\n\nCOMMON COLLOCATIONS:\n- {蒸|む}し{焼|や}きにする: to cook by steam-baking\n- ホイル{蒸|む}し{焼|や}き: foil-wrapped steam-baking\n\nSIMILAR WORDS:\n- {蒸|む}す: to steam — cooks with steam from boiling water, without browning\n- {焼|や}く: to grill, bake, or roast — uses direct dry heat, browning the surface",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02307_musu",
+      "reading": "むす",
+      "headword": "{蒸|む}す",
+      "label": "to steam"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01123_yaku",
+      "reading": "やく",
+      "headword": "{焼|や}く",
+      "label": "to grill, bake, or roast"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food", "cooking"],
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "cooking"
+      ],
       "domain": []
     },
     "created": "2026-05-21T04:04:20Z",
-    "modified": "2026-05-21T04:04:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

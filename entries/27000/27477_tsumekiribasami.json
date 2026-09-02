@@ -17,7 +17,9 @@
       "id": "27477_tsumekiribasami_ex1",
       "japanese": "{爪切|つめき}りばさみで{爪|つめ}を{切|き}る。",
       "english": "I trim my nails with nail scissors.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27477_tsumekiribasami_ex2",
       "japanese": "{赤|あか}ちゃんには{爪切|つめき}りばさみが{安全|あんぜん}だ。",
       "english": "Nail scissors are safer for babies.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "27477_tsumekiribasami_ex3",
       "japanese": "{先|さき}の{丸|まる}い{爪切|つめき}りばさみを{使|つか}えば、{皮膚|ひふ}を{傷|きず}つけにくい。",
       "english": "Using round-tipped nail scissors makes it harder to injure the skin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {爪切|つめき}り (nail trimming) + はさみ (scissors).\n\nCOMMON COLLOCATIONS:\n- {爪切|つめき}りばさみで{切|き}る: to cut with nail scissors\n- {赤|あか}ちゃん{用|よう}の{爪切|つめき}りばさみ: nail scissors for babies\n- {先|さき}の{丸|まる}い{爪切|つめき}りばさみ: round-tipped nail scissors\n\nSIMILAR WORDS:\n- {爪切|つめき}り: nail clippers — the standard lever-type clipper, more common for adults\n- {裁|た}ちばさみ: fabric scissors — larger scissors for cloth, contrasted by purpose",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05287_tsumekiri",
+      "reading": "つめきり",
+      "headword": "{爪切|つめき}り",
+      "label": "nail clippers"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27476_tachibasami",
+      "reading": "たちばさみ",
+      "headword": "{裁|た}ちばさみ",
+      "label": "fabric scissors"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["daily-life"],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life"
+      ],
       "domain": []
     },
     "created": "2026-05-12T23:51:46Z",
-    "modified": "2026-05-12T23:51:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

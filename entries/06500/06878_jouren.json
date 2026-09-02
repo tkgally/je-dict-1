@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{常|じょう} (always, regular) + {連|れん} (group, sequence)\n\nUSAGE:\n・{常連|じょうれん}⟦{客|きゃく}→客：00865_kyaku⟧ (regular customer)\n・{常連|じょうれん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become a regular)\n・{常連|じょうれん}さん (regular, familiar form)\n・{常連|じょうれん}⟦{出演|しゅつえん}→出演：11732_shutsuen⟧ (regular appearance)\n\nCONTEXTS:\n・⟦{飲|の}み{屋|や}→飲み屋：17514_nomiya⟧⟦の→の：09472_no⟧{常連|じょうれん} (bar regular)\n・⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧{常連|じょうれん} (shop regular)\n・⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦の→の：09472_no⟧{常連|じょうれん} (show regular)\n・⟦{大会|たいかい}→大会：03386_taikai⟧⟦の→の：09472_no⟧{常連|じょうれん} (tournament regular)\n\nANTONYM:\n・⟦{一見|いちげん}→一見：07459_ichigen⟧(⟦{客|きゃく}→客：00865_kyaku⟧) - first-time customer",
+  "notes": "FORMS:\n{常|じょう} (always, regular) + {連|れん} (group, sequence)\n\nUSAGE:\n- {常連|じょうれん}⟦{客|きゃく}→客：00865_kyaku⟧ (regular customer)\n- {常連|じょうれん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become a regular)\n- {常連|じょうれん}さん (regular, familiar form)\n- {常連|じょうれん}⟦{出演|しゅつえん}→出演：11732_shutsuen⟧ (regular appearance)\n- ⟦{飲|の}み{屋|や}→飲み屋：17514_nomiya⟧⟦の→の：09472_no⟧{常連|じょうれん} (bar regular)\n- ⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧{常連|じょうれん} (shop regular)\n- ⟦{番組|ばんぐみ}→番組：01705_bangumi⟧⟦の→の：09472_no⟧{常連|じょうれん} (show regular)\n- ⟦{大会|たいかい}→大会：03386_taikai⟧⟦の→の：09472_no⟧{常連|じょうれん} (tournament regular)\n\nSIMILAR WORDS:\n- ⟦{一見|いちげん}→一見：07459_ichigen⟧(⟦{客|きゃく}→客：00865_kyaku⟧) - first-time customer",
   "cross_references": [
     {
       "type": "antonym",
@@ -71,11 +71,46 @@
       "headword": "{一見|いちげん}",
       "label": "first-time customer",
       "target_id": "07459_ichigen"
+    },
+    {
+      "type": "related",
+      "target_id": "09990_otokui",
+      "reading": "おとくい",
+      "headword": "お{得意|とくい}",
+      "label": "specialty"
+    },
+    {
+      "type": "related",
+      "target_id": "19123_ikitsuke",
+      "reading": "いきつけ",
+      "headword": "{行|い}きつけ",
+      "label": "regular"
+    },
+    {
+      "type": "related",
+      "target_id": "21411_otokuisama",
+      "reading": "おとくいさま",
+      "headword": "お{得意様|とくいさま}",
+      "label": "valued customer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30163_shinkikyaku",
+      "reading": "しんききゃく",
+      "headword": "{新規客|しんききゃく}",
+      "label": "new customer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30170_kizonkyaku",
+      "reading": "きぞんきゃく",
+      "headword": "既存客",
+      "label": "existing customer"
     }
   ],
   "metadata": {
     "created": "2026-01-18T09:27:18Z",
-    "modified": "2026-08-11T15:25:11Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -17,7 +17,9 @@
       "id": "24135_sagyougi_ex1",
       "japanese": "{作業着|さぎょうぎ}に{着替|きが}える。",
       "english": "To change into work clothes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24135_sagyougi_ex2",
       "japanese": "{作業着|さぎょうぎ}が{油|あぶら}で{汚|よご}れてしまった。",
       "english": "My work clothes got stained with oil.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,63 @@
       "id": "24135_sagyougi_ex3",
       "japanese": "{工場|こうじょう}では{全員|ぜんいん}{指定|してい}の{作業着|さぎょうぎ}を{着用|ちゃくよう}しなければならない。",
       "english": "At the factory, everyone must wear the designated work uniform.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {作業|さぎょう} ('work; labor') and {着|ぎ} ('clothing; garment'). The suffix {着|ぎ} appears in many clothing compounds: {上着|うわぎ} ('jacket'), {下着|したぎ} ('underwear'), {寝巻|ねま}き ('nightwear'). Also sometimes read さぎょうふく when written {作業服|さぎょうふく}, though {作業着|さぎょうぎ} is the more common spoken form.\n\nUSAGE:\n- In Japanese workplaces, changing into and out of {作業着|さぎょうぎ} is a daily ritual that marks the transition between personal time and work time.\n- Many companies provide branded {作業着|さぎょうぎ} with the company logo.\n- The term covers everything from light cotton work shirts to heavy-duty protective coveralls.\n\nCOMMON COLLOCATIONS:\n- {作業着|さぎょうぎ}に{着替|きが}える: to change into work clothes\n- {作業着|さぎょうぎ}を{脱|ぬ}ぐ: to take off work clothes\n- {作業着|さぎょうぎ}{姿|すがた}: appearance in work clothes\n- {汚|よご}れた{作業着|さぎょうぎ}: dirty work clothes\n\nSIMILAR WORDS:\n- {作業服|さぎょうふく}: work clothes — near-synonym using the {服|ふく} suffix; slightly more formal\n- {制服|せいふく}: uniform — a broader term for any official uniform, not limited to manual labor\n- {防護服|ぼうごふく}: protective clothing — specialized gear for hazardous environments",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16786_sagyoufuku",
+      "reading": "さぎょうふく",
+      "headword": "{作業服|さぎょうふく}",
+      "label": "work clothes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03086_seifuku",
+      "reading": "せいふく",
+      "headword": "{制服|せいふく}",
+      "label": "uniform"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24176_bougofuku",
+      "reading": "ぼうごふく",
+      "headword": "{防護服|ぼうごふく}",
+      "label": "protective clothing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11177_shifuku",
+      "reading": "しふく",
+      "headword": "{私服|しふく}",
+      "label": "plain clothes, casual clothes"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "style": ["written", "spoken"],
-      "semantic": ["clothing", "work"]
+      "style": [
+        "written",
+        "spoken"
+      ],
+      "semantic": [
+        "clothing",
+        "work"
+      ]
     },
     "created": "2026-04-17T19:36:31Z",
-    "modified": "2026-04-17T19:36:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

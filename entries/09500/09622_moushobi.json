@@ -17,7 +17,9 @@
       "japanese": "{今日|きょう}は{猛暑日|もうしょび}になる{予報|よほう}だ。",
       "english": "The forecast says today will be an extremely hot day.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -25,7 +27,9 @@
       "japanese": "{今年|ことし}の{夏|なつ}は{猛暑日|もうしょび}が{多|おお}かった。",
       "english": "This summer had many extremely hot days.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -33,12 +37,13 @@
       "japanese": "{猛暑日|もうしょび}は{熱中症|ねっちゅうしょう}に{注意|ちゅうい}が{必要|ひつよう}だ。",
       "english": "On extremely hot days, you need to be careful of heatstroke.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     }
   ],
-  "notes": "{猛暑日|もうしょび} is an official {気象庁|きしょうちょう} (Japan Meteorological Agency) term for a day when the maximum temperature reaches 35°C or higher.\n\nTEMPERATURE SCALE IN JAPAN:\n- {夏日|なつび}: over 25°C (summer day)\n- {真夏日|まなつび}: over 30°C (midsummer day)\n- {猛暑日|もうしょび}: over 35°C (extremely hot day)\n- {酷暑日|こくしょび}: over 40°C (newer unofficial term)\n\nRELATED TERMS:\n- {猛暑|もうしょ}: extreme heat, heat wave (the general condition)\n- {熱中症|ねっちゅうしょう}: heatstroke\n- {暑|しょ}さ{対策|たいさく}: heat countermeasures\n\nUSAGE:\nFrequently appears in weather forecasts and news during summer. Often used alongside {熱中症|ねっちゅうしょう} warnings. The term was officially adopted in 2007 as summer temperatures in Japan continued to rise.",
-  "cross_references": [],
+  "notes": "{猛暑日|もうしょび} is an official {気象庁|きしょうちょう} (Japan Meteorological Agency) term for a day when the maximum temperature reaches 35°C or higher.\n\nTEMPERATURE SCALE IN JAPAN:\n- {夏日|なつび}: over 25°C (summer day)\n- {真夏日|まなつび}: over 30°C (midsummer day)\n- {猛暑日|もうしょび}: over 35°C (extremely hot day)\n- {酷暑日|こくしょび}: over 40°C (newer unofficial term)\n\nRELATED WORDS:\n- {猛暑|もうしょ}: extreme heat, heat wave (the general condition)\n- {熱中症|ねっちゅうしょう}: heatstroke\n- {暑|しょ}さ{対策|たいさく}: heat countermeasures\n\nUSAGE:\nFrequently appears in weather forecasts and news during summer. Often used alongside {熱中症|ねっちゅうしょう} warnings. The term was officially adopted in 2007 as summer temperatures in Japan continued to rise.",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +51,43 @@
       "reading": "まなつび",
       "headword": "{真夏日|まなつび}",
       "label": "hot day (over 30°C)"
+    },
+    {
+      "type": "related",
+      "target_id": "08330_necchuushou",
+      "reading": "ねっちゅうしょう",
+      "headword": "{熱中症|ねっちゅうしょう}",
+      "label": "heatstroke"
+    },
+    {
+      "type": "related",
+      "target_id": "08324_kokusho",
+      "reading": "こくしょ",
+      "headword": "{酷暑|こくしょ}",
+      "label": "extreme heat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26070_saikoukion",
+      "reading": "さいこうきおん",
+      "headword": "{最高気温|さいこうきおん}",
+      "label": "highest temperature"
     }
   ],
   "metadata": {
     "created": "2026-02-03T02:36:27Z",
-    "modified": "2026-04-23T05:18:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     }
   }
 }

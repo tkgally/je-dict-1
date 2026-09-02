@@ -17,7 +17,9 @@
       "id": "26706_hidarishasen_ex1",
       "japanese": "{左車線|ひだりしゃせん}を{走|はし}ってください。",
       "english": "Please drive in the left lane.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26706_hidarishasen_ex2",
       "japanese": "{高速道路|こうそくどうろ}では、{左車線|ひだりしゃせん}が{走行|そうこう}{車線|しゃせん}になっている。",
       "english": "On the expressway, the left lane is the driving lane.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,51 @@
       "id": "26706_hidarishasen_ex3",
       "japanese": "{次|つぎ}の{出口|でぐち}で{降|お}りるので、そろそろ{左車線|ひだりしゃせん}に{移|うつ}ったほうがいい。",
       "english": "We're getting off at the next exit, so we should move to the left lane soon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {左|ひだり} (left) and {車線|しゃせん} (traffic lane). In Japan's left-hand traffic system, the {左車線|ひだりしゃせん} is the regular driving lane, while the {右車線|みぎしゃせん} is used for overtaking. This is the opposite of right-hand traffic countries.\n\nCOMMON COLLOCATIONS:\n- {左車線|ひだりしゃせん}に{入|はい}る: to merge into the left lane\n- {左車線|ひだりしゃせん}を{走行|そうこう}する: to drive in the left lane\n- {左車線|ひだりしゃせん}に{寄|よ}る: to move toward the left lane\n\nRELATED TERMS:\n- {右車線|みぎしゃせん}: right lane — the overtaking lane in Japan\n- {走行車線|そうこうしゃせん}: driving lane — the regular-speed lane\n- {追越車線|おいこししゃせん}: passing lane — the faster lane",
-  "cross_references": [],
+  "notes": "Composed of {左|ひだり} (left) and {車線|しゃせん} (traffic lane). In Japan's left-hand traffic system, the {左車線|ひだりしゃせん} is the regular driving lane, while the {右車線|みぎしゃせん} is used for overtaking. This is the opposite of right-hand traffic countries.\n\nCOMMON COLLOCATIONS:\n- {左車線|ひだりしゃせん}に{入|はい}る: to merge into the left lane\n- {左車線|ひだりしゃせん}を{走行|そうこう}する: to drive in the left lane\n- {左車線|ひだりしゃせん}に{寄|よ}る: to move toward the left lane\n\nRELATED WORDS:\n- {右車線|みぎしゃせん}: right lane — the overtaking lane in Japan\n- {走行車線|そうこうしゃせん}: driving lane — the regular-speed lane\n- {追越車線|おいこししゃせん}: passing lane — the faster lane",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29256_migishasen",
+      "reading": "みぎしゃせん",
+      "headword": "{右車線|みぎしゃせん}",
+      "label": "right lane"
+    },
+    {
+      "type": "related",
+      "target_id": "24736_soukoushasen",
+      "reading": "そうこうしゃせん",
+      "headword": "{走行車線|そうこうしゃせん}",
+      "label": "driving lane"
+    },
+    {
+      "type": "related",
+      "target_id": "24737_oikoshishasen",
+      "reading": "おいこししゃせん",
+      "headword": "{追越車線|おいこししゃせん}",
+      "label": "passing lane"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["transportation"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-05-04T14:12:04Z",
-    "modified": "2026-05-04T14:12:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

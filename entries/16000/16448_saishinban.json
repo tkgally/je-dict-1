@@ -19,7 +19,9 @@
       "english": "To update to the latest version.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16448_saishinban_ex2",
@@ -27,7 +29,9 @@
       "english": "The latest version of the app was released.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16448_saishinban_ex3",
@@ -35,21 +39,43 @@
       "english": "The latest edition of the dictionary has several thousand new words added.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Refers to the most recent edition or version of something, whether software, a publication, or a product. Used in both technology and publishing contexts.\n\nETYMOLOGY:\nCompound of {最新|さいしん} (newest, latest) + {版|ばん} (edition, version).\n\nCOMMON COLLOCATIONS:\n- {最新版|さいしんばん}にアップデートする: to update to the latest version\n- {最新版|さいしんばん}をダウンロードする: to download the latest version\n- {最新版|さいしんばん}が{出|で}る: a new version comes out\n- ソフトウェアの{最新版|さいしんばん}: the latest version of software\n\nRELATED TERMS:\n- {旧版|きゅうばん}: old edition/version\n- {改訂版|かいていばん}: revised edition\n- {最新|さいしん}: latest, newest (standalone adjective/noun)",
-  "cross_references": [],
+  "notes": "Refers to the most recent edition or version of something, whether software, a publication, or a product. Used in both technology and publishing contexts.\n\nETYMOLOGY:\nCompound of {最新|さいしん} (newest, latest) + {版|ばん} (edition, version).\n\nCOMMON COLLOCATIONS:\n- {最新版|さいしんばん}にアップデートする: to update to the latest version\n- {最新版|さいしんばん}をダウンロードする: to download the latest version\n- {最新版|さいしんばん}が{出|で}る: a new version comes out\n- ソフトウェアの{最新版|さいしんばん}: the latest version of software\n\nRELATED WORDS:\n- {旧版|きゅうばん}: old edition/version\n- {改訂版|かいていばん}: revised edition\n- {最新|さいしん}: latest, newest (standalone adjective/noun)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17716_kaiteiban",
+      "reading": "かいていばん",
+      "headword": "{改訂版|かいていばん}",
+      "label": "revised edition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26693_saishinmoderu",
+      "reading": "さいしんもでる",
+      "headword": "{最新|さいしん}モデル",
+      "label": "latest model"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T23:51:21Z",
-    "modified": "2026-03-26T01:40:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technology", "general"]
+      "semantic": [
+        "technology",
+        "general"
+      ]
     }
   }
 }

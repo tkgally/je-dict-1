@@ -17,7 +17,9 @@
       "id": "23862_jukouryou_ex1",
       "japanese": "{受講料|じゅこうりょう}はいくらですか。",
       "english": "How much is the course fee?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23862_jukouryou_ex2",
       "japanese": "{受講料|じゅこうりょう}は{当日|とうじつ}{現金|げんきん}でお{支払|しはら}いください。",
       "english": "Please pay the course fee in cash on the day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,52 @@
       "id": "23862_jukouryou_ex3",
       "japanese": "オンライン{講座|こうざ}の{受講料|じゅこうりょう}が{値上|ねあ}げされたので、{申|もう}し{込|こ}みを{迷|まよ}っている。",
       "english": "The fee for the online course has been raised, so I'm hesitating about whether to sign up.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {受講|じゅこう} ('attending a course/lecture') and {料|りょう} ('fee'). Literally 'course-attendance fee'.\n\nUSAGE:\n- Most commonly seen in the context of cram schools ({塾|じゅく}), cultural centers, professional training, language classes, and online learning platforms.\n- Often appears on brochures and websites in phrases like {受講料|じゅこうりょう}{無料|むりょう} ('free of charge') and {受講料|じゅこうりょう}{込|こ}み ('course fee included').\n- Payment verbs: pair with {払|はら}う ('pay'), {納|おさ}める ('pay, submit'), or the humble お{支払|しはら}い{いただく} in formal/business writing.\n\nCOMMON COLLOCATIONS:\n- {受講料|じゅこうりょう}を{払|はら}う: to pay the course fee\n- {受講料|じゅこうりょう}を{納|おさ}める: to pay/submit the course fee (formal)\n- {受講料|じゅこうりょう}{無料|むりょう}: free course / no fee required\n- {受講料|じゅこうりょう}{別|べつ}: course fee charged separately\n- {受講料|じゅこうりょう}{込|こ}み: course fee included\n- {受講料|じゅこうりょう}の{振|ふ}り{込|こ}み: transfer of the course fee\n\nSIMILAR WORDS:\n- {授業料|じゅぎょうりょう}: tuition — primarily used for schools and universities, where instruction takes place over a full term or year.\n- {学費|がくひ}: school fees / educational expenses — broader term including tuition and associated costs at formal institutions.\n- {参加費|さんかひ}: participation fee — used for events, conferences, and workshops rather than courses of study.\n\nRELATED TERMS:\n- {受講|じゅこう}: attending a course; taking a class.\n- {受講生|じゅこうせい}: course participant; student of the class."
-  ,
-  "cross_references": [],
+  "notes": "Compound of {受講|じゅこう} ('attending a course/lecture') and {料|りょう} ('fee'). Literally 'course-attendance fee'.\n\nUSAGE:\n- Most commonly seen in the context of cram schools ({塾|じゅく}), cultural centers, professional training, language classes, and online learning platforms.\n- Often appears on brochures and websites in phrases like {受講料|じゅこうりょう}{無料|むりょう} ('free of charge') and {受講料|じゅこうりょう}{込|こ}み ('course fee included').\n- Payment verbs: pair with {払|はら}う ('pay'), {納|おさ}める ('pay, submit'), or the humble お{支払|しはら}いいただく in formal/business writing.\n\nCOMMON COLLOCATIONS:\n- {受講料|じゅこうりょう}を{払|はら}う: to pay the course fee\n- {受講料|じゅこうりょう}を{納|おさ}める: to pay/submit the course fee (formal)\n- {受講料|じゅこうりょう}{無料|むりょう}: free course / no fee required\n- {受講料|じゅこうりょう}{別|べつ}: course fee charged separately\n- {受講料|じゅこうりょう}{込|こ}み: course fee included\n- {受講料|じゅこうりょう}の{振|ふ}り{込|こ}み: transfer of the course fee\n\nSIMILAR WORDS:\n- {授業料|じゅぎょうりょう}: tuition — primarily used for schools and universities, where instruction takes place over a full term or year.\n- {学費|がくひ}: school fees / educational expenses — broader term including tuition and associated costs at formal institutions.\n- {参加費|さんかひ}: participation fee — used for events, conferences, and workshops rather than courses of study.\n\nRELATED WORDS:\n- {受講|じゅこう}: attending a course; taking a class.\n- {受講生|じゅこうせい}: course participant; student of the class.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14967_jugyouryou",
+      "reading": "じゅぎょうりょう",
+      "headword": "{授業料|じゅぎょうりょう}",
+      "label": "tuition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04706_gakuhi",
+      "reading": "がくひ",
+      "headword": "{学費|がくひ}",
+      "label": "school fees / educational expenses"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11059_sankahi",
+      "reading": "さんかひ",
+      "headword": "{参加費|さんかひ}",
+      "label": "participation fee"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education", "money"]
+      "semantic": [
+        "education",
+        "money"
+      ]
     },
     "created": "2026-04-15T08:03:08Z",
-    "modified": "2026-04-15T08:03:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

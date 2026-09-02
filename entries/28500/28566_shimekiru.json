@@ -3,7 +3,7 @@
   "headword": "{閉|し}め{切|き}る",
   "reading": "しめきる",
   "romaji": "shimekiru",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to close up completely; to shut tight",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Compound of {閉|し}める (to close) + {切|き}る (to do thoroughly). The 〜きる suffix here signals completeness — not just closing, but closing entirely and keeping closed.\n\nTRANSITIVITY:\nTransitive (takes を).\n\nCOMMON COLLOCATIONS:\n- {窓|まど}を{閉|し}め{切|き}る: to keep the windows closed\n- カーテンを{閉|し}め{切|き}る: to keep the curtains closed\n- ドアを{閉|し}め{切|き}る: to keep the door closed\n- {部屋|へや}を{閉|し}め{切|き}る: to seal off a room\n\nSIMILAR WORDS:\n- {閉|し}める: to close — neutral, just the action of closing\n- {締|し}め{切|き}る (05743): to set a deadline; to close registration — homophone, different kanji and meaning\n- {閉|と}じる: to close (a book, eyes) — used for things that fold or come together",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00485_shimeru",
+      "reading": "しめる",
+      "headword": "{閉|し}める",
+      "label": "to close"
+    },
+    {
+      "type": "homophone",
+      "target_id": "05743_shimekiru",
+      "reading": "しめきる",
+      "headword": "{締|し}め{切|き}る",
+      "label": "05743"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02303_tojiru",
+      "reading": "とじる",
+      "headword": "{閉|と}じる",
+      "label": "to close"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "verb-godan"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
@@ -61,7 +84,7 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-06-02T02:07:31Z",
-    "modified": "2026-06-02T02:07:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

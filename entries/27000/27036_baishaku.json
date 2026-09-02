@@ -3,7 +3,7 @@
   "headword": "{媒酌|ばいしゃく}",
   "reading": "ばいしゃく",
   "romaji": "baishaku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "matchmaking; go-between (for marriage)",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A formal term from traditional Japanese marriage customs. The {媒酌人|ばいしゃくにん} (matchmaker/go-between) was historically a respected married couple who introduced the bride and groom, helped negotiate between families, and presided over the wedding ceremony. While {見合|みあ}い (arranged marriage meetings) still occur, the formal role of {媒酌人|ばいしゃくにん} has become much less common in modern Japan.\n\nCOMMON COLLOCATIONS:\n- {媒酌人|ばいしゃくにん}: matchmaker; go-between\n- {媒酌|ばいしゃく}を{務|つと}める: to serve as matchmaker\n- {媒酌|ばいしゃく}を{頼|たの}む: to ask someone to be matchmaker\n- {媒酌人|ばいしゃくにん}を{立|た}てる: to have a formal matchmaker\n\nSIMILAR WORDS:\n- {仲人|なこうど}: matchmaker; go-between — more commonly used in everyday language; largely interchangeable\n- {見合|みあ}い: arranged meeting for marriage — the meeting itself, not the matchmaking role\n- お{見合|みあ}い: arranged marriage meeting (polite form)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16691_nakoudo",
+      "reading": "なこうど",
+      "headword": "{仲人|なこうど}",
+      "label": "matchmaker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14159_miai",
+      "reading": "みあい",
+      "headword": "{見合|みあ}い",
+      "label": "arranged meeting for marriage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05642_omiai",
+      "reading": "おみあい",
+      "headword": "お{見合|みあ}い",
+      "label": "arranged marriage meeting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +86,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T14:26:21Z",
-    "modified": "2026-08-07T06:31:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

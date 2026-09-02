@@ -3,7 +3,7 @@
   "headword": "{内向|うちむ}き",
   "reading": "うちむき",
   "romaji": "uchimuki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "inward-looking; introverted; domestic-oriented",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "26799_uchimuki_ex1",
       "japanese": "{彼|かれ}は{内向|うちむ}きな{性格|せいかく}だ。",
       "english": "He has an introverted personality.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26799_uchimuki_ex2",
       "japanese": "{日本|にほん}の{若者|わかもの}が{内向|うちむ}きになっていると{言|い}われている。",
       "english": "It is said that young people in Japan are becoming more inward-looking.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,53 @@
       "id": "26799_uchimuki_ex3",
       "japanese": "{内向|うちむ}きの{政策|せいさく}ばかりでは{国際|こくさい}{競争力|きょうそうりょく}が{落|お}ちる。",
       "english": "If we only pursue inward-looking policies, our international competitiveness will decline.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Used both for personal disposition (introverted, shy) and for broader tendencies in organizations or nations (domestically focused, isolationist). Often contrasted with {外向|そとむ}き.\n\nCOMMON COLLOCATIONS:\n- {内向|うちむ}きな{性格|せいかく}: introverted personality\n- {内向|うちむ}きな{姿勢|しせい}: inward-looking stance\n- {内向|うちむ}き{志向|しこう}: inward-oriented tendency\n\nSIMILAR WORDS:\n- {内向的|ないこうてき}: introverted — specifically for personality; more psychological\n- {外向|そとむ}き: outward-looking — the direct opposite\n- {消極的|しょうきょくてき}: passive; negative — implies reluctance to act, not necessarily inward focus",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08458_naikouteki",
+      "reading": "ないこうてき",
+      "headword": "{内向的|ないこうてき}",
+      "label": "introverted"
+    },
+    {
+      "type": "antonym",
+      "target_id": "26800_sotomuki",
+      "reading": "そとむき",
+      "headword": "{外向|そとむ}き",
+      "label": "outward-looking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04779_shoukyokuteki",
+      "reading": "しょうきょくてき",
+      "headword": "{消極的|しょうきょくてき}",
+      "label": "passive"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-05T11:11:47Z",
-    "modified": "2026-05-05T11:11:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

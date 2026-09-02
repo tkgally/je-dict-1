@@ -3,7 +3,7 @@
   "headword": "{重大|じゅうだい}な",
   "reading": "じゅうだいな",
   "romaji": "juudaina",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "serious; grave; critical; significant",
   "definitions": [
     {
@@ -22,7 +22,9 @@
       "id": "25502_juudaina_ex1",
       "japanese": "{重大|じゅうだい}な{問題|もんだい}が{発生|はっせい}した。",
       "english": "A serious problem has occurred.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "25502_juudaina_ex2",
       "japanese": "{重大|じゅうだい}な{事故|じこ}が{起|お}きないよう{対策|たいさく}を{取|と}った。",
       "english": "Measures were taken to prevent a serious accident from occurring.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "25502_juudaina_ex3",
       "japanese": "この{不具合|ふぐあい}は{放置|ほうち}すると{重大|じゅうだい}な{結果|けっか}を{招|まね}くおそれがある。",
       "english": "If left unaddressed, this defect could lead to serious consequences.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "25502_juudaina_ex4",
       "japanese": "{重大|じゅうだい}な{発表|はっぴょう}がある。",
       "english": "There is an important announcement.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "25502_juudaina_ex5",
       "japanese": "これは{歴史的|れきしてき}に{重大|じゅうだい}な{意味|いみ}を{持|も}つ。",
       "english": "This holds historically significant meaning.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,21 +72,50 @@
       "id": "25502_juudaina_ex6",
       "japanese": "{首相|しゅしょう}は{重大|じゅうだい}な{決断|けつだん}を{迫|せま}られていた。",
       "english": "The prime minister was being pressed to make a critical decision.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A formal na-adjective that conveys weight and urgency. Frequently used in news, official statements, and formal writing. The two senses are closely related — something {重大|じゅうだい} is both important and potentially dangerous.\n\nCOMMON COLLOCATIONS:\n- {重大|じゅうだい}な{問題|もんだい}: serious problem\n- {重大|じゅうだい}な{事故|じこ}: serious accident\n- {重大|じゅうだい}な{決断|けつだん}: critical decision\n- {重大|じゅうだい}な{過失|かしつ}: serious negligence\n- {重大|じゅうだい}な{影響|えいきょう}: significant impact\n- {重大|じゅうだい}な{発表|はっぴょう}: major announcement\n\nSIMILAR WORDS:\n- {深刻|しんこく}な: serious; grave — emphasizes that the situation is dire and worsening\n- {重要|じゅうよう}な: important — neutral in tone; does not carry the ominous weight of {重大|じゅうだい}\n- {大変|たいへん}な: serious; terrible — more conversational and emotional",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22781_shinkokuna",
+      "reading": "しんこくな",
+      "headword": "{深刻|しんこく}な",
+      "label": "serious"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22786_juuyouna",
+      "reading": "じゅうような",
+      "headword": "{重要|じゅうよう}な",
+      "label": "important"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00594_taihen",
+      "reading": "たいへん",
+      "headword": "{大変|たいへん}",
+      "label": "serious"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
-      "semantic": ["evaluation"]
+      "pos": [
+        "adjective-na"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "evaluation"
+      ]
     },
     "created": "2026-04-25T15:13:21Z",
-    "modified": "2026-04-25T15:13:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

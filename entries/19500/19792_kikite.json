@@ -22,7 +22,9 @@
       "id": "19792_kikite_ex1",
       "japanese": "{良|よ}い{聞|き}き{手|て}になる。",
       "english": "To become a good listener.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "19792_kikite_ex2",
       "japanese": "{彼女|かのじょ}は{聞|き}き{手|て}の{心|こころ}をつかむのが{上手|じょうず}だ。",
       "english": "She is skilled at capturing the hearts of her listeners.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "19792_kikite_ex3",
       "japanese": "{話|はなし}は{聞|き}き{手|て}によって{印象|いんしょう}が{変|か}わる。",
       "english": "The impression a story makes changes depending on the listener.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "19792_kikite_ex4",
       "japanese": "{聞|き}き{手|て}がうまく{質問|しつもん}した。",
       "english": "The interviewer asked skillful questions.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "19792_kikite_ex5",
       "japanese": "{聞|き}き{手|て}の{力量|りきりょう}でインタビューの{質|しつ}が{決|き}まる。",
       "english": "The quality of an interview depends on the interviewer's skill.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,44 @@
       "id": "19792_kikite_ex6",
       "japanese": "{今回|こんかい}の{対談|たいだん}では、{有名|ゆうめい}な{作家|さっか}が{聞|き}き{手|て}を{務|つと}めた。",
       "english": "In this conversation, a famous author served as the interviewer.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from {聞|き}く (to listen) + {手|て} (person/doer), following the common pattern where {手|て} indicates the person performing the action.\n\nCOMMON COLLOCATIONS:\n- {良|よ}い{聞|き}き{手|て} — good listener\n- {聞|き}き{手|て}を{務|つと}める — to serve as interviewer\n- {聞|き}き{手|て}の{立場|たちば} — the listener's perspective\n\nSIMILAR WORDS:\n- {話|はな}し{手|て} — speaker (the opposite role)\n- {利|き}き{手|て} — dominant hand (homophone with different kanji)\n- {読|よ}み{手|て} — reader (same {手|て} pattern)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28073_hanashite",
+      "reading": "はなして",
+      "headword": "{話|はな}し{手|て}",
+      "label": "speaker"
+    },
+    {
+      "type": "homophone",
+      "target_id": "19086_kikite",
+      "reading": "ききて",
+      "headword": "{利|き}き{手|て}",
+      "label": "dominant hand"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-03-27T00:15:26Z",
-    "modified": "2026-04-10T07:12:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

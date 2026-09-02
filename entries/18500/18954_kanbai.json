@@ -3,7 +3,7 @@
   "headword": "{完売|かんばい}",
   "reading": "かんばい",
   "romaji": "kanbai",
-  "part_of_speech": "noun / する verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sold out; completely sold",
   "conjugation": {
     "type": "suru",
@@ -134,8 +134,45 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {完|かん} (complete) + {売|ばい} (sell). Indicates that all stock or tickets have been sold with none remaining.\n\nPATTERNS:\n- {完売|かんばい}する: to sell out (active)\n- {完売|かんばい}になる: to become sold out (change of state)\n- {完売|かんばい}{済|ず}み: sold out (already completed)\n- {完売|かんばい}{御礼|おんれい}: thank you, sold out (seen on signs)\n\nCOMMON COLLOCATIONS:\n- チケットが{完売|かんばい}する: tickets sell out\n- {即日|そくじつ}{完売|かんばい}: sold out the same day\n- {発売|はつばい}{開始|かいし}{直後|ちょくご}に{完売|かんばい}: sold out immediately after going on sale\n\nSIMILAR WORDS:\n- {売|う}り{切|き}れ: sold out (more colloquial, used in everyday speech and shop signs)\n- {品切|しなぎ}れ: out of stock (focuses on availability rather than sales)\n\nREGISTER:\n{完売|かんばい} is more formal than {売|う}り{切|き}れ and is commonly used in business, event, and media contexts.",
+  "notes": "Composed of {完|かん} (complete) + {売|ばい} (sell). Indicates that all stock or tickets have been sold with none remaining.\n\nCOMMON PATTERNS:\n- {完売|かんばい}する: to sell out (active)\n- {完売|かんばい}になる: to become sold out (change of state)\n- {完売|かんばい}{済|ず}み: sold out (already completed)\n- {完売|かんばい}{御礼|おんれい}: thank you, sold out (seen on signs)\n\nCOMMON COLLOCATIONS:\n- チケットが{完売|かんばい}する: tickets sell out\n- {即日|そくじつ}{完売|かんばい}: sold out the same day\n- {発売|はつばい}{開始|かいし}{直後|ちょくご}に{完売|かんばい}: sold out immediately after going on sale\n\nSIMILAR WORDS:\n- {売|う}り{切|き}れ: sold out (more colloquial, used in everyday speech and shop signs)\n- {品切|しなぎ}れ: out of stock (focuses on availability rather than sales)\n\nREGISTER:\n{完売|かんばい} is more formal than {売|う}り{切|き}れ and is commonly used in business, event, and media contexts.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09556_urikire",
+      "reading": "うりきれ",
+      "headword": "{売|う}り{切|き}れ",
+      "label": "sold out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09557_shinagire",
+      "reading": "しなぎれ",
+      "headword": "{品切|しなぎ}れ",
+      "label": "out of stock"
+    },
+    {
+      "type": "related",
+      "target_id": "07585_manseki",
+      "reading": "まんせき",
+      "headword": "{満席|まんせき}",
+      "label": "fully booked"
+    },
+    {
+      "type": "related",
+      "target_id": "07955_keppin",
+      "reading": "けっぴん",
+      "headword": "{欠品|けっぴん}",
+      "label": "out of stock"
+    },
+    {
+      "type": "related",
+      "target_id": "08768_sainyuuka",
+      "reading": "さいにゅうか",
+      "headword": "{再|さい}{入荷|にゅうか}",
+      "label": "restocking"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +188,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-23T10:20:50Z",
-    "modified": "2026-07-26T09:39:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

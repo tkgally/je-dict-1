@@ -17,7 +17,9 @@
       "id": "29780_idoushudan_ex1",
       "japanese": "{移動手段|いどうしゅだん}は{電車|でんしゃ}です。",
       "english": "My means of transportation is the train.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29780_idoushudan_ex2",
       "japanese": "{田舎|いなか}では{車|くるま}が{主|おも}な{移動手段|いどうしゅだん}だ。",
       "english": "In the countryside, the car is the main means of transportation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "29780_idoushudan_ex3",
       "japanese": "{旅行|りょこう}の{計画|けいかく}を{立|た}てるときは、{移動手段|いどうしゅだん}を{先|さき}に{決|き}めておくと{便利|べんり}だ。",
       "english": "When planning a trip, it is convenient to decide on your means of transportation first.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from {移動|いどう} (movement, travel) + {手段|しゅだん} (means, method). Refers to whatever a person uses to get around.\n\nCOMMON COLLOCATIONS:\n- {移動手段|いどうしゅだん}を{確保|かくほ}する: to secure a means of transportation\n- {主|おも}な{移動手段|いどうしゅだん}: the main mode of transport\n- {移動手段|いどうしゅだん}がない: to have no way of getting around\n\nSIMILAR WORDS:\n- {交通手段|こうつうしゅだん}: means of transportation — nearly synonymous, but leans slightly toward public transport systems.\n- {乗|の}り{物|もの}: vehicle; ride — the physical vehicle itself, not the method of travel.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01694_norimono",
+      "reading": "のりもの",
+      "headword": "{乗|の}り{物|もの}",
+      "label": "vehicle"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["transportation"],
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ],
       "domain": []
     },
     "created": "2026-07-11T21:17:16Z",
-    "modified": "2026-07-11T21:17:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

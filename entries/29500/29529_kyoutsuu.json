@@ -17,7 +17,9 @@
       "id": "29529_kyoutsuu_ex1",
       "japanese": "{急|きゅう}に{胸痛|きょうつう}を{感|かん}じる。",
       "english": "To suddenly feel chest pain.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29529_kyoutsuu_ex2",
       "japanese": "{胸痛|きょうつう}が{続|つづ}くなら{受診|じゅしん}したほうがいい。",
       "english": "If the chest pain persists, you should see a doctor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,40 @@
       "id": "29529_kyoutsuu_ex3",
       "japanese": "{激|はげ}しい{胸痛|きょうつう}は{心臓|しんぞう}の{病気|びょうき}のサインかもしれない。",
       "english": "Severe chest pain may be a sign of heart disease.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A clinical noun for pain in the chest, common in medical questionnaires and symptom reports. More formal than the everyday {胸|むね}が{痛|いた}い.\n\nCOMMON COLLOCATIONS:\n- {胸痛|きょうつう}を{訴|うった}える: to complain of chest pain\n- {胸痛|きょうつう}がする: to have chest pain\n- {激|はげ}しい{胸痛|きょうつう}: severe chest pain\n\nSIMILAR WORDS:\n- {胸|むね}が{痛|いた}い: one's chest hurts — the plain, everyday phrasing\n- {動悸|どうき}: palpitations — a racing or pounding heartbeat, a different chest symptom",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06299_douki",
+      "reading": "どうき",
+      "headword": "{動悸|どうき}",
+      "label": "palpitations"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["health"],
-      "domain": ["medical"]
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-06-27T18:18:39Z",
-    "modified": "2026-06-27T18:18:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

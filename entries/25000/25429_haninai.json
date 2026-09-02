@@ -17,7 +17,9 @@
       "id": "25429_haninai_ex1",
       "japanese": "{予算|よさん}の{範囲内|はんいない}で{買|か}う。",
       "english": "I buy within the budget.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25429_haninai_ex2",
       "japanese": "{許容|きょよう}{範囲内|はんいない}であれば{問題|もんだい}ありません。",
       "english": "There is no problem as long as it is within the acceptable range.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,59 @@
       "id": "25429_haninai_ex3",
       "japanese": "{法律|ほうりつ}の{範囲内|はんいない}で{自由|じゆう}に{行動|こうどう}することができる。",
       "english": "You are free to act within the limits of the law.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{範囲内|はんいない} is a compound of {範囲|はんい} (range, scope) + {内|ない} (inside, within). The {内|ない} suffix is used with many nouns to express \"within\" a given boundary.\n\nUSAGE:\nOften preceded by の: ～の{範囲内|はんいない}で (within the scope of ~).\n\nCOMMON COLLOCATIONS:\n- {予算|よさん}の{範囲内|はんいない}: within the budget\n- {許容|きょよう}{範囲内|はんいない}: within the allowable range\n- {能力|のうりょく}の{範囲内|はんいない}: within one's abilities\n- {常識|じょうしき}の{範囲内|はんいない}: within the bounds of common sense\n- {法律|ほうりつ}の{範囲内|はんいない}: within the bounds of the law\n\nSIMILAR WORDS:\n- {範囲外|はんいがい}: outside the range — the antonym\n- {以内|いない}: within; no more than — used with quantities: {三|さん}キロ{以内|いない} (within three kilometers)\n- {圏内|けんない}: within the area/zone — often used for signal coverage or geographical zones",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "28213_hanigai",
+      "reading": "はんいがい",
+      "headword": "{範囲外|はんいがい}",
+      "label": "outside the range"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01317_inai",
+      "reading": "いない",
+      "headword": "{以内|いない}",
+      "label": "within"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16392_kennai",
+      "reading": "けんない",
+      "headword": "{圏内|けんない}",
+      "label": "within the area/zone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17783_wakunai",
+      "reading": "わくない",
+      "headword": "{枠内|わくない}",
+      "label": "within the frame"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity", "general"]
+      "semantic": [
+        "quantity",
+        "general"
+      ]
     },
     "created": "2026-04-25T12:41:40Z",
-    "modified": "2026-04-25T12:41:40Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

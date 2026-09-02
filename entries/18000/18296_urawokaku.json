@@ -3,7 +3,7 @@
   "id": "18296_urawokaku",
   "headword": "{裏|うら}をかく",
   "reading": "うらをかく",
-  "part_of_speech": "expression; verb (godan)",
+  "part_of_speech": "expression, verb (godan)",
   "gloss": "to outwit; to outsmart",
   "conjugation": {
     "type": "godan",
@@ -135,10 +135,25 @@
     }
   ],
   "notes": "USAGE:\nThe verb かく here means to go beyond or surpass (not \"to write\" or \"to scratch\"). The {裏|うら} refers to the hidden or unexpected side. The expression implies cleverness and is often used positively for strategic thinking, though it can also mean being deceptive.\n\nCOMMON COLLOCATIONS:\n- {相手|あいて}の{裏|うら}をかく (to outwit the opponent)\n- {予想|よそう}の{裏|うら}をかく (to defy expectations)\n- {裏|うら}をかかれる (to be outwitted — passive form)\n\nSIMILAR WORDS:\n- {出|で}し{抜|ぬ}く: to get the jump on, to steal a march — implies taking action before the other\n- {騙|だま}す: to deceive — more negatively connoted, implies dishonesty",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02286_damasu",
+      "reading": "だます",
+      "headword": "{騙|だま}す",
+      "label": "to deceive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20161_dashinuku",
+      "reading": "だしぬく",
+      "headword": "{出|だ}し{抜|ぬ}く",
+      "label": "to outsmart"
+    }
+  ],
   "metadata": {
     "created": "2026-03-21T01:19:35Z",
-    "modified": "2026-07-25T06:43:21Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

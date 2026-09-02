@@ -3,7 +3,7 @@
   "headword": "{完投|かんとう}",
   "reading": "かんとう",
   "romaji": "kantou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "complete game (baseball); pitching a full game",
   "definitions": [
     {
@@ -46,6 +46,57 @@
   ],
   "notes": "Compound of {完|かん} ('complete') and {投|とう} ('throw; pitch'). A baseball term referring to a pitcher throwing the entire game. Can be used as a noun or with する as a verb ({完投|かんとう}する).\n\nUSAGE:\nPrimarily a baseball term used in sports news and fan discussions. In an era of specialized bullpens, a {完投|かんとう} is increasingly rare and noteworthy. A {完投|かんとう} with a win is called {完投|かんとう}{勝利|しょうり}, and a complete game shutout is called {完封|かんぷう}.\n\nCOMMON COLLOCATIONS:\n- {完投|かんとう}する: to pitch a complete game\n- {完投|かんとう}{勝利|しょうり}: complete-game victory\n- {完投|かんとう}{勝|しょう}: complete-game win (abbreviated)\n- {完投|かんとう}{数|すう}: number of complete games\n\nSIMILAR WORDS:\n- {完封|かんぷう}: complete game shutout — pitching the entire game without allowing any runs\n- {先発|せんぱつ}: starting (pitcher) — the pitcher who begins the game; does not imply finishing it\n- {救援|きゅうえん}: relief (pitching) — coming in to replace the starting pitcher\n- {続投|ぞくとう}: continuing to pitch — staying on the mound (not necessarily to the end); also used figuratively for staying in a position",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06543_kanpuu",
+      "reading": "かんぷう",
+      "headword": "{完封|かんぷう}",
+      "label": "complete game shutout"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17735_senpatsu",
+      "reading": "せんぱつ",
+      "headword": "{先発|せんぱつ}",
+      "label": "starting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07864_kyuuen",
+      "reading": "きゅうえん",
+      "headword": "{救援|きゅうえん}",
+      "label": "relief"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13886_zokutou",
+      "reading": "ぞくとう",
+      "headword": "{続投|ぞくとう}",
+      "label": "continuing to pitch"
+    },
+    {
+      "type": "related",
+      "target_id": "26597_senpatsutoushu",
+      "reading": "せんぱつとうしゅ",
+      "headword": "{先発|せんぱつ}{投手|とうしゅ}",
+      "label": "starting pitcher"
+    },
+    {
+      "type": "related",
+      "target_id": "26678_kanpuushouri",
+      "reading": "かんぷうしょうり",
+      "headword": "{完封勝利|かんぷうしょうり}",
+      "label": "shutout victory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29967_keitou",
+      "reading": "けいとう",
+      "headword": "{継|けい}{投|とう}",
+      "label": "relay pitching"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +116,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-20T09:12:23Z",
-    "modified": "2026-04-20T09:12:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

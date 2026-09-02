@@ -24,7 +24,9 @@
       "english": "The row of shops is neatly lined up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14289_nokinami_ex2",
@@ -32,7 +34,9 @@
       "english": "The typhoon blew off the roofs of house after house.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14289_nokinami_ex3",
@@ -40,7 +44,9 @@
       "english": "I strolled along a street where old rows of houses still remain.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14289_nokinami_ex4",
@@ -48,7 +54,9 @@
       "english": "Stock prices fell across the board.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14289_nokinami_ex5",
@@ -56,7 +64,9 @@
       "english": "Restaurants raised prices across the board.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14289_nokinami_ex6",
@@ -64,21 +74,50 @@
       "english": "This year's entrance exams were difficult, and examinees' scores were low across the board.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "Compound of {軒|のき} (eaves, house) + {並|な}み (row, line). Originally described a row of houses, but the adverbial sense 2 is now more common.\n\nAs an adverb, {軒並|のきな}み emphasizes that something affects every member of a group uniformly. It is especially frequent in news reporting about market trends, price changes, and widespread phenomena.\n\nCOMMON COLLOCATIONS:\n- {軒並|のきな}み{上昇|じょうしょう} (rise across the board)\n- {軒並|のきな}み{下落|げらく} (fall across the board)\n- {軒並|のきな}み{値上|ねあ}げ (price hikes across the board)\n\nSIMILAR WORDS:\n- {一様|いちよう}に: uniformly (more formal)\n- {一斉|いっせい}に: all at once (emphasizes simultaneity)\n- どれも: all of them (colloquial, less emphatic)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11232_ichiyou",
+      "reading": "いちよう",
+      "headword": "{一様|いちよう}",
+      "label": "uniformly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16011_isseini",
+      "reading": "いっせいに",
+      "headword": "{一斉|いっせい}に",
+      "label": "all at once"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22934_doremo",
+      "reading": "どれも",
+      "headword": "どれも",
+      "label": "all of them"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T09:27:41Z",
-    "modified": "2026-02-28T09:27:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adverb"],
+      "pos": [
+        "noun",
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity"]
+      "semantic": [
+        "quantity"
+      ]
     }
   }
 }

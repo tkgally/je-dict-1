@@ -19,7 +19,9 @@
       "english": "I changed my hairstyle.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14646_kamigata_ex2",
@@ -27,7 +29,9 @@
       "english": "That hairstyle suits you.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14646_kamigata_ex3",
@@ -35,21 +39,56 @@
       "english": "I want a new hairstyle, but I can't decide what kind would be good.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{髪型|かみがた} is a compound of {髪|かみ} (hair) + {型|がた} (shape, style). It refers to the way a person's hair is cut, styled, or arranged.\n\nCOMMON COLLOCATIONS:\n- {髪型|かみがた}を{変|か}える: to change one's hairstyle\n- {髪型|かみがた}が{似合|にあ}う: a hairstyle suits someone\n- {髪型|かみがた}にこだわる: to be particular about one's hairstyle\n- {髪型|かみがた}を{決|き}める: to decide on a hairstyle\n\nSIMILAR WORDS:\n- ヘアスタイル: hairstyle (loanword, interchangeable)\n- {髪形|かみがた}: same word, alternate kanji spelling\n- {頭|あたま}: used colloquially to mean hairstyle (e.g., いい{頭|あたま}してるね)\n\nCOMMON STYLES:\n- ショートヘア: short hair\n- ロングヘア: long hair\n- ポニーテール: ponytail\n- {坊主|ぼうず}: buzz cut, shaved head\n- おだんご: hair bun",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00574_atama",
+      "reading": "あたま",
+      "headword": "{頭|あたま}",
+      "label": "used colloquially to mean hairstyle"
+    },
+    {
+      "type": "related",
+      "target_id": "19004_maegami",
+      "reading": "まえがみ",
+      "headword": "{前髪|まえがみ}",
+      "label": "bangs"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22072_kamishitsu",
+      "reading": "かみしつ",
+      "headword": "{髪質|かみしつ}",
+      "label": "hair texture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27075_kamiiro",
+      "reading": "かみいろ",
+      "headword": "{髪色|かみいろ}",
+      "label": "hair color"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T09:33:32Z",
-    "modified": "2026-03-29T09:23:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

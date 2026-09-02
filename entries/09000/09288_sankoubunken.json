@@ -16,7 +16,9 @@
       "id": "09288_sankoubunken_ex1",
       "japanese": "{論文|ろんぶん}の{最後|さいご}に{参考文献|さんこうぶんけん}を{載|の}せる。",
       "english": "Put the bibliography at the end of the paper.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09288_sankoubunken_ex2",
       "japanese": "{参考文献|さんこうぶんけん}を{正|ただ}しく{書|か}くことが{大切|たいせつ}だ。",
       "english": "It's important to write the references correctly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,24 +36,54 @@
       "id": "09288_sankoubunken_ex3",
       "japanese": "{参考文献|さんこうぶんけん}リストには{使|つか}った{資料|しりょう}を{全|すべ}て{記載|きさい}する。",
       "english": "List all the materials you used in the bibliography.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{参考文献|さんこうぶんけん} is essential in academic writing. It acknowledges sources and allows readers to verify information.\n\nCOMMON COLLOCATIONS:\n- {参考文献|さんこうぶんけん}リスト (bibliography list)\n- {参考文献|さんこうぶんけん}を{引用|いんよう}する (to cite a reference)\n- {参考文献|さんこうぶんけん}の{書|か}き{方|かた} (how to write references)\n\nRELATED TERMS:\n- {引用|いんよう} (citation, quotation)\n- {出典|しゅってん} (source)\n- {脚注|きゃくちゅう} (footnote)",
-  "cross_references": [],
+  "notes": "{参考文献|さんこうぶんけん} is essential in academic writing. It acknowledges sources and allows readers to verify information.\n\nCOMMON COLLOCATIONS:\n- {参考文献|さんこうぶんけん}リスト (bibliography list)\n- {参考文献|さんこうぶんけん}を{引用|いんよう}する (to cite a reference)\n- {参考文献|さんこうぶんけん}の{書|か}き{方|かた} (how to write references)\n\nRELATED WORDS:\n- {引用|いんよう} (citation, quotation)\n- {出典|しゅってん} (source)\n- {脚注|きゃくちゅう} (footnote)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01850_inyou",
+      "reading": "いんよう",
+      "headword": "{引用|いんよう}",
+      "label": "citation, quotation"
+    },
+    {
+      "type": "related",
+      "target_id": "06424_shutten",
+      "reading": "しゅってん",
+      "headword": "{出典|しゅってん}",
+      "label": "source"
+    },
+    {
+      "type": "related",
+      "target_id": "06423_kyakuchuu",
+      "reading": "きゃくちゅう",
+      "headword": "{脚注|きゃくちゅう}",
+      "label": "footnote"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T06:19:49Z",
-    "modified": "2026-02-01T06:19:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["education"],
-      "domain": ["academic"]
+      "semantic": [
+        "education"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

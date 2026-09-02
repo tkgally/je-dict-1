@@ -17,7 +17,9 @@
       "id": "19145_nigirizushi_ex1",
       "japanese": "{握|にぎ}り{寿司|ずし}を{食|た}べたい。",
       "english": "I want to eat nigiri sushi.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19145_nigirizushi_ex2",
       "japanese": "この{店|みせ}の{握|にぎ}り{寿司|ずし}は{新鮮|しんせん}でおいしい。",
       "english": "The nigiri sushi at this restaurant is fresh and delicious.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,37 @@
       "id": "19145_nigirizushi_ex3",
       "japanese": "{寿司|すし}{職人|しょくにん}が{目|め}の{前|まえ}で{握|にぎ}り{寿司|ずし}を{作|つく}ってくれた。",
       "english": "The sushi chef made nigiri sushi right in front of us.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The most iconic form of sushi, made by pressing vinegared rice by hand and topping it with a slice of fish or seafood. Also called {握|にぎ}りずし or simply {握|にぎ}り.\n\nCOUNTING:\n{一貫|いっかん}、{二貫|にかん} — pieces are counted with {貫|かん}.\n\nCOMMON TOPPINGS (ネタ):\n- {鮪|まぐろ}: tuna\n- {鮭|さけ}/サーモン: salmon\n- {海老|えび}: shrimp\n- {烏賊|いか}: squid\n- {玉子|たまご}: egg\n\nOTHER SUSHI TYPES:\n- {巻|ま}き{寿司|ずし}: rolled sushi\n- {散|ち}らし{寿司|ずし}: scattered sushi\n- {押|お}し{寿司|ずし}: pressed sushi\n\nCULTURAL NOTE:\nOriginated in the Edo period as a quick street food. Eating at a {回転|かいてん}{寿司|ずし} (conveyor belt sushi) restaurant is an affordable way to enjoy {握|にぎ}り{寿司|ずし}.",
+  "notes": "The most iconic form of sushi, made by pressing vinegared rice by hand and topping it with a slice of fish or seafood. Also called {握|にぎ}りずし or simply {握|にぎ}り.\n\nCOUNTING PATTERNS:\n{一貫|いっかん}、{二貫|にかん} — pieces are counted with {貫|かん}.\n\nCOMMON TOPPINGS (ネタ):\n- {鮪|まぐろ}: tuna\n- {鮭|さけ}/サーモン: salmon\n- {海老|えび}: shrimp\n- {烏賊|いか}: squid\n- {玉子|たまご}: egg\n\nOTHER SUSHI TYPES:\n- {巻|ま}き{寿司|ずし}: rolled sushi\n- {散|ち}らし{寿司|ずし}: scattered sushi\n- {押|お}し{寿司|ずし}: pressed sushi\n\nCULTURAL NOTE:\nOriginated in the Edo period as a quick street food. Eating at a {回転|かいてん}{寿司|ずし} (conveyor belt sushi) restaurant is an affordable way to enjoy {握|にぎ}り{寿司|ずし}.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22489_oshizushi",
+      "reading": "おしずし",
+      "headword": "{押|お}し{寿司|ずし}",
+      "label": "pressed sushi"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-03-24T11:20:22Z",
-    "modified": "2026-03-28T09:49:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

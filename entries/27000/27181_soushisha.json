@@ -17,7 +17,9 @@
       "id": "27181_soushisha_ex1",
       "japanese": "{会社|かいしゃ}の{創始者|そうししゃ}は{誰|だれ}ですか。",
       "english": "Who is the founder of the company?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27181_soushisha_ex2",
       "japanese": "この{宗教|しゅうきょう}の{創始者|そうししゃ}は{千年以上前|せんねんいじょうまえ}に{生|う}まれた。",
       "english": "The founder of this religion was born over a thousand years ago.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,65 @@
       "id": "27181_soushisha_ex3",
       "japanese": "{彼|かれ}はその{武道|ぶどう}の{創始者|そうししゃ}として{世界中|せかいじゅう}で{尊敬|そんけい}されている。",
       "english": "He is respected around the world as the founder of that martial art.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers to the person who first brought something into existence. Unlike {設立者|せつりつしゃ} which focuses on the formal act of establishing an organization, {創始者|そうししゃ} emphasizes the creative or pioneering aspect of starting something new.\n\nCOMMON COLLOCATIONS:\n- {会社|かいしゃ}の{創始者|そうししゃ}: founder of a company\n- {宗教|しゅうきょう}の{創始者|そうししゃ}: founder of a religion\n- {流派|りゅうは}の{創始者|そうししゃ}: founder of a school (of martial arts, art, etc.)\n- {運動|うんどう}の{創始者|そうししゃ}: originator of a movement\n\nSIMILAR WORDS:\n- {設立者|せつりつしゃ}: focuses on the formal, institutional act of establishing something (a corporation, foundation)\n- {開祖|かいそ}: founder of a religious sect or martial arts school; carries a more traditional, reverential tone\n- {創業者|そうぎょうしゃ}: specifically a business founder who started a commercial enterprise",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29027_sougyousha",
+      "reading": "そうぎょうしゃ",
+      "headword": "{創業者|そうぎょうしゃ}",
+      "label": "specifically a business founder who…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11534_ganso",
+      "reading": "がんそ",
+      "headword": "{元祖|がんそ}",
+      "label": "originator, founder, pioneer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12371_shiso",
+      "reading": "しそ",
+      "headword": "{始祖|しそ}",
+      "label": "founder, originator, progenitor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23283_hatsumeisha",
+      "reading": "はつめいしゃ",
+      "headword": "{発明者|はつめいしゃ}",
+      "label": "inventor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30342_teishousha",
+      "reading": "ていしょうしゃ",
+      "headword": "{提唱者|ていしょうしゃ}",
+      "label": "proposer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     },
     "created": "2026-05-07T15:16:54Z",
-    "modified": "2026-05-07T15:16:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

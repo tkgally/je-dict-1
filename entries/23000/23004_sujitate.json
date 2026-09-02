@@ -17,7 +17,9 @@
       "id": "23004_sujitate_ex1",
       "japanese": "この{映画|えいが}の{筋立|すじた}てはおもしろい。",
       "english": "The plot of this movie is interesting.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23004_sujitate_ex2",
       "japanese": "{筋立|すじた}てが{複雑|ふくざつ}で{分|わ}かりにくかった。",
       "english": "The plot was complicated and hard to follow.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "23004_sujitate_ex3",
       "japanese": "{小説|しょうせつ}を{書|か}く{前|まえ}に、まず{筋立|すじた}てを{考|かんが}えることが{大切|たいせつ}だ。",
       "english": "Before writing a novel, it's important to think about the plot first.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers to the overall narrative structure or sequence of events in a story. More focused on the progression of the story from beginning to end than on individual scenes.\n\nCOMMON COLLOCATIONS:\n- {筋立|すじた}てが{面白|おもしろ}い: the plot is interesting\n- {筋立|すじた}てを{考|かんが}える: to think up a plot\n- {筋立|すじた}てが{単純|たんじゅん}: the plot is simple\n- {巧|たく}みな{筋立|すじた}て: a skillful plot\n\nSIMILAR WORDS:\n- {筋|すじ}: plot, storyline — can mean the same thing in shorter form ({筋|すじ}がいい = good plot), but {筋|すじ} has many other meanings\n- あらすじ: synopsis, summary — a condensed summary of the plot, not the plot itself\n- プロット: plot — English loanword used especially in creative writing and screenwriting\n- {展開|てんかい}: development — refers to how the story unfolds, not the overall structure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04097_arasuji",
+      "reading": "あらすじ",
+      "headword": "{粗筋|あらすじ}",
+      "label": "synopsis, summary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04542_tenkai",
+      "reading": "てんかい",
+      "headword": "{展開|てんかい}",
+      "label": "development"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["art"]
+      "semantic": [
+        "art"
+      ]
     },
     "created": "2026-04-08T15:38:36Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{恥知|はじし}らず",
   "reading": "はじしらず",
   "romaji": "hajishirazu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "shameless person; shamelessness",
   "definitions": [
     {
@@ -22,7 +22,9 @@
       "id": "21065_hajishirazu_ex1",
       "japanese": "あの{人|ひと}は{恥知|はじし}らずだ。",
       "english": "That person is shameless.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "21065_hajishirazu_ex2",
       "japanese": "{嘘|うそ}をついて{平気|へいき}な{顔|かお}をしている{恥知|はじし}らずな{人間|にんげん}だ。",
       "english": "He's a shameless person who lies and shows no remorse.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,10 @@
       "id": "21065_hajishirazu_ex3",
       "japanese": "{自分|じぶん}の{過|あやま}ちを{認|みと}めずに{他人|たにん}のせいにするなんて、{恥知|はじし}らずにも{程|ほど}がある。",
       "english": "Not admitting your own mistakes and blaming others — there's a limit to shamelessness.",
-      "sense_numbers": [1, 2],
+      "sense_numbers": [
+        1,
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +53,9 @@
       "id": "21065_hajishirazu_ex4",
       "japanese": "{恥知|はじし}らずな{行為|こうい}だ。",
       "english": "That is shameless behavior.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +63,9 @@
       "id": "21065_hajishirazu_ex5",
       "japanese": "あんな{恥知|はじし}らずな{真似|まね}はできない。",
       "english": "I couldn't do anything that shameless.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +73,74 @@
       "id": "21065_hajishirazu_ex6",
       "japanese": "{会社|かいしゃ}の{金|かね}を{横領|おうりょう}しておいて{恥知|はじし}らずにも{復職|ふくしょく}を{求|もと}めてきた。",
       "english": "After embezzling company money, he brazenly sought to return to his position.",
-      "sense_numbers": [1, 2],
+      "sense_numbers": [
+        1,
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Literally '{恥|はじ} (shame) + {知|し}らず (not knowing)' — a person who doesn't know shame. A strong expression of disapproval. Can be used as a noun (a shameless person) or as a na-adjective ({恥知|はじし}らずな).\n\nCOMMON PATTERNS:\n- {恥知|はじし}らずな + noun: shameless (adjective use)\n- {恥知|はじし}らずにも: shamelessly, brazenly\n- {恥知|はじし}らずにも{程|ほど}がある: there's a limit to shamelessness\n\nCULTURAL NOTE:\nIn Japanese culture, where {恥|はじ} (shame) plays an important social role, calling someone {恥知|はじし}らず is a strong criticism implying they lack basic social awareness.\n\nSIMILAR WORDS:\n- {厚|あつ}かましい: impudent, brazen — focuses on pushiness rather than lack of shame\n- {図々|ずうずう}しい: shameless, nervy — colloquial, similar strength\n- {恥知|はじし}らず: emphasizes a fundamental absence of the sense of shame",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09161_atsukamashii",
+      "reading": "あつかましい",
+      "headword": "{厚|あつ}かましい",
+      "label": "impudent, brazen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06535_zuuzuushii",
+      "reading": "ずうずうしい",
+      "headword": "{図々|ずうずう}しい",
+      "label": "shameless, nervy"
+    },
+    {
+      "type": "related",
+      "target_id": "06393_kouganmuchi",
+      "reading": "こうがんむち",
+      "headword": "{厚顔無恥|こうがんむち}",
+      "label": "shameless, brazen"
+    },
+    {
+      "type": "related",
+      "target_id": "09162_kougan",
+      "reading": "こうがん",
+      "headword": "{厚顔|こうがん}",
+      "label": "brazen, shameless, impudent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16915_muchi",
+      "reading": "むち",
+      "headword": "{無恥|むち}",
+      "label": "shameless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22933_tsuranokawagaatsui",
+      "reading": "つらのかわがあつい",
+      "headword": "{面|つら}の{皮|かわ}が{厚|あつ}い",
+      "label": "shameless"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["personality"]
+      "semantic": [
+        "personality"
+      ]
     },
     "created": "2026-03-31T16:22:52Z",
-    "modified": "2026-03-31T16:22:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

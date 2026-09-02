@@ -3,7 +3,7 @@
   "headword": "{読|よ}み{流|なが}す",
   "reading": "よみながす",
   "romaji": "yominagasu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to skim over; to read without paying close attention",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A compound verb of {読|よ}む ('to read') + {流|なが}す ('to let flow, to let pass'). The {流|なが}す component conveys the sense of letting the content 'flow by' without absorbing it. This can be intentional (deliberately not engaging) or unintentional (failing to pay attention).\n\nCOMMON COLLOCATIONS:\n- {記事|きじ}を{読|よ}み{流|なが}す: to skim an article\n- メールを{読|よ}み{流|なが}す: to skim an email\n- さらっと{読|よ}み{流|なが}す: to casually skim through\n\nSIMILAR WORDS:\n- {斜|なな}め{読|よ}み: skimming, speed reading — a noun describing the act of reading diagonally/quickly\n- {読|よ}み{飛|と}ばす: to skip over (parts of text) — implies actively skipping sections entirely\n- {流|なが}し{読|よ}み: skimming — a noun with the same meaning, with reversed word order",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22744_nanameyomi",
+      "reading": "ななめよみ",
+      "headword": "{斜|なな}め{読|よ}み",
+      "label": "skimming, speed reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06850_yomitobasu",
+      "reading": "よみとばす",
+      "headword": "{読|よ}み{飛|と}ばす",
+      "label": "to skip over"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21428_nagashiyomi",
+      "reading": "ながしよみ",
+      "headword": "{流|なが}し{読|よ}み",
+      "label": "skimming"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "godan-su"
     },
     "created": "2026-04-07T14:14:24Z",
-    "modified": "2026-08-01T06:42:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

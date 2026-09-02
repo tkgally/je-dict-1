@@ -3,7 +3,7 @@
   "id": "20848_kakusage",
   "headword": "{格下|かくさ}げ",
   "reading": "かくさげ",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "downgrade; demotion; relegation",
   "definitions": [
     {
@@ -69,11 +69,39 @@
       "reading": "かくづけ",
       "headword": "{格付|かくづ}け",
       "label": "rating"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04688_koukaku",
+      "reading": "こうかく",
+      "headword": "{降格|こうかく}",
+      "label": "demotion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06831_sasen",
+      "reading": "させん",
+      "headword": "{左遷|させん}",
+      "label": "being transferred to a lesser post"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25393_koukakusuru",
+      "reading": "こうかくする",
+      "headword": "{降格|こうかく}する",
+      "label": "to demote"
+    },
+    {
+      "type": "antonym",
+      "target_id": "26031_kakujou",
+      "reading": "かくじょう",
+      "headword": "{格上|かくじょう}",
+      "label": "upgrading"
     }
   ],
   "metadata": {
     "created": "2026-03-30T18:25:20Z",
-    "modified": "2026-07-29T00:22:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

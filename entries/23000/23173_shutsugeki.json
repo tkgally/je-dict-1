@@ -3,7 +3,7 @@
   "headword": "{出撃|しゅつげき}",
   "reading": "しゅつげき",
   "romaji": "shutsugeki",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sortie; sally; going out to attack",
   "definitions": [
     {
@@ -56,6 +56,29 @@
   ],
   "notes": "Composed of {出|しゅつ} (go out) and {撃|げき} (attack, strike). Describes the act of leaving a position to go on the offensive. Originally a military term, it is now commonly encountered in video games, anime, and fiction involving mecha or war themes.\n\nCOMMON COLLOCATIONS:\n- {出撃|しゅつげき}する: to sortie, to deploy\n- {出撃|しゅつげき}{命令|めいれい}: sortie order\n- {出撃|しゅつげき}{準備|じゅんび}: preparations for sortie\n- {出撃|しゅつげき}{回数|かいすう}: number of sorties\n\nSIMILAR WORDS:\n- {進撃|しんげき}: advance, charge — moving forward to attack, often in formation\n- {攻撃|こうげき}: attack — the act of attacking in general, not specifically leaving base\n- {出動|しゅつどう}: dispatch, deployment — broader term for dispatching forces, including for non-combat purposes",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14493_shingeki",
+      "reading": "しんげき",
+      "headword": "{進撃|しんげき}",
+      "label": "advance, charge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02748_kougeki",
+      "reading": "こうげき",
+      "headword": "{攻撃|こうげき}",
+      "label": "attack"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28803_shutsudou",
+      "reading": "しゅつどう",
+      "headword": "{出動|しゅつどう}",
+      "label": "dispatch, deployment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -71,7 +94,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-08T21:19:30Z",
-    "modified": "2026-04-08T21:19:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

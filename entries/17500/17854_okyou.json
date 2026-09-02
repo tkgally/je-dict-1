@@ -19,7 +19,9 @@
       "english": "The monk is chanting a sutra.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17854_okyou_ex2",
@@ -27,7 +29,9 @@
       "english": "We had a sutra chanted at the memorial service.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17854_okyou_ex3",
@@ -35,21 +39,50 @@
       "english": "My grandmother chants sutras in front of the Buddhist altar every morning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nThe お prefix is standard and almost always used in everyday speech. The plain form {経|きょう} alone is more formal or literary. The most common verbs used with お{経|きょう} are {読|よ}む (to read/chant), {上|あ}げる (to offer up), and {唱|とな}える (to recite).\n\nCOMMON COLLOCATIONS:\n- お{経|きょう}を{読|よ}む (to chant a sutra)\n- お{経|きょう}を{上|あ}げる (to offer sutra chanting)\n- お{経|きょう}を{唱|とな}える (to recite a sutra)\n\nCULTURAL NOTE:\nSutra chanting is central to Japanese Buddhist funerals and memorial services. Even families who are not actively religious typically have sutras chanted by a monk at funerals ({葬儀|そうぎ}) and annual memorial services ({法事|ほうじ}).",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18449_nenju",
+      "reading": "ねんじゅ",
+      "headword": "{念珠|ねんじゅ}",
+      "label": "prayer beads"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24001_kyoumon",
+      "reading": "きょうもん",
+      "headword": "{経文|きょうもん}",
+      "label": "sutra text"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24153_kyouten",
+      "reading": "きょうてん",
+      "headword": "{経典|きょうてん}",
+      "label": "scripture"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T06:58:32Z",
-    "modified": "2026-03-19T06:58:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["religion", "culture"]
+      "semantic": [
+        "religion",
+        "culture"
+      ]
     }
   }
 }

@@ -168,11 +168,40 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: ⟦{遅|おく}らせる→おくらせる：02480_okuraseru⟧ (transitive, to delay something). Pattern: Xに{遅|おく}れる (be late for X).\n\nASPECT: ている indicates ongoing state. {遅|おく}れている = 'is delayed/running late.'\n\nCOMMON PATTERNS:\n・⟦{学校|がっこう}→がっこう：00055_gakkou⟧に{遅|おく}れる (be late for school)\n・⟦{電車|でんしゃ}→でんしゃ：00522_densha⟧が{遅|おく}れる (train is delayed)\n・{遅|おく}れて⟦すみません→すみません：00998_sumimasen⟧ (sorry I'm late)\n・5{分|ふん}{遅|おく}れる (be 5 minutes late)\n\nThe apology {遅|おく}れて⟦すみません→すみません：00998_sumimasen⟧ is extremely common.",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: ⟦{遅|おく}らせる→おくらせる：02480_okuraseru⟧ (transitive, to delay something). Pattern: Xに{遅|おく}れる (be late for X).\n\nASPECT: ている indicates ongoing state. {遅|おく}れている = 'is delayed/running late.'\n\nCOMMON PATTERNS:\n- ⟦{学校|がっこう}→がっこう：00055_gakkou⟧に{遅|おく}れる (be late for school)\n- ⟦{電車|でんしゃ}→でんしゃ：00522_densha⟧が{遅|おく}れる (train is delayed)\n- {遅|おく}れて⟦すみません→すみません：00998_sumimasen⟧ (sorry I'm late)\n- 5{分|ふん}{遅|おく}れる (be 5 minutes late)\n\nThe apology {遅|おく}れて⟦すみません→すみません：00998_sumimasen⟧ is extremely common.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01225_susumu",
+      "reading": "すすむ",
+      "headword": "{進|すす}む",
+      "label": "to advance, to proceed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03465_chikoku",
+      "reading": "ちこく",
+      "headword": "{遅刻|ちこく}",
+      "label": "lateness, being late"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19599_nobiru",
+      "reading": "のびる",
+      "headword": "{延|の}びる",
+      "label": "to be postponed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22282_chikokusuru",
+      "reading": "ちこくする",
+      "headword": "{遅刻|ちこく}する",
+      "label": "to be late"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:43:10Z",
-    "modified": "2026-05-05T09:06:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

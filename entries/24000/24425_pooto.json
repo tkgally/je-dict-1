@@ -81,6 +81,29 @@
   ],
   "notes": "A loanword from English \"port.\" In Japanese, ポート in technology contexts refers specifically to connection points — both physical connectors and network ports. The harbor/seaport meaning is a separate concept, though the same katakana is used.\n\nCOMMON COLLOCATIONS:\n- USBポート: USB port\n- {充電|じゅうでん}ポート: charging port\n- ポート{番号|ばんごう}: port number\n- ポートを{開|あ}ける: to open a port\n- ポートを{閉|と}じる: to close a port\n- イヤホンポート: headphone jack\n\nSIMILAR WORDS:\n- {端子|たんし}: terminal, connector — the native Japanese technical term for physical connectors\n- ジャック: jack — another loanword for audio/headphone connectors\n- {接続口|せつぞくぐち}: connection point — a more descriptive native term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30215_tanshi",
+      "reading": "たんし",
+      "headword": "端子",
+      "label": "terminal, connector"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24622_setsuzokuguchi",
+      "reading": "せつぞくぐち",
+      "headword": "{接続口|せつぞくぐち}",
+      "label": "connection point"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30229_sashikomiguchi",
+      "reading": "さしこみぐち",
+      "headword": "{差|さ}し{込|こ}み{口|ぐち}",
+      "label": "socket"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -94,6 +117,6 @@
       ]
     },
     "created": "2026-04-19T09:21:51Z",
-    "modified": "2026-04-19T09:21:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

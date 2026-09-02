@@ -17,7 +17,9 @@
       "id": "29857_banpei_ex1",
       "japanese": "{門|もん}の{前|まえ}に{番兵|ばんぺい}が{立|た}っている。",
       "english": "A sentry is standing in front of the gate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29857_banpei_ex2",
       "japanese": "{番兵|ばんぺい}が{夜通|よどお}し{見張|みは}りをする。",
       "english": "The sentry keeps watch all night long.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29857_banpei_ex3",
       "japanese": "{城|しろ}の{番兵|ばんぺい}は{不審|ふしん}な{人物|じんぶつ}を{見|み}つけて{呼|よ}び{止|と}めた。",
       "english": "The castle sentry spotted a suspicious person and called out to stop them.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {番|ばん} (watch, guard duty) + {兵|へい} (soldier). Refers to a soldier posted to stand guard; common in historical and military contexts.\n\nCOMMON COLLOCATIONS:\n- {番兵|ばんぺい}を{置|お}く: to post a sentry\n- {番兵|ばんぺい}に{立|た}つ: to stand guard\n- {番兵|ばんぺい}の{交代|こうたい}: changing of the guard\n\nSIMILAR WORDS:\n- {歩哨|ほしょう}: sentinel — more technical, formal military term\n- {見張|みは}り: lookout — general watching, not necessarily a soldier",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18525_mihari",
+      "reading": "みはり",
+      "headword": "{見張|みは}り",
+      "label": "lookout"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29847_eihei",
+      "reading": "えいへい",
+      "headword": "{衛兵|えいへい}",
+      "label": "guard"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["military"],
+      "politeness": "plain",
+      "semantic": [
+        "military"
+      ],
       "domain": []
     },
     "created": "2026-07-15T12:19:49Z",
-    "modified": "2026-07-15T12:19:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

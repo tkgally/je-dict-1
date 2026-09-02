@@ -17,7 +17,9 @@
       "id": "27069_pedaru_ex1",
       "japanese": "ペダルを{踏|ふ}む。",
       "english": "To press the pedal.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27069_pedaru_ex2",
       "japanese": "{自転車|じてんしゃ}のペダルが{重|おも}くなってきた。",
       "english": "The bicycle pedals have gotten stiff.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "27069_pedaru_ex3",
       "japanese": "アクセルペダルとブレーキペダルを{間違|まちが}えて{事故|じこ}を{起|お}こした。",
       "english": "They caused an accident by confusing the accelerator pedal with the brake pedal.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"pedal.\" Used for any foot-operated lever, including bicycle pedals, car pedals (accelerator, brake, clutch), and piano pedals. The most common context is bicycles.\n\nCOMMON COLLOCATIONS:\n- ペダルを{踏|ふ}む: to step on / press a pedal\n- ペダルを{漕|こ}ぐ: to pedal (a bicycle)\n- アクセルペダル: accelerator pedal; gas pedal\n- ブレーキペダル: brake pedal\n- ペダルの{踏|ふ}み{間違|まちが}い: pedal misapplication (pressing wrong pedal)\n\nUSAGE:\nThe compound ペダルの{踏|ふ}み{間違|まちが}い (pedal misapplication) is a frequently reported cause of traffic accidents in Japan, particularly involving elderly drivers. It appears regularly in news coverage.\n\nSIMILAR WORDS:\n- アクセル: accelerator — specifically the gas pedal or throttle\n- ブレーキ: brake — specifically the brake mechanism or pedal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06332_akuseru",
+      "reading": "あくせる",
+      "headword": "アクセル",
+      "label": "accelerator"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00022_bureeki",
+      "reading": "ぶれーき",
+      "headword": "ブレーキ",
+      "label": "brake"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "tool"]
+      "semantic": [
+        "transportation",
+        "tool"
+      ]
     },
     "created": "2026-05-06T16:07:49Z",
-    "modified": "2026-08-07T06:28:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

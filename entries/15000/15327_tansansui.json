@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA common everyday word. {炭酸水|たんさんすい} specifically refers to plain carbonated water without flavoring. Flavored carbonated drinks are called {炭酸飲料|たんさんいんりょう}.\n\nCOMMON COLLOCATIONS:\n- {炭酸水|たんさんすい}で{割|わ}る (to mix with sparkling water)\n- {無糖|むとう}{炭酸水|たんさんすい} (unsweetened sparkling water)\n- {強|つよ}{炭酸|たんさん} (strong carbonation)\n\nWORD FORMATION:\n{炭酸|たんさん} (carbonic acid) + {水|すい} (water).",
-  "cross_references": [],
+  "notes": "USAGE:\nA common everyday word. {炭酸水|たんさんすい} specifically refers to plain carbonated water without flavoring. Flavored carbonated drinks are called {炭酸飲料|たんさんいんりょう}.\n\nCOMMON COLLOCATIONS:\n- {炭酸水|たんさんすい}で{割|わ}る (to mix with sparkling water)\n- {無糖|むとう}{炭酸水|たんさんすい} (unsweetened sparkling water)\n- {強|つよ}{炭酸|たんさん} (strong carbonation)\n\nFORMS:\n{炭酸|たんさん} (carbonic acid) + {水|すい} (water).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19494_tansaninryou",
+      "reading": "たんさんいんりょう",
+      "headword": "{炭酸飲料|たんさんいんりょう}",
+      "label": "carbonated beverage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24841_soodasui",
+      "reading": "そーだすい",
+      "headword": "ソーダ{水|すい}",
+      "label": "soda water"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26667_mineraruwootaa",
+      "reading": "みねらるうぉーたー",
+      "headword": "ミネラルウォーター",
+      "label": "mineral water"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T09:48:20Z",
-    "modified": "2026-07-16T07:06:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -56,6 +78,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food"
       ]

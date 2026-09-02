@@ -17,7 +17,9 @@
       "id": "28882_ichinenkan_ex1",
       "japanese": "{一年間|いちねんかん}{日本|にほん}に{住|す}んだ。",
       "english": "I lived in Japan for one year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28882_ichinenkan_ex2",
       "japanese": "{一年間|いちねんかん}の{留学|りゅうがく}{経験|けいけん}がある。",
       "english": "I have one year of study-abroad experience.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "28882_ichinenkan_ex3",
       "japanese": "この{保険|ほけん}は{一年間|いちねんかん}{有効|ゆうこう}で、{毎年|まいとし}{更新|こうしん}する{必要|ひつよう}がある。",
       "english": "This insurance is valid for one year and must be renewed annually.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Adds the duration suffix {間|かん} to {一年|いちねん}, making the meaning unambiguously 'for one year' rather than 'first year.'\n\nCOMMON PATTERNS:\n- {一年間|いちねんかん}{続|つづ}く: to continue for one year\n- {一年間|いちねんかん}の{予定|よてい}: a one-year plan\n- {一年間|いちねんかん}{有効|ゆうこう}: valid for one year\n\nSIMILAR WORDS:\n- {一年|いちねん}: one year; first year — shorter, can be ambiguous between duration and ordinal\n- {一年中|いちねんじゅう}: all year round; throughout the year",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17104_ichinenjuu",
+      "reading": "いちねんじゅう",
+      "headword": "{一年中|いちねんじゅう}",
+      "label": "all year round"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["time-period"],
+      "politeness": "plain",
+      "semantic": [
+        "time-period"
+      ],
       "domain": []
     },
     "created": "2026-06-06T04:04:02Z",
-    "modified": "2026-06-06T04:04:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

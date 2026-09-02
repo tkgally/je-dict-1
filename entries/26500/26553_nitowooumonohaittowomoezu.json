@@ -17,7 +17,9 @@
       "id": "26553_nitowooumonohaittowomoezu_ex1",
       "japanese": "{二兎|にと}を{追|お}う{者|もの}は{一兎|いっと}をも{得|え}ずだよ。",
       "english": "You know what they say — chase two rabbits and you'll catch neither.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26553_nitowooumonohaittowomoezu_ex2",
       "japanese": "{仕事|しごと}も{趣味|しゅみ}も{両方|りょうほう}やろうとして、{二兎|にと}を{追|お}う{者|もの}は{一兎|いっと}をも{得|え}ずになった。",
       "english": "I tried to pursue both work and hobbies and ended up failing at both.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,44 @@
       "id": "26553_nitowooumonohaittowomoezu_ex3",
       "japanese": "{二兎|にと}を{追|お}う{者|もの}は{一兎|いっと}をも{得|え}ずというから、まずは{一|ひと}つに{集中|しゅうちゅう}しよう。",
       "english": "Since they say chasing two hares gets you neither, let's focus on one thing first.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A well-known Japanese proverb derived from a Latin saying (\"Duos qui sequitur lepores neutrum capit\"). It warns against dividing one's attention between multiple goals, as doing so often leads to failure in all of them.\n\nUSAGE:\nTypically used as advice or admonition when someone is trying to take on too much at once. Often followed by という or だよ when quoting the proverb. Can also be used as a noun-like phrase to describe a situation: {二兎|にと}{追|お}いになる.\n\nSIMILAR PROVERBS:\n- {虻蜂取|あぶはちと}らず: trying to catch both a horsefly and a bee, catching neither — nearly identical meaning\n- {一石二鳥|いっせきにちょう}: killing two birds with one stone — opposite meaning (successfully achieving two goals at once)\n\nCULTURAL NOTE:\nThis proverb is commonly used in business, education, and everyday advice contexts. The word {兎|と}/{兎|うさぎ} (rabbit/hare) appears in several Japanese proverbs and idioms.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04764_issekinichou",
+      "reading": "いっせきにちょう",
+      "headword": "{一石二鳥|いっせきにちょう}",
+      "label": "killing two birds with one stone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06293_abuhachitorazu",
+      "reading": "あぶはちとらず",
+      "headword": "{虻|あぶ}{蜂|はち}{取|と}らず",
+      "label": "grasp all, lose all"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["proverb"]
+      "semantic": [
+        "proverb"
+      ]
     },
     "created": "2026-05-03T11:06:14Z",
-    "modified": "2026-05-03T11:06:14Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

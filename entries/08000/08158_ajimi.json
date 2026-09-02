@@ -2,7 +2,7 @@
   "id": "08158_ajimi",
   "headword": "{味見|あじみ}",
   "reading": "あじみ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "tasting; sampling (food)",
   "conjugation": {
     "type": "suru",
@@ -153,7 +153,7 @@
       "notes": null
     }
   ],
-  "notes": "{味見|あじみ} means tasting food to check its flavor, especially while cooking. Compound of {味|あじ} (taste) + {見|み} (checking).\n\nCOMMON PATTERNS:\n- Xの{味見|あじみ}をする: to taste X\n- {味見|あじみ}してみる: to try tasting\n- {味見|あじみ}してから{塩|しお}を{足|た}す: to taste before adding salt\n\nSIMILAR WORDS:\n- {試食|ししょく}: food tasting/sampling (at a store, not while cooking)\n- {試飲|しいん}: drink tasting/sampling\n- {味|あじ}をみる: to check the taste (synonym)\n\nDISTINCTION:\n{味見|あじみ} is typically done by the cook during preparation, while {試食|ししょく} refers to free samples offered at shops or events.",
+  "notes": "{味見|あじみ} means tasting food to check its flavor, especially while cooking. Compound of {味|あじ} (taste) + {見|み} (checking).\n\nCOMMON PATTERNS:\n- Xの{味見|あじみ}をする: to taste X\n- {味見|あじみ}してみる: to try tasting\n- {味見|あじみ}してから{塩|しお}を{足|た}す: to taste before adding salt\n\nSIMILAR WORDS:\n- {試食|ししょく}: food tasting/sampling (at a store, not while cooking)\n- {試飲|しいん}: drink tasting/sampling\n- {味|あじ}をみる: to check the taste (synonym)\n{味見|あじみ} is typically done by the cook during preparation, while {試食|ししょく} refers to free samples offered at shops or events.",
   "cross_references": [
     {
       "type": "contrast",
@@ -161,6 +161,20 @@
       "headword": "{試食|ししょく}",
       "label": "food sampling (at a store/event)",
       "target_id": "03060_shishoku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08048_shiin",
+      "reading": "しいん",
+      "headword": "{試飲|しいん}",
+      "label": "drink tasting/sampling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27222_tsumamigui",
+      "reading": "つまみぐい",
+      "headword": "つまみ{食|ぐ}い",
+      "label": "sneaking a taste"
     }
   ],
   "metadata": {
@@ -171,6 +185,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "cooking",
         "food"
@@ -178,6 +193,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-25T07:33:27Z",
-    "modified": "2026-06-21T13:03:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

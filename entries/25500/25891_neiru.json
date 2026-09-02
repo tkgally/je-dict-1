@@ -17,7 +17,9 @@
       "id": "25891_neiru_ex1",
       "japanese": "ネイルを{変|か}えたいな。",
       "english": "I want to change my nails.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25891_neiru_ex2",
       "japanese": "{新|あたら}しいネイルサロンが{駅前|えきまえ}にオープンした。",
       "english": "A new nail salon opened in front of the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,54 @@
       "id": "25891_neiru_ex3",
       "japanese": "{季節|きせつ}に{合|あ}わせてネイルのデザインを{変|か}えるのが{楽|たの}しみだ。",
       "english": "I enjoy changing my nail designs to match the season.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"nail,\" but in Japanese used almost exclusively in the beauty/fashion context for nail art and manicures. The hardware meaning (metal nail) is expressed as {釘|くぎ}, not ネイル.\n\nA major part of Japanese beauty culture. ネイルサロン (nail salons) are ubiquitous in Japanese cities, and elaborate nail art is a recognized art form. ジェルネイル (gel nails) are particularly popular in Japan.\n\nCOMMON COLLOCATIONS:\n- ネイルサロン: nail salon\n- ジェルネイル: gel nails\n- ネイルアート: nail art\n- ネイルを{塗|ぬ}る: to paint nails\n- ネイルケア: nail care\n- セルフネイル: doing one's own nails at home\n\nSIMILAR WORDS:\n- マニキュア: manicure; nail polish — can refer to both the act and the polish itself\n- ペディキュア: pedicure — nail treatment specifically for toenails\n- {爪|つめ}: nail; fingernail — the body part itself, not the beauty treatment",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19400_manikyua",
+      "reading": "まにきゅあ",
+      "headword": "マニキュア",
+      "label": "manicure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26372_pedikyua",
+      "reading": "ぺでぃきゅあ",
+      "headword": "ペディキュア",
+      "label": "pedicure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02159_tsume",
+      "reading": "つめ",
+      "headword": "{爪|つめ}",
+      "label": "nail"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["appearance"],
-      "domain": ["colloquial"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "appearance"
+      ],
+      "domain": [
+        "colloquial"
+      ]
     },
     "created": "2026-04-28T11:24:09Z",
-    "modified": "2026-08-05T09:26:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

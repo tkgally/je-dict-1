@@ -17,7 +17,9 @@
       "id": "21879_onshitsu_ex1",
       "japanese": "このヘッドホンは{音質|おんしつ}がいい。",
       "english": "These headphones have good sound quality.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21879_onshitsu_ex2",
       "japanese": "{音質|おんしつ}を{調整|ちょうせい}する{設定|せってい}はどこですか。",
       "english": "Where is the setting to adjust the sound quality?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,12 +37,14 @@
       "id": "21879_onshitsu_ex3",
       "japanese": "{値段|ねだん}は{安|やす}いが、{音質|おんしつ}は{期待|きたい}していたよりずっと{良|よ}かった。",
       "english": "The price was cheap, but the sound quality was much better than I expected.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {音|おん} (sound) + {質|しつ} (quality). Very commonly used when discussing audio equipment, music streaming, recordings, and musical instruments.\n\nCOMMON COLLOCATIONS:\n- {音質|おんしつ}がいい/{悪|わる}い: good/bad sound quality\n- {高|こう}{音質|おんしつ}: high sound quality\n- {音質|おんしつ}を{調整|ちょうせい}する: to adjust sound quality\n- {音質|おんしつ}にこだわる: to be particular about sound quality\n- {音質|おんしつ}{向上|こうじょう}: improvement in sound quality\n\nRELATED TERMS:\n- {画質|がしつ}: image/picture quality\n- {音量|おんりょう}: volume (loudness)\n- {音色|ねいろ}: tone color/timbre — the character of a sound, especially in music",
+  "notes": "Composed of {音|おん} (sound) + {質|しつ} (quality). Very commonly used when discussing audio equipment, music streaming, recordings, and musical instruments.\n\nCOMMON COLLOCATIONS:\n- {音質|おんしつ}がいい/{悪|わる}い: good/bad sound quality\n- {高|こう}{音質|おんしつ}: high sound quality\n- {音質|おんしつ}を{調整|ちょうせい}する: to adjust sound quality\n- {音質|おんしつ}にこだわる: to be particular about sound quality\n- {音質|おんしつ}{向上|こうじょう}: improvement in sound quality\n\nRELATED WORDS:\n- {画質|がしつ}: image/picture quality\n- {音量|おんりょう}: volume (loudness)\n- {音色|ねいろ}: tone color/timbre — the character of a sound, especially in music",
   "cross_references": [
     {
       "type": "related",
@@ -53,18 +59,37 @@
       "reading": "おんりょう",
       "headword": "{音量|おんりょう}",
       "label": "volume"
+    },
+    {
+      "type": "related",
+      "target_id": "16156_gashitsu",
+      "reading": "がしつ",
+      "headword": "{画質|がしつ}",
+      "label": "image/picture quality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25105_shishitsu",
+      "reading": "ししつ",
+      "headword": "{紙質|ししつ}",
+      "label": "paper quality"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technology", "music"]
+      "semantic": [
+        "technology",
+        "music"
+      ]
     },
     "created": "2026-04-03T20:23:55Z",
-    "modified": "2026-07-26T03:19:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

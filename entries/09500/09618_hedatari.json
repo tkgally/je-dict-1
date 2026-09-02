@@ -22,7 +22,9 @@
       "japanese": "{両者|りょうしゃ}の{間|あいだ}には{大|おお}きな{隔|へだ}たりがある。",
       "english": "There is a large gap between the two.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -30,7 +32,9 @@
       "japanese": "{世代間|せだいかん}の{隔|へだ}たりを{感|かん}じる。",
       "english": "I feel the generational gap.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -38,22 +42,57 @@
       "japanese": "{意見|いけん}の{隔|へだ}たりが{埋|う}まらない。",
       "english": "The gap in opinions cannot be bridged.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
-  "notes": "{隔|へだ}たり refers to distance or gaps, often in relationships or views.\n\nCOMMON PATTERNS:\n- {隔|へだ}たりがある: there is a gap/distance\n- {隔|へだ}たりを{感|かん}じる: to feel distance\n- {隔|へだ}たりが{縮|ちぢ}まる: the gap narrows\n- {隔|へだ}たりを{埋|う}める: to bridge the gap\n\nRELATED TERMS:\n- {距離|きょり}: distance (neutral, physical)\n- {溝|みぞ}: gap, rift (emotional, negative)\n- {格差|かくさ}: disparity (social, economic)",
-  "cross_references": [],
+  "notes": "{隔|へだ}たり refers to distance or gaps, often in relationships or views.\n\nCOMMON PATTERNS:\n- {隔|へだ}たりがある: there is a gap/distance\n- {隔|へだ}たりを{感|かん}じる: to feel distance\n- {隔|へだ}たりが{縮|ちぢ}まる: the gap narrows\n- {隔|へだ}たりを{埋|う}める: to bridge the gap\n\nRELATED WORDS:\n- {距離|きょり}: distance (neutral, physical)\n- {溝|みぞ}: gap, rift (emotional, negative)\n- {格差|かくさ}: disparity (social, economic)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05331_kyori",
+      "reading": "きょり",
+      "headword": "{距離|きょり}",
+      "label": "distance"
+    },
+    {
+      "type": "related",
+      "target_id": "09410_mizo",
+      "reading": "みぞ",
+      "headword": "{溝|みぞ}",
+      "label": "gap, rift"
+    },
+    {
+      "type": "related",
+      "target_id": "04839_kakusa",
+      "reading": "かくさ",
+      "headword": "{格差|かくさ}",
+      "label": "disparity"
+    },
+    {
+      "type": "related",
+      "target_id": "18729_hedateru",
+      "reading": "へだてる",
+      "headword": "{隔|へだ}てる",
+      "label": "to separate"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T02:35:27Z",
-    "modified": "2026-02-03T02:35:27Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

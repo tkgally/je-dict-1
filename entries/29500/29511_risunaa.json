@@ -17,7 +17,9 @@
       "id": "29511_risunaa_ex1",
       "japanese": "リスナーからの{質問|しつもん}。",
       "english": "A question from a listener.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29511_risunaa_ex2",
       "japanese": "この{番組|ばんぐみ}は{若|わか}いリスナーに{人気|にんき}だ。",
       "english": "This program is popular with young listeners.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "29511_risunaa_ex3",
       "japanese": "{配信中|はいしんちゅう}、リスナーがコメントで{盛|も}り{上|あ}げてくれた。",
       "english": "During the stream, the listeners livened things up with their comments.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"listener.\" Common in broadcasting and online streaming to refer to the people tuning in, often as a collective audience.\n\nCOMMON COLLOCATIONS:\n- リスナーの{反応|はんのう}: the listeners' reactions\n- リスナー{参加型|さんかがた}: listener-participation (format)\n- {常連|じょうれん}リスナー: a regular listener\n\nSIMILAR WORDS:\n- {視聴者|しちょうしゃ}: viewer — audience of television or video\n- {読者|どくしゃ}: reader — audience of written material\n- {聴衆|ちょうしゅう}: audience — the live audience at a concert or lecture",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02570_shichousha",
+      "reading": "しちょうしゃ",
+      "headword": "{視聴者|しちょうしゃ}",
+      "label": "viewer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16554_dokusha",
+      "reading": "どくしゃ",
+      "headword": "{読者|どくしゃ}",
+      "label": "reader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13907_choushuu",
+      "reading": "ちょうしゅう",
+      "headword": "{聴衆|ちょうしゅう}",
+      "label": "audience"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["media"],
+      "politeness": "plain",
+      "semantic": [
+        "media"
+      ],
       "domain": []
     },
     "created": "2026-06-27T00:21:08Z",
-    "modified": "2026-06-27T00:21:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

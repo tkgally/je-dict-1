@@ -17,7 +17,9 @@
       "id": "26894_furutaimu_ex1",
       "japanese": "フルタイムで{働|はたら}いている。",
       "english": "I work full-time.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26894_furutaimu_ex2",
       "japanese": "{子育|こそだ}て{中|ちゅう}はフルタイムの{仕事|しごと}は{難|むずか}しい。",
       "english": "It's hard to work a full-time job while raising children.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,54 @@
       "id": "26894_furutaimu_ex3",
       "japanese": "パートからフルタイムに{切|き}り{替|か}えたら、{給料|きゅうりょう}も{福利厚生|ふくりこうせい}も{良|よ}くなった。",
       "english": "When I switched from part-time to full-time, both my salary and benefits improved.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A loanword from English \"full-time.\" Used primarily in the context of employment to describe working standard hours, as opposed to パートタイム (part-time).\n\nCOMMON COLLOCATIONS:\n- フルタイムで{働|はたら}く: to work full-time\n- フルタイムの{仕事|しごと}: a full-time job\n- フルタイム{勤務|きんむ}: full-time employment\n- フルタイム{社員|しゃいん}: full-time employee\n- フルタイムの{主婦|しゅふ}: full-time housewife/homemaker\n\nSIMILAR WORDS:\n- {常勤|じょうきん}: full-time (employment) — more formal Japanese equivalent used in job postings and contracts\n- パートタイム: part-time — the antonym, also a loanword\n- {非常勤|ひじょうきん}: part-time, non-regular — formal antonym of {常勤|じょうきん}\n\nUSAGE:\nフルタイムの{主婦|しゅふ} (\"full-time housewife\") is a common expression emphasizing that homemaking is a serious, full-time occupation. In sports contexts, フルタイム can also mean the full duration of a match.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16063_joukin",
+      "reading": "じょうきん",
+      "headword": "{常勤|じょうきん}",
+      "label": "full-time"
+    },
+    {
+      "type": "antonym",
+      "target_id": "25267_paatotaimu",
+      "reading": "ぱーとたいむ",
+      "headword": "パートタイム",
+      "label": "part-time"
+    },
+    {
+      "type": "antonym",
+      "target_id": "10675_hijoukin",
+      "reading": "ひじょうきん",
+      "headword": "{非常勤|ひじょうきん}",
+      "label": "part-time, non-regular"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-05-05T15:08:28Z",
-    "modified": "2026-05-05T15:08:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

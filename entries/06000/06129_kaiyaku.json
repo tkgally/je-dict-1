@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed as a noun or with する to form a verb.\n- {解約|かいやく}する: to cancel (a contract)\n- {解約|かいやく}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: cancellation procedure\n\nCOMMON COLLOCATIONS:\n- ⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦を→を：00422_wo⟧{解約|かいやく}する: to cancel a contract\n- ⟦{定期|ていき}→定期：03538_teiki⟧⟦{購読|こうどく}→購読：04468_koudoku⟧⟦を→を：00422_wo⟧{解約|かいやく}する: to cancel a subscription\n- ⟦{保険|ほけん}→保険：01509_hoken⟧⟦を→を：00422_wo⟧{解約|かいやく}する: to cancel an insurance policy\n\nRELATED TERMS:\n- ⟦{解約金|かいやくきん}→解約金：29245_kaiyakukin⟧/⟦{違約金|いやくきん}→違約金：09819_iyakukin⟧: cancellation fee/penalty\n- {解約|かいやく}⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧: cancellation processing fee\n- ⟦{途中|とちゅう}→途中：01684_tochuu⟧{解約|かいやく}: early termination\n\nCONTRAST:\n- ⟦{契約|けいやく}→契約：02698_keiyaku⟧: contract (entering into)\n- ⟦{更新|こうしん}→更新：04765_koushin⟧: renewal",
+  "notes": "USAGE:\nUsed as a noun or with する to form a verb.\n- {解約|かいやく}する: to cancel (a contract)\n- {解約|かいやく}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: cancellation procedure\n\nCOMMON COLLOCATIONS:\n- ⟦{契約|けいやく}→契約：02698_keiyaku⟧⟦を→を：00422_wo⟧{解約|かいやく}する: to cancel a contract\n- ⟦{定期|ていき}→定期：03538_teiki⟧⟦{購読|こうどく}→購読：04468_koudoku⟧⟦を→を：00422_wo⟧{解約|かいやく}する: to cancel a subscription\n- ⟦{保険|ほけん}→保険：01509_hoken⟧⟦を→を：00422_wo⟧{解約|かいやく}する: to cancel an insurance policy\n\nRELATED WORDS:\n- ⟦{解約金|かいやくきん}→解約金：29245_kaiyakukin⟧/⟦{違約金|いやくきん}→違約金：09819_iyakukin⟧: cancellation fee/penalty\n- {解約|かいやく}⟦{手数料|てすうりょう}→手数料：05423_tesuuryou⟧: cancellation processing fee\n- ⟦{途中|とちゅう}→途中：01684_tochuu⟧{解約|かいやく}: early termination\n\nSIMILAR WORDS:\n- ⟦{契約|けいやく}→契約：02698_keiyaku⟧: contract (entering into)\n- ⟦{更新|こうしん}→更新：04765_koushin⟧: renewal",
   "cross_references": [
     {
       "type": "antonym",
@@ -138,11 +138,46 @@
       "headword": "{契約|けいやく}",
       "label": "contract",
       "target_id": "02698_keiyaku"
+    },
+    {
+      "type": "related",
+      "target_id": "09819_iyakukin",
+      "reading": "いやくきん",
+      "headword": "{違約金|いやくきん}",
+      "label": "cancellation fee/penalty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04765_koushin",
+      "reading": "こうしん",
+      "headword": "{更新|こうしん}",
+      "label": "renewal"
+    },
+    {
+      "type": "related",
+      "target_id": "08642_haki",
+      "reading": "はき",
+      "headword": "{破棄|はき}",
+      "label": "destruction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16082_taikai",
+      "reading": "たいかい",
+      "headword": "{退会|たいかい}",
+      "label": "withdrawal (from a group)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20734_taikaisuru",
+      "reading": "たいかいする",
+      "headword": "{退会|たいかい}する",
+      "label": "to withdraw from"
     }
   ],
   "metadata": {
     "created": "2026-01-17T03:48:16Z",
-    "modified": "2026-08-25T00:21:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

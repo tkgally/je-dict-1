@@ -3,7 +3,7 @@
   "headword": "{増資|ぞうし}",
   "reading": "ぞうし",
   "romaji": "zoushi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "capital increase; equity increase",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Formed from {増|ぞう} (increase) + {資|し} (capital, assets). A core term in business and financial news. The most common methods are {公募増資|こうぼぞうし} (public offering) and {第三者割当増資|だいさんしゃわりあてぞうし} (third-party allotment). The opposite is {減資|げんし} (capital reduction).\n\nCOMMON COLLOCATIONS:\n- {増資|ぞうし}を{行|おこな}う: to carry out a capital increase\n- {増資|ぞうし}を{発表|はっぴょう}する: to announce a capital increase\n- {公募|こうぼ}{増資|ぞうし}: public offering; capital increase through public share issuance\n- {第三者|だいさんしゃ}{割当|わりあて}{増資|ぞうし}: third-party allotment\n- {大幅|おおはば}な{増資|ぞうし}: substantial capital increase\n\nSIMILAR WORDS:\n- {減資|げんし}: capital reduction — the opposite; reducing the company's stated capital\n- {出資|しゅっし}: investment; capital contribution — providing capital to a venture\n- {資金調達|しきんちょうたつ}: fundraising — a broader term that includes loans, bonds, and other methods besides issuing shares",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07643_shusshi",
+      "reading": "しゅっし",
+      "headword": "{出資|しゅっし}",
+      "label": "investment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17065_shikinchoutatsu",
+      "reading": "しきんちょうたつ",
+      "headword": "{資金調達|しきんちょうたつ}",
+      "label": "fundraising"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T16:10:05Z",
-    "modified": "2026-05-06T16:10:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

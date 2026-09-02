@@ -17,7 +17,9 @@
       "id": "23160_rinbansei_ex1",
       "japanese": "{掃除|そうじ}{当番|とうばん}は{輪番制|りんばんせい}だ。",
       "english": "The cleaning duty is on a rotation system.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23160_rinbansei_ex2",
       "japanese": "{輪番制|りんばんせい}で{議長|ぎちょう}を{務|つと}める。",
       "english": "We take turns serving as chairperson on a rotation basis.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,37 @@
       "id": "23160_rinbansei_ex3",
       "japanese": "{公平|こうへい}を{期|き}すために、{発表|はっぴょう}の{順番|じゅんばん}は{輪番制|りんばんせい}にしましょう。",
       "english": "To ensure fairness, let's use a rotation system for the presentation order.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {輪番|りんばん} (taking turns) + {制|せい} (system). Describes a formalized system of rotation. The 2011 Fukushima disaster made this term widely known through {計画停電|けいかくていでん} (planned blackouts) carried out on a {輪番制|りんばんせい} basis.\n\nCOMMON COLLOCATIONS:\n- {輪番制|りんばんせい}で: on a rotation basis\n- {輪番制|りんばんせい}を{導入|どうにゅう}する: to introduce a rotation system\n- {輪番制|りんばんせい}{停電|ていでん}: rolling blackout\n- {輪番|りんばん}{当番|とうばん}: rotating duty assignment\n\nSIMILAR WORDS:\n- {交代制|こうたいせい}: shift system — workers alternate in shifts (day/night), while {輪番制|りんばんせい} implies a cyclical rotation through a fixed order\n- {持|も}ち{回|まわ}り: taking turns — less formal; {持|も}ち{回|まわ}りで{幹事|かんじ}をする (taking turns being the organizer)\n- {当番制|とうばんせい}: duty roster system — assigns specific duties on a schedule",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18781_koutaisei",
+      "reading": "こうたいせい",
+      "headword": "{交代制|こうたいせい}",
+      "label": "shift system"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["society"]
+      "semantic": [
+        "society"
+      ]
     },
     "created": "2026-04-08T20:38:34Z",
-    "modified": "2026-04-08T20:38:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "{訓読|くんよ}み literally means \"meaning reading,\" referring to native Japanese readings.\n\nRELATED TERMS:\n- {訓読|くんよ}み: kun'yomi (native Japanese reading)\n- {音読|おんよ}み: on'yomi (Chinese-derived reading)\n\nUSAGE NOTE:\nKun'yomi are typically used when a kanji appears alone or with okurigana ({送|おく}りがな). For example, {山|やま} (yama) uses the kun'yomi, while {登山|とざん} (tozan) uses on'yomi.",
-  "cross_references": [],
+  "notes": "{訓読|くんよ}み literally means \"meaning reading,\" referring to native Japanese readings.\n\nRELATED WORDS:\n- {訓読|くんよ}み: kun'yomi (native Japanese reading)\n- {音読|おんよ}み: on'yomi (Chinese-derived reading)\n\nUSAGE:\nKun'yomi are typically used when a kanji appears alone or with okurigana ({送|おく}りがな). For example, {山|やま} (yama) uses the kun'yomi, while {登山|とざん} (tozan) uses on'yomi.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23894_jion",
+      "reading": "じおん",
+      "headword": "{字音|じおん}",
+      "label": "Sino-Japanese (on) reading of a kanji"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24368_jukujikun",
+      "reading": "じゅくじくん",
+      "headword": "{熟字訓|じゅくじくん}",
+      "label": "special kanji compound reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25434_onkun",
+      "reading": "おんくん",
+      "headword": "{音訓|おんくん}",
+      "label": "on'yomi and kun'yomi"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T11:20:16Z",
-    "modified": "2026-04-24T06:24:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

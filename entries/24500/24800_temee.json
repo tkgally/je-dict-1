@@ -46,7 +46,7 @@
     },
     {
       "id": "24800_temee_ex3",
-      "japanese": "てめえの{やったこと|やったこと}、{分|わ}かってんのか。",
+      "japanese": "てめえのやったこと、{分|わ}かってんのか。",
       "english": "Do you even understand what you've done?",
       "sense_numbers": [
         1
@@ -87,6 +87,29 @@
   ],
   "notes": "A contraction of {手前|てまえ} (literally \"in front of one's hands\"), which originally meant \"myself\" as a humble first-person pronoun. Over time the second-person usage became dominant, and the pronunciation shifted to てめえ. Now primarily used as a hostile way to address someone, expressing anger, contempt, or threat.\n\nETYMOLOGY:\n{手前|てまえ} → てめえ (phonetic contraction). The shift from humble self-reference to aggressive second-person address parallels a similar evolution in {貴様|きさま}.\n\nUSAGE:\n- Extremely rude as a second-person pronoun — carries a threatening tone\n- Common in anime, manga, and yakuza films, but rarely used in real-life conversation outside of genuine confrontations\n- The self-referential sense (\"oneself\") survives in set phrases like てめえのことはてめえでやれ\n\nSIMILAR WORDS:\n- {貴様|きさま} — you (similarly hostile, but more archaic-sounding)\n- お{前|まえ} — you (rough but not as aggressive as てめえ)\n- あんた — you (casual/blunt, much milder)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18458_kisama",
+      "reading": "きさま",
+      "headword": "{貴様|きさま}",
+      "label": "you"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02533_omae",
+      "reading": "おまえ",
+      "headword": "お{前|まえ}",
+      "label": "you"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27721_anta",
+      "reading": "あんた",
+      "headword": "あんた",
+      "label": "you"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -102,6 +125,6 @@
       ]
     },
     "created": "2026-04-20T16:21:53Z",
-    "modified": "2026-08-03T21:38:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

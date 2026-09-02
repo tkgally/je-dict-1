@@ -17,7 +17,9 @@
       "id": "21612_joumuin_ex1",
       "japanese": "{乗務員|じょうむいん}に{声|こえ}をかけた。",
       "english": "I called out to a crew member.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21612_joumuin_ex2",
       "japanese": "{乗務員|じょうむいん}が{安全|あんぜん}{確認|かくにん}を{行|おこな}った。",
       "english": "The crew member carried out a safety check.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "21612_joumuin_ex3",
       "japanese": "{体調|たいちょう}が{悪|わる}くなったら、{近|ちか}くの{乗務員|じょうむいん}にお{知|し}らせください。",
       "english": "If you start feeling unwell, please let a nearby crew member know.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A general term for any staff member who works onboard a vehicle as part of their duty. Commonly heard in announcements on trains and airplanes.\n\nCOMMON COLLOCATIONS:\n- {客室|きゃくしつ}{乗務員|じょうむいん}: cabin crew, flight attendant\n- {乗務員|じょうむいん}{室|しつ}: crew room, crew quarters\n- {乗務員|じょうむいん}{交代|こうたい}: crew change\n- {乗務員|じょうむいん}{不足|ふそく}: crew shortage\n\nSIMILAR WORDS:\n- {車掌|しゃしょう}: train conductor — specific role on a train\n- {運転士|うんてんし}: train driver — specific role\n- キャビンアテンダント (CA): cabin attendant — specific to airplanes\n- クルー: crew — loanword, more casual\n\nFORMATION:\n{乗務|じょうむ} (duty aboard a vehicle) + {員|いん} (member, personnel).",
+  "notes": "A general term for any staff member who works onboard a vehicle as part of their duty. Commonly heard in announcements on trains and airplanes.\n\nCOMMON COLLOCATIONS:\n- {客室|きゃくしつ}{乗務員|じょうむいん}: cabin crew, flight attendant\n- {乗務員|じょうむいん}{室|しつ}: crew room, crew quarters\n- {乗務員|じょうむいん}{交代|こうたい}: crew change\n- {乗務員|じょうむいん}{不足|ふそく}: crew shortage\n\nSIMILAR WORDS:\n- {車掌|しゃしょう}: train conductor — specific role on a train\n- {運転士|うんてんし}: train driver — specific role\n- キャビンアテンダント (CA): cabin attendant — specific to airplanes\n- クルー: crew — loanword, more casual\n\nFORMS:\n{乗務|じょうむ} (duty aboard a vehicle) + {員|いん} (member, personnel).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06204_shashou",
+      "reading": "しゃしょう",
+      "headword": "{車掌|しゃしょう}",
+      "label": "train conductor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07339_untenshi",
+      "reading": "うんてんし",
+      "headword": "{運転士|うんてんし}",
+      "label": "train driver"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "work"]
+      "semantic": [
+        "transportation",
+        "work"
+      ]
     },
     "created": "2026-04-02T18:13:49Z",
-    "modified": "2026-04-02T18:13:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

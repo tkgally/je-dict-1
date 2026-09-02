@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Commonly seen on product labels for food and beverages. Modifies nouns with の.\n\nCOMPOUND: {無|む} (without) + {糖|とう} (sugar)\n\nSUGAR LEVEL LABELS:\n- {無糖|むとう}: sugar-free\n- {微糖|びとう}: slightly sweet (common for canned coffee)\n- {低糖|ていとう}: low sugar\n- {加糖|かとう}: sugar added\n\nSIMILAR {無|む}～ LABELS:\n- {無塩|むえん}: salt-free\n- {無脂肪|むしぼう}: fat-free\n- {無添加|むてんか}: additive-free\n- {無農薬|むのうやく}: pesticide-free\n\nUSAGE:\nVery common in convenience stores and supermarkets. {無糖|むとう}の{お{茶|ちゃ}} and {無糖|むとう}コーヒー are staples of Japanese vending machines.",
+  "notes": "Commonly seen on product labels for food and beverages. Modifies nouns with の.\n\nCOMPOUND: {無|む} (without) + {糖|とう} (sugar)\n\nSUGAR LEVEL LABELS:\n- {無糖|むとう}: sugar-free\n- {微糖|びとう}: slightly sweet (common for canned coffee)\n- {低糖|ていとう}: low sugar\n- {加糖|かとう}: sugar added\n\nSIMILAR {無|む}～ LABELS:\n- {無塩|むえん}: salt-free\n- {無脂肪|むしぼう}: fat-free\n- {無添加|むてんか}: additive-free\n- {無農薬|むのうやく}: pesticide-free\n\nUSAGE:\nVery common in convenience stores and supermarkets. {無糖|むとう}のお{茶|ちゃ} and {無糖|むとう}コーヒー are staples of Japanese vending machines.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "28595_muen",
+      "reading": "むえん",
+      "headword": "{無塩|むえん}",
+      "label": "salt-free"
+    },
+    {
+      "type": "related",
+      "target_id": "19283_mutenka",
+      "reading": "むてんか",
+      "headword": "{無添加|むてんか}",
+      "label": "additive-free"
+    },
+    {
+      "type": "related",
+      "target_id": "19133_munouyaku",
+      "reading": "むのうやく",
+      "headword": "{無農薬|むのうやく}",
+      "label": "pesticide-free"
+    },
+    {
+      "type": "antonym",
+      "target_id": "20005_katou",
+      "reading": "かとう",
+      "headword": "{加糖|かとう}",
+      "label": "sweetened"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-03-24T09:36:09Z",
-    "modified": "2026-04-07T03:52:40Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

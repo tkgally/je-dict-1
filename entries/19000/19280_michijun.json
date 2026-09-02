@@ -17,7 +17,9 @@
       "id": "19280_michijun_ex1",
       "japanese": "{道順|みちじゅん}を{教|おし}えてください。",
       "english": "Please tell me the way.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19280_michijun_ex2",
       "japanese": "{地図|ちず}で{道順|みちじゅん}を{確認|かくにん}した。",
       "english": "I checked the route on the map.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "19280_michijun_ex3",
       "japanese": "{駅|えき}からホテルまでの{道順|みちじゅん}をメモに{書|か}いておいた。",
       "english": "I wrote down the directions from the station to the hotel on a memo.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {道|みち} (road) and {順|じゅん} (order/sequence). Emphasizes the step-by-step order of the route rather than just the destination.\n\nCOMMON COLLOCATIONS:\n- {道順|みちじゅん}を{教|おし}える — to give directions\n- {道順|みちじゅん}を{調|しら}べる — to look up directions\n- {道順|みちじゅん}を{確認|かくにん}する — to confirm the route\n- {道順|みちじゅん}を{間違|まちが}える — to take the wrong route\n\nSIMILAR WORDS:\n- ルート — route (loanword, often for planned travel or hiking routes)\n- {行|い}き{方|かた} — how to get there (more conversational)\n- {経路|けいろ} — route, path (more formal/technical, also used for data routes)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11250_ruuto",
+      "reading": "るーと",
+      "headword": "ルート",
+      "label": "route"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13796_keiro",
+      "reading": "けいろ",
+      "headword": "{経路|けいろ}",
+      "label": "route, path"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15668_michiannai",
+      "reading": "みちあんない",
+      "headword": "{道案内|みちあんない}",
+      "label": "giving directions"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     },
     "created": "2026-03-25T04:43:22Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

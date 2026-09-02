@@ -2,7 +2,7 @@
   "id": "07702_yaritori",
   "headword": "やり{取|と}り",
   "reading": "やりとり",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "exchange; interaction; correspondence",
   "conjugation": {
     "type": "suru",
@@ -130,10 +130,54 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\nやり (giving) + {取|と}り (receiving) - the back-and-forth of giving and receiving\n\nALTERNATE WRITING:\nAlso written as やりとり (all hiragana) or {遣|や}り{取|と}り\n\nCOMMON COLLOCATIONS:\n・メールのやり{取|と}り - email exchange\n・やり{取|と}りを{続|つづ}ける - to continue exchanging\n・やり{取|と}りをする - to exchange, to interact\n\nRELATED:\n・{交換|こうかん} - exchange (more formal)\n・{会話|かいわ} - conversation\n・{連絡|れんらく} - contact, communication",
+  "notes": "ETYMOLOGY:\nやり (giving) + {取|と}り (receiving) - the back-and-forth of giving and receiving\n\nALTERNATE WRITING:\nAlso written as やりとり (all hiragana) or {遣|や}り{取|と}り\n\nCOMMON COLLOCATIONS:\n- メールのやり{取|と}り - email exchange\n- やり{取|と}りを{続|つづ}ける - to continue exchanging\n- やり{取|と}りをする - to exchange, to interact\n\nRELATED WORDS:\n- {交換|こうかん} - exchange (more formal)\n- {会話|かいわ} - conversation\n- {連絡|れんらく} - contact, communication",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02746_koukan",
+      "reading": "こうかん",
+      "headword": "{交換|こうかん}",
+      "label": "exchange"
+    },
+    {
+      "type": "related",
+      "target_id": "01271_kaiwa",
+      "reading": "かいわ",
+      "headword": "{会話|かいわ}",
+      "label": "conversation"
+    },
+    {
+      "type": "related",
+      "target_id": "01524_renraku",
+      "reading": "れんらく",
+      "headword": "{連絡|れんらく}",
+      "label": "contact, communication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12618_oushuu",
+      "reading": "おうしゅう",
+      "headword": "{応酬|おうしゅう}",
+      "label": "exchange (of words, blows)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28014_juju",
+      "reading": "じゅじゅ",
+      "headword": "授受",
+      "label": "giving and receiving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28500_kakeai",
+      "reading": "かけあい",
+      "headword": "{掛|か}け{合|あ}い",
+      "label": "banter"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +186,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "communication"
       ],

@@ -17,7 +17,9 @@
       "id": "22331_koudan_ex1",
       "japanese": "{講談|こうだん}を{聞|き}きに{行|い}く。",
       "english": "To go listen to a kōdan performance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22331_koudan_ex2",
       "japanese": "{講談師|こうだんし}が{張|は}り{扇|おうぎ}で{釈台|しゃくだい}を{叩|たた}く{音|おと}が{響|ひび}く。",
       "english": "The sound of the storyteller striking the lectern with a fan echoes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "22331_koudan_ex3",
       "japanese": "{江戸|えど}{時代|じだい}から{続|つづ}く{講談|こうだん}は、{落語|らくご}と{並|なら}ぶ{日本|にほん}の{伝統|でんとう}{芸能|げいのう}である。",
       "english": "Kōdan, which has continued since the Edo period, is a traditional Japanese performing art alongside rakugo.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A traditional oral storytelling art that developed during the Edo period. The performer ({講談師|こうだんし}) sits at a small lectern ({釈台|しゃくだい}) and narrates dramatic stories, using a folding fan ({張|は}り{扇|おうぎ}) to strike the table for emphasis and rhythm.\n\nCOMMON COLLOCATIONS:\n- {講談|こうだん}を{語|かた}る: to perform kōdan\n- {講談師|こうだんし}: kōdan performer/storyteller\n- {講談|こうだん}{調|ちょう}: kōdan style (dramatic narrative style)\n- {講談|こうだん}の{寄席|よせ}: variety hall featuring kōdan\n\nCONTENT:\nStories typically feature samurai, historical battles, revenge tales, and famous incidents. Unlike {落語|らくご} (comic storytelling), {講談|こうだん} tends toward dramatic and heroic narratives rather than comedy.\n\nSIMILAR WORDS:\n- {落語|らくご}: rakugo — comic storytelling, ends with a punchline\n- {浪曲|ろうきょく}: rōkyoku — narrative singing with shamisen accompaniment\n- {語|かた}り: narration — broader term for oral storytelling",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04457_rakugo",
+      "reading": "らくご",
+      "headword": "{落語|らくご}",
+      "label": "rakugo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14390_katari",
+      "reading": "かたり",
+      "headword": "{語|かた}り",
+      "label": "narration"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["culture", "art"]
+      "semantic": [
+        "culture",
+        "art"
+      ]
     },
     "created": "2026-04-05T18:31:05Z",
-    "modified": "2026-04-05T18:31:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

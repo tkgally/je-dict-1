@@ -16,7 +16,9 @@
       "id": "08775_shanaihousou_ex1",
       "japanese": "{車内|しゃない}{放送|ほうそう}が{聞|き}こえにくい。",
       "english": "The train announcement is hard to hear.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "08775_shanaihousou_ex2",
       "japanese": "{車内|しゃない}{放送|ほうそう}で{次|つぎ}の{駅|えき}を{確認|かくにん}した。",
       "english": "I confirmed the next station from the train announcement.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "08775_shanaihousou_ex3",
       "japanese": "{車内|しゃない}{放送|ほうそう}が{日本語|にほんご}と{英語|えいご}で{流|なが}れる。",
       "english": "Train announcements are made in Japanese and English.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -51,18 +57,43 @@
       "reading": "ほうそう",
       "headword": "{放送|ほうそう}",
       "label": "broadcast"
+    },
+    {
+      "type": "related",
+      "target_id": "08476_chienshoumei",
+      "reading": "ちえんしょうめい",
+      "headword": "{遅延証明|ちえんしょうめい}",
+      "label": "delay certificate"
+    },
+    {
+      "type": "related",
+      "target_id": "16130_norikae",
+      "reading": "のりかえ",
+      "headword": "{乗|の}り{換|か}え",
+      "label": "transfer"
+    },
+    {
+      "type": "related",
+      "target_id": "10700_anaunsu",
+      "reading": "あなうんす",
+      "headword": "アナウンス",
+      "label": "announcement"
     }
   ],
-  "notes": "TRANSPORTATION TERM:\n{車内|しゃない}{放送|ほうそう} refers to announcements inside trains and other public transport. Japanese trains are known for detailed and frequent announcements.\n\nTYPICAL ANNOUNCEMENT CONTENT:\n- {次|つぎ}は～{駅|えき}です - The next station is ~\n- {乗|の}り{換|か}えのご{案内|あんない} - transfer information\n- {遅延|ちえん}のお{知|し}らせ - delay announcements\n- マナー{啓発|けいはつ} - courtesy reminders\n\nRELATED TERMS:\n- {運行状況|うんこうじょうきょう} - service status\n- {遅延証明|ちえんしょうめい} - delay certificate\n- {乗|の}り{換|か}え - transfer\n- アナウンス - announcement\n\nNOTE:\nMany Japanese train lines now offer multilingual announcements, especially in urban areas.",
+  "notes": "TRANSPORTATION TERM:\n{車内|しゃない}{放送|ほうそう} refers to announcements inside trains and other public transport. Japanese trains are known for detailed and frequent announcements.\n\nTYPICAL ANNOUNCEMENT CONTENT:\n- {次|つぎ}は～{駅|えき}です - The next station is ~\n- {乗|の}り{換|か}えのご{案内|あんない} - transfer information\n- {遅延|ちえん}のお{知|し}らせ - delay announcements\n- マナー{啓発|けいはつ} - courtesy reminders\n\nRELATED WORDS:\n- {運行状況|うんこうじょうきょう} - service status\n- {遅延証明|ちえんしょうめい} - delay certificate\n- {乗|の}り{換|か}え - transfer\n- アナウンス - announcement\n\nUSAGE:\nMany Japanese train lines now offer multilingual announcements, especially in urban areas.",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-01-28T04:51:23Z",
-    "modified": "2026-06-23T01:38:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

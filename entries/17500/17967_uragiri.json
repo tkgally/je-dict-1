@@ -19,7 +19,9 @@
       "english": "I was hurt by my friend's betrayal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17967_uragiri_ex2",
@@ -27,7 +29,9 @@
       "english": "I will never forget that betrayal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17967_uragiri_ex3",
@@ -35,7 +39,9 @@
       "english": "Due to the betrayal of a trusted subordinate, the company suffered great losses.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA strong, emotionally charged word. Used for serious violations of trust in personal relationships, business, and politics. Also common in fiction and drama.\n\nCOMMON COLLOCATIONS:\n- {裏切|うらぎ}り{行為|こうい} (act of betrayal)\n- {裏切|うらぎ}り{者|もの} (traitor, betrayer)\n- {裏切|うらぎ}りに{遭|あ}う (suffer a betrayal)\n- {信頼|しんらい}への{裏切|うらぎ}り (betrayal of trust)\n\nSIMILAR WORDS:\n- {背信|はいしん}: breach of faith — formal, often used in legal or political contexts\n- {寝返|ねがえ}り: switching sides — originally a military term for defecting to the enemy",
@@ -47,17 +53,64 @@
       "note": "verb form"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15523_haishin",
+      "reading": "はいしん",
+      "headword": "{背信|はいしん}",
+      "label": "breach of faith"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05510_negaeri",
+      "reading": "ねがえり",
+      "headword": "{寝返|ねがえ}り",
+      "label": "switching sides"
+    },
+    {
+      "type": "related",
+      "target_id": "18466_fujitsu",
+      "reading": "ふじつ",
+      "headword": "{不実|ふじつ}",
+      "label": "faithlessness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21482_rihan",
+      "reading": "りはん",
+      "headword": "{離反|りはん}",
+      "label": "defection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26308_fuchuu",
+      "reading": "ふちゅう",
+      "headword": "{不忠|ふちゅう}",
+      "label": "disloyalty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26527_fuchuujitsu",
+      "reading": "ふちゅうじつ",
+      "headword": "{不忠実|ふちゅうじつ}",
+      "label": "unfaithful"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T10:05:00Z",
-    "modified": "2026-05-07T10:07:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
   }
 }

@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{祝|しゅく} (celebration) + {日|じつ} (day)\n\nJAPANESE NATIONAL HOLIDAYS:\n・{元日|がんじつ} (1/1) - New Year's Day\n・{成人|せいじん}の{日|ひ} (Jan 2nd Mon) - Coming of Age Day\n・{建国記念|けんこくきねん}の{日|ひ} (2/11) - National Foundation Day\n・{天皇誕生日|てんのうたんじょうび} (2/23) - Emperor's Birthday\n・{春分|しゅんぶん}の{日|ひ} (Mar ~21) - Vernal Equinox Day\n・{昭和|しょうわ}の{日|ひ} (4/29) - Showa Day\n・{憲法記念日|けんぽうきねんび} (5/3) - Constitution Memorial Day\n・みどりの{日|ひ} (5/4) - Greenery Day\n・こどもの{日|ひ} (5/5) - Children's Day\n・{海|うみ}の{日|ひ} (Jul 3rd Mon) - Marine Day\n・{山|やま}の{日|ひ} (8/11) - Mountain Day\n・{敬老|けいろう}の{日|ひ} (Sep 3rd Mon) - Respect for the Aged Day\n・{秋分|しゅうぶん}の{日|ひ} (Sep ~23) - Autumnal Equinox Day\n・{文化|ぶんか}の{日|ひ} (11/3) - Culture Day\n・{勤労感謝|きんろうかんしゃ}の{日|ひ} (11/23) - Labor Thanksgiving Day\n\nRELATED TERMS:\n・{休日|きゅうじつ} - day off, holiday (general)\n・{振替|ふりかえ}{休日|きゅうじつ} - substitute holiday\n・{国民|こくみん}の{祝日|しゅくじつ} - national holiday (formal term)",
+  "notes": "ETYMOLOGY:\n{祝|しゅく} (celebration) + {日|じつ} (day)\n\nJAPANESE NATIONAL HOLIDAYS:\n- {元日|がんじつ} (1/1) - New Year's Day\n- {成人|せいじん}の{日|ひ} (Jan 2nd Mon) - Coming of Age Day\n- {建国記念|けんこくきねん}の{日|ひ} (2/11) - National Foundation Day\n- {天皇誕生日|てんのうたんじょうび} (2/23) - Emperor's Birthday\n- {春分|しゅんぶん}の{日|ひ} (Mar ~21) - Vernal Equinox Day\n- {昭和|しょうわ}の{日|ひ} (4/29) - Showa Day\n- {憲法記念日|けんぽうきねんび} (5/3) - Constitution Memorial Day\n- みどりの{日|ひ} (5/4) - Greenery Day\n- こどもの{日|ひ} (5/5) - Children's Day\n- {海|うみ}の{日|ひ} (Jul 3rd Mon) - Marine Day\n- {山|やま}の{日|ひ} (8/11) - Mountain Day\n- {敬老|けいろう}の{日|ひ} (Sep 3rd Mon) - Respect for the Aged Day\n- {秋分|しゅうぶん}の{日|ひ} (Sep ~23) - Autumnal Equinox Day\n- {文化|ぶんか}の{日|ひ} (11/3) - Culture Day\n- {勤労感謝|きんろうかんしゃ}の{日|ひ} (11/23) - Labor Thanksgiving Day\n\nRELATED WORDS:\n- {休日|きゅうじつ} - day off, holiday (general)\n- {振替|ふりかえ}{休日|きゅうじつ} - substitute holiday\n- {国民|こくみん}の{祝日|しゅくじつ} - national holiday (formal term)",
   "cross_references": [
     {
       "type": "related",
@@ -55,11 +55,39 @@
       "reading": "れんきゅう",
       "headword": "{連休|れんきゅう}",
       "label": "consecutive holidays"
+    },
+    {
+      "type": "related",
+      "target_id": "15073_furikaekyuujitsu",
+      "reading": "ふりかえきゅうじつ",
+      "headword": "{振替休日|ふりかえきゅうじつ}",
+      "label": "substitute holiday"
+    },
+    {
+      "type": "related",
+      "target_id": "22469_kokuminnoshukujitsu",
+      "reading": "こくみんのしゅくじつ",
+      "headword": "{国民|こくみん}の{祝日|しゅくじつ}",
+      "label": "national holiday"
+    },
+    {
+      "type": "related",
+      "target_id": "01881_iwau",
+      "reading": "いわう",
+      "headword": "{祝|いわ}う",
+      "label": "to celebrate, to congratulate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03033_heijitsu",
+      "reading": "へいじつ",
+      "headword": "{平日|へいじつ}",
+      "label": "weekday"
     }
   ],
   "metadata": {
     "created": "2026-01-20T10:31:31Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -67,6 +95,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "culture",
         "time-general"

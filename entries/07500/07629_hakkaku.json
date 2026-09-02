@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{不正|ふせい}が{発覚|はっかく}する - misconduct comes to light\n・{事件|じけん}が{発覚|はっかく}する - an incident is exposed\n・{発覚|はっかく}を{恐|おそ}れる - to fear discovery\n・{発覚|はっかく}を{免|まぬが}れる - to escape detection\n\nUSAGE NOTES:\nTypically used with the intransitive pattern: Xが{発覚|はっかく}する (X comes to light)\nAlmost always refers to negative things being discovered.\n\nRELATED WORDS:\n・{隠蔽|いんぺい} - concealment (what is done before {発覚|はっかく})\n・{暴露|ばくろ} - exposure (active revelation by someone)",
+  "notes": "COMMON COLLOCATIONS:\n- {不正|ふせい}が{発覚|はっかく}する - misconduct comes to light\n- {事件|じけん}が{発覚|はっかく}する - an incident is exposed\n- {発覚|はっかく}を{恐|おそ}れる - to fear discovery\n- {発覚|はっかく}を{免|まぬが}れる - to escape detection\n\nUSAGE:\nTypically used with the intransitive pattern: Xが{発覚|はっかく}する (X comes to light)\nAlmost always refers to negative things being discovered.\n\nRELATED WORDS:\n- {隠蔽|いんぺい} - concealment (what is done before {発覚|はっかく})\n- {暴露|ばくろ} - exposure (active revelation by someone)",
   "cross_references": [
     {
       "type": "related",
@@ -145,11 +145,32 @@
       "headword": "{暴露|ばくろ}",
       "label": "exposure",
       "target_id": "07630_bakuro"
+    },
+    {
+      "type": "related",
+      "target_id": "00085_hakken",
+      "reading": "はっけん",
+      "headword": "{発見|はっけん}",
+      "label": "discovery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12962_akarumi",
+      "reading": "あかるみ",
+      "headword": "{明|あか}るみ",
+      "label": "coming to light, public knowledge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20077_roken",
+      "reading": "ろけん",
+      "headword": "{露見|ろけん}",
+      "label": "disclosure"
     }
   ],
   "metadata": {
     "created": "2026-01-20T13:21:59Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -158,6 +179,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "cognition",
         "communication"

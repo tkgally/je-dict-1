@@ -3,7 +3,7 @@
   "headword": "{寄進|きしん}",
   "reading": "きしん",
   "romaji": "kishin",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "donation (to a temple or shrine); religious offering",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {寄|き} (to send, to contribute) and {進|しん} (to advance, to present). Specifically refers to donations made to religious institutions — temples and shrines — and is distinct from general charitable giving.\n\nCOMMON COLLOCATIONS:\n- {寄進|きしん}する: to donate (to a temple/shrine)\n- {寄進|きしん}{者|しゃ}: donor (to a temple/shrine)\n- {土地|とち}を{寄進|きしん}する: to donate land\n- {寄進|きしん}{帳|ちょう}: donation register\n\nCULTURAL NOTE:\nDonations to shrines and temples have been an important tradition in Japan. Donors' names are often displayed on stone pillars ({石灯籠|いしどうろう}), plaques, or torii gates at the site, recording their generosity for future generations.\n\nSIMILAR WORDS:\n- {寄付|きふ}: donation — the general term for any charitable donation, not limited to religious contexts\n- {奉納|ほうのう}: offering, dedication — specifically offering something to a deity; more ritualistic\n- {布施|ふせ}: alms — Buddhist term for giving to monks or temples as a religious practice",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02584_kifu",
+      "reading": "きふ",
+      "headword": "{寄付|きふ}",
+      "label": "donation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12200_hounou",
+      "reading": "ほうのう",
+      "headword": "{奉納|ほうのう}",
+      "label": "offering, dedication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24600_fuse",
+      "reading": "ふせ",
+      "headword": "{布施|ふせ}",
+      "label": "alms"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +76,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "religion",
         "culture"
@@ -60,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-07T18:24:45Z",
-    "modified": "2026-04-07T18:24:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -3,7 +3,7 @@
   "id": "12548_haikou",
   "headword": "{廃校|はいこう}",
   "reading": "はいこう",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "school closure, closed school",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,32 @@
     }
   ],
   "notes": "USAGE:\nUsed both as a noun ({廃校|はいこう}になる = to become a closed school) and with する ({廃校|はいこう}する = to close a school). In recent years, repurposing {廃校|はいこう} buildings as community centers, art spaces, hotels, or businesses has become a national trend in Japan.\n\nCOMMON COLLOCATIONS:\n- {廃校|はいこう}になる: to be closed (a school)\n- {廃校|はいこう}の{活用|かつよう}: repurposing of closed schools\n- {廃校|はいこう}{跡|あと}: former school site\n- {廃校|はいこう}{舎|しゃ}: closed school building",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19880_kyuukou",
+      "reading": "きゅうこう",
+      "headword": "{休校|きゅうこう}",
+      "label": "school closure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24961_kyuukousha",
+      "reading": "きゅうこうしゃ",
+      "headword": "{旧校舎|きゅうこうしゃ}",
+      "label": "old school building"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30479_heikou",
+      "reading": "へいこう",
+      "headword": "{閉校|へいこう}",
+      "label": "school closure"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T12:05:34Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

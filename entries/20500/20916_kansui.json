@@ -3,7 +3,7 @@
   "headword": "{冠水|かんすい}",
   "reading": "かんすい",
   "romaji": "kansui",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "flooding; submersion; inundation",
   "definitions": [
     {
@@ -47,6 +47,57 @@
   "notes": "Composed of {冠|かん} (crown, cover) + {水|すい} (water). Literally \"crowned with water\" — referring to an area being covered by floodwater. Commonly used in weather reports and disaster news.\n\nCOMMON COLLOCATIONS:\n- {道路|どうろ}が{冠水|かんすい}する: roads flood\n- {冠水|かんすい}した{地域|ちいき}: flooded area\n- {冠水|かんすい}{被害|ひがい}: flood damage\n- {冠水|かんすい}の{恐|おそ}れ: risk of flooding\n\nSIMILAR WORDS:\n- {浸水|しんすい}: flooding (of buildings) — water entering and soaking into structures; used for {床上浸水|ゆかうえしんすい} (above-floor flooding) and {床下浸水|ゆかしたしんすい} (below-floor flooding)\n- {洪水|こうずい}: flood — a large-scale overflow of water, especially from rivers\n- {氾濫|はんらん}: overflow, flooding — specifically when a river overflows its banks",
   "conjugation_type": "suru",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14945_shinsui",
+      "reading": "しんすい",
+      "headword": "{浸水|しんすい}",
+      "label": "flooding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05065_kouzui",
+      "reading": "こうずい",
+      "headword": "{洪水|こうずい}",
+      "label": "flood"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09256_hanran",
+      "reading": "はんらん",
+      "headword": "{氾濫|はんらん}",
+      "label": "overflow, flooding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20704_mizubitashi",
+      "reading": "みずびたし",
+      "headword": "{水浸|みずびた}し",
+      "label": "flooded"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23143_suibotsu",
+      "reading": "すいぼつ",
+      "headword": "{水没|すいぼつ}",
+      "label": "submersion"
+    },
+    {
+      "type": "related",
+      "target_id": "23614_yukashitashinsui",
+      "reading": "ゆかしたしんすい",
+      "headword": "{床下浸水|ゆかしたしんすい}",
+      "label": "below-floor flooding"
+    },
+    {
+      "type": "related",
+      "target_id": "23615_yukaueshinsui",
+      "reading": "ゆかうえしんすい",
+      "headword": "{床上浸水|ゆかうえしんすい}",
+      "label": "above-floor flooding"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +114,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-30T20:16:20Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -2,7 +2,7 @@
   "id": "06224_kaichiku",
   "headword": "{改築|かいちく}",
   "reading": "かいちく",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "renovation; rebuilding",
   "conjugation": {
     "type": "suru",
@@ -148,11 +148,60 @@
       "headword": "{増築|ぞうちく}",
       "label": "extension",
       "target_id": "06568_zouchiku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06567_shinchiku",
+      "reading": "しんちく",
+      "headword": "{新築|しんちく}",
+      "label": "new construction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09682_kaisou",
+      "reading": "かいそう",
+      "headword": "{改装|かいそう}",
+      "label": "interior renovation, remodeling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06569_shuuzen",
+      "reading": "しゅうぜん",
+      "headword": "{修繕|しゅうぜん}",
+      "label": "repairs, fixing damage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19739_tatekae",
+      "reading": "たてかえ",
+      "headword": "{建|た}て{替|か}え",
+      "label": "complete rebuild"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22559_tatenaoshi",
+      "reading": "たてなおし",
+      "headword": "{建|た}て{直|なお}し",
+      "label": "rebuilding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26948_rifoomusuru",
+      "reading": "りふぉーむする",
+      "headword": "リフォームする",
+      "label": "to renovate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30018_tatemashi",
+      "reading": "たてまし",
+      "headword": "{建|た}て{増|ま}し",
+      "label": "building extension"
     }
   ],
   "metadata": {
     "created": "2026-01-17T05:25:35Z",
-    "modified": "2026-06-21T15:19:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

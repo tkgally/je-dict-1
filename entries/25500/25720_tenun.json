@@ -17,7 +17,9 @@
       "id": "25720_tenun_ex1",
       "japanese": "これも{天運|てんうん}だと{思|おも}うしかない。",
       "english": "I can only think of this as fate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25720_tenun_ex2",
       "japanese": "{天運|てんうん}に{恵|めぐ}まれた{人生|じんせい}だった。",
       "english": "It was a life blessed by fortune.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,53 @@
       "id": "25720_tenun_ex3",
       "japanese": "{人事|じんじ}を{尽|つ}くして{天運|てんうん}を{待|ま}つ。",
       "english": "Do everything in your power and leave the rest to fate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{天|てん} (heaven) + {運|うん} (fortune, luck). A literary and somewhat formal word for fate or destiny as governed by heaven. Often used to express the idea that certain outcomes are beyond human control and must be accepted.\n\nCOMMON COLLOCATIONS:\n- {天運|てんうん}に{恵|めぐ}まれる — be blessed by fortune\n- {天運|てんうん}に{任|まか}せる — leave to fate\n- {天運|てんうん}を{待|ま}つ — wait for fate to decide\n- {天運|てんうん}が{尽|つ}きる — one's fortune runs out\n\nSIMILAR WORDS:\n- {運命|うんめい} — fate; destiny — the most common everyday word\n- {天命|てんめい} — heavenly mandate; destiny — emphasizes a mission or duty given by heaven\n- {宿命|しゅくめい} — fate; predestination — implies something determined before birth, inescapable",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06879_unmei",
+      "reading": "うんめい",
+      "headword": "{運命|うんめい}",
+      "label": "fate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07887_tenmei",
+      "reading": "てんめい",
+      "headword": "{天命|てんめい}",
+      "label": "heavenly mandate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07401_shukumei",
+      "reading": "しゅくめい",
+      "headword": "{宿命|しゅくめい}",
+      "label": "fate"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["abstract"],
-      "usage": ["literary"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ],
+      "usage": [
+        "literary"
+      ]
     },
     "created": "2026-04-26T16:35:04Z",
-    "modified": "2026-04-26T16:35:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

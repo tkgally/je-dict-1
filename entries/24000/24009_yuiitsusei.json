@@ -17,7 +17,9 @@
       "id": "24009_yuiitsusei_ex1",
       "japanese": "{唯一性|ゆいいつせい}がある。",
       "english": "It has uniqueness.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24009_yuiitsusei_ex2",
       "japanese": "この{作品|さくひん}の{唯一性|ゆいいつせい}が{価値|かち}を{生|う}んでいる。",
       "english": "The uniqueness of this work is what gives it its value.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "24009_yuiitsusei_ex3",
       "japanese": "データベースではIDの{唯一性|ゆいいつせい}を{保証|ほしょう}する{必要|ひつよう}がある。",
       "english": "In a database, you need to guarantee the uniqueness of IDs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,44 @@
       "id": "24009_yuiitsusei_ex4",
       "japanese": "NFTはデジタルデータに{唯一性|ゆいいつせい}を{持|も}たせる{仕組|しく}みとして{注目|ちゅうもく}された。",
       "english": "NFTs drew attention as a mechanism for giving digital data a quality of uniqueness.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {唯一|ゆいいつ} (only one, sole) and the abstract-noun-forming suffix {〜性|せい} (-ness, -ity).\n\nUSAGE:\n{唯一性|ゆいいつせい} is an abstract, somewhat formal word. It is typical in writing — academic papers, legal and business documents, technical specifications, philosophical discussions — rather than casual conversation. In information-technology contexts it is often a translation of the English term \"uniqueness\" (as in unique key or unique identifier).\n\nCOMMON COLLOCATIONS:\n- {唯一性|ゆいいつせい}を{持|も}つ: to have / possess uniqueness\n- {唯一性|ゆいいつせい}を{保証|ほしょう}する: to guarantee uniqueness\n- {唯一性|ゆいいつせい}がある: to be unique\n- {唯一性|ゆいいつせい}を{証明|しょうめい}する: to prove uniqueness (mathematical sense)\n\nSIMILAR WORDS:\n- {独自性|どくじせい}: originality, distinctiveness — emphasizes being one's own and different, not merely the only instance\n- {一意性|いちいせい}: uniqueness (mathematics, computing) — near-synonym, especially common in data modeling\n- {特殊性|とくしゅせい}: peculiarity, special nature — the quality of being special or particular, not necessarily one-of-a-kind\n- {独創性|どくそうせい}: originality, creativity — uniqueness of idea or creation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21975_dokujisei",
+      "reading": "どくじせい",
+      "headword": "{独自性|どくじせい}",
+      "label": "originality, distinctiveness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05794_dokusousei",
+      "reading": "どくそうせい",
+      "headword": "{独創性|どくそうせい}",
+      "label": "originality, creativity"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-04-15T19:10:56Z",
-    "modified": "2026-04-15T19:10:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

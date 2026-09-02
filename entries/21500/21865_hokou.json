@@ -3,7 +3,7 @@
   "headword": "{歩行|ほこう}",
   "reading": "ほこう",
   "romaji": "hokou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "walking; going on foot",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A formal/technical term for walking, commonly seen in traffic signs, medical contexts, and official language. In everyday conversation, {歩|ある}く is used instead.\n\nCOMMON COLLOCATIONS:\n- {歩行者|ほこうしゃ}: pedestrian\n- {歩行者|ほこうしゃ}{天国|てんごく}: pedestrian zone (car-free zone)\n- {歩行|ほこう}{訓練|くんれん}: walking rehabilitation/training\n- {歩行|ほこう}{困難|こんなん}: difficulty walking\n- {歩行|ほこう}{速度|そくど}: walking speed\n- {歩行器|ほこうき}: walker (mobility aid)\n\nSIMILAR WORDS:\n- {歩|ある}く: to walk — the everyday verb\n- {散歩|さんぽ}: a walk/stroll — implies walking for pleasure or exercise\n- {徒歩|とほ}: on foot — used for describing how one travels (e.g., {駅|えき}から{徒歩|とほ}5{分|ふん})",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00538_aruku",
+      "reading": "あるく",
+      "headword": "{歩|ある}く",
+      "label": "to walk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02885_sanpo",
+      "reading": "さんぽ",
+      "headword": "{散歩|さんぽ}",
+      "label": "a walk/stroll"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03031_toho",
+      "reading": "とほ",
+      "headword": "{徒歩|とほ}",
+      "label": "on foot"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-03T20:18:29Z",
-    "modified": "2026-04-03T20:18:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -17,7 +17,9 @@
       "id": "26440_keisharyou_ex1",
       "japanese": "{自転車|じてんしゃ}は{軽車両|けいしゃりょう}に{分類|ぶんるい}される。",
       "english": "Bicycles are classified as light vehicles.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26440_keisharyou_ex2",
       "japanese": "{軽車両|けいしゃりょう}は{車道|しゃどう}の{左側|ひだりがわ}を{走|はし}らなければならない。",
       "english": "Light vehicles must travel on the left side of the road.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,38 @@
       "id": "26440_keisharyou_ex3",
       "japanese": "「{軽車両|けいしゃりょう}{進入|しんにゅう}{禁止|きんし}」の{標識|ひょうしき}がある{場所|ばしょ}では、{自転車|じてんしゃ}も{通|とお}れない。",
       "english": "At locations with a 'no light vehicle entry' sign, bicycles cannot pass through either.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {軽|けい} (light) and {車両|しゃりょう} (vehicle). This is a legal term from Japanese traffic law ({道路|どうろ}{交通|こうつう}{法|ほう}). The most common type of light vehicle encountered in daily life is the bicycle. Many people are surprised to learn that bicycles are legally classified as vehicles, not as a pedestrian category.\n\nCOMMON COLLOCATIONS:\n- {軽車両|けいしゃりょう}{進入|しんにゅう}{禁止|きんし}: no light vehicle entry\n- {軽車両|けいしゃりょう}{通行|つうこう}{止|ど}め: light vehicles prohibited\n- {軽車両|けいしゃりょう}に{分類|ぶんるい}される: to be classified as a light vehicle\n\nSIMILAR WORDS:\n- {軽自動車|けいじどうしゃ}: kei car — a small motor vehicle with engine displacement under 660cc, a completely different category\n- {車両|しゃりょう}: vehicle — the general term for any vehicle including motor vehicles\n- {原動機|げんどうき}{付|つき}{自転車|じてんしゃ}: motorized bicycle — a small motorized vehicle that falls outside the light vehicle category",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14298_keijidousha",
+      "reading": "けいじどうしゃ",
+      "headword": "{軽自動車|けいじどうしゃ}",
+      "label": "kei car"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["transportation", "law"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "transportation",
+        "law"
+      ]
     },
     "created": "2026-05-01T16:22:03Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

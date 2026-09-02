@@ -3,7 +3,7 @@
   "headword": "{拘束|こうそく}する",
   "reading": "こうそくする",
   "romaji": "kousokusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to restrain; to detain; to bind",
   "definitions": [
     {
@@ -82,6 +82,36 @@
   "notes": "A する verb composed of {拘|こう} (seize, detain) + {束|そく} (bind, bundle). Has both a concrete legal/physical sense (detaining a person) and an abstract sense (being bound by rules or obligations).\n\nCOMMON COLLOCATIONS:\n- {容疑者|ようぎしゃ}を{拘束|こうそく}する: to detain a suspect\n- {身柄|みがら}を{拘束|こうそく}する: to take someone into custody\n- {拘束|こうそく}{時間|じかん}: hours of obligation (time one is tied up)\n- {法的|ほうてき}{拘束力|こうそくりょく}: legal binding force\n- {拘束|こうそく}される: to be detained / to be bound\n\nSIMILAR WORDS:\n- {逮捕|たいほ}する: to arrest — formal legal arrest, stronger than detention\n- {束縛|そくばく}する: to restrain, to shackle — often for personal or emotional restraint\n- {制約|せいやく}する: to restrict, to constrain — for limitations on actions or choices\n- {監禁|かんきん}する: to confine, to imprison — longer-term physical confinement",
   "conjugation_type": "suru",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26830_taihosuru",
+      "reading": "たいほする",
+      "headword": "{逮捕|たいほ}する",
+      "label": "to arrest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15712_sokubaku",
+      "reading": "そくばく",
+      "headword": "{束縛|そくばく}",
+      "label": "to restrain, to shackle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11811_seiyaku",
+      "reading": "せいやく",
+      "headword": "{制約|せいやく}",
+      "label": "to restrict, to constrain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13647_kankin",
+      "reading": "かんきん",
+      "headword": "{監禁|かんきん}",
+      "label": "to confine, to imprison"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -97,7 +127,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-30T21:38:53Z",
-    "modified": "2026-03-30T21:38:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

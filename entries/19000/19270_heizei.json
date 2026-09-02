@@ -17,7 +17,9 @@
       "id": "19270_heizei_ex1",
       "japanese": "{平生|へいぜい}は{穏|おだ}やかな{人|ひと}だ。",
       "english": "He's normally a calm person.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19270_heizei_ex2",
       "japanese": "{平生|へいぜい}の{心|こころ}がけが{大切|たいせつ}だ。",
       "english": "One's everyday mindset is important.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "19270_heizei_ex3",
       "japanese": "{平生|へいぜい}から{備|そな}えておけば、{災害|さいがい}{時|じ}にも{慌|あわ}てなくて{済|す}む。",
       "english": "If you prepare in normal times, you won't panic during a disaster.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A somewhat literary or formal synonym for {普段|ふだん} (usually, normally). Emphasizes the contrast between ordinary circumstances and exceptional situations.\n\nCOMMON COLLOCATIONS:\n- {平生|へいぜい}の{行|おこな}い: everyday conduct\n- {平生|へいぜい}の{心|こころ}がけ: one's usual attitude/mindset\n- {平生|へいぜい}から: from ordinary times onward (implying habitual preparation)\n\nSIMILAR WORDS:\n- {普段|ふだん}: usually, normally — more common in everyday speech\n- {日頃|ひごろ}: on a daily basis, ordinarily — similar formality level\n- {平素|へいそ}: ordinarily — even more formal, used in business correspondence\n\nREGISTER:\nMore literary and formal than {普段|ふだん}. Common in essays, formal writing, and proverbs.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00041_fudan",
+      "reading": "ふだん",
+      "headword": "{普段|ふだん}",
+      "label": "usually, normally"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07284_higoro",
+      "reading": "ひごろ",
+      "headword": "{日頃|ひごろ}",
+      "label": "on a daily basis, ordinarily"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adverb"],
+      "pos": [
+        "noun",
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     },
     "created": "2026-03-25T03:40:33Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

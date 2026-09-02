@@ -45,7 +45,29 @@
     }
   ],
   "notes": "{留鳥|りゅうちょう} refers to bird species that stay in one region throughout the year, as opposed to {渡|わた}り{鳥|どり} (migratory birds). In Japan, common examples include スズメ (sparrow), カラス (crow), ハト (pigeon), メジロ (white-eye), and キジ (pheasant).\n\nCOMMON COLLOCATIONS:\n- {留鳥|りゅうちょう}として{分類|ぶんるい}される — to be classified as a resident bird\n- {留鳥|りゅうちょう}の{個体数|こたいすう} — population of resident birds\n- {留鳥|りゅうちょう}の{生態|せいたい} — ecology of resident birds\n\nSIMILAR WORDS:\n- {渡|わた}り{鳥|どり} — migratory bird (moves between regions with seasons)\n- {漂鳥|ひょうちょう} — wandering bird (moves locally within a country by altitude or latitude)\n- {迷鳥|めいちょう} — vagrant bird (arrives outside its normal range by accident)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09252_wataridori",
+      "reading": "わたりどり",
+      "headword": "{渡|わた}り{鳥|どり}",
+      "label": "migratory bird"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24277_natsudori",
+      "reading": "なつどり",
+      "headword": "{夏鳥|なつどり}",
+      "label": "summer bird"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24278_fuyudori",
+      "reading": "ふゆどり",
+      "headword": "{冬鳥|ふゆどり}",
+      "label": "winter bird"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +75,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "nature",
         "animal-bird"
       ]
     },
     "created": "2026-04-29T16:31:23Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

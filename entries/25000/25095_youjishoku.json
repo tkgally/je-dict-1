@@ -17,7 +17,9 @@
       "id": "25095_youjishoku_ex1",
       "japanese": "{幼児食|ようじしょく}のレシピを{調|しら}べた。",
       "english": "I looked up toddler food recipes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25095_youjishoku_ex2",
       "japanese": "{離乳食|りにゅうしょく}から{幼児食|ようじしょく}への{切|き}り{替|か}えが{難|むずか}しい。",
       "english": "The transition from baby food to toddler food is difficult.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,45 @@
       "id": "25095_youjishoku_ex3",
       "japanese": "{幼児食|ようじしょく}は{薄味|うすあじ}で{柔|やわ}らかく{調理|ちょうり}するのが{基本|きほん}だ。",
       "english": "The basics of toddler food are cooking with mild flavors and soft textures.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {幼児|ようじ} (infant, toddler) and {食|しょく} (food, meal). Refers to the stage of eating between {離乳食|りにゅうしょく} (weaning food/baby food) and regular meals. In Japan, there are many commercial products, cookbooks, and parenting resources dedicated to this stage of childhood nutrition.\n\nCOMMON COLLOCATIONS:\n- {幼児食|ようじしょく}レシピ: toddler food recipe\n- {幼児食|ようじしょく}に{移行|いこう}する: to transition to toddler food\n- {幼児食|ようじしょく}メニュー: toddler food menu\n- {市販|しはん}の{幼児食|ようじしょく}: commercially available toddler food\n\nSIMILAR WORDS:\n- {離乳食|りにゅうしょく}: baby food, weaning food — food for the earlier stage (around 5-18 months)\n- {給食|きゅうしょく}: school lunch — meals provided at schools and nurseries\n- {介護食|かいごしょく}: care food — soft food designed for elderly people with difficulty chewing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14883_rinyuushoku",
+      "reading": "りにゅうしょく",
+      "headword": "{離乳食|りにゅうしょく}",
+      "label": "baby food, weaning food"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13800_kyuushoku",
+      "reading": "きゅうしょく",
+      "headword": "{給食|きゅうしょく}",
+      "label": "school lunch"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food", "family"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "family"
+      ]
     },
     "created": "2026-04-22T14:41:38Z",
-    "modified": "2026-04-22T14:41:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

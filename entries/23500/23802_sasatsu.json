@@ -3,7 +3,7 @@
   "headword": "{査察|ささつ}",
   "reading": "ささつ",
   "romaji": "sasatsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "inspection (official); on-site audit",
   "definitions": [
     {
@@ -54,8 +54,38 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {査|さ} ('investigate; examine') and {察|さつ} ('observe; perceive'). Used as a verbal noun with する ({査察|ささつ}する 'to inspect'), but the noun form with verbs like {入|はい}る, {行|おこな}う, {受|う}ける is far more common.\n\nUSAGE:\n- The inspecting side: {査察|ささつ}を{行|おこな}う / {実施|じっし}する ('to carry out an inspection').\n- The inspected side: {査察|ささつ}を{受|う}ける ('to be inspected'), {査察|ささつ}が{入|はい}る ('to have inspectors come in' — idiomatic, often about tax audits).\n- Reserved for official, legally grounded inspections. For casual 'checking' use {点検|てんけん} ('routine check') or {検査|けんさ} ('examination'); for a quiet investigation use {調査|ちょうさ}.\n\nCOMMON COLLOCATIONS:\n- {査察|ささつ}を{受|う}ける: to be inspected\n- {査察|ささつ}が{入|はい}る: for inspectors to arrive (often used of tax raids)\n- {査察|ささつ}を{行|おこな}う: to conduct an inspection\n- {査察|ささつ}を{実施|じっし}する: to carry out an inspection\n- {抜|ぬ}き{打|う}ち{査察|ささつ}: unannounced inspection\n- {税務|ぜいむ}{査察|ささつ}: tax audit\n- {査察|ささつ}{官|かん}: inspector (official title)\n- {査察|ささつ}チーム: inspection team\n\nSIMILAR WORDS:\n- {検査|けんさ}: examination; inspection — broader; includes medical tests, product quality checks, and routine inspections. {査察|ささつ} specifically implies a regulatory on-site visit.\n- {監査|かんさ}: audit — typically financial/document review; can be on-site but the focus is books and records.\n- {点検|てんけん}: routine check; inspection — self-inspection or maintenance check.\n- {調査|ちょうさ}: investigation; survey — research-oriented, not enforcement-oriented.\n\nCULTURAL CONTEXT:\nIn news headlines, {査察|ささつ} often evokes either {税務|ぜいむ}{査察|ささつ} (tax raids on suspected tax evaders, famously dramatized in the film 'A Taxing Woman' / {マルサの{女|おんな}|}) or IAEA nuclear inspections of North Korea and Iran.",
+  "notes": "Compound of {査|さ} ('investigate; examine') and {察|さつ} ('observe; perceive'). Used as a verbal noun with する ({査察|ささつ}する 'to inspect'), but the noun form with verbs like {入|はい}る, {行|おこな}う, {受|う}ける is far more common.\n\nUSAGE:\n- The inspecting side: {査察|ささつ}を{行|おこな}う / {実施|じっし}する ('to carry out an inspection').\n- The inspected side: {査察|ささつ}を{受|う}ける ('to be inspected'), {査察|ささつ}が{入|はい}る ('to have inspectors come in' — idiomatic, often about tax audits).\n- Reserved for official, legally grounded inspections. For casual 'checking' use {点検|てんけん} ('routine check') or {検査|けんさ} ('examination'); for a quiet investigation use {調査|ちょうさ}.\n\nCOMMON COLLOCATIONS:\n- {査察|ささつ}を{受|う}ける: to be inspected\n- {査察|ささつ}が{入|はい}る: for inspectors to arrive (often used of tax raids)\n- {査察|ささつ}を{行|おこな}う: to conduct an inspection\n- {査察|ささつ}を{実施|じっし}する: to carry out an inspection\n- {抜|ぬ}き{打|う}ち{査察|ささつ}: unannounced inspection\n- {税務|ぜいむ}{査察|ささつ}: tax audit\n- {査察|ささつ}{官|かん}: inspector (official title)\n- {査察|ささつ}チーム: inspection team\n\nSIMILAR WORDS:\n- {検査|けんさ}: examination; inspection — broader; includes medical tests, product quality checks, and routine inspections. {査察|ささつ} specifically implies a regulatory on-site visit.\n- {監査|かんさ}: audit — typically financial/document review; can be on-site but the focus is books and records.\n- {点検|てんけん}: routine check; inspection — self-inspection or maintenance check.\n- {調査|ちょうさ}: investigation; survey — research-oriented, not enforcement-oriented.\n\nCULTURAL NOTE:\nIn news headlines, {査察|ささつ} often evokes either {税務|ぜいむ}{査察|ささつ} (tax raids on suspected tax evaders, famously dramatized in the film 'A Taxing Woman' / マルサの{女|おんな}) or IAEA nuclear inspections of North Korea and Iran.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02707_kensa",
+      "reading": "けんさ",
+      "headword": "{検査|けんさ}",
+      "label": "examination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05972_kansa",
+      "reading": "かんさ",
+      "headword": "{監査|かんさ}",
+      "label": "audit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09765_tenken",
+      "reading": "てんけん",
+      "headword": "{点検|てんけん}",
+      "label": "routine check"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03489_chousa",
+      "reading": "ちょうさ",
+      "headword": "{調査|ちょうさ}",
+      "label": "investigation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -72,7 +102,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-14T21:19:30Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

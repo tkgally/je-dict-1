@@ -17,7 +17,9 @@
       "id": "27428_figyuasukeeto_ex1",
       "japanese": "フィギュアスケートを{見|み}るのが{好|す}きだ。",
       "english": "I like watching figure skating.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27428_figyuasukeeto_ex2",
       "japanese": "{娘|むすめ}は{5歳|ごさい}からフィギュアスケートを{習|なら}っている。",
       "english": "My daughter has been learning figure skating since she was five.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "27428_figyuasukeeto_ex3",
       "japanese": "フィギュアスケートの{大会|たいかい}でジャンプの{回転|かいてん}が{足|た}りず{減点|げんてん}された。",
       "english": "At the figure skating competition, the jump rotations were under-rotated and points were deducted.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Loanword from English \"figure skating.\" In casual conversation it is often shortened to フィギュア — context disambiguates between the sport and the model-figurine sense of フィギュア.\n\nCOMMON COLLOCATIONS:\n- フィギュアスケートの{選手|せんしゅ}: figure skater\n- フィギュアスケートの{大会|たいかい}: figure skating competition\n- フィギュアスケートを{習|なら}う: to take figure skating lessons\n- ペアフィギュア / アイスダンス: pairs / ice dance\n\nSIMILAR WORDS:\n- スケート: skating — the general term, includes figure skating and speed skating\n- スピードスケート: speed skating — racing on a long oval track\n- アイスダンス: ice dance — a related discipline focusing on dance choreography",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00388_sukeeto",
+      "reading": "すけーと",
+      "headword": "スケート",
+      "label": "skating"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25751_aisusukeeto",
+      "reading": "あいすすけーと",
+      "headword": "アイススケート",
+      "label": "ice skating"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports", "loanword"],
+      "politeness": "plain",
+      "semantic": [
+        "sports",
+        "loanword"
+      ],
       "domain": []
     },
     "created": "2026-05-11T07:40:10Z",
-    "modified": "2026-05-11T07:40:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

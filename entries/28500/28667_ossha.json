@@ -17,7 +17,9 @@
       "id": "28667_ossha_ex1",
       "japanese": "おっしゃ、{行|い}くぞ！",
       "english": "Alright, let's go!",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28667_ossha_ex2",
       "japanese": "おっしゃ、{今度|こんど}こそうまくいった！",
       "english": "Yes! This time it actually worked!",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "28667_ossha_ex3",
       "japanese": "おっしゃ、{締|し}め{切|き}りまであと{一時間|いちじかん}、{集中|しゅうちゅう}して{仕上|しあ}げよう。",
       "english": "Okay, one hour to deadline — let me focus and finish this.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Shortened from {仰|おっしゃ}る or よし combined into a single burst — etymology disputed. Lengthened forms おっしゃー / おっしゃあ are common.\n\nREGISTER:\n- Casual masculine speech. Women use it too, but less often, and more in private than in public.\n- Inappropriate in business or formal settings — closer to English 'Yes!' fist-pump than 'Very well.'\n\nSIMILAR INTERJECTIONS:\n- よし: 'good; alright' — slightly more neutral, usable in more contexts\n- よっしゃ: stronger, more emphatic version of よし — very close to おっしゃ in meaning\n- やった: 'I did it!' — celebrates a success after the fact rather than psyching up before",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10741_yoshi",
+      "reading": "よし",
+      "headword": "よし",
+      "label": "'good"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10754_yossha",
+      "reading": "よっしゃ",
+      "headword": "よっしゃ",
+      "label": "stronger, more emphatic version"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10272_yatta",
+      "reading": "やった",
+      "headword": "やった",
+      "label": "'I did it!'"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["interjection"],
+      "pos": [
+        "interjection"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["emotion"],
+      "semantic": [
+        "emotion"
+      ],
       "domain": []
     },
     "created": "2026-06-03T04:18:06Z",
-    "modified": "2026-06-03T04:18:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

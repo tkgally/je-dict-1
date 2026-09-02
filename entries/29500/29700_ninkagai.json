@@ -3,7 +3,7 @@
   "headword": "{認可外|にんかがい}",
   "reading": "にんかがい",
   "romaji": "ninkagai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "unlicensed; unauthorized (esp. daycare)",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "29700_ninkagai_ex1",
       "japanese": "{認可外|にんかがい}の{保育園|ほいくえん}に{預|あず}けている。",
       "english": "I leave my child at an unlicensed daycare.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29700_ninkagai_ex2",
       "japanese": "{認可外|にんかがい}{施設|しせつ}は{料金|りょうきん}が{高|たか}いことが{多|おお}い。",
       "english": "Unlicensed facilities often have high fees.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,39 @@
       "id": "29700_ninkagai_ex3",
       "japanese": "{認可|にんか}{園|えん}に{入|はい}れず、やむを{得|え}ず{認可外|にんかがい}に{申|もう}し{込|こ}んだ。",
       "english": "Unable to get into a licensed nursery, we had no choice but to apply to an unlicensed one.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from {認可|にんか} (approval, licensing) + {外|がい} (outside of). Most often modifies a following noun, especially in childcare contexts, so it behaves like a no-adjective ({認可外|にんかがい}の{保育園|ほいくえん}).\n\nCOMMON COLLOCATIONS:\n- {認可外|にんかがい}{保育園|ほいくえん}: unlicensed daycare center\n- {認可外|にんかがい}{施設|しせつ}: unlicensed facility\n- {認可外|にんかがい}の{託児所|たくじしょ}: unlicensed nursery\n\nSIMILAR WORDS:\n- {認可|にんか}: approval, licensing — the base word; {認可|にんか}{園|えん} is a licensed nursery\n- {無認可|むにんか}: unauthorized — near-synonym, formed with the prefix {無|む} instead",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29032_muninka",
+      "reading": "むにんか",
+      "headword": "{無認可|むにんか}",
+      "label": "unauthorized"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["society"],
+      "politeness": "plain",
+      "semantic": [
+        "society"
+      ],
       "domain": []
     },
     "created": "2026-07-06T09:17:25Z",
-    "modified": "2026-07-06T09:17:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

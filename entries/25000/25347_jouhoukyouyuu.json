@@ -3,7 +3,7 @@
   "headword": "{情報|じょうほう}{共有|きょうゆう}",
   "reading": "じょうほうきょうゆう",
   "romaji": "jouhoukyouyuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "information sharing",
   "definitions": [
     {
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {情報|じょうほう} (information) and {共有|きょうゆう} (sharing; joint possession). This is a staple term in Japanese workplaces, especially in discussions about teamwork, project management, and organizational efficiency. It can function as a suru-verb: {情報|じょうほう}{共有|きょうゆう}する.\n\nIn modern workplaces, {情報|じょうほう}{共有|きょうゆう} is seen as essential for preventing errors and maintaining smooth operations. Digital tools like Slack, Teams, and shared documents are often described as {情報|じょうほう}{共有|きょうゆう}ツール.\n\nCOMMON COLLOCATIONS:\n- {情報|じょうほう}{共有|きょうゆう}する: to share information\n- {情報|じょうほう}{共有|きょうゆう}ツール: information sharing tool\n- {情報|じょうほう}{共有|きょうゆう}の{場|ば}: a forum for sharing information\n- {情報|じょうほう}{共有|きょうゆう}が{大切|たいせつ}: information sharing is important\n- {情報|じょうほう}{共有|きょうゆう}を{徹底|てってい}する: to ensure thorough information sharing\n\nRELATED TERMS:\n- {報連相|ほうれんそう}: report-contact-consult — the Japanese business acronym for essential communication practices\n- {共有|きょうゆう}: sharing — the general term, used for files, spaces, and resources as well\n- {伝達|でんたつ}: communication; transmission — one-directional passing of information, unlike mutual sharing",
+  "notes": "A compound of {情報|じょうほう} (information) and {共有|きょうゆう} (sharing; joint possession). This is a staple term in Japanese workplaces, especially in discussions about teamwork, project management, and organizational efficiency. It can function as a suru-verb: {情報|じょうほう}{共有|きょうゆう}する.\n\nIn modern workplaces, {情報|じょうほう}{共有|きょうゆう} is seen as essential for preventing errors and maintaining smooth operations. Digital tools like Slack, Teams, and shared documents are often described as {情報|じょうほう}{共有|きょうゆう}ツール.\n\nCOMMON COLLOCATIONS:\n- {情報|じょうほう}{共有|きょうゆう}する: to share information\n- {情報|じょうほう}{共有|きょうゆう}ツール: information sharing tool\n- {情報|じょうほう}{共有|きょうゆう}の{場|ば}: a forum for sharing information\n- {情報|じょうほう}{共有|きょうゆう}が{大切|たいせつ}: information sharing is important\n- {情報|じょうほう}{共有|きょうゆう}を{徹底|てってい}する: to ensure thorough information sharing\n\nRELATED WORDS:\n- {報連相|ほうれんそう}: report-contact-consult — the Japanese business acronym for essential communication practices\n- {共有|きょうゆう}: sharing — the general term, used for files, spaces, and resources as well\n- {伝達|でんたつ}: communication; transmission — one-directional passing of information, unlike mutual sharing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12109_hourensou",
+      "reading": "ほうれんそう",
+      "headword": "{報連相|ほうれんそう}",
+      "label": "report-contact-consult"
+    },
+    {
+      "type": "related",
+      "target_id": "11570_dentatsu",
+      "reading": "でんたつ",
+      "headword": "{伝達|でんたつ}",
+      "label": "communication"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +69,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business",
         "communication"
@@ -60,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T15:28:10Z",
-    "modified": "2026-04-24T15:28:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

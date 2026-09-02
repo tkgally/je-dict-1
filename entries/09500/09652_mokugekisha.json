@@ -18,7 +18,9 @@
       "english": "He is an eyewitness to the incident.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09652_mokugekisha_ex2",
@@ -26,7 +28,9 @@
       "english": "The police are looking for witnesses.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09652_mokugekisha_ex3",
@@ -34,10 +38,12 @@
       "english": "The eyewitness testimony became the key to solving the case.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A person who directly witnessed an event, especially a crime or accident. Commonly appears in news reports and crime contexts.\n\nFORMATION:\n{目撃|もくげき} (witnessing) + {者|しゃ} (person).\n\nCOMMON COLLOCATIONS:\n- {目撃者|もくげきしゃ}を{探|さが}す: to look for witnesses\n- {目撃者|もくげきしゃ}の{証言|しょうげん}: eyewitness testimony\n- {目撃者|もくげきしゃ}が{名乗|なの}り{出|で}る: a witness comes forward\n- {目撃者|もくげきしゃ}に{話|はなし}を{聞|き}く: to interview witnesses\n\nRELATED TERMS:\n- {目撃|もくげき}する: to witness (verb)\n- {証人|しょうにん}: witness (legal term, broader — includes non-eyewitnesses)\n- {証言|しょうげん}: testimony",
+  "notes": "A person who directly witnessed an event, especially a crime or accident. Commonly appears in news reports and crime contexts.\n\nFORMS:\n{目撃|もくげき} (witnessing) + {者|しゃ} (person).\n\nCOMMON COLLOCATIONS:\n- {目撃者|もくげきしゃ}を{探|さが}す: to look for witnesses\n- {目撃者|もくげきしゃ}の{証言|しょうげん}: eyewitness testimony\n- {目撃者|もくげきしゃ}が{名乗|なの}り{出|で}る: a witness comes forward\n- {目撃者|もくげきしゃ}に{話|はなし}を{聞|き}く: to interview witnesses\n\nRELATED WORDS:\n- {目撃|もくげき}する: to witness (verb)\n- {証人|しょうにん}: witness (legal term, broader — includes non-eyewitnesses)\n- {証言|しょうげん}: testimony",
   "cross_references": [
     {
       "type": "related",
@@ -52,18 +58,50 @@
       "reading": "しょうにん",
       "headword": "{証人|しょうにん}",
       "label": "witness (legal)"
+    },
+    {
+      "type": "related",
+      "target_id": "20232_mokugekisuru",
+      "reading": "もくげきする",
+      "headword": "{目撃|もくげき}する",
+      "label": "to witness"
+    },
+    {
+      "type": "related",
+      "target_id": "11088_shougen",
+      "reading": "しょうげん",
+      "headword": "{証言|しょうげん}",
+      "label": "testimony"
+    },
+    {
+      "type": "related",
+      "target_id": "23604_hakkensha",
+      "reading": "はっけんしゃ",
+      "headword": "{発見者|はっけんしゃ}",
+      "label": "discoverer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26731_souguusha",
+      "reading": "そうぐうしゃ",
+      "headword": "{遭遇者|そうぐうしゃ}",
+      "label": "person who encounters"
     }
   ],
   "metadata": {
     "created": "2026-02-03T02:58:32Z",
-    "modified": "2026-04-23T06:13:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

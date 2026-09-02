@@ -3,7 +3,7 @@
   "headword": "{献納|けんのう}",
   "reading": "けんのう",
   "romaji": "kennou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "dedication; offering; donation (to a shrine or temple)",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {献|けん} (to offer, to dedicate) and {納|のう} (to deliver, to pay). The first character {献|けん} carries a strong connotation of respectful offering, making this word more formal and reverent than a general donation.\n\nUSAGE:\nMost commonly associated with religious contexts — offerings to shrines and temples. Also used for dedications to royalty, important institutions, or public monuments. The word implies that the offering is made with deep respect, not merely as a casual gift. Takes する to form a verb.\n\nCOMMON COLLOCATIONS:\n- {献納|けんのう}する: to dedicate; to make an offering\n- {献納|けんのう}{品|ひん}: dedicated item; offering\n- {鳥居|とりい}の{献納|けんのう}: dedication of a torii gate\n- {絵馬|えま}を{献納|けんのう}する: to dedicate a votive tablet\n- {献納|けんのう}{者|しゃ}: donor; dedicator\n\nSIMILAR WORDS:\n- {奉納|ほうのう}: dedication; offering (to a deity) — very close in meaning, but {奉納|ほうのう} emphasizes the act of presenting to a deity and is often associated with shrine rituals and performances\n- {寄付|きふ}: donation — a general term for giving money or goods to any cause, lacking the religious or reverential nuance\n- {寄贈|きぞう}: donation; gift (of goods) — donating objects to institutions like museums or libraries",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12200_hounou",
+      "reading": "ほうのう",
+      "headword": "{奉納|ほうのう}",
+      "label": "dedication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02584_kifu",
+      "reading": "きふ",
+      "headword": "{寄付|きふ}",
+      "label": "donation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12345_kizou",
+      "reading": "きぞう",
+      "headword": "{寄贈|きぞう}",
+      "label": "donation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +88,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-20T10:34:16Z",
-    "modified": "2026-04-20T10:34:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

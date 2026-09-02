@@ -17,7 +17,9 @@
       "id": "25631_bichikuhin_ex1",
       "japanese": "{備蓄品|びちくひん}を{定期的|ていきてき}に{確認|かくにん}する。",
       "english": "To check stockpiled supplies regularly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25631_bichikuhin_ex2",
       "japanese": "{家庭|かてい}の{備蓄品|びちくひん}として{三日分|みっかぶん}の{食料|しょくりょう}と{水|みず}を{用意|ようい}しておこう。",
       "english": "Let's prepare three days' worth of food and water as household emergency supplies.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,43 @@
       "id": "25631_bichikuhin_ex3",
       "japanese": "{地震|じしん}の{多|おお}い{日本|にほん}では、{自治体|じちたい}も{住民|じゅうみん}も{備蓄品|びちくひん}の{管理|かんり}を{怠|おこた}ってはならない。",
       "english": "In earthquake-prone Japan, neither local governments nor residents should neglect managing their emergency supplies.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {備蓄|びちく} (stockpiling, storing in reserve) and {品|ひん} (goods, items). Disaster preparedness is a major concern in Japan, and {備蓄品|びちくひん} is a standard term in discussions about earthquake and typhoon readiness.\n\nThe Japanese government recommends households maintain at least three days' worth of emergency supplies, though one week is increasingly recommended.\n\nCOMMON COLLOCATIONS:\n- {備蓄品|びちくひん}リスト: stockpile checklist\n- {備蓄品|びちくひん}の{入|い}れ{替|か}え: rotating stockpiled supplies\n- {備蓄品|びちくひん}を{見直|みなお}す: to review emergency supplies\n- {防災|ぼうさい}{備蓄品|びちくひん}: disaster preparedness supplies\n\nSIMILAR WORDS:\n- {非常食|ひじょうしょく}: emergency food — specifically food items within a disaster kit\n- {防災|ぼうさい}グッズ: disaster preparedness goods — a more casual, broader term\n- {備蓄|びちく}: stockpiling — the act of storing, or the stored reserves themselves",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18765_hijoushoku",
+      "reading": "ひじょうしょく",
+      "headword": "{非常食|ひじょうしょく}",
+      "label": "emergency food"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23509_bousaiguzzu",
+      "reading": "ぼうさいぐっず",
+      "headword": "{防災|ぼうさい}グッズ",
+      "label": "disaster preparedness goods"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life"
+      ]
     },
     "created": "2026-04-26T13:22:25Z",
-    "modified": "2026-06-15T07:57:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

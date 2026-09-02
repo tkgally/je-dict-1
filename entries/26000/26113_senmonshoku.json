@@ -17,7 +17,9 @@
       "id": "26113_senmonshoku_ex1",
       "japanese": "{彼女|かのじょ}は{専門職|せんもんしょく}として{働|はたら}いている。",
       "english": "She works as a professional.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26113_senmonshoku_ex2",
       "japanese": "{専門職|せんもんしょく}に{就|つ}くには{資格|しかく}が{必要|ひつよう}な{場合|ばあい}が{多|おお}い。",
       "english": "Qualifications are often required to enter a professional occupation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,38 @@
       "id": "26113_senmonshoku_ex3",
       "japanese": "{医師|いし}や{弁護士|べんごし}などの{専門職|せんもんしょく}は{社会的|しゃかいてき}な{信頼|しんらい}が{高|たか}い。",
       "english": "Professional occupations such as doctors and lawyers enjoy high social trust.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {専門|せんもん} (specialty; specialization) and {職|しょく} (occupation; job). Refers to careers that demand advanced education, specialized training, or professional certification. In Japanese labor classification, {専門職|せんもんしょく} is a distinct category from {総合職|そうごうしょく} (general career track) and {一般職|いっぱんしょく} (clerical track).\n\nCOMMON COLLOCATIONS:\n- {専門職|せんもんしょく}に{就|つ}く: to enter a professional occupation\n- {専門職|せんもんしょく}{大学院|だいがくいん}: professional graduate school\n- {高度|こうど}{専門職|せんもんしょく}: highly specialized profession\n- {専門職|せんもんしょく}{学位|がくい}: professional degree\n\nSIMILAR WORDS:\n- {専門家|せんもんか}: specialist; expert — refers to the person, not the job category\n- {技術職|ぎじゅつしょく}: technical position — specifically about engineering or technical work\n- {総合職|そうごうしょく}: general career track — the management track in Japanese companies, contrasted with {専門職|せんもんしょく}",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03088_senmonka",
+      "reading": "せんもんか",
+      "headword": "{専門家|せんもんか}",
+      "label": "specialist"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["occupation", "business"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "occupation",
+        "business"
+      ]
     },
     "created": "2026-04-29T13:39:43Z",
-    "modified": "2026-04-29T13:39:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

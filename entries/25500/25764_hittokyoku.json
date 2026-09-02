@@ -45,7 +45,29 @@
     }
   ],
   "notes": "A compound of ヒット (hit, from English) and {曲|きょく} (song/tune). Widely used in music media, rankings, and everyday conversation about popular music.\n\nCOMMON COLLOCATIONS:\n- {大|だい}ヒット{曲|きょく}: big hit song\n- ヒット{曲|きょく}を{生|う}み{出|だ}す: to produce a hit song\n- ヒット{曲|きょく}に{恵|めぐ}まれる: to be blessed with hit songs\n- {歴代|れきだい}のヒット{曲|きょく}: hit songs through the ages\n\nSIMILAR WORDS:\n- {名曲|めいきょく}: masterpiece; famous song — focuses on artistic quality rather than commercial success\n- {流行歌|りゅうこうか}: popular song — a somewhat dated term for a trendy song\n- {人気曲|にんききょく}: popular song — emphasizes current popularity rather than chart performance",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17476_meikyoku",
+      "reading": "めいきょく",
+      "headword": "{名曲|めいきょく}",
+      "label": "masterpiece"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28232_ryuukouka",
+      "reading": "りゅうこうか",
+      "headword": "{流行歌|りゅうこうか}",
+      "label": "popular song"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24183_daihyoukyoku",
+      "reading": "だいひょうきょく",
+      "headword": "{代表曲|だいひょうきょく}",
+      "label": "signature song"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +75,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "music",
         "entertainment"
       ]
     },
     "created": "2026-04-27T12:17:40Z",
-    "modified": "2026-08-04T21:24:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "id": "18242_ichizu",
   "headword": "{一途|いちず}",
   "reading": "いちず",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "wholehearted; single-minded; devoted",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "She loves him wholeheartedly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18242_ichizu_ex2",
@@ -27,7 +29,9 @@
       "english": "She has a single-minded personality and concentrates on one thing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18242_ichizu_ex3",
@@ -35,21 +39,50 @@
       "english": "As a result of working single-mindedly toward his dream, he finally achieved his goal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nGenerally a positive quality, especially in romantic contexts where it means being devoted to one person. Can occasionally carry a nuance of being inflexible or blindly focused.\n\nFORMS:\n- {一途|いちず}な + noun (devoted; single-minded)\n- {一途|いちず}に + verb (wholeheartedly; single-mindedly)\n\nCOMMON COLLOCATIONS:\n- {一途|いちず}な{愛|あい} (devoted love)\n- {一途|いちず}な{人|ひと} (a devoted person)\n- {一途|いちず}に{思|おも}う (to think of someone devotedly)\n- {一途|いちず}に{打|う}ち{込|こ}む (to devote oneself single-mindedly)\n\nSIMILAR WORDS:\n- ひたむき: earnest; single-minded — emphasizes putting in effort with dedication, often about work or study\n- {一心|いっしん}: single-hearted — more literary, focuses on concentrated mental effort",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10492_hitamuki",
+      "reading": "ひたむき",
+      "headword": "ひたむき",
+      "label": "earnest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11236_isshin",
+      "reading": "いっしん",
+      "headword": "{一心|いっしん}",
+      "label": "single-hearted"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22492_ippongi",
+      "reading": "いっぽんぎ",
+      "headword": "{一本気|いっぽんぎ}",
+      "label": "single-minded"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T13:45:52Z",
-    "modified": "2026-03-20T13:45:52Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive", "emotion"]
+      "semantic": [
+        "descriptive",
+        "emotion"
+      ]
     }
   }
 }

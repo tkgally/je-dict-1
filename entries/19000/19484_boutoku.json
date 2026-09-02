@@ -3,7 +3,7 @@
   "headword": "{冒涜|ぼうとく}",
   "reading": "ぼうとく",
   "romaji": "boutoku",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "blasphemy; profanation; desecration",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,22 @@
   ],
   "notes": "A strong, serious word expressing contempt or violation of something sacred or highly valued. While it can refer to religious blasphemy, in Japanese it is more broadly applied to any act that profanes or degrades something considered important — the memory of the dead, art, human dignity, or cherished traditions.\n\nCOMMON COLLOCATIONS:\n- {冒涜|ぼうとく}する — to blaspheme, to desecrate\n- {神|かみ}への{冒涜|ぼうとく} — blasphemy against God\n- {人権|じんけん}の{冒涜|ぼうとく} — an affront to human rights\n- {冒涜的|ぼうとくてき}な — blasphemous, sacrilegious\n\nSIMILAR WORDS:\n- {侮辱|ぶじょく} — insult, affront; directed at a person's dignity rather than something sacred\n- {不敬|ふけい} — disrespect, irreverence; showing lack of proper respect, lighter than {冒涜|ぼうとく}\n- {汚|けが}す — to defile, to pollute; a verb meaning to make something impure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11448_bujoku",
+      "reading": "ぶじょく",
+      "headword": "{侮辱|ぶじょく}",
+      "label": "insult, affront"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19476_fukei",
+      "reading": "ふけい",
+      "headword": "{不敬|ふけい}",
+      "label": "disrespect, irreverence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -145,13 +161,15 @@
       ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["religion"],
+      "semantic": [
+        "religion"
+      ],
       "style": [
         "written"
       ],
       "verb_class": "suru"
     },
     "created": "2026-03-26T01:25:23Z",
-    "modified": "2026-07-26T21:32:58Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

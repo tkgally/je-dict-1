@@ -45,7 +45,22 @@
     }
   ],
   "notes": "A compound of {編纂|へんさん} (compilation, editing) and {者|しゃ} (person). Specifically refers to someone who compiles large-scale reference works, as opposed to a general editor who edits individual works.\n\nCOMMON COLLOCATIONS:\n- {辞書|じしょ}の{編纂者|へんさんしゃ}: dictionary compiler\n- {百科事典|ひゃっかじてん}の{編纂者|へんさんしゃ}: encyclopedia editor\n- {歴史書|れきししょ}の{編纂者|へんさんしゃ}: compiler of historical records\n- {主|しゅ}{編纂者|へんさんしゃ}: chief editor/compiler\n\nSIMILAR WORDS:\n- {編集者|へんしゅうしゃ}: editor — a more general term for someone who edits books, magazines, or other publications\n- {著者|ちょしゃ}: author — someone who writes original content, rather than compiling existing material\n- {監修者|かんしゅうしゃ}: supervisor, general editor — someone who oversees a project without doing the hands-on compilation",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09587_henshuusha",
+      "reading": "へんしゅうしゃ",
+      "headword": "{編集者|へんしゅうしゃ}",
+      "label": "editor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03501_chosha",
+      "reading": "ちょしゃ",
+      "headword": "{著者|ちょしゃ}",
+      "label": "author"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "occupation",
         "media"
       ]
     },
     "created": "2026-05-01T15:36:14Z",
-    "modified": "2026-08-06T00:45:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{解放|かいほう}する",
   "reading": "かいほうする",
   "romaji": "kaihousuru",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to release; to set free; to liberate",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Can be used both for physical liberation (releasing prisoners, opening up spaces) and psychological/emotional liberation (freeing from stress, burdens, obligations). The passive form ～から{解放|かいほう}される (to be freed from ~) is very common.\n\nCOMMON COLLOCATIONS:\n- ～から{解放|かいほう}される — to be freed from ~\n- {人質|ひとじち}を{解放|かいほう}する — to release hostages\n- {奴隷|どれい}を{解放|かいほう}する — to emancipate slaves\n- {解放|かいほう}{感|かん} — sense of liberation\n- {解放|かいほう}{運動|うんどう} — liberation movement\n\nSIMILAR WORDS:\n- {開放|かいほう}する — same pronunciation but different kanji; means to open up (a building, space) to the public, not to free from oppression\n- {釈放|しゃくほう}する — to release from custody (legal term, more specific)\n- {自由|じゆう}にする — to set free (more casual)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00445_kaihou",
+      "reading": "かいほう",
+      "headword": "{開放|かいほう}",
+      "label": "same pronunciation but different kanji"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14806_shakuhou",
+      "reading": "しゃくほう",
+      "headword": "{釈放|しゃくほう}",
+      "label": "to release from custody"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26843_kaijosuru",
+      "reading": "かいじょする",
+      "headword": "{解除|かいじょ}する",
+      "label": "to cancel"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T04:25:44Z",
-    "modified": "2026-04-05T04:25:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

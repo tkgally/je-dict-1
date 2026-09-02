@@ -17,7 +17,9 @@
       "id": "30037_musekitsuidoubutsu_ex1",
       "japanese": "{昆虫|こんちゅう}は{無脊椎動物|むせきついどうぶつ}だ。",
       "english": "Insects are invertebrates.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30037_musekitsuidoubutsu_ex2",
       "japanese": "{海|うみ}には{多|おお}くの{無脊椎動物|むせきついどうぶつ}が{住|す}んでいる。",
       "english": "Many invertebrates live in the sea.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "30037_musekitsuidoubutsu_ex3",
       "japanese": "{地球上|ちきゅうじょう}の{動物|どうぶつ}の{大部分|だいぶぶん}は{無脊椎動物|むせきついどうぶつ}である。",
       "english": "The great majority of animals on Earth are invertebrates.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from {無|む} (without) + {脊椎|せきつい} (spine) + {動物|どうぶつ} (animal). A biology term.\n\nSIMILAR WORDS:\n- {脊椎動物|せきついどうぶつ}: vertebrate — the antonym, animals with a backbone\n- {昆虫|こんちゅう}: insect — a familiar subgroup of invertebrates",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05010_konchuu",
+      "reading": "こんちゅう",
+      "headword": "{昆虫|こんちゅう}",
+      "label": "insect"
+    },
+    {
+      "type": "related",
+      "target_id": "27745_sessokudoubutsu",
+      "reading": "せっそくどうぶつ",
+      "headword": "{節足|せっそく}{動物|どうぶつ}",
+      "label": "arthropod"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["animal-general"],
-      "domain": ["academic"]
+      "politeness": "plain",
+      "semantic": [
+        "animal-general"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-07-22T12:20:02Z",
-    "modified": "2026-07-22T12:20:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

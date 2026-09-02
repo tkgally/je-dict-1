@@ -17,7 +17,9 @@
       "id": "28679_ryoukou_ex1",
       "japanese": "ここは{良港|りょうこう}として{知|し}られている。",
       "english": "This place is known as a fine harbor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28679_ryoukou_ex2",
       "japanese": "{長崎|ながさき}は{古|ふる}くから{良港|りょうこう}に{恵|めぐ}まれていた。",
       "english": "Nagasaki has been blessed with a fine harbor since ancient times.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28679_ryoukou_ex3",
       "japanese": "{湾|わん}が{深|ふか}く{風|かぜ}を{遮|さえぎ}るため、{昔|むかし}から{天然|てんねん}の{良港|りょうこう}とされてきた。",
       "english": "Because the bay is deep and blocks the wind, it has long been regarded as a natural fine harbor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {良|りょう} (good) + {港|こう} (port). A somewhat formal or written term, more common in geography textbooks, news reports, and historical writing than in casual speech.\n\nCOMMON COLLOCATIONS:\n- {天然|てんねん}の{良港|りょうこう}: a natural fine harbor\n- {良港|りょうこう}に{恵|めぐ}まれる: to be blessed with a good port\n- {良港|りょうこう}として{栄|さか}える: to flourish as a fine port\n\nSIMILAR WORDS:\n- {港|みなと}: port, harbor — everyday neutral term\n- {港湾|こうわん}: port and harbor facilities — technical/administrative term\n- {漁港|ぎょこう}: fishing port — specific to fishing use",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14767_kouwan",
+      "reading": "こうわん",
+      "headword": "{港湾|こうわん}",
+      "label": "port and harbor facilities"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20623_gyokou",
+      "reading": "ぎょこう",
+      "headword": "{漁港|ぎょこう}",
+      "label": "fishing port"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["geography"],
+      "politeness": "plain",
+      "semantic": [
+        "geography"
+      ],
       "domain": []
     },
     "created": "2026-06-04T02:08:09Z",
-    "modified": "2026-06-04T02:08:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

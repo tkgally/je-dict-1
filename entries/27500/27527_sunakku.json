@@ -79,8 +79,45 @@
       "notes": null
     }
   ],
-  "notes": "Loanword from English 'snack', but sense (2) is a distinct Japanese usage with no direct English equivalent.\n\nCOMMON COLLOCATIONS:\n- スナック{菓子|がし}: snack food (chips, etc.)\n- スナックバー: snack bar (sometimes used for sense 2)\n- スナックの{ママ|まま}: the lady who runs a snack bar\n\nCULTURAL CONTEXT (sense 2):\nA スナック is small (often counter-seating only) and run by a single female proprietor. Regulars chat with her, sing karaoke, and pay a {セット{料金|りょうきょう}} (flat fee) plus drinks. They're a fixture of Japanese nightlife, especially outside large cities, and quite different from a bar (バー) or pub (パブ), which lack the host/hostess relationship.\n\nSIMILAR WORDS:\n- {間食|かんしょく}: between-meal eating — focuses on the act, not the food\n- お{菓子|かし}: sweets / snacks — overlaps with sense 1 but usually means sweet snacks",
+  "notes": "Loanword from English 'snack', but sense (2) is a distinct Japanese usage with no direct English equivalent.\n\nCOMMON COLLOCATIONS:\n- スナック{菓子|がし}: snack food (chips, etc.)\n- スナックバー: snack bar (sometimes used for sense 2)\n- スナックのママ: the lady who runs a snack bar\n\nCULTURAL CONTEXT (sense 2):\nA スナック is small (often counter-seating only) and run by a single female proprietor. Regulars chat with her, sing karaoke, and pay a セット{料金|りょうきょう} (flat fee) plus drinks. They're a fixture of Japanese nightlife, especially outside large cities, and quite different from a bar (バー) or pub (パブ), which lack the host/hostess relationship.\n\nSIMILAR WORDS:\n- {間食|かんしょく}: between-meal eating — focuses on the act, not the food\n- お{菓子|かし}: sweets / snacks — overlaps with sense 1 but usually means sweet snacks",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07730_kanshoku",
+      "reading": "かんしょく",
+      "headword": "{間食|かんしょく}",
+      "label": "between-meal eating"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02852_okashi",
+      "reading": "おかし",
+      "headword": "お{菓子|かし}",
+      "label": "sweets / snacks"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07060_baa",
+      "reading": "ばー",
+      "headword": "バー",
+      "label": "bar (drinking establishment)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23514_poppukoon",
+      "reading": "ぽっぷこーん",
+      "headword": "ポップコーン",
+      "label": "popcorn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27528_pabu",
+      "reading": "ぱぶ",
+      "headword": "パブ",
+      "label": "pub"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -88,7 +125,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food",
         "society"
@@ -96,6 +133,6 @@
       "domain": []
     },
     "created": "2026-05-13T04:07:01Z",
-    "modified": "2026-08-07T15:50:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

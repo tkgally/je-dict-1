@@ -17,7 +17,9 @@
       "id": "21530_shisha_ex1",
       "japanese": "{王|おう}は{使者|ししゃ}を{送|おく}った。",
       "english": "The king sent a messenger.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21530_shisha_ex2",
       "japanese": "{使者|ししゃ}が{和平|わへい}の{条件|じょうけん}を{伝|つた}えた。",
       "english": "The envoy conveyed the conditions for peace.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,13 +37,45 @@
       "id": "21530_shisha_ex3",
       "japanese": "{春|はる}の{訪|おとず}れを{告|つ}げる{使者|ししゃ}のように、{梅|うめ}の{花|はな}が{咲|さ}いた。",
       "english": "The plum blossoms bloomed, like messengers heralding the arrival of spring.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {使|し} (to send on a mission) + {者|しゃ} (person). Commonly appears in historical narratives, fantasy, and literary writing. Also used figuratively for things that herald or signal something.\n\nCOMMON COLLOCATIONS:\n- {使者|ししゃ}を{送|おく}る: to send a messenger\n- {使者|ししゃ}を{遣|つか}わす: to dispatch an envoy (literary)\n- {使者|ししゃ}が{来|く}る: a messenger comes\n- {春|はる}の{使者|ししゃ}: herald of spring\n- {死|し}の{使者|ししゃ}: messenger of death\n\nSIMILAR WORDS:\n- {特使|とくし}: special envoy — specifically appointed for a particular mission\n- {大使|たいし}: ambassador — a permanent diplomatic representative\n- メッセンジャー: messenger — the loanword, used in modern/casual contexts\n\nNOTE ON HOMOPHONES:\n{使者|ししゃ} (messenger) is distinct from {死者|ししゃ} (deceased person). The kanji make the difference clear in writing.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23491_tokushi",
+      "reading": "とくし",
+      "headword": "{特使|とくし}",
+      "label": "special envoy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03391_taishi",
+      "reading": "たいし",
+      "headword": "{大使|たいし}",
+      "label": "ambassador"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22015_denrei",
+      "reading": "でんれい",
+      "headword": "{伝令|でんれい}",
+      "label": "messenger"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25633_tsukai",
+      "reading": "つかい",
+      "headword": "{使|つか}い",
+      "label": "errand"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +89,6 @@
       ]
     },
     "created": "2026-04-02T15:22:32Z",
-    "modified": "2026-04-02T15:22:32Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

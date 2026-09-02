@@ -3,7 +3,7 @@
   "headword": "{滅菌|めっきん}",
   "reading": "めっきん",
   "romaji": "mekkin",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sterilization; destroying all microorganisms",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Refers to the complete destruction of all microorganisms including bacteria, viruses, and spores. Stricter than {殺菌|さっきん} (disinfection), which only reduces the number of pathogens.\n\nCOMMON COLLOCATIONS:\n- {滅菌|めっきん}{処理|しょり}: sterilization treatment\n- {滅菌|めっきん}{済|ず}み: sterilized (done)\n- {高圧|こうあつ}{滅菌|めっきん}: autoclave sterilization\n- {滅菌|めっきん}ガーゼ: sterile gauze\n\nSIMILAR WORDS:\n- {殺菌|さっきん}: disinfection, pasteurization — kills or reduces harmful bacteria but does not eliminate all microorganisms\n- {消毒|しょうどく}: disinfection, sanitization — a broader term for cleaning to remove pathogens; used in everyday contexts like hand sanitizing\n- {除菌|じょきん}: removing bacteria — commonly seen on household cleaning products; less technical than {滅菌|めっきん}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09781_sakkin",
+      "reading": "さっきん",
+      "headword": "{殺菌|さっきん}",
+      "label": "disinfection, pasteurization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07591_shoudoku",
+      "reading": "しょうどく",
+      "headword": "{消毒|しょうどく}",
+      "label": "disinfection, sanitization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07789_jokin",
+      "reading": "じょきん",
+      "headword": "{除菌|じょきん}",
+      "label": "removing bacteria"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21567_koukin",
+      "reading": "こうきん",
+      "headword": "{抗菌|こうきん}",
+      "label": "antibacterial"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +83,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "science"
@@ -63,7 +95,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-17T21:41:00Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -17,7 +17,9 @@
       "id": "26707_seiyoueiga_ex1",
       "japanese": "{西洋映画|せいようえいが}が{好|す}きですか。",
       "english": "Do you like Western movies?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26707_seiyoueiga_ex2",
       "japanese": "{昔|むかし}は{西洋映画|せいようえいが}のことを{洋画|ようが}と{呼|よ}んでいた。",
       "english": "In the past, Western films were called yōga.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,44 @@
       "id": "26707_seiyoueiga_ex3",
       "japanese": "この{映画館|えいがかん}では{西洋映画|せいようえいが}と{邦画|ほうが}の{両方|りょうほう}を{上映|じょうえい}している。",
       "english": "This movie theater screens both Western films and Japanese films.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {西洋|せいよう} (the West/Western countries) and {映画|えいが} (movie). In everyday Japanese, {洋画|ようが} is the more common and concise term for Western films. {西洋映画|せいようえいが} is the fuller, more formal expression.\n\nCOMMON COLLOCATIONS:\n- {西洋映画|せいようえいが}ファン: fan of Western movies\n- {西洋映画|せいようえいが}の{名作|めいさく}: masterpiece of Western cinema\n- {西洋映画|せいようえいが}を{観|み}る: to watch a Western movie\n\nSIMILAR WORDS:\n- {洋画|ようが}: Western film — the standard short form, much more common in casual speech\n- {邦画|ほうが}: Japanese film — the counterpart category\n- {外国映画|がいこくえいが}: foreign film — broader, includes Asian films too",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14741_youga",
+      "reading": "ようが",
+      "headword": "{洋画|ようが}",
+      "label": "Western film"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14740_houga",
+      "reading": "ほうが",
+      "headword": "{邦画|ほうが}",
+      "label": "Japanese film"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["culture", "entertainment"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "culture",
+        "entertainment"
+      ]
     },
     "created": "2026-05-04T14:12:22Z",
-    "modified": "2026-05-04T14:12:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

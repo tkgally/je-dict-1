@@ -19,7 +19,9 @@
       "english": "Please pack it with cushioning material before shipping.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18884_kanshouzai_ex2",
@@ -27,7 +29,9 @@
       "english": "Since it's fragile, I used plenty of cushioning material.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18884_kanshouzai_ex3",
@@ -35,21 +39,49 @@
       "english": "When shipping a product I sold on a flea market app, I was stuck because I didn't have enough packing material.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCommon in shipping, packaging, and online commerce contexts. With the rise of online shopping and flea market apps like メルカリ, this word appears frequently in everyday life.\n\nCOMMON COLLOCATIONS:\n- {緩衝|かんしょう}{材|ざい}を{入|い}れる (to put in cushioning material)\n- {緩衝|かんしょう}{材|ざい}で{包|つつ}む (to wrap in packing material)\n- {緩衝|かんしょう}{材|ざい}が{足|た}りない (not enough cushioning material)\n\nSIMILAR WORDS:\n- プチプチ: bubble wrap — the colloquial onomatopoeic name for bubble wrap\n- {梱包|こんぽう}{材|ざい}: packing material — broader term for all packaging supplies",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06847_puchipuchi",
+      "reading": "ぷちぷち",
+      "headword": "プチプチ",
+      "label": "bubble wrap"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30141_konpouzai",
+      "reading": "こんぽうざい",
+      "headword": "{梱包材|こんぽうざい}",
+      "label": "packing material"
+    },
+    {
+      "type": "related",
+      "target_id": "07937_konpou",
+      "reading": "こんぽう",
+      "headword": "{梱包|こんぽう}",
+      "label": "packing"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:22:45Z",
-    "modified": "2026-03-23T06:22:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     }
   }
 }

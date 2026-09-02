@@ -63,11 +63,54 @@
       ]
     }
   ],
-  "notes": "{思|おも}い{出|で} refers to memories, often with emotional or nostalgic connotations.\n\nWORD FORMATION:\n{思|おも}い (thought) + {出|で} (coming out) - memories that 'come out' when recalled\n\nCOMMON EXPRESSIONS:\n- {思|おも}い{出|で}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become a memory\n- {思|おも}い{出|で}⟦に→に：00314_ni⟧⟦{残|のこ}る→残る：01187_nokoru⟧: to remain in one's memory\n- {思|おも}い{出|で}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make memories\n- {思|おも}い{出|で}⟦が→が：00051_ga⟧⟦よみがえる→蘇る：04004_yomigaeru⟧: memories come flooding back\n- ⟦いい→いい：00118_ii⟧{思|おも}い{出|で}: good/fond memories\n\nRELATED VERB:\n⟦{思|おも}い{出|だ}す→思い出す：01258_omoidasu⟧: to remember, recall ({出|で} reading varies)\n\nSIMILAR WORDS:\n- ⟦{記憶|きおく}→記憶：00234_kioku⟧: memory (more neutral/scientific)\n- ⟦{追憶|ついおく}→追憶：15687_tsuioku⟧: reminiscence (literary)",
-  "cross_references": [],
+  "notes": "{思|おも}い{出|で} refers to memories, often with emotional or nostalgic connotations.\n\nFORMS:\n{思|おも}い (thought) + {出|で} (coming out) - memories that 'come out' when recalled\n\nCOMMON EXPRESSIONS:\n- {思|おも}い{出|で}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become a memory\n- {思|おも}い{出|で}⟦に→に：00314_ni⟧⟦{残|のこ}る→残る：01187_nokoru⟧: to remain in one's memory\n- {思|おも}い{出|で}⟦を→を：00422_wo⟧⟦{作|つく}る→作る：00481_tsukuru⟧: to make memories\n- {思|おも}い{出|で}⟦が→が：00051_ga⟧⟦よみがえる→蘇る：04004_yomigaeru⟧: memories come flooding back\n- ⟦いい→いい：00118_ii⟧{思|おも}い{出|で}: good/fond memories\n\nRELATED VERB:\n⟦{思|おも}い{出|だ}す→思い出す：01258_omoidasu⟧: to remember, recall ({出|で} reading varies)\n\nSIMILAR WORDS:\n- ⟦{記憶|きおく}→記憶：00234_kioku⟧: memory (more neutral/scientific)\n- ⟦{追憶|ついおく}→追憶：15687_tsuioku⟧: reminiscence (literary)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00234_kioku",
+      "reading": "きおく",
+      "headword": "{記憶|きおく}",
+      "label": "memory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15687_tsuioku",
+      "reading": "ついおく",
+      "headword": "{追憶|ついおく}",
+      "label": "reminiscence"
+    },
+    {
+      "type": "related",
+      "target_id": "09913_natsukashimu",
+      "reading": "なつかしむ",
+      "headword": "{懐|なつ}かしむ",
+      "label": "to feel nostalgic about, to reminisce fondly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22843_oboe",
+      "reading": "おぼえ",
+      "headword": "{覚|おぼ}え",
+      "label": "memory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24226_memorii",
+      "reading": "めもりー",
+      "headword": "メモリー",
+      "label": "memory (computing)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28850_omoiire",
+      "reading": "おもいいれ",
+      "headword": "{思|おも}い{入|い}れ",
+      "label": "emotional attachment"
+    }
+  ],
   "metadata": {
     "created": "2026-01-10T08:42:54Z",
-    "modified": "2026-06-16T12:23:55Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

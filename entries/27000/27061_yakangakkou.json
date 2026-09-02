@@ -17,7 +17,9 @@
       "id": "27061_yakangakkou_ex1",
       "japanese": "{夜間学校|やかんがっこう}に{通|かよ}いながら{働|はたら}いている。",
       "english": "I work while attending night school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27061_yakangakkou_ex2",
       "japanese": "{高校|こうこう}を{卒業|そつぎょう}できなかったので、{夜間学校|やかんがっこう}で{学|まな}び{直|なお}すことにした。",
       "english": "Since I didn't graduate from high school, I decided to go back and study at night school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "27061_yakangakkou_ex3",
       "japanese": "{戦後|せんご}は{経済的|けいざいてき}な{理由|りゆう}で{昼間|ひるま}{学校|がっこう}に{通|かよ}えない{若者|わかもの}のために、{夜間学校|やかんがっこう}が{重要|じゅうよう}な{役割|やくわり}を{果|は}たした。",
       "english": "In the postwar period, night schools played an important role for young people who couldn't attend school during the day for economic reasons.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {夜間|やかん} (nighttime/evening) and {学校|がっこう} (school). In Japan, {夜間学校|やかんがっこう} can refer to {定時制|ていじせい}{高校|こうこう} (part-time high schools with evening classes) or {夜間|やかん}{中学校|ちゅうがっこう} (evening middle schools for adults who missed compulsory education). Night schools have historically served working youth and, more recently, foreign residents and elderly people.\n\nCOMMON COLLOCATIONS:\n- {夜間学校|やかんがっこう}に{通|かよ}う — to attend night school\n- {夜間学校|やかんがっこう}で{学|まな}ぶ — to study at night school\n- {夜間学校|やかんがっこう}の{生徒|せいと} — night school students\n\nSIMILAR WORDS:\n- {定時制|ていじせい} — part-time school system (official term for evening high school programs)\n- {夜学|やがく} — night school (shorter, slightly more colloquial synonym)\n- {全日制|ぜんにちせい} — full-time school system (the opposite: daytime classes)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19786_teijisei",
+      "reading": "ていじせい",
+      "headword": "{定時制|ていじせい}",
+      "label": "part-time school system"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27057_zennichisei",
+      "reading": "ぜんにちせい",
+      "headword": "{全日制|ぜんにちせい}",
+      "label": "full-time school system (the opposite"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-05-06T15:15:17Z",
-    "modified": "2026-05-06T15:15:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "29898_hatarakibachi_ex1",
       "japanese": "{働|はたら}き{蜂|ばち}が{花|はな}の{蜜|みつ}を{集|あつ}める。",
       "english": "Worker bees gather nectar from flowers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29898_hatarakibachi_ex2",
       "japanese": "{巣|す}の{仕事|しごと}はほとんど{働|はたら}き{蜂|ばち}がこなす。",
       "english": "Almost all the hive's work is handled by the worker bees.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29898_hatarakibachi_ex3",
       "japanese": "{彼|かれ}は{会社|かいしゃ}の{働|はたら}き{蜂|ばち}のように、{毎日|まいにち}{遅|おそ}くまで{働|はたら}いている。",
       "english": "Like a worker bee at the company, he works late every day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from {働|はたら}き (working) + {蜂|はち} (bee), with rendaku giving ばち. Figuratively it describes a diligent, self-effacing worker who does the unglamorous jobs.\n\nCOMMON COLLOCATIONS:\n- {働|はたら}き{蜂|ばち}が{蜜|みつ}を{集|あつ}める: worker bees gather nectar\n- {会社|かいしゃ}の{働|はたら}き{蜂|ばち}: a corporate worker bee (hard-working employee)\n\nSIMILAR WORDS:\n- {女王蜂|じょおうばち}: queen bee — the single egg-laying female at the center of the colony",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29897_jooubachi",
+      "reading": "じょおうばち",
+      "headword": "{女王蜂|じょおうばち}",
+      "label": "queen bee"
+    },
+    {
+      "type": "related",
+      "target_id": "06514_mitsubachi",
+      "reading": "みつばち",
+      "headword": "{蜜蜂|みつばち}",
+      "label": "honeybee"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["animal-insect"],
+      "politeness": "plain",
+      "semantic": [
+        "animal-insect"
+      ],
       "domain": []
     },
     "created": "2026-07-16T21:18:06Z",
-    "modified": "2026-07-16T21:18:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

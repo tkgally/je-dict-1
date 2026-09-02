@@ -3,7 +3,7 @@
   "headword": "{陰|かげ}で",
   "reading": "かげで",
   "romaji": "kagede",
-  "part_of_speech": "expression",
+  "part_of_speech": "expression, adverb",
   "gloss": "behind someone's back; in secret; covertly",
   "definitions": [
     {
@@ -79,8 +79,31 @@
       "notes": null
     }
   ],
-  "notes": "Used as an adverbial expression meaning either \"behind someone's back\" (negative nuance) or \"behind the scenes\" (often positive, implying quiet support). The kanji {陰|かげ} means shadow, shade, or hidden side.\n\nCOMMON COLLOCATIONS:\n- {陰|かげ}で{悪口|わるくち}を{言|い}う: to badmouth someone behind their back\n- {陰|かげ}で{支|ささ}える: to support behind the scenes\n- {陰|かげ}で{努力|どりょく}する: to work hard out of the spotlight\n- {成功|せいこう}の{陰|かげ}で: behind the success\n\nSIMILAR WORDS:\n- こっそり: secretly; stealthily — more casual, focuses on the sneaky action\n- {裏|うら}で: behind the scenes; covertly — similar meaning but can imply more scheming\n- {影|かげ}ながら: from the shadows; quietly — a positive variant meaning discreet support\n\nNOTE:\n{陰|かげ} (hidden side, shadow) and {影|かげ} (shadow cast by light) are homophones but written with different kanji. In this expression, {陰|かげ} emphasizes the hidden or unseen aspect.",
+  "notes": "Used as an adverbial expression meaning either \"behind someone's back\" (negative nuance) or \"behind the scenes\" (often positive, implying quiet support). The kanji {陰|かげ} means shadow, shade, or hidden side.\n\nCOMMON COLLOCATIONS:\n- {陰|かげ}で{悪口|わるくち}を{言|い}う: to badmouth someone behind their back\n- {陰|かげ}で{支|ささ}える: to support behind the scenes\n- {陰|かげ}で{努力|どりょく}する: to work hard out of the spotlight\n- {成功|せいこう}の{陰|かげ}で: behind the success\n\nSIMILAR WORDS:\n- こっそり: secretly; stealthily — more casual, focuses on the sneaky action\n- {裏|うら}で: behind the scenes; covertly — similar meaning but can imply more scheming\n- {影|かげ}ながら: from the shadows; quietly — a positive variant meaning discreet support\n\nUSAGE:\n{陰|かげ} (hidden side, shadow) and {影|かげ} (shadow cast by light) are homophones but written with different kanji. In this expression, {陰|かげ} emphasizes the hidden or unseen aspect.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05890_kossori",
+      "reading": "こっそり",
+      "headword": "こっそり",
+      "label": "secretly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18580_urade",
+      "reading": "うらで",
+      "headword": "{裏|うら}で",
+      "label": "behind the scenes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21954_suimenka",
+      "reading": "すいめんか",
+      "headword": "{水面下|すいめんか}",
+      "label": "below the surface"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -88,11 +111,12 @@
         "expression",
         "adverb"
       ],
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ]
     },
     "created": "2026-04-07T17:13:33Z",
-    "modified": "2026-04-07T17:13:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

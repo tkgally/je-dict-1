@@ -18,7 +18,9 @@
       "english": "The fire alarm went off.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11510_kasaihouchiki_ex2",
@@ -26,7 +28,9 @@
       "english": "Install fire detectors in each room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11510_kasaihouchiki_ex3",
@@ -34,22 +38,36 @@
       "english": "If the fire alarm goes off, please evacuate calmly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A device that detects fire or smoke and triggers an alarm. In Japan, residential installation has been mandatory since 2011.\n\nWORD FORMATION:\n{火災|かさい} (fire/conflagration) + {報知|ほうち} (notification) + {器|き} (device)\n\nCOMMON COLLOCATIONS:\n- {火災報知器|かさいほうちき}が{鳴|な}る: fire alarm sounds\n- {火災報知器|かさいほうちき}を{設置|せっち}する: install a fire alarm\n- {火災報知器|かさいほうちき}の{点検|てんけん}: fire alarm inspection\n- {火災報知器|かさいほうちき}の{電池|でんち}{交換|こうかん}: battery replacement for fire alarm\n\nTYPES:\n- {煙|けむり}{感知器|かんちき}: smoke detector\n- {熱|ねつ}{感知器|かんちき}: heat detector\n\nAlso called {火災|かさい}{報知機|ほうちき} (with {機|き} instead of {器|き}); both kanji are used.",
-  "cross_references": [],
+  "notes": "A device that detects fire or smoke and triggers an alarm. In Japan, residential installation has been mandatory since 2011.\n\nFORMS:\n{火災|かさい} (fire/conflagration) + {報知|ほうち} (notification) + {器|き} (device)\n\nCOMMON COLLOCATIONS:\n- {火災報知器|かさいほうちき}が{鳴|な}る: fire alarm sounds\n- {火災報知器|かさいほうちき}を{設置|せっち}する: install a fire alarm\n- {火災報知器|かさいほうちき}の{点検|てんけん}: fire alarm inspection\n- {火災報知器|かさいほうちき}の{電池|でんち}{交換|こうかん}: battery replacement for fire alarm\n\nTYPES:\n- {煙|けむり}{感知器|かんちき}: smoke detector\n- {熱|ねつ}{感知器|かんちき}: heat detector\n\nAlso called {火災|かさい}{報知機|ほうちき} (with {機|き} instead of {器|き}); both kanji are used.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19859_hijouberu",
+      "reading": "ひじょうべる",
+      "headword": "{非常|ひじょう}ベル",
+      "label": "emergency bell"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T01:54:44Z",
-    "modified": "2026-03-25T12:24:31Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["electronics"]
+      "semantic": [
+        "electronics"
+      ]
     }
   }
 }

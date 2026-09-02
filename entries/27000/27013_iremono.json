@@ -17,7 +17,9 @@
       "id": "27013_iremono_ex1",
       "japanese": "{入|い}れ{物|もの}がない。",
       "english": "There's no container.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27013_iremono_ex2",
       "japanese": "この{入|い}れ{物|もの}に{水|みず}を{入|い}れてください。",
       "english": "Please put water in this container.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "27013_iremono_ex3",
       "japanese": "{冷蔵庫|れいぞうこ}に{入|い}れる{前|まえ}に、ふたのある{入|い}れ{物|もの}に{移|うつ}してください。",
       "english": "Before putting it in the fridge, please transfer it to a container with a lid.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A broad, everyday word for anything that serves as a container — boxes, jars, bags, bowls, cases, etc. Unlike more specific terms, it does not imply a particular material, shape, or purpose.\n\nCOMMON COLLOCATIONS:\n- {入|い}れ{物|もの}に{入|い}れる: to put into a container\n- {入|い}れ{物|もの}を{探|さが}す: to look for a container\n- {大|おお}きい{入|い}れ{物|もの}: a large container\n- ふたつきの{入|い}れ{物|もの}: a container with a lid\n\nSIMILAR WORDS:\n- {容器|ようき}: container — more formal and technical; often used for food packaging and lab equipment\n- {器|うつわ}: vessel; dish — implies a dish or bowl shape; also used figuratively for a person's capacity\n- {箱|はこ}: box — specifically a box-shaped container",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03656_youki",
+      "reading": "ようき",
+      "headword": "{容器|ようき}",
+      "label": "container"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11838_utsuwa",
+      "reading": "うつわ",
+      "headword": "{器|うつわ}",
+      "label": "vessel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02162_hako",
+      "reading": "はこ",
+      "headword": "{箱|はこ}",
+      "label": "box"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     },
     "created": "2026-05-06T14:16:35Z",
-    "modified": "2026-08-07T06:31:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

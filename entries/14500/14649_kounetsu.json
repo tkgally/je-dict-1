@@ -19,7 +19,9 @@
       "english": "I developed a high fever.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14649_kounetsu_ex2",
@@ -27,7 +29,9 @@
       "english": "The child had a high fever and stayed home from school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14649_kounetsu_ex3",
@@ -35,7 +39,9 @@
       "english": "The high fever persisted for three days, so I had tests done at the hospital.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Compound of {高|こう} (high) + {熱|ねつ} (fever/heat).\n\nCOMMON COLLOCATIONS:\n- {高熱|こうねつ}が{出|で}る (develop a high fever)\n- {高熱|こうねつ}を{出|だ}す (run a high fever)\n- {高熱|こうねつ}が{続|つづ}く (a high fever persists)\n- {高熱|こうねつ}が{下|さ}がる (a high fever comes down)\n\nDistinct from {微熱|びねつ} (slight fever, around 37-37.5°C) and {発熱|はつねつ} (fever in general). {高熱|こうねつ} specifically implies a temperature high enough to cause concern.",
@@ -46,19 +52,32 @@
       "reading": "びねつ",
       "headword": "{微熱|びねつ}",
       "label": "slight fever"
+    },
+    {
+      "type": "related",
+      "target_id": "06297_hatsunetsu",
+      "reading": "はつねつ",
+      "headword": "{発熱|はつねつ}",
+      "label": "fever"
     }
   ],
   "metadata": {
     "created": "2026-03-02T09:34:44Z",
-    "modified": "2026-04-27T06:29:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

@@ -17,7 +17,9 @@
       "id": "25772_danganressha_ex1",
       "japanese": "{弾丸列車|だんがんれっしゃ}で{東京|とうきょう}から{大阪|おおさか}まで{行|い}く。",
       "english": "To go from Tokyo to Osaka by bullet train.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25772_danganressha_ex2",
       "japanese": "{弾丸列車|だんがんれっしゃ}は{時速|じそく}300キロで{走|はし}る。",
       "english": "The bullet train runs at 300 kilometers per hour.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,44 @@
       "id": "25772_danganressha_ex3",
       "japanese": "1964{年|ねん}の{東京|とうきょう}オリンピックに{合|あ}わせて、{世界初|せかいはつ}の{弾丸列車|だんがんれっしゃ}が{開通|かいつう}した。",
       "english": "The world's first bullet train began service in time for the 1964 Tokyo Olympics.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Literally \"bullet train\" — {弾丸|だんがん} (bullet) + {列車|れっしゃ} (train). This was the original nickname for the Shinkansen high-speed rail project dating from the wartime era. While {新幹線|しんかんせん} is the standard term in Japan, {弾丸列車|だんがんれっしゃ} is still used colloquially and is the origin of the English term \"bullet train.\"\n\nCOMMON COLLOCATIONS:\n- {弾丸列車|だんがんれっしゃ}で{移動|いどう}する: to travel by bullet train\n- {弾丸列車|だんがんれっしゃ}{計画|けいかく}: bullet train project (historical)\n\nSIMILAR WORDS:\n- {新幹線|しんかんせん}: Shinkansen — the official and far more common term for Japan's high-speed rail\n- {高速鉄道|こうそくてつどう}: high-speed railway — the formal, technical term\n- {超特急|ちょうとっきゅう}: super express — an older term for the fastest class of train service\n\nHISTORICAL NOTE:\nThe \"bullet train\" concept originated in a 1939 plan to build a high-speed rail line connecting Tokyo to Shimonoseki. The project was shelved during World War II but revived in the postwar era, culminating in the Tokaido Shinkansen's launch on October 1, 1964.",
-  "cross_references": [],
+  "notes": "Literally \"bullet train\" — {弾丸|だんがん} (bullet) + {列車|れっしゃ} (train). This was the original nickname for the Shinkansen high-speed rail project dating from the wartime era. While {新幹線|しんかんせん} is the standard term in Japan, {弾丸列車|だんがんれっしゃ} is still used colloquially and is the origin of the English term \"bullet train.\"\n\nCOMMON COLLOCATIONS:\n- {弾丸列車|だんがんれっしゃ}で{移動|いどう}する: to travel by bullet train\n- {弾丸列車|だんがんれっしゃ}{計画|けいかく}: bullet train project (historical)\n\nSIMILAR WORDS:\n- {新幹線|しんかんせん}: Shinkansen — the official and far more common term for Japan's high-speed rail\n- {高速鉄道|こうそくてつどう}: high-speed railway — the formal, technical term\n- {超特急|ちょうとっきゅう}: super express — an older term for the fastest class of train service\n\nETYMOLOGY:\nThe \"bullet train\" concept originated in a 1939 plan to build a high-speed rail line connecting Tokyo to Shimonoseki. The project was shelved during World War II but revived in the postwar era, culminating in the Tokaido Shinkansen's launch on October 1, 1964.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01053_shinkansen",
+      "reading": "しんかんせん",
+      "headword": "{新幹線|しんかんせん}",
+      "label": "Shinkansen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22126_choutokkyuu",
+      "reading": "ちょうとっきゅう",
+      "headword": "{超特急|ちょうとっきゅう}",
+      "label": "super express"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["transport", "society"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "transport",
+        "society"
+      ]
     },
     "created": "2026-04-27T12:20:37Z",
-    "modified": "2026-04-27T12:20:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

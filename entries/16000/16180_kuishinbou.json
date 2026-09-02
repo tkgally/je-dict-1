@@ -19,7 +19,9 @@
       "english": "Our dog is a big eater.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16180_kuishinbou_ex2",
@@ -27,7 +29,9 @@
       "english": "A greedy child is begging for snacks.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16180_kuishinbou_ex3",
@@ -35,21 +39,64 @@
       "english": "For a foodie like me, the best part of traveling is eating the local cuisine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{食|く}いしん{坊|ぼう} has a playful, affectionate tone and is not strongly negative. It is commonly used for children and pets, or self-deprecatingly. The na-adjective form {食|く}いしん{坊|ぼう}な is also used as a modifier. The word {食|く}いしん{坊|ぼう}{万歳|ばんざい} was the title of a long-running TV cooking show.\n\nSIMILAR WORDS:\n{大食|おおぐ}い (big eater) and {食|た}べ{過|す}ぎ (overeating) focus on quantity, while {食|く}いしん{坊|ぼう} emphasizes the love of eating itself.\n\nCOMMON COLLOCATIONS:\n- {食|く}いしん{坊|ぼう}な{子|こ} (greedy child)\n- {食|く}いしん{坊|ぼう}の{猫|ねこ} (greedy cat)\n- {食|く}いしん{坊|ぼう}{万歳|ばんざい} (name of a famous TV show)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08341_oogui",
+      "reading": "おおぐい",
+      "headword": "{大食|おおぐ}い",
+      "label": "big eater"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15230_bishokuka",
+      "reading": "びしょくか",
+      "headword": "{美食家|びしょくか}",
+      "label": "gourmet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16900_shoushoku",
+      "reading": "しょうしょく",
+      "headword": "{小食|しょうしょく}",
+      "label": "light eater"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23259_kuiiji",
+      "reading": "くいいじ",
+      "headword": "{食|く}い{意地|いじ}",
+      "label": "greed for food"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29352_taishokukan",
+      "reading": "たいしょくかん",
+      "headword": "{大食漢|たいしょくかん}",
+      "label": "big eater"
+    }
+  ],
   "metadata": {
     "created": "2026-03-11T01:01:51Z",
-    "modified": "2026-03-11T01:01:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["personality", "food"]
+      "semantic": [
+        "personality",
+        "food"
+      ]
     }
   }
 }

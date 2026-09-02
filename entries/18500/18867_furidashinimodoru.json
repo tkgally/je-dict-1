@@ -19,7 +19,9 @@
       "english": "The plan went back to square one.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18867_furidashinimodoru_ex2",
@@ -27,7 +29,9 @@
       "english": "A mistake was found, and we had to go back to the beginning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18867_furidashinimodoru_ex3",
@@ -35,21 +39,49 @@
       "english": "Even though we spent half a year preparing, a budget issue sent everything back to square one.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "ETYMOLOGY:\nFrom the start square ({振|ふ}り{出|だ}し) in traditional Japanese board games like sugoroku, where landing on certain squares sends you back to the beginning.\n\nUSAGE:\nUsed when progress is completely lost and one must restart from zero. Carries a sense of frustration or disappointment.\n\nCOMMON COLLOCATIONS:\n- {全|すべ}てが{振|ふ}り{出|だ}しに{戻|もど}る (everything goes back to square one)\n- {振|ふ}り{出|だ}しに{戻|もど}ることになる (end up going back to the start)\n- また{振|ふ}り{出|だ}しに{戻|もど}る (go back to square one again)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19276_furidasu",
+      "reading": "ふりだす",
+      "headword": "{振|ふ}り{出|だ}す",
+      "label": "to issue (a check)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19685_hakushinimodosu",
+      "reading": "はくしにもどす",
+      "headword": "{白紙|はくし}に{戻|もど}す",
+      "label": "to go back to square one"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21793_hakushinimodoru",
+      "reading": "はくしにもどる",
+      "headword": "{白紙|はくし}に{戻|もど}る",
+      "label": "to go back to square one"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:15:16Z",
-    "modified": "2026-03-23T06:15:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["expression"]
+      "semantic": [
+        "expression"
+      ]
     }
   }
 }

@@ -78,11 +78,61 @@
       ]
     }
   ],
-  "notes": "{宇宙|うちゅう} covers two related meanings: the entire universe/cosmos (sense 1) and outer space beyond Earth's atmosphere (sense 2). In everyday conversation, sense 2 (outer space) is far more common.\n\nCOMMON COMPOUNDS:\n- {宇宙|うちゅう}⟦{飛行士|ひこうし}→飛行士：19383_hikoushi⟧: astronaut\n- ⟦{宇宙|うちゅう}{船|せん}→宇宙船：26020_uchuusen⟧: spaceship\n- {宇宙|うちゅう}⟦ステーション→ステーション：27940_suteeshon⟧: space station\n- {宇宙|うちゅう}⟦{開発|かいはつ}→開発：06746_kaihatsu⟧: space development\n- {宇宙|うちゅう}⟦{人|じん}→〜人：09849_jin⟧: alien, space person\n- {宇宙|うちゅう}⟦{空間|くうかん}→空間：13754_kuukan⟧: outer space (more technical)\n\nWORD FORMATION:\n{宇|う} + {宙|ちゅう} — both characters relate to vastness and space.\n\nRELATED:\n- ⟦{銀河|ぎんが}→銀河：05051_ginga⟧: galaxy\n- ⟦{太陽系|たいようけい}→太陽系：12216_taiyoukei⟧: solar system\n- ⟦{天体|てんたい}→天体：06361_tentai⟧: celestial body",
-  "cross_references": [],
+  "notes": "{宇宙|うちゅう} covers two related meanings: the entire universe/cosmos (sense 1) and outer space beyond Earth's atmosphere (sense 2). In everyday conversation, sense 2 (outer space) is far more common.\n\nCOMPOUNDS:\n- {宇宙|うちゅう}⟦{飛行士|ひこうし}→飛行士：19383_hikoushi⟧: astronaut\n- ⟦{宇宙|うちゅう}{船|せん}→宇宙船：26020_uchuusen⟧: spaceship\n- {宇宙|うちゅう}⟦ステーション→ステーション：27940_suteeshon⟧: space station\n- {宇宙|うちゅう}⟦{開発|かいはつ}→開発：06746_kaihatsu⟧: space development\n- {宇宙|うちゅう}⟦{人|じん}→〜人：09849_jin⟧: alien, space person\n- {宇宙|うちゅう}⟦{空間|くうかん}→空間：13754_kuukan⟧: outer space (more technical)\n\nFORMS:\n{宇|う} + {宙|ちゅう} — both characters relate to vastness and space.\n\nRELATED WORDS:\n- ⟦{銀河|ぎんが}→銀河：05051_ginga⟧: galaxy\n- ⟦{太陽系|たいようけい}→太陽系：12216_taiyoukei⟧: solar system\n- ⟦{天体|てんたい}→天体：06361_tentai⟧: celestial body",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05051_ginga",
+      "reading": "ぎんが",
+      "headword": "{銀河|ぎんが}",
+      "label": "galaxy"
+    },
+    {
+      "type": "related",
+      "target_id": "12216_taiyoukei",
+      "reading": "たいようけい",
+      "headword": "{太陽系|たいようけい}",
+      "label": "solar system"
+    },
+    {
+      "type": "related",
+      "target_id": "06361_tentai",
+      "reading": "てんたい",
+      "headword": "{天体|てんたい}",
+      "label": "celestial body"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06149_shinrabanshou",
+      "reading": "しんらばんしょう",
+      "headword": "{森羅万象|しんらばんしょう}",
+      "label": "all things in the universe"
+    },
+    {
+      "type": "related",
+      "target_id": "19504_kokuu",
+      "reading": "こくう",
+      "headword": "{虚空|こくう}",
+      "label": "empty sky"
+    },
+    {
+      "type": "related",
+      "target_id": "25705_gingakei",
+      "reading": "ぎんがけい",
+      "headword": "{銀河系|ぎんがけい}",
+      "label": "Milky Way galaxy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28464_ten",
+      "reading": "てん",
+      "headword": "{天|てん}",
+      "label": "heaven"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:30:00Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

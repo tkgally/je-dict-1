@@ -17,7 +17,9 @@
       "id": "26235_chuushajoudai_ex1",
       "japanese": "{駐車場代|ちゅうしゃじょうだい}はいくらですか。",
       "english": "How much is the parking fee?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26235_chuushajoudai_ex2",
       "japanese": "{都心|としん}は{駐車場代|ちゅうしゃじょうだい}が{高|たか}い。",
       "english": "Parking fees are expensive in the city center.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,51 @@
       "id": "26235_chuushajoudai_ex3",
       "japanese": "{月極|つきぎめ}の{駐車場代|ちゅうしゃじょうだい}だけで{毎月|まいつき}{三万円|さんまんえん}もかかる。",
       "english": "The monthly parking fee alone costs 30,000 yen per month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {駐車場|ちゅうしゃじょう} (parking lot) and {代|だい} (charge, fee — the same suffix as in {電気代|でんきだい}, {食事代|しょくじだい}). A practical term that comes up frequently in daily life and travel in Japan.\n\nIn urban Japan, especially Tokyo, monthly parking ({月極|つきぎめ}{駐車場|ちゅうしゃじょう}) can cost as much as apartment rent in some areas. This is one reason why car ownership rates are lower in major cities.\n\nCOMMON COLLOCATIONS:\n- {駐車場代|ちゅうしゃじょうだい}がかかる: parking costs money\n- {駐車場代|ちゅうしゃじょうだい}を{払|はら}う: to pay for parking\n- {月極|つきぎめ}の{駐車場代|ちゅうしゃじょうだい}: monthly parking fee\n- {駐車場代|ちゅうしゃじょうだい}{込|こ}み: parking fee included\n\nSIMILAR WORDS:\n- {駐車料金|ちゅうしゃりょうきん}: parking charge — more formal, often on signs\n- {駐車場|ちゅうしゃじょう}: parking lot — the place itself\n- {路上駐車|ろじょうちゅうしゃ}: street parking — parking on the road",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07815_chuusharyoukin",
+      "reading": "ちゅうしゃりょうきん",
+      "headword": "{駐車料金|ちゅうしゃりょうきん}",
+      "label": "parking charge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24063_rojouchuusha",
+      "reading": "ろじょうちゅうしゃ",
+      "headword": "{路上駐車|ろじょうちゅうしゃ}",
+      "label": "street parking"
+    },
+    {
+      "type": "related",
+      "target_id": "06575_kanrihi",
+      "reading": "かんりひ",
+      "headword": "{管理費|かんりひ}",
+      "label": "management fee"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-04-30T12:21:56Z",
-    "modified": "2026-04-30T12:21:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

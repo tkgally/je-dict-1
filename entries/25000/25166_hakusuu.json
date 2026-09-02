@@ -17,7 +17,9 @@
       "id": "25166_hakusuu_ex1",
       "japanese": "{泊数|はくすう}を{選|えら}んでください。",
       "english": "Please select the number of nights.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25166_hakusuu_ex2",
       "japanese": "{泊数|はくすう}が{増|ふ}えると{料金|りょうきん}も{上|あ}がります。",
       "english": "The price goes up as the number of nights increases.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,37 @@
       "id": "25166_hakusuu_ex3",
       "japanese": "{予約|よやく}サイトで{泊数|はくすう}と{人数|にんずう}を{入力|にゅうりょく}すると、{空室|くうしつ}が{表示|ひょうじ}されます。",
       "english": "When you enter the number of nights and number of guests on the booking site, available rooms are displayed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {泊|はく} (overnight stay; counter for nights) and {数|すう} (number, count). Frequently encountered on hotel booking websites, travel brochures, and reservation forms.\n\nCOMMON COLLOCATIONS:\n- {泊数|はくすう}を{変更|へんこう}する: to change the number of nights\n- {泊数|はくすう}に{応|おう}じて: according to the number of nights\n- {最低|さいてい}{泊数|はくすう}: minimum number of nights\n- {連泊|れんぱく}{泊数|はくすう}: consecutive nights stayed\n\nSIMILAR WORDS:\n- {宿泊日数|しゅくはくにっすう}: number of accommodation days — a more formal synonym using {日数|にっすう} (number of days)\n- {滞在期間|たいざいきかん}: length of stay — broader term covering the entire stay, not just nights",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20474_taizaikikan",
+      "reading": "たいざいきかん",
+      "headword": "{滞在期間|たいざいきかん}",
+      "label": "length of stay"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["travel", "number"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "travel",
+        "number"
+      ]
     },
     "created": "2026-04-23T13:21:08Z",
-    "modified": "2026-04-23T13:21:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "30017_akapera_ex1",
       "japanese": "アカペラで{歌|うた}う。",
       "english": "To sing a cappella.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30017_akapera_ex2",
       "japanese": "{大学|だいがく}でアカペラサークルに{入|はい}っている。",
       "english": "I'm in an a cappella club at university.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "30017_akapera_ex3",
       "japanese": "{楽器|がっき}を{使|つか}わず、{五人|ごにん}のアカペラだけであの{名曲|めいきょく}を{再現|さいげん}した。",
       "english": "Without using any instruments, the five of them recreated that famous song with a cappella alone.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The everyday word for unaccompanied singing, common in pop, choral, and school-club contexts. Frequently used with で to mean \"a cappella\" adverbially.\n\nCOMMON COLLOCATIONS:\n- アカペラで{歌|うた}う: to sing a cappella\n- アカペラサークル: a cappella club\n- アカペラグループ: a cappella group\n\nSIMILAR WORDS:\n- {無伴奏|むばんそう}: unaccompanied — the more formal, classical-music equivalent",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30016_mubansou",
+      "reading": "むばんそう",
+      "headword": "{無伴奏|むばんそう}",
+      "label": "unaccompanied"
+    },
+    {
+      "type": "related",
+      "target_id": "06566_bansou",
+      "reading": "ばんそう",
+      "headword": "{伴奏|ばんそう}",
+      "label": "musical accompaniment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["music"],
+      "politeness": "plain",
+      "semantic": [
+        "music"
+      ],
       "domain": []
     },
     "created": "2026-07-21T18:18:56Z",
-    "modified": "2026-07-21T18:18:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

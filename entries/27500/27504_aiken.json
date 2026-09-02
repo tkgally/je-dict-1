@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {愛|あい} (love) + {犬|いぬ} (dog). Used to refer to a specific dog with affection, not as a general term for dogs.\n\nCOMMON COLLOCATIONS:\n- {愛犬|あいけん}{家|か}: dog lover\n- {愛犬|あいけん}と{暮|く}らす: to live with one's dog\n- {愛犬|あいけん}を{亡|な}くす: to lose one's dog (death)\n- {愛犬|あいけん}の{散歩|さんぽ}: walking one's dog\n\nSIMILAR WORDS:\n- {愛猫|あいびょう}: beloved cat — parallel form for cats\n- {飼|か}い{犬|いぬ}: a dog one keeps — neutral, factual, no warmth implied\n- ペット: pet — generic, covers any species",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19020_kaiinu",
+      "reading": "かいいぬ",
+      "headword": "{飼|か}い{犬|いぬ}",
+      "label": "a dog one keeps"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02959_petto",
+      "reading": "ぺっと",
+      "headword": "ペット",
+      "label": "pet"
+    },
+    {
+      "type": "related",
+      "target_id": "17894_shitsunaiken",
+      "reading": "しつないけん",
+      "headword": "{室内犬|しつないけん}",
+      "label": "indoor dog"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "animal-general"
       ],
       "domain": []
     },
     "created": "2026-05-13T03:07:05Z",
-    "modified": "2026-08-07T15:50:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

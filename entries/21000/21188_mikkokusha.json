@@ -19,7 +19,9 @@
       "english": "Who is the informer?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21188_mikkokusha_ex2",
@@ -27,7 +29,9 @@
       "english": "The criminal was caught thanks to the informant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21188_mikkokusha_ex3",
@@ -35,21 +39,42 @@
       "english": "It was suspected that there was an informer within the organization.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{密告|みっこく} means 'secret report' or 'tip-off,' and {者|しゃ} means 'person.' A {密告者|みっこくしゃ} is someone who secretly informs on others, whether to police, authorities, or rival groups. The word appears frequently in crime fiction, historical dramas, and discussions of espionage.\n\nCOMMON COLLOCATIONS:\n- {密告者|みっこくしゃ}を{探|さが}す (to search for the informer)\n- {密告者|みっこくしゃ}を{守|まも}る (to protect the informant)\n- {匿名|とくめい}の{密告者|みっこくしゃ} (anonymous informant)\n\nSIMILAR WORDS:\n- {内通者|ないつうしゃ} — mole, inside informant (emphasizes being an insider who leaks information)\n- {告発者|こくはつしゃ} — whistleblower, accuser (more neutral or positive; someone who exposes wrongdoing)\n- スパイ — spy (broader term; someone who gathers secret information)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30337_naitsuusha",
+      "reading": "ないつうしゃ",
+      "headword": "{内通者|ないつうしゃ}",
+      "label": "mole, inside informant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18236_supai",
+      "reading": "すぱい",
+      "headword": "スパイ",
+      "label": "spy (broader term"
+    }
+  ],
   "metadata": {
     "created": "2026-03-31T22:20:13Z",
-    "modified": "2026-03-31T22:20:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["society"]
+      "semantic": [
+        "society"
+      ]
     }
   }
 }

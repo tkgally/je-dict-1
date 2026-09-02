@@ -3,7 +3,7 @@
   "headword": "{粉状|ふんじょう}",
   "reading": "ふんじょう",
   "romaji": "funjou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "powdered form; powdery state",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A compound of {粉|ふん} (powder) and {状|じょう} (form, state). The ～{状|じょう} suffix is productive for describing the form or shape of substances: {液状|えきじょう} (liquid form), {固形状|こけいじょう} (solid form), {粒状|りゅうじょう} (granular form).\n\nUsed as a noun modifier with の to describe things in powder form.\n\nCOMMON COLLOCATIONS:\n- {粉状|ふんじょう}にする: to make into powder\n- {粉状|ふんじょう}の{薬|くすり}: powdered medicine\n- {粉状|ふんじょう}の{食品|しょくひん}: powdered food product\n- {粉状|ふんじょう}に{加工|かこう}する: to process into powder form\n\nSIMILAR WORDS:\n- {粉末|ふんまつ}: powder — the substance itself, rather than the state\n- {粒状|りゅうじょう}: granular form — slightly larger particles than powder\n- {液状|えきじょう}: liquid form — the opposite physical state",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13772_funmatsu",
+      "reading": "ふんまつ",
+      "headword": "{粉末|ふんまつ}",
+      "label": "powder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16659_ryuujou",
+      "reading": "りゅうじょう",
+      "headword": "{粒状|りゅうじょう}",
+      "label": "granular form"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19189_ekijou",
+      "reading": "えきじょう",
+      "headword": "{液状|えきじょう}",
+      "label": "liquid form"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,11 +76,13 @@
         "noun",
         "adjective-no"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "science"
       ]
     },
     "created": "2026-04-23T13:30:21Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "28542_shindenzu_ex1",
       "japanese": "{心電図|しんでんず}をとった。",
       "english": "I had an ECG taken.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28542_shindenzu_ex2",
       "japanese": "{心電図|しんでんず}に{異常|いじょう}は{見|み}られなかった。",
       "english": "No abnormalities were seen on the ECG.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "28542_shindenzu_ex3",
       "japanese": "{健康|けんこう}{診断|しんだん}では{毎年|まいとし}{心電図|しんでんず}を{測定|そくてい}することになっている。",
       "english": "At my annual health check, I'm scheduled to have my ECG taken every year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {心|しん} (heart) + {電|でん} (electrical) + {図|ず} (chart). Standard term in medical contexts and health-screening paperwork.\n\nCOMMON COLLOCATIONS:\n- {心電図|しんでんず}をとる: to take an ECG\n- {心電図|しんでんず}{検査|けんさ}: ECG examination\n- {心電図|しんでんず}に{異常|いじょう}がある: to have abnormalities on the ECG\n- {心電図|しんでんず}の{波形|はけい}: ECG waveform\n\nSIMILAR WORDS:\n- {脳波|のうは}: brain waves; EEG — the analogous test for the brain\n- {心電計|しんでんけい}: electrocardiograph — the machine that produces the {心電図|しんでんず}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17440_nouha",
+      "reading": "のうは",
+      "headword": "{脳波|のうは}",
+      "label": "brain waves"
+    },
+    {
+      "type": "related",
+      "target_id": "07104_fuseimyaku",
+      "reading": "ふせいみゃく",
+      "headword": "{不整脈|ふせいみゃく}",
+      "label": "arrhythmia"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["health"],
-      "domain": ["medical"]
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-06-01T04:07:37Z",
-    "modified": "2026-06-01T04:07:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

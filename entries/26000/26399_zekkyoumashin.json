@@ -17,7 +17,9 @@
       "id": "26399_zekkyoumashin_ex1",
       "japanese": "{絶叫|ぜっきょう}マシンは{苦手|にがて}です。",
       "english": "I'm not good with thrill rides.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26399_zekkyoumashin_ex2",
       "japanese": "この{遊園地|ゆうえんち}には{絶叫|ぜっきょう}マシンが{十|じゅう}もある。",
       "english": "This amusement park has as many as ten thrill rides.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,52 @@
       "id": "26399_zekkyoumashin_ex3",
       "japanese": "{友達|ともだち}に{無理|むり}やり{絶叫|ぜっきょう}マシンに{乗|の}せられて、{泣|な}きそうになった。",
       "english": "My friend forced me onto a thrill ride, and I nearly cried.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A Japanese-coined compound combining {絶叫|ぜっきょう} (screaming) with the English loanword マシン (machine). This term is the standard way to refer to extreme amusement park rides in Japanese, encompassing roller coasters, drop towers, pendulum rides, and similar attractions.\n\nCOMMON COLLOCATIONS:\n- {絶叫|ぜっきょう}マシンに{乗|の}る: to ride a thrill ride\n- {絶叫|ぜっきょう}マシンが{好|す}き: to like thrill rides\n- {絶叫|ぜっきょう}マシンが{苦手|にがて}: to be bad with thrill rides\n- {世界一|せかいいち}の{絶叫|ぜっきょう}マシン: the world's greatest thrill ride\n\nCULTURAL NOTE:\nJapan has world-renowned thrill rides, particularly at Fuji-Q Highland ({富士急|ふじきゅう}ハイランド) and Universal Studios Japan. Discussing one's tolerance for 絶叫マシン is a common conversation topic, especially when planning group outings to amusement parks.\n\nSIMILAR WORDS:\n- ジェットコースター: roller coaster — a specific type of thrill ride\n- アトラクション: attraction — a broader term for any amusement park ride or show\n- {乗|の}り{物|もの}: ride — generic term for things you ride",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23535_jettokoosutaa",
+      "reading": "じぇっとこーすたー",
+      "headword": "ジェットコースター",
+      "label": "roller coaster"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23519_atorakushon",
+      "reading": "あとらくしょん",
+      "headword": "アトラクション",
+      "label": "attraction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01694_norimono",
+      "reading": "のりもの",
+      "headword": "{乗|の}り{物|もの}",
+      "label": "ride"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["entertainment", "leisure"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "entertainment",
+        "leisure"
+      ]
     },
     "created": "2026-05-01T14:08:47Z",
-    "modified": "2026-05-01T14:08:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

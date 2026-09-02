@@ -17,7 +17,9 @@
       "id": "29901_kirigirisu_ex1",
       "japanese": "{草原|そうげん}でキリギリスが{鳴|な}いている。",
       "english": "A katydid is chirping in the meadow.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29901_kirigirisu_ex2",
       "japanese": "キリギリスは{緑色|みどりいろ}で{草|くさ}によく{似|に}ている。",
       "english": "Katydids are green and closely resemble grass.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29901_kirigirisu_ex3",
       "japanese": "アリとキリギリスの{話|はなし}は、{働|はたら}くことの{大切|たいせつ}さを{教|おし}えてくれる。",
       "english": "The story of the ant and the grasshopper teaches us the importance of working.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A katydid or bush cricket, a summer grassland insect prized for its song. In the Japanese title of Aesop's fable アリとキリギリス ('The Ant and the Grasshopper'), キリギリス stands for the English 'grasshopper'.\n\nCOMMON COLLOCATIONS:\n- キリギリスが{鳴|な}く: a katydid chirps\n- アリとキリギリス: the ant and the grasshopper (Aesop's fable)\n\nSIMILAR WORDS:\n- コオロギ: cricket — a related insect that chirps in autumn evenings\n- バッタ: grasshopper/locust — a jumping relative that does not sing to attract mates",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29902_koorogi",
+      "reading": "こおろぎ",
+      "headword": "コオロギ",
+      "label": "cricket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06515_batta",
+      "reading": "ばった",
+      "headword": "バッタ",
+      "label": "grasshopper/locust"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["animal-insect"],
+      "politeness": "plain",
+      "semantic": [
+        "animal-insect"
+      ],
       "domain": []
     },
     "created": "2026-07-16T21:18:06Z",
-    "modified": "2026-07-16T21:18:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

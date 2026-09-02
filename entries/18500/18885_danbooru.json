@@ -19,7 +19,9 @@
       "english": "Please flatten the cardboard boxes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18885_danbooru_ex2",
@@ -27,7 +29,9 @@
       "english": "I need ten cardboard boxes for packing for the move.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18885_danbooru_ex3",
@@ -35,21 +39,56 @@
       "english": "When you shop online, cardboard boxes keep piling up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nAn everyday word. In Japan, used cardboard must be flattened and bundled for recycling on designated collection days. Often shortened to {段|だん}ボール{箱|ばこ} when emphasizing the box form.\n\nCOMMON COLLOCATIONS:\n- {段|だん}ボールを{畳|たた}む (to flatten cardboard)\n- {段|だん}ボール{箱|ばこ} (cardboard box)\n- {段|だん}ボールに{詰|つ}める (to pack into a cardboard box)\n- {段|だん}ボールを{捨|す}てる (to throw out cardboard)\n\nCULTURAL NOTE:\nCardboard recycling is a standard part of Japanese waste separation ({ゴミ}{分別|ぶんべつ}). Flattened cardboard is typically collected on specific days separate from other recyclables.",
-  "cross_references": [],
+  "notes": "USAGE:\nAn everyday word. In Japan, used cardboard must be flattened and bundled for recycling on designated collection days. Often shortened to {段|だん}ボール{箱|ばこ} when emphasizing the box form.\n\nCOMMON COLLOCATIONS:\n- {段|だん}ボールを{畳|たた}む (to flatten cardboard)\n- {段|だん}ボール{箱|ばこ} (cardboard box)\n- {段|だん}ボールに{詰|つ}める (to pack into a cardboard box)\n- {段|だん}ボールを{捨|す}てる (to throw out cardboard)\n\nCULTURAL NOTE:\nCardboard recycling is a standard part of Japanese waste separation (ゴミ{分別|ぶんべつ}). Flattened cardboard is typically collected on specific days separate from other recyclables.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07937_konpou",
+      "reading": "こんぽう",
+      "headword": "{梱包|こんぽう}",
+      "label": "packing"
+    },
+    {
+      "type": "related",
+      "target_id": "07938_nizukuri",
+      "reading": "にづくり",
+      "headword": "{荷造|にづく}り",
+      "label": "packing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19286_atsugami",
+      "reading": "あつがみ",
+      "headword": "{厚紙|あつがみ}",
+      "label": "cardboard"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30141_konpouzai",
+      "reading": "こんぽうざい",
+      "headword": "{梱包材|こんぽうざい}",
+      "label": "packing material"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:23:08Z",
-    "modified": "2026-03-23T06:23:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{改作|かいさく}",
   "reading": "かいさく",
   "romaji": "kaisaku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "adaptation; rewriting; reworking",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Composed of {改|かい} (reform, change) and {作|さく} (work, production). Refers specifically to reworking an existing creative work rather than creating something from scratch. Most commonly used in literary, theatrical, and film contexts.\n\nCOMMON COLLOCATIONS:\n- {小説|しょうせつ}の{改作|かいさく}: adaptation of a novel\n- {舞台|ぶたい}{用|よう}に{改作|かいさく}する: to adapt for the stage\n- {改作|かいさく}{版|ばん}: adapted version\n- {原作|げんさく}を{改作|かいさく}する: to adapt an original work\n\nSIMILAR WORDS:\n- {翻案|ほんあん}: adaptation — emphasizes creative reinterpretation, often freer than {改作|かいさく}\n- {脚色|きゃくしょく}: dramatization — specifically adapting for stage or screen\n- {改編|かいへん}: reorganization; adaptation — broader, can apply to organizational restructuring as well as creative works",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13923_honan",
+      "reading": "ほんあん",
+      "headword": "{翻案|ほんあん}",
+      "label": "adaptation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18162_kyakushoku",
+      "reading": "きゃくしょく",
+      "headword": "{脚色|きゃくしょく}",
+      "label": "dramatization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17556_kaihen",
+      "reading": "かいへん",
+      "headword": "{改編|かいへん}",
+      "label": "reorganization"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +76,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "art",
         "culture"
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-30T16:20:14Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

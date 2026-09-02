@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{給料|きゅうりょう} is the general term for salary or wages paid to employees.\n\nCOMMON PATTERNS:\n- {給料|きゅうりょう}⟦を→を：00422_wo⟧⟦もらう→もらう：00520_morau⟧: to receive a salary\n- {給料|きゅうりょう}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧: salary goes up\n- {給料|きゅうりょう}⟦が→が：00051_ga⟧⟦{下|さ}がる→下がる：01188_sagaru⟧: salary goes down\n- {給料|きゅうりょう}⟦から→から：00504_kara⟧⟦{引|ひ}かれる→引く：01978_hiku⟧: to be deducted from salary\n\nRELATED TERMS:\n- ⟦{月給|げっきゅう}→月給：04692_gekkyuu⟧: monthly salary\n- ⟦{年収|ねんしゅう}→年収：05504_nenshuu⟧: annual income\n- ⟦{時給|じきゅう}→時給：04693_jikyuu⟧: hourly wage\n- ⟦{給料日|きゅうりょうび}→給料日：27561_kyuuryoubi⟧: payday\n- ⟦{手取|てど}り→手取り：06833_tedori⟧: take-home pay (after deductions)\n- ⟦{額面|がくめん}→額面：07073_gakumen⟧: gross salary (before deductions)\n\nCULTURAL NOTE:\nIn Japan, many companies pay salaries on the 25th of each month. The expression ⟦{給料日前|きゅうりょうびまえ}→給料日前：noentry⟧ (before payday) often implies being short on money.",
+  "notes": "{給料|きゅうりょう} is the general term for salary or wages paid to employees.\n\nCOMMON PATTERNS:\n- {給料|きゅうりょう}⟦を→を：00422_wo⟧⟦もらう→もらう：00520_morau⟧: to receive a salary\n- {給料|きゅうりょう}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧: salary goes up\n- {給料|きゅうりょう}⟦が→が：00051_ga⟧⟦{下|さ}がる→下がる：01188_sagaru⟧: salary goes down\n- {給料|きゅうりょう}⟦から→から：00504_kara⟧⟦{引|ひ}かれる→引く：01978_hiku⟧: to be deducted from salary\n\nRELATED WORDS:\n- ⟦{月給|げっきゅう}→月給：04692_gekkyuu⟧: monthly salary\n- ⟦{年収|ねんしゅう}→年収：05504_nenshuu⟧: annual income\n- ⟦{時給|じきゅう}→時給：04693_jikyuu⟧: hourly wage\n- ⟦{給料日|きゅうりょうび}→給料日：27561_kyuuryoubi⟧: payday\n- ⟦{手取|てど}り→手取り：06833_tedori⟧: take-home pay (after deductions)\n- ⟦{額面|がくめん}→額面：07073_gakumen⟧: gross salary (before deductions)\n\nCULTURAL NOTE:\nIn Japan, many companies pay salaries on the 25th of each month. The expression ⟦{給料日前|きゅうりょうびまえ}→給料日前：noentry⟧ (before payday) often implies being short on money.",
   "cross_references": [
     {
       "type": "synonym",
@@ -78,11 +78,67 @@
       "reading": "きゅうよ",
       "headword": "{給与|きゅうよ}",
       "label": "pay (formal/official term)"
+    },
+    {
+      "type": "related",
+      "target_id": "04692_gekkyuu",
+      "reading": "げっきゅう",
+      "headword": "{月給|げっきゅう}",
+      "label": "monthly salary"
+    },
+    {
+      "type": "related",
+      "target_id": "05504_nenshuu",
+      "reading": "ねんしゅう",
+      "headword": "{年収|ねんしゅう}",
+      "label": "annual income"
+    },
+    {
+      "type": "related",
+      "target_id": "04693_jikyuu",
+      "reading": "じきゅう",
+      "headword": "{時給|じきゅう}",
+      "label": "hourly wage"
+    },
+    {
+      "type": "related",
+      "target_id": "06833_tedori",
+      "reading": "てどり",
+      "headword": "{手取|てど}り",
+      "label": "take-home pay"
+    },
+    {
+      "type": "related",
+      "target_id": "07073_gakumen",
+      "reading": "がくめん",
+      "headword": "{額面|がくめん}",
+      "label": "gross salary"
+    },
+    {
+      "type": "related",
+      "target_id": "10205_genkyuu",
+      "reading": "げんきゅう",
+      "headword": "{減給|げんきゅう}",
+      "label": "salary cut, pay reduction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12999_gesshuu",
+      "reading": "げっしゅう",
+      "headword": "{月収|げっしゅう}",
+      "label": "monthly income"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19672_nenpou",
+      "reading": "ねんぽう",
+      "headword": "{年俸|ねんぽう}",
+      "label": "annual salary"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:02:22Z",
-    "modified": "2026-08-24T12:31:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

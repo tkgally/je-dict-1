@@ -19,7 +19,9 @@
       "english": "We throw beans on Setsubun.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14275_mamemaki_ex2",
@@ -27,7 +29,9 @@
       "english": "Children love bean-throwing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14275_mamemaki_ex3",
@@ -35,21 +39,42 @@
       "english": "The whole family threw beans while chanting 'Demons out, fortune in!'",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Compound of {豆|まめ} (beans) + まき (scattering, from {撒|ま}く). A key Setsubun tradition held on February 3.\n\nDuring {豆|まめ}まき, people throw roasted soybeans ({炒|い}り{豆|まめ}) while shouting 「{鬼|おに}は{外|そと}、{福|ふく}は{内|うち}」 (Demons out, fortune in!). Afterward, each person eats the number of beans corresponding to their age (or age plus one) for good luck.\n\nAt temples and shrines, celebrities or public figures often perform {豆|まめ}まき as a large public event.\n\nCOMMON COLLOCATIONS:\n- {豆|まめ}まきをする (to do bean-throwing)\n- {節分|せつぶん}の{豆|まめ}まき (Setsubun bean-throwing)\n\nRELATED WORDS:\n- {節分|せつぶん}: the day before the start of spring (February 3)\n- {鬼|おに}: demon, ogre (the target of the bean-throwing)\n- {恵方巻|えほうま}き: lucky direction sushi roll (another Setsubun tradition)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18971_setsubun",
+      "reading": "せつぶん",
+      "headword": "{節分|せつぶん}",
+      "label": "the day before the start of spring"
+    },
+    {
+      "type": "related",
+      "target_id": "02184_oni",
+      "reading": "おに",
+      "headword": "{鬼|おに}",
+      "label": "demon, ogre"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T09:21:55Z",
-    "modified": "2026-02-28T09:21:55Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     }
   }
 }

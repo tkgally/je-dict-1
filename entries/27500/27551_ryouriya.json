@@ -46,6 +46,43 @@
   ],
   "notes": "Compound of {料理|りょうり} (cuisine, cooking) + {屋|や} (shop, establishment). Typically refers to traditional Japanese restaurants, often with a slightly old-fashioned or refined feel. レストラン is preferred for Western-style restaurants.\n\nCOMMON COLLOCATIONS:\n- {老舗|しにせ}の{料理屋|りょうりや}: long-established restaurant\n- {高級|こうきゅう}{料理屋|りょうりや}: high-end restaurant\n- {小料理屋|こりょうりや}: small Japanese restaurant (intimate, often counter-style)\n- {日本|にほん}{料理屋|りょうりや}: Japanese-cuisine restaurant\n\nSIMILAR WORDS:\n- レストラン: restaurant — Western-style or general\n- {食堂|しょくどう}: cafeteria; simple eatery\n- {居酒屋|いざかや}: Japanese-style pub/bar\n- {割烹|かっぽう}: traditional Japanese restaurant (more upscale)\n- {料亭|りょうてい}: high-end traditional Japanese restaurant",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01048_resutoran",
+      "reading": "れすとらん",
+      "headword": "レストラン",
+      "label": "restaurant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01054_shokudou",
+      "reading": "しょくどう",
+      "headword": "{食堂|しょくどう}",
+      "label": "cafeteria"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09635_izakaya",
+      "reading": "いざかや",
+      "headword": "{居酒屋|いざかや}",
+      "label": "Japanese-style pub/bar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11922_kappou",
+      "reading": "かっぽう",
+      "headword": "{割烹|かっぽう}",
+      "label": "traditional Japanese restaurant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21710_ryoutei",
+      "reading": "りょうてい",
+      "headword": "{料亭|りょうてい}",
+      "label": "high-end traditional Japanese restaurant"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +90,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food",
         "business"
@@ -61,6 +98,6 @@
       "domain": []
     },
     "created": "2026-05-14T01:41:20Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

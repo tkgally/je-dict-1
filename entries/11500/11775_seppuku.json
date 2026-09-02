@@ -2,7 +2,7 @@
   "id": "11775_seppuku",
   "headword": "{切腹|せっぷく}",
   "reading": "せっぷく",
-  "part_of_speech": "noun; noun (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "seppuku, ritual suicide by disembowelment",
   "conjugation": {
     "type": "suru",
@@ -133,11 +133,19 @@
       ]
     }
   ],
-  "notes": "Also known as {腹切|はらき}り, though {切腹|せっぷく} is the more formal and respectful term. {腹切|はらき}り is the same kanji in reversed order and is the term more commonly used in Western languages.\n\nThe practice was formalized during the Edo period and could be either voluntary (to preserve honor) or ordered (as punishment). A {介錯人|かいしゃくにん} (second) would typically deliver a finishing blow.\n\nCOMMON COLLOCATIONS:\n・{切腹|せっぷく}する (to commit seppuku)\n・{切腹|せっぷく}を{命|めい}じる (to order seppuku)\n・{切腹|せっぷく}を{申|もう}しつける (to be sentenced to seppuku)",
-  "cross_references": [],
+  "notes": "Also known as {腹切|はらき}り, though {切腹|せっぷく} is the more formal and respectful term. {腹切|はらき}り is the same kanji in reversed order and is the term more commonly used in Western languages.\n\nThe practice was formalized during the Edo period and could be either voluntary (to preserve honor) or ordered (as punishment). A {介錯人|かいしゃくにん} (second) would typically deliver a finishing blow.\n\nCOMMON COLLOCATIONS:\n- {切腹|せっぷく}する (to commit seppuku)\n- {切腹|せっぷく}を{命|めい}じる (to order seppuku)\n- {切腹|せっぷく}を{申|もう}しつける (to be sentenced to seppuku)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15377_jigai",
+      "reading": "じがい",
+      "headword": "{自害|じがい}",
+      "label": "suicide (historical/literary)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T23:15:01Z",
-    "modified": "2026-08-15T21:25:25Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

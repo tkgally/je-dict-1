@@ -25,7 +25,7 @@
     },
     {
       "id": "26702_rokkaku_ex2",
-      "japanese": "{六角|ろっかく}レンチで{ネジ|ねじ}を{締|し}めてください。",
+      "japanese": "{六角|ろっかく}レンチでネジを{締|し}めてください。",
       "english": "Please tighten the screw with a hex wrench.",
       "sense_numbers": [
         1
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {六|ろく} (six) and {角|かく} (angle/corner). Refers to both the geometric shape (hexagon) and the property of being six-sided (hexagonal).\n\nCOMMON COLLOCATIONS:\n- {六角|ろっかく}レンチ: hex wrench / Allen key\n- {六角|ろっかく}{形|けい}: hexagonal shape\n- {六角|ろっかく}ボルト: hex bolt\n- {六角|ろっかく}{柱|ちゅう}: hexagonal prism\n- {正|せい}{六角|ろっかく}{形|けい}: regular hexagon\n\nRELATED TERMS:\n- {三角|さんかく}: triangle — three angles\n- {四角|しかく}: square/rectangle — four angles\n- {五角|ごかく}: pentagon — five angles\n- {八角|はっかく}: octagon — eight angles",
-  "cross_references": [],
+  "notes": "Composed of {六|ろく} (six) and {角|かく} (angle/corner). Refers to both the geometric shape (hexagon) and the property of being six-sided (hexagonal).\n\nCOMMON COLLOCATIONS:\n- {六角|ろっかく}レンチ: hex wrench / Allen key\n- {六角|ろっかく}{形|けい}: hexagonal shape\n- {六角|ろっかく}ボルト: hex bolt\n- {六角|ろっかく}{柱|ちゅう}: hexagonal prism\n- {正|せい}{六角|ろっかく}{形|けい}: regular hexagon\n\nRELATED WORDS:\n- {三角|さんかく}: triangle — three angles\n- {四角|しかく}: square/rectangle — four angles\n- {五角|ごかく}: pentagon — five angles\n- {八角|はっかく}: octagon — eight angles",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04177_sankaku",
+      "reading": "さんかく",
+      "headword": "{三角|さんかく}",
+      "label": "triangle"
+    },
+    {
+      "type": "related",
+      "target_id": "02836_shikaku",
+      "reading": "しかく",
+      "headword": "{四角|しかく}",
+      "label": "square/rectangle"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "descriptive",
         "number"
       ]
     },
     "created": "2026-05-04T14:10:28Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

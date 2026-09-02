@@ -17,7 +17,9 @@
       "id": "23488_monka_ex1",
       "japanese": "{有名|ゆうめい}な{師匠|ししょう}の{門下|もんか}に{入|はい}る。",
       "english": "Become a disciple of a famous master.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23488_monka_ex2",
       "japanese": "この{流派|りゅうは}の{門下|もんか}には{多|おお}くの{名人|めいじん}がいる。",
       "english": "This school has many accomplished practitioners among its disciples.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "23488_monka_ex3",
       "japanese": "{先生|せんせい}の{門下|もんか}として{長年|ながねん}{修行|しゅぎょう}を{積|つ}み、ようやく{免許皆伝|めんきょかいでん}を{得|え}た。",
       "english": "After many years of training as a disciple of the teacher, I finally received full certification.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {門|もん} (gate) and {下|か} (under). Literally \"under the gate,\" evoking the image of students gathered at the entrance to a master's school. The word carries a sense of formal apprenticeship and lineage. It is commonly used in traditional Japanese arts such as {茶道|さどう} (tea ceremony), {華道|かどう} (flower arrangement), {書道|しょどう} (calligraphy), martial arts, and {落語|らくご} (comic storytelling).\n\nCOMMON COLLOCATIONS:\n- {門下|もんか}に{入|はい}る: to become a disciple\n- {門下|もんか}{生|せい}: pupil, student (of a master)\n- {門下|もんか}を{育|そだ}てる: to train disciples\n\nSIMILAR WORDS:\n- {弟子|でし}: disciple, apprentice — more general and commonly used in everyday conversation\n- {門弟|もんてい}: pupil, disciple — a close synonym, slightly more literary\n- {門人|もんじん}: follower, student — similar nuance but slightly more formal\n- {塾生|じゅくせい}: student at a private school or academy — refers to students at a specific institution rather than under a personal master",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03986_deshi",
+      "reading": "でし",
+      "headword": "{弟子|でし}",
+      "label": "disciple, apprentice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24440_monjin",
+      "reading": "もんじん",
+      "headword": "{門人|もんじん}",
+      "label": "follower, student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22255_ichimon",
+      "reading": "いちもん",
+      "headword": "{一門|いちもん}",
+      "label": "family"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["culture", "education"]
+      "semantic": [
+        "culture",
+        "education"
+      ]
     },
     "created": "2026-04-12T10:27:51Z",
-    "modified": "2026-04-12T10:27:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

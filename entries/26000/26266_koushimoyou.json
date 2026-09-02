@@ -44,11 +44,28 @@
     }
   ],
   "notes": "Describes a pattern of intersecting horizontal and vertical lines forming squares or rectangles. The term covers everything from fabric plaids to architectural lattice designs to chess boards.\n\nCOMMON COLLOCATIONS:\n- {格子模様|こうしもよう}の{布|ぬの}: checkered fabric\n- {格子模様|こうしもよう}のネクタイ: plaid necktie\n- {細|こま}かい{格子模様|こうしもよう}: fine grid pattern\n\nSIMILAR WORDS:\n- チェック{柄|がら}: check pattern (loanword; very common in fashion contexts)\n- {市松模様|いちまつもよう}: checkerboard pattern (traditional Japanese term; alternating colored squares like a chessboard)\n- {縞模様|しまもよう}: stripe pattern (lines running in one direction only)\n- {格子|こうし}: lattice, grid (the structural element itself, without {模様|もよう})\n\nCULTURAL NOTE:\nThe {格子|こうし} (lattice) is a significant motif in Japanese culture, seen in traditional wooden window screens ({格子窓|こうしまど}), shop fronts, and textile patterns. The related {市松模様|いちまつもよう} gained worldwide recognition as the design motif for the Tokyo 2020 Olympics.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30129_ichimatsumoyou",
+      "reading": "いちまつもよう",
+      "headword": "{市松模様|いちまつもよう}",
+      "label": "checkerboard pattern (traditional…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26237_shimamoyou",
+      "reading": "しまもよう",
+      "headword": "{縞模様|しまもよう}",
+      "label": "stripe pattern"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "descriptive",
         "art"
@@ -58,6 +75,6 @@
       ]
     },
     "created": "2026-04-30T14:22:19Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

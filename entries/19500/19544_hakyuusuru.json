@@ -3,7 +3,7 @@
   "headword": "{波及|はきゅう}する",
   "reading": "はきゅうする",
   "romaji": "hakyuusuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to spread to; to ripple out; to have repercussions",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,36 @@
   ],
   "notes": "Written with {波|は} (wave) + {及|きゅう} (reach), evoking the image of waves spreading outward. Frequently used in news, economics, and formal writing to describe how effects or consequences extend beyond their original scope.\n\nCOMMON COLLOCATIONS:\n- {波及|はきゅう}{効果|こうか} — ripple effect, spillover effect\n- ～に{波及|はきゅう}する — to spread to ～\n- {影響|えいきょう}が{波及|はきゅう}する — the influence spreads\n- {広|ひろ}く{波及|はきゅう}する — to spread widely\n- {波及|はきゅう}を{防|ふせ}ぐ — to prevent spreading\n\nSIMILAR WORDS:\n- {広|ひろ}がる — to spread; more general and casual\n- {及|およ}ぶ — to reach, to extend to; formal, broader meaning\n- {飛|と}び{火|ひ}する — to spread (like fire); implies unwanted spread of problems\n- {連鎖|れんさ}する — to chain-react; emphasizes a sequential domino effect",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01980_hirogaru",
+      "reading": "ひろがる",
+      "headword": "{広|ひろ}がる",
+      "label": "to spread"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01921_oyobu",
+      "reading": "およぶ",
+      "headword": "{及|およ}ぶ",
+      "label": "to reach, to extend to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10633_tobihi",
+      "reading": "とびひ",
+      "headword": "{飛|と}び{火|ひ}",
+      "label": "to spread"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10903_rensa",
+      "reading": "れんさ",
+      "headword": "{連鎖|れんさ}",
+      "label": "to chain-react"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -154,6 +184,6 @@
       ]
     },
     "created": "2026-03-26T04:23:40Z",
-    "modified": "2026-03-26T04:23:40Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

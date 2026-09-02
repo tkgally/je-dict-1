@@ -17,7 +17,9 @@
       "id": "28844_isoasobi_ex1",
       "japanese": "{子供|こども}たちと{磯遊|いそあそ}びをした。",
       "english": "I went tide pooling with the kids.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28844_isoasobi_ex2",
       "japanese": "{磯遊|いそあそ}びは{春|はる}の{大潮|おおしお}の{時|とき}がおすすめだ。",
       "english": "Spring spring tides are the best time for tide pool exploration.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,53 @@
       "id": "28844_isoasobi_ex3",
       "japanese": "{磯遊|いそあそ}びをする{時|とき}は、{滑|すべ}りにくい{靴|くつ}と{帽子|ぼうし}を{忘|わす}れずに。",
       "english": "When you go tide pooling, don't forget non-slip shoes and a hat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {磯|いそ} (rocky shore) + {遊|あそ}び (play). A classic seasonal activity, traditionally enjoyed around the spring {大潮|おおしお} (spring tides) when low tide exposes the most tide pools.\n\nCOMMON COLLOCATIONS:\n- {磯遊|いそあそ}びをする: to go tide pooling\n- {磯遊|いそあそ}びに{出|で}かける: to go out for tide pooling\n- {磯遊|いそあそ}びスポット: tide-pooling spot\n\nSIMILAR WORDS:\n- {潮干狩|しおひが}り: clam digging — specifically gathering shellfish on tidal flats\n- {海水浴|かいすいよく}: swimming at the beach — at a sandy beach, not rocky shore\n- {磯釣|いそづ}り: shore fishing — fishing from rocky shores",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18507_shiohigari",
+      "reading": "しおひがり",
+      "headword": "{潮干狩|しおひが}り",
+      "label": "clam digging"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10972_kaisuiyoku",
+      "reading": "かいすいよく",
+      "headword": "{海水浴|かいすいよく}",
+      "label": "swimming at the beach"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28845_isozuri",
+      "reading": "いそづり",
+      "headword": "{磯釣|いそづ}り",
+      "label": "shore fishing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["leisure", "nature"],
+      "politeness": "plain",
+      "semantic": [
+        "leisure",
+        "nature"
+      ],
       "domain": []
     },
     "created": "2026-06-06T03:07:57Z",
-    "modified": "2026-06-06T03:07:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

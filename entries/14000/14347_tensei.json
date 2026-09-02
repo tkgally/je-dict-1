@@ -3,7 +3,7 @@
   "id": "14347_tensei",
   "headword": "{転生|てんせい}",
   "reading": "てんせい",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reincarnation; rebirth; transmigration",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,25 @@
     }
   ],
   "notes": "Compound of {転|てん} (to turn, to change) + {生|せい} (life, birth). Used as a suru-verb: {転生|てんせい}する (to be reincarnated).\n\nCOMMON COLLOCATIONS:\n- {異世界|いせかい}{転生|てんせい} (reincarnation in another world — isekai genre)\n- {転生|てんせい}する (to be reincarnated)\n- {転生|てんせい}{先|さき} (the life/world one is reincarnated into)\n\nCULTURAL NOTE:\nWhile originally a Buddhist concept, {転生|てんせい} has become hugely popular in modern Japanese pop culture through the \"isekai\" (another-world) genre of light novels, manga, and anime, where protagonists die and are reborn in fantasy worlds. The related term {輪廻|りんね} (samsara) is more formal and philosophical.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18438_isekai",
+      "reading": "いせかい",
+      "headword": "{異世界|いせかい}",
+      "label": "another world"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27681_umarekawari",
+      "reading": "うまれかわり",
+      "headword": "{生|う}まれ{変|か}わり",
+      "label": "reincarnation"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T12:15:50Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

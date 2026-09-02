@@ -3,7 +3,7 @@
   "headword": "{着用|ちゃくよう}する",
   "reading": "ちゃくようする",
   "romaji": "chakuyousuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to wear; to put on; to have on",
   "definitions": [
     {
@@ -55,7 +55,29 @@
     }
   ],
   "notes": "More formal than {着|き}る or かぶる. Primarily seen on signs, in regulations, and in official announcements. Became extremely common during the COVID-19 pandemic in the phrase マスク{着用|ちゃくよう} (mask wearing).\n\nCOMMON COLLOCATIONS:\n- マスク{着用|ちゃくよう}: mask wearing\n- {着用|ちゃくよう}{義務|ぎむ}: obligation to wear\n- ヘルメット{着用|ちゃくよう}: helmet wearing\n- {着用|ちゃくよう}{率|りつ}: wearing rate\n- {常時|じょうじ}{着用|ちゃくよう}: wearing at all times\n\nSIMILAR WORDS:\n- {着|き}る: to wear (clothes) — everyday term for wearing clothing on the torso\n- かぶる: to wear (on head) — everyday term for hats, helmets\n- {身|み}に{着|つ}ける: to wear, carry on one's person — includes accessories and items",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00541_kiru",
+      "reading": "きる",
+      "headword": "{着|き}る",
+      "label": "to wear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00709_kaburu",
+      "reading": "かぶる",
+      "headword": "かぶる",
+      "label": "to wear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22176_souchakusuru",
+      "reading": "そうちゃくする",
+      "headword": "{装着|そうちゃく}する",
+      "label": "to equip"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,7 +93,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T13:12:43Z",
-    "modified": "2026-05-05T13:12:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

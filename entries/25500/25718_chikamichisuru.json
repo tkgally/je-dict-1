@@ -3,7 +3,7 @@
   "headword": "{近道|ちかみち}する",
   "reading": "ちかみちする",
   "romaji": "chikamichisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to take a shortcut",
   "definitions": [
     {
@@ -80,7 +80,22 @@
     }
   ],
   "notes": "{近道|ちかみち} (shortcut) + する. The noun {近道|ちかみち} can stand alone (meaning a shorter path), and when combined with する, it becomes a verb meaning to take that shorter path.\n\nCOMMON COLLOCATIONS:\n- {近道|ちかみち}を{通|とお}る — go via a shortcut\n- {近道|ちかみち}はない — there are no shortcuts\n- {成功|せいこう}への{近道|ちかみち} — shortcut to success\n- {近道|ちかみち}を{教|おし}える — show someone a shortcut\n\nSIMILAR WORDS:\n- {抜|ぬ}け{道|みち} — back road; loophole — a hidden or lesser-known route; also means a way around rules\n- {回|まわ}り{道|みち} — detour; roundabout way — the opposite: a longer route",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08370_nukemichi",
+      "reading": "ぬけみち",
+      "headword": "{抜|ぬ}け{道|みち}",
+      "label": "back road"
+    },
+    {
+      "type": "antonym",
+      "target_id": "15766_mawarimichi",
+      "reading": "まわりみち",
+      "headword": "{回|まわ}り{道|みち}",
+      "label": "detour"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -89,6 +104,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "travel"
@@ -96,7 +113,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-26T16:34:17Z",
-    "modified": "2026-04-26T16:34:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

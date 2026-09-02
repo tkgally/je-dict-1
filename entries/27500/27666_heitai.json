@@ -17,7 +17,9 @@
       "id": "27666_heitai_ex1",
       "japanese": "{兵隊|へいたい}になる。",
       "english": "To become a soldier.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27666_heitai_ex2",
       "japanese": "{大勢|おおぜい}の{兵隊|へいたい}が{町|まち}を{行進|こうしん}した。",
       "english": "A large number of soldiers marched through the town.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "27666_heitai_ex3",
       "japanese": "{祖父|そふ}は{若|わか}いころ{兵隊|へいたい}として{戦争|せんそう}に{行|い}った。",
       "english": "My grandfather went to war as a soldier when he was young.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "An everyday word for a soldier, particularly a rank-and-file enlisted man. It can name an individual or, used collectively, a body of troops. It carries a slightly old-fashioned, wartime flavor.\n\nCOMMON COLLOCATIONS:\n- {兵隊|へいたい}になる: to become a soldier\n- {兵隊|へいたい}に{行|い}く: to go off to military service\n\nSIMILAR WORDS:\n- {軍人|ぐんじん}: military serviceman — more formal; includes officers\n- {兵士|へいし}: soldier — neutral, standard term, common in news and writing\n- {自衛隊員|じえいたいいん}: member of the Self-Defense Forces — the modern term for Japan's forces",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02994_gunjin",
+      "reading": "ぐんじん",
+      "headword": "{軍人|ぐんじん}",
+      "label": "military serviceman"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11680_heishi",
+      "reading": "へいし",
+      "headword": "{兵士|へいし}",
+      "label": "soldier"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     },
     "created": "2026-05-16T03:10:15Z",
-    "modified": "2026-05-16T03:10:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

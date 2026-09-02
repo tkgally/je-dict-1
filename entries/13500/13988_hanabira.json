@@ -19,7 +19,9 @@
       "english": "Cherry blossom petals are falling.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13988_hanabira_ex2",
@@ -27,7 +29,9 @@
       "english": "Petals danced up on the wind.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13988_hanabira_ex3",
@@ -35,21 +39,42 @@
       "english": "The petals floating on the water's surface formed a beautiful pattern.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOne of the most common nature words in Japanese. {桜|さくら}の{花|はな}びら (cherry blossom petals) is an iconic image in Japanese culture and poetry. The word is native Japanese (wago) and is usually written in kana for びら, though the kanji {花弁|はなびら} exists.\n\nCOMMON COLLOCATIONS:\n- {花|はな}びらが{散|ち}る: petals fall/scatter\n- {花|はな}びらが{舞|ま}う: petals flutter/dance\n- {花|はな}びらが{浮|う}かぶ: petals float\n- {桜|さくら}の{花|はな}びら: cherry blossom petals\n- {薔薇|ばら}の{花|はな}びら: rose petals",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30519_gaku",
+      "reading": "がく",
+      "headword": "萼",
+      "label": "calyx"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30526_gakuhen",
+      "reading": "がくへん",
+      "headword": "{萼片|がくへん}",
+      "label": "sepal"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T08:34:30Z",
-    "modified": "2026-02-27T08:34:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["plant-flower"]
+      "semantic": [
+        "plant-flower"
+      ]
     }
   }
 }

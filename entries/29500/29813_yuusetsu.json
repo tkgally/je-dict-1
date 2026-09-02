@@ -17,7 +17,9 @@
       "id": "29813_yuusetsu_ex1",
       "japanese": "{春|はる}の{融雪|ゆうせつ}が{始|はじ}まった。",
       "english": "The spring thaw has begun.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29813_yuusetsu_ex2",
       "japanese": "{道路|どうろ}に{融雪|ゆうせつ}パイプが{埋|う}めてある。",
       "english": "Snow-melting pipes are buried in the road.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29813_yuusetsu_ex3",
       "japanese": "{融雪|ゆうせつ}による{増水|ぞうすい}で{川|かわ}が{危険|きけん}になることがある。",
       "english": "Rising water from snowmelt can make rivers dangerous.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The melting of accumulated snow. In snowy regions it often refers to engineered snow removal: {融雪|ゆうせつ}{装置|そうち} (snow-melting systems) spray warm water or run heat beneath roads.\n\nCOMMON COLLOCATIONS:\n- {融雪|ゆうせつ}{剤|ざい}: snow-melting agent (de-icer)\n- {融雪|ゆうせつ}{装置|そうち}: snow-melting equipment\n- {融雪|ゆうせつ}{期|き}: the thaw season\n\nSIMILAR WORDS:\n- {雪解|ゆきど}け: thaw — the everyday word for snow melting in spring",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08558_yukidoke",
+      "reading": "ゆきどけ",
+      "headword": "{雪解|ゆきど}け",
+      "label": "thaw"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24038_johyou",
+      "reading": "じょひょう",
+      "headword": "{除氷|じょひょう}",
+      "label": "de-icing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["weather"],
+      "politeness": "plain",
+      "semantic": [
+        "weather"
+      ],
       "domain": []
     },
     "created": "2026-07-13T12:21:17Z",
-    "modified": "2026-07-13T12:21:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

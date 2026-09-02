@@ -19,7 +19,9 @@
       "english": "To submit a notification to a government office.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17120_kankouchou_ex2",
@@ -27,7 +29,9 @@
       "english": "Government offices are closed on weekends.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17120_kankouchou_ex3",
@@ -35,7 +39,9 @@
       "english": "Procedures at government offices are often complex and time-consuming.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal term used in administrative, legal, and business contexts. {官|かん} refers to national government and {公|こう} refers to local public bodies. Together, {官公庁|かんこうちょう} covers all levels of government.\n\nCOMMON COLLOCATIONS:\n- {官公庁|かんこうちょう}の{手続|てつづ}き (government office procedures)\n- {官公庁|かんこうちょう}{向|む}け (for government agencies)\n- {官公庁|かんこうちょう}に{勤|つと}める (to work at a government office)\n\nSIMILAR WORDS:\n- {役所|やくしょ}: government office, city hall — more colloquial, usually local\n- {省庁|しょうちょう}: ministries and agencies — specifically central government\n- {行政|ぎょうせい}{機関|きかん}: administrative body — formal, broader term",
@@ -46,18 +52,37 @@
       "reading": "やくしょ",
       "headword": "{役所|やくしょ}",
       "label": "government office (colloquial)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13703_shouchou",
+      "reading": "しょうちょう",
+      "headword": "{省庁|しょうちょう}",
+      "label": "ministries and agencies"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30276_gyouseikikan",
+      "reading": "ぎょうせいきかん",
+      "headword": "{行政機関|ぎょうせいきかん}",
+      "label": "administrative body"
     }
   ],
   "metadata": {
     "created": "2026-03-16T00:47:42Z",
-    "modified": "2026-05-05T09:06:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["society", "politics"]
+      "semantic": [
+        "society",
+        "politics"
+      ]
     }
   }
 }

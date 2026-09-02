@@ -3,7 +3,7 @@
   "headword": "{見切|みき}る",
   "reading": "みきる",
   "romaji": "mikiru",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to give up on; to abandon; to see through",
   "definitions": [
     {
@@ -79,8 +79,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb from {見|み}る (to see) + {切|き}る (to cut/complete). The {切|き}る ending adds the nuance of doing something decisively or completely — here, seeing something through to a final conclusion.\n\nTRANSITIVITY:\n- Type: Transitive ({他動詞|たどうし})\n- No standard intransitive pair\n- Pattern: XがYを{見切|みき}る\n\nASPECT:\n- Type: Telic (has endpoint)\n- {見切|みき}っている = has given up on / has already judged\n\nCOMMON COLLOCATIONS:\n- {見切|みき}りをつける: to give up on; to cut one's losses (closely related set phrase)\n- {在庫|ざいこ}を{見切|みき}る: to write off inventory\n- {見切|みき}り{品|ひん}: clearance items; marked-down goods\n- {見切|みき}り{発車|はっしゃ}: jumping the gun; starting before things are ready\n\nSIMILAR WORDS:\n- {諦|あきら}める: to give up — focuses on emotional resignation; {見切|みき}る implies a more rational, decisive judgment\n- {見極|みきわ}める: to ascertain; to discern — focuses on carefully determining the truth; less decisive than {見切|みき}る\n- {見限|みかぎ}る: to give up on; to abandon — very close synonym to sense 1, with a slightly stronger nuance of disgust or disappointment",
+  "notes": "A compound verb from {見|み}る (to see) + {切|き}る (to cut/complete). The {切|き}る ending adds the nuance of doing something decisively or completely — here, seeing something through to a final conclusion.\n\nTRANSITIVITY:\n- Type: Transitive ({他動詞|たどうし})\n- No standard intransitive pair\n- Pattern: XがYを{見切|みき}る\n\nASPECT (ている):\n- Type: Telic (has endpoint)\n- {見切|みき}っている = has given up on / has already judged\n\nCOMMON COLLOCATIONS:\n- {見切|みき}りをつける: to give up on; to cut one's losses (closely related set phrase)\n- {在庫|ざいこ}を{見切|みき}る: to write off inventory\n- {見切|みき}り{品|ひん}: clearance items; marked-down goods\n- {見切|みき}り{発車|はっしゃ}: jumping the gun; starting before things are ready\n\nSIMILAR WORDS:\n- {諦|あきら}める: to give up — focuses on emotional resignation; {見切|みき}る implies a more rational, decisive judgment\n- {見極|みきわ}める: to ascertain; to discern — focuses on carefully determining the truth; less decisive than {見切|みき}る\n- {見限|みかぎ}る: to give up on; to abandon — very close synonym to sense 1, with a slightly stronger nuance of disgust or disappointment",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01813_akirameru",
+      "reading": "あきらめる",
+      "headword": "{諦|あきら}める",
+      "label": "to give up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07171_mikiwameru",
+      "reading": "みきわめる",
+      "headword": "{見極|みきわ}める",
+      "label": "to ascertain"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -97,7 +113,7 @@
       "domain": []
     },
     "created": "2026-05-07T16:13:00Z",
-    "modified": "2026-05-07T16:13:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

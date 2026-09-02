@@ -3,7 +3,7 @@
   "id": "13249_chinmoku",
   "headword": "{沈黙|ちんもく}",
   "reading": "ちんもく",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "silence",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,25 @@
     }
   ],
   "notes": "USAGE:\n{沈黙|ちんもく} implies a heavier, more deliberate silence than simply being quiet ({静|しず}か). It often suggests an intentional refusal to speak, an awkward pause, or a meaningful absence of words. As a する verb, {沈黙|ちんもく}する means \"to fall silent\" or \"to remain silent.\"\n\nCOMMON COLLOCATIONS:\n- {沈黙|ちんもく}を{守|まも}る: to keep silent, to maintain silence\n- {沈黙|ちんもく}を{破|やぶ}る: to break the silence\n- {沈黙|ちんもく}が{続|つづ}く: silence continues\n- {重|おも}い{沈黙|ちんもく}: heavy silence\n- {気|き}まずい{沈黙|ちんもく}: awkward silence\n- {沈黙|ちんもく}は{金|きん}: silence is golden (proverb)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02287_damaru",
+      "reading": "だまる",
+      "headword": "{黙|だま}る",
+      "label": "to be silent, to say nothing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20341_seishuku",
+      "reading": "せいしゅく",
+      "headword": "{静粛|せいしゅく}",
+      "label": "silent"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T07:23:04Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

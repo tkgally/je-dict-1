@@ -3,7 +3,7 @@
   "headword": "{反逆的|はんぎゃくてき}",
   "reading": "はんぎゃくてき",
   "romaji": "hangyakuteki",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "rebellious; treasonous; subversive",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "25953_hangyakuteki_ex1",
       "japanese": "{反逆的|はんぎゃくてき}な{精神|せいしん}を{持|も}つ{若者|わかもの}たち。",
       "english": "Young people with a rebellious spirit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25953_hangyakuteki_ex2",
       "japanese": "その{芸術家|げいじゅつか}は{社会|しゃかい}の{常識|じょうしき}に{対|たい}して{反逆的|はんぎゃくてき}な{作品|さくひん}を{生|う}み{出|だ}した。",
       "english": "The artist produced works that were subversive toward society's conventions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,52 @@
       "id": "25953_hangyakuteki_ex3",
       "japanese": "{彼|かれ}の{反逆的|はんぎゃくてき}な{言動|げんどう}は{周囲|しゅうい}から{警戒|けいかい}されていた。",
       "english": "His rebellious words and actions made those around him wary.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A na-adjective formed from {反逆|はんぎゃく} (rebellion; treason) plus {的|てき}. Stronger than mere resistance — implies going against the fundamental order or authority. Can be used positively (for revolutionary artists, free thinkers) or negatively (for traitors, troublemakers).\n\nCOMMON COLLOCATIONS:\n- {反逆的|はんぎゃくてき}な{精神|せいしん}: rebellious spirit\n- {反逆的|はんぎゃくてき}な{態度|たいど}: rebellious attitude\n- {反逆的|はんぎゃくてき}な{思想|しそう}: subversive ideology\n- {反逆的|はんぎゃくてき}な{行動|こうどう}: insurgent actions\n\nSIMILAR WORDS:\n- {反抗的|はんこうてき}: defiant; disobedient — less extreme, often used for teenage rebellion or workplace pushback\n- {革命的|かくめいてき}: revolutionary — focuses on transformative change rather than opposition itself\n- {破壊的|はかいてき}: destructive — emphasizes tearing down rather than rebelling against authority",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21089_hankouteki",
+      "reading": "はんこうてき",
+      "headword": "{反抗的|はんこうてき}",
+      "label": "defiant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06374_kakumeiteki",
+      "reading": "かくめいてき",
+      "headword": "{革命的|かくめいてき}",
+      "label": "revolutionary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06134_hakaiteki",
+      "reading": "はかいてき",
+      "headword": "{破壊的|はかいてき}",
+      "label": "destructive"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
-      "semantic": ["personality", "politics"]
+      "pos": [
+        "adjective-na"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "personality",
+        "politics"
+      ]
     },
     "created": "2026-04-28T13:35:29Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "19072_igiwotonaeru_ex1",
       "japanese": "{異議|いぎ}を{唱|とな}える{人|ひと}はいませんか。",
       "english": "Does anyone have an objection?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19072_igiwotonaeru_ex2",
       "japanese": "{住民|じゅうみん}たちが{計画|けいかく}に{異議|いぎ}を{唱|とな}えた。",
       "english": "The residents voiced objections to the plan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "19072_igiwotonaeru_ex3",
       "japanese": "{彼|かれ}は{会議|かいぎ}で{一人|ひとり}だけ{異議|いぎ}を{唱|とな}えたが、{多数決|たすうけつ}で{否決|ひけつ}された。",
       "english": "He was the only one to raise an objection at the meeting, but it was voted down by majority.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A set phrase combining {異議|いぎ} (objection/dissent) + を + {唱|とな}える (to advocate/voice). Common in meetings, legal proceedings, and public discourse. In parliamentary or meeting settings, the chair may ask {異議|いぎ}はありませんか (Are there any objections?) or {異議|いぎ}なしと{認|みと}めます (No objections noted; motion carried). Related expressions: {異議|いぎ}を{申|もう}し{立|た}てる (to file an objection, more formal/legal), {反対|はんたい}する (to oppose, more general).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26923_kougisuru",
+      "reading": "こうぎする",
+      "headword": "{抗議|こうぎ}する",
+      "label": "to protest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26951_monomousu",
+      "reading": "ものもうす",
+      "headword": "{物申|ものもう}す",
+      "label": "to speak up"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-03-24T04:47:54Z",
-    "modified": "2026-03-24T04:47:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

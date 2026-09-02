@@ -19,7 +19,9 @@
       "english": "I bought an LCD TV.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16387_ekishou_ex2",
@@ -27,7 +29,9 @@
       "english": "The LCD screen got cracked.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16387_ekishou_ex3",
@@ -35,21 +39,42 @@
       "english": "This LCD monitor has high color accuracy, making it suitable for photo editing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{液晶|えきしょう} is commonly used as a prefix modifier for display-related words. In casual speech, it often refers to the screen itself rather than the material.\n\nCOMMON COLLOCATIONS:\n- {液晶|えきしょう}テレビ (LCD television)\n- {液晶|えきしょう}{画面|がめん} (LCD screen)\n- {液晶|えきしょう}モニター (LCD monitor)\n- {液晶|えきしょう}ディスプレイ (LCD display)\n- {液晶|えきしょう}パネル (LCD panel)\n\nSIMILAR WORDS:\n{有機|ゆうき}EL refers to OLED (organic light-emitting diode), a newer display technology that competes with LCD.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05105_monitaa",
+      "reading": "もにたー",
+      "headword": "モニター",
+      "label": "monitor, display"
+    },
+    {
+      "type": "related",
+      "target_id": "23232_ekishoupaneru",
+      "reading": "えきしょうぱねる",
+      "headword": "{液晶|えきしょう}パネル",
+      "label": "liquid crystal display panel"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T05:14:56Z",
-    "modified": "2026-03-12T05:14:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["electronics"]
+      "semantic": [
+        "electronics"
+      ]
     }
   }
 }

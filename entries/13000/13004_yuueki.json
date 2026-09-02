@@ -19,7 +19,9 @@
       "english": "Thank you for the useful information.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13004_yuueki_ex2",
@@ -27,7 +29,9 @@
       "english": "This training session was extremely beneficial.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13004_yuueki_ex3",
@@ -35,7 +39,9 @@
       "english": "I want to support organizations that carry out activities beneficial to society.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA somewhat formal word. Used as a na-adjective ({有益|ゆうえき}な) or with に: {社会|しゃかい}にとって{有益|ゆうえき} (beneficial to society). Common in written language, reports, and academic contexts.\n\nCOMMON COLLOCATIONS:\n- {有益|ゆうえき}な{情報|じょうほう}: useful information\n- {有益|ゆうえき}な{経験|けいけん}: beneficial experience\n- {有益|ゆうえき}な{助言|じょげん}: helpful advice\n- {社会|しゃかい}に{有益|ゆうえき}: beneficial to society\n\nSIMILAR WORDS:\n- {有用|ゆうよう}: useful (similar, slightly more practical)\n- {有意義|ゆういぎ}: meaningful, worthwhile (emphasizes significance)\n- {役|やく}に{立|た}つ: useful, helpful (everyday expression)",
@@ -53,18 +59,51 @@
       "reading": "ゆういぎ",
       "headword": "{有意義|ゆういぎ}",
       "label": "meaningful, worthwhile"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01130_yakunitatsu",
+      "reading": "やくにたつ",
+      "headword": "{役|やく}に{立|た}つ",
+      "label": "useful, helpful"
+    },
+    {
+      "type": "related",
+      "target_id": "03168_yakudatsu",
+      "reading": "やくだつ",
+      "headword": "{役立|やくだ}つ",
+      "label": "to be useful, to be helpful"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03651_yuuri",
+      "reading": "ゆうり",
+      "headword": "{有利|ゆうり}",
+      "label": "advantageous, favorable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20423_mimiyori",
+      "reading": "みみより",
+      "headword": "{耳寄|みみよ}り",
+      "label": "welcome (news)"
     }
   ],
   "metadata": {
     "created": "2026-02-23T05:15:43Z",
-    "modified": "2026-04-28T04:13:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["evaluation"]
+      "semantic": [
+        "evaluation"
+      ]
     }
   }
 }

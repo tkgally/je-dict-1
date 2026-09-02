@@ -2,7 +2,7 @@
   "id": "02324_yuderu",
   "headword": "{茹|ゆ}でる",
   "reading": "ゆでる",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to boil (food)",
   "conjugation": {
     "type": "ichidan",
@@ -148,11 +148,39 @@
       "reading": "むす",
       "headword": "{蒸|む}す",
       "label": "steam"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01123_yaku",
+      "reading": "やく",
+      "headword": "{焼|や}く",
+      "label": "to grill, bake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02127_taku",
+      "reading": "たく",
+      "headword": "{炊|た}く",
+      "label": "to cook (rice), to boil"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08572_yudooshi",
+      "reading": "ゆどおし",
+      "headword": "{湯通|ゆどお}し",
+      "label": "blanching"
+    },
+    {
+      "type": "related",
+      "target_id": "14992_yugiri",
+      "reading": "ゆぎり",
+      "headword": "{湯切|ゆぎ}り",
+      "label": "draining hot water (from noodles)"
     }
   ],
   "metadata": {
     "created": "2026-01-09T08:23:41Z",
-    "modified": "2026-08-01T12:20:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

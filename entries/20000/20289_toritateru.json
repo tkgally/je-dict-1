@@ -3,7 +3,7 @@
   "headword": "{取|と}り{立|た}てる",
   "reading": "とりたてる",
   "romaji": "toritateru",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to collect forcibly; to single out; to promote",
   "conjugation": {
     "type": "ichidan",
@@ -206,6 +206,29 @@
   ],
   "notes": "Compound verb of {取|と}る (to take) + {立|た}てる (to set up, establish). The three senses are quite distinct in usage.\n\nUSAGE:\nSense 1 (debt collection) is common in financial and legal contexts, and in stories about loan sharks. Sense 2 is very frequently used in the adverbial form {取|と}り{立|た}てて, almost always in negative constructions ({取|と}り{立|た}てて～ない = \"nothing particularly...\"). Sense 3 (promote) has a somewhat historical or literary feel and implies elevating someone from a lower position.\n\nCOMMON COLLOCATIONS:\n- {借金|しゃっきん}を{取|と}り{立|た}てる — to collect a debt\n- {取|と}り{立|た}てて～ない — nothing particularly...\n- {人材|じんざい}を{取|と}り{立|た}てる — to promote talent\n- {厳|きび}しく{取|と}り{立|た}てる — to collect harshly\n\nSIMILAR WORDS:\n- {徴収|ちょうしゅう}する — to collect, levy (official/institutional, more neutral)\n- {催促|さいそく}する — to press, urge (less aggressive than {取|と}り{立|た}てる)\n- {抜擢|ばってき}する — to promote, single out for advancement (more formal, positive nuance)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16563_choushuu",
+      "reading": "ちょうしゅう",
+      "headword": "{徴収|ちょうしゅう}",
+      "label": "to collect, levy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26806_saisokusuru",
+      "reading": "さいそくする",
+      "headword": "{催促|さいそく}する",
+      "label": "to press, urge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07946_batteki",
+      "reading": "ばってき",
+      "headword": "{抜擢|ばってき}",
+      "label": "to promote, single out for advancement"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -221,6 +244,6 @@
       "verb_class": "ichidan"
     },
     "created": "2026-03-28T19:24:08Z",
-    "modified": "2026-03-28T19:24:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

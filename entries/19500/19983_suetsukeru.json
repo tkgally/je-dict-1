@@ -3,7 +3,7 @@
   "headword": "{据|す}え{付|つ}ける",
   "reading": "すえつける",
   "romaji": "suetsukeru",
-  "part_of_speech": "ichidan verb, transitive",
+  "part_of_speech": "verb (ichidan, transitive)",
   "gloss": "to install; to set up; to fix in place",
   "conjugation": {
     "type": "ichidan",
@@ -136,6 +136,29 @@
   ],
   "notes": "A compound verb of {据|す}える (to set, to place) and {付|つ}ける (to attach). Describes the permanent installation or mounting of something heavy or fixed, as opposed to simply placing a portable item.\n\nTRANSITIVITY:\nTransitive. The intransitive counterpart is {据|す}え{付|つ}く, though it is rarely used.\n\nCOMMON COLLOCATIONS:\n- エアコンを{据|す}え{付|つ}ける — to install an air conditioner\n- {機械|きかい}を{据|す}え{付|つ}ける — to install machinery\n- {据|す}え{付|つ}け{工事|こうじ} — installation work\n- {据|す}え{付|つ}け{型|がた} — built-in type, fixed type\n\nSIMILAR WORDS:\n- {設置|せっち}する — to set up, to install (more formal/official)\n- {取|と}り{付|つ}ける — to attach, to install (broader usage, including smaller items)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26989_secchisuru",
+      "reading": "せっちする",
+      "headword": "{設置|せっち}する",
+      "label": "to set up, to install"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06797_toritsukeru",
+      "reading": "とりつける",
+      "headword": "{取|と}り{付|つ}ける",
+      "label": "to attach, to install"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19647_koteisuru",
+      "reading": "こていする",
+      "headword": "{固定|こてい}する",
+      "label": "to fix"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +174,6 @@
       "verb_class": "ichidan"
     },
     "created": "2026-03-28T04:34:49Z",
-    "modified": "2026-03-28T04:34:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

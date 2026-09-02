@@ -3,7 +3,7 @@
   "id": "20862_toru",
   "headword": "{採|と}る",
   "reading": "とる",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to gather; to pick; to collect; to adopt",
   "conjugation": {
     "type": "godan",
@@ -182,11 +182,25 @@
       "description": "撮る — to take (photos)",
       "type": "related",
       "target_id": "00760_toru"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03207_shuukaku",
+      "reading": "しゅうかく",
+      "headword": "{収穫|しゅうかく}",
+      "label": "to harvest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04563_saiyou",
+      "reading": "さいよう",
+      "headword": "{採用|さいよう}",
+      "label": "to adopt, to employ"
     }
   ],
   "metadata": {
     "created": "2026-03-30T18:30:32Z",
-    "modified": "2026-06-19T03:23:54Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -17,7 +17,9 @@
       "id": "27967_hanbaagaa_ex1",
       "japanese": "{昼|ひる}にハンバーガーを{食|た}べた。",
       "english": "I ate a hamburger for lunch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27967_hanbaagaa_ex2",
       "japanese": "このお{店|みせ}のハンバーガーは{大|おお}きくておいしい。",
       "english": "The hamburgers at this shop are big and delicious.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "27967_hanbaagaa_ex3",
       "japanese": "ハンバーガーとポテトのセットを{注文|ちゅうもん}して{持|も}ち{帰|かえ}った。",
       "english": "I ordered a hamburger and fries set and took it to go.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n- ハンバーガーを{食|た}べる: to eat a hamburger\n- ハンバーガーショップ・ハンバーガー{屋|や}: hamburger shop\n- テリヤキバーガー: teriyaki burger (a popular Japanese variety)\n\nSIMILAR WORDS:\n- ハンバーグ: hamburg steak — the patty served on a plate without a bun, eaten as a main dish; a false friend, not the same as ハンバーガー\n- バーガー: burger — common short form, especially in product names",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01785_hanbaagu",
+      "reading": "はんばーぐ",
+      "headword": "ハンバーグ",
+      "label": "hamburg steak"
+    },
+    {
+      "type": "related",
+      "target_id": "27305_chiizubaagaa",
+      "reading": "ちーずばーがー",
+      "headword": "チーズバーガー",
+      "label": "cheeseburger"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"],
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-05-23T04:06:38Z",
-    "modified": "2026-05-23T04:06:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

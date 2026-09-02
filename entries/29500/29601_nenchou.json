@@ -3,7 +3,7 @@
   "headword": "{年長|ねんちょう}",
   "reading": "ねんちょう",
   "romaji": "nenchou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "senior in age; older; the eldest",
   "definitions": [
     {
@@ -50,6 +50,13 @@
       "type": "antonym",
       "reading": "ねんしょう",
       "headword": "{年少|ねんしょう}"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07302_toshiue",
+      "reading": "としうえ",
+      "headword": "{年上|としうえ}",
+      "label": "older"
     }
   ],
   "schema_version": "2.0",
@@ -61,13 +68,13 @@
         "adjective-no"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "person"
       ],
       "domain": []
     },
     "created": "2026-07-01T00:20:08Z",
-    "modified": "2026-07-01T00:20:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

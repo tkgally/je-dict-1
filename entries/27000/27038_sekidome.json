@@ -17,7 +17,9 @@
       "id": "27038_sekidome_ex1",
       "japanese": "{咳止|せきど}めを{飲|の}んだ。",
       "english": "I took some cough medicine.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27038_sekidome_ex2",
       "japanese": "{薬局|やっきょく}で{咳止|せきど}めを{買|か}ってきて。",
       "english": "Go buy some cough medicine at the pharmacy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,37 @@
       "id": "27038_sekidome_ex3",
       "japanese": "この{咳止|せきど}めシロップは{子供|こども}でも{飲|の}みやすい。",
       "english": "This cough syrup is easy even for children to take.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {咳|せき} (cough) and {止|と}め (stopping), referring to medicine that suppresses coughing. Can refer to cough drops, syrups, or tablets.\n\nCOMMON COLLOCATIONS:\n- {咳止|せきど}めを{飲|の}む — to take cough medicine\n- {咳止|せきど}めシロップ — cough syrup\n- {咳止|せきど}めの{薬|くすり} — cough medicine\n- {咳止|せきど}めドロップ — cough drops\n\nSIMILAR WORDS:\n- {風邪薬|かぜぐすり} — cold medicine (broader; treats multiple cold symptoms, not just cough)\n- {鎮咳剤|ちんがいざい} — antitussive (medical/technical term for cough suppressant)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09712_kazegusuri",
+      "reading": "かぜぐすり",
+      "headword": "{風邪薬|かぜぐすり}",
+      "label": "cold medicine (broader"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["health"]
+      "semantic": [
+        "health"
+      ]
     },
     "created": "2026-05-06T15:07:39Z",
-    "modified": "2026-08-07T06:31:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

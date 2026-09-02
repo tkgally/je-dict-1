@@ -17,7 +17,9 @@
       "id": "27048_shoutotsujiko_ex1",
       "japanese": "{高速道路|こうそくどうろ}で{衝突事故|しょうとつじこ}が{起|お}きた。",
       "english": "A collision accident occurred on the highway.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27048_shoutotsujiko_ex2",
       "japanese": "{衝突事故|しょうとつじこ}で{三人|さんにん}が{病院|びょういん}に{運|はこ}ばれた。",
       "english": "Three people were taken to the hospital after the collision.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "27048_shoutotsujiko_ex3",
       "japanese": "{霧|きり}のせいで{前|まえ}が{見|み}えず、{多重|たじゅう}{衝突事故|しょうとつじこ}が{発生|はっせい}した。",
       "english": "Visibility was poor due to fog, and a multi-vehicle collision occurred.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {衝突|しょうとつ} (collision/crash) and {事故|じこ} (accident). Frequently used in news reports about traffic accidents. While {事故|じこ} alone can mean any kind of accident, {衝突事故|しょうとつじこ} specifies that a collision was involved.\n\nCOMMON COLLOCATIONS:\n- {衝突事故|しょうとつじこ}が{起|お}きる — a collision occurs\n- {衝突事故|しょうとつじこ}を{起|お}こす — to cause a collision\n- {多重|たじゅう}{衝突事故|しょうとつじこ} — multi-vehicle collision; pileup\n- {正面|しょうめん}{衝突事故|しょうとつじこ} — head-on collision\n\nSIMILAR WORDS:\n- {交通事故|こうつうじこ} — traffic accident (broader; includes any type of traffic accident)\n- {追突事故|ついとつじこ} — rear-end collision\n- {接触事故|せっしょくじこ} — minor collision/fender bender (less severe than a full collision)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21255_koutsuujiko",
+      "reading": "こうつうじこ",
+      "headword": "{交通事故|こうつうじこ}",
+      "label": "traffic accident (broader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24064_tsuitotsujiko",
+      "reading": "ついとつじこ",
+      "headword": "{追突事故|ついとつじこ}",
+      "label": "rear-end collision"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24272_sesshokujiko",
+      "reading": "せっしょくじこ",
+      "headword": "{接触事故|せっしょくじこ}",
+      "label": "minor collision/fender bender"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-05-06T15:10:58Z",
-    "modified": "2026-05-06T15:10:58Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

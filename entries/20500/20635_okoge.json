@@ -19,7 +19,9 @@
       "english": "I like the crispy rice crust.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20635_okoge_ex2",
@@ -27,7 +29,9 @@
       "english": "When you cook rice in a clay pot, you get delicious scorched rice.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20635_okoge_ex3",
@@ -35,21 +39,50 @@
       "english": "Pouring tea over the scorched rice and eating it was my grandmother's little pleasure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "The お is an honorific/beautifying prefix attached to {焦|こ}げ (burnt part), from the verb {焦|こ}げる (to scorch, to burn). Also written as おこげ in hiragana. The kanji form {御焦|おこ}げ is rarely used.\n\nCOMMON COLLOCATIONS:\n- お{焦|こ}げができる (for scorched rice to form)\n- お{焦|こ}げにお{湯|ゆ}をかける (to pour hot water over scorched rice)\n- {土鍋|どなべ}のお{焦|こ}げ (clay pot scorched rice)\n- パリパリのお{焦|こ}げ (crispy scorched rice)\n\nSIMILAR WORDS:\n- {焦|こ}げ — burnt part, scorch; the general term without the honorific prefix, can refer to any burnt food\n- {焦|こ}げ{目|め} — browned surface, grill marks; the intentional browning on food\n- {煎餅|せんべい} — rice cracker; a separate snack made from rice\n\nCULTURAL NOTE:\nIn traditional Japanese cooking with {釜|かま} (iron pots) or {土鍋|どなべ} (clay pots), お{焦|こ}げ was a natural byproduct. Many people consider it a treat. A classic way to enjoy it is お{焦|こ}げ{湯|ゆ} — pouring hot water or tea over the crispy rice to make a simple, comforting drink-food.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08576_kogeme",
+      "reading": "こげめ",
+      "headword": "{焦|こ}げ{目|め}",
+      "label": "browned surface, grill marks"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04958_senbei",
+      "reading": "せんべい",
+      "headword": "{煎餅|せんべい}",
+      "label": "rice cracker"
+    },
+    {
+      "type": "related",
+      "target_id": "05344_kogeru",
+      "reading": "こげる",
+      "headword": "{焦|こ}げる",
+      "label": "to burn"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T20:11:32Z",
-    "modified": "2026-03-29T20:11:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "cooking"]
+      "semantic": [
+        "food",
+        "cooking"
+      ]
     }
   }
 }

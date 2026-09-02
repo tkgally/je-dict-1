@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "COMPONENTS:\nLiterally \"comparison rate\" — the two characters mean \"compare\" and \"rate\".\n\nCOMMON TYPES:\n・⟦{男女|だんじょ}→男女：03117_danjo⟧{比率|ひりつ} - male-to-female ratio\n・⟦{人口|じんこう}→人口：01618_jinkou⟧{比率|ひりつ} - population ratio\n・⟦{自己資本|じこしほん}→自己資本：30309_jikoshihon⟧{比率|ひりつ} - equity ratio\n・⟦{配当|はいとう}→配当：05970_haitou⟧{比率|ひりつ} - dividend ratio\n・⟦{構成|こうせい}→構成：02729_kousei⟧{比率|ひりつ} - composition ratio\n\nGRAMMAR:\n・〜⟦の→の：09472_no⟧{比率|ひりつ}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧ / ⟦{低|ひく}い→低い：02947_hikui⟧ (the ratio of ~ is high / low)\n・〜⟦の→の：09472_no⟧{比率|ひりつ}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧ / ⟦{下|さ}げる→下げる：00807_sageru⟧ (to raise / lower the ratio of ~)\n\nSIMILAR WORDS:\n・⟦{割合|わりあい}→割合：01760_wariai⟧ - proportion, rate (more common in daily speech)\n・⟦{比|ひ}→比：noentry⟧ - ratio (mathematical term)\n・⟦{比例|ひれい}→比例：13215_hirei⟧ - proportion (mathematical relationship)\n・⟦{百分率|ひゃくぶんりつ}→百分率：24428_hyakubunritsu⟧ / ⟦パーセント→パーセント：01537_paasento⟧ - percentage",
+  "notes": "ETYMOLOGY:\nLiterally \"comparison rate\" — the two characters mean \"compare\" and \"rate\".\n\nTYPES:\n- ⟦{男女|だんじょ}→男女：03117_danjo⟧{比率|ひりつ} - male-to-female ratio\n- ⟦{人口|じんこう}→人口：01618_jinkou⟧{比率|ひりつ} - population ratio\n- ⟦{自己資本|じこしほん}→自己資本：30309_jikoshihon⟧{比率|ひりつ} - equity ratio\n- ⟦{配当|はいとう}→配当：05970_haitou⟧{比率|ひりつ} - dividend ratio\n- ⟦{構成|こうせい}→構成：02729_kousei⟧{比率|ひりつ} - composition ratio\n\nCOMMON PATTERNS:\n- 〜⟦の→の：09472_no⟧{比率|ひりつ}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧ / ⟦{低|ひく}い→低い：02947_hikui⟧ (the ratio of ~ is high / low)\n- 〜⟦の→の：09472_no⟧{比率|ひりつ}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧ / ⟦{下|さ}げる→下げる：00807_sageru⟧ (to raise / lower the ratio of ~)\n\nSIMILAR WORDS:\n- ⟦{割合|わりあい}→割合：01760_wariai⟧ - proportion, rate (more common in daily speech)\n- ⟦{比|ひ}→比：noentry⟧ - ratio (mathematical term)\n- ⟦{比例|ひれい}→比例：13215_hirei⟧ - proportion (mathematical relationship)\n- ⟦{百分率|ひゃくぶんりつ}→百分率：24428_hyakubunritsu⟧ / ⟦パーセント→パーセント：01537_paasento⟧ - percentage",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,39 @@
       "headword": "{割合|わりあい}",
       "label": "proportion/rate",
       "target_id": "01760_wariai"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13215_hirei",
+      "reading": "ひれい",
+      "headword": "{比例|ひれい}",
+      "label": "proportion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24428_hyakubunritsu",
+      "reading": "ひゃくぶんりつ",
+      "headword": "{百分率|ひゃくぶんりつ}",
+      "label": "percentage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01537_paasento",
+      "reading": "ぱーせんと",
+      "headword": "パーセント",
+      "label": "percentage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29007_tateyokohi",
+      "reading": "たてよこひ",
+      "headword": "{縦横比|たてよこひ}",
+      "label": "aspect ratio"
     }
   ],
   "metadata": {
     "created": "2026-01-18T04:42:13Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

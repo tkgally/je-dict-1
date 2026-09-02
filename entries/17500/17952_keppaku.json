@@ -3,7 +3,7 @@
   "id": "17952_keppaku",
   "headword": "{潔白|けっぱく}",
   "reading": "けっぱく",
-  "part_of_speech": "noun, adjective-na",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "innocence; purity",
   "definitions": [
     {
@@ -24,7 +24,9 @@
       "english": "I asserted my innocence.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17952_keppaku_ex2",
@@ -32,7 +34,9 @@
       "english": "As a result of the investigation, his innocence was proven.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17952_keppaku_ex3",
@@ -40,7 +44,9 @@
       "english": "Even when accused, he stood firm believing in his own innocence.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17952_keppaku_ex4",
@@ -48,7 +54,9 @@
       "english": "He is known for his upright character.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "17952_keppaku_ex5",
@@ -56,7 +64,9 @@
       "english": "Politicians are expected to have integrity.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "17952_keppaku_ex6",
@@ -64,21 +74,64 @@
       "english": "The official who has maintained an upright attitude over many years is trusted by the citizens.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nMost frequently used in sense 1 (innocence), particularly in the phrase {潔白|けっぱく}を{証明|しょうめい}する (prove one's innocence). Sense 2 (moral purity) is more literary.\n\nCOMMON COLLOCATIONS:\n- {潔白|けっぱく}を{証明|しょうめい}する (prove one's innocence)\n- {潔白|けっぱく}を{主張|しゅちょう}する (assert one's innocence)\n- {潔白|けっぱく}な{身|み} (a clean/innocent person)\n- {身|み}の{潔白|けっぱく} (one's innocence)\n\nSIMILAR WORDS:\n- {無罪|むざい}: not guilty — a legal verdict, used in court\n- {無実|むじつ}: innocence — specifically means falsely accused, did not commit the act\n- {清廉|せいれん}: incorruptible — a more formal/literary word for moral integrity",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13383_muzai",
+      "reading": "むざい",
+      "headword": "{無罪|むざい}",
+      "label": "not guilty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09504_mujitsu",
+      "reading": "むじつ",
+      "headword": "{無実|むじつ}",
+      "label": "innocence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20342_seiren",
+      "reading": "せいれん",
+      "headword": "{清廉|せいれん}",
+      "label": "incorruptible"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22418_kouketsu",
+      "reading": "こうけつ",
+      "headword": "{高潔|こうけつ}",
+      "label": "noble"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24442_seihaku",
+      "reading": "せいはく",
+      "headword": "{清白|せいはく}",
+      "label": "purity"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T09:58:30Z",
-    "modified": "2026-03-19T09:58:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

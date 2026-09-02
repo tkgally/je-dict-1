@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{申請|しんせい} (application, request) + {書|しょ} (document)\n\nCOMMON TYPES:\n・{休暇|きゅうか}{申請書|しんせいしょ} - leave request form\n・{経費|けいひ}{申請書|しんせいしょ} - expense claim form\n・{許可|きょか}{申請書|しんせいしょ} - permit application\n・{補助金|ほじょきん}{申請書|しんせいしょ} - subsidy application\n・{出張|しゅっちょう}{申請書|しんせいしょ} - business trip request\n・{採用|さいよう}{申請書|しんせいしょ} - hiring request form\n\nGOVERNMENT APPLICATIONS:\n・パスポート{申請書|しんせいしょ} - passport application\n・{住民票|じゅうみんひょう}{申請書|しんせいしょ} - residence certificate application\n・ビザ{申請書|しんせいしょ} - visa application\n\nCOMMON EXPRESSIONS:\n・{申請書|しんせいしょ}を{記入|きにゅう}する - to fill out an application\n・{申請書|しんせいしょ}を{提出|ていしゅつ}する - to submit an application\n・{申請書|しんせいしょ}が{受理|じゅり}される - application is accepted\n\nRELATED:\n・{申込書|もうしこみしょ} - enrollment/registration form (less formal)",
+  "notes": "ETYMOLOGY:\n{申請|しんせい} (application, request) + {書|しょ} (document)\n\nTYPES:\n- {休暇|きゅうか}{申請書|しんせいしょ} - leave request form\n- {経費|けいひ}{申請書|しんせいしょ} - expense claim form\n- {許可|きょか}{申請書|しんせいしょ} - permit application\n- {補助金|ほじょきん}{申請書|しんせいしょ} - subsidy application\n- {出張|しゅっちょう}{申請書|しんせいしょ} - business trip request\n- {採用|さいよう}{申請書|しんせいしょ} - hiring request form\n\nGOVERNMENT APPLICATIONS:\n- パスポート{申請書|しんせいしょ} - passport application\n- {住民票|じゅうみんひょう}{申請書|しんせいしょ} - residence certificate application\n- ビザ{申請書|しんせいしょ} - visa application\n\nCOMMON EXPRESSIONS:\n- {申請書|しんせいしょ}を{記入|きにゅう}する - to fill out an application\n- {申請書|しんせいしょ}を{提出|ていしゅつ}する - to submit an application\n- {申請書|しんせいしょ}が{受理|じゅり}される - application is accepted\n\nRELATED WORDS:\n- {申込書|もうしこみしょ} - enrollment/registration form (less formal)",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,32 @@
       "headword": "{申請|しんせい}",
       "label": "application (verb/noun)",
       "target_id": "04207_shinsei"
+    },
+    {
+      "type": "related",
+      "target_id": "03162_moushikomisho",
+      "reading": "もうしこみしょ",
+      "headword": "{申込書|もうしこみしょ}",
+      "label": "enrollment/registration form"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25827_moushikomiyoushi",
+      "reading": "もうしこみようし",
+      "headword": "{申込用紙|もうしこみようし}",
+      "label": "application form"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26390_todokedesho",
+      "reading": "とどけでしょ",
+      "headword": "{届出書|とどけでしょ}",
+      "label": "notification form"
     }
   ],
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-08-10T18:29:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +81,7 @@
         "noun"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "business",
         "communication"

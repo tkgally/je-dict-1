@@ -19,7 +19,9 @@
       "english": "I ate lunch at the school cafeteria.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12241_gakushoku_ex2",
@@ -27,7 +29,9 @@
       "english": "This university's cafeteria is cheap and delicious.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12241_gakushoku_ex3",
@@ -35,21 +39,57 @@
       "english": "The cafeteria gets packed with students during lunch break.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nAn abbreviation of {学校|がっこう}{食堂|しょくどう}. Used almost exclusively in reference to university or college dining halls, not elementary or middle school cafeterias. Very common in student conversation.\n\nCOMMON COLLOCATIONS:\n- {学食|がくしょく}で{食|た}べる: to eat at the cafeteria\n- {学食|がくしょく}のメニュー: cafeteria menu\n- {学食|がくしょく}が{混|こ}む: the cafeteria is crowded\n\nWORD FORMATION:\nAbbreviation pattern: {学|がく} (school) + {食|しょく} (food/dining). This type of two-kanji abbreviation is common in Japanese campus slang.",
-  "cross_references": [],
+  "notes": "USAGE:\nAn abbreviation of {学校|がっこう}{食堂|しょくどう}. Used almost exclusively in reference to university or college dining halls, not elementary or middle school cafeterias. Very common in student conversation.\n\nCOMMON COLLOCATIONS:\n- {学食|がくしょく}で{食|た}べる: to eat at the cafeteria\n- {学食|がくしょく}のメニュー: cafeteria menu\n- {学食|がくしょく}が{混|こ}む: the cafeteria is crowded\n\nFORMS:\nAbbreviation pattern: {学|がく} (school) + {食|しょく} (food/dining). This type of two-kanji abbreviation is common in Japanese campus slang.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19803_shainshokudou",
+      "reading": "しゃいんしょくどう",
+      "headword": "{社員食堂|しゃいんしょくどう}",
+      "label": "employee cafeteria"
+    },
+    {
+      "type": "related",
+      "target_id": "19934_shokken",
+      "reading": "しょっけん",
+      "headword": "{食券|しょっけん}",
+      "label": "meal ticket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25190_daigakuseikyou",
+      "reading": "だいがくせいきょう",
+      "headword": "{大学生協|だいがくせいきょう}",
+      "label": "university co-op"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27579_shashoku",
+      "reading": "しゃしょく",
+      "headword": "{社食|しゃしょく}",
+      "label": "company cafeteria"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T13:35:36Z",
-    "modified": "2026-02-20T13:35:36Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["education", "food"]
+      "semantic": [
+        "education",
+        "food"
+      ]
     }
   }
 }

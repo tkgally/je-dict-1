@@ -2,7 +2,7 @@
   "id": "00285_misu",
   "headword": "ミス",
   "reading": "みす",
-  "part_of_speech": "noun; suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "mistake; Miss",
   "conjugation": {
     "type": "suru",
@@ -213,11 +213,67 @@
       "headword": "{間違|まちが}い",
       "label": "mistake",
       "target_id": "03733_machigai"
+    },
+    {
+      "type": "related",
+      "target_id": "08429_eraa",
+      "reading": "えらー",
+      "headword": "エラー",
+      "label": "error"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00194_kashitsu",
+      "reading": "かしつ",
+      "headword": "{過失|かしつ}",
+      "label": "error"
+    },
+    {
+      "type": "related",
+      "target_id": "01636_shippai",
+      "reading": "しっぱい",
+      "headword": "{失敗|しっぱい}",
+      "label": "failure, mistake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01772_ayamari",
+      "reading": "あやまり",
+      "headword": "{誤|あやま}り",
+      "label": "error, mistake"
+    },
+    {
+      "type": "related",
+      "target_id": "07598_futegiwa",
+      "reading": "ふてぎわ",
+      "headword": "{不手際|ふてぎわ}",
+      "label": "mishandling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14273_miotoshi",
+      "reading": "みおとし",
+      "headword": "{見落|みお}とし",
+      "label": "oversight"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18506_shissaku",
+      "reading": "しっさく",
+      "headword": "{失策|しっさく}",
+      "label": "blunder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27208_techigai",
+      "reading": "てちがい",
+      "headword": "{手違|てちが}い",
+      "label": "mistake"
     }
   ],
   "metadata": {
     "created": "2026-01-13T03:14:22Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "core",
     "tags": {

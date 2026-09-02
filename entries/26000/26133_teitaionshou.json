@@ -17,7 +17,9 @@
       "id": "26133_teitaionshou_ex1",
       "japanese": "{遭難者|そうなんしゃ}は{低体温症|ていたいおんしょう}で{倒|たお}れていた。",
       "english": "The stranded person had collapsed from hypothermia.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26133_teitaionshou_ex2",
       "japanese": "{冬|ふゆ}の{海|うみ}に{落|お}ちると、{短時間|たんじかん}で{低体温症|ていたいおんしょう}になる{危険|きけん}がある。",
       "english": "If you fall into the winter sea, there is a risk of developing hypothermia in a short time.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,47 @@
       "id": "26133_teitaionshou_ex3",
       "japanese": "{高齢者|こうれいしゃ}は{室内|しつない}でも{低体温症|ていたいおんしょう}にかかることがあるので、{暖房|だんぼう}の{管理|かんり}が{大切|たいせつ}だ。",
       "english": "Elderly people can develop hypothermia even indoors, so managing the heating is important.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {低|てい} (low), {体温|たいおん} (body temperature), and {症|しょう} (condition, disease). A medical term that appears frequently in news reports about outdoor accidents, natural disasters, and winter safety.\n\nIn Japan, {低体温症|ていたいおんしょう} is commonly discussed in the context of mountain climbing accidents, where sudden weather changes can catch hikers unprepared. It is also a concern for elderly people living alone, particularly during winter months when indoor heating may be insufficient.\n\nCOMMON COLLOCATIONS:\n- {低体温症|ていたいおんしょう}になる: to develop hypothermia\n- {低体温症|ていたいおんしょう}にかかる: to suffer from hypothermia\n- {低体温症|ていたいおんしょう}で{死亡|しぼう}する: to die of hypothermia\n- {低体温症|ていたいおんしょう}を{防|ふせ}ぐ: to prevent hypothermia\n- {低体温症|ていたいおんしょう}の{症状|しょうじょう}: symptoms of hypothermia\n\nSIMILAR WORDS:\n- {凍傷|とうしょう}: frostbite — localized damage to skin and tissue from freezing, distinct from the systemic cooling of {低体温症|ていたいおんしょう}\n- {低体温|ていたいおん}: low body temperature — describes the condition of having a low temperature without necessarily implying a dangerous medical state\n- {熱中症|ねっちゅうしょう}: heatstroke — the opposite condition, caused by overheating",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05018_toushou",
+      "reading": "とうしょう",
+      "headword": "{凍傷|とうしょう}",
+      "label": "frostbite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08330_necchuushou",
+      "reading": "ねっちゅうしょう",
+      "headword": "{熱中症|ねっちゅうしょう}",
+      "label": "heatstroke"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["health"],
-      "domain": ["medical"]
+      "semantic": [
+        "health"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-04-29T14:37:53Z",
-    "modified": "2026-08-05T09:30:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

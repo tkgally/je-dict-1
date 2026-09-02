@@ -44,10 +44,60 @@
     }
   ],
   "notes": "ノート is a notebook for writing, a basic school and office supply.\n\nETYMOLOGY:\nFrom English 'note' or 'notebook.'\n\nCOUNTER:\n⟦{冊|さつ}→〜冊：00666_satsu⟧ is used: ⟦{一|いっ}→一：00705_ichi⟧⟦{冊|さつ}→〜冊：00666_satsu⟧, ⟦{二|に}→二：00736_ni⟧⟦{冊|さつ}→〜冊：00666_satsu⟧, etc.\n\nCOMMON EXPRESSIONS:\n- ノートに⟦{書|か}く→書く：00477_kaku⟧: to write in a notebook\n- ノートを⟦{取|と}る→取る：00565_toru⟧: to take notes\n- ノートを⟦{見|み}せる→見せる：01988_miseru⟧: to show one's notebook\n\nRELATED SCHOOL SUPPLIES:\n- ⟦{鉛筆|えんぴつ}→鉛筆：00694_enpitsu⟧: pencil\n- ⟦{消|け}しゴム→消しゴム：00716_keshigomu⟧: eraser\n- ⟦{筆箱|ふでばこ}→筆箱：08263_fudebako⟧: pencil case\n- ⟦{教科書|きょうかしょ}→教科書：01085_kyoukasho⟧: textbook",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00694_enpitsu",
+      "reading": "えんぴつ",
+      "headword": "{鉛筆|えんぴつ}",
+      "label": "pencil"
+    },
+    {
+      "type": "related",
+      "target_id": "00716_keshigomu",
+      "reading": "けしごむ",
+      "headword": "{消|け}しゴム",
+      "label": "eraser"
+    },
+    {
+      "type": "related",
+      "target_id": "08263_fudebako",
+      "reading": "ふでばこ",
+      "headword": "{筆箱|ふでばこ}",
+      "label": "pencil case"
+    },
+    {
+      "type": "related",
+      "target_id": "01085_kyoukasho",
+      "reading": "きょうかしょ",
+      "headword": "{教科書|きょうかしょ}",
+      "label": "textbook"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00101_hikki",
+      "reading": "ひっき",
+      "headword": "{筆記|ひっき}",
+      "label": "note-taking, writing"
+    },
+    {
+      "type": "related",
+      "target_id": "00274_memo",
+      "reading": "めも",
+      "headword": "メモ",
+      "label": "memo, note"
+    },
+    {
+      "type": "related",
+      "target_id": "11241_memochou",
+      "reading": "めもちょう",
+      "headword": "メモ{帳|ちょう}",
+      "label": "memo pad, notepad"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:35:10Z",
-    "modified": "2026-05-12T18:11:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{抗弁|こうべん}",
   "reading": "こうべん",
   "romaji": "kouben",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "objection; protest; plea; defense",
   "definitions": [
     {
@@ -80,7 +80,29 @@
     }
   ],
   "notes": "Composed of {抗|こう} (resist; oppose) + {弁|べん} (speech; argument). Can function as a noun or as a する verb ({抗弁|こうべん}する). In everyday usage, implies talking back or making excuses in the face of criticism. In legal usage, it is a technical term for a specific type of defense.\n\nCOMMON COLLOCATIONS:\n- {抗弁|こうべん}する: to object; to argue back\n- {抗弁|こうべん}の{余地|よち}: room for objection\n- {抗弁|こうべん}{権|けん}: right of defense\n- {時効|じこう}の{抗弁|こうべん}: statute of limitations defense\n\nSIMILAR WORDS:\n- {反論|はんろん}する: to refute; to counter-argue — focuses on logically countering an argument rather than protesting\n- {言|い}い{訳|わけ}: excuse — less confrontational; focuses on making excuses rather than arguing back\n- {異議|いぎ}: objection — more formal; the standard legal term for an objection in court proceedings",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17280_hanronsuru",
+      "reading": "はんろんする",
+      "headword": "{反論|はんろん}する",
+      "label": "to refute"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04653_iiwake",
+      "reading": "いいわけ",
+      "headword": "{言|い}い{訳|わけ}",
+      "label": "excuse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13552_igi",
+      "reading": "いぎ",
+      "headword": "{異議|いぎ}",
+      "label": "objection"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -89,6 +111,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "law",
         "communication"
@@ -96,7 +119,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T15:18:59Z",
-    "modified": "2026-04-25T15:18:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

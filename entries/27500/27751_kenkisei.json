@@ -3,7 +3,7 @@
   "headword": "{嫌気|けんき}{性|せい}",
   "reading": "けんきせい",
   "romaji": "kenkisei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "anaerobic; anaerobic nature",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "27751_kenkisei_ex1",
       "japanese": "{嫌気|けんき}{性|せい}の{細菌|さいきん}がいる。",
       "english": "There are anaerobic bacteria.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27751_kenkisei_ex2",
       "japanese": "この{菌|きん}は{嫌気|けんき}{性|せい}で、{酸素|さんそ}のない{環境|かんきょう}を{好|この}む。",
       "english": "This microbe is anaerobic and prefers environments without oxygen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,41 @@
       "id": "27751_kenkisei_ex3",
       "japanese": "{生|なま}ごみを{嫌気|けんき}{性|せい}{発酵|はっこう}させると、メタンガスが{発生|はっせい}する。",
       "english": "Fermenting food waste anaerobically produces methane gas.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {嫌気|けんき} (disliking air or oxygen) + {性|せい} (-ness, property). A biology and environmental-science term. Often used attributively with の: {嫌気|けんき}{性|せい}の{細菌|さいきん}.\n\nCOMMON COLLOCATIONS:\n- {嫌気|けんき}{性|せい}{細菌|さいきん}: anaerobic bacteria\n- {嫌気|けんき}{性|せい}{発酵|はっこう}: anaerobic fermentation\n\nSIMILAR WORDS:\n- {好気|こうき}{性|せい}: aerobic — the antonym; describes organisms that require oxygen to live",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "29785_koukisei",
+      "reading": "こうきせい",
+      "headword": "好気性",
+      "label": "aerobic"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-05-18T03:04:42Z",
-    "modified": "2026-05-18T03:04:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

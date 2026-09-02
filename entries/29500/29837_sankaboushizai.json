@@ -17,7 +17,9 @@
       "id": "29837_sankaboushizai_ex1",
       "japanese": "{酸化防止剤|さんかぼうしざい}が{使|つか}われている。",
       "english": "An antioxidant is used.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29837_sankaboushizai_ex2",
       "japanese": "ワインに{酸化防止剤|さんかぼうしざい}を{加|くわ}える。",
       "english": "Antioxidants are added to wine.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "29837_sankaboushizai_ex3",
       "japanese": "{酸化防止剤|さんかぼうしざい}{無添加|むてんか}のジュースを{選|えら}んだ。",
       "english": "I chose a juice with no added antioxidants.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{酸化|さんか} (oxidation) + {防止|ぼうし} (prevention) + {剤|ざい} (agent). Commonly listed on food labels; ビタミンC is a familiar example.\n\nRELATED ADDITIVES:\n- {乳化剤|にゅうかざい}: emulsifier\n- {保存料|ほぞんりょう}: preservative\n- {着色料|ちゃくしょくりょう}: coloring agent",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29836_nyuukazai",
+      "reading": "にゅうかざい",
+      "headword": "{乳化剤|にゅうかざい}",
+      "label": "emulsifier"
+    },
+    {
+      "type": "related",
+      "target_id": "06593_hozonryou",
+      "reading": "ほぞんりょう",
+      "headword": "{保存料|ほぞんりょう}",
+      "label": "preservative"
+    },
+    {
+      "type": "related",
+      "target_id": "19751_chakushokuryou",
+      "reading": "ちゃくしょくりょう",
+      "headword": "{着色料|ちゃくしょくりょう}",
+      "label": "coloring agent"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-07-14T06:18:33Z",
-    "modified": "2026-07-14T06:18:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

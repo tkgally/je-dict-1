@@ -45,7 +45,22 @@
     }
   ],
   "notes": "A compound of {舞台|ぶたい} (stage) and {恐怖症|きょうふしょう} (phobia). While the literal meaning refers to stages, it applies broadly to any situation involving performing or presenting in front of others.\n\nCOMMON COLLOCATIONS:\n- {舞台|ぶたい}{恐怖症|きょうふしょう}を{克服|こくふく}する: to overcome stage fright\n- {舞台|ぶたい}{恐怖症|きょうふしょう}に{悩|なや}む: to suffer from stage fright\n- {軽|かる}い{舞台|ぶたい}{恐怖症|きょうふしょう}: mild stage fright\n\nSIMILAR WORDS:\n- あがり{症|しょう}: tendency to get nervous — more colloquial and broader than stage-specific fear\n- {対人|たいじん}{恐怖症|きょうふしょう}: social phobia — fear of social interaction in general, not limited to performance\n- {緊張|きんちょう}: nervousness — a milder, more general term for being tense",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21562_agarishou",
+      "reading": "あがりしょう",
+      "headword": "あがり{症|しょう}",
+      "label": "tendency to get nervous"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02494_kinchou",
+      "reading": "きんちょう",
+      "headword": "{緊張|きんちょう}",
+      "label": "nervousness"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "health",
         "emotion"
       ]
     },
     "created": "2026-05-02T14:31:23Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

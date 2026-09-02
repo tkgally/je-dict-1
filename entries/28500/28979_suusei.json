@@ -17,7 +17,9 @@
       "id": "28979_suusei_ex1",
       "japanese": "{時代|じだい}の{趨勢|すうせい}に{逆|さか}らえない。",
       "english": "You can't go against the trend of the times.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28979_suusei_ex2",
       "japanese": "{世界|せかい}の{趨勢|すうせい}は{脱炭素|だつたんそ}へと{向|む}かっている。",
       "english": "The global trend is moving toward decarbonization.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "28979_suusei_ex3",
       "japanese": "{業界|ぎょうかい}の{趨勢|すうせい}を{見極|みきわ}めてから{投資|とうし}を{決|き}めたい。",
       "english": "I want to assess the industry's trend before deciding on the investment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formal and literary; appears in news, analysis, and academic writing rather than casual speech.\n\nCOMMON COLLOCATIONS:\n- {時代|じだい}の{趨勢|すうせい}: trend of the times\n- {世界|せかい}の{趨勢|すうせい}: global trend\n- {趨勢|すうせい}に{従|したが}う: to follow the trend\n- {趨勢|すうせい}を{見極|みきわ}める: to assess the trend\n\nSIMILAR WORDS:\n- {動向|どうこう}: trend; movement — broader and more neutral, used for any kind of activity or shift\n- {傾向|けいこう}: tendency — a general inclination, less about large-scale direction\n- トレンド: trend — casual loanword, often about fashion or short-term popularity",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05580_doukou",
+      "reading": "どうこう",
+      "headword": "{動向|どうこう}",
+      "label": "trend"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02695_keikou",
+      "reading": "けいこう",
+      "headword": "{傾向|けいこう}",
+      "label": "tendency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06696_torendo",
+      "reading": "とれんど",
+      "headword": "トレンド",
+      "label": "trend"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-06-08T07:55:39Z",
-    "modified": "2026-06-08T07:55:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "21749_suiatsu_ex1",
       "japanese": "{水圧|すいあつ}が{弱|よわ}い。",
       "english": "The water pressure is weak.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21749_suiatsu_ex2",
       "japanese": "シャワーの{水圧|すいあつ}を{調整|ちょうせい}してほしい。",
       "english": "I'd like the shower water pressure adjusted.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,12 +37,44 @@
       "id": "21749_suiatsu_ex3",
       "japanese": "{深海|しんかい}では{水圧|すいあつ}が{非常|ひじょう}に{高|たか}く、{特殊|とくしゅ}な{装備|そうび}がなければ{潜|もぐ}ることができない。",
       "english": "In the deep sea, water pressure is extremely high, and it is impossible to dive without special equipment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {水|すい} (water) and {圧|あつ} (pressure). This word is used both in everyday contexts (shower pressure, faucets) and in scientific or engineering contexts (hydraulic pressure, deep-sea pressure).\n\nUSAGE:\n- Described with {高|たか}い/{低|ひく}い (high/low) or {強|つよ}い/{弱|よわ}い (strong/weak)\n- Common topic in housing and plumbing discussions\n- Also a key concept in physics and marine science\n\nCOMMON COLLOCATIONS:\n- {水圧|すいあつ}が{高|たか}い: water pressure is high\n- {水圧|すいあつ}が{低|ひく}い: water pressure is low\n- {水圧|すいあつ}を{上|あ}げる: to increase water pressure\n- {水圧|すいあつ}{検査|けんさ}: water pressure test\n- {水圧|すいあつ}で{動|うご}く: to operate by water pressure\n\nSIMILAR WORDS:\n- {気圧|きあつ}: atmospheric pressure, air pressure — pressure exerted by the atmosphere\n- {油圧|ゆあつ}: hydraulic pressure, oil pressure — pressure using oil as a medium\n- {血圧|けつあつ}: blood pressure — pressure of blood in the circulatory system",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00219_kiatsu",
+      "reading": "きあつ",
+      "headword": "{気圧|きあつ}",
+      "label": "atmospheric pressure, air pressure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00218_ketsuatsu",
+      "reading": "けつあつ",
+      "headword": "{血圧|けつあつ}",
+      "label": "blood pressure"
+    },
+    {
+      "type": "related",
+      "target_id": "23026_furyoku",
+      "reading": "ふりょく",
+      "headword": "{浮力|ふりょく}",
+      "label": "buoyancy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29585_kuukiatsu",
+      "reading": "くうきあつ",
+      "headword": "{空気圧|くうきあつ}",
+      "label": "air pressure"
+    }
+  ],
   "metadata": {
     "entry_id": "21749_suiatsu",
     "schema_version": "2.0",
@@ -46,11 +82,18 @@
     "vocabulary_tier": "general",
     "jlpt_level": null,
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["nature", "science"],
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "nature",
+        "science"
+      ],
       "register": [],
       "usage": []
     },
-    "modified": "2026-04-03T15:31:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

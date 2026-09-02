@@ -17,7 +17,9 @@
       "id": "19463_ippin_ex1",
       "japanese": "この{料理|りょうり}は{逸品|いっぴん}だ。",
       "english": "This dish is superb.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19463_ippin_ex2",
       "japanese": "{職人|しょくにん}が{手作|てづく}りした{逸品|いっぴん}を{集|あつ}めた。",
       "english": "I collected masterpieces handmade by craftspeople.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,72 @@
       "id": "19463_ippin_ex3",
       "japanese": "この{美術館|びじゅつかん}には{江戸時代|えどじだい}の{逸品|いっぴん}が{数多|かずおお}く{展示|てんじ}されている。",
       "english": "This museum displays many masterpieces from the Edo period.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Describes something of exceptionally high quality — a standout item among many. Often used for food, crafts, and artwork, but can apply to any product or creation. The word carries a tone of admiration and connoisseurship.\n\nCOMMON COLLOCATIONS:\n- {知|し}る{人|ひと}ぞ{知|し}る{逸品|いっぴん} — a hidden gem known only to connoisseurs\n- {逸品|いっぴん}ぞろい — a collection of fine items\n- まさに{逸品|いっぴん} — truly a masterpiece\n- {隠|かく}れた{逸品|いっぴん} — a hidden gem\n\nSIMILAR WORDS:\n- {一品|いっぴん} — a (single) dish or item; homophone but different nuance — refers to a single item/dish without implying excellence\n- {名品|めいひん} — fine article, famous item; similar meaning but emphasizes fame or renown rather than pure quality\n- {傑作|けっさく} — masterpiece; used more for creative works like literature, film, or art",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "08919_ippin",
+      "reading": "いっぴん",
+      "headword": "{一品|いっぴん}",
+      "label": "a (single) dish or item"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19478_meihin",
+      "reading": "めいひん",
+      "headword": "{名品|めいひん}",
+      "label": "fine article, famous item"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00217_kessaku",
+      "reading": "けっさく",
+      "headword": "{傑作|けっさく}",
+      "label": "masterpiece"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23897_yuuhin",
+      "reading": "ゆうひん",
+      "headword": "{優品|ゆうひん}",
+      "label": "fine piece"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24536_kahin",
+      "reading": "かひん",
+      "headword": "{佳品|かひん}",
+      "label": "fine article"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26944_chinpin",
+      "reading": "ちんぴん",
+      "headword": "{珍品|ちんぴん}",
+      "label": "rare item"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-03-26T01:16:40Z",
-    "modified": "2026-03-26T01:16:40Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

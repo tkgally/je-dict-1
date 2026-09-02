@@ -18,7 +18,9 @@
       "english": "To take a make-up exam.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09971_tsuishi_ex2",
@@ -26,7 +28,9 @@
       "english": "I missed the exam due to a cold, so I have to take a make-up exam.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09971_tsuishi_ex3",
@@ -34,7 +38,9 @@
       "english": "There's a rumor that make-up exams are harder than the regular exam.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{追試|ついし} is an abbreviation of {追試験|ついしけん}. It refers specifically to an exam given to students who missed the original exam for valid reasons such as illness or emergencies.\n\nKEY DISTINCTION:\n- {追試|ついし}: make-up exam (for those who missed it with valid reason)\n- {再試験|さいしけん}: retake exam (for those who failed and need another chance)\n\nCOMMON PATTERNS:\n- {追試|ついし}を{受|う}ける: to take a make-up exam\n- {追試|ついし}になる: to end up having to take a make-up exam\n- {追試|ついし}の{届|とど}け{出|で}: a make-up exam request form\n\nRELATED EXAM VOCABULARY:\n- {本試験|ほんしけん}: main/regular exam\n- {期末試験|きまつしけん}: final exam\n- {中間試験|ちゅうかんしけん}: midterm exam\n- {追試験|ついしけん}: make-up exam (full form)",
@@ -45,18 +51,57 @@
       "reading": "さいしけん",
       "headword": "{再試験|さいしけん}",
       "label": "retake exam (for failures)"
+    },
+    {
+      "type": "related",
+      "target_id": "30251_honshiken",
+      "reading": "ほんしけん",
+      "headword": "{本試験|ほんしけん}",
+      "label": "main/regular exam"
+    },
+    {
+      "type": "related",
+      "target_id": "06690_kimatsushiken",
+      "reading": "きまつしけん",
+      "headword": "{期末試験|きまつしけん}",
+      "label": "final exam"
+    },
+    {
+      "type": "related",
+      "target_id": "06691_chuukanshiken",
+      "reading": "ちゅうかんしけん",
+      "headword": "{中間試験|ちゅうかんしけん}",
+      "label": "midterm exam"
+    },
+    {
+      "type": "related",
+      "target_id": "08738_shikenkikan",
+      "reading": "しけんきかん",
+      "headword": "{試験|しけん}{期間|きかん}",
+      "label": "exam period"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24335_hoshuujugyou",
+      "reading": "ほしゅうじゅぎょう",
+      "headword": "{補習授業|ほしゅうじゅぎょう}",
+      "label": "supplementary lessons"
     }
   ],
   "metadata": {
     "created": "2026-02-04T12:03:31Z",
-    "modified": "2026-04-23T08:17:03Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

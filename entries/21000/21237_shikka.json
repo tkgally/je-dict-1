@@ -3,7 +3,7 @@
   "headword": "{失火|しっか}",
   "reading": "しっか",
   "romaji": "shikka",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "accidental fire; fire caused by negligence",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,50 @@
   ],
   "notes": "A formal/legal term for a fire started by accident or negligence, as opposed to {放火|ほうか} (arson). Common in news reports and legal contexts.\n\nCOMMON COLLOCATIONS:\n- {失火|しっか}による{火災|かさい}: fire caused by negligence\n- {失火|しっか}{責任|せきにん}: liability for accidental fire\n- {失火|しっか}{法|ほう}: Fire Liability Act\n- {失火|しっか}{原因|げんいん}: cause of accidental fire\n\nSIMILAR WORDS:\n- {放火|ほうか}: arson — intentionally set fire\n- {火災|かさい}: fire (general term) — covers all causes\n- {火事|かじ}: fire (colloquial) — everyday word for a destructive fire\n- {出火|しゅっか}: outbreak of fire — neutral, refers to how/where a fire started\n\nLEGAL CONTEXT:\nUnder Japan's {失火|しっか}{責任|せきにん}{法|ほう} (Fire Liability Act), a person who accidentally causes a fire is generally not liable for damages to neighbors unless there was gross negligence.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18983_houka",
+      "reading": "ほうか",
+      "headword": "{放火|ほうか}",
+      "label": "arson"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02561_kasai",
+      "reading": "かさい",
+      "headword": "{火災|かさい}",
+      "label": "fire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01283_kaji",
+      "reading": "かじ",
+      "headword": "{火事|かじ}",
+      "label": "fire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20260_shukka",
+      "reading": "しゅっか",
+      "headword": "{出火|しゅっか}",
+      "label": "outbreak of fire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18581_ruishou",
+      "reading": "るいしょう",
+      "headword": "{類焼|るいしょう}",
+      "label": "spread of fire from an adjacent building"
+    },
+    {
+      "type": "related",
+      "target_id": "27045_houkahan",
+      "reading": "ほうかはん",
+      "headword": "{放火犯|ほうかはん}",
+      "label": "arsonist"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +195,6 @@
       "verb_class": "suru"
     },
     "created": "2026-04-01T15:22:49Z",
-    "modified": "2026-04-01T15:22:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

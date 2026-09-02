@@ -17,7 +17,9 @@
       "id": "28148_kokodake_ex1",
       "japanese": "ここだけの{話|はなし}だけど。",
       "english": "This is just between us, but...",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28148_kokodake_ex2",
       "japanese": "この{話|はなし}はここだけにしておいてね。",
       "english": "Keep this just between us, okay?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,40 @@
       "id": "28148_kokodake_ex3",
       "japanese": "ここだけの{話|はなし}、{彼|かれ}は{来月|らいげつ}{会社|かいしゃ}を{辞|や}めるらしい。",
       "english": "Just between us, it seems he's quitting the company next month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From ここ (here) + だけ (only). It is used to mark information as confidential—something that should not leave the present conversation.\n\nKEY EXPRESSION:\n- ここだけの{話|はなし}: 'just between us'; a confidential remark, often used to introduce gossip or a secret\n\nSIMILAR WORDS:\n- {内緒|ないしょ}: a secret — the thing kept hidden\n- {他言|たごん}{無用|むよう}: 'tell no one' — a more formal warning to keep something quiet",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03126_naisho",
+      "reading": "ないしょ",
+      "headword": "{内緒|ないしょ}",
+      "label": "a secret"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["communication"],
-      "domain": ["colloquial"]
+      "politeness": "plain",
+      "semantic": [
+        "communication"
+      ],
+      "domain": [
+        "colloquial"
+      ]
     },
     "created": "2026-05-26T03:08:00Z",
-    "modified": "2026-05-26T03:08:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

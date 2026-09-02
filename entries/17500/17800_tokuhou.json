@@ -19,7 +19,9 @@
       "english": "We have breaking news.",
       "notes": "Standard phrasing used by TV news anchors.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17800_tokuhou_ex2",
@@ -27,7 +29,9 @@
       "english": "A special preview clip of the new movie was released.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17800_tokuhou_ex3",
@@ -35,7 +39,9 @@
       "english": "An earthquake alert was displayed on the TV screen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {特|とく} (special) + {報|ほう} (report, news). Used in two main contexts: (1) urgent or breaking news in journalism, and (2) short promotional clips or teasers for upcoming movies, games, or other media (shorter and earlier than a full {予告編|よこくへん}).\n\nCOMMON COLLOCATIONS:\n- {特報|とくほう}が{入|はい}る (breaking news comes in)\n- {特報|とくほう}{映像|えいぞう} (special preview footage)\n- {緊急|きんきゅう}{特報|とくほう} (urgent breaking news)\n\nSIMILAR WORDS:\n- {速報|そくほう}: breaking news, flash report — emphasizes speed of reporting\n- {予告編|よこくへん}: trailer, preview — a longer promotional clip for a movie",
@@ -46,18 +52,36 @@
       "reading": "そくほう",
       "headword": "{速報|そくほう}",
       "label": "breaking news (speed emphasis)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20437_yokokuhen",
+      "reading": "よこくへん",
+      "headword": "{予告編|よこくへん}",
+      "label": "trailer, preview"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26663_rinjinyuusu",
+      "reading": "りんじにゅーす",
+      "headword": "{臨時|りんじ}ニュース",
+      "label": "special news bulletin"
     }
   ],
   "metadata": {
     "created": "2026-03-19T04:02:43Z",
-    "modified": "2026-05-07T07:05:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

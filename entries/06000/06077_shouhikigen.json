@@ -43,18 +43,46 @@
       ]
     }
   ],
-  "notes": "COMPOUND: ⟦{消費|しょうひ}→消費：03240_shouhi⟧ (consumption) + ⟦{期限|きげん}→期限：12861_kigen⟧ (time limit)\n\nCOMMON PATTERNS:\n・{消費期限|しょうひきげん}を⟦{守|まも}る→守る：01986_mamoru⟧ (follow the use-by date)\n・{消費期限|しょうひきげん}が⟦{過|す}ぎる→過ぎる：01219_sugiru⟧ (use-by date passes)\n・{消費期限|しょうひきげん}{切|ぎ}れ (past use-by date; expired)\n\nDISTINCTION: {消費期限|しょうひきげん} (use-by) is stricter than ⟦{賞味期限|しょうみきげん}→賞味期限：06076_shoumikigen⟧ (best-before). The former indicates safety concerns, while the latter indicates quality. Foods past their {消費期限|しょうひきげん} should not be eaten.",
+  "notes": "COMPOUND: ⟦{消費|しょうひ}→消費：03240_shouhi⟧ (consumption) + ⟦{期限|きげん}→期限：12861_kigen⟧ (time limit)\n\nCOMMON PATTERNS:\n- {消費期限|しょうひきげん}を⟦{守|まも}る→守る：01986_mamoru⟧ (follow the use-by date)\n- {消費期限|しょうひきげん}が⟦{過|す}ぎる→過ぎる：01219_sugiru⟧ (use-by date passes)\n- {消費期限|しょうひきげん}{切|ぎ}れ (past use-by date; expired)\n\nDISTINCTION: {消費期限|しょうひきげん} (use-by) is stricter than ⟦{賞味期限|しょうみきげん}→賞味期限：06076_shoumikigen⟧ (best-before). The former indicates safety concerns, while the latter indicates quality. Foods past their {消費期限|しょうひきげん} should not be eaten.",
   "cross_references": [
     {
       "type": "contrast",
       "reading": "しょうみきげん",
       "headword": "{賞味期限|しょうみきげん}",
       "target_id": "06076_shoumikigen"
+    },
+    {
+      "type": "related",
+      "target_id": "06415_yuukoukigen",
+      "reading": "ゆうこうきげん",
+      "headword": "{有効期限|ゆうこうきげん}",
+      "label": "expiration date"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22047_shiyoukigen",
+      "reading": "しようきげん",
+      "headword": "{使用期限|しようきげん}",
+      "label": "use-by date"
+    },
+    {
+      "type": "related",
+      "target_id": "24935_shokuhinhozon",
+      "reading": "しょくひんほぞん",
+      "headword": "{食品保存|しょくひんほぞん}",
+      "label": "food preservation"
+    },
+    {
+      "type": "related",
+      "target_id": "29838_genzairyoumei",
+      "reading": "げんざいりょうめい",
+      "headword": "{原材料名|げんざいりょうめい}",
+      "label": "list of ingredients (on a food label)"
     }
   ],
   "metadata": {
     "created": "2026-01-17T02:09:14Z",
-    "modified": "2026-06-12T01:39:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

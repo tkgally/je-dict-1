@@ -17,7 +17,9 @@
       "id": "28836_jidoukai_ex1",
       "japanese": "{児童会|じどうかい}に{入|はい}った。",
       "english": "I joined the student council.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28836_jidoukai_ex2",
       "japanese": "{児童会|じどうかい}の{会長|かいちょう}に{選|えら}ばれた。",
       "english": "I was elected president of the student council.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28836_jidoukai_ex3",
       "japanese": "{児童会|じどうかい}の{活動|かつどう}を{通|つう}じてリーダーシップを{学|まな}んだ。",
       "english": "I learned leadership through student council activities.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{児童|じどう} (children, used officially for elementary-school pupils) + {会|かい} (association). Specifically the elementary-school student council; junior high and high school have a {生徒会|せいとかい} instead.\n\nCOMMON COLLOCATIONS:\n- {児童会|じどうかい}の{会長|かいちょう}: student council president\n- {児童会|じどうかい}{役員|やくいん}: student council officer\n- {児童会|じどうかい}{活動|かつどう}: student council activities\n\nSIMILAR WORDS:\n- {生徒会|せいとかい}: student council (junior high / high school)\n- {学生会|がくせいかい}: student government (university)\n- PTA: parent-teacher association — for parents, not students",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05378_seitokai",
+      "reading": "せいとかい",
+      "headword": "{生徒会|せいとかい}",
+      "label": "student council"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28837_gakuseikai",
+      "reading": "がくせいかい",
+      "headword": "{学生会|がくせいかい}",
+      "label": "student government"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["education"],
+      "politeness": "plain",
+      "semantic": [
+        "education"
+      ],
       "domain": []
     },
     "created": "2026-06-06T02:07:42Z",
-    "modified": "2026-06-06T02:07:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

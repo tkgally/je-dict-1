@@ -19,7 +19,9 @@
       "english": "I was losing consciousness.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17330_ishikigatoonoku_ex2",
@@ -27,7 +29,9 @@
       "english": "I almost blacked out from the pain.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17330_ishikigatoonoku_ex3",
@@ -35,21 +39,35 @@
       "english": "I lost consciousness from heatstroke and when I came to, I was in the hospital.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA vivid expression that describes consciousness moving away ({遠|とお}のく = to recede, to move far away). It captures the gradual, drifting quality of losing awareness, unlike the more abrupt {気|き}を{失|うしな}う. Often used in narrative or first-person accounts of medical emergencies, exhaustion, or intense pain.\n\nCOMMON COLLOCATIONS:\n- {意識|いしき}が{遠|とお}のいていく (consciousness fading away — progressive form)\n- {意識|いしき}が{遠|とお}のきそうになる (to feel like one is about to lose consciousness)\n\nSIMILAR WORDS:\n- {気|き}を{失|うしな}う: to lose consciousness — more clinical and abrupt\n- {意識|いしき}を{失|うしな}う: to lose consciousness — neutral, medical term\n- {気絶|きぜつ}する: to faint — more sudden, often from shock",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19929_kizetsu",
+      "reading": "きぜつ",
+      "headword": "{気絶|きぜつ}",
+      "label": "to faint"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T06:03:48Z",
-    "modified": "2026-03-17T06:03:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     }
   }
 }

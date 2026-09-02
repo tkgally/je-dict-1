@@ -19,7 +19,9 @@
       "english": "To buy local farm produce.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14360_nousanbutsu_ex2",
@@ -27,7 +29,9 @@
       "english": "This region has thriving agricultural production.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14360_nousanbutsu_ex3",
@@ -35,21 +39,56 @@
       "english": "The increase in imported agricultural products is affecting domestic farmers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE NOTES:\n{農産物|のうさんぶつ} is a formal compound noun used in news, trade discussions, and policy contexts. In everyday conversation, {野菜|やさい} (vegetables) or {果物|くだもの} (fruit) is more common for specific items.\n\nCOMMON COLLOCATIONS:\n- {国産|こくさん}{農産物|のうさんぶつ} (domestic agricultural products)\n- {輸入|ゆにゅう}{農産物|のうさんぶつ} (imported agricultural products)\n- {農産物|のうさんぶつ}{直売所|ちょくばいじょ} (farm produce direct sales stand)\n- {農産物|のうさんぶつ}の{輸出|ゆしゅつ} (export of agricultural products)",
-  "cross_references": [],
+  "notes": "USAGE:\n{農産物|のうさんぶつ} is a formal compound noun used in news, trade discussions, and policy contexts. In everyday conversation, {野菜|やさい} (vegetables) or {果物|くだもの} (fruit) is more common for specific items.\n\nCOMMON COLLOCATIONS:\n- {国産|こくさん}{農産物|のうさんぶつ} (domestic agricultural products)\n- {輸入|ゆにゅう}{農産物|のうさんぶつ} (imported agricultural products)\n- {農産物|のうさんぶつ}{直売所|ちょくばいじょ} (farm produce direct sales stand)\n- {農産物|のうさんぶつ}の{輸出|ゆしゅつ} (export of agricultural products)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01491_nougyou",
+      "reading": "のうぎょう",
+      "headword": "{農業|のうぎょう}",
+      "label": "agriculture, farming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02823_sakumotsu",
+      "reading": "さくもつ",
+      "headword": "{作物|さくもつ}",
+      "label": "crops, produce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15271_nousakubutsu",
+      "reading": "のうさくぶつ",
+      "headword": "{農作物|のうさくぶつ}",
+      "label": "crops"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29485_kougyouseihin",
+      "reading": "こうぎょうせいひん",
+      "headword": "{工業製品|こうぎょうせいひん}",
+      "label": "industrial product"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T13:05:36Z",
-    "modified": "2026-02-28T13:05:36Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

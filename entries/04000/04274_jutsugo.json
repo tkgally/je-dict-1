@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{述語|じゅつご} is a grammatical term used to describe the predicate of a sentence. In Japanese grammar, the predicate typically comes at the end of the sentence.\n\nRELATED TERMS:\n- ⟦{主語|しゅご}→主語：00377_shugo⟧: subject\n- ⟦{目的語|もくてきご}→目的語：20479_mokutekigo⟧: object\n- ⟦{修飾語|しゅうしょくご}→修飾語：21309_shuushokugo⟧: modifier\n- ⟦{補語|ほご}→補語：22867_hogo⟧: complement\n\nIn Japanese linguistics, predicates can be verbal (⟦{動詞|どうし}→動詞：03472_doushi⟧), adjectival (⟦{形容詞|けいようし}→形容詞：10419_keiyoushi⟧), or nominal (⟦{名詞|めいし}→名詞：10420_meishi⟧ + だ/⟦です→です：09485_desu⟧).",
+  "notes": "{述語|じゅつご} is a grammatical term used to describe the predicate of a sentence. In Japanese grammar, the predicate typically comes at the end of the sentence.\n\nRELATED WORDS:\n- ⟦{主語|しゅご}→主語：00377_shugo⟧: subject\n- ⟦{目的語|もくてきご}→目的語：20479_mokutekigo⟧: object\n- ⟦{修飾語|しゅうしょくご}→修飾語：21309_shuushokugo⟧: modifier\n- ⟦{補語|ほご}→補語：22867_hogo⟧: complement\n\nIn Japanese linguistics, predicates can be verbal (⟦{動詞|どうし}→動詞：03472_doushi⟧), adjectival (⟦{形容詞|けいようし}→形容詞：10419_keiyoushi⟧), or nominal (⟦{名詞|めいし}→名詞：10420_meishi⟧ + だ/⟦です→です：09485_desu⟧).",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,32 @@
       "reading": "しゅご",
       "headword": "{主語|しゅご}",
       "label": "subject (grammar)"
+    },
+    {
+      "type": "related",
+      "target_id": "20479_mokutekigo",
+      "reading": "もくてきご",
+      "headword": "{目的語|もくてきご}",
+      "label": "object"
+    },
+    {
+      "type": "related",
+      "target_id": "21309_shuushokugo",
+      "reading": "しゅうしょくご",
+      "headword": "{修飾語|しゅうしょくご}",
+      "label": "modifier"
+    },
+    {
+      "type": "related",
+      "target_id": "22867_hogo",
+      "reading": "ほご",
+      "headword": "{補語|ほご}",
+      "label": "complement"
     }
   ],
   "metadata": {
     "created": "2026-01-13T22:31:30Z",
-    "modified": "2026-05-30T16:12:37Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

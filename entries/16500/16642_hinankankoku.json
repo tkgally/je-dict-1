@@ -19,7 +19,9 @@
       "english": "An evacuation advisory was issued.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16642_hinankankoku_ex2",
@@ -27,7 +29,9 @@
       "english": "An evacuation advisory was issued due to heavy rain.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16642_hinankankoku_ex3",
@@ -35,22 +39,46 @@
       "english": "Residents moved to evacuation shelters after receiving the evacuation advisory.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "NOTE:\nAs of May 2021, Japan's disaster response system was revised. The previous three-level system ({避難準備|ひなんじゅんび}, {避難勧告|ひなんかんこく}, {避難指示|ひなんしじ}) was simplified, with {避難勧告|ひなんかんこく} being abolished and merged into {避難指示|ひなんしじ}. However, the term remains widely known and may still appear in older materials and historical reports.\n\nCOMMON COLLOCATIONS:\n- {避難勧告|ひなんかんこく}が{出|で}る (an advisory is issued)\n- {避難勧告|ひなんかんこく}を{発令|はつれい}する (to issue an advisory)\n- {避難勧告|ひなんかんこく}が{解除|かいじょ}される (an advisory is lifted)\n\nRELATED:\n- {避難指示|ひなんしじ}: evacuation order (stronger than advisory)\n- {避難所|ひなんじょ}: evacuation shelter",
-  "cross_references": [],
+  "notes": "USAGE:\nAs of May 2021, Japan's disaster response system was revised. The previous three-level system ({避難準備|ひなんじゅんび}, {避難勧告|ひなんかんこく}, {避難指示|ひなんしじ}) was simplified, with {避難勧告|ひなんかんこく} being abolished and merged into {避難指示|ひなんしじ}. However, the term remains widely known and may still appear in older materials and historical reports.\n\nCOMMON COLLOCATIONS:\n- {避難勧告|ひなんかんこく}が{出|で}る (an advisory is issued)\n- {避難勧告|ひなんかんこく}を{発令|はつれい}する (to issue an advisory)\n- {避難勧告|ひなんかんこく}が{解除|かいじょ}される (an advisory is lifted)\n\nRELATED WORDS:\n- {避難指示|ひなんしじ}: evacuation order (stronger than advisory)\n- {避難所|ひなんじょ}: evacuation shelter",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20801_hinanshiji",
+      "reading": "ひなんしじ",
+      "headword": "{避難指示|ひなんしじ}",
+      "label": "evacuation order"
+    },
+    {
+      "type": "related",
+      "target_id": "07374_hinanjo",
+      "reading": "ひなんじょ",
+      "headword": "{避難所|ひなんじょ}",
+      "label": "evacuation shelter"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T01:36:58Z",
-    "modified": "2026-03-14T01:36:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["disaster", "safety"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "disaster",
+        "safety"
+      ]
     }
   }
 }

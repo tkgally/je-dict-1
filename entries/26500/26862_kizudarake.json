@@ -3,7 +3,7 @@
   "headword": "{傷|きず}だらけ",
   "reading": "きずだらけ",
   "romaji": "kizudarake",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "covered with wounds; full of scratches; riddled with flaws",
   "definitions": [
     {
@@ -80,7 +80,22 @@
     }
   ],
   "notes": "The suffix だらけ means 'covered with' or 'full of' (always negative or neutral, never positive). Combined with 傷, it creates a vivid image of something thoroughly marked. Functions as a na-adjective (傷だらけの～) or predicate (～は傷だらけだ).\n\nCOMMON COLLOCATIONS:\n- {傷|きず}だらけの{体|からだ}: body covered in wounds\n- {傷|きず}だらけの{手|て}: scratched-up hands\n- {傷|きず}だらけになる: to become covered in scratches\n- {傷|きず}だらけの{人生|じんせい}: a scarred life\n\nRELATED ～だらけ EXPRESSIONS:\n- {泥|どろ}だらけ: covered in mud\n- {血|ち}だらけ: covered in blood\n- {間違|まちが}いだらけ: full of mistakes\n- {埃|ほこり}だらけ: covered in dust",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15076_dorodarake",
+      "reading": "どろだらけ",
+      "headword": "{泥|どろ}だらけ",
+      "label": "covered in mud"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07120_manshinsoui",
+      "reading": "まんしんそうい",
+      "headword": "{満身創痍|まんしんそうい}",
+      "label": "covered in wounds"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -96,6 +111,6 @@
       ]
     },
     "created": "2026-05-05T14:12:53Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{不品行|ふひんこう}",
   "reading": "ふひんこう",
   "romaji": "fuhinkou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "misconduct; immoral behavior",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "24520_fuhinkou_ex1",
       "japanese": "{不品行|ふひんこう}な{行為|こうい}は{許|ゆる}されない。",
       "english": "Immoral conduct is not tolerated.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24520_fuhinkou_ex2",
       "japanese": "{教師|きょうし}の{不品行|ふひんこう}が{問題|もんだい}になっている。",
       "english": "The teacher's misconduct has become an issue.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,44 @@
       "id": "24520_fuhinkou_ex3",
       "japanese": "{社員|しゃいん}の{不品行|ふひんこう}が{発覚|はっかく}し、{会社|かいしゃ}は{厳正|げんせい}な{処分|しょぶん}を{下|くだ}した。",
       "english": "An employee's misconduct was uncovered, and the company imposed strict disciplinary action.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {不|ふ} (negation prefix) and {品行|ひんこう} (conduct, behavior). Used in formal and written contexts such as news reports, legal proceedings, and institutional disciplinary matters. The word carries a strong moral judgment.\n\nCOMMON COLLOCATIONS:\n- {不品行|ふひんこう}な{行為|こうい}: immoral conduct\n- {不品行|ふひんこう}が{発覚|はっかく}する: misconduct is discovered\n- {不品行|ふひんこう}を{理由|りゆう}に: on grounds of misconduct\n- {不品行|ふひんこう}で{解雇|かいこ}される: to be dismissed for misconduct\n\nSIMILAR WORDS:\n- {品行|ひんこう}{方正|ほうせい}: good conduct; upright behavior (the positive counterpart)\n- {非行|ひこう}: delinquency (typically used for juvenile offenders)\n- {不正|ふせい}: fraud; dishonesty (focuses on illegality rather than morality)\n- {素行|そこう}{不良|ふりょう}: bad behavior; poor conduct",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03703_hikou",
+      "reading": "ひこう",
+      "headword": "{非行|ひこう}",
+      "label": "delinquency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01660_fusei",
+      "reading": "ふせい",
+      "headword": "{不正|ふせい}",
+      "label": "fraud"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
-      "semantic": ["society"]
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "society"
+      ]
     },
     "created": "2026-04-19T13:08:09Z",
-    "modified": "2026-04-19T13:08:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

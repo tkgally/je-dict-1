@@ -3,7 +3,7 @@
   "headword": "{洗練|せんれん}する",
   "reading": "せんれんする",
   "romaji": "senrensuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to refine; to polish; to make sophisticated",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "{洗練|せんれん}する literally means to \"wash and temper\" — to remove impurities and polish what remains. In practice, the past participle form {洗練|せんれん}された is far more common than the active verb form, functioning as an adjective meaning \"refined\" or \"sophisticated.\" It is a positive, admiring word.\n\nUSAGE:\n- {洗練|せんれん}された + noun: refined/sophisticated + noun (most common pattern)\n- ～が{洗練|せんれん}される: ~ becomes refined (passive/intransitive)\n\nCOMMON COLLOCATIONS:\n- {洗練|せんれん}されたデザイン: refined design\n- {洗練|せんれん}された{雰囲気|ふんいき}: sophisticated atmosphere\n- {洗練|せんれん}された{味|あじ}: refined flavor\n- {洗練|せんれん}された{文章|ぶんしょう}: polished writing\n- {洗練|せんれん}された{趣味|しゅみ}: refined taste\n\nSIMILAR WORDS:\n- {上品|じょうひん}な: elegant; refined — describes inherent class and elegance, not the process of refinement\n- {磨|みが}く: to polish; to refine — more concrete, includes physical polishing and skill improvement\n- {熟練|じゅくれん}した: skilled; expert — focuses on skill mastery through practice rather than aesthetic refinement",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03081_jouhin",
+      "reading": "じょうひん",
+      "headword": "{上品|じょうひん}",
+      "label": "elegant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02427_migaku",
+      "reading": "みがく",
+      "headword": "{磨|みが}く",
+      "label": "to polish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09081_jukuren",
+      "reading": "じゅくれん",
+      "headword": "{熟練|じゅくれん}",
+      "label": "skilled"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +76,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "appearance",
         "evaluation"
@@ -62,7 +86,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T16:19:45Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

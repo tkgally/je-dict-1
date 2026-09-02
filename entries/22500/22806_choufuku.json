@@ -3,7 +3,7 @@
   "headword": "{重複|ちょうふく}",
   "reading": "ちょうふく",
   "romaji": "choufuku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "duplication; overlap; redundancy",
   "definitions": [
     {
@@ -56,6 +56,36 @@
   ],
   "notes": "Refers to the same thing appearing or being counted more than once. Used widely in administrative, technical, and everyday contexts when something is unnecessarily repeated or overlaps.\n\nPRONUNCIATION:\nThe traditional reading is ちょうふく, but じゅうふく is also widely used and accepted in modern Japanese. Both readings are correct.\n\nCOMMON COLLOCATIONS:\n- {重複|ちょうふく}する: to overlap, to be duplicated\n- {重複|ちょうふく}を{避|さ}ける: to avoid duplication\n- {重複|ちょうふく}{登録|とうろく}: duplicate registration\n- {重複|ちょうふく}{部分|ぶぶん}: overlapping portion\n\nSIMILAR WORDS:\n- {重|かさ}なる: to overlap physically or in timing — more general and everyday\n- {繰|く}り{返|かえ}す: to repeat — focuses on doing something again, not on duplication of data or entries",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02038_kasanaru",
+      "reading": "かさなる",
+      "headword": "{重|かさ}なる",
+      "label": "to overlap physically or in timing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02051_kurikaesu",
+      "reading": "くりかえす",
+      "headword": "{繰|く}り{返|かえ}す",
+      "label": "to repeat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24002_jouchousei",
+      "reading": "じょうちょうせい",
+      "headword": "{冗長性|じょうちょうせい}",
+      "label": "redundancy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24559_kasanari",
+      "reading": "かさなり",
+      "headword": "{重|かさ}なり",
+      "label": "overlap"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,13 +93,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-07T17:04:05Z",
-    "modified": "2026-04-07T17:04:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -2,7 +2,7 @@
   "id": "03497_chokin",
   "headword": "{貯金|ちょきん}",
   "reading": "ちょきん",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "savings, deposit",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "COMMON PATTERNS:\n・{貯金|ちょきん}する (to save money)\n・{貯金|ちょきん}⟦を→を：00422_wo⟧⟦{下|お}ろす→下ろす：02029_orosu⟧ (to withdraw savings)\n・{貯金|ちょきん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧/⟦ない→ない：01118_nai⟧ (to have/not have savings)\n\nCOMMON COMPOUND WORDS:\n・⟦{貯金|ちょきん}{箱|ばこ}→貯金箱：15345_chokinbako⟧ (piggy bank, savings box)\n・⟦{定期|ていき}→定期：03538_teiki⟧{貯金|ちょきん} (fixed-term deposit)\n・⟦{普通|ふつう}→普通：01502_futsuu⟧{貯金|ちょきん} (regular savings account)\n・⟦{郵便|ゆうびん}→郵便：03803_yuubin⟧{貯金|ちょきん} (postal savings)\n\nSIMILAR WORDS:\n・{貯金|ちょきん}: Savings, deposits (general term, often postal savings)\n・⟦{預金|よきん}→預金：05420_yokin⟧: Bank deposit (specifically at banks)\n・⟦{貯蓄|ちょちく}→貯蓄：18972_chochiku⟧: Savings (broader, includes investments)",
+  "notes": "COMMON PATTERNS:\n- {貯金|ちょきん}する (to save money)\n- {貯金|ちょきん}⟦を→を：00422_wo⟧⟦{下|お}ろす→下ろす：02029_orosu⟧ (to withdraw savings)\n- {貯金|ちょきん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧/⟦ない→ない：01118_nai⟧ (to have/not have savings)\n\nCOMPOUNDS:\n- ⟦{貯金|ちょきん}{箱|ばこ}→貯金箱：15345_chokinbako⟧ (piggy bank, savings box)\n- ⟦{定期|ていき}→定期：03538_teiki⟧{貯金|ちょきん} (fixed-term deposit)\n- ⟦{普通|ふつう}→普通：01502_futsuu⟧{貯金|ちょきん} (regular savings account)\n- ⟦{郵便|ゆうびん}→郵便：03803_yuubin⟧{貯金|ちょきん} (postal savings)\n\nSIMILAR WORDS:\n- {貯金|ちょきん}: Savings, deposits (general term, often postal savings)\n- ⟦{預金|よきん}→預金：05420_yokin⟧: Bank deposit (specifically at banks)\n- ⟦{貯蓄|ちょちく}→貯蓄：18972_chochiku⟧: Savings (broader, includes investments)",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,60 @@
       "headword": "{預金|よきん}",
       "label": "bank deposit",
       "target_id": "05420_yokin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18972_chochiku",
+      "reading": "ちょちく",
+      "headword": "{貯蓄|ちょちく}",
+      "label": "Savings"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13993_takuwae",
+      "reading": "たくわえ",
+      "headword": "{蓄|たくわ}え",
+      "label": "savings, reserves, stock"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22251_teikiyokin",
+      "reading": "ていきよきん",
+      "headword": "{定期預金|ていきよきん}",
+      "label": "time deposit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24399_yokinkouza",
+      "reading": "よきんこうざ",
+      "headword": "{預金|よきん}{口座|こうざ}",
+      "label": "bank account"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25226_setsuyakusuru",
+      "reading": "せつやくする",
+      "headword": "{節約|せつやく}する",
+      "label": "to economize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27801_tameru",
+      "reading": "ためる",
+      "headword": "{貯|た}める",
+      "label": "to save up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28915_tsumitatekin",
+      "reading": "つみたてきん",
+      "headword": "{積立金|つみたてきん}",
+      "label": "reserve fund"
     }
   ],
   "metadata": {
     "created": "2026-01-12T09:24:00Z",
-    "modified": "2026-05-25T22:05:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

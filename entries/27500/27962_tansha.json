@@ -17,7 +17,9 @@
       "id": "27962_tansha_ex1",
       "japanese": "{単車|たんしゃ}で{通勤|つうきん}している。",
       "english": "I commute by motorcycle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27962_tansha_ex2",
       "japanese": "{若|わか}いころは{単車|たんしゃ}が{好|す}きだった。",
       "english": "When I was young I liked motorcycles.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "27962_tansha_ex3",
       "japanese": "{父|ちち}は{昔|むかし}、{単車|たんしゃ}で{日本|にほん}{中|じゅう}を{旅|たび}したそうだ。",
       "english": "My father apparently traveled all over Japan by motorcycle long ago.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "An older, somewhat colloquial word for a motorcycle. The name (literally 'single vehicle') originally contrasted a motorcycle alone with one fitted with a sidecar. It can sound dated; younger speakers usually say バイク.\n\nSIMILAR WORDS:\n- バイク: motorcycle — the standard everyday word today\n- オートバイ: motorcycle — slightly more formal, used in writing and traffic contexts\n- {自転車|じてんしゃ}: bicycle — a different vehicle, not motorized",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05081_baiku",
+      "reading": "ばいく",
+      "headword": "バイク",
+      "label": "motorcycle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01774_ootobai",
+      "reading": "おーとばい",
+      "headword": "オートバイ",
+      "label": "motorcycle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00633_jitensha",
+      "reading": "じてんしゃ",
+      "headword": "{自転車|じてんしゃ}",
+      "label": "bicycle"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["transportation"],
+      "semantic": [
+        "transportation"
+      ],
       "domain": []
     },
     "created": "2026-05-23T04:06:38Z",
-    "modified": "2026-05-23T04:06:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

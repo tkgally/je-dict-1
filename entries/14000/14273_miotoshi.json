@@ -19,7 +19,9 @@
       "english": "Check the documents for any oversights.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14273_miotoshi_ex2",
@@ -27,7 +29,9 @@
       "english": "A small oversight can lead to a big mistake.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14273_miotoshi_ex3",
@@ -35,21 +39,42 @@
       "english": "I reread it many times, but there were still things I missed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Noun form derived from the verb {見落|みお}とす (to overlook, to miss). Commonly used in work and professional contexts when checking for errors.\n\nCOMMON COLLOCATIONS:\n- {見落|みお}としがある (there is an oversight)\n- {見落|みお}としがないか{確認|かくにん}する (check for oversights)\n- {重大|じゅうだい}な{見落|みお}とし (a serious oversight)\n\nSIMILAR WORDS:\n- {見逃|みのが}し: missing something (can imply intentionally letting it pass)\n- ミス: mistake (broader, includes all types of errors)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08297_minogashi",
+      "reading": "みのがし",
+      "headword": "{見逃|みのが}し",
+      "label": "missing something"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00285_misu",
+      "reading": "みす",
+      "headword": "ミス",
+      "label": "mistake"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T09:21:12Z",
-    "modified": "2026-02-28T09:21:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     }
   }
 }

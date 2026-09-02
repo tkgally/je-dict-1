@@ -17,7 +17,9 @@
       "id": "28126_michibata_ex1",
       "japanese": "{道端|みちばた}に{花|はな}が{咲|さ}いている。",
       "english": "Flowers are blooming by the roadside.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28126_michibata_ex2",
       "japanese": "{道端|みちばた}で{子猫|こねこ}を{拾|ひろ}った。",
       "english": "I picked up a kitten on the side of the road.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "28126_michibata_ex3",
       "japanese": "{道端|みちばた}に{座|すわ}り{込|こ}んで、しばらく{空|そら}を{見上|みあ}げていた。",
       "english": "I sat down by the roadside and gazed up at the sky for a while.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{道端|みちばた} refers to the side or edge of a road. The {端|ばた} element (a voiced form of {端|はた}) means 'edge.'\n\nCOMMON COLLOCATIONS:\n- {道端|みちばた}に: by the roadside (location)\n- {道端|みちばた}で: at the roadside (where an action happens)\n- {道端|みちばた}の{草|くさ}: roadside grass\n\nSIMILAR WORDS:\n- {路肩|ろかた}: road shoulder — the paved edge of a road for vehicles\n- {歩道|ほどう}: sidewalk — a designated walkway",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20701_rokata",
+      "reading": "ろかた",
+      "headword": "{路肩|ろかた}",
+      "label": "road shoulder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03723_hodou",
+      "reading": "ほどう",
+      "headword": "{歩道|ほどう}",
+      "label": "sidewalk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30100_rosoku",
+      "reading": "ろそく",
+      "headword": "{路側|ろそく}",
+      "label": "roadside"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["geography"],
+      "politeness": "plain",
+      "semantic": [
+        "geography"
+      ],
       "domain": []
     },
     "created": "2026-05-26T02:06:25Z",
-    "modified": "2026-05-26T02:06:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

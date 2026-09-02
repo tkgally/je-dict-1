@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{小銭|こぜに} refers to coins or small change.\n\nCOMMON PATTERNS:\n- {小銭|こぜに}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧/⟦ない→ない：01118_nai⟧ (to have/not have change)\n- {小銭|こぜに}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧ (to carry change)\n- {小銭|こぜに}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ (to take out coins)\n- {小銭|こぜに}⟦が→が：00051_ga⟧⟦たまる→溜まる：02067_tamaru⟧ (coins accumulate)\n\nSIMILAR WORDS:\n- {小銭|こぜに}: coins, small change (casual)\n- ⟦{硬貨|こうか}→硬貨：02745_kouka⟧: coins (formal/technical)\n- ⟦おつり→お釣り：00878_otsuri⟧: change (what you receive back)\n\nUSEFUL EXPRESSIONS:\n- ⟦{小銭|こぜに}{入|い}れ→小銭入れ：20896_kozeniire⟧ (coin purse)\n- {小銭|こぜに}⟦を→を：00422_wo⟧⟦{崩|くず}す→崩す：03919_kuzusu⟧ (to break a bill into coins)",
+  "notes": "{小銭|こぜに} refers to coins or small change.\n\nCOMMON PATTERNS:\n- {小銭|こぜに}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧/⟦ない→ない：01118_nai⟧ (to have/not have change)\n- {小銭|こぜに}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧ (to carry change)\n- {小銭|こぜに}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ (to take out coins)\n- {小銭|こぜに}⟦が→が：00051_ga⟧⟦たまる→溜まる：02067_tamaru⟧ (coins accumulate)\n\nSIMILAR WORDS:\n- {小銭|こぜに}: coins, small change (casual)\n- ⟦{硬貨|こうか}→硬貨：02745_kouka⟧: coins (formal/technical)\n- ⟦おつり→お釣り：00878_otsuri⟧: change (what you receive back)\n\nCOMMON EXPRESSIONS:\n- ⟦{小銭|こぜに}{入|い}れ→小銭入れ：20896_kozeniire⟧ (coin purse)\n- {小銭|こぜに}⟦を→を：00422_wo⟧⟦{崩|くず}す→崩す：03919_kuzusu⟧ (to break a bill into coins)",
   "cross_references": [
     {
       "type": "related",
@@ -65,11 +65,53 @@
       "reading": "おつり",
       "headword": "お釣り",
       "label": "change received"
+    },
+    {
+      "type": "related",
+      "target_id": "10190_ryougaeki",
+      "reading": "りょうがえき",
+      "headword": "{両替機|りょうがえき}",
+      "label": "change machine, currency exchange machine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10852_koin",
+      "reading": "こいん",
+      "headword": "コイン",
+      "label": "coin"
+    },
+    {
+      "type": "related",
+      "target_id": "16603_senensatsu",
+      "reading": "せんえんさつ",
+      "headword": "{千円札|せんえんさつ}",
+      "label": "thousand-yen bill"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23841_koguchi",
+      "reading": "こぐち",
+      "headword": "{小口|こぐち}",
+      "label": "small amount"
+    },
+    {
+      "type": "related",
+      "target_id": "27344_endama",
+      "reading": "えんだま",
+      "headword": "{円玉|えんだま}",
+      "label": "yen coin (used after a denomination, e.g. 100{円玉|えんだま} \"100-yen coin\")"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27568_tsurisen",
+      "reading": "つりせん",
+      "headword": "{釣|つ}り{銭|せん}",
+      "label": "change (formal)"
     }
   ],
   "metadata": {
     "created": "2026-01-11T07:55:45Z",
-    "modified": "2026-06-12T04:00:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

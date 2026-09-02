@@ -22,7 +22,9 @@
       "id": "19383_hikoushi_ex1",
       "japanese": "{飛行士|ひこうし}になるのが{夢|ゆめ}だ。",
       "english": "My dream is to become a pilot.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "19383_hikoushi_ex2",
       "japanese": "{宇宙|うちゅう}{飛行士|ひこうし}が{無事|ぶじ}に{地球|ちきゅう}に{帰還|きかん}した。",
       "english": "The astronaut safely returned to Earth.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "19383_hikoushi_ex3",
       "japanese": "{日本人|にほんじん}の{宇宙|うちゅう}{飛行士|ひこうし}が{国際|こくさい}{宇宙|うちゅう}ステーションで{活動|かつどう}している。",
       "english": "A Japanese astronaut is working on the International Space Station.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "19383_hikoushi_ex4",
       "japanese": "テスト{飛行士|ひこうし}が{新型|しんがた}の{航空機|こうくうき}を{操縦|そうじゅう}した。",
       "english": "A test pilot flew the new aircraft.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "19383_hikoushi_ex5",
       "japanese": "{彼|かれ}は{子供|こども}の{頃|ころ}から{飛行士|ひこうし}に{憧|あこが}れ、{厳|きび}しい{訓練|くんれん}を{経|へ}てようやくその{夢|ゆめ}を{叶|かな}えた。",
       "english": "He had admired pilots since childhood and finally fulfilled that dream after rigorous training.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,44 @@
       "id": "19383_hikoushi_ex6",
       "japanese": "{娘|むすめ}は{宇宙|うちゅう}{飛行士|ひこうし}になりたいと{言|い}って、{毎日|まいにち}{星|ほし}の{図鑑|ずかん}を{読|よ}んでいる。",
       "english": "My daughter says she wants to be an astronaut and reads a book about stars every day.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{飛行士|ひこうし} is the formal term for a person who operates aircraft, formed from {飛行|ひこう} (flight) + {士|し} (professional/practitioner). The {士|し} suffix denotes a qualified professional, giving the word a more formal tone than the loanword パイロット.\n\nKEY COMPOUND:\n- {宇宙|うちゅう}{飛行士|ひこうし} — astronaut (literally \"space pilot\")\n\nRELATED WORDS:\n- パイロット — pilot (loanword, more common in everyday use)\n- {操縦士|そうじゅうし} — pilot (emphasizes the operation of the aircraft)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00339_pairotto",
+      "reading": "ぱいろっと",
+      "headword": "パイロット",
+      "label": "pilot"
+    },
+    {
+      "type": "related",
+      "target_id": "20748_soujuushi",
+      "reading": "そうじゅうし",
+      "headword": "{操縦士|そうじゅうし}",
+      "label": "pilot"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     },
     "created": "2026-03-25T12:57:22Z",
-    "modified": "2026-07-26T21:31:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

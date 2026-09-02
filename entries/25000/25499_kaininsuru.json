@@ -3,7 +3,7 @@
   "headword": "{解任|かいにん}する",
   "reading": "かいにんする",
   "romaji": "kaininsuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to dismiss; to remove from office",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Composed of {解任|かいにん} (dismissal; removal from office) + する. A formal term used primarily in corporate governance and sports management. In news headlines, the passive form {解任|かいにん}される is very common, especially for sports managers and corporate executives.\n\nCOMMON COLLOCATIONS:\n- {監督|かんとく}を{解任|かいにん}する: to dismiss a manager/coach\n- {取締役|とりしまりやく}を{解任|かいにん}する: to remove a company director\n- {解任|かいにん}{要求|ようきゅう}: demand for dismissal\n- {解任|かいにん}{動議|どうぎ}: motion for removal\n\nSIMILAR WORDS:\n- {解雇|かいこ}する: to fire; to dismiss — used for regular employees, while {解任|かいにん} is for people in appointed positions\n- {罷免|ひめん}する: to impeach and dismiss — more formal, used for government officials removed through official proceedings\n- {更迭|こうてつ}する: to replace; to reshuffle — emphasizes the replacement aspect rather than the removal",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04561_kaiko",
+      "reading": "かいこ",
+      "headword": "{解雇|かいこ}",
+      "label": "to fire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29397_himen",
+      "reading": "ひめん",
+      "headword": "{罷免|ひめん}",
+      "label": "to impeach and dismiss"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07969_koutetsu",
+      "reading": "こうてつ",
+      "headword": "{更迭|こうてつ}",
+      "label": "to replace"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,6 +75,7 @@
       "pos": [
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "business",
         "politics"
@@ -60,7 +83,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T15:12:04Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

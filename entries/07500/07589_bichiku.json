@@ -2,7 +2,7 @@
   "id": "07589_bichiku",
   "headword": "{備蓄|びちく}",
   "reading": "びちく",
-  "part_of_speech": "noun/suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "stockpile; reserves; emergency supplies",
   "conjugation": {
     "type": "suru",
@@ -130,10 +130,68 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{備|び} (prepare, equip) + {蓄|ちく} (store, accumulate)\n\nCOMMON COLLOCATIONS:\n・{食料|しょくりょう}{備蓄|びちく} - food stockpile\n・{石油|せきゆ}{備蓄|びちく} - oil reserves\n・{備蓄|びちく}{品|ひん} - stockpiled goods\n・{備蓄|びちく}{倉庫|そうこ} - stockpile warehouse\n・{緊急|きんきゅう}{備蓄|びちく} - emergency reserves\n\nDISASTER PREPAREDNESS:\nIn Japan, households are encouraged to stockpile:\n・{水|みず} - water (3 liters per person per day)\n・{非常食|ひじょうしょく} - emergency food\n・{懐中電灯|かいちゅうでんとう} - flashlight\n・{乾電池|かんでんち} - batteries\n・{救急|きゅうきゅう}セット - first aid kit\n\nRELATED WORDS:\n・{貯蔵|ちょぞう} - storage, preservation\n・{蓄|たくわ}え - reserves, savings\n・{物資|ぶっし} - supplies, goods",
+  "notes": "ETYMOLOGY:\n{備|び} (prepare, equip) + {蓄|ちく} (store, accumulate)\n\nCOMMON COLLOCATIONS:\n- {食料|しょくりょう}{備蓄|びちく} - food stockpile\n- {石油|せきゆ}{備蓄|びちく} - oil reserves\n- {備蓄|びちく}{品|ひん} - stockpiled goods\n- {備蓄|びちく}{倉庫|そうこ} - stockpile warehouse\n- {緊急|きんきゅう}{備蓄|びちく} - emergency reserves\n\nDISASTER PREPAREDNESS:\nIn Japan, households are encouraged to stockpile:\n- {水|みず} - water (3 liters per person per day)\n- {非常食|ひじょうしょく} - emergency food\n- {懐中電灯|かいちゅうでんとう} - flashlight\n- {乾電池|かんでんち} - batteries\n- {救急|きゅうきゅう}セット - first aid kit\n\nRELATED WORDS:\n- {貯蔵|ちょぞう} - storage, preservation\n- {蓄|たくわ}え - reserves, savings\n- {物資|ぶっし} - supplies, goods",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04527_chozou",
+      "reading": "ちょぞう",
+      "headword": "{貯蔵|ちょぞう}",
+      "label": "storage, preservation"
+    },
+    {
+      "type": "related",
+      "target_id": "13993_takuwae",
+      "reading": "たくわえ",
+      "headword": "{蓄|たくわ}え",
+      "label": "reserves, savings"
+    },
+    {
+      "type": "related",
+      "target_id": "07863_busshi",
+      "reading": "ぶっし",
+      "headword": "{物資|ぶっし}",
+      "label": "supplies, goods"
+    },
+    {
+      "type": "related",
+      "target_id": "07374_hinanjo",
+      "reading": "ひなんじょ",
+      "headword": "{避難所|ひなんじょ}",
+      "label": "evacuation shelter"
+    },
+    {
+      "type": "related",
+      "target_id": "18447_choukihozon",
+      "reading": "ちょうきほぞん",
+      "headword": "{長期保存|ちょうきほぞん}",
+      "label": "long-term storage"
+    },
+    {
+      "type": "related",
+      "target_id": "25766_saigaitaisaku",
+      "reading": "さいがいたいさく",
+      "headword": "{災害対策|さいがいたいさく}",
+      "label": "disaster preparedness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27113_joubi",
+      "reading": "じょうび",
+      "headword": "{常備|じょうび}",
+      "label": "always having on hand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30297_kaioki",
+      "reading": "かいおき",
+      "headword": "{買|か}い{置|お}き",
+      "label": "stocking up"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T10:31:31Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +200,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "action"

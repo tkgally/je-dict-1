@@ -2,7 +2,7 @@
   "id": "04870_bakkuappu",
   "headword": "バックアップ",
   "reading": "ばっくあっぷ",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "backup",
   "conjugation": {
     "type": "suru",
@@ -169,10 +169,39 @@
     }
   ],
   "notes": "バックアップ is a loanword from English \"backup\" with two main meanings: data backup and support/assistance.\n\nSENSE 1 - DATA BACKUP:\n- バックアップ⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to make a backup\n- バックアップする: to back up (data)\n- ⟦{自動|じどう}→自動：03339_jidou⟧バックアップ: automatic backup\n- バックアップ⟦ファイル→ファイル：05280_fairu⟧: backup file\n- ⟦クラウド→クラウド：04757_kuraudo⟧バックアップ: cloud backup\n\nSENSE 2 - SUPPORT:\n- バックアップする: to support, to back up (a person/team)\n- バックアップ⟦{体制|たいせい}→体制：04490_taisei⟧: support system\n\nUSAGE NOTE: In computing contexts, this is an essential term. Regular バックアップ⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ is strongly recommended for important data.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04720_deetabeesu",
+      "reading": "でーたべーす",
+      "headword": "データベース",
+      "label": "database"
+    },
+    {
+      "type": "related",
+      "target_id": "04757_kuraudo",
+      "reading": "くらうど",
+      "headword": "クラウド",
+      "label": "cloud"
+    },
+    {
+      "type": "related",
+      "target_id": "09814_deetaikou",
+      "reading": "でーたいこう",
+      "headword": "データ{移行|いこう}",
+      "label": "data transfer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24002_jouchousei",
+      "reading": "じょうちょうせい",
+      "headword": "{冗長性|じょうちょうせい}",
+      "label": "redundancy"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T00:32:58Z",
-    "modified": "2026-06-02T21:23:21Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

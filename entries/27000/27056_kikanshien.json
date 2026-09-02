@@ -17,7 +17,9 @@
       "id": "27056_kikanshien_ex1",
       "japanese": "{気管支炎|きかんしえん}と{診断|しんだん}された。",
       "english": "I was diagnosed with bronchitis.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27056_kikanshien_ex2",
       "japanese": "{風邪|かぜ}をこじらせて{気管支炎|きかんしえん}になってしまった。",
       "english": "My cold got worse and turned into bronchitis.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "27056_kikanshien_ex3",
       "japanese": "{慢性|まんせい}{気管支炎|きかんしえん}の{患者|かんじゃ}は{冬場|ふゆば}に{症状|しょうじょう}が{悪化|あっか}しやすい。",
       "english": "Patients with chronic bronchitis tend to have worsening symptoms in winter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {気管支|きかんし} (bronchial tubes) and {炎|えん} (inflammation). The {炎|えん} suffix is used for many inflammatory conditions: {肺炎|はいえん} (pneumonia), {胃腸炎|いちょうえん} (gastroenteritis), {関節炎|かんせつえん} (arthritis), etc.\n\nCOMMON COLLOCATIONS:\n- {急性|きゅうせい}{気管支炎|きかんしえん} — acute bronchitis\n- {慢性|まんせい}{気管支炎|きかんしえん} — chronic bronchitis\n- {気管支炎|きかんしえん}にかかる — to come down with bronchitis\n- {気管支炎|きかんしえん}の{治療|ちりょう} — treatment for bronchitis\n\nSIMILAR WORDS:\n- {肺炎|はいえん} — pneumonia (more severe; infection of the lung tissue itself)\n- {喘息|ぜんそく} — asthma (chronic condition with airway constriction, not the same as bronchitis)\n- {風邪|かぜ} — common cold (milder; bronchitis can develop from an untreated cold)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08443_haien",
+      "reading": "はいえん",
+      "headword": "{肺炎|はいえん}",
+      "label": "pneumonia (more severe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08444_zensoku",
+      "reading": "ぜんそく",
+      "headword": "{喘息|ぜんそく}",
+      "label": "asthma"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02188_kaze",
+      "reading": "かぜ",
+      "headword": "{風邪|かぜ}",
+      "label": "common cold (milder"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["health"]
+      "semantic": [
+        "health"
+      ]
     },
     "created": "2026-05-06T15:13:40Z",
-    "modified": "2026-08-07T06:31:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

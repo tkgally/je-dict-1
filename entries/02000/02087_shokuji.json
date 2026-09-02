@@ -2,7 +2,7 @@
   "id": "02087_shokuji",
   "headword": "{食事|しょくじ}",
   "reading": "しょくじ",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "meal, dining",
   "definitions": [
     {
@@ -64,10 +64,32 @@
     }
   ],
   "notes": "{食事|しょくじ} refers to meals or the act of eating. Also functions as a suru-verb.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {食事|しょくじ}する\n\nMEAL TYPES (formal):\n- ⟦{朝食|ちょうしょく}→朝食：03122_choushoku⟧: breakfast\n- ⟦{昼食|ちゅうしょく}→昼食：01616_chuushoku⟧: lunch\n- ⟦{夕食|ゆうしょく}→夕食：03006_yuushoku⟧: dinner/supper\n\nCASUAL EQUIVALENTS:\n- ⟦{朝|あさ}ご{飯|はん}→朝ご飯：02843_asagohan⟧: breakfast\n- ⟦{昼|ひる}ご{飯|はん}→昼ご飯：02950_hirugohan⟧: lunch\n- ⟦{晩|ばん}ご{飯|はん}→晩ご飯：02940_bangohan⟧/⟦{夕|ゆう}ご{飯|はん}→夕ご飯：27817_yuugohan⟧: dinner\n\nCOMMON PATTERNS:\n- {食事|しょくじ}⟦を→を：00422_wo⟧する: to have a meal\n- {食事|しょくじ}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go out to eat\n- {食事|しょくじ}⟦{中|ちゅう}→〜中：09840_chuu⟧: during a meal\n- {食事|しょくじ}⟦{制限|せいげん}→制限：03375_seigen⟧: dietary restrictions",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02890_tabemono",
+      "reading": "たべもの",
+      "headword": "{食|た}べ{物|もの}",
+      "label": "food"
+    },
+    {
+      "type": "related",
+      "target_id": "09108_manma",
+      "reading": "まんま",
+      "headword": "まんま",
+      "label": "food, meal (baby talk)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21071_shokuseikatsu",
+      "reading": "しょくせいかつ",
+      "headword": "{食生活|しょくせいかつ}",
+      "label": "diet"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:43:03Z",
-    "modified": "2026-08-11T00:23:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

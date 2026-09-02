@@ -17,7 +17,9 @@
       "id": "25424_kikansha_ex1",
       "japanese": "{蒸気|じょうき}{機関車|きかんしゃ}が{走|はし}る。",
       "english": "A steam locomotive runs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25424_kikansha_ex2",
       "japanese": "{子|こ}どもの{頃|ころ}、{機関車|きかんしゃ}トーマスが{大好|だいす}きだった。",
       "english": "When I was a child, I loved Thomas the Tank Engine.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "25424_kikansha_ex3",
       "japanese": "この{博物館|はくぶつかん}には{昔|むかし}の{蒸気|じょうき}{機関車|きかんしゃ}が{展示|てんじ}されている。",
       "english": "Old steam locomotives are on display at this museum.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{機関車|きかんしゃ} is composed of {機関|きかん} (engine, mechanism) + {車|しゃ} (vehicle). It refers specifically to the engine unit of a train that pulls or pushes the other cars.\n\nCOMMON COLLOCATIONS:\n- {蒸気|じょうき}{機関車|きかんしゃ}: steam locomotive (abbreviated SL)\n- {電気|でんき}{機関車|きかんしゃ}: electric locomotive\n- ディーゼル{機関車|きかんしゃ}: diesel locomotive\n- {機関車|きかんしゃ}が{牽引|けんいん}する: a locomotive pulls (a train)\n\nSIMILAR WORDS:\n- {電車|でんしゃ}: electric train — a self-propelled electric passenger train (the most common type in Japan)\n- {列車|れっしゃ}: train — the train as a whole unit, including all cars\n- {汽車|きしゃ}: steam train — older term; in some regional dialects, any train\n\nCULTURAL NOTE:\nSteam locomotives ({蒸気|じょうき}{機関車|きかんしゃ}, often abbreviated as SL) hold nostalgic appeal in Japan. Several tourist SL lines operate around the country, and {機関車|きかんしゃ}トーマス (Thomas the Tank Engine) is enormously popular among Japanese children.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00522_densha",
+      "reading": "でんしゃ",
+      "headword": "{電車|でんしゃ}",
+      "label": "electric train"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01670_ressha",
+      "reading": "れっしゃ",
+      "headword": "{列車|れっしゃ}",
+      "label": "train"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01381_kisha",
+      "reading": "きしゃ",
+      "headword": "{汽車|きしゃ}",
+      "label": "steam train"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-04-25T12:39:05Z",
-    "modified": "2026-04-25T12:39:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

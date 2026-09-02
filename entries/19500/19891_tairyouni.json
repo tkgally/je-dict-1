@@ -18,7 +18,9 @@
       "english": "To drink water in large quantities.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19891_tairyouni_ex2",
@@ -26,7 +28,9 @@
       "english": "It became cheaper because we purchased in bulk.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19891_tairyouni_ex3",
@@ -34,21 +38,49 @@
       "english": "This factory produces parts in large quantities every day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Emphasizes a large volume or amount of something. The underlying noun {大量|たいりょう} means 'large quantity' and can also be used as a の-adjective ({大量|たいりょう}の).\n\nCOMMON COLLOCATIONS:\n- {大量|たいりょう}に{生産|せいさん}する: to mass-produce\n- {大量|たいりょう}に{消費|しょうひ}する: to consume in large amounts\n- {大量|たいりょう}に{買|か}う: to buy in bulk\n- {大量|たいりょう}に{発生|はっせい}する: to occur in large numbers\n- {大量|たいりょう}に{摂取|せっしゅ}する: to ingest in large quantities\n\nSIMILAR WORDS:\n- たくさん: a lot — more casual and general-purpose\n- {多量|たりょう}に: in large amounts — near-synonym; {多量|たりょう} is slightly more formal and often used in scientific contexts\n- {大|おお}いに: greatly, very much — describes degree or intensity rather than quantity",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00597_takusan",
+      "reading": "たくさん",
+      "headword": "たくさん",
+      "label": "a lot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12308_taryou",
+      "reading": "たりょう",
+      "headword": "{多量|たりょう}",
+      "label": "in large amounts"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01609_ooini",
+      "reading": "おおいに",
+      "headword": "{大|おお}いに",
+      "label": "greatly, very much"
+    }
+  ],
   "metadata": {
     "created": "2026-03-27T05:28:49Z",
-    "modified": "2026-03-27T05:28:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity"],
+      "semantic": [
+        "quantity"
+      ],
       "domain": []
     }
   }

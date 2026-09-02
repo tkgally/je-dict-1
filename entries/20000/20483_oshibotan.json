@@ -17,7 +17,9 @@
       "id": "20483_oshibotan_ex1",
       "japanese": "{押|お}しボタンを{押|お}してください。",
       "english": "Please press the push button.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20483_oshibotan_ex2",
       "japanese": "{横断歩道|おうだんほどう}の{押|お}しボタン{式|しき}{信号|しんごう}を{押|お}した。",
       "english": "I pressed the push-button traffic signal at the crosswalk.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "20483_oshibotan_ex3",
       "japanese": "エレベーターの{押|お}しボタンが{反応|はんのう}しなくて{困|こま}った。",
       "english": "I had trouble because the elevator button wasn't responding.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {押|お}す (to push) + ボタン (button, from Portuguese 'botão'). Refers specifically to buttons designed to be pressed, as opposed to toggle switches or other controls.\n\nCOMMON COLLOCATIONS:\n- {押|お}しボタンを{押|お}す: to press a push button\n- {押|お}しボタン{式|しき}: push-button type/style\n- {押|お}しボタン{式|しき}{信号|しんごう}: push-button traffic signal (at a pedestrian crossing)\n- {非常|ひじょう}{押|お}しボタン: emergency push button\n\nUSAGE:\nCommonly encountered at pedestrian crosswalks ({押|お}しボタン{式|しき}{信号|しんごう}), on elevators, and on industrial equipment. The word emphasizes the physical pressing action, distinguishing it from touch-sensitive or other types of controls.\n\nRELATED WORDS:\n- ボタン: button — general term for any button\n- スイッチ: switch — a toggle or flip-type control\n- タッチパネル: touch panel — a screen-based input method",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03848_suicchi",
+      "reading": "すいっち",
+      "headword": "スイッチ",
+      "label": "switch"
+    },
+    {
+      "type": "related",
+      "target_id": "05226_tacchipaneru",
+      "reading": "たっちぱねる",
+      "headword": "タッチパネル",
+      "label": "touch panel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25745_kaiheibotan",
+      "reading": "かいへいぼたん",
+      "headword": "{開閉|かいへい}ボタン",
+      "label": "open/close button"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technology", "daily-life"]
+      "semantic": [
+        "technology",
+        "daily-life"
+      ]
     },
     "created": "2026-03-29T15:22:49Z",
-    "modified": "2026-03-29T15:22:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "21576_okibiki_ex1",
       "japanese": "{置|お}き{引|び}きに{注意|ちゅうい}してください。",
       "english": "Please watch out for theft of unattended belongings.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21576_okibiki_ex2",
       "japanese": "{駅|えき}で{置|お}き{引|び}きの{被害|ひがい}に{遭|あ}った。",
       "english": "I was a victim of baggage theft at the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "21576_okibiki_ex3",
       "japanese": "{空港|くうこう}では{荷物|にもつ}から{目|め}を{離|はな}さないようにしないと、{置|お}き{引|び}きに{遭|あ}う{可能性|かのうせい}がある。",
       "english": "If you don't keep your eyes on your luggage at the airport, there's a chance of having it stolen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {置|お}き (leaving, from {置|お}く) and {引|ひ}き (pulling/taking, from {引|ひ}く). Literally \"pulling away what has been left.\" This refers specifically to opportunistic theft of bags and belongings left momentarily unattended.\n\nCOMMON COLLOCATIONS:\n- {置|お}き{引|び}きに{遭|あ}う: to be a victim of baggage theft\n- {置|お}き{引|び}きに{注意|ちゅうい}する: to be careful of baggage theft\n- {置|お}き{引|び}きの{被害|ひがい}: damage from baggage theft\n- {置|お}き{引|び}き{犯|はん}: baggage thief\n\nSIMILAR WORDS:\n- {窃盗|せっとう}: theft — general legal term for stealing\n- スリ: pickpocketing — stealing from someone's person (pockets, bags being carried)\n- {万引|まんび}き: shoplifting — stealing from a store",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15280_settou",
+      "reading": "せっとう",
+      "headword": "{窃盗|せっとう}",
+      "label": "theft"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01330_suri",
+      "reading": "すり",
+      "headword": "すり",
+      "label": "pickpocketing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16838_manbiki",
+      "reading": "まんびき",
+      "headword": "{万引|まんび}き",
+      "label": "shoplifting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16928_hittakuri",
+      "reading": "ひったくり",
+      "headword": "ひったくり",
+      "label": "purse snatching"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["law"]
+      "semantic": [
+        "law"
+      ]
     },
     "created": "2026-04-02T17:22:27Z",
-    "modified": "2026-04-02T17:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

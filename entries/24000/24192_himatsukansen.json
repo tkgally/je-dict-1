@@ -56,15 +56,32 @@
     }
   ],
   "notes": "{飛沫|ひまつ} (droplets, spray) + {感染|かんせん} (infection). Refers to the spread of pathogens through tiny droplets expelled from the mouth or nose during coughing, sneezing, or speaking. Became widely known during the COVID-19 pandemic.\n\nCOMMON COLLOCATIONS:\n- {飛沫感染|ひまつかんせん}を{防|ふせ}ぐ: prevent droplet infection\n- {飛沫感染|ひまつかんせん}の{対策|たいさく}: measures against droplet transmission\n- {飛沫感染|ひまつかんせん}のリスク: risk of droplet infection\n- {飛沫感染|ひまつかんせん}{経路|けいろ}: droplet transmission route\n\nSIMILAR WORDS:\n- {空気感染|くうきかんせん}: airborne infection — transmitted via smaller particles that remain suspended longer\n- {接触感染|せっしょくかんせん}: contact infection — transmitted by touching contaminated surfaces\n\nUSAGE:\nDistinguished from {空気感染|くうきかんせん} in that droplets are larger and heavier, typically falling within about 2 meters. Preventive measures include wearing masks, maintaining distance, and ventilating rooms.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25169_kuukikansen",
+      "reading": "くうきかんせん",
+      "headword": "{空気感染|くうきかんせん}",
+      "label": "airborne infection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25168_sesshokukansen",
+      "reading": "せっしょくかんせん",
+      "headword": "{接触感染|せっしょくかんせん}",
+      "label": "contact infection"
+    }
+  ],
   "metadata": {
     "created": "2026-04-18T09:08:18Z",
-    "modified": "2026-08-02T18:32:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health"
       ]

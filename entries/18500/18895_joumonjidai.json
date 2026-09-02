@@ -19,7 +19,9 @@
       "english": "Pottery from the Jomon period was discovered.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18895_joumonjidai_ex2",
@@ -27,7 +29,9 @@
       "english": "People of the Jomon period lived by hunting and gathering.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18895_joumonjidai_ex3",
@@ -35,22 +39,45 @@
       "english": "The Sannai-Maruyama site in Aomori Prefecture is one of the most representative sites of the Jomon period.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA fundamental term in Japanese history education. The Jomon period is followed by the {弥生|やよい}{時代|じだい} (Yayoi period), which introduced rice farming.\n\nKEY TERMS:\n- {縄文|じょうもん}{土器|どき}: Jomon pottery — the cord-marked pottery that gives the period its name\n- {土偶|どぐう}: clay figurine — iconic Jomon artifacts\n- {貝塚|かいづか}: shell mound — archaeological sites where Jomon people discarded shells\n\nSIMILAR WORDS:\n- {弥生|やよい}{時代|じだい}: Yayoi period (approx. 300 BCE-300 CE) — the next period, marked by rice cultivation and metalworking\n- {旧石器|きゅうせっき}{時代|じだい}: Paleolithic period — the period before Jomon",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20426_yayoijidai",
+      "reading": "やよいじだい",
+      "headword": "{弥生時代|やよいじだい}",
+      "label": "Yayoi period"
+    },
+    {
+      "type": "related",
+      "target_id": "26598_joumondoki",
+      "reading": "じょうもんどき",
+      "headword": "{縄文|じょうもん}{土器|どき}",
+      "label": "Jomon pottery"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:26:22Z",
-    "modified": "2026-03-23T06:26:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-period"],
-      "domain": ["academic"]
+      "semantic": [
+        "time-period"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

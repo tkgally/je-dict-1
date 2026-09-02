@@ -17,7 +17,9 @@
       "id": "23703_souun_ex1",
       "japanese": "{山|やま}に{層雲|そううん}がかかっている。",
       "english": "Stratus clouds are hanging over the mountain.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23703_souun_ex2",
       "japanese": "{朝|あさ}、{低|ひく}い{層雲|そううん}が{町|まち}を{覆|おお}っていた。",
       "english": "In the morning, low stratus clouds covered the town.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23703_souun_ex3",
       "japanese": "{層雲|そううん}は{霧雨|きりさめ}を{降|ふ}らせることがある。",
       "english": "Stratus clouds can produce drizzle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,45 @@
       "id": "23703_souun_ex4",
       "japanese": "{層雲|そううん}は{最|もっと}も{低|ひく}い{高度|こうど}にできる{雲|くも}で、{地表|ちひょう}に{接|せっ}すると{霧|きり}と{呼|よ}ばれる。",
       "english": "Stratus is the lowest-altitude cloud type, and when it touches the ground it is called fog.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {層|そう} (layer) and {雲|うん} (cloud). One of the ten standard cloud classifications ({十|じゅう}{種|しゅ}{雲形|うんけい}) used in meteorology.\n\nUSAGE:\n- A meteorological term used in weather reports, textbooks, and sometimes in everyday descriptions of overcast conditions.\n- Used as a plain noun; does not take する.\n\nCOMMON COLLOCATIONS:\n- {低|ひく}い{層雲|そううん}: low stratus\n- {層雲|そううん}がかかる: stratus hangs (over an area)\n- {層雲|そううん}が{広|ひろ}がる: stratus clouds spread out\n\nRELATED TERMS:\n- {積雲|せきうん}: cumulus — puffy, vertically developed clouds\n- {高層雲|こうそううん}: altostratus — stratus clouds at middle altitude\n- {乱層雲|らんそううん}: nimbostratus — thick stratus producing steady rain\n- {霧|きり}: fog — ground-level stratus",
+  "notes": "Composed of {層|そう} (layer) and {雲|うん} (cloud). One of the ten standard cloud classifications ({十|じゅう}{種|しゅ}{雲形|うんけい}) used in meteorology.\n\nUSAGE:\n- A meteorological term used in weather reports, textbooks, and sometimes in everyday descriptions of overcast conditions.\n- Used as a plain noun; does not take する.\n\nCOMMON COLLOCATIONS:\n- {低|ひく}い{層雲|そううん}: low stratus\n- {層雲|そううん}がかかる: stratus hangs (over an area)\n- {層雲|そううん}が{広|ひろ}がる: stratus clouds spread out\n\nRELATED WORDS:\n- {積雲|せきうん}: cumulus — puffy, vertically developed clouds\n- {高層雲|こうそううん}: altostratus — stratus clouds at middle altitude\n- {乱層雲|らんそううん}: nimbostratus — thick stratus producing steady rain\n- {霧|きり}: fog — ground-level stratus",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23702_sekiun",
+      "reading": "せきうん",
+      "headword": "{積雲|せきうん}",
+      "label": "cumulus"
+    },
+    {
+      "type": "related",
+      "target_id": "02200_kiri",
+      "reading": "きり",
+      "headword": "{霧|きり}",
+      "label": "fog"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature", "weather"]
+      "semantic": [
+        "nature",
+        "weather"
+      ]
     },
     "created": "2026-04-14T14:04:47Z",
-    "modified": "2026-04-14T14:04:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

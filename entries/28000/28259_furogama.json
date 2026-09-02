@@ -17,7 +17,9 @@
       "id": "28259_furogama_ex1",
       "japanese": "{風呂釜|ふろがま}が{壊|こわ}れた。",
       "english": "The bath heater broke down.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28259_furogama_ex2",
       "japanese": "{古|ふる}い{風呂釜|ふろがま}を{新|あたら}しいものに{交換|こうかん}した。",
       "english": "We replaced the old bath heater with a new one.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,37 @@
       "id": "28259_furogama_ex3",
       "japanese": "{風呂釜|ふろがま}の{調子|ちょうし}が{悪|わる}く、お{湯|ゆ}がなかなか{温|あたた}まらない。",
       "english": "The bath heater is acting up, and the water just won't warm up.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {風呂|ふろ} (bath) + {釜|かま} (kettle, boiler). Refers to the appliance that heats bath water, distinct from the bathtub itself ({浴槽|よくそう}).\n\nCOMMON COLLOCATIONS:\n- {風呂釜|ふろがま}が{壊|こわ}れる: the bath heater breaks down\n- {風呂釜|ふろがま}を{交換|こうかん}する: replace the bath heater\n- {風呂釜|ふろがま}の{掃除|そうじ}: cleaning the bath heater",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08419_oidaki",
+      "reading": "おいだき",
+      "headword": "{追|お}い{焚|だ}き",
+      "label": "reheating (bath water)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["daily-life"]
+      "politeness": "plain",
+      "semantic": [
+        "daily-life"
+      ]
     },
     "created": "2026-05-28T02:09:06Z",
-    "modified": "2026-05-28T02:09:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

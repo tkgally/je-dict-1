@@ -16,7 +16,9 @@
       "id": "20805_takurami_ex1",
       "japanese": "{彼|かれ}の{企|たくら}みは{失敗|しっぱい}した。",
       "english": "His scheme failed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "20805_takurami_ex2",
       "japanese": "{恐|おそ}ろしい{企|たくら}みが{進行|しんこう}していた。",
       "english": "A terrible plot was underway.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,24 +36,73 @@
       "id": "20805_takurami_ex3",
       "japanese": "{彼女|かのじょ}は{相手|あいて}の{企|たくら}みを{見抜|みぬ}いて{先手|せんて}を{打|う}った。",
       "english": "She saw through her opponent's scheme and made a preemptive move.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The noun form of {企|たくら}む (to plot/scheme). Almost always carries a negative connotation of deception or malicious intent.\n\nCOMMON COLLOCATIONS:\n- {企|たくら}みを{見抜|みぬ}く: to see through a scheme\n- {企|たくら}みが{露見|ろけん}する: a plot is exposed\n- {恐|おそ}ろしい{企|たくら}み: a terrible plot\n- {企|たくら}みに{加|くわ}わる: to join in a conspiracy\n\nSIMILAR WORDS:\n- {陰謀|いんぼう}: conspiracy — larger scale, often political\n- {策略|さくりゃく}: stratagem — can be neutral, more calculated\n- {計画|けいかく}: plan — neutral, no negative connotation",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10887_inbou",
+      "reading": "いんぼう",
+      "headword": "{陰謀|いんぼう}",
+      "label": "conspiracy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13785_sakuryaku",
+      "reading": "さくりゃく",
+      "headword": "{策略|さくりゃく}",
+      "label": "stratagem"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01172_keikaku",
+      "reading": "けいかく",
+      "headword": "{計画|けいかく}",
+      "label": "plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16566_mokuromi",
+      "reading": "もくろみ",
+      "headword": "{目論見|もくろみ}",
+      "label": "plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22967_sakubou",
+      "reading": "さくぼう",
+      "headword": "{策謀|さくぼう}",
+      "label": "plot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27224_kontan",
+      "reading": "こんたん",
+      "headword": "{魂胆|こんたん}",
+      "label": "scheme"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-03-30T17:10:16Z",
-    "modified": "2026-03-30T17:10:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

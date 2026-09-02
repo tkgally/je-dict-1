@@ -17,7 +17,9 @@
       "id": "27983_kuuiki_ex1",
       "japanese": "{軍|ぐん}の{訓練|くんれん}{空域|くういき}に{入|はい}ってはいけない。",
       "english": "You must not enter the military training airspace.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27983_kuuiki_ex2",
       "japanese": "その{国|くに}は{自国|じこく}の{空域|くういき}を{厳|きび}しく{守|まも}っている。",
       "english": "That country strictly guards its own airspace.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "27983_kuuiki_ex3",
       "japanese": "{管制官|かんせいかん}は{混雑|こんざつ}した{空域|くういき}で{航空機|こうくうき}を{安全|あんぜん}に{誘導|ゆうどう}する。",
       "english": "Controllers safely guide aircraft through congested airspace.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A somewhat formal or technical term used in aviation, defense, and news reporting.\n\nCOMMON COLLOCATIONS:\n- {空域|くういき}に{入|はい}る: to enter an airspace\n- {空域|くういき}を{侵犯|しんぱん}する: to violate airspace\n- {訓練|くんれん}{空域|くういき}: training airspace\n\nSIMILAR WORDS:\n- {領空|りょうくう}: territorial airspace — specifically the airspace over a nation's territory",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16510_ryoukuu",
+      "reading": "りょうくう",
+      "headword": "{領空|りょうくう}",
+      "label": "territorial airspace"
+    },
+    {
+      "type": "related",
+      "target_id": "03080_joukuu",
+      "reading": "じょうくう",
+      "headword": "{上空|じょうくう}",
+      "label": "sky above, airspace"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["transportation"],
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ],
       "domain": []
     },
     "created": "2026-05-24T02:02:35Z",
-    "modified": "2026-05-24T02:02:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "Do you have any idea?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15534_kokoroatari_ex2",
@@ -27,7 +29,9 @@
       "english": "I have no idea who the culprit might be.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15534_kokoroatari_ex3",
@@ -35,21 +39,35 @@
       "english": "If you have any idea where you lost your wallet, let's go look for it right away.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAlmost always appears in the patterns {心当|こころあ}たりがある (to have an idea/clue) or {心当|こころあ}たりがない (to have no idea). Commonly used in conversations about mysteries, lost items, or unknown causes.\n\nCOMMON PATTERNS:\n- {心当|こころあ}たりがある (to have an idea about something)\n- {心当|こころあ}たりがない (to have no idea)\n- {心当|こころあ}たりはありませんか (do you have any idea? — polite)\n- ～に{心当|こころあ}たりがある (to have an idea about ~)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19251_omoiataru",
+      "reading": "おもいあたる",
+      "headword": "{思|おも}い{当|あ}たる",
+      "label": "to come to mind"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T10:05:02Z",
-    "modified": "2026-03-07T10:05:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     }
   }
 }

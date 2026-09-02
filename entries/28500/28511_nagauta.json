@@ -17,7 +17,9 @@
       "id": "28511_nagauta_ex1",
       "japanese": "{母|はは}は{長唄|ながうた}を{習|なら}っている。",
       "english": "My mother is learning nagauta.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28511_nagauta_ex2",
       "japanese": "{歌舞伎|かぶき}の{舞踊|ぶよう}には{長唄|ながうた}が{欠|か}かせない。",
       "english": "Nagauta is essential to kabuki dance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,39 @@
       "id": "28511_nagauta_ex3",
       "japanese": "{長唄|ながうた}の{演奏|えんそう}には{三味線|しゃみせん}と{囃子|はやし}が{使|つか}われる。",
       "english": "Nagauta performances use shamisen and percussion accompaniment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Literally \"long song.\" The principal music of {歌舞伎|かぶき} dance scenes, performed by a singer and {三味線|しゃみせん} player together with a {囃子|はやし} percussion ensemble.\n\nCOMMON COLLOCATIONS:\n- {長唄|ながうた}を{習|なら}う: to study nagauta\n- {長唄|ながうた}{三味線|しゃみせん}: nagauta shamisen\n- {長唄|ながうた}の{師匠|ししょう}: a nagauta teacher\n\nSIMILAR WORDS:\n- {義太夫|ぎだゆう}: gidayū — narrative chanting for bunraku, more dramatic and story-driven\n- {小唄|こうた}: kouta — short, intimate shamisen songs from the geisha tradition\n- {端唄|はうた}: hauta — short popular shamisen songs",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28510_gidayuu",
+      "reading": "ぎだゆう",
+      "headword": "{義太夫|ぎだゆう}",
+      "label": "gidayū"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["culture", "music"],
+      "politeness": "plain",
+      "semantic": [
+        "culture",
+        "music"
+      ],
       "domain": []
     },
     "created": "2026-06-01T03:07:14Z",
-    "modified": "2026-06-01T03:07:14Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

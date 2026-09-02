@@ -3,7 +3,7 @@
   "id": "15250_kaikoku",
   "headword": "{戒告|かいこく}",
   "reading": "かいこく",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "admonition; official warning",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,25 @@
     }
   ],
   "notes": "FORMATION: {戒|かい} (admonish, warn) + {告|こく} (announce, tell).\n\nUSAGE: {戒告|かいこく} is a formal administrative term. In Japanese government and corporate settings, it is the lightest form of disciplinary action, serving as an official warning without direct penalty.\n\nCOMMON COLLOCATIONS:\n- {戒告|かいこく}{処分|しょぶん}: disciplinary reprimand\n- {戒告|かいこく}を{受|う}ける: to receive a reprimand\n- {戒告|かいこく}を{行|おこな}う: to issue a reprimand\n\nSIMILAR WORDS:\n- {戒告|かいこく}: formal/official reprimand (lightest disciplinary action)\n- {警告|けいこく}: warning (broader usage, not limited to disciplinary)\n- {訓告|くんこく}: admonition (slightly less formal than {戒告|かいこく})\n- {厳重注意|げんじゅうちゅうい}: stern warning (informal disciplinary measure)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02696_keikoku",
+      "reading": "けいこく",
+      "headword": "{警告|けいこく}",
+      "label": "warning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24432_kunkoku",
+      "reading": "くんこく",
+      "headword": "{訓告|くんこく}",
+      "label": "admonition"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T10:26:15Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

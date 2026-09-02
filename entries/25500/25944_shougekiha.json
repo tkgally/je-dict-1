@@ -22,7 +22,9 @@
       "id": "25944_shougekiha_ex1",
       "japanese": "{爆発|ばくはつ}の{衝撃波|しょうげきは}で{窓|まど}ガラスが{割|わ}れた。",
       "english": "The blast wave from the explosion shattered the windows.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "25944_shougekiha_ex2",
       "japanese": "{超音速|ちょうおんそく}{飛行|ひこう}では{衝撃波|しょうげきは}が{発生|はっせい}する。",
       "english": "Shock waves are generated during supersonic flight.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "25944_shougekiha_ex3",
       "japanese": "{隕石|いんせき}の{衝突|しょうとつ}で{生|しょう}じた{衝撃波|しょうげきは}は{広範囲|こうはんい}に{被害|ひがい}をもたらした。",
       "english": "The shock wave caused by the meteorite impact brought damage over a wide area.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "25944_shougekiha_ex4",
       "japanese": "そのニュースは{業界|ぎょうかい}に{衝撃波|しょうげきは}を{走|はし}らせた。",
       "english": "The news sent a shockwave through the industry.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "25944_shougekiha_ex5",
       "japanese": "{大企業|だいきぎょう}の{倒産|とうさん}は{経済|けいざい}{全体|ぜんたい}に{衝撃波|しょうげきは}を{与|あた}えた。",
       "english": "The bankruptcy of the large corporation sent shockwaves through the entire economy.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,21 +72,45 @@
       "id": "25944_shougekiha_ex6",
       "japanese": "その{研究|けんきゅう}{成果|せいか}は{学会|がっかい}に{衝撃波|しょうげきは}をもたらした。",
       "english": "The research findings sent a shockwave through the academic world.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {衝撃|しょうげき} (shock; impact) and {波|は} (wave). Used both as a physics/engineering term and as a vivid figurative expression in news and commentary.\n\nCOMMON COLLOCATIONS:\n- {衝撃波|しょうげきは}が{発生|はっせい}する: a shock wave is generated\n- {衝撃波|しょうげきは}を{受|う}ける: to receive a blast wave\n- {衝撃波|しょうげきは}が{走|はし}る: a shockwave runs through\n- {衝撃波|しょうげきは}を{与|あた}える: to deliver a shockwave\n- {爆発|ばくはつ}の{衝撃波|しょうげきは}: blast wave from an explosion\n\nSIMILAR WORDS:\n- {爆風|ばくふう}: blast; blast wind — the rush of air from an explosion, closely related but refers specifically to the wind component\n- {衝撃|しょうげき}: shock; impact — the broader concept of sudden forceful impact, without the wave propagation nuance\n- {余波|よは}: aftermath; repercussions — the lingering effects that continue after the initial impact",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27188_bakufuu",
+      "reading": "ばくふう",
+      "headword": "{爆風|ばくふう}",
+      "label": "blast"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19471_yoha",
+      "reading": "よは",
+      "headword": "{余波|よは}",
+      "label": "aftermath"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["science", "nature"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "science",
+        "nature"
+      ]
     },
     "created": "2026-04-28T13:32:23Z",
-    "modified": "2026-04-28T13:32:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

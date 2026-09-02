@@ -203,7 +203,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{揺|ゆ}らす→揺らす：02479_yurasu⟧ (transitive, to shake something). Pattern: X⟦が→が：00051_ga⟧{揺|ゆ}れる (X shakes).\n\nASPECT: ている indicates ongoing state. {揺|ゆ}れている = 'is shaking/swaying.'\n\nCOMMON PATTERNS:\n・⟦{地震|じしん}→地震：01608_jishin⟧⟦で→で：00502_de⟧{揺|ゆ}れる (shake from earthquake)\n・⟦{風|かぜ}→風：00641_kaze⟧⟦で→で：00502_de⟧{揺|ゆ}れる (sway in the wind)\n・⟦{心|こころ}→心：01321_kokoro⟧⟦が→が：00051_ga⟧{揺|ゆ}れる (heart wavers)\n・⟦ゆらゆら→ゆらゆら：04817_yurayura⟧{揺|ゆ}れる (sway gently)\n・⟦{大|おお}きく→大きい：00335_ookii⟧{揺|ゆ}れる (shake greatly)\n\nCONTRAST:\n・{揺|ゆ}れる (intransitive): X shakes\n・⟦{揺|ゆ}らす→揺らす：02479_yurasu⟧ (transitive): shake X\n\nONOMATOPOEIA:\n・⟦ゆらゆら→ゆらゆら：04817_yurayura⟧ (swaying gently)\n・⟦グラグラ→ぐらぐら：16211_guragura⟧ (shaking unsteadily)",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{揺|ゆ}らす→揺らす：02479_yurasu⟧ (transitive, to shake something). Pattern: X⟦が→が：00051_ga⟧{揺|ゆ}れる (X shakes).\n\nASPECT: ている indicates ongoing state. {揺|ゆ}れている = 'is shaking/swaying.'\n\nCOMMON PATTERNS:\n- ⟦{地震|じしん}→地震：01608_jishin⟧⟦で→で：00502_de⟧{揺|ゆ}れる (shake from earthquake)\n- ⟦{風|かぜ}→風：00641_kaze⟧⟦で→で：00502_de⟧{揺|ゆ}れる (sway in the wind)\n- ⟦{心|こころ}→心：01321_kokoro⟧⟦が→が：00051_ga⟧{揺|ゆ}れる (heart wavers)\n- ⟦ゆらゆら→ゆらゆら：04817_yurayura⟧{揺|ゆ}れる (sway gently)\n- ⟦{大|おお}きく→大きい：00335_ookii⟧{揺|ゆ}れる (shake greatly)\n\nSIMILAR WORDS:\n- {揺|ゆ}れる (intransitive): X shakes\n- ⟦{揺|ゆ}らす→揺らす：02479_yurasu⟧ (transitive): shake X\n\nONOMATOPOEIA:\n- ⟦ゆらゆら→ゆらゆら：04817_yurayura⟧ (swaying gently)\n- ⟦グラグラ→ぐらぐら：16211_guragura⟧ (shaking unsteadily)",
   "cross_references": [
     {
       "type": "pair",
@@ -218,11 +218,46 @@
       "reading": "ゆらゆら",
       "headword": "ゆらゆら",
       "label": "swaying (onomatopoeia)"
+    },
+    {
+      "type": "related",
+      "target_id": "08179_shindou",
+      "reading": "しんどう",
+      "headword": "{振動|しんどう}",
+      "label": "vibration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19581_yurugu",
+      "reading": "ゆるぐ",
+      "headword": "{揺|ゆ}るぐ",
+      "label": "to shake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20079_jougesuru",
+      "reading": "じょうげする",
+      "headword": "{上下|じょうげ}する",
+      "label": "to rise and fall"
+    },
+    {
+      "type": "related",
+      "target_id": "22258_nabikaseru",
+      "reading": "なびかせる",
+      "headword": "なびかせる",
+      "label": "to let flutter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25352_douyousuru",
+      "reading": "どうようする",
+      "headword": "{動揺|どうよう}する",
+      "label": "to be shaken"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:11:06Z",
-    "modified": "2026-07-08T21:20:52Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

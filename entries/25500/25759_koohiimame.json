@@ -17,7 +17,9 @@
       "id": "25759_koohiimame_ex1",
       "japanese": "コーヒー{豆|まめ}を{挽|ひ}く。",
       "english": "To grind coffee beans.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25759_koohiimame_ex2",
       "japanese": "この{店|みせ}では{新鮮|しんせん}なコーヒー{豆|まめ}を{売|う}っている。",
       "english": "This shop sells fresh coffee beans.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "25759_koohiimame_ex3",
       "japanese": "ブラジル{産|さん}のコーヒー{豆|まめ}は{酸味|さんみ}が{少|すく}なくて{飲|の}みやすい。",
       "english": "Brazilian coffee beans have low acidity and are easy to drink.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,21 +47,44 @@
       "id": "25759_koohiimame_ex4",
       "japanese": "{自家焙煎|じかばいせん}のコーヒー{豆|まめ}を{通販|つうはん}で{注文|ちゅうもん}した。",
       "english": "I ordered home-roasted coffee beans through mail order.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of コーヒー (coffee) and {豆|まめ} (bean). Japan has a strong coffee culture, and specialty coffee shops ({自家焙煎|じかばいせん}の{店|みせ}) that roast their own beans are common.\n\nCOMMON COLLOCATIONS:\n- コーヒー{豆|まめ}を{挽|ひ}く: to grind coffee beans\n- コーヒー{豆|まめ}を{焙煎|ばいせん}する: to roast coffee beans\n- コーヒー{豆|まめ}の{産地|さんち}: coffee bean growing region\n- {生|なま}のコーヒー{豆|まめ}: green (unroasted) coffee beans\n\nRELATED TERMS:\n- {焙煎|ばいせん}: roasting (of coffee)\n- {挽|ひ}きたて: freshly ground\n- ドリップコーヒー: drip coffee\n- インスタントコーヒー: instant coffee",
-  "cross_references": [],
+  "notes": "A compound of コーヒー (coffee) and {豆|まめ} (bean). Japan has a strong coffee culture, and specialty coffee shops ({自家焙煎|じかばいせん}の{店|みせ}) that roast their own beans are common.\n\nCOMMON COLLOCATIONS:\n- コーヒー{豆|まめ}を{挽|ひ}く: to grind coffee beans\n- コーヒー{豆|まめ}を{焙煎|ばいせん}する: to roast coffee beans\n- コーヒー{豆|まめ}の{産地|さんち}: coffee bean growing region\n- {生|なま}のコーヒー{豆|まめ}: green (unroasted) coffee beans\n\nRELATED WORDS:\n- {焙煎|ばいせん}: roasting (of coffee)\n- {挽|ひ}きたて: freshly ground\n- ドリップコーヒー: drip coffee\n- インスタントコーヒー: instant coffee",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16935_baisen",
+      "reading": "ばいせん",
+      "headword": "{焙煎|ばいせん}",
+      "label": "roasting"
+    },
+    {
+      "type": "related",
+      "target_id": "21367_hikitate",
+      "reading": "ひきたて",
+      "headword": "{挽|ひ}きたて",
+      "label": "freshly ground"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-27T12:15:46Z",
-    "modified": "2026-04-27T12:15:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

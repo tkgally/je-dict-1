@@ -22,7 +22,9 @@
       "id": "26296_suikei_ex1",
       "japanese": "{利根川|とねがわ}{水系|すいけい}は{日本最大|にほんさいだい}だ。",
       "english": "The Tone River system is the largest in Japan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "26296_suikei_ex2",
       "japanese": "この{地域|ちいき}は{複数|ふくすう}の{水系|すいけい}にまたがっている。",
       "english": "This region spans multiple river systems.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "26296_suikei_ex3",
       "japanese": "{水系|すいけい}ごとに{水質|すいしつ}の{管理|かんり}が{行|おこな}われている。",
       "english": "Water quality management is conducted for each river system.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "26296_suikei_ex4",
       "japanese": "{水系|すいけい}インクは{乾|かわ}きが{遅|おそ}い。",
       "english": "Water-based ink dries slowly.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "26296_suikei_ex5",
       "japanese": "{水系|すいけい}の{塗料|とりょう}はにおいが{少|すく}ない。",
       "english": "Water-based paint has less odor.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,23 +72,44 @@
       "id": "26296_suikei_ex6",
       "japanese": "{環境|かんきょう}への{配慮|はいりょ}から、{油性|ゆせい}ではなく{水系|すいけい}の{洗剤|せんざい}を{選|えら}ぶ{企業|きぎょう}が{増|ふ}えている。",
       "english": "Due to environmental considerations, more companies are choosing water-based detergents over oil-based ones.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {水|すい} (water) + {系|けい} (system; lineage). The two senses are quite distinct: the geographical meaning refers to river networks, while the chemical/industrial meaning indicates a water-based substance.\n\nCOMMON COLLOCATIONS:\n- ～{川|がわ}{水系|すいけい}: the ... river system\n- {水系|すいけい}{汚染|おせん}: water system contamination\n- {水系|すいけい}インク: water-based ink\n- {水系|すいけい}{塗料|とりょう}: water-based paint\n- {水系|すいけい}{洗剤|せんざい}: water-based detergent\n\nSIMILAR WORDS:\n- {流域|りゅういき}: river basin; drainage area — refers to the land area rather than the network of waterways\n- {油性|ゆせい}: oil-based — the antonym of {水系|すいけい} in the chemical/industrial sense\n- {水性|すいせい}: water-based; aqueous — a near-synonym of sense 2, more common in consumer products (e.g., {水性|すいせい}ペン)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19664_ryuuiki",
+      "reading": "りゅういき",
+      "headword": "{流域|りゅういき}",
+      "label": "river basin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24068_yusei",
+      "reading": "ゆせい",
+      "headword": "{油性|ゆせい}",
+      "label": "oil-based"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     },
     "created": "2026-04-30T15:27:13Z",
-    "modified": "2026-04-30T15:27:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

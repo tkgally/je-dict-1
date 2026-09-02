@@ -3,7 +3,7 @@
   "id": "15114_ketsubou",
   "headword": "{欠乏|けつぼう}",
   "reading": "けつぼう",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "deficiency; shortage; lack",
   "conjugation": {
     "type": "suru",
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{欠乏|けつぼう} is typically used for essential things like nutrients, resources, and supplies. It is more formal than {不足|ふそく} and often implies a more severe or critical shortage. As a suru verb, it takes the pattern ～が{欠乏|けつぼう}する.\n\nCOMMON COLLOCATIONS:\n- {栄養|えいよう}{欠乏|けつぼう} (nutritional deficiency)\n- {欠乏|けつぼう}{症|しょう} (deficiency disease)\n- {鉄分|てつぶん}の{欠乏|けつぼう} (iron deficiency)\n- {酸素|さんそ}{欠乏|けつぼう} (oxygen deprivation)\n\nNUANCE:\n{欠乏|けつぼう} implies a critical or dangerous shortage, while {不足|ふそく} is a more general and milder term for insufficiency.",
+  "notes": "USAGE:\n{欠乏|けつぼう} is typically used for essential things like nutrients, resources, and supplies. It is more formal than {不足|ふそく} and often implies a more severe or critical shortage. As a suru verb, it takes the pattern ～が{欠乏|けつぼう}する.\n{欠乏|けつぼう} implies a critical or dangerous shortage, while {不足|ふそく} is a more general and milder term for insufficiency.\n\nCOMMON COLLOCATIONS:\n- {栄養|えいよう}{欠乏|けつぼう} (nutritional deficiency)\n- {欠乏|けつぼう}{症|しょう} (deficiency disease)\n- {鉄分|てつぶん}の{欠乏|けつぼう} (iron deficiency)\n- {酸素|さんそ}{欠乏|けつぼう} (oxygen deprivation)",
   "cross_references": [
     {
       "type": "related",
@@ -142,11 +142,25 @@
       "reading": "ふそく",
       "headword": "{不足|ふそく}",
       "label": "shortage (milder)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13208_ketsujo",
+      "reading": "けつじょ",
+      "headword": "{欠如|けつじょ}",
+      "label": "lack, absence, deficiency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23776_shokuryoubusoku",
+      "reading": "しょくりょうぶそく",
+      "headword": "{食糧不足|しょくりょうぶそく}",
+      "label": "food shortage"
     }
   ],
   "metadata": {
     "created": "2026-03-05T07:51:05Z",
-    "modified": "2026-08-09T18:18:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

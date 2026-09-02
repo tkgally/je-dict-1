@@ -17,7 +17,9 @@
       "id": "19055_kougaigakushuu_ex1",
       "japanese": "{来週|らいしゅう}{校外学習|こうがいがくしゅう}がある。",
       "english": "There is a field trip next week.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19055_kougaigakushuu_ex2",
       "japanese": "{校外学習|こうがいがくしゅう}で{博物館|はくぶつかん}を{見学|けんがく}した。",
       "english": "We visited a museum on our field trip.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "19055_kougaigakushuu_ex3",
       "japanese": "{校外学習|こうがいがくしゅう}の{日|ひ}は{弁当|べんとう}を{持参|じさん}することになっている。",
       "english": "On field trip days, students are supposed to bring their own lunches.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {校外|こうがい} (off-campus) + {学習|がくしゅう} (learning/study). Japanese schools regularly conduct {校外学習|こうがいがくしゅう} as part of the curriculum. Related terms: {遠足|えんそく} (excursion, usually shorter and more recreational), {修学旅行|しゅうがくりょこう} (school trip, usually multi-day), {社会科見学|しゃかいかけんがく} (social studies field trip). Common collocation: {校外学習|こうがいがくしゅう}に{行|い}く (to go on a field trip).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23854_taikengakushuu",
+      "reading": "たいけんがくしゅう",
+      "headword": "{体験学習|たいけんがくしゅう}",
+      "label": "experiential learning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27672_kagaijugyou",
+      "reading": "かがいじゅぎょう",
+      "headword": "{課外授業|かがいじゅぎょう}",
+      "label": "extracurricular lesson"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-03-24T04:42:37Z",
-    "modified": "2026-03-24T04:42:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

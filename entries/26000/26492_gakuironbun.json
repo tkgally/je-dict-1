@@ -17,7 +17,9 @@
       "id": "26492_gakuironbun_ex1",
       "japanese": "{学位論文|がくいろんぶん}のテーマが{決|き}まった。",
       "english": "I've decided on the topic for my thesis.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26492_gakuironbun_ex2",
       "japanese": "{学位論文|がくいろんぶん}の{審査|しんさ}は{来月|らいげつ}に{行|おこな}われる。",
       "english": "The thesis defense will be held next month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,54 @@
       "id": "26492_gakuironbun_ex3",
       "japanese": "{彼|かれ}は{三年|さんねん}かけて{学位論文|がくいろんぶん}を{書|か}き{上|あ}げ、{博士号|はくしごう}を{取得|しゅとく}した。",
       "english": "He spent three years writing his dissertation and earned his doctorate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {学位|がくい} (academic degree) and {論文|ろんぶん} (thesis, paper). The umbrella term for theses written to fulfill degree requirements at any level. In practice, {修士論文|しゅうしろんぶん} (master's thesis) and {博士論文|はくしろんぶん} (doctoral dissertation) are more specific and frequently used when the level is known.\n\nCOMMON COLLOCATIONS:\n- {学位論文|がくいろんぶん}を{提出|ていしゅつ}する: to submit a thesis\n- {学位論文|がくいろんぶん}の{審査|しんさ}: thesis examination/defense\n- {学位論文|がくいろんぶん}を{執筆|しっぴつ}する: to write a thesis\n\nSIMILAR WORDS:\n- {修士論文|しゅうしろんぶん}: master's thesis — specifically for the master's degree; often abbreviated as {修論|しゅうろん}\n- {博士論文|はくしろんぶん}: doctoral dissertation — specifically for the doctoral degree; often abbreviated as {博論|はくろん}\n- {卒業論文|そつぎょうろんぶん}: graduation thesis — the undergraduate thesis; abbreviated as {卒論|そつろん}",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09968_shuushironbun",
+      "reading": "しゅうしろんぶん",
+      "headword": "{修士論文|しゅうしろんぶん}",
+      "label": "master's thesis"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09969_hakushironbun",
+      "reading": "はくしろんぶん",
+      "headword": "{博士論文|はくしろんぶん}",
+      "label": "doctoral dissertation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09259_sotsugyouronbun",
+      "reading": "そつぎょうろんぶん",
+      "headword": "{卒業論文|そつぎょうろんぶん}",
+      "label": "graduation thesis"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["education"],
-      "domain": ["academic"]
+      "semantic": [
+        "education"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-05-02T12:22:35Z",
-    "modified": "2026-05-02T12:22:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

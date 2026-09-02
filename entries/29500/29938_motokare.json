@@ -17,7 +17,9 @@
       "id": "29938_motokare_ex1",
       "japanese": "{元|もと}カレから{連絡|れんらく}が{来|き}た。",
       "english": "I got a message from my ex-boyfriend.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29938_motokare_ex2",
       "japanese": "{元|もと}カレとは{今|いま}でも{友達|ともだち}だ。",
       "english": "I'm still friends with my ex-boyfriend.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "29938_motokare_ex3",
       "japanese": "{元|もと}カレの{話|はなし}は、あまりしたくない。",
       "english": "I don't really want to talk about my ex-boyfriend.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Colloquial contraction of {元|もと}の{彼氏|かれし} ('former boyfriend'), with カレ written in katakana. Common in casual speech and text messages.\n\nRELATED WORDS:\n- {元|もと}カノ: ex-girlfriend\n- {彼氏|かれし}: boyfriend\n- {元彼|もとかれ}: the same word written in kanji",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29939_motokano",
+      "reading": "もとかの",
+      "headword": "{元|もと}カノ",
+      "label": "ex-girlfriend"
+    },
+    {
+      "type": "related",
+      "target_id": "06456_kareshi",
+      "reading": "かれし",
+      "headword": "{彼氏|かれし}",
+      "label": "boyfriend"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
-      "politeness": null,
-      "semantic": ["person"],
-      "domain": ["colloquial"]
+      "politeness": "plain",
+      "semantic": [
+        "person"
+      ],
+      "domain": [
+        "colloquial"
+      ]
     },
     "created": "2026-07-19T00:19:03Z",
-    "modified": "2026-07-19T00:19:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

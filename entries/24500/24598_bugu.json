@@ -46,6 +46,36 @@
   ],
   "notes": "A collective term for weapons, armor, and other military equipment, especially from the samurai era. Encompasses both offensive items ({刀|かたな}, {槍|やり}, {弓|ゆみ}) and defensive items ({鎧|よろい}, {兜|かぶと}, {盾|たて}).\n\nCOMMON COLLOCATIONS:\n- {武具|ぶぐ}を{身|み}につける: to don arms and armor\n- {武具|ぶぐ}の{手入|てい}れ: maintenance of arms\n- {武具|ぶぐ}を{飾|かざ}る: to display arms and armor\n- {武具|ぶぐ}{甲冑|かっちゅう}: arms and armor (emphatic)\n\nSIMILAR WORDS:\n- {武器|ぶき}: weapon — specifically offensive weapons, not armor; more general and modern\n- {兵器|へいき}: arms, ordnance — modern military weapons and equipment\n- {甲冑|かっちゅう}: armor (helmet and body armor) — specifically the defensive gear",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03605_buki",
+      "reading": "ぶき",
+      "headword": "{武器|ぶき}",
+      "label": "weapon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11679_heiki",
+      "reading": "へいき",
+      "headword": "{兵器|へいき}",
+      "label": "arms, ordnance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15370_kacchuu",
+      "reading": "かっちゅう",
+      "headword": "{甲冑|かっちゅう}",
+      "label": "armor"
+    },
+    {
+      "type": "related",
+      "target_id": "14659_bougu",
+      "reading": "ぼうぐ",
+      "headword": "{防具|ぼうぐ}",
+      "label": "protective gear"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +92,6 @@
       ]
     },
     "created": "2026-04-19T16:27:50Z",
-    "modified": "2026-04-19T16:27:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

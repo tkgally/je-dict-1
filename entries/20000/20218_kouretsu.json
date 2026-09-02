@@ -17,7 +17,9 @@
       "id": "20218_kouretsu_ex1",
       "japanese": "{後列|こうれつ}に{座|すわ}った。",
       "english": "I sat in the back row.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20218_kouretsu_ex2",
       "japanese": "{後列|こうれつ}からは{舞台|ぶたい}が{見|み}えにくい。",
       "english": "It's hard to see the stage from the back row.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "20218_kouretsu_ex3",
       "japanese": "{背|せ}の{高|たか}い{人|ひと}は{後列|こうれつ}に{回|まわ}ってもらえると、{前|まえ}の{人|ひと}が{見|み}やすくなります。",
       "english": "If taller people move to the back row, it will be easier for those in front to see.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A straightforward compound of {後|こう} (back, rear) + {列|れつ} (row, line). The counterpart of {前列|ぜんれつ} (front row).\n\nCOMMON COLLOCATIONS:\n- {後列|こうれつ}の{席|せき}: back row seat\n- {最後列|さいこうれつ}: the very back row\n- {後列|こうれつ}に{並|なら}ぶ: to line up in the back row\n- {後列|こうれつ}に{移動|いどう}する: to move to the back row\n\nSIMILAR WORDS:\n- {前列|ぜんれつ}: front row — the antonym\n- {後方|こうほう}: the rear (area) — refers to a general area, not a specific row\n- {最後尾|さいこうび}: the very end of a line — specifically the tail of a queue",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "20217_zenretsu",
+      "reading": "ぜんれつ",
+      "headword": "{前列|ぜんれつ}",
+      "label": "front row"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19126_kouhou",
+      "reading": "こうほう",
+      "headword": "{後方|こうほう}",
+      "label": "the rear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21693_saikoubi",
+      "reading": "さいこうび",
+      "headword": "{最後尾|さいこうび}",
+      "label": "the very end of a line"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["position"]
+      "semantic": [
+        "position"
+      ]
     },
     "created": "2026-03-28T17:12:54Z",
-    "modified": "2026-03-28T17:12:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

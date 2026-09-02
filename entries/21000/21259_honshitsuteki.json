@@ -3,7 +3,7 @@
   "headword": "{本質的|ほんしつてき}",
   "reading": "ほんしつてき",
   "romaji": "honshitsuteki",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "essential; intrinsic",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "21259_honshitsuteki_ex1",
       "japanese": "これは{本質的|ほんしつてき}な{問題|もんだい}だ。",
       "english": "This is a fundamental problem.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21259_honshitsuteki_ex2",
       "japanese": "{二|ふた}つの{考|かんが}え{方|かた}に{本質的|ほんしつてき}な{違|ちが}いはない。",
       "english": "There is no essential difference between the two ways of thinking.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "21259_honshitsuteki_ex3",
       "japanese": "{表面的|ひょうめんてき}な{改善|かいぜん}ではなく、{本質的|ほんしつてき}な{解決策|かいけつさく}を{考|かんが}えるべきだ。",
       "english": "We should think about a fundamental solution, not a superficial improvement.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -48,15 +54,56 @@
     }
   ],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17920_konponteki",
+      "reading": "こんぽんてき",
+      "headword": "{根本的|こんぽんてき}",
+      "label": "fundamental, radical"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04787_kihonteki",
+      "reading": "きほんてき",
+      "headword": "{基本的|きほんてき}",
+      "label": "basic, fundamental"
+    },
+    {
+      "type": "antonym",
+      "target_id": "18749_hyoumenteki",
+      "reading": "ひょうめんてき",
+      "headword": "{表面的|ひょうめんてき}",
+      "label": "superficial"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06171_jisshitsuteki",
+      "reading": "じっしつてき",
+      "headword": "{実質的|じっしつてき}",
+      "label": "substantial, practical"
+    },
+    {
+      "type": "antonym",
+      "target_id": "24035_genshouteki",
+      "reading": "げんしょうてき",
+      "headword": "{現象的|げんしょうてき}",
+      "label": "phenomenal"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     },
     "created": "2026-04-01T16:10:55Z",
-    "modified": "2026-04-08T12:34:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

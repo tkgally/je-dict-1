@@ -3,7 +3,7 @@
   "id": "20868_reizoku",
   "headword": "{隷属|れいぞく}",
   "reading": "れいぞく",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "subordination, servitude, subjection",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,32 @@
     }
   ],
   "notes": "A strongly negative, formal word implying oppressive subjugation. The first character {隷|れい} means \"slave\" or \"servant,\" giving the word a much harsher tone than neutral words like {従属|じゅうぞく}. Used in historical, political, and social contexts.\n\nCOMMON COLLOCATIONS:\n- ～に{隷属|れいぞく}する: to be subordinate/subservient to\n- {隷属|れいぞく}{状態|じょうたい}: state of servitude\n- {隷属|れいぞく}{関係|かんけい}: relationship of subjection\n- {隷属|れいぞく}からの{解放|かいほう}: liberation from servitude\n\nSIMILAR WORDS:\n- {従属|じゅうぞく}: subordination, dependency — more neutral; describes being in a dependent or secondary position without the connotation of oppression\n- {服従|ふくじゅう}: obedience, submission — focuses on the act of obeying, not the structural relationship of domination\n- {帰属|きぞく}: belonging, attribution — neutral; describes where something belongs or is attributed",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25304_juuzoku",
+      "reading": "じゅうぞく",
+      "headword": "{従属|じゅうぞく}",
+      "label": "subordination, dependency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15351_fukujuu",
+      "reading": "ふくじゅう",
+      "headword": "{服従|ふくじゅう}",
+      "label": "obedience, submission"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20867_kizoku",
+      "reading": "きぞく",
+      "headword": "{帰属|きぞく}",
+      "label": "belonging, attribution"
+    }
+  ],
   "metadata": {
     "created": "2026-03-30T19:08:00Z",
-    "modified": "2026-03-30T19:08:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

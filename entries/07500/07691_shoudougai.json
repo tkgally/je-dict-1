@@ -2,7 +2,7 @@
   "id": "07691_shoudougai",
   "headword": "{衝動買|しょうどうが}い",
   "reading": "しょうどうがい",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "impulse buying; impulse purchase",
   "conjugation": {
     "type": "suru",
@@ -138,11 +138,32 @@
       "reading": "しょうどう",
       "headword": "{衝動|しょうどう}",
       "label": "impulse (base word)"
+    },
+    {
+      "type": "related",
+      "target_id": "06241_shoudouteki",
+      "reading": "しょうどうてき",
+      "headword": "{衝動的|しょうどうてき}",
+      "label": "impulsive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08046_matomegai",
+      "reading": "まとめがい",
+      "headword": "まとめ{買|が}い",
+      "label": "bulk buying"
+    },
+    {
+      "type": "related",
+      "target_id": "08075_tsuidegai",
+      "reading": "ついでがい",
+      "headword": "ついで{買|が}い",
+      "label": "impulse purchase"
     }
   ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +172,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "shopping",
         "action"

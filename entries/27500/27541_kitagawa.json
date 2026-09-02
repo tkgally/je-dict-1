@@ -46,6 +46,22 @@
   ],
   "notes": "Compound of {北|きた} (north) + {側|がわ} (side). Used for any north-facing side or location to the north. Frequently appears in real estate and direction-giving.\n\nCOMMON COLLOCATIONS:\n- {駅|えき}の{北側|きたがわ}: north side of the station\n- {北側|きたがわ}の{窓|まど}: north-facing window\n- {道|みち}の{北側|きたがわ}: north side of the road\n- {北側|きたがわ}に{面|めん}する: to face north\n\nSIMILAR WORDS:\n- {南側|みなみがわ}: south side\n- {東側|ひがしがわ}: east side\n- {西側|にしがわ}: west side\n- {北|きた}: north (the direction itself)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27543_minamigawa",
+      "reading": "みなみがわ",
+      "headword": "{南側|みなみがわ}",
+      "label": "south side"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27563_nishigawa",
+      "reading": "にしがわ",
+      "headword": "{西側|にしがわ}",
+      "label": "west side"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "direction"
       ],
       "domain": []
     },
     "created": "2026-05-14T01:41:20Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

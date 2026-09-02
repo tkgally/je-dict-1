@@ -19,7 +19,9 @@
       "english": "A shareholders' meeting was held.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13855_soukai_ex2",
@@ -27,7 +29,9 @@
       "english": "Officers are elected at the once-a-year general meeting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13855_soukai_ex3",
@@ -35,22 +39,45 @@
       "english": "A new resolution was adopted at the United Nations General Assembly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nThe most common usage is {株主|かぶぬし}{総会|そうかい} (shareholders' meeting), a legally required annual meeting for corporations. Also used for any organization's plenary meeting where all members gather, such as a club or association. {国連|こくれん}{総会|そうかい} (UN General Assembly) is another well-known compound.\n\nCOMMON COLLOCATIONS:\n- {株主|かぶぬし}{総会|そうかい}: shareholders' meeting\n- {国連|こくれん}{総会|そうかい}: UN General Assembly\n- {定期|ていき}{総会|そうかい}: regular general meeting\n- {臨時|りんじ}{総会|そうかい}: extraordinary general meeting\n- {総会|そうかい}を{開|ひら}く: hold a general meeting",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27042_reikai",
+      "reading": "れいかい",
+      "headword": "{例会|れいかい}",
+      "label": "regular meeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29789_toutaikai",
+      "reading": "とうたいかい",
+      "headword": "党大会",
+      "label": "party convention"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T05:43:56Z",
-    "modified": "2026-02-27T05:43:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["society"],
-      "domain": ["business"]
+      "semantic": [
+        "society"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

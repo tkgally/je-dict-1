@@ -17,7 +17,9 @@
       "id": "22033_akaneiro_ex1",
       "japanese": "{茜色|あかねいろ}の{空|そら}。",
       "english": "A madder-red sky.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22033_akaneiro_ex2",
       "japanese": "{夕日|ゆうひ}が{山|やま}を{茜色|あかねいろ}に{染|そ}めた。",
       "english": "The setting sun dyed the mountains madder red.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,59 @@
       "id": "22033_akaneiro_ex3",
       "japanese": "{茜色|あかねいろ}に{染|そ}まった{夕焼|ゆうや}けを{眺|なが}めながら、{帰|かえ}り{道|みち}を{歩|ある}いた。",
       "english": "I walked home while gazing at the sunset sky dyed in deep reddish-orange.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {茜|あかね} (madder plant, Rubia) and {色|いろ} (color). The madder plant has been used since ancient times in Japan to produce a characteristic deep reddish-orange dye.\n\nCOMMON COLLOCATIONS:\n- {茜色|あかねいろ}の{空|そら}: a madder-red sky\n- {茜色|あかねいろ}に{染|そ}まる: to be dyed madder red\n- {茜色|あかねいろ}に{染|そ}める: to dye something madder red\n- {茜色|あかねいろ}の{夕焼|ゆうや}け: a madder-red sunset\n\nSIMILAR WORDS:\n- {朱色|しゅいろ}: vermilion — a brighter, more orange-red\n- {緋色|ひいろ}: scarlet — a vivid, pure red\n- {紅色|べにいろ}: crimson — a deeper, cooler red\n\nCULTURAL CONTEXT:\nThis color is deeply associated with Japanese literature and poetry, where it evokes the beauty of sunset skies. It is one of Japan's traditional colors ({和色|わしょく}) and appears frequently in song lyrics, novel titles, and descriptions of natural scenery.",
+  "notes": "Composed of {茜|あかね} (madder plant, Rubia) and {色|いろ} (color). The madder plant has been used since ancient times in Japan to produce a characteristic deep reddish-orange dye.\n\nCOMMON COLLOCATIONS:\n- {茜色|あかねいろ}の{空|そら}: a madder-red sky\n- {茜色|あかねいろ}に{染|そ}まる: to be dyed madder red\n- {茜色|あかねいろ}に{染|そ}める: to dye something madder red\n- {茜色|あかねいろ}の{夕焼|ゆうや}け: a madder-red sunset\n\nSIMILAR WORDS:\n- {朱色|しゅいろ}: vermilion — a brighter, more orange-red\n- {緋色|ひいろ}: scarlet — a vivid, pure red\n- {紅色|べにいろ}: crimson — a deeper, cooler red\n\nCULTURAL NOTE:\nThis color is deeply associated with Japanese literature and poetry, where it evokes the beauty of sunset skies. It is one of Japan's traditional colors ({和色|わしょく}) and appears frequently in song lyrics, novel titles, and descriptions of natural scenery.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20098_shuiro",
+      "reading": "しゅいろ",
+      "headword": "{朱色|しゅいろ}",
+      "label": "vermilion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22034_hiiro",
+      "reading": "ひいろ",
+      "headword": "{緋色|ひいろ}",
+      "label": "scarlet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23780_beniiro",
+      "reading": "べにいろ",
+      "headword": "{紅色|べにいろ}",
+      "label": "crimson"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19507_yuubae",
+      "reading": "ゆうばえ",
+      "headword": "{夕映|ゆうば}え",
+      "label": "evening glow"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["color", "nature"]
+      "semantic": [
+        "color",
+        "nature"
+      ]
     },
     "created": "2026-04-04T21:11:41Z",
-    "modified": "2026-04-04T21:11:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

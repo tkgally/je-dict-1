@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{湿度|しつど} refers to humidity as a measurable quantity, typically expressed as a percentage.\n\nCOMMON PATTERNS:\n- {湿度|しつど}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧ (humidity is high)\n- {湿度|しつど}⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧ (humidity is low)\n- {湿度|しつど}⟦を→を：00422_wo⟧⟦{調整|ちょうせい}→調整：14839_chousei⟧⟦する→する：00392_suru⟧ (to adjust humidity)\n- {湿度|しつど}○○% (humidity at X%)\n\nRELATED TERMS:\n- ⟦{温度|おんど}→温度：00333_ondo⟧ (temperature)\n- ⟦{湿気|しっけ}→湿気：03177_shikke⟧ (moisture, dampness - more tangible)\n- ⟦{加湿器|かしつき}→加湿器：06491_kashitsuki⟧ (humidifier)\n- ⟦{除湿機|じょしつき}→除湿機：06492_joshitsuki⟧ (dehumidifier)\n\nSIMILAR WORDS:\n- {湿度|しつど}: numerical humidity measurement\n- ⟦{湿気|しっけ}→湿気：03177_shikke⟧: physical dampness/moisture you can feel",
+  "notes": "{湿度|しつど} refers to humidity as a measurable quantity, typically expressed as a percentage.\n\nCOMMON PATTERNS:\n- {湿度|しつど}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧ (humidity is high)\n- {湿度|しつど}⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧ (humidity is low)\n- {湿度|しつど}⟦を→を：00422_wo⟧⟦{調整|ちょうせい}→調整：14839_chousei⟧⟦する→する：00392_suru⟧ (to adjust humidity)\n- {湿度|しつど}○○% (humidity at X%)\n\nRELATED WORDS:\n- ⟦{温度|おんど}→温度：00333_ondo⟧ (temperature)\n- ⟦{湿気|しっけ}→湿気：03177_shikke⟧ (moisture, dampness - more tangible)\n- ⟦{加湿器|かしつき}→加湿器：06491_kashitsuki⟧ (humidifier)\n- ⟦{除湿機|じょしつき}→除湿機：06492_joshitsuki⟧ (dehumidifier)\n\nSIMILAR WORDS:\n- {湿度|しつど}: numerical humidity measurement\n- ⟦{湿気|しっけ}→湿気：03177_shikke⟧: physical dampness/moisture you can feel",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,39 @@
       "reading": "おんど",
       "headword": "{温度|おんど}",
       "label": "temperature"
+    },
+    {
+      "type": "related",
+      "target_id": "06491_kashitsuki",
+      "reading": "かしつき",
+      "headword": "{加湿器|かしつき}",
+      "label": "humidifier"
+    },
+    {
+      "type": "related",
+      "target_id": "06492_joshitsuki",
+      "reading": "じょしつき",
+      "headword": "{除湿機|じょしつき}",
+      "label": "dehumidifier"
+    },
+    {
+      "type": "related",
+      "target_id": "08132_kanshitsu",
+      "reading": "かんしつ",
+      "headword": "{乾湿|かんしつ}",
+      "label": "dry and wet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27487_gansuiryou",
+      "reading": "がんすいりょう",
+      "headword": "{含水量|がんすいりょう}",
+      "label": "water content"
     }
   ],
   "metadata": {
     "created": "2026-01-11T13:40:30Z",
-    "modified": "2026-05-24T13:29:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

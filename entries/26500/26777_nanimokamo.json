@@ -17,7 +17,9 @@
       "id": "26777_nanimokamo_ex1",
       "japanese": "{何|なに}もかも{嫌|いや}になった。",
       "english": "I got sick of everything.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26777_nanimokamo_ex2",
       "japanese": "{彼|かれ}は{何|なに}もかも{知|し}っているようだ。",
       "english": "He seems to know everything.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,52 @@
       "id": "26777_nanimokamo_ex3",
       "japanese": "{引|ひ}っ{越|こ}しで{何|なに}もかも{新|あたら}しい{生活|せいかつ}が{始|はじ}まった。",
       "english": "With the move, a completely new life began with everything fresh.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "An emphatic way to say \"everything\" that stresses completeness — nothing at all is excluded. Often appears in emotional contexts expressing frustration, resignation, or awe.\n\nUSAGE:\nTypically used as the subject or object of a sentence. The particle を or が often follows, though it can also function adverbially.\n\nCOMMON COLLOCATIONS:\n- {何|なに}もかも{捨|す}てる: to throw away everything\n- {何|なに}もかも{忘|わす}れる: to forget everything\n- {何|なに}もかもうまくいく: everything goes well\n- {何|なに}もかも{嫌|いや}になる: to get sick of everything\n\nSIMILAR WORDS:\n- すべて: everything — neutral and formal; lacks the emotional emphasis\n- {全部|ぜんぶ}: all; the whole lot — conversational but matter-of-fact\n- {何|なに}もかにも: everything — variant form with similar meaning but less common",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03822_subete",
+      "reading": "すべて",
+      "headword": "{全|すべ}て",
+      "label": "everything"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02888_zenbu",
+      "reading": "ぜんぶ",
+      "headword": "{全部|ぜんぶ}",
+      "label": "all"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20633_nandemokandemo",
+      "reading": "なんでもかんでも",
+      "headword": "{何|なん}でもかんでも",
+      "label": "anything and everything"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["pronoun"],
+      "pos": [
+        "pronoun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-05T11:03:56Z",
-    "modified": "2026-05-05T11:03:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

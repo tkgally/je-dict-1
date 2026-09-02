@@ -3,7 +3,7 @@
   "headword": "{再設定|さいせってい}",
   "reading": "さいせってい",
   "romaji": "saisettei",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "resetting; reconfiguration; setting again",
   "definitions": [
     {
@@ -55,6 +55,22 @@
   ],
   "notes": "Composed of {再|さい} (again, re-) + {設定|せってい} (setting, configuration). Very common in technology and computing contexts, but also used for abstract concepts like goals and plans.\n\nCOMMON COLLOCATIONS:\n- パスワードの{再設定|さいせってい}: password reset\n- {目標|もくひょう}の{再設定|さいせってい}: resetting goals\n- {初期|しょき}{設定|せってい}の{再設定|さいせってい}: reconfiguring initial settings\n- {再設定|さいせってい}{画面|がめん}: reset screen\n\nSIMILAR WORDS:\n- リセット: reset — the loanword, more casual and often used for physical buttons or figurative fresh starts\n- {設定|せってい}{変更|へんこう}: settings change — modifying rather than starting over\n- {初期化|しょきか}: initialization — returning to factory defaults, more drastic than resetting",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11199_risetto",
+      "reading": "りせっと",
+      "headword": "リセット",
+      "label": "reset"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09223_shokika",
+      "reading": "しょきか",
+      "headword": "{初期化|しょきか}",
+      "label": "initialization"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,13 +78,14 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "technology"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-22T12:37:49Z",
-    "modified": "2026-04-22T12:37:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -3,7 +3,7 @@
   "headword": "{増改築|ぞうかいちく}",
   "reading": "ぞうかいちく",
   "romaji": "zoukaichiku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "extension and remodeling; renovation and expansion",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A compound of three characters: {増|ぞう} (increase, add) + {改|かい} (modify, reform) + {築|ちく} (build, construct). Covers the full range of building modifications — from adding new rooms or floors to renovating existing spaces. Common in real estate, construction, and housing contexts.\n\nCOMMON COLLOCATIONS:\n- {増改築|ぞうかいちく}を{行|おこな}う: to carry out renovation and expansion\n- {増改築|ぞうかいちく}{工事|こうじ}: renovation/expansion construction work\n- {増改築|ぞうかいちく}{費用|ひよう}: renovation/expansion costs\n- {増改築|ぞうかいちく}{禁止|きんし}: no renovation/expansion allowed\n\nSIMILAR WORDS:\n- リフォーム: remodeling, renovation — the popular loanword for home renovation; does not necessarily include expansion\n- {改築|かいちく}: remodeling — modifying an existing structure without necessarily adding to it\n- {増築|ぞうちく}: extension — adding new space to an existing building\n- リノベーション: renovation — a loanword that implies more extensive modernization than リフォーム",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08821_rifoomu",
+      "reading": "りふぉーむ",
+      "headword": "リフォーム",
+      "label": "remodeling, renovation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06568_zouchiku",
+      "reading": "ぞうちく",
+      "headword": "{増築|ぞうちく}",
+      "label": "extension"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11211_rinobeeshon",
+      "reading": "りのべーしょん",
+      "headword": "リノベーション",
+      "label": "renovation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,16 @@
         "noun",
         "verb-suru"
       ],
-      "semantic": ["building", "action"],
+      "semantic": [
+        "building",
+        "action"
+      ],
       "formality": "neutral",
       "politeness": "plain",
       "verb_class": "suru"
     },
     "created": "2026-04-07T21:09:31Z",
-    "modified": "2026-07-31T00:29:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

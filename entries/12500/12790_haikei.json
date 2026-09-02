@@ -19,7 +19,9 @@
       "english": "Dear Sir/Madam, I trust you are doing well.",
       "notes": "A standard formal letter opening combining {拝啓|はいけい} with a seasonal greeting.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12790_haikei_ex2",
@@ -27,7 +29,9 @@
       "english": "Dear Sir/Madam, as the new year begins, I hope everyone is doing well.",
       "notes": "An example with a seasonal reference ({時候|じこう}の{挨拶|あいさつ}).",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12790_haikei_ex3",
@@ -35,21 +39,42 @@
       "english": "Proper etiquette is to begin a letter with \"haikei\" and close it with \"keigu.\"",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{拝啓|はいけい} literally means \"humbly stating\" ({拝|はい} = humbly + {啓|けい} = to state/inform). It is the standard formal opening for Japanese letters and must always be paired with the closing {敬具|けいぐ} (\"respectfully concluded\").\n\nFORMAT: In a Japanese letter, {拝啓|はいけい} is followed by a space (full-width) and then a seasonal greeting ({時候|じこう}の{挨拶|あいさつ}). The body of the letter follows, and the letter ends with {敬具|けいぐ}.\n\nOTHER LETTER OPENINGS:\n- {謹啓|きんけい}: more formal than {拝啓|はいけい} (paired with {謹白|きんぱく} or {敬白|けいはく})\n- {前略|ぜんりゃく}: \"dispensing with formalities\" — used when skipping the seasonal greeting (paired with {草々|そうそう})\n\nNOTE: {拝啓|はいけい} is used in formal business letters, official correspondence, and ceremonial writing. It is not used in casual emails or messages.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12977_keigu",
+      "reading": "けいぐ",
+      "headword": "{敬具|けいぐ}",
+      "label": "respectfully yours, sincerely (letter closing)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22309_kinkei",
+      "reading": "きんけい",
+      "headword": "{謹啓|きんけい}",
+      "label": "respectfully (formal letter opening)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T10:33:07Z",
-    "modified": "2026-02-22T10:33:07Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "formal",
       "politeness": "humble",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {続|ぞく} (continue, follow) + {発|はつ} (occur, emit). Used almost exclusively for negative events — accidents, crimes, disasters, and problems happening in series.\n\nCOMMON COLLOCATIONS:\n- {事故|じこ}が{続発|ぞくはつ}する: accidents occur in succession\n- {事件|じけん}が{続発|ぞくはつ}する: incidents happen one after another\n- {被害|ひがい}が{続発|ぞくはつ}する: damage occurs repeatedly\n- {トラブル}が{続発|ぞくはつ}する: troubles keep arising\n\nSIMILAR WORDS:\n- {連発|れんぱつ}する: to occur in rapid succession — can be positive or negative; emphasizes rapid repetition\n- {頻発|ひんぱつ}する: to occur frequently — emphasizes high frequency rather than sequential occurrence\n- {相次|あいつ}ぐ: to follow one after another — similar meaning and nuance, slightly more literary\n\nREGISTER:\nCommon in news reports and formal writing. Typically appears in headlines and news stories about crime, accidents, and public health issues.",
+  "notes": "Composed of {続|ぞく} (continue, follow) + {発|はつ} (occur, emit). Used almost exclusively for negative events — accidents, crimes, disasters, and problems happening in series.\n\nCOMMON COLLOCATIONS:\n- {事故|じこ}が{続発|ぞくはつ}する: accidents occur in succession\n- {事件|じけん}が{続発|ぞくはつ}する: incidents happen one after another\n- {被害|ひがい}が{続発|ぞくはつ}する: damage occurs repeatedly\n- トラブルが{続発|ぞくはつ}する: troubles keep arising\n\nSIMILAR WORDS:\n- {連発|れんぱつ}する: to occur in rapid succession — can be positive or negative; emphasizes rapid repetition\n- {頻発|ひんぱつ}する: to occur frequently — emphasizes high frequency rather than sequential occurrence\n- {相次|あいつ}ぐ: to follow one after another — similar meaning and nuance, slightly more literary\n\nREGISTER:\nCommon in news reports and formal writing. Typically appears in headlines and news stories about crime, accidents, and public health issues.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21028_renpatsusuru",
+      "reading": "れんぱつする",
+      "headword": "{連発|れんぱつ}する",
+      "label": "to occur in rapid succession"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22178_hinpatsusuru",
+      "reading": "ひんぱつする",
+      "headword": "{頻発|ひんぱつ}する",
+      "label": "to occur frequently"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14869_aitsugu",
+      "reading": "あいつぐ",
+      "headword": "{相次|あいつ}ぐ",
+      "label": "to follow one after another"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-31T15:33:24Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

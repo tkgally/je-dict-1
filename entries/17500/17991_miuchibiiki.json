@@ -19,7 +19,9 @@
       "english": "That's nepotism.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17991_miuchibiiki_ex2",
@@ -27,7 +29,9 @@
       "english": "Due to the president's nepotism, his son was promoted to department head.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17991_miuchibiiki_ex3",
@@ -35,21 +39,42 @@
       "english": "Nepotism damages trust in the organization and causes talented people to leave.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAlways carries a critical or disapproving tone. {身内|みうち} refers to one's family, relatives, or inner circle, and びいき (from {贔屓|ひいき}) means favoritism. The combination implies unfair preferential treatment.\n\nCOMMON COLLOCATIONS:\n- {身内|みうち}びいきをする (to practice nepotism)\n- {身内|みうち}びいきが{過|す}ぎる (to take nepotism too far)\n- {身内|みうち}びいきだと{批判|ひはん}される (to be criticized as nepotism)\n\nSIMILAR WORDS:\n- {贔屓|ひいき}: favoritism — broader term for showing partiality toward anyone\n- えこひいき: unfair favoritism — similar negative nuance but not limited to family",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10490_hiiki",
+      "reading": "ひいき",
+      "headword": "{贔屓|ひいき}",
+      "label": "favoritism"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20939_ekohiiki",
+      "reading": "えこひいき",
+      "headword": "{依怙贔屓|えこひいき}",
+      "label": "unfair favoritism"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T11:48:43Z",
-    "modified": "2026-03-19T11:48:43Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

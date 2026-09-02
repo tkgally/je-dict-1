@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{弦|げん} (string) + {楽器|がっき} (musical instrument)\n\nTYPES OF STRING INSTRUMENTS:\n\n**{擦弦|さつげん}{楽器|がっき} (Bowed strings):**\n・バイオリン - violin\n・ビオラ - viola\n・チェロ - cello\n・コントラバス - double bass\n\n**{撥弦|はつげん}{楽器|がっき} (Plucked strings):**\n・ギター - guitar\n・ハープ - harp\n・{琴|こと} - koto\n・{三味線|しゃみせん} - shamisen\n・ウクレレ - ukulele\n\n**{打弦|だげん}{楽器|がっき} (Struck strings):**\n・ピアノ - piano (also classified as keyboard)\n\nRELATED TERMS:\n・{管楽器|かんがっき} - wind instruments\n・{打楽器|だがっき} - percussion instruments\n・{弓|ゆみ} - bow (for bowed instruments)\n\nCOLLOCATIONS:\n・{弦楽器|げんがっき}を{弾|ひ}く - to play a string instrument\n・{弦楽|げんがく}{合奏|がっそう} - string ensemble",
+  "notes": "ETYMOLOGY:\n{弦|げん} (string) + {楽器|がっき} (musical instrument)\n\nTYPES OF STRING INSTRUMENTS:\n\n**{擦弦|さつげん}{楽器|がっき} (Bowed strings):**\n- バイオリン - violin\n- ビオラ - viola\n- チェロ - cello\n- コントラバス - double bass\n\n**{撥弦|はつげん}{楽器|がっき} (Plucked strings):**\n- ギター - guitar\n- ハープ - harp\n- {琴|こと} - koto\n- {三味線|しゃみせん} - shamisen\n- ウクレレ - ukulele\n\n**{打弦|だげん}{楽器|がっき} (Struck strings):**\n- ピアノ - piano (also classified as keyboard)\n\nRELATED WORDS:\n- {管楽器|かんがっき} - wind instruments\n- {打楽器|だがっき} - percussion instruments\n- {弓|ゆみ} - bow (for bowed instruments)\n\nCOMMON COLLOCATIONS:\n- {弦楽器|げんがっき}を{弾|ひ}く - to play a string instrument\n- {弦楽|げんがく}{合奏|がっそう} - string ensemble",
   "cross_references": [
     {
       "type": "related",
@@ -55,11 +55,53 @@
       "headword": "{打楽器|だがっき}",
       "label": "percussion instruments",
       "target_id": "07532_dagakki"
+    },
+    {
+      "type": "related",
+      "target_id": "08430_yumi",
+      "reading": "ゆみ",
+      "headword": "{弓|ゆみ}",
+      "label": "bow"
+    },
+    {
+      "type": "related",
+      "target_id": "08115_chero",
+      "reading": "ちぇろ",
+      "headword": "チェロ",
+      "label": "cello"
+    },
+    {
+      "type": "related",
+      "target_id": "08149_kontorabasu",
+      "reading": "こんとらばす",
+      "headword": "コントラバス",
+      "label": "double bass"
+    },
+    {
+      "type": "related",
+      "target_id": "18464_kenbangakki",
+      "reading": "けんばんがっき",
+      "headword": "{鍵盤楽器|けんばんがっき}",
+      "label": "keyboard instrument"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23683_kinkangakki",
+      "reading": "きんかんがっき",
+      "headword": "{金管楽器|きんかんがっき}",
+      "label": "brass instrument"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25946_mokkangakki",
+      "reading": "もっかんがっき",
+      "headword": "{木管楽器|もっかんがっき}",
+      "label": "woodwind instrument"
     }
   ],
   "metadata": {
     "created": "2026-01-20T08:47:47Z",
-    "modified": "2026-01-24T14:24:36Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -67,6 +109,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "music"
       ]

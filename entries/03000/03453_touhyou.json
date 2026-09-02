@@ -2,7 +2,7 @@
   "id": "03453_touhyou",
   "headword": "{投票|とうひょう}",
   "reading": "とうひょう",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "voting, ballot",
   "conjugation": {
     "type": "suru",
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {投票|とうひょう} is used for formal voting in elections, referendums, and official polls. For informal decisions or show-of-hands votes, ⟦{多数決|たすうけつ}→多数決：16369_tasuuketsu⟧ (majority rule) is often used.\n\nCOMMON PATTERNS:\n・{投票|とうひょう}⟦する→する：00392_suru⟧ (to vote)\n・{投票|とうひょう}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ (to go to vote)\n・{投票|とうひょう}⟦{用紙|ようし}→用紙：09588_youshi⟧ (ballot paper)\n・{投票|とうひょう}⟦{所|じょ}→所：noentry⟧/⟦{投票|とうひょう}{場|じょう}→投票場：noentry⟧ (polling station)\n・{投票|とうひょう}⟦{日|び}→日：noentry⟧ (election day)\n・{投票|とうひょう}⟦{率|りつ}→率：03802_ritsu⟧ (voter turnout)\n\nRELATED WORDS:\n・⟦{選挙|せんきょ}→選挙：03303_senkyo⟧ (election)\n・⟦{票|ひょう}→票：03582_hyou⟧ (vote, ballot)\n・⟦{候補|こうほ}→候補：02804_kouho⟧ (candidate)\n・⟦{有権者|ゆうけんしゃ}→有権者：13021_yuukensha⟧ (eligible voter)\n・⟦{棄権|きけん}→棄権：16194_kiken⟧ (abstention)",
+  "notes": "USAGE: {投票|とうひょう} is used for formal voting in elections, referendums, and official polls. For informal decisions or show-of-hands votes, ⟦{多数決|たすうけつ}→多数決：16369_tasuuketsu⟧ (majority rule) is often used.\n\nCOMMON PATTERNS:\n- {投票|とうひょう}⟦する→する：00392_suru⟧ (to vote)\n- {投票|とうひょう}⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ (to go to vote)\n- {投票|とうひょう}⟦{用紙|ようし}→用紙：09588_youshi⟧ (ballot paper)\n- {投票|とうひょう}⟦{所|じょ}→所：noentry⟧/⟦{投票|とうひょう}{場|じょう}→投票場：noentry⟧ (polling station)\n- {投票|とうひょう}⟦{日|び}→日：noentry⟧ (election day)\n- {投票|とうひょう}⟦{率|りつ}→率：03802_ritsu⟧ (voter turnout)\n\nRELATED WORDS:\n- ⟦{選挙|せんきょ}→選挙：03303_senkyo⟧ (election)\n- ⟦{票|ひょう}→票：03582_hyou⟧ (vote, ballot)\n- ⟦{候補|こうほ}→候補：02804_kouho⟧ (candidate)\n- ⟦{有権者|ゆうけんしゃ}→有権者：13021_yuukensha⟧ (eligible voter)\n- ⟦{棄権|きけん}→棄権：16194_kiken⟧ (abstention)",
   "cross_references": [
     {
       "type": "related",
@@ -161,11 +161,60 @@
       "headword": "{選挙|せんきょ}",
       "label": "election",
       "target_id": "03303_senkyo"
+    },
+    {
+      "type": "related",
+      "target_id": "02804_kouho",
+      "reading": "こうほ",
+      "headword": "{候補|こうほ}",
+      "label": "candidate"
+    },
+    {
+      "type": "related",
+      "target_id": "13021_yuukensha",
+      "reading": "ゆうけんしゃ",
+      "headword": "{有権者|ゆうけんしゃ}",
+      "label": "eligible voter"
+    },
+    {
+      "type": "related",
+      "target_id": "16194_kiken",
+      "reading": "きけん",
+      "headword": "{棄権|きけん}",
+      "label": "abstention"
+    },
+    {
+      "type": "related",
+      "target_id": "08395_saiketsu",
+      "reading": "さいけつ",
+      "headword": "{採決|さいけつ}",
+      "label": "vote"
+    },
+    {
+      "type": "related",
+      "target_id": "10427_senkyoken",
+      "reading": "せんきょけん",
+      "headword": "{選挙権|せんきょけん}",
+      "label": "right to vote, suffrage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16369_tasuuketsu",
+      "reading": "たすうけつ",
+      "headword": "{多数決|たすうけつ}",
+      "label": "majority vote"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19111_tokuhyou",
+      "reading": "とくひょう",
+      "headword": "{得票|とくひょう}",
+      "label": "votes obtained"
     }
   ],
   "metadata": {
     "created": "2026-01-12T09:38:00Z",
-    "modified": "2026-05-25T19:11:11Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

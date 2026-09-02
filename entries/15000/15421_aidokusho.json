@@ -19,7 +19,9 @@
       "english": "This novel is my favorite book.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15421_aidokusho_ex2",
@@ -27,7 +29,9 @@
       "english": "I reread a favorite book from my childhood for the first time in a long while.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15421_aidokusho_ex3",
@@ -35,21 +39,42 @@
       "english": "When asked what my favorite book was, I couldn't answer right away.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{愛読書|あいどくしょ} implies a book that someone has read multiple times and holds in high regard. It is a common question in interviews and self-introductions in Japan.\n\nWORD FORMATION:\n{愛|あい} (love) + {読書|どくしょ} (reading/book) — literally a book one loves to read.\n\nCOMMON COLLOCATIONS:\n- {愛読書|あいどくしょ}は{何|なん}ですか (What is your favorite book?)\n- {長年|ながねん}の{愛読書|あいどくしょ} (a long-time favorite book)\n\nRELATED WORDS:\n- {読書|どくしょ}: reading\n- {愛読|あいどく}する: to read regularly and with fondness\n- {愛用|あいよう}: regularly used (for items)",
-  "cross_references": [],
+  "notes": "USAGE:\n{愛読書|あいどくしょ} implies a book that someone has read multiple times and holds in high regard. It is a common question in interviews and self-introductions in Japan.\n\nFORMS:\n{愛|あい} (love) + {読書|どくしょ} (reading/book) — literally a book one loves to read.\n\nCOMMON COLLOCATIONS:\n- {愛読書|あいどくしょ}は{何|なん}ですか (What is your favorite book?)\n- {長年|ながねん}の{愛読書|あいどくしょ} (a long-time favorite book)\n\nRELATED WORDS:\n- {読書|どくしょ}: reading\n- {愛読|あいどく}する: to read regularly and with fondness\n- {愛用|あいよう}: regularly used (for items)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15980_aidoku",
+      "reading": "あいどく",
+      "headword": "{愛読|あいどく}",
+      "label": "to read regularly and with fondness"
+    },
+    {
+      "type": "related",
+      "target_id": "12693_aiyou",
+      "reading": "あいよう",
+      "headword": "{愛用|あいよう}",
+      "label": "regularly used"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T13:45:30Z",
-    "modified": "2026-03-06T13:45:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["culture"],
+      "semantic": [
+        "culture"
+      ],
       "domain": []
     }
   }

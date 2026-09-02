@@ -2,7 +2,7 @@
   "id": "05107_rokuon",
   "headword": "{録音|ろくおん}",
   "reading": "ろくおん",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "audio recording",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{録音|ろくおん} means audio recording — both the act of recording sound and the recorded material itself. Composed of {録|ろく} (record) + {音|おん} (sound).\n\nCOMMON COLLOCATIONS:\n- {録音|ろくおん}⟦する→する：00392_suru⟧: to record audio\n- {録音|ろくおん}⟦を→を：00422_wo⟧⟦{再生|さいせい}→再生：04442_saisei⟧⟦する→する：00392_suru⟧: to play back a recording\n- {録音|ろくおん}⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧: to listen to a recording\n- {録音|ろくおん}⟦{機能|きのう}→機能：13165_kinou⟧: recording function/feature\n- {録音|ろくおん}⟦{禁止|きんし}→禁止：02643_kinshi⟧: recording prohibited\n\nCONTRAST:\n- {録音|ろくおん}: audio only\n- ⟦{録画|ろくが}→録画：04441_rokuga⟧: video recording\n- ⟦{収録|しゅうろく}→収録：08378_shuuroku⟧: recording (for broadcast/publication)\n- ⟦レコーディング→レコーディング：08117_rekoodingu⟧: recording (music industry term)",
+  "notes": "{録音|ろくおん} means audio recording — both the act of recording sound and the recorded material itself. Composed of {録|ろく} (record) + {音|おん} (sound).\n\nCOMMON COLLOCATIONS:\n- {録音|ろくおん}⟦する→する：00392_suru⟧: to record audio\n- {録音|ろくおん}⟦を→を：00422_wo⟧⟦{再生|さいせい}→再生：04442_saisei⟧⟦する→する：00392_suru⟧: to play back a recording\n- {録音|ろくおん}⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧: to listen to a recording\n- {録音|ろくおん}⟦{機能|きのう}→機能：13165_kinou⟧: recording function/feature\n- {録音|ろくおん}⟦{禁止|きんし}→禁止：02643_kinshi⟧: recording prohibited\n\nSIMILAR WORDS:\n- {録音|ろくおん}: audio only\n- ⟦{録画|ろくが}→録画：04441_rokuga⟧: video recording\n- ⟦{収録|しゅうろく}→収録：08378_shuuroku⟧: recording (for broadcast/publication)\n- ⟦レコーディング→レコーディング：08117_rekoodingu⟧: recording (music industry term)",
   "cross_references": [
     {
       "type": "related",
@@ -148,11 +148,32 @@
       "reading": "さいせい",
       "headword": "{再生|さいせい}",
       "label": "playback"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08378_shuuroku",
+      "reading": "しゅうろく",
+      "headword": "{収録|しゅうろく}",
+      "label": "recording"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08117_rekoodingu",
+      "reading": "れこーでぃんぐ",
+      "headword": "レコーディング",
+      "label": "recording"
+    },
+    {
+      "type": "related",
+      "target_id": "03099_teepurekoodaa",
+      "reading": "てーぷれこーだー",
+      "headword": "テープレコーダー",
+      "label": "tape recorder"
     }
   ],
   "metadata": {
     "created": "2026-01-16T02:32:54Z",
-    "modified": "2026-06-04T15:11:07Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

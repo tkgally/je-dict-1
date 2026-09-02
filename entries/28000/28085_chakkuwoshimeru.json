@@ -17,7 +17,9 @@
       "id": "28085_chakkuwoshimeru_ex1",
       "japanese": "チャックを{閉|し}めてください。",
       "english": "Please zip it up.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28085_chakkuwoshimeru_ex2",
       "japanese": "ズボンのチャックを{閉|し}め{忘|わす}れた。",
       "english": "I forgot to zip up my pants.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28085_chakkuwoshimeru_ex3",
       "japanese": "{寒|さむ}かったので、{上着|うわぎ}のチャックを{一番|いちばん}{上|うえ}まで{閉|し}めた。",
       "english": "It was cold, so I zipped my jacket all the way up to the top.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "チャック is an everyday word for a zipper (from the brand name 'Chuck'), interchangeable with ファスナー and ジッパー. The opposite action is チャックを{開|あ}ける (to unzip).\n\nCOMMON COLLOCATIONS:\n- チャックを{開|あ}ける: to unzip\n- チャックが{開|あ}いている: your zipper is open (a common gentle warning)\n- チャックを{上|あ}げる: to pull the zipper up\n\nSIMILAR WORDS:\n- ファスナー: fastener — the more 'official' term for a zipper\n- ジッパー: zipper — also common, taken directly from English",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07100_fasunaa",
+      "reading": "ふぁすなー",
+      "headword": "ファスナー",
+      "label": "fastener"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08276_jippaa",
+      "reading": "じっぱー",
+      "headword": "ジッパー",
+      "label": "zipper"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["daily-life"],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life"
+      ],
       "domain": []
     },
     "created": "2026-05-25T03:05:12Z",
-    "modified": "2026-05-25T03:05:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

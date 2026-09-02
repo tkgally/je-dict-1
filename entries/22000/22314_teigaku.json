@@ -17,7 +17,9 @@
       "id": "22314_teigaku_ex1",
       "japanese": "{一週間|いっしゅうかん}の{停学|ていがく}になった。",
       "english": "I got a one-week suspension.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22314_teigaku_ex2",
       "japanese": "けんかをして{停学|ていがく}{処分|しょぶん}を{受|う}けた。",
       "english": "I got into a fight and received a suspension.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "22314_teigaku_ex3",
       "japanese": "{校則|こうそく}{違反|いはん}を{繰|く}り{返|かえ}した{生徒|せいと}が{停学|ていがく}{処分|しょぶん}を{言|い}い{渡|わた}された。",
       "english": "The student who repeatedly violated school rules was given a suspension.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {停|てい} (stop/suspend) + {学|がく} (study/school). Used specifically for school disciplinary suspensions where the student is temporarily prohibited from attending. In Japan, suspension is considered a serious punishment and is less commonly applied than in some Western school systems.\n\nCOMMON COLLOCATIONS:\n- {停学|ていがく}{処分|しょぶん}: suspension as disciplinary action\n- {停学|ていがく}になる: to be suspended\n- {停学|ていがく}を{受|う}ける: to receive a suspension\n- {無期|むき}{停学|ていがく}: indefinite suspension\n\nSIMILAR WORDS:\n- {退学|たいがく}: expulsion — permanent removal from school, much more severe\n- {休学|きゅうがく}: leave of absence — voluntary, not disciplinary\n- {謹慎|きんしん}: house arrest/confinement — broader disciplinary restriction",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03387_taigaku",
+      "reading": "たいがく",
+      "headword": "{退学|たいがく}",
+      "label": "expulsion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05140_kyuugaku",
+      "reading": "きゅうがく",
+      "headword": "{休学|きゅうがく}",
+      "label": "leave of absence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18808_kinshin",
+      "reading": "きんしん",
+      "headword": "{謹慎|きんしん}",
+      "label": "house arrest/confinement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28840_shussekiteishi",
+      "reading": "しゅっせきていし",
+      "headword": "{出席停止|しゅっせきていし}",
+      "label": "suspension from attending school"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-04-05T18:25:33Z",
-    "modified": "2026-04-05T18:25:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

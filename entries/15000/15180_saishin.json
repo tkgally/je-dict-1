@@ -19,7 +19,9 @@
       "english": "The retrial was granted.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15180_saishin_ex2",
@@ -27,7 +29,9 @@
       "english": "The defense team filed for a retrial.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15180_saishin_ex3",
@@ -35,22 +39,38 @@
       "english": "New evidence was found, and a retrial will be held for the first time in thirty years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{再審|さいしん} is a legal term frequently seen in news reports about criminal cases, especially wrongful convictions. Japan's retrial system is notoriously difficult to navigate, making {再審|さいしん} cases major news events.\n\nCOMMON COLLOCATIONS:\n- {再審|さいしん}を{請求|せいきゅう}する (to file for a retrial)\n- {再審|さいしん}が{認|みと}められる (for a retrial to be granted)\n- {再審|さいしん}が{開|ひら}かれる (for a retrial to be held)\n- {再審|さいしん}{無罪|むざい} (acquittal on retrial)\n- {再審|さいしん}{開始|かいし}{決定|けってい} (decision to begin a retrial)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08392_enzai",
+      "reading": "えんざい",
+      "headword": "{冤罪|えんざい}",
+      "label": "false accusation"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T09:05:14Z",
-    "modified": "2026-03-05T09:05:14Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

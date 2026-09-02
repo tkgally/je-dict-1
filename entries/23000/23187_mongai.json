@@ -22,7 +22,9 @@
       "id": "23187_mongai_ex1",
       "japanese": "{門外|もんがい}に{出|で}る。",
       "english": "To go outside the gate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "23187_mongai_ex2",
       "japanese": "{門外|もんがい}{不出|ふしゅつ}の{秘伝|ひでん}のたれを{使|つか}っている。",
       "english": "They use a secret sauce recipe that has never been shared outside the family.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "23187_mongai_ex3",
       "japanese": "コンピューターに{関|かん}しては{門外漢|もんがいかん}だ。",
       "english": "When it comes to computers, I'm a complete outsider.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "23187_mongai_ex4",
       "japanese": "{私|わたし}は{医学|いがく}の{門外漢|もんがいかん}なので{詳|くわ}しいことは{分|わ}からない。",
       "english": "I'm a layperson in medicine, so I don't understand the details.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "23187_mongai_ex5",
       "japanese": "{法律|ほうりつ}の{門外漢|もんがいかん}にも{分|わ}かりやすく{説明|せつめい}してほしい。",
       "english": "I'd like an explanation that's easy to understand even for someone outside the legal field.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,44 @@
       "id": "23187_mongai_ex6",
       "japanese": "{門外|もんがい}に{漏|も}らすな。",
       "english": "Don't let it leak outside.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {門|もん} (gate) and {外|がい} (outside). The literal meaning refers to the area outside a gate, but the word is most commonly encountered in two set compounds.\n\nKEY COMPOUNDS:\n- {門外漢|もんがいかん}: layperson, outsider — someone outside a particular field of expertise\n- {門外|もんがい}{不出|ふしゅつ}: never shared outside (the family/school/group) — used for secret techniques, recipes, or treasures\n\nCOMMON COLLOCATIONS:\n- {門外漢|もんがいかん}だ: to be a layperson/outsider\n- {門外|もんがい}{不出|ふしゅつ}の: kept strictly within the group\n- {門外|もんがい}に{漏|も}らす: to leak outside\n\nSIMILAR WORDS:\n- {素人|しろうと}: amateur, layperson — more casual and common in everyday speech\n- {部外者|ぶがいしゃ}: outsider — someone not belonging to a particular group or organization",
+  "notes": "Composed of {門|もん} (gate) and {外|がい} (outside). The literal meaning refers to the area outside a gate, but the word is most commonly encountered in two set compounds.\n\nCOMPOUNDS:\n- {門外漢|もんがいかん}: layperson, outsider — someone outside a particular field of expertise\n- {門外|もんがい}{不出|ふしゅつ}: never shared outside (the family/school/group) — used for secret techniques, recipes, or treasures\n\nCOMMON COLLOCATIONS:\n- {門外漢|もんがいかん}だ: to be a layperson/outsider\n- {門外|もんがい}{不出|ふしゅつ}の: kept strictly within the group\n- {門外|もんがい}に{漏|も}らす: to leak outside\n\nSIMILAR WORDS:\n- {素人|しろうと}: amateur, layperson — more casual and common in everyday speech\n- {部外者|ぶがいしゃ}: outsider — someone not belonging to a particular group or organization",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04270_shirouto",
+      "reading": "しろうと",
+      "headword": "{素人|しろうと}",
+      "label": "amateur, layperson"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15595_bugaisha",
+      "reading": "ぶがいしゃ",
+      "headword": "{部外者|ぶがいしゃ}",
+      "label": "outsider"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["abstract"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "abstract"
+      ],
       "formality": "neutral",
       "politeness": "plain"
     },
     "created": "2026-04-08T21:25:30Z",
-    "modified": "2026-04-08T21:25:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

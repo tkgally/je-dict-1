@@ -3,7 +3,7 @@
   "id": "20856_ieru",
   "headword": "{癒|い}える",
   "reading": "いえる",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to heal; to be cured; to recover",
   "conjugation": {
     "type": "ichidan",
@@ -153,10 +153,32 @@
       "note": "transitive"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19598_naoru",
+      "reading": "なおる",
+      "headword": "{治|なお}る",
+      "label": "to get better, to recover"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21330_kaifukusuru",
+      "reading": "かいふくする",
+      "headword": "{回復|かいふく}する",
+      "label": "to recover"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27805_nagusamu",
+      "reading": "なぐさむ",
+      "headword": "{慰|なぐさ}む",
+      "label": "to be comforted"
+    }
+  ],
   "metadata": {
     "created": "2026-03-30T18:28:11Z",
-    "modified": "2026-04-29T06:03:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

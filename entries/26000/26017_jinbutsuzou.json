@@ -17,7 +17,9 @@
       "id": "26017_jinbutsuzou_ex1",
       "japanese": "{主人公|しゅじんこう}の{人物像|じんぶつぞう}を{描|えが}く。",
       "english": "To portray the main character's persona.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26017_jinbutsuzou_ex2",
       "japanese": "{犯人|はんにん}の{人物像|じんぶつぞう}が{浮|う}かび{上|あ}がってきた。",
       "english": "A profile of the suspect has started to emerge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,52 @@
       "id": "26017_jinbutsuzou_ex3",
       "japanese": "{面接|めんせつ}では{求|もと}める{人物像|じんぶつぞう}に{合|あ}っているかどうかを{見|み}る。",
       "english": "In interviews, they check whether the candidate matches the desired candidate profile.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {人物|じんぶつ} (person; character) + {像|ぞう} (image; portrait). Used broadly: in literature for character descriptions, in crime reporting for suspect profiles, and in business for ideal candidate descriptions.\n\nCOMMON COLLOCATIONS:\n- {人物像|じんぶつぞう}を{描|えが}く: to portray a character\n- {人物像|じんぶつぞう}が{浮|う}かび{上|あ}がる: a profile emerges\n- {求|もと}める{人物像|じんぶつぞう}: desired candidate profile\n- {犯人|はんにん}の{人物像|じんぶつぞう}: suspect profile\n\nSIMILAR WORDS:\n- {人柄|ひとがら}: personality; character — more about personal warmth and temperament\n- {人物|じんぶつ}: person; figure — the person themselves, not the description of them\n- プロフィール: profile — typically a factual summary (name, age, background)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08163_hitogara",
+      "reading": "ひとがら",
+      "headword": "{人柄|ひとがら}",
+      "label": "personality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06474_purofiiru",
+      "reading": "ぷろふぃーる",
+      "headword": "プロフィール",
+      "label": "profile"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23974_jinbutsubyousha",
+      "reading": "じんぶつびょうしゃ",
+      "headword": "{人物|じんぶつ}{描写|びょうしゃ}",
+      "label": "characterization"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["person", "communication"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "person",
+        "communication"
+      ]
     },
     "created": "2026-04-28T16:13:07Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

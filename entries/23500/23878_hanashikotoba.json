@@ -55,7 +55,36 @@
     }
   ],
   "notes": "Compound of {話|はな}す ('to speak') and {言葉|ことば} ('words, language'). Literally 'speaking words.'\n\nUSAGE:\n- Refers to the style of language actually used when speaking, including casual particles (ね, よ, さ), contractions (〜ちゃう, 〜なきゃ), and looser grammar.\n- Often contrasted explicitly with {書|か}き{言葉|ことば} in discussions of style, writing advice, and language teaching.\n- In writing classes and style guides, using {話|はな}し{言葉|ことば} in formal documents is typically marked as inappropriate.\n\nCOMMON COLLOCATIONS:\n- {話|はな}し{言葉|ことば}と{書|か}き{言葉|ことば}: spoken and written language\n- {話|はな}し{言葉|ことば}を{使|つか}う: to use colloquial/spoken language\n- {話|はな}し{言葉|ことば}{調|ちょう}: a conversational style/tone\n- くだけた{話|はな}し{言葉|ことば}: informal spoken language\n\nSIMILAR WORDS:\n- {口語|こうご}: spoken/colloquial language — a more technical linguistic term; also refers to modern Japanese as opposed to classical {文語|ぶんご}.\n- {書|か}き{言葉|ことば}: written language — the direct antonym.\n- {会話|かいわ}: conversation — refers to the act of speaking with someone, not the style of language itself.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12033_kougo",
+      "reading": "こうご",
+      "headword": "{口語|こうご}",
+      "label": "spoken/colloquial language"
+    },
+    {
+      "type": "antonym",
+      "target_id": "25961_kakikotoba",
+      "reading": "かきことば",
+      "headword": "{書|か}き{言葉|ことば}",
+      "label": "written language"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01271_kaiwa",
+      "reading": "かいわ",
+      "headword": "{会話|かいわ}",
+      "label": "conversation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24859_kougotai",
+      "reading": "こうごたい",
+      "headword": "{口語体|こうごたい}",
+      "label": "colloquial style"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -70,6 +99,6 @@
       ]
     },
     "created": "2026-04-15T10:11:37Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

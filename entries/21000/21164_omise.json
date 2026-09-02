@@ -17,7 +17,9 @@
       "id": "21164_omise_ex1",
       "japanese": "いいお{店|みせ}を{知|し}っていますか。",
       "english": "Do you know a good restaurant?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21164_omise_ex2",
       "japanese": "{駅前|えきまえ}に{新|あたら}しいお{店|みせ}ができた。",
       "english": "A new shop opened in front of the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "21164_omise_ex3",
       "japanese": "このお{店|みせ}は{値段|ねだん}も{手頃|てごろ}で、{料理|りょうり}も{美味|おい}しいのでよく{来|く}ます。",
       "english": "This restaurant has reasonable prices and good food, so I come here often.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The polite prefix お attached to {店|みせ} (shop/store). In everyday Japanese, お{店|みせ} is far more common than plain {店|みせ}, especially when speaking. It can refer to any type of commercial establishment — retail shops, restaurants, bars, cafes, etc.\n\nUSAGE:\nWhile {店|みせ} on its own can sound blunt, お{店|みせ} is the standard conversational form. Using {店|みせ} without お is more common in compound words ({店員|てんいん}, {店長|てんちょう}) or when used as a suffix ({花屋|はなや}の{店|みせ}).\n\nCOMMON COLLOCATIONS:\n- お{店|みせ}を{出|だ}す: to open a shop\n- お{店|みせ}を{探|さが}す: to look for a restaurant/shop\n- お{店|みせ}の{人|ひと}: shop staff; restaurant staff\n\nSIMILAR WORDS:\n- {店舗|てんぽ}: store; shop premises — more formal/commercial\n- ショップ: shop — borrowed from English, often for specialty or trendy stores\n- {商店|しょうてん}: shop; store — more traditional, often in {商店街|しょうてんがい} (shopping street)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12481_tenpo",
+      "reading": "てんぽ",
+      "headword": "{店舗|てんぽ}",
+      "label": "store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08913_shoppu",
+      "reading": "しょっぷ",
+      "headword": "ショップ",
+      "label": "shop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11841_shouten",
+      "reading": "しょうてん",
+      "headword": "{商店|しょうてん}",
+      "label": "shop"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "polite",
-      "semantic": ["shopping", "food"]
+      "semantic": [
+        "shopping",
+        "food"
+      ]
     },
     "created": "2026-03-31T21:40:39Z",
-    "modified": "2026-03-31T21:40:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

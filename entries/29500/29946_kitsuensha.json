@@ -17,7 +17,9 @@
       "id": "29946_kitsuensha_ex1",
       "japanese": "{喫煙車|きつえんしゃ}に{乗|の}る。",
       "english": "to ride in a smoking car.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29946_kitsuensha_ex2",
       "japanese": "この{列車|れっしゃ}には{喫煙車|きつえんしゃ}がない。",
       "english": "This train has no smoking car.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29946_kitsuensha_ex3",
       "japanese": "{最近|さいきん}は{喫煙車|きつえんしゃ}を{廃止|はいし}する{鉄道|てつどう}{会社|がいしゃ}が{増|ふ}えている。",
       "english": "Recently, more railway companies are abolishing smoking cars.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {喫煙|きつえん} ('smoking') + {車|しゃ} ('car, vehicle'). Refers to a train car (or a rental car) where smoking is allowed.\n\nCOMMON COLLOCATIONS:\n- {喫煙車|きつえんしゃ}{両|りょう}: smoking car of a train\n\nSIMILAR WORDS:\n- {禁煙車|きんえんしゃ}: non-smoking car — the direct antonym\n- {喫煙者|きつえんしゃ}: smoker (a person) — a homophone with a different meaning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "24578_kinensha",
+      "reading": "きんえんしゃ",
+      "headword": "{禁煙車|きんえんしゃ}",
+      "label": "non-smoking car"
+    },
+    {
+      "type": "homophone",
+      "target_id": "27918_kitsuensha",
+      "reading": "きつえんしゃ",
+      "headword": "{喫煙者|きつえんしゃ}",
+      "label": "smoker"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["transportation"],
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ],
       "domain": []
     },
     "created": "2026-07-19T00:19:03Z",
-    "modified": "2026-07-19T00:19:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "28766_puroresu_ex1",
       "japanese": "{父|ちち}はプロレスが{好|す}きだ。",
       "english": "My father loves pro wrestling.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28766_puroresu_ex2",
       "japanese": "{子供|こども}の{頃|ころ}、テレビでプロレスを{見|み}ていた。",
       "english": "I used to watch pro wrestling on TV as a kid.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28766_puroresu_ex3",
       "japanese": "{日本|にほん}のプロレスは、{格闘技|かくとうぎ}と{演出|えんしゅつ}が{融合|ゆうごう}した{独特|どくとく}の{文化|ぶんか}を{持|も}つ。",
       "english": "Japanese pro wrestling has a unique culture that blends martial arts with theatrical staging.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Short for プロフェッショナル・レスリング. Pro wrestling has been a major spectator sport in Japan since the 1950s, and Japanese-style プロレス is distinct from American pro wrestling in its emphasis on technical grappling.\n\nCOMMON COLLOCATIONS:\n- プロレスを{見|み}る: to watch pro wrestling\n- プロレス{団体|だんたい}: pro wrestling promotion/organization\n- プロレスラー: pro wrestler\n- プロレスの{試合|しあい}: a pro wrestling match\n\nSIMILAR WORDS:\n- {格闘技|かくとうぎ}: combat sports — broader category including MMA, boxing, judo\n- レスリング: wrestling — usually refers to amateur/Olympic wrestling, not pro wrestling",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09246_kakutougi",
+      "reading": "かくとうぎ",
+      "headword": "{格闘技|かくとうぎ}",
+      "label": "combat sports"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05236_resuringu",
+      "reading": "れすりんぐ",
+      "headword": "レスリング",
+      "label": "wrestling"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports"],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-06-05T02:07:15Z",
-    "modified": "2026-06-05T02:07:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

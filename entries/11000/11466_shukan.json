@@ -19,7 +19,9 @@
       "english": "That's a matter of personal opinion.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11466_shukan_ex2",
@@ -27,7 +29,9 @@
       "english": "Please report without mixing in personal viewpoints.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11466_shukan_ex3",
@@ -35,7 +39,9 @@
       "english": "It's important to distinguish between subjectivity and objectivity.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{主観|しゅかん} is the opposite of {客観|きゃっかん} (objectivity). The pair {主観|しゅかん}/{客観|きゃっかん} is commonly used in academic, journalistic, and everyday discussion contexts.\n\nThe adjective form {主観的|しゅかんてき} (subjective) is also very common.\n\nCOMMON COLLOCATIONS:\n- {主観的|しゅかんてき}な{意見|いけん}: subjective opinion\n- {主観|しゅかん}を{交|まじ}える: to mix in personal viewpoints\n- {主観|しゅかん}と{客観|きゃっかん}: subjectivity and objectivity\n- {主観|しゅかん}に{基|もと}づく: based on personal viewpoint",
@@ -46,18 +52,36 @@
       "reading": "きゃっかん",
       "headword": "{客観|きゃっかん}",
       "label": "objectivity"
+    },
+    {
+      "type": "homophone",
+      "target_id": "24621_shukan",
+      "reading": "しゅかん",
+      "headword": "{主幹|しゅかん}",
+      "label": "chief editor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24988_kyakkanshi",
+      "reading": "きゃっかんし",
+      "headword": "{客観視|きゃっかんし}",
+      "label": "objective viewpoint"
     }
   ],
   "metadata": {
     "created": "2026-02-16T14:12:10Z",
-    "modified": "2026-04-25T06:08:04Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     }
   }
 }

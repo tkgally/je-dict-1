@@ -3,7 +3,7 @@
   "headword": "{入会|にゅうかい}する",
   "reading": "にゅうかいする",
   "romaji": "nyuukaisuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to join; to become a member",
   "conjugation": {
     "type": "suru",
@@ -134,7 +134,7 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {入|にゅう} (enter) + {会|かい} (association, group). Used for formally joining organizations with membership structures — clubs, gyms, associations, unions, and online services.\n\nCOMMON COLLOCATIONS:\n- {入会|にゅうかい}{金|きん} — enrollment fee, membership fee\n- {入会|にゅうかい}{申|もう}し{込|こ}み — membership application\n- {入会|にゅうかい}{資格|しかく} — membership qualifications\n- {入会|にゅうかい}{手続|てつづ}き — enrollment procedures\n- {入会|にゅうかい}を{申|もう}し{込|こ}む — to apply for membership\n\nSIMILAR WORDS:\n- {加入|かにゅう}する — to join, to subscribe; often used for insurance, unions, and larger organizations\n- {入部|にゅうぶ}する — to join a club (specifically school clubs)\n- {参加|さんか}する — to participate; does not imply formal membership\n\nANTONYM:\n- {退会|たいかい}する — to withdraw from, to cancel membership",
+  "notes": "Composed of {入|にゅう} (enter) + {会|かい} (association, group). Used for formally joining organizations with membership structures — clubs, gyms, associations, unions, and online services.\n\nCOMMON COLLOCATIONS:\n- {入会|にゅうかい}{金|きん} — enrollment fee, membership fee\n- {入会|にゅうかい}{申|もう}し{込|こ}み — membership application\n- {入会|にゅうかい}{資格|しかく} — membership qualifications\n- {入会|にゅうかい}{手続|てつづ}き — enrollment procedures\n- {入会|にゅうかい}を{申|もう}し{込|こ}む — to apply for membership\n\nSIMILAR WORDS:\n- {加入|かにゅう}する — to join, to subscribe; often used for insurance, unions, and larger organizations\n- {入部|にゅうぶ}する — to join a club (specifically school clubs)\n- {参加|さんか}する — to participate; does not imply formal membership\n- {退会|たいかい}する — to withdraw from, to cancel membership",
   "cross_references": [
     {
       "type": "antonym",
@@ -142,6 +142,27 @@
       "headword": "{退会|たいかい}する",
       "label": "cancel membership",
       "target_id": "20734_taikaisuru"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22671_kanyuusuru",
+      "reading": "かにゅうする",
+      "headword": "{加入|かにゅう}する",
+      "label": "to join, to subscribe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17847_nyuubusuru",
+      "reading": "にゅうぶする",
+      "headword": "{入部|にゅうぶ}する",
+      "label": "to join a club"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25408_sankasuru",
+      "reading": "さんかする",
+      "headword": "{参加|さんか}する",
+      "label": "to participate"
     }
   ],
   "schema_version": "2.0",
@@ -160,6 +181,6 @@
       ]
     },
     "created": "2026-03-26T04:15:52Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

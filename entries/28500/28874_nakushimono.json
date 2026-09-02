@@ -17,7 +17,9 @@
       "id": "28874_nakushimono_ex1",
       "japanese": "{失|な}くし{物|もの}をした。",
       "english": "I lost something.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28874_nakushimono_ex2",
       "japanese": "{失|な}くし{物|もの}が{見|み}つかった。",
       "english": "The lost item turned up.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28874_nakushimono_ex3",
       "japanese": "{鍵|かぎ}や{財布|さいふ}など、{失|な}くし{物|もの}が{多|おお}くて{困|こま}っている。",
       "english": "I've been losing a lot of things lately — keys, wallets — and it's becoming a problem.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {失|な}くす (to lose) + {物|もの} (thing). The connecting い of the verb stem is dropped.\n\nCOMMON COLLOCATIONS:\n- {失|な}くし{物|もの}をする: to lose something\n- {失|な}くし{物|もの}が{見|み}つかる: a lost item is found\n- {失|な}くし{物|もの}{防止|ぼうし}タグ: lost-item prevention tag (e.g., AirTag)\n\nSIMILAR WORDS:\n- {落|お}とし{物|もの}: a dropped/found item — emphasis on having been dropped, often found and turned in by others. Lost-and-found offices are {落|お}とし{物|もの}{係|がかり}, not {失|な}くし{物|もの}{係|がかり}.\n- {忘|わす}れ{物|もの}: a forgotten item — left behind somewhere (in a store, on a train); the owner usually knows where they left it.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08450_otoshimono",
+      "reading": "おとしもの",
+      "headword": "{落|お}とし{物|もの}",
+      "label": "a dropped/found item"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01758_wasuremono",
+      "reading": "わすれもの",
+      "headword": "{忘|わす}れ{物|もの}",
+      "label": "a forgotten item"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["daily-life"],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life"
+      ],
       "domain": []
     },
     "created": "2026-06-06T04:04:02Z",
-    "modified": "2026-06-06T04:04:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

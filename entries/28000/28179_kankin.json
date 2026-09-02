@@ -3,7 +3,7 @@
   "headword": "{換金|かんきん}",
   "reading": "かんきん",
   "romaji": "kankin",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "conversion to cash; cashing in",
   "definitions": [
     {
@@ -46,6 +46,15 @@
   ],
   "notes": "Compound of {換|かん} (exchange) + {金|きん} (money). Takes する to form a transitive verb (Xを{換金|かんきん}する).\n\nCOMMON COLLOCATIONS:\n- {換金|かんきん}する: to convert to cash\n- {換金|かんきん}{性|せい}: liquidity (ease of converting to cash)\n- {換金|かんきん}{作物|さくもつ}: cash crop\n\nSIMILAR WORDS:\n- {両替|りょうがえ}: money exchange — swapping one currency or denomination for another, not selling assets\n- {現金化|げんきんか}: turning into cash — near-synonym, often used for vouchers and points",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03680_ryougae",
+      "reading": "りょうがえ",
+      "headword": "{両替|りょうがえ}",
+      "label": "money exchange"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +71,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-27T02:07:43Z",
-    "modified": "2026-05-27T02:07:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

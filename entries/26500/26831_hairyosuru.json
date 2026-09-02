@@ -3,7 +3,7 @@
   "headword": "{配慮|はいりょ}する",
   "reading": "はいりょする",
   "romaji": "hairyosuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to give consideration; to be mindful; to show concern for",
   "definitions": [
     {
@@ -55,7 +55,50 @@
     }
   ],
   "notes": "A word that captures an important aspect of Japanese social values — being attentive to others' needs without being asked. Often appears in formal contexts like policy documents, product descriptions, and workplace guidelines.\n\nCOMMON COLLOCATIONS:\n- {環境|かんきょう}への{配慮|はいりょ}: environmental consideration\n- {人権|じんけん}に{配慮|はいりょ}する: to be mindful of human rights\n- {安全|あんぜん}に{配慮|はいりょ}する: to give consideration to safety\n- {配慮|はいりょ}が{足|た}りない: lacking in consideration\n- {配慮|はいりょ}に{欠|か}ける: to lack consideration\n\nSIMILAR WORDS:\n- {気|き}を{遣|つか}う: to be attentive — more personal, day-to-day thoughtfulness\n- {考慮|こうりょ}する: to consider — more analytical, weighing factors in a decision\n- {思|おも}いやる: to be sympathetic — emphasizes emotional empathy",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25831_kiwotsukau",
+      "reading": "きをつかう",
+      "headword": "{気|き}を{遣|つか}う",
+      "label": "to be attentive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06061_kouryosuru",
+      "reading": "こうりょする",
+      "headword": "{考慮|こうりょ}する",
+      "label": "to consider"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25839_omoiyaru",
+      "reading": "おもいやる",
+      "headword": "{思|おも}いやる",
+      "label": "to be sympathetic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21310_bengiwohakaru",
+      "reading": "べんぎをはかる",
+      "headword": "{便宜|べんぎ}を{図|はか}る",
+      "label": "to provide accommodation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23221_sontakusuru",
+      "reading": "そんたくする",
+      "headword": "{忖度|そんたく}する",
+      "label": "to surmise someone's feelings"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25846_kaowotateru",
+      "reading": "かおをたてる",
+      "headword": "{顔|かお}を{立|た}てる",
+      "label": "to save someone's face"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,7 +114,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T13:05:49Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

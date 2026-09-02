@@ -3,7 +3,7 @@
   "id": "12501_goudatsu",
   "headword": "{強奪|ごうだつ}",
   "reading": "ごうだつ",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "robbery, seizure, plunder",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,39 @@
     }
   ],
   "notes": "USAGE:\nA strong word implying violence or the use of force. Used in both crime reporting and historical contexts. Functions as a noun or suru verb.\n\nCOMMON COLLOCATIONS:\n- {金品|きんぴん}を{強奪|ごうだつ}する: to rob someone of money and valuables\n- {領土|りょうど}の{強奪|ごうだつ}: seizure of territory\n- {権力|けんりょく}を{強奪|ごうだつ}する: to seize power by force\n\nSIMILAR WORDS:\n- {略奪|りゃくだつ}: plunder, looting (often large-scale, as in war)\n- {窃盗|せっとう}: theft (without force, stealthy)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13576_ryakudatsu",
+      "reading": "りゃくだつ",
+      "headword": "{略奪|りゃくだつ}",
+      "label": "plunder, looting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15280_settou",
+      "reading": "せっとう",
+      "headword": "{窃盗|せっとう}",
+      "label": "theft"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01895_ubau",
+      "reading": "うばう",
+      "headword": "{奪|うば}う",
+      "label": "to snatch, to rob"
+    },
+    {
+      "type": "related",
+      "target_id": "02818_goutou",
+      "reading": "ごうとう",
+      "headword": "{強盗|ごうとう}",
+      "label": "robbery, robber"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T11:04:50Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

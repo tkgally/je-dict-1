@@ -3,7 +3,7 @@
   "headword": "{県立|けんりつ}",
   "reading": "けんりつ",
   "romaji": "kenritsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "prefectural; established by the prefecture",
   "definitions": [
     {
@@ -46,6 +46,43 @@
   ],
   "notes": "Composed of {県|けん} (prefecture) + {立|りつ} (established). Functions as a prefix to institution names, indicating that the institution is funded and operated by a prefectural government.\n\nCOMMON COLLOCATIONS:\n- {県立|けんりつ}{高校|こうこう}: prefectural high school\n- {県立|けんりつ}{病院|びょういん}: prefectural hospital\n- {県立|けんりつ}{美術館|びじゅつかん}: prefectural art museum\n- {県立|けんりつ}{図書館|としょかん}: prefectural library\n- {県立|けんりつ}{公園|こうえん}: prefectural park\n\nSIMILAR WORDS:\n- {国立|こくりつ}: national (government-run)\n- {市立|しりつ}: municipal (city-run)\n- {都立|とりつ}: metropolitan (Tokyo-run)\n- {府立|ふりつ}: prefectural (Osaka/Kyoto — for {府|ふ} rather than {県|けん})\n- {私立|しりつ}: private (privately run)\n- {公立|こうりつ}: public (any level of government)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04153_kokuritsu",
+      "reading": "こくりつ",
+      "headword": "{国立|こくりつ}",
+      "label": "national"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19923_shiritsu",
+      "reading": "しりつ",
+      "headword": "{市立|しりつ}",
+      "label": "municipal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27990_toritsu",
+      "reading": "とりつ",
+      "headword": "{都立|とりつ}",
+      "label": "metropolitan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00370_shiritsu",
+      "reading": "しりつ",
+      "headword": "{私立|しりつ}",
+      "label": "private"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08210_kouritsu",
+      "reading": "こうりつ",
+      "headword": "{公立|こうりつ}",
+      "label": "public"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +98,6 @@
       ]
     },
     "created": "2026-04-03T20:26:13Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

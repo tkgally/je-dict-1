@@ -3,7 +3,7 @@
   "headword": "{見聞|みき}き",
   "reading": "みきき",
   "romaji": "mikiki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "things seen and heard; experience; observations; knowledge gained firsthand",
   "conjugation": {
     "type": "suru",
@@ -135,6 +135,22 @@
     }
   ],
   "notes": "Combines {見|み}る (to see) and {聞|き}く (to hear) to refer to firsthand experience and knowledge gained through direct observation. As a noun, it means the things one has seen and heard; as a verb ({見聞|みき}きする), it means to see and hear, to observe directly.\n\nUSAGE:\n- {見聞|みき}きを{広|ひろ}げる is a very common expression meaning \"to broaden one's experience/horizons\"\n- The kanji compound {見聞|けんぶん} is a more formal reading with the same meaning\n- Often used when recounting travel experiences or field observations\n\nCOMMON COLLOCATIONS:\n- {見聞|みき}きを{広|ひろ}げる: to broaden one's experience\n- {見聞|みき}きしたこと: things one has seen and heard\n- {見聞|みき}きを{深|ふか}める: to deepen one's knowledge through experience\n- {見聞|みき}き{録|ろく}: a record of observations\n\nSIMILAR WORDS:\n- {経験|けいけん}: experience — broader, includes all types of experience\n- {見聞|けんぶん}: the on'yomi reading; more formal and literary\n- {体験|たいけん}: hands-on experience — emphasizes personal participation",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01179_keiken",
+      "reading": "けいけん",
+      "headword": "{経験|けいけん}",
+      "label": "experience"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11443_taiken",
+      "reading": "たいけん",
+      "headword": "{体験|たいけん}",
+      "label": "hands-on experience"
+    }
+  ],
   "metadata": {
     "entry_id": "21483_mikiki",
     "schema_version": "2.0",
@@ -146,6 +162,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "cognition"
       ],
@@ -153,6 +170,6 @@
       "usage": [],
       "verb_class": "suru"
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

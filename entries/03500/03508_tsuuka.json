@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "COMMON COMPOUND WORDS:\n・⟦{外国|がいこく}→外国：02868_gaikoku⟧{通貨|つうか} (foreign currency)\n・{通貨|つうか}⟦{危機|きき}→危機：11798_kiki⟧ (currency crisis)\n・⟦{共通|きょうつう}→共通：02590_kyoutsuu⟧{通貨|つうか} (common currency)\n・⟦{仮想|かそう}→仮想：17756_kasou⟧{通貨|つうか} (virtual currency, cryptocurrency)\n・⟦{基軸|きじく}→基軸：noentry⟧{通貨|つうか} (key currency, reserve currency)\n\nHOMOPHONE:\n・⟦{通過|つうか}→通過：03506_tsuuka⟧ (passage, passing through) - same reading, different meaning\n\nRELATED TERMS:\n・⟦{円|えん}→円：00774_en⟧ (yen - Japanese currency)\n・⟦{為替|かわせ}→為替：04021_kawase⟧ (exchange rate)",
+  "notes": "COMPOUNDS:\n- ⟦{外国|がいこく}→外国：02868_gaikoku⟧{通貨|つうか} (foreign currency)\n- {通貨|つうか}⟦{危機|きき}→危機：11798_kiki⟧ (currency crisis)\n- ⟦{共通|きょうつう}→共通：02590_kyoutsuu⟧{通貨|つうか} (common currency)\n- ⟦{仮想|かそう}→仮想：17756_kasou⟧{通貨|つうか} (virtual currency, cryptocurrency)\n- ⟦{基軸|きじく}→基軸：noentry⟧{通貨|つうか} (key currency, reserve currency)\n\nWATCH OUT:\n- ⟦{通過|つうか}→通過：03506_tsuuka⟧ (passage, passing through) - same reading, different meaning\n\nRELATED WORDS:\n- ⟦{円|えん}→円：00774_en⟧ (yen - Japanese currency)\n- ⟦{為替|かわせ}→為替：04021_kawase⟧ (exchange rate)",
   "prominent_see_also": [
     {
       "target_id": "03506_tsuuka",
@@ -52,10 +52,25 @@
       "note": "passage, passing through"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00774_en",
+      "reading": "えん",
+      "headword": "{円|えん}",
+      "label": "yen"
+    },
+    {
+      "type": "related",
+      "target_id": "04021_kawase",
+      "reading": "かわせ",
+      "headword": "{為替|かわせ}",
+      "label": "exchange rate"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T09:26:30Z",
-    "modified": "2026-08-13T15:50:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

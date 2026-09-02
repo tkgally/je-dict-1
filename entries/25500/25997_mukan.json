@@ -3,7 +3,7 @@
   "headword": "{無冠|むかん}",
   "reading": "むかん",
   "romaji": "mukan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "uncrowned; titleless; without a championship",
   "definitions": [
     {
@@ -22,7 +22,9 @@
       "id": "25997_mukan_ex1",
       "japanese": "{彼|かれ}は{無冠|むかん}の{選手|せんしゅ}だ。",
       "english": "He is a player without a title.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "25997_mukan_ex2",
       "japanese": "{実力|じつりょく}はあるのに、いまだに{無冠|むかん}のままだ。",
       "english": "Despite having the ability, he still remains without a championship.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "25997_mukan_ex3",
       "japanese": "{無冠|むかん}の{帝王|ていおう}と{呼|よ}ばれたそのボクサーは、ついに{世界|せかい}タイトルを{手|て}にした。",
       "english": "The boxer, who had been called the uncrowned champion, finally got his hands on the world title.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "25997_mukan_ex4",
       "japanese": "{無冠|むかん}の{研究者|けんきゅうしゃ}だ。",
       "english": "He is a researcher without formal credentials.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "25997_mukan_ex5",
       "japanese": "{大学|だいがく}を{出|で}ていない{無冠|むかん}の{身|み}ながら、{業界|ぎょうかい}では{一目|いちもく}{置|お}かれている。",
       "english": "Despite being without a degree, he is well-respected in the industry.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,21 +72,52 @@
       "id": "25997_mukan_ex6",
       "japanese": "{新聞記者|しんぶんきしゃ}は「{無冠|むかん}の{帝王|ていおう}」と{呼|よ}ばれることがある。",
       "english": "Newspaper reporters are sometimes called 'uncrowned kings.'",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {無|む} (without) and {冠|かん} (crown, title). The word carries a dramatic, slightly literary quality. In sports journalism, it often appears with a tone of sympathy — describing someone whose talent deserves recognition but who has not yet won a championship.\n\nThe set phrase {無冠|むかん}の{帝王|ていおう} (uncrowned king/emperor) is the most well-known usage. It has two distinct applications:\n- In sports: a dominant athlete who has never won a major title\n- For journalists: a traditional epithet for newspaper reporters, reflecting their power to influence public opinion despite holding no official authority\n\nCOMMON COLLOCATIONS:\n- {無冠|むかん}の{帝王|ていおう}: uncrowned king/emperor\n- {無冠|むかん}の{選手|せんしゅ}: player without a title\n- {無冠|むかん}に{終|お}わる: to end without winning a title\n- {無冠|むかん}のまま{引退|いんたい}する: to retire without a championship\n\nSIMILAR WORDS:\n- {優勝|ゆうしょう}: championship victory — what {無冠|むかん} athletes lack\n- タイトル: title — the achievement being referred to\n- {無名|むめい}: unknown, obscure — about fame rather than titles",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03647_yuushou",
+      "reading": "ゆうしょう",
+      "headword": "{優勝|ゆうしょう}",
+      "label": "championship victory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03855_taitoru",
+      "reading": "たいとる",
+      "headword": "タイトル",
+      "label": "title"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13420_mumei",
+      "reading": "むめい",
+      "headword": "{無名|むめい}",
+      "label": "unknown, obscure"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
-      "semantic": ["sports", "evaluation"]
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "sports",
+        "evaluation"
+      ]
     },
     "created": "2026-04-28T15:33:21Z",
-    "modified": "2026-04-28T15:33:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "19256_hirudoki_ex1",
       "japanese": "{昼|ひる}どきは{混|こ}む。",
       "english": "It gets crowded at lunchtime.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19256_hirudoki_ex2",
       "japanese": "{昼|ひる}どきのレストランは{満席|まんせき}だった。",
       "english": "The restaurant was fully booked at lunchtime.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "19256_hirudoki_ex3",
       "japanese": "{昼|ひる}どきを{避|さ}けて{行|い}けば、{並|なら}ばなくて{済|す}む。",
       "english": "If you go outside of the lunch rush, you won't have to wait in line.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers specifically to the period around noon associated with the lunch meal. The suffix どき means \"time for\" and creates a natural, colloquial feel.\n\nCOMMON COLLOCATIONS:\n- {昼|ひる}どきの{混雑|こんざつ}: lunchtime crowds\n- {昼|ひる}どきを{避|さ}ける: to avoid the lunch rush\n- {昼|ひる}どきに{行|い}く: to go at lunchtime\n\nRELATED WORDS:\n- {昼食|ちゅうしょく}: lunch (formal)\n- お{昼|ひる}: lunch (casual)\n- {夕|ゆう}どき: around evening/dusk — uses the same どき pattern\n- {食|た}べどき: the right time to eat something\n\nUSAGE:\nMost commonly used when talking about restaurant crowding, meal timing, or scheduling around the midday period.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01616_chuushoku",
+      "reading": "ちゅうしょく",
+      "headword": "{昼食|ちゅうしょく}",
+      "label": "lunch"
+    },
+    {
+      "type": "related",
+      "target_id": "02532_ohiru",
+      "reading": "おひる",
+      "headword": "お{昼|ひる}",
+      "label": "lunch"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general", "food"]
+      "semantic": [
+        "time-general",
+        "food"
+      ]
     },
     "created": "2026-03-25T03:40:33Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

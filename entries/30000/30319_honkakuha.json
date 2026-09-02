@@ -3,7 +3,7 @@
   "headword": "{本格派|ほんかくは}",
   "reading": "ほんかくは",
   "romaji": "honkakuha",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "the real thing; orthodox type; authentic practitioner",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Formed from {本格|ほんかく} (proper form, authenticity) plus 〜{派|は} (type, school). Frequently used attributively with の.\n\nCOMMON COLLOCATIONS:\n- {本格派|ほんかくは}の{味|あじ}: authentic taste\n- {本格派|ほんかくは}{志向|しこう}: preference for the real thing\n- {本格派|ほんかくは}{投手|とうしゅ}: orthodox, full-repertoire pitcher\n- {本格派|ほんかくは}デビュー: a debut as a serious, genuine talent\n\nSIMILAR WORDS:\n- {本場|ほんば}: the home region of something — stresses geographic origin rather than technique\n- {正統派|せいとうは}: orthodox school — stresses adherence to tradition over authenticity of quality",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12867_honba",
+      "reading": "ほんば",
+      "headword": "{本場|ほんば}",
+      "label": "the home region of something"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30338_seitouha",
+      "reading": "せいとうは",
+      "headword": "{正統派|せいとうは}",
+      "label": "orthodox school"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30317_gikouha",
+      "reading": "ぎこうは",
+      "headword": "技巧派",
+      "label": "finesse type"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30318_sokkyuuha",
+      "reading": "そっきゅうは",
+      "headword": "{速球派|そっきゅうは}",
+      "label": "power pitcher"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,13 +84,13 @@
         "adjective-no"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "evaluation"
       ],
       "domain": []
     },
     "created": "2026-08-02T09:20:18Z",
-    "modified": "2026-08-02T09:20:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

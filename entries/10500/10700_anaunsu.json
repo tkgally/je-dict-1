@@ -3,7 +3,7 @@
   "id": "10700_anaunsu",
   "headword": "アナウンス",
   "reading": "あなうんす",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "announcement",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,25 @@
     }
   ],
   "notes": "USAGE:\nアナウンス typically refers to spoken announcements over loudspeakers or PA systems, especially at stations, airports, and sporting events. For written announcements or formal notices, {告知|こくち} or {発表|はっぴょう} are more common.\n\nRELATED WORDS:\nThe person who makes announcements is an アナウンサー (announcer), a well-known profession in Japanese media.\n\nCOMMON COLLOCATIONS:\n- アナウンスが{流|なが}れる: an announcement plays\n- アナウンスが{入|はい}る: an announcement comes in\n- {車内|しゃない}アナウンス: in-train announcement\n- {場内|じょうない}アナウンス: in-venue announcement",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08775_shanaihousou",
+      "reading": "しゃないほうそう",
+      "headword": "{車内|しゃない}{放送|ほうそう}",
+      "label": "in-vehicle announcement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24412_nareeshon",
+      "reading": "なれーしょん",
+      "headword": "ナレーション",
+      "label": "narration"
+    }
+  ],
   "metadata": {
     "created": "2026-02-09T07:23:05Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

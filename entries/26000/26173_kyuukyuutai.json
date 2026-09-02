@@ -45,7 +45,22 @@
     }
   ],
   "notes": "In Japan, {救急隊|きゅうきゅうたい} crews are part of the fire department ({消防署|しょうぼうしょ}), not a separate ambulance service. They are dispatched by calling 119, the emergency number for both fire and ambulance.\n\nCOMMON COLLOCATIONS:\n- {救急隊員|きゅうきゅうたいいん} — rescue squad member; paramedic\n- {救急車|きゅうきゅうしゃ} — ambulance\n- {救急隊|きゅうきゅうたい}が{出動|しゅつどう}する — the rescue squad deploys\n- {救急隊|きゅうきゅうたい}に{引|ひ}き{渡|わた}す — to hand over to the rescue squad\n\nSIMILAR WORDS:\n- {救助隊|きゅうじょたい} — rescue team (focused on rescuing people from danger, such as collapsed buildings)\n- {消防隊|しょうぼうたい} — firefighting team (focused on extinguishing fires)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23912_kyuujotai",
+      "reading": "きゅうじょたい",
+      "headword": "{救助隊|きゅうじょたい}",
+      "label": "rescue team"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29848_shouboutai",
+      "reading": "しょうぼうたい",
+      "headword": "{消防隊|しょうぼうたい}",
+      "label": "firefighting team"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "occupation"
       ]
     },
     "created": "2026-04-29T16:29:52Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

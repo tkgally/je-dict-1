@@ -22,7 +22,9 @@
       "id": "25798_honryuu_ex1",
       "japanese": "{本流|ほんりゅう}は{流|なが}れが{速|はや}い。",
       "english": "The main stream has a fast current.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "25798_honryuu_ex2",
       "japanese": "{支流|しりゅう}が{本流|ほんりゅう}に{合流|ごうりゅう}する{地点|ちてん}に{町|まち}ができた。",
       "english": "A town formed at the point where the tributary joins the main stream.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "25798_honryuu_ex3",
       "japanese": "{釣|つ}りは{本流|ほんりゅう}よりも{支流|しりゅう}の{方|ほう}が{穴場|あなば}だ。",
       "english": "For fishing, the tributaries are better hidden spots than the main stream.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "25798_honryuu_ex4",
       "japanese": "{経済学|けいざいがく}の{本流|ほんりゅう}から{外|はず}れた{理論|りろん}だ。",
       "english": "It is a theory outside the mainstream of economics.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "25798_honryuu_ex5",
       "japanese": "{党|とう}の{本流|ほんりゅう}{派閥|はばつ}が{主導権|しゅどうけん}を{握|にぎ}っている。",
       "english": "The party's mainstream faction holds the initiative.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,21 +72,45 @@
       "id": "25798_honryuu_ex6",
       "japanese": "{彼|かれ}の{作風|さくふう}は{文学|ぶんがく}の{本流|ほんりゅう}とは{異|こと}なるが、{根強|ねづよ}いファンがいる。",
       "english": "His style differs from the literary mainstream, but he has a devoted following.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {本|ほん} (main; true) and {流|りゅう} (current; flow). The geographical sense refers to the main channel of a river system, while the figurative sense describes the dominant tradition or orthodoxy in any field. In politics, {本流|ほんりゅう} often refers to the establishment or dominant faction within a party.\n\nCOMMON COLLOCATIONS:\n- {本流|ほんりゅう}から{外|はず}れる: to deviate from the mainstream\n- {本流|ほんりゅう}{派|は}: mainstream faction\n- {本流|ほんりゅう}に{合流|ごうりゅう}する: to join the main stream\n\nSIMILAR WORDS:\n- {主流|しゅりゅう}: mainstream — very similar in figurative use; {主流|しゅりゅう} is more common in everyday speech, while {本流|ほんりゅう} emphasizes the original or orthodox line\n- {支流|しりゅう}: tributary; branch — the opposite in both literal and figurative senses\n- {傍流|ぼうりゅう}: side stream; minority faction — specifically a non-mainstream position",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11407_shuryuu",
+      "reading": "しゅりゅう",
+      "headword": "{主流|しゅりゅう}",
+      "label": "mainstream"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19624_shiryuu",
+      "reading": "しりゅう",
+      "headword": "{支流|しりゅう}",
+      "label": "tributary"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["nature", "society"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "nature",
+        "society"
+      ]
     },
     "created": "2026-04-27T13:18:35Z",
-    "modified": "2026-04-27T13:18:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

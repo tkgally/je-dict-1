@@ -3,7 +3,7 @@
   "headword": "{視聴|しちょう}する",
   "reading": "しちょうする",
   "romaji": "shichousuru",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to watch; to view (TV, video, media)",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Specifically used for watching audiovisual media (TV, video, streaming). Not used for watching sports in person or watching someone do something.\n\nCOMMON COLLOCATIONS:\n- {視聴|しちょう}{率|りつ} — viewership rating\n- {視聴|しちょう}{者|しゃ} — viewer, audience\n- {視聴|しちょう}{回数|かいすう} — view count (for online videos)\n- {動画|どうが}を{視聴|しちょう}する — to watch a video\n- {番組|ばんぐみ}を{視聴|しちょう}する — to watch a program\n\nSIMILAR WORDS:\n- {見|み}る — the general everyday word for watching/seeing; used in all contexts\n- {観|み}る — to watch, view (movies, plays, sports); implies appreciation\n- {鑑賞|かんしょう}する — to appreciate, enjoy (art, music, film); more about aesthetic enjoyment",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00283_miru",
+      "reading": "みる",
+      "headword": "{見|み}る",
+      "label": "the general everyday word…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22793_miru",
+      "reading": "みる",
+      "headword": "{観|み}る",
+      "label": "to watch, view"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14516_kanshou",
+      "reading": "かんしょう",
+      "headword": "{鑑賞|かんしょう}",
+      "label": "to appreciate, enjoy"
+    },
+    {
+      "type": "related",
+      "target_id": "02570_shichousha",
+      "reading": "しちょうしゃ",
+      "headword": "{視聴者|しちょうしゃ}",
+      "label": "viewer, audience (TV/video)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T04:27:17Z",
-    "modified": "2026-04-05T04:27:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

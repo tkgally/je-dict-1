@@ -19,7 +19,9 @@
       "english": "To breathe with the lungs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12334_hai_ex2",
@@ -27,7 +29,9 @@
       "english": "I had an X-ray of my lungs taken.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12334_hai_ex3",
@@ -35,21 +39,56 @@
       "english": "My lungs are weakened from years of smoking.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{肺|はい} is the organ responsible for breathing. Humans have two lungs ({左右|さゆう}の{肺|はい}).\n\nCOMMON MEDICAL COMPOUNDS:\n- {肺炎|はいえん}: pneumonia\n- {肺|はい}がん: lung cancer\n- {肺活量|はいかつりょう}: lung capacity (vital capacity)\n- {肺|はい}のレントゲン: lung X-ray\n- {肺結核|はいけっかく}: pulmonary tuberculosis\n\nCOMMON EXPRESSIONS:\n- {肺|はい}が{弱|よわ}い: to have weak lungs\n- {肺|はい}に{水|みず}がたまる: fluid in the lungs\n- {肺|はい}を{強|きた}える: to strengthen the lungs\n\nRELATED BODY PARTS:\n- {心臓|しんぞう}: heart\n- {気管|きかん}: trachea, windpipe\n- {気管支|きかんし}: bronchi\n- {横隔膜|おうかくまく}: diaphragm",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03262_shinzou",
+      "reading": "しんぞう",
+      "headword": "{心臓|しんぞう}",
+      "label": "heart"
+    },
+    {
+      "type": "related",
+      "target_id": "21172_kikan",
+      "reading": "きかん",
+      "headword": "{気管|きかん}",
+      "label": "trachea, windpipe"
+    },
+    {
+      "type": "related",
+      "target_id": "08101_oukakumaku",
+      "reading": "おうかくまく",
+      "headword": "{横隔膜|おうかくまく}",
+      "label": "diaphragm"
+    },
+    {
+      "type": "related",
+      "target_id": "00972_mune",
+      "reading": "むね",
+      "headword": "{胸|むね}",
+      "label": "chest, breast"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T02:56:32Z",
-    "modified": "2026-03-25T06:54:04Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-internal"]
+      "semantic": [
+        "body-internal"
+      ]
     }
   }
 }

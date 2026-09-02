@@ -17,7 +17,9 @@
       "id": "23149_issatsu_ex1",
       "japanese": "{本|ほん}を{一冊|いっさつ}{買|か}った。",
       "english": "I bought one book.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23149_issatsu_ex2",
       "japanese": "この{棚|たな}に{一冊|いっさつ}だけ{残|のこ}っていた。",
       "english": "Only one copy remained on this shelf.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,38 @@
       "id": "23149_issatsu_ex3",
       "japanese": "{夏休|なつやす}みに{一冊|いっさつ}でも{多|おお}く{本|ほん}を{読|よ}みたい。",
       "english": "I want to read as many books as possible during summer vacation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The counter {冊|さつ} is one of the most commonly used Japanese counters. It counts bound printed materials: books, magazines, notebooks, manga volumes, etc.\n\nCOUNTING PATTERN:\n- {一冊|いっさつ} (1) — note the っ sound change\n- {二冊|にさつ} (2)\n- {三冊|さんさつ} (3)\n- {四冊|よんさつ} (4)\n- {五冊|ごさつ} (5)\n- {六冊|ろくさつ} (6)\n- {七冊|ななさつ} (7)\n- {八冊|はっさつ} (8) — note the っ sound change\n- {九冊|きゅうさつ} (9)\n- {十冊|じゅっさつ} (10) — note the っ sound change\n- {何冊|なんさつ}: how many books?\n\nUSAGE:\nApplies to any bound publication including {本|ほん} (books), {雑誌|ざっし} (magazines), {漫画|まんが} (manga), {辞書|じしょ} (dictionaries), ノート (notebooks), {手帳|てちょう} (planners).\n\nSIMILAR WORDS:\n- {一部|いちぶ}: one copy — used for documents, reports, and forms rather than bound books\n- {一巻|いっかん}: one volume/scroll — used for scrolls, serial publications, and multi-volume sets",
+  "notes": "The counter {冊|さつ} is one of the most commonly used Japanese counters. It counts bound printed materials: books, magazines, notebooks, manga volumes, etc.\n\nCOUNTING PATTERNS:\n- {一冊|いっさつ} (1) — note the っ sound change\n- {二冊|にさつ} (2)\n- {三冊|さんさつ} (3)\n- {四冊|よんさつ} (4)\n- {五冊|ごさつ} (5)\n- {六冊|ろくさつ} (6)\n- {七冊|ななさつ} (7)\n- {八冊|はっさつ} (8) — note the っ sound change\n- {九冊|きゅうさつ} (9)\n- {十冊|じゅっさつ} (10) — note the っ sound change\n- {何冊|なんさつ}: how many books?\n\nUSAGE:\nApplies to any bound publication including {本|ほん} (books), {雑誌|ざっし} (magazines), {漫画|まんが} (manga), {辞書|じしょ} (dictionaries), ノート (notebooks), {手帳|てちょう} (planners).\n\nSIMILAR WORDS:\n- {一部|いちぶ}: one copy — used for documents, reports, and forms rather than bound books\n- {一巻|いっかん}: one volume/scroll — used for scrolls, serial publications, and multi-volume sets",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06783_ichibu",
+      "reading": "いちぶ",
+      "headword": "{一部|いちぶ}",
+      "label": "one copy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "counter"],
+      "pos": [
+        "noun",
+        "counter"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity"]
+      "semantic": [
+        "quantity"
+      ]
     },
     "created": "2026-04-08T20:33:44Z",
-    "modified": "2026-04-08T20:33:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

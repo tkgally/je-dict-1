@@ -17,7 +17,9 @@
       "id": "20271_ringyou_ex1",
       "japanese": "{林業|りんぎょう}が{盛|さか}んな{地域|ちいき}だ。",
       "english": "It's a region where forestry thrives.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20271_ringyou_ex2",
       "japanese": "{祖父|そふ}は{長年|ながねん}{林業|りんぎょう}に{携|たずさ}わってきた。",
       "english": "My grandfather has been involved in forestry for many years.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "20271_ringyou_ex3",
       "japanese": "{日本|にほん}の{林業|りんぎょう}は{後継者不足|こうけいしゃぶそく}が{深刻|しんこく}な{問題|もんだい}になっている。",
       "english": "A shortage of successors has become a serious problem for Japan's forestry industry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {林|りん} (forest, woods) + {業|ぎょう} (industry, business). One of Japan's traditional primary industries alongside {農業|のうぎょう} (agriculture) and {漁業|ぎょぎょう} (fishery).\n\nUSAGE:\nJapan has approximately 67% forest coverage, making it one of the most forested developed nations. However, the domestic forestry industry has declined significantly due to cheap imported lumber and rural depopulation. {林業|りんぎょう} appears frequently in discussions of rural economies and environmental policy.\n\nCOMMON COLLOCATIONS:\n- {林業|りんぎょう}{従事者|じゅうじしゃ} — forestry worker\n- {林業|りんぎょう}に{携|たずさ}わる — to be involved in forestry\n- {林業|りんぎょう}が{衰退|すいたい}する — forestry declines\n- {林業|りんぎょう}の{再生|さいせい} — revitalization of forestry\n\nSIMILAR WORDS:\n- {農業|のうぎょう} — agriculture (crop farming)\n- {漁業|ぎょぎょう} — fishery (fishing industry)\n- {木材|もくざい}{産業|さんぎょう} — timber industry (focuses on the product rather than the practice)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01491_nougyou",
+      "reading": "のうぎょう",
+      "headword": "{農業|のうぎょう}",
+      "label": "agriculture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20496_gyogyou",
+      "reading": "ぎょぎょう",
+      "headword": "{漁業|ぎょぎょう}",
+      "label": "fishery"
+    },
+    {
+      "type": "related",
+      "target_id": "16812_seizai",
+      "reading": "せいざい",
+      "headword": "{製材|せいざい}",
+      "label": "lumbering"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["industry", "nature"]
+      "semantic": [
+        "industry",
+        "nature"
+      ]
     },
     "created": "2026-03-28T19:17:12Z",
-    "modified": "2026-03-28T19:17:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

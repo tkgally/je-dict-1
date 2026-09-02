@@ -3,7 +3,7 @@
   "headword": "追熟",
   "reading": "ついじゅく",
   "romaji": "tsuijuku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "post-harvest ripening; after-ripening",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "A produce and cooking term. It appears mostly on packaging, in recipes, and at greengrocers rather than in everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {追熟|ついじゅく}させる: to let something ripen\n- {追熟|ついじゅく}が{進|すす}む: for ripening to advance\n- {常温|じょうおん}で{追熟|ついじゅく}する: to ripen at room temperature\n- {追熟|ついじゅく}{期間|きかん}: ripening period\n\nSIMILAR WORDS:\n- {熟|じゅく}す: to ripen — the general verb, on or off the tree\n- {完熟|かんじゅく}: fully ripe — the finished state rather than the process",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18384_jukusu",
+      "reading": "じゅくす",
+      "headword": "{熟|じゅく}す",
+      "label": "to ripen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27574_kanjuku",
+      "reading": "かんじゅく",
+      "headword": "{完熟|かんじゅく}",
+      "label": "fully ripe"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food",
         "cooking"
@@ -63,7 +79,7 @@
       "verb_class": "suru"
     },
     "created": "2026-08-09T03:19:08Z",
-    "modified": "2026-08-09T03:19:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

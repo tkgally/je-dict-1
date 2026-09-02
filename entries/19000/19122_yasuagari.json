@@ -3,7 +3,7 @@
   "headword": "{安上|やすあ}がり",
   "reading": "やすあがり",
   "romaji": "yasuagari",
-  "part_of_speech": "adjective (na); noun",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "inexpensive; cheap; economical",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "19122_yasuagari_ex1",
       "japanese": "{自炊|じすい}は{安上|やすあ}がりだ。",
       "english": "Cooking for yourself is cheap.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19122_yasuagari_ex2",
       "japanese": "{安上|やすあ}がりな{旅行|りょこう}プランを{探|さが}している。",
       "english": "I'm looking for an economical travel plan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "19122_yasuagari_ex3",
       "japanese": "{手作|てづく}りすれば、{買|か}うより{安上|やすあ}がりに{済|す}む。",
       "english": "If you make it by hand, it turns out cheaper than buying it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Describes something that turns out to be inexpensive — emphasizes the result being cheap rather than the initial cost.\n\nWORD FORMATION:\n{安|やす}い (cheap) + {上|あ}がり (result/outcome). Literally \"cheap outcome.\"\n\nFORMS:\n- Na-adjective: {安上|やすあ}がりな{旅行|りょこう} (an economical trip)\n- Predicate: {自炊|じすい}は{安上|やすあ}がりだ (cooking for yourself is cheap)\n- Adverb: {安上|やすあ}がりに{済|す}む (to get off cheaply)\n\nCOMMON PATTERNS:\n- 〜より{安上|やすあ}がり: cheaper than ~\n- {安上|やすあ}がりに{済|す}む: to turn out cheap\n- {安上|やすあ}がりに{仕上|しあ}がる: to end up being inexpensive\n\nSIMILAR WORDS:\n- {安|やす}い: cheap (simple, direct)\n- {経済的|けいざいてき}: economical (more formal)\n- お{得|とく}: good value, a bargain",
+  "notes": "Describes something that turns out to be inexpensive — emphasizes the result being cheap rather than the initial cost.\n\nFORMS:\n{安|やす}い (cheap) + {上|あ}がり (result/outcome). Literally \"cheap outcome.\"\n- Na-adjective: {安上|やすあ}がりな{旅行|りょこう} (an economical trip)\n- Predicate: {自炊|じすい}は{安上|やすあ}がりだ (cooking for yourself is cheap)\n- Adverb: {安上|やすあ}がりに{済|す}む (to get off cheaply)\n\nCOMMON PATTERNS:\n- 〜より{安上|やすあ}がり: cheaper than ~\n- {安上|やすあ}がりに{済|す}む: to turn out cheap\n- {安上|やすあ}がりに{仕上|しあ}がる: to end up being inexpensive\n\nSIMILAR WORDS:\n- {安|やす}い: cheap (simple, direct)\n- {経済的|けいざいてき}: economical (more formal)\n- お{得|とく}: good value, a bargain",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00464_yasui",
+      "reading": "やすい",
+      "headword": "{安|やす}い",
+      "label": "cheap"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05675_keizaiteki",
+      "reading": "けいざいてき",
+      "headword": "{経済的|けいざいてき}",
+      "label": "economical"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07739_otoku",
+      "reading": "おとく",
+      "headword": "お{得|とく}",
+      "label": "good value, a bargain"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     },
     "created": "2026-03-24T10:01:08Z",
-    "modified": "2026-03-25T12:24:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

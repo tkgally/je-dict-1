@@ -78,7 +78,7 @@
       "notes": null
     }
   ],
-  "notes": "ETYMOLOGY:\n{神経|しんけい} (nerves) + {質|しつ} (nature, quality)\n\nUSAGE:\nCan be used neutrally to describe someone sensitive, or negatively to suggest someone is overly anxious or fussy.\n\nCOMMON PATTERNS:\n・{神経質|しんけいしつ}な{人|ひと} - a nervous/sensitive person\n・{神経質|しんけいしつ}になる - to become nervous/fussy\n・〜について{神経質|しんけいしつ}だ - to be particular about ~\n\nRELATED:\n・{繊細|せんさい} - delicate, sensitive (often positive)\n・{臆病|おくびょう} - timid, cowardly\n・{心配性|しんぱいしょう} - worrywart\n・ナーバス - nervous (loanword)",
+  "notes": "ETYMOLOGY:\n{神経|しんけい} (nerves) + {質|しつ} (nature, quality)\n\nUSAGE:\nCan be used neutrally to describe someone sensitive, or negatively to suggest someone is overly anxious or fussy.\n\nCOMMON PATTERNS:\n- {神経質|しんけいしつ}な{人|ひと} - a nervous/sensitive person\n- {神経質|しんけいしつ}になる - to become nervous/fussy\n- 〜について{神経質|しんけいしつ}だ - to be particular about ~\n\nRELATED WORDS:\n- {繊細|せんさい} - delicate, sensitive (often positive)\n- {臆病|おくびょう} - timid, cowardly\n- {心配性|しんぱいしょう} - worrywart\n- ナーバス - nervous (loanword)",
   "cross_references": [
     {
       "type": "related",
@@ -107,11 +107,32 @@
       "reading": "むしんけい",
       "headword": "{無神経|むしんけい}",
       "label": "insensitive"
+    },
+    {
+      "type": "related",
+      "target_id": "07774_shinpaishou",
+      "reading": "しんぱいしょう",
+      "headword": "{心配性|しんぱいしょう}",
+      "label": "worrywart"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26932_keppeki",
+      "reading": "けっぺき",
+      "headword": "{潔癖|けっぺき}",
+      "label": "fastidiousness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27686_shinkeikabin",
+      "reading": "しんけいかびん",
+      "headword": "{神経|しんけい}{過敏|かびん}",
+      "label": "nervousness"
     }
   ],
   "metadata": {
     "created": "2026-01-20T12:57:12Z",
-    "modified": "2026-04-20T07:13:52Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -120,6 +141,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "personality",
         "emotion"

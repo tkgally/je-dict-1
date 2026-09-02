@@ -19,7 +19,9 @@
       "english": "It's not particularly difficult.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16929_sahodo_ex2",
@@ -27,7 +29,9 @@
       "english": "It wasn't so cold today.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16929_sahodo_ex3",
@@ -35,21 +39,49 @@
       "english": "I was worried, but when I actually tried it, it didn't take that much time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nAlmost always used with a negative verb or adjective. The pattern is: さほど + [adjective/verb in negative form]. Without a negative, さほど sounds unnatural.\n\nFORMALITY:\nSlightly more formal than そんなに or それほど. Common in writing and polite speech.\n\nSIMILAR WORDS:\n- それほど: not that much — the most common everyday equivalent\n- そんなに: not so much — casual\n- たいして: not particularly — similar formality level, often interchangeable\n- さして: not much — literary variant, even more formal",
-  "cross_references": [],
+  "notes": "USAGE:\nAlmost always used with a negative verb or adjective. The pattern is: さほど + [adjective/verb in negative form]. Without a negative, さほど sounds unnatural.\n\nREGISTER:\nSlightly more formal than そんなに or それほど. Common in writing and polite speech.\n\nSIMILAR WORDS:\n- それほど: not that much — the most common everyday equivalent\n- そんなに: not so much — casual\n- たいして: not particularly — similar formality level, often interchangeable\n- さして: not much — literary variant, even more formal",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01563_sorehodo",
+      "reading": "それほど",
+      "headword": "それほど",
+      "label": "not that much"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01646_sonnani",
+      "reading": "そんなに",
+      "headword": "そんなに",
+      "label": "not so much"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07436_taishite",
+      "reading": "たいして",
+      "headword": "たいして",
+      "label": "not particularly"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T02:13:25Z",
-    "modified": "2026-03-15T02:13:25Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

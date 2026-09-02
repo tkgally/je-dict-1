@@ -2,7 +2,7 @@
   "id": "00084_haitatsu",
   "headword": "{配達|はいたつ}",
   "reading": "はいたつ",
-  "part_of_speech": "noun; suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "delivery",
   "conjugation": {
     "type": "suru",
@@ -145,11 +145,53 @@
       "headword": "{配|くば}る",
       "label": "to distribute",
       "target_id": "03921_kubaru"
+    },
+    {
+      "type": "related",
+      "target_id": "09571_takuhai",
+      "reading": "たくはい",
+      "headword": "{宅配|たくはい}",
+      "label": "home delivery"
+    },
+    {
+      "type": "related",
+      "target_id": "01248_todokeru",
+      "reading": "とどける",
+      "headword": "{届|とど}ける",
+      "label": "to deliver/send"
+    },
+    {
+      "type": "related",
+      "target_id": "09534_takuhaibin",
+      "reading": "たくはいびん",
+      "headword": "{宅配便|たくはいびん}",
+      "label": "home delivery service, parcel delivery"
+    },
+    {
+      "type": "related",
+      "target_id": "14996_tsuisekibangou",
+      "reading": "ついせきばんごう",
+      "headword": "{追跡番号|ついせきばんごう}",
+      "label": "tracking number"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15628_tewatashi",
+      "reading": "てわたし",
+      "headword": "{手渡|てわた}し",
+      "label": "personal delivery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17216_nounyuu",
+      "reading": "のうにゅう",
+      "headword": "{納入|のうにゅう}",
+      "label": "delivery"
     }
   ],
   "metadata": {
     "created": "2026-01-13T03:14:22Z",
-    "modified": "2026-05-09T03:10:11Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

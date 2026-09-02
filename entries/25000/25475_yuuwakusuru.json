@@ -3,7 +3,7 @@
   "headword": "{誘惑|ゆうわく}する",
   "reading": "ゆうわくする",
   "romaji": "yuuwakusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to tempt; to seduce; to lure",
   "definitions": [
     {
@@ -81,12 +81,37 @@
   ],
   "notes": "A compound of {誘|ゆう} (to invite; to lead) and {惑|わく} (to be confused; to go astray). The noun form {誘惑|ゆうわく} is also very common, used in phrases like {誘惑|ゆうわく}に{負|ま}ける (to give in to temptation).\n\nCOMMON COLLOCATIONS:\n- {誘惑|ゆうわく}に{負|ま}ける: to give in to temptation\n- {誘惑|ゆうわく}に{勝|か}つ: to resist temptation\n- {誘惑|ゆうわく}に{抗|あらが}う: to fight against temptation\n- {誘惑|ゆうわく}に{駆|か}られる: to be driven by temptation\n- {甘|あま}い{誘惑|ゆうわく}: sweet temptation\n\nSIMILAR WORDS:\n- {誘|さそ}う: to invite; to lure — more neutral; covers friendly invitations as well as enticement\n- {惑|まど}わす: to lead astray; to bewitch — emphasizes confusion and deception\n- {口説|くど}く: to woo; to come on to — specifically romantic/sexual persuasion, more direct",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01947_sasou",
+      "reading": "さそう",
+      "headword": "{誘|さそ}う",
+      "label": "to invite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28047_madowasu",
+      "reading": "まどわす",
+      "headword": "{惑|まど}わす",
+      "label": "to lead astray"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11852_kudoku",
+      "reading": "くどく",
+      "headword": "{口説|くど}く",
+      "label": "to woo"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "society"
@@ -94,7 +119,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T14:16:09Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -17,7 +17,9 @@
       "id": "19129_yuuyami_ex1",
       "japanese": "{夕闇|ゆうやみ}が{迫|せま}ってきた。",
       "english": "Evening darkness was closing in.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19129_yuuyami_ex2",
       "japanese": "{夕闇|ゆうやみ}の{中|なか}を{一人|ひとり}で{歩|ある}いた。",
       "english": "I walked alone in the evening darkness.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,62 @@
       "id": "19129_yuuyami_ex3",
       "japanese": "{夕闇|ゆうやみ}に{包|つつ}まれた{街|まち}に、ぽつぽつと{明|あ}かりが{灯|とも}り{始|はじ}めた。",
       "english": "In the town wrapped in evening darkness, lights began to flicker on one by one.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A literary and poetic word. {夕闇|ゆうやみ} evokes atmosphere and mood more than a simple time reference.\n\nCOMMON COLLOCATIONS:\n- {夕闇|ゆうやみ}が{迫|せま}る: evening darkness approaches\n- {夕闇|ゆうやみ}に{包|つつ}まれる: to be enveloped in evening darkness\n- {夕闇|ゆうやみ}の{中|なか}: in the evening darkness\n- {夕闇|ゆうやみ}に{紛|まぎ}れる: to slip away under cover of dusk\n\nSIMILAR WORDS:\n- {夕暮|ゆうぐ}れ: evening, dusk (more neutral and common)\n- {薄暮|はくぼ}: dim twilight (formal/literary)\n- {黄昏|たそがれ}: twilight, dusk (literary; also figuratively \"decline\")\n- {夕方|ゆうがた}: evening (everyday term)\n\nREGISTER:\nLiterary. Common in novels, poetry, and descriptive writing. Rarely used in casual conversation, where {夕方|ゆうがた} or {暗|くら}くなってきた would be more natural.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07682_yuugure",
+      "reading": "ゆうぐれ",
+      "headword": "{夕暮|ゆうぐ}れ",
+      "label": "evening, dusk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10198_hakubo",
+      "reading": "はくぼ",
+      "headword": "{薄暮|はくぼ}",
+      "label": "dim twilight"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05046_tasogare",
+      "reading": "たそがれ",
+      "headword": "{黄昏|たそがれ}",
+      "label": "twilight, dusk (literary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01010_yuugata",
+      "reading": "ゆうがた",
+      "headword": "{夕方|ゆうがた}",
+      "label": "evening"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general", "weather"],
-      "style": ["literary"]
+      "semantic": [
+        "time-general",
+        "weather"
+      ],
+      "style": [
+        "literary"
+      ]
     },
     "created": "2026-03-24T10:03:01Z",
-    "modified": "2026-03-28T10:56:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

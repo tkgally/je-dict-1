@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n⟦{期末|きまつ}→期末：22375_kimatsu⟧ (end of term) + ⟦{試験|しけん}→試験：01422_shiken⟧ (exam)\n\nSCHOOL YEAR CONTEXT:\nJapanese schools typically divide the year into three ⟦{学期|がっき}→学期：01073_gakki⟧:\n・⟦{一学期|いちがっき}→一学期：17203_ichigakki⟧ (first term) - April to July\n・⟦{二学期|にがっき}→二学期：23891_nigakki⟧ (second term) - September to December\n・⟦{三学期|さんがっき}→三学期：30250_sangakki⟧ (third term) - January to March\n\nEach term may end with a {期末試験|きまつしけん}.\n\nRELATED TERMS:\n・⟦{中間試験|ちゅうかんしけん}→中間試験：06691_chuukanshiken⟧ - midterm exam\n・⟦{追試験|ついしけん}→追試験：06692_tsuishiken⟧ - makeup exam\n・⟦{試験期間|しけんきかん}→試験期間：08738_shikenkikan⟧ - exam period\n\nCOLLOQUIAL:\nOften shortened to:\n・⟦{期末|きまつ}→期末：22375_kimatsu⟧ (finals)\n・⟦{期末|きまつ}→期末：22375_kimatsu⟧⟦テスト→テスト：01065_tesuto⟧ (final test)",
+  "notes": "FORMS:\n⟦{期末|きまつ}→期末：22375_kimatsu⟧ (end of term) + ⟦{試験|しけん}→試験：01422_shiken⟧ (exam)\n\nSCHOOL YEAR CONTEXT:\nJapanese schools typically divide the year into three ⟦{学期|がっき}→学期：01073_gakki⟧:\n- ⟦{一学期|いちがっき}→一学期：17203_ichigakki⟧ (first term) - April to July\n- ⟦{二学期|にがっき}→二学期：23891_nigakki⟧ (second term) - September to December\n- ⟦{三学期|さんがっき}→三学期：30250_sangakki⟧ (third term) - January to March\n\nEach term may end with a {期末試験|きまつしけん}.\n\nRELATED WORDS:\n- ⟦{中間試験|ちゅうかんしけん}→中間試験：06691_chuukanshiken⟧ - midterm exam\n- ⟦{追試験|ついしけん}→追試験：06692_tsuishiken⟧ - makeup exam\n- ⟦{試験期間|しけんきかん}→試験期間：08738_shikenkikan⟧ - exam period\n\nCOLLOQUIAL:\nOften shortened to:\n- ⟦{期末|きまつ}→期末：22375_kimatsu⟧ (finals)\n- ⟦{期末|きまつ}→期末：22375_kimatsu⟧⟦テスト→テスト：01065_tesuto⟧ (final test)",
   "cross_references": [
     {
       "type": "related",
@@ -65,11 +65,32 @@
       "headword": "{試験|しけん}",
       "label": "examination, test",
       "target_id": "01422_shiken"
+    },
+    {
+      "type": "related",
+      "target_id": "08738_shikenkikan",
+      "reading": "しけんきかん",
+      "headword": "{試験|しけん}{期間|きかん}",
+      "label": "exam period"
+    },
+    {
+      "type": "related",
+      "target_id": "09971_tsuishi",
+      "reading": "ついし",
+      "headword": "{追試|ついし}",
+      "label": "make-up exam, supplementary exam"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24920_teikishiken",
+      "reading": "ていきしけん",
+      "headword": "{定期試験|ていきしけん}",
+      "label": "regular examination"
     }
   ],
   "metadata": {
     "created": "2026-01-18T04:26:04Z",
-    "modified": "2026-08-29T12:18:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

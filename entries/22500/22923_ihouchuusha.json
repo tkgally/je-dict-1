@@ -17,7 +17,9 @@
       "id": "22923_ihouchuusha_ex1",
       "japanese": "{違法駐車|いほうちゅうしゃ}で{罰金|ばっきん}を{取|と}られた。",
       "english": "I was fined for illegal parking.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22923_ihouchuusha_ex2",
       "japanese": "この{通|とお}りは{違法駐車|いほうちゅうしゃ}が{多|おお}い。",
       "english": "There is a lot of illegal parking on this street.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,59 @@
       "id": "22923_ihouchuusha_ex3",
       "japanese": "{違法駐車|いほうちゅうしゃ}の{取|と}り{締|し}まりが{厳|きび}しくなったおかげで、{道路|どうろ}が{広|ひろ}く{使|つか}えるようになった。",
       "english": "Thanks to stricter enforcement against illegal parking, the roads have become easier to use.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {違法|いほう} (illegal, unlawful) and {駐車|ちゅうしゃ} (parking). In Japan, street parking regulations are strict, and since 2006, private enforcement officers ({駐車監視員|ちゅうしゃかんしいん}) have been deployed to issue tickets for illegal parking.\n\nCOMMON COLLOCATIONS:\n- {違法駐車|いほうちゅうしゃ}の{取|と}り{締|し}まり: crackdown on illegal parking\n- {違法駐車|いほうちゅうしゃ}{禁止|きんし}: no illegal parking (on signs)\n- {違法駐車|いほうちゅうしゃ}で{罰金|ばっきん}: fined for illegal parking\n- {違法駐車|いほうちゅうしゃ}を{通報|つうほう}する: to report illegal parking\n\nSIMILAR WORDS:\n- {路上駐車|ろじょうちゅうしゃ}: street parking — parking on the road (may or may not be illegal)\n- {駐車違反|ちゅうしゃいはん}: parking violation — essentially the same meaning, more commonly heard in everyday speech\n- {迷惑駐車|めいわくちゅうしゃ}: nuisance parking — parking that causes inconvenience, not necessarily illegal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24063_rojouchuusha",
+      "reading": "ろじょうちゅうしゃ",
+      "headword": "{路上駐車|ろじょうちゅうしゃ}",
+      "label": "street parking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21077_chuushaihan",
+      "reading": "ちゅうしゃいはん",
+      "headword": "{駐車違反|ちゅうしゃいはん}",
+      "label": "parking violation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17320_mudanchuusha",
+      "reading": "むだんちゅうしゃ",
+      "headword": "{無断駐車|むだんちゅうしゃ}",
+      "label": "unauthorized parking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25099_houchichuusha",
+      "reading": "ほうちちゅうしゃ",
+      "headword": "{放置駐車|ほうちちゅうしゃ}",
+      "label": "illegally parking and abandoning a vehicle"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["transportation", "law"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "transportation",
+        "law"
+      ],
       "formality": "neutral",
       "politeness": "plain"
     },
     "created": "2026-04-07T21:09:31Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

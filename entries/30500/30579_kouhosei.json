@@ -54,8 +54,24 @@
       "notes": null
     }
   ],
-  "notes": "COMMON COMPOUNDS:\n- {幹部候補生|かんぶこうほせい}: management trainee (a common hiring track at Japanese companies)\n- {自衛官候補生|じえいかんこうほせい}: Self-Defense Force recruit\n- {宇宙飛行士候補生|うちゅうひこうしこうほせい}: astronaut candidate\n- {候補生|こうほせい}{時代|じだい}: one's days as a trainee\n\nSIMILAR WORDS:\n- {研修生|けんしゅうせい}: trainee — someone receiving training, with no promise of a particular post afterward\n- {見習|みなら}い: apprentice — learning a trade by watching and assisting, often manual work\n- {新人|しんじん}: newcomer, rookie — already in the job, just new to it",
+  "notes": "COMPOUNDS:\n- {幹部候補生|かんぶこうほせい}: management trainee (a common hiring track at Japanese companies)\n- {自衛官候補生|じえいかんこうほせい}: Self-Defense Force recruit\n- {宇宙飛行士候補生|うちゅうひこうしこうほせい}: astronaut candidate\n- {候補生|こうほせい}{時代|じだい}: one's days as a trainee\n\nSIMILAR WORDS:\n- {研修生|けんしゅうせい}: trainee — someone receiving training, with no promise of a particular post afterward\n- {見習|みなら}い: apprentice — learning a trade by watching and assisting, often manual work\n- {新人|しんじん}: newcomer, rookie — already in the job, just new to it",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18735_minarai",
+      "reading": "みならい",
+      "headword": "{見習|みなら}い",
+      "label": "apprentice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02500_shinjin",
+      "reading": "しんじん",
+      "headword": "{新人|しんじん}",
+      "label": "newcomer, rookie"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +79,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "occupation",
         "education"
@@ -71,6 +87,6 @@
       "domain": []
     },
     "created": "2026-08-12T03:18:15Z",
-    "modified": "2026-08-12T03:18:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "28946_fotogurafaa_ex1",
       "japanese": "{彼|かれ}はフリーランスのフォトグラファーだ。",
       "english": "He is a freelance photographer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28946_fotogurafaa_ex2",
       "japanese": "{結婚式|けっこんしき}のフォトグラファーを{予約|よやく}した。",
       "english": "I booked a photographer for the wedding.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "28946_fotogurafaa_ex3",
       "japanese": "{有名|ゆうめい}フォトグラファーが{撮|と}った{写真|しゃしん}が{雑誌|ざっし}に{載|の}った。",
       "english": "Photos taken by a famous photographer were featured in the magazine.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Loanword from English \"photographer.\" Used especially in commercial, fashion, and freelance contexts. For an amateur or someone just taking photos as a hobby, the everyday word is カメラマン.\n\nCOMMON COLLOCATIONS:\n- {人気|にんき}フォトグラファー: popular photographer\n- ウェディングフォトグラファー: wedding photographer\n- ポートレートフォトグラファー: portrait photographer\n\nSIMILAR WORDS:\n- カメラマン: cameraman; photographer — general everyday term, also used for video\n- {写真家|しゃしんか}: photographer — native term, often used for fine-art photographers",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28387_kameraman",
+      "reading": "かめらまん",
+      "headword": "カメラマン",
+      "label": "cameraman"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05501_shashinka",
+      "reading": "しゃしんか",
+      "headword": "{写真家|しゃしんか}",
+      "label": "photographer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26286_satsueisha",
+      "reading": "さつえいしゃ",
+      "headword": "{撮影者|さつえいしゃ}",
+      "label": "photographer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"],
+      "semantic": [
+        "occupation"
+      ],
       "domain": []
     },
     "created": "2026-06-07T04:11:17Z",
-    "modified": "2026-06-07T04:11:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

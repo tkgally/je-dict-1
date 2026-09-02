@@ -3,7 +3,7 @@
   "headword": "{相変化|そうへんか}",
   "reading": "そうへんか",
   "romaji": "souhenka",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "phase change; phase transition",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Combines {相|そう} (phase) with {変化|へんか} (change). A physics and chemistry term for a transition between solid, liquid, gas, and other phases. Used with する.\n\nCOMMON COLLOCATIONS:\n- {相変化|そうへんか}を{起|お}こす: to undergo a phase change\n- {相変化|そうへんか}{温度|おんど}: phase-transition temperature\n\nSIMILAR WORDS:\n- {状態変化|じょうたいへんか}: change of state — a near-synonym common in school science\n- {融解|ゆうかい}: melting — one specific phase change",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30065_joutaihenka",
+      "reading": "じょうたいへんか",
+      "headword": "{状態変化|じょうたいへんか}",
+      "label": "change of state"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08404_yuukai",
+      "reading": "ゆうかい",
+      "headword": "{融解|ゆうかい}",
+      "label": "melting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "science"
       ],
@@ -64,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-23T00:19:28Z",
-    "modified": "2026-07-23T00:19:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

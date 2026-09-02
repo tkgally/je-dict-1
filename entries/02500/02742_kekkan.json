@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "{血管|けっかん} refers to blood vessels in the body.\n\nTYPES OF BLOOD VESSELS:\n- ⟦{動脈|どうみゃく}→動脈：05857_doumyaku⟧ (artery)\n- ⟦{静脈|じょうみゃく}→静脈：05858_joumyaku⟧ (vein)\n- ⟦{毛細|もうさい}{血管|けっかん}→毛細血管：06008_mousaikekkan⟧ (capillary)\n\nCOMMON PATTERNS:\n- {血管|けっかん}⟦が→が：00051_ga⟧⟦{詰|つ}まる→詰まる：02079_tsumaru⟧ (blood vessel gets blocked)\n- {血管|けっかん}⟦が→が：00051_ga⟧⟦{切|き}れる→切れる：01936_kireru⟧ (blood vessel ruptures)\n- {血管|けっかん}⟦を→を：00422_wo⟧⟦{広|ひろ}げる→広げる：01981_hirogeru⟧ (to dilate blood vessels)\n\nRELATED TERMS:\n- {血管|けっかん}⟦{疾患|しっかん}→疾患：16370_shikkan⟧ (vascular disease)\n- ⟦{心臓|しんぞう}→心臓：03262_shinzou⟧{血管|けっかん} (cardiovascular)",
-  "cross_references": [],
+  "notes": "{血管|けっかん} refers to blood vessels in the body.\n\nTYPES OF BLOOD VESSELS:\n- ⟦{動脈|どうみゃく}→動脈：05857_doumyaku⟧ (artery)\n- ⟦{静脈|じょうみゃく}→静脈：05858_joumyaku⟧ (vein)\n- ⟦{毛細|もうさい}{血管|けっかん}→毛細血管：06008_mousaikekkan⟧ (capillary)\n\nCOMMON PATTERNS:\n- {血管|けっかん}⟦が→が：00051_ga⟧⟦{詰|つ}まる→詰まる：02079_tsumaru⟧ (blood vessel gets blocked)\n- {血管|けっかん}⟦が→が：00051_ga⟧⟦{切|き}れる→切れる：01936_kireru⟧ (blood vessel ruptures)\n- {血管|けっかん}⟦を→を：00422_wo⟧⟦{広|ひろ}げる→広げる：01981_hirogeru⟧ (to dilate blood vessels)\n\nRELATED WORDS:\n- {血管|けっかん}⟦{疾患|しっかん}→疾患：16370_shikkan⟧ (vascular disease)\n- ⟦{心臓|しんぞう}→心臓：03262_shinzou⟧{血管|けっかん} (cardiovascular)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05857_doumyaku",
+      "reading": "どうみゃく",
+      "headword": "{動脈|どうみゃく}",
+      "label": "artery"
+    },
+    {
+      "type": "related",
+      "target_id": "08545_aosuji",
+      "reading": "あおすじ",
+      "headword": "{青筋|あおすじ}",
+      "label": "blue vein"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26905_ketsumyaku",
+      "reading": "けつみゃく",
+      "headword": "{血脈|けつみゃく}",
+      "label": "bloodline"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T07:47:15Z",
-    "modified": "2026-06-12T04:00:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

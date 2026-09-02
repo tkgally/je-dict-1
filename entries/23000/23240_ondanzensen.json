@@ -17,7 +17,9 @@
       "id": "23240_ondanzensen_ex1",
       "japanese": "{温暖前線|おんだんぜんせん}が{近|ちか}づいている。",
       "english": "A warm front is approaching.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23240_ondanzensen_ex2",
       "japanese": "{温暖前線|おんだんぜんせん}の{通過|つうか}に{伴|ともな}い{気温|きおん}が{上|あ}がる。",
       "english": "The temperature rises as the warm front passes through.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,12 +37,14 @@
       "id": "23240_ondanzensen_ex3",
       "japanese": "{明日|あした}は{温暖前線|おんだんぜんせん}の{影響|えいきょう}で、{広|ひろ}い{範囲|はんい}で{雨|あめ}が{降|ふ}るでしょう。",
       "english": "Tomorrow, due to the influence of a warm front, rain is expected over a wide area.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {温暖|おんだん} (warm, mild) and {前線|ぜんせん} (front line; in meteorology, the boundary between two air masses). A technical term used primarily in weather forecasts. In Japanese TV weather reports, {温暖前線|おんだんぜんせん} is shown on weather maps as a red line with semicircles pointing in the direction of movement. Warm fronts typically bring gentle, extended rainfall, in contrast to the heavier, shorter downpours associated with cold fronts.\n\nCOMMON COLLOCATIONS:\n- {温暖前線|おんだんぜんせん}が{通過|つうか}する: a warm front passes through\n- {温暖前線|おんだんぜんせん}が{近|ちか}づく: a warm front approaches\n- {温暖前線|おんだんぜんせん}の{影響|えいきょう}: the influence of a warm front\n- {温暖前線|おんだんぜんせん}に{伴|ともな}う{雨|あめ}: rain accompanying a warm front\n\nRELATED TERMS:\n- {寒冷前線|かんれいぜんせん}: cold front\n- {停滞前線|ていたいぜんせん}: stationary front (often associated with the rainy season)\n- {閉塞前線|へいそくぜんせん}: occluded front\n- {前線|ぜんせん}: front (meteorological)\n- {気圧|きあつ}: atmospheric pressure\n- {低気圧|ていきあつ}: low pressure system",
+  "notes": "Composed of {温暖|おんだん} (warm, mild) and {前線|ぜんせん} (front line; in meteorology, the boundary between two air masses). A technical term used primarily in weather forecasts. In Japanese TV weather reports, {温暖前線|おんだんぜんせん} is shown on weather maps as a red line with semicircles pointing in the direction of movement. Warm fronts typically bring gentle, extended rainfall, in contrast to the heavier, shorter downpours associated with cold fronts.\n\nCOMMON COLLOCATIONS:\n- {温暖前線|おんだんぜんせん}が{通過|つうか}する: a warm front passes through\n- {温暖前線|おんだんぜんせん}が{近|ちか}づく: a warm front approaches\n- {温暖前線|おんだんぜんせん}の{影響|えいきょう}: the influence of a warm front\n- {温暖前線|おんだんぜんせん}に{伴|ともな}う{雨|あめ}: rain accompanying a warm front\n\nRELATED WORDS:\n- {寒冷前線|かんれいぜんせん}: cold front\n- {停滞前線|ていたいぜんせん}: stationary front (often associated with the rainy season)\n- {閉塞前線|へいそくぜんせん}: occluded front\n- {前線|ぜんせん}: front (meteorological)\n- {気圧|きあつ}: atmospheric pressure\n- {低気圧|ていきあつ}: low pressure system",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,37 @@
       "reading": "かんれいぜんせん",
       "headword": "{寒冷|かんれい}{前線|ぜんせん}",
       "label": "cold front"
+    },
+    {
+      "type": "related",
+      "target_id": "00219_kiatsu",
+      "reading": "きあつ",
+      "headword": "{気圧|きあつ}",
+      "label": "atmospheric pressure"
+    },
+    {
+      "type": "related",
+      "target_id": "21712_teikiatsu",
+      "reading": "ていきあつ",
+      "headword": "{低気圧|ていきあつ}",
+      "label": "low pressure system"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["weather", "science"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "weather",
+        "science"
+      ],
       "formality": "neutral",
       "politeness": "plain"
     },
     "created": "2026-04-11T12:54:47Z",
-    "modified": "2026-05-08T05:05:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

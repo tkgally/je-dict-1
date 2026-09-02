@@ -228,7 +228,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{入|はい}る→入る：00494_hairu⟧ (intransitive, to enter). Pattern: X⟦を→を：00422_wo⟧Y⟦に→に：00314_ni⟧{入|い}れる (put X into Y).\n\nASPECT: ている indicates resulting state. {入|い}れている = 'have put in (and it's still in there)' or 'is putting in.'\n\nCOMMON PATTERNS:\n・⟦{砂糖|さとう}→砂糖：00884_satou⟧⟦を→を：00422_wo⟧{入|い}れる (add sugar)\n・⟦かばん→かばん：00637_kaban⟧⟦に→に：00314_ni⟧{入|い}れる (put in a bag)\n・お⟦{風呂|ふろ}→風呂：14633_furo⟧⟦を→を：00422_wo⟧{入|い}れる (draw a bath)\n・⟦{電源|でんげん}→電源：04429_dengen⟧⟦を→を：00422_wo⟧{入|い}れる (turn on power)\n\nOpposite: ⟦{出|だ}す→出す：01087_dasu⟧ (to take out).",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{入|はい}る→入る：00494_hairu⟧ (intransitive, to enter). Pattern: X⟦を→を：00422_wo⟧Y⟦に→に：00314_ni⟧{入|い}れる (put X into Y).\n\nASPECT: ている indicates resulting state. {入|い}れている = 'have put in (and it's still in there)' or 'is putting in.'\n\nCOMMON PATTERNS:\n- ⟦{砂糖|さとう}→砂糖：00884_satou⟧⟦を→を：00422_wo⟧{入|い}れる (add sugar)\n- ⟦かばん→かばん：00637_kaban⟧⟦に→に：00314_ni⟧{入|い}れる (put in a bag)\n- お⟦{風呂|ふろ}→風呂：14633_furo⟧⟦を→を：00422_wo⟧{入|い}れる (draw a bath)\n- ⟦{電源|でんげん}→電源：04429_dengen⟧⟦を→を：00422_wo⟧{入|い}れる (turn on power)\n\nOpposite: ⟦{出|だ}す→出す：01087_dasu⟧ (to take out).",
   "cross_references": [
     {
       "type": "antonym",
@@ -250,11 +250,25 @@
       "reading": "おく",
       "headword": "{置|お}く",
       "label": "to put down on a surface, vs. putting inside"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20660_tounyuusuru",
+      "reading": "とうにゅうする",
+      "headword": "{投入|とうにゅう}する",
+      "label": "to throw in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29843_on",
+      "reading": "おん",
+      "headword": "オン",
+      "label": "on (switched-on state)"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:05:52Z",
-    "modified": "2026-09-01T00:19:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

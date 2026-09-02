@@ -17,7 +17,9 @@
       "id": "25977_ryokuchi_ex1",
       "japanese": "{都市|とし}には{緑地|りょくち}が{必要|ひつよう}だ。",
       "english": "Cities need green spaces.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25977_ryokuchi_ex2",
       "japanese": "{駅前|えきまえ}に{新|あたら}しい{緑地|りょくち}が{整備|せいび}された。",
       "english": "A new green area was developed in front of the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,51 @@
       "id": "25977_ryokuchi_ex3",
       "japanese": "マンションの{周|まわ}りに{緑地|りょくち}が{広|ひろ}がっているので、{子|こ}どもを{安心|あんしん}して{遊|あそ}ばせられる。",
       "english": "There's green space spread around the apartment building, so I can let my children play there without worry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {緑|りょく} (green) and {地|ち} (ground; land). Used in urban planning and environmental contexts to describe areas of vegetation preserved or created within developed areas. Japan's {都市|とし}{計画法|けいかくほう} (City Planning Act) defines {緑地|りょくち} as a formal land-use category.\n\nCOMMON COLLOCATIONS:\n- {緑地|りょくち}を{整備|せいび}する: to develop green space\n- {緑地|りょくち}を{保全|ほぜん}する: to conserve green space\n- {緑地|りょくち}{公園|こうえん}: green park; parkland\n- {緑地|りょくち}{帯|たい}: green belt\n\nSIMILAR WORDS:\n- {公園|こうえん}: park — a developed recreational area with facilities; {緑地|りょくち} may be less developed\n- {緑|みどり}: greenery — the plants and vegetation themselves, not the land\n- {森林|しんりん}: forest — larger natural wooded areas, not typically urban",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00581_kouen",
+      "reading": "こうえん",
+      "headword": "{公園|こうえん}",
+      "label": "park"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01441_shinrin",
+      "reading": "しんりん",
+      "headword": "{森林|しんりん}",
+      "label": "forest"
+    },
+    {
+      "type": "related",
+      "target_id": "15414_gairoju",
+      "reading": "がいろじゅ",
+      "headword": "{街路樹|がいろじゅ}",
+      "label": "roadside trees"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["nature", "geography"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "nature",
+        "geography"
+      ]
     },
     "created": "2026-04-28T14:14:44Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

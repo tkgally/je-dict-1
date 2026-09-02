@@ -3,7 +3,7 @@
   "headword": "{再読|さいよ}み{込|こ}み",
   "reading": "さいよみこみ",
   "romaji": "saiyomikomi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reload; refresh; re-reading (data)",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Composed of {再|さい} (again, re-) and {読|よ}み{込|こ}み (reading/loading in). A common computing term that appears in web browsers, applications, and technical documentation. The verb form is {再読|さいよ}み{込|こ}みする.\n\nCOMMON COLLOCATIONS:\n- {再読|さいよ}み{込|こ}みする: to reload, to refresh\n- {再読|さいよ}み{込|こ}みボタン: reload/refresh button\n- {自動|じどう}{再読|さいよ}み{込|こ}み: auto-refresh\n- {強制|きょうせい}{再読|さいよ}み{込|こ}み: hard reload/force refresh\n\nSIMILAR WORDS:\n- {更新|こうしん}: update — a broader term covering any kind of update, not limited to reloading\n- リロード: reload — the English loanword, used more casually in tech contexts\n- リフレッシュ: refresh — the English loanword for refresh",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04765_koushin",
+      "reading": "こうしん",
+      "headword": "{更新|こうしん}",
+      "label": "update"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11261_rifuresshu",
+      "reading": "りふれっしゅ",
+      "headword": "リフレッシュ",
+      "label": "refresh"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -65,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-03T16:12:02Z",
-    "modified": "2026-05-03T16:12:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -17,7 +17,9 @@
       "id": "26390_todokedesho_ex1",
       "japanese": "{届出書|とどけでしょ}を{提出|ていしゅつ}する。",
       "english": "To submit a notification form.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26390_todokedesho_ex2",
       "japanese": "{転居|てんきょ}の{届出書|とどけでしょ}を{市役所|しやくしょ}に{出|だ}した。",
       "english": "I submitted a change-of-address form to city hall.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,37 @@
       "id": "26390_todokedesho_ex3",
       "japanese": "{届出書|とどけでしょ}の{記入|きにゅう}に{不備|ふび}があったため、{再提出|さいていしゅつ}を{求|もと}められた。",
       "english": "Because there were errors in filling out the notification form, I was asked to resubmit it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {届出|とどけで} (notification, filing) and {書|しょ} (document). Japanese bureaucracy relies heavily on paper forms, and there are specific {届出書|とどけでしょ} for nearly every life event and administrative action.\n\nCommon types include {婚姻届|こんいんとどけ} (marriage registration), {出生届|しゅっしょうとどけ} (birth registration), {転居届|てんきょとどけ} (change of address), and {退職届|たいしょくとどけ} (resignation notice). The word {届出書|とどけでしょ} is the generic term covering all such documents.\n\nCOMMON COLLOCATIONS:\n- {届出書|とどけでしょ}を{提出|ていしゅつ}する: to submit a notification form\n- {届出書|とどけでしょ}に{記入|きにゅう}する: to fill out a notification form\n- {届出書|とどけでしょ}の{様式|ようしき}: notification form format\n- {届出書|とどけでしょ}の{控|ひかえ}: copy of a notification form\n\nSIMILAR WORDS:\n- {届|とどけ}: notification; report — shorter, more general term\n- {申請書|しんせいしょ}: application form — for requesting permission or approval\n- {申告書|しんこくしょ}: declaration form — especially for tax returns",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07486_shinseisho",
+      "reading": "しんせいしょ",
+      "headword": "{申請書|しんせいしょ}",
+      "label": "application form"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["society", "politics"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "society",
+        "politics"
+      ]
     },
     "created": "2026-05-01T13:34:21Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

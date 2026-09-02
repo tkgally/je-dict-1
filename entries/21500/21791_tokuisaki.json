@@ -17,7 +17,9 @@
       "id": "21791_tokuisaki_ex1",
       "japanese": "{得意先|とくいさき}を{回|まわ}る。",
       "english": "To visit clients.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21791_tokuisaki_ex2",
       "japanese": "{新|あたら}しい{得意先|とくいさき}を{開拓|かいたく}することが{今年|ことし}の{目標|もくひょう}だ。",
       "english": "Developing new clients is this year's goal.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,12 +37,51 @@
       "id": "21791_tokuisaki_ex3",
       "japanese": "{長年|ながねん}の{得意先|とくいさき}との{信頼関係|しんらいかんけい}を{大切|たいせつ}にしている。",
       "english": "We value the relationships of trust we have with our long-standing clients.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {得意|とくい} (valued customer; one's forte) and {先|さき} (destination, party). A business term referring to regular customers or clients with whom a company has an established relationship. The nuance is of a valued, ongoing commercial relationship rather than a one-time buyer.\n\nUSAGE:\n- Primarily used in business contexts\n- Implies a B2B (business-to-business) or professional relationship more often than individual consumers\n- {得意先|とくいさき}を{回|まわ}る (to make the rounds of clients) is a very common expression for sales visits\n\nCOMMON COLLOCATIONS:\n- {得意先|とくいさき}を{回|まわ}る: to visit clients\n- {得意先|とくいさき}を{開拓|かいたく}する: to develop new clients\n- {得意先|とくいさき}{回|まわ}り: client visits, sales rounds\n- {大口|おおぐち}の{得意先|とくいさき}: major client\n\nSIMILAR WORDS:\n- {顧客|こきゃく}: customer, client — more formal; used broadly in business\n- お{客|きゃく}さん: customer — general; used in shops and service contexts\n- クライアント: client — loanword; common in creative and consulting industries\n- {取引先|とりひきさき}: business partner, trading partner — broader; includes suppliers as well as customers",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08632_kokyaku",
+      "reading": "こきゃく",
+      "headword": "{顧客|こきゃく}",
+      "label": "customer, client"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10253_okyakusan",
+      "reading": "おきゃくさん",
+      "headword": "お{客|きゃく}さん",
+      "label": "customer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04876_kuraianto",
+      "reading": "くらいあんと",
+      "headword": "クライアント",
+      "label": "client"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11083_torihikisaki",
+      "reading": "とりひきさき",
+      "headword": "{取引先|とりひきさき}",
+      "label": "business partner, trading partner"
+    },
+    {
+      "type": "related",
+      "target_id": "21411_otokuisama",
+      "reading": "おとくいさま",
+      "headword": "お{得意様|とくいさま}",
+      "label": "valued customer"
+    }
+  ],
   "metadata": {
     "entry_id": "21791_tokuisaki",
     "schema_version": "2.0",
@@ -46,11 +89,16 @@
     "vocabulary_tier": "general",
     "jlpt_level": null,
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business"],
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "business"
+      ],
       "register": [],
       "usage": []
     },
-    "modified": "2026-04-03T17:12:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

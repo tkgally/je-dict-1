@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {金融|きんゆう} (finance/monetary) and {引き締め|ひきしめ} (tightening). Refers to central bank policies aimed at reducing the money supply or raising interest rates to control inflation and cool down an overheating economy.\n\nCOMMON COLLOCATIONS:\n- {金融引|きんゆうひ}き{締|し}めに{転|てん}じる: to shift to tightening\n- {金融引|きんゆうひ}き{締|し}め{政策|せいさく}: tightening policy\n- {金融引|きんゆうひ}き{締|し}めの{影響|えいきょう}: effects of tightening\n- {段階的|だんかいてき}な{金融引|きんゆうひ}き{締|し}め: gradual tightening\n\nSIMILAR WORDS:\n- {金融緩和|きんゆうかんわ}: monetary easing (the opposite policy)\n- {利上|りあ}げ: interest rate hike (a specific tightening tool)\n- {量的引き締め|りょうてきひきしめ}: quantitative tightening",
+  "notes": "A compound of {金融|きんゆう} (finance/monetary) and {引き締|ひきし}め (tightening). Refers to central bank policies aimed at reducing the money supply or raising interest rates to control inflation and cool down an overheating economy.\n\nCOMMON COLLOCATIONS:\n- {金融引|きんゆうひ}き{締|し}めに{転|てん}じる: to shift to tightening\n- {金融引|きんゆうひ}き{締|し}め{政策|せいさく}: tightening policy\n- {金融引|きんゆうひ}き{締|し}めの{影響|えいきょう}: effects of tightening\n- {段階的|だんかいてき}な{金融引|きんゆうひ}き{締|し}め: gradual tightening\n\nSIMILAR WORDS:\n- {金融緩和|きんゆうかんわ}: monetary easing (the opposite policy)\n- {利上|りあ}げ: interest rate hike (a specific tightening tool)\n- {量的引き締|りょうてきひきし}め: quantitative tightening",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24263_kinyuukanwa",
+      "reading": "きんゆうかんわ",
+      "headword": "{金融緩和|きんゆうかんわ}",
+      "label": "monetary easing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11987_riage",
+      "reading": "りあげ",
+      "headword": "{利上|りあ}げ",
+      "label": "interest rate hike"
+    },
+    {
+      "type": "related",
+      "target_id": "26656_seisakukinri",
+      "reading": "せいさくきんり",
+      "headword": "{政策金利|せいさくきんり}",
+      "label": "policy interest rate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-05-04T11:21:14Z",
-    "modified": "2026-05-04T11:21:14Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

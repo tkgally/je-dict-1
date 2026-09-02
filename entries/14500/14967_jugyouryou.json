@@ -24,7 +24,9 @@
       "english": "Pay the tuition fee.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14967_jugyouryou_ex2",
@@ -32,7 +34,9 @@
       "english": "University tuition fees are rising year after year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14967_jugyouryou_ex3",
@@ -40,7 +44,9 @@
       "english": "Thanks to a scholarship, my tuition was waived.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14967_jugyouryou_ex4",
@@ -48,7 +54,9 @@
       "english": "Let's think of it as an expensive lesson learned.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14967_jugyouryou_ex5",
@@ -56,7 +64,9 @@
       "english": "I failed at investing, but I decided to think of it as a valuable lesson.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14967_jugyouryou_ex6",
@@ -64,21 +74,63 @@
       "english": "I lost 50,000 yen being scammed, but I accepted it as the cost of a life lesson.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "A compound of {授業|じゅぎょう} (instruction, class) and {料|りょう} (fee).\n\nSENSE 2 (figurative):\nThe expression {高|たか}い{授業料|じゅぎょうりょう}を{払|はら}った ('paid expensive tuition') is a common idiom meaning 'learned an expensive lesson.' Used to reframe a loss or mistake as a learning experience.\n\nSIMILAR WORDS:\n- {学費|がくひ} covers all educational costs (tuition + supplies + living expenses)\n- {月謝|げっしゃ} is a monthly fee for lessons (piano, cram school, etc.)\n\nCOMMON COLLOCATIONS:\n- {授業料|じゅぎょうりょう}を{納|おさ}める (to pay tuition)\n- {授業料|じゅぎょうりょう}{免除|めんじょ} (tuition waiver)\n- {授業料|じゅぎょうりょう}{値上|ねあ}げ (tuition increase)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04706_gakuhi",
+      "reading": "がくひ",
+      "headword": "{学費|がくひ}",
+      "label": "covers all educational costs"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16421_gessha",
+      "reading": "げっしゃ",
+      "headword": "{月謝|げっしゃ}",
+      "label": "is a monthly fee for lessons"
+    },
+    {
+      "type": "related",
+      "target_id": "22398_nyuugakukin",
+      "reading": "にゅうがくきん",
+      "headword": "{入学金|にゅうがくきん}",
+      "label": "enrollment fee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23862_jukouryou",
+      "reading": "じゅこうりょう",
+      "headword": "{受講料|じゅこうりょう}",
+      "label": "course fee"
+    },
+    {
+      "type": "related",
+      "target_id": "24975_jukenryou",
+      "reading": "じゅけんりょう",
+      "headword": "{受験料|じゅけんりょう}",
+      "label": "examination fee"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T08:01:53Z",
-    "modified": "2026-03-04T08:01:53Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

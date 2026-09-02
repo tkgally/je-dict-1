@@ -3,7 +3,7 @@
   "headword": "お{人好|ひとよ}し",
   "reading": "おひとよし",
   "romaji": "ohitoyoshi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "good-natured person; pushover; sucker",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "27207_ohitoyoshi_ex1",
       "japanese": "{彼|かれ}はお{人好|ひとよ}しだから{断|ことわ}れない。",
       "english": "He's too nice to refuse.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27207_ohitoyoshi_ex2",
       "japanese": "そんなお{人好|ひとよ}しだと{騙|だま}されるよ。",
       "english": "If you're that gullible, you'll get tricked.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "27207_ohitoyoshi_ex3",
       "japanese": "{母|はは}はお{人好|ひとよ}しで、{頼|たの}まれると{何|なん}でも{引|ひ}き{受|う}けてしまう。",
       "english": "My mother is such a pushover that she takes on anything she's asked to do.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The nuance ranges from warm affection to gentle criticism depending on context. When used about someone you care about, it often carries a tone of \"too kind for their own good.\" When used more critically, it implies the person is naive or a pushover. Composed of the honorific お + {人|ひと} (person) + {好|よ}し (good-natured).\n\nUSAGE:\nCan function as a noun (「お{人好|ひとよ}しだ」) or as a modifier with の (「お{人好|ひとよ}しの{性格|せいかく}」). Often used with だから to explain why someone gets taken advantage of.\n\nCOMMON COLLOCATIONS:\n- お{人好|ひとよ}しな{性格|せいかく}: a too-nice personality\n- お{人好|ひとよ}しにも{程|ほど}がある: there's a limit to being too nice\n- お{人好|ひとよ}しだと{損|そん}をする: being too nice will cost you\n\nSIMILAR WORDS:\n- {人|ひと}がいい: good-natured — a neutral description without the \"too much\" nuance\n- お{人好|ひとよ}し is stronger, implying naivety\n- {甘|あま}い: lenient; soft — describes someone who is too easy on others\n- {世間知|せけんし}らず: naive about the world — more about lacking worldly experience",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00617_amai",
+      "reading": "あまい",
+      "headword": "{甘|あま}い",
+      "label": "lenient"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22674_sekenshirazu",
+      "reading": "せけんしらず",
+      "headword": "{世間知|せけんし}らず",
+      "label": "naive about the world"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["personality"],
+      "semantic": [
+        "personality"
+      ],
       "domain": []
     },
     "created": "2026-05-07T16:12:03Z",
-    "modified": "2026-05-07T16:12:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "To cultivate farmland.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14354_nouchi_ex2",
@@ -27,7 +29,9 @@
       "english": "Farmland is being turned into residential areas.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14354_nouchi_ex3",
@@ -35,21 +39,49 @@
       "english": "As the population ages and the number of farmers declines, the amount of abandoned farmland is increasing year by year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {農|のう} (agriculture) + {地|ち} (land).\n\nCOMMON COLLOCATIONS:\n- {農地|のうち}{改革|かいかく} (agrarian reform)\n- {農地|のうち}を{転用|てんよう}する (to convert farmland to other use)\n- {耕作|こうさく}{放棄|ほうき}{農地|のうち} (abandoned farmland)\n- {農地|のうち}{法|ほう} (Agricultural Land Act)\n\nUSAGE NOTE:\n{農地|のうち} is a neutral, semi-formal term used in news, policy, and legal contexts. In everyday speech, {畑|はたけ} (field for crops) or {田|た}んぼ (rice paddy) are more common for referring to specific types of farmland.",
-  "cross_references": [],
+  "notes": "Compound of {農|のう} (agriculture) + {地|ち} (land).\n\nCOMMON COLLOCATIONS:\n- {農地|のうち}{改革|かいかく} (agrarian reform)\n- {農地|のうち}を{転用|てんよう}する (to convert farmland to other use)\n- {耕作|こうさく}{放棄|ほうき}{農地|のうち} (abandoned farmland)\n- {農地|のうち}{法|ほう} (Agricultural Land Act)\n\nUSAGE:\n{農地|のうち} is a neutral, semi-formal term used in news, policy, and legal contexts. In everyday speech, {畑|はたけ} (field for crops) or {田|た}んぼ (rice paddy) are more common for referring to specific types of farmland.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01491_nougyou",
+      "reading": "のうぎょう",
+      "headword": "{農業|のうぎょう}",
+      "label": "agriculture, farming"
+    },
+    {
+      "type": "related",
+      "target_id": "03539_nouka",
+      "reading": "のうか",
+      "headword": "{農家|のうか}",
+      "label": "farmer, farm household"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21589_takuchi",
+      "reading": "たくち",
+      "headword": "{宅地|たくち}",
+      "label": "residential land"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T12:19:13Z",
-    "modified": "2026-02-28T12:19:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

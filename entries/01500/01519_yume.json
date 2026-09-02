@@ -118,11 +118,40 @@
       ]
     }
   ],
-  "notes": "{夢|ゆめ} has two meanings: dreams during sleep and aspirations/ambitions.\n\nSLEEP DREAMS:\n- {夢|ゆめ}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧: to have a dream (NOT {夢|ゆめ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧)\n- ⟦{悪夢|あくむ}→悪夢：12620_akumu⟧: nightmare\n- {夢|ゆめ}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧: in a dream\n\nASPIRATIONS:\n- {夢|ゆめ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have a dream/goal\n- {夢|ゆめ}⟦が→が：00051_ga⟧⟦{叶|かな}う→叶う：05303_kanau⟧: dream comes true\n- {夢|ゆめ}⟦を→を：00422_wo⟧⟦{諦|あきら}める→諦める：01813_akirameru⟧: to give up on a dream\n- {夢|ゆめ}⟦を→を：00422_wo⟧⟦{追|お}いかける→追い掛ける：04628_oikakeru⟧: to chase a dream\n\nCOMPOUNDS:\n- ⟦{夢中|むちゅう}→夢中：03752_muchuu⟧: absorbed, engrossed\n- ⟦{白昼夢|はくちゅうむ}→白昼夢：noentry⟧: daydream\n- ⟦{初夢|はつゆめ}→初夢：16702_hatsuyume⟧: first dream of the new year\n\nIDIOM:\n{夢|ゆめ}⟦の→の：09472_no⟧⟦よう→よう：01114_you⟧: dreamlike, too good to be true",
-  "cross_references": [],
+  "notes": "{夢|ゆめ} has two meanings: dreams during sleep and aspirations/ambitions.\n\nSLEEP DREAMS:\n- {夢|ゆめ}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧: to have a dream (NOT {夢|ゆめ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧)\n- ⟦{悪夢|あくむ}→悪夢：12620_akumu⟧: nightmare\n- {夢|ゆめ}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦で→で：00502_de⟧: in a dream\n\nASPIRATIONS:\n- {夢|ゆめ}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have a dream/goal\n- {夢|ゆめ}⟦が→が：00051_ga⟧⟦{叶|かな}う→叶う：05303_kanau⟧: dream comes true\n- {夢|ゆめ}⟦を→を：00422_wo⟧⟦{諦|あきら}める→諦める：01813_akirameru⟧: to give up on a dream\n- {夢|ゆめ}⟦を→を：00422_wo⟧⟦{追|お}いかける→追い掛ける：04628_oikakeru⟧: to chase a dream\n\nCOMPOUNDS:\n- ⟦{夢中|むちゅう}→夢中：03752_muchuu⟧: absorbed, engrossed\n- ⟦{白昼夢|はくちゅうむ}→白昼夢：noentry⟧: daydream\n- ⟦{初夢|はつゆめ}→初夢：16702_hatsuyume⟧: first dream of the new year\n\nCOMMON EXPRESSIONS:\n{夢|ゆめ}⟦の→の：09472_no⟧⟦よう→よう：01114_you⟧: dreamlike, too good to be true",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00221_kibou",
+      "reading": "きぼう",
+      "headword": "{希望|きぼう}",
+      "label": "hope, wish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03543_nozomi",
+      "reading": "のぞみ",
+      "headword": "{望|のぞ}み",
+      "label": "hope, wish, desire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21839_higan",
+      "reading": "ひがん",
+      "headword": "{悲願|ひがん}",
+      "label": "long-cherished wish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28925_taishi",
+      "reading": "たいし",
+      "headword": "{大志|たいし}",
+      "label": "great ambition"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:45:47Z",
-    "modified": "2026-05-15T20:14:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

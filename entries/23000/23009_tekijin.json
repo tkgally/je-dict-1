@@ -17,7 +17,9 @@
       "id": "23009_tekijin_ex1",
       "japanese": "{敵陣|てきじん}に{突入|とつにゅう}する。",
       "english": "To charge into enemy territory.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23009_tekijin_ex2",
       "japanese": "{敵陣|てきじん}{深|ふか}くまでドリブルで{切|き}り{込|こ}んだ。",
       "english": "He dribbled deep into the opponent's half.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,38 @@
       "id": "23009_tekijin_ex3",
       "japanese": "{将棋|しょうぎ}で{歩|ふ}が{敵陣|てきじん}に{入|はい}ると、{成|な}って「と{金|きん}」になる。",
       "english": "In shogi, when a pawn enters the opponent's territory, it promotes to a gold general.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Used across military, sports, and board game contexts to refer to the opposing side's territory or position.\n\nCOMMON COLLOCATIONS:\n- {敵陣|てきじん}に{乗|の}り{込|こ}む: to push into enemy territory\n- {敵陣|てきじん}に{切|き}り{込|こ}む: to cut into enemy lines\n- {敵陣|てきじん}{深|ふか}く: deep into enemy territory\n- {敵陣|てきじん}を{突破|とっぱ}する: to break through enemy lines\n\nSIMILAR WORDS:\n- {自陣|じじん}: one's own camp/territory — the opposite; one's own side of the field or board\n- {陣地|じんち}: camp, position, base — a more general term for an established position\n- {敵地|てきち}: enemy territory — similar meaning but refers more to the land or region itself\n\nUSAGE:\nIn {将棋|しょうぎ} (Japanese chess), {敵陣|てきじん} refers to the three rows closest to the opponent, where pieces can be promoted. In sports like soccer and rugby, it refers to the opponent's half of the field.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30721_jinchi",
+      "reading": "じんち",
+      "headword": "{陣地|じんち}",
+      "label": "camp, position, base"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["military", "sports"]
+      "semantic": [
+        "military",
+        "sports"
+      ]
     },
     "created": "2026-04-08T15:41:29Z",
-    "modified": "2026-04-08T15:41:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

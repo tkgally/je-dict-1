@@ -17,7 +17,9 @@
       "id": "25163_jouhakutou_ex1",
       "japanese": "{上白糖|じょうはくとう}を{大|おお}さじ{二杯|にはい}{加|くわ}える。",
       "english": "Add two tablespoons of refined white sugar.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25163_jouhakutou_ex2",
       "japanese": "{日本|にほん}の{家庭|かてい}では{上白糖|じょうはくとう}が{最|もっと}もよく{使|つか}われる{砂糖|さとう}だ。",
       "english": "In Japanese households, refined white sugar is the most commonly used sugar.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,65 @@
       "id": "25163_jouhakutou_ex3",
       "japanese": "{上白糖|じょうはくとう}はグラニュー{糖|とう}と{比|くら}べて{粒|つぶ}が{細|こま}かく、{料理|りょうり}に{溶|と}けやすいのが{特徴|とくちょう}だ。",
       "english": "Compared to granulated sugar, refined white sugar has finer grains and dissolves more easily in cooking.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Literally \"superior white sugar,\" from {上|じょう} (superior), {白|はく} (white), and {糖|とう} (sugar). This is the default sugar in Japan — when Japanese recipes simply call for {砂糖|さとう} (sugar), they typically mean {上白糖|じょうはくとう}.\n\nUnlike the coarser granulated sugar (グラニュー{糖|とう}) common in Western countries, {上白糖|じょうはくとう} has a finer texture and contains a small amount of inverted sugar, giving it a slightly moist quality and milder sweetness. It accounts for roughly half of all sugar consumption in Japan.\n\nCOMMON COLLOCATIONS:\n- {上白糖|じょうはくとう}{大|おお}さじ{一杯|いっぱい}: one tablespoon of white sugar\n- {上白糖|じょうはくとう}を{加|くわ}える: to add white sugar\n- {上白糖|じょうはくとう}の{代|か}わりに: instead of white sugar\n\nSIMILAR WORDS:\n- グラニュー{糖|とう}: granulated sugar — coarser crystals, commonly used in Western baking\n- {三温糖|さんおんとう}: light brown sugar — made by further heating white sugar, with a richer flavor\n- {黒糖|こくとう}: brown sugar, raw sugar — unrefined sugar from Okinawa with a strong molasses flavor",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23996_guranyuutou",
+      "reading": "ぐらにゅーとう",
+      "headword": "グラニュー{糖|とう}",
+      "label": "granulated sugar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23597_sanontou",
+      "reading": "さんおんとう",
+      "headword": "{三温糖|さんおんとう}",
+      "label": "light brown sugar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19618_kokutou",
+      "reading": "こくとう",
+      "headword": "{黒糖|こくとう}",
+      "label": "brown sugar, raw sugar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22930_koorizatou",
+      "reading": "こおりざとう",
+      "headword": "{氷砂糖|こおりざとう}",
+      "label": "rock sugar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29769_tensaitou",
+      "reading": "てんさいとう",
+      "headword": "甜菜糖",
+      "label": "beet sugar"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-23T12:37:23Z",
-    "modified": "2026-04-23T12:37:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

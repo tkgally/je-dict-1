@@ -17,7 +17,9 @@
       "id": "29651_tankyorimisairu_ex1",
       "japanese": "{短距離|たんきょり}ミサイルを{発射|はっしゃ}した。",
       "english": "They launched a short-range missile.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29651_tankyorimisairu_ex2",
       "japanese": "{短距離|たんきょり}ミサイルは{近|ちか}い{目標|もくひょう}を{狙|ねら}う。",
       "english": "Short-range missiles are aimed at nearby targets.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "29651_tankyorimisairu_ex3",
       "japanese": "{今回|こんかい}{発射|はっしゃ}されたのは、{射程|しゃてい}の{短|みじか}い{短距離|たんきょり}ミサイルだとみられる。",
       "english": "The missile launched this time is believed to be a short-range one with a limited firing range.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {短距離|たんきょり} (short distance) and ミサイル (missile). One of the standard range categories used in news coverage of missile tests and defense policy.\n\nCOMMON COLLOCATIONS:\n- {短距離|たんきょり}ミサイルを{発射|はっしゃ}する: to launch a short-range missile\n- {短距離|たんきょり}{弾道|だんどう}ミサイル: a short-range ballistic missile\n- {複数|ふくすう}の{短距離|たんきょり}ミサイル: multiple short-range missiles\n\nSIMILAR WORDS:\n- {長距離|ちょうきょり}ミサイル: long-range missile — reaches far more distant targets\n- {中距離|ちゅうきょり}ミサイル: medium-range missile — the intermediate range category",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29652_choukyorimisairu",
+      "reading": "ちょうきょりみさいる",
+      "headword": "長距離ミサイル",
+      "label": "long-range missile"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["military"],
+      "politeness": "plain",
+      "semantic": [
+        "military"
+      ],
       "domain": []
     },
     "created": "2026-07-03T00:20:10Z",
-    "modified": "2026-07-03T00:20:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

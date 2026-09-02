@@ -19,7 +19,9 @@
       "english": "To start with a small investment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15387_shougaku_ex2",
@@ -27,7 +29,9 @@
       "english": "It's important to save money every month, even if it's a small amount.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15387_shougaku_ex3",
@@ -35,10 +39,12 @@
       "english": "Small claims lawsuits have simple procedures and can be filed without a lawyer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{少額|しょうがく} means a small amount of money. It is a formal word commonly used in financial, legal, and business contexts.\n\nCOMPOUND:\n{少|しょう} (small, few) + {額|がく} (amount, sum).\n\nCOMMON COLLOCATIONS:\n- {少額|しょうがく}{投資|とうし}: small investment\n- {少額|しょうがく}{訴訟|そしょう}: small claims suit\n- {少額|しょうがく}{決済|けっさい}: small payment/transaction\n- {少額|しょうがく}から{始|はじ}める: to start with a small amount\n\nANTONYMS:\n- {高額|こうがく}: large amount of money (high value)\n- {多額|たがく}: large sum (emphasizes quantity)\n\nNOTE:\n{少額|しょうがく} specifically refers to money. For small amounts of other things, use {少量|しょうりょう} (small quantity) or {少数|しょうすう} (small number).",
+  "notes": "{少額|しょうがく} means a small amount of money. It is a formal word commonly used in financial, legal, and business contexts.\n\nCOMPOUNDS:\n{少|しょう} (small, few) + {額|がく} (amount, sum).\n\nCOMMON COLLOCATIONS:\n- {少額|しょうがく}{投資|とうし}: small investment\n- {少額|しょうがく}{訴訟|そしょう}: small claims suit\n- {少額|しょうがく}{決済|けっさい}: small payment/transaction\n- {少額|しょうがく}から{始|はじ}める: to start with a small amount\n\nSIMILAR WORDS:\n- {高額|こうがく}: large amount of money (high value)\n- {多額|たがく}: large sum (emphasizes quantity)\n\nUSAGE:\n{少額|しょうがく} specifically refers to money. For small amounts of other things, use {少量|しょうりょう} (small quantity) or {少数|しょうすう} (small number).",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,36 @@
       "reading": "たがく",
       "headword": "{多額|たがく}",
       "label": "large sum"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14704_kougaku",
+      "reading": "こうがく",
+      "headword": "{高額|こうがく}",
+      "label": "large amount of money"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23841_koguchi",
+      "reading": "こぐち",
+      "headword": "{小口|こぐち}",
+      "label": "small amount"
     }
   ],
   "metadata": {
     "created": "2026-03-06T12:31:57Z",
-    "modified": "2026-04-26T09:20:33Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity"]
+      "semantic": [
+        "quantity"
+      ]
     }
   }
 }

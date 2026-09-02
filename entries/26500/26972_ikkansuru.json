@@ -3,7 +3,7 @@
   "headword": "{一貫|いっかん}する",
   "reading": "いっかんする",
   "romaji": "ikkansuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to be consistent; to be coherent throughout",
   "definitions": [
     {
@@ -55,7 +55,22 @@
     }
   ],
   "notes": "Composed of {一|いち} (one) and {貫|かん} (pierce, penetrate). Literally 'to pierce through as one,' conveying the image of a single thread running through something from start to finish. Often used as the adverb {一貫|いっかん}して (consistently, throughout).\n\nCOMMON COLLOCATIONS:\n- {態度|たいど}が{一貫|いっかん}している: one's attitude is consistent\n- {主張|しゅちょう}が{一貫|いっかん}している: one's argument is consistent\n- {一貫|いっかん}した{方針|ほうしん}: a consistent policy\n- {一貫|いっかん}して: consistently, throughout\n- {一貫|いっかん}{生産|せいさん}: integrated production\n\nSIMILAR WORDS:\n- {首尾|しゅび}{一貫|いっかん}: consistency from beginning to end — four-character compound emphasizing logical coherence\n- {継続|けいぞく}する: to continue — focuses on duration rather than unchanging quality\n- {徹底|てってい}する: to be thorough — emphasizes completeness rather than consistency over time",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26971_keizokusuru",
+      "reading": "けいぞくする",
+      "headword": "{継続|けいぞく}する",
+      "label": "to continue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21452_tetteisuru",
+      "reading": "てっていする",
+      "headword": "{徹底|てってい}する",
+      "label": "to be thorough"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -73,7 +88,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T12:20:28Z",
-    "modified": "2026-08-06T12:50:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

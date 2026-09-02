@@ -17,7 +17,9 @@
       "id": "21286_bifuu_ex1",
       "japanese": "{微風|びふう}が{吹|ふ}いている。",
       "english": "A gentle breeze is blowing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21286_bifuu_ex2",
       "japanese": "{午後|ごご}から{微風|びふう}が{心地|ここち}よかった。",
       "english": "The gentle breeze was pleasant from the afternoon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,13 +37,38 @@
       "id": "21286_bifuu_ex3",
       "japanese": "{天気予報|てんきよほう}では{晴|は}れ{時々|ときどき}{微風|びふう}と{伝|つた}えられた。",
       "english": "The weather forecast reported clear skies with occasional light breezes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A somewhat literary or technical term for a gentle breeze. Composed of {微|び} (slight, faint) + {風|ふう} (wind). Common in weather reports and written descriptions of nature.\n\nCOMMON COLLOCATIONS:\n- {微風|びふう}が{吹|ふ}く: a gentle breeze blows\n- {微風|びふう}に{揺|ゆ}れる: to sway in the breeze\n- {微風|びふう}{快晴|かいせい}: clear and breezy\n\nSIMILAR WORDS:\n- そよ{風|かぜ}: gentle breeze — more everyday and poetic; the most common word for a pleasant breeze\n- {風|かぜ}: wind — general term\n- {強風|きょうふう}: strong wind — opposite in intensity\n- {無風|むふう}: windless, calm — no wind at all\n\nWEATHER SCALE:\n{無風|むふう} → {微風|びふう} → {弱風|じゃくふう} → {強風|きょうふう} → {暴風|ぼうふう}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15269_kyoufuu",
+      "reading": "きょうふう",
+      "headword": "{強風|きょうふう}",
+      "label": "strong wind"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16445_mufuu",
+      "reading": "むふう",
+      "headword": "{無風|むふう}",
+      "label": "windless, calm"
+    },
+    {
+      "type": "related",
+      "target_id": "10043_kunpuu",
+      "reading": "くんぷう",
+      "headword": "{薫風|くんぷう}",
+      "label": "balmy breeze, fragrant wind"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,6 +83,6 @@
       ]
     },
     "created": "2026-04-01T17:20:48Z",
-    "modified": "2026-04-01T17:20:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

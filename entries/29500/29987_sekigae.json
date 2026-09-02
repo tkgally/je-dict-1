@@ -3,7 +3,7 @@
   "headword": "{席替|せきが}え",
   "reading": "せきがえ",
   "romaji": "sekigae",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "changing seats; seat reassignment",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Strongly associated with school life, where seats are reshuffled every month or term, often by lottery.\n\nCOMMON COLLOCATIONS:\n- {席替|せきが}えをする: to change seats\n- {席替|せきが}えがある: to have a seat change\n- くじで{席替|せきが}えを{決|き}める: to decide seats by drawing lots\n\nSIMILAR WORDS:\n- {模様替|もようが}え: rearranging furniture in a room, not people's seats\n- {配置|はいち}{換|が}え: reassignment of postings or placements, e.g. of staff",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07708_moyougae",
+      "reading": "もようがえ",
+      "headword": "{模様替|もようが}え",
+      "label": "rearranging furniture in a room, not…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21982_haichigae",
+      "reading": "はいちがえ",
+      "headword": "{配置換|はいちが}え",
+      "label": "reassignment of postings or placements…"
+    },
+    {
+      "type": "related",
+      "target_id": "08607_kurasugae",
+      "reading": "くらすがえ",
+      "headword": "クラス{替|が}え",
+      "label": "class reshuffling"
+    },
+    {
+      "type": "related",
+      "target_id": "25863_sekijun",
+      "reading": "せきじゅん",
+      "headword": "{席順|せきじゅん}",
+      "label": "seating order"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +84,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "education"
       ],
@@ -62,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-20T06:17:59Z",
-    "modified": "2026-07-20T06:17:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

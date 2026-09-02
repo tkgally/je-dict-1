@@ -46,18 +46,50 @@
   ],
   "notes": "Combines {縦|たて} (vertical, lengthwise) and {線|せん} (line). A basic term used in geometry, design, calligraphy, and everyday contexts. Contrasts with {横線|よこせん} (horizontal line).\n\nCOMMON COLLOCATIONS:\n- {縦線|たてせん}を{引|ひ}く: to draw a vertical line\n- {縦線|たてせん}と{横線|よこせん}: vertical and horizontal lines\n- {太|ふと}い{縦線|たてせん}: a thick vertical line\n- {点線|てんせん}の{縦線|たてせん}: a dotted vertical line\n\nSIMILAR WORDS:\n- {横線|よこせん}: horizontal line — the counterpart running left to right\n- {直線|ちょくせん}: straight line — a line with no curves, not necessarily vertical\n- {斜線|しゃせん}: diagonal line; slash — a line running at an angle",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18546_yokosen",
+      "reading": "よこせん",
+      "headword": "{横線|よこせん}",
+      "label": "horizontal line"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05440_chokusen",
+      "reading": "ちょくせん",
+      "headword": "{直線|ちょくせん}",
+      "label": "straight line"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08120_shasen",
+      "reading": "しゃせん",
+      "headword": "{斜線|しゃせん}",
+      "label": "diagonal line"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23723_suichokusen",
+      "reading": "すいちょくせん",
+      "headword": "{垂直線|すいちょくせん}",
+      "label": "vertical line"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "descriptive",
         "language"
       ]
     },
     "created": "2026-04-23T11:23:49Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "27558_zangyoujikan_ex1",
       "japanese": "{残業時間|ざんぎょうじかん}が{長|なが}い。",
       "english": "The overtime hours are long.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27558_zangyoujikan_ex2",
       "japanese": "{先月|せんげつ}の{残業時間|ざんぎょうじかん}は{四十時間|よんじゅうじかん}だった。",
       "english": "Last month's overtime was 40 hours.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "27558_zangyoujikan_ex3",
       "japanese": "{法律|ほうりつ}で{月|つき}の{残業時間|ざんぎょうじかん}に{上限|じょうげん}が{定|さだ}められている。",
       "english": "The law sets an upper limit on monthly overtime hours.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {残業|ざんぎょう} (overtime) + {時間|じかん} (hours, time). A central topic in discussions of Japanese working conditions and work-style reform ({働|はたら}き{方改革|かたかいかく}).\n\nCOMMON COLLOCATIONS:\n- {残業時間|ざんぎょうじかん}が{長|なが}い: have long overtime hours\n- {残業時間|ざんぎょうじかん}を{減|へ}らす: to reduce overtime hours\n- {残業時間|ざんぎょうじかん}の{上限|じょうげん}: cap on overtime\n- {月|つき}の{残業時間|ざんぎょうじかん}: monthly overtime hours\n\nCULTURAL CONTEXT:\nJapanese labor law caps overtime at 45 hours per month and 360 hours per year in principle, with stricter limits introduced by the 2019 work-style reform. Excessive overtime is associated with the social problem of {過労死|かろうし} (death from overwork).\n\nSIMILAR WORDS:\n- {残業|ざんぎょう}: overtime work (the activity itself)\n- {残業代|ざんぎょうだい}: overtime pay\n- {労働時間|ろうどうじかん}: working hours (total)",
+  "notes": "Compound of {残業|ざんぎょう} (overtime) + {時間|じかん} (hours, time). A central topic in discussions of Japanese working conditions and work-style reform ({働|はたら}き{方改革|かたかいかく}).\n\nCOMMON COLLOCATIONS:\n- {残業時間|ざんぎょうじかん}が{長|なが}い: have long overtime hours\n- {残業時間|ざんぎょうじかん}を{減|へ}らす: to reduce overtime hours\n- {残業時間|ざんぎょうじかん}の{上限|じょうげん}: cap on overtime\n- {月|つき}の{残業時間|ざんぎょうじかん}: monthly overtime hours\n\nCULTURAL NOTE:\nJapanese labor law caps overtime at 45 hours per month and 360 hours per year in principle, with stricter limits introduced by the 2019 work-style reform. Excessive overtime is associated with the social problem of {過労死|かろうし} (death from overwork).\n\nSIMILAR WORDS:\n- {残業|ざんぎょう}: overtime work (the activity itself)\n- {残業代|ざんぎょうだい}: overtime pay\n- {労働時間|ろうどうじかん}: working hours (total)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10102_zangyoudai",
+      "reading": "ざんぎょうだい",
+      "headword": "{残業代|ざんぎょうだい}",
+      "label": "overtime pay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22198_roudoujikan",
+      "reading": "ろうどうじかん",
+      "headword": "{労働時間|ろうどうじかん}",
+      "label": "working hours"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["work"],
+      "politeness": "plain",
+      "semantic": [
+        "work"
+      ],
       "domain": []
     },
     "created": "2026-05-14T01:41:20Z",
-    "modified": "2026-05-14T01:41:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "01835_shouchisuru",
   "headword": "{承知|しょうち}する",
   "reading": "しょうちする",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "consent, understanding",
   "conjugation": {
     "type": "suru",
@@ -154,10 +154,32 @@
     }
   ],
   "notes": "{承知|しょうち}する means to understand, acknowledge, or consent. It is a formal word, common in business and polite communication.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- No standard intransitive pair\n- Pattern: [noun]を{承知|しょうち}する\n\nCOMMON EXPRESSIONS:\n- {承知|しょうち}しました: Understood/Certainly (formal acknowledgment)\n- {承知|しょうち}⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧: knowingly, with full awareness\n- ご{承知|しょうち}⟦の→の：09472_no⟧⟦{通|とお}り→通り：01475_toori⟧: as you know\n- ⟦{無理|むり}→無理：01558_muri⟧を{承知|しょうち}で: knowing it's unreasonable (but asking anyway)\n\nPOLITENESS LEVELS (\"I understand\"):\n- ⟦わかりました→分かる：00463_wakaru⟧: standard polite\n- ⟦{了解|りょうかい}→了解：05091_ryoukai⟧しました: acknowledged (common but debated in business)\n- {承知|しょうち}しました: formal/business\n- ⟦かしこまりました→かしこまる：noentry⟧: very formal (service industry)\n\nREGISTER:\nPrimarily used in formal and business settings. In casual conversation, ⟦わかった→分かる：00463_wakaru⟧ or ⟦{了解|りょうかい}→了解：05091_ryoukai⟧ is more natural.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "keigo",
+      "target_id": "00463_wakaru",
+      "reading": "わかる",
+      "headword": "{分|わ}かる",
+      "label": "polite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20062_ryoushousuru",
+      "reading": "りょうしょうする",
+      "headword": "{了承|りょうしょう}する",
+      "label": "to consent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21992_ryoukaisuru",
+      "reading": "りょうかいする",
+      "headword": "{了解|りょうかい}する",
+      "label": "to understand"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:26:42Z",
-    "modified": "2026-05-17T14:07:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

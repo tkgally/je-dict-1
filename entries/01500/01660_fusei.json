@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "{不正|ふせい} refers to injustice, unfairness, or fraud.\n\nCOMMON PATTERNS:\n- {不正|ふせい}⟦{行為|こうい}→行為：10021_koui⟧ (fraudulent act)\n- {不正|ふせい}⟦アクセス→アクセス：10696_akusesu⟧ (unauthorized access)\n- {不正|ふせい}⟦{選挙|せんきょ}→選挙：03303_senkyo⟧ (election fraud)\n- {不正|ふせい}⟦を→を：00422_wo⟧⟦{働|はたら}く→働く：00503_hataraku⟧ (commit fraud)\n\nSIMILAR WORDS:\n- ⟦{不公平|ふこうへい}→不公平：16851_fukouhei⟧: unfairness (lack of equality)\n- {不正|ふせい}: injustice, fraud (illegal/improper)\n- ⟦{不法|ふほう}→不法：11361_fuhou⟧: illegal, unlawful\n\nANTONYM:\n- ⟦{公正|こうせい}→公正：01751_kousei⟧: justice, fairness",
+  "notes": "{不正|ふせい} refers to injustice, unfairness, or fraud.\n\nCOMMON PATTERNS:\n- {不正|ふせい}⟦{行為|こうい}→行為：10021_koui⟧ (fraudulent act)\n- {不正|ふせい}⟦アクセス→アクセス：10696_akusesu⟧ (unauthorized access)\n- {不正|ふせい}⟦{選挙|せんきょ}→選挙：03303_senkyo⟧ (election fraud)\n- {不正|ふせい}⟦を→を：00422_wo⟧⟦{働|はたら}く→働く：00503_hataraku⟧ (commit fraud)\n\nSIMILAR WORDS:\n- ⟦{不公平|ふこうへい}→不公平：16851_fukouhei⟧: unfairness (lack of equality)\n- {不正|ふせい}: injustice, fraud (illegal/improper)\n- ⟦{不法|ふほう}→不法：11361_fuhou⟧: illegal, unlawful\n- ⟦{公正|こうせい}→公正：01751_kousei⟧: justice, fairness",
   "cross_references": [
     {
       "type": "antonym",
@@ -93,11 +93,67 @@
       "reading": "ふこうへい",
       "headword": "{不公平|ふこうへい}",
       "label": "unfairness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11361_fuhou",
+      "reading": "ふほう",
+      "headword": "{不法|ふほう}",
+      "label": "illegal, unlawful"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07052_koumeiseidai",
+      "reading": "こうめいせいだい",
+      "headword": "{公明正大|こうめいせいだい}",
+      "label": "fair and square"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22573_fugi",
+      "reading": "ふぎ",
+      "headword": "{不義|ふぎ}",
+      "label": "disloyalty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24520_fuhinkou",
+      "reading": "ふひんこう",
+      "headword": "{不品行|ふひんこう}",
+      "label": "misconduct"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24561_fukousei",
+      "reading": "ふこうせい",
+      "headword": "{不公正|ふこうせい}",
+      "label": "unfair"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26236_hiseiki",
+      "reading": "ひせいき",
+      "headword": "{非正規|ひせいき}",
+      "label": "non-regular"
+    },
+    {
+      "type": "related",
+      "target_id": "27052_oshokujiken",
+      "reading": "おしょくじけん",
+      "headword": "{汚職事件|おしょくじけん}",
+      "label": "corruption case"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29054_akuji",
+      "reading": "あくじ",
+      "headword": "{悪事|あくじ}",
+      "label": "wrongdoing"
     }
   ],
   "metadata": {
     "created": "2026-01-09T11:57:15Z",
-    "modified": "2026-05-16T15:13:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

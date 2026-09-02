@@ -3,7 +3,7 @@
   "headword": "支払い済み",
   "reading": "しはらいずみ",
   "romaji": "shiharaizumi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "paid; already paid; payment completed",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "30038_shiharaizumi_ex1",
       "japanese": "この{請求書|せいきゅうしょ}は{支払|しはら}い{済|ず}みだ。",
       "english": "This invoice has been paid.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30038_shiharaizumi_ex2",
       "japanese": "{支払|しはら}い{済|ず}みの{領収書|りょうしゅうしょ}。",
       "english": "A receipt marked as paid.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,53 @@
       "id": "30038_shiharaizumi_ex3",
       "japanese": "{料金|りょうきん}はすでに{支払|しはら}い{済|ず}みなので{追加|ついか}の{請求|せいきゅう}はない。",
       "english": "The fee has already been paid, so there will be no additional charge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{済|ず}み is a suffix meaning \"finished, already done,\" attached to many nouns and verb stems.\n\nCOMMON COLLOCATIONS:\n- {支払|しはら}い{済|ず}みの{請求書|せいきゅうしょ}: paid invoice\n- {支払|しはら}い{済|ず}みマーク: \"paid\" stamp\n\nSIMILAR WORDS:\n- {未払|みばら}い: unpaid — the antonym\n- {入金済|にゅうきんず}み: payment received — the same state seen from the recipient's side",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "18029_mibarai",
+      "reading": "みばらい",
+      "headword": "{未払|みばら}い",
+      "label": "unpaid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30049_nyuukinzumi",
+      "reading": "にゅうきんずみ",
+      "headword": "{入金|にゅうきん}{済|ず}み",
+      "label": "payment received"
+    },
+    {
+      "type": "related",
+      "target_id": "15440_hassouzumi",
+      "reading": "はっそうずみ",
+      "headword": "{発送済|はっそうず}み",
+      "label": "shipped"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["money"],
+      "politeness": "plain",
+      "semantic": [
+        "money"
+      ],
       "domain": []
     },
     "created": "2026-07-22T12:20:02Z",
-    "modified": "2026-07-22T12:20:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

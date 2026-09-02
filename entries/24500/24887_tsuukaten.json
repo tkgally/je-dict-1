@@ -22,7 +22,9 @@
       "id": "24887_tsuukaten_ex1",
       "japanese": "マラソンの{通過点|つうかてん}でタイムを{確認|かくにん}した。",
       "english": "I checked my time at the checkpoint in the marathon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "24887_tsuukaten_ex2",
       "japanese": "{登山|とざん}ルートの{通過点|つうかてん}に{目印|めじるし}を{付|つ}けた。",
       "english": "I marked the waypoints along the climbing route.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "24887_tsuukaten_ex3",
       "japanese": "{台風|たいふう}の{通過点|つうかてん}となる{地域|ちいき}では{警戒|けいかい}が{必要|ひつよう}だ。",
       "english": "Areas in the path of the typhoon need to be on alert.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "24887_tsuukaten_ex4",
       "japanese": "この{優勝|ゆうしょう}はまだ{通過点|つうかてん}に{過|す}ぎない。",
       "english": "This championship is merely a milestone along the way.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "24887_tsuukaten_ex5",
       "japanese": "{卒業|そつぎょう}は{人生|じんせい}の{一|ひと}つの{通過点|つうかてん}だ。",
       "english": "Graduation is just one milestone in life.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,51 @@
       "id": "24887_tsuukaten_ex6",
       "japanese": "{彼|かれ}にとってこの{試合|しあい}は{通過点|つうかてん}に{過|す}ぎず、{本当|ほんとう}の{目標|もくひょう}はオリンピックだ。",
       "english": "For him, this match is just a stepping stone — his real goal is the Olympics.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {通過|つうか} (passing through) + {点|てん} (point). Very frequently used in the figurative sense, especially in sports interviews and motivational contexts, where athletes describe victories as merely {通過点|つうかてん} on the way to a larger goal.\n\nCOMMON COLLOCATIONS:\n- {通過点|つうかてん}に{過|す}ぎない: merely a passing point; just a milestone\n- {人生|じんせい}の{通過点|つうかてん}: a milestone in life\n- まだ{通過点|つうかてん}だ: it's still just a waypoint\n- {通過点|つうかてん}として: as a stepping stone\n\nSIMILAR WORDS:\n- {節目|ふしめ}: turning point; milestone — emphasizes the boundary between stages\n- マイルストーン: milestone (loanword) — used mainly in project management\n- {中間|ちゅうかん}{地点|ちてん}: midpoint; halfway point — specifically the middle of a route or process\n- {踏|ふ}み{台|だい}: stepping stone — more negative connotation of being used by someone",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16847_fushime",
+      "reading": "ふしめ",
+      "headword": "{節目|ふしめ}",
+      "label": "turning point"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09327_fumidai",
+      "reading": "ふみだい",
+      "headword": "{踏|ふ}み{台|だい}",
+      "label": "stepping stone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24900_keikaten",
+      "reading": "けいかてん",
+      "headword": "{経過点|けいかてん}",
+      "label": "intermediate point"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-04-21T11:25:55Z",
-    "modified": "2026-04-21T11:25:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

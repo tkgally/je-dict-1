@@ -3,7 +3,7 @@
   "headword": "{波立|なみだ}つ",
   "reading": "なみだつ",
   "romaji": "namidatsu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to ripple; to become choppy; to be disturbed",
   "definitions": [
     {
@@ -79,8 +79,24 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY:\nIntransitive ({自動詞|じどうし}). Compound of {波|なみ} (wave) + {立|た}つ (to rise, to stand).\n\nASPECT:\nThe ている form often describes the resulting state ('is rippling, is choppy') rather than a one-time action.\n\nCOMMON COLLOCATIONS:\n- {水面|すいめん}が{波立|なみだ}つ: the water's surface ripples\n- {海|うみ}が{波立|なみだ}つ: the sea becomes choppy\n- {心|こころ}が{波立|なみだ}つ: one's heart is troubled\n- {波立|なみだ}たない{湖|みずうみ}: a calm, unrippled lake\n\nSIMILAR WORDS:\n- {荒|あ}れる: to be rough (sea); to become wild — stronger; implies storm-level disturbance\n- ざわめく: to stir; to murmur — used for crowds or a rustling atmosphere",
+  "notes": "TRANSITIVITY:\nIntransitive ({自動詞|じどうし}). Compound of {波|なみ} (wave) + {立|た}つ (to rise, to stand).\n\nASPECT (ている):\nThe ている form often describes the resulting state ('is rippling, is choppy') rather than a one-time action.\n\nCOMMON COLLOCATIONS:\n- {水面|すいめん}が{波立|なみだ}つ: the water's surface ripples\n- {海|うみ}が{波立|なみだ}つ: the sea becomes choppy\n- {心|こころ}が{波立|なみだ}つ: one's heart is troubled\n- {波立|なみだ}たない{湖|みずうみ}: a calm, unrippled lake\n\nSIMILAR WORDS:\n- {荒|あ}れる: to be rough (sea); to become wild — stronger; implies storm-level disturbance\n- ざわめく: to stir; to murmur — used for crowds or a rustling atmosphere",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04577_areru",
+      "reading": "あれる",
+      "headword": "{荒|あ}れる",
+      "label": "to be rough"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07923_zawameku",
+      "reading": "ざわめく",
+      "headword": "ざわめく",
+      "label": "to stir"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -98,7 +114,7 @@
       "domain": []
     },
     "created": "2026-05-31T02:08:49Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

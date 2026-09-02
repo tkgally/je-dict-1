@@ -17,7 +17,9 @@
       "id": "21154_norikumiin_ex1",
       "japanese": "{乗組員|のりくみいん}は{全員|ぜんいん}{無事|ぶじ}だった。",
       "english": "All crew members were safe.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21154_norikumiin_ex2",
       "japanese": "{船|ふね}の{乗組員|のりくみいん}が{救助|きゅうじょ}された。",
       "english": "The ship's crew members were rescued.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "21154_norikumiin_ex3",
       "japanese": "{宇宙|うちゅう}ステーションには{現在|げんざい}６{人|にん}の{乗組員|のりくみいん}が{滞在|たいざい}している。",
       "english": "There are currently six crew members aboard the space station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {乗|の}り{組|く}む (to be on board as crew) + {員|いん} (member). Primarily used for ship and spacecraft crews. For airplane cabin crew, {客室乗務員|きゃくしつじょうむいん} (flight attendant) is more specific.\n\nCOMMON COLLOCATIONS:\n- {船|ふね}の{乗組員|のりくみいん}: ship's crew\n- {乗組員|のりくみいん}{全員|ぜんいん}: all crew members\n- {乗組員|のりくみいん}{名簿|めいぼ}: crew roster\n\nSIMILAR WORDS:\n- {船員|せんいん}: sailor; seaman — specifically for ship crew\n- {搭乗員|とうじょういん}: person on board — often used for military aircraft crew\n- {客室乗務員|きゃくしつじょうむいん}: flight attendant — cabin crew on commercial flights\n- クルー: crew — borrowed from English, used casually",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22495_senin",
+      "reading": "せんいん",
+      "headword": "{船員|せんいん}",
+      "label": "sailor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18095_kyakushitsujoumuin",
+      "reading": "きゃくしつじょうむいん",
+      "headword": "{客室|きゃくしつ}{乗務員|じょうむいん}",
+      "label": "flight attendant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23493_suifu",
+      "reading": "すいふ",
+      "headword": "{水夫|すいふ}",
+      "label": "sailor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["travel"]
+      "semantic": [
+        "travel"
+      ]
     },
     "created": "2026-03-31T21:37:03Z",
-    "modified": "2026-03-31T21:37:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

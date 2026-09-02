@@ -3,7 +3,7 @@
   "headword": "{陰干|かげぼ}し",
   "reading": "かげぼし",
   "romaji": "kageboshi",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "drying in the shade; air-drying out of direct sunlight",
   "definitions": [
     {
@@ -44,11 +44,34 @@
     }
   ],
   "notes": "Refers to drying laundry or other items in the shade rather than in direct sunlight. This method is used to protect delicate fabrics, dark colors, and materials that degrade under UV light.\n\nCOMMON COLLOCATIONS:\n- {陰干|かげぼ}しにする: to dry in the shade\n- {陰干|かげぼ}しが{必要|ひつよう}: shade drying is necessary\n- {風通|かぜとお}しの{良|よ}い{場所|ばしょ}で{陰干|かげぼ}し: shade-dry in a well-ventilated spot\n\nSIMILAR WORDS:\n- {天日干|てんぴぼ}し: sun drying (the opposite — drying in direct sunlight)\n- {部屋干|へやぼ}し: indoor drying (drying laundry inside the house)\n- {室内干|しつないぼ}し: indoor drying (slightly more formal synonym of {部屋干|へやぼ}し)\n\nUSAGE:\nOften seen on care labels for clothing as an instruction. The symbol for shade drying on Japanese laundry tags is a square with two diagonal lines in the upper left corner.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21115_tenpiboshi",
+      "reading": "てんぴぼし",
+      "headword": "{天日干|てんぴぼ}し",
+      "label": "sun drying (the opposite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29859_heyaboshi",
+      "reading": "へやぼし",
+      "headword": "部屋干し",
+      "label": "indoor drying"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19247_shitsunaiboshi",
+      "reading": "しつないぼし",
+      "headword": "{室内干|しつないぼ}し",
+      "label": "indoor drying"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "clothing"
@@ -60,7 +83,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-30T14:19:38Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -3,7 +3,7 @@
   "headword": "{要求|ようきゅう}する",
   "reading": "ようきゅうする",
   "romaji": "youkyuusuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to demand; to request; to require",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "{要求|ようきゅう}する is a strong, assertive word that implies insistence or entitlement. It is used for formal demands, labor negotiations, legal claims, and system requirements. In everyday conversation, {頼|たの}む or お{願|ねが}いする are preferred for polite requests.\n\nUSAGE:\n- ～を{要求|ようきゅう}する: to demand something\n- ～に～を{要求|ようきゅう}する: to demand something from someone\n- ～が{要求|ようきゅう}される: something is required (passive)\n\nCOMMON COLLOCATIONS:\n- {賃上|ちんあ}げを{要求|ようきゅう}する: to demand a raise\n- {謝罪|しゃざい}を{要求|ようきゅう}する: to demand an apology\n- {説明|せつめい}を{要求|ようきゅう}する: to demand an explanation\n- {損害|そんがい}{賠償|ばいしょう}を{要求|ようきゅう}する: to demand damages\n- {要求|ようきゅう}に{応|おう}じる: to comply with a demand\n\nSIMILAR WORDS:\n- {求|もと}める: to seek; to request — less forceful, broader in usage, includes searching for things\n- {請求|せいきゅう}する: to bill; to claim — focuses on monetary claims or formal billing\n- {依頼|いらい}する: to request; to commission — polite and business-appropriate, lacks the forceful tone of {要求|ようきゅう}",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02316_motomeru",
+      "reading": "もとめる",
+      "headword": "{求|もと}める",
+      "label": "to seek"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26988_seikyuusuru",
+      "reading": "せいきゅうする",
+      "headword": "{請求|せいきゅう}する",
+      "label": "to bill"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02594_irai",
+      "reading": "いらい",
+      "headword": "{依頼|いらい}",
+      "label": "to request"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +76,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "communication",
         "work"
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T16:14:30Z",
-    "modified": "2026-04-25T16:14:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

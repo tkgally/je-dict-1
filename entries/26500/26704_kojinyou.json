@@ -3,7 +3,7 @@
   "headword": "{個人用|こじんよう}",
   "reading": "こじんよう",
   "romaji": "kojinyou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "for personal use; for individual use",
   "definitions": [
     {
@@ -53,6 +53,34 @@
       "type": "related",
       "relationship": "related",
       "target_id": "26703_ippanyou"
+    },
+    {
+      "type": "related",
+      "target_id": "13148_gyoumuyou",
+      "reading": "ぎょうむよう",
+      "headword": "{業務用|ぎょうむよう}",
+      "label": "for commercial/business use"
+    },
+    {
+      "type": "related",
+      "target_id": "16544_kateiyou",
+      "reading": "かていよう",
+      "headword": "{家庭用|かていよう}",
+      "label": "for household use"
+    },
+    {
+      "type": "related",
+      "target_id": "21529_kyouyou",
+      "reading": "きょうよう",
+      "headword": "{共用|きょうよう}",
+      "label": "for shared use"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22267_jibunsenyou",
+      "reading": "じぶんせんよう",
+      "headword": "{自分専用|じぶんせんよう}",
+      "label": "for one's own exclusive use"
     }
   ],
   "schema_version": "2.0",
@@ -63,11 +91,13 @@
         "noun",
         "adjective-no"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "general"
       ]
     },
     "created": "2026-05-04T14:11:23Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

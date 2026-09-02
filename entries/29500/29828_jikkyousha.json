@@ -17,7 +17,9 @@
       "id": "29828_jikkyousha_ex1",
       "japanese": "{人気|にんき}の{実況者|じっきょうしゃ}を{見|み}る。",
       "english": "I watch a popular streamer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29828_jikkyousha_ex2",
       "japanese": "ゲーム{実況者|じっきょうしゃ}になりたい。",
       "english": "I want to become a game streamer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "29828_jikkyousha_ex3",
       "japanese": "その{実況者|じっきょうしゃ}は{話|はな}し{方|かた}が{面白|おもしろ}くて{人気|にんき}がある。",
       "english": "That commentator is popular because of their entertaining way of talking.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{実況|じっきょう} (live commentary, play-by-play) + {者|しゃ} (person). Most often refers to game streamers on platforms like YouTube, though it can also mean a sports or event commentator.\n\nRELATED WORDS:\n- {実況|じっきょう}: live commentary\n- ゲーム{実況|じっきょう}: game-play streaming with commentary\n- {配信者|はいしんしゃ}: streamer, broadcaster (general)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16573_haishinsha",
+      "reading": "はいしんしゃ",
+      "headword": "{配信者|はいしんしゃ}",
+      "label": "streamer, broadcaster"
+    },
+    {
+      "type": "related",
+      "target_id": "29829_buichuubaa",
+      "reading": "ぶいちゅーばー",
+      "headword": "Vチューバー",
+      "label": "VTuber"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["occupation"],
-      "domain": ["internet"]
+      "politeness": "plain",
+      "semantic": [
+        "occupation"
+      ],
+      "domain": [
+        "internet"
+      ]
     },
     "created": "2026-07-14T06:18:33Z",
-    "modified": "2026-07-14T06:18:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

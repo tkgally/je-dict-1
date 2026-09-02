@@ -17,7 +17,9 @@
       "id": "23575_omizu_ex1",
       "japanese": "お{水|みず}をください。",
       "english": "Water, please. / Could I have some water?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23575_omizu_ex2",
       "japanese": "お{水|みず}のおかわりはいかがですか。",
       "english": "Would you like a refill of water?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23575_omizu_ex3",
       "japanese": "{薬|くすり}をお{水|みず}と{一緒|いっしょ}に{飲|の}んでください。",
       "english": "Please take the medicine with water.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,45 @@
       "id": "23575_omizu_ex4",
       "japanese": "レストランに{入|はい}るとすぐにお{水|みず}とおしぼりを{出|だ}してくれた。",
       "english": "As soon as we entered the restaurant, they brought us water and a hot towel.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The honorific prefix お + {水|みず}. Semantically identical to {水|みず} but with a softer, more polite tone. This お-prefixed form is so well established that some speakers use it by default in everyday conversation.\n\nUSAGE:\n- Standard in restaurants and cafes on both the customer and staff sides: お{水|みず}をください ('some water, please'), お{水|みず}のおかわり ('a water refill').\n- Common in women's speech and when speaking with children, conveying gentleness or care.\n- Often seen on printed menus and service-industry signage, where お{水|みず} is the default term.\n- In some contexts — especially in healthcare or etiquette — お{水|みず} specifically implies cold water, contrasting with お{湯|ゆ} ('hot water').\n\nCOMMON COLLOCATIONS:\n- お{水|みず}をください: water, please\n- お{水|みず}を{一杯|いっぱい}: a glass of water\n- お{水|みず}を{飲|の}む: to drink water\n- お{水|みず}を{注|つ}ぐ: to pour water\n- お{水|みず}のおかわり: a refill of water\n\nSIMILAR WORDS:\n- {水|みず}: water — the plain, unmarked form; appropriate in most contexts\n- お{湯|ゆ}: hot water — paired with お{水|みず} in service language\n- お{冷|ひ}や: cold water (a more traditional service term, still used in some restaurants)\n- ミネラルウォーター: mineral/bottled water\n\nREGISTER:\n- Polite and neutral-to-feminine. Men also use it freely, especially in restaurants or when speaking politely.\n- Removing the お makes the speech more direct: {水|みず}をくれ ('gimme some water') is blunt and male-coded.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02518_oyu",
+      "reading": "おゆ",
+      "headword": "お{湯|ゆ}",
+      "label": "hot water"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26667_mineraruwootaa",
+      "reading": "みねらるうぉーたー",
+      "headword": "ミネラルウォーター",
+      "label": "mineral/bottled water"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "polite",
-      "semantic": ["food", "daily-life"]
+      "semantic": [
+        "food",
+        "daily-life"
+      ]
     },
     "created": "2026-04-12T17:11:04Z",
-    "modified": "2026-04-12T17:11:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

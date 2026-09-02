@@ -17,7 +17,9 @@
       "id": "19705_ryakuzu_ex1",
       "japanese": "{略図|りゃくず}を{描|か}く。",
       "english": "To draw a rough sketch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19705_ryakuzu_ex2",
       "japanese": "{道順|みちじゅん}の{略図|りゃくず}をメモに{書|か}いた。",
       "english": "I drew a rough map of the directions on a note.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "19705_ryakuzu_ex3",
       "japanese": "{報告書|ほうこくしょ}には{建物|たてもの}の{配置|はいち}を{示|しめ}す{略図|りゃくず}が{添付|てんぷ}されていた。",
       "english": "A simplified diagram showing the building layout was attached to the report.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {略|りゃく} (abbreviation, simplification) + {図|ず} (diagram, drawing). A {略図|りゃくず} shows only the essential elements and omits details, unlike a detailed blueprint or technical drawing.\n\nCOMMON COLLOCATIONS:\n- {略図|りゃくず}を{描|か}く — to draw a rough sketch\n- {略図|りゃくず}を{示|しめ}す — to show a simplified diagram\n- {配置|はいち}{略図|りゃくず} — simplified layout diagram\n- {周辺|しゅうへん}{略図|りゃくず} — rough area map\n\nSIMILAR WORDS:\n- {見取|みと}り{図|ず} — floor plan, sketch map; often specifically a plan view of a room or building\n- {概略図|がいりゃくず} — schematic diagram; more technical term\n- スケッチ — sketch; loanword, can refer to artistic sketches as well",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14836_mitorizu",
+      "reading": "みとりず",
+      "headword": "{見取|みと}り{図|ず}",
+      "label": "floor plan, sketch map"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22554_sukecchi",
+      "reading": "すけっち",
+      "headword": "スケッチ",
+      "label": "sketch"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["art"]
+      "semantic": [
+        "art"
+      ]
     },
     "created": "2026-03-26T14:26:55Z",
-    "modified": "2026-03-26T14:26:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

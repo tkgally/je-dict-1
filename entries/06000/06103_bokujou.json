@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{牧場|ぼくじょう} can also be read as ⟦{牧場|まきば}→牧場：noentry⟧ in some contexts, though {牧場|ぼくじょう} is more common. ⟦{牧場|まきば}→牧場：noentry⟧ has a more poetic or traditional feel.\n\nCOMMON PATTERNS:\n・{牧場|ぼくじょう}⟦で→で：00502_de⟧⟦{働|はたら}く→働く：00503_hataraku⟧ (work on a ranch)\n・{牧場|ぼくじょう}⟦を→を：00422_wo⟧⟦{経営|けいえい}→経営：02740_keiei⟧⟦する→する：00392_suru⟧ (run a ranch)\n・⟦{観光|かんこう}→観光：00173_kankou⟧{牧場|ぼくじょう} (tourist ranch)\n\nREGIONAL NOTE:\nHokkaido is famous for its large {牧場|ぼくじょう}, particularly for dairy farming (⟦{酪農|らくのう}→酪農：06104_rakunou⟧).\n\nRELATED TERMS:\n・⟦{牧畜|ぼくちく}→牧畜：20195_bokuchiku⟧ (livestock farming)\n・⟦{放牧|ほうぼく}→放牧：20606_houboku⟧ (grazing)\n・⟦{酪農|らくのう}→酪農：06104_rakunou⟧ (dairy farming)",
+  "notes": "USAGE:\n{牧場|ぼくじょう} can also be read as ⟦{牧場|まきば}→牧場：noentry⟧ in some contexts, though {牧場|ぼくじょう} is more common. ⟦{牧場|まきば}→牧場：noentry⟧ has a more poetic or traditional feel.\n\nCOMMON PATTERNS:\n- {牧場|ぼくじょう}⟦で→で：00502_de⟧⟦{働|はたら}く→働く：00503_hataraku⟧ (work on a ranch)\n- {牧場|ぼくじょう}⟦を→を：00422_wo⟧⟦{経営|けいえい}→経営：02740_keiei⟧⟦する→する：00392_suru⟧ (run a ranch)\n- ⟦{観光|かんこう}→観光：00173_kankou⟧{牧場|ぼくじょう} (tourist ranch)\n\nREGIONAL NOTE:\nHokkaido is famous for its large {牧場|ぼくじょう}, particularly for dairy farming (⟦{酪農|らくのう}→酪農：06104_rakunou⟧).\n\nRELATED WORDS:\n- ⟦{牧畜|ぼくちく}→牧畜：20195_bokuchiku⟧ (livestock farming)\n- ⟦{放牧|ほうぼく}→放牧：20606_houboku⟧ (grazing)\n- ⟦{酪農|らくのう}→酪農：06104_rakunou⟧ (dairy farming)",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,46 @@
       "headword": "{酪農|らくのう}",
       "label": "dairy farming",
       "target_id": "06104_rakunou"
+    },
+    {
+      "type": "related",
+      "target_id": "20195_bokuchiku",
+      "reading": "ぼくちく",
+      "headword": "{牧畜|ぼくちく}",
+      "label": "livestock farming"
+    },
+    {
+      "type": "related",
+      "target_id": "20606_houboku",
+      "reading": "ほうぼく",
+      "headword": "{放牧|ほうぼく}",
+      "label": "grazing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20586_noujou",
+      "reading": "のうじょう",
+      "headword": "{農場|のうじょう}",
+      "label": "farm"
+    },
+    {
+      "type": "related",
+      "target_id": "22339_rakunouka",
+      "reading": "らくのうか",
+      "headword": "{酪農家|らくのうか}",
+      "label": "dairy farmer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26824_nouen",
+      "reading": "のうえん",
+      "headword": "{農園|のうえん}",
+      "label": "farm"
     }
   ],
   "metadata": {
     "created": "2026-01-17T03:13:44Z",
-    "modified": "2026-08-25T00:21:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -35,7 +35,7 @@
     },
     {
       "id": "29135_bijuu_ex3",
-      "japanese": "{鼻汁|びじゅう}の{検査|けんさ}で{インフルエンザ|いんふるえんざ}が{陽性|ようせい}と{判明|はんめい}した。",
+      "japanese": "{鼻汁|びじゅう}の{検査|けんさ}でインフルエンザが{陽性|ようせい}と{判明|はんめい}した。",
       "english": "A nasal discharge test revealed a positive result for influenza.",
       "sense_numbers": [
         1
@@ -46,6 +46,15 @@
   ],
   "notes": "Medical and formal equivalent of {鼻水|はなみず}. Found in medical records, clinical descriptions, and formal writing.\n\nCOMMON COLLOCATIONS:\n- {鼻汁|びじゅう}が{出|で}る: nasal discharge appears\n- {黄色|きいろ}い{鼻汁|びじゅう}: yellow nasal discharge (sign of infection)\n- {水様性|すいようせい}{鼻汁|びじゅう}: watery nasal discharge\n- {鼻汁|びじゅう}{検査|けんさ}: nasal discharge test\n\nSIMILAR WORDS:\n- {鼻水|はなみず}: runny nose — the standard everyday term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04430_hanamizu",
+      "reading": "はなみず",
+      "headword": "{鼻水|はなみず}",
+      "label": "runny nose"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +62,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "body-internal"
       ],
@@ -62,6 +71,6 @@
       ]
     },
     "created": "2026-06-11T11:40:29Z",
-    "modified": "2026-06-11T11:47:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

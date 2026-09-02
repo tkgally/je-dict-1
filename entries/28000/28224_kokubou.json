@@ -17,7 +17,9 @@
       "id": "28224_kokubou_ex1",
       "japanese": "{国防|こくぼう}は{重要|じゅうよう}な{課題|かだい}だ。",
       "english": "National defense is an important issue.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28224_kokubou_ex2",
       "japanese": "この{国|くに}は{国防|こくぼう}に{多|おお}くの{予算|よさん}を{使|つか}っている。",
       "english": "This country spends a large budget on national defense.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "28224_kokubou_ex3",
       "japanese": "{国防|こくぼう}{政策|せいさく}をめぐって、{議会|ぎかい}で{激|はげ}しい{議論|ぎろん}が{続|つづ}いた。",
       "english": "Heated debate over national defense policy continued in parliament.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n- {国防|こくぼう}{予算|よさん}: defense budget\n- {国防|こくぼう}{政策|せいさく}: defense policy\n- {国防|こくぼう}{力|りょく}: defense capability\n\nSIMILAR WORDS:\n- {防衛|ぼうえい}: defense — the more common official term (as in {防衛|ぼうえい}{省|しょう}, the Ministry of Defense); {国防|こくぼう} is somewhat more abstract or rhetorical\n- {軍事|ぐんじ}: military affairs — focuses on armed forces and warfare rather than the protective goal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09783_bouei",
+      "reading": "ぼうえい",
+      "headword": "{防衛|ぼうえい}",
+      "label": "defense"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14392_gunji",
+      "reading": "ぐんじ",
+      "headword": "{軍事|ぐんじ}",
+      "label": "military affairs"
+    },
+    {
+      "type": "related",
+      "target_id": "05788_anzenhoshou",
+      "reading": "あんぜんほしょう",
+      "headword": "{安全保障|あんぜんほしょう}",
+      "label": "security"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-27T04:08:18Z",
-    "modified": "2026-05-27T04:08:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

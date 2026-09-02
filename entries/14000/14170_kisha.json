@@ -19,7 +19,9 @@
       "english": "A reporter came to do an interview.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14170_kisha_ex2",
@@ -27,7 +29,9 @@
       "english": "The company president apologized at the press conference.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14170_kisha_ex3",
@@ -35,21 +39,70 @@
       "english": "She has been active in the field as a newspaper reporter for many years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{記者|きしゃ} is the most general term for a reporter or journalist. It is a homophone of {汽車|きしゃ} (steam train), which has a completely different meaning. The compound {記者|きしゃ}{会見|かいけん} (press conference) is extremely common in news. Types of {記者|きしゃ} include {新聞|しんぶん}{記者|きしゃ} (newspaper reporter), {特派|とくは}{記者|きしゃ} (correspondent), and フリー{記者|きしゃ} (freelance journalist).\n\nCOMMON COLLOCATIONS:\n- {記者|きしゃ}{会見|かいけん}: press conference\n- {新聞|しんぶん}{記者|きしゃ}: newspaper reporter\n- {記者|きしゃ}クラブ: press club\n- {記者|きしゃ}{団|だん}: press corps",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00227_kiji",
+      "reading": "きじ",
+      "headword": "{記事|きじ}",
+      "label": "article, news story"
+    },
+    {
+      "type": "related",
+      "target_id": "01639_shinbunsha",
+      "reading": "しんぶんしゃ",
+      "headword": "{新聞社|しんぶんしゃ}",
+      "label": "newspaper company"
+    },
+    {
+      "type": "related",
+      "target_id": "03872_masukomi",
+      "reading": "ますこみ",
+      "headword": "マスコミ",
+      "label": "mass media"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04348_hissha",
+      "reading": "ひっしゃ",
+      "headword": "{筆者|ひっしゃ}",
+      "label": "writer, author"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17419_tokuhain",
+      "reading": "とくはいん",
+      "headword": "{特派員|とくはいん}",
+      "label": "correspondent, special envoy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27959_repootaa",
+      "reading": "れぽーたー",
+      "headword": "レポーター",
+      "label": "reporter (on-scene)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T01:53:22Z",
-    "modified": "2026-02-28T01:53:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     }
   }
 }

@@ -17,7 +17,9 @@
       "id": "19161_seika_ex1",
       "japanese": "{盛夏|せいか}の{候|こう}、いかがお{過|す}ごしですか。",
       "english": "In this midsummer season, how are you doing?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": "A formal seasonal greeting used in letters."
     },
@@ -25,7 +27,9 @@
       "id": "19161_seika_ex2",
       "japanese": "{盛夏|せいか}を{迎|むか}え、{気温|きおん}が{三十五度|さんじゅうごど}を{超|こ}える{日|ひ}が{続|つづ}いている。",
       "english": "With midsummer upon us, temperatures exceeding 35 degrees have continued.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "19161_seika_ex3",
       "japanese": "{盛夏|せいか}にはビールの{売|う}り{上|あ}げが{伸|の}びる。",
       "english": "Beer sales increase in midsummer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A literary word often seen in seasonal greetings ({時候|じこう}の{挨拶|あいさつ}) and written correspondence. {盛夏|せいか}の{候|こう} is a set phrase used in formal summer letters. Compare with {真夏|まなつ} (midsummer — more colloquial), {猛暑|もうしょ} (fierce heat), and {酷暑|こくしょ} (extreme heat). A homophone of {成果|せいか} (result), {聖火|せいか} (sacred flame), and {製菓|せいか} (confectionery), but written with different kanji.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19623_banka",
+      "reading": "ばんか",
+      "headword": "{晩夏|ばんか}",
+      "label": "late summer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27793_manatsu",
+      "reading": "まなつ",
+      "headword": "{真夏|まなつ}",
+      "label": "midsummer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-season"],
-      "style": ["written"]
+      "semantic": [
+        "time-season"
+      ],
+      "style": [
+        "written"
+      ]
     },
     "created": "2026-03-24T11:26:01Z",
-    "modified": "2026-03-24T11:26:01Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

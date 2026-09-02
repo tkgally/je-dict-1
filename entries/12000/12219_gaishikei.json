@@ -3,7 +3,7 @@
   "id": "12219_gaishikei",
   "headword": "{外資系|がいしけい}",
   "reading": "がいしけい",
-  "part_of_speech": "noun / pre-noun adjectival",
+  "part_of_speech": "noun, pre-noun adjectival",
   "gloss": "foreign-affiliated, foreign-owned",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "I work at a foreign-affiliated company.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12219_gaishikei_ex2",
@@ -27,7 +29,9 @@
       "english": "Foreign-owned hotels have a different level of service.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12219_gaishikei_ex3",
@@ -35,22 +39,39 @@
       "english": "She changed jobs from a Japanese company to a foreign-affiliated consulting firm.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Composed of {外資|がいし} (foreign capital) + {系|けい} (affiliated, type).\n\nCOMMON COLLOCATIONS:\n- {外資系|がいしけい}{企業|きぎょう}: foreign-affiliated company\n- {外資系|がいしけい}{銀行|ぎんこう}: foreign bank\n- {外資系|がいしけい}ホテル: foreign-owned hotel\n- {外資系|がいしけい}コンサルティング: foreign consulting firm\n\nUSAGE:\nIn Japanese business culture, {外資系|がいしけい} companies are associated with higher salaries, performance-based evaluation, more flexible work styles, and English-language requirements. The term is frequently used in job-hunting contexts. Contrasts with {日系|にっけい} (Japanese-affiliated) and {国内|こくない}{企業|きぎょう} (domestic company).",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16650_nikkeikigyou",
+      "reading": "にっけいきぎょう",
+      "headword": "{日系企業|にっけいきぎょう}",
+      "label": "Japanese company (overseas)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T13:08:20Z",
-    "modified": "2026-02-20T13:08:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "pre-noun-adjectival"],
+      "pos": [
+        "noun",
+        "pre-noun-adjectival"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

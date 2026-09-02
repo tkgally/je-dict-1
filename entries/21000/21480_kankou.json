@@ -3,7 +3,7 @@
   "headword": "{敢行|かんこう}",
   "reading": "かんこう",
   "romaji": "kankou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "bold execution; carrying out decisively; daring to do",
   "conjugation": {
     "type": "suru",
@@ -135,6 +135,29 @@
     }
   ],
   "notes": "Expresses carrying out an action boldly despite difficulties, risks, or opposition. The {敢|かん} character means \"to dare,\" giving this word a strong sense of determination and courage.\n\nUSAGE:\n- Always implies that the action involved some risk, difficulty, or opposition\n- More formal and dramatic than {実行|じっこう}する\n- Common in news reporting and written Japanese\n- Often used with plans, operations, or reforms that face resistance\n\nCOMMON COLLOCATIONS:\n- {計画|けいかく}を{敢行|かんこう}する: to carry out a plan boldly\n- ストライキを{敢行|かんこう}する: to carry out a strike\n- {改革|かいかく}を{敢行|かんこう}する: to push through reforms\n- {強行|きょうこう}{敢行|かんこう}: forced execution\n\nSIMILAR WORDS:\n- {実行|じっこう}: execution, carrying out — neutral; does not imply risk or boldness\n- {断行|だんこう}: decisive action — similar nuance of determination, often used for cutting through obstacles\n- {強行|きょうこう}: forcing through — implies pushing ahead despite opposition, more forceful than {敢行|かんこう}",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03274_jikkou",
+      "reading": "じっこう",
+      "headword": "{実行|じっこう}",
+      "label": "execution, carrying out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15618_dankou",
+      "reading": "だんこう",
+      "headword": "{断行|だんこう}",
+      "label": "decisive action"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12559_kyoukou",
+      "reading": "きょうこう",
+      "headword": "{強行|きょうこう}",
+      "label": "forcing through"
+    }
+  ],
   "metadata": {
     "entry_id": "21480_kankou",
     "schema_version": "2.0",
@@ -146,6 +169,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
@@ -155,6 +179,6 @@
       "usage": [],
       "verb_class": "suru"
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

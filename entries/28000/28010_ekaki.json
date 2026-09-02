@@ -17,7 +17,9 @@
       "id": "28010_ekaki_ex1",
       "japanese": "{彼|かれ}は{絵描|えか}きだ。",
       "english": "He is a painter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28010_ekaki_ex2",
       "japanese": "{子供|こども}のころから{絵描|えか}きになりたかった。",
       "english": "I wanted to be a painter ever since I was a child.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "28010_ekaki_ex3",
       "japanese": "{売|う}れない{絵描|えか}きとして{長|なが}い{間|あいだ}{苦労|くろう}したそうだ。",
       "english": "Apparently he struggled for a long time as a painter who couldn't sell his work.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from {絵|え} (picture) + {描|か}き (drawing, from {描|か}く). A plain, slightly informal word for a painter.\n\nCOMMON COLLOCATIONS:\n- {絵描|えか}きになる: to become a painter\n- {売|う}れない{絵描|えか}き: a struggling / unsuccessful painter\n- {絵描|えか}き{歌|うた}: a drawing song (a children's song that guides drawing a picture)\n\nSIMILAR WORDS:\n- {画家|がか}: painter — more formal and dignified, used for established artists\n- {芸術家|げいじゅつか}: artist — broader, covers all the arts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02583_gaka",
+      "reading": "がか",
+      "headword": "{画家|がか}",
+      "label": "painter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14979_geijutsuka",
+      "reading": "げいじゅつか",
+      "headword": "{芸術家|げいじゅつか}",
+      "label": "artist"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["person", "occupation"],
+      "politeness": "plain",
+      "semantic": [
+        "person",
+        "occupation"
+      ],
       "domain": []
     },
     "created": "2026-05-24T03:09:30Z",
-    "modified": "2026-05-24T03:09:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "04776_hensai",
   "headword": "{返済|へんさい}",
   "reading": "へんさい",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "repayment",
   "conjugation": {
     "type": "suru",
@@ -141,11 +141,67 @@
       "headword": "{融資|ゆうし}",
       "label": "financing",
       "target_id": "04775_yuushi"
+    },
+    {
+      "type": "related",
+      "target_id": "03203_shakkin",
+      "reading": "しゃっきん",
+      "headword": "{借金|しゃっきん}",
+      "label": "debt"
+    },
+    {
+      "type": "related",
+      "target_id": "14950_fusai",
+      "reading": "ふさい",
+      "headword": "{負債|ふさい}",
+      "label": "liabilities"
+    },
+    {
+      "type": "related",
+      "target_id": "06579_roon",
+      "reading": "ろーん",
+      "headword": "ローン",
+      "label": "loan"
+    },
+    {
+      "type": "related",
+      "target_id": "07557_kariire",
+      "reading": "かりいれ",
+      "headword": "{借入|かりいれ}",
+      "label": "borrowing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08008_bensai",
+      "reading": "べんさい",
+      "headword": "{弁済|べんさい}",
+      "label": "repayment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08009_shoukan",
+      "reading": "しょうかん",
+      "headword": "{償還|しょうかん}",
+      "label": "redemption"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16528_haraimodosu",
+      "reading": "はらいもどす",
+      "headword": "{払|はら}い{戻|もど}す",
+      "label": "to refund"
+    },
+    {
+      "type": "related",
+      "target_id": "18945_kansai",
+      "reading": "かんさい",
+      "headword": "{完済|かんさい}",
+      "label": "full repayment"
     }
   ],
   "metadata": {
     "created": "2026-01-16T00:24:24Z",
-    "modified": "2026-06-02T16:35:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

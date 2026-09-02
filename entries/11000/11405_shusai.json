@@ -2,7 +2,7 @@
   "id": "11405_shusai",
   "headword": "{主催|しゅさい}",
   "reading": "しゅさい",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "hosting, sponsoring (an event)",
   "conjugation": {
     "type": "suru",
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "{主催|しゅさい} means to host, sponsor, or organize an event. It emphasizes the role of being the primary organizer who plans and runs the event, not merely a participant or attendee.\n\nCOMMON COLLOCATIONS:\n- {主催|しゅさい}する: to host/organize\n- {主催|しゅさい}{者|しゃ}: organizer, host (person)\n- {主催|しゅさい}{団体|だんたい}: organizing body/group\n- {主催|しゅさい}{側|がわ}: the hosting side\n\nPATTERN:\nThe organizer is marked with が: 「Xが{主催|しゅさい}するY」 means \"Y hosted by X.\" The event can also appear as a direct object: 「Xが{大会|たいかい}を{主催|しゅさい}する」.\n\nSIMILAR WORDS:\n- {開催|かいさい}: holding/staging an event (focuses on the event taking place, not who organized it)\n- {主催|しゅさい}: hosting/organizing (focuses on the organizer's role)",
-  "cross_references": [],
+  "notes": "{主催|しゅさい} means to host, sponsor, or organize an event. It emphasizes the role of being the primary organizer who plans and runs the event, not merely a participant or attendee.\n\nCOMMON COLLOCATIONS:\n- {主催|しゅさい}する: to host/organize\n- {主催|しゅさい}{者|しゃ}: organizer, host (person)\n- {主催|しゅさい}{団体|だんたい}: organizing body/group\n- {主催|しゅさい}{側|がわ}: the hosting side\n\nCOMMON PATTERNS:\nThe organizer is marked with が: 「Xが{主催|しゅさい}するY」 means \"Y hosted by X.\" The event can also appear as a direct object: 「Xが{大会|たいかい}を{主催|しゅさい}する」.\n\nSIMILAR WORDS:\n- {開催|かいさい}: holding/staging an event (focuses on the event taking place, not who organized it)\n- {主催|しゅさい}: hosting/organizing (focuses on the organizer's role)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10457_kaisai",
+      "reading": "かいさい",
+      "headword": "{開催|かいさい}",
+      "label": "holding/staging an event"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18790_kyousai",
+      "reading": "きょうさい",
+      "headword": "{共催|きょうさい}",
+      "label": "co-hosting"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T07:35:11Z",
-    "modified": "2026-06-30T18:44:39Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

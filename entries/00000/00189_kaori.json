@@ -43,11 +43,54 @@
       ]
     }
   ],
-  "notes": "{香|かお}り refers specifically to pleasant smells—fragrances from flowers, perfume, coffee, etc.\n\nCOMMON PATTERNS:\n- ⟦いい→いい：00118_ii⟧{香|かお}り⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧: there's a nice fragrance\n- {香|かお}り⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧: to enjoy the fragrance\n- {香|かお}り⟦が→が：00051_ga⟧⟦{漂|ただよ}う→漂う：04356_tadayou⟧: fragrance wafts through the air\n- ⟦ほのかな→ほのか：noentry⟧{香|かお}り: faint fragrance\n\nSIMILAR WORDS:\n- {香|かお}り: fragrance (always pleasant)\n- ⟦{匂|にお}い→匂い：00874_nioi⟧: smell (can be good or bad)\n- ⟦{臭|にお}い→臭い：noentry⟧: stench (usually bad)\n- ⟦{臭|くさ}い→臭い：01133_kusai⟧: stinky (adjective)\n\nRELATED:\n- ⟦{香水|こうすい}→香水：00247_kousui⟧: perfume\n- ⟦{香|かお}る→香る：14841_kaoru⟧ (verb): to be fragrant\n- ⟦アロマ→アロマ：noentry⟧: aroma",
-  "cross_references": [],
+  "notes": "{香|かお}り refers specifically to pleasant smells—fragrances from flowers, perfume, coffee, etc.\n\nCOMMON PATTERNS:\n- ⟦いい→いい：00118_ii⟧{香|かお}り⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧: there's a nice fragrance\n- {香|かお}り⟦を→を：00422_wo⟧⟦{楽|たの}しむ→楽しむ：01203_tanoshimu⟧: to enjoy the fragrance\n- {香|かお}り⟦が→が：00051_ga⟧⟦{漂|ただよ}う→漂う：04356_tadayou⟧: fragrance wafts through the air\n- ⟦ほのかな→ほのか：noentry⟧{香|かお}り: faint fragrance\n\nSIMILAR WORDS:\n- {香|かお}り: fragrance (always pleasant)\n- ⟦{匂|にお}い→匂い：00874_nioi⟧: smell (can be good or bad)\n- ⟦{臭|にお}い→臭い：noentry⟧: stench (usually bad)\n- ⟦{臭|くさ}い→臭い：01133_kusai⟧: stinky (adjective)\n\nRELATED WORDS:\n- ⟦{香水|こうすい}→香水：00247_kousui⟧: perfume\n- ⟦{香|かお}る→香る：14841_kaoru⟧ (verb): to be fragrant\n- ⟦アロマ→アロマ：noentry⟧: aroma",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00874_nioi",
+      "reading": "におい",
+      "headword": "{匂|にお}い",
+      "label": "smell"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01133_kusai",
+      "reading": "くさい",
+      "headword": "{臭|くさ}い",
+      "label": "stinky"
+    },
+    {
+      "type": "related",
+      "target_id": "00247_kousui",
+      "reading": "こうすい",
+      "headword": "{香水|こうすい}",
+      "label": "perfume"
+    },
+    {
+      "type": "related",
+      "target_id": "14841_kaoru",
+      "reading": "かおる",
+      "headword": "{香|かお}る",
+      "label": "verb"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14622_fuumi",
+      "reading": "ふうみ",
+      "headword": "{風味|ふうみ}",
+      "label": "flavor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23058_kouki",
+      "reading": "こうき",
+      "headword": "{香気|こうき}",
+      "label": "fragrance"
+    }
+  ],
   "metadata": {
     "created": "2026-01-10T08:42:54Z",
-    "modified": "2026-05-09T19:34:33Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

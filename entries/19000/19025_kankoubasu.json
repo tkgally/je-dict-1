@@ -44,11 +44,40 @@
       ]
     }
   ],
-  "notes": "{観光|かんこう}バス is a sightseeing bus that takes tourists around scenic spots and attractions on a set route.\n\nFORMATION:\n{観光|かんこう} (sightseeing) + バス (bus).\n\nCOMMON COLLOCATIONS:\n- {観光|かんこう}バスに{乗|の}る: to ride a sightseeing bus\n- {観光|かんこう}バスツアー: sightseeing bus tour\n- {二階建|にかいだ}て{観光|かんこう}バス: double-decker sightseeing bus\n\nRELATED TERMS:\n- {路線|ろせん}バス: city bus (regular route)\n- {高速|こうそく}バス: highway bus\n- {夜行|やこう}バス: overnight bus\n- はとバス: Hato Bus (famous sightseeing bus company in Tokyo)",
-  "cross_references": [],
+  "notes": "{観光|かんこう}バス is a sightseeing bus that takes tourists around scenic spots and attractions on a set route.\n\nFORMS:\n{観光|かんこう} (sightseeing) + バス (bus).\n\nCOMMON COLLOCATIONS:\n- {観光|かんこう}バスに{乗|の}る: to ride a sightseeing bus\n- {観光|かんこう}バスツアー: sightseeing bus tour\n- {二階建|にかいだ}て{観光|かんこう}バス: double-decker sightseeing bus\n\nRELATED WORDS:\n- {路線|ろせん}バス: city bus (regular route)\n- {高速|こうそく}バス: highway bus\n- {夜行|やこう}バス: overnight bus\n- はとバス: Hato Bus (famous sightseeing bus company in Tokyo)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20398_rosenbasu",
+      "reading": "ろせんばす",
+      "headword": "{路線|ろせん}バス",
+      "label": "city bus"
+    },
+    {
+      "type": "related",
+      "target_id": "20782_kousokubasu",
+      "reading": "こうそくばす",
+      "headword": "{高速|こうそく}バス",
+      "label": "highway bus"
+    },
+    {
+      "type": "related",
+      "target_id": "22452_yakoubasu",
+      "reading": "やこうばす",
+      "headword": "{夜行|やこう}バス",
+      "label": "overnight bus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22719_kashikiribasu",
+      "reading": "かしきりばす",
+      "headword": "{貸切|かしきり}バス",
+      "label": "chartered bus"
+    }
+  ],
   "metadata": {
     "created": "2026-03-24T01:02:20Z",
-    "modified": "2026-07-26T09:39:42Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

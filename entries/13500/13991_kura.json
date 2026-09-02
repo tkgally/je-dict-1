@@ -19,7 +19,9 @@
       "english": "They renovated an old storehouse into a café.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13991_kura_ex2",
@@ -27,7 +29,9 @@
       "english": "A valuable hanging scroll was found inside the storehouse.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13991_kura_ex3",
@@ -35,21 +39,49 @@
       "english": "This sake brewery is a long-established business dating from the Edo period, still making sake using traditional methods.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nTraditional {蔵|くら} are iconic elements of Japanese architecture, especially in merchant towns. Many have been repurposed as restaurants, galleries, and museums. The word also appears in many compounds related to storage and production.\n\nCOMMON COMPOUNDS:\n- {酒蔵|さかぐら}: sake brewery/cellar\n- {米蔵|こめぐら}: rice storehouse\n- {蔵元|くらもと}: sake brewery owner/operator\n- {蔵書|ぞうしょ}: book collection, library holdings\n- {土蔵|どぞう}: earthen storehouse\n- お{蔵入|くらい}り: being shelved, put into storage (figuratively: a project being abandoned)",
-  "cross_references": [],
+  "notes": "USAGE:\nTraditional {蔵|くら} are iconic elements of Japanese architecture, especially in merchant towns. Many have been repurposed as restaurants, galleries, and museums. The word also appears in many compounds related to storage and production.\n\nCOMPOUNDS:\n- {酒蔵|さかぐら}: sake brewery/cellar\n- {米蔵|こめぐら}: rice storehouse\n- {蔵元|くらもと}: sake brewery owner/operator\n- {蔵書|ぞうしょ}: book collection, library holdings\n- {土蔵|どぞう}: earthen storehouse\n- お{蔵入|くらい}り: being shelved, put into storage (figuratively: a project being abandoned)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07372_monooki",
+      "reading": "ものおき",
+      "headword": "{物置|ものお}き",
+      "label": "storage shed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20219_naya",
+      "reading": "なや",
+      "headword": "{納屋|なや}",
+      "label": "barn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27250_houmotsuko",
+      "reading": "ほうもつこ",
+      "headword": "{宝物庫|ほうもつこ}",
+      "label": "treasure house"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T08:35:37Z",
-    "modified": "2026-02-27T08:35:37Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

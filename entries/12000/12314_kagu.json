@@ -19,7 +19,9 @@
       "english": "I bought new furniture.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12314_kagu_ex2",
@@ -27,7 +29,9 @@
       "english": "I replaced all the furniture when I moved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12314_kagu_ex3",
@@ -35,21 +39,42 @@
       "english": "This apartment comes furnished, so you can start living there right away.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{家具|かぐ} combines {家|か} (house) and {具|ぐ} (tool, implement).\n\nCOMMON COLLOCATIONS:\n- {家具|かぐ}を{買|か}う (to buy furniture)\n- {家具|かぐ}を{置|お}く (to place furniture)\n- {家具|かぐ}{付|つ}き (furnished — of apartments or rooms)\n- {家具|かぐ}{屋|や} (furniture store)\n- {家具|かぐ}を{組|く}み{立|た}てる (to assemble furniture)\n\nCOUNTER:\nFurniture is counted with {点|てん} (items) or {個|こ} (pieces). Large furniture may use {台|だい}.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20368_juuki",
+      "reading": "じゅうき",
+      "headword": "{什器|じゅうき}",
+      "label": "fixtures"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22335_interia",
+      "reading": "いんてりあ",
+      "headword": "インテリア",
+      "label": "interior"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T16:42:19Z",
-    "modified": "2026-02-20T16:42:19Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["furniture"]
+      "semantic": [
+        "furniture"
+      ]
     }
   }
 }

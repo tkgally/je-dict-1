@@ -17,7 +17,9 @@
       "id": "29522_koudou_ex1",
       "japanese": "{香道|こうどう}を{習|なら}う。",
       "english": "To study the way of incense.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29522_koudou_ex2",
       "japanese": "{香道|こうどう}では{香|こう}りを「{聞|き}く」と{言|い}う。",
       "english": "In the way of incense, smelling a fragrance is called 'listening' to it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "29522_koudou_ex3",
       "japanese": "{香道|こうどう}は{茶道|さどう}や{華道|かどう}と{並|なら}ぶ{日本|にほん}の{伝統芸道|でんとうげいどう}の{一|ひと}つだ。",
       "english": "The way of incense is one of Japan's traditional refined arts, alongside tea ceremony and flower arranging.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A refined art centered on appreciating the fragrance of {香木|こうぼく} (fragrant wood). Practitioners 'listen' ({聞|き}く) to scents rather than 'smell' them, and play identification games such as {組香|くみこう}.\n\nCOMMON COLLOCATIONS:\n- {香道|こうどう}を{習|なら}う: to learn the way of incense\n- {香|こう}を{聞|き}く: to 'listen' to (appreciate) incense\n\nSIMILAR WORDS:\n- {茶道|さどう}: tea ceremony — the way of tea, a sister refined art\n- {華道|かどう}: flower arranging — the way of flowers, the third of the three arts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04451_sadou",
+      "reading": "さどう",
+      "headword": "{茶道|さどう}",
+      "label": "tea ceremony"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04450_kadou",
+      "reading": "かどう",
+      "headword": "{華道|かどう}",
+      "label": "flower arranging"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29525_monkou",
+      "reading": "もんこう",
+      "headword": "{聞香|もんこう}",
+      "label": "appreciating incense"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["culture"],
+      "politeness": "plain",
+      "semantic": [
+        "culture"
+      ],
       "domain": []
     },
     "created": "2026-06-27T18:18:39Z",
-    "modified": "2026-06-27T18:18:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

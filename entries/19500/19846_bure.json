@@ -24,7 +24,9 @@
       "english": "The photo came out blurry from camera shake.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19846_bure_ex2",
@@ -32,7 +34,9 @@
       "english": "I bought a camera with image stabilization.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19846_bure_ex3",
@@ -40,7 +44,9 @@
       "english": "You can prevent blur by increasing the shutter speed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19846_bure_ex4",
@@ -48,7 +54,9 @@
       "english": "There is no wavering in the policy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "19846_bure_ex5",
@@ -56,7 +64,9 @@
       "english": "There is inconsistency in his statements.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "19846_bure_ex6",
@@ -64,21 +74,43 @@
       "english": "People who don't waver in their principles are trusted.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "The noun form of the verb ぶれる (to shake, to waver). Has both a concrete physical meaning and an abstract figurative meaning.\n\nCOMMON COLLOCATIONS:\n- {手|て}ぶれ — camera shake (from hand movement)\n- {手|て}ぶれ{補正|ほせい} — image stabilization\n- ぶれがない — consistent, unwavering\n- ぶれがある — inconsistent, wavering\n- {軸|じく}がぶれる — to lose one's center, to waver in principles\n- {方針|ほうしん}がぶれる — policy wavers\n\nUSAGE:\nSense 1 is very common in photography and videography. Sense 2 is widely used in politics, business, and everyday discussion of people's consistency. The phrase {軸|じく}がぶれない (not wavering from one's core) is a popular expression of praise.\n\nSIMILAR WORDS:\n- {揺|ゆ}れ — shaking, swaying (physical, e.g., earthquake)\n- {迷|まよ}い — hesitation, doubt (internal, psychological)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16137_yure",
+      "reading": "ゆれ",
+      "headword": "{揺|ゆ}れ",
+      "label": "shaking, swaying"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19437_mayoi",
+      "reading": "まよい",
+      "headword": "{迷|まよ}い",
+      "label": "hesitation, doubt"
+    }
+  ],
   "metadata": {
     "created": "2026-03-27T02:15:35Z",
-    "modified": "2026-03-27T02:15:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract", "technology"]
+      "semantic": [
+        "abstract",
+        "technology"
+      ]
     }
   }
 }

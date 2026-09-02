@@ -17,7 +17,9 @@
       "id": "27915_zoukibayashi_ex1",
       "japanese": "{家|いえ}の{裏|うら}に{雑木林|ぞうきばやし}がある。",
       "english": "There is a thicket behind the house.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27915_zoukibayashi_ex2",
       "japanese": "{子供|こども}のころ{雑木林|ぞうきばやし}でよく{虫|むし}を{捕|つか}まえた。",
       "english": "As a child I often caught insects in the copse.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "27915_zoukibayashi_ex3",
       "japanese": "{昔|むかし}の{里山|さとやま}には{薪|まき}を{取|と}るための{雑木林|ぞうきばやし}が{広|ひろ}がっていた。",
       "english": "The old rural hills were covered with mixed woods used for gathering firewood.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from {雑木|ぞうき} (assorted/miscellaneous trees) + {林|はやし} (woods), with rendaku making it ぞうきばやし. Refers to woods of mixed everyday trees, not a planted stand of a single timber species.\n\nCOMMON COLLOCATIONS:\n- {雑木林|ぞうきばやし}が{広|ひろ}がる: a thicket spreads out\n- {雑木林|ぞうきばやし}を{抜|ぬ}ける: pass through the woods\n\nSIMILAR WORDS:\n- {森|もり}: forest — larger and denser\n- {林|はやし}: woods — the general term; {雑木林|ぞうきばやし} specifies a mix of ordinary, unplanted trees",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02260_mori",
+      "reading": "もり",
+      "headword": "{森|もり}",
+      "label": "forest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23673_shizenrin",
+      "reading": "しぜんりん",
+      "headword": "{自然林|しぜんりん}",
+      "label": "natural forest"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["geography"],
+      "politeness": "plain",
+      "semantic": [
+        "geography"
+      ],
       "domain": []
     },
     "created": "2026-05-23T02:04:30Z",
-    "modified": "2026-05-23T02:04:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

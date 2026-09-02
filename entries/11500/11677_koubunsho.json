@@ -19,7 +19,9 @@
       "english": "Store official documents.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11677_koubunsho_ex2",
@@ -27,7 +29,9 @@
       "english": "Falsification of official documents is prohibited by law.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11677_koubunsho_ex3",
@@ -35,21 +39,44 @@
       "english": "The nation's official documents are preserved in the National Archives.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "An important legal and administrative term. Japan has a Public Records and Archives Management Act ({公文書|こうぶんしょ}{管理法|かんりほう}) governing how these documents are handled.\n\nCOMMON COLLOCATIONS:\n・{公文書|こうぶんしょ}{管理|かんり} (official document management)\n・{公文書館|こうぶんしょかん} (national archives)\n・{公文書|こうぶんしょ}の{開示|かいじ} (disclosure of official documents)\n・{公文書|こうぶんしょ}{偽造|ぎぞう} (forgery of official documents)\n\nDISTINCTIONS:\n・{公文書|こうぶんしょ}: official/government documents\n・{私文書|しぶんしょ}: private documents (contracts, letters, etc.)\n・{書類|しょるい}: documents in general (neutral, everyday term)",
-  "cross_references": [],
+  "notes": "An important legal and administrative term. Japan has a Public Records and Archives Management Act ({公文書|こうぶんしょ}{管理法|かんりほう}) governing how these documents are handled.\n\nCOMMON COLLOCATIONS:\n- {公文書|こうぶんしょ}{管理|かんり} (official document management)\n- {公文書館|こうぶんしょかん} (national archives)\n- {公文書|こうぶんしょ}の{開示|かいじ} (disclosure of official documents)\n- {公文書|こうぶんしょ}{偽造|ぎぞう} (forgery of official documents)\n\nSIMILAR WORDS:\n- {公文書|こうぶんしょ}: official/government documents\n- {私文書|しぶんしょ}: private documents (contracts, letters, etc.)\n- {書類|しょるい}: documents in general (neutral, everyday term)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24958_shibunsho",
+      "reading": "しぶんしょ",
+      "headword": "{私文書|しぶんしょ}",
+      "label": "private documents"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01103_shorui",
+      "reading": "しょるい",
+      "headword": "{書類|しょるい}",
+      "label": "documents in general"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T20:21:18Z",
-    "modified": "2026-02-17T20:21:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

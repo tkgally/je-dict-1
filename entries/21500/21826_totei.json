@@ -17,7 +17,9 @@
       "id": "21826_totei_ex1",
       "japanese": "{徒弟|とてい}{制度|せいど}で{技術|ぎじゅつ}を{学|まな}ぶ。",
       "english": "To learn skills through an apprenticeship system.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21826_totei_ex2",
       "japanese": "{彼|かれ}は{若|わか}い{頃|ころ}、{大工|だいく}の{徒弟|とてい}として{働|はたら}いていた。",
       "english": "When he was young, he worked as a carpenter's apprentice.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "21826_totei_ex3",
       "japanese": "かつての{職人|しょくにん}の{世界|せかい}では、{徒弟|とてい}は{何年|なんねん}もかけて{親方|おやかた}から{技|わざ}を{盗|ぬす}むように{覚|おぼ}えたものだ。",
       "english": "In the old world of craftsmen, apprentices would spend years learning the master's skills by watching and imitating.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {徒|と} (follower, companion) and {弟|てい} (younger person, disciple). A somewhat formal or literary word that evokes the traditional system of learning trades through direct apprenticeship under a master ({親方|おやかた} or {師匠|ししょう}).\n\nCOMMON COLLOCATIONS:\n- {徒弟|とてい}{制度|せいど}: apprenticeship system\n- {徒弟|とてい}{教育|きょういく}: apprentice training\n- {徒弟|とてい}として{働|はたら}く: to work as an apprentice\n- {徒弟|とてい}{関係|かんけい}: master-apprentice relationship\n\nSIMILAR WORDS:\n- {弟子|でし}: disciple, pupil — more general and common; used for martial arts, traditional arts, and academic mentorship\n- {見習|みなら}い: trainee, intern — modern term for someone learning on the job\n- {丁稚|でっち}: shop boy, young apprentice — historical term for child apprentices in merchant houses\n\nCULTURAL NOTE:\nThe {徒弟|とてい}{制度|せいど} was the primary way trades were transmitted in pre-modern Japan. While formal apprenticeship has declined, its spirit survives in fields like {寿司|すし} making, {落語|らくご}, and traditional crafts, where years of training under a master are still expected.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03986_deshi",
+      "reading": "でし",
+      "headword": "{弟子|でし}",
+      "label": "disciple, pupil"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18735_minarai",
+      "reading": "みならい",
+      "headword": "{見習|みなら}い",
+      "label": "trainee, intern"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work", "person"]
+      "semantic": [
+        "work",
+        "person"
+      ]
     },
     "created": "2026-04-03T18:28:37Z",
-    "modified": "2026-04-03T18:28:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

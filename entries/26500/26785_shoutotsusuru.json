@@ -3,7 +3,7 @@
   "headword": "{衝突|しょうとつ}する",
   "reading": "しょうとつする",
   "romaji": "shoutotsusuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to collide; to clash",
   "definitions": [
     {
@@ -80,7 +80,29 @@
     }
   ],
   "notes": "Can be used both as an intransitive verb (AとBが{衝突|しょうとつ}する) and with に to mark the object hit (Aに{衝突|しょうとつ}する). The noun form {衝突|しょうとつ} is equally common.\n\nCOMMON COLLOCATIONS:\n- {正面|しょうめん}{衝突|しょうとつ}: head-on collision\n- {衝突|しょうとつ}{事故|じこ}: collision accident\n- {意見|いけん}が{衝突|しょうとつ}する: opinions clash\n- {利害|りがい}が{衝突|しょうとつ}する: interests conflict\n- {衝突|しょうとつ}を{避|さ}ける: to avoid a collision/conflict\n\nSIMILAR WORDS:\n- ぶつかる: to bump into; to hit — everyday spoken word for physical collisions\n- {対立|たいりつ}する: to oppose; to be in opposition — emphasizes ongoing tension rather than a single clash\n- {激突|げきとつ}する: to crash violently — more dramatic; implies greater force",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02412_butsukaru",
+      "reading": "ぶつかる",
+      "headword": "ぶつかる",
+      "label": "to bump into"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22172_tairitsusuru",
+      "reading": "たいりつする",
+      "headword": "{対立|たいりつ}する",
+      "label": "to oppose"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13416_gekitotsu",
+      "reading": "げきとつ",
+      "headword": "{激突|げきとつ}",
+      "label": "to crash violently"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -97,7 +119,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T11:06:35Z",
-    "modified": "2026-05-05T11:06:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

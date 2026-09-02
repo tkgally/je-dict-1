@@ -3,7 +3,7 @@
   "headword": "{口|くち}だけ",
   "reading": "くちだけ",
   "romaji": "kuchidake",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, expression",
   "gloss": "all talk; lip service; empty words",
   "definitions": [
     {
@@ -55,7 +55,22 @@
     }
   ],
   "notes": "Very common colloquial expression used to criticize someone who talks big but doesn't deliver. Functions as a predicate (口だけだ), a modifier (口だけの人), or part of a larger phrase. The tone is always dismissive or critical.\n\nCOMMON COLLOCATIONS:\n- {口|くち}だけの{人|ひと}: person who is all talk\n- {口|くち}だけの{約束|やくそく}: empty promise\n- {口|くち}だけで{終|お}わる: to end up being just talk\n- {口|くち}だけじゃなく: not just words (but action too)\n\nSIMILAR WORDS:\n- {口先|くちさき}だけ: superficial words only — similar meaning, slightly more literary\n- {有言不実行|ゆうげんふじっこう}: saying but not doing — four-character compound; formal\n- {大口|おおぐち}を{叩|たた}く: to talk big — emphasizes boasting rather than inaction",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23027_kuchisakidake",
+      "reading": "くちさきだけ",
+      "headword": "{口先|くちさき}だけ",
+      "label": "superficial words only"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29158_kuchisakisanzun",
+      "reading": "くちさきさんずん",
+      "headword": "{口先|くちさき}{三寸|さんずん}",
+      "label": "smooth talk"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,6 +86,6 @@
       ]
     },
     "created": "2026-05-05T14:17:52Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{箱詰|はこづ}めする",
   "reading": "はこづめする",
   "romaji": "hakozumesuru",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to pack in a box; to box up",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,29 @@
   ],
   "notes": "Often used as a noun ({箱詰|はこづ}め) to describe boxed goods, especially food products sold as gifts.\n\nCOMMON COLLOCATIONS:\n- {箱詰|はこづ}めにする: to box up\n- {箱詰|はこづ}めの{果物|くだもの}: boxed fruit\n- {箱詰|はこづ}めギフト: boxed gift set\n- {箱詰|はこづ}め{作業|さぎょう}: packing work\n\nSIMILAR WORDS:\n- {梱包|こんぽう}する: to pack, package — more formal, used for shipping\n- {詰|つ}める: to pack, stuff — general verb for filling a container\n- {包装|ほうそう}する: to wrap, package — focuses on wrapping",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07937_konpou",
+      "reading": "こんぽう",
+      "headword": "{梱包|こんぽう}",
+      "label": "to pack, package"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02078_tsumeru",
+      "reading": "つめる",
+      "headword": "{詰|つ}める",
+      "label": "to pack, stuff"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17300_housousuru",
+      "reading": "ほうそうする",
+      "headword": "{包装|ほうそう}する",
+      "label": "to wrap, package"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +174,6 @@
       "verb_class": "suru"
     },
     "created": "2026-04-04T19:32:00Z",
-    "modified": "2026-04-04T19:32:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

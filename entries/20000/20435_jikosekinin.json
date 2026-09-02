@@ -17,7 +17,9 @@
       "id": "20435_jikosekinin_ex1",
       "japanese": "{投資|とうし}は{自己責任|じこせきにん}です。",
       "english": "Investing is at your own risk.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20435_jikosekinin_ex2",
       "japanese": "ここから{先|さき}は{自己責任|じこせきにん}でお{願|ねが}いします。",
       "english": "Beyond this point, proceed at your own risk.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "20435_jikosekinin_ex3",
       "japanese": "{海外|かいがい}で{危険|きけん}な{地域|ちいき}に{行|い}くのは{自己責任|じこせきにん}だという{意見|いけん}もある。",
       "english": "There are also opinions that traveling to dangerous areas overseas is a matter of personal responsibility.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {自己|じこ} (self) and {責任|せきにん} (responsibility). This concept became a major topic of public debate in Japan in 2004 when Japanese citizens were taken hostage in Iraq, and critics argued they should bear the consequences of traveling to a war zone.\n\nUSAGE:\nCommonly seen in investment disclaimers, legal warnings, and discussions about personal accountability. Often used adverbially with で: {自己責任|じこせきにん}で (at one's own risk). The term can carry a blaming nuance when directed at others.\n\nCOMMON COLLOCATIONS:\n- {自己責任|じこせきにん}で{行|おこな}う — to do at one's own risk\n- {自己責任|じこせきにん}{原則|げんそく} — principle of self-responsibility\n- {自己責任|じこせきにん}{論|ろん} — self-responsibility argument\n- {自己責任|じこせきにん}を{問|と}う — to hold someone personally responsible\n\nSIMILAR WORDS:\n- {責任|せきにん} — responsibility (general)\n- {自業自得|じごうじとく} — reaping what you sow (stronger negative nuance)\n- {連帯責任|れんたいせきにん} — collective responsibility (opposite concept)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04777_jigoujitoku",
+      "reading": "じごうじとく",
+      "headword": "{自業自得|じごうじとく}",
+      "label": "reaping what you sow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14835_rentaisekinin",
+      "reading": "れんたいせきにん",
+      "headword": "{連帯責任|れんたいせきにん}",
+      "label": "collective responsibility"
+    },
+    {
+      "type": "antonym",
+      "target_id": "22721_kyoudousekinin",
+      "reading": "きょうどうせきにん",
+      "headword": "{共同責任|きょうどうせきにん}",
+      "label": "joint responsibility"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["society", "law"]
+      "semantic": [
+        "society",
+        "law"
+      ]
     },
     "created": "2026-03-29T14:06:32Z",
-    "modified": "2026-03-29T14:06:32Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

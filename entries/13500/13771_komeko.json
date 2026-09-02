@@ -19,7 +19,9 @@
       "english": "To bake bread with rice flour.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13771_komeko_ex2",
@@ -27,7 +29,9 @@
       "english": "Rice flour is safe for people with wheat allergies.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13771_komeko_ex3",
@@ -35,21 +39,42 @@
       "english": "Recently, the variety of sweets and pasta made with rice flour has been increasing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{米粉|こめこ} has gained popularity as a gluten-free ingredient. In traditional Japanese sweets ({和菓子|わがし}), specific types of rice flour are used: {上新粉|じょうしんこ} (from non-glutinous rice) and {白玉粉|しらたまこ} (from glutinous rice).\n\nCOMMON COLLOCATIONS:\n- {米粉|こめこ}パン: rice flour bread\n- {米粉|こめこ}{麺|めん}: rice flour noodles\n- {米粉|こめこ}を{使|つか}った: made with rice flour\n- {米粉|こめこ}のお{菓子|かし}: rice flour sweets",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04922_komugiko",
+      "reading": "こむぎこ",
+      "headword": "{小麦粉|こむぎこ}",
+      "label": "wheat flour"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27277_sobako",
+      "reading": "そばこ",
+      "headword": "そば{粉|こ}",
+      "label": "buckwheat flour"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T03:12:59Z",
-    "modified": "2026-02-27T03:12:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

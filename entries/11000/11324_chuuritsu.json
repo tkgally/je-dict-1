@@ -2,7 +2,7 @@
   "id": "11324_chuuritsu",
   "headword": "{中立|ちゅうりつ}",
   "reading": "ちゅうりつ",
-  "part_of_speech": "noun / na-adjective",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "neutrality, neutral",
   "schema_version": "2.0",
   "definitions": [
@@ -19,7 +19,9 @@
       "english": "Maintain a neutral position.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11324_chuuritsu_ex2",
@@ -27,7 +29,9 @@
       "english": "I want to remain neutral on this issue.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11324_chuuritsu_ex3",
@@ -35,20 +39,56 @@
       "english": "Switzerland has maintained its status as a permanently neutral country throughout its long history.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{中立|ちゅうりつ} means staying impartial and not favoring either side.\n\nCOMMON COLLOCATIONS:\n- {中立|ちゅうりつ}を{保|たも}つ (maintain neutrality)\n- {中立|ちゅうりつ}の{立場|たちば} (neutral stance)\n- {中立|ちゅうりつ}{国|こく} (neutral country)\n- {永世|えいせい}{中立|ちゅうりつ}{国|こく} (permanently neutral country)\n- {中立|ちゅうりつ}{的|てき} (neutral, impartial — used as a na-adjective modifier)\n\nSometimes used critically to suggest someone is avoiding responsibility by not taking a clear position.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21021_kouseina",
+      "reading": "こうせいな",
+      "headword": "{公正|こうせい}な",
+      "label": "fair"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22986_mutouha",
+      "reading": "むとうは",
+      "headword": "{無党派|むとうは}",
+      "label": "nonpartisan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24382_kyakkan",
+      "reading": "きゃっかん",
+      "headword": "{客観|きゃっかん}",
+      "label": "objectivity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29692_nyuutoraru",
+      "reading": "にゅーとらる",
+      "headword": "ニュートラル",
+      "label": "neutral"
+    }
+  ],
   "metadata": {
     "created": "2026-02-15T22:43:29Z",
-    "modified": "2026-02-15T22:43:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

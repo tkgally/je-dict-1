@@ -17,7 +17,9 @@
       "id": "29194_nyuukansha_ex1",
       "japanese": "{今日|きょう}の{入館者|にゅうかんしゃ}は{千人|せんにん}を{超|こ}えた。",
       "english": "Today's visitors exceeded one thousand people.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29194_nyuukansha_ex2",
       "japanese": "{入館者|にゅうかんしゃ}は{受付|うけつけ}で{名前|なまえ}を{記入|きにゅう}してください。",
       "english": "Visitors, please write your name at the reception desk.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,39 @@
       "id": "29194_nyuukansha_ex3",
       "japanese": "その{美術館|びじゅつかん}は{開館|かいかん}から{一週間|いっしゅうかん}で{入館者|にゅうかんしゃ}が{一万人|いちまんにん}に{達|たっ}した。",
       "english": "That art museum reached ten thousand visitors within one week of opening.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Used in formal and institutional settings. The related compound {入館者数|にゅうかんしゃすう} (number of visitors) is very common in reports and announcements.\n\nCOMMON COLLOCATIONS:\n- {入館者|にゅうかんしゃ}{数|すう}: number of visitors\n- {入館者|にゅうかんしゃ}を{迎|むか}える: to receive visitors\n- {入館者|にゅうかんしゃ}{記録|きろく}: visitor record",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23179_raikansha",
+      "reading": "らいかんしゃ",
+      "headword": "{来館者|らいかんしゃ}",
+      "label": "visitor (to a museum, library, or facility)"
+    }
+  ],
   "metadata": {
     "created": "2026-06-12T13:42:34Z",
-    "modified": "2026-06-12T13:42:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["person", "building"],
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "person",
+        "building"
+      ],
       "domain": [],
       "vocabulary_tier": "general"
-    }
+    },
+    "vocabulary_tier": "general"
   }
 }

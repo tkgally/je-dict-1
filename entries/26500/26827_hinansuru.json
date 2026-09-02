@@ -3,7 +3,7 @@
   "headword": "{避難|ひなん}する",
   "reading": "ひなんする",
   "romaji": "hinansuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to evacuate; to take refuge; to flee to safety",
   "definitions": [
     {
@@ -55,7 +55,29 @@
     }
   ],
   "notes": "Used when people move to safety in response to danger, especially natural disasters. Japan's frequent earthquakes, typhoons, and tsunamis make this word extremely common in news broadcasts and emergency announcements.\n\nCOMMON COLLOCATIONS:\n- {避難|ひなん}{場所|ばしょ}: evacuation site\n- {避難|ひなん}{訓練|くんれん}: evacuation drill\n- {避難|ひなん}{指示|しじ}: evacuation order\n- {避難|ひなん}{経路|けいろ}: evacuation route\n- {緊急|きんきゅう}{避難|ひなん}: emergency evacuation\n\nSIMILAR WORDS:\n- {逃|に}げる: to escape, to run away — general fleeing, not necessarily to a designated safe place\n- {退避|たいひ}する: to take cover — more military/technical; moving away from immediate threat\n- {疎開|そかい}する: to evacuate (wartime) — specifically relocating from cities during war",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01151_nigeru",
+      "reading": "にげる",
+      "headword": "{逃|に}げる",
+      "label": "to escape, to run away"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20094_taihi",
+      "reading": "たいひ",
+      "headword": "{退避|たいひ}",
+      "label": "to take cover"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13589_sokai",
+      "reading": "そかい",
+      "headword": "{疎開|そかい}",
+      "label": "to evacuate"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,7 +93,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T13:04:12Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

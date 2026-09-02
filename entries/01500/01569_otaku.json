@@ -119,10 +119,32 @@
     }
   ],
   "notes": "お{宅|たく} is the polite form for referring to someone else's home. For your own home, use ⟦{家|うち}→うち：27540_uchi⟧ or うちの⟦{家|いえ}→家：00612_ie⟧.\n\nUSAGES:\n- {田中|たなか}さんのお{宅|たく}: Mr. Tanaka's home\n- お{宅|たく}は?: And you? / How about your place?\n- お{宅|たく}にお⟦{邪魔|じゃま}→邪魔：01610_jama⟧します: I'll visit your home (lit. disturb)\n\nSIMILAR WORDS:\n- ⟦{家|いえ}→家：00612_ie⟧: house (neutral)\n- ⟦{家|うち}→うち：27540_uchi⟧: home, my place (informal/humble)\n- ご⟦{自宅|じたく}→自宅：00129_jitaku⟧: (someone's) home (very formal)\n\nNote: オタク (written in katakana) is a different word meaning 'otaku/geek/enthusiast'.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00612_ie",
+      "reading": "いえ",
+      "headword": "{家|いえ}",
+      "label": "house"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27540_uchi",
+      "reading": "うち",
+      "headword": "うち",
+      "label": "home, my place"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24928_gojitaku",
+      "reading": "ごじたく",
+      "headword": "ご{自宅|じたく}",
+      "label": "(someone's) home"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:31:31Z",
-    "modified": "2026-06-10T17:34:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

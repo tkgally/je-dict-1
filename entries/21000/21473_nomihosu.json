@@ -3,7 +3,7 @@
   "headword": "{飲|の}み{干|ほ}す",
   "reading": "のみほす",
   "romaji": "nomihosu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to drink up; to drain; to finish a drink",
   "definitions": [
     {
@@ -45,6 +45,36 @@
     }
   ],
   "notes": "A compound verb formed from {飲|の}む (to drink) + {干|ほ}す (to dry out). The {干|ほ}す component adds the meaning of completely finishing or emptying a container of liquid.\n\nUSAGE:\n- Emphasizes drinking everything without leaving any behind\n- Often used with {一気|いっき}に (in one go) for dramatic effect\n- Can imply a bold or determined manner of drinking\n\nCOMMON COLLOCATIONS:\n- ビールを{飲|の}み{干|ほ}す: to drain a beer\n- {一気|いっき}に{飲|の}み{干|ほ}す: to chug; to drain in one gulp\n- {最後|さいご}の{一滴|いってき}まで{飲|の}み{干|ほ}す: to drink to the last drop\n- グラスを{飲|の}み{干|ほ}す: to empty a glass\n\nSIMILAR WORDS:\n- {飲|の}む: the basic verb for drinking; does not imply finishing\n- {飲|の}み{切|き}る: to drink completely; similar meaning but less vivid\n- がぶ{飲|の}みする: to gulp down; emphasizes the rough manner of drinking rather than completeness",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00322_nomu",
+      "reading": "のむ",
+      "headword": "{飲|の}む",
+      "label": "the basic verb for drinking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26965_nomikiru",
+      "reading": "のみきる",
+      "headword": "{飲|の}み{切|き}る",
+      "label": "to drink completely"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26470_hayanomi",
+      "reading": "はやのみ",
+      "headword": "{早飲|はやの}み",
+      "label": "quick drinking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28240_nomitsukusu",
+      "reading": "のみつくす",
+      "headword": "{飲|の}み{尽|つ}くす",
+      "label": "to drink up"
+    }
+  ],
   "metadata": {
     "entry_id": "21473_nomihosu",
     "schema_version": "2.0",
@@ -55,6 +85,7 @@
       "pos": [
         "verb-godan"
       ],
+      "politeness": "plain",
       "semantic": [
         "consumption"
       ],
@@ -62,7 +93,7 @@
       "usage": [],
       "verb_class": "godan-su"
     },
-    "modified": "2026-07-29T12:37:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

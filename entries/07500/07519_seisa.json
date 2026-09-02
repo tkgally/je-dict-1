@@ -2,7 +2,7 @@
   "id": "07519_seisa",
   "headword": "{精査|せいさ}",
   "reading": "せいさ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "close examination; careful scrutiny; thorough inspection",
   "conjugation": {
     "type": "suru",
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{精|せい} (detailed, precise) + {査|さ} (examine, investigate)\n\nCOMMON COLLOCATIONS:\n・{精査|せいさ}を{行|おこな}う - to conduct a close examination\n・{精査|せいさ}が{必要|ひつよう} - thorough examination is needed\n・{精査|せいさ}の{結果|けっか} - as a result of close examination\n・{精査|せいさ}{中|ちゅう} - under examination\n\nSIMILAR WORDS:\n・{検討|けんとう} - consideration, review (more general)\n・{調査|ちょうさ} - investigation, survey (broader scope)\n・{吟味|ぎんみ} - scrutiny, careful selection\n・{審査|しんさ} - examination, screening (often for approval)\n\nREGISTER:\nFormal. Common in business, academic, and government contexts.",
+  "notes": "ETYMOLOGY:\n{精|せい} (detailed, precise) + {査|さ} (examine, investigate)\n\nCOMMON COLLOCATIONS:\n- {精査|せいさ}を{行|おこな}う - to conduct a close examination\n- {精査|せいさ}が{必要|ひつよう} - thorough examination is needed\n- {精査|せいさ}の{結果|けっか} - as a result of close examination\n- {精査|せいさ}{中|ちゅう} - under examination\n\nSIMILAR WORDS:\n- {検討|けんとう} - consideration, review (more general)\n- {調査|ちょうさ} - investigation, survey (broader scope)\n- {吟味|ぎんみ} - scrutiny, careful selection\n- {審査|しんさ} - examination, screening (often for approval)\n\nREGISTER:\nFormal. Common in business, academic, and government contexts.",
   "cross_references": [
     {
       "type": "synonym",
@@ -145,11 +145,25 @@
       "reading": "ぎんみ",
       "headword": "{吟味|ぎんみ}",
       "label": "scrutiny, careful selection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03489_chousa",
+      "reading": "ちょうさ",
+      "headword": "{調査|ちょうさ}",
+      "label": "investigation, survey"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08375_shinsa",
+      "reading": "しんさ",
+      "headword": "{審査|しんさ}",
+      "label": "examination, screening"
     }
   ],
   "metadata": {
     "created": "2026-01-20T08:21:30Z",
-    "modified": "2026-06-30T00:18:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -158,6 +172,7 @@
         "verb-suru"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "general"
       ],

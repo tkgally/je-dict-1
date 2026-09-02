@@ -17,7 +17,9 @@
       "id": "23390_tokouhi_ex1",
       "japanese": "{会社|かいしゃ}が{渡航費|とこうひ}を{負担|ふたん}してくれた。",
       "english": "The company paid for my travel expenses.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23390_tokouhi_ex2",
       "japanese": "{奨学金|しょうがくきん}には{渡航費|とこうひ}も{含|ふく}まれている。",
       "english": "The scholarship also includes travel expenses.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23390_tokouhi_ex3",
       "japanese": "{円安|えんやす}で{渡航費|とこうひ}が{大幅|おおはば}に{上|あ}がってしまった。",
       "english": "Because of the weak yen, travel expenses have gone up dramatically.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,24 +47,58 @@
       "id": "23390_tokouhi_ex4",
       "japanese": "{渡航費|とこうひ}は{自己|じこ}{負担|ふたん}ですが、{現地|げんち}での{滞在費|たいざいひ}は{主催者側|しゅさいしゃがわ}が{支払|しはら}います。",
       "english": "You have to pay your own travel expenses, but the organizers will cover your living costs at the destination.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {渡航|とこう} (crossing overseas, traveling abroad) + {費|ひ} (expenses, cost). The morpheme {渡|と} means 'to cross' and {航|こう} means 'navigation / voyage,' so the word literally means 'crossing-voyage expenses.' Because of {渡航|とこう}'s specific nuance of going overseas by ship or plane, {渡航費|とこうひ} is normally reserved for international travel.\n\nCOMMON COLLOCATIONS:\n- {渡航費|とこうひ}を{負担|ふたん}する: to bear / cover travel expenses\n- {渡航費|とこうひ}を{支給|しきゅう}する: to provide travel expenses (as an allowance)\n- {渡航費|とこうひ}{自己|じこ}{負担|ふたん}: travel expenses at one's own cost\n- {渡航費|とこうひ}が{高騰|こうとう}する: (for) travel expenses to soar\n- {渡航費|とこうひ}を{工面|くめん}する: to scrape together the travel money\n\nSIMILAR WORDS:\n- {交通費|こうつうひ}: transportation expenses — the general word for travel costs, including commuting and domestic trips; not specifically tied to going abroad.\n- {旅費|りょひ}: travel expenses — a broader term covering all costs of a trip (transportation, lodging, meals); used for both domestic and overseas travel.\n- {航空券|こうくうけん}{代|だい}: airfare — specifically the ticket price, a narrower term than {渡航費|とこうひ}.\n- {出張費|しゅっちょうひ}: business-trip expenses — used when a company pays for an employee's work trip, whether domestic or international.\n- {滞在費|たいざいひ}: living / accommodation expenses during a stay — the usual counterpart, often paid on top of or in place of {渡航費|とこうひ}.\n\nREGISTER:\nSomewhat formal and written. Common in scholarship announcements, company travel policies, official announcements about overseas events, and news articles about international travel. In casual conversation, Japanese speakers are more likely to say {航空券|こうくうけん}{代|だい} or simply ''ticket''.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03056_koutsuuhi",
+      "reading": "こうつうひ",
+      "headword": "{交通費|こうつうひ}",
+      "label": "transportation expenses"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20646_ryohi",
+      "reading": "りょひ",
+      "headword": "{旅費|りょひ}",
+      "label": "travel expenses"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25964_shucchouhi",
+      "reading": "しゅっちょうひ",
+      "headword": "{出張費|しゅっちょうひ}",
+      "label": "business-trip expenses"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "domain": ["business"],
-      "semantic": ["money", "travel"]
+      "style": [
+        "written"
+      ],
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "money",
+        "travel"
+      ]
     },
     "created": "2026-04-12T00:52:52Z",
-    "modified": "2026-04-12T00:52:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

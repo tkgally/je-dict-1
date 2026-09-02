@@ -19,7 +19,9 @@
       "english": "I aim for the ends of the earth.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16372_saihate_ex2",
@@ -27,7 +29,9 @@
       "english": "This is the most remote place in Japan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16372_saihate_ex3",
@@ -35,22 +39,45 @@
       "english": "When I visited the lighthouse at the northernmost tip of Hokkaido, I truly felt like I had come to the edge of the world.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{最果|さいは}て combines {最|さい} (most, utmost) with {果|は}て (end, extremity). It has a literary, evocative quality and is often used in travel writing, poetry, and dramatic contexts.\n\nCOMMON COLLOCATIONS:\n- {世界|せかい}の{最果|さいは}て (the ends of the earth)\n- {最果|さいは}ての{地|ち} (the most remote land)\n- {最果|さいは}ての{駅|えき} (the most remote station)\n\nSIMILAR WORDS:\n- {果|は}て: end, extremity — simpler and less dramatic\n- {辺境|へんきょう}: frontier, remote region — more factual, used in geography and history\n- {僻地|へきち}: remote area, backwater — can carry a negative connotation of underdevelopment",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14355_henkyou",
+      "reading": "へんきょう",
+      "headword": "{辺境|へんきょう}",
+      "label": "frontier, remote region"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17059_hekichi",
+      "reading": "へきち",
+      "headword": "{僻地|へきち}",
+      "label": "remote area, backwater"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T02:37:30Z",
-    "modified": "2026-03-12T02:37:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"],
-      "style": ["literary"]
+      "semantic": [
+        "geography"
+      ],
+      "style": [
+        "literary"
+      ]
     }
   }
 }

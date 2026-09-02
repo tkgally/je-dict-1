@@ -17,7 +17,9 @@
       "id": "29329_sankakusui_ex1",
       "japanese": "この{置物|おきもの}は{三角錐|さんかくすい}の{形|かたち}だ。",
       "english": "This ornament is shaped like a triangular pyramid.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29329_sankakusui_ex2",
       "japanese": "{三角錐|さんかくすい}の{体積|たいせき}を{求|もと}めなさい。",
       "english": "Find the volume of the triangular pyramid.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,46 @@
       "id": "29329_sankakusui_ex3",
       "japanese": "{折|お}り{紙|がみ}できれいな{三角錐|さんかくすい}を{作|つく}るのは{意外|いがい}と{難|むずか}しい。",
       "english": "Making a neat triangular pyramid out of origami is surprisingly difficult.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {三角|さんかく} (triangle) + {錐|すい} (a pyramid or cone solid). A basic shape in school geometry.\n\nSIMILAR WORDS:\n- {円錐|えんすい}: cone — has a circular base\n- {四角錐|しかくすい}: square pyramid — has a square base\n- {角錐|かくすい}: pyramid — the general term for a solid with a polygonal base",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05550_ensui",
+      "reading": "えんすい",
+      "headword": "{円錐|えんすい}",
+      "label": "cone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23629_shikakusui",
+      "reading": "しかくすい",
+      "headword": "{四角錐|しかくすい}",
+      "label": "square pyramid"
+    }
+  ],
   "metadata": {
     "created": "2026-06-18T15:20:33Z",
-    "modified": "2026-06-18T15:20:33Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["science"],
-      "domain": ["academic"]
+      "politeness": "plain",
+      "semantic": [
+        "science"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

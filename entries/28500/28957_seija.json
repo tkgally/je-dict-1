@@ -17,7 +17,9 @@
       "id": "28957_seija_ex1",
       "japanese": "{正邪|せいじゃ}を{見極|みきわ}める。",
       "english": "To judge right from wrong.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28957_seija_ex2",
       "japanese": "{正邪|せいじゃ}の{判断|はんだん}は{難|むずか}しい。",
       "english": "Judging right and wrong is difficult.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28957_seija_ex3",
       "japanese": "{裁判所|さいばんしょ}は{法|ほう}に{基|もと}づいて{正邪|せいじゃ}を{判定|はんてい}する。",
       "english": "Courts determine right and wrong based on the law.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A formal, written-Japanese compound. In everyday speech, {善悪|ぜんあく} (good and evil) is more common.\n\nCOMMON COLLOCATIONS:\n- {正邪|せいじゃ}を{判断|はんだん}する: to judge right and wrong\n- {正邪|せいじゃ}を{見極|みきわ}める: to discern right from wrong\n- {正邪|せいじゃ}の{区別|くべつ}: the distinction between right and wrong\n\nSIMILAR WORDS:\n- {善悪|ぜんあく}: good and evil — more common, used in both speech and writing\n- {是非|ぜひ}: rights and wrongs; whether to do something — also means 'by all means' as an adverb",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05563_zenaku",
+      "reading": "ぜんあく",
+      "headword": "{善悪|ぜんあく}",
+      "label": "good and evil"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19460_zehi",
+      "reading": "ぜひ",
+      "headword": "{是非|ぜひ}",
+      "label": "rights and wrongs"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-06-08T04:06:16Z",
-    "modified": "2026-06-08T04:06:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{銃撃|じゅうげき}",
   "reading": "じゅうげき",
   "romaji": "juugeki",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "shooting; gunfire",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A news vocabulary word frequently encountered in media reports about crime, conflict, and military operations. Composed of {銃|じゅう} (gun) + {撃|げき} (strike/attack).\n\nCOMMON COLLOCATIONS:\n- {銃撃|じゅうげき}{事件|じけん}: shooting incident\n- {銃撃|じゅうげき}{音|おん}: sound of gunfire\n- {銃撃|じゅうげき}{戦|せん}: gun battle; firefight\n- {銃撃|じゅうげき}される: to be shot at\n- {銃撃|じゅうげき}を{受|う}ける: to come under fire\n\nSIMILAR WORDS:\n- {発砲|はっぽう}: discharge of a firearm — focuses on the single act of firing a gun, while {銃撃|じゅうげき} can imply sustained or targeted shooting\n- {射撃|しゃげき}: shooting (as a skill or sport) — often used for target practice and marksmanship, while {銃撃|じゅうげき} implies shooting at people or in a conflict\n- {狙撃|そげき}: sniping — specifically refers to shooting from a concealed position at a distance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16089_shageki",
+      "reading": "しゃげき",
+      "headword": "{射撃|しゃげき}",
+      "label": "shooting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17429_sogeki",
+      "reading": "そげき",
+      "headword": "{狙撃|そげき}",
+      "label": "sniping"
+    },
+    {
+      "type": "related",
+      "target_id": "19779_hougeki",
+      "reading": "ほうげき",
+      "headword": "{砲撃|ほうげき}",
+      "label": "shelling"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +87,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-07T11:13:25Z",
-    "modified": "2026-05-07T11:13:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

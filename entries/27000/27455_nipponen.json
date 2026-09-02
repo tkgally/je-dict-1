@@ -17,7 +17,9 @@
       "id": "27455_nipponen_ex1",
       "japanese": "{日本円|にっぽんえん}でお{支払|しはら}いください。",
       "english": "Please pay in Japanese yen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27455_nipponen_ex2",
       "japanese": "ドルを{日本円|にっぽんえん}に{両替|りょうがえ}した。",
       "english": "I exchanged dollars for Japanese yen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "27455_nipponen_ex3",
       "japanese": "{海外|かいがい}{送金|そうきん}の{場合|ばあい}、{日本円|にっぽんえん}{建|だ}てかドル{建|だ}てかを{選|えら}べる。",
       "english": "For overseas remittances, you can choose between yen-denominated or dollar-denominated.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {日本|にっぽん} (Japan) + {円|えん} (yen). Used when explicitly distinguishing Japanese yen from other currencies; in domestic everyday contexts, plain {円|えん} is sufficient. Also pronounced {にほんえん}, but {にっぽんえん} is more formal.\n\nCOMMON COLLOCATIONS:\n- {日本円|にっぽんえん}に{両替|りょうがえ}する: to exchange into yen\n- {日本円|にっぽんえん}{建|だ}て: yen-denominated\n- {日本円|にっぽんえん}{換算|かんさん}: yen conversion\n\nSIMILAR WORDS:\n- {円|えん}: yen — the base term, sufficient in domestic contexts\n- {ドル}: dollar\n- {ユーロ}: euro",
+  "notes": "Compound of {日本|にっぽん} (Japan) + {円|えん} (yen). Used when explicitly distinguishing Japanese yen from other currencies; in domestic everyday contexts, plain {円|えん} is sufficient. Also pronounced にほんえん, but にっぽんえん is more formal.\n\nCOMMON COLLOCATIONS:\n- {日本円|にっぽんえん}に{両替|りょうがえ}する: to exchange into yen\n- {日本円|にっぽんえん}{建|だ}て: yen-denominated\n- {日本円|にっぽんえん}{換算|かんさん}: yen conversion\n\nSIMILAR WORDS:\n- {円|えん}: yen — the base term, sufficient in domestic contexts\n- ドル: dollar\n- ユーロ: euro",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01554_doru",
+      "reading": "どる",
+      "headword": "ドル",
+      "label": "dollar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27956_yuuro",
+      "reading": "ゆーろ",
+      "headword": "ユーロ",
+      "label": "euro"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["money"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "money"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-05-12T04:10:44Z",
-    "modified": "2026-05-12T04:10:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

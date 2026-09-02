@@ -17,7 +17,9 @@
       "id": "25164_kajoushiyou_ex1",
       "japanese": "{農薬|のうやく}の{過剰使用|かじょうしよう}は{環境|かんきょう}に{悪|わる}い。",
       "english": "Overuse of pesticides is bad for the environment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25164_kajoushiyou_ex2",
       "japanese": "スマートフォンの{過剰使用|かじょうしよう}が{問題|もんだい}になっている。",
       "english": "Overuse of smartphones has become a problem.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,43 @@
       "id": "25164_kajoushiyou_ex3",
       "japanese": "{抗生物質|こうせいぶっしつ}の{過剰使用|かじょうしよう}は{耐性菌|たいせいきん}の{出現|しゅつげん}を{招|まね}く{恐|おそ}れがあると、{専門家|せんもんか}が{警告|けいこく}している。",
       "english": "Experts are warning that overuse of antibiotics may lead to the emergence of drug-resistant bacteria.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {過剰|かじょう} (excessive, surplus) and {使用|しよう} (use, usage). A formal term used in medical, environmental, and policy contexts to describe the harmful effects of using something beyond appropriate levels.\n\nCOMMON COLLOCATIONS:\n- {薬|くすり}の{過剰使用|かじょうしよう}: overuse of medication\n- {資源|しげん}の{過剰使用|かじょうしよう}: overuse of resources\n- {過剰使用|かじょうしよう}を{避|さ}ける: to avoid overuse\n- {過剰使用|かじょうしよう}による{弊害|へいがい}: adverse effects from overuse\n\nSIMILAR WORDS:\n- {乱用|らんよう}: abuse, misuse — implies irresponsible or improper use, often of drugs or authority\n- {使|つか}いすぎ: using too much — the casual, everyday equivalent\n- {過剰|かじょう}{摂取|せっしゅ}: excessive intake — specifically for food, drugs, or nutrients",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15259_ranyou",
+      "reading": "らんよう",
+      "headword": "{乱用|らんよう}",
+      "label": "abuse, misuse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21271_kajousesshu",
+      "reading": "かじょうせっしゅ",
+      "headword": "{過剰摂取|かじょうせっしゅ}",
+      "label": "excessive intake"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["abstract"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-04-23T12:38:00Z",
-    "modified": "2026-04-23T12:38:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

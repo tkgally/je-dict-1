@@ -17,7 +17,9 @@
       "id": "21926_honkyo_ex1",
       "japanese": "{本拠|ほんきょ}{地|ち}はどこですか。",
       "english": "Where is your home base?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21926_honkyo_ex2",
       "japanese": "そのチームは{大阪|おおさか}を{本拠|ほんきょ}{地|ち}としている。",
       "english": "That team is based in Osaka.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "21926_honkyo_ex3",
       "japanese": "{敵|てき}の{本拠|ほんきょ}を{攻|せ}め{落|お}とすのが{最終|さいしゅう}{目標|もくひょう}だ。",
       "english": "The final objective is to capture the enemy's stronghold.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers to the primary base or central location of an organization, team, or military force. Most commonly appears in the compound {本拠|ほんきょ}{地|ち} (home base, headquarters location).\n\nCOMMON COLLOCATIONS:\n- {本拠|ほんきょ}{地|ち}: home base, headquarters\n- {本拠|ほんきょ}を{置|お}く: to be based at, to have one's headquarters at\n- {本拠|ほんきょ}を{構|かま}える: to set up one's base\n\nUSAGE:\nWhile {本拠|ほんきょ} alone means \"base\" or \"headquarters,\" the compound {本拠|ほんきょ}{地|ち} is far more common in modern usage. Frequently used for sports teams' home grounds, companies' main offices, and historical military strongholds.\n\nSIMILAR WORDS:\n- {拠点|きょてん}: base, strongpoint — more general, can refer to any strategic location\n- {本部|ほんぶ}: headquarters — emphasizes the organizational center rather than the location",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05628_kyoten",
+      "reading": "きょてん",
+      "headword": "{拠点|きょてん}",
+      "label": "base, strongpoint"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00112_honbu",
+      "reading": "ほんぶ",
+      "headword": "{本部|ほんぶ}",
+      "label": "headquarters"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["location"]
+      "semantic": [
+        "location"
+      ]
     },
     "created": "2026-04-03T22:07:12Z",
-    "modified": "2026-04-03T22:07:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

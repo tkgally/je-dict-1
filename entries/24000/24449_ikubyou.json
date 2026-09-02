@@ -4,7 +4,7 @@
   "headword": "{育苗|いくびょう}",
   "reading": "いくびょう",
   "romaji": "ikubyou",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "raising seedlings; nursery cultivation",
   "definitions": [
     {
@@ -46,6 +46,36 @@
     }
   ],
   "notes": "The agricultural practice of growing plants from seed to a transplantable stage. Essential in rice farming, where {育苗|いくびょう}{箱|ばこ} (seedling trays) are used to grow rice seedlings before they are transplanted into paddies. Also important in commercial vegetable and flower production.\n\nCOMMON COLLOCATIONS:\n- {育苗|いくびょう}{箱|ばこ}: seedling tray/box\n- {育苗|いくびょう}ポット: seedling pot\n- {育苗|いくびょう}ハウス: seedling greenhouse\n- {育苗|いくびょう}{期間|きかん}: seedling raising period\n\nSIMILAR WORDS:\n- {苗|なえ}: seedling — the young plant itself\n- {種|たね}まき: sowing — the act of planting seeds, the step before raising seedlings\n- {植|う}え{付|つ}け: transplanting — the next step after seedlings are ready\n- {栽培|さいばい}: cultivation — the broader term for growing plants",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08104_tanemaki",
+      "reading": "たねまき",
+      "headword": "{種|たね}まき",
+      "label": "sowing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21341_uetsuke",
+      "reading": "うえつけ",
+      "headword": "{植|う}え{付|つ}け",
+      "label": "transplanting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13108_saibai",
+      "reading": "さいばい",
+      "headword": "{栽培|さいばい}",
+      "label": "cultivation"
+    },
+    {
+      "type": "related",
+      "target_id": "08098_naedoko",
+      "reading": "なえどこ",
+      "headword": "{苗床|なえどこ}",
+      "label": "seedbed"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +83,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "plant-general"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-19T10:15:15Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

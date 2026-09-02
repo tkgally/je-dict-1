@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "{済|す}む is an intransitive godan verb meaning 'to be finished' or 'to be settled.'\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pair: ⟦{済|す}ませる→済ませる：02121_sumaseru⟧ (transitive, to finish/complete)\n\nKEY PATTERNS:\n- X⟦が→が：00051_ga⟧{済|す}む: X is finished\n- V-て{済|す}む: can get by with doing V\n- V-ないで{済|す}む: can manage without doing V\n- ⟦それ→それ：00994_sore⟧⟦で→で：00502_de⟧{済|す}む: that will be enough/sufficient\n\nCOMMON EXPRESSIONS:\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧{済|す}んだ: the work is done\n- ⟦{用事|ようじ}→用事：01520_youji⟧⟦が→が：00051_ga⟧{済|す}む: business is finished\n- ⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦が→が：00051_ga⟧{済|す}む: finished eating\n- ⟦{謝|あやま}って→謝る：01177_ayamaru⟧{済|す}む⟦{問題|もんだい}→問題：00797_mondai⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧: not something an apology can fix\n\nNOTE:\nDon't confuse with ⟦{住|す}む→住む：00673_sumu⟧ (to live, to reside), which has the same reading but different kanji and meaning.",
+  "notes": "{済|す}む is an intransitive godan verb meaning 'to be finished' or 'to be settled.'\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pair: ⟦{済|す}ませる→済ませる：02121_sumaseru⟧ (transitive, to finish/complete)\n\nCOMMON PATTERNS:\n- X⟦が→が：00051_ga⟧{済|す}む: X is finished\n- V-て{済|す}む: can get by with doing V\n- V-ないで{済|す}む: can manage without doing V\n- ⟦それ→それ：00994_sore⟧⟦で→で：00502_de⟧{済|す}む: that will be enough/sufficient\n\nCOMMON EXPRESSIONS:\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧{済|す}んだ: the work is done\n- ⟦{用事|ようじ}→用事：01520_youji⟧⟦が→が：00051_ga⟧{済|す}む: business is finished\n- ⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦が→が：00051_ga⟧{済|す}む: finished eating\n- ⟦{謝|あやま}って→謝る：01177_ayamaru⟧{済|す}む⟦{問題|もんだい}→問題：00797_mondai⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦ない→ない：01118_nai⟧: not something an apology can fix\n\nUSAGE:\nDon't confuse with ⟦{住|す}む→住む：00673_sumu⟧ (to live, to reside), which has the same reading but different kanji and meaning.",
   "cross_references": [
     {
       "type": "homophone",
@@ -176,11 +176,18 @@
       "reading": "すむ",
       "headword": "{澄|す}む",
       "label": "to become clear, to be limpid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20676_kanryousuru",
+      "reading": "かんりょうする",
+      "headword": "{完了|かんりょう}する",
+      "label": "to complete"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:41:58Z",
-    "modified": "2026-05-17T19:13:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -207,6 +214,12 @@
       "target_id": "02064_sumasu",
       "reading": "すます",
       "headword": "{済|す}ます",
+      "note": "transitive"
+    },
+    {
+      "target_id": "02121_sumaseru",
+      "reading": "すませる",
+      "headword": "{済|す}ませる",
       "note": "transitive"
     }
   ]

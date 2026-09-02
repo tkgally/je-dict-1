@@ -2,7 +2,7 @@
   "id": "08259_sahai",
   "headword": "{差配|さはい}",
   "reading": "さはい",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "management; supervision; agent; landlord's representative",
   "conjugation": {
     "type": "suru",
@@ -168,7 +168,30 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n- {差配|さはい}する (to manage, to supervise)\n- {差配|さはい}を{任|まか}される (to be entrusted with management)\n- {差配|さはい}{人|にん} (manager, agent)\n\nSENSE 2 (Historical):\nIn the Edo period and early modern Japan, {差配|さはい} or {差配人|さはいにん} referred to property managers who acted on behalf of landlords. This usage appears in historical fiction and period dramas.\n\nMODERN EQUIVALENTS:\n- {管理人|かんりにん} (building manager)\n- {不動産管理|ふどうさんかんり}{会社|かいしゃ} (property management company)\n\nRELATED:\n- {管理|かんり} (management)\n- {監督|かんとく} (supervision)\n- {取|と}り{仕切|しき}る (to manage, to direct)",
+  "notes": "USAGE:\n- {差配|さはい}する (to manage, to supervise)\n- {差配|さはい}を{任|まか}される (to be entrusted with management)\n- {差配|さはい}{人|にん} (manager, agent)\n\nSENSE 2 (Historical):\nIn the Edo period and early modern Japan, {差配|さはい} or {差配人|さはいにん} referred to property managers who acted on behalf of landlords. This usage appears in historical fiction and period dramas.\n\nMODERN EQUIVALENTS:\n- {管理人|かんりにん} (building manager)\n- {不動産管理|ふどうさんかんり}{会社|かいしゃ} (property management company)\n\nRELATED WORDS:\n- {管理|かんり} (management)\n- {監督|かんとく} (supervision)\n- {取|と}り{仕切|しき}る (to manage, to direct)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00178_kanri",
+      "reading": "かんり",
+      "headword": "{管理|かんり}",
+      "label": "management"
+    },
+    {
+      "type": "related",
+      "target_id": "00185_kantoku",
+      "reading": "かんとく",
+      "headword": "{監督|かんとく}",
+      "label": "supervision"
+    },
+    {
+      "type": "related",
+      "target_id": "11946_torishikiru",
+      "reading": "とりしきる",
+      "headword": "{取|と}り{仕切|しき}る",
+      "label": "to manage, to direct"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -177,6 +200,7 @@
         "verb-suru"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "business",
         "management",
@@ -185,6 +209,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-25T09:58:37Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "We accept questions at any time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16144_zuiji_ex2",
@@ -27,7 +29,9 @@
       "english": "We will update as needed whenever new information comes in.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16144_zuiji_ex3",
@@ -35,21 +39,42 @@
       "english": "We are hiring on a rolling basis, so please feel free to inquire.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{随時|ずいじ} is a formal word commonly seen in business emails, official announcements, and signs. It implies flexibility — there is no fixed time or schedule, and the action happens as the situation requires.\n\nCOMMON COLLOCATIONS:\n- {随時|ずいじ}{受付|うけつけ} (accepting at any time)\n- {随時|ずいじ}{募集|ぼしゅう} (recruiting on a rolling basis)\n- {随時|ずいじ}{更新|こうしん} (updated as needed)\n- {随時|ずいじ}{対応|たいおう} (handling as needed)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19766_jouji",
+      "reading": "じょうじ",
+      "headword": "{常時|じょうじ}",
+      "label": "constantly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22373_tekigi",
+      "reading": "てきぎ",
+      "headword": "{適宜|てきぎ}",
+      "label": "as appropriate"
+    }
+  ],
   "metadata": {
     "created": "2026-03-10T06:05:56Z",
-    "modified": "2026-03-10T06:05:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

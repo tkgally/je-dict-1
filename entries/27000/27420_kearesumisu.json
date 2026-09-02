@@ -17,7 +17,9 @@
       "id": "27420_kearesumisu_ex1",
       "japanese": "ケアレスミスを{減|へ}らしたい。",
       "english": "I want to reduce careless mistakes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27420_kearesumisu_ex2",
       "japanese": "ケアレスミスで5{点|てん}も{落|お}としてしまった。",
       "english": "I lost as many as 5 points to careless mistakes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,54 @@
       "id": "27420_kearesumisu_ex3",
       "japanese": "{見直|みなお}しをすればケアレスミスはかなり{防|ふせ}げるはずだ。",
       "english": "If you double-check your work, you should be able to prevent most careless mistakes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Japanese-coined loanword from English \"careless\" + \"mistake.\" Used in school, work, and test-taking contexts to describe mistakes attributable to inattention, not lack of skill.\n\nCOMMON COLLOCATIONS:\n- ケアレスミスをする: to make a careless mistake\n- ケアレスミスを{防|ふせ}ぐ: to prevent careless mistakes\n- ケアレスミスを{減|へ}らす: to reduce careless mistakes\n- ケアレスミスが{多|おお}い: to have many careless mistakes\n\nSIMILAR WORDS:\n- {不注意|ふちゅうい}: inattention; carelessness — native term, slightly more formal\n- {凡|ぼん}ミス: silly mistake — even more casual, focuses on triviality\n- ノーミス: no mistakes; flawless — antonym used in game and sports contexts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15111_fuchuui",
+      "reading": "ふちゅうい",
+      "headword": "{不注意|ふちゅうい}",
+      "label": "inattention"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12160_bonmisu",
+      "reading": "ぼんみす",
+      "headword": "{凡|ぼん}ミス",
+      "label": "silly mistake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27423_noomisu",
+      "reading": "のーみす",
+      "headword": "ノーミス",
+      "label": "no mistakes"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["work", "education", "loanword"],
+      "politeness": "plain",
+      "semantic": [
+        "work",
+        "education",
+        "loanword"
+      ],
       "domain": []
     },
     "created": "2026-05-11T07:40:10Z",
-    "modified": "2026-05-11T07:40:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

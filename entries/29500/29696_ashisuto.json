@@ -3,7 +3,7 @@
   "headword": "アシスト",
   "reading": "あしすと",
   "romaji": "ashisuto",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "assist; support; help",
   "definitions": [
     {
@@ -81,6 +81,22 @@
   ],
   "notes": "Loanword from English \"assist,\" used both as a general term for support and as a sports statistic. As a suru-verb (アシストする) it means to help or back up.\n\nCOMMON COLLOCATIONS:\n- {電動|でんどう}アシスト{自転車|じてんしゃ}: power-assisted bicycle\n- アシスト{機能|きのう}: assist function (of a device)\n- アシストを{決|き}める: to record an assist (in sports)\n\nSIMILAR WORDS:\n- {支援|しえん}: support, aid — the native term; more formal and often organizational\n- サポート: support — broad loanword; overlaps with sense 1 but not the sports sense",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07778_shien",
+      "reading": "しえん",
+      "headword": "{支援|しえん}",
+      "label": "support, aid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07776_sapooto",
+      "reading": "さぽーと",
+      "headword": "サポート",
+      "label": "support"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -89,7 +105,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
@@ -97,7 +113,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-06T09:17:25Z",
-    "modified": "2026-07-06T09:17:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

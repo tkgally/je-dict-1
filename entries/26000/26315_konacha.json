@@ -17,7 +17,9 @@
       "id": "26315_konacha_ex1",
       "japanese": "{寿司屋|すしや}で{粉茶|こなちゃ}を{飲|の}んだ。",
       "english": "I drank powdered tea at a sushi restaurant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26315_konacha_ex2",
       "japanese": "{粉茶|こなちゃ}は{値段|ねだん}が{安|やす}くて{手軽|てがる}に{楽|たの}しめる。",
       "english": "Powdered tea is inexpensive and easy to enjoy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,51 @@
       "id": "26315_konacha_ex3",
       "japanese": "{回転|かいてん}{寿司|ずし}の{店|みせ}では、{各|かく}テーブルに{粉茶|こなちゃ}の{缶|かん}が{置|お}いてあることが{多|おお}い。",
       "english": "At conveyor-belt sushi restaurants, canisters of powdered tea are often placed at each table.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {粉|こな} (powder) and {茶|ちゃ} (tea). This is the fine tea dust or small leaf fragments that result from processing sencha and other green teas. At sushi restaurants it is often called あがり, a traditional term for the tea served at the end of a meal.\n\nDistinct from {抹茶|まっちゃ}, which is ceremonial-grade tea stone-ground from shade-grown tencha leaves. {粉茶|こなちゃ} is a byproduct of regular tea processing and is much cheaper.\n\nCOMMON COLLOCATIONS:\n- {粉茶|こなちゃ}を{入|い}れる: to brew powdered tea\n- {粉茶|こなちゃ}の{缶|かん}: canister of powdered tea\n- {粉茶|こなちゃ}パック: powdered tea bags\n\nRELATED TERMS:\n- {抹茶|まっちゃ}: matcha — higher-grade, stone-ground ceremonial tea\n- {煎茶|せんちゃ}: sencha — standard brewed green tea\n- あがり: tea served at a sushi restaurant (trade term)",
-  "cross_references": [],
+  "notes": "Composed of {粉|こな} (powder) and {茶|ちゃ} (tea). This is the fine tea dust or small leaf fragments that result from processing sencha and other green teas. At sushi restaurants it is often called あがり, a traditional term for the tea served at the end of a meal.\n\nDistinct from {抹茶|まっちゃ}, which is ceremonial-grade tea stone-ground from shade-grown tencha leaves. {粉茶|こなちゃ} is a byproduct of regular tea processing and is much cheaper.\n\nCOMMON COLLOCATIONS:\n- {粉茶|こなちゃ}を{入|い}れる: to brew powdered tea\n- {粉茶|こなちゃ}の{缶|かん}: canister of powdered tea\n- {粉茶|こなちゃ}パック: powdered tea bags\n\nRELATED WORDS:\n- {抹茶|まっちゃ}: matcha — higher-grade, stone-ground ceremonial tea\n- {煎茶|せんちゃ}: sencha — standard brewed green tea\n- あがり: tea served at a sushi restaurant (trade term)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10574_maccha",
+      "reading": "まっちゃ",
+      "headword": "{抹茶|まっちゃ}",
+      "label": "matcha"
+    },
+    {
+      "type": "related",
+      "target_id": "13407_sencha",
+      "reading": "せんちゃ",
+      "headword": "{煎茶|せんちゃ}",
+      "label": "sencha"
+    },
+    {
+      "type": "related",
+      "target_id": "25038_agari",
+      "reading": "あがり",
+      "headword": "{上|あ}がり",
+      "label": "tea served at a sushi restaurant"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food", "culture"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "culture"
+      ]
     },
     "created": "2026-04-30T16:20:54Z",
-    "modified": "2026-04-30T16:20:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

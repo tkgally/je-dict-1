@@ -17,7 +17,9 @@
       "id": "27531_reido_ex1",
       "japanese": "{今朝|けさ}の{気温|きおん}は{零度|れいど}だった。",
       "english": "This morning's temperature was zero degrees.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27531_reido_ex2",
       "japanese": "{水|みず}は{零度|れいど}で{凍|こお}る。",
       "english": "Water freezes at zero degrees.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,39 @@
       "id": "27531_reido_ex3",
       "japanese": "{今夜|こんや}は{零度|れいど}を{下回|したまわ}る{予想|よそう}なので、{道路|どうろ}が{凍|こお}るかもしれない。",
       "english": "Tonight is forecast to drop below zero degrees, so the roads may freeze.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {零|れい} (zero) + {度|ど} (degree). Default reference is Celsius; specify with {摂氏|せっし}{零度|れいど} or {華氏|かし}{零度|れいど} if needed.\n\nCOMMON COLLOCATIONS:\n- {零度|れいど}{以下|いか}: below zero\n- {零度|れいど}を{下回|したまわ}る: to drop below zero\n- {零度|れいど}に{達|たっ}する: to reach zero degrees\n- {氷点下|ひょうてんか}: sub-zero (literally 'below freezing point')\n\nSIMILAR WORDS:\n- {氷点|ひょうてん}: freezing point — refers to the point at which water freezes, often used in {氷点下|ひょうてんか}\n- マイナス: minus / negative — マイナス{五度|ごど} = minus five degrees, very common in weather speech",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00268_mainasu",
+      "reading": "まいなす",
+      "headword": "マイナス",
+      "label": "minus / negative"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["weather", "science"],
+      "politeness": "plain",
+      "semantic": [
+        "weather",
+        "science"
+      ],
       "domain": []
     },
     "created": "2026-05-13T04:08:29Z",
-    "modified": "2026-05-13T04:08:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

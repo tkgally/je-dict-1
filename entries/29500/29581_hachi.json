@@ -17,7 +17,9 @@
       "id": "29581_hachi_ex1",
       "japanese": "{鉢|はち}に{水|みず}を{入|い}れる。",
       "english": "Put water in the bowl.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29581_hachi_ex2",
       "japanese": "この{鉢|はち}に{花|はな}を{植|う}えた。",
       "english": "I planted flowers in this pot.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "29581_hachi_ex3",
       "japanese": "{大|おお}きな{鉢|はち}にサラダをたっぷり{盛|も}る。",
       "english": "Serve a generous helping of salad in a large bowl.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A versatile word for a deep, round container; the specific meaning (serving bowl, basin, or flowerpot) depends on context.\n\nCOMMON COMPOUNDS:\n- {植木鉢|うえきばち}: flowerpot, plant pot\n- {金魚鉢|きんぎょばち}: goldfish bowl\n- {火鉢|ひばち}: traditional charcoal brazier\n- すり{鉢|ばち}: mortar (for grinding)\n\nSIMILAR WORDS:\n- {椀|わん}: bowl — a smaller individual bowl for rice or soup\n- ボウル: bowl — loanword, often for mixing or Western-style dishes",
+  "notes": "A versatile word for a deep, round container; the specific meaning (serving bowl, basin, or flowerpot) depends on context.\n\nCOMPOUNDS:\n- {植木鉢|うえきばち}: flowerpot, plant pot\n- {金魚鉢|きんぎょばち}: goldfish bowl\n- {火鉢|ひばち}: traditional charcoal brazier\n- すり{鉢|ばち}: mortar (for grinding)\n\nSIMILAR WORDS:\n- {椀|わん}: bowl — a smaller individual bowl for rice or soup\n- ボウル: bowl — loanword, often for mixing or Western-style dishes",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00419_wan",
+      "reading": "わん",
+      "headword": "{椀|わん}",
+      "label": "bowl"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04483_bouru",
+      "reading": "ぼうる",
+      "headword": "ボウル",
+      "label": "bowl"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06507_owan",
+      "reading": "おわん",
+      "headword": "お{椀|わん}",
+      "label": "soup bowl"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["tool"],
+      "politeness": "plain",
+      "semantic": [
+        "tool"
+      ],
       "domain": []
     },
     "created": "2026-06-30T09:20:35Z",
-    "modified": "2026-06-30T09:20:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

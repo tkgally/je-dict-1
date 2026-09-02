@@ -2,7 +2,7 @@
   "id": "11764_shukkou",
   "headword": "{出港|しゅっこう}",
   "reading": "しゅっこう",
-  "part_of_speech": "noun; noun (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "departure from port, setting sail",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "The act of a ship leaving port. Used as both a noun and a する verb.\n\nWORD FORMATION:\n{出|しゅつ} (exit/leave) + {港|こう} (port/harbor)\n\nCOMMON COLLOCATIONS:\n- {出港|しゅっこう}する: to depart from port\n- {出港|しゅっこう}{時刻|じこく}: departure time\n- {出港|しゅっこう}{手続|てつづ}き: departure procedures\n- {出港|しゅっこう}を{見送|みおく}る: to see a ship off\n\nCONTRAST:\n- {入港|にゅうこう}: entering port (opposite)\n- {出航|しゅっこう}: setting sail (same reading, broader — can include aircraft or general departure)\n\nNote the homophone {出航|しゅっこう}: {出港|しゅっこう} specifically means leaving a port, while {出航|しゅっこう} means beginning a voyage and can apply more broadly.",
+  "notes": "The act of a ship leaving port. Used as both a noun and a する verb.\n\nFORMS:\n{出|しゅつ} (exit/leave) + {港|こう} (port/harbor)\n\nCOMMON COLLOCATIONS:\n- {出港|しゅっこう}する: to depart from port\n- {出港|しゅっこう}{時刻|じこく}: departure time\n- {出港|しゅっこう}{手続|てつづ}き: departure procedures\n- {出港|しゅっこう}を{見送|みおく}る: to see a ship off\n\nSIMILAR WORDS:\n- {入港|にゅうこう}: entering port (opposite)\n- {出航|しゅっこう}: setting sail (same reading, broader — can include aircraft or general departure)\n\nNote the homophone {出航|しゅっこう}: {出港|しゅっこう} specifically means leaving a port, while {出航|しゅっこう} means beginning a voyage and can apply more broadly.",
   "cross_references": [
     {
       "type": "antonym",
@@ -141,11 +141,32 @@
       "reading": "にゅうこう",
       "headword": "{入港|にゅうこう}",
       "label": "entering port"
+    },
+    {
+      "type": "homophone",
+      "target_id": "30231_shukkou",
+      "reading": "しゅっこう",
+      "headword": "{出航|しゅっこう}",
+      "label": "setting sail (same reading, broader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21067_kikou",
+      "reading": "きこう",
+      "headword": "{寄港|きこう}",
+      "label": "calling at a port"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30688_funade",
+      "reading": "ふなで",
+      "headword": "{船出|ふなで}",
+      "label": "setting sail"
     }
   ],
   "metadata": {
     "created": "2026-02-17T23:15:01Z",
-    "modified": "2026-04-25T08:21:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

@@ -3,7 +3,7 @@
   "id": "16524_katateochi",
   "headword": "{片手落|かたてお}ち",
   "reading": "かたておち",
-  "part_of_speech": "noun / adjective (na)",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "unfair; one-sided; biased",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "That's one-sided.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16524_katateochi_ex2",
@@ -27,7 +29,9 @@
       "english": "One-sided judgments should be avoided.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16524_katateochi_ex3",
@@ -35,21 +39,43 @@
       "english": "Isn't it unfair to decide after hearing only one side's opinion?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a na-adjective or noun. Describes situations where fairness or balance is lacking. Often appears in criticism of decisions, policies, or evaluations.\n\nCOMMON COLLOCATIONS:\n- {片手落|かたてお}ちな{判断|はんだん} (one-sided judgment)\n- {片手落|かたてお}ちな{議論|ぎろん} (lopsided argument)\n- {片手落|かたてお}ちの{感|かん}がある (there is a sense of unfairness)\n\nSIMILAR WORDS:\n- {不公平|ふこうへい}: unfair — a more general and common word for unfairness\n- {偏|かたよ}る: to lean, to be biased — describes the action of becoming one-sided",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16851_fukouhei",
+      "reading": "ふこうへい",
+      "headword": "{不公平|ふこうへい}",
+      "label": "unfair"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07872_katayoru",
+      "reading": "かたよる",
+      "headword": "{偏|かたよ}る",
+      "label": "to lean, to be biased"
+    }
+  ],
   "metadata": {
     "created": "2026-03-13T06:41:38Z",
-    "modified": "2026-03-13T06:41:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

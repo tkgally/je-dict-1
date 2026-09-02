@@ -19,7 +19,9 @@
       "english": "I jogged around the Imperial Palace.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13607_koukyo_ex2",
@@ -27,7 +29,9 @@
       "english": "The Imperial Palace East Gardens can be visited for free.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13607_koukyo_ex3",
@@ -35,21 +39,50 @@
       "english": "During the New Year's public audience, many people visit the Imperial Palace to hear the Emperor's address.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "LOCATION:\nThe {皇居|こうきょ} sits on approximately 115 hectares in the heart of Tokyo, surrounded by moats and stone walls from the original Edo Castle. The {皇居|こうきょ} {周回|しゅうかい}コース (Imperial Palace loop, approximately 5 km) is one of Tokyo's most popular jogging routes.\n\nACCESS:\nThe main palace grounds are generally closed to the public, but the {東御苑|ひがしぎょえん} (East Gardens) are open for free visits. The inner grounds open to the public twice a year: on the Emperor's birthday and January 2nd ({一般|いっぱん}{参賀|さんが}).\n\nCOMMON COLLOCATIONS:\n- {皇居|こうきょ}ランニング: running around the Imperial Palace\n- {皇居|こうきょ}{周辺|しゅうへん}: Imperial Palace vicinity\n- {皇居|こうきょ}{前|まえ}{広場|ひろば}: Imperial Palace front plaza",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12847_gosho",
+      "reading": "ごしょ",
+      "headword": "{御所|ごしょ}",
+      "label": "imperial palace, imperial residence"
+    },
+    {
+      "type": "related",
+      "target_id": "13538_oukyuu",
+      "reading": "おうきゅう",
+      "headword": "{王宮|おうきゅう}",
+      "label": "royal palace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24768_kouguu",
+      "reading": "こうぐう",
+      "headword": "{皇宮|こうぐう}",
+      "label": "imperial palace"
+    }
+  ],
   "metadata": {
     "created": "2026-02-26T09:55:53Z",
-    "modified": "2026-02-26T09:55:53Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building", "geography"]
+      "semantic": [
+        "building",
+        "geography"
+      ]
     }
   }
 }

@@ -19,7 +19,9 @@
       "english": "This winter is bitterly cold.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21194_moukan_ex2",
@@ -27,7 +29,9 @@
       "english": "I walked home in the bitter cold.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21194_moukan_ex3",
@@ -35,21 +39,49 @@
       "english": "The severe cold continued, and there were one incident after another of water pipes freezing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{猛|もう} means 'fierce' or 'intense,' and {寒|かん} means 'cold.' {猛寒|もうかん} describes cold weather that is exceptionally severe, going beyond the usual winter chill. It is used in weather reports, news, and everyday conversation during extreme cold snaps.\n\nCOMMON COLLOCATIONS:\n- {猛寒|もうかん}が{続|つづ}く (severe cold continues)\n- {猛寒|もうかん}の{中|なか} (in the bitter cold)\n- {猛寒|もうかん}に{見舞|みま}われる (to be hit by severe cold)\n\nSIMILAR WORDS:\n- {厳寒|げんかん} — severe cold (more formal and literary; often used in written weather descriptions)\n- {極寒|ごっかん} — extreme cold (the strongest degree; used for Arctic-level conditions)\n- {猛暑|もうしょ} — extreme heat (the summer counterpart, using the same {猛|もう} prefix)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20655_genkan",
+      "reading": "げんかん",
+      "headword": "{厳寒|げんかん}",
+      "label": "severe cold (more formal and literary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21345_gokkan",
+      "reading": "ごっかん",
+      "headword": "{極寒|ごっかん}",
+      "label": "extreme cold (the strongest degree"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08311_mousho",
+      "reading": "もうしょ",
+      "headword": "{猛暑|もうしょ}",
+      "label": "extreme heat"
+    }
+  ],
   "metadata": {
     "created": "2026-03-31T22:22:11Z",
-    "modified": "2026-03-31T22:22:11Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature"]
+      "semantic": [
+        "nature"
+      ]
     }
   }
 }

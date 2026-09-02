@@ -2,7 +2,7 @@
   "id": "04301_norikae",
   "headword": "{乗換|のりかえ}",
   "reading": "のりかえ",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "transfer (transportation)",
   "conjugation": {
     "type": "suru",
@@ -168,11 +168,19 @@
       ]
     }
   ],
-  "notes": "USAGE: {乗換|のりかえ} (also written as {乗|の}り{換|か}え) is essential vocabulary for navigating Japanese public transportation.\n\nCOMMON PATTERNS:\n- Xで{乗換|のりかえ}る (to transfer at X)\n- {乗換|のりかえ}なし (no transfer required, direct)\n- {乗換|のりかえ}⟦{時間|じかん}→時間：00468_jikan⟧ (transfer time)\n\nCOMMON COMPOUNDS:\n- {乗換|のりかえ}⟦{駅|えき}→駅：02180_eki⟧ (transfer station)\n- {乗換|のりかえ}⟦{案内|あんない}→案内：01291_annai⟧ (transfer guide)\n- {乗換|のりかえ}⟦{検索|けんさく}→検索：04729_kensaku⟧ (route search)\n\nRELATED VERB:\n- ⟦{乗|の}り{換|か}える→乗り換える：01194_norikaeru⟧ (to transfer) - godan verb",
-  "cross_references": [],
+  "notes": "USAGE: {乗換|のりかえ} (also written as {乗|の}り{換|か}え) is essential vocabulary for navigating Japanese public transportation.\n\nCOMMON PATTERNS:\n- Xで{乗換|のりかえ}る (to transfer at X)\n- {乗換|のりかえ}なし (no transfer required, direct)\n- {乗換|のりかえ}⟦{時間|じかん}→時間：00468_jikan⟧ (transfer time)\n\nCOMPOUNDS:\n- {乗換|のりかえ}⟦{駅|えき}→駅：02180_eki⟧ (transfer station)\n- {乗換|のりかえ}⟦{案内|あんない}→案内：01291_annai⟧ (transfer guide)\n- {乗換|のりかえ}⟦{検索|けんさく}→検索：04729_kensaku⟧ (route search)\n\nRELATED VERB:\n- ⟦{乗|の}り{換|か}える→乗り換える：01194_norikaeru⟧ (to transfer) - godan verb",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01194_norikaeru",
+      "reading": "のりかえる",
+      "headword": "{乗|の}り{換|か}える",
+      "label": "to transfer"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T00:58:16Z",
-    "modified": "2026-08-14T18:20:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

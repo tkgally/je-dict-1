@@ -17,7 +17,9 @@
       "id": "27164_sedori_ex1",
       "japanese": "せどりで{生計|せいけい}を{立|た}てている。",
       "english": "I make a living from retail arbitrage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27164_sedori_ex2",
       "japanese": "{古本屋|ふるほんや}でせどり{用|よう}の{本|ほん}を{探|さが}す。",
       "english": "I look for books to resell at used bookstores.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "27164_sedori_ex3",
       "japanese": "{最近|さいきん}はネットを{使|つか}ったせどりが{主流|しゅりゅう}になっている。",
       "english": "These days, online reselling has become the mainstream approach.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Originally referred specifically to the practice of buying used books at one store and reselling them at another for profit. The word comes from {背取|せど}り, meaning to judge a book by its spine ({背|せ}). In modern usage, せどり has expanded to cover any form of retail arbitrage, including buying products online or in stores and reselling them on platforms like Amazon or Mercari.\n\nCOMMON COLLOCATIONS:\n- せどりで{稼|かせ}ぐ: to earn money through reselling\n- {電脳|でんのう}せどり: online reselling (finding deals on the internet)\n- {店舗|てんぽ}せどり: in-store reselling (physically visiting shops)\n- せどり{転売|てんばい}: resale arbitrage\n\nSIMILAR WORDS:\n- {転売|てんばい}: resale — a broader term that includes ticket scalping and can carry negative connotations\n- {物販|ぶっぱん}: product sales — a more neutral, business-oriented term for selling physical goods\n\nCULTURAL NOTE:\nせどり has become a popular side hustle in Japan, especially with the rise of online marketplaces. While generally legal, it can be controversial when applied to limited-edition goods or concert tickets, where it overlaps with {転売|てんばい}ヤー (scalper) territory.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10558_tenbai",
+      "reading": "てんばい",
+      "headword": "{転売|てんばい}",
+      "label": "resale"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13619_buppan",
+      "reading": "ぶっぱん",
+      "headword": "{物販|ぶっぱん}",
+      "label": "product sales"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-05-07T14:08:55Z",
-    "modified": "2026-05-07T14:08:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

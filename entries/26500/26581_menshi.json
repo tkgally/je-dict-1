@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Combines {綿|めん} (cotton) and {糸|し} (thread, yarn). An important term in Japanese economic history, as cotton spinning was one of the first modern industries in Meiji-era Japan. Today used in textile and craft contexts.\n\nCOMMON COLLOCATIONS:\n- {綿糸|めんし}{紡績|ぼうせき}: cotton spinning\n- {綿糸|めんし}で{編|あ}む: to knit with cotton yarn\n- {綿糸|めんし}の{生産|せいさん}: cotton yarn production\n- {太|ふと}{番手|ばんて}の{綿糸|めんし}: thick-count cotton yarn\n\nSIMILAR WORDS:\n- {絹糸|けんし}: silk thread — a more luxurious fiber\n- {毛糸|けいと}: wool yarn — used for knitting, read with kun'yomi\n- {木綿|もめん}: cotton (fabric) — the finished textile rather than the yarn",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00212_keito",
+      "reading": "けいと",
+      "headword": "{毛糸|けいと}",
+      "label": "wool yarn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01738_momen",
+      "reading": "もめん",
+      "headword": "{木綿|もめん}",
+      "label": "cotton"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +75,6 @@
       ]
     },
     "created": "2026-05-03T12:31:02Z",
-    "modified": "2026-05-03T12:31:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

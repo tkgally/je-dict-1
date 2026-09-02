@@ -17,7 +17,9 @@
       "id": "28861_sannenkan_ex1",
       "japanese": "{中学|ちゅうがく}は{三年間|さんねんかん}です。",
       "english": "Middle school lasts three years.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28861_sannenkan_ex2",
       "japanese": "{三年間|さんねんかん}{留学|りゅうがく}していました。",
       "english": "I was studying abroad for three years.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "28861_sannenkan_ex3",
       "japanese": "この{研究|けんきゅう}には{三年間|さんねんかん}の{時間|じかん}と{多|おお}くの{努力|どりょく}がかかった。",
       "english": "This research took three years and a great deal of effort.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Adds the duration suffix {間|かん} to {三年|さんねん}, making it unambiguously mean 'three years long' rather than 'third year.'\n\nCOMMON PATTERNS:\n- {三年間|さんねんかん}{続|つづ}く: to continue for three years\n- {三年間|さんねんかん}の{経験|けいけん}: three years of experience\n- {三年間|さんねんかん}{勤|つと}める: to work for three years\n\nSIMILAR WORDS:\n- {三年|さんねん}: three years; third year — shorter form, can be ambiguous between duration and ordinal\n- {三年生|さんねんせい}: third-year student — ordinal, not duration",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27560_sannensei",
+      "reading": "さんねんせい",
+      "headword": "{三年生|さんねんせい}",
+      "label": "third-year student"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["time-period"],
+      "politeness": "plain",
+      "semantic": [
+        "time-period"
+      ],
       "domain": []
     },
     "created": "2026-06-06T04:04:02Z",
-    "modified": "2026-06-06T04:04:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

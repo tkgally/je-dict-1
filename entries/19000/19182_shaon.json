@@ -3,7 +3,7 @@
   "headword": "{遮音|しゃおん}",
   "reading": "しゃおん",
   "romaji": "shaon",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sound insulation; soundproofing",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,22 @@
   ],
   "notes": "Composed of {遮|しゃ} (block, intercept) + {音|おん} (sound). Refers specifically to blocking sound transmission, as opposed to {吸音|きゅうおん} (sound absorption, which reduces echo) and {防音|ぼうおん} (soundproofing, the general term). Common collocations: {遮音|しゃおん}{性|せい} (sound insulation properties), {遮音|しゃおん}{材|ざい} (sound insulation material), {遮音|しゃおん}{等級|とうきゅう} (sound insulation rating). An important concept when apartment hunting in Japan — {遮音|しゃおん}{等級|とうきゅう} ratings indicate how well floors and walls block noise between units.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14565_bouon",
+      "reading": "ぼうおん",
+      "headword": "{防音|ぼうおん}",
+      "label": "soundproofing"
+    },
+    {
+      "type": "related",
+      "target_id": "19237_bouonshitsu",
+      "reading": "ぼうおんしつ",
+      "headword": "{防音室|ぼうおんしつ}",
+      "label": "soundproof room"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -154,6 +170,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-24T13:54:53Z",
-    "modified": "2026-03-24T13:54:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

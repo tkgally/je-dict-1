@@ -19,7 +19,9 @@
       "english": "I prepared a lesson plan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16670_shidouan_ex2",
@@ -27,7 +29,9 @@
       "english": "I rewrote the lesson plan for the research lesson.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16670_shidouan_ex3",
@@ -35,21 +39,63 @@
       "english": "The new teacher learned how to write lesson plans from senior colleagues.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA fundamental document in Japanese teaching practice. Teachers create {指導案|しどうあん} for each class, and more detailed versions are prepared for {研究授業|けんきゅうじゅぎょう} (research lessons observed by other teachers). The full formal name is {学習指導案|がくしゅうしどうあん}.\n\nCOMMON COLLOCATIONS:\n- {指導案|しどうあん}を{書|か}く (to write a lesson plan)\n- {指導案|しどうあん}を{作成|さくせい}する (to prepare a lesson plan)\n- {学習|がくしゅう}{指導案|しどうあん} (formal lesson plan)\n\nSIMILAR WORDS:\n- カリキュラム: curriculum — the overall course of study\n- {時間割|じかんわり}: timetable — the schedule of classes",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10947_karikyuramu",
+      "reading": "かりきゅらむ",
+      "headword": "カリキュラム",
+      "label": "curriculum"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08552_jikanwari",
+      "reading": "じかんわり",
+      "headword": "{時間割|じかんわり}",
+      "label": "timetable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24023_jugyoukeikaku",
+      "reading": "じゅぎょうけいかく",
+      "headword": "{授業計画|じゅぎょうけいかく}",
+      "label": "lesson plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26171_kyouan",
+      "reading": "きょうあん",
+      "headword": "{教案|きょうあん}",
+      "label": "lesson plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26607_jugyouan",
+      "reading": "じゅぎょうあん",
+      "headword": "{授業案|じゅぎょうあん}",
+      "label": "lesson plan"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T02:12:10Z",
-    "modified": "2026-04-10T07:12:46Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

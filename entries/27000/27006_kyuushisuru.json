@@ -3,7 +3,7 @@
   "headword": "{休止|きゅうし}する",
   "reading": "きゅうしする",
   "romaji": "kyuushisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to suspend; to pause; to halt",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Implies a temporary pause with the expectation of resumption, unlike {中止|ちゅうし} which often implies cancellation. Very common in transportation announcements, service updates, and entertainment news (band hiatuses).\n\nCOMMON COLLOCATIONS:\n- {活動休止|かつどうきゅうし}: hiatus from activities (often for celebrities/bands)\n- {運行休止|うんこうきゅうし}: suspension of service (trains, buses)\n- {一時休止|いちじきゅうし}: temporary suspension\n- {無期限休止|むきげんきゅうし}: indefinite suspension\n- {休止中|きゅうしちゅう}: currently suspended/on hiatus\n\nSIMILAR WORDS:\n- {中止|ちゅうし}する: to cancel; to discontinue — implies stopping completely, not just pausing\n- {中断|ちゅうだん}する: to interrupt; to break off — stopping something that was in progress, often unexpectedly\n- {停止|ていし}する: to stop; to halt — a complete stop, often mechanical or legal; more final than {休止|きゅうし}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21909_chuushisuru",
+      "reading": "ちゅうしする",
+      "headword": "{中止|ちゅうし}する",
+      "label": "to cancel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18998_chuudansuru",
+      "reading": "ちゅうだんする",
+      "headword": "{中断|ちゅうだん}する",
+      "label": "to interrupt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20992_teishisuru",
+      "reading": "ていしする",
+      "headword": "{停止|ていし}する",
+      "label": "to stop"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T13:15:01Z",
-    "modified": "2026-05-06T13:15:01Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

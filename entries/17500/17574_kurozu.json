@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "TYPES:\n・{中国|ちゅうごく}{黒酢|くろず} - Chinese black vinegar (Chinkiang/Zhenjiang vinegar)\n・{鹿児島|かごしま}{黒酢|くろず} - Kagoshima black vinegar (Japan)\n・{玄米|げんまい}{黒酢|くろず} - brown rice black vinegar\n\nHEALTH BENEFITS:\nBlack vinegar is popular as a health drink in Japan. It's believed to help with fatigue, blood pressure, and metabolism.\n\nCULINARY USES:\n・{酢豚|すぶた} - sweet and sour pork\n・{酢|す}の{物|もの} - vinegared dishes\n・ドリンク - diluted as a health drink\n・ドレッシング - salad dressings",
+  "notes": "TYPES:\n- {中国|ちゅうごく}{黒酢|くろず} - Chinese black vinegar (Chinkiang/Zhenjiang vinegar)\n- {鹿児島|かごしま}{黒酢|くろず} - Kagoshima black vinegar (Japan)\n- {玄米|げんまい}{黒酢|くろず} - brown rice black vinegar\n\nHEALTH BENEFITS:\nBlack vinegar is popular as a health drink in Japan. It's believed to help with fatigue, blood pressure, and metabolism.\n\nCULINARY USES:\n- {酢豚|すぶた} - sweet and sour pork\n- {酢|す}の{物|もの} - vinegared dishes\n- ドリンク - diluted as a health drink\n- ドレッシング - salad dressings",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,18 @@
       "reading": "す",
       "headword": "{酢|す}",
       "label": "vinegar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24254_komezu",
+      "reading": "こめず",
+      "headword": "{米酢|こめず}",
+      "label": "rice vinegar"
     }
   ],
   "metadata": {
     "created": "2026-01-22T23:40:24Z",
-    "modified": "2026-07-24T07:00:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +67,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food"
       ],

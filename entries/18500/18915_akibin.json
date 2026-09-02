@@ -17,7 +17,9 @@
       "id": "18915_akibin_ex1",
       "japanese": "{空|あ}き{瓶|びん}を{洗|あら}う。",
       "english": "To wash empty bottles.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18915_akibin_ex2",
       "japanese": "{空|あ}き{瓶|びん}は{資源|しげん}ごみに{出|だ}してください。",
       "english": "Please put empty bottles out with the recyclables.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,37 @@
       "id": "18915_akibin_ex3",
       "japanese": "{庭|にわ}の{隅|すみ}に{空|あ}き{瓶|びん}がたくさん{転|ころ}がっていた。",
       "english": "There were many empty bottles lying around in the corner of the yard.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {空|あ}き (empty, vacant) + {瓶|びん} (bottle). Part of a series with {空|あ}き{缶|かん} (empty can) and {空|あ}き{箱|ばこ} (empty box). In Japanese garbage separation systems, {空|あ}き{瓶|びん} are typically classified as {資源|しげん}ごみ (recyclable waste) and collected separately. The prefix {空|あ}き- is productive: {空|あ}き{家|や} (vacant house), {空|あ}き{地|ち} (vacant lot), {空|あ}き{室|しつ} (vacant room).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23052_akikan",
+      "reading": "あきかん",
+      "headword": "{空|あ}き{缶|かん}",
+      "label": "empty can"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-03-23T09:26:59Z",
-    "modified": "2026-03-23T09:26:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

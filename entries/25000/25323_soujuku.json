@@ -3,7 +3,7 @@
   "headword": "{早熟|そうじゅく}",
   "reading": "そうじゅく",
   "romaji": "soujuku",
-  "part_of_speech": "noun / adjective (な)",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "precocious; premature development",
   "definitions": [
     {
@@ -81,6 +81,22 @@
   ],
   "notes": "Describes development or maturation that occurs earlier than typical. In sense 1, applied to children or young people who show abilities or maturity beyond their age. In sense 2, used in agriculture for crops that ripen ahead of the normal season. Composed of {早|そう} (early) and {熟|じゅく} (mature, ripen).\n\nCOMMON COLLOCATIONS:\n- {早熟|そうじゅく}な{子|こ}: precocious child\n- {早熟|そうじゅく}な{才能|さいのう}: precocious talent\n- {早熟|そうじゅく}{品種|ひんしゅ}: early-ripening variety\n- {早熟|そうじゅく}{型|がた}: precocious type\n\nSIMILAR WORDS:\n- {晩成|ばんせい}: late blooming — the opposite; achieving success later in life\n- {大器晩成|たいきばんせい}: great talents mature late — a proverb and idiom",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "26264_bansei",
+      "reading": "ばんせい",
+      "headword": "{晩成|ばんせい}",
+      "label": "late blooming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06375_taikibansei",
+      "reading": "たいきばんせい",
+      "headword": "{大器晩成|たいきばんせい}",
+      "label": "great talents mature late"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -88,11 +104,13 @@
         "noun",
         "adjective-na"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ]
     },
     "created": "2026-04-24T14:28:17Z",
-    "modified": "2026-04-24T14:28:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

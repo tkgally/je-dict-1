@@ -19,7 +19,9 @@
       "english": "I filed a lost property report.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15652_ishitsubutsu_ex2",
@@ -27,7 +29,9 @@
       "english": "The lost and found office is on the second floor of the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15652_ishitsubutsu_ex3",
@@ -35,7 +39,9 @@
       "english": "Lost property turned in to the police is kept for three months.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nThis is the formal, official term seen on signs at train stations, airports, and police stations. In everyday conversation, {落|お}とし{物|もの} or {忘|わす}れ{物|もの} are more commonly used.\n\nCOMMON COLLOCATIONS:\n- {遺失物|いしつぶつ}{取扱所|とりあつかいじょ} (lost and found office)\n- {遺失物|いしつぶつ}{届|とどけ} (lost property report)\n- {遺失物|いしつぶつ}{法|ほう} (Lost Property Act)\n\nSIMILAR WORDS:\n- {落|お}とし{物|もの}: something dropped; casual equivalent\n- {忘|わす}れ{物|もの}: something left behind; more common in daily speech",
@@ -46,19 +52,53 @@
       "reading": "おとしもの",
       "headword": "{落|お}とし{物|もの}",
       "label": "casual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01758_wasuremono",
+      "reading": "わすれもの",
+      "headword": "{忘|わす}れ{物|もの}",
+      "label": "something left behind"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23045_shuutokubutsu",
+      "reading": "しゅうとくぶつ",
+      "headword": "{拾得物|しゅうとくぶつ}",
+      "label": "found property"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24102_funshitsubutsu",
+      "reading": "ふんしつぶつ",
+      "headword": "{紛失物|ふんしつぶつ}",
+      "label": "lost property"
+    },
+    {
+      "type": "related",
+      "target_id": "24488_ishitsutodoke",
+      "reading": "いしつとどけ",
+      "headword": "{遺失届|いしつとどけ}",
+      "label": "lost property report"
     }
   ],
   "metadata": {
     "created": "2026-03-08T06:40:50Z",
-    "modified": "2026-05-01T09:03:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

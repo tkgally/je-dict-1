@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Composed of {早|はや} (fast, quick) and {飲|の}み (drinking), the noun form of {飲|の}む (to drink). Part of the productive {早|はや}+verb stem pattern: {早食|はやぐ}い (eating fast), {早起|はやお}き (getting up early), {早歩|はやある}き (walking fast), etc.\n\nCOMMON COLLOCATIONS:\n- {早飲|はやの}み{競争|きょうそう}: speed-drinking contest\n- {早飲|はやの}み{早食|はやぐ}い: eating and drinking fast\n- {早飲|はやの}みする: to drink quickly\n\nSIMILAR WORDS:\n- {一気飲|いっきの}み: chugging all at once — drinking an entire drink in one go, often used in party contexts\n- {早食|はやぐ}い: fast eating — the eating counterpart; also considered unhealthy\n- {飲|の}み{干|ほ}す: to drink up — to drain a glass completely",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16505_ikkinomi",
+      "reading": "いっきのみ",
+      "headword": "{一気飲|いっきの}み",
+      "label": "chugging all at once"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08481_hayagui",
+      "reading": "はやぐい",
+      "headword": "{早食|はやぐ}い",
+      "label": "fast eating"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21473_nomihosu",
+      "reading": "のみほす",
+      "headword": "{飲|の}み{干|ほ}す",
+      "label": "to drink up"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +75,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food",
         "daily-life"
       ]
     },
     "created": "2026-05-02T11:33:57Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

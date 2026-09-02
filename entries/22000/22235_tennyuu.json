@@ -3,7 +3,7 @@
   "headword": "{転入|てんにゅう}",
   "reading": "てんにゅう",
   "romaji": "tennyuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "moving in; transfer (to a new school, area, etc.)",
   "definitions": [
     {
@@ -81,6 +81,29 @@
   ],
   "notes": "A key administrative and school term. When moving between municipalities in Japan, residents must submit a {転出届|てんしゅつとどけ} (move-out notice) at their old address and a {転入届|てんにゅうとどけ} (move-in notice) at the new one.\n\nCOMMON COLLOCATIONS:\n- {転入届|てんにゅうとどけ}: move-in registration form\n- {転入|てんにゅう}{手続|てつづ}き: move-in procedures\n- {転入生|てんにゅうせい}: transfer student\n- {転入|てんにゅう}{試験|しけん}: transfer entrance exam\n- {転入|てんにゅう}する: to move in; to transfer\n\nSIMILAR WORDS:\n- {転出|てんしゅつ}: moving out — the opposite, leaving a municipality or school\n- {引|ひ}っ{越|こ}し: moving (house) — the general act of relocating, without the administrative nuance\n- {転校|てんこう}: school transfer — specifically changing schools, subset of sense 2\n- {入居|にゅうきょ}: moving in (to a dwelling) — focuses on entering a specific residence, not municipal registration",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "25698_tenshutsu",
+      "reading": "てんしゅつ",
+      "headword": "{転出|てんしゅつ}",
+      "label": "moving out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03444_tenkou",
+      "reading": "てんこう",
+      "headword": "{転校|てんこう}",
+      "label": "school transfer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08630_nyuukyo",
+      "reading": "にゅうきょ",
+      "headword": "{入居|にゅうきょ}",
+      "label": "moving in"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -97,7 +120,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T15:13:24Z",
-    "modified": "2026-04-05T15:13:24Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -79,10 +79,46 @@
     }
   ],
   "notes": "{近所|きんじょ} means 'neighborhood' or 'vicinity.'\n\nCommon expressions:\n- {近所|きんじょ}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧: neighbors\n- {近所|きんじょ}⟦{付|づ}き{合|あ}い→付き合い：03520_tsukiai⟧: neighborly relations, getting along with neighbors\n- ⟦この→この：00962_kono⟧{近所|きんじょ}⟦に→に：00314_ni⟧: in this neighborhood\n\nRelated words:\n- ⟦{近|ちか}く→近く：00923_chikaku⟧: nearby (more general location)\n- ⟦{隣|となり}→隣：01003_tonari⟧: next door (immediate neighbor)\n- ⟦{周|まわ}り→周り：01732_mawari⟧: surroundings",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00923_chikaku",
+      "reading": "ちかく",
+      "headword": "{近|ちか}く",
+      "label": "nearby, vicinity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01461_chiiki",
+      "reading": "ちいき",
+      "headword": "{地域|ちいき}",
+      "label": "region, area"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01462_chikaku",
+      "reading": "ちかく",
+      "headword": "{近く|ちかく}",
+      "label": "nearby, vicinity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03206_shuui",
+      "reading": "しゅうい",
+      "headword": "{周囲|しゅうい}",
+      "label": "surroundings, circumference"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13561_chounai",
+      "reading": "ちょうない",
+      "headword": "{町内|ちょうない}",
+      "label": "neighborhood, within the town"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:54:30Z",
-    "modified": "2026-05-14T22:19:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{処理|しょり}する",
   "reading": "しょりする",
   "romaji": "shorisuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to handle; to process; to deal with",
   "definitions": [
     {
@@ -45,7 +45,57 @@
     }
   ],
   "notes": "{処理|しょり}する implies methodical, often routine handling of tasks, data, or problems. It is widely used in both business and technical contexts. The nuance is pragmatic and efficient — getting things done — rather than creative or emotional.\n\nCOMMON COLLOCATIONS:\n- データを{処理|しょり}する: process data\n- {情報|じょうほう}を{処理|しょり}する: process information\n- ゴミを{処理|しょり}する: dispose of garbage\n- {事務|じむ}{処理|しょり}: office work; clerical processing\n- {画像|がぞう}{処理|しょり}: image processing\n- {処理|しょり}{速度|そくど}: processing speed\n\nSIMILAR WORDS:\n- {対処|たいしょ}する: to cope with; to deal with — emphasizes responding to a problem or situation, often something unexpected\n- {扱|あつか}う: to handle; to deal with — broader, includes physical handling and treating people or topics\n- {解決|かいけつ}する: to solve; to resolve — focuses on reaching a solution, not the process of handling",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20049_taishosuru",
+      "reading": "たいしょする",
+      "headword": "{対処|たいしょ}する",
+      "label": "to cope with"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01862_atsukau",
+      "reading": "あつかう",
+      "headword": "{扱|あつか}う",
+      "label": "to handle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17191_kaiketsusuru",
+      "reading": "かいけつする",
+      "headword": "{解決|かいけつ}する",
+      "label": "to solve"
+    },
+    {
+      "type": "related",
+      "target_id": "09653_shorijou",
+      "reading": "しょりじょう",
+      "headword": "{処理場|しょりじょう}",
+      "label": "processing plant"
+    },
+    {
+      "type": "related",
+      "target_id": "09897_konasu",
+      "reading": "こなす",
+      "headword": "こなす",
+      "label": "to handle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25223_kakousuru",
+      "reading": "かこうする",
+      "headword": "{加工|かこう}する",
+      "label": "to process"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27532_sabaku",
+      "reading": "さばく",
+      "headword": "{捌|さば}く",
+      "label": "to dress (fish)"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +104,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "action",
         "work"
@@ -62,7 +114,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T16:13:49Z",
-    "modified": "2026-04-25T16:13:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

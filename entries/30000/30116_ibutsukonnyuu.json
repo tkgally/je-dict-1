@@ -46,6 +46,22 @@
   ],
   "notes": "{異物|いぶつ} is the foreign object itself; {混入|こんにゅう} is its getting mixed in. The compound is standard in food-safety and manufacturing contexts and appears constantly in recall notices.\n\nCOMMON COLLOCATIONS:\n- {異物混入|いぶつこんにゅう}が{発覚|はっかく}する: contamination comes to light\n- {異物混入|いぶつこんにゅう}を{防|ふせ}ぐ: to prevent contamination\n- {異物混入|いぶつこんにゅう}{事件|じけん}: a contamination incident\n\nSIMILAR WORDS:\n- {食中毒|しょくちゅうどく}: food poisoning — illness from bacteria or toxins, not a physical object\n- {汚染|おせん}: pollution; contamination — chemical or biological, and used of the environment as well as products",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07020_shokuchuudoku",
+      "reading": "しょくちゅうどく",
+      "headword": "{食中毒|しょくちゅうどく}",
+      "label": "food poisoning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02595_osen",
+      "reading": "おせん",
+      "headword": "{汚染|おせん}",
+      "label": "pollution"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food"
       ],
@@ -62,6 +78,6 @@
       ]
     },
     "created": "2026-07-25T18:20:39Z",
-    "modified": "2026-07-25T18:20:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

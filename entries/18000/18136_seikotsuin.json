@@ -19,7 +19,9 @@
       "english": "My lower back hurt, so I went to an osteopathic clinic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18136_seikotsuin_ex2",
@@ -27,7 +29,9 @@
       "english": "A new bonesetting clinic opened in front of the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18136_seikotsuin_ex3",
@@ -35,22 +39,45 @@
       "english": "When people get injured playing sports, many go not only to the hospital but also to a bonesetting clinic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{整骨院|せいこついん} is also called {接骨院|せっこついん}. Both refer to the same type of clinic. They are distinct from {整体院|せいたいいん} (bodywork/chiropractic clinic), which is not covered by health insurance.\n\nCOMMON COLLOCATIONS:\n- {整骨院|せいこついん}に{通|かよ}う (to go regularly to a bonesetting clinic)\n- {整骨院|せいこついん}で{治療|ちりょう}を{受|う}ける (to receive treatment at a bonesetting clinic)\n\nSIMILAR WORDS:\n- {接骨院|せっこついん}: same meaning, alternative name\n- {整体院|せいたいいん}: bodywork/chiropractic clinic — not insurance-covered, different qualifications\n- {鍼灸院|しんきゅういん}: acupuncture and moxibustion clinic",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20981_sekkotsuin",
+      "reading": "せっこついん",
+      "headword": "{接骨院|せっこついん}",
+      "label": "same meaning, alternative name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25767_seitaiin",
+      "reading": "せいたいいん",
+      "headword": "{整体院|せいたいいん}",
+      "label": "bodywork/chiropractic clinic"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T06:44:16Z",
-    "modified": "2026-03-20T06:44:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"],
-      "domain": ["medical"]
+      "semantic": [
+        "building"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

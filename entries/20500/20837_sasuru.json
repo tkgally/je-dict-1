@@ -3,7 +3,7 @@
   "id": "20837_sasuru",
   "headword": "さする",
   "reading": "さする",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to rub; to stroke; to massage gently",
   "conjugation": {
     "type": "suru",
@@ -145,10 +145,39 @@
     }
   ],
   "notes": "A gentle, comforting action of rubbing or stroking a body part. Commonly used when soothing someone who is in pain, feeling sick, or crying. The motion is light and repetitive, distinct from a firm massage.\n\nCOMMON COLLOCATIONS:\n- {背中|せなか}をさする: to rub someone's back\n- お{腹|なか}をさする: to rub one's tummy\n- {肩|かた}をさする: to rub one's shoulders\n- {膝|ひざ}をさする: to rub one's knees\n\nSIMILAR WORDS:\n- {撫|な}でる: to stroke, to pet (lighter touch, often for hair or animals)\n- {揉|も}む: to knead, to massage (firmer pressure)\n- こする: to rub (more vigorous, can imply friction or scrubbing)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04411_naderu",
+      "reading": "なでる",
+      "headword": "{撫|な}でる",
+      "label": "to stroke, to pet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00289_momu",
+      "reading": "もむ",
+      "headword": "{揉|も}む",
+      "label": "to knead, to massage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04262_kosuru",
+      "reading": "こする",
+      "headword": "{擦|こす}る",
+      "label": "to rub"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25199_aibu",
+      "reading": "あいぶ",
+      "headword": "{愛撫|あいぶ}",
+      "label": "caress"
+    }
+  ],
   "metadata": {
     "created": "2026-03-30T18:21:05Z",
-    "modified": "2026-07-28T09:34:52Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

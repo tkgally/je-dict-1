@@ -3,7 +3,7 @@
   "headword": "{幼児|ようじ}{向|む}け",
   "reading": "ようじむけ",
   "romaji": "youjimuke",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "for young children; aimed at toddlers",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "26433_youjimuke_ex1",
       "japanese": "{幼児|ようじ}{向|む}けの{絵本|えほん}を{買|か}った。",
       "english": "I bought a picture book for young children.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26433_youjimuke_ex2",
       "japanese": "この{番組|ばんぐみ}は{幼児|ようじ}{向|む}けに{作|つく}られている。",
       "english": "This program is made for young children.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,53 @@
       "id": "26433_youjimuke_ex3",
       "japanese": "{幼児|ようじ}{向|む}けの{英語|えいご}{教材|きょうざい}は{種類|しゅるい}が{豊富|ほうふ}で、{選|えら}ぶのに{迷|まよ}う。",
       "english": "There are so many types of English learning materials for young children that it's hard to choose.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {幼児|ようじ} (young child, toddler) and {向|む}け (aimed at, intended for). The {向|む}け suffix is highly productive and can attach to many target audiences: {子供|こども}{向|む}け (for children), {大人|おとな}{向|む}け (for adults), {初心者|しょしんしゃ}{向|む}け (for beginners).\n\nCOMMON COLLOCATIONS:\n- {幼児|ようじ}{向|む}けの{絵本|えほん}: picture book for toddlers\n- {幼児|ようじ}{向|む}け{番組|ばんぐみ}: children's TV program\n- {幼児|ようじ}{向|む}け{教材|きょうざい}: learning materials for young children\n- {幼児|ようじ}{向|む}け{食品|しょくひん}: food for young children\n\nSIMILAR WORDS:\n- {子供|こども}{向|む}け: for children — broader age range, typically up to elementary school\n- {幼児用|ようじよう}: for young children's use — focuses more on physical products (seats, utensils) rather than content\n- {乳幼児|にゅうようじ}{向|む}け: for infants and toddlers — includes babies under one year",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17933_kodomomuke",
+      "reading": "こどもむけ",
+      "headword": "{子供向|こどもむ}け",
+      "label": "for children"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25175_kazokumuke",
+      "reading": "かぞくむけ",
+      "headword": "{家族向|かぞくむ}け",
+      "label": "for families"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25176_jidoumuke",
+      "reading": "じどうむけ",
+      "headword": "{児童向|じどうむ}け",
+      "label": "for children"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
-      "semantic": ["family", "education"]
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "family",
+        "education"
+      ]
     },
     "created": "2026-05-01T16:19:38Z",
-    "modified": "2026-06-15T07:57:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "04625_oidasu",
   "headword": "{追|お}い{出|だ}す",
   "reading": "おいだす",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to drive out, to expel, to kick out",
   "conjugation": {
     "type": "godan",
@@ -168,11 +168,47 @@
       ]
     }
   ],
-  "notes": "{追|お}い{出|だ}す is a transitive verb (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) meaning to drive out or expel.\n\nCOMPOUND STRUCTURE:\n- ⟦{追|お}う→追う：02016_ou⟧ (to chase) + ⟦{出|だ}す→出す：01087_dasu⟧ (to put out) → to chase out\n\nTRANSITIVITY:\n- {追|お}い{出|だ}す (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧): to drive someone out\n- There is no common intransitive pair\n\nASPECT (ている):\n{追|お}い{出|だ}されている indicates a state of having been expelled.\n\nCOMMON PATTERNS:\n- ⟦{部屋|へや}→部屋：00507_heya⟧から{追|お}い{出|だ}す (drive out of a room)\n- ⟦{家|いえ}→家：00612_ie⟧から{追|お}い{出|だ}す (kick out of the house)\n- ⟦{会社|かいしゃ}→会社：00607_kaisha⟧から{追|お}い{出|だ}す (kick out of the company)\n- ⟦{国|くに}→国：02204_kuni⟧から{追|お}い{出|だ}す (expel from a country)\n\nRELATED WORDS:\n- ⟦{追放|ついほう}→追放：14313_tsuihou⟧: exile, banishment (more formal)\n- ⟦{排除|はいじょ}→排除：07631_haijo⟧: exclusion, removal (formal)",
-  "cross_references": [],
+  "notes": "{追|お}い{出|だ}す is a transitive verb (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧) meaning to drive out or expel.\n\nETYMOLOGY:\n- ⟦{追|お}う→追う：02016_ou⟧ (to chase) + ⟦{出|だ}す→出す：01087_dasu⟧ (to put out) → to chase out\n\nTRANSITIVITY:\n- {追|お}い{出|だ}す (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧): to drive someone out\n- There is no common intransitive pair\n\nASPECT (ている):\n{追|お}い{出|だ}されている indicates a state of having been expelled.\n\nCOMMON PATTERNS:\n- ⟦{部屋|へや}→部屋：00507_heya⟧から{追|お}い{出|だ}す (drive out of a room)\n- ⟦{家|いえ}→家：00612_ie⟧から{追|お}い{出|だ}す (kick out of the house)\n- ⟦{会社|かいしゃ}→会社：00607_kaisha⟧から{追|お}い{出|だ}す (kick out of the company)\n- ⟦{国|くに}→国：02204_kuni⟧から{追|お}い{出|だ}す (expel from a country)\n\nRELATED WORDS:\n- ⟦{追放|ついほう}→追放：14313_tsuihou⟧: exile, banishment (more formal)\n- ⟦{排除|はいじょ}→排除：07631_haijo⟧: exclusion, removal (formal)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14313_tsuihou",
+      "reading": "ついほう",
+      "headword": "{追放|ついほう}",
+      "label": "exile, banishment"
+    },
+    {
+      "type": "related",
+      "target_id": "07631_haijo",
+      "reading": "はいじょ",
+      "headword": "{排除|はいじょ}",
+      "label": "exclusion, removal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18717_oiotosu",
+      "reading": "おいおとす",
+      "headword": "{追|お}い{落|お}とす",
+      "label": "to oust"
+    },
+    {
+      "type": "related",
+      "target_id": "19092_tachinoki",
+      "reading": "たちのき",
+      "headword": "{立|た}ち{退|の}き",
+      "label": "eviction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25392_tsuihousuru",
+      "reading": "ついほうする",
+      "headword": "{追放|ついほう}する",
+      "label": "to banish"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T03:52:00Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -17,7 +17,9 @@
       "id": "27486_teeburunapukin_ex1",
       "japanese": "テーブルナプキンを{膝|ひざ}に{置|お}いた。",
       "english": "I placed the napkin on my lap.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27486_teeburunapukin_ex2",
       "japanese": "{布製|ぬのせい}のテーブルナプキンを{使|つか}う{店|みせ}が{多|おお}い。",
       "english": "Many restaurants use cloth table napkins.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,53 @@
       "id": "27486_teeburunapukin_ex3",
       "japanese": "{食事|しょくじ}の{前|まえ}に、テーブルナプキンを{広|ひろ}げて{膝|ひざ}にかけるのが{正式|せいしき}なマナーだ。",
       "english": "Formal etiquette says to unfold the napkin and place it on your lap before eating.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"table napkin.\" Used in restaurants and formal dining contexts, often distinguishing the dining-table napkin from other Japanese senses of ナプキン (which alone often suggests sanitary pads).\n\nCOMMON COLLOCATIONS:\n- テーブルナプキンを{膝|ひざ}に{置|お}く: to place the napkin on one's lap\n- テーブルナプキンで{口|くち}を{拭|ふ}く: to wipe one's mouth with the napkin\n- {布製|ぬのせい}のテーブルナプキン: cloth napkin\n\nSIMILAR WORDS:\n- ナプキン: napkin — alone, this term often refers to sanitary pads in casual speech, so the fuller form テーブルナプキン is preferred for dining contexts\n- {紙|かみ}ナプキン: paper napkin — disposable dining napkin\n- おしぼり: hot/cold hand towel — given to guests before a meal in Japan, not the same as a napkin",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10257_napukin",
+      "reading": "なぷきん",
+      "headword": "ナプキン",
+      "label": "napkin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24724_kaminapukin",
+      "reading": "かみなぷきん",
+      "headword": "{紙|かみ}ナプキン",
+      "label": "paper napkin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09726_oshibori",
+      "reading": "おしぼり",
+      "headword": "おしぼり",
+      "label": "hot/cold hand towel"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["daily-life", "food"],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life",
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-05-12T23:54:20Z",
-    "modified": "2026-05-12T23:54:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

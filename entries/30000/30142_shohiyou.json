@@ -46,6 +46,22 @@
   ],
   "notes": "The prefix {諸|しょ} (various, several) attached to {費用|ひよう} (expenses). It appears mainly in written quotes and contracts, where it covers items too numerous to list individually.\n\nCOMMON COLLOCATIONS:\n- {諸費用|しょひよう}がかかる: for various costs to be incurred\n- {諸費用|しょひよう}を{含|ふく}む: to include miscellaneous costs\n- {諸費用|しょひよう}{込|こ}み: miscellaneous costs included\n\nSIMILAR WORDS:\n- {手数料|てすうりょう}: handling fee — one specific charge, often part of the {諸費用|しょひよう}\n- {経費|けいひ}: expenses — costs a business incurs in operating, viewed from the accounting side",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05423_tesuuryou",
+      "reading": "てすうりょう",
+      "headword": "{手数料|てすうりょう}",
+      "label": "handling fee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04696_keihi",
+      "reading": "けいひ",
+      "headword": "{経費|けいひ}",
+      "label": "expenses"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "money",
         "business"
@@ -63,6 +79,6 @@
       ]
     },
     "created": "2026-07-26T12:19:17Z",
-    "modified": "2026-07-26T12:19:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

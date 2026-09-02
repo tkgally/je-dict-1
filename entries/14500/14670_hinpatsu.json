@@ -3,7 +3,7 @@
   "id": "14670_hinpatsu",
   "headword": "{頻発|ひんぱつ}",
   "reading": "ひんぱつ",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "frequent occurrence",
   "conjugation": {
     "type": "suru",
@@ -142,11 +142,39 @@
       "reading": "たはつ",
       "headword": "{多発|たはつ}",
       "label": "frequent occurrence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08631_hinpan",
+      "reading": "ひんぱん",
+      "headword": "{頻繁|ひんぱん}",
+      "label": "frequent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13860_zokushutsu",
+      "reading": "ぞくしゅつ",
+      "headword": "{続出|ぞくしゅつ}",
+      "label": "appearing one after another, occurring in rapid succession"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20863_renpatsu",
+      "reading": "れんぱつ",
+      "headword": "{連発|れんぱつ}",
+      "label": "firing in rapid succession, rapid repetition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20864_zokuhatsu",
+      "reading": "ぞくはつ",
+      "headword": "{続発|ぞくはつ}",
+      "label": "occurring one after another, successive occurrence"
     }
   ],
   "metadata": {
     "created": "2026-03-02T10:57:53Z",
-    "modified": "2026-04-30T09:17:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

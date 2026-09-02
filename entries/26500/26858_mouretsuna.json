@@ -3,7 +3,7 @@
   "headword": "{猛烈|もうれつ}な",
   "reading": "もうれつな",
   "romaji": "mouretsuna",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "fierce; violent; intense; furious",
   "definitions": [
     {
@@ -55,7 +55,36 @@
     }
   ],
   "notes": "A strong intensifier that conveys something pushed to an extreme degree. Common in weather reports for the most powerful typhoon category ({猛烈|もうれつ}な{台風|たいふう}), and in business culture for the concept of the {猛烈|もうれつ}サラリーマン (fiercely dedicated salaryman of the high-growth era).\n\nCOMMON COLLOCATIONS:\n- {猛烈|もうれつ}な{台風|たいふう}: extremely powerful typhoon\n- {猛烈|もうれつ}な{暑|あつ}さ: intense heat\n- {猛烈|もうれつ}な{反対|はんたい}: fierce opposition\n- {猛烈|もうれつ}な{勢|いきお}いで: with tremendous force\n- {猛烈|もうれつ}に{働|はたら}く: to work furiously\n\nSIMILAR WORDS:\n- {激|はげ}しい: intense, violent — broader use, more common in everyday speech\n- {強烈|きょうれつ}な: powerful, intense — emphasizes impact on the senses or emotions\n- すさまじい: tremendous, terrifying — implies something awe-inspiring or dreadful",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02348_hageshii",
+      "reading": "はげしい",
+      "headword": "{激|はげ}しい",
+      "label": "intense, violent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15109_kyouretsu",
+      "reading": "きょうれつ",
+      "headword": "{強烈|きょうれつ}",
+      "label": "powerful, intense"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07674_susamajii",
+      "reading": "すさまじい",
+      "headword": "すさまじい",
+      "label": "tremendous, terrifying"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26880_souzetsuna",
+      "reading": "そうぜつな",
+      "headword": "{壮絶|そうぜつ}な",
+      "label": "fierce"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -70,6 +99,6 @@
       ]
     },
     "created": "2026-05-05T14:10:31Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

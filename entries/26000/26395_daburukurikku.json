@@ -3,7 +3,7 @@
   "headword": "ダブルクリック",
   "reading": "だぶるくりっく",
   "romaji": "daburukurikku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "double-click",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "A loanword from English 'double-click.' Used both as a noun and as a suru verb (ダブルクリックする). This is basic computer literacy vocabulary in Japanese, frequently encountered in software instructions, help documents, and IT training.\n\nCOMMON COLLOCATIONS:\n- ダブルクリックする: to double-click\n- ダブルクリックで{開|ひら}く: to open by double-clicking\n- ダブルクリックの{速度|そくど}: double-click speed\n- ダブルクリックの{間隔|かんかく}: double-click interval\n\nSIMILAR WORDS:\n- クリック: click — a single click\n- {右|みぎ}クリック: right-click\n- ドラッグ: drag — clicking and holding while moving the mouse\n- タップ: tap — the touchscreen equivalent of a click",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05275_kurikku",
+      "reading": "くりっく",
+      "headword": "クリック",
+      "label": "click"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28814_doraggu",
+      "reading": "どらっぐ",
+      "headword": "ドラッグ",
+      "label": "drag"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05395_tappu",
+      "reading": "たっぷ",
+      "headword": "タップ",
+      "label": "tap"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,13 +76,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "technology"
       ],
       "verb_class": "suru"
     },
     "created": "2026-05-01T13:36:20Z",
-    "modified": "2026-05-01T13:36:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

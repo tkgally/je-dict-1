@@ -17,7 +17,9 @@
       "id": "28811_mushipan_ex1",
       "japanese": "{蒸|む}しパンを{作|つく}った。",
       "english": "I made steamed cakes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28811_mushipan_ex2",
       "japanese": "{子|こ}どもがおやつに{蒸|む}しパンを{食|た}べている。",
       "english": "The kids are having steamed bread for a snack.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,59 @@
       "id": "28811_mushipan_ex3",
       "japanese": "ホットケーキミックスを{使|つか}えば{電子|でんし}レンジで{簡単|かんたん}に{蒸|む}しパンが{作|つく}れる。",
       "english": "Using pancake mix, you can easily make steamed cakes in the microwave.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {蒸|む}す (to steam) + パン (bread). The texture is somewhere between a muffin and a sponge cake, lighter and moister than baked bread.\n\nCOMMON COLLOCATIONS:\n- {蒸|む}しパンを{作|つく}る: to make steamed cakes\n- ふわふわの{蒸|む}しパン: fluffy steamed cake\n- {黒糖|こくとう}{蒸|む}しパン: brown-sugar steamed cake (a classic variety)\n- {離乳食|りにゅうしょく}の{蒸|む}しパン: steamed cakes for baby food\n\nSIMILAR WORDS:\n- {肉|にく}まん / あんまん: filled steamed buns — quite different in size, texture, and use\n- カステラ: castella — baked sponge cake, denser and sweeter\n- マフィン: muffin — baked, with a crustier surface",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28810_nikuman",
+      "reading": "にくまん",
+      "headword": "{肉|にく}まん",
+      "label": "filled steamed buns"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30279_anman",
+      "reading": "あんまん",
+      "headword": "あんまん",
+      "label": "filled steamed buns"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10787_kasutera",
+      "reading": "かすてら",
+      "headword": "カステラ",
+      "label": "castella"
+    },
+    {
+      "type": "related",
+      "target_id": "02307_musu",
+      "reading": "むす",
+      "headword": "{蒸|む}す",
+      "label": "to steam, to be humid"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-06-05T04:08:23Z",
-    "modified": "2026-06-05T04:08:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

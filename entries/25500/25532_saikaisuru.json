@@ -3,7 +3,7 @@
   "headword": "{再開|さいかい}する",
   "reading": "さいかいする",
   "romaji": "saikaisuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to resume; to reopen; to restart",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "{再開|さいかい}する combines {再|さい} (again) and {開|かい} (open), meaning to open or start something again after an interruption. It is used for both transitive (to resume something) and intransitive (something resumes) patterns.\n\nUSAGE:\n- ～を{再開|さいかい}する: to resume something (transitive)\n- ～が{再開|さいかい}する/される: something resumes (intransitive/passive)\n\nCOMMON COLLOCATIONS:\n- {営業|えいぎょう}を{再開|さいかい}する: to reopen for business\n- {運転|うんてん}を{再開|さいかい}する: to resume service (trains, etc.)\n- {交渉|こうしょう}を{再開|さいかい}する: to resume negotiations\n- {活動|かつどう}を{再開|さいかい}する: to resume activities\n- {工事|こうじ}を{再開|さいかい}する: to restart construction\n\nSIMILAR WORDS:\n- {再|さい}スタートする: to restart — more casual, often used for personal endeavors or career restarts\n- {復活|ふっかつ}する: to revive; to come back — implies revival from a dead or defunct state, stronger than {再開|さいかい}\n- {続|つづ}ける: to continue — implies no interruption occurred, unlike {再開|さいかい} which presupposes a break",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12565_fukkatsu",
+      "reading": "ふっかつ",
+      "headword": "{復活|ふっかつ}",
+      "label": "to revive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01231_tsuzukeru",
+      "reading": "つづける",
+      "headword": "{続|つづ}ける",
+      "label": "to continue"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +69,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "action",
         "change"
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T16:14:09Z",
-    "modified": "2026-04-25T16:14:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -17,7 +17,9 @@
       "id": "21197_edamame_ex1",
       "japanese": "{枝豆|えだまめ}を{茹|ゆ}でる。",
       "english": "To boil edamame.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21197_edamame_ex2",
       "japanese": "ビールに{枝豆|えだまめ}はよく{合|あ}う。",
       "english": "Edamame goes well with beer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "21197_edamame_ex3",
       "japanese": "{居酒屋|いざかや}でまず{枝豆|えだまめ}を{注文|ちゅうもん}するのが{定番|ていばん}だ。",
       "english": "It's customary to order edamame first at an izakaya.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Immature soybeans ({大豆|だいず}) picked while still in the green pod. The name literally means 'branch beans' ({枝|えだ} branch + {豆|まめ} bean) because they were traditionally sold still attached to the branch.\n\nCOMMON COLLOCATIONS:\n- {枝豆|えだまめ}を{茹|ゆ}でる: to boil edamame\n- {冷凍|れいとう}{枝豆|えだまめ}: frozen edamame\n- {塩|しお}ゆで{枝豆|えだまめ}: salt-boiled edamame\n\nCULTURAL NOTE:\nOne of the most iconic beer snacks (おつまみ) in Japan. At {居酒屋|いざかや} (Japanese pubs), edamame is often the first thing ordered and may arrive automatically as a table charge item (お{通|とお}し). Rich in protein and considered a healthy snack.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24840_sayaingen",
+      "reading": "さやいんげん",
+      "headword": "さやいんげん",
+      "label": "green bean"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25094_ingenmame",
+      "reading": "いんげんまめ",
+      "headword": "いんげんまめ",
+      "label": "common bean"
+    },
+    {
+      "type": "related",
+      "target_id": "25566_sayaendou",
+      "reading": "さやえんどう",
+      "headword": "さやえんどう",
+      "label": "snow pea"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-01T14:16:10Z",
-    "modified": "2026-07-26T03:19:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

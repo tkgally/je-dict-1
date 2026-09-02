@@ -19,7 +19,9 @@
       "english": "I applied for a change of residence status.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18891_zairyuushikaku_ex2",
@@ -27,7 +29,9 @@
       "english": "You cannot work in Japan without a residence status.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18891_zairyuushikaku_ex3",
@@ -35,22 +39,66 @@
       "english": "To switch from a student to a work residence status, you need to complete procedures at the immigration bureau.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nEssential vocabulary for foreigners living in Japan. There are 29 categories of residence status, including {技術|ぎじゅつ}・{人文知識|じんぶんちしき}・{国際業務|こくさいぎょうむ} (engineer/specialist in humanities/international services), {留学|りゅうがく} (student), and {永住者|えいじゅうしゃ} (permanent resident).\n\nCOMMON COLLOCATIONS:\n- {在留|ざいりゅう}{資格|しかく}を{取得|しゅとく}する (to obtain a residence status)\n- {在留|ざいりゅう}{資格|しかく}を{更新|こうしん}する (to renew a residence status)\n- {在留|ざいりゅう}{資格|しかく}の{変更|へんこう} (change of residence status)\n- {在留|ざいりゅう}{資格|しかく}{認定|にんてい}{証明書|しょうめいしょ} (Certificate of Eligibility)\n\nSIMILAR WORDS:\n- ビザ: visa — the entry permit stamped in a passport; technically separate from residence status\n- {在留|ざいりゅう}カード: residence card — the physical ID card issued to foreign residents",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08283_biza",
+      "reading": "びざ",
+      "headword": "ビザ",
+      "label": "visa"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23526_zairyuukaado",
+      "reading": "ざいりゅうかーど",
+      "headword": "{在留|ざいりゅう}カード",
+      "label": "residence card"
+    },
+    {
+      "type": "related",
+      "target_id": "15450_eijuuken",
+      "reading": "えいじゅうけん",
+      "headword": "{永住権|えいじゅうけん}",
+      "label": "permanent residency"
+    },
+    {
+      "type": "related",
+      "target_id": "21774_shuuroubiza",
+      "reading": "しゅうろうびざ",
+      "headword": "{就労|しゅうろう}ビザ",
+      "label": "work visa"
+    },
+    {
+      "type": "related",
+      "target_id": "26608_zairyuuken",
+      "reading": "ざいりゅうけん",
+      "headword": "{在留権|ざいりゅうけん}",
+      "label": "right of residence"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:25:05Z",
-    "modified": "2026-03-23T06:25:05Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

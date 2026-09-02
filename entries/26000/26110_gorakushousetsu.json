@@ -17,7 +17,9 @@
       "id": "26110_gorakushousetsu_ex1",
       "japanese": "{娯楽|ごらく}{小説|しょうせつ}を{読|よ}むのが{好|す}きだ。",
       "english": "I like reading popular fiction.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26110_gorakushousetsu_ex2",
       "japanese": "この{作家|さっか}は{純文学|じゅんぶんがく}より{娯楽|ごらく}{小説|しょうせつ}で{知|し}られている。",
       "english": "This author is better known for popular fiction than for literary novels.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,43 @@
       "id": "26110_gorakushousetsu_ex3",
       "japanese": "{娯楽|ごらく}{小説|しょうせつ}だからといって{価値|かち}が{低|ひく}いわけではない。",
       "english": "Just because something is popular fiction doesn't mean it has less value.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {娯楽|ごらく} (entertainment; amusement) and {小説|しょうせつ} (novel). In Japanese literary discourse, fiction is traditionally divided into {純文学|じゅんぶんがく} (literary fiction/serious literature) and {娯楽|ごらく}{小説|しょうせつ} (entertainment fiction). This distinction parallels but is not identical to the Western literary/genre fiction divide.\n\nCOMMON COLLOCATIONS:\n- {娯楽|ごらく}{小説|しょうせつ}を{書|か}く: to write popular fiction\n- {娯楽|ごらく}{小説|しょうせつ}{作家|さっか}: popular fiction writer\n- {娯楽|ごらく}{小説|しょうせつ}と{純文学|じゅんぶんがく}: popular fiction and literary fiction\n\nSIMILAR WORDS:\n- {純文学|じゅんぶんがく}: literary fiction; serious literature — the counterpart, emphasizing artistic merit\n- {大衆|たいしゅう}{小説|しょうせつ}: popular novel; mass-market fiction — nearly synonymous, emphasizes broad readership\n- ライトノベル: light novel — a specific modern genre targeted at young readers, with anime/manga-style illustration",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13983_junbungaku",
+      "reading": "じゅんぶんがく",
+      "headword": "{純文学|じゅんぶんがく}",
+      "label": "literary fiction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26651_tsuuzokubungaku",
+      "reading": "つうぞくぶんがく",
+      "headword": "{通俗文学|つうぞくぶんがく}",
+      "label": "popular literature"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["art"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "art"
+      ]
     },
     "created": "2026-04-29T13:37:57Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

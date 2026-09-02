@@ -81,6 +81,29 @@
   ],
   "notes": "The order of directions in Japanese is {東|ひがし} (east), {西|にし} (west), {南|みなみ} (south), {北|きた} (north) — different from the English convention of north, south, east, west. This four-character compound uses the on'yomi readings.\n\nCOMMON COLLOCATIONS:\n- {東西南北|とうざいなんぼく}の{方角|ほうがく}: the four cardinal directions\n- {東西南北|とうざいなんぼく}に{広|ひろ}がる: to spread in all directions\n- {東西南北|とうざいなんぼく}がわからない: to not know which way is which\n\nSIMILAR WORDS:\n- {方角|ほうがく}: direction, compass point — the general concept of direction\n- {四方|しほう}: four directions, all sides — similar meaning but less specific to compass directions\n- {方位|ほうい}: compass bearing — more technical, used with compasses and navigation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08447_hougaku",
+      "reading": "ほうがく",
+      "headword": "{方角|ほうがく}",
+      "label": "direction, compass point"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08729_shihou",
+      "reading": "しほう",
+      "headword": "{四方|しほう}",
+      "label": "four directions, all sides"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13047_houi",
+      "reading": "ほうい",
+      "headword": "{方位|ほうい}",
+      "label": "compass bearing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -95,6 +118,6 @@
       ]
     },
     "created": "2026-04-05T03:35:32Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

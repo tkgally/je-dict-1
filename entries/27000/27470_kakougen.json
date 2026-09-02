@@ -17,7 +17,9 @@
       "id": "27470_kakougen_ex1",
       "japanese": "{火口原|かこうげん}に{湖|みずうみ}がある。",
       "english": "There is a lake on the caldera floor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27470_kakougen_ex2",
       "japanese": "{阿蘇山|あそざん}の{火口原|かこうげん}は{広大|こうだい}だ。",
       "english": "The caldera floor of Mount Aso is vast.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "27470_kakougen_ex3",
       "japanese": "{火口原|かこうげん}の{中央|ちゅうおう}には、{噴火|ふんか}によってできた{中央|ちゅうおう}{火口丘|かこうきゅう}がそびえている。",
       "english": "In the center of the caldera floor rises a central cone formed by an eruption.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {火口|かこう} (volcanic crater) + {原|げん}/{原|はら} (plain). Used in geology and geography for the flat interior of a caldera or large crater. A {火口原|かこうげん} often contains a smaller {中央|ちゅうおう}{火口丘|かこうきゅう} (central cone) or {火口原|かこうげん}{湖|こ} (crater lake).\n\nCOMMON COLLOCATIONS:\n- {火口原|かこうげん}{湖|こ}: crater lake on a caldera floor\n- {中央|ちゅうおう}{火口丘|かこうきゅう}: central cone within a caldera\n- {広大|こうだい}な{火口原|かこうげん}: vast caldera floor\n\nRELATED TERMS:\n- {火口|かこう}: volcanic crater\n- カルデラ: caldera (loanword)\n- {火山|かざん}: volcano\n- {噴火|ふんか}: volcanic eruption",
+  "notes": "Compound of {火口|かこう} (volcanic crater) + {原|げん}/{原|はら} (plain). Used in geology and geography for the flat interior of a caldera or large crater. A {火口原|かこうげん} often contains a smaller {中央|ちゅうおう}{火口丘|かこうきゅう} (central cone) or {火口原|かこうげん}{湖|こ} (crater lake).\n\nCOMMON COLLOCATIONS:\n- {火口原|かこうげん}{湖|こ}: crater lake on a caldera floor\n- {中央|ちゅうおう}{火口丘|かこうきゅう}: central cone within a caldera\n- {広大|こうだい}な{火口原|かこうげん}: vast caldera floor\n\nRELATED WORDS:\n- {火口|かこう}: volcanic crater\n- カルデラ: caldera (loanword)\n- {火山|かざん}: volcano\n- {噴火|ふんか}: volcanic eruption",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04020_kazan",
+      "reading": "かざん",
+      "headword": "{火山|かざん}",
+      "label": "volcano"
+    },
+    {
+      "type": "related",
+      "target_id": "00045_funka",
+      "reading": "ふんか",
+      "headword": "{噴火|ふんか}",
+      "label": "volcanic eruption"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["nature"],
-      "domain": ["technical"]
+      "politeness": "plain",
+      "semantic": [
+        "nature"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-05-12T04:10:44Z",
-    "modified": "2026-05-12T04:10:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

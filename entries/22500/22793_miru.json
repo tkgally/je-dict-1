@@ -3,7 +3,7 @@
   "headword": "{観|み}る",
   "reading": "みる",
   "romaji": "miru",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to watch; to view (a performance, show, or spectacle)",
   "definitions": [
     {
@@ -44,7 +44,7 @@
       "notes": null
     }
   ],
-  "notes": "The kanji {観|み}る specifically refers to watching as a spectator — viewing performances, shows, films, and spectacles. While {見|み}る is the general-purpose \"to see/look at,\" {観|み}る implies appreciating or taking in something meant to be watched.\n\nKANJI USAGE:\n- {見|み}る: general seeing, looking at anything\n- {観|み}る: watching performances, shows, movies, spectacles\n- {診|み}る: examining (medical)\n- {視|み}る: inspecting, observing (formal)\n\nIn casual writing, {見|み}る or hiragana みる is often used for all meanings. {観|み}る is preferred in more careful or literary writing when referring to entertainment.\n\nCOMMON COLLOCATIONS:\n- {映画|えいが}を{観|み}る: to watch a movie\n- {芝居|しばい}を{観|み}る: to watch a play\n- {試合|しあい}を{観|み}る: to watch a game\n- お{花見|はなみ}: flower viewing (uses the same {観|み} concept)\n\nSIMILAR WORDS:\n- {見|み}る: to see, to look at — the general-purpose verb; covers all types of seeing\n- {鑑賞|かんしょう}する: to appreciate (art, music) — more formal; emphasizes aesthetic appreciation\n- {観覧|かんらん}する: to view, to watch — formal; used for exhibitions and public events",
+  "notes": "The kanji {観|み}る specifically refers to watching as a spectator — viewing performances, shows, films, and spectacles. While {見|み}る is the general-purpose \"to see/look at,\" {観|み}る implies appreciating or taking in something meant to be watched.\n\nWRITING:\n- {見|み}る: general seeing, looking at anything\n- {観|み}る: watching performances, shows, movies, spectacles\n- {診|み}る: examining (medical)\n- {視|み}る: inspecting, observing (formal)\n\nIn casual writing, {見|み}る or hiragana みる is often used for all meanings. {観|み}る is preferred in more careful or literary writing when referring to entertainment.\n\nCOMMON COLLOCATIONS:\n- {映画|えいが}を{観|み}る: to watch a movie\n- {芝居|しばい}を{観|み}る: to watch a play\n- {試合|しあい}を{観|み}る: to watch a game\n- お{花見|はなみ}: flower viewing (uses the same {観|み} concept)\n\nSIMILAR WORDS:\n- {見|み}る: to see, to look at — the general-purpose verb; covers all types of seeing\n- {鑑賞|かんしょう}する: to appreciate (art, music) — more formal; emphasizes aesthetic appreciation\n- {観覧|かんらん}する: to view, to watch — formal; used for exhibitions and public events",
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -52,14 +52,18 @@
       "pos": [
         "verb-ichidan"
       ],
-      "semantic": ["cognition", "entertainment", "action"],
+      "semantic": [
+        "cognition",
+        "entertainment",
+        "action"
+      ],
       "domain": [],
       "formality": "neutral",
       "politeness": "plain",
       "verb_class": "ichidan"
     },
     "created": "2026-04-07T16:42:21Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",
@@ -158,6 +162,41 @@
       "reading": "しちょう",
       "headword": "{視聴|しちょう}",
       "label": "viewing (formal)"
+    },
+    {
+      "type": "homophone",
+      "target_id": "00283_miru",
+      "reading": "みる",
+      "headword": "{見|み}る",
+      "label": "to see, to look at"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14516_kanshou",
+      "reading": "かんしょう",
+      "headword": "{鑑賞|かんしょう}",
+      "label": "to appreciate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08382_kanran",
+      "reading": "かんらん",
+      "headword": "{観覧|かんらん}",
+      "label": "to view, to watch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02132_nagameru",
+      "reading": "ながめる",
+      "headword": "{眺|なが}める",
+      "label": "to gaze at, to look at, to view"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22175_shichousuru",
+      "reading": "しちょうする",
+      "headword": "{視聴|しちょう}する",
+      "label": "to watch"
     }
   ]
 }

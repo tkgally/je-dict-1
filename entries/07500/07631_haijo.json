@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{障害|しょうがい}を{排除|はいじょ}する - to remove obstacles\n・{不正|ふせい}を{排除|はいじょ}する - to eliminate misconduct\n・{危険|きけん}を{排除|はいじょ}する - to eliminate danger\n・{可能性|かのうせい}を{排除|はいじょ}する - to rule out a possibility\n\nUSAGE NOTES:\nPattern: Xを{排除|はいじょ}する (to exclude/remove X)\nCan refer to physical removal or abstract exclusion (of ideas, possibilities, etc.).\n\nSIMILAR WORDS:\n・{除外|じょがい} - exclusion (from a group/list)\n・{削除|さくじょ} - deletion (of data, text)\n・{除去|じょきょ} - removal (physical)",
+  "notes": "COMMON COLLOCATIONS:\n- {障害|しょうがい}を{排除|はいじょ}する - to remove obstacles\n- {不正|ふせい}を{排除|はいじょ}する - to eliminate misconduct\n- {危険|きけん}を{排除|はいじょ}する - to eliminate danger\n- {可能性|かのうせい}を{排除|はいじょ}する - to rule out a possibility\n\nUSAGE:\nPattern: Xを{排除|はいじょ}する (to exclude/remove X)\nCan refer to physical removal or abstract exclusion (of ideas, possibilities, etc.).\n\nSIMILAR WORDS:\n- {除外|じょがい} - exclusion (from a group/list)\n- {削除|さくじょ} - deletion (of data, text)\n- {除去|じょきょ} - removal (physical)",
   "cross_references": [
     {
       "type": "synonym",
@@ -145,11 +145,67 @@
       "reading": "さくじょ",
       "headword": "{削除|さくじょ}",
       "label": "deletion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14567_jokyo",
+      "reading": "じょきょ",
+      "headword": "{除去|じょきょ}",
+      "label": "removal"
+    },
+    {
+      "type": "related",
+      "target_id": "04625_oidasu",
+      "reading": "おいだす",
+      "headword": "{追|お}い{出|だ}す",
+      "label": "to drive out, to expel, to kick out"
+    },
+    {
+      "type": "related",
+      "target_id": "06388_haitateki",
+      "reading": "はいたてき",
+      "headword": "{排他的|はいたてき}",
+      "label": "exclusive, exclusionary"
+    },
+    {
+      "type": "related",
+      "target_id": "07979_kuchiku",
+      "reading": "くちく",
+      "headword": "{駆逐|くちく}",
+      "label": "expulsion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13553_sogai",
+      "reading": "そがい",
+      "headword": "{疎外|そがい}",
+      "label": "alienation, estrangement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17350_haiseki",
+      "reading": "はいせき",
+      "headword": "{排斥|はいせき}",
+      "label": "rejection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18244_konzetsu",
+      "reading": "こんぜつ",
+      "headword": "{根絶|こんぜつ}",
+      "label": "eradication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19614_bokumetsu",
+      "reading": "ぼくめつ",
+      "headword": "{撲滅|ぼくめつ}",
+      "label": "eradication"
     }
   ],
   "metadata": {
     "created": "2026-01-20T13:21:59Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -158,6 +214,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "action",
         "society"

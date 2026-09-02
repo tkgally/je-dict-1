@@ -17,7 +17,9 @@
       "id": "23152_insotsu_ex1",
       "japanese": "{院卒|いんそつ}の{初任給|しょにんきゅう}は{高|たか}い。",
       "english": "The starting salary for graduate school graduates is high.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23152_insotsu_ex2",
       "japanese": "この{求人|きゅうじん}は{院卒|いんそつ}{以上|いじょう}が{条件|じょうけん}だ。",
       "english": "The requirement for this job posting is a graduate degree or higher.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,65 @@
       "id": "23152_insotsu_ex3",
       "japanese": "{理系|りけい}では{院卒|いんそつ}で{就職|しゅうしょく}するのが{一般的|いっぱんてき}になっている。",
       "english": "In science and engineering fields, it has become common to enter the workforce after completing graduate school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "An abbreviation of {大学院|だいがくいん}{卒業|そつぎょう} (graduate school graduation). Widely used in job listings, recruitment, and discussions about educational qualifications. The pattern of abbreviating educational level + {卒|そつ} is productive in Japanese.\n\nRELATED ABBREVIATIONS:\n- {高卒|こうそつ}: high school graduate\n- {大卒|だいそつ}: university graduate\n- {院卒|いんそつ}: graduate school graduate\n- {中卒|ちゅうそつ}: junior high school graduate\n\nCOMMON COLLOCATIONS:\n- {院卒|いんそつ}{以上|いじょう}: graduate degree or higher\n- {院卒|いんそつ}の{初任給|しょにんきゅう}: starting salary for graduate school graduates\n- {院卒|いんそつ}{採用|さいよう}: hiring of graduate degree holders\n\nSIMILAR WORDS:\n- {大卒|だいそつ}: university graduate — the most common educational level referenced in job listings\n- {修士|しゅうし}: master's degree holder — the specific degree, rather than the informal abbreviation\n- {博士|はかせ}: doctoral degree holder — specifically a PhD or equivalent",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19284_kousotsu",
+      "reading": "こうそつ",
+      "headword": "{高卒|こうそつ}",
+      "label": "high school graduate"
+    },
+    {
+      "type": "related",
+      "target_id": "19285_daisotsu",
+      "reading": "だいそつ",
+      "headword": "{大卒|だいそつ}",
+      "label": "university graduate"
+    },
+    {
+      "type": "related",
+      "target_id": "11380_chuusotsu",
+      "reading": "ちゅうそつ",
+      "headword": "{中卒|ちゅうそつ}",
+      "label": "junior high school graduate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11098_shuushi",
+      "reading": "しゅうし",
+      "headword": "{修士|しゅうし}",
+      "label": "master's degree holder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03551_hakase",
+      "reading": "はかせ",
+      "headword": "{博士|はかせ}",
+      "label": "doctoral degree holder"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-04-08T20:35:27Z",
-    "modified": "2026-04-08T20:35:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

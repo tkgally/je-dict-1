@@ -19,7 +19,9 @@
       "english": "The company's debts are increasing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14950_fusai_ex2",
@@ -27,7 +29,9 @@
       "english": "The total liabilities exceeded 100 million yen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14950_fusai_ex3",
@@ -35,10 +39,12 @@
       "english": "Some companies have gone bankrupt while carrying massive debts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A formal, financial term. In accounting, {負債|ふさい} appears on the balance sheet opposite {資産|しさん} (assets).\n\nCOMMON COLLOCATIONS:\n- {負債|ふさい}を{抱|かか}える (to carry debt)\n- {負債|ふさい}{総額|そうがく} (total liabilities)\n- {負債|ふさい}を{返済|へんさい}する (to repay debts)\n- {資産|しさん}と{負債|ふさい} (assets and liabilities)\n\nUSAGE NOTE:\n{負債|ふさい} is more formal than {借金|しゃっきん} (borrowed money, personal debt). {借金|しゃっきん} is everyday language for owing money, while {負債|ふさい} is the standard term in business, accounting, and legal contexts.",
+  "notes": "A formal, financial term. In accounting, {負債|ふさい} appears on the balance sheet opposite {資産|しさん} (assets).\n\nCOMMON COLLOCATIONS:\n- {負債|ふさい}を{抱|かか}える (to carry debt)\n- {負債|ふさい}{総額|そうがく} (total liabilities)\n- {負債|ふさい}を{返済|へんさい}する (to repay debts)\n- {資産|しさん}と{負債|ふさい} (assets and liabilities)\n\nUSAGE:\n{負債|ふさい} is more formal than {借金|しゃっきん} (borrowed money, personal debt). {借金|しゃっきん} is everyday language for owing money, while {負債|ふさい} is the standard term in business, accounting, and legal contexts.",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,19 +52,60 @@
       "reading": "しさん",
       "headword": "{資産|しさん}",
       "label": "assets"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03203_shakkin",
+      "reading": "しゃっきん",
+      "headword": "{借金|しゃっきん}",
+      "label": "debt, loan, borrowing money"
+    },
+    {
+      "type": "related",
+      "target_id": "04776_hensai",
+      "reading": "へんさい",
+      "headword": "{返済|へんさい}",
+      "label": "repayment"
+    },
+    {
+      "type": "related",
+      "target_id": "22281_saimusha",
+      "reading": "さいむしゃ",
+      "headword": "{債務者|さいむしゃ}",
+      "label": "debtor"
+    },
+    {
+      "type": "related",
+      "target_id": "24521_taishakutaishouhyou",
+      "reading": "たいしゃくたいしょうひょう",
+      "headword": "{貸借対照表|たいしゃくたいしょうひょう}",
+      "label": "balance sheet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30321_taninshihon",
+      "reading": "たにんしほん",
+      "headword": "{他人資本|たにんしほん}",
+      "label": "borrowed capital"
     }
   ],
   "metadata": {
     "created": "2026-03-04T07:26:18Z",
-    "modified": "2026-05-01T04:26:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

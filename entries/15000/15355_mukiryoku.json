@@ -3,7 +3,7 @@
   "id": "15355_mukiryoku",
   "headword": "{無気力|むきりょく}",
   "reading": "むきりょく",
-  "part_of_speech": "noun, adjective-na",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "apathy; lethargy; listlessness",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "I've been feeling listless lately and don't want to do anything.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15355_mukiryoku_ex2",
@@ -27,7 +29,9 @@
       "english": "Work won't get done with that apathetic attitude.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15355_mukiryoku_ex3",
@@ -35,20 +39,42 @@
       "english": "After the long break, I couldn't easily shake off the state of lethargy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE: {無気力|むきりょく} can be used as a noun (a state of apathy) or as a na-adjective ({無気力|むきりょく}な). It often describes a temporary psychological state but can also characterize someone's general personality.\n\nCOMMON COLLOCATIONS:\n- {無気力|むきりょく}な{状態|じょうたい}: a state of apathy\n- {無気力|むきりょく}な{態度|たいど}: listless attitude\n- {無気力|むきりょく}に{陥|おちい}る: to fall into apathy\n- {無気力|むきりょく}{感|かん}: feeling of lethargy\n\nSIMILAR WORDS:\n- {無気力|むきりょく}: lacking energy or motivation (general apathy)\n- {倦怠|けんたい}: weariness, languor (physical and mental fatigue)\n- {脱力|だつりょく}: losing strength, going limp (physical or emotional deflation)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06004_kentai",
+      "reading": "けんたい",
+      "headword": "{倦怠|けんたい}",
+      "label": "weariness, languor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10659_datsuryoku",
+      "reading": "だつりょく",
+      "headword": "{脱力|だつりょく}",
+      "label": "losing strength, going limp"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T11:45:41Z",
-    "modified": "2026-03-06T11:45:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
   }
 }

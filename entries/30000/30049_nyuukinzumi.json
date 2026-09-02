@@ -3,7 +3,7 @@
   "headword": "{入金|にゅうきん}{済|ず}み",
   "reading": "にゅうきんずみ",
   "romaji": "nyuukinzumi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "payment received; already paid; deposited",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "30049_nyuukinzumi_ex1",
       "japanese": "{注文|ちゅうもん}は{入金|にゅうきん}{済|ず}みです。",
       "english": "The order has already been paid for.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30049_nyuukinzumi_ex2",
       "japanese": "{入金|にゅうきん}{済|ず}みの{お客様|きゃくさま}には{確認|かくにん}メールが{届|とど}きます。",
       "english": "Customers who have already paid will receive a confirmation email.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,41 @@
       "id": "30049_nyuukinzumi_ex3",
       "japanese": "この{商品|しょうひん}は{入金|にゅうきん}{済|ず}みのため、{明日|あした}{発送|はっそう}される{予定|よてい}です。",
       "english": "Since payment for this product has been received, it is scheduled to ship tomorrow.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {入金|にゅうきん} (deposit of money) with {済|ず}み (completed), marking that a payment has already been received. Often used attributively as {入金|にゅうきん}{済|ず}みの.\n\nCOMMON COLLOCATIONS:\n- {入金|にゅうきん}{済|ず}みの{注文|ちゅうもん}: an order that has been paid\n- {入金|にゅうきん}{済|ず}みになる: to become marked as paid\n- {入金|にゅうきん}{済|ず}みマーク: a paid mark or stamp\n\nSIMILAR WORDS:\n- {支払|しはら}い{済|ず}み: payment completed — seen from the payer's side\n- {未入金|みにゅうきん}: payment not yet received — the opposite status",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30038_shiharaizumi",
+      "reading": "しはらいずみ",
+      "headword": "支払い済み",
+      "label": "payment completed"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["finance"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "finance"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-07-23T00:19:28Z",
-    "modified": "2026-07-23T00:19:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

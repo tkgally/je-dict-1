@@ -2,7 +2,7 @@
   "id": "02546_kitaku",
   "headword": "{帰宅|きたく}",
   "reading": "きたく",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "returning home",
   "conjugation": {
     "type": "suru",
@@ -168,11 +168,32 @@
       "headword": "{外出|がいしゅつ}",
       "label": "going out",
       "target_id": "02543_gaishutsu"
+    },
+    {
+      "type": "antonym",
+      "target_id": "04548_shukkin",
+      "reading": "しゅっきん",
+      "headword": "{出勤|しゅっきん}",
+      "label": "going to work"
+    },
+    {
+      "type": "related",
+      "target_id": "06156_taisha",
+      "reading": "たいしゃ",
+      "headword": "{退社|たいしゃ}",
+      "label": "leaving work"
+    },
+    {
+      "type": "related",
+      "target_id": "07699_chokki",
+      "reading": "ちょっき",
+      "headword": "{直帰|ちょっき}",
+      "label": "going straight home"
     }
   ],
   "metadata": {
     "created": "2026-01-11T09:21:21Z",
-    "modified": "2026-06-11T18:03:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

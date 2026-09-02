@@ -3,7 +3,7 @@
   "headword": "{敵対的|てきたいてき}な",
   "reading": "てきたいてきな",
   "romaji": "tekitaitekina",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "hostile; antagonistic; adversarial",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "25884_tekitaitekina_ex1",
       "japanese": "{敵対的|てきたいてき}な{態度|たいど}はやめてほしい。",
       "english": "I wish you would stop the hostile attitude.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25884_tekitaitekina_ex2",
       "japanese": "{両国|りょうこく}の{関係|かんけい}は{敵対的|てきたいてき}なまま{変|か}わっていない。",
       "english": "Relations between the two countries remain adversarial.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "25884_tekitaitekina_ex3",
       "japanese": "{新|あたら}しい{上司|じょうし}は{敵対的|てきたいてき}な{雰囲気|ふんいき}を{作|つく}らないように{努|つと}めている。",
       "english": "The new boss is making an effort not to create a hostile atmosphere.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A na-adjective formed from {敵対|てきたい} (hostility; antagonism) + {的|てき}. Describes an attitude or relationship of active opposition. Commonly used in political, diplomatic, business, and interpersonal contexts.\n\nIn business, {敵対的|てきたいてき}{買収|ばいしゅう} (hostile takeover) is a well-known fixed expression. In diplomacy, the term describes nations or groups in open conflict.\n\nCOMMON COLLOCATIONS:\n- {敵対的|てきたいてき}な{態度|たいど}: hostile attitude\n- {敵対的|てきたいてき}な{関係|かんけい}: adversarial relationship\n- {敵対的|てきたいてき}{買収|ばいしゅう}: hostile takeover\n- {敵対的|てきたいてき}な{行為|こうい}: hostile act\n- {敵対的|てきたいてき}な{環境|かんきょう}: hostile environment\n\nSIMILAR WORDS:\n- {攻撃的|こうげきてき}な: aggressive — focuses on the act of attacking rather than the ongoing state of opposition\n- {対立的|たいりつてき}な: confrontational; oppositional — emphasizes disagreement or conflict of positions\n- {友好的|ゆうこうてき}な: friendly; amicable — the direct antonym",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06243_kougekiteki",
+      "reading": "こうげきてき",
+      "headword": "{攻撃的|こうげきてき}",
+      "label": "aggressive"
+    },
+    {
+      "type": "antonym",
+      "target_id": "23818_yuukouteki",
+      "reading": "ゆうこうてき",
+      "headword": "{友好的|ゆうこうてき}",
+      "label": "friendly"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
-      "semantic": ["emotion", "communication"]
+      "pos": [
+        "adjective-na"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "emotion",
+        "communication"
+      ]
     },
     "created": "2026-04-28T11:21:28Z",
-    "modified": "2026-04-28T11:21:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

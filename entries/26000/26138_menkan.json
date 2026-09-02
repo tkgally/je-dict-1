@@ -3,7 +3,7 @@
   "headword": "{免官|めんかん}",
   "reading": "めんかん",
   "romaji": "menkan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "dismissal from office; removal from a government post",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Composed of {免|めん} (dismiss, release from) and {官|かん} (government official, office). A formal term from the vocabulary of government administration, often encountered in historical texts about Japanese government and the civil service.\n\nThe term pairs with {任官|にんかん} (appointment to office) as its opposite. In modern Japan, the process is governed by the {国家公務員法|こっかこうむいんほう} (National Public Service Act), though the word {免官|めんかん} itself has a somewhat historical flavor. In contemporary usage, {免職|めんしょく} (dismissal from a position) is more common for disciplinary removals.\n\nCOMMON COLLOCATIONS:\n- {免官|めんかん}される: to be dismissed from office\n- {免官|めんかん}の{処分|しょぶん}: disciplinary dismissal\n- {免官|めんかん}を{命|めい}じる: to order a dismissal\n- {懲戒|ちょうかい}{免官|めんかん}: disciplinary dismissal\n\nSIMILAR WORDS:\n- {免職|めんしょく}: dismissal from a position — more commonly used in modern administrative language; applies to any job position, not just government posts\n- {罷免|ひめん}: removal from office — stronger term implying forced removal, often used for high-ranking officials\n- {解任|かいにん}: dismissal, removal — used more broadly for any official position including corporate roles\n- {任官|にんかん}: appointment to office — the opposite action",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18807_menshoku",
+      "reading": "めんしょく",
+      "headword": "{免職|めんしょく}",
+      "label": "dismissal from a position"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29397_himen",
+      "reading": "ひめん",
+      "headword": "{罷免|ひめん}",
+      "label": "removal from office"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17173_kainin",
+      "reading": "かいにん",
+      "headword": "{解任|かいにん}",
+      "label": "dismissal, removal"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -65,7 +87,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-29T14:40:19Z",
-    "modified": "2026-04-29T14:40:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

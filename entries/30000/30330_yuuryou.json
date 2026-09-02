@@ -3,7 +3,7 @@
   "headword": "{優良|ゆうりょう}",
   "reading": "ゆうりょう",
   "romaji": "yuuryou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "superior; high-quality; excellent",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Used mostly as a prefix-like modifier in compounds; the standalone な form is possible but less common.\n\nCOMMON COLLOCATIONS:\n- {優良|ゆうりょう}{企業|きぎょう}: blue-chip company\n- {優良|ゆうりょう}{物件|ぶっけん}: prime property\n- {優良|ゆうりょう}{顧客|こきゃく}: valued customer\n- {優良|ゆうりょう}{運転者|うんてんしゃ}: driver with a clean record\n\nSIMILAR WORDS:\n- {優秀|ゆうしゅう}: excellent — used of people's ability and performance; {優良|ゆうりょう} is used of things and organizations\n- {良質|りょうしつ}: good quality — about the material or content itself, without the official-rating flavor",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03646_yuushuu",
+      "reading": "ゆうしゅう",
+      "headword": "{優秀|ゆうしゅう}",
+      "label": "excellent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13949_ryoushitsu",
+      "reading": "りょうしつ",
+      "headword": "{良質|りょうしつ}",
+      "label": "good quality"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "adjective-na"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "evaluation",
         "business"
@@ -62,6 +78,6 @@
       "domain": []
     },
     "created": "2026-08-02T09:20:18Z",
-    "modified": "2026-08-02T09:20:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

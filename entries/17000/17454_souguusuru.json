@@ -3,7 +3,7 @@
   "id": "17454_souguusuru",
   "headword": "{遭遇|そうぐう}する",
   "reading": "そうぐうする",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to encounter; to run into; to come across",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,39 @@
     }
   ],
   "notes": "USAGE:\nImplies an unexpected and often notable encounter. Typically used for encounters with dangers, wildlife, unusual situations, or significant events rather than casual meetings with friends.\n\nCOMMON COLLOCATIONS:\n- {事故|じこ}に{遭遇|そうぐう}する (to encounter an accident)\n- {危険|きけん}に{遭遇|そうぐう}する (to face danger)\n- {野生動物|やせいどうぶつ}に{遭遇|そうぐう}する (to encounter wild animals)\n- {偶然|ぐうぜん}{遭遇|そうぐう}する (to encounter by chance)\n\nSIMILAR WORDS:\n- {出会|であ}う: to meet — neutral, used for both pleasant and unpleasant encounters\n- {出|で}くわす: to run into — more colloquial, implies surprise\n- {遭|あ}う: to meet with (misfortune) — often used with negative events",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02298_deau",
+      "reading": "であう",
+      "headword": "{出会|であ}う",
+      "label": "to meet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04631_dekuwasu",
+      "reading": "でくわす",
+      "headword": "{出|で}くわす",
+      "label": "to run into"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09500_au",
+      "reading": "あう",
+      "headword": "{遭|あ}う",
+      "label": "to meet with"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17401_hachiawaseru",
+      "reading": "はちあわせる",
+      "headword": "{鉢合|はちあ}わせる",
+      "label": "to bump into"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T02:02:58Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

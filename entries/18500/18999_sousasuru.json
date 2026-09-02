@@ -2,7 +2,7 @@
   "id": "18999_sousasuru",
   "headword": "{操作|そうさ}する",
   "reading": "そうさする",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to operate; to manipulate; to control",
   "conjugation": {
     "type": "suru",
@@ -170,6 +170,43 @@
   ],
   "notes": "{操作|そうさ}する covers two clearly related senses: physically operating a device (literal) and manipulating opinions, prices, or events behind the scenes (figurative).\n\nUSAGE:\n- A transitive する verb. The noun {操作|そうさ} appears in many compounds.\n- Sense 1 (operating a device) is one of the most common verbs for using any machine, computer, or app.\n- Sense 2 (manipulation) carries a strongly negative connotation of underhanded control.\n- Note the homophone {捜査|そうさ} ('criminal investigation'), which is written with different kanji.\n\nCOMMON PATTERNS:\n- {機械|きかい}を{操作|そうさ}する: to operate a machine\n- パソコンを{操作|そうさ}する: to operate a computer\n- {操作|そうさ}{方法|ほうほう}: how to operate (a standard manual heading)\n- {操作|そうさ}{画面|がめん}: operation/control screen\n- {操作|そうさ}ミス / {誤|ご}{操作|そうさ}: an operational error / accidental misuse\n- {世論|よろん}を{操作|そうさ}する: to manipulate public opinion\n- {株価|かぶか}{操作|そうさ}: stock-price manipulation\n- {遠隔|えんかく}{操作|そうさ}: remote operation/control\n\nSIMILAR WORDS:\n- {扱|あつか}う: to handle, to use (broader and more casual).\n- {動|うご}かす: to move, to operate (more physical, less technical).\n- {制御|せいぎょ}する: to control (often technical/automated).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01862_atsukau",
+      "reading": "あつかう",
+      "headword": "{扱|あつか}う",
+      "label": "to handle, to use (broader and more…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01885_ugokasu",
+      "reading": "うごかす",
+      "headword": "{動|うご}かす",
+      "label": "to move, to operate (more physical…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11816_seigyo",
+      "reading": "せいぎょ",
+      "headword": "{制御|せいぎょ}",
+      "label": "to control (often technical/automated)."
+    },
+    {
+      "type": "contrast",
+      "target_id": "12707_ayatsuru",
+      "reading": "あやつる",
+      "headword": "{操|あやつ}る",
+      "label": "to manipulate, to operate, to handle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20318_untensuru",
+      "reading": "うんてんする",
+      "headword": "{運転|うんてん}する",
+      "label": "to drive"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -186,6 +223,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-23T12:14:41Z",
-    "modified": "2026-04-10T13:28:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

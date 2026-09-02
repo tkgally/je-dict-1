@@ -18,7 +18,9 @@
       "id": "25809_tougai_ex1",
       "japanese": "{今年|ことし}は{凍害|とうがい}で{農作物|のうさくぶつ}に{大|おお}きな{被害|ひがい}が{出|で}た。",
       "english": "This year, frost damage caused major harm to agricultural crops.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -26,7 +28,9 @@
       "id": "25809_tougai_ex2",
       "japanese": "コンクリートの{凍害|とうがい}を{防|ふせ}ぐには{適切|てきせつ}な{対策|たいさく}が{必要|ひつよう}だ。",
       "english": "Appropriate measures are needed to prevent freeze damage to concrete.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -34,22 +38,61 @@
       "id": "25809_tougai_ex3",
       "japanese": "{春先|はるさき}の{急|きゅう}な{冷|ひ}え{込|こ}みで、{果樹園|かじゅえん}が{凍害|とうがい}を{受|う}けてしまった。",
       "english": "Due to a sudden cold snap in early spring, the orchard suffered frost damage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {凍|とう} (freezing) and {害|がい} (damage, harm). Used in both agricultural and construction/engineering contexts.\n\nCOMMON COLLOCATIONS:\n- {凍害|とうがい}を{受|う}ける — to suffer frost damage\n- {凍害|とうがい}を{防|ふせ}ぐ — to prevent frost damage\n- {凍害|とうがい}{対策|たいさく} — frost damage countermeasures\n- {凍害|とうがい}に{強|つよ}い — resistant to frost damage\n\nDOMAIN-SPECIFIC USAGE:\n- In agriculture: damage to crops from frost or freezing, especially harmful during budding or blooming season\n- In construction: deterioration of concrete or masonry from repeated freeze-thaw cycles, where water expands as it freezes inside porous materials\n- In plumbing: burst pipes caused by water freezing and expanding inside them\n\nRELATED TERMS:\n- {霜|しも} — frost\n- {霜害|そうがい} — frost damage (specifically from surface frost, slightly different nuance)\n- {冷害|れいがい} — cold-weather damage (broader term for damage from abnormally cool temperatures, not necessarily freezing)\n- {凍結|とうけつ} — freezing (the process of something becoming frozen)",
+  "notes": "A compound of {凍|とう} (freezing) and {害|がい} (damage, harm). Used in both agricultural and construction/engineering contexts.\n\nCOMMON COLLOCATIONS:\n- {凍害|とうがい}を{受|う}ける — to suffer frost damage\n- {凍害|とうがい}を{防|ふせ}ぐ — to prevent frost damage\n- {凍害|とうがい}{対策|たいさく} — frost damage countermeasures\n- {凍害|とうがい}に{強|つよ}い — resistant to frost damage\n\nDOMAIN-SPECIFIC USAGE:\n- In agriculture: damage to crops from frost or freezing, especially harmful during budding or blooming season\n- In construction: deterioration of concrete or masonry from repeated freeze-thaw cycles, where water expands as it freezes inside porous materials\n- In plumbing: burst pipes caused by water freezing and expanding inside them\n\nRELATED WORDS:\n- {霜|しも} — frost\n- {霜害|そうがい} — frost damage (specifically from surface frost, slightly different nuance)\n- {冷害|れいがい} — cold-weather damage (broader term for damage from abnormally cool temperatures, not necessarily freezing)\n- {凍結|とうけつ} — freezing (the process of something becoming frozen)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03202_shimo",
+      "reading": "しも",
+      "headword": "{霜|しも}",
+      "label": "frost"
+    },
+    {
+      "type": "related",
+      "target_id": "19178_sougai",
+      "reading": "そうがい",
+      "headword": "{霜害|そうがい}",
+      "label": "frost damage"
+    },
+    {
+      "type": "related",
+      "target_id": "09613_touketsu",
+      "reading": "とうけつ",
+      "headword": "{凍結|とうけつ}",
+      "label": "freezing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24429_setsugai",
+      "reading": "せつがい",
+      "headword": "{雪害|せつがい}",
+      "label": "snow damage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather", "general"],
-      "domain": ["technical"]
+      "semantic": [
+        "weather",
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-04-27T14:23:35Z",
-    "modified": "2026-04-27T14:23:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

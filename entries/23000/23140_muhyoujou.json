@@ -3,7 +3,7 @@
   "headword": "{無表情|むひょうじょう}",
   "reading": "むひょうじょう",
   "romaji": "muhyoujou",
-  "part_of_speech": "noun, adjective-na, adjective-no",
+  "part_of_speech": "noun, na-adjective, no-adjective",
   "gloss": "expressionless; blank-faced; deadpan",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Composed of {無|む} (without) + {表情|ひょうじょう} (facial expression). Describes a face that reveals no emotion — whether from composure, shock, deliberate concealment, or personality. Common in fiction to describe characters and in daily life to describe people's reactions.\n\nCOMMON COLLOCATIONS:\n- {無表情|むひょうじょう}な{顔|かお}: expressionless face\n- {無表情|むひょうじょう}のまま: remaining expressionless\n- {無表情|むひょうじょう}に{見|み}える: to appear expressionless\n- {終始|しゅうし}{無表情|むひょうじょう}: expressionless throughout\n\nSIMILAR WORDS:\n- {表情|ひょうじょう}が{乏|とぼ}しい: lacking in expression — softer; suggests limited rather than zero expression\n- {能面|のうめん}のような: like a Noh mask — literary comparison emphasizing an eerie, frozen quality\n- {冷淡|れいたん}: cold, indifferent — focuses on emotional attitude rather than facial appearance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16166_reitan",
+      "reading": "れいたん",
+      "headword": "{冷淡|れいたん}",
+      "label": "cold, indifferent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05897_tantan",
+      "reading": "たんたん",
+      "headword": "{淡々|たんたん}",
+      "label": "calmly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25619_mukanjou",
+      "reading": "むかんじょう",
+      "headword": "{無感情|むかんじょう}",
+      "label": "emotionless"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26700_sumashitakao",
+      "reading": "すましたかお",
+      "headword": "すました{顔|かお}",
+      "label": "composed face"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +92,6 @@
       ]
     },
     "created": "2026-04-08T20:29:18Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

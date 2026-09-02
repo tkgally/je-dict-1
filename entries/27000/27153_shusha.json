@@ -3,7 +3,7 @@
   "headword": "{取捨|しゅしゃ}",
   "reading": "しゅしゃ",
   "romaji": "shusha",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "selection; choosing what to keep and what to discard",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {取|と}る (to take) and {捨|す}てる (to discard). Almost always appears in the four-character compound {取捨選択|しゅしゃせんたく} (sorting and selecting). Used alone less frequently, and typically in formal or written contexts.\n\nCOMMON COLLOCATIONS:\n- {取捨|しゅしゃ}{選択|せんたく} — selection, sorting out (the most common usage by far)\n- {取捨|しゅしゃ}{選択|せんたく}する — to sort and select\n- {情報|じょうほう}の{取捨|しゅしゃ}{選択|せんたく} — sorting and selecting information\n- {取捨|しゅしゃ}を{誤|あやま}る — to make the wrong choice about what to keep\n\nSIMILAR WORDS:\n- {選択|せんたく} — choice, selection; broader term for choosing, without the nuance of discarding\n- {選別|せんべつ} — sorting, screening; separating things into categories, especially by quality\n- {淘汰|とうた} — winnowing, natural selection; elimination of the unfit or unnecessary",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03306_sentaku",
+      "reading": "せんたく",
+      "headword": "{選択|せんたく}",
+      "label": "choice, selection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09616_senbetsu",
+      "reading": "せんべつ",
+      "headword": "{選別|せんべつ}",
+      "label": "sorting, screening"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07942_touta",
+      "reading": "とうた",
+      "headword": "{淘汰|とうた}",
+      "label": "winnowing, natural selection"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-07T13:13:47Z",
-    "modified": "2026-05-07T13:13:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

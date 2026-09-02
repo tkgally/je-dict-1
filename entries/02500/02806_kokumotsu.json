@@ -63,11 +63,26 @@
       ]
     }
   ],
-  "notes": "{穀物|こくもつ} is a general term for cereal grains cultivated as staple foods. It is a somewhat formal or technical term; in everyday speech, specific grain names are more common.\n\nEXAMPLES OF GRAINS:\n- ⟦{米|こめ}→米：01323_kome⟧: rice\n- ⟦{小麦|こむぎ}→小麦：01407_komugi⟧: wheat\n- ⟦{大麦|おおむぎ}→大麦：12215_oomugi⟧: barley\n- ⟦とうもろこし→とうもろこし：10394_toumorokoshi⟧: corn\n\nCOMMON COMPOUNDS:\n- {穀物|こくもつ}⟦{価格|かかく}→価格：00147_kakaku⟧: grain prices\n- {穀物|こくもつ}⟦{自給|じきゅう}→自給：23675_jikyuu⟧⟦{率|りつ}→率：03802_ritsu⟧: grain self-sufficiency rate\n- {穀物|こくもつ}⟦{倉庫|そうこ}→倉庫：04044_souko⟧: grain warehouse/silo\n- ⟦{五穀|ごこく}→五穀：noentry⟧: the five grains (traditional term for staple crops)\n\nNote: ⟦{大豆|だいず}→大豆：10536_daizu⟧ (soybeans) is technically a legume but is sometimes included under {穀物|こくもつ} in a broader sense.",
-  "cross_references": [],
+  "notes": "{穀物|こくもつ} is a general term for cereal grains cultivated as staple foods. It is a somewhat formal or technical term; in everyday speech, specific grain names are more common.\n\nEXAMPLES OF GRAINS:\n- ⟦{米|こめ}→米：01323_kome⟧: rice\n- ⟦{小麦|こむぎ}→小麦：01407_komugi⟧: wheat\n- ⟦{大麦|おおむぎ}→大麦：12215_oomugi⟧: barley\n- ⟦とうもろこし→とうもろこし：10394_toumorokoshi⟧: corn\n\nCOMPOUNDS:\n- {穀物|こくもつ}⟦{価格|かかく}→価格：00147_kakaku⟧: grain prices\n- {穀物|こくもつ}⟦{自給|じきゅう}→自給：23675_jikyuu⟧⟦{率|りつ}→率：03802_ritsu⟧: grain self-sufficiency rate\n- {穀物|こくもつ}⟦{倉庫|そうこ}→倉庫：04044_souko⟧: grain warehouse/silo\n- ⟦{五穀|ごこく}→五穀：noentry⟧: the five grains (traditional term for staple crops)\n\nNote: ⟦{大豆|だいず}→大豆：10536_daizu⟧ (soybeans) is technically a legume but is sometimes included under {穀物|こくもつ} in a broader sense.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02823_sakumotsu",
+      "reading": "さくもつ",
+      "headword": "{作物|さくもつ}",
+      "label": "crops, produce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19477_kokurui",
+      "reading": "こくるい",
+      "headword": "{穀類|こくるい}",
+      "label": "grains"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T08:51:00Z",
-    "modified": "2026-05-22T15:14:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

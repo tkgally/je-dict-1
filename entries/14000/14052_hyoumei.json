@@ -3,7 +3,7 @@
   "id": "14052_hyoumei",
   "headword": "{表明|ひょうめい}",
   "reading": "ひょうめい",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "declaration, expression",
   "conjugation": {
     "type": "suru",
@@ -142,11 +142,32 @@
       "reading": "せんげん",
       "headword": "{宣言|せんげん}",
       "label": "declaration (stronger)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21680_sengensuru",
+      "reading": "せんげんする",
+      "headword": "{宣言|せんげん}する",
+      "label": "to declare"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22400_ishihyouji",
+      "reading": "いしひょうじ",
+      "headword": "{意思表示|いしひょうじ}",
+      "label": "expression of one's intention"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27270_omotenidasu",
+      "reading": "おもてにだす",
+      "headword": "{表|おもて}に{出|だ}す",
+      "label": "to bring to the surface"
     }
   ],
   "metadata": {
     "created": "2026-02-27T10:16:46Z",
-    "modified": "2026-04-29T10:23:05Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

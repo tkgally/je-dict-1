@@ -45,10 +45,25 @@
     }
   ],
   "notes": "SIMILAR WORDS:\n- {霰|あられ}: sleet/graupel (smaller ice pellets, under 5mm)\n- {雹|ひょう}: hail (larger ice pellets, 5mm or more)\n\nThe meteorological distinction is based on size: ice pellets under 5mm are classified as {霰|あられ}, while those 5mm and above are {雹|ひょう}.\n\nCOMMON COLLOCATIONS:\n- {雹|ひょう}が{降|ふ}る: hail falls\n- {雹|ひょう}の{被害|ひがい}: hail damage\n- {大粒|おおつぶ}の{雹|ひょう}: large hailstones",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05392_arare",
+      "reading": "あられ",
+      "headword": "{霰|あられ}",
+      "label": "sleet/graupel"
+    },
+    {
+      "type": "related",
+      "target_id": "06505_mizore",
+      "reading": "みぞれ",
+      "headword": "{霙|みぞれ}",
+      "label": "sleet"
+    }
+  ],
   "metadata": {
     "created": "2026-02-09T04:11:25Z",
-    "modified": "2026-03-18T10:11:24Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

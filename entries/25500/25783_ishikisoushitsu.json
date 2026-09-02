@@ -45,7 +45,29 @@
     }
   ],
   "notes": "A medical and formal term for losing consciousness. Composed of {意識|いしき} (consciousness) and {喪失|そうしつ} (loss). Frequently encountered in news reports about accidents, medical emergencies, and health conditions. The abbreviated form {意識|いしき}を{失|うしな}う (to lose consciousness) is also very common.\n\nCOMMON COLLOCATIONS:\n- {意識|いしき}{喪失|そうしつ}を{起|お}こす: to have a loss of consciousness\n- {一時的|いちじてき}な{意識|いしき}{喪失|そうしつ}: temporary loss of consciousness\n- {突然|とつぜん}の{意識|いしき}{喪失|そうしつ}: sudden loss of consciousness\n- {意識|いしき}{喪失|そうしつ}{状態|じょうたい}: state of unconsciousness\n\nSIMILAR WORDS:\n- {失神|しっしん}: fainting; syncope — a more specific medical term for brief fainting episodes\n- {気絶|きぜつ}: fainting; passing out — slightly more colloquial and dramatic\n- {昏睡|こんすい}: coma — a prolonged state of deep unconsciousness, more severe than {意識|いしき}{喪失|そうしつ}",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20933_shisshin",
+      "reading": "しっしん",
+      "headword": "{失神|しっしん}",
+      "label": "fainting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19929_kizetsu",
+      "reading": "きぜつ",
+      "headword": "{気絶|きぜつ}",
+      "label": "fainting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23804_konsui",
+      "reading": "こんすい",
+      "headword": "{昏睡|こんすい}",
+      "label": "coma"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +75,12 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "health"
       ]
     },
     "created": "2026-04-27T13:09:47Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "id": "18588_magarikuneru",
   "headword": "{曲|ま}がりくねる",
   "reading": "まがりくねる",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to twist and turn; to wind; to meander",
   "conjugation": {
     "type": "godan",
@@ -135,10 +135,25 @@
     }
   ],
   "notes": "USAGE:\nMost commonly used in the ～ている form to describe the state of something winding, or as the past participle {曲|ま}がりくねった modifying a noun ({曲|ま}がりくねった{道|みち}, a winding road).\n\nCOMMON COLLOCATIONS:\n- {曲|ま}がりくねった{道|みち} (a winding road)\n- {曲|ま}がりくねった{川|かわ} (a meandering river)\n- {曲|ま}がりくねって{進|すす}む (to proceed along a winding path)\n\nSIMILAR WORDS:\n- {曲|ま}がる: to bend — a single turn, not repeated winding\n- くねくね: onomatopoeia for winding/twisting movement\n- {蛇行|だこう}する: to meander — more formal/technical, often for rivers",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00649_magaru",
+      "reading": "まがる",
+      "headword": "{曲|ま}がる",
+      "label": "to bend"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09036_dakou",
+      "reading": "だこう",
+      "headword": "{蛇行|だこう}",
+      "label": "to meander"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T09:46:19Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

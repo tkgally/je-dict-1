@@ -17,7 +17,9 @@
       "id": "23451_omochi_ex1",
       "japanese": "お{正月|しょうがつ}にお{餅|もち}を{食|た}べる。",
       "english": "To eat mochi at New Year's.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23451_omochi_ex2",
       "japanese": "お{餅|もち}を{焼|や}いて{醤油|しょうゆ}をつけた。",
       "english": "I grilled the mochi and dipped it in soy sauce.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23451_omochi_ex3",
       "japanese": "{毎年|まいとし}お{正月|しょうがつ}になると、お{餅|もち}を{喉|のど}に{詰|つ}まらせる{事故|じこ}のニュースが{報道|ほうどう}される。",
       "english": "Every New Year, there are news reports about accidents where people choke on mochi.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,52 @@
       "id": "23451_omochi_ex4",
       "japanese": "おばあちゃんが{臼|うす}と{杵|きね}でお{餅|もち}をついてくれた。",
       "english": "Grandma pounded mochi for us with a mortar and pestle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The polite お prefix is standard with {餅|もち} in everyday speech, making お{餅|もち} the default conversational form. The お is not merely decorative; dropping it can sound curt in casual conversation.\n\nCOMMON COLLOCATIONS:\n- お{餅|もち}をつく: to pound mochi\n- お{餅|もち}を{焼|や}く: to grill/toast mochi\n- お{餅|もち}を{煮|に}る: to boil mochi (in soup)\n- {切|き}り{餅|もち}: pre-cut mochi blocks (sold in packages)\n- {丸|まる}{餅|もち}: round mochi (Kansai style)\n\nCULTURAL CONTEXT:\nMochi is deeply associated with {正月|しょうがつ} (New Year). It appears in {雑煮|ぞうに} (New Year's soup), {鏡餅|かがみもち} (decorative stacked mochi), and {磯辺焼|いそべや}き (grilled mochi wrapped in nori). The shape varies by region: round in western Japan, rectangular in eastern Japan. Every January, Japanese media report on choking incidents ({窒息|ちっそく}{事故|じこ}) among elderly people, making mochi safety a recurring seasonal topic.\n\nRELATED WORDS:\n- {餅|もち}: mochi — the base form, used in compounds\n- {大福|だいふく}: daifuku — mochi stuffed with sweet bean paste\n- {草餅|くさもち}: mugwort mochi — green mochi flavored with yomogi\n- {白玉|しらたま}: shiratama — small mochi dumplings made from rice flour",
+  "notes": "The polite お prefix is standard with {餅|もち} in everyday speech, making お{餅|もち} the default conversational form. The お is not merely decorative; dropping it can sound curt in casual conversation.\n\nCOMMON COLLOCATIONS:\n- お{餅|もち}をつく: to pound mochi\n- お{餅|もち}を{焼|や}く: to grill/toast mochi\n- お{餅|もち}を{煮|に}る: to boil mochi (in soup)\n- {切|き}り{餅|もち}: pre-cut mochi blocks (sold in packages)\n- {丸|まる}{餅|もち}: round mochi (Kansai style)\n\nCULTURAL NOTE:\nMochi is deeply associated with {正月|しょうがつ} (New Year). It appears in {雑煮|ぞうに} (New Year's soup), {鏡餅|かがみもち} (decorative stacked mochi), and {磯辺焼|いそべや}き (grilled mochi wrapped in nori). The shape varies by region: round in western Japan, rectangular in eastern Japan. Every January, Japanese media report on choking incidents ({窒息|ちっそく}{事故|じこ}) among elderly people, making mochi safety a recurring seasonal topic.\n\nRELATED WORDS:\n- {餅|もち}: mochi — the base form, used in compounds\n- {大福|だいふく}: daifuku — mochi stuffed with sweet bean paste\n- {草餅|くさもち}: mugwort mochi — green mochi flavored with yomogi\n- {白玉|しらたま}: shiratama — small mochi dumplings made from rice flour",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12173_daifuku",
+      "reading": "だいふく",
+      "headword": "{大福|だいふく}",
+      "label": "daifuku"
+    },
+    {
+      "type": "related",
+      "target_id": "15810_kusamochi",
+      "reading": "くさもち",
+      "headword": "{草餅|くさもち}",
+      "label": "mugwort mochi"
+    },
+    {
+      "type": "related",
+      "target_id": "13711_shiratama",
+      "reading": "しらたま",
+      "headword": "{白玉|しらたま}",
+      "label": "shiratama"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "polite",
-      "semantic": ["food", "culture"]
+      "semantic": [
+        "food",
+        "culture"
+      ]
     },
     "created": "2026-04-12T07:01:17Z",
-    "modified": "2026-06-15T07:58:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

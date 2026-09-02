@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{運転|うんてん} (driving/operating) + {士|し} (professional suffix)\n\nDISTINCTION:\n・{運転士|うんてんし} - specifically for trains and rail vehicles\n・{運転手|うんてんしゅ} - for cars, buses, taxis\n\nThe {士|し} suffix implies professional certification and expertise, while {手|しゅ} is more general.\n\nRELATED PROFESSIONS:\n・{車掌|しゃしょう} (train conductor)\n・バス{運転手|うんてんしゅ} (bus driver)\n・タクシー{運転手|うんてんしゅ} (taxi driver)",
+  "notes": "FORMS:\n{運転|うんてん} (driving/operating) + {士|し} (professional suffix)\n\nSIMILAR WORDS:\n- {運転士|うんてんし} - specifically for trains and rail vehicles\n- {運転手|うんてんしゅ} - for cars, buses, taxis\n\nThe {士|し} suffix implies professional certification and expertise, while {手|しゅ} is more general.\n\nRELATED PROFESSIONS:\n- {車掌|しゃしょう} (train conductor)\n- バス{運転手|うんてんしゅ} (bus driver)\n- タクシー{運転手|うんてんしゅ} (taxi driver)",
   "cross_references": [
     {
       "type": "contrast",
@@ -51,11 +51,39 @@
       "headword": "{運転手|うんてんしゅ}",
       "label": "driver (general)",
       "target_id": "01333_untenshu"
+    },
+    {
+      "type": "related",
+      "target_id": "06204_shashou",
+      "reading": "しゃしょう",
+      "headword": "{車掌|しゃしょう}",
+      "label": "train conductor"
+    },
+    {
+      "type": "related",
+      "target_id": "28025_takushiiuntenshu",
+      "reading": "たくしーうんてんしゅ",
+      "headword": "タクシー運転手",
+      "label": "taxi driver"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20748_soujuushi",
+      "reading": "そうじゅうし",
+      "headword": "{操縦士|そうじゅうし}",
+      "label": "pilot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21612_joumuin",
+      "reading": "じょうむいん",
+      "headword": "{乗務員|じょうむいん}",
+      "label": "crew member"
     }
   ],
   "metadata": {
     "created": "2026-01-19T04:35:46Z",
-    "modified": "2026-01-24T14:24:36Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

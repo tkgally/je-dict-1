@@ -16,7 +16,9 @@
       "id": "20828_kyuutto_ex1",
       "japanese": "{胸|むね}がきゅうっとなった。",
       "english": "My chest tightened.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "20828_kyuutto_ex2",
       "japanese": "レモンをきゅうっと{絞|しぼ}った。",
       "english": "I squeezed the lemon tightly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,24 +36,38 @@
       "id": "20828_kyuutto_ex3",
       "japanese": "{悲|かな}しい{知|し}らせを{聞|き}いて、{胸|むね}がきゅうっと{締|し}め{付|つ}けられるような{気持|きも}ちになった。",
       "english": "Hearing the sad news, I felt a squeezing tightness in my chest.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "An onomatopoeic (gitaigo) adverb expressing a sudden, tight squeezing sensation. The small っ adds emphasis and a sense of suddenness. Often used to describe emotional experiences (heartache, nostalgia) as physical sensations.\n\nCOMMON PATTERNS:\n- {胸|むね}がきゅうっとなる: chest tightens (emotional pain or longing)\n- きゅうっと{締|し}める: to tighten firmly\n- きゅうっと{絞|しぼ}る: to squeeze tightly\n- {胃|い}がきゅうっとする: stomach clenches (anxiety)\n\nSIMILAR ONOMATOPOEIA:\n- ぎゅっと: tightly (squeezing with hands) — more about physical grip\n- きゅんと: heart-tugging — lighter, more romantic or cute\n- ずきっと: sharp pain — more about sudden, stabbing pain",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05355_gyutto",
+      "reading": "ぎゅっと",
+      "headword": "ぎゅっと",
+      "label": "tightly"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["onomatopoeia"],
+      "semantic": [
+        "onomatopoeia"
+      ],
       "domain": []
     },
     "created": "2026-03-30T17:18:08Z",
-    "modified": "2026-03-30T17:18:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "They picked up a win today.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19036_shiroboshi_ex2",
@@ -27,7 +29,9 @@
       "english": "They've had three consecutive wins since the opening.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19036_shiroboshi_ex3",
@@ -35,21 +39,35 @@
       "english": "The yokozuna has been piling up victories this tournament.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "SUMO ORIGIN:\nIn sumo and other Japanese sports, wins are marked with a white circle (○) and losses with a black circle (●). Hence {白星|しろぼし} (white mark = win) and {黒星|くろぼし} (black mark = loss).\n\nCOMMON COLLOCATIONS:\n- {白星|しろぼし}を{挙|あ}げる: to achieve a win\n- {白星|しろぼし}を{重|かさ}ねる: to pile up victories\n- {白星|しろぼし}{発進|はっしん}: getting off to a winning start\n- {白星|しろぼし}スタート: starting with a win",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "19294_kuroboshi",
+      "reading": "くろぼし",
+      "headword": "{黒星|くろぼし}",
+      "label": "loss"
+    }
+  ],
   "metadata": {
     "created": "2026-03-24T01:05:29Z",
-    "modified": "2026-03-24T01:05:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["sports"]
+      "semantic": [
+        "sports"
+      ]
     }
   }
 }

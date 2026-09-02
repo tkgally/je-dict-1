@@ -18,7 +18,9 @@
       "english": "The atomic bomb was dropped.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11942_genbaku_ex2",
@@ -26,7 +28,9 @@
       "english": "I visited the Atomic Bomb Dome in Hiroshima.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11942_genbaku_ex3",
@@ -34,22 +38,43 @@
       "english": "It is important to pass on stories of the damage caused by the atomic bomb.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{原爆|げんばく}{投下|とうか} (atomic bomb dropping)\n・{原爆|げんばく}ドーム (Atomic Bomb Dome, in Hiroshima)\n・{原爆|げんばく}{被害者|ひがいしゃ} / {被爆者|ひばくしゃ} (atomic bomb victim/survivor)\n・{原爆|げんばく}{資料館|しりょうかん} (Atomic Bomb Museum)\n\nWORD FORMATION:\nAbbreviation of {原子爆弾|げんしばくだん} (atomic bomb). This abbreviated form is the standard way to refer to atomic bombs in Japanese, especially in historical and memorial contexts relating to Hiroshima and Nagasaki.",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- {原爆|げんばく}{投下|とうか} (atomic bomb dropping)\n- {原爆|げんばく}ドーム (Atomic Bomb Dome, in Hiroshima)\n- {原爆|げんばく}{被害者|ひがいしゃ} / {被爆者|ひばくしゃ} (atomic bomb victim/survivor)\n- {原爆|げんばく}{資料館|しりょうかん} (Atomic Bomb Museum)\n\nFORMS:\nAbbreviation of {原子爆弾|げんしばくだん} (atomic bomb). This abbreviated form is the standard way to refer to atomic bombs in Japanese, especially in historical and memorial contexts relating to Hiroshima and Nagasaki.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22697_genshibakudan",
+      "reading": "げんしばくだん",
+      "headword": "{原子爆弾|げんしばくだん}",
+      "label": "atomic bomb"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23262_kakudantou",
+      "reading": "かくだんとう",
+      "headword": "{核弾頭|かくだんとう}",
+      "label": "nuclear warhead"
+    }
+  ],
   "metadata": {
     "created": "2026-02-19T10:50:34Z",
-    "modified": "2026-02-19T10:50:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

@@ -17,7 +17,9 @@
       "id": "27745_sessokudoubutsu_ex1",
       "japanese": "{昆虫|こんちゅう}は{節足|せっそく}{動物|どうぶつ}だ。",
       "english": "Insects are arthropods.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27745_sessokudoubutsu_ex2",
       "japanese": "エビやカニも{節足|せっそく}{動物|どうぶつ}だ。",
       "english": "Shrimp and crabs are also arthropods.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,61 @@
       "id": "27745_sessokudoubutsu_ex3",
       "japanese": "{節足|せっそく}{動物|どうぶつ}は{地球上|ちきゅうじょう}で{最|もっと}も{種類|しゅるい}が{多|おお}い{動物|どうぶつ}のグループだ。",
       "english": "Arthropods are the most species-rich group of animals on Earth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {節足|せっそく} (jointed legs) + {動物|どうぶつ} (animal). A biology term for invertebrates with a hard exoskeleton and segmented, jointed legs.\n\nINCLUDES:\n- {昆虫|こんちゅう}: insects\n- クモ: spiders\n- {甲殻類|こうかくるい}: crustaceans\n\nRELATED TERMS:\n- {無脊椎|むせきつい}{動物|どうぶつ}: invertebrate — the broader category to which {節足|せっそく}{動物|どうぶつ} belongs\n- {外骨格|がいこっかく}: exoskeleton — the hard outer covering of an arthropod",
+  "notes": "Composed of {節足|せっそく} (jointed legs) + {動物|どうぶつ} (animal). A biology term for invertebrates with a hard exoskeleton and segmented, jointed legs.\n\nINCLUDES:\n- {昆虫|こんちゅう}: insects\n- クモ: spiders\n- {甲殻類|こうかくるい}: crustaceans\n\nRELATED WORDS:\n- {無脊椎|むせきつい}{動物|どうぶつ}: invertebrate — the broader category to which {節足|せっそく}{動物|どうぶつ} belongs\n- {外骨格|がいこっかく}: exoskeleton — the hard outer covering of an arthropod",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "30037_musekitsuidoubutsu",
+      "reading": "むせきついどうぶつ",
+      "headword": "無脊椎動物",
+      "label": "invertebrate"
+    },
+    {
+      "type": "related",
+      "target_id": "20910_koukakurui",
+      "reading": "こうかくるい",
+      "headword": "{甲殻類|こうかくるい}",
+      "label": "crustaceans"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23827_nantaidoubutsu",
+      "reading": "なんたいどうぶつ",
+      "headword": "{軟体動物|なんたいどうぶつ}",
+      "label": "mollusk"
+    },
+    {
+      "type": "related",
+      "target_id": "26577_nantai",
+      "reading": "なんたい",
+      "headword": "{軟体|なんたい}",
+      "label": "soft body"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["animal-general"],
-      "domain": ["academic"]
+      "semantic": [
+        "animal-general"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-05-18T03:04:42Z",
-    "modified": "2026-05-18T03:04:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

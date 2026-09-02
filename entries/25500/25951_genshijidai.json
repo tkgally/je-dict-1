@@ -17,7 +17,9 @@
       "id": "25951_genshijidai_ex1",
       "japanese": "{原始時代|げんしじだい}の{人々|ひとびと}は{狩猟|しゅりょう}で{生活|せいかつ}していた。",
       "english": "People in prehistoric times lived by hunting.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25951_genshijidai_ex2",
       "japanese": "{原始時代|げんしじだい}の{道具|どうぐ}が{博物館|はくぶつかん}に{展示|てんじ}されている。",
       "english": "Tools from the primitive era are displayed in the museum.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,51 @@
       "id": "25951_genshijidai_ex3",
       "japanese": "{原始時代|げんしじだい}から{人間|にんげん}は{火|ひ}を{使|つか}って{生活|せいかつ}を{豊|ゆた}かにしてきた。",
       "english": "Since prehistoric times, humans have enriched their lives by using fire.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {原始|げんし} (primitive; primeval) and {時代|じだい} (era; age). Used in history, anthropology, and general discussion to refer to the earliest stage of human existence. Sometimes used loosely or figuratively to describe something extremely outdated.\n\nCOMMON COLLOCATIONS:\n- {原始時代|げんしじだい}の{人間|にんげん}: primitive humans\n- {原始時代|げんしじだい}の{生活|せいかつ}: life in prehistoric times\n- {原始時代|げんしじだい}から: since prehistoric times\n- {原始時代|げんしじだい}の{遺跡|いせき}: prehistoric ruins\n\nSIMILAR WORDS:\n- {先史時代|せんしじだい}: prehistoric era — a more academic term specifically meaning the period before written records\n- {古代|こだい}: ancient times — a later period when civilizations had already formed, with writing and organized society\n- {石器時代|せっきじだい}: Stone Age — refers specifically to the period defined by the use of stone tools",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26438_senshijidai",
+      "reading": "せんしじだい",
+      "headword": "{先史|せんし}{時代|じだい}",
+      "label": "prehistoric era"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05324_kodai",
+      "reading": "こだい",
+      "headword": "{古代|こだい}",
+      "label": "ancient times"
+    },
+    {
+      "type": "related",
+      "target_id": "23398_senshi",
+      "reading": "せんし",
+      "headword": "{先史|せんし}",
+      "label": "prehistory"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["history", "time-period"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "history",
+        "time-period"
+      ]
     },
     "created": "2026-04-28T13:34:48Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "This app is user-friendly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14983_tsukaigatte_ex2",
@@ -27,7 +29,9 @@
       "english": "The design is nice, but it's not easy to use.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14983_tsukaigatte_ex3",
@@ -35,21 +39,49 @@
       "english": "A kitchen designed with usability in mind makes daily cooking easier.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of {使|つか}い (using, from {使|つか}う) and {勝手|かって} (convenience, one's own way). The {勝手|かって} becomes がって due to rendaku (sequential voicing).\n\nAlmost always used with がいい (easy to use) or が{悪|わる}い (hard to use). A practical, everyday word for evaluating products, tools, and interfaces.\n\nSIMILAR WORDS:\n- {操作性|そうさせい} is more technical (operability)\n- {利便性|りべんせい} is more formal (convenience)\n- {使|つか}いやすさ is a simpler way to say 'ease of use'\n\nCOMMON COLLOCATIONS:\n- {使|つか}い{勝手|がって}がいい (easy to use)\n- {使|つか}い{勝手|がって}が{悪|わる}い (hard to use)\n- {使|つか}い{勝手|がって}を{改善|かいぜん}する (to improve usability)\n- {使|つか}い{勝手|がって}のいい{道具|どうぐ} (a handy tool)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18792_sousasei",
+      "reading": "そうさせい",
+      "headword": "{操作性|そうさせい}",
+      "label": "is more technical"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10681_ribensei",
+      "reading": "りべんせい",
+      "headword": "{利便性|りべんせい}",
+      "label": "is more formal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30369_tsukaiyasusa",
+      "reading": "つかいやすさ",
+      "headword": "{使|つか}いやすさ",
+      "label": "is a simpler way to say 'ease of use'"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T08:08:01Z",
-    "modified": "2026-03-04T08:08:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

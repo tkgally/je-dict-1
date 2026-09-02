@@ -2,7 +2,7 @@
   "id": "02589_kyouju",
   "headword": "{教授|きょうじゅ}",
   "reading": "きょうじゅ",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "professor; teaching, instruction",
   "conjugation": {
     "type": "suru",
@@ -177,11 +177,39 @@
       "headword": "{先生|せんせい}",
       "label": "teacher",
       "target_id": "00609_sensei"
+    },
+    {
+      "type": "related",
+      "target_id": "00608_daigaku",
+      "reading": "だいがく",
+      "headword": "{大学|だいがく}",
+      "label": "university"
+    },
+    {
+      "type": "related",
+      "target_id": "01996_gakubu",
+      "reading": "がくぶ",
+      "headword": "〜{学部|がくぶ}",
+      "label": "faculty, department (university)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23056_shinan",
+      "reading": "しなん",
+      "headword": "{指南|しなん}",
+      "label": "instruction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25171_daigakukyouin",
+      "reading": "だいがくきょういん",
+      "headword": "{大学教員|だいがくきょういん}",
+      "label": "university faculty member"
     }
   ],
   "metadata": {
     "created": "2026-01-11T10:39:28Z",
-    "modified": "2026-08-12T06:28:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

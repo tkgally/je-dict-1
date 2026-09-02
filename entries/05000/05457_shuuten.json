@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{終点|しゅうてん} means terminal or last stop on a transportation route.\n\nKANJI BREAKDOWN:\n- {終|しゅう}: end\n- {点|てん}: point\n\nOPPOSITES:\n- ⟦{起点|きてん}→起点：16254_kiten⟧: starting point\n- ⟦{始発|しはつ}→始発：03063_shihatsu⟧: first train/departure\n- ⟦{始発駅|しはつえき}→始発駅：26069_shihatsueki⟧: first station/terminal\n\nCOMMON EXPRESSIONS:\n- {終点|しゅうてん}⟦まで→まで：00490_made⟧⟦{乗|の}る→乗る：00511_noru⟧: to ride to the last stop\n- {終点|しゅうてん}⟦で→で：00502_de⟧⟦{降|お}りる→降りる：00568_oriru⟧: to get off at the terminal\n- 「{終点|しゅうてん}⟦です→です：09485_desu⟧」: \"This is the last stop\" (announcement)\n\nRELATED TERMS:\n- ⟦{終着駅|しゅうちゃくえき}→終着駅：23879_shuuchakueki⟧: terminal station (synonymous)",
+  "notes": "{終点|しゅうてん} means terminal or last stop on a transportation route.\n\nWRITING:\n- {終|しゅう}: end\n- {点|てん}: point\n\nSIMILAR WORDS:\n- ⟦{起点|きてん}→起点：16254_kiten⟧: starting point\n- ⟦{始発|しはつ}→始発：03063_shihatsu⟧: first train/departure\n- ⟦{始発駅|しはつえき}→始発駅：26069_shihatsueki⟧: first station/terminal\n\nCOMMON EXPRESSIONS:\n- {終点|しゅうてん}⟦まで→まで：00490_made⟧⟦{乗|の}る→乗る：00511_noru⟧: to ride to the last stop\n- {終点|しゅうてん}⟦で→で：00502_de⟧⟦{降|お}りる→降りる：00568_oriru⟧: to get off at the terminal\n- 「{終点|しゅうてん}⟦です→です：09485_desu⟧」: \"This is the last stop\" (announcement)\n\nRELATED WORDS:\n- ⟦{終着駅|しゅうちゃくえき}→終着駅：23879_shuuchakueki⟧: terminal station (synonymous)",
   "cross_references": [
     {
       "type": "antonym",
@@ -65,11 +65,53 @@
       "reading": "しゅっぱつてん",
       "headword": "{出発点|しゅっぱつてん}",
       "label": "starting point"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26069_shihatsueki",
+      "reading": "しはつえき",
+      "headword": "{始発駅|しはつえき}",
+      "label": "first station/terminal"
+    },
+    {
+      "type": "related",
+      "target_id": "23879_shuuchakueki",
+      "reading": "しゅうちゃくえき",
+      "headword": "{終着駅|しゅうちゃくえき}",
+      "label": "terminal station"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09996_mokutekichi",
+      "reading": "もくてきち",
+      "headword": "{目的地|もくてきち}",
+      "label": "destination"
+    },
+    {
+      "type": "antonym",
+      "target_id": "23087_shiten",
+      "reading": "してん",
+      "headword": "{始点|してん}",
+      "label": "starting point"
+    },
+    {
+      "type": "related",
+      "target_id": "23576_tsuginoeki",
+      "reading": "つぎのえき",
+      "headword": "{次|つぎ}の{駅|えき}",
+      "label": "the next station"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26039_shuuchaku",
+      "reading": "しゅうちゃく",
+      "headword": "{終着|しゅうちゃく}",
+      "label": "terminus"
     }
   ],
   "metadata": {
     "created": "2026-01-16T07:39:28Z",
-    "modified": "2026-08-20T06:21:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -19,7 +19,9 @@
       "english": "The cherry blossoms have passed their peak.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11174_piiku_ex2",
@@ -27,7 +29,9 @@
       "english": "The peak of the commuter rush is around 8 a.m.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11174_piiku_ex3",
@@ -35,21 +39,70 @@
       "english": "Pollen dispersal reaches its peak in March.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "ピーク is from English \"peak.\" Used for the highest point, maximum level, or prime of something — traffic, popularity, ability, seasons, etc.\n\nCOMMON PATTERNS:\n- ピークを{迎|むか}える: to reach one's peak\n- ピークに{達|たっ}する: to reach the peak\n- ピークを{過|す}ぎる: to be past the peak/prime\n\nCOMMON COMPOUNDS:\n- ピーク{時|じ}: peak time/hours\n- ピーク{時間帯|じかんたい}: peak time period\n- オフピーク: off-peak\n\nUSAGE:\nVery versatile — applies to physical peaks ({花粉|かふん}のピーク, pollen peak), career peaks ({選手|せんしゅ}としてのピーク, peak as an athlete), and volume peaks ({通勤|つうきん}ラッシュのピーク, peak of rush hour).\n\nSIMILAR WORDS:\n- {頂点|ちょうてん}: summit, pinnacle (more literary)\n- {最盛期|さいせいき}: heyday, golden age\n- {絶頂|ぜっちょう}: peak, climax (more dramatic)",
-  "cross_references": [],
+  "notes": "ピーク is from English \"peak.\" Used for the highest point, maximum level, or prime of something — traffic, popularity, ability, seasons, etc.\n\nCOMMON PATTERNS:\n- ピークを{迎|むか}える: to reach one's peak\n- ピークに{達|たっ}する: to reach the peak\n- ピークを{過|す}ぎる: to be past the peak/prime\n\nCOMPOUNDS:\n- ピーク{時|じ}: peak time/hours\n- ピーク{時間帯|じかんたい}: peak time period\n- オフピーク: off-peak\n\nUSAGE:\nVery versatile — applies to physical peaks ({花粉|かふん}のピーク, pollen peak), career peaks ({選手|せんしゅ}としてのピーク, peak as an athlete), and volume peaks ({通勤|つうきん}ラッシュのピーク, peak of rush hour).\n\nSIMILAR WORDS:\n- {頂点|ちょうてん}: summit, pinnacle (more literary)\n- {最盛期|さいせいき}: heyday, golden age\n- {絶頂|ぜっちょう}: peak, climax (more dramatic)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05448_chouten",
+      "reading": "ちょうてん",
+      "headword": "{頂点|ちょうてん}",
+      "label": "summit, pinnacle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13058_saiseiki",
+      "reading": "さいせいき",
+      "headword": "{最盛期|さいせいき}",
+      "label": "heyday, golden age"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13844_zecchou",
+      "reading": "ぜっちょう",
+      "headword": "{絶頂|ぜっちょう}",
+      "label": "peak, climax"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08366_hanbouki",
+      "reading": "はんぼうき",
+      "headword": "{繁忙期|はんぼうき}",
+      "label": "busy season"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11644_zenseiki",
+      "reading": "ぜんせいき",
+      "headword": "{全盛期|ぜんせいき}",
+      "label": "golden age, heyday, peak"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19278_saikouchou",
+      "reading": "さいこうちょう",
+      "headword": "{最高潮|さいこうちょう}",
+      "label": "climax"
+    }
+  ],
   "metadata": {
     "created": "2026-02-14T05:15:09Z",
-    "modified": "2026-03-27T14:29:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

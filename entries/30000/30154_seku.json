@@ -3,7 +3,7 @@
   "headword": "{急|せ}く",
   "reading": "せく",
   "romaji": "seku",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to be in a rush; to feel impatient",
   "definitions": [
     {
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "An older, somewhat literary verb that survives mainly in set phrases. It describes the internal feeling of being hurried, not the act of hurrying.\n\nCOMMON COLLOCATIONS:\n- {気|き}が{急|せ}く: to feel rushed, to be impatient\n- {息|いき}が{急|せ}く: for one's breathing to become short\n- {急|せ}いては{事|こと}を{仕損|しそん}じる: haste makes waste (proverb)\n\nSIMILAR WORDS:\n- {急|いそ}ぐ: to hurry — the ordinary word, describing the action of moving fast\n- {焦|あせ}る: to be flustered — stronger, with a sense of anxiety about falling behind\n\nRELATED FORMS:\nせっかち (impatient, hasty) derives from this verb.",
+  "notes": "An older, somewhat literary verb that survives mainly in set phrases. It describes the internal feeling of being hurried, not the act of hurrying.\n\nCOMMON COLLOCATIONS:\n- {気|き}が{急|せ}く: to feel rushed, to be impatient\n- {息|いき}が{急|せ}く: for one's breathing to become short\n- {急|せ}いては{事|こと}を{仕損|しそん}じる: haste makes waste (proverb)\n\nSIMILAR WORDS:\n- {急|いそ}ぐ: to hurry — the ordinary word, describing the action of moving fast\n- {焦|あせ}る: to be flustered — stronger, with a sense of anxiety about falling behind\n\nFORMS:\nせっかち (impatient, hasty) derives from this verb.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01191_isogu",
+      "reading": "いそぐ",
+      "headword": "{急|いそ}ぐ",
+      "label": "to hurry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04619_aseru",
+      "reading": "あせる",
+      "headword": "{焦|あせ}る",
+      "label": "to be flustered"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "verb-godan"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "action"
@@ -62,7 +78,7 @@
       "verb_class": "godan-ku"
     },
     "created": "2026-07-27T03:18:27Z",
-    "modified": "2026-07-27T03:18:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

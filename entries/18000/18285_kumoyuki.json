@@ -24,7 +24,9 @@
       "english": "The sky is starting to look threatening.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18285_kumoyuki_ex2",
@@ -32,7 +34,9 @@
       "english": "Looking at the sky, I decided to bring an umbrella.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18285_kumoyuki_ex3",
@@ -40,7 +44,9 @@
       "english": "In the afternoon the sky suddenly changed, and heavy rain began to fall.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18285_kumoyuki_ex4",
@@ -48,7 +54,9 @@
       "english": "The negotiations are looking unpromising.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "18285_kumoyuki_ex5",
@@ -56,7 +64,9 @@
       "english": "The economic outlook is worsening.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "18285_kumoyuki_ex6",
@@ -64,21 +74,43 @@
       "english": "Since the meeting was taking a bad turn, I decided to hold back from commenting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nThe figurative sense (sense 2) is extremely common and often appears with {怪|あや}しい (suspicious, ominous). The expression {雲行|くもゆ}きが{怪|あや}しい can refer to either literal weather or figurative situations going badly.\n\nCOMMON COLLOCATIONS:\n- {雲行|くもゆ}きが{怪|あや}しい (the sky / situation looks threatening)\n- {雲行|くもゆ}きが{変|か}わる (the sky / situation changes)\n- {雲行|くもゆ}きを{見|み}る (to watch the sky / assess the situation)\n\nSIMILAR WORDS:\n- {動向|どうこう}: trend, developments — more formal and analytical\n- {形勢|けいせい}: situation, state of affairs — often used for competitions or battles",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05580_doukou",
+      "reading": "どうこう",
+      "headword": "{動向|どうこう}",
+      "label": "trend, developments"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16342_keisei",
+      "reading": "けいせい",
+      "headword": "{形勢|けいせい}",
+      "label": "situation, state of affairs"
+    }
+  ],
   "metadata": {
     "created": "2026-03-21T01:15:37Z",
-    "modified": "2026-03-21T01:15:37Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather", "situation"]
+      "semantic": [
+        "weather",
+        "situation"
+      ]
     }
   }
 }

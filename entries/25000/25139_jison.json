@@ -46,18 +46,43 @@
   ],
   "notes": "A compound of {自|じ} (self) and {損|そん} (damage, loss). Primarily used in traffic and insurance contexts to describe accidents or damage involving only the person responsible, with no other parties affected.\n\nThe most common usage is {自損|じそん}{事故|じこ} (single-vehicle accident), referring to crashes where the driver hits a guardrail, pole, wall, or ditch without colliding with another vehicle or person.\n\nCOMMON COLLOCATIONS:\n- {自損|じそん}{事故|じこ}: single-vehicle accident; self-caused accident\n- {自損|じそん}{行為|こうい}: self-inflicted act\n- {自損|じそん}{事故|じこ}{届|とど}け: single-vehicle accident report\n\nSIMILAR WORDS:\n- {物損|ぶっそん}: property damage — damage to things (as opposed to personal injury)\n- {人身|じんしん}{事故|じこ}: personal injury accident — an accident involving bodily harm\n- {追突|ついとつ}: rear-end collision — a specific type of traffic accident involving another vehicle",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24642_busson",
+      "reading": "ぶっそん",
+      "headword": "{物損|ぶっそん}",
+      "label": "property damage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08475_jinshinjiko",
+      "reading": "じんしんじこ",
+      "headword": "{人身事故|じんしんじこ}",
+      "label": "personal injury accident"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17054_tsuitotsu",
+      "reading": "ついとつ",
+      "headword": "{追突|ついとつ}",
+      "label": "rear-end collision"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "law",
         "transportation"
       ]
     },
     "created": "2026-04-23T12:22:01Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

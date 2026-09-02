@@ -19,7 +19,9 @@
       "english": "To submit an application.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16223_gansho_ex2",
@@ -27,7 +29,9 @@
       "english": "I'm filling out a university application.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16223_gansho_ex3",
@@ -35,20 +39,48 @@
       "english": "The application deadline is next Friday.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{願書|がんしょ} most commonly refers to application forms for school entrance exams ({入学|にゅうがく}{願書|がんしょ}) or official requests. It implies a formal, written document rather than a casual request.\n\nCOMMON COLLOCATIONS:\n- {願書|がんしょ}を{出|だ}す: to submit an application\n- {願書|がんしょ}を{書|か}く: to fill out an application\n- {願書|がんしょ}を{取|と}り{寄|よ}せる: to send away for an application form\n- {入学|にゅうがく}{願書|がんしょ}: school admission application\n- {願書|がんしょ}{受付|うけつけ}: application reception",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02387_negau",
+      "reading": "ねがう",
+      "headword": "{願|ねが}う",
+      "label": "to wish, to request"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04207_shinsei",
+      "reading": "しんせい",
+      "headword": "{申請|しんせい}",
+      "label": "application, petition"
+    },
+    {
+      "type": "related",
+      "target_id": "22052_shutsuganshorui",
+      "reading": "しゅつがんしょるい",
+      "headword": "{出願書類|しゅつがんしょるい}",
+      "label": "application documents"
+    }
+  ],
   "metadata": {
     "created": "2026-03-11T07:57:17Z",
-    "modified": "2026-03-11T07:57:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["document"]
+      "semantic": [
+        "document"
+      ]
     }
   }
 }

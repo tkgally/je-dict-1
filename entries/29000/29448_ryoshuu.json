@@ -17,7 +17,9 @@
       "id": "29448_ryoshuu_ex1",
       "japanese": "{虜囚|りょしゅう}となる。",
       "english": "to become a captive.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29448_ryoshuu_ex2",
       "japanese": "{敵|てき}の{虜囚|りょしゅう}として{扱|あつか}われた。",
       "english": "He was treated as a captive of the enemy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29448_ryoshuu_ex3",
       "japanese": "{長|なが}い{虜囚|りょしゅう}の{身|み}から、ようやく{解放|かいほう}された。",
       "english": "He was finally freed after a long captivity.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A formal, somewhat literary term. In everyday speech {捕虜|ほりょ} is far more common.\n\nCOMMON COLLOCATIONS:\n- {虜囚|りょしゅう}となる: to become a captive\n- {虜囚|りょしゅう}の{身|み}: the status of a captive\n- {虜囚|りょしゅう}{生活|せいかつ}: life in captivity\n\nSIMILAR WORDS:\n- {捕虜|ほりょ}: prisoner of war — the ordinary, neutral word\n- {人質|ひとじち}: hostage — held to force concessions, not captured in battle",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20662_horyo",
+      "reading": "ほりょ",
+      "headword": "{捕虜|ほりょ}",
+      "label": "prisoner of war"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09678_hitojichi",
+      "reading": "ひとじち",
+      "headword": "{人質|ひとじち}",
+      "label": "hostage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["person"],
+      "politeness": "plain",
+      "semantic": [
+        "person"
+      ],
       "domain": []
     },
     "created": "2026-06-24T00:19:16Z",
-    "modified": "2026-06-24T00:19:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

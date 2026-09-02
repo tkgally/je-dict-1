@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{認|みと}める (to acknowledge) + {印|いん} (seal)\n\nAlso read as にんいん in formal contexts.\n\nCHARACTERISTICS:\n・Not registered with the government\n・Inexpensive (can be mass-produced)\n・Used for everyday, low-stakes documents\n・Often just shows the family name ({苗字|みょうじ})\n\nCOMMON USES:\n・{宅配便|たくはいびん}の{受|う}け{取|と}り - receiving packages\n・{回覧板|かいらんばん} - neighborhood circulars\n・{社内|しゃない}{書類|しょるい} - internal company documents\n・{銀行|ぎんこう}の{届出印|とどけでいん} (sometimes)\n\nSEAL HIERARCHY:\n1. {認印|みとめいん} - everyday use, not registered\n2. {銀行印|ぎんこういん} - bank seal (registered with bank)\n3. {実印|じついん} - registered seal (with {印鑑登録|いんかんとうろく})\n\nCONTRAST:\n{認印|みとめいん} is casual/everyday while {実印|じついん} is official/legal.",
+  "notes": "ETYMOLOGY:\n{認|みと}める (to acknowledge) + {印|いん} (seal)\n\nAlso read as にんいん in formal contexts.\n\nCHARACTERISTICS:\n- Not registered with the government\n- Inexpensive (can be mass-produced)\n- Used for everyday, low-stakes documents\n- Often just shows the family name ({苗字|みょうじ})\n\nCOMMON COLLOCATIONS:\n- {宅配便|たくはいびん}の{受|う}け{取|と}り - receiving packages\n- {回覧板|かいらんばん} - neighborhood circulars\n- {社内|しゃない}{書類|しょるい} - internal company documents\n- {銀行|ぎんこう}の{届出印|とどけでいん} (sometimes)\n\nSEAL HIERARCHY:\n1. {認印|みとめいん} - everyday use, not registered\n2. {銀行印|ぎんこういん} - bank seal (registered with bank)\n3. {実印|じついん} - registered seal (with {印鑑登録|いんかんとうろく})\n\nSIMILAR WORDS:\n{認印|みとめいん} is casual/everyday while {実印|じついん} is official/legal.",
   "cross_references": [
     {
       "type": "contrast",
@@ -55,11 +55,46 @@
       "headword": "{押印|おういん}",
       "label": "affixing a seal",
       "target_id": "07488_ouin"
+    },
+    {
+      "type": "related",
+      "target_id": "02429_mitomeru",
+      "reading": "みとめる",
+      "headword": "{認|みと}める",
+      "label": "to recognize, to admit"
+    },
+    {
+      "type": "related",
+      "target_id": "09812_shachihata",
+      "reading": "しゃちはた",
+      "headword": "シャチハタ",
+      "label": "self-inking stamp"
+    },
+    {
+      "type": "related",
+      "target_id": "10285_inkanshoumei",
+      "reading": "いんかんしょうめい",
+      "headword": "{印鑑証明|いんかんしょうめい}",
+      "label": "certificate of seal registration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23189_kouin",
+      "reading": "こういん",
+      "headword": "{公印|こういん}",
+      "label": "official seal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27357_ginkouin",
+      "reading": "ぎんこういん",
+      "headword": "{銀行印|ぎんこういん}",
+      "label": "bank seal (a personal seal registered with one's bank)"
     }
   ],
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-08-10T18:29:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -67,6 +102,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "tool",
         "business"

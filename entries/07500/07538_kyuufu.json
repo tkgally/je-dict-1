@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{休|きゅう} (rest, pause) + {符|ふ} (symbol, mark)\n\nTYPES OF RESTS:\n・{全|ぜん}{休符|きゅうふ} - whole rest\n・{二分|にぶん}{休符|きゅうふ} - half rest\n・{四分|しぶん}{休符|きゅうふ} - quarter rest\n・{八分|はちぶん}{休符|きゅうふ} - eighth rest\n・{十六分|じゅうろくぶん}{休符|きゅうふ} - sixteenth rest\n\nRELATED TERMS:\n・{音符|おんぷ} - note (musical)\n・{楽譜|がくふ} - musical score/sheet music\n・{拍子|ひょうし} - time signature, beat\n・{小節|しょうせつ} - measure, bar\n\nCOLLOCATIONS:\n・{休符|きゅうふ}を{守|まも}る - to observe the rest (not play during it)\n・{休符|きゅうふ}を{数|かぞ}える - to count the rest",
+  "notes": "ETYMOLOGY:\n{休|きゅう} (rest, pause) + {符|ふ} (symbol, mark)\n\nTYPES OF RESTS:\n- {全|ぜん}{休符|きゅうふ} - whole rest\n- {二分|にぶん}{休符|きゅうふ} - half rest\n- {四分|しぶん}{休符|きゅうふ} - quarter rest\n- {八分|はちぶん}{休符|きゅうふ} - eighth rest\n- {十六分|じゅうろくぶん}{休符|きゅうふ} - sixteenth rest\n\nRELATED WORDS:\n- {音符|おんぷ} - note (musical)\n- {楽譜|がくふ} - musical score/sheet music\n- {拍子|ひょうし} - time signature, beat\n- {小節|しょうせつ} - measure, bar\n\nCOMMON COLLOCATIONS:\n- {休符|きゅうふ}を{守|まも}る - to observe the rest (not play during it)\n- {休符|きゅうふ}を{数|かぞ}える - to count the rest",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,32 @@
       "headword": "{独奏|どくそう}",
       "label": "solo performance",
       "target_id": "07539_dokusou"
+    },
+    {
+      "type": "related",
+      "target_id": "06988_onpu",
+      "reading": "おんぷ",
+      "headword": "{音符|おんぷ}",
+      "label": "note"
+    },
+    {
+      "type": "related",
+      "target_id": "06987_gakufu",
+      "reading": "がくふ",
+      "headword": "{楽譜|がくふ}",
+      "label": "musical score/sheet music"
+    },
+    {
+      "type": "related",
+      "target_id": "10495_hyoushi",
+      "reading": "ひょうし",
+      "headword": "{拍子|ひょうし}",
+      "label": "time signature, beat"
     }
   ],
   "metadata": {
     "created": "2026-01-20T08:47:47Z",
-    "modified": "2026-01-24T14:24:36Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +81,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "music"
       ]

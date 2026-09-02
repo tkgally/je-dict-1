@@ -17,7 +17,9 @@
       "id": "19230_funenbutsu_ex1",
       "japanese": "{不燃物|ふねんぶつ}は{水曜日|すいようび}に{出|だ}す。",
       "english": "Non-burnable waste is put out on Wednesdays.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19230_funenbutsu_ex2",
       "japanese": "ガラスや{陶器|とうき}は{不燃物|ふねんぶつ}に{分類|ぶんるい}される。",
       "english": "Glass and ceramics are classified as non-burnable waste.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,12 +37,14 @@
       "id": "19230_funenbutsu_ex3",
       "japanese": "{引|ひ}っ{越|こ}しで{出|で}た{不燃物|ふねんぶつ}をまとめて{処分|しょぶん}した。",
       "english": "I disposed of all the non-burnable waste that came out from moving.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {不燃|ふねん} (non-combustible) + {物|ぶつ} (thing/material).\n\nEXAMPLES OF {不燃物|ふねんぶつ}:\n- ガラス (glass)\n- {陶器|とうき} (ceramics)\n- {金属|きんぞく} (metals)\n- {小型|こがた}{家電|かでん} (small appliances)\n\nCONTRAST:\n- {可燃物|かねんぶつ}/{燃|も}えるゴミ: burnable waste (opposite)\n- {資源|しげん}ゴミ: recyclable waste\n- {粗大|そだい}ゴミ: oversized waste\n\nALSO CALLED:\n{不燃|ふねん}ゴミ or {燃|も}えないゴミ in everyday language.\n\nCULTURE:\nJapanese municipalities have strict garbage sorting rules. {不燃物|ふねんぶつ} collection days vary by area and are typically less frequent than burnable waste days.",
+  "notes": "Compound of {不燃|ふねん} (non-combustible) + {物|ぶつ} (thing/material).\n\nEXAMPLES OF {不燃物|ふねんぶつ}:\n- ガラス (glass)\n- {陶器|とうき} (ceramics)\n- {金属|きんぞく} (metals)\n- {小型|こがた}{家電|かでん} (small appliances)\n\nSIMILAR WORDS:\n- {可燃物|かねんぶつ}/{燃|も}えるゴミ: burnable waste (opposite)\n- {資源|しげん}ゴミ: recyclable waste\n- {粗大|そだい}ゴミ: oversized waste\n\nALSO CALLED:\n{不燃|ふねん}ゴミ or {燃|も}えないゴミ in everyday language.\n\nCULTURAL NOTE:\nJapanese municipalities have strict garbage sorting rules. {不燃物|ふねんぶつ} collection days vary by area and are typically less frequent than burnable waste days.",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,36 @@
       "reading": "かねんぶつ",
       "headword": "{可燃物|かねんぶつ}",
       "label": "burnable trash"
+    },
+    {
+      "type": "antonym",
+      "target_id": "17105_moerugomi",
+      "reading": "もえるごみ",
+      "headword": "{燃|も}えるゴミ",
+      "label": "burnable waste"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08045_sodaigomi",
+      "reading": "そだいごみ",
+      "headword": "{粗大|そだい}ゴミ",
+      "label": "oversized waste"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life"]
+      "semantic": [
+        "daily-life"
+      ]
     },
     "created": "2026-03-25T01:37:06Z",
-    "modified": "2026-07-26T21:46:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

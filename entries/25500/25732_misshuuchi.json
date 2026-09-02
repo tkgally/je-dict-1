@@ -17,7 +17,9 @@
       "id": "25732_misshuuchi_ex1",
       "japanese": "ここは{住宅|じゅうたく}{密集地|みっしゅうち}だ。",
       "english": "This is a densely packed residential area.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25732_misshuuchi_ex2",
       "japanese": "{密集地|みっしゅうち}では{火災|かさい}が{広|ひろ}がりやすい。",
       "english": "Fires spread easily in densely built areas.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,38 @@
       "id": "25732_misshuuchi_ex3",
       "japanese": "{東京|とうきょう}の{下町|したまち}には{木造|もくぞう}{住宅|じゅうたく}の{密集地|みっしゅうち}が{多|おお}く、{防災|ぼうさい}{対策|たいさく}が{課題|かだい}となっている。",
       "english": "In the old downtown areas of Tokyo, there are many zones with densely packed wooden houses, and disaster prevention is an ongoing challenge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {密集|みっしゅう} (dense gathering, clustering) + {地|ち} (place, area). Frequently appears in news and policy discussions about urban planning, fire safety, and earthquake preparedness, especially regarding older neighborhoods with narrow streets and wooden buildings.\n\nCOMMON COLLOCATIONS:\n- {住宅|じゅうたく}{密集地|みっしゅうち}: densely packed residential area\n- {人口|じんこう}{密集地|みっしゅうち}: densely populated area\n- {密集地|みっしゅうち}の{防災|ぼうさい}: disaster prevention in dense areas\n- {密集地|みっしゅうち}を{避|さ}ける: to avoid crowded areas\n\nSIMILAR WORDS:\n- {密集地帯|みっしゅうちたい}: dense zone — near-synonym; {地帯|ちたい} implies a broader belt or zone\n- {過密地域|かみつちいき}: overcrowded region — emphasizes that the density has exceeded a desirable level\n- {市街地|しがいち}: urban area — describes any built-up area, not necessarily densely packed",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17083_shigaichi",
+      "reading": "しがいち",
+      "headword": "{市街地|しがいち}",
+      "label": "urban area"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["geography", "society"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "geography",
+        "society"
+      ]
     },
     "created": "2026-04-27T11:15:06Z",
-    "modified": "2026-04-27T11:15:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

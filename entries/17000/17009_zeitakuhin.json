@@ -19,7 +19,9 @@
       "english": "I try not to buy luxury items.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17009_zeitakuhin_ex2",
@@ -27,7 +29,9 @@
       "english": "I think brand-name bags are luxury goods.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17009_zeitakuhin_ex3",
@@ -35,10 +39,12 @@
       "english": "During wartime, the sale of luxury goods was restricted, and only daily necessities were available.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{贅沢品|ぜいたくひん} is a compound of {贅沢|ぜいたく} (luxury, extravagance) + {品|ひん} (goods). It refers to non-essential, expensive items — things you want but don't need.\n\nCOMMON COLLOCATIONS:\n- {贅沢品|ぜいたくひん}を{買|か}う (to buy luxury goods)\n- {贅沢品|ぜいたくひん}に{税金|ぜいきん}をかける (to tax luxury goods)\n- {贅沢品|ぜいたくひん}と{必需品|ひつじゅひん} (luxuries and necessities)\n\nCONTRAST:\n- {必需品|ひつじゅひん}: necessities, essential goods\n- {日用品|にちようひん}: daily goods, everyday items\n- {高級品|こうきゅうひん}: high-quality goods (emphasizes quality, not extravagance)\n\nCULTURAL NOTE:\nHistorically, {贅沢|ぜいたく}は{敵|てき}だ (luxury is the enemy) was a wartime slogan. The concept of restraining luxury spending has deep roots in Japanese culture.",
+  "notes": "{贅沢品|ぜいたくひん} is a compound of {贅沢|ぜいたく} (luxury, extravagance) + {品|ひん} (goods). It refers to non-essential, expensive items — things you want but don't need.\n\nCOMMON COLLOCATIONS:\n- {贅沢品|ぜいたくひん}を{買|か}う (to buy luxury goods)\n- {贅沢品|ぜいたくひん}に{税金|ぜいきん}をかける (to tax luxury goods)\n- {贅沢品|ぜいたくひん}と{必需品|ひつじゅひん} (luxuries and necessities)\n\nSIMILAR WORDS:\n- {必需品|ひつじゅひん}: necessities, essential goods\n- {日用品|にちようひん}: daily goods, everyday items\n- {高級品|こうきゅうひん}: high-quality goods (emphasizes quality, not extravagance)\n\nCULTURAL NOTE:\nHistorically, {贅沢|ぜいたく}は{敵|てき}だ (luxury is the enemy) was a wartime slogan. The concept of restraining luxury spending has deep roots in Japanese culture.",
   "cross_references": [
     {
       "type": "antonym",
@@ -53,18 +59,37 @@
       "reading": "ぜいたく",
       "headword": "{贅沢|ぜいたく}",
       "label": "luxury (base word)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09547_nichiyouhin",
+      "reading": "にちようひん",
+      "headword": "{日用品|にちようひん}",
+      "label": "daily goods, everyday items"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21439_koukyuuhin",
+      "reading": "こうきゅうひん",
+      "headword": "{高級品|こうきゅうひん}",
+      "label": "high-quality goods"
     }
   ],
   "metadata": {
     "created": "2026-03-15T05:53:16Z",
-    "modified": "2026-05-05T07:03:24Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["shopping", "economics"]
+      "semantic": [
+        "shopping",
+        "economics"
+      ]
     }
   }
 }

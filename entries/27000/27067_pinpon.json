@@ -3,7 +3,7 @@
   "headword": "ピンポン",
   "reading": "ぴんぽん",
   "romaji": "pinpon",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, onomatopoeia",
   "gloss": "ping-pong; doorbell chime",
   "definitions": [
     {
@@ -22,7 +22,9 @@
       "id": "27067_pinpon_ex1",
       "japanese": "ピンポンをしよう。",
       "english": "Let's play ping-pong.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "27067_pinpon_ex2",
       "japanese": "{昼休|ひるやす}みにピンポンで{遊|あそ}んだ。",
       "english": "We played ping-pong during lunch break.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "27067_pinpon_ex3",
       "japanese": "{小学校|しょうがっこう}の{頃|ころ}はよく{友達|ともだち}とピンポンをして{遊|あそ}んでいた。",
       "english": "When I was in elementary school, I often played ping-pong with friends.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "27067_pinpon_ex4",
       "japanese": "ピンポンが{鳴|な}った。",
       "english": "The doorbell rang.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "27067_pinpon_ex5",
       "japanese": "{夜|よる}{遅|おそ}くにピンポンを{押|お}すのはやめてほしい。",
       "english": "I wish they'd stop ringing the doorbell late at night.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,60 @@
       "id": "27067_pinpon_ex6",
       "japanese": "ピンポンダッシュをする{子|こ}どもがいて{困|こま}っている。",
       "english": "There are kids doing ding-dong ditch and it's a problem.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A versatile onomatopoeic loanword with two distinct meanings in everyday Japanese. As a sport, ピンポン is the casual everyday term, while {卓球|たっきゅう} is the formal/official name used in competitive contexts. As a sound, it imitates a two-tone doorbell chime and is also the correct-answer sound effect on TV quiz shows.\n\nCOMMON COLLOCATIONS:\n- ピンポンをする: to play ping-pong\n- ピンポン{台|だい}: ping-pong table\n- ピンポン{玉|だま}: ping-pong ball\n- ピンポンが{鳴|な}る: the doorbell rings\n- ピンポンを{押|お}す: to press the doorbell\n- ピンポンダッシュ: ding-dong ditch (prank)\n\nUSAGE:\nOn quiz shows, ピンポン signals a correct answer (the opposite being ブー for incorrect). The phrase ピンポン！ can be used colloquially to mean \"correct!\" or \"bingo!\"\n\nSIMILAR WORDS:\n- {卓球|たっきゅう}: table tennis — the formal/official name for the sport\n- インターホン: intercom — the device itself, not the sound\n- チャイム: chime — a more general term for doorbell or school bell sound",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18289_takkyuu",
+      "reading": "たっきゅう",
+      "headword": "{卓球|たっきゅう}",
+      "label": "table tennis"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04885_intaahon",
+      "reading": "いんたーほん",
+      "headword": "インターホン",
+      "label": "intercom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00024_chaimu",
+      "reading": "ちゃいむ",
+      "headword": "チャイム",
+      "label": "chime"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29281_takkyuudai",
+      "reading": "たっきゅうだい",
+      "headword": "{卓球台|たっきゅうだい}",
+      "label": "table tennis table"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "onomatopoeia"],
+      "pos": [
+        "noun",
+        "onomatopoeia"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["sports", "onomatopoeia"]
+      "semantic": [
+        "sports",
+        "onomatopoeia"
+      ]
     },
     "created": "2026-05-06T16:07:05Z",
-    "modified": "2026-08-07T06:28:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

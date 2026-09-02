@@ -17,7 +17,9 @@
       "id": "27449_kakueki_ex1",
       "japanese": "{各駅|かくえき}に{停|と}まる。",
       "english": "(The train) stops at every station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27449_kakueki_ex2",
       "japanese": "{各駅|かくえき}{停車|ていしゃ}は{時間|じかん}がかかる。",
       "english": "The local train takes a long time.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,66 @@
       "id": "27449_kakueki_ex3",
       "japanese": "{急|いそ}いでいないので、{各駅|かくえき}{停車|ていしゃ}に{乗|の}って{景色|けしき}を{楽|たの}しんだ。",
       "english": "Since I wasn't in a hurry, I took the local train and enjoyed the scenery.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {各|かく} (each) + {駅|えき} (station). Outside the fixed compound {各駅|かくえき}{停車|ていしゃ}, it appears in service notices about which stations a train serves.\n\nCOMMON COLLOCATIONS:\n- {各駅|かくえき}{停車|ていしゃ}: local train (stops at every station)\n- {各駅|かくえき}に{停|と}まる: to stop at every station\n- {各駅|かくえき}に{掲示|けいじ}される: posted at every station\n\nRELATED WORDS:\n- {普通|ふつう}{列車|れっしゃ}: local train — synonym of {各駅|かくえき}{停車|ていしゃ}, used by JR\n- {快速|かいそく}: rapid service — skips smaller stations\n- {急行|きゅうこう}: express — stops at fewer stations than {快速|かいそく}\n- {特急|とっきゅう}: limited express — stops at the fewest stations",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21610_futsuuressha",
+      "reading": "ふつうれっしゃ",
+      "headword": "{普通|ふつう}{列車|れっしゃ}",
+      "label": "local train"
+    },
+    {
+      "type": "related",
+      "target_id": "09213_kaisoku",
+      "reading": "かいそく",
+      "headword": "{快速|かいそく}",
+      "label": "rapid service"
+    },
+    {
+      "type": "related",
+      "target_id": "01386_kyuukou",
+      "reading": "きゅうこう",
+      "headword": "{急行|きゅうこう}",
+      "label": "express"
+    },
+    {
+      "type": "related",
+      "target_id": "01476_tokkyuu",
+      "reading": "とっきゅう",
+      "headword": "{特急|とっきゅう}",
+      "label": "limited express"
+    },
+    {
+      "type": "related",
+      "target_id": "23576_tsuginoeki",
+      "reading": "つぎのえき",
+      "headword": "{次|つぎ}の{駅|えき}",
+      "label": "the next station"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["transportation"],
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ],
       "domain": []
     },
     "created": "2026-05-12T03:04:54Z",
-    "modified": "2026-05-12T03:04:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

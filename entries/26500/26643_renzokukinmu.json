@@ -3,7 +3,7 @@
   "headword": "{連続勤務|れんぞくきんむ}",
   "reading": "れんぞくきんむ",
   "romaji": "renzokukinmu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "consecutive work days; continuous duty",
   "definitions": [
     {
@@ -45,7 +45,15 @@
     }
   ],
   "notes": "Composed of {連続|れんぞく} (consecutive, continuous) and {勤務|きんむ} (duty, work). A term frequently used in discussions of workplace practices and labor law in Japan, where overwork ({過労|かろう}) is a recognized social issue.\n\nCOMMON COLLOCATIONS:\n- {連続勤務|れんぞくきんむ}{日数|にっすう}: number of consecutive workdays\n- {連続勤務|れんぞくきんむ}{時間|じかん}: consecutive working hours\n- {長時間|ちょうじかん}{連続勤務|れんぞくきんむ}: extended consecutive work\n\nSIMILAR WORDS:\n- {残業|ざんぎょう}: overtime — working beyond normal hours on a single day, rather than across multiple days\n- {過重労働|かじゅうろうどう}: excessive work — a broader term covering both long hours and continuous work\n- {休日出勤|きゅうじつしゅっきん}: working on a day off — coming in on a scheduled rest day",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01071_zangyou",
+      "reading": "ざんぎょう",
+      "headword": "{残業|ざんぎょう}",
+      "label": "overtime"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -65,7 +73,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-03T16:10:57Z",
-    "modified": "2026-05-03T16:10:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

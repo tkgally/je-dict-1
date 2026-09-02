@@ -17,7 +17,9 @@
       "id": "20484_nimotsuoki_ex1",
       "japanese": "{荷物置|にもつお}きはあちらです。",
       "english": "The luggage storage area is over there.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20484_nimotsuoki_ex2",
       "japanese": "{電車|でんしゃ}の{荷物置|にもつお}きにカバンを{載|の}せた。",
       "english": "I put my bag on the luggage rack of the train.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "20484_nimotsuoki_ex3",
       "japanese": "レストランの{入|い}り{口|ぐち}に{荷物置|にもつお}きのスペースが{用意|ようい}されていた。",
       "english": "A space for luggage storage was provided at the entrance of the restaurant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {荷物|にもつ} (luggage, baggage) + {置|お}き (from {置|お}く, to place — used as a suffix meaning 'place for putting'). Refers to any designated area for storing bags and belongings.\n\nCOMMON COLLOCATIONS:\n- {荷物置|にもつお}きスペース: luggage storage space\n- {荷物置|にもつお}き{場|ば}: luggage storage area (alternative form)\n- {荷物置|にもつお}きに{置|お}く: to put something in the luggage area\n\nSIMILAR WORDS:\n- {網棚|あみだな}: overhead luggage rack (on a train) — the mesh/net shelf above seats on Japanese trains\n- {荷物棚|にもつだな}: baggage shelf — a shelf specifically for luggage\n- ロッカー: locker — a lockable storage compartment, often coin-operated in Japan",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10195_amidana",
+      "reading": "あみだな",
+      "headword": "{網棚|あみだな}",
+      "label": "overhead luggage rack"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09734_rokkaa",
+      "reading": "ろっかー",
+      "headword": "ロッカー",
+      "label": "locker"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["travel", "daily-life"]
+      "semantic": [
+        "travel",
+        "daily-life"
+      ]
     },
     "created": "2026-03-29T15:23:07Z",
-    "modified": "2026-03-29T15:23:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

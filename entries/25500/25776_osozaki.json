@@ -3,7 +3,7 @@
   "headword": "{遅咲|おそざ}き",
   "reading": "おそざき",
   "romaji": "osozaki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "late bloomer; late flowering",
   "definitions": [
     {
@@ -80,7 +80,15 @@
     }
   ],
   "notes": "Literally 'late blooming,' this word originates from describing flowers that bloom later in the season. The figurative sense, describing people who find success later in life, carries a positive nuance — it implies hidden potential and perseverance rather than slowness or failure.\n\nCOMMON COLLOCATIONS:\n- {遅咲|おそざ}きの{桜|さくら}: late-blooming cherry blossoms\n- {遅咲|おそざ}きの{作家|さっか}: late-blooming writer\n- {遅咲|おそざ}きの{選手|せんしゅ}: late-blooming athlete\n- {遅咲|おそざ}きの{品種|ひんしゅ}: late-blooming variety\n\nSIMILAR WORDS:\n- {早咲|はやざ}き: early blooming — the opposite, used both literally for flowers and figuratively for precocious people\n- {大器晩成|たいきばんせい}: great talents mature late — a four-character idiom expressing the same idea but in a more literary, proverbial register",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06375_taikibansei",
+      "reading": "たいきばんせい",
+      "headword": "{大器晩成|たいきばんせい}",
+      "label": "great talents mature late"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -89,12 +97,13 @@
         "noun",
         "adjective-no"
       ],
+      "politeness": "plain",
       "semantic": [
         "nature",
         "person"
       ]
     },
     "created": "2026-04-27T13:06:51Z",
-    "modified": "2026-08-04T21:24:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

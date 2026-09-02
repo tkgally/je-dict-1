@@ -3,7 +3,7 @@
   "headword": "{射出|しゃしゅつ}",
   "reading": "しゃしゅつ",
   "romaji": "shashutsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "ejection; injection; launch",
   "definitions": [
     {
@@ -81,6 +81,29 @@
   ],
   "notes": "Composed of {射|しゃ} (to shoot) and {出|しゅつ} (to go out). Describes forceful outward propulsion. The two main usage domains are military/aviation (ejection) and manufacturing (injection molding).\n\nCOMMON COLLOCATIONS:\n- {射出|しゃしゅつ}{座席|ざせき}: ejection seat\n- {射出|しゃしゅつ}{成形|せいけい}: injection molding\n- {射出|しゃしゅつ}{成形|せいけい}{機|き}: injection molding machine\n- {緊急|きんきゅう}{射出|しゃしゅつ}: emergency ejection\n- {射出|しゃしゅつ}する: to eject / to inject\n\nSIMILAR WORDS:\n- {発射|はっしゃ}: launch / fire — firing a weapon or launching a rocket\n- {噴射|ふんしゃ}: injection / jetting — spraying or jetting out a liquid or gas\n- {脱出|だっしゅつ}: escape — getting out of a dangerous situation, broader than {射出|しゃしゅつ}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03695_hassha",
+      "reading": "はっしゃ",
+      "headword": "{発射|はっしゃ}",
+      "label": "launch / fire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15045_funsha",
+      "reading": "ふんしゃ",
+      "headword": "{噴射|ふんしゃ}",
+      "label": "injection / jetting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13934_dasshutsu",
+      "reading": "だっしゅつ",
+      "headword": "{脱出|だっしゅつ}",
+      "label": "escape"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -97,7 +120,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T20:17:24Z",
-    "modified": "2026-08-01T06:42:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

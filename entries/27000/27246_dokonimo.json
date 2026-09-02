@@ -22,7 +22,9 @@
       "id": "27246_dokonimo_ex1",
       "japanese": "{鍵|かぎ}がどこにもない。",
       "english": "The key is nowhere to be found.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "27246_dokonimo_ex2",
       "japanese": "{今日|きょう}はどこにも{行|い}かない。",
       "english": "I'm not going anywhere today.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "27246_dokonimo_ex3",
       "japanese": "{探|さが}したけど、どこにも{見|み}つからなかった。",
       "english": "I searched, but I couldn't find it anywhere.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "27246_dokonimo_ex4",
       "japanese": "どこにも{逃|に}げ{場|ば}がない。",
       "english": "There is no place to escape to.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "27246_dokonimo_ex5",
       "japanese": "どこにもゴミが{落|お}ちている。",
       "english": "There is litter everywhere.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,23 +72,38 @@
       "id": "27246_dokonimo_ex6",
       "japanese": "この{花|はな}はどこにも{咲|さ}いている。",
       "english": "This flower blooms everywhere.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of どこ (where) + に (location particle) + も (even/also). The meaning changes based on whether the verb is negative or affirmative:\n- Negative verb → nowhere: どこにもない (not anywhere)\n- Affirmative verb → everywhere: どこにもある (everywhere)\n\nThe negative pattern is far more common in everyday speech.\n\nNote the difference from どこかに (somewhere), which uses か instead of も.\n\nCOMMON COLLOCATIONS:\n- どこにもない: not found anywhere; nowhere\n- どこにも{行|い}かない: not going anywhere\n- どこにも{見|み}つからない: can't be found anywhere\n- どこにも{売|う}っていない: not sold anywhere\n\nSIMILAR WORDS:\n- どこかに: somewhere — indefinite location (with か instead of も)\n- どこへも: nowhere/everywhere (directional) — uses the directional particle へ instead of に\n- どこでも: anywhere; wherever — focuses on the place where an action occurs, without restriction",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08499_dokodemo",
+      "reading": "どこでも",
+      "headword": "どこでも",
+      "label": "anywhere"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-08T11:15:58Z",
-    "modified": "2026-08-07T06:31:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

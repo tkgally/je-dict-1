@@ -80,7 +80,43 @@
     }
   ],
   "notes": "Composed of {外|がい} (outer; outside) + {皮|ひ} (skin; rind). Covers both natural coverings (fruit peels, seed husks) and man-made ones (building exteriors, food wrappers). In architecture and energy efficiency, {外皮|がいひ} is a technical term for a building's thermal envelope.\n\nCOMMON COLLOCATIONS:\n- {外皮|がいひ}をむく: to peel the outer skin\n- {外皮|がいひ}を{取|と}り{除|のぞ}く: to remove the outer covering\n- {建物|たてもの}の{外皮|がいひ}: building envelope\n- {外皮|がいひ}{性能|せいのう}: envelope performance (thermal efficiency)\n\nSIMILAR WORDS:\n- {皮|かわ}: skin; peel — the everyday word for skin or peel\n- {表皮|ひょうひ}: epidermis; surface skin — specifically the outermost layer of skin (medical/botanical)\n- {殻|から}: shell; husk — for hard outer coverings like eggs, nuts, shellfish",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08744_hyouhi",
+      "reading": "ひょうひ",
+      "headword": "{表皮|ひょうひ}",
+      "label": "epidermis"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02148_kara",
+      "reading": "から",
+      "headword": "{殻|から}",
+      "label": "shell"
+    },
+    {
+      "type": "related",
+      "target_id": "19573_kahi",
+      "reading": "かひ",
+      "headword": "{果皮|かひ}",
+      "label": "fruit peel"
+    },
+    {
+      "type": "antonym",
+      "target_id": "23645_naihi",
+      "reading": "ないひ",
+      "headword": "{内皮|ないひ}",
+      "label": "endothelium"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28916_usukawa",
+      "reading": "うすかわ",
+      "headword": "{薄皮|うすかわ}",
+      "label": "thin skin"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -95,6 +131,6 @@
       ]
     },
     "created": "2026-04-30T15:27:41Z",
-    "modified": "2026-08-06T00:44:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

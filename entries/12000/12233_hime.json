@@ -3,7 +3,7 @@
   "id": "12233_hime",
   "headword": "{姫|ひめ}",
   "reading": "ひめ",
-  "part_of_speech": "noun / prefix",
+  "part_of_speech": "noun, prefix",
   "gloss": "princess, young noblewoman",
   "definitions": [
     {
@@ -24,7 +24,9 @@
       "english": "The princesses in old tales are beautiful.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12233_hime_ex2",
@@ -32,7 +34,9 @@
       "english": "The Tale of Princess Kaguya is one of the most famous stories in Japan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12233_hime_ex3",
@@ -40,7 +44,9 @@
       "english": "The hero goes to rescue the princess locked in the castle tower.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12233_hime_ex4",
@@ -48,7 +54,9 @@
       "english": "I planted a crab apple tree in the garden.",
       "notes": "{姫|ひめ}リンゴ literally \"princess apple\" — a small ornamental apple variety.",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12233_hime_ex5",
@@ -56,7 +64,9 @@
       "english": "The small matsutake mushrooms are cute and tiny.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12233_hime_ex6",
@@ -64,21 +74,50 @@
       "english": "This Japanese stewartia has small, delicate flowers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n- お{姫|ひめ}さま: princess (polite/fairy-tale style)\n- お{姫|ひめ}さま{抱|だ}っこ: bridal carry (\"princess carry\")\n- {姫|ひめ}{君|ぎみ}: princess, noble lady (classical/literary)\n\nAS A PREFIX:\n{姫|ひめ}〜 indicates a smaller or more delicate version of something:\n- {姫|ひめ}リンゴ: crab apple (small apple)\n- {姫|ひめ}シャラ: Japanese stewartia (smaller than シャラ)\n- {姫|ひめ}{百合|ゆり}: star lily (small lily species)\n\nCULTURAL NOTE:\n{姫|ひめ} appears in many famous Japanese stories: かぐや{姫|ひめ} (Princess Kaguya), {乙|おと}{姫|ひめ} (Princess Otohime from Urashima Taro), and many others. In modern usage, it sometimes appears as slang meaning a pampered or princess-like girl.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04108_oujo",
+      "reading": "おうじょ",
+      "headword": "{王女|おうじょ}",
+      "label": "princess"
+    },
+    {
+      "type": "related",
+      "target_id": "19130_ohimesama",
+      "reading": "おひめさま",
+      "headword": "お{姫様|ひめさま}",
+      "label": "princess"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26213_koujo",
+      "reading": "こうじょ",
+      "headword": "{公女|こうじょ}",
+      "label": "princess"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T13:13:50Z",
-    "modified": "2026-02-20T13:13:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "prefix"],
+      "pos": [
+        "noun",
+        "prefix"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

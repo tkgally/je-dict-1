@@ -17,7 +17,9 @@
       "id": "27159_ojika_ex1",
       "japanese": "{雄鹿|おじか}が{森|もり}にいた。",
       "english": "There was a stag in the forest.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27159_ojika_ex2",
       "japanese": "{立派|りっぱ}な{角|つの}を{持|も}つ{雄鹿|おじか}を{見|み}かけた。",
       "english": "I spotted a stag with impressive antlers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "27159_ojika_ex3",
       "japanese": "{秋|あき}になると{雄鹿|おじか}は{縄張|なわば}りを{守|まも}るために{鳴|な}き{声|ごえ}を{上|あ}げる。",
       "english": "In autumn, male deer cry out to defend their territory.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {雄|お} (male) and {鹿|しか} (deer). Also written as {牡鹿|おじか}. The {鹿|しか} becomes じか through rendaku (sequential voicing). Part of a common pair with {雌鹿|めじか} (female deer, doe).\n\nCOMMON COLLOCATIONS:\n- {雄鹿|おじか}の{角|つの} — a stag's antlers\n- {雄鹿|おじか}と{雌鹿|めじか} — stag and doe\n- {若|わか}い{雄鹿|おじか} — a young buck\n\nRELATED WORDS:\n- {雌鹿|めじか} — female deer, doe\n- {鹿|しか} — deer (general)\n- {子鹿|こじか} — fawn, young deer\n- {角|つの} — horn, antler",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27160_mejika",
+      "reading": "めじか",
+      "headword": "{雌鹿|めじか}",
+      "label": "female deer, doe"
+    },
+    {
+      "type": "related",
+      "target_id": "02158_tsuno",
+      "reading": "つの",
+      "headword": "{角|つの}",
+      "label": "horn, antler"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["animal-mammal"]
+      "semantic": [
+        "animal-mammal"
+      ]
     },
     "created": "2026-05-07T13:16:17Z",
-    "modified": "2026-05-07T13:16:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

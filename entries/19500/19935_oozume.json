@@ -17,7 +17,9 @@
       "id": "19935_oozume_ex1",
       "japanese": "{交渉|こうしょう}は{大詰|おおづ}めを{迎|むか}えた。",
       "english": "The negotiations have reached their final stage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19935_oozume_ex2",
       "japanese": "{選挙戦|せんきょせん}もいよいよ{大詰|おおづ}めだ。",
       "english": "The election campaign is finally in its final phase.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,65 @@
       "id": "19935_oozume_ex3",
       "japanese": "プロジェクトが{大詰|おおづ}めを{迎|むか}えているので、{毎日|まいにち}{残業|ざんぎょう}している。",
       "english": "The project is in its final stage, so I'm working overtime every day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Originally from kabuki theater, where {大詰|おおづ}め referred to the final act of a play. Now widely used for the concluding phase of any process or event. Almost always appears in the pattern {大詰|おおづ}めを{迎|むか}える (to reach the final stage).\n\nCOMMON COLLOCATIONS:\n- {大詰|おおづ}めを{迎|むか}える: to reach the final stage\n- {大詰|おおづ}めに{入|はい}る: to enter the final phase\n- いよいよ{大詰|おおづ}め: at last, the final stage\n\nSIMILAR WORDS:\n- {佳境|かきょう}: the best/most exciting part — focuses on the climactic interest\n- {最終段階|さいしゅうだんかい}: final stage — more formal/technical\n- クライマックス: climax — loanword, used for stories and events",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14984_kakyou",
+      "reading": "かきょう",
+      "headword": "{佳境|かきょう}",
+      "label": "the best/most exciting part"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26088_saishuudankai",
+      "reading": "さいしゅうだんかい",
+      "headword": "{最終段階|さいしゅうだんかい}",
+      "label": "final stage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10874_kuraimakkusu",
+      "reading": "くらいまっくす",
+      "headword": "クライマックス",
+      "label": "climax"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20006_shuumaku",
+      "reading": "しゅうまく",
+      "headword": "{終幕|しゅうまく}",
+      "label": "final act"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30497_rasutosupaato",
+      "reading": "らすとすぱーと",
+      "headword": "ラストスパート",
+      "label": "final push"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-period"]
+      "semantic": [
+        "time-period"
+      ]
     },
     "created": "2026-03-27T06:09:33Z",
-    "modified": "2026-03-27T06:09:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

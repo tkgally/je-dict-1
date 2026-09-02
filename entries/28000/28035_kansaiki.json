@@ -17,7 +17,9 @@
       "id": "28035_kansaiki_ex1",
       "japanese": "{艦載機|かんさいき}が{発進|はっしん}した。",
       "english": "The carrier aircraft took off.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28035_kansaiki_ex2",
       "japanese": "{空母|くうぼ}には{多|おお}くの{艦載機|かんさいき}が{積|つ}まれている。",
       "english": "An aircraft carrier holds many carrier-based planes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28035_kansaiki_ex3",
       "japanese": "{艦載機|かんさいき}は{短|みじか}い{滑走路|かっそうろ}でも{離着陸|りちゃくりく}できるよう{設計|せっけい}されている。",
       "english": "Carrier-based aircraft are designed to take off and land on short runways.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {艦|かん} (warship) and {載|さい} (to load, carry) plus {機|き} (aircraft) — literally \"ship-loaded aircraft.\"\n\nCOMMON COLLOCATIONS:\n- {艦載機|かんさいき}の{発着|はっちゃく}: takeoff and landing of carrier aircraft\n- {空母|くうぼ}の{艦載機|かんさいき}: an aircraft carrier's planes\n\nSIMILAR WORDS:\n- {戦闘機|せんとうき}: fighter jet — defined by its role, not by where it is based\n- {空母|くうぼ}: aircraft carrier — the ship that carries them",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23287_sentouki",
+      "reading": "せんとうき",
+      "headword": "{戦闘機|せんとうき}",
+      "label": "fighter jet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15702_kuubo",
+      "reading": "くうぼ",
+      "headword": "{空母|くうぼ}",
+      "label": "aircraft carrier"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["military"],
+      "politeness": "plain",
+      "semantic": [
+        "military"
+      ],
       "domain": []
     },
     "created": "2026-05-24T04:10:04Z",
-    "modified": "2026-05-24T04:10:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

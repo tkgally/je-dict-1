@@ -3,7 +3,7 @@
   "headword": "{引|ひ}き{延|の}ばし",
   "reading": "ひきのばし",
   "romaji": "hikinobashi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "prolonging; stalling; enlargement",
   "definitions": [
     {
@@ -81,6 +81,36 @@
   ],
   "notes": "The noun form of the compound verb {引|ひ}き{延|の}ばす (to stretch out / to enlarge). The two senses reflect the literal meaning of \"stretching\" applied in different domains — stretching time (stalling) and stretching an image (enlarging).\n\nCOMMON COLLOCATIONS:\n- {時間|じかん}の{引|ひ}き{延|の}ばし: stalling for time\n- {引|ひ}き{延|の}ばし{作戦|さくせん}: a stalling tactic\n- {引|ひ}き{延|の}ばし{工作|こうさく}: a delaying maneuver\n- {写真|しゃしん}の{引|ひ}き{延|の}ばし: photo enlargement\n\nSIMILAR WORDS:\n- {先送|さきおく}り: postponement; putting off — focusing on deferring to a later date\n- {後回|あとまわ}し: putting off until later — similar to {先送|さきおく}り but more informal\n- {延長|えんちょう}: extension; prolongation — neutral term for making something longer; lacks the negative \"stalling\" nuance\n- {拡大|かくだい}: enlargement; expansion — more commonly used for digital image scaling",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08030_sakiokuri",
+      "reading": "さきおくり",
+      "headword": "{先送|さきおく}り",
+      "label": "postponement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07398_atomawashi",
+      "reading": "あとまわし",
+      "headword": "{後回|あとまわ}し",
+      "label": "putting off until later"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06447_enchou",
+      "reading": "えんちょう",
+      "headword": "{延長|えんちょう}",
+      "label": "extension"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02553_kakudai",
+      "reading": "かくだい",
+      "headword": "{拡大|かくだい}",
+      "label": "enlargement"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -97,7 +127,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-07T16:22:38Z",
-    "modified": "2026-05-07T16:22:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

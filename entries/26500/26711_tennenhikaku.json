@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Composed of {天然|てんねん} (natural) and {皮革|ひかく} (leather/hide). This is the formal product label term. In casual speech, {本革|ほんかわ} or {本皮|ほんかわ} is more common.\n\nCOMMON COLLOCATIONS:\n- {天然皮革|てんねんひかく}{製|せい}: made of natural leather\n- {天然皮革|てんねんひかく}の{手入|てい}れ: leather care/maintenance\n- {天然皮革|てんねんひかく}{使用|しよう}: uses natural leather\n\nSIMILAR WORDS:\n- {本革|ほんかわ}: genuine leather — casual equivalent, much more common in everyday speech\n- {合成皮革|ごうせいひかく}: synthetic leather — the formal opposite\n- {合皮|ごうひ}: faux leather — casual abbreviation of {合成皮革|ごうせいひかく}\n- {人工皮革|じんこうひかく}: artificial leather — another alternative term",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "23705_gouseihikaku",
+      "reading": "ごうせいひかく",
+      "headword": "{合成|ごうせい}{皮革|ひかく}",
+      "label": "synthetic leather"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23381_jinkouhikaku",
+      "reading": "じんこうひかく",
+      "headword": "{人工皮革|じんこうひかく}",
+      "label": "artificial leather"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +68,12 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "clothing"
       ]
     },
     "created": "2026-05-04T14:13:49Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

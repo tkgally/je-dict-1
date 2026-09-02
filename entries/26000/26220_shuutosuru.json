@@ -3,7 +3,7 @@
   "headword": "シュートする",
   "reading": "しゅーとする",
   "romaji": "shuutosuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to shoot (in sports)",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "From the English word \"shoot.\" In Japanese sports commentary and casual conversation, シュート is used both as a noun (a shot) and as a verb with する. The noun form is more common in commentary, while シュートする is common in general conversation.\n\nIn baseball, シュート refers to a specific pitch type (a screwball or shootball that moves toward the batter), which is a distinct usage from the goal-scoring meaning.\n\nCOMMON COLLOCATIONS:\n- シュートを{打|う}つ: to take a shot\n- シュートを{放|はな}つ: to fire a shot (more dramatic)\n- シュートを{決|き}める: to score a goal (with a shot)\n- {強烈|きょうれつ}なシュート: a powerful shot\n- ミドルシュート: a mid-range shot\n- ヘディングシュート: a header (heading shot)\n\nSIMILAR WORDS:\n- {蹴|け}る: to kick — the physical action, not specifically an attempt to score\n- {投|な}げる: to throw — for basketball or handball shooting\n- {撃|う}つ: to shoot — for firearms, not sports",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02054_keru",
+      "reading": "ける",
+      "headword": "{蹴|け}る",
+      "label": "to kick"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01135_nageru",
+      "reading": "なげる",
+      "headword": "{投|な}げる",
+      "label": "to throw"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12921_utsu",
+      "reading": "うつ",
+      "headword": "{撃|う}つ",
+      "label": "to shoot"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-30T12:12:54Z",
-    "modified": "2026-04-30T12:12:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

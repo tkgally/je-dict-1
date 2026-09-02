@@ -17,7 +17,9 @@
       "id": "19972_sakyuu_ex1",
       "japanese": "{砂丘|さきゅう}を{歩|ある}く。",
       "english": "To walk on a sand dune.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19972_sakyuu_ex2",
       "japanese": "{鳥取|とっとり}{砂丘|さきゅう}は{日本|にほん}で{一番|いちばん}{有名|ゆうめい}な{砂丘|さきゅう}だ。",
       "english": "The Tottori Sand Dunes are the most famous sand dunes in Japan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "19972_sakyuu_ex3",
       "japanese": "{風|かぜ}が{作|つく}り{出|だ}す{砂丘|さきゅう}の{模様|もよう}は{美|うつく}しく、{毎日|まいにち}{表情|ひょうじょう}が{変|か}わる。",
       "english": "The patterns the wind creates on the sand dunes are beautiful and change every day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {砂|さ} (sand) + {丘|きゅう} (hill, mound). Japan's most famous sand dunes are the {鳥取砂丘|とっとりさきゅう} in Tottori Prefecture, which are a major tourist destination and a designated natural monument.\n\nCOMMON COLLOCATIONS:\n- {砂丘|さきゅう}を{歩|ある}く: to walk on sand dunes\n- {海岸|かいがん}{砂丘|さきゅう}: coastal sand dune\n- {砂丘|さきゅう}{地帯|ちたい}: dune area\n- {砂丘|さきゅう}の{風紋|ふうもん}: wind ripples on sand dunes\n\nSIMILAR WORDS:\n- {砂漠|さばく}: desert (a much larger arid landscape; {砂丘|さきゅう} are individual formations)\n- {砂浜|すなはま}: sandy beach (flat, along the shoreline)\n- {丘|おか}: hill (general; not necessarily sand)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09508_sabaku",
+      "reading": "さばく",
+      "headword": "{砂漠|さばく}",
+      "label": "desert (a much larger arid landscape"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12333_sunahama",
+      "reading": "すなはま",
+      "headword": "{砂浜|すなはま}",
+      "label": "sandy beach"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography", "nature"]
+      "semantic": [
+        "geography",
+        "nature"
+      ]
     },
     "created": "2026-03-27T07:24:03Z",
-    "modified": "2026-03-27T07:24:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

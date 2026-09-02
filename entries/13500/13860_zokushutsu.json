@@ -3,7 +3,7 @@
   "id": "13860_zokushutsu",
   "headword": "{続出|ぞくしゅつ}",
   "reading": "ぞくしゅつ",
-  "part_of_speech": "noun / verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "appearing one after another, occurring in rapid succession",
   "conjugation": {
     "type": "suru",
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\nTypically used with negative or noteworthy events — accidents, scandals, problems, complaints. Can also be used neutrally for a series of notable occurrences. The pattern is subject + が + {続出|ぞくしゅつ}する.\n\nWORD FORMATION:\n{続|ぞく} (continue, follow) + {出|しゅつ} (appear, emerge).\n\nSIMILAR WORDS:\n- {頻発|ひんぱつ}: occurring frequently\n- {多発|たはつ}: occurring in large numbers\n- {相次|あいつ}ぐ: to occur one after another (verb)\n\nCOMMON COLLOCATIONS:\n- {事故|じこ}が{続出|ぞくしゅつ}する: accidents occur in succession\n- {苦情|くじょう}が{続出|ぞくしゅつ}する: complaints pour in\n- {被害|ひがい}が{続出|ぞくしゅつ}する: damage cases keep appearing\n- {問題|もんだい}が{続出|ぞくしゅつ}する: problems keep arising",
-  "cross_references": [],
+  "notes": "USAGE:\nTypically used with negative or noteworthy events — accidents, scandals, problems, complaints. Can also be used neutrally for a series of notable occurrences. The pattern is subject + が + {続出|ぞくしゅつ}する.\n\nFORMS:\n{続|ぞく} (continue, follow) + {出|しゅつ} (appear, emerge).\n\nSIMILAR WORDS:\n- {頻発|ひんぱつ}: occurring frequently\n- {多発|たはつ}: occurring in large numbers\n- {相次|あいつ}ぐ: to occur one after another (verb)\n\nCOMMON COLLOCATIONS:\n- {事故|じこ}が{続出|ぞくしゅつ}する: accidents occur in succession\n- {苦情|くじょう}が{続出|ぞくしゅつ}する: complaints pour in\n- {被害|ひがい}が{続出|ぞくしゅつ}する: damage cases keep appearing\n- {問題|もんだい}が{続出|ぞくしゅつ}する: problems keep arising",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14670_hinpatsu",
+      "reading": "ひんぱつ",
+      "headword": "{頻発|ひんぱつ}",
+      "label": "occurring frequently"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20508_tahatsu",
+      "reading": "たはつ",
+      "headword": "{多発|たはつ}",
+      "label": "occurring in large numbers"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14869_aitsugu",
+      "reading": "あいつぐ",
+      "headword": "{相次|あいつ}ぐ",
+      "label": "to occur one after another"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T05:45:40Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

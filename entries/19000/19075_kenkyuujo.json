@@ -17,7 +17,9 @@
       "id": "19075_kenkyuujo_ex1",
       "japanese": "{国立|こくりつ}{研究所|けんきゅうじょ}で{働|はたら}いている。",
       "english": "I work at a national research institute.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19075_kenkyuujo_ex2",
       "japanese": "この{研究所|けんきゅうじょ}では{新薬|しんやく}の{開発|かいはつ}をしている。",
       "english": "This research institute is developing new medicines.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,30 +37,58 @@
       "id": "19075_kenkyuujo_ex3",
       "japanese": "{大学|だいがく}の{研究所|けんきゅうじょ}が{最新|さいしん}の{技術|ぎじゅつ}について{発表|はっぴょう}した。",
       "english": "The university's research institute made an announcement about the latest technology.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{研究所|けんきゅうじょ} is a compound of {研究|けんきゅう} (research) + {所|じょ} (place, facility). It refers to an institution dedicated to research.\n\nREADING NOTE:\nAn alternate reading けんきゅうしょ also exists and is used in some proper names. The じょ reading is more common in general usage.\n\nCOMMON PATTERNS:\n- {国立|こくりつ}{研究所|けんきゅうじょ}: national research institute\n- {大学|だいがく}{附属|ふぞく}{研究所|けんきゅうじょ}: university-affiliated research institute\n- {研究所|けんきゅうじょ}で{働|はたら}く: to work at a research institute\n- {研究所|けんきゅうじょ}{長|ちょう}: director of a research institute\n\nWELL-KNOWN EXAMPLES:\n- {理化学研究所|りかがくけんきゅうじょ} (RIKEN): Japan's largest scientific research institution\n- {産業技術総合研究所|さんぎょうぎじゅつそうごうけんきゅうじょ} (AIST)\n\nCONTRAST:\n- {研究所|けんきゅうじょ}: research institute (independent facility)\n- {研究室|けんきゅうしつ}: research lab/office (within a university)",
+  "notes": "{研究所|けんきゅうじょ} is a compound of {研究|けんきゅう} (research) + {所|じょ} (place, facility). It refers to an institution dedicated to research.\n\nPRONUNCIATION:\nAn alternate reading けんきゅうしょ also exists and is used in some proper names. The じょ reading is more common in general usage.\n\nCOMMON PATTERNS:\n- {国立|こくりつ}{研究所|けんきゅうじょ}: national research institute\n- {大学|だいがく}{附属|ふぞく}{研究所|けんきゅうじょ}: university-affiliated research institute\n- {研究所|けんきゅうじょ}で{働|はたら}く: to work at a research institute\n- {研究所|けんきゅうじょ}{長|ちょう}: director of a research institute\n\nWELL-KNOWN EXAMPLES:\n- {理化学研究所|りかがくけんきゅうじょ} (RIKEN): Japan's largest scientific research institution\n- {産業技術総合研究所|さんぎょうぎじゅつそうごうけんきゅうじょ} (AIST)\n\nSIMILAR WORDS:\n- {研究所|けんきゅうじょ}: research institute (independent facility)\n- {研究室|けんきゅうしつ}: research lab/office (within a university)",
   "cross_references": [
     {
       "type": "related",
       "reading": "けんきゅうしょ",
       "target_id": "03054_kenkyuusho",
       "description": "Alternate reading けんきゅうしょ"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01397_kenkyuushitsu",
+      "reading": "けんきゅうしつ",
+      "headword": "{研究室|けんきゅうしつ}",
+      "label": "research lab/office"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25411_jikkenshitsu",
+      "reading": "じっけんしつ",
+      "headword": "{実験室|じっけんしつ}",
+      "label": "laboratory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25416_kenkyuukai",
+      "reading": "けんきゅうかい",
+      "headword": "{研究会|けんきゅうかい}",
+      "label": "study group"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building", "education"]
+      "semantic": [
+        "building",
+        "education"
+      ]
     },
     "created": "2026-03-24T09:31:26Z",
-    "modified": "2026-03-25T04:08:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

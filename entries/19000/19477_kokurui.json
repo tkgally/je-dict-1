@@ -17,7 +17,9 @@
       "id": "19477_kokurui_ex1",
       "japanese": "{穀類|こくるい}は{主食|しゅしょく}として{大切|たいせつ}だ。",
       "english": "Grains are important as a staple food.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19477_kokurui_ex2",
       "japanese": "{穀類|こくるい}の{価格|かかく}が{上昇|じょうしょう}している。",
       "english": "Grain prices are rising.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "19477_kokurui_ex3",
       "japanese": "{健康|けんこう}のために、{精製|せいせい}されていない{穀類|こくるい}を{多|おお}く{取|と}るようにしている。",
       "english": "For my health, I try to eat more unrefined grains.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A general term encompassing cereal grains — {米|こめ} (rice), {麦|むぎ} (wheat/barley), {玉蜀黍|とうもろこし} (corn), {粟|あわ} (millet), etc. Commonly used in nutrition labels, agricultural reports, and food science. In everyday conversation, specific grain names are more common.\n\nCOMMON COLLOCATIONS:\n- {穀類|こくるい}を{食|た}べる — to eat grains\n- {全粒|ぜんりゅう}{穀類|こくるい} — whole grains\n- {穀類|こくるい}の{生産|せいさん} — grain production\n- {穀類|こくるい}の{価格|かかく} — grain prices\n\nSIMILAR WORDS:\n- {穀物|こくもつ} — grain, cereal; very similar meaning, slightly more common in general contexts\n- {雑穀|ざっこく} — miscellaneous grains (millet, sorghum, etc.); grains other than rice and wheat\n- {主食|しゅしょく} — staple food; broader category that includes grains but also potatoes, bread, etc.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02806_kokumotsu",
+      "reading": "こくもつ",
+      "headword": "{穀物|こくもつ}",
+      "label": "grain, cereal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20948_zakkoku",
+      "reading": "ざっこく",
+      "headword": "{雑穀|ざっこく}",
+      "label": "miscellaneous grains"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11408_shushoku",
+      "reading": "しゅしょく",
+      "headword": "{主食|しゅしょく}",
+      "label": "staple food"
+    },
+    {
+      "type": "related",
+      "target_id": "19500_mamerui",
+      "reading": "まめるい",
+      "headword": "{豆類|まめるい}",
+      "label": "beans"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-03-26T01:23:07Z",
-    "modified": "2026-03-26T01:23:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

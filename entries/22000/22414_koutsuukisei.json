@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {交通|こうつう} (traffic) and {規制|きせい} (regulation/restriction). A common term in daily life, often encountered in traffic information on radio, TV, and navigation apps. In Japan, traffic is frequently restricted for festivals, marathons, VIP motorcades, and natural disasters.\n\nCOMMON COLLOCATIONS:\n- {交通規制|こうつうきせい}が{敷|し}かれる: traffic restrictions are imposed\n- {交通規制|こうつうきせい}が{解除|かいじょ}される: traffic restrictions are lifted\n- {交通規制|こうつうきせい}{情報|じょうほう}: traffic restriction information\n- {交通規制|こうつうきせい}{区間|くかん}: restricted traffic section\n\nRELATED TERMS:\n- {通行止|つうこうど}め: road closure — complete blocking of a road\n- {渋滞|じゅうたい}: traffic jam — congestion, often a result of {交通規制|こうつうきせい}\n- {迂回路|うかいろ}: detour — an alternate route around restricted areas",
+  "notes": "Composed of {交通|こうつう} (traffic) and {規制|きせい} (regulation/restriction). A common term in daily life, often encountered in traffic information on radio, TV, and navigation apps. In Japan, traffic is frequently restricted for festivals, marathons, VIP motorcades, and natural disasters.\n\nCOMMON COLLOCATIONS:\n- {交通規制|こうつうきせい}が{敷|し}かれる: traffic restrictions are imposed\n- {交通規制|こうつうきせい}が{解除|かいじょ}される: traffic restrictions are lifted\n- {交通規制|こうつうきせい}{情報|じょうほう}: traffic restriction information\n- {交通規制|こうつうきせい}{区間|くかん}: restricted traffic section\n\nRELATED WORDS:\n- {通行止|つうこうど}め: road closure — complete blocking of a road\n- {渋滞|じゅうたい}: traffic jam — congestion, often a result of {交通規制|こうつうきせい}\n- {迂回路|うかいろ}: detour — an alternate route around restricted areas",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19920_tsuukoudome",
+      "reading": "つうこうどめ",
+      "headword": "{通行止|つうこうど}め",
+      "label": "road closure"
+    },
+    {
+      "type": "related",
+      "target_id": "03279_juutai",
+      "reading": "じゅうたい",
+      "headword": "{渋滞|じゅうたい}",
+      "label": "traffic jam"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25036_shasenkisei",
+      "reading": "しゃせんきせい",
+      "headword": "{車線規制|しゃせんきせい}",
+      "label": "lane restriction"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-04-05T21:08:10Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

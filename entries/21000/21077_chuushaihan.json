@@ -17,7 +17,9 @@
       "id": "21077_chuushaihan_ex1",
       "japanese": "{駐車違反|ちゅうしゃいはん}で{切符|きっぷ}を{切|き}られた。",
       "english": "I got a ticket for a parking violation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21077_chuushaihan_ex2",
       "japanese": "ここに{止|と}めたら{駐車違反|ちゅうしゃいはん}になるよ。",
       "english": "If you park here, it'll be a parking violation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "21077_chuushaihan_ex3",
       "japanese": "{都心部|としんぶ}では{駐車違反|ちゅうしゃいはん}の{取|と}り{締|し}まりが{厳|きび}しくなっている。",
       "english": "Enforcement of parking violations has become stricter in the city center.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {駐車|ちゅうしゃ} (parking) + {違反|いはん} (violation). One of the most common traffic violations in Japan. Since 2006, private parking enforcement officers ({駐車監視員|ちゅうしゃかんしいん}) patrol many urban areas.\n\nCOMMON COLLOCATIONS:\n- {駐車違反|ちゅうしゃいはん}で{切符|きっぷ}を{切|き}られる: to get a parking ticket\n- {駐車違反|ちゅうしゃいはん}の{取|と}り{締|し}まり: enforcement of parking violations\n- {駐車違反|ちゅうしゃいはん}の{反則金|はんそくきん}: parking violation fine\n- {駐車違反|ちゅうしゃいはん}シール: parking violation sticker (placed on windshield)\n\nRELATED TERMS:\n- {路上駐車|ろじょうちゅうしゃ}: on-street parking\n- {違法駐車|いほうちゅうしゃ}: illegal parking (synonym)\n- {駐車禁止|ちゅうしゃきんし}: no parking\n- {反則金|はんそくきん}: traffic fine\n- {違反切符|いはんきっぷ}: traffic ticket",
+  "notes": "A compound of {駐車|ちゅうしゃ} (parking) + {違反|いはん} (violation). One of the most common traffic violations in Japan. Since 2006, private parking enforcement officers ({駐車監視員|ちゅうしゃかんしいん}) patrol many urban areas.\n\nCOMMON COLLOCATIONS:\n- {駐車違反|ちゅうしゃいはん}で{切符|きっぷ}を{切|き}られる: to get a parking ticket\n- {駐車違反|ちゅうしゃいはん}の{取|と}り{締|し}まり: enforcement of parking violations\n- {駐車違反|ちゅうしゃいはん}の{反則金|はんそくきん}: parking violation fine\n- {駐車違反|ちゅうしゃいはん}シール: parking violation sticker (placed on windshield)\n\nRELATED WORDS:\n- {路上駐車|ろじょうちゅうしゃ}: on-street parking\n- {違法駐車|いほうちゅうしゃ}: illegal parking (synonym)\n- {駐車禁止|ちゅうしゃきんし}: no parking\n- {反則金|はんそくきん}: traffic fine\n- {違反切符|いはんきっぷ}: traffic ticket",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24063_rojouchuusha",
+      "reading": "ろじょうちゅうしゃ",
+      "headword": "{路上駐車|ろじょうちゅうしゃ}",
+      "label": "on-street parking"
+    },
+    {
+      "type": "related",
+      "target_id": "22923_ihouchuusha",
+      "reading": "いほうちゅうしゃ",
+      "headword": "{違法駐車|いほうちゅうしゃ}",
+      "label": "illegal parking"
+    },
+    {
+      "type": "related",
+      "target_id": "09691_chuushakinshi",
+      "reading": "ちゅうしゃきんし",
+      "headword": "{駐車禁止|ちゅうしゃきんし}",
+      "label": "no parking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25099_houchichuusha",
+      "reading": "ほうちちゅうしゃ",
+      "headword": "{放置駐車|ほうちちゅうしゃ}",
+      "label": "illegally parking and abandoning a vehicle"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["travel"]
+      "semantic": [
+        "travel"
+      ]
     },
     "created": "2026-03-31T16:27:55Z",
-    "modified": "2026-03-31T16:27:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {免|めん} (exempt, avoid) + {震|しん} (tremor, earthquake). Japan is a world leader in seismic isolation technology due to its high earthquake risk.\n\nCOMMON COLLOCATIONS:\n- {免震|めんしん}{構造|こうぞう}: seismic isolation structure\n- {免震|めんしん}{装置|そうち}: seismic isolation device\n- {免震|めんしん}{技術|ぎじゅつ}: seismic isolation technology\n- {免震|めんしん}ゴム: seismic isolation rubber bearing\n\nSIMILAR WORDS:\n- {耐震|たいしん}: earthquake-resistant — makes the building strong enough to withstand shaking, rather than isolating it from the shaking\n- {制震|せいしん}: vibration control/damping — uses devices to absorb and reduce vibrations within the structure\n\nNOTE:\nIn real estate listings, {免震|めんしん} is considered a premium feature and often highlighted as a selling point for apartments and condominiums.",
+  "notes": "Compound of {免|めん} (exempt, avoid) + {震|しん} (tremor, earthquake). Japan is a world leader in seismic isolation technology due to its high earthquake risk.\n\nCOMMON COLLOCATIONS:\n- {免震|めんしん}{構造|こうぞう}: seismic isolation structure\n- {免震|めんしん}{装置|そうち}: seismic isolation device\n- {免震|めんしん}{技術|ぎじゅつ}: seismic isolation technology\n- {免震|めんしん}ゴム: seismic isolation rubber bearing\n\nSIMILAR WORDS:\n- {耐震|たいしん}: earthquake-resistant — makes the building strong enough to withstand shaking, rather than isolating it from the shaking\n- {制震|せいしん}: vibration control/damping — uses devices to absorb and reduce vibrations within the structure\n\nUSAGE:\nIn real estate listings, {免震|めんしん} is considered a premium feature and often highlighted as a selling point for apartments and condominiums.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06222_taishin",
+      "reading": "たいしん",
+      "headword": "{耐震|たいしん}",
+      "label": "earthquake-resistant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29390_seishin",
+      "reading": "せいしん",
+      "headword": "{制震|せいしん}",
+      "label": "vibration control/damping"
+    },
+    {
+      "type": "related",
+      "target_id": "24940_taishinsekkei",
+      "reading": "たいしんせっけい",
+      "headword": "{耐震設計|たいしんせっけい}",
+      "label": "earthquake-resistant design"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26463_boushin",
+      "reading": "ぼうしん",
+      "headword": "{防振|ぼうしん}",
+      "label": "vibration damping"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-03-31T09:48:21Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

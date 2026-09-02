@@ -17,7 +17,9 @@
       "id": "22915_hikensha_ex1",
       "japanese": "{被験者|ひけんしゃ}を{募集|ぼしゅう}する。",
       "english": "We recruit test subjects.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22915_hikensha_ex2",
       "japanese": "{被験者|ひけんしゃ}の{同意|どうい}を{得|え}てから{実験|じっけん}を{始|はじ}めた。",
       "english": "The experiment began after obtaining the subjects' consent.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "22915_hikensha_ex3",
       "japanese": "この{臨床|りんしょう}{試験|しけん}では200{人|にん}の{被験者|ひけんしゃ}が{参加|さんか}した。",
       "english": "Two hundred participants took part in this clinical trial.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {被|ひ} (to undergo, receive) + {験|けん} (test, examine) + {者|しゃ} (person). Refers to the person being tested or examined in a research setting. Common in academic papers, medical trials, and psychology studies.\n\nCOMMON COLLOCATIONS:\n- {被験者|ひけんしゃ}を{募集|ぼしゅう}する: to recruit test subjects\n- {被験者|ひけんしゃ}の{同意|どうい}: subject's consent\n- {被験者|ひけんしゃ}{番号|ばんごう}: subject number\n- {被験者|ひけんしゃ}グループ: subject group\n\nSIMILAR WORDS:\n- {実験|じっけん}{対象|たいしょう}: experimental target — more general, can include non-human subjects\n- {参加者|さんかしゃ}: participant — broader term used in surveys, events, and studies alike\n- {患者|かんじゃ}: patient — used in medical treatment contexts rather than research",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03059_sankasha",
+      "reading": "さんかしゃ",
+      "headword": "{参加者|さんかしゃ}",
+      "label": "participant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00170_kanja",
+      "reading": "かんじゃ",
+      "headword": "{患者|かんじゃ}",
+      "label": "patient"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["science", "health"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "science",
+        "health"
+      ],
       "formality": "formal",
       "politeness": "plain"
     },
     "created": "2026-04-07T21:09:31Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

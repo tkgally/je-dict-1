@@ -3,7 +3,7 @@
   "headword": "ぶかぶか",
   "reading": "ぶかぶか",
   "romaji": "bukabuka",
-  "part_of_speech": "na-adjective",
+  "part_of_speech": "na-adjective, adverb",
   "gloss": "baggy; too loose; oversized",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "20573_bukabuka_ex1",
       "japanese": "この{靴|くつ}はぶかぶかだ。",
       "english": "These shoes are too loose.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20573_bukabuka_ex2",
       "japanese": "お{兄|にい}ちゃんのシャツはぶかぶかで{着|き}られない。",
       "english": "My big brother's shirt is so baggy I can't wear it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,53 @@
       "id": "20573_bukabuka_ex3",
       "japanese": "ダイエットしたら、{前|まえ}のズボンがぶかぶかになった。",
       "english": "After dieting, my old pants became baggy on me.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "An onomatopoeic word ({擬態語|ぎたいご}) that evokes the image of something loose and flapping. Most commonly used to describe clothing or shoes that are too big for the wearer.\n\nCOMMON COLLOCATIONS:\n- ぶかぶかの{靴|くつ}: baggy/loose shoes\n- ぶかぶかの{服|ふく}: baggy clothes\n- ぶかぶかに{着|き}る: to wear something oversized\n\nSIMILAR WORDS:\n- だぶだぶ: baggy, loose-fitting — very similar, but also used for liquids sloshing around\n- ゆるい: loose — more general, can describe anything from fit to rules\n- {大|おお}きすぎる: too big — a plain description without the vivid onomatopoeic feel\n\nCONTRAST:\n- ぴったり: fitting perfectly — the opposite of ぶかぶか\n- きつい: tight — too small or constricting",
+  "notes": "An onomatopoeic word ({擬態語|ぎたいご}) that evokes the image of something loose and flapping. Most commonly used to describe clothing or shoes that are too big for the wearer.\n\nCOMMON COLLOCATIONS:\n- ぶかぶかの{靴|くつ}: baggy/loose shoes\n- ぶかぶかの{服|ふく}: baggy clothes\n- ぶかぶかに{着|き}る: to wear something oversized\n\nSIMILAR WORDS:\n- だぶだぶ: baggy, loose-fitting — very similar, but also used for liquids sloshing around\n- ゆるい: loose — more general, can describe anything from fit to rules\n- {大|おお}きすぎる: too big — a plain description without the vivid onomatopoeic feel\n- ぴったり: fitting perfectly — the opposite of ぶかぶか\n- きつい: tight — too small or constricting",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00430_yurui",
+      "reading": "ゆるい",
+      "headword": "{緩|ゆる}い",
+      "label": "loose"
+    },
+    {
+      "type": "antonym",
+      "target_id": "02362_pittari",
+      "reading": "ぴったり",
+      "headword": "ぴったり",
+      "label": "fitting perfectly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02342_kitsui",
+      "reading": "きつい",
+      "headword": "きつい",
+      "label": "tight"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "adverb"],
+      "pos": [
+        "adjective-na",
+        "adverb"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["onomatopoeia", "clothing"]
+      "semantic": [
+        "onomatopoeia",
+        "clothing"
+      ]
     },
     "created": "2026-03-29T18:13:18Z",
-    "modified": "2026-04-10T07:12:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

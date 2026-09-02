@@ -3,7 +3,7 @@
   "headword": "{出|だ}し{抜|ぬ}く",
   "reading": "だしぬく",
   "romaji": "dashinuku",
-  "part_of_speech": "godan verb, transitive",
+  "part_of_speech": "verb (godan, transitive)",
   "gloss": "to outsmart; to outwit; to steal a march on",
   "conjugation": {
     "type": "godan",
@@ -136,6 +136,29 @@
   ],
   "notes": "A godan verb compound of {出|だ}す (to put out) and {抜|ぬ}く (to pull out, to surpass). Carries a negative connotation of using cunning or underhandedness to get ahead of others. Often used in business and competitive contexts.\n\nTRANSITIVITY:\nTransitive — takes を to mark the person being outsmarted.\n\nCOMMON COLLOCATIONS:\n- ライバルを{出|だ}し{抜|ぬ}く — to outsmart a rival\n- {人|ひと}を{出|だ}し{抜|ぬ}く — to get the better of someone\n- {出|だ}し{抜|ぬ}かれる — to be outsmarted (passive)\n\nSIMILAR WORDS:\n- {裏|うら}をかく — to outwit, to catch off guard\n- {先手|せんて}を{打|う}つ — to make the first move (more neutral)\n- {騙|だま}す — to deceive, to trick (more directly dishonest)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18296_urawokaku",
+      "reading": "うらをかく",
+      "headword": "{裏|うら}をかく",
+      "label": "to outwit, to catch off guard"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18391_sentewoutsu",
+      "reading": "せんてをうつ",
+      "headword": "{先手|せんて}を{打|う}つ",
+      "label": "to make the first move"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02286_damasu",
+      "reading": "だます",
+      "headword": "{騙|だま}す",
+      "label": "to deceive, to trick"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +174,6 @@
       "verb_class": "godan-ku"
     },
     "created": "2026-03-28T15:12:49Z",
-    "modified": "2026-03-28T15:12:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

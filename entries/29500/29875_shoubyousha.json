@@ -17,7 +17,9 @@
       "id": "29875_shoubyousha_ex1",
       "japanese": "{傷病者|しょうびょうしゃ}を{病院|びょういん}に{運|はこ}ぶ。",
       "english": "To carry the injured to the hospital.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29875_shoubyousha_ex2",
       "japanese": "{事故|じこ}{現場|げんば}で{傷病者|しょうびょうしゃ}の{手当|てあ}てをする。",
       "english": "To treat the injured at the scene of the accident.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "29875_shoubyousha_ex3",
       "japanese": "{災害|さいがい}{時|じ}には、{傷病者|しょうびょうしゃ}の{救護|きゅうご}が{最優先|さいゆうせん}される。",
       "english": "In a disaster, care for the injured and sick is given top priority.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {傷|しょう} (wound) + {病|びょう} (illness) + {者|しゃ} (person). Covers both the injured and the sick with one word, so it is common in first-aid, emergency-services, and disaster-response contexts.\n\nCOMMON COLLOCATIONS:\n- {傷病者|しょうびょうしゃ}の{搬送|はんそう}: transport of the injured and sick\n- {傷病者|しょうびょうしゃ}を{救護|きゅうご}する: to give first aid to casualties\n\nSIMILAR WORDS:\n- {負傷者|ふしょうしゃ}: injured person — wounds only, not illness\n- {被災者|ひさいしゃ}: disaster victim — affected by a disaster, not necessarily hurt",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27169_fushousha",
+      "reading": "ふしょうしゃ",
+      "headword": "{負傷者|ふしょうしゃ}",
+      "label": "injured person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25337_hisaisha",
+      "reading": "ひさいしゃ",
+      "headword": "{被災者|ひさいしゃ}",
+      "label": "disaster victim"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["health", "person"],
+      "politeness": "plain",
+      "semantic": [
+        "health",
+        "person"
+      ],
       "domain": []
     },
     "created": "2026-07-15T12:19:49Z",
-    "modified": "2026-07-15T12:19:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

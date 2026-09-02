@@ -3,7 +3,7 @@
   "headword": "{行|い}き{着|つ}く",
   "reading": "いきつく",
   "romaji": "ikitsuku",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to end up at; to arrive at; to reach (a conclusion)",
   "definitions": [
     {
@@ -79,8 +79,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound verb of {行|い}く (to go) + {着|つ}く (to arrive). Emphasizes finally reaching a destination or conclusion, often after some effort or process.\n\nCOMMON COLLOCATIONS:\n- {結論|けつろん}に{行|い}き{着|つ}く: to arrive at a conclusion\n- {答|こた}えに{行|い}き{着|つ}く: to reach an answer\n- {目的地|もくてきち}に{行|い}き{着|つ}く: to reach one's destination\n- {最終的|さいしゅうてき}に{行|い}き{着|つ}く: to ultimately end up at\n\nSIMILAR WORDS:\n- {辿|たど}り{着|つ}く: to finally reach — very similar, slightly more emphasis on the difficult journey\n- {着|つ}く: to arrive — neutral, no implication of difficulty\n- {到達|とうたつ}する: to reach, to attain — more formal\n\nGRAMMAR:\nGodan verb (く row). Conjugates: {行|い}き{着|つ}かない, {行|い}き{着|つ}いて, {行|い}き{着|つ}いた.",
+  "notes": "Compound verb of {行|い}く (to go) + {着|つ}く (to arrive). Emphasizes finally reaching a destination or conclusion, often after some effort or process.\n\nCOMMON COLLOCATIONS:\n- {結論|けつろん}に{行|い}き{着|つ}く: to arrive at a conclusion\n- {答|こた}えに{行|い}き{着|つ}く: to reach an answer\n- {目的地|もくてきち}に{行|い}き{着|つ}く: to reach one's destination\n- {最終的|さいしゅうてき}に{行|い}き{着|つ}く: to ultimately end up at\n\nSIMILAR WORDS:\n- {辿|たど}り{着|つ}く: to finally reach — very similar, slightly more emphasis on the difficult journey\n- {着|つ}く: to arrive — neutral, no implication of difficulty\n- {到達|とうたつ}する: to reach, to attain — more formal\n\nCOMMON PATTERNS:\nGodan verb (く row). Conjugates: {行|い}き{着|つ}かない, {行|い}き{着|つ}いて, {行|い}き{着|つ}いた.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09345_tadoritsuku",
+      "reading": "たどりつく",
+      "headword": "{辿|たど}り{着|つ}く",
+      "label": "to finally reach"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11815_toutatsu",
+      "reading": "とうたつ",
+      "headword": "{到達|とうたつ}",
+      "label": "to reach, to attain"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -95,7 +111,7 @@
       "verb_class": "godan-ku"
     },
     "created": "2026-04-02T15:24:53Z",
-    "modified": "2026-04-02T15:24:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

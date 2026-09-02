@@ -19,7 +19,9 @@
       "english": "I miss my mother's home cooking.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12760_teryouri_ex2",
@@ -27,7 +29,9 @@
       "english": "I served homemade food.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12760_teryouri_ex3",
@@ -35,21 +39,42 @@
       "english": "I invited a friend to my home and treated them to my home cooking.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{手料理|てりょうり} emphasizes the personal touch and effort of cooking at home. It is often used warmly, suggesting care and affection.\n\nCOMMON COLLOCATIONS:\n- {手料理|てりょうり}を{振|ふ}る{舞|ま}う: to serve homemade food\n- {手料理|てりょうり}でもてなす: to entertain with homemade food\n- {母|はは}の{手料理|てりょうり}: mother's home cooking\n- {手料理|てりょうり}を{作|つく}る: to make a home-cooked meal\n\nSIMILAR WORDS:\n- {家庭|かてい}{料理|りょうり}: home cooking (focuses on the type of cuisine)\n- {手作|てづく}り: handmade (broader, applies to food and other items)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17474_kateiryouri",
+      "reading": "かていりょうり",
+      "headword": "{家庭料理|かていりょうり}",
+      "label": "home cooking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08300_tezukuri",
+      "reading": "てづくり",
+      "headword": "{手作|てづく}り",
+      "label": "handmade"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T10:04:21Z",
-    "modified": "2026-02-22T10:04:21Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

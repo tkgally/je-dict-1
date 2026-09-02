@@ -3,7 +3,7 @@
   "headword": "ライブ{配信|はいしん}",
   "reading": "らいぶはいしん",
   "romaji": "raibuhaishin",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "live streaming; live broadcast (online)",
   "definitions": [
     {
@@ -46,6 +46,43 @@
   ],
   "notes": "A compound of ライブ ('live') and {配信|はいしん} ('distribution, broadcast'). Used as a する-verb (ライブ{配信|はいしん}する) to mean 'to live-stream,' or as a passive receiving verb (ライブ{配信|はいしん}される) to describe something being streamed.\n\nCOMMON COLLOCATIONS:\n- ライブ{配信|はいしん}をする: to do a live stream\n- ライブ{配信|はいしん}を{見|み}る: to watch a live stream\n- ライブ{配信|はいしん}される: to be live-streamed\n- ライブ{配信|はいしん}{中|ちゅう}: currently live-streaming\n- ライブ{配信|はいしん}アプリ: live-streaming app\n- ライブ{配信|はいしん}{者|しゃ}: live streamer; person doing a live broadcast\n\nSIMILAR WORDS:\n- {生配信|なまはいしん}: live stream — a more Japanese-style synonym of ライブ{配信|はいしん}, very common in everyday speech\n- {生中継|なまちゅうけい}: live broadcast — used for traditional TV/radio live coverage (news, sports)\n- {配信|はいしん}: distribution, online broadcast — the broader term, including both live and on-demand\n- {動画配信|どうがはいしん}: video streaming/distribution — usually on-demand video rather than live\n\nUSAGE:\nライブ{配信|はいしん}{者|しゃ} and the loanword ストリーマー are both used to refer to people who live stream. The act of live streaming oneself is often called ライブ{配信|はいしん}する or the more casual {生配信|なまはいしん}する.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05399_namahaishin",
+      "reading": "なまはいしん",
+      "headword": "{生配信|なまはいしん}",
+      "label": "live stream"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16355_namachuukei",
+      "reading": "なまちゅうけい",
+      "headword": "{生中継|なまちゅうけい}",
+      "label": "live broadcast"
+    },
+    {
+      "type": "related",
+      "target_id": "04898_haishin",
+      "reading": "はいしん",
+      "headword": "{配信|はいしん}",
+      "label": "distribution, online broadcast"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19012_dougahaishin",
+      "reading": "どうがはいしん",
+      "headword": "{動画配信|どうがはいしん}",
+      "label": "video streaming/distribution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06597_ondemando",
+      "reading": "おんでまんど",
+      "headword": "オンデマンド",
+      "label": "on-demand"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +99,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-14T17:07:04Z",
-    "modified": "2026-04-14T17:07:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

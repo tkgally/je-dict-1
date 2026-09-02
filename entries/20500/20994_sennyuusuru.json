@@ -3,7 +3,7 @@
   "headword": "{潜入|せんにゅう}する",
   "reading": "せんにゅうする",
   "romaji": "sennyuusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to infiltrate; to sneak in; to go undercover",
   "definitions": [
     {
@@ -47,6 +47,29 @@
   "notes": "A する verb composed of {潜|せん} (hide, lurk) + {入|にゅう} (enter). Implies secrecy and stealth — entering without being detected or while concealing one's true purpose.\n\nCOMMON COLLOCATIONS:\n- {潜入|せんにゅう}{捜査|そうさ}: undercover investigation\n- {潜入|せんにゅう}{取材|しゅざい}: undercover reporting/journalism\n- {潜入|せんにゅう}{工作員|こうさくいん}: infiltrator, covert agent\n- ～に{潜入|せんにゅう}する: to infiltrate ~\n\nSIMILAR WORDS:\n- {忍|しの}び{込|こ}む: to sneak in, to creep in — everyday word; physical stealth without necessarily a mission\n- {侵入|しんにゅう}する: to intrude, to break in — focuses on unauthorized entry; not necessarily secret\n- {潜伏|せんぷく}する: to lie low, to go into hiding — hiding after entry rather than the act of entering",
   "conjugation_type": "suru",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12578_shinobikomu",
+      "reading": "しのびこむ",
+      "headword": "{忍|しの}び{込|こ}む",
+      "label": "to sneak in, to creep in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17343_shinnyuusuru",
+      "reading": "しんにゅうする",
+      "headword": "{侵入|しんにゅう}する",
+      "label": "to intrude, to break in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25505_senpukusuru",
+      "reading": "せんぷくする",
+      "headword": "{潜伏|せんぷく}する",
+      "label": "to lie low, to go into hiding"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-31T09:51:25Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

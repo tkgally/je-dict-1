@@ -17,7 +17,9 @@
       "id": "21508_shiryou_ex1",
       "japanese": "{試料|しりょう}を{採取|さいしゅ}する。",
       "english": "To collect a sample.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21508_shiryou_ex2",
       "japanese": "{試料|しりょう}を{顕微鏡|けんびきょう}で{観察|かんさつ}した。",
       "english": "I observed the specimen under a microscope.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "21508_shiryou_ex3",
       "japanese": "{実験|じっけん}に{使|つか}う{試料|しりょう}は、{汚染|おせん}されないように{注意|ちゅうい}して{保管|ほかん}する{必要|ひつよう}がある。",
       "english": "Samples used in experiments must be stored carefully to prevent contamination.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A technical term for a sample or specimen used in scientific analysis, testing, or quality control. Composed of {試|し} (test, try) + {料|りょう} (material).\n\nCOMMON COLLOCATIONS:\n- {試料|しりょう}を{採取|さいしゅ}する: to collect a sample\n- {試料|しりょう}を{分析|ぶんせき}する: to analyze a sample\n- {試料|しりょう}を{準備|じゅんび}する: to prepare a specimen\n- {試料|しりょう}の{保存|ほぞん}: preservation of samples\n\nSIMILAR WORDS:\n- {資料|しりょう}: materials, documents — a homophone meaning reference materials or documents; completely different meaning\n- {標本|ひょうほん}: specimen, sample — used for biological specimens, statistical samples, and museum exhibits\n- サンプル: sample — the loanword from English; more casual and used broadly in both scientific and commercial contexts\n- {検体|けんたい}: test specimen — specifically for medical or forensic testing\n\nNOTE:\nBe careful not to confuse with the common homophone {資料|しりょう} (documents/materials). In spoken Japanese, context usually makes the distinction clear, but in writing the kanji are different.",
+  "notes": "A technical term for a sample or specimen used in scientific analysis, testing, or quality control. Composed of {試|し} (test, try) + {料|りょう} (material).\n\nCOMMON COLLOCATIONS:\n- {試料|しりょう}を{採取|さいしゅ}する: to collect a sample\n- {試料|しりょう}を{分析|ぶんせき}する: to analyze a sample\n- {試料|しりょう}を{準備|じゅんび}する: to prepare a specimen\n- {試料|しりょう}の{保存|ほぞん}: preservation of samples\n\nSIMILAR WORDS:\n- {資料|しりょう}: materials, documents — a homophone meaning reference materials or documents; completely different meaning\n- {標本|ひょうほん}: specimen, sample — used for biological specimens, statistical samples, and museum exhibits\n- サンプル: sample — the loanword from English; more casual and used broadly in both scientific and commercial contexts\n- {検体|けんたい}: test specimen — specifically for medical or forensic testing\n\nUSAGE:\nBe careful not to confuse with the common homophone {資料|しりょう} (documents/materials). In spoken Japanese, context usually makes the distinction clear, but in writing the kanji are different.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "04166_shiryou",
+      "reading": "しりょう",
+      "headword": "{資料|しりょう}",
+      "label": "materials, documents"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13174_hyouhon",
+      "reading": "ひょうほん",
+      "headword": "{標本|ひょうほん}",
+      "label": "specimen, sample"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10939_sanpuru",
+      "reading": "さんぷる",
+      "headword": "サンプル",
+      "label": "sample"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["science"]
+      "semantic": [
+        "science"
+      ]
     },
     "created": "2026-04-02T14:09:42Z",
-    "modified": "2026-04-02T14:09:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

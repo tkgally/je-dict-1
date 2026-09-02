@@ -3,7 +3,7 @@
   "headword": "{適正使用|てきせいしよう}",
   "reading": "てきせいしよう",
   "romaji": "tekiseishiyou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "proper use; appropriate use; correct usage",
   "definitions": [
     {
@@ -45,7 +45,15 @@
     }
   ],
   "notes": "Composed of {適正|てきせい} (proper, appropriate) + {使用|しよう} (use, usage). Frequently appears in medical, pharmaceutical, agricultural, and regulatory contexts where misuse has consequences.\n\nThis is a more formal and specific term than simply \"using correctly.\" It implies following established guidelines, dosages, or regulations.\n\nCOMMON COLLOCATIONS:\n- {薬|くすり}の{適正使用|てきせいしよう}: proper use of medication\n- {適正使用|てきせいしよう}ガイドライン: proper usage guidelines\n- {適正使用|てきせいしよう}を{推進|すいしん}する: to promote proper use\n- {適正使用|てきせいしよう}の{徹底|てってい}: thorough enforcement of proper use\n\nSIMILAR WORDS:\n- {正|ただ}しい{使|つか}い{方|かた}: correct way to use — more colloquial\n- {用法|ようほう}{用量|ようりょう}: dosage and usage — specifically for medication\n- {誤用|ごよう}: misuse — the opposite\n- {乱用|らんよう}: abuse — deliberate overuse or misuse",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15259_ranyou",
+      "reading": "らんよう",
+      "headword": "{乱用|らんよう}",
+      "label": "abuse"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +62,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "health",
         "society"
@@ -61,7 +70,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-29T15:36:03Z",
-    "modified": "2026-04-29T15:36:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -3,7 +3,7 @@
   "headword": "{正比例|せいひれい}",
   "reading": "せいひれい",
   "romaji": "seihirei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "direct proportion",
   "definitions": [
     {
@@ -56,6 +56,22 @@
   ],
   "notes": "Composed of {正|せい} (direct, positive, correct) and {比例|ひれい} (proportion). In mathematics, two quantities x and y are in {正比例|せいひれい} when y = kx for some constant k — as x increases, y increases by the same ratio.\n\nBeyond math class, the word appears in everyday discussion of cause-and-effect relationships, especially when people want to say that one thing rises and falls with another.\n\nUSAGE:\n- As a noun: {正比例|せいひれい}の{関係|かんけい} (a directly proportional relationship)\n- As a suru-verb: AはBに{正比例|せいひれい}する (A is directly proportional to B)\n- Often used with に (the standard of comparison is marked by に)\n\nCOMMON COLLOCATIONS:\n- {正比例|せいひれい}する: to be directly proportional\n- {正比例|せいひれい}{関係|かんけい}: proportional relationship\n- Aに{正比例|せいひれい}してBが{増|ふ}える: B increases in direct proportion to A\n- {正比例|せいひれい}のグラフ: a graph of direct proportion (a straight line through the origin)\n\nSIMILAR WORDS:\n- {反比例|はんぴれい}: inverse proportion — the direct antonym; as one increases, the other decreases proportionally\n- {比例|ひれい}: proportion (general) — often used when the direction (direct or inverse) is clear from context\n- {連動|れんどう}: moving together, linked movement — less mathematical; describes things that change together without specifying a ratio",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "18558_hanpirei",
+      "reading": "はんぴれい",
+      "headword": "{反比例|はんぴれい}",
+      "label": "inverse proportion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14421_rendou",
+      "reading": "れんどう",
+      "headword": "{連動|れんどう}",
+      "label": "moving together, linked movement"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -71,7 +87,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-14T00:46:30Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

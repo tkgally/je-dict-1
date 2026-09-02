@@ -22,7 +22,9 @@
       "id": "19617_akami_ex1",
       "japanese": "{赤身|あかみ}の{肉|にく}が{好|す}きだ。",
       "english": "I like lean meat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "19617_akami_ex2",
       "japanese": "ステーキには{赤身|あかみ}の{多|おお}い{部位|ぶい}を{選|えら}んだ。",
       "english": "I chose a cut with more lean meat for the steak.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "19617_akami_ex3",
       "japanese": "{健康|けんこう}のために{脂身|あぶらみ}より{赤身|あかみ}を{食|た}べるようにしている。",
       "english": "For my health, I try to eat lean meat rather than fatty meat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "19617_akami_ex4",
       "japanese": "まぐろの{赤身|あかみ}をください。",
       "english": "I'll have the lean tuna, please.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "19617_akami_ex5",
       "japanese": "{赤身|あかみ}の{魚|さかな}は{鉄分|てつぶん}が{豊富|ほうふ}だ。",
       "english": "Red-fleshed fish are rich in iron.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,51 @@
       "id": "19617_akami_ex6",
       "japanese": "この{寿司屋|すしや}の{赤身|あかみ}は{新鮮|しんせん}で、{口|くち}の{中|なか}でとろける。",
       "english": "The lean tuna at this sushi restaurant is so fresh it melts in your mouth.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {赤|あか} (red) and {身|み} (flesh/meat), referring to meat or fish flesh that is red in color and lean.\n\nCOMMON COLLOCATIONS:\n- {赤身|あかみ}の{肉|にく}: lean meat\n- まぐろの{赤身|あかみ}: lean tuna\n- {赤身|あかみ}の{魚|さかな}: red-fleshed fish\n- {赤身|あかみ}{部分|ぶぶん}: lean portion\n\nSUSHI TERMINOLOGY:\nAt sushi restaurants, {赤身|あかみ} refers to the leanest part of tuna, as opposed to {中|ちゅう}トロ (medium fatty tuna) and {大|おお}トロ (fatty tuna belly). {赤身|あかみ} is the most affordable of the three and has a clean, straightforward flavor.\n\nSIMILAR WORDS:\n- {脂身|あぶらみ}: fatty meat — the opposite of {赤身|あかみ}; the white fatty portion of meat\n- {白身|しろみ}: white-fleshed fish — fish with pale flesh like sea bream or flounder; also refers to egg white",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "20673_aburami",
+      "reading": "あぶらみ",
+      "headword": "{脂身|あぶらみ}",
+      "label": "fatty meat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13692_shiromi",
+      "reading": "しろみ",
+      "headword": "{白身|しろみ}",
+      "label": "white-fleshed fish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23922_gyoniku",
+      "reading": "ぎょにく",
+      "headword": "{魚肉|ぎょにく}",
+      "label": "fish meat"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-03-26T08:34:33Z",
-    "modified": "2026-03-26T08:34:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

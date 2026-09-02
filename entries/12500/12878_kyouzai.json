@@ -19,7 +19,9 @@
       "english": "I created new teaching materials.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12878_kyouzai_ex2",
@@ -27,7 +29,9 @@
       "english": "I'm studying Japanese using online educational materials.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12878_kyouzai_ex3",
@@ -35,21 +39,42 @@
       "english": "This film can also be used as a teaching resource for history.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCovers a broad range of materials from traditional textbooks to digital learning content. In modern usage, デジタル{教材|きょうざい} (digital teaching materials) and オンライン{教材|きょうざい} (online materials) are increasingly common.\n\nCOMMON COLLOCATIONS:\n- {教材|きょうざい}を{作|つく}る: to create teaching materials\n- {教材|きょうざい}を{活用|かつよう}する: to make use of teaching materials\n- {教材|きょうざい}{開発|かいはつ}: teaching material development\n- デジタル{教材|きょうざい}: digital teaching materials\n\nSIMILAR WORDS:\n- {教科書|きょうかしょ}: textbook (a specific type of teaching material)\n- {参考書|さんこうしょ}: reference book, study guide",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01085_kyoukasho",
+      "reading": "きょうかしょ",
+      "headword": "{教科書|きょうかしょ}",
+      "label": "textbook"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05142_sankousho",
+      "reading": "さんこうしょ",
+      "headword": "{参考書|さんこうしょ}",
+      "label": "reference book, study guide"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T12:45:04Z",
-    "modified": "2026-02-22T12:45:04Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

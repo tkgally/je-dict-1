@@ -46,6 +46,29 @@
   ],
   "notes": "From {捜査|そうさ} (criminal investigation) plus the suffix {官|かん}, which marks a public official ({警察官|けいさつかん}, {外交官|がいこうかん}, {裁判官|さいばんかん}).\n\nCOMMON COLLOCATIONS:\n- {捜査官|そうさかん}を{派遣|はけん}する: to send in investigators\n- {麻薬|まやく}{捜査官|そうさかん}: narcotics agent\n- {潜入|せんにゅう}{捜査官|そうさかん}: undercover investigator\n- ベテラン{捜査官|そうさかん}: veteran investigator\n\nSIMILAR WORDS:\n- {刑事|けいじ}: detective — the everyday word for a police detective, used in speech far more often\n- {警察官|けいさつかん}: police officer — any officer, not specifically one who investigates\n- {探偵|たんてい}: private detective — works for clients, not the state",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02741_keiji",
+      "reading": "けいじ",
+      "headword": "{刑事|けいじ}",
+      "label": "detective"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05056_keisatsukan",
+      "reading": "けいさつかん",
+      "headword": "{警察官|けいさつかん}",
+      "label": "police officer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07033_tantei",
+      "reading": "たんてい",
+      "headword": "{探偵|たんてい}",
+      "label": "private detective"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "occupation",
         "law"
@@ -61,6 +84,6 @@
       "domain": []
     },
     "created": "2026-08-22T12:17:21Z",
-    "modified": "2026-08-22T12:17:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

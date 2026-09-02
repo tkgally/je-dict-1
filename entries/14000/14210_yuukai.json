@@ -3,7 +3,7 @@
   "id": "14210_yuukai",
   "headword": "{誘拐|ゆうかい}",
   "reading": "ゆうかい",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "kidnapping, abduction",
   "conjugation": {
     "type": "suru",
@@ -149,11 +149,32 @@
       "reading": "ゆうどう",
       "headword": "{誘導|ゆうどう}",
       "label": "guidance, leading"
+    },
+    {
+      "type": "related",
+      "target_id": "09678_hitojichi",
+      "reading": "ひとじち",
+      "headword": "{人質|ひとじち}",
+      "label": "hostage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21397_tsuresaru",
+      "reading": "つれさる",
+      "headword": "{連|つ}れ{去|さ}る",
+      "label": "to take away"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25711_rachisuru",
+      "reading": "らちする",
+      "headword": "{拉致|らち}する",
+      "label": "to abduct"
     }
   ],
   "metadata": {
     "created": "2026-02-28T03:03:06Z",
-    "modified": "2026-04-30T06:34:37Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

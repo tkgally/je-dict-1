@@ -19,7 +19,9 @@
       "english": "To add spices to curry.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11054_supaisu_ex2",
@@ -27,7 +29,9 @@
       "english": "This spice has a nice aroma.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11054_supaisu_ex3",
@@ -35,7 +39,9 @@
       "english": "I made an authentic curry using many different spices.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nスパイス refers to dry seasonings and aromatics (cumin, turmeric, pepper, etc.), as distinct from {調味料|ちょうみりょう} (seasonings in general, including soy sauce, salt, etc.). スパイスカレー (spice curry) is a popular genre of curry in Japan that emphasizes individual spices over pre-made roux.\n\nThe figurative use (something that adds excitement to life) mirrors the English metaphor: {人生|じんせい}のスパイス (the spice of life).\n\nCOMMON COLLOCATIONS:\n- スパイスを{効|き}かせる: to season well with spices\n- スパイスカレー: spice curry\n- {香辛料|こうしんりょう}: spices (more formal synonym)\n- スパイスの{香|かお}り: the aroma of spices",
@@ -53,18 +59,43 @@
       "reading": "ちょうみりょう",
       "headword": "{調味料|ちょうみりょう}",
       "label": "seasonings (broader)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14678_kouryou",
+      "reading": "こうりょう",
+      "headword": "{香料|こうりょう}",
+      "label": "spice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24338_kousou",
+      "reading": "こうそう",
+      "headword": "{香草|こうそう}",
+      "label": "herb"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28736_peppaa",
+      "reading": "ぺっぱー",
+      "headword": "ペッパー",
+      "label": "pepper"
     }
   ],
   "metadata": {
     "created": "2026-02-12T20:10:50Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

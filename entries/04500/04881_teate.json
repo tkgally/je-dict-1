@@ -72,7 +72,7 @@
       ]
     }
   ],
-  "notes": "{手当|てあて} has two main meanings: workplace allowance and medical treatment.\n\nMEANING 1 - ALLOWANCE:\nExtra payment or benefit beyond base salary.\n- ⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧{手当|てあて}: housing allowance\n- ⟦{通勤|つうきん}→通勤：03512_tsuukin⟧{手当|てあて}: commuting allowance\n- ⟦{残業|ざんぎょう}→残業：01071_zangyou⟧{手当|てあて}: overtime pay\n- ⟦{家族|かぞく}→家族：00552_kazoku⟧{手当|てあて}: family allowance\n- ⟦{役職|やくしょく}→役職：05514_yakushoku⟧{手当|てあて}: position allowance\n\nMEANING 2 - TREATMENT:\nCare for injury or illness.\n- ⟦{応急|おうきゅう}→応急：08193_oukyuu⟧{手当|てあて}: first aid\n- ⟦{怪我|けが}→けが：00787_kega⟧⟦の→の：09472_no⟧{手当|てあて}: injury treatment\n- {手当|てあて}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to give treatment\n\nUSAGE NOTE:\nContext usually clarifies meaning. In workplace discussions, it means allowance; in medical contexts, it means treatment.",
+  "notes": "{手当|てあて} has two main meanings: workplace allowance and medical treatment.\n\nMEANING 1 - ALLOWANCE:\nExtra payment or benefit beyond base salary.\n- ⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧{手当|てあて}: housing allowance\n- ⟦{通勤|つうきん}→通勤：03512_tsuukin⟧{手当|てあて}: commuting allowance\n- ⟦{残業|ざんぎょう}→残業：01071_zangyou⟧{手当|てあて}: overtime pay\n- ⟦{家族|かぞく}→家族：00552_kazoku⟧{手当|てあて}: family allowance\n- ⟦{役職|やくしょく}→役職：05514_yakushoku⟧{手当|てあて}: position allowance\n\nMEANING 2 - TREATMENT:\nCare for injury or illness.\n- ⟦{応急|おうきゅう}→応急：08193_oukyuu⟧{手当|てあて}: first aid\n- ⟦{怪我|けが}→けが：00787_kega⟧⟦の→の：09472_no⟧{手当|てあて}: injury treatment\n- {手当|てあて}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to give treatment\n\nUSAGE:\nContext usually clarifies meaning. In workplace discussions, it means allowance; in medical contexts, it means treatment.",
   "cross_references": [
     {
       "type": "related",
@@ -87,11 +87,46 @@
       "reading": "ちりょう",
       "headword": "{治療|ちりょう}",
       "label": "treatment (sense 2)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13848_kyuufu",
+      "reading": "きゅうふ",
+      "headword": "{給付|きゅうふ}",
+      "label": "benefit, allowance, payment, provision"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19259_nittou",
+      "reading": "にっとう",
+      "headword": "{日当|にっとう}",
+      "label": "daily allowance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20806_kyuufukin",
+      "reading": "きゅうふきん",
+      "headword": "{給付金|きゅうふきん}",
+      "label": "benefit payment"
+    },
+    {
+      "type": "related",
+      "target_id": "21335_kihonkyuu",
+      "reading": "きほんきゅう",
+      "headword": "{基本給|きほんきゅう}",
+      "label": "base salary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22035_shakin",
+      "reading": "しゃきん",
+      "headword": "{謝金|しゃきん}",
+      "label": "honorarium"
     }
   ],
   "metadata": {
     "created": "2026-01-16T00:02:45Z",
-    "modified": "2026-06-14T03:51:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

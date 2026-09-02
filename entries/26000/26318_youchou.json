@@ -17,7 +17,9 @@
       "id": "26318_youchou_ex1",
       "japanese": "{巣|す}の{中|なか}に{幼鳥|ようちょう}がいた。",
       "english": "There was a young bird in the nest.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26318_youchou_ex2",
       "japanese": "この{幼鳥|ようちょう}はまだ{飛|と}ぶことができない。",
       "english": "This young bird still cannot fly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,52 @@
       "id": "26318_youchou_ex3",
       "japanese": "{幼鳥|ようちょう}の{羽|はね}の{色|いろ}は{成鳥|せいちょう}とは{大|おお}きく{異|こと}なるため、{種類|しゅるい}の{判別|はんべつ}が{難|むずか}しいことがある。",
       "english": "Because the feather color of young birds differs greatly from adults, it can be difficult to identify the species.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {幼|よう} (young, immature) and {鳥|ちょう} (bird). A straightforward compound used in nature observation and ornithology. The word pairs naturally with {成鳥|せいちょう} (adult bird) when discussing the stages of a bird's development.\n\nCOMMON COLLOCATIONS:\n- {幼鳥|ようちょう}を{育|そだ}てる: to raise a young bird\n- {幼鳥|ようちょう}の{羽|はね}: feathers of a young bird\n- {幼鳥|ようちょう}が{巣立|すだ}つ: a young bird leaves the nest\n\nRELATED TERMS:\n- {成鳥|せいちょう}: adult bird — the mature counterpart\n- ひな: chick; hatchling — a newly hatched bird, younger stage than {幼鳥|ようちょう}\n- {雛鳥|ひなどり}: baby bird — similar to ひな, emphasizing the very young stage\n- {野鳥|やちょう}: wild bird — commonly used in birdwatching contexts",
-  "cross_references": [],
+  "notes": "Composed of {幼|よう} (young, immature) and {鳥|ちょう} (bird). A straightforward compound used in nature observation and ornithology. The word pairs naturally with {成鳥|せいちょう} (adult bird) when discussing the stages of a bird's development.\n\nCOMMON COLLOCATIONS:\n- {幼鳥|ようちょう}を{育|そだ}てる: to raise a young bird\n- {幼鳥|ようちょう}の{羽|はね}: feathers of a young bird\n- {幼鳥|ようちょう}が{巣立|すだ}つ: a young bird leaves the nest\n\nRELATED WORDS:\n- {成鳥|せいちょう}: adult bird — the mature counterpart\n- ひな: chick; hatchling — a newly hatched bird, younger stage than {幼鳥|ようちょう}\n- {雛鳥|ひなどり}: baby bird — similar to ひな, emphasizing the very young stage\n- {野鳥|やちょう}: wild bird — commonly used in birdwatching contexts",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17377_hina",
+      "reading": "ひな",
+      "headword": "{雛|ひな}",
+      "label": "chick"
+    },
+    {
+      "type": "related",
+      "target_id": "24779_hinadori",
+      "reading": "ひなどり",
+      "headword": "{雛鳥|ひなどり}",
+      "label": "baby bird"
+    },
+    {
+      "type": "related",
+      "target_id": "14497_yachou",
+      "reading": "やちょう",
+      "headword": "{野鳥|やちょう}",
+      "label": "wild bird"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["nature", "animal-bird"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "nature",
+        "animal-bird"
+      ]
     },
     "created": "2026-04-30T16:21:59Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

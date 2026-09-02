@@ -17,7 +17,9 @@
       "id": "24695_jigara_ex1",
       "japanese": "この{辺|あた}りは{地柄|じがら}がいい。",
       "english": "This area has a good character.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24695_jigara_ex2",
       "japanese": "{地柄|じがら}のせいか、{犯罪|はんざい}が{少|すく}ない。",
       "english": "Perhaps because of the nature of the area, there is little crime.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "24695_jigara_ex3",
       "japanese": "{下町|したまち}の{地柄|じがら}を{反映|はんえい}して、この{商店街|しょうてんがい}は{人情味|にんじょうみ}にあふれている。",
       "english": "Reflecting the character of the downtown area, this shopping street is full of warmth and neighborliness.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers to the overall feel or reputation of a place as shaped by its residents, history, and social environment. Often used when evaluating neighborhoods for housing, discussing regional differences, or explaining local customs.\n\nCOMMON COLLOCATIONS:\n- {地柄|じがら}がいい: the area has a good reputation\n- {地柄|じがら}が{悪|わる}い: the area has a bad reputation\n- {土地柄|とちがら}: synonym, slightly more formal\n- {地柄|じがら}を{考|かんが}える: to consider the character of an area\n\nSIMILAR WORDS:\n- {土地柄|とちがら}: character of a place — essentially the same meaning, used somewhat more commonly\n- {風土|ふうど}: climate and culture — broader concept including natural environment and cultural traditions\n- {雰囲気|ふんいき}: atmosphere — more general, applies to any space or situation, not specifically a locality\n- {家柄|いえがら}: family background, pedigree — same 柄 suffix but refers to family rather than place",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14628_fuudo",
+      "reading": "ふうど",
+      "headword": "{風土|ふうど}",
+      "label": "climate and culture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03604_funiki",
+      "reading": "ふんいき",
+      "headword": "{雰囲気|ふんいき}",
+      "label": "atmosphere"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16695_iegara",
+      "reading": "いえがら",
+      "headword": "{家柄|いえがら}",
+      "label": "family background, pedigree"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     },
     "created": "2026-04-20T12:10:46Z",
-    "modified": "2026-04-20T12:10:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

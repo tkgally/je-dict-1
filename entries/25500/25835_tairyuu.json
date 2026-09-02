@@ -3,7 +3,7 @@
   "headword": "{滞留|たいりゅう}",
   "reading": "たいりゅう",
   "romaji": "tairyuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "staying; lingering; stagnation",
   "definitions": [
     {
@@ -80,7 +80,29 @@
     }
   ],
   "notes": "Composed of {滞|たい} (stagnate) + {留|りゅう} (stay). Can function as a noun or as a する verb ({滞留|たいりゅう}する). Sense 1 (staying/lingering) often carries a nuance of being stuck or delayed rather than choosing to stay. Sense 2 (stagnation) is used in technical and medical contexts.\n\nCOMMON COLLOCATIONS:\n- {長期|ちょうき}{滞留|たいりゅう}: extended stay; prolonged stagnation\n- {滞留|たいりゅう}{時間|じかん}: dwell time; retention time\n- {在庫|ざいこ}{滞留|たいりゅう}: inventory stagnation\n- {滞留|たいりゅう}{者|しゃ}: stranded person\n\nSIMILAR WORDS:\n- {滞在|たいざい}: stay; sojourn — neutral; implies a planned stay, not being stuck\n- {停滞|ていたい}: stagnation; standstill — emphasizes lack of progress or movement\n- {留|と}まる: to stay; to remain — a general native Japanese word for staying",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03390_taizai",
+      "reading": "たいざい",
+      "headword": "{滞在|たいざい}",
+      "label": "stay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07427_teitai",
+      "reading": "ていたい",
+      "headword": "{停滞|ていたい}",
+      "label": "stagnation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24880_teiryuu",
+      "reading": "ていりゅう",
+      "headword": "{停留|ていりゅう}",
+      "label": "stopping"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -89,6 +111,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "travel",
         "daily-life"
@@ -96,7 +120,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-27T15:07:51Z",
-    "modified": "2026-04-27T15:07:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

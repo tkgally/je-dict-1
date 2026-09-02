@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "REGISTER: Formal/official. Used in legal documents, news reports, insurance, and real estate contexts.\n\nCOMMON CONTEXTS:\n・{家屋|かおく}⟦{調査|ちょうさ}→調査：03489_chousa⟧ (building inspection)\n・{家屋|かおく}⟦{税|ぜい}→税：03767_zei⟧ (property tax on buildings)\n・{家屋|かおく}⟦{倒壊|とうかい}→倒壊：25308_toukai⟧ (building collapse)\n・{家屋|かおく}⟦{被害|ひがい}→被害：02572_higai⟧ (building damage)\n\nSIMILAR WORDS:\n・⟦{家|いえ}→家：00612_ie⟧ (house - general, casual)\n・⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧ (residence, housing - slightly formal)\n・⟦{建物|たてもの}→建物：01458_tatemono⟧ (building - general)\n・⟦{住居|じゅうきょ}→住居：11612_juukyo⟧ (dwelling - formal)\n\nNOTE: In everyday conversation, use ⟦{家|いえ}→家：00612_ie⟧ or ⟦{建物|たてもの}→建物：01458_tatemono⟧. {家屋|かおく} sounds formal or bureaucratic.",
+  "notes": "REGISTER: Formal/official. Used in legal documents, news reports, insurance, and real estate contexts.\n\nUSAGE:\n- {家屋|かおく}⟦{調査|ちょうさ}→調査：03489_chousa⟧ (building inspection)\n- {家屋|かおく}⟦{税|ぜい}→税：03767_zei⟧ (property tax on buildings)\n- {家屋|かおく}⟦{倒壊|とうかい}→倒壊：25308_toukai⟧ (building collapse)\n- {家屋|かおく}⟦{被害|ひがい}→被害：02572_higai⟧ (building damage)\n\nSIMILAR WORDS:\n- ⟦{家|いえ}→家：00612_ie⟧ (house - general, casual)\n- ⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧ (residence, housing - slightly formal)\n- ⟦{建物|たてもの}→建物：01458_tatemono⟧ (building - general)\n- ⟦{住居|じゅうきょ}→住居：11612_juukyo⟧ (dwelling - formal)\n\nNOTE: In everyday conversation, use ⟦{家|いえ}→家：00612_ie⟧ or ⟦{建物|たてもの}→建物：01458_tatemono⟧. {家屋|かおく} sounds formal or bureaucratic.",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,32 @@
       "headword": "{住宅|じゅうたく}",
       "label": "residence",
       "target_id": "03280_juutaku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01458_tatemono",
+      "reading": "たてもの",
+      "headword": "{建物|たてもの}",
+      "label": "building"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11612_juukyo",
+      "reading": "じゅうきょ",
+      "headword": "{住居|じゅうきょ}",
+      "label": "dwelling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13217_minka",
+      "reading": "みんか",
+      "headword": "{民家|みんか}",
+      "label": "private house, folk house"
     }
   ],
   "metadata": {
     "created": "2026-01-13T10:53:53Z",
-    "modified": "2026-05-09T19:16:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

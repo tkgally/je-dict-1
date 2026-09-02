@@ -24,7 +24,9 @@
       "english": "Third time's the charm.",
       "notes": "A well-known proverb.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15154_sando_ex2",
@@ -32,7 +34,9 @@
       "english": "I've already watched this movie three times.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15154_sando_ex3",
@@ -40,7 +44,9 @@
       "english": "I make sure not to miss three meals a day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15154_sando_ex4",
@@ -48,7 +54,9 @@
       "english": "The temperature dropped to three degrees.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15154_sando_ex5",
@@ -56,7 +64,9 @@
       "english": "It's three degrees higher than yesterday.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15154_sando_ex6",
@@ -64,21 +74,42 @@
       "english": "Please raise the water temperature by just three degrees.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
-  "notes": "USAGE:\n{三度|さんど} is a straightforward compound of {三|さん} (three) and {度|ど} (times/degrees). The reading さんど is standard; the native Japanese alternative {三度|みたび} is literary and means \"three times\" or \"for the third time.\"\n\nPROVERBS:\n- {三度|さんど}{目|め}の{正直|しょうじき} — \"third time's the charm\" (literally: the honesty of the third time)\n- {仏|ほとけ}の{顔|かお}も{三度|さんど} — even a Buddha's patience has limits (after being taken advantage of three times)",
-  "cross_references": [],
+  "notes": "USAGE:\n{三度|さんど} is a straightforward compound of {三|さん} (three) and {度|ど} (times/degrees). The reading さんど is standard; the native Japanese alternative {三度|みたび} is literary and means \"three times\" or \"for the third time.\"\n\nCOMMON EXPRESSIONS:\n- {三度|さんど}{目|め}の{正直|しょうじき} — \"third time's the charm\" (literally: the honesty of the third time)\n- {仏|ほとけ}の{顔|かお}も{三度|さんど} — even a Buddha's patience has limits (after being taken advantage of three times)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01312_ichido",
+      "reading": "いちど",
+      "headword": "{一度|いちど}",
+      "label": "once"
+    },
+    {
+      "type": "related",
+      "target_id": "09503_nido",
+      "reading": "にど",
+      "headword": "{二度|にど}",
+      "label": "twice, two times"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T08:39:58Z",
-    "modified": "2026-03-05T08:39:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["number-counter"]
+      "semantic": [
+        "number-counter"
+      ]
     }
   }
 }

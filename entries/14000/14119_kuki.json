@@ -19,7 +19,9 @@
       "english": "I cut the flower stem.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14119_kuki_ex2",
@@ -27,7 +29,9 @@
       "english": "You can eat broccoli stems too.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14119_kuki_ex3",
@@ -35,21 +39,56 @@
       "english": "The stems broke in the typhoon, and all the flowers were ruined.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{茎|くき} refers to the stem or stalk of any plant — the part that supports leaves, flowers, and fruit.\n\nUSAGE:\nApplies to flowers, vegetables, and herbs alike. For tree trunks, use {幹|みき} instead. For mushroom stems, {軸|じく} is more common.\n\nCOMMON COLLOCATIONS:\n- {茎|くき}を{切|き}る: to cut a stem\n- {茎|くき}が{伸|の}びる: a stem grows/extends\n- {茎|くき}が{折|お}れる: a stem breaks\n- {太|ふと}い{茎|くき}: thick stalk\n- {茎|くき}わかめ: stem wakame (a popular snack)\n\nIN COOKING:\nMany vegetable stems are edible and commonly used in Japanese cooking. ブロッコリーの{茎|くき} (broccoli stems) and セロリの{茎|くき} (celery stalks) are everyday ingredients.\n\nRELATED:\n- {幹|みき}: tree trunk\n- {枝|えだ}: branch\n- {根|ね}: root\n- {葉|は}: leaf",
-  "cross_references": [],
+  "notes": "{茎|くき} refers to the stem or stalk of any plant — the part that supports leaves, flowers, and fruit.\n\nUSAGE:\nApplies to flowers, vegetables, and herbs alike. For tree trunks, use {幹|みき} instead. For mushroom stems, {軸|じく} is more common.\n\nCOMMON COLLOCATIONS:\n- {茎|くき}を{切|き}る: to cut a stem\n- {茎|くき}が{伸|の}びる: a stem grows/extends\n- {茎|くき}が{折|お}れる: a stem breaks\n- {太|ふと}い{茎|くき}: thick stalk\n- {茎|くき}わかめ: stem wakame (a popular snack)\n\nIN COOKING:\nMany vegetable stems are edible and commonly used in Japanese cooking. ブロッコリーの{茎|くき} (broccoli stems) and セロリの{茎|くき} (celery stalks) are everyday ingredients.\n\nRELATED WORDS:\n- {幹|みき}: tree trunk\n- {枝|えだ}: branch\n- {根|ね}: root\n- {葉|は}: leaf",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04364_miki",
+      "reading": "みき",
+      "headword": "{幹|みき}",
+      "label": "tree trunk"
+    },
+    {
+      "type": "related",
+      "target_id": "02181_eda",
+      "reading": "えだ",
+      "headword": "{枝|えだ}",
+      "label": "branch"
+    },
+    {
+      "type": "related",
+      "target_id": "03525_ne",
+      "reading": "ね",
+      "headword": "{根|ね}",
+      "label": "root"
+    },
+    {
+      "type": "related",
+      "target_id": "02241_ha",
+      "reading": "は",
+      "headword": "{葉|は}",
+      "label": "leaf"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T01:12:33Z",
-    "modified": "2026-03-30T02:50:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["plant-general"]
+      "semantic": [
+        "plant-general"
+      ]
     }
   }
 }

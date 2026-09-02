@@ -16,7 +16,9 @@
       "id": "08090_nanamegiri_ex1",
       "japanese": "ねぎは{斜|なな}め{切|ぎ}りにする。",
       "english": "Cut the green onion diagonally.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "08090_nanamegiri_ex2",
       "japanese": "{斜|なな}め{切|ぎ}りにすると{火|ひ}の{通|とお}りが{早|はや}くなる。",
       "english": "Cutting diagonally makes the heat penetrate faster.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,20 +36,59 @@
       "id": "08090_nanamegiri_ex3",
       "japanese": "きゅうりを{斜|なな}め{切|ぎ}りにして{酢|す}の{物|もの}に{加|くわ}えた。",
       "english": "I sliced the cucumber diagonally and added it to the vinegared dish.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{斜|なな}め{切|ぎ}り is a cutting technique where ingredients are sliced at an angle rather than straight across.\n\nUSAGE:\nCommonly used for long, cylindrical vegetables like {長|なが}ねぎ (green onion), きゅうり (cucumber), ごぼう (burdock root), and セロリ (celery). The diagonal cut creates larger surface area, which helps seasonings absorb better and reduces cooking time.\n\nCOMMON PATTERNS:\n- {斜|なな}め{切|ぎ}りにする: to cut diagonally\n- {斜|なな}め{薄切|うすぎ}り: thin diagonal slices\n\nRELATED CUTTING TECHNIQUES:\n- {輪切|わぎ}り: round slices (straight across)\n- {半月切|はんげつぎ}り: half-moon slices\n- {乱切|らんぎ}り: rough/random cut\n- {千切|せんぎ}り: julienne (thin strips)\n- {微塵切|みじんぎ}り: mincing",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07474_wagiri",
+      "reading": "わぎり",
+      "headword": "{輪切|わぎ}り",
+      "label": "round slices"
+    },
+    {
+      "type": "related",
+      "target_id": "08091_hangetsugiri",
+      "reading": "はんげつぎり",
+      "headword": "{半月切|はんげつぎ}り",
+      "label": "half-moon slices"
+    },
+    {
+      "type": "related",
+      "target_id": "08067_rangiri",
+      "reading": "らんぎり",
+      "headword": "{乱切|らんぎ}り",
+      "label": "rough/random cut"
+    },
+    {
+      "type": "related",
+      "target_id": "07473_sengiri",
+      "reading": "せんぎり",
+      "headword": "{千切|せんぎ}り",
+      "label": "julienne"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["cooking", "technique", "food preparation"]
+      "politeness": "plain",
+      "semantic": [
+        "cooking",
+        "technique",
+        "food preparation"
+      ]
     },
     "created": "2026-01-25T05:08:42Z",
-    "modified": "2026-03-29T04:19:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

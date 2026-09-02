@@ -46,12 +46,36 @@
   ],
   "notes": "The standard formal and medical term for hearing impairment or deafness. Composed of {聴覚|ちょうかく} (hearing, auditory sense) + {障害|しょうがい} (impairment, disability). Used in official documents, medical contexts, and accessibility discussions.\n\nCOMMON COLLOCATIONS:\n- {聴覚|ちょうかく}{障害|しょうがい}{者|しゃ} — person with a hearing impairment\n- {聴覚|ちょうかく}{障害|しょうがい}{児|じ} — child with a hearing impairment\n- {先天性|せんてんせい}{聴覚|ちょうかく}{障害|しょうがい} — congenital hearing impairment\n- {聴覚|ちょうかく}{障害|しょうがい}{者|しゃ}マーク — hearing impairment symbol/mark\n\nSUPPORT AND ACCOMMODATIONS:\n- {手話|しゅわ} — sign language\n- {補聴器|ほちょうき} — hearing aid\n- {人工|じんこう}{内耳|ないじ} — cochlear implant\n- {字幕|じまく} — subtitles/captions\n- {筆談|ひつだん} — communication by writing\n\nSIMILAR WORDS:\n- {難聴|なんちょう} — hearing loss, hard of hearing (describes the condition rather than the disability classification)\n- ろう — deaf (used by the deaf community itself)\n- {視覚|しかく}{障害|しょうがい} — visual impairment (parallel term for sight)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18194_nanchou",
+      "reading": "なんちょう",
+      "headword": "{難聴|なんちょう}",
+      "label": "hearing loss, hard of hearing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13598_rou",
+      "reading": "ろう",
+      "headword": "{牢|ろう}",
+      "label": "deaf"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26089_shikakushougai",
+      "reading": "しかくしょうがい",
+      "headword": "{視覚障害|しかくしょうがい}",
+      "label": "visual impairment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "health",
         "society"
@@ -61,6 +85,6 @@
       ]
     },
     "created": "2026-04-21T09:20:22Z",
-    "modified": "2026-04-21T09:20:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

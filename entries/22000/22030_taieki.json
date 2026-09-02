@@ -3,7 +3,7 @@
   "headword": "{退役|たいえき}",
   "reading": "たいえき",
   "romaji": "taieki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "retirement from military service; decommissioning",
   "definitions": [
     {
@@ -79,8 +79,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {退|たい} (withdraw, retreat) and {役|えき} (service, duty). Refers specifically to military retirement or the decommissioning of military equipment.\n\nCOMMON COLLOCATIONS:\n- {退役|たいえき}{軍人|ぐんじん}: retired soldier / military veteran\n- {退役|たいえき}{将校|しょうこう}: retired officer\n- {退役|たいえき}する: to retire from service / to be decommissioned\n- {退役|たいえき}{後|ご}: after retirement from service\n\nSIMILAR WORDS:\n- {引退|いんたい}: retirement — general retirement from a career, profession, or public life\n- {定年退職|ていねんたいしょく}: mandatory retirement — reaching the age limit at a workplace\n- {除隊|じょたい}: discharge from the military — focuses on the formal act of leaving military service\n\nNOTE:\nAlso written with する to form the verb {退役|たいえき}する. The compound {退役|たいえき}{軍人|ぐんじん} is the most common usage and appears frequently in news and historical contexts.",
+  "notes": "Composed of {退|たい} (withdraw, retreat) and {役|えき} (service, duty). Refers specifically to military retirement or the decommissioning of military equipment.\n\nCOMMON COLLOCATIONS:\n- {退役|たいえき}{軍人|ぐんじん}: retired soldier / military veteran\n- {退役|たいえき}{将校|しょうこう}: retired officer\n- {退役|たいえき}する: to retire from service / to be decommissioned\n- {退役|たいえき}{後|ご}: after retirement from service\n\nSIMILAR WORDS:\n- {引退|いんたい}: retirement — general retirement from a career, profession, or public life\n- {定年退職|ていねんたいしょく}: mandatory retirement — reaching the age limit at a workplace\n- {除隊|じょたい}: discharge from the military — focuses on the formal act of leaving military service\n\nUSAGE:\nAlso written with する to form the verb {退役|たいえき}する. The compound {退役|たいえき}{軍人|ぐんじん} is the most common usage and appears frequently in news and historical contexts.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01848_intai",
+      "reading": "いんたい",
+      "headword": "{引退|いんたい}",
+      "label": "retirement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16450_teinentaishoku",
+      "reading": "ていねんたいしょく",
+      "headword": "{定年退職|ていねんたいしょく}",
+      "label": "mandatory retirement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22883_jotai",
+      "reading": "じょたい",
+      "headword": "{除隊|じょたい}",
+      "label": "discharge from the military"
+    },
+    {
+      "type": "antonym",
+      "target_id": "21782_geneki",
+      "reading": "げんえき",
+      "headword": "{現役|げんえき}",
+      "label": "active service"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -96,7 +126,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-04T21:10:35Z",
-    "modified": "2026-04-04T21:10:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

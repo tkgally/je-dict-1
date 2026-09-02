@@ -19,7 +19,9 @@
       "english": "The Earth is warming due to the greenhouse effect.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17354_onshitsukouka_ex2",
@@ -27,7 +29,9 @@
       "english": "We need to reduce greenhouse gas emissions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17354_onshitsukouka_ex3",
@@ -35,22 +39,59 @@
       "english": "The greenhouse effect is a natural phenomenon, but it is being amplified by human activity.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA scientific term that has become widely known through climate change discussions. Frequently encountered in news, textbooks, and environmental policy debates.\n\nCOMMON COLLOCATIONS:\n- {温室|おんしつ}{効果|こうか}ガス (greenhouse gas)\n- {温室|おんしつ}{効果|こうか}ガスの{排出|はいしゅつ}{削減|さくげん} (reduction of greenhouse gas emissions)\n\nRELATED TERMS:\n- {地球|ちきゅう}{温暖化|おんだんか}: global warming\n- {気候|きこう}{変動|へんどう}: climate change\n- {二酸化|にさんか}{炭素|たんそ}: carbon dioxide",
-  "cross_references": [],
+  "notes": "USAGE:\nA scientific term that has become widely known through climate change discussions. Frequently encountered in news, textbooks, and environmental policy debates.\n\nCOMMON COLLOCATIONS:\n- {温室|おんしつ}{効果|こうか}ガス (greenhouse gas)\n- {温室|おんしつ}{効果|こうか}ガスの{排出|はいしゅつ}{削減|さくげん} (reduction of greenhouse gas emissions)\n\nRELATED WORDS:\n- {地球|ちきゅう}{温暖化|おんだんか}: global warming\n- {気候|きこう}{変動|へんどう}: climate change\n- {二酸化|にさんか}{炭素|たんそ}: carbon dioxide",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18873_chikyuuondanka",
+      "reading": "ちきゅうおんだんか",
+      "headword": "{地球|ちきゅう}{温暖|おんだん}{化|か}",
+      "label": "global warming"
+    },
+    {
+      "type": "related",
+      "target_id": "04627_kikouhendou",
+      "reading": "きこうへんどう",
+      "headword": "{気候変動|きこうへんどう}",
+      "label": "climate change"
+    },
+    {
+      "type": "related",
+      "target_id": "04630_nisankatanso",
+      "reading": "にさんかたんそ",
+      "headword": "{二酸化炭素|にさんかたんそ}",
+      "label": "carbon dioxide"
+    },
+    {
+      "type": "related",
+      "target_id": "04622_ondanka",
+      "reading": "おんだんか",
+      "headword": "{温暖化|おんだんか}",
+      "label": "warming"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T08:17:15Z",
-    "modified": "2026-03-17T08:17:15Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"],
-      "domain": ["academic"]
+      "semantic": [
+        "weather"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

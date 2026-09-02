@@ -17,7 +17,9 @@
       "id": "24940_taishinsekkei_ex1",
       "japanese": "この{建物|たてもの}は{耐震設計|たいしんせっけい}だ。",
       "english": "This building has earthquake-resistant design.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24940_taishinsekkei_ex2",
       "japanese": "{新|あたら}しいマンションは{最新|さいしん}の{耐震設計|たいしんせっけい}を{採用|さいよう}している。",
       "english": "The new apartment building uses the latest seismic design.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,54 @@
       "id": "24940_taishinsekkei_ex3",
       "japanese": "{日本|にほん}では{大|おお}きな{地震|じしん}が{多|おお}いため、{耐震設計|たいしんせっけい}の{基準|きじゅん}が{世界|せかい}でも{特|とく}に{厳|きび}しい。",
       "english": "Because Japan experiences many large earthquakes, its seismic design standards are among the strictest in the world.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {耐震|たいしん} (earthquake resistance) and {設計|せっけい} (design; engineering). A fundamental concept in Japanese architecture and construction, especially after major earthquakes like the 1995 Hanshin-Awaji and 2011 Tohoku disasters prompted stricter building codes.\n\nCOMMON COLLOCATIONS:\n- {耐震設計|たいしんせっけい}の{基準|きじゅん}: seismic design standards\n- {耐震設計|たいしんせっけい}を{採用|さいよう}する: to adopt seismic design\n- {耐震設計|たいしんせっけい}の{建物|たてもの}: earthquake-resistant building\n- {最新|さいしん}の{耐震設計|たいしんせっけい}: state-of-the-art seismic design\n\nRELATED TERMS:\n- {耐震|たいしん}: earthquake resistance (the broader concept)\n- {免震|めんしん}: seismic isolation (absorbs vibration rather than resisting it)\n- {制震|せいしん}: vibration damping (reduces shaking with dampers)\n- {耐震補強|たいしんほきょう}: seismic retrofitting",
+  "notes": "Compound of {耐震|たいしん} (earthquake resistance) and {設計|せっけい} (design; engineering). A fundamental concept in Japanese architecture and construction, especially after major earthquakes like the 1995 Hanshin-Awaji and 2011 Tohoku disasters prompted stricter building codes.\n\nCOMMON COLLOCATIONS:\n- {耐震設計|たいしんせっけい}の{基準|きじゅん}: seismic design standards\n- {耐震設計|たいしんせっけい}を{採用|さいよう}する: to adopt seismic design\n- {耐震設計|たいしんせっけい}の{建物|たてもの}: earthquake-resistant building\n- {最新|さいしん}の{耐震設計|たいしんせっけい}: state-of-the-art seismic design\n\nRELATED WORDS:\n- {耐震|たいしん}: earthquake resistance (the broader concept)\n- {免震|めんしん}: seismic isolation (absorbs vibration rather than resisting it)\n- {制震|せいしん}: vibration damping (reduces shaking with dampers)\n- {耐震補強|たいしんほきょう}: seismic retrofitting",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20985_menshin",
+      "reading": "めんしん",
+      "headword": "{免震|めんしん}",
+      "label": "seismic isolation"
+    },
+    {
+      "type": "related",
+      "target_id": "29390_seishin",
+      "reading": "せいしん",
+      "headword": "{制震|せいしん}",
+      "label": "vibration damping"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24959_taishinkyoudo",
+      "reading": "たいしんきょうど",
+      "headword": "{耐震強度|たいしんきょうど}",
+      "label": "seismic strength"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"],
-      "domain": ["technical"]
+      "semantic": [
+        "building"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-04-21T14:17:32Z",
-    "modified": "2026-04-21T14:17:32Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

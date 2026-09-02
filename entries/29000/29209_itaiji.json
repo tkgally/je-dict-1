@@ -18,7 +18,9 @@
       "id": "29209_itaiji_ex1",
       "japanese": "{峯|みね}は{峰|みね}の{異体字|いたいじ}だ。",
       "english": "峯 is a variant form of 峰.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -26,7 +28,9 @@
       "id": "29209_itaiji_ex2",
       "japanese": "{人名|じんめい}に{使|つか}われる{異体字|いたいじ}は{辞書|じしょ}に{載|の}っていないことが{多|おお}い。",
       "english": "Variant characters used in personal names often don't appear in dictionaries.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -34,21 +38,43 @@
       "id": "29209_itaiji_ex3",
       "japanese": "{古文書|こもんじょ}には{現代|げんだい}の{標準字体|ひょうじゅんじたい}とは{異|こと}なる{異体字|いたいじ}が{多|おお}く{含|ふく}まれている。",
       "english": "Old documents contain many variant characters that differ from modern standard forms.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "SIMILAR WORDS:\n- {旧字体|きゅうじたい}: old character form — the pre-1949 standard forms (e.g., {國|くに} for 国); a category of historical standard rather than variant\n- {略字|りゃくじ}: simplified character — informal shorthand used in handwriting\n- {異体字|いたいじ}: variant — a recognized alternate form, neither the modern standard nor purely informal\n\nUSAGE:\nCommonly encountered when reading historical documents, Japanese personal names (人名用漢字 includes many), and place names. Digitally, may require special fonts or character selectors to display correctly.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27161_kyuujitai",
+      "reading": "きゅうじたい",
+      "headword": "{旧字体|きゅうじたい}",
+      "label": "old character form"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24448_seiji",
+      "reading": "せいじ",
+      "headword": "{正字|せいじ}",
+      "label": "standard character form"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["language"]
+      "semantic": [
+        "language"
+      ]
     },
     "created": "2026-06-13T03:42:20Z",
-    "modified": "2026-06-13T03:42:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

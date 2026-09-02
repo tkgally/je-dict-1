@@ -17,7 +17,9 @@
       "id": "30104_jouyoku_ex1",
       "japanese": "{情欲|じょうよく}を{抑|おさ}える。",
       "english": "To restrain one's desires.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30104_jouyoku_ex2",
       "japanese": "{情欲|じょうよく}に{溺|おぼ}れてはいけない。",
       "english": "One must not be consumed by lust.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,59 @@
       "id": "30104_jouyoku_ex3",
       "japanese": "その{小説|しょうせつ}は{登場|とうじょう}{人物|じんぶつ}の{情欲|じょうよく}と{葛藤|かっとう}を{描|えが}いている。",
       "english": "The novel depicts the characters' desires and inner conflicts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A formal, literary word for strong physical or sexual desire. It carries a weightier, more moralizing tone than the plain {欲望|よくぼう}, and often appears in literature or in discussions of ethics and self-control.\n\nCOMMON COLLOCATIONS:\n- {情欲|じょうよく}に{駆|か}られる: to be driven by desire\n- {情欲|じょうよく}を{抑|おさ}える: to hold one's desires in check\n\nSIMILAR WORDS:\n- {欲望|よくぼう}: desire — broader, any strong want, not necessarily sexual\n- {性欲|せいよく}: sexual desire — the plainer, more clinical term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05086_yokubou",
+      "reading": "よくぼう",
+      "headword": "{欲望|よくぼう}",
+      "label": "desire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23807_seiyoku",
+      "reading": "せいよく",
+      "headword": "{性欲|せいよく}",
+      "label": "sexual desire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24027_aiyoku",
+      "reading": "あいよく",
+      "headword": "{愛欲|あいよく}",
+      "label": "lust"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24906_shikijou",
+      "reading": "しきじょう",
+      "headword": "{色情|しきじょう}",
+      "label": "lust"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["emotion"],
+      "politeness": "plain",
+      "semantic": [
+        "emotion"
+      ],
       "domain": []
     },
     "created": "2026-07-25T03:20:29Z",
-    "modified": "2026-07-25T03:20:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

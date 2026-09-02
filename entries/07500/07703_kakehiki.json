@@ -2,7 +2,7 @@
   "id": "07703_kakehiki",
   "headword": "{駆|か}け{引|ひ}き",
   "reading": "かけひき",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "bargaining; tactics; maneuvering",
   "conjugation": {
     "type": "suru",
@@ -168,10 +168,33 @@
       "notes": null
     }
   ],
-  "notes": "ETYMOLOGY:\n{駆|か}け (running, racing) + {引|ひ}き (pulling) - from the military tactics of advancing and retreating\n\nUSAGE:\nCan describe:\n・Business/political negotiations\n・Relationship dynamics (romantic or otherwise)\n・Strategic games between parties\n\nCOLLOCATIONS:\n・{駆|か}け{引|ひ}きをする - to bargain, to maneuver\n・{駆|か}け{引|ひ}きが{上手|うま}い - good at negotiating/maneuvering\n・{恋愛|れんあい}の{駆|か}け{引|ひ}き - romantic games/tactics\n\nRELATED:\n・{交渉|こうしょう} - negotiation\n・{取|と}り{引|ひ}き - dealing, transaction\n・{策略|さくりゃく} - strategy, scheme",
+  "notes": "ETYMOLOGY:\n{駆|か}け (running, racing) + {引|ひ}き (pulling) - from the military tactics of advancing and retreating\n\nUSAGE:\nCan describe:\n- Business/political negotiations\n- Relationship dynamics (romantic or otherwise)\n- Strategic games between parties\n\nCOMMON COLLOCATIONS:\n- {駆|か}け{引|ひ}きをする - to bargain, to maneuver\n- {駆|か}け{引|ひ}きが{上手|うま}い - good at negotiating/maneuvering\n- {恋愛|れんあい}の{駆|か}け{引|ひ}き - romantic games/tactics\n\nRELATED WORDS:\n- {交渉|こうしょう} - negotiation\n- {取|と}り{引|ひ}き - dealing, transaction\n- {策略|さくりゃく} - strategy, scheme",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02727_koushou",
+      "reading": "こうしょう",
+      "headword": "{交渉|こうしょう}",
+      "label": "negotiation"
+    },
+    {
+      "type": "related",
+      "target_id": "13785_sakuryaku",
+      "reading": "さくりゃく",
+      "headword": "{策略|さくりゃく}",
+      "label": "strategy, scheme"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20875_shinrisen",
+      "reading": "しんりせん",
+      "headword": "{心理戦|しんりせん}",
+      "label": "psychological warfare, mind games"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -180,6 +203,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "communication",
         "cognition"

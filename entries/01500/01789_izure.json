@@ -2,7 +2,7 @@
   "id": "01789_izure",
   "headword": "いずれ",
   "reading": "いずれ",
-  "part_of_speech": "adverb/pronoun",
+  "part_of_speech": "adverb, pronoun",
   "gloss": "someday, eventually, which",
   "definitions": [
     {
@@ -173,7 +173,7 @@
       ]
     }
   ],
-  "notes": "いずれ functions as both an adverb (someday) and a pronoun (which/either). It has a slightly formal or literary tone.\n\nAS ADVERB (someday):\n- いずれ⟦{分|わ}かる→分かる：00463_wakaru⟧: you'll understand eventually\n- いずれ⟦また→また：00969_mata⟧: again someday\n- いずれ⟦{近|ちか}い→近い：00530_chikai⟧⟦うち→うち：01328_uchi⟧⟦に→に：00314_ni⟧: sometime soon\n\nAS PRONOUN (which/either):\n- ⟦いずれも→いずれも：16830_izuremo⟧: both, all of them\n- ⟦いずれか→いずれか：22057_izureka⟧: one of them, either\n\nFIXED EXPRESSIONS:\n- いずれ⟦に→に：00314_ni⟧⟦して→する：00392_suru⟧⟦も→も：00484_mo⟧: in any case, either way\n- いずれ⟦に→に：00314_ni⟧⟦せよ→する：00392_suru⟧: in any case (slightly more formal)\n- いずれ⟦に→に：00314_ni⟧⟦しろ→する：00392_suru⟧: either way (slightly casual)\n\nWRITING:\nUsually written in hiragana. Can also appear as {何|いず}れ in formal writing.\n\nREGISTER:\nMore formal than ⟦そのうち→そのうち：00380_sonouchi⟧ (someday, casual) or ⟦どれ→どれ：00547_dore⟧ (which one, everyday).",
+  "notes": "いずれ functions as both an adverb (someday) and a pronoun (which/either). It has a slightly formal or literary tone.\n\nAS ADVERB (someday):\n- いずれ⟦{分|わ}かる→分かる：00463_wakaru⟧: you'll understand eventually\n- いずれ⟦また→また：00969_mata⟧: again someday\n- いずれ⟦{近|ちか}い→近い：00530_chikai⟧⟦うち→うち：01328_uchi⟧⟦に→に：00314_ni⟧: sometime soon\n\nAS PRONOUN (which/either):\n- ⟦いずれも→いずれも：16830_izuremo⟧: both, all of them\n- ⟦いずれか→いずれか：22057_izureka⟧: one of them, either\n\nCOMMON EXPRESSIONS:\n- いずれ⟦に→に：00314_ni⟧⟦して→する：00392_suru⟧⟦も→も：00484_mo⟧: in any case, either way\n- いずれ⟦に→に：00314_ni⟧⟦せよ→する：00392_suru⟧: in any case (slightly more formal)\n- いずれ⟦に→に：00314_ni⟧⟦しろ→する：00392_suru⟧: either way (slightly casual)\n\nWRITING:\nUsually written in hiragana. Can also appear as {何|いず}れ in formal writing.\n\nREGISTER:\nMore formal than ⟦そのうち→そのうち：00380_sonouchi⟧ (someday, casual) or ⟦どれ→どれ：00547_dore⟧ (which one, everyday).",
   "prominent_see_also": [
     {
       "target_id": "16830_izuremo",
@@ -182,10 +182,39 @@
       "note": "all, each one"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00380_sonouchi",
+      "reading": "そのうち",
+      "headword": "そのうち",
+      "label": "before long, eventually, sooner or later"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01827_imani",
+      "reading": "いまに",
+      "headword": "{今|いま}に",
+      "label": "before long, soon, eventually"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12992_souban",
+      "reading": "そうばん",
+      "headword": "{早晩|そうばん}",
+      "label": "sooner or later"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18540_osokarehayakare",
+      "reading": "おそかれはやかれ",
+      "headword": "{遅|おそ}かれ{早|はや}かれ",
+      "label": "sooner or later"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:15:00Z",
-    "modified": "2026-05-16T23:14:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

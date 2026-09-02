@@ -18,7 +18,9 @@
       "english": "To submit a change of address notification.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10284_tenkyotodoke_ex2",
@@ -26,7 +28,9 @@
       "english": "Don't forget to submit a change of address notification after moving.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10284_tenkyotodoke_ex3",
@@ -34,10 +38,12 @@
       "english": "The change of address notification must be submitted to the municipal office within fourteen days before or after moving.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMPONENTS: {転居|てんきょ} (change of residence) + {届|とどけ} (notification/report).\n\nWhen moving within the same municipality, you submit a {転居届|てんきょとどけ}. When moving to a different municipality, the process involves a {転出届|てんしゅつとどけ} (moving-out notice) at the old address and a {転入届|てんにゅうとどけ} (moving-in notice) at the new address.\n\nRELATED TERMS:\n- {転出届|てんしゅつとどけ} — moving-out notification\n- {転入届|てんにゅうとどけ} — moving-in notification\n- {住民票|じゅうみんひょう} — resident certificate\n- {市区町村|しくちょうそん}{役場|やくば} — municipal office",
+  "notes": "COMPONENTS: {転居|てんきょ} (change of residence) + {届|とどけ} (notification/report).\n\nWhen moving within the same municipality, you submit a {転居届|てんきょとどけ}. When moving to a different municipality, the process involves a {転出届|てんしゅつとどけ} (moving-out notice) at the old address and a {転入届|てんにゅうとどけ} (moving-in notice) at the new address.\n\nRELATED WORDS:\n- {転出届|てんしゅつとどけ} — moving-out notification\n- {転入届|てんにゅうとどけ} — moving-in notification\n- {住民票|じゅうみんひょう} — resident certificate\n- {市区町村|しくちょうそん}{役場|やくば} — municipal office",
   "cross_references": [
     {
       "type": "related",
@@ -45,17 +51,42 @@
       "reading": "ひっこし",
       "headword": "{引越|ひっこ}し",
       "label": "moving (house)"
+    },
+    {
+      "type": "related",
+      "target_id": "09810_tenshutsutodoke",
+      "reading": "てんしゅつとどけ",
+      "headword": "{転出届|てんしゅつとどけ}",
+      "label": "moving-out notification"
+    },
+    {
+      "type": "related",
+      "target_id": "09811_tennyuutodoke",
+      "reading": "てんにゅうとどけ",
+      "headword": "{転入届|てんにゅうとどけ}",
+      "label": "moving-in notification"
+    },
+    {
+      "type": "related",
+      "target_id": "09628_juuminhyou",
+      "reading": "じゅうみんひょう",
+      "headword": "{住民票|じゅうみんひょう}",
+      "label": "resident certificate"
     }
   ],
   "metadata": {
     "created": "2026-02-05T18:09:18Z",
-    "modified": "2026-04-24T06:24:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["administrative"]
+      "semantic": [
+        "administrative"
+      ]
     }
   }
 }

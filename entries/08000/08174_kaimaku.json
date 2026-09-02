@@ -2,7 +2,7 @@
   "id": "08174_kaimaku",
   "headword": "{開幕|かいまく}",
   "reading": "かいまく",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "opening; beginning (of show/season)",
   "conjugation": {
     "type": "suru",
@@ -188,13 +188,48 @@
       "notes": null
     }
   ],
-  "notes": "{開幕|かいまく} literally means 'opening the curtain' ({開|かい} open + {幕|まく} curtain). Originally a theater term, it now commonly refers to the start of sports seasons and major events.\n\nUSAGE:\nUsed as a suru-verb: {開幕|かいまく}する (to open, to begin). The subject is typically an event or season, not a person.\n\nCOMMON COLLOCATIONS:\n- {開幕|かいまく}{戦|せん} (opening game)\n- {開幕|かいまく}{投手|とうしゅ} (opening day pitcher)\n- シーズン{開幕|かいまく} (season opener)\n- {開幕|かいまく}ダッシュ (strong start to a season)\n- {開幕|かいまく}を{飾|かざ}る (to mark the opening)\n\nCONTRAST:\n- {閉幕|へいまく}: closing (opposite)\n- {開会|かいかい}: opening of a meeting or ceremony (more formal, official)\n- {開始|かいし}: start, beginning (general-purpose)",
+  "notes": "{開幕|かいまく} literally means 'opening the curtain' ({開|かい} open + {幕|まく} curtain). Originally a theater term, it now commonly refers to the start of sports seasons and major events.\n\nUSAGE:\nUsed as a suru-verb: {開幕|かいまく}する (to open, to begin). The subject is typically an event or season, not a person.\n\nCOMMON COLLOCATIONS:\n- {開幕|かいまく}{戦|せん} (opening game)\n- {開幕|かいまく}{投手|とうしゅ} (opening day pitcher)\n- シーズン{開幕|かいまく} (season opener)\n- {開幕|かいまく}ダッシュ (strong start to a season)\n- {開幕|かいまく}を{飾|かざ}る (to mark the opening)\n\nSIMILAR WORDS:\n- {閉幕|へいまく}: closing (opposite)\n- {開会|かいかい}: opening of a meeting or ceremony (more formal, official)\n- {開始|かいし}: start, beginning (general-purpose)",
   "cross_references": [
     {
       "type": "antonym",
       "reading": "へいまく",
       "headword": "{閉幕|へいまく}",
       "target_id": "08175_heimaku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04118_kaikai",
+      "reading": "かいかい",
+      "headword": "{開会|かいかい}",
+      "label": "opening of a meeting or ceremony"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02537_kaishi",
+      "reading": "かいし",
+      "headword": "{開始|かいし}",
+      "label": "start, beginning"
+    },
+    {
+      "type": "antonym",
+      "target_id": "20006_shuumaku",
+      "reading": "しゅうまく",
+      "headword": "{終幕|しゅうまく}",
+      "label": "final act"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23500_kaien",
+      "reading": "かいえん",
+      "headword": "{開演|かいえん}",
+      "label": "start of a performance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23975_makugaagaru",
+      "reading": "まくがあがる",
+      "headword": "{幕|まく}が{上|あ}がる",
+      "label": "the curtain rises"
     }
   ],
   "metadata": {
@@ -205,6 +240,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "events",
         "sports",
@@ -213,6 +249,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-25T07:33:27Z",
-    "modified": "2026-03-31T01:51:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "27473_uwadana_ex1",
       "japanese": "{上棚|うわだな}に{荷物|にもつ}を{置|お}いた。",
       "english": "I put my luggage on the upper shelf.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27473_uwadana_ex2",
       "japanese": "{上棚|うわだな}の{箱|はこ}は{重|おも}くて{取|と}れない。",
       "english": "The box on the top shelf is too heavy to take down.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "27473_uwadana_ex3",
       "japanese": "{電車|でんしゃ}の{上棚|うわだな}にカバンを{忘|わす}れてしまった。",
       "english": "I left my bag on the overhead rack of the train.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {上|うわ} (upper) + {棚|たな} (shelf), with {棚|たな} voicing to だな in compounds.\n\nCOMMON COLLOCATIONS:\n- {上棚|うわだな}に{置|お}く: to place on the upper shelf\n- {上棚|うわだな}から{取|と}る: to take down from the upper shelf\n- {電車|でんしゃ}の{上棚|うわだな}: overhead rack on a train\n\nSIMILAR WORDS:\n- {下棚|したな}: lower shelf — the opposite position\n- {網棚|あみだな}: overhead luggage rack (specifically the mesh rack on trains) — more specific than {上棚|うわだな}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10195_amidana",
+      "reading": "あみだな",
+      "headword": "{網棚|あみだな}",
+      "label": "overhead luggage rack"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["daily-life"],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life"
+      ],
       "domain": []
     },
     "created": "2026-05-12T23:49:57Z",
-    "modified": "2026-05-12T23:49:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

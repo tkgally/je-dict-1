@@ -17,7 +17,9 @@
       "id": "23462_manseibyou_ex1",
       "japanese": "{慢性病|まんせいびょう}の{治療|ちりょう}を{続|つづ}ける。",
       "english": "To continue treatment for a chronic illness.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23462_manseibyou_ex2",
       "japanese": "{糖尿病|とうにょうびょう}は{代表的|だいひょうてき}な{慢性病|まんせいびょう}の{一|ひと}つだ。",
       "english": "Diabetes is one of the most typical chronic diseases.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "23462_manseibyou_ex3",
       "japanese": "{高齢化|こうれいか}に{伴|ともな}い、{慢性病|まんせいびょう}を{抱|かか}える{患者|かんじゃ}が{増|ふ}えている。",
       "english": "With the aging population, the number of patients suffering from chronic illnesses is increasing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {慢性|まんせい} (chronic) and {病|びょう} (illness, disease). Describes any medical condition that develops slowly and persists for months or years, requiring ongoing management rather than a one-time cure.\n\nCOMMON COLLOCATIONS:\n- {慢性病|まんせいびょう}を{抱|かか}える: to suffer from a chronic illness\n- {慢性病|まんせいびょう}の{予防|よぼう}: prevention of chronic disease\n- {慢性病|まんせいびょう}の{治療|ちりょう}: treatment of chronic illness\n- {慢性病|まんせいびょう}と{付|つ}き{合|あ}う: to live with a chronic illness\n\nSIMILAR WORDS:\n- {慢性疾患|まんせいしっかん}: chronic disease — a more formal and medical term; {慢性病|まんせいびょう} is more accessible to general audiences\n- {持病|じびょう}: chronic condition, ongoing ailment — refers specifically to a condition someone has been living with; more personal and less clinical\n- {生活習慣病|せいかつしゅうかんびょう}: lifestyle disease — a subset of chronic diseases caused by lifestyle factors such as diet and exercise\n\nCULTURAL NOTE:\nJapan's universal health insurance system ({国民健康保険|こくみんけんこうほけん}) provides coverage for chronic illness management, making regular treatment accessible. Annual health checkups ({健康診断|けんこうしんだん}) are widely practiced to detect chronic conditions early.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07280_jibyou",
+      "reading": "じびょう",
+      "headword": "{持病|じびょう}",
+      "label": "chronic condition, ongoing ailment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08620_seikatsushuukanbyou",
+      "reading": "せいかつしゅうかんびょう",
+      "headword": "{生活習慣病|せいかつしゅうかんびょう}",
+      "label": "lifestyle disease"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["health"]
+      "semantic": [
+        "health"
+      ]
     },
     "created": "2026-04-12T07:42:55Z",
-    "modified": "2026-04-12T07:42:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

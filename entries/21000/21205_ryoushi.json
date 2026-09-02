@@ -17,7 +17,9 @@
       "id": "21205_ryoushi_ex1",
       "japanese": "{漁師|りょうし}が{網|あみ}を{引|ひ}く。",
       "english": "The fisherman pulls in the net.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21205_ryoushi_ex2",
       "japanese": "{父|ちち}は{代々|だいだい}{漁師|りょうし}の{家|いえ}に{生|う}まれた。",
       "english": "My father was born into a family of fishermen going back generations.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "21205_ryoushi_ex3",
       "japanese": "{漁師|りょうし}たちは{早朝|そうちょう}に{港|みなと}を{出|で}て、{夕方|ゆうがた}に{新鮮|しんせん}な{魚|さかな}を{持|も}ち{帰|かえ}る。",
       "english": "The fishermen leave the port early in the morning and bring back fresh fish in the evening.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The standard word for a professional fisherman. Composed of {漁|りょう} (fishing) + {師|し} (master/professional), indicating a skilled occupation.\n\nCOMMON COLLOCATIONS:\n- {漁師|りょうし}の{町|まち}: fishing town\n- {漁師|りょうし}{料理|りょうり}: fisherman's cuisine (simple, fresh seafood dishes)\n- {漁師|りょうし}{小屋|ごや}: fisherman's hut\n- {漁師|りょうし}になる: to become a fisherman\n\nSIMILAR WORDS:\n- {猟師|りょうし}: hunter — same reading but different kanji ({猟|りょう} means hunting); distinguished by context\n- {漁民|ぎょみん}: fishing people — a more collective or formal term\n- {釣|つ}り{人|びと}: angler — specifically someone who fishes with a rod, often recreationally\n\nNOTE:\nBe careful not to confuse {漁師|りょうし} (fisherman) with the homophone {猟師|りょうし} (hunter). The kanji makes the distinction clear in writing.",
+  "notes": "The standard word for a professional fisherman. Composed of {漁|りょう} (fishing) + {師|し} (master/professional), indicating a skilled occupation.\n\nCOMMON COLLOCATIONS:\n- {漁師|りょうし}の{町|まち}: fishing town\n- {漁師|りょうし}{料理|りょうり}: fisherman's cuisine (simple, fresh seafood dishes)\n- {漁師|りょうし}{小屋|ごや}: fisherman's hut\n- {漁師|りょうし}になる: to become a fisherman\n\nSIMILAR WORDS:\n- {猟師|りょうし}: hunter — same reading but different kanji ({猟|りょう} means hunting); distinguished by context\n- {漁民|ぎょみん}: fishing people — a more collective or formal term\n- {釣|つ}り{人|びと}: angler — specifically someone who fishes with a rod, often recreationally\n\nUSAGE:\nBe careful not to confuse {漁師|りょうし} (fisherman) with the homophone {猟師|りょうし} (hunter). The kanji makes the distinction clear in writing.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "19613_ryoushi",
+      "reading": "りょうし",
+      "headword": "{猟師|りょうし}",
+      "label": "hunter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27614_tsuribito",
+      "reading": "つりびと",
+      "headword": "{釣|つ}り{人|びと}",
+      "label": "angler"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "occupation"]
+      "semantic": [
+        "person",
+        "occupation"
+      ]
     },
     "created": "2026-04-01T14:16:10Z",
-    "modified": "2026-04-01T14:16:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

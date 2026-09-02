@@ -17,7 +17,9 @@
       "id": "23737_sukuranburueggu_ex1",
       "japanese": "{朝食|ちょうしょく}にスクランブルエッグを{食|た}べた。",
       "english": "I had scrambled eggs for breakfast.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23737_sukuranburueggu_ex2",
       "japanese": "{牛乳|ぎゅうにゅう}を{入|い}れるとスクランブルエッグがふわふわになる。",
       "english": "Adding milk makes the scrambled eggs fluffy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,59 @@
       "id": "23737_sukuranburueggu_ex3",
       "japanese": "トーストとベーコンとスクランブルエッグがセットになった{洋風|ようふう}の{朝食|ちょうしょく}が{好|す}きだ。",
       "english": "I like Western-style breakfasts that come with toast, bacon, and scrambled eggs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A Western-style egg dish that has become a familiar part of breakfast menus in cafes, hotels, and family restaurants in Japan. Commonly abbreviated in menus and recipes.\n\nCOMMON COLLOCATIONS:\n- スクランブルエッグを{作|つく}る: to make scrambled eggs\n- ふわふわのスクランブルエッグ: fluffy scrambled eggs\n- スクランブルエッグを{添|そ}える: to serve with scrambled eggs on the side\n- バター{風味|ふうみ}のスクランブルエッグ: buttery scrambled eggs\n\nSIMILAR WORDS:\n- {卵焼|たまごや}き: Japanese-style rolled omelet — sweet or savory, cooked in a rectangular pan; a traditional Japanese dish distinct from スクランブルエッグ\n- オムレツ: omelet — eggs cooked into a folded or rolled shape, often with fillings\n- {目玉焼|めだまや}き: sunny-side up fried egg — a whole egg fried without stirring\n- いり{卵|たまご}: Japanese-style scrambled/stirred eggs — finer and drier than スクランブルエッグ, often used in donburi and bento\n\nCULTURAL NOTE:\nAlthough スクランブルエッグ has become popular, いり{卵|たまご} (finely stirred eggs) and {卵焼|たまごや}き remain the more traditional Japanese preparations of cooked egg."
-  ,
+  "notes": "A Western-style egg dish that has become a familiar part of breakfast menus in cafes, hotels, and family restaurants in Japan. Commonly abbreviated in menus and recipes.\n\nCOMMON COLLOCATIONS:\n- スクランブルエッグを{作|つく}る: to make scrambled eggs\n- ふわふわのスクランブルエッグ: fluffy scrambled eggs\n- スクランブルエッグを{添|そ}える: to serve with scrambled eggs on the side\n- バター{風味|ふうみ}のスクランブルエッグ: buttery scrambled eggs\n\nSIMILAR WORDS:\n- {卵焼|たまごや}き: Japanese-style rolled omelet — sweet or savory, cooked in a rectangular pan; a traditional Japanese dish distinct from スクランブルエッグ\n- オムレツ: omelet — eggs cooked into a folded or rolled shape, often with fillings\n- {目玉焼|めだまや}き: sunny-side up fried egg — a whole egg fried without stirring\n- いり{卵|たまご}: Japanese-style scrambled/stirred eggs — finer and drier than スクランブルエッグ, often used in donburi and bento\n\nCULTURAL NOTE:\nAlthough スクランブルエッグ has become popular, いり{卵|たまご} (finely stirred eggs) and {卵焼|たまごや}き remain the more traditional Japanese preparations of cooked egg.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10367_tamagoyaki",
+      "reading": "たまごやき",
+      "headword": "{卵焼|たまごや}き",
+      "label": "Japanese-style rolled omelet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10807_omuretsu",
+      "reading": "おむれつ",
+      "headword": "オムレツ",
+      "label": "omelet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14946_medamayaki",
+      "reading": "めだまやき",
+      "headword": "{目玉焼|めだまや}き",
+      "label": "sunny-side up fried egg"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26099_iritamago",
+      "reading": "いりたまご",
+      "headword": "{炒|い}り{卵|たまご}",
+      "label": "scrambled eggs (Japanese-style)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "cooking"]
+      "semantic": [
+        "food",
+        "cooking"
+      ]
     },
     "created": "2026-04-14T17:07:04Z",
-    "modified": "2026-04-14T17:07:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

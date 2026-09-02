@@ -17,7 +17,9 @@
       "id": "27977_tsubo_ex1",
       "japanese": "この{土地|とち}は{五十坪|ごじゅっつぼ}ある。",
       "english": "This plot of land is fifty tsubo.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27977_tsubo_ex2",
       "japanese": "マンションの{広|ひろ}さは{約|やく}{二十坪|にじゅっつぼ}です。",
       "english": "The apartment is about twenty tsubo in size.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "27977_tsubo_ex3",
       "japanese": "{一坪|ひとつぼ}は{畳|たたみ}{二枚分|にまいぶん}の{広|ひろ}さに{相当|そうとう}する。",
       "english": "One tsubo is equivalent to the area of two tatami mats.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Used mainly for floor space and land area in real estate. One {坪|つぼ} ≈ 3.3 m².\n\nCOUNTING PATTERN:\n- 1: {一坪|ひとつぼ}\n- 2: {二坪|ふたつぼ}\n- 3: {三坪|さんつぼ}\n- 4: {四坪|よんつぼ}\n- 5: {五坪|ごつぼ}\n- 10: {十坪|じゅっつぼ}\n\nThe first three use native readings ({一|ひと}/{二|ふた}/{三|さん}); from four up, the Sino-Japanese numbers are used. 8 and 10 commonly take a small っ ({八坪|はっつぼ}, {十坪|じゅっつぼ}).",
+  "notes": "Used mainly for floor space and land area in real estate. One {坪|つぼ} ≈ 3.3 m².\n\nCOUNTING PATTERNS:\n- 1: {一坪|ひとつぼ}\n- 2: {二坪|ふたつぼ}\n- 3: {三坪|さんつぼ}\n- 4: {四坪|よんつぼ}\n- 5: {五坪|ごつぼ}\n- 10: {十坪|じゅっつぼ}\n\nThe first three use native readings ({一|ひと}/{二|ふた}/{三|さん}); from four up, the Sino-Japanese numbers are used. 8 and 10 commonly take a small っ ({八坪|はっつぼ}, {十坪|じゅっつぼ}).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28824_hekutaaru",
+      "reading": "へくたーる",
+      "headword": "ヘクタール",
+      "label": "hectare (unit of area)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["counter"],
+      "pos": [
+        "counter"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["number"],
+      "politeness": "plain",
+      "semantic": [
+        "number"
+      ],
       "domain": []
     },
     "created": "2026-05-24T02:02:35Z",
-    "modified": "2026-05-24T02:02:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "11537_baizou",
   "headword": "{倍増|ばいぞう}",
   "reading": "ばいぞう",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "doubling, sharp increase",
   "conjugation": {
     "type": "suru",
@@ -133,11 +133,33 @@
       ]
     }
   ],
-  "notes": "Composed of {倍|ばい} (double, times) + {増|ぞう} (increase). Strictly means \"doubling,\" but sometimes used loosely for any dramatic increase.\n\nTRANSITIVITY:\n- {倍増|ばいぞう}する: to double (intransitive — something doubles on its own)\n- {倍増|ばいぞう}させる: to double something (transitive/causative)\n\nCOMMON COLLOCATIONS:\n- {売上|うりあげ}が{倍増|ばいぞう}する: sales double\n- {予算|よさん}を{倍増|ばいぞう}させる: to double the budget\n- {生産量|せいさんりょう}の{倍増|ばいぞう}: doubling of production\n- {防衛費|ぼうえいひ}の{倍増|ばいぞう}: doubling defense spending\n\nRELATED:\n- {倍|ばい}: double, times (e.g., ２{倍|ばい} = twice)\n- {増加|ぞうか}: increase (general term)\n- {急増|きゅうぞう}: sharp/sudden increase\n- {半減|はんげん}: halving (opposite pattern)",
-  "cross_references": [],
+  "notes": "Composed of {倍|ばい} (double, times) + {増|ぞう} (increase). Strictly means \"doubling,\" but sometimes used loosely for any dramatic increase.\n\nTRANSITIVITY:\n- {倍増|ばいぞう}する: to double (intransitive — something doubles on its own)\n- {倍増|ばいぞう}させる: to double something (transitive/causative)\n\nCOMMON COLLOCATIONS:\n- {売上|うりあげ}が{倍増|ばいぞう}する: sales double\n- {予算|よさん}を{倍増|ばいぞう}させる: to double the budget\n- {生産量|せいさんりょう}の{倍増|ばいぞう}: doubling of production\n- {防衛費|ぼうえいひ}の{倍増|ばいぞう}: doubling defense spending\n\nRELATED WORDS:\n- {倍|ばい}: double, times (e.g., ２{倍|ばい} = twice)\n- {増加|ぞうか}: increase (general term)\n- {急増|きゅうぞう}: sharp/sudden increase\n- {半減|はんげん}: halving (opposite pattern)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03329_zouka",
+      "reading": "ぞうか",
+      "headword": "{増加|ぞうか}",
+      "label": "increase"
+    },
+    {
+      "type": "related",
+      "target_id": "12671_kyuuzou",
+      "reading": "きゅうぞう",
+      "headword": "{急増|きゅうぞう}",
+      "label": "sharp/sudden increase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01485_nibai",
+      "reading": "にばい",
+      "headword": "{二倍|にばい}",
+      "label": "double, twice"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T02:57:13Z",
-    "modified": "2026-07-01T09:49:53Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

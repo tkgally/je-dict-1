@@ -17,7 +17,9 @@
       "id": "19069_shikikan_ex1",
       "japanese": "{指揮官|しきかん}が{命令|めいれい}を{出|だ}した。",
       "english": "The commander issued an order.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19069_shikikan_ex2",
       "japanese": "{現場|げんば}の{指揮官|しきかん}が{救助|きゅうじょ}{活動|かつどう}を{指揮|しき}した。",
       "english": "The on-site commander directed the rescue operation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "19069_shikikan_ex3",
       "japanese": "{優|すぐ}れた{指揮官|しきかん}は{部下|ぶか}の{信頼|しんらい}を{得|え}ることが{大切|たいせつ}だ。",
       "english": "A good commander must earn the trust of their subordinates.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {指揮|しき} (command/direction) + {官|かん} (officer/official).\n\nCOMMON COLLOCATIONS:\n- {最高|さいこう}{指揮官|しきかん}: supreme commander\n- {現場|げんば}{指揮官|しきかん}: field/on-site commander\n- {指揮官|しきかん}が{命令|めいれい}を{出|だ}す: the commander issues an order\n\nSIMILAR WORDS:\n- {司令官|しれいかん}: commander-in-chief (higher rank, overall command)\n- {隊長|たいちょう}: unit leader, captain (smaller unit)\n- {指揮|しき}{者|しゃ}: director, conductor (also used for orchestra conductors)\n\nUSAGE:\nWhile primarily military, {指揮官|しきかん} is also used in non-military contexts such as disaster response, firefighting, and rescue operations.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20907_shireikan",
+      "reading": "しれいかん",
+      "headword": "{司令官|しれいかん}",
+      "label": "commander-in-chief"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06565_shikisha",
+      "reading": "しきしゃ",
+      "headword": "{指揮者|しきしゃ}",
+      "label": "director, conductor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29850_tousotsusha",
+      "reading": "とうそつしゃ",
+      "headword": "{統率者|とうそつしゃ}",
+      "label": "leader"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["occupation", "person"]
+      "semantic": [
+        "occupation",
+        "person"
+      ]
     },
     "created": "2026-03-24T04:47:02Z",
-    "modified": "2026-03-30T05:29:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -131,18 +131,53 @@
       ]
     }
   ],
-  "notes": "LOANWORD:\nFrom English 'swipe.'\n\nTECH CONTEXT:\nUsed exclusively for touchscreen interactions on smartphones, tablets, etc.\n\nCOMMON PATTERNS:\n・⟦{右|みぎ}→右：02257_migi⟧/⟦{左|ひだり}→左：00628_hidari⟧/⟦{上|うえ}→上：00682_ue⟧/⟦{下|した}→下：00670_shita⟧⟦に→に：00314_ni⟧スワイプ⟦する→する：00392_suru⟧ (swipe right/left/up/down)\n・スワイプ⟦{操作|そうさ}→操作：03316_sousa⟧ (swipe operation)\n\nRELATED TERMS:\n・⟦タップ→タップ：05395_tappu⟧ (tap - single touch)\n・⟦スクロール→スクロール：06183_sukurooru⟧ (scroll - continuous sliding)\n・⟦ピンチ→ピンチ：11143_pinchi⟧ (pinch - zoom gesture)\n\nCULTURAL CONTEXT:\n⟦{右|みぎ}→右：02257_migi⟧スワイプ and ⟦{左|ひだり}→左：00628_hidari⟧スワイプ became culturally significant with dating apps like Tinder, where swiping right indicates interest.",
+  "notes": "LOANWORD:\nFrom English 'swipe.'\n\nTECH CONTEXT:\nUsed exclusively for touchscreen interactions on smartphones, tablets, etc.\n\nCOMMON PATTERNS:\n- ⟦{右|みぎ}→右：02257_migi⟧/⟦{左|ひだり}→左：00628_hidari⟧/⟦{上|うえ}→上：00682_ue⟧/⟦{下|した}→下：00670_shita⟧⟦に→に：00314_ni⟧スワイプ⟦する→する：00392_suru⟧ (swipe right/left/up/down)\n- スワイプ⟦{操作|そうさ}→操作：03316_sousa⟧ (swipe operation)\n\nRELATED WORDS:\n- ⟦タップ→タップ：05395_tappu⟧ (tap - single touch)\n- ⟦スクロール→スクロール：06183_sukurooru⟧ (scroll - continuous sliding)\n- ⟦ピンチ→ピンチ：11143_pinchi⟧ (pinch - zoom gesture)\n\nCULTURAL NOTE:\n⟦{右|みぎ}→右：02257_migi⟧スワイプ and ⟦{左|ひだり}→左：00628_hidari⟧スワイプ became culturally significant with dating apps like Tinder, where swiping right indicates interest.",
   "cross_references": [
     {
       "type": "related",
       "reading": "すくろーる",
       "headword": "スクロール",
       "target_id": "06183_sukurooru"
+    },
+    {
+      "type": "related",
+      "target_id": "05395_tappu",
+      "reading": "たっぷ",
+      "headword": "タップ",
+      "label": "tap"
+    },
+    {
+      "type": "related",
+      "target_id": "11143_pinchi",
+      "reading": "ぴんち",
+      "headword": "ピンチ",
+      "label": "pinch"
+    },
+    {
+      "type": "related",
+      "target_id": "05226_tacchipaneru",
+      "reading": "たっちぱねる",
+      "headword": "タッチパネル",
+      "label": "touch panel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28814_doraggu",
+      "reading": "どらっぐ",
+      "headword": "ドラッグ",
+      "label": "drag (computing)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28889_nagaoshi",
+      "reading": "ながおし",
+      "headword": "{長押|なが}し",
+      "label": "long press (touchscreen/button)"
     }
   ],
   "metadata": {
     "created": "2026-01-17T04:29:29Z",
-    "modified": "2026-06-19T00:19:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

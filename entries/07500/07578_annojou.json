@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{案|あん} (plan, expectation) + の (possessive) + {定|じょう} (fixed, determined)\nLiterally: \"as the expectation was fixed\" → \"just as expected\"\n\nUSAGE NOTES:\nTypically used when a negative or undesirable outcome that was anticipated actually occurs. Less commonly used for positive surprises.\n\nSIMILAR EXPRESSIONS:\n・やはり/やっぱり - as expected (more neutral, can be positive or negative)\n・{思|おも}った{通|とお}り - just as I thought\n・{予想|よそう}{通|どお}り - as predicted\n・{果|は}たして - as expected, sure enough (more literary)\n\nCONTRAST:\n・{意外|いがい}にも - unexpectedly\n・{思|おも}いのほか - more than expected",
+  "notes": "ETYMOLOGY:\n{案|あん} (plan, expectation) + の (possessive) + {定|じょう} (fixed, determined)\nLiterally: \"as the expectation was fixed\" → \"just as expected\"\n\nUSAGE:\nTypically used when a negative or undesirable outcome that was anticipated actually occurs. Less commonly used for positive surprises.\n\nSIMILAR WORDS:\n- やはり/やっぱり - as expected (more neutral, can be positive or negative)\n- {思|おも}った{通|とお}り - just as I thought\n- {予想|よそう}{通|どお}り - as predicted\n- {果|は}たして - as expected, sure enough (more literary)\n- {意外|いがい}にも - unexpectedly\n- {思|おも}いのほか - more than expected",
   "cross_references": [
     {
       "type": "synonym",
@@ -48,11 +48,46 @@
       "reading": "やはり",
       "headword": "やはり",
       "label": "as expected (neutral)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03005_yappari",
+      "reading": "やっぱり",
+      "headword": "やっぱり",
+      "label": "as expected"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16795_yosoudoori",
+      "reading": "よそうどおり",
+      "headword": "{予想通|よそうどお}り",
+      "label": "as predicted"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13099_hatashite",
+      "reading": "はたして",
+      "headword": "{果|は}たして",
+      "label": "as expected, sure enough"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07860_omoinohoka",
+      "reading": "おもいのほか",
+      "headword": "{思|おも}いのほか",
+      "label": "more than expected"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06915_yappa",
+      "reading": "やっぱ",
+      "headword": "やっぱ",
+      "label": "as expected, after all, still"
     }
   ],
   "metadata": {
     "created": "2026-01-20T10:31:31Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +95,7 @@
         "adverb"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "expression",
         "cognition"

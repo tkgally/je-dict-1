@@ -17,7 +17,9 @@
       "id": "26237_shimamoyou_ex1",
       "japanese": "{縞模様|しまもよう}のシャツを{買|か}った。",
       "english": "I bought a striped shirt.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26237_shimamoyou_ex2",
       "japanese": "{青|あお}と{白|しろ}の{縞模様|しまもよう}がきれいだ。",
       "english": "The blue and white stripes are beautiful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "26237_shimamoyou_ex3",
       "japanese": "このネクタイは{細|ほそ}い{縞模様|しまもよう}が{入|はい}っていて、フォーマルな{場面|ばめん}にも{合|あ}う。",
       "english": "This tie has thin stripes and is suitable even for formal occasions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {縞|しま} (stripes) and {模様|もよう} (pattern; design). While {縞|しま} alone can mean stripes, {縞模様|しまもよう} is the full standard form used when describing fabric patterns.\n\nCOMMON COLLOCATIONS:\n- {縞模様|しまもよう}のシャツ: striped shirt\n- {縞模様|しまもよう}のネクタイ: striped tie\n- {縞模様|しまもよう}が{入|はい}る: to have stripes (lit. stripes enter)\n- {横縞|よこじま}{模様|もよう}: horizontal stripes\n- {縦縞|たてじま}{模様|もよう}: vertical stripes\n\nRELATED PATTERN WORDS:\n- {水玉模様|みずたまもよう}: polka-dot pattern\n- {花柄|はながら}: floral pattern\n- {格子模様|こうしもよう}: checkered pattern; plaid\n- {無地|むじ}: solid color; plain (no pattern)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03990_muji",
+      "reading": "むじ",
+      "headword": "{無地|むじ}",
+      "label": "plain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26266_koushimoyou",
+      "reading": "こうしもよう",
+      "headword": "{格子模様|こうしもよう}",
+      "label": "checkered pattern"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30122_koushijima",
+      "reading": "こうしじま",
+      "headword": "{格子縞|こうしじま}",
+      "label": "check pattern"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30129_ichimatsumoyou",
+      "reading": "いちまつもよう",
+      "headword": "{市松模様|いちまつもよう}",
+      "label": "checkerboard pattern"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ]
     },
     "created": "2026-04-30T13:32:21Z",
-    "modified": "2026-04-30T13:32:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

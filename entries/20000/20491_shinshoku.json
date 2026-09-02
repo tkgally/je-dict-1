@@ -17,7 +17,9 @@
       "id": "20491_shinshoku_ex1",
       "japanese": "{神職|しんしょく}が{祝詞|のりと}を{奏上|そうじょう}した。",
       "english": "The Shinto priest recited the ritual prayer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20491_shinshoku_ex2",
       "japanese": "{彼|かれ}は{地元|じもと}の{神社|じんじゃ}で{神職|しんしょく}を{務|つと}めている。",
       "english": "He serves as a Shinto priest at the local shrine.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,53 @@
       "id": "20491_shinshoku_ex3",
       "japanese": "{神職|しんしょく}になるには{大学|だいがく}で{神道|しんとう}を{学|まな}ぶのが{一般的|いっぱんてき}だ。",
       "english": "To become a Shinto priest, it is common to study Shinto at university.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {神|しん} (god, divine) + {職|しょく} (occupation, profession). The general term for Shinto religious professionals at any rank.\n\nCOMMON COLLOCATIONS:\n- {神職|しんしょく}を{務|つと}める: to serve as a Shinto priest\n- {神職|しんしょく}に{就|つ}く: to take up the Shinto priesthood\n- {神職|しんしょく}の{資格|しかく}: qualification as a Shinto priest\n\nSHINTO PRIESTHOOD RANKS:\n- {宮司|ぐうじ}: chief priest — the head priest of a shrine\n- {禰宜|ねぎ}: senior priest — second in rank\n- {権禰宜|ごんねぎ}: associate priest — a junior priest\n- {巫女|みこ}: shrine maiden — a young woman who assists with shrine duties (not technically a {神職|しんしょく})\n\nSIMILAR WORDS:\n- {僧侶|そうりょ}: Buddhist monk/priest — the equivalent for Buddhism\n- {宮司|ぐうじ}: chief priest — specifically the head of a shrine\n- {神主|かんぬし}: shrine priest — a more colloquial term, often used interchangeably with {神職|しんしょく}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11529_souryo",
+      "reading": "そうりょ",
+      "headword": "{僧侶|そうりょ}",
+      "label": "Buddhist monk/priest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12654_guuji",
+      "reading": "ぐうじ",
+      "headword": "{宮司|ぐうじ}",
+      "label": "chief priest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16732_kannushi",
+      "reading": "かんぬし",
+      "headword": "{神主|かんぬし}",
+      "label": "shrine priest"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["religion", "person", "culture"]
+      "semantic": [
+        "religion",
+        "person",
+        "culture"
+      ]
     },
     "created": "2026-03-29T15:25:34Z",
-    "modified": "2026-03-29T15:25:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

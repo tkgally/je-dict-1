@@ -17,7 +17,9 @@
       "id": "29627_fuukasayou_ex1",
       "japanese": "{岩|いわ}が{風化作用|ふうかさよう}で{崩|くず}れる。",
       "english": "Rock crumbles through weathering.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29627_fuukasayou_ex2",
       "japanese": "{風化作用|ふうかさよう}によって{岩石|がんせき}が{砂|すな}になる。",
       "english": "Weathering turns rock into sand.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "29627_fuukasayou_ex3",
       "japanese": "{温度|おんど}{変化|へんか}による{風化作用|ふうかさよう}が{岩|いわ}に{割|わ}れ{目|め}を{作|つく}る。",
       "english": "Weathering from temperature changes creates cracks in the rock.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "USAGE: {風化作用|ふうかさよう} is weathering — the in-place breakdown of rock — combining {風化|ふうか} (weathering) with {作用|さよう} (action). Note that {風化|ふうか} on its own also means figuratively \"to fade from memory.\"\n\nCOMMON COLLOCATIONS:\n- {風化作用|ふうかさよう}を{受|う}ける: to be subject to weathering\n- {物理的|ぶつりてき}{風化作用|ふうかさよう}: physical weathering\n\nSIMILAR WORDS:\n- {侵食作用|しんしょくさよう}: erosion — wears rock away and transports it\n- {風化|ふうか}: weathering; fading — the base noun, also used figuratively",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29626_shinshokusayou",
+      "reading": "しんしょくさよう",
+      "headword": "{侵食作用|しんしょくさよう}",
+      "label": "erosion"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["geography"],
+      "politeness": "plain",
+      "semantic": [
+        "geography"
+      ],
       "domain": []
     },
     "created": "2026-07-01T18:18:59Z",
-    "modified": "2026-07-01T18:18:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

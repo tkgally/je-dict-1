@@ -17,7 +17,9 @@
       "id": "26209_akapiiman_ex1",
       "japanese": "サラダに{赤|あか}ピーマンを{入|い}れた。",
       "english": "I added red bell pepper to the salad.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26209_akapiiman_ex2",
       "japanese": "{赤|あか}ピーマンは{緑|みどり}のピーマンより{甘|あま}い。",
       "english": "Red bell peppers are sweeter than green ones.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26209_akapiiman_ex3",
       "japanese": "{赤|あか}ピーマンと{黄|き}ピーマンを{細切|ほそぎ}りにして{彩|いろど}りよく{炒|いた}めた。",
       "english": "I sliced the red and yellow bell peppers thinly and stir-fried them for a colorful dish.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {赤|あか} (red) and ピーマン (bell pepper, from French \"piment\"). In Japanese supermarkets, the standard green ピーマン is the most common and cheapest variety, while {赤|あか}ピーマン and {黄|き}ピーマン (yellow bell pepper) are often sold at a premium. Note that パプリカ (paprika) refers to the larger, thicker-walled colored bell peppers, while {赤|あか}ピーマン can refer to either a regular-sized red pepper or a paprika.\n\nCOMMON COLLOCATIONS:\n- {赤|あか}ピーマンの{千切|せんぎ}り — julienned red bell pepper\n- {赤|あか}ピーマンを{炒|いた}める — to stir-fry red bell pepper\n- {赤|あか}ピーマンの{肉詰|にくづ}め — stuffed red bell pepper\n\nRELATED TERMS:\n- ピーマン — bell pepper (usually the green variety)\n- パプリカ — paprika; large colored bell pepper\n- {唐辛子|とうがらし} — chili pepper (spicy, not to be confused with bell pepper)",
-  "cross_references": [],
+  "notes": "Composed of {赤|あか} (red) and ピーマン (bell pepper, from French \"piment\"). In Japanese supermarkets, the standard green ピーマン is the most common and cheapest variety, while {赤|あか}ピーマン and {黄|き}ピーマン (yellow bell pepper) are often sold at a premium. Note that パプリカ (paprika) refers to the larger, thicker-walled colored bell peppers, while {赤|あか}ピーマン can refer to either a regular-sized red pepper or a paprika.\n\nCOMMON COLLOCATIONS:\n- {赤|あか}ピーマンの{千切|せんぎ}り — julienned red bell pepper\n- {赤|あか}ピーマンを{炒|いた}める — to stir-fry red bell pepper\n- {赤|あか}ピーマンの{肉詰|にくづ}め — stuffed red bell pepper\n\nRELATED WORDS:\n- ピーマン — bell pepper (usually the green variety)\n- パプリカ — paprika; large colored bell pepper\n- {唐辛子|とうがらし} — chili pepper (spicy, not to be confused with bell pepper)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18170_papurika",
+      "reading": "ぱぷりか",
+      "headword": "パプリカ",
+      "label": "paprika"
+    },
+    {
+      "type": "related",
+      "target_id": "11871_tougarashi",
+      "reading": "とうがらし",
+      "headword": "{唐辛子|とうがらし}",
+      "label": "chili pepper"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food", "plant-general"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "plant-general"
+      ]
     },
     "created": "2026-04-30T11:33:16Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

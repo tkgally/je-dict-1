@@ -209,10 +209,32 @@
     }
   ],
   "notes": "{逆|さか}らう means to go against, oppose, or defy something or someone.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Takes ⟦に→に：00314_ni⟧ particle for what is being opposed\n\nCOMMON PATTERNS:\n- ⟦{親|おや}→親：01357_oya⟧⟦に→に：00314_ni⟧{逆|さか}らう: to disobey one's parents\n- ⟦{上司|じょうし}→上司：03286_joushi⟧⟦に→に：00314_ni⟧{逆|さか}らう: to go against one's boss\n- ⟦{流|なが}れ→流れ：03504_nagare⟧⟦に→に：00314_ni⟧{逆|さか}らう: to go against the current/trend\n- ⟦{運命|うんめい}→運命：06879_unmei⟧⟦に→に：00314_ni⟧{逆|さか}らう: to defy fate\n\nSIMILAR WORDS:\n- ⟦{反対|はんたい}する→反対する：05648_hantaisuru⟧: to oppose (neutral, can be positive)\n- {逆|さか}らう: to defy (often implies defiance of authority)\n- ⟦{背|そむ}く→背く：19577_somuku⟧: to turn one's back on, to betray\n\n{逆|さか}らう often implies defying authority figures or established norms, and can carry a negative connotation.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05648_hantaisuru",
+      "reading": "はんたいする",
+      "headword": "{反対|はんたい}する",
+      "label": "to oppose"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19577_somuku",
+      "reading": "そむく",
+      "headword": "{背|そむ}く",
+      "label": "to turn one's back on, to betray"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25385_hankousuru",
+      "reading": "はんこうする",
+      "headword": "{反抗|はんこう}する",
+      "label": "to rebel"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:31:41Z",
-    "modified": "2026-06-11T18:03:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

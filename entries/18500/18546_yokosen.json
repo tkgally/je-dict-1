@@ -17,7 +17,9 @@
       "id": "18546_yokosen_ex1",
       "japanese": "{横線|よこせん}を{引|ひ}いてください。",
       "english": "Please draw a horizontal line.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18546_yokosen_ex2",
       "japanese": "{定規|じょうぎ}を{使|つか}って{横線|よこせん}を{引|ひ}いた。",
       "english": "I drew a horizontal line using a ruler.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "18546_yokosen_ex3",
       "japanese": "ノートに{横線|よこせん}が{入|はい}っていると{書|か}きやすい。",
       "english": "Notebooks with horizontal lines are easier to write in.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "COMPOUND: {横|よこ} (horizontal) + {線|せん} (line)\n\nCOMMON COLLOCATIONS:\n- {横線|よこせん}を{引|ひ}く: to draw a horizontal line\n- {横線|よこせん}が{入|はい}る: to have horizontal lines (e.g., lined paper)\n- {横線|よこせん}で{消|け}す: to cross out with a horizontal line (strikethrough)\n\nCONTRAST:\n- {縦線|たてせん}: vertical line\n- {斜線|しゃせん}: diagonal line\n\nRELATED:\nIn kanji stroke terminology, horizontal strokes are called {横画|おうかく}. In general use, {横線|よこせん} refers to any visible horizontal line — on paper, screens, forms, or physical surfaces.",
+  "notes": "COMPOUND: {横|よこ} (horizontal) + {線|せん} (line)\n\nCOMMON COLLOCATIONS:\n- {横線|よこせん}を{引|ひ}く: to draw a horizontal line\n- {横線|よこせん}が{入|はい}る: to have horizontal lines (e.g., lined paper)\n- {横線|よこせん}で{消|け}す: to cross out with a horizontal line (strikethrough)\n\nSIMILAR WORDS:\n- {縦線|たてせん}: vertical line\n- {斜線|しゃせん}: diagonal line\n\nRELATED WORDS:\nIn kanji stroke terminology, horizontal strokes are called {横画|おうかく}. In general use, {横線|よこせん} refers to any visible horizontal line — on paper, screens, forms, or physical surfaces.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25122_tatesen",
+      "reading": "たてせん",
+      "headword": "{縦線|たてせん}",
+      "label": "vertical line"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08120_shasen",
+      "reading": "しゃせん",
+      "headword": "{斜線|しゃせん}",
+      "label": "diagonal line"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-03-22T04:47:55Z",
-    "modified": "2026-04-07T03:52:40Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

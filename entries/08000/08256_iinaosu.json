@@ -2,7 +2,7 @@
   "id": "08256_iinaosu",
   "headword": "{言|い}い{直|なお}す",
   "reading": "いいなおす",
-  "part_of_speech": "godan verb (transitive)",
+  "part_of_speech": "verb (godan, transitive)",
   "gloss": "to rephrase; to say again; to correct oneself",
   "conjugation": {
     "type": "godan",
@@ -133,7 +133,30 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY:\nTransitive ({他動詞|たどうし})\n\nCOMPOUND VERB:\n{言|い}う (to say) + {直|なお}す (to redo/fix)\nThe {直|なお}す adds the meaning of doing again or correcting.\n\nUSAGE:\n- {言|い}い{直|なお}してください (please say it again/rephrase it)\n- {言|い}い{直|なお}すと (to put it differently)\n- {言|い}い{間違|まちが}えを{言|い}い{直|なお}す (to correct a slip of the tongue)\n\nSIMILAR COMPOUND VERBS:\n- {書|か}き{直|なお}す (to rewrite)\n- やり{直|なお}す (to redo)\n- {作|つく}り{直|なお}す (to remake)\n\nRELATED:\n- {言|い}い{換|か}える (to rephrase, paraphrase)\n- {訂正|ていせい}する (to correct)\n- {修正|しゅうせい}する (to revise)",
+  "notes": "TRANSITIVITY:\nTransitive ({他動詞|たどうし})\n\nCOMPOUND VERB:\n{言|い}う (to say) + {直|なお}す (to redo/fix)\nThe {直|なお}す adds the meaning of doing again or correcting.\n\nUSAGE:\n- {言|い}い{直|なお}してください (please say it again/rephrase it)\n- {言|い}い{直|なお}すと (to put it differently)\n- {言|い}い{間違|まちが}えを{言|い}い{直|なお}す (to correct a slip of the tongue)\n\nSIMILAR COMPOUND VERBS:\n- {書|か}き{直|なお}す (to rewrite)\n- やり{直|なお}す (to redo)\n- {作|つく}り{直|なお}す (to remake)\n\nRELATED WORDS:\n- {言|い}い{換|か}える (to rephrase, paraphrase)\n- {訂正|ていせい}する (to correct)\n- {修正|しゅうせい}する (to revise)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04595_iikaeru",
+      "reading": "いいかえる",
+      "headword": "{言|い}い{換|か}える",
+      "label": "to rephrase, paraphrase"
+    },
+    {
+      "type": "related",
+      "target_id": "10443_teiseisuru",
+      "reading": "ていせいする",
+      "headword": "{訂正|ていせい}する",
+      "label": "to correct"
+    },
+    {
+      "type": "related",
+      "target_id": "25527_shuuseisuru",
+      "reading": "しゅうせいする",
+      "headword": "{修正|しゅうせい}する",
+      "label": "to revise"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +165,7 @@
       ],
       "transitivity": "transitive",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "communication",
         "action"
@@ -149,6 +173,6 @@
       "verb_class": "godan-su"
     },
     "created": "2026-01-25T09:58:37Z",
-    "modified": "2026-06-09T15:41:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

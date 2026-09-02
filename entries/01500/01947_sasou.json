@@ -218,7 +218,7 @@
       ]
     }
   ],
-  "notes": "{誘|さそ}う is a godan verb meaning to invite someone or to tempt/evoke something.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes を particle for the person/thing being invited or evoked\n\nTWO MAIN USES:\n1. To invite: ⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦を→を：00422_wo⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦に→に：00314_ni⟧{誘|さそ}う (invite a friend to a movie)\n2. To evoke: ⟦{涙|なみだ}→涙：02235_namida⟧⟦を→を：00422_wo⟧{誘|さそ}う (bring to tears)\n\nPARTICLE PATTERN:\n- ⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧ + ⟦{場所|ばしょ}→場所：00829_basho⟧/⟦{活動|かつどう}→活動：00201_katsudou⟧⟦に→に：00314_ni⟧ + {誘|さそ}う: to invite someone to somewhere/something\n\nCOMMON EXPRESSIONS:\n- ⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦に→に：00314_ni⟧{誘|さそ}う: to invite to dinner\n- ⟦{飲|の}み→飲む：00322_nomu⟧⟦に→に：00314_ni⟧{誘|さそ}う: to invite for drinks\n- ⟦{眠|ねむ}り→眠り：13673_nemuri⟧⟦を→を：00422_wo⟧{誘|さそ}う: to induce sleep\n\nRELATED:\n- ⟦{誘|さそ}い→誘い：14200_sasoi⟧: invitation (noun)\n- ⟦お→お：03097_o⟧⟦{誘|さそ}い→誘い：14200_sasoi⟧: invitation (polite)\n- {誘|さそ}われる: to be invited (passive)",
+  "notes": "{誘|さそ}う is a godan verb meaning to invite someone or to tempt/evoke something.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes を particle for the person/thing being invited or evoked\n\nFUNCTIONS:\n1. To invite: ⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦を→を：00422_wo⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦に→に：00314_ni⟧{誘|さそ}う (invite a friend to a movie)\n2. To evoke: ⟦{涙|なみだ}→涙：02235_namida⟧⟦を→を：00422_wo⟧{誘|さそ}う (bring to tears)\n\nCOMMON PATTERNS:\n- ⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧ + ⟦{場所|ばしょ}→場所：00829_basho⟧/⟦{活動|かつどう}→活動：00201_katsudou⟧⟦に→に：00314_ni⟧ + {誘|さそ}う: to invite someone to somewhere/something\n\nCOMMON EXPRESSIONS:\n- ⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦に→に：00314_ni⟧{誘|さそ}う: to invite to dinner\n- ⟦{飲|の}み→飲む：00322_nomu⟧⟦に→に：00314_ni⟧{誘|さそ}う: to invite for drinks\n- ⟦{眠|ねむ}り→眠り：13673_nemuri⟧⟦を→を：00422_wo⟧{誘|さそ}う: to induce sleep\n\nRELATED WORDS:\n- ⟦{誘|さそ}い→誘い：14200_sasoi⟧: invitation (noun)\n- ⟦お→お：03097_o⟧⟦{誘|さそ}い→誘い：14200_sasoi⟧: invitation (polite)\n- {誘|さそ}われる: to be invited (passive)",
   "prominent_see_also": [
     {
       "target_id": "14200_sasoi",
@@ -227,10 +227,39 @@
       "note": "noun form"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01435_shoutai",
+      "reading": "しょうたい",
+      "headword": "{招待|しょうたい}",
+      "label": "invitation"
+    },
+    {
+      "type": "related",
+      "target_id": "16850_kanyuu",
+      "reading": "かんゆう",
+      "headword": "{勧誘|かんゆう}",
+      "label": "solicitation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21382_sasoidasu",
+      "reading": "さそいだす",
+      "headword": "{誘|さそ}い{出|だ}す",
+      "label": "to lure out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25475_yuuwakusuru",
+      "reading": "ゆうわくする",
+      "headword": "{誘惑|ゆうわく}する",
+      "label": "to tempt"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:26:52Z",
-    "modified": "2026-05-17T19:09:06Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

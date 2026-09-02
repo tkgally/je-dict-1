@@ -2,7 +2,7 @@
   "id": "04122_kaitsuu",
   "headword": "{開通|かいつう}",
   "reading": "かいつう",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "opening (of a road, railway)",
   "conjugation": {
     "type": "suru",
@@ -133,10 +133,26 @@
       ]
     }
   ],
-  "notes": "USAGE: {開通|かいつう} is specifically used for infrastructure like roads, railways, tunnels, and communication lines.\n\nCOMMON PATTERNS:\n・{開通|かいつう}⟦する→する：00392_suru⟧ (to open for service)\n・{開通|かいつう}⟦{式|しき}→〜式：02000_shiki⟧ (opening ceremony)\n・{開通|かいつう}⟦{記念|きねん}→記念：00232_kinen⟧ (opening commemoration)\n・⟦{全線|ぜんせん}→全線：noentry⟧{開通|かいつう} (full line opening)\n・⟦{部分|ぶぶん}→部分：03715_bubun⟧{開通|かいつう} (partial opening)\n\nAPPLIES TO:\n・⟦{道路|どうろ}→道路：01481_douro⟧ - roads\n・⟦{鉄道|てつどう}→鉄道：03550_tetsudou⟧ - railways\n・⟦トンネル→トンネル：03865_tonneru⟧ - tunnels\n・⟦{橋|はし}→橋：02163_hashi⟧ - bridges\n・⟦{電話|でんわ}→電話：01471_denwa⟧⟦{回線|かいせん}→回線：11094_kaisen⟧ - phone lines\n\nCONTRAST:\n・⟦{開業|かいぎょう}→開業：14570_kaigyou⟧ - opening (of a business)\n・⟦{開店|かいてん}→開店：14569_kaiten⟧ - store opening",
+  "notes": "USAGE: {開通|かいつう} is specifically used for infrastructure like roads, railways, tunnels, and communication lines.\n\nCOMMON PATTERNS:\n- {開通|かいつう}⟦する→する：00392_suru⟧ (to open for service)\n- {開通|かいつう}⟦{式|しき}→〜式：02000_shiki⟧ (opening ceremony)\n- {開通|かいつう}⟦{記念|きねん}→記念：00232_kinen⟧ (opening commemoration)\n- ⟦{全線|ぜんせん}→全線：noentry⟧{開通|かいつう} (full line opening)\n- ⟦{部分|ぶぶん}→部分：03715_bubun⟧{開通|かいつう} (partial opening)\n\nAPPLIES TO:\n- ⟦{道路|どうろ}→道路：01481_douro⟧ - roads\n- ⟦{鉄道|てつどう}→鉄道：03550_tetsudou⟧ - railways\n- ⟦トンネル→トンネル：03865_tonneru⟧ - tunnels\n- ⟦{橋|はし}→橋：02163_hashi⟧ - bridges\n- ⟦{電話|でんわ}→電話：01471_denwa⟧⟦{回線|かいせん}→回線：11094_kaisen⟧ - phone lines\n\nSIMILAR WORDS:\n- ⟦{開業|かいぎょう}→開業：14570_kaigyou⟧ - opening (of a business)\n- ⟦{開店|かいてん}→開店：14569_kaiten⟧ - store opening",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14570_kaigyou",
+      "reading": "かいぎょう",
+      "headword": "{開業|かいぎょう}",
+      "label": "opening"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14569_kaiten",
+      "reading": "かいてん",
+      "headword": "{開店|かいてん}",
+      "label": "store opening"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-05-29T17:08:55Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

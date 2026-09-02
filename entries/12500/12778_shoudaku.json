@@ -2,7 +2,7 @@
   "id": "12778_shoudaku",
   "headword": "{承諾|しょうだく}",
   "reading": "しょうだく",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "consent, acceptance, agreement",
   "conjugation": {
     "type": "suru",
@@ -156,11 +156,32 @@
       "reading": "きょぜつ",
       "headword": "{拒絶|きょぜつ}",
       "label": "rejection, refusal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00259_kyoka",
+      "reading": "きょか",
+      "headword": "{許可|きょか}",
+      "label": "permission"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05093_goui",
+      "reading": "ごうい",
+      "headword": "{合意|ごうい}",
+      "label": "mutual agreement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21084_kyodaku",
+      "reading": "きょだく",
+      "headword": "{許諾|きょだく}",
+      "label": "permission"
     }
   ],
   "metadata": {
     "created": "2026-02-22T10:28:07Z",
-    "modified": "2026-04-27T08:29:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

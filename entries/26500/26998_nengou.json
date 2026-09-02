@@ -17,7 +17,9 @@
       "id": "26998_nengou_ex1",
       "japanese": "{今|いま}の{年号|ねんごう}は{令和|れいわ}です。",
       "english": "The current era name is Reiwa.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26998_nengou_ex2",
       "japanese": "{新|あたら}しい{年号|ねんごう}が{発表|はっぴょう}されたとき、{日本中|にほんじゅう}が{注目|ちゅうもく}した。",
       "english": "When the new era name was announced, all of Japan paid attention.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "26998_nengou_ex3",
       "japanese": "{日本|にほん}では{西暦|せいれき}と{年号|ねんごう}の{両方|りょうほう}が{使|つか}われていて、{公的|こうてき}な{書類|しょるい}には{年号|ねんごう}が{多|おお}い。",
       "english": "In Japan both the Western calendar and era names are used, and official documents often use the era name.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A fundamental concept in Japanese culture and daily life. Government documents, official forms, and many business documents use the {年号|ねんごう} system alongside or instead of the Western calendar ({西暦|せいれき}). Learners in Japan will encounter {年号|ねんごう} on everything from insurance forms to driver's licenses.\n\nRECENT ERA NAMES:\n- {令和|れいわ} (2019-present)\n- {平成|へいせい} (1989-2019)\n- {昭和|しょうわ} (1926-1989)\n- {大正|たいしょう} (1912-1926)\n- {明治|めいじ} (1868-1912)\n\nCOMMON COLLOCATIONS:\n- {年号|ねんごう}が{変|か}わる: for the era name to change\n- {年号|ねんごう}を{使|つか}う: to use the era name system\n- {新|しん}{年号|ねんごう}: new era name\n\nSIMILAR WORDS:\n- {元号|げんごう}: era name — synonymous; {元号|げんごう} is the more formal/official term, while {年号|ねんごう} is more commonly used in daily conversation\n- {西暦|せいれき}: Western calendar year — the Gregorian calendar system, the alternative to {年号|ねんごう}\n- {和暦|われき}: Japanese calendar — the calendar system based on {年号|ねんごう}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16318_gengou",
+      "reading": "げんごう",
+      "headword": "{元号|げんごう}",
+      "label": "era name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04355_seireki",
+      "reading": "せいれき",
+      "headword": "{西暦|せいれき}",
+      "label": "Western calendar year"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28485_wareki",
+      "reading": "われき",
+      "headword": "{和暦|われき}",
+      "label": "Japanese calendar"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     },
     "created": "2026-05-06T13:12:05Z",
-    "modified": "2026-05-06T13:12:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

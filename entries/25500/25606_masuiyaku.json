@@ -17,7 +17,9 @@
       "id": "25606_masuiyaku_ex1",
       "japanese": "{麻酔薬|ますいやく}が{効|き}いてきた。",
       "english": "The anesthetic is taking effect.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25606_masuiyaku_ex2",
       "japanese": "{手術|しゅじゅつ}{前|まえ}に{麻酔薬|ますいやく}を{投与|とうよ}された。",
       "english": "I was given an anesthetic before the surgery.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,44 @@
       "id": "25606_masuiyaku_ex3",
       "japanese": "{歯医者|はいしゃ}で{麻酔薬|ますいやく}を{注射|ちゅうしゃ}してもらったが、{治療後|ちりょうご}もしばらく{口|くち}の{感覚|かんかく}がなかった。",
       "english": "I got an anesthetic injection at the dentist, but my mouth was still numb for a while after the treatment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {麻酔|ますい} (anesthesia) and {薬|やく} (drug, medicine). Refers to pharmaceutical agents that induce numbness or unconsciousness for medical procedures.\n\nThere are two main types: {局所|きょくしょ}{麻酔薬|ますいやく} (local anesthetic, which numbs a specific area) and {全身|ぜんしん}{麻酔薬|ますいやく} (general anesthetic, which induces unconsciousness).\n\nCOMMON COLLOCATIONS:\n- {麻酔薬|ますいやく}を{投与|とうよ}する: to administer an anesthetic\n- {麻酔薬|ますいやく}が{効|き}く: the anesthetic takes effect\n- {麻酔薬|ますいやく}が{切|き}れる: the anesthetic wears off\n- {局所|きょくしょ}{麻酔薬|ますいやく}: local anesthetic\n\nSIMILAR WORDS:\n- {麻酔|ますい}: anesthesia — the broader concept or medical procedure, not just the drug\n- {鎮痛剤|ちんつうざい}: painkiller, analgesic — reduces pain without necessarily causing numbness\n- {睡眠薬|すいみんやく}: sleeping pill — induces sleep but is not used for surgical procedures",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15451_chintsuuzai",
+      "reading": "ちんつうざい",
+      "headword": "{鎮痛剤|ちんつうざい}",
+      "label": "painkiller, analgesic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28681_suiminyaku",
+      "reading": "すいみんやく",
+      "headword": "{睡眠薬|すいみんやく}",
+      "label": "sleeping pill"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["health"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ]
     },
     "created": "2026-04-26T12:38:02Z",
-    "modified": "2026-04-26T12:38:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

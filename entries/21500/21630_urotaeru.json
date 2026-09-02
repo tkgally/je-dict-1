@@ -3,7 +3,7 @@
   "headword": "うろたえる",
   "reading": "うろたえる",
   "romaji": "urotaeru",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to be flustered; to panic; to lose one's composure",
   "definitions": [
     {
@@ -46,6 +46,50 @@
   ],
   "notes": "Describes losing composure in the face of something unexpected. Stronger than simply being surprised — it implies an inability to think clearly or act rationally. Often written in hiragana rather than kanji.\n\nUSAGE:\nMost commonly appears in the past tense (うろたえた) or te-form (うろたえて), describing a reaction to a sudden event. Also used in the negative imperative (うろたえるな) to tell someone to stay calm.\n\nCOMMON COLLOCATIONS:\n- うろたえた{様子|ようす}: a flustered appearance\n- うろたえた{声|こえ}: a panicked voice\n- うろたえず{対応|たいおう}する: to respond without panicking\n\nSIMILAR WORDS:\n- {慌|あわ}てる: to be in a hurry, to panic — more common in everyday speech and broader in meaning (includes simply rushing)\n- たじろぐ: to flinch, to falter — focuses on hesitation or drawing back rather than confusion\n- {動揺|どうよう}する: to be shaken, disturbed — can be used for emotional disturbance that is more internal and less visible",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01874_awateru",
+      "reading": "あわてる",
+      "headword": "{慌|あわ}てる",
+      "label": "to be in a hurry, to panic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07356_tajirogu",
+      "reading": "たじろぐ",
+      "headword": "たじろぐ",
+      "label": "to flinch, to falter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25352_douyousuru",
+      "reading": "どうようする",
+      "headword": "{動揺|どうよう}する",
+      "label": "to be shaken, disturbed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03482_douyou",
+      "reading": "どうよう",
+      "headword": "{動揺|どうよう}",
+      "label": "agitation, disturbance"
+    },
+    {
+      "type": "related",
+      "target_id": "08683_roubai",
+      "reading": "ろうばい",
+      "headword": "{狼狽|ろうばい}",
+      "label": "confusion"
+    },
+    {
+      "type": "related",
+      "target_id": "15410_awatefutameku",
+      "reading": "あわてふためく",
+      "headword": "{慌|あわ}てふためく",
+      "label": "to panic"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +104,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-04-02T19:15:47Z",
-    "modified": "2026-04-02T19:15:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

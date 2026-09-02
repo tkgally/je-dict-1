@@ -17,7 +17,9 @@
       "id": "20919_shigansha_ex1",
       "japanese": "{志願者|しがんしゃ}を{募集|ぼしゅう}する。",
       "english": "To recruit volunteers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20919_shigansha_ex2",
       "japanese": "{今年|ことし}の{志願者|しがんしゃ}{数|すう}は{過去最高|かこさいこう}だった。",
       "english": "The number of applicants this year was the highest ever.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,65 @@
       "id": "20919_shigansha_ex3",
       "japanese": "{危険|きけん}な{任務|にんむ}にもかかわらず、{多|おお}くの{志願者|しがんしゃ}が{名乗|なの}り{出|で}た。",
       "english": "Despite the dangerous mission, many volunteers came forward.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {志願|しがん} (volunteering, application by choice) + {者|しゃ} (person). Emphasizes that the person acts of their own will, not under compulsion. Originally associated with military volunteering, now used broadly.\n\nCOMMON COLLOCATIONS:\n- {志願者|しがんしゃ}を{募|つの}る: to solicit volunteers\n- {志願者|しがんしゃ}{数|すう}: number of applicants\n- {志願者|しがんしゃ}が{殺到|さっとう}する: to be flooded with applicants\n- {志願者|しがんしゃ}が{名乗|なの}り{出|で}る: for a volunteer to come forward\n\nSIMILAR WORDS:\n- {応募者|おうぼしゃ}: applicant — responding to a public call or advertisement\n- {候補者|こうほしゃ}: candidate — someone nominated or standing for selection\n- ボランティア: volunteer — the loanword, more associated with community service",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20440_oubosha",
+      "reading": "おうぼしゃ",
+      "headword": "{応募者|おうぼしゃ}",
+      "label": "applicant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20439_kouhosha",
+      "reading": "こうほしゃ",
+      "headword": "{候補者|こうほしゃ}",
+      "label": "candidate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04834_borantia",
+      "reading": "ぼらんてぃあ",
+      "headword": "ボランティア",
+      "label": "volunteer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13005_yuushi",
+      "reading": "ゆうし",
+      "headword": "{有志|ゆうし}",
+      "label": "volunteers, interested parties, like-minded people"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24632_yuushisha",
+      "reading": "ゆうししゃ",
+      "headword": "{有志者|ゆうししゃ}",
+      "label": "volunteer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     },
     "created": "2026-03-30T20:17:16Z",
-    "modified": "2026-03-30T20:17:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

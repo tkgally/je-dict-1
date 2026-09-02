@@ -3,7 +3,7 @@
   "headword": "{防備|ぼうび}",
   "reading": "ぼうび",
   "romaji": "boubi",
-  "part_of_speech": "noun (する verb)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "defense; defenses; defensive preparations",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Refers to defensive preparations and the state of being defended. Most commonly encountered in the compound {無|む}{防備|ぼうび} (defenseless, unguarded), which is used both literally (militarily undefended) and figuratively (emotionally or psychologically unguarded).\n\nCOMMON COLLOCATIONS:\n- {防備|ぼうび}を{固|かた}める: to strengthen/tighten defenses\n- {無|む}{防備|ぼうび}: defenseless; unguarded\n- {防備|ぼうび}を{強化|きょうか}する: to reinforce defenses\n- {厳重|げんじゅう}な{防備|ぼうび}: tight/strict defenses\n\nSIMILAR WORDS:\n- {防御|ぼうぎょ}: defense — the active act of defending, while {防備|ぼうび} focuses on preparedness\n- {防衛|ぼうえい}: defense/national defense — broader term, often used for national security\n- {守備|しゅび}: defense/guarding — commonly used in sports and military for defending a position",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14575_bougyo",
+      "reading": "ぼうぎょ",
+      "headword": "{防御|ぼうぎょ}",
+      "label": "defense"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09783_bouei",
+      "reading": "ぼうえい",
+      "headword": "{防衛|ぼうえい}",
+      "label": "defense/national defense"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15509_shubi",
+      "reading": "しゅび",
+      "headword": "{守備|しゅび}",
+      "label": "defense/guarding"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "military"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-17T17:44:24Z",
-    "modified": "2026-04-17T17:44:24Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

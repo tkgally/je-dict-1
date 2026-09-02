@@ -18,7 +18,9 @@
       "english": "Where do you live?",
       "notes": "Polite way to ask someone's address.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11555_sumai_ex2",
@@ -26,7 +28,9 @@
       "english": "I'm looking for a new place to live.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11555_sumai_ex3",
@@ -34,10 +38,12 @@
       "english": "I decided on a renovation to achieve a comfortable living space.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Derived from the verb {住|す}む (to live). Softer and more polite than {家|いえ} (house) and less formal than {住居|じゅうきょ} (dwelling/residence). Commonly used in real estate contexts and polite conversation. The polite form お{住|す}まい is a standard way to ask where someone lives.\n\nCOMMON COLLOCATIONS:\n・お{住|す}まい (your residence — polite)\n・{住|す}まいを{探|さが}す (look for a place to live)\n・{住|す}まいの{環境|かんきょう} (living environment)\n・{住|す}まい{探|さが}し (house-hunting)",
+  "notes": "Derived from the verb {住|す}む (to live). Softer and more polite than {家|いえ} (house) and less formal than {住居|じゅうきょ} (dwelling/residence). Commonly used in real estate contexts and polite conversation. The polite form お{住|す}まい is a standard way to ask where someone lives.\n\nCOMMON COLLOCATIONS:\n- お{住|す}まい (your residence — polite)\n- {住|す}まいを{探|さが}す (look for a place to live)\n- {住|す}まいの{環境|かんきょう} (living environment)\n- {住|す}まい{探|さが}し (house-hunting)",
   "cross_references": [
     {
       "type": "related",
@@ -52,19 +58,37 @@
       "reading": "じゅうきょ",
       "headword": "{住居|じゅうきょ}",
       "label": "more formal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19266_kyojuuchi",
+      "reading": "きょじゅうち",
+      "headword": "{居住地|きょじゅうち}",
+      "label": "place of residence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23241_kyojuukuukan",
+      "reading": "きょじゅうくうかん",
+      "headword": "{居住空間|きょじゅうくうかん}",
+      "label": "living space"
     }
   ],
   "metadata": {
     "created": "2026-02-17T13:17:23Z",
-    "modified": "2026-04-25T07:03:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

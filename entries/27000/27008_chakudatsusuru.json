@@ -3,7 +3,7 @@
   "headword": "{着脱|ちゃくだつ}する",
   "reading": "ちゃくだつする",
   "romaji": "chakudatsusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to put on and take off; to attach and detach",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "A compound of {着|ちゃく} (put on/attach) and {脱|だつ} (take off/remove). Used both for clothing and for detachable parts/accessories. The noun form {着脱|ちゃくだつ} is common in product descriptions where ease of use is a selling point.\n\nCOMMON COLLOCATIONS:\n- {着脱|ちゃくだつ}が{簡単|かんたん}: easy to put on/take off\n- {着脱|ちゃくだつ}しやすい: easy to attach/detach\n- {着脱|ちゃくだつ}{可能|かのう}: detachable; removable\n- {着脱式|ちゃくだつしき}: detachable type\n- ワンタッチで{着脱|ちゃくだつ}: attach/detach with one touch\n\nSIMILAR WORDS:\n- {着|き}る/{脱|ぬ}ぐ: to put on/take off (clothing) — the individual verbs for each action\n- {取|と}り{外|はず}す: to remove; to detach — for removing a specific part\n- {装着|そうちゃく}する: to wear; to equip — focuses on the attaching/equipping action only",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00541_kiru",
+      "reading": "きる",
+      "headword": "{着|き}る",
+      "label": "to put on/take off"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00518_nugu",
+      "reading": "ぬぐ",
+      "headword": "{脱|ぬ}ぐ",
+      "label": "to put on/take off"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06161_torihazusu",
+      "reading": "とりはずす",
+      "headword": "{取|と}り{外|はず}す",
+      "label": "to remove"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22176_souchakusuru",
+      "reading": "そうちゃくする",
+      "headword": "{装着|そうちゃく}する",
+      "label": "to wear"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +93,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T13:15:41Z",
-    "modified": "2026-05-06T13:15:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

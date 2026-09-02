@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{市役所|しやくしょ} combines {市|し} (city) + ⟦{役所|やくしょ}→役所：06455_yakusho⟧ (government office).\n\nRELATED GOVERNMENT OFFICES:\n- ⟦{区役所|くやくしょ}→区役所：21563_kuyakusho⟧ (ward office - in Tokyo, etc.)\n- ⟦{町役場|まちやくば}→町役場：13579_machiyakuba⟧/⟦{村役場|むらやくば}→村役場：24018_murayakuba⟧ (town/village office)\n- ⟦{県庁|けんちょう}→県庁：27822_kenchou⟧ (prefectural office)\n\nCOMMON SERVICES:\n- ⟦{住民票|じゅうみんひょう}→住民票：09628_juuminhyou⟧ (certificate of residence)\n- ⟦{戸籍|こせき}→戸籍：12695_koseki⟧{謄本|とうほん} (family register copy)\n- ⟦{転入届|てんにゅうとどけ}→転入届：09811_tennyuutodoke⟧ (move-in notification)\n- ⟦{印鑑|いんかん}→印鑑：05290_inkan⟧⟦{登録|とうろく}→登録：05703_touroku⟧ (seal registration)\n\nUSAGE NOTES:\n- An essential word for anyone living in Japan\n- Various forms and certificates must be obtained here",
+  "notes": "{市役所|しやくしょ} combines {市|し} (city) + ⟦{役所|やくしょ}→役所：06455_yakusho⟧ (government office).\n\nRELATED GOVERNMENT OFFICES:\n- ⟦{区役所|くやくしょ}→区役所：21563_kuyakusho⟧ (ward office - in Tokyo, etc.)\n- ⟦{町役場|まちやくば}→町役場：13579_machiyakuba⟧/⟦{村役場|むらやくば}→村役場：24018_murayakuba⟧ (town/village office)\n- ⟦{県庁|けんちょう}→県庁：27822_kenchou⟧ (prefectural office)\n\nCOMMON SERVICES:\n- ⟦{住民票|じゅうみんひょう}→住民票：09628_juuminhyou⟧ (certificate of residence)\n- ⟦{戸籍|こせき}→戸籍：12695_koseki⟧{謄本|とうほん} (family register copy)\n- ⟦{転入届|てんにゅうとどけ}→転入届：09811_tennyuutodoke⟧ (move-in notification)\n- ⟦{印鑑|いんかん}→印鑑：05290_inkan⟧⟦{登録|とうろく}→登録：05703_touroku⟧ (seal registration)\n\nUSAGE:\n- An essential word for anyone living in Japan\n- Various forms and certificates must be obtained here",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,46 @@
       "reading": "やくば",
       "headword": "{役場|やくば}",
       "label": "town/village office"
+    },
+    {
+      "type": "related",
+      "target_id": "21563_kuyakusho",
+      "reading": "くやくしょ",
+      "headword": "{区役所|くやくしょ}",
+      "label": "ward office"
+    },
+    {
+      "type": "related",
+      "target_id": "13579_machiyakuba",
+      "reading": "まちやくば",
+      "headword": "{町役場|まちやくば}",
+      "label": "town/village office"
+    },
+    {
+      "type": "related",
+      "target_id": "24018_murayakuba",
+      "reading": "むらやくば",
+      "headword": "{村役場|むらやくば}",
+      "label": "town/village office"
+    },
+    {
+      "type": "related",
+      "target_id": "27822_kenchou",
+      "reading": "けんちょう",
+      "headword": "{県庁|けんちょう}",
+      "label": "prefectural office"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22701_chousha",
+      "reading": "ちょうしゃ",
+      "headword": "{庁舎|ちょうしゃ}",
+      "label": "government office building"
     }
   ],
   "metadata": {
     "created": "2026-01-11T11:14:00Z",
-    "modified": "2026-06-12T09:58:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "A paved path for pedestrians running alongside a road. Composed of {歩|ほ} (walk) + {道|どう} (road, path).\n\nCOMMON COMPOUNDS:\n- ⟦{歩道橋|ほどうきょう}→ほどうきょう：06494_hodoukyou⟧: pedestrian overpass\n- ⟦{横断歩道|おうだんほどう}→おうだんほどう：06502_oudanhodou⟧: crosswalk, pedestrian crossing\n- ⟦{遊歩道|ゆうほどう}→ゆうほどう：23484_yuuhodou⟧: promenade, walking path\n\nRELATED WORDS:\n- ⟦{車道|しゃどう}→しゃどう：03066_shadou⟧: roadway for vehicles\n- ⟦{道路|どうろ}→どうろ：01481_douro⟧: road (general)\n- ⟦{通路|つうろ}→つうろ：04062_tsuuro⟧: passage, walkway (indoor)\n\nCULTURAL NOTE:\nIn Japan, bicycles are often legally permitted on sidewalks (especially wide ones or when marked), unlike in many Western countries. Signs indicating ⟦{自転車|じてんしゃ}→じてんしゃ：00633_jitensha⟧⟦{通行|つうこう}→つうこう：03436_tsuukou⟧⟦{可|か}→か：noentry⟧ mark sidewalks where cycling is allowed.",
+  "notes": "A paved path for pedestrians running alongside a road. Composed of {歩|ほ} (walk) + {道|どう} (road, path).\n\nCOMPOUNDS:\n- ⟦{歩道橋|ほどうきょう}→ほどうきょう：06494_hodoukyou⟧: pedestrian overpass\n- ⟦{横断歩道|おうだんほどう}→おうだんほどう：06502_oudanhodou⟧: crosswalk, pedestrian crossing\n- ⟦{遊歩道|ゆうほどう}→ゆうほどう：23484_yuuhodou⟧: promenade, walking path\n\nRELATED WORDS:\n- ⟦{車道|しゃどう}→しゃどう：03066_shadou⟧: roadway for vehicles\n- ⟦{道路|どうろ}→どうろ：01481_douro⟧: road (general)\n- ⟦{通路|つうろ}→つうろ：04062_tsuuro⟧: passage, walkway (indoor)\n\nCULTURAL NOTE:\nIn Japan, bicycles are often legally permitted on sidewalks (especially wide ones or when marked), unlike in many Western countries. Signs indicating ⟦{自転車|じてんしゃ}→じてんしゃ：00633_jitensha⟧⟦{通行|つうこう}→つうこう：03436_tsuukou⟧⟦{可|か}→か：noentry⟧ mark sidewalks where cycling is allowed.",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,60 @@
       "headword": "{車道|しゃどう}",
       "label": "roadway",
       "target_id": "03066_shadou"
+    },
+    {
+      "type": "related",
+      "target_id": "01481_douro",
+      "reading": "どうろ",
+      "headword": "{道路|どうろ}",
+      "label": "road"
+    },
+    {
+      "type": "related",
+      "target_id": "04062_tsuuro",
+      "reading": "つうろ",
+      "headword": "{通路|つうろ}",
+      "label": "passage, walkway"
+    },
+    {
+      "type": "related",
+      "target_id": "06517_gaadoreeru",
+      "reading": "がーどれーる",
+      "headword": "ガードレール",
+      "label": "guardrail"
+    },
+    {
+      "type": "related",
+      "target_id": "08401_enseki",
+      "reading": "えんせき",
+      "headword": "{縁石|えんせき}",
+      "label": "curb"
+    },
+    {
+      "type": "related",
+      "target_id": "19669_michihaba",
+      "reading": "みちはば",
+      "headword": "{道幅|みちはば}",
+      "label": "road width"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20701_rokata",
+      "reading": "ろかた",
+      "headword": "{路肩|ろかた}",
+      "label": "road shoulder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28126_michibata",
+      "reading": "みちばた",
+      "headword": "{道端|みちばた}",
+      "label": "roadside"
     }
   ],
   "metadata": {
     "created": "2026-01-12T12:24:37Z",
-    "modified": "2026-06-12T18:23:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

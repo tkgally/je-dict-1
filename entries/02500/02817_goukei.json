@@ -2,7 +2,7 @@
   "id": "02817_goukei",
   "headword": "{合計|ごうけい}",
   "reading": "ごうけい",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "total, sum",
   "definitions": [
     {
@@ -53,11 +53,47 @@
       ]
     }
   ],
-  "notes": "{合計|ごうけい} means the total when adding numbers together. Composed of ⟦{合|ごう}→合：noentry⟧ (combine) + ⟦{計|けい}→計：02691_kei⟧ (count).\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{合計|ごうけい}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {合計|ごうけい}⟦で→で：00502_de⟧〜: in total\n- {合計|ごうけい}⟦する→する：00392_suru⟧: to total, to add up\n- {合計|ごうけい}⟦{金額|きんがく}→金額：02665_kingaku⟧: total amount\n- {合計|ごうけい}〜⟦{人|にん}→〜人：00658_nin⟧/⟦{個|こ}→〜個：00645_ko⟧/⟦{円|えん}→円：00774_en⟧: ~ in total\n\nGRAMMAR:\nCan be used as a noun ({合計|ごうけい}⟦は→は：00079_ha⟧100⟦{円|えん}→円：00774_en⟧⟦だ→だ：09496_da⟧) or with ⟦する→する：00392_suru⟧ as a verb ({合計|ごうけい}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧200⟦{円|えん}→円：00774_en⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧).\n\nSIMILAR WORDS:\n- ⟦{総計|そうけい}→総計：15248_soukei⟧: grand total (more formal, emphasizes everything included)\n- ⟦{計|けい}→計：02691_kei⟧: total (shorter, casual — ⟦{計|けい}→計：02691_kei⟧10⟦{個|こ}→〜個：00645_ko⟧)\n- ⟦{小計|しょうけい}→小計：20725_shoukei⟧: subtotal",
-  "cross_references": [],
+  "notes": "{合計|ごうけい} means the total when adding numbers together. Composed of ⟦{合|ごう}→合：noentry⟧ (combine) + ⟦{計|けい}→計：02691_kei⟧ (count).\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{合計|ごうけい}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {合計|ごうけい}⟦で→で：00502_de⟧〜: in total\n- {合計|ごうけい}⟦する→する：00392_suru⟧: to total, to add up\n- {合計|ごうけい}⟦{金額|きんがく}→金額：02665_kingaku⟧: total amount\n- {合計|ごうけい}〜⟦{人|にん}→〜人：00658_nin⟧/⟦{個|こ}→〜個：00645_ko⟧/⟦{円|えん}→円：00774_en⟧: ~ in total\nCan be used as a noun ({合計|ごうけい}⟦は→は：00079_ha⟧100⟦{円|えん}→円：00774_en⟧⟦だ→だ：09496_da⟧) or with ⟦する→する：00392_suru⟧ as a verb ({合計|ごうけい}⟦する→する：00392_suru⟧⟦と→と：00512_to⟧200⟦{円|えん}→円：00774_en⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧).\n\nSIMILAR WORDS:\n- ⟦{総計|そうけい}→総計：15248_soukei⟧: grand total (more formal, emphasizes everything included)\n- ⟦{計|けい}→計：02691_kei⟧: total (shorter, casual — ⟦{計|けい}→計：02691_kei⟧10⟦{個|こ}→〜個：00645_ko⟧)\n- ⟦{小計|しょうけい}→小計：20725_shoukei⟧: subtotal",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15248_soukei",
+      "reading": "そうけい",
+      "headword": "{総計|そうけい}",
+      "label": "grand total"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20725_shoukei",
+      "reading": "しょうけい",
+      "headword": "{小計|しょうけい}",
+      "label": "subtotal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02888_zenbu",
+      "reading": "ぜんぶ",
+      "headword": "{全部|ぜんぶ}",
+      "label": "all, entire, whole"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20724_sousuu",
+      "reading": "そうすう",
+      "headword": "{総数|そうすう}",
+      "label": "total number"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22350_tsuusansuru",
+      "reading": "つうさんする",
+      "headword": "{通算|つうさん}する",
+      "label": "to total up"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T08:54:30Z",
-    "modified": "2026-05-22T16:13:03Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

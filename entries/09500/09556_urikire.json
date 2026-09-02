@@ -17,24 +17,30 @@
       "japanese": "チケットは{売|う}り{切|き}れです。",
       "english": "The tickets are sold out.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09556_urikire_ex2",
       "japanese": "{人気|にんき}{商品|しょうひん}がすぐに{売|う}り{切|き}れた。",
       "english": "The popular product sold out quickly.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09556_urikire_ex3",
       "japanese": "{限定|げんてい}{品|ひん}は{発売|はつばい}{開始|かいし}{三十分|さんじゅっぷん}で{売|う}り{切|き}れになった。",
       "english": "The limited edition item sold out 30 minutes after going on sale.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{売|う}り{切|き}れ is the noun form meaning \"sold out\" — the state of having no remaining stock. Derived from the verb {売|う}り{切|き}れる (to sell out).\n\nGRAMMAR:\n- {売|う}り{切|き}れ (noun): the sold-out state\n- {売|う}り{切|き}れる (verb): to sell out (intransitive)\n- {売|う}り{切|き}れになる: to become sold out\n- {売|う}り{切|き}れだ / {売|う}り{切|き}れです: is sold out\n\nCOMMON COLLOCATIONS:\n- {売|う}り{切|き}れ{御免|ごめん}: while supplies last (common on shop signs)\n- {売|う}り{切|き}れ{続出|ぞくしゅつ}: selling out one after another\n\nSIMILAR WORDS:\n- {品切|しなぎ}れ: out of stock (emphasis on unavailability)\n- {完売|かんばい}: completely sold out (more formal, used in announcements)\n- {在庫|ざいこ}なし: no stock remaining",
+  "notes": "{売|う}り{切|き}れ is the noun form meaning \"sold out\" — the state of having no remaining stock. Derived from the verb {売|う}り{切|き}れる (to sell out).\n\nCOMMON PATTERNS:\n- {売|う}り{切|き}れ (noun): the sold-out state\n- {売|う}り{切|き}れる (verb): to sell out (intransitive)\n- {売|う}り{切|き}れになる: to become sold out\n- {売|う}り{切|き}れだ / {売|う}り{切|き}れです: is sold out\n\nCOMMON COLLOCATIONS:\n- {売|う}り{切|き}れ{御免|ごめん}: while supplies last (common on shop signs)\n- {売|う}り{切|き}れ{続出|ぞくしゅつ}: selling out one after another\n\nSIMILAR WORDS:\n- {品切|しなぎ}れ: out of stock (emphasis on unavailability)\n- {完売|かんばい}: completely sold out (more formal, used in announcements)\n- {在庫|ざいこ}なし: no stock remaining",
   "prominent_see_also": [
     {
       "target_id": "09557_shinagire",
@@ -43,16 +49,43 @@
       "note": "out of stock"
     }
   ],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18954_kanbai",
+      "reading": "かんばい",
+      "headword": "{完売|かんばい}",
+      "label": "completely sold out"
+    },
+    {
+      "type": "related",
+      "target_id": "08287_toujitsuken",
+      "reading": "とうじつけん",
+      "headword": "{当日券|とうじつけん}",
+      "label": "same-day ticket"
+    },
+    {
+      "type": "related",
+      "target_id": "09822_suuryougentei",
+      "reading": "すうりょうげんてい",
+      "headword": "{数量|すうりょう}{限定|げんてい}",
+      "label": "limited quantity"
+    }
+  ],
   "metadata": {
     "created": "2026-02-02T10:42:48Z",
-    "modified": "2026-04-23T05:18:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

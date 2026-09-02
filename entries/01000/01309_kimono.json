@@ -79,10 +79,39 @@
     }
   ],
   "notes": "{着物|きもの} primarily refers to traditional Japanese clothing.\n\nComponents: ⟦{着|き}る→着る：00541_kiru⟧ (to wear) + ⟦{物|もの}→物：02259_mono⟧ (thing)\n\nTypes:\n- ⟦{振袖|ふりそで}→振袖：19967_furisode⟧: long-sleeved kimono (for young unmarried women)\n- ⟦{浴衣|ゆかた}→浴衣：04081_yukata⟧: summer kimono (casual, for festivals/ryokan)\n- ⟦{留袖|とめそで}→留袖：27624_tomesode⟧: formal kimono for married women\n\nRelated:\n- ⟦{帯|おび}→帯：02610_obi⟧: obi (sash worn with kimono)\n- ⟦{和服|わふく}→和服：04094_wafuku⟧: Japanese clothes (more formal term)\n\nNote: Wearing kimono requires special skills; many people hire professionals for special occasions.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01825_ifuku",
+      "reading": "いふく",
+      "headword": "{衣服|いふく}",
+      "label": "clothing, clothes, garments"
+    },
+    {
+      "type": "related",
+      "target_id": "04081_yukata",
+      "reading": "ゆかた",
+      "headword": "{浴衣|ゆかた}",
+      "label": "yukata, light cotton kimono"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21261_wasou",
+      "reading": "わそう",
+      "headword": "{和装|わそう}",
+      "label": "Japanese-style dress"
+    },
+    {
+      "type": "related",
+      "target_id": "21339_samue",
+      "reading": "さむえ",
+      "headword": "{作務衣|さむえ}",
+      "label": "samue"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:03:14Z",
-    "modified": "2026-08-09T12:26:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

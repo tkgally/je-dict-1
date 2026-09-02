@@ -3,7 +3,7 @@
   "headword": "{推理|すいり}する",
   "reading": "すいりする",
   "romaji": "suirisuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to reason; to deduce; to infer",
   "definitions": [
     {
@@ -55,7 +55,36 @@
     }
   ],
   "notes": "Strongly associated with the mystery genre in Japan. {推理|すいり}{小説|しょうせつ} (mystery novel) is a major literary genre, and the word appears frequently in discussions of detective fiction, crime dramas, and puzzle-solving games.\n\nCOMMON COLLOCATIONS:\n- {推理|すいり}{小説|しょうせつ}: mystery novel; detective fiction\n- {推理|すいり}ゲーム: reasoning game; deduction game\n- {推理|すいり}{力|りょく}: reasoning ability\n- {論理的|ろんりてき}{推理|すいり}: logical reasoning\n- {推理|すいり}ドラマ: mystery drama\n\nSIMILAR WORDS:\n- {推測|すいそく}する: to guess, to speculate — less rigorous, based on conjecture\n- {推論|すいろん}する: to infer — more academic/formal logical deduction\n- {考察|こうさつ}する: to examine, to consider — broader intellectual analysis",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17957_suisokusuru",
+      "reading": "すいそくする",
+      "headword": "{推測|すいそく}する",
+      "label": "to guess, to speculate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20773_suiron",
+      "reading": "すいろん",
+      "headword": "{推論|すいろん}",
+      "label": "to infer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02736_kousatsu",
+      "reading": "こうさつ",
+      "headword": "{考察|こうさつ}",
+      "label": "to examine, to consider"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25242_suisatsusuru",
+      "reading": "すいさつする",
+      "headword": "{推察|すいさつ}する",
+      "label": "to surmise"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,7 +100,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T13:12:23Z",
-    "modified": "2026-05-05T13:12:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

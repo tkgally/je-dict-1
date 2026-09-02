@@ -17,7 +17,9 @@
       "id": "26196_seikei_ex1",
       "japanese": "ニューヨークは{西経|せいけい}{約|やく}74{度|ど}にある。",
       "english": "New York is at approximately 74 degrees west longitude.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26196_seikei_ex2",
       "japanese": "{西経|せいけい}180{度|ど}は{日付変更線|ひづけへんこうせん}にあたる。",
       "english": "180 degrees west longitude corresponds to the International Date Line.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26196_seikei_ex3",
       "japanese": "{南米|なんべい}{大陸|たいりく}の{大部分|だいぶぶん}は{西経|せいけい}35{度|ど}から80{度|ど}の{間|あいだ}に{位置|いち}している。",
       "english": "Most of the South American continent is located between 35 and 80 degrees west longitude.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A geography term composed of {西|にし} (west) and {経|けい} (longitude). Abbreviation: W. The counterpart is {東経|とうけい} (east longitude). Together with latitude ({緯度|いど}), longitude coordinates specify exact positions on the globe.\n\nCOMMON COLLOCATIONS:\n- {西経|せいけい}〜{度|ど} — 〜 degrees west longitude\n- {北緯|ほくい}〜{度|ど}{西経|せいけい}〜{度|ど} — latitude 〜° N, longitude 〜° W\n\nRELATED TERMS:\n- {東経|とうけい} — east longitude\n- {経度|けいど} — longitude (the measurement itself)\n- {本初子午線|ほんしょしごせん} — prime meridian (0° longitude, through Greenwich)",
-  "cross_references": [],
+  "notes": "A geography term composed of {西|にし} (west) and {経|けい} (longitude). Abbreviation: W. The counterpart is {東経|とうけい} (east longitude). Together with latitude ({緯度|いど}), longitude coordinates specify exact positions on the globe.\n\nCOMMON COLLOCATIONS:\n- {西経|せいけい}〜{度|ど} — 〜 degrees west longitude\n- {北緯|ほくい}〜{度|ど}{西経|せいけい}〜{度|ど} — latitude 〜° N, longitude 〜° W\n\nRELATED WORDS:\n- {東経|とうけい} — east longitude\n- {経度|けいど} — longitude (the measurement itself)\n- {本初子午線|ほんしょしごせん} — prime meridian (0° longitude, through Greenwich)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10004_toukei",
+      "reading": "とうけい",
+      "headword": "{東経|とうけい}",
+      "label": "east longitude"
+    },
+    {
+      "type": "related",
+      "target_id": "00209_keido",
+      "reading": "けいど",
+      "headword": "{経度|けいど}",
+      "label": "longitude"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["geography", "science"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "geography",
+        "science"
+      ]
     },
     "created": "2026-04-30T11:28:43Z",
-    "modified": "2026-04-30T11:28:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

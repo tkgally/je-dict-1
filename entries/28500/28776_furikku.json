@@ -17,7 +17,9 @@
       "id": "28776_furikku_ex1",
       "japanese": "フリックで{文字|もじ}を{入力|にゅうりょく}する。",
       "english": "I enter characters by flicking.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28776_furikku_ex2",
       "japanese": "{慣|な}れるとフリック{入力|にゅうりょく}はとても{速|はや}い。",
       "english": "Once you get used to it, flick input is very fast.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28776_furikku_ex3",
       "japanese": "{画面|がめん}を{上|うえ}にフリックすると{次|つぎ}のページに{移動|いどう}する。",
       "english": "If you flick the screen upward, you move to the next page.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"flick\". In Japan, most commonly refers to フリック{入力|にゅうりょく}, the standard Japanese smartphone keyboard input method.\n\nCOMMON COLLOCATIONS:\n- フリック{入力|にゅうりょく}: flick input\n- {上|うえ}にフリックする: to flick upward\n- フリックで{切|き}り{替|か}える: to switch by flicking\n\nFLICK INPUT:\nJapanese smartphone keyboards display あ、か、さ、た、な、は、ま、や、ら、わ as base keys. Flicking left, up, right, or down from a base selects い、う、え、お (and equivalent rows for other consonants).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05226_tacchipaneru",
+      "reading": "たっちぱねる",
+      "headword": "タッチパネル",
+      "label": "touch panel"
+    },
+    {
+      "type": "related",
+      "target_id": "05395_tappu",
+      "reading": "たっぷ",
+      "headword": "タップ",
+      "label": "tap (touchscreen)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["technology"],
+      "politeness": "plain",
+      "semantic": [
+        "technology"
+      ],
       "domain": []
     },
     "created": "2026-06-05T03:07:50Z",
-    "modified": "2026-06-05T03:07:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

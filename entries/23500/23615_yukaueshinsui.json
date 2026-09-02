@@ -3,7 +3,7 @@
   "headword": "{床上浸水|ゆかうえしんすい}",
   "reading": "ゆかうえしんすい",
   "romaji": "yukaueshinsui",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "above-floor flooding; flooding that rises above floor level into the living space",
   "definitions": [
     {
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {床上|ゆかうえ} (\"above the floor\") + {浸水|しんすい} (\"flooding, inundation\"). A standard category used by Japanese municipalities, fire departments, and news media when tallying damage from heavy rain, typhoons, or river flooding. Because water has entered the living space itself, it damages tatami, flooring, walls, and furniture, and the household typically qualifies for some form of disaster assistance.\n\nUSAGE:\n- Always appears as a fixed compound, not as a free phrase.\n- Used as a suru-verb or plain noun: {床上浸水|ゆかうえしんすい}する, {床上浸水|ゆかうえしんすい}の{被害|ひがい}.\n- News reports often list counts of {床上浸水|ゆかうえしんすい} and {床下浸水|ゆかしたしんすい} side by side, e.g., {床上浸水|ゆかうえしんすい}{十|じゅう}{軒|けん}、{床下浸水|ゆかしたしんすい}{五十|ごじゅう}{軒|けん}.\n\nCOMMON COLLOCATIONS:\n- {床上浸水|ゆかうえしんすい}の{被害|ひがい}: damage from above-floor flooding\n- {床上浸水|ゆかうえしんすい}する: to be flooded above floor level\n- {床上浸水|ゆかうえしんすい}が{発生|はっせい}する: above-floor flooding occurs\n- {床上浸水|ゆかうえしんすい}した{家屋|かおく}: a house that suffered above-floor flooding\n\nCONTRAST WITH:\n- {床下浸水|ゆかしたしんすい}: below-floor flooding — water only enters the crawl space beneath the floor; considered less severe\n\nRELATED TERMS:\n- {浸水|しんすい}: flooding, inundation (general term)\n- {冠水|かんすい}: submersion (typically of roads or fields)\n- {水害|すいがい}: flood damage (broad term)\n- {罹災|りさい}: being struck by a disaster\n- {見舞金|みまいきん}: sympathy/relief payment",
+  "notes": "Composed of {床上|ゆかうえ} (\"above the floor\") + {浸水|しんすい} (\"flooding, inundation\"). A standard category used by Japanese municipalities, fire departments, and news media when tallying damage from heavy rain, typhoons, or river flooding. Because water has entered the living space itself, it damages tatami, flooring, walls, and furniture, and the household typically qualifies for some form of disaster assistance.\n\nUSAGE:\n- Always appears as a fixed compound, not as a free phrase.\n- Used as a suru-verb or plain noun: {床上浸水|ゆかうえしんすい}する, {床上浸水|ゆかうえしんすい}の{被害|ひがい}.\n- News reports often list counts of {床上浸水|ゆかうえしんすい} and {床下浸水|ゆかしたしんすい} side by side, e.g., {床上浸水|ゆかうえしんすい}{十|じゅう}{軒|けん}、{床下浸水|ゆかしたしんすい}{五十|ごじゅう}{軒|けん}.\n\nCOMMON COLLOCATIONS:\n- {床上浸水|ゆかうえしんすい}の{被害|ひがい}: damage from above-floor flooding\n- {床上浸水|ゆかうえしんすい}する: to be flooded above floor level\n- {床上浸水|ゆかうえしんすい}が{発生|はっせい}する: above-floor flooding occurs\n- {床上浸水|ゆかうえしんすい}した{家屋|かおく}: a house that suffered above-floor flooding\n\nSIMILAR WORDS:\n- {床下浸水|ゆかしたしんすい}: below-floor flooding — water only enters the crawl space beneath the floor; considered less severe\n\nRELATED WORDS:\n- {浸水|しんすい}: flooding, inundation (general term)\n- {冠水|かんすい}: submersion (typically of roads or fields)\n- {水害|すいがい}: flood damage (broad term)\n- {罹災|りさい}: being struck by a disaster\n- {見舞金|みまいきん}: sympathy/relief payment",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23614_yukashitashinsui",
+      "reading": "ゆかしたしんすい",
+      "headword": "{床下浸水|ゆかしたしんすい}",
+      "label": "below-floor flooding"
+    },
+    {
+      "type": "related",
+      "target_id": "20916_kansui",
+      "reading": "かんすい",
+      "headword": "{冠水|かんすい}",
+      "label": "submersion"
+    },
+    {
+      "type": "related",
+      "target_id": "13261_suigai",
+      "reading": "すいがい",
+      "headword": "{水害|すいがい}",
+      "label": "flood damage"
+    },
+    {
+      "type": "related",
+      "target_id": "24434_mimaikin",
+      "reading": "みまいきん",
+      "headword": "{見舞金|みまいきん}",
+      "label": "sympathy/relief payment"
+    },
+    {
+      "type": "related",
+      "target_id": "24969_yukashita",
+      "reading": "ゆかした",
+      "headword": "{床下|ゆかした}",
+      "label": "under the floor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +98,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-12T21:19:04Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

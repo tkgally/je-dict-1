@@ -3,7 +3,7 @@
   "headword": "{回想|かいそう}する",
   "reading": "かいそうする",
   "romaji": "kaisousuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to recall; to reminisce; to recollect",
   "definitions": [
     {
@@ -45,6 +45,29 @@
     }
   ],
   "notes": "Describes the act of looking back on past events or experiences in one's mind. Combines {回|かい} (turn, revolve) and {想|そう} (think, imagine) — literally \"turning one's thoughts back.\"\n\nUSAGE:\n- Implies a deliberate or reflective act of remembering, not just a passing memory\n- Often used with longer-ago events: childhood, youth, wartime, career\n- Common in literary and narrative contexts, especially memoirs and autobiographies\n- The noun form {回想|かいそう} is also used: {回想|かいそう}シーン (flashback scene), {回想|かいそう}{録|ろく} (memoirs)\n\nTRANSITIVITY:\n- Transitive (takes を for the thing recalled)\n\nCOMMON COLLOCATIONS:\n- {過去|かこ}を{回想|かいそう}する: to look back on the past\n- {回想|かいそう}にふける: to be lost in reminiscence\n- {回想|かいそう}シーン: flashback scene\n- {回想|かいそう}{録|ろく}: memoirs, recollections\n\nSIMILAR WORDS:\n- {思|おも}い{出|だ}す: to remember, to recall — more everyday and spontaneous\n- {振|ふ}り{返|かえ}る: to look back on — can be used for both past events and physical turning\n- {追想|ついそう}: recollection, reminiscence — more literary; often tinged with nostalgia\n- {懐|なつ}かしむ: to feel nostalgic about — emphasizes the emotional aspect",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01258_omoidasu",
+      "reading": "おもいだす",
+      "headword": "{思|おも}い{出|だ}す",
+      "label": "to remember, to recall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04231_furikaeru",
+      "reading": "ふりかえる",
+      "headword": "{振|ふ}り{返|かえ}る",
+      "label": "to look back on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09913_natsukashimu",
+      "reading": "なつかしむ",
+      "headword": "{懐|なつ}かしむ",
+      "label": "to feel nostalgic about"
+    }
+  ],
   "metadata": {
     "entry_id": "21728_kaisousuru",
     "schema_version": "2.0",
@@ -56,6 +79,7 @@
         "verb-suru"
       ],
       "transitivity": "transitive",
+      "politeness": "plain",
       "semantic": [
         "cognition"
       ],
@@ -63,7 +87,7 @@
       "usage": [],
       "verb_class": "suru"
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

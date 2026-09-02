@@ -3,7 +3,7 @@
   "headword": "{治|なお}る",
   "reading": "なおる",
   "romaji": "naoru",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to heal; to recover; to be cured",
   "conjugation": {
     "type": "godan",
@@ -134,8 +134,60 @@
       "notes": null
     }
   ],
-  "notes": "A godan verb (る row) meaning for an illness or injury to heal. This is the kanji used specifically for medical recovery, as distinguished from {直|なお}る (to be fixed/corrected). Both are homophones read なおる, but the kanji choice differs by context.\n\nTRANSITIVITY:\nIntransitive. The transitive counterpart is {治|なお}す (to cure, to heal someone).\n\nKANJI NOTE:\nUse {治|なお}る for illness and injury recovery. Use {直|なお}る for fixing mechanical problems, correcting mistakes, or bad habits improving. In practice, many writers use {直|なお}る for both, but {治|なお}る is the precise choice for medical contexts.\n\nCOMMON COLLOCATIONS:\n- {風邪|かぜ}が{治|なお}る — a cold gets better\n- {病気|びょうき}が{治|なお}る — an illness is cured\n- {傷|きず}が{治|なお}る — a wound heals\n- {怪我|けが}が{治|なお}る — an injury heals\n- すっかり{治|なお}る — to completely recover\n\nSIMILAR WORDS:\n- {直|なお}る — to be fixed, to be corrected; used for non-medical fixes like repairing machines or correcting habits\n- {回復|かいふく}する — to recover; more formal and used for both medical and non-medical recovery (e.g., economic recovery)",
+  "notes": "A godan verb (る row) meaning for an illness or injury to heal. This is the kanji used specifically for medical recovery, as distinguished from {直|なお}る (to be fixed/corrected). Both are homophones read なおる, but the kanji choice differs by context.\n\nTRANSITIVITY:\nIntransitive. The transitive counterpart is {治|なお}す (to cure, to heal someone).\n\nWRITING:\nUse {治|なお}る for illness and injury recovery. Use {直|なお}る for fixing mechanical problems, correcting mistakes, or bad habits improving. In practice, many writers use {直|なお}る for both, but {治|なお}る is the precise choice for medical contexts.\n\nCOMMON COLLOCATIONS:\n- {風邪|かぜ}が{治|なお}る — a cold gets better\n- {病気|びょうき}が{治|なお}る — an illness is cured\n- {傷|きず}が{治|なお}る — a wound heals\n- {怪我|けが}が{治|なお}る — an injury heals\n- すっかり{治|なお}る — to completely recover\n\nSIMILAR WORDS:\n- {直|なお}る — to be fixed, to be corrected; used for non-medical fixes like repairing machines or correcting habits\n- {回復|かいふく}する — to recover; more formal and used for both medical and non-medical recovery (e.g., economic recovery)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "00735_naoru",
+      "reading": "なおる",
+      "headword": "{直|なお}る",
+      "label": "to be fixed, to be corrected"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21330_kaifukusuru",
+      "reading": "かいふくする",
+      "headword": "{回復|かいふく}する",
+      "label": "to recover"
+    },
+    {
+      "type": "related",
+      "target_id": "09775_kasabuta",
+      "reading": "かさぶた",
+      "headword": "かさぶた",
+      "label": "scab"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20856_ieru",
+      "reading": "いえる",
+      "headword": "{癒|い}える",
+      "label": "to heal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26939_chiyusuru",
+      "reading": "ちゆする",
+      "headword": "{治癒|ちゆ}する",
+      "label": "to heal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27790_osamaru",
+      "reading": "おさまる",
+      "headword": "{治|おさ}まる",
+      "label": "to subside"
+    }
+  ],
+  "prominent_see_also": [
+    {
+      "target_id": "19371_naosu",
+      "reading": "なおす",
+      "headword": "{治|なお}す",
+      "note": "transitive"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +203,6 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-03-26T07:29:01Z",
-    "modified": "2026-04-10T06:37:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

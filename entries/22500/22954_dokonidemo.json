@@ -17,7 +17,9 @@
       "id": "22954_dokonidemo_ex1",
       "japanese": "どこにでもある{店|みせ}だ。",
       "english": "It's a store you can find anywhere.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22954_dokonidemo_ex2",
       "japanese": "このパスがあれば、どこにでも{行|い}ける。",
       "english": "With this pass, you can go anywhere.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "22954_dokonidemo_ex3",
       "japanese": "コンビニはどこにでもあるので、{買|か}い{物|もの}に{困|こま}らない。",
       "english": "Convenience stores are everywhere, so you never have trouble shopping.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of どこ (where) + に (location particle) + でも (even/any). Functions as an adverb meaning \"at/to any place\" or \"everywhere.\" A natural combination of interrogative + でも that creates an inclusive meaning.\n\nCOMMON PATTERNS:\n- どこにでもある: to be found everywhere, ubiquitous\n- どこにでも{行|い}ける: can go anywhere\n- どこにでも{売|う}っている: sold everywhere\n\nCOMMON COLLOCATIONS:\n- どこにでもいる{人|ひと}: an ordinary/unremarkable person (lit. a person you'd find anywhere)\n- どこにでもある{話|はなし}: a common story\n\nSIMILAR EXPRESSIONS:\n- どこでも: anywhere (location of action) — similar but emphasizes where an action takes place\n- {至|いた}る{所|ところ}に: everywhere — more literary expression\n- {何処|どこ}にも: everywhere (with positive verb); nowhere (with negative verb)",
+  "notes": "Composed of どこ (where) + に (location particle) + でも (even/any). Functions as an adverb meaning \"at/to any place\" or \"everywhere.\" A natural combination of interrogative + でも that creates an inclusive meaning.\n\nCOMMON PATTERNS:\n- どこにでもある: to be found everywhere, ubiquitous\n- どこにでも{行|い}ける: can go anywhere\n- どこにでも{売|う}っている: sold everywhere\n\nCOMMON COLLOCATIONS:\n- どこにでもいる{人|ひと}: an ordinary/unremarkable person (lit. a person you'd find anywhere)\n- どこにでもある{話|はなし}: a common story\n\nSIMILAR WORDS:\n- どこでも: anywhere (location of action) — similar but emphasizes where an action takes place\n- {至|いた}る{所|ところ}に: everywhere — more literary expression\n- {何処|どこ}にも: everywhere (with positive verb); nowhere (with negative verb)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08499_dokodemo",
+      "reading": "どこでも",
+      "headword": "どこでも",
+      "label": "anywhere"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15861_itarutokoro",
+      "reading": "いたるところ",
+      "headword": "{至|いた}る{所|ところ}",
+      "label": "everywhere"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "adverb"
       ],
-      "semantic": ["existence", "quantity"],
+      "politeness": "plain",
+      "semantic": [
+        "existence",
+        "quantity"
+      ],
       "formality": "neutral"
     },
     "created": "2026-04-08T07:49:51Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

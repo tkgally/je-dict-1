@@ -3,7 +3,7 @@
   "headword": "{仮払|かりばら}い",
   "reading": "かりばらい",
   "romaji": "karibarai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "cash advance; provisional payment; temporary disbursement",
   "definitions": [
     {
@@ -57,6 +57,27 @@
       "target_id": "04696_keihi",
       "reading": "けいひ",
       "headword": "{経費|けいひ}"
+    },
+    {
+      "type": "related",
+      "target_id": "10197_tatekae",
+      "reading": "たてかえ",
+      "headword": "{立替|たてか}え",
+      "label": "advance payment, paying on someone's behalf"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23347_tatekaebarai",
+      "reading": "たてかえばらい",
+      "headword": "{立替|たてか}え{払|ばら}い",
+      "label": "paying on someone's behalf (to be reimbursed later)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30208_keihiseisan",
+      "reading": "けいひせいさん",
+      "headword": "経費精算",
+      "label": "expense reimbursement"
     }
   ],
   "schema_version": "2.0",
@@ -68,7 +89,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "finance",
         "work"
@@ -79,7 +100,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-29T18:17:31Z",
-    "modified": "2026-07-29T18:17:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

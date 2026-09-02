@@ -17,7 +17,9 @@
       "id": "26512_komekopan_ex1",
       "japanese": "{米粉|こめこ}パンはもちもちしている。",
       "english": "Rice flour bread has a chewy, springy texture.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26512_komekopan_ex2",
       "japanese": "{小麦|こむぎ}アレルギーの{子|こ}どもに{米粉|こめこ}パンを{焼|や}いた。",
       "english": "I baked rice flour bread for a child with a wheat allergy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,45 @@
       "id": "26512_komekopan_ex3",
       "japanese": "{最近|さいきん}は{学校給食|がっこうきゅうしょく}でも{米粉|こめこ}パンが{出|で}るようになり、{地元|じもと}の{米|こめ}を{使|つか}ったものが{人気|にんき}だ。",
       "english": "Rice flour bread has recently started appearing in school lunches, and versions using locally grown rice are popular.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {米粉|こめこ} (rice flour) and パン (bread, from Portuguese \"pão\"). Part of a broader trend in Japan toward using domestically produced rice in non-traditional ways. Rice flour bread has a distinctive moist, chewy (もちもち) texture that differs from wheat bread.\n\nCOMMON COLLOCATIONS:\n- {米粉|こめこ}パン{専門店|せんもんてん}: rice flour bread specialty shop\n- {米粉|こめこ}パンを{焼|や}く: to bake rice flour bread\n- グルテンフリーの{米粉|こめこ}パン: gluten-free rice flour bread\n\nCULTURAL NOTE:\nThe Japanese government has promoted {米粉|こめこ} products since the 2000s as part of efforts to increase rice consumption, which has been declining as Japanese diets become more westernized. Many school lunch programs now include rice flour bread made from locally grown rice.\n\nSIMILAR WORDS:\n- {食パン|しょくぱん}: white bread / sandwich bread — the standard bread loaf in Japan\n- {米粉|こめこ}: rice flour — the ingredient itself",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14636_shokupan",
+      "reading": "しょくぱん",
+      "headword": "{食|しょく}パン",
+      "label": "white bread / sandwich bread"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23413_gurutenfurii",
+      "reading": "ぐるてんふりー",
+      "headword": "グルテンフリー",
+      "label": "gluten-free"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-02T13:36:28Z",
-    "modified": "2026-05-02T13:36:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

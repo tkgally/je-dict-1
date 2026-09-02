@@ -17,7 +17,9 @@
       "id": "20308_hoshibudou_ex1",
       "japanese": "{干|ほ}しぶどう{入|い}りのパン。",
       "english": "Bread with raisins.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20308_hoshibudou_ex2",
       "japanese": "サラダに{干|ほ}しぶどうを{加|くわ}えた。",
       "english": "I added raisins to the salad.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "20308_hoshibudou_ex3",
       "japanese": "{干|ほ}しぶどうは{鉄分|てつぶん}が{豊富|ほうふ}で、おやつとしても{人気|にんき}がある。",
       "english": "Raisins are rich in iron and popular as a snack.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {干|ほ}し (dried — from {干|ほ}す, to dry) + ぶどう ({葡萄|ぶどう}, grapes). A straightforward compound following the common Japanese pattern of {干|ほ}し + food name for dried foods.\n\nUSAGE:\nThe English loanword レーズン is also very common in Japan and may be more frequently used in commercial and culinary contexts (especially baking). {干|ほ}しぶどう is the native Japanese term and is understood by everyone.\n\nCOMMON COLLOCATIONS:\n- {干|ほ}しぶどう{入|い}り — containing raisins\n- {干|ほ}しぶどうパン — raisin bread\n- {干|ほ}しぶどうを{入|い}れる — to add raisins\n\nSIMILAR WORDS:\n- レーズン — raisin (English loanword; common in recipes and product names)\n- ぶどう — grape (fresh, not dried)\n- {干|ほ}し{柿|がき} — dried persimmon (another traditional Japanese dried fruit)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12843_reezun",
+      "reading": "れーずん",
+      "headword": "レーズン",
+      "label": "raisin (English loanword"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28314_hoshigaki",
+      "reading": "ほしがき",
+      "headword": "{干|ほ}し{柿|がき}",
+      "label": "dried persimmon"
+    },
+    {
+      "type": "related",
+      "target_id": "00115_hosu",
+      "reading": "ほす",
+      "headword": "{干|ほ}す",
+      "label": "to dry, to air"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-03-28T20:15:12Z",
-    "modified": "2026-03-28T20:15:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

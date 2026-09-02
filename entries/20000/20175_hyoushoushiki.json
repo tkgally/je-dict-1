@@ -17,7 +17,9 @@
       "id": "20175_hyoushoushiki_ex1",
       "japanese": "{表彰式|ひょうしょうしき}に{出席|しゅっせき}する。",
       "english": "To attend an award ceremony.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20175_hyoushoushiki_ex2",
       "japanese": "{表彰式|ひょうしょうしき}で{金|きん}メダルを{授与|じゅよ}された。",
       "english": "A gold medal was awarded at the ceremony.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "20175_hyoushoushiki_ex3",
       "japanese": "{大会|たいかい}の{最後|さいご}に{表彰式|ひょうしょうしき}が{行|おこな}われ、{優勝者|ゆうしょうしゃ}にトロフィーが{贈|おく}られた。",
       "english": "An award ceremony was held at the end of the tournament, and the champion was presented with a trophy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {表彰|ひょうしょう} (commendation, public recognition) and {式|しき} (ceremony). {表彰|ひょうしょう} itself combines {表|ひょう} (express, show) and {彰|しょう} (make clear, praise).\n\nCOMMON COLLOCATIONS:\n- {表彰式|ひょうしょうしき}を{行|おこな}う — to hold an award ceremony\n- {表彰式|ひょうしょうしき}に{出席|しゅっせき}する — to attend an award ceremony\n- {表彰|ひょうしょう}{台|だい} — award podium\n- {表彰状|ひょうしょうじょう} — certificate of commendation\n\nSIMILAR WORDS:\n- {授賞式|じゅしょうしき} — prize-giving ceremony (specifically for prizes)\n- {卒業式|そつぎょうしき} — graduation ceremony\n- {式典|しきてん} — ceremony (more general, formal)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05584_sotsugyoushiki",
+      "reading": "そつぎょうしき",
+      "headword": "{卒業式|そつぎょうしき}",
+      "label": "graduation ceremony"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09526_shikiten",
+      "reading": "しきてん",
+      "headword": "{式典|しきてん}",
+      "label": "ceremony"
+    },
+    {
+      "type": "related",
+      "target_id": "19240_hyoushoudai",
+      "reading": "ひょうしょうだい",
+      "headword": "{表彰台|ひょうしょうだい}",
+      "label": "victory podium"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24267_jushoushiki",
+      "reading": "じゅしょうしき",
+      "headword": "{受賞式|じゅしょうしき}",
+      "label": "award ceremony"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["event"]
+      "semantic": [
+        "event"
+      ]
     },
     "created": "2026-03-28T15:12:49Z",
-    "modified": "2026-03-28T15:12:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

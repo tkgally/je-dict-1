@@ -19,7 +19,9 @@
       "english": "Do you need help?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12769_tedasuke_ex2",
@@ -27,7 +29,9 @@
       "english": "I finished the move with a friend's help.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12769_tedasuke_ex3",
@@ -35,7 +39,9 @@
       "english": "If someone is in trouble, I want to lend a hand, even if just a little.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{手助|てだす}け refers to practical, personal help — the kind you give by being directly involved rather than simply giving advice or money.\n\nCOMMON COLLOCATIONS:\n- {手助|てだす}けをする: to lend a hand, to help out\n- {手助|てだす}けが{必要|ひつよう}: to need help\n- {手助|てだす}けを{求|もと}める: to ask for help\n- {手助|てだす}けになる: to be of help\n\nSIMILAR WORDS:\n- {手伝|てつだ}い: help (often used for everyday tasks; more casual)\n- {援助|えんじょ}: aid, support (formal; often institutional or financial)\n- {助力|じょりょく}: assistance (formal, literary)",
@@ -46,18 +52,50 @@
       "reading": "てつだい",
       "headword": "{手伝|てつだ}い",
       "label": "help (more casual, everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01892_enjo",
+      "reading": "えんじょ",
+      "headword": "{援助|えんじょ}",
+      "label": "aid, support (formal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15249_joryoku",
+      "reading": "じょりょく",
+      "headword": "{助力|じょりょく}",
+      "label": "assistance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07776_sapooto",
+      "reading": "さぽーと",
+      "headword": "サポート",
+      "label": "support"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22446_hitodasuke",
+      "reading": "ひとだすけ",
+      "headword": "{人助|ひとだす}け",
+      "label": "helping others"
     }
   ],
   "metadata": {
     "created": "2026-02-22T10:24:01Z",
-    "modified": "2026-04-27T08:29:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
   }
 }

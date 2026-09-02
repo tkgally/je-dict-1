@@ -3,7 +3,7 @@
   "headword": "{倒産|とうさん}する",
   "reading": "とうさんする",
   "romaji": "tousansuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to go bankrupt",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Used specifically for businesses and companies, not for individuals. An intransitive verb — the company itself is the subject. Frequently appears in news reports about the economy.\n\nCOMMON COLLOCATIONS:\n- {倒産件数|とうさんけんすう}: number of bankruptcies\n- {連鎖倒産|れんさとうさん}: chain of bankruptcies; domino-effect failures\n- {倒産|とうさん}に{追|お}い{込|こ}まれる: to be driven to bankruptcy\n- {倒産|とうさん}の{危機|きき}: risk of bankruptcy\n- {倒産|とうさん}を{免|まぬが}れる: to avoid bankruptcy\n\nSIMILAR WORDS:\n- {破産|はさん}する: to go bankrupt — can be used for both individuals and businesses; a broader legal term\n- {廃業|はいぎょう}する: to close down a business — voluntary closure, not necessarily due to financial failure\n- {潰|つぶ}れる: to go under; to collapse — colloquial equivalent of {倒産|とうさん}する",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03555_hasan",
+      "reading": "はさん",
+      "headword": "{破産|はさん}",
+      "label": "to go bankrupt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20645_haigyou",
+      "reading": "はいぎょう",
+      "headword": "{廃業|はいぎょう}",
+      "label": "to close down a business"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04249_tsubureru",
+      "reading": "つぶれる",
+      "headword": "{潰|つぶ}れる",
+      "label": "to go under"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +87,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T13:09:12Z",
-    "modified": "2026-05-06T13:09:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

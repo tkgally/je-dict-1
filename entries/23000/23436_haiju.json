@@ -3,7 +3,7 @@
   "headword": "{拝受|はいじゅ}",
   "reading": "はいじゅ",
   "romaji": "haiju",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "humble receipt; to humbly receive",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "A humble (kenjoogo) expression for receiving something. It is the humble counterpart of {受|う}け{取|と}る and is considerably more formal. Used primarily in written correspondence, especially business emails and formal letters.\n\nCOMMON COLLOCATIONS:\n- {拝受|はいじゅ}いたしました: I have (humbly) received\n- {拝受|はいじゅ}しました: I have received (slightly less formal)\n- お{手紙|てがみ}{拝受|はいじゅ}: receipt of your letter\n- {確|たし}かに{拝受|はいじゅ}: confirmed receipt\n\nSIMILAR WORDS:\n- {受領|じゅりょう}: receipt — formal but not humble; used in official/administrative contexts\n- {受|う}け{取|と}る: to receive — neutral, everyday term\n- {頂戴|ちょうだい}する: to receive (humble) — less formal than {拝受|はいじゅ}, also used in speech\n- {賜|たまわ}る: to be granted (humble/respectful) — used when receiving from someone of very high status\n\nREGISTER:\nThis is one of the most formal ways to say 'I received.' It appears almost exclusively in written Japanese, particularly in business email and official correspondence. In spoken Japanese, {頂|いただ}きました or {受|う}け{取|と}りました are preferred.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20050_juryou",
+      "reading": "じゅりょう",
+      "headword": "{受領|じゅりょう}",
+      "label": "receipt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01883_uketoru",
+      "reading": "うけとる",
+      "headword": "{受|う}け{取|と}る",
+      "label": "to receive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05913_choudaisuru",
+      "reading": "ちょうだいする",
+      "headword": "{頂戴|ちょうだい}する",
+      "label": "to receive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07659_tamawaru",
+      "reading": "たまわる",
+      "headword": "{賜|たまわ}る",
+      "label": "to be granted"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-12T06:52:17Z",
-    "modified": "2026-04-12T06:52:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

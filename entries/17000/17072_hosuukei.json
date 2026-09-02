@@ -19,7 +19,9 @@
       "english": "I walk with a pedometer on.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17072_hosuukei_ex2",
@@ -27,7 +29,9 @@
       "english": "I record my daily steps with my smartphone's pedometer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17072_hosuukei_ex3",
@@ -35,21 +39,57 @@
       "english": "When I checked my pedometer, I had walked as many as 10,000 steps today.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Composed of {歩数|ほすう} (step count) + {計|けい} (meter/gauge). Refers to any device or app that counts steps.\n\nUSAGE:\nOriginally a standalone clip-on device, now commonly a built-in feature of smartphones and smartwatches. Still widely used in Japan, where the {一万歩|いちまんぽ} (10,000 steps per day) health goal remains popular.\n\nCOMMON COLLOCATIONS:\n- {歩数計|ほすうけい}アプリ: pedometer app\n- {歩数計|ほすうけい}を{付|つ}ける: to wear a pedometer\n- {歩数計|ほすうけい}で{測|はか}る: to measure with a pedometer\n\nRELATED 〜{計|けい} WORDS:\n- {体温計|たいおんけい}: thermometer (body temperature)\n- {体重計|たいじゅうけい}: bathroom scale\n- {万歩計|まんぽけい}: pedometer (brand name, very common synonym)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05484_taionkei",
+      "reading": "たいおんけい",
+      "headword": "{体温計|たいおんけい}",
+      "label": "thermometer"
+    },
+    {
+      "type": "related",
+      "target_id": "05485_taijuukei",
+      "reading": "たいじゅうけい",
+      "headword": "{体重計|たいじゅうけい}",
+      "label": "bathroom scale"
+    },
+    {
+      "type": "related",
+      "target_id": "20347_manpokei",
+      "reading": "まんぽけい",
+      "headword": "{万歩計|まんぽけい}",
+      "label": "pedometer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27348_nanpo",
+      "reading": "なんぽ",
+      "headword": "{何歩|なんぽ}",
+      "label": "how many steps"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T09:50:27Z",
-    "modified": "2026-03-30T12:38:04Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool", "general"]
+      "semantic": [
+        "tool",
+        "general"
+      ]
     }
   }
 }

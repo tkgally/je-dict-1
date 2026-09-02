@@ -205,11 +205,19 @@
       ]
     }
   ],
-  "notes": "つつく is a godan verb describing repeated light poking or pecking motions.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pattern: ～をつつく\n\nASPECT (ている):\nつついている describes an ongoing action — \"is poking\" or \"is pecking.\"\n\nCOMMON PATTERNS:\n- {鍋|なべ}をつつく: to eat from a shared pot\n- つまみをつつく: to pick at snacks (with drinks)\n- {箸|はし}でつつく: to poke/pick at with chopsticks\n- {指|ゆび}でつつく: to poke with a finger\n\nKANJI:\nCan be written as {突|つ}つく, though hiragana is more common.\n\nUSAGE:\nSense 2 (picking at food) is very common in casual speech, especially for shared meals ({鍋|なべ}) or snacking at a bar ({居酒屋|いざかや}). It implies a relaxed, unhurried eating style.",
-  "cross_references": [],
+  "notes": "つつく is a godan verb describing repeated light poking or pecking motions.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pattern: ～をつつく\n\nASPECT (ている):\nつついている describes an ongoing action — \"is poking\" or \"is pecking.\"\n\nCOMMON PATTERNS:\n- {鍋|なべ}をつつく: to eat from a shared pot\n- つまみをつつく: to pick at snacks (with drinks)\n- {箸|はし}でつつく: to poke/pick at with chopsticks\n- {指|ゆび}でつつく: to poke with a finger\n\nWRITING:\nCan be written as {突|つ}つく, though hiragana is more common.\n\nUSAGE:\nSense 2 (picking at food) is very common in casual speech, especially for shared meals ({鍋|なべ}) or snacking at a bar ({居酒屋|いざかや}). It implies a relaxed, unhurried eating style.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20719_tsuttsuku",
+      "reading": "つっつく",
+      "headword": "{突|つ}っつく",
+      "label": "to poke"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T08:30:48Z",
-    "modified": "2026-04-05T09:38:27Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -218,6 +226,7 @@
       "transitivity": "transitive",
       "verb_class": "godan-ku",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "body-action",
         "food-eating"

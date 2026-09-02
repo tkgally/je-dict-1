@@ -3,7 +3,7 @@
   "id": "14041_yuufuku",
   "headword": "{裕福|ゆうふく}",
   "reading": "ゆうふく",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "wealthy, affluent",
   "definitions": [
     {
@@ -44,7 +44,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA neutral, respectful way to describe wealth. Less flashy than {金持|かねも}ち (rich person) and more dignified than {リッチ} (rich). Often used to describe families and backgrounds rather than individuals.\n\nSIMILAR WORDS:\n- {裕福|ゆうふく}: wealthy, well-off (dignified, moderate tone)\n- {金持|かねも}ち: rich person (direct, casual)\n- {富裕|ふゆう}: affluent (formal, often in statistics)\n\nCOMMON COLLOCATIONS:\n- {裕福|ゆうふく}な{家庭|かてい}: wealthy family\n- {裕福|ゆうふく}な{暮|く}らし: affluent lifestyle",
+  "notes": "USAGE:\nA neutral, respectful way to describe wealth. Less flashy than {金持|かねも}ち (rich person) and more dignified than リッチ (rich). Often used to describe families and backgrounds rather than individuals.\n\nSIMILAR WORDS:\n- {裕福|ゆうふく}: wealthy, well-off (dignified, moderate tone)\n- {金持|かねも}ち: rich person (direct, casual)\n- {富裕|ふゆう}: affluent (formal, often in statistics)\n\nCOMMON COLLOCATIONS:\n- {裕福|ゆうふく}な{家庭|かてい}: wealthy family\n- {裕福|ゆうふく}な{暮|く}らし: affluent lifestyle",
   "cross_references": [
     {
       "type": "antonym",
@@ -52,11 +52,39 @@
       "reading": "まずしい",
       "headword": "{貧|まず}しい",
       "label": "poor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02993_kanemochi",
+      "reading": "かねもち",
+      "headword": "{金持|かねも}ち",
+      "label": "rich person"
+    },
+    {
+      "type": "synonym",
+      "target_id": "01989_okanemochi",
+      "reading": "おかねもち",
+      "headword": "お{金持|かねも}ち",
+      "label": "rich person, wealthy person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03654_yutaka",
+      "reading": "ゆたか",
+      "headword": "{豊|ゆた}か",
+      "label": "rich, abundant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19681_haburigaii",
+      "reading": "はぶりがいい",
+      "headword": "{羽振|はぶ}りがいい",
+      "label": "prosperous"
     }
   ],
   "metadata": {
     "created": "2026-02-27T10:12:36Z",
-    "modified": "2026-04-11T01:25:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "id": "14104_soushoku",
   "headword": "{装飾|そうしょく}",
   "reading": "そうしょく",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "decoration, ornamentation",
   "conjugation": {
     "type": "suru",
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "USAGE NOTE:\n{装飾|そうしょく} refers to ornamentation that is deliberate and often artistic. It implies a degree of craft or design effort, rather than simple arrangement.\n\nCOMMON COLLOCATIONS:\n- {装飾|そうしょく}を{施|ほどこ}す (apply decoration)\n- {装飾|そうしょく}{品|ひん} (ornament, decorative item)\n- {装飾|そうしょく}{的|てき} (decorative, ornamental)\n- {過剰|かじょう}な{装飾|そうしょく} (excessive decoration)\n- {装飾|そうしょく}{美術|びじゅつ} (decorative arts)\n\nSIMILAR WORDS:\n- {飾|かざ}り: decoration (everyday, informal)\n- デコレーション: decoration (loanword, often for cakes or events)\n- {修飾|しゅうしょく}: modification (grammatical term, or rhetorical embellishment)",
-  "cross_references": [],
+  "notes": "USAGE:\n{装飾|そうしょく} refers to ornamentation that is deliberate and often artistic. It implies a degree of craft or design effort, rather than simple arrangement.\n\nCOMMON COLLOCATIONS:\n- {装飾|そうしょく}を{施|ほどこ}す (apply decoration)\n- {装飾|そうしょく}{品|ひん} (ornament, decorative item)\n- {装飾|そうしょく}{的|てき} (decorative, ornamental)\n- {過剰|かじょう}な{装飾|そうしょく} (excessive decoration)\n- {装飾|そうしょく}{美術|びじゅつ} (decorative arts)\n\nSIMILAR WORDS:\n- {飾|かざ}り: decoration (everyday, informal)\n- デコレーション: decoration (loanword, often for cakes or events)\n- {修飾|しゅうしょく}: modification (grammatical term, or rhetorical embellishment)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02539_kazari",
+      "reading": "かざり",
+      "headword": "{飾|かざ}り",
+      "label": "decoration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23431_dekoreeshon",
+      "reading": "でこれーしょん",
+      "headword": "デコレーション",
+      "label": "decoration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00460_shuushoku",
+      "reading": "しゅうしょく",
+      "headword": "{修飾|しゅうしょく}",
+      "label": "modification"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T00:49:04Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

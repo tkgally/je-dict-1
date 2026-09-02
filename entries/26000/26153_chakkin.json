@@ -3,7 +3,7 @@
   "headword": "{着金|ちゃっきん}",
   "reading": "ちゃっきん",
   "romaji": "chakkin",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "receipt of payment; arrival of funds",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Composed of {着|ちゃく} (arrival) + {金|きん} (money). A practical term used frequently in business correspondence and online shopping. Commonly seen in email notifications from banks and payment services.\n\nCan be used as a suru verb: {着金|ちゃっきん}する (for funds to arrive).\n\nCOMMON COLLOCATIONS:\n- {着金|ちゃっきん}{確認|かくにん}: confirmation of payment received\n- {着金|ちゃっきん}{通知|つうち}: payment received notification\n- {着金|ちゃっきん}が{遅|おく}れる: for payment to be delayed\n- {着金|ちゃっきん}{日|び}: date of payment receipt\n\nSIMILAR WORDS:\n- {入金|にゅうきん}: deposit, incoming payment — more general, covers any money coming in\n- {送金|そうきん}: remittance, wire transfer — the act of sending money\n- {振込|ふりこみ}: bank transfer — the specific method of transfer",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05467_nyuukin",
+      "reading": "にゅうきん",
+      "headword": "{入金|にゅうきん}",
+      "label": "deposit, incoming payment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09774_soukin",
+      "reading": "そうきん",
+      "headword": "{送金|そうきん}",
+      "label": "remittance, wire transfer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05421_furikomi",
+      "reading": "ふりこみ",
+      "headword": "{振込|ふりこみ}",
+      "label": "bank transfer"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +76,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business",
         "finance"
@@ -61,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-29T15:29:13Z",
-    "modified": "2026-04-29T15:29:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

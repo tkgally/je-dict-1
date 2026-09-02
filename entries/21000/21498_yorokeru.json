@@ -3,7 +3,7 @@
   "headword": "よろける",
   "reading": "よろける",
   "romaji": "yorokeru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to stumble; to stagger; to totter; to lose one's balance",
   "definitions": [
     {
@@ -45,6 +45,29 @@
     }
   ],
   "notes": "Describes the sudden loss of balance causing someone to stumble or totter. Unlike ふらつく which implies ongoing unsteadiness, よろける describes a momentary event — a sudden stumble or lurch.\n\nUSAGE:\n- Describes a brief, involuntary loss of balance\n- Can be caused by external forces (wind, collision, sudden stops) or internal (tripping, weakness)\n- The related form よろめく has the same physical meaning but also has a figurative sense of being tempted romantically\n\nCOMMON COLLOCATIONS:\n- つまずいてよろける: to trip and stumble\n- {押|お}されてよろける: to be pushed and stagger\n- よろけながら{歩|ある}く: to walk unsteadily\n- よろけそうになる: to nearly lose one's balance\n\nSIMILAR WORDS:\n- よろめく: to stumble, totter — also means to be tempted (romantically); slightly more literary\n- ふらつく: to sway, stagger — implies continuous unsteadiness rather than a single moment\n- つまずく: to trip, stumble — specifically about catching one's foot on something\n- たたらを{踏|ふ}む: to stagger forward trying to regain balance — vivid and specific",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06971_yoromeku",
+      "reading": "よろめく",
+      "headword": "よろめく",
+      "label": "to stumble, totter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21497_furatsuku",
+      "reading": "ふらつく",
+      "headword": "ふらつく",
+      "label": "to sway, stagger"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06970_tsumazuku",
+      "reading": "つまずく",
+      "headword": "つまずく",
+      "label": "to trip, stumble"
+    }
+  ],
   "metadata": {
     "entry_id": "21498_yorokeru",
     "schema_version": "2.0",
@@ -55,6 +78,7 @@
       "pos": [
         "verb-ichidan"
       ],
+      "politeness": "plain",
       "semantic": [
         "movement"
       ],
@@ -62,7 +86,7 @@
       "usage": [],
       "verb_class": "ichidan"
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

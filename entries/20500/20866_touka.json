@@ -3,7 +3,7 @@
   "id": "20866_touka",
   "headword": "{透過|とうか}",
   "reading": "とうか",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "transmission, permeation, passing through",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,39 @@
     }
   ],
   "notes": "A technical term used primarily in science, medicine, and engineering to describe substances passing through materials. The verb form {透過|とうか}する takes the thing being transmitted as the subject and the medium with the particle を.\n\nCOMMON COLLOCATIONS:\n- {光|ひかり}を{透過|とうか}する: to transmit light\n- {透過|とうか}{率|りつ}: transmittance, transmission rate\n- {透過|とうか}{性|せい}: permeability\n- {透過|とうか}{型|がた}: transmission type (e.g., {透過|とうか}{型|がた}{電子|でんし}{顕微鏡|けんびきょう}, transmission electron microscope)\n\nSIMILAR WORDS:\n- {浸透|しんとう}: permeation, infiltration — often implies gradual seeping into something; also used figuratively for ideas spreading\n- {通過|つうか}: passing through — used for physical passage of people or vehicles, not substances through materials\n- {投下|とうか}: dropping, release — a homophone with a completely different meaning",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07593_shintou",
+      "reading": "しんとう",
+      "headword": "{浸透|しんとう}",
+      "label": "permeation, infiltration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03506_tsuuka",
+      "reading": "つうか",
+      "headword": "{通過|つうか}",
+      "label": "passing through"
+    },
+    {
+      "type": "homophone",
+      "target_id": "12893_touka",
+      "reading": "とうか",
+      "headword": "{投下|とうか}",
+      "label": "dropping, release"
+    },
+    {
+      "type": "related",
+      "target_id": "08405_kussetsu",
+      "reading": "くっせつ",
+      "headword": "{屈折|くっせつ}",
+      "label": "refraction"
+    }
+  ],
   "metadata": {
     "created": "2026-03-30T19:07:12Z",
-    "modified": "2026-03-30T19:07:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

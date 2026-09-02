@@ -17,7 +17,9 @@
       "id": "21833_kaboku_ex1",
       "japanese": "{庭|にわ}に{花木|かぼく}を{植|う}える。",
       "english": "To plant flowering trees in the garden.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21833_kaboku_ex2",
       "japanese": "この{公園|こうえん}には{様々|さまざま}な{花木|かぼく}が{植|う}えられている。",
       "english": "Various flowering trees are planted in this park.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "21833_kaboku_ex3",
       "japanese": "{春|はる}になると{花木|かぼく}が{一斉|いっせい}に{咲|さ}き{始|はじ}め、{園内|えんない}は{華|はな}やかな{雰囲気|ふんいき}に{包|つつ}まれる。",
       "english": "In spring, the flowering trees begin to bloom all at once, and the grounds are enveloped in a gorgeous atmosphere.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {花|か} (flower) and {木|ぼく} (tree). A general term encompassing all trees and shrubs grown for their ornamental blossoms. Common in gardening, landscaping, and botanical contexts.\n\nCOMMON COLLOCATIONS:\n- {花木|かぼく}を{植|う}える: to plant flowering trees\n- {花木|かぼく}の{手入|てい}れ: care of flowering trees\n- {花木|かぼく}{園|えん}: flowering tree garden\n- {花木|かぼく}の{剪定|せんてい}: pruning of flowering trees\n\nEXAMPLES OF {花木|かぼく}:\n- {桜|さくら}: cherry blossom\n- {梅|うめ}: plum blossom\n- {椿|つばき}: camellia\n- {山茶花|さざんか}: sasanqua\n- ツツジ: azalea\n- {藤|ふじ}: wisteria\n\nSIMILAR WORDS:\n- {果樹|かじゅ}: fruit tree — trees cultivated for their fruit rather than flowers\n- {樹木|じゅもく}: tree — general term for trees, regardless of flowers\n- {草花|くさばな}: flowering plants — specifically herbaceous (non-woody) flowering plants, as opposed to trees",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27144_kaju",
+      "reading": "かじゅ",
+      "headword": "{果樹|かじゅ}",
+      "label": "fruit tree"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04955_jumoku",
+      "reading": "じゅもく",
+      "headword": "{樹木|じゅもく}",
+      "label": "tree"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23050_kusabana",
+      "reading": "くさばな",
+      "headword": "{草花|くさばな}",
+      "label": "flowering plants"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature"]
+      "semantic": [
+        "nature"
+      ]
     },
     "created": "2026-04-03T18:31:06Z",
-    "modified": "2026-04-03T18:31:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{帯電|たいでん}",
   "reading": "たいでん",
   "romaji": "taiden",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "electrification; becoming electrically charged",
   "definitions": [
     {
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {帯|たい} (to wear, carry) + {電|でん} (electricity). The する form ({帯電|たいでん}する) means \"to become charged.\" Most commonly encountered in discussions of static electricity in winter or in product descriptions for anti-static items.\n\nCOMMON COLLOCATIONS:\n- {帯電|たいでん}{防止|ぼうし}: anti-static, static prevention\n- {帯電|たいでん}する: to become charged\n- {帯電|たいでん}{量|りょう}: amount of charge\n- {帯電|たいでん}しやすい: easily charged\n\nRELATED TERMS:\n- {静電気|せいでんき}: static electricity\n- {放電|ほうでん}: discharge (releasing stored charge)\n- {充電|じゅうでん}: charging (a battery)",
+  "notes": "Compound of {帯|たい} (to wear, carry) + {電|でん} (electricity). The する form ({帯電|たいでん}する) means \"to become charged.\" Most commonly encountered in discussions of static electricity in winter or in product descriptions for anti-static items.\n\nCOMMON COLLOCATIONS:\n- {帯電|たいでん}{防止|ぼうし}: anti-static, static prevention\n- {帯電|たいでん}する: to become charged\n- {帯電|たいでん}{量|りょう}: amount of charge\n- {帯電|たいでん}しやすい: easily charged\n\nRELATED WORDS:\n- {静電気|せいでんき}: static electricity\n- {放電|ほうでん}: discharge (releasing stored charge)\n- {充電|じゅうでん}: charging (a battery)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18522_seidenki",
+      "reading": "せいでんき",
+      "headword": "{静電気|せいでんき}",
+      "label": "static electricity"
+    },
+    {
+      "type": "related",
+      "target_id": "19289_houden",
+      "reading": "ほうでん",
+      "headword": "{放電|ほうでん}",
+      "label": "discharge"
+    },
+    {
+      "type": "related",
+      "target_id": "04427_juuden",
+      "reading": "じゅうでん",
+      "headword": "{充電|じゅうでん}",
+      "label": "charging"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24378_denka",
+      "reading": "でんか",
+      "headword": "{電荷|でんか}",
+      "label": "electric charge"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T21:27:36Z",
-    "modified": "2026-04-02T21:27:36Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

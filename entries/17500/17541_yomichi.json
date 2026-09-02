@@ -19,7 +19,9 @@
       "english": "Be careful on the road at night.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17541_yomichi_ex2",
@@ -27,7 +29,9 @@
       "english": "It's scary to walk alone at night.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17541_yomichi_ex3",
@@ -35,21 +39,43 @@
       "english": "I couldn't see my footing on the dark nighttime road and tripped.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften used when talking about safety concerns, especially for women and children walking home at night. Also appears in proverbs and folk wisdom, such as {夜道|よみち}に{日|ひ}は{暮|く}れぬ (\"the sun doesn't set on a night road\" — meaning there's no need to hurry at night).\n\nCOMMON COLLOCATIONS:\n- {夜道|よみち}を{歩|ある}く (to walk at night)\n- {暗|くら}い{夜道|よみち} (dark nighttime road)\n- {夜道|よみち}は{危|あぶ}ない (nighttime roads are dangerous)\n- {一人|ひとり}で{夜道|よみち} (alone on a nighttime road)\n\nSIMILAR WORDS:\n- {夜|よる}の{道|みち}: road at night — more descriptive, same meaning\n- {暗闇|くらやみ}: darkness — the condition rather than the path\n- {帰|かえ}り{道|みち}: way home — can overlap when returning home at night",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12859_kurayami",
+      "reading": "くらやみ",
+      "headword": "{暗闇|くらやみ}",
+      "label": "darkness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12447_kaerimichi",
+      "reading": "かえりみち",
+      "headword": "{帰|かえ}り{道|みち}",
+      "label": "way home"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T08:06:34Z",
-    "modified": "2026-03-18T08:06:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general", "geography"]
+      "semantic": [
+        "time-general",
+        "geography"
+      ]
     }
   }
 }

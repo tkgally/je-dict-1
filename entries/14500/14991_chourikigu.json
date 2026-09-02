@@ -45,10 +45,46 @@
     }
   ],
   "notes": "USAGE:\n{調理器具|ちょうりきぐ} is a general term covering all tools used in food preparation. It is commonly used in recipes, product descriptions, and cooking instructions.\n\nCOMMON COLLOCATIONS:\n- {調理器具|ちょうりきぐ}を{揃|そろ}える (to get a set of cooking utensils)\n- {調理器具|ちょうりきぐ}{売|う}り{場|ば} (kitchenware section/department)\n- {調理器具|ちょうりきぐ}の{手入|てい}れ (maintenance of cooking tools)\n\nRELATED WORDS:\n- {包丁|ほうちょう}: kitchen knife\n- {鍋|なべ}: pot\n- {食器|しょっき}: tableware, dishes",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04976_houchou",
+      "reading": "ほうちょう",
+      "headword": "{包丁|ほうちょう}",
+      "label": "kitchen knife"
+    },
+    {
+      "type": "related",
+      "target_id": "01038_nabe",
+      "reading": "なべ",
+      "headword": "{鍋|なべ}",
+      "label": "pot"
+    },
+    {
+      "type": "related",
+      "target_id": "04204_shokki",
+      "reading": "しょっき",
+      "headword": "{食器|しょっき}",
+      "label": "tableware, dishes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23293_chouriyougu",
+      "reading": "ちょうりようぐ",
+      "headword": "{調理用具|ちょうりようぐ}",
+      "label": "cooking utensils"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29323_chuuboukiki",
+      "reading": "ちゅうぼうきき",
+      "headword": "{厨房機器|ちゅうぼうきき}",
+      "label": "kitchen equipment"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T11:07:09Z",
-    "modified": "2026-03-04T11:07:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

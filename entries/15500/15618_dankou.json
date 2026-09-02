@@ -3,7 +3,7 @@
   "id": "15618_dankou",
   "headword": "{断行|だんこう}",
   "reading": "だんこう",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "decisive action; carrying out resolutely",
   "conjugation": {
     "type": "suru",
@@ -149,11 +149,32 @@
       "reading": "けっこう",
       "headword": "{決行|けっこう}",
       "label": "despite obstacles"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21480_kankou",
+      "reading": "かんこう",
+      "headword": "{敢行|かんこう}",
+      "label": "bold execution"
+    },
+    {
+      "type": "homophone",
+      "target_id": "21584_dankou",
+      "reading": "だんこう",
+      "headword": "{断交|だんこう}",
+      "label": "severing of relations"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21868_kankousuru",
+      "reading": "かんこうする",
+      "headword": "{敢行|かんこう}する",
+      "label": "to carry out boldly"
     }
   ],
   "metadata": {
     "created": "2026-03-07T13:12:06Z",
-    "modified": "2026-07-16T12:18:52Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

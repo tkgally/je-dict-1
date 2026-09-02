@@ -44,11 +44,33 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA somewhat literary or evocative word. In everyday speech, {港|みなと} (port, harbor) is more common. {波止場|はとば} often appears in literature, songs, and nostalgic descriptions of port towns.\n\nCOMMON COLLOCATIONS:\n- {波止場|はとば}で{待|ま}つ (to wait at the wharf)\n- {波止場|はとば}の{風景|ふうけい} (wharf scenery)\n- {波止場|はとば}で{働|はたら}く (to work at the docks)\n\nWORD FORMATION:\n{波止|はと} (breakwater) + {場|ば} (place). {波止|はと} comes from {波|なみ} (wave) + {止|と}める (to stop).",
-  "cross_references": [],
+  "notes": "USAGE:\nA somewhat literary or evocative word. In everyday speech, {港|みなと} (port, harbor) is more common. {波止場|はとば} often appears in literature, songs, and nostalgic descriptions of port towns.\n\nCOMMON COLLOCATIONS:\n- {波止場|はとば}で{待|ま}つ (to wait at the wharf)\n- {波止場|はとば}の{風景|ふうけい} (wharf scenery)\n- {波止場|はとば}で{働|はたら}く (to work at the docks)\n\nFORMS:\n{波止|はと} (breakwater) + {場|ば} (place). {波止|はと} comes from {波|なみ} (wave) + {止|と}める (to stop).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09241_sanbashi",
+      "reading": "さんばし",
+      "headword": "{桟橋|さんばし}",
+      "label": "pier, wharf, jetty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20686_futou",
+      "reading": "ふとう",
+      "headword": "{埠頭|ふとう}",
+      "label": "wharf"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21296_funatsukiba",
+      "reading": "ふなつきば",
+      "headword": "{船着|ふなつ}き{場|ば}",
+      "label": "boat landing"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T09:55:13Z",
-    "modified": "2026-07-16T07:06:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -56,6 +78,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "style": [
         "literary"
       ],

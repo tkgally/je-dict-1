@@ -17,7 +17,9 @@
       "id": "29979_kizuchi_ex1",
       "japanese": "{木槌|きづち}で{叩|たた}く。",
       "english": "Tap it with a wooden mallet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29979_kizuchi_ex2",
       "japanese": "{木槌|きづち}で{釘|くぎ}を{軽|かる}く{打|う}った。",
       "english": "I lightly drove the nail with a wooden mallet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29979_kizuchi_ex3",
       "japanese": "{家具|かぐ}を{組|く}み{立|た}てるとき、{木槌|きづち}を{使|つか}うと{部品|ぶひん}を{傷|きず}つけずに{済|す}む。",
       "english": "When assembling furniture, using a wooden mallet lets you avoid damaging the parts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Chosen over a metal hammer when the workpiece must not be marked or dented.\n\nCOMMON COLLOCATIONS:\n- {木槌|きづち}で{叩|たた}く: to tap with a wooden mallet\n- {木槌|きづち}を{使|つか}う: to use a wooden mallet\n- {木槌|きづち}で{打|う}ち{込|こ}む: to drive in with a wooden mallet\n\nSIMILAR WORDS:\n- {金槌|かなづち}: metal hammer — harder-hitting but liable to damage soft materials\n- ゴムハンマー: rubber mallet — a modern equivalent that leaves no marks",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05476_kanazuchi",
+      "reading": "かなづち",
+      "headword": "{金槌|かなづち}",
+      "label": "metal hammer"
+    },
+    {
+      "type": "related",
+      "target_id": "06546_nomi",
+      "reading": "のみ",
+      "headword": "のみ",
+      "label": "chisel"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["tool"],
+      "politeness": "plain",
+      "semantic": [
+        "tool"
+      ],
       "domain": []
     },
     "created": "2026-07-20T06:17:59Z",
-    "modified": "2026-07-20T06:17:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

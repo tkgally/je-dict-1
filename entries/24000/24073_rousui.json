@@ -3,7 +3,7 @@
   "headword": "{漏水|ろうすい}",
   "reading": "ろうすい",
   "romaji": "rousui",
-  "part_of_speech": "noun (する verb)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "water leak; water leakage",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "A formal/technical term for water leakage, commonly used in housing, building maintenance, and plumbing contexts. In apartment buildings, {漏水|ろうすい} from an upper floor is a common source of neighbor disputes. This word appears frequently on property inspection reports and repair notices.\n\nCOMMON COLLOCATIONS:\n- {漏水|ろうすい}{事故|じこ}: water leak incident\n- {漏水|ろうすい}{調査|ちょうさ}: leak investigation\n- {漏水|ろうすい}{修理|しゅうり}: leak repair\n- {漏水|ろうすい}{被害|ひがい}: water leak damage\n- {漏水|ろうすい}を{防|ふせ}ぐ: to prevent water leakage\n\nSIMILAR WORDS:\n- {水漏|みずも}れ: water leak — the everyday word for the same phenomenon, while {漏水|ろうすい} is more formal/written\n- {雨漏|あまも}り: roof leak — specifically from rain coming through the roof",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07936_mizumore",
+      "reading": "みずもれ",
+      "headword": "{水漏|みずも}れ",
+      "label": "water leak"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07935_amamori",
+      "reading": "あまもり",
+      "headword": "{雨漏|あまも}り",
+      "label": "roof leak"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,14 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "building"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-17T17:36:22Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

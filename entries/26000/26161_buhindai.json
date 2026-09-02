@@ -17,7 +17,9 @@
       "id": "26161_buhindai_ex1",
       "japanese": "{部品代|ぶひんだい}は{別途|べっと}かかります。",
       "english": "The parts cost is charged separately.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26161_buhindai_ex2",
       "japanese": "{修理|しゅうり}の{見積|みつも}もりで{部品代|ぶひんだい}が{高|たか}くて{驚|おどろ}いた。",
       "english": "I was surprised by the high parts cost in the repair estimate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26161_buhindai_ex3",
       "japanese": "{工賃|こうちん}は{三千円|さんぜんえん}だが、{部品代|ぶひんだい}を{含|ふく}めると{一万円|いちまんえん}を{超|こ}える。",
       "english": "The labor charge is 3,000 yen, but including parts it exceeds 10,000 yen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {部品|ぶひん} (parts, components) + {代|だい} (cost, charge). The suffix {代|だい} is one of the most common ways to express cost in Japanese, attaching to many nouns: {食事代|しょくじだい} (meal cost), {交通費|こうつうひ} (transport cost), {電気代|でんきだい} (electricity bill).\n\nCOMMON COLLOCATIONS:\n- {部品代|ぶひんだい}と{工賃|こうちん}: parts cost and labor charge\n- {部品代|ぶひんだい}{込|こ}み: parts included (in the price)\n- {部品代|ぶひんだい}が{高|たか}い: parts are expensive\n- {部品代|ぶひんだい}{別途|べっと}: parts charged separately\n\nSIMILAR WORDS:\n- {工賃|こうちん}: labor charge — the cost of the work itself\n- {修理代|しゅうりだい}: repair cost — the total cost of a repair\n- {材料費|ざいりょうひ}: material cost — broader term covering raw materials",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23036_kouchin",
+      "reading": "こうちん",
+      "headword": "{工賃|こうちん}",
+      "label": "labor charge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11512_zairyouhi",
+      "reading": "ざいりょうひ",
+      "headword": "{材料費|ざいりょうひ}",
+      "label": "material cost"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business", "daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "daily-life"
+      ]
     },
     "created": "2026-04-29T15:32:23Z",
-    "modified": "2026-04-29T15:32:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

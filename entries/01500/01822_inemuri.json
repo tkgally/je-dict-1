@@ -2,7 +2,7 @@
   "id": "01822_inemuri",
   "headword": "{居眠|いねむ}り",
   "reading": "いねむり",
-  "part_of_speech": "noun/suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "dozing, nodding off",
   "conjugation": {
     "type": "suru",
@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "{居眠|いねむ}り refers to dozing while seated or in public.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {居眠|いねむ}り⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {居眠|いねむ}り⟦する→する：00392_suru⟧ (to doze off)\n- {居眠|いねむ}り⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to take a nap while seated)\n- {居眠|いねむ}り⟦{運転|うんてん}→運転：01335_unten⟧ (drowsy driving)\n\nCULTURAL NOTE:\n- いねむり (napping in public) is relatively accepted in Japan\n- Common on trains, in meetings, etc.\n- Seen as a sign of working hard/being tired\n\nRELATED:\n- ⟦{昼寝|ひるね}→昼寝：00106_hirune⟧: afternoon nap (intentional)\n- ⟦うとうとする→うとうとする：26856_utoutosuru⟧: to doze, to drowse",
+  "notes": "{居眠|いねむ}り refers to dozing while seated or in public.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {居眠|いねむ}り⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {居眠|いねむ}り⟦する→する：00392_suru⟧ (to doze off)\n- {居眠|いねむ}り⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to take a nap while seated)\n- {居眠|いねむ}り⟦{運転|うんてん}→運転：01335_unten⟧ (drowsy driving)\n\nCULTURAL NOTE:\n- いねむり (napping in public) is relatively accepted in Japan\n- Common on trains, in meetings, etc.\n- Seen as a sign of working hard/being tired\n\nRELATED WORDS:\n- ⟦{昼寝|ひるね}→昼寝：00106_hirune⟧: afternoon nap (intentional)\n- ⟦うとうとする→うとうとする：26856_utoutosuru⟧: to doze, to drowse",
   "cross_references": [
     {
       "type": "contrast",
@@ -216,11 +216,39 @@
       "reading": "ひるね",
       "headword": "{昼寝|ひるね}",
       "label": "nap (intentional)"
+    },
+    {
+      "type": "related",
+      "target_id": "26856_utoutosuru",
+      "reading": "うとうとする",
+      "headword": "うとうとする",
+      "label": "to doze, to drowse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05270_utouto",
+      "reading": "うとうと",
+      "headword": "うとうと",
+      "label": "drowsily"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08036_utatane",
+      "reading": "うたたね",
+      "headword": "うたた{寝|ね}",
+      "label": "dozing off"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21853_gosui",
+      "reading": "ごすい",
+      "headword": "{午睡|ごすい}",
+      "label": "afternoon nap"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:15:00Z",
-    "modified": "2026-05-17T13:09:03Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

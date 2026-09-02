@@ -3,7 +3,7 @@
   "id": "20864_zokuhatsu",
   "headword": "{続発|ぞくはつ}",
   "reading": "ぞくはつ",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "occurring one after another, successive occurrence",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,32 @@
     }
   ],
   "notes": "Almost exclusively used for negative events — accidents, crimes, complications, disasters, and similar problems. Unlike {連発|れんぱつ}, which can describe any rapid repetition including positive things, {続発|ぞくはつ} strongly implies a troubling pattern of incidents arising in sequence.\n\nCOMMON COLLOCATIONS:\n- {事故|じこ}が{続発|ぞくはつ}する: accidents occur in succession\n- {事件|じけん}が{続発|ぞくはつ}する: incidents occur one after another\n- {合併症|がっぺいしょう}が{続発|ぞくはつ}する: complications arise in succession\n- {被害|ひがい}が{続発|ぞくはつ}する: damage/harm keeps occurring\n\nSIMILAR WORDS:\n- {連発|れんぱつ}: rapid repetition — same action repeated in quick succession; can be positive or negative\n- {頻発|ひんぱつ}: frequent occurrence — emphasizes high frequency, less focus on sequential pattern\n- {多発|たはつ}: frequent occurrence — similar to {頻発|ひんぱつ} but more neutral/statistical",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20863_renpatsu",
+      "reading": "れんぱつ",
+      "headword": "{連発|れんぱつ}",
+      "label": "rapid repetition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14670_hinpatsu",
+      "reading": "ひんぱつ",
+      "headword": "{頻発|ひんぱつ}",
+      "label": "frequent occurrence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20508_tahatsu",
+      "reading": "たはつ",
+      "headword": "{多発|たはつ}",
+      "label": "frequent occurrence"
+    }
+  ],
   "metadata": {
     "created": "2026-03-30T19:06:27Z",
-    "modified": "2026-07-29T00:22:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

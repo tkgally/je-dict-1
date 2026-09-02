@@ -17,7 +17,9 @@
       "id": "25907_yomitobashi_ex1",
       "japanese": "{規約|きやく}は{読|よ}み{飛|と}ばしがちだ。",
       "english": "People tend to skim over the terms of service.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25907_yomitobashi_ex2",
       "japanese": "{読|よ}み{飛|と}ばしをすると{大事|だいじ}な{情報|じょうほう}を{見落|みお}とす。",
       "english": "If you skim, you'll miss important information.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,52 @@
       "id": "25907_yomitobashi_ex3",
       "japanese": "{長|なが}い{小説|しょうせつ}を{読|よ}むとき、{退屈|たいくつ}な{場面|ばめん}は{読|よ}み{飛|と}ばしをしてしまうことがある。",
       "english": "When reading a long novel, I sometimes end up skipping over the boring scenes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The noun form of the verb {読|よ}み{飛|と}ばす (to skim; to skip while reading). Describes the action of deliberately not reading parts of a text, whether out of impatience, disinterest, or efficiency.\n\nCOMMON COLLOCATIONS:\n- {読|よ}み{飛|と}ばしをする: to do skimming; to skip parts\n- {読|よ}み{飛|と}ばしがちだ: tend to skim over\n- {読|よ}み{飛|と}ばし{禁止|きんし}: no skipping (instruction)\n\nSIMILAR WORDS:\n- {斜|なな}め{読|よ}み: skimming; reading diagonally — implies scanning quickly for key points rather than skipping entirely\n- {飛|と}ばし{読|よ}み: skip-reading — same meaning, reversed word order; less common\n- {速読|そくどく}: speed reading — a technique for reading quickly while maintaining comprehension",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22744_nanameyomi",
+      "reading": "ななめよみ",
+      "headword": "{斜|なな}め{読|よ}み",
+      "label": "skimming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22841_tobashiyomi",
+      "reading": "とばしよみ",
+      "headword": "{飛|と}ばし{読|よ}み",
+      "label": "skip-reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22402_sokudoku",
+      "reading": "そくどく",
+      "headword": "{速読|そくどく}",
+      "label": "speed reading"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["cognition", "action"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "cognition",
+        "action"
+      ]
     },
     "created": "2026-04-28T12:19:50Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

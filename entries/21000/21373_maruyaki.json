@@ -17,7 +17,9 @@
       "id": "21373_maruyaki_ex1",
       "japanese": "{鶏|とり}の{丸焼|まるや}きを{買|か}った。",
       "english": "I bought a whole roast chicken.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21373_maruyaki_ex2",
       "japanese": "クリスマスに{七面鳥|しちめんちょう}の{丸焼|まるや}きを{作|つく}る。",
       "english": "We make a whole roast turkey for Christmas.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "21373_maruyaki_ex3",
       "japanese": "キャンプで{魚|さかな}の{丸焼|まるや}きをしたら、{皮|かわ}がパリッと{焼|や}けて{美味|おい}しかった。",
       "english": "When we roasted the fish whole at the campsite, the skin turned crispy and it was delicious.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {丸|まる} (whole, entire) and {焼|や}き (grilling/roasting). Describes the cooking method of roasting an entire animal or item without cutting it up first. Common with chicken, turkey, fish, sweet potatoes, and corn. The word emphasizes the impressive, often celebratory presentation of the whole item.\n\nCOMMON COLLOCATIONS:\n- {鶏|とり}の{丸焼|まるや}き: whole roast chicken\n- {魚|さかな}の{丸焼|まるや}き: whole grilled fish\n- {子豚|こぶた}の{丸焼|まるや}き: whole roast suckling pig\n- {丸焼|まるや}きにする: to roast whole\n\nSIMILAR WORDS:\n- ロースト: roast — Western-style roasting, often for cuts of meat\n- {姿焼|すがたや}き: grilled in whole form — especially for fish, emphasizing the shape\n- {串焼|くしや}き: skewer grilling — grilled on sticks, opposite of whole roasting",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26129_maruage",
+      "reading": "まるあげ",
+      "headword": "{丸揚|まるあ}げ",
+      "label": "whole deep-frying"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26139_maruni",
+      "reading": "まるに",
+      "headword": "{丸煮|まるに}",
+      "label": "cooking whole"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "cooking"]
+      "semantic": [
+        "food",
+        "cooking"
+      ]
     },
     "created": "2026-04-02T01:43:24Z",
-    "modified": "2026-04-02T01:43:24Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

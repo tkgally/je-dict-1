@@ -17,7 +17,9 @@
       "id": "27902_minji_ex1",
       "japanese": "{民事|みんじ}の{裁判|さいばん}を{起|お}こす。",
       "english": "To file a civil lawsuit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27902_minji_ex2",
       "japanese": "この{問題|もんだい}は{民事|みんじ}で{解決|かいけつ}すべきだ。",
       "english": "This matter should be settled as a civil case.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,40 @@
       "id": "27902_minji_ex3",
       "japanese": "{交通事故|こうつうじこ}では、{刑事|けいじ}{責任|せきにん}とは{別|べつ}に{民事|みんじ}{責任|せきにん}も{問|と}われる。",
       "english": "In a traffic accident, civil liability is pursued separately from criminal liability.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n- {民事|みんじ}{訴訟|そしょう}: civil lawsuit\n- {民事|みんじ}{裁判|さいばん}: civil trial\n- {民事|みんじ}{責任|せきにん}: civil liability\n- {民事|みんじ}{事件|じけん}: civil case\n\nSIMILAR WORDS:\n- {刑事|けいじ}: criminal — its direct antonym, covering crimes prosecuted by the state.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "02741_keiji",
+      "reading": "けいじ",
+      "headword": "{刑事|けいじ}",
+      "label": "criminal"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     },
     "created": "2026-05-22T03:04:31Z",
-    "modified": "2026-05-22T03:04:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

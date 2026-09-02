@@ -19,7 +19,9 @@
       "english": "Let's use a more polite phrasing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14146_iimawashi_ex2",
@@ -27,7 +29,9 @@
       "english": "Japanese has many unique expressions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14146_iimawashi_ex3",
@@ -35,7 +39,9 @@
       "english": "That phrasing might cause a misunderstanding, so it would be better to change to a different expression.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{言|い}い{回|まわ}し focuses on how something is said rather than what is said. It is similar to {表現|ひょうげん} (expression) but more specifically about the wording and phrasing choices. Often discussed in the context of politeness levels, avoiding offense, or improving writing.\n\nCOMMON COLLOCATIONS:\n- {丁寧|ていねい}な{言|い}い{回|まわ}し: polite phrasing\n- {独特|どくとく}の{言|い}い{回|まわ}し: unique expression\n- {回|まわ}りくどい{言|い}い{回|まわ}し: roundabout expression\n- {言|い}い{回|まわ}しを{変|か}える: to change the wording\n- ビジネスの{言|い}い{回|まわ}し: business expressions",
@@ -46,18 +52,43 @@
       "reading": "ひょうげん",
       "headword": "{表現|ひょうげん}",
       "label": "expression (broader)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19999_fureezu",
+      "reading": "ふれーず",
+      "headword": "フレーズ",
+      "label": "phrase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20999_iikae",
+      "reading": "いいかえ",
+      "headword": "{言|い}い{換|か}え",
+      "label": "paraphrase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21171_gohou",
+      "reading": "ごほう",
+      "headword": "{語法|ごほう}",
+      "label": "diction"
     }
   ],
   "metadata": {
     "created": "2026-02-28T01:22:29Z",
-    "modified": "2026-04-30T04:29:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

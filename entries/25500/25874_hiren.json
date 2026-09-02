@@ -45,7 +45,36 @@
     }
   ],
   "notes": "Composed of {悲|ひ} (sad, tragic) + {恋|れん} (love, romance). A literary and dramatic term used to describe love stories with unhappy endings — separation, death, social barriers, or unrequited love. Very common in descriptions of novels, films, and historical romances.\n\nCOMMON COLLOCATIONS:\n- {悲恋|ひれん}の{物語|ものがたり}: tale of tragic love\n- {悲恋|ひれん}を{描|えが}く: depict a tragic romance\n- {悲恋|ひれん}に{終|お}わる: end in tragic love\n- {悲恋|ひれん}{小説|しょうせつ}: tragic love novel\n- {悲恋|ひれん}{映画|えいが}: tragic romance film\n\nSIMILAR WORDS:\n- {失恋|しつれん}: heartbreak, broken love (more everyday/personal)\n- {悲劇|ひげき}: tragedy (broader, not limited to love)\n- {純愛|じゅんあい}: pure love (can be tragic or happy)\n- {片思|かたおも}い: unrequited love (one-sided, may not be tragic)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04195_shitsuren",
+      "reading": "しつれん",
+      "headword": "{失恋|しつれん}",
+      "label": "heartbreak, broken love"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03577_higeki",
+      "reading": "ひげき",
+      "headword": "{悲劇|ひげき}",
+      "label": "tragedy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25311_junai",
+      "reading": "じゅんあい",
+      "headword": "{純愛|じゅんあい}",
+      "label": "pure love"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16834_kataomoi",
+      "reading": "かたおもい",
+      "headword": "{片思|かたおも}い",
+      "label": "unrequited love"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +82,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "culture"
       ]
     },
     "created": "2026-04-27T16:21:44Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

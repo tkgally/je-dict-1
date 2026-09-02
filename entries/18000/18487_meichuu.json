@@ -3,7 +3,7 @@
   "headword": "{命中|めいちゅう}",
   "reading": "めいちゅう",
   "romaji": "meichuu",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "hitting the mark; direct hit",
   "conjugation": {
     "type": "suru",
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "{命中|めいちゅう} means hitting a target accurately. Used both literally (projectiles, shots) and figuratively (predictions that prove correct).\n\nCOMMON COLLOCATIONS:\n- {命中|めいちゅう}する: to hit the mark\n- {命中|めいちゅう}{率|りつ}: hit rate, accuracy rate\n- {命中|めいちゅう}{精度|せいど}: accuracy, precision\n- {的|まと}に{命中|めいちゅう}する: to hit the target\n\nFIGURATIVE USE:\n- {予想|よそう}が{命中|めいちゅう}する: a prediction proves correct\n- {予言|よげん}が{命中|めいちゅう}した: the prophecy came true\n\nCONTEXTS:\nUsed in military, sports (archery, shooting), gaming, and weather/prediction discussions.\n\nWORD FORMATION:\n{命|めい} (life, fate) + {中|ちゅう} (hit, strike). The character {中|ちゅう} here means \"to hit\" as in {的中|てきちゅう}.",
+  "notes": "{命中|めいちゅう} means hitting a target accurately. Used both literally (projectiles, shots) and figuratively (predictions that prove correct).\n\nCOMMON COLLOCATIONS:\n- {命中|めいちゅう}する: to hit the mark\n- {命中|めいちゅう}{率|りつ}: hit rate, accuracy rate\n- {命中|めいちゅう}{精度|せいど}: accuracy, precision\n- {的|まと}に{命中|めいちゅう}する: to hit the target\n\nUSAGE:\n- {予想|よそう}が{命中|めいちゅう}する: a prediction proves correct\n- {予言|よげん}が{命中|めいちゅう}した: the prophecy came true\nUsed in military, sports (archery, shooting), gaming, and weather/prediction discussions.\n\nFORMS:\n{命|めい} (life, fate) + {中|ちゅう} (hit, strike). The character {中|ちゅう} here means \"to hit\" as in {的中|てきちゅう}.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15262_tekichuu",
+      "reading": "てきちゅう",
+      "headword": "{的中|てきちゅう}",
+      "label": "hitting the mark"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24807_chakudan",
+      "reading": "ちゃくだん",
+      "headword": "{着弾|ちゃくだん}",
+      "label": "impact of a projectile"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26346_hicchuu",
+      "reading": "ひっちゅう",
+      "headword": "{必中|ひっちゅう}",
+      "label": "sure hit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +174,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-22T03:11:26Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

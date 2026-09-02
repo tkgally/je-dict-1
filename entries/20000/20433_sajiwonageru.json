@@ -17,7 +17,9 @@
       "id": "20433_sajiwonageru_ex1",
       "japanese": "{医者|いしゃ}もさじを{投|な}げた。",
       "english": "Even the doctor gave up.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20433_sajiwonageru_ex2",
       "japanese": "{先生|せんせい}はあの{生徒|せいと}にさじを{投|な}げた。",
       "english": "The teacher gave up on that student.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "20433_sajiwonageru_ex3",
       "japanese": "{何度|なんど}やってもうまくいかず、とうとうさじを{投|な}げてしまった。",
       "english": "No matter how many times I tried it didn't work, and I finally threw in the towel.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "An idiomatic expression meaning to abandon an effort as hopeless. The さじ (spoon) refers to a medicine-measuring spoon used in traditional Chinese medicine. When a doctor could no longer help a patient, they would figuratively throw away the spoon — hence, giving up.\n\nETYMOLOGY:\nFrom traditional medicine: さじ is a small spoon used to measure herbal medicines. A doctor throwing it away symbolized that no more treatment could help.\n\nUSAGE:\nOften used with に to indicate the person or thing being given up on. The expression carries a strong sense of finality — the situation is beyond saving.\n\nCOMMON COLLOCATIONS:\n- さじを{投|な}げる — to give up (standard form)\n- さじを{投|な}げたくなる — to feel like giving up\n- {医者|いしゃ}がさじを{投|な}げる — the doctor gives up (classic usage)\n\nSIMILAR WORDS:\n- {諦|あきら}める — to give up (general, less dramatic)\n- {匙加減|さじかげん} — adjustment, moderation (also uses さじ but different meaning)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01813_akirameru",
+      "reading": "あきらめる",
+      "headword": "{諦|あきら}める",
+      "label": "to give up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09046_sajikagen",
+      "reading": "さじかげん",
+      "headword": "{匙加減|さじかげん}",
+      "label": "adjustment, moderation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["idiom"]
+      "semantic": [
+        "idiom"
+      ]
     },
     "created": "2026-03-29T14:04:53Z",
-    "modified": "2026-03-29T14:04:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

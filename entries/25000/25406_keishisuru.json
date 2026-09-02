@@ -3,7 +3,7 @@
   "headword": "{軽視|けいし}する",
   "reading": "けいしする",
   "romaji": "keishisuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to make light of; to belittle; to underestimate",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "The opposite of {重視|じゅうし}する (to value highly, to take seriously). Carries a critical tone, implying that the thing being {軽視|けいし}された deserves more attention.\n\nCOMMON COLLOCATIONS:\n- {安全|あんぜん}を{軽視|けいし}する: to neglect safety\n- {人権|じんけん}を{軽視|けいし}する: to disregard human rights\n- {軽視|けいし}できない: cannot be taken lightly\n- {軽視|けいし}されがちな: tends to be overlooked\n\nSIMILAR WORDS:\n- {重視|じゅうし}する: to value, to regard as important — the antonym, meaning to give proper weight and attention to something\n- {無視|むし}する: to ignore — stronger than {軽視|けいし}; means to completely disregard, while {軽視|けいし} means to give insufficient attention\n- {見下|みくだ}す: to look down on — specifically directed at people and implies contempt, while {軽視|けいし} can apply to concepts, issues, and opinions as well",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "26832_juushisuru",
+      "reading": "じゅうしする",
+      "headword": "{重視|じゅうし}する",
+      "label": "to value, to regard as important"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17288_mushisuru",
+      "reading": "むしする",
+      "headword": "{無視|むし}する",
+      "label": "to ignore"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09911_mikudasu",
+      "reading": "みくだす",
+      "headword": "{見下|みくだ}す",
+      "label": "to look down on"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T11:21:40Z",
-    "modified": "2026-04-25T11:21:40Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

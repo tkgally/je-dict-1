@@ -18,7 +18,9 @@
       "english": "Some companies don't pay overtime.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10102_zangyoudai_ex2",
@@ -26,7 +28,9 @@
       "english": "I received a lot of overtime pay this month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10102_zangyoudai_ex3",
@@ -34,10 +38,12 @@
       "english": "I'm recording my overtime hours in order to claim overtime pay.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{残業代|ざんぎょうだい} is the standard term for overtime pay. It is a compound of {残業|ざんぎょう} (overtime work) and {代|だい} (charge, fee).\n\nCOMMON PATTERNS:\n- {残業代|ざんぎょうだい}が{出|で}る: overtime pay is provided\n- {残業代|ざんぎょうだい}が{出|で}ない: no overtime pay\n- {残業代|ざんぎょうだい}を{請求|せいきゅう}する: to claim overtime pay\n- {残業代|ざんぎょうだい}を{支払|しはら}う: to pay overtime\n\nWORK CULTURE:\nIn Japan, unpaid overtime (サービス{残業|ざんぎょう}) has been a significant social issue. Recent labor reforms have strengthened regulations requiring proper payment.\n\nRELATED TERMS:\n- {残業|ざんぎょう}: overtime work\n- サービス{残業|ざんぎょう}: unpaid overtime (euphemistic)\n- {時間外|じかんがい}{手当|てあて}: overtime allowance (formal/legal term)\n- {割増|わりまし}{賃金|ちんぎん}: premium wages (technical/legal term)",
+  "notes": "{残業代|ざんぎょうだい} is the standard term for overtime pay. It is a compound of {残業|ざんぎょう} (overtime work) and {代|だい} (charge, fee).\n\nCOMMON PATTERNS:\n- {残業代|ざんぎょうだい}が{出|で}る: overtime pay is provided\n- {残業代|ざんぎょうだい}が{出|で}ない: no overtime pay\n- {残業代|ざんぎょうだい}を{請求|せいきゅう}する: to claim overtime pay\n- {残業代|ざんぎょうだい}を{支払|しはら}う: to pay overtime\n\nWORK CULTURE:\nIn Japan, unpaid overtime (サービス{残業|ざんぎょう}) has been a significant social issue. Recent labor reforms have strengthened regulations requiring proper payment.\n\nRELATED WORDS:\n- {残業|ざんぎょう}: overtime work\n- サービス{残業|ざんぎょう}: unpaid overtime (euphemistic)\n- {時間外|じかんがい}{手当|てあて}: overtime allowance (formal/legal term)\n- {割増|わりまし}{賃金|ちんぎん}: premium wages (technical/legal term)",
   "cross_references": [
     {
       "type": "related",
@@ -45,17 +51,36 @@
       "reading": "ざんぎょう",
       "headword": "{残業|ざんぎょう}",
       "label": "overtime work"
+    },
+    {
+      "type": "related",
+      "target_id": "08477_saabisuzangyou",
+      "reading": "さーびすざんぎょう",
+      "headword": "サービス{残業|ざんぎょう}",
+      "label": "unpaid overtime"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27558_zangyoujikan",
+      "reading": "ざんぎょうじかん",
+      "headword": "{残業時間|ざんぎょうじかん}",
+      "label": "overtime hours"
     }
   ],
   "metadata": {
     "created": "2026-02-05T02:49:25Z",
-    "modified": "2026-04-23T10:16:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work", "money"]
+      "semantic": [
+        "work",
+        "money"
+      ]
     }
   }
 }

@@ -64,10 +64,32 @@
     }
   ],
   "notes": "{超過|ちょうか} combines ⟦{超|ちょう}→超〜：28619_chou⟧ (exceed) + ⟦{過|か}→〜過ぎる：noentry⟧ (pass beyond). It describes going over a set limit, standard, or capacity.\n\nCOMMON COLLOCATIONS:\n- {超過|ちょうか}⟦する→する：00392_suru⟧: to exceed\n- ⟦{予算|よさん}→予算：03663_yosan⟧{超過|ちょうか}: budget overrun\n- ⟦{時間|じかん}→時間：00468_jikan⟧{超過|ちょうか}: exceeding the time limit\n- ⟦{定員|ていいん}→定員：04532_teiin⟧{超過|ちょうか}: exceeding capacity\n- {超過|ちょうか}⟦{勤務|きんむ}→勤務：04545_kinmu⟧: overtime work\n- ⟦{重量|じゅうりょう}→重量：05475_juuryou⟧{超過|ちょうか}: overweight (luggage, etc.)\n\nREGISTER:\nFormal. Common in official contexts, business, transportation, and regulations. In casual speech, people use ⟦オーバー→オーバー：01529_oobaa⟧ or ⟦{超|こ}える→超える：01942_koeru⟧ instead.\n\nSIMILAR WORDS:\n- ⟦{過剰|かじょう}→過剰：04123_kajou⟧: excess, surplus (state of having too much)\n- ⟦{超|こ}える→超える：01942_koeru⟧: to exceed (everyday verb)\n- ⟦オーバー→オーバー：01529_oobaa⟧: over (casual loanword)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04123_kajou",
+      "reading": "かじょう",
+      "headword": "{過剰|かじょう}",
+      "label": "excess, surplus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01942_koeru",
+      "reading": "こえる",
+      "headword": "{超|こ}える",
+      "label": "to exceed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01529_oobaa",
+      "reading": "おーばー",
+      "headword": "オーバー",
+      "label": "over"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T00:33:36Z",
-    "modified": "2026-08-16T03:20:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{一組|ひとくみ}",
   "reading": "ひとくみ",
   "romaji": "hitokumi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, counter",
   "gloss": "one set; one pair; one group",
   "definitions": [
     {
@@ -79,8 +79,23 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {一|ひと} (one) and {組|くみ} (set, group, class). The counter {組|くみ} is used for things that form a natural set or group. The reading is native Japanese (ひとくみ), not Sino-Japanese (いちくみ), following the pattern for small numbers with native counters.\n\nCOMMON COLLOCATIONS:\n- {一組|ひとくみ}のカップル: one couple\n- {一組|ひとくみ}の{布団|ふとん}: one set of bedding\n- {一組|ひとくみ}の{夫婦|ふうふ}: one married couple\n\nCOUNTING PATTERN:\n- {一組|ひとくみ}: one set\n- {二組|ふたくみ}: two sets\n- {三組|さんくみ}: three sets\n\nSIMILAR WORDS:\n- {一対|いっつい}: one pair — more formal, used for symmetrical pairs like a pair of vases\n- {一式|いっしき}: one complete set — implies all the necessary pieces of a full set, like a toolkit or uniform set\n- {一揃|ひとそろ}い: one matching set — emphasizes that items are matched or coordinated",
-  "cross_references": [],
+  "notes": "Composed of {一|ひと} (one) and {組|くみ} (set, group, class). The counter {組|くみ} is used for things that form a natural set or group. The reading is native Japanese (ひとくみ), not Sino-Japanese (いちくみ), following the pattern for small numbers with native counters.\n\nCOMMON COLLOCATIONS:\n- {一組|ひとくみ}のカップル: one couple\n- {一組|ひとくみ}の{布団|ふとん}: one set of bedding\n- {一組|ひとくみ}の{夫婦|ふうふ}: one married couple\n\nCOUNTING PATTERNS:\n- {一組|ひとくみ}: one set\n- {二組|ふたくみ}: two sets\n- {三組|さんくみ}: three sets\n\nSIMILAR WORDS:\n- {一対|いっつい}: one pair — more formal, used for symmetrical pairs like a pair of vases\n- {一式|いっしき}: one complete set — implies all the necessary pieces of a full set, like a toolkit or uniform set\n- {一揃|ひとそろ}い: one matching set — emphasizes that items are matched or coordinated",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08928_ittsui",
+      "reading": "いっつい",
+      "headword": "{一対|いっつい}",
+      "label": "one pair"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15714_isshiki",
+      "reading": "いっしき",
+      "headword": "{一式|いっしき}",
+      "label": "one complete set"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -97,6 +112,6 @@
       ]
     },
     "created": "2026-05-02T12:20:31Z",
-    "modified": "2026-06-16T12:23:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

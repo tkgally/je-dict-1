@@ -2,7 +2,7 @@
   "id": "02472_tsumu",
   "headword": "{摘|つ}む",
   "reading": "つむ",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to pluck, to pick, to trim",
   "definitions": [
     {
@@ -119,10 +119,25 @@
     }
   ],
   "notes": "{摘|つ}む is a godan verb meaning to pluck or pick with the fingers.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes ⟦を→を：00422_wo⟧ particle: 〜⟦を→を：00422_wo⟧{摘|つ}む\n\nASPECT (ている):\n{摘|つ}んでいる describes the ongoing action of picking.\n\nCOMMON PATTERNS:\n- ⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧{摘|つ}む: to pick flowers\n- ⟦{茶|ちゃ}→茶：03433_cha⟧⟦を→を：00422_wo⟧{摘|つ}む: to pick tea leaves\n- ⟦{芽|め}→芽：02141_me⟧⟦を→を：00422_wo⟧{摘|つ}む: to nip buds / nip in the bud (also figurative)\n- ⟦いちご→いちご：01028_ichigo⟧⟦を→を：00422_wo⟧{摘|つ}む: to pick strawberries\n\nKANJI DISTINCTION (same reading):\n- {摘|つ}む: to pluck, pick\n- ⟦{積|つ}む→積む：02294_tsumu⟧: to pile up, stack\n- ⟦{詰|つ}む→詰む：27840_tsumu⟧: to be stuck, checkmated",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08233_mabiku",
+      "reading": "まびく",
+      "headword": "{間引|まび}く",
+      "label": "to thin out (plants)"
+    },
+    {
+      "type": "homophone",
+      "target_id": "27840_tsumu",
+      "reading": "つむ",
+      "headword": "{詰|つ}む",
+      "label": "to be checkmated"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T09:20:00Z",
-    "modified": "2026-08-12T06:27:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

@@ -169,10 +169,32 @@
     }
   ],
   "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No common transitive pair. Pattern: X⟦が→が：00051_ga⟧{潜|ひそ}む (X lurks/hides).\n\nASPECT: ている indicates state. {潜|ひそ}んでいる = 'is lurking/hiding' or 'lies hidden.'\n\nCOMMON PATTERNS:\n- X⟦に→に：00314_ni⟧{潜|ひそ}む (to lurk in X)\n- ⟦{危険|きけん}→危険：01141_kiken⟧⟦が→が：00051_ga⟧{潜|ひそ}む (danger lurks)\n- ⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧{潜|ひそ}む (a problem lies hidden)\n- ⟦{可能性|かのうせい}→可能性：04818_kanousei⟧⟦が→が：00051_ga⟧{潜|ひそ}む (potential lies within)\n\nNUANCE: Often implies something threatening or waiting to emerge, but can be used positively for hidden potential or talent.\n\nSIMILAR WORDS:\n- ⟦{隠|かく}れる→隠れる：02035_kakureru⟧ - to hide (more active)\n- ⟦{潜|もぐ}る→潜る：03931_moguru⟧ - to dive, go underground",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02035_kakureru",
+      "reading": "かくれる",
+      "headword": "{隠|かく}れる",
+      "label": "to hide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03931_moguru",
+      "reading": "もぐる",
+      "headword": "{潜|もぐ}る",
+      "label": "to dive, go underground"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25505_senpukusuru",
+      "reading": "せんぷくする",
+      "headword": "{潜伏|せんぷく}する",
+      "label": "to lie hidden"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T00:58:16Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{相反|あいはん}",
   "reading": "あいはん",
   "romaji": "aihan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "contradiction; conflict; opposition",
   "definitions": [
     {
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A formal word commonly used in academic, legal, and business contexts. {相反|あいはん}する is the most frequent form, functioning as a modifier meaning \"conflicting\" or \"contradictory.\"\n\nCOMMON COLLOCATIONS:\n- {相反|あいはん}する{意見|いけん}: conflicting opinions\n- {相反|あいはん}する{利益|りえき}: conflicting interests\n- {相反|あいはん}する{要求|ようきゅう}: contradictory demands\n- {利益|りえき}{相反|そうはん}: conflict of interest (legal term, read そうはん)\n\nREADING NOTE:\nThe standard reading is あいはん. In the legal compound {利益相反|りえきそうはん} (conflict of interest), the reading そうはん is used instead.\n\nSIMILAR WORDS:\n- {矛盾|むじゅん}: contradiction — more common in everyday speech, emphasizes logical inconsistency\n- {対立|たいりつ}: opposition; confrontation — implies active conflict between parties\n- {背反|はいはん}: contradiction; violation — more formal, often in philosophical or mathematical contexts",
-  "cross_references": [],
+  "notes": "A formal word commonly used in academic, legal, and business contexts. {相反|あいはん}する is the most frequent form, functioning as a modifier meaning \"conflicting\" or \"contradictory.\"\n\nCOMMON COLLOCATIONS:\n- {相反|あいはん}する{意見|いけん}: conflicting opinions\n- {相反|あいはん}する{利益|りえき}: conflicting interests\n- {相反|あいはん}する{要求|ようきゅう}: contradictory demands\n- {利益|りえき}{相反|そうはん}: conflict of interest (legal term, read そうはん)\n\nPRONUNCIATION:\nThe standard reading is あいはん. In the legal compound {利益相反|りえきそうはん} (conflict of interest), the reading そうはん is used instead.\n\nSIMILAR WORDS:\n- {矛盾|むじゅん}: contradiction — more common in everyday speech, emphasizes logical inconsistency\n- {対立|たいりつ}: opposition; confrontation — implies active conflict between parties\n- {背反|はいはん}: contradiction; violation — more formal, often in philosophical or mathematical contexts",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05215_mujun",
+      "reading": "むじゅん",
+      "headword": "{矛盾|むじゅん}",
+      "label": "contradiction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04500_tairitsu",
+      "reading": "たいりつ",
+      "headword": "{対立|たいりつ}",
+      "label": "opposition"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,13 +69,14 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-28T16:13:45Z",
-    "modified": "2026-04-28T16:13:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

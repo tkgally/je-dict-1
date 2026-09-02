@@ -17,7 +17,9 @@
       "id": "27704_guriinsarada_ex1",
       "japanese": "グリーンサラダを{注文|ちゅうもん}した。",
       "english": "I ordered a green salad.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27704_guriinsarada_ex2",
       "japanese": "{肉料理|にくりょうり}にはグリーンサラダがよく{合|あ}う。",
       "english": "A green salad goes well with meat dishes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "27704_guriinsarada_ex3",
       "japanese": "グリーンサラダにドレッシングをかけて{食|た}べるのが{好|す}きだ。",
       "english": "I like to eat my green salad with dressing on it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Emphasizes that the salad is made of green vegetables only, distinguishing it from salads with potato, pasta, or other ingredients.\n\nCOMMON COLLOCATIONS:\n- グリーンサラダを{頼|たの}む: to order a green salad\n- {新鮮|しんせん}なグリーンサラダ: a fresh green salad\n\nSIMILAR WORDS:\n- ポテトサラダ: potato salad — a heavier, mayonnaise-based salad\n- {野菜|やさい}サラダ: vegetable salad — may include non-green vegetables such as tomato and carrot",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27703_potetosarada",
+      "reading": "ぽてとさらだ",
+      "headword": "ポテトサラダ",
+      "label": "potato salad"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27706_koorusuroo",
+      "reading": "こーるすろー",
+      "headword": "コールスロー",
+      "label": "coleslaw"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-05-17T03:10:36Z",
-    "modified": "2026-05-17T03:10:36Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

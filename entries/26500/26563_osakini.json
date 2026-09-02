@@ -22,7 +22,9 @@
       "id": "26563_osakini_ex1",
       "japanese": "お{先|さき}に{失礼|しつれい}します。",
       "english": "Excuse me for leaving first.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "26563_osakini_ex2",
       "japanese": "{今日|きょう}は{用事|ようじ}があるので、お{先|さき}に。",
       "english": "I have something to do today, so I'll head out first.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "26563_osakini_ex3",
       "japanese": "お{先|さき}に{帰|かえ}らせていただいてもよろしいですか。",
       "english": "Would it be all right if I leave before you?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "26563_osakini_ex4",
       "japanese": "お{先|さき}にどうぞ。",
       "english": "Please go ahead.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "26563_osakini_ex5",
       "japanese": "エレベーターの{前|まえ}で「お{先|さき}にどうぞ」と{声|こえ}をかけた。",
       "english": "In front of the elevator, I said 'Please go ahead.'",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,23 +72,44 @@
       "id": "26563_osakini_ex6",
       "japanese": "お{風呂|ふろ}、お{先|さき}にいただきました。",
       "english": "I went ahead and took my bath first.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A versatile polite expression with two main uses. In sense 1, it apologizes for leaving before others, commonly heard at the end of the workday. In sense 2, it politely invites someone else to go first.\n\nCOMMON PATTERNS:\n- お{先|さき}に{失礼|しつれい}します: excuse me for leaving first (full form, workplace standard)\n- お{先|さき}にどうぞ: please go ahead (yielding to someone)\n- お{先|さき}に{頂|いただ}きます: excuse me for going first (more humble)\n- お{先|さき}に: short form, used casually among coworkers or family\n\nUSAGE:\nSense 1 is the more common workplace usage. When leaving the office before colleagues, saying お{先|さき}に{失礼|しつれい}します is standard etiquette. The typical response from colleagues is {お疲|おつか}れ{様|さま}でした (good work today).\n\nSIMILAR EXPRESSIONS:\n- お{先|さき}に{失礼|しつれい}します: the full polite form for leaving first\n- どうぞ: please (go ahead) — less specific, more general invitation\n- {先|さき}に{行|い}くね: I'll go ahead — casual/informal version",
-  "cross_references": [],
+  "notes": "A versatile polite expression with two main uses. In sense 1, it apologizes for leaving before others, commonly heard at the end of the workday. In sense 2, it politely invites someone else to go first.\n\nCOMMON PATTERNS:\n- お{先|さき}に{失礼|しつれい}します: excuse me for leaving first (full form, workplace standard)\n- お{先|さき}にどうぞ: please go ahead (yielding to someone)\n- お{先|さき}に{頂|いただ}きます: excuse me for going first (more humble)\n- お{先|さき}に: short form, used casually among coworkers or family\n\nUSAGE:\nSense 1 is the more common workplace usage. When leaving the office before colleagues, saying お{先|さき}に{失礼|しつれい}します is standard etiquette. The typical response from colleagues is お{疲|つか}れ{様|さま}でした (good work today).\n\nSIMILAR WORDS:\n- お{先|さき}に{失礼|しつれい}します: the full polite form for leaving first\n- どうぞ: please (go ahead) — less specific, more general invitation\n- {先|さき}に{行|い}くね: I'll go ahead — casual/informal version",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20527_osakinishitsureishimasu",
+      "reading": "おさきにしつれいします",
+      "headword": "お{先|さき}に{失礼|しつれい}します",
+      "label": "the full polite form for leaving first"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02920_douzo",
+      "reading": "どうぞ",
+      "headword": "どうぞ",
+      "label": "please"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "polite",
-      "semantic": ["greeting"]
+      "semantic": [
+        "greeting"
+      ]
     },
     "created": "2026-05-03T11:13:21Z",
-    "modified": "2026-05-03T11:13:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

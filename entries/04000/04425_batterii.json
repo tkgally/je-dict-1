@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "From English \"battery.\"\n\nCOMMON COLLOCATIONS:\n・バッテリー⟦が→が：00051_ga⟧⟦{切|き}れる→切れる：01936_kireru⟧ (battery dies)\n・バッテリー⟦を→を：00422_wo⟧⟦{充電|じゅうでん}→充電：04427_juuden⟧⟦する→する：00392_suru⟧ (to charge the battery)\n・バッテリー⟦の→の：09472_no⟧⟦{残量|ざんりょう}→残量：18269_zanryou⟧ (battery level)\n・バッテリー⟦の→の：09472_no⟧⟦{持|も}ち→持つ：00478_motsu⟧ (battery life)\n・⟦モバイルバッテリー→モバイルバッテリー：07553_mobairubatterii⟧ (portable battery/power bank)\n\nNOTE: For disposable batteries, ⟦{乾電池|かんでんち}→乾電池：10188_kandenchi⟧ is typically used.\n\nBASEBALL: バッテリー refers to the pitcher (⟦{投手|とうしゅ}→投手：06563_toushu⟧) and catcher (⟦{捕手|ほしゅ}→捕手：09265_hoshu⟧) as a pair.",
+  "notes": "From English \"battery.\"\n\nCOMMON COLLOCATIONS:\n- バッテリー⟦が→が：00051_ga⟧⟦{切|き}れる→切れる：01936_kireru⟧ (battery dies)\n- バッテリー⟦を→を：00422_wo⟧⟦{充電|じゅうでん}→充電：04427_juuden⟧⟦する→する：00392_suru⟧ (to charge the battery)\n- バッテリー⟦の→の：09472_no⟧⟦{残量|ざんりょう}→残量：18269_zanryou⟧ (battery level)\n- バッテリー⟦の→の：09472_no⟧⟦{持|も}ち→持つ：00478_motsu⟧ (battery life)\n- ⟦モバイルバッテリー→モバイルバッテリー：07553_mobairubatterii⟧ (portable battery/power bank)\n\nNOTE: For disposable batteries, ⟦{乾電池|かんでんち}→乾電池：10188_kandenchi⟧ is typically used.\n\nBASEBALL: バッテリー refers to the pitcher (⟦{投手|とうしゅ}→投手：06563_toushu⟧) and catcher (⟦{捕手|ほしゅ}→捕手：09265_hoshu⟧) as a pair.",
   "cross_references": [
     {
       "type": "related",
@@ -126,11 +126,32 @@
       "headword": "{充電|じゅうでん}",
       "label": "charging",
       "target_id": "04427_juuden"
+    },
+    {
+      "type": "related",
+      "target_id": "01472_denchi",
+      "reading": "でんち",
+      "headword": "{電池|でんち}",
+      "label": "battery"
+    },
+    {
+      "type": "related",
+      "target_id": "06599_chikuden",
+      "reading": "ちくでん",
+      "headword": "{蓄電|ちくでん}",
+      "label": "power storage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23748_juudenchi",
+      "reading": "じゅうでんち",
+      "headword": "{充電池|じゅうでんち}",
+      "label": "rechargeable battery"
     }
   ],
   "metadata": {
     "created": "2026-01-14T14:59:53Z",
-    "modified": "2026-08-14T18:20:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

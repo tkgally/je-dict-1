@@ -17,7 +17,9 @@
       "id": "27236_shokurekisho_ex1",
       "japanese": "{職歴書|しょくれきしょ}を{書|か}く。",
       "english": "To write a resume.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27236_shokurekisho_ex2",
       "japanese": "{面接|めんせつ}に{職歴書|しょくれきしょ}を{持参|じさん}してください。",
       "english": "Please bring your resume to the interview.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "27236_shokurekisho_ex3",
       "japanese": "{転職|てんしょく}{活動|かつどう}では、{履歴書|りれきしょ}と{職歴書|しょくれきしょ}の{両方|りょうほう}を{準備|じゅんび}する{必要|ひつよう}がある。",
       "english": "When job hunting, you need to prepare both a personal history form and a work history document.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,23 +47,47 @@
       "id": "27236_shokurekisho_ex4",
       "japanese": "{職歴書|しょくれきしょ}には、これまでの{業務|ぎょうむ}{内容|ないよう}と{実績|じっせき}を{具体的|ぐたいてき}に{記載|きさい}する。",
       "english": "In a resume, you describe your past job duties and accomplishments in concrete terms.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {職歴|しょくれき} (work history) + {書|しょ} (document). The more formal, complete name is {職務|しょくむ}{経歴書|けいれきしょ}, which is the standard term used in Japanese job applications. {職歴書|しょくれきしょ} is the commonly shortened form.\n\nIn Japanese job hunting, applicants typically submit two documents: a {履歴書|りれきしょ} (standardized personal data form with photo, education, and basic work history) and a {職務|しょくむ}{経歴書|けいれきしょ} (detailed description of professional experience and accomplishments).\n\nCOMMON COLLOCATIONS:\n- {職歴書|しょくれきしょ}を{作成|さくせい}する: to prepare a resume\n- {職歴書|しょくれきしょ}を{提出|ていしゅつ}する: to submit a resume\n- {職歴書|しょくれきしょ}の{書|か}き{方|かた}: how to write a resume\n\nSIMILAR WORDS:\n- {履歴書|りれきしょ}: personal history form — the standardized Japanese form with photo, education, and personal details\n- {職務|しょくむ}{経歴書|けいれきしょ}: detailed work history — the full formal name for this document\n- レジュメ: resume — loanword, sometimes used in international or casual contexts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04691_rirekisho",
+      "reading": "りれきしょ",
+      "headword": "{履歴書|りれきしょ}",
+      "label": "personal history form"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08724_shokumukeirekisho",
+      "reading": "しょくむけいれきしょ",
+      "headword": "{職務|しょくむ}{経歴|けいれき}{書|しょ}",
+      "label": "detailed work history"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-05-08T11:12:39Z",
-    "modified": "2026-05-08T11:12:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

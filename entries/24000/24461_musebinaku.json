@@ -46,19 +46,44 @@
   ],
   "notes": "A compound of むせぶ (to choke, to be choked with emotion) and {泣|な}く (to cry). Describes intense crying where emotion constricts the throat, causing gasping or choking between sobs. Frequently used in literature and emotional narration.\n\nCOMMON COLLOCATIONS:\n- むせび{泣|な}く{声|こえ}: the sound of sobbing\n- {静|しず}かにむせび{泣|な}く: to sob quietly\n- {悲|かな}しみにむせび{泣|な}く: to sob with grief\n\nSIMILAR WORDS:\n- {泣|な}く: to cry (general, neutral)\n- すすり{泣|な}く: to sniffle, cry softly (quieter, more restrained)\n- {号泣|ごうきゅう}する: to wail, cry loudly (louder and more dramatic)\n- しくしく{泣|な}く: to cry softly and continuously (onomatopoeic)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00655_naku",
+      "reading": "なく",
+      "headword": "{泣|な}く",
+      "label": "to cry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16789_susurinaku",
+      "reading": "すすりなく",
+      "headword": "すすり{泣|な}く",
+      "label": "to sniffle, cry softly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18377_goukyuusuru",
+      "reading": "ごうきゅうする",
+      "headword": "{号泣|ごうきゅう}する",
+      "label": "to wail, cry loudly"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "verb-godan"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ],
       "verb_class": "godan-ku"
     },
     "created": "2026-04-19T11:14:18Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

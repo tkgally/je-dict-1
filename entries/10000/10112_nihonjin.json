@@ -18,7 +18,9 @@
       "english": "Are you Japanese?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10112_nihonjin_ex2",
@@ -26,7 +28,9 @@
       "english": "I have a Japanese friend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10112_nihonjin_ex3",
@@ -34,7 +38,9 @@
       "english": "Japanese people are said to be polite.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{日本人|にほんじん} refers to people of Japanese nationality or descent. Formed from {日本|にほん} + {人|じん} (person), following the standard pattern for nationality words.\n\nCOMMON COLLOCATIONS:\n- {日本人|にほんじん}{観光客|かんこうきゃく}: Japanese tourists\n- {日本人|にほんじん}{選手|せんしゅ}: Japanese athlete\n- {日本人|にほんじん}として: as a Japanese person\n- {日本人|にほんじん}{離|ばな}れした: un-Japanese (in appearance or behavior)\n\nSIMILAR WORDS:\n- {邦人|ほうじん}: Japanese national (formal, used in news — {邦人|ほうじん}{保護|ほご} \"protection of nationals\")\n- {日本|にほん}{国籍|こくせき}: Japanese nationality (legal term)\n\nPRONUNCIATION:\nThe reading にほんじん is standard. にっぽんじん is also used, especially in formal or patriotic contexts.",
@@ -45,18 +51,43 @@
       "reading": "にほん",
       "headword": "{日本|にほん}",
       "label": "Japan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15625_nikkeijin",
+      "reading": "にっけいじん",
+      "headword": "{日系人|にっけいじん}",
+      "label": "person of Japanese descent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23698_chuugokujin",
+      "reading": "ちゅうごくじん",
+      "headword": "{中国人|ちゅうごくじん}",
+      "label": "Chinese person"
+    },
+    {
+      "type": "related",
+      "target_id": "25089_furansujin",
+      "reading": "ふらんすじん",
+      "headword": "フランス{人|じん}",
+      "label": "French person"
     }
   ],
   "metadata": {
     "created": "2026-02-05T08:37:56Z",
-    "modified": "2026-04-24T04:04:43Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

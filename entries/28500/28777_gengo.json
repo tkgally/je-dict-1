@@ -17,7 +17,9 @@
       "id": "28777_gengo_ex1",
       "japanese": "{原語|げんご}で{読|よ}んでみたい。",
       "english": "I'd like to read it in the original language.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28777_gengo_ex2",
       "japanese": "この{言葉|ことば}の{原語|げんご}はラテン{語|ご}だ。",
       "english": "The original of this word is Latin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "28777_gengo_ex3",
       "japanese": "{原語|げんご}のニュアンスは{翻訳|ほんやく}では{完全|かんぜん}には{伝|つた}わらない。",
       "english": "The nuance of the original language cannot be fully conveyed in translation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {原|げん} (origin) + {語|ご} (language, word). Note the homophone {言語|げんご} (language in the general sense) — context usually makes the distinction clear.\n\nCOMMON COLLOCATIONS:\n- {原語|げんご}で{読|よ}む: to read in the original\n- {原語|げんご}の{意味|いみ}: the meaning in the source language\n- {原語|げんご}に{忠実|ちゅうじつ}な{翻訳|ほんやく}: a translation faithful to the original\n\nSIMILAR WORDS:\n- {原文|げんぶん}: the original text — refers to the actual passage of text rather than the language itself\n- {訳語|やくご}: translated word — the counterpart concept, i.e., the word chosen in the target language",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20563_genbun",
+      "reading": "げんぶん",
+      "headword": "{原文|げんぶん}",
+      "label": "the original text"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["language"],
+      "politeness": "plain",
+      "semantic": [
+        "language"
+      ],
       "domain": []
     },
     "created": "2026-06-05T03:07:50Z",
-    "modified": "2026-06-05T03:07:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

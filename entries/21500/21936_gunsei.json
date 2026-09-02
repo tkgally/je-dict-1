@@ -3,7 +3,7 @@
   "headword": "{群生|ぐんせい}",
   "reading": "ぐんせい",
   "romaji": "gunsei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "growing in clusters; colony",
   "definitions": [
     {
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {群|ぐん} (group, flock) and {生|せい} (growth, life). Describes plants, fungi, or other organisms growing together naturally in groups.\n\nCOMMON COLLOCATIONS:\n- {群生|ぐんせい}する: to grow in clusters\n- {群生|ぐんせい}{地|ち}: habitat where plants grow in clusters\n- {群生|ぐんせい}が{見|み}られる: clusters can be observed\n\nSIMILAR WORDS:\n- {密生|みっせい}: dense growth — emphasizes how tightly packed the growth is\n- {自生|じせい}: growing wild — emphasizes that plants grow naturally without cultivation\n- {群落|ぐんらく}: plant community — a more technical ecological term\n\nNOTE:\nOften used in nature descriptions, hiking guides, and botanical contexts. Seasonal flowers growing in clusters ({群生|ぐんせい}) are popular tourist attractions in Japan.",
+  "notes": "A compound of {群|ぐん} (group, flock) and {生|せい} (growth, life). Describes plants, fungi, or other organisms growing together naturally in groups.\n\nCOMMON COLLOCATIONS:\n- {群生|ぐんせい}する: to grow in clusters\n- {群生|ぐんせい}{地|ち}: habitat where plants grow in clusters\n- {群生|ぐんせい}が{見|み}られる: clusters can be observed\n\nSIMILAR WORDS:\n- {密生|みっせい}: dense growth — emphasizes how tightly packed the growth is\n- {自生|じせい}: growing wild — emphasizes that plants grow naturally without cultivation\n- {群落|ぐんらく}: plant community — a more technical ecological term\n\nUSAGE:\nOften used in nature descriptions, hiking guides, and botanical contexts. Seasonal flowers growing in clusters ({群生|ぐんせい}) are popular tourist attractions in Japan.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21932_missei",
+      "reading": "みっせい",
+      "headword": "{密生|みっせい}",
+      "label": "dense growth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18823_jisei",
+      "reading": "じせい",
+      "headword": "{自生|じせい}",
+      "label": "growing wild"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23999_gunraku",
+      "reading": "ぐんらく",
+      "headword": "{群落|ぐんらく}",
+      "label": "plant community"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-03T22:11:22Z",
-    "modified": "2026-04-03T22:11:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

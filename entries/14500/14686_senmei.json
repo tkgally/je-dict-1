@@ -3,7 +3,7 @@
   "id": "14686_senmei",
   "headword": "{鮮明|せんめい}",
   "reading": "せんめい",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "vivid; clear; distinct",
   "definitions": [
     {
@@ -66,11 +66,39 @@
       "reading": "ふせんめい",
       "headword": "{不鮮明|ふせんめい}",
       "label": "unclear, blurred"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20614_senretsu",
+      "reading": "せんれつ",
+      "headword": "{鮮烈|せんれつ}",
+      "label": "vivid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20647_meiryou",
+      "reading": "めいりょう",
+      "headword": "{明瞭|めいりょう}",
+      "label": "clear"
+    },
+    {
+      "type": "related",
+      "target_id": "26326_kaizou",
+      "reading": "かいぞう",
+      "headword": "{解像|かいぞう}",
+      "label": "resolution (of an image)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26886_hakkirisuru",
+      "reading": "はっきりする",
+      "headword": "はっきりする",
+      "label": "to become clear"
     }
   ],
   "metadata": {
     "created": "2026-03-02T11:04:21Z",
-    "modified": "2026-05-06T07:07:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

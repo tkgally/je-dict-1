@@ -18,7 +18,9 @@
       "english": "To collect seashells.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19457_kaigara_ex2",
@@ -26,7 +28,9 @@
       "english": "I found a beautiful seashell on the beach.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19457_kaigara_ex3",
@@ -34,22 +38,50 @@
       "english": "The children are playing picking up seashells.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{貝殻|かいがら} is the hard outer covering left behind by mollusks and other shellfish. Seashells washed up on beaches are a common sight in Japan, and {貝殻|かいがら}{拾|ひろ}い (shell collecting) is a popular seaside activity for children and adults alike.\n\nSTRUCTURE:\n- {貝|かい} (shellfish) + {殻|がら} (shell, husk)\n\nCOMMON COLLOCATIONS:\n- {貝殻|かいがら}を{拾|ひろ}う (to pick up seashells)\n- {貝殻|かいがら}を{集|あつ}める (to collect seashells)\n- {貝殻|かいがら}の{形|かたち} (the shape of a shell)\n- {貝殻|かいがら}で{飾|かざ}る (to decorate with seashells)\n\nRELATED WORDS:\n- {貝|かい} (shellfish — the living animal)\n- {殻|から} (shell, husk — general term; read から when standalone)\n- {巻|ま}き{貝|がい} (snail shell, spiral shell)\n- {二枚貝|にまいがい} (bivalve)",
-  "cross_references": [],
+  "notes": "{貝殻|かいがら} is the hard outer covering left behind by mollusks and other shellfish. Seashells washed up on beaches are a common sight in Japan, and {貝殻|かいがら}{拾|ひろ}い (shell collecting) is a popular seaside activity for children and adults alike.\n\nCOMMON PATTERNS:\n- {貝|かい} (shellfish) + {殻|がら} (shell, husk)\n\nCOMMON COLLOCATIONS:\n- {貝殻|かいがら}を{拾|ひろ}う (to pick up seashells)\n- {貝殻|かいがら}を{集|あつ}める (to collect seashells)\n- {貝殻|かいがら}の{形|かたち} (the shape of a shell)\n- {貝殻|かいがら}で{飾|かざ}る (to decorate with seashells)\n\nRELATED WORDS:\n- {貝|かい} (shellfish — the living animal)\n- {殻|から} (shell, husk — general term; read から when standalone)\n- {巻|ま}き{貝|がい} (snail shell, spiral shell)\n- {二枚貝|にまいがい} (bivalve)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23395_makigai",
+      "reading": "まきがい",
+      "headword": "{巻|ま}き{貝|がい}",
+      "label": "snail shell, spiral shell"
+    },
+    {
+      "type": "related",
+      "target_id": "23394_nimaigai",
+      "reading": "にまいがい",
+      "headword": "{二枚貝|にまいがい}",
+      "label": "bivalve"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21848_koura",
+      "reading": "こうら",
+      "headword": "{甲羅|こうら}",
+      "label": "shell"
+    }
+  ],
   "metadata": {
     "created": "2026-03-25T14:52:00Z",
-    "modified": "2026-03-25T14:52:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

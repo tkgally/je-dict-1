@@ -46,18 +46,49 @@
   ],
   "notes": "A compound of {料理|りょうり} (cooking, cuisine) and {店|てん} (shop, establishment). A relatively formal way to say \"restaurant\" that appears often in written Japanese and official contexts.\n\nCOMMON COLLOCATIONS:\n- {日本料理店|にほんりょうりてん}: Japanese restaurant\n- {中華料理店|ちゅうかりょうりてん}: Chinese restaurant\n- {高級|こうきゅう}{料理店|りょうりてん}: high-end restaurant\n- {料理店|りょうりてん}を{営|いとな}む: to run a restaurant\n\nSIMILAR WORDS:\n- レストラン: restaurant (loanword) — the most common casual term, often implies Western-style dining\n- {飲食店|いんしょくてん}: food and drink establishment — a broader legal/administrative term covering restaurants, bars, and cafes\n- {食堂|しょくどう}: dining hall, eatery — implies a more casual, everyday eating place\n- {料亭|りょうてい}: traditional Japanese restaurant — high-end, with private rooms and elaborate multi-course meals",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01048_resutoran",
+      "reading": "れすとらん",
+      "headword": "レストラン",
+      "label": "restaurant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15093_inshokuten",
+      "reading": "いんしょくてん",
+      "headword": "{飲食店|いんしょくてん}",
+      "label": "food and drink establishment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01054_shokudou",
+      "reading": "しょくどう",
+      "headword": "{食堂|しょくどう}",
+      "label": "dining hall, eatery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21710_ryoutei",
+      "reading": "りょうてい",
+      "headword": "{料亭|りょうてい}",
+      "label": "traditional Japanese restaurant"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "food",
         "building"
       ]
     },
     "created": "2026-04-26T13:20:35Z",
-    "modified": "2026-08-04T21:21:58Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

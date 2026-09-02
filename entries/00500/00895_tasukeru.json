@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{助|たす}かる→助かる：01956_tasukaru⟧ (intransitive). Pattern: X⟦を→を：00422_wo⟧{助|たす}ける (help/save X).\n\nASPECT: ている indicates ongoing action. {助|たす}けている = 'is helping/saving.'\n\nCOMMON PATTERNS:\n・⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{助|たす}ける (help a person)\n・⟦{命|いのち}→命：02371_inochi⟧⟦を→を：00422_wo⟧{助|たす}ける (save a life)\n・{助|たす}けて! (Help! - emergency)\n・{助|たす}け⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧ (ask for help)\n\nTHE INTRANSITIVE PAIR: ⟦{助|たす}かる→助かる：01956_tasukaru⟧ describes the person or thing that gets helped or saved. Its past form is an everyday set phrase of thanks: {助|たす}かりました = 'that was a big help'.\n\n{助|たす}ける VS ⟦{手伝|てつだ}う→手伝う：00898_tetsudau⟧: both are translated 'help', but they are not interchangeable. {助|たす}ける means rescuing or coming to the aid of someone in difficulty or danger, and its object is the person: ⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{助|たす}ける. ⟦{手伝|てつだ}う→手伝う：00898_tetsudau⟧ means pitching in on a task, and its object is usually the work: ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦{手伝|てつだ}う→手伝う：00898_tetsudau⟧. Asking a colleague to help you finish a report calls for ⟦{手伝|てつだ}う→手伝う：00898_tetsudau⟧, not {助|たす}ける.",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{助|たす}かる→助かる：01956_tasukaru⟧ (intransitive). Pattern: X⟦を→を：00422_wo⟧{助|たす}ける (help/save X).\n\nASPECT: ている indicates ongoing action. {助|たす}けている = 'is helping/saving.'\n\nCOMMON PATTERNS:\n- ⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{助|たす}ける (help a person)\n- ⟦{命|いのち}→命：02371_inochi⟧⟦を→を：00422_wo⟧{助|たす}ける (save a life)\n- {助|たす}けて! (Help! - emergency)\n- {助|たす}け⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧ (ask for help)\n\nTHE INTRANSITIVE PAIR: ⟦{助|たす}かる→助かる：01956_tasukaru⟧ describes the person or thing that gets helped or saved. Its past form is an everyday set phrase of thanks: {助|たす}かりました = 'that was a big help'.\n\n{助|たす}ける VS ⟦{手伝|てつだ}う→手伝う：00898_tetsudau⟧: both are translated 'help', but they are not interchangeable. {助|たす}ける means rescuing or coming to the aid of someone in difficulty or danger, and its object is the person: ⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{助|たす}ける. ⟦{手伝|てつだ}う→手伝う：00898_tetsudau⟧ means pitching in on a task, and its object is usually the work: ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧⟦{手伝|てつだ}う→手伝う：00898_tetsudau⟧. Asking a colleague to help you finish a report calls for ⟦{手伝|てつだ}う→手伝う：00898_tetsudau⟧, not {助|たす}ける.",
   "cross_references": [
     {
       "type": "pair",
@@ -167,11 +167,53 @@
       "reading": "てつだう",
       "headword": "{手伝|てつだ}う",
       "target_id": "00898_tetsudau"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02063_sukuu",
+      "reading": "すくう",
+      "headword": "{救|すく}う",
+      "label": "to save, to rescue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22775_tewokasu",
+      "reading": "てをかす",
+      "headword": "{手|て}を{貸|か}す",
+      "label": "to lend a hand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25534_shiensuru",
+      "reading": "しえんする",
+      "headword": "{支援|しえん}する",
+      "label": "to support"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26783_tedasukesuru",
+      "reading": "てだすけする",
+      "headword": "{手助|てだす}けする",
+      "label": "to help"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26853_kyuushutsusuru",
+      "reading": "きゅうしゅつする",
+      "headword": "{救出|きゅうしゅつ}する",
+      "label": "to rescue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26855_enjosuru",
+      "reading": "えんじょする",
+      "headword": "{援助|えんじょ}する",
+      "label": "to assist"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:35:43Z",
-    "modified": "2026-08-16T00:19:15Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

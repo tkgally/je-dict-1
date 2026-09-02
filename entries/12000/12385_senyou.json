@@ -3,7 +3,7 @@
   "id": "12385_senyou",
   "headword": "{専用|せんよう}",
   "reading": "せんよう",
-  "part_of_speech": "noun / adjective-no",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "exclusive use, dedicated",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "There is a parking space reserved for the company president.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12385_senyou_ex2",
@@ -27,7 +29,9 @@
       "english": "This app is for members only.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12385_senyou_ex3",
@@ -35,10 +39,12 @@
       "english": "Women-only train cars are provided during the morning commute rush.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{専用|せんよう} is extremely common in daily life, appearing on signs, labels, and in instructions. It functions primarily as a no-adjective or prefix: {専用|せんよう}の～ or ～{専用|せんよう} (dedicated to ~). It can also be used as a する verb meaning \"to use exclusively.\"\n\nPATTERNS:\n- ～{専用|せんよう}: dedicated to ~, exclusively for ~ (e.g., {子|こ}ども{専用|せんよう} — for children only)\n- {専用|せんよう}の～: dedicated ~ (e.g., {専用|せんよう}の{道具|どうぐ} — dedicated tools)\n\nCOMMON COLLOCATIONS:\n- {女性|じょせい}{専用|せんよう}: women-only\n- {会員|かいいん}{専用|せんよう}: members-only\n- {専用|せんよう}{機|き}: dedicated device/aircraft\n- {専用|せんよう}{線|せん}: dedicated line\n- {専用|せんよう}アプリ: dedicated app",
+  "notes": "USAGE:\n{専用|せんよう} is extremely common in daily life, appearing on signs, labels, and in instructions. It functions primarily as a no-adjective or prefix: {専用|せんよう}の～ or ～{専用|せんよう} (dedicated to ~). It can also be used as a する verb meaning \"to use exclusively.\"\n\nCOMMON PATTERNS:\n- ～{専用|せんよう}: dedicated to ~, exclusively for ~ (e.g., {子|こ}ども{専用|せんよう} — for children only)\n- {専用|せんよう}の～: dedicated ~ (e.g., {専用|せんよう}の{道具|どうぐ} — dedicated tools)\n\nCOMMON COLLOCATIONS:\n- {女性|じょせい}{専用|せんよう}: women-only\n- {会員|かいいん}{専用|せんよう}: members-only\n- {専用|せんよう}{機|き}: dedicated device/aircraft\n- {専用|せんよう}{線|せん}: dedicated line\n- {専用|せんよう}アプリ: dedicated app",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,37 @@
       "reading": "きょうよう",
       "headword": "{共用|きょうよう}",
       "label": "shared use"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07653_hanyou",
+      "reading": "はんよう",
+      "headword": "{汎用|はんよう}",
+      "label": "general-purpose"
+    },
+    {
+      "type": "related",
+      "target_id": "08292_kashikiri",
+      "reading": "かしきり",
+      "headword": "{貸|か}し{切|き}り",
+      "label": "reserved"
     }
   ],
   "metadata": {
     "created": "2026-02-21T05:49:41Z",
-    "modified": "2026-04-26T10:06:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

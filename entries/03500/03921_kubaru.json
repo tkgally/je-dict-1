@@ -2,7 +2,7 @@
   "id": "03921_kubaru",
   "headword": "{配|くば}る",
   "reading": "くばる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to distribute, to hand out, to deliver",
   "conjugation": {
     "type": "godan",
@@ -168,10 +168,47 @@
       ]
     }
   ],
-  "notes": "{配|くば}る means to distribute or hand out items to multiple recipients.\n\nTRANSITIVITY:\n- Type: Transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧)\n- Pattern: X⟦を→を：00422_wo⟧{配|くば}る\n\nCOMMON EXPRESSIONS:\n- ⟦{気|き}→気：02199_ki⟧⟦を→を：00422_wo⟧{配|くば}る (to pay attention to, to be considerate of)\n- ⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧{配|くば}る (to keep an eye on)\n- ⟦プリント→プリント：01539_purinto⟧⟦を→を：00422_wo⟧{配|くば}る (to hand out printouts)\n- ⟦チラシ→チラシ：23406_chirashi⟧⟦を→を：00422_wo⟧{配|くば}る (to hand out flyers)\n- ⟦{新聞|しんぶん}→新聞：01440_shinbun⟧⟦を→を：00422_wo⟧{配|くば}る (to deliver newspapers)\n\nRELATED VOCABULARY:\n- ⟦{配達|はいたつ}→配達：00084_haitatsu⟧⟦する→する：00392_suru⟧ (to deliver)\n- ⟦{配布|はいふ}→配布：14410_haifu⟧⟦する→する：00392_suru⟧ (to distribute - formal)\n- ⟦{手配|てはい}→手配：07604_tehai⟧⟦する→する：00392_suru⟧ (to arrange)",
+  "notes": "{配|くば}る means to distribute or hand out items to multiple recipients.\n\nTRANSITIVITY:\n- Type: Transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧)\n- Pattern: X⟦を→を：00422_wo⟧{配|くば}る\n\nCOMMON EXPRESSIONS:\n- ⟦{気|き}→気：02199_ki⟧⟦を→を：00422_wo⟧{配|くば}る (to pay attention to, to be considerate of)\n- ⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧{配|くば}る (to keep an eye on)\n- ⟦プリント→プリント：01539_purinto⟧⟦を→を：00422_wo⟧{配|くば}る (to hand out printouts)\n- ⟦チラシ→チラシ：23406_chirashi⟧⟦を→を：00422_wo⟧{配|くば}る (to hand out flyers)\n- ⟦{新聞|しんぶん}→新聞：01440_shinbun⟧⟦を→を：00422_wo⟧{配|くば}る (to deliver newspapers)\n\nRELATED WORDS:\n- ⟦{配達|はいたつ}→配達：00084_haitatsu⟧⟦する→する：00392_suru⟧ (to deliver)\n- ⟦{配布|はいふ}→配布：14410_haifu⟧⟦する→する：00392_suru⟧ (to distribute - formal)\n- ⟦{手配|てはい}→手配：07604_tehai⟧⟦する→する：00392_suru⟧ (to arrange)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19643_haitatsusuru",
+      "reading": "はいたつする",
+      "headword": "{配達|はいたつ}する",
+      "label": "to deliver"
+    },
+    {
+      "type": "related",
+      "target_id": "14410_haifu",
+      "reading": "はいふ",
+      "headword": "{配布|はいふ}",
+      "label": "to distribute"
+    },
+    {
+      "type": "related",
+      "target_id": "07604_tehai",
+      "reading": "てはい",
+      "headword": "{手配|てはい}",
+      "label": "to arrange"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21141_bunpaisuru",
+      "reading": "ぶんぱいする",
+      "headword": "{分配|ぶんぱい}する",
+      "label": "to distribute"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22512_toriwakeru",
+      "reading": "とりわける",
+      "headword": "{取|と}り{分|わ}ける",
+      "label": "to serve out portions"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T01:47:32Z",
-    "modified": "2026-05-28T13:11:53Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

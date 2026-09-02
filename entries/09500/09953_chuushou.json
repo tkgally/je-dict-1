@@ -2,7 +2,7 @@
   "id": "09953_chuushou",
   "headword": "{中小|ちゅうしょう}",
   "reading": "ちゅうしょう",
-  "part_of_speech": "noun, prefix",
+  "part_of_speech": "prefix, noun",
   "gloss": "small and medium-sized",
   "definitions": [
     {
@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "{中小|ちゅうしょう} combines {中|ちゅう} (medium) and {小|しょう} (small). Almost always used as a prefix before nouns, especially in business and economic contexts.\n\nCOMMON COMPOUNDS:\n- {中小|ちゅうしょう}{企業|きぎょう}: small and medium enterprises (SMEs)\n- {中小|ちゅうしょう}{企業庁|きぎょうちょう}: Small and Medium Enterprise Agency\n- {中小|ちゅうしょう}メーカー: small-to-mid-size manufacturer\n- {中小|ちゅうしょう}{規模|きぼ}: small-to-medium scale\n\nUSAGE:\n{中小|ちゅうしょう}{企業|きぎょう} is by far the most common compound. SMEs make up over 99% of Japanese businesses, so this term appears frequently in news, policy, and economic discussions.\n\nCONTRAST:\n- {大|だい}{企業|きぎょう}: large enterprise\n- {零細|れいさい}{企業|きぎょう}: micro enterprise (even smaller than {中小|ちゅうしょう})\n- {大手|おおて}: major company (commonly used in business news)",
-  "cross_references": [],
+  "notes": "{中小|ちゅうしょう} combines {中|ちゅう} (medium) and {小|しょう} (small). Almost always used as a prefix before nouns, especially in business and economic contexts.\n\nCOMPOUNDS:\n- {中小|ちゅうしょう}{企業|きぎょう}: small and medium enterprises (SMEs)\n- {中小|ちゅうしょう}{企業庁|きぎょうちょう}: Small and Medium Enterprise Agency\n- {中小|ちゅうしょう}メーカー: small-to-mid-size manufacturer\n- {中小|ちゅうしょう}{規模|きぼ}: small-to-medium scale\n\nUSAGE:\n{中小|ちゅうしょう}{企業|きぎょう} is by far the most common compound. SMEs make up over 99% of Japanese businesses, so this term appears frequently in news, policy, and economic discussions.\n\nSIMILAR WORDS:\n- {大|だい}{企業|きぎょう}: large enterprise\n- {零細|れいさい}{企業|きぎょう}: micro enterprise (even smaller than {中小|ちゅうしょう})\n- {大手|おおて}: major company (commonly used in business news)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12277_daikigyou",
+      "reading": "だいきぎょう",
+      "headword": "{大企業|だいきぎょう}",
+      "label": "large enterprise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27027_reisaikigyou",
+      "reading": "れいさいきぎょう",
+      "headword": "{零細企業|れいさいきぎょう}",
+      "label": "micro enterprise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12171_oote",
+      "reading": "おおて",
+      "headword": "{大手|おおて}",
+      "label": "major company"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T10:52:33Z",
-    "modified": "2026-03-28T03:50:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

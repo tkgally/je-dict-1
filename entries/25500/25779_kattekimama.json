@@ -3,7 +3,7 @@
   "headword": "{勝手|かって}{気|き}まま",
   "reading": "かってきまま",
   "romaji": "kattekimama",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "selfish; self-indulgent; doing as one pleases",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "25779_kattekimama_ex1",
       "japanese": "{彼|かれ}は{勝手|かって}{気|き}ままに{暮|く}らしている。",
       "english": "He lives as he pleases.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25779_kattekimama_ex2",
       "japanese": "{勝手|かって}{気|き}ままな{行動|こうどう}は{周|まわ}りに{迷惑|めいわく}をかける。",
       "english": "Selfish behavior causes trouble for those around you.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,53 @@
       "id": "25779_kattekimama_ex3",
       "japanese": "{子|こ}どもの{頃|ころ}は{勝手|かって}{気|き}ままだったが、{社会|しゃかい}に{出|で}てからは{変|か}わった。",
       "english": "He was self-indulgent as a child, but changed after entering the workforce.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {勝手|かって} (selfishness; doing as one likes) and {気|き}まま (whimsical; carefree). Together they reinforce each other to describe someone who acts entirely on personal whims without considering the impact on others. The tone is distinctly negative when describing someone's character, though it can sound envious when describing a lifestyle.\n\nCOMMON COLLOCATIONS:\n- {勝手|かって}{気|き}ままに{暮|く}らす: to live as one pleases\n- {勝手|かって}{気|き}ままな{振|ふ}る{舞|ま}い: self-indulgent behavior\n- {勝手|かって}{気|き}ままな{性格|せいかく}: selfish personality\n\nSIMILAR WORDS:\n- {気|き}まま: carefree; whimsical — lighter in tone, can be positive (enjoying freedom)\n- {勝手|かって}: selfish; arbitrary — focuses on acting without permission or consideration\n- {自分勝手|じぶんかって}: selfish; self-centered — emphasizes putting oneself first\n- {わがまま}: selfish; spoiled — the most common everyday word for selfishness",
-  "cross_references": [],
+  "notes": "A compound of {勝手|かって} (selfishness; doing as one likes) and {気|き}まま (whimsical; carefree). Together they reinforce each other to describe someone who acts entirely on personal whims without considering the impact on others. The tone is distinctly negative when describing someone's character, though it can sound envious when describing a lifestyle.\n\nCOMMON COLLOCATIONS:\n- {勝手|かって}{気|き}ままに{暮|く}らす: to live as one pleases\n- {勝手|かって}{気|き}ままな{振|ふ}る{舞|ま}い: self-indulgent behavior\n- {勝手|かって}{気|き}ままな{性格|せいかく}: selfish personality\n\nSIMILAR WORDS:\n- {気|き}まま: carefree; whimsical — lighter in tone, can be positive (enjoying freedom)\n- {勝手|かって}: selfish; arbitrary — focuses on acting without permission or consideration\n- {自分勝手|じぶんかって}: selfish; self-centered — emphasizes putting oneself first\n- わがまま: selfish; spoiled — the most common everyday word for selfishness",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03021_katte",
+      "reading": "かって",
+      "headword": "{勝手|かって}",
+      "label": "selfish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19490_jibunkatte",
+      "reading": "じぶんかって",
+      "headword": "{自分勝手|じぶんかって}",
+      "label": "selfish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03789_wagamama",
+      "reading": "わがまま",
+      "headword": "わがまま",
+      "label": "selfish"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
-      "semantic": ["personality", "evaluation"]
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "personality",
+        "evaluation"
+      ]
     },
     "created": "2026-04-27T13:08:15Z",
-    "modified": "2026-04-27T13:08:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

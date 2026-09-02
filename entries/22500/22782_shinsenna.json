@@ -3,7 +3,7 @@
   "headword": "{新鮮|しんせん}な",
   "reading": "しんせんな",
   "romaji": "shinsenna",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "fresh; novel",
   "definitions": [
     {
@@ -22,7 +22,9 @@
       "id": "22782_shinsenna_ex1",
       "japanese": "{新鮮|しんせん}な{魚|さかな}。",
       "english": "Fresh fish.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "22782_shinsenna_ex2",
       "japanese": "この{野菜|やさい}は{新鮮|しんせん}でおいしい。",
       "english": "These vegetables are fresh and delicious.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "22782_shinsenna_ex3",
       "japanese": "{朝|あさ}{獲|と}れたばかりの{新鮮|しんせん}な{海|かい}{産物|さんぶつ}が{市場|いちば}に{並|なら}ぶ。",
       "english": "Freshly caught seafood from this morning lines the market.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "22782_shinsenna_ex4",
       "japanese": "{新鮮|しんせん}な{気持|きも}ちで{始|はじ}めよう。",
       "english": "Let's start with a fresh feeling.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "22782_shinsenna_ex5",
       "japanese": "{外国|がいこく}の{文化|ぶんか}に{触|ふ}れるのは{新鮮|しんせん}だった。",
       "english": "Coming into contact with a foreign culture felt refreshingly new.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,13 +72,38 @@
       "id": "22782_shinsenna_ex6",
       "japanese": "{田舎|いなか}の{景色|けしき}は{都会育|とかいそだ}ちの{私|わたし}にはとても{新鮮|しんせん}に{映|うつ}った。",
       "english": "The rural scenery appeared very fresh and novel to me, having grown up in the city.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {新|しん} (new) + {鮮|せん} (vivid/fresh). One of the most common na-adjectives in Japanese, used daily for food quality and figuratively for new experiences.\n\nCOMMON COLLOCATIONS:\n- {新鮮|しんせん}な{空気|くうき}: fresh air\n- {新鮮|しんせん}な{食材|しょくざい}: fresh ingredients\n- {新鮮|しんせん}な{驚|おどろ}き: a refreshing surprise\n- {新鮮|しんせん}さを{保|たも}つ: to keep fresh\n- {新鮮|しんせん}に{感|かん}じる: to find refreshing\n\nSIMILAR WORDS:\n- {新|あたら}しい: new — a general adjective for newness; {新鮮|しんせん} specifically implies freshness or vivid novelty\n- {生|なま}: raw, fresh — used for uncooked food; {新鮮|しんせん} emphasizes quality and lack of deterioration\n- {斬新|ざんしん}な: innovative, novel — stronger than {新鮮|しんせん}, emphasizing originality and creativity",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00506_atarashii",
+      "reading": "あたらしい",
+      "headword": "{新|あたら}しい",
+      "label": "new"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03509_nama",
+      "reading": "なま",
+      "headword": "{生|なま}",
+      "label": "raw, fresh"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09069_zanshin",
+      "reading": "ざんしん",
+      "headword": "{斬新|ざんしん}",
+      "label": "innovative, novel"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -84,6 +119,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T16:36:39Z",
-    "modified": "2026-04-07T16:36:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

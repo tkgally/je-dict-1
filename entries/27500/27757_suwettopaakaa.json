@@ -17,7 +17,9 @@
       "id": "27757_suwettopaakaa_ex1",
       "japanese": "{朝|あさ}、スウェットパーカーを{着|き}た。",
       "english": "In the morning, I put on a hoodie.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27757_suwettopaakaa_ex2",
       "japanese": "{寒|さむ}いのでスウェットパーカーのフードをかぶった。",
       "english": "It was cold, so I pulled up the hood of my hoodie.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "27757_suwettopaakaa_ex3",
       "japanese": "{休|やす}みの{日|ひ}は、{楽|らく}なスウェットパーカーとジーンズで{過|す}ごすことが{多|おお}い。",
       "english": "On days off, I often spend the day in a comfortable hoodie and jeans.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A loanword combining \"sweat\" (referring to sweatshirt fabric) and \"parka.\" It refers to a hooded sweatshirt, and is often shortened to パーカー in everyday speech.\n\nUSAGE:\n- スウェットパーカーを{着|き}る: to wear a hoodie\n- フード{付|つ}きのスウェット: a hooded sweatshirt\n\nSIMILAR WORDS:\n- パーカー: hoodie; parka — the common short form, which can also refer to a non-sweatshirt hooded jacket\n- トレーナー: sweatshirt — a sweatshirt without a hood",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04524_paakaa",
+      "reading": "ぱーかー",
+      "headword": "パーカー",
+      "label": "hoodie"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21469_toreenaa",
+      "reading": "とれーなー",
+      "headword": "トレーナー",
+      "label": "sweatshirt"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"],
+      "semantic": [
+        "clothing"
+      ],
       "domain": []
     },
     "created": "2026-05-18T03:04:42Z",
-    "modified": "2026-05-18T03:04:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

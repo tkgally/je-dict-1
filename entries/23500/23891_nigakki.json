@@ -55,7 +55,29 @@
     }
   ],
   "notes": "Compound of {二|に} ('two') and {学期|がっき} ('school term, semester'). Note the sound change: {学期|がっき} → {二学期|にがっき}, not にがくき.\n\nUSAGE:\n- Refers to the second school term in the Japanese academic calendar.\n- In a three-term system ({三|さん}{学期|がっき}{制|せい}) — the standard for elementary, junior high, and most high schools — the second term runs roughly from September to December.\n- In a two-term system ({二|に}{学期|がっき}{制|せい}), used by many universities and some schools, the second term is the fall/autumn semester, running from about October to February.\n- Common context: school events like {運動会|うんどうかい} (sports day) and {文化祭|ぶんかさい} (culture festival) often fall in the second term.\n\nCOMMON COLLOCATIONS:\n- {二学期|にがっき}が{始|はじ}まる: the second term starts\n- {二学期|にがっき}が{終|お}わる: the second term ends\n- {二学期|にがっき}の{成績|せいせき}: second-term grades\n- {二学期|にがっき}{制|せい}: the two-term system\n\nSIMILAR WORDS:\n- {一学期|いちがっき}: first term — April to July in the three-term system.\n- {三学期|さんがっき}: third term — January to March in the three-term system.\n- {学期|がっき}: school term, semester — the generic term for any one term.\n- {後期|こうき}: latter term/semester — often used in two-term university systems; overlaps with {二学期|にがっき} in that context.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17203_ichigakki",
+      "reading": "いちがっき",
+      "headword": "{一学期|いちがっき}",
+      "label": "first term"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30250_sangakki",
+      "reading": "さんがっき",
+      "headword": "{三学期|さんがっき}",
+      "label": "third term"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12603_kouki",
+      "reading": "こうき",
+      "headword": "{後期|こうき}",
+      "label": "latter term/semester"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,6 +93,6 @@
       ]
     },
     "created": "2026-04-15T10:11:37Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

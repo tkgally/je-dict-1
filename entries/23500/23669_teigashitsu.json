@@ -3,7 +3,7 @@
   "headword": "{低画質|ていがしつ}",
   "reading": "ていがしつ",
   "romaji": "teigashitsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "low image quality; low resolution",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "23669_teigashitsu_ex1",
       "japanese": "{低画質|ていがしつ}の{画像|がぞう}。",
       "english": "A low-resolution image.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23669_teigashitsu_ex2",
       "japanese": "{通信|つうしん}{速度|そくど}が{遅|おそ}いので{低画質|ていがしつ}で{再生|さいせい}した。",
       "english": "The connection was slow, so I played it at low quality.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23669_teigashitsu_ex3",
       "japanese": "{昔|むかし}のビデオは{低画質|ていがしつ}で、{文字|もじ}もよく{見|み}えない。",
       "english": "Old videos are low quality, and you can't even read the text properly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,45 @@
       "id": "23669_teigashitsu_ex4",
       "japanese": "{容量|ようりょう}を{節約|せつやく}するために、わざと{低画質|ていがしつ}で{録画|ろくが}することもあります。",
       "english": "To save storage space, sometimes I record in low quality on purpose.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {低|てい} (low) and {画質|がしつ} (image quality). Refers to poor resolution, blurriness, or lack of detail in images and video. It is often encountered in settings menus for video streaming, cloud storage, and camera apps.\n\nUSAGE:\n- As a noun: {低画質|ていがしつ}で{見|み}る (watch in low quality)\n- As a の-modifier: {低画質|ていがしつ}の{映像|えいぞう} (low-quality footage)\n- Occasionally used as a な-adjective in casual writing: {低画質|ていがしつ}な{写真|しゃしん}\n\nCOMMON COLLOCATIONS:\n- {低画質|ていがしつ}{動画|どうが}: low-quality video\n- {低画質|ていがしつ}モード: low-quality mode (to save data)\n- {低画質|ていがしつ}になる: to become low quality (e.g. after compression)\n- {低画質|ていがしつ}で{保存|ほぞん}する: to save in low quality\n\nSIMILAR WORDS:\n- {高画質|こうがしつ}: high image quality — the direct antonym\n- {粗|あら}い: coarse, rough — describes visibly pixelated or grainy images\n- {ぼやける}: to become blurry — refers to the image being out of focus rather than low resolution",
+  "notes": "Composed of {低|てい} (low) and {画質|がしつ} (image quality). Refers to poor resolution, blurriness, or lack of detail in images and video. It is often encountered in settings menus for video streaming, cloud storage, and camera apps.\n\nUSAGE:\n- As a noun: {低画質|ていがしつ}で{見|み}る (watch in low quality)\n- As a の-modifier: {低画質|ていがしつ}の{映像|えいぞう} (low-quality footage)\n- Occasionally used as a な-adjective in casual writing: {低画質|ていがしつ}な{写真|しゃしん}\n\nCOMMON COLLOCATIONS:\n- {低画質|ていがしつ}{動画|どうが}: low-quality video\n- {低画質|ていがしつ}モード: low-quality mode (to save data)\n- {低画質|ていがしつ}になる: to become low quality (e.g. after compression)\n- {低画質|ていがしつ}で{保存|ほぞん}する: to save in low quality\n\nSIMILAR WORDS:\n- {高画質|こうがしつ}: high image quality — the direct antonym\n- {粗|あら}い: coarse, rough — describes visibly pixelated or grainy images\n- ぼやける: to become blurry — refers to the image being out of focus rather than low resolution",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "23668_kougashitsu",
+      "reading": "こうがしつ",
+      "headword": "{高画質|こうがしつ}",
+      "label": "high image quality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00439_arai",
+      "reading": "あらい",
+      "headword": "{粗|あら}い",
+      "label": "coarse, rough"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["electronics"]
+      "semantic": [
+        "electronics"
+      ]
     },
     "created": "2026-04-14T00:46:30Z",
-    "modified": "2026-04-14T00:46:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

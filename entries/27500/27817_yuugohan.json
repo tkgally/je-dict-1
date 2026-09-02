@@ -17,7 +17,9 @@
       "id": "27817_yuugohan_ex1",
       "japanese": "{夕|ゆう}ご{飯|はん}を{作|つく}る。",
       "english": "I make dinner.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27817_yuugohan_ex2",
       "japanese": "{今夜|こんや}の{夕|ゆう}ご{飯|はん}は{何|なに}がいい?",
       "english": "What would you like for dinner tonight?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "27817_yuugohan_ex3",
       "japanese": "{家族|かぞく}そろって{夕|ゆう}ご{飯|はん}を{食|た}べるのが、{我|わ}が{家|や}の{習慣|しゅうかん}だ。",
       "english": "Eating dinner together as a family is a custom in our household.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "An everyday word for the evening meal, slightly more casual than {夕食|ゆうしょく}. Written with mixed kanji and kana; the all-kana ゆうごはん is also common.\n\nCOMMON COLLOCATIONS:\n- {夕|ゆう}ご{飯|はん}を{食|た}べる: to eat dinner\n- {夕|ゆう}ご{飯|はん}の{支度|したく}: dinner preparations\n- {夕|ゆう}ご{飯|はん}{抜|ぬ}き: skipping dinner\n\nSIMILAR WORDS:\n- {夕食|ゆうしょく}: dinner — more formal; used in writing and polite speech\n- {晩|ばん}ご{飯|はん}: dinner — a near-synonym, slightly more common in eastern Japan",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03006_yuushoku",
+      "reading": "ゆうしょく",
+      "headword": "{夕食|ゆうしょく}",
+      "label": "dinner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02940_bangohan",
+      "reading": "ばんごはん",
+      "headword": "{晩|ばん}ご{飯|はん}",
+      "label": "dinner"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food", "daily-life"],
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "daily-life"
+      ],
       "domain": []
     },
     "created": "2026-05-19T04:03:25Z",
-    "modified": "2026-05-19T04:03:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

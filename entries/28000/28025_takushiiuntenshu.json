@@ -17,7 +17,9 @@
       "id": "28025_takushiiuntenshu_ex1",
       "japanese": "{父|ちち}はタクシー{運転手|うんてんしゅ}だ。",
       "english": "My father is a taxi driver.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28025_takushiiuntenshu_ex2",
       "japanese": "タクシー{運転手|うんてんしゅ}に{道|みち}を{聞|き}いた。",
       "english": "I asked the taxi driver for directions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "28025_takushiiuntenshu_ex3",
       "japanese": "このタクシー{運転手|うんてんしゅ}は{近道|ちかみち}をよく{知|し}っている。",
       "english": "This taxi driver knows the shortcuts well.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of タクシー (taxi) and {運転手|うんてんしゅ} (driver).\n\nCOMMON COLLOCATIONS:\n- タクシー{運転手|うんてんしゅ}になる: to become a taxi driver\n- ベテランのタクシー{運転手|うんてんしゅ}: a veteran taxi driver\n\nSIMILAR WORDS:\n- {運転手|うんてんしゅ}さん: a polite, friendly way to address any driver\n- ドライバー: driver — broader loanword, also used for golf clubs and screwdrivers",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05478_doraibaa",
+      "reading": "どらいばー",
+      "headword": "ドライバー",
+      "label": "driver"
+    },
+    {
+      "type": "related",
+      "target_id": "07339_untenshi",
+      "reading": "うんてんし",
+      "headword": "{運転士|うんてんし}",
+      "label": "train driver"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["transportation", "occupation"],
+      "politeness": "plain",
+      "semantic": [
+        "transportation",
+        "occupation"
+      ],
       "domain": []
     },
     "created": "2026-05-24T04:10:04Z",
-    "modified": "2026-05-24T04:10:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

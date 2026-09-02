@@ -3,7 +3,7 @@
   "headword": "{弾劾|だんがい}",
   "reading": "だんがい",
   "romaji": "dangai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "impeachment; denunciation; accusation",
   "definitions": [
     {
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A formal legal and political term for impeachment or denunciation. Composed of {弾|だん} (impeach/accuse) + {劾|がい} (censure). Often used as a する verb: {弾劾|だんがい}する.\n\nCOMMON COLLOCATIONS:\n- {弾劾|だんがい}する: to impeach; to denounce\n- {弾劾|だんがい}{裁判|さいばん}: impeachment trial\n- {弾劾|だんがい}{裁判所|さいばんしょ}: impeachment court\n- {弾劾|だんがい}{決議|けつぎ}: impeachment resolution\n- {弾劾|だんがい}{訴追|そつい}: impeachment prosecution\n\nSIMILAR WORDS:\n- {告発|こくはつ}: accusation, indictment — formally reporting a crime to authorities\n- {糾弾|きゅうだん}: denunciation, censure — publicly condemning wrongdoing\n- {罷免|ひめん}: dismissal from office — removing someone from their position\n\nNOTE:\nIn Japan, {弾劾|だんがい}{裁判所|さいばんしょ} (the Court of Impeachment) exists under the constitution to try judges accused of misconduct. The word gained broader public familiarity through international news coverage of presidential impeachment proceedings in other countries.",
+  "notes": "A formal legal and political term for impeachment or denunciation. Composed of {弾|だん} (impeach/accuse) + {劾|がい} (censure). Often used as a する verb: {弾劾|だんがい}する.\n\nCOMMON COLLOCATIONS:\n- {弾劾|だんがい}する: to impeach; to denounce\n- {弾劾|だんがい}{裁判|さいばん}: impeachment trial\n- {弾劾|だんがい}{裁判所|さいばんしょ}: impeachment court\n- {弾劾|だんがい}{決議|けつぎ}: impeachment resolution\n- {弾劾|だんがい}{訴追|そつい}: impeachment prosecution\n\nSIMILAR WORDS:\n- {告発|こくはつ}: accusation, indictment — formally reporting a crime to authorities\n- {糾弾|きゅうだん}: denunciation, censure — publicly condemning wrongdoing\n- {罷免|ひめん}: dismissal from office — removing someone from their position\n\nUSAGE:\nIn Japan, {弾劾|だんがい}{裁判所|さいばんしょ} (the Court of Impeachment) exists under the constitution to try judges accused of misconduct. The word gained broader public familiarity through international news coverage of presidential impeachment proceedings in other countries.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07999_kokuhatsu",
+      "reading": "こくはつ",
+      "headword": "{告発|こくはつ}",
+      "label": "accusation, indictment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07890_kyuudan",
+      "reading": "きゅうだん",
+      "headword": "{糾弾|きゅうだん}",
+      "label": "denunciation, censure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29397_himen",
+      "reading": "ひめん",
+      "headword": "{罷免|ひめん}",
+      "label": "dismissal from office"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-29T16:27:06Z",
-    "modified": "2026-03-29T16:27:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

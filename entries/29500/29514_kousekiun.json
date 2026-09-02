@@ -17,7 +17,9 @@
       "id": "29514_kousekiun_ex1",
       "japanese": "{空|そら}に{高積雲|こうせきうん}が{広|ひろ}がる。",
       "english": "Altocumulus clouds spread across the sky.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29514_kousekiun_ex2",
       "japanese": "{高積雲|こうせきうん}が{出|で}ると{天気|てんき}が{崩|くず}れやすい。",
       "english": "When altocumulus clouds appear, the weather tends to turn.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29514_kousekiun_ex3",
       "japanese": "{夕方|ゆうがた}、{羊|ひつじ}の{群|む}れのような{高積雲|こうせきうん}が{茜色|あかねいろ}に{染|そ}まった。",
       "english": "In the evening, altocumulus clouds like a flock of sheep were dyed crimson.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A mid-level cloud (the {積雲|せきうん} \"cumulus\" family at {高|こう} \"high\" altitude) made of small white or gray masses. Their appearance is often read as a sign of changing weather.\n\nCOMMON COLLOCATIONS:\n- {高積雲|こうせきうん}が{出|で}る: altocumulus clouds appear\n- ひつじ{雲|ぐも}: sheep clouds — the everyday nickname for {高積雲|こうせきうん}\n\nSIMILAR WORDS:\n- {積乱雲|せきらんうん}: cumulonimbus — towering thunderclouds\n- {巻積雲|けんせきうん}: cirrocumulus — similar ripples but much higher and finer",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27194_sekiranun",
+      "reading": "せきらんうん",
+      "headword": "{積乱雲|せきらんうん}",
+      "label": "cumulonimbus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29517_kensekiun",
+      "reading": "けんせきうん",
+      "headword": "{巻積雲|けんせきうん}",
+      "label": "cirrocumulus"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["weather"],
+      "politeness": "plain",
+      "semantic": [
+        "weather"
+      ],
       "domain": []
     },
     "created": "2026-06-27T00:21:08Z",
-    "modified": "2026-06-27T00:21:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

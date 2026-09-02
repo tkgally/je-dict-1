@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Common in restaurants (especially ramen shops and fast-food), vending machine purchases, and online shopping. Many Japanese restaurants use ticket machines ({食券|しょっけん}{機|き}) that operate on a {先払|さきばら}い system.\n\nCOMMON COLLOCATIONS:\n- {先払|さきばら}い{制|せい}: prepayment system\n- {先払|さきばら}いで: by advance payment\n- {料金|りょうきん}{先払|さきばら}い: prepaid fee\n- {先払|さきばら}いチャージ: prepaid charge\n\nSIMILAR WORDS:\n- {後払|あとばら}い: deferred payment; pay later — the opposite; paying after receiving goods or services\n- {前払|まえばら}い: prepayment — very similar; {前払|まえばら}い is more common in accounting and formal business contexts\n- {代金引換|だいきんひきかえ}: cash on delivery (COD) — paying at the time of delivery",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "17771_atobarai",
+      "reading": "あとばらい",
+      "headword": "{後払|あとばら}い",
+      "label": "deferred payment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15782_maebarai",
+      "reading": "まえばらい",
+      "headword": "{前払|まえばら}い",
+      "label": "prepayment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28163_daikinhikikae",
+      "reading": "だいきんひきかえ",
+      "headword": "代金引換",
+      "label": "cash on delivery"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,6 +85,6 @@
       ]
     },
     "created": "2026-05-05T16:18:08Z",
-    "modified": "2026-05-05T16:18:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

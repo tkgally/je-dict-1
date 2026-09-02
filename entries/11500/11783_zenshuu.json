@@ -43,11 +43,40 @@
       ]
     }
   ],
-  "notes": "A comprehensive collection of all or most works by a single author, typically published as a multi-volume set. Commonly used in the titles of literary and academic publications.\n\nWORD FORMATION:\n{全|ぜん} (complete, all) + {集|しゅう} (collection).\n\nCOMMON COLLOCATIONS:\n- {著作|ちょさく}{全集|ぜんしゅう}: complete written works\n- {全集|ぜんしゅう}を{刊行|かんこう}する: to publish a complete works\n- {全|ぜん}○{巻|かん}の{全集|ぜんしゅう}: a complete works in ○ volumes\n- {世界文学全集|せかいぶんがくぜんしゅう}: complete collection of world literature\n\nCOUNTER:\nVolumes in a {全集|ぜんしゅう} are counted with {巻|かん}: {全|ぜん}20{巻|かん} (20 volumes total).\n\nRELATED WORDS:\n- {選集|せんしゅう}: selected works (not comprehensive)\n- {文庫|ぶんこ}: paperback series",
-  "cross_references": [],
+  "notes": "A comprehensive collection of all or most works by a single author, typically published as a multi-volume set. Commonly used in the titles of literary and academic publications.\n\nFORMS:\n{全|ぜん} (complete, all) + {集|しゅう} (collection).\n\nCOMMON COLLOCATIONS:\n- {著作|ちょさく}{全集|ぜんしゅう}: complete written works\n- {全集|ぜんしゅう}を{刊行|かんこう}する: to publish a complete works\n- {全|ぜん}○{巻|かん}の{全集|ぜんしゅう}: a complete works in ○ volumes\n- {世界文学全集|せかいぶんがくぜんしゅう}: complete collection of world literature\n\nCOUNTER:\nVolumes in a {全集|ぜんしゅう} are counted with {巻|かん}: {全|ぜん}20{巻|かん} (20 volumes total).\n\nRELATED WORDS:\n- {選集|せんしゅう}: selected works (not comprehensive)\n- {文庫|ぶんこ}: paperback series",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18437_bunko",
+      "reading": "ぶんこ",
+      "headword": "{文庫|ぶんこ}",
+      "label": "paperback series"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11672_zenbun",
+      "reading": "ぜんぶん",
+      "headword": "{全文|ぜんぶん}",
+      "label": "full text, complete text"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17073_zenkan",
+      "reading": "ぜんかん",
+      "headword": "{全巻|ぜんかん}",
+      "label": "complete set of volumes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24633_gappon",
+      "reading": "がっぽん",
+      "headword": "{合本|がっぽん}",
+      "label": "combined volume"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T23:15:01Z",
-    "modified": "2026-08-15T21:25:25Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

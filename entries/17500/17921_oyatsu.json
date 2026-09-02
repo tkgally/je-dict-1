@@ -19,7 +19,9 @@
       "english": "It's snack time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17921_oyatsu_ex2",
@@ -27,7 +29,9 @@
       "english": "I prepared snacks for the children.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17921_oyatsu_ex3",
@@ -35,7 +39,9 @@
       "english": "There's a rule that snacks for the field trip can cost up to 300 yen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA warm, everyday word used especially with children. The phrase {遠足|えんそく}のおやつは300{円|えん}まで is a nostalgic cultural reference — many Japanese people remember this rule from elementary school field trips. The word comes from {八|や}つ{時|どき} (the traditional time division for roughly 2-3 PM).\n\nCOMMON COLLOCATIONS:\n- おやつの{時間|じかん} (snack time)\n- おやつを{食|た}べる (to eat a snack)\n- おやつを{買|か}う (to buy snacks)\n- 3{時|じ}のおやつ (three o'clock snack)",
@@ -46,19 +52,53 @@
       "reading": "おかし",
       "headword": "お{菓子|かし}",
       "label": "sweets, confections"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00191_kashi",
+      "reading": "かし",
+      "headword": "{菓子|かし}",
+      "label": "confectionery, sweets"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14928_otsumami",
+      "reading": "おつまみ",
+      "headword": "おつまみ",
+      "label": "snacks to accompany drinks"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17161_yashoku",
+      "reading": "やしょく",
+      "headword": "{夜食|やしょく}",
+      "label": "late-night snack"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22462_chauke",
+      "reading": "ちゃうけ",
+      "headword": "{茶請|ちゃう}け",
+      "label": "tea snack"
     }
   ],
   "metadata": {
     "created": "2026-03-19T09:12:32Z",
-    "modified": "2026-05-07T10:07:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["food"],
-      "domain": ["colloquial"]
+      "semantic": [
+        "food"
+      ],
+      "domain": [
+        "colloquial"
+      ]
     }
   }
 }

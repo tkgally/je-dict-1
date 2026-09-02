@@ -3,7 +3,7 @@
   "headword": "{貫通|かんつう}",
   "reading": "かんつう",
   "romaji": "kantsuu",
-  "part_of_speech": "noun/verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "penetration; piercing through",
   "suru_verb": true,
   "definitions": [
@@ -47,6 +47,29 @@
   ],
   "notes": "Emphasizes passing completely through from one side to the other, not merely entering partway. Used both for physical objects (bullets, tunnels, roads) and abstract concepts (a theme or principle running through something). The する verb form is transitive.\n\nCOMMON COLLOCATIONS:\n- {弾丸|だんがん}が{貫通|かんつう}する: a bullet penetrates\n- トンネルが{貫通|かんつう}する: a tunnel breaks through\n- {貫通|かんつう}{傷|しょう}: through-and-through wound\n- {南北|なんぼく}に{貫通|かんつう}する: to run through from north to south\n\nSIMILAR WORDS:\n- {突|つ}き{抜|ぬ}ける: to break through, to pierce — more dynamic and forceful\n- {浸透|しんとう}: permeation, infiltration — gradual spreading through, not a clean puncture\n- {通過|つうか}: passing through — moving through without emphasis on piercing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21651_tsukinukeru",
+      "reading": "つきぬける",
+      "headword": "{突|つ}き{抜|ぬ}ける",
+      "label": "to break through, to pierce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07593_shintou",
+      "reading": "しんとう",
+      "headword": "{浸透|しんとう}",
+      "label": "permeation, infiltration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03506_tsuuka",
+      "reading": "つうか",
+      "headword": "{通過|つうか}",
+      "label": "passing through"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +86,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T01:36:29Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

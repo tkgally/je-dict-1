@@ -153,18 +153,46 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{撮|と}る (take X [photo/video]).\n\nASPECT: ている indicates ongoing action. {撮|と}っている = 'is taking photos/recording.'\n\nCOMMON PATTERNS:\n・⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧{撮|と}る (take a photo)\n・⟦ビデオ→ビデオ：01499_bideo⟧⟦を→を：00422_wo⟧{撮|と}る (record a video)\n・⟦{動画|どうが}→動画：04443_douga⟧⟦を→を：00422_wo⟧{撮|と}る (shoot a video clip)\n・{撮|と}って⟦も→も：00484_mo⟧⟦いい→いい：00118_ii⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧ (may I take a photo?)\n・⟦{自撮|じど}り→自撮り：16863_jidori⟧⟦する→する：00392_suru⟧ (take a selfie)\n\nASKING SOMEONE TO TAKE A PHOTO: the て-form plus a giving-and-receiving verb is the standard way to handle this. ⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧{撮|と}って⟦もらえます→もらう：00520_morau⟧⟦か→か：09473_ka⟧ = 'could I have you take a photo?' (asking a stranger), and {撮|と}って⟦あげましょう→あげる：00546_ageru⟧⟦か→か：09473_ka⟧ = 'shall I take one for you?' (offering).\n\nPOTENTIAL FORM: {撮|と}れる means 'can take' or 'comes out well', and what is photographed is marked with が rather than を: ⟦いい→いい：00118_ii⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦が→が：00051_ga⟧{撮|と}れた = 'a good photo came out'.\n\nSpecifically for photography and video. Different from ⟦{取|と}る→取る：00565_toru⟧ (general take/grab), which is a separate entry with the same reading.\n\nRelated: ⟦{撮影|さつえい}→撮影：04175_satsuei⟧ (filming/photography).",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{撮|と}る (take X [photo/video]).\n\nASPECT: ている indicates ongoing action. {撮|と}っている = 'is taking photos/recording.'\n\nCOMMON PATTERNS:\n- ⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧{撮|と}る (take a photo)\n- ⟦ビデオ→ビデオ：01499_bideo⟧⟦を→を：00422_wo⟧{撮|と}る (record a video)\n- ⟦{動画|どうが}→動画：04443_douga⟧⟦を→を：00422_wo⟧{撮|と}る (shoot a video clip)\n- {撮|と}って⟦も→も：00484_mo⟧⟦いい→いい：00118_ii⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧ (may I take a photo?)\n- ⟦{自撮|じど}り→自撮り：16863_jidori⟧⟦する→する：00392_suru⟧ (take a selfie)\n\nASKING SOMEONE TO TAKE A PHOTO: the て-form plus a giving-and-receiving verb is the standard way to handle this. ⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧{撮|と}って⟦もらえます→もらう：00520_morau⟧⟦か→か：09473_ka⟧ = 'could I have you take a photo?' (asking a stranger), and {撮|と}って⟦あげましょう→あげる：00546_ageru⟧⟦か→か：09473_ka⟧ = 'shall I take one for you?' (offering).\n\nPOTENTIAL FORM: {撮|と}れる means 'can take' or 'comes out well', and what is photographed is marked with が rather than を: ⟦いい→いい：00118_ii⟧⟦{写真|しゃしん}→写真：00753_shashin⟧⟦が→が：00051_ga⟧{撮|と}れた = 'a good photo came out'.\n\nSpecifically for photography and video. Different from ⟦{取|と}る→取る：00565_toru⟧ (general take/grab), which is a separate entry with the same reading.\n\nRelated: ⟦{撮影|さつえい}→撮影：04175_satsuei⟧ (filming/photography).",
   "cross_references": [
     {
       "type": "see_also",
       "reading": "とる",
       "headword": "{取|と}る",
       "target_id": "00565_toru"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21990_satsueisuru",
+      "reading": "さつえいする",
+      "headword": "{撮影|さつえい}する",
+      "label": "to photograph"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25509_torinaosu",
+      "reading": "とりなおす",
+      "headword": "{撮|と}り{直|なお}す",
+      "label": "to retake"
+    },
+    {
+      "type": "homophone",
+      "target_id": "27731_toru",
+      "reading": "とる",
+      "headword": "{録|と}る",
+      "label": "to record (audio or video)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29783_shashinsatsuei",
+      "reading": "しゃしんさつえい",
+      "headword": "写真撮影",
+      "label": "photography"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:55:37Z",
-    "modified": "2026-08-16T00:19:15Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

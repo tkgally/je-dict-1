@@ -3,7 +3,7 @@
   "headword": "ドキドキする",
   "reading": "どきどきする",
   "romaji": "dokidokisuru",
-  "part_of_speech": "suru verb",
+  "part_of_speech": "suru verb, onomatopoeia",
   "gloss": "to feel one's heart pounding; to be nervous; to be excited",
   "definitions": [
     {
@@ -81,6 +81,43 @@
   ],
   "notes": "One of the most common Japanese onomatopoeia, mimicking the sound of a heartbeat. Written in katakana (ドキドキ) to emphasize the onomatopoeic quality, though hiragana (どきどき) is also used.\n\nFORMS:\n- ドキドキする: verb form (to feel one's heart pounding)\n- ドキドキの: modifying a noun (heart-pounding ~)\n- ドキドキして: te-form (with a pounding heart)\n- {胸|むね}がドキドキする: explicit form (one's chest pounds)\n\nCOMMON COLLOCATIONS:\n- {胸|むね}がドキドキする: one's heart pounds\n- ドキドキが{止|と}まらない: one's heart won't stop racing\n- ドキドキ{感|かん}: thrill, sense of excitement\n- ドキドキワクワク: nervous and excited (combined with ワクワク)\n\nSIMILAR WORDS:\n- ワクワクする: excited anticipation — focused on positive excitement without the nervousness\n- ハラハラする: anxious, on edge — watching something tense unfold, worried about the outcome\n- ソワソワする: restless, fidgety — unable to sit still due to anticipation or anxiety",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25801_wakuwakusuru",
+      "reading": "わくわくする",
+      "headword": "ワクワクする",
+      "label": "excited anticipation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16932_haraharasuru",
+      "reading": "はらはらする",
+      "headword": "ハラハラする",
+      "label": "anxious, on edge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07363_tokimeku",
+      "reading": "ときめく",
+      "headword": "ときめく",
+      "label": "to throb"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20855_muneodoru",
+      "reading": "むねおどる",
+      "headword": "{胸躍|むねおど}る",
+      "label": "to be thrilling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25351_koufunsuru",
+      "reading": "こうふんする",
+      "headword": "{興奮|こうふん}する",
+      "label": "to get excited"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -97,7 +134,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T19:14:56Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -19,7 +19,9 @@
       "english": "There are arguments both for and against nuclear power generation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17903_genshiryokuhatsuden_ex2",
@@ -27,7 +29,9 @@
       "english": "Nuclear power does not emit carbon dioxide, but there are safety concerns.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17903_genshiryokuhatsuden_ex3",
@@ -35,7 +39,9 @@
       "english": "Since the Great East Japan Earthquake, the future of nuclear power in Japan has been questioned.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften abbreviated as {原発|げんぱつ} in everyday speech and media. A major topic in Japanese politics and society, especially since the 2011 Fukushima nuclear accident.\n\nCOMMON COLLOCATIONS:\n- {原子力発電所|げんしりょくはつでんしょ} (nuclear power plant, often abbreviated {原発|げんぱつ})\n- {原子力発電|げんしりょくはつでん}の{再稼働|さいかどう} (restart of nuclear power generation)\n- {原子力発電|げんしりょくはつでん}に{反対|はんたい}する (to oppose nuclear power)\n\nRELATED WORDS:\n- {火力発電|かりょくはつでん}: thermal power generation\n- {核燃料|かくねんりょう}: nuclear fuel\n- {原発|げんぱつ}: nuclear power plant (abbreviation)",
@@ -60,19 +66,53 @@
       "reading": "げんぱつ",
       "headword": "{原発|げんぱつ}",
       "label": "nuclear power plant (abbrev.)"
+    },
+    {
+      "type": "related",
+      "target_id": "17897_kakunenryou",
+      "reading": "かくねんりょう",
+      "headword": "{核燃料|かくねんりょう}",
+      "label": "nuclear fuel"
+    },
+    {
+      "type": "related",
+      "target_id": "06432_fuuryoku",
+      "reading": "ふうりょく",
+      "headword": "{風力|ふうりょく}",
+      "label": "wind power"
+    },
+    {
+      "type": "related",
+      "target_id": "06434_suiryoku",
+      "reading": "すいりょく",
+      "headword": "{水力|すいりょく}",
+      "label": "water power, hydropower"
+    },
+    {
+      "type": "related",
+      "target_id": "23609_suiryokuhatsuden",
+      "reading": "すいりょくはつでん",
+      "headword": "{水力発電|すいりょくはつでん}",
+      "label": "hydroelectric power generation"
     }
   ],
   "metadata": {
     "created": "2026-03-19T08:32:25Z",
-    "modified": "2026-05-07T09:10:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

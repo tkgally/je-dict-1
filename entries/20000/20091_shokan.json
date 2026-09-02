@@ -17,7 +17,9 @@
       "id": "20091_shokan_ex1",
       "japanese": "{書簡|しょかん}を{送|おく}る。",
       "english": "To send a letter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20091_shokan_ex2",
       "japanese": "{親|した}しい{友人|ゆうじん}に{書簡|しょかん}をしたためた。",
       "english": "I wrote a letter to a close friend.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "20091_shokan_ex3",
       "japanese": "{歴史的|れきしてき}に{貴重|きちょう}な{書簡|しょかん}が{博物館|はくぶつかん}に{展示|てんじ}されている。",
       "english": "Historically valuable letters are on display at the museum.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A formal or literary word for a letter or piece of written correspondence. Composed of {書|しょ} (writing) + {簡|かん} (letter/note). More elevated than {手紙|てがみ} and often used in literary, academic, or historical contexts.\n\nCOMMON COLLOCATIONS:\n- {書簡|しょかん}を{送|おく}る: to send a letter\n- {書簡|しょかん}を{交|か}わす: to exchange letters\n- {書簡集|しょかんしゅう}: collected letters; epistolary collection\n- {公開|こうかい}{書簡|しょかん}: open letter\n- {親書|しんしょ}: personal letter (from a head of state)\n\nSIMILAR WORDS:\n- {手紙|てがみ}: letter — the everyday, general-purpose word for a letter\n- {書状|しょじょう}: written document, letter — similarly formal, often used for official or legal correspondence\n- {便|たよ}り: letter, news — warm and personal in tone\n\nUSAGE:\nCommonly encountered in literary criticism, historical studies, and formal announcements. The expression {公開|こうかい}{書簡|しょかん} (open letter) is frequently used in news media.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00675_tegami",
+      "reading": "てがみ",
+      "headword": "{手紙|てがみ}",
+      "label": "letter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20146_shojou",
+      "reading": "しょじょう",
+      "headword": "{書状|しょじょう}",
+      "label": "written document, letter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03411_tayori",
+      "reading": "たより",
+      "headword": "{便|たよ}り",
+      "label": "letter, news"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21718_buntsuu",
+      "reading": "ぶんつう",
+      "headword": "{文通|ぶんつう}",
+      "label": "correspondence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-03-28T12:51:33Z",
-    "modified": "2026-03-28T12:51:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

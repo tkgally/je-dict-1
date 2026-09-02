@@ -17,7 +17,9 @@
       "id": "26453_seihon_ex1",
       "japanese": "{契約書|けいやくしょ}の{正本|せいほん}を{保管|ほかん}する。",
       "english": "To keep the original copy of the contract.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26453_seihon_ex2",
       "japanese": "{判決|はんけつ}の{正本|せいほん}が{裁判所|さいばんしょ}から{届|とど}いた。",
       "english": "The official copy of the verdict arrived from the court.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26453_seihon_ex3",
       "japanese": "この{文書|ぶんしょ}はコピーではなく{正本|せいほん}であることを{確認|かくにん}してください。",
       "english": "Please confirm that this document is the original, not a copy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {正|せい} (correct, authentic) and {本|ほん} (book, document). In legal contexts, the {正本|せいほん} is a certified copy issued by a court that has the same effect as the original. Distinct from an ordinary copy ({写|うつ}し or コピー).\n\nCOMMON COLLOCATIONS:\n- {正本|せいほん}を{交付|こうふ}する: to issue an official copy\n- {正本|せいほん}を{保管|ほかん}する: to store the original\n- {判決|はんけつ}{正本|せいほん}: certified copy of a judgment\n- {契約|けいやく}{正本|せいほん}: original contract document\n\nSIMILAR WORDS:\n- {原本|げんぽん}: original — the very first version of a document from which copies are made\n- {副本|ふくほん}: duplicate, secondary copy — an official copy made alongside the original\n- {謄本|とうほん}: certified copy — a full copy of an official register, such as a family register ({戸籍|こせき}{謄本|とうほん})",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15697_genpon",
+      "reading": "げんぽん",
+      "headword": "{原本|げんぽん}",
+      "label": "original"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29796_touhon",
+      "reading": "とうほん",
+      "headword": "{謄本|とうほん}",
+      "label": "certified copy"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["law", "work"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "law",
+        "work"
+      ]
     },
     "created": "2026-05-02T11:28:07Z",
-    "modified": "2026-05-02T11:28:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

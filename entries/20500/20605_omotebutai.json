@@ -19,7 +19,9 @@
       "english": "To stand on the public stage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20605_omotebutai_ex2",
@@ -27,7 +29,9 @@
       "english": "After years behind the scenes, he finally stepped into the spotlight.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20605_omotebutai_ex3",
@@ -35,21 +39,36 @@
       "english": "No one expected the retired politician to return to the public stage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Composed of {表|おもて} (front, surface, public) + {舞台|ぶたい} (stage). The metaphor of a stage is central — the {表舞台|おもてぶたい} is where things are visible to the public, in contrast to the behind-the-scenes world.\n\nCOMMON COLLOCATIONS:\n- {表舞台|おもてぶたい}に{立|た}つ (stand on the public stage)\n- {表舞台|おもてぶたい}に{出|で}る (step into the spotlight)\n- {表舞台|おもてぶたい}から{姿|すがた}を{消|け}す (disappear from the public eye)\n- {表舞台|おもてぶたい}に{戻|もど}る (return to the spotlight)\n\nSIMILAR WORDS:\n- {裏方|うらかた} — behind the scenes (the opposite: those who work out of public view)\n- {舞台|ぶたい} — stage (literal or figurative, without the specific \"public\" nuance)\n- {檜舞台|ひのきぶたい} — grand stage (the most prestigious stage, implies a big moment)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15033_urakata",
+      "reading": "うらかた",
+      "headword": "{裏方|うらかた}",
+      "label": "behind the scenes (the opposite"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T19:24:02Z",
-    "modified": "2026-03-29T19:24:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["figurative", "society"]
+      "semantic": [
+        "figurative",
+        "society"
+      ]
     }
   }
 }

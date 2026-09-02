@@ -19,7 +19,9 @@
       "english": "I was hospitalized for about half a month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15662_hantsuki_ex2",
@@ -27,7 +29,9 @@
       "english": "It took half a month to prepare for the move.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15662_hantsuki_ex3",
@@ -35,10 +39,12 @@
       "english": "The product I ordered half a month ago still hasn't arrived.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "READING:\nRead as はんつき when referring to a time period (half a month). The same kanji {半月|はんげつ} read as はんげつ means \"half-moon\" (the shape or the lunar phase) and is a separate entry.\n\nCOMMON COLLOCATIONS:\n- {半月|はんつき}ほど (about half a month)\n- {半月|はんつき}{前|まえ} (half a month ago)\n- {半月|はんつき}{後|ご} (half a month later)\n\nSIMILAR WORDS:\n- {二週間|にしゅうかん}: two weeks (more precise)\n- {半年|はんとし}: half a year",
+  "notes": "PRONUNCIATION:\nRead as はんつき when referring to a time period (half a month). The same kanji {半月|はんげつ} read as はんげつ means \"half-moon\" (the shape or the lunar phase) and is a separate entry.\n\nCOMMON COLLOCATIONS:\n- {半月|はんつき}ほど (about half a month)\n- {半月|はんつき}{前|まえ} (half a month ago)\n- {半月|はんつき}{後|ご} (half a month later)\n\nSIMILAR WORDS:\n- {二週間|にしゅうかん}: two weeks (more precise)\n- {半年|はんとし}: half a year",
   "prominent_see_also": [
     {
       "target_id": "08507_hangetsu",
@@ -47,17 +53,43 @@
       "note": "half-moon (shape)"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03139_hantoshi",
+      "reading": "はんとし",
+      "headword": "{半年|はんとし}",
+      "label": "half a year"
+    },
+    {
+      "type": "related",
+      "target_id": "27633_juugonichi",
+      "reading": "じゅうごにち",
+      "headword": "{十五日|じゅうごにち}",
+      "label": "the 15th (day of the month)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27978_hannichi",
+      "reading": "はんにち",
+      "headword": "{半日|はんにち}",
+      "label": "half a day"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T06:44:48Z",
-    "modified": "2026-05-01T09:03:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-period"]
+      "semantic": [
+        "time-period"
+      ]
     }
   }
 }

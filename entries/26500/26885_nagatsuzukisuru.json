@@ -3,7 +3,7 @@
   "headword": "{長続|ながつづ}きする",
   "reading": "ながつづきする",
   "romaji": "nagatsuzukisuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to last long; to continue for a long time; to endure",
   "definitions": [
     {
@@ -55,7 +55,29 @@
     }
   ],
   "notes": "Most frequently encountered in the negative (長続きしない), expressing frustration at inability to maintain something. A very relatable, everyday word often found in self-improvement articles and conversations about habits, relationships, and hobbies.\n\nCOMMON COLLOCATIONS:\n- {長続|ながつづ}きしない: doesn't last long\n- {長続|ながつづ}きさせる: to make something last\n- {長続|ながつづ}きする{秘訣|ひけつ}: the secret to lasting long\n- {関係|かんけい}が{長続|ながつづ}きする: a relationship lasts\n\nSIMILAR WORDS:\n- {続|つづ}く: to continue — general; does not specifically emphasize duration\n- {持続|じぞく}する: to sustain; to maintain — more formal, often used for systems or efforts\n- {末永|すえなが}く: for a long time into the future — adverb; wishes for lasting continuation",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00903_tsuzuku",
+      "reading": "つづく",
+      "headword": "{続|つづ}く",
+      "label": "to continue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26920_jizokusuru",
+      "reading": "じぞくする",
+      "headword": "{持続|じぞく}する",
+      "label": "to sustain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13086_suenagaku",
+      "reading": "すえながく",
+      "headword": "{末永|すえなが}く",
+      "label": "for a long time into the future"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,7 +93,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T14:23:02Z",
-    "modified": "2026-05-05T14:23:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

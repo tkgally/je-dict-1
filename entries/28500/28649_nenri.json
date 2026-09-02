@@ -17,7 +17,9 @@
       "id": "28649_nenri_ex1",
       "japanese": "{年利|ねんり}1パーセントで{借|か}りた。",
       "english": "I borrowed at one percent annual interest.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28649_nenri_ex2",
       "japanese": "この{定期預金|ていきよきん}は{年利|ねんり}が{高|たか}い。",
       "english": "This fixed-term deposit has a high annual interest rate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "28649_nenri_ex3",
       "japanese": "カードローンは{年利|ねんり}が{高|たか}いので{気|き}をつけたほうがいい。",
       "english": "Card loans have high annual interest, so you should be careful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {年|ねん} (year) + {利|り} (interest; profit). The default time unit for quoting interest rates in everyday Japanese finance.\n\nCOMMON COLLOCATIONS:\n- {年利|ねんり}{換算|かんさん}: annualized rate\n- {年利|ねんり}が{高|たか}い / {低|ひく}い: high / low annual interest\n- {年利|ねんり}{固定|こてい}: fixed annual rate\n- {実質|じっしつ}{年利|ねんり}: real (after-fee) annual interest rate\n\nSIMILAR WORDS:\n- {月利|げつり}: monthly interest rate — used mainly for short-term consumer credit\n- {利率|りりつ}: interest rate (general term, time unit unspecified)\n- {金利|きんり}: interest rate; finance charge — broader, often used for loans and deposits without specifying the period",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21159_riritsu",
+      "reading": "りりつ",
+      "headword": "{利率|りりつ}",
+      "label": "interest rate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04856_kinri",
+      "reading": "きんり",
+      "headword": "{金利|きんり}",
+      "label": "interest rate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["business"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "business"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-06-03T03:17:00Z",
-    "modified": "2026-06-03T03:17:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

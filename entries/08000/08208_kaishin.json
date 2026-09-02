@@ -2,7 +2,7 @@
   "id": "08208_kaishin",
   "headword": "{回診|かいしん}",
   "reading": "かいしん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "doctor's rounds; ward rounds",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n- {回診|かいしん}する (to make rounds)\n- {回診|かいしん}に{来|く}る (to come on rounds)\n- {教授|きょうじゅ}{回診|かいしん} (professor's rounds - teaching hospital context)\n- {朝|あさ}の{回診|かいしん} (morning rounds)\n\nCONTEXT:\nA standard practice in hospitals where doctors visit each patient's bedside to assess their condition. In teaching hospitals, rounds often include medical students and residents.\n\nRELATED:\n- {往診|おうしん} (house call - visiting patients at home)\n- {診察|しんさつ} (medical examination)\n- {入院|にゅういん} (hospitalization)",
+  "notes": "USAGE:\n- {回診|かいしん}する (to make rounds)\n- {回診|かいしん}に{来|く}る (to come on rounds)\n- {教授|きょうじゅ}{回診|かいしん} (professor's rounds - teaching hospital context)\n- {朝|あさ}の{回診|かいしん} (morning rounds)\nA standard practice in hospitals where doctors visit each patient's bedside to assess their condition. In teaching hospitals, rounds often include medical students and residents.\n\nRELATED WORDS:\n- {往診|おうしん} (house call - visiting patients at home)\n- {診察|しんさつ} (medical examination)\n- {入院|にゅういん} (hospitalization)",
   "cross_references": [
     {
       "type": "contrast",
@@ -141,6 +141,20 @@
       "headword": "{往診|おうしん}",
       "label": "house call; home visit (medical)",
       "target_id": "08209_oushin"
+    },
+    {
+      "type": "related",
+      "target_id": "03259_shinsatsu",
+      "reading": "しんさつ",
+      "headword": "{診察|しんさつ}",
+      "label": "medical examination"
+    },
+    {
+      "type": "related",
+      "target_id": "02091_nyuuin",
+      "reading": "にゅういん",
+      "headword": "{入院|にゅういん}",
+      "label": "hospitalization"
     }
   ],
   "metadata": {
@@ -151,6 +165,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "hospital"
@@ -158,7 +173,7 @@
       "verb_class": "suru"
     },
     "created": "2026-01-25T08:07:31Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "prominent_see_also": [
     {

@@ -4,13 +4,13 @@
   "reading": "かすたむ",
   "romaji": "kasutamu",
   "schema_version": "2.0",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "custom; customization; customized version",
   "definitions": [
     {
       "sense_number": 1,
       "gloss": "custom; customization; customized version (of a product, vehicle, software setting, etc.)",
-      "explanation": "Modification or configuration of a product to suit individual taste or needs. Used heavily in tech (custom UI/settings), automotive (custom cars and bikes), gaming (custom controllers, builds), and merchandise. Often used with {する} as a verb meaning \"to customize.\""
+      "explanation": "Modification or configuration of a product to suit individual taste or needs. Used heavily in tech (custom UI/settings), automotive (custom cars and bikes), gaming (custom controllers, builds), and merchandise. Often used with する as a verb meaning \"to customize.\""
     }
   ],
   "examples": [
@@ -55,10 +55,33 @@
       "notes": null
     }
   ],
-  "notes": "カスタム is the English loanword \"custom\" used in the sense of \"customized.\" In Japanese it freely combines with {する} to form a verb (カスタムする = to customize) and shows up in many compound terms.\n\nCOMMON COLLOCATIONS:\n- カスタムする: to customize\n- カスタム{化|か}: customization (the process)\n- カスタム{設定|せってい}: custom settings\n- カスタム{メイド|めいど}: custom-made (commonly used for tailored clothing, custom-built PCs, etc.)\n- カスタム{パーツ|ぱーつ}: custom parts (esp. for cars, bikes, PCs)\n- カスタム{カー|かー}: customized car\n- フルカスタム: fully customized (a build with extensive modifications)\n\nSIMILAR / RELATED TERMS:\n- カスタマイズ: customization — the longer-form loanword, common in software contexts (e.g., UI customization, browser settings); largely interchangeable with カスタム but a touch more formal in IT writing.\n- {改造|かいぞう}: modification, conversion — a stronger native term often used for substantial mechanical or structural alteration (cars, motorcycles, game consoles), and sometimes carrying a borderline-illegal connotation depending on the domain.\n- {特注|とくちゅう}: custom order; specially ordered — used for one-off or made-to-order items (e.g., {特注|とくちゅう}の{家具|かぐ} \"custom-ordered furniture\").\n- オーダー{メイド|めいど}: made-to-order — closely related to カスタム{メイド|めいど} but emphasizes the ordering process rather than the modifications.\n\nUSAGE NOTES:\n- カスタム is informal in feel; product marketing copy and IT documentation often prefer カスタマイズ in formal sentences (\"カスタマイズが{可能|かのう}です\" rather than \"カスタムが{可能|かのう}です\").\n- For deeper modifications that change the original specs (engine swaps, hardware replacements), {改造|かいぞう} or カスタム are both used, with {改造|かいぞう} sounding more technical or, in some contexts, more illicit.",
+  "notes": "カスタム is the English loanword \"custom\" used in the sense of \"customized.\" In Japanese it freely combines with する to form a verb (カスタムする = to customize) and shows up in many compound terms.\n\nCOMMON COLLOCATIONS:\n- カスタムする: to customize\n- カスタム{化|か}: customization (the process)\n- カスタム{設定|せってい}: custom settings\n- カスタムメイド: custom-made (commonly used for tailored clothing, custom-built PCs, etc.)\n- カスタムパーツ: custom parts (esp. for cars, bikes, PCs)\n- カスタムカー: customized car\n- フルカスタム: fully customized (a build with extensive modifications)\n\nSIMILAR / RELATED TERMS:\n- カスタマイズ: customization — the longer-form loanword, common in software contexts (e.g., UI customization, browser settings); largely interchangeable with カスタム but a touch more formal in IT writing.\n- {改造|かいぞう}: modification, conversion — a stronger native term often used for substantial mechanical or structural alteration (cars, motorcycles, game consoles), and sometimes carrying a borderline-illegal connotation depending on the domain.\n- {特注|とくちゅう}: custom order; specially ordered — used for one-off or made-to-order items (e.g., {特注|とくちゅう}の{家具|かぐ} \"custom-ordered furniture\").\n- オーダーメイド: made-to-order — closely related to カスタムメイド but emphasizes the ordering process rather than the modifications.\n\nUSAGE:\n- カスタム is informal in feel; product marketing copy and IT documentation often prefer カスタマイズ in formal sentences (\"カスタマイズが{可能|かのう}です\" rather than \"カスタムが{可能|かのう}です\").\n- For deeper modifications that change the original specs (engine swaps, hardware replacements), {改造|かいぞう} or カスタム are both used, with {改造|かいぞう} sounding more technical or, in some contexts, more illicit.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10870_kasutamaizu",
+      "reading": "かすたまいず",
+      "headword": "カスタマイズ",
+      "label": "customization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00145_kaizou",
+      "reading": "かいぞう",
+      "headword": "{改造|かいぞう}",
+      "label": "modification, conversion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13486_tokuchuu",
+      "reading": "とくちゅう",
+      "headword": "{特注|とくちゅう}",
+      "label": "custom order"
+    }
+  ],
   "metadata": {
     "created": "2026-05-10T03:05:37Z",
-    "modified": "2026-08-07T16:13:39Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

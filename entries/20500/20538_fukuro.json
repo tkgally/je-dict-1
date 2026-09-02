@@ -16,7 +16,9 @@
       "id": "20538_fukuro_ex1",
       "japanese": "{復路|ふくろ}は{電車|でんしゃ}で{帰|かえ}った。",
       "english": "I took the train for the return trip.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "20538_fukuro_ex2",
       "japanese": "{復路|ふくろ}は{渋滞|じゅうたい}で{時間|じかん}がかかった。",
       "english": "The return trip took a long time because of traffic.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,12 +36,14 @@
       "id": "20538_fukuro_ex3",
       "japanese": "マラソンの{復路|ふくろ}で{順位|じゅんい}を{上|あ}げた{選手|せんしゅ}がいた。",
       "english": "There was a runner who moved up in the rankings on the return leg of the marathon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {復|ふく} (return, repeat) and {路|ろ} (road, route). A somewhat formal word, commonly seen in transportation schedules and race descriptions.\n\nCOMMON COLLOCATIONS:\n- {復路|ふくろ}の{便|びん}: return flight/service\n- {往復|おうふく}の{復路|ふくろ}: return leg of a round trip\n- {復路|ふくろ}を{走|はし}る: to run the return course\n\nOPPOSITE:\n- {往路|おうろ}: outbound trip, outward route — the first half of the journey\n\nRELATED:\n- {往復|おうふく}: round trip — encompasses both directions\n- {帰路|きろ}: way home — similar meaning but specifically means going home\n- {帰|かえ}り: the return, the way back — more colloquial",
+  "notes": "Composed of {復|ふく} (return, repeat) and {路|ろ} (road, route). A somewhat formal word, commonly seen in transportation schedules and race descriptions.\n\nCOMMON COLLOCATIONS:\n- {復路|ふくろ}の{便|びん}: return flight/service\n- {往復|おうふく}の{復路|ふくろ}: return leg of a round trip\n- {復路|ふくろ}を{走|はし}る: to run the return course\n\nSIMILAR WORDS:\n- {往路|おうろ}: outbound trip, outward route — the first half of the journey\n\nRELATED WORDS:\n- {往復|おうふく}: round trip — encompasses both directions\n- {帰路|きろ}: way home — similar meaning but specifically means going home\n- {帰|かえ}り: the return, the way back — more colloquial",
   "cross_references": [
     {
       "type": "antonym",
@@ -45,18 +51,44 @@
       "reading": "おうろ",
       "headword": "{往路|おうろ}",
       "label": "outward journey"
+    },
+    {
+      "type": "related",
+      "target_id": "04111_oufuku",
+      "reading": "おうふく",
+      "headword": "{往復|おうふく}",
+      "label": "round trip"
+    },
+    {
+      "type": "related",
+      "target_id": "16079_kiro",
+      "reading": "きろ",
+      "headword": "{帰路|きろ}",
+      "label": "way home"
+    },
+    {
+      "type": "related",
+      "target_id": "01275_kaeri",
+      "reading": "かえり",
+      "headword": "{帰|かえ}り",
+      "label": "the return, the way back"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["transportation", "travel"]
+      "semantic": [
+        "transportation",
+        "travel"
+      ]
     },
     "created": "2026-03-29T17:07:59Z",
-    "modified": "2026-05-08T08:12:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

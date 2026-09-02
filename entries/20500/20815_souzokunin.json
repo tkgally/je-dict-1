@@ -16,7 +16,9 @@
       "id": "20815_souzokumin_ex1",
       "japanese": "{彼|かれ}は{唯一|ゆいいつ}の{相続人|そうぞくにん}だ。",
       "english": "He is the sole heir.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "20815_souzokumin_ex2",
       "japanese": "{法定相続人|ほうていそうぞくにん}は{配偶者|はいぐうしゃ}と{子供|こども}です。",
       "english": "The legal heirs are the spouse and children.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,24 +36,54 @@
       "id": "20815_souzokumin_ex3",
       "japanese": "{相続人|そうぞくにん}が{複数|ふくすう}いる{場合|ばあい}、{遺産|いさん}の{分割|ぶんかつ}{方法|ほうほう}について{話|はな}し{合|あ}う{必要|ひつよう}がある。",
       "english": "When there are multiple heirs, they need to discuss how to divide the estate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {相続|そうぞく} (inheritance/succession) and {人|にん} (person). Used in both legal and everyday contexts when discussing inheritance matters.\n\nCOMMON COLLOCATIONS:\n- {法定|ほうてい}{相続人|そうぞくにん}: legal heir (defined by law)\n- {相続人|そうぞくにん}{全員|ぜんいん}: all heirs\n- {相続人|そうぞくにん}を{確定|かくてい}する: to determine the heirs\n- {相続人|そうぞくにん}の{権利|けんり}: heir's rights\n\nRELATED TERMS:\n- {相続|そうぞく}: inheritance/succession\n- {遺産|いさん}: estate/inheritance (the property itself)\n- {遺言|ゆいごん}: will/testament\n- {被相続人|ひそうぞくにん}: the deceased (from whom property is inherited)\n\nCULTURAL CONTEXT:\nInheritance law in Japan follows a defined order: spouse, then children, then parents, then siblings. The {法定相続人|ほうていそうぞくにん} (legal heirs) system is a frequent topic in financial planning and tax discussions.",
-  "cross_references": [],
+  "notes": "A compound of {相続|そうぞく} (inheritance/succession) and {人|にん} (person). Used in both legal and everyday contexts when discussing inheritance matters.\n\nCOMMON COLLOCATIONS:\n- {法定|ほうてい}{相続人|そうぞくにん}: legal heir (defined by law)\n- {相続人|そうぞくにん}{全員|ぜんいん}: all heirs\n- {相続人|そうぞくにん}を{確定|かくてい}する: to determine the heirs\n- {相続人|そうぞくにん}の{権利|けんり}: heir's rights\n\nRELATED WORDS:\n- {相続|そうぞく}: inheritance/succession\n- {遺産|いさん}: estate/inheritance (the property itself)\n- {遺言|ゆいごん}: will/testament\n- {被相続人|ひそうぞくにん}: the deceased (from whom property is inherited)\n\nCULTURAL NOTE:\nInheritance law in Japan follows a defined order: spouse, then children, then parents, then siblings. The {法定相続人|ほうていそうぞくにん} (legal heirs) system is a frequent topic in financial planning and tax discussions.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14405_isan",
+      "reading": "いさん",
+      "headword": "{遺産|いさん}",
+      "label": "estate/inheritance"
+    },
+    {
+      "type": "related",
+      "target_id": "10896_yuigon",
+      "reading": "ゆいごん",
+      "headword": "{遺言|ゆいごん}",
+      "label": "will/testament"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14280_atotori",
+      "reading": "あととり",
+      "headword": "{跡取|あとと}り",
+      "label": "heir"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     },
     "created": "2026-03-30T17:13:47Z",
-    "modified": "2026-03-30T17:13:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

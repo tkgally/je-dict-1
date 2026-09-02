@@ -17,7 +17,9 @@
       "id": "26013_yomoyamabanashi_ex1",
       "japanese": "よもやま{話|ばなし}に{花|はな}が{咲|さ}いた。",
       "english": "The conversation blossomed into all sorts of topics.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26013_yomoyamabanashi_ex2",
       "japanese": "{同窓会|どうそうかい}でよもやま{話|ばなし}を{楽|たの}しんだ。",
       "english": "We enjoyed chatting about this and that at the class reunion.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,43 @@
       "id": "26013_yomoyamabanashi_ex3",
       "japanese": "{仕事|しごと}の{合間|あいま}に{先輩|せんぱい}とよもやま{話|ばなし}をするのが{日課|にっか}だ。",
       "english": "Chatting with my senior colleagues between tasks has become my daily routine.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A warm, slightly old-fashioned expression. よもやま means \"various directions\" or \"all around,\" and {話|ばなし} means \"talk\" or \"stories.\" The compound conveys leisurely, unstructured conversation. Often used in blog titles and column headings to signal a casual, personal tone.\n\nCOMMON COLLOCATIONS:\n- よもやま{話|ばなし}に{花|はな}が{咲|さ}く: to chat animatedly about various things\n- よもやま{話|ばなし}を{楽|たの}しむ: to enjoy miscellaneous chat\n- よもやま{話|ばなし}をする: to chat about this and that\n\nSIMILAR WORDS:\n- {雑談|ざつだん}: casual conversation — the standard everyday word for chatting\n- {世間話|せけんばなし}: small talk — focused on common everyday topics like weather and news\n- {四方山|よもやま}: the base word meaning \"various\" — rarely used alone",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06639_zatsudan",
+      "reading": "ざつだん",
+      "headword": "{雑談|ざつだん}",
+      "label": "casual conversation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07021_sekenbanashi",
+      "reading": "せけんばなし",
+      "headword": "{世間話|せけんばなし}",
+      "label": "small talk"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["communication"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-04-28T16:11:52Z",
-    "modified": "2026-04-28T16:11:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

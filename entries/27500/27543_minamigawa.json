@@ -46,6 +46,29 @@
   ],
   "notes": "Compound of {南|みなみ} (south) + {側|がわ} (side). South-facing properties ({南向|みなみむ}き) are highly valued in Japanese real estate because they receive sunlight throughout the day.\n\nCOMMON COLLOCATIONS:\n- {南側|みなみがわ}の{窓|まど}: south-facing window\n- {南側|みなみがわ}に{面|めん}する: to face south\n- {駅|えき}の{南側|みなみがわ}: south side of the station\n- {南側|みなみがわ}の{部屋|へや}: south-facing room\n\nSIMILAR WORDS:\n- {北側|きたがわ}: north side\n- {東側|ひがしがわ}: east side\n- {西側|にしがわ}: west side\n- {南向|みなみむ}き: south-facing (as a property attribute)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27541_kitagawa",
+      "reading": "きたがわ",
+      "headword": "{北側|きたがわ}",
+      "label": "north side"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27563_nishigawa",
+      "reading": "にしがわ",
+      "headword": "{西側|にしがわ}",
+      "label": "west side"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22595_minamimuki",
+      "reading": "みなみむき",
+      "headword": "{南向|みなみむ}き",
+      "label": "south-facing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "direction"
       ],
       "domain": []
     },
     "created": "2026-05-14T01:41:20Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

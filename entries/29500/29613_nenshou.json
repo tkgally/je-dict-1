@@ -3,7 +3,7 @@
   "headword": "{年少|ねんしょう}",
   "reading": "ねんしょう",
   "romaji": "nenshou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "young; junior in age",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "29613_nenshou_ex1",
       "japanese": "{年少|ねんしょう}の{子|こ}ども。",
       "english": "A younger child.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29613_nenshou_ex2",
       "japanese": "{弟|おとうと}は{私|わたし}より{三|みっ}つ{年少|ねんしょう}だ。",
       "english": "My younger brother is three years younger than me.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "29613_nenshou_ex3",
       "japanese": "チームの{中|なか}で{最|さい}{年少|ねんしょう}の{選手|せんしゅ}が{活躍|かつやく}した。",
       "english": "The youngest player on the team performed well.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -46,19 +52,31 @@
       "reading": "ねんちょう",
       "headword": "{年長|ねんちょう}",
       "label": "senior in age"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07303_toshishita",
+      "reading": "としした",
+      "headword": "{年下|としした}",
+      "label": "younger"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["person"],
+      "politeness": "plain",
+      "semantic": [
+        "person"
+      ],
       "domain": []
     },
     "created": "2026-07-01T18:18:59Z",
-    "modified": "2026-07-01T18:18:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

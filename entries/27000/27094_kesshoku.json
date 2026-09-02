@@ -17,7 +17,9 @@
       "id": "27094_kesshoku_ex1",
       "japanese": "{血色|けっしょく}がいいですね。",
       "english": "You have a healthy complexion.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27094_kesshoku_ex2",
       "japanese": "{最近|さいきん}、{彼|かれ}は{血色|けっしょく}が{悪|わる}い。",
       "english": "He's been looking pale lately.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "27094_kesshoku_ex3",
       "japanese": "{退院|たいいん}してから{少|すこ}しずつ{血色|けっしょく}が{戻|もど}ってきた。",
       "english": "Since leaving the hospital, her color has been gradually coming back.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Literally \"blood color\" — refers to the color of one's skin as a reflection of health and blood circulation. Good {血色|けっしょく} (a rosy, healthy color) indicates good health, while poor {血色|けっしょく} (paleness) suggests illness or fatigue.\n\nCOMMON COLLOCATIONS:\n- {血色|けっしょく}がいい: to have a healthy complexion; to look well\n- {血色|けっしょく}が{悪|わる}い: to look pale; to have a poor complexion\n- {血色|けっしょく}が{戻|もど}る: for one's color to return (after illness)\n- {血色|けっしょく}のいい{顔|かお}: a healthy-looking face\n\nUSAGE:\nMost commonly appears in the set phrases {血色|けっしょく}がいい and {血色|けっしょく}が{悪|わる}い. Often used by doctors, family members, or friends commenting on someone's health. It refers specifically to the natural color that comes from blood circulation, not to skin tone in general.\n\nSIMILAR WORDS:\n- {顔色|かおいろ}: complexion; expression — broader in meaning; can also refer to facial expression or mood, not just physical health\n- {肌色|はだいろ}: skin color; skin tone — refers to the color of skin itself, not its health-related appearance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25468_kaoiro",
+      "reading": "かおいろ",
+      "headword": "{顔色|かおいろ}",
+      "label": "complexion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26283_hadairo",
+      "reading": "はだいろ",
+      "headword": "{肌色|はだいろ}",
+      "label": "skin color"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-part"]
+      "semantic": [
+        "body-part"
+      ]
     },
     "created": "2026-05-07T11:14:12Z",
-    "modified": "2026-05-07T11:14:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

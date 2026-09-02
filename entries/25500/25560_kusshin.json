@@ -3,7 +3,7 @@
   "headword": "{屈伸|くっしん}",
   "reading": "くっしん",
   "romaji": "kusshin",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "bending and stretching; flexion and extension",
   "definitions": [
     {
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Refers specifically to the motion of bending and extending joints, most commonly the knees. A standard part of warm-up routines in Japanese physical education and sports.\n\nCOMMON COLLOCATIONS:\n- {屈伸|くっしん}{運動|うんどう}: bending and stretching exercise\n- {膝|ひざ}の{屈伸|くっしん}: knee bends\n- {屈伸|くっしん}する: to bend and stretch\n- {屈伸|くっしん}を{繰|く}り{返|かえ}す: to repeat bending and stretching\n\nETYMOLOGY:\nComposed of {屈|くつ} (to bend) and {伸|しん} (to extend), describing the two opposite movements as a pair.\n\nRELATED TERMS:\n- {準備運動|じゅんびうんどう}: warm-up exercise\n- {柔軟体操|じゅうなんたいそう}: flexibility exercises, stretching\n- {ストレッチ}: stretch (loanword)",
-  "cross_references": [],
+  "notes": "Refers specifically to the motion of bending and extending joints, most commonly the knees. A standard part of warm-up routines in Japanese physical education and sports.\n\nCOMMON COLLOCATIONS:\n- {屈伸|くっしん}{運動|うんどう}: bending and stretching exercise\n- {膝|ひざ}の{屈伸|くっしん}: knee bends\n- {屈伸|くっしん}する: to bend and stretch\n- {屈伸|くっしん}を{繰|く}り{返|かえ}す: to repeat bending and stretching\n\nETYMOLOGY:\nComposed of {屈|くつ} (to bend) and {伸|しん} (to extend), describing the two opposite movements as a pair.\n\nRELATED WORDS:\n- {準備運動|じゅんびうんどう}: warm-up exercise\n- {柔軟体操|じゅうなんたいそう}: flexibility exercises, stretching\n- ストレッチ: stretch (loanword)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14909_junbiundou",
+      "reading": "じゅんびうんどう",
+      "headword": "{準備運動|じゅんびうんどう}",
+      "label": "warm-up exercise"
+    },
+    {
+      "type": "related",
+      "target_id": "25010_juunantaisou",
+      "reading": "じゅうなんたいそう",
+      "headword": "{柔軟体操|じゅうなんたいそう}",
+      "label": "flexibility exercises, stretching"
+    },
+    {
+      "type": "related",
+      "target_id": "05239_sutorecchi",
+      "reading": "すとれっち",
+      "headword": "ストレッチ",
+      "label": "stretch"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +76,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "movement",
         "sports"
@@ -61,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-26T11:17:34Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

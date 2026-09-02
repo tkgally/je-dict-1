@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{鈍角|どんかく} is a mathematical term for an obtuse angle (between 90° and 180°).\n\nKANJI BREAKDOWN:\n{鈍|どん} (dull, blunt) + {角|かく} (angle, corner)\n\nANGLE CLASSIFICATION:\n- ⟦{鋭角|えいかく}→鋭角：05554_eikaku⟧: acute angle (0° < θ < 90°)\n- ⟦{直角|ちょっかく}→直角：05444_chokkaku⟧: right angle (θ = 90°)\n- {鈍角|どんかく}: obtuse angle (90° < θ < 180°)\n- ⟦{平角|へいかく}→平角：27761_heikaku⟧: straight angle (θ = 180°)\n\nTRIANGLE TYPES BY ANGLE:\n- ⟦{鋭角|えいかく}→鋭角：05554_eikaku⟧⟦{三角形|さんかくけい}→三角形：05436_sankakukei⟧: acute triangle\n- ⟦{直角|ちょっかく}→直角：05444_chokkaku⟧⟦{三角形|さんかくけい}→三角形：05436_sankakukei⟧: right triangle\n- {鈍角|どんかく}⟦{三角形|さんかくけい}→三角形：05436_sankakukei⟧: obtuse triangle\n\nRELATED MATH TERMS:\n⟦{角度|かくど}→角度：00156_kakudo⟧ (angle measurement), ⟦{度|ど}→〜度：09845_do⟧ (degree)",
+  "notes": "{鈍角|どんかく} is a mathematical term for an obtuse angle (between 90° and 180°).\n\nWRITING:\n{鈍|どん} (dull, blunt) + {角|かく} (angle, corner)\n\nANGLE CLASSIFICATION:\n- ⟦{鋭角|えいかく}→鋭角：05554_eikaku⟧: acute angle (0° < θ < 90°)\n- ⟦{直角|ちょっかく}→直角：05444_chokkaku⟧: right angle (θ = 90°)\n- {鈍角|どんかく}: obtuse angle (90° < θ < 180°)\n- ⟦{平角|へいかく}→平角：27761_heikaku⟧: straight angle (θ = 180°)\n\nTRIANGLE TYPES BY ANGLE:\n- ⟦{鋭角|えいかく}→鋭角：05554_eikaku⟧⟦{三角形|さんかくけい}→三角形：05436_sankakukei⟧: acute triangle\n- ⟦{直角|ちょっかく}→直角：05444_chokkaku⟧⟦{三角形|さんかくけい}→三角形：05436_sankakukei⟧: right triangle\n- {鈍角|どんかく}⟦{三角形|さんかくけい}→三角形：05436_sankakukei⟧: obtuse triangle\n\nRELATED MATH TERMS:\n⟦{角度|かくど}→角度：00156_kakudo⟧ (angle measurement), ⟦{度|ど}→〜度：09845_do⟧ (degree)",
   "cross_references": [
     {
       "type": "antonym",
@@ -58,11 +58,32 @@
       "reading": "ちょっかく",
       "headword": "{直角|ちょっかく}",
       "label": "right angle"
+    },
+    {
+      "type": "related",
+      "target_id": "00156_kakudo",
+      "reading": "かくど",
+      "headword": "{角度|かくど}",
+      "label": "angle measurement"
+    },
+    {
+      "type": "related",
+      "target_id": "27761_heikaku",
+      "reading": "へいかく",
+      "headword": "{平角|へいかく}",
+      "label": "straight angle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30103_shakaku",
+      "reading": "しゃかく",
+      "headword": "{斜角|しゃかく}",
+      "label": "oblique angle"
     }
   ],
   "metadata": {
     "created": "2026-01-16T08:11:03Z",
-    "modified": "2026-06-06T21:30:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

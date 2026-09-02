@@ -46,12 +46,37 @@
   ],
   "notes": "A mirror used for grooming and applying makeup. Composed of {化粧|けしょう} (makeup, cosmetics) + {鏡|きょう} (mirror). Ranges from small portable hand mirrors to large wall-mounted mirrors in bathrooms and dressing rooms.\n\nCOMMON COLLOCATIONS:\n- ライト{付|つ}き{化粧|けしょう}{鏡|きょう} — lighted makeup mirror\n- {拡大|かくだい}{化粧|けしょう}{鏡|きょう} — magnifying makeup mirror\n- {三面|さんめん}{化粧|けしょう}{鏡|きょう} — three-panel vanity mirror\n- {卓上|たくじょう}{化粧|けしょう}{鏡|きょう} — tabletop vanity mirror\n- {壁掛|かべか}け{化粧|けしょう}{鏡|きょう} — wall-mounted vanity mirror\n\nSIMILAR WORDS:\n- {鏡|かがみ} — mirror (general term)\n- {手鏡|てかがみ} — hand mirror\n- {姿見|すがたみ} — full-length mirror\n- {鏡台|きょうだい} — dressing table with mirror",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16020_tekagami",
+      "reading": "てかがみ",
+      "headword": "{手鏡|てかがみ}",
+      "label": "hand mirror"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15876_sugatami",
+      "reading": "すがたみ",
+      "headword": "{姿見|すがたみ}",
+      "label": "full-length mirror"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16427_kyoudai",
+      "reading": "きょうだい",
+      "headword": "{鏡台|きょうだい}",
+      "label": "dressing table with mirror"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "furniture",
         "daily-life"
@@ -59,6 +84,6 @@
       "usage": []
     },
     "created": "2026-04-21T09:24:48Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

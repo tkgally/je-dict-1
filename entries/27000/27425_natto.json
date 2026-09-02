@@ -17,7 +17,9 @@
       "id": "27425_natto_ex1",
       "japanese": "ナットを{締|し}める。",
       "english": "To tighten the nut.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27425_natto_ex2",
       "japanese": "ボルトとナットで{部品|ぶひん}を{固定|こてい}した。",
       "english": "I fastened the parts together with a bolt and nut.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "27425_natto_ex3",
       "japanese": "{緩|ゆる}んでいるナットがないか、レンチで{順番|じゅんばん}に{確認|かくにん}した。",
       "english": "I checked one by one with a wrench to see if there were any loose nuts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Loanword from English \"nut\" (fastener). Used in mechanical, construction, and DIY contexts. Pronounced and written with a small っ — distinct from {納豆|なっとう}, which has a long final vowel.\n\nCOMMON COLLOCATIONS:\n- ナットを{締|し}める / {緩|ゆる}める: to tighten / loosen a nut\n- ボルトとナット: bolt and nut\n- ナットが{外|はず}れる: the nut comes off\n- {六角|ろっかく}ナット: hex nut\n\nSIMILAR WORDS:\n- ボルト: bolt — the threaded fastener that the nut screws onto\n- ねじ: screw — broader term, includes both bolts and small wood/metal screws\n- ワッシャー: washer — flat ring placed under a nut or bolt head",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23094_boruto",
+      "reading": "ぼると",
+      "headword": "ボルト",
+      "label": "bolt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00307_neji",
+      "reading": "ねじ",
+      "headword": "ねじ",
+      "label": "screw"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["tool", "technology", "loanword"],
+      "politeness": "plain",
+      "semantic": [
+        "tool",
+        "technology",
+        "loanword"
+      ],
       "domain": []
     },
     "created": "2026-05-11T07:40:10Z",
-    "modified": "2026-05-11T07:40:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

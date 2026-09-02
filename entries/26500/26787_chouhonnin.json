@@ -17,7 +17,9 @@
       "id": "26787_chouhonnin_ex1",
       "japanese": "{騒|さわ}ぎの{張本人|ちょうほんにん}は{彼|かれ}だ。",
       "english": "He's the one who started all the trouble.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26787_chouhonnin_ex2",
       "japanese": "この{問題|もんだい}の{張本人|ちょうほんにん}が{誰|だれ}なのか{調|しら}べている。",
       "english": "We're investigating who's primarily responsible for this problem.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,59 @@
       "id": "26787_chouhonnin_ex3",
       "japanese": "{情報|じょうほう}{漏洩|ろうえい}の{張本人|ちょうほんにん}は{社内|しゃない}にいると{考|かんが}えられている。",
       "english": "It is believed that the person responsible for the information leak is inside the company.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A formal word with strong negative connotations, used to identify the person most responsible for something bad. Composed of {張本|ちょうほん} (origin of trouble) + {人|にん} (person).\n\nCOMMON COLLOCATIONS:\n- {事件|じけん}の{張本人|ちょうほんにん}: the person behind the incident\n- {騒|さわ}ぎの{張本人|ちょうほんにん}: the one who caused the commotion\n- {張本人|ちょうほんにん}を{突|つ}き{止|と}める: to identify the culprit\n\nUSAGE:\nAlmost exclusively negative. Unlike {犯人|はんにん} (criminal), which implies a legal crime, {張本人|ちょうほんにん} is broader and can refer to the instigator of any trouble, scandal, or undesirable situation.\n\nSIMILAR WORDS:\n- {犯人|はんにん}: criminal; perpetrator — specifically refers to someone who committed a crime\n- {首謀者|しゅぼうしゃ}: mastermind — implies planning and leadership of a group\n- {元凶|げんきょう}: root cause; source of evil — can refer to a person or thing",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03572_hannin",
+      "reading": "はんにん",
+      "headword": "{犯人|はんにん}",
+      "label": "criminal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19171_shubousha",
+      "reading": "しゅぼうしゃ",
+      "headword": "{首謀者|しゅぼうしゃ}",
+      "label": "mastermind"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11533_genkyou",
+      "reading": "げんきょう",
+      "headword": "{元凶|げんきょう}",
+      "label": "root cause"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22551_shubou",
+      "reading": "しゅぼう",
+      "headword": "{首謀|しゅぼう}",
+      "label": "masterminding"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-05T11:07:26Z",
-    "modified": "2026-05-05T11:07:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

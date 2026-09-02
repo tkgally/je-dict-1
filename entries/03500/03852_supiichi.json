@@ -2,7 +2,7 @@
   "id": "03852_supiichi",
   "headword": "スピーチ",
   "reading": "すぴーち",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "speech",
   "conjugation": {
     "type": "suru",
@@ -133,10 +133,47 @@
       ]
     }
   ],
-  "notes": "USAGE: スピーチ is commonly used for speeches at events like weddings, ceremonies, and competitions.\n\nCOMMON PATTERNS:\n・スピーチ⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to give a speech)\n・スピーチ⟦を→を：00422_wo⟧⟦{頼|たの}む→頼む：01104_tanomu⟧ (to ask someone to give a speech)\n・⟦スピーチコンテスト→スピーチコンテスト：noentry⟧ (speech contest)\n・⟦{乾杯|かんぱい}→乾杯：00176_kanpai⟧⟦の→の：09472_no⟧スピーチ (toast speech)\n\nRELATED WORDS:\n・⟦{演説|えんぜつ}→演説：01894_enzetsu⟧ (public speech, usually political)\n・⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧ (greeting speech, remarks)\n・⟦{講演|こうえん}→講演：02735_kouen⟧ (lecture)\n・⟦{発表|はっぴょう}→発表：03562_happyou⟧ (presentation)",
+  "notes": "USAGE: スピーチ is commonly used for speeches at events like weddings, ceremonies, and competitions.\n\nCOMMON PATTERNS:\n- スピーチ⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to give a speech)\n- スピーチ⟦を→を：00422_wo⟧⟦{頼|たの}む→頼む：01104_tanomu⟧ (to ask someone to give a speech)\n- ⟦スピーチコンテスト→スピーチコンテスト：noentry⟧ (speech contest)\n- ⟦{乾杯|かんぱい}→乾杯：00176_kanpai⟧⟦の→の：09472_no⟧スピーチ (toast speech)\n\nRELATED WORDS:\n- ⟦{演説|えんぜつ}→演説：01894_enzetsu⟧ (public speech, usually political)\n- ⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧ (greeting speech, remarks)\n- ⟦{講演|こうえん}→講演：02735_kouen⟧ (lecture)\n- ⟦{発表|はっぴょう}→発表：03562_happyou⟧ (presentation)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01894_enzetsu",
+      "reading": "えんぜつ",
+      "headword": "{演説|えんぜつ}",
+      "label": "public speech, usually political"
+    },
+    {
+      "type": "related",
+      "target_id": "02505_aisatsu",
+      "reading": "あいさつ",
+      "headword": "{挨拶|あいさつ}",
+      "label": "greeting speech, remarks"
+    },
+    {
+      "type": "related",
+      "target_id": "02735_kouen",
+      "reading": "こうえん",
+      "headword": "{講演|こうえん}",
+      "label": "lecture"
+    },
+    {
+      "type": "related",
+      "target_id": "03562_happyou",
+      "reading": "はっぴょう",
+      "headword": "{発表|はっぴょう}",
+      "label": "presentation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24471_koutouhappyou",
+      "reading": "こうとうはっぴょう",
+      "headword": "{口頭|こうとう}{発表|はっぴょう}",
+      "label": "oral presentation"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T13:55:10Z",
-    "modified": "2026-05-27T20:11:27Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

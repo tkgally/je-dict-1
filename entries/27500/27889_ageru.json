@@ -3,7 +3,7 @@
   "headword": "挙げる",
   "reading": "あげる",
   "romaji": "ageru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to cite; to name; to hold (a ceremony); to achieve",
   "definitions": [
     {
@@ -81,6 +81,29 @@
   ],
   "notes": "TRANSITIVITY:\n- Transitive ({他動詞|たどうし}); the thing cited or held is marked with を.\n\nCOMMON COLLOCATIONS:\n- {例|れい}を{挙|あ}げる: to give an example\n- {手|て}を{挙|あ}げる: to raise one's hand\n- {式|しき}を{挙|あ}げる: to hold a ceremony\n- {成果|せいか}を{挙|あ}げる: to produce results\n\nSIMILAR WORDS:\n- {上|あ}げる (02443): to raise physically, to give — the everyday \"raise/lift\" verb.\n- {揚|あ}げる (16879): to deep-fry; to hoist (a flag).\n\nWrite {挙|あ}げる specifically for citing/enumerating, holding a ceremony, or achieving results.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "02443_ageru",
+      "reading": "あげる",
+      "headword": "{上|あ}げる",
+      "label": "02443"
+    },
+    {
+      "type": "homophone",
+      "target_id": "16879_ageru",
+      "reading": "あげる",
+      "headword": "{揚|あ}げる",
+      "label": "16879"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11777_rekkyo",
+      "reading": "れっきょ",
+      "headword": "{列挙|れっきょ}",
+      "label": "enumeration, listing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -97,7 +120,7 @@
       "domain": []
     },
     "created": "2026-05-22T03:04:31Z",
-    "modified": "2026-05-22T03:04:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

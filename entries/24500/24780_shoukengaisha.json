@@ -17,35 +17,68 @@
       "japanese": "{証券会社|しょうけんがいしゃ}に{口座|こうざ}を{開|ひら}いた。",
       "english": "I opened an account at a brokerage firm.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "24780_shoukengaisha_ex2",
       "japanese": "{大手|おおて}{証券会社|しょうけんがいしゃ}の{株価|かぶか}が{下落|げらく}した。",
       "english": "The stock price of a major securities company fell.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "24780_shoukengaisha_ex3",
       "japanese": "ネット{証券会社|しょうけんがいしゃ}を{利用|りよう}すれば{手数料|てすうりょう}が{安|やす}く{済|す}む。",
       "english": "If you use an online brokerage, you can keep fees low.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A financial institution that deals in securities ({証券|しょうけん}) such as stocks and bonds. In Japan, major firms include Nomura, Daiwa, and various online brokerages.\n\nCOMMON COLLOCATIONS:\n- {大手|おおて}{証券会社|しょうけんがいしゃ}: major securities firm\n- ネット{証券会社|しょうけんがいしゃ}: online brokerage\n- {証券会社|しょうけんがいしゃ}に{口座|こうざ}を{開|ひら}く: to open an account at a brokerage\n\nSIMILAR WORDS:\n- {銀行|ぎんこう}: bank (deposits and loans, not securities trading)\n- {信用金庫|しんようきんこ}: credit union (smaller-scale local finance)\n- {投資信託|とうししんたく}: investment trust, mutual fund (a product, not a company)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00578_ginkou",
+      "reading": "ぎんこう",
+      "headword": "{銀行|ぎんこう}",
+      "label": "bank"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24783_shinyoukinko",
+      "reading": "しんようきんこ",
+      "headword": "{信用金庫|しんようきんこ}",
+      "label": "credit union"
+    },
+    {
+      "type": "related",
+      "target_id": "21158_kinyuukikan",
+      "reading": "きんゆうきかん",
+      "headword": "{金融機関|きんゆうきかん}",
+      "label": "financial institution"
+    }
+  ],
   "metadata": {
     "created": "2026-04-20T15:26:18Z",
-    "modified": "2026-04-20T15:26:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     }
   }
 }

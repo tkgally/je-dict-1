@@ -18,7 +18,9 @@
       "english": "I add sound effects.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11924_koukaon_ex2",
@@ -26,7 +28,9 @@
       "english": "The sound effects in this movie are realistic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11924_koukaon_ex3",
@@ -34,23 +38,60 @@
       "english": "I turned off the game's sound effects and left only the music.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A compound of {効果|こうか} (effect) + {音|おん} (sound). Refers to artificially created or recorded sounds used in media to enhance productions.\n\nABBREVIATION:\nOften shortened to SE (from English \"sound effect\") in production contexts.\n\nCOMMON PATTERNS:\n- {効果音|こうかおん}を{付|つ}ける: to add sound effects\n- {効果音|こうかおん}を{入|い}れる: to put in sound effects\n- {効果音|こうかおん}を{消|け}す: to turn off sound effects\n- {効果音|こうかおん}を{作|つく}る: to create sound effects\n\nDOMAINS:\nUsed across {映画|えいが} (film), テレビ (TV), ラジオ (radio), ゲーム (games), and {舞台|ぶたい} (theater).",
-  "cross_references": [],
+  "notes": "A compound of {効果|こうか} (effect) + {音|おん} (sound). Refers to artificially created or recorded sounds used in media to enhance productions.\n\nFORMS:\nOften shortened to SE (from English \"sound effect\") in production contexts.\n\nCOMMON PATTERNS:\n- {効果音|こうかおん}を{付|つ}ける: to add sound effects\n- {効果音|こうかおん}を{入|い}れる: to put in sound effects\n- {効果音|こうかおん}を{消|け}す: to turn off sound effects\n- {効果音|こうかおん}を{作|つく}る: to create sound effects\n\nDOMAINS:\nUsed across {映画|えいが} (film), テレビ (TV), ラジオ (radio), ゲーム (games), and {舞台|ぶたい} (theater).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07714_biijiiemu",
+      "reading": "びーじーえむ",
+      "headword": "BGM",
+      "label": "background music"
+    },
+    {
+      "type": "related",
+      "target_id": "08903_esuii",
+      "reading": "えすいー",
+      "headword": "SE",
+      "label": "sound effect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24021_kidouon",
+      "reading": "きどうおん",
+      "headword": "{起動音|きどうおん}",
+      "label": "startup sound"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24273_onkyoukouka",
+      "reading": "おんきょうこうか",
+      "headword": "{音響効果|おんきょうこうか}",
+      "label": "sound effects"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T14:18:06Z",
-    "modified": "2026-03-27T12:24:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

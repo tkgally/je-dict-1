@@ -3,7 +3,7 @@
   "headword": "{咀嚼|そしゃく}する",
   "reading": "そしゃくする",
   "romaji": "soshakusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to chew; to masticate; to digest (mentally)",
   "definitions": [
     {
@@ -80,7 +80,29 @@
     }
   ],
   "notes": "Composed of {咀嚼|そしゃく} (chewing; mastication) + する. Both the literal (eating) and figurative (understanding) senses are common. The figurative sense is especially frequent in intellectual and media contexts — \"chewing over\" information, ideas, or someone's words. The kanji {咀|そ} and {嚼|しゃく} are both unusual and not tested on standard kanji exams.\n\nCOMMON COLLOCATIONS:\n- よく{咀嚼|そしゃく}する: to chew well; to think through carefully\n- {咀嚼|そしゃく}{力|りょく}: chewing ability\n- {情報|じょうほう}を{咀嚼|そしゃく}する: to digest information\n- {咀嚼|そしゃく}して{伝|つた}える: to explain after digesting (making it accessible)\n\nSIMILAR WORDS:\n- {噛|か}む: to bite; to chew — the everyday word for chewing\n- {消化|しょうか}する: to digest — literally for digestion, figuratively for absorbing information; less active than {咀嚼|そしゃく}\n- {熟考|じゅっこう}する: to deliberate carefully — figuratively similar but without the chewing metaphor",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01205_kamu",
+      "reading": "かむ",
+      "headword": "{噛|か}む",
+      "label": "to bite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04200_shouka",
+      "reading": "しょうか",
+      "headword": "{消化|しょうか}",
+      "label": "to digest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07966_jukkou",
+      "reading": "じゅっこう",
+      "headword": "{熟考|じゅっこう}",
+      "label": "to deliberate carefully"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -88,6 +110,8 @@
       "pos": [
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "consumption",
         "cognition"
@@ -95,7 +119,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T15:16:23Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

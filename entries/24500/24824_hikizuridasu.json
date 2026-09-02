@@ -3,7 +3,7 @@
   "headword": "{引|ひ}きずり{出|だ}す",
   "reading": "ひきずりだす",
   "romaji": "hikizuridasu",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to drag out; to haul out",
   "definitions": [
     {
@@ -81,12 +81,29 @@
   ],
   "notes": "A compound verb combining {引|ひ}きずる (to drag) and {出|だ}す (to take out). The physical sense implies forceful, rough pulling. The figurative sense conveys forcibly exposing something hidden or compelling someone reluctant to appear.\n\nCOMMON COLLOCATIONS:\n- {犯人|はんにん}を{引|ひ}きずり{出|だ}す — to drag out a criminal\n- {真実|しんじつ}を{引|ひ}きずり{出|だ}す — to drag out the truth\n- {布団|ふとん}から{引|ひ}きずり{出|だ}す — to drag someone out of bed\n- スキャンダルを{引|ひ}きずり{出|だ}す — to unearth a scandal\n\nSIMILAR WORDS:\n- {引|ひ}っ{張|ぱ}り{出|だ}す — to pull out (less forceful, can be positive: \"to recruit\")\n- {引|ひ}きずる — to drag (no directional element)\n- {暴|あば}く — to expose, to reveal (secrets or wrongdoing)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06045_hikizuru",
+      "reading": "ひきずる",
+      "headword": "{引|ひ}きずる",
+      "label": "to drag"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04607_abaku",
+      "reading": "あばく",
+      "headword": "{暴|あば}く",
+      "label": "to expose, to reveal"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "verb-godan"
       ],
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
@@ -94,7 +111,7 @@
       "verb_class": "godan-su"
     },
     "created": "2026-04-21T09:18:01Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

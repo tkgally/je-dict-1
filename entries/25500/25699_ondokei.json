@@ -44,13 +44,55 @@
       "notes": null
     }
   ],
-  "notes": "{温度|おんど} (temperature) + {計|けい} (meter, gauge). The general word for any device that measures temperature, whether a medical thermometer, a room thermometer, or an industrial temperature gauge.\n\nCOMMON COLLOCATIONS:\n- {温度計|おんどけい}で{測|はか}る — measure with a thermometer\n- {温度計|おんどけい}の{目盛|めも}り — scale on a thermometer\n- {温度計|おんどけい}が{上|あ}がる — the thermometer rises\n- {温度計|おんどけい}が{下|さ}がる — the thermometer drops\n\nRELATED TERMS:\n- {体温計|たいおんけい} — clinical thermometer (specifically for body temperature)\n- {寒暖計|かんだんけい} — thermometer (older term, emphasizing hot and cold)\n- {湿度計|しつどけい} — hygrometer (humidity meter)\n- {気圧計|きあつけい} — barometer",
+  "notes": "{温度|おんど} (temperature) + {計|けい} (meter, gauge). The general word for any device that measures temperature, whether a medical thermometer, a room thermometer, or an industrial temperature gauge.\n\nCOMMON COLLOCATIONS:\n- {温度計|おんどけい}で{測|はか}る — measure with a thermometer\n- {温度計|おんどけい}の{目盛|めも}り — scale on a thermometer\n- {温度計|おんどけい}が{上|あ}がる — the thermometer rises\n- {温度計|おんどけい}が{下|さ}がる — the thermometer drops\n\nRELATED WORDS:\n- {体温計|たいおんけい} — clinical thermometer (specifically for body temperature)\n- {寒暖計|かんだんけい} — thermometer (older term, emphasizing hot and cold)\n- {湿度計|しつどけい} — hygrometer (humidity meter)\n- {気圧計|きあつけい} — barometer",
   "cross_references": [
     {
       "type": "related",
       "reading": "おんど",
       "description": "{温度|おんど} — temperature",
       "target_id": "00333_ondo"
+    },
+    {
+      "type": "related",
+      "target_id": "05484_taionkei",
+      "reading": "たいおんけい",
+      "headword": "{体温計|たいおんけい}",
+      "label": "clinical thermometer"
+    },
+    {
+      "type": "related",
+      "target_id": "15402_kandankei",
+      "reading": "かんだんけい",
+      "headword": "{寒暖計|かんだんけい}",
+      "label": "thermometer"
+    },
+    {
+      "type": "related",
+      "target_id": "29602_shitsudokei",
+      "reading": "しつどけい",
+      "headword": "{湿度計|しつどけい}",
+      "label": "hygrometer"
+    },
+    {
+      "type": "related",
+      "target_id": "27376_kiatsukei",
+      "reading": "きあつけい",
+      "headword": "{気圧計|きあつけい}",
+      "label": "barometer"
+    },
+    {
+      "type": "related",
+      "target_id": "01977_hakaru",
+      "reading": "はかる",
+      "headword": "{測|はか}る",
+      "label": "to measure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29279_uryoukei",
+      "reading": "うりょうけい",
+      "headword": "{雨量計|うりょうけい}",
+      "label": "rain gauge"
     }
   ],
   "schema_version": "2.0",
@@ -60,12 +102,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "science",
         "daily-life"
       ]
     },
     "created": "2026-04-26T16:26:57Z",
-    "modified": "2026-06-19T03:23:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

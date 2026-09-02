@@ -17,7 +17,9 @@
       "id": "27028_akuhitsu_ex1",
       "japanese": "{彼|かれ}は{悪筆|あくひつ}で{有名|ゆうめい}だ。",
       "english": "He is famous for his bad handwriting.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27028_akuhitsu_ex2",
       "japanese": "{悪筆|あくひつ}で{読|よ}めない{字|じ}が{多|おお}い。",
       "english": "His handwriting is so bad that many characters are unreadable.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,66 @@
       "id": "27028_akuhitsu_ex3",
       "japanese": "{医者|いしゃ}の{処方箋|しょほうせん}が{悪筆|あくひつ}で、{薬剤師|やくざいし}が{読|よ}み{取|と}るのに{苦労|くろう}した。",
       "english": "The doctor's prescription was so poorly written that the pharmacist had trouble reading it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {悪|あく} (bad) + {筆|ひつ} (brush/writing). In Japan, where calligraphy ({書道|しょどう}) is part of school education, handwriting quality is taken more seriously than in many other cultures. Having {悪筆|あくひつ} can be seen as a minor social embarrassment.\n\nCOMMON COLLOCATIONS:\n- {悪筆|あくひつ}で{有名|ゆうめい}: famous for bad handwriting\n- {悪筆|あくひつ}を{直|なお}す: to fix one's bad handwriting\n- ひどい{悪筆|あくひつ}: terrible handwriting\n\nSIMILAR WORDS:\n- {達筆|たっぴつ}: beautiful handwriting; fine penmanship — the opposite; a compliment for skilled calligraphy\n- {癖字|くせじ}: idiosyncratic handwriting — not necessarily bad, just distinctive or hard for others to read\n- {乱筆|らんぴつ}: messy writing — often used as a humble apology for one's own handwriting in letters",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "26860_tappitsu",
+      "reading": "たっぴつ",
+      "headword": "{達筆|たっぴつ}",
+      "label": "beautiful handwriting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28674_kuseji",
+      "reading": "くせじ",
+      "headword": "{癖字|くせじ}",
+      "label": "idiosyncratic handwriting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26287_ranpitsu",
+      "reading": "らんぴつ",
+      "headword": "{乱筆|らんぴつ}",
+      "label": "messy writing"
+    },
+    {
+      "type": "related",
+      "target_id": "08301_tegaki",
+      "reading": "てがき",
+      "headword": "{手書|てが}き",
+      "label": "handwriting"
+    },
+    {
+      "type": "antonym",
+      "target_id": "27136_bimoji",
+      "reading": "びもじ",
+      "headword": "{美文字|びもじ}",
+      "label": "beautiful handwriting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education", "evaluation"]
+      "semantic": [
+        "education",
+        "evaluation"
+      ]
     },
     "created": "2026-05-06T14:22:23Z",
-    "modified": "2026-05-06T14:22:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

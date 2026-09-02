@@ -143,7 +143,7 @@
       "notes": null
     }
   ],
-  "notes": "{告訴|こくそ} is a legal term referring to the formal act of a crime victim filing a criminal complaint with authorities.\n\nKANJI BREAKDOWN:\n- {告|こく} (announce, tell, accuse)\n- {訴|そ} (sue, complain, accuse)\n\nUSAGE:\n- {告訴|こくそ}する (to press charges, to file a complaint - suru verb)\n- {告訴|こくそ}を{取|と}り{下|さ}げる (to drop charges)\n- {告訴|こくそ}{状|じょう} (written complaint)\n\nLEGAL DISTINCTION:\n- {告訴|こくそ}: filed by the VICTIM of the crime\n- {告発|こくはつ}: filed by a THIRD PARTY (anyone, not necessarily the victim)\n- This distinction is important in Japanese criminal law\n\nKEY CONCEPTS:\n- {親告罪|しんこくざい} (crimes prosecutable only upon complaint) - some crimes require the victim's {告訴|こくそ} to prosecute\n- {告訴|こくそ}{権|けん} (right to file charges)\n- {告訴|こくそ}{期間|きかん} (period for filing charges)\n\nCOMMON CHARGES:\n- {詐欺|さぎ}で{告訴|こくそ}する (to charge with fraud)\n- {名誉毀損|めいよきそん}で{告訴|こくそ}する (to charge with defamation)\n- {窃盗|せっとう}で{告訴|こくそ}する (to charge with theft)\n\nRELATED TERMS:\n- {告発|こくはつ} (accusation by third party)\n- {起訴|きそ} (indictment, prosecution)\n- {被害届|ひがいとどけ} (damage report to police)\n- {訴訟|そしょう} (lawsuit, litigation)",
+  "notes": "{告訴|こくそ} is a legal term referring to the formal act of a crime victim filing a criminal complaint with authorities.\n\nWRITING:\n- {告|こく} (announce, tell, accuse)\n- {訴|そ} (sue, complain, accuse)\n\nUSAGE:\n- {告訴|こくそ}する (to press charges, to file a complaint - suru verb)\n- {告訴|こくそ}を{取|と}り{下|さ}げる (to drop charges)\n- {告訴|こくそ}{状|じょう} (written complaint)\n\nLEGAL DISTINCTION:\n- {告訴|こくそ}: filed by the VICTIM of the crime\n- {告発|こくはつ}: filed by a THIRD PARTY (anyone, not necessarily the victim)\n- This distinction is important in Japanese criminal law\n\nKEY CONCEPTS:\n- {親告罪|しんこくざい} (crimes prosecutable only upon complaint) - some crimes require the victim's {告訴|こくそ} to prosecute\n- {告訴|こくそ}{権|けん} (right to file charges)\n- {告訴|こくそ}{期間|きかん} (period for filing charges)\n\nCOMMON CHARGES:\n- {詐欺|さぎ}で{告訴|こくそ}する (to charge with fraud)\n- {名誉毀損|めいよきそん}で{告訴|こくそ}する (to charge with defamation)\n- {窃盗|せっとう}で{告訴|こくそ}する (to charge with theft)\n\nRELATED WORDS:\n- {告発|こくはつ} (accusation by third party)\n- {起訴|きそ} (indictment, prosecution)\n- {被害届|ひがいとどけ} (damage report to police)\n- {訴訟|そしょう} (lawsuit, litigation)",
   "cross_references": [
     {
       "type": "contrast",
@@ -151,6 +151,34 @@
       "headword": "{告発|こくはつ}",
       "label": "accusation; whistleblowing (by any party)",
       "target_id": "07999_kokuhatsu"
+    },
+    {
+      "type": "related",
+      "target_id": "10577_kiso",
+      "reading": "きそ",
+      "headword": "{起訴|きそ}",
+      "label": "indictment, prosecution"
+    },
+    {
+      "type": "related",
+      "target_id": "15706_higaitodoke",
+      "reading": "ひがいとどけ",
+      "headword": "{被害届|ひがいとどけ}",
+      "label": "damage report to police"
+    },
+    {
+      "type": "related",
+      "target_id": "07642_soshou",
+      "reading": "そしょう",
+      "headword": "{訴訟|そしょう}",
+      "label": "lawsuit, litigation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24477_houtekisochi",
+      "reading": "ほうてきそち",
+      "headword": "{法的|ほうてき}{措置|そち}",
+      "label": "legal measures"
     }
   ],
   "metadata": {
@@ -161,6 +189,7 @@
         "verb-suru"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "domain": [
         "legal"
       ],
@@ -170,6 +199,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-24T23:46:14Z",
-    "modified": "2026-08-11T09:37:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

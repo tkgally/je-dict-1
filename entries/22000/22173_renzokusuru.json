@@ -3,7 +3,7 @@
   "headword": "{連続|れんぞく}する",
   "reading": "れんぞくする",
   "romaji": "renzokusuru",
-  "part_of_speech": "noun, suru verb, intransitive",
+  "part_of_speech": "noun, suru verb (intransitive)",
   "gloss": "to continue; to occur in succession; to be consecutive",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Often used as a noun modifier: {連続|れんぞく}＋counter (e.g., {三日|みっか}{連続|れんぞく} — three days running). Very common in news and sports contexts.\n\nCOMMON COLLOCATIONS:\n- ～{日|にち}{連続|れんぞく} — ~ days in a row\n- {連続|れんぞく}{殺人|さつじん} — serial murder\n- {連続|れんぞく}ドラマ — serial drama, TV series\n- {連続|れんぞく}{記録|きろく} — consecutive record\n- {連続|れんぞく}{優勝|ゆうしょう} — consecutive championships\n\nSIMILAR WORDS:\n- {続|つづ}く — to continue (general, everyday); focuses on duration rather than sequence\n- {継続|けいぞく}する — to continue, maintain; emphasizes sustained effort or ongoing state\n- {相次|あいつ}ぐ — to occur one after another; emphasizes that similar events keep happening (often negative events)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00903_tsuzuku",
+      "reading": "つづく",
+      "headword": "{続|つづ}く",
+      "label": "to continue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26971_keizokusuru",
+      "reading": "けいぞくする",
+      "headword": "{継続|けいぞく}する",
+      "label": "to continue, maintain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14869_aitsugu",
+      "reading": "あいつぐ",
+      "headword": "{相次|あいつ}ぐ",
+      "label": "to occur one after another"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T04:26:41Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

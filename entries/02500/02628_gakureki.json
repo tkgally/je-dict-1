@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{学歴|がくれき} refers to one's formal educational credentials.\n\nCOMMON PATTERNS:\n- {学歴|がくれき}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧/⟦{低|ひく}い→低い：02947_hikui⟧ (high/low educational background)\n- {学歴|がくれき}⟦を→を：00422_wo⟧⟦{問|と}わない→問う：02299_tou⟧ (regardless of educational background)\n- {学歴|がくれき}⟦{詐称|さしょう}→詐称：18658_sashou⟧ (falsification of academic credentials)\n\nCOMPOUND WORDS:\n- {学歴|がくれき}⟦{社会|しゃかい}→社会：01427_shakai⟧ (credential-focused society)\n- {学歴|がくれき}⟦{差別|さべつ}→差別：01633_sabetsu⟧ (educational discrimination)\n- ⟦{最終|さいしゅう}→最終：02820_saishuu⟧{学歴|がくれき} (highest level of education)\n\nSIMILAR WORDS:\n- {学歴|がくれき}: educational background\n- ⟦{経歴|けいれき}→経歴：13795_keireki⟧: career history\n- ⟦{職歴|しょくれき}→職歴：17959_shokureki⟧: work history",
+  "notes": "{学歴|がくれき} refers to one's formal educational credentials.\n\nCOMMON PATTERNS:\n- {学歴|がくれき}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧/⟦{低|ひく}い→低い：02947_hikui⟧ (high/low educational background)\n- {学歴|がくれき}⟦を→を：00422_wo⟧⟦{問|と}わない→問う：02299_tou⟧ (regardless of educational background)\n- {学歴|がくれき}⟦{詐称|さしょう}→詐称：18658_sashou⟧ (falsification of academic credentials)\n\nCOMPOUNDS:\n- {学歴|がくれき}⟦{社会|しゃかい}→社会：01427_shakai⟧ (credential-focused society)\n- {学歴|がくれき}⟦{差別|さべつ}→差別：01633_sabetsu⟧ (educational discrimination)\n- ⟦{最終|さいしゅう}→最終：02820_saishuu⟧{学歴|がくれき} (highest level of education)\n\nSIMILAR WORDS:\n- {学歴|がくれき}: educational background\n- ⟦{経歴|けいれき}→経歴：13795_keireki⟧: career history\n- ⟦{職歴|しょくれき}→職歴：17959_shokureki⟧: work history",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,39 @@
       "headword": "{経歴|けいれき}",
       "label": "career history",
       "target_id": "13795_keireki"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17959_shokureki",
+      "reading": "しょくれき",
+      "headword": "{職歴|しょくれき}",
+      "label": "work history"
+    },
+    {
+      "type": "related",
+      "target_id": "10196_gakui",
+      "reading": "がくい",
+      "headword": "{学位|がくい}",
+      "label": "academic degree"
+    },
+    {
+      "type": "related",
+      "target_id": "19284_kousotsu",
+      "reading": "こうそつ",
+      "headword": "{高卒|こうそつ}",
+      "label": "high school graduate"
+    },
+    {
+      "type": "related",
+      "target_id": "19429_byoureki",
+      "reading": "びょうれき",
+      "headword": "{病歴|びょうれき}",
+      "label": "medical history"
     }
   ],
   "metadata": {
     "created": "2026-01-11T06:43:14Z",
-    "modified": "2026-07-31T09:22:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

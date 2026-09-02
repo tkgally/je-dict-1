@@ -17,7 +17,9 @@
       "id": "25904_mawarijuu_ex1",
       "japanese": "{周|まわ}り{中|じゅう}{花|はな}だらけだった。",
       "english": "There were flowers all around.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25904_mawarijuu_ex2",
       "japanese": "{周|まわ}り{中|じゅう}の{人|ひと}がこちらを{見|み}ていた。",
       "english": "Everyone around was looking this way.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,43 @@
       "id": "25904_mawarijuu_ex3",
       "japanese": "{部屋|へや}の{周|まわ}り{中|じゅう}に{本|ほん}が{積|つ}み{上|あ}げられていて、{足|あし}の{踏|ふ}み{場|ば}もなかった。",
       "english": "Books were piled up all around the room, and there wasn't even room to stand.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {周|まわ}り (surroundings) with {中|じゅう} (throughout), a suffix that emphasizes completeness across an area. Expresses that something extends in every direction without gaps.\n\nCOMMON COLLOCATIONS:\n- {周|まわ}り{中|じゅう}が{敵|てき}: enemies on all sides\n- {周|まわ}り{中|じゅう}{真|ま}っ{暗|くら}: pitch dark all around\n- {周|まわ}り{中|じゅう}に{広|ひろ}がる: to spread all around\n\nSIMILAR WORDS:\n- {辺|あた}り{一面|いちめん}: the whole area — emphasizes a surface or landscape covered uniformly\n- {四方八方|しほうはっぽう}: in all directions — more literary, emphasizes directions rather than proximity\n- {至|いた}る{所|ところ}: everywhere — broader scope, not limited to the immediate surroundings",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16104_shihouhappou",
+      "reading": "しほうはっぽう",
+      "headword": "{四方八方|しほうはっぽう}",
+      "label": "in all directions"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15861_itarutokoro",
+      "reading": "いたるところ",
+      "headword": "{至|いた}る{所|ところ}",
+      "label": "everywhere"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["direction"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "direction"
+      ]
     },
     "created": "2026-04-28T12:18:32Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

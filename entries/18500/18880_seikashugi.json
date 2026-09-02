@@ -19,7 +19,9 @@
       "english": "Our company follows a performance-based system.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18880_seikashugi_ex2",
@@ -27,7 +29,9 @@
       "english": "More and more companies are introducing performance-based systems.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18880_seikashugi_ex3",
@@ -35,22 +39,52 @@
       "english": "There are arguments for and against meritocracy, including criticism that it increases employee stress.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA buzzword in Japanese business since the late 1990s, when companies began moving away from the traditional {年功序列|ねんこうじょれつ} (seniority-based) system. Still debated in management circles.\n\nCOMMON COLLOCATIONS:\n- {成果|せいか}{主義|しゅぎ}を{導入|どうにゅう}する (to introduce a performance-based system)\n- {成果|せいか}{主義|しゅぎ}{型|がた}の{評価|ひょうか} (performance-based evaluation)\n- {成果|せいか}{主義|しゅぎ}の{弊害|へいがい} (drawbacks of meritocracy)\n\nSIMILAR WORDS:\n- {年功序列|ねんこうじょれつ}: seniority system — the traditional Japanese model where pay and rank increase with years of service\n- {実力主義|じつりょくしゅぎ}: meritocracy based on ability — similar but emphasizes skill rather than measurable output",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12532_nenkoujoretsu",
+      "reading": "ねんこうじょれつ",
+      "headword": "{年功序列|ねんこうじょれつ}",
+      "label": "seniority system"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17836_jitsuryokushugi",
+      "reading": "じつりょくしゅぎ",
+      "headword": "{実力主義|じつりょくしゅぎ}",
+      "label": "meritocracy based on ability"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26516_jissekishugi",
+      "reading": "じっせきしゅぎ",
+      "headword": "{実績|じっせき}{主義|しゅぎ}",
+      "label": "meritocracy"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:20:54Z",
-    "modified": "2026-03-23T06:20:54Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

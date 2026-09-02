@@ -3,7 +3,7 @@
   "headword": "{欠席|けっせき}する",
   "reading": "けっせきする",
   "romaji": "kessekisuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to be absent; to miss (class, a meeting)",
   "definitions": [
     {
@@ -56,6 +56,43 @@
   ],
   "notes": "A formal word for being absent from a scheduled event. Commonly used in school and workplace contexts. The noun form {欠席|けっせき} is used on its own in roll calls and attendance records.\n\nCOMMON COLLOCATIONS:\n- {授業|じゅぎょう}を{欠席|けっせき}する: to be absent from class\n- {会議|かいぎ}を{欠席|けっせき}する: to be absent from a meeting\n- {欠席届|けっせきとどけ}: absence notification\n- {欠席|けっせき}{日数|にっすう}: number of days absent\n- {無断|むだん}{欠席|けっせき}: unauthorized absence\n\nSIMILAR WORDS:\n- {休|やす}む: to take a day off / be absent — more casual and broader; can mean resting or taking leave, not only being absent\n- {出席|しゅっせき}する: to attend — the direct opposite of {欠席|けっせき}する\n- {不在|ふざい}: absence — describes not being in a particular place rather than missing an event",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00606_yasumu",
+      "reading": "やすむ",
+      "headword": "{休|やす}む",
+      "label": "to take a day off / be absent"
+    },
+    {
+      "type": "antonym",
+      "target_id": "01830_shussekisuru",
+      "reading": "しゅっせきする",
+      "headword": "{出席|しゅっせき}する",
+      "label": "to attend"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11302_fuzai",
+      "reading": "ふざい",
+      "headword": "{不在|ふざい}",
+      "label": "absence"
+    },
+    {
+      "type": "related",
+      "target_id": "10138_kakasu",
+      "reading": "かかす",
+      "headword": "{欠|か}かす",
+      "label": "to miss"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22434_soutaisuru",
+      "reading": "そうたいする",
+      "headword": "{早退|そうたい}する",
+      "label": "to leave early (from work or school)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -71,7 +108,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T17:03:27Z",
-    "modified": "2026-04-05T17:03:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

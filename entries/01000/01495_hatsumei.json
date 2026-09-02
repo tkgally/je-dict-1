@@ -2,7 +2,7 @@
   "id": "01495_hatsumei",
   "headword": "{発明|はつめい}",
   "reading": "はつめい",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "invention",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{発明|はつめい} means invention or the act of inventing. As a verbal noun, it forms {発明|はつめい}する (to invent).\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{発明|はつめい}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- ～⟦を→を：00422_wo⟧{発明|はつめい}⟦する→する：00392_suru⟧: to invent something\n- ⟦{偉大|いだい}な→偉大：01798_idai⟧{発明|はつめい}: a great invention\n- ⟦{新|あたら}しい→新しい：00506_atarashii⟧{発明|はつめい}: a new invention\n\nRELATED WORDS:\n- ⟦{発明家|はつめいか}→発明家：09521_hatsumeika⟧: inventor\n- ⟦{発明品|はつめいひん}→発明品：27729_hatsumeihin⟧: invented product\n- ⟦{発見|はっけん}→発見：00085_hakken⟧: discovery (finding something existing)\n- ⟦{開発|かいはつ}→開発：06746_kaihatsu⟧: development\n\nDISTINCTION:\n{発明|はつめい} is creating something new that didn't exist before, while ⟦{発見|はっけん}→発見：00085_hakken⟧ is finding something that already existed but was unknown.",
+  "notes": "{発明|はつめい} means invention or the act of inventing. As a verbal noun, it forms {発明|はつめい}する (to invent).\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{発明|はつめい}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- ～⟦を→を：00422_wo⟧{発明|はつめい}⟦する→する：00392_suru⟧: to invent something\n- ⟦{偉大|いだい}な→偉大：01798_idai⟧{発明|はつめい}: a great invention\n- ⟦{新|あたら}しい→新しい：00506_atarashii⟧{発明|はつめい}: a new invention\n\nRELATED WORDS:\n- ⟦{発明家|はつめいか}→発明家：09521_hatsumeika⟧: inventor\n- ⟦{発明品|はつめいひん}→発明品：27729_hatsumeihin⟧: invented product\n- ⟦{発見|はっけん}→発見：00085_hakken⟧: discovery (finding something existing)\n- ⟦{開発|かいはつ}→開発：06746_kaihatsu⟧: development\n\nSIMILAR WORDS:\n{発明|はつめい} is creating something new that didn't exist before, while ⟦{発見|はっけん}→発見：00085_hakken⟧ is finding something that already existed but was unknown.",
   "cross_references": [
     {
       "type": "contrast",
@@ -141,11 +141,39 @@
       "reading": "はっけん",
       "headword": "{発見|はっけん}",
       "label": "discovery (finding)"
+    },
+    {
+      "type": "related",
+      "target_id": "06746_kaihatsu",
+      "reading": "かいはつ",
+      "headword": "{開発|かいはつ}",
+      "label": "development"
+    },
+    {
+      "type": "related",
+      "target_id": "09521_hatsumeika",
+      "reading": "はつめいか",
+      "headword": "{発明家|はつめいか}",
+      "label": "inventor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22180_kufuusuru",
+      "reading": "くふうする",
+      "headword": "{工夫|くふう}する",
+      "label": "to devise"
+    },
+    {
+      "type": "related",
+      "target_id": "28152_daihakken",
+      "reading": "だいはっけん",
+      "headword": "{大発見|だいはっけん}",
+      "label": "great discovery"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:38:11Z",
-    "modified": "2026-08-11T00:22:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

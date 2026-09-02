@@ -3,7 +3,7 @@
   "headword": "{伝送|でんそう}",
   "reading": "でんそう",
   "romaji": "densou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "transmission; data transfer; signal conveyance",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "A technical term primarily used in telecommunications and information technology. Composed of {伝|でん} (transmit; convey) + {送|そう} (send). Focuses specifically on the movement of data or signals through a medium, as opposed to the broader concept of communication.\n\nCOMMON COLLOCATIONS:\n- {伝送|でんそう}{速度|そくど}: transmission speed\n- {伝送|でんそう}{路|ろ}: transmission path; channel\n- {伝送|でんそう}{方式|ほうしき}: transmission method\n- データ{伝送|でんそう}: data transmission\n- {無線|むせん}{伝送|でんそう}: wireless transmission\n\nSIMILAR WORDS:\n- {送信|そうしん}: sending; transmitting — the act of sending from the sender's side\n- {通信|つうしん}: communication; telecommunications — broader term covering both sending and receiving\n- {転送|てんそう}: forwarding; transfer — relaying data or messages to another destination",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17692_soushin",
+      "reading": "そうしん",
+      "headword": "{送信|そうしん}",
+      "label": "sending"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03514_tsuushin",
+      "reading": "つうしん",
+      "headword": "{通信|つうしん}",
+      "label": "communication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14792_tensou",
+      "reading": "てんそう",
+      "headword": "{転送|てんそう}",
+      "label": "forwarding"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +76,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "technology",
         "communication"
@@ -61,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-28T12:20:41Z",
-    "modified": "2026-04-28T12:20:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

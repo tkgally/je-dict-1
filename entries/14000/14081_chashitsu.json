@@ -19,7 +19,9 @@
       "english": "I had tea in the tea room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14081_chashitsu_ex2",
@@ -27,7 +29,9 @@
       "english": "A tea room stands quietly in the back of the garden.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14081_chashitsu_ex3",
@@ -35,21 +39,42 @@
       "english": "The tea room said to have been designed by Sen no Rikyu condenses the beauty of wabi into a tiny two-tatami-mat space.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nRefers specifically to rooms designed for the tea ceremony, not ordinary rooms where tea is drunk. A {茶室|ちゃしつ} follows specific architectural principles: a small entrance called {躙|にじ}り{口|ぐち} (crawl-through entrance) that requires guests to bow, a {床|とこ}の{間|ま} (alcove) for displaying a scroll and flowers, and simple materials that evoke rustic simplicity.\n\nNOTE:\nThe most famous {茶室|ちゃしつ} is {待庵|たいあん}, attributed to {千利休|せんのりきゅう}, which is a National Treasure.\n\nCOMMON COLLOCATIONS:\n- {茶室|ちゃしつ}を{建|た}てる: to build a tea room\n- {茶室|ちゃしつ}で{茶|ちゃ}を{点|た}てる: to prepare tea in a tea room\n- {茶室|ちゃしつ}の{設計|せっけい}: tea room design",
-  "cross_references": [],
+  "notes": "USAGE:\nRefers specifically to rooms designed for the tea ceremony, not ordinary rooms where tea is drunk. A {茶室|ちゃしつ} follows specific architectural principles: a small entrance called {躙|にじ}り{口|ぐち} (crawl-through entrance) that requires guests to bow, a {床|とこ}の{間|ま} (alcove) for displaying a scroll and flowers, and simple materials that evoke rustic simplicity.\nThe most famous {茶室|ちゃしつ} is {待庵|たいあん}, attributed to {千利休|せんのりきゅう}, which is a National Treasure.\n\nCOMMON COLLOCATIONS:\n- {茶室|ちゃしつ}を{建|た}てる: to build a tea room\n- {茶室|ちゃしつ}で{茶|ちゃ}を{点|た}てる: to prepare tea in a tea room\n- {茶室|ちゃしつ}の{設計|せっけい}: tea room design",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21359_sabou",
+      "reading": "さぼう",
+      "headword": "{茶房|さぼう}",
+      "label": "tea room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29411_chaseki",
+      "reading": "ちゃせき",
+      "headword": "{茶席|ちゃせき}",
+      "label": "tea gathering"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T23:13:26Z",
-    "modified": "2026-02-27T23:13:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

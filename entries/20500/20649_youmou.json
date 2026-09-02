@@ -17,7 +17,9 @@
       "id": "20649_youmou_ex1",
       "japanese": "{羊毛|ようもう}のセーターは{暖|あたた}かい。",
       "english": "A wool sweater is warm.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20649_youmou_ex2",
       "japanese": "オーストラリアは{羊毛|ようもう}の{産地|さんち}として{有名|ゆうめい}だ。",
       "english": "Australia is famous as a wool-producing region.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "20649_youmou_ex3",
       "japanese": "この{毛布|もうふ}は{羊毛|ようもう}100%なので{肌触|はだざわ}りがとてもいい。",
       "english": "This blanket is 100% wool, so it feels very nice against the skin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The standard term for sheep's wool as a raw material or textile fiber. Commonly seen on clothing labels and in descriptions of textile products.\n\nCOMMON COLLOCATIONS:\n- {羊毛|ようもう}100%: 100% wool\n- {羊毛|ようもう}フェルト: wool felt\n- {羊毛|ようもう}の{産地|さんち}: wool-producing area\n- {羊毛|ようもう}{製品|せいひん}: wool products\n- {羊毛|ようもう}を{刈|か}る: to shear wool\n\nSIMILAR WORDS:\n- ウール: wool (loanword from English; common in fashion and retail)\n- {毛糸|けいと}: knitting yarn, woolen yarn\n- {毛織物|けおりもの}: woven wool fabric",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27712_uuru",
+      "reading": "うーる",
+      "headword": "ウール",
+      "label": "wool (loanword from English"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00212_keito",
+      "reading": "けいと",
+      "headword": "{毛糸|けいと}",
+      "label": "knitting yarn, woolen yarn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15572_keorimono",
+      "reading": "けおりもの",
+      "headword": "{毛織物|けおりもの}",
+      "label": "woven wool fabric"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03807_men",
+      "reading": "めん",
+      "headword": "{綿|めん}",
+      "label": "cotton"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["material"]
+      "semantic": [
+        "material"
+      ]
     },
     "created": "2026-03-29T21:20:44Z",
-    "modified": "2026-03-29T21:20:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

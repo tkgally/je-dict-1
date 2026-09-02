@@ -17,7 +17,9 @@
       "id": "26363_ruumuwea_ex1",
       "japanese": "ルームウェアに{着替|きが}えた。",
       "english": "I changed into my loungewear.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26363_ruumuwea_ex2",
       "japanese": "{家|いえ}に{帰|かえ}ったらすぐルームウェアに{着替|きが}える。",
       "english": "As soon as I get home, I change into loungewear.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,51 @@
       "id": "26363_ruumuwea_ex3",
       "japanese": "このルームウェアはもこもこで{暖|あたた}かくて、{冬|ふゆ}に{重宝|ちょうほう}している。",
       "english": "This loungewear is fluffy and warm — I find it really handy in winter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A wasei-eigo compound (English \"room\" + \"wear\") that has no direct equivalent in English fashion terminology, though \"loungewear\" is the closest match. In English-speaking countries, the concept overlaps with \"lounge clothes\" or \"athleisure.\"\n\nThe distinction matters in Japanese retail: ルームウェア is a well-established product category in clothing stores and online shops, separate from パジャマ (pajamas/sleepwear) and {部屋着|へやぎ} (house clothes).\n\nCOMMON COLLOCATIONS:\n- ルームウェアに{着替|きが}える: to change into loungewear\n- もこもこルームウェア: fluffy loungewear\n- ルームウェア{売|う}り{場|ば}: loungewear section (in a store)\n- おしゃれなルームウェア: stylish loungewear\n\nSIMILAR WORDS:\n- パジャマ: pajamas — specifically for sleeping\n- {部屋着|へやぎ}: house clothes — more casual, can include old or worn clothes\n- ナイトウェア: nightwear — sleepwear, closer to pajamas\n- {寝巻|ねま}き: nightclothes — traditional Japanese term",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04516_pajama",
+      "reading": "ぱじゃま",
+      "headword": "パジャマ",
+      "label": "pajamas"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19686_heyagi",
+      "reading": "へやぎ",
+      "headword": "{部屋着|へやぎ}",
+      "label": "house clothes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26374_naitowea",
+      "reading": "ないとうぇあ",
+      "headword": "ナイトウェア",
+      "label": "nightwear"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["clothing", "daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "clothing",
+        "daily-life"
+      ]
     },
     "created": "2026-05-01T12:39:29Z",
-    "modified": "2026-05-01T12:39:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {年|ねん} (year), {月|がつ} (month), and {日|ひ} (day). Very common on Japanese forms and official documents. In Japanese date format, the order is always year → month → day.\n\nCOMMON COLLOCATIONS:\n- {年月日|ねんがっぴ}を{記入|きにゅう}する: to fill in the date\n- {生年月日|せいねんがっぴ}: date of birth\n- {発行|はっこう}{年月日|ねんがっぴ}: date of issue\n- {届出|とどけで}{年月日|ねんがっぴ}: date of notification\n\nCULTURAL NOTE:\nJapanese official documents traditionally use the Japanese era system ({和暦|われき}) for dates (e.g., {令和|れいわ}8{年|ねん}), though Western calendar dates ({西暦|せいれき}) are also widely accepted. The {生年月日|せいねんがっぴ} field appears on nearly every official form in Japan.\n\nRELATED TERMS:\n- {日付|ひづけ}: date — more general and conversational\n- {日時|にちじ}: date and time",
-  "cross_references": [],
+  "notes": "A compound of {年|ねん} (year), {月|がつ} (month), and {日|ひ} (day). Very common on Japanese forms and official documents. In Japanese date format, the order is always year → month → day.\n\nCOMMON COLLOCATIONS:\n- {年月日|ねんがっぴ}を{記入|きにゅう}する: to fill in the date\n- {生年月日|せいねんがっぴ}: date of birth\n- {発行|はっこう}{年月日|ねんがっぴ}: date of issue\n- {届出|とどけで}{年月日|ねんがっぴ}: date of notification\n\nCULTURAL NOTE:\nJapanese official documents traditionally use the Japanese era system ({和暦|われき}) for dates (e.g., {令和|れいわ}8{年|ねん}), though Western calendar dates ({西暦|せいれき}) are also widely accepted. The {生年月日|せいねんがっぴ} field appears on nearly every official form in Japan.\n\nRELATED WORDS:\n- {日付|ひづけ}: date — more general and conversational\n- {日時|にちじ}: date and time",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03706_hizuke",
+      "reading": "ひづけ",
+      "headword": "{日付|ひづけ}",
+      "label": "date"
+    },
+    {
+      "type": "related",
+      "target_id": "00316_nichiji",
+      "reading": "にちじ",
+      "headword": "{日時|にちじ}",
+      "label": "date and time"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "time",
         "daily-life"
       ]
     },
     "created": "2026-04-27T12:16:30Z",
-    "modified": "2026-06-16T12:23:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

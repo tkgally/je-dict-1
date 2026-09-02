@@ -19,7 +19,9 @@
       "english": "I saw a concert at an arena.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10708_ariina_ex2",
@@ -27,7 +29,9 @@
       "english": "I won tickets for arena floor seats.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10708_ariina_ex3",
@@ -35,21 +39,43 @@
       "english": "Next month, that popular band will hold their final tour performance at an arena that holds ten thousand people.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nIn Japanese concert terminology, アリーナ has two meanings: the venue itself (an arena), and the floor-level area in front of the stage (アリーナ{席|せき}). Getting アリーナ{席|せき} is considered a lucky draw because of the proximity to the performers.\n\nCONCERT VENUE HIERARCHY:\nJapanese concerts are categorized by venue size:\n- ライブハウス: small live house (hundreds)\n- ホール: concert hall (thousands)\n- アリーナ: arena (5,000-20,000)\n- ドーム: dome stadium (30,000+)\n\nCOMMON COLLOCATIONS:\n- アリーナ{席|せき}: arena floor seats\n- アリーナツアー: arena tour\n- アリーナ{公演|こうえん}: arena performance",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23905_sutajiamu",
+      "reading": "すたじあむ",
+      "headword": "スタジアム",
+      "label": "stadium (sports venue)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24058_doomu",
+      "reading": "どーむ",
+      "headword": "ドーム",
+      "label": "dome (architectural or stadium)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-09T07:23:05Z",
-    "modified": "2026-02-09T07:23:05Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building", "leisure"]
+      "semantic": [
+        "building",
+        "leisure"
+      ]
     }
   }
 }

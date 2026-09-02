@@ -19,7 +19,9 @@
       "english": "Apparently so-and-so is coming.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18570_daredare_ex2",
@@ -27,7 +29,9 @@
       "english": "Let's decide who will be in charge of what.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18570_daredare_ex3",
@@ -35,21 +39,42 @@
       "english": "Please tell me exactly who will be participating.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{誰々|だれだれ} is a reduplicated form of {誰|だれ}, used as a placeholder when you don't want to name specific people or when referring to unspecified individuals.\n\nUSAGE:\nAppears when listing people without naming them, when relaying information vaguely, or when talking about hypothetical situations. Often followed by さん for politeness.\n\nCOMMON PATTERNS:\n- {誰々|だれだれ}さんが{来|く}る (so-and-so is coming)\n- {誰々|だれだれ}と{誰々|だれだれ} (this person and that person)\n- {誰々|だれだれ}が{何|なに}を〜 (who does what)\n\nRELATED REDUPLICATION PATTERNS:\nJapanese question words can be reduplicated to create \"such-and-such\" placeholders:\n- {何々|なになに}: such-and-such (thing)\n- どこどこ: such-and-such (place)\n- いついつ: such-and-such (time)\n- {何時|なんじ}{何時|なんじ}: such-and-such (time/hour)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04011_naninani",
+      "reading": "なになに",
+      "headword": "{何々|なになに}",
+      "label": "what"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29171_dokodoko",
+      "reading": "どこどこ",
+      "headword": "どこどこ",
+      "label": "such-and-such a place"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T08:59:10Z",
-    "modified": "2026-04-07T02:46:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["pronoun"],
+      "pos": [
+        "pronoun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"],
+      "semantic": [
+        "person"
+      ],
       "domain": []
     }
   }

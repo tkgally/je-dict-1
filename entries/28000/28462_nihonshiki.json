@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {日本|にほん} (Japan) + the suffix {式|しき} (style, system). Often interchangeable with {和式|わしき}, though {和式|わしき} is more common for everyday physical items (especially {和式|わしき}トイレ) and {日本式|にほんしき} is more common for abstract systems (management, education, romanization).\n\nGRAMMAR:\n- As a noun modifier: {日本式|にほんしき}の + noun\n- As a predicate: {日本式|にほんしき}だ / です\n\nSIMILAR WORDS:\n- {和式|わしき}: Japanese-style — more common for physical objects/facilities\n- {日本|にほん}{風|ふう}: Japanese in feel — softer; a Japanese-like atmosphere or flavor",
+  "notes": "Compound of {日本|にほん} (Japan) + the suffix {式|しき} (style, system). Often interchangeable with {和式|わしき}, though {和式|わしき} is more common for everyday physical items (especially {和式|わしき}トイレ) and {日本式|にほんしき} is more common for abstract systems (management, education, romanization).\n\nCOMMON PATTERNS:\n- As a noun modifier: {日本式|にほんしき}の + noun\n- As a predicate: {日本式|にほんしき}だ / です\n\nSIMILAR WORDS:\n- {和式|わしき}: Japanese-style — more common for physical objects/facilities\n- {日本|にほん}{風|ふう}: Japanese in feel — softer; a Japanese-like atmosphere or flavor",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23138_washiki",
+      "reading": "わしき",
+      "headword": "{和式|わしき}",
+      "label": "Japanese-style"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26055_nihonfuu",
+      "reading": "にほんふう",
+      "headword": "{日本風|にほんふう}",
+      "label": "Japanese in feel"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "culture",
         "descriptive"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-05-31T03:09:05Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

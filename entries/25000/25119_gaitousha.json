@@ -46,18 +46,35 @@
   ],
   "notes": "Combines {該当|がいとう} (applicable, corresponding) and {者|しゃ} (person). A formal, administrative term frequently seen on forms, in official announcements, and in workplace communications. Often used when describing who is eligible for benefits, subject to regulations, or included in a particular category.\n\nCOMMON COLLOCATIONS:\n- {該当者|がいとうしゃ}なし: no applicable person; nobody qualifies\n- {該当者|がいとうしゃ}がいる: there is someone who qualifies\n- {該当者|がいとうしゃ}を{選|えら}ぶ: to select the eligible persons\n- {該当者|がいとうしゃ}{全員|ぜんいん}: all persons concerned\n\nSIMILAR WORDS:\n- {対象者|たいしょうしゃ}: target person; subject — someone targeted by a program or action\n- {関係者|かんけいしゃ}: person involved; stakeholder — someone connected to a matter, broader than {該当者|がいとうしゃ}\n- {有資格者|ゆうしかくしゃ}: qualified person — someone holding a specific certification or license",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16441_kankeisha",
+      "reading": "かんけいしゃ",
+      "headword": "{関係者|かんけいしゃ}",
+      "label": "person involved"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26788_tounin",
+      "reading": "とうにん",
+      "headword": "{当人|とうにん}",
+      "label": "the person in question"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "person",
         "society"
       ]
     },
     "created": "2026-04-23T11:22:45Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "I submitted the notification at the town hall.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13579_machiyakuba_ex2",
@@ -27,7 +29,9 @@
       "english": "You can process your move-in registration at the town hall counter.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13579_machiyakuba_ex3",
@@ -35,21 +39,50 @@
       "english": "The new town hall building was completed in front of the station, making things more convenient for residents.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed for municipalities classified as {町|まち}. Larger municipalities classified as {市|し} use {市役所|しやくしょ} (city hall), while villages use {村役場|むらやくば} (village office). In Japanese administrative structure, {町|まち} falls between {市|し} (city) and {村|むら} (village).\n\nCOMMON COLLOCATIONS:\n- {町役場|まちやくば}の{窓口|まどぐち}: town hall counter\n- {町役場|まちやくば}に{届|とど}けを{出|だ}す: file a notification at the town hall\n- {町役場|まちやくば}の{職員|しょくいん}: town hall staff",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03067_shiyakusho",
+      "reading": "しやくしょ",
+      "headword": "{市役所|しやくしょ}",
+      "label": "city hall, municipal office"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21563_kuyakusho",
+      "reading": "くやくしょ",
+      "headword": "{区役所|くやくしょ}",
+      "label": "ward office"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24018_murayakuba",
+      "reading": "むらやくば",
+      "headword": "{村役場|むらやくば}",
+      "label": "village office"
+    }
+  ],
   "metadata": {
     "created": "2026-02-26T09:44:45Z",
-    "modified": "2026-02-26T09:44:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building", "general"]
+      "semantic": [
+        "building",
+        "general"
+      ]
     }
   }
 }

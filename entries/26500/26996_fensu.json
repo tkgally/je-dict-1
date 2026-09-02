@@ -17,7 +17,9 @@
       "id": "26996_fensu_ex1",
       "japanese": "{学校|がっこう}の{周|まわ}りにフェンスがある。",
       "english": "There is a fence around the school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26996_fensu_ex2",
       "japanese": "ボールがフェンスを{越|こ}えて{隣|となり}の{家|いえ}に{入|はい}ってしまった。",
       "english": "The ball went over the fence and into the neighbor's yard.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,73 @@
       "id": "26996_fensu_ex3",
       "japanese": "{工事現場|こうじげんば}の{周囲|しゅうい}に{安全|あんぜん}フェンスが{設置|せっち}されている。",
       "english": "Safety fences have been set up around the construction site.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"fence.\" In Japanese, フェンス typically refers to metal or wire fences (chain-link, mesh, etc.), especially around schools, parks, sports fields, and construction sites. Wooden fences are more commonly called {柵|さく} or {塀|へい}.\n\nCOMMON COLLOCATIONS:\n- フェンスを{越|こ}える: to go over a fence\n- {金網|かなあみ}フェンス: wire mesh fence\n- {安全|あんぜん}フェンス: safety fence\n- フェンス{沿|ぞ}い: along the fence\n- {外野|がいや}フェンス: outfield fence (baseball)\n\nSIMILAR WORDS:\n- {柵|さく}: fence; railing — general term, often wooden or metal bars\n- {塀|へい}: wall; fence — a solid wall-like barrier, often made of concrete or wood\n- {垣根|かきね}: hedge; fence — a natural or low fence, often between properties",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13103_saku",
+      "reading": "さく",
+      "headword": "{柵|さく}",
+      "label": "fence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03613_hei",
+      "reading": "へい",
+      "headword": "{塀|へい}",
+      "label": "wall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00149_kakine",
+      "reading": "かきね",
+      "headword": "{垣根|かきね}",
+      "label": "hedge"
+    },
+    {
+      "type": "related",
+      "target_id": "16436_kanaami",
+      "reading": "かなあみ",
+      "headword": "{金網|かなあみ}",
+      "label": "wire mesh"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28373_burokkubei",
+      "reading": "ぶろっくべい",
+      "headword": "ブロック{塀|べい}",
+      "label": "concrete block wall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30202_anzensaku",
+      "reading": "あんぜんさく",
+      "headword": "安全柵",
+      "label": "safety fence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building", "general"]
+      "semantic": [
+        "building",
+        "general"
+      ]
     },
     "created": "2026-05-06T13:11:25Z",
-    "modified": "2026-05-06T13:11:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

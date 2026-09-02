@@ -19,7 +19,9 @@
       "english": "Kyoto is a famous tourist destination.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14163_kankouchi_ex2",
@@ -27,7 +29,9 @@
       "english": "Tourist spots get crowded on holidays.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14163_kankouchi_ex3",
@@ -35,7 +39,9 @@
       "english": "There are plans to develop this area as a new tourist destination.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{観光地|かんこうち} is a general term for any tourist destination, from natural scenic areas to historical sites and theme parks. It combines {観光|かんこう} (sightseeing, tourism) with {地|ち} (place). Related words include {景勝地|けいしょうち} (scenic spot) and {名所|めいしょ} (famous place/attraction).\n\nCOMMON COLLOCATIONS:\n- {有名|ゆうめい}な{観光地|かんこうち}: famous tourist spot\n- {人気|にんき}の{観光地|かんこうち}: popular tourist destination\n- {観光地|かんこうち}を{巡|めぐ}る: to tour tourist spots\n- {観光地|かんこうち}として{知|し}られる: to be known as a tourist destination",
@@ -46,18 +52,50 @@
       "reading": "かんこう",
       "headword": "{観光|かんこう}",
       "label": "sightseeing, tourism"
+    },
+    {
+      "type": "related",
+      "target_id": "03022_kankoukyaku",
+      "reading": "かんこうきゃく",
+      "headword": "{観光客|かんこうきゃく}",
+      "label": "tourist, sightseer"
+    },
+    {
+      "type": "related",
+      "target_id": "08164_meisho",
+      "reading": "めいしょ",
+      "headword": "{名所|めいしょ}",
+      "label": "famous place"
+    },
+    {
+      "type": "related",
+      "target_id": "20675_kankouannai",
+      "reading": "かんこうあんない",
+      "headword": "{観光案内|かんこうあんない}",
+      "label": "tourist information"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28062_teemapaaku",
+      "reading": "てーまぱーく",
+      "headword": "テーマパーク",
+      "label": "theme park"
     }
   ],
   "metadata": {
     "created": "2026-02-28T01:51:02Z",
-    "modified": "2026-04-30T04:29:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

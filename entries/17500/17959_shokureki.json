@@ -19,7 +19,9 @@
       "english": "I wrote my work history on my resume.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17959_shokureki_ex2",
@@ -27,7 +29,9 @@
       "english": "It's hard to find a job without work experience.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17959_shokureki_ex3",
@@ -35,7 +39,9 @@
       "english": "In interviews, you are often asked in detail about your work history.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nPrimarily used in job-hunting and HR contexts. On Japanese resumes ({履歴書|りれきしょ}), there is a dedicated section for {職歴|しょくれき} where applicants list their previous employers in chronological order.\n\nCOMMON COLLOCATIONS:\n- {職歴|しょくれき}を{書|か}く (write one's work history)\n- {職歴|しょくれき}{欄|らん} (work history section on a form)\n- {職歴|しょくれき}なし (no work experience)\n- {豊富|ほうふ}な{職歴|しょくれき} (extensive work history)\n\nSIMILAR WORDS:\n- {学歴|がくれき}: educational background — the academic counterpart, often paired with {職歴|しょくれき} on resumes\n- {経歴|けいれき}: career background — broader term covering both education and work, or general life history\n- {実務経験|じつむけいけん}: practical experience — focuses on hands-on skills gained through work",
@@ -46,18 +52,36 @@
       "reading": "がくれき",
       "headword": "{学歴|がくれき}",
       "label": "educational background"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13795_keireki",
+      "reading": "けいれき",
+      "headword": "{経歴|けいれき}",
+      "label": "career background"
+    },
+    {
+      "type": "related",
+      "target_id": "19429_byoureki",
+      "reading": "びょうれき",
+      "headword": "{病歴|びょうれき}",
+      "label": "medical history"
     }
   ],
   "metadata": {
     "created": "2026-03-19T10:01:12Z",
-    "modified": "2026-05-07T10:07:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

@@ -18,7 +18,9 @@
       "english": "To buy at a local store.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09941_jimoto_ex2",
@@ -26,7 +28,9 @@
       "english": "I want to go back to my hometown.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09941_jimoto_ex3",
@@ -34,10 +38,12 @@
       "english": "I go to the local market on weekends.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{地元|じもと} means one's local area — the place where you live, grew up, or have roots. Flexible in scope: it can mean your neighborhood, town, or home region depending on context.\n\nCOMMON COLLOCATIONS:\n- {地元|じもと}の{人|ひと}: local person, local resident\n- {地元|じもと}{産|さん}: locally produced\n- {地元|じもと}{企業|きぎょう}: local business/company\n- {地元|じもと}{料理|りょうり}: local cuisine\n- {地元|じもと}に{帰|かえ}る/{戻|もど}る: to go back to one's hometown\n\nCONTRAST:\n- {地元|じもと}: one's local area (subjective, personal connection)\n- {地域|ちいき}: region, area (objective, geographic)\n- {出身|しゅっしん}: hometown/origin (formal, used for self-introductions)\n- {故郷|ふるさと}/{故郷|こきょう}: hometown (literary/nostalgic tone)",
+  "notes": "{地元|じもと} means one's local area — the place where you live, grew up, or have roots. Flexible in scope: it can mean your neighborhood, town, or home region depending on context.\n\nCOMMON COLLOCATIONS:\n- {地元|じもと}の{人|ひと}: local person, local resident\n- {地元|じもと}{産|さん}: locally produced\n- {地元|じもと}{企業|きぎょう}: local business/company\n- {地元|じもと}{料理|りょうり}: local cuisine\n- {地元|じもと}に{帰|かえ}る/{戻|もど}る: to go back to one's hometown\n\nSIMILAR WORDS:\n- {地元|じもと}: one's local area (subjective, personal connection)\n- {地域|ちいき}: region, area (objective, geographic)\n- {出身|しゅっしん}: hometown/origin (formal, used for self-introductions)\n- {故郷|ふるさと}/{故郷|こきょう}: hometown (literary/nostalgic tone)",
   "cross_references": [
     {
       "type": "contrast",
@@ -52,18 +58,57 @@
       "reading": "しゅっしん",
       "headword": "{出身|しゅっしん}",
       "label": "hometown/origin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25466_furusato",
+      "reading": "ふるさと",
+      "headword": "{故郷|ふるさと}",
+      "label": "hometown"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02733_kokyou",
+      "reading": "こきょう",
+      "headword": "{故郷|こきょう}",
+      "label": "hometown"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13561_chounai",
+      "reading": "ちょうない",
+      "headword": "{町内|ちょうない}",
+      "label": "neighborhood, within the town"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18863_kyouri",
+      "reading": "きょうり",
+      "headword": "{郷里|きょうり}",
+      "label": "hometown"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19848_jiba",
+      "reading": "じば",
+      "headword": "{地場|じば}",
+      "label": "local, regional, locally-based"
     }
   ],
   "metadata": {
     "created": "2026-02-04T10:52:33Z",
-    "modified": "2026-04-23T08:17:03Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

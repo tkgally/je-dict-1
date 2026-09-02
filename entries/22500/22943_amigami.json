@@ -17,7 +17,9 @@
       "id": "22943_amigami_ex1",
       "japanese": "{彼女|かのじょ}は{編|あ}み{髪|がみ}が{似合|にあ}う。",
       "english": "Braided hair suits her.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22943_amigami_ex2",
       "japanese": "{娘|むすめ}の{髪|かみ}を{編|あ}み{髪|がみ}にしてあげた。",
       "english": "I braided my daughter's hair for her.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,44 @@
       "id": "22943_amigami_ex3",
       "japanese": "{結婚式|けっこんしき}のために{美容院|びよういん}で{編|あ}み{髪|がみ}のヘアアレンジをしてもらった。",
       "english": "I had a braided hairstyle done at the salon for the wedding.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {編|あ}み (braiding, from {編|あ}む to braid/knit) and {髪|かみ} (hair), with rendaku changing かみ to がみ. A general term for any braided hairstyle.\n\nCOMMON COLLOCATIONS:\n- {編|あ}み{髪|がみ}にする: to braid one's hair\n- {編|あ}み{髪|がみ}をほどく: to undo a braid\n- {編|あ}み{髪|がみ}アレンジ: braided hair arrangement\n\nTYPES OF BRAIDS:\n- {三|み}つ{編|あ}み: three-strand braid (the most common type)\n- {二|ふた}つ{編|あ}み: twin braids, pigtails\n- フィッシュボーン: fishtail braid\n- フレンチブレイド: French braid\n\nRELATED TERMS:\n- {三|み}つ{編|あ}み: three-strand braid — the specific basic braid technique\n- おさげ: pigtails, braids hanging down — often associated with schoolgirls\n- {編|あ}み{込|こ}み: cornrows, braids woven close to the scalp",
+  "notes": "A compound of {編|あ}み (braiding, from {編|あ}む to braid/knit) and {髪|かみ} (hair), with rendaku changing かみ to がみ. A general term for any braided hairstyle.\n\nCOMMON COLLOCATIONS:\n- {編|あ}み{髪|がみ}にする: to braid one's hair\n- {編|あ}み{髪|がみ}をほどく: to undo a braid\n- {編|あ}み{髪|がみ}アレンジ: braided hair arrangement\n\nTYPES OF BRAIDS:\n- {三|み}つ{編|あ}み: three-strand braid (the most common type)\n- {二|ふた}つ{編|あ}み: twin braids, pigtails\n- フィッシュボーン: fishtail braid\n- フレンチブレイド: French braid\n\nRELATED WORDS:\n- {三|み}つ{編|あ}み: three-strand braid — the specific basic braid technique\n- おさげ: pigtails, braids hanging down — often associated with schoolgirls\n- {編|あ}み{込|こ}み: cornrows, braids woven close to the scalp",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18439_mitsuami",
+      "reading": "みつあみ",
+      "headword": "{三|み}つ{編|あ}み",
+      "label": "three-strand braid"
+    },
+    {
+      "type": "related",
+      "target_id": "20771_osage",
+      "reading": "おさげ",
+      "headword": "おさげ",
+      "label": "pigtails, braids hanging down"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
-      "semantic": ["appearance"],
+      "politeness": "plain",
+      "semantic": [
+        "appearance"
+      ],
       "formality": "neutral"
     },
     "created": "2026-04-08T07:45:41Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

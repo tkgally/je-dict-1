@@ -3,7 +3,7 @@
   "headword": "{模写|もしゃ}",
   "reading": "もしゃ",
   "romaji": "mosha",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "copying; reproduction; tracing",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,50 @@
   ],
   "notes": "Refers to the practice of carefully reproducing existing artwork or text by hand. In art education, {模写|もしゃ} is considered a legitimate and important method of learning technique. The word does not carry a negative connotation of plagiarism — it implies study and practice.\n\nCOMMON COLLOCATIONS:\n- {模写|もしゃ}する — to copy, to reproduce\n- {名画|めいが}の{模写|もしゃ} — reproduction of a masterpiece\n- {模写|もしゃ}{作品|さくひん} — a copied/reproduced work\n- {忠実|ちゅうじつ}に{模写|もしゃ}する — to faithfully reproduce\n\nSIMILAR WORDS:\n- {複写|ふくしゃ} — copying, duplication; mechanical reproduction (e.g., photocopying), not hand-copying\n- {写生|しゃせい} — sketching from life; drawing from a real scene or object, not from another artwork\n- {模倣|もほう} — imitation; broader concept of imitating style or method, not just visual copying\n- {臨書|りんしょ} — copying calligraphy; specifically for practicing calligraphy by copying a model",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19000_fukusha",
+      "reading": "ふくしゃ",
+      "headword": "{複写|ふくしゃ}",
+      "label": "copying, duplication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04196_shasei",
+      "reading": "しゃせい",
+      "headword": "{写生|しゃせい}",
+      "label": "sketching from life"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15752_mohou",
+      "reading": "もほう",
+      "headword": "{模倣|もほう}",
+      "label": "imitation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20733_kakiutsusu",
+      "reading": "かきうつす",
+      "headword": "{書|か}き{写|うつ}す",
+      "label": "to copy down"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21626_fukushasuru",
+      "reading": "ふくしゃする",
+      "headword": "{複写|ふくしゃ}する",
+      "label": "to copy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25364_mohousuru",
+      "reading": "もほうする",
+      "headword": "{模倣|もほう}する",
+      "label": "to imitate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -154,6 +198,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-26T01:21:23Z",
-    "modified": "2026-03-26T01:21:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

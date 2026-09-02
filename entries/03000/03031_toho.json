@@ -63,11 +63,26 @@
       ]
     }
   ],
-  "notes": "{徒歩|とほ} means traveling on foot (without a vehicle).\n\nCOMMON PATTERNS:\n- {徒歩|とほ}⟦で→で：00502_de⟧⟦{行|い}く→行く：00119_iku⟧ (go on foot)\n- {徒歩|とほ}〜⟦{分|ふん}→分：00928_fun⟧ (~ minutes on foot)\n- {徒歩|とほ}⟦{圏内|けんない}→圏内：16392_kennai⟧ (within walking distance)\n- ⟦{駅|えき}→駅：02180_eki⟧⟦から→から：00504_kara⟧{徒歩|とほ}5⟦{分|ふん}→分：00928_fun⟧ (5-minute walk from station)\n\nReal estate listings commonly use {徒歩|とほ}〜⟦{分|ふん}→分：00928_fun⟧ to indicate distance from stations.\n\nRELATED:\n- ⟦{歩|ある}いて→歩く：00538_aruku⟧: on foot (casual)\n- ⟦{歩行|ほこう}→歩行：21865_hokou⟧: walking (formal/technical)",
-  "cross_references": [],
+  "notes": "{徒歩|とほ} means traveling on foot (without a vehicle).\n\nCOMMON PATTERNS:\n- {徒歩|とほ}⟦で→で：00502_de⟧⟦{行|い}く→行く：00119_iku⟧ (go on foot)\n- {徒歩|とほ}〜⟦{分|ふん}→分：00928_fun⟧ (~ minutes on foot)\n- {徒歩|とほ}⟦{圏内|けんない}→圏内：16392_kennai⟧ (within walking distance)\n- ⟦{駅|えき}→駅：02180_eki⟧⟦から→から：00504_kara⟧{徒歩|とほ}5⟦{分|ふん}→分：00928_fun⟧ (5-minute walk from station)\n\nReal estate listings commonly use {徒歩|とほ}〜⟦{分|ふん}→分：00928_fun⟧ to indicate distance from stations.\n\nRELATED WORDS:\n- ⟦{歩|ある}いて→歩く：00538_aruku⟧: on foot (casual)\n- ⟦{歩行|ほこう}→歩行：21865_hokou⟧: walking (formal/technical)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00538_aruku",
+      "reading": "あるく",
+      "headword": "{歩|ある}く",
+      "label": "on foot"
+    },
+    {
+      "type": "related",
+      "target_id": "21865_hokou",
+      "reading": "ほこう",
+      "headword": "{歩行|ほこう}",
+      "label": "walking"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-05-23T15:11:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

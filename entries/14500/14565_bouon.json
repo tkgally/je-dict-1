@@ -19,7 +19,9 @@
       "english": "This room has good soundproofing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14565_bouon_ex2",
@@ -27,7 +29,9 @@
       "english": "I practice piano in a soundproofed room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14565_bouon_ex3",
@@ -35,21 +39,77 @@
       "english": "When choosing an apartment, you should always check the soundproofing performance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Functions primarily as a noun modifier with の, forming compounds like {防音|ぼうおん}{室|しつ} (soundproof room). Very practical vocabulary for apartment-hunting in Japan, where noise between units is a common concern.\n\nCOMMON COLLOCATIONS:\n- {防音|ぼうおん}{室|しつ} (soundproof room)\n- {防音|ぼうおん}{壁|かべ} (soundproof wall)\n- {防音|ぼうおん}{材|ざい} (soundproofing material)\n- {防音|ぼうおん}{性能|せいのう} (soundproofing performance)\n- {防音|ぼうおん}{工事|こうじ} (soundproofing construction work)\n\nRELATED WORDS:\n- {遮音|しゃおん} — sound blocking (technical; blocking sound transmission)\n- {吸音|きゅうおん} — sound absorption (absorbing sound within a room)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19182_shaon",
+      "reading": "しゃおん",
+      "headword": "{遮音|しゃおん}",
+      "label": "sound blocking (technical"
+    },
+    {
+      "type": "related",
+      "target_id": "19206_kyuuon",
+      "reading": "きゅうおん",
+      "headword": "{吸音|きゅうおん}",
+      "label": "sound absorption"
+    },
+    {
+      "type": "related",
+      "target_id": "06427_dannetsu",
+      "reading": "だんねつ",
+      "headword": "{断熱|だんねつ}",
+      "label": "insulation, thermal insulation"
+    },
+    {
+      "type": "related",
+      "target_id": "19505_otomore",
+      "reading": "おともれ",
+      "headword": "{音漏|おとも}れ",
+      "label": "sound leakage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21005_shouon",
+      "reading": "しょうおん",
+      "headword": "{消音|しょうおん}",
+      "label": "mute"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21098_seion",
+      "reading": "せいおん",
+      "headword": "{静音|せいおん}",
+      "label": "silent operation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26447_zatsuonjokyo",
+      "reading": "ざつおんじょきょ",
+      "headword": "{雑音|ざつおん}{除去|じょきょ}",
+      "label": "noise removal"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T07:14:39Z",
-    "modified": "2026-03-02T07:14:39Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

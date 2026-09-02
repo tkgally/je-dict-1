@@ -17,7 +17,9 @@
       "id": "26025_tezukurikan_ex1",
       "japanese": "{手作|てづく}り{感|かん}のあるケーキだ。",
       "english": "It's a cake with a homemade feel.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26025_tezukurikan_ex2",
       "japanese": "このウェブサイトは{手作|てづく}り{感|かん}が{強|つよ}い。",
       "english": "This website has a strong DIY feel to it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26025_tezukurikan_ex3",
       "japanese": "{手作|てづく}り{感|かん}のある{温|あたた}かい{雰囲気|ふんいき}の{店|みせ}だった。",
       "english": "It was a shop with a warm, handmade atmosphere.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {手作|てづく}り (handmade) + {感|かん} (feeling; sense). The {感|かん} suffix is highly productive in Japanese and attaches to many words to mean \"a sense of ~.\" Whether the handmade feel is positive or negative depends on context — for food or crafts it is usually charming, while for websites or presentations it can imply a lack of polish.\n\nCOMMON COLLOCATIONS:\n- {手作|てづく}り{感|かん}がある: to have a handmade feel\n- {手作|てづく}り{感|かん}が{強|つよ}い: to have a strong homemade quality\n- {手作|てづく}り{感|かん}を{出|だ}す: to give something a handmade touch\n- {手作|てづく}り{感|かん}{満載|まんさい}: full of handmade charm\n\nSIMILAR WORDS:\n- {手作|てづく}り: handmade — the base word describing something actually made by hand\n- {素朴|そぼく}な: rustic; simple — describes a plain, unadorned quality\n- {温|あたた}かみ: warmth — a broader term for human warmth or coziness",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06071_soboku",
+      "reading": "そぼく",
+      "headword": "{素朴|そぼく}",
+      "label": "rustic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25336_atatakami",
+      "reading": "あたたかみ",
+      "headword": "{温|あたた}かみ",
+      "label": "warmth"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["evaluation", "daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "evaluation",
+        "daily-life"
+      ]
     },
     "created": "2026-04-28T16:15:37Z",
-    "modified": "2026-04-28T16:15:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -24,7 +24,9 @@
       "english": "How much is the computer unit itself?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13033_hontai_ex2",
@@ -32,7 +34,9 @@
       "english": "The lens is not included with the camera body.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13033_hontai_ex3",
@@ -40,7 +44,9 @@
       "english": "The base price is displayed excluding tax.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13033_hontai_ex4",
@@ -48,7 +54,9 @@
       "english": "Where is the enemy's true form?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13033_hontai_ex5",
@@ -56,7 +64,9 @@
       "english": "The true nature of the case is still not visible.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13033_hontai_ex6",
@@ -64,21 +74,42 @@
       "english": "That robot's main body is hidden in an underground laboratory.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "Compound of {本|ほん} (main, true) + {体|たい} (body). Has two distinct uses: the physical main unit of a product, and the philosophical/narrative sense of \"true form.\"\n\nSENSE 1 (main unit):\nThe more common everyday usage. In commerce, {本体|ほんたい}{価格|かかく} means the base price before tax.\n\nCOMMON COLLOCATIONS:\n- {本体|ほんたい}{価格|かかく}: base price (before tax)\n- パソコン{本体|ほんたい}: computer main unit\n- カメラ{本体|ほんたい}: camera body\n- ゲーム{機|き}{本体|ほんたい}: game console unit\n- {本体|ほんたい}のみ: main unit only\n\nSENSE 2 (true form):\nMore literary. Appears in fiction, philosophy, and Buddhism to refer to something's essential nature or real identity.\n\nSIMILAR WORDS:\n- {本質|ほんしつ}: essence (more abstract)\n- {実体|じったい}: substance, entity",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04810_honshitsu",
+      "reading": "ほんしつ",
+      "headword": "{本質|ほんしつ}",
+      "label": "essence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12471_jittai",
+      "reading": "じったい",
+      "headword": "{実体|じったい}",
+      "label": "substance, entity"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T06:36:38Z",
-    "modified": "2026-03-31T03:18:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }

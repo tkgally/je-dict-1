@@ -22,7 +22,9 @@
       "id": "25975_shougekiwoukeru_ex1",
       "japanese": "そのニュースに{衝撃|しょうげき}を{受|う}けた。",
       "english": "I was shocked by the news.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "25975_shougekiwoukeru_ex2",
       "japanese": "{初|はじ}めて{海外|かいがい}に{行|い}った{時|とき}、{文化|ぶんか}の{違|ちが}いに{衝撃|しょうげき}を{受|う}けた。",
       "english": "When I went abroad for the first time, I was shocked by the cultural differences.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "25975_shougekiwoukeru_ex3",
       "japanese": "{尊敬|そんけい}していた{先輩|せんぱい}の{突然|とつぜん}の{退職|たいしょく}に、{職場|しょくば}{全体|ぜんたい}が{衝撃|しょうげき}を{受|う}けた。",
       "english": "The entire workplace was shocked by the sudden resignation of the senior colleague they admired.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "25975_shougekiwoukeru_ex4",
       "japanese": "{頭|あたま}に{衝撃|しょうげき}を{受|う}けた。",
       "english": "I received a blow to the head.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "25975_shougekiwoukeru_ex5",
       "japanese": "{建物|たてもの}は{地震|じしん}の{衝撃|しょうげき}を{受|う}けて{壁|かべ}にひびが{入|はい}った。",
       "english": "The building received the impact of the earthquake and cracks appeared in the walls.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,21 +72,43 @@
       "id": "25975_shougekiwoukeru_ex6",
       "japanese": "{強|つよ}い{衝撃|しょうげき}を{受|う}けると{壊|こわ}れるおそれがありますので、{丁寧|ていねい}にお{取|と}り{扱|あつか}いください。",
       "english": "It may break if subjected to a strong impact, so please handle with care.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A common expression combining {衝撃|しょうげき} (shock; impact) and {受|う}ける (to receive). The emotional sense (sense 1) is far more common in everyday conversation than the physical sense (sense 2). When used emotionally, it describes a strong, sudden reaction — stronger than {驚|おどろ}く (to be surprised) but not necessarily negative.\n\nCOMMON COLLOCATIONS:\n- {大|おお}きな{衝撃|しょうげき}を{受|う}ける: to receive a big shock\n- ～に{衝撃|しょうげき}を{受|う}ける: to be shocked by ~\n- {強|つよ}い{衝撃|しょうげき}を{受|う}ける: to receive a strong impact\n- カルチャーショックを{受|う}ける: to experience culture shock\n\nSIMILAR WORDS:\n- ショックを{受|う}ける: to be shocked — casual equivalent using the loanword\n- {驚|おどろ}く: to be surprised — milder, does not necessarily imply emotional distress\n- {愕然|がくぜん}とする: to be stunned — literary, emphasizes being rendered speechless",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01255_odoroku",
+      "reading": "おどろく",
+      "headword": "{驚|おどろ}く",
+      "label": "to be surprised"
+    },
+    {
+      "type": "related",
+      "target_id": "06829_shougekiteki",
+      "reading": "しょうげきてき",
+      "headword": "{衝撃的|しょうげきてき}",
+      "label": "shocking, sensational"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
-      "semantic": ["emotion"]
+      "pos": [
+        "expression"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "emotion"
+      ]
     },
     "created": "2026-04-28T14:13:55Z",
-    "modified": "2026-04-28T14:13:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

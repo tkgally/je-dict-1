@@ -19,7 +19,9 @@
       "english": "These shoes are unused but second-hand.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18896_shinkohin_ex2",
@@ -27,7 +29,9 @@
       "english": "If it's a like-new item, you can buy it cheaper than new.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18896_shinkohin_ex3",
@@ -35,21 +39,42 @@
       "english": "I found a like-new brand-name bag on a flea market app and got it for half price.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {新|しん} (new) and {古品|こひん} (used item), describing the in-between status of items that are technically second-hand but have never been used. Very common on Japanese auction and flea market sites like メルカリ and ヤフオク.\n\nCOMMON COLLOCATIONS:\n- {新古品|しんこひん}の{状態|じょうたい} (like-new condition)\n- {新古品|しんこひん}を{買|か}う (to buy a like-new item)\n- {新古品|しんこひん}として{出品|しゅっぴん}する (to list as a like-new item)\n\nSIMILAR WORDS:\n- {新品|しんぴん}: brand new — completely new, never sold before\n- {中古品|ちゅうこひん}: used item — has been used by a previous owner\n- {未使用品|みしようひん}: unused item — essentially synonymous but more formal",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08303_shinpin",
+      "reading": "しんぴん",
+      "headword": "{新品|しんぴん}",
+      "label": "brand new"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08302_chuukohin",
+      "reading": "ちゅうこひん",
+      "headword": "{中古品|ちゅうこひん}",
+      "label": "used item"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:26:41Z",
-    "modified": "2026-03-23T06:26:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

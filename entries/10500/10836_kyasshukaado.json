@@ -19,7 +19,9 @@
       "english": "To withdraw money with an ATM card.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10836_kyasshukaado_ex2",
@@ -27,7 +29,9 @@
       "english": "I forgot the PIN for my ATM card.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10836_kyasshukaado_ex3",
@@ -35,21 +39,42 @@
       "english": "When you open an account, the ATM card is mailed to you.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Although the word looks like {和製英語|わせいえいご}, \"cash card\" is used in British English as well. However, the {日本|にほん}{独自|どくじ}の{用法|ようほう} is specific to bank-issued ATM cards.\n\nCOMMON PATTERNS:\n- キャッシュカードで{下|お}ろす: to withdraw using a cash card\n- キャッシュカードを{作|つく}る: to get a cash card (when opening a bank account)\n\nNOTE:\nIn Japan, many banks issue combined cards ({一体型|いったいがた}カード) that function as both a キャッシュカード and a credit card. キャッシュカード by itself does not have a credit function — it only provides ATM access.",
-  "cross_references": [],
+  "notes": "Although the word looks like {和製英語|わせいえいご}, \"cash card\" is used in British English as well. However, the {日本|にほん}{独自|どくじ}の{用法|ようほう} is specific to bank-issued ATM cards.\n\nCOMMON PATTERNS:\n- キャッシュカードで{下|お}ろす: to withdraw using a cash card\n- キャッシュカードを{作|つく}る: to get a cash card (when opening a bank account)\n\nUSAGE:\nIn Japan, many banks issue combined cards ({一体型|いったいがた}カード) that function as both a キャッシュカード and a credit card. キャッシュカード by itself does not have a credit function — it only provides ATM access.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09924_tsuuchou",
+      "reading": "つうちょう",
+      "headword": "{通帳|つうちょう}",
+      "label": "bankbook, passbook"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29682_debittokaado",
+      "reading": "でびっとかーど",
+      "headword": "デビットカード",
+      "label": "debit card"
+    }
+  ],
   "metadata": {
     "created": "2026-02-10T08:36:54Z",
-    "modified": "2026-02-10T08:36:54Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

@@ -17,7 +17,9 @@
       "id": "19162_uketorinin_ex1",
       "japanese": "{受取人|うけとりにん}の{名前|なまえ}を{書|か}いてください。",
       "english": "Please write the recipient's name.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19162_uketorinin_ex2",
       "japanese": "{保険金|ほけんきん}の{受取人|うけとりにん}を{変更|へんこう}する。",
       "english": "To change the insurance beneficiary.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,12 +37,14 @@
       "id": "19162_uketorinin_ex3",
       "japanese": "{荷物|にもつ}は{受取人|うけとりにん}{本人|ほんにん}にしか{渡|わた}せません。",
       "english": "The package can only be handed to the recipient in person.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{受取人|うけとりにん} is the person designated to receive something — a package, letter, payment, or insurance benefit.\n\nWORD FORMATION:\n{受取|うけとり} (receipt) + {人|にん} (person)\n\nCOMMON COLLOCATIONS:\n- {受取人|うけとりにん}の{住所|じゅうしょ} (recipient's address)\n- {受取人|うけとりにん}を{指定|してい}する (to designate a recipient)\n- {受取人|うけとりにん}{不在|ふざい} (recipient not home)\n- {保険金|ほけんきん}の{受取人|うけとりにん} (insurance beneficiary)\n\nOPPOSITE:\n{差出人|さしだしにん} (sender)\n\nREGISTER:\nFormal. Used on forms, in postal/financial documents, and legal contexts. In casual speech, {届|とど}け{先|さき}の{人|ひと} or もらう{人|ひと} might be used instead.",
+  "notes": "{受取人|うけとりにん} is the person designated to receive something — a package, letter, payment, or insurance benefit.\n\nFORMS:\n{受取|うけとり} (receipt) + {人|にん} (person)\n\nCOMMON COLLOCATIONS:\n- {受取人|うけとりにん}の{住所|じゅうしょ} (recipient's address)\n- {受取人|うけとりにん}を{指定|してい}する (to designate a recipient)\n- {受取人|うけとりにん}{不在|ふざい} (recipient not home)\n- {保険金|ほけんきん}の{受取人|うけとりにん} (insurance beneficiary)\n\nSIMILAR WORDS:\n{差出人|さしだしにん} (sender)\n\nREGISTER:\nFormal. Used on forms, in postal/financial documents, and legal contexts. In casual speech, {届|とど}け{先|さき}の{人|ひと} or もらう{人|ひと} might be used instead.",
   "cross_references": [
     {
       "type": "contrast",
@@ -46,18 +52,50 @@
       "reading": "さしだしにん",
       "headword": "{差出人|さしだしにん}",
       "label": "sender"
+    },
+    {
+      "type": "related",
+      "target_id": "23617_hihokensha",
+      "reading": "ひほけんしゃ",
+      "headword": "{被保険者|ひほけんしゃ}",
+      "label": "the insured"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26507_niukenin",
+      "reading": "にうけにん",
+      "headword": "{荷受人|にうけにん}",
+      "label": "consignee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29283_juryousha",
+      "reading": "じゅりょうしゃ",
+      "headword": "{受領者|じゅりょうしゃ}",
+      "label": "recipient"
+    },
+    {
+      "type": "antonym",
+      "target_id": "29486_hassounin",
+      "reading": "はっそうにん",
+      "headword": "{発送人|はっそうにん}",
+      "label": "sender"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     },
     "created": "2026-03-24T11:26:36Z",
-    "modified": "2026-04-18T03:18:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

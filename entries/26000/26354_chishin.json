@@ -17,7 +17,9 @@
       "id": "26354_chishin_ex1",
       "japanese": "この{地域|ちいき}は{経済|けいざい}の{遅進|ちしん}が{課題|かだい}だ。",
       "english": "Economic backwardness is a challenge in this region.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26354_chishin_ex2",
       "japanese": "デジタル{化|か}の{遅進|ちしん}が{国際|こくさい}{競争力|きょうそうりょく}に{影響|えいきょう}している。",
       "english": "The slow progress of digitalization is affecting international competitiveness.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,44 @@
       "id": "26354_chishin_ex3",
       "japanese": "{少子化|しょうしか}{対策|たいさく}の{遅進|ちしん}が{長年|ながねん}{指摘|してき}されてきたが、ようやく{本格的|ほんかくてき}な{取|と}り{組|く}みが{始|はじ}まった。",
       "english": "The slow progress on declining birthrate countermeasures has been pointed out for years, but serious efforts have finally begun.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {遅|ち} (slow, late) and {進|しん} (advance, progress). A formal word used in news, policy discussions, and academic contexts to describe falling behind in development or reform.\n\nCOMMON COLLOCATIONS:\n- {経済|けいざい}の{遅進|ちしん}: economic backwardness\n- {遅進|ちしん}{国|こく}: underdeveloped country\n- {技術|ぎじゅつ}の{遅進|ちしん}: technological lag\n- {遅進|ちしん}を{取|と}り{戻|もど}す: to make up for lost ground\n\nSIMILAR WORDS:\n- {後進|こうしん}: backwardness, underdevelopment — more common synonym\n- {停滞|ていたい}: stagnation — implies no movement at all, not just slow movement\n- {遅延|ちえん}: delay — focuses on timing rather than development level",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07427_teitai",
+      "reading": "ていたい",
+      "headword": "{停滞|ていたい}",
+      "label": "stagnation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06749_chien",
+      "reading": "ちえん",
+      "headword": "{遅延|ちえん}",
+      "label": "delay"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["society", "politics"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "society",
+        "politics"
+      ]
     },
     "created": "2026-05-01T11:35:33Z",
-    "modified": "2026-05-01T11:35:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

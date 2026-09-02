@@ -22,7 +22,9 @@
       "id": "28765_ringu_ex1",
       "japanese": "{選手|せんしゅ}がリングに{上|あ}がった。",
       "english": "The fighter stepped into the ring.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "28765_ringu_ex2",
       "japanese": "リングの{中央|ちゅうおう}で{選手|せんしゅ}たちが{対峙|たいじ}した。",
       "english": "The fighters faced off in the center of the ring.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "28765_ringu_ex3",
       "japanese": "ベテランの{元|もと}{王者|おうじゃ}が{久|ひさ}しぶりにリングに{復帰|ふっき}した。",
       "english": "The veteran former champion returned to the ring for the first time in a while.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "28765_ringu_ex4",
       "japanese": "キーリングに{鍵|かぎ}を{付|つ}けた。",
       "english": "I put the key on the key ring.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "28765_ringu_ex5",
       "japanese": "{彼女|かのじょ}は{銀|ぎん}のリングをはめていた。",
       "english": "She was wearing a silver ring.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,23 +72,52 @@
       "id": "28765_ringu_ex6",
       "japanese": "{体操|たいそう}の{吊|つ}りリングは、{腕|うで}と{体幹|たいかん}の{強|つよ}さが{試|ため}される{種目|しゅもく}だ。",
       "english": "Gymnastic rings is an event that tests the strength of the arms and core.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"ring.\" In Japanese, the combat-sports sense (1) is the most distinctive usage; sense 2 covers ring shapes and circular objects. For finger rings, {指輪|ゆびわ} is also common.\n\nCOMMON COLLOCATIONS:\n- リングに{上|あ}がる: to step into the ring\n- リングに{復帰|ふっき}する: to return to the ring\n- キーリング: key ring\n- リングノート: ring-bound notebook\n\nSIMILAR WORDS:\n- {指輪|ゆびわ}: finger ring — the standard word for jewelry rings\n- {輪|わ}: ring; loop; circle — native Japanese word, broader and more abstract",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01744_yubiwa",
+      "reading": "ゆびわ",
+      "headword": "{指輪|ゆびわ}",
+      "label": "finger ring"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02142_wa",
+      "reading": "わ",
+      "headword": "{輪|わ}",
+      "label": "ring"
+    },
+    {
+      "type": "related",
+      "target_id": "05235_bokushingu",
+      "reading": "ぼくしんぐ",
+      "headword": "ボクシング",
+      "label": "boxing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports"],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-06-05T02:07:15Z",
-    "modified": "2026-06-05T02:07:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

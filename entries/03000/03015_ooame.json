@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{大雨|おおあめ} means heavy rain — significantly heavier than normal rainfall.\n\nWORD FORMATION:\n⟦{大|おお}→大きい：00335_ookii⟧ (big, heavy) + ⟦{雨|あめ}→雨：00583_ame⟧ (rain).\n\nCOMMON PATTERNS:\n- {大雨|おおあめ}⟦が→が：00051_ga⟧⟦{降|ふ}る→降る：00839_furu⟧: heavy rain falls\n- {大雨|おおあめ}⟦{警報|けいほう}→警報：09515_keihou⟧: heavy rain warning\n- {大雨|おおあめ}⟦{注意報|ちゅういほう}→注意報：16464_chuuihou⟧: heavy rain advisory (less severe)\n- {大雨|おおあめ}⟦で→で：00502_de⟧⟦{中止|ちゅうし}→中止：03481_chuushi⟧: canceled due to heavy rain\n- {大雨|おおあめ}⟦による→による：noentry⟧⟦{被害|ひがい}→被害：02572_higai⟧: damage caused by heavy rain\n\nINTENSITY SCALE:\n- ⟦{小雨|こさめ}→小雨：05861_kosame⟧: light rain\n- ⟦{雨|あめ}→雨：00583_ame⟧: rain (normal)\n- {大雨|おおあめ}: heavy rain\n- ⟦{豪雨|ごうう}→豪雨：05860_gouu⟧: torrential rain (more intense, often implies disaster-level)\n- ⟦{集中豪雨|しゅうちゅうごうう}→集中豪雨：23883_shuuchuugouu⟧: localized torrential rain",
+  "notes": "{大雨|おおあめ} means heavy rain — significantly heavier than normal rainfall.\n\nFORMS:\n⟦{大|おお}→大きい：00335_ookii⟧ (big, heavy) + ⟦{雨|あめ}→雨：00583_ame⟧ (rain).\n\nCOMMON PATTERNS:\n- {大雨|おおあめ}⟦が→が：00051_ga⟧⟦{降|ふ}る→降る：00839_furu⟧: heavy rain falls\n- {大雨|おおあめ}⟦{警報|けいほう}→警報：09515_keihou⟧: heavy rain warning\n- {大雨|おおあめ}⟦{注意報|ちゅういほう}→注意報：16464_chuuihou⟧: heavy rain advisory (less severe)\n- {大雨|おおあめ}⟦で→で：00502_de⟧⟦{中止|ちゅうし}→中止：03481_chuushi⟧: canceled due to heavy rain\n- {大雨|おおあめ}⟦による→による：noentry⟧⟦{被害|ひがい}→被害：02572_higai⟧: damage caused by heavy rain\n\nINTENSITY SCALE:\n- ⟦{小雨|こさめ}→小雨：05861_kosame⟧: light rain\n- ⟦{雨|あめ}→雨：00583_ame⟧: rain (normal)\n- {大雨|おおあめ}: heavy rain\n- ⟦{豪雨|ごうう}→豪雨：05860_gouu⟧: torrential rain (more intense, often implies disaster-level)\n- ⟦{集中豪雨|しゅうちゅうごうう}→集中豪雨：23883_shuuchuugouu⟧: localized torrential rain",
   "cross_references": [
     {
       "type": "antonym",
@@ -65,11 +65,46 @@
       "reading": "ごうう",
       "headword": "{豪雨|ごうう}",
       "label": "torrential rain"
+    },
+    {
+      "type": "related",
+      "target_id": "05065_kouzui",
+      "reading": "こうずい",
+      "headword": "{洪水|こうずい}",
+      "label": "flood"
+    },
+    {
+      "type": "related",
+      "target_id": "05122_kanbatsu",
+      "reading": "かんばつ",
+      "headword": "{干|かん}ばつ",
+      "label": "drought"
+    },
+    {
+      "type": "related",
+      "target_id": "17600_tooriame",
+      "reading": "とおりあめ",
+      "headword": "{通|とお}り{雨|あめ}",
+      "label": "passing shower"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20234_honburi",
+      "reading": "ほんぶり",
+      "headword": "{本降|ほんぶ}り",
+      "label": "steady rain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23883_shuuchuugouu",
+      "reading": "しゅうちゅうごうう",
+      "headword": "{集中豪雨|しゅうちゅうごうう}",
+      "label": "torrential downpour, localized heavy rainfall"
     }
   ],
   "metadata": {
     "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-05-23T15:11:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

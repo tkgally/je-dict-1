@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "{裏切|うらぎ}る means to betray or to disappoint expectations.\n\nCOMPONENTS:\n- ⟦{裏|うら}→裏：02178_ura⟧: back, behind\n- ⟦{切|き}る→切る：02693_kiru⟧: to cut\nLiterally suggests \"cutting from behind\" or stabbing in the back.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pattern: 〜⟦を→を：00422_wo⟧{裏切|うらぎ}る\n\nCOMMON PATTERNS:\n- ⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦を→を：00422_wo⟧{裏切|うらぎ}る: to betray a friend\n- ⟦{信頼|しんらい}→信頼：03268_shinrai⟧⟦を→を：00422_wo⟧{裏切|うらぎ}る: to betray trust\n- ⟦{期待|きたい}→期待：00238_kitai⟧⟦を→を：00422_wo⟧{裏切|うらぎ}る: to betray/disappoint expectations\n- ⟦{約束|やくそく}→約束：01517_yakusoku⟧⟦を→を：00422_wo⟧{裏切|うらぎ}る: to break a promise\n\nRELATED WORDS:\n- ⟦{裏切|うらぎ}り→裏切り：17967_uragiri⟧: betrayal (noun)\n- ⟦{裏切|うらぎ}り{者|もの}→裏切り者：25800_uragirimono⟧: traitor",
+  "notes": "{裏切|うらぎ}る means to betray or to disappoint expectations.\n\nETYMOLOGY:\n- ⟦{裏|うら}→裏：02178_ura⟧: back, behind\n- ⟦{切|き}る→切る：02693_kiru⟧: to cut\nLiterally suggests \"cutting from behind\" or stabbing in the back.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pattern: 〜⟦を→を：00422_wo⟧{裏切|うらぎ}る\n\nCOMMON PATTERNS:\n- ⟦{友人|ゆうじん}→友人：03649_yuujin⟧⟦を→を：00422_wo⟧{裏切|うらぎ}る: to betray a friend\n- ⟦{信頼|しんらい}→信頼：03268_shinrai⟧⟦を→を：00422_wo⟧{裏切|うらぎ}る: to betray trust\n- ⟦{期待|きたい}→期待：00238_kitai⟧⟦を→を：00422_wo⟧{裏切|うらぎ}る: to betray/disappoint expectations\n- ⟦{約束|やくそく}→約束：01517_yakusoku⟧⟦を→を：00422_wo⟧{裏切|うらぎ}る: to break a promise\n\nRELATED WORDS:\n- ⟦{裏切|うらぎ}り→裏切り：17967_uragiri⟧: betrayal (noun)\n- ⟦{裏切|うらぎ}り{者|もの}→裏切り者：25800_uragirimono⟧: traitor",
   "prominent_see_also": [
     {
       "target_id": "17967_uragiri",
@@ -177,10 +177,46 @@
       "note": "noun form"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "25800_uragirimono",
+      "reading": "うらぎりもの",
+      "headword": "{裏切|うらぎ}り{者|もの}",
+      "label": "traitor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19577_somuku",
+      "reading": "そむく",
+      "headword": "{背|そむ}く",
+      "label": "to go against"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20456_onwoadadekaesu",
+      "reading": "おんをあだでかえす",
+      "headword": "{恩|おん}を{仇|あだ}で{返|かえ}す",
+      "label": "to repay kindness with ingratitude"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20639_yakusokuwoyaburu",
+      "reading": "やくそくをやぶる",
+      "headword": "{約束|やくそく}を{破|やぶ}る",
+      "label": "to break a promise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21919_rihansuru",
+      "reading": "りはんする",
+      "headword": "{離反|りはん}する",
+      "label": "to defect"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:08:11Z",
-    "modified": "2026-05-17T21:25:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

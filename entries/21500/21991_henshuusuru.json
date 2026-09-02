@@ -3,7 +3,7 @@
   "headword": "{編集|へんしゅう}する",
   "reading": "へんしゅうする",
   "romaji": "henshuusuru",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to edit; to compile",
   "conjugation": {
     "type": "suru",
@@ -144,6 +144,29 @@
     }
   ],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21081_kousei",
+      "reading": "こうせい",
+      "headword": "{校正|こうせい}",
+      "label": "to proofread"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25527_shuuseisuru",
+      "reading": "しゅうせいする",
+      "headword": "{修正|しゅうせい}する",
+      "label": "to revise, correct"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25223_kakousuru",
+      "reading": "かこうする",
+      "headword": "{加工|かこう}する",
+      "label": "to process, retouch"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -160,6 +183,6 @@
       "verb_class": "suru"
     },
     "created": "2026-04-04T19:29:57Z",
-    "modified": "2026-04-08T02:02:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

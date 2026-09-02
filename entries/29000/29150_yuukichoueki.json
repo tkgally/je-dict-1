@@ -17,7 +17,9 @@
       "id": "29150_yuukichoueki_ex1",
       "japanese": "{裁判所|さいばんしょ}は{被告|ひこく}に{有期懲役|ゆうきちょうえき}10{年|ねん}を{言|い}い{渡|わた}した。",
       "english": "The court sentenced the defendant to ten years of imprisonment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,31 +27,57 @@
       "id": "29150_yuukichoueki_ex2",
       "japanese": "{有期懲役|ゆうきちょうえき}の{最長|さいちょう}は30{年|ねん}とされている。",
       "english": "The maximum fixed-term imprisonment is 30 years.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29150_yuukichoueki_ex3",
-      "japanese": "{無期懲役|むきちょうえき}と{有期懲役|ゆうきちょうえき}では、{釈放|しゃくほう}の{見通し|みとおし}が{大|おお}きく{異|こと}なる。",
+      "japanese": "{無期懲役|むきちょうえき}と{有期懲役|ゆうきちょうえき}では、{釈放|しゃくほう}の{見通|みとお}しが{大|おお}きく{異|こと}なる。",
       "english": "Life imprisonment and fixed-term imprisonment differ greatly in terms of prospects for release.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{有期|ゆうき} means \"limited period,\" and {懲役|ちょうえき} means \"imprisonment with labor.\" Together they describe a definite-length custodial sentence.\n\nCOMMON COLLOCATIONS:\n- {有期懲役|ゆうきちょうえき}○{年|ねん}: X years of fixed-term imprisonment\n- {有期懲役|ゆうきちょうえき}を{言|い}い{渡|わた}す: to hand down a fixed-term sentence\n- {有期懲役|ゆうきちょうえき}の{判決|はんけつ}: a verdict of fixed-term imprisonment\n\nSIMILAR WORDS:\n- {無期懲役|むきちょうえき}: life imprisonment — indefinite sentence\n- {禁錮|きんこ}: imprisonment without labor — same duration range but without the labor component",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22698_mukichoueki",
+      "reading": "むきちょうえき",
+      "headword": "{無期懲役|むきちょうえき}",
+      "label": "life imprisonment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19211_kinko",
+      "reading": "きんこ",
+      "headword": "{禁錮|きんこ}",
+      "label": "imprisonment without labor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["law"],
-      "domain": ["legal"]
+      "politeness": "plain",
+      "semantic": [
+        "law"
+      ],
+      "domain": [
+        "legal"
+      ]
     },
     "created": "2026-06-11T21:43:14Z",
-    "modified": "2026-06-11T21:43:14Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

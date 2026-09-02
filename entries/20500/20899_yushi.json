@@ -17,7 +17,9 @@
       "id": "20899_yushi_ex1",
       "japanese": "{油脂|ゆし}を{控|ひか}える。",
       "english": "To cut back on fats and oils.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20899_yushi_ex2",
       "japanese": "{動物性|どうぶつせい}{油脂|ゆし}と{植物性|しょくぶつせい}{油脂|ゆし}がある。",
       "english": "There are animal fats and vegetable oils.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "20899_yushi_ex3",
       "japanese": "この{食品|しょくひん}には{油脂|ゆし}{分|ぶん}が{多|おお}く{含|ふく}まれている。",
       "english": "This food contains a high amount of fat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {油|ゆ} (oil, liquid fat) + {脂|し} (fat, solid fat). This is the umbrella term covering both liquid oils ({油|あぶら}) and solid fats ({脂|あぶら}). Commonly found on food labels, in cooking discussions, and in scientific contexts.\n\nCOMMON COLLOCATIONS:\n- {動物性|どうぶつせい}{油脂|ゆし}: animal fat\n- {植物性|しょくぶつせい}{油脂|ゆし}: vegetable oil\n- {油脂|ゆし}{分|ぶん}: fat content\n- {油脂|ゆし}を{含|ふく}む: to contain fat/oil\n\nSIMILAR WORDS:\n- {脂肪|しぼう}: fat — used for body fat or dietary fat in general\n- {油|あぶら}: oil — the everyday word for cooking oil or oily substances\n- {脂|あぶら}: grease, fat — refers to solid/animal fat specifically",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03199_shibou",
+      "reading": "しぼう",
+      "headword": "{脂肪|しぼう}",
+      "label": "fat"
+    },
+    {
+      "type": "related",
+      "target_id": "23797_shibousan",
+      "reading": "しぼうさん",
+      "headword": "{脂肪酸|しぼうさん}",
+      "label": "fatty acid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25118_yubun",
+      "reading": "ゆぶん",
+      "headword": "{油分|ゆぶん}",
+      "label": "oil content"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "science"]
+      "semantic": [
+        "food",
+        "science"
+      ]
     },
     "created": "2026-03-30T20:11:03Z",
-    "modified": "2026-03-30T20:11:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

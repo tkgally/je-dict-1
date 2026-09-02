@@ -43,7 +43,23 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{熨斗|のし} (decorative paper strip) + {袋|ぶくろ} (bag, envelope)\n\nELEMENTS:\n- {熨斗|のし} - decorative folded paper\n- {水引|みずひき} - decorative cord\n- {表書|おもてが}き - writing on front (occasion name)\n- {名前|なまえ} - giver's name\n\nTYPES:\n- {紅白|こうはく} (red and white) - for celebrations\n- {黒白|くろしろ} (black and white) - for funerals\n- Tied with bowknot (repeatable events) or square knot (one-time events)\n\nOCCASIONS:\n- {結婚|けっこん} - wedding\n- {出産|しゅっさん} - birth\n- {入学|にゅうがく}/{卒業|そつぎょう} - school events\n- お{見舞|みま}い - get-well visits\n\nRELATED:\n- ご{祝儀|しゅうぎ} - congratulatory money\n- {香典|こうでん} - condolence money\n- お{年玉|としだま}{袋|ぶくろ} - New Year's money envelope",
+  "notes": "COMPOUNDS:\n{熨斗|のし} (decorative paper strip) + {袋|ぶくろ} (bag, envelope)\n\nELEMENTS:\n- {熨斗|のし} - decorative folded paper\n- {水引|みずひき} - decorative cord\n- {表書|おもてが}き - writing on front (occasion name)\n- {名前|なまえ} - giver's name\n\nTYPES:\n- {紅白|こうはく} (red and white) - for celebrations\n- {黒白|くろしろ} (black and white) - for funerals\n- Tied with bowknot (repeatable events) or square knot (one-time events)\n\nOCCASIONS:\n- {結婚|けっこん} - wedding\n- {出産|しゅっさん} - birth\n- {入学|にゅうがく}/{卒業|そつぎょう} - school events\n- お{見舞|みま}い - get-well visits\n\nRELATED WORDS:\n- ご{祝儀|しゅうぎ} - congratulatory money\n- {香典|こうでん} - condolence money\n- お{年玉|としだま}{袋|ぶくろ} - New Year's money envelope",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08356_goshuugi",
+      "reading": "ごしゅうぎ",
+      "headword": "ご{祝儀|しゅうぎ}",
+      "label": "congratulatory money"
+    },
+    {
+      "type": "related",
+      "target_id": "06127_kouden",
+      "reading": "こうでん",
+      "headword": "{香典|こうでん}",
+      "label": "condolence money"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,11 +67,12 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "culture"
       ]
     },
     "created": "2026-01-27T08:12:28Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

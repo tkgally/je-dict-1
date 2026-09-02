@@ -17,7 +17,9 @@
       "id": "19242_shousoku_ex1",
       "japanese": "{消息|しょうそく}が{途絶|とだ}えた。",
       "english": "Contact was lost.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19242_shousoku_ex2",
       "japanese": "{彼|かれ}の{消息|しょうそく}を{知|し}っていますか。",
       "english": "Do you know anything about his whereabouts?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,66 @@
       "id": "19242_shousoku_ex3",
       "japanese": "{行方|ゆくえ}{不明|ふめい}になった{登山者|とざんしゃ}の{消息|しょうそく}は、いまだにわかっていない。",
       "english": "The whereabouts of the missing climber are still unknown.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{消息|しょうそく} refers to news about someone's whereabouts or well-being, or to information from sources. A somewhat literary and formal word.\n\nCOMMON COLLOCATIONS:\n- {消息|しょうそく}が{途絶|とだ}える: to lose contact with someone\n- {消息|しょうそく}を{絶|た}つ: to disappear, cut off contact\n- {消息|しょうそく}{不明|ふめい}: whereabouts unknown\n- {消息|しょうそく}{筋|すじ}: informed sources (news/journalism term)\n- {消息|しょうそく}を{知|し}る: to learn of someone's whereabouts\n\nUSAGE:\nOften used in serious contexts — missing persons, lost contact, or news reporting. In everyday speech, {連絡|れんらく} (contact) is more natural for routine communication.\n\nSIMILAR WORDS:\n- {連絡|れんらく}: contact, communication (everyday)\n- {便|たよ}り: news, tidings (literary, correspondence)\n- {安否|あんぴ}: safety, well-being ({安否|あんぴ}{確認|かくにん}: safety confirmation)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01524_renraku",
+      "reading": "れんらく",
+      "headword": "{連絡|れんらく}",
+      "label": "contact, communication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03411_tayori",
+      "reading": "たより",
+      "headword": "{便|たよ}り",
+      "label": "news, tidings"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16157_anpi",
+      "reading": "あんぴ",
+      "headword": "{安否|あんぴ}",
+      "label": "safety, well-being"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19764_otosata",
+      "reading": "おとさた",
+      "headword": "{音沙汰|おとさた}",
+      "label": "news"
+    },
+    {
+      "type": "related",
+      "target_id": "21262_kinkyouhoukoku",
+      "reading": "きんきょうほうこく",
+      "headword": "{近況報告|きんきょうほうこく}",
+      "label": "update on recent situation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication", "cognition"]
+      "semantic": [
+        "communication",
+        "cognition"
+      ]
     },
     "created": "2026-03-25T01:40:31Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

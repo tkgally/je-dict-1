@@ -22,7 +22,9 @@
       "id": "21794_kigatsuku_ex1",
       "japanese": "{間違|まちが}いに{気|き}がついた。",
       "english": "I noticed the mistake.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "21794_kigatsuku_ex2",
       "japanese": "{彼|かれ}がいないことに、{誰|だれ}も{気|き}がつかなかった。",
       "english": "Nobody noticed that he was gone.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "21794_kigatsuku_ex3",
       "japanese": "{駅|えき}に{着|つ}いてから、{財布|さいふ}を{忘|わす}れたことに{気|き}がついて{慌|あわ}てた。",
       "english": "After arriving at the station, I realized I had forgotten my wallet and panicked.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "21794_kigatsuku_ex4",
       "japanese": "{彼女|かのじょ}はよく{気|き}がつく{人|ひと}だ。",
       "english": "She is a very attentive person.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "21794_kigatsuku_ex5",
       "japanese": "{気|き}がつく{子|こ}だね、ありがとう。",
       "english": "What a thoughtful child — thank you.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,12 +72,58 @@
       "id": "21794_kigatsuku_ex6",
       "japanese": "{周|まわ}りの{人|ひと}の{変化|へんか}にすぐ{気|き}がつくのは、{彼女|かのじょ}のいいところだ。",
       "english": "One of her good traits is that she quickly notices changes in the people around her.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A very common expression composed of {気|き} (awareness, attention) + が + つく (to attach, to arrive at). Describes the moment of becoming aware of something, or a person's quality of being naturally attentive. Also written as {気|き}が{付|つ}く.\n\nUSAGE:\n- Sense 1 pattern: ～に{気|き}がつく (to notice ~)\n- Sense 2 is used as a personality trait: {気|き}がつく{人|ひと} (a considerate person)\n- The contracted form {気付|きづ}く is more common in writing\n- Past form {気|き}がついた is very frequently used\n\nCOMMON COLLOCATIONS:\n- {間違|まちが}いに{気|き}がつく: to notice a mistake\n- {変化|へんか}に{気|き}がつく: to notice a change\n- ～ことに{気|き}がつく: to realize that ~\n- よく{気|き}がつく: to be very attentive/considerate\n\nSIMILAR WORDS:\n- {気付|きづ}く: to notice, realize — contracted form; same meaning, more common in written Japanese\n- {気|き}にする: to worry about, care about — different nuance; focuses on concern rather than noticing\n- {気|き}になる: to be on one's mind — something catches attention and lingers\n- {感|かん}づく: to sense, have a hunch — implies intuiting rather than clearly noticing",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01933_kizuku",
+      "reading": "きづく",
+      "headword": "{気付|きづ}く",
+      "label": "to notice, realize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03026_kinisuru",
+      "reading": "きにする",
+      "headword": "{気|き}にする",
+      "label": "to worry about, care about"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03027_kininaru",
+      "reading": "きになる",
+      "headword": "{気|き}になる",
+      "label": "to be on one's mind"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01812_itsunomanika",
+      "reading": "いつのまにか",
+      "headword": "いつの{間|ま}にか",
+      "label": "before one knows it, unnoticed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02027_omoitsuku",
+      "reading": "おもいつく",
+      "headword": "{思|おも}い{付|つ}く",
+      "label": "to think of, to hit upon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17406_warenikaeru",
+      "reading": "われにかえる",
+      "headword": "{我|われ}に{返|かえ}る",
+      "label": "to come to one's senses"
+    }
+  ],
   "metadata": {
     "entry_id": "21794_kigatsuku",
     "schema_version": "2.0",
@@ -75,11 +131,16 @@
     "vocabulary_tier": "general",
     "jlpt_level": null,
     "tags": {
-      "pos": ["expression"],
-      "semantic": ["cognition"],
+      "pos": [
+        "expression"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "cognition"
+      ],
       "register": [],
       "usage": []
     },
-    "modified": "2026-04-03T17:13:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

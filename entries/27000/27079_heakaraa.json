@@ -17,7 +17,9 @@
       "id": "27079_heakaraa_ex1",
       "japanese": "ヘアカラーをした。",
       "english": "I got my hair colored.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27079_heakaraa_ex2",
       "japanese": "{自宅|じたく}でヘアカラーをするのは{初|はじ}めてだ。",
       "english": "This is my first time doing hair coloring at home.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "27079_heakaraa_ex3",
       "japanese": "ヘアカラーで{髪|かみ}が{傷|いた}まないか{心配|しんぱい}だったが、トリートメントを{併用|へいよう}したら{大丈夫|だいじょうぶ}だった。",
       "english": "I was worried about hair damage from the dye, but using a treatment alongside it worked out fine.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"hair color.\" In Japanese, ヘアカラー primarily refers to the coloring product or service, not to the color of one's hair itself (which is {髪色|かみいろ}). Can be used as a suru-verb: ヘアカラーする (to color one's hair).\n\nCOMMON COLLOCATIONS:\n- ヘアカラーをする: to dye one's hair; to get a hair coloring\n- ヘアカラー{剤|ざい}: hair dye product\n- {市販|しはん}のヘアカラー: over-the-counter hair dye\n- ヘアカラーリング: hair coloring (process)\n- ヘアカラー{専門店|せんもんてん}: hair coloring specialty salon\n\nSIMILAR WORDS:\n- {髪色|かみいろ}: hair color — the actual color of one's hair, not the product or service\n- {白髪染|しらがぞ}め: gray hair dye — specifically for covering gray/white hair\n- ブリーチ: bleach — lightening hair by removing pigment, a step before coloring",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27075_kamiiro",
+      "reading": "かみいろ",
+      "headword": "{髪色|かみいろ}",
+      "label": "hair color"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22007_shiragazome",
+      "reading": "しらがぞめ",
+      "headword": "{白髪染|しらがぞ}め",
+      "label": "gray hair dye"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22153_kamizome",
+      "reading": "かみぞめ",
+      "headword": "{髪染|かみぞ}め",
+      "label": "hair dye"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["appearance"]
+      "semantic": [
+        "appearance"
+      ]
     },
     "created": "2026-05-06T16:11:06Z",
-    "modified": "2026-08-07T06:31:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

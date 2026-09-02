@@ -3,7 +3,7 @@
   "headword": "{加害|かがい}",
   "reading": "かがい",
   "romaji": "kagai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "inflicting harm; causing damage",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {加|か} (add/inflict) and {害|がい} (harm). Most commonly encountered in the compound {加害者|かがいしゃ} (perpetrator/offender), which pairs with {被害者|ひがいしゃ} (victim). The word frames harm from the perspective of the one causing it.\n\nCOMMON COLLOCATIONS:\n- {加害者|かがいしゃ}: perpetrator, offender\n- {加害|かがい}{行為|こうい}: act of harm, harmful act\n- {加害|かがい}{側|がわ}: the perpetrating side\n- {加害|かがい}{責任|せきにん}: responsibility for harm caused\n\nSIMILAR WORDS:\n- {被害|ひがい}: damage suffered / victimization — the opposite perspective, receiving harm\n- {危害|きがい}: bodily harm / injury — focuses specifically on physical harm\n- {損害|そんがい}: damage / loss — focuses on material or financial damage\n\nNOTE ON HOMOPHONES:\nDo not confuse with {花街|かがい} (geisha district), which has the same reading.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02572_higai",
+      "reading": "ひがい",
+      "headword": "{被害|ひがい}",
+      "label": "damage suffered / victimization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19386_kigai",
+      "reading": "きがい",
+      "headword": "{危害|きがい}",
+      "label": "bodily harm / injury"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02615_songai",
+      "reading": "そんがい",
+      "headword": "{損害|そんがい}",
+      "label": "damage / loss"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T21:08:10Z",
-    "modified": "2026-04-05T21:08:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

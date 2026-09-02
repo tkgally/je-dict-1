@@ -43,11 +43,40 @@
       ]
     }
   ],
-  "notes": "COMPOUND: ⟦{遊園|ゆうえん}→遊園：28355_yuuen⟧ (pleasure garden) + ⟦{地|ち}→〜地：09852_chi⟧ (place)\n\nFAMOUS JAPANESE AMUSEMENT PARKS:\n- ⟦{東京|とうきょう}→東京：09564_toukyou⟧ディズニーランド (Tokyo Disneyland)\n- ユニバーサル・スタジオ・ジャパン (Universal Studios Japan)\n- {富士急|ふじきゅう}ハイランド (Fuji-Q Highland)\n\nCOMMON ATTRACTIONS:\n- ⟦ジェットコースター→ジェットコースター：23535_jettokoosutaa⟧ (roller coaster)\n- ⟦{観覧車|かんらんしゃ}→観覧車：09221_kanransha⟧ (Ferris wheel)\n- ⟦メリーゴーランド→メリーゴーランド：28061_meriigoorando⟧ (merry-go-round)\n- ⟦お{化|ば}け{屋敷|やしき}→お化け屋敷：18623_obakeyashiki⟧ (haunted house)\n\nRELATED:\n- ⟦テーマパーク→テーマパーク：28062_teemapaaku⟧ (theme park)\n- ⟦{動物園|どうぶつえん}→動物園：01686_doubutsuen⟧ (zoo)\n- ⟦{水族館|すいぞくかん}→水族館：09220_suizokukan⟧ (aquarium)",
-  "cross_references": [],
+  "notes": "COMPOUND: ⟦{遊園|ゆうえん}→遊園：28355_yuuen⟧ (pleasure garden) + ⟦{地|ち}→〜地：09852_chi⟧ (place)\n\nFAMOUS JAPANESE AMUSEMENT PARKS:\n- ⟦{東京|とうきょう}→東京：09564_toukyou⟧ディズニーランド (Tokyo Disneyland)\n- ユニバーサル・スタジオ・ジャパン (Universal Studios Japan)\n- {富士急|ふじきゅう}ハイランド (Fuji-Q Highland)\n\nCOMMON ATTRACTIONS:\n- ⟦ジェットコースター→ジェットコースター：23535_jettokoosutaa⟧ (roller coaster)\n- ⟦{観覧車|かんらんしゃ}→観覧車：09221_kanransha⟧ (Ferris wheel)\n- ⟦メリーゴーランド→メリーゴーランド：28061_meriigoorando⟧ (merry-go-round)\n- ⟦お{化|ば}け{屋敷|やしき}→お化け屋敷：18623_obakeyashiki⟧ (haunted house)\n\nRELATED WORDS:\n- ⟦テーマパーク→テーマパーク：28062_teemapaaku⟧ (theme park)\n- ⟦{動物園|どうぶつえん}→動物園：01686_doubutsuen⟧ (zoo)\n- ⟦{水族館|すいぞくかん}→水族館：09220_suizokukan⟧ (aquarium)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "28062_teemapaaku",
+      "reading": "てーまぱーく",
+      "headword": "テーマパーク",
+      "label": "theme park"
+    },
+    {
+      "type": "related",
+      "target_id": "01686_doubutsuen",
+      "reading": "どうぶつえん",
+      "headword": "{動物園|どうぶつえん}",
+      "label": "zoo"
+    },
+    {
+      "type": "related",
+      "target_id": "09220_suizokukan",
+      "reading": "すいぞくかん",
+      "headword": "{水族館|すいぞくかん}",
+      "label": "aquarium"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23051_asobiba",
+      "reading": "あそびば",
+      "headword": "{遊|あそ}び{場|ば}",
+      "label": "playground"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T12:03:35Z",
-    "modified": "2026-08-13T15:54:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

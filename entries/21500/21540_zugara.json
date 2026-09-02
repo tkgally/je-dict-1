@@ -17,7 +17,9 @@
       "id": "21540_zugara_ex1",
       "japanese": "{新|あたら}しい{切手|きって}の{図柄|ずがら}が{発表|はっぴょう}された。",
       "english": "The design for the new stamps was announced.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21540_zugara_ex2",
       "japanese": "この{着物|きもの}は{図柄|ずがら}が{美|うつく}しい。",
       "english": "This kimono has a beautiful pattern.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,13 +37,38 @@
       "id": "21540_zugara_ex3",
       "japanese": "{新|しん}しい{紙幣|しへい}の{図柄|ずがら}には{歴史上|れきしじょう}の{人物|じんぶつ}が{描|えが}かれている。",
       "english": "The designs on the new banknotes depict historical figures.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {図|ず} (drawing, diagram) + {柄|がら} (pattern, design). Refers specifically to a pictorial or decorative design printed or drawn on a surface.\n\nCOMMON COLLOCATIONS:\n- {切手|きって}の{図柄|ずがら}: stamp design\n- {紙幣|しへい}の{図柄|ずがら}: banknote design\n- {着物|きもの}の{図柄|ずがら}: kimono pattern\n- {図柄|ずがら}を{選|えら}ぶ: to choose a design\n- {図柄|ずがら}が{入|はい}った: with a design on it\n\nSIMILAR WORDS:\n- {模様|もよう}: pattern — broader, includes abstract repeating patterns\n- {柄|がら}: pattern — the base element, often for fabric patterns\n- デザイン: design — loanword, broader and more modern\n- {絵柄|えがら}: picture/illustration design — very similar, slightly more emphasis on pictorial art",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03635_moyou",
+      "reading": "もよう",
+      "headword": "{模様|もよう}",
+      "label": "pattern"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03860_dezain",
+      "reading": "でざいん",
+      "headword": "デザイン",
+      "label": "design"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13866_egara",
+      "reading": "えがら",
+      "headword": "{絵柄|えがら}",
+      "label": "picture/illustration design"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +82,6 @@
       ]
     },
     "created": "2026-04-02T15:25:57Z",
-    "modified": "2026-04-02T15:25:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

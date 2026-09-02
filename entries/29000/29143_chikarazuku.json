@@ -17,7 +17,9 @@
       "id": "29143_chikarazuku_ex1",
       "japanese": "{力|ちから}ずくで{扉|とびら}を{開|あ}けた。",
       "english": "He forced the door open.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29143_chikarazuku_ex2",
       "japanese": "{力|ちから}ずくで{連|つ}れて{行|い}かれた。",
       "english": "I was taken away by force.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "29143_chikarazuku_ex3",
       "japanese": "{問題|もんだい}を{力|ちから}ずくで{解決|かいけつ}しようとしても、{相手|あいて}の{反発|はんぱつ}を{招|まね}くだけだ。",
       "english": "Even if you try to resolve problems by force, you will only provoke resistance from the other party.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Used almost exclusively in the pattern {力|ちから}ずくで (by force, using brute strength). Contrasts with {話|はな}し{合|あ}い (discussion) or {説得|せっとく} (persuasion) as a means to an end.\n\nCOMMON PATTERNS:\n- {力|ちから}ずくで: by force, forcibly\n- {力|ちから}ずくで{連|つ}れて{行|い}く: to take someone by force\n- {力|ちから}ずくで{押|お}しつける: to force something on someone\n\nSIMILAR WORDS:\n- {強引|ごういん}に: forcibly, pushily — often implies social pressure rather than physical force\n- {無理|むり}やり: by force, against one's will — more colloquial, focuses on the lack of consent",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04156_gouin",
+      "reading": "ごういん",
+      "headword": "{強引|ごういん}",
+      "label": "forcibly, pushily"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10526_muriyari",
+      "reading": "むりやり",
+      "headword": "{無理|むり}やり",
+      "label": "by force, against one's will"
+    },
+    {
+      "type": "related",
+      "target_id": "08517_wanryoku",
+      "reading": "わんりょく",
+      "headword": "{腕力|わんりょく}",
+      "label": "arm strength"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["action"],
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
       "domain": []
     },
     "created": "2026-06-11T21:39:46Z",
-    "modified": "2026-06-11T21:39:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

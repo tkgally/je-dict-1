@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "notes": "COMPOSITION: ⟦{処方|しょほう}→処方：05976_shohou⟧ (formulation, prescription) + ⟦{箋|せん}→箋：noentry⟧ (slip, tag)\n\nJAPANESE HEALTHCARE SYSTEM:\nIn Japan, clinics and hospitals usually do not dispense medicine directly. Instead, patients receive a {処方箋|しょほうせん} and take it to a nearby ⟦{調剤薬局|ちょうざいやっきょく}→調剤薬局：29876_chouzaiyakkyoku⟧ (dispensing pharmacy).\n\nKEY TERMS:\n・{処方箋|しょほうせん}⟦{薬|やく}→薬：noentry⟧ - prescription medicine\n・⟦{市販薬|しはんやく}→市販薬：09834_shihanyaku⟧/OTC⟦{薬|やく}→薬：noentry⟧ - over-the-counter medicine\n・⟦{調剤薬局|ちょうざいやっきょく}→調剤薬局：29876_chouzaiyakkyoku⟧ - dispensing pharmacy\n・⟦{院内処方|いんないしょほう}→院内処方：29877_innaishohou⟧ - in-hospital dispensing\n・⟦{院外処方|いんがいしょほう}→院外処方：29878_ingaishohou⟧ - out-of-hospital dispensing\n\nVALIDITY: Prescriptions in Japan expire after 4 days (including the day of issue), so they must be filled promptly.\n\nCOMMON VERBS:\n・{処方箋|しょほうせん}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧ - to write a prescription\n・{処方箋|しょほうせん}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ - to issue a prescription\n・{処方箋|しょほうせん}⟦を→を：00422_wo⟧⟦{持|も}って→持つ：00478_motsu⟧⟦いく→行く：00119_iku⟧ - to take a prescription (to the pharmacy)",
+  "notes": "COMPOSITION: ⟦{処方|しょほう}→処方：05976_shohou⟧ (formulation, prescription) + ⟦{箋|せん}→箋：noentry⟧ (slip, tag)\n\nJAPANESE HEALTHCARE SYSTEM:\nIn Japan, clinics and hospitals usually do not dispense medicine directly. Instead, patients receive a {処方箋|しょほうせん} and take it to a nearby ⟦{調剤薬局|ちょうざいやっきょく}→調剤薬局：29876_chouzaiyakkyoku⟧ (dispensing pharmacy).\n\nKEY TERMS:\n- {処方箋|しょほうせん}⟦{薬|やく}→薬：noentry⟧ - prescription medicine\n- ⟦{市販薬|しはんやく}→市販薬：09834_shihanyaku⟧/OTC⟦{薬|やく}→薬：noentry⟧ - over-the-counter medicine\n- ⟦{調剤薬局|ちょうざいやっきょく}→調剤薬局：29876_chouzaiyakkyoku⟧ - dispensing pharmacy\n- ⟦{院内処方|いんないしょほう}→院内処方：29877_innaishohou⟧ - in-hospital dispensing\n- ⟦{院外処方|いんがいしょほう}→院外処方：29878_ingaishohou⟧ - out-of-hospital dispensing\n\nVALIDITY: Prescriptions in Japan expire after 4 days (including the day of issue), so they must be filled promptly.\n\nCOMMON VERBS:\n- {処方箋|しょほうせん}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧ - to write a prescription\n- {処方箋|しょほうせん}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ - to issue a prescription\n- {処方箋|しょほうせん}⟦を→を：00422_wo⟧⟦{持|も}って→持つ：00478_motsu⟧⟦いく→行く：00119_iku⟧ - to take a prescription (to the pharmacy)",
   "cross_references": [
     {
       "type": "related",
@@ -61,11 +61,18 @@
       "reading": "しょほう",
       "headword": "{処方|しょほう}",
       "label": "base word"
+    },
+    {
+      "type": "related",
+      "target_id": "18821_chouzai",
+      "reading": "ちょうざい",
+      "headword": "{調剤|ちょうざい}",
+      "label": "dispensing medicine"
     }
   ],
   "metadata": {
     "created": "2026-01-17T18:44:29Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

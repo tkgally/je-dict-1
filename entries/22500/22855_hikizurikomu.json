@@ -3,7 +3,7 @@
   "headword": "{引|ひ}きずり{込|こ}む",
   "reading": "ひきずりこむ",
   "romaji": "hikizurikomu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to drag in; to pull in (physically)",
   "definitions": [
     {
@@ -81,6 +81,29 @@
   ],
   "notes": "A compound verb formed from {引|ひ}きずる (to drag) and {込|こ}む (into). The literal sense describes physical dragging, while the figurative sense describes being pulled into unwanted situations.\n\nTRANSITIVITY:\nTransitive. The intransitive equivalent would be a passive construction: {引|ひ}きずり{込|こ}まれる (to be dragged into).\n\nCOMMON PATTERNS:\n- AをBに{引|ひ}きずり{込|こ}む: to drag A into B\n- {引|ひ}きずり{込|こ}まれる: to be dragged in (passive)\n\nCOMMON COLLOCATIONS:\n- {争|あらそ}いに{引|ひ}きずり{込|こ}む: to drag into a dispute\n- {泥沼|どろぬま}に{引|ひ}きずり{込|こ}む: to drag into a quagmire\n- {犯罪|はんざい}に{引|ひ}きずり{込|こ}む: to drag into crime\n\nSIMILAR WORDS:\n- {巻|ま}き{込|こ}む: to involve, to drag in — more general; can be accidental involvement\n- {引|ひ}き{込|こ}む: to pull in, to lure in — less forceful than {引|ひ}きずり{込|こ}む\n- {引|ひ}きずる: to drag — the base verb, without the \"into\" direction",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05753_makikomu",
+      "reading": "まきこむ",
+      "headword": "{巻|ま}き{込|こ}む",
+      "label": "to involve, to drag in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05736_hikikomu",
+      "reading": "ひきこむ",
+      "headword": "{引|ひ}き{込|こ}む",
+      "label": "to pull in, to lure in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06045_hikizuru",
+      "reading": "ひきずる",
+      "headword": "{引|ひ}きずる",
+      "label": "to drag"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -88,11 +111,16 @@
         "verb-godan"
       ],
       "transitivity": "transitive",
-      "semantic": ["movement", "action"],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "movement",
+        "action"
+      ],
       "verb_class": "godan-mu"
     },
     "created": "2026-04-07T18:26:43Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

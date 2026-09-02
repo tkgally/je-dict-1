@@ -19,7 +19,9 @@
       "english": "An old mansion remains standing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12395_yashiki_ex2",
@@ -27,7 +29,9 @@
       "english": "A samurai residence is open to the public as a tourist attraction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12395_yashiki_ex3",
@@ -35,7 +39,9 @@
       "english": "The vast estate built on the hill had both a garden and a storehouse.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{屋敷|やしき} evokes a sense of size and historical importance. It is commonly associated with the residences of {武士|ぶし} (samurai) and {大名|だいみょう} (feudal lords) from the {江戸|えど}{時代|じだい}. In modern usage, it can describe any impressively large house.\n\nSIMILAR WORDS:\n- {邸宅|ていたく}: mansion, grand residence (more formal)\n- {豪邸|ごうてい}: magnificent mansion (emphasizes luxury)\n- {家|いえ}: house (general, neutral)\n\nCOMMON COLLOCATIONS:\n- {武家|ぶけ}{屋敷|やしき}: samurai residence\n- {大名|だいみょう}{屋敷|やしき}: daimyo estate\n- お{化|ば}け{屋敷|やしき}: haunted house\n- {屋敷|やしき}{跡|あと}: site of a former mansion",
@@ -46,18 +52,57 @@
       "reading": "ていたく",
       "headword": "{邸宅|ていたく}",
       "label": "mansion (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18158_goutei",
+      "reading": "ごうてい",
+      "headword": "{豪邸|ごうてい}",
+      "label": "magnificent mansion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00612_ie",
+      "reading": "いえ",
+      "headword": "{家|いえ}",
+      "label": "house"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23029_tei",
+      "reading": "てい",
+      "headword": "{邸|てい}",
+      "label": "mansion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24134_yakata",
+      "reading": "やかた",
+      "headword": "{館|やかた}",
+      "label": "mansion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30736_youkan",
+      "reading": "ようかん",
+      "headword": "{洋館|ようかん}",
+      "label": "Western-style house (esp. a prewar one)"
     }
   ],
   "metadata": {
     "created": "2026-02-21T05:54:19Z",
-    "modified": "2026-04-26T10:06:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

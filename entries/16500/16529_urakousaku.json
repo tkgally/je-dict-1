@@ -3,7 +3,7 @@
   "id": "16529_urakousaku",
   "headword": "{裏工作|うらこうさく}",
   "reading": "うらこうさく",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "behind-the-scenes maneuvering; backroom dealings",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,25 @@
     }
   ],
   "notes": "USAGE:\nUsed as a noun or with する. Always carries a negative connotation — the actions described are secretive and often unethical or illegal. Commonly appears in political and business news.\n\nCOMMON COLLOCATIONS:\n- {裏工作|うらこうさく}をする (to engage in backroom dealings)\n- {裏工作|うらこうさく}が{発覚|はっかく}する (backroom dealings are exposed)\n- {裏工作|うらこうさく}に{走|はし}る (to resort to underhanded tactics)\n\nSIMILAR WORDS:\n- {根回|ねまわ}し: laying the groundwork — neutral or positive, describes legitimate behind-the-scenes consensus building\n- {隠蔽工作|いんぺいこうさく}: cover-up — specifically about hiding evidence or facts",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07727_nemawashi",
+      "reading": "ねまわし",
+      "headword": "{根回|ねまわ}し",
+      "label": "laying the groundwork"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16551_inpeikousaku",
+      "reading": "いんぺいこうさく",
+      "headword": "{隠蔽工作|いんぺいこうさく}",
+      "label": "cover-up"
+    }
+  ],
   "metadata": {
     "created": "2026-03-13T06:43:37Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{包囲|ほうい}",
   "reading": "ほうい",
   "romaji": "houi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "encirclement; siege; surrounding",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {包|ほう} (wrap/enclose) and {囲|い} (surround). Describes the tactical or physical act of surrounding something. Common in military history, news reports about police operations, and figurative expressions about being cornered.\n\nCOMMON COLLOCATIONS:\n- {包囲|ほうい}する: to surround, to besiege\n- {包囲|ほうい}{網|もう}: encirclement net, cordon\n- {包囲|ほうい}を{突破|とっぱ}する: to break through an encirclement\n- {包囲|ほうい}{攻撃|こうげき}: siege attack\n- {包囲|ほうい}される: to be surrounded\n\nSIMILAR WORDS:\n- {囲|かこ}む: to surround — the everyday verb for surrounding\n- {取|と}り{囲|かこ}む: to surround / to encircle — emphasizes closing in from all sides\n- {封鎖|ふうさ}: blockade — focuses on blocking access rather than surrounding\n\nNOTE ON HOMOPHONES:\nDo not confuse with {方位|ほうい} (compass direction/bearing), which has the same reading.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02037_kakomu",
+      "reading": "かこむ",
+      "headword": "{囲|かこ}む",
+      "label": "to surround"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20925_torikakomu",
+      "reading": "とりかこむ",
+      "headword": "{取|と}り{囲|かこ}む",
+      "label": "to surround / to encircle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18846_fuusa",
+      "reading": "ふうさ",
+      "headword": "{封鎖|ふうさ}",
+      "label": "blockade"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T21:08:10Z",
-    "modified": "2026-06-15T07:56:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

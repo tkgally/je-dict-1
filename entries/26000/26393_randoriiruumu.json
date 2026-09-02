@@ -17,7 +17,9 @@
       "id": "26393_randoriiruum_ex1",
       "japanese": "ランドリールームで{洗濯|せんたく}する。",
       "english": "I do laundry in the laundry room.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26393_randoriiruum_ex2",
       "japanese": "マンションの{一階|いっかい}に{共用|きょうよう}のランドリールームがある。",
       "english": "There's a shared laundry room on the first floor of the apartment building.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26393_randoriiruum_ex3",
       "japanese": "{新築|しんちく}の{家|いえ}にはランドリールームを{作|つく}って、{室内干|しつないぼ}しができるスペースを{確保|かくほ}したい。",
       "english": "In the new house, I want to build a laundry room with enough space for indoor drying.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A loanword from English 'laundry room.' In Japanese homes, a dedicated laundry room has become increasingly popular in modern house design, especially as a solution for indoor drying ({室内干|しつないぼ}し) during rainy seasons. Traditional Japanese homes typically have the washing machine in the bathroom area ({脱衣所|だついじょ}).\n\nIn apartment buildings and hotels, the term often refers to a shared coin-operated laundry facility, similar to a laundromat.\n\nCOMMON COLLOCATIONS:\n- {共用|きょうよう}ランドリールーム: shared laundry room\n- ランドリールーム{付|つ}き: with a laundry room\n- ランドリールームを{設|もう}ける: to install/set up a laundry room\n\nSIMILAR WORDS:\n- コインランドリー: coin laundry; laundromat — a commercial self-service laundry\n- {脱衣所|だついじょ}: changing room/utility area — the traditional space where washing machines are placed in Japanese homes\n- {洗濯室|せんたくしつ}: laundry room — the Japanese-origin equivalent, used in institutional settings",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09732_koinrandorii",
+      "reading": "こいんらんどりー",
+      "headword": "コインランドリー",
+      "label": "coin laundry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17619_datsuijo",
+      "reading": "だついじょ",
+      "headword": "{脱衣所|だついじょ}",
+      "label": "changing room/utility area"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["daily-life", "building"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "daily-life",
+        "building"
+      ]
     },
     "created": "2026-05-01T13:35:34Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

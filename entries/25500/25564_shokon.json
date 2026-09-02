@@ -45,7 +45,29 @@
     }
   ],
   "notes": "A formal term frequently encountered in demographic statistics, news reports about social trends, and official documents. Japan's rising age of first marriage is a widely discussed social issue.\n\nCOMMON COLLOCATIONS:\n- {初婚|しょこん}{年齢|ねんれい}: age at first marriage\n- {平均|へいきん}{初婚|しょこん}{年齢|ねんれい}: average age at first marriage\n- {初婚|しょこん}の{相手|あいて}: first marriage partner\n- {初婚同士|しょこんどうし}: both marrying for the first time\n\nSIMILAR WORDS:\n- {再婚|さいこん}: remarriage — marrying again after divorce or the death of a spouse\n- {晩婚|ばんこん}: late marriage — marrying at a relatively old age\n- {結婚|けっこん}: marriage — the general term, does not specify first or subsequent\n\nREGISTER:\nFormal. Primarily used in statistics, news, and official contexts rather than casual conversation.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22805_saikon",
+      "reading": "さいこん",
+      "headword": "{再婚|さいこん}",
+      "label": "remarriage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02514_kekkon",
+      "reading": "けっこん",
+      "headword": "{結婚|けっこん}",
+      "label": "marriage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25476_saikonsuru",
+      "reading": "さいこんする",
+      "headword": "{再婚|さいこん}する",
+      "label": "to remarry"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +75,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "family",
         "society"
       ]
     },
     "created": "2026-04-26T11:18:51Z",
-    "modified": "2026-04-26T11:18:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

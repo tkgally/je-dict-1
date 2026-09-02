@@ -3,7 +3,7 @@
   "id": "16558_chuudoku",
   "headword": "{中毒|ちゅうどく}",
   "reading": "ちゅうどく",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "poisoning; addiction",
   "conjugation": {
     "type": "suru",
@@ -177,11 +177,32 @@
       "reading": "いぞん",
       "headword": "{依存|いぞん}",
       "label": "dependence (clinical)"
+    },
+    {
+      "type": "related",
+      "target_id": "20581_chishiryou",
+      "reading": "ちしりょう",
+      "headword": "{致死量|ちしりょう}",
+      "label": "lethal dose"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23180_dokusatsu",
+      "reading": "どくさつ",
+      "headword": "{毒殺|どくさつ}",
+      "label": "poisoning (to death)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26314_tandeki",
+      "reading": "たんでき",
+      "headword": "{耽溺|たんでき}",
+      "label": "indulgence"
     }
   ],
   "metadata": {
     "created": "2026-03-13T23:54:38Z",
-    "modified": "2026-05-04T07:39:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

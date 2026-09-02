@@ -3,7 +3,7 @@
   "headword": "{鼎談|ていだん}",
   "reading": "ていだん",
   "romaji": "teidan",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "three-person discussion; trilateral talk",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "The character {鼎|てい} refers to a three-legged bronze vessel from ancient China, hence the association with the number three. This word specifically implies exactly three participants, unlike {座談|ざだん} which can have any number.\n\nCOMMON COLLOCATIONS:\n- {鼎談|ていだん}{記事|きじ}: three-person discussion article\n- {鼎談|ていだん}{企画|きかく}: three-way discussion project\n- {鼎談|ていだん}する: to have a three-person discussion\n- {鼎談|ていだん}を{行|おこな}う: to hold a three-person discussion\n\nSIMILAR WORDS:\n- {対談|たいだん}: dialogue; conversation between two people — specifically two participants\n- {座談|ざだん}: round-table discussion — any number of participants\n- {座談会|ざだんかい}: round-table discussion meeting — a more common general term for group discussions\n- {討論|とうろん}: debate; discussion — formal discussion with opposing viewpoints",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19950_taidan",
+      "reading": "たいだん",
+      "headword": "{対談|たいだん}",
+      "label": "dialogue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12549_zadankai",
+      "reading": "ざだんかい",
+      "headword": "{座談会|ざだんかい}",
+      "label": "round-table discussion meeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05100_touron",
+      "reading": "とうろん",
+      "headword": "{討論|とうろん}",
+      "label": "debate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-04T20:27:41Z",
-    "modified": "2026-04-04T20:27:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

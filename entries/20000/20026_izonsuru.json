@@ -169,8 +169,31 @@
       "notes": null
     }
   ],
-  "notes": "The basic pattern is AがBに{依存|いぞん}する (A depends on B). Used both for neutral reliance and for harmful addiction.\n\nCOMMON COLLOCATIONS:\n- 〜に{依存|いぞん}する: to depend on, to be reliant on\n- {依存|いぞん}{症|しょう}: addiction (as a medical condition)\n- {依存|いぞん}{度|ど}: degree of dependence\n- {依存|いぞん}{体質|たいしつ}: dependent personality/tendency\n- {相互|そうご}{依存|いぞん}: mutual dependence, interdependence\n\nSIMILAR WORDS:\n- {頼|たよ}る: to rely on, to depend on — more colloquial and emotional; implies seeking help or support from someone\n- {当|あ}てにする: to count on, to expect — implies relying on someone or something to come through\n- {甘|あま}える: to depend on someone's kindness — implies taking advantage of someone's goodwill\n\nREADING NOTE:\nTraditionally read as いそん, but いぞん has become the dominant modern pronunciation. Both are accepted.",
+  "notes": "The basic pattern is AがBに{依存|いぞん}する (A depends on B). Used both for neutral reliance and for harmful addiction.\n\nCOMMON COLLOCATIONS:\n- 〜に{依存|いぞん}する: to depend on, to be reliant on\n- {依存|いぞん}{症|しょう}: addiction (as a medical condition)\n- {依存|いぞん}{度|ど}: degree of dependence\n- {依存|いぞん}{体質|たいしつ}: dependent personality/tendency\n- {相互|そうご}{依存|いぞん}: mutual dependence, interdependence\n\nSIMILAR WORDS:\n- {頼|たよ}る: to rely on, to depend on — more colloquial and emotional; implies seeking help or support from someone\n- {当|あ}てにする: to count on, to expect — implies relying on someone or something to come through\n- {甘|あま}える: to depend on someone's kindness — implies taking advantage of someone's goodwill\n\nPRONUNCIATION:\nTraditionally read as いそん, but いぞん has become the dominant modern pronunciation. Both are accepted.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02069_tayoru",
+      "reading": "たよる",
+      "headword": "{頼|たよ}る",
+      "label": "to rely on, to depend on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25856_atenisuru",
+      "reading": "あてにする",
+      "headword": "{当|あ}てにする",
+      "label": "to count on, to expect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06624_amaeru",
+      "reading": "あまえる",
+      "headword": "{甘|あま}える",
+      "label": "to depend on someone's kindness"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -187,6 +210,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T05:26:15Z",
-    "modified": "2026-03-28T05:26:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

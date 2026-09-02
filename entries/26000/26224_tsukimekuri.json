@@ -17,7 +17,9 @@
       "id": "26224_tsukimekuri_ex1",
       "japanese": "{壁|かべ}に{月|つき}めくりのカレンダーを{掛|か}けた。",
       "english": "I hung a monthly calendar on the wall.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26224_tsukimekuri_ex2",
       "japanese": "{月|つき}めくりをめくって、{新|あたら}しい{月|つき}の{予定|よてい}を{確認|かくにん}した。",
       "english": "I turned the page of the monthly calendar and checked the schedule for the new month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "26224_tsukimekuri_ex3",
       "japanese": "{年末|ねんまつ}になると{会社|かいしゃ}から{月|つき}めくりのカレンダーが{配|くば}られる。",
       "english": "At year's end, the company distributes monthly wall calendars.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {月|つき} (month) and めくり (turning/flipping pages, from {捲|めく}る). The word describes the format of the calendar rather than its content.\n\nIn Japan, companies and organizations commonly give out {月|つき}めくり calendars as year-end gifts to clients and employees. These are a ubiquitous part of Japanese office and home life.\n\nCOMMON COLLOCATIONS:\n- {月|つき}めくりのカレンダー: a page-a-month calendar\n- {壁掛|かべか}け{月|つき}めくり: wall-hanging monthly calendar\n- {月|つき}めくりをめくる: to turn the page on the monthly calendar\n\nSIMILAR WORDS:\n- {日|ひ}めくり: daily tear-off calendar — one page per day\n- {卓上|たくじょう}カレンダー: desk calendar — placed on a desk rather than hung\n- カレンダー: calendar — general term for any calendar",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19045_himekuri",
+      "reading": "ひめくり",
+      "headword": "{日|ひ}めくり",
+      "label": "daily tear-off calendar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02897_karendaa",
+      "reading": "かれんだー",
+      "headword": "カレンダー",
+      "label": "calendar"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general", "tool"]
+      "semantic": [
+        "time-general",
+        "tool"
+      ]
     },
     "created": "2026-04-30T12:14:36Z",
-    "modified": "2026-04-30T12:14:36Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

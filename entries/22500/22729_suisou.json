@@ -3,7 +3,7 @@
   "headword": "{吹奏|すいそう}",
   "reading": "すいそう",
   "romaji": "suisou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "playing wind instruments; wind instrument performance",
   "definitions": [
     {
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {吹|すい} (to blow) + {奏|そう} (to play music). Most commonly appears in the compound {吹奏楽|すいそうがく} (wind ensemble music / concert band). School concert bands ({吹奏楽部|すいそうがくぶ}, often abbreviated as {吹部|すいぶ}) are one of the most popular extracurricular activities in Japanese middle and high schools.\n\nCOMMON COLLOCATIONS:\n- {吹奏楽|すいそうがく}: concert band, wind ensemble music\n- {吹奏楽部|すいそうがくぶ}: concert band club\n- {吹奏楽|すいそうがく}コンクール: concert band competition\n- {吹奏|すいそう}する: to play (a wind instrument)\n\nRELATED TERMS:\n- {演奏|えんそう}: musical performance — general term for playing any instrument\n- {管楽器|かんがっき}: wind instrument — the instruments themselves\n- ブラスバンド: brass band — sometimes used interchangeably with {吹奏楽|すいそうがく}, though technically refers only to brass instruments",
+  "notes": "A compound of {吹|すい} (to blow) + {奏|そう} (to play music). Most commonly appears in the compound {吹奏楽|すいそうがく} (wind ensemble music / concert band). School concert bands ({吹奏楽部|すいそうがくぶ}, often abbreviated as {吹部|すいぶ}) are one of the most popular extracurricular activities in Japanese middle and high schools.\n\nCOMMON COLLOCATIONS:\n- {吹奏楽|すいそうがく}: concert band, wind ensemble music\n- {吹奏楽部|すいそうがくぶ}: concert band club\n- {吹奏楽|すいそうがく}コンクール: concert band competition\n- {吹奏|すいそう}する: to play (a wind instrument)\n\nRELATED WORDS:\n- {演奏|えんそう}: musical performance — general term for playing any instrument\n- {管楽器|かんがっき}: wind instrument — the instruments themselves\n- ブラスバンド: brass band — sometimes used interchangeably with {吹奏楽|すいそうがく}, though technically refers only to brass instruments",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01896_ensou",
+      "reading": "えんそう",
+      "headword": "{演奏|えんそう}",
+      "label": "musical performance"
+    },
+    {
+      "type": "related",
+      "target_id": "07533_kangakki",
+      "reading": "かんがっき",
+      "headword": "{管楽器|かんがっき}",
+      "label": "wind instrument"
+    },
+    {
+      "type": "related",
+      "target_id": "23427_burasubando",
+      "reading": "ぶらすばんど",
+      "headword": "ブラスバンド",
+      "label": "brass band"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +86,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-07T12:43:19Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

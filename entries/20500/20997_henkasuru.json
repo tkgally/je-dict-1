@@ -3,7 +3,7 @@
   "headword": "{変化|へんか}する",
   "reading": "へんかする",
   "romaji": "henkasuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to change; to transform; to vary",
   "definitions": [
     {
@@ -47,6 +47,57 @@
   "notes": "A する verb composed of {変|へん} (change) + {化|か} (transform, -ification). One of the most common する verbs. Primarily intransitive — the thing itself changes. To change something actively, use {変|か}える.\n\nCOMMON COLLOCATIONS:\n- {大|おお}きく{変化|へんか}する: to change greatly\n- {急激|きゅうげき}に{変化|へんか}する: to change rapidly\n- {変化|へんか}に{富|と}む: to be full of variety/change\n- {変化|へんか}に{対応|たいおう}する: to respond to change\n- {変化|へんか}が{激|はげ}しい: to have dramatic changes\n\nSIMILAR WORDS:\n- {変|か}わる: to change — everyday native Japanese word; more casual\n- {変動|へんどう}する: to fluctuate — implies repeated or unstable changes (prices, temperatures)\n- {転換|てんかん}する: to convert, to shift — a deliberate, decisive change in direction\n- {進化|しんか}する: to evolve — change that implies improvement or advancement",
   "conjugation_type": "suru",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00714_kawaru",
+      "reading": "かわる",
+      "headword": "{変|か}わる",
+      "label": "to change"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09936_hendou",
+      "reading": "へんどう",
+      "headword": "{変動|へんどう}",
+      "label": "to fluctuate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19439_tenkan",
+      "reading": "てんかん",
+      "headword": "{転換|てんかん}",
+      "label": "to convert, to shift"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06029_shinka",
+      "reading": "しんか",
+      "headword": "{進化|しんか}",
+      "label": "to evolve"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19543_utsurikawaru",
+      "reading": "うつりかわる",
+      "headword": "{移|うつ}り{変|か}わる",
+      "label": "to change gradually"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25383_henshinsuru",
+      "reading": "へんしんする",
+      "headword": "{変身|へんしん}する",
+      "label": "to transform"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25552_tayoukasuru",
+      "reading": "たようかする",
+      "headword": "{多様化|たようか}する",
+      "label": "to diversify"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +113,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-31T09:52:21Z",
-    "modified": "2026-04-10T06:37:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

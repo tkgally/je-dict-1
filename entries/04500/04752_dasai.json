@@ -2,7 +2,7 @@
   "id": "04752_dasai",
   "headword": "ダサい",
   "reading": "ださい",
-  "part_of_speech": "adjective (i-adjective)",
+  "part_of_speech": "i-adjective",
   "gloss": "uncool, lame",
   "definitions": [
     {
@@ -48,11 +48,60 @@
       "headword": "かっこいい",
       "label": "cool",
       "target_id": "09378_kakkoii"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10759_kakkowarui",
+      "reading": "かっこわるい",
+      "headword": "かっこわるい",
+      "label": "uncool"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04754_kimoi",
+      "reading": "きもい",
+      "headword": "キモい",
+      "label": "gross, creepy"
+    },
+    {
+      "type": "antonym",
+      "target_id": "07802_iketeru",
+      "reading": "いけてる",
+      "headword": "イケてる",
+      "label": "cool, stylish"
+    },
+    {
+      "type": "related",
+      "target_id": "09183_yabottai",
+      "reading": "やぼったい",
+      "headword": "{野暮|やぼ}ったい",
+      "label": "unfashionable, tacky, unsophisticated"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18223_bukakkou",
+      "reading": "ぶかっこう",
+      "headword": "{不格好|ぶかっこう}",
+      "label": "awkward-looking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21043_inakakusai",
+      "reading": "いなかくさい",
+      "headword": "{田舎臭|いなかくさ}い",
+      "label": "countrified"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27017_ryuukouokure",
+      "reading": "りゅうこうおくれ",
+      "headword": "{流行遅|りゅうこうおく}れ",
+      "label": "out of fashion"
     }
   ],
   "metadata": {
     "created": "2026-01-15T23:51:34Z",
-    "modified": "2026-06-02T14:10:55Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

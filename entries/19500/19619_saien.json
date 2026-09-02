@@ -17,7 +17,9 @@
       "id": "19619_saien_ex1",
       "japanese": "{裏庭|うらにわ}に{菜園|さいえん}がある。",
       "english": "There's a vegetable garden in the backyard.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19619_saien_ex2",
       "japanese": "{週末|しゅうまつ}は{菜園|さいえん}の{手入|てい}れをしている。",
       "english": "I tend the vegetable garden on weekends.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "19619_saien_ex3",
       "japanese": "{定年|ていねん}{退職|たいしょく}{後|ご}、{家庭|かてい}{菜園|さいえん}を{始|はじ}めたのが{毎日|まいにち}の{楽|たの}しみになった。",
       "english": "After retiring, starting a home vegetable garden became my daily pleasure.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {菜|さい} (vegetables/greens) and {園|えん} (garden/park). Refers specifically to a garden for growing vegetables, as opposed to a flower garden ({花壇|かだん}) or an ornamental garden ({庭園|ていえん}).\n\nCOMMON COLLOCATIONS:\n- {家庭|かてい}{菜園|さいえん}: home vegetable garden\n- {菜園|さいえん}を{作|つく}る: make a vegetable garden\n- {菜園|さいえん}の{手入|てい}れ: tending a vegetable garden\n- {市民|しみん}{菜園|さいえん}: community garden, allotment\n- {屋上|おくじょう}{菜園|さいえん}: rooftop vegetable garden\n\nUSAGE:\nThe most common compound is {家庭|かてい}{菜園|さいえん} (home vegetable garden), a popular hobby in Japan especially among retirees. {市民|しみん}{菜園|さいえん} are rented plots in urban areas where city dwellers can grow their own vegetables.\n\nSIMILAR WORDS:\n- {畑|はたけ}: field, farm plot — a broader word for cultivated land, typically larger in scale than a {菜園|さいえん}\n- {庭|にわ}: garden, yard — general word for a garden or yard, not specifically for growing vegetables\n- {農園|のうえん}: farm, plantation — a larger-scale agricultural operation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00842_hatake",
+      "reading": "はたけ",
+      "headword": "{畑|はたけ}",
+      "label": "field, farm plot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02239_niwa",
+      "reading": "にわ",
+      "headword": "{庭|にわ}",
+      "label": "garden, yard"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26824_nouen",
+      "reading": "のうえん",
+      "headword": "{農園|のうえん}",
+      "label": "farm, plantation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["plant-general", "leisure"]
+      "semantic": [
+        "plant-general",
+        "leisure"
+      ]
     },
     "created": "2026-03-26T08:35:33Z",
-    "modified": "2026-03-26T08:35:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

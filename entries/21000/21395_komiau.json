@@ -3,7 +3,7 @@
   "headword": "{込|こ}み{合|あ}う",
   "reading": "こみあう",
   "romaji": "komiau",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to be crowded; to be packed",
   "conjugation_class": "godan",
   "stem": "{込|こ}み{合|あ}",
@@ -49,6 +49,43 @@
   ],
   "notes": "Describes places being crowded with people. Most commonly used in the ている form ({込|こ}み{合|あ}っている) to describe the current state of congestion. Also written as {混|こ}み{合|あ}う, but the {込|こ}み{合|あ}う spelling is also standard.\n\nCOMMON COLLOCATIONS:\n- {道|みち}が{込|こ}み{合|あ}う: the road is congested\n- {店|みせ}が{込|こ}み{合|あ}う: the shop is crowded\n- {窓口|まどぐち}が{込|こ}み{合|あ}う: the counter is busy\n- {込|こ}み{合|あ}う{時間帯|じかんたい}: peak hours\n\nSIMILAR WORDS:\n- {混雑|こんざつ}する: to be congested — more formal, used in announcements and signage\n- {混|こ}む: to be crowded — simpler form with the same basic meaning; {込|こ}み{合|あ}う emphasizes greater intensity\n- {賑|にぎ}わう: to be bustling — implies liveliness and positive energy, not just density of people",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25387_konzatsusuru",
+      "reading": "こんざつする",
+      "headword": "{混雑|こんざつ}する",
+      "label": "to be congested"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02574_komu",
+      "reading": "こむ",
+      "headword": "{混|こ}む",
+      "label": "to be crowded"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14235_nigiwau",
+      "reading": "にぎわう",
+      "headword": "{賑|にぎ}わう",
+      "label": "to be bustling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02809_konzatsu",
+      "reading": "こんざつ",
+      "headword": "{混雑|こんざつ}",
+      "label": "congestion, crowding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07834_hishimeku",
+      "reading": "ひしめく",
+      "headword": "ひしめく",
+      "label": "to crowd together"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +100,7 @@
       "verb_class": "godan-u"
     },
     "created": "2026-04-02T02:46:53Z",
-    "modified": "2026-04-02T02:46:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

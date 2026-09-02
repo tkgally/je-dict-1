@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{天気|てんき} is the common word for weather in daily conversation.\n\nCOMMON EXPRESSIONS:\n- ⟦いい→いい：00118_ii⟧{天気|てんき}: nice/good weather\n- ⟦{悪|わる}い→悪い：00908_warui⟧{天気|てんき}: bad weather\n- {天気|てんき}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧/⟦{悪|わる}い→悪い：00908_warui⟧: the weather is good/bad\n- {天気|てんき}⟦が→が：00051_ga⟧⟦{崩|くず}れる→崩れる：04248_kuzureru⟧: weather worsens\n\nRELATED TERMS:\n- ⟦{天気予報|てんきよほう}→天気予報：01678_tenkiyohou⟧: weather forecast\n- ⟦{天候|てんこう}→天候：03558_tenkou⟧: weather (more formal)\n- ⟦{気象|きしょう}→気象：09943_kishou⟧: meteorology, weather conditions\n\nWEATHER TYPES:\n- ⟦{晴|は}れ→晴れ：02936_hare⟧: sunny\n- ⟦{曇|くも}り→曇り：02875_kumori⟧: cloudy\n- ⟦{雨|あめ}→雨：00583_ame⟧: rain\n- ⟦{雪|ゆき}→雪：00584_yuki⟧: snow",
+  "notes": "{天気|てんき} is the common word for weather in daily conversation.\n\nCOMMON EXPRESSIONS:\n- ⟦いい→いい：00118_ii⟧{天気|てんき}: nice/good weather\n- ⟦{悪|わる}い→悪い：00908_warui⟧{天気|てんき}: bad weather\n- {天気|てんき}⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧/⟦{悪|わる}い→悪い：00908_warui⟧: the weather is good/bad\n- {天気|てんき}⟦が→が：00051_ga⟧⟦{崩|くず}れる→崩れる：04248_kuzureru⟧: weather worsens\n\nRELATED WORDS:\n- ⟦{天気予報|てんきよほう}→天気予報：01678_tenkiyohou⟧: weather forecast\n- ⟦{天候|てんこう}→天候：03558_tenkou⟧: weather (more formal)\n- ⟦{気象|きしょう}→気象：09943_kishou⟧: meteorology, weather conditions\n\nWEATHER TYPES:\n- ⟦{晴|は}れ→晴れ：02936_hare⟧: sunny\n- ⟦{曇|くも}り→曇り：02875_kumori⟧: cloudy\n- ⟦{雨|あめ}→雨：00583_ame⟧: rain\n- ⟦{雪|ゆき}→雪：00584_yuki⟧: snow",
   "cross_references": [
     {
       "type": "related",
@@ -78,11 +78,32 @@
       "headword": "{雪|ゆき}",
       "target_id": "00584_yuki",
       "label": "snow"
+    },
+    {
+      "type": "related",
+      "target_id": "03558_tenkou",
+      "reading": "てんこう",
+      "headword": "{天候|てんこう}",
+      "label": "weather"
+    },
+    {
+      "type": "related",
+      "target_id": "09943_kishou",
+      "reading": "きしょう",
+      "headword": "{気象|きしょう}",
+      "label": "meteorology, weather conditions"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19362_soramoyou",
+      "reading": "そらもよう",
+      "headword": "{空模様|そらもよう}",
+      "label": "look of the sky"
     }
   ],
   "metadata": {
     "created": "2026-01-07T15:55:39Z",
-    "modified": "2026-05-11T23:16:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

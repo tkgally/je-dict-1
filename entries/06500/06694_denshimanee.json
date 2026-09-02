@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n⟦{電子|でんし}→電子：03449_denshi⟧ (electronic) + ⟦マネー→マネー：29549_manee⟧ (money).\n\nWHAT IT COVERS:\nPrepaid transport IC cards (Suica, PASMO, ICOCA), retailer cards (nanaco, WAON), and smartphone payment apps (PayPay, LINE Pay, {楽天|らくてん}ペイ). Transport cards are accepted in convenience stores and vending machines as well as at ticket gates, so in ordinary conversation {電子|でんし}マネー usually means tapping a card or phone at a till rather than an online transfer.\n\nCOLLOCATIONS:\n- {電子|でんし}マネー⟦で→で：00502_de⟧⟦{払|はら}う→払う：00535_harau⟧ — to pay with e-money\n- {電子|でんし}マネー⟦に→に：00314_ni⟧⟦チャージ→チャージ：09729_chaaji⟧⟦する→する：00392_suru⟧ — to top up e-money\n- {電子|でんし}マネー⟦{対応|たいおう}→対応：02510_taiou⟧ — accepts e-money (the wording on shop signs)\n\nRELATED TERMS:\n- ⟦キャッシュレス→キャッシュレス：06096_kyasshuresu⟧ — cashless\n- ⟦{非接触|ひせっしょく}→非接触：15813_hisesshoku⟧⟦{決済|けっさい}→決済：05466_kessai⟧ — contactless payment\n- QRコード⟦{決済|けっさい}→決済：05466_kessai⟧ — QR-code payment",
+  "notes": "FORMS:\n⟦{電子|でんし}→電子：03449_denshi⟧ (electronic) + ⟦マネー→マネー：29549_manee⟧ (money).\n\nWHAT IT COVERS:\nPrepaid transport IC cards (Suica, PASMO, ICOCA), retailer cards (nanaco, WAON), and smartphone payment apps (PayPay, LINE Pay, {楽天|らくてん}ペイ). Transport cards are accepted in convenience stores and vending machines as well as at ticket gates, so in ordinary conversation {電子|でんし}マネー usually means tapping a card or phone at a till rather than an online transfer.\n\nCOMMON COLLOCATIONS:\n- {電子|でんし}マネー⟦で→で：00502_de⟧⟦{払|はら}う→払う：00535_harau⟧ — to pay with e-money\n- {電子|でんし}マネー⟦に→に：00314_ni⟧⟦チャージ→チャージ：09729_chaaji⟧⟦する→する：00392_suru⟧ — to top up e-money\n- {電子|でんし}マネー⟦{対応|たいおう}→対応：02510_taiou⟧ — accepts e-money (the wording on shop signs)\n\nRELATED WORDS:\n- ⟦キャッシュレス→キャッシュレス：06096_kyasshuresu⟧ — cashless\n- ⟦{非接触|ひせっしょく}→非接触：15813_hisesshoku⟧⟦{決済|けっさい}→決済：05466_kessai⟧ — contactless payment\n- QRコード⟦{決済|けっさい}→決済：05466_kessai⟧ — QR-code payment",
   "cross_references": [
     {
       "type": "related",
@@ -63,11 +63,46 @@
       "reading": "けっさい",
       "headword": "{決済|けっさい}",
       "target_id": "05466_kessai"
+    },
+    {
+      "type": "related",
+      "target_id": "06400_kasoutsuuka",
+      "reading": "かそうつうか",
+      "headword": "{仮想通貨|かそうつうか}",
+      "label": "cryptocurrency"
+    },
+    {
+      "type": "related",
+      "target_id": "09692_tacchikessai",
+      "reading": "たっちけっさい",
+      "headword": "タッチ{決済|けっさい}",
+      "label": "contactless payment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26166_kyasshuresukessai",
+      "reading": "きゃっしゅれすけっさい",
+      "headword": "キャッシュレス{決済|けっさい}",
+      "label": "cashless payment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29677_woretto",
+      "reading": "うぉれっと",
+      "headword": "ウォレット",
+      "label": "(digital) wallet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30702_puripeidokaado",
+      "reading": "ぷりぺいどかーど",
+      "headword": "プリペイドカード",
+      "label": "prepaid card"
     }
   ],
   "metadata": {
     "created": "2026-01-18T04:27:53Z",
-    "modified": "2026-07-30T09:18:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

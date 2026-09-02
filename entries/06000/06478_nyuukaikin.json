@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "COMPOSITION:\n・⟦{入会|にゅうかい}→入会：11671_nyuukai⟧ (joining, enrollment) + ⟦{金|きん}→金：02666_kin⟧ (fee, money)\n\nCONTRAST WITH OTHER FEES:\n・{入会金|にゅうかいきん}: one-time enrollment fee\n・⟦{月会費|げっかいひ}→月会費：18876_gekkaihi⟧: monthly membership fee\n・⟦{年会費|ねんかいひ}→年会費：06414_nenkaihi⟧: annual membership fee\n・⟦{登録料|とうろくりょう}→登録料：29833_tourokuryou⟧: registration fee\n\nCOMMON COLLOCATIONS:\n・{入会金|にゅうかいきん}⟦{無料|むりょう}→無料：01662_muryou⟧ (free enrollment fee)\n・{入会金|にゅうかいきん}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧ (to pay enrollment fee)\n・{入会金|にゅうかいきん}⟦{免除|めんじょ}→免除：05764_menjo⟧ (waiver of enrollment fee)\n・{入会金|にゅうかいきん}⟦キャンペーン→キャンペーン：10809_kyanpeen⟧ (enrollment fee campaign)\n\nCOMMON CONTEXTS:\n・⟦スポーツジム→スポーツジム：29834_supootsujimu⟧ (fitness gyms)\n・⟦{習|なら}い{事|ごと}→習い事：13902_naraigoto⟧ (lessons, classes)\n・⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧ (credit cards)\n・⟦{会員制|かいいんせい}→会員制：16796_kaiinsei⟧⟦サービス→サービス：01531_saabisu⟧ (membership services)",
+  "notes": "ETYMOLOGY:\n- ⟦{入会|にゅうかい}→入会：11671_nyuukai⟧ (joining, enrollment) + ⟦{金|きん}→金：02666_kin⟧ (fee, money)\n\nCONTRAST WITH OTHER FEES:\n- {入会金|にゅうかいきん}: one-time enrollment fee\n- ⟦{月会費|げっかいひ}→月会費：18876_gekkaihi⟧: monthly membership fee\n- ⟦{年会費|ねんかいひ}→年会費：06414_nenkaihi⟧: annual membership fee\n- ⟦{登録料|とうろくりょう}→登録料：29833_tourokuryou⟧: registration fee\n\nCOMMON COLLOCATIONS:\n- {入会金|にゅうかいきん}⟦{無料|むりょう}→無料：01662_muryou⟧ (free enrollment fee)\n- {入会金|にゅうかいきん}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧ (to pay enrollment fee)\n- {入会金|にゅうかいきん}⟦{免除|めんじょ}→免除：05764_menjo⟧ (waiver of enrollment fee)\n- {入会金|にゅうかいきん}⟦キャンペーン→キャンペーン：10809_kyanpeen⟧ (enrollment fee campaign)\n\nUSAGE:\n- ⟦スポーツジム→スポーツジム：29834_supootsujimu⟧ (fitness gyms)\n- ⟦{習|なら}い{事|ごと}→習い事：13902_naraigoto⟧ (lessons, classes)\n- ⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧ (credit cards)\n- ⟦{会員制|かいいんせい}→会員制：16796_kaiinsei⟧⟦サービス→サービス：01531_saabisu⟧ (membership services)",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,25 @@
       "headword": "{年会費|ねんかいひ}",
       "label": "annual fee",
       "target_id": "06414_nenkaihi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18876_gekkaihi",
+      "reading": "げっかいひ",
+      "headword": "{月|げっ}{会費|かいひ}",
+      "label": "monthly membership fee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29833_tourokuryou",
+      "reading": "とうろくりょう",
+      "headword": "{登録料|とうろくりょう}",
+      "label": "registration fee"
     }
   ],
   "metadata": {
     "created": "2026-01-17T16:58:28Z",
-    "modified": "2026-08-29T12:18:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

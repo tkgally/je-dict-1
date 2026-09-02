@@ -37,7 +37,7 @@
       ]
     }
   ],
-  "notes": "COMPOSITION: {宿泊|しゅくはく} (lodging, staying overnight) + {料|りょう} (fee).\n\nSYNONYMS:\n- {宿泊費|しゅくはくひ}: accommodation cost/expense\n- {室料|しつりょう}: room charge\n- {部屋代|へやだい}: room rate (colloquial)\n\nINCLUSIONS/EXCLUSIONS:\n- {素泊|すど}まり: room only (no meals)\n- {朝食付|ちょうしょくつ}き: with breakfast\n- {二食付|にしょくつ}き: with two meals (dinner and breakfast)\n- {夕食付|ゆうしょくつ}き: with dinner\n\nRELATED TERMS:\n- {宿泊税|しゅくはくぜい}: accommodation tax\n- サービス{料|りょう}: service charge\n- {入湯税|にゅうとうぜい}: bathing tax (hot spring areas)\n\nPRICING MODELS:\n- {一人|ひとり}{当|あ}たり: per person\n- {一部屋|ひとへや}{当|あ}たり: per room\n- 1{泊|ぱく}: per night",
+  "notes": "COMPOSITION: {宿泊|しゅくはく} (lodging, staying overnight) + {料|りょう} (fee).\n\nSIMILAR WORDS:\n- {宿泊費|しゅくはくひ}: accommodation cost/expense\n- {室料|しつりょう}: room charge\n- {部屋代|へやだい}: room rate (colloquial)\n\nINCLUSIONS/EXCLUSIONS:\n- {素泊|すど}まり: room only (no meals)\n- {朝食付|ちょうしょくつ}き: with breakfast\n- {二食付|にしょくつ}き: with two meals (dinner and breakfast)\n- {夕食付|ゆうしょくつ}き: with dinner\n\nRELATED WORDS:\n- {宿泊税|しゅくはくぜい}: accommodation tax\n- サービス{料|りょう}: service charge\n- {入湯税|にゅうとうぜい}: bathing tax (hot spring areas)\n\nPRICING MODELS:\n- {一人|ひとり}{当|あ}たり: per person\n- {一部屋|ひとへや}{当|あ}たり: per room\n- 1{泊|ぱく}: per night",
   "cross_references": [
     {
       "type": "related",
@@ -52,11 +52,32 @@
       "reading": "しゅくはく",
       "headword": "{宿泊|しゅくはく}",
       "label": "lodging"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25963_shukuhakuhi",
+      "reading": "しゅくはくひ",
+      "headword": "{宿泊費|しゅくはくひ}",
+      "label": "accommodation cost/expense"
+    },
+    {
+      "type": "related",
+      "target_id": "27929_saabisuryou",
+      "reading": "さーびすりょう",
+      "headword": "サービス{料|りょう}",
+      "label": "service charge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25794_yadodai",
+      "reading": "やどだい",
+      "headword": "{宿代|やどだい}",
+      "label": "lodging fee"
     }
   ],
   "metadata": {
     "created": "2026-01-18T23:54:32Z",
-    "modified": "2026-04-19T03:07:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

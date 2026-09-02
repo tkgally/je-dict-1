@@ -17,7 +17,9 @@
       "id": "24672_hogokansatsu_ex1",
       "japanese": "{被告人|ひこくにん}は{保護観察|ほごかんさつ}{付|つ}きの{執行猶予|しっこうゆうよ}を{受|う}けた。",
       "english": "The defendant received a suspended sentence with probation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24672_hogokansatsu_ex2",
       "japanese": "{保護観察|ほごかんさつ}{中|ちゅう}は{定期的|ていきてき}に{保護司|ほごし}と{面談|めんだん}しなければならない。",
       "english": "During probation, you must have regular meetings with a probation officer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,54 @@
       "id": "24672_hogokansatsu_ex3",
       "japanese": "{保護観察|ほごかんさつ}{制度|せいど}は{再犯|さいはん}{防止|ぼうし}と{社会復帰|しゃかいふっき}の{支援|しえん}を{目的|もくてき}としている。",
       "english": "The probation system aims to prevent reoffending and support rehabilitation into society.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {保護|ほご} (protection, supervision) and {観察|かんさつ} (observation, monitoring). In Japan's criminal justice system, probation is carried out largely by volunteer {保護司|ほごし} (probation officers) — community members who assist in the rehabilitation of offenders.\n\nUSAGE:\nCommonly encountered in news about criminal cases, especially sentencing. The phrase {保護観察付き執行猶予|ほごかんさつつきしっこうゆうよ} (suspended sentence with probation) is a standard legal outcome. Also applies to juvenile offenders released from reformatories.\n\nCOMMON COLLOCATIONS:\n- {保護観察|ほごかんさつ}{付|つ}き: with probation attached\n- {保護観察|ほごかんさつ}{中|ちゅう}: during probation\n- {保護観察|ほごかんさつ}{処分|しょぶん}: probation disposition\n- {保護観察|ほごかんさつ}{期間|きかん}: probation period\n\nSIMILAR WORDS:\n- {執行猶予|しっこうゆうよ}: suspended sentence — the sentence itself may or may not include probation\n- {仮釈放|かりしゃくほう}: parole — early release from prison, which is typically accompanied by probation\n- {保護司|ほごし}: probation officer — the volunteer who supervises offenders in the community\n- {更生|こうせい}: rehabilitation, reform — the broader concept of an offender returning to a law-abiding life",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18434_shikkouyuuyo",
+      "reading": "しっこうゆうよ",
+      "headword": "{執行猶予|しっこうゆうよ}",
+      "label": "suspended sentence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22608_karishakuhou",
+      "reading": "かりしゃくほう",
+      "headword": "{仮釈放|かりしゃくほう}",
+      "label": "parole"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18057_kousei",
+      "reading": "こうせい",
+      "headword": "{更生|こうせい}",
+      "label": "rehabilitation, reform"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["law"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "law"
+      ]
     },
     "created": "2026-04-20T11:23:41Z",
-    "modified": "2026-04-20T11:23:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

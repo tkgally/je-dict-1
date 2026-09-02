@@ -23,7 +23,9 @@
       "english": "A guest arrived.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10253_okyakusan_ex2",
@@ -31,7 +33,9 @@
       "english": "I served tea to the guest.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10253_okyakusan_ex3",
@@ -39,7 +43,9 @@
       "english": "A visitor is coming to our house tomorrow.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10253_okyakusan_ex4",
@@ -47,7 +53,9 @@
       "english": "Customer, what are you looking for?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10253_okyakusan_ex5",
@@ -55,7 +63,9 @@
       "english": "There are many customers today.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10253_okyakusan_ex6",
@@ -63,10 +73,12 @@
       "english": "It's a shop that values its customers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
-  "notes": "お{客|きゃく}さん is the polite, everyday term for both guests and customers. The お～さん honorific pattern makes it warm and approachable.\n\nFORMALITY LEVELS:\n- {客|きゃく}: plain, can sound blunt when referring to people directly\n- お{客|きゃく}さん: polite everyday form (most common)\n- お{客|きゃく}{様|さま}: very formal, used in business and service settings\n\nAS A FORM OF ADDRESS:\nShop staff and service workers use お{客|きゃく}さん or お{客|きゃく}{様|さま} to address customers directly (\"Excuse me, customer...\"). This is natural in Japanese, unlike English.\n\nCOMMON COLLOCATIONS:\n- お{客|きゃく}さんが{来|く}る: a guest is coming\n- お{客|きゃく}さんを{迎|むか}える: to welcome a guest\n- お{客|きゃく}さんをもてなす: to entertain a guest\n\nRELATED TERMS:\n- {来客|らいきゃく}: visitor (formal/written)\n- {顧客|こきゃく}: client, customer (business term)",
+  "notes": "お{客|きゃく}さん is the polite, everyday term for both guests and customers. The お～さん honorific pattern makes it warm and approachable.\n\nFORMALITY LEVELS:\n- {客|きゃく}: plain, can sound blunt when referring to people directly\n- お{客|きゃく}さん: polite everyday form (most common)\n- お{客|きゃく}{様|さま}: very formal, used in business and service settings\n\nAS A FORM OF ADDRESS:\nShop staff and service workers use お{客|きゃく}さん or お{客|きゃく}{様|さま} to address customers directly (\"Excuse me, customer...\"). This is natural in Japanese, unlike English.\n\nCOMMON COLLOCATIONS:\n- お{客|きゃく}さんが{来|く}る: a guest is coming\n- お{客|きゃく}さんを{迎|むか}える: to welcome a guest\n- お{客|きゃく}さんをもてなす: to entertain a guest\n\nRELATED WORDS:\n- {来客|らいきゃく}: visitor (formal/written)\n- {顧客|こきゃく}: client, customer (business term)",
   "prominent_see_also": [
     {
       "target_id": "00865_kyaku",
@@ -81,16 +93,49 @@
       "note": "honorific form"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13061_raikyaku",
+      "reading": "らいきゃく",
+      "headword": "{来客|らいきゃく}",
+      "label": "visitor"
+    },
+    {
+      "type": "related",
+      "target_id": "08632_kokyaku",
+      "reading": "こきゃく",
+      "headword": "{顧客|こきゃく}",
+      "label": "client, customer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19023_raijousha",
+      "reading": "らいじょうしゃ",
+      "headword": "{来場者|らいじょうしゃ}",
+      "label": "visitor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21791_tokuisaki",
+      "reading": "とくいさき",
+      "headword": "{得意先|とくいさき}",
+      "label": "customer"
+    }
+  ],
   "metadata": {
     "created": "2026-02-05T14:59:26Z",
-    "modified": "2026-04-22T05:10:54Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "polite",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

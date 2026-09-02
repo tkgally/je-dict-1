@@ -19,7 +19,9 @@
       "english": "Fighter jets launched from the aircraft carrier.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15702_kuubo_ex2",
@@ -27,7 +29,9 @@
       "english": "Aircraft carriers are the mainstay of the navy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15702_kuubo_ex3",
@@ -35,7 +39,9 @@
       "english": "News broke that a new aircraft carrier had been deployed to the Pacific.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "ETYMOLOGY:\nAbbreviation of {航空母艦|こうくうぼかん} (aviation mother ship). The full form is still used in formal or historical contexts, but {空母|くうぼ} is the standard everyday term.\n\nCOMMON COLLOCATIONS:\n- {原子力|げんしりょく}{空母|くうぼ} (nuclear aircraft carrier)\n- {空母|くうぼ}{打撃群|だげきぐん} (carrier strike group)\n- {空母|くうぼ}を{建造|けんぞう}する (to build an aircraft carrier)\n\nSIMILAR WORDS:\n- {航空母艦|こうくうぼかん}: aircraft carrier (full, formal term)\n- {護衛艦|ごえいかん}: escort ship, destroyer (Japan's Maritime Self-Defense Force term)",
@@ -46,18 +52,50 @@
       "reading": "ぐんかん",
       "headword": "{軍艦|ぐんかん}",
       "label": "warship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23965_koukuubokan",
+      "reading": "こうくうぼかん",
+      "headword": "{航空母艦|こうくうぼかん}",
+      "label": "aircraft carrier"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18332_goeikan",
+      "reading": "ごえいかん",
+      "headword": "{護衛艦|ごえいかん}",
+      "label": "escort ship, destroyer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26766_junyoukan",
+      "reading": "じゅんようかん",
+      "headword": "{巡洋艦|じゅんようかん}",
+      "label": "cruiser (warship)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28035_kansaiki",
+      "reading": "かんさいき",
+      "headword": "艦載機",
+      "label": "carrier-based aircraft"
     }
   ],
   "metadata": {
     "created": "2026-03-08T07:40:38Z",
-    "modified": "2026-05-01T10:15:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["military"]
+      "semantic": [
+        "military"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{失墜|しっつい}",
   "reading": "しっつい",
   "romaji": "shittsui",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "loss (of reputation, authority, trust)",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A compound of {失|しつ} (to lose) and {墜|つい} (to fall). The verb form is {失墜|しっつい}する. Carries a strong sense of falling from a high position — the {墜|つい} character is the same one used in {墜落|ついらく} (crash). Used almost exclusively with intangible qualities like reputation and trust, not with physical objects.\n\nCOMMON COLLOCATIONS:\n- {信頼|しんらい}の{失墜|しっつい}: loss of trust\n- {権威|けんい}の{失墜|しっつい}: loss of authority\n- {名誉|めいよ}の{失墜|しっつい}: loss of honor\n- {威信|いしん}を{失墜|しっつい}させる: to damage one's prestige\n\nSIMILAR WORDS:\n- {喪失|そうしつ}: loss — more neutral and can apply to broader things (memory, motivation, etc.)\n- {低下|ていか}: decline, decrease — gradual reduction, not the dramatic fall implied by {失墜|しっつい}\n- {失|うしな}う: to lose — the basic verb for losing something",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11836_soushitsu",
+      "reading": "そうしつ",
+      "headword": "{喪失|そうしつ}",
+      "label": "loss"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04065_teika",
+      "reading": "ていか",
+      "headword": "{低下|ていか}",
+      "label": "decline, decrease"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01887_ushinau",
+      "reading": "うしなう",
+      "headword": "{失|うしな}う",
+      "label": "to lose"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T03:22:06Z",
-    "modified": "2026-04-02T03:22:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

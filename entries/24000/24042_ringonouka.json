@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of りんご ('apple') and {農家|のうか} ('farmer; farming household'). Like other crop + {農家|のうか} compounds (e.g., {米|こめ}{農家|のうか} 'rice farmer', {みかん{農家|のうか}} 'mandarin orange farmer'), the term covers both the individual farmer and the family business of growing apples.\n\nUSAGE:\n- The pattern X{農家|のうか} can mean (a) a person who grows X for a living, or (b) the farming household/business that does so. Context decides between the two readings.\n- Contrast with りんご{園|えん} ('apple orchard'), which refers to the place, not the people.\n- Common in seasonal news: harvest reports in October-November, frost or hail damage in spring, typhoon damage to fruit, and articles about pick-your-own tourism.\n\nCOMMON COLLOCATIONS:\n- りんご{農家|のうか}を{営|いとな}む: to run an apple-farming business\n- りんご{農家|のうか}の{息子|むすこ}: the son of an apple-farming family\n- {老舗|しにせ}のりんご{農家|のうか}: a long-established apple-farming household\n- りんご{農家|のうか}が{被害|ひがい}を{受|う}ける: apple farmers suffer damage (e.g., from weather)\n- りんご{農家|のうか}の{後継者|こうけいしゃ}: successor to an apple-farming household\n\nSIMILAR WORDS:\n- {農家|のうか}: farmer; farming household — generic term, without specifying the crop.\n- りんご{園|えん}: apple orchard — refers to the place, not the people.\n- {果樹|かじゅ}{農家|のうか}: fruit farmer — broader category that includes apple, pear, grape, etc.\n- {米|こめ}{農家|のうか}: rice farmer — same suffix pattern with a different crop.\n- {生産者|せいさんしゃ}: producer — covers any agricultural producer, often used on packaging and in food labelling.",
+  "notes": "Compound of りんご ('apple') and {農家|のうか} ('farmer; farming household'). Like other crop + {農家|のうか} compounds (e.g., {米|こめ}{農家|のうか} 'rice farmer', みかん{農家|のうか} 'mandarin orange farmer'), the term covers both the individual farmer and the family business of growing apples.\n\nUSAGE:\n- The pattern X{農家|のうか} can mean (a) a person who grows X for a living, or (b) the farming household/business that does so. Context decides between the two readings.\n- Contrast with りんご{園|えん} ('apple orchard'), which refers to the place, not the people.\n- Common in seasonal news: harvest reports in October-November, frost or hail damage in spring, typhoon damage to fruit, and articles about pick-your-own tourism.\n\nCOMMON COLLOCATIONS:\n- りんご{農家|のうか}を{営|いとな}む: to run an apple-farming business\n- りんご{農家|のうか}の{息子|むすこ}: the son of an apple-farming family\n- {老舗|しにせ}のりんご{農家|のうか}: a long-established apple-farming household\n- りんご{農家|のうか}が{被害|ひがい}を{受|う}ける: apple farmers suffer damage (e.g., from weather)\n- りんご{農家|のうか}の{後継者|こうけいしゃ}: successor to an apple-farming household\n\nSIMILAR WORDS:\n- {農家|のうか}: farmer; farming household — generic term, without specifying the crop.\n- りんご{園|えん}: apple orchard — refers to the place, not the people.\n- {果樹|かじゅ}{農家|のうか}: fruit farmer — broader category that includes apple, pear, grape, etc.\n- {米|こめ}{農家|のうか}: rice farmer — same suffix pattern with a different crop.\n- {生産者|せいさんしゃ}: producer — covers any agricultural producer, often used on packaging and in food labelling.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03539_nouka",
+      "reading": "のうか",
+      "headword": "{農家|のうか}",
+      "label": "farmer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24041_ringoen",
+      "reading": "りんごえん",
+      "headword": "りんご{園|えん}",
+      "label": "apple orchard"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25443_seisansha",
+      "reading": "せいさんしゃ",
+      "headword": "{生産者|せいさんしゃ}",
+      "label": "producer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,6 +87,6 @@
       ]
     },
     "created": "2026-04-15T21:02:35Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "I attend a woodworking class.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13063_mokkou_ex2",
@@ -27,7 +29,9 @@
       "english": "My father does woodworking as a hobby.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13063_mokkou_ex3",
@@ -35,21 +39,64 @@
       "english": "This area is known for its traditional woodworking techniques, and finely crafted furniture is made here.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n- {木工|もっこう}{教室|きょうしつ}: woodworking class\n- {木工|もっこう}{製品|せいひん}: woodworking products\n- {木工|もっこう}{技術|ぎじゅつ}: woodworking techniques\n- {木工|もっこう}{用|よう}{接着剤|せっちゃくざい}: wood glue\n- {木工|もっこう}{細工|ざいく}: woodwork, wood craftsmanship\n\nRELATED WORDS:\n- {大工|だいく}: carpenter (person who builds structures)\n- {彫刻|ちょうこく}: sculpture, carving\n- {木製|もくせい}: wooden, made of wood",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04051_daiku",
+      "reading": "だいく",
+      "headword": "{大工|だいく}",
+      "label": "carpenter"
+    },
+    {
+      "type": "related",
+      "target_id": "04448_choukoku",
+      "reading": "ちょうこく",
+      "headword": "{彫刻|ちょうこく}",
+      "label": "sculpture, carving"
+    },
+    {
+      "type": "related",
+      "target_id": "13083_mokusei_b",
+      "reading": "もくせい",
+      "headword": "{木製|もくせい}",
+      "label": "wooden, made of wood"
+    },
+    {
+      "type": "related",
+      "target_id": "04182_kougei",
+      "reading": "こうげい",
+      "headword": "{工芸|こうげい}",
+      "label": "crafts, industrial arts"
+    },
+    {
+      "type": "related",
+      "target_id": "23336_rokuro",
+      "reading": "ろくろ",
+      "headword": "{轆轤|ろくろ}",
+      "label": "potter's wheel"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T10:07:55Z",
-    "modified": "2026-02-23T10:07:55Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure", "work"]
+      "semantic": [
+        "leisure",
+        "work"
+      ]
     }
   }
 }

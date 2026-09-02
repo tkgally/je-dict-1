@@ -17,7 +17,9 @@
       "id": "23063_aibiki_ex1",
       "japanese": "{合挽|あいび}き{肉|にく}を{買|か}う。",
       "english": "To buy mixed ground meat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23063_aibiki_ex2",
       "japanese": "ハンバーグには{合挽|あいび}き{肉|にく}がよく{合|あ}う。",
       "english": "Mixed ground meat works well for hamburger steaks.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "23063_aibiki_ex3",
       "japanese": "{合挽|あいび}き{肉|にく}に{塩|しお}コショウと{卵|たまご}を{加|くわ}えてよくこねる。",
       "english": "Add salt, pepper, and egg to the mixed ground meat and knead well.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {合|あい} (combined/together) + {挽|び}き (ground/minced). Almost always used with {肉|にく} as {合挽|あいび}き{肉|にく}. The standard ratio is roughly 50-50 or 60-40 beef to pork.\n\nCOMMON COLLOCATIONS:\n- {合挽|あいび}き{肉|にく}: mixed ground meat\n- {合挽|あいび}きミンチ: mixed minced meat\n- {合挽|あいび}き{肉|にく}のハンバーグ: hamburger steak made with mixed ground meat\n\nUSAGE:\nIn Japanese supermarkets, ground meat is typically sold as {牛|ぎゅう}ひき{肉|にく} (beef), {豚|ぶた}ひき{肉|にく} (pork), {鶏|とり}ひき{肉|にく} (chicken), or {合挽|あいび}き{肉|にく} (mixed beef and pork). The blend gives dishes more richness than either meat alone.\n\nSIMILAR WORDS:\n- ひき{肉|にく}: ground meat — the general term for any ground/minced meat\n- ミンチ: mince — loanword for ground meat, used interchangeably with ひき{肉|にく}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17241_hikiniku",
+      "reading": "ひきにく",
+      "headword": "ひき{肉|にく}",
+      "label": "ground meat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20032_minchi",
+      "reading": "みんち",
+      "headword": "ミンチ",
+      "label": "mince"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-08T17:32:05Z",
-    "modified": "2026-04-08T17:32:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

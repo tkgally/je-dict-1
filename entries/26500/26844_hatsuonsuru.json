@@ -3,7 +3,7 @@
   "headword": "{発音|はつおん}する",
   "reading": "はつおんする",
   "romaji": "hatsuonsuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to pronounce; to articulate",
   "definitions": [
     {
@@ -55,7 +55,29 @@
     }
   ],
   "notes": "Essential vocabulary for language learners. The noun {発音|はつおん} is used frequently on its own to mean \"pronunciation\" and appears in many educational contexts.\n\nCOMMON COLLOCATIONS:\n- {発音|はつおん}{練習|れんしゅう}: pronunciation practice\n- {発音|はつおん}{記号|きごう}: phonetic symbols\n- {正|ただ}しい{発音|はつおん}: correct pronunciation\n- {発音|はつおん}がいい: to have good pronunciation\n- {発音|はつおん}が{悪|わる}い: to have poor pronunciation\n\nSIMILAR WORDS:\n- {読|よ}む: to read — may include reading aloud but not focused on sound production\n- {話|はな}す: to speak — broader act of communication\n- {唱|とな}える: to chant — reciting formulaic phrases or prayers",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00426_yomu",
+      "reading": "よむ",
+      "headword": "{読|よ}む",
+      "label": "to read"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00467_hanasu",
+      "reading": "はなす",
+      "headword": "{話|はな}す",
+      "label": "to speak"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10467_tonaeru",
+      "reading": "となえる",
+      "headword": "{唱|とな}える",
+      "label": "to chant"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,7 +93,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T13:10:53Z",
-    "modified": "2026-05-05T13:10:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

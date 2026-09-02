@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {作業|さぎょう} ('work, operation, task') and {中|ちゅう} ('during, in the middle of'). Very commonly seen on signs at construction sites, in software status messages, and as a general way to say something is in progress. The suffix {中|ちゅう} can attach to many nouns to indicate an ongoing state.\n\nCOMMON COLLOCATIONS:\n- {作業中|さぎょうちゅう}につき: due to work in progress\n- {作業中|さぎょうちゅう}{注意|ちゅうい}: caution: work in progress\n- ただいま{作業中|さぎょうちゅう}: currently working\n\nSIMILAR EXPRESSIONS:\n- {工事中|こうじちゅう}: under construction — specifically for building/road construction\n- メンテナンス{中|ちゅう}: under maintenance — common for websites and systems\n- {準備中|じゅんびちゅう}: in preparation — for shops or events not yet open",
+  "notes": "A compound of {作業|さぎょう} ('work, operation, task') and {中|ちゅう} ('during, in the middle of'). Very commonly seen on signs at construction sites, in software status messages, and as a general way to say something is in progress. The suffix {中|ちゅう} can attach to many nouns to indicate an ongoing state.\n\nCOMMON COLLOCATIONS:\n- {作業中|さぎょうちゅう}につき: due to work in progress\n- {作業中|さぎょうちゅう}{注意|ちゅうい}: caution: work in progress\n- ただいま{作業中|さぎょうちゅう}: currently working\n\nSIMILAR WORDS:\n- {工事中|こうじちゅう}: under construction — specifically for building/road construction\n- メンテナンス{中|ちゅう}: under maintenance — common for websites and systems\n- {準備中|じゅんびちゅう}: in preparation — for shops or events not yet open",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09625_koujichuu",
+      "reading": "こうじちゅう",
+      "headword": "{工事中|こうじちゅう}",
+      "label": "under construction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09540_junbichuu",
+      "reading": "じゅんびちゅう",
+      "headword": "{準備中|じゅんびちゅう}",
+      "label": "in preparation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21844_shinkouchuu",
+      "reading": "しんこうちゅう",
+      "headword": "{進行中|しんこうちゅう}",
+      "label": "in progress"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T14:12:42Z",
-    "modified": "2026-08-01T06:42:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

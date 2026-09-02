@@ -3,7 +3,7 @@
   "id": "16544_kateiyou",
   "headword": "{家庭用|かていよう}",
   "reading": "かていよう",
-  "part_of_speech": "noun / pre-noun adjectival",
+  "part_of_speech": "noun, pre-noun adjectival",
   "gloss": "for home use; household; domestic",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "Home video game consoles are popular.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16544_kateiyou_ex2",
@@ -27,7 +29,9 @@
       "english": "This is a household detergent.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16544_kateiyou_ex3",
@@ -35,7 +39,9 @@
       "english": "The capacity and price are vastly different between commercial and household products.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nFunctions as a pre-noun modifier with の or directly before a noun. Part of a productive pattern: {家庭用|かていよう} (household), {業務用|ぎょうむよう} (commercial), {工業用|こうぎょうよう} (industrial). Extremely common on product packaging and in stores.\n\nCOMMON COLLOCATIONS:\n- {家庭用|かていよう}ゲーム{機|き} (home game console)\n- {家庭用|かていよう}{洗剤|せんざい} (household detergent)\n- {家庭用|かていよう}{電気|でんき}{製品|せいひん} (household electrical appliances)\n- {家庭用|かていよう}{蓄電池|ちくでんち} (home storage battery)\n\nSIMILAR WORDS:\n- {業務用|ぎょうむよう}: for commercial/business use — larger quantities, professional grade\n- {個人用|こじんよう}: for personal use — focuses on individual rather than household",
@@ -46,18 +52,37 @@
       "reading": "ぎょうむよう",
       "headword": "{業務用|ぎょうむよう}",
       "label": "commercial use"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26704_kojinyou",
+      "reading": "こじんよう",
+      "headword": "{個人用|こじんよう}",
+      "label": "for personal use"
+    },
+    {
+      "type": "related",
+      "target_id": "26703_ippanyou",
+      "reading": "いっぱんよう",
+      "headword": "{一般用|いっぱんよう}",
+      "label": "for general use"
     }
   ],
   "metadata": {
     "created": "2026-03-13T06:48:36Z",
-    "modified": "2026-05-04T07:39:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "pre-noun-adjectival"],
+      "pos": [
+        "noun",
+        "pre-noun-adjectival"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

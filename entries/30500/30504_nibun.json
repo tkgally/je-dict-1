@@ -3,7 +3,7 @@
   "headword": "{二分|にぶん}",
   "reading": "にぶん",
   "romaji": "nibun",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "division into two; splitting in half",
   "definitions": [
     {
@@ -94,6 +94,20 @@
       "reading": "はんすう",
       "headword": "{半数|はんすう}",
       "label": "half the number of a group"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21140_bunkatsusuru",
+      "reading": "ぶんかつする",
+      "headword": "{分割|ぶんかつ}する",
+      "label": "to divide up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27489_futatsuniwaru",
+      "reading": "ふたつにわる",
+      "headword": "{二|ふた}つに{割|わ}る",
+      "label": "to split in two"
     }
   ],
   "schema_version": "2.0",
@@ -107,7 +121,7 @@
       "transitivity": "transitive",
       "verb_class": "suru",
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "number",
         "quantity",
@@ -116,7 +130,7 @@
       "domain": []
     },
     "created": "2026-08-08T12:24:37Z",
-    "modified": "2026-08-08T12:24:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

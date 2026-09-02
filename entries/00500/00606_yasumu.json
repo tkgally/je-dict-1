@@ -2,7 +2,7 @@
   "id": "00606_yasumu",
   "headword": "{休|やす}む",
   "reading": "やすむ",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to rest, to take a day off",
   "conjugation": {
     "type": "godan",
@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: Sense 1 ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive), Sense 2 ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive with ⟦を→を：00422_wo⟧). No pair verb.\n\nASPECT: ている indicates ongoing state. {休|やす}んでいる = 'is resting' or 'is off (work/school).'\n\nCOMMON PATTERNS:\n・⟦{少|すこ}し→少し：00596_sukoshi⟧{休|やす}む (rest a little)\n・⟦{学校|がっこう}→学校：00055_gakkou⟧⟦を→を：00422_wo⟧{休|やす}む (take day off school)\n・⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧{休|やす}む (take day off work)\n・⟦ゆっくり→ゆっくり：00910_yukkuri⟧{休|やす}む (rest well)\n\nGodan verb: te-form {休|やす}んで.\n\nRelated:\n- ⟦{休|やす}み→休み：02266_yasumi⟧ (break, vacation)\n- ⟦{休日|きゅうじつ}→休日：03028_kyuujitsu⟧ (holiday).",
+  "notes": "TRANSITIVITY: Sense 1 ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive), Sense 2 ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive with ⟦を→を：00422_wo⟧). No pair verb.\n\nASPECT: ている indicates ongoing state. {休|やす}んでいる = 'is resting' or 'is off (work/school).'\n\nCOMMON PATTERNS:\n- ⟦{少|すこ}し→少し：00596_sukoshi⟧{休|やす}む (rest a little)\n- ⟦{学校|がっこう}→学校：00055_gakkou⟧⟦を→を：00422_wo⟧{休|やす}む (take day off school)\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧{休|やす}む (take day off work)\n- ⟦ゆっくり→ゆっくり：00910_yukkuri⟧{休|やす}む (rest well)\n\nGodan verb: te-form {休|やす}んで.\n\nRelated:\n- ⟦{休|やす}み→休み：02266_yasumi⟧ (break, vacation)\n- ⟦{休日|きゅうじつ}→休日：03028_kyuujitsu⟧ (holiday).",
   "prominent_see_also": [
     {
       "target_id": "02437_yasumeru",
@@ -224,11 +224,53 @@
       "headword": "{休|やす}み",
       "target_id": "02266_yasumi",
       "label": "rest, break"
+    },
+    {
+      "type": "related",
+      "target_id": "00262_kyuukei",
+      "reading": "きゅうけい",
+      "headword": "{休憩|きゅうけい}",
+      "label": "break, rest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02495_kesseki",
+      "reading": "けっせき",
+      "headword": "{欠席|けっせき}",
+      "label": "absence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02531_rirakkusu",
+      "reading": "りらっくす",
+      "headword": "リラックス",
+      "label": "relax, relaxation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02576_kutsurogu",
+      "reading": "くつろぐ",
+      "headword": "くつろぐ",
+      "label": "to relax, to feel at ease"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22283_kessekisuru",
+      "reading": "けっせきする",
+      "headword": "{欠席|けっせき}する",
+      "label": "to be absent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27811_yasumaru",
+      "reading": "やすまる",
+      "headword": "{休|やす}まる",
+      "label": "to be rested"
     }
   ],
   "metadata": {
     "created": "2026-01-07T15:12:33Z",
-    "modified": "2026-04-10T06:41:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

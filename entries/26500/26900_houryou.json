@@ -17,7 +17,9 @@
       "id": "26900_houryou_ex1",
       "japanese": "{今年|ことし}は{豊漁|ほうりょう}だ。",
       "english": "It's a good catch this year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26900_houryou_ex2",
       "japanese": "サンマが{豊漁|ほうりょう}で{値段|ねだん}が{下|さ}がった。",
       "english": "Saury prices dropped because of the abundant catch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,39 @@
       "id": "26900_houryou_ex3",
       "japanese": "{漁師|りょうし}たちは{豊漁|ほうりょう}を{祈|いの}って{出港|しゅっこう}した。",
       "english": "The fishermen set out to sea praying for a bountiful catch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {豊|ほう} (abundant, rich) and {漁|りょう} (fishing, catch). The antonym is {不漁|ふりょう} (poor catch). Commonly seen in seasonal news reports about fish catches.\n\nCOMMON COLLOCATIONS:\n- {豊漁|ほうりょう}に{恵|めぐ}まれる: to be blessed with a good catch\n- {豊漁|ほうりょう}を{祈|いの}る: to pray for an abundant catch\n- {記録的|きろくてき}な{豊漁|ほうりょう}: a record-breaking catch\n- {豊漁|ほうりょう}{貧乏|びんぼう}: poverty due to an oversupply of fish (prices crash so fishermen lose money despite catching more)\n\nSIMILAR WORDS:\n- {大漁|たいりょう}: big catch — more casual and celebratory; often seen on fishing flags ({大漁旗|たいりょうばた})\n- {不漁|ふりょう}: poor catch — the antonym\n- {豊作|ほうさく}: bumper crop — the agricultural equivalent (for farming, not fishing)\n\nCULTURAL NOTE:\n{豊漁|ほうりょう}{貧乏|びんぼう} is a well-known economic paradox in Japan: when the catch is too good, fish prices plummet and fishermen's income actually decreases despite the abundance.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14227_housaku",
+      "reading": "ほうさく",
+      "headword": "{豊作|ほうさく}",
+      "label": "bumper crop"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature", "food"],
+      "semantic": [
+        "nature",
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-05-05T15:10:38Z",
-    "modified": "2026-05-05T15:10:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

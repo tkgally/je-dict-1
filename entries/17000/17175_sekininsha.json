@@ -19,7 +19,9 @@
       "english": "Please call the person in charge.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17175_sekininsha_ex2",
@@ -27,7 +29,9 @@
       "english": "The person in charge of this project is Mr. Tanaka.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17175_sekininsha_ex3",
@@ -35,7 +39,9 @@
       "english": "The responsible party for the accident apologized at a press conference.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA common word in workplaces and public settings. When a customer has a complaint, {責任者|せきにんしゃ}を{呼|よ}んでください (\"Let me speak to the person in charge\") is a standard phrase.\n\nCOMMON COLLOCATIONS:\n- {責任者|せきにんしゃ}を{呼|よ}ぶ (to call the person in charge)\n- {現場|げんば}{責任者|せきにんしゃ} (on-site supervisor)\n- {管理|かんり}{責任者|せきにんしゃ} (manager in charge)\n- {最高|さいこう}{責任者|せきにんしゃ} (chief officer)\n\nSIMILAR WORDS:\n- {担当者|たんとうしゃ}: person in charge of a specific task — narrower scope\n- {管理者|かんりしゃ}: administrator, manager — focuses on management role",
@@ -60,18 +66,51 @@
       "reading": "せきにん",
       "headword": "{責任|せきにん}",
       "label": "responsibility"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23644_sashizuyaku",
+      "reading": "さしずやく",
+      "headword": "{指図役|さしずやく}",
+      "label": "person who gives orders"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23775_ukemochi",
+      "reading": "うけもち",
+      "headword": "{受|う}け{持|も}ち",
+      "label": "charge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24621_shukan",
+      "reading": "しゅかん",
+      "headword": "{主幹|しゅかん}",
+      "label": "chief editor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30334_suishinsha",
+      "reading": "すいしんしゃ",
+      "headword": "{推進者|すいしんしゃ}",
+      "label": "promoter"
     }
   ],
   "metadata": {
     "created": "2026-03-16T05:44:20Z",
-    "modified": "2026-05-06T04:08:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "business"]
+      "semantic": [
+        "person",
+        "business"
+      ]
     }
   }
 }

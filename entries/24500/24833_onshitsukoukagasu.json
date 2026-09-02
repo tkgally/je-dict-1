@@ -46,12 +46,58 @@
   ],
   "notes": "The standard Japanese term for greenhouse gases. Composed of {温室|おんしつ} (greenhouse) + {効果|こうか} (effect) + ガス (gas). Extremely common in environmental news, policy discussions, and climate change reporting.\n\nCOMMON COLLOCATIONS:\n- {温室|おんしつ}{効果|こうか}ガスの{排出|はいしゅつ} — greenhouse gas emissions\n- {温室|おんしつ}{効果|こうか}ガスの{削減|さくげん} — greenhouse gas reduction\n- {温室|おんしつ}{効果|こうか}ガス{排出量|はいしゅつりょう} — greenhouse gas emission levels\n- {温室|おんしつ}{効果|こうか}ガス{濃度|のうど} — greenhouse gas concentration\n\nMAJOR GREENHOUSE GASES:\n- {二酸化炭素|にさんかたんそ} (CO2) — carbon dioxide (largest contributor)\n- メタン (CH4) — methane\n- {一酸化二窒素|いっさんかにちっそ} (N2O) — nitrous oxide\n- フロン — chlorofluorocarbons (CFCs)\n\nSIMILAR WORDS:\n- {温室|おんしつ}{効果|こうか} — the greenhouse effect (the phenomenon itself)\n- {地球|ちきゅう}{温暖化|おんだんか} — global warming\n- {脱炭素|だつたんそ} — decarbonization",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18873_chikyuuondanka",
+      "reading": "ちきゅうおんだんか",
+      "headword": "{地球|ちきゅう}{温暖|おんだん}{化|か}",
+      "label": "global warming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06410_datsutanso",
+      "reading": "だつたんそ",
+      "headword": "{脱炭素|だつたんそ}",
+      "label": "decarbonization"
+    },
+    {
+      "type": "related",
+      "target_id": "04630_nisankatanso",
+      "reading": "にさんかたんそ",
+      "headword": "{二酸化炭素|にさんかたんそ}",
+      "label": "carbon dioxide"
+    },
+    {
+      "type": "related",
+      "target_id": "09282_haikigasu",
+      "reading": "はいきがす",
+      "headword": "{排気|はいき}ガス",
+      "label": "exhaust gas, exhaust fumes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24904_tansohaishutsu",
+      "reading": "たんそはいしゅつ",
+      "headword": "{炭素排出|たんそはいしゅつ}",
+      "label": "carbon emissions"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28770_furongasu",
+      "reading": "ふろんがす",
+      "headword": "フロンガス",
+      "label": "CFCs"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "nature",
         "science"
@@ -59,6 +105,6 @@
       "usage": []
     },
     "created": "2026-04-21T09:22:25Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

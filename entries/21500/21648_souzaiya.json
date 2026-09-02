@@ -17,7 +17,9 @@
       "id": "21648_souzaiya_ex1",
       "japanese": "{駅前|えきまえ}の{総菜屋|そうざいや}で{買|か}い{物|もの}をした。",
       "english": "I shopped at the deli in front of the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21648_souzaiya_ex2",
       "japanese": "あの{総菜屋|そうざいや}のコロッケはとても{人気|にんき}がある。",
       "english": "The croquettes at that deli are very popular.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "21648_souzaiya_ex3",
       "japanese": "{忙|いそが}しい{日|ひ}は{総菜屋|そうざいや}で{夕飯|ゆうはん}のおかずを{買|か}って{帰|かえ}ることが{多|おお}い。",
       "english": "On busy days, I often buy side dishes for dinner at the deli on my way home.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {総菜|そうざい} (side dishes, prepared food) + {屋|や} (shop/store). Refers to shops specializing in ready-made dishes for takeout.\n\nCOMMON COLLOCATIONS:\n- {総菜屋|そうざいや}で{買|か}う: to buy at a deli\n- {町|まち}の{総菜屋|そうざいや}: neighborhood deli\n- {手作|てづく}り{総菜屋|そうざいや}: handmade-food shop\n\nCULTURAL NOTE:\nTraditional {総菜屋|そうざいや} have long been a staple of Japanese neighborhoods, offering affordable home-style cooking. While supermarket deli sections ({惣菜|そうざい}コーナー) and convenience stores have taken over much of this role, independent {総菜屋|そうざいや} remain popular for their quality and personal touch.\n\nSIMILAR TERMS:\n- {惣菜|そうざい}: the prepared food itself ({惣|そう} and {総|そう} are variant kanji)\n- {弁当屋|べんとうや}: boxed-lunch shop",
+  "notes": "Compound of {総菜|そうざい} (side dishes, prepared food) + {屋|や} (shop/store). Refers to shops specializing in ready-made dishes for takeout.\n\nCOMMON COLLOCATIONS:\n- {総菜屋|そうざいや}で{買|か}う: to buy at a deli\n- {町|まち}の{総菜屋|そうざいや}: neighborhood deli\n- {手作|てづく}り{総菜屋|そうざいや}: handmade-food shop\n\nCULTURAL NOTE:\nTraditional {総菜屋|そうざいや} have long been a staple of Japanese neighborhoods, offering affordable home-style cooking. While supermarket deli sections ({惣菜|そうざい}コーナー) and convenience stores have taken over much of this role, independent {総菜屋|そうざいや} remain popular for their quality and personal touch.\n\nSIMILAR WORDS:\n- {惣菜|そうざい}: the prepared food itself ({惣|そう} and {総|そう} are variant kanji)\n- {弁当屋|べんとうや}: boxed-lunch shop",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05827_souzai",
+      "reading": "そうざい",
+      "headword": "{惣菜|そうざい}",
+      "label": "the prepared food itself"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28445_bentouya",
+      "reading": "べんとうや",
+      "headword": "{弁当屋|べんとうや}",
+      "label": "boxed-lunch shop"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "shopping"]
+      "semantic": [
+        "food",
+        "shopping"
+      ]
     },
     "created": "2026-04-02T20:18:15Z",
-    "modified": "2026-04-02T20:18:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

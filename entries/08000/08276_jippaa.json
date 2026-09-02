@@ -16,7 +16,9 @@
       "id": "08276_jippaa_ex1",
       "japanese": "ジッパーを{閉|し}める。",
       "english": "To close the zipper.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "08276_jippaa_ex2",
       "japanese": "ジッパーが{壊|こわ}れた。",
       "english": "The zipper broke.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,21 +36,52 @@
       "id": "08276_jippaa_ex3",
       "japanese": "バッグのジッパーが{固|かた}くて{開|あ}かない。",
       "english": "The bag's zipper is stuck and won't open.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "FROM ENGLISH:\nLoanword from English \"zipper.\"\n\nALTERNATE NAMES:\n- ファスナー (fastener) - also commonly used\n- チャック (chuck/chuck fastener) - informal/older term\n\nACTIONS:\n- ジッパーを{閉|し}める / {上|あ}げる (to close/zip up)\n- ジッパーを{開|あ}ける / {下|さ}げる (to open/unzip)\n- ジッパーが{壊|こわ}れる (zipper breaks)\n- ジッパーが{引|ひ}っか{掛|か}かる (zipper gets stuck)\n\nRELATED:\n- ファスナー (fastener)\n- チャック (zipper - informal)\n- ボタン (button)",
+  "notes": "FROM ENGLISH:\nLoanword from English \"zipper.\"\n\nALTERNATE NAMES:\n- ファスナー (fastener) - also commonly used\n- チャック (chuck/chuck fastener) - informal/older term\n\nACTIONS:\n- ジッパーを{閉|し}める / {上|あ}げる (to close/zip up)\n- ジッパーを{開|あ}ける / {下|さ}げる (to open/unzip)\n- ジッパーが{壊|こわ}れる (zipper breaks)\n- ジッパーが{引|ひ}っか{掛|か}かる (zipper gets stuck)\n\nRELATED WORDS:\n- ファスナー (fastener)\n- チャック (zipper - informal)\n- ボタン (button)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07100_fasunaa",
+      "reading": "ふぁすなー",
+      "headword": "ファスナー",
+      "label": "fastener"
+    },
+    {
+      "type": "related",
+      "target_id": "06489_chakku",
+      "reading": "ちゃっく",
+      "headword": "チャック",
+      "label": "zipper"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28085_chakkuwoshimeru",
+      "reading": "ちゃっくをしめる",
+      "headword": "チャックを{閉|し}める",
+      "label": "to zip up"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
+      "politeness": "plain",
       "loanword": true,
-      "semantic": ["clothing", "accessories"]
+      "semantic": [
+        "clothing",
+        "accessories"
+      ]
     },
     "created": "2026-01-25T11:38:58Z",
-    "modified": "2026-01-25T11:38:58Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

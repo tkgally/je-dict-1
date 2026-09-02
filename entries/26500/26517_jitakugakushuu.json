@@ -55,7 +55,29 @@
     }
   ],
   "notes": "A compound of {自宅|じたく} (one's home) and {学習|がくしゅう} (study; learning). Became especially common during and after the COVID-19 pandemic as schools and universities shifted to remote formats.\n\nCOMMON COLLOCATIONS:\n- {自宅|じたく}{学習|がくしゅう}の{時間|じかん}: home study time\n- {自宅|じたく}{学習|がくしゅう}の{習慣|しゅうかん}: home study habit\n- {自宅|じたく}{学習|がくしゅう}{日|び}: home study day (school-designated day for studying at home)\n- {自宅|じたく}{学習|がくしゅう}{教材|きょうざい}: home study materials\n\nSIMILAR WORDS:\n- {家庭|かてい}{学習|がくしゅう}: home study — nearly synonymous, slightly more formal\n- {独学|どくがく}: self-study — emphasizes learning without a teacher\n- {通信|つうしん}{教育|きょういく}: correspondence/distance education — more structured and institution-based",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24708_kateigakushuu",
+      "reading": "かていがくしゅう",
+      "headword": "{家庭学習|かていがくしゅう}",
+      "label": "home study"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09601_dokugaku",
+      "reading": "どくがく",
+      "headword": "{独学|どくがく}",
+      "label": "self-study"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09975_tsuushinkyouiku",
+      "reading": "つうしんきょういく",
+      "headword": "{通信教育|つうしんきょういく}",
+      "label": "correspondence/distance education"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,11 +85,12 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "education"
       ]
     },
     "created": "2026-05-02T14:29:33Z",
-    "modified": "2026-08-06T00:44:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

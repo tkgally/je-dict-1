@@ -17,7 +17,9 @@
       "id": "28828_undoubu_ex1",
       "japanese": "{運動部|うんどうぶ}に{入|はい}っている。",
       "english": "I'm in a sports club.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28828_undoubu_ex2",
       "japanese": "{弟|おとうと}は{運動部|うんどうぶ}で{毎日|まいにち}{練習|れんしゅう}している。",
       "english": "My younger brother practices every day in a sports club.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "28828_undoubu_ex3",
       "japanese": "{中学|ちゅうがく}{時代|じだい}は{運動部|うんどうぶ}に{所属|しょぞく}していて、{毎日|まいにち}{遅|おそ}くまで{練習|れんしゅう}していた。",
       "english": "In junior high I belonged to a sports club and practiced late every day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{運動|うんどう} (exercise; sport) + {部|ぶ} (club). A general term covering any sports-based school club. In casual speech students may also say {体育会系|たいいくかいけい} for the same idea, especially when contrasting with cultural clubs.\n\nCOMMON COLLOCATIONS:\n- {運動部|うんどうぶ}に{入|はい}る: to join a sports club\n- {運動部|うんどうぶ}に{所属|しょぞく}する: to belong to a sports club\n- {運動部|うんどうぶ}の{練習|れんしゅう}: sports club practice\n- {運動部|うんどうぶ}の{先輩|せんぱい}: senior members of a sports club\n\nSIMILAR WORDS:\n- {文化部|ぶんかぶ}: cultural club — the contrasting category (music, art, science, etc.)\n- {部活|ぶかつ}: club activity — the activity itself, regardless of type\n- {体育会系|たいいくかいけい}: of the athletics persuasion — describes the strict, hierarchical culture of sports clubs",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28829_bunkabu",
+      "reading": "ぶんかぶ",
+      "headword": "{文化部|ぶんかぶ}",
+      "label": "cultural club"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05377_bukatsu",
+      "reading": "ぶかつ",
+      "headword": "{部活|ぶかつ}",
+      "label": "club activity"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["education", "sports"],
+      "politeness": "plain",
+      "semantic": [
+        "education",
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-06-06T02:07:42Z",
-    "modified": "2026-06-06T02:07:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

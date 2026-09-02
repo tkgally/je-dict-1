@@ -19,7 +19,9 @@
       "english": "I drink soy milk every morning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14226_tounyuu_ex2",
@@ -27,7 +29,9 @@
       "english": "Soy milk hot pot warms you up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14226_tounyuu_ex3",
@@ -35,7 +39,9 @@
       "english": "I made soup using soy milk instead of cow's milk.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{豆乳|とうにゅう} is a staple in Japanese cuisine and health food culture. Japan has a wide variety of flavored soy milk drinks available at convenience stores. In cooking, soy milk is the base ingredient for making {豆腐|とうふ} (tofu) and is also used in hot pot dishes.\n\nCOMMON COLLOCATIONS:\n- {豆乳|とうにゅう}{鍋|なべ}: soy milk hot pot\n- {調整|ちょうせい}{豆乳|とうにゅう}: adjusted soy milk (sweetened/flavored)\n- {無調整|むちょうせい}{豆乳|とうにゅう}: unadjusted/plain soy milk\n- {豆乳|とうにゅう}ラテ: soy milk latte\n- {豆乳|とうにゅう}プリン: soy milk pudding",
@@ -46,18 +52,36 @@
       "reading": "とうふ",
       "headword": "{豆腐|とうふ}",
       "label": "tofu"
+    },
+    {
+      "type": "related",
+      "target_id": "00777_gyuunyuu",
+      "reading": "ぎゅうにゅう",
+      "headword": "{牛乳|ぎゅうにゅう}",
+      "label": "milk"
+    },
+    {
+      "type": "related",
+      "target_id": "07947_yuba",
+      "reading": "ゆば",
+      "headword": "{湯葉|ゆば}",
+      "label": "tofu skin"
     }
   ],
   "metadata": {
     "created": "2026-02-28T03:09:18Z",
-    "modified": "2026-04-30T06:34:37Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

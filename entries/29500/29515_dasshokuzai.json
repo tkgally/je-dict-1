@@ -17,7 +17,9 @@
       "id": "29515_dasshokuzai_ex1",
       "japanese": "{脱色剤|だっしょくざい}を{使|つか}う。",
       "english": "To use a decolorizing agent.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29515_dasshokuzai_ex2",
       "japanese": "{髪|かみ}を{染|そ}める{前|まえ}に{脱色剤|だっしょくざい}で{明|あか}るくする。",
       "english": "Before dyeing the hair, you lighten it with a decolorizing agent.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29515_dasshokuzai_ex3",
       "japanese": "{脱色剤|だっしょくざい}は{刺激|しげき}が{強|つよ}いので、{使|つか}いすぎに{注意|ちゅうい}する。",
       "english": "Decolorizing agents are harsh, so be careful not to overuse them.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {脱色|だっしょく} (removing color) + {剤|ざい} (agent, preparation). Most often refers to hair bleach, but also to color removers for cloth or other materials.\n\nCOMMON COLLOCATIONS:\n- {脱色剤|だっしょくざい}を{塗|ぬ}る: to apply the decolorizing agent\n- {市販|しはん}の{脱色剤|だっしょくざい}: a commercially sold bleach\n\nSIMILAR WORDS:\n- {漂白剤|ひょうはくざい}: bleach — mainly for whitening laundry and removing stains\n- {染料|せんりょう}: dye — adds color rather than removing it",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07035_hyouhakuzai",
+      "reading": "ひょうはくざい",
+      "headword": "{漂白剤|ひょうはくざい}",
+      "label": "bleach"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16341_senryou",
+      "reading": "せんりょう",
+      "headword": "{染料|せんりょう}",
+      "label": "dye"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["daily-life"],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life"
+      ],
       "domain": []
     },
     "created": "2026-06-27T00:21:08Z",
-    "modified": "2026-06-27T00:21:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

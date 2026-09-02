@@ -2,7 +2,7 @@
   "id": "01435_shoutai",
   "headword": "{招待|しょうたい}",
   "reading": "しょうたい",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "invitation",
   "conjugation": {
     "type": "suru",
@@ -141,11 +141,32 @@
       "reading": "しょうたいじょう",
       "headword": "{招待状|しょうたいじょう}",
       "label": "invitation card"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01947_sasou",
+      "reading": "さそう",
+      "headword": "{誘|さそ}う",
+      "label": "to invite casually, to ask someone…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02425_maneku",
+      "reading": "まねく",
+      "headword": "{招|まね}く",
+      "label": "to invite, to beckon"
+    },
+    {
+      "type": "related",
+      "target_id": "16850_kanyuu",
+      "reading": "かんゆう",
+      "headword": "{勧誘|かんゆう}",
+      "label": "solicitation"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:47:24Z",
-    "modified": "2026-08-09T12:26:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

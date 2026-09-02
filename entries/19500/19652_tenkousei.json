@@ -17,7 +17,9 @@
       "id": "19652_tenkousei_ex1",
       "japanese": "{転校生|てんこうせい}が{来|き}た。",
       "english": "A transfer student arrived.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19652_tenkousei_ex2",
       "japanese": "クラスに{新|あたら}しい{転校生|てんこうせい}が{紹介|しょうかい}された。",
       "english": "A new transfer student was introduced to the class.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "19652_tenkousei_ex3",
       "japanese": "{転校生|てんこうせい}はなかなか{新|あたら}しい{学校|がっこう}に{馴染|なじ}めなかった。",
       "english": "The transfer student had difficulty fitting in at the new school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {転校|てんこう} (school transfer) + {生|せい} (student). Transfer students are a staple character type in Japanese fiction, often appearing as mysterious or exciting newcomers who disrupt the class dynamic.\n\nCOMMON COLLOCATIONS:\n- {転校生|てんこうせい}が{来|く}る: a transfer student comes/arrives\n- {転校生|てんこうせい}を{迎|むか}える: to welcome a transfer student\n- {転校|てんこう}する: to transfer schools\n- {転校|てんこう}{手続|てつづ}き: transfer procedures\n\nRELATED TERMS:\n- {転入生|てんにゅうせい}: incoming transfer student (more formal)\n- {編入生|へんにゅうせい}: student admitted mid-year (college level)\n- {留学生|りゅうがくせい}: international student",
-  "cross_references": [],
+  "notes": "Composed of {転校|てんこう} (school transfer) + {生|せい} (student). Transfer students are a staple character type in Japanese fiction, often appearing as mysterious or exciting newcomers who disrupt the class dynamic.\n\nCOMMON COLLOCATIONS:\n- {転校生|てんこうせい}が{来|く}る: a transfer student comes/arrives\n- {転校生|てんこうせい}を{迎|むか}える: to welcome a transfer student\n- {転校|てんこう}する: to transfer schools\n- {転校|てんこう}{手続|てつづ}き: transfer procedures\n\nRELATED WORDS:\n- {転入生|てんにゅうせい}: incoming transfer student (more formal)\n- {編入生|へんにゅうせい}: student admitted mid-year (college level)\n- {留学生|りゅうがくせい}: international student",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "25867_tennyuusei",
+      "reading": "てんにゅうせい",
+      "headword": "{転入生|てんにゅうせい}",
+      "label": "incoming transfer student"
+    },
+    {
+      "type": "related",
+      "target_id": "22044_hennyuusei",
+      "reading": "へんにゅうせい",
+      "headword": "{編入生|へんにゅうせい}",
+      "label": "student admitted mid-year"
+    },
+    {
+      "type": "related",
+      "target_id": "02986_ryuugakusei",
+      "reading": "りゅうがくせい",
+      "headword": "{留学生|りゅうがくせい}",
+      "label": "international student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26292_tenkousaki",
+      "reading": "てんこうさき",
+      "headword": "{転校先|てんこうさき}",
+      "label": "new school (after transfer)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-26T09:41:28Z",
-    "modified": "2026-03-26T09:41:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education", "person"]
+      "semantic": [
+        "education",
+        "person"
+      ]
     }
   }
 }

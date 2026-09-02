@@ -17,15 +17,19 @@
       "id": "26213_koujo_ex1",
       "japanese": "{公女|こうじょ}は{城|しろ}で{育|そだ}った。",
       "english": "The princess grew up in a castle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "26213_koujo_ex2",
-      "japanese": "{物語|ものがたり}の{主人公|しゅじんこう}は{ある}{国|くに}の{公女|こうじょ}だった。",
+      "japanese": "{物語|ものがたり}の{主人公|しゅじんこう}はある{国|くに}の{公女|こうじょ}だった。",
       "english": "The protagonist of the story was a princess of a certain country.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "26213_koujo_ex3",
       "japanese": "{歴史小説|れきししょうせつ}では{公女|こうじょ}たちの{政略結婚|せいりゃくけっこん}がよく{描|えが}かれる。",
       "english": "In historical novels, political marriages of princesses are often depicted.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -46,16 +52,43 @@
       "target_id": "24369_koujo",
       "headword": "{皇女|こうじょ}",
       "label": "imperial princess"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04108_oujo",
+      "reading": "おうじょ",
+      "headword": "{王女|おうじょ}",
+      "label": "princess"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12233_hime",
+      "reading": "ひめ",
+      "headword": "{姫|ひめ}",
+      "label": "princess, young lady"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11609_reijou",
+      "reading": "れいじょう",
+      "headword": "{令嬢|れいじょう}",
+      "label": "young lady of good family"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["history", "society"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "history",
+        "society"
+      ]
     },
     "created": "2026-04-30T11:34:48Z",
-    "modified": "2026-04-30T11:34:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

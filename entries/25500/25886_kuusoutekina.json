@@ -3,7 +3,7 @@
   "headword": "{空想的|くうそうてき}な",
   "reading": "くうそうてきな",
   "romaji": "kuusoutekina",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "fantastical; fanciful; imaginary",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "25886_kuusoutekina_ex1",
       "japanese": "{空想的|くうそうてき}な{物語|ものがたり}が{好|す}きだ。",
       "english": "I like fantastical stories.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25886_kuusoutekina_ex2",
       "japanese": "その{計画|けいかく}は{空想的|くうそうてき}すぎて{実現|じつげん}できない。",
       "english": "That plan is too fanciful to be realized.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,37 @@
       "id": "25886_kuusoutekina_ex3",
       "japanese": "{彼|かれ}の{空想的|くうそうてき}な{世界観|せかいかん}は{多|おお}くの{読者|どくしゃ}を{魅了|みりょう}してきた。",
       "english": "His fantastical worldview has captivated many readers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A na-adjective formed from {空想|くうそう} (fantasy; daydream) + {的|てき}. The tone depends on context: when describing fiction or art, it is neutral to positive (imaginative, fantastical), but when describing plans or ideas, it often carries a negative nuance (impractical, unrealistic).\n\nIn literary criticism, the term is used to describe genres or styles that feature imaginary worlds, magical elements, or visionary settings.\n\nCOMMON COLLOCATIONS:\n- {空想的|くうそうてき}な{物語|ものがたり}: fantastical story\n- {空想的|くうそうてき}な{世界|せかい}: imaginary world\n- {空想的|くうそうてき}な{考|かんが}え: fanciful idea\n- {空想的|くうそうてき}な{社会主義|しゃかいしゅぎ}: utopian socialism\n- {空想的|くうそうてき}な{計画|けいかく}: impractical plan\n\nSIMILAR WORDS:\n- {幻想的|げんそうてき}な: dreamlike; ethereal — focuses on beauty and atmosphere rather than unreality\n- {非現実的|ひげんじつてき}な: unrealistic — purely negative, emphasizing impracticality\n- {想像的|そうぞうてき}な: imaginative — neutral, emphasizing the use of imagination",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25346_gensoutekina",
+      "reading": "げんそうてきな",
+      "headword": "{幻想的|げんそうてき}な",
+      "label": "dreamlike"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
-      "semantic": ["descriptive", "cognition"]
+      "pos": [
+        "adjective-na"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "descriptive",
+        "cognition"
+      ]
     },
     "created": "2026-04-28T11:22:09Z",
-    "modified": "2026-04-28T11:22:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

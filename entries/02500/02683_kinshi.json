@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{近視|きんし} is a common vision condition.\n\nCOMMON PATTERNS:\n- {近視|きんし}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become nearsighted)\n- {近視|きんし}⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧ (nearsightedness progresses)\n- {近視|きんし}⟦を→を：00422_wo⟧⟦{矯正|きょうせい}→矯正：14784_kyousei⟧⟦する→する：00392_suru⟧ (to correct nearsightedness)\n\nDEGREES:\n- ⟦{強度|きょうど}→強度：27803_kyoudo⟧{近視|きんし} (severe myopia)\n- ⟦{軽度|けいど}→軽度：28013_keido⟧{近視|きんし} (mild myopia)\n\nCONTRAST:\n- {近視|きんし} (nearsightedness - can't see far)\n- ⟦{遠視|えんし}→遠視：07105_enshi⟧ (farsightedness - can't see near)\n- ⟦{乱視|らんし}→乱視：06370_ranshi⟧ (astigmatism)\n- ⟦{老眼|ろうがん}→老眼：06369_rougan⟧ (presbyopia - age-related)",
+  "notes": "{近視|きんし} is a common vision condition.\n\nCOMMON PATTERNS:\n- {近視|きんし}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become nearsighted)\n- {近視|きんし}⟦が→が：00051_ga⟧⟦{進|すす}む→進む：01225_susumu⟧ (nearsightedness progresses)\n- {近視|きんし}⟦を→を：00422_wo⟧⟦{矯正|きょうせい}→矯正：14784_kyousei⟧⟦する→する：00392_suru⟧ (to correct nearsightedness)\n\nDEGREES:\n- ⟦{強度|きょうど}→強度：27803_kyoudo⟧{近視|きんし} (severe myopia)\n- ⟦{軽度|けいど}→軽度：28013_keido⟧{近視|きんし} (mild myopia)\n\nSIMILAR WORDS:\n- {近視|きんし} (nearsightedness - can't see far)\n- ⟦{遠視|えんし}→遠視：07105_enshi⟧ (farsightedness - can't see near)\n- ⟦{乱視|らんし}→乱視：06370_ranshi⟧ (astigmatism)\n- ⟦{老眼|ろうがん}→老眼：06369_rougan⟧ (presbyopia - age-related)",
   "cross_references": [
     {
       "type": "antonym",
@@ -58,11 +58,39 @@
       "headword": "{乱視|らんし}",
       "label": "astigmatism",
       "target_id": "06370_ranshi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06369_rougan",
+      "reading": "ろうがん",
+      "headword": "{老眼|ろうがん}",
+      "label": "presbyopia"
+    },
+    {
+      "type": "related",
+      "target_id": "05033_shiryoku",
+      "reading": "しりょく",
+      "headword": "{視力|しりょく}",
+      "label": "eyesight, vision"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20407_kingan",
+      "reading": "きんがん",
+      "headword": "{近眼|きんがん}",
+      "label": "nearsightedness"
+    },
+    {
+      "type": "related",
+      "target_id": "23294_shiryokukyousei",
+      "reading": "しりょくきょうせい",
+      "headword": "{視力矯正|しりょくきょうせい}",
+      "label": "vision correction"
     }
   ],
   "metadata": {
     "created": "2026-01-11T07:04:45Z",
-    "modified": "2026-08-12T06:28:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

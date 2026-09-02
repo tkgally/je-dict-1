@@ -17,7 +17,9 @@
       "id": "20087_tashoutomo_ex1",
       "japanese": "{多少|たしょう}とも{役|やく}に{立|た}てればうれしい。",
       "english": "I'd be happy if I could be of some help.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20087_tashoutomo_ex2",
       "japanese": "{多少|たしょう}とも{経験|けいけん}がある{人|ひと}を{探|さが}している。",
       "english": "We're looking for someone with at least some experience.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "20087_tashoutomo_ex3",
       "japanese": "{日本語|にほんご}が{多少|たしょう}とも{分|わ}かる{方|かた}は、{手|て}を{挙|あ}げてください。",
       "english": "If you understand Japanese even a little, please raise your hand.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A slightly formal adverb combining {多少|たしょう} (some, a little) with とも (even, at least). Emphasizes that even a small amount counts.\n\nUSAGE:\nOften used in conditional or wishful contexts: 'if even a little...' or 'anyone who has even some...' The nuance is inclusive — it sets a low bar and invites participation or acknowledges partial truth.\n\nCOMMON PATTERNS:\n- {多少|たしょう}とも{関係|かんけい}がある: to be at least somewhat related\n- {多少|たしょう}とも{影響|えいきょう}がある: to have at least some influence\n- {多少|たしょう}とも{知識|ちしき}がある: to have at least some knowledge\n\nSIMILAR WORDS:\n- {多少|たしょう}: somewhat, a little — the base word without とも; more neutral\n- いくらか: somewhat, to some degree — more conversational\n- {少|すこ}しでも: even a little — more emphatic about the minimal amount",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21790_ikuraka",
+      "reading": "いくらか",
+      "headword": "いくらか",
+      "label": "somewhat, to some degree"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19718_sukoshidemo",
+      "reading": "すこしでも",
+      "headword": "{少|すこ}しでも",
+      "label": "even a little"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["degree"]
+      "semantic": [
+        "degree"
+      ]
     },
     "created": "2026-03-28T07:41:00Z",
-    "modified": "2026-03-28T07:41:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

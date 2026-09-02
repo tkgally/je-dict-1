@@ -3,7 +3,7 @@
   "headword": "{再結成|さいけっせい}",
   "reading": "さいけっせい",
   "romaji": "saikessei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reunion; reforming (of a group)",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Composed of {再|さい} (again) and {結成|けっせい} (formation, organizing). Most commonly used in the entertainment industry, especially for bands and musical groups that disbanded and later came back together. Can also apply to sports teams, political groups, or any organized body.\n\nCOMMON COLLOCATIONS:\n- {再結成|さいけっせい}する: to reunite, to reform\n- {再結成|さいけっせい}ライブ: reunion concert\n- {再結成|さいけっせい}ツアー: reunion tour\n- {再結成|さいけっせい}を{果|は}たす: to achieve a reunion\n- {再結成|さいけっせい}を{望|のぞ}む: to hope for a reunion\n\nSIMILAR WORDS:\n- {復活|ふっかつ}: revival, comeback — broader meaning; not limited to groups\n- {結成|けっせい}: formation — the initial act of forming a group\n- {解散|かいさん}: disbandment — the opposite; breaking up a group",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12565_fukkatsu",
+      "reading": "ふっかつ",
+      "headword": "{復活|ふっかつ}",
+      "label": "revival, comeback"
+    },
+    {
+      "type": "antonym",
+      "target_id": "04121_kaisan",
+      "reading": "かいさん",
+      "headword": "{解散|かいさん}",
+      "label": "disbandment"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +69,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "music",
         "society"
@@ -61,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-28T15:30:32Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

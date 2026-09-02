@@ -17,7 +17,9 @@
       "id": "27046_suisensha_ex1",
       "japanese": "{推薦者|すいせんしゃ}の{名前|なまえ}を{書|か}いてください。",
       "english": "Please write the name of your recommender.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,31 +27,57 @@
       "id": "27046_suisensha_ex2",
       "japanese": "{奨学金|しょうがくきん}の{申請|しんせい}には{推薦者|すいせんしゃ}が{二人|ふたり}{必要|ひつよう}です。",
       "english": "Two recommenders are required for the scholarship application.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27046_suisensha_ex3",
-      "japanese": "{指導|しどう}{教員|きょういん}に{推薦者|すいせんしゃ}になってもらえるよう{お願|おねが}いした。",
+      "japanese": "{指導|しどう}{教員|きょういん}に{推薦者|すいせんしゃ}になってもらえるようお{願|ねが}いした。",
       "english": "I asked my academic advisor to serve as my recommender.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {推薦|すいせん} (recommendation) and {者|しゃ} (person). Most commonly encountered in academic and job application contexts, where a {推薦者|すいせんしゃ} provides a letter or verbal endorsement.\n\nCOMMON COLLOCATIONS:\n- {推薦者|すいせんしゃ}になる — to become a recommender\n- {推薦者|すいせんしゃ}を{探|さが}す — to find a recommender\n- {推薦者|すいせんしゃ}の{連絡先|れんらくさき} — recommender's contact information\n\nRELATED TERMS:\n- {推薦|すいせん} — recommendation\n- {推薦状|すいせんじょう} — letter of recommendation\n- {推薦入試|すいせんにゅうし} — admission by recommendation (a common university entrance pathway in Japan)\n- {被推薦者|ひすいせんしゃ} — the person being recommended (nominee)",
+  "notes": "A compound of {推薦|すいせん} (recommendation) and {者|しゃ} (person). Most commonly encountered in academic and job application contexts, where a {推薦者|すいせんしゃ} provides a letter or verbal endorsement.\n\nCOMMON COLLOCATIONS:\n- {推薦者|すいせんしゃ}になる — to become a recommender\n- {推薦者|すいせんしゃ}を{探|さが}す — to find a recommender\n- {推薦者|すいせんしゃ}の{連絡先|れんらくさき} — recommender's contact information\n\nRELATED WORDS:\n- {推薦|すいせん} — recommendation\n- {推薦状|すいせんじょう} — letter of recommendation\n- {推薦入試|すいせんにゅうし} — admission by recommendation (a common university entrance pathway in Japan)\n- {被推薦者|ひすいせんしゃ} — the person being recommended (nominee)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15195_suisenjou",
+      "reading": "すいせんじょう",
+      "headword": "{推薦状|すいせんじょう}",
+      "label": "letter of recommendation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26178_shoukaisha",
+      "reading": "しょうかいしゃ",
+      "headword": "{紹介者|しょうかいしゃ}",
+      "label": "introducer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"],
-      "domain": ["academic"]
+      "semantic": [
+        "person"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-05-06T15:10:20Z",
-    "modified": "2026-05-06T15:10:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

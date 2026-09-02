@@ -19,7 +19,9 @@
       "english": "To know the real situation on the ground.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17770_jitsujou_ex2",
@@ -27,7 +29,9 @@
       "english": "It's a system that doesn't match the actual conditions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17770_jitsujou_ex3",
@@ -35,7 +39,9 @@
       "english": "A field survey revealed the actual conditions in the rural areas that media reports alone couldn't convey.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA somewhat formal word common in journalism, business, and policy discussions. Often used when pointing out a discrepancy between official narratives and reality.\n\nSIMILAR WORDS:\n- {実態|じったい}: actual state, true conditions — very close in meaning; {実態|じったい} often emphasizes investigation and uncovering hidden truths\n- {現実|げんじつ}: reality — more general and less focused on the gap between appearance and truth\n\nCOMMON COLLOCATIONS:\n- {実情|じつじょう}を{知|し}る: to know the real situation\n- {実情|じつじょう}に{合|あ}う: to match actual conditions\n- {実情|じつじょう}を{把握|はあく}する: to grasp the actual situation\n- {実情|じつじょう}に{即|そく}した: in line with the actual conditions",
@@ -46,18 +52,43 @@
       "reading": "じったい",
       "headword": "{実態|じったい}",
       "label": "actual state (investigative nuance)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02720_genjitsu",
+      "reading": "げんじつ",
+      "headword": "{現実|げんじつ}",
+      "label": "reality"
+    },
+    {
+      "type": "related",
+      "target_id": "02721_genjou",
+      "reading": "げんじょう",
+      "headword": "{現状|げんじょう}",
+      "label": "present condition, current state, status quo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25305_naijou",
+      "reading": "ないじょう",
+      "headword": "{内情|ないじょう}",
+      "label": "internal affairs"
     }
   ],
   "metadata": {
     "created": "2026-03-18T23:18:24Z",
-    "modified": "2026-05-07T06:03:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

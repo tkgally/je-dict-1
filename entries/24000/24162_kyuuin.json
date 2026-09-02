@@ -3,7 +3,7 @@
   "headword": "{吸引|きゅういん}",
   "reading": "きゅういん",
   "romaji": "kyuuin",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "suction; aspiration; drawing in",
   "definitions": [
     {
@@ -20,7 +20,7 @@
   "examples": [
     {
       "id": "24162_kyuuin_ex1",
-      "japanese": "{掃除機|そうじき}で{ゴミ|ごみ}を{吸引|きゅういん}する。",
+      "japanese": "{掃除機|そうじき}でゴミを{吸引|きゅういん}する。",
       "english": "To vacuum up dirt with a vacuum cleaner.",
       "sense_numbers": [
         1
@@ -81,6 +81,29 @@
   ],
   "notes": "Literally means to suck in or draw in. Used both for physical suction (vacuums, medical aspiration) and figuratively for attracting people or attention.\n\nCOMMON COLLOCATIONS:\n- {吸引|きゅういん}{力|りょく}: suction power; drawing power\n- {吸引|きゅういん}{器|き}: suction device, aspirator\n- {脂肪|しぼう}{吸引|きゅういん}: liposuction\n- {人口|じんこう}{吸引|きゅういん}: population attraction\n\nSIMILAR WORDS:\n- {吸収|きゅうしゅう}: absorption — takes something in and integrates it, rather than merely drawing it in\n- {誘引|ゆういん}: attraction, luring — emphasizes enticement or inducement\n- {魅力|みりょく}: charm, appeal — describes the quality itself rather than the act of drawing in",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02608_kyuushuu",
+      "reading": "きゅうしゅう",
+      "headword": "{吸収|きゅうしゅう}",
+      "label": "absorption"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22537_yuuin",
+      "reading": "ゆういん",
+      "headword": "{誘引|ゆういん}",
+      "label": "attraction, luring"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03749_miryoku",
+      "reading": "みりょく",
+      "headword": "{魅力|みりょく}",
+      "label": "charm, appeal"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -88,6 +111,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "science",
         "health"
@@ -96,7 +121,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-17T21:35:50Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

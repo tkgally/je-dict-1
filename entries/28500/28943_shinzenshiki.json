@@ -17,7 +17,9 @@
       "id": "28943_shinzenshiki_ex1",
       "japanese": "{祖父母|そふぼ}は{神前式|しんぜんしき}で{結婚|けっこん}した。",
       "english": "My grandparents had a Shinto wedding.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28943_shinzenshiki_ex2",
       "japanese": "{彼女|かのじょ}は{神前式|しんぜんしき}を{挙|あ}げたいと{言|い}っている。",
       "english": "She says she wants to have a Shinto wedding.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28943_shinzenshiki_ex3",
       "japanese": "{神前式|しんぜんしき}は{神社|じんじゃ}や{結婚式場|けっこんしきじょう}{内|ない}の{神殿|しんでん}で{行|おこな}われる。",
       "english": "Shinto weddings are held at shrines or in shrine halls inside wedding venues.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {神前|しんぜん} (before the gods) + {式|しき} (ceremony). The modern Shinto wedding format dates only to around 1900; before that, weddings were home ceremonies.\n\nCOMMON COLLOCATIONS:\n- {神前式|しんぜんしき}を{挙|あ}げる: to hold a Shinto wedding\n- {神前式|しんぜんしき}の{衣装|いしょう}: attire for a Shinto wedding\n- {神前式|しんぜんしき}の{三三九度|さんさんくど}: the three-cup sake ritual in a Shinto wedding\n\nSIMILAR WORDS:\n- {教会式|きょうかいしき}: church wedding ceremony — Christian-style\n- {人前式|じんぜんしき}: secular wedding ceremony — non-religious, performed before guests as witnesses\n- {仏前式|ぶつぜんしき}: Buddhist wedding ceremony — much rarer",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28944_kyoukaishiki",
+      "reading": "きょうかいしき",
+      "headword": "{教会式|きょうかいしき}",
+      "label": "church wedding ceremony"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28945_jinzenshiki",
+      "reading": "じんぜんしき",
+      "headword": "{人前式|じんぜんしき}",
+      "label": "secular wedding ceremony"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["culture"],
+      "semantic": [
+        "culture"
+      ],
       "domain": []
     },
     "created": "2026-06-07T04:09:10Z",
-    "modified": "2026-06-07T04:09:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

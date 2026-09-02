@@ -3,7 +3,7 @@
   "headword": "{入札|にゅうさつ}",
   "reading": "にゅうさつ",
   "romaji": "nyuusatsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "bidding; tender; bid",
   "definitions": [
     {
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "The formal process of submitting competitive bids, especially for public contracts. Composed of {入|にゅう} (enter/submit) + {札|さつ} (card/slip — here referring to the bid document). Often used as a する verb: {入札|にゅうさつ}する.\n\nCOMMON COLLOCATIONS:\n- {入札|にゅうさつ}する: to submit a bid\n- {入札|にゅうさつ}に{参加|さんか}する: to participate in bidding\n- {公開|こうかい}{入札|にゅうさつ}: open/public bidding\n- {競争|きょうそう}{入札|にゅうさつ}: competitive bidding\n- {指名|しめい}{入札|にゅうさつ}: invited bidding (restricted to selected firms)\n- {入札|にゅうさつ}{価格|かかく}: bid price\n\nRELATED TERMS:\n- {落札|らくさつ}: winning a bid — the successful bidder\n- {開札|かいさつ}: opening of bids\n- {談合|だんごう}: bid-rigging — illegal collusion among bidders\n\nCULTURAL NOTE:\nPublic {入札|にゅうさつ} is a key process in Japanese government procurement. {談合|だんごう} (bid-rigging) has been a recurring scandal in Japanese public works, leading to stricter regulations.",
+  "notes": "The formal process of submitting competitive bids, especially for public contracts. Composed of {入|にゅう} (enter/submit) + {札|さつ} (card/slip — here referring to the bid document). Often used as a する verb: {入札|にゅうさつ}する.\n\nCOMMON COLLOCATIONS:\n- {入札|にゅうさつ}する: to submit a bid\n- {入札|にゅうさつ}に{参加|さんか}する: to participate in bidding\n- {公開|こうかい}{入札|にゅうさつ}: open/public bidding\n- {競争|きょうそう}{入札|にゅうさつ}: competitive bidding\n- {指名|しめい}{入札|にゅうさつ}: invited bidding (restricted to selected firms)\n- {入札|にゅうさつ}{価格|かかく}: bid price\n\nRELATED WORDS:\n- {落札|らくさつ}: winning a bid — the successful bidder\n- {開札|かいさつ}: opening of bids\n- {談合|だんごう}: bid-rigging — illegal collusion among bidders\n\nCULTURAL NOTE:\nPublic {入札|にゅうさつ} is a key process in Japanese government procurement. {談合|だんごう} (bid-rigging) has been a recurring scandal in Japanese public works, leading to stricter regulations.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09023_dangou",
+      "reading": "だんごう",
+      "headword": "{談合|だんごう}",
+      "label": "bid-rigging"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18523_kyoubai",
+      "reading": "きょうばい",
+      "headword": "{競売|きょうばい}",
+      "label": "auction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30527_tsukene",
+      "reading": "つけね",
+      "headword": "{付|つ}け{値|ね}",
+      "label": "bid price"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-29T16:20:10Z",
-    "modified": "2026-03-29T16:20:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

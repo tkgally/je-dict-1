@@ -22,7 +22,9 @@
       "id": "19999_fureezu_ex1",
       "japanese": "{便利|べんり}なフレーズを{覚|おぼ}える。",
       "english": "To learn useful phrases.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "19999_fureezu_ex2",
       "japanese": "{旅行|りょこう}で{使|つか}えるフレーズをまとめた。",
       "english": "I compiled phrases that can be used while traveling.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "19999_fureezu_ex3",
       "japanese": "あの{映画|えいが}の{有名|ゆうめい}なフレーズは{今|いま}でも{多|おお}くの{人|ひと}に{引用|いんよう}される。",
       "english": "That movie's famous phrase is still quoted by many people today.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "19999_fureezu_ex4",
       "japanese": "ギターのフレーズがかっこいい。",
       "english": "The guitar phrase is cool.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "19999_fureezu_ex5",
       "japanese": "この{曲|きょく}のサビのフレーズが{頭|あたま}から{離|はな}れない。",
       "english": "The phrase from the chorus of this song is stuck in my head.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,23 +72,60 @@
       "id": "19999_fureezu_ex6",
       "japanese": "ジャズでは、{即興|そっきょう}でフレーズを{組|く}み{立|た}てる{技術|ぎじゅつ}が{重要|じゅうよう}だ。",
       "english": "In jazz, the skill of building phrases through improvisation is important.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"phrase.\" Used in two main domains: language/communication and music.\n\nUSAGE:\nIn the language sense, フレーズ typically refers to short, memorable expressions rather than grammatical phrases. Commonly used in the context of language learning, famous quotes, and catchphrases. In the music sense, it refers to a melodic or rhythmic unit.\n\nCOMMON COLLOCATIONS:\n- {決|き}まりフレーズ — set phrase, stock expression\n- {名|めい}フレーズ — famous phrase\n- フレーズを{覚|おぼ}える — to memorize a phrase\n- ギターフレーズ — guitar phrase/lick\n\nSIMILAR WORDS:\n- {言|い}い{回|まわ}し — phrasing, way of saying (native Japanese equivalent)\n- {表現|ひょうげん} — expression (broader, includes non-verbal)\n- {慣用句|かんようく} — idiomatic expression (fixed grammatical structure)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14146_iimawashi",
+      "reading": "いいまわし",
+      "headword": "{言|い}い{回|まわ}し",
+      "label": "phrasing, way of saying"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03584_hyougen",
+      "reading": "ひょうげん",
+      "headword": "{表現|ひょうげん}",
+      "label": "expression"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15890_kanyouku",
+      "reading": "かんようく",
+      "headword": "{慣用句|かんようく}",
+      "label": "idiomatic expression"
+    },
+    {
+      "type": "related",
+      "target_id": "08147_rifu",
+      "reading": "りふ",
+      "headword": "リフ",
+      "label": "riff (music)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["language", "music"],
+      "semantic": [
+        "language",
+        "music"
+      ],
       "loanword": true
     },
     "created": "2026-03-28T04:34:49Z",
-    "modified": "2026-03-28T04:34:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

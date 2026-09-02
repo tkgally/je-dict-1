@@ -63,11 +63,54 @@
       ]
     }
   ],
-  "notes": "ジュース is from English \"juice\" but in Japanese it can refer to any soft drink, not just fruit juice.\n\nBROADER MEANING IN JAPANESE:\nWhile in English \"juice\" specifically means fruit juice, Japanese ジュース can include:\n- ⟦{果物|くだもの}→果物：00509_kudamono⟧ジュース: fruit juice\n- ⟦{炭酸|たんさん}→炭酸：13376_tansan⟧⟦{飲料|いんりょう}→飲料：03011_inryou⟧: carbonated drinks\n- Soft drinks in general\n\nCOMMON TYPES:\n- ⟦オレンジ→オレンジ：01044_orenji⟧ジュース: orange juice\n- ⟦りんご→りんご：02269_ringo⟧ジュース: apple juice\n- ⟦ぶどう→ぶどう：01018_budou⟧ジュース: grape juice\n- ⟦トマト→トマト：05192_tomato⟧ジュース: tomato juice\n- ⟦{野菜|やさい}→野菜：02265_yasai⟧ジュース: vegetable juice\n\nCOMMON EXPRESSIONS:\n- ジュース⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧: to drink juice\n- ⟦{百|ひゃく}→百：00780_hyaku⟧⟦パーセント→パーセント：01537_paasento⟧ジュース: 100% juice\n- ジュース⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧: to buy a drink\n\nRELATED:\n- ⟦{飲|の}み{物|もの}→飲み物：02929_nomimono⟧: drinks, beverages\n- ⟦ソフトドリンク→ソフトドリンク：27907_sofutodorinku⟧: soft drinks",
-  "cross_references": [],
+  "notes": "ジュース is from English \"juice\" but in Japanese it can refer to any soft drink, not just fruit juice.\n\nBROADER MEANING IN JAPANESE:\nWhile in English \"juice\" specifically means fruit juice, Japanese ジュース can include:\n- ⟦{果物|くだもの}→果物：00509_kudamono⟧ジュース: fruit juice\n- ⟦{炭酸|たんさん}→炭酸：13376_tansan⟧⟦{飲料|いんりょう}→飲料：03011_inryou⟧: carbonated drinks\n- Soft drinks in general\n\nTYPES:\n- ⟦オレンジ→オレンジ：01044_orenji⟧ジュース: orange juice\n- ⟦りんご→りんご：02269_ringo⟧ジュース: apple juice\n- ⟦ぶどう→ぶどう：01018_budou⟧ジュース: grape juice\n- ⟦トマト→トマト：05192_tomato⟧ジュース: tomato juice\n- ⟦{野菜|やさい}→野菜：02265_yasai⟧ジュース: vegetable juice\n\nCOMMON EXPRESSIONS:\n- ジュース⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧: to drink juice\n- ⟦{百|ひゃく}→百：00780_hyaku⟧⟦パーセント→パーセント：01537_paasento⟧ジュース: 100% juice\n- ジュース⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧: to buy a drink\n\nRELATED WORDS:\n- ⟦{飲|の}み{物|もの}→飲み物：02929_nomimono⟧: drinks, beverages\n- ⟦ソフトドリンク→ソフトドリンク：27907_sofutodorinku⟧: soft drinks",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02929_nomimono",
+      "reading": "のみもの",
+      "headword": "{飲|の}み{物|もの}",
+      "label": "drinks, beverages"
+    },
+    {
+      "type": "related",
+      "target_id": "27907_sofutodorinku",
+      "reading": "そふとどりんく",
+      "headword": "ソフトドリンク",
+      "label": "soft drinks"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15335_kajuu",
+      "reading": "かじゅう",
+      "headword": "{果汁|かじゅう}",
+      "label": "fruit juice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23875_sukasshu",
+      "reading": "すかっしゅ",
+      "headword": "スカッシュ",
+      "label": "squash (sport)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24831_seiryouinryou",
+      "reading": "せいりょういんりょう",
+      "headword": "{清涼|せいりょう}{飲料|いんりょう}",
+      "label": "soft drink"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28596_sumuujii",
+      "reading": "すむーじー",
+      "headword": "スムージー",
+      "label": "smoothie"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:42:08Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

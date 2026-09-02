@@ -17,7 +17,9 @@
       "id": "28473_hirayadate_ex1",
       "japanese": "{平屋|ひらや}{建|だ}ての{家|いえ}に{住|す}んでいる。",
       "english": "I live in a single-story house.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28473_hirayadate_ex2",
       "japanese": "{祖父|そふ}は{平屋|ひらや}{建|だ}ての{家|いえ}を{建|た}てた。",
       "english": "My grandfather built a single-story house.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28473_hirayadate_ex3",
       "japanese": "{年|とし}を{取|と}ったら{階段|かいだん}のない{平屋|ひらや}{建|だ}てに{住|す}みたいと{思|おも}っている。",
       "english": "When I get older, I'd like to live in a single-story house with no stairs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {平屋|ひらや} (single-story building) + {建|だ}て (constructed as). Often shortened to just {平屋|ひらや}.\n\nCOMMON COLLOCATIONS:\n- {平屋|ひらや}{建|だ}ての{家|いえ}: single-story house\n- {平屋|ひらや}{建|だ}てを{建|た}てる: to build a single-story house\n- {平屋|ひらや}{建|だ}てに{住|す}む: to live in a single-story house\n\nCULTURAL CONTEXT:\nSingle-story homes are increasingly popular among older Japanese couples and retirees because they avoid stairs and are easier to maintain. They are also associated with rural and traditional housing.\n\nRELATED:\n- 〜{階|かい}{建|だ}て: ~storied (general counter pattern for number of floors)\n- {二|に}{階|かい}{建|だ}て: two-story (the most common urban housing form)",
+  "notes": "Compound of {平屋|ひらや} (single-story building) + {建|だ}て (constructed as). Often shortened to just {平屋|ひらや}.\n\nCOMMON COLLOCATIONS:\n- {平屋|ひらや}{建|だ}ての{家|いえ}: single-story house\n- {平屋|ひらや}{建|だ}てを{建|た}てる: to build a single-story house\n- {平屋|ひらや}{建|だ}てに{住|す}む: to live in a single-story house\n\nCULTURAL NOTE:\nSingle-story homes are increasingly popular among older Japanese couples and retirees because they avoid stairs and are easier to maintain. They are also associated with rural and traditional housing.\n\nRELATED WORDS:\n- 〜{階|かい}{建|だ}て: ~storied (general counter pattern for number of floors)\n- {二|に}{階|かい}{建|だ}て: two-story (the most common urban housing form)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03001_nikaidate",
+      "reading": "にかいだて",
+      "headword": "{二階建|にかいだ}て",
+      "label": "two-story"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28655_kousoudate",
+      "reading": "こうそうだて",
+      "headword": "{高層建|こうそうだ}て",
+      "label": "high-rise construction"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["daily-life"],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life"
+      ],
       "domain": []
     },
     "created": "2026-05-31T04:10:13Z",
-    "modified": "2026-05-31T04:10:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

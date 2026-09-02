@@ -17,7 +17,9 @@
       "id": "23690_seigo_ex1",
       "japanese": "{有名|ゆうめい}な{成語|せいご}。",
       "english": "A famous set phrase.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23690_seigo_ex2",
       "japanese": "この{成語|せいご}の{意味|いみ}を{調|しら}べてください。",
       "english": "Please look up the meaning of this idiom.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23690_seigo_ex3",
       "japanese": "{漢文|かんぶん}の{授業|じゅぎょう}では、{中国|ちゅうごく}の{古典|こてん}に{由来|ゆらい}する{成語|せいご}を{多|おお}く{学|まな}ぶ。",
       "english": "In classical-Chinese class, we learn many set phrases that originate from the Chinese classics.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,58 @@
       "id": "23690_seigo_ex4",
       "japanese": "「{温故知新|おんこちしん}」は、{論語|ろんご}に{由来|ゆらい}する{有名|ゆうめい}な{成語|せいご}で、「{古|ふる}きを{温|たず}ねて{新|あたら}しきを{知|し}る」という{意味|いみ}だ。",
       "english": "\"Onko chishin\" is a famous idiom derived from the Analects, meaning \"review the old to learn the new.\"",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {成|せい} (become, form, complete) and {語|ご} (word, phrase). Refers to expressions that have become fixed in the language — idioms, proverbs, and set phrases whose wording is stable and whose meaning is conventional.\n\nNUANCE:\nIn Japanese, {成語|せいご} is especially used for expressions of classical origin, including many Chinese four-character idioms ({四字熟語|よじじゅくご}) and literary proverbs. It is a somewhat formal or scholarly term; everyday Japanese uses {慣用句|かんようく} or {ことわざ} for most idiomatic expressions.\n\nCOMMON COLLOCATIONS:\n- {成語|せいご}を{使|つか}う: to use a set phrase\n- {成語|せいご}を{引用|いんよう}する: to quote an idiom\n- {成語|せいご}{辞典|じてん}: a dictionary of set phrases/idioms\n- {中国|ちゅうごく}{成語|せいご}: Chinese idioms (chengyu)\n\nSIMILAR WORDS:\n- {慣用句|かんようく}: idiom, idiomatic expression — the most common everyday term for fixed expressions\n- {熟語|じゅくご}: compound word, idiomatic phrase — often refers to two-, three-, or four-character kanji compounds\n- {四字熟語|よじじゅくご}: four-character idiom — a specific subtype of {成語|せいご} / {熟語|じゅくご}\n- {ことわざ}: proverb, saying — refers specifically to pithy traditional sayings that teach a lesson",
+  "notes": "Composed of {成|せい} (become, form, complete) and {語|ご} (word, phrase). Refers to expressions that have become fixed in the language — idioms, proverbs, and set phrases whose wording is stable and whose meaning is conventional.\n\nUSAGE:\nIn Japanese, {成語|せいご} is especially used for expressions of classical origin, including many Chinese four-character idioms ({四字熟語|よじじゅくご}) and literary proverbs. It is a somewhat formal or scholarly term; everyday Japanese uses {慣用句|かんようく} or ことわざ for most idiomatic expressions.\n\nCOMMON COLLOCATIONS:\n- {成語|せいご}を{使|つか}う: to use a set phrase\n- {成語|せいご}を{引用|いんよう}する: to quote an idiom\n- {成語|せいご}{辞典|じてん}: a dictionary of set phrases/idioms\n- {中国|ちゅうごく}{成語|せいご}: Chinese idioms (chengyu)\n\nSIMILAR WORDS:\n- {慣用句|かんようく}: idiom, idiomatic expression — the most common everyday term for fixed expressions\n- {熟語|じゅくご}: compound word, idiomatic phrase — often refers to two-, three-, or four-character kanji compounds\n- {四字熟語|よじじゅくご}: four-character idiom — a specific subtype of {成語|せいご} / {熟語|じゅくご}\n- ことわざ: proverb, saying — refers specifically to pithy traditional sayings that teach a lesson",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15890_kanyouku",
+      "reading": "かんようく",
+      "headword": "{慣用句|かんようく}",
+      "label": "idiom, idiomatic expression"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04219_jukugo",
+      "reading": "じゅくご",
+      "headword": "{熟語|じゅくご}",
+      "label": "compound word, idiomatic phrase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15663_yojijukugo",
+      "reading": "よじじゅくご",
+      "headword": "{四字熟語|よじじゅくご}",
+      "label": "four-character idiom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02765_kotowaza",
+      "reading": "ことわざ",
+      "headword": "{諺|ことわざ}",
+      "label": "proverb, saying"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["language"]
+      "semantic": [
+        "language"
+      ]
     },
     "created": "2026-04-14T00:46:30Z",
-    "modified": "2026-04-14T00:46:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

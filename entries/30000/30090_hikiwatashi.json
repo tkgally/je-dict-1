@@ -22,7 +22,9 @@
       "id": "30090_hikiwatashi_ex1",
       "japanese": "{家|いえ}の{引|ひ}き{渡|わた}しは{来月|らいげつ}です。",
       "english": "The handover of the house is next month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "30090_hikiwatashi_ex2",
       "japanese": "{商品|しょうひん}の{引|ひ}き{渡|わた}しは{店頭|てんとう}で{行|おこな}う。",
       "english": "Goods are handed over at the store counter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "30090_hikiwatashi_ex3",
       "japanese": "{工事|こうじ}が{完了|かんりょう}し、{建物|たてもの}の{引|ひ}き{渡|わた}しが{済|す}んだ。",
       "english": "The construction was completed, and the handover of the building was finished.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "30090_hikiwatashi_ex4",
       "japanese": "{容疑者|ようぎしゃ}の{引|ひ}き{渡|わた}しを{求|もと}める。",
       "english": "To demand the surrender of the suspect.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "30090_hikiwatashi_ex5",
       "japanese": "{逃亡犯|とうぼうはん}の{引|ひ}き{渡|わた}しに{応|おう}じた。",
       "english": "They complied with the extradition of the fugitive.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,23 +72,52 @@
       "id": "30090_hikiwatashi_ex6",
       "japanese": "{両国|りょうこく}は{犯罪者|はんざいしゃ}の{引|ひ}き{渡|わた}しについて{条約|じょうやく}を{結|むす}んでいる。",
       "english": "The two countries have concluded a treaty on the extradition of criminals.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The noun form of {引|ひ}き{渡|わた}す — the act of handing something, or someone, over to another party. It ranges from the delivery of goods and the turnover of a completed building to the legal surrender or extradition of a person.\n\nCOMMON COLLOCATIONS:\n- {引|ひ}き{渡|わた}しを{行|おこな}う: to carry out a handover\n- {引|ひ}き{渡|わた}しを{受|う}ける: to take delivery\n- {身柄|みがら}の{引|ひ}き{渡|わた}し: surrender of custody\n\nSIMILAR WORDS:\n- {譲渡|じょうと}: transfer of rights or ownership — legal and financial\n- {受|う}け{渡|わた}し: handover; delivery — stresses the exchange between two parties, common in transactions",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15629_jouto",
+      "reading": "じょうと",
+      "headword": "{譲渡|じょうと}",
+      "label": "transfer of rights or ownership"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22763_ukewatashi",
+      "reading": "うけわたし",
+      "headword": "{受|う}け{渡|わた}し",
+      "label": "handover"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16874_ijou",
+      "reading": "いじょう",
+      "headword": "{移譲|いじょう}",
+      "label": "transfer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["action"],
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
       "domain": []
     },
     "created": "2026-07-25T03:20:29Z",
-    "modified": "2026-07-25T03:20:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

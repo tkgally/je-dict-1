@@ -63,11 +63,40 @@
       ]
     }
   ],
-  "notes": "{事務所|じむしょ} refers to an office—a physical workspace where business or administrative work is conducted.\n\nCOMMON TYPES:\n- ⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧{事務所|じむしょ}: law office\n- ⟦{会計|かいけい}→会計：02536_kaikei⟧{事務所|じむしょ}: accounting office\n- ⟦{設計|せっけい}→設計：03300_sekkei⟧{事務所|じむしょ}: design office\n- ⟦{芸能|げいのう}→芸能：00061_geinou⟧{事務所|じむしょ}: talent agency\n\nSIMILAR WORDS:\n- ⟦オフィス→オフィス：00327_ofisu⟧: office (loanword, often modern/corporate)\n- ⟦{会社|かいしゃ}→会社：00607_kaisha⟧: company (the organization, not the place)\n- ⟦{職場|しょくば}→職場：04164_shokuba⟧: workplace (general)\n\nCOMMON EXPRESSIONS:\n- {事務所|じむしょ}⟦に→に：00314_ni⟧⟦{勤|つと}める→勤める：00902_tsutomeru⟧: to work at an office\n- {事務所|じむしょ}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧: to open an office",
-  "cross_references": [],
+  "notes": "{事務所|じむしょ} refers to an office—a physical workspace where business or administrative work is conducted.\n\nTYPES:\n- ⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧{事務所|じむしょ}: law office\n- ⟦{会計|かいけい}→会計：02536_kaikei⟧{事務所|じむしょ}: accounting office\n- ⟦{設計|せっけい}→設計：03300_sekkei⟧{事務所|じむしょ}: design office\n- ⟦{芸能|げいのう}→芸能：00061_geinou⟧{事務所|じむしょ}: talent agency\n\nSIMILAR WORDS:\n- ⟦オフィス→オフィス：00327_ofisu⟧: office (loanword, often modern/corporate)\n- ⟦{会社|かいしゃ}→会社：00607_kaisha⟧: company (the organization, not the place)\n- ⟦{職場|しょくば}→職場：04164_shokuba⟧: workplace (general)\n\nCOMMON EXPRESSIONS:\n- {事務所|じむしょ}⟦に→に：00314_ni⟧⟦{勤|つと}める→勤める：00902_tsutomeru⟧: to work at an office\n- {事務所|じむしょ}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧: to open an office",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00327_ofisu",
+      "reading": "おふぃす",
+      "headword": "オフィス",
+      "label": "office"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00607_kaisha",
+      "reading": "かいしゃ",
+      "headword": "{会社|かいしゃ}",
+      "label": "company"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04164_shokuba",
+      "reading": "しょくば",
+      "headword": "{職場|しょくば}",
+      "label": "workplace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29249_jimutou",
+      "reading": "じむとう",
+      "headword": "{事務棟|じむとう}",
+      "label": "office building"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:16:03Z",
-    "modified": "2026-02-22T03:25:25Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

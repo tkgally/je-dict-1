@@ -3,7 +3,7 @@
   "headword": "{退|しりぞ}ける",
   "reading": "しりぞける",
   "romaji": "shirizokeru",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to repel; to reject; to dismiss",
   "conjugation": {
     "type": "ichidan",
@@ -171,6 +171,22 @@
   ],
   "notes": "An ichidan verb meaning to drive away or reject. The core image is of pushing something back so it retreats. Used in both physical (military, sports) and abstract (legal, administrative) contexts.\n\nTRANSITIVITY:\nTransitive. The intransitive counterpart is {退|しりぞ}く (to retreat, to withdraw, to resign).\n\nCOMMON COLLOCATIONS:\n- {敵|てき}を{退|しりぞ}ける — to repel the enemy\n- {訴|うった}えを{退|しりぞ}ける — to dismiss a lawsuit\n- {提案|ていあん}を{退|しりぞ}ける — to reject a proposal\n- {挑戦者|ちょうせんしゃ}を{退|しりぞ}ける — to defeat a challenger\n\nSIMILAR WORDS:\n- {断|ことわ}る — to refuse, to decline; used for everyday refusals, while {退|しりぞ}ける implies forcefully pushing away or formally dismissing\n- {却下|きゃっか}する — to reject (formally); a legal/administrative term, while {退|しりぞ}ける can be used more broadly",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02102_kotowaru",
+      "reading": "ことわる",
+      "headword": "{断|ことわ}る",
+      "label": "to refuse, to decline"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05908_kyakka",
+      "reading": "きゃっか",
+      "headword": "{却下|きゃっか}",
+      "label": "to reject"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -187,6 +203,6 @@
       "verb_class": "ichidan"
     },
     "created": "2026-03-26T07:25:27Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

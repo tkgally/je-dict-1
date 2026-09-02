@@ -3,7 +3,7 @@
   "headword": "{訪問|ほうもん}する",
   "reading": "ほうもんする",
   "romaji": "houmonsuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to visit; to call on; to pay a visit",
   "definitions": [
     {
@@ -25,7 +25,7 @@
     },
     {
       "id": "26836_houmonsuru_ex2",
-      "japanese": "{午後|ごご}に{お宅|おたく}を{訪問|ほうもん}してもよろしいですか。",
+      "japanese": "{午後|ごご}にお{宅|たく}を{訪問|ほうもん}してもよろしいですか。",
       "english": "May I visit your home this afternoon?",
       "sense_numbers": [
         1
@@ -55,7 +55,29 @@
     }
   ],
   "notes": "A formal word for visiting that implies purpose and intent. Common in business, medical, and official contexts. The noun {訪問|ほうもん} appears in many compound terms for professional services.\n\nCOMMON COLLOCATIONS:\n- {訪問|ほうもん}{販売|はんばい}: door-to-door sales\n- {訪問|ほうもん}{看護|かんご}: home nursing care\n- {訪問|ほうもん}{介護|かいご}: home care service\n- {訪問|ほうもん}{者|しゃ}: visitor\n- {家庭|かてい}{訪問|ほうもん}: home visit (by teacher)\n\nSIMILAR WORDS:\n- {訪|たず}ねる: to visit — slightly less formal, can be used for places or people\n- {伺|うかが}う: to visit (humble) — humble form used when visiting someone of higher status\n- {見舞|みま}う: to visit (the sick) — specifically visiting someone who is ill or in hospital",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01182_tazuneru",
+      "reading": "たずねる",
+      "headword": "{訪|たず}ねる",
+      "label": "to visit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14133_mimau",
+      "reading": "みまう",
+      "headword": "{見舞|みま}う",
+      "label": "to visit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07678_otozureru",
+      "reading": "おとずれる",
+      "headword": "{訪|おとず}れる",
+      "label": "to visit"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,7 +93,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T13:07:41Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

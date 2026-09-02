@@ -2,7 +2,7 @@
   "id": "02440_yoru",
   "headword": "{寄|よ}る",
   "reading": "よる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to approach, to stop by",
   "conjugation": {
     "type": "godan",
@@ -208,11 +208,19 @@
       ]
     }
   ],
-  "notes": "{寄|よ}る has two main meanings: to physically approach something, or to briefly stop at a place.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pair: ⟦{寄|よ}せる→寄せる：02329_yoseru⟧ (transitive, to bring near)\n\nASPECT (ている):\n{寄|よ}っている indicates the state of being near or having stopped by.\n\nCOMMON PATTERNS:\n- 〜⟦に→に：00314_ni⟧{寄|よ}る: to stop by (a place)\n- {寄|よ}って⟦くる→来る：00254_kuru⟧: to approach, come near\n- {寄|よ}って⟦いく→行く：00119_iku⟧: to stop by on the way\n- ⟦{帰|かえ}り→帰り：01275_kaeri⟧⟦に→に：00314_ni⟧{寄|よ}る: to stop by on the way home\n\nNOTE:\nDo not confuse with ⟦{因|よ}る→よる：09857_yoru⟧ (to be due to) or ⟦{拠|よ}る→よる：09857_yoru⟧ (to be based on), which use different kanji.",
-  "cross_references": [],
+  "notes": "{寄|よ}る has two main meanings: to physically approach something, or to briefly stop at a place.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pair: ⟦{寄|よ}せる→寄せる：02329_yoseru⟧ (transitive, to bring near)\n\nASPECT (ている):\n{寄|よ}っている indicates the state of being near or having stopped by.\n\nCOMMON PATTERNS:\n- 〜⟦に→に：00314_ni⟧{寄|よ}る: to stop by (a place)\n- {寄|よ}って⟦くる→来る：00254_kuru⟧: to approach, come near\n- {寄|よ}って⟦いく→行く：00119_iku⟧: to stop by on the way\n- ⟦{帰|かえ}り→帰り：01275_kaeri⟧⟦に→に：00314_ni⟧{寄|よ}る: to stop by on the way home\n\nUSAGE:\nDo not confuse with ⟦{因|よ}る→よる：09857_yoru⟧ (to be due to) or ⟦{拠|よ}る→よる：09857_yoru⟧ (to be based on), which use different kanji.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25362_sekkinsuru",
+      "reading": "せっきんする",
+      "headword": "{接近|せっきん}する",
+      "label": "to approach"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T08:59:29Z",
-    "modified": "2026-06-11T18:03:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

@@ -17,7 +17,9 @@
       "id": "29972_bataashi_ex1",
       "japanese": "バタ{足|あし}が{速|はや}い。",
       "english": "Her flutter kick is fast.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29972_bataashi_ex2",
       "japanese": "プールでバタ{足|あし}の{練習|れんしゅう}をした。",
       "english": "I practiced flutter kicks in the pool.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29972_bataashi_ex3",
       "japanese": "バタ{足|あし}だけで25メートル{泳|およ}げるようになった。",
       "english": "I became able to swim 25 meters using only the flutter kick.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Common beginners' drill, often practiced while holding a kickboard ({ビート板|ビートばん}).\n\nCOMMON COLLOCATIONS:\n- バタ{足|あし}の{練習|れんしゅう}: flutter-kick practice\n- バタ{足|あし}が{速|はや}い: to have a fast flutter kick\n- バタ{足|あし}で{泳|およ}ぐ: to swim using the flutter kick\n\nSIMILAR WORDS:\n- {平泳|ひらおよ}ぎ: breaststroke — uses a frog kick, not the alternating flutter kick",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06526_hiraoyogi",
+      "reading": "ひらおよぎ",
+      "headword": "{平泳|ひらおよ}ぎ",
+      "label": "breaststroke"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29969_dorufinkikku",
+      "reading": "どるふぃんきっく",
+      "headword": "ドルフィンキック",
+      "label": "dolphin kick (swimming)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports"],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-07-20T06:17:59Z",
-    "modified": "2026-07-20T06:17:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

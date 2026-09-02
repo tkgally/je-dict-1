@@ -19,7 +19,9 @@
       "english": "This film is based on historical fact.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12037_shijitsu_ex2",
@@ -27,7 +29,9 @@
       "english": "It is difficult to distinguish historical fact from legend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12037_shijitsu_ex3",
@@ -35,22 +39,52 @@
       "english": "The historical drama series is depicted with a blend of historical fact and fiction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{史実|しじつ} refers to events that actually occurred in history, as distinct from legend, myth, or fictional embellishment.\n\nUSAGE:\nCommonly appears in discussions of historical dramas ({大河|たいが}ドラマ), historical novels, and debates about historical accuracy.\n\nCOMMON COLLOCATIONS:\n- {史実|しじつ}に{基|もと}づく: based on historical fact\n- {史実|しじつ}と{異|こと}なる: to differ from historical fact\n- {史実|しじつ}に{忠実|ちゅうじつ}: faithful to historical fact\n- {史実|しじつ}を{歪|ゆが}める: to distort historical fact\n\nRELATED WORDS:\n- {事実|じじつ}: fact (general, not limited to history)\n- {実話|じつわ}: true story (narrative-focused)\n- {伝説|でんせつ}: legend (often contrasted with {史実|しじつ})",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03271_jijitsu",
+      "reading": "じじつ",
+      "headword": "{事実|じじつ}",
+      "label": "fact"
+    },
+    {
+      "type": "related",
+      "target_id": "15897_jitsuwa",
+      "reading": "じつわ",
+      "headword": "{実話|じつわ}",
+      "label": "true story"
+    },
+    {
+      "type": "related",
+      "target_id": "11446_densetsu",
+      "reading": "でんせつ",
+      "headword": "{伝説|でんせつ}",
+      "label": "legend"
+    }
+  ],
   "metadata": {
     "created": "2026-02-19T13:34:23Z",
-    "modified": "2026-04-04T01:54:53Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["academic"],
-      "semantic": ["history"]
+      "domain": [
+        "academic"
+      ],
+      "semantic": [
+        "history"
+      ]
     }
   }
 }

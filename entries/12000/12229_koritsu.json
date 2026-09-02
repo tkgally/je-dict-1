@@ -3,7 +3,7 @@
   "id": "12229_koritsu",
   "headword": "{孤立|こりつ}",
   "reading": "こりつ",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "isolation, being cut off, standing alone",
   "conjugation": {
     "type": "suru",
@@ -149,11 +149,39 @@
       "headword": "{仲間外|なかまはず}れ",
       "label": "exclusion from a group",
       "type": "related"
+    },
+    {
+      "type": "related",
+      "target_id": "05995_kodokukan",
+      "reading": "こどくかん",
+      "headword": "{孤独感|こどくかん}",
+      "label": "sense of loneliness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19525_hitoribocchi",
+      "reading": "ひとりぼっち",
+      "headword": "{独|ひと}りぼっち",
+      "label": "all alone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24388_kakuzetsu",
+      "reading": "かくぜつ",
+      "headword": "{隔絶|かくぜつ}",
+      "label": "isolation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25538_kakurisuru",
+      "reading": "かくりする",
+      "headword": "{隔離|かくり}する",
+      "label": "to isolate"
     }
   ],
   "metadata": {
     "created": "2026-02-20T13:12:06Z",
-    "modified": "2026-08-08T15:24:53Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

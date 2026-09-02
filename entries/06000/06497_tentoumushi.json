@@ -53,11 +53,40 @@
       ]
     }
   ],
-  "notes": "KANJI: Can be written as {天道虫|てんとうむし} or {瓢虫|てんとうむし}. Usually written in hiragana as てんとう{虫|むし}.\n\nNAME ORIGIN: ⟦{天道|てんとう}→天道：25216_tentou⟧ refers to the sun or heavens. The name comes from the ladybug's habit of flying toward the sun when placed on a finger.\n\nSPECIES IN JAPAN:\n・⟦ナナホシテントウ→ナナホシテントウ：29879_nanahoshitentou⟧ - seven-spot ladybird (most common)\n・⟦ナミテントウ→ナミテントウ：noentry⟧ - Asian ladybeetle\n・⟦ニジュウヤホシテントウ→ニジュウヤホシテントウ：noentry⟧ - 28-spotted potato ladybird (plant pest)\n\nECOLOGICAL ROLE:\n・⟦{益虫|えきちゅう}→益虫：17787_ekichuu⟧ - beneficial insect\n・⟦アブラムシ→アブラムシ：29729_aburamushi⟧⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧ - eats aphids\n・⟦{害虫|がいちゅう}→害虫：06430_gaichuu⟧⟦{駆除|くじょ}→駆除：16374_kujo⟧ - pest control\n\nCULTURAL ASSOCIATIONS: Like in Western cultures, ladybugs are associated with good luck in Japan. Finding one is considered a good omen.\n\nRELATED INSECTS:\n・⟦カブトムシ→カブトムシ：05199_kabutomushi⟧ - rhinoceros beetle\n・⟦クワガタムシ→クワガタムシ：06562_kuwagatamushi⟧ - stag beetle\n・⟦カマキリ→カマキリ：06516_kamakiri⟧ - praying mantis",
-  "cross_references": [],
+  "notes": "KANJI: Can be written as {天道虫|てんとうむし} or {瓢虫|てんとうむし}. Usually written in hiragana as てんとう{虫|むし}.\n\nNAME ORIGIN: ⟦{天道|てんとう}→天道：25216_tentou⟧ refers to the sun or heavens. The name comes from the ladybug's habit of flying toward the sun when placed on a finger.\n\nSPECIES IN JAPAN:\n- ⟦ナナホシテントウ→ナナホシテントウ：29879_nanahoshitentou⟧ - seven-spot ladybird (most common)\n- ⟦ナミテントウ→ナミテントウ：noentry⟧ - Asian ladybeetle\n- ⟦ニジュウヤホシテントウ→ニジュウヤホシテントウ：noentry⟧ - 28-spotted potato ladybird (plant pest)\n\nECOLOGICAL ROLE:\n- ⟦{益虫|えきちゅう}→益虫：17787_ekichuu⟧ - beneficial insect\n- ⟦アブラムシ→アブラムシ：29729_aburamushi⟧⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧ - eats aphids\n- ⟦{害虫|がいちゅう}→害虫：06430_gaichuu⟧⟦{駆除|くじょ}→駆除：16374_kujo⟧ - pest control\n\nCULTURAL ASSOCIATIONS: Like in Western cultures, ladybugs are associated with good luck in Japan. Finding one is considered a good omen.\n\nRELATED INSECTS:\n- ⟦カブトムシ→カブトムシ：05199_kabutomushi⟧ - rhinoceros beetle\n- ⟦クワガタムシ→クワガタムシ：06562_kuwagatamushi⟧ - stag beetle\n- ⟦カマキリ→カマキリ：06516_kamakiri⟧ - praying mantis",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05199_kabutomushi",
+      "reading": "かぶとむし",
+      "headword": "カブトムシ",
+      "label": "rhinoceros beetle"
+    },
+    {
+      "type": "related",
+      "target_id": "06562_kuwagatamushi",
+      "reading": "くわがたむし",
+      "headword": "クワガタムシ",
+      "label": "stag beetle"
+    },
+    {
+      "type": "related",
+      "target_id": "06516_kamakiri",
+      "reading": "かまきり",
+      "headword": "カマキリ",
+      "label": "praying mantis"
+    },
+    {
+      "type": "related",
+      "target_id": "29879_nanahoshitentou",
+      "reading": "ななほしてんとう",
+      "headword": "ナナホシテントウ",
+      "label": "seven-spot ladybird"
+    }
+  ],
   "metadata": {
     "created": "2026-01-17T18:44:29Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

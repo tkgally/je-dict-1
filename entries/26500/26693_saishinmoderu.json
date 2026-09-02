@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Composed of {最新|さいしん} (newest, latest) and モデル (model). Frequently used in consumer and technology contexts when discussing product releases, upgrades, and comparisons between generations of the same product line.\n\nCOMMON COLLOCATIONS:\n- {最新|さいしん}モデルに{買|か}い{替|か}える: to upgrade to the latest model\n- {最新|さいしん}モデルが{登場|とうじょう}する: for the latest model to appear/launch\n- {最新|さいしん}モデルの{機能|きのう}: features of the latest model\n- {最新|さいしん}モデルを{試|ため}す: to try the latest model\n\nSIMILAR WORDS:\n- {新型|しんがた}: new model/type — often used for cars and official product designations\n- {新製品|しんせいひん}: new product — broader term covering any newly released product\n- {最新版|さいしんばん}: latest version/edition — used for software, books, and documents",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19411_shingata",
+      "reading": "しんがた",
+      "headword": "{新型|しんがた}",
+      "label": "new model/type"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18629_shinseihin",
+      "reading": "しんせいひん",
+      "headword": "{新製品|しんせいひん}",
+      "label": "new product"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16448_saishinban",
+      "reading": "さいしんばん",
+      "headword": "{最新版|さいしんばん}",
+      "label": "latest version/edition"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +75,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "technology",
         "shopping"
       ]
     },
     "created": "2026-05-04T13:52:57Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

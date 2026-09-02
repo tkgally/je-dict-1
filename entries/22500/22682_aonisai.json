@@ -17,7 +17,9 @@
       "id": "22682_aonisai_ex1",
       "japanese": "{青二才|あおにさい}のくせに{生意気|なまいき}だ。",
       "english": "He's cheeky for a greenhorn.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22682_aonisai_ex2",
       "japanese": "あの{青二才|あおにさい}に{何|なに}がわかる。",
       "english": "What would that greenhorn know?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "22682_aonisai_ex3",
       "japanese": "あのころの{自分|じぶん}は{青二才|あおにさい}で、{周|まわ}りの{忠告|ちゅうこく}を{聞|き}かなかった。",
       "english": "Back then I was a greenhorn and wouldn't listen to the advice of those around me.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A somewhat old-fashioned but still understood word. {青|あお} (blue/green) carries connotations of immaturity in Japanese (as in {青臭|あおくさ}い, green/immature), and {二才|にさい} is an archaic word for a young person. The word is usually used by older people to dismiss younger ones, or self-deprecatingly when reflecting on one's own past.\n\nCOMMON COLLOCATIONS:\n- {青二才|あおにさい}のくせに: despite being a greenhorn\n- {青二才|あおにさい}が{偉|えら}そうに: a greenhorn acting important\n- まだ{青二才|あおにさい}だ: still just a greenhorn\n\nSIMILAR WORDS:\n- {世間知|せけんし}らず: naive, unworldly — focuses on lack of social awareness, while {青二才|あおにさい} emphasizes youthful arrogance or presumption\n- {若造|わかぞう}: young upstart — similarly dismissive of youth, but less literary\n- {半人前|はんにんまえ}: half-fledged — focuses on incomplete skill development rather than attitude",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22674_sekenshirazu",
+      "reading": "せけんしらず",
+      "headword": "{世間知|せけんし}らず",
+      "label": "naive, unworldly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18457_wakazou",
+      "reading": "わかぞう",
+      "headword": "{若造|わかぞう}",
+      "label": "young upstart"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22681_hanninmae",
+      "reading": "はんにんまえ",
+      "headword": "{半人前|はんにんまえ}",
+      "label": "half-fledged"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["personality"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "personality"
+      ],
       "domain": [],
       "formality": "neutral",
       "politeness": "plain"
     },
     "created": "2026-04-07T00:54:30Z",
-    "modified": "2026-04-07T00:54:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

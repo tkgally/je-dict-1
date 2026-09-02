@@ -3,7 +3,7 @@
   "headword": "{事前予約|じぜんよやく}",
   "reading": "じぜんよやく",
   "romaji": "jizenyoyaku",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "advance reservation; advance booking",
   "definitions": [
     {
@@ -56,6 +56,29 @@
   ],
   "notes": "Composed of {事前|じぜん} ('in advance, beforehand') and {予約|よやく} ('reservation, booking'). While {予約|よやく} by itself can imply advance booking, {事前予約|じぜんよやく} explicitly emphasizes the advance nature and is commonly used in signs, websites, and announcements.\n\nVery commonly seen in tourism, restaurants, museums, and medical facilities. Many popular spots in Japan now require {事前予約|じぜんよやく}, especially after the shift toward reservation-based systems.\n\nCOMMON COLLOCATIONS:\n- {事前予約|じぜんよやく}{制|せい}: advance reservation system\n- {事前予約|じぜんよやく}{優先|ゆうせん}: priority for advance bookings\n- {事前予約|じぜんよやく}{限定|げんてい}: limited to advance bookings\n- {事前予約|じぜんよやく}なし: without advance reservation\n- ウェブで{事前予約|じぜんよやく}する: to book in advance online\n\nSIMILAR WORDS:\n- {予約|よやく}: reservation — the basic term; does not emphasize timing\n- {当日予約|とうじつよやく}: same-day reservation — the opposite: booking on the day itself\n- {前売|まえう}り: advance sale (of tickets) — specifically about purchasing tickets before the event",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "24703_toujitsuyoyaku",
+      "reading": "とうじつよやく",
+      "headword": "{当日予約|とうじつよやく}",
+      "label": "same-day reservation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08289_maeuri",
+      "reading": "まえうり",
+      "headword": "{前売|まえう}り",
+      "label": "advance sale"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24939_denwayoyaku",
+      "reading": "でんわよやく",
+      "headword": "{電話予約|でんわよやく}",
+      "label": "phone reservation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -73,7 +96,7 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T15:25:49Z",
-    "modified": "2026-04-07T15:25:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -17,34 +17,67 @@
       "japanese": "⟦{偉|えら}い→偉い：00039_erai⟧{発明家|はつめいか}。",
       "english": "A great inventor.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09521_hatsumeika_ex2",
       "japanese": "⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦に→に：00314_ni⟧⟦{残|のこ}る→残る：01187_nokoru⟧{発明家|はつめいか}。",
       "english": "An inventor who left their mark on history.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09521_hatsumeika_ex3",
       "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧⟦な→な：09497_na⟧{発明家|はつめいか}⟦だ→だ：09496_da⟧。",
       "english": "He is a famous inventor.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{発明家|はつめいか} refers to a person who creates new devices, methods, or technologies. The word combines {発明|はつめい} (invention) with the suffix {家|か} (professional/expert).\n\nWORD FORMATION:\n{発明|はつめい} (invention) + {家|か} (suffix for a person skilled in something)\n\nRELATED WORDS:\n- {発明|はつめい}: invention\n- {発明|はつめい}する: to invent\n- {発明品|はつめいひん}: an invented product\n\nSIMILAR {家|か} COMPOUNDS:\n- {科学者|かがくしゃ}: scientist (uses {者|しゃ} instead of {家|か})\n- {芸術家|げいじゅつか}: artist\n- {作家|さっか}: writer/author",
+  "notes": "{発明家|はつめいか} refers to a person who creates new devices, methods, or technologies. The word combines {発明|はつめい} (invention) with the suffix {家|か} (professional/expert).\n\nFORMS:\n{発明|はつめい} (invention) + {家|か} (suffix for a person skilled in something)\n\nRELATED WORDS:\n- {発明|はつめい}: invention\n- {発明|はつめい}する: to invent\n- {発明品|はつめいひん}: an invented product\n\nSIMILAR {家|か} COMPOUNDS:\n- {科学者|かがくしゃ}: scientist (uses {者|しゃ} instead of {家|か})\n- {芸術家|げいじゅつか}: artist\n- {作家|さっか}: writer/author",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01495_hatsumei",
+      "reading": "はつめい",
+      "headword": "{発明|はつめい}",
+      "label": "to invent"
+    },
+    {
+      "type": "related",
+      "target_id": "27729_hatsumeihin",
+      "reading": "はつめいひん",
+      "headword": "{発明品|はつめいひん}",
+      "label": "an invented product"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23283_hatsumeisha",
+      "reading": "はつめいしゃ",
+      "headword": "{発明者|はつめいしゃ}",
+      "label": "inventor"
+    }
+  ],
   "metadata": {
     "created": "2026-02-02T10:21:20Z",
-    "modified": "2026-03-25T02:55:27Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     }
   }
 }

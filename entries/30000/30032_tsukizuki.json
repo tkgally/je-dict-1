@@ -3,7 +3,7 @@
   "headword": "月々",
   "reading": "つきづき",
   "romaji": "tsukizuki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, adverb",
   "gloss": "every month; monthly",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "30032_tsukizuki_ex1",
       "japanese": "{月々|つきづき}の{支払|しはら}い。",
       "english": "Monthly payments.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30032_tsukizuki_ex2",
       "japanese": "{月々|つきづき}{一定|いってい}の{額|がく}を{貯金|ちょきん}する。",
       "english": "Save a fixed amount every month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,39 @@
       "id": "30032_tsukizuki_ex3",
       "japanese": "ローンは{月々|つきづき}{三|さん}{万|まん}{円|えん}ずつ{返|かえ}している。",
       "english": "I'm paying back the loan at 30,000 yen a month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Written with the iteration mark 々; the second {月|つき} is voiced to づき through {連濁|れんだく} (sequential voicing).\n\nCOMMON COLLOCATIONS:\n- {月々|つきづき}の{支払|しはら}い: monthly payment\n- {月々|つきづき}の{返済|へんさい}: monthly repayment\n- {月々|つきづき}{分割|ぶんかつ}: monthly installments\n\nSIMILAR WORDS:\n- {毎月|まいつき}: every month — more neutral and common\n- {月々|つきづき} emphasizes the steady, month-after-month recurrence, especially of payments and savings.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00732_maitsuki",
+      "reading": "まいつき",
+      "headword": "{毎月|まいつき}",
+      "label": "every month"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adverb"],
+      "pos": [
+        "noun",
+        "adverb"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["time-general"],
+      "politeness": "plain",
+      "semantic": [
+        "time-general"
+      ],
       "domain": []
     },
     "created": "2026-07-22T12:20:02Z",
-    "modified": "2026-07-22T12:20:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

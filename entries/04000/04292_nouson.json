@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {農村|のうそん} specifically refers to communities centered on agriculture, distinct from general countryside.\n\nCOMMON PATTERNS:\n- {農村|のうそん}⟦に→に：00314_ni⟧⟦{住|す}む→住む：00673_sumu⟧ (to live in a farming village)\n- {農村|のうそん}⟦{地域|ちいき}→地域：01461_chiiki⟧ (rural agricultural area)\n- {農村|のうそん}⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧ (rural life)\n\nCOMMON COMPOUNDS:\n- {農村|のうそん}{部|ぶ} (rural farming district)\n- {農村|のうそん}⟦{地帯|ちたい}→地帯：04057_chitai⟧ (agricultural zone)\n- {農村|のうそん}⟦{振興|しんこう}→振興：00471_shinkou⟧ (rural development)\n\nCONTRAST:\n- {農村|のうそん} - farming village (agriculture-focused)\n- ⟦{田舎|いなか}→田舎：01320_inaka⟧ - countryside (general)\n- ⟦{漁村|ぎょそん}→漁村：noentry⟧ - fishing village",
+  "notes": "USAGE: {農村|のうそん} specifically refers to communities centered on agriculture, distinct from general countryside.\n\nCOMMON PATTERNS:\n- {農村|のうそん}⟦に→に：00314_ni⟧⟦{住|す}む→住む：00673_sumu⟧ (to live in a farming village)\n- {農村|のうそん}⟦{地域|ちいき}→地域：01461_chiiki⟧ (rural agricultural area)\n- {農村|のうそん}⟦の→の：09472_no⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧ (rural life)\n\nCOMPOUNDS:\n- {農村|のうそん}{部|ぶ} (rural farming district)\n- {農村|のうそん}⟦{地帯|ちたい}→地帯：04057_chitai⟧ (agricultural zone)\n- {農村|のうそん}⟦{振興|しんこう}→振興：00471_shinkou⟧ (rural development)\n\nSIMILAR WORDS:\n- {農村|のうそん} - farming village (agriculture-focused)\n- ⟦{田舎|いなか}→田舎：01320_inaka⟧ - countryside (general)\n- ⟦{漁村|ぎょそん}→漁村：noentry⟧ - fishing village",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,32 @@
       "headword": "{農家|のうか}",
       "label": "farm household",
       "target_id": "03539_nouka"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01320_inaka",
+      "reading": "いなか",
+      "headword": "{田舎|いなか}",
+      "label": "countryside"
+    },
+    {
+      "type": "related",
+      "target_id": "01491_nougyou",
+      "reading": "のうぎょう",
+      "headword": "{農業|のうぎょう}",
+      "label": "agriculture, farming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23111_denen",
+      "reading": "でんえん",
+      "headword": "{田園|でんえん}",
+      "label": "rural district"
     }
   ],
   "metadata": {
     "created": "2026-01-14T00:58:16Z",
-    "modified": "2026-05-30T18:11:57Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

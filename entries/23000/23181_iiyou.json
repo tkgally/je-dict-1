@@ -17,7 +17,9 @@
       "id": "23181_iiyou_ex1",
       "japanese": "その{言|い}い{様|よう}はひどい。",
       "english": "That's a terrible way to put it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23181_iiyou_ex2",
       "japanese": "もっと{別|べつ}の{言|い}い{様|よう}があるだろう。",
       "english": "There must be a better way to say it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "23181_iiyou_ex3",
       "japanese": "{彼女|かのじょ}の{言|い}い{様|よう}だと、まるで{私|わたし}が{悪|わる}いみたいだ。",
       "english": "The way she puts it, it sounds like I'm the one at fault.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {言|い}い (saying, from {言|い}う) and {様|よう} (manner, way). Focuses on the manner of expression rather than the content. Often used in critical or evaluative contexts — commenting that someone's phrasing was rude, misleading, or could have been better.\n\nCOMMON COLLOCATIONS:\n- {言|い}い{様|よう}がない: there is no way to express it; indescribable\n- {言|い}い{様|よう}が{悪|わる}い: poorly worded\n- その{言|い}い{様|よう}は〜: that way of saying it is ~\n- {別|べつ}の{言|い}い{様|よう}: another way to say it\n\nSIMILAR WORDS:\n- {言|い}い{方|かた}: way of saying — very similar and more common in everyday speech\n- {表現|ひょうげん}: expression — more formal; refers to the expression itself rather than the manner\n- {物|もの}{言|い}い: manner of speaking — somewhat literary; can also mean a complaint or objection",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14165_iikata",
+      "reading": "いいかた",
+      "headword": "{言|い}い{方|かた}",
+      "label": "way of saying"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03584_hyougen",
+      "reading": "ひょうげん",
+      "headword": "{表現|ひょうげん}",
+      "label": "expression"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13487_monoii",
+      "reading": "ものいい",
+      "headword": "{物言|ものい}い",
+      "label": "manner of speaking"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["language"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "language"
+      ],
       "formality": "neutral",
       "politeness": "plain"
     },
     "created": "2026-04-08T21:22:38Z",
-    "modified": "2026-04-08T21:22:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

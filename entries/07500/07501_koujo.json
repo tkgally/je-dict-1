@@ -2,7 +2,7 @@
   "id": "07501_koujo",
   "headword": "{控除|こうじょ}",
   "reading": "こうじょ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "deduction; exemption",
   "conjugation": {
     "type": "suru",
@@ -130,10 +130,19 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{控|こう} (deduct, withhold) + {除|じょ} (remove, exclude)\n\nCOMMON TAX DEDUCTIONS:\n・{基礎|きそ}{控除|こうじょ} - basic exemption\n・{給与所得|きゅうよしょとく}{控除|こうじょ} - employment income deduction\n・{配偶者|はいぐうしゃ}{控除|こうじょ} - spouse deduction\n・{扶養|ふよう}{控除|こうじょ} - dependent deduction\n・{医療費|いりょうひ}{控除|こうじょ} - medical expense deduction\n・{住宅|じゅうたく}ローン{控除|こうじょ} - mortgage deduction\n・{生命|せいめい}{保険料|ほけんりょう}{控除|こうじょ} - life insurance premium deduction\n\nPAYROLL DEDUCTIONS:\n・{所得税|しょとくぜい} - income tax\n・{住民税|じゅうみんぜい} - resident tax\n・{健康保険|けんこうほけん} - health insurance\n・{厚生年金|こうせいねんきん} - pension\n・{雇用保険|こようほけん} - employment insurance\n\nCOMMON EXPRESSIONS:\n・{控除|こうじょ}を{受|う}ける - to receive a deduction\n・{控除|こうじょ}{対象|たいしょう} - eligible for deduction\n・{控除額|こうじょがく} - deduction amount\n・{所得|しょとく}{控除|こうじょ} - income deduction",
+  "notes": "ETYMOLOGY:\n{控|こう} (deduct, withhold) + {除|じょ} (remove, exclude)\n\nCOMMON TAX DEDUCTIONS:\n- {基礎|きそ}{控除|こうじょ} - basic exemption\n- {給与所得|きゅうよしょとく}{控除|こうじょ} - employment income deduction\n- {配偶者|はいぐうしゃ}{控除|こうじょ} - spouse deduction\n- {扶養|ふよう}{控除|こうじょ} - dependent deduction\n- {医療費|いりょうひ}{控除|こうじょ} - medical expense deduction\n- {住宅|じゅうたく}ローン{控除|こうじょ} - mortgage deduction\n- {生命|せいめい}{保険料|ほけんりょう}{控除|こうじょ} - life insurance premium deduction\n\nPAYROLL DEDUCTIONS:\n- {所得税|しょとくぜい} - income tax\n- {住民税|じゅうみんぜい} - resident tax\n- {健康保険|けんこうほけん} - health insurance\n- {厚生年金|こうせいねんきん} - pension\n- {雇用保険|こようほけん} - employment insurance\n\nCOMMON EXPRESSIONS:\n- {控除|こうじょ}を{受|う}ける - to receive a deduction\n- {控除|こうじょ}{対象|たいしょう} - eligible for deduction\n- {控除額|こうじょがく} - deduction amount\n- {所得|しょとく}{控除|こうじょ} - income deduction",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04902_kakuteishinkoku",
+      "reading": "かくていしんこく",
+      "headword": "{確定申告|かくていしんこく}",
+      "label": "tax return"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-08-10T18:29:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +151,7 @@
         "verb-suru"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "finance",
         "money"

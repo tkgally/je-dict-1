@@ -17,7 +17,9 @@
       "id": "23717_kijunkinri_ex1",
       "japanese": "{基準金利|きじゅんきんり}が{上|あ}がった。",
       "english": "The benchmark interest rate has risen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23717_kijunkinri_ex2",
       "japanese": "{住宅|じゅうたく}ローンの{金利|きんり}は{基準金利|きじゅんきんり}によって{決|き}まる。",
       "english": "Mortgage rates are determined by the benchmark interest rate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23717_kijunkinri_ex3",
       "japanese": "{日銀|にちぎん}が{政策|せいさく}を{変更|へんこう}したので、{各|かく}{銀行|ぎんこう}の{基準金利|きじゅんきんり}も{見直|みなお}された。",
       "english": "Because the Bank of Japan changed its policy, each bank's benchmark interest rate was also revised.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,38 @@
       "id": "23717_kijunkinri_ex4",
       "japanese": "{優良|ゆうりょう}{顧客|こきゃく}には、{基準金利|きじゅんきんり}から{一定|いってい}の{割引|わりびき}を{適用|てきよう}して{融資|ゆうし}を{行|おこな}う。",
       "english": "For top-rated customers, loans are offered at a set discount below the benchmark interest rate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {基準|きじゅん} (standard, basis) and {金利|きんり} (interest rate). A financial term referring to the reference rate that banks and other lenders publish and use as the baseline for pricing their loan products.\n\nUSAGE:\nThe headline rate that banks display for mortgages and business loans is typically the {基準金利|きじゅんきんり}; the rate a customer actually pays is that rate adjusted by a discount ({優遇|ゆうぐう}) based on creditworthiness and the type of loan. Changes in this rate ripple through to mortgages, consumer loans, and corporate borrowing.\n\nCOMMON COLLOCATIONS:\n- {基準金利|きじゅんきんり}を{引|ひ}き{上|あ}げる / {引|ひ}き{下|さ}げる: to raise / lower the benchmark interest rate\n- {基準金利|きじゅんきんり}が{上昇|じょうしょう}する / {下落|げらく}する: the benchmark rate rises / falls\n- {基準金利|きじゅんきんり}に{連動|れんどう}する: to be linked to the benchmark interest rate\n- {店頭|てんとう}{表示|ひょうじ}{金利|きんり}: the posted (over-the-counter) rate, essentially the same as {基準金利|きじゅんきんり} for retail banking\n\nSIMILAR WORDS:\n- {政策|せいさく}{金利|きんり}: policy interest rate — the rate set by the central bank ({日銀|にちぎん}), which drives the {基準金利|きじゅんきんり} of commercial banks\n- {優遇|ゆうぐう}{金利|きんり}: preferential interest rate — a discounted rate below the benchmark, offered to specific customers\n- {適用|てきよう}{金利|きんり}: applied interest rate — the rate actually applied to a given loan, after any adjustments\n- {市場|しじょう}{金利|きんり}: market interest rate — the rate determined by financial markets, which influences the benchmark",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26656_seisakukinri",
+      "reading": "せいさくきんり",
+      "headword": "{政策金利|せいさくきんり}",
+      "label": "policy interest rate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["finance", "business"]
+      "semantic": [
+        "finance",
+        "business"
+      ]
     },
     "created": "2026-04-14T15:04:59Z",
-    "modified": "2026-04-14T15:04:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

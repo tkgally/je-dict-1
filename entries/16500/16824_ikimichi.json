@@ -19,7 +19,9 @@
       "english": "I stopped at a convenience store on the way there.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16824_ikimichi_ex2",
@@ -27,7 +29,9 @@
       "english": "I took the train on the way there and the bus on the way back.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16824_ikimichi_ex3",
@@ -35,7 +39,9 @@
       "english": "I saw a flower shop on the way there and decided to buy flowers on the way back.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nThe counterpart is {帰|かえ}り{道|みち} (the way back / return route). A common everyday word used when describing what happened during a journey to somewhere.\n\nCOMMON COLLOCATIONS:\n- {行|い}き{道|みち}に (on the way there)\n- {行|い}き{道|みち}で (during the trip there)\n- {行|い}き{道|みち}と{帰|かえ}り{道|みち} (the way there and back)\n\nSIMILAR WORDS:\n- {帰|かえ}り{道|みち}: the way back — the return route\n- {往路|おうろ}: outbound route — more formal, used for flights and transportation",
@@ -46,18 +52,30 @@
       "reading": "かえりみち",
       "headword": "{帰|かえ}り{道|みち}",
       "label": "way back"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18214_ouro",
+      "reading": "おうろ",
+      "headword": "{往路|おうろ}",
+      "label": "outbound route"
     }
   ],
   "metadata": {
     "created": "2026-03-14T10:32:03Z",
-    "modified": "2026-04-27T04:29:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["travel", "direction"]
+      "semantic": [
+        "travel",
+        "direction"
+      ]
     }
   }
 }

@@ -17,7 +17,9 @@
       "id": "30051_hikakuhyou_ex1",
       "japanese": "{比較表|ひかくひょう}を{作|つく}る。",
       "english": "Make a comparison table.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30051_hikakuhyou_ex2",
       "japanese": "{料金|りょうきん}プランの{比較表|ひかくひょう}を{見|み}る。",
       "english": "Look at a comparison table of the pricing plans.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,40 @@
       "id": "30051_hikakuhyou_ex3",
       "japanese": "{各社|かくしゃ}の{製品|せいひん}を{比較表|ひかくひょう}にまとめると、{違|ちが}いが{分|わ}かりやすい。",
       "english": "Summarizing each company's products in a comparison table makes the differences easy to see.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {比較|ひかく} (comparison) with {表|ひょう} (table). Widely used for products, services, and price plans to present differences clearly.\n\nCOMMON COLLOCATIONS:\n- {比較表|ひかくひょう}を{作成|さくせい}する: to create a comparison table\n- {料金|りょうきん}{比較表|ひかくひょう}: a price comparison table\n- {機能|きのう}{比較表|ひかくひょう}: a feature comparison table",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30043_taishouhyou",
+      "reading": "たいしょうひょう",
+      "headword": "対照表",
+      "label": "comparison table"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["business"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "business"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-07-23T00:19:28Z",
-    "modified": "2026-07-23T00:19:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

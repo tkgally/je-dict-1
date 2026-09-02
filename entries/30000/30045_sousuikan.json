@@ -17,7 +17,9 @@
       "id": "30045_sousuikan_ex1",
       "japanese": "{送水管|そうすいかん}が{破裂|はれつ}した。",
       "english": "The water main burst.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30045_sousuikan_ex2",
       "japanese": "{地下|ちか}に{太|ふと}い{送水管|そうすいかん}が{通|とお}っている。",
       "english": "A thick water main runs underground.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "30045_sousuikan_ex3",
       "japanese": "{老朽化|ろうきゅうか}した{送水管|そうすいかん}の{取|と}り{替|か}え{工事|こうじ}が{行|おこな}われた。",
       "english": "Replacement work was carried out on the aging water mains.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from {送水|そうすい} (water conveyance) + {管|かん} (pipe, tube). Refers to supply pipes in waterworks and buildings.\n\nCOMMON COLLOCATIONS:\n- {送水管|そうすいかん}が{破裂|はれつ}する: for a water main to burst\n- {送水管|そうすいかん}の{工事|こうじ}: water-main work\n\nSIMILAR WORDS:\n- {水道管|すいどうかん}: water pipe — the everyday word for household water pipes\n- {配管|はいかん}: piping, plumbing — the pipes and the work of laying them",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08094_suidoukan",
+      "reading": "すいどうかん",
+      "headword": "{水道管|すいどうかん}",
+      "label": "water pipe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07495_haikan",
+      "reading": "はいかん",
+      "headword": "{配管|はいかん}",
+      "label": "piping, plumbing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["technology"],
-      "domain": ["technical"]
+      "politeness": "plain",
+      "semantic": [
+        "technology"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-07-22T12:20:02Z",
-    "modified": "2026-07-22T12:20:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

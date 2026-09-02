@@ -17,7 +17,9 @@
       "id": "26404_shirozatou_ex1",
       "japanese": "{白砂糖|しろざとう}を{大|おお}さじ{二杯|にはい}{入|い}れる。",
       "english": "Add two tablespoons of white sugar.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26404_shirozatou_ex2",
       "japanese": "{健康|けんこう}のために{白砂糖|しろざとう}を{控|ひか}えている。",
       "english": "I'm cutting back on white sugar for my health.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,59 @@
       "id": "26404_shirozatou_ex3",
       "japanese": "このレシピでは{白砂糖|しろざとう}の{代|か}わりに{黒砂糖|くろざとう}を{使|つか}ってもいい。",
       "english": "In this recipe, you can use brown sugar instead of white sugar.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The standard term for refined white sugar used in cooking and baking. In Japan, the most common form of 白砂糖 is {上白糖|じょうはくとう}, a fine-grained sugar with slightly higher moisture content than Western granulated sugar, giving it a softer texture.\n\nCOMMON COLLOCATIONS:\n- {白砂糖|しろざとう}を{加|くわ}える: to add white sugar\n- {白砂糖|しろざとう}を{控|ひか}える: to cut back on white sugar\n- {白砂糖|しろざとう}の{代|か}わりに: instead of white sugar\n- {白砂糖|しろざとう}の{摂|せっ}り{過|す}ぎ: overconsumption of white sugar\n\nTYPES OF SUGAR IN JAPAN:\n- {上白糖|じょうはくとう}: fine white sugar (most common in Japanese households)\n- グラニュー{糖|とう}: granulated sugar (coarser, used in sweets)\n- {黒砂糖|くろざとう}: brown/raw sugar (unrefined, from Okinawa)\n- {三温糖|さんおんとう}: light brown sugar (slightly less refined)\n- {氷砂糖|こおりざとう}: rock sugar (used for making fruit liqueurs)\n\nSIMILAR WORDS:\n- {黒砂糖|くろざとう}: brown sugar, raw sugar — unrefined sugar with a stronger flavor\n- {砂糖|さとう}: sugar — the general term for all types of sugar\n- {甘味料|かんみりょう}: sweetener — broader term including artificial sweeteners",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18292_kurozatou",
+      "reading": "くろざとう",
+      "headword": "{黒砂糖|くろざとう}",
+      "label": "brown sugar, raw sugar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18192_kanmiryou",
+      "reading": "かんみりょう",
+      "headword": "{甘味料|かんみりょう}",
+      "label": "sweetener"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18293_kakuzatou",
+      "reading": "かくざとう",
+      "headword": "{角砂糖|かくざとう}",
+      "label": "sugar cube"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23597_sanontou",
+      "reading": "さんおんとう",
+      "headword": "{三温糖|さんおんとう}",
+      "label": "light brown sugar (Japanese type)"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food", "cooking"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "cooking"
+      ]
     },
     "created": "2026-05-01T14:10:43Z",
-    "modified": "2026-05-01T14:10:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -80,7 +80,29 @@
     }
   ],
   "notes": "Composed of {定|てい} (fixed, determined) + {量|りょう} (quantity, amount). Has two main uses: (1) a set or prescribed amount, and (2) the concept of \"quantitative\" in scientific and analytical contexts.\n\nCOMMON COLLOCATIONS:\n- {定量|ていりょう}を{守|まも}る: follow the prescribed amount\n- {定量|ていりょう}{分析|ぶんせき}: quantitative analysis\n- {定量|ていりょう}{的|てき}: quantitative (adjectival form)\n- {定量|ていりょう}{調査|ちょうさ}: quantitative survey\n\nSIMILAR WORDS:\n- {定性|ていせい}: qualitative (the counterpart to {定量|ていりょう})\n- {適量|てきりょう}: appropriate amount\n- {分量|ぶんりょう}: quantity, dose (of ingredients or medicine)\n- {数量|すうりょう}: quantity, number (general counting)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14383_tekiryou",
+      "reading": "てきりょう",
+      "headword": "{適量|てきりょう}",
+      "label": "appropriate amount"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05474_bunryou",
+      "reading": "ぶんりょう",
+      "headword": "{分量|ぶんりょう}",
+      "label": "quantity, dose"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05473_suuryou",
+      "reading": "すうりょう",
+      "headword": "{数量|すうりょう}",
+      "label": "quantity, number"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -88,12 +110,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "science",
         "quantity"
       ]
     },
     "created": "2026-04-27T16:21:44Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

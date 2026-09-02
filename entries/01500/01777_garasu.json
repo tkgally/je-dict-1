@@ -34,7 +34,7 @@
     },
     {
       "id": "01777_garasu_ex3",
-      "japanese": "ガラス⟦の→の：09472_no⟧⟦{コップ|こっぷ}→コップ：00862_koppu⟧⟦を→を：00422_wo⟧⟦{割|わ}ってしまった→割る：02334_waru⟧。",
+      "japanese": "ガラス⟦の→の：09472_no⟧⟦コップ→コップ：00862_koppu⟧⟦を→を：00422_wo⟧⟦{割|わ}ってしまった→割る：02334_waru⟧。",
       "english": "I accidentally broke a glass cup.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "ガラス is a loanword from Portuguese/Dutch 'glas,' referring to the transparent material glass or objects made of glass. It's written in katakana because of its foreign origin.\n\nCOMMON COMPOUNDS:\n- ⟦{窓|まど}→窓：02254_mado⟧ガラス: window glass/pane\n- ガラス⟦{戸|ど}→戸：00676_to⟧: glass door\n- ガラス⟦{窓|まど}→窓：02254_mado⟧: glass window\n- ガラス⟦{張|ば}り→張り：noentry⟧: glass-covered, glass-walled\n- ガラス⟦の→の：09472_no⟧⟦{器|うつわ}→器：11838_utsuwa⟧: glassware\n- ガラス⟦{細工|ざいく}→細工：noentry⟧: glass crafts\n- ガラス⟦{瓶|びん}→瓶：01016_bin⟧: glass bottle\n\nCOMMON EXPRESSIONS:\n- ガラス⟦を→を：00422_wo⟧⟦{割|わ}る→割る：02334_waru⟧: to break glass\n- ガラス⟦の→の：09472_no⟧⟦{破片|はへん}→破片：00082_hahen⟧: glass fragments/shards\n- ガラス⟦の→の：09472_no⟧ように⟦{壊|こわ}れやすい→壊れる：00791_kowareru⟧: fragile like glass\n\nRELATED WORDS:\n- ⟦グラス→グラス：00076_gurasu⟧: drinking glass (also from 'glass')\n- ⟦コップ→コップ：00862_koppu⟧: cup (from Dutch 'kop')\n- ⟦{鏡|かがみ}→鏡：02190_kagami⟧: mirror\n\nNOTE: ガラス refers to the material, while ⟦グラス→グラス：00076_gurasu⟧ typically refers to drinking glasses.",
-  "cross_references": [],
+  "notes": "ガラス is a loanword from Portuguese/Dutch 'glas,' referring to the transparent material glass or objects made of glass. It's written in katakana because of its foreign origin.\n\nCOMPOUNDS:\n- ⟦{窓|まど}→窓：02254_mado⟧ガラス: window glass/pane\n- ガラス⟦{戸|ど}→戸：00676_to⟧: glass door\n- ガラス⟦{窓|まど}→窓：02254_mado⟧: glass window\n- ガラス⟦{張|ば}り→張り：noentry⟧: glass-covered, glass-walled\n- ガラス⟦の→の：09472_no⟧⟦{器|うつわ}→器：11838_utsuwa⟧: glassware\n- ガラス⟦{細工|ざいく}→細工：noentry⟧: glass crafts\n- ガラス⟦{瓶|びん}→瓶：01016_bin⟧: glass bottle\n\nCOMMON EXPRESSIONS:\n- ガラス⟦を→を：00422_wo⟧⟦{割|わ}る→割る：02334_waru⟧: to break glass\n- ガラス⟦の→の：09472_no⟧⟦{破片|はへん}→破片：00082_hahen⟧: glass fragments/shards\n- ガラス⟦の→の：09472_no⟧ように⟦{壊|こわ}れやすい→壊れる：00791_kowareru⟧: fragile like glass\n\nRELATED WORDS:\n- ⟦グラス→グラス：00076_gurasu⟧: drinking glass (also from 'glass')\n- ⟦コップ→コップ：00862_koppu⟧: cup (from Dutch 'kop')\n- ⟦{鏡|かがみ}→鏡：02190_kagami⟧: mirror\n\nNOTE: ガラス refers to the material, while ⟦グラス→グラス：00076_gurasu⟧ typically refers to drinking glasses.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00076_gurasu",
+      "reading": "ぐらす",
+      "headword": "グラス",
+      "label": "drinking glass"
+    },
+    {
+      "type": "related",
+      "target_id": "00862_koppu",
+      "reading": "こっぷ",
+      "headword": "コップ",
+      "label": "cup"
+    },
+    {
+      "type": "related",
+      "target_id": "02190_kagami",
+      "reading": "かがみ",
+      "headword": "{鏡|かがみ}",
+      "label": "mirror"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:24:03Z",
-    "modified": "2026-06-11T10:45:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

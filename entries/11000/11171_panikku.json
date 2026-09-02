@@ -19,7 +19,9 @@
       "english": "I panicked.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11171_panikku_ex2",
@@ -27,7 +29,9 @@
       "english": "The earthquake caused a panic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11171_panikku_ex3",
@@ -35,21 +39,42 @@
       "english": "When sudden trouble arises, it's important to stay calm and respond without panicking.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "パニック describes a state of sudden, overwhelming fear or confusion. It is used both for personal feelings of alarm and for widespread public chaos. From English \"panic.\"\n\nCOMMON PATTERNS:\n- パニックになる: to panic, to go into a panic (the most common pattern)\n- パニックを{起|お}こす: to cause a panic\n- パニックに{陥|おちい}る: to fall into a panic (more formal)\n\nCOMMON COMPOUNDS:\n- パニック{状態|じょうたい}: state of panic\n- パニック{障害|しょうがい}: panic disorder (medical term)\n- パニック{発作|ほっさ}: panic attack\n- パニック{映画|えいが}: disaster/panic movie\n\nUSAGE NOTE:\nIn casual speech, パニクる (to panic) is a common slang verb derived from パニック. It conjugates as a godan verb: パニクった (panicked).",
-  "cross_references": [],
+  "notes": "パニック describes a state of sudden, overwhelming fear or confusion. It is used both for personal feelings of alarm and for widespread public chaos. From English \"panic.\"\n\nCOMMON PATTERNS:\n- パニックになる: to panic, to go into a panic (the most common pattern)\n- パニックを{起|お}こす: to cause a panic\n- パニックに{陥|おちい}る: to fall into a panic (more formal)\n\nCOMPOUNDS:\n- パニック{状態|じょうたい}: state of panic\n- パニック{障害|しょうがい}: panic disorder (medical term)\n- パニック{発作|ほっさ}: panic attack\n- パニック{映画|えいが}: disaster/panic movie\n\nUSAGE:\nIn casual speech, パニクる (to panic) is a common slang verb derived from パニック. It conjugates as a godan verb: パニクった (panicked).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02811_konran",
+      "reading": "こんらん",
+      "headword": "{混乱|こんらん}",
+      "label": "confusion, chaos, disorder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28651_kyoukou",
+      "reading": "きょうこう",
+      "headword": "{恐慌|きょうこう}",
+      "label": "panic"
+    }
+  ],
   "metadata": {
     "created": "2026-02-14T05:15:09Z",
-    "modified": "2026-03-30T03:38:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
   }
 }

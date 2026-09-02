@@ -3,7 +3,7 @@
   "headword": "{投|な}げかける",
   "reading": "なげかける",
   "romaji": "nagekakeru",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to pose (a question); to cast (a glance, a shadow); to throw at",
   "definitions": [
     {
@@ -116,6 +116,29 @@
   ],
   "notes": "Compound of {投|な}げる (to throw) + かける (to direct toward, to apply). Modern usage is dominated by the figurative senses (questions, glances, shadows) — the literal throwing sense is now uncommon and {投|な}げつける is more idiomatic for hostile throwing.\n\nTRANSITIVITY:\nTransitive. The target takes に, the object takes を:\n- {社会|しゃかい}に{問題|もんだい}を{投|な}げかける: to pose an issue to society\n- {観客|かんきゃく}に{視線|しせん}を{投|な}げかける: to cast a glance at the audience\n\nCOMMON COLLOCATIONS:\n- {疑問|ぎもん}を{投|な}げかける: to raise a question\n- {質問|しつもん}を{投|な}げかける: to pose a question\n- {問題|もんだい}を{投|な}げかける: to raise an issue\n- {視線|しせん}を{投|な}げかける: to cast a glance\n- {影|かげ}を{投|な}げかける: to cast a shadow\n\nSIMILAR WORDS:\n- {投|な}げる: to throw — basic literal throwing\n- {投|な}げつける: to throw at — hostile, hurled with force\n- {問|と}いかける: to ask of — narrower, used only for questions",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01135_nageru",
+      "reading": "なげる",
+      "headword": "{投|な}げる",
+      "label": "to throw"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15621_nagetsukeru",
+      "reading": "なげつける",
+      "headword": "{投|な}げつける",
+      "label": "to throw at"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12002_toikakeru",
+      "reading": "といかける",
+      "headword": "{問|と}いかける",
+      "label": "to ask of"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -124,7 +147,7 @@
       ],
       "transitivity": "transitive",
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "communication",
         "action"
@@ -133,7 +156,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-06-08T04:06:16Z",
-    "modified": "2026-06-08T04:06:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

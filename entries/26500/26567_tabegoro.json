@@ -17,7 +17,9 @@
       "id": "26567_tabegoro_ex1",
       "japanese": "このバナナはちょうど{食|た}べ{頃|ごろ}だ。",
       "english": "This banana is just ready to eat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26567_tabegoro_ex2",
       "japanese": "もう{少|すこ}し{置|お}いたら{食|た}べ{頃|ごろ}になるよ。",
       "english": "If you leave it a bit longer, it will be ready to eat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,54 @@
       "id": "26567_tabegoro_ex3",
       "japanese": "{桃|もも}は{柔|やわ}らかくなってきたら{食|た}べ{頃|ごろ}のサインだ。",
       "english": "When peaches start to soften, that's a sign they're ready to eat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of the verb stem {食|た}べ (to eat) and the suffix {頃|ごろ} (suitable time, peak). The suffix ～{頃|ごろ} attaches to verb stems to indicate the ideal time or condition for that action.\n\nRELATED ～{頃|ごろ} WORDS:\n- {見|み}{頃|ごろ}: at its best for viewing (flowers, scenery)\n- {飲|の}み{頃|ごろ}: at its best for drinking (wine, tea)\n- {読|よ}み{頃|ごろ}: good for reading; page count that's easy to finish\n- {買|か}い{頃|ごろ}: good time to buy; reasonably priced\n\nCOMMON COLLOCATIONS:\n- {食|た}べ{頃|ごろ}の{果物|くだもの}: fruit that is ripe and ready to eat\n- {食|た}べ{頃|ごろ}になる: to become ready to eat\n- ちょうど{食|た}べ{頃|ごろ}: just at the right time for eating\n\nSIMILAR WORDS:\n- {旬|しゅん}: in season — focuses on seasonal availability rather than individual ripeness\n- {熟|じゅく}した: ripe, mature — describes the state of the food itself",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16868_migoro",
+      "reading": "みごろ",
+      "headword": "{見頃|みごろ}",
+      "label": "at its best for viewing"
+    },
+    {
+      "type": "related",
+      "target_id": "26569_nomigoro",
+      "reading": "のみごろ",
+      "headword": "{飲|の}み{頃|ごろ}",
+      "label": "at its best for drinking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12716_shun",
+      "reading": "しゅん",
+      "headword": "{旬|しゅん}",
+      "label": "in season"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"],
-      "domain": ["colloquial"]
+      "semantic": [
+        "food"
+      ],
+      "domain": [
+        "colloquial"
+      ]
     },
     "created": "2026-05-03T11:16:00Z",
-    "modified": "2026-05-03T11:16:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

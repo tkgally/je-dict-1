@@ -19,7 +19,9 @@
       "english": "To listen to music at full blast.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15070_bakuon_ex2",
@@ -27,7 +29,9 @@
       "english": "The roar of a motorcycle echoed through the residential area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15070_bakuon_ex3",
@@ -35,21 +39,42 @@
       "english": "The windows rattled with the roar of fighter jets.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{爆音|ばくおん} literally means \"explosion sound\" but is widely used for any extremely loud noise. In casual speech, it often describes playing music at maximum volume.\n\nCOMMON COLLOCATIONS:\n- {爆音|ばくおん}で{聴|き}く (to listen at full blast)\n- {爆音|ばくおん}を{立|た}てる (to make a thunderous noise)\n- {爆音|ばくおん}が{響|ひび}く (a roar echoes)\n- エンジンの{爆音|ばくおん} (roar of an engine)\n\nWORD FORMATION:\n{爆|ばく} (explosion) + {音|おん} (sound). Compare {爆発|ばくはつ} (explosion), {爆弾|ばくだん} (bomb).",
-  "cross_references": [],
+  "notes": "USAGE:\n{爆音|ばくおん} literally means \"explosion sound\" but is widely used for any extremely loud noise. In casual speech, it often describes playing music at maximum volume.\n\nCOMMON COLLOCATIONS:\n- {爆音|ばくおん}で{聴|き}く (to listen at full blast)\n- {爆音|ばくおん}を{立|た}てる (to make a thunderous noise)\n- {爆音|ばくおん}が{響|ひび}く (a roar echoes)\n- エンジンの{爆音|ばくおん} (roar of an engine)\n\nFORMS:\n{爆|ばく} (explosion) + {音|おん} (sound). Compare {爆発|ばくはつ} (explosion), {爆弾|ばくだん} (bomb).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25906_daionkyou",
+      "reading": "だいおんきょう",
+      "headword": "{大|だい}{音響|おんきょう}",
+      "label": "loud sound"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28327_bakuhatsuon",
+      "reading": "ばくはつおん",
+      "headword": "{爆発音|ばくはつおん}",
+      "label": "explosion sound"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T06:27:16Z",
-    "modified": "2026-03-05T06:27:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

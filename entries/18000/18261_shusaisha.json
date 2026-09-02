@@ -19,7 +19,9 @@
       "english": "I contacted the event organizer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18261_shusaisha_ex2",
@@ -27,7 +29,9 @@
       "english": "The organizer gave the opening address.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18261_shusaisha_ex3",
@@ -35,21 +39,43 @@
       "english": "Due to bad weather, the marathon was cancelled at the organizer's discretion.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nThe base word {主催|しゅさい} means \"hosting\" or \"organizing,\" and {主催者|しゅさいしゃ} adds the person/entity suffix. {主催|しゅさい} alone is also commonly used: ～{主催|しゅさい}の (hosted by ~).\n\nCOMMON COLLOCATIONS:\n- {主催者|しゅさいしゃ}{側|がわ} (the organizer's side)\n- {主催者|しゅさいしゃ}{発表|はっぴょう} (announcement by the organizer)\n- イベントの{主催者|しゅさいしゃ} (the event organizer)\n- {主催者|しゅさいしゃ}の{責任|せきにん} (the organizer's responsibility)\n\nRELATED:\n- {主催|しゅさい}: hosting; organizing — the act itself, often used as a modifier: ～{主催|しゅさい}の{大会|たいかい} (a tournament hosted by ~)",
-  "cross_references": [],
+  "notes": "USAGE:\nThe base word {主催|しゅさい} means \"hosting\" or \"organizing,\" and {主催者|しゅさいしゃ} adds the person/entity suffix. {主催|しゅさい} alone is also commonly used: ～{主催|しゅさい}の (hosted by ~).\n\nCOMMON COLLOCATIONS:\n- {主催者|しゅさいしゃ}{側|がわ} (the organizer's side)\n- {主催者|しゅさいしゃ}{発表|はっぴょう} (announcement by the organizer)\n- イベントの{主催者|しゅさいしゃ} (the event organizer)\n- {主催者|しゅさいしゃ}の{責任|せきにん} (the organizer's responsibility)\n\nRELATED WORDS:\n- {主催|しゅさい}: hosting; organizing — the act itself, often used as a modifier: ～{主催|しゅさい}の{大会|たいかい} (a tournament hosted by ~)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07859_sewanin",
+      "reading": "せわにん",
+      "headword": "{世話人|せわにん}",
+      "label": "organizer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25722_hosuto",
+      "reading": "ほすと",
+      "headword": "ホスト",
+      "label": "host"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T13:52:29Z",
-    "modified": "2026-03-20T13:52:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "work"]
+      "semantic": [
+        "person",
+        "work"
+      ]
     }
   }
 }

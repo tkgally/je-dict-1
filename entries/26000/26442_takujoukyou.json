@@ -45,7 +45,22 @@
     }
   ],
   "notes": "A compound of {卓上|たくじょう} (tabletop, desktop) and {鏡|きょう} (mirror). The word {卓上|たくじょう} is a productive prefix used with many objects to indicate a desk-sized or portable version.\n\nCOMMON COLLOCATIONS:\n- {卓上|たくじょう}{鏡|きょう}で{化粧|けしょう}をする: to do makeup with a tabletop mirror\n- LED{付|つ}き{卓上|たくじょう}{鏡|きょう}: LED tabletop mirror\n- {拡大|かくだい}{鏡|きょう}{付|つ}き{卓上|たくじょう}{鏡|きょう}: tabletop mirror with magnification\n- {折|お}りたたみ{卓上|たくじょう}{鏡|きょう}: foldable tabletop mirror\n\nSIMILAR WORDS:\n- {姿見|すがたみ}: full-length mirror — a large mirror for viewing one's whole body\n- {手鏡|てかがみ}: hand mirror — a small mirror held in the hand\n- {洗面|せんめん}{鏡|きょう}: bathroom mirror — a mirror fixed above the washbasin",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15876_sugatami",
+      "reading": "すがたみ",
+      "headword": "{姿見|すがたみ}",
+      "label": "full-length mirror"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16020_tekagami",
+      "reading": "てかがみ",
+      "headword": "{手鏡|てかがみ}",
+      "label": "hand mirror"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "appearance"
       ]
     },
     "created": "2026-05-01T16:22:51Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

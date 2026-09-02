@@ -2,7 +2,7 @@
   "id": "07491_inkantouroku",
   "headword": "{印鑑登録|いんかんとうろく}",
   "reading": "いんかんとうろく",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "seal registration; registering one's seal",
   "conjugation": {
     "type": "suru",
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{印鑑|いんかん} (seal) + {登録|とうろく} (registration)\n\nREGISTRATION REQUIREMENTS:\n・{本人|ほんにん}{確認|かくにん}{書類|しょるい} - ID documents\n・{登録|とうろく}する{印鑑|いんかん} - the seal to register\n・{登録|とうろく}{手数料|てすうりょう} - registration fee (varies by municipality)\n\nAFTER REGISTRATION:\nYou receive an {印鑑登録証|いんかんとうろくしょう} (registration card). This card is needed to obtain {印鑑証明書|いんかんしょうめいしょ} (seal certificate) when required for official transactions.\n\nSEAL REQUIREMENTS:\n{登録|とうろく}できる{印鑑|いんかん}:\n・Size: usually 8mm-25mm\n・Material: durable ({木|き}, {角|つの}, {象牙|ぞうげ}, チタン, etc.)\n・Clear impression\n・Shows registrant's name\n\n{登録|とうろく}できない{印鑑|いんかん}:\n・Mass-produced (100{円|えん}ショップ type)\n・Rubber stamps\n・Damaged or unclear impressions\n\nIMPORTANT NOTES:\n・One person can register only one seal\n・Registration is tied to your {住民票|じゅうみんひょう} address\n・Must re-register when moving to a new municipality",
+  "notes": "ETYMOLOGY:\n{印鑑|いんかん} (seal) + {登録|とうろく} (registration)\n\nREGISTRATION REQUIREMENTS:\n- {本人|ほんにん}{確認|かくにん}{書類|しょるい} - ID documents\n- {登録|とうろく}する{印鑑|いんかん} - the seal to register\n- {登録|とうろく}{手数料|てすうりょう} - registration fee (varies by municipality)\n\nAFTER REGISTRATION:\nYou receive an {印鑑登録証|いんかんとうろくしょう} (registration card). This card is needed to obtain {印鑑証明書|いんかんしょうめいしょ} (seal certificate) when required for official transactions.\n\nSEAL REQUIREMENTS:\n{登録|とうろく}できる{印鑑|いんかん}:\n- Size: usually 8mm-25mm\n- Material: durable ({木|き}, {角|つの}, {象牙|ぞうげ}, チタン, etc.)\n- Clear impression\n- Shows registrant's name\n\n{登録|とうろく}できない{印鑑|いんかん}:\n- Mass-produced (100{円|えん}ショップ type)\n- Rubber stamps\n- Damaged or unclear impressions\n\nIMPORTANT NOTES:\n- One person can register only one seal\n- Registration is tied to your {住民票|じゅうみんひょう} address\n- Must re-register when moving to a new municipality",
   "cross_references": [
     {
       "type": "related",
@@ -138,11 +138,25 @@
       "headword": "{実印|じついん}",
       "label": "registered seal",
       "target_id": "07490_jitsuin"
+    },
+    {
+      "type": "related",
+      "target_id": "10285_inkanshoumei",
+      "reading": "いんかんしょうめい",
+      "headword": "{印鑑証明|いんかんしょうめい}",
+      "label": "certificate of seal registration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27357_ginkouin",
+      "reading": "ぎんこういん",
+      "headword": "{銀行印|ぎんこういん}",
+      "label": "bank seal (a personal seal registered with one's bank)"
     }
   ],
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-08-10T18:29:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +165,7 @@
         "verb-suru"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "law",
         "society"

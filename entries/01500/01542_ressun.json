@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "レッスン refers to a period of instruction, typically for skills like music, dance, or language.\n\nCOMMON EXPRESSIONS:\n- レッスン⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to take lessons\n- レッスン⟦に→に：00314_ni⟧⟦{通|かよ}う→通う：01217_kayou⟧: to attend lessons regularly\n- レッスン⟦{料|りょう}→料：noentry⟧: lesson fee\n- ⟦{個人|こじん}→個人：02758_kojin⟧レッスン: private lesson\n- ⟦グループ→グループ：03840_guruupu⟧レッスン: group lesson\n\nCOMMON TYPES:\n- ⟦ピアノ→ピアノ：01376_piano⟧⟦の→の：09472_no⟧レッスン: piano lessons\n- ⟦{英会話|えいかいわ}→英会話：14810_eikaiwa⟧⟦の→の：09472_no⟧レッスン: English conversation lessons\n- ⟦ダンス→ダンス：03856_dansu⟧レッスン: dance lessons\n\nSIMILAR WORDS:\n- ⟦{授業|じゅぎょう}→授業：00781_jugyou⟧: class, lesson (school context)\n- ⟦{稽古|けいこ}→稽古：00210_keiko⟧: practice, training (traditional arts)",
-  "cross_references": [],
+  "notes": "レッスン refers to a period of instruction, typically for skills like music, dance, or language.\n\nCOMMON EXPRESSIONS:\n- レッスン⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to take lessons\n- レッスン⟦に→に：00314_ni⟧⟦{通|かよ}う→通う：01217_kayou⟧: to attend lessons regularly\n- レッスン⟦{料|りょう}→料：noentry⟧: lesson fee\n- ⟦{個人|こじん}→個人：02758_kojin⟧レッスン: private lesson\n- ⟦グループ→グループ：03840_guruupu⟧レッスン: group lesson\n\nTYPES:\n- ⟦ピアノ→ピアノ：01376_piano⟧⟦の→の：09472_no⟧レッスン: piano lessons\n- ⟦{英会話|えいかいわ}→英会話：14810_eikaiwa⟧⟦の→の：09472_no⟧レッスン: English conversation lessons\n- ⟦ダンス→ダンス：03856_dansu⟧レッスン: dance lessons\n\nSIMILAR WORDS:\n- ⟦{授業|じゅぎょう}→授業：00781_jugyou⟧: class, lesson (school context)\n- ⟦{稽古|けいこ}→稽古：00210_keiko⟧: practice, training (traditional arts)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00781_jugyou",
+      "reading": "じゅぎょう",
+      "headword": "{授業|じゅぎょう}",
+      "label": "class, lesson"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00210_keiko",
+      "reading": "けいこ",
+      "headword": "{稽古|けいこ}",
+      "label": "practice, training"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22419_okeiko",
+      "reading": "おけいこ",
+      "headword": "お{稽古|けいこ}",
+      "label": "practice"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:48:05Z",
-    "modified": "2026-05-15T21:27:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "{管|くだ} refers to any hollow cylindrical object used to convey liquids, gases, or other substances.\n\nREADINGS:\n- くだ: native reading, used when standalone or in some wago compounds\n- かん: on'yomi reading, used in most sino-Japanese compounds\n\nCOMMON COMPOUNDS (read as かん):\n- ⟦{水道|すいどう}{管|かん}→水道管：08094_suidoukan⟧: water pipe\n- ⟦{排水|はいすい}{管|かん}→排水管：23157_haisuikan⟧: drainage pipe\n- ⟦{血|けっ}{管|かん}→血管：02742_kekkan⟧: blood vessel\n- ⟦{気|き}{管|かん}→気管：21172_kikan⟧: trachea, windpipe\n- ⟦{管|かん}{理|り}→管理：00178_kanri⟧: management (different meaning — uses same kanji)\n\nIDIOM:\n- {管|くだ}⟦を→を：00422_wo⟧⟦{巻|ま}く→巻く：02418_maku⟧: to grumble drunkenly, to ramble on while drunk\n\nSIMILAR WORDS:\n- ⟦パイプ→パイプ：00338_paipu⟧: pipe (loanword, often for smoking pipes or industrial pipes)\n- ⟦チューブ→チューブ：11586_chuubu⟧: tube (loanword, for flexible tubes)\n- ⟦ホース→ホース：25876_hoosu⟧: hose (loanword, for flexible water hoses)",
-  "cross_references": [],
+  "notes": "{管|くだ} refers to any hollow cylindrical object used to convey liquids, gases, or other substances.\n\nPRONUNCIATION:\n- くだ: native reading, used when standalone or in some wago compounds\n- かん: on'yomi reading, used in most sino-Japanese compounds\n\nCOMMON COMPOUNDS (read as かん):\n- ⟦{水道|すいどう}{管|かん}→水道管：08094_suidoukan⟧: water pipe\n- ⟦{排水|はいすい}{管|かん}→排水管：23157_haisuikan⟧: drainage pipe\n- ⟦{血|けっ}{管|かん}→血管：02742_kekkan⟧: blood vessel\n- ⟦{気|き}{管|かん}→気管：21172_kikan⟧: trachea, windpipe\n- ⟦{管|かん}{理|り}→管理：00178_kanri⟧: management (different meaning — uses same kanji)\n\nCOMMON EXPRESSIONS:\n- {管|くだ}⟦を→を：00422_wo⟧⟦{巻|ま}く→巻く：02418_maku⟧: to grumble drunkenly, to ramble on while drunk\n\nSIMILAR WORDS:\n- ⟦パイプ→パイプ：00338_paipu⟧: pipe (loanword, often for smoking pipes or industrial pipes)\n- ⟦チューブ→チューブ：11586_chuubu⟧: tube (loanword, for flexible tubes)\n- ⟦ホース→ホース：25876_hoosu⟧: hose (loanword, for flexible water hoses)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00338_paipu",
+      "reading": "ぱいぷ",
+      "headword": "パイプ",
+      "label": "pipe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11586_chuubu",
+      "reading": "ちゅーぶ",
+      "headword": "チューブ",
+      "label": "tube"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25876_hoosu",
+      "reading": "ほーす",
+      "headword": "ホース",
+      "label": "hose"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T07:04:25Z",
-    "modified": "2026-06-12T04:00:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

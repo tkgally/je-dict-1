@@ -17,7 +17,9 @@
       "id": "29930_sayokushu_ex1",
       "japanese": "{左翼|さよく}{手|しゅ}がフライを{取|と}る。",
       "english": "The left fielder catches a fly ball.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29930_sayokushu_ex2",
       "japanese": "この{左翼|さよく}{手|しゅ}は{打撃|だげき}も{得意|とくい}だ。",
       "english": "This left fielder is also good at hitting.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29930_sayokushu_ex3",
       "japanese": "{左翼|さよく}{手|しゅ}がフェンス{際|ぎわ}でボールを{捕|と}らえた。",
       "english": "The left fielder caught the ball right at the fence.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {左翼|さよく} (left wing) + {手|しゅ} (player). The outfielder who covers left field. Colloquially called レフト.\n\nRELATED POSITIONS:\n- {右翼|うよく}{手|しゅ}: right fielder\n- {中堅|ちゅうけん}{手|しゅ}: center fielder\n\nAs with {右翼|うよく}, {左翼|さよく} alone often refers to the political left wing; {左翼|さよく}{手|しゅ} is specifically the baseball position.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29929_uyokushu",
+      "reading": "うよくしゅ",
+      "headword": "{右翼|うよく}{手|しゅ}",
+      "label": "right fielder"
+    },
+    {
+      "type": "related",
+      "target_id": "29928_chuukenshu",
+      "reading": "ちゅうけんしゅ",
+      "headword": "{中堅|ちゅうけん}{手|しゅ}",
+      "label": "center fielder"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports"],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-07-18T06:23:31Z",
-    "modified": "2026-07-18T06:23:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

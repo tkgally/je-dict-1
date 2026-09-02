@@ -3,7 +3,7 @@
   "headword": "{単色|たんしょく}",
   "reading": "たんしょく",
   "romaji": "tanshoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "single color; monochrome; solid color",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {単|たん} (single) + {色|しょく} (color). Used in fashion, design, printing, and art contexts. Can modify nouns with の: {単色|たんしょく}のデザイン (monochrome design).\n\nCOMMON COLLOCATIONS:\n- {単色|たんしょく}のデザイン — monochrome design\n- {単色|たんしょく}{印刷|いんさつ} — single-color printing\n- {単色|たんしょく}{刷|ず}り — single-color print\n- {単色|たんしょく}{光|こう} — monochromatic light\n\nSIMILAR WORDS:\n- モノクロ — monochrome (loanword; often specifically means black and white)\n- {無地|むじ} — plain, unpatterned (focuses on absence of pattern rather than having one color)\n- {多色|たしょく} — multicolored (the opposite)\n- {二色|にしょく} — two-colored, bicolor",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11226_monokuro",
+      "reading": "ものくろ",
+      "headword": "モノクロ",
+      "label": "monochrome (loanword"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03990_muji",
+      "reading": "むじ",
+      "headword": "{無地|むじ}",
+      "label": "plain, unpatterned"
+    },
+    {
+      "type": "antonym",
+      "target_id": "26459_tashoku",
+      "reading": "たしょく",
+      "headword": "{多色|たしょく}",
+      "label": "multicolored"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,13 +77,13 @@
         "adjective-no"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "color",
         "design"
       ]
     },
     "created": "2026-04-05T14:18:11Z",
-    "modified": "2026-07-27T06:23:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "The motive for the violent act is unknown.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17078_kyoukou_ex2",
@@ -27,7 +29,9 @@
       "english": "The suspect was arrested for the violent act committed in broad daylight.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17078_kyoukou_ex3",
@@ -35,22 +39,59 @@
       "english": "Measures are needed to ensure that such a violent act is never repeated.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nPrimarily a news and legal term. Describes serious violent crimes, especially murder. Formal and dramatic in tone.\n\nCOMMON COLLOCATIONS:\n- {凶行|きょうこう}に{及|およ}ぶ (to commit a violent act)\n- {凶行|きょうこう}の{動機|どうき} (motive for the crime)\n- {凶行|きょうこう}{現場|げんば} (crime scene)\n\nSIMILAR WORDS:\n- {犯行|はんこう}: criminal act — more neutral, covers all types of crime\n- {殺人|さつじん}: murder — specifically killing, while {凶行|きょうこう} can include non-fatal violence\n- {強行|きょうこう}: forced action — identical pronunciation but means to push through forcefully, not violent crime",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13472_hankou",
+      "reading": "はんこう",
+      "headword": "{犯行|はんこう}",
+      "label": "criminal act"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13236_satsujin",
+      "reading": "さつじん",
+      "headword": "{殺人|さつじん}",
+      "label": "murder"
+    },
+    {
+      "type": "homophone",
+      "target_id": "12559_kyoukou",
+      "reading": "きょうこう",
+      "headword": "{強行|きょうこう}",
+      "label": "forced action"
+    },
+    {
+      "type": "related",
+      "target_id": "08002_bankou",
+      "reading": "ばんこう",
+      "headword": "{蛮行|ばんこう}",
+      "label": "barbaric act"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T09:52:17Z",
-    "modified": "2026-03-15T09:52:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"],
-      "domain": ["legal"]
+      "semantic": [
+        "action"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

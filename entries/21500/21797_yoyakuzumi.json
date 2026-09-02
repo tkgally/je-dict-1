@@ -3,7 +3,7 @@
   "headword": "{予約済|よやくず}み",
   "reading": "よやくずみ",
   "romaji": "yoyakuzumi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "reserved; already booked; reservation confirmed",
   "definitions": [
     {
@@ -45,6 +45,15 @@
     }
   ],
   "notes": "Composed of {予約|よやく} (reservation) and {済|す}み (completed, done — the noun form of {済|す}む). The ～{済|す}み suffix is a productive pattern meaning \"already done\" or \"completed,\" and attaches to many nouns and verb stems.\n\nUSAGE:\n- Can function as a noun or a no-adjective: {予約済|よやくず}みの{席|せき} (a reserved seat)\n- Often seen on signs, labels, and in written notifications\n- The ～{済|す}み pattern is very productive: {支払|しはら}い{済|す}み (paid), {確認|かくにん}{済|す}み (confirmed), {登録|とうろく}{済|す}み (registered)\n\nCOMMON COLLOCATIONS:\n- {予約済|よやくず}みの{席|せき}: a reserved seat\n- {予約済|よやくず}みの{部屋|へや}: a booked room\n- {予約済|よやくず}みの{確認|かくにん}: reservation confirmation\n\nSIMILAR WORDS:\n- {予約|よやく}{完了|かんりょう}: reservation completed — more formal; used in system messages\n- {確保|かくほ}{済|す}み: secured — broader; used for resources, seats, or items that have been secured\n- {手配|てはい}{済|す}み: arranged — implies the arrangement or procurement has been completed",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07585_manseki",
+      "reading": "まんせき",
+      "headword": "{満席|まんせき}",
+      "label": "fully booked"
+    }
+  ],
   "metadata": {
     "entry_id": "21797_yoyakuzumi",
     "schema_version": "2.0",
@@ -56,12 +65,13 @@
         "noun",
         "adjective-no"
       ],
+      "politeness": "plain",
       "semantic": [
         "descriptive"
       ],
       "register": [],
       "usage": []
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "27466_nii_ex1",
       "japanese": "マラソンで{二位|にい}になった。",
       "english": "I came in second place in the marathon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,31 +27,76 @@
       "id": "27466_nii_ex2",
       "japanese": "{彼女|かのじょ}は{二位|にい}でゴールした。",
       "english": "She crossed the finish line in second place.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27466_nii_ex3",
-      "japanese": "{売上|うりあげ}{ランキング}で{昨年|さくねん}は{三位|さんい}だったが、{今年|ことし}は{二位|にい}まで{上|あ}がった。",
+      "japanese": "{売上|うりあげ}ランキングで{昨年|さくねん}は{三位|さんい}だったが、{今年|ことし}は{二位|にい}まで{上|あ}がった。",
       "english": "Last year we were third in the sales ranking, but this year we moved up to second.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {二|に} (two) + the counter {位|い} (place/rank). Note the unusual pronunciation: にい with a long 'i' rather than the expected にい / にい.\n\nCOMMON USES:\n- {二位|にい}になる: to come in second\n- {二位|にい}に{入|はい}る: to finish in second place\n- {二位|にい}{通過|つうか}: advancing as the second-place finisher\n\nRELATED TERMS:\n- {一位|いちい}: first place\n- {三位|さんい}: third place\n- {準|じゅん}{優勝|ゆうしょう}: runner-up (in a tournament)\n- {銀|ぎん}メダル: silver medal (Olympic second place)",
+  "notes": "Compound of {二|に} (two) + the counter {位|い} (place/rank). Note the unusual pronunciation: にい with a long 'i' rather than the expected にい / にい.\n\nCOMMON COLLOCATIONS:\n- {二位|にい}になる: to come in second\n- {二位|にい}に{入|はい}る: to finish in second place\n- {二位|にい}{通過|つうか}: advancing as the second-place finisher\n\nRELATED WORDS:\n- {一位|いちい}: first place\n- {三位|さんい}: third place\n- {準|じゅん}{優勝|ゆうしょう}: runner-up (in a tournament)\n- {銀|ぎん}メダル: silver medal (Olympic second place)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08926_ichii",
+      "reading": "いちい",
+      "headword": "{一位|いちい}",
+      "label": "first place"
+    },
+    {
+      "type": "related",
+      "target_id": "26221_sani",
+      "reading": "さんい",
+      "headword": "{三位|さんい}",
+      "label": "third place"
+    },
+    {
+      "type": "related",
+      "target_id": "04910_junyuushou",
+      "reading": "じゅんゆうしょう",
+      "headword": "{準優勝|じゅんゆうしょう}",
+      "label": "runner-up"
+    },
+    {
+      "type": "related",
+      "target_id": "22343_ginmedaru",
+      "reading": "ぎんめだる",
+      "headword": "{銀|ぎん}メダル",
+      "label": "silver medal"
+    },
+    {
+      "type": "related",
+      "target_id": "27465_nani",
+      "reading": "なんい",
+      "headword": "{何位|なんい}",
+      "label": "what place"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-05-12T04:10:44Z",
-    "modified": "2026-05-12T04:10:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

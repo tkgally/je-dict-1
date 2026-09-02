@@ -22,7 +22,9 @@
       "id": "24099_kishingou_ex1",
       "japanese": "{黄信号|きしんごう}で{止|と}まった。",
       "english": "I stopped at the yellow light.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "24099_kishingou_ex2",
       "japanese": "{黄信号|きしんごう}で{加速|かそく}するのは{危険|きけん}だ。",
       "english": "Accelerating on a yellow light is dangerous.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "24099_kishingou_ex3",
       "japanese": "{交差点|こうさてん}に{差|さ}しかかったとき、ちょうど{黄信号|きしんごう}に{変|か}わった。",
       "english": "Just as I reached the intersection, the light turned yellow.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "24099_kishingou_ex4",
       "japanese": "{健康|けんこう}に{黄信号|きしんごう}がともった。",
       "english": "A warning sign appeared regarding my health.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "24099_kishingou_ex5",
       "japanese": "{売上|うりあげ}の{減少|げんしょう}は{経営|けいえい}に{黄信号|きしんごう}だ。",
       "english": "The decline in sales is a warning sign for the business.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,52 @@
       "id": "24099_kishingou_ex6",
       "japanese": "{最近|さいきん}{残業|ざんぎょう}が{続|つづ}いていて、{体調|たいちょう}に{黄信号|きしんごう}が{出|で}ている。",
       "english": "I've been working overtime a lot lately, and there are warning signs for my health.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {黄|き} (yellow) and {信号|しんごう} (signal, traffic light). The literal meaning refers to the amber phase of a traffic light, but the figurative sense — a warning that something is going wrong — is equally common in everyday Japanese.\n\nThe figurative use typically appears with verbs like ともる (to light up), {点|つ}く (to turn on), or {出|で}る (to appear), creating vivid imagery of a warning light switching on.\n\nCOMMON COLLOCATIONS:\n- {黄信号|きしんごう}がともる: a warning light comes on\n- {黄信号|きしんごう}が{点|つ}く: a caution signal lights up\n- {黄信号|きしんごう}が{出|で}る: a warning sign appears\n- {健康|けんこう}に{黄信号|きしんごう}: a health warning sign\n- {経営|けいえい}に{黄信号|きしんごう}: a business warning sign\n\nSIMILAR WORDS:\n- {赤信号|あかしんごう}: red light — a more severe warning; also used figuratively for imminent danger\n- {青信号|あおしんごう}: green light — literally a green traffic light; figuratively, permission or approval to proceed\n- {警告|けいこく}: warning — a direct verbal or written warning, less metaphorical than {黄信号|きしんごう}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21543_akashingou",
+      "reading": "あかしんごう",
+      "headword": "{赤信号|あかしんごう}",
+      "label": "red light"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21544_aoshingou",
+      "reading": "あおしんごう",
+      "headword": "{青信号|あおしんごう}",
+      "label": "green light"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02696_keikoku",
+      "reading": "けいこく",
+      "headword": "{警告|けいこく}",
+      "label": "warning"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "abstract"]
+      "semantic": [
+        "transportation",
+        "abstract"
+      ]
     },
     "created": "2026-04-17T18:28:47Z",
-    "modified": "2026-04-17T18:28:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

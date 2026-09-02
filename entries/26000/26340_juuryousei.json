@@ -17,7 +17,9 @@
       "id": "26340_juuryousei_ex1",
       "japanese": "{水道|すいどう}{料金|りょうきん}は{従量制|じゅうりょうせい}だ。",
       "english": "Water charges are usage-based.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26340_juuryousei_ex2",
       "japanese": "このプランは{従量制|じゅうりょうせい}なので、{使|つか}った{分|ぶん}だけ{払|はら}えばいい。",
       "english": "This plan is pay-per-use, so you only pay for what you use.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,59 @@
       "id": "26340_juuryousei_ex3",
       "japanese": "{定額制|ていがくせい}と{従量制|じゅうりょうせい}のどちらが{自分|じぶん}に{合|あ}っているか、{毎月|まいつき}の{使用量|しようりょう}を{確認|かくにん}してから{決|き}めたほうがいい。",
       "english": "You should check your monthly usage before deciding whether a flat-rate or usage-based plan suits you better.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {従量|じゅうりょう} (according to quantity) and {制|せい} (system). The word {従量|じゅうりょう} literally means \"following the amount\" — charges scale with consumption.\n\nThis is an important practical term for living in Japan: utilities (water, gas, electricity), mobile phone plans, cloud computing services, and shipping all commonly use either {従量制|じゅうりょうせい} (usage-based) or {定額制|ていがくせい} (flat-rate) pricing.\n\nCOMMON COLLOCATIONS:\n- {従量制|じゅうりょうせい}{料金|りょうきん}: usage-based charges\n- {従量制|じゅうりょうせい}プラン: pay-per-use plan\n- {従量|じゅうりょう}{課金|かきん}: metered billing\n- {従量制|じゅうりょうせい}と{定額制|ていがくせい}: usage-based vs. flat-rate\n\nSIMILAR WORDS:\n- {定額制|ていがくせい}: flat-rate system — the opposite model, where a fixed fee covers unlimited use\n- {定額|ていがく}: fixed amount; flat rate — the base term\n- サブスクリプション: subscription — flat-rate access model, loanword from English",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17050_teigakusei",
+      "reading": "ていがくせい",
+      "headword": "{定額制|ていがくせい}",
+      "label": "flat-rate system"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09740_teigaku",
+      "reading": "ていがく",
+      "headword": "{定額|ていがく}",
+      "label": "fixed amount"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08617_sabusukuripushon",
+      "reading": "さぶすくりぷしょん",
+      "headword": "サブスクリプション",
+      "label": "subscription"
+    },
+    {
+      "type": "related",
+      "target_id": "20698_getsugakusei",
+      "reading": "げつがくせい",
+      "headword": "{月額制|げつがくせい}",
+      "label": "monthly subscription system"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business", "daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "daily-life"
+      ]
     },
     "created": "2026-04-30T16:31:15Z",
-    "modified": "2026-04-30T16:31:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

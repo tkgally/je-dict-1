@@ -3,7 +3,7 @@
   "headword": "{習慣化|しゅうかんか}",
   "reading": "しゅうかんか",
   "romaji": "shuukanka",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "making into a habit; habituation",
   "conjugation": {
     "type": "suru",
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {習慣|しゅうかん} (habit) + {化|か} (transformation suffix, '-ization'). A popular topic in self-improvement and productivity literature in Japan.\n\nCOMMON COLLOCATIONS:\n- {習慣化|しゅうかんか}する — to make into a habit; to become habitual\n- {習慣化|しゅうかんか}のコツ — tips for forming habits\n- {習慣化|しゅうかんか}に{成功|せいこう}する — to succeed in forming a habit\n- {早起|はやお}きを{習慣化|しゅうかんか}する — to make early rising a habit\n\nRELATED TERMS:\n- {習慣|しゅうかん} — habit, custom\n- {日課|にっか} — daily routine; refers to the established routine itself\n- {癖|くせ} — habit (often unconscious or negative); unlike {習慣化|しゅうかんか}, not deliberately formed\n- ルーティン — routine (loanword); increasingly common, especially in sports contexts",
+  "notes": "Composed of {習慣|しゅうかん} (habit) + {化|か} (transformation suffix, '-ization'). A popular topic in self-improvement and productivity literature in Japan.\n\nCOMMON COLLOCATIONS:\n- {習慣化|しゅうかんか}する — to make into a habit; to become habitual\n- {習慣化|しゅうかんか}のコツ — tips for forming habits\n- {習慣化|しゅうかんか}に{成功|せいこう}する — to succeed in forming a habit\n- {早起|はやお}きを{習慣化|しゅうかんか}する — to make early rising a habit\n\nRELATED WORDS:\n- {習慣|しゅうかん} — habit, custom\n- {日課|にっか} — daily routine; refers to the established routine itself\n- {癖|くせ} — habit (often unconscious or negative); unlike {習慣化|しゅうかんか}, not deliberately formed\n- ルーティン — routine (loanword); increasingly common, especially in sports contexts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00317_nikka",
+      "reading": "にっか",
+      "headword": "{日課|にっか}",
+      "label": "daily routine"
+    },
+    {
+      "type": "related",
+      "target_id": "03814_kuse",
+      "reading": "くせ",
+      "headword": "{癖|くせ}",
+      "label": "habit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -147,9 +163,12 @@
       "verb_class": "suru",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["change", "daily-life"]
+      "semantic": [
+        "change",
+        "daily-life"
+      ]
     },
     "created": "2026-03-26T04:17:46Z",
-    "modified": "2026-07-26T21:32:58Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

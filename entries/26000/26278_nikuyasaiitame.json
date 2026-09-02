@@ -44,11 +44,21 @@
     }
   ],
   "notes": "A straightforward compound describing a common home-cooked and restaurant dish: {肉|にく} (meat) + {野菜|やさい} (vegetables) + {炒|いた}め (stir-fry). It is a staple of everyday Japanese cooking and appears frequently on {定食|ていしょく} (set meal) menus.\n\nCOMMON COLLOCATIONS:\n- {肉野菜炒|にくやさいいた}め{定食|ていしょく}: stir-fried meat and vegetables set meal\n- {豚|ぶた}{肉野菜炒|にくやさいいた}め: pork and vegetable stir-fry\n- {肉野菜炒|にくやさいいた}めを{作|つく}る: to make meat and vegetable stir-fry\n\nSIMILAR WORDS:\n- {野菜炒|やさいいた}め: vegetable stir-fry (without meat)\n- {回鍋肉|ホイコーロー}: twice-cooked pork (Chinese-style stir-fry; more specific dish with doubanjiang sauce)\n- {焼|や}きそば: fried noodles (also a stir-fried dish, but with noodles as the base)\n\nREGISTER:\nThis is an everyday cooking term. On restaurant menus, it may also appear as {野菜|やさい}{肉炒|にくいた}め (with the order reversed).",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13405_yakisoba",
+      "reading": "やきそば",
+      "headword": "{焼|や}きそば",
+      "label": "fried noodles"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food",
         "cooking"
@@ -58,6 +68,6 @@
       ]
     },
     "created": "2026-04-30T14:27:16Z",
-    "modified": "2026-04-30T14:27:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

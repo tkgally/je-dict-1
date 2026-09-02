@@ -2,7 +2,7 @@
   "id": "02634_kyuusoku",
   "headword": "{急速|きゅうそく}",
   "reading": "きゅうそく",
-  "part_of_speech": "na-adjective / noun",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "rapid, swift",
   "definitions": [
     {
@@ -51,11 +51,32 @@
       "headword": "{急激|きゅうげき}",
       "label": "drastic",
       "target_id": "02633_kyuugeki"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02749_kousoku",
+      "reading": "こうそく",
+      "headword": "{高速|こうそく}",
+      "label": "high-speed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14294_jinsoku",
+      "reading": "じんそく",
+      "headword": "{迅速|じんそく}",
+      "label": "swift, prompt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21896_hiyakuteki",
+      "reading": "ひやくてき",
+      "headword": "{飛躍的|ひやくてき}",
+      "label": "dramatic"
     }
   ],
   "metadata": {
     "created": "2026-01-11T06:43:14Z",
-    "modified": "2026-05-21T17:09:23Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

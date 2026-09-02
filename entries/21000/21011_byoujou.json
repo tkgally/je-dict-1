@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {病|びょう} (illness) + {状|じょう} (condition, state). Commonly used in medical contexts and news reporting about patients' health status. Refers to the overall condition of the illness rather than individual symptoms.\n\nCOMMON COLLOCATIONS:\n- {病状|びょうじょう}が{悪化|あっか}する: the condition worsens\n- {病状|びょうじょう}が{回復|かいふく}する: the condition improves\n- {病状|びょうじょう}が{安定|あんてい}する: the condition stabilizes\n- {病状|びょうじょう}を{説明|せつめい}する: to explain the condition\n\nSIMILAR WORDS:\n- {症状|しょうじょう}: symptoms — specific observable signs of illness, not the overall condition\n- {容態|ようだい}: patient's condition — more urgent nuance, often used for critically ill patients\n- {体調|たいちょう}: physical condition — broader, used for everyday health status, not limited to illness",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03234_shoujou",
+      "reading": "しょうじょう",
+      "headword": "{症状|しょうじょう}",
+      "label": "symptoms"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09797_youdai",
+      "reading": "ようだい",
+      "headword": "{容態|ようだい}",
+      "label": "patient's condition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04644_taichou",
+      "reading": "たいちょう",
+      "headword": "{体調|たいちょう}",
+      "label": "physical condition"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-31T14:10:15Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

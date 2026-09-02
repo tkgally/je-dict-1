@@ -17,7 +17,9 @@
       "id": "22318_annaiban_ex1",
       "japanese": "{案内|あんない}{板|ばん}を{確認|かくにん}する。",
       "english": "To check the information board.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22318_annaiban_ex2",
       "japanese": "{駅前|えきまえ}に{大|おお}きな{案内|あんない}{板|ばん}がある。",
       "english": "There is a large information board in front of the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "22318_annaiban_ex3",
       "japanese": "{案内|あんない}{板|ばん}の{地図|ちず}を{見|み}て、ハイキングコースを{確認|かくにん}した。",
       "english": "I checked the hiking course by looking at the map on the information board.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {案内|あんない} (guidance/information) + {板|ばん} (board/panel). These boards are ubiquitous in Japan, found at train stations, tourist attractions, parks, shopping malls, and building lobbies. They often include detailed maps with current-location markers.\n\nCOMMON COLLOCATIONS:\n- {案内|あんない}{板|ばん}を{見|み}る: to look at the information board\n- {案内|あんない}{板|ばん}を{設置|せっち}する: to install an information board\n- {観光|かんこう}{案内|あんない}{板|ばん}: tourist information board\n- {電子|でんし}{案内|あんない}{板|ばん}: electronic information display\n\nSIMILAR WORDS:\n- {案内|あんない}{図|ず}: information map/diagram — a printed map rather than a board\n- {看板|かんばん}: sign/signboard — more general, includes shop signs and billboards\n- {掲示板|けいじばん}: bulletin board — for posted notices, not directional guidance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17781_annaizu",
+      "reading": "あんないず",
+      "headword": "{案内図|あんないず}",
+      "label": "information map/diagram"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00166_kanban",
+      "reading": "かんばん",
+      "headword": "{看板|かんばん}",
+      "label": "sign/signboard"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03052_keijiban",
+      "reading": "けいじばん",
+      "headword": "{掲示板|けいじばん}",
+      "label": "bulletin board"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["travel", "daily-life"]
+      "semantic": [
+        "travel",
+        "daily-life"
+      ]
     },
     "created": "2026-04-05T18:26:54Z",
-    "modified": "2026-04-05T18:26:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

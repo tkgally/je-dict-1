@@ -17,7 +17,9 @@
       "id": "20846_usowarai_ex1",
       "japanese": "{嘘笑|うそわら}いでごまかした。",
       "english": "I covered it up with a fake smile.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20846_usowarai_ex2",
       "japanese": "あの{人|ひと}の{笑顔|えがお}は{嘘笑|うそわら}いだと{思|おも}う。",
       "english": "I think that person's smile is fake.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "20846_usowarai_ex3",
       "japanese": "{嘘笑|うそわら}いばかりしていると、{本当|ほんとう}の{笑顔|えがお}を{忘|わす}れてしまう。",
       "english": "If you keep putting on fake smiles, you'll forget what a real smile feels like.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,23 +47,45 @@
       "id": "20846_usowarai_ex4",
       "japanese": "{上司|じょうし}のつまらない{冗談|じょうだん}に{嘘笑|うそわら}いで{付|つ}き{合|あ}った。",
       "english": "I went along with my boss's unfunny joke with a forced laugh.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {嘘|うそ} (lie) + {笑|わら}い (laugh/smile). Describes an insincere smile or laugh used socially — to be polite, to hide true feelings, or to avoid awkwardness. A very relatable concept in Japanese social life, where maintaining harmony often requires masking one's true reactions.\n\nCOMMON COLLOCATIONS:\n- {嘘笑|うそわら}いをする: to fake a smile/laugh\n- {嘘笑|うそわら}いでごまかす: to cover something up with a fake smile\n- {嘘笑|うそわら}いに{付|つ}き{合|あ}う: to play along with forced laughter\n\nSIMILAR WORDS:\n- {愛想笑|あいそわら}い: polite smile, social smile (less negative; implies courtesy rather than deception)\n- {作|つく}り{笑|わら}い: forced smile (similar meaning, slightly more common)\n- {苦笑|くしょう}い: bitter smile, wry smile (acknowledges awkwardness openly)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16649_aisowarai",
+      "reading": "あいそわらい",
+      "headword": "{愛想笑|あいそわら}い",
+      "label": "polite smile, social smile (less…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08473_tsukuriwarai",
+      "reading": "つくりわらい",
+      "headword": "{作|つく}り{笑|わら}い",
+      "label": "forced smile"
+    }
+  ],
   "metadata": {
     "created": "2026-03-30T18:24:33Z",
-    "modified": "2026-03-30T18:24:33Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion", "communication"]
+      "semantic": [
+        "emotion",
+        "communication"
+      ]
     }
   }
 }

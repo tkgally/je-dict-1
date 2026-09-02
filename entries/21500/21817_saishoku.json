@@ -3,7 +3,7 @@
   "headword": "{彩色|さいしょく}",
   "reading": "さいしょく",
   "romaji": "saishoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "coloring; painting; application of color",
   "definitions": [
     {
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {彩|さい} (color, coloring) and {色|しょく} (color). Often used in contexts involving traditional arts, crafts, architecture, and restoration. The word carries a more refined, artistic nuance than simply {色|いろ}を{塗|ぬ}る (to paint a color).\n\nCOMMON COLLOCATIONS:\n- {彩色|さいしょく}を{施|ほどこ}す: to apply coloring\n- {彩色|さいしょく}する: to color, to paint\n- {鮮|あざ}やかな{彩色|さいしょく}: vivid coloring\n- {彩色|さいしょく}{写真|しゃしん}: hand-colored photograph\n- {彩色|さいしょく}{木彫|もくちょう}: painted wood carving\n\nSIMILAR WORDS:\n- {着色|ちゃくしょく}: coloring, dyeing — more technical, used for food coloring or industrial processes\n- {配色|はいしょく}: color arrangement, color scheme — focuses on the combination and placement of colors\n- {塗装|とそう}: painting, coating — applying paint as a protective or decorative layer, often for buildings or vehicles\n\nNOTE:\nThe alternate reading {彩色|さいしき} also exists and appears in some older or literary texts. In modern standard usage, さいしょく is more common.",
+  "notes": "A compound of {彩|さい} (color, coloring) and {色|しょく} (color). Often used in contexts involving traditional arts, crafts, architecture, and restoration. The word carries a more refined, artistic nuance than simply {色|いろ}を{塗|ぬ}る (to paint a color).\n\nCOMMON COLLOCATIONS:\n- {彩色|さいしょく}を{施|ほどこ}す: to apply coloring\n- {彩色|さいしょく}する: to color, to paint\n- {鮮|あざ}やかな{彩色|さいしょく}: vivid coloring\n- {彩色|さいしょく}{写真|しゃしん}: hand-colored photograph\n- {彩色|さいしょく}{木彫|もくちょう}: painted wood carving\n\nSIMILAR WORDS:\n- {着色|ちゃくしょく}: coloring, dyeing — more technical, used for food coloring or industrial processes\n- {配色|はいしょく}: color arrangement, color scheme — focuses on the combination and placement of colors\n- {塗装|とそう}: painting, coating — applying paint as a protective or decorative layer, often for buildings or vehicles\n\nUSAGE:\nThe alternate reading {彩色|さいしき} also exists and appears in some older or literary texts. In modern standard usage, さいしょく is more common.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13708_chakushoku",
+      "reading": "ちゃくしょく",
+      "headword": "{着色|ちゃくしょく}",
+      "label": "coloring, dyeing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15886_haishoku",
+      "reading": "はいしょく",
+      "headword": "{配色|はいしょく}",
+      "label": "color arrangement, color scheme"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06582_tosou",
+      "reading": "とそう",
+      "headword": "{塗装|とそう}",
+      "label": "painting, coating"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-03T18:25:39Z",
-    "modified": "2026-04-03T18:25:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

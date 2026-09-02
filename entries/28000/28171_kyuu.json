@@ -3,7 +3,7 @@
   "headword": "級",
   "reading": "きゅう",
   "romaji": "kyuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suffix",
   "gloss": "grade; rank; class (level)",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "28171_kyuu_ex1",
       "japanese": "{漢字検定|かんじけんてい}の{二級|にきゅう}に{合格|ごうかく}した。",
       "english": "I passed level 2 of the Kanji Kentei.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28171_kyuu_ex2",
       "japanese": "{柔道|じゅうどう}では{茶帯|ちゃおび}が{一級|いっきゅう}だ。",
       "english": "In judo, a brown belt is first kyu.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "28171_kyuu_ex3",
       "japanese": "この{大会|たいかい}は{体重|たいじゅう}ごとに{級|きゅう}が{分|わ}かれている。",
       "english": "In this tournament the classes are divided by body weight.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "In ranking systems {級|きゅう} sits below {段|だん} (dan); the numbers count down as skill rises, so {一級|いっきゅう} is the highest kyu, just before reaching dan ranks.\n\nCOMMON COMPOUNDS:\n- {上級|じょうきゅう}: advanced level\n- {初級|しょきゅう}: beginner level\n- {高級|こうきゅう}: high-class, luxury\n- {同級生|どうきゅうせい}: a classmate (same grade)\n\nSIMILAR WORDS:\n- {段|だん}: the rank above {級|きゅう} in martial arts and board games\n- {等級|とうきゅう}: a grade or rating, often for quality or price",
+  "notes": "In ranking systems {級|きゅう} sits below {段|だん} (dan); the numbers count down as skill rises, so {一級|いっきゅう} is the highest kyu, just before reaching dan ranks.\n\nCOMPOUNDS:\n- {上級|じょうきゅう}: advanced level\n- {初級|しょきゅう}: beginner level\n- {高級|こうきゅう}: high-class, luxury\n- {同級生|どうきゅうせい}: a classmate (same grade)\n\nSIMILAR WORDS:\n- {段|だん}: the rank above {級|きゅう} in martial arts and board games\n- {等級|とうきゅう}: a grade or rating, often for quality or price",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03424_dan",
+      "reading": "だん",
+      "headword": "{段|だん}",
+      "label": "the rank above in martial arts…"
+    },
+    {
+      "type": "related",
+      "target_id": "28129_shodan",
+      "reading": "しょだん",
+      "headword": "{初段|しょだん}",
+      "label": "first dan"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "suffix"],
+      "pos": [
+        "noun",
+        "suffix"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["general"],
+      "politeness": "plain",
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-26T04:08:43Z",
-    "modified": "2026-05-26T04:08:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "27031_touzayokin_ex1",
       "japanese": "{当座預金|とうざよきん}を{開設|かいせつ}する。",
       "english": "To open a checking account.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27031_touzayokin_ex2",
       "japanese": "{当座預金|とうざよきん}は{利息|りそく}がつかない。",
       "english": "Checking accounts don't earn interest.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,61 @@
       "id": "27031_touzayokin_ex3",
       "japanese": "{会社|かいしゃ}の{支払|しはら}いは{当座預金|とうざよきん}から{小切手|こぎって}で{行|おこな}われる。",
       "english": "Company payments are made by check from the checking account.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A financial term composed of {当座|とうざ} (current; for the time being) + {預金|よきん} (deposit; savings). In Japan, {当座預金|とうざよきん} accounts are used mainly by businesses and are linked to {小切手|こぎって} (check) transactions. Individuals typically use {普通預金|ふつうよきん} (ordinary savings accounts) for everyday banking.\n\nCOMMON COLLOCATIONS:\n- {当座預金|とうざよきん}{口座|こうざ}: checking account\n- {当座預金|とうざよきん}の{残高|ざんだか}: checking account balance\n- {当座|とうざ}{取引|とりひき}: current account transactions\n- {当座|とうざ}{借越|かりこし}: overdraft\n\nRELATED TERMS:\n- {普通預金|ふつうよきん}: ordinary savings account — the most common type of individual bank account in Japan\n- {定期預金|ていきよきん}: fixed-term deposit; time deposit — earns higher interest but funds are locked for a set period\n- {小切手|こぎって}: check — the main instrument used with checking accounts",
+  "notes": "A financial term composed of {当座|とうざ} (current; for the time being) + {預金|よきん} (deposit; savings). In Japan, {当座預金|とうざよきん} accounts are used mainly by businesses and are linked to {小切手|こぎって} (check) transactions. Individuals typically use {普通預金|ふつうよきん} (ordinary savings accounts) for everyday banking.\n\nCOMMON COLLOCATIONS:\n- {当座預金|とうざよきん}{口座|こうざ}: checking account\n- {当座預金|とうざよきん}の{残高|ざんだか}: checking account balance\n- {当座|とうざ}{取引|とりひき}: current account transactions\n- {当座|とうざ}{借越|かりこし}: overdraft\n\nRELATED WORDS:\n- {普通預金|ふつうよきん}: ordinary savings account — the most common type of individual bank account in Japan\n- {定期預金|ていきよきん}: fixed-term deposit; time deposit — earns higher interest but funds are locked for a set period\n- {小切手|こぎって}: check — the main instrument used with checking accounts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23520_futsuuyokin",
+      "reading": "ふつうよきん",
+      "headword": "{普通|ふつう}{預金|よきん}",
+      "label": "ordinary savings account"
+    },
+    {
+      "type": "related",
+      "target_id": "22251_teikiyokin",
+      "reading": "ていきよきん",
+      "headword": "{定期預金|ていきよきん}",
+      "label": "fixed-term deposit"
+    },
+    {
+      "type": "related",
+      "target_id": "06305_kogitte",
+      "reading": "こぎって",
+      "headword": "{小切手|こぎって}",
+      "label": "check"
+    },
+    {
+      "type": "related",
+      "target_id": "27021_ginkoukouza",
+      "reading": "ぎんこうこうざ",
+      "headword": "{銀行口座|ぎんこうこうざ}",
+      "label": "bank account"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["money"],
-      "domain": ["business"]
+      "semantic": [
+        "money"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-05-06T14:24:06Z",
-    "modified": "2026-05-06T14:24:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

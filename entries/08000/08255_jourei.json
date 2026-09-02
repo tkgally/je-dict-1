@@ -43,7 +43,44 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n- {条例|じょうれい}を{制定|せいてい}する (to enact an ordinance)\n- {条例|じょうれい}に{違反|いはん}する (to violate an ordinance)\n- {条例|じょうれい}で{定|さだ}める (to stipulate by ordinance)\n\nSCOPE:\nLocal governments (prefectures, cities, towns, villages) can enact {条例|じょうれい}. They apply only within that local jurisdiction.\n\nCOMMON TYPES:\n- {迷惑防止条例|めいわくぼうしじょうれい} (anti-nuisance ordinance)\n- {環境保全条例|かんきょうほぜんじょうれい} (environmental protection ordinance)\n- {路上喫煙禁止条例|ろじょうきつえんきんしじょうれい} (street smoking ban)\n\nLEGAL HIERARCHY:\n{憲法|けんぽう} (constitution) > {法律|ほうりつ} (law) > {条例|じょうれい} (ordinance)\n\nRELATED:\n- {法律|ほうりつ} (law - national)\n- {規則|きそく} (rules, regulations)\n- {法令|ほうれい} (laws and ordinances)",
+  "notes": "USAGE:\n- {条例|じょうれい}を{制定|せいてい}する (to enact an ordinance)\n- {条例|じょうれい}に{違反|いはん}する (to violate an ordinance)\n- {条例|じょうれい}で{定|さだ}める (to stipulate by ordinance)\nLocal governments (prefectures, cities, towns, villages) can enact {条例|じょうれい}. They apply only within that local jurisdiction.\n\nTYPES:\n- {迷惑防止条例|めいわくぼうしじょうれい} (anti-nuisance ordinance)\n- {環境保全条例|かんきょうほぜんじょうれい} (environmental protection ordinance)\n- {路上喫煙禁止条例|ろじょうきつえんきんしじょうれい} (street smoking ban)\n\nLEGAL HIERARCHY:\n{憲法|けんぽう} (constitution) > {法律|ほうりつ} (law) > {条例|じょうれい} (ordinance)\n\nRELATED WORDS:\n- {法律|ほうりつ} (law - national)\n- {規則|きそく} (rules, regulations)\n- {法令|ほうれい} (laws and ordinances)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01722_houritsu",
+      "reading": "ほうりつ",
+      "headword": "{法律|ほうりつ}",
+      "label": "law"
+    },
+    {
+      "type": "related",
+      "target_id": "01382_kisoku",
+      "reading": "きそく",
+      "headword": "{規則|きそく}",
+      "label": "rules, regulations"
+    },
+    {
+      "type": "related",
+      "target_id": "13299_hourei",
+      "reading": "ほうれい",
+      "headword": "{法令|ほうれい}",
+      "label": "laws and ordinances"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24773_seirei",
+      "reading": "せいれい",
+      "headword": "{政令|せいれい}",
+      "label": "government ordinance, cabinet order"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29062_boushihou",
+      "reading": "ぼうしほう",
+      "headword": "{防止法|ぼうしほう}",
+      "label": "prevention law"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +88,13 @@
         "noun"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "law",
         "politics"
       ]
     },
     "created": "2026-01-25T09:58:37Z",
-    "modified": "2026-08-11T21:34:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

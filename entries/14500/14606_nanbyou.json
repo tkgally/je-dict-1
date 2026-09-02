@@ -19,7 +19,9 @@
       "english": "She is fighting an intractable disease.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14606_nanbyou_ex2",
@@ -27,7 +29,9 @@
       "english": "Support programs for patients with intractable diseases were expanded.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14606_nanbyou_ex3",
@@ -35,22 +39,52 @@
       "english": "Thanks to the development of new treatments, diseases once considered intractable are becoming curable.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nIn Japan, {難病|なんびょう} has both a general meaning (any hard-to-cure disease) and an official designation under the {難病|なんびょう}{法|ほう} (Intractable Disease Act), which provides medical expense subsidies for patients with designated conditions.\n\nCOMMON COLLOCATIONS:\n- {難病|なんびょう}と{闘|たたか}う (to fight an intractable disease)\n- {難病|なんびょう}{患者|かんじゃ} (patient with an intractable disease)\n- {難病|なんびょう}{指定|してい} (intractable disease designation)\n- {難病|なんびょう}を{克服|こくふく}する (to overcome an intractable disease)\n\nSIMILAR WORDS:\n- {難病|なんびょう}: intractable disease (hard to treat; may be officially designated)\n- {不治|ふじ}の{病|やまい}: incurable illness (no known cure; literary)\n- {持病|じびょう}: chronic illness (ongoing condition one lives with)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16820_fujinoyamai",
+      "reading": "ふじのやまい",
+      "headword": "{不治|ふじ}の{病|やまい}",
+      "label": "incurable illness (no known cure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07280_jibyou",
+      "reading": "じびょう",
+      "headword": "{持病|じびょう}",
+      "label": "chronic illness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25277_juubyou",
+      "reading": "じゅうびょう",
+      "headword": "{重病|じゅうびょう}",
+      "label": "serious illness"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T08:26:54Z",
-    "modified": "2026-03-02T08:26:54Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

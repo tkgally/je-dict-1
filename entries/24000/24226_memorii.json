@@ -22,7 +22,9 @@
       "id": "24226_memorii_ex1",
       "japanese": "メモリーが{足|た}りない。",
       "english": "There isn't enough memory.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "24226_memorii_ex2",
       "japanese": "スマホのメモリーを{増|ふ}やしたい。",
       "english": "I want to increase my smartphone's storage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "24226_memorii_ex3",
       "japanese": "パソコンのメモリーを16GBに{増設|ぞうせつ}したら、{動作|どうさ}が{速|はや}くなった。",
       "english": "After upgrading the computer's memory to 16GB, it started running faster.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "24226_memorii_ex4",
       "japanese": "{大切|たいせつ}なメモリー。",
       "english": "A precious memory.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "24226_memorii_ex5",
       "japanese": "{旅|たび}のメモリーとして{写真|しゃしん}を{撮|と}った。",
       "english": "I took photos as travel memories.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,51 @@
       "id": "24226_memorii_ex6",
       "japanese": "{学生時代|がくせいじだい}のメモリーが{詰|つ}まったアルバムを{久|ひさ}しぶりに{開|ひら}いた。",
       "english": "I opened an album full of memories from my student days for the first time in a while.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A loanword from English \"memory.\" The computing sense is dominant in everyday usage.\n\nUSAGE:\nIn daily conversation, メモリー most often refers to computer or device memory/storage. The \"personal memory\" sense is more common in creative and commercial contexts — song titles, photo album branding, event names — and sounds more sentimental than the native {思い出|おもいで}. For actual cognitive memory (the ability to remember), {記憶|きおく} is the standard word.\n\nCOMMON COLLOCATIONS:\n- メモリー{不足|ぶそく}: insufficient memory\n- メモリーカード: memory card\n- USBメモリー: USB flash drive\n- メモリーを{解放|かいほう}する: to free up memory\n- メモリー{増設|ぞうせつ}: memory upgrade\n\nSIMILAR WORDS:\n- {記憶|きおく}: memory — the native word for the mental faculty of remembering; also used in computing ({記憶|きおく}{装置|そうち} = storage device)\n- {思い出|おもいで}: memory, recollection — the everyday native word for personal memories and reminiscences\n- ストレージ: storage — specifically data storage capacity, distinct from RAM",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00234_kioku",
+      "reading": "きおく",
+      "headword": "{記憶|きおく}",
+      "label": "memory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00331_omoide",
+      "reading": "おもいで",
+      "headword": "{思|おも}い{出|で}",
+      "label": "memory, recollection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06959_sutoreeji",
+      "reading": "すとれーじ",
+      "headword": "ストレージ",
+      "label": "storage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technology"]
+      "semantic": [
+        "technology"
+      ]
     },
     "created": "2026-04-18T10:27:26Z",
-    "modified": "2026-04-18T10:27:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

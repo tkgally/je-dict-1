@@ -3,7 +3,7 @@
   "headword": "{飽|あ}き{性|しょう}",
   "reading": "あきしょう",
   "romaji": "akishou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "fickle nature; easily bored disposition; someone who gets tired of things quickly",
   "definitions": [
     {
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Functions as both a noun (describing the trait) and a na-adjective modifier. Usually used self-deprecatingly or to describe someone's weakness. Not strongly negative — more like a mild character flaw that people acknowledge openly.\n\nCOMMON COLLOCATIONS:\n- {飽|あ}き{性|しょう}な{人|ひと}: a fickle person\n- {飽|あ}き{性|しょう}を{直|なお}す: to fix one's fickle nature\n- {飽|あ}き{性|しょう}だから: because I get bored easily\n- かなりの{飽|あ}き{性|しょう}: quite the fickle type\n\nSIMILAR WORDS:\n- {三日坊主|みっかぼうず}: someone who gives up after three days — humorous idiom for the same concept\n- {気|き}まぐれ: whimsical, capricious — focuses on unpredictability rather than losing interest\n- {移|うつ}り{気|き}: fickleness — literary/formal, often used for romantic fickleness\n\nWORD FORMATION:\n{飽|あ}き (getting tired of) + {性|しょう} (nature, disposition). The suffix {性|しょう} appears in many personality words: {怒|おこ}り{性|しょう} (short-tempered), {汗|あせ}っかき{性|しょう} (sweaty disposition).",
-  "cross_references": [],
+  "notes": "Functions as both a noun (describing the trait) and a na-adjective modifier. Usually used self-deprecatingly or to describe someone's weakness. Not strongly negative — more like a mild character flaw that people acknowledge openly.\n\nCOMMON COLLOCATIONS:\n- {飽|あ}き{性|しょう}な{人|ひと}: a fickle person\n- {飽|あ}き{性|しょう}を{直|なお}す: to fix one's fickle nature\n- {飽|あ}き{性|しょう}だから: because I get bored easily\n- かなりの{飽|あ}き{性|しょう}: quite the fickle type\n\nSIMILAR WORDS:\n- {三日坊主|みっかぼうず}: someone who gives up after three days — humorous idiom for the same concept\n- {気|き}まぐれ: whimsical, capricious — focuses on unpredictability rather than losing interest\n- {移|うつ}り{気|き}: fickleness — literary/formal, often used for romantic fickleness\n\nFORMS:\n{飽|あ}き (getting tired of) + {性|しょう} (nature, disposition). The suffix {性|しょう} appears in many personality words: {怒|おこ}り{性|しょう} (short-tempered), {汗|あせ}っかき{性|しょう} (sweaty disposition).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06021_mikkabouzu",
+      "reading": "みっかぼうず",
+      "headword": "{三日坊主|みっかぼうず}",
+      "label": "someone who gives up after three days"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07319_kimagure",
+      "reading": "きまぐれ",
+      "headword": "{気|き}まぐれ",
+      "label": "whimsical, capricious"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +76,6 @@
       ]
     },
     "created": "2026-05-05T12:11:20Z",
-    "modified": "2026-05-05T12:11:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

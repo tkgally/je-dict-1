@@ -40,10 +40,68 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{夕暮|ゆうぐ}れ{時|どき} is a common compound meaning \"at twilight/dusk.\"\n\nRELATED TIME EXPRESSIONS:\n・{夕方|ゆうがた} - evening (broader term, more commonly used)\n・{日暮|ひぐ}れ - sunset, nightfall\n・{黄昏|たそがれ} - twilight (more literary)\n・{暁|あかつき} - dawn (opposite time)\n\nNUANCE:\n{夕暮|ゆうぐ}れ has a poetic, atmospheric quality often associated with nostalgia or melancholy in Japanese literature and art.",
+  "notes": "USAGE:\n{夕暮|ゆうぐ}れ{時|どき} is a common compound meaning \"at twilight/dusk.\"\n{夕暮|ゆうぐ}れ has a poetic, atmospheric quality often associated with nostalgia or melancholy in Japanese literature and art.\n\nRELATED TIME EXPRESSIONS:\n- {夕方|ゆうがた} - evening (broader term, more commonly used)\n- {日暮|ひぐ}れ - sunset, nightfall\n- {黄昏|たそがれ} - twilight (more literary)\n- {暁|あかつき} - dawn (opposite time)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01010_yuugata",
+      "reading": "ゆうがた",
+      "headword": "{夕方|ゆうがた}",
+      "label": "evening"
+    },
+    {
+      "type": "related",
+      "target_id": "10086_higure",
+      "reading": "ひぐれ",
+      "headword": "{日暮|ひぐ}れ",
+      "label": "sunset, nightfall"
+    },
+    {
+      "type": "related",
+      "target_id": "05046_tasogare",
+      "reading": "たそがれ",
+      "headword": "{黄昏|たそがれ}",
+      "label": "twilight"
+    },
+    {
+      "type": "related",
+      "target_id": "10036_akatsuki",
+      "reading": "あかつき",
+      "headword": "{暁|あかつき}",
+      "label": "dawn"
+    },
+    {
+      "type": "related",
+      "target_id": "05045_yuuyake",
+      "reading": "ゆうやけ",
+      "headword": "{夕焼|ゆうや}け",
+      "label": "sunset glow, evening glow"
+    },
+    {
+      "type": "related",
+      "target_id": "16774_higakureru",
+      "reading": "ひがくれる",
+      "headword": "{日|ひ}が{暮|く}れる",
+      "label": "the sun sets"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19129_yuuyami",
+      "reading": "ゆうやみ",
+      "headword": "{夕闇|ゆうやみ}",
+      "label": "evening darkness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25609_hakumei",
+      "reading": "はくめい",
+      "headword": "{薄明|はくめい}",
+      "label": "twilight"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +109,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "time-general",
         "nature"

@@ -19,7 +19,9 @@
       "english": "The heavy rain caused earth and sand to collapse.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17540_dosha_ex2",
@@ -27,7 +29,9 @@
       "english": "The road was closed due to a landslide.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17540_dosha_ex3",
@@ -35,10 +39,12 @@
       "english": "A sediment disaster warning was issued.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nFrequently appears in weather reports and disaster news in Japan, where heavy rains often cause landslides. Key compounds include {土砂崩|どしゃくず}れ (landslide), {土砂災害|どしゃさいがい} (sediment disaster), and {土砂降|どしゃぶ}り (downpour — using the same characters but with a different meaning).\n\nCOMMON COLLOCATIONS:\n- {土砂崩|どしゃくず}れ (landslide)\n- {土砂災害|どしゃさいがい} (sediment disaster)\n- {土砂|どしゃ}が{流|なが}れる (sediment flows)\n- {土砂|どしゃ}に{埋|う}まる (to be buried in debris)\n- {土砂|どしゃ}{撤去|てっきょ} (debris removal)\n\nNOTE:\n{土砂降|どしゃぶ}り (torrential rain) uses the same first two characters but is a separate word with a different meaning.",
+  "notes": "USAGE:\nFrequently appears in weather reports and disaster news in Japan, where heavy rains often cause landslides. Key compounds include {土砂崩|どしゃくず}れ (landslide), {土砂災害|どしゃさいがい} (sediment disaster), and {土砂降|どしゃぶ}り (downpour — using the same characters but with a different meaning).\n{土砂降|どしゃぶ}り (torrential rain) uses the same first two characters but is a separate word with a different meaning.\n\nCOMMON COLLOCATIONS:\n- {土砂崩|どしゃくず}れ (landslide)\n- {土砂災害|どしゃさいがい} (sediment disaster)\n- {土砂|どしゃ}が{流|なが}れる (sediment flows)\n- {土砂|どしゃ}に{埋|う}まる (to be buried in debris)\n- {土砂|どしゃ}{撤去|てっきょ} (debris removal)",
   "cross_references": [
     {
       "type": "see_also",
@@ -46,18 +52,29 @@
       "reading": "どしゃぶり",
       "headword": "{土砂降|どしゃぶ}り",
       "label": "downpour (same kanji)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26460_doseki",
+      "reading": "どせき",
+      "headword": "{土石|どせき}",
+      "label": "earth and stone"
     }
   ],
   "metadata": {
     "created": "2026-03-18T08:06:12Z",
-    "modified": "2026-05-06T09:07:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

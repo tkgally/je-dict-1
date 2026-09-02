@@ -3,7 +3,7 @@
   "headword": "{延泊|えんぱく}",
   "reading": "えんぱく",
   "romaji": "enpaku",
-  "part_of_speech": "noun, suru verb, intransitive",
+  "part_of_speech": "noun, suru verb (intransitive)",
   "gloss": "extending a stay by extra nights",
   "definitions": [
     {
@@ -56,6 +56,22 @@
   ],
   "notes": "{延|えん} (extend) + {泊|はく} (night's lodging). The number of added nights goes before the word: {一泊|いっぱく}{延泊|えんぱく}する.\n\nCOMMON COLLOCATIONS:\n- {延泊|えんぱく}する: to extend one's stay\n- {延泊|えんぱく}を{希望|きぼう}する: to request an extension\n- {延泊料金|えんぱくりょうきん}: the rate for extra nights\n- {延泊|えんぱく}が{可能|かのう}: extension is possible\n\nSIMILAR WORDS:\n- {連泊|れんぱく}: consecutive nights — several nights booked as one stay from the outset, not added later\n- {宿泊|しゅくはく}: lodging; staying overnight — the general term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07049_renpaku",
+      "reading": "れんぱく",
+      "headword": "{連泊|れんぱく}",
+      "label": "consecutive nights"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03216_shukuhaku",
+      "reading": "しゅくはく",
+      "headword": "{宿泊|しゅくはく}",
+      "label": "lodging"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +80,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "travel",
         "action"
@@ -74,7 +90,7 @@
       "transitivity": "intransitive"
     },
     "created": "2026-08-31T12:35:20Z",
-    "modified": "2026-08-31T12:40:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

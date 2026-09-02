@@ -43,15 +43,7 @@
       ]
     }
   ],
-  "notes": "{季語|きご} is a word that indicates a specific season, required in traditional {俳句|はいく} (haiku) and {連歌|れんが} (linked verse).\n\nSEASONAL CATEGORIES:\n- {春|はる} (spring): {桜|さくら}, {梅|うめ}, {花見|はなみ}\n- {夏|なつ} (summer): {蝉|せみ}, {花火|はなび}, {西瓜|すいか}\n- {秋|あき} (autumn): {紅葉|もみじ}, {月|つき}, {虫|むし}の{声|こえ}\n- {冬|ふゆ} (winter): {雪|ゆき}, {霜|しも}, {炬燵|こたつ}\n\nRELATED TERMS:\n- {歳時記|さいじき}: seasonal almanac that catalogues {季語|きご}",
-  "cross_references": [
-    {
-      "type": "related",
-      "reading": "はいく",
-      "target_id": "00083_haiku",
-      "headword": "{俳句|はいく}"
-    }
-  ],
+  "notes": "{季語|きご} is a word that indicates a specific season, required in traditional {俳句|はいく} (haiku) and {連歌|れんが} (linked verse).\n\nSEASONAL CATEGORIES:\n- {春|はる} (spring): {桜|さくら}, {梅|うめ}, {花見|はなみ}\n- {夏|なつ} (summer): {蝉|せみ}, {花火|はなび}, {西瓜|すいか}\n- {秋|あき} (autumn): {紅葉|もみじ}, {月|つき}, {虫|むし}の{声|こえ}\n- {冬|ふゆ} (winter): {雪|ゆき}, {霜|しも}, {炬燵|こたつ}\n\nRELATED WORDS:\n- {歳時記|さいじき}: seasonal almanac that catalogues {季語|きご}",
   "cross_references": [
     {
       "type": "related",
@@ -59,11 +51,25 @@
       "reading": "はいく",
       "headword": "{俳句|はいく}",
       "label": "haiku"
+    },
+    {
+      "type": "related",
+      "target_id": "18452_saijiki",
+      "reading": "さいじき",
+      "headword": "{歳時記|さいじき}",
+      "label": "seasonal almanac that catalogues"
+    },
+    {
+      "type": "related",
+      "target_id": "09993_kireji",
+      "reading": "きれじ",
+      "headword": "{切|き}れ{字|じ}",
+      "label": "cutting word (in haiku)"
     }
   ],
   "metadata": {
     "created": "2026-02-03T00:29:56Z",
-    "modified": "2026-04-23T05:18:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

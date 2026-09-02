@@ -17,7 +17,9 @@
       "id": "27003_adoresu_ex1",
       "japanese": "メールアドレスを{教|おし}えてください。",
       "english": "Please tell me your email address.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27003_adoresu_ex2",
       "japanese": "アドレスを{間違|まちが}えて{別|べつ}の{人|ひと}に{送|おく}ってしまった。",
       "english": "I made a mistake with the address and sent it to the wrong person.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "27003_adoresu_ex3",
       "japanese": "{新|あたら}しいアドレスに{変更|へんこう}したので、{連絡先|れんらくさき}を{更新|こうしん}してください。",
       "english": "I've changed to a new address, so please update your contacts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"address.\" In Japanese, アドレス almost exclusively refers to digital addresses (email, web). For physical postal addresses, {住所|じゅうしょ} is used instead. Sometimes shortened to アド in very casual speech.\n\nCOMMON COLLOCATIONS:\n- メールアドレス: email address\n- アドレスを{変更|へんこう}する: to change one's address\n- アドレス{帳|ちょう}: address book (contacts)\n- アドレスバー: address bar (in a web browser)\n- IPアドレス: IP address\n\nSIMILAR WORDS:\n- {住所|じゅうしょ}: address (physical) — for postal/residential addresses\n- URL: URL — specifically for web addresses, more technical\n- {連絡先|れんらくさき}: contact information — broader, includes phone, email, etc.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01430_juusho",
+      "reading": "じゅうしょ",
+      "headword": "{住所|じゅうしょ}",
+      "label": "address"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03191_renrakusaki",
+      "reading": "れんらくさき",
+      "headword": "{連絡先|れんらくさき}",
+      "label": "contact information"
+    },
+    {
+      "type": "related",
+      "target_id": "23540_meeruadoresu",
+      "reading": "めーるあどれす",
+      "headword": "メールアドレス",
+      "label": "email address"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication", "electronics"]
+      "semantic": [
+        "communication",
+        "electronics"
+      ]
     },
     "created": "2026-05-06T13:14:05Z",
-    "modified": "2026-05-06T13:14:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

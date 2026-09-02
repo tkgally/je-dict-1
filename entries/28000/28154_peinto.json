@@ -3,7 +3,7 @@
   "headword": "ペイント",
   "reading": "ぺいんと",
   "romaji": "peinto",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "paint; painting; coating",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "From English 'paint.' Used both for the substance (paint) and, with する, for the act of painting or coating something. Common in DIY, automotive, and design contexts.\n\nUSAGE:\n- ペイントする: to paint, to coat\n- {壁|かべ}をペイントする: to paint a wall\n\nSIMILAR WORDS:\n- ペンキ: paint — the everyday word for house paint (from Dutch)\n- {塗料|とりょう}: paint, coating material — a more technical term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00342_penki",
+      "reading": "ぺんき",
+      "headword": "ペンキ",
+      "label": "paint"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24548_toryou",
+      "reading": "とりょう",
+      "headword": "{塗料|とりょう}",
+      "label": "paint, coating material"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "daily-life"
       ],
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-26T03:08:00Z",
-    "modified": "2026-05-26T03:08:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -3,7 +3,7 @@
   "headword": "{注記|ちゅうき}",
   "reading": "ちゅうき",
   "romaji": "chuuki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "note; annotation; explanatory remark",
   "definitions": [
     {
@@ -46,6 +46,43 @@
   ],
   "notes": "Composed of {注|ちゅう} (note, attention) + {記|き} (write, record). Used for supplementary information added to documents, maps, charts, and other written materials.\n\nCOMMON COLLOCATIONS:\n- {注記|ちゅうき}を{加|くわ}える — to add notes/annotations\n- {注記|ちゅうき}を{付|つ}ける — to attach annotations\n- {注記|ちゅうき}を{参照|さんしょう}する — to refer to the notes\n- {注記|ちゅうき}{事項|じこう} — annotated items; noted matters\n\nSIMILAR WORDS:\n- {注釈|ちゅうしゃく} — commentary, footnote (more detailed explanation, often scholarly)\n- {備考|びこう} — remarks, notes (used in tables and forms)\n- メモ — memo, note (informal; personal notes)\n- {脚注|きゃくちゅう} — footnote (specifically at the bottom of a page)\n- {補足|ほそく} — supplement, additional information",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09766_chuushaku",
+      "reading": "ちゅうしゃく",
+      "headword": "{注釈|ちゅうしゃく}",
+      "label": "commentary, footnote"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15693_bikou",
+      "reading": "びこう",
+      "headword": "{備考|びこう}",
+      "label": "remarks, notes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00274_memo",
+      "reading": "めも",
+      "headword": "メモ",
+      "label": "memo, note (informal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06423_kyakuchuu",
+      "reading": "きゃくちゅう",
+      "headword": "{脚注|きゃくちゅう}",
+      "label": "footnote"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08386_hosoku",
+      "reading": "ほそく",
+      "headword": "{補足|ほそく}",
+      "label": "supplement, additional information"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +91,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "language",
         "document"
@@ -62,7 +99,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T14:22:10Z",
-    "modified": "2026-04-05T14:22:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

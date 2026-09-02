@@ -3,7 +3,7 @@
   "headword": "べちゃべちゃ",
   "reading": "べちゃべちゃ",
   "romaji": "bechabecha",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "soggy; wet and mushy; soaking wet",
   "schema_version": "2.0",
   "definitions": [
@@ -18,7 +18,9 @@
       "id": "29025_bechabecha_ex1",
       "japanese": "{雨|あめ}でべちゃべちゃになった。",
       "english": "I got soaking wet in the rain.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -26,7 +28,9 @@
       "id": "29025_bechabecha_ex2",
       "japanese": "{揚|あ}げ{物|もの}がべちゃべちゃになってしまった。",
       "english": "The fried food went all soggy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -34,21 +38,58 @@
       "id": "29025_bechabecha_ex3",
       "japanese": "{蒸|む}らしすぎてご{飯|はん}がべちゃべちゃだ。{炊|た}き{直|なお}せるかな。",
       "english": "The rice is all mushy from over-steaming. I wonder if I can fix it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Mimetic word for an unpleasant wet or soggy state. Often used with になる (to become soggy) or as a prenominal modifier with した.\n\nCOMMON COLLOCATIONS:\n- べちゃべちゃになる — to get soaking wet / go soggy\n- べちゃべちゃした{食感|しょっかん} — a soggy texture\n- べちゃべちゃに{濡|ぬ}れる — to get drenched\n\nSIMILAR WORDS:\n- ぐちゃぐちゃ: muddy, messy, more chaotic than just wet\n- びしょびしょ: soaking wet (of a person or clothing, less food-focused)\n- ふやける: to become soggy/waterlogged (verb, e.g. paper in water)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05170_guchagucha",
+      "reading": "ぐちゃぐちゃ",
+      "headword": "ぐちゃぐちゃ",
+      "label": "muddy, messy, more chaotic than just wet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05366_bishobisho",
+      "reading": "びしょびしょ",
+      "headword": "びしょびしょ",
+      "label": "soaking wet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28754_gushagusha",
+      "reading": "ぐしゃぐしゃ",
+      "headword": "ぐしゃぐしゃ",
+      "label": "crumpled"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30323_funyafunya",
+      "reading": "ふにゃふにゃ",
+      "headword": "ふにゃふにゃ",
+      "label": "soft and limp"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "onomatopoeia"],
+      "pos": [
+        "adverb",
+        "onomatopoeia"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     },
     "created": "2026-06-09T06:00:21Z",
-    "modified": "2026-06-09T06:00:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

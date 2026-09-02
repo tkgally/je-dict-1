@@ -3,7 +3,7 @@
   "id": "14288_miburui",
   "headword": "{身震|みぶる}い",
   "reading": "みぶるい",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "shudder; shiver; trembling",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,46 @@
     }
   ],
   "notes": "Compound of {身|み} (body) + {震|ふる}い (shaking), with rendaku changing ふ to ぶ. Functions as both a noun and a する verb.\n\nUnlike {震|ふる}える (to tremble), which describes sustained shaking, {身震|みぶる}い typically refers to a sudden, involuntary shudder — a brief whole-body reaction.\n\nCOMMON COLLOCATIONS:\n- {身震|みぶる}いする (to shudder)\n- {身震|みぶる}いがする (to feel a shudder)\n- {身震|みぶる}いするほど (enough to make one shudder)\n- {恐怖|きょうふ}で{身震|みぶる}いする (to shudder with fear)\n\nSIMILAR WORDS:\n- {震|ふる}える: to tremble, to shake (sustained trembling)\n- {鳥肌|とりはだ}: goosebumps (a related physical reaction)\n- {武者震|むしゃぶる}い: trembling with excitement before action (anticipatory)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02411_furueru",
+      "reading": "ふるえる",
+      "headword": "{震|ふる}える",
+      "label": "to tremble, to shake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08544_torihada",
+      "reading": "とりはだ",
+      "headword": "{鳥肌|とりはだ}",
+      "label": "goosebumps"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17402_mushaburui",
+      "reading": "むしゃぶるい",
+      "headword": "{武者震|むしゃぶる}い",
+      "label": "trembling with excitement before action"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07361_ononoku",
+      "reading": "おののく",
+      "headword": "おののく",
+      "label": "to tremble"
+    },
+    {
+      "type": "related",
+      "target_id": "18840_furue",
+      "reading": "ふるえ",
+      "headword": "{震|ふる}え",
+      "label": "shiver"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T09:27:12Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

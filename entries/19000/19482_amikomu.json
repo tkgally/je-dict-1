@@ -3,7 +3,7 @@
   "headword": "{編|あ}み{込|こ}む",
   "reading": "あみこむ",
   "romaji": "amikomu",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to braid in; to weave in; to plait",
   "conjugation": {
     "type": "godan",
@@ -136,6 +136,29 @@
   ],
   "notes": "A compound verb from {編|あ}む (to knit/braid) + {込|こ}む (into). The {込|こ}む component adds the nuance of weaving something thoroughly into or incorporating it deeply. Most commonly used for braiding hair or weaving materials into fabric/crafts.\n\nTRANSITIVITY:\nTransitive — takes a direct object (the thing being braided in).\n\nCOMMON COLLOCATIONS:\n- {髪|かみ}を{編|あ}み{込|こ}む — to braid hair\n- {糸|いと}を{編|あ}み{込|こ}む — to weave thread in\n- ビーズを{編|あ}み{込|こ}む — to braid beads in\n- {編|あ}み{込|こ}みヘア — braided hairstyle\n\nSIMILAR WORDS:\n- {編|あ}む — to knit, to braid; the base verb, without the \"into\" nuance\n- {織|お}り{込|こ}む — to weave in; used for weaving fabric, also figuratively for incorporating ideas\n- {三|み}つ{編|あ}み — a three-strand braid; a specific braiding style",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00002_amu",
+      "reading": "あむ",
+      "headword": "{編|あ}む",
+      "label": "to knit, to braid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22764_orikomu",
+      "reading": "おりこむ",
+      "headword": "{織|お}り{込|こ}む",
+      "label": "to weave in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18439_mitsuami",
+      "reading": "みつあみ",
+      "headword": "{三|み}つ{編|あ}み",
+      "label": "a three-strand braid"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +174,6 @@
       "verb_class": "godan-mu"
     },
     "created": "2026-03-26T01:24:45Z",
-    "modified": "2026-03-26T01:24:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

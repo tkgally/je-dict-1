@@ -3,7 +3,7 @@
   "headword": "{着服|ちゃくふく}",
   "reading": "ちゃくふく",
   "romaji": "chakufuku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "embezzlement; misappropriation; pocketing",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Originally meant \"putting on clothes\" ({着|き}る + {服|ふく}), but the modern primary meaning is embezzlement — secretly putting money \"into one's own pocket.\" The clothing sense is now rare.\n\nCOMMON COLLOCATIONS:\n- {金|かね}を{着服|ちゃくふく}する: to pocket money\n- {公金|こうきん}を{着服|ちゃくふく}する: to embezzle public funds\n- {売上金|うりあげきん}の{着服|ちゃくふく}: embezzlement of sales proceeds\n- {着服|ちゃくふく}が{発覚|はっかく}する: embezzlement is discovered\n\nSIMILAR WORDS:\n- {横領|おうりょう}: embezzlement — more formal legal term, used in criminal law\n- {着服|ちゃくふく}: pocketing — slightly more colloquial, emphasizes the sneaky nature\n- {使|つか}い{込|こ}み: misuse of funds — spending entrusted money on personal expenses\n- {流用|りゅうよう}: diversion of funds — redirecting money to an unauthorized purpose",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09001_ouryou",
+      "reading": "おうりょう",
+      "headword": "{横領|おうりょう}",
+      "label": "embezzlement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13393_ryuuyou",
+      "reading": "りゅうよう",
+      "headword": "{流用|りゅうよう}",
+      "label": "diversion of funds"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24637_shibutsuka",
+      "reading": "しぶつか",
+      "headword": "{私物化|しぶつか}",
+      "label": "treating as one's own"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T16:18:43Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

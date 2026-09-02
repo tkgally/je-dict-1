@@ -19,7 +19,9 @@
       "english": "Add an appropriate amount of salt.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14383_tekiryou_ex2",
@@ -27,7 +29,9 @@
       "english": "It is important to drink the right amount of water.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14383_tekiryou_ex3",
@@ -35,21 +39,49 @@
       "english": "It is sometimes said that alcohol in moderation can be good for your health.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE NOTES:\n{適量|てきりょう} is extremely common in recipes, where it indicates the cook should add ingredients to taste rather than measuring exactly. It also appears frequently in health and medical advice.\n\nCOMMON COLLOCATIONS:\n- {適量|てきりょう}を{加|くわ}える (to add an appropriate amount)\n- {適量|てきりょう}を{守|まも}る (to observe the proper dosage)\n- {適量|てきりょう}の{飲酒|いんしゅ} (drinking in moderation)\n- {塩|しお}{適量|てきりょう} (salt to taste — in recipes)\n\nIn recipes, {適量|てきりょう} and {少々|しょうしょう} (a pinch) are the two most common imprecise measurements. {適量|てきりょう} generally indicates a somewhat larger or more variable amount than {少々|しょうしょう}.",
-  "cross_references": [],
+  "notes": "USAGE:\n{適量|てきりょう} is extremely common in recipes, where it indicates the cook should add ingredients to taste rather than measuring exactly. It also appears frequently in health and medical advice.\n\nCOMMON COLLOCATIONS:\n- {適量|てきりょう}を{加|くわ}える (to add an appropriate amount)\n- {適量|てきりょう}を{守|まも}る (to observe the proper dosage)\n- {適量|てきりょう}の{飲酒|いんしゅ} (drinking in moderation)\n- {塩|しお}{適量|てきりょう} (salt to taste — in recipes)\n\nIn recipes, {適量|てきりょう} and {少々|しょうしょう} (a pinch) are the two most common imprecise measurements. {適量|てきりょう} generally indicates a somewhat larger or more variable amount than {少々|しょうしょう}.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25128_fukuyouryou",
+      "reading": "ふくようりょう",
+      "headword": "{服用量|ふくようりょう}",
+      "label": "dosage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25877_teiryou",
+      "reading": "ていりょう",
+      "headword": "{定量|ていりょう}",
+      "label": "fixed quantity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26502_manryou",
+      "reading": "まんりょう",
+      "headword": "{満量|まんりょう}",
+      "label": "full dose"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T13:13:33Z",
-    "modified": "2026-02-28T13:13:33Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity"]
+      "semantic": [
+        "quantity"
+      ]
     }
   }
 }

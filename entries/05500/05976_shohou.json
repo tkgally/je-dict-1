@@ -141,11 +141,39 @@
       "headword": "{薬局|やっきょく}",
       "label": "pharmacy",
       "target_id": "01069_yakkyoku"
+    },
+    {
+      "type": "related",
+      "target_id": "08213_touyaku",
+      "reading": "とうやく",
+      "headword": "{投薬|とうやく}",
+      "label": "medication"
+    },
+    {
+      "type": "related",
+      "target_id": "09020_fukuyaku",
+      "reading": "ふくやく",
+      "headword": "{服薬|ふくやく}",
+      "label": "taking medicine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12894_touyo",
+      "reading": "とうよ",
+      "headword": "{投与|とうよ}",
+      "label": "administration, dosing (of medicine)"
+    },
+    {
+      "type": "related",
+      "target_id": "18471_tonpuku",
+      "reading": "とんぷく",
+      "headword": "{頓服|とんぷく}",
+      "label": "medicine taken as needed (not on a regular schedule)"
     }
   ],
   "metadata": {
     "created": "2026-01-16T17:32:04Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

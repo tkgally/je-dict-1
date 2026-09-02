@@ -17,7 +17,9 @@
       "id": "20910_koukakurui_ex1",
       "japanese": "{甲殻類|こうかくるい}アレルギーがある。",
       "english": "I have a crustacean allergy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20910_koukakurui_ex2",
       "japanese": "{甲殻類|こうかくるい}は{日本料理|にほんりょうり}で{広|ひろ}く{使|つか}われている。",
       "english": "Crustaceans are widely used in Japanese cuisine.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,66 @@
       "id": "20910_koukakurui_ex3",
       "japanese": "{食品|しょくひん}の{成分表示|せいぶんひょうじ}には{甲殻類|こうかくるい}が{含|ふく}まれるかどうか{記載|きさい}されている。",
       "english": "Food ingredient labels indicate whether crustaceans are included.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {甲殻|こうかく} (carapace, hard shell) + {類|るい} (class, type). Commonly encountered in food allergy contexts, as crustacean allergy ({甲殻類|こうかくるい}アレルギー) is one of Japan's designated allergens that must be labeled on food products.\n\nCOMMON COLLOCATIONS:\n- {甲殻類|こうかくるい}アレルギー: crustacean allergy\n- {甲殻類|こうかくるい}を{含|ふく}む: to contain crustaceans\n- {甲殻類|こうかくるい}の{仲間|なかま}: members of the crustacean family\n\nEXAMPLES OF CRUSTACEANS:\n- {蟹|かに}: crab\n- {海老|えび}: shrimp, prawn\n- ロブスター: lobster\n- {蝦蛄|しゃこ}: mantis shrimp\n\nRELATED TERMS:\n- {軟体動物|なんたいどうぶつ}: mollusks — another category of shellfish (squid, octopus, clams)\n- {節足動物|せっそくどうぶつ}: arthropods — the broader group including insects and crustaceans",
+  "notes": "Composed of {甲殻|こうかく} (carapace, hard shell) + {類|るい} (class, type). Commonly encountered in food allergy contexts, as crustacean allergy ({甲殻類|こうかくるい}アレルギー) is one of Japan's designated allergens that must be labeled on food products.\n\nCOMMON COLLOCATIONS:\n- {甲殻類|こうかくるい}アレルギー: crustacean allergy\n- {甲殻類|こうかくるい}を{含|ふく}む: to contain crustaceans\n- {甲殻類|こうかくるい}の{仲間|なかま}: members of the crustacean family\n\nEXAMPLES OF CRUSTACEANS:\n- {蟹|かに}: crab\n- {海老|えび}: shrimp, prawn\n- ロブスター: lobster\n- {蝦蛄|しゃこ}: mantis shrimp\n\nRELATED WORDS:\n- {軟体動物|なんたいどうぶつ}: mollusks — another category of shellfish (squid, octopus, clams)\n- {節足動物|せっそくどうぶつ}: arthropods — the broader group including insects and crustaceans",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23827_nantaidoubutsu",
+      "reading": "なんたいどうぶつ",
+      "headword": "{軟体動物|なんたいどうぶつ}",
+      "label": "mollusks"
+    },
+    {
+      "type": "related",
+      "target_id": "27745_sessokudoubutsu",
+      "reading": "せっそくどうぶつ",
+      "headword": "{節足|せっそく}{動物|どうぶつ}",
+      "label": "arthropods"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22541_kairui",
+      "reading": "かいるい",
+      "headword": "{貝類|かいるい}",
+      "label": "shellfish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23394_nimaigai",
+      "reading": "にまいがい",
+      "headword": "{二枚貝|にまいがい}",
+      "label": "bivalve (shellfish)"
+    },
+    {
+      "type": "related",
+      "target_id": "26577_nantai",
+      "reading": "なんたい",
+      "headword": "{軟体|なんたい}",
+      "label": "soft body"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature", "food"]
+      "semantic": [
+        "nature",
+        "food"
+      ]
     },
     "created": "2026-03-30T20:14:21Z",
-    "modified": "2026-03-30T20:14:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

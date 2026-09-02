@@ -18,7 +18,9 @@
       "english": "To read example sentences.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19450_reibun_ex2",
@@ -26,7 +28,9 @@
       "english": "This dictionary has many example sentences.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19450_reibun_ex3",
@@ -34,7 +38,9 @@
       "english": "I memorized new vocabulary using example sentences.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19450_reibun_ex4",
@@ -42,22 +48,50 @@
       "english": "The teacher wrote example sentences on the blackboard and explained the grammar.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{例文|れいぶん} is a sentence provided to illustrate how a word, grammar point, or expression is used in context. It is a staple of language textbooks, dictionaries, and classroom instruction, where learners study example sentences to internalize natural usage patterns.\n\nSTRUCTURE:\n- {例|れい} (example) + {文|ぶん} (sentence)\n\nCOMMON COLLOCATIONS:\n- {例文|れいぶん}を{作|つく}る (to create an example sentence)\n- {例文|れいぶん}を{読|よ}む (to read example sentences)\n- {例文|れいぶん}が{載|の}っている (example sentences are included)\n- {例文|れいぶん}を{暗記|あんき}する (to memorize example sentences)\n\nRELATED WORDS:\n- {例|れい} (example)\n- {例題|れいだい} (example problem/exercise)\n- {用例|ようれい} (usage example — more formal/technical)",
-  "cross_references": [],
+  "notes": "{例文|れいぶん} is a sentence provided to illustrate how a word, grammar point, or expression is used in context. It is a staple of language textbooks, dictionaries, and classroom instruction, where learners study example sentences to internalize natural usage patterns.\n\nCOMMON PATTERNS:\n- {例|れい} (example) + {文|ぶん} (sentence)\n\nCOMMON COLLOCATIONS:\n- {例文|れいぶん}を{作|つく}る (to create an example sentence)\n- {例文|れいぶん}を{読|よ}む (to read example sentences)\n- {例文|れいぶん}が{載|の}っている (example sentences are included)\n- {例文|れいぶん}を{暗記|あんき}する (to memorize example sentences)\n\nRELATED WORDS:\n- {例|れい} (example)\n- {例題|れいだい} (example problem/exercise)\n- {用例|ようれい} (usage example — more formal/technical)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13578_yourei",
+      "reading": "ようれい",
+      "headword": "{用例|ようれい}",
+      "label": "usage example"
+    },
+    {
+      "type": "related",
+      "target_id": "15812_tanbun",
+      "reading": "たんぶん",
+      "headword": "{短文|たんぶん}",
+      "label": "short sentence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29416_bunrei",
+      "reading": "ぶんれい",
+      "headword": "{文例|ぶんれい}",
+      "label": "model sentence"
+    }
+  ],
   "metadata": {
     "created": "2026-03-25T14:45:30Z",
-    "modified": "2026-03-25T14:45:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

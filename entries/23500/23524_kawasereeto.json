@@ -17,7 +17,9 @@
       "id": "23524_kawasereeto_ex1",
       "japanese": "{今日|きょう}の{為替|かわせ}レートを{調|しら}べる。",
       "english": "To check today's exchange rate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23524_kawasereeto_ex2",
       "japanese": "{為替|かわせ}レートが{円安|えんやす}に{動|うご}いた。",
       "english": "The exchange rate moved toward a weaker yen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,65 @@
       "id": "23524_kawasereeto_ex3",
       "japanese": "{海外|かいがい}{旅行|りょこう}の{前|まえ}に{為替|かわせ}レートを{確認|かくにん}しておいた{方|ほう}がいい。",
       "english": "You should check the exchange rate before traveling abroad.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {為替|かわせ} (exchange, currency exchange) and レート (rate). Frequently encountered in news, banking, and travel contexts. The exchange rate is a daily topic in Japanese news broadcasts.\n\nCOMMON COLLOCATIONS:\n- {為替|かわせ}レートを{確認|かくにん}する: to check the exchange rate\n- {為替|かわせ}レートが{変動|へんどう}する: the exchange rate fluctuates\n- {為替|かわせ}レートが{上|あ}がる/{下|さ}がる: the exchange rate goes up/down\n- {現在|げんざい}の{為替|かわせ}レート: the current exchange rate\n\nRELATED TERMS:\n- {円安|えんやす}: weak yen (yen depreciation)\n- {円高|えんだか}: strong yen (yen appreciation)\n- {両替|りょうがえ}: currency exchange (the act of exchanging money)\n- {外貨|がいか}: foreign currency\n\nSIMILAR WORDS:\n- {為替|かわせ}{相場|そうば}: exchange rate — a more formal/financial term meaning the same thing, often used in news and market reports",
+  "notes": "A compound of {為替|かわせ} (exchange, currency exchange) and レート (rate). Frequently encountered in news, banking, and travel contexts. The exchange rate is a daily topic in Japanese news broadcasts.\n\nCOMMON COLLOCATIONS:\n- {為替|かわせ}レートを{確認|かくにん}する: to check the exchange rate\n- {為替|かわせ}レートが{変動|へんどう}する: the exchange rate fluctuates\n- {為替|かわせ}レートが{上|あ}がる/{下|さ}がる: the exchange rate goes up/down\n- {現在|げんざい}の{為替|かわせ}レート: the current exchange rate\n\nRELATED WORDS:\n- {円安|えんやす}: weak yen (yen depreciation)\n- {円高|えんだか}: strong yen (yen appreciation)\n- {両替|りょうがえ}: currency exchange (the act of exchanging money)\n- {外貨|がいか}: foreign currency\n\nSIMILAR WORDS:\n- {為替|かわせ}{相場|そうば}: exchange rate — a more formal/financial term meaning the same thing, often used in news and market reports",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04854_enyasu",
+      "reading": "えんやす",
+      "headword": "{円安|えんやす}",
+      "label": "weak yen"
+    },
+    {
+      "type": "related",
+      "target_id": "04852_endaka",
+      "reading": "えんだか",
+      "headword": "{円高|えんだか}",
+      "label": "strong yen"
+    },
+    {
+      "type": "related",
+      "target_id": "03680_ryougae",
+      "reading": "りょうがえ",
+      "headword": "{両替|りょうがえ}",
+      "label": "currency exchange"
+    },
+    {
+      "type": "related",
+      "target_id": "12152_gaika",
+      "reading": "がいか",
+      "headword": "{外貨|がいか}",
+      "label": "foreign currency"
+    },
+    {
+      "type": "related",
+      "target_id": "20536_gaikaryougae",
+      "reading": "がいかりょうがえ",
+      "headword": "{外貨両替|がいかりょうがえ}",
+      "label": "foreign currency exchange"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["finance"]
+      "semantic": [
+        "finance"
+      ]
     },
     "created": "2026-04-12T15:09:29Z",
-    "modified": "2026-04-12T15:09:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

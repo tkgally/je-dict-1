@@ -3,7 +3,7 @@
   "headword": "{配分|はいぶん}する",
   "reading": "はいぶんする",
   "romaji": "haibunsuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to allot; to distribute; to allocate",
   "definitions": [
     {
@@ -45,7 +45,43 @@
     }
   ],
   "notes": "{配分|はいぶん}する means to divide up and assign shares of something — typically money, resources, time, or work. It implies a deliberate, planned distribution rather than casual sharing.\n\nCOMMON COLLOCATIONS:\n- {予算|よさん}を{配分|はいぶん}する: to allocate a budget\n- {資源|しげん}を{配分|はいぶん}する: to allocate resources\n- {利益|りえき}を{配分|はいぶん}する: to distribute profits\n- {配分|はいぶん}{比率|ひりつ}: allocation ratio\n- {適正|てきせい}な{配分|はいぶん}: appropriate allocation\n\nSIMILAR WORDS:\n- {分配|ぶんぱい}する: to distribute; to share out — very close synonym, but slightly more emphasis on the act of dividing and handing out\n- {割|わ}り{当|あ}てる: to assign; to allot — more specific, often used for assigning roles, tasks, or specific portions\n- {配布|はいふ}する: to distribute; to hand out — used for distributing printed materials or items to people",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21141_bunpaisuru",
+      "reading": "ぶんぱいする",
+      "headword": "{分配|ぶんぱい}する",
+      "label": "to distribute"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11873_wariateru",
+      "reading": "わりあてる",
+      "headword": "{割|わ}り{当|あ}てる",
+      "label": "to assign"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14410_haifu",
+      "reading": "はいふ",
+      "headword": "{配布|はいふ}",
+      "label": "to distribute"
+    },
+    {
+      "type": "related",
+      "target_id": "08218_furiwakeru",
+      "reading": "ふりわける",
+      "headword": "{振|ふ}り{分|わ}ける",
+      "label": "to divide up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20081_warifuru",
+      "reading": "わりふる",
+      "headword": "{割|わ}り{振|ふ}る",
+      "label": "to assign"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +90,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "action",
         "economics"
@@ -62,7 +99,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T16:17:33Z",
-    "modified": "2026-04-25T16:17:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

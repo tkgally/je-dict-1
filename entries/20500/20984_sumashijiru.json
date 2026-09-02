@@ -17,7 +17,9 @@
       "id": "20984_sumashijiru_ex1",
       "japanese": "{今日|きょう}の{汁物|しるもの}は{澄|す}まし{汁|じる}にした。",
       "english": "I made clear soup for today's soup dish.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20984_sumashijiru_ex2",
       "japanese": "お{正月|しょうがつ}には{澄|す}まし{汁|じる}の{雑煮|ぞうに}を{作|つく}る{地域|ちいき}がある。",
       "english": "There are regions where ozoni (New Year soup) is made with clear broth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "20984_sumashijiru_ex3",
       "japanese": "{澄|す}まし{汁|じる}に{豆腐|とうふ}と{三|み}つ{葉|ば}を{入|い}れて、さっぱりした{味|あじ}に{仕上|しあ}げた。",
       "english": "I added tofu and mitsuba to the clear soup to give it a light, refreshing flavor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Also called お{吸|す}い{物|もの}. Made from {出汁|だし} (dashi stock) seasoned with {醤油|しょうゆ} (soy sauce) and {塩|しお} (salt), with simple garnishes.\n\nCOMMON COLLOCATIONS:\n- {澄|す}まし{汁|じる}を{作|つく}る: to make clear soup\n- {澄|す}まし{汁|じる}の{雑煮|ぞうに}: New Year soup with clear broth\n- {澄|す}まし{汁|じる}の{具|ぐ}: clear soup ingredients/garnishes\n\nCOMMON INGREDIENTS:\n- {豆腐|とうふ}: tofu\n- {三|み}つ{葉|ば}: mitsuba (Japanese parsley)\n- {麩|ふ}: wheat gluten\n- {柚子|ゆず}の{皮|かわ}: yuzu peel (as a garnish)\n\nSIMILAR WORDS:\n- お{吸|す}い{物|もの}: clear soup — essentially the same dish; this name is more common in everyday speech\n- {味噌汁|みそしる}: miso soup — the other main type of Japanese soup; uses miso paste instead of clear seasoning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15773_osuimono",
+      "reading": "おすいもの",
+      "headword": "お{吸|す}い{物|もの}",
+      "label": "clear soup"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04954_misoshiru",
+      "reading": "みそしる",
+      "headword": "{味噌汁|みそしる}",
+      "label": "miso soup"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-03-31T09:48:00Z",
-    "modified": "2026-03-31T09:48:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "26540_yuchakukankei_ex1",
       "japanese": "{政治家|せいじか}と{企業|きぎょう}の{癒着関係|ゆちゃくかんけい}が{問題|もんだい}になった。",
       "english": "The collusive relationship between politicians and corporations became a problem.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26540_yuchakukankei_ex2",
       "japanese": "{長年|ながねん}の{癒着関係|ゆちゃくかんけい}がついに{明|あき}るみに{出|で}た。",
       "english": "The long-standing collusive relationship was finally brought to light.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,45 @@
       "id": "26540_yuchakukankei_ex3",
       "japanese": "{官僚|かんりょう}と{業界|ぎょうかい}の{癒着関係|ゆちゃくかんけい}を{断|た}ち{切|き}るための{改革|かいかく}が{求|もと}められている。",
       "english": "Reforms are being demanded to sever the collusive relationship between bureaucrats and industry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {癒着|ゆちゃく} (adhesion; collusion) and {関係|かんけい} (relationship). The word {癒着|ゆちゃく} originally means tissue adhesion in medicine, but in political and social contexts it metaphorically describes entities that have become improperly stuck together. This is a staple term in Japanese news coverage of political scandals.\n\nCOMMON COLLOCATIONS:\n- {癒着関係|ゆちゃくかんけい}を{暴|あば}く: to expose a collusive relationship\n- {癒着関係|ゆちゃくかんけい}を{断|た}つ: to cut off corrupt ties\n- {癒着関係|ゆちゃくかんけい}が{疑|うたが}われる: to be suspected of collusion\n- {政官|せいかん}{癒着|ゆちゃく}: politician-bureaucrat collusion\n\nUSAGE:\nAlmost always used with negative connotation. The term implies that the closeness of the relationship leads to corruption, favoritism, or abuse of power. It is a common keyword in investigative journalism and political commentary.\n\nSIMILAR WORDS:\n- {癒着|ゆちゃく}: collusion — the phenomenon itself, without specifying the relationship\n- {汚職|おしょく}: corruption — broader term for official corruption including bribery\n- {談合|だんごう}: bid rigging — a specific form of collusion in the construction industry",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17399_oshoku",
+      "reading": "おしょく",
+      "headword": "{汚職|おしょく}",
+      "label": "corruption"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09023_dangou",
+      "reading": "だんごう",
+      "headword": "{談合|だんごう}",
+      "label": "bid rigging"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["society"],
+      "semantic": [
+        "society"
+      ],
       "domain": []
     },
     "created": "2026-05-02T15:27:41Z",
-    "modified": "2026-05-02T15:27:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

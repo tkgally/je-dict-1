@@ -44,11 +44,26 @@
       ]
     }
   ],
-  "notes": "Compound of {別|べつ} (separate) + {売|う}り (selling). Very common in product descriptions, packaging, and online shopping. Often appears as a note or disclaimer.\n\nCOMMON PATTERNS:\n- {別売|べつう}りです (is sold separately)\n- {別売|べつう}りの〜 (separately sold ~)\n- {別売|べつう}り{品|ひん} (separately sold item)\n- {別売|べつう}りで{購入|こうにゅう}する (to purchase separately)\n\nTYPICAL ITEMS MARKED {別売|べつう}り:\n- {電池|でんち} (batteries)\n- {充電器|じゅうでんき} (charger)\n- ケース / カバー (case / cover)\n- {付属品|ふぞくひん} (accessories)\n\nCONTRAST:\n- {付属|ふぞく}: included, bundled (opposite concept)\n- {同梱|どうこん}: packaged together\n- セット{販売|はんばい}: sold as a set",
-  "cross_references": [],
+  "notes": "Compound of {別|べつ} (separate) + {売|う}り (selling). Very common in product descriptions, packaging, and online shopping. Often appears as a note or disclaimer.\n\nCOMMON PATTERNS:\n- {別売|べつう}りです (is sold separately)\n- {別売|べつう}りの〜 (separately sold ~)\n- {別売|べつう}り{品|ひん} (separately sold item)\n- {別売|べつう}りで{購入|こうにゅう}する (to purchase separately)\n\nTYPICAL ITEMS MARKED {別売|べつう}り:\n- {電池|でんち} (batteries)\n- {充電器|じゅうでんき} (charger)\n- ケース / カバー (case / cover)\n- {付属品|ふぞくひん} (accessories)\n\nSIMILAR WORDS:\n- {付属|ふぞく}: included, bundled (opposite concept)\n- {同梱|どうこん}: packaged together\n- セット{販売|はんばい}: sold as a set",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27518_fuzoku",
+      "reading": "ふぞく",
+      "headword": "{付属|ふぞく}",
+      "label": "included, bundled"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21093_doukon",
+      "reading": "どうこん",
+      "headword": "{同梱|どうこん}",
+      "label": "packaged together"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T10:41:08Z",
-    "modified": "2026-07-25T21:35:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

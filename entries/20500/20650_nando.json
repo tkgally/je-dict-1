@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Originally referred to a room in traditional Japanese houses used for storing valuables, clothing, and bedding. In modern real estate, {納戸|なんど} has a specific legal meaning: a room that does not meet building code requirements for a habitable room (typically lacking sufficient windows for natural light). Floor plans often show it as 'S' (for service room) or 'N' (for {納戸|なんど}).\n\nCOMMON COLLOCATIONS:\n- {納戸|なんど}に{入|い}れる: to put something in the storage room\n- {納戸|なんど}から{出|だ}す: to take something out of the storage room\n- 2LDK+{納戸|なんど}: 2LDK plus storage room (real estate listing format)\n\nREAL ESTATE USAGE:\nIn apartment and house listings, {納戸|なんど} or 'S' (サービスルーム) indicates a room that can be used as storage or a small workspace but cannot legally be called a bedroom ({居室|きょしつ}). This distinction affects the property's official room count.\n\nRELATED TERMS:\n- {押|お}し{入|い}れ: built-in closet (traditional Japanese style, with sliding doors)\n- クローゼット: closet (Western style)\n- {物置|ものおき}: storage shed, storeroom (often a separate structure)",
+  "notes": "Originally referred to a room in traditional Japanese houses used for storing valuables, clothing, and bedding. In modern real estate, {納戸|なんど} has a specific legal meaning: a room that does not meet building code requirements for a habitable room (typically lacking sufficient windows for natural light). Floor plans often show it as 'S' (for service room) or 'N' (for {納戸|なんど}).\n\nCOMMON COLLOCATIONS:\n- {納戸|なんど}に{入|い}れる: to put something in the storage room\n- {納戸|なんど}から{出|だ}す: to take something out of the storage room\n- 2LDK+{納戸|なんど}: 2LDK plus storage room (real estate listing format)\n\nREAL ESTATE USAGE:\nIn apartment and house listings, {納戸|なんど} or 'S' (サービスルーム) indicates a room that can be used as storage or a small workspace but cannot legally be called a bedroom ({居室|きょしつ}). This distinction affects the property's official room count.\n\nRELATED WORDS:\n- {押|お}し{入|い}れ: built-in closet (traditional Japanese style, with sliding doors)\n- クローゼット: closet (Western style)\n- {物置|ものおき}: storage shed, storeroom (often a separate structure)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01345_oshiire",
+      "reading": "おしいれ",
+      "headword": "{押|お}し{入|い}れ",
+      "label": "built-in closet"
+    },
+    {
+      "type": "related",
+      "target_id": "04491_kuroozetto",
+      "reading": "くろーぜっと",
+      "headword": "クローゼット",
+      "label": "closet"
+    },
+    {
+      "type": "related",
+      "target_id": "17243_monooki",
+      "reading": "ものおき",
+      "headword": "{物置|ものおき}",
+      "label": "storage shed, storeroom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07372_monooki",
+      "reading": "ものおき",
+      "headword": "{物置|ものお}き",
+      "label": "storage shed"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-03-29T21:20:59Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

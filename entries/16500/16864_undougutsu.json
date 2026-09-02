@@ -19,7 +19,9 @@
       "english": "I bought new sneakers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16864_undougutsu_ex2",
@@ -27,7 +29,9 @@
       "english": "Gym shoes are required for PE class.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16864_undougutsu_ex3",
@@ -35,21 +39,49 @@
       "english": "If you're going to walk on mountain trails, you should wear sneakers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{運動靴|うんどうぐつ} is a compound of {運動|うんどう} (exercise) + {靴|くつ} (shoes). It covers sneakers, gym shoes, and athletic footwear generally.\n\nCOMMON COLLOCATIONS:\n- {運動靴|うんどうぐつ}を{履|は}く: to wear sneakers/gym shoes\n- {運動靴|うんどうぐつ}を{洗|あら}う: to wash gym shoes\n- {運動靴|うんどうぐつ}を{買|か}う: to buy sneakers\n\nSIMILAR WORDS:\n- スニーカー: sneakers (loanword; more casual/fashion-oriented)\n- {上履|うわば}き: indoor shoes (worn inside schools)\n- シューズ: shoes (loanword; often in sports compounds like ランニングシューズ)\n\nUSAGE:\nIn school contexts, {運動靴|うんどうぐつ} often refers specifically to the white shoes worn for {体育|たいいく} (PE class). Outside school, スニーカー is more common for everyday casual athletic shoes.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04528_suniikaa",
+      "reading": "すにーかー",
+      "headword": "スニーカー",
+      "label": "sneakers (loanword"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10240_uwabaki",
+      "reading": "うわばき",
+      "headword": "{上履|うわば}き",
+      "label": "indoor shoes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10962_shuuzu",
+      "reading": "しゅーず",
+      "headword": "シューズ",
+      "label": "shoes (loanword"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T13:12:11Z",
-    "modified": "2026-03-28T10:56:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ]
     }
   }
 }

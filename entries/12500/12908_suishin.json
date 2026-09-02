@@ -3,7 +3,7 @@
   "id": "12908_suishin",
   "headword": "{推進|すいしん}",
   "reading": "すいしん",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "promotion, advancement; propulsion",
   "conjugation": {
     "type": "suru",
@@ -170,10 +170,32 @@
     }
   ],
   "notes": "USAGE:\nUsed as both a noun and a suru verb. Sense 1 (promotion/advancement) is far more common in everyday use, appearing frequently in news and business. Sense 2 (propulsion) is technical. The word conveys active, sustained effort to move something forward.\n\nCOMMON COLLOCATIONS:\n- {推進|すいしん}する: to promote, to advance\n- {推進|すいしん}{役|やく}: driving force, promoter\n- {推進|すいしん}{力|りょく}: driving force; propulsive power\n- {推進|すいしん}{委員会|いいんかい}: promotion committee\n\nSIMILAR WORDS:\n- {促進|そくしん}: promotion, acceleration (emphasizes speeding things up)\n- {振興|しんこう}: promotion, development (of industry or culture)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05632_sokushin",
+      "reading": "そくしん",
+      "headword": "{促進|そくしん}",
+      "label": "promotion, acceleration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00471_shinkou",
+      "reading": "しんこう",
+      "headword": "{振興|しんこう}",
+      "label": "promotion, development"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24244_kudou",
+      "reading": "くどう",
+      "headword": "{駆動|くどう}",
+      "label": "drive"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T14:27:02Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

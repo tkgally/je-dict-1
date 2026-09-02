@@ -55,7 +55,36 @@
     }
   ],
   "notes": "From English \"hose.\" A common loanword used in everyday contexts for garden hoses, fire hoses, and industrial tubing.\n\nCOMMON COLLOCATIONS:\n- ホースで{水|みず}をまく: spray water with a hose\n- ホースをつなぐ: connect a hose\n- ホースを{巻|ま}く: coil up a hose\n- {消防|しょうぼう}ホース: fire hose\n- {散水|さんすい}ホース: sprinkler hose\n- ホースリール: hose reel\n\nSIMILAR WORDS:\n- {管|くだ}/{管|かん}: pipe, tube (rigid)\n- チューブ: tube (softer, smaller — also used for toothpaste tubes, inner tubes)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02679_kuda",
+      "reading": "くだ",
+      "headword": "{管|くだ}",
+      "label": "pipe, tube"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09749_kan",
+      "reading": "かん",
+      "headword": "{管|かん}",
+      "label": "pipe, tube"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11586_chuubu",
+      "reading": "ちゅーぶ",
+      "headword": "チューブ",
+      "label": "tube (softer, smaller"
+    },
+    {
+      "type": "related",
+      "target_id": "08278_jouro",
+      "reading": "じょうろ",
+      "headword": "じょうろ",
+      "label": "watering can"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,12 +92,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "tool",
         "daily-life"
       ]
     },
     "created": "2026-04-27T16:21:44Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

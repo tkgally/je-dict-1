@@ -17,7 +17,9 @@
       "id": "29916_choki_ex1",
       "japanese": "チョキを{出|だ}した。",
       "english": "I threw scissors.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29916_choki_ex2",
       "japanese": "チョキはパーに{勝|か}つ。",
       "english": "Scissors beats paper.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29916_choki_ex3",
       "japanese": "{写真|しゃしん}を{撮|と}るとき、{指|ゆび}でチョキを{作|つく}ってポーズした。",
       "english": "When taking the photo, I made a scissors shape with my fingers and posed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "One of the three hand shapes in {じゃんけん|じゃんけん} (rock-paper-scissors), together with グー (rock) and パー (paper). チョキ extends two fingers; it beats パー and loses to グー. The same shape doubles as the \"peace sign\" in photos.\n\nCOMMON COLLOCATIONS:\n- チョキを{出|だ}す: to throw scissors\n- {指|ゆび}でチョキを{作|つく}る: to make a scissors shape with the fingers\n\nSIMILAR WORDS:\n- グー: rock — the clenched-fist shape\n- パー: paper — the open-hand shape",
+  "notes": "One of the three hand shapes in じゃんけん (rock-paper-scissors), together with グー (rock) and パー (paper). チョキ extends two fingers; it beats パー and loses to グー. The same shape doubles as the \"peace sign\" in photos.\n\nCOMMON COLLOCATIONS:\n- チョキを{出|だ}す: to throw scissors\n- {指|ゆび}でチョキを{作|つく}る: to make a scissors shape with the fingers\n\nSIMILAR WORDS:\n- グー: rock — the clenched-fist shape\n- パー: paper — the open-hand shape",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29915_guu",
+      "reading": "ぐー",
+      "headword": "グー",
+      "label": "rock"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29917_paa",
+      "reading": "ぱー",
+      "headword": "パー",
+      "label": "paper"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["leisure"],
+      "politeness": "plain",
+      "semantic": [
+        "leisure"
+      ],
       "domain": []
     },
     "created": "2026-07-17T21:17:43Z",
-    "modified": "2026-07-17T21:17:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

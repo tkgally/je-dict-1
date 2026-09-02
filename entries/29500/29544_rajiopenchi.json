@@ -17,7 +17,9 @@
       "id": "29544_rajiopenchi_ex1",
       "japanese": "ラジオペンチで{針金|はりがね}を{曲|ま}げた。",
       "english": "I bent the wire with needle-nose pliers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29544_rajiopenchi_ex2",
       "japanese": "{狭|せま}い{場所|ばしょ}のネジはラジオペンチでつかむ。",
       "english": "Grip screws in tight spots with needle-nose pliers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "29544_rajiopenchi_ex3",
       "japanese": "ラジオペンチは{先|さき}が{細|ほそ}いので、{細|こま}かい{部品|ぶひん}をつかむのに{向|む}いている。",
       "english": "Because their tips are slender, needle-nose pliers are good for gripping small parts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A Japanese-coined loanword from English \"radio\" + \"pliers\", originally associated with assembling radios and other small electronics. The long, thin jaws reach into narrow spaces.\n\nCOMMON COLLOCATIONS:\n- ラジオペンチでつかむ: to grip with needle-nose pliers\n- ラジオペンチで{曲|ま}げる: to bend with needle-nose pliers\n\nSIMILAR WORDS:\n- ペンチ: standard pliers — wider jaws, more gripping force\n- ニッパー: nippers — for cutting rather than gripping",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06314_penchi",
+      "reading": "ぺんち",
+      "headword": "ペンチ",
+      "label": "standard pliers"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29543_nippaa",
+      "reading": "にっぱー",
+      "headword": "ニッパー",
+      "label": "nippers"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29545_puraiyaa",
+      "reading": "ぷらいやー",
+      "headword": "プライヤー",
+      "label": "pliers"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["tool"],
+      "politeness": "plain",
+      "semantic": [
+        "tool"
+      ],
       "domain": []
     },
     "created": "2026-06-28T09:18:52Z",
-    "modified": "2026-06-28T09:18:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

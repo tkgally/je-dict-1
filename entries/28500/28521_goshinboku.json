@@ -17,7 +17,9 @@
       "id": "28521_goshinboku_ex1",
       "japanese": "{神社|じんじゃ}の{御神木|ごしんぼく}に{手|て}を{合|あ}わせた。",
       "english": "I put my hands together in prayer at the shrine's sacred tree.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28521_goshinboku_ex2",
       "japanese": "この{御神木|ごしんぼく}は{樹齢|じゅれい}{千|せん}{年|ねん}を{超|こ}えると{伝|つた}えられている。",
       "english": "This sacred tree is said to be over a thousand years old.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,53 @@
       "id": "28521_goshinboku_ex3",
       "japanese": "{御神木|ごしんぼく}の{周|まわ}りには{注連縄|しめなわ}が{張|は}られていた。",
       "english": "A sacred rope had been hung around the sacred tree.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of the honorific {御|ご} + {神|しん} (god, deity) + {木|ぼく} (tree). Often a large, ancient {老木|ろうぼく} (old tree) believed to embody or attract a {神|かみ}. Cutting or damaging one is treated as a serious taboo.\n\nCOMMON COLLOCATIONS:\n- {神社|じんじゃ}の{御神木|ごしんぼく}: sacred tree of the shrine\n- {御神木|ごしんぼく}に{手|て}を{合|あ}わせる: to pray at a sacred tree\n- {御神木|ごしんぼく}{信仰|しんこう}: belief in sacred trees\n\nCULTURAL CONTEXT:\nIn Shinto, certain natural features—trees, rocks, mountains—are considered to be {依|よ}り{代|しろ}, places where a deity can descend or reside. A {御神木|ごしんぼく} is one of the most common manifestations of this belief; it is marked with a {注連縄|しめなわ} and treated with reverence.",
+  "notes": "Compound of the honorific {御|ご} + {神|しん} (god, deity) + {木|ぼく} (tree). Often a large, ancient {老木|ろうぼく} (old tree) believed to embody or attract a {神|かみ}. Cutting or damaging one is treated as a serious taboo.\n\nCOMMON COLLOCATIONS:\n- {神社|じんじゃ}の{御神木|ごしんぼく}: sacred tree of the shrine\n- {御神木|ごしんぼく}に{手|て}を{合|あ}わせる: to pray at a sacred tree\n- {御神木|ごしんぼく}{信仰|しんこう}: belief in sacred trees\n\nCULTURAL NOTE:\nIn Shinto, certain natural features—trees, rocks, mountains—are considered to be {依|よ}り{代|しろ}, places where a deity can descend or reside. A {御神木|ごしんぼく} is one of the most common manifestations of this belief; it is marked with a {注連縄|しめなわ} and treated with reverence.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04498_taiboku",
+      "reading": "たいぼく",
+      "headword": "{大木|たいぼく}",
+      "label": "large tree, big tree"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17184_kyoboku",
+      "reading": "きょぼく",
+      "headword": "{巨木|きょぼく}",
+      "label": "giant tree"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28520_rouboku",
+      "reading": "ろうぼく",
+      "headword": "{老木|ろうぼく}",
+      "label": "old tree"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": null,
-      "semantic": ["religion", "nature"],
+      "semantic": [
+        "religion",
+        "nature"
+      ],
       "domain": []
     },
     "created": "2026-06-01T03:10:14Z",
-    "modified": "2026-06-01T03:10:14Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

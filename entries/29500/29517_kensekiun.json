@@ -17,7 +17,9 @@
       "id": "29517_kensekiun_ex1",
       "japanese": "{空|そら}に{巻積雲|けんせきうん}が{浮|う}かぶ。",
       "english": "Cirrocumulus clouds float in the sky.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29517_kensekiun_ex2",
       "japanese": "{巻積雲|けんせきうん}が{出|で}ると{天気|てんき}が{変|か}わりやすい。",
       "english": "When cirrocumulus clouds appear, the weather tends to change.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29517_kensekiun_ex3",
       "japanese": "{秋|あき}の{空|そら}に{広|ひろ}がる{巻積雲|けんせきうん}は、まるで{魚|さかな}のうろこのようだった。",
       "english": "The cirrocumulus clouds spreading across the autumn sky looked just like fish scales.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A high cloud of the {巻雲|けんうん} (cirrus) family, made of tiny white masses. Forming far higher than {高積雲|こうせきうん}, it is a classic sign of autumn skies and approaching weather change.\n\nCOMMON COLLOCATIONS:\n- うろこ{雲|ぐも}: scale clouds — everyday nickname for {巻積雲|けんせきうん}\n- さば{雲|ぐも}: mackerel clouds — another common nickname\n\nSIMILAR WORDS:\n- {高積雲|こうせきうん}: altocumulus — similar ripples but lower and coarser\n- {巻雲|けんうん}: cirrus — wispy high clouds of the same family",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29514_kousekiun",
+      "reading": "こうせきうん",
+      "headword": "{高積雲|こうせきうん}",
+      "label": "altocumulus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21944_kenun",
+      "reading": "けんうん",
+      "headword": "{巻雲|けんうん}",
+      "label": "cirrus"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["weather"],
+      "politeness": "plain",
+      "semantic": [
+        "weather"
+      ],
       "domain": []
     },
     "created": "2026-06-27T18:18:39Z",
-    "modified": "2026-06-27T18:18:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

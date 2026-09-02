@@ -19,7 +19,9 @@
       "english": "To apply for reduced working hours.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18090_jitankinmu_ex2",
@@ -27,7 +29,9 @@
       "english": "I am working reduced hours for childcare.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18090_jitankinmu_ex3",
@@ -35,22 +39,38 @@
       "english": "At this company, employees can use the reduced working hours system until their child enters elementary school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA common HR and workplace term in Japan. {時短|じたん} is an abbreviation of {時間|じかん}{短縮|たんしゅく} (time reduction). Legally guaranteed under Japan's Child Care and Family Care Leave Act for parents of children under three.\n\nCOMMON COLLOCATIONS:\n- {時短|じたん}{勤務|きんむ}{制度|せいど} (reduced hours system)\n- {時短|じたん}{勤務|きんむ}を{申請|しんせい}する (to apply for reduced hours)\n- {時短|じたん}{勤務|きんむ}で{働|はたら}く (to work reduced hours)\n- {時短|じたん}{勤務|きんむ}から{復帰|ふっき}する (to return from reduced hours)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08565_ikukyuu",
+      "reading": "いくきゅう",
+      "headword": "{育休|いくきゅう}",
+      "label": "childcare leave"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T02:39:04Z",
-    "modified": "2026-03-20T02:39:04Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

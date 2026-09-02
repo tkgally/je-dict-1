@@ -3,7 +3,7 @@
   "headword": "{開始|かいし}する",
   "reading": "かいしする",
   "romaji": "kaishisuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to start; to commence; to begin",
   "definitions": [
     {
@@ -55,7 +55,29 @@
     }
   ],
   "notes": "A formal verb for starting or commencing an activity. While {始|はじ}める is used for everyday actions, {開始|かいし}する implies a deliberate, planned beginning and is common in business, official announcements, and written language.\n\nCOMMON COLLOCATIONS:\n- {営業|えいぎょう}{開始|かいし}: start of business\n- {販売|はんばい}{開始|かいし}: start of sales\n- {運用|うんよう}{開始|かいし}: start of operation\n- サービス{開始|かいし}: service launch\n- {工事|こうじ}{開始|かいし}: start of construction\n\nSIMILAR WORDS:\n- {始|はじ}める: to begin — general-purpose, used for both casual and formal starting\n- {着手|ちゃくしゅ}する: to embark on — emphasizes taking the first step in a large project\n- スタートする: to start — casual, often used for races or new ventures",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00531_hajimeru",
+      "reading": "はじめる",
+      "headword": "{始|はじ}める",
+      "label": "to begin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16168_chakushu",
+      "reading": "ちゃくしゅ",
+      "headword": "{着手|ちゃくしゅ}",
+      "label": "to embark on"
+    },
+    {
+      "type": "related",
+      "target_id": "19361_shidousuru",
+      "reading": "しどうする",
+      "headword": "{始動|しどう}する",
+      "label": "to start up"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,7 +93,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T13:03:41Z",
-    "modified": "2026-08-06T12:46:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

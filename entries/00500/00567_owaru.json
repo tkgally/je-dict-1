@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{終|お}える→終える：02019_oeru⟧ (transitive, to finish something). Pattern: X⟦が→が：00051_ga⟧{終|お}わる.\n\nASPECT: ている indicates resulting state. {終|お}わっている = 'has ended/is over' (not 'is ending').\n\nCOMMON PATTERNS:\n・⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦が→が：00051_ga⟧{終|お}わる (class ends)\n・⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧{終|お}わる (work ends)\n・{終|お}わったら〜 (after it ends, ~)\n・〜{終|お}わる (finish ~ing - compound verb)\n\nOpposite: ⟦{始|はじ}まる→始まる：00841_hajimaru⟧ (to begin).\n\nNote: {終|お}わる is godan despite ending in る.",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{終|お}える→終える：02019_oeru⟧ (transitive, to finish something). Pattern: X⟦が→が：00051_ga⟧{終|お}わる.\n\nASPECT: ている indicates resulting state. {終|お}わっている = 'has ended/is over' (not 'is ending').\n\nCOMMON PATTERNS:\n- ⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦が→が：00051_ga⟧{終|お}わる (class ends)\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧{終|お}わる (work ends)\n- {終|お}わったら〜 (after it ends, ~)\n- 〜{終|お}わる (finish ~ing - compound verb)\n\nOpposite: ⟦{始|はじ}まる→始まる：00841_hajimaru⟧ (to begin).\n\nNote: {終|お}わる is godan despite ending in る.",
   "prominent_see_also": [
     {
       "target_id": "02019_oeru",
@@ -176,11 +176,32 @@
       "reading": "はじめる",
       "headword": "{始|はじ}める",
       "label": "to begin"
+    },
+    {
+      "type": "related",
+      "target_id": "02064_sumasu",
+      "reading": "すます",
+      "headword": "{済|す}ます",
+      "label": "to finish, to get by with"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22990_shuuryousuru",
+      "reading": "しゅうりょうする",
+      "headword": "{終了|しゅうりょう}する",
+      "label": "to end"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28565_hateru",
+      "reading": "はてる",
+      "headword": "{果|は}てる",
+      "label": "to come to an end"
     }
   ],
   "metadata": {
     "created": "2026-01-07T14:06:51Z",
-    "modified": "2026-05-11T23:16:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

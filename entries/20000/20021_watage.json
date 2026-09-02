@@ -17,7 +17,9 @@
       "id": "20021_watage_ex1",
       "japanese": "たんぽぽの{綿毛|わたげ}を{飛|と}ばした。",
       "english": "I blew the dandelion fluff away.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20021_watage_ex2",
       "japanese": "ひなの{体|からだ}は{綿毛|わたげ}で{覆|おお}われている。",
       "english": "The chick's body is covered in down.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "20021_watage_ex3",
       "japanese": "{風|かぜ}に{乗|の}って{綿毛|わたげ}がふわふわと{空|そら}に{舞|ま}い{上|あ}がった。",
       "english": "The fluff floated up into the sky, carried by the wind.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {綿|わた} (cotton) and {毛|げ} (hair/fur). Refers to anything soft, light, and fluffy — most iconically the seed heads of dandelions, but also the downy feathers of young birds and fine body hair.\n\nCOMMON COLLOCATIONS:\n- たんぽぽの{綿毛|わたげ}: dandelion fluff/puff\n- {綿毛|わたげ}が{飛|と}ぶ: fluff floats away\n- {綿毛|わたげ}で{覆|おお}われる: to be covered in down\n- {綿毛|わたげ}のような: fluffy like down\n\nSIMILAR WORDS:\n- {羽毛|うもう}: feathers, down — specifically bird feathers; used in products like {羽毛|うもう}ぶとん (down comforter)\n- {産毛|うぶげ}: fine body hair, peach fuzz — the soft hair on a baby's skin or a peach\n- {毛|け}: hair, fur — the general word for animal hair\n\nCULTURAL NOTE:\nBlowing dandelion {綿毛|わたげ} is a well-known childhood activity in Japan, as elsewhere. It evokes a gentle, nostalgic image of spring and early summer.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13915_umou",
+      "reading": "うもう",
+      "headword": "{羽毛|うもう}",
+      "label": "feathers, down"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16158_ubuge",
+      "reading": "うぶげ",
+      "headword": "{産毛|うぶげ}",
+      "label": "fine body hair, peach fuzz"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature"]
+      "semantic": [
+        "nature"
+      ]
     },
     "created": "2026-03-28T05:24:37Z",
-    "modified": "2026-03-28T05:24:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "27009_obuje_ex1",
       "japanese": "{公園|こうえん}に{大|おお}きなオブジェがある。",
       "english": "There is a large art object in the park.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27009_obuje_ex2",
       "japanese": "ガラスで{作|つく}られたオブジェが{美|うつく}しかった。",
       "english": "The glass art object was beautiful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "27009_obuje_ex3",
       "japanese": "{美術館|びじゅつかん}の{入口|いりぐち}に{現代|げんだい}アーティストのオブジェが{展示|てんじ}されていた。",
       "english": "A contemporary artist's art object was displayed at the museum entrance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From French \"objet\" (object/objet d'art). In Japanese, broadly used for any decorative or artistic three-dimensional piece, from public sculptures to small interior decorations. More commonly used than the English equivalent — Japanese speakers use オブジェ for things English speakers might simply call \"sculpture\" or \"decoration.\"\n\nCOMMON COLLOCATIONS:\n- オブジェを{飾|かざ}る: to display an art object\n- インテリアオブジェ: interior decorative object\n- {金属|きんぞく}のオブジェ: metal sculpture/art object\n- オブジェとして{使|つか}う: to use as a decorative object\n\nSIMILAR WORDS:\n- {彫刻|ちょうこく}: sculpture — specifically carved or sculpted works; narrower than オブジェ\n- {置物|おきもの}: ornament; figurine — smaller decorative items for display, often traditional\n- モニュメント: monument — a larger, often commemorative structure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04448_choukoku",
+      "reading": "ちょうこく",
+      "headword": "{彫刻|ちょうこく}",
+      "label": "sculpture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19885_okimono",
+      "reading": "おきもの",
+      "headword": "{置物|おきもの}",
+      "label": "ornament"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure", "general"]
+      "semantic": [
+        "leisure",
+        "general"
+      ]
     },
     "created": "2026-05-06T13:16:01Z",
-    "modified": "2026-05-06T13:16:01Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

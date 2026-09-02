@@ -17,7 +17,9 @@
       "id": "21751_terebikaigi_ex1",
       "japanese": "テレビ{会議|かいぎ}で{参加|さんか}する。",
       "english": "To participate via video conference.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21751_terebikaigi_ex2",
       "japanese": "{海外|かいがい}の{支社|ししゃ}とテレビ{会議|かいぎ}を{行|おこな}った。",
       "english": "We held a video conference with the overseas branch office.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,12 +37,30 @@
       "id": "21751_terebikaigi_ex3",
       "japanese": "リモートワークが{普及|ふきゅう}してから、{毎日|まいにち}のようにテレビ{会議|かいぎ}が{入|はい}るようになった。",
       "english": "Since remote work became widespread, I've ended up having video conferences almost every day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of テレビ (television/video) and {会議|かいぎ} (meeting, conference). This term became especially common during and after the COVID-19 pandemic as remote work became mainstream.\n\nUSAGE:\n- Used with を{行|おこな}う (to hold), に{参加|さんか}する (to participate in), or を{開|ひら}く (to open/start)\n- Often shortened in casual speech or used interchangeably with newer terms like Web{会議|かいぎ} or オンライン{会議|かいぎ}\n- テレビ{会議|かいぎ} originally implied specialized corporate systems, but now broadly covers any video meeting\n\nCOMMON COLLOCATIONS:\n- テレビ{会議|かいぎ}を{行|おこな}う: to hold a video conference\n- テレビ{会議|かいぎ}システム: video conferencing system\n- テレビ{会議|かいぎ}{用|よう}: for video conferencing\n- テレビ{会議|かいぎ}で{打|う}ち{合|あ}わせ: meeting via video conference\n\nSIMILAR WORDS:\n- Web{会議|かいぎ}: web conference — emphasizes internet-based meetings; the more modern term for tools like Zoom\n- オンライン{会議|かいぎ}: online meeting — generic term for any internet-based meeting\n- {電話|でんわ}{会議|かいぎ}: telephone conference, conference call — audio only, no video",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06606_onrainkaigi",
+      "reading": "おんらいんかいぎ",
+      "headword": "オンライン{会議|かいぎ}",
+      "label": "online meeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08746_webukaigi",
+      "reading": "うぇぶかいぎ",
+      "headword": "ウェブ{会議|かいぎ}",
+      "label": "web conference"
+    }
+  ],
   "metadata": {
     "entry_id": "21751_terebikaigi",
     "schema_version": "2.0",
@@ -46,11 +68,17 @@
     "vocabulary_tier": "general",
     "jlpt_level": null,
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["technology", "work"],
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "technology",
+        "work"
+      ],
       "register": [],
       "usage": []
     },
-    "modified": "2026-04-03T15:31:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

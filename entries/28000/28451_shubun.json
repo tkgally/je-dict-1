@@ -79,8 +79,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {主|しゅ} (main, principal) + {文|ぶん} (sentence, text). Two technical uses:\n\nGRAMMAR USE (sense 1):\nThe main clause of a complex sentence — the part that can stand on its own. The subordinate clause ({従属節|じゅうぞくせつ}) modifies or qualifies it.\n\nLEGAL USE (sense 2):\nIn a Japanese court judgment, the {主文|しゅぶん} is the operative ruling (e.g. the sentence, the dismissal), distinct from the {理由|りゆう} (reasoning). The {主文|しゅぶん} is what is formally pronounced in court.\n\nRELATED TERMS:\n- {複文|ふくぶん}: complex sentence\n- {従属節|じゅうぞくせつ}: subordinate clause\n- {判決|はんけつ}: court judgment",
+  "notes": "Compound of {主|しゅ} (main, principal) + {文|ぶん} (sentence, text). Two technical uses:\n\nGRAMMAR USE (sense 1):\nThe main clause of a complex sentence — the part that can stand on its own. The subordinate clause ({従属節|じゅうぞくせつ}) modifies or qualifies it.\n\nLEGAL USE (sense 2):\nIn a Japanese court judgment, the {主文|しゅぶん} is the operative ruling (e.g. the sentence, the dismissal), distinct from the {理由|りゆう} (reasoning). The {主文|しゅぶん} is what is formally pronounced in court.\n\nRELATED WORDS:\n- {複文|ふくぶん}: complex sentence\n- {従属節|じゅうぞくせつ}: subordinate clause\n- {判決|はんけつ}: court judgment",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "28450_fukubun",
+      "reading": "ふくぶん",
+      "headword": "{複文|ふくぶん}",
+      "label": "complex sentence"
+    },
+    {
+      "type": "related",
+      "target_id": "05906_hanketsu",
+      "reading": "はんけつ",
+      "headword": "{判決|はんけつ}",
+      "label": "court judgment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -88,7 +104,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "grammatical",
         "law"
@@ -99,6 +115,6 @@
       ]
     },
     "created": "2026-05-31T03:09:05Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

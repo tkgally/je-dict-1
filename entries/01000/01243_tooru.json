@@ -184,7 +184,7 @@
     },
     {
       "id": "01243_tooru_ex8",
-      "japanese": "⟦{トンネル|とんねる}→トンネル：03865_tonneru⟧⟦を→を：00422_wo⟧{通|とお}る。",
+      "japanese": "⟦トンネル→トンネル：03865_tonneru⟧⟦を→を：00422_wo⟧{通|とお}る。",
       "english": "To go through a tunnel.",
       "notes": null,
       "has_audio": false,
@@ -263,11 +263,54 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{通|とお}す→通す：02300_toosu⟧ (transitive, to let through). Pattern: X⟦を→を：00422_wo⟧{通|とお}る (pass through X).\n\nASPECT: ている indicates ongoing or completed action. {通|とお}っている = 'is passing' or 'has passed.'\n\nCOMMON PATTERNS:\n・⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧{通|とお}る (go along a road)\n・⟦{門|もん}→門：14603_mon⟧⟦を→を：00422_wo⟧{通|とお}る (pass through a gate)\n・⟦{試験|しけん}→試験：01422_shiken⟧⟦に→に：00314_ni⟧{通|とお}る (pass an exam)\n・⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧{通|とお}る (voice carries well)\n・⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧{通|とお}る (message gets through)\n・⟦{通|とお}り→通り：01475_toori⟧ (street—noun; also: way, manner)\n\nCONTRAST:\n・{通|とお}る (intransitive): pass through\n・⟦{通|とお}す→通す：02300_toosu⟧ (transitive): let through, pass (something)\n\nRELATED:\n・⟦{通|かよ}う→通う：01217_kayou⟧: to commute (repeated passing)",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{通|とお}す→通す：02300_toosu⟧ (transitive, to let through). Pattern: X⟦を→を：00422_wo⟧{通|とお}る (pass through X).\n\nASPECT: ている indicates ongoing or completed action. {通|とお}っている = 'is passing' or 'has passed.'\n\nCOMMON PATTERNS:\n- ⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧{通|とお}る (go along a road)\n- ⟦{門|もん}→門：14603_mon⟧⟦を→を：00422_wo⟧{通|とお}る (pass through a gate)\n- ⟦{試験|しけん}→試験：01422_shiken⟧⟦に→に：00314_ni⟧{通|とお}る (pass an exam)\n- ⟦{声|こえ}→声：02207_koe⟧⟦が→が：00051_ga⟧{通|とお}る (voice carries well)\n- ⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧{通|とお}る (message gets through)\n- ⟦{通|とお}り→通り：01475_toori⟧ (street—noun; also: way, manner)\n\nSIMILAR WORDS:\n- {通|とお}る (intransitive): pass through\n- ⟦{通|とお}す→通す：02300_toosu⟧ (transitive): let through, pass (something)\n\nRELATED WORDS:\n- ⟦{通|かよ}う→通う：01217_kayou⟧: to commute (repeated passing)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01217_kayou",
+      "reading": "かよう",
+      "headword": "{通|かよ}う",
+      "label": "to commute"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02791_keiyu",
+      "reading": "けいゆ",
+      "headword": "{経由|けいゆ}",
+      "label": "via, by way of"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03436_tsuukou",
+      "reading": "つうこう",
+      "headword": "{通行|つうこう}",
+      "label": "passage, traffic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13876_heru",
+      "reading": "へる",
+      "headword": "{経|へ}る",
+      "label": "to pass through, to go through, to elapse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22435_tsuukasuru",
+      "reading": "つうかする",
+      "headword": "{通過|つうか}する",
+      "label": "to pass through"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27949_goukakusuru",
+      "reading": "ごうかくする",
+      "headword": "{合格|ごうかく}する",
+      "label": "to pass (an exam)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:21:42Z",
-    "modified": "2026-05-14T19:03:46Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

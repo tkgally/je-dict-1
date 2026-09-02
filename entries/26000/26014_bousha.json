@@ -17,7 +17,9 @@
       "id": "26014_bousha_ex1",
       "japanese": "{某社|ぼうしゃ}に{勤|つと}めている。",
       "english": "I work for a certain company.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26014_bousha_ex2",
       "japanese": "{某社|ぼうしゃ}の{製品|せいひん}に{不具合|ふぐあい}が{見|み}つかった。",
       "english": "A defect was found in a certain company's product.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,36 @@
       "id": "26014_bousha_ex3",
       "japanese": "{大手|おおて}{某社|ぼうしゃ}から{内定|ないてい}をもらったらしい。",
       "english": "I heard they got a job offer from a major company whose name I won't mention.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Part of a series of {某|ぼう}〜 words used to keep names anonymous. Common in news articles, online discussions, and casual conversation when the specific identity is beside the point or needs to stay private.\n\nCOMMON COLLOCATIONS:\n- {大手|おおて}{某社|ぼうしゃ}: a major (unnamed) company\n- {某社|ぼうしゃ}の{社員|しゃいん}: an employee of a certain company\n- {某社|ぼうしゃ}に{就職|しゅうしょく}する: to get a job at a certain company\n\nRELATED {某|ぼう}〜 WORDS:\n- {某所|ぼうしょ}: a certain place\n- {某氏|ぼうし}: a certain person (male)\n- {某国|ぼうこく}: a certain country\n- {某日|ぼうじつ}: a certain day",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "26015_bousho",
+      "reading": "ぼうしょ",
+      "headword": "{某所|ぼうしょ}",
+      "label": "a certain place"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-04-28T16:12:13Z",
-    "modified": "2026-04-28T16:12:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

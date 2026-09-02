@@ -19,7 +19,9 @@
       "english": "On the whole, it was well received.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13845_soujite_ex2",
@@ -27,7 +29,9 @@
       "english": "This year's results can be said to be generally good.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13845_soujite_ex3",
@@ -35,22 +39,59 @@
       "english": "The participants' reactions were generally positive, though there were some voices of dissatisfaction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA somewhat formal adverb used in written Japanese, reports, and evaluations. Implies that the speaker is summarizing a broad picture while acknowledging exceptions may exist.\n\nSIMILAR WORDS:\n- {全体的|ぜんたいてき}に: overall, as a whole (more common in everyday speech)\n- {概|おおむ}ね: generally, for the most part (similar formality level)\n- {一般的|いっぱんてき}に: generally, in general (makes a broader generalization)\n- {大体|だいたい}: roughly, generally (more casual)\n\nGRAMMAR:\nPlaced at the beginning or middle of a sentence, before the main predicate it modifies. Often followed by evaluative expressions.",
-  "cross_references": [],
+  "notes": "USAGE:\nA somewhat formal adverb used in written Japanese, reports, and evaluations. Implies that the speaker is summarizing a broad picture while acknowledging exceptions may exist.\n\nSIMILAR WORDS:\n- {全体的|ぜんたいてき}に: overall, as a whole (more common in everyday speech)\n- {概|おおむ}ね: generally, for the most part (similar formality level)\n- {一般的|いっぱんてき}に: generally, in general (makes a broader generalization)\n- {大体|だいたい}: roughly, generally (more casual)\n\nCOMMON PATTERNS:\nPlaced at the beginning or middle of a sentence, before the main predicate it modifies. Often followed by evaluative expressions.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11663_zentaiteki",
+      "reading": "ぜんたいてき",
+      "headword": "{全体的|ぜんたいてき}",
+      "label": "overall, as a whole"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05732_oomune",
+      "reading": "おおむね",
+      "headword": "{概|おおむ}ね",
+      "label": "generally, for the most part"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21340_ippantekini",
+      "reading": "いっぱんてきに",
+      "headword": "{一般的|いっぱんてき}に",
+      "label": "generally, in general"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14899_gaishite",
+      "reading": "がいして",
+      "headword": "{概|がい}して",
+      "label": "generally"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T05:14:23Z",
-    "modified": "2026-02-27T05:14:23Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"],
-      "style": ["written"]
+      "semantic": [
+        "descriptive"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

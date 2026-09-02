@@ -24,7 +24,9 @@
       "english": "It took time to get changed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16045_kigae_ex2",
@@ -32,7 +34,9 @@
       "english": "I change into my uniform before the game.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16045_kigae_ex3",
@@ -40,7 +44,9 @@
       "english": "After finishing changing in the locker room, I headed to the venue.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16045_kigae_ex4",
@@ -48,7 +54,9 @@
       "english": "I brought a change of clothes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "16045_kigae_ex5",
@@ -56,7 +64,9 @@
       "english": "I prepared two sets of spare clothes for the trip.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "16045_kigae_ex6",
@@ -64,7 +74,9 @@
       "english": "Children get dirty quickly, so it's better to pack extra changes of clothes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\n{着替|きが}え is a noun derived from the verb {着替|きが}える (to change clothes). It can refer either to the act of changing or to the clothes themselves.\n\nCOMMON COLLOCATIONS:\n- {着替|きが}えを{持|も}つ (to bring a change of clothes)\n- {着替|きが}えを{済|す}ませる (to finish changing)\n- {着替|きが}えを{用意|ようい}する (to prepare spare clothes)\n\nSIMILAR WORDS:\n{衣替|ころもが}え refers to the seasonal switch of wardrobes, not daily changing of clothes. {着替|きが}える is the verb form meaning to change clothes.",
@@ -76,17 +88,65 @@
       "note": "verb form"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01605_shitagi",
+      "reading": "したぎ",
+      "headword": "{下着|したぎ}",
+      "label": "underwear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07910_mijitaku",
+      "reading": "みじたく",
+      "headword": "{身支度|みじたく}",
+      "label": "getting ready"
+    },
+    {
+      "type": "related",
+      "target_id": "09626_shichakushitsu",
+      "reading": "しちゃくしつ",
+      "headword": "{試着室|しちゃくしつ}",
+      "label": "fitting room, changing room"
+    },
+    {
+      "type": "related",
+      "target_id": "16331_kisekae",
+      "reading": "きせかえ",
+      "headword": "{着|き}せ{替|か}え",
+      "label": "dress-up, changing clothes (for dolls etc.)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22872_datsui",
+      "reading": "だつい",
+      "headword": "{脱衣|だつい}",
+      "label": "undressing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23085_koui",
+      "reading": "こうい",
+      "headword": "{更衣|こうい}",
+      "label": "changing clothes"
+    }
+  ],
   "metadata": {
     "created": "2026-03-09T10:27:15Z",
-    "modified": "2026-05-02T10:22:31Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing", "daily-life"]
+      "semantic": [
+        "clothing",
+        "daily-life"
+      ]
     }
   }
 }

@@ -22,7 +22,9 @@
       "id": "19663_shichuu_ex1",
       "japanese": "トマトに{支柱|しちゅう}を{立|た}てる。",
       "english": "Set up a support stake for the tomato plant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "19663_shichuu_ex2",
       "japanese": "{支柱|しちゅう}が{折|お}れて、テントが{倒|たお}れた。",
       "english": "The support pole broke and the tent collapsed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "19663_shichuu_ex3",
       "japanese": "{強風|きょうふう}に{耐|た}えられるよう、{金属|きんぞく}の{支柱|しちゅう}で{補強|ほきょう}した。",
       "english": "We reinforced it with metal supports to withstand strong winds.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "19663_shichuu_ex4",
       "japanese": "{彼|かれ}はチームの{支柱|しちゅう}だ。",
       "english": "He is the pillar of the team.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "19663_shichuu_ex5",
       "japanese": "{農業|のうぎょう}は{地域|ちいき}{経済|けいざい}の{支柱|しちゅう}である。",
       "english": "Agriculture is the mainstay of the local economy.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,45 @@
       "id": "19663_shichuu_ex6",
       "japanese": "{家族|かぞく}の{支柱|しちゅう}を{失|うしな}い、{彼女|かのじょ}は{途方|とほう}に{暮|く}れた。",
       "english": "Having lost the pillar of her family, she was at a complete loss.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {支|し} (to support) and {柱|ちゅう} (pillar). Used both for literal structural supports and figuratively for people or things that hold something up.\n\nUSAGE:\nIn the physical sense, commonly used for garden stakes, tent poles, and structural supports. In the figurative sense, describes indispensable people or elements — the \"backbone\" of a family, organization, or economy.\n\nCOMMON COLLOCATIONS:\n- {支柱|しちゅう}を{立|た}てる — to set up a support/stake\n- {支柱|しちゅう}を{失|うしな}う — to lose one's pillar/mainstay\n- {経済|けいざい}の{支柱|しちゅう} — economic mainstay\n- {精神的|せいしんてき}{支柱|しちゅう} — emotional/spiritual pillar\n\nSIMILAR WORDS:\n- {柱|はしら} — pillar, column; more general, both literal and figurative\n- {大黒柱|だいこくばしら} — main pillar; the primary breadwinner or central support\n- {土台|どだい} — foundation; the base that supports a structure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18511_daikokubashira",
+      "reading": "だいこくばしら",
+      "headword": "{大黒柱|だいこくばしら}",
+      "label": "main pillar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07146_dodai",
+      "reading": "どだい",
+      "headword": "{土台|どだい}",
+      "label": "foundation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract", "building"]
+      "semantic": [
+        "abstract",
+        "building"
+      ]
     },
     "created": "2026-03-26T11:43:34Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,35 +17,68 @@
       "japanese": "{雛鳥|ひなどり}が{巣|す}にいる。",
       "english": "There are chicks in the nest.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "24779_hinadori_ex2",
       "japanese": "{雛鳥|ひなどり}が{親鳥|おやどり}にエサをもらっている。",
       "english": "The chick is being fed by its parent.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "24779_hinadori_ex3",
       "japanese": "{巣|す}から{落|お}ちた{雛鳥|ひなどり}を{見|み}つけたが、{触|さわ}らないほうがいいと{言|い}われた。",
       "english": "I found a chick that had fallen from its nest, but was told it's better not to touch it.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Refers to any young bird, from just hatched to fledgling stage. Can also be used figuratively to describe someone young and inexperienced.\n\nCOMMON COLLOCATIONS:\n- {雛鳥|ひなどり}が{孵|かえ}る: a chick hatches\n- {雛鳥|ひなどり}を{育|そだ}てる: to raise a chick\n- {雛鳥|ひなどり}が{巣立|すだ}つ: a fledgling leaves the nest\n\nSIMILAR WORDS:\n- ひよこ: chick (especially a newly hatched domestic fowl; also used as a cute term)\n- {幼鳥|ようちょう}: young bird (more scientific/formal)\n- {親鳥|おやどり}: parent bird (opposite)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10501_hiyoko",
+      "reading": "ひよこ",
+      "headword": "ひよこ",
+      "label": "chick (especially a newly hatched…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26318_youchou",
+      "reading": "ようちょう",
+      "headword": "{幼鳥|ようちょう}",
+      "label": "young bird"
+    },
+    {
+      "type": "antonym",
+      "target_id": "25490_oyadori",
+      "reading": "おやどり",
+      "headword": "{親鳥|おやどり}",
+      "label": "parent bird"
+    }
+  ],
   "metadata": {
     "created": "2026-04-20T15:25:54Z",
-    "modified": "2026-04-20T15:25:54Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature"]
+      "semantic": [
+        "nature"
+      ]
     }
   }
 }

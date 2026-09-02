@@ -3,7 +3,7 @@
   "headword": "ドラマチック",
   "reading": "どらまちっく",
   "romaji": "doramachikku",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "dramatic; theatrical; full of drama",
   "definitions": [
     {
@@ -52,6 +52,20 @@
       "reading": "どらま",
       "headword": "ドラマ",
       "label": "drama"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06830_gekiteki",
+      "reading": "げきてき",
+      "headword": "{劇的|げきてき}",
+      "label": "dramatic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25879_kandoutekina",
+      "reading": "かんどうてきな",
+      "headword": "{感動的|かんどうてき}な",
+      "label": "moving"
     }
   ],
   "schema_version": "2.0",
@@ -62,7 +76,7 @@
         "adjective-na"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "evaluation",
         "media"
@@ -70,6 +84,6 @@
       "domain": []
     },
     "created": "2026-08-08T12:24:37Z",
-    "modified": "2026-08-08T12:24:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

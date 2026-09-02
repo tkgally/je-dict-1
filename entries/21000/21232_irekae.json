@@ -22,7 +22,9 @@
       "id": "21232_irekae_ex1",
       "japanese": "{選手|せんしゅ}の{入|い}れ{替|か}えがあった。",
       "english": "There was a player substitution.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "21232_irekae_ex2",
       "japanese": "{電池|でんち}の{入|い}れ{替|か}えをする。",
       "english": "To replace the batteries.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "21232_irekae_ex3",
       "japanese": "{衣替|ころもが}えの{季節|きせつ}に、クローゼットの{中身|なかみ}を{入|い}れ{替|か}えた。",
       "english": "During the seasonal wardrobe change, I swapped out the contents of the closet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "21232_irekae_ex4",
       "japanese": "{映画館|えいがかん}は{完全|かんぜん}{入|い}れ{替|か}え{制|せい}です。",
       "english": "The cinema operates on a complete turnover system.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "21232_irekae_ex5",
       "japanese": "{昼|ひる}と{夜|よる}でスタッフの{入|い}れ{替|か}えがある。",
       "english": "There is a staff changeover between day and night.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,51 @@
       "id": "21232_irekae_ex6",
       "japanese": "コンサートは{二部|にぶ}{入|い}れ{替|か}え{制|せい}で、{一部|いちぶ}の{客|きゃく}は{退場|たいじょう}しなければならない。",
       "english": "The concert has a two-part turnover system, so the first-part audience must leave.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The noun form of the verb {入|い}れ{替|か}える (to replace, swap). Common in both everyday and business contexts.\n\nCOMMON COLLOCATIONS:\n- {入|い}れ{替|か}え{制|せい}: turnover system (audiences must leave between shows)\n- {入|い}れ{替|か}え{戦|せん}: relegation/promotion playoff\n- {完全|かんぜん}{入|い}れ{替|か}え: complete turnover\n- メンバーの{入|い}れ{替|か}え: membership change; roster shake-up\n\nSIMILAR WORDS:\n- {交換|こうかん}: exchange — mutual giving and receiving between two parties\n- {交代|こうたい}: rotation — taking turns in a role or position\n- {差|さ}し{替|か}え: replacement — substituting one item for another, often documents or components",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02746_koukan",
+      "reading": "こうかん",
+      "headword": "{交換|こうかん}",
+      "label": "exchange"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14943_koutai",
+      "reading": "こうたい",
+      "headword": "{交代|こうたい}",
+      "label": "rotation"
+    },
+    {
+      "type": "related",
+      "target_id": "18493_torikae",
+      "reading": "とりかえ",
+      "headword": "{取|と}り{換|か}え",
+      "label": "replacement"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-04-01T15:20:42Z",
-    "modified": "2026-07-26T03:19:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

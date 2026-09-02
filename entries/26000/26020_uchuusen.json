@@ -17,7 +17,9 @@
       "id": "26020_uchuusen_ex1",
       "japanese": "{宇宙船|うちゅうせん}が{打|う}ち{上|あ}げられた。",
       "english": "A spacecraft was launched.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26020_uchuusen_ex2",
       "japanese": "{宇宙船|うちゅうせん}は{無事|ぶじ}に{地球|ちきゅう}に{帰還|きかん}した。",
       "english": "The spacecraft returned safely to Earth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26020_uchuusen_ex3",
       "japanese": "{子|こ}どものころ、いつか{宇宙船|うちゅうせん}に{乗|の}りたいと{思|おも}っていた。",
       "english": "When I was a child, I dreamed of riding in a spaceship someday.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {宇宙|うちゅう} (outer space) + {船|せん} (vessel). Covers both real spacecraft (like those used by NASA or JAXA) and fictional spaceships in science fiction.\n\nCOMMON COLLOCATIONS:\n- {宇宙船|うちゅうせん}を{打|う}ち{上|あ}げる: to launch a spacecraft\n- {有人|ゆうじん}{宇宙船|うちゅうせん}: crewed spacecraft\n- {無人|むじん}{宇宙船|うちゅうせん}: uncrewed spacecraft\n- {宇宙船|うちゅうせん}に{搭乗|とうじょう}する: to board a spacecraft\n\nSIMILAR WORDS:\n- ロケット: rocket — the launch vehicle, not the crewed capsule\n- {人工衛星|じんこうえいせい}: artificial satellite — orbits but does not carry people\n- {宇宙|うちゅう}ステーション: space station — a permanent structure in orbit",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00353_roketto",
+      "reading": "ろけっと",
+      "headword": "ロケット",
+      "label": "rocket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11715_jinkoueisei",
+      "reading": "じんこうえいせい",
+      "headword": "{人工衛星|じんこうえいせい}",
+      "label": "artificial satellite"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["science", "transportation"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "science",
+        "transportation"
+      ]
     },
     "created": "2026-04-28T16:14:03Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

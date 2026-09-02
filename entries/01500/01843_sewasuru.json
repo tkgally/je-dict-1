@@ -2,7 +2,7 @@
   "id": "01843_sewasuru",
   "headword": "{世話|せわ}する",
   "reading": "せわする",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "care, looking after",
   "conjugation": {
     "type": "suru",
@@ -134,10 +134,32 @@
     }
   ],
   "notes": "{世話|せわ} covers both practical caregiving (looking after children, pets) and the broader sense of helping or assisting someone. It is used as a noun and with する.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- No standard intransitive pair\n- Pattern: [noun]を{世話|せわ}する\n\nCOMMON EXPRESSIONS:\n- {世話|せわ}をする: to take care of, to look after\n- お{世話|せわ}になる: to receive someone's help/care\n- お{世話|せわ}になりました: Thank you for your help (set phrase for parting)\n- {世話|せわ}を⟦{焼|や}く→焼く：01123_yaku⟧: to fuss over, to meddle\n- {世話|せわ}⟦{焼|や}き→焼く：01123_yaku⟧: busybody, meddler\n\nUSAGE:\nThe polite prefix お is almost always added in social contexts: お{世話|せわ}になっております is a standard business greeting meaning \"Thank you for your continued support.\"\n\nSIMILAR WORDS:\n- ⟦{面倒|めんどう}→面倒：03809_mendou⟧を⟦{見|み}る→見る：00283_miru⟧: to take care of (emphasizes effort/burden)\n- ⟦{介護|かいご}→介護：04805_kaigo⟧: nursing care (specifically for elderly or disabled)\n- ⟦{看病|かんびょう}→看病：16956_kanbyou⟧: caring for a sick person",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18263_mendouwomiru",
+      "reading": "めんどうをみる",
+      "headword": "{面倒|めんどう}を{見|み}る",
+      "label": "to take care of"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04805_kaigo",
+      "reading": "かいご",
+      "headword": "{介護|かいご}",
+      "label": "nursing care"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16956_kanbyou",
+      "reading": "かんびょう",
+      "headword": "{看病|かんびょう}",
+      "label": "caring for a sick person"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:20:17Z",
-    "modified": "2026-05-17T14:07:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

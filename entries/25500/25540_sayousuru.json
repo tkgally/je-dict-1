@@ -3,7 +3,7 @@
   "headword": "{作用|さよう}する",
   "reading": "さようする",
   "romaji": "sayousuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to act on; to affect; to have an effect",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "{作用|さよう}する describes a force, substance, or factor producing an effect on something. It is common in scientific, medical, and technical contexts. As a noun, {作用|さよう} means \"action\" or \"effect\" and appears in many compound terms.\n\nUSAGE:\n- ～に{作用|さよう}する: to act on ~\n- ～が～に{作用|さよう}する: ~ acts on ~\n\nCOMMON COLLOCATIONS:\n- {副|ふく}{作用|さよう}: side effect\n- {相互|そうご}{作用|さよう}: interaction; mutual effect\n- {反|はん}{作用|さよう}: reaction; counteraction\n- {作用|さよう}{機序|きじょ}: mechanism of action\n- {薬理|やくり}{作用|さよう}: pharmacological action\n\nSIMILAR WORDS:\n- {影響|えいきょう}する: to influence — broader, used for general effects including social, emotional, and indirect ones\n- {効|き}く: to be effective; to work — describes the result of acting, not the process of acting on something\n- {働|はたら}きかける: to work on; to approach — often implies intentional human action on another person",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01877_eikyou",
+      "reading": "えいきょう",
+      "headword": "{影響|えいきょう}",
+      "label": "to influence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01932_kiku",
+      "reading": "きく",
+      "headword": "{効|き}く",
+      "label": "to be effective"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +69,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "science",
         "health"
@@ -62,7 +79,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T16:17:05Z",
-    "modified": "2026-04-25T16:17:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

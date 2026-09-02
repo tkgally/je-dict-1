@@ -2,7 +2,7 @@
   "id": "03866_doraibu",
   "headword": "ドライブ",
   "reading": "どらいぶ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "drive, driving",
   "conjugation": {
     "type": "suru",
@@ -169,9 +169,32 @@
     }
   ],
   "notes": "ドライブ has two distinct meanings in Japanese: recreational driving (sense 1) and computer storage devices (sense 2).\n\nSENSE 1 - RECREATIONAL DRIVING:\nRefers specifically to driving for pleasure, not everyday commuting or errands. Going for a scenic drive on a weekend is the typical image.\n\nCOMMON PATTERNS:\n- ドライブ⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go for a drive\n- ドライブ⟦する→する：00392_suru⟧: to go driving (for fun)\n- ⟦ドライブスルー→ドライブスルー：noentry⟧: drive-through\n- ドライブ⟦{中|ちゅう}→〜中：09840_chuu⟧: while on a drive\n\nSENSE 2 - COMPUTER TERMS:\n- ⟦ハードドライブ→ハードドライブ：27673_haadodoraibu⟧: hard drive\n- ⟦USBドライブ→USBドライブ：noentry⟧: USB drive\n- ⟦{外付|そとづ}け→外付け：22099_sotozuke⟧ドライブ: external drive\n\nSIMILAR WORDS:\n- ⟦{運転|うんてん}→運転：01335_unten⟧: driving (general, functional)\n- ⟦サイクリング→サイクリング：08017_saikuringu⟧: cycling (recreational, similar pattern with ⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01335_unten",
+      "reading": "うんてん",
+      "headword": "{運転|うんてん}",
+      "label": "driving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08017_saikuringu",
+      "reading": "さいくりんぐ",
+      "headword": "サイクリング",
+      "label": "cycling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28790_tsuuringu",
+      "reading": "つーりんぐ",
+      "headword": "ツーリング",
+      "label": "motorcycle (or bicycle) touring"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T13:55:10Z",
-    "modified": "2026-05-27T21:10:05Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -17,7 +17,9 @@
       "id": "21071_shokuseikatsu_ex1",
       "japanese": "{食生活|しょくせいかつ}を{見直|みなお}す。",
       "english": "To review one's eating habits.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21071_shokuseikatsu_ex2",
       "japanese": "{食生活|しょくせいかつ}の{乱|みだ}れが{体調|たいちょう}{不良|ふりょう}の{原因|げんいん}だった。",
       "english": "Poor eating habits were the cause of feeling unwell.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,59 @@
       "id": "21071_shokuseikatsu_ex3",
       "japanese": "{日本|にほん}に{来|き}てから{食生活|しょくせいかつ}が{大|おお}きく{変|か}わり、{野菜|やさい}や{魚|さかな}を{多|おお}く{食|た}べるようになった。",
       "english": "Since coming to Japan, my eating habits changed a lot, and I started eating more vegetables and fish.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {食|しょく} (food, eating) + {生活|せいかつ} (life, lifestyle). Refers to the overall pattern and quality of one's eating, not a specific diet plan. Very common in health, nutrition, and lifestyle discussions.\n\nCOMMON COLLOCATIONS:\n- {食生活|しょくせいかつ}を{見直|みなお}す: to reassess one's eating habits\n- {食生活|しょくせいかつ}を{改善|かいぜん}する: to improve one's diet\n- {食生活|しょくせいかつ}の{乱|みだ}れ: irregular/poor eating habits\n- {食生活|しょくせいかつ}が{変|か}わる: one's eating habits change\n- バランスの{良|よ}い{食生活|しょくせいかつ}: a well-balanced diet\n\nSIMILAR WORDS:\n- ダイエット: diet — specifically a weight-loss or restricted eating plan\n- {食事|しょくじ}: meal — a specific instance of eating\n- {食習慣|しょくしゅうかん}: eating habits — very similar, slightly more clinical/academic\n- {食生活|しょくせいかつ}: broader, encompasses one's whole relationship with food",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17678_daietto",
+      "reading": "だいえっと",
+      "headword": "ダイエット",
+      "label": "diet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02087_shokuji",
+      "reading": "しょくじ",
+      "headword": "{食事|しょくじ}",
+      "label": "meal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19248_shokushuukan",
+      "reading": "しょくしゅうかん",
+      "headword": "{食習慣|しょくしゅうかん}",
+      "label": "eating habits"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19568_seikatsushuukan",
+      "reading": "せいかつしゅうかん",
+      "headword": "{生活習慣|せいかつしゅうかん}",
+      "label": "lifestyle habits"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "health"]
+      "semantic": [
+        "food",
+        "health"
+      ]
     },
     "created": "2026-03-31T16:25:59Z",
-    "modified": "2026-03-31T16:25:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

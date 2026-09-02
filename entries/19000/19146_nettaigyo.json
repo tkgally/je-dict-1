@@ -17,7 +17,9 @@
       "id": "19146_nettaigyo_ex1",
       "japanese": "{熱帯魚|ねったいぎょ}を{飼|か}っている。",
       "english": "I keep tropical fish.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19146_nettaigyo_ex2",
       "japanese": "{水族館|すいぞくかん}で{色|いろ}とりどりの{熱帯魚|ねったいぎょ}を{見|み}た。",
       "english": "I saw colorful tropical fish at the aquarium.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "19146_nettaigyo_ex3",
       "japanese": "{熱帯魚|ねったいぎょ}の{水槽|すいそう}は{温度|おんど}{管理|かんり}が{大切|たいせつ}だ。",
       "english": "Temperature control is important for a tropical fish tank.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {熱帯|ねったい} (tropics) + {魚|ぎょ} (fish). Refers to colorful fish from tropical regions, commonly kept as aquarium pets.\n\nCOMMON COLLOCATIONS:\n- {熱帯魚|ねったいぎょ}を{飼|か}う: to keep tropical fish\n- {熱帯魚|ねったいぎょ}の{水槽|すいそう}: tropical fish tank\n- {熱帯魚|ねったいぎょ}{専門店|せんもんてん}: tropical fish specialty shop\n- {熱帯魚|ねったいぎょ}{飼育|しいく}: tropical fish keeping\n\nIN JAPAN:\nKeeping {熱帯魚|ねったいぎょ} is a popular hobby. Home centers and pet shops often have dedicated sections. Popular species include グッピー (guppies), ネオンテトラ (neon tetras), and エンゼルフィッシュ (angelfish).\n\nRELATED TERMS:\n- {金魚|きんぎょ}: goldfish\n- {水族館|すいぞくかん}: aquarium (facility)\n- {水槽|すいそう}: fish tank, aquarium (container)",
+  "notes": "Compound of {熱帯|ねったい} (tropics) + {魚|ぎょ} (fish). Refers to colorful fish from tropical regions, commonly kept as aquarium pets.\n\nCOMMON COLLOCATIONS:\n- {熱帯魚|ねったいぎょ}を{飼|か}う: to keep tropical fish\n- {熱帯魚|ねったいぎょ}の{水槽|すいそう}: tropical fish tank\n- {熱帯魚|ねったいぎょ}{専門店|せんもんてん}: tropical fish specialty shop\n- {熱帯魚|ねったいぎょ}{飼育|しいく}: tropical fish keeping\n\nCULTURAL NOTE:\nKeeping {熱帯魚|ねったいぎょ} is a popular hobby. Home centers and pet shops often have dedicated sections. Popular species include グッピー (guppies), ネオンテトラ (neon tetras), and エンゼルフィッシュ (angelfish).\n\nRELATED WORDS:\n- {金魚|きんぎょ}: goldfish\n- {水族館|すいぞくかん}: aquarium (facility)\n- {水槽|すいそう}: fish tank, aquarium (container)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00233_kingyo",
+      "reading": "きんぎょ",
+      "headword": "{金魚|きんぎょ}",
+      "label": "goldfish"
+    },
+    {
+      "type": "related",
+      "target_id": "09220_suizokukan",
+      "reading": "すいぞくかん",
+      "headword": "{水族館|すいぞくかん}",
+      "label": "aquarium"
+    },
+    {
+      "type": "related",
+      "target_id": "09956_suisou",
+      "reading": "すいそう",
+      "headword": "{水槽|すいそう}",
+      "label": "fish tank, aquarium"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25092_kanshougyo",
+      "reading": "かんしょうぎょ",
+      "headword": "{観賞魚|かんしょうぎょ}",
+      "label": "ornamental fish"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["animal-fish"]
+      "semantic": [
+        "animal-fish"
+      ]
     },
     "created": "2026-03-24T11:20:40Z",
-    "modified": "2026-03-27T14:29:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

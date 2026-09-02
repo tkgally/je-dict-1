@@ -17,7 +17,9 @@
       "id": "27202_yoi_ex1",
       "japanese": "{宵|よい}の{月|つき}が{美|うつく}しい。",
       "english": "The evening moon is beautiful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27202_yoi_ex2",
       "japanese": "{宵|よい}のうちに{帰|かえ}ったほうがいい。",
       "english": "You should go home while it's still early in the evening.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,59 @@
       "id": "27202_yoi_ex3",
       "japanese": "{祭|まつ}りの{宵|よい}は{町|まち}じゅうが{賑|にぎ}わっていた。",
       "english": "On the eve of the festival, the whole town was bustling.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A literary and traditional word for the early part of the night, roughly from dusk until midnight. While not common in casual modern conversation, it appears frequently in literature, poetry, and set expressions. It carries a refined, somewhat nostalgic tone.\n\nCOMMON COLLOCATIONS:\n- {宵|よい}の{口|くち}: early evening; the beginning of the night\n- {宵|よい}の{明星|みょうじょう}: the evening star (Venus)\n- {宵|よい}{闇|やみ}: darkness of early night\n- {宵|よい}{祭|まつ}り: the eve of a festival; preliminary festival\n- {宵越|よいご}しの{金|かね}: money kept overnight (in the proverb about Edo-era spendthrift culture)\n\nSET EXPRESSIONS:\n- {宵越|よいご}しの{金|かね}は{持|も}たない: never hold on to money overnight — a saying about the free-spending spirit of old Edo (Tokyo)\n\nSIMILAR WORDS:\n- {夕方|ゆうがた}: evening — the more common everyday word for the period around sunset\n- {夕暮|ゆうぐ}れ: dusk; twilight — the transitional period when the sun sets\n- {夜|よる}: night — the general word for nighttime; {宵|よい} refers specifically to the earlier part",
+  "notes": "A literary and traditional word for the early part of the night, roughly from dusk until midnight. While not common in casual modern conversation, it appears frequently in literature, poetry, and set expressions. It carries a refined, somewhat nostalgic tone.\n\nCOMMON COLLOCATIONS:\n- {宵|よい}の{口|くち}: early evening; the beginning of the night\n- {宵|よい}の{明星|みょうじょう}: the evening star (Venus)\n- {宵|よい}{闇|やみ}: darkness of early night\n- {宵|よい}{祭|まつ}り: the eve of a festival; preliminary festival\n- {宵越|よいご}しの{金|かね}: money kept overnight (in the proverb about Edo-era spendthrift culture)\n\nCOMMON EXPRESSIONS:\n- {宵越|よいご}しの{金|かね}は{持|も}たない: never hold on to money overnight — a saying about the free-spending spirit of old Edo (Tokyo)\n\nSIMILAR WORDS:\n- {夕方|ゆうがた}: evening — the more common everyday word for the period around sunset\n- {夕暮|ゆうぐ}れ: dusk; twilight — the transitional period when the sun sets\n- {夜|よる}: night — the general word for nighttime; {宵|よい} refers specifically to the earlier part",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01010_yuugata",
+      "reading": "ゆうがた",
+      "headword": "{夕方|ゆうがた}",
+      "label": "evening"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07682_yuugure",
+      "reading": "ゆうぐれ",
+      "headword": "{夕暮|ゆうぐ}れ",
+      "label": "dusk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00487_yoru",
+      "reading": "よる",
+      "headword": "{夜|よる}",
+      "label": "night"
+    },
+    {
+      "type": "related",
+      "target_id": "20968_yoinomyoujou",
+      "reading": "よいのみょうじょう",
+      "headword": "{宵|よい}の{明星|みょうじょう}",
+      "label": "evening star"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-general"],
+      "semantic": [
+        "time-general"
+      ],
       "domain": []
     },
     "created": "2026-05-07T16:08:12Z",
-    "modified": "2026-08-07T06:30:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

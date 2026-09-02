@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "{休憩|きゅうけい} refers to a break or rest period, typically during work, travel, or activities. It can function as a noun or する verb.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {休憩|きゅうけい}⟦する→する：00392_suru⟧\n\nCOMMON COMPOUNDS:\n- {休憩|きゅうけい}⟦{時間|じかん}→時間：00468_jikan⟧: break time\n- {休憩|きゅうけい}⟦{室|しつ}→室：09946_shitsu⟧: break room, lounge\n- {休憩|きゅうけい}⟦{所|じょ}→〜所：09844_sho⟧: rest area, rest stop\n\nCOMMON PATTERNS:\n- {休憩|きゅうけい}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to take a break\n- {休憩|きゅうけい}⟦する→する：00392_suru⟧: to rest, to take a break\n- {休憩|きゅうけい}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to go on break\n\nRELATED WORDS:\n- ⟦{休|やす}む→休む：00606_yasumu⟧: to rest (more general)\n- ⟦{休息|きゅうそく}→休息：02587_kyuusoku⟧: rest, repose (more formal/literary)\n- ⟦{一休|ひとやす}み→ひと休み：07782_hitoyasumi⟧: a short rest",
+  "notes": "{休憩|きゅうけい} refers to a break or rest period, typically during work, travel, or activities. It can function as a noun or する verb.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {休憩|きゅうけい}⟦する→する：00392_suru⟧\n\nCOMPOUNDS:\n- {休憩|きゅうけい}⟦{時間|じかん}→時間：00468_jikan⟧: break time\n- {休憩|きゅうけい}⟦{室|しつ}→室：09946_shitsu⟧: break room, lounge\n- {休憩|きゅうけい}⟦{所|じょ}→〜所：09844_sho⟧: rest area, rest stop\n\nCOMMON PATTERNS:\n- {休憩|きゅうけい}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to take a break\n- {休憩|きゅうけい}⟦する→する：00392_suru⟧: to rest, to take a break\n- {休憩|きゅうけい}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧: to go on break\n\nRELATED WORDS:\n- ⟦{休|やす}む→休む：00606_yasumu⟧: to rest (more general)\n- ⟦{休息|きゅうそく}→休息：02587_kyuusoku⟧: rest, repose (more formal/literary)\n- ⟦{一休|ひとやす}み→ひと休み：07782_hitoyasumi⟧: a short rest",
   "cross_references": [
     {
       "type": "synonym",
@@ -168,11 +168,67 @@
       "reading": "きゅうけいじょ",
       "headword": "{休憩所|きゅうけいじょ}",
       "label": "rest area, rest stop"
+    },
+    {
+      "type": "related",
+      "target_id": "00606_yasumu",
+      "reading": "やすむ",
+      "headword": "{休|やす}む",
+      "label": "to rest"
+    },
+    {
+      "type": "related",
+      "target_id": "02587_kyuusoku",
+      "reading": "きゅうそく",
+      "headword": "{休息|きゅうそく}",
+      "label": "rest, repose"
+    },
+    {
+      "type": "related",
+      "target_id": "07782_hitoyasumi",
+      "reading": "ひとやすみ",
+      "headword": "ひと{休|やす}み",
+      "label": "a short rest"
+    },
+    {
+      "type": "related",
+      "target_id": "01715_hiruyasumi",
+      "reading": "ひるやすみ",
+      "headword": "{昼休|ひるやす}み",
+      "label": "lunch break"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07855_shoukyuushi",
+      "reading": "しょうきゅうし",
+      "headword": "{小休止|しょうきゅうし}",
+      "label": "short break"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19319_hitoikitsuku",
+      "reading": "ひといきつく",
+      "headword": "{一息|ひといき}つく",
+      "label": "to take a breather"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27680_makuai",
+      "reading": "まくあい",
+      "headword": "{幕|まく}{間|あい}",
+      "label": "intermission"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30189_ippukusuru",
+      "reading": "いっぷくする",
+      "headword": "一服する",
+      "label": "to take a short break"
     }
   ],
   "metadata": {
     "created": "2026-01-10T08:42:54Z",
-    "modified": "2026-08-29T00:23:31Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

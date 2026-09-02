@@ -3,7 +3,7 @@
   "headword": "{外国籍|がいこくせき}",
   "reading": "がいこくせき",
   "romaji": "gaikokuseki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "foreign nationality; foreign citizenship",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "A compound of {外国|がいこく} (foreign country) and {籍|せき} (register, nationality). This is the standard administrative and media term for describing people who hold citizenship of another country. It is used in government documents, news reports, and official contexts.\n\nCOMMON COLLOCATIONS:\n- {外国籍|がいこくせき}の{住民|じゅうみん}: residents of foreign nationality\n- {外国籍|がいこくせき}の{労働者|ろうどうしゃ}: workers of foreign nationality\n- {外国籍|がいこくせき}を{持|も}つ: to hold foreign nationality\n- {外国籍|がいこくせき}の{子供|こども}: children with foreign nationality\n\nSIMILAR WORDS:\n- {外国人|がいこくじん}: foreigner — refers to the person, while {外国籍|がいこくせき} refers to the legal status\n- {国籍|こくせき}: nationality; citizenship — the general term without specifying foreign\n- {二重国籍|にじゅうこくせき}: dual nationality — holding citizenship in two countries",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02869_gaikokujin",
+      "reading": "がいこくじん",
+      "headword": "{外国人|がいこくじん}",
+      "label": "foreigner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23951_nijuukokuseki",
+      "reading": "にじゅうこくせき",
+      "headword": "{二重国籍|にじゅうこくせき}",
+      "label": "dual nationality"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +77,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-06T19:14:48Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

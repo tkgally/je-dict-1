@@ -2,7 +2,7 @@
   "id": "07699_chokki",
   "headword": "{直帰|ちょっき}",
   "reading": "ちょっき",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "going straight home; returning home directly",
   "conjugation": {
     "type": "suru",
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{直|ちょく} (direct) + {帰|き} (return home)\n\nWORKPLACE USAGE:\nOften paired with {直行|ちょっこう} in the expression「{直行|ちょっこう}{直帰|ちょっき}」meaning to go directly to a work site and then straight home. Many companies require employees to report this in advance.\n\nRELATED:\n・{直行|ちょっこう} - going directly (to a site)\n・{退勤|たいきん} - leaving work\n・{帰宅|きたく} - going home\n・{在宅|ざいたく} - working from home",
+  "notes": "ETYMOLOGY:\n{直|ちょく} (direct) + {帰|き} (return home)\n\nWORKPLACE USAGE:\nOften paired with {直行|ちょっこう} in the expression「{直行|ちょっこう}{直帰|ちょっき}」meaning to go directly to a work site and then straight home. Many companies require employees to report this in advance.\n\nRELATED WORDS:\n- {直行|ちょっこう} - going directly (to a site)\n- {退勤|たいきん} - leaving work\n- {帰宅|きたく} - going home\n- {在宅|ざいたく} - working from home",
   "cross_references": [
     {
       "type": "related",
@@ -138,11 +138,32 @@
       "headword": "{直行|ちょっこう}",
       "label": "related work term",
       "target_id": "07698_chokkou"
+    },
+    {
+      "type": "related",
+      "target_id": "04550_taikin",
+      "reading": "たいきん",
+      "headword": "{退勤|たいきん}",
+      "label": "leaving work"
+    },
+    {
+      "type": "related",
+      "target_id": "02546_kitaku",
+      "reading": "きたく",
+      "headword": "{帰宅|きたく}",
+      "label": "going home"
+    },
+    {
+      "type": "related",
+      "target_id": "07696_zaitaku",
+      "reading": "ざいたく",
+      "headword": "{在宅|ざいたく}",
+      "label": "working from home"
     }
   ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +172,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "work"
       ],

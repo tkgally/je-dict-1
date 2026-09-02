@@ -3,7 +3,7 @@
   "id": "12597_kourei",
   "headword": "{恒例|こうれい}",
   "reading": "こうれい",
-  "part_of_speech": "noun, adjective (no)",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "regular event, annual custom",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "The annual summer festival will be held again this year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12597_kourei_ex2",
@@ -27,7 +29,9 @@
       "english": "We did the year-end cleaning, as is customary.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12597_kourei_ex3",
@@ -35,21 +39,50 @@
       "english": "As an established tradition, we hold a cherry blossom viewing party every April.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{恒例|こうれい} describes an event or practice that takes place regularly as an established tradition. Functions as a の-adjective.\n\nWORD FORMATION:\n{恒|こう} (constant, always) + {例|れい} (custom, precedent).\n\nCOMMON COLLOCATIONS:\n- {恒例|こうれい}の{行事|ぎょうじ}: regular/annual event\n- {年末|ねんまつ}{恒例|こうれい}: year-end tradition\n- {毎年|まいとし}{恒例|こうれい}: annual tradition\n- {恒例|こうれい}となっている: has become a tradition\n- {恒例|こうれい}の{挨拶|あいさつ}: customary greeting\n\nUSAGE NOTE:\nVery common in news reports and announcements about recurring events. Implies the event is well-established and expected. Often used with seasonal events: {花見|はなみ}, {大掃除|おおそうじ}, {忘年会|ぼうねんかい}, etc.\n\nCONTRAST:\n- {恒例|こうれい}: established, recurring tradition (formal)\n- {定例|ていれい}: regular, fixed schedule (more systematic — {定例|ていれい}{会議|かいぎ}, regular meeting)\n- {慣例|かんれい}: established custom, convention (more general)",
-  "cross_references": [],
+  "notes": "{恒例|こうれい} describes an event or practice that takes place regularly as an established tradition. Functions as a の-adjective.\n\nFORMS:\n{恒|こう} (constant, always) + {例|れい} (custom, precedent).\n\nCOMMON COLLOCATIONS:\n- {恒例|こうれい}の{行事|ぎょうじ}: regular/annual event\n- {年末|ねんまつ}{恒例|こうれい}: year-end tradition\n- {毎年|まいとし}{恒例|こうれい}: annual tradition\n- {恒例|こうれい}となっている: has become a tradition\n- {恒例|こうれい}の{挨拶|あいさつ}: customary greeting\n\nUSAGE:\nVery common in news reports and announcements about recurring events. Implies the event is well-established and expected. Often used with seasonal events: {花見|はなみ}, {大掃除|おおそうじ}, {忘年会|ぼうねんかい}, etc.\n\nSIMILAR WORDS:\n- {恒例|こうれい}: established, recurring tradition (formal)\n- {定例|ていれい}: regular, fixed schedule (more systematic — {定例|ていれい}{会議|かいぎ}, regular meeting)\n- {慣例|かんれい}: established custom, convention (more general)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11502_teirei",
+      "reading": "ていれい",
+      "headword": "{定例|ていれい}",
+      "label": "regular, fixed schedule (more systematic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12679_kanrei",
+      "reading": "かんれい",
+      "headword": "{慣例|かんれい}",
+      "label": "established custom, convention"
+    },
+    {
+      "type": "related",
+      "target_id": "15427_nenjuugyouji",
+      "reading": "ねんじゅうぎょうじ",
+      "headword": "{年中行事|ねんじゅうぎょうじ}",
+      "label": "annual event"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T04:06:23Z",
-    "modified": "2026-03-29T07:57:19Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

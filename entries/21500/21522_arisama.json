@@ -22,7 +22,9 @@
       "id": "21522_arisama_ex1",
       "japanese": "{町|まち}のありさまが{変|か}わった。",
       "english": "The state of the town changed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "21522_arisama_ex2",
       "japanese": "{被災地|ひさいち}のありさまをテレビで{見|み}た。",
       "english": "I saw the state of the disaster area on TV.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "21522_arisama_ex3",
       "japanese": "{戦後|せんご}の{日本|にほん}のありさまを{記録|きろく}した{写真集|しゃしんしゅう}が{出版|しゅっぱん}された。",
       "english": "A photo book documenting the state of postwar Japan was published.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "21522_arisama_ex4",
       "japanese": "このありさまは{何|なん}だ。",
       "english": "What is this mess?",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "21522_arisama_ex5",
       "japanese": "{部屋|へや}の{散|ち}らかったありさまに{驚|おどろ}いた。",
       "english": "I was shocked at the messy state of the room.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,13 +72,31 @@
       "id": "21522_arisama_ex6",
       "japanese": "{試合|しあい}に{大敗|たいはい}し、{目|め}も{当|あ}てられないありさまだった。",
       "english": "They suffered a crushing defeat — it was a pitiful sight.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Written in kanji as {有様|ありさま} or {有|あ}り{様|さま}, but often written in hiragana. Describes the visible condition or state of something, typically something the speaker has observed directly.\n\nCOMMON COLLOCATIONS:\n- {町|まち}のありさま: the state of a town\n- {現場|げんば}のありさま: the state of the scene\n- このありさま: this (sorry) state of affairs\n- {目|め}も{当|あ}てられないありさま: a sight too awful to look at\n- ありさまを{伝|つた}える: to convey the situation\n\nNUANCE:\nIn sense 1, ありさま is neutral and simply refers to the observable state of something. In sense 2, especially with この or その, it carries a strong negative connotation — disappointment, disgust, or dismay at the way things look.\n\nSIMILAR WORDS:\n- {状態|じょうたい}: condition — more objective and technical\n- {様子|ようす}: appearance, look — broader and more neutral\n- ざま: a harsh, contemptuous variant meaning \"pitiful sight\"",
+  "notes": "Written in kanji as {有様|ありさま} or {有|あ}り{様|さま}, but often written in hiragana. Describes the visible condition or state of something, typically something the speaker has observed directly.\n\nCOMMON COLLOCATIONS:\n- {町|まち}のありさま: the state of a town\n- {現場|げんば}のありさま: the state of the scene\n- このありさま: this (sorry) state of affairs\n- {目|め}も{当|あ}てられないありさま: a sight too awful to look at\n- ありさまを{伝|つた}える: to convey the situation\n\nUSAGE:\nIn sense 1, ありさま is neutral and simply refers to the observable state of something. In sense 2, especially with この or その, it carries a strong negative connotation — disappointment, disgust, or dismay at the way things look.\n\nSIMILAR WORDS:\n- {状態|じょうたい}: condition — more objective and technical\n- {様子|ようす}: appearance, look — broader and more neutral\n- ざま: a harsh, contemptuous variant meaning \"pitiful sight\"",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03345_joutai",
+      "reading": "じょうたい",
+      "headword": "{状態|じょうたい}",
+      "label": "condition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01521_yousu",
+      "reading": "ようす",
+      "headword": "{様子|ようす}",
+      "label": "appearance, look"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -82,6 +110,6 @@
       ]
     },
     "created": "2026-04-02T15:19:44Z",
-    "modified": "2026-07-26T03:19:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

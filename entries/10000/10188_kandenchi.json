@@ -18,7 +18,9 @@
       "english": "Replace the batteries.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10188_kandenchi_ex2",
@@ -26,7 +28,9 @@
       "english": "The batteries ran out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10188_kandenchi_ex3",
@@ -34,10 +38,12 @@
       "english": "This flashlight runs on two AA batteries.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{乾電池|かんでんち} specifically refers to disposable (non-rechargeable) dry cell batteries — the standard batteries used in remote controls, flashlights, toys, and other everyday devices.\n\nWORD FORMATION:\n{乾|かん} (dry) + {電池|でんち} (battery). \"Dry\" distinguishes it from older wet cell batteries.\n\nCOMMON SIZES (Japanese naming):\n- {単三|たんさん}: AA (most common)\n- {単四|たんよん}: AAA\n- {単一|たんいち}: D\n- {単二|たんに}: C\n\nCOMMON PATTERNS:\n- {乾電池|かんでんち}を{入|い}れ{替|か}える: to replace batteries\n- {乾電池|かんでんち}が{切|き}れる: batteries run out\n\nRELATED:\n- {充電池|じゅうでんち}/{充電式|じゅうでんしき}{電池|でんち}: rechargeable battery\n- {電池切|でんちぎ}れ: dead battery\n- ボタン{電池|でんち}: button cell battery",
+  "notes": "{乾電池|かんでんち} specifically refers to disposable (non-rechargeable) dry cell batteries — the standard batteries used in remote controls, flashlights, toys, and other everyday devices.\n\nFORMS:\n{乾|かん} (dry) + {電池|でんち} (battery). \"Dry\" distinguishes it from older wet cell batteries.\n\nCOMMON SIZES (Japanese naming):\n- {単三|たんさん}: AA (most common)\n- {単四|たんよん}: AAA\n- {単一|たんいち}: D\n- {単二|たんに}: C\n\nCOMMON PATTERNS:\n- {乾電池|かんでんち}を{入|い}れ{替|か}える: to replace batteries\n- {乾電池|かんでんち}が{切|き}れる: batteries run out\n\nRELATED WORDS:\n- {充電池|じゅうでんち}/{充電式|じゅうでんしき}{電池|でんち}: rechargeable battery\n- {電池切|でんちぎ}れ: dead battery\n- ボタン{電池|でんち}: button cell battery",
   "cross_references": [
     {
       "type": "contrast",
@@ -45,17 +51,43 @@
       "reading": "ちくでんち",
       "headword": "{蓄電池|ちくでんち}",
       "label": "storage battery"
+    },
+    {
+      "type": "related",
+      "target_id": "23748_juudenchi",
+      "reading": "じゅうでんち",
+      "headword": "{充電池|じゅうでんち}",
+      "label": "rechargeable battery"
+    },
+    {
+      "type": "related",
+      "target_id": "07688_denchigire",
+      "reading": "でんちぎれ",
+      "headword": "{電池切|でんちぎ}れ",
+      "label": "dead battery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30068_richiumuiondenchi",
+      "reading": "りちうむいおんでんち",
+      "headword": "リチウムイオン{電池|でんち}",
+      "label": "lithium-ion battery"
     }
   ],
   "metadata": {
     "created": "2026-02-05T12:58:08Z",
-    "modified": "2026-04-20T04:12:15Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["electronics", "daily-life"]
+      "semantic": [
+        "electronics",
+        "daily-life"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{外観的|がいかんてき}",
   "reading": "がいかんてき",
   "romaji": "gaikanteki",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "external; outward; superficial (in appearance)",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Composed of {外観|がいかん} (outward appearance, exterior) and the suffix ～{的|てき} (pertaining to, -like). Used in both everyday and technical contexts to distinguish surface-level characteristics from deeper qualities.\n\nCOMMON COLLOCATIONS:\n- {外観的|がいかんてき}な{特徴|とくちょう}: outward characteristics\n- {外観的|がいかんてき}な{変化|へんか}: change in outward appearance\n- {外観的|がいかんてき}に{判断|はんだん}する: to judge by outward appearance\n\nSIMILAR WORDS:\n- {表面的|ひょうめんてき}: superficial — emphasizes surface-level quality, often with a negative nuance of being shallow\n- {見|み}た{目|め}: appearance, looks — a more colloquial way to refer to how something looks\n- {内面的|ないめんてき}: internal, inner — the opposite, referring to inner qualities or character",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18749_hyoumenteki",
+      "reading": "ひょうめんてき",
+      "headword": "{表面的|ひょうめんてき}",
+      "label": "superficial"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14110_mitame",
+      "reading": "みため",
+      "headword": "{見|み}た{目|め}",
+      "label": "appearance, looks"
+    },
+    {
+      "type": "antonym",
+      "target_id": "05679_naimenteki",
+      "reading": "ないめんてき",
+      "headword": "{内面的|ないめんてき}",
+      "label": "internal, inner"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +82,6 @@
       ]
     },
     "created": "2026-05-03T16:14:46Z",
-    "modified": "2026-05-03T16:14:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{推理|すいり}",
   "reading": "すいり",
   "romaji": "suiri",
-  "part_of_speech": "noun / する verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reasoning; deduction; inference",
   "conjugation": {
     "type": "suru",
@@ -134,8 +134,52 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {推|すい} (conjecture, infer) + {理|り} (logic, reason). Refers to logical reasoning from evidence — most commonly associated with detective fiction and mystery genres.\n\nCOMMON COLLOCATIONS:\n- {推理|すいり}{小説|しょうせつ}: mystery novel, detective fiction\n- {推理|すいり}ドラマ: mystery drama/show\n- {推理|すいり}する: to reason, to deduce\n- {推理|すいり}{力|りょく}: reasoning ability\n- {鋭|するど}い{推理|すいり}: sharp deduction\n\nCONTRAST:\n- {推測|すいそく}: guess, conjecture (less rigorous, more speculative)\n- {推定|すいてい}: estimation, presumption (more objective, often statistical)\n- {論理|ろんり}: logic (abstract and academic, not detective-related)",
+  "notes": "Composed of {推|すい} (conjecture, infer) + {理|り} (logic, reason). Refers to logical reasoning from evidence — most commonly associated with detective fiction and mystery genres.\n\nCOMMON COLLOCATIONS:\n- {推理|すいり}{小説|しょうせつ}: mystery novel, detective fiction\n- {推理|すいり}ドラマ: mystery drama/show\n- {推理|すいり}する: to reason, to deduce\n- {推理|すいり}{力|りょく}: reasoning ability\n- {鋭|するど}い{推理|すいり}: sharp deduction\n\nSIMILAR WORDS:\n- {推測|すいそく}: guess, conjecture (less rigorous, more speculative)\n- {推定|すいてい}: estimation, presumption (more objective, often statistical)\n- {論理|ろんり}: logic (abstract and academic, not detective-related)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12821_suisoku",
+      "reading": "すいそく",
+      "headword": "{推測|すいそく}",
+      "label": "guess, conjecture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04293_suitei",
+      "reading": "すいてい",
+      "headword": "{推定|すいてい}",
+      "label": "estimation, presumption"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06026_ronri",
+      "reading": "ろんり",
+      "headword": "{論理|ろんり}",
+      "label": "logic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20773_suiron",
+      "reading": "すいろん",
+      "headword": "{推論|すいろん}",
+      "label": "inference"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21807_suiryou",
+      "reading": "すいりょう",
+      "headword": "{推量|すいりょう}",
+      "label": "conjecture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25873_nazotoki",
+      "reading": "なぞとき",
+      "headword": "なぞ{解|と}き",
+      "label": "puzzle-solving"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +195,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-23T10:19:58Z",
-    "modified": "2026-07-26T09:39:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

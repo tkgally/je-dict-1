@@ -40,10 +40,10 @@
       ]
     }
   ],
-  "notes": "{病人|びょうにん} refers to a sick person or patient.\n\nUSAGE:\n- More general than {患者|かんじゃ} (patient in a medical facility)\n- Can refer to anyone who is ill, not necessarily hospitalized\n\nRELATED TERMS:\n- {患者|かんじゃ}: patient (formal, medical term)\n- ⟦{病気|びょうき}→病気：00771_byouki⟧: illness, disease\n- {病院|びょういん}: hospital\n- {看病|かんびょう}: nursing care\n\nCOUNTER: {人|にん} or {名|めい} (for counting people)",
+  "notes": "{病人|びょうにん} refers to a sick person or patient.\n\nUSAGE:\n- More general than {患者|かんじゃ} (patient in a medical facility)\n- Can refer to anyone who is ill, not necessarily hospitalized\n\nRELATED WORDS:\n- {患者|かんじゃ}: patient (formal, medical term)\n- ⟦{病気|びょうき}→病気：00771_byouki⟧: illness, disease\n- {病院|びょういん}: hospital\n- {看病|かんびょう}: nursing care\n\nCOUNTER: {人|にん} or {名|めい} (for counting people)",
   "metadata": {
     "created": "2026-02-03T11:36:14Z",
-    "modified": "2026-02-03T11:36:14Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
@@ -71,6 +71,20 @@
       "reading": "びょうき",
       "headword": "{病気|びょうき}",
       "label": "illness, disease"
+    },
+    {
+      "type": "related",
+      "target_id": "00577_byouin",
+      "reading": "びょういん",
+      "headword": "{病院|びょういん}",
+      "label": "hospital"
+    },
+    {
+      "type": "related",
+      "target_id": "16956_kanbyou",
+      "reading": "かんびょう",
+      "headword": "{看病|かんびょう}",
+      "label": "nursing care"
     }
   ]
 }

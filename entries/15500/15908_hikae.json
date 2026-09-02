@@ -24,7 +24,9 @@
       "english": "I keep a copy of the receipt.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15908_hikae_ex2",
@@ -32,7 +34,9 @@
       "english": "Do you have a copy of the application form?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15908_hikae_ex3",
@@ -40,7 +44,9 @@
       "english": "You should always make copies of important documents and store them in a separate place.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15908_hikae_ex4",
@@ -48,7 +54,9 @@
       "english": "I stand by as a reserve player.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15908_hikae_ex5",
@@ -56,7 +64,9 @@
       "english": "Today I was on the bench.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15908_hikae_ex6",
@@ -64,7 +74,9 @@
       "english": "The relief pitcher took the mound and brilliantly closed out the game.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE: {控|ひか}え is the noun form of {控|ひか}える (to refrain; to note down; to wait). As a noun, its two main meanings are (1) a duplicate/copy kept for reference and (2) a reserve/backup.\n\nCOMMON COLLOCATIONS:\n- {控|ひか}えを{取|と}る: to make a copy\n- {控|ひか}えの{選手|せんしゅ}: reserve player, substitute\n- {控|ひか}えに{回|まわ}る: to go to the bench, to step back to a backup role\n- {控|ひか}え{室|しつ}: waiting room, green room",
@@ -76,17 +88,36 @@
       "note": "verb form"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20132_daiyaku",
+      "reading": "だいやく",
+      "headword": "{代役|だいやく}",
+      "label": "stand-in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30057_sabu",
+      "reading": "さぶ",
+      "headword": "サブ",
+      "label": "sub"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T14:01:01Z",
-    "modified": "2026-05-02T08:18:57Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     }
   }
 }

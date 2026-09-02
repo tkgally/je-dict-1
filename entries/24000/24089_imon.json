@@ -3,7 +3,7 @@
   "headword": "{慰問|いもん}",
   "reading": "いもん",
   "romaji": "imon",
-  "part_of_speech": "noun (する verb)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "consolation visit; morale visit",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Describes visiting people in difficult situations — the sick, elderly, disaster victims, or those separated from family — to provide comfort and encouragement. Often involves bringing gifts, performing entertainment, or simply spending time. Commonly done by volunteers, celebrities, politicians, and organizations.\n\nCOMMON COLLOCATIONS:\n- {慰問|いもん}{公演|こうえん}: consolation performance (entertainment for those in hardship)\n- {慰問|いもん}{品|ひん}: consolation gifts; care packages\n- {慰問|いもん}{活動|かつどう}: consolation/morale-boosting activities\n- {慰問|いもん}に{訪|おとず}れる: to visit for consolation\n\nSIMILAR WORDS:\n- {見舞|みま}い: visiting someone who is ill or in trouble — more personal and everyday\n- {慰労|いろう}: appreciation/consolation for hard work — thanking someone for their efforts rather than comforting in adversity",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03745_mimai",
+      "reading": "みまい",
+      "headword": "{見舞|みま}い",
+      "label": "visiting someone who is ill…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25276_irou",
+      "reading": "いろう",
+      "headword": "{慰労|いろう}",
+      "label": "appreciation/consolation for hard work"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "society"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-17T17:42:21Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

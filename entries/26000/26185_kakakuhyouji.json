@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "In Japan, since April 2021, {総額表示|そうがくひょうじ} (total price display including tax) has been mandatory for consumer-facing prices. This means the displayed price must include {消費税|しょうひぜい} (consumption tax). Before this rule, many stores showed pre-tax prices with a small \"+{税|ぜい}\" note.\n\nCOMMON COLLOCATIONS:\n- {総額|そうがく}{価格表示|かかくひょうじ} — total price display (including tax)\n- {税抜|ぜいぬ}き{価格表示|かかくひょうじ} — pre-tax price display\n- {価格表示|かかくひょうじ}の{義務化|ぎむか} — mandatory price display\n- {価格表示|かかくひょうじ}を{変更|へんこう}する — to change the price display\n\nRELATED TERMS:\n- {値札|ねふだ} — price tag (the physical tag attached to a product)\n- {定価|ていか} — list price; fixed price",
-  "cross_references": [],
+  "notes": "In Japan, since April 2021, {総額表示|そうがくひょうじ} (total price display including tax) has been mandatory for consumer-facing prices. This means the displayed price must include {消費税|しょうひぜい} (consumption tax). Before this rule, many stores showed pre-tax prices with a small \"+{税|ぜい}\" note.\n\nCOMMON COLLOCATIONS:\n- {総額|そうがく}{価格表示|かかくひょうじ} — total price display (including tax)\n- {税抜|ぜいぬ}き{価格表示|かかくひょうじ} — pre-tax price display\n- {価格表示|かかくひょうじ}の{義務化|ぎむか} — mandatory price display\n- {価格表示|かかくひょうじ}を{変更|へんこう}する — to change the price display\n\nRELATED WORDS:\n- {値札|ねふだ} — price tag (the physical tag attached to a product)\n- {定価|ていか} — list price; fixed price",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09532_nefuda",
+      "reading": "ねふだ",
+      "headword": "{値札|ねふだ}",
+      "label": "price tag"
+    },
+    {
+      "type": "related",
+      "target_id": "04066_teika",
+      "reading": "ていか",
+      "headword": "{定価|ていか}",
+      "label": "list price"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business",
         "shopping"
       ]
     },
     "created": "2026-04-29T16:34:28Z",
-    "modified": "2026-04-29T16:34:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

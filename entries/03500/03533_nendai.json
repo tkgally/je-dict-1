@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {年代|ねんだい} is used for historical periods (decades) and age groups.\n\nCOMMON PATTERNS:\n・19XX{年代|ねんだい} (the 19XXs - decade)\n・{年代|ねんだい}⟦を→を：00422_wo⟧⟦{問|と}わず→問う：02299_tou⟧ (regardless of age)\n・⟦{同|おな}じ→同じ：02857_onaji⟧{年代|ねんだい} (same generation)\n・⟦{若|わか}い→若い：00823_wakai⟧{年代|ねんだい} (younger generation)\n・{年代|ねんだい}⟦{順|じゅん}→順：03342_jun⟧ (in chronological order)\n\nCOMMON COMPOUNDS:\n・{年代|ねんだい}⟦{別|べつ}→別：01216_betsu⟧ (by age group)\n・{年代|ねんだい}⟦{記|き}→記：noentry⟧ (chronicle)\n・{年代|ねんだい}⟦{測定|そくてい}→測定：04398_sokutei⟧ (dating, age determination)\n\nRELATED WORDS:\n・⟦{時代|じだい}→時代：01424_jidai⟧ - era, period (longer, named periods)\n・⟦{世代|せだい}→世代：05102_sedai⟧ - generation\n・⟦{年齢|ねんれい}→年齢：01490_nenrei⟧ - age (individual's age)",
+  "notes": "USAGE: {年代|ねんだい} is used for historical periods (decades) and age groups.\n\nCOMMON PATTERNS:\n- 19XX{年代|ねんだい} (the 19XXs - decade)\n- {年代|ねんだい}⟦を→を：00422_wo⟧⟦{問|と}わず→問う：02299_tou⟧ (regardless of age)\n- ⟦{同|おな}じ→同じ：02857_onaji⟧{年代|ねんだい} (same generation)\n- ⟦{若|わか}い→若い：00823_wakai⟧{年代|ねんだい} (younger generation)\n- {年代|ねんだい}⟦{順|じゅん}→順：03342_jun⟧ (in chronological order)\n\nCOMPOUNDS:\n- {年代|ねんだい}⟦{別|べつ}→別：01216_betsu⟧ (by age group)\n- {年代|ねんだい}⟦{記|き}→記：noentry⟧ (chronicle)\n- {年代|ねんだい}⟦{測定|そくてい}→測定：04398_sokutei⟧ (dating, age determination)\n\nRELATED WORDS:\n- ⟦{時代|じだい}→時代：01424_jidai⟧ - era, period (longer, named periods)\n- ⟦{世代|せだい}→世代：05102_sedai⟧ - generation\n- ⟦{年齢|ねんれい}→年齢：01490_nenrei⟧ - age (individual's age)",
   "cross_references": [
     {
       "type": "related",
@@ -93,11 +93,25 @@
       "headword": "{世代|せだい}",
       "label": "generation",
       "target_id": "05102_sedai"
+    },
+    {
+      "type": "related",
+      "target_id": "01490_nenrei",
+      "reading": "ねんれい",
+      "headword": "{年齢|ねんれい}",
+      "label": "age"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25966_nenreisou",
+      "reading": "ねんれいそう",
+      "headword": "{年齢層|ねんれいそう}",
+      "label": "age group"
     }
   ],
   "metadata": {
     "created": "2026-01-12T11:04:00Z",
-    "modified": "2026-05-26T13:19:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

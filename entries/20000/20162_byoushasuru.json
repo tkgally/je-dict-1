@@ -3,7 +3,7 @@
   "headword": "{描写|びょうしゃ}する",
   "reading": "びょうしゃする",
   "romaji": "byoushasuru",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to depict; to describe; to portray",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,29 @@
   ],
   "notes": "A する-verb from {描写|びょうしゃ}, a compound of {描|びょう} (depict, draw) and {写|しゃ} (copy, capture). A key term in literary criticism, art, and film studies. Emphasizes vivid, detailed representation rather than simple description.\n\nTRANSITIVITY:\nTransitive — takes を to mark the thing being depicted.\n\nCOMMON COLLOCATIONS:\n- {心理|しんり}{描写|びょうしゃ} — psychological portrayal\n- {情景|じょうけい}{描写|びょうしゃ} — scene description\n- {人物|じんぶつ}{描写|びょうしゃ} — character portrayal\n- {写実的|しゃじつてき}な{描写|びょうしゃ} — realistic depiction\n- {描写力|びょうしゃりょく} — descriptive power\n\nSIMILAR WORDS:\n- {表現|ひょうげん}する — to express (broader, not limited to vivid representation)\n- {描|えが}く — to draw, to depict (native Japanese, also used figuratively)\n- {記述|きじゅつ}する — to describe in writing (more factual, less artistic)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03584_hyougen",
+      "reading": "ひょうげん",
+      "headword": "{表現|ひょうげん}",
+      "label": "to express"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02013_egaku",
+      "reading": "えがく",
+      "headword": "{描|えが}く",
+      "label": "to draw, to depict"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17347_kijutsusuru",
+      "reading": "きじゅつする",
+      "headword": "{記述|きじゅつ}する",
+      "label": "to describe in writing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -153,6 +176,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T15:12:49Z",
-    "modified": "2026-03-28T15:12:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

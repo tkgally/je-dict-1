@@ -2,7 +2,7 @@
   "id": "05465_henpin",
   "headword": "{返品|へんぴん}",
   "reading": "へんぴん",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "return (of goods)",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{返品|へんぴん} means returning purchased goods to the seller. The kanji are {返|へん} (return) + {品|ぴん} (goods). It functions as a noun and する verb.\n\nCOMMON EXPRESSIONS:\n- {返品|へんぴん}する: to return goods\n- {返品|へんぴん}⟦{可|か}→可：noentry⟧: returnable\n- {返品|へんぴん}⟦{不可|ふか}→不可：01922_fuka⟧: non-returnable\n- {返品|へんぴん}⟦{期限|きげん}→期限：12861_kigen⟧: return deadline\n- {返品|へんぴん}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: return procedure\n- {返品|へんぴん}⟦を→を：00422_wo⟧⟦{受|う}け{付|つ}ける→受け付ける：05683_uketsukeru⟧: to accept returns\n\nSHOPPING CONTEXT:\nOnline shopping (⟦{通販|つうはん}→通販：17464_tsuuhan⟧) sites typically have {返品|へんぴん}ポリシー (return policies). Common conditions include ⟦{未開封|みかいふう}→未開封：10677_mikaifuu⟧ (unopened) and ⟦{期限|きげん}→期限：12861_kigen⟧⟦{内|ない}→〜内：09853_nai⟧ (within the deadline).\n\nRELATED TERMS:\n- ⟦{返金|へんきん}→返金：06130_henkin⟧: refund (money back)\n- ⟦{交換|こうかん}→交換：02746_koukan⟧: exchange (swap for different item)\n- ⟦{返却|へんきゃく}→返却：03149_henkyaku⟧: return (of borrowed items, not purchases)",
+  "notes": "{返品|へんぴん} means returning purchased goods to the seller. The kanji are {返|へん} (return) + {品|ぴん} (goods). It functions as a noun and する verb.\n\nCOMMON EXPRESSIONS:\n- {返品|へんぴん}する: to return goods\n- {返品|へんぴん}⟦{可|か}→可：noentry⟧: returnable\n- {返品|へんぴん}⟦{不可|ふか}→不可：01922_fuka⟧: non-returnable\n- {返品|へんぴん}⟦{期限|きげん}→期限：12861_kigen⟧: return deadline\n- {返品|へんぴん}⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧: return procedure\n- {返品|へんぴん}⟦を→を：00422_wo⟧⟦{受|う}け{付|つ}ける→受け付ける：05683_uketsukeru⟧: to accept returns\n\nSHOPPING CONTEXT:\nOnline shopping (⟦{通販|つうはん}→通販：17464_tsuuhan⟧) sites typically have {返品|へんぴん}ポリシー (return policies). Common conditions include ⟦{未開封|みかいふう}→未開封：10677_mikaifuu⟧ (unopened) and ⟦{期限|きげん}→期限：12861_kigen⟧⟦{内|ない}→〜内：09853_nai⟧ (within the deadline).\n\nRELATED WORDS:\n- ⟦{返金|へんきん}→返金：06130_henkin⟧: refund (money back)\n- ⟦{交換|こうかん}→交換：02746_koukan⟧: exchange (swap for different item)\n- ⟦{返却|へんきゃく}→返却：03149_henkyaku⟧: return (of borrowed items, not purchases)",
   "cross_references": [
     {
       "type": "related",
@@ -155,11 +155,53 @@
       "reading": "へんきゃく",
       "headword": "{返却|へんきゃく}",
       "label": "return (of borrowed items)"
+    },
+    {
+      "type": "related",
+      "target_id": "07344_hensou",
+      "reading": "へんそう",
+      "headword": "{返送|へんそう}",
+      "label": "return shipping"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14975_okurikaesu",
+      "reading": "おくりかえす",
+      "headword": "{送|おく}り{返|かえ}す",
+      "label": "to send back"
+    },
+    {
+      "type": "related",
+      "target_id": "19452_furyouhin",
+      "reading": "ふりょうひん",
+      "headword": "{不良品|ふりょうひん}",
+      "label": "defective product, faulty goods"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21322_henkinsuru",
+      "reading": "へんきんする",
+      "headword": "{返金|へんきん}する",
+      "label": "to refund"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21323_henkyakusuru",
+      "reading": "へんきゃくする",
+      "headword": "{返却|へんきゃく}する",
+      "label": "to return (something)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26476_koukanhin",
+      "reading": "こうかんひん",
+      "headword": "{交換品|こうかんひん}",
+      "label": "replacement item"
     }
   ],
   "metadata": {
     "created": "2026-01-16T07:40:15Z",
-    "modified": "2026-06-06T16:08:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

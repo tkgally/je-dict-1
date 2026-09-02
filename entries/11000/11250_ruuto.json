@@ -24,7 +24,9 @@
       "english": "To check the climbing route.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11250_ruuto_ex2",
@@ -32,7 +34,9 @@
       "english": "The car navigation guided me along the shortest route.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11250_ruuto_ex3",
@@ -40,7 +44,9 @@
       "english": "I took a different route to avoid traffic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11250_ruuto_ex4",
@@ -48,7 +54,9 @@
       "english": "We procure goods through our own channels.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11250_ruuto_ex5",
@@ -56,7 +64,9 @@
       "english": "To develop sales channels.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11250_ruuto_ex6",
@@ -64,21 +74,43 @@
       "english": "This is a rare wine imported through a special channel from overseas.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nルート is broadly used for both physical paths and abstract channels. For physical travel, it overlaps with {道|みち} and {経路|けいろ}, but ルート emphasizes a planned or chosen course rather than just a road.\n\nSense 2 (channel/pipeline) is common in business and often implies a special or exclusive connection.\n\nCOMMON COLLOCATIONS:\n- {登山|とざん}ルート: mountain climbing route\n- {最短|さいたん}ルート: shortest route\n- バスルート: bus route\n- {販売|はんばい}ルート: sales channel\n- {仕入|しい}れルート: procurement channel\n- {入手|にゅうしゅ}ルート: acquisition channel",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19280_michijun",
+      "reading": "みちじゅん",
+      "headword": "{道順|みちじゅん}",
+      "label": "route"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25644_heihoukon",
+      "reading": "へいほうこん",
+      "headword": "{平方根|へいほうこん}",
+      "label": "square root"
+    }
+  ],
   "metadata": {
     "created": "2026-02-15T09:16:30Z",
-    "modified": "2026-02-15T09:16:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "general"]
+      "semantic": [
+        "transportation",
+        "general"
+      ]
     }
   }
 }

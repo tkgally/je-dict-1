@@ -3,7 +3,7 @@
   "headword": "{羽化|うか}",
   "reading": "うか",
   "romaji": "uka",
-  "part_of_speech": "noun / する verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "emergence; eclosion (of an insect)",
   "conjugation": {
     "type": "suru",
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "{羽化|うか} is the final stage of insect metamorphosis: when an adult insect emerges from its pupa or final nymph stage and unfolds its wings.\n\nUSAGE:\n- Composed of {羽|う} (wing) + {化|か} (transformation); literally, 'becoming winged.'\n- Functions as a する verb and as a noun.\n- Used primarily in biology, entomology, and nature writing.\n\nCOMMON PATTERNS:\n- {蝶|ちょう}が{羽化|うか}する: a butterfly emerges from its pupa\n- {セミの羽化|うか}: the emergence of a cicada (a popular subject in summer nature observation)\n- {羽化|うか}{直後|ちょくご}: just after emergence\n- {羽化|うか}{不全|ふぜん}: incomplete eclosion (when an insect fails to emerge properly)\n\nCULTURAL CONTEXT:\n- Observing insect {羽化|うか} is a classic Japanese elementary school science activity; many children raise butterflies, beetles, or cicadas to watch the process.\n- The Daoist expression {羽化|うか}{登仙|とうせん} ('becoming winged and ascending to the immortals') uses the same characters figuratively, evoking the idea of a person reaching a transcendent state.",
+  "notes": "{羽化|うか} is the final stage of insect metamorphosis: when an adult insect emerges from its pupa or final nymph stage and unfolds its wings.\n\nUSAGE:\n- Composed of {羽|う} (wing) + {化|か} (transformation); literally, 'becoming winged.'\n- Functions as a する verb and as a noun.\n- Used primarily in biology, entomology, and nature writing.\n\nCOMMON PATTERNS:\n- {蝶|ちょう}が{羽化|うか}する: a butterfly emerges from its pupa\n- {セミの羽化|うか}: the emergence of a cicada (a popular subject in summer nature observation)\n- {羽化|うか}{直後|ちょくご}: just after emergence\n- {羽化|うか}{不全|ふぜん}: incomplete eclosion (when an insect fails to emerge properly)\n\nCULTURAL NOTE:\n- Observing insect {羽化|うか} is a classic Japanese elementary school science activity; many children raise butterflies, beetles, or cicadas to watch the process.\n- The Daoist expression {羽化|うか}{登仙|とうせん} ('becoming winged and ascending to the immortals') uses the same characters figuratively, evoking the idea of a person reaching a transcendent state.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19845_fuka",
+      "reading": "ふか",
+      "headword": "{孵化|ふか}",
+      "label": "hatching, incubation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20621_dappi",
+      "reading": "だっぴ",
+      "headword": "{脱皮|だっぴ}",
+      "label": "shedding skin"
+    },
+    {
+      "type": "related",
+      "target_id": "21225_sanagi",
+      "reading": "さなぎ",
+      "headword": "{蛹|さなぎ}",
+      "label": "pupa"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +174,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-23T10:19:42Z",
-    "modified": "2026-04-10T13:28:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

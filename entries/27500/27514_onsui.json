@@ -46,6 +46,29 @@
   ],
   "notes": "Compound of {温|おん} (warm) + {水|すい} (water). A slightly technical term; not used in everyday conversation about drinks or baths, where お{湯|ゆ} is normal.\n\nCOMMON COLLOCATIONS:\n- {温水|おんすい}プール: heated pool\n- {温水|おんすい}{洗浄|せんじょう}{便座|べんざ}: warm-water washlet (toilet seat)\n- {温水|おんすい}{暖房|だんぼう}: hot-water heating system\n- {温水|おんすい}{器|き}: water heater\n\nSIMILAR WORDS:\n- お{湯|ゆ}: hot water — everyday word for hot/warm water for tea, baths, etc.\n- {熱湯|ねっとう}: boiling water — water heated to or near the boil\n- {冷水|れいすい}: cold water — the temperature counterpart",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02518_oyu",
+      "reading": "おゆ",
+      "headword": "お{湯|ゆ}",
+      "label": "hot water"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13460_nettou",
+      "reading": "ねっとう",
+      "headword": "{熱湯|ねっとう}",
+      "label": "boiling water"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22480_reisui",
+      "reading": "れいすい",
+      "headword": "{冷水|れいすい}",
+      "label": "cold water"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "nature",
         "household"
@@ -61,6 +84,6 @@
       "domain": []
     },
     "created": "2026-05-13T03:10:35Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "id": "17980_mitsudan",
   "headword": "{密談|みつだん}",
   "reading": "みつだん",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "secret talk; confidential discussion",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,32 @@
     }
   ],
   "notes": "USAGE:\nOften carries a slightly suspicious or clandestine nuance. Common in political, business, and dramatic contexts. In Japanese political culture, secret meetings at {料亭|りょうてい} (traditional restaurants) are a well-known trope.\n\nCOMMON COLLOCATIONS:\n- {密談|みつだん}を{交|か}わす (exchange secret talks)\n- {密談|みつだん}が{行|おこな}われる (secret discussions take place)\n- {密談|みつだん}する (have a secret talk)\n- ひそかに{密談|みつだん}する (secretly confer)\n\nSIMILAR WORDS:\n- {内緒話|ないしょばなし}: whispered secret — more casual and everyday, like sharing a personal secret\n- {密会|みっかい}: secret meeting — focuses on the meeting itself rather than the conversation, often implies a romantic affair\n- {相談|そうだん}: consultation — neutral term for discussing something; not secret",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21425_naishobanashi",
+      "reading": "ないしょばなし",
+      "headword": "{内緒話|ないしょばなし}",
+      "label": "whispered secret"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25485_mikkai",
+      "reading": "みっかい",
+      "headword": "{密会|みっかい}",
+      "label": "secret meeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02089_soudan",
+      "reading": "そうだん",
+      "headword": "{相談|そうだん}",
+      "label": "consultation"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T10:09:49Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

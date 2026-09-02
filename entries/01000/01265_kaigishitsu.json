@@ -43,18 +43,53 @@
       ]
     }
   ],
-  "notes": "{会議室|かいぎしつ} means conference room or meeting room.\n\nWORD FORMATION:\n⟦{会議|かいぎ}→会議：00710_kaigi⟧ (meeting) + ⟦{室|しつ}→室：09946_shitsu⟧ (room)\n\nCOMMON EXPRESSIONS:\n- {会議室|かいぎしつ}⟦を→を：00422_wo⟧⟦{予約|よやく}する→予約する：22989_yoyakusuru⟧: to reserve a meeting room\n- {会議室|かいぎしつ}⟦が→が：00051_ga⟧⟦{空|あ}いている→空く：11062_aku⟧: the meeting room is available\n- {会議室|かいぎしつ}A/B/C: Conference Room A/B/C\n\nROOM TYPES WITH ⟦{室|しつ}→室：09946_shitsu⟧:\n- ⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧: classroom\n- ⟦{事務室|じむしつ}→事務室：03079_jimushitsu⟧: office\n- ⟦{研究室|けんきゅうしつ}→研究室：01397_kenkyuushitsu⟧: laboratory, professor's office\n- ⟦{控室|ひかえしつ}→控室：17258_hikaeshitsu⟧: waiting room\n- ⟦{応接室|おうせつしつ}→応接室：20242_ousetsushitsu⟧: reception room\n- ⟦{休憩室|きゅうけいしつ}→休憩室：23410_kyuukeishitsu⟧: break room\n\nNOTE: In Japanese offices, meeting rooms are often named with letters (A, B, C) or numbers rather than creative names.",
+  "notes": "{会議室|かいぎしつ} means conference room or meeting room.\n\nFORMS:\n⟦{会議|かいぎ}→会議：00710_kaigi⟧ (meeting) + ⟦{室|しつ}→室：09946_shitsu⟧ (room)\n\nCOMMON EXPRESSIONS:\n- {会議室|かいぎしつ}⟦を→を：00422_wo⟧⟦{予約|よやく}する→予約する：22989_yoyakusuru⟧: to reserve a meeting room\n- {会議室|かいぎしつ}⟦が→が：00051_ga⟧⟦{空|あ}いている→空く：11062_aku⟧: the meeting room is available\n- {会議室|かいぎしつ}A/B/C: Conference Room A/B/C\n\nROOM TYPES WITH ⟦{室|しつ}→室：09946_shitsu⟧:\n- ⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧: classroom\n- ⟦{事務室|じむしつ}→事務室：03079_jimushitsu⟧: office\n- ⟦{研究室|けんきゅうしつ}→研究室：01397_kenkyuushitsu⟧: laboratory, professor's office\n- ⟦{控室|ひかえしつ}→控室：17258_hikaeshitsu⟧: waiting room\n- ⟦{応接室|おうせつしつ}→応接室：20242_ousetsushitsu⟧: reception room\n- ⟦{休憩室|きゅうけいしつ}→休憩室：23410_kyuukeishitsu⟧: break room\n\nNOTE: In Japanese offices, meeting rooms are often named with letters (A, B, C) or numbers rather than creative names.",
   "cross_references": [
     {
       "type": "see_also",
       "reading": "かいぎ",
       "headword": "{会議|かいぎ}",
       "target_id": "00710_kaigi"
+    },
+    {
+      "type": "related",
+      "target_id": "01269_kaijou",
+      "reading": "かいじょう",
+      "headword": "{会場|かいじょう}",
+      "label": "venue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01586_koudou",
+      "reading": "こうどう",
+      "headword": "{講堂|こうどう}",
+      "label": "auditorium, lecture hall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20242_ousetsushitsu",
+      "reading": "おうせつしつ",
+      "headword": "{応接室|おうせつしつ}",
+      "label": "reception room"
+    },
+    {
+      "type": "related",
+      "target_id": "23471_tamokutekishitsu",
+      "reading": "たもくてきしつ",
+      "headword": "{多目的室|たもくてきしつ}",
+      "label": "multi-purpose room"
+    },
+    {
+      "type": "related",
+      "target_id": "24494_kaigisho",
+      "reading": "かいぎしょ",
+      "headword": "{会議所|かいぎしょ}",
+      "label": "chamber (of commerce)"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:59:56Z",
-    "modified": "2026-05-14T20:19:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

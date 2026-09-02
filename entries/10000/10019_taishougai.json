@@ -18,7 +18,9 @@
       "english": "Those under 18 are not eligible.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10019_taishougai_ex2",
@@ -26,7 +28,9 @@
       "english": "Some products are excluded from this discount.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10019_taishougai_ex3",
@@ -34,10 +38,12 @@
       "english": "Orders from overseas are not eligible for delivery.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{対象外|たいしょうがい} indicates that something does not fall within the specified scope or criteria.\n\nWORD FORMATION:\n{対象|たいしょう} (target, subject) + {外|がい} (outside) = outside the target\n\nOPPOSITE:\n- {対象|たいしょう}: target, subject, eligible\n- {対象内|たいしょうない}: within scope (less common)\n\nCOMMON PATTERNS:\n- 〜は{対象外|たいしょうがい}です: ~ is not applicable\n- {対象外|たいしょうがい}となる: to be excluded\n- {対象外|たいしょうがい}{商品|しょうひん}: excluded products\n\nUSAGE:\nCommonly seen in business, legal documents, and promotional materials to clarify exclusions.",
+  "notes": "{対象外|たいしょうがい} indicates that something does not fall within the specified scope or criteria.\n\nFORMS:\n{対象|たいしょう} (target, subject) + {外|がい} (outside) = outside the target\n\nSIMILAR WORDS:\n- {対象|たいしょう}: target, subject, eligible\n- {対象内|たいしょうない}: within scope (less common)\n\nCOMMON PATTERNS:\n- 〜は{対象外|たいしょうがい}です: ~ is not applicable\n- {対象外|たいしょうがい}となる: to be excluded\n- {対象外|たいしょうがい}{商品|しょうひん}: excluded products\n\nUSAGE:\nCommonly seen in business, legal documents, and promotional materials to clarify exclusions.",
   "prominent_see_also": [
     {
       "target_id": "03393_taishou",
@@ -46,16 +52,35 @@
       "note": "base word"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23637_fugaitou",
+      "reading": "ふがいとう",
+      "headword": "{不該当|ふがいとう}",
+      "label": "not applicable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29788_higaitou",
+      "reading": "ひがいとう",
+      "headword": "非該当",
+      "label": "not applicable"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T13:51:51Z",
-    "modified": "2026-04-23T09:22:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

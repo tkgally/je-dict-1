@@ -114,8 +114,37 @@
       "notes": null
     }
   ],
-  "notes": "One of the most versatile and frequently used expressions in Japanese. Written as {様|よう}だ when using kanji, though the hiragana form is more common. Attaches to the plain form of verbs, い-adjectives, な-adjective stems + な, and nouns + の.\n\nCOMMON PATTERNS:\n- verb plain + ようだ: {来|く}るようだ (it seems they're coming)\n- い-adjective + ようだ: {寒|さむ}いようだ (it seems cold)\n- な-adjective + なようだ: {元気|げんき}なようだ (seems healthy)\n- noun + のようだ: {春|はる}のようだ (like spring)\n- ように + verb: {聞|き}こえるように{話|はな}す (speak so one can be heard)\n- ようにする: to make an effort to; to make sure to\n- ようになる: to come to; to become able to\n\nSIMILAR EXPRESSIONS:\n- みたいだ: colloquial equivalent of ようだ (sense 1 and 2); ようだ is more formal\n- らしい: based on hearsay or indirect evidence, while ようだ is based on the speaker's own observation\n- そうだ (appearance): based on visual impression of the moment, while ようだ involves more deliberate judgment",
-  "cross_references": [],
+  "notes": "One of the most versatile and frequently used expressions in Japanese. Written as {様|よう}だ when using kanji, though the hiragana form is more common. Attaches to the plain form of verbs, い-adjectives, な-adjective stems + な, and nouns + の.\n\nCOMMON PATTERNS:\n- verb plain + ようだ: {来|く}るようだ (it seems they're coming)\n- い-adjective + ようだ: {寒|さむ}いようだ (it seems cold)\n- な-adjective + なようだ: {元気|げんき}なようだ (seems healthy)\n- noun + のようだ: {春|はる}のようだ (like spring)\n- ように + verb: {聞|き}こえるように{話|はな}す (speak so one can be heard)\n- ようにする: to make an effort to; to make sure to\n- ようになる: to come to; to become able to\n\nSIMILAR WORDS:\n- みたいだ: colloquial equivalent of ようだ (sense 1 and 2); ようだ is more formal\n- らしい: based on hearsay or indirect evidence, while ようだ is based on the speaker's own observation\n- そうだ (appearance): based on visual impression of the moment, while ようだ involves more deliberate judgment",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29147_mitaida",
+      "reading": "みたいだ",
+      "headword": "みたいだ",
+      "label": "colloquial equivalent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09502_rashii",
+      "reading": "らしい",
+      "headword": "らしい",
+      "label": "based on hearsay or indirect evidence…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10076_souda",
+      "reading": "そうだ",
+      "headword": "そうだ",
+      "label": "appearance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26605_gotoshi",
+      "reading": "ごとし",
+      "headword": "ごとし",
+      "label": "like"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -131,6 +160,6 @@
       "domain": []
     },
     "created": "2026-05-03T14:17:29Z",
-    "modified": "2026-05-03T14:17:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

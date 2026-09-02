@@ -19,7 +19,9 @@
       "english": "The top speed is 300 kilometers per hour.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17987_saikou_sokudo_ex2",
@@ -27,7 +29,9 @@
       "english": "The speed limit on this road is set at 60 kilometers per hour.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17987_saikou_sokudo_ex3",
@@ -35,21 +39,50 @@
       "english": "The Shinkansen's maximum speed has been improving year after year and currently reaches 320 kilometers per hour.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed in traffic law, vehicle specs, and physics. In traffic contexts, {最高|さいこう}{速度|そくど} often means the speed limit rather than the fastest a vehicle can go. Context determines the meaning.\n\nCOMMON COLLOCATIONS:\n- {最高|さいこう}{速度|そくど}に{達|たっ}する (to reach maximum speed)\n- {最高|さいこう}{速度|そくど}{制限|せいげん} (speed limit)\n- {最高|さいこう}{速度|そくど}を{出|だ}す (to reach top speed)\n- {法定|ほうてい}{最高|さいこう}{速度|そくど} (legal speed limit)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25675_zensokuryoku",
+      "reading": "ぜんそくりょく",
+      "headword": "{全速力|ぜんそくりょく}",
+      "label": "full speed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26875_seigensokudo",
+      "reading": "せいげんそくど",
+      "headword": "{制限速度|せいげんそくど}",
+      "label": "speed limit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29320_genkaisokudo",
+      "reading": "げんかいそくど",
+      "headword": "{限界速度|げんかいそくど}",
+      "label": "critical speed"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T11:47:29Z",
-    "modified": "2026-03-19T11:47:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "quantity"]
+      "semantic": [
+        "transportation",
+        "quantity"
+      ]
     }
   }
 }

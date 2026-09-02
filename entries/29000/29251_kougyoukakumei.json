@@ -17,7 +17,9 @@
       "id": "29251_kougyoukakumei_ex1",
       "japanese": "{工業革命|こうぎょうかくめい}について{学|まな}ぶ。",
       "english": "We study the Industrial Revolution.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29251_kougyoukakumei_ex2",
       "japanese": "{工業革命|こうぎょうかくめい}はイギリスで{始|はじ}まった。",
       "english": "The Industrial Revolution began in Britain.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29251_kougyoukakumei_ex3",
       "japanese": "{工業革命|こうぎょうかくめい}によって{人々|ひとびと}の{暮|く}らしや{働|はたら}き{方|かた}が{大|おお}きく{変|か}わった。",
       "english": "The Industrial Revolution greatly changed how people lived and worked.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from {工業|こうぎょう} (industry, manufacturing) + {革命|かくめい} (revolution). A standard term in history and social-studies education.\n\nCOMMON COLLOCATIONS:\n- {産業革命|さんぎょうかくめい}: the Industrial Revolution (the more common synonym)\n- {第|だい}{四次|よじ}{産業革命|さんぎょうかくめい}: the Fourth Industrial Revolution\n\nSIMILAR WORDS:\n- {産業革命|さんぎょうかくめい}: Industrial Revolution — the more widely used term in Japanese textbooks; {工業革命|こうぎょうかくめい} stresses the shift to factory manufacturing specifically\n- {技術革新|ぎじゅつかくしん}: technological innovation — refers to advances in technology in general, not the specific historical event",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18638_sangyoukakumei",
+      "reading": "さんぎょうかくめい",
+      "headword": "{産業|さんぎょう}{革命|かくめい}",
+      "label": "Industrial Revolution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12892_gijutsukakushin",
+      "reading": "ぎじゅつかくしん",
+      "headword": "{技術革新|ぎじゅつかくしん}",
+      "label": "technological innovation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["history"],
+      "politeness": "plain",
+      "semantic": [
+        "history"
+      ],
       "domain": []
     },
     "created": "2026-06-14T12:18:51Z",
-    "modified": "2026-06-14T12:18:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

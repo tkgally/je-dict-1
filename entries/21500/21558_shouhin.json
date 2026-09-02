@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {賞|しょう} (prize, reward) and {品|ひん} (goods, article). Refers specifically to the physical item awarded as a prize.\n\nCOMMON COLLOCATIONS:\n- {賞品|しょうひん}を{渡|わた}す: to hand over a prize\n- {賞品|しょうひん}が{当|あ}たる: to win a prize\n- {豪華|ごうか}な{賞品|しょうひん}: a luxurious prize\n- {賞品|しょうひん}を{用意|ようい}する: to prepare prizes\n\nSIMILAR WORDS:\n- {賞品|しょうひん}: prize (item) — the physical object given as a reward\n- {商品|しょうひん}: merchandise, product — a homophone with completely different meaning\n- {賞金|しょうきん}: prize money — monetary rather than physical reward\n- {景品|けいひん}: freebie, giveaway — a promotional item, often from stores or events\n- {トロフィー}: trophy — specifically a cup or figurine\n\nNOTE:\nBe careful not to confuse with the homophone {商品|しょうひん} (merchandise/product), which is much more common in daily life.",
+  "notes": "Composed of {賞|しょう} (prize, reward) and {品|ひん} (goods, article). Refers specifically to the physical item awarded as a prize.\n\nCOMMON COLLOCATIONS:\n- {賞品|しょうひん}を{渡|わた}す: to hand over a prize\n- {賞品|しょうひん}が{当|あ}たる: to win a prize\n- {豪華|ごうか}な{賞品|しょうひん}: a luxurious prize\n- {賞品|しょうひん}を{用意|ようい}する: to prepare prizes\n\nSIMILAR WORDS:\n- {賞品|しょうひん}: prize (item) — the physical object given as a reward\n- {商品|しょうひん}: merchandise, product — a homophone with completely different meaning\n- {賞金|しょうきん}: prize money — monetary rather than physical reward\n- {景品|けいひん}: freebie, giveaway — a promotional item, often from stores or events\n- トロフィー: trophy — specifically a cup or figurine\n\nUSAGE:\nBe careful not to confuse with the homophone {商品|しょうひん} (merchandise/product), which is much more common in daily life.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "01436_shouhin",
+      "reading": "しょうひん",
+      "headword": "{商品|しょうひん}",
+      "label": "merchandise, product"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14234_shoukin",
+      "reading": "しょうきん",
+      "headword": "{賞金|しょうきん}",
+      "label": "prize money"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08319_keihin",
+      "reading": "けいひん",
+      "headword": "{景品|けいひん}",
+      "label": "freebie, giveaway"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-02T16:16:50Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

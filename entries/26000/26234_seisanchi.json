@@ -17,7 +17,9 @@
       "id": "26234_seisanchi_ex1",
       "japanese": "この{米|こめ}の{生産地|せいさんち}は{新潟|にいがた}だ。",
       "english": "This rice is produced in Niigata.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26234_seisanchi_ex2",
       "japanese": "{生産地|せいさんち}から{直接|ちょくせつ}{届|とど}く{野菜|やさい}は{新鮮|しんせん}だ。",
       "english": "Vegetables delivered directly from the production area are fresh.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "26234_seisanchi_ex3",
       "japanese": "{消費者|しょうひしゃ}は{食品|しょくひん}の{生産地|せいさんち}を{確認|かくにん}してから{購入|こうにゅう}する{人|ひと}が{増|ふ}えている。",
       "english": "More and more consumers are checking the place of origin before purchasing food products.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {生産|せいさん} (production) and {地|ち} (place, area). Frequently appears on food labels and packaging in Japan, where consumers pay close attention to where food is produced.\n\nJapanese food labeling law requires {生産地|せいさんち} (or the related term {産地|さんち}) to be displayed on many products. Famous production areas like {新潟|にいがた} for rice, {静岡|しずおか} for tea, and {北海道|ほっかいどう} for dairy products carry strong brand value.\n\nCOMMON COLLOCATIONS:\n- {生産地|せいさんち}{表示|ひょうじ}: place-of-origin labeling\n- {生産地|せいさんち}{直送|ちょくそう}: shipped directly from the production area\n- {国内|こくない}{生産地|せいさんち}: domestic production area\n- {主要|しゅよう}{生産地|せいさんち}: major production area\n\nSIMILAR WORDS:\n- {産地|さんち}: producing area — shorter form, more commonly used on labels\n- {原産地|げんさんち}: place of origin — more formal, used in trade/customs\n- {産地直送|さんちちょくそう}: direct from the farm — a marketing phrase",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15415_gensanchi",
+      "reading": "げんさんち",
+      "headword": "{原産地|げんさんち}",
+      "label": "place of origin"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography", "food"]
+      "semantic": [
+        "geography",
+        "food"
+      ]
     },
     "created": "2026-04-30T12:21:34Z",
-    "modified": "2026-04-30T12:21:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

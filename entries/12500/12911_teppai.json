@@ -3,7 +3,7 @@
   "id": "12911_teppai",
   "headword": "{撤廃|てっぱい}",
   "reading": "てっぱい",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "abolition, repeal, removal",
   "conjugation": {
     "type": "suru",
@@ -149,11 +149,53 @@
       "reading": "てっかい",
       "headword": "{撤回|てっかい}",
       "label": "retraction, withdrawal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12483_haishi",
+      "reading": "はいし",
+      "headword": "{廃止|はいし}",
+      "label": "abolition, discontinuation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12482_haiki",
+      "reading": "はいき",
+      "headword": "{廃棄|はいき}",
+      "label": "disposal, scrapping"
+    },
+    {
+      "type": "related",
+      "target_id": "05762_kaijo",
+      "reading": "かいじょ",
+      "headword": "{解除|かいじょ}",
+      "label": "cancellation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24885_kinshikaijo",
+      "reading": "きんしかいじょ",
+      "headword": "{禁止解除|きんしかいじょ}",
+      "label": "lifting a ban"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25553_bokumetsusuru",
+      "reading": "ぼくめつする",
+      "headword": "{撲滅|ぼくめつ}する",
+      "label": "to eradicate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26843_kaijosuru",
+      "reading": "かいじょする",
+      "headword": "{解除|かいじょ}する",
+      "label": "to cancel"
     }
   ],
   "metadata": {
     "created": "2026-02-22T14:28:15Z",
-    "modified": "2026-04-27T09:13:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

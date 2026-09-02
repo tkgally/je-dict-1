@@ -17,7 +17,9 @@
       "id": "26291_mikeikensha_ex1",
       "japanese": "{未経験者|みけいけんしゃ}{歓迎|かんげい}の{求人|きゅうじん}を{探|さが}している。",
       "english": "I'm looking for job postings that welcome inexperienced applicants.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26291_mikeikensha_ex2",
       "japanese": "{未経験者|みけいけんしゃ}でも{応募|おうぼ}できますか。",
       "english": "Can someone with no experience apply?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "26291_mikeikensha_ex3",
       "japanese": "この{会社|かいしゃ}は{未経験者|みけいけんしゃ}にも{丁寧|ていねい}な{研修|けんしゅう}プログラムを{用意|ようい}しているので、{安心|あんしん}して{働|はたら}ける。",
       "english": "This company provides thorough training programs even for those with no experience, so you can work with peace of mind.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {未|み} (not yet; un-) + {経験|けいけん} (experience) + {者|しゃ} (person). Very commonly seen in job listings and recruitment contexts. The phrase {未経験者|みけいけんしゃ}{歓迎|かんげい} (inexperienced applicants welcome) is a standard line in Japanese job ads.\n\nCOMMON COLLOCATIONS:\n- {未経験者|みけいけんしゃ}{歓迎|かんげい}: inexperienced applicants welcome\n- {未経験者|みけいけんしゃ}OK: no experience required (informal listing)\n- {未経験者|みけいけんしゃ}{可|か}: inexperienced persons accepted\n- {未経験者|みけいけんしゃ}でも{大丈夫|だいじょうぶ}: it's fine even for beginners\n\nSIMILAR WORDS:\n- {初心者|しょしんしゃ}: beginner — focuses on skill level rather than work history; used for hobbies and learning too\n- {経験者|けいけんしゃ}: experienced person — the antonym\n- {素人|しろうと}: amateur; layperson — more casual and can carry a slightly dismissive nuance",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10149_shoshinsha",
+      "reading": "しょしんしゃ",
+      "headword": "{初心者|しょしんしゃ}",
+      "label": "beginner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04270_shirouto",
+      "reading": "しろうと",
+      "headword": "{素人|しろうと}",
+      "label": "amateur"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "work"]
+      "semantic": [
+        "person",
+        "work"
+      ]
     },
     "created": "2026-04-30T15:25:10Z",
-    "modified": "2026-04-30T15:25:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

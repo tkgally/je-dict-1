@@ -3,7 +3,7 @@
   "headword": "{叙勲|じょくん}",
   "reading": "じょくん",
   "romaji": "jokun",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "conferring a decoration; awarding an order",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A compound of {叙|じょ} (to confer, to bestow) and {勲|くん} (merit, decoration). In Japan, the government confers decorations twice a year — in spring (around April 29, the Emperor's birthday-era holiday) and autumn (around November 3, Culture Day). Recipients include people with distinguished service in public life, culture, education, and other fields.\n\nThe suru-verb form {叙勲|じょくん}する means \"to confer a decoration\" (from the government's perspective).\n\nCOMMON COLLOCATIONS:\n- {叙勲|じょくん}を{受|う}ける: to receive a decoration\n- {叙勲|じょくん}の{栄|えい}に{浴|よく}する: to have the honor of receiving a decoration\n- {春|はる}の{叙勲|じょくん}: spring conferment of decorations\n- {秋|あき}の{叙勲|じょくん}: autumn conferment of decorations\n- {叙勲|じょくん}{候補者|こうほしゃ}: candidates for decoration\n\nSIMILAR WORDS:\n- {勲章|くんしょう}: decoration; medal; order — the physical medal or badge itself\n- {褒章|ほうしょう}: medal of honor — a different category of government honor in Japan\n- {表彰|ひょうしょう}: commendation; recognition — a broader term for any formal acknowledgment of achievement",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21244_kunshou",
+      "reading": "くんしょう",
+      "headword": "{勲章|くんしょう}",
+      "label": "decoration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17400_hyoushou",
+      "reading": "ひょうしょう",
+      "headword": "{表彰|ひょうしょう}",
+      "label": "commendation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22879_jushou",
+      "reading": "じゅしょう",
+      "headword": "{受章|じゅしょう}",
+      "label": "receiving a decoration"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +76,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "society",
         "politics"
@@ -60,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-22T10:17:43Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

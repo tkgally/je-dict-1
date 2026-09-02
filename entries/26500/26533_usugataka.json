@@ -3,7 +3,7 @@
   "headword": "{薄型化|うすがたか}",
   "reading": "うすがたか",
   "romaji": "usugataka",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "making thinner; slimming down (of devices/products)",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "A compound of {薄型|うすがた} (thin type; slim profile) and {化|か} (-ization; becoming). Follows the common Japanese word-formation pattern of noun + {化|か} to indicate a process of change.\n\nCOMMON COLLOCATIONS:\n- {薄型化|うすがたか}が{進|すす}む: slimming down progresses\n- {薄型化|うすがたか}を{実現|じつげん}する: to achieve thinning\n- {薄型化|うすがたか}・{軽量化|けいりょうか}: making thinner and lighter\n\nSIMILAR WORDS:\n- {軽量化|けいりょうか}: weight reduction — often paired with {薄型化|うすがたか}\n- {小型化|こがたか}: miniaturization — making smaller in overall dimensions\n- コンパクト{化|か}: making compact — using a loanword, more general",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19238_keiryouka",
+      "reading": "けいりょうか",
+      "headword": "{軽量化|けいりょうか}",
+      "label": "weight reduction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20750_kogataka",
+      "reading": "こがたか",
+      "headword": "{小型化|こがたか}",
+      "label": "miniaturization"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,13 +69,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "technology"
       ],
       "verb_class": "suru"
     },
     "created": "2026-05-02T14:37:19Z",
-    "modified": "2026-05-02T14:37:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

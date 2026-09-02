@@ -46,6 +46,22 @@
   ],
   "notes": "Attaches directly to a counting expression to mean 'every one of that number'. The group must be specific and small (typically 2–5 members), and the speaker is asserting that the predicate holds for each member without exception.\n\nCOMMON PATTERNS:\n- {二人|ふたり}とも: both people\n- {二|ふた}つとも: both things\n- {三人|さんにん}とも: all three people\n- {両方|りょうほう}とも: both (of two options)\n- {全員|ぜんいん}とも (less common; usually just {全員|ぜんいん})\n\nSIMILAR WORDS:\n- {両方|りょうほう}: both — refers to two specific items as a pair\n- みんな: everyone — for larger or vaguer groups\n- {全部|ぜんぶ}: all; entirely — for things, not typically people",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01750_ryouhou",
+      "reading": "りょうほう",
+      "headword": "{両方|りょうほう}",
+      "label": "both"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02888_zenbu",
+      "reading": "ぜんぶ",
+      "headword": "{全部|ぜんぶ}",
+      "label": "all"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "particle"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "grammatical"
       ],
       "domain": []
     },
     "created": "2026-05-29T03:08:25Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

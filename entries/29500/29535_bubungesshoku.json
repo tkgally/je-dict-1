@@ -17,7 +17,9 @@
       "id": "29535_bubungesshoku_ex1",
       "japanese": "{今夜|こんや}は{部分|ぶぶん}{月食|げっしょく}だ。",
       "english": "There is a partial lunar eclipse tonight.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29535_bubungesshoku_ex2",
       "japanese": "{部分|ぶぶん}{月食|げっしょく}で{月|つき}の{一部|いちぶ}が{欠|か}けて{見|み}えた。",
       "english": "Part of the Moon appeared to be missing during the partial lunar eclipse.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29535_bubungesshoku_ex3",
       "japanese": "{天気|てんき}が{良|よ}ければ、{今晩|こんばん}の{部分|ぶぶん}{月食|げっしょく}がよく{見|み}えるだろう。",
       "english": "If the weather is good, tonight's partial lunar eclipse should be clearly visible.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {部分|ぶぶん} (partial) + {月食|げっしょく} (lunar eclipse).\n\nCOMMON COLLOCATIONS:\n- {部分|ぶぶん}{月食|げっしょく}が{見|み}られる: a partial lunar eclipse can be seen\n- {部分|ぶぶん}{月食|げっしょく}を{観測|かんそく}する: to observe a partial lunar eclipse\n\nSIMILAR WORDS:\n- {皆既|かいき}{月食|げっしょく}: total lunar eclipse — the whole Moon enters Earth's shadow\n- {半影|はんえい}{月食|げっしょく}: penumbral eclipse — the Moon only dims slightly",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17892_kaikigesshoku",
+      "reading": "かいきげっしょく",
+      "headword": "{皆既月食|かいきげっしょく}",
+      "label": "total lunar eclipse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29536_haneigesshoku",
+      "reading": "はんえいげっしょく",
+      "headword": "{半影|はんえい}{月食|げっしょく}",
+      "label": "penumbral eclipse"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["science"],
+      "politeness": "plain",
+      "semantic": [
+        "science"
+      ],
       "domain": []
     },
     "created": "2026-06-28T09:18:52Z",
-    "modified": "2026-06-28T09:18:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{運転|うんてん}する",
   "reading": "うんてんする",
   "romaji": "untensuru",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to drive; to operate (a vehicle or machine)",
   "conjugation": {
     "type": "suru",
@@ -171,6 +171,36 @@
   ],
   "notes": "A する-verb from {運転|うんてん}, composed of {運|うん} (to carry, to move) + {転|てん} (to turn, to revolve). The noun {運転|うんてん} is used extensively on its own, especially in compound words.\n\nUSAGE:\nFor vehicles (sense 1), this is the standard word for driving. For public transit, {運転|うんてん} refers to the service running — {運転|うんてん}{見合|みあ}わせ (suspension of service) is a phrase commuters hear frequently.\n\nCOMMON COLLOCATIONS:\n- {運転|うんてん}{免許|めんきょ} — driver's license\n- {運転|うんてん}{手|しゅ} — driver, operator\n- {飲酒|いんしゅ}{運転|うんてん} — drunk driving\n- {運転|うんてん}{見合|みあ}わせ — service suspension (trains)\n- {運転|うんてん}{再開|さいかい} — resumption of service\n\nSIMILAR WORDS:\n- {操縦|そうじゅう}する — to pilot, to steer (aircraft, ships; more technical)\n- {操作|そうさ}する — to operate, to control (machines, devices; focus on controls)\n- {乗|の}る — to ride (as a passenger, not as the driver)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17302_soujuusuru",
+      "reading": "そうじゅうする",
+      "headword": "{操縦|そうじゅう}する",
+      "label": "to pilot, to steer (aircraft, ships"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18999_sousasuru",
+      "reading": "そうさする",
+      "headword": "{操作|そうさ}する",
+      "label": "to operate, to control (machines…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00511_noru",
+      "reading": "のる",
+      "headword": "{乗|の}る",
+      "label": "to ride"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19633_kadousuru",
+      "reading": "かどうする",
+      "headword": "{稼働|かどう}する",
+      "label": "to operate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -188,6 +218,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T20:19:22Z",
-    "modified": "2026-03-28T20:19:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

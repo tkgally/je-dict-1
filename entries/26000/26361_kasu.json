@@ -70,7 +70,15 @@
     }
   ],
   "notes": "Written as {粕|かす} for the physical residue sense (especially food-related) or {滓|かす} for the figurative or general sense. In practice, hiragana かす is also common.\n\nThe most culturally significant usage is {酒粕|さけかす} (sake lees), which is widely used in Japanese cooking — for marinades, soups ({粕汁|かすじる}), and pickling ({粕漬|かすづ}け). Sake lees are not waste but a valued ingredient.\n\nCOMMON COLLOCATIONS:\n- {酒粕|さけかす}: sake lees\n- {粕汁|かすじる}: soup made with sake lees\n- {粕漬|かすづ}け: vegetables or fish pickled in sake lees\n- {搾|しぼ}り{粕|かす}: pressed residue; something wrung dry\n- {出|で}がらし: used tea leaves; something past its prime\n- {食|た}べ{粕|かす}: food scraps, leftovers\n\nSIMILAR WORDS:\n- {残|のこ}り: remainder — neutral; simply what is left over\n- おから: okara, tofu lees — a specific food byproduct, not pejorative\n- {沈殿物|ちんでんぶつ}: sediment — scientific/technical term",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01622_nokori",
+      "reading": "のこり",
+      "headword": "{残|のこ}り",
+      "label": "remainder"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -78,12 +86,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "food",
         "daily-life"
       ]
     },
     "created": "2026-05-01T12:38:33Z",
-    "modified": "2026-06-12T12:41:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

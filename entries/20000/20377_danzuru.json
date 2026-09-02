@@ -3,7 +3,7 @@
   "headword": "{断|だん}ずる",
   "reading": "だんずる",
   "romaji": "danzuru",
-  "part_of_speech": "verb (ずる)",
+  "part_of_speech": "verb (irregular)",
   "gloss": "to conclude; to judge decisively; to determine",
   "definitions": [
     {
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A literary and formal verb expressing a decisive judgment. More authoritative than {判断|はんだん}する and often used in legal, academic, and journalistic writing. The ずる conjugation is classical and gives the word a formal, weighty tone.\n\nCONJUGATION NOTE:\nConjugates as a ずる verb ({サ変|さへん} variant): {断|だん}ずる → {断|だん}じる (more common modern form) → {断|だん}じて (te-form, also used as an emphatic adverb meaning \"absolutely\").\n\nCOMMON PATTERNS:\n- ～と{断|だん}ずる: to conclude that ~\n- ～であると{断|だん}じる: to determine that ~ is\n- {断|だん}じて: absolutely, positively (adverbial use)\n\nSIMILAR WORDS:\n- {判断|はんだん}する: to judge, to decide — more neutral and everyday\n- {結論|けつろん}づける: to conclude — focuses on reaching a conclusion\n- {決|き}めつける: to jump to conclusions — has a negative nuance of being hasty\n\nRELATED EXPRESSION:\n- {断|だん}じて{許|ゆる}さない: absolutely will not allow — {断|だん}じて as an emphatic adverb",
+  "notes": "A literary and formal verb expressing a decisive judgment. More authoritative than {判断|はんだん}する and often used in legal, academic, and journalistic writing. The ずる conjugation is classical and gives the word a formal, weighty tone.\n\nCONJUGATION NOTE:\nConjugates as a ずる verb ({サ変|さへん} variant): {断|だん}ずる → {断|だん}じる (more common modern form) → {断|だん}じて (te-form, also used as an emphatic adverb meaning \"absolutely\").\n\nCOMMON PATTERNS:\n- ～と{断|だん}ずる: to conclude that ~\n- ～であると{断|だん}じる: to determine that ~ is\n- {断|だん}じて: absolutely, positively (adverbial use)\n\nSIMILAR WORDS:\n- {判断|はんだん}する: to judge, to decide — more neutral and everyday\n- {結論|けつろん}づける: to conclude — focuses on reaching a conclusion\n- {決|き}めつける: to jump to conclusions — has a negative nuance of being hasty\n\nRELATED WORDS:\n- {断|だん}じて{許|ゆる}さない: absolutely will not allow — {断|だん}じて as an emphatic adverb",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06062_handansuru",
+      "reading": "はんだんする",
+      "headword": "{判断|はんだん}する",
+      "label": "to judge, to decide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25972_ketsuronzukeru",
+      "reading": "けつろんづける",
+      "headword": "{結論|けつろん}づける",
+      "label": "to conclude"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13267_kimetsukeru",
+      "reading": "きめつける",
+      "headword": "{決|き}めつける",
+      "label": "to jump to conclusions"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +83,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-03-29T11:13:07Z",
-    "modified": "2026-04-10T07:12:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "zuru",

@@ -17,7 +17,9 @@
       "id": "18863_kyouri_ex1",
       "japanese": "{郷里|きょうり}に{帰|かえ}る。",
       "english": "I'll return to my hometown.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18863_kyouri_ex2",
       "japanese": "{郷里|きょうり}を{離|はな}れてもう{二十年|にじゅうねん}になる。",
       "english": "It's been twenty years since I left my hometown.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "18863_kyouri_ex3",
       "japanese": "{定年後|ていねんご}は{郷里|きょうり}に{戻|もど}って、のんびり{暮|く}らしたいと{思|おも}っている。",
       "english": "After retirement, I want to go back to my hometown and live a relaxed life.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -43,16 +49,59 @@
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25466_furusato",
+      "reading": "ふるさと",
+      "headword": "{故郷|ふるさと}",
+      "label": "hometown (warm, nostalgic tone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02733_kokyou",
+      "reading": "こきょう",
+      "headword": "{故郷|こきょう}",
+      "label": "hometown"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09941_jimoto",
+      "reading": "じもと",
+      "headword": "{地元|じもと}",
+      "label": "local area, hometown"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03076_jikka",
+      "reading": "じっか",
+      "headword": "{実家|じっか}",
+      "label": "parents' home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15396_shusshinchi",
+      "reading": "しゅっしんち",
+      "headword": "{出身地|しゅっしんち}",
+      "label": "place of origin"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["geography"],
-      "style": ["written"]
+      "semantic": [
+        "geography"
+      ],
+      "style": [
+        "written"
+      ]
     },
     "created": "2026-03-23T05:36:04Z",
-    "modified": "2026-04-07T02:46:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

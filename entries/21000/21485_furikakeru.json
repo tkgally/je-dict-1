@@ -3,7 +3,7 @@
   "headword": "{振|ふ}りかける",
   "reading": "ふりかける",
   "romaji": "furikakeru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to sprinkle over; to scatter on top of",
   "definitions": [
     {
@@ -45,6 +45,22 @@
     }
   ],
   "notes": "A compound verb from {振|ふ}る (to shake, scatter) + かける (to apply onto), meaning to sprinkle or scatter something onto a surface. Most commonly used in cooking contexts.\n\nUSAGE:\n- Almost always used for dry or fine ingredients (salt, pepper, spices, cheese, sesame seeds)\n- The noun ふりかけ (rice seasoning) derives from this verb\n- Can also be used figuratively, e.g., {水|みず}を{振|ふ}りかける (to sprinkle water)\n\nCOMMON COLLOCATIONS:\n- {塩|しお}を{振|ふ}りかける: to sprinkle salt\n- ごまを{振|ふ}りかける: to sprinkle sesame seeds\n- {粉|こな}チーズを{振|ふ}りかける: to sprinkle grated cheese\n- パセリを{振|ふ}りかける: to sprinkle parsley\n- {水|みず}を{振|ふ}りかける: to sprinkle water\n\nSIMILAR WORDS:\n- まぶす: to coat evenly; implies covering the entire surface\n- {散|ち}らす: to scatter; broader meaning, not limited to cooking\n- かける: to pour over; used for liquids rather than dry ingredients",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18477_mabusu",
+      "reading": "まぶす",
+      "headword": "まぶす",
+      "label": "to coat evenly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02288_chirasu",
+      "reading": "ちらす",
+      "headword": "{散|ち}らす",
+      "label": "to scatter"
+    }
+  ],
   "metadata": {
     "entry_id": "21485_furikakeru",
     "schema_version": "2.0",
@@ -55,6 +71,8 @@
       "pos": [
         "verb-ichidan"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food",
         "action"
@@ -63,7 +81,7 @@
       "usage": [],
       "verb_class": "ichidan"
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

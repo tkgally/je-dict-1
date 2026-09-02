@@ -2,7 +2,7 @@
   "id": "01718_fukushuu",
   "headword": "{復習|ふくしゅう}",
   "reading": "ふくしゅう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "review, revision",
   "conjugation": {
     "type": "suru",
@@ -161,11 +161,25 @@
       "headword": "{予習|よしゅう}",
       "label": "preparation/preview",
       "target_id": "01748_yoshuu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21560_dokushuu",
+      "reading": "どくしゅう",
+      "headword": "{独習|どくしゅう}",
+      "label": "self-study"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24708_kateigakushuu",
+      "reading": "かていがくしゅう",
+      "headword": "{家庭学習|かていがくしゅう}",
+      "label": "home study"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:33:20Z",
-    "modified": "2026-05-16T20:08:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

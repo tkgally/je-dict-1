@@ -19,7 +19,9 @@
       "english": "The incubation period is about two weeks.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16655_senpukukikan_ex2",
@@ -27,7 +29,9 @@
       "english": "Because the incubation period is long, it is hard to notice the infection.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16655_senpukukikan_ex3",
@@ -35,21 +39,35 @@
       "english": "The incubation period for influenza is said to be about one to three days.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA medical and scientific term commonly encountered in health news, public health announcements, and discussions of infectious diseases.\n\nCOMMON COLLOCATIONS:\n- {潜伏期間|せんぷくきかん}が{長|なが}い (the incubation period is long)\n- {潜伏期間|せんぷくきかん}は〜{日|にち} (the incubation period is ~ days)\n- {潜伏期間|せんぷくきかん}{中|ちゅう} (during the incubation period)\n\nSIMILAR WORDS:\n- {発症|はっしょう}: onset of symptoms — the point when symptoms appear after incubation",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09016_hasshou",
+      "reading": "はっしょう",
+      "headword": "{発症|はっしょう}",
+      "label": "onset of symptoms"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T02:12:10Z",
-    "modified": "2026-04-10T07:12:46Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["medicine"]
+      "semantic": [
+        "medicine"
+      ]
     }
   }
 }

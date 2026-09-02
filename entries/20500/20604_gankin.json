@@ -19,7 +19,9 @@
       "english": "To repay the principal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20604_gankin_ex2",
@@ -27,7 +29,9 @@
       "english": "You need to reduce not just the interest but also the principal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20604_gankin_ex3",
@@ -35,21 +39,50 @@
       "english": "It took three years to recoup the original investment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Composed of {元|がん} (original, base) + {金|きん} (money). A fundamental financial term. Can also be read もときん, though がんきん is more standard.\n\nCOMMON COLLOCATIONS:\n- {元金|がんきん}{返済|へんさい} (principal repayment)\n- {元金|がんきん}{均等|きんとう}{返済|へんさい} (equal principal repayment)\n- {元金|がんきん}を{回収|かいしゅう}する (recoup the principal)\n- {元金|がんきん}{保証|ほしょう} (principal guarantee)\n\nSIMILAR WORDS:\n- {元手|もとで} — capital, seed money (more colloquial, often for starting a business)\n- {資本|しほん} — capital (broader economic term)\n- {利息|りそく} — interest (the return on the principal, the counterpart concept)\n- {元本|がんぽん} — principal (close synonym, slightly more formal/legal)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03197_shihon",
+      "reading": "しほん",
+      "headword": "{資本|しほん}",
+      "label": "capital"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05469_risoku",
+      "reading": "りそく",
+      "headword": "{利息|りそく}",
+      "label": "interest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07072_ganpon",
+      "reading": "がんぽん",
+      "headword": "{元本|がんぽん}",
+      "label": "principal"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T19:23:38Z",
-    "modified": "2026-03-29T19:23:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["money", "business"]
+      "semantic": [
+        "money",
+        "business"
+      ]
     }
   }
 }

@@ -17,33 +17,61 @@
       "japanese": "{汎用|はんよう}コンピュータ。",
       "english": "A general-purpose computer.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07653_hanyou_ex2",
       "japanese": "この{部品|ぶひん}は{汎用性|はんようせい}が{高|たか}い。",
       "english": "This part has high versatility.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07653_hanyou_ex3",
       "japanese": "{汎用|はんよう}{製品|せいひん}は{専門|せんもん}{製品|せいひん}より{安価|あんか}なことが{多|おお}い。",
       "english": "General-purpose products are often cheaper than specialized ones.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nCommonly used as a noun modifier ({汎用|はんよう}〜) or with the suffix {性|せい} ({汎用性|はんようせい}) to describe versatility.\n\nCOMMON COLLOCATIONS:\n・{汎用|はんよう}コンピュータ - general-purpose computer\n・{汎用|はんよう}ソフトウェア - general-purpose software\n・{汎用|はんよう}{機|き} - general-purpose machine\n・{汎用性|はんようせい}が{高|たか}い - highly versatile\n\nCONTRAST:\n{専用|せんよう} (dedicated, specialized) is the opposite of {汎用|はんよう}.",
+  "notes": "USAGE:\nCommonly used as a noun modifier ({汎用|はんよう}〜) or with the suffix {性|せい} ({汎用性|はんようせい}) to describe versatility.\n\nCOMMON COLLOCATIONS:\n- {汎用|はんよう}コンピュータ - general-purpose computer\n- {汎用|はんよう}ソフトウェア - general-purpose software\n- {汎用|はんよう}{機|き} - general-purpose machine\n- {汎用性|はんようせい}が{高|たか}い - highly versatile\n\nSIMILAR WORDS:\n{専用|せんよう} (dedicated, specialized) is the opposite of {汎用|はんよう}.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12385_senyou",
+      "reading": "せんよう",
+      "headword": "{専用|せんよう}",
+      "label": "dedicated, specialized"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23808_tayouto",
+      "reading": "たようと",
+      "headword": "{多用途|たようと}",
+      "label": "multi-purpose"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T14:05:39Z",
-    "modified": "2026-03-17T07:30:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "semantic": ["technology", "business"]
+      "politeness": "plain",
+      "semantic": [
+        "technology",
+        "business"
+      ]
     }
   }
 }

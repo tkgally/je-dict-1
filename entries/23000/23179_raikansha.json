@@ -17,7 +17,9 @@
       "id": "23179_raikansha_ex1",
       "japanese": "{来館者|らいかんしゃ}が{増|ふ}えている。",
       "english": "The number of visitors is increasing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23179_raikansha_ex2",
       "japanese": "{来館者|らいかんしゃ}は{受付|うけつけ}で{名前|なまえ}を{記入|きにゅう}してください。",
       "english": "Visitors, please write your name at the reception desk.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "23179_raikansha_ex3",
       "japanese": "この{美術館|びじゅつかん}は{年間|ねんかん}{百万人|ひゃくまんにん}の{来館者|らいかんしゃ}を{迎|むか}えている。",
       "english": "This art museum receives one million visitors per year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {来|らい} (coming), {館|かん} (hall, building), and {者|しゃ} (person). Specifically refers to visitors to buildings designated by {館|かん} — museums, libraries, exhibition halls, and community centers. Not used for visitors to stores, temples, or homes.\n\nCOMMON COLLOCATIONS:\n- {来館者|らいかんしゃ}{数|すう}: number of visitors\n- {来館者|らいかんしゃ}アンケート: visitor survey\n- {来館者|らいかんしゃ}が{増|ふ}える: visitors increase\n- {来館者|らいかんしゃ}を{迎|むか}える: to welcome visitors\n\nSIMILAR WORDS:\n- {来場者|らいじょうしゃ}: visitor to an event venue — used for fairs, concerts, exhibitions\n- {来店者|らいてんしゃ}: visitor to a shop — customers coming to a store\n- {訪問者|ほうもんしゃ}: visitor — more general term for anyone who visits a place or person\n- {入館者|にゅうかんしゃ}: person entering a facility — emphasizes the act of entering rather than visiting",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19023_raijousha",
+      "reading": "らいじょうしゃ",
+      "headword": "{来場者|らいじょうしゃ}",
+      "label": "visitor to an event venue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20148_houmonsha",
+      "reading": "ほうもんしゃ",
+      "headword": "{訪問者|ほうもんしゃ}",
+      "label": "visitor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29194_nyuukansha",
+      "reading": "にゅうかんしゃ",
+      "headword": "{入館者|にゅうかんしゃ}",
+      "label": "person entering a facility"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["person"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "person"
+      ],
       "formality": "formal",
       "politeness": "plain"
     },
     "created": "2026-04-08T21:21:54Z",
-    "modified": "2026-04-08T21:21:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

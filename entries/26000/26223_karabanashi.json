@@ -22,7 +22,9 @@
       "id": "26223_karabanashi_ex1",
       "japanese": "{空話|からばなし}ばかり{言|い}うな。",
       "english": "Stop talking nonsense.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "26223_karabanashi_ex2",
       "japanese": "{会議|かいぎ}は{空話|からばなし}に{終|お}わり、{何|なに}も{決|き}まらなかった。",
       "english": "The meeting ended in idle talk and nothing was decided.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "26223_karabanashi_ex3",
       "japanese": "{彼|かれ}の{約束|やくそく}はいつも{空話|からばなし}で、{信用|しんよう}できない。",
       "english": "His promises are always empty talk, and he can't be trusted.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "26223_karabanashi_ex4",
       "japanese": "{酒|さけ}の{席|せき}で{空話|からばなし}をする。",
       "english": "To tell tall tales over drinks.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "26223_karabanashi_ex5",
       "japanese": "おじいちゃんの{空話|からばなし}は{面白|おもしろ}いが、どこまで{本当|ほんとう}かわからない。",
       "english": "Grandpa's tall tales are entertaining, but it's hard to tell how much is true.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,23 +72,51 @@
       "id": "26223_karabanashi_ex6",
       "japanese": "{子供|こども}たちに{空話|からばなし}を{聞|き}かせて{楽|たの}しませた。",
       "english": "He amused the children by telling them made-up stories.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {空|から} (empty, hollow) and {話|はなし} (talk, story). The {空|から} here is the same as in {空っぽ|からっぽ} (empty) and {空振|からぶ}り (a miss, a swing and miss), conveying the sense of being without substance.\n\nThe word can also be read as くうわ, which has a more formal and literary tone, though からばなし is the more common native Japanese reading.\n\nCOMMON COLLOCATIONS:\n- {空話|からばなし}に{終|お}わる: to end up as empty talk\n- {空話|からばなし}を{言|い}う: to talk idly; to make empty promises\n- {空話|からばなし}ばかり: nothing but idle talk\n\nSIMILAR WORDS:\n- {無駄話|むだばなし}: idle chatter — emphasis on wasting time rather than being baseless\n- {世間話|せけんばなし}: small talk — neutral; not necessarily empty or baseless\n- {作|つく}り{話|ばなし}: made-up story; fabrication — specifically about invention\n- {大袈裟|おおげさ}: exaggeration — describes the manner of telling rather than the content",
-  "cross_references": [],
+  "notes": "Composed of {空|から} (empty, hollow) and {話|はなし} (talk, story). The {空|から} here is the same as in {空|から}っぽ (empty) and {空振|からぶ}り (a miss, a swing and miss), conveying the sense of being without substance.\n\nThe word can also be read as くうわ, which has a more formal and literary tone, though からばなし is the more common native Japanese reading.\n\nCOMMON COLLOCATIONS:\n- {空話|からばなし}に{終|お}わる: to end up as empty talk\n- {空話|からばなし}を{言|い}う: to talk idly; to make empty promises\n- {空話|からばなし}ばかり: nothing but idle talk\n\nSIMILAR WORDS:\n- {無駄話|むだばなし}: idle chatter — emphasis on wasting time rather than being baseless\n- {世間話|せけんばなし}: small talk — neutral; not necessarily empty or baseless\n- {作|つく}り{話|ばなし}: made-up story; fabrication — specifically about invention\n- {大袈裟|おおげさ}: exaggeration — describes the manner of telling rather than the content",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16419_mudabanashi",
+      "reading": "むだばなし",
+      "headword": "{無駄話|むだばなし}",
+      "label": "idle chatter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07021_sekenbanashi",
+      "reading": "せけんばなし",
+      "headword": "{世間話|せけんばなし}",
+      "label": "small talk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11557_tsukuribanashi",
+      "reading": "つくりばなし",
+      "headword": "{作|つく}り{話|ばなし}",
+      "label": "made-up story"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-04-30T12:14:08Z",
-    "modified": "2026-04-30T12:14:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

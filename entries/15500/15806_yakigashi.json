@@ -19,7 +19,9 @@
       "english": "I baked some sweets.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15806_yakigashi_ex2",
@@ -27,7 +29,9 @@
       "english": "This shop is famous for its handmade baked goods.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15806_yakigashi_ex3",
@@ -35,21 +39,63 @@
       "english": "I bought an assortment of baked sweets as a souvenir to bring home.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{焼|や}き{菓子|がし} is a broad term covering Western-style baked goods like cookies, cakes, and tarts, as well as Japanese baked confections. It is a compound of {焼|や}き (baking) + {菓子|かし} (sweets), with {菓子|かし} becoming {がし} through rendaku.\n\nCOMMON COLLOCATIONS:\n- {焼|や}き{菓子|がし}の{詰|つ}め{合|あ}わせ (assortment of baked goods)\n- {手作|てづく}りの{焼|や}き{菓子|がし} (handmade baked goods)\n- {焼|や}き{菓子|がし}を{焼|や}く (bake sweets)\n\nRELATED TERMS:\n- {生菓子|なまがし} refers to fresh confections that are not baked, such as mochi or fresh wagashi.\n- {和菓子|わがし} is the general term for Japanese-style sweets.\n- {洋菓子|ようがし} refers to Western-style confections.",
-  "cross_references": [],
+  "notes": "USAGE:\n{焼|や}き{菓子|がし} is a broad term covering Western-style baked goods like cookies, cakes, and tarts, as well as Japanese baked confections. It is a compound of {焼|や}き (baking) + {菓子|かし} (sweets), with {菓子|かし} becoming がし through rendaku.\n\nCOMMON COLLOCATIONS:\n- {焼|や}き{菓子|がし}の{詰|つ}め{合|あ}わせ (assortment of baked goods)\n- {手作|てづく}りの{焼|や}き{菓子|がし} (handmade baked goods)\n- {焼|や}き{菓子|がし}を{焼|や}く (bake sweets)\n\nRELATED WORDS:\n- {生菓子|なまがし} refers to fresh confections that are not baked, such as mochi or fresh wagashi.\n- {和菓子|わがし} is the general term for Japanese-style sweets.\n- {洋菓子|ようがし} refers to Western-style confections.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27039_namagashi",
+      "reading": "なまがし",
+      "headword": "{生菓子|なまがし}",
+      "label": "refers to fresh confections that are…"
+    },
+    {
+      "type": "related",
+      "target_id": "04962_wagashi",
+      "reading": "わがし",
+      "headword": "{和菓子|わがし}",
+      "label": "is the general term for Japanese-style…"
+    },
+    {
+      "type": "related",
+      "target_id": "04998_yougashi",
+      "reading": "ようがし",
+      "headword": "{洋菓子|ようがし}",
+      "label": "refers to Western-style confections."
+    },
+    {
+      "type": "contrast",
+      "target_id": "22307_mushigashi",
+      "reading": "むしがし",
+      "headword": "{蒸|む}し{菓子|がし}",
+      "label": "steamed confection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30401_makaron",
+      "reading": "まかろん",
+      "headword": "マカロン",
+      "label": "macaron (French confection)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T10:07:25Z",
-    "modified": "2026-03-08T10:07:25Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

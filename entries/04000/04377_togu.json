@@ -198,11 +198,33 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No common pair. Pattern: X⟦を→を：00422_wo⟧{研|と}ぐ (to sharpen/wash X).\n\nASPECT: ている indicates ongoing action. {研|と}いでいる = 'is sharpening/washing.'\n\nCOMMON PATTERNS:\n- ⟦{包丁|ほうちょう}→包丁：04976_houchou⟧⟦を→を：00422_wo⟧{研|と}ぐ (to sharpen a knife)\n- ⟦{米|こめ}→米：01323_kome⟧⟦を→を：00422_wo⟧{研|と}ぐ (to wash rice)\n- ⟦{砥石|といし}→砥石：06525_toishi⟧⟦で→で：00502_de⟧{研|と}ぐ (to sharpen with a whetstone)\n\nRELATED TERMS:\n- ⟦{砥石|といし}→砥石：06525_toishi⟧ - whetstone\n- {研|と}ぎ⟦{器|き}→器：noentry⟧ - sharpener\n- ⟦{無洗米|むせんまい}→無洗米：28489_musenmai⟧ - no-wash rice\n\nNOTE: The rice-washing meaning (⟦{米|こめ}→米：01323_kome⟧⟦を→を：00422_wo⟧{研|と}ぐ) is very common in everyday Japanese. Modern rice cookers often use ⟦{無洗米|むせんまい}→無洗米：28489_musenmai⟧ that doesn't need washing.",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No common pair. Pattern: X⟦を→を：00422_wo⟧{研|と}ぐ (to sharpen/wash X).\n\nASPECT: ている indicates ongoing action. {研|と}いでいる = 'is sharpening/washing.'\n\nCOMMON PATTERNS:\n- ⟦{包丁|ほうちょう}→包丁：04976_houchou⟧⟦を→を：00422_wo⟧{研|と}ぐ (to sharpen a knife)\n- ⟦{米|こめ}→米：01323_kome⟧⟦を→を：00422_wo⟧{研|と}ぐ (to wash rice)\n- ⟦{砥石|といし}→砥石：06525_toishi⟧⟦で→で：00502_de⟧{研|と}ぐ (to sharpen with a whetstone)\n\nRELATED WORDS:\n- ⟦{砥石|といし}→砥石：06525_toishi⟧ - whetstone\n- {研|と}ぎ⟦{器|き}→器：noentry⟧ - sharpener\n- ⟦{無洗米|むせんまい}→無洗米：28489_musenmai⟧ - no-wash rice\n\nNOTE: The rice-washing meaning (⟦{米|こめ}→米：01323_kome⟧⟦を→を：00422_wo⟧{研|と}ぐ) is very common in everyday Japanese. Modern rice cookers often use ⟦{無洗米|むせんまい}→無洗米：28489_musenmai⟧ that doesn't need washing.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06525_toishi",
+      "reading": "といし",
+      "headword": "{砥石|といし}",
+      "label": "whetstone"
+    },
+    {
+      "type": "related",
+      "target_id": "28489_musenmai",
+      "reading": "むせんまい",
+      "headword": "{無洗米|むせんまい}",
+      "label": "no-wash rice"
+    },
+    {
+      "type": "related",
+      "target_id": "15434_kenma",
+      "reading": "けんま",
+      "headword": "{研磨|けんま}",
+      "label": "grinding"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T00:58:16Z",
-    "modified": "2026-08-14T18:20:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

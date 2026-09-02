@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{前日|ぜんじつ} means \"the day before\" a specific referenced event or date. Unlike ⟦{昨日|きのう}→昨日：00859_kinou⟧ (yesterday), which is relative to today, {前日|ぜんじつ} is relative to a particular occasion.\n\nDISTINCTION:\n- {前日|ぜんじつ}: the day before [an event] — used in narratives and formal contexts\n- ⟦{昨日|きのう}→昨日：00859_kinou⟧: yesterday — relative to the present moment\n\nCOMMON PATTERNS:\n- 〜⟦の→の：09472_no⟧{前日|ぜんじつ}: the day before ~\n- {前日|ぜんじつ}⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧: by the day before\n- {前日|ぜんじつ}⟦に→に：00314_ni⟧⟦{準備|じゅんび}→準備：01431_junbi⟧⟦する→する：00392_suru⟧: to prepare the day before\n\nREGISTER:\nSlightly formal. Common in written text, announcements, and narratives. In casual speech, people might say ⟦{前|まえ}→前：02255_mae⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧ instead.\n\nRELATED TIME EXPRESSIONS:\n- ⟦{翌日|よくじつ}→翌日：17960_yokujitsu⟧: the following day\n- ⟦{当日|とうじつ}→当日：04558_toujitsu⟧: the day itself\n- ⟦{前夜|ぜんや}→前夜：11876_zenya⟧: the previous night/evening",
+  "notes": "{前日|ぜんじつ} means \"the day before\" a specific referenced event or date. Unlike ⟦{昨日|きのう}→昨日：00859_kinou⟧ (yesterday), which is relative to today, {前日|ぜんじつ} is relative to a particular occasion.\n\nSIMILAR WORDS:\n- {前日|ぜんじつ}: the day before [an event] — used in narratives and formal contexts\n- ⟦{昨日|きのう}→昨日：00859_kinou⟧: yesterday — relative to the present moment\n\nCOMMON PATTERNS:\n- 〜⟦の→の：09472_no⟧{前日|ぜんじつ}: the day before ~\n- {前日|ぜんじつ}⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧: by the day before\n- {前日|ぜんじつ}⟦に→に：00314_ni⟧⟦{準備|じゅんび}→準備：01431_junbi⟧⟦する→する：00392_suru⟧: to prepare the day before\n\nREGISTER:\nSlightly formal. Common in written text, announcements, and narratives. In casual speech, people might say ⟦{前|まえ}→前：02255_mae⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧ instead.\n\nRELATED TIME EXPRESSIONS:\n- ⟦{翌日|よくじつ}→翌日：17960_yokujitsu⟧: the following day\n- ⟦{当日|とうじつ}→当日：04558_toujitsu⟧: the day itself\n- ⟦{前夜|ぜんや}→前夜：11876_zenya⟧: the previous night/evening",
   "cross_references": [
     {
       "type": "antonym",
@@ -76,11 +76,32 @@
       "reading": "とうじつ",
       "headword": "{当日|とうじつ}",
       "target_id": "04558_toujitsu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00859_kinou",
+      "reading": "きのう",
+      "headword": "{昨日|きのう}",
+      "label": "yesterday"
+    },
+    {
+      "type": "related",
+      "target_id": "11876_zenya",
+      "reading": "ぜんや",
+      "headword": "{前夜|ぜんや}",
+      "label": "the previous night/evening"
+    },
+    {
+      "type": "related",
+      "target_id": "19071_zenzenjitsu",
+      "reading": "ぜんぜんじつ",
+      "headword": "{前々日|ぜんぜんじつ}",
+      "label": "two days before (a specified event or date)"
     }
   ],
   "metadata": {
     "created": "2026-01-11T12:53:10Z",
-    "modified": "2026-05-23T21:12:46Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

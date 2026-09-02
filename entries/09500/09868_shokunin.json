@@ -18,7 +18,9 @@
       "english": "The skill of craftsmen who set type.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09868_shokunin_ex2",
@@ -26,7 +28,9 @@
       "english": "Furniture carefully made by craftsmen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09868_shokunin_ex3",
@@ -34,21 +38,77 @@
       "english": "He works as a sushi chef.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{職人|しょくにん} refers to skilled craftspeople and artisans.\n\nCOMMON TYPES:\n- {寿司|すし}{職人|しょくにん}: sushi chef\n- {大工|だいく}（{職人|しょくにん}）: carpenter\n- {陶芸|とうげい}{職人|しょくにん}: pottery artisan\n- {和菓子|わがし}{職人|しょくにん}: Japanese confectionery craftsman\n\nRELATED EXPRESSIONS:\n- {職人|しょくにん}{気質|かたぎ}: craftsman's temperament/pride\n- {職人|しょくにん}{技|わざ}: craftsmanship\n- {職人|しょくにん}{芸|げい}: artisan skill\n- {熟練|じゅくれん}{職人|しょくにん}: skilled craftsman\n\nCULTURAL NOTE:\nIn Japan, {職人|しょくにん} carries a sense of respect for traditional skills passed down through generations.",
-  "cross_references": [],
+  "notes": "{職人|しょくにん} refers to skilled craftspeople and artisans.\n\nTYPES:\n- {寿司|すし}{職人|しょくにん}: sushi chef\n- {大工|だいく}（{職人|しょくにん}）: carpenter\n- {陶芸|とうげい}{職人|しょくにん}: pottery artisan\n- {和菓子|わがし}{職人|しょくにん}: Japanese confectionery craftsman\n\nRELATED WORDS:\n- {職人|しょくにん}{気質|かたぎ}: craftsman's temperament/pride\n- {職人|しょくにん}{技|わざ}: craftsmanship\n- {職人|しょくにん}{芸|げい}: artisan skill\n- {熟練|じゅくれん}{職人|しょくにん}: skilled craftsman\n\nCULTURAL NOTE:\nIn Japan, {職人|しょくにん} carries a sense of respect for traditional skills passed down through generations.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22271_ginousha",
+      "reading": "ぎのうしゃ",
+      "headword": "{技能者|ぎのうしゃ}",
+      "label": "skilled worker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23192_koushou",
+      "reading": "こうしょう",
+      "headword": "{工匠|こうしょう}",
+      "label": "artisan"
+    },
+    {
+      "type": "related",
+      "target_id": "23336_rokuro",
+      "reading": "ろくろ",
+      "headword": "{轆轤|ろくろ}",
+      "label": "potter's wheel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23783_jukurensha",
+      "reading": "じゅくれんしゃ",
+      "headword": "{熟練者|じゅくれんしゃ}",
+      "label": "skilled worker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24136_sagyouin",
+      "reading": "さぎょういん",
+      "headword": "{作業員|さぎょういん}",
+      "label": "worker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26668_purofesshonaru",
+      "reading": "ぷろふぇっしょなる",
+      "headword": "プロフェッショナル",
+      "label": "professional"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28838_shigotonin",
+      "reading": "しごとにん",
+      "headword": "{仕事人|しごとにん}",
+      "label": "hard worker"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T01:44:31Z",
-    "modified": "2026-02-04T01:44:31Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     }
   }
 }

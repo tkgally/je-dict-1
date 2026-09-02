@@ -17,7 +17,9 @@
       "id": "18904_shiboukou_ex1",
       "japanese": "{志望校|しぼうこう}に{合格|ごうかく}した。",
       "english": "I passed the entrance exam for my desired school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18904_shiboukou_ex2",
       "japanese": "{志望校|しぼうこう}を{決|き}めるのに{悩|なや}んでいる。",
       "english": "I'm struggling to decide which school to aim for.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "18904_shiboukou_ex3",
       "japanese": "{志望校|しぼうこう}の{偏差値|へんさち}に{届|とど}くように{毎日|まいにち}{勉強|べんきょう}している。",
       "english": "I study every day to reach the deviation score required by my target school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{志望校|しぼうこう} is the school a student hopes to enter through an entrance examination. Central to discussions about Japan's exam-driven education culture.\n\nWORD FORMATION:\n{志望|しぼう} (aspiration, desire) + {校|こう} (school).\n\nCOMMON COLLOCATIONS:\n- {志望校|しぼうこう}に{合格|ごうかく}する: to pass the exam for one's desired school\n- {志望校|しぼうこう}を{決|き}める: to decide on a target school\n- {志望校|しぼうこう}を{変|か}える: to change one's target school\n- {志望校|しぼうこう}の{偏差値|へんさち}: the deviation score of one's target school\n\nRELATED TERMS:\n- {第一志望|だいいちしぼう}: first-choice school\n- {併願校|へいがんこう}: backup school (applied to alongside first choice)\n- {滑|すべ}り{止|ど}め: safety school (insurance against failing first choice)\n- {受験|じゅけん}: entrance examination\n\nCULTURAL NOTE:\nChoosing a {志望校|しぼうこう} is a major event in Japanese student life. Students often attend {塾|じゅく} (cram school) for years to prepare for entrance exams.",
+  "notes": "{志望校|しぼうこう} is the school a student hopes to enter through an entrance examination. Central to discussions about Japan's exam-driven education culture.\n\nFORMS:\n{志望|しぼう} (aspiration, desire) + {校|こう} (school).\n\nCOMMON COLLOCATIONS:\n- {志望校|しぼうこう}に{合格|ごうかく}する: to pass the exam for one's desired school\n- {志望校|しぼうこう}を{決|き}める: to decide on a target school\n- {志望校|しぼうこう}を{変|か}える: to change one's target school\n- {志望校|しぼうこう}の{偏差値|へんさち}: the deviation score of one's target school\n\nRELATED WORDS:\n- {第一志望|だいいちしぼう}: first-choice school\n- {併願校|へいがんこう}: backup school (applied to alongside first choice)\n- {滑|すべ}り{止|ど}め: safety school (insurance against failing first choice)\n- {受験|じゅけん}: entrance examination\n\nCULTURAL NOTE:\nChoosing a {志望校|しぼうこう} is a major event in Japanese student life. Students often attend {塾|じゅく} (cram school) for years to prepare for entrance exams.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19697_daiichishibou",
+      "reading": "だいいちしぼう",
+      "headword": "{第一志望|だいいちしぼう}",
+      "label": "first-choice school"
+    },
+    {
+      "type": "related",
+      "target_id": "27612_suberidome",
+      "reading": "すべりどめ",
+      "headword": "{滑|すべ}り{止|ど}め",
+      "label": "safety school"
+    },
+    {
+      "type": "related",
+      "target_id": "04272_juken",
+      "reading": "じゅけん",
+      "headword": "{受験|じゅけん}",
+      "label": "entrance examination"
+    },
+    {
+      "type": "related",
+      "target_id": "09977_jukenbenkyou",
+      "reading": "じゅけんべんきょう",
+      "headword": "{受験勉強|じゅけんべんきょう}",
+      "label": "exam preparation, studying for entrance exams"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-03-23T09:23:49Z",
-    "modified": "2026-04-05T09:38:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

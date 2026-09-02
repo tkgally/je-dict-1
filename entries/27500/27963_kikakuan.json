@@ -17,7 +17,9 @@
       "id": "27963_kikakuan_ex1",
       "japanese": "{企画案|きかくあん}を{出|だ}す。",
       "english": "I submit a project proposal.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27963_kikakuan_ex2",
       "japanese": "{会議|かいぎ}で{新|あたら}しい{企画案|きかくあん}を{説明|せつめい}した。",
       "english": "I explained the new project proposal at the meeting.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "27963_kikakuan_ex3",
       "japanese": "{部長|ぶちょう}に{企画案|きかくあん}を{何度|なんど}も{書|か}き{直|なお}すように{言|い}われた。",
       "english": "The department head told me to rewrite the project proposal many times.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Common in business: a written proposal for an event, campaign, or new product that is presented for approval. The {案|あん} suffix marks it as a draft idea still open to revision.\n\nCOMMON COLLOCATIONS:\n- {企画案|きかくあん}を{出|だ}す・{提出|ていしゅつ}する: to submit a proposal\n- {企画案|きかくあん}を{練|ね}る: to work out / refine a proposal\n- {企画案|きかくあん}が{通|とお}る: a proposal is approved\n\nSIMILAR WORDS:\n- {改善案|かいぜんあん}: improvement proposal — focuses on fixing an existing situation\n- {提案|ていあん}: proposal, suggestion — the general act of proposing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27964_kaizenan",
+      "reading": "かいぜんあん",
+      "headword": "{改善案|かいぜんあん}",
+      "label": "improvement proposal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03536_teian",
+      "reading": "ていあん",
+      "headword": "{提案|ていあん}",
+      "label": "proposal, suggestion"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-05-23T04:06:38Z",
-    "modified": "2026-05-23T04:06:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

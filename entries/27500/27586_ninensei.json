@@ -17,7 +17,9 @@
       "id": "27586_ninensei_ex1",
       "japanese": "{娘|むすめ}は{今|いま}{二年生|にねんせい}だ。",
       "english": "My daughter is in second grade now.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27586_ninensei_ex2",
       "japanese": "{大学|だいがく}{二年生|にねんせい}から{専門|せんもん}{科目|かもく}が{増|ふ}える。",
       "english": "From sophomore year of university, specialized subjects increase.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "27586_ninensei_ex3",
       "japanese": "{中学|ちゅうがく}{二年生|にねんせい}になると、{部活動|ぶかつどう}で{後輩|こうはい}を{指導|しどう}する{立場|たちば}になる。",
       "english": "When you become a second-year junior-high student, you take on the role of guiding underclassmen in club activities.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {二年|にねん} (two years) + {生|せい} (student). The school type is normally specified ({小学|しょうがく}{二年生|にねんせい}, {中学|ちゅうがく}{二年生|にねんせい}, etc.) or clear from context.\n\nCOMMON COLLOCATIONS:\n- {小学|しょうがく}{二年生|にねんせい}: second-grader (elementary)\n- {中学|ちゅうがく}{二年生|にねんせい}: second-year junior high student\n- {高校|こうこう}{二年生|にねんせい}: second-year high school student\n- {大学|だいがく}{二年生|にねんせい}: university sophomore\n\nSIMILAR WORDS:\n- {一年生|いちねんせい}: first-year student\n- {三年生|さんねんせい}: third-year student\n- {中|ちゅう}{二|に}: 'middle-school second-year' (very common abbreviation; also slang for awkward teenage behavior)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27559_ichinensei",
+      "reading": "いちねんせい",
+      "headword": "{一年生|いちねんせい}",
+      "label": "first-year student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27560_sannensei",
+      "reading": "さんねんせい",
+      "headword": "{三年生|さんねんせい}",
+      "label": "third-year student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28883_ninenkan",
+      "reading": "にねんかん",
+      "headword": "{二年間|にねんかん}",
+      "label": "two years"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["education"],
+      "politeness": "plain",
+      "semantic": [
+        "education"
+      ],
       "domain": []
     },
     "created": "2026-05-14T03:18:26Z",
-    "modified": "2026-05-14T03:18:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "Given the nature of this area, there are many foreigners.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12138_tochigara_ex2",
@@ -27,7 +29,9 @@
       "english": "Due in part to the nature of the area, seafood is abundant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12138_tochigara_ex3",
@@ -35,7 +39,9 @@
       "english": "Perhaps because of the character of this old downtown area, the neighbors are friendly and approachable.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{土地柄|とちがら} often appears as an explanation for why something is the case in a particular area. Common patterns include {土地柄|とちがら}もあって (partly because of the local character) and この{土地柄|とちがら}では (in a place like this). The suffix {柄|がら} denotes inherent character or nature, as in {人柄|ひとがら} (personality).\n\nCOMMON COLLOCATIONS:\n- {土地柄|とちがら}もあって: partly because of the area\n- {土地柄|とちがら}を{反映|はんえい}する: to reflect the local character\n- {土地柄|とちがら}か: perhaps because of the area",
@@ -46,18 +52,43 @@
       "headword": "{土地|とち}",
       "label": "land, area",
       "target_id": "02226_tochi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14628_fuudo",
+      "reading": "ふうど",
+      "headword": "{風土|ふうど}",
+      "label": "natural features"
+    },
+    {
+      "type": "related",
+      "target_id": "15253_kenminsei",
+      "reading": "けんみんせい",
+      "headword": "{県民性|けんみんせい}",
+      "label": "regional character"
+    },
+    {
+      "type": "related",
+      "target_id": "16695_iegara",
+      "reading": "いえがら",
+      "headword": "{家柄|いえがら}",
+      "label": "family lineage, pedigree"
     }
   ],
   "metadata": {
     "created": "2026-02-20T08:58:21Z",
-    "modified": "2026-04-26T07:25:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

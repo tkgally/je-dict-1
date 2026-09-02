@@ -3,7 +3,7 @@
   "headword": "{食用|しょくよう}",
   "reading": "しょくよう",
   "romaji": "shokuyou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "edible; for eating; for food use",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Indicates that something is suitable or intended for consumption as food. Composed of {食|しょく} (eat, food) and {用|よう} (use, purpose). Often used to distinguish edible items from non-edible or decorative versions of the same thing.\n\nCOMMON COLLOCATIONS:\n- {食用|しょくよう}{油|あぶら}/{油|ゆ}: cooking oil\n- {食用|しょくよう}キノコ: edible mushroom\n- {食用|しょくよう}{花|ばな}: edible flower\n- {食用|しょくよう}{色素|しきそ}: food coloring\n- {食用|しょくよう}に{適|てき}する: suitable for consumption\n\nSIMILAR WORDS:\n- {飲食用|いんしょくよう}: for food and drink — includes beverages\n- {観賞用|かんしょうよう}: for viewing/decorative use — contrasts with {食用|しょくよう}\n- {薬用|やくよう}: for medicinal use — another common -{用|よう} compound",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22026_kanshouyou",
+      "reading": "かんしょうよう",
+      "headword": "{観賞用|かんしょうよう}",
+      "label": "for viewing/decorative use"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30092_yakuyou",
+      "reading": "やくよう",
+      "headword": "{薬用|やくよう}",
+      "label": "for medicinal use"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +69,8 @@
         "noun",
         "adjective-no"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food"
       ],
@@ -61,6 +79,6 @@
       ]
     },
     "created": "2026-04-24T14:30:16Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

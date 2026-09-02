@@ -19,7 +19,9 @@
       "english": "She is working as a temporary worker.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18875_hakenshain_ex2",
@@ -27,7 +29,9 @@
       "english": "The temp worker's contract expires next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18875_hakenshain_ex3",
@@ -35,7 +39,9 @@
       "english": "More companies are introducing systems to promote temporary workers to full-time employees.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA key term in understanding Japanese employment. Dispatch workers are employed by a {派遣|はけん}{会社|がいしゃ} (staffing agency) but work at a different company. They typically have less job security and fewer benefits than {正社員|せいしゃいん} (regular employees).\n\nCOMMON COLLOCATIONS:\n- {派遣|はけん}{社員|しゃいん}として{働|はたら}く (to work as a temp)\n- {派遣|はけん}{社員|しゃいん}の{契約|けいやく} (temp worker's contract)\n- {派遣|はけん}{社員|しゃいん}を{雇|やと}う (to hire dispatch workers)\n- {派遣|はけん}{社員|しゃいん}から{正社員|せいしゃいん}へ (from temp to regular employee)\n\nSIMILAR WORDS:\n- {正社員|せいしゃいん}: regular/full-time employee — permanent position with full benefits\n- {契約|けいやく}{社員|しゃいん}: contract employee — hired directly by the company on a fixed-term contract\n- パート: part-time worker — typically shorter hours, common for homemakers",
@@ -46,19 +52,53 @@
       "reading": "せいしゃいん",
       "headword": "{正社員|せいしゃいん}",
       "label": "permanent employee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12260_keiyakushain",
+      "reading": "けいやくしゃいん",
+      "headword": "{契約|けいやく}{社員|しゃいん}",
+      "label": "contract employee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03106_paato",
+      "reading": "ぱーと",
+      "headword": "パート",
+      "label": "part-time worker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17155_shokutaku",
+      "reading": "しょくたく",
+      "headword": "{嘱託|しょくたく}",
+      "label": "commission"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29941_hiyatoiroudousha",
+      "reading": "ひやといろうどうしゃ",
+      "headword": "{日雇|ひやと}い{労働者|ろうどうしゃ}",
+      "label": "day laborer"
     }
   ],
   "metadata": {
     "created": "2026-03-23T06:18:25Z",
-    "modified": "2026-04-28T06:26:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"],
-      "domain": ["business"]
+      "semantic": [
+        "occupation"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

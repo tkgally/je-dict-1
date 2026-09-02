@@ -3,7 +3,7 @@
   "headword": "{介在|かいざい}",
   "reading": "かいざい",
   "romaji": "kaizai",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "mediation; intervention; being interposed between",
   "definitions": [
     {
@@ -55,6 +55,29 @@
   ],
   "notes": "Describes something or someone positioned between two things, acting as an intermediary or intervening force. Often used in formal writing and news to describe hidden factors or middlemen in a situation.\n\nCOMMON COLLOCATIONS:\n- {第三者|だいさんしゃ}が{介在|かいざい}する: a third party intervenes\n- {利害|りがい}が{介在|かいざい}する: interests are involved\n- {感情|かんじょう}が{介在|かいざい}する: emotions come into play\n- {仲介者|ちゅうかいしゃ}の{介在|かいざい}: involvement of a mediator\n\nSIMILAR WORDS:\n- {仲介|ちゅうかい}: mediation, brokerage — focuses on actively facilitating between parties\n- {介入|かいにゅう}: intervention — implies more forceful or deliberate involvement\n- {媒介|ばいかい}: transmission, mediation — often used for disease vectors or agents that convey something",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09718_chuukai",
+      "reading": "ちゅうかい",
+      "headword": "{仲介|ちゅうかい}",
+      "label": "mediation, brokerage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07425_kainyuu",
+      "reading": "かいにゅう",
+      "headword": "{介入|かいにゅう}",
+      "label": "intervention"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15990_baikai",
+      "reading": "ばいかい",
+      "headword": "{媒介|ばいかい}",
+      "label": "transmission, mediation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,13 +85,14 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "general"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-22T12:36:31Z",
-    "modified": "2026-04-22T12:36:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

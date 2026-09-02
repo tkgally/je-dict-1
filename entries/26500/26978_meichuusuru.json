@@ -3,7 +3,7 @@
   "headword": "{命中|めいちゅう}する",
   "reading": "めいちゅうする",
   "romaji": "meichuusuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to hit the mark; to strike the target",
   "definitions": [
     {
@@ -80,7 +80,29 @@
     }
   ],
   "notes": "Composed of {命|めい} (life, fate, order) and {中|ちゅう} (hit, middle). Originally a military and martial arts term that has extended into everyday figurative use. The {命中|めいちゅう}{率|りつ} (hit rate, accuracy rate) is commonly used in gaming and statistics.\n\nCOMMON COLLOCATIONS:\n- {的|まと}に{命中|めいちゅう}する: to hit the target\n- {命中|めいちゅう}{率|りつ}: hit rate, accuracy\n- {予想|よそう}が{命中|めいちゅう}する: a prediction proves correct\n- {正確|せいかく}に{命中|めいちゅう}する: to hit accurately\n\nSIMILAR WORDS:\n- {当|あ}たる: to hit — everyday word; broader in meaning (lottery, guess, etc.)\n- {的中|てきちゅう}する: to hit the mark — very similar; more commonly used for predictions and guesses\n- {当|あ}てる: to hit (transitive) — casual; to aim and successfully hit something",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01860_ataru",
+      "reading": "あたる",
+      "headword": "{当|あ}たる",
+      "label": "to hit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15431_tekichuusuru",
+      "reading": "てきちゅうする",
+      "headword": "{的中|てきちゅう}する",
+      "label": "to hit the mark"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01864_ateru",
+      "reading": "あてる",
+      "headword": "{当|あ}てる",
+      "label": "to hit"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -98,7 +120,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T12:22:49Z",
-    "modified": "2026-08-06T12:50:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

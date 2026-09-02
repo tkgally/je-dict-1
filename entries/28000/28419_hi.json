@@ -17,7 +17,9 @@
       "id": "28419_hi_ex1",
       "japanese": "{自分|じぶん}の{非|ひ}を{認|みと}めた。",
       "english": "I admitted my fault.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28419_hi_ex2",
       "japanese": "{彼|かれ}には{何|なん}の{非|ひ}もない。",
       "english": "He is not at fault in any way.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28419_hi_ex3",
       "japanese": "{相手|あいて}の{非|ひ}を{責|せ}める{前|まえ}に、{自分|じぶん}の{非|ひ}を{反省|はんせい}したほうがいい。",
       "english": "Before blaming the other party for their fault, you should reflect on your own.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Used as a standalone noun mainly in set expressions. The same kanji also serves as a productive prefix meaning 'non-' or 'un-' (e.g., {非常|ひじょう}, {非公開|ひこうかい}), but that prefix use is separate from this noun sense.\n\nCOMMON COLLOCATIONS:\n- {非|ひ}を{認|みと}める: admit one's fault\n- {非|ひ}を{詫|わ}びる: apologize for one's fault\n- {非|ひ}を{責|せ}める: blame (someone) for their fault\n- {非|ひ}がない: be without fault\n- {是非|ぜひ}: right and wrong (set compound)\n\nSIMILAR WORDS:\n- {過|あやま}ち: error, mistake — broader; covers any kind of error\n- {落|お}ち{度|ど}: oversight, failing — focuses on a slip in one's duty\n- {責任|せきにん}: responsibility — covers what one ought to bear, including for one's {非|ひ}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14376_ayamachi",
+      "reading": "あやまち",
+      "headword": "{過|あやま}ち",
+      "label": "error, mistake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03298_sekinin",
+      "reading": "せきにん",
+      "headword": "{責任|せきにん}",
+      "label": "responsibility"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["evaluation"],
+      "politeness": "plain",
+      "semantic": [
+        "evaluation"
+      ],
       "domain": []
     },
     "created": "2026-05-30T04:08:44Z",
-    "modified": "2026-05-30T04:08:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

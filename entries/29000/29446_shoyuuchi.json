@@ -17,7 +17,9 @@
       "id": "29446_shoyuuchi_ex1",
       "japanese": "ここは{私|わたし}の{所有地|しょゆうち}だ。",
       "english": "This is my land.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29446_shoyuuchi_ex2",
       "japanese": "{会社|かいしゃ}の{所有地|しょゆうち}に{工場|こうじょう}を{建|た}てる。",
       "english": "to build a factory on company-owned land.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "29446_shoyuuchi_ex3",
       "japanese": "{所有地|しょゆうち}の{境界|きょうかい}をめぐって{隣|となり}の{人|ひと}と{争|あらそ}いになった。",
       "english": "A dispute arose with the neighbor over the boundary of the property.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Stresses ownership of the land; used in real-estate, legal, and tax contexts.\n\nCOMMON COLLOCATIONS:\n- {所有地|しょゆうち}を{売|う}る: to sell one's land\n- {所有地|しょゆうち}の{面積|めんせき}: the area of the holding\n- {所有地|しょゆうち}{内|ない}: within one's property\n\nSIMILAR WORDS:\n- {私有地|しゆうち}: private land — contrasts private ownership with public land\n- {土地|とち}: land — the general word, with no emphasis on who owns it",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22702_shiyuuchi",
+      "reading": "しゆうち",
+      "headword": "{私有地|しゆうち}",
+      "label": "private land"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02226_tochi",
+      "reading": "とち",
+      "headword": "{土地|とち}",
+      "label": "land"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["society"],
-      "domain": ["legal"]
+      "politeness": "plain",
+      "semantic": [
+        "society"
+      ],
+      "domain": [
+        "legal"
+      ]
     },
     "created": "2026-06-24T00:19:16Z",
-    "modified": "2026-06-24T00:19:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

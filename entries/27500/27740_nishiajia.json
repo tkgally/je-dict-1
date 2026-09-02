@@ -17,7 +17,9 @@
       "id": "27740_nishiajia_ex1",
       "japanese": "{西|にし}アジアを{旅行|りょこう}した。",
       "english": "I traveled in West Asia.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27740_nishiajia_ex2",
       "japanese": "この{植物|しょくぶつ}は{西|にし}アジアが{原産|げんさん}だ。",
       "english": "This plant is native to West Asia.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "27740_nishiajia_ex3",
       "japanese": "{西|にし}アジアは{古|ふる}くから{東西|とうざい}{交易|こうえき}の{要所|ようしょ}だった。",
       "english": "West Asia has long been a key point of East-West trade.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A geographic region covering the western end of Asia, including Turkey, the Arabian Peninsula, Iran, and the Caucasus.\n\nUSAGE:\n- {西|にし}アジアの{国|くに}: countries of West Asia\n- {西|にし}アジア{諸国|しょこく}: the West Asian nations\n\nSIMILAR WORDS:\n- {中東|ちゅうとう}: the Middle East — overlaps heavily with {西|にし}アジア, but is defined politically and culturally rather than purely geographically, and often also includes Egypt",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17924_chuutou",
+      "reading": "ちゅうとう",
+      "headword": "{中東|ちゅうとう}",
+      "label": "the Middle East"
+    },
+    {
+      "type": "related",
+      "target_id": "16277_tounanajia",
+      "reading": "とうなんあじあ",
+      "headword": "{東南|とうなん}アジア",
+      "label": "Southeast Asia"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"],
+      "semantic": [
+        "geography"
+      ],
       "domain": []
     },
     "created": "2026-05-18T03:04:42Z",
-    "modified": "2026-05-18T03:04:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

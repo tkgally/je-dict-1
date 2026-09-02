@@ -19,7 +19,9 @@
       "english": "I arrived on time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20620_jikandoori_ex2",
@@ -27,7 +29,9 @@
       "english": "The trains are running on schedule.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20620_jikandoori_ex3",
@@ -35,21 +39,37 @@
       "english": "The meeting will start on time, so please make sure you're not late.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Composed of {時間|じかん} (time) + {通|どお}り (as, in accordance with). Literally means \"as the time dictates\" — i.e., at the appointed time.\n\nCOMMON COLLOCATIONS:\n- {時間通|じかんどお}りに{来|く}る (to come on time)\n- {時間通|じかんどお}りに{始|はじ}まる (to start on time)\n- {時間通|じかんどお}りに{届|とど}く (to arrive on time [deliveries])\n- {時間通|じかんどお}りに{進|すす}む (to proceed on schedule)\n\nSIMILAR WORDS:\n- {定刻|ていこく}どおり — on the dot, at the appointed time; more formal, used for scheduled departure/arrival times\n- {予定通|よていどお}り — as planned; broader, covering any kind of plan, not just time\n- {時間|じかん}に{間|ま}に{合|あ}う — to be in time; focuses on making it before a deadline\n\nCULTURAL NOTE:\nJapan's emphasis on punctuality makes {時間通|じかんどお}り a frequently used expression. Japanese trains are famously {時間通|じかんどお}り, and even slight delays prompt formal announcements and apologies.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15290_yoteidoori",
+      "reading": "よていどおり",
+      "headword": "{予定通|よていどお}り",
+      "label": "as planned"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T20:06:17Z",
-    "modified": "2026-03-29T20:06:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "adjective-no"],
+      "pos": [
+        "adverb",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time", "daily-life"]
+      "semantic": [
+        "time",
+        "daily-life"
+      ]
     }
   }
 }

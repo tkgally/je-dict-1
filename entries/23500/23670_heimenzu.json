@@ -17,7 +17,9 @@
       "id": "23670_heimenzu_ex1",
       "japanese": "{家|いえ}の{平面図|へいめんず}。",
       "english": "The floor plan of a house.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23670_heimenzu_ex2",
       "japanese": "この{平面図|へいめんず}を{見|み}ると、{部屋|へや}の{配置|はいち}がよく{分|わ}かる。",
       "english": "Looking at this floor plan, you can clearly see the layout of the rooms.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23670_heimenzu_ex3",
       "japanese": "{建築士|けんちくし}が{新|あたら}しいマンションの{平面図|へいめんず}を{描|か}いた。",
       "english": "The architect drew up the floor plan for the new apartment building.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,65 @@
       "id": "23670_heimenzu_ex4",
       "japanese": "{不動産|ふどうさん}のサイトでは、{物件|ぶっけん}ごとに{詳|くわ}しい{平面図|へいめんず}が{掲載|けいさい}されている。",
       "english": "On real-estate websites, a detailed floor plan is posted for each property.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {平面|へいめん} (flat surface, plane) and {図|ず} (diagram, drawing). A {平面図|へいめんず} shows a structure or area from a bird's-eye (top-down) perspective, as if the roof has been removed. It is one of the standard types of architectural drawings, alongside {立面図|りつめんず} (elevation) and {断面図|だんめんず} (cross-section).\n\nUSAGE:\nFrequently seen in real-estate listings, house-plan magazines, and building-construction documents. Also used in geometry classes when depicting flat figures.\n\nCOMMON COLLOCATIONS:\n- {平面図|へいめんず}を{描|か}く: to draw a floor plan\n- {平面図|へいめんず}を{見|み}る: to look at a floor plan\n- {平面図|へいめんず}に{示|しめ}す: to indicate on the floor plan\n- {詳細|しょうさい}な{平面図|へいめんず}: a detailed floor plan\n\nSIMILAR WORDS:\n- {間取|まど}り: room layout — less technical; refers to the arrangement of rooms rather than the drawing itself\n- {立面図|りつめんず}: elevation drawing — shows the exterior as seen from the front or side\n- {断面図|だんめんず}: cross-section drawing — shows the interior as if sliced vertically\n- {見取|みと}り{図|ず}: sketch map, rough layout drawing — a simpler, less precise version often drawn by hand",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06078_madori",
+      "reading": "まどり",
+      "headword": "{間取|まど}り",
+      "label": "room layout"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23671_ritsumenzu",
+      "reading": "りつめんず",
+      "headword": "{立面図|りつめんず}",
+      "label": "elevation drawing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14837_danmenzu",
+      "reading": "だんめんず",
+      "headword": "{断面図|だんめんず}",
+      "label": "cross-section drawing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14836_mitorizu",
+      "reading": "みとりず",
+      "headword": "{見取|みと}り{図|ず}",
+      "label": "sketch map, rough layout drawing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23885_sokumenzu",
+      "reading": "そくめんず",
+      "headword": "{側面図|そくめんず}",
+      "label": "side view (drawing), side elevation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     },
     "created": "2026-04-14T00:46:30Z",
-    "modified": "2026-04-14T00:46:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

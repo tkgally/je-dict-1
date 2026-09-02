@@ -3,7 +3,7 @@
   "headword": "お{稽古|けいこ}",
   "reading": "おけいこ",
   "romaji": "okeiko",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "practice; lesson; training (in traditional arts)",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "The base form is {稽古|けいこ}, with the honorific prefix お adding politeness. {稽古|けいこ} literally means 'to study the old' (from {稽|けい} 'examine' and {古|こ} 'old'), reflecting the idea of learning from tradition.\n\nThe word is strongly associated with traditional Japanese arts and cultural activities, though it can also be used for modern lessons like piano or ballet. It implies ongoing, disciplined practice under a teacher.\n\nCOMMON COLLOCATIONS:\n- お{稽古|けいこ}{事|ごと}: lessons and hobbies (as a category)\n- お{稽古|けいこ}に{通|かよ}う: to attend lessons regularly\n- お{稽古|けいこ}をつける: to give a lesson (from the teacher's perspective)\n- お{稽古|けいこ}{日|び}: lesson day\n\nSIMILAR WORDS:\n- {練習|れんしゅう}: practice — general practice or training, not limited to arts\n- レッスン: lesson — borrowed from English, used for modern activities\n- {修行|しゅぎょう}: training / ascetic practice — more intense, often spiritual or martial arts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05323_renshuu",
+      "reading": "れんしゅう",
+      "headword": "{練習|れんしゅう}",
+      "label": "practice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01542_ressun",
+      "reading": "れっすん",
+      "headword": "レッスン",
+      "label": "lesson"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05522_shugyou",
+      "reading": "しゅぎょう",
+      "headword": "{修行|しゅぎょう}",
+      "label": "training / ascetic practice"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T21:08:10Z",
-    "modified": "2026-04-05T21:08:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

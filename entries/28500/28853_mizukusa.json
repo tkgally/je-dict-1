@@ -17,7 +17,9 @@
       "id": "28853_mizukusa_ex1",
       "japanese": "{池|いけ}に{水草|みずくさ}が{生|は}えている。",
       "english": "Aquatic plants are growing in the pond.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28853_mizukusa_ex2",
       "japanese": "{水槽|すいそう}に{水草|みずくさ}を{入|い}れると{魚|さかな}が{落|お}ち{着|つ}く。",
       "english": "Putting water plants in the tank helps the fish settle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "28853_mizukusa_ex3",
       "japanese": "{水草|みずくさ}は{酸素|さんそ}を{供給|きょうきゅう}し、{水質|すいしつ}を{保|たも}つ{役割|やくわり}も{果|は}たす。",
       "english": "Water plants supply oxygen and also play a role in maintaining water quality.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {水|みず} (water) + {草|くさ} (grass, plant). A general term covering anything from pond weeds to ornamental aquarium plants.\n\nCOMMON COLLOCATIONS:\n- {水草|みずくさ}が{生|は}える: water plants grow\n- {水草|みずくさ}を{植|う}える: to plant water plants\n- {水草|みずくさ}{水槽|すいそう}: planted aquarium\n\nSIMILAR WORDS:\n- {水|みず}{生|せい}{植物|しょくぶつ}: aquatic plant — technical/scientific term\n- {藻|も}: algae; seaweed — generally simpler organisms than {水草|みずくさ}\n- {海藻|かいそう}: seaweed — specifically marine, not freshwater",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14821_mo",
+      "reading": "も",
+      "headword": "{藻|も}",
+      "label": "algae"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06750_kaisou",
+      "reading": "かいそう",
+      "headword": "{海藻|かいそう}",
+      "label": "seaweed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22025_sourui",
+      "reading": "そうるい",
+      "headword": "{藻類|そうるい}",
+      "label": "algae"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["nature"],
+      "politeness": "plain",
+      "semantic": [
+        "nature"
+      ],
       "domain": []
     },
     "created": "2026-06-06T03:11:29Z",
-    "modified": "2026-06-06T03:11:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

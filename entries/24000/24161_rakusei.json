@@ -3,7 +3,7 @@
   "headword": "{落成|らくせい}",
   "reading": "らくせい",
   "romaji": "rakusei",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "completion of a building; inauguration of a new structure",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Specifically refers to the completion of a building or large structure, often accompanied by a formal ceremony. Not used for completing tasks, projects, or abstract work.\n\nCOMMON COLLOCATIONS:\n- {落成|らくせい}{式|しき}: inauguration ceremony, completion ceremony\n- {落成|らくせい}{披露|ひろう}: unveiling of a completed building\n- {落成|らくせい}{記念|きねん}: commemoration of building completion\n- {落成|らくせい}{祝|いわ}い: celebration of building completion\n\nSIMILAR WORDS:\n- {完成|かんせい}: completion — general-purpose; used for any project, work, or object, not limited to buildings\n- {竣工|しゅんこう}: completion of construction — technical term used in the construction industry, more formal than {落成|らくせい}\n- {開業|かいぎょう}: opening of business — focuses on starting operations rather than building completion",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01550_kansei",
+      "reading": "かんせい",
+      "headword": "{完成|かんせい}",
+      "label": "completion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16491_shunkou",
+      "reading": "しゅんこう",
+      "headword": "{竣工|しゅんこう}",
+      "label": "completion of construction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14570_kaigyou",
+      "reading": "かいぎょう",
+      "headword": "{開業|かいぎょう}",
+      "label": "opening of business"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +76,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "building"
       ],
@@ -62,7 +86,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-17T21:35:28Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -3,7 +3,7 @@
   "headword": "{私有|しゆう}",
   "reading": "しゆう",
   "romaji": "shiyuu",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "private ownership; privately owned",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,22 @@
   ],
   "notes": "Composed of {私|し} (private, personal) + {有|ゆう} (possess, own). The opposite is {公有|こうゆう} (public ownership) or {国有|こくゆう} (state ownership). Common collocations: {私有|しゆう}{地|ち} (private land), {私有|しゆう}{財産|ざいさん} (private property), {私有|しゆう}{林|りん} (private forest), {私有|しゆう}{物|ぶつ} (private belongings), {私有|しゆう}{化|か} (privatization). Part of the {〜有|ゆう} ownership family: {所有|しょゆう} (ownership), {共有|きょうゆう} (shared ownership), {国有|こくゆう} (state-owned).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21178_kouyuu",
+      "reading": "こうゆう",
+      "headword": "{公有|こうゆう}",
+      "label": "public ownership"
+    },
+    {
+      "type": "antonym",
+      "target_id": "28390_kokuyuu",
+      "reading": "こくゆう",
+      "headword": "{国有|こくゆう}",
+      "label": "state-owned"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -154,6 +170,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-24T14:02:45Z",
-    "modified": "2026-03-24T14:02:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

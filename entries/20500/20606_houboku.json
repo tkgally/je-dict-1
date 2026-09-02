@@ -45,10 +45,32 @@
     }
   ],
   "notes": "Composed of {放|ほう} (release, let go) + {牧|ぼく} (herding, pasture). Describes the agricultural practice of free-range grazing as opposed to keeping animals in enclosed spaces.\n\nCOMMON COLLOCATIONS:\n- {放牧|ほうぼく}{地|ち} (pasture land, grazing land)\n- {放牧|ほうぼく}で{育|そだ}てる (raise by free-range grazing)\n- {自然|しぜん}{放牧|ほうぼく} (natural grazing)\n- {放牧|ほうぼく}{期間|きかん} (grazing period/season)\n\nSIMILAR WORDS:\n- {牧畜|ぼくちく} — livestock farming (the broader industry of raising animals)\n- {飼育|しいく} — raising, breeding (keeping and caring for animals, not necessarily free-range)\n- {遊牧|ゆうぼく} — nomadic herding (moving with livestock across regions)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20195_bokuchiku",
+      "reading": "ぼくちく",
+      "headword": "{牧畜|ぼくちく}",
+      "label": "livestock farming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06422_shiiku",
+      "reading": "しいく",
+      "headword": "{飼育|しいく}",
+      "label": "raising, breeding"
+    },
+    {
+      "type": "related",
+      "target_id": "06103_bokujou",
+      "reading": "ぼくじょう",
+      "headword": "{牧場|ぼくじょう}",
+      "label": "ranch, pasture, farm"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T19:24:24Z",
-    "modified": "2026-03-29T19:24:24Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

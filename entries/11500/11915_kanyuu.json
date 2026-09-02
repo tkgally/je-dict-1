@@ -2,7 +2,7 @@
   "id": "11915_kanyuu",
   "headword": "{加入|かにゅう}",
   "reading": "かにゅう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "joining, enrollment, subscription",
   "conjugation": {
     "type": "suru",
@@ -133,11 +133,40 @@
       ]
     }
   ],
-  "notes": "Used for formal, institutional membership — not for casually joining a group of friends. The particle に marks what is being joined, and the particle に or への introduces the target.\n\nCOMMON PATTERNS:\n・〜に{加入|かにゅう}する (to join ~)\n・〜への{加入|かにゅう} (joining ~)\n・{加入|かにゅう}{者|しゃ} (member, subscriber)\n・{加入|かにゅう}{手続|てつづ}き (enrollment procedure)\n\nSIMILAR WORDS:\n・{加入|かにゅう} — joining a group/plan/service (formal membership)\n・{入会|にゅうかい} — joining a club or association\n・{参加|さんか} — participating in an event or activity",
-  "cross_references": [],
+  "notes": "Used for formal, institutional membership — not for casually joining a group of friends. The particle に marks what is being joined, and the particle に or への introduces the target.\n\nCOMMON PATTERNS:\n- 〜に{加入|かにゅう}する (to join ~)\n- 〜への{加入|かにゅう} (joining ~)\n- {加入|かにゅう}{者|しゃ} (member, subscriber)\n- {加入|かにゅう}{手続|てつづ}き (enrollment procedure)\n\nSIMILAR WORDS:\n- {加入|かにゅう} — joining a group/plan/service (formal membership)\n- {入会|にゅうかい} — joining a club or association\n- {参加|さんか} — participating in an event or activity",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11671_nyuukai",
+      "reading": "にゅうかい",
+      "headword": "{入会|にゅうかい}",
+      "label": "joining a club or association"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02498_sanka",
+      "reading": "さんか",
+      "headword": "{参加|さんか}",
+      "label": "participating in an event or activity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05770_dattai",
+      "reading": "だったい",
+      "headword": "{脱退|だったい}",
+      "label": "withdrawal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07323_nakamairi",
+      "reading": "なかまいり",
+      "headword": "{仲間入|なかまい}り",
+      "label": "joining a group"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T14:15:31Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

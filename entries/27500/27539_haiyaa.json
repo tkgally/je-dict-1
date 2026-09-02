@@ -17,7 +17,9 @@
       "id": "27539_haiyaa_ex1",
       "japanese": "ハイヤーを{呼|よ}んでください。",
       "english": "Please call a hire car.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27539_haiyaa_ex2",
       "japanese": "{社長|しゃちょう}は{出張|しゅっちょう}の{際|さい}、ハイヤーを{使|つか}うことが{多|おお}い。",
       "english": "The president often uses a hire car when traveling for business.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "27539_haiyaa_ex3",
       "japanese": "{空港|くうこう}までハイヤーを{予約|よやく}しておけば、{荷物|にもつ}が{多|おお}くても{安心|あんしん}だ。",
       "english": "If you book a hire car to the airport in advance, you can relax even with lots of luggage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Loanword from English 'hire (car)'. Pronounced ハイヤー, with a long final vowel. Always booked in advance through a company; not flagged down on the street like a taxi.\n\nCOMMON COLLOCATIONS:\n- ハイヤーを{呼|よ}ぶ: to call (book) a hire car\n- ハイヤーを{手配|てはい}する: to arrange a hire car\n- ハイヤーで{送迎|そうげい}する: to provide pickup / drop-off by hire car\n- {役員|やくいん}ハイヤー: executive hire car\n\nSIMILAR WORDS:\n- タクシー: taxi — hailed on the street or at a stand; metered\n- {送迎|そうげい}バス: shuttle bus — for groups, fixed routes\n- リムジン: limousine — larger / fancier; in Japan often means an airport limo bus, not a stretch limousine",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00816_takushii",
+      "reading": "たくしー",
+      "headword": "タクシー",
+      "label": "taxi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30786_sougeibasu",
+      "reading": "そうげいばす",
+      "headword": "{送迎|そうげい}バス",
+      "label": "shuttle bus"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["transportation", "business"],
+      "politeness": "plain",
+      "semantic": [
+        "transportation",
+        "business"
+      ],
       "domain": []
     },
     "created": "2026-05-13T04:11:06Z",
-    "modified": "2026-05-13T04:11:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

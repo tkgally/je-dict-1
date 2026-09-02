@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "CONTRAST WITH OTHER VISION CONDITIONS:\n・{近視|きんし} (nearsightedness/myopia - difficulty seeing far)\n・{老眼|ろうがん} (presbyopia - age-related farsightedness)\n・{乱視|らんし} (astigmatism)\n\nNOTE ON {遠視|えんし} vs {老眼|ろうがん}:\n{遠視|えんし} is a refractive error that can occur at any age, where the eye focuses light behind the retina. {老眼|ろうがん} is the natural loss of near-focusing ability that occurs with aging, typically starting around age 40.\n\nRELATED TERMS:\n・{視力|しりょく} (eyesight, visual acuity)\n・{眼鏡|めがね} (glasses)\n・コンタクトレンズ (contact lenses)\n・{眼科|がんか} (ophthalmology, eye clinic)",
+  "notes": "CONTRAST WITH OTHER VISION CONDITIONS:\n- {近視|きんし} (nearsightedness/myopia - difficulty seeing far)\n- {老眼|ろうがん} (presbyopia - age-related farsightedness)\n- {乱視|らんし} (astigmatism)\n\nNOTE ON {遠視|えんし} vs {老眼|ろうがん}:\n{遠視|えんし} is a refractive error that can occur at any age, where the eye focuses light behind the retina. {老眼|ろうがん} is the natural loss of near-focusing ability that occurs with aging, typically starting around age 40.\n\nRELATED WORDS:\n- {視力|しりょく} (eyesight, visual acuity)\n- {眼鏡|めがね} (glasses)\n- コンタクトレンズ (contact lenses)\n- {眼科|がんか} (ophthalmology, eye clinic)",
   "cross_references": [
     {
       "type": "antonym",
@@ -65,11 +65,46 @@
       "headword": "{乱視|らんし}",
       "label": "astigmatism",
       "target_id": "06370_ranshi"
+    },
+    {
+      "type": "related",
+      "target_id": "05033_shiryoku",
+      "reading": "しりょく",
+      "headword": "{視力|しりょく}",
+      "label": "eyesight, visual acuity"
+    },
+    {
+      "type": "related",
+      "target_id": "00651_megane",
+      "reading": "めがね",
+      "headword": "{眼鏡|めがね}",
+      "label": "glasses"
+    },
+    {
+      "type": "related",
+      "target_id": "17011_kontakutorenzu",
+      "reading": "こんたくとれんず",
+      "headword": "コンタクトレンズ",
+      "label": "contact lenses"
+    },
+    {
+      "type": "related",
+      "target_id": "11071_ganka",
+      "reading": "がんか",
+      "headword": "{眼科|がんか}",
+      "label": "ophthalmology, eye clinic"
+    },
+    {
+      "type": "related",
+      "target_id": "23294_shiryokukyousei",
+      "reading": "しりょくきょうせい",
+      "headword": "{視力矯正|しりょくきょうせい}",
+      "label": "vision correction"
     }
   ],
   "metadata": {
     "created": "2026-01-18T23:16:50Z",
-    "modified": "2026-07-02T09:21:25Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

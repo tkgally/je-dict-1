@@ -64,10 +64,46 @@
     }
   ],
   "notes": "{盗難|とうなん} refers to theft or being a victim of theft.\n\nCOMMON EXPRESSIONS:\n- {盗難|とうなん}⟦に→に：00314_ni⟧⟦{遭|あ}う→遭う：09500_au⟧: to be robbed, to have something stolen\n- {盗難|とうなん}⟦{届|とどけ}→届け：07558_todoke⟧: theft report\n- {盗難|とうなん}⟦{防止|ぼうし}→防止：14571_boushi⟧: theft prevention\n- {盗難|とうなん}⟦{保険|ほけん}→保険：01509_hoken⟧: theft insurance\n- {盗難|とうなん}⟦{車|しゃ}→車：00516_kuruma⟧: stolen vehicle\n\nRELATED WORDS:\n- ⟦{窃盗|せっとう}→窃盗：15280_settou⟧: theft, larceny\n- ⟦{強盗|ごうとう}→強盗：02818_goutou⟧: robbery\n- ⟦{被害|ひがい}→被害：02572_higai⟧: damage, harm",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15280_settou",
+      "reading": "せっとう",
+      "headword": "{窃盗|せっとう}",
+      "label": "theft, larceny"
+    },
+    {
+      "type": "related",
+      "target_id": "02818_goutou",
+      "reading": "ごうとう",
+      "headword": "{強盗|ごうとう}",
+      "label": "robbery"
+    },
+    {
+      "type": "related",
+      "target_id": "02572_higai",
+      "reading": "ひがい",
+      "headword": "{被害|ひがい}",
+      "label": "damage, harm"
+    },
+    {
+      "type": "related",
+      "target_id": "01166_nusumu",
+      "reading": "ぬすむ",
+      "headword": "{盗|ぬす}む",
+      "label": "to steal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24564_sesshu",
+      "reading": "せっしゅ",
+      "headword": "{窃取|せっしゅ}",
+      "label": "theft"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T00:33:36Z",
-    "modified": "2026-06-10T17:34:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

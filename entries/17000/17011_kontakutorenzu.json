@@ -19,7 +19,9 @@
       "english": "I took out my contact lenses.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17011_kontakutorenzu_ex2",
@@ -27,7 +29,9 @@
       "english": "I use disposable contact lenses.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17011_kontakutorenzu_ex3",
@@ -35,21 +39,43 @@
       "english": "If you wear contact lenses for a long time, your eyes can get dry and sore.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften abbreviated to コンタクト in casual speech. The verbs used with contact lenses are: {付|つ}ける / {入|い}れる (to put in), {外|はず}す (to take out), {洗|あら}う (to clean).\n\nCOMMON COLLOCATIONS:\n- コンタクトレンズを{付|つ}ける (to put in contacts)\n- コンタクトレンズを{外|はず}す (to remove contacts)\n- {使|つか}い{捨|す}てコンタクトレンズ (disposable contact lenses)\n- ソフトコンタクトレンズ (soft contact lenses)\n- ハードコンタクトレンズ (hard contact lenses)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07105_enshi",
+      "reading": "えんし",
+      "headword": "{遠視|えんし}",
+      "label": "farsightedness"
+    },
+    {
+      "type": "related",
+      "target_id": "23294_shiryokukyousei",
+      "reading": "しりょくきょうせい",
+      "headword": "{視力矯正|しりょくきょうせい}",
+      "label": "vision correction"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T05:53:16Z",
-    "modified": "2026-03-15T05:53:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["health", "daily-life"]
+      "semantic": [
+        "health",
+        "daily-life"
+      ]
     }
   }
 }

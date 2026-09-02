@@ -2,7 +2,7 @@
   "id": "02835_shikyuu",
   "headword": "{支給|しきゅう}",
   "reading": "しきゅう",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "provision, payment, allowance",
   "conjugation": {
     "type": "suru",
@@ -158,11 +158,39 @@
       "reading": "きょうきゅう",
       "headword": "{供給|きょうきゅう}",
       "label": "supply"
+    },
+    {
+      "type": "related",
+      "target_id": "07881_haikyuu",
+      "reading": "はいきゅう",
+      "headword": "{配給|はいきゅう}",
+      "label": "distribution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12909_teikyou",
+      "reading": "ていきょう",
+      "headword": "{提供|ていきょう}",
+      "label": "provision, offering, supply"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18608_hakkyuusuru",
+      "reading": "はっきゅうする",
+      "headword": "{発給|はっきゅう}する",
+      "label": "to issue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19899_koufusuru",
+      "reading": "こうふする",
+      "headword": "{交付|こうふ}する",
+      "label": "to issue, to deliver (officially)"
     }
   ],
   "metadata": {
     "created": "2026-01-11T09:00:30Z",
-    "modified": "2026-05-22T17:10:15Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

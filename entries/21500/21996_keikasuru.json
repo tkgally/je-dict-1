@@ -3,7 +3,7 @@
   "headword": "{経過|けいか}する",
   "reading": "けいかする",
   "romaji": "keikasuru",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to pass; to elapse; to progress",
   "conjugation": {
     "type": "suru",
@@ -179,6 +179,43 @@
   ],
   "notes": "The noun {経過|けいか} is used even more frequently than the verb form, especially in medical and administrative contexts to describe how something has been progressing.\n\nCOMMON COLLOCATIONS:\n- {時間|じかん}が{経過|けいか}する: time passes\n- {経過|けいか}{観察|かんさつ}: follow-up observation (medical)\n- {経過|けいか}{報告|ほうこく}: progress report\n- {経過|けいか}{良好|りょうこう}: favorable progress\n- {経過|けいか}{措置|そち}: transitional measure\n\nSIMILAR WORDS:\n- {過|す}ぎる: to pass — everyday word for time passing\n- {経|た}つ: to pass, elapse — common native Japanese word for time passing\n- {進行|しんこう}する: to progress, advance — emphasizes forward movement\n- {推移|すいい}する: to shift, transition — focuses on gradual changes over time",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01219_sugiru",
+      "reading": "すぎる",
+      "headword": "{過|す}ぎる",
+      "label": "to pass"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09892_tatsu",
+      "reading": "たつ",
+      "headword": "{経|た}つ",
+      "label": "to pass, elapse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26794_shinkousuru",
+      "reading": "しんこうする",
+      "headword": "{進行|しんこう}する",
+      "label": "to progress, advance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05579_suii",
+      "reading": "すいい",
+      "headword": "{推移|すいい}",
+      "label": "to shift, transition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13876_heru",
+      "reading": "へる",
+      "headword": "{経|へ}る",
+      "label": "to pass through, to go through, to elapse"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -195,6 +232,6 @@
       "verb_class": "suru"
     },
     "created": "2026-04-04T19:31:37Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

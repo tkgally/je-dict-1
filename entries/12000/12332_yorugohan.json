@@ -19,7 +19,9 @@
       "english": "What shall we have for dinner?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12332_yorugohan_ex2",
@@ -27,7 +29,9 @@
       "english": "Tonight's dinner is curry.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12332_yorugohan_ex3",
@@ -35,7 +39,9 @@
       "english": "I did my homework after eating dinner.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{夜|よる}ご{飯|はん} is a casual word for dinner.\n\nSIMILAR WORDS:\n- {晩|ばん}ご{飯|はん}: dinner (also casual, slightly more common in some regions)\n- {夕食|ゆうしょく}: dinner (formal, used in writing and announcements)\n- {夕飯|ゆうはん}: dinner (neutral to slightly formal)\n- {晩|ばん}{飯|めし}: dinner (masculine, rough)\n\nMEAL WORDS:\n- {朝|あさ}ご{飯|はん}: breakfast\n- {昼|ひる}ご{飯|はん}: lunch\n- {夜|よる}ご{飯|はん}: dinner",
@@ -46,18 +52,43 @@
       "reading": "ゆうしょく",
       "headword": "{夕食|ゆうしょく}",
       "label": "dinner (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02940_bangohan",
+      "reading": "ばんごはん",
+      "headword": "{晩|ばん}ご{飯|はん}",
+      "label": "dinner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02981_yuuhan",
+      "reading": "ゆうはん",
+      "headword": "{夕飯|ゆうはん}",
+      "label": "dinner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19760_banmeshi",
+      "reading": "ばんめし",
+      "headword": "{晩飯|ばんめし}",
+      "label": "dinner"
     }
   ],
   "metadata": {
     "created": "2026-02-21T02:56:32Z",
-    "modified": "2026-04-26T09:20:33Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

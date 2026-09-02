@@ -17,7 +17,9 @@
       "id": "28124_joushuu_ex1",
       "japanese": "{遅刻|ちこく}が{常習|じょうしゅう}になっている。",
       "english": "Being late has become a habit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28124_joushuu_ex2",
       "japanese": "{彼|かれ}は{万引|まんび}きの{常習|じょうしゅう}{犯|はん}だ。",
       "english": "He is a habitual shoplifter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28124_joushuu_ex3",
       "japanese": "{無断|むだん}{欠勤|けっきん}が{常習|じょうしゅう}{化|か}し、ついに{解雇|かいこ}された。",
       "english": "His unexcused absences became habitual, and he was finally fired.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{常習|じょうしゅう} refers to an ingrained habit of repeating an action — nearly always negative or criminal. It seldom appears alone, occurring mostly in compounds.\n\nCOMMON COMPOUNDS:\n- {常習|じょうしゅう}{犯|はん}: habitual offender\n- {常習|じょうしゅう}{化|か}する: to become habitual\n- {常習|じょうしゅう}{的|てき}: habitual; chronic\n\nSIMILAR WORDS:\n- {習慣|しゅうかん}: habit; custom — neutral, can be good or bad\n- {癖|くせ}: a personal quirk or habit",
+  "notes": "{常習|じょうしゅう} refers to an ingrained habit of repeating an action — nearly always negative or criminal. It seldom appears alone, occurring mostly in compounds.\n\nCOMPOUNDS:\n- {常習|じょうしゅう}{犯|はん}: habitual offender\n- {常習|じょうしゅう}{化|か}する: to become habitual\n- {常習|じょうしゅう}{的|てき}: habitual; chronic\n\nSIMILAR WORDS:\n- {習慣|しゅうかん}: habit; custom — neutral, can be good or bad\n- {癖|くせ}: a personal quirk or habit",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01429_shuukan",
+      "reading": "しゅうかん",
+      "headword": "{習慣|しゅうかん}",
+      "label": "habit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03814_kuse",
+      "reading": "くせ",
+      "headword": "{癖|くせ}",
+      "label": "a personal quirk or habit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["general"],
+      "politeness": "plain",
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-26T02:06:25Z",
-    "modified": "2026-05-26T02:06:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

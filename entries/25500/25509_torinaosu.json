@@ -3,7 +3,7 @@
   "headword": "{撮|と}り{直|なお}す",
   "reading": "とりなおす",
   "romaji": "torinaosu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to retake; to reshoot; to take again",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Compound verb from {撮|と}る (to take/photograph) + {直|なお}す (to redo; to fix). The {直|なお}す auxiliary pattern is productive: {書|か}き{直|なお}す (rewrite), {作|つく}り{直|なお}す (remake), やり{直|なお}す (redo). Very common in everyday situations — asking someone to retake a group photo, reshooting scenes for film, or retaking an ID photo.\n\nCOMMON COLLOCATIONS:\n- {写真|しゃしん}を{撮|と}り{直|なお}す: to retake a photo\n- シーンを{撮|と}り{直|なお}す: to reshoot a scene\n- {証明|しょうめい}{写真|しゃしん}を{撮|と}り{直|なお}す: to retake an ID photo\n\nSIMILAR WORDS:\n- {再撮影|さいさつえい}する: to reshoot — more formal; used in professional photography and film production\n- {撮|と}る: to take (a photo) — the base verb, without the \"again\" nuance",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26497_saisatsuei",
+      "reading": "さいさつえい",
+      "headword": "{再撮影|さいさつえい}",
+      "label": "to reshoot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00760_toru",
+      "reading": "とる",
+      "headword": "{撮|と}る",
+      "label": "to take"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,6 +68,7 @@
       "pos": [
         "verb-godan"
       ],
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "art"
@@ -60,7 +76,7 @@
       "verb_class": "godan-su"
     },
     "created": "2026-04-25T15:16:02Z",
-    "modified": "2026-08-04T13:00:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

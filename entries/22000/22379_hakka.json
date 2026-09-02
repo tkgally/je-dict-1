@@ -3,7 +3,7 @@
   "headword": "{発火|はっか}",
   "reading": "はっか",
   "romaji": "hakka",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "ignition; catching fire; combustion",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Describes the moment when something begins to burn. Often used in safety warnings and accident reports. The verb form {発火|はっか}する means \"to catch fire\" or \"to ignite.\"\n\nCOMMON COLLOCATIONS:\n- {発火|はっか}する: to catch fire / to ignite\n- {自然|しぜん}{発火|はっか}: spontaneous combustion\n- {発火|はっか}{点|てん}: ignition point / flash point\n- {発火|はっか}の{原因|げんいん}: cause of ignition\n- {発火|はっか}{装置|そうち}: ignition device\n- {発火|はっか}の{危険|きけん}: risk of catching fire\n\nSIMILAR WORDS:\n- {着火|ちゃっか}: ignition — very similar, but often implies intentional lighting; {発火|はっか} is more often spontaneous\n- {点火|てんか}: lighting a fire — deliberately setting fire to something (a stove, fireworks, etc.)\n- {出火|しゅっか}: outbreak of fire — the start of a fire as an incident, used in fire investigations\n- {火災|かさい}: fire (as a disaster) — the resulting fire event, not the moment of ignition",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16200_tenka",
+      "reading": "てんか",
+      "headword": "{点火|てんか}",
+      "label": "lighting a fire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20260_shukka",
+      "reading": "しゅっか",
+      "headword": "{出火|しゅっか}",
+      "label": "outbreak of fire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02561_kasai",
+      "reading": "かさい",
+      "headword": "{火災|かさい}",
+      "label": "fire"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T20:11:33Z",
-    "modified": "2026-04-05T20:11:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

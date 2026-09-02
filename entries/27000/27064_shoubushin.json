@@ -17,7 +17,9 @@
       "id": "27064_shoubushin_ex1",
       "japanese": "{勝負心|しょうぶしん}がなければ{勝|か}てない。",
       "english": "You can't win without a fighting spirit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27064_shoubushin_ex2",
       "japanese": "あの{選手|せんしゅ}は{勝負心|しょうぶしん}にあふれている。",
       "english": "That athlete is overflowing with the will to win.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "27064_shoubushin_ex3",
       "japanese": "{大事|だいじ}な{試合|しあい}ほど{勝負心|しょうぶしん}を{前面|ぜんめん}に{出|だ}して{戦|たたか}うべきだ。",
       "english": "The more important the match, the more you should fight with your will to win on full display.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {勝負|しょうぶ} (contest, match) + {心|しん} (heart/spirit). Refers to the determination to engage seriously in competition and fight to win. More action-oriented than {競争心|きょうそうしん}, which is about wanting to outperform others in general. Commonly used in sports commentary.\n\nCOMMON COLLOCATIONS:\n- {勝負心|しょうぶしん}にあふれる: to be full of fighting spirit\n- {勝負心|しょうぶしん}を{見|み}せる: to show one's will to win\n- {勝負心|しょうぶしん}が{足|た}りない: to lack fighting spirit\n- {勝負心|しょうぶしん}を{前面|ぜんめん}に{出|だ}す: to put one's fighting spirit front and center\n\nSIMILAR WORDS:\n- {競争心|きょうそうしん}: competitive spirit — broader drive to outperform, not limited to a specific contest\n- {闘志|とうし}: fighting spirit — synonym but more literary; often used in written sports coverage\n- {根性|こんじょう}: guts, grit — emphasizes perseverance and endurance rather than the will to win",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27063_kyousoushin",
+      "reading": "きょうそうしん",
+      "headword": "{競争心|きょうそうしん}",
+      "label": "competitive spirit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19440_toushi",
+      "reading": "とうし",
+      "headword": "{闘志|とうし}",
+      "label": "fighting spirit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19215_konjou",
+      "reading": "こんじょう",
+      "headword": "{根性|こんじょう}",
+      "label": "guts, grit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion", "sports"]
+      "semantic": [
+        "emotion",
+        "sports"
+      ]
     },
     "created": "2026-05-06T16:06:07Z",
-    "modified": "2026-05-06T16:06:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

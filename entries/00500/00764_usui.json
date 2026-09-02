@@ -2,7 +2,7 @@
   "id": "00764_usui",
   "headword": "{薄|うす}い",
   "reading": "うすい",
-  "part_of_speech": "adjective (i-adjective)",
+  "part_of_speech": "i-adjective",
   "gloss": "thin, light, weak",
   "definitions": [
     {
@@ -173,7 +173,7 @@
       ]
     }
   ],
-  "notes": "{薄|うす}い is an i-adjective with multiple meanings, all involving lack of intensity or thickness.\n\nFORMS:\n- Adverbial: {薄|うす}く\n- Noun form: {薄|うす}さ (thinness)\n\nMEANINGS BY CONTEXT:\n1. Physical thickness: {薄|うす}い⟦{紙|かみ}→紙：00712_kami⟧ (thin paper), {薄|うす}い⟦{壁|かべ}→壁：01290_kabe⟧ (thin wall)\n2. Color intensity: {薄|うす}い⟦{色|いろ}→色：00849_iro⟧ (light/pale color)\n3. Taste/concentration: {薄|うす}い⟦{味|あじ}→味：00826_aji⟧ (weak flavor), {薄|うす}い⟦コーヒー→コーヒー：00789_koohii⟧ (weak coffee)\n\nOPPOSITES:\n- ⟦{厚|あつ}い→厚い：00690_atsui⟧: thick (for physical thickness)\n- ⟦{濃|こ}い→濃い：02344_koi⟧: dark, strong (for colors and flavors)\n\nVS. ⟦{細|ほそ}い→細い：02962_hosoi⟧: both translate as \"thin,\" but they describe different dimensions. {薄|うす}い is about thickness — how little depth something has from front to back (paper, a slice, a wall). ⟦{細|ほそ}い→細い：02962_hosoi⟧ is about width — how narrow something long is (a rope, a road, an arm). A slice of bread is {薄|うす}い; a strand of noodle is ⟦{細|ほそ}い→細い：02962_hosoi⟧.\n\nCOMMON EXPRESSIONS:\n- ⟦{影|かげ}→影：02191_kage⟧⟦が→が：00051_ga⟧{薄|うす}い: to have little presence\n- ⟦{望|のぞ}み→望み：03543_nozomi⟧⟦が→が：00051_ga⟧{薄|うす}い: little hope\n- ⟦{薄|うす}{着|ぎ}→薄着：14028_usugi⟧: light clothing",
+  "notes": "{薄|うす}い is an i-adjective with multiple meanings, all involving lack of intensity or thickness.\n\nFORMS:\n- Adverbial: {薄|うす}く\n- Noun form: {薄|うす}さ (thinness)\n\nMEANINGS BY CONTEXT:\n1. Physical thickness: {薄|うす}い⟦{紙|かみ}→紙：00712_kami⟧ (thin paper), {薄|うす}い⟦{壁|かべ}→壁：01290_kabe⟧ (thin wall)\n2. Color intensity: {薄|うす}い⟦{色|いろ}→色：00849_iro⟧ (light/pale color)\n3. Taste/concentration: {薄|うす}い⟦{味|あじ}→味：00826_aji⟧ (weak flavor), {薄|うす}い⟦コーヒー→コーヒー：00789_koohii⟧ (weak coffee)\n\nSIMILAR WORDS:\n- ⟦{厚|あつ}い→厚い：00690_atsui⟧: thick (for physical thickness)\n- ⟦{濃|こ}い→濃い：02344_koi⟧: dark, strong (for colors and flavors)\n\nVS. ⟦{細|ほそ}い→細い：02962_hosoi⟧: both translate as \"thin,\" but they describe different dimensions. {薄|うす}い is about thickness — how little depth something has from front to back (paper, a slice, a wall). ⟦{細|ほそ}い→細い：02962_hosoi⟧ is about width — how narrow something long is (a rope, a road, an arm). A slice of bread is {薄|うす}い; a strand of noodle is ⟦{細|ほそ}い→細い：02962_hosoi⟧.\n\nCOMMON EXPRESSIONS:\n- ⟦{影|かげ}→影：02191_kage⟧⟦が→が：00051_ga⟧{薄|うす}い: to have little presence\n- ⟦{望|のぞ}み→望み：03543_nozomi⟧⟦が→が：00051_ga⟧{薄|うす}い: little hope\n- ⟦{薄|うす}{着|ぎ}→薄着：14028_usugi⟧: light clothing",
   "cross_references": [
     {
       "type": "antonym",
@@ -216,11 +216,32 @@
       "reading": "あわい",
       "headword": "{淡|あわ}い",
       "label": "pale, faint (colors; more literary)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00587_shiroi",
+      "reading": "しろい",
+      "headword": "{白|しろ}い",
+      "label": "white"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17409_kasukana",
+      "reading": "かすかな",
+      "headword": "{微|かす}かな",
+      "label": "faint, slight"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29057_usume",
+      "reading": "うすめ",
+      "headword": "{薄|うす}め",
+      "label": "slightly thin"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:49:20Z",
-    "modified": "2026-08-10T21:19:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -17,7 +17,9 @@
       "id": "28991_nanise_ex1",
       "japanese": "なにせ{初|はじ}めてだから{緊張|きんちょう}するよ。",
       "english": "The thing is, it's my first time, so of course I'm nervous.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,31 +27,62 @@
       "id": "28991_nanise_ex2",
       "japanese": "なにせ{忙|いそが}しくて、{連絡|れんらく}する{暇|ひま}もなかった。",
       "english": "You see, I was so busy I didn't even have time to get in touch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28991_nanise_ex3",
-      "japanese": "なにせ{相手|あいて}は{世界|せかい}{チャンピオン|ちゃんぴおん}だから、{勝|か}てるとは{思|おも}っていない。",
+      "japanese": "なにせ{相手|あいて}は{世界|せかい}チャンピオンだから、{勝|か}てるとは{思|おも}っていない。",
       "english": "After all, the opponent is a world champion, so I don't expect to win.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A casual conversational variant of なにしろ; both introduce a strong reason or excuse. Placed at the beginning of a sentence or clause, typically followed by から or ので.\n\nCOMMON PATTERNS:\n- なにせ〜から: after all, because ~\n- なにせ〜ので: since, after all, ~\n- なにせ〜んだ: the thing is ~\n\nSIMILAR WORDS:\n- なにしろ: same meaning, slightly more formal\n- とにかく: anyway; in any case — less explanatory, often used to redirect a topic\n- {何|なん}といっても: above all; most importantly — emphasizes the most outstanding point",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05717_nanishiro",
+      "reading": "なにしろ",
+      "headword": "{何|なに}しろ",
+      "label": "same meaning, slightly more formal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03464_tonikaku",
+      "reading": "とにかく",
+      "headword": "とにかく",
+      "label": "anyway"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28992_nantoittemo",
+      "reading": "なんといっても",
+      "headword": "{何|なん}といっても",
+      "label": "above all"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "informal",
-      "politeness": null,
-      "semantic": ["descriptive"],
+      "politeness": "plain",
+      "semantic": [
+        "descriptive"
+      ],
       "domain": []
     },
     "created": "2026-06-08T07:55:39Z",
-    "modified": "2026-06-08T07:55:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

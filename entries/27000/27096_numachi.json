@@ -17,7 +17,9 @@
       "id": "27096_numachi_ex1",
       "japanese": "{沼地|ぬまち}に{足|あし}を{取|と}られた。",
       "english": "My feet got stuck in the swamp.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27096_numachi_ex2",
       "japanese": "この{辺|あた}りはかつて{沼地|ぬまち}だったらしい。",
       "english": "This area was apparently a swamp in the past.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "27096_numachi_ex3",
       "japanese": "{沼地|ぬまち}を{埋|う}め{立|た}てて{住宅地|じゅうたくち}にしたため、{地盤|じばん}が{弱|よわ}い。",
       "english": "Because they filled in the swamp to build a residential area, the ground is unstable.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {沼|ぬま} (swamp, pond) + {地|ち} (land, ground). Refers to terrain that is perpetually wet and soft, often with standing water. Relevant in Japan because many modern urban areas were built on reclaimed swampland, which affects building foundations and earthquake risk.\n\nCOMMON COLLOCATIONS:\n- {沼地|ぬまち}に{足|あし}を{取|と}られる: to get one's feet stuck in a swamp\n- {沼地|ぬまち}を{埋|う}め{立|た}てる: to reclaim swampland (by filling)\n- {沼地|ぬまち}が{広|ひろ}がる: swampland stretches out\n\nSIMILAR WORDS:\n- {湿地|しっち}: wetland; marshland — a broader, more scientific term that includes any kind of wet terrain. {沼地|ぬまち} specifically implies soft, muddy ground.\n- {沼|ぬま}: swamp; pond — the base word, which can refer to a body of standing water rather than terrain. {沼地|ぬまち} emphasizes the land area.\n- {泥沼|どろぬま}: mud swamp; quagmire — often used figuratively to mean a hopeless situation one cannot escape from.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05036_shicchi",
+      "reading": "しっち",
+      "headword": "{湿地|しっち}",
+      "label": "wetland"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11065_doronuma",
+      "reading": "どろぬま",
+      "headword": "{泥沼|どろぬま}",
+      "label": "mud swamp"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     },
     "created": "2026-05-07T11:15:04Z",
-    "modified": "2026-05-07T11:15:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

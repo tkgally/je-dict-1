@@ -2,7 +2,7 @@
   "id": "00138_kaisetsu",
   "headword": "{解説|かいせつ}",
   "reading": "かいせつ",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "explanation, commentary",
   "conjugation": {
     "type": "suru",
@@ -124,7 +124,7 @@
     },
     {
       "id": "00138_kaisetsu_ex3",
-      "japanese": "⟦{ニュース|にゅーす}→ニュース：04437_nyuusu⟧{解説|かいせつ}⟦{者|しゃ}→者：04662_sha⟧⟦が→が：00051_ga⟧⟦わかりやすく→わかりやすい：09582_wakariyasui⟧⟦{説明|せつめい}→説明：01449_setsumei⟧⟦して→する：00392_suru⟧⟦くれた→くれる：00724_kureru⟧。",
+      "japanese": "⟦ニュース→ニュース：04437_nyuusu⟧{解説|かいせつ}⟦{者|しゃ}→者：04662_sha⟧⟦が→が：00051_ga⟧⟦わかりやすく→わかりやすい：09582_wakariyasui⟧⟦{説明|せつめい}→説明：01449_setsumei⟧⟦して→する：00392_suru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "The news commentator explained it in an easy-to-understand way.",
       "notes": null,
       "has_audio": false,
@@ -134,10 +134,39 @@
     }
   ],
   "notes": "{解説|かいせつ} implies expert or authoritative explanation, often used in media, academic, and professional contexts.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{解説|かいせつ}⟦する→する：00392_suru⟧\n\nCommon collocations:\n- ⟦{解説|かいせつ}{者|しゃ}→解説者：09688_kaisetsusha⟧ (commentator)\n- ⟦{解説|かいせつ}{書|しょ}→解説書：24266_kaisetsusho⟧ (commentary, explanatory book)\n- {解説|かいせつ}⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧ (to add commentary)\n- ⟦{試合|しあい}→試合：01601_shiai⟧⟦の→の：09472_no⟧{解説|かいせつ} (match commentary)\n\nRelated terms:\n- ⟦{説明|せつめい}→説明：01449_setsumei⟧ (explanation - more general)\n- ⟦コメンタリー→コメンタリー：27364_komentarii⟧ (commentary - loanword)\n- ⟦{注釈|ちゅうしゃく}→注釈：09766_chuushaku⟧ (annotation, notes)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01449_setsumei",
+      "reading": "せつめい",
+      "headword": "{説明|せつめい}",
+      "label": "explanation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21507_atogaki",
+      "reading": "あとがき",
+      "headword": "あとがき",
+      "label": "afterword"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24635_ronsetsu",
+      "reading": "ろんせつ",
+      "headword": "{論説|ろんせつ}",
+      "label": "editorial"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27364_komentarii",
+      "reading": "こめんたりー",
+      "headword": "コメンタリー",
+      "label": "commentary (audio/video commentary track"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T12:17:38Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

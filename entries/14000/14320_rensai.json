@@ -1,157 +1,186 @@
 {
- "schema_version": "2.0",
- "id": "14320_rensai",
- "headword": "{連載|れんさい}",
- "reading": "れんさい",
- "part_of_speech": "noun, suru verb",
- "gloss": "serialization; serial publication",
- "conjugation": {
-  "type": "suru",
-  "forms": [
-   {
-    "label": "Present",
-    "affirmative": "{連載|れんさい}する",
-    "negative": "{連載|れんさい}しない"
-   },
-   {
-    "label": "Present polite",
-    "affirmative": "{連載|れんさい}します",
-    "negative": "{連載|れんさい}しません"
-   },
-   {
-    "label": "Past",
-    "affirmative": "{連載|れんさい}した",
-    "negative": "{連載|れんさい}しなかった"
-   },
-   {
-    "label": "Past polite",
-    "affirmative": "{連載|れんさい}しました",
-    "negative": "{連載|れんさい}しませんでした"
-   },
-   {
-    "label": "て form",
-    "affirmative": "{連載|れんさい}して",
-    "negative": "{連載|れんさい}しなくて"
-   },
-   {
-    "label": "ている present",
-    "affirmative": "{連載|れんさい}している",
-    "negative": "{連載|れんさい}していない"
-   },
-   {
-    "label": "ている polite",
-    "affirmative": "{連載|れんさい}しています",
-    "negative": "{連載|れんさい}していません"
-   },
-   {
-    "label": "ている past",
-    "affirmative": "{連載|れんさい}していた",
-    "negative": "{連載|れんさい}していなかった"
-   },
-   {
-    "label": "ている past polite",
-    "affirmative": "{連載|れんさい}していました",
-    "negative": "{連載|れんさい}していませんでした"
-   },
-   {
-    "label": "Conditional ば",
-    "affirmative": "{連載|れんさい}すれば",
-    "negative": "{連載|れんさい}しなければ"
-   },
-   {
-    "label": "Conditional たら",
-    "affirmative": "{連載|れんさい}したら",
-    "negative": "{連載|れんさい}しなかったら"
-   },
-   {
-    "label": "Volitional",
-    "affirmative": "{連載|れんさい}しよう",
-    "negative": null
-   },
-   {
-    "label": "Volitional polite",
-    "affirmative": "{連載|れんさい}しましょう",
-    "negative": null
-   },
-   {
-    "label": "Potential",
-    "affirmative": "{連載|れんさい}できる",
-    "negative": "{連載|れんさい}できない"
-   },
-   {
-    "label": "Passive",
-    "affirmative": "{連載|れんさい}される",
-    "negative": "{連載|れんさい}されない"
-   },
-   {
-    "label": "Causative",
-    "affirmative": "{連載|れんさい}させる",
-    "negative": "{連載|れんさい}させない"
-   },
-   {
-    "label": "Imperative",
-    "affirmative": "{連載|れんさい}しろ",
-    "negative": "{連載|れんさい}するな"
-   }
-  ]
- },
- "definitions": [
-  {
-   "sense_number": 1,
-   "gloss": "serialization; serial publication",
-   "explanation": "Publishing a story, manga, or article in installments over successive issues of a magazine, newspaper, or online platform."
-  }
- ],
- "examples": [
-  {
-   "id": "14320_rensai_ex1",
-   "japanese": "この{漫画|まんが}は{週刊誌|しゅうかんし}で{連載|れんさい}されている。",
-   "english": "This manga is serialized in a weekly magazine.",
-   "notes": null,
-   "has_audio": false,
-   "sense_numbers": [
-    1
-   ]
+  "schema_version": "2.0",
+  "id": "14320_rensai",
+  "headword": "{連載|れんさい}",
+  "reading": "れんさい",
+  "part_of_speech": "noun, suru verb",
+  "gloss": "serialization; serial publication",
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{連載|れんさい}する",
+        "negative": "{連載|れんさい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{連載|れんさい}します",
+        "negative": "{連載|れんさい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{連載|れんさい}した",
+        "negative": "{連載|れんさい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{連載|れんさい}しました",
+        "negative": "{連載|れんさい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{連載|れんさい}して",
+        "negative": "{連載|れんさい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{連載|れんさい}している",
+        "negative": "{連載|れんさい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{連載|れんさい}しています",
+        "negative": "{連載|れんさい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{連載|れんさい}していた",
+        "negative": "{連載|れんさい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{連載|れんさい}していました",
+        "negative": "{連載|れんさい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{連載|れんさい}すれば",
+        "negative": "{連載|れんさい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{連載|れんさい}したら",
+        "negative": "{連載|れんさい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{連載|れんさい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{連載|れんさい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{連載|れんさい}できる",
+        "negative": "{連載|れんさい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{連載|れんさい}される",
+        "negative": "{連載|れんさい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{連載|れんさい}させる",
+        "negative": "{連載|れんさい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{連載|れんさい}しろ",
+        "negative": "{連載|れんさい}するな"
+      }
+    ]
   },
-  {
-   "id": "14320_rensai_ex2",
-   "japanese": "{人気|にんき}{作品|さくひん}の{連載|れんさい}が{終了|しゅうりょう}した。",
-   "english": "The serialization of the popular work has ended.",
-   "notes": null,
-   "has_audio": false,
-   "sense_numbers": [
-    1
-   ]
-  },
-  {
-   "id": "14320_rensai_ex3",
-   "japanese": "{新聞|しんぶん}に{小説|しょうせつ}を{連載|れんさい}していた{作家|さっか}が、{単行本|たんこうぼん}として{出版|しゅっぱん}することになった。",
-   "english": "The author who had been serializing a novel in the newspaper decided to publish it as a standalone book.",
-   "notes": null,
-   "has_audio": false,
-   "sense_numbers": [
-    1
-   ]
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "serialization; serial publication",
+      "explanation": "Publishing a story, manga, or article in installments over successive issues of a magazine, newspaper, or online platform."
+    }
+  ],
+  "examples": [
+    {
+      "id": "14320_rensai_ex1",
+      "japanese": "この{漫画|まんが}は{週刊誌|しゅうかんし}で{連載|れんさい}されている。",
+      "english": "This manga is serialized in a weekly magazine.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "14320_rensai_ex2",
+      "japanese": "{人気|にんき}{作品|さくひん}の{連載|れんさい}が{終了|しゅうりょう}した。",
+      "english": "The serialization of the popular work has ended.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "14320_rensai_ex3",
+      "japanese": "{新聞|しんぶん}に{小説|しょうせつ}を{連載|れんさい}していた{作家|さっか}が、{単行本|たんこうぼん}として{出版|しゅっぱん}することになった。",
+      "english": "The author who had been serializing a novel in the newspaper decided to publish it as a standalone book.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "A key word in manga and publishing culture. Many famous Japanese manga and novels were first published as serializations.\n\nCOMMON COLLOCATIONS:\n- {連載|れんさい}する (to serialize)\n- {連載|れんさい}{開始|かいし} (start of serialization)\n- {連載|れんさい}{終了|しゅうりょう} (end of serialization)\n- {連載|れんさい}{中|ちゅう} (currently serialized)\n- {連載|れんさい}{漫画|まんが} (serialized manga)\n- {連載|れんさい}を{休|やす}む (take a break from serialization — hiatus)\n\nIn manga culture, a {連載|れんさい} ending is a major event. The term {打|う}ち{切|き}り refers to a serialization being cancelled, while {完結|かんけつ} means a planned conclusion.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01511_manga",
+      "reading": "まんが",
+      "headword": "{漫画|まんが}",
+      "label": "manga, comic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08299_yomikiri",
+      "reading": "よみきり",
+      "headword": "{読|よ}み{切|き}り",
+      "label": "one-shot story"
+    },
+    {
+      "type": "related",
+      "target_id": "08643_mangaka",
+      "reading": "まんがか",
+      "headword": "{漫画家|まんがか}",
+      "label": "manga artist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20543_tanpatsu",
+      "reading": "たんぱつ",
+      "headword": "{単発|たんぱつ}",
+      "label": "one-time"
+    }
+  ],
+  "metadata": {
+    "created": "2026-02-28T11:02:32Z",
+    "modified": "2026-09-02T03:02:30Z",
+    "ai_model": "claude-opus-4-6",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "media"
+      ],
+      "verb_class": "suru"
+    }
   }
- ],
- "notes": "A key word in manga and publishing culture. Many famous Japanese manga and novels were first published as serializations.\n\nCOMMON COLLOCATIONS:\n- {連載|れんさい}する (to serialize)\n- {連載|れんさい}{開始|かいし} (start of serialization)\n- {連載|れんさい}{終了|しゅうりょう} (end of serialization)\n- {連載|れんさい}{中|ちゅう} (currently serialized)\n- {連載|れんさい}{漫画|まんが} (serialized manga)\n- {連載|れんさい}を{休|やす}む (take a break from serialization — hiatus)\n\nIn manga culture, a {連載|れんさい} ending is a major event. The term {打|う}ち{切|き}り refers to a serialization being cancelled, while {完結|かんけつ} means a planned conclusion.",
- "cross_references": [],
- "metadata": {
-  "created": "2026-02-28T11:02:32Z",
-  "modified": "2026-07-13T16:04:21Z",
-  "ai_model": "claude-opus-4-6",
-  "vocabulary_tier": "general",
-  "tags": {
-   "pos": [
-    "noun",
-    "verb-suru"
-   ],
-   "formality": "neutral",
-   "politeness": "plain",
-   "semantic": [
-    "media"
-   ],
-   "verb_class": "suru"
-  }
- }
 }

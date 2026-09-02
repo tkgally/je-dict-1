@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A common over-the-counter medication in Japan. Popular brands include ビオフェルミン and ミヤリサン. These typically contain beneficial bacteria (probiotics) to restore intestinal balance.\n\nCOMMON COLLOCATIONS:\n- {整腸剤|せいちょうざい}を{飲|の}む: to take digestive medicine\n- {整腸剤|せいちょうざい}を{処方|しょほう}する: to prescribe digestive medicine\n- {市販|しはん}の{整腸剤|せいちょうざい}: over-the-counter digestive medicine\n\nRELATED TERMS:\n- {胃腸薬|いちょうやく}: stomach and intestinal medicine — broader category\n- {下痢止|げりど}め: anti-diarrheal medicine\n- {便秘薬|べんぴやく}: laxative\n\nFORMATION:\n{整腸|せいちょう} (regulating the intestines) + {剤|ざい} (medicine/agent)",
+  "notes": "A common over-the-counter medication in Japan. Popular brands include ビオフェルミン and ミヤリサン. These typically contain beneficial bacteria (probiotics) to restore intestinal balance.\n\nCOMMON COLLOCATIONS:\n- {整腸剤|せいちょうざい}を{飲|の}む: to take digestive medicine\n- {整腸剤|せいちょうざい}を{処方|しょほう}する: to prescribe digestive medicine\n- {市販|しはん}の{整腸剤|せいちょうざい}: over-the-counter digestive medicine\n\nRELATED WORDS:\n- {胃腸薬|いちょうやく}: stomach and intestinal medicine — broader category\n- {下痢止|げりど}め: anti-diarrheal medicine\n- {便秘薬|べんぴやく}: laxative\n\nFORMS:\n{整腸|せいちょう} (regulating the intestines) + {剤|ざい} (medicine/agent)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "30275_geridome",
+      "reading": "げりどめ",
+      "headword": "{下痢止|げりど}め",
+      "label": "anti-diarrheal medicine"
+    },
+    {
+      "type": "related",
+      "target_id": "28831_benpiyaku",
+      "reading": "べんぴやく",
+      "headword": "{便秘薬|べんぴやく}",
+      "label": "laxative"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28835_gezai",
+      "reading": "げざい",
+      "headword": "{下剤|げざい}",
+      "label": "laxative"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-05T19:24:46Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

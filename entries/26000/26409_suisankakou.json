@@ -17,7 +17,9 @@
       "id": "26409_suisankakou_ex1",
       "japanese": "この{町|まち}は{水産|すいさん}{加工|かこう}で{栄|さか}えている。",
       "english": "This town thrives on seafood processing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26409_suisankakou_ex2",
       "japanese": "{水産|すいさん}{加工|かこう}{品|ひん}の{輸出|ゆしゅつ}が{増|ふ}えている。",
       "english": "Exports of processed seafood products are increasing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26409_suisankakou_ex3",
       "japanese": "{北海道|ほっかいどう}は{水産|すいさん}{加工|かこう}{業|ぎょう}が{盛|さか}んで、{干物|ひもの}や{缶詰|かんづめ}を{全国|ぜんこく}に{出荷|しゅっか}している。",
       "english": "Hokkaido has a thriving seafood processing industry, shipping dried fish and canned goods nationwide.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {水産|すいさん} (marine products, fishery) and {加工|かこう} (processing). Japan's extensive coastline and fishing tradition make seafood processing a significant industry, particularly in northern regions like Hokkaido and the Sanriku coast.\n\nCOMMON COLLOCATIONS:\n- {水産|すいさん}{加工|かこう}{品|ひん}: processed seafood products\n- {水産|すいさん}{加工|かこう}{業|ぎょう}: seafood processing industry\n- {水産|すいさん}{加工|かこう}{工場|こうじょう}: seafood processing plant\n- {水産|すいさん}{加工|かこう}{会社|かいしゃ}: seafood processing company\n\nPRODUCT EXAMPLES:\n- {干物|ひもの}: dried fish\n- {蒲鉾|かまぼこ}: fish cake\n- {缶詰|かんづめ}: canned seafood\n- {塩辛|しおから}: salted and fermented seafood\n- {練|ね}り{製品|せいひん}: surimi products\n\nSIMILAR WORDS:\n- {水産業|すいさんぎょう}: fishery industry — the broader fishing and aquaculture sector\n- {食品|しょくひん}{加工|かこう}: food processing — a broader category not limited to seafood\n- {水産物|すいさんぶつ}: marine products — the raw materials before processing",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15919_suisangyou",
+      "reading": "すいさんぎょう",
+      "headword": "{水産業|すいさんぎょう}",
+      "label": "fishery industry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16545_suisanbutsu",
+      "reading": "すいさんぶつ",
+      "headword": "{水産物|すいさんぶつ}",
+      "label": "marine products"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food", "business"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "business"
+      ]
     },
     "created": "2026-05-01T14:12:40Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

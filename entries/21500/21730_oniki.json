@@ -17,7 +17,9 @@
       "id": "21730_oniki_ex1",
       "japanese": "{彼女|かのじょ}は{音域|おんいき}が{広|ひろ}い。",
       "english": "She has a wide vocal range.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21730_oniki_ex2",
       "japanese": "この{曲|きょく}は{音域|おんいき}が{高|たか}くて{歌|うた}いにくい。",
       "english": "This song has a high pitch range and is hard to sing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,12 +37,37 @@
       "id": "21730_oniki_ex3",
       "japanese": "フルートの{音域|おんいき}は{約|やく}3オクターブあり、{高音|こうおん}{楽器|がっき}の{中|なか}でも{表現力|ひょうげんりょく}が{豊|ゆた}かだ。",
       "english": "The flute has a range of about three octaves and is expressively rich even among high-pitched instruments.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers to the range of pitches that a voice or instrument can produce. Combines {音|おん} (sound) and {域|いき} (area, range).\n\nUSAGE:\n- Used for both human voices and musical instruments\n- Commonly discussed in music, singing, and karaoke contexts\n- Described as {広|ひろ}い (wide) or {狭|せま}い (narrow), {高|たか}い (high) or {低|ひく}い (low)\n\nCOMMON COLLOCATIONS:\n- {音域|おんいき}が{広|ひろ}い: wide vocal/pitch range\n- {音域|おんいき}が{狭|せま}い: narrow range\n- {高|こう}{音域|おんいき}: high register\n- {低|てい}{音域|おんいき}: low register\n- {音域|おんいき}を{広|ひろ}げる: to expand one's range\n\nSIMILAR WORDS:\n- {声域|せいいき}: vocal range — specifically for the human voice\n- {音程|おんてい}: pitch, interval — the distance between two notes\n- レンジ: range — the loanword, sometimes used in music contexts",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07109_ontei",
+      "reading": "おんてい",
+      "headword": "{音程|おんてい}",
+      "label": "pitch, interval"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01047_renji",
+      "reading": "れんじ",
+      "headword": "レンジ",
+      "label": "range"
+    },
+    {
+      "type": "related",
+      "target_id": "19946_kouon",
+      "reading": "こうおん",
+      "headword": "{高音|こうおん}",
+      "label": "high-pitched sound"
+    }
+  ],
   "metadata": {
     "entry_id": "21730_oniki",
     "schema_version": "2.0",
@@ -46,11 +75,17 @@
     "vocabulary_tier": "general",
     "jlpt_level": null,
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["music"],
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "music"
+      ],
       "register": [],
       "usage": []
     },
-    "modified": "2026-04-02T22:18:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

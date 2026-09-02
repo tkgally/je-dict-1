@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{酪農|らくのう} specifically refers to dairy farming, as opposed to ⟦{畜産|ちくさん}→畜産：16090_chikusan⟧ (livestock farming) which is broader.\n\nCOMMON PATTERNS:\n・{酪農|らくのう}⟦を→を：00422_wo⟧⟦{営|いとな}む→営む：11837_itonamu⟧ (run a dairy farm)\n・⟦{酪農家|らくのうか}→酪農家：22339_rakunouka⟧ (dairy farmer)\n・{酪農|らくのう}⟦{製品|せいひん}→製品：01445_seihin⟧ (dairy products)\n・{酪農|らくのう}⟦{業|ぎょう}→業：noentry⟧ (dairy industry)\n\nJAPAN CONTEXT:\nHokkaido produces about half of Japan's raw milk. The region's cool climate is suitable for dairy cattle.\n\nRELATED TERMS:\n・⟦{乳牛|にゅうぎゅう}→乳牛：24755_nyuugyuu⟧ (dairy cow)\n・⟦{生乳|せいにゅう}→生乳：24372_seinyuu⟧ (raw milk)\n・⟦{乳製品|にゅうせいひん}→乳製品：05882_nyuuseihin⟧ (dairy products)",
+  "notes": "USAGE:\n{酪農|らくのう} specifically refers to dairy farming, as opposed to ⟦{畜産|ちくさん}→畜産：16090_chikusan⟧ (livestock farming) which is broader.\n\nCOMMON PATTERNS:\n- {酪農|らくのう}⟦を→を：00422_wo⟧⟦{営|いとな}む→営む：11837_itonamu⟧ (run a dairy farm)\n- ⟦{酪農家|らくのうか}→酪農家：22339_rakunouka⟧ (dairy farmer)\n- {酪農|らくのう}⟦{製品|せいひん}→製品：01445_seihin⟧ (dairy products)\n- {酪農|らくのう}⟦{業|ぎょう}→業：noentry⟧ (dairy industry)\n\nJAPAN CONTEXT:\nHokkaido produces about half of Japan's raw milk. The region's cool climate is suitable for dairy cattle.\n\nRELATED WORDS:\n- ⟦{乳牛|にゅうぎゅう}→乳牛：24755_nyuugyuu⟧ (dairy cow)\n- ⟦{生乳|せいにゅう}→生乳：24372_seinyuu⟧ (raw milk)\n- ⟦{乳製品|にゅうせいひん}→乳製品：05882_nyuuseihin⟧ (dairy products)",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,53 @@
       "headword": "{乳製品|にゅうせいひん}",
       "label": "dairy products",
       "target_id": "05882_nyuuseihin"
+    },
+    {
+      "type": "related",
+      "target_id": "24755_nyuugyuu",
+      "reading": "にゅうぎゅう",
+      "headword": "{乳牛|にゅうぎゅう}",
+      "label": "dairy cow"
+    },
+    {
+      "type": "related",
+      "target_id": "24372_seinyuu",
+      "reading": "せいにゅう",
+      "headword": "{生乳|せいにゅう}",
+      "label": "raw milk"
+    },
+    {
+      "type": "related",
+      "target_id": "06431_kachiku",
+      "reading": "かちく",
+      "headword": "{家畜|かちく}",
+      "label": "livestock, domestic animal"
+    },
+    {
+      "type": "related",
+      "target_id": "18962_youkei",
+      "reading": "ようけい",
+      "headword": "{養鶏|ようけい}",
+      "label": "poultry farming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20195_bokuchiku",
+      "reading": "ぼくちく",
+      "headword": "{牧畜|ぼくちく}",
+      "label": "livestock farming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28239_chikusangyou",
+      "reading": "ちくさんぎょう",
+      "headword": "{畜産業|ちくさんぎょう}",
+      "label": "livestock industry"
     }
   ],
   "metadata": {
     "created": "2026-01-17T03:13:44Z",
-    "modified": "2026-06-13T06:38:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

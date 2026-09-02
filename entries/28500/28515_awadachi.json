@@ -17,7 +17,9 @@
       "id": "28515_awadachi_ex1",
       "japanese": "この{石鹸|せっけん}は{泡立|あわだ}ちがいい。",
       "english": "This soap lathers well.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28515_awadachi_ex2",
       "japanese": "シャンプーの{泡立|あわだ}ちが{悪|わる}いと{洗|あら}いにくい。",
       "english": "When the shampoo doesn't lather well, it's hard to wash with.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "28515_awadachi_ex3",
       "japanese": "{卵白|らんぱく}の{泡立|あわだ}ちが{足|た}りないとケーキがふくらまない。",
       "english": "If the egg whites don't foam up enough, the cake won't rise.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Noun form of the verb {泡立|あわだ}つ (to foam, to lather). Most often appears in product reviews and cooking contexts to describe how readily something produces foam.\n\nCOMMON COLLOCATIONS:\n- {泡立|あわだ}ちがいい: lathers well; foams nicely\n- {泡立|あわだ}ちが{悪|わる}い: doesn't lather well\n- {泡立|あわだ}ちが{足|た}りない: not enough foam\n- きめ{細|こま}かい{泡立|あわだ}ち: fine-textured foam\n\nSIMILAR WORDS:\n- {泡|あわ}: foam, bubble — the foam itself, not the act of producing it\n- {泡立|あわだ}て{器|き}: whisk — tool for whipping (related verb form)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08066_awadateki",
+      "reading": "あわだてき",
+      "headword": "{泡立|あわだ}て{器|き}",
+      "label": "whisk"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["daily-life"],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life"
+      ],
       "domain": []
     },
     "created": "2026-06-01T03:08:44Z",
-    "modified": "2026-06-01T03:08:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

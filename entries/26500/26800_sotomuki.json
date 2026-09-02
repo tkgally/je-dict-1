@@ -3,7 +3,7 @@
   "headword": "{外向|そとむ}き",
   "reading": "そとむき",
   "romaji": "sotomuki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "outward-looking; extroverted; internationally-oriented",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "The counterpart of {内向|うちむ}き. Used for both personal disposition (extroverted, sociable) and broader orientations of organizations or nations (internationally engaged, open to the world).\n\nCOMMON COLLOCATIONS:\n- {外向|そとむ}きな{性格|せいかく}: outgoing personality\n- {外向|そとむ}きな{姿勢|しせい}: outward-looking stance\n- {外向|そとむ}き{志向|しこう}: outward-oriented tendency\n\nSIMILAR WORDS:\n- {外向的|がいこうてき}: extroverted — specifically for personality; more psychological\n- {内向|うちむ}き: inward-looking — the direct opposite\n- {積極的|せっきょくてき}: proactive; positive — implies willingness to take action",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08459_gaikouteki",
+      "reading": "がいこうてき",
+      "headword": "{外向的|がいこうてき}",
+      "label": "extroverted"
+    },
+    {
+      "type": "antonym",
+      "target_id": "26799_uchimuki",
+      "reading": "うちむき",
+      "headword": "{内向|うちむ}き",
+      "label": "inward-looking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01585_sekkyokuteki",
+      "reading": "せっきょくてき",
+      "headword": "{積極的|せっきょくてき}",
+      "label": "proactive"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +83,6 @@
       ]
     },
     "created": "2026-05-05T11:12:07Z",
-    "modified": "2026-05-05T11:12:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

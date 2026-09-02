@@ -2,7 +2,7 @@
   "id": "07521_fukkyuu",
   "headword": "{復旧|ふっきゅう}",
   "reading": "ふっきゅう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "recovery; restoration; repair",
   "conjugation": {
     "type": "suru",
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{復|ふく} (return, restore) + {旧|きゅう} (old, former)\nLiterally \"return to former state.\"\n\nCOMMON COLLOCATIONS:\n・{復旧|ふっきゅう}{作業|さぎょう} - recovery work\n・{復旧|ふっきゅう}{工事|こうじ} - restoration construction\n・{復旧|ふっきゅう}の{見込|みこ}み - prospects for recovery\n・{完全|かんぜん}{復旧|ふっきゅう} - full recovery\n\nIT CONTEXT:\n・システム{復旧|ふっきゅう} - system recovery\n・データ{復旧|ふっきゅう} - data recovery\n・{障害|しょうがい}{復旧|ふっきゅう} - fault recovery\n・{復旧|ふっきゅう}ポイント - restore point\n\nDISASTER CONTEXT:\n・{災害|さいがい}{復旧|ふっきゅう} - disaster recovery\n・ライフライン{復旧|ふっきゅう} - lifeline restoration\n\nSIMILAR WORDS:\n・{復興|ふっこう} - reconstruction (broader, includes development)\n・{修復|しゅうふく} - repair, restoration (often physical objects)\n・{回復|かいふく} - recovery (health, economy)",
+  "notes": "ETYMOLOGY:\n{復|ふく} (return, restore) + {旧|きゅう} (old, former)\nLiterally \"return to former state.\"\n\nCOMMON COLLOCATIONS:\n- {復旧|ふっきゅう}{作業|さぎょう} - recovery work\n- {復旧|ふっきゅう}{工事|こうじ} - restoration construction\n- {復旧|ふっきゅう}の{見込|みこ}み - prospects for recovery\n- {完全|かんぜん}{復旧|ふっきゅう} - full recovery\n\nIT CONTEXT:\n- システム{復旧|ふっきゅう} - system recovery\n- データ{復旧|ふっきゅう} - data recovery\n- {障害|しょうがい}{復旧|ふっきゅう} - fault recovery\n- {復旧|ふっきゅう}ポイント - restore point\n\nDISASTER CONTEXT:\n- {災害|さいがい}{復旧|ふっきゅう} - disaster recovery\n- ライフライン{復旧|ふっきゅう} - lifeline restoration\n\nSIMILAR WORDS:\n- {復興|ふっこう} - reconstruction (broader, includes development)\n- {修復|しゅうふく} - repair, restoration (often physical objects)\n- {回復|かいふく} - recovery (health, economy)",
   "cross_references": [
     {
       "type": "synonym",
@@ -159,11 +159,46 @@
       "reading": "りかばりー",
       "headword": "リカバリー",
       "label": "recovery (from setback)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11544_shuufuku",
+      "reading": "しゅうふく",
+      "headword": "{修復|しゅうふく}",
+      "label": "repair, restoration"
+    },
+    {
+      "type": "related",
+      "target_id": "03544_teiden",
+      "reading": "ていでん",
+      "headword": "{停電|ていでん}",
+      "label": "power outage, blackout"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20075_motonimodoru",
+      "reading": "もとにもどる",
+      "headword": "{元|もと}に{戻|もど}る",
+      "label": "to return to the original state"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21330_kaifukusuru",
+      "reading": "かいふくする",
+      "headword": "{回復|かいふく}する",
+      "label": "to recover"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25381_fukkousuru",
+      "reading": "ふっこうする",
+      "headword": "{復興|ふっこう}する",
+      "label": "to reconstruct"
     }
   ],
   "metadata": {
     "created": "2026-01-20T08:21:30Z",
-    "modified": "2026-04-29T05:15:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -172,6 +207,7 @@
         "verb-suru"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "general"
       ],

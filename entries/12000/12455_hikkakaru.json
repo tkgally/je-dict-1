@@ -3,7 +3,7 @@
   "id": "12455_hikkakaru",
   "headword": "{引|ひ}っかかる",
   "reading": "ひっかかる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to get caught on; to be tricked; to bother",
   "conjugation": {
     "type": "godan",
@@ -213,10 +213,25 @@
       "note": "transitive"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05984_moyamoya",
+      "reading": "もやもや",
+      "headword": "もやもや",
+      "label": "hazy feeling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22129_wananikakaru",
+      "reading": "わなにかかる",
+      "headword": "{罠|わな}にかかる",
+      "label": "to be caught in a trap"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T06:48:49Z",
-    "modified": "2026-04-24T08:14:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

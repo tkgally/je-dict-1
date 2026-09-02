@@ -22,7 +22,9 @@
       "japanese": "マジ⟦で→で：00502_de⟧⟦{美味|おい}しい→美味しい：00740_oishii⟧！",
       "english": "This is seriously delicious!",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -30,7 +32,9 @@
       "japanese": "マジ？⟦{信|しん}じられない→信じる：01111_shinjiru⟧！",
       "english": "Seriously? I can't believe it!",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -38,7 +42,9 @@
       "japanese": "⟦あの→あの：00915_ano⟧⟦{映画|えいが}→映画：02273_eiga⟧、マジ⟦で→で：00502_de⟧⟦{泣|な}けるから→泣く：00655_naku⟧⟦{見|み}てみて→見る：00283_miru⟧。",
       "english": "That movie will seriously make you cry — check it out.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -46,7 +52,9 @@
       "japanese": "マジ⟦な→な：09497_na⟧⟦{話|はなし}→話：01496_hanashi⟧⟦だよ→だ：09496_da⟧。",
       "english": "I'm being serious.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -54,7 +62,9 @@
       "japanese": "⟦{冗談|じょうだん}→冗談：03347_joudan⟧⟦じゃなくて→じゃ：03040_ja⟧マジ⟦だから→だ：09496_da⟧。",
       "english": "I'm not joking — I'm for real.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -62,11 +72,13 @@
       "japanese": "マジ⟦な→な：09497_na⟧⟦{話|はなし}→話：01496_hanashi⟧、⟦{転職|てんしょく}→転職：04557_tenshoku⟧⟦を→を：00422_wo⟧⟦{考|かんが}えている→考える：00856_kangaeru⟧。",
       "english": "Seriously though, I'm thinking about changing jobs.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
-  "notes": "マジ is a very common casual/slang term meaning 'really' or 'seriously,' derived from ⟦{真面目|まじめ}→真面目：01206_majime⟧.\n\nCOMMON PATTERNS:\n- マジ⟦で→で：00502_de⟧: really, seriously (adverb)\n- マジ？: Really? Seriously? (exclamation)\n- マジ⟦な→な：09497_na⟧⟦{話|はなし}→話：01496_hanashi⟧: speaking seriously\n- マジやばい: really crazy/bad/awesome\n\nREGISTER:\nInformal slang - inappropriate for formal settings, business, or speaking with superiors. Common among young people and in casual conversation.\n\nRELATED TERMS:\n- ⟦{本当|ほんとう}に→本当に：04714_hontouni⟧: really (neutral/formal)\n- ⟦ガチ→ガチ：04758_gachi⟧: serious, for real (slang)\n- ⟦{真面目|まじめ}→真面目：01206_majime⟧: serious (formal, origin word)",
+  "notes": "マジ is a very common casual/slang term meaning 'really' or 'seriously,' derived from ⟦{真面目|まじめ}→真面目：01206_majime⟧.\n\nCOMMON PATTERNS:\n- マジ⟦で→で：00502_de⟧: really, seriously (adverb)\n- マジ？: Really? Seriously? (exclamation)\n- マジ⟦な→な：09497_na⟧⟦{話|はなし}→話：01496_hanashi⟧: speaking seriously\n- マジやばい: really crazy/bad/awesome\n\nREGISTER:\nInformal slang - inappropriate for formal settings, business, or speaking with superiors. Common among young people and in casual conversation.\n\nRELATED WORDS:\n- ⟦{本当|ほんとう}に→本当に：04714_hontouni⟧: really (neutral/formal)\n- ⟦ガチ→ガチ：04758_gachi⟧: serious, for real (slang)\n- ⟦{真面目|まじめ}→真面目：01206_majime⟧: serious (formal, origin word)",
   "cross_references": [
     {
       "type": "related",
@@ -88,11 +100,25 @@
       "headword": "{真面目|まじめ}",
       "label": "serious (origin word)",
       "target_id": "01206_majime"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03153_honki",
+      "reading": "ほんき",
+      "headword": "{本気|ほんき}",
+      "label": "seriousness, earnestness"
+    },
+    {
+      "type": "related",
+      "target_id": "08758_honto",
+      "reading": "ほんと",
+      "headword": "ほんと",
+      "label": "really"
     }
   ],
   "metadata": {
     "created": "2026-01-15T23:50:45Z",
-    "modified": "2026-06-02T14:10:55Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -17,7 +17,9 @@
       "id": "18839_muchuuninaru_ex1",
       "japanese": "ゲームに{夢中|むちゅう}になる。",
       "english": "I get absorbed in games.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18839_muchuuninaru_ex2",
       "japanese": "{子|こ}どもたちは{砂|すな}{遊|あそ}びに{夢中|むちゅう}になっていた。",
       "english": "The children were engrossed in playing in the sand.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "18839_muchuuninaru_ex3",
       "japanese": "{読書|どくしょ}に{夢中|むちゅう}になって、{電車|でんしゃ}を{乗|の}り{過|す}ごしてしまった。",
       "english": "I got so absorbed in reading that I missed my train stop.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -43,15 +49,71 @@
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07625_bottou",
+      "reading": "ぼっとう",
+      "headword": "{没頭|ぼっとう}",
+      "label": "immersion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18376_bottousuru",
+      "reading": "ぼっとうする",
+      "headword": "{没頭|ぼっとう}する",
+      "label": "to be absorbed in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20584_noboseru",
+      "reading": "のぼせる",
+      "headword": "のぼせる",
+      "label": "to feel flushed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20716_necchuusuru",
+      "reading": "ねっちゅうする",
+      "headword": "{熱中|ねっちゅう}する",
+      "label": "to be absorbed in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21217_warewowasureru",
+      "reading": "われをわすれる",
+      "headword": "{我|われ}を{忘|わす}れる",
+      "label": "to lose oneself"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22689_mushinninaru",
+      "reading": "むしんになる",
+      "headword": "{無心|むしん}になる",
+      "label": "to become absorbed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26324_toritsukareru",
+      "reading": "とりつかれる",
+      "headword": "{取|と}り{憑|つ}かれる",
+      "label": "to be possessed"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion", "cognition"]
+      "semantic": [
+        "emotion",
+        "cognition"
+      ]
     },
     "created": "2026-03-23T05:28:42Z",
-    "modified": "2026-03-23T05:28:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

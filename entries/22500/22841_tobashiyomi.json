@@ -3,7 +3,7 @@
   "headword": "{飛|と}ばし{読|よ}み",
   "reading": "とばしよみ",
   "romaji": "tobashiyomi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "skimming; skipping through (while reading)",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "A compound of {飛|と}ばす (to skip) and {読|よ}み (reading). Describes the act of reading while intentionally skipping sections. Can be used as a noun or with する as a verb.\n\nCOMMON COLLOCATIONS:\n- {飛|と}ばし{読|よ}みする: to skim, to skip-read\n- {飛|と}ばし{読|よ}みで{済|す}ませる: to get by with skimming\n\nSIMILAR WORDS:\n- {斜|なな}め{読|よ}み: skimming — literally \"diagonal reading,\" a similar concept but implies scanning quickly rather than skipping sections\n- {速読|そくどく}: speed reading — a systematic technique for reading quickly, not skipping content\n- {拾|ひろ}い{読|よ}み: selective reading — picking out specific parts to read\n\nUSAGE:\nOften carries a slightly negative connotation, implying that the reader did not give the text proper attention. In contrast, {速読|そくどく} is seen as a positive skill.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22744_nanameyomi",
+      "reading": "ななめよみ",
+      "headword": "{斜|なな}め{読|よ}み",
+      "label": "skimming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22402_sokudoku",
+      "reading": "そくどく",
+      "headword": "{速読|そくどく}",
+      "label": "speed reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17927_hiroiyomi",
+      "reading": "ひろいよみ",
+      "headword": "{拾|ひろ}い{読|よ}み",
+      "label": "selective reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25907_yomitobashi",
+      "reading": "よみとばし",
+      "headword": "{読|よ}み{飛|と}ばし",
+      "label": "skimming"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,11 +83,16 @@
         "noun",
         "verb-suru"
       ],
-      "semantic": ["cognition", "language"],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "cognition",
+        "language"
+      ],
       "verb_class": "suru"
     },
     "created": "2026-04-07T18:21:26Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

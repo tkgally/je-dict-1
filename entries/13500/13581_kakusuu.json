@@ -19,7 +19,9 @@
       "english": "How many strokes does this kanji have?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13581_kakusuu_ex2",
@@ -27,7 +29,9 @@
       "english": "Kanji with many strokes are difficult to write.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13581_kakusuu_ex3",
@@ -35,21 +39,42 @@
       "english": "Seimei handan, which tells fortunes based on the stroke count of one's name, remains persistently popular in Japan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nStroke count is one of the three main methods for looking up kanji in a traditional dictionary, alongside radicals ({部首|ぶしゅ}) and readings. When you know neither the reading nor the radical of a kanji, you can count its strokes and search by {画数|かくすう}.\n\nCULTURAL NOTE:\n{姓名判断|せいめいはんだん} (name fortune-telling) uses the {画数|かくすう} of a person's name to predict luck and compatibility. Many Japanese parents consider stroke counts when choosing names for their children.\n\nCOMMON COLLOCATIONS:\n- {画数|かくすう}が{多|おお}い: has many strokes\n- {画数|かくすう}で{引|ひ}く: look up by stroke count\n- {総画数|そうかくすう}: total stroke count",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15242_hitsujun",
+      "reading": "ひつじゅん",
+      "headword": "{筆順|ひつじゅん}",
+      "label": "stroke order"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26098_kakijun",
+      "reading": "かきじゅん",
+      "headword": "{書|か}き{順|じゅん}",
+      "label": "stroke order (of a character)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-26T09:45:44Z",
-    "modified": "2026-02-26T09:45:44Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

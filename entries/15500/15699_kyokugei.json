@@ -19,7 +19,9 @@
       "english": "The acrobat took the stage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15699_kyokugei_ex2",
@@ -27,7 +29,9 @@
       "english": "I saw a splendid acrobatic performance at the circus.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15699_kyokugei_ex3",
@@ -35,21 +39,42 @@
       "english": "He showed acrobatic moves while riding a bicycle.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed for physical performances of skill such as juggling, trapeze acts, and other circus arts. Can also be used figuratively to describe any action requiring extraordinary skill or dexterity.\n\nCOMMON COLLOCATIONS:\n- {曲芸|きょくげい}{師|し} (acrobat, stunt performer)\n- {曲芸|きょくげい}{飛行|ひこう} (aerobatics, stunt flying)\n- {曲芸|きょくげい}を{披露|ひろう}する (to perform acrobatics)\n\nSIMILAR WORDS:\n- アクロバット: acrobatics (loanword, more modern)\n- {大道芸|だいどうげい}: street performance\n- {芸当|げいとう}: feat, trick, accomplishment",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12252_daidougei",
+      "reading": "だいどうげい",
+      "headword": "{大道芸|だいどうげい}",
+      "label": "street performance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22866_karuwaza",
+      "reading": "かるわざ",
+      "headword": "{軽業|かるわざ}",
+      "label": "acrobatics"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T07:39:23Z",
-    "modified": "2026-03-08T07:39:23Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["entertainment"]
+      "semantic": [
+        "entertainment"
+      ]
     }
   }
 }

@@ -17,7 +17,9 @@
       "id": "28131_taiikugi_ex1",
       "japanese": "{体育着|たいいくぎ}に{着替|きが}える。",
       "english": "I change into my gym clothes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28131_taiikugi_ex2",
       "japanese": "{体育着|たいいくぎ}を{家|いえ}に{忘|わす}れてきた。",
       "english": "I left my gym clothes at home.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28131_taiikugi_ex3",
       "japanese": "{体育|たいいく}の{授業|じゅぎょう}の{前|まえ}に、みんなで{体育着|たいいくぎ}に{着替|きが}えて{校庭|こうてい}に{集|あつ}まった。",
       "english": "Before PE class, we all changed into our gym clothes and gathered on the school grounds.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{体育着|たいいくぎ} is the gym uniform Japanese students wear for {体育|たいいく} (physical education). The {着|ぎ} suffix (a voiced form of {着|き}) means 'clothing for ~.'\n\nCOMMON COLLOCATIONS:\n- {体育着|たいいくぎ}に{着替|きが}える: to change into gym clothes\n- {体育着|たいいくぎ}{袋|ぶくろ}: gym-clothes bag\n\nSIMILAR WORDS:\n- {体操着|たいそうぎ}: gym clothes — a near-synonym, used interchangeably in many schools\n- {運動着|うんどうぎ}: sportswear — more general athletic clothing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24194_taisougi",
+      "reading": "たいそうぎ",
+      "headword": "{体操着|たいそうぎ}",
+      "label": "gym clothes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25709_undougi",
+      "reading": "うんどうぎ",
+      "headword": "{運動着|うんどうぎ}",
+      "label": "sportswear"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["clothing"],
+      "politeness": "plain",
+      "semantic": [
+        "clothing"
+      ],
       "domain": []
     },
     "created": "2026-05-26T02:06:25Z",
-    "modified": "2026-05-26T02:06:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

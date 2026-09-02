@@ -3,7 +3,7 @@
   "id": "17927_hiroiyomi",
   "headword": "{拾|ひろ}い{読|よ}み",
   "reading": "ひろいよみ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "skimming; browsing; reading selectively",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,46 @@
     }
   ],
   "notes": "USAGE:\nSuggests a quick, selective style of reading rather than careful, thorough reading. Not necessarily negative — sometimes practical when short on time. Can be used with する as a verb.\n\nCOMMON COLLOCATIONS:\n- {拾|ひろ}い{読|よ}みする (to skim, to browse)\n- {拾|ひろ}い{読|よ}みしかできない (can only skim)\n- ざっと{拾|ひろ}い{読|よ}みする (to quickly skim through)\n\nSIMILAR WORDS:\n- {斜|なな}め{読|よ}み: speed-reading, skimming — similar meaning, literally 'diagonal reading'\n- {流|なが}し{読|よ}み: cursory reading — reading quickly without focusing",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22744_nanameyomi",
+      "reading": "ななめよみ",
+      "headword": "{斜|なな}め{読|よ}み",
+      "label": "speed-reading, skimming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21428_nagashiyomi",
+      "reading": "ながしよみ",
+      "headword": "{流|なが}し{読|よ}み",
+      "label": "cursory reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17535_jukudoku",
+      "reading": "じゅくどく",
+      "headword": "{熟読|じゅくどく}",
+      "label": "reading carefully"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19800_tsuudoku",
+      "reading": "つうどく",
+      "headword": "{通読|つうどく}",
+      "label": "reading through"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22841_tobashiyomi",
+      "reading": "とばしよみ",
+      "headword": "{飛|と}ばし{読|よ}み",
+      "label": "skimming"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T09:14:23Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

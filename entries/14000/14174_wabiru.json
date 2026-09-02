@@ -3,7 +3,7 @@
   "id": "14174_wabiru",
   "headword": "{詫|わ}びる",
   "reading": "わびる",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to apologize, to express regret",
   "conjugation": {
     "type": "ichidan",
@@ -149,11 +149,25 @@
       "headword": "{謝罪|しゃざい}",
       "reading": "しゃざい",
       "label": "formal apology"
+    },
+    {
+      "type": "related",
+      "target_id": "08266_owabi",
+      "reading": "おわび",
+      "headword": "お{詫|わ}び",
+      "label": "apology"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19520_shazaisuru",
+      "reading": "しゃざいする",
+      "headword": "{謝罪|しゃざい}する",
+      "label": "to apologize"
     }
   ],
   "metadata": {
     "created": "2026-02-28T01:54:42Z",
-    "modified": "2026-08-02T21:27:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

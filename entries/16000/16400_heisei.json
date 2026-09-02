@@ -3,7 +3,7 @@
   "id": "16400_heisei",
   "headword": "{平静|へいせい}",
   "reading": "へいせい",
-  "part_of_speech": "noun / na-adjective",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "calm; composure; tranquility",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "To maintain composure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16400_heisei_ex2",
@@ -27,7 +29,9 @@
       "english": "Even after hearing the bad news, he kept a calm expression.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16400_heisei_ex3",
@@ -35,7 +39,9 @@
       "english": "After the earthquake, the town gradually regained its calm.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{平静|へいせい} is used both as a noun and a na-adjective. As a noun, it often appears with {保|たも}つ (to maintain) or {取|と}り{戻|もど}す (to regain). It can describe both a person's emotional state and the condition of a community or situation.\n\nCOMMON COLLOCATIONS:\n- {平静|へいせい}を{保|たも}つ (to maintain composure)\n- {平静|へいせい}を{取|と}り{戻|もど}す (to regain calm)\n- {平静|へいせい}を{装|よそお}う (to pretend to be calm)\n- {平静|へいせい}な{態度|たいど} (a calm attitude)\n\nSIMILAR WORDS:\n{冷静|れいせい} emphasizes being cool-headed and rational, especially in tense situations. {平静|へいせい} emphasizes a broader state of calm and peace, without the connotation of deliberate rational control.",
@@ -46,18 +52,30 @@
       "reading": "れいせい",
       "headword": "{冷静|れいせい}",
       "label": "cool-headed, rational"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07162_ochitsuki",
+      "reading": "おちつき",
+      "headword": "{落|お}ち{着|つ}き",
+      "label": "composure"
     }
   ],
   "metadata": {
     "created": "2026-03-12T05:19:45Z",
-    "modified": "2026-05-03T09:07:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
   }
 }

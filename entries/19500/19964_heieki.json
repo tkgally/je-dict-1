@@ -17,7 +17,9 @@
       "id": "19964_heieki_ex1",
       "japanese": "{兵役|へいえき}に{就|つ}く。",
       "english": "To enter military service.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19964_heieki_ex2",
       "japanese": "その{国|くに}では{男性|だんせい}に{兵役|へいえき}の{義務|ぎむ}がある。",
       "english": "In that country, men are obligated to serve in the military.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "19964_heieki_ex3",
       "japanese": "{祖父|そふ}は{戦時中|せんじちゅう}に{兵役|へいえき}に{召集|しょうしゅう}され、{三|さん}{年間|ねんかん}{軍|ぐん}に{服|ふく}した。",
       "english": "My grandfather was called up for military service during the war and served three years in the army.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {兵|へい} (soldier) + {役|えき} (service, duty). Japan's constitution renounces war and maintains no draft system, so {兵役|へいえき} is primarily used in historical contexts (pre-1945 Japan) or when discussing countries that still have conscription, such as South Korea, Israel, or Singapore.\n\nCOMMON COLLOCATIONS:\n- {兵役|へいえき}に{就|つ}く: to enter military service\n- {兵役|へいえき}の{義務|ぎむ}: military service obligation\n- {兵役|へいえき}を{免|まぬが}れる: to be exempt from military service\n- {兵役|へいえき}{拒否|きょひ}: conscientious objection; refusal of military service\n- {兵役|へいえき}に{召集|しょうしゅう}される: to be called up for service\n\nSIMILAR WORDS:\n- {徴兵|ちょうへい}: conscription, the draft (the system of mandatory enrollment)\n- {従軍|じゅうぐん}: serving in a military campaign (emphasizes active duty in a specific conflict)\n- {入隊|にゅうたい}: enlistment, joining a military unit",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22877_juugun",
+      "reading": "じゅうぐん",
+      "headword": "{従軍|じゅうぐん}",
+      "label": "serving in a military campaign"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12064_nyuutai",
+      "reading": "にゅうたい",
+      "headword": "{入隊|にゅうたい}",
+      "label": "enlistment, joining a military unit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["military"]
+      "semantic": [
+        "military"
+      ]
     },
     "created": "2026-03-27T07:20:26Z",
-    "modified": "2026-03-27T07:20:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

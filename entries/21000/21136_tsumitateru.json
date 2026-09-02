@@ -3,7 +3,7 @@
   "headword": "{積|つ}み{立|た}てる",
   "reading": "つみたてる",
   "romaji": "tsumitateru",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to save up regularly; to accumulate (money); to set aside",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A financial term meaning to regularly set aside money over time. This concept is central to Japanese personal finance, where {積|つ}み{立|た}て (the noun form) is a fundamental savings and investment strategy.\n\nCOMMON COLLOCATIONS:\n- {毎月|まいつき}{積|つ}み{立|た}てる: to save up monthly\n- コツコツ{積|つ}み{立|た}てる: to save up steadily\n- {少額|しょうがく}から{積|つ}み{立|た}てる: to start saving from a small amount\n\nRELATED FINANCIAL TERMS:\n- {積|つ}み{立|た}て: regular savings/investment (noun form)\n- {積立|つみたて}NISA: tax-free investment savings plan (a popular Japanese program)\n- {積立|つみたて}{預金|よきん}: installment savings\n- {定期|ていき}{預金|よきん}: time deposit, fixed-term savings\n\nSIMILAR WORDS:\n- {貯|た}める: to save (money) — more general; doesn't imply regular periodic contributions\n- {蓄|たくわ}える: to accumulate, to store up — more literary and broader (can include food, knowledge)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22251_teikiyokin",
+      "reading": "ていきよきん",
+      "headword": "{定期預金|ていきよきん}",
+      "label": "time deposit, fixed-term savings"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27801_tameru",
+      "reading": "ためる",
+      "headword": "{貯|た}める",
+      "label": "to save"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08996_takuwaeru",
+      "reading": "たくわえる",
+      "headword": "{蓄|たくわ}える",
+      "label": "to accumulate, to store up"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-03-31T20:27:46Z",
-    "modified": "2026-07-26T03:19:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

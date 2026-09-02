@@ -17,7 +17,9 @@
       "id": "29766_goreisoku_ex1",
       "japanese": "{御令息|ごれいそく}のご{活躍|かつやく}を{伺|うかが}いました。",
       "english": "I have heard of your son's fine accomplishments.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29766_goreisoku_ex2",
       "japanese": "この{度|たび}は{御令息|ごれいそく}のご{結婚|けっこん}、おめでとうございます。",
       "english": "Congratulations on your son's marriage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29766_goreisoku_ex3",
       "japanese": "{社長|しゃちょう}の{御令息|ごれいそく}が{会社|かいしゃ}を{継|つ}ぐことになった。",
       "english": "The president's son is to take over the company.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from the honorific prefix {御|ご} + {令息|れいそく} (another's son). A formal keigo term used to elevate the listener's family; never used for one's own son.\n\nUSAGE:\n- Appears mainly in formal letters, speeches, and announcements (weddings, funerals, business).\n- In everyday conversation, {息子|むすこ}さん is the ordinary polite equivalent.\n\nSIMILAR WORDS:\n- {御令嬢|ごれいじょう}: your daughter (honorific) — the female counterpart.\n- {息子|むすこ}さん: your son — polite but far more casual and common in speech.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29774_goreijou",
+      "reading": "ごれいじょう",
+      "headword": "御令嬢",
+      "label": "your daughter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26757_goshisoku",
+      "reading": "ごしそく",
+      "headword": "ご{子息|しそく}",
+      "label": "son (honorific)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "honorific",
-      "semantic": ["family"],
+      "semantic": [
+        "family"
+      ],
       "domain": []
     },
     "created": "2026-07-11T00:20:19Z",
-    "modified": "2026-07-11T00:20:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

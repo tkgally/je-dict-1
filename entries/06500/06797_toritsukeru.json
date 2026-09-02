@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Intransitive pair: ⟦{取|と}り{付|つ}く→取り付く：29401_toritsuku⟧.\n\nCOMPOUND VERB: Formed from ⟦{取|と}る→取る：00565_toru⟧ (to take) + ⟦{付|つ}ける→付ける：00761_tsukeru⟧ (to attach).\n\nPARTICLES: In sense 1 the thing installed takes ⟦を→を：00422_wo⟧ and the place it is fixed to takes ⟦に→に：00314_ni⟧. In sense 2 the person the promise is obtained from takes ⟦から→から：00504_kara⟧.\n\nSENSE 2: The 'secure a promise/appointment' sense is common in business and news writing, where it implies the agreement took some effort to obtain.\n\nCOMMON COLLOCATIONS:\n・⟦エアコン→エアコン：05282_eakon⟧⟦を→を：00422_wo⟧{取|と}り{付|つ}ける (install an air conditioner)\n・⟦{棚|たな}→棚：01650_tana⟧⟦を→を：00422_wo⟧{取|と}り{付|つ}ける (install a shelf)\n・⟦センサー→センサー：29781_sensaa⟧⟦を→を：00422_wo⟧{取|と}り{付|つ}ける (install a sensor)\n・⟦{約束|やくそく}→約束：01517_yakusoku⟧⟦を→を：00422_wo⟧{取|と}り{付|つ}ける (secure a promise)\n・⟦アポ→アポ：06668_apo⟧⟦を→を：00422_wo⟧{取|と}り{付|つ}ける (secure an appointment)\n\nRELATED: ⟦{取|と}り{外|はず}す→取り外す：06161_torihazusu⟧ (to remove/detach) is the opposite action.",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Intransitive pair: ⟦{取|と}り{付|つ}く→取り付く：29401_toritsuku⟧.\n\nCOMPOUND VERB: Formed from ⟦{取|と}る→取る：00565_toru⟧ (to take) + ⟦{付|つ}ける→付ける：00761_tsukeru⟧ (to attach).\n\nPARTICLES: In sense 1 the thing installed takes ⟦を→を：00422_wo⟧ and the place it is fixed to takes ⟦に→に：00314_ni⟧. In sense 2 the person the promise is obtained from takes ⟦から→から：00504_kara⟧.\n\nSENSE 2: The 'secure a promise/appointment' sense is common in business and news writing, where it implies the agreement took some effort to obtain.\n\nCOMMON COLLOCATIONS:\n- ⟦エアコン→エアコン：05282_eakon⟧⟦を→を：00422_wo⟧{取|と}り{付|つ}ける (install an air conditioner)\n- ⟦{棚|たな}→棚：01650_tana⟧⟦を→を：00422_wo⟧{取|と}り{付|つ}ける (install a shelf)\n- ⟦センサー→センサー：29781_sensaa⟧⟦を→を：00422_wo⟧{取|と}り{付|つ}ける (install a sensor)\n- ⟦{約束|やくそく}→約束：01517_yakusoku⟧⟦を→を：00422_wo⟧{取|と}り{付|つ}ける (secure a promise)\n- ⟦アポ→アポ：06668_apo⟧⟦を→を：00422_wo⟧{取|と}り{付|つ}ける (secure an appointment)\n\nRELATED: ⟦{取|と}り{外|はず}す→取り外す：06161_torihazusu⟧ (to remove/detach) is the opposite action.",
   "cross_references": [
     {
       "type": "antonym",
@@ -190,11 +190,39 @@
       "headword": "{付|つ}ける",
       "label": "base verb",
       "target_id": "00761_tsukeru"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19983_suetsukeru",
+      "reading": "すえつける",
+      "headword": "{据|す}え{付|つ}ける",
+      "label": "to install"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20613_souchaku",
+      "reading": "そうちゃく",
+      "headword": "{装着|そうちゃく}",
+      "label": "putting on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22176_souchakusuru",
+      "reading": "そうちゃくする",
+      "headword": "{装着|そうちゃく}する",
+      "label": "to equip"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26989_secchisuru",
+      "reading": "せっちする",
+      "headword": "{設置|せっち}する",
+      "label": "to set up"
     }
   ],
   "metadata": {
     "created": "2026-01-18T07:17:46Z",
-    "modified": "2026-08-05T21:18:04Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

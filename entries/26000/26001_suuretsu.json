@@ -17,7 +17,9 @@
       "id": "26001_suuretsu_ex1",
       "japanese": "この{数列|すうれつ}の{規則|きそく}を{見|み}つけなさい。",
       "english": "Find the rule for this number sequence.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26001_suuretsu_ex2",
       "japanese": "1, 1, 2, 3, 5, 8 はフィボナッチ{数列|すうれつ}だ。",
       "english": "1, 1, 2, 3, 5, 8 is the Fibonacci sequence.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,37 @@
       "id": "26001_suuretsu_ex3",
       "japanese": "{高校|こうこう}の{数学|すうがく}で{等差|とうさ}{数列|すうれつ}と{等比|とうひ}{数列|すうれつ}を{習|なら}った。",
       "english": "I learned about arithmetic sequences and geometric sequences in high school math.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {数|すう} (number) and {列|れつ} (row, sequence). A standard mathematics term taught in Japanese high schools. The concept appears in entrance exams, puzzle books, and IQ tests, so the word is widely recognized even by non-mathematicians.\n\nCOMMON TYPES:\n- {等差|とうさ}{数列|すうれつ}: arithmetic sequence (constant difference between terms)\n- {等比|とうひ}{数列|すうれつ}: geometric sequence (constant ratio between terms)\n- フィボナッチ{数列|すうれつ}: Fibonacci sequence\n- {無限|むげん}{数列|すうれつ}: infinite sequence\n- {有限|ゆうげん}{数列|すうれつ}: finite sequence\n\nCOMMON COLLOCATIONS:\n- {数列|すうれつ}の{和|わ}: sum of a sequence\n- {数列|すうれつ}の{一般項|いっぱんこう}: general term of a sequence\n- {数列|すうれつ}の{収束|しゅうそく}: convergence of a sequence\n\nSIMILAR WORDS:\n- {級数|きゅうすう}: series — the sum of a sequence's terms\n- {配列|はいれつ}: array, arrangement — a more general ordering; also used in programming\n- {順列|じゅんれつ}: permutation — a different mathematical concept about ordering",
-  "cross_references": [],
+  "notes": "Composed of {数|すう} (number) and {列|れつ} (row, sequence). A standard mathematics term taught in Japanese high schools. The concept appears in entrance exams, puzzle books, and IQ tests, so the word is widely recognized even by non-mathematicians.\n\nTYPES:\n- {等差|とうさ}{数列|すうれつ}: arithmetic sequence (constant difference between terms)\n- {等比|とうひ}{数列|すうれつ}: geometric sequence (constant ratio between terms)\n- フィボナッチ{数列|すうれつ}: Fibonacci sequence\n- {無限|むげん}{数列|すうれつ}: infinite sequence\n- {有限|ゆうげん}{数列|すうれつ}: finite sequence\n\nCOMMON COLLOCATIONS:\n- {数列|すうれつ}の{和|わ}: sum of a sequence\n- {数列|すうれつ}の{一般項|いっぱんこう}: general term of a sequence\n- {数列|すうれつ}の{収束|しゅうそく}: convergence of a sequence\n\nSIMILAR WORDS:\n- {級数|きゅうすう}: series — the sum of a sequence's terms\n- {配列|はいれつ}: array, arrangement — a more general ordering; also used in programming\n- {順列|じゅんれつ}: permutation — a different mathematical concept about ordering",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14447_hairetsu",
+      "reading": "はいれつ",
+      "headword": "{配列|はいれつ}",
+      "label": "array, arrangement"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["number"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "number"
+      ]
     },
     "created": "2026-04-28T15:35:51Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

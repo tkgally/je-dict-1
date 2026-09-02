@@ -63,18 +63,67 @@
       ]
     }
   ],
-  "notes": "{利用者|りようしゃ} refers to a person who uses a service or facility. It has a neutral, somewhat formal tone and is common in official and business contexts.\n\nCOMPOUND:\n⟦{利用|りよう}→利用：01752_riyou⟧ (use, utilization) + {者|しゃ} (person). The suffix ～{者|しゃ} marks the person who performs the action.\n\nCOMMON CONTEXTS:\n- ⟦{図書館|としょかん}→図書館：00580_toshokan⟧{利用者|りようしゃ}: library user\n- ⟦サービス→サービス：01531_saabisu⟧{利用者|りようしゃ}: service user\n- ⟦インターネット→インターネット：04723_intaanetto⟧{利用者|りようしゃ}: internet user\n- ⟦{公共|こうきょう}→公共：11652_koukyou⟧⟦{交通|こうつう}→交通：01584_koutsuu⟧{利用者|りようしゃ}: public transit user\n\nSIMILAR WORDS:\n- ⟦ユーザー→ユーザー：05393_yuuzaa⟧: user (loanword, common in tech/web contexts)\n- ⟦{消費者|しょうひしゃ}→消費者：09866_shouhisha⟧: consumer (emphasizes buying/consuming)\n- ⟦{顧客|こきゃく}→顧客：08632_kokyaku⟧: customer/client (business relationship)\n- ⟦お{客様|きゃくさま}→お客様：08780_okyakusama⟧: customer (honorific, used in hospitality)\n\nREGISTER:\n{利用者|りようしゃ} sounds formal and is often used in regulations, announcements, and official documents. In casual speech, ⟦ユーザー→ユーザー：05393_yuuzaa⟧ or ⟦{使|つか}っている→使う：00473_tsukau⟧⟦{人|ひと}→人：00476_hito⟧ is more natural.",
+  "notes": "{利用者|りようしゃ} refers to a person who uses a service or facility. It has a neutral, somewhat formal tone and is common in official and business contexts.\n\nCOMPOUNDS:\n⟦{利用|りよう}→利用：01752_riyou⟧ (use, utilization) + {者|しゃ} (person). The suffix ～{者|しゃ} marks the person who performs the action.\n\nUSAGE:\n- ⟦{図書館|としょかん}→図書館：00580_toshokan⟧{利用者|りようしゃ}: library user\n- ⟦サービス→サービス：01531_saabisu⟧{利用者|りようしゃ}: service user\n- ⟦インターネット→インターネット：04723_intaanetto⟧{利用者|りようしゃ}: internet user\n- ⟦{公共|こうきょう}→公共：11652_koukyou⟧⟦{交通|こうつう}→交通：01584_koutsuu⟧{利用者|りようしゃ}: public transit user\n\nSIMILAR WORDS:\n- ⟦ユーザー→ユーザー：05393_yuuzaa⟧: user (loanword, common in tech/web contexts)\n- ⟦{消費者|しょうひしゃ}→消費者：09866_shouhisha⟧: consumer (emphasizes buying/consuming)\n- ⟦{顧客|こきゃく}→顧客：08632_kokyaku⟧: customer/client (business relationship)\n- ⟦お{客様|きゃくさま}→お客様：08780_okyakusama⟧: customer (honorific, used in hospitality)\n\nREGISTER:\n{利用者|りようしゃ} sounds formal and is often used in regulations, announcements, and official documents. In casual speech, ⟦ユーザー→ユーザー：05393_yuuzaa⟧ or ⟦{使|つか}っている→使う：00473_tsukau⟧⟦{人|ひと}→人：00476_hito⟧ is more natural.",
   "cross_references": [
     {
       "type": "related",
       "reading": "りよう",
       "headword": "{利用|りよう}",
       "target_id": "01752_riyou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05393_yuuzaa",
+      "reading": "ゆーざー",
+      "headword": "ユーザー",
+      "label": "user"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09866_shouhisha",
+      "reading": "しょうひしゃ",
+      "headword": "{消費者|しょうひしゃ}",
+      "label": "consumer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08632_kokyaku",
+      "reading": "こきゃく",
+      "headword": "{顧客|こきゃく}",
+      "label": "customer/client"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08780_okyakusama",
+      "reading": "おきゃくさま",
+      "headword": "お{客様|きゃくさま}",
+      "label": "customer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24400_keiyakusha",
+      "reading": "けいやくしゃ",
+      "headword": "{契約者|けいやくしゃ}",
+      "label": "subscriber"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29863_shiyousha",
+      "reading": "しようしゃ",
+      "headword": "使用者",
+      "label": "user"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30194_raitenkyaku",
+      "reading": "らいてんきゃく",
+      "headword": "来店客",
+      "label": "customer visiting a store"
     }
   ],
   "metadata": {
     "created": "2026-01-11T12:35:26Z",
-    "modified": "2026-05-24T13:38:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

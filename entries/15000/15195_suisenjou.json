@@ -19,7 +19,9 @@
       "english": "I asked my teacher for a letter of recommendation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15195_suisenjou_ex2",
@@ -27,7 +29,9 @@
       "english": "Two letters of recommendation are required for the application.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15195_suisenjou_ex3",
@@ -35,21 +39,43 @@
       "english": "Thanks to the recommendation letter my boss wrote for me, the job change went smoothly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{推薦状|すいせんじょう} is a compound of {推薦|すいせん} (recommendation) and {状|じょう} (letter/document). It is essential in Japanese academic and professional contexts, particularly for university entrance via the {推薦入試|すいせんにゅうし} (recommendation-based admission) system.\n\nCOMMON COLLOCATIONS:\n- {推薦状|すいせんじょう}を{書|か}く (to write a recommendation letter)\n- {推薦状|すいせんじょう}を{頼|たの}む / お{願|ねが}いする (to ask for a recommendation)\n- {推薦状|すいせんじょう}を{提出|ていしゅつ}する (to submit a recommendation letter)\n\nCOUNTER:\nLetters are counted with {通|つう}: {一通|いっつう}、{二通|につう}、{三通|さんつう}",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26982_suisensho",
+      "reading": "すいせんしょ",
+      "headword": "{推薦書|すいせんしょ}",
+      "label": "letter of recommendation"
+    },
+    {
+      "type": "related",
+      "target_id": "27046_suisensha",
+      "reading": "すいせんしゃ",
+      "headword": "{推薦者|すいせんしゃ}",
+      "label": "recommender"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T09:11:02Z",
-    "modified": "2026-03-05T09:11:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["education", "work"]
+      "semantic": [
+        "education",
+        "work"
+      ]
     }
   }
 }

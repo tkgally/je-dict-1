@@ -168,18 +168,32 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Compound verb: ⟦{叩|たた}く→叩く：02072_tataku⟧ + ⟦{込|こ}む→込む：00719_komu⟧. Pattern: X⟦を→を：00422_wo⟧Y⟦に→に：00314_ni⟧{叩|たた}き{込|こ}む (hammer X into Y / drill X into Y).\n\nASPECT: ⟦ている→ている：noentry⟧ indicates resulting state. {叩|たた}き{込|こ}まれている = 'has been drilled in.'\n\nCOMMON PATTERNS:\n・⟦{頭|あたま}→頭：00574_atama⟧⟦に→に：00314_ni⟧{叩|たた}き{込|こ}む (drill into one's head)\n・⟦{基本|きほん}→基本：00226_kihon⟧⟦を→を：00422_wo⟧{叩|たた}き{込|こ}む (drill in the basics)\n・⟦{体|からだ}→体：00784_karada⟧⟦に→に：00314_ni⟧{叩|たた}き{込|こ}む (train one's body to remember)\n\nNUANCE: Sense 2 implies strict, intensive, or even harsh teaching methods. Often used in traditional training contexts like martial arts or craftsmanship.",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Compound verb: ⟦{叩|たた}く→叩く：02072_tataku⟧ + ⟦{込|こ}む→込む：00719_komu⟧. Pattern: X⟦を→を：00422_wo⟧Y⟦に→に：00314_ni⟧{叩|たた}き{込|こ}む (hammer X into Y / drill X into Y).\n\nASPECT: ⟦ている→ている：noentry⟧ indicates resulting state. {叩|たた}き{込|こ}まれている = 'has been drilled in.'\n\nCOMMON PATTERNS:\n- ⟦{頭|あたま}→頭：00574_atama⟧⟦に→に：00314_ni⟧{叩|たた}き{込|こ}む (drill into one's head)\n- ⟦{基本|きほん}→基本：00226_kihon⟧⟦を→を：00422_wo⟧{叩|たた}き{込|こ}む (drill in the basics)\n- ⟦{体|からだ}→体：00784_karada⟧⟦に→に：00314_ni⟧{叩|たた}き{込|こ}む (train one's body to remember)\n\nNUANCE: Sense 2 implies strict, intensive, or even harsh teaching methods. Often used in traditional training contexts like martial arts or craftsmanship.",
   "cross_references": [
     {
       "type": "related",
       "reading": "たたく",
       "headword": "{叩|たた}く",
       "target_id": "02072_tataku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19335_oshiekomu",
+      "reading": "おしえこむ",
+      "headword": "{教|おし}え{込|こ}む",
+      "label": "to drill into"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19913_uetsukeru",
+      "reading": "うえつける",
+      "headword": "{植|う}え{付|つ}ける",
+      "label": "to plant"
     }
   ],
   "metadata": {
     "created": "2026-01-17T02:04:07Z",
-    "modified": "2026-06-11T19:37:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

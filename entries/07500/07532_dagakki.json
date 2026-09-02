@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{打|だ} (strike) + {楽器|がっき} (musical instrument)\n\nTYPES OF PERCUSSION:\n・{太鼓|たいこ} - drum\n・シンバル - cymbals\n・{木琴|もっきん} - xylophone\n・{鉄琴|てっきん} - glockenspiel\n・トライアングル - triangle\n・タンバリン - tambourine\n・カスタネット - castanets\n・{小太鼓|こだいこ} - snare drum\n・{大太鼓|おおだいこ} - bass drum\n・ティンパニ - timpani\n\nRELATED TERMS:\n・{弦楽器|げんがっき} - string instruments\n・{管楽器|かんがっき} - wind instruments\n・{鍵盤楽器|けんばんがっき} - keyboard instruments\n\nCOLLOCATIONS:\n・{打楽器|だがっき}パート - percussion section\n・{打楽器|だがっき}を{叩|たた}く - to play percussion\n・{打楽器|だがっき}{奏者|そうしゃ} - percussionist",
+  "notes": "ETYMOLOGY:\n{打|だ} (strike) + {楽器|がっき} (musical instrument)\n\nTYPES OF PERCUSSION:\n- {太鼓|たいこ} - drum\n- シンバル - cymbals\n- {木琴|もっきん} - xylophone\n- {鉄琴|てっきん} - glockenspiel\n- トライアングル - triangle\n- タンバリン - tambourine\n- カスタネット - castanets\n- {小太鼓|こだいこ} - snare drum\n- {大太鼓|おおだいこ} - bass drum\n- ティンパニ - timpani\n\nRELATED WORDS:\n- {弦楽器|げんがっき} - string instruments\n- {管楽器|かんがっき} - wind instruments\n- {鍵盤楽器|けんばんがっき} - keyboard instruments\n\nCOMMON COLLOCATIONS:\n- {打楽器|だがっき}パート - percussion section\n- {打楽器|だがっき}を{叩|たた}く - to play percussion\n- {打楽器|だがっき}{奏者|そうしゃ} - percussionist",
   "cross_references": [
     {
       "type": "related",
@@ -55,11 +55,25 @@
       "headword": "{管楽器|かんがっき}",
       "label": "wind instruments",
       "target_id": "07533_kangakki"
+    },
+    {
+      "type": "related",
+      "target_id": "18464_kenbangakki",
+      "reading": "けんばんがっき",
+      "headword": "{鍵盤楽器|けんばんがっき}",
+      "label": "keyboard instruments"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23683_kinkangakki",
+      "reading": "きんかんがっき",
+      "headword": "{金管楽器|きんかんがっき}",
+      "label": "brass instrument"
     }
   ],
   "metadata": {
     "created": "2026-01-20T08:47:47Z",
-    "modified": "2026-01-24T14:24:36Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -67,6 +81,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "music"
       ]

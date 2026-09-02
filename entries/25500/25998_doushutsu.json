@@ -3,7 +3,7 @@
   "headword": "{導出|どうしゅつ}",
   "reading": "どうしゅつ",
   "romaji": "doushutsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "derivation; deduction",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Composed of {導|どう} (lead, guide) and {出|しゅつ} (come out, produce). Used primarily in academic and technical writing — mathematics, logic, science, and engineering. The verb form {導出|どうしゅつ}する means to derive or deduce.\n\nCOMMON COLLOCATIONS:\n- {公式|こうしき}を{導出|どうしゅつ}する: to derive a formula\n- {結論|けつろん}を{導出|どうしゅつ}する: to derive a conclusion\n- {導出|どうしゅつ}{過程|かてい}: derivation process\n- {数学的|すうがくてき}{導出|どうしゅつ}: mathematical derivation\n- {理論|りろん}の{導出|どうしゅつ}: derivation of a theory\n\nSIMILAR WORDS:\n- {演繹|えんえき}: deduction — reasoning from general principles to specific conclusions (formal logic term)\n- {帰納|きのう}: induction — reasoning from specific cases to general principles (the opposite direction)\n- {算出|さんしゅつ}: calculation — computing a numerical answer rather than deriving a logical result\n- {導|みちび}く: to lead, to derive — the verb form; more general and used outside academic contexts too",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15350_sanshutsu",
+      "reading": "さんしゅつ",
+      "headword": "{算出|さんしゅつ}",
+      "label": "calculation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12361_michibiku",
+      "reading": "みちびく",
+      "headword": "{導|みちび}く",
+      "label": "to lead, to derive"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +69,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "education",
         "cognition"
@@ -61,7 +77,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-28T15:33:54Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

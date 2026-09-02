@@ -17,7 +17,9 @@
       "id": "19501_kigengakireru_ex1",
       "japanese": "パスポートの{期限|きげん}が{切|き}れた。",
       "english": "My passport has expired.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19501_kigengakireru_ex2",
       "japanese": "この{牛乳|ぎゅうにゅう}は{賞味|しょうみ}{期限|きげん}が{切|き}れている。",
       "english": "This milk is past its expiration date.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "19501_kigengakireru_ex3",
       "japanese": "クレジットカードの{有効|ゆうこう}{期限|きげん}が{切|き}れる{前|まえ}に、{新|あたら}しいカードを{申|もう}し{込|こ}まないといけない。",
       "english": "I need to apply for a new card before my credit card expires.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A very common expression combining {期限|きげん} (time limit, deadline) with {切|き}れる (to run out, to be exhausted). Essential for everyday life in Japan, where expiration dates appear on food, medicine, transit passes, and official documents.\n\nUSAGE:\nThe past tense {期限|きげん}が{切|き}れた or the progressive {期限|きげん}が{切|き}れている are the most common forms, indicating something has already expired. The dictionary form is used when talking about future expiration.\n\nCOMMON COLLOCATIONS:\n- {賞味|しょうみ}{期限|きげん}が{切|き}れる — the best-before date expires\n- {消費|しょうひ}{期限|きげん}が{切|き}れる — the use-by date expires\n- {有効|ゆうこう}{期限|きげん}が{切|き}れる — the validity period expires\n- {期限切|きげんぎ}れ — expired (noun/adjective form)\n\nSIMILAR WORDS:\n- {失効|しっこう}する — to become invalid, to lapse; more formal, often used for legal documents\n- {満了|まんりょう}する — to expire (of a contract or term); neutral, planned completion",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17129_shikkou",
+      "reading": "しっこう",
+      "headword": "{失効|しっこう}",
+      "label": "to become invalid, to lapse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13357_manryou",
+      "reading": "まんりょう",
+      "headword": "{満了|まんりょう}",
+      "label": "to expire"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time", "daily-life"]
+      "semantic": [
+        "time",
+        "daily-life"
+      ]
     },
     "created": "2026-03-26T02:41:10Z",
-    "modified": "2026-03-26T02:41:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

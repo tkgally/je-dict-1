@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "{前|まえ}に has two distinct uses: temporal (before) and spatial (in front of).\n\nTIME PATTERNS:\n- [verb dictionary form] + {前|まえ}に: before doing...\n- [noun] + ⟦の→の：09472_no⟧{前|まえ}に: before [noun]\n\nLOCATION PATTERN:\n- [noun] + ⟦の→の：09472_no⟧{前|まえ}に: in front of [noun]\n\nOPPOSITES:\n- Time: ⟦{後|あと}で→{後|あと}で：00920_atode⟧ / ⟦{後|あと}→{後|あと}：09580_ato⟧⟦に→に：00314_ni⟧ (after)\n- Location: ⟦{後|うし}ろ→{後|うし}ろ：00683_ushiro⟧⟦に→に：00314_ni⟧ (behind)\n\n{前|まえ}に VS {前|まえ}:\n{前|まえ}に emphasizes the point in time/space; {前|まえ} alone can modify nouns ({前|まえ}⟦の→の：09472_no⟧⟦{日|ひ}→{日|ひ}：02249_hi⟧ = the previous day).\n\nNOTE: Unlike ⟦{後|あと}で→{後|あと}で：00920_atode⟧, {前|まえ}に always uses ⟦に→に：00314_ni⟧, never ⟦で→で：00502_de⟧.",
+  "notes": "{前|まえ}に has two distinct uses: temporal (before) and spatial (in front of).\n\nTIME PATTERNS:\n- [verb dictionary form] + {前|まえ}に: before doing...\n- [noun] + ⟦の→の：09472_no⟧{前|まえ}に: before [noun]\n\nLOCATION PATTERN:\n- [noun] + ⟦の→の：09472_no⟧{前|まえ}に: in front of [noun]\n\nSIMILAR WORDS:\n- Time: ⟦{後|あと}で→{後|あと}で：00920_atode⟧ / ⟦{後|あと}→{後|あと}：09580_ato⟧⟦に→に：00314_ni⟧ (after)\n- Location: ⟦{後|うし}ろ→{後|うし}ろ：00683_ushiro⟧⟦に→に：00314_ni⟧ (behind)\n\n{前|まえ}に VS {前|まえ}:\n{前|まえ}に emphasizes the point in time/space; {前|まえ} alone can modify nouns ({前|まえ}⟦の→の：09472_no⟧⟦{日|ひ}→{日|ひ}：02249_hi⟧ = the previous day).\n\nNOTE: Unlike ⟦{後|あと}で→{後|あと}で：00920_atode⟧, {前|まえ}に always uses ⟦に→に：00314_ni⟧, never ⟦で→で：00502_de⟧.",
   "cross_references": [
     {
       "type": "antonym",
@@ -140,11 +140,32 @@
       "reading": "まえ",
       "headword": "{前|まえ}",
       "label": "base noun: front, before"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09580_ato",
+      "reading": "あと",
+      "headword": "{後|あと}",
+      "label": "after"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26555_nisakidatte",
+      "reading": "にさきだって",
+      "headword": "に{先立|さきだ}って",
+      "label": "prior to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28658_sakini",
+      "reading": "さきに",
+      "headword": "{先|さき}に",
+      "label": "first"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:48:01Z",
-    "modified": "2026-08-01T18:21:55Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

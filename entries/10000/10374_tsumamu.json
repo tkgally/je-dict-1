@@ -169,11 +169,26 @@
       ]
     }
   ],
-  "notes": "つまむ means to grip something small between the thumb and fingers. It also means to nibble or snack on food casually.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n\nCOMMON PATTERNS:\n- {鼻|はな}をつまむ: to pinch one's nose\n- {箸|はし}でつまむ: to pick up with chopsticks\n- おつまみをつまむ: to eat snacks/nibbles\n- ひとつまみ: a pinch (of salt, etc.)\n\nASPECT (ている):\nつまんでいる means \"is holding/pinching\" — the ongoing state of gripping something.\n\nRELATED:\nThe noun おつまみ (snacks to go with drinks) derives from this verb. It literally means \"things to pick at.\"\n\nSIMILAR WORDS:\n- つかむ: to grab, to seize (larger grip, whole hand)\n- つねる: to pinch (with intent to cause pain, twisting motion)",
-  "cross_references": [],
+  "notes": "つまむ means to grip something small between the thumb and fingers. It also means to nibble or snack on food casually.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n\nCOMMON PATTERNS:\n- {鼻|はな}をつまむ: to pinch one's nose\n- {箸|はし}でつまむ: to pick up with chopsticks\n- おつまみをつまむ: to eat snacks/nibbles\n- ひとつまみ: a pinch (of salt, etc.)\n\nASPECT (ている):\nつまんでいる means \"is holding/pinching\" — the ongoing state of gripping something.\n\nRELATED WORDS:\nThe noun おつまみ (snacks to go with drinks) derives from this verb. It literally means \"things to pick at.\"\n\nSIMILAR WORDS:\n- つかむ: to grab, to seize (larger grip, whole hand)\n- つねる: to pinch (with intent to cause pain, twisting motion)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02290_tsukamu",
+      "reading": "つかむ",
+      "headword": "{掴|つか}む",
+      "label": "to grab, to seize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05348_tsuneru",
+      "reading": "つねる",
+      "headword": "{抓|つね}る",
+      "label": "to pinch"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T08:30:48Z",
-    "modified": "2026-03-29T09:23:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -182,6 +197,7 @@
       "transitivity": "transitive",
       "verb_class": "godan-mu",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "body-action",
         "food-eating"

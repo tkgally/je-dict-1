@@ -3,7 +3,7 @@
   "headword": "{発進|はっしん}",
   "reading": "はっしん",
   "romaji": "hasshin",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "starting off; moving off; departure",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "The counterpart to {停止|ていし} (stopping); refers to a vehicle beginning to move, not a person setting out.\n\nCOMMON COLLOCATIONS:\n- {発進|はっしん}する: to move off; to pull away\n- {急発進|きゅうはっしん}: sudden start\n- スムーズに{発進|はっしん}する: to move off smoothly\n\nSIMILAR WORDS:\n- {出発|しゅっぱつ}: departure — the broader word for setting out on a journey, used of people and scheduled services\n- {発車|はっしゃ}: (a train or bus) departing from a stop",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02085_shuppatsu",
+      "reading": "しゅっぱつ",
+      "headword": "{出発|しゅっぱつ}",
+      "label": "departure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03694_hassha",
+      "reading": "はっしゃ",
+      "headword": "{発車|はっしゃ}",
+      "label": "(a train or bus) departing from a stop"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "transportation"
       ],
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-20T06:17:59Z",
-    "modified": "2026-07-20T06:17:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

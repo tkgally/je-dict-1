@@ -17,7 +17,9 @@
       "id": "26494_idenjouhou_ex1",
       "japanese": "DNAには{遺伝情報|いでんじょうほう}が{含|ふく}まれている。",
       "english": "DNA contains genetic information.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26494_idenjouhou_ex2",
       "japanese": "{遺伝情報|いでんじょうほう}は{親|おや}から{子|こ}に{受|う}け{継|つ}がれる。",
       "english": "Genetic information is passed from parent to child.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,47 @@
       "id": "26494_idenjouhou_ex3",
       "japanese": "{近年|きんねん}、{個人|こじん}の{遺伝情報|いでんじょうほう}を{解析|かいせき}して{病気|びょうき}のリスクを{予測|よそく}する{技術|ぎじゅつ}が{進|すす}んでいる。",
       "english": "In recent years, technology for analyzing individual genetic information to predict disease risk has advanced.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {遺伝|いでん} (heredity, genetics) and {情報|じょうほう} (information). A fundamental term in biology and medicine. With advances in genetic testing and personalized medicine, this term appears frequently in news and health discussions. Japan enacted the {個人|こじん}{遺伝情報|いでんじょうほう}{保護|ほご}ガイドライン to regulate the handling of personal genetic data.\n\nCOMMON COLLOCATIONS:\n- {遺伝情報|いでんじょうほう}の{解析|かいせき}: analysis of genetic information\n- {遺伝情報|いでんじょうほう}を{読|よ}み{取|と}る: to read genetic information\n- {遺伝情報|いでんじょうほう}の{保護|ほご}: protection of genetic information\n\nSIMILAR WORDS:\n- ゲノム: genome — the complete set of genetic information in an organism\n- {遺伝子|いでんし}: gene — a specific unit of hereditary information within DNA\n- DNA: でぃーえぬえー — the molecule that carries genetic information",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05031_idenshi",
+      "reading": "いでんし",
+      "headword": "{遺伝子|いでんし}",
+      "label": "gene"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08764_diienuee",
+      "reading": "でぃーえぬえー",
+      "headword": "DNA",
+      "label": "the molecule that carries genetic…"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-05-02T12:23:16Z",
-    "modified": "2026-05-02T12:23:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

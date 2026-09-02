@@ -24,7 +24,9 @@
       "english": "Please show me the menu.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11166_menyuu_ex2",
@@ -32,7 +34,9 @@
       "english": "A new seasonal menu just came out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11166_menyuu_ex3",
@@ -40,7 +44,9 @@
       "english": "This restaurant also has a great selection of kid-friendly menu items.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11166_menyuu_ex4",
@@ -48,7 +54,9 @@
       "english": "What's today's training program?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11166_menyuu_ex5",
@@ -56,7 +64,9 @@
       "english": "Open the settings menu.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11166_menyuu_ex6",
@@ -64,21 +74,64 @@
       "english": "It's tough to put together your own practice regimen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nメニュー is used very broadly in Japanese. Beyond restaurant menus, it commonly refers to exercise/training routines ({練習|れんしゅう}メニュー), computer interface menus ({設定|せってい}メニュー), and any planned lineup of items.\n\nCOMMON COLLOCATIONS:\n- メニューを{見|み}る: to look at the menu\n- {日替|ひが}わりメニュー: daily special menu\n- {季節|きせつ}{限定|げんてい}メニュー: seasonal limited menu\n- ランチメニュー: lunch menu\n- {練習|れんしゅう}メニュー: training regimen\n- {設定|せってい}メニュー: settings menu",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01048_resutoran",
+      "reading": "れすとらん",
+      "headword": "レストラン",
+      "label": "restaurant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04155_kondate",
+      "reading": "こんだて",
+      "headword": "{献立|こんだて}",
+      "label": "menu, meal plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20821_kondatehyou",
+      "reading": "こんだてひょう",
+      "headword": "{献立表|こんだてひょう}",
+      "label": "menu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21923_ryoukinhyou",
+      "reading": "りょうきんひょう",
+      "headword": "{料金表|りょうきんひょう}",
+      "label": "price list"
+    },
+    {
+      "type": "related",
+      "target_id": "27342_dezaatomenyuu",
+      "reading": "でざーとめにゅー",
+      "headword": "デザートメニュー",
+      "label": "dessert menu"
+    }
+  ],
   "metadata": {
     "created": "2026-02-14T05:15:09Z",
-    "modified": "2026-02-14T05:15:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "general"]
+      "semantic": [
+        "food",
+        "general"
+      ]
     }
   }
 }

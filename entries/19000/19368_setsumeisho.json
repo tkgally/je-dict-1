@@ -22,7 +22,9 @@
       "id": "19368_setsumeisho_ex1",
       "japanese": "{説明書|せつめいしょ}を{読|よ}んでください。",
       "english": "Please read the instruction manual.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "19368_setsumeisho_ex2",
       "japanese": "{説明書|せつめいしょ}が{複雑|ふくざつ}すぎて{分|わ}からない。",
       "english": "The instruction manual is too complicated and I can't understand it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "19368_setsumeisho_ex4",
       "japanese": "{家具|かぐ}を{組|く}み{立|た}てるとき、{説明書|せつめいしょ}に{従|したが}って{作業|さぎょう}した。",
       "english": "When assembling the furniture, I followed the instruction manual.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "19368_setsumeisho_ex3",
       "japanese": "この{薬|くすり}の{説明書|せつめいしょ}には{副作用|ふくさよう}について{詳|くわ}しく{書|か}かれている。",
       "english": "The explanatory document for this medicine describes the side effects in detail.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "19368_setsumeisho_ex5",
       "japanese": "{契約|けいやく}の{説明書|せつめいしょ}をよく{読|よ}んでからサインしてください。",
       "english": "Please read the explanatory document for the contract carefully before signing.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,79 @@
       "id": "19368_setsumeisho_ex6",
       "japanese": "{保険|ほけん}{会社|がいしゃ}から{届|とど}いた{説明書|せつめいしょ}には、{補償|ほしょう}{内容|ないよう}や{手続|てつづ}きの{流|なが}れが{詳細|しょうさい}に{記載|きさい}されていた。",
       "english": "The explanatory document from the insurance company described the coverage details and the procedure in full detail.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{説明書|せつめいしょ} is a written document that explains how to use, operate, or assemble something. It combines {説明|せつめい} (explanation) with {書|しょ} (document), so it literally means \"explanation document.\"\n\nCOMMON COLLOCATIONS:\n- {説明書|せつめいしょ}を{読|よ}む — to read the manual\n- {説明書|せつめいしょ}に{従|したが}う — to follow the instructions\n- {説明書|せつめいしょ}を{見|み}る — to look at the manual\n- {説明書|せつめいしょ}に{書|か}いてある — to be written in the manual\n- {取扱|とりあつかい}{説明書|せつめいしょ} — operating manual; user's manual\n\nRELATED WORDS:\n- マニュアル — manual (loanword, often used for software or training manuals)\n- {手引|てび}き — handbook; guide (less technical tone)\n- {案内書|あんないしょ} — guidebook; informational pamphlet",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "26993_manyuaru",
+      "reading": "まにゅある",
+      "headword": "マニュアル",
+      "label": "manual"
+    },
+    {
+      "type": "related",
+      "target_id": "12759_tebiki",
+      "reading": "てびき",
+      "headword": "{手引|てび}き",
+      "label": "handbook"
+    },
+    {
+      "type": "related",
+      "target_id": "11697_chuutoriaru",
+      "reading": "ちゅーとりある",
+      "headword": "チュートリアル",
+      "label": "tutorial"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19748_tejunsho",
+      "reading": "てじゅんしょ",
+      "headword": "{手順書|てじゅんしょ}",
+      "label": "procedure manual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23449_shijisho",
+      "reading": "しじしょ",
+      "headword": "{指示書|しじしょ}",
+      "label": "written instructions"
+    },
+    {
+      "type": "related",
+      "target_id": "23845_kouryakubon",
+      "reading": "こうりゃくぼん",
+      "headword": "{攻略本|こうりゃくぼん}",
+      "label": "strategy guide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24266_kaisetsusho",
+      "reading": "かいせつしょ",
+      "headword": "{解説書|かいせつしょ}",
+      "label": "explanatory book"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-03-25T12:57:22Z",
-    "modified": "2026-03-25T14:27:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

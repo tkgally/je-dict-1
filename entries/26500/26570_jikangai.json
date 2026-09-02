@@ -3,7 +3,7 @@
   "headword": "{時間外|じかんがい}",
   "reading": "じかんがい",
   "romaji": "jikangai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "outside of hours; after hours; overtime",
   "definitions": [
     {
@@ -80,7 +80,15 @@
     }
   ],
   "notes": "A compound of {時間|じかん} (time, hours) and {外|がい} (outside). The suffix ～{外|がい} is productive in Japanese, forming many similar compounds: {営業時間外|えいぎょうじかんがい} (outside business hours), {管轄外|かんかつがい} (outside jurisdiction), {予想外|よそうがい} (unexpected).\n\nCOMMON COLLOCATIONS:\n- {時間外|じかんがい}{労働|ろうどう}: overtime work\n- {時間外|じかんがい}{手当|てあて}: overtime pay\n- {時間外|じかんがい}{診療|しんりょう}: after-hours medical treatment\n- {時間外|じかんがい}{受付|うけつけ}: after-hours reception\n- {時間外|じかんがい}{窓口|まどぐち}: after-hours counter\n\nSIMILAR WORDS:\n- {残業|ざんぎょう}: overtime work — more common in everyday conversation for sense 2\n- {営業時間外|えいぎょうじかんがい}: outside business hours — more specific version of sense 1\n- {勤務時間外|きんむじかんがい}: outside working hours — more specific for employment context",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01071_zangyou",
+      "reading": "ざんぎょう",
+      "headword": "{残業|ざんぎょう}",
+      "label": "overtime work"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -99,6 +107,6 @@
       ]
     },
     "created": "2026-05-03T11:17:42Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

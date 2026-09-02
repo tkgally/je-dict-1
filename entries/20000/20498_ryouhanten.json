@@ -17,7 +17,9 @@
       "id": "20498_ryouhanten_ex1",
       "japanese": "{家電|かでん}{量販店|りょうはんてん}でテレビを{買|か}った。",
       "english": "I bought a TV at an electronics mass retailer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20498_ryouhanten_ex2",
       "japanese": "{量販店|りょうはんてん}は{価格|かかく}が{安|やす}いので{人気|にんき}がある。",
       "english": "Mass retailers are popular because their prices are low.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "20498_ryouhanten_ex3",
       "japanese": "{駅前|えきまえ}に{大型|おおがた}{量販店|りょうはんてん}がオープンして、{周辺|しゅうへん}の{小売店|こうりてん}に{影響|えいきょう}が{出|で}ている。",
       "english": "A large mass retailer opened near the station, affecting the surrounding small shops.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A store that sells products in high volume at discounted prices. Composed of {量|りょう} (volume/quantity) + {販|はん} (sell) + {店|てん} (store).\n\nCOMMON COLLOCATIONS:\n- {家電|かでん}{量販店|りょうはんてん}: electronics mass retailer (e.g., Yamada Denki, Bic Camera)\n- {大型|おおがた}{量販店|りょうはんてん}: large-scale mass retailer\n- {量販店|りょうはんてん}{価格|かかく}: mass-retailer price\n\nSIMILAR WORDS:\n- {小売店|こうりてん}: retail store — general term for any shop that sells to consumers\n- {専門店|せんもんてん}: specialty store — focuses on one category of products\n- {百貨店|ひゃっかてん}: department store — upscale, multi-floor store with a wide range of goods\n- ディスカウントストア: discount store — a loanword alternative, though {量販店|りょうはんてん} is more common in Japanese\n\nCULTURAL NOTE:\nIn Japan, {家電|かでん}{量販店|りょうはんてん} (electronics mass retailers) like Yamada Denki, Bic Camera, and Yodobashi Camera are major shopping destinations. They often feature point-card reward systems and aggressive price competition.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20689_kouriten",
+      "reading": "こうりてん",
+      "headword": "{小売店|こうりてん}",
+      "label": "retail store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15924_senmonten",
+      "reading": "せんもんてん",
+      "headword": "{専門店|せんもんてん}",
+      "label": "specialty store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18639_hyakkaten",
+      "reading": "ひゃっかてん",
+      "headword": "{百貨店|ひゃっかてん}",
+      "label": "department store"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-03-29T16:18:03Z",
-    "modified": "2026-03-29T16:18:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

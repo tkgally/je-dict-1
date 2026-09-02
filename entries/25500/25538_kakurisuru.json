@@ -3,7 +3,7 @@
   "headword": "{隔離|かくり}する",
   "reading": "かくりする",
   "romaji": "kakurisuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to isolate; to quarantine; to segregate",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "{隔離|かくり}する means to physically or socially separate something or someone from others. It gained widespread everyday use during pandemic contexts, but has always been used in medical, scientific, and social contexts.\n\nUSAGE:\n- ～を{隔離|かくり}する: to isolate someone/something\n- ～から{隔離|かくり}する: to isolate from something\n\nCOMMON COLLOCATIONS:\n- {隔離|かくり}{期間|きかん}: quarantine period\n- {隔離|かくり}{病棟|びょうとう}: isolation ward\n- {自宅|じたく}{隔離|かくり}: home quarantine\n- {社会|しゃかい}から{隔離|かくり}される: to be isolated from society\n- {隔離|かくり}{措置|そち}: isolation measures\n\nSIMILAR WORDS:\n- {分離|ぶんり}する: to separate — technical, used for dividing things into parts rather than keeping apart for safety\n- {孤立|こりつ}する: to become isolated — describes the resulting state of being alone, not the act of separating\n- {遮断|しゃだん}する: to cut off; to block — focuses on severing connection or passage",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22369_bunrisuru",
+      "reading": "ぶんりする",
+      "headword": "{分離|ぶんり}する",
+      "label": "to separate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12229_koritsu",
+      "reading": "こりつ",
+      "headword": "{孤立|こりつ}",
+      "label": "to become isolated"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15673_shadan",
+      "reading": "しゃだん",
+      "headword": "{遮断|しゃだん}",
+      "label": "to cut off"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +76,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "action"
@@ -62,7 +86,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T16:16:16Z",
-    "modified": "2026-04-25T16:16:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

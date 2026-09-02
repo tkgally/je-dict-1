@@ -3,7 +3,7 @@
   "headword": "{表示|ひょうじ}する",
   "reading": "ひょうじする",
   "romaji": "hyoujisuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to display; to indicate; to show",
   "definitions": [
     {
@@ -79,8 +79,30 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {表|ひょう} (surface, express) and {示|じ} (show, indicate). One of the most common words in technology and computing contexts, equivalent to English 'display' for on-screen content. Also widely used on product labels and in legal/regulatory contexts for required disclosures.\n\nCOMMON COLLOCATIONS:\n- {画面|がめん}に{表示|ひょうじ}する: to display on screen\n- {価格|かかく}を{表示|ひょうじ}する: to display the price\n- {表示|ひょうじ}{義務|ぎむ}: labeling requirement\n- {非{表示|ひょうじ}}: hidden, not displayed\n- {表示|ひょうじ}{名|めい}: display name\n\nSIMILAR WORDS:\n- {表|あらわ}す: to express, represent — broader; can mean expressing emotions or ideas, not limited to visual display\n- {示|しめ}す: to show, indicate — more general; showing evidence, direction, or attitude\n- {掲示|けいじ}する: to post, put up — specifically for posting notices or announcements on a board or wall",
-  "cross_references": [],
+  "notes": "Composed of {表|ひょう} (surface, express) and {示|じ} (show, indicate). One of the most common words in technology and computing contexts, equivalent to English 'display' for on-screen content. Also widely used on product labels and in legal/regulatory contexts for required disclosures.\n\nCOMMON COLLOCATIONS:\n- {画面|がめん}に{表示|ひょうじ}する: to display on screen\n- {価格|かかく}を{表示|ひょうじ}する: to display the price\n- {表示|ひょうじ}{義務|ぎむ}: labeling requirement\n- 非{表示|ひょうじ}: hidden, not displayed\n- {表示|ひょうじ}{名|めい}: display name\n\nSIMILAR WORDS:\n- {表|あらわ}す: to express, represent — broader; can mean expressing emotions or ideas, not limited to visual display\n- {示|しめ}す: to show, indicate — more general; showing evidence, direction, or attitude\n- {掲示|けいじ}する: to post, put up — specifically for posting notices or announcements on a board or wall",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01868_arawasu",
+      "reading": "あらわす",
+      "headword": "{表|あらわ}す",
+      "label": "to express, represent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01948_shimesu",
+      "reading": "しめす",
+      "headword": "{示|しめ}す",
+      "label": "to show, indicate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02838_keiji",
+      "reading": "けいじ",
+      "headword": "{掲示|けいじ}",
+      "label": "to post, put up"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -100,7 +122,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T12:20:49Z",
-    "modified": "2026-05-06T12:20:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

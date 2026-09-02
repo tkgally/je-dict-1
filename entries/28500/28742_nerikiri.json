@@ -17,7 +17,9 @@
       "id": "28742_nerikiri_ex1",
       "japanese": "{練|ね}り{切|き}りを{食|た}べた。",
       "english": "I ate a nerikiri.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28742_nerikiri_ex2",
       "japanese": "{練|ね}り{切|き}りは{茶道|さどう}でよく{出|だ}される。",
       "english": "Nerikiri is often served at tea ceremony.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "28742_nerikiri_ex3",
       "japanese": "{季節|きせつ}ごとに{桜|さくら}や{紅葉|もみじ}の{形|かたち}にした{練|ね}り{切|き}りが{店頭|てんとう}に{並|なら}ぶ。",
       "english": "Each season, nerikiri shaped like cherry blossoms or maple leaves line the shop displays.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A category of {上生菓子|じょうなまがし} (high-grade fresh wagashi) and a staple of formal tea ceremony. Shapes are seasonal — plum and pine for New Year, cherry blossoms for spring, chrysanthemums for autumn.\n\nSIMILAR WORDS:\n- {上生菓子|じょうなまがし}: high-grade fresh wagashi — broader category that includes {練|ね}り{切|き}り\n- {和菓子|わがし}: Japanese sweets (general) — the umbrella term\n- {饅頭|まんじゅう}: manju — steamed bun with filling; a different style of wagashi",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04962_wagashi",
+      "reading": "わがし",
+      "headword": "{和菓子|わがし}",
+      "label": "Japanese sweets"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05000_manjuu",
+      "reading": "まんじゅう",
+      "headword": "{饅頭|まんじゅう}",
+      "label": "manju"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food", "culture"],
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "culture"
+      ],
       "domain": []
     },
     "created": "2026-06-04T04:07:37Z",
-    "modified": "2026-06-04T04:07:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

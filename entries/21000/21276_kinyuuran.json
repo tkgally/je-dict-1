@@ -17,7 +17,9 @@
       "id": "21276_kinyuuran_ex1",
       "japanese": "{記入欄|きにゅうらん}に{名前|なまえ}を{書|か}く。",
       "english": "Write your name in the entry field.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21276_kinyuuran_ex2",
       "japanese": "{住所|じゅうしょ}の{記入欄|きにゅうらん}が{小|ちい}さすぎる。",
       "english": "The address field is too small.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,61 @@
       "id": "21276_kinyuuran_ex3",
       "japanese": "{該当|がいとう}しない{記入欄|きにゅうらん}は{空欄|くうらん}のままにしてください。",
       "english": "Please leave blank any entry fields that do not apply to you.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {記入|きにゅう} (filling in, entering) and {欄|らん} (column, section, field). Encountered frequently when dealing with official forms, applications, and paperwork in Japan. The suffix {欄|らん} is productive and appears in many form-related words.\n\nCOMMON COLLOCATIONS:\n- {記入欄|きにゅうらん}に{記入|きにゅう}する: to fill in the entry field\n- {必須|ひっす}{記入欄|きにゅうらん}: required field\n- {記入欄|きにゅうらん}が{足|た}りない: not enough space in the field\n\nRELATED TERMS WITH {欄|らん}:\n- {備考欄|びこうらん}: remarks section — for additional notes\n- {署名欄|しょめいらん}: signature field\n- {空欄|くうらん}: blank space — an unfilled field",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17222_bikouran",
+      "reading": "びこうらん",
+      "headword": "{備考欄|びこうらん}",
+      "label": "remarks section"
+    },
+    {
+      "type": "related",
+      "target_id": "30137_shomeiran",
+      "reading": "しょめいらん",
+      "headword": "{署名欄|しょめいらん}",
+      "label": "signature field"
+    },
+    {
+      "type": "related",
+      "target_id": "15892_kuuran",
+      "reading": "くうらん",
+      "headword": "{空欄|くうらん}",
+      "label": "blank space"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30150_natsuinran",
+      "reading": "なついんらん",
+      "headword": "{捺印欄|なついんらん}",
+      "label": "seal box"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-04-01T16:16:38Z",
-    "modified": "2026-04-01T16:16:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

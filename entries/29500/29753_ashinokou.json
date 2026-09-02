@@ -17,7 +17,9 @@
       "id": "29753_ashinokou_ex1",
       "japanese": "{足|あし}の{甲|こう}が{痛|いた}い。",
       "english": "The top of my foot hurts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29753_ashinokou_ex2",
       "japanese": "{足|あし}の{甲|こう}を{日焼|ひや}けしてしまった。",
       "english": "I ended up sunburning the top of my foot.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "29753_ashinokou_ex3",
       "japanese": "{新|あたら}しい{靴|くつ}が{足|あし}の{甲|こう}に{当|あ}たって、{歩|ある}くたびに{痛|いた}い。",
       "english": "The new shoes press on the top of my foot, and it hurts every time I walk.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{足|あし} (foot) + {甲|こう} (shell; upper/back surface). The arched top of the foot, contrasted with {足|あし}の{裏|うら} (the sole).\n\nCOMMON COLLOCATIONS:\n- {足|あし}の{甲|こう}が{高|たか}い: to have a high instep\n- {足|あし}の{甲|こう}を{痛|いた}める: to injure the top of the foot\n\nSIMILAR WORDS:\n- {手|て}の{甲|こう}: back of the hand — the same {甲|こう} used for the hand",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06438_tenokou",
+      "reading": "てのこう",
+      "headword": "{手|て}の{甲|こう}",
+      "label": "back of the hand"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["body-part"],
+      "politeness": "plain",
+      "semantic": [
+        "body-part"
+      ],
       "domain": []
     },
     "created": "2026-07-10T12:26:59Z",
-    "modified": "2026-07-10T12:26:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

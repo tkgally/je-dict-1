@@ -17,7 +17,9 @@
       "id": "26452_dochuu_ex1",
       "japanese": "{種|たね}を{土中|どちゅう}に{埋|う}めた。",
       "english": "I buried the seeds in the soil.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26452_dochuu_ex2",
       "japanese": "{土中|どちゅう}の{水分|すいぶん}が{植物|しょくぶつ}の{成長|せいちょう}に{影響|えいきょう}する。",
       "english": "Moisture in the soil affects plant growth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,51 @@
       "id": "26452_dochuu_ex3",
       "japanese": "{発掘|はっくつ}{調査|ちょうさ}で{土中|どちゅう}から{古代|こだい}の{遺物|いぶつ}が{見|み}つかった。",
       "english": "Ancient artifacts were found in the earth during an excavation survey.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {土|ど} (earth, soil) and {中|ちゅう} (inside, within). Functions as a location noun and commonly appears with the particle に to indicate location. Typical of the Sino-Japanese pattern where {中|ちゅう} indicates being inside something.\n\nCOMMON COLLOCATIONS:\n- {土中|どちゅう}に{埋|う}める: to bury in the soil\n- {土中|どちゅう}の{水分|すいぶん}: soil moisture\n- {土中|どちゅう}から{発見|はっけん}する: to discover from underground\n- {土中|どちゅう}{深|ふか}く: deep in the earth\n\nSIMILAR WORDS:\n- {地中|ちちゅう}: underground — emphasizes being beneath the ground surface, often used for larger-scale contexts like {地中海|ちちゅうかい} (Mediterranean Sea)\n- {地下|ちか}: underground — refers to the space beneath the surface, used for basements, subways, etc.\n- {土壌|どじょう}: soil — the material itself rather than the location within it",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12135_chichuu",
+      "reading": "ちちゅう",
+      "headword": "{地中|ちちゅう}",
+      "label": "underground"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03429_chika",
+      "reading": "ちか",
+      "headword": "{地下|ちか}",
+      "label": "underground"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12040_dojou",
+      "reading": "どじょう",
+      "headword": "{土壌|どじょう}",
+      "label": "soil"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["nature"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "nature"
+      ]
     },
     "created": "2026-05-02T11:27:49Z",
-    "modified": "2026-05-02T11:27:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

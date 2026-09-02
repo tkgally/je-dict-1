@@ -19,7 +19,9 @@
       "english": "Please solve this equation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16124_suushiki_ex2",
@@ -27,7 +29,9 @@
       "english": "I calculated the complex formula using a computer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16124_suushiki_ex3",
@@ -35,7 +39,9 @@
       "english": "In physics, natural phenomena are often expressed using mathematical formulas.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{数式|すうしき} refers to any mathematical expression or formula, from simple arithmetic to complex equations. It combines {数|すう} (number) and {式|しき} (expression, formula).\n\nCOMMON COLLOCATIONS:\n- {数式|すうしき}を{解|と}く (solve an equation)\n- {数式|すうしき}を{立|た}てる (set up an equation)\n- {数式|すうしき}で{表|あらわ}す (express in a formula)\n- {数式|すうしき}{処理|しょり} (formula processing)\n- {複雑|ふくざつ}な{数式|すうしき} (complex formula)\n\nSIMILAR WORDS:\n- {方程式|ほうていしき}: equation (specifically an equation with unknowns to solve)\n- {公式|こうしき}: formula (an established, standard formula)\n- {算式|さんしき}: arithmetic expression (simpler calculations)\n- {数式|すうしき} is the most general term, covering all types of mathematical expressions\n\nDOMAIN:\nUsed in mathematics, science, and computing contexts. The compound {数式|すうしき}エディタ (formula editor) is common in software.",
@@ -46,17 +52,35 @@
       "reading": "ほうていしき",
       "headword": "{方程式|ほうていしき}",
       "label": "equation (requires equality)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04167_koushiki",
+      "reading": "こうしき",
+      "headword": "{公式|こうしき}",
+      "label": "formula"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27948_keisanshiki",
+      "reading": "けいさんしき",
+      "headword": "{計算式|けいさんしき}",
+      "label": "mathematical expression"
     }
   ],
   "metadata": {
     "created": "2026-03-10T00:14:19Z",
-    "modified": "2026-04-08T12:34:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["science"]
+      "semantic": [
+        "science"
+      ]
     }
   }
 }

@@ -60,7 +60,7 @@
     },
     {
       "id": "23645_naihi_ex5",
-      "japanese": "{みかん}の{内皮|ないひ}には{食物繊維|しょくもつせんい}が{多|おお}く{含|ふく}まれている。",
+      "japanese": "みかんの{内皮|ないひ}には{食物繊維|しょくもつせんい}が{多|おお}く{含|ふく}まれている。",
       "english": "The inner skin of a mandarin orange contains a lot of dietary fiber.",
       "sense_numbers": [
         2
@@ -81,6 +81,22 @@
   ],
   "notes": "Composed of {内|ない} (inner) and {皮|ひ} (skin). A technical compound with parallel counterparts in {外皮|がいひ} (outer skin), {中皮|ちゅうひ} (mesothelium), and {表皮|ひょうひ} (epidermis).\n\nUSAGE:\nThe anatomical sense (sense 1) is the most common in writing — it appears in medical journals, health articles, and biology textbooks, often in combinations like {血管|けっかん}{内皮|ないひ} (vascular endothelium) or {内皮|ないひ}{細胞|さいぼう} (endothelial cells). The culinary/botanical sense (sense 2) appears in cooking instructions and describes the thin inner membrane that must be removed from chestnuts, citrus fruits, and similar foods. Context makes clear which sense is intended.\n\nCOMMON COLLOCATIONS:\n- {血管|けっかん}{内皮|ないひ}: vascular endothelium\n- {内皮|ないひ}{細胞|さいぼう}: endothelial cells\n- {内皮|ないひ}{機能|きのう}: endothelial function\n- {内皮|ないひ}を{剥|む}く: to peel off the inner skin (of a fruit)\n- {栗|くり}の{内皮|ないひ}: the inner skin of a chestnut\n\nSIMILAR WORDS:\n- {外皮|がいひ}: outer skin; peel — the direct antonym\n- {表皮|ひょうひ}: epidermis — the outermost layer, especially of human skin\n- {中皮|ちゅうひ}: mesothelium — the cell layer lining body cavities\n- {渋皮|しぶかわ}: the astringent inner skin (specifically of chestnuts) — more specific culinary term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "26297_gaihi",
+      "reading": "がいひ",
+      "headword": "{外皮|がいひ}",
+      "label": "outer skin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08744_hyouhi",
+      "reading": "ひょうひ",
+      "headword": "{表皮|ひょうひ}",
+      "label": "epidermis"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -96,6 +112,6 @@
       ]
     },
     "created": "2026-04-13T18:11:54Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

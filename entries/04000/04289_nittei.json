@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {日程|にってい} refers to schedules organized by days/dates, commonly used for trips, meetings, and events.\n\nCOMMON PATTERNS:\n- {日程|にってい}⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧ (to set a schedule)\n- {日程|にってい}⟦を→を：00422_wo⟧⟦{調整|ちょうせい}→調整：14839_chousei⟧⟦する→する：00392_suru⟧ (to coordinate schedules)\n- {日程|にってい}⟦が→が：00051_ga⟧⟦{合|あ}う→合う：10466_au⟧ (schedules match)\n- {日程|にってい}⟦{通|どお}り→どおり：09884_doori⟧ (according to schedule)\n\nCOMMON COMPOUNDS:\n- {日程|にってい}⟦{表|ひょう}→表：19354_hyou⟧ (schedule chart, timetable)\n- {日程|にってい}⟦{調整|ちょうせい}→調整：14839_chousei⟧ (schedule coordination)\n- ⟦{旅行|りょこう}→旅行：00748_ryokou⟧{日程|にってい} (travel itinerary)\n\nSIMILAR WORDS:\n- ⟦スケジュール→スケジュール：03850_sukejuuru⟧ - schedule (loanword, more casual)\n- ⟦{予定|よてい}→予定：00824_yotei⟧ - plan, arrangement (broader)\n- ⟦{行程|こうてい}→行程：19186_koutei⟧ - itinerary, route",
+  "notes": "USAGE: {日程|にってい} refers to schedules organized by days/dates, commonly used for trips, meetings, and events.\n\nCOMMON PATTERNS:\n- {日程|にってい}⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧ (to set a schedule)\n- {日程|にってい}⟦を→を：00422_wo⟧⟦{調整|ちょうせい}→調整：14839_chousei⟧⟦する→する：00392_suru⟧ (to coordinate schedules)\n- {日程|にってい}⟦が→が：00051_ga⟧⟦{合|あ}う→合う：10466_au⟧ (schedules match)\n- {日程|にってい}⟦{通|どお}り→どおり：09884_doori⟧ (according to schedule)\n\nCOMPOUNDS:\n- {日程|にってい}⟦{表|ひょう}→表：19354_hyou⟧ (schedule chart, timetable)\n- {日程|にってい}⟦{調整|ちょうせい}→調整：14839_chousei⟧ (schedule coordination)\n- ⟦{旅行|りょこう}→旅行：00748_ryokou⟧{日程|にってい} (travel itinerary)\n\nSIMILAR WORDS:\n- ⟦スケジュール→スケジュール：03850_sukejuuru⟧ - schedule (loanword, more casual)\n- ⟦{予定|よてい}→予定：00824_yotei⟧ - plan, arrangement (broader)\n- ⟦{行程|こうてい}→行程：19186_koutei⟧ - itinerary, route",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,11 +51,39 @@
       "reading": "よてい",
       "headword": "{予定|よてい}",
       "label": "plan, arrangement (broader)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03850_sukejuuru",
+      "reading": "すけじゅーる",
+      "headword": "スケジュール",
+      "label": "schedule"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19186_koutei",
+      "reading": "こうてい",
+      "headword": "{行程|こうてい}",
+      "label": "itinerary, route"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08985_hinichi",
+      "reading": "ひにち",
+      "headword": "{日日|ひにち}",
+      "label": "date"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12952_hidori",
+      "reading": "ひどり",
+      "headword": "{日取|ひど}り",
+      "label": "date (scheduled), scheduling a date"
     }
   ],
   "metadata": {
     "created": "2026-01-14T00:58:16Z",
-    "modified": "2026-05-30T18:11:57Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

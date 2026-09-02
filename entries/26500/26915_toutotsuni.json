@@ -3,7 +3,7 @@
   "headword": "{唐突|とうとつ}に",
   "reading": "とうとつに",
   "romaji": "toutotsuni",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, na-adjective",
   "gloss": "abruptly; suddenly; out of the blue",
   "definitions": [
     {
@@ -45,7 +45,36 @@
     }
   ],
   "notes": "Conveys not just suddenness but often inappropriateness or social awkwardness — doing something without proper buildup or context. Frequently used when someone's behavior catches others off guard in a way that feels slightly rude or out of place.\n\nCOMMON COLLOCATIONS:\n- {唐突|とうとつ}な{質問|しつもん}: an abrupt question\n- {唐突|とうとつ}な{訪問|ほうもん}: an unexpected visit\n- {唐突|とうとつ}な{発言|はつげん}: an out-of-the-blue remark\n- {唐突|とうとつ}に{聞|き}く: to ask out of nowhere\n\nSIMILAR WORDS:\n- {突然|とつぜん}: suddenly — neutral; emphasizes unexpectedness without the nuance of social awkwardness\n- {不意|ふい}に: unexpectedly — emphasizes being caught unprepared\n- {急|きゅう}に: suddenly; quickly — the most common and casual option, also covers physical speed changes",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00409_totsuzen",
+      "reading": "とつぜん",
+      "headword": "{突然|とつぜん}",
+      "label": "suddenly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16855_fuini",
+      "reading": "ふいに",
+      "headword": "{不意|ふい}に",
+      "label": "unexpectedly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00263_kyuuni",
+      "reading": "きゅうに",
+      "headword": "{急|きゅう}に",
+      "label": "suddenly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21616_totsuzenni",
+      "reading": "とつぜんに",
+      "headword": "{突然|とつぜん}に",
+      "label": "suddenly"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,6 +91,6 @@
       "domain": []
     },
     "created": "2026-05-05T16:11:42Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

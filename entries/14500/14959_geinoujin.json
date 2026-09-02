@@ -19,7 +19,9 @@
       "english": "That celebrity is popular.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14959_geinoujin_ex2",
@@ -27,7 +29,9 @@
       "english": "Celebrities' private lives are often covered by tabloid magazines.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14959_geinoujin_ex3",
@@ -35,21 +39,64 @@
       "english": "Having admired entertainers since childhood, I joined a talent agency right after graduating high school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A catch-all term for people in the entertainment industry. Unlike English 'celebrity,' which emphasizes fame, {芸能人|げいのうじん} emphasizes the profession of entertaining.\n\nCOMMON COLLOCATIONS:\n- {芸能人|げいのうじん}になる (to become a celebrity)\n- {人気|にんき}{芸能人|げいのうじん} (popular celebrity)\n- {芸能人|げいのうじん}の{私生活|しせいかつ} (celebrity's private life)\n- {芸能事務所|げいのうじむしょ} (talent agency)\n\nSIMILAR WORDS:\n- タレント focuses on TV personalities specifically\n- {有名人|ゆうめいじん} means 'famous person' regardless of profession\n- {俳優|はいゆう} is specifically an actor",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25367_tarento",
+      "reading": "たれんと",
+      "headword": "タレント",
+      "label": "focuses on TV personalities specifically"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17812_yuumeijin",
+      "reading": "ゆうめいじん",
+      "headword": "{有名人|ゆうめいじん}",
+      "label": "means 'famous person' regardless…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03547_haiyuu",
+      "reading": "はいゆう",
+      "headword": "{俳優|はいゆう}",
+      "label": "is specifically an actor"
+    },
+    {
+      "type": "related",
+      "target_id": "00393_sutaa",
+      "reading": "すたー",
+      "headword": "スター",
+      "label": "star (celebrity)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23055_chomeijin",
+      "reading": "ちょめいじん",
+      "headword": "{著名人|ちょめいじん}",
+      "label": "celebrity"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T07:58:20Z",
-    "modified": "2026-03-04T07:58:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "leisure"]
+      "semantic": [
+        "person",
+        "leisure"
+      ]
     }
   }
 }

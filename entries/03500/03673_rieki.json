@@ -78,10 +78,10 @@
       ]
     }
   ],
-  "notes": "USAGE: {利益|りえき} is commonly used in business contexts for profit, and in broader contexts for benefits or interests.\n\nCOMMON PATTERNS:\n・{利益|りえき}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧ (to make a profit)\n・{利益|りえき}⟦を→を：00422_wo⟧⟦{追求|ついきゅう}→追求：14401_tsuikyuu⟧⟦する→する：00392_suru⟧ (to pursue profit)\n・{利益|りえき}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧ (to protect interests)\n・⟦{純|じゅん}→純：noentry⟧{利益|りえき} (net profit)\n・⟦{営業|えいぎょう}→営業：01878_eigyou⟧{利益|りえき} (operating profit)\n・⟦{公共|こうきょう}→公共：11652_koukyou⟧⟦の→の：09472_no⟧{利益|りえき} (public interest)\n\nCONTRAST:\n・⟦{損失|そんしつ}→損失：04875_sonshitsu⟧ - loss\n・⟦{損害|そんがい}→損害：02615_songai⟧ - damage, loss",
+  "notes": "USAGE: {利益|りえき} is commonly used in business contexts for profit, and in broader contexts for benefits or interests.\n\nCOMMON PATTERNS:\n- {利益|りえき}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧ (to make a profit)\n- {利益|りえき}⟦を→を：00422_wo⟧⟦{追求|ついきゅう}→追求：14401_tsuikyuu⟧⟦する→する：00392_suru⟧ (to pursue profit)\n- {利益|りえき}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧ (to protect interests)\n- ⟦{純|じゅん}→純：noentry⟧{利益|りえき} (net profit)\n- ⟦{営業|えいぎょう}→営業：01878_eigyou⟧{利益|りえき} (operating profit)\n- ⟦{公共|こうきょう}→公共：11652_koukyou⟧⟦の→の：09472_no⟧{利益|りえき} (public interest)\n\nSIMILAR WORDS:\n- ⟦{損失|そんしつ}→損失：04875_sonshitsu⟧ - loss\n- ⟦{損害|そんがい}→損害：02615_songai⟧ - damage, loss",
   "metadata": {
     "created": "2026-01-12T16:08:00Z",
-    "modified": "2026-05-26T21:24:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -119,6 +119,62 @@
       "reading": "そんしつ",
       "headword": "{損失|そんしつ}",
       "label": "loss"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02615_songai",
+      "reading": "そんがい",
+      "headword": "{損害|そんがい}",
+      "label": "damage, loss"
+    },
+    {
+      "type": "related",
+      "target_id": "04115_onkei",
+      "reading": "おんけい",
+      "headword": "{恩恵|おんけい}",
+      "label": "blessing, benefit, grace"
+    },
+    {
+      "type": "related",
+      "target_id": "06302_shuueki",
+      "reading": "しゅうえき",
+      "headword": "{収益|しゅうえき}",
+      "label": "earnings"
+    },
+    {
+      "type": "related",
+      "target_id": "19524_rigaikankei",
+      "reading": "りがいかんけい",
+      "headword": "{利害関係|りがいかんけい}",
+      "label": "interests"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21829_keneki",
+      "reading": "けんえき",
+      "headword": "{権益|けんえき}",
+      "label": "rights and interests"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23144_eiri",
+      "reading": "えいり",
+      "headword": "{営利|えいり}",
+      "label": "profit-making"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23370_jitsuri",
+      "reading": "じつり",
+      "headword": "{実利|じつり}",
+      "label": "practical benefit"
+    },
+    {
+      "type": "related",
+      "target_id": "24522_sonekikeisansho",
+      "reading": "そんえきけいさんしょ",
+      "headword": "{損益計算書|そんえきけいさんしょ}",
+      "label": "income statement"
     }
   ]
 }

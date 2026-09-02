@@ -3,7 +3,7 @@
   "id": "15563_goen",
   "headword": "{誤嚥|ごえん}",
   "reading": "ごえん",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "aspiration; accidental swallowing into the airway",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,18 @@
     }
   ],
   "notes": "Composed of {誤|ご} (mistake, error) and {嚥|えん} (to swallow). The word specifically refers to the accidental entry of food or liquid into the airway rather than the stomach.\n\n{誤嚥|ごえん}{性|せい}{肺炎|はいえん} (aspiration pneumonia) is a major health concern in aging societies like Japan, making this term frequently seen in health-related media.\n\nCOMMON COLLOCATIONS:\n- {誤嚥|ごえん}{性|せい}{肺炎|はいえん} (aspiration pneumonia)\n- {誤嚥|ごえん}を{防|ふせ}ぐ (to prevent aspiration)\n- {誤嚥|ごえん}{事故|じこ} (aspiration accident)\n- {誤嚥|ごえん}のリスク (risk of aspiration)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24144_goin",
+      "reading": "ごいん",
+      "headword": "{誤飲|ごいん}",
+      "label": "accidental ingestion"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T11:21:01Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

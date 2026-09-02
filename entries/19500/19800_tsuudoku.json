@@ -3,7 +3,7 @@
   "headword": "{通読|つうどく}",
   "reading": "つうどく",
   "romaji": "tsuudoku",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reading through; reading from cover to cover",
   "conjugation": {
     "type": "suru",
@@ -142,6 +142,48 @@
       "reading": "じゅくどく",
       "headword": "{熟読|じゅくどく}",
       "label": "careful reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15982_seidoku",
+      "reading": "せいどく",
+      "headword": "{精読|せいどく}",
+      "label": "close reading, careful reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22402_sokudoku",
+      "reading": "そくどく",
+      "headword": "{速読|そくどく}",
+      "label": "speed reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15981_tadoku",
+      "reading": "たどく",
+      "headword": "{多読|たどく}",
+      "label": "extensive reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17927_hiroiyomi",
+      "reading": "ひろいよみ",
+      "headword": "{拾|ひろ}い{読|よ}み",
+      "label": "selective reading, reading bits…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19606_dokuha",
+      "reading": "どくは",
+      "headword": "{読破|どくは}",
+      "label": "reading through"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22581_kandoku",
+      "reading": "かんどく",
+      "headword": "{完読|かんどく}",
+      "label": "reading through completely"
     }
   ],
   "schema_version": "2.0",
@@ -161,6 +203,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-27T00:18:19Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

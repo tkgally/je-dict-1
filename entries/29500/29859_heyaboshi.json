@@ -17,7 +17,9 @@
       "id": "29859_heyaboshi_ex1",
       "japanese": "{雨|あめ}の{日|ひ}は{部屋干|へやぼ}しをする。",
       "english": "On rainy days I dry the laundry indoors.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29859_heyaboshi_ex2",
       "japanese": "{部屋干|へやぼ}しだと{生乾|なまがわ}きの{臭|にお}いがすることがある。",
       "english": "Drying indoors can sometimes leave a musty, half-dry smell.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "29859_heyaboshi_ex3",
       "japanese": "{花粉|かふん}の{季節|きせつ}は{洗濯物|せんたくもの}を{部屋干|へやぼ}しする{家庭|かてい}が{多|おお}い。",
       "english": "During pollen season, many households dry their laundry indoors.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {部屋|へや} (room) + {干|ぼ}し (drying, from {干|ほ}す). The {ほ} becomes {ぼ} through rendaku. Can also be used with する ({部屋干|へやぼ}しする).\n\nCOMMON COLLOCATIONS:\n- {部屋干|へやぼ}しの{臭|にお}い: the smell of indoor-dried laundry\n- {部屋干|へやぼ}し{用|よう}{洗剤|せんざい}: detergent made for indoor drying\n\nSIMILAR WORDS:\n- {外干|そとぼ}し: drying outdoors — the natural opposite\n- {陰干|かげぼ}し: drying in the shade — avoiding direct sunlight",
+  "notes": "Composed of {部屋|へや} (room) + {干|ぼ}し (drying, from {干|ほ}す). The ほ becomes ぼ through rendaku. Can also be used with する ({部屋干|へやぼ}しする).\n\nCOMMON COLLOCATIONS:\n- {部屋干|へやぼ}しの{臭|にお}い: the smell of indoor-dried laundry\n- {部屋干|へやぼ}し{用|よう}{洗剤|せんざい}: detergent made for indoor drying\n\nSIMILAR WORDS:\n- {外干|そとぼ}し: drying outdoors — the natural opposite\n- {陰干|かげぼ}し: drying in the shade — avoiding direct sunlight",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26260_kageboshi",
+      "reading": "かげぼし",
+      "headword": "{陰干|かげぼ}し",
+      "label": "drying in the shade"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["daily-life"],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life"
+      ],
       "domain": []
     },
     "created": "2026-07-15T12:19:49Z",
-    "modified": "2026-07-15T12:19:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "29973_noohittonooran_ex1",
       "japanese": "ノーヒットノーランを{達成|たっせい}した。",
       "english": "He pitched a no-hitter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29973_noohittonooran_ex2",
       "japanese": "9{回|かい}までノーヒットノーランが{続|つづ}いた。",
       "english": "The no-hitter continued through the ninth inning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "29973_noohittonooran_ex3",
       "japanese": "あの{投手|とうしゅ}はプロで{一度|いちど}もノーヒットノーランを{逃|のが}したことがない。",
       "english": "That pitcher has never missed out on a no-hitter in his pro career.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A rare pitching achievement, usually announced with {達成|たっせい}する (to accomplish).\n\nCOMMON COLLOCATIONS:\n- ノーヒットノーランを{達成|たっせい}する: to pitch a no-hitter\n- ノーヒットノーラン{達成|たっせい}: no-hitter achievement\n- {完全|かんぜん}{試合|じあい}: perfect game — an even rarer feat (no baserunners at all)\n\nSIMILAR WORDS:\n- {完封|かんぷう}: shutout — allows no runs but may allow hits, so it is a weaker feat than a no-hitter",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06543_kanpuu",
+      "reading": "かんぷう",
+      "headword": "{完封|かんぷう}",
+      "label": "shutout"
+    },
+    {
+      "type": "related",
+      "target_id": "08945_noohitto",
+      "reading": "のーひっと",
+      "headword": "ノーヒット",
+      "label": "no-hitter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29968_kanzenjiai",
+      "reading": "かんぜんじあい",
+      "headword": "{完|かん}{全|ぜん}{試合|じあい}",
+      "label": "perfect game (baseball)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports"],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-07-20T06:17:59Z",
-    "modified": "2026-07-20T06:17:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

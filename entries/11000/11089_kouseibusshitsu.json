@@ -19,7 +19,9 @@
       "english": "The doctor prescribed me antibiotics.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11089_kouseibusshitsu_ex2",
@@ -27,7 +29,9 @@
       "english": "Please take the full course of antibiotics.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11089_kouseibusshitsu_ex3",
@@ -35,22 +39,52 @@
       "english": "Overuse of antibiotics is a cause of antibiotic-resistant bacteria.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{抗生物質|こうせいぶっしつ} is the formal/technical term for antibiotics. In everyday conversation, people often simply say {抗生剤|こうせいざい} or informally refer to them as their specific medication name.\n\nCOMMON COLLOCATIONS:\n- {抗生物質|こうせいぶっしつ}を{飲|の}む (to take antibiotics)\n- {抗生物質|こうせいぶっしつ}を{処方|しょほう}する (to prescribe antibiotics)\n- {抗生物質|こうせいぶっしつ}{耐性|たいせい} (antibiotic resistance)\n\nIMPORTANT DISTINCTION:\nAntibiotics treat bacterial infections, not viral ones. Japanese doctors sometimes explain this as {抗生物質|こうせいぶっしつ}は{風邪|かぜ}には{効|き}かない (antibiotics don't work for colds).",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23620_kouenshou",
+      "reading": "こうえんしょう",
+      "headword": "{抗炎症|こうえんしょう}",
+      "label": "anti-inflammatory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26144_koukinyaku",
+      "reading": "こうきんやく",
+      "headword": "{抗菌薬|こうきんやく}",
+      "label": "antibacterial drug"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29199_kouuirusuyaku",
+      "reading": "こうういるすやく",
+      "headword": "{抗ウイルス薬|こうういるすやく}",
+      "label": "antiviral drug"
+    }
+  ],
   "metadata": {
     "created": "2026-02-13T12:38:59Z",
-    "modified": "2026-02-13T12:38:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["medical"],
-      "semantic": ["general"]
+      "domain": [
+        "medical"
+      ],
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

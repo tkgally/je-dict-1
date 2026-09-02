@@ -19,7 +19,9 @@
       "english": "I received an exchange ticket.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19009_hikikaeken_ex2",
@@ -27,7 +29,9 @@
       "english": "You can get a prize with this voucher.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19009_hikikaeken_ex3",
@@ -35,21 +39,57 @@
       "english": "Please be careful not to lose the baggage claim ticket.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {引換|ひきかえ} (exchange) and {券|けん} (ticket). Encountered in daily life at department stores, lottery events, airports, and restaurants. The ticket is presented to claim an item or service.\n\nCOMMON COLLOCATIONS:\n- {引換券|ひきかえけん}を{渡|わた}す: to hand over a voucher\n- {引換券|ひきかえけん}と{交換|こうかん}する: to exchange a voucher (for something)\n- {商品|しょうひん}{引換券|ひきかえけん}: product exchange voucher\n- {荷物|にもつ}{引換券|ひきかえけん}: baggage claim ticket",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23504_bangoufuda",
+      "reading": "ばんごうふだ",
+      "headword": "{番号札|ばんごうふだ}",
+      "label": "numbered ticket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24897_koukanken",
+      "reading": "こうかんけん",
+      "headword": "{交換券|こうかんけん}",
+      "label": "exchange coupon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24898_yoyakuken",
+      "reading": "よやくけん",
+      "headword": "{予約券|よやくけん}",
+      "label": "reservation ticket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25183_tokutenken",
+      "reading": "とくてんけん",
+      "headword": "{特典券|とくてんけん}",
+      "label": "bonus ticket"
+    }
+  ],
   "metadata": {
     "created": "2026-03-24T00:57:21Z",
-    "modified": "2026-03-24T00:57:21Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["shopping", "travel"]
+      "semantic": [
+        "shopping",
+        "travel"
+      ]
     }
   }
 }

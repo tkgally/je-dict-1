@@ -17,7 +17,9 @@
       "id": "26445_renrakuban_ex1",
       "japanese": "{連絡板|れんらくばん}に{予定|よてい}を{書|か}いておいた。",
       "english": "I wrote the schedule on the message board.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26445_renrakuban_ex2",
       "japanese": "{大事|だいじ}なお{知|し}らせが{連絡板|れんらくばん}に{貼|は}ってある。",
       "english": "An important notice is posted on the message board.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26445_renrakuban_ex3",
       "japanese": "{社内|しゃない}の{連絡板|れんらくばん}を{毎日|まいにち}{確認|かくにん}するのが{習慣|しゅうかん}になっている。",
       "english": "It has become a habit to check the company message board every day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {連絡|れんらく} (communication, contact) and {板|ばん} (board). Can refer to a physical bulletin board or an online message board. In Japanese schools, information is often communicated to parents through a {連絡|れんらく}{帳|ちょう} (communication notebook) rather than a board.\n\nCOMMON COLLOCATIONS:\n- {連絡板|れんらくばん}に{書|か}く: to write on the message board\n- {連絡板|れんらくばん}を{確認|かくにん}する: to check the message board\n- {連絡板|れんらくばん}に{貼|は}る: to post on the message board\n- {社内|しゃない}{連絡板|れんらくばん}: company notice board\n\nSIMILAR WORDS:\n- {掲示板|けいじばん}: bulletin board — a more general term that also refers to internet forums\n- {伝言板|でんごんばん}: message board (for personal messages) — a board for leaving individual messages for specific people\n- {連絡帳|れんらくちょう}: communication notebook — a school notebook for messages between teachers and parents",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03052_keijiban",
+      "reading": "けいじばん",
+      "headword": "{掲示板|けいじばん}",
+      "label": "bulletin board"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16788_dengonban",
+      "reading": "でんごんばん",
+      "headword": "{伝言板|でんごんばん}",
+      "label": "message board"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["communication", "work"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "communication",
+        "work"
+      ]
     },
     "created": "2026-05-01T16:23:53Z",
-    "modified": "2026-05-01T16:23:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

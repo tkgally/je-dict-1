@@ -17,7 +17,9 @@
       "id": "21199_kaomoji_ex1",
       "japanese": "{顔文字|かおもじ}を{使|つか}う。",
       "english": "To use emoticons.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21199_kaomoji_ex2",
       "japanese": "メールに{顔文字|かおもじ}を{入|い}れると{柔|やわ}らかい{印象|いんしょう}になる。",
       "english": "Adding emoticons to emails gives a softer impression.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "21199_kaomoji_ex3",
       "japanese": "ビジネスメールでは{顔文字|かおもじ}を{使|つか}わないほうがいいと{言|い}われている。",
       "english": "It is said that you shouldn't use emoticons in business emails.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Literally 'face character' ({顔|かお} face + {文字|もじ} character). Refers to emoticons made from text characters, such as (^_^) or (T_T). Japanese kaomoji are distinct from Western emoticons in that they are read face-on (not tilted sideways) and often use a much wider set of Unicode characters.\n\nCOMMON COLLOCATIONS:\n- {顔文字|かおもじ}を{使|つか}う: to use emoticons\n- {顔文字|かおもじ}を{入|い}れる: to insert an emoticon\n- {顔文字|かおもじ}{一覧|いちらん}: list of emoticons\n\nSIMILAR WORDS:\n- {絵文字|えもじ}: emoji — pictographic characters (now a global term); distinct from text-based kaomoji\n- スタンプ: LINE stickers — image-based expressions used on the LINE messaging app\n\nCULTURAL NOTE:\nKaomoji became hugely popular in Japan during the early internet era and remain widely used in casual text messages and social media. Common examples include (^_^) for happiness, (T_T) for crying, and (>_<) for frustration.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13859_emoji",
+      "reading": "えもじ",
+      "headword": "{絵文字|えもじ}",
+      "label": "emoji"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11577_sutanpu",
+      "reading": "すたんぷ",
+      "headword": "スタンプ",
+      "label": "LINE stickers"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technology"]
+      "semantic": [
+        "technology"
+      ]
     },
     "created": "2026-04-01T14:16:10Z",
-    "modified": "2026-04-01T14:16:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{再入国|さいにゅうこく}",
   "reading": "さいにゅうこく",
   "romaji": "sainyuukoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "re-entry (into a country); returning to a country after leaving",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Combines {再|さい} (again) and {入国|にゅうこく} (entering a country). An important term for foreign residents of Japan who need to leave and return. Japan's immigration system distinguishes between {再入国許可|さいにゅうこくきょか} (re-entry permit) and the newer みなし{再入国|さいにゅうこく}{許可|きょか} (deemed re-entry permit) introduced in 2012.\n\nCOMMON COLLOCATIONS:\n- {再入国|さいにゅうこく}{許可|きょか}: re-entry permit\n- {再入国|さいにゅうこく}{手続|てつづ}き: re-entry procedures\n- {再入国|さいにゅうこく}ビザ: re-entry visa\n- みなし{再入国|さいにゅうこく}: deemed re-entry\n\nSIMILAR WORDS:\n- {入国|にゅうこく}: entering a country — the initial entry\n- {出国|しゅっこく}: leaving a country — departing a country\n- {帰国|きこく}: returning to one's home country — returning home specifically",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15879_shukkoku",
+      "reading": "しゅっこく",
+      "headword": "{出国|しゅっこく}",
+      "label": "leaving a country"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03025_kikoku",
+      "reading": "きこく",
+      "headword": "{帰国|きこく}",
+      "label": "returning to one's home country"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-07T12:19:56Z",
-    "modified": "2026-08-07T06:31:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

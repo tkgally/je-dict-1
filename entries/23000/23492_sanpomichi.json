@@ -17,7 +17,9 @@
       "id": "23492_sanpomichi_ex1",
       "japanese": "{川沿|かわぞ}いの{散歩道|さんぽみち}が{好|す}きだ。",
       "english": "I like the walking path along the river.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23492_sanpomichi_ex2",
       "japanese": "{犬|いぬ}との{散歩道|さんぽみち}を{変|か}えてみた。",
       "english": "I tried changing the route for my walk with the dog.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "23492_sanpomichi_ex3",
       "japanese": "{桜並木|さくらなみき}の{散歩道|さんぽみち}は、{春|はる}になると{花見|はなみ}の{人|ひと}で{賑|にぎ}わう。",
       "english": "The walking path lined with cherry trees bustles with hanami visitors when spring arrives.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {散歩|さんぽ} (stroll, walk) and {道|みち} (path, road). Refers either to a physical path suitable for walking or to one's habitual walking route. The word has a warm, personal quality — it often implies a route that someone has grown attached to through regular use.\n\nCOMMON COLLOCATIONS:\n- {散歩道|さんぽみち}を{歩|ある}く: to walk along a walking path\n- {散歩道|さんぽみち}を{変|か}える: to change one's walking route\n- {お{気|き}に{入|い}りの{散歩道|さんぽみち}: one's favorite walking path\n- {朝|あさ}の{散歩道|さんぽみち}: morning walk route\n\nSIMILAR WORDS:\n- {遊歩道|ゆうほどう}: promenade, walkway — a purpose-built, maintained path for pedestrians, typically in a park or scenic area\n- {歩道|ほどう}: sidewalk, pavement — a functional pedestrian path along a road\n- {小道|こみち}: lane, trail — a small or narrow path, often with a quaint or scenic connotation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23484_yuuhodou",
+      "reading": "ゆうほどう",
+      "headword": "{遊歩道|ゆうほどう}",
+      "label": "promenade, walkway"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21202_komichi",
+      "reading": "こみち",
+      "headword": "{小道|こみち}",
+      "label": "lane, trail"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature", "daily-life"]
+      "semantic": [
+        "nature",
+        "daily-life"
+      ]
     },
     "created": "2026-04-12T10:31:09Z",
-    "modified": "2026-04-12T10:31:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "07709_koromogae",
   "headword": "{衣替|ころもが}え",
   "reading": "ころもがえ",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "seasonal wardrobe change; switching between seasonal clothes",
   "conjugation": {
     "type": "suru",
@@ -130,10 +130,61 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{衣|ころも} (clothing - classical reading) + {替|か}え (change)\n\nCULTURAL NOTE:\nIn Japan, {衣替|ころもが}え traditionally occurs on June 1st (from winter to summer uniforms) and October 1st (from summer to winter). Schools and many companies follow this schedule for uniform changes.\n\nTYPICAL ACTIVITIES:\n・Packing away off-season clothes\n・Taking out seasonal clothes from storage\n・Cleaning or laundering stored items\n\nRELATED:\n・{模様替|もようが}え - room rearrangement\n・{冬支度|ふゆじたく} - winter preparation\n・{夏服|なつふく}/{冬服|ふゆふく} - summer/winter clothes",
+  "notes": "ETYMOLOGY:\n{衣|ころも} (clothing - classical reading) + {替|か}え (change)\n\nCULTURAL NOTE:\nIn Japan, {衣替|ころもが}え traditionally occurs on June 1st (from winter to summer uniforms) and October 1st (from summer to winter). Schools and many companies follow this schedule for uniform changes.\n\nTYPICAL ACTIVITIES:\n- Packing away off-season clothes\n- Taking out seasonal clothes from storage\n- Cleaning or laundering stored items\n\nRELATED WORDS:\n- {模様替|もようが}え - room rearrangement\n- {冬支度|ふゆじたく} - winter preparation\n- {夏服|なつふく}/{冬服|ふゆふく} - summer/winter clothes",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07708_moyougae",
+      "reading": "もようがえ",
+      "headword": "{模様替|もようが}え",
+      "label": "room rearrangement"
+    },
+    {
+      "type": "related",
+      "target_id": "23421_natsufuku",
+      "reading": "なつふく",
+      "headword": "{夏服|なつふく}",
+      "label": "summer/winter clothes"
+    },
+    {
+      "type": "related",
+      "target_id": "23084_fuyufuku",
+      "reading": "ふゆふく",
+      "headword": "{冬服|ふゆふく}",
+      "label": "summer/winter clothes"
+    },
+    {
+      "type": "related",
+      "target_id": "19551_kuriiningu",
+      "reading": "くりーにんぐ",
+      "headword": "クリーニング",
+      "label": "dry cleaning"
+    },
+    {
+      "type": "related",
+      "target_id": "22758_kisetsugawari",
+      "reading": "きせつがわり",
+      "headword": "{季節替|きせつが}わり",
+      "label": "change of season"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23085_koui",
+      "reading": "こうい",
+      "headword": "{更衣|こうい}",
+      "label": "changing clothes"
+    },
+    {
+      "type": "related",
+      "target_id": "30667_natsumono",
+      "reading": "なつもの",
+      "headword": "{夏物|なつもの}",
+      "label": "summer clothing"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +193,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "clothing",
         "time-season"

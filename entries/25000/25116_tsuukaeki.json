@@ -17,7 +17,9 @@
       "id": "25116_tsuukaeki_ex1",
       "japanese": "この{駅|えき}は{急行|きゅうこう}の{通過駅|つうかえき}だ。",
       "english": "This station is one that the express passes through.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25116_tsuukaeki_ex2",
       "japanese": "{通過駅|つうかえき}ではホームに{立|た}ち{入|い}らないでください。",
       "english": "Please do not enter the platform at stations where the train passes through.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,38 @@
       "id": "25116_tsuukaeki_ex3",
       "japanese": "{特急|とっきゅう}の{通過駅|つうかえき}に{住|す}んでいるので、{毎朝|まいあさ}{各停|かくてい}に{乗|の}り{換|か}えなければならない。",
       "english": "I live at a station the limited express passes through, so I have to transfer to a local train every morning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {通過|つうか} (passing through) and {駅|えき} (station). A practical term for anyone using Japanese rail, where different service levels (local, rapid, express, limited express) stop at different stations. A {通過駅|つうかえき} for one service may be a regular stop for a slower service.\n\nCOMMON COLLOCATIONS:\n- {急行|きゅうこう}の{通過駅|つうかえき}: express non-stop station\n- {特急|とっきゅう}{通過駅|つうかえき}: limited express non-stop station\n- {通過駅|つうかえき}を{確認|かくにん}する: to check which stations are skipped\n\nSIMILAR WORDS:\n- {停車駅|ていしゃえき}: stopping station — the opposite; a station where the train does stop\n- {通過|つうか}: passing through — the general term for passing through without stopping\n- {各駅停車|かくえきていしゃ}: local train — a service that stops at every station",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15471_kakuekiteisha",
+      "reading": "かくえきていしゃ",
+      "headword": "{各駅停車|かくえきていしゃ}",
+      "label": "local train"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["transportation", "daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "transportation",
+        "daily-life"
+      ]
     },
     "created": "2026-04-23T11:21:11Z",
-    "modified": "2026-04-23T11:21:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

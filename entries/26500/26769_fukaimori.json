@@ -45,7 +45,29 @@
     }
   ],
   "notes": "A common descriptive phrase combining {深|ふか}い (deep) and {森|もり} (forest). In Japanese literature and folklore, the deep forest is a frequent setting representing the boundary between the human world and the supernatural. Locations like {白神山地|しらかみさんち} (Shirakami Mountains) and {屋久島|やくしま} (Yakushima) are famous for their primeval deep forests.\n\nCOMMON COLLOCATIONS:\n- {深|ふか}い{森|もり}の{奥|おく}: deep inside the forest\n- {深|ふか}い{森|もり}に{迷|まよ}い{込|こ}む: to wander into a deep forest\n- {深|ふか}い{森|もり}に{囲|かこ}まれた: surrounded by deep forest\n\nSIMILAR WORDS:\n- {密林|みつりん}: jungle, dense forest — emphasizes thick vegetation; often tropical\n- {原生林|げんせいりん}: primeval forest, virgin forest — forest untouched by human activity\n- {樹海|じゅかい}: sea of trees — a vast, dense forest viewed from above; famously associated with {青木ヶ原|あおきがはら}",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19969_mitsurin",
+      "reading": "みつりん",
+      "headword": "{密林|みつりん}",
+      "label": "jungle, dense forest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09965_genseirin",
+      "reading": "げんせいりん",
+      "headword": "{原生林|げんせいりん}",
+      "label": "primeval forest, virgin forest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20810_jukai",
+      "reading": "じゅかい",
+      "headword": "{樹海|じゅかい}",
+      "label": "sea of trees"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +83,6 @@
       "domain": []
     },
     "created": "2026-05-04T16:23:18Z",
-    "modified": "2026-05-04T16:23:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

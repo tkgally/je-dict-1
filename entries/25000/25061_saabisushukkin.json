@@ -3,7 +3,7 @@
   "headword": "サービス{出勤|しゅっきん}",
   "reading": "さーびすしゅっきん",
   "romaji": "saabisushukkin",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "working without pay; unpaid attendance at work; coming to work on a day off without compensation",
   "definitions": [
     {
@@ -43,8 +43,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of サービス (here meaning \"free of charge\" or \"complimentary\") + {出勤|しゅっきん} (going to work). Part of a family of サービス + work terms that describe unpaid labor.\n\nRELATED TERMS:\n- サービス{残業|ざんぎょう}: unpaid overtime — working extra hours without overtime pay (the more widely known term)\n- サービス{出勤|しゅっきん}: specifically refers to coming in to work on a day off without compensation\n\nCOMMON COLLOCATIONS:\n- サービス{出勤|しゅっきん}を{強|し}いる: to force unpaid work attendance\n- サービス{出勤|しゅっきん}を{断|ことわ}る: to refuse to work without pay\n- サービス{出勤|しゅっきん}が{常態化|じょうたいか}する: unpaid work attendance becomes the norm\n\nCULTURAL NOTE:\nサービス{出勤|しゅっきん} and サービス{残業|ざんぎょう} reflect deep-rooted issues in Japanese work culture. While legally prohibited, social pressure and workplace norms historically made it difficult for employees to refuse. Government reforms and changing attitudes have brought increased scrutiny to these practices.\n\nSIMILAR WORDS:\n- サービス{残業|ざんぎょう}: unpaid overtime — the more commonly discussed practice\n- {休日出勤|きゅうじつしゅっきん}: working on a day off — neutral term that may or may not be compensated\n- ブラック{企業|きぎょう}: exploitative company — a company known for such practices",
+  "notes": "A compound of サービス (here meaning \"free of charge\" or \"complimentary\") + {出勤|しゅっきん} (going to work). Part of a family of サービス + work terms that describe unpaid labor.\n\nRELATED WORDS:\n- サービス{残業|ざんぎょう}: unpaid overtime — working extra hours without overtime pay (the more widely known term)\n- サービス{出勤|しゅっきん}: specifically refers to coming in to work on a day off without compensation\n\nCOMMON COLLOCATIONS:\n- サービス{出勤|しゅっきん}を{強|し}いる: to force unpaid work attendance\n- サービス{出勤|しゅっきん}を{断|ことわ}る: to refuse to work without pay\n- サービス{出勤|しゅっきん}が{常態化|じょうたいか}する: unpaid work attendance becomes the norm\n\nCULTURAL NOTE:\nサービス{出勤|しゅっきん} and サービス{残業|ざんぎょう} reflect deep-rooted issues in Japanese work culture. While legally prohibited, social pressure and workplace norms historically made it difficult for employees to refuse. Government reforms and changing attitudes have brought increased scrutiny to these practices.\n\nSIMILAR WORDS:\n- サービス{残業|ざんぎょう}: unpaid overtime — the more commonly discussed practice\n- {休日出勤|きゅうじつしゅっきん}: working on a day off — neutral term that may or may not be compensated\n- ブラック{企業|きぎょう}: exploitative company — a company known for such practices",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08477_saabisuzangyou",
+      "reading": "さーびすざんぎょう",
+      "headword": "サービス{残業|ざんぎょう}",
+      "label": "unpaid overtime"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23311_burakkukigyou",
+      "reading": "ぶらっくきぎょう",
+      "headword": "ブラック{企業|きぎょう}",
+      "label": "exploitative company"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -52,13 +68,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-22T12:46:25Z",
-    "modified": "2026-04-22T12:46:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

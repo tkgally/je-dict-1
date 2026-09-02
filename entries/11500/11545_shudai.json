@@ -18,7 +18,9 @@
       "english": "I decided on the topic of my thesis.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11545_shudai_ex2",
@@ -26,7 +28,9 @@
       "english": "The theme of this movie is family bonds.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11545_shudai_ex3",
@@ -34,22 +38,72 @@
       "english": "Please keep your remarks on the subject of the meeting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{主題|しゅだい} refers to the central subject or theme of a work, discussion, or research. It is more formal and literary than テーマ.\n\nCOMMON COLLOCATIONS:\n- {主題|しゅだい}{歌|か}: theme song\n- {主題|しゅだい}{曲|きょく}: theme music\n- {主題|しゅだい}を{決|き}める: to decide on a theme\n- {主題|しゅだい}から{外|はず}れる: to stray from the topic\n\nSIMILAR WORDS:\n- テーマ: theme (loanword, used in everyday conversation)\n- {題名|だいめい}: title (of a book, movie, etc.)\n- {話題|わだい}: topic of conversation (more casual)\n- {議題|ぎだい}: agenda item (for meetings)\n\nUSAGE:\nIn everyday speech, テーマ is far more common. {主題|しゅだい} appears in academic writing, literary criticism, and formal discussions. The compound {主題|しゅだい}{歌|か}/{主題|しゅだい}{曲|きょく} (theme song/music) is the most familiar use for most speakers.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17684_teema",
+      "reading": "てーま",
+      "headword": "テーマ",
+      "label": "theme"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03421_daimei",
+      "reading": "だいめい",
+      "headword": "{題名|だいめい}",
+      "label": "title"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03793_wadai",
+      "reading": "わだい",
+      "headword": "{話題|わだい}",
+      "label": "topic of conversation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11330_gidai",
+      "reading": "ぎだい",
+      "headword": "{議題|ぎだい}",
+      "label": "agenda item"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15376_gadai",
+      "reading": "がだい",
+      "headword": "{画題|がだい}",
+      "label": "subject of a painting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21085_honsuji",
+      "reading": "ほんすじ",
+      "headword": "{本筋|ほんすじ}",
+      "label": "main plot"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T13:11:50Z",
-    "modified": "2026-04-05T00:56:46Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication", "education"]
+      "semantic": [
+        "communication",
+        "education"
+      ]
     }
   }
 }

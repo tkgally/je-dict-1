@@ -3,7 +3,7 @@
   "headword": "{無断欠席|むだんけっせき}",
   "reading": "むだんけっせき",
   "romaji": "mudankesseki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "unexcused absence",
   "definitions": [
     {
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {無断|むだん} (without permission) and {欠席|けっせき} (absence). Used in both school and work contexts. In Japanese culture, where group coordination is highly valued, {無断欠席|むだんけっせき} is considered particularly disrespectful.\n\nCOMMON COLLOCATIONS:\n- {無断欠席|むだんけっせき}する: to be absent without notice\n- {無断欠席|むだんけっせき}が{続|つづ}く: unexcused absences continue\n- {無断欠席|むだんけっせき}{扱|あつか}い: treated as an unexcused absence\n\nRELATED TERMS:\n- {無断欠勤|むだんけっきん}: absence from work without notice — specifically for employment\n- {欠席届|けっせきとどけ}: absence notification form — what you submit to avoid being marked as {無断欠席|むだんけっせき}\n- {無断|むだん}: without permission — also used in {無断|むだん}で (without asking)",
+  "notes": "A compound of {無断|むだん} (without permission) and {欠席|けっせき} (absence). Used in both school and work contexts. In Japanese culture, where group coordination is highly valued, {無断欠席|むだんけっせき} is considered particularly disrespectful.\n\nCOMMON COLLOCATIONS:\n- {無断欠席|むだんけっせき}する: to be absent without notice\n- {無断欠席|むだんけっせき}が{続|つづ}く: unexcused absences continue\n- {無断欠席|むだんけっせき}{扱|あつか}い: treated as an unexcused absence\n\nRELATED WORDS:\n- {無断欠勤|むだんけっきん}: absence from work without notice — specifically for employment\n- {欠席届|けっせきとどけ}: absence notification form — what you submit to avoid being marked as {無断欠席|むだんけっせき}\n- {無断|むだん}: without permission — also used in {無断|むだん}で (without asking)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17134_mudankekkin",
+      "reading": "むだんけっきん",
+      "headword": "{無断欠勤|むだんけっきん}",
+      "label": "absence from work without notice"
+    },
+    {
+      "type": "related",
+      "target_id": "08080_kessekitodoke",
+      "reading": "けっせきとどけ",
+      "headword": "{欠席届|けっせきとどけ}",
+      "label": "absence notification form"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-01T16:09:57Z",
-    "modified": "2026-04-01T16:09:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

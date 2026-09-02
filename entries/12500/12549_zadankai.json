@@ -19,7 +19,9 @@
       "english": "Hold a round-table discussion.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12549_zadankai_ex2",
@@ -27,7 +29,9 @@
       "english": "An article in round-table discussion format was published in the magazine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12549_zadankai_ex3",
@@ -35,21 +39,49 @@
       "english": "At a round-table discussion with invited experts, a lively exchange of opinions on regional revitalization took place.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA common format in Japanese media, especially magazines and online publications, where several people (often experts or public figures) discuss a topic in a conversational, less formal tone than a symposium or academic panel. The results are often published as transcribed conversations.\n\nCOMMON COLLOCATIONS:\n- {座談会|ざだんかい}を{開|ひら}く: to hold a round-table discussion\n- {座談会|ざだんかい}{形式|けいしき}: round-table format\n- {座談会|ざだんかい}に{参加|さんか}する: to participate in a round-table discussion\n- {座談会|ざだんかい}{記事|きじ}: round-table discussion article",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19693_kondankai",
+      "reading": "こんだんかい",
+      "headword": "{懇談会|こんだんかい}",
+      "label": "informal meeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22024_teidan",
+      "reading": "ていだん",
+      "headword": "{鼎談|ていだん}",
+      "label": "three-person discussion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25422_touronkai",
+      "reading": "とうろんかい",
+      "headword": "{討論会|とうろんかい}",
+      "label": "debate"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T12:05:57Z",
-    "modified": "2026-02-21T12:05:57Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication-discussion"]
+      "semantic": [
+        "communication-discussion"
+      ]
     }
   }
 }

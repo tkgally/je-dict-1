@@ -3,7 +3,7 @@
   "headword": "つまみ{食|ぐ}い",
   "reading": "つまみぐい",
   "romaji": "tsumamigui",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sneaking a taste; nibbling; sampling",
   "definitions": [
     {
@@ -81,6 +81,29 @@
   ],
   "notes": "From つまむ (to pinch/pick) + {食|く}い (eating). The image is of pinching small pieces of food and popping them in your mouth. Can be used with する as a suru-verb. The literal sense is playful and relatable, while the figurative sense carries a mildly critical tone about lacking depth or commitment.\n\nCOMMON COLLOCATIONS:\n- つまみ{食|ぐ}いする: to sneak a taste; to nibble\n- つまみ{食|ぐ}いがばれる: to get caught sneaking food\n- {知識|ちしき}のつまみ{食|ぐ}い: superficial sampling of knowledge\n- つまみ{食|ぐ}い{程度|ていど}: only dabbling level\n\nSIMILAR WORDS:\n- {味見|あじみ}: tasting; sampling — done openly and with purpose (e.g., a cook tasting a dish); no sneaking implied\n- {試食|ししょく}: food sampling — formally offered samples at a store\n- {盗|ぬす}み{食|ぐ}い: stealing food — more serious than つまみ{食|ぐ}い",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08158_ajimi",
+      "reading": "あじみ",
+      "headword": "{味見|あじみ}",
+      "label": "tasting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03060_shishoku",
+      "reading": "ししょく",
+      "headword": "{試食|ししょく}",
+      "label": "food sampling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16976_kaigui",
+      "reading": "かいぐい",
+      "headword": "{買|か}い{食|ぐ}い",
+      "label": "buying and eating food on the go"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -97,7 +120,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-07T16:21:00Z",
-    "modified": "2026-05-07T16:21:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

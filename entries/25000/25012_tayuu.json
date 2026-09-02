@@ -79,14 +79,38 @@
       "notes": null
     }
   ],
-  "notes": "An important term in Japanese cultural history with two distinct but related meanings. Both senses share the idea of being at the top of a hierarchy.\n\nAlso written as {大夫|たゆう}. The alternate reading だゆう exists but たゆう is standard.\n\nHISTORICAL CONTEXT:\nThe courtesan sense dates to the Edo period (1603-1868). {太夫|たゆう} were the elite of the pleasure quarters, particularly {吉原|よしわら} in Edo and {島原|しまばら} in Kyoto. Unlike lower-ranking courtesans, they could refuse clients and were celebrated for their cultural accomplishments. The {太夫|たゆう} rank gradually disappeared by the mid-Edo period as the {花魁|おいらん} system replaced it.\n\nThe performer sense remains alive in {文楽|ぶんらく} (bunraku puppet theater), where the {太夫|たゆう} is the chanter who narrates the entire story.\n\nSIMILAR WORDS:\n- {花魁|おいらん}: oiran — high-ranking courtesans who succeeded the {太夫|たゆう} system\n- {遊女|ゆうじょ}: courtesan; prostitute — the general term for women in the pleasure quarters\n- {語|かた}り{手|て}: narrator — a general term for a storyteller in any context",
+  "notes": "An important term in Japanese cultural history with two distinct but related meanings. Both senses share the idea of being at the top of a hierarchy.\n\nAlso written as {大夫|たゆう}. The alternate reading だゆう exists but たゆう is standard.\n\nETYMOLOGY:\nThe courtesan sense dates to the Edo period (1603-1868). {太夫|たゆう} were the elite of the pleasure quarters, particularly {吉原|よしわら} in Edo and {島原|しまばら} in Kyoto. Unlike lower-ranking courtesans, they could refuse clients and were celebrated for their cultural accomplishments. The {太夫|たゆう} rank gradually disappeared by the mid-Edo period as the {花魁|おいらん} system replaced it.\n\nThe performer sense remains alive in {文楽|ぶんらく} (bunraku puppet theater), where the {太夫|たゆう} is the chanter who narrates the entire story.\n\nSIMILAR WORDS:\n- {花魁|おいらん}: oiran — high-ranking courtesans who succeeded the {太夫|たゆう} system\n- {遊女|ゆうじょ}: courtesan; prostitute — the general term for women in the pleasure quarters\n- {語|かた}り{手|て}: narrator — a general term for a storyteller in any context",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15374_oiran",
+      "reading": "おいらん",
+      "headword": "{花魁|おいらん}",
+      "label": "oiran"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16645_yuujo",
+      "reading": "ゆうじょ",
+      "headword": "{遊女|ゆうじょ}",
+      "label": "courtesan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14271_katarite",
+      "reading": "かたりて",
+      "headword": "{語|かた}り{手|て}",
+      "label": "narrator"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "culture",
         "history",
@@ -94,6 +118,6 @@
       ]
     },
     "created": "2026-04-22T10:19:01Z",
-    "modified": "2026-06-15T07:59:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

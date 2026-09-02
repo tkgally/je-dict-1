@@ -3,7 +3,7 @@
   "id": "11104_haisui",
   "headword": "{排水|はいすい}",
   "reading": "はいすい",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "drainage, draining",
   "conjugation": {
     "type": "suru",
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{排水|はいすい} can refer to both the act of draining water and the drained water itself. It is used in everyday contexts (household plumbing) as well as environmental and industrial contexts.\n\nCOMMON COLLOCATIONS:\n- {排水|はいすい}{口|こう} (drain outlet, drain hole)\n- {排水|はいすい}{管|かん} (drainage pipe)\n- {排水|はいすい}{溝|こう} (drainage ditch/gutter)\n- {排水|はいすい}{処理|しょり} (wastewater treatment)\n- {排水|はいすい}{基準|きじゅん} (wastewater standards)\n\nRELATED TERMS:\n- {給水|きゅうすい} (water supply — the opposite process)\n- {下水|げすい} (sewage, sewerage)\n- {排水|はいすい}トラップ (drain trap — the U-shaped pipe under sinks)",
+  "notes": "USAGE:\n{排水|はいすい} can refer to both the act of draining water and the drained water itself. It is used in everyday contexts (household plumbing) as well as environmental and industrial contexts.\n\nCOMMON COLLOCATIONS:\n- {排水|はいすい}{口|こう} (drain outlet, drain hole)\n- {排水|はいすい}{管|かん} (drainage pipe)\n- {排水|はいすい}{溝|こう} (drainage ditch/gutter)\n- {排水|はいすい}{処理|しょり} (wastewater treatment)\n- {排水|はいすい}{基準|きじゅん} (wastewater standards)\n\nRELATED WORDS:\n- {給水|きゅうすい} (water supply — the opposite process)\n- {下水|げすい} (sewage, sewerage)\n- {排水|はいすい}トラップ (drain trap — the U-shaped pipe under sinks)",
   "cross_references": [
     {
       "type": "antonym",
@@ -156,11 +156,53 @@
       "reading": "はいすいこう",
       "headword": "{排水溝|はいすいこう}",
       "label": "drainage ditch"
+    },
+    {
+      "type": "related",
+      "target_id": "00069_gesui",
+      "reading": "げすい",
+      "headword": "{下水|げすい}",
+      "label": "sewage, sewerage"
+    },
+    {
+      "type": "related",
+      "target_id": "06429_kangai",
+      "reading": "かんがい",
+      "headword": "{灌漑|かんがい}",
+      "label": "irrigation"
+    },
+    {
+      "type": "related",
+      "target_id": "07145_amadoi",
+      "reading": "あまどい",
+      "headword": "{雨樋|あまどい}",
+      "label": "rain gutter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24011_sousui",
+      "reading": "そうすい",
+      "headword": "{送水|そうすい}",
+      "label": "water supply"
+    },
+    {
+      "type": "homophone",
+      "target_id": "24433_haisui",
+      "reading": "はいすい",
+      "headword": "{配水|はいすい}",
+      "label": "water distribution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24925_chuusui",
+      "reading": "ちゅうすい",
+      "headword": "{注水|ちゅうすい}",
+      "label": "water injection"
     }
   ],
   "metadata": {
     "created": "2026-02-13T12:41:35Z",
-    "modified": "2026-05-03T07:09:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{列車|れっしゃ} is a formal or official term for a train, encompassing all types (electric, diesel, steam). Used in announcements, news, and written contexts.\n\nCOMPOUND: ⟦{列|れつ}→列：02171_retsu⟧ (row, line) + ⟦{車|しゃ}→車：09874_sha⟧ (vehicle)\n\nCOMMON COMPOUNDS:\n- ⟦{特急|とっきゅう}→特急：01476_tokkyuu⟧{列車|れっしゃ}: express train\n- ⟦{夜行|やこう}→夜行：04078_yakou⟧{列車|れっしゃ}: night train\n- ⟦{貨物|かもつ}→貨物：00165_kamotsu⟧{列車|れっしゃ}: freight train\n- ⟦{回送|かいそう}→回送：noentry⟧{列車|れっしゃ}: out-of-service train\n\nSIMILAR WORDS:\n- ⟦{電車|でんしゃ}→電車：00522_densha⟧: electric train (everyday term, most common in conversation)\n- {列車|れっしゃ}: train (formal, covers all types including non-electric)\n- ⟦{汽車|きしゃ}→汽車：01381_kisha⟧: steam train (older term; in some rural areas, used casually for any train)\n\nCOUNTER: ⟦{本|ほん}→〜本：00688_hon⟧ (⟦{一本|いっぽん}→一本：08888_ippon⟧、{二本|にほん}…)",
+  "notes": "{列車|れっしゃ} is a formal or official term for a train, encompassing all types (electric, diesel, steam). Used in announcements, news, and written contexts.\n\nCOMPOUND: ⟦{列|れつ}→列：02171_retsu⟧ (row, line) + ⟦{車|しゃ}→車：09874_sha⟧ (vehicle)\n\nCOMPOUNDS:\n- ⟦{特急|とっきゅう}→特急：01476_tokkyuu⟧{列車|れっしゃ}: express train\n- ⟦{夜行|やこう}→夜行：04078_yakou⟧{列車|れっしゃ}: night train\n- ⟦{貨物|かもつ}→貨物：00165_kamotsu⟧{列車|れっしゃ}: freight train\n- ⟦{回送|かいそう}→回送：noentry⟧{列車|れっしゃ}: out-of-service train\n\nSIMILAR WORDS:\n- ⟦{電車|でんしゃ}→電車：00522_densha⟧: electric train (everyday term, most common in conversation)\n- {列車|れっしゃ}: train (formal, covers all types including non-electric)\n- ⟦{汽車|きしゃ}→汽車：01381_kisha⟧: steam train (older term; in some rural areas, used casually for any train)\n\nCOUNTER: ⟦{本|ほん}→〜本：00688_hon⟧ (⟦{一本|いっぽん}→一本：08888_ippon⟧、{二本|にほん}…)",
   "cross_references": [
     {
       "type": "synonym",
@@ -71,11 +71,25 @@
       "reading": "でんしゃ",
       "headword": "{電車|でんしゃ}",
       "label": "train (common)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01381_kisha",
+      "reading": "きしゃ",
+      "headword": "{汽車|きしゃ}",
+      "label": "steam train (older term"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25424_kikansha",
+      "reading": "きかんしゃ",
+      "headword": "{機関車|きかんしゃ}",
+      "label": "locomotive"
     }
   ],
   "metadata": {
     "created": "2026-01-09T11:57:15Z",
-    "modified": "2026-05-16T15:22:21Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

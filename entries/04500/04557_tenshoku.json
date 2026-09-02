@@ -2,7 +2,7 @@
   "id": "04557_tenshoku",
   "headword": "{転職|てんしょく}",
   "reading": "てんしょく",
-  "part_of_speech": "noun/suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "changing jobs",
   "conjugation": {
     "type": "suru",
@@ -175,11 +175,39 @@
       "reading": "たいしょく",
       "headword": "{退職|たいしょく}",
       "label": "leaving a job, resignation"
+    },
+    {
+      "type": "related",
+      "target_id": "04690_kyuujin",
+      "reading": "きゅうじん",
+      "headword": "{求人|きゅうじん}",
+      "label": "job offer"
+    },
+    {
+      "type": "related",
+      "target_id": "24511_shuushinkoyousei",
+      "reading": "しゅうしんこようせい",
+      "headword": "{終身雇用制|しゅうしんこようせい}",
+      "label": "lifetime employment system"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25035_shinrohenkou",
+      "reading": "しんろへんこう",
+      "headword": "{進路変更|しんろへんこう}",
+      "label": "change of course"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25409_nyuushasuru",
+      "reading": "にゅうしゃする",
+      "headword": "{入社|にゅうしゃ}する",
+      "label": "to join a company"
     }
   ],
   "metadata": {
     "created": "2026-01-14T19:02:47Z",
-    "modified": "2026-08-11T15:25:11Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "core",
     "tags": {

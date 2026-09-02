@@ -17,7 +17,9 @@
       "id": "26724_suusatsu_ex1",
       "japanese": "{図書館|としょかん}で{数冊|すうさつ}{借|か}りてきた。",
       "english": "I borrowed several books from the library.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26724_suusatsu_ex2",
       "japanese": "{机|つくえ}の{上|うえ}に{参考書|さんこうしょ}が{数冊|すうさつ}{積|つ}まれていた。",
       "english": "Several reference books were piled on the desk.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,58 @@
       "id": "26724_suusatsu_ex3",
       "japanese": "{旅行|りょこう}に{行|い}く{前|まえ}に、ガイドブックを{数冊|すうさつ}{読|よ}んで{下調|したしら}べをした。",
       "english": "Before going on the trip, I read several guidebooks to do some research.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {数|すう} (several/a few) and {冊|さつ} (counter for books/volumes). The prefix {数|すう}〜 combines with many counters to express a small indefinite quantity: {数人|すうにん} (several people), {数回|すうかい} (several times), {数日|すうじつ} (several days), etc.\n\nCOMMON COLLOCATIONS:\n- {数冊|すうさつ}の{本|ほん}: several books\n- {数冊|すうさつ}{持|も}っている: to have several books\n- {数冊|すうさつ}{購入|こうにゅう}する: to purchase several books\n\nRELATED EXPRESSIONS WITH {数|すう}〜:\n- {数人|すうにん}: several people\n- {数回|すうかい}: several times\n- {数日|すうじつ}: several days\n- {数台|すうだい}: several machines/vehicles",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18787_suunin",
+      "reading": "すうにん",
+      "headword": "{数人|すうにん}",
+      "label": "several people"
+    },
+    {
+      "type": "related",
+      "target_id": "29820_suukai",
+      "reading": "すうかい",
+      "headword": "{数回|すうかい}",
+      "label": "several times"
+    },
+    {
+      "type": "related",
+      "target_id": "20517_suujitsu",
+      "reading": "すうじつ",
+      "headword": "{数日|すうじつ}",
+      "label": "several days"
+    },
+    {
+      "type": "related",
+      "target_id": "29815_suudai",
+      "reading": "すうだい",
+      "headword": "{数台|すうだい}",
+      "label": "several machines/vehicles"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["quantity"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "quantity"
+      ]
     },
     "created": "2026-05-04T14:18:35Z",
-    "modified": "2026-05-04T14:18:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

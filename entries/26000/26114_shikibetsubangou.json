@@ -17,7 +17,9 @@
       "id": "26114_shikibetsubangou_ex1",
       "japanese": "{識別|しきべつ}{番号|ばんごう}を{確認|かくにん}する。",
       "english": "To verify the identification number.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26114_shikibetsubangou_ex2",
       "japanese": "{製品|せいひん}にはそれぞれ{固有|こゆう}の{識別|しきべつ}{番号|ばんごう}が{付|つ}けられている。",
       "english": "Each product is assigned a unique identification number.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,37 @@
       "id": "26114_shikibetsubangou_ex3",
       "japanese": "マイナンバーは{日本|にほん}の{個人|こじん}{識別|しきべつ}{番号|ばんごう}{制度|せいど}である。",
       "english": "My Number is Japan's individual identification number system.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {識別|しきべつ} (identification; distinction) and {番号|ばんごう} (number). A general term for any number used to uniquely identify something. Used across administrative, commercial, and technical contexts.\n\nCOMMON COLLOCATIONS:\n- {個人|こじん}{識別|しきべつ}{番号|ばんごう}: personal identification number\n- {識別|しきべつ}{番号|ばんごう}を{付与|ふよ}する: to assign an identification number\n- {識別|しきべつ}{番号|ばんごう}で{管理|かんり}する: to manage by identification number\n- {固有|こゆう}の{識別|しきべつ}{番号|ばんごう}: unique identification number\n\nSIMILAR WORDS:\n- {登録|とうろく}{番号|ばんごう}: registration number — specifically a number given upon registration\n- ID{番号|ばんごう}: ID number — casual, commonly used with the English abbreviation\n- マイナンバー: My Number — Japan's specific national ID number system",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26108_tourokubangou",
+      "reading": "とうろくばんごう",
+      "headword": "{登録|とうろく}{番号|ばんごう}",
+      "label": "registration number"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["politics", "technology"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "politics",
+        "technology"
+      ]
     },
     "created": "2026-04-29T13:40:07Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{覗|のぞ}き{見|み}",
   "reading": "のぞきみ",
   "romaji": "nozokimi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "peeking; peeping; spying",
   "definitions": [
     {
@@ -51,6 +51,27 @@
       "target_id": "26023_nusumimi",
       "reading": "ぬすみみ",
       "label": "emphasizes stealth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02388_nozoku",
+      "reading": "のぞく",
+      "headword": "{覗|のぞ}く",
+      "label": "to peek"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20492_tousatsu",
+      "reading": "とうさつ",
+      "headword": "{盗撮|とうさつ}",
+      "label": "hidden camera filming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28038_sesshi",
+      "reading": "せっし",
+      "headword": "窃視",
+      "label": "voyeurism"
     }
   ],
   "schema_version": "2.0",
@@ -61,13 +82,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-28T16:15:19Z",
-    "modified": "2026-04-28T16:15:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

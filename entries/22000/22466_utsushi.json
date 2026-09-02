@@ -17,7 +17,9 @@
       "id": "22466_utsushi_ex1",
       "japanese": "{書類|しょるい}の{写|うつ}しを{取|と}る。",
       "english": "To make a copy of a document.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22466_utsushi_ex2",
       "japanese": "{戸籍|こせき}の{写|うつ}しを{役所|やくしょ}で{取得|しゅとく}した。",
       "english": "I obtained a copy of the family register at the municipal office.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "22466_utsushi_ex3",
       "japanese": "この{手紙|てがみ}の{写|うつ}しは{何通|なんつう}か{残|のこ}っており、{研究者|けんきゅうしゃ}によって{分析|ぶんせき}されている。",
       "english": "Several copies of this letter survive and are being analyzed by researchers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The noun form of the verb {写|うつ}す (to copy). Refers to a copy or reproduction of a document, text, or other original. Common in administrative and historical contexts.\n\nCOMMON COLLOCATIONS:\n- {写|うつ}しを{取|と}る: to make a copy\n- {戸籍|こせき}の{写|うつ}し: copy of a family register\n- {原本|げんぽん}と{写|うつ}し: original and copy\n- {写|うつ}しを{保管|ほかん}する: to keep a copy\n\nSIMILAR WORDS:\n- コピー: copy — the modern loanword, more casual and widely used in everyday contexts\n- {複写|ふくしゃ}: reproduction, photocopy — a more formal term, often for mechanical reproduction\n- {副本|ふくほん}: duplicate, carbon copy — used in legal and official contexts for official copies of documents\n- {原本|げんぽん}: original — the opposite of a copy; the source document",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04883_kopii",
+      "reading": "こぴー",
+      "headword": "コピー",
+      "label": "copy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19000_fukusha",
+      "reading": "ふくしゃ",
+      "headword": "{複写|ふくしゃ}",
+      "label": "reproduction, photocopy"
+    },
+    {
+      "type": "antonym",
+      "target_id": "15697_genpon",
+      "reading": "げんぽん",
+      "headword": "{原本|げんぽん}",
+      "label": "original"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29796_touhon",
+      "reading": "とうほん",
+      "headword": "{謄本|とうほん}",
+      "label": "certified copy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life"]
+      "semantic": [
+        "daily-life"
+      ]
     },
     "created": "2026-04-06T12:18:04Z",
-    "modified": "2026-04-06T12:18:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

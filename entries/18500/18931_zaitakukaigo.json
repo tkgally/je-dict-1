@@ -17,7 +17,9 @@
       "id": "18931_zaitakukaigo_ex1",
       "japanese": "{在宅介護|ざいたくかいご}を{選|えら}ぶ{家族|かぞく}が{増|ふ}えている。",
       "english": "More families are choosing home-based care.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18931_zaitakukaigo_ex2",
       "japanese": "{在宅介護|ざいたくかいご}は{家族|かぞく}の{負担|ふたん}が{大|おお}きい。",
       "english": "Home-based care places a heavy burden on the family.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "18931_zaitakukaigo_ex3",
       "japanese": "{在宅介護|ざいたくかいご}サービスを{利用|りよう}して、{母|はは}を{自宅|じたく}で{看|み}ている。",
       "english": "I'm looking after my mother at home using home care services.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {在宅|ざいたく} (at home) + {介護|かいご} (nursing care). A key term in Japan's {高齢化社会|こうれいかしゃかい} (aging society) discussions. Common related terms: {在宅介護|ざいたくかいご}サービス (home care services), {訪問介護|ほうもんかいご} (visiting care), {介護保険|かいごほけん} (long-term care insurance). Contrasts with {施設介護|しせつかいご} (institutional/facility care). The {介護保険|かいごほけん} system provides support for both types.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23886_zaitakuiryou",
+      "reading": "ざいたくいりょう",
+      "headword": "{在宅医療|ざいたくいりょう}",
+      "label": "home healthcare, home medical care"
+    },
+    {
+      "type": "related",
+      "target_id": "24515_houmonkaigo",
+      "reading": "ほうもんかいご",
+      "headword": "{訪問介護|ほうもんかいご}",
+      "label": "home care"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-03-23T09:31:50Z",
-    "modified": "2026-03-23T09:31:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

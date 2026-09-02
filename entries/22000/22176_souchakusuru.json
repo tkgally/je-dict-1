@@ -3,7 +3,7 @@
   "headword": "{装着|そうちゃく}する",
   "reading": "そうちゃくする",
   "romaji": "souchakusuru",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to equip; to attach; to put on (equipment, device)",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Used for functional equipment and devices, not for regular clothing. Implies a deliberate, often technical act of attaching or equipping.\n\nCOMMON COLLOCATIONS:\n- ヘルメットを{装着|そうちゃく}する — to put on a helmet\n- マスクを{装着|そうちゃく}する — to put on a mask\n- {部品|ぶひん}を{装着|そうちゃく}する — to attach a part\n- {装着|そうちゃく}{方法|ほうほう} — how to attach/equip\n- {装着|そうちゃく}{済|ず}み — already equipped/installed\n\nSIMILAR WORDS:\n- {着|つ}ける — to put on, attach (general); the everyday equivalent\n- {取|と}り{付|つ}ける — to install, mount; focuses on physical attachment of hardware\n- {身|み}に{着|つ}ける — to wear, to put on (clothing or accessories)\n- {着用|ちゃくよう}する — to wear (formal); used for clothing, uniforms, protective gear",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06797_toritsukeru",
+      "reading": "とりつける",
+      "headword": "{取|と}り{付|つ}ける",
+      "label": "to install, mount"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26849_chakuyousuru",
+      "reading": "ちゃくようする",
+      "headword": "{着用|ちゃくよう}する",
+      "label": "to wear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27008_chakudatsusuru",
+      "reading": "ちゃくだつする",
+      "headword": "{着脱|ちゃくだつ}する",
+      "label": "to put on and take off"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T04:27:38Z",
-    "modified": "2026-04-05T04:27:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

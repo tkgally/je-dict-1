@@ -2,7 +2,7 @@
   "id": "05463_yousei",
   "headword": "{要請|ようせい}",
   "reading": "ようせい",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "request; demand; appeal",
   "conjugation": {
     "type": "suru",
@@ -175,11 +175,32 @@
       "reading": "おねがい",
       "headword": "お{願|ねが}い",
       "label": "request (polite, everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03374_seikyuu",
+      "reading": "せいきゅう",
+      "headword": "{請求|せいきゅう}",
+      "label": "claim, demand, request, billing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11855_yobikake",
+      "reading": "よびかけ",
+      "headword": "{呼|よ}びかけ",
+      "label": "call, appeal, address"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21376_irai",
+      "reading": "いらい",
+      "headword": "{依頼|いらい}する",
+      "label": "to request"
     }
   ],
   "metadata": {
     "created": "2026-01-16T07:40:15Z",
-    "modified": "2026-08-03T15:18:36Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

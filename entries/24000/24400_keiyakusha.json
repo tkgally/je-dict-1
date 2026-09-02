@@ -17,7 +17,9 @@
       "id": "24400_keiyakusha_ex1",
       "japanese": "{契約者|けいやくしゃ}{本人|ほんにん}のみ{利用|りよう}{可能|かのう}です。",
       "english": "Only the subscriber themselves may use this service.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24400_keiyakusha_ex2",
       "japanese": "{保険|ほけん}の{契約者|けいやくしゃ}を{変更|へんこう}する。",
       "english": "To change the policyholder of the insurance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "24400_keiyakusha_ex3",
       "japanese": "{携帯|けいたい}{電話|でんわ}の{契約者|けいやくしゃ}{情報|じょうほう}を{確認|かくにん}してください。",
       "english": "Please verify the mobile phone subscriber information.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,59 @@
       "id": "24400_keiyakusha_ex4",
       "japanese": "{契約者|けいやくしゃ}が{死亡|しぼう}した{場合|ばあい}、{受取人|うけとりにん}に{保険金|ほけんきん}が{支払|しはら}われる。",
       "english": "In the event of the policyholder's death, the insurance benefit is paid to the beneficiary.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A formal term used in legal, insurance, telecommunications, and service contexts. Anyone dealing with Japanese bureaucracy, insurance, or phone contracts will encounter this word.\n\nCOMMON COLLOCATIONS:\n- {契約者|けいやくしゃ}{本人|ほんにん}: the subscriber/policyholder themselves\n- {契約者|けいやくしゃ}{情報|じょうほう}: subscriber/contract holder information\n- {契約者|けいやくしゃ}{変更|へんこう}: change of contract holder\n- {保険|ほけん}{契約者|けいやくしゃ}: insurance policyholder\n- {契約者|けいやくしゃ}{番号|ばんごう}: subscriber number\n\nSIMILAR WORDS:\n- {加入者|かにゅうしゃ}: member, subscriber — used for membership-based services and organizations\n- {被保険者|ひほけんしゃ}: insured person — the person covered by insurance (may differ from the policyholder)\n- {利用者|りようしゃ}: user — the person actually using the service\n- {当事者|とうじしゃ}: party (to an agreement) — broader legal term for involved parties\n\nFORMATION:\n{契約|けいやく} (contract) + {者|しゃ} (person) — literally \"contract person.\"",
+  "notes": "A formal term used in legal, insurance, telecommunications, and service contexts. Anyone dealing with Japanese bureaucracy, insurance, or phone contracts will encounter this word.\n\nCOMMON COLLOCATIONS:\n- {契約者|けいやくしゃ}{本人|ほんにん}: the subscriber/policyholder themselves\n- {契約者|けいやくしゃ}{情報|じょうほう}: subscriber/contract holder information\n- {契約者|けいやくしゃ}{変更|へんこう}: change of contract holder\n- {保険|ほけん}{契約者|けいやくしゃ}: insurance policyholder\n- {契約者|けいやくしゃ}{番号|ばんごう}: subscriber number\n\nSIMILAR WORDS:\n- {加入者|かにゅうしゃ}: member, subscriber — used for membership-based services and organizations\n- {被保険者|ひほけんしゃ}: insured person — the person covered by insurance (may differ from the policyholder)\n- {利用者|りようしゃ}: user — the person actually using the service\n- {当事者|とうじしゃ}: party (to an agreement) — broader legal term for involved parties\n\nFORMS:\n{契約|けいやく} (contract) + {者|しゃ} (person) — literally \"contract person.\"",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22913_kanyuusha",
+      "reading": "かにゅうしゃ",
+      "headword": "{加入者|かにゅうしゃ}",
+      "label": "member, subscriber"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23617_hihokensha",
+      "reading": "ひほけんしゃ",
+      "headword": "{被保険者|ひほけんしゃ}",
+      "label": "insured person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03189_riyousha",
+      "reading": "りようしゃ",
+      "headword": "{利用者|りようしゃ}",
+      "label": "user"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12504_toujisha",
+      "reading": "とうじしゃ",
+      "headword": "{当事者|とうじしゃ}",
+      "label": "party"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business", "law"]
+      "semantic": [
+        "business",
+        "law"
+      ]
     },
     "created": "2026-04-18T16:34:29Z",
-    "modified": "2026-04-18T16:34:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

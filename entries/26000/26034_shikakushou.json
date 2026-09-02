@@ -17,7 +17,9 @@
       "id": "26034_shikakushou_ex1",
       "japanese": "{資格証|しかくしょう}を{取得|しゅとく}した。",
       "english": "I obtained a qualification certificate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26034_shikakushou_ex2",
       "japanese": "{面接|めんせつ}に{資格証|しかくしょう}のコピーを{持参|じさん}してください。",
       "english": "Please bring a copy of your qualification certificate to the interview.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,44 @@
       "id": "26034_shikakushou_ex3",
       "japanese": "{資格証|しかくしょう}の{有効期限|ゆうこうきげん}が{切|き}れていたので{更新|こうしん}した。",
       "english": "My certification had expired, so I renewed it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {資格|しかく} (qualification) + {証|しょう} (proof; certificate). A practical administrative word used in job hunting, professional licensing, and official paperwork. The longer form {資格証明書|しかくしょうめいしょ} is the full formal version.\n\nCOMMON COLLOCATIONS:\n- {資格証|しかくしょう}を{取得|しゅとく}する: to obtain a certification\n- {資格証|しかくしょう}の{更新|こうしん}: renewal of certification\n- {資格証|しかくしょう}の{提示|ていじ}: presentation of credentials\n- {資格証|しかくしょう}のコピー: a copy of one's certificate\n\nSIMILAR WORDS:\n- {免許証|めんきょしょう}: license — specifically for driving, medical practice, and other licensed professions\n- {修了証|しゅうりょうしょう}: certificate of completion — proves completion of a course or program\n- {合格証|ごうかくしょう}: passing certificate — proves that an examination was passed",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03160_menkyoshou",
+      "reading": "めんきょしょう",
+      "headword": "{免許証|めんきょしょう}",
+      "label": "license"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26172_goukakushou",
+      "reading": "ごうかくしょう",
+      "headword": "{合格証|ごうかくしょう}",
+      "label": "passing certificate"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["work", "communication"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "work",
+        "communication"
+      ]
     },
     "created": "2026-04-28T16:18:38Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

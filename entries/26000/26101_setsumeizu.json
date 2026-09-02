@@ -17,7 +17,9 @@
       "id": "26101_setsumeizu_ex1",
       "japanese": "{説明図|せつめいず}を{見|み}てください。",
       "english": "Please look at the explanatory diagram.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26101_setsumeizu_ex2",
       "japanese": "{取扱|とりあつかい}{説明書|せつめいしょ}に{説明図|せつめいず}が{載|の}っている。",
       "english": "There is an explanatory diagram in the instruction manual.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,51 @@
       "id": "26101_setsumeizu_ex3",
       "japanese": "{複雑|ふくざつ}な{仕組|しく}みを{説明図|せつめいず}を{使|つか}って{分|わ}かりやすく{解説|かいせつ}した。",
       "english": "A complex mechanism was explained clearly using an explanatory diagram.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {説明|せつめい} (explanation) and {図|ず} (diagram; figure). Used in technical writing, manuals, textbooks, and presentations to refer to visual aids that clarify information.\n\nCOMMON COLLOCATIONS:\n- {説明図|せつめいず}を{参照|さんしょう}する: to refer to the explanatory diagram\n- {説明図|せつめいず}を{作成|さくせい}する: to create an explanatory diagram\n- {説明図|せつめいず}{付|つ}き: with explanatory diagrams\n\nSIMILAR WORDS:\n- {図解|ずかい}: illustrated explanation — emphasizes the act of explaining through diagrams\n- {模式図|もしきず}: schematic diagram — a simplified, abstract representation\n- イラスト: illustration — broader term, includes decorative art as well as explanatory graphics",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18235_zukai",
+      "reading": "ずかい",
+      "headword": "{図解|ずかい}",
+      "label": "illustrated explanation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27660_moshikizu",
+      "reading": "もしきず",
+      "headword": "{模式図|もしきず}",
+      "label": "schematic diagram"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10717_irasuto",
+      "reading": "いらすと",
+      "headword": "イラスト",
+      "label": "illustration"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["communication"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-04-29T13:34:08Z",
-    "modified": "2026-04-29T13:34:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

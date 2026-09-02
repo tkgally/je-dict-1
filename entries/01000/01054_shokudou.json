@@ -128,11 +128,40 @@
       ]
     }
   ],
-  "notes": "{食堂|しょくどう} has two senses: a cafeteria/eatery (sense 1) and a dining room in a home (sense 2). The word combines {食|しょく} (eat) + {堂|どう} (hall).\n\nCOMMON COMPOUNDS (sense 1):\n- ⟦{学生|がくせい}→学生：00610_gakusei⟧{食堂|しょくどう}: student cafeteria (often shortened to ⟦{学食|がくしょく}→学食：12241_gakushoku⟧)\n- ⟦{社員|しゃいん}→社員：03065_shain⟧{食堂|しょくどう}: company cafeteria (⟦{社食|しゃしょく}→社食：27579_shashoku⟧)\n- ⟦{大衆|たいしゅう}→大衆：10150_taishuu⟧{食堂|しょくどう}: casual working-class eatery\n\nSENSE DISTINCTION:\n- As 'cafeteria/eatery': emphasizes affordable, simple meals in an institutional or no-frills setting\n- As 'dining room': the room in a house where meals are eaten (more formal than ⟦{台所|だいどころ}→台所：01021_daidokoro⟧ which is the kitchen)\n\nCONTRAST:\n- ⟦レストラン→レストラン：01048_resutoran⟧: restaurant (more upscale)\n- {食堂|しょくどう}: cafeteria or casual eatery (simpler, cheaper)",
-  "cross_references": [],
+  "notes": "{食堂|しょくどう} has two senses: a cafeteria/eatery (sense 1) and a dining room in a home (sense 2). The word combines {食|しょく} (eat) + {堂|どう} (hall).\n\nCOMMON COMPOUNDS (sense 1):\n- ⟦{学生|がくせい}→学生：00610_gakusei⟧{食堂|しょくどう}: student cafeteria (often shortened to ⟦{学食|がくしょく}→学食：12241_gakushoku⟧)\n- ⟦{社員|しゃいん}→社員：03065_shain⟧{食堂|しょくどう}: company cafeteria (⟦{社食|しゃしょく}→社食：27579_shashoku⟧)\n- ⟦{大衆|たいしゅう}→大衆：10150_taishuu⟧{食堂|しょくどう}: casual working-class eatery\n\nSENSE DISTINCTION:\n- As 'cafeteria/eatery': emphasizes affordable, simple meals in an institutional or no-frills setting\n- As 'dining room': the room in a house where meals are eaten (more formal than ⟦{台所|だいどころ}→台所：01021_daidokoro⟧ which is the kitchen)\n\nSIMILAR WORDS:\n- ⟦レストラン→レストラン：01048_resutoran⟧: restaurant (more upscale)\n- {食堂|しょくどう}: cafeteria or casual eatery (simpler, cheaper)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01048_resutoran",
+      "reading": "れすとらん",
+      "headword": "レストラン",
+      "label": "restaurant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25626_ryouriten",
+      "reading": "りょうりてん",
+      "headword": "{料理店|りょうりてん}",
+      "label": "restaurant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27551_ryouriya",
+      "reading": "りょうりや",
+      "headword": "{料理屋|りょうりや}",
+      "label": "Japanese restaurant (traditional)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27579_shashoku",
+      "reading": "しゃしょく",
+      "headword": "{社食|しゃしょく}",
+      "label": "company cafeteria"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:33:51Z",
-    "modified": "2026-08-09T12:26:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

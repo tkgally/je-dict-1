@@ -3,7 +3,7 @@
   "id": "14922_koseiteki",
   "headword": "{個性的|こせいてき}",
   "reading": "こせいてき",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "unique; distinctive; individualistic",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "That's a distinctive style of fashion.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14922_koseiteki_ex2",
@@ -27,7 +29,9 @@
       "english": "He has such a distinctive voice that you can recognize him right away.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14922_koseiteki_ex3",
@@ -35,21 +39,49 @@
       "english": "This gallery has many distinctive works, so it never gets boring to look at.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{個性的|こせいてき} is generally used as a compliment, praising uniqueness and originality. However, it can sometimes be used as a polite or indirect way to say something is unusual or eccentric, depending on tone and context.\n\nCOMMON COLLOCATIONS:\n- {個性的|こせいてき}なファッション (distinctive fashion)\n- {個性的|こせいてき}な{人|ひと} (unique person)\n- {個性的|こせいてき}な{作品|さくひん} (distinctive work)\n- {個性的|こせいてき}な{味|あじ} (unique flavor)\n- {個性的|こせいてき}な{店|みせ} (distinctive shop)\n\nSIMILAR WORDS:\n- {個性的|こせいてき}: distinctive, unique (emphasizes personal character)\n- ユニーク: unique (loanword, often means interesting or one-of-a-kind)\n- {独特|どくとく}: peculiar, distinctive (can be positive or neutral)\n- {変|か}わった: unusual, strange (more neutral or slightly negative)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11393_yuniiku",
+      "reading": "ゆにーく",
+      "headword": "ユニーク",
+      "label": "unique"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01656_dokutoku",
+      "reading": "どくとく",
+      "headword": "{独特|どくとく}",
+      "label": "peculiar, distinctive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20067_kawatta",
+      "reading": "かわった",
+      "headword": "{変|か}わった",
+      "label": "unusual, strange"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T05:58:28Z",
-    "modified": "2026-03-04T05:58:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

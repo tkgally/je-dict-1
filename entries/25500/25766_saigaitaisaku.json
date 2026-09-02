@@ -44,8 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {災害|さいがい} (disaster) and {対策|たいさく} (countermeasures). Covers a wide range of activities including evacuation planning, supply stockpiling, infrastructure reinforcement, and public awareness campaigns. Frequently seen in government communications and news reporting.\n\nCOMMON COLLOCATIONS:\n- {災害対策|さいがいたいさく}を{講|こう}じる: to implement disaster measures\n- {災害対策|さいがいたいさく}{本部|ほんぶ}: disaster response headquarters\n- {災害対策|さいがいたいさく}{基本法|きほんほう}: Basic Act on Disaster Countermeasures\n- {災害対策|さいがいたいさく}マニュアル: disaster preparedness manual\n- {災害対策|さいがいたいさく}を{強化|きょうか}する: to strengthen disaster measures\n\nCULTURAL NOTE:\nJapan experiences frequent earthquakes, typhoons, flooding, and volcanic activity. {災害対策|さいがいたいさく} is a core concept in Japanese public administration. Most municipalities maintain {災害対策|さいがいたいさく}{本部|ほんぶ} (disaster response headquarters) that are activated during emergencies.\n\nRELATED TERMS:\n- {防災|ぼうさい}: disaster prevention\n- {避難|ひなん}: evacuation\n- {備蓄|びちく}: stockpiling (emergency supplies)",
-  "cross_references": [],
+  "notes": "A compound of {災害|さいがい} (disaster) and {対策|たいさく} (countermeasures). Covers a wide range of activities including evacuation planning, supply stockpiling, infrastructure reinforcement, and public awareness campaigns. Frequently seen in government communications and news reporting.\n\nCOMMON COLLOCATIONS:\n- {災害対策|さいがいたいさく}を{講|こう}じる: to implement disaster measures\n- {災害対策|さいがいたいさく}{本部|ほんぶ}: disaster response headquarters\n- {災害対策|さいがいたいさく}{基本法|きほんほう}: Basic Act on Disaster Countermeasures\n- {災害対策|さいがいたいさく}マニュアル: disaster preparedness manual\n- {災害対策|さいがいたいさく}を{強化|きょうか}する: to strengthen disaster measures\n\nCULTURAL NOTE:\nJapan experiences frequent earthquakes, typhoons, flooding, and volcanic activity. {災害対策|さいがいたいさく} is a core concept in Japanese public administration. Most municipalities maintain {災害対策|さいがいたいさく}{本部|ほんぶ} (disaster response headquarters) that are activated during emergencies.\n\nRELATED WORDS:\n- {防災|ぼうさい}: disaster prevention\n- {避難|ひなん}: evacuation\n- {備蓄|びちく}: stockpiling (emergency supplies)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07907_bousai",
+      "reading": "ぼうさい",
+      "headword": "{防災|ぼうさい}",
+      "label": "disaster prevention"
+    },
+    {
+      "type": "related",
+      "target_id": "07908_hinan",
+      "reading": "ひなん",
+      "headword": "{避難|ひなん}",
+      "label": "evacuation"
+    },
+    {
+      "type": "related",
+      "target_id": "07589_bichiku",
+      "reading": "びちく",
+      "headword": "{備蓄|びちく}",
+      "label": "stockpiling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25685_kikikanri",
+      "reading": "ききかんり",
+      "headword": "{危機|きき}{管理|かんり}",
+      "label": "crisis management"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +82,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "society",
         "nature"
       ]
     },
     "created": "2026-04-27T12:18:21Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

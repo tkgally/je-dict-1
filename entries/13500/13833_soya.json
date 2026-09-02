@@ -19,7 +19,9 @@
       "english": "Stop behaving so boorishly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13833_soya_ex2",
@@ -27,7 +29,9 @@
       "english": "Despite his appearance, he uses crude language.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13833_soya_ex3",
@@ -35,7 +39,9 @@
       "english": "People who make others uncomfortable with their boorish attitude are often unaware of it themselves.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA somewhat literary or formal way to describe someone's lack of refinement. More often encountered in written Japanese or formal speech than in casual conversation.\n\nSIMILAR WORDS:\n- {乱暴|らんぼう}: rough, violent (stronger, implies physical aggression)\n- {下品|げひん}: vulgar, indecent (focuses on lack of taste or elegance)\n- {野蛮|やばん}: barbarous, uncivilized (stronger, implies lack of civilization)\n- {無作法|ぶさほう}: ill-mannered (focuses specifically on etiquette)\n\nCOMMON COLLOCATIONS:\n- {粗野|そや}な{言葉遣|ことばづか}い: crude language\n- {粗野|そや}な{振|ふ}る{舞|ま}い: boorish behavior\n- {粗野|そや}な{態度|たいど}: crude attitude\n- {粗野|そや}な{人|ひと}: an uncouth person",
@@ -60,19 +66,53 @@
       "reading": "ぶさほう",
       "headword": "{無作法|ぶさほう}",
       "label": "ill-mannered"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02482_ranbou",
+      "reading": "らんぼう",
+      "headword": "{乱暴|らんぼう}",
+      "label": "rough, violent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18961_yaban",
+      "reading": "やばん",
+      "headword": "{野蛮|やばん}",
+      "label": "barbarous, uncivilized"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21353_bukotsu",
+      "reading": "ぶこつ",
+      "headword": "{無骨|ぶこつ}",
+      "label": "rough"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23403_yaseiteki",
+      "reading": "やせいてき",
+      "headword": "{野性的|やせいてき}",
+      "label": "wild"
     }
   ],
   "metadata": {
     "created": "2026-02-27T05:09:41Z",
-    "modified": "2026-04-29T09:23:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"],
-      "style": ["written"]
+      "semantic": [
+        "descriptive"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

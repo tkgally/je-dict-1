@@ -24,7 +24,9 @@
       "english": "Various spices are used in curry.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14678_kouryou_ex2",
@@ -32,7 +34,9 @@
       "english": "No artificial flavorings are used in this food product.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14678_kouryou_ex3",
@@ -40,7 +44,9 @@
       "english": "In medieval Europe, Eastern spices were traded at very high prices.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14678_kouryou_ex4",
@@ -48,7 +54,9 @@
       "english": "It's soap made with natural fragrances.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14678_kouryou_ex5",
@@ -56,7 +64,9 @@
       "english": "This perfume blends precious fragrance ingredients.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14678_kouryou_ex6",
@@ -64,21 +74,63 @@
       "english": "It's necessary to explain the difference between synthetic and natural fragrances to consumers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "Covers both culinary spices/flavorings and aromatic substances. Context usually makes clear which sense is meant.\n\nCOMMON COLLOCATIONS:\n- {天然|てんねん}{香料|こうりょう} (natural flavoring/fragrance)\n- {人工|じんこう}{香料|こうりょう} / {合成|ごうせい}{香料|こうりょう} (artificial/synthetic flavoring or fragrance)\n- {香料|こうりょう}{貿易|ぼうえき} (spice trade)\n\nSIMILAR WORDS:\n- スパイス is the common loanword for culinary spices\n- {調味料|ちょうみりょう} means seasoning/condiment (broader, includes soy sauce, miso, etc.)\n- {香料|こうりょう} is a more formal/technical term that also covers non-food fragrances",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11054_supaisu",
+      "reading": "すぱいす",
+      "headword": "スパイス",
+      "label": "is the common loanword for culinary…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04941_choumiryou",
+      "reading": "ちょうみりょう",
+      "headword": "{調味料|ちょうみりょう}",
+      "label": "means seasoning/condiment"
+    },
+    {
+      "type": "related",
+      "target_id": "06593_hozonryou",
+      "reading": "ほぞんりょう",
+      "headword": "{保存料|ほぞんりょう}",
+      "label": "preservative (food additive)"
+    },
+    {
+      "type": "related",
+      "target_id": "19751_chakushokuryou",
+      "reading": "ちゃくしょくりょう",
+      "headword": "{着色料|ちゃくしょくりょう}",
+      "label": "coloring agent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23049_okou",
+      "reading": "おこう",
+      "headword": "お{香|こう}",
+      "label": "incense"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T11:01:05Z",
-    "modified": "2026-03-02T11:01:05Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

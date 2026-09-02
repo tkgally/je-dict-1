@@ -17,7 +17,9 @@
       "id": "27750_kiatsuhaichi_ex1",
       "japanese": "{冬型|ふゆがた}の{気圧|きあつ}{配置|はいち}になった。",
       "english": "A winter-type pressure pattern has set in.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27750_kiatsuhaichi_ex2",
       "japanese": "{天気図|てんきず}で{気圧|きあつ}{配置|はいち}を{確認|かくにん}する。",
       "english": "I check the pressure pattern on the weather map.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "27750_kiatsuhaichi_ex3",
       "japanese": "{西高東低|せいこうとうてい}の{気圧|きあつ}{配置|はいち}が{続|つづ}き、{強|つよ}い{北風|きたかぜ}が{吹|ふ}いた。",
       "english": "A high-west, low-east pressure pattern continued, bringing strong northerly winds.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {気圧|きあつ} (atmospheric pressure) + {配置|はいち} (arrangement, layout). A weather-forecast term for how high- and low-pressure systems are positioned.\n\nCOMMON COLLOCATIONS:\n- {冬型|ふゆがた}の{気圧|きあつ}{配置|はいち}: winter-type pressure pattern\n- {気圧|きあつ}{配置|はいち}が{緩|ゆる}む: the pressure pattern weakens\n\nNOTE:\nA frequent phrase in TV and newspaper forecasts. {西高東低|せいこうとうてい} (high pressure to the west, low to the east) is the classic winter pattern that brings cold northerly winds to Japan.",
+  "notes": "Composed of {気圧|きあつ} (atmospheric pressure) + {配置|はいち} (arrangement, layout). A weather-forecast term for how high- and low-pressure systems are positioned.\n\nCOMMON COLLOCATIONS:\n- {冬型|ふゆがた}の{気圧|きあつ}{配置|はいち}: winter-type pressure pattern\n- {気圧|きあつ}{配置|はいち}が{緩|ゆる}む: the pressure pattern weakens\n\nUSAGE:\nA frequent phrase in TV and newspaper forecasts. {西高東低|せいこうとうてい} (high pressure to the west, low to the east) is the classic winter pattern that brings cold northerly winds to Japan.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27375_taikiatsu",
+      "reading": "たいきあつ",
+      "headword": "{大気圧|たいきあつ}",
+      "label": "atmospheric pressure"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"],
+      "semantic": [
+        "weather"
+      ],
       "domain": []
     },
     "created": "2026-05-18T03:04:42Z",
-    "modified": "2026-05-18T03:04:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

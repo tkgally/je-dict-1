@@ -3,7 +3,7 @@
   "headword": "{以前|いぜん}{通|どお}り",
   "reading": "いぜんどおり",
   "romaji": "izendoori",
-  "part_of_speech": "expression",
+  "part_of_speech": "expression, adverb",
   "gloss": "as before; as previously; same as before",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A combination of {以前|いぜん} (before, previously) and {通|どお}り (as, in accordance with). Used to indicate that something continues or should continue in the same way as it was before a change or event. Slightly more formal than {今|いま}まで{通|どお}り.\n\nCOMMON PATTERNS:\n- {以前|いぜん}{通|どお}り + verb: to do something as before\n- {以前|いぜん}{通|どお}りの + noun: the same ~ as before\n- {以前|いぜん}{通|どお}りに: in the same manner as before\n\nSIMILAR WORDS:\n- {今|いま}まで{通|どお}り — as usual; as before (more everyday/casual)\n- {従来|じゅうらい}{通|どお}り — as conventionally done; as has been the case (more formal/institutional)\n- {相変|あいか}わらず — as always; same as ever (can imply mild exasperation)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22079_imamadedoori",
+      "reading": "いままでどおり",
+      "headword": "{今|いま}まで{通|どお}り",
+      "label": "as usual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15458_juuraidoori",
+      "reading": "じゅうらいどおり",
+      "headword": "{従来通|じゅうらいどお}り",
+      "label": "as conventionally done"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01671_aikawarazu",
+      "reading": "あいかわらず",
+      "headword": "{相変|あいか}わらず",
+      "label": "as always"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,12 +76,13 @@
         "expression",
         "adverb"
       ],
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ],
       "usage_context": []
     },
     "created": "2026-04-04T22:21:37Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

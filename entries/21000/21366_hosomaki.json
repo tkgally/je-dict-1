@@ -17,7 +17,9 @@
       "id": "21366_hosomaki_ex1",
       "japanese": "{細巻|ほそま}きを{六本|ろっぽん}{注文|ちゅうもん}した。",
       "english": "I ordered six thin sushi rolls.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21366_hosomaki_ex2",
       "japanese": "かっぱ{巻|ま}きは{細巻|ほそま}きの{定番|ていばん}だ。",
       "english": "Cucumber rolls are a classic thin sushi roll.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "21366_hosomaki_ex3",
       "japanese": "{太巻|ふとま}きより{細巻|ほそま}きの{方|ほう}が{一口|ひとくち}で{食|た}べやすい。",
       "english": "Thin rolls are easier to eat in one bite than thick rolls.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {細|ほそ}い (thin) and {巻|ま}き (roll). The most basic type of sushi roll, using a half sheet of {海苔|のり} and typically containing just one ingredient. Common varieties include {鉄火巻|てっかま}き (tuna roll), かっぱ{巻|ま}き (cucumber roll), and {納豆巻|なっとうま}き (natto roll).\n\nCOMMON COLLOCATIONS:\n- {細巻|ほそま}きを{巻|ま}く: to roll thin sushi rolls\n- {細巻|ほそま}き{一本|いっぽん}: one thin roll\n- {細巻|ほそま}きセット: thin roll assortment\n\nSIMILAR WORDS:\n- {太巻|ふとま}き: thick sushi roll — uses a full sheet of nori with multiple fillings\n- {手巻|てま}き: hand roll — cone-shaped, eaten by hand\n- {巻|ま}き{寿司|ずし}: rolled sushi — the general category\n- {裏巻|うらま}き: inside-out roll — rice on the outside",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16202_futomaki",
+      "reading": "ふとまき",
+      "headword": "{太巻|ふとま}き",
+      "label": "thick sushi roll"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12410_makizushi",
+      "reading": "まきずし",
+      "headword": "{巻|ま}き{寿司|ずし}",
+      "label": "rolled sushi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28783_kappamaki",
+      "reading": "かっぱまき",
+      "headword": "かっぱ{巻|ま}き",
+      "label": "cucumber sushi roll"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "culture"]
+      "semantic": [
+        "food",
+        "culture"
+      ]
     },
     "created": "2026-04-02T01:40:43Z",
-    "modified": "2026-04-02T01:40:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

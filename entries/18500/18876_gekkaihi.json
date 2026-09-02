@@ -19,7 +19,9 @@
       "english": "The monthly membership fee is 3,000 yen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18876_gekkaihi_ex2",
@@ -27,7 +29,9 @@
       "english": "I forgot to pay my gym's monthly fee.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18876_gekkaihi_ex3",
@@ -35,21 +39,42 @@
       "english": "The monthly fee was raised, so I'm considering canceling my membership.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCommonly used for gym memberships, club dues, and subscription services. The fee is typically paid by automatic bank transfer ({口座|こうざ}{振替|ふりかえ}) in Japan.\n\nCOMMON COLLOCATIONS:\n- {月|げっ}{会費|かいひ}を{払|はら}う (to pay monthly dues)\n- {月|げっ}{会費|かいひ}が{高|たか}い／{安|やす}い (monthly fee is expensive/cheap)\n- {月|げっ}{会費|かいひ}の{値上|ねあ}げ (monthly fee increase)\n\nSIMILAR WORDS:\n- {年会費|ねんかいひ}: annual membership fee — paid once per year\n- {入会金|にゅうかいきん}: enrollment fee — one-time fee to join",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06414_nenkaihi",
+      "reading": "ねんかいひ",
+      "headword": "{年会費|ねんかいひ}",
+      "label": "annual membership fee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06478_nyuukaikin",
+      "reading": "にゅうかいきん",
+      "headword": "{入会金|にゅうかいきん}",
+      "label": "enrollment fee"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:18:52Z",
-    "modified": "2026-03-23T06:18:52Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

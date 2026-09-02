@@ -17,7 +17,9 @@
       "id": "28220_konnendo_ex1",
       "japanese": "{今年度|こんねんど}の{予算|よさん}が{決|き}まった。",
       "english": "This year's budget has been decided.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28220_konnendo_ex2",
       "japanese": "{今年度|こんねんど}から{制度|せいど}が{変|か}わる。",
       "english": "The system changes starting this fiscal year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "28220_konnendo_ex3",
       "japanese": "{今年度|こんねんど}の{売上|うりあげ}は{昨年度|さくねんど}を{上回|うわまわ}った。",
       "english": "This fiscal year's sales exceeded last year's.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{年度|ねんど} is the business or academic year, which in Japan normally runs from April 1 to March 31 — distinct from the calendar year ({今年|ことし}).\n\nCOMMON COLLOCATIONS:\n- {今年度|こんねんど}の{予算|よさん}: this year's budget\n- {今年度末|こんねんどまつ}: the end of this fiscal year\n\nRELATED WORDS:\n- {昨年度|さくねんど}: last fiscal year\n- {来年度|らいねんど}: next fiscal year\n- {今年|ことし}: this (calendar) year — note the different reading and scope",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "28221_rainendo",
+      "reading": "らいねんど",
+      "headword": "{来年度|らいねんど}",
+      "label": "next fiscal year"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["time-period"],
+      "politeness": "plain",
+      "semantic": [
+        "time-period"
+      ],
       "domain": []
     },
     "created": "2026-05-27T03:08:15Z",
-    "modified": "2026-05-27T03:08:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

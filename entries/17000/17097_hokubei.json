@@ -19,7 +19,9 @@
       "english": "I live in North America.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17097_hokubei_ex2",
@@ -27,7 +29,9 @@
       "english": "This product is popular in the North American market.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17097_hokubei_ex3",
@@ -35,7 +39,9 @@
       "english": "North America and South America together are called the Americas.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAbbreviation of {北|きた}アメリカ. Part of a series of continent/region abbreviations using kanji: {北米|ほくべい} (North America), {南米|なんべい} (South America), {欧米|おうべい} (the West / Europe and America).\n\nCOMMON COLLOCATIONS:\n- {北米|ほくべい}{市場|しじょう} (North American market)\n- {北米|ほくべい}{大陸|たいりく} (North American continent)\n- {北米|ほくべい}{地域|ちいき} (North American region)\n\nSIMILAR WORDS:\n- {南米|なんべい}: South America\n- {欧米|おうべい}: Europe and America, the West\n- {中南米|ちゅうなんべい}: Central and South America",
@@ -53,18 +59,50 @@
       "reading": "おうべい",
       "headword": "{欧米|おうべい}",
       "label": "Europe and America"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19053_chuunanbei",
+      "reading": "ちゅうなんべい",
+      "headword": "{中南米|ちゅうなんべい}",
+      "label": "Central and South America"
+    },
+    {
+      "type": "related",
+      "target_id": "25663_chuubei",
+      "reading": "ちゅうべい",
+      "headword": "{中米|ちゅうべい}",
+      "label": "Central America"
+    },
+    {
+      "type": "related",
+      "target_id": "26368_mekishiko",
+      "reading": "めきしこ",
+      "headword": "メキシコ",
+      "label": "Mexico"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26752_kitaamerika",
+      "reading": "きたあめりか",
+      "headword": "{北|きた}アメリカ",
+      "label": "North America"
     }
   ],
   "metadata": {
     "created": "2026-03-16T00:39:07Z",
-    "modified": "2026-05-05T09:06:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

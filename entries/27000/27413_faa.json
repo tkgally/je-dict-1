@@ -17,7 +17,9 @@
       "id": "27413_faa_ex1",
       "japanese": "ファーの{付|つ}いたコート。",
       "english": "A coat with fur on it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27413_faa_ex2",
       "japanese": "{襟|えり}のファーが{暖|あたた}かい。",
       "english": "The fur on the collar is warm.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,53 @@
       "id": "27413_faa_ex3",
       "japanese": "{最近|さいきん}は{動物|どうぶつ}{愛護|あいご}の{観点|かんてん}からフェイクファーを{選|えら}ぶ{人|ひと}が{増|ふ}えている。",
       "english": "Recently, more people are choosing faux fur from an animal welfare perspective.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Loanword from English \"fur,\" used mainly in fashion contexts for trim, lining, or accessories made of fur or fur-like material. The native word {毛皮|けがわ} refers to fur pelts more broadly and is still common.\n\nCOMMON COLLOCATIONS:\n- ファーコート: fur coat\n- ファーの{襟|えり}: fur collar\n- ファー{付|つ}き: with fur attached\n- リアルファー: real fur\n- フェイクファー / エコファー: faux fur / eco-fur\n\nSIMILAR WORDS:\n- {毛皮|けがわ}: fur, pelt — native term, broader; emphasizes the whole hide\n- {毛|け}: hair, fur — used for an animal's coat itself\n- ボア: boa (fluffy fabric) — synthetic plush, often used like ファー in casual fashion",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00205_kegawa",
+      "reading": "けがわ",
+      "headword": "{毛皮|けがわ}",
+      "label": "fur, pelt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01392_ke",
+      "reading": "け",
+      "headword": "{毛|け}",
+      "label": "hair, fur"
+    },
+    {
+      "type": "related",
+      "target_id": "27414_feikufaa",
+      "reading": "ふぇいくふぁー",
+      "headword": "フェイクファー",
+      "label": "faux fur"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["clothing", "loanword"],
+      "politeness": "plain",
+      "semantic": [
+        "clothing",
+        "loanword"
+      ],
       "domain": []
     },
     "created": "2026-05-11T07:40:10Z",
-    "modified": "2026-05-11T07:40:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

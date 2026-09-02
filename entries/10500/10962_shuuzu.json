@@ -19,7 +19,9 @@
       "english": "I bought running shoes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10962_shuuzu_ex2",
@@ -27,7 +29,9 @@
       "english": "I changed into new shoes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10962_shuuzu_ex3",
@@ -35,21 +39,56 @@
       "english": "It's better to choose basketball shoes that firmly support the ankle.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n- ランニングシューズ: running shoes\n- バスケットボールシューズ (バッシュ): basketball shoes\n- ダンスシューズ: dance shoes\n- クライミングシューズ: climbing shoes\n- シューズボックス: shoe rack/cabinet (at entrance)\n- {上履|うわば}きシューズ: indoor shoes\n\nSIMILAR WORDS:\n- {靴|くつ}: shoes (standard, general term)\n- スニーカー: sneakers\n- ブーツ: boots\n\nシューズ is most commonly used in compound terms for specific types of athletic or specialized footwear. For everyday reference to shoes, {靴|くつ} is the standard term.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00725_kutsu",
+      "reading": "くつ",
+      "headword": "{靴|くつ}",
+      "label": "shoes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04528_suniikaa",
+      "reading": "すにーかー",
+      "headword": "スニーカー",
+      "label": "sneakers"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04529_buutsu",
+      "reading": "ぶーつ",
+      "headword": "ブーツ",
+      "label": "boots"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16864_undougutsu",
+      "reading": "うんどうぐつ",
+      "headword": "{運動靴|うんどうぐつ}",
+      "label": "sneakers"
+    }
+  ],
   "metadata": {
     "created": "2026-02-11T19:17:01Z",
-    "modified": "2026-02-11T19:17:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ]
     }
   }
 }

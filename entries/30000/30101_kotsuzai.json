@@ -17,7 +17,9 @@
       "id": "30101_kotsuzai_ex1",
       "japanese": "コンクリートに{骨材|こつざい}を{混|ま}ぜる。",
       "english": "To mix aggregate into the concrete.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30101_kotsuzai_ex2",
       "japanese": "{骨材|こつざい}には{砂|すな}や{砂利|じゃり}を{使|つか}う。",
       "english": "Sand and gravel are used as aggregate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "30101_kotsuzai_ex3",
       "japanese": "{良質|りょうしつ}な{骨材|こつざい}はコンクリートの{強度|きょうど}を{高|たか}める。",
       "english": "High-quality aggregate increases the strength of concrete.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The sand, gravel, or crushed stone that is bound together by cement paste to form concrete or mortar. Classified by particle size into coarse and fine types.\n\nCOMMON COLLOCATIONS:\n- {粗骨材|そこつざい}: coarse aggregate (gravel, crushed stone)\n- {細骨材|さいこつざい}: fine aggregate (sand)\n\nSIMILAR WORDS:\n- {砂利|じゃり}: gravel — a common coarse aggregate, but the raw material, not the technical role\n- セメント: cement — the binder that holds the aggregate together",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14948_jari",
+      "reading": "じゃり",
+      "headword": "{砂利|じゃり}",
+      "label": "gravel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19401_semento",
+      "reading": "せめんと",
+      "headword": "セメント",
+      "label": "cement"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["building"],
-      "domain": ["technical"]
+      "politeness": "plain",
+      "semantic": [
+        "building"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-07-25T03:20:29Z",
-    "modified": "2026-07-25T03:20:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "id": "11164_mein",
   "headword": "メイン",
   "reading": "めいん",
-  "part_of_speech": "noun / pre-noun adjectival",
+  "part_of_speech": "noun, pre-noun adjectival",
   "gloss": "main, primary",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "What's the main dish?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11164_mein_ex2",
@@ -27,7 +29,9 @@
       "english": "The main theme this time is environmental issues.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11164_mein_ex3",
@@ -35,21 +39,43 @@
       "english": "The main character of this event is hugely popular with children.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nメイン functions primarily as a noun modifier (メインの～ or メイン～). It is the standard way to say \"main\" in modern Japanese and is used much more frequently than its Japanese equivalent {主要|しゅよう}な in casual speech.\n\nVARIANT:\nThe older spelling マイン is sometimes seen but メイン is now standard.\n\nCOMMON COLLOCATIONS:\n- メイン{料理|りょうり}: main dish, entrée\n- メインキャラクター: main character\n- メインテーマ: main theme\n- メインステージ: main stage\n- メイン{会場|かいじょう}: main venue\n- メインストリート: main street",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23580_meindisshu",
+      "reading": "めいんでぃっしゅ",
+      "headword": "メインディッシュ",
+      "label": "main dish"
+    },
+    {
+      "type": "antonym",
+      "target_id": "30057_sabu",
+      "reading": "さぶ",
+      "headword": "サブ",
+      "label": "sub"
+    }
+  ],
   "metadata": {
     "created": "2026-02-14T05:12:51Z",
-    "modified": "2026-02-14T05:12:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "pre-noun-adjectival"],
+      "pos": [
+        "noun",
+        "pre-noun-adjectival"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

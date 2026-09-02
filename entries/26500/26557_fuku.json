@@ -3,7 +3,7 @@
   "headword": "{噴|ふ}く",
   "reading": "ふく",
   "romaji": "fuku",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to spout; to gush; to erupt",
   "definitions": [
     {
@@ -79,8 +79,23 @@
       "notes": null
     }
   ],
-  "notes": "A godan verb describing the forceful ejection of liquid, gas, or lava. Distinguished from the homophone {吹|ふ}く (to blow) by focusing on liquid or molten substances rather than air or wind.\n\nTRANSITIVITY:\n- Type: Both ({自動詞|じどうし} and {他動詞|たどうし})\n- Intransitive: {水|みず}が{噴|ふ}く (water gushes)\n- Transitive: {潮|しお}を{噴|ふ}く (to spout water)\n\nASPECT:\n- {噴|ふ}いている: is currently spouting/erupting (ongoing action)\n\nCOMMON COLLOCATIONS:\n- {潮|しお}を{噴|ふ}く: to spout water (whales)\n- {蒸気|じょうき}を{噴|ふ}く: to vent steam\n- {火|ひ}を{噴|ふ}く: to spew fire\n- {噴|ふ}き{出|だ}す: to gush out, to spew forth (compound verb)\n- {噴|ふ}き{上|あ}げる: to spout upward\n\nSIMILAR WORDS:\n- {吹|ふ}く: to blow — used for wind, breath, and musical instruments; never for liquids\n- {噴出|ふんしゅつ}する: to erupt, to gush — more formal and used in scientific or news contexts",
-  "cross_references": [],
+  "notes": "A godan verb describing the forceful ejection of liquid, gas, or lava. Distinguished from the homophone {吹|ふ}く (to blow) by focusing on liquid or molten substances rather than air or wind.\n\nTRANSITIVITY:\n- Type: Both ({自動詞|じどうし} and {他動詞|たどうし})\n- Intransitive: {水|みず}が{噴|ふ}く (water gushes)\n- Transitive: {潮|しお}を{噴|ふ}く (to spout water)\n\nASPECT (ている):\n- {噴|ふ}いている: is currently spouting/erupting (ongoing action)\n\nCOMMON COLLOCATIONS:\n- {潮|しお}を{噴|ふ}く: to spout water (whales)\n- {蒸気|じょうき}を{噴|ふ}く: to vent steam\n- {火|ひ}を{噴|ふ}く: to spew fire\n- {噴|ふ}き{出|だ}す: to gush out, to spew forth (compound verb)\n- {噴|ふ}き{上|あ}げる: to spout upward\n\nSIMILAR WORDS:\n- {吹|ふ}く: to blow — used for wind, breath, and musical instruments; never for liquids\n- {噴出|ふんしゅつ}する: to erupt, to gush — more formal and used in scientific or news contexts",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "02445_fuku",
+      "reading": "ふく",
+      "headword": "{吹|ふ}く",
+      "label": "to blow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18287_funshutsu",
+      "reading": "ふんしゅつ",
+      "headword": "{噴出|ふんしゅつ}",
+      "label": "to erupt, to gush"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -97,7 +112,7 @@
       "verb_class": "godan-ku"
     },
     "created": "2026-05-03T11:08:13Z",
-    "modified": "2026-08-06T00:44:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

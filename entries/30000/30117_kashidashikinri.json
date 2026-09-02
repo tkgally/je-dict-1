@@ -46,6 +46,29 @@
   ],
   "notes": "A standard term in banking and financial news.\n\nCOMMON COLLOCATIONS:\n- {貸出|かしだし}{金利|きんり}が{上|あ}がる／{下|さ}がる: lending rates rise / fall\n- {貸出|かしだし}{金利|きんり}を{引|ひ}き{上|あ}げる: to raise the lending rate\n- {低|てい}{金利|きんり}: low interest rates\n\nSIMILAR WORDS:\n- {預金|よきん}{金利|きんり}: deposit rate — what the bank pays you, the mirror image of this term\n- {政策|せいさく}{金利|きんり}: policy rate — the central bank's benchmark, which drives lending rates\n- {利息|りそく}: interest — the money itself, not the rate",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26656_seisakukinri",
+      "reading": "せいさくきんり",
+      "headword": "{政策金利|せいさくきんり}",
+      "label": "policy rate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05469_risoku",
+      "reading": "りそく",
+      "headword": "{利息|りそく}",
+      "label": "interest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29460_yokinriritsu",
+      "reading": "よきんりりつ",
+      "headword": "預金利率",
+      "label": "deposit interest rate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "finance"
       ],
@@ -62,6 +85,6 @@
       ]
     },
     "created": "2026-07-25T18:20:39Z",
-    "modified": "2026-07-25T18:20:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

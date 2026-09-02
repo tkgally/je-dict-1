@@ -3,7 +3,7 @@
   "headword": "{多|おお}め",
   "reading": "おおめ",
   "romaji": "oome",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "a bit more; somewhat more; on the larger side",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "28421_oome_ex1",
       "japanese": "ご{飯|はん}を{多|おお}めに{盛|も}る。",
       "english": "Serve a bit more rice.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28421_oome_ex2",
       "japanese": "{塩|しお}を{多|おお}めに{入|い}れてください。",
       "english": "Please add a little more salt.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,60 @@
       "id": "28421_oome_ex3",
       "japanese": "{週末|しゅうまつ}は{客|きゃく}が{増|ふ}えるので、{食材|しょくざい}を{多|おお}めに{仕入|しい}れておいた。",
       "english": "Since customers increase on weekends, I stocked up on a bit more ingredients.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from {多|おお}い (many, much) + the suffix め (tendency toward, slightly on the X side). Most often used adverbially as {多|おお}めに.\n\nCOMMON COLLOCATIONS:\n- {多|おお}めに{入|い}れる: put in a bit more\n- {多|おお}めに{作|つく}る: make a bit more\n- {多|おお}めに{見積|みつ}もる: estimate on the high side\n- {多|おお}めの{量|りょう}: a somewhat larger amount\n\nSIMILAR WORDS:\n- {少|すく}なめ: a bit less — the opposite, used in the same way\n- たっぷり: plenty; a lot — emphasizes generous quantity, stronger than {多|おお}め\n- {大|おお}きめ: a bit larger (in size) — uses め with size rather than quantity",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "19120_sukuname",
+      "reading": "すくなめ",
+      "headword": "{少|すく}なめ",
+      "label": "a bit less"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03404_tappuri",
+      "reading": "たっぷり",
+      "headword": "たっぷり",
+      "label": "plenty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21239_ookime",
+      "reading": "おおきめ",
+      "headword": "{大|おお}きめ",
+      "label": "a bit larger"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11176_hayame",
+      "reading": "はやめ",
+      "headword": "{早|はや}め",
+      "label": "a bit early, on the early side"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["quantity"],
+      "politeness": "plain",
+      "semantic": [
+        "quantity"
+      ],
       "domain": []
     },
     "created": "2026-05-31T02:08:49Z",
-    "modified": "2026-05-31T02:08:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

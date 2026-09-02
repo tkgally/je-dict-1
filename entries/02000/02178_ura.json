@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "{裏|うら} means the back side, reverse, or hidden aspect of something.\n\nSENSE 1 - PHYSICAL BACK:\n- ⟦{紙|かみ}→紙：00712_kami⟧⟦の→の：09472_no⟧{裏|うら}: back of paper\n- ⟦コイン→コイン：10852_koin⟧⟦の→の：09472_no⟧{裏|うら}: reverse side of coin\n- ⟦{建物|たてもの}→建物：01458_tatemono⟧⟦の→の：09472_no⟧{裏|うら}: back of building\n\nSENSE 2 - HIDDEN/BEHIND SCENES:\n- {裏|うら}⟦の→の：09472_no⟧⟦{事情|じじょう}→事情：03272_jijou⟧: behind-the-scenes circumstances\n- {裏|うら}⟦の→の：09472_no⟧⟦{意味|いみ}→意味：01155_imi⟧: hidden meaning\n\nCONTRAST:\n⟦{表|おもて}→表：01355_omote⟧ (front, surface) ↔ {裏|うら} (back, reverse)\n\nIDIOMS:\n- {裏|うら}⟦を→を：00422_wo⟧⟦{返|かえ}せば→返す：09648_kaesu⟧: conversely, on the other hand\n- {裏|うら}⟦を→を：00422_wo⟧⟦かく→掻く：09647_kaku⟧: to outsmart, outmaneuver\n- {裏目|うらめ}⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧: to backfire\n\nCOMPOUNDS:\n- ⟦{裏切|うらぎ}る→裏切る：02011_uragiru⟧: to betray\n- ⟦{裏口|うらぐち}→裏口：04101_uraguchi⟧: back door/entrance",
+  "notes": "{裏|うら} means the back side, reverse, or hidden aspect of something.\n\nSENSE 1 - PHYSICAL BACK:\n- ⟦{紙|かみ}→紙：00712_kami⟧⟦の→の：09472_no⟧{裏|うら}: back of paper\n- ⟦コイン→コイン：10852_koin⟧⟦の→の：09472_no⟧{裏|うら}: reverse side of coin\n- ⟦{建物|たてもの}→建物：01458_tatemono⟧⟦の→の：09472_no⟧{裏|うら}: back of building\n\nSENSE 2 - HIDDEN/BEHIND SCENES:\n- {裏|うら}⟦の→の：09472_no⟧⟦{事情|じじょう}→事情：03272_jijou⟧: behind-the-scenes circumstances\n- {裏|うら}⟦の→の：09472_no⟧⟦{意味|いみ}→意味：01155_imi⟧: hidden meaning\n\nSIMILAR WORDS:\n⟦{表|おもて}→表：01355_omote⟧ (front, surface) ↔ {裏|うら} (back, reverse)\n\nCOMMON EXPRESSIONS:\n- {裏|うら}⟦を→を：00422_wo⟧⟦{返|かえ}せば→返す：09648_kaesu⟧: conversely, on the other hand\n- {裏|うら}⟦を→を：00422_wo⟧⟦かく→掻く：09647_kaku⟧: to outsmart, outmaneuver\n- {裏目|うらめ}⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧: to backfire\n\nCOMPOUNDS:\n- ⟦{裏切|うらぎ}る→裏切る：02011_uragiru⟧: to betray\n- ⟦{裏口|うらぐち}→裏口：04101_uraguchi⟧: back door/entrance",
   "cross_references": [
     {
       "type": "antonym",
@@ -126,11 +126,32 @@
       "reading": "おもて",
       "headword": "{表|おもて}",
       "label": "front, surface"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05449_uchigawa",
+      "reading": "うちがわ",
+      "headword": "{内側|うちがわ}",
+      "label": "inside"
+    },
+    {
+      "type": "antonym",
+      "target_id": "17918_omotemuki",
+      "reading": "おもてむき",
+      "headword": "{表向|おもてむ}き",
+      "label": "outwardly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28348_haikei",
+      "reading": "はいけい",
+      "headword": "{背景|はいけい}",
+      "label": "background"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:38:27Z",
-    "modified": "2026-06-11T18:03:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -17,7 +17,9 @@
       "id": "21973_kanmatsu_ex1",
       "japanese": "{巻末|かんまつ}に{索引|さくいん}がある。",
       "english": "There is an index at the end of the book.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21973_kanmatsu_ex2",
       "japanese": "{巻末|かんまつ}の{付録|ふろく}を{参照|さんしょう}してください。",
       "english": "Please refer to the appendix at the back of the book.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "21973_kanmatsu_ex3",
       "japanese": "{巻末|かんまつ}には{著者|ちょしゃ}によるあとがきと{参考文献|さんこうぶんけん}リストが{掲載|けいさい}されている。",
       "english": "The back of the book contains an afterword by the author and a bibliography.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {巻|かん} (volume, scroll) + {末|まつ} (end). Refers to the back portion of a book or publication where supplementary material is placed.\n\nCOMMON COLLOCATIONS:\n- {巻末|かんまつ}の{付録|ふろく}: appendix at the end of a book\n- {巻末|かんまつ}の{索引|さくいん}: index at the back\n- {巻末|かんまつ}に{収録|しゅうろく}する: to include at the end of the volume\n- {巻末|かんまつ}{資料|しりょう}: back-matter materials\n\nSIMILAR WORDS:\n- {巻頭|かんとう}: beginning of a book — the opposite of {巻末|かんまつ}\n- {末尾|まつび}: the very end — more general; can refer to the end of any text or sequence\n- あとがき: afterword — a specific type of content often found at the {巻末|かんまつ}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13065_matsubi",
+      "reading": "まつび",
+      "headword": "{末尾|まつび}",
+      "label": "the very end"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21507_atogaki",
+      "reading": "あとがき",
+      "headword": "あとがき",
+      "label": "afterword"
+    },
+    {
+      "type": "related",
+      "target_id": "06206_furoku",
+      "reading": "ふろく",
+      "headword": "{付録|ふろく}",
+      "label": "appendix, supplement"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["books"]
+      "semantic": [
+        "books"
+      ]
     },
     "created": "2026-04-04T18:26:28Z",
-    "modified": "2026-07-26T03:19:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "21731_fuuu_ex1",
       "japanese": "{激|はげ}しい{風雨|ふうう}が{続|つづ}いている。",
       "english": "Heavy wind and rain continue.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21731_fuuu_ex2",
       "japanese": "{風雨|ふうう}にさらされて{建物|たてもの}がだいぶ{傷|いた}んでいる。",
       "english": "The building has deteriorated considerably from exposure to wind and rain.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,12 +37,30 @@
       "id": "21731_fuuu_ex3",
       "japanese": "{台風|たいふう}に{伴|ともな}う{強|つよ}い{風雨|ふうう}のため、{本日|ほんじつ}の{屋外|おくがい}イベントは{中止|ちゅうし}となりました。",
       "english": "Due to strong wind and rain accompanying the typhoon, today's outdoor event has been cancelled.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound word referring to wind and rain together, typically implying stormy or harsh weather. Combines {風|ふう} (wind) and {雨|う} (rain).\n\nUSAGE:\n- Used in weather reports, news, and formal descriptions of weather conditions\n- Implies both wind and rain occurring simultaneously — not just one or the other\n- Also used figuratively in the expression {風雨|ふうう}に{耐|た}える (to weather the storm), meaning to endure hardships\n- More formal than simply saying {風|かぜ}と{雨|あめ}\n\nCOMMON COLLOCATIONS:\n- {風雨|ふうう}が{強|つよ}まる: wind and rain intensify\n- {風雨|ふうう}にさらされる: to be exposed to wind and rain\n- {風雨|ふうう}に{耐|た}える: to withstand wind and rain; to weather the storm\n- {暴|ぼう}{風雨|ふうう}: violent storm, tempest\n\nSIMILAR WORDS:\n- {暴風雨|ぼうふうう}: tempest, violent storm — a more intense version\n- {荒天|こうてん}: stormy weather, bad weather — broader term for poor weather conditions\n- {嵐|あらし}: storm — the everyday word, more dramatic",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16432_kouten",
+      "reading": "こうてん",
+      "headword": "{荒天|こうてん}",
+      "label": "stormy weather, bad weather"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01695_arashi",
+      "reading": "あらし",
+      "headword": "{嵐|あらし}",
+      "label": "storm"
+    }
+  ],
   "metadata": {
     "entry_id": "21731_fuuu",
     "schema_version": "2.0",
@@ -46,11 +68,19 @@
     "vocabulary_tier": "general",
     "jlpt_level": null,
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["weather", "nature"],
-      "register": ["formal"],
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "weather",
+        "nature"
+      ],
+      "register": [
+        "formal"
+      ],
       "usage": []
     },
-    "modified": "2026-04-02T22:19:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{詰問|きつもん}する",
   "reading": "きつもん",
   "romaji": "kitsumon",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to interrogate; to cross-examine; to grill",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A strong word implying aggressive, confrontational questioning. The {詰|きつ} kanji conveys the sense of pressing hard or cornering someone. Typically used when a superior questions a subordinate, or when journalists confront officials.\n\nCOMMON COLLOCATIONS:\n- {厳|きび}しく{詰問|きつもん}する: to interrogate harshly\n- {理由|りゆう}を{詰問|きつもん}する: to demand a reason\n- {詰問|きつもん}{調|ちょう}: interrogative tone\n\nSIMILAR WORDS:\n- {尋問|じんもん}する: to interrogate — legal/police context, formal examination\n- {質問|しつもん}する: to ask a question — neutral, no hostile nuance\n- {問|と}い{詰|つ}める: to press someone for answers — similar intensity, but a native Japanese compound verb",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20033_jinmonsuru",
+      "reading": "じんもんする",
+      "headword": "{尋問|じんもん}する",
+      "label": "to interrogate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05637_shitsumonsuru",
+      "reading": "しつもんする",
+      "headword": "{質問|しつもん}する",
+      "label": "to ask a question"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09147_toitsumeru",
+      "reading": "といつめる",
+      "headword": "{問|と}い{詰|つ}める",
+      "label": "to press someone for answers"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T02:07:05Z",
-    "modified": "2026-04-02T02:07:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -17,7 +17,9 @@
       "id": "20217_zenretsu_ex1",
       "japanese": "{前列|ぜんれつ}に{座|すわ}った。",
       "english": "I sat in the front row.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20217_zenretsu_ex2",
       "japanese": "{前列|ぜんれつ}の{席|せき}はもう{埋|う}まっている。",
       "english": "The front row seats are already taken.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "20217_zenretsu_ex3",
       "japanese": "{集合写真|しゅうごうしゃしん}を{撮|と}るとき、{背|せ}の{低|ひく}い{人|ひと}は{前列|ぜんれつ}に{並|なら}んでください。",
       "english": "When we take the group photo, shorter people please line up in the front row.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A straightforward compound of {前|ぜん} (front) + {列|れつ} (row, line). Used for seating, formations, and lineups.\n\nCOMMON COLLOCATIONS:\n- {前列|ぜんれつ}の{席|せき}: front row seat\n- {最前列|さいぜんれつ}: the very front row\n- {前列|ぜんれつ}に{並|なら}ぶ: to line up in the front row\n- {前列|ぜんれつ}に{立|た}つ: to stand in the front row\n\nSIMILAR WORDS:\n- {後列|こうれつ}: back row — the antonym\n- {最前列|さいぜんれつ}: very front row — the superlative\n- {前方|ぜんぽう}: the front (area) — refers to a general area, not a row",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "20218_kouretsu",
+      "reading": "こうれつ",
+      "headword": "{後列|こうれつ}",
+      "label": "back row"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19125_zenpou",
+      "reading": "ぜんぽう",
+      "headword": "{前方|ぜんぽう}",
+      "label": "the front"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["position"]
+      "semantic": [
+        "position"
+      ]
     },
     "created": "2026-03-28T17:12:38Z",
-    "modified": "2026-03-28T17:12:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

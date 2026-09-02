@@ -3,7 +3,7 @@
   "id": "12979_senshi",
   "headword": "{戦死|せんし}",
   "reading": "せんし",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "death in battle, killed in action",
   "conjugation": {
     "type": "suru",
@@ -142,11 +142,18 @@
       "headword": "{戦士|せんし}",
       "label": "homophone — warrior",
       "target_id": "12747_senshi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22006_byoushi",
+      "reading": "びょうし",
+      "headword": "{病死|びょうし}",
+      "label": "death from illness"
     }
   ],
   "metadata": {
     "created": "2026-02-23T05:05:27Z",
-    "modified": "2026-08-24T00:38:19Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

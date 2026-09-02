@@ -17,7 +17,9 @@
       "id": "19868_donataka_ex1",
       "japanese": "どなたか、いらっしゃいますか。",
       "english": "Is anyone there?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19868_donataka_ex2",
       "japanese": "どなたか{日本語|にほんご}が{話|はな}せる{方|かた}はいますか。",
       "english": "Is there someone who can speak Japanese?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "19868_donataka_ex3",
       "japanese": "どなたかお{心当|こころあ}たりのある{方|かた}は、{受付|うけつけ}までお{知|し}らせください。",
       "english": "If anyone has any information, please notify the reception desk.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The polite equivalent of {誰|だれ}か (someone). Used in formal situations, announcements, and when speaking to strangers or superiors. Formed from どなた (polite form of {誰|だれ}) + か (indefinite particle).\n\nUSAGE:\nOften paired with polite verb forms and honorific language. In announcements and public settings, どなたか is standard.\n\nPOLITENESS LEVELS:\n- {誰|だれ}か — someone (plain)\n- どなたか — someone (polite)\n\nSIMILAR WORDS:\n- どなた — who (polite question word)\n- {誰|だれ}か — someone (plain)\n- どちらさま — who (very polite, used at the door or phone)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02912_dareka",
+      "reading": "だれか",
+      "headword": "{誰|だれ}か",
+      "label": "someone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22795_dochirasama",
+      "reading": "どちらさま",
+      "headword": "どちら{様|さま}",
+      "label": "who"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["pronoun"],
+      "pos": [
+        "pronoun"
+      ],
       "formality": "formal",
       "politeness": "polite",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     },
     "created": "2026-03-27T03:32:30Z",
-    "modified": "2026-03-27T03:32:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

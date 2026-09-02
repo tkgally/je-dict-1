@@ -17,7 +17,9 @@
       "id": "24322_kyouwakoku_ex1",
       "japanese": "フランスは{共和国|きょうわこく}だ。",
       "english": "France is a republic.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24322_kyouwakoku_ex2",
       "japanese": "その{国|くに}は{共和国|きょうわこく}として{独立|どくりつ}した。",
       "english": "That country became independent as a republic.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "24322_kyouwakoku_ex3",
       "japanese": "{第二次世界大戦|だいにじせかいたいせん}の{後|あと}、{多|おお}くの{国|くに}が{共和国|きょうわこく}に{移行|いこう}した。",
       "english": "After World War II, many countries transitioned to republics.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {共和|きょうわ} (republican government; joint harmony) and {国|こく} (country). The term {共和|きょうわ} literally means \"shared harmony\" and originates from an ancient Chinese historical concept.\n\nCOMMON COLLOCATIONS:\n- {共和国|きょうわこく}{憲法|けんぽう}: republican constitution\n- {連邦|れんぽう}{共和国|きょうわこく}: federal republic\n- {人民|じんみん}{共和国|きょうわこく}: people's republic\n- {民主|みんしゅ}{共和国|きょうわこく}: democratic republic\n\nUSAGE:\nIn Japanese, {共和国|きょうわこく} most often appears as part of official country names — for example, {中華人民共和国|ちゅうかじんみんきょうわこく} (People's Republic of China), {大韓民国|だいかんみんこく} (Republic of Korea), or フランス{共和国|きょうわこく} (French Republic). It can also be used in a general sense when discussing forms of government.\n\nSIMILAR WORDS:\n- {王国|おうこく}: kingdom — a state ruled by a king or queen\n- {帝国|ていこく}: empire — a state ruled by an emperor\n- {君主国|くんしゅこく}: monarchy — a state with a monarchical system",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15857_oukoku",
+      "reading": "おうこく",
+      "headword": "{王国|おうこく}",
+      "label": "kingdom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12420_teikoku",
+      "reading": "ていこく",
+      "headword": "{帝国|ていこく}",
+      "label": "empire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22243_kyouwasei",
+      "reading": "きょうわせい",
+      "headword": "{共和制|きょうわせい}",
+      "label": "republic"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["politics", "society"]
+      "semantic": [
+        "politics",
+        "society"
+      ]
     },
     "created": "2026-04-18T14:23:21Z",
-    "modified": "2026-04-18T14:23:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

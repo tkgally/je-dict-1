@@ -3,7 +3,7 @@
   "id": "20869_fuseikou",
   "headword": "{不成功|ふせいこう}",
   "reading": "ふせいこう",
-  "part_of_speech": "noun / na-adjective",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "failure, lack of success, unsuccessful",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "The experiment ended in failure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20869_fuseikou_ex2",
@@ -27,7 +29,9 @@
       "english": "The negotiations were unsuccessful, but we'll wait for the next opportunity.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20869_fuseikou_ex3",
@@ -35,21 +39,36 @@
       "english": "He experienced failure many times, but kept trying without giving up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A formal word formed with the prefix {不|ふ} (non-, un-) + {成功|せいこう} (success). More literary and stiff than simply saying {失敗|しっぱい}. Often appears in written reports, academic writing, and formal assessments.\n\nThe common set phrase is {不成功|ふせいこう}に{終|お}わる (to end in failure).\n\nCOMMON COLLOCATIONS:\n- {不成功|ふせいこう}に{終|お}わる: to end in failure\n- {不成功|ふせいこう}に{終|お}わった{試|こころ}み: an unsuccessful attempt\n- {不成功|ふせいこう}の{原因|げんいん}: cause of failure\n\nSIMILAR WORDS:\n- {失敗|しっぱい}: failure — the most common, everyday word for failure; can refer to both the act of failing and the resulting state\n- {不成立|ふせいりつ}: failure to materialize — used when something (a deal, agreement, meeting) fails to come together\n- {未成功|みせいこう}: not yet successful — implies the possibility of future success",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01636_shippai",
+      "reading": "しっぱい",
+      "headword": "{失敗|しっぱい}",
+      "label": "failure"
+    }
+  ],
   "metadata": {
     "created": "2026-03-30T19:08:23Z",
-    "modified": "2026-03-30T19:08:23Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }

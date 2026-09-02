@@ -22,7 +22,9 @@
       "id": "22767_kuchikiki_ex1",
       "japanese": "{知人|ちじん}の{口利|くちき}きで{就職|しゅうしょく}できた。",
       "english": "I was able to get a job through a friend's connections.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "22767_kuchikiki_ex2",
       "japanese": "{上司|じょうし}に{口利|くちき}きを{頼|たの}んだ。",
       "english": "I asked my boss to put in a good word for me.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "22767_kuchikiki_ex3",
       "japanese": "{政治家|せいじか}の{口利|くちき}きで{公共事業|こうきょうじぎょう}の{契約|けいやく}が{決|き}まったと{報道|ほうどう}された。",
       "english": "It was reported that the public works contract was decided through a politician's intervention.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "22767_kuchikiki_ex4",
       "japanese": "{彼女|かのじょ}は{口利|くちき}きだから、{交渉|こうしょう}を{任|まか}せよう。",
       "english": "She's a good talker, so let's leave the negotiations to her.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "22767_kuchikiki_ex5",
       "japanese": "あの{人|ひと}は{口利|くちき}きで、{誰|だれ}とでもうまく{話|はな}せる。",
       "english": "He's articulate and can talk smoothly with anyone.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,52 @@
       "id": "22767_kuchikiki_ex6",
       "japanese": "{口利|くちき}きの{営業|えいぎょう}マンは{成績|せいせき}がいい。",
       "english": "Salespeople who are good speakers tend to have good results.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {口|くち} ('mouth') and {利|き}く ('to be effective'). The two senses are quite different: sense 1 is about using social influence to help someone, while sense 2 describes speaking ability.\n\nSense 1 is particularly important to understand in Japanese society, where personal connections ({人脈|じんみゃく}) and introductions play a major role in business, employment, and daily life. The word can be neutral (a helpful introduction) or negative (corrupt political influence), depending on context.\n\nCOMMON COLLOCATIONS:\n- {口利|くちき}きを{頼|たの}む: to ask someone to intervene\n- {口利|くちき}きで{就職|しゅうしょく}する: to get a job through connections\n- {政治家|せいじか}の{口利|くちき}き: a politician's intervention\n- {口利|くちき}き{役|やく}: mediator, go-between\n\nSIMILAR WORDS:\n- {仲介|ちゅうかい}: mediation — more formal and business-oriented; lacks the personal-connection nuance\n- {紹介|しょうかい}: introduction — neutral; simply connecting people without implying influence\n- {斡旋|あっせん}: arrangement, good offices — formal; often used in labor and diplomatic contexts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09718_chuukai",
+      "reading": "ちゅうかい",
+      "headword": "{仲介|ちゅうかい}",
+      "label": "mediation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01432_shoukai",
+      "reading": "しょうかい",
+      "headword": "{紹介|しょうかい}",
+      "label": "introduction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09978_assen",
+      "reading": "あっせん",
+      "headword": "{斡旋|あっせん}",
+      "label": "arrangement, good offices"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["communication", "society"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "communication",
+        "society"
+      ],
       "formality": "neutral",
       "politeness": "plain"
     },
     "created": "2026-04-07T15:25:49Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

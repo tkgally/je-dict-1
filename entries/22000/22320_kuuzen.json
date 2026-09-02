@@ -3,7 +3,7 @@
   "headword": "{空前|くうぜん}",
   "reading": "くうぜん",
   "romaji": "kuuzen",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "unprecedented; unheard-of; record-breaking",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "22320_kuuzen_ex1",
       "japanese": "{空前|くうぜん}の{大|だい}ヒットだ。",
       "english": "It's an unprecedented mega-hit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22320_kuuzen_ex2",
       "japanese": "{空前|くうぜん}の{規模|きぼ}で{開催|かいさい}された。",
       "english": "It was held on an unprecedented scale.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,59 @@
       "id": "22320_kuuzen_ex3",
       "japanese": "このアニメは{空前|くうぜん}{絶後|ぜつご}の{人気|にんき}を{誇|ほこ}り、{世界中|せかいじゅう}でファンが{増|ふ}え{続|つづ}けている。",
       "english": "This anime boasts unprecedented popularity, with fans continuing to grow worldwide.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {空|くう} (empty/void) + {前|ぜん} (before) — literally \"nothing before it.\" Very commonly paired with {絶後|ぜつご} (nothing after) to form the four-character idiom {空前|くうぜん}{絶後|ぜつご} (literally \"nothing before, nothing after\"), meaning completely unprecedented and unrepeatable.\n\nCOMMON COLLOCATIONS:\n- {空前|くうぜん}の{大|だい}ヒット: unprecedented mega-hit\n- {空前|くうぜん}の{規模|きぼ}: unprecedented scale\n- {空前|くうぜん}のブーム: unprecedented boom/craze\n- {空前|くうぜん}{絶後|ぜつご}: unprecedented and unrepeatable\n- {空前|くうぜん}の{売|う}り{上|あ}げ: record-breaking sales\n\nUSAGE:\nTypically used as a の-modifier before nouns ({空前|くうぜん}の〜). Has a positive or neutral connotation, often describing achievements, popularity, or scale rather than disasters.\n\nSIMILAR WORDS:\n- {前代未聞|ぜんだいみもん}: unprecedented — tends toward negative or shocking events\n- {未曾有|みぞう}: unprecedented — often used for disasters or crises\n- {史上|しじょう}{初|はつ}: first in history — more factual/objective",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05949_zendaimimon",
+      "reading": "ぜんだいみもん",
+      "headword": "{前代未聞|ぜんだいみもん}",
+      "label": "unprecedented"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21108_mizou",
+      "reading": "みぞう",
+      "headword": "{未曾有|みぞう}",
+      "label": "unprecedented"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29093_shijouhatsu",
+      "reading": "しじょうはつ",
+      "headword": "{史上初|しじょうはつ}",
+      "label": "first in history"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22547_kidai",
+      "reading": "きだい",
+      "headword": "{希代|きだい}",
+      "label": "rare"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["degree"]
+      "semantic": [
+        "degree"
+      ]
     },
     "created": "2026-04-05T18:27:28Z",
-    "modified": "2026-04-05T18:27:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

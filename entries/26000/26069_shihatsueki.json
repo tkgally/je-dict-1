@@ -17,7 +17,9 @@
       "id": "26069_shihatsueki_ex1",
       "japanese": "ここは{始発駅|しはつえき}だから{座|すわ}れる。",
       "english": "Since this is the starting station, we can get seats.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26069_shihatsueki_ex2",
       "japanese": "{始発駅|しはつえき}から{乗|の}れば{通勤|つうきん}ラッシュでも{座席|ざせき}が{確保|かくほ}できる。",
       "english": "If you board from the starting station, you can secure a seat even during rush hour.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "26069_shihatsueki_ex3",
       "japanese": "この{路線|ろせん}の{始発駅|しはつえき}は{東京駅|とうきょうえき}で、{終点|しゅうてん}は{熱海駅|あたみえき}です。",
       "english": "The starting station of this line is Tokyo Station, and the last stop is Atami Station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {始発|しはつ} (first departure; originating) and {駅|えき} (station). The term refers specifically to the station where a train begins its run, not to a random stop along the way.\n\nCOMMON COLLOCATIONS:\n- {始発駅|しはつえき}から{乗|の}る — to board from the starting station\n- {始発駅|しはつえき}で{並|なら}ぶ — to line up at the starting station\n- {路線|ろせん}の{始発駅|しはつえき} — the starting station of a line\n\nSIMILAR WORDS:\n- {始発|しはつ} — first train/bus of the day (also used as a modifier meaning \"originating\")\n- {終着駅|しゅうちゃくえき} / {終点|しゅうてん} — terminal station; last stop\n- {起点|きてん} — starting point (more abstract; not limited to trains)\n\nCULTURAL NOTE:\nIn Tokyo and other major cities, living near a {始発駅|しはつえき} is valued by commuters because it guarantees a seat on the train. Some people choose apartments near starting stations specifically for this advantage.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23879_shuuchakueki",
+      "reading": "しゅうちゃくえき",
+      "headword": "{終着駅|しゅうちゃくえき}",
+      "label": "terminal station"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05457_shuuten",
+      "reading": "しゅうてん",
+      "headword": "{終点|しゅうてん}",
+      "label": "terminal station"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16254_kiten",
+      "reading": "きてん",
+      "headword": "{起点|きてん}",
+      "label": "starting point (more abstract"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "building"]
+      "semantic": [
+        "transportation",
+        "building"
+      ]
     },
     "created": "2026-04-29T12:33:11Z",
-    "modified": "2026-04-29T12:33:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

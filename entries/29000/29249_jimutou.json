@@ -17,7 +17,9 @@
       "id": "29249_jimutou_ex1",
       "japanese": "{受付|うけつけ}は{事務棟|じむとう}にあります。",
       "english": "The reception is in the office building.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29249_jimutou_ex2",
       "japanese": "{工場|こうじょう}の{隣|となり}に{事務棟|じむとう}が{建|た}っている。",
       "english": "The office building stands next to the factory.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29249_jimutou_ex3",
       "japanese": "{手続|てつづ}きをするには、まず{事務棟|じむとう}の{二階|にかい}に{行|い}ってください。",
       "english": "To complete the paperwork, please first go to the second floor of the administration building.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from {事務|じむ} (office work, administration) + {棟|とう} (a counter and word for a building or wing). Used on campuses, hospital grounds, and factory sites to name the administrative building.\n\nCOMMON COLLOCATIONS:\n- {事務棟|じむとう}の{入口|いりぐち}: the entrance to the office building\n- {本部|ほんぶ}{事務棟|じむとう}: headquarters office building\n\nSIMILAR WORDS:\n- {事務所|じむしょ}: office — a workplace office in general, not specifically a separate building on a larger site\n- {本館|ほんかん}: main building — the principal building of a complex, regardless of its function",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01032_jimusho",
+      "reading": "じむしょ",
+      "headword": "{事務所|じむしょ}",
+      "label": "office"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21133_honkan",
+      "reading": "ほんかん",
+      "headword": "{本館|ほんかん}",
+      "label": "main building"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["building"],
+      "politeness": "plain",
+      "semantic": [
+        "building"
+      ],
       "domain": []
     },
     "created": "2026-06-14T12:18:51Z",
-    "modified": "2026-06-14T12:18:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

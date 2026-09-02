@@ -2,7 +2,7 @@
   "id": "02763_kossetsu",
   "headword": "{骨折|こっせつ}",
   "reading": "こっせつ",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "bone fracture, broken bone",
   "conjugation": {
     "type": "suru",
@@ -151,11 +151,32 @@
       "reading": "けが",
       "headword": "けが",
       "label": "injury"
+    },
+    {
+      "type": "related",
+      "target_id": "05016_nenza",
+      "reading": "ねんざ",
+      "headword": "{捻挫|ねんざ}",
+      "label": "sprain"
+    },
+    {
+      "type": "related",
+      "target_id": "08196_nikubanare",
+      "reading": "にくばなれ",
+      "headword": "{肉離|にくばな}れ",
+      "label": "muscle tear"
+    },
+    {
+      "type": "related",
+      "target_id": "21450_kotsumitsudo",
+      "reading": "こつみつど",
+      "headword": "{骨密度|こつみつど}",
+      "label": "bone density"
     }
   ],
   "metadata": {
     "created": "2026-01-11T07:57:45Z",
-    "modified": "2026-08-12T06:29:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

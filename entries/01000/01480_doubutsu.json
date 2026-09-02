@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{動物|どうぶつ} refers to animals in general, including wild animals and pets.\n\nCOMMON EXPRESSIONS:\n- {動物|どうぶつ}⟦を→を：00422_wo⟧⟦{飼|か}う→飼う：08151_kau⟧: to keep a pet\n- {動物|どうぶつ}⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧: to like animals\n- {動物|どうぶつ}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧: to protect animals\n\nCOMPOUNDS:\n- ⟦{動物園|どうぶつえん}→動物園：01686_doubutsuen⟧: zoo\n- ⟦{野生|やせい}→野生：14439_yasei⟧{動物|どうぶつ}: wild animal\n- {動物|どうぶつ}⟦{愛護|あいご}→愛護：19292_aigo⟧: animal welfare\n- {動物|どうぶつ}⟦{病院|びょういん}→病院：00577_byouin⟧: animal hospital, vet clinic\n\nCONTRAST:\n- {動物|どうぶつ}: animal ↔ ⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧: plant\n- {動物|どうぶつ}: animal ↔ ⟦{人間|にんげん}→人間：03523_ningen⟧: human\n\nRELATED:\n- ⟦ペット→ペット：02959_petto⟧: pet (loanword)\n- ⟦{生物|せいぶつ}→生物：03295_seibutsu⟧: living thing, organism",
+  "notes": "{動物|どうぶつ} refers to animals in general, including wild animals and pets.\n\nCOMMON EXPRESSIONS:\n- {動物|どうぶつ}⟦を→を：00422_wo⟧⟦{飼|か}う→飼う：08151_kau⟧: to keep a pet\n- {動物|どうぶつ}⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧: to like animals\n- {動物|どうぶつ}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧: to protect animals\n\nCOMPOUNDS:\n- ⟦{動物園|どうぶつえん}→動物園：01686_doubutsuen⟧: zoo\n- ⟦{野生|やせい}→野生：14439_yasei⟧{動物|どうぶつ}: wild animal\n- {動物|どうぶつ}⟦{愛護|あいご}→愛護：19292_aigo⟧: animal welfare\n- {動物|どうぶつ}⟦{病院|びょういん}→病院：00577_byouin⟧: animal hospital, vet clinic\n\nSIMILAR WORDS:\n- {動物|どうぶつ}: animal ↔ ⟦{植物|しょくぶつ}→植物：03248_shokubutsu⟧: plant\n- {動物|どうぶつ}: animal ↔ ⟦{人間|にんげん}→人間：03523_ningen⟧: human\n\nRELATED WORDS:\n- ⟦ペット→ペット：02959_petto⟧: pet (loanword)\n- ⟦{生物|せいぶつ}→生物：03295_seibutsu⟧: living thing, organism",
   "cross_references": [
     {
       "type": "antonym",
@@ -78,11 +78,60 @@
       "reading": "にんげん",
       "headword": "{人間|にんげん}",
       "label": "human"
+    },
+    {
+      "type": "related",
+      "target_id": "02959_petto",
+      "reading": "ぺっと",
+      "headword": "ペット",
+      "label": "pet"
+    },
+    {
+      "type": "related",
+      "target_id": "03295_seibutsu",
+      "reading": "せいぶつ",
+      "headword": "{生物|せいぶつ}",
+      "label": "living thing, organism"
+    },
+    {
+      "type": "related",
+      "target_id": "01783_ikimono",
+      "reading": "いきもの",
+      "headword": "{生|い}き{物|もの}",
+      "label": "living thing, creature"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23782_doushokubutsu",
+      "reading": "どうしょくぶつ",
+      "headword": "{動植物|どうしょくぶつ}",
+      "label": "plants and animals"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23791_kemono",
+      "reading": "けもの",
+      "headword": "{獣|けもの}",
+      "label": "beast"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24643_choujuu",
+      "reading": "ちょうじゅう",
+      "headword": "{鳥獣|ちょうじゅう}",
+      "label": "birds and beasts"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25044_hyakujuu",
+      "reading": "ひゃくじゅう",
+      "headword": "{百獣|ひゃくじゅう}",
+      "label": "all beasts"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:15:38Z",
-    "modified": "2026-05-15T18:26:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -54,8 +54,23 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {過去|かこ} ('past') and {形|けい} ('form, shape'). Literally 'past form.'\n\nUSAGE:\n- Primarily a grammatical term used in language teaching, grammar explanations, and linguistic analysis.\n- For Japanese verbs, refers to the plain {~た}-form and polite {~ました}-form; for i-adjectives, to the {~かった}-form; for な-adjectives and nouns, to {~だった}/{~でした}.\n- Often contrasted explicitly with {現在形|げんざいけい} ('present/non-past tense') and {未来形|みらいけい} ('future tense,' mainly for discussions of other languages — Japanese has no dedicated future tense).\n\nCOMMON COLLOCATIONS:\n- {過去形|かこけい}にする: to put into the past tense\n- {過去形|かこけい}で{書|か}く: to write in the past tense\n- {過去形|かこけい}を{使|つか}う: to use the past tense\n- {動詞|どうし}の{過去形|かこけい}: the past tense of a verb\n\nSIMILAR WORDS:\n- {現在形|げんざいけい}: present tense (form) — the direct contrast.\n- {た{形|けい}|たけい}: ta-form — a more specifically Japanese-grammar term for the past form of verbs.\n- {過去|かこ}: the past (as a noun) — the time period itself, not the grammatical form.\n- {時制|じせい}: tense — the broader grammatical category that includes both past and present forms.",
-  "cross_references": [],
+  "notes": "Compound of {過去|かこ} ('past') and {形|けい} ('form, shape'). Literally 'past form.'\n\nUSAGE:\n- Primarily a grammatical term used in language teaching, grammar explanations, and linguistic analysis.\n- For Japanese verbs, refers to the plain {~た}-form and polite {~ました}-form; for i-adjectives, to the {~かった}-form; for な-adjectives and nouns, to {~だった}/{~でした}.\n- Often contrasted explicitly with {現在形|げんざいけい} ('present/non-past tense') and {未来形|みらいけい} ('future tense,' mainly for discussions of other languages — Japanese has no dedicated future tense).\n\nCOMMON COLLOCATIONS:\n- {過去形|かこけい}にする: to put into the past tense\n- {過去形|かこけい}で{書|か}く: to write in the past tense\n- {過去形|かこけい}を{使|つか}う: to use the past tense\n- {動詞|どうし}の{過去形|かこけい}: the past tense of a verb\n\nSIMILAR WORDS:\n- {現在形|げんざいけい}: present tense (form) — the direct contrast.\n- た{形|けい}: ta-form — a more specifically Japanese-grammar term for the past form of verbs.\n- {過去|かこ}: the past (as a noun) — the time period itself, not the grammatical form.\n- {時制|じせい}: tense — the broader grammatical category that includes both past and present forms.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28284_jisei",
+      "reading": "じせい",
+      "headword": "{時制|じせい}",
+      "label": "tense"
+    },
+    {
+      "type": "related",
+      "target_id": "22947_kouteikei",
+      "reading": "こうていけい",
+      "headword": "{肯定形|こうていけい}",
+      "label": "affirmative form"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,6 +86,6 @@
       ]
     },
     "created": "2026-04-15T10:11:37Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

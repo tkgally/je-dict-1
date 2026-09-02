@@ -17,7 +17,9 @@
       "id": "19118_kaibatsu_ex1",
       "japanese": "{海抜|かいばつ}ゼロメートル{地帯|ちたい}。",
       "english": "A zone at sea level.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19118_kaibatsu_ex2",
       "japanese": "この{町|まち}は{海抜|かいばつ}{約|やく}500メートルにある。",
       "english": "This town is at about 500 meters above sea level.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "19118_kaibatsu_ex3",
       "japanese": "{富士山|ふじさん}の{山頂|さんちょう}は{海抜|かいばつ}3,776メートルで、{日本|にほん}で{最|もっと}も{高|たか}い。",
       "english": "The summit of Mt. Fuji is 3,776 meters above sea level, the highest in Japan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "WORD FORMATION:\n{海|かい} (sea) + {抜|ばつ} (above, exceeding). Literally \"above the sea.\"\n\nCOMMON PATTERNS:\n- {海抜|かいばつ}〜メートル: ... meters above sea level\n- {海抜|かいばつ}ゼロメートル{地帯|ちたい}: areas at or below sea level (flood risk zones)\n\nCONTRAST WITH {標高|ひょうこう}:\n- {海抜|かいばつ}: general term, commonly seen on signs and in everyday descriptions\n- {標高|ひょうこう}: more technical, preferred in geography, mountaineering, and scientific writing\n- Both measure height from sea level, but {標高|ひょうこう} is more precise in academic contexts\n\nCOMMON COLLOCATIONS:\n- {海抜|かいばつ}が{高|たか}い: high elevation\n- {海抜|かいばつ}が{低|ひく}い: low elevation\n- {海抜|かいばつ}{表示|ひょうじ}: elevation sign (often seen on utility poles in flood-prone areas)",
+  "notes": "FORMS:\n{海|かい} (sea) + {抜|ばつ} (above, exceeding). Literally \"above the sea.\"\n\nCOMMON PATTERNS:\n- {海抜|かいばつ}〜メートル: ... meters above sea level\n- {海抜|かいばつ}ゼロメートル{地帯|ちたい}: areas at or below sea level (flood risk zones)\n\nCONTRAST WITH {標高|ひょうこう}:\n- {海抜|かいばつ}: general term, commonly seen on signs and in everyday descriptions\n- {標高|ひょうこう}: more technical, preferred in geography, mountaineering, and scientific writing\n- Both measure height from sea level, but {標高|ひょうこう} is more precise in academic contexts\n\nCOMMON COLLOCATIONS:\n- {海抜|かいばつ}が{高|たか}い: high elevation\n- {海抜|かいばつ}が{低|ひく}い: low elevation\n- {海抜|かいばつ}{表示|ひょうじ}: elevation sign (often seen on utility poles in flood-prone areas)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13175_hyoukou",
+      "reading": "ひょうこう",
+      "headword": "{標高|ひょうこう}",
+      "label": "more technical, preferred in geography…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26439_kaisuimen",
+      "reading": "かいすいめん",
+      "headword": "{海水面|かいすいめん}",
+      "label": "sea level"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography", "size"]
+      "semantic": [
+        "geography",
+        "size"
+      ]
     },
     "created": "2026-03-24T09:59:58Z",
-    "modified": "2026-03-30T06:07:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

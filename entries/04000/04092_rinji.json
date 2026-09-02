@@ -78,10 +78,40 @@
       ]
     }
   ],
-  "notes": "USAGE: {臨時|りんじ} functions as a prefix-like modifier and combines with many nouns.\n\nCOMMON COMPOUNDS:\n・{臨時|りんじ}⟦{休業|きゅうぎょう}→休業：11541_kyuugyou⟧ (temporary closure)\n・{臨時|りんじ}⟦ニュース→ニュース：04437_nyuusu⟧ (special news bulletin)\n・{臨時|りんじ}⟦{列車|れっしゃ}→列車：01670_ressha⟧ (extra train)\n・{臨時|りんじ}⟦{収入|しゅうにゅう}→収入：03213_shuunyuu⟧ (unexpected income)\n・{臨時|りんじ}⟦{国会|こっかい}→国会：02761_kokkai⟧ (extraordinary Diet session)\n・{臨時|りんじ}⟦{雇用|こよう}→雇用：04840_koyou⟧ (temporary employment)\n・{臨時|りんじ}⟦{職員|しょくいん}→職員：20206_shokuin⟧ (temporary staff)\n\nRELATED:\n・⟦{一時的|いちじてき}→一時的：05846_ichijiteki⟧ - temporary (adjectival)\n・⟦{特別|とくべつ}→特別：01120_tokubetsu⟧ - special",
+  "notes": "USAGE: {臨時|りんじ} functions as a prefix-like modifier and combines with many nouns.\n\nCOMPOUNDS:\n- {臨時|りんじ}⟦{休業|きゅうぎょう}→休業：11541_kyuugyou⟧ (temporary closure)\n- {臨時|りんじ}⟦ニュース→ニュース：04437_nyuusu⟧ (special news bulletin)\n- {臨時|りんじ}⟦{列車|れっしゃ}→列車：01670_ressha⟧ (extra train)\n- {臨時|りんじ}⟦{収入|しゅうにゅう}→収入：03213_shuunyuu⟧ (unexpected income)\n- {臨時|りんじ}⟦{国会|こっかい}→国会：02761_kokkai⟧ (extraordinary Diet session)\n- {臨時|りんじ}⟦{雇用|こよう}→雇用：04840_koyou⟧ (temporary employment)\n- {臨時|りんじ}⟦{職員|しょくいん}→職員：20206_shokuin⟧ (temporary staff)\n\nRELATED WORDS:\n- ⟦{一時的|いちじてき}→一時的：05846_ichijiteki⟧ - temporary (adjectival)\n- ⟦{特別|とくべつ}→特別：01120_tokubetsu⟧ - special",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05846_ichijiteki",
+      "reading": "いちじてき",
+      "headword": "{一時的|いちじてき}",
+      "label": "temporary"
+    },
+    {
+      "type": "related",
+      "target_id": "01120_tokubetsu",
+      "reading": "とくべつ",
+      "headword": "{特別|とくべつ}",
+      "label": "special"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21123_kasetsu",
+      "reading": "かせつ",
+      "headword": "{仮設|かせつ}",
+      "label": "temporary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26236_hiseiki",
+      "reading": "ひせいき",
+      "headword": "{非正規|ひせいき}",
+      "label": "non-regular"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-05-29T16:21:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -2,7 +2,7 @@
   "id": "02587_kyuusoku",
   "headword": "{休息|きゅうそく}",
   "reading": "きゅうそく",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "rest, relaxation, repose",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{休息|きゅうそく} refers to rest or relaxation, typically to recover from work or exertion.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {休息|きゅうそく}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {休息|きゅうそく}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to take a rest)\n- {休息|きゅうそく}⟦する→する：00392_suru⟧ (to rest)\n- ⟦{十分|じゅうぶん}→十分：01614_juubun⟧な{休息|きゅうそく} (sufficient rest)\n\nCOMPOUND WORDS:\n- {休息|きゅうそく}⟦{時間|じかん}→時間：00468_jikan⟧ (rest time, break time)\n- {休息|きゅうそく}⟦{所|しょ}→所：01137_tokoro⟧ (rest area, rest stop)\n\nHOMOPHONE:\n- ⟦{急速|きゅうそく}→急速：02634_kyuusoku⟧ (rapid) - different meaning, same pronunciation\n\nSIMILAR WORDS:\n- ⟦{休憩|きゅうけい}→休憩：00262_kyuukei⟧: break, rest (shorter, during work)\n- ⟦{休養|きゅうよう}→休養：11450_kyuuyou⟧: rest, recuperation (for health)\n- ⟦{安息|あんそく}→安息：27893_ansoku⟧: rest, peace (more literary)",
+  "notes": "{休息|きゅうそく} refers to rest or relaxation, typically to recover from work or exertion.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {休息|きゅうそく}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {休息|きゅうそく}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to take a rest)\n- {休息|きゅうそく}⟦する→する：00392_suru⟧ (to rest)\n- ⟦{十分|じゅうぶん}→十分：01614_juubun⟧な{休息|きゅうそく} (sufficient rest)\n\nCOMPOUNDS:\n- {休息|きゅうそく}⟦{時間|じかん}→時間：00468_jikan⟧ (rest time, break time)\n- {休息|きゅうそく}⟦{所|しょ}→所：01137_tokoro⟧ (rest area, rest stop)\n\nWATCH OUT:\n- ⟦{急速|きゅうそく}→急速：02634_kyuusoku⟧ (rapid) - different meaning, same pronunciation\n\nSIMILAR WORDS:\n- ⟦{休憩|きゅうけい}→休憩：00262_kyuukei⟧: break, rest (shorter, during work)\n- ⟦{休養|きゅうよう}→休養：11450_kyuuyou⟧: rest, recuperation (for health)\n- ⟦{安息|あんそく}→安息：27893_ansoku⟧: rest, peace (more literary)",
   "cross_references": [
     {
       "type": "synonym",
@@ -141,11 +141,25 @@
       "headword": "{休憩|きゅうけい}",
       "label": "break",
       "target_id": "00262_kyuukei"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11450_kyuuyou",
+      "reading": "きゅうよう",
+      "headword": "{休養|きゅうよう}",
+      "label": "rest, recuperation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27893_ansoku",
+      "reading": "あんそく",
+      "headword": "安息",
+      "label": "rest, peace"
     }
   ],
   "metadata": {
     "created": "2026-01-11T10:15:52Z",
-    "modified": "2026-08-12T06:28:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

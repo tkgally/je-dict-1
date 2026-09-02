@@ -19,7 +19,9 @@
       "english": "This area is within commuting distance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16392_kennai_ex2",
@@ -27,7 +29,9 @@
       "english": "The phone signal came back into range.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16392_kennai_ex3",
@@ -35,10 +39,12 @@
       "english": "The population within the capital region is increasing year by year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{圏内|けんない} is typically used with a preceding noun that specifies the type of range or zone: {通勤|つうきん}{圏内|けんない} (commuting range), {首都|しゅと}{圏内|けんない} (within the capital region), etc. It is also commonly used for mobile phone signal coverage.\n\nCOMMON COLLOCATIONS:\n- {通勤|つうきん}{圏内|けんない} (within commuting distance)\n- {首都|しゅと}{圏内|けんない} (within the greater capital area)\n- {圏内|けんない}に{入|はい}る (to come within range)\n- {射程|しゃてい}{圏内|けんない} (within firing range)\n- {勢力|せいりょく}{圏内|けんない} (within a sphere of influence)\n\nCONTRAST:\n{圏外|けんがい} is the antonym, meaning outside the range or out of coverage. On mobile phones, {圏外|けんがい} is the indicator shown when there is no signal.",
+  "notes": "USAGE:\n{圏内|けんない} is typically used with a preceding noun that specifies the type of range or zone: {通勤|つうきん}{圏内|けんない} (commuting range), {首都|しゅと}{圏内|けんない} (within the capital region), etc. It is also commonly used for mobile phone signal coverage.\n\nCOMMON COLLOCATIONS:\n- {通勤|つうきん}{圏内|けんない} (within commuting distance)\n- {首都|しゅと}{圏内|けんない} (within the greater capital area)\n- {圏内|けんない}に{入|はい}る (to come within range)\n- {射程|しゃてい}{圏内|けんない} (within firing range)\n- {勢力|せいりょく}{圏内|けんない} (within a sphere of influence)\n\nSIMILAR WORDS:\n{圏外|けんがい} is the antonym, meaning outside the range or out of coverage. On mobile phones, {圏外|けんがい} is the indicator shown when there is no signal.",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,36 @@
       "reading": "けんがい",
       "headword": "{圏外|けんがい}",
       "label": "outside range"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25429_haninai",
+      "reading": "はんいない",
+      "headword": "{範囲内|はんいない}",
+      "label": "within range"
+    },
+    {
+      "type": "antonym",
+      "target_id": "26741_tsuushinken",
+      "reading": "つうしんけん",
+      "headword": "{通信圏|つうしんけん}",
+      "label": "coverage area"
     }
   ],
   "metadata": {
     "created": "2026-03-12T05:16:43Z",
-    "modified": "2026-05-03T09:07:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

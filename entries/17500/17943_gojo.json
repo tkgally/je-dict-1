@@ -19,7 +19,9 @@
       "english": "Mutual aid in the community is important.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17943_gojo_ex2",
@@ -27,7 +29,9 @@
       "english": "Let's help each other in the spirit of mutual aid.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17943_gojo_ex3",
@@ -35,21 +39,49 @@
       "english": "During disasters, mutual aid among neighboring residents plays an important role.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften appears in the context of Japan's disaster preparedness framework, which distinguishes between {自助|じじょ} (self-help), {互助|ごじょ}/{共助|きょうじょ} (mutual/community aid), and {公助|こうじょ} (public assistance). Also used for mutual aid associations ({互助会|ごじょかい}).\n\nCOMMON COLLOCATIONS:\n- {互助|ごじょ}の{精神|せいしん} (spirit of mutual aid)\n- {互助会|ごじょかい} (mutual aid association)\n- {互助|ごじょ}{制度|せいど} (mutual aid system)\n\nSIMILAR WORDS:\n- {共助|きょうじょ}: communal aid — similar but emphasizes community-level cooperation\n- {自助|じじょ}: self-help — helping oneself\n- {公助|こうじょ}: public assistance — government aid",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22215_kyoujo",
+      "reading": "きょうじょ",
+      "headword": "{共助|きょうじょ}",
+      "label": "communal aid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22216_sougofujo",
+      "reading": "そうごふじょ",
+      "headword": "{相互扶助|そうごふじょ}",
+      "label": "mutual aid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22533_gokei",
+      "reading": "ごけい",
+      "headword": "{互恵|ごけい}",
+      "label": "mutual benefit"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T09:19:24Z",
-    "modified": "2026-03-19T09:19:24Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["society"],
+      "semantic": [
+        "society"
+      ],
       "domain": []
     }
   }

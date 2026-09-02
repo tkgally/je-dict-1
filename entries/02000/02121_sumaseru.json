@@ -218,11 +218,40 @@
       ]
     }
   ],
-  "notes": "{済|す}ませる means to finish, complete, or settle something. It emphasizes getting something done or out of the way.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: ⟦{済|す}む→済む：01950_sumu⟧ (intransitive - to be finished/done)\n\nCOMMON PATTERNS:\n- X⟦を→を：00422_wo⟧{済|す}ませる: to finish X\n- X⟦で→で：00502_de⟧{済|す}ませる: to settle with X, to manage with just X\n- ⟦{先|さき}→先：02883_saki⟧⟦に→に：00314_ni⟧{済|す}ませる: to get done first\n- ⟦{早|はや}く→早く：02935_hayaku⟧{済|す}ませる: to finish quickly\n\nCOMMON COLLOCATIONS:\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧{済|す}ませる: to finish work\n- ⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦を→を：00422_wo⟧{済|す}ませる: to finish a meal\n- ⟦{用事|ようじ}→用事：01520_youji⟧⟦を→を：00422_wo⟧{済|す}ませる: to finish errands\n- ⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦を→を：00422_wo⟧{済|す}ませる: to complete procedures\n\nSIMILAR VERBS:\n- ⟦{終|お}える→終える：02019_oeru⟧: to finish, complete (neutral)\n- {済|す}ませる: to get done, settle (emphasis on disposing of)\n- ⟦{片付|かたづ}ける→片付ける：01192_katazukeru⟧: to tidy up, finish off",
-  "cross_references": [],
+  "notes": "{済|す}ませる means to finish, complete, or settle something. It emphasizes getting something done or out of the way.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: ⟦{済|す}む→済む：01950_sumu⟧ (intransitive - to be finished/done)\n\nCOMMON PATTERNS:\n- X⟦を→を：00422_wo⟧{済|す}ませる: to finish X\n- X⟦で→で：00502_de⟧{済|す}ませる: to settle with X, to manage with just X\n- ⟦{先|さき}→先：02883_saki⟧⟦に→に：00314_ni⟧{済|す}ませる: to get done first\n- ⟦{早|はや}く→早く：02935_hayaku⟧{済|す}ませる: to finish quickly\n\nCOMMON COLLOCATIONS:\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧{済|す}ませる: to finish work\n- ⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦を→を：00422_wo⟧{済|す}ませる: to finish a meal\n- ⟦{用事|ようじ}→用事：01520_youji⟧⟦を→を：00422_wo⟧{済|す}ませる: to finish errands\n- ⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦を→を：00422_wo⟧{済|す}ませる: to complete procedures\n\nSIMILAR WORDS:\n- ⟦{終|お}える→終える：02019_oeru⟧: to finish, complete (neutral)\n- {済|す}ませる: to get done, settle (emphasis on disposing of)\n- ⟦{片付|かたづ}ける→片付ける：01192_katazukeru⟧: to tidy up, finish off",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02019_oeru",
+      "reading": "おえる",
+      "headword": "{終|お}える",
+      "label": "to finish, complete"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01192_katazukeru",
+      "reading": "かたづける",
+      "headword": "{片付|かたづ}ける",
+      "label": "to tidy up, finish off"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30174_yarikiru",
+      "reading": "やりきる",
+      "headword": "やり切る",
+      "label": "to see through to the end"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30385_maniawaseru",
+      "reading": "まにあわせる",
+      "headword": "{間|ま}に{合|あ}わせる",
+      "label": "to get done in time"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:02:13Z",
-    "modified": "2026-05-18T15:06:40Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

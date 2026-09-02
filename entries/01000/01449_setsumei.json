@@ -2,7 +2,7 @@
   "id": "01449_setsumei",
   "headword": "{説明|せつめい}",
   "reading": "せつめい",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "explanation",
   "definitions": [
     {
@@ -43,11 +43,40 @@
       ]
     }
   ],
-  "notes": "{説明|せつめい} means explanation or description. As a verbal noun, it forms {説明|せつめい}⟦する→する：00392_suru⟧ (to explain).\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{説明|せつめい}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {説明|せつめい}⟦する→する：00392_suru⟧: to explain\n- {説明|せつめい}⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧: to listen to an explanation\n- {説明|せつめい}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive an explanation\n- ～⟦について→〜について：03103_nitsuite⟧{説明|せつめい}⟦する→する：00392_suru⟧: to explain about ~\n\nCOMMON COMPOUNDS:\n- ⟦{説明書|せつめいしょ}→説明書：19368_setsumeisho⟧: instruction manual\n- ⟦{説明会|せつめいかい}→説明会：03087_setsumeikai⟧: information session, briefing\n- ⟦{自己|じこ}→自己：23357_jiko⟧{説明|せつめい}: self-explanation\n\nSIMILAR WORDS:\n- ⟦{解説|かいせつ}→解説：00138_kaisetsu⟧: commentary, detailed explanation\n- ⟦{紹介|しょうかい}→紹介：01432_shoukai⟧: introduction\n- ⟦{案内|あんない}→案内：01291_annai⟧: guidance, information\n\nThe phrase {説明|せつめい}⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧ (explanation is insufficient) is common for expressing that something wasn't explained well enough.",
-  "cross_references": [],
+  "notes": "{説明|せつめい} means explanation or description. As a verbal noun, it forms {説明|せつめい}⟦する→する：00392_suru⟧ (to explain).\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{説明|せつめい}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {説明|せつめい}⟦する→する：00392_suru⟧: to explain\n- {説明|せつめい}⟦を→を：00422_wo⟧⟦{聞|き}く→聞く：00483_kiku⟧: to listen to an explanation\n- {説明|せつめい}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive an explanation\n- ～⟦について→〜について：03103_nitsuite⟧{説明|せつめい}⟦する→する：00392_suru⟧: to explain about ~\n\nCOMPOUNDS:\n- ⟦{説明書|せつめいしょ}→説明書：19368_setsumeisho⟧: instruction manual\n- ⟦{説明会|せつめいかい}→説明会：03087_setsumeikai⟧: information session, briefing\n- ⟦{自己|じこ}→自己：23357_jiko⟧{説明|せつめい}: self-explanation\n\nSIMILAR WORDS:\n- ⟦{解説|かいせつ}→解説：00138_kaisetsu⟧: commentary, detailed explanation\n- ⟦{紹介|しょうかい}→紹介：01432_shoukai⟧: introduction\n- ⟦{案内|あんない}→案内：01291_annai⟧: guidance, information\n\nThe phrase {説明|せつめい}⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧ (explanation is insufficient) is common for expressing that something wasn't explained well enough.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00138_kaisetsu",
+      "reading": "かいせつ",
+      "headword": "{解説|かいせつ}",
+      "label": "commentary, detailed explanation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01432_shoukai",
+      "reading": "しょうかい",
+      "headword": "{紹介|しょうかい}",
+      "label": "introduction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01291_annai",
+      "reading": "あんない",
+      "headword": "{案内|あんない}",
+      "label": "guidance, information"
+    },
+    {
+      "type": "related",
+      "target_id": "04789_teigi",
+      "reading": "ていぎ",
+      "headword": "{定義|ていぎ}",
+      "label": "definition"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:59:21Z",
-    "modified": "2026-05-15T17:10:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

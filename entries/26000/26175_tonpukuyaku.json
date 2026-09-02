@@ -45,7 +45,29 @@
     }
   ],
   "notes": "{頓服|とんぷく} by itself means taking medicine on an as-needed basis, and {頓服薬|とんぷくやく} specifies the medication itself. Common examples include painkillers, sleep aids, and anti-anxiety medication. In medical contexts, this corresponds to the abbreviation PRN (pro re nata, Latin for \"as the situation arises\").\n\nCOMMON COLLOCATIONS:\n- {頓服|とんぷく}で{飲|の}む — to take (medicine) on an as-needed basis\n- {頓服|とんぷく}{処方|しょほう} — as-needed prescription\n- {痛|いた}み{止|ど}めの{頓服薬|とんぷくやく} — painkiller for as-needed use\n\nSIMILAR WORDS:\n- {常用薬|じょうようやく} — regularly taken medicine (the opposite: medicine taken on a fixed schedule)\n- {市販薬|しはんやく} — over-the-counter medicine\n- {処方薬|しょほうやく} — prescription medicine",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25994_jouyouyaku",
+      "reading": "じょうようやく",
+      "headword": "{常用薬|じょうようやく}",
+      "label": "regularly taken medicine (the opposite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09834_shihanyaku",
+      "reading": "しはんやく",
+      "headword": "{市販薬|しはんやく}",
+      "label": "over-the-counter medicine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18860_shohouyaku",
+      "reading": "しょほうやく",
+      "headword": "{処方薬|しょほうやく}",
+      "label": "prescription medicine"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +75,13 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health"
       ]
     },
     "created": "2026-04-29T16:30:34Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

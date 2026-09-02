@@ -19,7 +19,9 @@
       "english": "I helped with unloading the truck.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17064_nioroshi_ex2",
@@ -27,7 +29,9 @@
       "english": "Please do the unloading from the back entrance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17064_nioroshi_ex3",
@@ -35,7 +39,9 @@
       "english": "We don't have enough people because there's a large volume of cargo to unload.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed in logistics, delivery, and warehouse contexts. Also appears on signs at commercial buildings indicating unloading zones.\n\nCOMMON COLLOCATIONS:\n- {荷下|にお}ろし{作業|さぎょう} (unloading work)\n- {荷下|にお}ろし{場|ば} (unloading area)\n- {荷下|にお}ろしをする (to unload)\n\nSIMILAR WORDS:\n- {荷積|にづ}み: loading cargo — the opposite action\n- {搬入|はんにゅう}: carrying in — bringing goods into a building, broader than just unloading from a vehicle",
@@ -46,18 +52,37 @@
       "reading": "にづみ",
       "headword": "{荷積|にづ}み",
       "label": "loading cargo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16523_hannyuu",
+      "reading": "はんにゅう",
+      "headword": "{搬入|はんにゅう}",
+      "label": "carrying in"
+    },
+    {
+      "type": "related",
+      "target_id": "09801_tsumioroshi",
+      "reading": "つみおろし",
+      "headword": "{積|つ}み{下|お}ろし",
+      "label": "loading and unloading"
     }
   ],
   "metadata": {
     "created": "2026-03-15T09:48:00Z",
-    "modified": "2026-05-05T08:12:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work", "transportation"]
+      "semantic": [
+        "work",
+        "transportation"
+      ]
     }
   }
 }

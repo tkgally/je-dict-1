@@ -56,6 +56,36 @@
   ],
   "notes": "Composed of {端|は} (edge, fraction, fragment) and {数|すう} (number). Refers to the inconvenient leftover portion of a number that prevents it from being round. Most commonly encountered when dealing with money — splitting bills, calculating tax, making change — but also applies to measurements and data.\n\nIn financial contexts, {端数|はすう} is handled by either {切|き}り{捨|す}て (rounding down), {切|き}り{上|あ}げ (rounding up), or {四捨五入|ししゃごにゅう} (standard rounding). These are standard terms in Japanese arithmetic and accounting.\n\nCOMMON COLLOCATIONS:\n- {端数|はすう}を{切|き}り{捨|す}てる: to round down the fraction\n- {端数|はすう}を{切|き}り{上|あ}げる: to round up the fraction\n- {端数|はすう}が{出|で}る: a fractional amount arises\n- {端数|はすう}{処理|しょり}: fractional amount handling (in accounting/programming)\n\nSIMILAR WORDS:\n- {余|あま}り: remainder — the mathematical remainder from division; more general\n- {小数点|しょうすうてん}: decimal point — related concept but refers to the notation, not the amount\n- {半端|はんぱ}: incomplete, odd — describes something that is not a full unit; broader in meaning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17255_amari",
+      "reading": "あまり",
+      "headword": "{余|あま}り",
+      "label": "remainder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30724_shousuuten",
+      "reading": "しょうすうてん",
+      "headword": "{小数点|しょうすうてん}",
+      "label": "decimal point"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08657_hanpa",
+      "reading": "はんぱ",
+      "headword": "{半端|はんぱ}",
+      "label": "incomplete, odd"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24883_gaisuu",
+      "reading": "がいすう",
+      "headword": "{概数|がいすう}",
+      "label": "approximate number"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -70,6 +100,6 @@
       ]
     },
     "created": "2026-04-12T14:07:46Z",
-    "modified": "2026-08-01T21:36:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

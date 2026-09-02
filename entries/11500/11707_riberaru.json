@@ -2,7 +2,7 @@
   "id": "11707_riberaru",
   "headword": "リベラル",
   "reading": "りべらる",
-  "part_of_speech": "na-adjective / noun",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "liberal",
   "schema_version": "2.0",
   "definitions": [
@@ -19,7 +19,9 @@
       "english": "He has a liberal way of thinking.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11707_riberaru_ex2",
@@ -27,7 +29,9 @@
       "english": "The conflict between liberals and conservatives continues.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11707_riberaru_ex3",
@@ -35,21 +39,45 @@
       "english": "This university is known for its liberal atmosphere, and diverse values are respected.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Borrowed from English \"liberal.\" Used both as a na-adjective and as a noun in political and social contexts.\n\nCOMMON COLLOCATIONS:\n・リベラルな{考|かんが}え{方|かた} (liberal way of thinking)\n・リベラル{派|は} (liberal faction, liberals)\n・リベラルアーツ (liberal arts)\n・リベラルな{政策|せいさく} (liberal policies)\n\nDISTINCTIONS:\n・リベラル: progressive, open-minded (loanword; often used in political discourse)\n・{革新|かくしん}{的|てき}: progressive, reformist (more formal, native Japanese term)\n・{保守|ほしゅ}{的|てき}: conservative (the opposite)",
-  "cross_references": [],
+  "notes": "Borrowed from English \"liberal.\" Used both as a na-adjective and as a noun in political and social contexts.\n\nCOMMON COLLOCATIONS:\n- リベラルな{考|かんが}え{方|かた} (liberal way of thinking)\n- リベラル{派|は} (liberal faction, liberals)\n- リベラルアーツ (liberal arts)\n- リベラルな{政策|せいさく} (liberal policies)\n\nSIMILAR WORDS:\n- リベラル: progressive, open-minded (loanword; often used in political discourse)\n- {革新|かくしん}{的|てき}: progressive, reformist (more formal, native Japanese term)\n- {保守|ほしゅ}{的|てき}: conservative (the opposite)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05662_kakushinteki",
+      "reading": "かくしんてき",
+      "headword": "{革新的|かくしんてき}",
+      "label": "progressive, reformist"
+    },
+    {
+      "type": "antonym",
+      "target_id": "06176_hoshuteki",
+      "reading": "ほしゅてき",
+      "headword": "{保守的|ほしゅてき}",
+      "label": "conservative"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T21:36:47Z",
-    "modified": "2026-02-17T21:36:47Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

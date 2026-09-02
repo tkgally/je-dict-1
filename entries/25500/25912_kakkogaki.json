@@ -17,7 +17,9 @@
       "id": "25912_kakkogaki_ex1",
       "japanese": "{括弧|かっこ}{書|が}きで{補足|ほそく}を{加|くわ}えた。",
       "english": "I added a supplementary note in parentheses.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25912_kakkogaki_ex2",
       "japanese": "{括弧|かっこ}{書|が}きの{部分|ぶぶん}は{省略|しょうりゃく}しても{構|かま}いません。",
       "english": "You may omit the part in parentheses.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,51 @@
       "id": "25912_kakkogaki_ex3",
       "japanese": "{法律|ほうりつ}の{条文|じょうぶん}には{括弧|かっこ}{書|が}きが{多|おお}く、{読|よ}みづらいと{感|かん}じる{人|ひと}も{少|すく}なくない。",
       "english": "Legal texts contain many parenthetical annotations, and not a few people find them hard to read.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {括弧|かっこ} (parentheses; brackets) + {書|が}き (writing). Refers to the act of writing in parentheses or the resulting parenthetical text itself. Very common in formal writing, legal documents, and academic texts where supplementary information or readings need to be provided.\n\nCOMMON COLLOCATIONS:\n- {括弧|かっこ}{書|が}きで{示|しめ}す: to indicate in parentheses\n- {括弧|かっこ}{書|が}きの{部分|ぶぶん}: the parenthetical portion\n- {括弧|かっこ}{書|が}きを{省略|しょうりゃく}する: to omit the parenthetical\n- {括弧|かっこ}{書|が}きで{読|よ}み{方|かた}を{示|しめ}す: to show the reading in parentheses\n\nSIMILAR WORDS:\n- {注釈|ちゅうしゃく}: annotation; explanatory note — broader term for any kind of explanatory addition\n- {補足|ほそく}: supplement; addition — the content being added, not specifically in brackets\n- {脚注|きゃくちゅう}: footnote — an annotation placed at the bottom of a page",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09766_chuushaku",
+      "reading": "ちゅうしゃく",
+      "headword": "{注釈|ちゅうしゃく}",
+      "label": "annotation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08386_hosoku",
+      "reading": "ほそく",
+      "headword": "{補足|ほそく}",
+      "label": "supplement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06423_kyakuchuu",
+      "reading": "きゃくちゅう",
+      "headword": "{脚注|きゃくちゅう}",
+      "label": "footnote"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["communication", "language"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "communication",
+        "language"
+      ]
     },
     "created": "2026-04-28T12:22:00Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

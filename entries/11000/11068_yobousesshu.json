@@ -19,7 +19,9 @@
       "english": "I got vaccinated.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11068_yobousesshu_ex2",
@@ -27,7 +29,9 @@
       "english": "I get a flu vaccination every year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11068_yobousesshu_ex3",
@@ -35,10 +39,12 @@
       "english": "Please check the children's vaccination schedule.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A compound of {予防|よぼう} (prevention) and {接種|せっしゅ} (inoculation). This is the formal term for vaccination, used in medical and official contexts.\n\nUSAGE:\nThe standard expression is {予防接種|よぼうせっしゅ}を{受|う}ける (to receive a vaccination). In casual speech, ワクチンを{打|う}つ (to get a shot) is more common.\n\nCOMMON COLLOCATIONS:\n- {予防接種|よぼうせっしゅ}を{受|う}ける: to get vaccinated\n- {予防接種|よぼうせっしゅ}{証明書|しょうめいしょ}: vaccination certificate\n- {定期|ていき}{予防接種|よぼうせっしゅ}: routine/scheduled vaccination\n- {任意|にんい}{予防接種|よぼうせっしゅ}: optional vaccination\n\nIN JAPAN:\nJapan distinguishes between {定期|ていき} (routine, government-covered) and {任意|にんい} (optional, self-pay) vaccinations. Routine vaccinations for children are administered at local clinics with a {母子手帳|ぼしてちょう} (maternal and child health handbook).",
+  "notes": "A compound of {予防|よぼう} (prevention) and {接種|せっしゅ} (inoculation). This is the formal term for vaccination, used in medical and official contexts.\n\nUSAGE:\nThe standard expression is {予防接種|よぼうせっしゅ}を{受|う}ける (to receive a vaccination). In casual speech, ワクチンを{打|う}つ (to get a shot) is more common.\n\nCOMMON COLLOCATIONS:\n- {予防接種|よぼうせっしゅ}を{受|う}ける: to get vaccinated\n- {予防接種|よぼうせっしゅ}{証明書|しょうめいしょ}: vaccination certificate\n- {定期|ていき}{予防接種|よぼうせっしゅ}: routine/scheduled vaccination\n- {任意|にんい}{予防接種|よぼうせっしゅ}: optional vaccination\n\nCULTURAL NOTE:\nJapan distinguishes between {定期|ていき} (routine, government-covered) and {任意|にんい} (optional, self-pay) vaccinations. Routine vaccinations for children are administered at local clinics with a {母子手帳|ぼしてちょう} (maternal and child health handbook).",
   "cross_references": [
     {
       "type": "related",
@@ -46,19 +52,39 @@
       "reading": "わくちん",
       "headword": "ワクチン",
       "label": "vaccine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26253_sesshuritsu",
+      "reading": "せっしゅりつ",
+      "headword": "{接種率|せっしゅりつ}",
+      "label": "vaccination rate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26389_sesshuken",
+      "reading": "せっしゅけん",
+      "headword": "{接種券|せっしゅけん}",
+      "label": "vaccination voucher"
     }
   ],
   "metadata": {
     "created": "2026-02-13T05:17:28Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

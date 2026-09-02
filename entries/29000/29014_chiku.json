@@ -46,6 +46,22 @@
   ],
   "notes": "Derived from the verb {築|きず}く (to build, to construct), but read ちく in this prefix usage. Appears in real estate listings and casual descriptions of a building's age. The fixed pattern is {築|ちく} + number + {年|ねん}.\n\nCOMMON PATTERNS:\n- {築|ちく}〜{年|ねん}: built ~ years ago\n- {築|ちく}{浅|あさ}: recently built (literally \"newly built\")\n- {築|ちく}{古|ふる}: old building (less common but used in listings)\n- {築|ちく}{年数|ねんすう}: years since construction (the count itself)\n\nSIMILAR WORDS:\n- {新築|しんちく}: newly built — a building that has never been occupied\n- {中古|ちゅうこ}: secondhand, used — for a previously-occupied property\n- {古民家|こみんか}: traditional old house — typically 50+ years old, often with historic value",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03479_chuuko",
+      "reading": "ちゅうこ",
+      "headword": "{中古|ちゅうこ}",
+      "label": "secondhand, used"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11833_kominka",
+      "reading": "こみんか",
+      "headword": "{古民家|こみんか}",
+      "label": "traditional old house"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "prefix"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "building"
       ],
       "domain": []
     },
     "created": "2026-06-08T08:27:42Z",
-    "modified": "2026-08-09T06:33:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

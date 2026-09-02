@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "PATTERNS:\n・{区分|くぶん}する (to divide, to classify)\n・〜⟦{別|べつ}→別：01216_betsu⟧に{区分|くぶん}する (to classify by...)\n・{区分|くぶん}が⟦{明確|めいかく}→明確：01664_meikaku⟧ (clear classification)\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]を{区分|くぶん}する\n\nTYPES:\n・⟦{年齢|ねんれい}→年齢：01490_nenrei⟧{区分|くぶん} (age classification)\n・⟦{時間|じかん}→時間：00468_jikan⟧{区分|くぶん} (time division)\n・⟦{料金|りょうきん}→料金：03797_ryoukin⟧{区分|くぶん} (fare classification)\n・⟦{所有|しょゆう}→所有：12752_shoyuu⟧{区分|くぶん} (ownership division)\n\nCOMPOUND:\n・{区分|くぶん}⟦{所有|しょゆう}→所有：12752_shoyuu⟧ (sectional ownership - condominiums)\n\nSIMILAR WORDS:\n・⟦{分類|ぶんるい}→分類：04790_bunrui⟧ (classification - more formal)\n・⟦{区別|くべつ}→区別：01555_kubetsu⟧ (distinction - between things)\n・⟦{分割|ぶんかつ}→分割：11745_bunkatsu⟧ (division - splitting up)\n・⟦{仕分|しわ}け→仕分け：07917_shiwake⟧ (sorting, categorizing)",
+  "notes": "COMMON PATTERNS:\n- {区分|くぶん}する (to divide, to classify)\n- 〜⟦{別|べつ}→別：01216_betsu⟧に{区分|くぶん}する (to classify by...)\n- {区分|くぶん}が⟦{明確|めいかく}→明確：01664_meikaku⟧ (clear classification)\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]を{区分|くぶん}する\n\nTYPES:\n- ⟦{年齢|ねんれい}→年齢：01490_nenrei⟧{区分|くぶん} (age classification)\n- ⟦{時間|じかん}→時間：00468_jikan⟧{区分|くぶん} (time division)\n- ⟦{料金|りょうきん}→料金：03797_ryoukin⟧{区分|くぶん} (fare classification)\n- ⟦{所有|しょゆう}→所有：12752_shoyuu⟧{区分|くぶん} (ownership division)\n\nCOMPOUNDS:\n- {区分|くぶん}⟦{所有|しょゆう}→所有：12752_shoyuu⟧ (sectional ownership - condominiums)\n\nSIMILAR WORDS:\n- ⟦{分類|ぶんるい}→分類：04790_bunrui⟧ (classification - more formal)\n- ⟦{区別|くべつ}→区別：01555_kubetsu⟧ (distinction - between things)\n- ⟦{分割|ぶんかつ}→分割：11745_bunkatsu⟧ (division - splitting up)\n- ⟦{仕分|しわ}け→仕分け：07917_shiwake⟧ (sorting, categorizing)",
   "cross_references": [
     {
       "type": "related",
@@ -148,11 +148,39 @@
       "headword": "{区別|くべつ}",
       "label": "distinction",
       "target_id": "01555_kubetsu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11745_bunkatsu",
+      "reading": "ぶんかつ",
+      "headword": "{分割|ぶんかつ}",
+      "label": "division"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07917_shiwake",
+      "reading": "しわけ",
+      "headword": "{仕分|しわ}け",
+      "label": "sorting, categorizing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11930_kukaku",
+      "reading": "くかく",
+      "headword": "{区画|くかく}",
+      "label": "block, section, lot, partition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25224_bunruisuru",
+      "reading": "ぶんるいする",
+      "headword": "{分類|ぶんるい}する",
+      "label": "to classify"
     }
   ],
   "metadata": {
     "created": "2026-01-13T10:53:53Z",
-    "modified": "2026-05-10T00:07:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

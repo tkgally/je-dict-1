@@ -17,7 +17,9 @@
       "id": "27194_sekiranun_ex1",
       "japanese": "{積乱雲|せきらんうん}が{発生|はっせい}している。",
       "english": "A cumulonimbus cloud is forming.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27194_sekiranun_ex2",
       "japanese": "{夏|なつ}は{積乱雲|せきらんうん}が{発達|はったつ}しやすく、{夕立|ゆうだち}の{原因|げんいん}になる。",
       "english": "Cumulonimbus clouds tend to develop easily in summer, causing sudden evening showers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,68 @@
       "id": "27194_sekiranun_ex3",
       "japanese": "{気象庁|きしょうちょう}は{積乱雲|せきらんうん}の{急速|きゅうそく}な{発達|はったつ}に{注意|ちゅうい}するよう{呼|よ}びかけた。",
       "english": "The Japan Meteorological Agency called for caution regarding the rapid development of cumulonimbus clouds.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {積|せき} (accumulate) + {乱|らん} (turbulent) + {雲|うん} (cloud). This is the formal meteorological term used in weather forecasts and science education. In everyday Japanese, the same cloud type is often called {入道雲|にゅうどうぐも} (literally \"priest cloud,\" referring to the bald-headed shape).\n\nCOMMON COLLOCATIONS:\n- {積乱雲|せきらんうん}が{発達|はったつ}する: cumulonimbus clouds develop\n- {積乱雲|せきらんうん}が{発生|はっせい}する: cumulonimbus clouds form\n- {積乱雲|せきらんうん}に{注意|ちゅうい}: watch out for cumulonimbus\n- {発達|はったつ}した{積乱雲|せきらんうん}: well-developed cumulonimbus\n\nRELATED TERMS:\n- {入道雲|にゅうどうぐも}: everyday name for towering cumulonimbus (summer cloud)\n- {雷雲|らいうん}: thundercloud (general term)\n- {積雲|せきうん}: cumulus cloud (the smaller, fluffy type)\n- {乱層雲|らんそううん}: nimbostratus (rain-producing layer cloud)",
+  "notes": "A compound of {積|せき} (accumulate) + {乱|らん} (turbulent) + {雲|うん} (cloud). This is the formal meteorological term used in weather forecasts and science education. In everyday Japanese, the same cloud type is often called {入道雲|にゅうどうぐも} (literally \"priest cloud,\" referring to the bald-headed shape).\n\nCOMMON COLLOCATIONS:\n- {積乱雲|せきらんうん}が{発達|はったつ}する: cumulonimbus clouds develop\n- {積乱雲|せきらんうん}が{発生|はっせい}する: cumulonimbus clouds form\n- {積乱雲|せきらんうん}に{注意|ちゅうい}: watch out for cumulonimbus\n- {発達|はったつ}した{積乱雲|せきらんうん}: well-developed cumulonimbus\n\nRELATED WORDS:\n- {入道雲|にゅうどうぐも}: everyday name for towering cumulonimbus (summer cloud)\n- {雷雲|らいうん}: thundercloud (general term)\n- {積雲|せきうん}: cumulus cloud (the smaller, fluffy type)\n- {乱層雲|らんそううん}: nimbostratus (rain-producing layer cloud)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10085_nyuudougumo",
+      "reading": "にゅうどうぐも",
+      "headword": "{入道雲|にゅうどうぐも}",
+      "label": "everyday name for towering cumulonimbus"
+    },
+    {
+      "type": "related",
+      "target_id": "27189_raiun",
+      "reading": "らいうん",
+      "headword": "{雷雲|らいうん}",
+      "label": "thundercloud"
+    },
+    {
+      "type": "related",
+      "target_id": "23702_sekiun",
+      "reading": "せきうん",
+      "headword": "{積雲|せきうん}",
+      "label": "cumulus cloud"
+    },
+    {
+      "type": "related",
+      "target_id": "26208_kousouun",
+      "reading": "こうそううん",
+      "headword": "{高層雲|こうそううん}",
+      "label": "altostratus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29514_kousekiun",
+      "reading": "こうせきうん",
+      "headword": "{高積雲|こうせきうん}",
+      "label": "altocumulus cloud"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["weather"],
-      "domain": ["academic"]
+      "semantic": [
+        "weather"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-05-07T15:22:11Z",
-    "modified": "2026-05-07T15:22:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

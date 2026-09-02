@@ -19,7 +19,9 @@
       "english": "To fill the rice paddies with water.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13262_suiden_ex2",
@@ -27,7 +29,9 @@
       "english": "Vast rice paddies were visible from the train window.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13262_suiden_ex3",
@@ -35,7 +39,9 @@
       "english": "The area of rice paddies in Japan has been continuously decreasing with the modernization of agriculture.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{水田|すいでん} is the formal/written term for rice paddies. The everyday word is {田|た}んぼ (rice paddy). {水田|すいでん} is used in news, academic, and agricultural contexts. It contrasts with {畑|はたけ} (dry field) and {田畑|たはた} (fields in general). The character {水|すい} (water) distinguishes it as a wet-cultivation field.\n\nCOMMON COLLOCATIONS:\n- {水田|すいでん}{地帯|ちたい}: rice paddy region\n- {水田|すいでん}{農業|のうぎょう}: wet-rice agriculture\n- {水田|すいでん}{面積|めんせき}: rice paddy area\n- {水田|すいでん}に{水|みず}を{張|は}る: to flood the paddies",
@@ -53,19 +59,53 @@
       "reading": "はたけ",
       "headword": "{畑|はたけ}",
       "label": "dry field"
+    },
+    {
+      "type": "related",
+      "target_id": "06429_kangai",
+      "reading": "かんがい",
+      "headword": "{灌漑|かんがい}",
+      "label": "irrigation"
+    },
+    {
+      "type": "related",
+      "target_id": "09494_inasaku",
+      "reading": "いなさく",
+      "headword": "{稲作|いなさく}",
+      "label": "rice cultivation, rice farming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26176_inada",
+      "reading": "いなだ",
+      "headword": "{稲田|いなだ}",
+      "label": "rice paddy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27970_suitou",
+      "reading": "すいとう",
+      "headword": "{水稲|すいとう}",
+      "label": "paddy rice"
     }
   ],
   "metadata": {
     "created": "2026-02-24T07:28:27Z",
-    "modified": "2026-04-28T08:04:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["geography"],
-      "domain": ["technical"]
+      "semantic": [
+        "geography"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

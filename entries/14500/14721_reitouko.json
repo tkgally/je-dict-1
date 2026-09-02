@@ -19,7 +19,9 @@
       "english": "Put the ice cream in the freezer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14721_reitouko_ex2",
@@ -27,7 +29,9 @@
       "english": "The freezer is full and nothing else fits.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14721_reitouko_ex3",
@@ -35,7 +39,9 @@
       "english": "If you store the leftover meat in the freezer, it will keep for about a month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Part of a set of related appliance terms: {冷蔵庫|れいぞうこ} (refrigerator), {冷凍庫|れいとうこ} (freezer), {冷凍室|れいとうしつ} (freezer compartment). Many Japanese refrigerators have a separate {冷凍室|れいとうしつ} drawer, distinct from a standalone {冷凍庫|れいとうこ}.\n\nCOMMON COLLOCATIONS:\n- {冷凍庫|れいとうこ}に{入|い}れる (to put in the freezer)\n- {冷凍庫|れいとうこ}から{出|だ}す (to take out of the freezer)\n- {冷凍庫|れいとうこ}で{保存|ほぞん}する (to store in the freezer)",
@@ -53,18 +59,43 @@
       "reading": "れいとう",
       "headword": "{冷凍|れいとう}",
       "label": "freezing"
+    },
+    {
+      "type": "related",
+      "target_id": "02100_kooru",
+      "reading": "こおる",
+      "headword": "{凍|こお}る",
+      "label": "to freeze, to be frozen"
+    },
+    {
+      "type": "related",
+      "target_id": "06075_reitoushokuhin",
+      "reading": "れいとうしょくひん",
+      "headword": "{冷凍食品|れいとうしょくひん}",
+      "label": "frozen food"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22293_reitoushitsu",
+      "reading": "れいとうしつ",
+      "headword": "{冷凍室|れいとうしつ}",
+      "label": "freezer"
     }
   ],
   "metadata": {
     "created": "2026-03-03T09:45:14Z",
-    "modified": "2026-04-30T10:24:44Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["electronics"]
+      "semantic": [
+        "electronics"
+      ]
     }
   }
 }

@@ -22,7 +22,9 @@
       "id": "26005_mewotsuburu_ex1",
       "japanese": "{目|め}をつぶってください。",
       "english": "Please close your eyes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "26005_mewotsuburu_ex2",
       "japanese": "{子|こ}どもたちは{目|め}をつぶって{数|かず}を{数|かぞ}えた。",
       "english": "The children closed their eyes and counted.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "26005_mewotsuburu_ex3",
       "japanese": "{怖|こわ}い{場面|ばめん}では{思|おも}わず{目|め}をつぶってしまう。",
       "english": "I involuntarily close my eyes during scary scenes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "26005_mewotsuburu_ex4",
       "japanese": "{今回|こんかい}は{目|め}をつぶろう。",
       "english": "I'll let it slide this time.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "26005_mewotsuburu_ex5",
       "japanese": "{小|ちい}さなミスには{目|め}をつぶるべきだ。",
       "english": "You should overlook minor mistakes.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,21 +72,59 @@
       "id": "26005_mewotsuburu_ex6",
       "japanese": "{品質|ひんしつ}の{問題|もんだい}に{目|め}をつぶるわけにはいかない。",
       "english": "We can't turn a blind eye to quality issues.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A common expression with both a literal and figurative meaning. The figurative sense of deliberately ignoring something is widely used in daily conversation and business contexts.\n\nCOMMON COLLOCATIONS:\n- {目|め}をつぶってください: please close your eyes\n- {欠点|けってん}に{目|め}をつぶる: overlook a flaw\n- {今回|こんかい}は{目|め}をつぶる: let it go this time\n- {見|み}て{見|み}ぬふりをする: pretend not to see (close synonym)\n\nSIMILAR WORDS:\n- {目|め}をそらす: to avert one's eyes — physically or figuratively looking away, but implies avoidance rather than forgiveness\n- {大目|おおめ}に{見|み}る: to be lenient — specifically about showing leniency, always figurative\n- {見逃|みのが}す: to overlook; to miss — can be either intentional or accidental",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04576_minogasu",
+      "reading": "みのがす",
+      "headword": "{見逃|みのが}す",
+      "label": "to overlook"
+    },
+    {
+      "type": "related",
+      "target_id": "06485_mabataki",
+      "reading": "まばたき",
+      "headword": "{瞬|まばた}き",
+      "label": "blink"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18848_mewosomukeru",
+      "reading": "めをそむける",
+      "headword": "{目|め}をそむける",
+      "label": "to avert one's eyes"
+    },
+    {
+      "type": "related",
+      "target_id": "19363_mewotojiru",
+      "reading": "めをとじる",
+      "headword": "{目|め}を{閉|と}じる",
+      "label": "to close one's eyes"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
-      "semantic": ["body-part", "evaluation"]
+      "pos": [
+        "expression"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "body-part",
+        "evaluation"
+      ]
     },
     "created": "2026-04-28T16:08:59Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

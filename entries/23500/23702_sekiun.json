@@ -17,7 +17,9 @@
       "id": "23702_sekiun_ex1",
       "japanese": "{空|そら}に{積雲|せきうん}が{浮|う}かぶ。",
       "english": "Cumulus clouds float in the sky.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23702_sekiun_ex2",
       "japanese": "{夏|なつ}の{午後|ごご}は{積雲|せきうん}がよく{発達|はったつ}する。",
       "english": "Cumulus clouds often develop well on summer afternoons.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23702_sekiun_ex3",
       "japanese": "{積雲|せきうん}は{白|しろ}くて{綿|わた}のような{形|かたち}をしている。",
       "english": "Cumulus clouds are white and shaped like cotton.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,59 @@
       "id": "23702_sekiun_ex4",
       "japanese": "{積雲|せきうん}が{大|おお}きく{発達|はったつ}すると、やがて{積乱雲|せきらんうん}になり{雷雨|らいう}をもたらすことがある。",
       "english": "When cumulus clouds develop greatly, they can eventually become cumulonimbus and bring thunderstorms.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {積|せき} (pile up, accumulate) and {雲|うん} (cloud). One of the ten standard cloud classifications ({十|じゅう}{種|しゅ}{雲形|うんけい}) used in meteorology.\n\nUSAGE:\n- A technical meteorological term but widely recognized in everyday contexts (weather reports, science textbooks).\n- Used as a plain noun; does not take する.\n\nCOMMON COLLOCATIONS:\n- {積雲|せきうん}が{発達|はったつ}する: cumulus clouds develop\n- {積雲|せきうん}が{浮|う}かぶ: cumulus clouds float (in the sky)\n- {夏|なつ}の{積雲|せきうん}: summer cumulus clouds\n\nRELATED TERMS:\n- {積乱雲|せきらんうん}: cumulonimbus — a towering, thundercloud form developed from cumulus\n- {層雲|そううん}: stratus — flat, layered low clouds\n- {巻雲|けんうん}: cirrus — wispy high-altitude clouds\n- {入道雲|にゅうどうぐも}: thunderhead (colloquial) — everyday word for a large cumulus/cumulonimbus",
+  "notes": "Composed of {積|せき} (pile up, accumulate) and {雲|うん} (cloud). One of the ten standard cloud classifications ({十|じゅう}{種|しゅ}{雲形|うんけい}) used in meteorology.\n\nUSAGE:\n- A technical meteorological term but widely recognized in everyday contexts (weather reports, science textbooks).\n- Used as a plain noun; does not take する.\n\nCOMMON COLLOCATIONS:\n- {積雲|せきうん}が{発達|はったつ}する: cumulus clouds develop\n- {積雲|せきうん}が{浮|う}かぶ: cumulus clouds float (in the sky)\n- {夏|なつ}の{積雲|せきうん}: summer cumulus clouds\n\nRELATED WORDS:\n- {積乱雲|せきらんうん}: cumulonimbus — a towering, thundercloud form developed from cumulus\n- {層雲|そううん}: stratus — flat, layered low clouds\n- {巻雲|けんうん}: cirrus — wispy high-altitude clouds\n- {入道雲|にゅうどうぐも}: thunderhead (colloquial) — everyday word for a large cumulus/cumulonimbus",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27194_sekiranun",
+      "reading": "せきらんうん",
+      "headword": "{積乱雲|せきらんうん}",
+      "label": "cumulonimbus"
+    },
+    {
+      "type": "related",
+      "target_id": "23703_souun",
+      "reading": "そううん",
+      "headword": "{層雲|そううん}",
+      "label": "stratus"
+    },
+    {
+      "type": "related",
+      "target_id": "21944_kenun",
+      "reading": "けんうん",
+      "headword": "{巻雲|けんうん}",
+      "label": "cirrus"
+    },
+    {
+      "type": "related",
+      "target_id": "10085_nyuudougumo",
+      "reading": "にゅうどうぐも",
+      "headword": "{入道雲|にゅうどうぐも}",
+      "label": "thunderhead"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature", "weather"]
+      "semantic": [
+        "nature",
+        "weather"
+      ]
     },
     "created": "2026-04-14T14:04:47Z",
-    "modified": "2026-04-14T14:04:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

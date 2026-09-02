@@ -3,7 +3,7 @@
   "headword": "{拝承|はいしょう}",
   "reading": "はいしょう",
   "romaji": "haishou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "acknowledged; understood (humble)",
   "definitions": [
     {
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {拝|はい} (humble prefix: to humbly do) + {承|しょう} (to receive, to hear). One of the most formal acknowledgment expressions in Japanese. Used almost exclusively in business correspondence and formal written communication.\n\nREGISTER:\nThis is extremely formal and humble. In everyday business, {承知|しょうち}しました or {了解|りょうかい}しました are more typical. {拝承|はいしょう} signals maximum respect and deference.\n\nSIMILAR WORDS:\n- {承知|しょうち}: understood, acknowledged — formal but less humble\n- {了解|りょうかい}: understood, roger — common in business; less formal\n- {了承|りょうしょう}: consent, understanding — used when accepting a condition\n- {かしこまりました}: understood (very polite) — a spoken equivalent in customer service",
+  "notes": "Composed of {拝|はい} (humble prefix: to humbly do) + {承|しょう} (to receive, to hear). One of the most formal acknowledgment expressions in Japanese. Used almost exclusively in business correspondence and formal written communication.\n\nREGISTER:\nThis is extremely formal and humble. In everyday business, {承知|しょうち}しました or {了解|りょうかい}しました are more typical. {拝承|はいしょう} signals maximum respect and deference.\n\nSIMILAR WORDS:\n- {承知|しょうち}: understood, acknowledged — formal but less humble\n- {了解|りょうかい}: understood, roger — common in business; less formal\n- {了承|りょうしょう}: consent, understanding — used when accepting a condition\n- かしこまりました: understood (very polite) — a spoken equivalent in customer service",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02086_shouchi",
+      "reading": "しょうち",
+      "headword": "{承知|しょうち}",
+      "label": "understood, acknowledged"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05091_ryoukai",
+      "reading": "りょうかい",
+      "headword": "{了解|りょうかい}",
+      "label": "understood, roger"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11415_ryoushou",
+      "reading": "りょうしょう",
+      "headword": "{了承|りょうしょう}",
+      "label": "consent, understanding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19682_kashikomarimashita",
+      "reading": "かしこまりました",
+      "headword": "かしこまりました",
+      "label": "understood"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-07T19:16:05Z",
-    "modified": "2026-04-07T19:16:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

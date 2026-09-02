@@ -4,7 +4,7 @@
   "headword": "{考証|こうしょう}",
   "reading": "こうしょう",
   "romaji": "koushou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "historical research; verification of historical accuracy",
   "definitions": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "id": "24567_koushou_ex3",
-      "japanese": "この{映画|えいが}は{考証|こうしょう}が{甘|あま}く、{歴史|れきし}{ファン|ふぁん}から{批判|ひはん}を{受|う}けた。",
+      "japanese": "この{映画|えいが}は{考証|こうしょう}が{甘|あま}く、{歴史|れきし}ファンから{批判|ひはん}を{受|う}けた。",
       "english": "This movie had poor historical accuracy and was criticized by history fans.",
       "sense_numbers": [
         1
@@ -46,10 +46,32 @@
     }
   ],
   "notes": "Composed of {考|こう} (to think/examine) and {証|しょう} (evidence/proof). Most commonly encountered as {時代|じだい}{考証|こうしょう} (period verification), the process of checking historical accuracy in TV dramas, movies, and novels. NHK's {大河|たいが}ドラマ (historical drama series) always credits a {時代|じだい}{考証|こうしょう} specialist.\n\nCOMMON COLLOCATIONS:\n- {時代|じだい}{考証|こうしょう}: period-accuracy research\n- {考証|こうしょう}が{甘|あま}い: historically inaccurate (lit. \"verification is loose\")\n- {考証|こうしょう}を{行|おこな}う: to conduct historical verification\n- {考証|こうしょう}{担当|たんとう}: person in charge of historical accuracy\n\nSIMILAR WORDS:\n- {検証|けんしょう}: verification — broader term for any kind of investigation or proof\n- {考察|こうさつ}: consideration, analysis — intellectual examination of a topic\n- {実証|じっしょう}: empirical proof — proving something through evidence or experiment",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04792_kenshou",
+      "reading": "けんしょう",
+      "headword": "{検証|けんしょう}",
+      "label": "verification"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02736_kousatsu",
+      "reading": "こうさつ",
+      "headword": "{考察|こうさつ}",
+      "label": "consideration, analysis"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12350_jisshou",
+      "reading": "じっしょう",
+      "headword": "{実証|じっしょう}",
+      "label": "empirical proof"
+    }
+  ],
   "metadata": {
     "created": "2026-04-19T15:15:24Z",
-    "modified": "2026-08-03T09:22:27Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

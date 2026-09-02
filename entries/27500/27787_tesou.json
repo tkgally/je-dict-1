@@ -17,7 +17,9 @@
       "id": "27787_tesou_ex1",
       "japanese": "{手相|てそう}を{見|み}てもらう。",
       "english": "To have one's palm read.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27787_tesou_ex2",
       "japanese": "{彼女|かのじょ}は{手相|てそう}に{詳|くわ}しい。",
       "english": "She knows a lot about palmistry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "27787_tesou_ex3",
       "japanese": "{占|うらな}い{師|し}は{私|わたし}の{手相|てそう}を{見|み}て、{長生|ながい}きすると{言|い}った。",
       "english": "The fortune-teller looked at my palm and said I would live a long life.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The pattern of lines on the palm, and the practice of reading them to tell fortunes. The verb {見|み}る is used for reading a palm.\n\nCOMMON COLLOCATIONS:\n- {手相|てそう}を{見|み}る: to read a palm\n- {手相|てそう}を{見|み}てもらう: to have one's palm read\n- {手相|てそう}{占|うらな}い: palm reading\n\nSIMILAR WORDS:\n- {人相|にんそう}: physiognomy — reading character and fortune from the face instead of the palm\n- {運勢|うんせい}: one's fortune; luck — the fortune itself that such reading reveals",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15761_unsei",
+      "reading": "うんせい",
+      "headword": "{運勢|うんせい}",
+      "label": "one's fortune"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26422_shoumon",
+      "reading": "しょうもん",
+      "headword": "{掌紋|しょうもん}",
+      "label": "palm print"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["culture"],
+      "politeness": "plain",
+      "semantic": [
+        "culture"
+      ],
       "domain": []
     },
     "created": "2026-05-18T04:14:41Z",
-    "modified": "2026-05-18T04:14:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

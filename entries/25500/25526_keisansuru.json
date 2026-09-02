@@ -3,7 +3,7 @@
   "headword": "{計算|けいさん}する",
   "reading": "けいさんする",
   "romaji": "keisansuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to calculate; to compute",
   "definitions": [
     {
@@ -80,7 +80,29 @@
     }
   ],
   "notes": "{計算|けいさん}する covers both literal mathematical calculation and figurative strategic thinking. In the figurative sense, {計算高|けいさんだか}い describes a person who is calculating or shrewd.\n\nUSAGE:\nThe object of calculation takes を: ～を{計算|けいさん}する.\n\nCOMMON COLLOCATIONS:\n- {合計|ごうけい}を{計算|けいさん}する: calculate the total\n- コストを{計算|けいさん}する: calculate the cost\n- {暗算|あんざん}で{計算|けいさん}する: calculate mentally\n- {電卓|でんたく}で{計算|けいさん}する: calculate with a calculator\n- {損得|そんとく}を{計算|けいさん}する: weigh the pros and cons\n\nSIMILAR WORDS:\n- {算出|さんしゅつ}する: to compute — more formal, used for deriving specific figures from data\n- {見積|みつ}もる: to estimate — focuses on approximation rather than exact calculation\n- {数|かぞ}える: to count — counting items rather than performing arithmetic",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15350_sanshutsu",
+      "reading": "さんしゅつ",
+      "headword": "{算出|さんしゅつ}",
+      "label": "to compute"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14132_mitsumoru",
+      "reading": "みつもる",
+      "headword": "{見積|みつ}もる",
+      "label": "to estimate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01926_kazoeru",
+      "reading": "かぞえる",
+      "headword": "{数|かぞ}える",
+      "label": "to count"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -89,6 +111,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "number",
         "cognition"
@@ -97,7 +120,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T16:11:54Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

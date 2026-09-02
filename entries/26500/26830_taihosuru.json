@@ -3,7 +3,7 @@
   "headword": "{逮捕|たいほ}する",
   "reading": "たいほする",
   "romaji": "taihosuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to arrest; to apprehend",
   "definitions": [
     {
@@ -55,7 +55,29 @@
     }
   ],
   "notes": "Extremely common in news broadcasts and newspaper articles. The passive form {逮捕|たいほ}される (to be arrested) appears more frequently than the active form in news reporting.\n\nCOMMON COLLOCATIONS:\n- {現行犯|げんこうはん}{逮捕|たいほ}: caught in the act\n- {緊急|きんきゅう}{逮捕|たいほ}: emergency arrest\n- {逮捕|たいほ}{状|じょう}: arrest warrant\n- {逮捕|たいほ}{容疑|ようぎ}: charges at arrest\n- {不当|ふとう}{逮捕|たいほ}: wrongful arrest\n\nSIMILAR WORDS:\n- {捕|つか}まえる: to catch — general catching, not necessarily by authorities\n- {検挙|けんきょ}する: to apprehend — police term focusing on detection and arrest\n- {拘束|こうそく}する: to detain — broader term for restricting someone's freedom",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01214_tsukamaeru",
+      "reading": "つかまえる",
+      "headword": "{捕|つか}まえる",
+      "label": "to catch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20938_kousokusuru",
+      "reading": "こうそくする",
+      "headword": "{拘束|こうそく}する",
+      "label": "to detain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28563_toriosaeru",
+      "reading": "とりおさえる",
+      "headword": "{取|と}り{押|お}さえる",
+      "label": "to restrain"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,7 +93,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T13:05:23Z",
-    "modified": "2026-05-05T13:05:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

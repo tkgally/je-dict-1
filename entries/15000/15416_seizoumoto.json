@@ -19,7 +19,9 @@
       "english": "I contacted the manufacturer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15416_seizoumoto_ex2",
@@ -27,7 +29,9 @@
       "english": "The manufacturer is written on the back of the label.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15416_seizoumoto_ex3",
@@ -35,22 +39,45 @@
       "english": "Defective products were found, so the manufacturer announced a full recall.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{製造元|せいぞうもと} specifically refers to the entity that manufactures a product, as opposed to the seller or distributor. It is a standard term found on product packaging in Japan.\n\nCOMMON COLLOCATIONS:\n- {製造元|せいぞうもと}に{連絡|れんらく}する (to contact the manufacturer)\n- {製造元|せいぞうもと}{不明|ふめい} (manufacturer unknown)\n- {製造元|せいぞうもと}{直送|ちょくそう} (shipped directly from the manufacturer)\n\nRELATED WORDS:\n- {販売元|はんばいもと}: seller, distributor\n- {製造者|せいぞうしゃ}: manufacturer (person/entity)\n- メーカー: maker (loanword)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24327_hanbaimoto",
+      "reading": "はんばいもと",
+      "headword": "{販売元|はんばいもと}",
+      "label": "seller, distributor"
+    },
+    {
+      "type": "related",
+      "target_id": "11158_meekaa",
+      "reading": "めーかー",
+      "headword": "メーカー",
+      "label": "maker"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T13:43:30Z",
-    "modified": "2026-03-06T13:43:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

@@ -17,7 +17,9 @@
       "id": "23320_mabikiunten_ex1",
       "japanese": "{台風|たいふう}のため{間引|まび}き{運転|うんてん}を{実施|じっし}している。",
       "english": "We are operating reduced service because of the typhoon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23320_mabikiunten_ex2",
       "japanese": "{電車|でんしゃ}が{間引|まび}き{運転|うんてん}になっているので{注意|ちゅうい}してください。",
       "english": "Please note that the trains are running on a reduced schedule.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23320_mabikiunten_ex3",
       "japanese": "{大雪|おおゆき}の{影響|えいきょう}で、{朝|あさ}の{通勤|つうきん}{時間帯|じかんたい}に{間引|まび}き{運転|うんてん}が{行|おこな}われた。",
       "english": "Due to the heavy snow, reduced service was in effect during the morning commute.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,51 @@
       "id": "23320_mabikiunten_ex4",
       "japanese": "{運転士|うんてんし}{不足|ぶそく}のため、{一部|いちぶ}の{路線|ろせん}で{間引|まび}き{運転|うんてん}が{続|つづ}いている。",
       "english": "Due to a shortage of drivers, reduced service continues on some lines.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {間引|まび}き (thinning out) + {運転|うんてん} (operation, running). The verb {間引|まび}く originally refers to thinning out seedlings in a garden — removing some so that the rest have room to grow — and is used metaphorically to describe removing scheduled runs from a transit timetable.\n\nCOMMON COLLOCATIONS:\n- {間引|まび}き{運転|うんてん}を{実施|じっし}する: to implement reduced service\n- {間引|まび}き{運転|うんてん}を{行|おこな}う: to operate on a reduced schedule\n- {間引|まび}き{運転|うんてん}になる: to go on a reduced schedule\n- {間引|まび}き{運転|うんてん}が{続|つづ}く: reduced service continues\n- {一部|いちぶ}{区間|くかん}で{間引|まび}き{運転|うんてん}: reduced service on a partial section of the line\n\nRELATED TERMS:\n- {運休|うんきゅう}: service suspension — more extreme; no runs at all\n- {遅延|ちえん}: delay — trains still run but behind schedule\n- {折返|おりかえ}し{運転|うんてん}: shuttle operation — trains turn back partway due to a blocked section\n- {徐行|じょこう}{運転|うんてん}: slow operation — trains run at reduced speed\n- {平常|へいじょう}{運転|うんてん}: normal operation — the baseline\n\nUSAGE:\n{間引|まび}き{運転|うんてん} is one of several standard railway terms heard in Japanese station announcements and news reports during service disruptions. Passengers expect longer waits between trains on the affected line.",
+  "notes": "Composed of {間引|まび}き (thinning out) + {運転|うんてん} (operation, running). The verb {間引|まび}く originally refers to thinning out seedlings in a garden — removing some so that the rest have room to grow — and is used metaphorically to describe removing scheduled runs from a transit timetable.\n\nCOMMON COLLOCATIONS:\n- {間引|まび}き{運転|うんてん}を{実施|じっし}する: to implement reduced service\n- {間引|まび}き{運転|うんてん}を{行|おこな}う: to operate on a reduced schedule\n- {間引|まび}き{運転|うんてん}になる: to go on a reduced schedule\n- {間引|まび}き{運転|うんてん}が{続|つづ}く: reduced service continues\n- {一部|いちぶ}{区間|くかん}で{間引|まび}き{運転|うんてん}: reduced service on a partial section of the line\n\nRELATED WORDS:\n- {運休|うんきゅう}: service suspension — more extreme; no runs at all\n- {遅延|ちえん}: delay — trains still run but behind schedule\n- {折返|おりかえ}し{運転|うんてん}: shuttle operation — trains turn back partway due to a blocked section\n- {徐行|じょこう}{運転|うんてん}: slow operation — trains run at reduced speed\n- {平常|へいじょう}{運転|うんてん}: normal operation — the baseline\n\nUSAGE:\n{間引|まび}き{運転|うんてん} is one of several standard railway terms heard in Japanese station announcements and news reports during service disruptions. Passengers expect longer waits between trains on the affected line.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06807_unkyuu",
+      "reading": "うんきゅう",
+      "headword": "{運休|うんきゅう}",
+      "label": "service suspension"
+    },
+    {
+      "type": "related",
+      "target_id": "06749_chien",
+      "reading": "ちえん",
+      "headword": "{遅延|ちえん}",
+      "label": "delay"
+    },
+    {
+      "type": "related",
+      "target_id": "23323_orikaeshiunten",
+      "reading": "おりかえしうんてん",
+      "headword": "{折返|おりかえ}し{運転|うんてん}",
+      "label": "shuttle operation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-04-11T17:04:08Z",
-    "modified": "2026-04-11T17:04:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

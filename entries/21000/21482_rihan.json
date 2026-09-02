@@ -3,7 +3,7 @@
   "headword": "{離反|りはん}",
   "reading": "りはん",
   "romaji": "rihan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "defection; estrangement; turning against; breaking away",
   "conjugation": {
     "type": "suru",
@@ -135,6 +135,22 @@
     }
   ],
   "notes": "Describes the act of turning away from or breaking ties with a group, leader, or cause that one previously supported. Combines {離|り} (separation) and {反|はん} (opposition), emphasizing both distancing and opposition.\n\nUSAGE:\n- Most commonly used in political, organizational, and social contexts\n- Can describe both the act of defecting and the resulting state of estrangement\n- Often implies a betrayal of trust or loyalty\n\nCOMMON COLLOCATIONS:\n- {離反|りはん}を{招|まね}く: to invite defection/estrangement\n- {支持者|しじしゃ}の{離反|りはん}: defection of supporters\n- {離反|りはん}{行為|こうい}: act of defection\n- {党|とう}から{離反|りはん}する: to defect from the party\n\nSIMILAR WORDS:\n- {離脱|りだつ}: withdrawal, secession — more neutral, simply leaving a group\n- {裏切|うらぎ}り: betrayal — stronger emotional charge; implies deliberate treachery\n- {反旗|はんき}を{翻|ひるがえ}す: to raise the flag of revolt — more dramatic and decisive\n- {造反|ぞうはん}: rebellion, revolt — implies organized opposition within a group",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14583_ridatsu",
+      "reading": "りだつ",
+      "headword": "{離脱|りだつ}",
+      "label": "withdrawal, secession"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17967_uragiri",
+      "reading": "うらぎり",
+      "headword": "{裏切|うらぎ}り",
+      "label": "betrayal"
+    }
+  ],
   "metadata": {
     "entry_id": "21482_rihan",
     "schema_version": "2.0",
@@ -146,6 +162,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "politics",
         "society"
@@ -156,6 +174,6 @@
       "usage": [],
       "verb_class": "suru"
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

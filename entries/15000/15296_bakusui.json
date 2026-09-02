@@ -3,7 +3,7 @@
   "id": "15296_bakusui",
   "headword": "{爆睡|ばくすい}",
   "reading": "ばくすい",
-  "part_of_speech": "noun / noun (する verb)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sleeping like a log; dead sleep",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,25 @@
     }
   ],
   "notes": "USAGE:\n{爆睡|ばくすい} is a colloquial, casual word popular especially among younger speakers. The {爆|ばく} (explosion) prefix intensifies the meaning, similar to how {爆笑|ばくしょう} means \"roaring laughter.\"\n\nCOMMON COLLOCATIONS:\n- {爆睡|ばくすい}する (to sleep like a log)\n- {爆睡|ばくすい}してしまう (to end up in a dead sleep)\n- {爆睡|ばくすい}{中|ちゅう} (in a deep sleep)\n\nREGISTER:\nThis is an informal, spoken word. In formal writing, use {熟睡|じゅくすい} (sound sleep) instead.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11079_jukusui",
+      "reading": "じゅくすい",
+      "headword": "{熟睡|じゅくすい}",
+      "label": "deep sleep, sound sleep"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25394_jukusuisuru",
+      "reading": "じゅくすいする",
+      "headword": "{熟睡|じゅくすい}する",
+      "label": "to sleep soundly"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T08:51:33Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

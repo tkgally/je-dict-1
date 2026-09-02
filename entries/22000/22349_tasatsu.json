@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A forensic and legal term used to classify death as having been caused by another person. It contrasts with {自殺|じさつ} (suicide), {事故死|じこし} (accidental death), and {病死|びょうし} (death by illness).\n\nCOMMON COLLOCATIONS:\n- {他殺|たさつ}の{疑|うたが}い: suspicion of homicide\n- {他殺|たさつ}と{断定|だんてい}する: to determine as homicide\n- {他殺|たさつ}{体|たい}: body of a homicide victim\n\nSIMILAR WORDS:\n- {殺人|さつじん}: murder — focuses on the criminal act\n- {殺害|さつがい}: killing — the act of killing someone\n- {自殺|じさつ}: suicide — death by one's own hand (opposite concept)\n\nFORMATION:\n{他|た} (other person) + {殺|さつ} (killing). Literally 'killing by another.'",
+  "notes": "A forensic and legal term used to classify death as having been caused by another person. It contrasts with {自殺|じさつ} (suicide), {事故死|じこし} (accidental death), and {病死|びょうし} (death by illness).\n\nCOMMON COLLOCATIONS:\n- {他殺|たさつ}の{疑|うたが}い: suspicion of homicide\n- {他殺|たさつ}と{断定|だんてい}する: to determine as homicide\n- {他殺|たさつ}{体|たい}: body of a homicide victim\n\nSIMILAR WORDS:\n- {殺人|さつじん}: murder — focuses on the criminal act\n- {殺害|さつがい}: killing — the act of killing someone\n- {自殺|じさつ}: suicide — death by one's own hand (opposite concept)\n\nFORMS:\n{他|た} (other person) + {殺|さつ} (killing). Literally 'killing by another.'",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13236_satsujin",
+      "reading": "さつじん",
+      "headword": "{殺人|さつじん}",
+      "label": "murder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13226_satsugai",
+      "reading": "さつがい",
+      "headword": "{殺害|さつがい}",
+      "label": "killing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03336_jisatsu",
+      "reading": "じさつ",
+      "headword": "{自殺|じさつ}",
+      "label": "suicide"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-05T19:21:20Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

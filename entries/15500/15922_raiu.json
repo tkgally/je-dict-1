@@ -19,7 +19,9 @@
       "english": "There was a thunderstorm from the afternoon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15922_raiu_ex2",
@@ -27,7 +29,9 @@
       "english": "The game was canceled due to a heavy thunderstorm.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15922_raiu_ex3",
@@ -35,7 +39,9 @@
       "english": "According to the weather forecast, there's a possibility of thunderstorms tonight.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{雷雨|らいう} specifically refers to rain accompanied by thunder and lightning. It is a standard weather term used in both everyday conversation and weather forecasts.\n\nCOMMON COLLOCATIONS:\n- {激|はげ}しい{雷雨|らいう} (heavy thunderstorm)\n- {雷雨|らいう}に{見舞|みま}われる (to be hit by a thunderstorm)\n- {雷雨|らいう}{注意報|ちゅういほう} (thunderstorm advisory)\n\nSIMILAR WORDS:\n{雷|かみなり} refers to thunder or lightning alone, while {雷雨|らいう} specifically means a rainstorm with thunder. {夕立|ゆうだち} is a sudden evening shower, which may or may not include thunder.",
@@ -53,18 +59,43 @@
       "reading": "ゆうだち",
       "headword": "{夕立|ゆうだち}",
       "label": "sudden evening shower"
+    },
+    {
+      "type": "related",
+      "target_id": "06188_raimei",
+      "reading": "らいめい",
+      "headword": "{雷鳴|らいめい}",
+      "label": "thunder, thunderclap"
+    },
+    {
+      "type": "related",
+      "target_id": "07379_rakurai",
+      "reading": "らくらい",
+      "headword": "{落雷|らくらい}",
+      "label": "lightning strike"
+    },
+    {
+      "type": "related",
+      "target_id": "27189_raiun",
+      "reading": "らいうん",
+      "headword": "{雷雲|らいうん}",
+      "label": "thundercloud"
     }
   ],
   "metadata": {
     "created": "2026-03-09T00:35:31Z",
-    "modified": "2026-05-02T08:18:57Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     }
   }
 }

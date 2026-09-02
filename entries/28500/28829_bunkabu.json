@@ -17,7 +17,9 @@
       "id": "28829_bunkabu_ex1",
       "japanese": "{文化部|ぶんかぶ}に{入|はい}った。",
       "english": "I joined a cultural club.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28829_bunkabu_ex2",
       "japanese": "{姉|あね}は{高校|こうこう}で{文化部|ぶんかぶ}に{所属|しょぞく}していた。",
       "english": "My older sister belonged to a cultural club in high school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "28829_bunkabu_ex3",
       "japanese": "{文化部|ぶんかぶ}の{発表|はっぴょう}は、{毎年|まいとし}{秋|あき}の{文化祭|ぶんかさい}で{行|おこな}われる。",
       "english": "The cultural clubs' performances are held every year at the autumn school festival.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{文化|ぶんか} (culture) + {部|ぶ} (club). Covers everything from brass band ({吹奏楽部|すいそうがくぶ}) and drama to manga, calligraphy, and astronomy clubs. The cultural-club showcase event is the school's {文化祭|ぶんかさい} (culture festival).\n\nCOMMON COLLOCATIONS:\n- {文化部|ぶんかぶ}に{入|はい}る: to join a cultural club\n- {文化部|ぶんかぶ}{所属|しょぞく}: cultural-club member\n- {文化部|ぶんかぶ}の{発表|はっぴょう}: cultural-club performance\n\nSIMILAR WORDS:\n- {運動部|うんどうぶ}: sports club — the contrasting category\n- {部活|ぶかつ}: club activity (general term)\n- {同好会|どうこうかい}: hobby group — less formal than a {部|ぶ}, often smaller",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28828_undoubu",
+      "reading": "うんどうぶ",
+      "headword": "{運動部|うんどうぶ}",
+      "label": "sports club"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05377_bukatsu",
+      "reading": "ぶかつ",
+      "headword": "{部活|ぶかつ}",
+      "label": "club activity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17015_doukoukai",
+      "reading": "どうこうかい",
+      "headword": "{同好会|どうこうかい}",
+      "label": "hobby group"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["education"],
+      "politeness": "plain",
+      "semantic": [
+        "education"
+      ],
       "domain": []
     },
     "created": "2026-06-06T02:07:42Z",
-    "modified": "2026-06-06T02:07:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

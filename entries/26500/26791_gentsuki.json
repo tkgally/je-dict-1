@@ -17,7 +17,9 @@
       "id": "26791_gentsuki_ex1",
       "japanese": "{原付|げんつき}で{通学|つうがく}している。",
       "english": "I commute to school by moped.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26791_gentsuki_ex2",
       "japanese": "{原付|げんつき}の{制限速度|せいげんそくど}は{時速|じそく}30キロだ。",
       "english": "The speed limit for mopeds is 30 km/h.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,52 @@
       "id": "26791_gentsuki_ex3",
       "japanese": "{高校生|こうこうせい}の{時|とき}に{原付|げんつき}の{免許|めんきょ}を{取|と}って、{毎日|まいにち}バイト{先|さき}まで{乗|の}っていた。",
       "english": "I got my moped license in high school and rode it to my part-time job every day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "An abbreviation of {原動機付自転車|げんどうきつきじてんしゃ} (engine-equipped bicycle). In everyday speech, {原付|げんつき} is far more common than the full form. These small scooters are extremely popular in Japan for short-distance commuting.\n\nCOMMON COLLOCATIONS:\n- {原付|げんつき}{免許|めんきょ}: moped license\n- {原付|げんつき}に{乗|の}る: to ride a moped\n- {原付|げんつき}の{制限速度|せいげんそくど}: moped speed limit\n- {原付|げんつき}{二種|にしゅ}: Class 2 moped (51-125cc)\n\nREGULATIONS:\n- Maximum speed: 30 km/h\n- Two-stage right turns required at large intersections\n- No passengers allowed\n- License obtainable at age 16 with a written test only\n\nSIMILAR WORDS:\n- バイク: motorcycle — general term for any motorbike\n- スクーター: scooter — often refers to the same vehicles but emphasizes the step-through design\n- {自動二輪|じどうにりん}: motorcycle (over 50cc) — the legal category above {原付|げんつき}",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05081_baiku",
+      "reading": "ばいく",
+      "headword": "バイク",
+      "label": "motorcycle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27053_sukuutaa",
+      "reading": "すくーたー",
+      "headword": "スクーター",
+      "label": "scooter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20952_nirinsha",
+      "reading": "にりんしゃ",
+      "headword": "{二輪車|にりんしゃ}",
+      "label": "two-wheeled vehicle"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["transportation"],
+      "semantic": [
+        "transportation"
+      ],
       "domain": []
     },
     "created": "2026-05-05T11:08:48Z",
-    "modified": "2026-05-05T11:08:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

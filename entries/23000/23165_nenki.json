@@ -17,7 +17,9 @@
       "id": "23165_nenki_ex1",
       "japanese": "{祖父|そふ}の{三回忌|さんかいき}の{年忌|ねんき}{法要|ほうよう}。",
       "english": "The third-year memorial service for my grandfather.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23165_nenki_ex2",
       "japanese": "{年忌|ねんき}には{親族|しんぞく}が{集|あつ}まってお{経|きょう}を{上|あ}げる。",
       "english": "At memorial anniversaries, relatives gather and have sutras recited.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "23165_nenki_ex3",
       "japanese": "{来年|らいねん}は{母|はは}の{七回忌|ななかいき}なので、{年忌|ねんき}{法要|ほうよう}の{準備|じゅんび}を{始|はじ}めた。",
       "english": "Since next year is my mother's seventh-year memorial, I started preparing for the memorial service.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {年|ねん} (year) + {忌|き} (mourning, memorial). Refers to the Buddhist tradition of holding memorial services at specific intervals after death.\n\nMEMORIAL YEAR SCHEDULE:\nThe major {年忌|ねんき} in Japanese Buddhism are:\n- {一周忌|いっしゅうき}: 1st anniversary\n- {三回忌|さんかいき}: 3rd year (actually 2 years after death — counts the year of death as year 1)\n- {七回忌|ななかいき}: 7th year\n- {十三回忌|じゅうさんかいき}: 13th year\n- {三十三回忌|さんじゅうさんかいき}: 33rd year (often the final service)\n\nCOMMON COLLOCATIONS:\n- {年忌|ねんき}{法要|ほうよう}: memorial service\n- {年忌|ねんき}を{営|いとな}む: to hold a memorial service\n- {年忌|ねんき}に{当|あ}たる: to fall on a memorial year\n\nSIMILAR WORDS:\n- {法事|ほうじ}: Buddhist memorial service — the event itself, while {年忌|ねんき} refers to the anniversary\n- {命日|めいにち}: anniversary of death — the specific date, observed annually; {年忌|ねんき} refers to the special milestone anniversaries\n- {法要|ほうよう}: Buddhist ceremony — the formal religious service held at a {年忌|ねんき}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05634_houji",
+      "reading": "ほうじ",
+      "headword": "{法事|ほうじ}",
+      "label": "Buddhist memorial service"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17539_meinichi",
+      "reading": "めいにち",
+      "headword": "{命日|めいにち}",
+      "label": "anniversary of death"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05924_houyou",
+      "reading": "ほうよう",
+      "headword": "{法要|ほうよう}",
+      "label": "Buddhist ceremony"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["religion", "culture"]
+      "semantic": [
+        "religion",
+        "culture"
+      ]
     },
     "created": "2026-04-08T20:40:52Z",
-    "modified": "2026-04-08T20:40:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

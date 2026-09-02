@@ -19,7 +19,9 @@
       "english": "The battle for the championship has begun.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11452_soudatsusen_ex2",
@@ -27,7 +29,9 @@
       "english": "The competition for talent is intensifying.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11452_soudatsusen_ex3",
@@ -35,21 +39,49 @@
       "english": "A scramble over limited-edition products takes place every time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{争奪戦|そうだつせん} describes a fierce competition where multiple parties scramble to obtain the same thing. Composed of {争奪|そうだつ} (scramble for possession) + {戦|せん} (battle).\n\nCOMMON COLLOCATIONS:\n- {優勝|ゆうしょう}{争奪戦|そうだつせん}: championship battle\n- {人材|じんざい}{争奪戦|そうだつせん}: talent war (companies competing for workers)\n- {市場|しじょう}{争奪戦|そうだつせん}: market share battle\n- 〜をめぐる{争奪戦|そうだつせん}: a battle over ~\n- {熾烈|しれつ}な{争奪戦|そうだつせん}: fierce competition\n\nUSAGE:\nOften used in sports, business, and politics to describe intense competition. It conveys more urgency and intensity than simple {競争|きょうそう} (competition).\n\nSIMILAR WORDS:\n- {競争|きょうそう}: competition (general, less intense)\n- {戦|たたか}い: fight, battle (broader)\n- {争|あらそ}い: dispute, conflict",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01388_kyousou",
+      "reading": "きょうそう",
+      "headword": "{競争|きょうそう}",
+      "label": "competition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02070_tatakai",
+      "reading": "たたかい",
+      "headword": "{戦|たたか}い",
+      "label": "fight, battle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09992_arasoi",
+      "reading": "あらそい",
+      "headword": "{争|あらそ}い",
+      "label": "dispute, conflict"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T10:57:49Z",
-    "modified": "2026-03-30T03:38:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

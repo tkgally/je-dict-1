@@ -2,7 +2,7 @@
   "id": "07732_kekkin",
   "headword": "{欠勤|けっきん}",
   "reading": "けっきん",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "absence from work",
   "conjugation": {
     "type": "suru",
@@ -130,10 +130,10 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{欠|けつ} (lack, absence) + {勤|きん} (work, service) - being absent from work duty.\n\nUSAGE:\nDistinguished by type:\n・{有給欠勤|ゆうきゅうけっきん} - paid absence\n・{無断欠勤|むだんけっきん} - unexcused absence\n・{病気欠勤|びょうきけっきん} - sick leave\n\nCOLLOCATIONS:\n・{欠勤|けっきん}する - to be absent from work\n・{欠勤届|けっきんとどけ} - absence notification\n・{欠勤|けっきん}{日数|にっすう} - number of absent days\n\nRELATED:\n・{出勤|しゅっきん} - going to work (opposite)\n・{勤怠|きんたい} - attendance record",
+  "notes": "ETYMOLOGY:\n{欠|けつ} (lack, absence) + {勤|きん} (work, service) - being absent from work duty.\n\nUSAGE:\nDistinguished by type:\n- {有給欠勤|ゆうきゅうけっきん} - paid absence\n- {無断欠勤|むだんけっきん} - unexcused absence\n- {病気欠勤|びょうきけっきん} - sick leave\n\nCOMMON COLLOCATIONS:\n- {欠勤|けっきん}する - to be absent from work\n- {欠勤届|けっきんとどけ} - absence notification\n- {欠勤|けっきん}{日数|にっすう} - number of absent days\n\nRELATED WORDS:\n- {出勤|しゅっきん} - going to work (opposite)\n- {勤怠|きんたい} - attendance record",
   "metadata": {
     "created": "2026-01-21T00:27:02Z",
-    "modified": "2026-07-31T12:19:27Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +142,7 @@
         "verb-suru"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "work"
       ],
@@ -179,6 +180,41 @@
       "headword": "{早退|そうたい}",
       "label": "leaving early",
       "target_id": "05767_soutai"
+    },
+    {
+      "type": "related",
+      "target_id": "08384_hankyuu",
+      "reading": "はんきゅう",
+      "headword": "{半休|はんきゅう}",
+      "label": "half-day off"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18305_kyuushoku",
+      "reading": "きゅうしょく",
+      "headword": "{休職|きゅうしょく}",
+      "label": "leave of absence (from work)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18521_ketsujou",
+      "reading": "けつじょう",
+      "headword": "{欠場|けつじょう}",
+      "label": "absence from a competition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22434_soutaisuru",
+      "reading": "そうたいする",
+      "headword": "{早退|そうたい}する",
+      "label": "to leave early (from work or school)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27191_mukyuukyuuka",
+      "reading": "むきゅうきゅうか",
+      "headword": "{無給休暇|むきゅうきゅうか}",
+      "label": "unpaid leave"
     }
   ]
 }

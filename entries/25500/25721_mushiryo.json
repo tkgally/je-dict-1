@@ -3,7 +3,7 @@
   "headword": "{無思慮|むしりょ}",
   "reading": "むしりょ",
   "romaji": "mushiryo",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "thoughtlessness; lack of consideration; recklessness",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "{無|む} (without) + {思慮|しりょ} (consideration, deliberation). Can function as a noun or as a na-adjective ({無思慮|むしりょ}な). Describes a lack of careful thought, often with a critical nuance suggesting the person should have known better.\n\nCOMMON COLLOCATIONS:\n- {無思慮|むしりょ}な{行動|こうどう} — thoughtless behavior\n- {無思慮|むしりょ}な{発言|はつげん} — thoughtless remark\n- {無思慮|むしりょ}に — thoughtlessly (adverbial use)\n\nSIMILAR WORDS:\n- {軽率|けいそつ} — rash; hasty — emphasizes acting too quickly without thinking\n- {不注意|ふちゅうい} — carelessness; inattention — focuses on lack of attention rather than lack of thought\n- {思慮|しりょ}{深|ぶか}い — thoughtful; prudent — the positive opposite",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06866_keisotsu",
+      "reading": "けいそつ",
+      "headword": "{軽率|けいそつ}",
+      "label": "rash"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15111_fuchuui",
+      "reading": "ふちゅうい",
+      "headword": "{不注意|ふちゅうい}",
+      "label": "carelessness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15473_shiryobukai",
+      "reading": "しりょぶかい",
+      "headword": "{思慮深|しりょぶか}い",
+      "label": "thoughtful"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,12 +76,14 @@
         "noun",
         "adjective-na"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "personality",
         "abstract"
       ]
     },
     "created": "2026-04-26T16:35:26Z",
-    "modified": "2026-06-15T07:59:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

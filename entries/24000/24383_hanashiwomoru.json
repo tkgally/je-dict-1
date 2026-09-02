@@ -17,7 +17,9 @@
       "id": "24383_hanashiwomoru_ex1",
       "japanese": "また{話|はなし}を{盛|も}ってるでしょう。",
       "english": "You're exaggerating again, aren't you?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24383_hanashiwomoru_ex2",
       "japanese": "ちょっと{話|はなし}を{盛|も}っただけだよ。",
       "english": "I just exaggerated a little.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "24383_hanashiwomoru_ex3",
       "japanese": "{彼|かれ}はいつも{話|はなし}を{盛|も}るから、{半分|はんぶん}くらいに{聞|き}いておいたほうがいい。",
       "english": "He always exaggerates, so you should only take about half of what he says seriously.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,44 @@
       "id": "24383_hanashiwomoru_ex4",
       "japanese": "SNSでは{話|はなし}を{盛|も}る{人|ひと}が{多|おお}い。",
       "english": "On social media, there are a lot of people who embellish their stories.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A casual, modern expression meaning to exaggerate or embellish when telling a story. The verb {盛|も}る here comes from the idea of \"piling on\" or \"heaping up\" — adding more than what actually happened. Very common in everyday conversation, particularly among younger people.\n\nCOMMON PATTERNS:\n- {話|はなし}を{盛|も}りすぎる: to exaggerate too much\n- {盛|も}った{話|はなし}: an exaggerated story\n- ちょっと{盛|も}ってない？: aren't you exaggerating a bit?\n- {盛|も}ってるでしょ: you're exaggerating, right?\n\nSIMILAR WORDS:\n- {大|おお}げさに{言|い}う: to say in an exaggerated way — more neutral, less playful than {盛|も}る\n- {誇張|こちょう}する: to exaggerate — formal, used in writing and academic contexts\n- {尾|お}ひれをつける: to add embellishments — older expression with the same meaning, literally \"to add fins and tail\"\n\nREGISTER:\nInformal and colloquial. Common in spoken Japanese, texting, and social media. Would feel out of place in formal writing or business settings, where {誇張|こちょう}する is preferred.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22148_kochousuru",
+      "reading": "こちょうする",
+      "headword": "{誇張|こちょう}する",
+      "label": "to exaggerate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28672_ohirewotsukeru",
+      "reading": "おひれをつける",
+      "headword": "{尾|お}ひれをつける",
+      "label": "to add embellishments"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-04-18T16:23:10Z",
-    "modified": "2026-04-18T16:23:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

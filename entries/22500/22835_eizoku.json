@@ -3,7 +3,7 @@
   "headword": "{永続|えいぞく}",
   "reading": "えいぞく",
   "romaji": "eizoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "permanence; continuance; perpetuation",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Refers to something continuing or lasting over a long period, often implying permanence or sustainability. Frequently used in formal or written contexts about institutions, systems, peace, and relationships.\n\nCOMMON COLLOCATIONS:\n- {永続|えいぞく}{的|てき}（な）: permanent, lasting, sustained\n- {永続|えいぞく}する: to continue permanently, to perpetuate\n- {永続|えいぞく}{性|せい}: permanence, sustainability\n- {平和|へいわ}の{永続|えいぞく}: lasting peace\n\nSIMILAR WORDS:\n- {継続|けいぞく}: continuation — focuses on the act of continuing, not necessarily permanently\n- {持続|じぞく}: sustainability, duration — emphasizes maintaining something over time\n- {恒久|こうきゅう}: permanence — more formal and literary, often used in legal or diplomatic contexts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00213_keizoku",
+      "reading": "けいぞく",
+      "headword": "{継続|けいぞく}",
+      "label": "continuation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12813_jizoku",
+      "reading": "じぞく",
+      "headword": "{持続|じぞく}",
+      "label": "sustainability, duration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15257_koukyuu",
+      "reading": "こうきゅう",
+      "headword": "{恒久|こうきゅう}",
+      "label": "permanence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +76,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "time-general",
         "abstract"
@@ -60,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-07T18:18:23Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

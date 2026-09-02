@@ -3,7 +3,7 @@
   "headword": "{携帯|けいたい}する",
   "reading": "けいたいする",
   "romaji": "keitaisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to carry; to bring along",
   "definitions": [
     {
@@ -48,6 +48,36 @@
   ],
   "notes": "A formal verb meaning to carry something on one's person. The noun form {携帯|けいたい} is extremely common as a shortened form of {携帯電話|けいたいでんわ} (mobile phone), though this usage is increasingly replaced by スマホ.\n\nCOMMON COLLOCATIONS:\n- {携帯電話|けいたいでんわ}: mobile phone\n- {携帯品|けいたいひん}: personal belongings; items carried on one's person\n- {携帯|けいたい}{食|しょく}: portable food; food to carry\n- {携帯|けいたい}{禁止|きんし}: no carrying allowed (e.g., weapons)\n\nSIMILAR WORDS:\n- {持参|じさん}する: to bring — focuses on bringing something to a specific place\n- {所持|しょじ}する: to possess; to have on one's person — more legal/formal, as in possessing weapons or documents\n- {持|も}ち{歩|ある}く: to carry around — more casual, implies walking around with something",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21143_jisansuru",
+      "reading": "じさんする",
+      "headword": "{持参|じさん}する",
+      "label": "to bring"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12751_shoji",
+      "reading": "しょじ",
+      "headword": "{所持|しょじ}",
+      "label": "to possess"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05739_mochiaruku",
+      "reading": "もちあるく",
+      "headword": "{持|も}ち{歩|ある}く",
+      "label": "to carry around"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19699_mochihakobu",
+      "reading": "もちはこぶ",
+      "headword": "{持|も}ち{運|はこ}ぶ",
+      "label": "to carry"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-31T21:33:34Z",
-    "modified": "2026-03-31T21:33:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

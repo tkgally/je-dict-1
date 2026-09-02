@@ -19,7 +19,9 @@
       "english": "I suddenly came to my senses.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17406_warenikaeru_ex2",
@@ -27,7 +29,9 @@
       "english": "A loud voice snapped me out of it, and I looked around.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17406_warenikaeru_ex3",
@@ -35,22 +39,46 @@
       "english": "I stood dazed for a while, but eventually came to my senses and called an ambulance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA literary set expression meaning to return from a state of distraction, shock, or absorption to normal awareness. Often preceded by はっと (with a start) to emphasize the sudden return to reality.\n\nCOMMON COLLOCATIONS:\n- はっと{我|われ}に{返|かえ}る (to suddenly snap back to reality)\n- ふと{我|われ}に{返|かえ}る (to casually come to one's senses)\n- {我|われ}に{返|かえ}って〜する (to come to one's senses and do ~)\n\nSIMILAR WORDS:\n- {気|き}がつく: to notice, to realize — broader meaning, includes noticing things\n- {正気|しょうき}に{戻|もど}る: to regain sanity — stronger, implies more extreme disorientation",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21794_kigatsuku",
+      "reading": "きがつく",
+      "headword": "{気|き}がつく",
+      "label": "to notice, to realize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26079_mewosamasu",
+      "reading": "めをさます",
+      "headword": "{目|め}を{覚|さ}ます",
+      "label": "to wake up"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T10:34:13Z",
-    "modified": "2026-03-17T10:34:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["emotion", "cognition"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "emotion",
+        "cognition"
+      ]
     }
   }
 }

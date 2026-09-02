@@ -3,7 +3,7 @@
   "id": "13050_meigen",
   "headword": "{明言|めいげん}",
   "reading": "めいげん",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "clear statement, explicit declaration",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,39 @@
     }
   ],
   "notes": "USAGE:\n{明言|めいげん}する is used when someone makes an unambiguous, definitive statement, especially in formal or public contexts. The negative pattern {明言|めいげん}を{避|さ}ける (to avoid making a clear statement) or {明言|めいげん}しない (to not state clearly) is also very common, particularly in political and diplomatic reporting.\n\nCOMMON COLLOCATIONS:\n- {明言|めいげん}する: to state clearly\n- {明言|めいげん}を{避|さ}ける: to avoid a clear statement\n- {明言|めいげん}を{控|ひか}える: to refrain from stating clearly\n- はっきりと{明言|めいげん}する: to state explicitly",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12916_dangen",
+      "reading": "だんげん",
+      "headword": "{断言|だんげん}",
+      "label": "declaration, assertion, affirmation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19584_kougen",
+      "reading": "こうげん",
+      "headword": "{公言|こうげん}",
+      "label": "public declaration"
+    },
+    {
+      "type": "homophone",
+      "target_id": "20185_meigen",
+      "reading": "めいげん",
+      "headword": "{名言|めいげん}",
+      "label": "famous saying"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22481_genmei",
+      "reading": "げんめい",
+      "headword": "{言明|げんめい}",
+      "label": "declaration"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T10:02:46Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

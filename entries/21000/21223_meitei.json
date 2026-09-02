@@ -3,7 +3,7 @@
   "headword": "{酩酊|めいてい}",
   "reading": "めいてい",
   "romaji": "meitei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "intoxication; drunkenness; inebriation",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A formal, literary, or legal term for drunkenness. Both kanji contain the {酉|とり} radical (alcohol vessel), emphasizing the connection to alcohol. Used as a する verb ({酩酊|めいてい}する = to become intoxicated).\n\nCOMMON COLLOCATIONS:\n- {酩酊|めいてい}{状態|じょうたい}: state of intoxication\n- {酩酊|めいてい}{運転|うんてん}: drunk driving\n- {泥酔|でいすい}{酩酊|めいてい}: dead drunk, completely intoxicated\n\nSIMILAR WORDS:\n- {酔|よ}う: to get drunk — the everyday verb for becoming intoxicated\n- {泥酔|でいすい}: dead drunk — emphasizes extreme intoxication, also formal\n- {酔|よ}っ{払|ぱら}い: a drunk person — colloquial noun for someone who is drunk\n\nREGISTER:\nMore formal and literary than everyday words for drunkenness. Commonly appears in legal contexts ({酩酊|めいてい}{運転|うんてん} in DUI laws), news reports, and literary prose. In casual conversation, people would say {酔|よ}っている or {酔|よ}っ{払|ぱら}っている instead.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14437_you",
+      "reading": "よう",
+      "headword": "{酔|よ}う",
+      "label": "to get drunk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14732_deisui",
+      "reading": "でいすい",
+      "headword": "{泥酔|でいすい}",
+      "label": "dead drunk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09429_yopparai",
+      "reading": "よっぱらい",
+      "headword": "{酔|よ}っ{払|ぱら}い",
+      "label": "a drunk person"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-01T14:16:10Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

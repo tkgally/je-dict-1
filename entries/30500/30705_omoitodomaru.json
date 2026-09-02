@@ -3,7 +3,7 @@
   "headword": "{思|おも}いとどまる",
   "reading": "おもいとどまる",
   "romaji": "omoitodomaru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to think better of it; to hold back from doing; to give up on an idea",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "TRANSITIVITY:\n- Transitive: the abandoned plan takes を ({退職|たいしょく}を{思|おも}いとどまる). It is also very common with no object at all, when the plan is clear from context.\n\nCOMMON COLLOCATIONS:\n- {説得|せっとく}されて{思|おも}いとどまる: to be talked out of it\n- {思|おも}いとどまるよう{説得|せっとく}する: to persuade someone to reconsider\n- {寸前|すんぜん}で{思|おも}いとどまる: to stop oneself at the last second\n\nSIMILAR WORDS:\n- あきらめる: to give up — to abandon a hope, often because it turned out to be impossible; {思|おも}いとどまる is a deliberate choice to hold back\n- やめる: to quit, to stop — plain and neutral, with none of the sense of restraining oneself",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01813_akirameru",
+      "reading": "あきらめる",
+      "headword": "{諦|あきら}める",
+      "label": "to give up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00909_yameru",
+      "reading": "やめる",
+      "headword": "やめる",
+      "label": "to quit, to stop"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -55,7 +70,7 @@
       ],
       "transitivity": "transitive",
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "cognition",
         "action"
@@ -64,7 +79,7 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-08-20T02:40:41Z",
-    "modified": "2026-08-20T02:40:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

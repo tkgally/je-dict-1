@@ -3,7 +3,7 @@
   "headword": "{適合|てきごう}",
   "reading": "てきごう",
   "romaji": "tekigou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "conformity; compatibility; compliance",
   "definitions": [
     {
@@ -47,6 +47,29 @@
   "notes": "Composed of {適|てき} (suitable) + {合|ごう} (match, fit). Commonly used as a する verb ({適合|てきごう}する) meaning \"to conform to\" or \"to comply with.\" Frequently appears in technical, legal, and regulatory contexts.\n\nCOMMON COLLOCATIONS:\n- {基準|きじゅん}に{適合|てきごう}する: to conform to standards\n- {適合|てきごう}{検査|けんさ}: compliance inspection\n- {適合|てきごう}{証明書|しょうめいしょ}: certificate of conformity\n- {適合|てきごう}{品|ひん}: compliant product\n- {不適合|ふてきごう}: non-conformity, non-compliance\n\nSIMILAR WORDS:\n- {適応|てきおう}: adaptation — refers to adjusting to new conditions or environments, more biological or psychological\n- {合致|がっち}: agreement, match — emphasizes exact correspondence between two things\n- {準拠|じゅんきょ}: conformance — more formal, used for compliance with rules or documents",
   "conjugation_type": "suru",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14382_tekiou",
+      "reading": "てきおう",
+      "headword": "{適応|てきおう}",
+      "label": "adaptation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12020_gacchi",
+      "reading": "がっち",
+      "headword": "{合致|がっち}",
+      "label": "agreement, match"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15811_junkyo",
+      "reading": "じゅんきょ",
+      "headword": "{準拠|じゅんきょ}",
+      "label": "conformance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-30T20:10:28Z",
-    "modified": "2026-03-30T20:10:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

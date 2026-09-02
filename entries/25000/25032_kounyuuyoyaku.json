@@ -3,7 +3,7 @@
   "headword": "{購入予約|こうにゅうよやく}",
   "reading": "こうにゅうよやく",
   "romaji": "kounyuuyoyaku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "pre-order; purchase reservation",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Composed of {購入|こうにゅう} (purchase) + {予約|よやく} (reservation). Used in both online and physical retail contexts. In Japan, pre-ordering is common for manga, video games, concert merchandise, and seasonal items like {福袋|ふくぶくろ} (lucky bags).\n\nCOMMON COLLOCATIONS:\n- {購入予約|こうにゅうよやく}する: pre-order\n- {購入予約|こうにゅうよやく}を{受|う}け{付|つ}ける: accept pre-orders\n- {購入予約|こうにゅうよやく}{特典|とくてん}: pre-order bonus\n- {購入予約|こうにゅうよやく}を{取|と}り{消|け}す: cancel a pre-order\n\nSIMILAR WORDS:\n- {予約|よやく}: reservation; booking — broader term that includes restaurant and hotel reservations\n- {先行予約|せんこうよやく}: advance reservation — priority pre-ordering, often for fans or members\n- {取|と}り{置|お}き: holding; setting aside — reserving an existing item at a store",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17983_senkouyoyaku",
+      "reading": "せんこうよやく",
+      "headword": "{先行|せんこう}{予約|よやく}",
+      "label": "advance reservation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08306_torioki",
+      "reading": "とりおき",
+      "headword": "{取|と}り{置|お}き",
+      "label": "holding"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +69,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "shopping",
         "business"
@@ -60,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-22T11:27:53Z",
-    "modified": "2026-04-22T11:27:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

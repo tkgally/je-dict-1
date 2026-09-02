@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "COMPOUND: ⟦{賃|ちん}→賃：noentry⟧ (rent, fee) + ⟦{貸|たい}→貸す：00537_kasu⟧ (lending)\n\nCOMMON COMPOUND TERMS:\n・{賃貸|ちんたい}⟦マンション→マンション：01035_manshon⟧ (rental apartment building)\n・{賃貸|ちんたい}⟦{物件|ぶっけん}→物件：06743_bukken⟧ (rental property)\n・{賃貸|ちんたい}⟦{契約|けいやく}→契約：02698_keiyaku⟧ (rental contract)\n・{賃貸|ちんたい}⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧ (rental housing)\n・{賃貸|ちんたい}⟦アパート→アパート：01012_apaato⟧ (rental apartment)\n\nCONTRAST:\n・{賃貸|ちんたい} = rental (temporary)\n・⟦{分譲|ぶんじょう}→分譲：06577_bunjou⟧ = for sale (ownership)\n\nVERB FORM: {賃貸|ちんたい}⟦する→する：00392_suru⟧ means 'to rent out' (from landlord's perspective).",
+  "notes": "COMPOUND: ⟦{賃|ちん}→賃：noentry⟧ (rent, fee) + ⟦{貸|たい}→貸す：00537_kasu⟧ (lending)\n\nCOMMON COMPOUND TERMS:\n- {賃貸|ちんたい}⟦マンション→マンション：01035_manshon⟧ (rental apartment building)\n- {賃貸|ちんたい}⟦{物件|ぶっけん}→物件：06743_bukken⟧ (rental property)\n- {賃貸|ちんたい}⟦{契約|けいやく}→契約：02698_keiyaku⟧ (rental contract)\n- {賃貸|ちんたい}⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧ (rental housing)\n- {賃貸|ちんたい}⟦アパート→アパート：01012_apaato⟧ (rental apartment)\n\nSIMILAR WORDS:\n- {賃貸|ちんたい} = rental (temporary)\n- ⟦{分譲|ぶんじょう}→分譲：06577_bunjou⟧ = for sale (ownership)\n\nVERB FORM: {賃貸|ちんたい}⟦する→する：00392_suru⟧ means 'to rent out' (from landlord's perspective).",
   "cross_references": [
     {
       "type": "contrast",
@@ -57,11 +57,60 @@
       "reading": "やちん",
       "headword": "{家賃|やちん}",
       "label": "rent"
+    },
+    {
+      "type": "related",
+      "target_id": "00193_kashima",
+      "reading": "かしま",
+      "headword": "{貸間|かしま}",
+      "label": "room to let"
+    },
+    {
+      "type": "related",
+      "target_id": "06726_fudousan",
+      "reading": "ふどうさん",
+      "headword": "{不動産|ふどうさん}",
+      "label": "real estate"
+    },
+    {
+      "type": "related",
+      "target_id": "09716_shuugoujuutaku",
+      "reading": "しゅうごうじゅうたく",
+      "headword": "{集合住宅|しゅうごうじゅうたく}",
+      "label": "apartment building"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19997_shakka",
+      "reading": "しゃっか",
+      "headword": "{借家|しゃっか}",
+      "label": "rented house"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22383_magari",
+      "reading": "まがり",
+      "headword": "{間借|まが}り",
+      "label": "renting a room"
+    },
+    {
+      "type": "antonym",
+      "target_id": "27371_mochiie",
+      "reading": "もちいえ",
+      "headword": "{持|も}ち{家|いえ}",
+      "label": "owned home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29494_shakuya",
+      "reading": "しゃくや",
+      "headword": "{借家|しゃくや}",
+      "label": "rented house"
     }
   ],
   "metadata": {
     "created": "2026-01-17T02:09:14Z",
-    "modified": "2026-08-08T15:20:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

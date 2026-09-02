@@ -22,7 +22,9 @@
       "id": "19313_junpuu_ex1",
       "japanese": "{順風|じゅんぷう}を{受|う}けて{船|ふね}が{進|すす}む。",
       "english": "The ship moves forward with a tailwind.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "19313_junpuu_ex2",
       "japanese": "{飛行機|ひこうき}は{順風|じゅんぷう}のおかげで{予定|よてい}より{早|はや}く{到着|とうちゃく}した。",
       "english": "The plane arrived earlier than scheduled thanks to a tailwind.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "19313_junpuu_ex3",
       "japanese": "{強|つよ}い{順風|じゅんぷう}に{乗|の}って{帆船|はんせん}はぐんぐん{進|すす}んだ。",
       "english": "Riding a strong tailwind, the sailing ship surged forward.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "19313_junpuu_ex4",
       "japanese": "{事業|じぎょう}は{順風|じゅんぷう}に{乗|の}っている。",
       "english": "The business is sailing with the wind.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "19313_junpuu_ex5",
       "japanese": "{彼|かれ}のキャリアは{順風満帆|じゅんぷうまんぱん}だ。",
       "english": "His career is smooth sailing.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,52 @@
       "id": "19313_junpuu_ex6",
       "japanese": "{順風|じゅんぷう}の{時|とき}こそ{油断|ゆだん}してはいけない。",
       "english": "You must not let your guard down precisely when things are going well.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {順|じゅん} (favorable, following) and {風|ぷう} (wind). The figurative sense (smooth sailing) is more common in everyday usage than the literal nautical meaning.\n\nCOMMON COLLOCATIONS:\n- {順風満帆|じゅんぷうまんぱん} — smooth sailing (literally 'favorable wind, full sails'); a very common four-character idiom\n- {順風|じゅんぷう}に{乗|の}る — to ride a favorable wind; to have things going well\n\nSIMILAR WORDS:\n- {追|お}い{風|かぜ}: tailwind — more commonly used for the literal wind meaning in modern Japanese\n- {向|む}かい{風|かぜ}: headwind — the opposite, both literally and figuratively\n- {逆風|ぎゃくふう}: adverse wind, headwind — the formal antonym of {順風|じゅんぷう}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14352_oikaze",
+      "reading": "おいかぜ",
+      "headword": "{追|お}い{風|かぜ}",
+      "label": "tailwind"
+    },
+    {
+      "type": "antonym",
+      "target_id": "16322_mukaikaze",
+      "reading": "むかいかぜ",
+      "headword": "{向|む}かい{風|かぜ}",
+      "label": "headwind"
+    },
+    {
+      "type": "antonym",
+      "target_id": "14368_gyakufuu",
+      "reading": "ぎゃくふう",
+      "headword": "{逆風|ぎゃくふう}",
+      "label": "adverse wind, headwind"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature", "abstract"]
+      "semantic": [
+        "nature",
+        "abstract"
+      ]
     },
     "created": "2026-03-25T06:10:24Z",
-    "modified": "2026-03-25T06:10:24Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "27878_moppu_ex1",
       "japanese": "モップで{床|ゆか}を{拭|ふ}く。",
       "english": "to mop the floor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27878_moppu_ex2",
       "japanese": "{掃除|そうじ}の{時間|じかん}に、モップで{廊下|ろうか}をきれいにした。",
       "english": "During cleaning time, I cleaned the hallway with a mop.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,39 @@
       "id": "27878_moppu_ex3",
       "japanese": "{水|みず}をこぼしてしまったので、モップで{手早|てばや}く{拭|ふ}き{取|と}ってから{乾|かわ}いた{布|ぬの}で{仕上|しあ}げた。",
       "english": "I spilled water, so I quickly wiped it up with a mop and finished with a dry cloth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Loanword from English 'mop.' A long-handled tool for cleaning floors, used either dry or with water and cleaner.\n\nCOMMON COLLOCATIONS:\n- モップをかける: to mop (a floor)\n- モップで{拭|ふ}く: to wipe with a mop\n- フロアモップ: a flat floor mop\n\nSIMILAR WORDS:\n- {雑巾|ぞうきん}: a cleaning cloth — used by hand, on a smaller scale\n- ほうき: broom — for sweeping up dry dirt rather than wiping",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04408_zoukin",
+      "reading": "ぞうきん",
+      "headword": "{雑巾|ぞうきん}",
+      "label": "a cleaning cloth"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["tool", "daily-life"],
+      "politeness": "plain",
+      "semantic": [
+        "tool",
+        "daily-life"
+      ],
       "domain": []
     },
     "created": "2026-05-21T04:04:20Z",
-    "modified": "2026-05-21T04:04:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

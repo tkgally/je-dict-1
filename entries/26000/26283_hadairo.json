@@ -22,7 +22,9 @@
       "id": "26283_hadairo_ex1",
       "japanese": "{赤|あか}ちゃんの{肌色|はだいろ}は{健康|けんこう}のサインだ。",
       "english": "A baby's skin color is a sign of health.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "26283_hadairo_ex2",
       "japanese": "{日焼|ひや}けして{肌色|はだいろ}がだいぶ{変|か}わった。",
       "english": "My skin color changed quite a bit from the suntan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "26283_hadairo_ex3",
       "japanese": "{肌色|はだいろ}は{人種|じんしゅ}や{個人|こじん}によって{大|おお}きく{異|こと}なるので、{一|ひと}つの{色|いろ}で{表|あらわ}すことはできない。",
       "english": "Skin color varies greatly depending on race and individual, so it cannot be represented by a single color.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "26283_hadairo_ex4",
       "japanese": "{肌色|はだいろ}のストッキングを{買|か}った。",
       "english": "I bought flesh-colored stockings.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "26283_hadairo_ex5",
       "japanese": "クレヨンの{肌色|はだいろ}は{今|いま}「うすだいだい」に{名前|なまえ}が{変|か}わった。",
       "english": "The crayon color 'hadairo' has now been renamed to 'light orange.'",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,23 +72,45 @@
       "id": "26283_hadairo_ex6",
       "japanese": "{肌色|はだいろ}の{絆創膏|ばんそうこう}は{目立|めだ}たないように{作|つく}られているが、{実際|じっさい}にはすべての{肌|はだ}の{色|いろ}に{合|あ}うわけではない。",
       "english": "Flesh-colored bandages are made to be inconspicuous, but in reality they don't match every skin tone.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {肌|はだ} (skin) + {色|いろ} (color). In sense 1, it refers to the actual color of someone's skin. In sense 2, it refers to a specific light beige-pink color traditionally used in Japan as a standard \"skin color\" for products like crayons and bandages.\n\nCOMMON COLLOCATIONS:\n- {肌色|はだいろ}のストッキング: flesh-colored stockings\n- {肌色|はだいろ}の{下着|したぎ}: flesh-colored underwear\n- {肌色|はだいろ}の{絆創膏|ばんそうこう}: flesh-colored bandage\n- {肌色|はだいろ}が{良|よ}い: to have a healthy complexion\n\nCULTURAL NOTE:\nIn 2000, major Japanese crayon and colored-pencil manufacturers renamed the color {肌色|はだいろ} to うすだいだい (light orange) or ペールオレンジ (pale orange), reflecting growing awareness that there is no single \"skin color.\" Despite the renaming, the word {肌色|はだいろ} remains in everyday use as a color descriptor.\n\nSIMILAR WORDS:\n- {顔色|かおいろ}: complexion, specifically of the face, often used to describe someone's health or emotional state\n- {色白|いろじろ}: fair-skinned (describes a person, not a color)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25468_kaoiro",
+      "reading": "かおいろ",
+      "headword": "{顔色|かおいろ}",
+      "label": "complexion, specifically of the face…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27094_kesshoku",
+      "reading": "けっしょく",
+      "headword": "{血色|けっしょく}",
+      "label": "complexion"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["color", "body-part"]
+      "semantic": [
+        "color",
+        "body-part"
+      ]
     },
     "created": "2026-04-30T15:19:59Z",
-    "modified": "2026-04-30T15:19:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

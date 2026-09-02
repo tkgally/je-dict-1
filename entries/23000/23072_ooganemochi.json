@@ -17,7 +17,9 @@
       "id": "23072_ooganemochi_ex1",
       "japanese": "{大金持|おおがねも}ちになりたい。",
       "english": "I want to become very rich.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23072_ooganemochi_ex2",
       "japanese": "あの{人|ひと}は{大金持|おおがねも}ちで、{別荘|べっそう}を{何軒|なんけん}も{持|も}っている。",
       "english": "That person is extremely wealthy and owns several vacation homes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "23072_ooganemochi_ex3",
       "japanese": "{宝|たから}くじに{当|あ}たったら{大金持|おおがねも}ちになれるのに。",
       "english": "If only I won the lottery, I could become very rich.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {大|おお} (great/big) + {金持|かねも}ち (rich person). The prefix {大|おお} intensifies the base word, indicating extreme wealth rather than mere comfort.\n\nCOMMON COLLOCATIONS:\n- {大金持|おおがねも}ちになる: to become very rich\n- {大金持|おおがねも}ちの{家|いえ}: a wealthy person's house\n- {世界|せかい}の{大金持|おおがねも}ち: the world's richest people\n\nSIMILAR WORDS:\n- {金持|かねも}ち: rich person — the standard term; less emphatic\n- {富豪|ふごう}: wealthy person, tycoon — formal; used in news and writing\n- {大富豪|だいふごう}: extremely wealthy person — formal version of {大金持|おおがねも}ち\n- {資産家|しさんか}: person of means — formal; focuses on assets rather than income",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20556_fugou",
+      "reading": "ふごう",
+      "headword": "{富豪|ふごう}",
+      "label": "wealthy person, tycoon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16291_shisanka",
+      "reading": "しさんか",
+      "headword": "{資産家|しさんか}",
+      "label": "person of means"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16724_narikin",
+      "reading": "なりきん",
+      "headword": "{成金|なりきん}",
+      "label": "nouveau riche, upstart"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["person", "money"]
+      "semantic": [
+        "person",
+        "money"
+      ]
     },
     "created": "2026-04-08T17:35:27Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

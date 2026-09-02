@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "{飲|の}む is the basic verb for drinking any liquid. Also used for taking medicine and figuratively for accepting/swallowing conditions.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pattern: Xを{飲|の}む\n\nASPECT (ている):\n{飲|の}んでいる means \"is drinking\" (action in progress).\n\nCOMMON COLLOCATIONS:\n- ⟦{水|みず}→水：02258_mizu⟧を{飲|の}む: to drink water\n- ⟦{薬|くすり}→薬：00793_kusuri⟧を{飲|の}む: to take medicine\n- お⟦{酒|さけ}→酒：02211_sake⟧を{飲|の}む: to drink alcohol\n- ⟦{条件|じょうけん}→条件：03285_jouken⟧を{飲|の}む: to accept/swallow conditions (figurative)\n\nDERIVED WORDS:\n- ⟦{飲|の}み{物|もの}→飲み物：02929_nomimono⟧: beverage, drink\n- ⟦{飲|の}み{会|かい}→飲み会：09371_nomikai⟧: drinking party\n- ⟦{飲|の}み{放題|ほうだい}→飲み放題：08308_nomihoudai⟧: all-you-can-drink",
+  "notes": "{飲|の}む is the basic verb for drinking any liquid. Also used for taking medicine and figuratively for accepting/swallowing conditions.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pattern: Xを{飲|の}む\n\nASPECT (ている):\n{飲|の}んでいる means \"is drinking\" (action in progress).\n\nCOMMON COLLOCATIONS:\n- ⟦{水|みず}→水：02258_mizu⟧を{飲|の}む: to drink water\n- ⟦{薬|くすり}→薬：00793_kusuri⟧を{飲|の}む: to take medicine\n- お⟦{酒|さけ}→酒：02211_sake⟧を{飲|の}む: to drink alcohol\n- ⟦{条件|じょうけん}→条件：03285_jouken⟧を{飲|の}む: to accept/swallow conditions (figurative)\n\nCOMPOUNDS:\n- ⟦{飲|の}み{物|もの}→飲み物：02929_nomimono⟧: beverage, drink\n- ⟦{飲|の}み{会|かい}→飲み会：09371_nomikai⟧: drinking party\n- ⟦{飲|の}み{放題|ほうだい}→飲み放題：08308_nomihoudai⟧: all-you-can-drink",
   "cross_references": [
     {
       "type": "related",
@@ -230,11 +230,39 @@
       "reading": "いただく",
       "headword": "いただく",
       "label": "humble"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15267_fukuyou",
+      "reading": "ふくよう",
+      "headword": "{服用|ふくよう}",
+      "label": "taking medicine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21473_nomihosu",
+      "reading": "のみほす",
+      "headword": "{飲|の}み{干|ほ}す",
+      "label": "to drink up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21605_fukuyousuru",
+      "reading": "ふくようする",
+      "headword": "{服用|ふくよう}する",
+      "label": "to take (medicine)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26965_nomikiru",
+      "reading": "のみきる",
+      "headword": "{飲|の}み{切|き}る",
+      "label": "to drink up"
     }
   ],
   "metadata": {
     "created": "2026-01-05T10:41:53Z",
-    "modified": "2026-05-10T18:08:33Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

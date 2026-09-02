@@ -19,7 +19,9 @@
       "english": "Fill a bucket with water.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11118_baketsu_ex2",
@@ -27,7 +29,9 @@
       "english": "I placed a bucket under the leak.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11118_baketsu_ex3",
@@ -35,21 +39,42 @@
       "english": "It started pouring rain, as if a bucket had been turned upside down.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "バケツ is the standard word for a bucket or pail. A common household and cleaning item.\n\nETYMOLOGY:\nFrom English \"bucket,\" borrowed during the Meiji era.\n\nCOMMON COLLOCATIONS:\n- バケツに{水|みず}を{汲|く}む: to draw water into a bucket\n- バケツで{運|はこ}ぶ: to carry with a bucket\n- バケツリレー: bucket relay (passing buckets of water in a chain, used in firefighting drills)\n- バケツ{一杯|いっぱい}の{水|みず}: a bucketful of water\n\nSET EXPRESSION:\nバケツをひっくり{返|かえ}したような{雨|あめ} — an extremely heavy downpour (literally, \"rain as if a bucket were turned upside down\"). This is a very common and vivid expression.\n\nSIMILAR WORDS:\n- {桶|おけ}: tub, wooden bucket (traditional)\n- たらい: washbasin, washtub",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13135_oke",
+      "reading": "おけ",
+      "headword": "{桶|おけ}",
+      "label": "tub, wooden bucket"
+    },
+    {
+      "type": "related",
+      "target_id": "04408_zoukin",
+      "reading": "ぞうきん",
+      "headword": "{雑巾|ぞうきん}",
+      "label": "cleaning rag, dust cloth"
+    }
+  ],
   "metadata": {
     "created": "2026-02-14T03:15:22Z",
-    "modified": "2026-04-03T03:01:14Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     }
   }
 }

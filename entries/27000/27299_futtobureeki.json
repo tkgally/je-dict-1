@@ -18,7 +18,9 @@
       "id": "27299_futtobureeki_ex1",
       "japanese": "フットブレーキを{踏|ふ}んで{止|と}まった。",
       "english": "I pressed the foot brake and stopped.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -26,7 +28,9 @@
       "id": "27299_futtobureeki_ex2",
       "japanese": "{急|きゅう}にフットブレーキを{踏|ふ}むと{危|あぶ}ない。",
       "english": "Suddenly slamming on the foot brake is dangerous.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -34,7 +38,9 @@
       "id": "27299_futtobureeki_ex3",
       "japanese": "{長|なが}い{下|くだ}り{坂|ざか}ではフットブレーキだけに{頼|たよ}らず、エンジンブレーキも{使|つか}おう。",
       "english": "On long downhill slopes, don't rely only on the foot brake — use engine braking as well.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -42,22 +48,51 @@
       "id": "27299_futtobureeki_ex4",
       "japanese": "フットブレーキを{踏|ふ}みすぎると、ブレーキが{熱|あつ}くなって{効|き}きにくくなることがある。",
       "english": "If you press the foot brake too much, the brakes can get hot and become less effective.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "フットブレーキ is a wasei-eigo compound (\"foot\" + \"brake\") for the main brake pedal of a car. The term is used mainly in driving education and technical contexts to distinguish the regular service brake from other braking systems.\n\nCOMMON COLLOCATIONS:\n- フットブレーキを{踏|ふ}む: to press / step on the foot brake\n- フットブレーキを{離|はな}す: to release the foot brake\n- フットブレーキの{踏|ふ}み{方|かた}: how to press the foot brake\n- フットブレーキが{効|き}かない: the foot brake doesn't work / isn't effective\n\nSIMILAR WORDS:\n- ブレーキ: brake (general term — usually means フットブレーキ in casual conversation)\n- サイドブレーキ: parking brake (lever or pedal used when parked)\n- エンジンブレーキ: engine braking (using the engine to slow down by downshifting or releasing the accelerator)\n- {主|しゅ}ブレーキ: main brake (technical synonym)\n\nUSAGE NOTES:\n- In everyday speech, simply saying ブレーキを{踏|ふ}む (press the brake) implies the foot brake; the explicit term フットブレーキ is used when contrasting with other brake types.\n- Driving manuals and instructors often emphasize using エンジンブレーキ in addition to フットブレーキ on long downhills to prevent overheating."
-  ,
+  "notes": "フットブレーキ is a wasei-eigo compound (\"foot\" + \"brake\") for the main brake pedal of a car. The term is used mainly in driving education and technical contexts to distinguish the regular service brake from other braking systems.\n\nCOMMON COLLOCATIONS:\n- フットブレーキを{踏|ふ}む: to press / step on the foot brake\n- フットブレーキを{離|はな}す: to release the foot brake\n- フットブレーキの{踏|ふ}み{方|かた}: how to press the foot brake\n- フットブレーキが{効|き}かない: the foot brake doesn't work / isn't effective\n\nSIMILAR WORDS:\n- ブレーキ: brake (general term — usually means フットブレーキ in casual conversation)\n- サイドブレーキ: parking brake (lever or pedal used when parked)\n- エンジンブレーキ: engine braking (using the engine to slow down by downshifting or releasing the accelerator)\n- {主|しゅ}ブレーキ: main brake (technical synonym)\n\nUSAGE:\n- In everyday speech, simply saying ブレーキを{踏|ふ}む (press the brake) implies the foot brake; the explicit term フットブレーキ is used when contrasting with other brake types.\n- Driving manuals and instructors often emphasize using エンジンブレーキ in addition to フットブレーキ on long downhills to prevent overheating.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00022_bureeki",
+      "reading": "ぶれーき",
+      "headword": "ブレーキ",
+      "label": "brake (general term"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27298_saidobureeki",
+      "reading": "さいどぶれーき",
+      "headword": "サイドブレーキ",
+      "label": "parking brake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27300_enjinbureeki",
+      "reading": "えんじんぶれーき",
+      "headword": "エンジンブレーキ",
+      "label": "engine braking"
+    }
+  ],
   "metadata": {
     "created": "2026-05-09T11:31:16Z",
-    "modified": "2026-05-09T11:31:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "tool"]
+      "semantic": [
+        "transportation",
+        "tool"
+      ]
     }
   }
 }

@@ -17,7 +17,9 @@
       "id": "26349_gaichou_ex1",
       "japanese": "カラスは{害鳥|がいちょう}とされることが{多|おお}い。",
       "english": "Crows are often considered pest birds.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26349_gaichou_ex2",
       "japanese": "{害鳥|がいちょう}による{農作物|のうさくぶつ}の{被害|ひがい}が{深刻|しんこく}だ。",
       "english": "The damage to crops from pest birds is serious.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26349_gaichou_ex3",
       "japanese": "{地域|ちいき}ぐるみで{害鳥|がいちょう}{対策|たいさく}に{取|と}り{組|く}んでいるが、なかなか{効果|こうか}が{出|で}ない。",
       "english": "The whole community is working on pest bird countermeasures, but results have been slow to materialize.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {害|がい} (harm, damage) and {鳥|ちょう} (bird). In Japan, common birds designated as {害鳥|がいちょう} include crows ({カラス}), pigeons ({ハト}), and starlings ({ムクドリ}) when they damage crops or cause urban nuisance.\n\nCOMMON COLLOCATIONS:\n- {害鳥|がいちょう}{駆除|くじょ}: pest bird extermination\n- {害鳥|がいちょう}{対策|たいさく}: pest bird countermeasures\n- {害鳥|がいちょう}{被害|ひがい}: damage from pest birds\n- {害鳥|がいちょう}{指定|してい}: designation as a pest bird\n\nSIMILAR WORDS:\n- {害虫|がいちゅう}: pest insect — the insect equivalent\n- {害獣|がいじゅう}: pest animal, nuisance animal — mammals that cause damage\n- {益鳥|えきちょう}: beneficial bird — the opposite; birds that help agriculture by eating pests",
-  "cross_references": [],
+  "notes": "Composed of {害|がい} (harm, damage) and {鳥|ちょう} (bird). In Japan, common birds designated as {害鳥|がいちょう} include crows (カラス), pigeons (ハト), and starlings (ムクドリ) when they damage crops or cause urban nuisance.\n\nCOMMON COLLOCATIONS:\n- {害鳥|がいちょう}{駆除|くじょ}: pest bird extermination\n- {害鳥|がいちょう}{対策|たいさく}: pest bird countermeasures\n- {害鳥|がいちょう}{被害|ひがい}: damage from pest birds\n- {害鳥|がいちょう}{指定|してい}: designation as a pest bird\n\nSIMILAR WORDS:\n- {害虫|がいちゅう}: pest insect — the insect equivalent\n- {害獣|がいじゅう}: pest animal, nuisance animal — mammals that cause damage\n- {益鳥|えきちょう}: beneficial bird — the opposite; birds that help agriculture by eating pests",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06430_gaichuu",
+      "reading": "がいちゅう",
+      "headword": "{害虫|がいちゅう}",
+      "label": "pest insect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24662_gaijuu",
+      "reading": "がいじゅう",
+      "headword": "{害獣|がいじゅう}",
+      "label": "pest animal, nuisance animal"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["nature", "animal-bird"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "nature",
+        "animal-bird"
+      ]
     },
     "created": "2026-05-01T11:33:49Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

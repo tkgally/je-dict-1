@@ -17,7 +17,9 @@
       "id": "24335_hoshuujugyou_ex1",
       "japanese": "{夏休|なつやす}みに{補習授業|ほしゅうじゅぎょう}がある。",
       "english": "There are supplementary classes during summer break.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24335_hoshuujugyou_ex2",
       "japanese": "{数学|すうがく}の{補習授業|ほしゅうじゅぎょう}を{受|う}けている。",
       "english": "I'm taking supplementary math lessons.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "24335_hoshuujugyou_ex3",
       "japanese": "{期末|きまつ}テストの{前|まえ}に、{先生|せんせい}が{希望者|きぼうしゃ}を{対象|たいしょう}に{補習授業|ほしゅうじゅぎょう}を{開|ひら}いてくれた。",
       "english": "Before the final exams, the teacher offered supplementary classes for interested students.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {補習|ほしゅう} (supplementary study) and {授業|じゅぎょう} (class, lesson). Often shortened to just {補習|ほしゅう} in casual conversation.\n\nCOMMON COLLOCATIONS:\n- {補習授業|ほしゅうじゅぎょう}を{受|う}ける: to take supplementary lessons\n- {補習授業|ほしゅうじゅぎょう}を{行|おこな}う: to hold supplementary lessons\n- {夏休|なつやす}みの{補習授業|ほしゅうじゅぎょう}: summer break supplementary classes\n- {放課後|ほうかご}の{補習授業|ほしゅうじゅぎょう}: after-school supplementary classes\n\nUSAGE:\nVery common in Japanese schools. Many high schools hold {補習授業|ほしゅうじゅぎょう} during summer and winter breaks, especially in the lead-up to university entrance exams. The word can refer to both remedial classes (for struggling students) and exam-prep sessions (for all students). In casual speech, often just called {補習|ほしゅう}.\n\nSIMILAR WORDS:\n- {補習|ほしゅう}: supplementary study — the shortened form, used more casually\n- {塾|じゅく}: cram school — a private after-school school, whereas {補習授業|ほしゅうじゅぎょう} is run by the school itself\n- {追試|ついし}: make-up exam — a re-test for students who failed, not extra lessons",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04702_juku",
+      "reading": "じゅく",
+      "headword": "{塾|じゅく}",
+      "label": "cram school"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09971_tsuishi",
+      "reading": "ついし",
+      "headword": "{追試|ついし}",
+      "label": "make-up exam"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-04-18T14:31:24Z",
-    "modified": "2026-04-18T14:31:24Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

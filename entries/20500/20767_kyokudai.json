@@ -3,7 +3,7 @@
   "headword": "{極大|きょくだい}",
   "reading": "きょくだい",
   "romaji": "kyokudai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "maximum; extremely large; local maximum",
   "definitions": [
     {
@@ -81,6 +81,29 @@
   ],
   "notes": "A compound of {極|きょく} (extreme, pole) and {大|だい} (large). Can function as a no-adjective: {極大|きょくだい}の.\n\nUSAGE:\nSense 1 (extremely large) is used in general contexts but is fairly formal. Sense 2 (local maximum) is the more common technical usage, appearing in mathematics, physics, and astronomy. In astronomy, {極大|きょくだい} specifically refers to the peak of a periodic phenomenon such as a meteor shower or solar cycle.\n\nCOMMON COLLOCATIONS:\n- {極大|きょくだい}{値|ち} — maximum value (math)\n- {極大|きょくだい}を{迎|むか}える — to reach a peak\n- {極大|きょくだい}{期|き} — peak period\n- {極大|きょくだい}と{極小|きょくしょう} — maximum and minimum\n\nSIMILAR WORDS:\n- {最大|さいだい} — greatest, largest; the absolute maximum (vs. {極大|きょくだい} which can be a local maximum)\n- {極小|きょくしょう} — minimum; extremely small; the antonym\n- {極限|きょくげん} — limit, extreme; the furthest possible extent",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04827_saidai",
+      "reading": "さいだい",
+      "headword": "{最大|さいだい}",
+      "label": "greatest, largest"
+    },
+    {
+      "type": "antonym",
+      "target_id": "26067_kyokushou",
+      "reading": "きょくしょう",
+      "headword": "{極小|きょくしょう}",
+      "label": "minimum"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13231_kyokugen",
+      "reading": "きょくげん",
+      "headword": "{極限|きょくげん}",
+      "label": "limit, extreme"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -96,6 +119,6 @@
       ]
     },
     "created": "2026-03-30T15:17:37Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

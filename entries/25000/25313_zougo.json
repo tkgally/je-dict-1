@@ -3,7 +3,7 @@
   "headword": "{造語|ぞうご}",
   "reading": "ぞうご",
   "romaji": "zougo",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "coined word; neologism; coinage",
   "definitions": [
     {
@@ -80,8 +80,31 @@
       "notes": null
     }
   ],
-  "notes": "Can refer both to the resulting new word and to the process of creating it. Japanese is highly productive in word coinage, particularly through combining kanji compounds, abbreviation of katakana words, and blending. Many words that are now standard Japanese were originally {造語|ぞうご} from the Meiji era.\n\nCOMMON COLLOCATIONS:\n- {造語|ぞうご}を{作|つく}る: create a coined word\n- {造語|ぞうご}{力|りょく}: word-coining ability/productivity\n- {和製|わせい}{造語|ぞうご}: Japanese-made coined word\n\nRELATED TERMS:\n- {新語|しんご}: new word — any word recently entering use, not necessarily coined\n- {略語|りゃくご}: abbreviation — a shortened form of an existing word\n- {和製英語|わせいえいご}: Japanese-made English — English-sounding words coined in Japanese",
+  "notes": "Can refer both to the resulting new word and to the process of creating it. Japanese is highly productive in word coinage, particularly through combining kanji compounds, abbreviation of katakana words, and blending. Many words that are now standard Japanese were originally {造語|ぞうご} from the Meiji era.\n\nCOMMON COLLOCATIONS:\n- {造語|ぞうご}を{作|つく}る: create a coined word\n- {造語|ぞうご}{力|りょく}: word-coining ability/productivity\n- {和製|わせい}{造語|ぞうご}: Japanese-made coined word\n\nRELATED WORDS:\n- {新語|しんご}: new word — any word recently entering use, not necessarily coined\n- {略語|りゃくご}: abbreviation — a shortened form of an existing word\n- {和製英語|わせいえいご}: Japanese-made English — English-sounding words coined in Japanese",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21555_shingo",
+      "reading": "しんご",
+      "headword": "{新語|しんご}",
+      "label": "new word"
+    },
+    {
+      "type": "related",
+      "target_id": "21705_ryakugo",
+      "reading": "りゃくご",
+      "headword": "{略語|りゃくご}",
+      "label": "abbreviation"
+    },
+    {
+      "type": "related",
+      "target_id": "18947_waseieigo",
+      "reading": "わせいえいご",
+      "headword": "{和製英語|わせいえいご}",
+      "label": "Japanese-made English"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -89,6 +112,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "language"
       ],
@@ -98,7 +123,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T14:24:18Z",
-    "modified": "2026-04-24T14:24:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

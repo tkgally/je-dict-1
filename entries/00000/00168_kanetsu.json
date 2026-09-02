@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "COOKING:\n・{加熱|かねつ}⟦する→する：00392_suru⟧ (to heat)\n・{加熱|かねつ}⟦{調理|ちょうり}→調理：07156_chouri⟧ (cooking with heat)\n・{加熱|かねつ}⟦{殺菌|さっきん}→殺菌：09781_sakkin⟧ (heat sterilization)\n・⟦{要|よう}→要：10000_you⟧{加熱|かねつ} (requires heating)\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{加熱|かねつ}⟦する→する：00392_suru⟧\n\nFOOD SAFETY:\n・⟦{十分|じゅうぶん}→十分：01614_juubun⟧⟦に→に：00314_ni⟧{加熱|かねつ}⟦する→する：00392_suru⟧ (to heat thoroughly)\n・{加熱|かねつ}⟦{不足|ふそく}→不足：03598_fusoku⟧ (insufficient heating)\n\nTECHNICAL:\n・{加熱|かねつ}⟦{式|しき}→式：02000_shiki⟧⟦タバコ→たばこ：02909_tabako⟧ (heated tobacco product)\n・{加熱|かねつ}⟦{装置|そうち}→装置：03318_souchi⟧ (heating device)\n\nANTONYM:\n・⟦{冷却|れいきゃく}→冷却：09796_reikyaku⟧ (cooling)\n\nSIMILAR:\n・⟦{温|あたた}める→温める：02096_atatameru⟧ (to warm up - general)\n・⟦{熱|ねっ}する→熱する：09794_nessuru⟧ (to heat - technical)",
+  "notes": "COOKING:\n- {加熱|かねつ}⟦する→する：00392_suru⟧ (to heat)\n- {加熱|かねつ}⟦{調理|ちょうり}→調理：07156_chouri⟧ (cooking with heat)\n- {加熱|かねつ}⟦{殺菌|さっきん}→殺菌：09781_sakkin⟧ (heat sterilization)\n- ⟦{要|よう}→要：10000_you⟧{加熱|かねつ} (requires heating)\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{加熱|かねつ}⟦する→する：00392_suru⟧\n\nFOOD SAFETY:\n- ⟦{十分|じゅうぶん}→十分：01614_juubun⟧⟦に→に：00314_ni⟧{加熱|かねつ}⟦する→する：00392_suru⟧ (to heat thoroughly)\n- {加熱|かねつ}⟦{不足|ふそく}→不足：03598_fusoku⟧ (insufficient heating)\n\nTECHNICAL:\n- {加熱|かねつ}⟦{式|しき}→式：02000_shiki⟧⟦タバコ→たばこ：02909_tabako⟧ (heated tobacco product)\n- {加熱|かねつ}⟦{装置|そうち}→装置：03318_souchi⟧ (heating device)\n\nSIMILAR WORDS:\n- ⟦{冷却|れいきゃく}→冷却：09796_reikyaku⟧ (cooling)\n\nSIMILAR:\n- ⟦{温|あたた}める→温める：02096_atatameru⟧ (to warm up - general)\n- ⟦{熱|ねっ}する→熱する：09794_nessuru⟧ (to heat - technical)",
   "cross_references": [
     {
       "type": "antonym",
@@ -165,21 +165,28 @@
     {
       "type": "related",
       "reading": "あたためる",
-      "headword": "{温める|あたためる}",
+      "headword": "{温|あたた}める",
       "label": "to warm up",
       "target_id": "02096_atatameru"
     },
     {
       "type": "related",
       "reading": "ねっする",
-      "headword": "{熱する|ねっする}",
+      "headword": "{熱|ねっ}する",
       "label": "to heat (technical)",
       "target_id": "09794_nessuru"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23430_yonetsu",
+      "reading": "よねつ",
+      "headword": "{予熱|よねつ}",
+      "label": "preheating"
     }
   ],
   "metadata": {
     "created": "2026-01-13T10:53:53Z",
-    "modified": "2026-05-09T18:08:03Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{救出|きゅうしゅつ}する",
   "reading": "きゅうしゅつする",
   "romaji": "kyuushutsusuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to rescue; to save; to extricate",
   "definitions": [
     {
@@ -55,7 +55,29 @@
     }
   ],
   "notes": "A dramatic word often heard in news reports about disasters, accidents, and emergency situations. Japan's frequent natural disasters make this word especially common in media coverage.\n\nCOMMON COLLOCATIONS:\n- {救出|きゅうしゅつ}{活動|かつどう}: rescue operations\n- {救出|きゅうしゅつ}{作業|さぎょう}: rescue work\n- {救出|きゅうしゅつ}{隊|たい}: rescue team\n- {人命|じんめい}{救出|きゅうしゅつ}: lifesaving rescue\n- {救出|きゅうしゅつ}に{向|む}かう: to head for the rescue\n\nSIMILAR WORDS:\n- {助|たす}ける: to help, to save — general-purpose helping or saving\n- {救助|きゅうじょ}する: to rescue — very similar, slightly more formal/official\n- {脱出|だっしゅつ}する: to escape — escaping by oneself, not being rescued by others",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00895_tasukeru",
+      "reading": "たすける",
+      "headword": "{助|たす}ける",
+      "label": "to help, to save"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02588_kyuujo",
+      "reading": "きゅうじょ",
+      "headword": "{救助|きゅうじょ}",
+      "label": "to rescue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26829_dasshutsusuru",
+      "reading": "だっしゅつする",
+      "headword": "{脱出|だっしゅつ}する",
+      "label": "to escape"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,7 +93,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T13:14:10Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

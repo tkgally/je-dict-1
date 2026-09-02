@@ -18,7 +18,9 @@
       "english": "A smile appeared around the mouth.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11891_kuchimoto_ex2",
@@ -26,7 +28,9 @@
       "english": "The area around the mouth is hidden by a mask.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11891_kuchimoto_ex3",
@@ -34,22 +38,50 @@
       "english": "She laughed quietly while covering her mouth with her hand.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{口元|くちもと}に{笑|え}みを{浮|う}かべる (have a smile on one's lips)\n・{口元|くちもと}を{隠|かく}す (cover one's mouth area)\n・{口元|くちもと}を{押|お}さえる (hold one's hand over one's mouth)\n・{口元|くちもと}が{緩|ゆる}む (the corners of the mouth relax into a smile)\n\nFrequently used in literary and descriptive writing to convey subtle facial expressions. The similar term {口許|くちもと} uses a different kanji but has the same meaning.",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- {口元|くちもと}に{笑|え}みを{浮|う}かべる (have a smile on one's lips)\n- {口元|くちもと}を{隠|かく}す (cover one's mouth area)\n- {口元|くちもと}を{押|お}さえる (hold one's hand over one's mouth)\n- {口元|くちもと}が{緩|ゆる}む (the corners of the mouth relax into a smile)\n\nFrequently used in literary and descriptive writing to convey subtle facial expressions. The similar term {口許|くちもと} uses a different kanji but has the same meaning.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03903_kuchibiru",
+      "reading": "くちびる",
+      "headword": "{唇|くちびる}",
+      "label": "lip, lips"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23407_memoto",
+      "reading": "めもと",
+      "headword": "{目元|めもと}",
+      "label": "the area around the eyes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23420_shitakuchibiru",
+      "reading": "したくちびる",
+      "headword": "{下唇|したくちびる}",
+      "label": "the lower lip"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T14:02:39Z",
-    "modified": "2026-02-18T14:02:39Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-part"]
+      "semantic": [
+        "body-part"
+      ]
     }
   }
 }

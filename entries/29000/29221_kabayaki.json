@@ -18,7 +18,9 @@
       "id": "29221_kabayaki_ex1",
       "japanese": "{鰻|うなぎ}の{蒲焼|かばや}きを{食|た}べた。",
       "english": "I ate kabayaki eel.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -26,7 +28,9 @@
       "id": "29221_kabayaki_ex2",
       "japanese": "{蒲焼|かばや}きのたれは{醤油|しょうゆ}とみりんで{作|つく}る。",
       "english": "Kabayaki sauce is made from soy sauce and mirin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -34,22 +38,44 @@
       "id": "29221_kabayaki_ex3",
       "japanese": "{土用|どよう}の{丑|うし}の{日|ひ}に{鰻|うなぎ}の{蒲焼|かばや}きを{食|た}べる{習慣|しゅうかん}がある。",
       "english": "There is a custom of eating kabayaki eel on the Midsummer Day of the Ox.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The defining feature is the tare ({蒲焼|かばや}きのたれ) — a sweet, salty sauce of soy sauce, mirin, sake, and sugar that caramelizes on the fish during grilling.\n\nCOMMON COLLOCATIONS:\n- {鰻|うなぎ}の{蒲焼|かばや}き: eel kabayaki (the most iconic form)\n- {蒲焼|かばや}きのたれ: kabayaki glaze/sauce\n- {鰻丼|うなどん}: eel rice bowl topped with kabayaki eel\n- {鰻重|うなじゅう}: kabayaki eel served over rice in a lacquered box\n\nSIMILAR WORDS:\n- {塩焼|しおや}き: salt-grilled fish — simpler preparation with no sweet sauce\n- {照|て}り{焼|や}き: teriyaki — similar glaze technique, applied to various meats and fish",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12120_shioyaki",
+      "reading": "しおやき",
+      "headword": "{塩焼|しおや}き",
+      "label": "salt-grilled fish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17668_teriyaki",
+      "reading": "てりやき",
+      "headword": "{照|て}り{焼|や}き",
+      "label": "teriyaki"
+    }
+  ],
   "metadata": {
     "created": "2026-06-13T21:22:42Z",
-    "modified": "2026-06-13T21:22:42Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "cooking"],
+      "semantic": [
+        "food",
+        "cooking"
+      ],
       "domain": []
     }
   }

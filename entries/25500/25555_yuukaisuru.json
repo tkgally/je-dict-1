@@ -3,7 +3,7 @@
   "headword": "{融解|ゆうかい}する",
   "reading": "ゆうかいする",
   "romaji": "yuukaisuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to melt; to thaw; to liquefy",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "{融解|ゆうかい}する is the scientific term for melting — the phase transition from solid to liquid. It is commonly used in chemistry, physics, and environmental science, especially in discussions of glacier melting and climate change.\n\nCOMMON COLLOCATIONS:\n- {融解|ゆうかい}{点|てん}: melting point\n- {融解|ゆうかい}{熱|ねつ}: heat of fusion\n- {氷河|ひょうが}の{融解|ゆうかい}: glacial melting\n- {永久|えいきゅう}{凍土|とうど}の{融解|ゆうかい}: permafrost thawing\n\nSIMILAR WORDS:\n- {溶|と}ける: to melt; to dissolve — everyday word, used casually for ice cream melting, sugar dissolving, etc.\n- {溶解|ようかい}する: to dissolve — specifically for dissolving a substance in a liquid (different physical process)\n- {解凍|かいとう}する: to defrost; to thaw — practical term for defrosting frozen food or frozen data",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02302_tokeru",
+      "reading": "とける",
+      "headword": "{溶|と}ける",
+      "label": "to melt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17585_youkai",
+      "reading": "ようかい",
+      "headword": "{溶解|ようかい}",
+      "label": "to dissolve"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19085_kaitou",
+      "reading": "かいとう",
+      "headword": "{解凍|かいとう}",
+      "label": "to defrost"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +76,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "science",
         "nature"
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T16:23:32Z",
-    "modified": "2026-08-04T13:00:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -17,7 +17,9 @@
       "id": "20096_heimen_ex1",
       "japanese": "{平面|へいめん}に{線|せん}を{引|ひ}く。",
       "english": "To draw a line on a flat surface.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20096_heimen_ex2",
       "japanese": "{平面|へいめん}{図|ず}で{間取|まど}りを{確認|かくにん}する。",
       "english": "To check the floor layout on a plan view.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "20096_heimen_ex3",
       "japanese": "{数学|すうがく}では、{二|ふた}つの{平面|へいめん}が{交|まじ}わると{直線|ちょくせん}ができる。",
       "english": "In mathematics, when two planes intersect, a straight line is formed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A flat, two-dimensional surface. Composed of {平|へい} (flat/level) + {面|めん} (surface/face). Used in everyday language, architecture, and mathematics.\n\nCOMMON COLLOCATIONS:\n- {平面|へいめん}{図|ず}: floor plan; plan view\n- {平面|へいめん}{幾何学|きかがく}: plane geometry\n- {平面|へいめん}{的|てき}: flat; two-dimensional (also figuratively: lacking depth)\n- {平面|へいめん}{交差|こうさ}: at-grade intersection (roads crossing on the same level)\n- {平面|へいめん}{駐車場|ちゅうしゃじょう}: surface-level parking lot\n\nSIMILAR WORDS:\n- {立体|りったい}: three-dimensional object — the conceptual opposite of {平面|へいめん}\n- {表面|ひょうめん}: surface — refers to the outer face of an object, not necessarily flat\n- {水平|すいへい}: horizontal; level — describes orientation rather than dimensionality\n\nUSAGE:\nWhen used as a modifier ({平面|へいめん}{的|てき}), it can describe something figuratively as lacking depth or dimensionality, such as a flat, uninteresting character in a novel.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18797_rittai",
+      "reading": "りったい",
+      "headword": "{立体|りったい}",
+      "label": "three-dimensional object"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03587_hyoumen",
+      "reading": "ひょうめん",
+      "headword": "{表面|ひょうめん}",
+      "label": "surface"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04304_suihei",
+      "reading": "すいへい",
+      "headword": "{水平|すいへい}",
+      "label": "horizontal"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["shape"]
+      "semantic": [
+        "shape"
+      ]
     },
     "created": "2026-03-28T12:53:14Z",
-    "modified": "2026-03-28T12:53:14Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{引|ひ}き{算|ざん} means subtraction - one of the four basic arithmetic operations.\n\nWORD FORMATION:\n⟦{引|ひ}く→引く：01978_hiku⟧ (to pull, subtract) + ⟦{算|さん}→算：noentry⟧ (calculation) = subtraction\n\nTHE FOUR BASIC OPERATIONS (⟦{四則|しそく}→四則：28865_shisoku⟧⟦{演算|えんざん}→演算：05150_enzan⟧):\n- ⟦{足|た}し{算|ざん}→足し算：05332_tashizan⟧: addition (+)\n- {引|ひ}き{算|ざん}: subtraction (-)\n- ⟦{掛|か}け{算|ざん}→掛け算：05334_kakezan⟧: multiplication (×)\n- ⟦{割|わ}り{算|ざん}→割り算：05335_warizan⟧: division (÷)\n\nEXPRESSING SUBTRACTION:\n- 10⟦{引|ひ}く→引く：01978_hiku⟧3⟦は→は：00079_ha⟧7: 10 minus 3 is 7\n- 10⟦から→から：00504_kara⟧3⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧: subtract 3 from 10\n\nCOMMON EXPRESSIONS:\n- {引|ひ}き{算|ざん}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to do subtraction\n- {引|ひ}き{算|ざん}⟦の→の：09472_no⟧⟦{問題|もんだい}→問題：00797_mondai⟧: subtraction problem\n- {引|ひ}き{算|ざん}⟦が→が：00051_ga⟧⟦{得意|とくい}→得意：03455_tokui⟧/⟦{苦手|にがて}→苦手：03513_nigate⟧: to be good/bad at subtraction\n\nRELATED MATH TERMS:\n- ⟦{暗算|あんざん}→暗算：15852_anzan⟧: mental arithmetic\n- ⟦{計算|けいさん}→計算：02697_keisan⟧: calculation\n- ⟦{答|こた}え→答え：00790_kotae⟧: answer\n- ⟦{差|さ}→差：02771_sa⟧: difference (result of subtraction)",
+  "notes": "{引|ひ}き{算|ざん} means subtraction - one of the four basic arithmetic operations.\n\nFORMS:\n⟦{引|ひ}く→引く：01978_hiku⟧ (to pull, subtract) + ⟦{算|さん}→算：noentry⟧ (calculation) = subtraction\n\nTHE FOUR BASIC OPERATIONS (⟦{四則|しそく}→四則：28865_shisoku⟧⟦{演算|えんざん}→演算：05150_enzan⟧):\n- ⟦{足|た}し{算|ざん}→足し算：05332_tashizan⟧: addition (+)\n- {引|ひ}き{算|ざん}: subtraction (-)\n- ⟦{掛|か}け{算|ざん}→掛け算：05334_kakezan⟧: multiplication (×)\n- ⟦{割|わ}り{算|ざん}→割り算：05335_warizan⟧: division (÷)\n\nEXPRESSING SUBTRACTION:\n- 10⟦{引|ひ}く→引く：01978_hiku⟧3⟦は→は：00079_ha⟧7: 10 minus 3 is 7\n- 10⟦から→から：00504_kara⟧3⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧: subtract 3 from 10\n\nCOMMON EXPRESSIONS:\n- {引|ひ}き{算|ざん}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to do subtraction\n- {引|ひ}き{算|ざん}⟦の→の：09472_no⟧⟦{問題|もんだい}→問題：00797_mondai⟧: subtraction problem\n- {引|ひ}き{算|ざん}⟦が→が：00051_ga⟧⟦{得意|とくい}→得意：03455_tokui⟧/⟦{苦手|にがて}→苦手：03513_nigate⟧: to be good/bad at subtraction\n\nRELATED MATH TERMS:\n- ⟦{暗算|あんざん}→暗算：15852_anzan⟧: mental arithmetic\n- ⟦{計算|けいさん}→計算：02697_keisan⟧: calculation\n- ⟦{答|こた}え→答え：00790_kotae⟧: answer\n- ⟦{差|さ}→差：02771_sa⟧: difference (result of subtraction)",
   "cross_references": [
     {
       "type": "antonym",
@@ -65,11 +65,39 @@
       "reading": "わりざん",
       "headword": "{割|わ}り{算|ざん}",
       "label": "division"
+    },
+    {
+      "type": "related",
+      "target_id": "15852_anzan",
+      "reading": "あんざん",
+      "headword": "{暗算|あんざん}",
+      "label": "mental arithmetic"
+    },
+    {
+      "type": "related",
+      "target_id": "02697_keisan",
+      "reading": "けいさん",
+      "headword": "{計算|けいさん}",
+      "label": "calculation"
+    },
+    {
+      "type": "related",
+      "target_id": "00790_kotae",
+      "reading": "こたえ",
+      "headword": "{答|こた}え",
+      "label": "answer"
+    },
+    {
+      "type": "related",
+      "target_id": "02771_sa",
+      "reading": "さ",
+      "headword": "{差|さ}",
+      "label": "difference"
     }
   ],
   "metadata": {
     "created": "2026-01-16T05:20:28Z",
-    "modified": "2026-08-20T06:21:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

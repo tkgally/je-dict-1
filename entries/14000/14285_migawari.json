@@ -19,7 +19,9 @@
       "english": "He took his friend's place.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14285_migawari_ex2",
@@ -27,7 +29,9 @@
       "english": "He left a substitute doll and escaped.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14285_migawari_ex3",
@@ -35,21 +39,49 @@
       "english": "He was about to be executed as a stand-in for the prince, but the truth came to light at the last moment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Compound of {身|み} (body, self) + {代|か}わり (substitute). Carries a dramatic nuance of self-sacrifice or deception.\n\nIn traditional Japanese culture, {身代|みが}わり{地蔵|じぞう} (substitute Jizo statues) are believed to take on illness or misfortune in place of a person. {身代|みが}わりのお{守|まも}り (protective charms) serve a similar function.\n\nCOMMON COLLOCATIONS:\n- {身代|みが}わりになる (to become a substitute)\n- {身代|みが}わりを{立|た}てる (to put up a stand-in)\n- {身代|みが}わり{地蔵|じぞう} (substitute Jizo statue)\n\nSIMILAR WORDS:\n- {代|か}わり: substitute, replacement (neutral, everyday)\n- {替|か}え{玉|だま}: body double, fake substitute (often implies deception)\n- {犠牲|ぎせい}: sacrifice (emphasizes the cost or loss)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08309_kaedama",
+      "reading": "かえだま",
+      "headword": "{替|か}え{玉|だま}",
+      "label": "body double, fake substitute"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14743_gisei",
+      "reading": "ぎせい",
+      "headword": "{犠牲|ぎせい}",
+      "label": "sacrifice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20132_daiyaku",
+      "reading": "だいやく",
+      "headword": "{代役|だいやく}",
+      "label": "stand-in"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T09:25:57Z",
-    "modified": "2026-07-15T09:17:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

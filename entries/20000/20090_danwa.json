@@ -22,7 +22,9 @@
       "id": "20090_danwa_ex1",
       "japanese": "{談話|だんわ}を{楽|たの}しむ。",
       "english": "To enjoy a conversation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "20090_danwa_ex2",
       "japanese": "{友人|ゆうじん}と{談話|だんわ}を{交|か}わした。",
       "english": "I exchanged conversation with a friend.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "20090_danwa_ex3",
       "japanese": "{談話室|だんわしつ}でコーヒーを{飲|の}みながら{談話|だんわ}を{楽|たの}しんだ。",
       "english": "We enjoyed chatting over coffee in the lounge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "20090_danwa_ex4",
       "japanese": "{首相|しゅしょう}が{談話|だんわ}を{発表|はっぴょう}した。",
       "english": "The prime minister issued a statement.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "20090_danwa_ex5",
       "japanese": "{官房長官|かんぼうちょうかん}の{談話|だんわ}が{注目|ちゅうもく}を{集|あつ}めた。",
       "english": "The Chief Cabinet Secretary's statement attracted attention.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,51 @@
       "id": "20090_danwa_ex6",
       "japanese": "{政府|せいふ}は{公式|こうしき}{談話|だんわ}を{通|つう}じて{国民|こくみん}に{説明|せつめい}した。",
       "english": "The government explained to the public through an official statement.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Has two distinct uses: informal conversation between people, and formal public statements by officials. Composed of {談|だん} (talk) + {話|わ} (talk/story).\n\nCOMMON COLLOCATIONS:\n- {談話|だんわ}を{交|か}わす: to exchange conversation\n- {談話|だんわ}を{発表|はっぴょう}する: to issue a statement\n- {談話室|だんわしつ}: lounge; conversation room\n- {公式|こうしき}{談話|だんわ}: official statement\n- {首相|しゅしょう}{談話|だんわ}: prime minister's statement\n\nSIMILAR WORDS:\n- {会話|かいわ}: conversation — more everyday and common; used for general back-and-forth dialogue\n- {声明|せいめい}: declaration, statement — more formal and decisive than {談話|だんわ} in the political sense\n- {雑談|ざつだん}: small talk, chitchat — casual and lighthearted conversation\n\nUSAGE:\nIn sense 2, {談話|だんわ} is a staple of political and news language. The word {談話|だんわ} often implies a less binding or formal statement than {声明|せいめい}.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01271_kaiwa",
+      "reading": "かいわ",
+      "headword": "{会話|かいわ}",
+      "label": "conversation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03763_seimei",
+      "reading": "せいめい",
+      "headword": "{声明|せいめい}",
+      "label": "declaration, statement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06639_zatsudan",
+      "reading": "ざつだん",
+      "headword": "{雑談|ざつだん}",
+      "label": "small talk, chitchat"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-03-28T12:51:10Z",
-    "modified": "2026-03-28T12:51:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

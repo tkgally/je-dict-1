@@ -3,7 +3,7 @@
   "headword": "{進路変更|しんろへんこう}",
   "reading": "しんろへんこう",
   "romaji": "shinrohenkou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "change of course; career path change",
   "definitions": [
     {
@@ -81,6 +81,29 @@
   ],
   "notes": "Composed of {進路|しんろ} (course; route; career path) + {変更|へんこう} (change). The word has two distinct spheres of usage: physical navigation and life planning. In the driving context, it specifically refers to lane changes and turns. In the life-planning context, it is closely tied to the Japanese education system, where students must choose their {進路|しんろ} (future path) during high school.\n\nCOMMON COLLOCATIONS:\n- {進路変更|しんろへんこう}する: change course / change career path\n- {進路変更|しんろへんこう}の{合図|あいず}: signal for a direction change\n- {進路変更|しんろへんこう}を{決|き}める: decide on a change of course\n\nSIMILAR WORDS:\n- {方向転換|ほうこうてんかん}: change of direction — more dramatic; implies a major shift\n- {転職|てんしょく}: job change — specifically about switching jobs, not the broader life-course meaning\n- {志望変更|しぼうへんこう}: change of desired school/career — more specific to application targets",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15617_houkoutenkan",
+      "reading": "ほうこうてんかん",
+      "headword": "{方向転換|ほうこうてんかん}",
+      "label": "change of direction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04557_tenshoku",
+      "reading": "てんしょく",
+      "headword": "{転職|てんしょく}",
+      "label": "job change"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26434_rosenhenkou",
+      "reading": "ろせんへんこう",
+      "headword": "{路線|ろせん}{変更|へんこう}",
+      "label": "change of route"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -88,6 +111,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "education",
         "transportation"
@@ -95,7 +120,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-22T11:29:00Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

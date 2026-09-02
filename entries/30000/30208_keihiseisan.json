@@ -4,7 +4,7 @@
   "headword": "経費精算",
   "reading": "けいひせいさん",
   "romaji": "keihiseisan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "expense reimbursement; settling expense claims",
   "definitions": [
     {
@@ -70,6 +70,41 @@
       "headword": "精算",
       "label": "settlement of an amount",
       "target_id": "10899_seisan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10197_tatekae",
+      "reading": "たてかえ",
+      "headword": "{立替|たてか}え",
+      "label": "paying on someone's behalf"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30226_karibarai",
+      "reading": "かりばらい",
+      "headword": "{仮払|かりばら}い",
+      "label": "cash advance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04697_ryoushuusho",
+      "reading": "りょうしゅうしょ",
+      "headword": "{領収書|りょうしゅうしょ}",
+      "label": "receipt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23347_tatekaebarai",
+      "reading": "たてかえばらい",
+      "headword": "{立替|たてか}え{払|ばら}い",
+      "label": "paying on someone's behalf (to be reimbursed later)"
+    },
+    {
+      "type": "related",
+      "target_id": "23618_tatekaekin",
+      "reading": "たてかえきん",
+      "headword": "{立替金|たてかえきん}",
+      "label": "money paid on someone else's behalf"
     }
   ],
   "metadata": {
@@ -80,7 +115,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "work",
         "money"
@@ -91,7 +126,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-29T03:20:59Z",
-    "modified": "2026-07-29T03:20:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "{可用性|かようせい} is a technical IT term referring to system uptime and accessibility.\n\nCOMMON COLLOCATIONS:\n- {高|たか}{可用性|かようせい}: high availability (HA)\n- {可用性|かようせい}を{確保|かくほ}する: to ensure availability\n- {可用性|かようせい}を{向上|こうじょう}させる: to improve availability\n\nRELATED CONCEPTS:\n- {信頼性|しんらいせい}: reliability\n- {耐障害性|たいしょうがいせい}: fault tolerance\n- {冗長性|じょうちょうせい}: redundancy\n\nTECHNICAL NOTE:\nAvailability is often expressed as a percentage (e.g., 99.9% = \"three nines\"). The term is part of the IT triad of {機密性|きみつせい} (confidentiality), {完全性|かんぜんせい} (integrity), and {可用性|かようせい} (availability), known as CIA.",
-  "cross_references": [],
+  "notes": "{可用性|かようせい} is a technical IT term referring to system uptime and accessibility.\n\nCOMMON COLLOCATIONS:\n- {高|たか}{可用性|かようせい}: high availability (HA)\n- {可用性|かようせい}を{確保|かくほ}する: to ensure availability\n- {可用性|かようせい}を{向上|こうじょう}させる: to improve availability\n\nRELATED WORDS:\n- {信頼性|しんらいせい}: reliability\n- {耐障害性|たいしょうがいせい}: fault tolerance\n- {冗長性|じょうちょうせい}: redundancy\n\nTECHNICAL NOTE:\nAvailability is often expressed as a percentage (e.g., 99.9% = \"three nines\"). The term is part of the IT triad of {機密性|きみつせい} (confidentiality), {完全性|かんぜんせい} (integrity), and {可用性|かようせい} (availability), known as CIA.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05572_shinraisei",
+      "reading": "しんらいせい",
+      "headword": "{信頼性|しんらいせい}",
+      "label": "reliability"
+    },
+    {
+      "type": "related",
+      "target_id": "24002_jouchousei",
+      "reading": "じょうちょうせい",
+      "headword": "{冗長性|じょうちょうせい}",
+      "label": "redundancy"
+    }
+  ],
   "metadata": {
     "created": "2026-01-29T06:09:22Z",
-    "modified": "2026-01-29T06:09:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

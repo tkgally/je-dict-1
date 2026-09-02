@@ -3,7 +3,7 @@
   "headword": "{定常|ていじょう}",
   "reading": "ていじょう",
   "romaji": "teijou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "steady; stable; stationary; constant",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "22037_teijou_ex1",
       "japanese": "{定常|ていじょう}{状態|じょうたい}に{達|たっ}する。",
       "english": "To reach a steady state.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22037_teijou_ex2",
       "japanese": "{定常|ていじょう}{的|てき}な{運転|うんてん}を{維持|いじ}する。",
       "english": "To maintain steady operation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "22037_teijou_ex3",
       "japanese": "この{装置|そうち}は{定常|ていじょう}{運転|うんてん}に{入|はい}るまで{数分|すうふん}かかる。",
       "english": "This equipment takes several minutes to enter steady-state operation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {定|てい} (fixed, settled) and {常|じょう} (constant, usual). Used primarily as a modifier (with の or {的|てき}) to describe unchanging, stable conditions.\n\nCOMMON COLLOCATIONS:\n- {定常|ていじょう}{状態|じょうたい}: steady state\n- {定常|ていじょう}{運転|うんてん}: steady-state operation\n- {定常|ていじょう}{的|てき}: steady, constant (adjectival form)\n- {定常|ていじょう}{波|は}: standing wave (physics)\n- {定常|ていじょう}{流|りゅう}: steady flow\n\nSIMILAR WORDS:\n- {安定|あんてい}: stable — more common in everyday language, implies being firmly established\n- {一定|いってい}: constant / fixed — emphasizes a set, unchanging level\n- {恒常|こうじょう}: permanent / constant — emphasizes long-lasting, enduring constancy\n\nREGISTER:\nTechnical and formal. Frequently used in science, engineering, and economics. In everyday speech, {安定|あんてい} or {一定|いってい} are more natural.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01703_antei",
+      "reading": "あんてい",
+      "headword": "{安定|あんてい}",
+      "label": "stable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01735_ittei",
+      "reading": "いってい",
+      "headword": "{一定|いってい}",
+      "label": "constant / fixed"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["science"]
+      "semantic": [
+        "science"
+      ]
     },
     "created": "2026-04-04T21:13:11Z",
-    "modified": "2026-04-04T21:13:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "21969_shinjitsumi_ex1",
       "japanese": "{真実味|しんじつみ}のある{話|はなし}だ。",
       "english": "It's a story with a ring of truth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21969_shinjitsumi_ex2",
       "japanese": "その{噂|うわさ}には{真実味|しんじつみ}がない。",
       "english": "That rumor lacks credibility.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "21969_shinjitsumi_ex3",
       "japanese": "{彼|かれ}の{証言|しょうげん}は{具体的|ぐたいてき}で{真実味|しんじつみ}があり、{裁判官|さいばんかん}も{信用|しんよう}したようだ。",
       "english": "His testimony was specific and had a ring of truth, and the judge seemed to believe it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {真実|しんじつ} (truth) + {味|み} (flavor, sense of). The {味|み} suffix adds the meaning of 'a sense of' or 'a quality of,' so {真実味|しんじつみ} means 'a quality of truthfulness.' It describes how believable or authentic something feels, not necessarily whether it is actually true.\n\nCOMMON COLLOCATIONS:\n- {真実味|しんじつみ}がある: to have a ring of truth; to seem believable\n- {真実味|しんじつみ}がない: to lack credibility\n- {真実味|しんじつみ}を{帯|お}びる: to take on an air of truth\n- {真実味|しんじつみ}に{欠|か}ける: to lack realism\n\nSIMILAR WORDS:\n- {信憑性|しんぴょうせい}: credibility — more formal and objective; {真実味|しんじつみ} is about the subjective impression of truthfulness\n- {現実味|げんじつみ}: sense of reality — focuses on whether something feels realistic or plausible; {真実味|しんじつみ} focuses on whether something feels true\n- {説得力|せっとくりょく}: persuasiveness — about the power to convince; {真実味|しんじつみ} is about the appearance of truth",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11618_shinpyousei",
+      "reading": "しんぴょうせい",
+      "headword": "{信憑性|しんぴょうせい}",
+      "label": "credibility"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08525_settokuryoku",
+      "reading": "せっとくりょく",
+      "headword": "{説得力|せっとくりょく}",
+      "label": "persuasiveness"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["evaluation", "communication"]
+      "semantic": [
+        "evaluation",
+        "communication"
+      ]
     },
     "created": "2026-04-04T18:25:06Z",
-    "modified": "2026-04-04T18:25:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "There is a training session for the teaching staff.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15175_kyoushokuin_ex2",
@@ -27,7 +29,9 @@
       "english": "This school has about fifty faculty and staff members.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15175_kyoushokuin_ex3",
@@ -35,21 +39,43 @@
       "english": "All faculty and staff consider student safety their top priority.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{教職員|きょうしょくいん} combines {教員|きょういん} (teaching staff) and {職員|しょくいん} (administrative staff) into a single collective term. It is used in official and institutional contexts.\n\nDISTINCTIONS:\n- {教員|きょういん} — teachers only\n- {職員|しょくいん} — non-teaching staff only\n- {教職員|きょうしょくいん} — both teachers and staff combined\n- {教師|きょうし} — teacher (more general, less institutional)\n\nCOMMON COLLOCATIONS:\n- {教職員|きょうしょくいん}{会議|かいぎ} (faculty meeting)\n- {教職員|きょうしょくいん}{組合|くみあい} (teachers' union)\n- {教職員|きょうしょくいん}{一同|いちどう} (all faculty and staff)",
-  "cross_references": [],
+  "notes": "USAGE:\n{教職員|きょうしょくいん} combines {教員|きょういん} (teaching staff) and {職員|しょくいん} (administrative staff) into a single collective term. It is used in official and institutional contexts.\n\nSIMILAR WORDS:\n- {教員|きょういん} — teachers only\n- {職員|しょくいん} — non-teaching staff only\n- {教職員|きょうしょくいん} — both teachers and staff combined\n- {教師|きょうし} — teacher (more general, less institutional)\n\nCOMMON COLLOCATIONS:\n- {教職員|きょうしょくいん}{会議|かいぎ} (faculty meeting)\n- {教職員|きょうしょくいん}{組合|くみあい} (teachers' union)\n- {教職員|きょうしょくいん}{一同|いちどう} (all faculty and staff)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12942_kyouin",
+      "reading": "きょういん",
+      "headword": "{教員|きょういん}",
+      "label": "teachers only"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03029_kyoushi",
+      "reading": "きょうし",
+      "headword": "{教師|きょうし}",
+      "label": "teacher"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T09:03:18Z",
-    "modified": "2026-03-05T09:03:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person", "education"]
+      "semantic": [
+        "person",
+        "education"
+      ]
     }
   }
 }

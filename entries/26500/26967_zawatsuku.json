@@ -3,7 +3,7 @@
   "headword": "ざわつく",
   "reading": "ざわつく",
   "romaji": "zawatsuku",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to be noisy; to be restless; to feel uneasy",
   "definitions": [
     {
@@ -80,7 +80,29 @@
     }
   ],
   "notes": "Related to the onomatopoeia ざわざわ, which describes the sound of rustling, murmuring, or general commotion. ざわつく is the verb form expressing the state of being noisy or unsettled.\n\nCOMMON COLLOCATIONS:\n- {会場|かいじょう}がざわつく: the venue becomes noisy\n- {教室|きょうしつ}がざわつく: the classroom gets noisy\n- {胸|むね}がざわつく: to feel a sense of unease\n- {心|こころ}がざわつく: to feel restless/unsettled\n- {気持|きも}ちがざわつく: to feel agitated\n\nSIMILAR WORDS:\n- ざわざわする: to rustle, be noisy — onomatopoeic form with similar meaning; more descriptive of the sound itself\n- {騒|さわ}がしい: noisy, boisterous — adjective describing a loud environment; stronger and more negative than ざわつく\n- そわそわする: to be fidgety, restless — focuses on nervous physical restlessness rather than noise or inner unease",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17685_sawagashii",
+      "reading": "さわがしい",
+      "headword": "{騒|さわ}がしい",
+      "label": "noisy, boisterous"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07922_doyomeku",
+      "reading": "どよめく",
+      "headword": "どよめく",
+      "label": "to stir"
+    },
+    {
+      "type": "related",
+      "target_id": "07923_zawameku",
+      "reading": "ざわめく",
+      "headword": "ざわめく",
+      "label": "to rustle"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -97,7 +119,7 @@
       "verb_class": "godan-ku"
     },
     "created": "2026-05-06T12:18:40Z",
-    "modified": "2026-05-06T12:18:40Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

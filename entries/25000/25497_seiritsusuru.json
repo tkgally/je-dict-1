@@ -3,7 +3,7 @@
   "headword": "{成立|せいりつ}する",
   "reading": "せいりつする",
   "romaji": "seiritsusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to be established; to come into existence; to be concluded",
   "definitions": [
     {
@@ -80,7 +80,22 @@
     }
   ],
   "notes": "Composed of {成立|せいりつ} (establishment; formation) + する. The intransitive nature is important: things {成立|せいりつ}する on their own once conditions are met. The subject is always the thing being established, not the person establishing it.\n\nCOMMON COLLOCATIONS:\n- {法案|ほうあん}が{成立|せいりつ}する: a bill is enacted\n- {契約|けいやく}が{成立|せいりつ}する: a contract is concluded\n- {取引|とりひき}が{成立|せいりつ}する: a deal is completed\n- {条件|じょうけん}が{成立|せいりつ}する: conditions are met\n- {成立|せいりつ}しない: does not hold; is not valid\n\nSIMILAR WORDS:\n- {設立|せつりつ}する: to establish; to found — used for physically creating an organization (transitive), while {成立|せいりつ}する describes something coming into being (intransitive)\n- {締結|ていけつ}する: to conclude (a treaty/agreement) — more formal and specific to treaties and pacts",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17473_setsuritsusuru",
+      "reading": "せつりつする",
+      "headword": "{設立|せつりつ}する",
+      "label": "to establish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13870_teiketsu",
+      "reading": "ていけつ",
+      "headword": "{締結|ていけつ}",
+      "label": "to conclude"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -88,6 +103,7 @@
       "pos": [
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "law",
         "business"
@@ -95,7 +111,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T15:11:00Z",
-    "modified": "2026-04-25T15:11:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

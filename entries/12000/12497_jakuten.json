@@ -19,7 +19,9 @@
       "english": "His weak point is math.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12497_jakuten_ex2",
@@ -27,7 +29,9 @@
       "english": "We analyzed the opposing team's weaknesses and devised a strategy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12497_jakuten_ex3",
@@ -35,7 +39,9 @@
       "english": "The weak point of this plan is that the budget is insufficient.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed broadly for any kind of weakness, whether personal, strategic, or structural. Unlike {欠点|けってん} (defect, flaw), which implies something inherently wrong, {弱点|じゃくてん} emphasizes vulnerability that could be exploited or that needs strengthening.\n\nCOMMON COLLOCATIONS:\n- {弱点|じゃくてん}を{克服|こくふく}する: to overcome a weakness\n- {弱点|じゃくてん}を{突|つ}く: to exploit a weakness\n- {弱点|じゃくてん}を{握|にぎ}る: to have leverage over someone (lit. to grasp someone's weakness)",
@@ -53,18 +59,36 @@
       "reading": "ちょうしょ",
       "headword": "{長所|ちょうしょ}",
       "label": "strong point"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02702_ketten",
+      "reading": "けってん",
+      "headword": "{欠点|けってん}",
+      "label": "fault, defect, weakness"
+    },
+    {
+      "type": "related",
+      "target_id": "08647_ressei",
+      "reading": "れっせい",
+      "headword": "{劣勢|れっせい}",
+      "label": "inferiority"
     }
   ],
   "metadata": {
     "created": "2026-02-21T11:02:43Z",
-    "modified": "2026-04-27T05:19:15Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

@@ -22,7 +22,9 @@
       "id": "25897_docchimo_ex1",
       "japanese": "どっちも{好|す}きだ。",
       "english": "I like both.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "25897_docchimo_ex2",
       "japanese": "どっちも{美味|おい}しそうで{選|えら}べない。",
       "english": "Both look delicious, so I can't choose.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "25897_docchimo_ex3",
       "japanese": "{赤|あか}と{青|あお}、どっちも{買|か}っちゃった。",
       "english": "Red and blue — I ended up buying both.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "25897_docchimo_ex4",
       "japanese": "どっちもいいよ。",
       "english": "Either one is fine.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "25897_docchimo_ex5",
       "japanese": "コーヒーと{紅茶|こうちゃ}、どっちもかまわない。",
       "english": "Coffee or tea, either is fine with me.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,51 @@
       "id": "25897_docchimo_ex6",
       "japanese": "{映画|えいが}とカラオケ、どっちもいいけど、{今日|きょう}はカラオケにしよう。",
       "english": "A movie or karaoke — either works, but let's do karaoke today.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The informal equivalent of どちらも. Very common in casual spoken Japanese when choosing between two options. The contraction どっち (from どちら) is one of the most frequently heard colloquial forms.\n\nUsed exclusively in informal speech and casual writing. In formal situations, どちらも is appropriate.\n\nUSAGE PATTERNS:\n- どっちも + positive verb: both (どっちも{好|す}き = I like both)\n- どっちも + いい/かまわない: either is fine\n- どっちも + negative: neither (どっちも{好|す}きじゃない = I don't like either)\n\nSIMILAR WORDS:\n- どちらも: both; either — the polite/neutral equivalent\n- {両方|りょうほう}: both — more formal, can refer to two specific things\n- どっちか: one or the other — asks for a choice between two, not both",
-  "cross_references": [],
+  "notes": "The informal equivalent of どちらも. Very common in casual spoken Japanese when choosing between two options. The contraction どっち (from どちら) is one of the most frequently heard colloquial forms.\n\nUsed exclusively in informal speech and casual writing. In formal situations, どちらも is appropriate.\n\nCOMMON PATTERNS:\n- どっちも + positive verb: both (どっちも{好|す}き = I like both)\n- どっちも + いい/かまわない: either is fine\n- どっちも + negative: neither (どっちも{好|す}きじゃない = I don't like either)\n\nSIMILAR WORDS:\n- どちらも: both; either — the polite/neutral equivalent\n- {両方|りょうほう}: both — more formal, can refer to two specific things\n- どっちか: one or the other — asks for a choice between two, not both",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08721_dochiramo",
+      "reading": "どちらも",
+      "headword": "どちらも",
+      "label": "both"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01750_ryouhou",
+      "reading": "りょうほう",
+      "headword": "{両方|りょうほう}",
+      "label": "both"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26335_docchika",
+      "reading": "どっちか",
+      "headword": "どっちか",
+      "label": "one or the other"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["pronoun"],
+      "pos": [
+        "pronoun"
+      ],
       "formality": "informal",
-      "semantic": ["general"]
+      "politeness": "plain",
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-04-28T11:26:28Z",
-    "modified": "2026-04-28T11:26:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

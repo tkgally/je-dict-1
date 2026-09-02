@@ -3,7 +3,7 @@
   "headword": "まだら",
   "reading": "まだら",
   "romaji": "madara",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective, no-adjective",
   "gloss": "mottled; spotted; patchy",
   "definitions": [
     {
@@ -22,7 +22,9 @@
       "id": "27149_madara_ex1",
       "japanese": "まだら{模様|もよう}の{猫|ねこ}がいる。",
       "english": "There is a mottled-patterned cat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "27149_madara_ex2",
       "japanese": "{壁|かべ}がまだらに{汚|よご}れている。",
       "english": "The wall is stained in patches.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "27149_madara_ex3",
       "japanese": "{白|しろ}と{茶色|ちゃいろ}のまだら{模様|もよう}の{子犬|こいぬ}を{飼|か}っている。",
       "english": "I have a puppy with a white and brown spotted pattern.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "27149_madara_ex4",
       "japanese": "{記憶|きおく}がまだらだ。",
       "english": "My memory is patchy.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "27149_madara_ex5",
       "japanese": "{出席|しゅっせき}がまだらになっている。",
       "english": "Attendance has been spotty.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,53 @@
       "id": "27149_madara_ex6",
       "japanese": "{雪|ゆき}がまだらに{残|のこ}っている{山|やま}の{景色|けしき}が{美|うつく}しかった。",
       "english": "The mountain scenery with snow remaining in patches was beautiful.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Can be written in kanji as {斑|まだら}, but the kana form is more common. Functions as a noun and as a modifier (まだらの or まだらな). The word can also be used adverbially with に (まだらに).\n\nCOMMON COLLOCATIONS:\n- まだら{模様|もよう} — mottled/spotted pattern\n- まだらに{染|そ}まる — to be dyed unevenly\n- {記憶|きおく}がまだら — patchy memory\n- まだらに{残|のこ}る — to remain in patches\n\nSIMILAR WORDS:\n- {縞|しま} — stripes; a regular pattern of parallel lines, unlike the irregular spots of まだら\n- {水玉|みずたま} — polka dots; regular, uniform round spots, unlike the irregular patches of まだら\n- ぶち — patches of color on an animal's coat; similar to まだら but used almost exclusively for animal markings\n- むら — unevenness, inconsistency; overlaps with sense 2 but focuses on quality variation rather than visual pattern",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27905_shima",
+      "reading": "しま",
+      "headword": "縞",
+      "label": "stripes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16173_mizutama",
+      "reading": "みずたま",
+      "headword": "{水玉|みずたま}",
+      "label": "polka dots"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02261_mura",
+      "reading": "むら",
+      "headword": "{村|むら}",
+      "label": "unevenness, inconsistency"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-na",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     },
     "created": "2026-05-07T13:12:09Z",
-    "modified": "2026-05-07T13:12:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

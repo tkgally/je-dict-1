@@ -46,6 +46,22 @@
   ],
   "notes": "Compound of {爆発|ばくはつ} (explosion) + {音|おん} (sound). Used both for actual blasts and for loud explosion-like noises.\n\nCOMMON COLLOCATIONS:\n- {爆発音|ばくはつおん}が{聞|き}こえる: to hear an explosion\n- {大|おお}きな{爆発音|ばくはつおん}: a loud explosion\n- {爆発音|ばくはつおん}が{響|ひび}く: the sound of an explosion rings out\n- {爆発音|ばくはつおん}とともに: along with the explosion\n\nSIMILAR WORDS:\n- {爆音|ばくおん}: roar (of engines/explosions) — broader, includes loud engine noise\n- {破裂音|はれつおん}: bursting sound — for ruptures, balloon pops, etc.\n- {銃声|じゅうせい}: gunshot — sharper, specific to firearms",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15070_bakuon",
+      "reading": "ばくおん",
+      "headword": "{爆音|ばくおん}",
+      "label": "roar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28328_juusei",
+      "reading": "じゅうせい",
+      "headword": "{銃声|じゅうせい}",
+      "label": "gunshot"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ],
       "domain": []
     },
     "created": "2026-05-29T02:14:27Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

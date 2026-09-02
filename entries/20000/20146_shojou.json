@@ -17,7 +17,9 @@
       "id": "20146_shojou_ex1",
       "japanese": "{抗議|こうぎ}の{書状|しょじょう}を{送|おく}る。",
       "english": "To send a letter of protest.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20146_shojou_ex2",
       "japanese": "{大統領|だいとうりょう}から{書状|しょじょう}が{届|とど}いた。",
       "english": "A letter arrived from the president.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "20146_shojou_ex3",
       "japanese": "{博物館|はくぶつかん}に{戦国時代|せんごくじだい}の{武将|ぶしょう}が{書|か}いた{書状|しょじょう}が{展示|てんじ}されている。",
       "english": "A letter written by a warlord from the Sengoku period is on display at the museum.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {書|しょ} (writing, document) + {状|じょう} (form, letter). A formal word for written correspondence, contrasting with the everyday word {手紙|てがみ}.\n\nCOMMON COLLOCATIONS:\n- {書状|しょじょう}を{送|おく}る: to send a letter\n- {抗議|こうぎ}の{書状|しょじょう}: letter of protest\n- {公開|こうかい}{書状|しょじょう}: open letter\n- {書状|しょじょう}を{認|したた}める: to pen a letter (literary)\n\nSIMILAR WORDS:\n- {手紙|てがみ}: letter — the everyday word for a letter; informal and neutral\n- {書簡|しょかん}: correspondence, letter — equally formal; used in literary and academic contexts\n- {文書|ぶんしょ}: document, written text — broader; covers official documents, not just letters\n- {親書|しんしょ}: personal letter (from a head of state) — specifically a diplomatic letter between leaders\n\nUSAGE:\nMost commonly encountered in historical, legal, and diplomatic contexts. In everyday life, {手紙|てがみ} is the normal word for a letter. {書状|しょじょう} adds formality and gravity, suggesting an important or official communication.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00675_tegami",
+      "reading": "てがみ",
+      "headword": "{手紙|てがみ}",
+      "label": "letter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20091_shokan",
+      "reading": "しょかん",
+      "headword": "{書簡|しょかん}",
+      "label": "correspondence, letter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12947_bunsho",
+      "reading": "ぶんしょ",
+      "headword": "{文書|ぶんしょ}",
+      "label": "document, written text"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-03-28T14:22:42Z",
-    "modified": "2026-03-28T14:22:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

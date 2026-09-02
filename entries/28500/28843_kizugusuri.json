@@ -17,7 +17,9 @@
       "id": "28843_kizugusuri_ex1",
       "japanese": "{傷薬|きずぐすり}を{塗|ぬ}った。",
       "english": "I applied wound medicine.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28843_kizugusuri_ex2",
       "japanese": "{転|ころ}んでひざをすりむいたので{傷薬|きずぐすり}をつけた。",
       "english": "I fell and scraped my knee, so I put some antiseptic on it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "28843_kizugusuri_ex3",
       "japanese": "{救急箱|きゅうきゅうばこ}に{傷薬|きずぐすり}と{包帯|ほうたい}を{常備|じょうび}している。",
       "english": "I keep wound medicine and bandages in the first-aid kit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {傷|きず} (wound, scratch) + {薬|くすり} (medicine), with rendaku on the second element (くすり → ぐすり). A general everyday term covering disinfectants, ointments, and topical creams for minor injuries.\n\nCOMMON COLLOCATIONS:\n- {傷薬|きずぐすり}を{塗|ぬ}る: to apply wound medicine\n- {傷薬|きずぐすり}をつける: to put on wound medicine\n- {傷薬|きずぐすり}が{効|き}く: the medicine is effective\n\nSIMILAR WORDS:\n- {軟膏|なんこう}: ointment — more clinical term\n- {消毒液|しょうどくえき}: disinfectant liquid — specifically for cleaning, not healing\n- {絆創膏|ばんそうこう}: adhesive bandage, Band-Aid",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05386_bansoukou",
+      "reading": "ばんそうこう",
+      "headword": "{絆創膏|ばんそうこう}",
+      "label": "adhesive bandage, Band-Aid"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["health"],
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ],
       "domain": []
     },
     "created": "2026-06-06T03:07:38Z",
-    "modified": "2026-06-06T03:07:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

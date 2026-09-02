@@ -17,7 +17,9 @@
       "id": "23359_eiwajiten_ex1",
       "japanese": "{英和辞典|えいわじてん}で{調|しら}べる。",
       "english": "To look (something) up in an English-Japanese dictionary.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23359_eiwajiten_ex2",
       "japanese": "{分|わ}からない{単語|たんご}があったら、{英和辞典|えいわじてん}を{引|ひ}いてみてください。",
       "english": "If there's a word you don't know, try looking it up in an English-Japanese dictionary.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23359_eiwajiten_ex3",
       "japanese": "{最近|さいきん}はスマホのアプリで{英和辞典|えいわじてん}を{使|つか}う{人|ひと}が{増|ふ}えている。",
       "english": "Recently, more and more people are using English-Japanese dictionaries as smartphone apps.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,53 @@
       "id": "23359_eiwajiten_ex4",
       "japanese": "{紙|かみ}の{英和辞典|えいわじてん}は{重|おも}いけれど、{例文|れいぶん}がたくさん{載|の}っていて{勉強|べんきょう}に{役立|やくだ}つ。",
       "english": "Paper English-Japanese dictionaries are heavy, but they contain many example sentences and are useful for study.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {英|えい} (English) + {和|わ} (Japanese, in the Sino-Japanese sense of \"Japan\") + {辞典|じてん} (dictionary). The compound is read without any special connecting morphemes, and the ordering — source language first, target language second — matches the direction of lookup: English → Japanese.\n\nCOMMON COLLOCATIONS:\n- {英和辞典|えいわじてん}を{引|ひ}く: to consult an English-Japanese dictionary\n- {英和辞典|えいわじてん}で{調|しら}べる: to look up in an English-Japanese dictionary\n- {英和辞典|えいわじてん}を{買|か}う: to buy an English-Japanese dictionary\n- {学習|がくしゅう}{英和辞典|えいわじてん}: a learner's English-Japanese dictionary\n- {電子|でんし}{英和辞典|えいわじてん}: an electronic English-Japanese dictionary\n\nPARALLEL DICTIONARY TYPES:\n- {和英辞典|わえいじてん}: Japanese-English dictionary (headwords in Japanese, definitions in English)\n- {国語辞典|こくごじてん}: a monolingual Japanese dictionary\n- {漢和辞典|かんわじてん}: a Chinese character dictionary (kanji headwords, Japanese definitions)\n- {英英辞典|えいえいじてん}: an English-English dictionary (monolingual English)\n- {仏和辞典|ふつわじてん}: a French-Japanese dictionary\n- {独和辞典|どくわじてん}: a German-Japanese dictionary\n\nThe pattern [Source Language] + {和|わ} + {辞典|じてん} is extremely productive: any bilingual dictionary translating into Japanese follows it.\n\nCULTURAL NOTE:\nFor decades, a paper {英和辞典|えいわじてん} was a standard possession of every Japanese junior high and high school student. In recent years, electronic dictionaries ({電子|でんし}{辞書|じしょ}) and smartphone apps have largely replaced the paper versions, but the word {英和辞典|えいわじてん} remains in common use regardless of the medium.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05253_waei",
+      "reading": "わえい",
+      "headword": "{和英|わえい}",
+      "label": "Japanese-English"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23277_kokugojiten",
+      "reading": "こくごじてん",
+      "headword": "{国語辞典|こくごじてん}",
+      "label": "Japanese dictionary (Japanese-Japanese)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24664_waeijiten",
+      "reading": "わえいじてん",
+      "headword": "{和英辞典|わえいじてん}",
+      "label": "Japanese-English dictionary"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education", "language", "tool"]
+      "semantic": [
+        "education",
+        "language",
+        "tool"
+      ]
     },
     "created": "2026-04-11T20:11:57Z",
-    "modified": "2026-04-11T20:11:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

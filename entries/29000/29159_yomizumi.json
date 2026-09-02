@@ -17,7 +17,9 @@
       "id": "29159_yomizumi_ex1",
       "japanese": "この{本|ほん}はもう{読|よ}み{済|ず}みだ。",
       "english": "I've already read this book.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29159_yomizumi_ex2",
       "japanese": "{読|よ}み{済|ず}みのメールをフォルダに{移動|いどう}した。",
       "english": "I moved the emails I had already read to a folder.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29159_yomizumi_ex3",
       "japanese": "LINEのメッセージが{読|よ}み{済|ず}みになっているのに{返信|へんじ}が{来|こ}ない。",
       "english": "The LINE message shows as read, but no reply has come.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The {済|す}み component comes from {済|す}む (to be done, to be finished). Common in both physical contexts (books, documents) and digital messaging.\n\nCOMMON COLLOCATIONS:\n- {読|よ}み{済|ず}みにする: to mark as read\n- {読|よ}み{済|ず}みのメール: read emails\n- {未読|みどく} (unread) ↔ {読|よ}み{済|ず}み (read) — common contrast in email/message apps\n\nSIMILAR WORDS:\n- {既読|きどく}: read (especially in LINE context); same meaning but shorter; used in {既読|きどく}スルー (seen but no reply)\n- {未読|みどく}: unread — the opposite",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06483_kidoku",
+      "reading": "きどく",
+      "headword": "{既読|きどく}",
+      "label": "read"
+    },
+    {
+      "type": "antonym",
+      "target_id": "07733_midoku",
+      "reading": "みどく",
+      "headword": "{未読|みどく}",
+      "label": "unread"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["communication"],
+      "politeness": "plain",
+      "semantic": [
+        "communication"
+      ],
       "domain": []
     },
     "created": "2026-06-11T21:49:26Z",
-    "modified": "2026-06-11T21:49:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

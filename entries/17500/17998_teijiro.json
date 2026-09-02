@@ -19,7 +19,9 @@
       "english": "Turn right at the T-junction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17998_teijiro_ex2",
@@ -27,7 +29,9 @@
       "english": "If you go left at the T-junction up ahead, you'll reach the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17998_teijiro_ex3",
@@ -35,21 +39,43 @@
       "english": "T-junctions often have poor visibility, so please stop and check both directions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAlso commonly written and said as T{字路|じろ} (using the Roman letter T). Both forms are widely understood. Appears frequently in driving directions and traffic regulations.\n\nCOMMON COLLOCATIONS:\n- {丁字路|ていじろ}を{曲|ま}がる (to turn at a T-junction)\n- {丁字路|ていじろ}に{差|さ}しかかる (to come to a T-junction)\n- {丁字路|ていじろ}{交差点|こうさてん} (T-junction intersection)\n\nSIMILAR WORDS:\n- {十字路|じゅうじろ}: crossroads — a four-way intersection\n- {交差点|こうさてん}: intersection — the general term for any intersection",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09387_juujiro",
+      "reading": "じゅうじろ",
+      "headword": "{十字路|じゅうじろ}",
+      "label": "crossroads"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01404_kousaten",
+      "reading": "こうさてん",
+      "headword": "{交差点|こうさてん}",
+      "label": "intersection"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T11:50:56Z",
-    "modified": "2026-03-19T11:50:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "geography"]
+      "semantic": [
+        "transportation",
+        "geography"
+      ]
     }
   }
 }

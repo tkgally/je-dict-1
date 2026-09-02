@@ -15,9 +15,11 @@
   "examples": [
     {
       "id": "26348_macchawan_ex1",
-      "japanese": "{抹茶碗|まっちゃわん}で{お茶|おちゃ}を{点|た}てる。",
+      "japanese": "{抹茶碗|まっちゃわん}でお{茶|ちゃ}を{点|た}てる。",
       "english": "To prepare tea in a matcha bowl.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26348_macchawan_ex2",
       "japanese": "{祖父|そふ}が{大切|たいせつ}にしていた{抹茶碗|まっちゃわん}を{受|う}け{継|つ}いだ。",
       "english": "I inherited the matcha bowl that my grandfather cherished.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,38 @@
       "id": "26348_macchawan_ex3",
       "japanese": "この{抹茶碗|まっちゃわん}は{桃山|ももやま}{時代|じだい}の{名品|めいひん}で、{美術館|びじゅつかん}に{所蔵|しょぞう}されている。",
       "english": "This matcha bowl is a masterpiece from the Momoyama period and is housed in a museum.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {抹茶|まっちゃ} (matcha, powdered green tea) and {碗|わん} (bowl). The {抹茶碗|まっちゃわん} is wider and deeper than ordinary teacups, designed so that matcha can be whisked with a bamboo whisk ({茶筅|ちゃせん}). Shapes and glazes vary by season: wider bowls ({平茶碗|ひらぢゃわん}) for summer to let the tea cool, and deeper bowls for winter to retain warmth.\n\nCOMMON COLLOCATIONS:\n- {抹茶碗|まっちゃわん}で{点|た}てる: to prepare tea in a matcha bowl\n- {手作|てづく}りの{抹茶碗|まっちゃわん}: handmade matcha bowl\n- {抹茶碗|まっちゃわん}を{選|えら}ぶ: to choose a matcha bowl\n\nCULTURAL NOTES:\nIn the tea ceremony ({茶道|さどう}), the bowl is one of the most important utensils. Famous historical bowls have individual names and are classified as {国宝|こくほう} (national treasures). Major pottery traditions for tea bowls include {楽焼|らくやき} (Raku ware), {萩焼|はぎやき} (Hagi ware), and {志野焼|しのやき} (Shino ware).\n\nSIMILAR WORDS:\n- {茶碗|ちゃわん}: rice bowl; teacup — broader term for any ceramic bowl\n- {湯呑|ゆの}み: teacup (for everyday sencha) — cylindrical, without the wide rim",
-  "cross_references": [],
+  "notes": "Composed of {抹茶|まっちゃ} (matcha, powdered green tea) and {碗|わん} (bowl). The {抹茶碗|まっちゃわん} is wider and deeper than ordinary teacups, designed so that matcha can be whisked with a bamboo whisk ({茶筅|ちゃせん}). Shapes and glazes vary by season: wider bowls ({平茶碗|ひらぢゃわん}) for summer to let the tea cool, and deeper bowls for winter to retain warmth.\n\nCOMMON COLLOCATIONS:\n- {抹茶碗|まっちゃわん}で{点|た}てる: to prepare tea in a matcha bowl\n- {手作|てづく}りの{抹茶碗|まっちゃわん}: handmade matcha bowl\n- {抹茶碗|まっちゃわん}を{選|えら}ぶ: to choose a matcha bowl\n\nCULTURAL NOTE:\nIn the tea ceremony ({茶道|さどう}), the bowl is one of the most important utensils. Famous historical bowls have individual names and are classified as {国宝|こくほう} (national treasures). Major pottery traditions for tea bowls include {楽焼|らくやき} (Raku ware), {萩焼|はぎやき} (Hagi ware), and {志野焼|しのやき} (Shino ware).\n\nSIMILAR WORDS:\n- {茶碗|ちゃわん}: rice bowl; teacup — broader term for any ceramic bowl\n- {湯呑|ゆの}み: teacup (for everyday sencha) — cylindrical, without the wide rim",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04480_yunomi",
+      "reading": "ゆのみ",
+      "headword": "{湯呑|ゆの}み",
+      "label": "teacup"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["culture", "food"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "culture",
+        "food"
+      ]
     },
     "created": "2026-05-01T11:33:26Z",
-    "modified": "2026-05-01T11:33:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

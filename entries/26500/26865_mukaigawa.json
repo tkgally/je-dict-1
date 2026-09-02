@@ -55,7 +55,22 @@
     }
   ],
   "notes": "Common spatial term composed of 向かい (facing, opposite) + 側 (side). Very frequently used when giving directions or describing the relative positions of things. Can be used with or without a preceding noun phrase specifying what it's across from.\n\nCOMMON COLLOCATIONS:\n- {道|みち}の{向|む}かい{側|がわ}: the other side of the street\n- {通|とお}りの{向|む}かい{側|がわ}: across the street\n- {向|む}かい{側|がわ}に{渡|わた}る: to cross to the other side\n- {向|む}かい{側|がわ}の{家|いえ}: the house across the way\n\nSIMILAR WORDS:\n- {向|む}かい: opposite, facing — shorter form; often used as a modifier ({向|む}かいの{家|いえ})\n- {反対側|はんたいがわ}: the opposite side — more general; not necessarily facing you\n- {向|む}こう{側|がわ}: the far side — emphasizes distance; the other side of a barrier",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16780_hantaigawa",
+      "reading": "はんたいがわ",
+      "headword": "{反対側|はんたいがわ}",
+      "label": "the opposite side"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08504_mukougawa",
+      "reading": "むこうがわ",
+      "headword": "{向|む}こう{側|がわ}",
+      "label": "the far side"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -70,6 +85,6 @@
       ]
     },
     "created": "2026-05-05T14:14:18Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

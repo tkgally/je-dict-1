@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{専門学校|せんもんがっこう} is a vocational/technical school offering specialized training in specific fields. It's a post-secondary option alongside universities.\n\nJAPANESE EDUCATION PATHS:\n- ⟦{大学|だいがく}→大学：00608_daigaku⟧: university (4 years)\n- ⟦{短期大学|たんきだいがく}→短期大学：27098_tankidaigaku⟧/⟦{短大|たんだい}→短大：28812_tandai⟧: junior college (2 years)\n- {専門学校|せんもんがっこう}: vocational school (1-4 years)\n\nCOMMON FIELDS:\n- IT/⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦{処理|しょり}→処理：03251_shori⟧: IT, computer science\n- ⟦{調理|ちょうり}→調理：07156_chouri⟧/⟦{料理|りょうり}→料理：01523_ryouri⟧: cooking, culinary\n- ⟦{美容|びよう}→美容：00014_biyou⟧: beauty, cosmetology\n- ファッション: fashion\n- ⟦{看護|かんご}→看護：13668_kango⟧: nursing\n- ⟦{医療|いりょう}→医療：01836_iryou⟧: medical\n- アニメ/ゲーム: animation/games\n\nVOCABULARY:\n- {専門学校|せんもんがっこう}{生|せい}: vocational school student\n- ⟦{専門|せんもん}→専門：01251_senmon⟧ (short form): vocational school\n- ⟦{専門|せんもん}→専門：01251_senmon⟧⟦に→に：00314_ni⟧⟦{通|かよ}う→通う：01217_kayou⟧: to attend vocational school\n\nNOTE:\n⟦{専門|せんもん}→専門：01251_senmon⟧ alone can mean 'specialty' or 'vocational school' depending on context.",
+  "notes": "{専門学校|せんもんがっこう} is a vocational/technical school offering specialized training in specific fields. It's a post-secondary option alongside universities.\n\nJAPANESE EDUCATION PATHS:\n- ⟦{大学|だいがく}→大学：00608_daigaku⟧: university (4 years)\n- ⟦{短期大学|たんきだいがく}→短期大学：27098_tankidaigaku⟧/⟦{短大|たんだい}→短大：28812_tandai⟧: junior college (2 years)\n- {専門学校|せんもんがっこう}: vocational school (1-4 years)\n\nCOMMON FIELDS:\n- IT/⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦{処理|しょり}→処理：03251_shori⟧: IT, computer science\n- ⟦{調理|ちょうり}→調理：07156_chouri⟧/⟦{料理|りょうり}→料理：01523_ryouri⟧: cooking, culinary\n- ⟦{美容|びよう}→美容：00014_biyou⟧: beauty, cosmetology\n- ファッション: fashion\n- ⟦{看護|かんご}→看護：13668_kango⟧: nursing\n- ⟦{医療|いりょう}→医療：01836_iryou⟧: medical\n- アニメ/ゲーム: animation/games\n\nRELATED WORDS:\n- {専門学校|せんもんがっこう}{生|せい}: vocational school student\n- ⟦{専門|せんもん}→専門：01251_senmon⟧ (short form): vocational school\n- ⟦{専門|せんもん}→専門：01251_senmon⟧⟦に→に：00314_ni⟧⟦{通|かよ}う→通う：01217_kayou⟧: to attend vocational school\n\nUSAGE:\n⟦{専門|せんもん}→専門：01251_senmon⟧ alone can mean 'specialty' or 'vocational school' depending on context.",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,32 @@
       "reading": "だいがく",
       "headword": "{大学|だいがく}",
       "label": "university"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27098_tankidaigaku",
+      "reading": "たんきだいがく",
+      "headword": "{短期大学|たんきだいがく}",
+      "label": "junior college"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28812_tandai",
+      "reading": "たんだい",
+      "headword": "{短大|たんだい}",
+      "label": "junior college"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30696_youseijo",
+      "reading": "ようせいじょ",
+      "headword": "{養成所|ようせいじょ}",
+      "label": "training school"
     }
   ],
   "metadata": {
     "created": "2026-01-16T00:32:18Z",
-    "modified": "2026-08-16T03:20:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

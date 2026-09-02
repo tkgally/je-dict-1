@@ -19,7 +19,9 @@
       "english": "I admired the flowers along the way.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14554_michisugara_ex2",
@@ -27,7 +29,9 @@
       "english": "I happened to run into a friend on the way.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14554_michisugara_ex3",
@@ -35,22 +39,45 @@
       "english": "On the way to the station, I recalled various memories from the past.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A literary adverb with an elegant, slightly old-fashioned feel. More evocative than the everyday {途中|とちゅう}で (on the way). Often appears in essays, fiction, and travel writing.\n\nSIMILAR WORDS:\n- {途中|とちゅう}で — on the way (neutral, everyday)\n- {道|みち}すがら — along the way (literary, evocative)\n- {道中|どうちゅう} — during a journey (slightly formal)\n\nThe すがら element is a classical particle meaning \"while; along\" and is not productive in modern Japanese.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23303_tochuude",
+      "reading": "とちゅうで",
+      "headword": "{途中|とちゅう}で",
+      "label": "on the way"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14427_douchuu",
+      "reading": "どうちゅう",
+      "headword": "{道中|どうちゅう}",
+      "label": "during a journey"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T06:30:40Z",
-    "modified": "2026-03-02T06:30:40Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["movement"],
-      "style": ["literary"]
+      "semantic": [
+        "movement"
+      ],
+      "style": [
+        "literary"
+      ]
     }
   }
 }

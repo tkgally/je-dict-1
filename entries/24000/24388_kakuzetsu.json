@@ -3,7 +3,7 @@
   "headword": "{隔絶|かくぜつ}",
   "reading": "かくぜつ",
   "romaji": "kakuzetsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "isolation; severance; complete separation",
   "definitions": [
     {
@@ -54,8 +54,38 @@
       "notes": null
     }
   ],
-  "notes": "Describes a thorough, complete separation — stronger than {隔離|かくり} (quarantine/isolation) or {孤立|こりつ} (solitude/standing alone). Often used for geographic remoteness or profound social disconnection. Can function as a noun or as a する verb ({隔絶|かくぜつ}する).\n\nCOMMON COLLOCATIONS:\n- {隔絶|かくぜつ}された{場所|ばしょ}: an isolated place\n- {隔絶|かくぜつ}された{環境|かんきょう}: an isolated environment\n- {世間|せけん}から{隔絶|かくぜつ}する: to be cut off from the world\n- {隔絶|かくぜつ}{感|かん}: sense of isolation\n\nSIMILAR WORDS:\n- {孤立|こりつ}: isolation — emphasizes being alone, standing apart; more common in everyday usage\n- {隔離|かくり}: isolation, quarantine — often medical or enforced separation\n- {断絶|だんぜつ}: severance, discontinuation — emphasizes a complete break in a relationship or connection\n- {遮断|しゃだん}: cutoff, blockade — focuses on blocking communication or access\n\nFORMATION:\n{隔|かく} (to separate, to partition) + {絶|ぜつ} (to sever, to cut off) — both characters reinforce the idea of complete separation.",
+  "notes": "Describes a thorough, complete separation — stronger than {隔離|かくり} (quarantine/isolation) or {孤立|こりつ} (solitude/standing alone). Often used for geographic remoteness or profound social disconnection. Can function as a noun or as a する verb ({隔絶|かくぜつ}する).\n\nCOMMON COLLOCATIONS:\n- {隔絶|かくぜつ}された{場所|ばしょ}: an isolated place\n- {隔絶|かくぜつ}された{環境|かんきょう}: an isolated environment\n- {世間|せけん}から{隔絶|かくぜつ}する: to be cut off from the world\n- {隔絶|かくぜつ}{感|かん}: sense of isolation\n\nSIMILAR WORDS:\n- {孤立|こりつ}: isolation — emphasizes being alone, standing apart; more common in everyday usage\n- {隔離|かくり}: isolation, quarantine — often medical or enforced separation\n- {断絶|だんぜつ}: severance, discontinuation — emphasizes a complete break in a relationship or connection\n- {遮断|しゃだん}: cutoff, blockade — focuses on blocking communication or access\n\nFORMS:\n{隔|かく} (to separate, to partition) + {絶|ぜつ} (to sever, to cut off) — both characters reinforce the idea of complete separation.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12229_koritsu",
+      "reading": "こりつ",
+      "headword": "{孤立|こりつ}",
+      "label": "isolation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14532_kakuri",
+      "reading": "かくり",
+      "headword": "{隔離|かくり}",
+      "label": "isolation, quarantine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12988_danzetsu",
+      "reading": "だんぜつ",
+      "headword": "{断絶|だんぜつ}",
+      "label": "severance, discontinuation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15673_shadan",
+      "reading": "しゃだん",
+      "headword": "{遮断|しゃだん}",
+      "label": "cutoff, blockade"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -71,7 +101,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-18T16:27:11Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

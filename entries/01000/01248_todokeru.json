@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{届|とど}く→届く：00899_todoku⟧ (intransitive, to arrive). Pattern: X⟦を→を：00422_wo⟧Y⟦に→に：00314_ni⟧{届|とど}ける (deliver X to Y).\n\nASPECT: ている indicates completed action. {届|とど}けている = 'has delivered.'\n\nCOMMON PATTERNS:\n・⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧{届|とど}ける (deliver a package)\n・⟦プレゼント→プレゼント：01791_purezento⟧⟦を→を：00422_wo⟧{届|とど}ける (deliver a present)\n・⟦{届|とど}け{出|で}→届出：07555_todokede⟧ (notification, report—noun)\n・{届|とど}け⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ (file a report)\n・⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦に→に：00314_ni⟧{届|とど}ける (report to police)\n\nCONTRAST:\n・{届|とど}ける (transitive): deliver X\n・⟦{届|とど}く→届く：00899_todoku⟧ (intransitive): X arrives\n\nExample pair:\n・⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧{届|とど}ける (deliver a package)\n・⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦が→が：00051_ga⟧⟦{届|とど}く→届く：00899_todoku⟧ (package arrives)",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{届|とど}く→届く：00899_todoku⟧ (intransitive, to arrive). Pattern: X⟦を→を：00422_wo⟧Y⟦に→に：00314_ni⟧{届|とど}ける (deliver X to Y).\n\nASPECT: ている indicates completed action. {届|とど}けている = 'has delivered.'\n\nCOMMON PATTERNS:\n- ⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧{届|とど}ける (deliver a package)\n- ⟦プレゼント→プレゼント：01791_purezento⟧⟦を→を：00422_wo⟧{届|とど}ける (deliver a present)\n- ⟦{届|とど}け{出|で}→届出：07555_todokede⟧ (notification, report—noun)\n- {届|とど}け⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ (file a report)\n- ⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦に→に：00314_ni⟧{届|とど}ける (report to police)\n\nSIMILAR WORDS:\n- {届|とど}ける (transitive): deliver X\n- ⟦{届|とど}く→届く：00899_todoku⟧ (intransitive): X arrives\n\nExample pair:\n- ⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦を→を：00422_wo⟧{届|とど}ける (deliver a package)\n- ⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦が→が：00051_ga⟧⟦{届|とど}く→届く：00899_todoku⟧ (package arrives)",
   "cross_references": [
     {
       "type": "pair",
@@ -183,11 +183,32 @@
       "reading": "とどけでる",
       "headword": "{届|とど}け{出|で}る",
       "label": "to file, to report"
+    },
+    {
+      "type": "related",
+      "target_id": "00084_haitatsu",
+      "reading": "はいたつ",
+      "headword": "{配達|はいたつ}",
+      "label": "delivery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12757_tewatasu",
+      "reading": "てわたす",
+      "headword": "{手渡|てわた}す",
+      "label": "to hand over, to deliver in person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19643_haitatsusuru",
+      "reading": "はいたつする",
+      "headword": "{配達|はいたつ}する",
+      "label": "to deliver"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:40:41Z",
-    "modified": "2026-05-14T19:03:46Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -17,7 +17,9 @@
       "id": "25784_hentounikomaru_ex1",
       "japanese": "{返答|へんとう}に{困|こま}って{黙|だま}ってしまった。",
       "english": "I was at a loss for words and fell silent.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25784_hentounikomaru_ex2",
       "japanese": "{急|きゅう}にそんなことを{聞|き}かれても{返答|へんとう}に{困|こま}る。",
       "english": "Even if you suddenly ask me something like that, I don't know what to say.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,36 @@
       "id": "25784_hentounikomaru_ex3",
       "japanese": "{上司|じょうし}から{転勤|てんきん}の{話|はなし}を{持|も}ちかけられ、{返答|へんとう}に{困|こま}った。",
       "english": "When my boss brought up the idea of a transfer, I didn't know how to respond.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A natural expression combining {返答|へんとう} (reply, response) with に{困|こま}る (to be troubled by). It describes the uncomfortable moment of not being able to produce an appropriate answer — whether due to the difficulty of the question, social pressure, or a desire to avoid giving a direct reply.\n\nUSAGE:\n- Often used when someone is put on the spot or asked an awkward question\n- Can describe both genuine difficulty and diplomatic evasion\n\nCOMMON COLLOCATIONS:\n- {返答|へんとう}に{困|こま}って{黙|だま}る: to fall silent, at a loss for words\n- {返答|へんとう}に{困|こま}る{質問|しつもん}: a question one struggles to answer\n\nSIMILAR EXPRESSIONS:\n- {言葉|ことば}に{詰|つ}まる: to be at a loss for words — focuses on the physical sensation of words not coming out\n- {答|こた}えに{窮|きゅう}する: to be hard-pressed for an answer — more formal and literary\n- {口|くち}ごもる: to mumble; to hesitate in speaking — describes the visible behavior rather than the internal state",
-  "cross_references": [],
+  "notes": "A natural expression combining {返答|へんとう} (reply, response) with に{困|こま}る (to be troubled by). It describes the uncomfortable moment of not being able to produce an appropriate answer — whether due to the difficulty of the question, social pressure, or a desire to avoid giving a direct reply.\n\nUSAGE:\n- Often used when someone is put on the spot or asked an awkward question\n- Can describe both genuine difficulty and diplomatic evasion\n\nCOMMON COLLOCATIONS:\n- {返答|へんとう}に{困|こま}って{黙|だま}る: to fall silent, at a loss for words\n- {返答|へんとう}に{困|こま}る{質問|しつもん}: a question one struggles to answer\n\nSIMILAR WORDS:\n- {言葉|ことば}に{詰|つ}まる: to be at a loss for words — focuses on the physical sensation of words not coming out\n- {答|こた}えに{窮|きゅう}する: to be hard-pressed for an answer — more formal and literary\n- {口|くち}ごもる: to mumble; to hesitate in speaking — describes the visible behavior rather than the internal state",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25250_kuchigomoru",
+      "reading": "くちごもる",
+      "headword": "{口|くち}ごもる",
+      "label": "to mumble"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
-      "semantic": ["communication"]
+      "pos": [
+        "expression"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-04-27T13:10:19Z",
-    "modified": "2026-04-27T13:10:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

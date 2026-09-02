@@ -2,7 +2,7 @@
   "id": "08217_chijikomaru",
   "headword": "{縮|ちぢ}こまる",
   "reading": "ちぢこまる",
-  "part_of_speech": "godan verb (intransitive)",
+  "part_of_speech": "verb (godan, intransitive)",
   "gloss": "to huddle up; to shrink; to cower",
   "conjugation": {
     "type": "godan",
@@ -168,7 +168,30 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY:\nIntransitive ({自動詞|じどうし})\n\nUSAGE:\n- {寒|さむ}さで{縮|ちぢ}こまる (to huddle from cold)\n- {恐怖|きょうふ}で{縮|ちぢ}こまる (to cower in fear)\n\nNUANCE:\nVividly describes making oneself physically smaller, whether from cold (sense 1) or from psychological pressure (sense 2).\n\nRELATED:\n- {丸|まる}くなる (to curl up)\n- {萎縮|いしゅく}する (to shrink, cower - more formal)\n- {縮|ちぢ}む (to shrink, contract)",
+  "notes": "TRANSITIVITY:\nIntransitive ({自動詞|じどうし})\n\nUSAGE:\n- {寒|さむ}さで{縮|ちぢ}こまる (to huddle from cold)\n- {恐怖|きょうふ}で{縮|ちぢ}こまる (to cower in fear)\nVividly describes making oneself physically smaller, whether from cold (sense 1) or from psychological pressure (sense 2).\n\nRELATED WORDS:\n- {丸|まる}くなる (to curl up)\n- {萎縮|いしゅく}する (to shrink, cower - more formal)\n- {縮|ちぢ}む (to shrink, contract)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06762_ishukusuru",
+      "reading": "いしゅくする",
+      "headword": "{萎縮|いしゅく}する",
+      "label": "to shrink, cower"
+    },
+    {
+      "type": "related",
+      "target_id": "00027_chijimu",
+      "reading": "ちぢむ",
+      "headword": "{縮|ちぢ}む",
+      "label": "to shrink, contract"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29052_marumaru",
+      "reading": "まるまる",
+      "headword": "{丸|まる}まる",
+      "label": "to curl up"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -177,10 +200,14 @@
       ],
       "transitivity": "intransitive",
       "formality": "neutral",
-      "semantic": ["movement", "emotion"],
+      "politeness": "plain",
+      "semantic": [
+        "movement",
+        "emotion"
+      ],
       "verb_class": "godan-ru"
     },
     "created": "2026-01-25T08:29:05Z",
-    "modified": "2026-06-21T13:03:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

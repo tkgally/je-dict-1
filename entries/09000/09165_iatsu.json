@@ -16,7 +16,9 @@
       "id": "09165_iatsu_ex1",
       "japanese": "{威圧|いあつ}{的|てき}な{態度|たいど}",
       "english": "an intimidating attitude",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09165_iatsu_ex2",
       "japanese": "{彼|かれ}の{威圧|いあつ}{感|かん}に{圧倒|あっとう}された。",
       "english": "I was overwhelmed by his imposing presence.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "09165_iatsu_ex3",
       "japanese": "{上司|じょうし}に{威圧|いあつ}されて、{意見|いけん}を{言|い}えなかった。",
       "english": "I was intimidated by my boss and couldn't voice my opinion.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -52,18 +58,43 @@
       "reading": "あつりょく",
       "headword": "{圧力|あつりょく}",
       "label": "pressure"
+    },
+    {
+      "type": "related",
+      "target_id": "18279_kouatsuteki",
+      "reading": "こうあつてき",
+      "headword": "{高圧的|こうあつてき}",
+      "label": "high-handed, overbearing"
+    },
+    {
+      "type": "related",
+      "target_id": "14310_hakuryoku",
+      "reading": "はくりょく",
+      "headword": "{迫力|はくりょく}",
+      "label": "force, impact"
+    },
+    {
+      "type": "related",
+      "target_id": "06373_iatsuteki",
+      "reading": "いあつてき",
+      "headword": "{威圧的|いあつてき}",
+      "label": "intimidating, overbearing"
     }
   ],
   "metadata": {
     "created": "2026-01-31T11:33:48Z",
-    "modified": "2026-04-22T08:20:33Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }

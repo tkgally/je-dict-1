@@ -22,7 +22,9 @@
       "id": "19968_kobachi_ex1",
       "japanese": "{小鉢|こばち}に{盛|も}り{付|つ}ける。",
       "english": "To serve in a small bowl.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "19968_kobachi_ex2",
       "japanese": "{陶器|とうき}の{小鉢|こばち}を{五|いつ}つ{買|か}った。",
       "english": "I bought five small ceramic bowls.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,10 @@
       "id": "19968_kobachi_ex3",
       "japanese": "{和食|わしょく}の{店|みせ}では{色|いろ}とりどりの{小鉢|こばち}が{並|なら}んでいた。",
       "english": "At the Japanese restaurant, colorful small bowls of side dishes were lined up.",
-      "sense_numbers": [1, 2],
+      "sense_numbers": [
+        1,
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +53,9 @@
       "id": "19968_kobachi_ex4",
       "japanese": "{定食|ていしょく}に{小鉢|こばち}が{二|ふた}つ{付|つ}く。",
       "english": "The set meal comes with two side dishes.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +63,9 @@
       "id": "19968_kobachi_ex5",
       "japanese": "{今日|きょう}の{小鉢|こばち}はひじきの{煮物|にもの}だ。",
       "english": "Today's side dish is simmered hijiki seaweed.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +73,45 @@
       "id": "19968_kobachi_ex6",
       "japanese": "おばあちゃんの{作|つく}る{小鉢|こばち}はどれも{手|て}が{込|こ}んでいて{美味|おい}しい。",
       "english": "Every side dish grandma makes is carefully prepared and delicious.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {小|こ} (small) + {鉢|ばち} (bowl, pot). In Japanese cuisine, {小鉢|こばち} are essential elements of a meal presentation. They add variety and visual appeal to a table setting.\n\nCOMMON COLLOCATIONS:\n- {小鉢|こばち}に{盛|も}る: to serve in a small bowl\n- {小鉢|こばち}が{付|つ}く: a side dish is included (with a meal)\n- {小鉢|こばち}{料理|りょうり}: small-bowl dishes\n\nSIMILAR WORDS:\n- {大鉢|おおばち}: large bowl (for serving shared dishes)\n- {中鉢|ちゅうばち}: medium-sized bowl\n- {副菜|ふくさい}: side dish (formal/nutritional term, not vessel-specific)\n- {お{通|とお}し}: appetizer served before ordering at an izakaya (also in a small dish, but a different concept)",
+  "notes": "Composed of {小|こ} (small) + {鉢|ばち} (bowl, pot). In Japanese cuisine, {小鉢|こばち} are essential elements of a meal presentation. They add variety and visual appeal to a table setting.\n\nCOMMON COLLOCATIONS:\n- {小鉢|こばち}に{盛|も}る: to serve in a small bowl\n- {小鉢|こばち}が{付|つ}く: a side dish is included (with a meal)\n- {小鉢|こばち}{料理|りょうり}: small-bowl dishes\n\nSIMILAR WORDS:\n- {大鉢|おおばち}: large bowl (for serving shared dishes)\n- {中鉢|ちゅうばち}: medium-sized bowl\n- {副菜|ふくさい}: side dish (formal/nutritional term, not vessel-specific)\n- お{通|とお}し: appetizer served before ordering at an izakaya (also in a small dish, but a different concept)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04993_fukusai",
+      "reading": "ふくさい",
+      "headword": "{副菜|ふくさい}",
+      "label": "side dish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09728_otooshi",
+      "reading": "おとおし",
+      "headword": "お{通|とお}し",
+      "label": "appetizer served before ordering…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "utensil"]
+      "semantic": [
+        "food",
+        "utensil"
+      ]
     },
     "created": "2026-03-27T07:22:08Z",
-    "modified": "2026-03-27T07:22:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

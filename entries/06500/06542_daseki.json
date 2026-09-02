@@ -43,11 +43,54 @@
       ]
     }
   ],
-  "notes": "RELATED BASEBALL STATISTICS:\n・⟦{打率|だりつ}→打率：07113_daritsu⟧ (batting average)\n・⟦{打数|だすう}→打数：29966_dasuu⟧ (at-bats, official at-bats excluding walks/hit-by-pitch)\n・⟦{安打|あんだ}→安打：19717_anda⟧ (hit)\n・⟦{打点|だてん}→打点：08589_daten⟧ (RBI, runs batted in)\n\nNOTE ON {打席|だせき} vs ⟦{打数|だすう}→打数：29966_dasuu⟧:\n・{打席|だせき} (plate appearance) - all turns at bat\n・⟦{打数|だすう}→打数：29966_dasuu⟧ (at-bat) - excludes walks, sacrifices, hit-by-pitch\n・⟦{打率|だりつ}→打率：07113_daritsu⟧ is calculated using ⟦{打数|だすう}→打数：29966_dasuu⟧, not {打席|だせき}\n\nCOLLOCATIONS:\n・{打席|だせき}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧ (to step up to the plate)\n・{打席|だせき}⟦に→に：00314_ni⟧⟦{立|た}つ→立つ：00758_tatsu⟧ (to stand at bat)\n・⟦{初|はつ}→初：10632_hatsu⟧{打席|だせき} (first at-bat)\n・⟦{代打|だいだ}→代打：19621_daida⟧⟦の→の：09472_no⟧{打席|だせき} (pinch-hitter's at-bat)\n・⟦{連続|れんぞく}→連続：03783_renzoku⟧{打席|だせき}⟦{出塁|しゅつるい}→出塁：09486_shutsurui⟧ (consecutive plate appearances reaching base)",
-  "cross_references": [],
+  "notes": "RELATED BASEBALL STATISTICS:\n- ⟦{打率|だりつ}→打率：07113_daritsu⟧ (batting average)\n- ⟦{打数|だすう}→打数：29966_dasuu⟧ (at-bats, official at-bats excluding walks/hit-by-pitch)\n- ⟦{安打|あんだ}→安打：19717_anda⟧ (hit)\n- ⟦{打点|だてん}→打点：08589_daten⟧ (RBI, runs batted in)\n\nNOTE ON {打席|だせき} vs ⟦{打数|だすう}→打数：29966_dasuu⟧:\n- {打席|だせき} (plate appearance) - all turns at bat\n- ⟦{打数|だすう}→打数：29966_dasuu⟧ (at-bat) - excludes walks, sacrifices, hit-by-pitch\n- ⟦{打率|だりつ}→打率：07113_daritsu⟧ is calculated using ⟦{打数|だすう}→打数：29966_dasuu⟧, not {打席|だせき}\n\nCOMMON COLLOCATIONS:\n- {打席|だせき}⟦に→に：00314_ni⟧⟦{入|はい}る→入る：00494_hairu⟧ (to step up to the plate)\n- {打席|だせき}⟦に→に：00314_ni⟧⟦{立|た}つ→立つ：00758_tatsu⟧ (to stand at bat)\n- ⟦{初|はつ}→初：10632_hatsu⟧{打席|だせき} (first at-bat)\n- ⟦{代打|だいだ}→代打：19621_daida⟧⟦の→の：09472_no⟧{打席|だせき} (pinch-hitter's at-bat)\n- ⟦{連続|れんぞく}→連続：03783_renzoku⟧{打席|だせき}⟦{出塁|しゅつるい}→出塁：09486_shutsurui⟧ (consecutive plate appearances reaching base)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07113_daritsu",
+      "reading": "だりつ",
+      "headword": "{打率|だりつ}",
+      "label": "batting average"
+    },
+    {
+      "type": "related",
+      "target_id": "29966_dasuu",
+      "reading": "だすう",
+      "headword": "{打|だ}{数|すう}",
+      "label": "at-bats, official at-bats excluding…"
+    },
+    {
+      "type": "related",
+      "target_id": "19717_anda",
+      "reading": "あんだ",
+      "headword": "{安打|あんだ}",
+      "label": "hit"
+    },
+    {
+      "type": "related",
+      "target_id": "08589_daten",
+      "reading": "だてん",
+      "headword": "{打点|だてん}",
+      "label": "RBI, runs batted in"
+    },
+    {
+      "type": "related",
+      "target_id": "09486_shutsurui",
+      "reading": "しゅつるい",
+      "headword": "{出塁|しゅつるい}",
+      "label": "getting on base (baseball)"
+    },
+    {
+      "type": "related",
+      "target_id": "11590_batto",
+      "reading": "ばっと",
+      "headword": "バット",
+      "label": "bat (sports)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-17T23:51:31Z",
-    "modified": "2026-08-29T12:18:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -17,7 +17,9 @@
       "id": "24857_mimaikyaku_ex1",
       "japanese": "{見舞客|みまいきゃく}が{絶|た}えなかった。",
       "english": "There was a steady stream of visitors.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24857_mimaikyaku_ex2",
       "japanese": "{面会|めんかい}{時間|じかん}{外|がい}の{見舞客|みまいきゃく}はお{断|ことわ}りしています。",
       "english": "We do not accept visitors outside of visiting hours.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "24857_mimaikyaku_ex3",
       "japanese": "{入院|にゅういん}している{祖母|そぼ}のもとに、{毎日|まいにち}{見舞客|みまいきゃく}が{訪|おとず}れて{花|はな}や{果物|くだもの}を{持|も}ってきてくれる。",
       "english": "Visitors come every day to see my hospitalized grandmother, bringing flowers and fruit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {見舞|みまい} (visiting the sick/expressing sympathy) + {客|きゃく} (guest/visitor). Visiting someone in the hospital is a deeply rooted social obligation in Japan, and visitors typically bring gifts such as flowers, fruit, or money in a special envelope.\n\nCOMMON COLLOCATIONS:\n- {見舞客|みまいきゃく}が{来|く}る: visitors come\n- {見舞客|みまいきゃく}が{絶|た}えない: visitors keep coming (said admiringly)\n- {見舞客|みまいきゃく}を{断|ことわ}る: to decline visitors\n- {見舞客|みまいきゃく}の{面会|めんかい}: hospital visitation\n\nRELATED WORDS:\n- お{見舞|みま}い: hospital visit; sick call — the act of visiting\n- {見舞金|みまいきん}: monetary gift for a sick person — money given in an envelope during a visit\n- {面会|めんかい}: meeting; visitation — the general term for visiting someone in a hospital or institution",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01351_omimai",
+      "reading": "おみまい",
+      "headword": "お{見舞|みま}い",
+      "label": "hospital visit"
+    },
+    {
+      "type": "related",
+      "target_id": "24434_mimaikin",
+      "reading": "みまいきん",
+      "headword": "{見舞金|みまいきん}",
+      "label": "monetary gift for a sick person"
+    },
+    {
+      "type": "related",
+      "target_id": "15925_menkai",
+      "reading": "めんかい",
+      "headword": "{面会|めんかい}",
+      "label": "meeting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     },
     "created": "2026-04-21T10:29:02Z",
-    "modified": "2026-04-21T10:29:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

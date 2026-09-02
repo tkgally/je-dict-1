@@ -19,7 +19,9 @@
       "english": "They are recruiting full-time staff.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16063_joukin_ex2",
@@ -27,7 +29,9 @@
       "english": "He works as a full-time lecturer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16063_joukin_ex3",
@@ -35,7 +39,9 @@
       "english": "I want to switch from part-time to full-time, but there are no openings.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{常勤|じょうきん} combines {常|じょう} (always, regular) and {勤|きん} (work, service). It is most commonly used as a modifier before job titles. The antonym is {非常勤|ひじょうきん} (part-time, non-regular).\n\nCOMMON COLLOCATIONS:\n- {常勤|じょうきん}{職員|しょくいん} (full-time employee)\n- {常勤|じょうきん}{講師|こうし} (full-time lecturer)\n- {常勤|じょうきん}{医師|いし} (full-time doctor)\n- {非常勤|ひじょうきん} (part-time, non-regular)\n\nSIMILAR WORDS:\nフルタイム is the loanword equivalent used in casual contexts. {正社員|せいしゃいん} refers to a regular employee with full benefits, which often overlaps with {常勤|じょうきん} but emphasizes employment status rather than working hours.",
@@ -53,18 +59,36 @@
       "reading": "せいしゃいん",
       "headword": "{正社員|せいしゃいん}",
       "label": "regular employee (status)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26894_furutaimu",
+      "reading": "ふるたいむ",
+      "headword": "フルタイム",
+      "label": "full-time"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30013_jounin",
+      "reading": "じょうにん",
+      "headword": "{常任|じょうにん}",
+      "label": "permanent"
     }
   ],
   "metadata": {
     "created": "2026-03-09T10:27:15Z",
-    "modified": "2026-05-03T04:25:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

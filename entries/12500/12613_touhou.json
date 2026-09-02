@@ -19,7 +19,9 @@
       "english": "We have acknowledged this.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12613_touhou_ex2",
@@ -27,7 +29,9 @@
       "english": "There is no fault on our part.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12613_touhou_ex3",
@@ -35,22 +39,59 @@
       "english": "If you have any questions, please contact us.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{当方|とうほう} is a formal pronoun used in business and official contexts to refer to oneself or one's organization.\n\nSIMILAR WORDS:\n- {当方|とうほう}: formal, impersonal; used in business letters and legal contexts\n- {私|わたくし}ども: humble form of \"we\"; polite business speech\n- {弊社|へいしゃ}: our company (humble); specifically for companies\n- {当社|とうしゃ}: our company (neutral); less humble than {弊社|へいしゃ}\n\nOPPOSITES:\n- {先方|せんぽう}: the other party, their side\n- {相手方|あいてがた}: the other party (legal)\n\nREGISTER:\nStrictly formal and written. Not used in everyday conversation.",
-  "cross_references": [],
+  "notes": "{当方|とうほう} is a formal pronoun used in business and official contexts to refer to oneself or one's organization.\n\nSIMILAR WORDS:\n- {当方|とうほう}: formal, impersonal; used in business letters and legal contexts\n- {私|わたくし}ども: humble form of \"we\"; polite business speech\n- {弊社|へいしゃ}: our company (humble); specifically for companies\n- {当社|とうしゃ}: our company (neutral); less humble than {弊社|へいしゃ}\n- {先方|せんぽう}: the other party, their side\n- {相手方|あいてがた}: the other party (legal)\n\nREGISTER:\nStrictly formal and written. Not used in everyday conversation.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22787_watakushidomo",
+      "reading": "わたくしども",
+      "headword": "{私|わたくし}ども",
+      "label": "humble form of \"we\""
+    },
+    {
+      "type": "contrast",
+      "target_id": "17404_heisha",
+      "reading": "へいしゃ",
+      "headword": "{弊社|へいしゃ}",
+      "label": "our company"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22449_tousha",
+      "reading": "とうしゃ",
+      "headword": "{当社|とうしゃ}",
+      "label": "our company"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20241_senpou",
+      "reading": "せんぽう",
+      "headword": "{先方|せんぽう}",
+      "label": "the other party, their side"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T04:29:46Z",
-    "modified": "2026-02-22T04:29:46Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["pronoun"],
+      "pos": [
+        "pronoun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"],
-      "domain": ["business"]
+      "semantic": [
+        "communication"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

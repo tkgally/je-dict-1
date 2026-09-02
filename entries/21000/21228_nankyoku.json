@@ -17,7 +17,9 @@
       "id": "21228_nankyoku_ex1",
       "japanese": "{難局|なんきょく}を{乗|の}り{越|こ}える。",
       "english": "To overcome a difficult situation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21228_nankyoku_ex2",
       "japanese": "{会社|かいしゃ}は{今|いま}、{難局|なんきょく}に{直面|ちょくめん}している。",
       "english": "The company is now facing a crisis.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "21228_nankyoku_ex3",
       "japanese": "{新|あたら}しいリーダーが{難局|なんきょく}を{打開|だかい}する{手腕|しゅわん}を{見|み}せた。",
       "english": "The new leader demonstrated the ability to break through the crisis.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A formal word for a serious, difficult situation — stronger than {困難|こんなん} and implying a situation that could have significant consequences if not resolved.\n\nCOMMON COLLOCATIONS:\n- {難局|なんきょく}を{乗|の}り{越|こ}える: to overcome a crisis\n- {難局|なんきょく}を{打開|だかい}する: to break through a deadlock\n- {難局|なんきょく}に{直面|ちょくめん}する: to face a difficult situation\n- {難局|なんきょく}に{立|た}たされる: to be placed in a difficult position\n\nSIMILAR WORDS:\n- {危機|きき}: crisis — emphasizes danger and urgency\n- {困難|こんなん}: difficulty — more general, less severe\n- {苦境|くきょう}: predicament — emphasizes personal suffering or hardship",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11798_kiki",
+      "reading": "きき",
+      "headword": "{危機|きき}",
+      "label": "crisis"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01410_konnan",
+      "reading": "こんなん",
+      "headword": "{困難|こんなん}",
+      "label": "difficulty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20107_kukyou",
+      "reading": "くきょう",
+      "headword": "{苦境|くきょう}",
+      "label": "predicament"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26059_koukyoku",
+      "reading": "こうきょく",
+      "headword": "{好局|こうきょく}",
+      "label": "favorable situation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-04-01T15:18:12Z",
-    "modified": "2026-04-01T15:18:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

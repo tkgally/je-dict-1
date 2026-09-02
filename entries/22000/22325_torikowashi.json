@@ -17,7 +17,9 @@
       "id": "22325_torikowashi_ex1",
       "japanese": "{古|ふる}いビルの{取|と}り{壊|こわ}しが{始|はじ}まった。",
       "english": "The demolition of the old building has begun.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22325_torikowashi_ex2",
       "japanese": "この{家|いえ}は{来月|らいげつ}{取|と}り{壊|こわ}しになる{予定|よてい}だ。",
       "english": "This house is scheduled for demolition next month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "22325_torikowashi_ex3",
       "japanese": "{歴史的|れきしてき}な{建物|たてもの}の{取|と}り{壊|こわ}しに{反対|はんたい}する{住民|じゅうみん}が{署名|しょめい}を{集|あつ}めている。",
       "english": "Residents opposing the demolition of the historic building are collecting signatures.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The noun form of the compound verb {取|と}り{壊|こわ}す (to tear down/demolish). Composed of {取|と}り (taking) + {壊|こわ}し (breaking). Commonly used in real estate, urban planning, and construction contexts.\n\nCOMMON COLLOCATIONS:\n- {取|と}り{壊|こわ}し{工事|こうじ}: demolition work\n- {取|と}り{壊|こわ}しが{決|き}まる: demolition is decided\n- {取|と}り{壊|こわ}しになる: to be slated for demolition\n- {取|と}り{壊|こわ}し{費用|ひよう}: demolition costs\n- {建物|たてもの}の{取|と}り{壊|こわ}し: demolition of a building\n\nSIMILAR WORDS:\n- {解体|かいたい}: dismantling — more technical/formal, also used for organizations\n- {撤去|てっきょ}: removal — removing structures, signs, or obstacles\n- {破壊|はかい}: destruction — violent or unplanned destruction, not just buildings",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06223_kaitai",
+      "reading": "かいたい",
+      "headword": "{解体|かいたい}",
+      "label": "dismantling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14729_tekkyo",
+      "reading": "てっきょ",
+      "headword": "{撤去|てっきょ}",
+      "label": "removal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13678_hakai",
+      "reading": "はかい",
+      "headword": "{破壊|はかい}",
+      "label": "destruction"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["construction"]
+      "semantic": [
+        "construction"
+      ]
     },
     "created": "2026-04-05T18:29:06Z",
-    "modified": "2026-04-05T18:29:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{脱会|だっかい}",
   "reading": "だっかい",
   "romaji": "dakkai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "withdrawal from an organization; leaving a group",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Composed of {脱|だつ} (escape, leave) and {会|かい} (association, group). Used for formal withdrawal from organized groups such as political parties, religious organizations, professional associations, or clubs.\n\nThe {脱|だつ} prefix conveys a sense of separating oneself from something, as seen in related compounds like {脱退|だったい} (withdrawal) and {脱党|だっとう} (leaving a political party).\n\nCOMMON COLLOCATIONS:\n- {脱会|だっかい}する: to withdraw from an organization\n- {脱会届|だっかいとどけ}: withdrawal notification form\n- {脱会|だっかい}の{手続|てつづ}き: withdrawal procedures\n- {脱会|だっかい}を{申|もう}し{出|で}る: to submit a withdrawal request\n\nSIMILAR WORDS:\n- {退会|たいかい}: leaving a group — the most common everyday word for canceling membership or leaving an organization; slightly less formal than {脱会|だっかい}\n- {脱退|だったい}: withdrawal — often used for larger-scale withdrawals such as leaving an international organization or union\n- {脱党|だっとう}: leaving a political party — specifically for departing from a political party\n- {入会|にゅうかい}: joining an organization — the opposite action, entering a group",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16082_taikai",
+      "reading": "たいかい",
+      "headword": "{退会|たいかい}",
+      "label": "leaving a group"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05770_dattai",
+      "reading": "だったい",
+      "headword": "{脱退|だったい}",
+      "label": "withdrawal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11671_nyuukai",
+      "reading": "にゅうかい",
+      "headword": "{入会|にゅうかい}",
+      "label": "joining an organization"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-29T14:38:51Z",
-    "modified": "2026-08-05T09:30:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

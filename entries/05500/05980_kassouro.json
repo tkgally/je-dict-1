@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "COMPONENTS:\n{滑走|かっそう} (gliding/sliding) + {路|ろ} (road/path)\n\nAVIATION TERMS:\n- ⟦{誘導路|ゆうどうろ}→誘導路：26180_yuudouro⟧: taxiway\n- ⟦{駐機場|ちゅうきじょう}→駐機場：29076_chuukijou⟧: apron; aircraft parking area\n- ⟦{管制塔|かんせいとう}→管制塔：15837_kanseitou⟧: control tower\n- ⟦{滑走路灯|かっそうろとう}→滑走路灯：noentry⟧: runway lights\n\nRUNWAY OPERATIONS:\n- ⟦{滑走路閉鎖|かっそうろへいさ}→滑走路閉鎖：noentry⟧: runway closure\n- ⟦{滑走路侵入|かっそうろしんにゅう}→滑走路侵入：noentry⟧: runway incursion\n- {滑走路|かっそうろ}⟦の→の：09472_no⟧⟦{端|はし}→端：noentry⟧: runway threshold\n\nMEASUREMENT:\nRunway lengths vary, with major international airports having runways of 3,000-4,000 meters.",
+  "notes": "ETYMOLOGY:\n{滑走|かっそう} (gliding/sliding) + {路|ろ} (road/path)\n\nAVIATION TERMS:\n- ⟦{誘導路|ゆうどうろ}→誘導路：26180_yuudouro⟧: taxiway\n- ⟦{駐機場|ちゅうきじょう}→駐機場：29076_chuukijou⟧: apron; aircraft parking area\n- ⟦{管制塔|かんせいとう}→管制塔：15837_kanseitou⟧: control tower\n- ⟦{滑走路灯|かっそうろとう}→滑走路灯：noentry⟧: runway lights\n\nRUNWAY OPERATIONS:\n- ⟦{滑走路閉鎖|かっそうろへいさ}→滑走路閉鎖：noentry⟧: runway closure\n- ⟦{滑走路侵入|かっそうろしんにゅう}→滑走路侵入：noentry⟧: runway incursion\n- {滑走路|かっそうろ}⟦の→の：09472_no⟧⟦{端|はし}→端：noentry⟧: runway threshold\n\nMEASUREMENT:\nRunway lengths vary, with major international airports having runways of 3,000-4,000 meters.",
   "cross_references": [
     {
       "type": "related",
@@ -78,11 +78,25 @@
       "headword": "{着陸|ちゃくりく}",
       "label": "landing",
       "target_id": "05982_chakuriku"
+    },
+    {
+      "type": "related",
+      "target_id": "15837_kanseitou",
+      "reading": "かんせいとう",
+      "headword": "{管制塔|かんせいとう}",
+      "label": "control tower"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26180_yuudouro",
+      "reading": "ゆうどうろ",
+      "headword": "{誘導路|ゆうどうろ}",
+      "label": "taxiway"
     }
   ],
   "metadata": {
     "created": "2026-01-16T17:33:22Z",
-    "modified": "2026-08-25T00:21:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

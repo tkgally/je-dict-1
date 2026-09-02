@@ -17,7 +17,9 @@
       "id": "18548_suemusume_ex1",
       "japanese": "{末娘|すえむすめ}が{結婚|けっこん}した。",
       "english": "My youngest daughter got married.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18548_suemusume_ex2",
       "japanese": "{三人|さんにん}{姉妹|しまい}の{末娘|すえむすめ}として{育|そだ}った。",
       "english": "She grew up as the youngest of three sisters.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "18548_suemusume_ex3",
       "japanese": "{末娘|すえむすめ}は{家族|かぞく}みんなに{可愛|かわい}がられて{育|そだ}った。",
       "english": "The youngest daughter was raised being doted on by the whole family.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {末|すえ} (end, last) + {娘|むすめ} (daughter).\n\nRELATED FAMILY TERMS:\n- {末息子|すえむすこ}: youngest son\n- {末|すえ}っ{子|こ}: youngest child (regardless of gender)\n- {長女|ちょうじょ}: eldest daughter\n- {次女|じじょ}: second daughter\n- {三女|さんじょ}: third daughter\n\nCULTURE:\nThe youngest child in a Japanese family is often seen as being spoiled or pampered ({甘|あま}やかされる). {末|すえ}っ{子|こ} carries this nuance more strongly than {末娘|すえむすめ}.\n\nNOTE:\n{末娘|すえむすめ} specifically means the youngest daughter, not just any young daughter. A family could have a {末息子|すえむすこ} who is younger than the {末娘|すえむすめ}.",
+  "notes": "Compound of {末|すえ} (end, last) + {娘|むすめ} (daughter).\n\nRELATED FAMILY TERMS:\n- {末息子|すえむすこ}: youngest son\n- {末|すえ}っ{子|こ}: youngest child (regardless of gender)\n- {長女|ちょうじょ}: eldest daughter\n- {次女|じじょ}: second daughter\n- {三女|さんじょ}: third daughter\n\nCULTURAL NOTE:\nThe youngest child in a Japanese family is often seen as being spoiled or pampered ({甘|あま}やかされる). {末|すえ}っ{子|こ} carries this nuance more strongly than {末娘|すえむすめ}.\n\nUSAGE:\n{末娘|すえむすめ} specifically means the youngest daughter, not just any young daughter. A family could have a {末息子|すえむすこ} who is younger than the {末娘|すえむすめ}.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15132_suekko",
+      "reading": "すえっこ",
+      "headword": "{末|すえ}っ{子|こ}",
+      "label": "youngest child"
+    },
+    {
+      "type": "related",
+      "target_id": "14518_choujo",
+      "reading": "ちょうじょ",
+      "headword": "{長女|ちょうじょ}",
+      "label": "eldest daughter"
+    },
+    {
+      "type": "related",
+      "target_id": "15831_jijo",
+      "reading": "じじょ",
+      "headword": "{次女|じじょ}",
+      "label": "second daughter"
+    },
+    {
+      "type": "related",
+      "target_id": "10690_sanjo",
+      "reading": "さんじょ",
+      "headword": "{三女|さんじょ}",
+      "label": "third daughter"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["family"]
+      "semantic": [
+        "family"
+      ]
     },
     "created": "2026-03-22T04:48:33Z",
-    "modified": "2026-03-26T19:36:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

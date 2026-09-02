@@ -17,7 +17,9 @@
       "id": "25743_hanteimisu_ex1",
       "japanese": "{審判|しんぱん}の{判定|はんてい}ミスで{試合|しあい}が{荒|あ}れた。",
       "english": "The game got rough due to the referee's bad call.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25743_hanteimisu_ex2",
       "japanese": "ビデオ{判定|はんてい}で{判定|はんてい}ミスが{覆|くつがえ}った。",
       "english": "The bad call was overturned by video review.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,36 @@
       "id": "25743_hanteimisu_ex3",
       "japanese": "{監督|かんとく}は{判定|はんてい}ミスに{抗議|こうぎ}して{退場|たいじょう}になった。",
       "english": "The manager was ejected for protesting the bad call.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {判定|はんてい} (judgment, ruling) + ミス (mistake, from English \"miss\"). Most frequently heard in sports commentary, especially in baseball, soccer, and combat sports where referee decisions are closely scrutinized.\n\nThe introduction of video replay systems (ビデオ{判定|はんてい}, VAR) has made {判定|はんてい}ミス a more prominent topic in sports discussions.\n\nCOMMON COLLOCATIONS:\n- {判定|はんてい}ミスをする: to make a judgment error\n- {判定|はんてい}ミスに{抗議|こうぎ}する: to protest a bad call\n- {明|あき}らかな{判定|はんてい}ミス: an obvious bad call\n- {判定|はんてい}ミスが{続|つづ}く: bad calls continue\n\nSIMILAR WORDS:\n- {誤審|ごしん}: misjudgment, wrong ruling — a more formal synonym commonly used in news reporting\n- {誤判定|ごはんてい}: incorrect judgment — a more formal compound\n- ミスジャッジ: misjudge — English loanword, used interchangeably in casual contexts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19183_goshin",
+      "reading": "ごしん",
+      "headword": "{誤審|ごしん}",
+      "label": "misjudgment, wrong ruling"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["sports"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ]
     },
     "created": "2026-04-27T11:19:18Z",
-    "modified": "2026-04-27T11:19:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

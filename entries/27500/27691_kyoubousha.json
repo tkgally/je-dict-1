@@ -17,7 +17,9 @@
       "id": "27691_kyoubousha_ex1",
       "japanese": "{警察|けいさつ}は{共謀者|きょうぼうしゃ}を{探|さが}している。",
       "english": "The police are searching for the co-conspirators.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27691_kyoubousha_ex2",
       "japanese": "かれは{事件|じけん}の{共謀者|きょうぼうしゃ}とされた。",
       "english": "He was named a co-conspirator in the incident.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "27691_kyoubousha_ex3",
       "japanese": "{取|と}り{調|しら}べで、ほかに{二人|ふたり}の{共謀者|きょうぼうしゃ}がいたことが{分|わ}かった。",
       "english": "The investigation revealed that there were two other co-conspirators.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {共謀|きょうぼう} (conspiring together) + {者|しゃ} (person). A formal, legal term for someone who takes part in planning a crime with others.\n\nCOMMON COLLOCATIONS:\n- {事件|じけん}の{共謀者|きょうぼうしゃ}: a co-conspirator in a case\n- {共謀者|きょうぼうしゃ}を{特定|とくてい}する: to identify the co-conspirators\n\nSIMILAR WORDS:\n- {共犯者|きょうはんしゃ}: accomplice — one who takes part in committing the crime, not only in planning it\n- {主犯|しゅはん}: principal offender — the leader who plays the central role in a crime",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18011_shuhan",
+      "reading": "しゅはん",
+      "headword": "{主犯|しゅはん}",
+      "label": "principal offender"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26754_inbousha",
+      "reading": "いんぼうしゃ",
+      "headword": "{陰謀者|いんぼうしゃ}",
+      "label": "conspirator"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["person"],
-      "domain": ["legal"]
+      "politeness": "plain",
+      "semantic": [
+        "person"
+      ],
+      "domain": [
+        "legal"
+      ]
     },
     "created": "2026-05-16T04:08:30Z",
-    "modified": "2026-05-16T04:08:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

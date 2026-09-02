@@ -17,7 +17,9 @@
       "id": "28516_zakkin_ex1",
       "japanese": "{手|て}を{洗|あら}って{雑菌|ざっきん}を{落|お}とす。",
       "english": "Wash your hands to remove germs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28516_zakkin_ex2",
       "japanese": "まな{板|いた}は{雑菌|ざっきん}が{繁殖|はんしょく}しやすい。",
       "english": "Cutting boards are prone to bacterial growth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,60 @@
       "id": "28516_zakkin_ex3",
       "japanese": "{湿気|しっけ}が{多|おお}いと{雑菌|ざっきん}が{増|ふ}えやすくなるので{換気|かんき}が{大切|たいせつ}だ。",
       "english": "Bacteria multiply easily in humid conditions, so ventilation is important.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Everyday term for unwanted bacteria, especially in hygiene and food-safety contexts. Distinct from {細菌|さいきん}, which is the precise scientific term.\n\nCOMMON COLLOCATIONS:\n- {雑菌|ざっきん}が{繁殖|はんしょく}する: bacteria multiply\n- {雑菌|ざっきん}が{付|つ}く: get contaminated\n- {雑菌|ざっきん}を{抑|おさ}える: to suppress bacterial growth\n- {雑菌|ざっきん}{対策|たいさく}: anti-bacterial measures\n\nSIMILAR WORDS:\n- {細菌|さいきん}: bacteria — scientific term, neutral connotation\n- {菌|きん}: germ; bacterium; mold — broadest term, includes fungi\n- ウイルス: virus — different category of microbe\n- カビ: mold",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13791_saikin",
+      "reading": "さいきん",
+      "headword": "{細菌|さいきん}",
+      "label": "bacteria"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05223_uirusu",
+      "reading": "ういるす",
+      "headword": "ウイルス",
+      "label": "virus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07055_kabi",
+      "reading": "かび",
+      "headword": "カビ",
+      "label": "mold"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17825_baikin",
+      "reading": "ばいきん",
+      "headword": "ばい{菌|きん}",
+      "label": "germs"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["health", "science"],
+      "politeness": "plain",
+      "semantic": [
+        "health",
+        "science"
+      ],
       "domain": []
     },
     "created": "2026-06-01T03:08:44Z",
-    "modified": "2026-06-01T03:08:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

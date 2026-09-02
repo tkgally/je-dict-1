@@ -17,7 +17,9 @@
       "id": "21015_sokkin_ex1",
       "japanese": "{即金|そっきん}で{買|か}う。",
       "english": "To buy with cash on the spot.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21015_sokkin_ex2",
       "japanese": "{即金|そっきん}{払|ばら}いなら{少|すこ}し{安|やす}くしますよ。",
       "english": "If you pay in cash, I'll give you a small discount.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "21015_sokkin_ex3",
       "japanese": "{中古車|ちゅうこしゃ}を{即金|そっきん}で{購入|こうにゅう}したので、ローンの{心配|しんぱい}がない。",
       "english": "I bought the used car with cash up front, so I don't have to worry about loan payments.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {即|そく} (immediate) + {金|きん} (money, cash). Emphasizes that payment is made on the spot without any delayed or installment payment arrangement. Often used in buying and selling contexts, particularly for larger purchases.\n\nCOMMON COLLOCATIONS:\n- {即金|そっきん}で{買|か}う: to buy with cash on the spot\n- {即金|そっきん}{払|ばら}い: cash payment, paying in full\n- {即金|そっきん}{買取|かいとり}: cash purchase (of goods for resale)\n\nSIMILAR WORDS:\n- {現金|げんきん}: cash — the general term for physical money; does not imply immediacy\n- {一括払|いっかつばら}い: lump-sum payment — paying the full amount at once, but not necessarily in cash\n- {分割払|ぶんかつばら}い: installment payment — the opposite; paying in multiple smaller amounts over time",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02716_genkin",
+      "reading": "げんきん",
+      "headword": "{現金|げんきん}",
+      "label": "cash"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17608_ikkatsubarai",
+      "reading": "いっかつばらい",
+      "headword": "{一括払|いっかつばら}い",
+      "label": "lump-sum payment"
+    },
+    {
+      "type": "antonym",
+      "target_id": "17607_bunkatsubarai",
+      "reading": "ぶんかつばらい",
+      "headword": "{分割払|ぶんかつばら}い",
+      "label": "installment payment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business", "money"]
+      "semantic": [
+        "business",
+        "money"
+      ]
     },
     "created": "2026-03-31T14:11:31Z",
-    "modified": "2026-03-31T14:11:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

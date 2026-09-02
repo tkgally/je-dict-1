@@ -22,7 +22,9 @@
       "id": "19326_yoppodo_ex1",
       "japanese": "よっぽど{疲|つか}れていたんだね。",
       "english": "You must have been really tired.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "19326_yoppodo_ex2",
       "japanese": "こっちのほうがよっぽどいい。",
       "english": "This one is way better.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "19326_yoppodo_ex3",
       "japanese": "よっぽどのことがない{限|かぎ}り、{予定|よてい}は{変|か}えない。",
       "english": "Unless something really serious happens, I won't change the plan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "19326_yoppodo_ex4",
       "japanese": "よっぽど{帰|かえ}ろうかと{思|おも}った。",
       "english": "I almost went home.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "19326_yoppodo_ex5",
       "japanese": "あまりにも{失礼|しつれい}で、よっぽど{怒|おこ}ろうかと{思|おも}った。",
       "english": "It was so rude that I very nearly got angry.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,58 @@
       "id": "19326_yoppodo_ex6",
       "japanese": "よっぽど{言|い}おうかと{思|おも}ったが、やめておいた。",
       "english": "I almost said something, but decided against it.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A colloquial variant of よほど. Both forms are widely used, but よっぽど is more common in casual spoken Japanese.\n\nCOMMON COLLOCATIONS:\n- よっぽどのこと — something really serious\n- よっぽど〜しようかと{思|おも}った — I almost did...\n- よっぽど〜のほうがいい — ... is far better\n\nUSAGE:\nIn sense 1, よっぽど emphasizes degree and is often used in comparisons (よっぽどいい, よっぽどまし). The phrase よっぽどのことがない{限|かぎ}り is a very common set expression meaning 'unless something extraordinary happens.' In sense 2, it expresses that the speaker was on the verge of doing something but held back.\n\nSIMILAR WORDS:\n- よほど — considerably (the standard/slightly more formal form of the same word)\n- かなり — considerably, fairly (more neutral; よっぽど carries stronger emphasis and emotion)\n- ずいぶん — quite, considerably (similar emphasis but used differently in comparisons)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10653_yohodo",
+      "reading": "よほど",
+      "headword": "{余程|よほど}",
+      "label": "considerably"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01149_kanari",
+      "reading": "かなり",
+      "headword": "かなり",
+      "label": "considerably, fairly (more neutral"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01256_zuibun",
+      "reading": "ずいぶん",
+      "headword": "{随分|ずいぶん}",
+      "label": "quite, considerably"
+    },
+    {
+      "type": "related",
+      "target_id": "22944_yohodonokoto",
+      "reading": "よほどのこと",
+      "headword": "{余程|よほど}の{事|こと}",
+      "label": "something extraordinary"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["quantity"]
+      "semantic": [
+        "quantity"
+      ]
     },
     "created": "2026-03-25T08:38:14Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

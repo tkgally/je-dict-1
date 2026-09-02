@@ -19,7 +19,9 @@
       "english": "Contact the victim's family.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14106_higaisha_ex2",
@@ -27,7 +29,9 @@
       "english": "The number of fraud victims is increasing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14106_higaisha_ex3",
@@ -35,10 +39,12 @@
       "english": "The victim of the incident has suffered from psychological distress for many years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE NOTE:\n{被害者|ひがいしゃ} is composed of {被害|ひがい} (damage, harm) and {者|しゃ} (person). It is the standard term used in news, legal contexts, and formal writing. The antonym is {加害者|かがいしゃ} (perpetrator, offender).\n\nIn colloquial speech, people sometimes use {被害者|ひがいしゃ} figuratively to express that they feel victimized in everyday situations.\n\nCOMMON COLLOCATIONS:\n- {被害者|ひがいしゃ}{遺族|いぞく} (bereaved family of a victim)\n- {被害者|ひがいしゃ}{支援|しえん} (victim support)\n- {被害者|ひがいしゃ}{意識|いしき} (victim mentality)\n- {被害者|ひがいしゃ}{側|がわ} (the victim's side)\n\nSIMILAR WORDS:\n- {犠牲者|ぎせいしゃ}: victim, casualty (emphasizes sacrifice, often in disasters or wars)\n- {加害者|かがいしゃ}: perpetrator, offender (antonym)",
+  "notes": "USAGE:\n{被害者|ひがいしゃ} is composed of {被害|ひがい} (damage, harm) and {者|しゃ} (person). It is the standard term used in news, legal contexts, and formal writing. The antonym is {加害者|かがいしゃ} (perpetrator, offender).\n\nIn colloquial speech, people sometimes use {被害者|ひがいしゃ} figuratively to express that they feel victimized in everyday situations.\n\nCOMMON COLLOCATIONS:\n- {被害者|ひがいしゃ}{遺族|いぞく} (bereaved family of a victim)\n- {被害者|ひがいしゃ}{支援|しえん} (victim support)\n- {被害者|ひがいしゃ}{意識|いしき} (victim mentality)\n- {被害者|ひがいしゃ}{側|がわ} (the victim's side)\n\nSIMILAR WORDS:\n- {犠牲者|ぎせいしゃ}: victim, casualty (emphasizes sacrifice, often in disasters or wars)\n- {加害者|かがいしゃ}: perpetrator, offender (antonym)",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,19 +52,74 @@
       "reading": "かがいしゃ",
       "headword": "{加害者|かがいしゃ}",
       "label": "perpetrator"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18769_giseisha",
+      "reading": "ぎせいしゃ",
+      "headword": "{犠牲者|ぎせいしゃ}",
+      "label": "victim, casualty"
+    },
+    {
+      "type": "related",
+      "target_id": "19370_ejiki",
+      "reading": "えじき",
+      "headword": "{餌食|えじき}",
+      "label": "prey"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23513_keganin",
+      "reading": "けがにん",
+      "headword": "{怪我人|けがにん}",
+      "label": "injured person"
+    },
+    {
+      "type": "related",
+      "target_id": "25337_hisaisha",
+      "reading": "ひさいしゃ",
+      "headword": "{被災者|ひさいしゃ}",
+      "label": "disaster victim"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26731_souguusha",
+      "reading": "そうぐうしゃ",
+      "headword": "{遭遇者|そうぐうしゃ}",
+      "label": "person who encounters"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27169_fushousha",
+      "reading": "ふしょうしゃ",
+      "headword": "{負傷者|ふしょうしゃ}",
+      "label": "injured person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27187_shishousha",
+      "reading": "ししょうしゃ",
+      "headword": "{死傷者|ししょうしゃ}",
+      "label": "casualties"
     }
   ],
   "metadata": {
     "created": "2026-02-28T00:50:06Z",
-    "modified": "2026-04-25T09:21:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"],
-      "domain": ["legal"]
+      "semantic": [
+        "person"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

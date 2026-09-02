@@ -19,7 +19,9 @@
       "english": "You can see far into the distance from the castle's watchtower.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17496_monomiyagura_ex2",
@@ -27,7 +29,9 @@
       "english": "They climbed the watchtower and monitored the enemy's movements.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17496_monomiyagura_ex3",
@@ -35,21 +39,35 @@
       "english": "A reconstructed watchtower stands at the center of the historical park.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nComposed of {物見|ものみ} (watching, lookout) + {櫓|やぐら} (tower, turret). Primarily associated with Japanese castles and historical settings. The word {櫓|やぐら} alone also appears in other compounds like {太鼓櫓|たいこやぐら} (drum tower) and {火|ひ}の{見|み}{櫓|やぐら} (fire lookout tower).\n\nRELATED TERMS:\n- {櫓|やぐら}: tower, turret\n- {天守閣|てんしゅかく}: castle keep, main tower of a Japanese castle\n- {火|ひ}の{見|み}{櫓|やぐら}: fire watchtower — once common in Japanese towns for spotting fires",
-  "cross_references": [],
+  "notes": "USAGE:\nComposed of {物見|ものみ} (watching, lookout) + {櫓|やぐら} (tower, turret). Primarily associated with Japanese castles and historical settings. The word {櫓|やぐら} alone also appears in other compounds like {太鼓櫓|たいこやぐら} (drum tower) and {火|ひ}の{見|み}{櫓|やぐら} (fire lookout tower).\n\nRELATED WORDS:\n- {櫓|やぐら}: tower, turret\n- {天守閣|てんしゅかく}: castle keep, main tower of a Japanese castle\n- {火|ひ}の{見|み}{櫓|やぐら}: fire watchtower — once common in Japanese towns for spotting fires",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17449_tenshukaku",
+      "reading": "てんしゅかく",
+      "headword": "{天守閣|てんしゅかく}",
+      "label": "castle keep, main tower of a Japanese…"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T04:30:44Z",
-    "modified": "2026-07-20T18:18:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

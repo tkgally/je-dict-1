@@ -3,7 +3,7 @@
   "headword": "{転任|てんにん}",
   "reading": "てんにん",
   "romaji": "tennin",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "transfer; reassignment to a new post",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Compound of {転|てん} (change, move) and {任|にん} (assignment, post). Often used with する to form a verb meaning \"to be transferred.\"\n\nCOMMON COLLOCATIONS:\n- {転任|てんにん}する: to be transferred\n- {転任|てんにん}の{挨拶|あいさつ}: transfer farewell greeting\n- {転任|てんにん}{届|とどけ}: transfer notification form\n- {転任|てんにん}{先|さき}: new post/location after transfer\n\nSIMILAR WORDS:\n- {転勤|てんきん}: job transfer — used specifically for company employees being relocated\n- {異動|いどう}: personnel change — broader term covering any change in position, department, or role\n- {赴任|ふにん}: taking up a new post — focuses on going to and starting at the new location\n- {左遷|させん}: demotion-transfer — transfer to a lesser position, often punitive",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04555_tenkin",
+      "reading": "てんきん",
+      "headword": "{転勤|てんきん}",
+      "label": "job transfer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01818_idou",
+      "reading": "いどう",
+      "headword": "{異動|いどう}",
+      "label": "personnel change"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10601_funin",
+      "reading": "ふにん",
+      "headword": "{赴任|ふにん}",
+      "label": "taking up a new post"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06831_sasen",
+      "reading": "させん",
+      "headword": "{左遷|させん}",
+      "label": "demotion-transfer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T17:23:29Z",
-    "modified": "2026-04-02T17:23:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

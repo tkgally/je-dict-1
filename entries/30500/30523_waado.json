@@ -46,6 +46,22 @@
   ],
   "notes": "From English \"word\". Outside compounds it is largely confined to search, media, and IT contexts; for words as language, Japanese uses {言葉|ことば} or {単語|たんご}.\n\nCOMMON COLLOCATIONS:\n- キーワード: keyword\n- {検索|けんさく}ワード: search term\n- パスワード: password\n- トレンドワード: trending term\n\nSIMILAR WORDS:\n- {単語|たんご}: word, vocabulary item — the term used in language study\n- {言葉|ことば}: word, language, speech — the general native word",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03413_tango",
+      "reading": "たんご",
+      "headword": "{単語|たんご}",
+      "label": "word, vocabulary item"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02880_kotoba",
+      "reading": "ことば",
+      "headword": "{言葉|ことば}",
+      "label": "word, language, speech"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "language",
         "technology"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-08-09T03:19:08Z",
-    "modified": "2026-08-09T03:19:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{厄払|やくばら}い",
   "reading": "やくばらい",
   "romaji": "yakubarai",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "warding off evil; exorcism; purification",
   "definitions": [
     {
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A traditional Japanese practice of seeking spiritual purification, most commonly performed at Shinto shrines. It is especially common during {厄年|やくどし} (unlucky years), which are specific ages believed to bring misfortune (e.g., 25 and 42 for men, 19 and 33 for women).\n\nCOMMON COLLOCATIONS:\n- {厄払|やくばら}いをする: to have a purification done\n- {厄払|やくばら}いの{祈祷|きとう}: purification prayer\n- {厄払|やくばら}いに{行|い}く: to go for purification\n\nCULTURAL CONTEXT:\nMany Japanese visit shrines at the start of the new year or around {節分|せつぶん} (early February) for {厄払|やくばら}い. The {豆|まめ}まき (bean-throwing) ceremony at {節分|せつぶん} is itself a form of {厄払|やくばら}い.\n\nSIMILAR WORDS:\n- {お{祓|はら}い}: purification ritual — broader term, not limited to bad luck\n- {厄除|やくよ}け: protection against evil — focuses on prevention rather than removal",
+  "notes": "A traditional Japanese practice of seeking spiritual purification, most commonly performed at Shinto shrines. It is especially common during {厄年|やくどし} (unlucky years), which are specific ages believed to bring misfortune (e.g., 25 and 42 for men, 19 and 33 for women).\n\nCOMMON COLLOCATIONS:\n- {厄払|やくばら}いをする: to have a purification done\n- {厄払|やくばら}いの{祈祷|きとう}: purification prayer\n- {厄払|やくばら}いに{行|い}く: to go for purification\n\nCULTURAL NOTE:\nMany Japanese visit shrines at the start of the new year or around {節分|せつぶん} (early February) for {厄払|やくばら}い. The {豆|まめ}まき (bean-throwing) ceremony at {節分|せつぶん} is itself a form of {厄払|やくばら}い.\n\nSIMILAR WORDS:\n- お{祓|はら}い: purification ritual — broader term, not limited to bad luck\n- {厄除|やくよ}け: protection against evil — focuses on prevention rather than removal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15835_oharai",
+      "reading": "おはらい",
+      "headword": "お{祓|はら}い",
+      "label": "purification ritual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24744_yakuyoke",
+      "reading": "やくよけ",
+      "headword": "{厄除|やくよ}け",
+      "label": "protection against evil"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25748_maeyaku",
+      "reading": "まえやく",
+      "headword": "{前厄|まえやく}",
+      "label": "year before an unlucky year"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T19:18:57Z",
-    "modified": "2026-04-05T19:18:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

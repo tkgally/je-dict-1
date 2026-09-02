@@ -17,7 +17,9 @@
       "id": "27570_hashikko_ex1",
       "japanese": "パンの{端|はし}っこが{好|す}きだ。",
       "english": "I love the end pieces of the bread.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27570_hashikko_ex2",
       "japanese": "{机|つくえ}の{端|はし}っこに{鍵|かぎ}を{置|お}いておいた。",
       "english": "I left the key on the edge of the desk.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "27570_hashikko_ex3",
       "japanese": "{子供|こども}たちはソファの{端|はし}っこに{座|すわ}って{絵本|えほん}を{読|よ}んでいた。",
       "english": "The children were sitting at the edge of the sofa reading a picture book.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Casual variant of {端|はし} formed with the diminutive/familiar suffix っこ. It carries a friendlier, more concrete feel — useful in speech but generally not in formal writing.\n\nCOMMON COLLOCATIONS:\n- {机|つくえ}の{端|はし}っこ: the edge of the desk\n- パンの{端|はし}っこ: the end (heel) of a loaf of bread\n- {端|はし}っこに{座|すわ}る: to sit at the edge\n- {端|はし}っこを{切|き}る: to cut off the end\n\nSIMILAR WORDS:\n- {端|はし}: edge; end (neutral, all-purpose)\n- {隅|すみ}: corner (interior corner of a room or space)\n- {先|さき}: tip; point (the very end, often pointed)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01625_sumi",
+      "reading": "すみ",
+      "headword": "{隅|すみ}",
+      "label": "corner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02883_saki",
+      "reading": "さき",
+      "headword": "{先|さき}",
+      "label": "tip"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
-      "politeness": null,
-      "semantic": ["location"],
+      "politeness": "plain",
+      "semantic": [
+        "location"
+      ],
       "domain": []
     },
     "created": "2026-05-14T03:13:32Z",
-    "modified": "2026-05-14T03:13:32Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{同業|どうぎょう}",
   "reading": "どうぎょう",
   "romaji": "dougyou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "same trade; same line of business",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "21886_dougyou_ex1",
       "japanese": "{同業者|どうぎょうしゃ}と{情報|じょうほう}{交換|こうかん}をする。",
       "english": "To exchange information with people in the same business.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21886_dougyou_ex2",
       "japanese": "{同業|どうぎょう}{他社|たしゃ}と{比|くら}べて、うちは{価格|かかく}が{安|やす}い。",
       "english": "Compared to other companies in the same industry, our prices are lower.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,53 @@
       "id": "21886_dougyou_ex3",
       "japanese": "{同業|どうぎょう}の{友人|ゆうじん}から{聞|き}いた{話|はなし}では、{業界|ぎょうかい}{全体|ぜんたい}が{厳|きび}しい{状況|じょうきょう}らしい。",
       "english": "According to what I heard from a friend in the same line of work, the whole industry seems to be in a tough situation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {同|どう} (same) + {業|ぎょう} (business/trade). Functions primarily as a prefix in compounds, most commonly {同業者|どうぎょうしゃ} (people in the same trade).\n\nCOMMON COLLOCATIONS:\n- {同業者|どうぎょうしゃ}: person in the same trade/industry\n- {同業|どうぎょう}{他社|たしゃ}: other companies in the same industry\n- {同業|どうぎょう}{組合|くみあい}: trade association; guild\n- {同業種|どうぎょうしゅ}: same type of business\n\nSIMILAR WORDS:\n- {同僚|どうりょう}: colleague — people at the same workplace, not necessarily same profession\n- {競合|きょうごう}: competition; rival — emphasizes the competitive aspect\n- {業界|ぎょうかい}: industry — the field itself rather than the shared membership",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01023_douryou",
+      "reading": "どうりょう",
+      "headword": "{同僚|どうりょう}",
+      "label": "colleague"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05082_kyougou",
+      "reading": "きょうごう",
+      "headword": "{競合|きょうごう}",
+      "label": "competition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13129_gyoukai",
+      "reading": "ぎょうかい",
+      "headword": "{業界|ぎょうかい}",
+      "label": "industry"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business", "work"]
+      "semantic": [
+        "business",
+        "work"
+      ]
     },
     "created": "2026-04-03T20:26:30Z",
-    "modified": "2026-04-03T20:26:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

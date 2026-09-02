@@ -17,7 +17,9 @@
       "id": "25924_pinpinshiteiru_ex1",
       "japanese": "おじいちゃんは90{歳|さい}でもぴんぴんしている。",
       "english": "Grandpa is still hale and hearty at 90.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25924_pinpinshiteiru_ex2",
       "japanese": "{風邪|かぜ}を{引|ひ}いたと{聞|き}いたけど、もうぴんぴんしているよ。",
       "english": "I heard you caught a cold, but you're already bouncing back.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,51 @@
       "id": "25924_pinpinshiteiru_ex3",
       "japanese": "{退院|たいいん}したばかりなのに、もうぴんぴんしていて、{周|まわ}りの{人|ひと}を{驚|おどろ}かせた。",
       "english": "Even though she had just been discharged from the hospital, she was already back to full energy, surprising everyone around her.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "An onomatopoeic expression where ぴんぴん evokes the image of something springy, taut, and full of life — like a fish flipping energetically. Combined with している (to be in a state of), it describes someone who is noticeably healthy and vigorous.\n\nUSAGE:\nMost commonly used about elderly people to express pleasant surprise at their vitality, or about someone who has recovered quickly from illness. The tone is always positive and often slightly admiring or surprised.\n\nRELATED EXPRESSION:\n- ぴんぴんころり: to live healthily until dying suddenly — an ideal of aging well without prolonged illness. Often abbreviated as PPK.\n\nSIMILAR WORDS:\n- {元気|げんき}: healthy; energetic — the most basic word for being well; less emphatic\n- しゃきしゃきしている: to be brisk and lively — emphasizes quick, efficient movement\n- {達者|たっしゃ}: healthy; robust — somewhat formal, often used for elderly people",
-  "cross_references": [],
+  "notes": "An onomatopoeic expression where ぴんぴん evokes the image of something springy, taut, and full of life — like a fish flipping energetically. Combined with している (to be in a state of), it describes someone who is noticeably healthy and vigorous.\n\nUSAGE:\nMost commonly used about elderly people to express pleasant surprise at their vitality, or about someone who has recovered quickly from illness. The tone is always positive and often slightly admiring or surprised.\n\nRELATED WORDS:\n- ぴんぴんころり: to live healthily until dying suddenly — an ideal of aging well without prolonged illness. Often abbreviated as PPK.\n\nSIMILAR WORDS:\n- {元気|げんき}: healthy; energetic — the most basic word for being well; less emphatic\n- しゃきしゃきしている: to be brisk and lively — emphasizes quick, efficient movement\n- {達者|たっしゃ}: healthy; robust — somewhat formal, often used for elderly people",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00696_genki",
+      "reading": "げんき",
+      "headword": "{元気|げんき}",
+      "label": "healthy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20383_tassha",
+      "reading": "たっしゃ",
+      "headword": "{達者|たっしゃ}",
+      "label": "healthy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22740_genkiippai",
+      "reading": "げんきいっぱい",
+      "headword": "{元気|げんき}いっぱい",
+      "label": "full of energy"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
-      "semantic": ["health", "onomatopoeia"]
+      "pos": [
+        "expression"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "health",
+        "onomatopoeia"
+      ]
     },
     "created": "2026-04-28T12:27:09Z",
-    "modified": "2026-04-28T12:27:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

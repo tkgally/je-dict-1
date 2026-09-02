@@ -3,7 +3,7 @@
   "headword": "全治",
   "reading": "ぜんち",
   "romaji": "zenchi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "complete recovery; full healing",
   "definitions": [
     {
@@ -46,6 +46,15 @@
   ],
   "notes": "Composed of {全|ぜん} (complete) + {治|ち} (cure). Typically paired with a time estimate to express how long full recovery will take.\n\nCOMMON COLLOCATIONS:\n- {全治|ぜんち}{二週間|にしゅうかん}: two weeks to fully recover\n- {全治|ぜんち}する: to heal completely\n- {全治|ぜんち}までかかる: to take (a period) until full recovery\n\nSIMILAR WORDS:\n- {完治|かんじ}: complete cure — emphasizes the cured state itself; {全治|ぜんち} is more often used with a time estimate\n- {治療|ちりょう}: treatment — the process of treating, not the recovery",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03503_chiryou",
+      "reading": "ちりょう",
+      "headword": "{治療|ちりょう}",
+      "label": "treatment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +63,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health"
       ],
@@ -62,7 +71,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-24T03:09:30Z",
-    "modified": "2026-08-08T03:27:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

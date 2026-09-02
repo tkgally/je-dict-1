@@ -3,7 +3,7 @@
   "headword": "{書|か}き{抜|ぬ}く",
   "reading": "かきぬく",
   "romaji": "kakinuku",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to extract (by writing); to copy out; to transcribe selectively",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A compound godan verb ({書|か}く + {抜|ぬ}く) where {抜|ぬ}く adds the meaning of 'pulling out' or 'extracting.' Unlike {書|か}き{写|うつ}す (copying in full), {書|か}き{抜|ぬ}く emphasizes selecting specific portions to copy.\n\nCOMMON COLLOCATIONS:\n- {重要|じゅうよう}な{箇所|かしょ}を{書|か}き{抜|ぬ}く: to extract important passages\n- {必要|ひつよう}な{情報|じょうほう}を{書|か}き{抜|ぬ}く: to copy out necessary information\n- {書|か}き{抜|ぬ}きノート: a notebook of extracted passages\n\nSIMILAR WORDS:\n- {書|か}き{写|うつ}す: to copy down, to transcribe — copying a text in full, not selectively\n- {抜|ぬ}き{書|が}きする: to excerpt, to extract — the noun form {抜|ぬ}き{書|が}き means 'excerpt' or 'extract'\n- {引用|いんよう}する: to quote, to cite — used in academic or formal contexts for quoting sources with attribution",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20733_kakiutsusu",
+      "reading": "かきうつす",
+      "headword": "{書|か}き{写|うつ}す",
+      "label": "to copy down, to transcribe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25574_nukigaki",
+      "reading": "ぬきがき",
+      "headword": "{抜|ぬ}き{書|が}き",
+      "label": "to excerpt, to extract"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26928_inyousuru",
+      "reading": "いんようする",
+      "headword": "{引用|いんよう}する",
+      "label": "to quote, to cite"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +83,7 @@
       "verb_class": "godan-ku"
     },
     "created": "2026-03-30T14:32:31Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

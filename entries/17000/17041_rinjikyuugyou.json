@@ -19,7 +19,9 @@
       "english": "We are temporarily closed today.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17041_rinjikyuugyou_ex2",
@@ -27,7 +29,9 @@
       "english": "We will be temporarily closed due to the typhoon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17041_rinjikyuugyou_ex3",
@@ -35,21 +39,43 @@
       "english": "My usual café was temporarily closed, so I reluctantly went to a different shop.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften seen on signs posted on shop doors or announced on social media and websites. A common sight in Japan, especially during typhoons, public health emergencies, or when an owner-operated shop needs a day off.\n\nCOMMON COLLOCATIONS:\n- {臨時休業|りんじきゅうぎょう}のお{知|し}らせ (notice of temporary closure)\n- {臨時休業|りんじきゅうぎょう}いたします (we will be temporarily closed — polite)\n- {臨時休業|りんじきゅうぎょう}{日|び} (day of temporary closure)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09541_teikyuubi",
+      "reading": "ていきゅうび",
+      "headword": "{定休日|ていきゅうび}",
+      "label": "regular day off, regular closing day"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18859_kyuukan",
+      "reading": "きゅうかん",
+      "headword": "{休館|きゅうかん}",
+      "label": "temporary closure"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T07:20:58Z",
-    "modified": "2026-03-15T07:20:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business", "daily-life"]
+      "semantic": [
+        "business",
+        "daily-life"
+      ]
     }
   }
 }

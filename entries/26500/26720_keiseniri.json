@@ -3,7 +3,7 @@
   "headword": "{罫線入|けいせんい}り",
   "reading": "けいせんいり",
   "romaji": "keiseniri",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "ruled; lined; with ruled lines",
   "definitions": [
     {
@@ -45,7 +45,15 @@
     }
   ],
   "notes": "Composed of {罫線|けいせん} (ruled line) and {入|い}り (containing/with). The suffix 〜{入|い}り is productive and means \"containing\" or \"with,\" as in {砂糖入|さとうい}り (with sugar) or {絵入|えい}り (illustrated).\n\nCOMMON COLLOCATIONS:\n- {罫線入|けいせんい}りのノート: lined notebook\n- {罫線入|けいせんい}りの{用紙|ようし}: ruled paper\n- {罫線入|けいせんい}りの{便箋|びんせん}: lined writing paper\n\nSIMILAR WORDS:\n- {横罫|よこけい}: horizontal ruling — specifies horizontal lines\n- {方眼|ほうがん}: grid/graph — square grid pattern\n- {無地|むじ}: plain/blank — no lines\n- {罫線|けいせん}: ruled line — the base word",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03990_muji",
+      "reading": "むじ",
+      "headword": "{無地|むじ}",
+      "label": "plain/blank"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,11 +62,13 @@
         "noun",
         "adjective-no"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "tool"
       ]
     },
     "created": "2026-05-04T14:16:55Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

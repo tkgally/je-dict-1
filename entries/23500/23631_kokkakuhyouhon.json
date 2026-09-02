@@ -17,7 +17,9 @@
       "id": "23631_kokkakuhyouhon_ex1",
       "japanese": "{骨格標本|こっかくひょうほん}を{作|つく}る。",
       "english": "Prepare a skeletal specimen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23631_kokkakuhyouhon_ex2",
       "japanese": "{博物館|はくぶつかん}に{恐竜|きょうりゅう}の{骨格標本|こっかくひょうほん}がある。",
       "english": "The museum has a dinosaur skeletal specimen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23631_kokkakuhyouhon_ex3",
       "japanese": "{理科室|りかしつ}には{人体|じんたい}の{骨格標本|こっかくひょうほん}が{置|お}いてある。",
       "english": "In the science classroom there is a human skeletal specimen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,45 @@
       "id": "23631_kokkakuhyouhon_ex4",
       "japanese": "{新|あたら}しく{発掘|はっくつ}された{化石|かせき}から、{研究者|けんきゅうしゃ}たちは{何年|なんねん}もかけて{骨格標本|こっかくひょうほん}を{組|く}み{立|た}てた。",
       "english": "From the newly excavated fossils, the researchers spent years assembling a skeletal specimen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {骨格|こっかく} (skeletal frame, skeleton) and {標本|ひょうほん} (specimen, sample). A {標本|ひょうほん} is a preserved biological specimen used for study or display.\n\nUSAGE:\nUsed in the context of museums, biology labs, classrooms, and scientific research. Paired naturally with verbs like {作|つく}る (to prepare), {組|く}み{立|た}てる (to assemble), and {展示|てんじ}する (to exhibit).\n\nCOMMON COLLOCATIONS:\n- {骨格標本|こっかくひょうほん}を{作|つく}る: to prepare a skeletal specimen\n- {骨格標本|こっかくひょうほん}を{組|く}み{立|た}てる: to assemble a mounted skeleton\n- {骨格標本|こっかくひょうほん}を{展示|てんじ}する: to exhibit a skeletal specimen\n- {恐竜|きょうりゅう}の{骨格標本|こっかくひょうほん}: dinosaur skeleton (as a museum exhibit)\n- {人体|じんたい}の{骨格標本|こっかくひょうほん}: human skeletal specimen\n\nSIMILAR WORDS:\n- {標本|ひょうほん}: specimen — the general term; {骨格標本|こっかくひょうほん} is one specific type\n- {剥製|はくせい}: taxidermy mount — a stuffed animal specimen with skin and fur, contrasted with {骨格標本|こっかくひょうほん} which shows only the bones\n- {化石|かせき}: fossil — preserved remains of ancient organisms; many museum skeletons are made from fossils\n- {骨格|こっかく}{模型|もけい}: skeleton model — a replica, typically plastic, as opposed to a real specimen",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27683_hakusei",
+      "reading": "はくせい",
+      "headword": "{剥製|はくせい}",
+      "label": "taxidermy mount"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11796_kaseki",
+      "reading": "かせき",
+      "headword": "{化石|かせき}",
+      "label": "fossil"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["science", "education"]
+      "semantic": [
+        "science",
+        "education"
+      ]
     },
     "created": "2026-04-13T17:19:37Z",
-    "modified": "2026-04-13T17:19:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

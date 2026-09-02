@@ -3,7 +3,7 @@
   "headword": "{記帳|きちょう}",
   "reading": "きちょう",
   "romaji": "kichou",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "making an entry in a ledger; signing a register",
   "conjugation": {
     "type": "suru",
@@ -169,11 +169,27 @@
       "notes": null
     }
   ],
-  "notes": "{記帳|きちょう} combines {記|き} (record) + {帳|ちょう} (notebook/ledger). It has two main uses: financial bookkeeping and signing a guest register.\n\nBANKING USAGE:\nIn banking, {記帳|きちょう} specifically means updating a passbook ({通帳|つうちょう}) at an ATM to print recent transactions — a practice still common in Japan. Many ATMs have a dedicated {記帳|きちょう} button.\n\nCEREMONIAL USAGE:\nAt hotels, weddings, funerals, and memorials, {記帳|きちょう} means writing one's name in a guest register ({芳名帳|ほうめいちょう}).\n\nCOMMON PATTERNS:\n- {通帳|つうちょう}の{記帳|きちょう}をする: to update a bankbook\n- {芳名帳|ほうめいちょう}に{記帳|きちょう}する: to sign a guest book\n- {記帳台|きちょうだい}: a writing stand (for signing registers)\n\nHOMOPHONES:\n- {基調|きちょう}: keynote, underlying tone\n- {貴重|きちょう}: precious, valuable",
+  "notes": "{記帳|きちょう} combines {記|き} (record) + {帳|ちょう} (notebook/ledger). It has two main uses: financial bookkeeping and signing a guest register.\n\nBANKING USAGE:\nIn banking, {記帳|きちょう} specifically means updating a passbook ({通帳|つうちょう}) at an ATM to print recent transactions — a practice still common in Japan. Many ATMs have a dedicated {記帳|きちょう} button.\n\nCEREMONIAL USAGE:\nAt hotels, weddings, funerals, and memorials, {記帳|きちょう} means writing one's name in a guest register ({芳名帳|ほうめいちょう}).\n\nCOMMON PATTERNS:\n- {通帳|つうちょう}の{記帳|きちょう}をする: to update a bankbook\n- {芳名帳|ほうめいちょう}に{記帳|きちょう}する: to sign a guest book\n- {記帳台|きちょうだい}: a writing stand (for signing registers)\n\nWATCH OUT:\n- {基調|きちょう}: keynote, underlying tone\n- {貴重|きちょう}: precious, valuable",
   "synonyms": [],
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09924_tsuuchou",
+      "reading": "つうちょう",
+      "headword": "{通帳|つうちょう}",
+      "label": "bankbook, passbook"
+    },
+    {
+      "type": "related",
+      "target_id": "23593_tsuuchoukinyuu",
+      "reading": "つうちょうきにゅう",
+      "headword": "{通帳記入|つうちょうきにゅう}",
+      "label": "passbook update"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -193,6 +209,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-23T04:41:23Z",
-    "modified": "2026-03-25T06:54:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

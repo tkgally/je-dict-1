@@ -17,7 +17,9 @@
       "id": "27670_inabikari_ex1",
       "japanese": "{稲光|いなびかり}が{走|はし}った。",
       "english": "A flash of lightning streaked across the sky.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27670_inabikari_ex2",
       "japanese": "{遠|とお}くで{稲光|いなびかり}が{見|み}えた。",
       "english": "I saw a flash of lightning in the distance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "27670_inabikari_ex3",
       "japanese": "{激|はげ}しい{雨|あめ}の{中|なか}、{稲光|いなびかり}が{夜空|よぞら}を{何度|なんど}も{照|て}らした。",
       "english": "In the heavy rain, flashes of lightning lit up the night sky again and again.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers specifically to the visible flash of lightning, as opposed to the sound of thunder. {稲|いね} ('rice plant') is in the word because lightning was traditionally believed to help rice ripen.\n\nCOMMON COLLOCATIONS:\n- {稲光|いなびかり}が{走|はし}る: a flash of lightning streaks across the sky\n- {稲光|いなびかり}が{光|ひか}る: lightning flashes\n\nSIMILAR WORDS:\n- {稲妻|いなずま}: lightning; lightning bolt — near-synonym, often of the jagged bolt itself\n- {雷|かみなり}: thunder; lightning — the general word, covering both the flash and the sound",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04989_inazuma",
+      "reading": "いなずま",
+      "headword": "{稲妻|いなずま}",
+      "label": "lightning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02197_kaminari",
+      "reading": "かみなり",
+      "headword": "{雷|かみなり}",
+      "label": "thunder"
+    },
+    {
+      "type": "related",
+      "target_id": "06188_raimei",
+      "reading": "らいめい",
+      "headword": "{雷鳴|らいめい}",
+      "label": "thunder, thunderclap"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     },
     "created": "2026-05-16T03:10:15Z",
-    "modified": "2026-05-16T03:10:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

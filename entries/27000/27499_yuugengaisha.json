@@ -17,7 +17,9 @@
       "id": "27499_yuugengaisha_ex1",
       "japanese": "{父|ちち}は{有限会社|ゆうげんがいしゃ}を{経営|けいえい}している。",
       "english": "My father runs a limited liability company.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27499_yuugengaisha_ex2",
       "japanese": "{名刺|めいし}には{有限会社|ゆうげんがいしゃ}の{社名|しゃめい}が{書|か}かれていた。",
       "english": "The business card had the name of a limited liability company on it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "27499_yuugengaisha_ex3",
       "japanese": "{制度|せいど}が{変|か}わったため、{新|あら}たに{有限会社|ゆうげんがいしゃ}を{設立|せつりつ}することはできない。",
       "english": "Because the law changed, it is no longer possible to newly establish a limited liability company.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Often abbreviated {有限|ゆうげん} or written as ㈲ before the company name. The 2006 Companies Act ({会社法|かいしゃほう}) discontinued the category, but existing {有限会社|ゆうげんがいしゃ} were grandfathered in and may still keep the title indefinitely.\n\nCOMMON COLLOCATIONS:\n- {有限会社|ゆうげんがいしゃ}を{設立|せつりつ}する: to establish a limited company\n- {有限会社|ゆうげんがいしゃ}を{経営|けいえい}する: to run a limited company\n- {有限会社|ゆうげんがいしゃ}{○○|まるまる}: \"○○ Ltd.\" (in company names)\n\nSIMILAR WORDS:\n- {株式会社|かぶしきがいしゃ}: stock company; joint-stock corporation — much larger and more common form, with shares\n- {合同会社|ごうどうがいしゃ}: LLC (Japanese-style) — the modern small-business form that replaced {有限会社|ゆうげんがいしゃ} after 2006",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19101_kabushikigaisha",
+      "reading": "かぶしきがいしゃ",
+      "headword": "{株式会社|かぶしきがいしゃ}",
+      "label": "stock company"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["business"],
+      "politeness": "plain",
+      "semantic": [
+        "business"
+      ],
       "domain": []
     },
     "created": "2026-05-13T03:05:34Z",
-    "modified": "2026-05-13T03:05:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

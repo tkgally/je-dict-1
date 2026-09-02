@@ -3,7 +3,7 @@
   "headword": "{引|ひ}きずられる",
   "reading": "ひきずられる",
   "romaji": "hikizurareru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to be dragged; to be pulled along; to be swayed",
   "definitions": [
     {
@@ -80,7 +80,29 @@
     }
   ],
   "notes": "The passive form of {引|ひ}きずる (to drag). In the physical sense (sense 1), it describes being pulled along the ground or by a strong force. In the figurative sense (sense 2), it describes being involuntarily influenced or weighed down by external factors — emotions, opinions, past events, or other people's energy.\n\nCOMMON COLLOCATIONS:\n- {感情|かんじょう}に{引|ひ}きずられる: to be swayed by emotions\n- {過去|かこ}に{引|ひ}きずられる: to be dragged down by the past\n- {周|まわ}りに{引|ひ}きずられる: to be influenced by those around you\n- {雰囲気|ふんいき}に{引|ひ}きずられる: to be swept along by the atmosphere\n\nSIMILAR WORDS:\n- {影響|えいきょう}される: to be influenced — neutral; doesn't imply unwillingness\n- {流|なが}される: to be swept along; to go with the flow — emphasizes lack of resistance\n- {振|ふ}り{回|まわ}される: to be jerked around; manipulated — implies being controlled by another person",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26775_eikyousareru",
+      "reading": "えいきょうされる",
+      "headword": "{影響|えいきょう}される",
+      "label": "to be influenced"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17207_nagasareru",
+      "reading": "ながされる",
+      "headword": "{流|なが}される",
+      "label": "to be swept along"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21981_furimawasareru",
+      "reading": "ふりまわされる",
+      "headword": "{振|ふ}り{回|まわ}される",
+      "label": "to be jerked around"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -88,6 +110,8 @@
       "pos": [
         "verb-ichidan"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "action",
         "emotion"
@@ -95,7 +119,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-04-28T12:27:35Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

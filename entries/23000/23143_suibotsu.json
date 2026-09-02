@@ -3,7 +3,7 @@
   "headword": "{水没|すいぼつ}",
   "reading": "すいぼつ",
   "romaji": "suibotsu",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "submersion; flooding; being submerged underwater",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {水|すい} (water) + {没|ぼつ} (sink, submerge). Describes things being covered or engulfed by water. Commonly used in news reports about flood damage, climate change, and infrastructure damage.\n\nCOMMON COLLOCATIONS:\n- {道路|どうろ}が{水没|すいぼつ}する: a road floods/becomes submerged\n- {車|くるま}が{水没|すいぼつ}する: a car gets submerged\n- {水没|すいぼつ}{被害|ひがい}: flood damage\n- {水没|すいぼつ}{地域|ちいき}: flooded/submerged area\n\nSIMILAR WORDS:\n- {浸水|しんすい}: flooding, inundation — water entering a building or area; focuses on water intrusion rather than complete submersion\n- {冠水|かんすい}: inundation — fields or roads covered with water; often used for agricultural and road flooding\n- {沈没|ちんぼつ}: sinking — used for ships and vessels sinking; implies going down rather than being covered",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14945_shinsui",
+      "reading": "しんすい",
+      "headword": "{浸水|しんすい}",
+      "label": "flooding, inundation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20916_kansui",
+      "reading": "かんすい",
+      "headword": "{冠水|かんすい}",
+      "label": "inundation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17516_chinbotsu",
+      "reading": "ちんぼつ",
+      "headword": "{沈没|ちんぼつ}",
+      "label": "sinking"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-08T20:30:46Z",
-    "modified": "2026-04-08T20:30:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

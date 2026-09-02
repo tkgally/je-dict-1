@@ -3,7 +3,7 @@
   "headword": "{流入|りゅうにゅう}する",
   "reading": "りゅうにゅう",
   "romaji": "ryuunyuu",
-  "part_of_speech": "noun, suru verb, intransitive",
+  "part_of_speech": "noun, suru verb (intransitive)",
   "gloss": "to flow in; to pour in; to influx",
   "definitions": [
     {
@@ -81,6 +81,29 @@
   ],
   "notes": "The noun form {流入|りゅうにゅう} is frequently used as a modifier (e.g., {人口|じんこう}{流入|りゅうにゅう} — population influx). The antonym is {流出|りゅうしゅつ}する (to flow out, to drain away).\n\nCOMMON COLLOCATIONS:\n- {資金|しきん}{流入|りゅうにゅう}: capital inflow\n- {人口|じんこう}{流入|りゅうにゅう}: population influx\n- {流入|りゅうにゅう}{量|りょう}: volume of inflow\n- {外国|がいこく}{資本|しほん}の{流入|りゅうにゅう}: inflow of foreign capital\n\nSIMILAR WORDS:\n- {流出|りゅうしゅつ}する: to flow out — the antonym, used for brain drain, capital flight, etc.\n- {流|なが}れ{込|こ}む: to flow into — more colloquial, used for both literal and figurative contexts\n- {殺到|さっとう}する: to flood in — implies overwhelming volume, especially of requests or people",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "13327_ryuushutsu",
+      "reading": "りゅうしゅつ",
+      "headword": "{流出|りゅうしゅつ}",
+      "label": "to flow out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05748_nagarekomu",
+      "reading": "ながれこむ",
+      "headword": "{流|なが}れ{込|こ}む",
+      "label": "to flow into"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15036_sattou",
+      "reading": "さっとう",
+      "headword": "{殺到|さっとう}",
+      "label": "to flood in"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -98,7 +121,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T02:06:16Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

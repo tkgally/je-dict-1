@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{実|じつ} (real, actual) + {印|いん} (seal)\n\nLiterally \"real seal\" - the officially recognized seal.\n\nREGISTRATION PROCESS:\nTo make a seal your {実印|じついん}, you must:\n1. {印鑑登録|いんかんとうろく} - register it at your local {市区町村|しくちょうそん} office\n2. You'll receive an {印鑑登録証|いんかんとうろくしょう} (registration card)\n3. You can then obtain {印鑑証明書|いんかんしょうめいしょ} (seal certificate) as needed\n\nWHEN REQUIRED:\n・{不動産|ふどうさん}{取引|とりひき} - real estate transactions\n・{自動車|じどうしゃ}の{購入|こうにゅう}/{売却|ばいきゃく} - buying/selling cars\n・{会社|かいしゃ}{設立|せつりつ} - company establishment\n・{保証人|ほしょうにん} - acting as guarantor\n・{遺産|いさん}{相続|そうぞく} - inheritance matters\n\nSEAL SPECIFICATIONS:\n{実印|じついん} typically should be:\n・Unique (not mass-produced)\n・Larger than {認印|みとめいん} (usually 13.5-18mm)\n・Made of durable material\n\nIMPORTANT:\nNever lend your {実印|じついん} to others - it can be used to enter into binding contracts in your name.",
+  "notes": "ETYMOLOGY:\n{実|じつ} (real, actual) + {印|いん} (seal)\n\nLiterally \"real seal\" - the officially recognized seal.\n\nREGISTRATION PROCESS:\nTo make a seal your {実印|じついん}, you must:\n1. {印鑑登録|いんかんとうろく} - register it at your local {市区町村|しくちょうそん} office\n2. You'll receive an {印鑑登録証|いんかんとうろくしょう} (registration card)\n3. You can then obtain {印鑑証明書|いんかんしょうめいしょ} (seal certificate) as needed\n\nWHEN REQUIRED:\n- {不動産|ふどうさん}{取引|とりひき} - real estate transactions\n- {自動車|じどうしゃ}の{購入|こうにゅう}/{売却|ばいきゃく} - buying/selling cars\n- {会社|かいしゃ}{設立|せつりつ} - company establishment\n- {保証人|ほしょうにん} - acting as guarantor\n- {遺産|いさん}{相続|そうぞく} - inheritance matters\n\nSEAL SPECIFICATIONS:\n{実印|じついん} typically should be:\n- Unique (not mass-produced)\n- Larger than {認印|みとめいん} (usually 13.5-18mm)\n- Made of durable material\n\nWATCH OUT:\nNever lend your {実印|じついん} to others - it can be used to enter into binding contracts in your name.",
   "cross_references": [
     {
       "type": "contrast",
@@ -55,11 +55,39 @@
       "headword": "{印鑑登録|いんかんとうろく}",
       "label": "seal registration",
       "target_id": "07491_inkantouroku"
+    },
+    {
+      "type": "related",
+      "target_id": "09812_shachihata",
+      "reading": "しゃちはた",
+      "headword": "シャチハタ",
+      "label": "self-inking stamp"
+    },
+    {
+      "type": "related",
+      "target_id": "10285_inkanshoumei",
+      "reading": "いんかんしょうめい",
+      "headword": "{印鑑証明|いんかんしょうめい}",
+      "label": "certificate of seal registration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23189_kouin",
+      "reading": "こういん",
+      "headword": "{公印|こういん}",
+      "label": "official seal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27357_ginkouin",
+      "reading": "ぎんこういん",
+      "headword": "{銀行印|ぎんこういん}",
+      "label": "bank seal (a personal seal registered with one's bank)"
     }
   ],
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-08-10T18:29:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -67,6 +95,7 @@
         "noun"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "tool",
         "law"

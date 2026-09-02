@@ -17,7 +17,9 @@
       "id": "19686_heyagi_ex1",
       "japanese": "{部屋着|へやぎ}に{着替|きが}えた。",
       "english": "I changed into my loungewear.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19686_heyagi_ex2",
       "japanese": "この{部屋着|へやぎ}は{肌触|はだざわ}りがいい。",
       "english": "This loungewear feels nice against the skin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,59 @@
       "id": "19686_heyagi_ex3",
       "japanese": "{部屋着|へやぎ}のままコンビニに{行|い}くのはちょっと{恥|は}ずかしい。",
       "english": "Going to the convenience store in loungewear is a bit embarrassing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers to comfortable clothing for relaxing at home — typically sweatshirts, T-shirts, loose pants, or similar casual items. Unlike パジャマ (pajamas), {部屋着|へやぎ} is worn during waking hours.\n\nCOMMON COLLOCATIONS:\n- {部屋着|へやぎ}に{着替|きが}える: to change into loungewear\n- {部屋着|へやぎ}のまま: still in one's house clothes\n- おしゃれな{部屋着|へやぎ}: stylish loungewear\n\nSIMILAR WORDS:\n- パジャマ: pajamas — specifically for sleeping\n- {普段着|ふだんぎ}: everyday clothes — casual but suitable for going out\n- {寝巻|ねま}き: nightwear — traditional Japanese sleeping garment",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04516_pajama",
+      "reading": "ぱじゃま",
+      "headword": "パジャマ",
+      "label": "pajamas"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15346_fudangi",
+      "reading": "ふだんぎ",
+      "headword": "{普段着|ふだんぎ}",
+      "label": "everyday clothes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26363_ruumuwea",
+      "reading": "るーむうぇあ",
+      "headword": "ルームウェア",
+      "label": "loungewear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29239_suriipuwea",
+      "reading": "すりーぷうぇあ",
+      "headword": "スリープウェア",
+      "label": "sleepwear"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing", "daily-life"]
+      "semantic": [
+        "clothing",
+        "daily-life"
+      ]
     },
     "created": "2026-03-26T12:38:04Z",
-    "modified": "2026-03-26T12:38:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

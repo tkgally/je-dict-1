@@ -17,7 +17,9 @@
       "id": "26352_yokomi_ex1",
       "japanese": "{横見|よこみ}をして{歩|ある}くと{危|あぶ}ない。",
       "english": "It's dangerous to walk while looking sideways.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26352_yokomi_ex2",
       "japanese": "{運転中|うんてんちゅう}の{横見|よこみ}は{事故|じこ}のもとだ。",
       "english": "Looking to the side while driving is a cause of accidents.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,44 @@
       "id": "26352_yokomi_ex3",
       "japanese": "{彼女|かのじょ}は{横見|よこみ}で{隣|となり}の{人|ひと}の{答案|とうあん}をちらりと{見|み}た。",
       "english": "She glanced sideways at the person next to her's answer sheet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {横|よこ} (side, sideways) and {見|み} (looking, seeing). Describes the physical act of looking to the side rather than straight ahead. Often carries a nuance of distraction or inattention.\n\nCOMMON COLLOCATIONS:\n- {横見|よこみ}をする: to look sideways\n- {横見|よこみ}{運転|うんてん}: driving while looking to the side (distracted driving)\n\nSIMILAR WORDS:\n- {横目|よこめ}: sidelong glance — specifically using peripheral vision, often with a nuance of watching covertly\n- {脇見|わきみ}: looking away, looking aside — implies being distracted from what one should be watching\n- {ちらり見|ちらりみ}: quick glance — emphasizes brevity rather than direction",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17521_yokome",
+      "reading": "よこめ",
+      "headword": "{横目|よこめ}",
+      "label": "sidelong glance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19174_wakimi",
+      "reading": "わきみ",
+      "headword": "{脇見|わきみ}",
+      "label": "looking away, looking aside"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["daily-life", "action"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life",
+        "action"
+      ]
     },
     "created": "2026-05-01T11:34:54Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

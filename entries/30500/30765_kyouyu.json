@@ -45,6 +45,29 @@
   ],
   "notes": "COMMON COLLOCATIONS:\n- {小学校|しょうがっこう}{教諭|きょうゆ}: elementary school teacher\n- {養護|ようご}{教諭|きょうゆ}: school nurse-teacher\n- {教諭|きょうゆ}{免許|めんきょ}: teaching licence\n- {教諭|きょうゆ}になる: to become a licensed teacher\n\nSIMILAR WORDS:\n- {先生|せんせい}: teacher — how you actually address or refer to one; never a job title on paper\n- {教師|きょうし}: teacher — the general occupational word, usable of any school and of private tutors\n- {講師|こうし}: lecturer, part-time instructor — a different employment category from {教諭|きょうゆ}\n\nRegister note: news stories append it directly to a surname, as in {山田|やまだ}{教諭|きょうゆ}, the way English reports say \"Ms Smith, a teacher at…\".",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00609_sensei",
+      "reading": "せんせい",
+      "headword": "{先生|せんせい}",
+      "label": "teacher"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03029_kyoushi",
+      "reading": "きょうし",
+      "headword": "{教師|きょうし}",
+      "label": "teacher"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00451_koushi",
+      "reading": "こうし",
+      "headword": "{講師|こうし}",
+      "label": "lecturer, part-time instructor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -52,7 +75,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "occupation",
         "education"
@@ -60,6 +83,6 @@
       "domain": []
     },
     "created": "2026-08-28T12:31:33Z",
-    "modified": "2026-08-28T12:31:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

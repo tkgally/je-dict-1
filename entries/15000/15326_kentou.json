@@ -3,7 +3,7 @@
   "id": "15326_kentou",
   "headword": "{健闘|けんとう}",
   "reading": "けんとう",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "good fight; valiant effort",
   "conjugation": {
     "type": "suru",
@@ -149,11 +149,18 @@
       "headword": "{見当|けんとう}",
       "target_id": "02795_kentou",
       "label": "guess"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23184_kantou",
+      "reading": "かんとう",
+      "headword": "{敢闘|かんとう}",
+      "label": "fighting bravely"
     }
   ],
   "metadata": {
     "created": "2026-03-06T09:47:58Z",
-    "modified": "2026-07-16T07:06:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -162,6 +169,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "sports",
         "action"

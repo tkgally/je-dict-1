@@ -17,7 +17,9 @@
       "id": "18747_bunsekika_ex1",
       "japanese": "{政治|せいじ}{分析家|ぶんせきか}の{見解|けんかい}を{聞|き}く。",
       "english": "To hear the views of a political analyst.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18747_bunsekika_ex2",
       "japanese": "{彼女|かのじょ}は{鋭|するど}い{分析家|ぶんせきか}として{知|し}られている。",
       "english": "She is known as a sharp analyst.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "18747_bunsekika_ex3",
       "japanese": "{市場|しじょう}{分析家|ぶんせきか}たちは{来年|らいねん}の{景気回復|けいきかいふく}を{予測|よそく}している。",
       "english": "Market analysts are predicting an economic recovery next year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {分析|ぶんせき} (analysis) + {家|か} (expert/professional suffix).\n\nCOMMON TYPES:\n- {政治|せいじ}{分析家|ぶんせきか}: political analyst\n- {市場|しじょう}{分析家|ぶんせきか}: market analyst\n- {精神|せいしん}{分析家|ぶんせきか}: psychoanalyst\n- {軍事|ぐんじ}{分析家|ぶんせきか}: military analyst\n\nSIMILAR WORDS:\n- アナリスト: analyst (English loanword, common in business/finance)\n- {評論家|ひょうろんか}: critic, commentator (more focused on opinions than data)\n- {研究者|けんきゅうしゃ}: researcher (broader, academic focus)\n\nThe suffix {家|か} implies expertise or professional dedication. It appears in many occupation words: {作家|さっか} (author), {画家|がか} (painter), {専門家|せんもんか} (expert).",
+  "notes": "Compound of {分析|ぶんせき} (analysis) + {家|か} (expert/professional suffix).\n\nTYPES:\n- {政治|せいじ}{分析家|ぶんせきか}: political analyst\n- {市場|しじょう}{分析家|ぶんせきか}: market analyst\n- {精神|せいしん}{分析家|ぶんせきか}: psychoanalyst\n- {軍事|ぐんじ}{分析家|ぶんせきか}: military analyst\n\nSIMILAR WORDS:\n- アナリスト: analyst (English loanword, common in business/finance)\n- {評論家|ひょうろんか}: critic, commentator (more focused on opinions than data)\n- {研究者|けんきゅうしゃ}: researcher (broader, academic focus)\n\nThe suffix {家|か} implies expertise or professional dedication. It appears in many occupation words: {作家|さっか} (author), {画家|がか} (painter), {専門家|せんもんか} (expert).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16405_hyouronka",
+      "reading": "ひょうろんか",
+      "headword": "{評論家|ひょうろんか}",
+      "label": "critic, commentator"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02573_kenkyuusha",
+      "reading": "けんきゅうしゃ",
+      "headword": "{研究者|けんきゅうしゃ}",
+      "label": "researcher"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     },
     "created": "2026-03-23T02:02:23Z",
-    "modified": "2026-04-04T01:54:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

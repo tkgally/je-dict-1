@@ -19,7 +19,9 @@
       "english": "The event was a great success.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13645_seikyou_ex2",
@@ -27,7 +29,9 @@
       "english": "The exhibition was bustling every day, with long lines forming.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13645_seikyou_ex3",
@@ -35,21 +39,42 @@
       "english": "The newly renovated store was packed from day one, and the prepared merchandise sold out quickly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften appears with the prefix {大|おお} as {大盛況|だいせいきょう} (huge success, packed house). Used as a predicate with だ/です: {盛況|せいきょう}だった (it was a great turnout). Also used as a noun modifier: {盛況|せいきょう}ぶり (the extent of the success).\n\nCOMMON COLLOCATIONS:\n- {大|おお}{盛況|せいきょう}: huge success, packed event\n- {盛況|せいきょう}のうちに{終|お}わる: to end successfully\n- {盛況|せいきょう}ぶり: the extent of the success\n- {空前|くうぜん}の{盛況|せいきょう}: unprecedented success",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22895_ooiri",
+      "reading": "おおいり",
+      "headword": "{大入|おおい}り",
+      "label": "full house"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26838_nigiwai",
+      "reading": "にぎわい",
+      "headword": "{賑|にぎ}わい",
+      "label": "bustle"
+    }
+  ],
   "metadata": {
     "created": "2026-02-26T12:22:38Z",
-    "modified": "2026-02-26T12:22:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }

@@ -17,7 +17,9 @@
       "id": "23291_jikoshikin_ex1",
       "japanese": "{自己資金|じこしきん}が{足|た}りない。",
       "english": "I don't have enough of my own funds.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23291_jikoshikin_ex2",
       "japanese": "{自己資金|じこしきん}で{家|いえ}を{買|か}うのは{難|むずか}しい。",
       "english": "Buying a house with one's own funds alone is difficult.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23291_jikoshikin_ex3",
       "japanese": "{事業|じぎょう}を{始|はじ}めるにあたって、ある{程度|ていど}の{自己資金|じこしきん}が{必要|ひつよう}だ。",
       "english": "To start a business, you need a certain amount of personal capital.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,45 @@
       "id": "23291_jikoshikin_ex4",
       "japanese": "{住宅|じゅうたく}ローンを{組|く}むには、{物件|ぶっけん}{価格|かかく}の{二割|にわり}{程度|ていど}の{自己資金|じこしきん}を{用意|ようい}しておくのが{望|のぞ}ましい。",
       "english": "When taking out a home loan, it's advisable to have prepared personal funds equal to about 20% of the property price.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A financial term that distinguishes one's own money from borrowed money. Composed of {自己|じこ} (self) + {資金|しきん} (funds/capital). Commonly used in banking, real estate, and business contexts.\n\nCOMMON COLLOCATIONS:\n- {自己資金|じこしきん}が{足|た}りる / {足|た}りない: to have (not) enough of one's own funds\n- {自己資金|じこしきん}を{用意|ようい}する: to prepare one's own funds\n- {自己資金|じこしきん}で{購入|こうにゅう}する: to purchase with one's own funds\n- {自己資金|じこしきん}{比率|ひりつ}: equity ratio (ratio of own funds to total capital)\n- {自己資金|じこしきん}ゼロ: zero down payment (no own funds)\n\nSIMILAR WORDS / ANTONYMS:\n- {借入金|かりいれきん}: borrowed money; loan — the opposite; money borrowed from a bank or other lender\n- {頭金|あたまきん}: down payment — the portion of one's own funds used at the start of a large purchase\n- {運転資金|うんてんしきん}: working capital — funds used for day-to-day business operations\n- {資本金|しほんきん}: capital (of a company) — the registered capital of a corporation\n\nUSAGE:\nWhen applying for a home loan or business loan in Japan, banks typically ask how much {自己資金|じこしきん} the applicant can contribute. A higher {自己資金|じこしきん} ratio usually means better loan terms.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "29454_kariirekin",
+      "reading": "かりいれきん",
+      "headword": "借入金",
+      "label": "borrowed money"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29480_atamakin",
+      "reading": "あたまきん",
+      "headword": "{頭金|あたまきん}",
+      "label": "down payment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["finance", "business"]
+      "semantic": [
+        "finance",
+        "business"
+      ]
     },
     "created": "2026-04-11T16:37:43Z",
-    "modified": "2026-04-11T16:37:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

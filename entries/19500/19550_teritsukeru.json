@@ -3,7 +3,7 @@
   "headword": "{照|て}りつける",
   "reading": "てりつける",
   "romaji": "teritsukeru",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to shine down intensely; to beat down (of the sun)",
   "conjugation": {
     "type": "ichidan",
@@ -136,6 +136,22 @@
   ],
   "notes": "A vivid weather verb that specifically describes the sun bearing down with intense, oppressive heat. Almost exclusively used with {太陽|たいよう} or {日差|ひざ}し as the subject. Strongly associated with summer heat and often appears in descriptions of {猛暑|もうしょ} (extreme heat).\n\nUSAGE:\nThe progressive form {照|て}りつけている is the most common, describing ongoing fierce sunlight. The passive {照|て}りつけられる emphasizes the discomfort experienced by the person under the sun.\n\nCOMMON COLLOCATIONS:\n- {太陽|たいよう}が{照|て}りつける — the sun beats down\n- {日差|ひざ}しが{照|て}りつける — the sunlight blazes down\n- {照|て}りつける{暑|あつ}さ — scorching heat\n\nSIMILAR WORDS:\n- {照|て}りつく — similar meaning but less common; same nuance of relentless sunlight\n- {降|ふ}り{注|そそ}ぐ — to pour down; used for both sunlight and rain, more neutral\n- {照|て}る — to shine; basic verb without the intensity or oppressive nuance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07976_furisosogu",
+      "reading": "ふりそそぐ",
+      "headword": "{降|ふ}り{注|そそ}ぐ",
+      "label": "to pour down"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00404_teru",
+      "reading": "てる",
+      "headword": "{照|て}る",
+      "label": "to shine"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +167,6 @@
       "verb_class": "ichidan"
     },
     "created": "2026-03-26T05:10:38Z",
-    "modified": "2026-03-26T05:10:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

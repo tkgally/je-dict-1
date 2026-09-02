@@ -17,7 +17,9 @@
       "id": "19160_kameikoku_ex1",
       "japanese": "EU{加盟国|かめいこく}は{二十七|にじゅうなな}か{国|こく}ある。",
       "english": "There are 27 EU member states.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19160_kameikoku_ex2",
       "japanese": "{新|あら}たな{加盟国|かめいこく}を{迎|むか}えた。",
       "english": "A new member state was welcomed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "19160_kameikoku_ex3",
       "japanese": "{国連|こくれん}{加盟国|かめいこく}の{代表|だいひょう}が{総会|そうかい}に{集|あつ}まった。",
       "english": "Representatives from UN member states gathered at the general assembly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {加盟|かめい} (joining, affiliation) + {国|こく} (country). Common collocations: {加盟国|かめいこく}を{増|ふ}やす (to increase member states), {加盟国|かめいこく}の{義務|ぎむ} (obligations of member states). Often preceded by the organization name: {国連|こくれん}{加盟国|かめいこく} (UN member state), EU{加盟国|かめいこく} (EU member state), NATO{加盟国|かめいこく} (NATO member state). Compare with {加盟|かめい}する (to join/become a member).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22005_doumeikoku",
+      "reading": "どうめいこく",
+      "headword": "{同盟国|どうめいこく}",
+      "label": "allied nation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29440_kameidantai",
+      "reading": "かめいだんたい",
+      "headword": "{加盟団体|かめいだんたい}",
+      "label": "member organization"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     },
     "created": "2026-03-24T11:25:35Z",
-    "modified": "2026-03-24T11:25:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -4,7 +4,7 @@
   "headword": "{卓絶|たくぜつ}",
   "reading": "たくぜつ",
   "romaji": "takuzetsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb, na-adjective",
   "gloss": "transcendent; preeminent; outstanding beyond compare",
   "definitions": [
     {
@@ -56,10 +56,32 @@
     }
   ],
   "notes": "{卓|たく} (eminent, table-top, above) + {絶|ぜつ} (extreme, sever). Implies being elevated far above everything else, with nothing comparable. A literary and formal word.\n\nCOMMON COLLOCATIONS:\n- {卓絶|たくぜつ}した{技術|ぎじゅつ}: transcendent skill\n- {卓絶|たくぜつ}した{才能|さいのう}: unparalleled talent\n- {古今|ここん}{卓絶|たくぜつ}: unmatched throughout history\n- {群|ぐん}を{抜|ぬ}いて{卓絶|たくぜつ}する: stand out from the crowd and excel beyond compare\n\nSIMILAR WORDS:\n- {卓越|たくえつ}: excellence, superiority — very close in meaning but more commonly used; {卓絶|たくぜつ} is stronger, implying absolute supremacy\n- {傑出|けっしゅつ}: outstanding — emphasizes standing out from a group\n- {抜群|ばつぐん}: outstanding, extraordinary — more commonly used in everyday speech\n\nUSAGE:\nA formal, literary word typically found in critical essays, historical writing, and formal praise. Rarely used in casual conversation. Most often appears in the form {卓絶|たくぜつ}した + noun.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07990_takuetsu",
+      "reading": "たくえつ",
+      "headword": "{卓越|たくえつ}",
+      "label": "excellence, superiority"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08004_kesshutsu",
+      "reading": "けっしゅつ",
+      "headword": "{傑出|けっしゅつ}",
+      "label": "outstanding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12783_batsugun",
+      "reading": "ばつぐん",
+      "headword": "{抜群|ばつぐん}",
+      "label": "outstanding, extraordinary"
+    }
+  ],
   "metadata": {
     "created": "2026-04-18T09:15:08Z",
-    "modified": "2026-08-02T18:32:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -67,6 +89,7 @@
         "verb-suru",
         "adjective-na"
       ],
+      "politeness": "plain",
       "semantic": [
         "evaluation",
         "quantity"

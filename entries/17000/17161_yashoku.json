@@ -19,7 +19,9 @@
       "english": "I ate ramen as a late-night snack.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17161_yashoku_ex2",
@@ -27,7 +29,9 @@
       "english": "I ate a midnight snack every night before exams.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17161_yashoku_ex3",
@@ -35,21 +39,35 @@
       "english": "I'm being careful because eating late-night snacks all the time makes you gain weight.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nRefers specifically to food eaten late at night, not simply a late dinner. Common among students studying for exams and people working late. Often associated with simple, quick foods like instant ramen or rice balls.\n\nCOMMON COLLOCATIONS:\n- {夜食|やしょく}を{食|た}べる (to eat a late-night snack)\n- {夜食|やしょく}に〜を{作|つく}る (to make ~ as a midnight snack)\n- {夜食|やしょく}{代|だい}わり (as a substitute for a midnight snack)\n\nSIMILAR WORDS:\n- {夜|よ}ごはん: dinner, evening meal — the main evening meal, not a late-night snack\n- おやつ: snack — a daytime snack, not specifically late at night",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17921_oyatsu",
+      "reading": "おやつ",
+      "headword": "おやつ",
+      "label": "snack"
+    }
+  ],
   "metadata": {
     "created": "2026-03-16T05:38:57Z",
-    "modified": "2026-03-16T05:38:57Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

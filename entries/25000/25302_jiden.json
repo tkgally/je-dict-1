@@ -46,12 +46,29 @@
   ],
   "notes": "A written account of one's own life. Composed of {自|じ} (self) and {伝|でん} (biography). Unlike a memoir, which may focus on select episodes, a {自伝|じでん} typically covers the author's entire life chronologically.\n\nCOMMON COLLOCATIONS:\n- {自伝|じでん}を{書|か}く: write an autobiography\n- {自伝|じでん}を{出版|しゅっぱん}する: publish an autobiography\n- {自伝|じでん}{的|てき}{小説|しょうせつ}: autobiographical novel\n\nSIMILAR WORDS:\n- {伝記|でんき}: biography — written by someone else about the subject\n- {回顧録|かいころく}: memoir — may cover only part of one's life\n- {評伝|ひょうでん}: critical biography — includes evaluation and analysis",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04069_denki",
+      "reading": "でんき",
+      "headword": "{伝記|でんき}",
+      "label": "biography"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25611_hyouden",
+      "reading": "ひょうでん",
+      "headword": "{評伝|ひょうでん}",
+      "label": "critical biography"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "culture"
       ],
@@ -60,6 +77,6 @@
       ]
     },
     "created": "2026-04-24T14:19:56Z",
-    "modified": "2026-04-24T14:19:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

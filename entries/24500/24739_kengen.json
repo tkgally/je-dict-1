@@ -3,7 +3,7 @@
   "headword": "{献言|けんげん}",
   "reading": "けんげん",
   "romaji": "kengen",
-  "part_of_speech": "noun; verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "offering advice; counsel; recommendation to a superior",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Composed of {献|けん} (to offer humbly) + {言|げん} (words). The {献|けん} character implies respectful offering (as in {献上|けんじょう}, to present to a superior), making this word inherently hierarchical — you {献言|けんげん} upward, not downward.\n\nCOMMON COLLOCATIONS:\n- {献言|けんげん}する: to offer advice (to a superior)\n- {献言|けんげん}を{受|う}ける: to receive counsel\n- {献言|けんげん}に{従|したが}う: to follow the advice offered\n\nSIMILAR WORDS:\n- {進言|しんげん}: to advise a superior — very close synonym; slightly more assertive\n- {助言|じょげん}: advice — neutral term without hierarchical implication\n- {諫言|かんげん}: remonstrance — corrective advice to a superior, implying they are wrong",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14512_shingen",
+      "reading": "しんげん",
+      "headword": "{進言|しんげん}",
+      "label": "to advise a superior"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05461_jogen",
+      "reading": "じょげん",
+      "headword": "{助言|じょげん}",
+      "label": "advice"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +81,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-20T13:19:21Z",
-    "modified": "2026-04-20T13:19:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

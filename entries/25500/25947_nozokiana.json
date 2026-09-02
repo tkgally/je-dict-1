@@ -17,7 +17,9 @@
       "id": "25947_nozokiana_ex1",
       "japanese": "ドアの{覗|のぞ}き{穴|あな}から{外|そと}を{確認|かくにん}した。",
       "english": "I checked outside through the peephole in the door.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25947_nozokiana_ex2",
       "japanese": "マンションの{玄関|げんかん}ドアには{覗|のぞ}き{穴|あな}がついている。",
       "english": "Apartment entrance doors come with a peephole.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,37 @@
       "id": "25947_nozokiana_ex3",
       "japanese": "{塀|へい}の{覗|のぞ}き{穴|あな}から{隣|となり}の{庭|にわ}が{見|み}えた。",
       "english": "I could see the neighbor's garden through a peephole in the fence.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {覗|のぞ}き (peeking) and {穴|あな} (hole). Most commonly refers to the security peephole in apartment and house doors, which is a standard feature in Japanese housing. Can also refer to any small hole used for looking through.\n\nCOMMON COLLOCATIONS:\n- ドアの{覗|のぞ}き{穴|あな}: door peephole\n- {覗|のぞ}き{穴|あな}から{見|み}る: to look through a peephole\n- {覗|のぞ}き{穴|あな}から{確認|かくにん}する: to check through a peephole\n\nSIMILAR WORDS:\n- {覗|のぞ}く: to peek; to peep — the verb meaning to look through a small opening\n- ドアスコープ: door scope — the loanword term for the same door peephole device\n- {穴|あな}: hole — the generic term for any opening",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02388_nozoku",
+      "reading": "のぞく",
+      "headword": "{覗|のぞ}く",
+      "label": "to peek"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["building"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "building"
+      ]
     },
     "created": "2026-04-28T13:33:28Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

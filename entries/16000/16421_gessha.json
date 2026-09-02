@@ -19,7 +19,9 @@
       "english": "The monthly fee for piano lessons is ten thousand yen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16421_gessha_ex2",
@@ -27,7 +29,9 @@
       "english": "I forgot to pay the monthly tuition.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16421_gessha_ex3",
@@ -35,21 +39,35 @@
       "english": "The monthly fees for our children's lessons are straining the household budget.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{月謝|げっしゃ} specifically refers to fees paid monthly for ongoing instruction. It is not used for one-time payments or university tuition ({学費|がくひ} or {授業料|じゅぎょうりょう}).\n\nCOMMON COLLOCATIONS:\n- {月謝|げっしゃ}を{払|はら}う (to pay the monthly fee)\n- {月謝|げっしゃ}を{納|おさ}める (to submit the monthly fee — more formal)\n- {月謝|げっしゃ}が{高|たか}い (the monthly fee is expensive)\n- {月謝|げっしゃ}{袋|ぶくろ} (envelope for monthly fees)\n\nWORD FORMATION:\n{月|げつ} (month) + {謝|しゃ} (gratitude/remuneration). The {謝|しゃ} carries the sense of payment in appreciation for instruction.",
-  "cross_references": [],
+  "notes": "USAGE:\n{月謝|げっしゃ} specifically refers to fees paid monthly for ongoing instruction. It is not used for one-time payments or university tuition ({学費|がくひ} or {授業料|じゅぎょうりょう}).\n\nCOMMON COLLOCATIONS:\n- {月謝|げっしゃ}を{払|はら}う (to pay the monthly fee)\n- {月謝|げっしゃ}を{納|おさ}める (to submit the monthly fee — more formal)\n- {月謝|げっしゃ}が{高|たか}い (the monthly fee is expensive)\n- {月謝|げっしゃ}{袋|ぶくろ} (envelope for monthly fees)\n\nFORMS:\n{月|げつ} (month) + {謝|しゃ} (gratitude/remuneration). The {謝|しゃ} carries the sense of payment in appreciation for instruction.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14967_jugyouryou",
+      "reading": "じゅぎょうりょう",
+      "headword": "{授業料|じゅぎょうりょう}",
+      "label": "tuition fee"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T09:02:23Z",
-    "modified": "2026-03-12T09:02:23Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

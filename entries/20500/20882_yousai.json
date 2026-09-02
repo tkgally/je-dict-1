@@ -19,7 +19,9 @@
       "english": "Leafy vegetables are rich in nutrients.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20882_yousai_ex2",
@@ -27,7 +29,9 @@
       "english": "I eat leafy vegetables like spinach and lettuce every day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20882_yousai_ex3",
@@ -35,21 +39,57 @@
       "english": "Leafy vegetables lose their freshness quickly, so it's better to use them up early.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A classification term used in cooking, agriculture, and grocery contexts. Also written as {葉菜類|ようさいるい} (leafy vegetable category) as a formal classification. In everyday conversation, {葉物|はもの}{野菜|やさい} or {葉物|はもの} is more commonly used.\n\nNote: This is a homophone of {洋裁|ようさい} (Western-style dressmaking) and {要塞|ようさい} (fortress).\n\nEXAMPLES OF {葉菜|ようさい}:\n- ほうれん{草|そう}: spinach\n- {小松菜|こまつな}: komatsuna\n- レタス: lettuce\n- キャベツ: cabbage\n- {白菜|はくさい}: Chinese cabbage\n- {水菜|みずな}: mizuna\n\nRELATED VEGETABLE CATEGORIES:\n- {根菜|こんさい}: root vegetables (carrots, radishes, etc.)\n- {果菜|かさい}: fruit vegetables (tomatoes, eggplants, etc.)\n- {豆類|まめるい}: legumes",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13142_konsai",
+      "reading": "こんさい",
+      "headword": "{根菜|こんさい}",
+      "label": "root vegetables"
+    },
+    {
+      "type": "related",
+      "target_id": "23482_kasai",
+      "reading": "かさい",
+      "headword": "{果菜|かさい}",
+      "label": "fruit vegetables"
+    },
+    {
+      "type": "related",
+      "target_id": "19500_mamerui",
+      "reading": "まめるい",
+      "headword": "{豆類|まめるい}",
+      "label": "legumes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23483_nappa",
+      "reading": "なっぱ",
+      "headword": "{菜|な}っ{葉|ぱ}",
+      "label": "leafy greens"
+    }
+  ],
   "metadata": {
     "created": "2026-03-30T19:13:09Z",
-    "modified": "2026-03-30T19:13:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "nature"]
+      "semantic": [
+        "food",
+        "nature"
+      ]
     }
   }
 }

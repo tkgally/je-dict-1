@@ -46,6 +46,22 @@
   ],
   "notes": "Compound of {白|しろ} (white) + {味噌|みそ} (miso). Contrasts with {赤味噌|あかみそ} (red miso) and {合|あ}わせ{味噌|みそ} (mixed miso).\n\nCOMMON COLLOCATIONS:\n- {白味噌|しろみそ}{仕立|じた}て: prepared with white miso (esp. of soup)\n- {白味噌|しろみそ}の{味噌汁|みそしる}: miso soup with white miso\n- {京|きょう}{白味噌|しろみそ}: Kyoto white miso\n- {白味噌|しろみそ}{雑煮|ぞうに}: white-miso ozoni (New Year's soup)\n\nSIMILAR WORDS:\n- {赤味噌|あかみそ}: red miso — darker, saltier, longer fermentation\n- {合|あ}わせ{味噌|みそ}: blended miso — mix of white and red\n- {麦|むぎ}{味噌|みそ}: barley miso — common in Kyushu",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28918_akamiso",
+      "reading": "あかみそ",
+      "headword": "{赤味噌|あかみそ}",
+      "label": "red miso"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28934_awasemiso",
+      "reading": "あわせみそ",
+      "headword": "{合|あ}わせ{味噌|みそ}",
+      "label": "blended miso"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food"
       ],
       "domain": []
     },
     "created": "2026-06-07T03:04:58Z",
-    "modified": "2026-08-09T06:33:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{新入生|しんにゅうせい} combines ⟦{新入|しんにゅう}→新入：11503_shinnyuu⟧ (new entry) + {生|せい} (student).\n\nRELATED TERMS:\n- ⟦{在校生|ざいこうせい}→在校生：17792_zaikousei⟧ (current student)\n- ⟦{卒業生|そつぎょうせい}→卒業生：15284_sotsugyousei⟧ (graduate)\n- ⟦{先輩|せんぱい}→先輩：01451_senpai⟧ (senior student)\n- ⟦{後輩|こうはい}→後輩：02501_kouhai⟧ (junior student)\n\nCOMMON PATTERNS:\n- {新入生|しんにゅうせい}⟦{歓迎会|かんげいかい}→歓迎会：15791_kangeikai⟧ (freshman welcome party)\n- {新入生|しんにゅうせい}オリエンテーション (freshman orientation)\n\nSIMILAR WORDS:\n- {新入生|しんにゅうせい}: new student (school context)\n- ⟦{新入|しんにゅう}→新入：11503_shinnyuu⟧⟦{社員|しゃいん}→社員：03065_shain⟧: new employee (company context)\n- {一|いち}{年生|ねんせい}: first-year student\n\nUSAGE NOTES:\n- Used for students at all levels: elementary through university\n- {新入生|しんにゅうせい} is particularly emphasized during April, the start of the Japanese school year",
+  "notes": "{新入生|しんにゅうせい} combines ⟦{新入|しんにゅう}→新入：11503_shinnyuu⟧ (new entry) + {生|せい} (student).\n\nRELATED WORDS:\n- ⟦{在校生|ざいこうせい}→在校生：17792_zaikousei⟧ (current student)\n- ⟦{卒業生|そつぎょうせい}→卒業生：15284_sotsugyousei⟧ (graduate)\n- ⟦{先輩|せんぱい}→先輩：01451_senpai⟧ (senior student)\n- ⟦{後輩|こうはい}→後輩：02501_kouhai⟧ (junior student)\n\nCOMMON PATTERNS:\n- {新入生|しんにゅうせい}⟦{歓迎会|かんげいかい}→歓迎会：15791_kangeikai⟧ (freshman welcome party)\n- {新入生|しんにゅうせい}オリエンテーション (freshman orientation)\n\nSIMILAR WORDS:\n- {新入生|しんにゅうせい}: new student (school context)\n- ⟦{新入|しんにゅう}→新入：11503_shinnyuu⟧⟦{社員|しゃいん}→社員：03065_shain⟧: new employee (company context)\n- {一|いち}{年生|ねんせい}: first-year student\n\nUSAGE:\n- Used for students at all levels: elementary through university\n- {新入生|しんにゅうせい} is particularly emphasized during April, the start of the Japanese school year",
   "cross_references": [
     {
       "type": "related",
@@ -78,11 +78,46 @@
       "headword": "{後輩|こうはい}",
       "label": "junior",
       "target_id": "02501_kouhai"
+    },
+    {
+      "type": "related",
+      "target_id": "17792_zaikousei",
+      "reading": "ざいこうせい",
+      "headword": "{在校生|ざいこうせい}",
+      "label": "current student"
+    },
+    {
+      "type": "related",
+      "target_id": "15284_sotsugyousei",
+      "reading": "そつぎょうせい",
+      "headword": "{卒業生|そつぎょうせい}",
+      "label": "graduate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15536_shinnyuushain",
+      "reading": "しんにゅうしゃいん",
+      "headword": "{新入社員|しんにゅうしゃいん}",
+      "label": "new employee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27559_ichinensei",
+      "reading": "いちねんせい",
+      "headword": "{一年生|いちねんせい}",
+      "label": "first-year student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25697_shiniri",
+      "reading": "しんいり",
+      "headword": "{新入|しんい}り",
+      "label": "newcomer"
     }
   ],
   "metadata": {
     "created": "2026-01-11T11:15:00Z",
-    "modified": "2026-05-23T18:11:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

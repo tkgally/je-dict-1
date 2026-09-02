@@ -46,6 +46,22 @@
   ],
   "notes": "{仮|かり} (temporary, provisional) + {払|はら}い (payment) + {金|きん} (money). The {仮|かり} element marks the payment as provisional: the amount is corrected later when the real expense is known.\n\nCOMMON COLLOCATIONS:\n- {仮払金|かりばらいきん}を{申請|しんせい}する: to apply for an advance\n- {仮払金|かりばらいきん}を{精算|せいさん}する: to settle an advance\n- {仮払金|かりばらいきん}の{残高|ざんだか}: outstanding advance balance\n\nSIMILAR WORDS:\n- {前払金|まえばらいきん}: prepayment — paid in advance for a fixed, agreed amount, not provisional\n- {立替金|たてかえきん}: money paid on someone's behalf — the payer expects reimbursement afterward",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30222_maebaraikin",
+      "reading": "まえばらいきん",
+      "headword": "{前払金|まえばらいきん}",
+      "label": "prepayment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23618_tatekaekin",
+      "reading": "たてかえきん",
+      "headword": "{立替金|たてかえきん}",
+      "label": "money paid on someone's behalf"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "money",
         "finance"
@@ -63,6 +79,6 @@
       ]
     },
     "created": "2026-07-30T12:18:26Z",
-    "modified": "2026-07-30T12:18:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

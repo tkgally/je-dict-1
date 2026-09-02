@@ -3,7 +3,7 @@
   "headword": "ぬぐい{去|さ}る",
   "reading": "ぬぐいさる",
   "romaji": "nuguisaru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to wipe away; to dispel (doubts, fears, an impression); to remove completely",
   "definitions": [
     {
@@ -81,6 +81,29 @@
   ],
   "notes": "A compound verb formed from ぬぐう ('to wipe') + {去|さ}る ('to leave, to go away'). The {去|さ}る element acts as an intensifier and adds the nuance 'completely, leaving nothing behind'. The same pattern appears in other compound verbs such as {消|け}し{去|さ}る ('to erase completely') and {忘|わす}れ{去|さ}る ('to forget completely').\n\nTRANSITIVITY:\nTransitive (godan-ru verb). The thing wiped away is marked with を: AがBをぬぐい{去|さ}る ('A wipes B away').\n\nUSAGE:\nThe figurative sense (dispelling an emotion, doubt, or impression) is far more common in writing and formal speech than the literal sense. In everyday spoken Japanese, simple ぬぐう or {拭|ふ}く is preferred for actually wiping a surface.\n\nThe verb is particularly common in negative contexts: 〜をぬぐい{去|さ}ることができない ('cannot be dispelled'), 〜は{完全|かんぜん}にはぬぐい{去|さ}れない ('cannot be completely dispelled'). This use highlights an emotion or impression that lingers despite efforts to remove it.\n\nCOMMON COLLOCATIONS:\n- {涙|なみだ}をぬぐい{去|さ}る: to wipe away one's tears\n- {汗|あせ}をぬぐい{去|さ}る: to wipe away sweat\n- {不安|ふあん}をぬぐい{去|さ}る: to dispel anxiety\n- {疑|うたが}いをぬぐい{去|さ}る: to dispel doubts\n- {印象|いんしょう}をぬぐい{去|さ}る: to remove an impression (e.g. a bad first impression)\n- {汚名|おめい}をぬぐい{去|さ}る: to clear one's name; to remove a stain on one's reputation\n- {過去|かこ}をぬぐい{去|さ}る: to erase the past\n- {悲|かな}しみをぬぐい{去|さ}る: to dispel sadness\n- {不信感|ふしんかん}をぬぐい{去|さ}る: to dispel feelings of distrust\n\nSIMILAR WORDS:\n- ぬぐう: to wipe — the simple base verb; refers just to the physical action of wiping, without the 'completely gone' nuance.\n- {拭|ふ}く: to wipe — the most common everyday verb for wiping; written ふく.\n- {消|け}し{去|さ}る: to erase, to wipe out completely — close in nuance, but emphasizes erasing rather than wiping; often used for memories, evidence, or the past.\n- {払|はら}い{去|さ}る: to brush away, to dispel — used for lighter, brushing motions and similarly figurative for clearing away worry or fear.\n- {取|と}り{除|のぞ}く: to remove, to take away — neutral; the most general word for removing something.\n\nREGISTER:\nFormal to slightly literary. Common in news commentary, essays, novels, and political speech. In casual conversation, simpler verbs ({拭|ふ}く, ぬぐう, {消|き}える) are preferred.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07621_nuguu",
+      "reading": "ぬぐう",
+      "headword": "{拭|ぬぐ}う",
+      "label": "to wipe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04261_fuku",
+      "reading": "ふく",
+      "headword": "{拭|ふ}く",
+      "label": "to wipe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04222_torinozoku",
+      "reading": "とりのぞく",
+      "headword": "{取|と}り{除|のぞ}く",
+      "label": "to remove, to take away"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -101,7 +124,7 @@
       ]
     },
     "created": "2026-04-12T01:47:50Z",
-    "modified": "2026-04-12T01:47:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

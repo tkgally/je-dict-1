@@ -19,7 +19,9 @@
       "english": "My brother's wife is good at cooking.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21179_aniyome_ex2",
@@ -27,7 +29,9 @@
       "english": "I went shopping with my sister-in-law.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21179_aniyome_ex3",
@@ -35,21 +39,42 @@
       "english": "My brother's wife came to visit with the children.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{兄|あに} means 'older brother,' and {嫁|よめ} means 'bride' or 'wife.' Together, {兄嫁|あによめ} specifically refers to the wife of one's older brother. Japanese kinship vocabulary is more precise than English, distinguishing family relationships by birth order and side of the family.\n\nCOMMON COLLOCATIONS:\n- {兄嫁|あによめ}と{仲|なか}が{良|よ}い (to get along well with one's sister-in-law)\n- {兄嫁|あによめ}の{実家|じっか} (sister-in-law's parents' home)\n\nRELATED KINSHIP TERMS:\n- {義姉|ぎし} — sister-in-law (formal; older brother's wife or husband's/wife's older sister)\n- {弟嫁|おとうとよめ} — younger brother's wife\n- {嫁|よめ} — wife, bride, daughter-in-law\n- {姉|あね} — older sister (blood relation)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17835_gishi",
+      "reading": "ぎし",
+      "headword": "{義姉|ぎし}",
+      "label": "sister-in-law (formal"
+    },
+    {
+      "type": "related",
+      "target_id": "00571_ane",
+      "reading": "あね",
+      "headword": "{姉|あね}",
+      "label": "older sister"
+    }
+  ],
   "metadata": {
     "created": "2026-03-31T22:17:16Z",
-    "modified": "2026-03-31T22:17:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["family"]
+      "semantic": [
+        "family"
+      ]
     }
   }
 }

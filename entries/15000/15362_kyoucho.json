@@ -19,7 +19,9 @@
       "english": "This book was co-authored by two people.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15362_kyoucho_ex2",
@@ -27,7 +29,9 @@
       "english": "I published a paper co-authored with Professor Tanaka.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15362_kyoucho_ex3",
@@ -35,21 +39,37 @@
       "english": "His list of publications includes five sole-authored works and three co-authored ones.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE: {共著|きょうちょ} is standard in academic and publishing contexts. In bibliographic references, it often appears after the authors' names, e.g., 「{田中|たなか}・{山田|やまだ}{共著|きょうちょ}」.\n\nCOMMON COLLOCATIONS:\n- {共著|きょうちょ}で{書|か}く: to co-author\n- {共著|きょうちょ}{者|しゃ}: co-author\n- ～との{共著|きょうちょ}: co-authored with ~\n\nSIMILAR WORDS:\n- {共著|きょうちょ}: co-authored work (two or more authors)\n- {単著|たんちょ}: sole-authored work\n- {編著|へんちょ}: edited and authored work\n- {著書|ちょしょ}: authored book (general term)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14083_chosho",
+      "reading": "ちょしょ",
+      "headword": "{著書|ちょしょ}",
+      "label": "authored book"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T11:48:27Z",
-    "modified": "2026-03-06T11:48:27Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["education"],
-      "domain": ["academic"]
+      "semantic": [
+        "education"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

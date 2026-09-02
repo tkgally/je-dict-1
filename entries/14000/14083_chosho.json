@@ -19,7 +19,9 @@
       "english": "I read the professor's book.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14083_chosho_ex2",
@@ -27,7 +29,9 @@
       "english": "She has numerous published works, which have been translated overseas as well.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14083_chosho_ex3",
@@ -35,7 +39,9 @@
       "english": "This scholar's books are widely read not only by specialists but also by general readers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal term used when referring to someone's published written works, particularly in academic, literary, or biographical contexts. Common on CVs, author profiles, and in introductions. Unlike {本|ほん} (book), which is neutral, {著書|ちょしょ} specifically highlights the authorship.\n\nSIMILAR WORDS:\n- {本|ほん}: book (general, neutral)\n- {書籍|しょせき}: books, publications (formal, collective)\n- {著作|ちょさく}: literary works, writings (broader than {著書|ちょしょ}, includes non-book works)\n\nCOMMON COLLOCATIONS:\n- {著書|ちょしょ}が{多|おお}い: to have many published works\n- {著書|ちょしょ}に「…」がある: among one's works is \"...\"\n- {主|おも}な{著書|ちょしょ}: major publications",
@@ -46,19 +52,53 @@
       "reading": "しょせき",
       "headword": "{書籍|しょせき}",
       "label": "books, publications (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00111_hon",
+      "reading": "ほん",
+      "headword": "{本|ほん}",
+      "label": "book"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18234_chosaku",
+      "reading": "ちょさく",
+      "headword": "{著作|ちょさく}",
+      "label": "literary works, writings"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15362_kyoucho",
+      "reading": "きょうちょ",
+      "headword": "{共著|きょうちょ}",
+      "label": "co-authorship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23469_jicho",
+      "reading": "じちょ",
+      "headword": "{自著|じちょ}",
+      "label": "one's own book"
     }
   ],
   "metadata": {
     "created": "2026-02-27T23:14:11Z",
-    "modified": "2026-04-29T10:23:05Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

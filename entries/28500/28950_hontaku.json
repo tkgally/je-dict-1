@@ -17,7 +17,9 @@
       "id": "28950_hontaku_ex1",
       "japanese": "{本宅|ほんたく}は{東京|とうきょう}にある。",
       "english": "My main residence is in Tokyo.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28950_hontaku_ex2",
       "japanese": "{平日|へいじつ}は{本宅|ほんたく}で{過|す}ごし、{週末|しゅうまつ}は{別荘|べっそう}に{行|い}く。",
       "english": "I spend weekdays at my main residence and go to my vacation home on weekends.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "28950_hontaku_ex3",
       "japanese": "{書類|しょるい}には{本宅|ほんたく}の{住所|じゅうしょ}を{記入|きにゅう}してください。",
       "english": "Please enter the address of your main residence on the form.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {本|ほん} (main; original) + {宅|たく} (residence). A formal, somewhat dated term — in everyday speech, {自宅|じたく} or simply {家|いえ} are more common. {本宅|ほんたく} is typically used when contrasting with another dwelling.\n\nCOMMON COLLOCATIONS:\n- {本宅|ほんたく}の{住所|じゅうしょ}: address of one's main residence\n- {本宅|ほんたく}{勤務|きんむ}: working from one's main residence\n\nSIMILAR WORDS:\n- {自宅|じたく}: one's home — everyday word, no contrast implied\n- {別宅|べったく}: second home; separate residence\n- {別荘|べっそう}: vacation home; villa",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00129_jitaku",
+      "reading": "じたく",
+      "headword": "{自宅|じたく}",
+      "label": "one's home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25808_bettaku",
+      "reading": "べったく",
+      "headword": "{別宅|べったく}",
+      "label": "second home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11786_bessou",
+      "reading": "べっそう",
+      "headword": "{別荘|べっそう}",
+      "label": "vacation home"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["building"],
+      "semantic": [
+        "building"
+      ],
       "domain": []
     },
     "created": "2026-06-07T04:11:17Z",
-    "modified": "2026-06-07T04:11:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

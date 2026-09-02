@@ -3,7 +3,7 @@
   "headword": "{中等|ちゅうとう}",
   "reading": "ちゅうとう",
   "romaji": "chuutou",
-  "part_of_speech": "noun, adjective (の)",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "middle-level; secondary; intermediate",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "22279_chuutou_ex1",
       "japanese": "{中等|ちゅうとう}{教育|きょういく}を{受|う}ける。",
       "english": "To receive secondary education.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22279_chuutou_ex2",
       "japanese": "{中等|ちゅうとう}{教育|きょういく}{学校|がっこう}に{通|かよ}っている。",
       "english": "I attend a secondary education school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,38 @@
       "id": "22279_chuutou_ex3",
       "japanese": "{日本|にほん}の{中等|ちゅうとう}{教育|きょういく}は{中学校|ちゅうがっこう}と{高等学校|こうとうがっこう}から{成|な}る。",
       "english": "Secondary education in Japan consists of junior high school and high school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Most commonly used as a prefix in educational terminology. {中等|ちゅうとう} sits between {初等|しょとう} (elementary/primary) and {高等|こうとう} (higher/advanced).\n\nEDUCATION LEVELS:\n- {初等|しょとう}{教育|きょういく}: primary/elementary education\n- {中等|ちゅうとう}{教育|きょういく}: secondary education (junior high + high school)\n- {高等|こうとう}{教育|きょういく}: higher education (university and above)\n\nCOMMON COMPOUNDS:\n- {中等|ちゅうとう}{教育|きょういく}: secondary education\n- {中等|ちゅうとう}{教育|きょういく}{学校|がっこう}: secondary school (combined junior/senior high)\n- {中等|ちゅうとう}{部|ぶ}: middle division\n\nFORMATION:\n{中|ちゅう} (middle) + {等|とう} (grade, rank)",
+  "notes": "Most commonly used as a prefix in educational terminology. {中等|ちゅうとう} sits between {初等|しょとう} (elementary/primary) and {高等|こうとう} (higher/advanced).\n\nEDUCATION LEVELS:\n- {初等|しょとう}{教育|きょういく}: primary/elementary education\n- {中等|ちゅうとう}{教育|きょういく}: secondary education (junior high + high school)\n- {高等|こうとう}{教育|きょういく}: higher education (university and above)\n\nCOMPOUNDS:\n- {中等|ちゅうとう}{教育|きょういく}: secondary education\n- {中等|ちゅうとう}{教育|きょういく}{学校|がっこう}: secondary school (combined junior/senior high)\n- {中等|ちゅうとう}{部|ぶ}: middle division\n\nFORMS:\n{中|ちゅう} (middle) + {等|とう} (grade, rank)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04184_koutou",
+      "reading": "こうとう",
+      "headword": "{高等|こうとう}",
+      "label": "high-level, advanced, higher"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-04-05T16:36:12Z",
-    "modified": "2026-04-05T16:36:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

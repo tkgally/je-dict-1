@@ -3,7 +3,7 @@
   "headword": "{近日中|きんじつちゅう}",
   "reading": "きんじつちゅう",
   "romaji": "kinjitsuchuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, adverb",
   "gloss": "in the near future; within the next few days; shortly",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "25757_kinjitsuchuu_ex1",
       "japanese": "{近日中|きんじつちゅう}にお{知|し}らせします。",
       "english": "We will notify you in the near future.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25757_kinjitsuchuu_ex2",
       "japanese": "{新|あたら}しいウェブサイトが{近日中|きんじつちゅう}に{公開|こうかい}される{予定|よてい}です。",
       "english": "The new website is scheduled to be launched shortly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,51 @@
       "id": "25757_kinjitsuchuu_ex3",
       "japanese": "{修理|しゅうり}が{完了|かんりょう}しましたので、{近日中|きんじつちゅう}にお{届|とど}けいたします。",
       "english": "The repair is complete, so we will deliver it to you within the next few days.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A formal time expression used in business correspondence, announcements, and official communications. Implies a period of roughly a few days to a week, though the exact timeframe is intentionally vague.\n\nCOMMON COLLOCATIONS:\n- {近日中|きんじつちゅう}に{発表|はっぴょう}する: to announce shortly\n- {近日中|きんじつちゅう}に{公開|こうかい}する: to release shortly\n- {近日中|きんじつちゅう}に{連絡|れんらく}する: to contact shortly\n- {近日中|きんじつちゅう}に{届|とど}く: to arrive within a few days\n\nSIMILAR WORDS:\n- {近々|ちかぢか}: soon; before long — slightly more conversational and can cover a longer timeframe\n- {間|ま}もなく: shortly; any moment now — implies something more imminent, often minutes to hours\n- そのうち: eventually; before long — casual and vague about timing\n\nREGISTER:\nPrimarily used in formal and written contexts. In casual speech, {近々|ちかぢか} or もうすぐ are more natural.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00029_chikajika",
+      "reading": "ちかぢか",
+      "headword": "{近々|ちかぢか}",
+      "label": "soon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02491_mamonaku",
+      "reading": "まもなく",
+      "headword": "{間|ま}もなく",
+      "label": "shortly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00380_sonouchi",
+      "reading": "そのうち",
+      "headword": "そのうち",
+      "label": "eventually"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adverb"],
-      "semantic": ["time"]
+      "pos": [
+        "noun",
+        "adverb"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "time"
+      ]
     },
     "created": "2026-04-27T12:14:53Z",
-    "modified": "2026-04-27T12:14:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "29838_genzairyoumei_ex1",
       "japanese": "{原材料名|げんざいりょうめい}を{確認|かくにん}する。",
       "english": "Check the ingredients list.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29838_genzairyoumei_ex2",
       "japanese": "アレルギーがあるので{原材料名|げんざいりょうめい}をよく{読|よ}む。",
       "english": "I have allergies, so I read the ingredients carefully.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "29838_genzairyoumei_ex3",
       "japanese": "{原材料名|げんざいりょうめい}は{使用|しよう}した{量|りょう}の{多|おお}い{順|じゅん}に{書|か}かれている。",
       "english": "Ingredients are listed in order from the largest quantity used.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{原材料|げんざいりょう} (raw materials, ingredients) + {名|めい} (name). The standard label heading under which ingredients are listed by descending weight.\n\nRELATED LABEL TERMS:\n- {賞味期限|しょうみきげん}: best-before date\n- {消費期限|しょうひきげん}: use-by date\n- {添加物|てんかぶつ}: additives",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06076_shoumikigen",
+      "reading": "しょうみきげん",
+      "headword": "{賞味期限|しょうみきげん}",
+      "label": "best-before date"
+    },
+    {
+      "type": "related",
+      "target_id": "06077_shouhikigen",
+      "reading": "しょうひきげん",
+      "headword": "{消費期限|しょうひきげん}",
+      "label": "use-by date"
+    },
+    {
+      "type": "related",
+      "target_id": "06479_tenkabutsu",
+      "reading": "てんかぶつ",
+      "headword": "{添加物|てんかぶつ}",
+      "label": "additives"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-07-14T06:18:33Z",
-    "modified": "2026-07-14T06:18:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

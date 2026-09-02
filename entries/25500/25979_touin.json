@@ -17,7 +17,9 @@
       "id": "25979_touin_ex1",
       "japanese": "{党員|とういん}{数|すう}が{増|ふ}えている。",
       "english": "Party membership is increasing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25979_touin_ex2",
       "japanese": "{彼|かれ}は{二十年|にじゅうねん}{以上|いじょう}{党員|とういん}を{続|つづ}けている。",
       "english": "He has been a party member for over twenty years.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,58 @@
       "id": "25979_touin_ex3",
       "japanese": "{党首|とうしゅ}{選挙|せんきょ}では、すべての{党員|とういん}に{投票権|とうひょうけん}が{与|あた}えられる。",
       "english": "In the party leadership election, all party members are given the right to vote.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {党|とう} (party) and {員|いん} (member). In Japan, becoming a {党員|とういん} typically requires paying annual dues and registering with the party organization. Party members can participate in internal elections such as choosing the party leader ({党首|とうしゅ}{選|せん}).\n\nCOMMON COLLOCATIONS:\n- {党員|とういん}{登録|とうろく}: party member registration\n- {党員|とういん}{資格|しかく}: party membership qualification\n- {一般|いっぱん}{党員|とういん}: rank-and-file member\n- {党員|とういん}{投票|とうひょう}: party member vote\n\nSIMILAR WORDS:\n- {党首|とうしゅ}: party leader — the head of a political party\n- {議員|ぎいん}: legislator; member of parliament — an elected representative, not just a party member\n- {支持者|しじしゃ}: supporter — someone who supports a party without necessarily being a registered member",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17742_toushu",
+      "reading": "とうしゅ",
+      "headword": "{党首|とうしゅ}",
+      "label": "party leader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02660_giin",
+      "reading": "ぎいん",
+      "headword": "{議員|ぎいん}",
+      "label": "legislator"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17852_shijisha",
+      "reading": "しじしゃ",
+      "headword": "{支持者|しじしゃ}",
+      "label": "supporter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23732_danin",
+      "reading": "だんいん",
+      "headword": "{団員|だんいん}",
+      "label": "member (of a group, troupe, or organization)"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["politics"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "politics"
+      ]
     },
     "created": "2026-04-28T14:15:24Z",
-    "modified": "2026-04-28T14:15:24Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

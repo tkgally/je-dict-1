@@ -17,7 +17,9 @@
       "id": "19111_tokuhyou_ex1",
       "japanese": "{得票|とくひょう}{数|すう}が{発表|はっぴょう}された。",
       "english": "The vote count was announced.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19111_tokuhyou_ex2",
       "japanese": "{彼|かれ}は{最|もっと}も{多|おお}くの{得票|とくひょう}を{得|え}た。",
       "english": "He received the most votes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "19111_tokuhyou_ex3",
       "japanese": "{前回|ぜんかい}の{選挙|せんきょ}と{比|くら}べて{得票|とくひょう}{率|りつ}が{大|おお}きく{下|さ}がった。",
       "english": "Compared to the last election, the vote share dropped significantly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{得票|とくひょう} refers to votes received by a candidate or party. The focus is on the receiving side of voting.\n\nWORD FORMATION:\n{得|とく} (to obtain/gain) + {票|ひょう} (vote/ballot)\n\nCOMMON COMPOUNDS:\n- {得票|とくひょう}{数|すう}: number of votes obtained\n- {得票|とくひょう}{率|りつ}: vote share, percentage of votes\n- {得票|とくひょう}{差|さ}: margin of votes\n\nCONTRAST:\n- {投票|とうひょう}: the act of casting a ballot (voter's side)\n- {得票|とくひょう}: votes received (candidate's side)\n\nUsed primarily in election reporting and political contexts. Often appears in news coverage of {選挙|せんきょ} (elections).",
+  "notes": "{得票|とくひょう} refers to votes received by a candidate or party. The focus is on the receiving side of voting.\n\nFORMS:\n{得|とく} (to obtain/gain) + {票|ひょう} (vote/ballot)\n\nCOMPOUNDS:\n- {得票|とくひょう}{数|すう}: number of votes obtained\n- {得票|とくひょう}{率|りつ}: vote share, percentage of votes\n- {得票|とくひょう}{差|さ}: margin of votes\n\nSIMILAR WORDS:\n- {投票|とうひょう}: the act of casting a ballot (voter's side)\n- {得票|とくひょう}: votes received (candidate's side)\n\nUsed primarily in election reporting and political contexts. Often appears in news coverage of {選挙|せんきょ} (elections).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03453_touhyou",
+      "reading": "とうひょう",
+      "headword": "{投票|とうひょう}",
+      "label": "the act of casting a ballot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25137_hyousuu",
+      "reading": "ひょうすう",
+      "headword": "{票数|ひょうすう}",
+      "label": "number of votes"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-03-24T09:58:03Z",
-    "modified": "2026-03-25T12:24:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

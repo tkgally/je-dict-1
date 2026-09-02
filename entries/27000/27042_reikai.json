@@ -17,7 +17,9 @@
       "id": "27042_reikai_ex1",
       "japanese": "{来週|らいしゅう}の{例会|れいかい}は{中止|ちゅうし}です。",
       "english": "Next week's regular meeting is cancelled.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27042_reikai_ex2",
       "japanese": "{毎月|まいつき}{第一|だいいち}{月曜日|げつようび}に{例会|れいかい}を{開|ひら}いている。",
       "english": "We hold regular meetings on the first Monday of every month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "27042_reikai_ex3",
       "japanese": "{町内会|ちょうないかい}の{例会|れいかい}で{夏祭|なつまつ}りの{準備|じゅんび}について{話|はな}し{合|あ}った。",
       "english": "At the neighborhood association's regular meeting, we discussed preparations for the summer festival.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {例|れい} (regular/customary) and {会|かい} (meeting/gathering). Refers specifically to meetings that occur on a set schedule, distinguishing them from one-off or special gatherings.\n\nCOMMON COLLOCATIONS:\n- {例会|れいかい}を{開|ひら}く — to hold a regular meeting\n- {例会|れいかい}に{出席|しゅっせき}する — to attend a regular meeting\n- {月例会|げつれいかい} — monthly meeting\n- {定例会|ていれいかい} — regular/scheduled meeting (more formal synonym)\n\nSIMILAR WORDS:\n- {定例会|ていれいかい} — regular meeting (slightly more formal; often used in government and official contexts)\n- {総会|そうかい} — general meeting (a larger gathering of all members, often annual)\n- {臨時会議|りんじかいぎ} — extraordinary/special meeting (the opposite: a meeting called outside the regular schedule)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13855_soukai",
+      "reading": "そうかい",
+      "headword": "{総会|そうかい}",
+      "label": "general meeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27192_rinjikaigi",
+      "reading": "りんじかいぎ",
+      "headword": "{臨時会議|りんじかいぎ}",
+      "label": "extraordinary/special meeting (the…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     },
     "created": "2026-05-06T15:09:03Z",
-    "modified": "2026-05-06T15:09:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

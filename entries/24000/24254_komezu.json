@@ -17,7 +17,9 @@
       "id": "24254_komezu_ex1",
       "japanese": "{米酢|こめず}で{酢|す}の{物|もの}を{作|つく}る。",
       "english": "Make vinegared dishes with rice vinegar.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24254_komezu_ex2",
       "japanese": "{寿司|すし}には{米酢|こめず}が{欠|か}かせない。",
       "english": "Rice vinegar is indispensable for sushi.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "24254_komezu_ex3",
       "japanese": "{純|じゅん}{米酢|こめず}は{米|こめ}だけを{原料|げんりょう}にして{作|つく}られるので{風味|ふうみ}が{豊|ゆた}かだ。",
       "english": "Pure rice vinegar is made solely from rice, so it has a rich flavor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {米|こめ} ('rice') and {酢|す} ('vinegar'; voiced as ず in compounds). Also sometimes read as よねず. The most traditional and widely used vinegar in Japanese cooking.\n\nTYPES:\n- {純|じゅん}{米酢|こめず}: pure rice vinegar — made from 100% rice; richer flavor\n- {穀物酢|こくもつす}: grain vinegar — made from mixed grains; cheaper and sharper\n- {黒酢|くろず}: black vinegar — aged rice vinegar with a deeper, more complex flavor; popular as a health drink\n\nCOMMON COLLOCATIONS:\n- {米酢|こめず}を{使|つか}う: to use rice vinegar\n- {米酢|こめず}で{味|あじ}をつける: to season with rice vinegar\n- {米酢|こめず}と{砂糖|さとう}と{塩|しお}: rice vinegar, sugar, and salt (the classic sushi rice seasoning trio)\n\nSIMILAR WORDS:\n- {穀物酢|こくもつす}: grain vinegar — made from a blend of grains; a cheaper, more pungent all-purpose vinegar\n- {黒酢|くろず}: black vinegar — a dark, aged rice vinegar with a mellow, rich flavor\n- {酢|す}: vinegar — the general term for all types of vinegar\n- {寿司酢|すしず}: sushi vinegar — pre-mixed seasoned vinegar specifically for sushi rice, containing sugar and salt",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24495_kokumotsusu",
+      "reading": "こくもつす",
+      "headword": "{穀物酢|こくもつす}",
+      "label": "grain vinegar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17574_kurozu",
+      "reading": "くろず",
+      "headword": "{黒酢|くろず}",
+      "label": "black vinegar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24484_sushizu",
+      "reading": "すしず",
+      "headword": "{寿司酢|すしず}",
+      "label": "sushi vinegar"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-18T11:26:15Z",
-    "modified": "2026-04-18T11:26:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

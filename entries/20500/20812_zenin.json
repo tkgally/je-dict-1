@@ -44,7 +44,29 @@
     }
   ],
   "notes": "A formal word composed of {是|ぜ} (right/correct) and {認|にん} (acknowledge). Used in written language, official documents, and academic discourse. Implies deliberate judgment that something is acceptable or correct.\n\nCOMMON COLLOCATIONS:\n- {是認|ぜにん}する: to approve/endorse\n- {是認|ぜにん}できない: unacceptable\n- {暗黙|あんもく}の{是認|ぜにん}: tacit approval\n- {是認|ぜにん}を{得|え}る: to obtain approval\n\nSIMILAR WORDS:\n- {承認|しょうにん}: approval — more common, used for official permission\n- {認可|にんか}: authorization — specifically granting a license or permit\n- {容認|ようにん}: tolerance/acceptance — accepting something even if not ideal",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03237_shounin",
+      "reading": "しょうにん",
+      "headword": "{承認|しょうにん}",
+      "label": "approval"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05879_ninka",
+      "reading": "にんか",
+      "headword": "{認可|にんか}",
+      "label": "authorization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12344_younin",
+      "reading": "ようにん",
+      "headword": "{容認|ようにん}",
+      "label": "tolerance/acceptance"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-30T17:12:50Z",
-    "modified": "2026-03-30T17:12:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {都心|としん} is commonly used to refer to the central area of Tokyo, but can apply to other major cities as well.\n\nTOKYO SPECIFIC:\n- {都心|としん}3⟦{区|く}→区：01997_ku⟧ - Chiyoda, Chuo, Minato (the three central wards)\n- ⟦{副|ふく}→副：03965_fuku⟧{都心|としん} - sub-centers like Shinjuku, Shibuya, Ikebukuro\n\nCOMMON COLLOCATIONS:\n- {都心|としん}⟦の→の：09472_no⟧⟦{地価|ちか}→地価：12130_chika⟧ (city center land prices)\n- {都心|としん}⟦{回帰|かいき}→回帰：12061_kaiki⟧ (return to city center)\n- {都心|としん}⟦{部|ぶ}→部：00440_bu⟧ (central urban area)\n\nCONTRAST:\n- {都心|としん} (city center)\n- ⟦{郊外|こうがい}→郊外：01403_kougai⟧ (suburbs)\n- ⟦{地方|ちほう}→地方：02369_chihou⟧ (rural areas/provinces)",
+  "notes": "USAGE: {都心|としん} is commonly used to refer to the central area of Tokyo, but can apply to other major cities as well.\n\nTOKYO SPECIFIC:\n- {都心|としん}3⟦{区|く}→区：01997_ku⟧ - Chiyoda, Chuo, Minato (the three central wards)\n- ⟦{副|ふく}→副：03965_fuku⟧{都心|としん} - sub-centers like Shinjuku, Shibuya, Ikebukuro\n\nCOMMON COLLOCATIONS:\n- {都心|としん}⟦の→の：09472_no⟧⟦{地価|ちか}→地価：12130_chika⟧ (city center land prices)\n- {都心|としん}⟦{回帰|かいき}→回帰：12061_kaiki⟧ (return to city center)\n- {都心|としん}⟦{部|ぶ}→部：00440_bu⟧ (central urban area)\n\nSIMILAR WORDS:\n- {都心|としん} (city center)\n- ⟦{郊外|こうがい}→郊外：01403_kougai⟧ (suburbs)\n- ⟦{地方|ちほう}→地方：02369_chihou⟧ (rural areas/provinces)",
   "cross_references": [
     {
       "type": "antonym",
@@ -51,11 +51,53 @@
       "headword": "{郊外|こうがい}",
       "label": "suburbs",
       "target_id": "01403_kougai"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02369_chihou",
+      "reading": "ちほう",
+      "headword": "{地方|ちほう}",
+      "label": "rural areas/provinces"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03120_chuushinchi",
+      "reading": "ちゅうしんち",
+      "headword": "{中心地|ちゅうしんち}",
+      "label": "center, central area, hub"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17083_shigaichi",
+      "reading": "しがいち",
+      "headword": "{市街地|しがいち}",
+      "label": "urban area"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21534_chuushingai",
+      "reading": "ちゅうしんがい",
+      "headword": "{中心街|ちゅうしんがい}",
+      "label": "city center"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23665_nijuusanku",
+      "reading": "にじゅうさんく",
+      "headword": "{二十三区|にじゅうさんく}",
+      "label": "the 23 (special) wards of Tokyo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23774_chuushinbu",
+      "reading": "ちゅうしんぶ",
+      "headword": "{中心部|ちゅうしんぶ}",
+      "label": "central part"
     }
   ],
   "metadata": {
     "created": "2026-01-13T11:35:35Z",
-    "modified": "2026-05-29T15:08:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

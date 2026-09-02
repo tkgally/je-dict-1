@@ -19,7 +19,9 @@
       "english": "Fortunately, it was only a property damage accident.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16540_bussonjiko_ex2",
@@ -27,7 +29,9 @@
       "english": "Even for a property damage accident, you should report it to the police.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16540_bussonjiko_ex3",
@@ -35,7 +39,9 @@
       "english": "I caused a property damage accident in the parking lot, but I couldn't find the owner of the other car.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA legal and insurance term frequently encountered in daily life. In Japan, even minor fender benders should be reported to the police for insurance purposes. A {物損事故|ぶっそんじこ} has different legal and insurance implications than a {人身事故|じんしんじこ}.\n\nCOMMON COLLOCATIONS:\n- {物損事故|ぶっそんじこ}を{起|お}こす (to cause a property damage accident)\n- {物損事故|ぶっそんじこ}で{済|す}む (to end up as just property damage)\n- {物損事故|ぶっそんじこ}の{届|とど}け{出|で} (reporting a property damage accident)\n\nSIMILAR WORDS:\n- {人身事故|じんしんじこ}: personal injury accident — an accident involving injuries to people\n- {交通事故|こうつうじこ}: traffic accident — the general term covering all types",
@@ -53,19 +59,39 @@
       "reading": "こうつうじこ",
       "headword": "{交通事故|こうつうじこ}",
       "label": "traffic accident"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24064_tsuitotsujiko",
+      "reading": "ついとつじこ",
+      "headword": "{追突事故|ついとつじこ}",
+      "label": "rear-end collision"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24272_sesshokujiko",
+      "reading": "せっしょくじこ",
+      "headword": "{接触事故|せっしょくじこ}",
+      "label": "minor collision"
     }
   ],
   "metadata": {
     "created": "2026-03-13T06:47:16Z",
-    "modified": "2026-05-04T07:39:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"],
-      "domain": ["legal"]
+      "semantic": [
+        "transportation"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

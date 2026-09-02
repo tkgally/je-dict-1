@@ -17,7 +17,9 @@
       "id": "21753_keizaiseisaku_ex1",
       "japanese": "{政府|せいふ}の{経済政策|けいざいせいさく}が{発表|はっぴょう}された。",
       "english": "The government's economic policy was announced.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21753_keizaiseisaku_ex2",
       "japanese": "{新|あたら}しい{経済政策|けいざいせいさく}に{対|たい}して{賛否|さんぴ}{両論|りょうろん}がある。",
       "english": "There are pros and cons regarding the new economic policy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,12 +37,30 @@
       "id": "21753_keizaiseisaku_ex3",
       "japanese": "{選挙|せんきょ}では{各党|かくとう}の{経済政策|けいざいせいさく}が{最|もっと}も{重要|じゅうよう}な{争点|そうてん}の{一|ひと}つになっている。",
       "english": "In the election, each party's economic policy has become one of the most important issues.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {経済|けいざい} (economy) and {政策|せいさく} (policy). This is a high-frequency term in news, political commentary, and academic discussion. Understanding this compound helps learners parse similar ～{政策|せいさく} compounds.\n\nUSAGE:\n- Often modified by the entity responsible: {政府|せいふ}の{経済政策|けいざいせいさく}, {日本|にほん}の{経済政策|けいざいせいさく}\n- Common verbs: を{打|う}ち{出|だ}す (to put forward), を{実施|じっし}する (to implement), を{批判|ひはん}する (to criticize)\n- Appears constantly in news coverage, especially during elections\n\nCOMMON COLLOCATIONS:\n- {経済政策|けいざいせいさく}を{打|う}ち{出|だ}す: to put forward economic policy\n- {経済政策|けいざいせいさく}を{実施|じっし}する: to implement economic policy\n- {経済政策|けいざいせいさく}の{転換|てんかん}: shift in economic policy\n- {経済政策|けいざいせいさく}{論争|ろんそう}: economic policy debate\n\nSIMILAR WORDS:\n- {財政|ざいせい}{政策|せいさく}: fiscal policy — specifically about government spending and taxation\n- {金融|きんゆう}{政策|せいさく}: monetary policy — specifically about money supply and interest rates\n- {経済|けいざい}{対策|たいさく}: economic measures/countermeasures — more concrete, often responding to a specific crisis",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26281_zaiseiseisaku",
+      "reading": "ざいせいせいさく",
+      "headword": "{財政政策|ざいせいせいさく}",
+      "label": "fiscal policy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18097_kinyuuseisaku",
+      "reading": "きんゆうせいさく",
+      "headword": "{金融|きんゆう}{政策|せいさく}",
+      "label": "monetary policy"
+    }
+  ],
   "metadata": {
     "entry_id": "21753_keizaiseisaku",
     "schema_version": "2.0",
@@ -46,11 +68,18 @@
     "vocabulary_tier": "general",
     "jlpt_level": null,
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["economics", "politics"],
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "economics",
+        "politics"
+      ],
       "register": [],
       "usage": []
     },
-    "modified": "2026-04-03T15:32:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

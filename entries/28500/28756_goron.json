@@ -3,7 +3,7 @@
   "headword": "ごろん",
   "reading": "ごろん",
   "romaji": "goron",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "with a thud; flopping down",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "28756_goron_ex1",
       "japanese": "ごろんと{横|よこ}になった。",
       "english": "I flopped down on my side.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28756_goron_ex2",
       "japanese": "{子|こ}{猫|ねこ}がごろんと{床|ゆか}に{転|ころ}がった。",
       "english": "The kitten rolled over onto the floor with a flop.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,39 @@
       "id": "28756_goron_ex3",
       "japanese": "{疲|つか}れてベッドにごろんと{倒|たお}れ{込|こ}んだ。",
       "english": "Worn out, I flopped down onto the bed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Mimetic adverb for a single, deliberate act of flopping down or rolling onto one's side. Often paired with する or なる, and very commonly with {横|よこ}になる (to lie down on one's side).\n\nCOMMON PATTERNS:\n- ごろんと{横|よこ}になる: to flop down onto one's side\n- ごろんと{寝転|ねころ}がる: to plop down and lie sprawled\n- ごろんと{倒|たお}れる: to topple over with a thud\n\nSIMILAR WORDS:\n- ごろごろ: rolling/rumbling continuously, or lazing about — repeated/ongoing rather than a single action\n- ごろり: nearly identical to ごろん, slightly more literary\n- どさっと: heavy drop with weight — more about the impact than the rolling motion",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05176_gorogoro",
+      "reading": "ごろごろ",
+      "headword": "ごろごろ",
+      "label": "rolling/rumbling continuously…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "onomatopoeia"],
+      "pos": [
+        "adverb",
+        "onomatopoeia"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["descriptive"],
+      "politeness": "plain",
+      "semantic": [
+        "descriptive"
+      ],
       "domain": []
     },
     "created": "2026-06-05T02:07:15Z",
-    "modified": "2026-06-05T02:07:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "I shot it with a wide-angle lens.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17788_koukaku_ex2",
@@ -27,7 +29,9 @@
       "english": "When you shoot wide-angle, the scenery appears broader.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17788_koukaku_ex3",
@@ -35,7 +39,9 @@
       "english": "This smartphone's camera has a wide-angle mode.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {広|こう} (wide, broad) + {角|かく} (angle). Almost exclusively used in photography and optics contexts. Most commonly appears in the compound {広角|こうかく}レンズ (wide-angle lens).\n\nCOMMON COLLOCATIONS:\n- {広角|こうかく}レンズ (wide-angle lens)\n- {広角|こうかく}モード (wide-angle mode)\n- {超|ちょう}{広角|こうかく} (ultra-wide-angle)\n\nSIMILAR WORDS:\n- {望遠|ぼうえん}: telephoto — the opposite end of the focal range, for distant subjects\n- {標準|ひょうじゅん}: standard — a standard focal length, between wide-angle and telephoto",
@@ -46,19 +52,39 @@
       "reading": "ぼうえん",
       "headword": "{望遠|ぼうえん}",
       "label": "telephoto"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04832_hyoujun",
+      "reading": "ひょうじゅん",
+      "headword": "{標準|ひょうじゅん}",
+      "label": "standard"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17789_sessha",
+      "reading": "せっしゃ",
+      "headword": "{接写|せっしゃ}",
+      "label": "close-up photography"
     }
   ],
   "metadata": {
     "created": "2026-03-19T03:57:51Z",
-    "modified": "2026-05-01T08:11:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

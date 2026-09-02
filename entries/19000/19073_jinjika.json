@@ -17,7 +17,9 @@
       "id": "19073_jinjika_ex1",
       "japanese": "{人事課|じんじか}に{書類|しょるい}を{提出|ていしゅつ}する。",
       "english": "To submit documents to the HR department.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19073_jinjika_ex2",
       "japanese": "{異動|いどう}のことは{人事課|じんじか}に{聞|き}いてください。",
       "english": "Please ask the HR department about transfers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,54 @@
       "id": "19073_jinjika_ex3",
       "japanese": "{人事課|じんじか}から{来年度|らいねんど}の{採用|さいよう}{計画|けいかく}について{説明|せつめい}があった。",
       "english": "There was an explanation from the HR department about next year's hiring plan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {人事|じんじ} (personnel affairs) + {課|か} (section/department). The {課|か} suffix indicates a subdivision within a larger department ({部|ぶ}). In larger organizations, {人事課|じんじか} may be part of {人事部|じんじぶ} (human resources division). Related department names: {総務課|そうむか} (general affairs section), {経理課|けいりか} (accounting section), {営業課|えいぎょうか} (sales section). In government offices, {人事課|じんじか} handles civil servant appointments and evaluations.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20638_jinjibu",
+      "reading": "じんじぶ",
+      "headword": "{人事部|じんじぶ}",
+      "label": "personnel department"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22708_keirika",
+      "reading": "けいりか",
+      "headword": "{経理課|けいりか}",
+      "label": "accounting department"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24613_soumuka",
+      "reading": "そうむか",
+      "headword": "{総務課|そうむか}",
+      "label": "general affairs section"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-03-24T04:48:12Z",
-    "modified": "2026-03-24T04:48:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

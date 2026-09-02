@@ -19,7 +19,9 @@
       "english": "To value one's own country's culture.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14013_jikoku_ex2",
@@ -27,7 +29,9 @@
       "english": "Tariffs were raised to protect domestic industry.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14013_jikoku_ex3",
@@ -35,7 +39,9 @@
       "english": "Sometimes it's only after living abroad that you realize the good things about your own country.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of {自|じ} (self) and {国|こく} (country). Formal in register and common in news, political discourse, and academic writing.\n\nCOMMON COLLOCATIONS:\n- {自国|じこく}の{利益|りえき} (one's country's interests)\n- {自国|じこく}の{文化|ぶんか} (one's own culture)\n- {自国|じこく}{民|みん} (citizens of one's own country)\n- {自国|じこく}{通貨|つうか} (domestic currency)\n\nNote the homophone {時刻|じこく} (time, hour), which is a completely different word. In casual speech, {自分|じぶん}の{国|くに} is more natural than {自国|じこく}.",
@@ -47,18 +53,39 @@
       "note": "time, hour"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "28893_takoku",
+      "reading": "たこく",
+      "headword": "{他国|たこく}",
+      "label": "another country"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30255_hongoku",
+      "reading": "ほんごく",
+      "headword": "{本国|ほんごく}",
+      "label": "home country"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T09:14:45Z",
-    "modified": "2026-04-29T10:05:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "style": ["written"]
+      "semantic": [
+        "general"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

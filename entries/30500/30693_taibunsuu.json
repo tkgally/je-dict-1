@@ -45,6 +45,29 @@
   ],
   "notes": "{帯|たい} (to wear, to carry alongside) + {分数|ぶんすう} (fraction): a fraction carrying a whole number with it.\n\nCOMMON COLLOCATIONS:\n- {帯分数|たいぶんすう}に{直|なお}す: to convert into a mixed number\n- {帯分数|たいぶんすう}で{表|あらわ}す: to express as a mixed number\n\nSIMILAR WORDS:\n- {仮分数|かぶんすう}: improper fraction — the same value written with a single numerator and denominator\n- {真分数|しんぶんすう}: proper fraction — the fractional part of a mixed number\n- {整数|せいすう}: whole number, integer — the part written to the left",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30692_kabunsuu",
+      "reading": "かぶんすう",
+      "headword": "{仮分数|かぶんすう}",
+      "label": "improper fraction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30691_shinbunsuu",
+      "reading": "しんぶんすう",
+      "headword": "{真分数|しんぶんすう}",
+      "label": "proper fraction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04328_seisuu",
+      "reading": "せいすう",
+      "headword": "{整数|せいすう}",
+      "label": "whole number, integer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -52,7 +75,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "number",
         "education"
@@ -62,6 +85,6 @@
       ]
     },
     "created": "2026-08-16T06:19:38Z",
-    "modified": "2026-08-16T06:19:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -18,7 +18,9 @@
       "english": "This train has reserved seating.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09701_zasekishitei_ex2",
@@ -26,7 +28,9 @@
       "english": "I bought a reserved seat ticket.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09701_zasekishitei_ex3",
@@ -34,20 +38,50 @@
       "english": "The movie theater has all reserved seating, so it's better to book in advance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{座席指定|ざせきしてい} means reserved seating as opposed to free seating.\n\nCOMMON COLLOCATIONS:\n- {座席指定|ざせきしてい}{券|けん} (reserved seat ticket)\n- {全席|ぜんせき}{座席指定|ざせきしてい} (all seats reserved)\n- {座席指定|ざせきしてい}{料金|りょうきん} (reserved seat fee)\n\nUSAGE NOTES:\n- Common on shinkansen, limited express trains, concerts, movies\n- Opposite of {自由席|じゆうせき} (non-reserved seating)\n\nRELATED TERMS:\n- {指定席|していせき}: reserved seat\n- {自由席|じゆうせき}: non-reserved seat",
+  "notes": "{座席指定|ざせきしてい} means reserved seating as opposed to free seating.\n\nCOMMON COLLOCATIONS:\n- {座席指定|ざせきしてい}{券|けん} (reserved seat ticket)\n- {全席|ぜんせき}{座席指定|ざせきしてい} (all seats reserved)\n- {座席指定|ざせきしてい}{料金|りょうきん} (reserved seat fee)\n\nUSAGE:\n- Common on shinkansen, limited express trains, concerts, movies\n- Opposite of {自由席|じゆうせき} (non-reserved seating)\n\nRELATED WORDS:\n- {指定席|していせき}: reserved seat\n- {自由席|じゆうせき}: non-reserved seat",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07046_shiteiseki",
+      "reading": "していせき",
+      "headword": "{指定席|していせき}",
+      "label": "reserved seat"
+    },
+    {
+      "type": "related",
+      "target_id": "07047_jiyuuseki",
+      "reading": "じゆうせき",
+      "headword": "{自由席|じゆうせき}",
+      "label": "non-reserved seat"
+    },
+    {
+      "type": "related",
+      "target_id": "25863_sekijun",
+      "reading": "せきじゅん",
+      "headword": "{席順|せきじゅん}",
+      "label": "seating order"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T06:51:53Z",
-    "modified": "2026-02-03T06:51:53Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "entertainment"]
+      "semantic": [
+        "transportation",
+        "entertainment"
+      ]
     }
   }
 }

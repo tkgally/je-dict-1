@@ -17,7 +17,9 @@
       "id": "21637_genyu_ex1",
       "japanese": "{原油|げんゆ}{価格|かかく}が{上昇|じょうしょう}した。",
       "english": "Crude oil prices rose.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21637_genyu_ex2",
       "japanese": "{日本|にほん}は{原油|げんゆ}のほとんどを{輸入|ゆにゅう}に{頼|たよ}っている。",
       "english": "Japan relies on imports for most of its crude oil.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,13 +37,59 @@
       "id": "21637_genyu_ex3",
       "japanese": "{中東|ちゅうとう}の{情勢|じょうせい}{不安|ふあん}により、{原油|げんゆ}の{供給|きょうきゅう}が{不安定|ふあんてい}になっている。",
       "english": "Due to instability in the Middle East, the supply of crude oil has become uncertain.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A frequently encountered word in news, economics, and current affairs. {原油|げんゆ} specifically refers to petroleum before refining. After processing, it becomes products like ガソリン (gasoline), {灯油|とうゆ} (kerosene), and {軽油|けいゆ} (diesel).\n\nCOMMON COLLOCATIONS:\n- {原油|げんゆ}{価格|かかく}: crude oil price\n- {原油|げんゆ}{生産|せいさん}: crude oil production\n- {原油|げんゆ}{輸入|ゆにゅう}: crude oil imports\n- {原油|げんゆ}{流出|りゅうしゅつ}: crude oil spill\n- {原油|げんゆ}{埋蔵量|まいぞうりょう}: crude oil reserves\n\nRELATED TERMS:\n- {石油|せきゆ}: petroleum (general term, includes refined products)\n- ガソリン: gasoline\n- {灯油|とうゆ}: kerosene\n- {軽油|けいゆ}: diesel fuel",
+  "notes": "A frequently encountered word in news, economics, and current affairs. {原油|げんゆ} specifically refers to petroleum before refining. After processing, it becomes products like ガソリン (gasoline), {灯油|とうゆ} (kerosene), and {軽油|けいゆ} (diesel).\n\nCOMMON COLLOCATIONS:\n- {原油|げんゆ}{価格|かかく}: crude oil price\n- {原油|げんゆ}{生産|せいさん}: crude oil production\n- {原油|げんゆ}{輸入|ゆにゅう}: crude oil imports\n- {原油|げんゆ}{流出|りゅうしゅつ}: crude oil spill\n- {原油|げんゆ}{埋蔵量|まいぞうりょう}: crude oil reserves\n\nRELATED WORDS:\n- {石油|せきゆ}: petroleum (general term, includes refined products)\n- ガソリン: gasoline\n- {灯油|とうゆ}: kerosene\n- {軽油|けいゆ}: diesel fuel",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01448_sekiyu",
+      "reading": "せきゆ",
+      "headword": "{石油|せきゆ}",
+      "label": "petroleum"
+    },
+    {
+      "type": "related",
+      "target_id": "01346_gasorin",
+      "reading": "がそりん",
+      "headword": "ガソリン",
+      "label": "gasoline"
+    },
+    {
+      "type": "related",
+      "target_id": "04071_touyu",
+      "reading": "とうゆ",
+      "headword": "{灯油|とうゆ}",
+      "label": "kerosene"
+    },
+    {
+      "type": "related",
+      "target_id": "19777_keiyu",
+      "reading": "けいゆ",
+      "headword": "{軽油|けいゆ}",
+      "label": "diesel fuel"
+    },
+    {
+      "type": "related",
+      "target_id": "21768_juuyu",
+      "reading": "じゅうゆ",
+      "headword": "{重油|じゅうゆ}",
+      "label": "heavy oil"
+    },
+    {
+      "type": "related",
+      "target_id": "23285_sanyukoku",
+      "reading": "さんゆこく",
+      "headword": "{産油国|さんゆこく}",
+      "label": "oil-producing country"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +103,6 @@
       ]
     },
     "created": "2026-04-02T19:18:37Z",
-    "modified": "2026-04-02T19:18:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

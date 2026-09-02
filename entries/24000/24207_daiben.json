@@ -4,7 +4,7 @@
   "headword": "{大便|だいべん}",
   "reading": "だいべん",
   "romaji": "daiben",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "feces; stool; bowel movement",
   "definitions": [
     {
@@ -46,16 +46,46 @@
     }
   ],
   "notes": "{大|だい} (large) + {便|べん} (convenience; excretion). The formal, clinical term for feces and bowel movements, used in medical contexts.\n\nCOMMON COLLOCATIONS:\n- {大便|だいべん}{検査|けんさ}: stool test\n- {大便|だいべん}をする: have a bowel movement\n- {大便|だいべん}に{血|ち}が{混|ま}じる: blood in the stool\n- {大便|だいべん}の{色|いろ}: stool color\n\nSIMILAR WORDS:\n- {小便|しょうべん}: urine, urination — the counterpart for liquid waste\n- うんち: poo — the everyday, childlike word for feces\n- {便|べん}: stool — a shorter medical term often used in compounds\n- {排便|はいべん}: defecation — the formal medical term for the act of having a bowel movement\n\nUSAGE:\nA clinical and formal word. In everyday speech, people use うんち (childlike/casual) or {便|べん} (neutral). {大便|だいべん} is standard in medical forms, health checkup instructions, and scientific contexts.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28713_shouben",
+      "reading": "しょうべん",
+      "headword": "{小便|しょうべん}",
+      "label": "urine, urination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09084_unchi",
+      "reading": "うんち",
+      "headword": "うんち",
+      "label": "poo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26322_haiben",
+      "reading": "はいべん",
+      "headword": "{排便|はいべん}",
+      "label": "defecation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23867_unko",
+      "reading": "うんこ",
+      "headword": "うんこ",
+      "label": "poop"
+    }
+  ],
   "metadata": {
     "created": "2026-04-18T09:16:11Z",
-    "modified": "2026-08-02T18:32:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "health",
         "body-part"

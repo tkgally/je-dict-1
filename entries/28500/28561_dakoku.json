@@ -3,7 +3,7 @@
   "headword": "{打刻|だこく}",
   "reading": "だこく",
   "romaji": "dakoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "clocking in/out; stamping the time",
   "definitions": [
     {
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Literally 'stamp engraving'. Originally referred to the act of physically stamping a time card; now used broadly for any electronic time-recording action. Common in workplace HR documents.\n\nCOMMON COLLOCATIONS:\n- {打刻|だこく}する: to clock in/out\n- {出勤|しゅっきん}の{打刻|だこく}: clock-in (recording)\n- {退勤|たいきん}の{打刻|だこく}: clock-out (recording)\n- {打刻|だこく}{漏|も}れ: missed clock-in/out\n- {打刻|だこく}{時刻|じこく}: time recorded\n\nRELATED TERMS:\n- タイムカード: time card\n- {勤怠|きんたい}{管理|かんり}: attendance management\n- {打刻|だこく}{機|き}: time clock machine",
+  "notes": "Literally 'stamp engraving'. Originally referred to the act of physically stamping a time card; now used broadly for any electronic time-recording action. Common in workplace HR documents.\n\nCOMMON COLLOCATIONS:\n- {打刻|だこく}する: to clock in/out\n- {出勤|しゅっきん}の{打刻|だこく}: clock-in (recording)\n- {退勤|たいきん}の{打刻|だこく}: clock-out (recording)\n- {打刻|だこく}{漏|も}れ: missed clock-in/out\n- {打刻|だこく}{時刻|じこく}: time recorded\n\nRELATED WORDS:\n- タイムカード: time card\n- {勤怠|きんたい}{管理|かんり}: attendance management\n- {打刻|だこく}{機|き}: time clock machine",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "28560_taimukaado",
+      "reading": "たいむかーど",
+      "headword": "タイムカード",
+      "label": "time card"
+    },
+    {
+      "type": "related",
+      "target_id": "04550_taikin",
+      "reading": "たいきん",
+      "headword": "{退勤|たいきん}",
+      "label": "leaving work"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "work"
       ],
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-06-02T02:07:31Z",
-    "modified": "2026-06-02T02:07:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

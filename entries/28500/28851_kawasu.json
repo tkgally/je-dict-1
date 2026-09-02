@@ -3,7 +3,7 @@
   "headword": "かわす",
   "reading": "かわす",
   "romaji": "kawasu",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to dodge; to evade; to sidestep; to deflect",
   "definitions": [
     {
@@ -81,6 +81,22 @@
   ],
   "notes": "Transitive godan verb (intransitive pair: かわる is unrelated; this verb stands alone). The kanji form {躱|かわ}す exists but is uncommon — usually written in kana. Both physical and figurative senses are extremely common.\n\nTRANSITIVITY:\n- {〜を}かわす: to dodge X (always transitive)\n\nCOMMON COLLOCATIONS:\n- {攻撃|こうげき}をかわす: to dodge an attack\n- パンチをかわす: to dodge a punch\n- {質問|しつもん}をかわす: to deflect a question\n- {追及|ついきゅう}をかわす: to dodge investigation/probing\n- {責任|せきにん}をかわす: to evade responsibility\n\nSIMILAR WORDS:\n- {避|さ}ける: to avoid — broader; can mean staying away from something in advance\n- {逃|に}げる: to flee — to run away; かわす implies dodging while staying in place\n- かわす ({交|か}わす): a homograph in kanji meaning \"to exchange (words, glances)\" — different verb",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02109_sakeru",
+      "reading": "さける",
+      "headword": "{避|さ}ける",
+      "label": "to avoid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01151_nigeru",
+      "reading": "にげる",
+      "headword": "{逃|に}げる",
+      "label": "to flee"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -88,7 +104,7 @@
         "verb-godan"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "movement",
         "communication"
@@ -97,7 +113,7 @@
       "verb_class": "godan-su"
     },
     "created": "2026-06-06T03:10:23Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

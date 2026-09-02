@@ -22,7 +22,9 @@
       "id": "27958_kyasutaa_ex1",
       "japanese": "{有名|ゆうめい}なキャスターが{番組|ばんぐみ}に{出|で}ている。",
       "english": "A famous newscaster appears on the program.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "27958_kyasutaa_ex2",
       "japanese": "{彼女|かのじょ}はニュース{番組|ばんぐみ}のキャスターを{務|つと}めている。",
       "english": "She serves as the anchor of a news program.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "27958_kyasutaa_ex3",
       "japanese": "メインキャスターが{事件|じけん}について{自分|じぶん}の{意見|いけん}を{述|の}べた。",
       "english": "The main anchor gave his own opinion about the incident.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "27958_kyasutaa_ex4",
       "japanese": "{椅子|いす}にキャスターが{付|つ}いている。",
       "english": "The chair has casters on it.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "27958_kyasutaa_ex5",
       "japanese": "キャスター{付|つ}きのワゴンは{移動|いどう}が{楽|らく}だ。",
       "english": "A wagon with casters is easy to move around.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,23 +72,52 @@
       "id": "27958_kyasutaa_ex6",
       "japanese": "{重|おも}い{棚|たな}でもキャスターが{付|つ}いていれば{一人|ひとり}で{動|うご}かせる。",
       "english": "Even a heavy shelf can be moved by one person if it has casters.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Two unrelated meanings borrowed from English; context distinguishes them. Sense 1 (newscaster) is far more common in everyday speech.\n\nUSAGE (sense 1):\n- メインキャスター: main anchor\n- お{天気|てんき}キャスター: weather presenter\n- キャスターを{務|つと}める: to serve as anchor\n\nSIMILAR WORDS:\n- アナウンサー: announcer — a broadcaster employed by the station who reads news and narrates; a キャスター often adds personal commentary\n- コメンテーター: commentator — a guest who comments on the news, not the host",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01765_anaunsaa",
+      "reading": "あなうんさー",
+      "headword": "アナウンサー",
+      "label": "announcer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27960_komenteetaa",
+      "reading": "こめんてーたー",
+      "headword": "コメンテーター",
+      "label": "commentator"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27959_repootaa",
+      "reading": "れぽーたー",
+      "headword": "レポーター",
+      "label": "reporter (on-scene)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"],
+      "semantic": [
+        "occupation"
+      ],
       "domain": []
     },
     "created": "2026-05-23T04:06:38Z",
-    "modified": "2026-05-23T04:06:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

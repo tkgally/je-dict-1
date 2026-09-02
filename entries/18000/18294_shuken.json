@@ -19,7 +19,9 @@
       "english": "To protect the nation's sovereignty.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18294_shuken_ex2",
@@ -27,7 +29,9 @@
       "english": "Under the Japanese constitution, sovereignty lies with the people.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18294_shuken_ex3",
@@ -35,21 +39,57 @@
       "english": "Territorial issues are serious matters involving national sovereignty and cannot be easily resolved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {主|しゅ} (main, master) + {権|けん} (right, authority). Central to Japanese civics education. The concept of {国民|こくみん}{主権|しゅけん} (popular sovereignty) is one of the three pillars of the Japanese constitution.\n\nCOMMON COLLOCATIONS:\n- {国民|こくみん}{主権|しゅけん} (popular sovereignty)\n- {主権|しゅけん}を{行使|こうし}する (to exercise sovereignty)\n- {主権|しゅけん}{国家|こっか} (sovereign state)\n- {主権|しゅけん}を{侵害|しんがい}する (to violate sovereignty)\n\nSIMILAR WORDS:\n- {権力|けんりょく}: power, authority — broader, not limited to nations\n- {自治|じち}: self-governance, autonomy — governance at a local level",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10020_kenryoku",
+      "reading": "けんりょく",
+      "headword": "{権力|けんりょく}",
+      "label": "power, authority"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03985_jichi",
+      "reading": "じち",
+      "headword": "{自治|じち}",
+      "label": "self-governance, autonomy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23172_shihaiken",
+      "reading": "しはいけん",
+      "headword": "{支配権|しはいけん}",
+      "label": "control"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24599_ouken",
+      "reading": "おうけん",
+      "headword": "{王権|おうけん}",
+      "label": "royal authority"
+    }
+  ],
   "metadata": {
     "created": "2026-03-21T01:18:54Z",
-    "modified": "2026-03-21T01:18:54Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["politics", "law"]
+      "semantic": [
+        "politics",
+        "law"
+      ]
     }
   }
 }

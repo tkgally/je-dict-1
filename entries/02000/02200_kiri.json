@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "{霧|きり} means fog or mist - tiny water droplets suspended near the ground.\n\nCOMMON PATTERNS:\n- {霧|きり}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: fog appears/rolls in\n- {霧|きり}⟦が→が：00051_ga⟧⟦{晴|は}れる→晴れる：00701_hareru⟧: fog clears\n- {霧|きり}⟦に→に：00314_ni⟧⟦{包|つつ}まれる→包む：01226_tsutsumu⟧: to be enveloped in fog\n\nWEATHER COMPOUNDS:\n- ⟦{濃霧|のうむ}→濃霧：07378_noumu⟧: dense/thick fog\n- ⟦{朝霧|あさぎり}→朝霧：21348_asagiri⟧: morning mist\n- ⟦{霧雨|きりさめ}→霧雨：07684_kirisame⟧: drizzle, misty rain\n\nOTHER COMPOUNDS:\n- ⟦{霧吹|きりふ}き→霧吹き：15171_kirifuki⟧: spray bottle (atomizer)\n- ⟦{霧島|きりしま}→霧島：noentry⟧: Kirishima (place name)\n\nIDIOM:\n⟦{五里霧中|ごりむちゅう}→五里霧中：05664_gorimuchuu⟧: being completely lost/confused (lit. in fog for five ri)\n\nSIMILAR:\n- ⟦もや→靄：06506_moya⟧: haze (lighter than fog)",
+  "notes": "{霧|きり} means fog or mist - tiny water droplets suspended near the ground.\n\nCOMMON PATTERNS:\n- {霧|きり}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧: fog appears/rolls in\n- {霧|きり}⟦が→が：00051_ga⟧⟦{晴|は}れる→晴れる：00701_hareru⟧: fog clears\n- {霧|きり}⟦に→に：00314_ni⟧⟦{包|つつ}まれる→包む：01226_tsutsumu⟧: to be enveloped in fog\n\nWEATHER COMPOUNDS:\n- ⟦{濃霧|のうむ}→濃霧：07378_noumu⟧: dense/thick fog\n- ⟦{朝霧|あさぎり}→朝霧：21348_asagiri⟧: morning mist\n- ⟦{霧雨|きりさめ}→霧雨：07684_kirisame⟧: drizzle, misty rain\n\nOTHER COMPOUNDS:\n- ⟦{霧吹|きりふ}き→霧吹き：15171_kirifuki⟧: spray bottle (atomizer)\n- ⟦{霧島|きりしま}→霧島：noentry⟧: Kirishima (place name)\n\nCOMMON EXPRESSIONS:\n⟦{五里霧中|ごりむちゅう}→五里霧中：05664_gorimuchuu⟧: being completely lost/confused (lit. in fog for five ri)\n\nSIMILAR:\n- ⟦もや→靄：06506_moya⟧: haze (lighter than fog)",
   "cross_references": [
     {
       "type": "related",
@@ -86,11 +86,39 @@
       "reading": "かすみ",
       "headword": "{霞|かすみ}",
       "label": "haze (spring)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06506_moya",
+      "reading": "もや",
+      "headword": "{靄|もや}",
+      "label": "haze"
+    },
+    {
+      "type": "related",
+      "target_id": "07866_asamoya",
+      "reading": "あさもや",
+      "headword": "{朝靄|あさもや}",
+      "label": "morning mist"
+    },
+    {
+      "type": "related",
+      "target_id": "10038_harugasumi",
+      "reading": "はるがすみ",
+      "headword": "{春霞|はるがすみ}",
+      "label": "spring haze, spring mist"
+    },
+    {
+      "type": "related",
+      "target_id": "23703_souun",
+      "reading": "そううん",
+      "headword": "{層雲|そううん}",
+      "label": "stratus cloud"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:32:14Z",
-    "modified": "2026-05-18T19:16:37Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

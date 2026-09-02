@@ -3,7 +3,7 @@
   "headword": "{義務化|ぎむか}",
   "reading": "ぎむか",
   "romaji": "gimuka",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "making mandatory; legal obligation",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Compound of {義務|ぎむ} (duty, obligation) + {化|か} (-ization suffix). The {化|か} suffix attaches to many nouns to mean 'turning into / making into' ({国際化|こくさいか} globalization, {自動化|じどうか} automation, etc.).\n\nCOMMON COLLOCATIONS:\n- {義務化|ぎむか}する: to make mandatory\n- {義務化|ぎむか}される: to be made mandatory\n- {着用|ちゃくよう}の{義務化|ぎむか}: mandatory wearing/use\n- {報告|ほうこく}の{義務化|ぎむか}: mandatory reporting\n\nSIMILAR WORDS:\n- {法制化|ほうせいか}: enactment into law — narrower, refers specifically to legislation\n- {強制|きょうせい}: compulsion — emphasizes force; can apply to individual acts, not just policies",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12500_kyousei",
+      "reading": "きょうせい",
+      "headword": "{強制|きょうせい}",
+      "label": "compulsion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20158_gimuzukeru",
+      "reading": "ぎむづける",
+      "headword": "{義務付|ぎむづ}ける",
+      "label": "to obligate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "politics",
         "law"
@@ -63,7 +79,7 @@
       "verb_class": "suru"
     },
     "created": "2026-06-02T04:07:08Z",
-    "modified": "2026-06-02T04:07:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -22,7 +22,9 @@
       "id": "29244_foomu_ex1",
       "japanese": "フォームがきれいだ。",
       "english": "Your form is beautiful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "29244_foomu_ex2",
       "japanese": "コーチにフォームを{直|なお}された。",
       "english": "The coach corrected my form.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "29244_foomu_ex3",
       "japanese": "{正|ただ}しいフォームで{走|はし}ると{疲|つか}れにくい。",
       "english": "If you run with proper form, you tire less easily.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "29244_foomu_ex4",
       "japanese": "フォームに{入力|にゅうりょく}してください。",
       "english": "Please fill in the form.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "29244_foomu_ex5",
       "japanese": "{問|と}い{合|あ}わせフォームから{連絡|れんらく}した。",
       "english": "I got in touch through the contact form.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,23 +72,46 @@
       "id": "29244_foomu_ex6",
       "japanese": "{申|もう}し{込|こ}みフォームに{名前|なまえ}とメールアドレスを{入力|にゅうりょく}して{送信|そうしん}した。",
       "english": "I entered my name and email address in the application form and submitted it.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Loanword from English \"form\". The two senses—physical posture and an input form—rarely cause confusion because context makes the meaning clear.\n\nCOMMON COLLOCATIONS:\n- フォームを{直|なお}す: to fix one's form (sports)\n- きれいなフォーム: clean, well-shaped form\n- {入力|にゅうりょく}フォーム: input form\n- {問|と}い{合|あ}わせフォーム: contact form\n\nSIMILAR WORDS:\n- {姿勢|しせい}: posture — refers to body position generally; フォーム is specifically the technique for an activity\n- {書式|しょしき}: document format/template — the layout of a form, not the act of entering data",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00371_shisei",
+      "reading": "しせい",
+      "headword": "{姿勢|しせい}",
+      "label": "posture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15840_shoshiki",
+      "reading": "しょしき",
+      "headword": "{書式|しょしき}",
+      "label": "document format/template"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports", "technology"],
+      "politeness": "plain",
+      "semantic": [
+        "sports",
+        "technology"
+      ],
       "domain": []
     },
     "created": "2026-06-14T12:18:51Z",
-    "modified": "2026-06-14T12:18:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

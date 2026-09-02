@@ -3,7 +3,7 @@
   "id": "10578_wakai",
   "headword": "{和解|わかい}",
   "reading": "わかい",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "settlement, reconciliation",
   "conjugation": {
     "type": "suru",
@@ -170,10 +170,39 @@
     }
   ],
   "notes": "USAGE:\nUsed as a する verb: {和解|わかい}する (to reconcile, to settle). Sense 1 is used in interpersonal and international relations; sense 2 is a legal term.\n\nCOMMON COLLOCATIONS:\n- {和解|わかい}する: to reconcile, to settle\n- {和解|わかい}が{成立|せいりつ}する: a settlement is reached\n- {和解|わかい}{金|きん}: settlement money\n- {和解|わかい}に{応|おう}じる: to agree to a settlement\n- {和解|わかい}を{求|もと}める: to seek reconciliation",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03127_nakanaori",
+      "reading": "なかなおり",
+      "headword": "{仲直|なかなお}り",
+      "label": "reconciliation, making up"
+    },
+    {
+      "type": "related",
+      "target_id": "09130_yuuwa",
+      "reading": "ゆうわ",
+      "headword": "{融和|ゆうわ}",
+      "label": "harmony, reconciliation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22965_waboku",
+      "reading": "わぼく",
+      "headword": "{和睦|わぼく}",
+      "label": "peace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23317_jidan",
+      "reading": "じだん",
+      "headword": "{示談|じだん}",
+      "label": "out-of-court settlement"
+    }
+  ],
   "metadata": {
     "created": "2026-02-08T05:27:45Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

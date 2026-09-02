@@ -19,7 +19,9 @@
       "english": "I received my first lessons in shogi from my father.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15660_tehodoki_ex2",
@@ -27,7 +29,9 @@
       "english": "I was given an introduction to the tea ceremony.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15660_tehodoki_ex3",
@@ -35,21 +39,42 @@
       "english": "The cooking lessons I received from my grandmother led to my current career.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nImplies personal, one-on-one guidance rather than classroom instruction. Often used for traditional arts and skills. The most common patterns are {手|て}ほどきを{受|う}ける (to receive instruction) and {手|て}ほどきをする (to give instruction).\n\nCOMMON COLLOCATIONS:\n- {手|て}ほどきを{受|う}ける (to receive initial instruction)\n- {手|て}ほどきをする (to give initial instruction)\n- 〜の{手|て}ほどき (introduction to ~)\n\nSIMILAR WORDS:\n- {入門|にゅうもん}: introduction to a field (more formal, can be self-study)\n- {指導|しどう}: guidance, coaching (broader, ongoing instruction)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11643_nyuumon",
+      "reading": "にゅうもん",
+      "headword": "{入門|にゅうもん}",
+      "label": "introduction to a field"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03190_shidou",
+      "reading": "しどう",
+      "headword": "{指導|しどう}",
+      "label": "guidance, coaching"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T06:44:06Z",
-    "modified": "2026-03-08T06:44:06Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

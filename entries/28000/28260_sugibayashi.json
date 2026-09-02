@@ -17,7 +17,9 @@
       "id": "28260_sugibayashi_ex1",
       "japanese": "{山|やま}は{杉林|すぎばやし}に{覆|おお}われている。",
       "english": "The mountain is covered with cedar forest.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28260_sugibayashi_ex2",
       "japanese": "{杉林|すぎばやし}の{中|なか}を{通|とお}る{道|みち}を{歩|ある}いた。",
       "english": "I walked along the path running through the cedar forest.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,37 @@
       "id": "28260_sugibayashi_ex3",
       "japanese": "{春|はる}になると、この{杉林|すぎばやし}から{大量|たいりょう}の{花粉|かふん}が{飛|と}んでくる。",
       "english": "When spring comes, huge amounts of pollen blow in from this cedar forest.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {杉|すぎ} (Japanese cedar) + {林|はやし} (woods). The {はやし} reading voices to {ばやし} in this compound.\n\nCOMMON COLLOCATIONS:\n- {杉林|すぎばやし}が{広|ひろ}がる: a cedar forest spreads out\n- {杉林|すぎばやし}に{囲|かこ}まれる: be surrounded by cedar forest\n- {杉林|すぎばやし}の{花粉|かふん}: pollen from a cedar forest\n\nSIMILAR WORDS:\n- {森|もり}: forest — larger and denser, often with mixed trees; {林|はやし} (as in {杉林|すぎばやし}) is a smaller or single-species wood.",
+  "notes": "Compound of {杉|すぎ} (Japanese cedar) + {林|はやし} (woods). The はやし reading voices to ばやし in this compound.\n\nCOMMON COLLOCATIONS:\n- {杉林|すぎばやし}が{広|ひろ}がる: a cedar forest spreads out\n- {杉林|すぎばやし}に{囲|かこ}まれる: be surrounded by cedar forest\n- {杉林|すぎばやし}の{花粉|かふん}: pollen from a cedar forest\n\nSIMILAR WORDS:\n- {森|もり}: forest — larger and denser, often with mixed trees; {林|はやし} (as in {杉林|すぎばやし}) is a smaller or single-species wood.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02260_mori",
+      "reading": "もり",
+      "headword": "{森|もり}",
+      "label": "forest"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["nature"]
+      "politeness": "plain",
+      "semantic": [
+        "nature"
+      ]
     },
     "created": "2026-05-28T02:09:06Z",
-    "modified": "2026-05-28T02:09:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

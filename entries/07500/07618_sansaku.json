@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{散|さん} (scatter, leisurely) + {策|さく} (plan, scheme) - originally meant planning while walking around\n\nNUANCE:\n{散策|さんさく} implies a leisurely, enjoyable walk, often to appreciate scenery or surroundings. More elegant/literary than {散歩|さんぽ}.\n\nCOMMON COLLOCATIONS:\n・{散策|さんさく}コース - walking course/trail\n・{街|まち}を{散策|さんさく}する - to stroll around town\n・{散策|さんさく}{路|ろ} - promenade, walking path\n\nRELATED:\n・{散歩|さんぽ} - walk (more everyday)\n・ぶらぶら（する）- to wander around (casual)\n・{行楽|こうらく} - outing, excursion",
+  "notes": "ETYMOLOGY:\n{散|さん} (scatter, leisurely) + {策|さく} (plan, scheme) - originally meant planning while walking around\n\nUSAGE:\n{散策|さんさく} implies a leisurely, enjoyable walk, often to appreciate scenery or surroundings. More elegant/literary than {散歩|さんぽ}.\n\nCOMMON COLLOCATIONS:\n- {散策|さんさく}コース - walking course/trail\n- {街|まち}を{散策|さんさく}する - to stroll around town\n- {散策|さんさく}{路|ろ} - promenade, walking path\n\nRELATED WORDS:\n- {散歩|さんぽ} - walk (more everyday)\n- ぶらぶら（する）- to wander around (casual)\n- {行楽|こうらく} - outing, excursion",
   "cross_references": [
     {
       "type": "related",
@@ -138,11 +138,46 @@
       "headword": "{散歩|さんぽ}",
       "label": "walk",
       "target_id": "02885_sanpo"
+    },
+    {
+      "type": "related",
+      "target_id": "05167_burabura",
+      "reading": "ぶらぶら",
+      "headword": "ぶらぶら",
+      "label": "dangling"
+    },
+    {
+      "type": "related",
+      "target_id": "07788_kouraku",
+      "reading": "こうらく",
+      "headword": "{行楽|こうらく}",
+      "label": "outing, excursion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21614_yamaaruki",
+      "reading": "やまあるき",
+      "headword": "{山歩|やまある}き",
+      "label": "mountain walking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24224_manpo",
+      "reading": "まんぽ",
+      "headword": "{漫歩|まんぽ}",
+      "label": "stroll"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25658_yuuho",
+      "reading": "ゆうほ",
+      "headword": "{遊歩|ゆうほ}",
+      "label": "stroll"
     }
   ],
   "metadata": {
     "created": "2026-01-20T12:57:12Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +186,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "leisure",
         "movement"

@@ -3,7 +3,7 @@
   "headword": "ご{機嫌|きげん}",
   "reading": "ごきげん",
   "romaji": "gokigen",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "mood; spirits; temper (polite)",
   "definitions": [
     {
@@ -80,7 +80,29 @@
     }
   ],
   "notes": "The polite prefix ご attached to {機嫌|きげん} (mood). Used both as a noun referring to someone's mood and as a na-adjective meaning in good spirits. Very common in daily conversation, especially around children and in greetings.\n\nCOMMON COLLOCATIONS:\n- ご{機嫌|きげん}いかがですか: How are you? (formal greeting)\n- ご{機嫌|きげん}を{取|と}る: to humor someone, to try to please\n- ご{機嫌|きげん}を{損|そこ}ねる: to upset someone, to put in a bad mood\n- ご{機嫌|きげん}{斜|なな}め: in a bad mood (literally \"mood at an angle\")\n- ご{機嫌|きげん}よう: goodbye; how do you do (elegant greeting)\n\nSIMILAR WORDS:\n- {機嫌|きげん}: mood, temper — without the polite prefix, slightly more casual\n- {気分|きぶん}: feeling, mood — more about one's internal state or physical feeling\n- {上機嫌|じょうきげん}: great mood — specifically means in very high spirits\n\nREGISTER:\nPolite. ご{機嫌|きげん}よう is an elegant greeting associated with formal or refined speech.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01306_kibun",
+      "reading": "きぶん",
+      "headword": "{気分|きぶん}",
+      "label": "feeling, mood"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24293_joukigen",
+      "reading": "じょうきげん",
+      "headword": "{上機嫌|じょうきげん}",
+      "label": "great mood"
+    },
+    {
+      "type": "related",
+      "target_id": "19531_kigengawarui",
+      "reading": "きげんがわるい",
+      "headword": "{機嫌|きげん}が{悪|わる}い",
+      "label": "in a bad mood"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -89,12 +111,13 @@
         "noun",
         "adjective-na"
       ],
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "greeting"
       ]
     },
     "created": "2026-04-26T11:25:09Z",
-    "modified": "2026-04-26T11:25:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

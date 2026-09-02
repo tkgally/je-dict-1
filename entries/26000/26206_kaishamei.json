@@ -17,7 +17,9 @@
       "id": "26206_kaishamei_ex1",
       "japanese": "{会社名|かいしゃめい}を{入力|にゅうりょく}してください。",
       "english": "Please enter the company name.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26206_kaishamei_ex2",
       "japanese": "{名刺|めいし}には{会社名|かいしゃめい}と{部署名|ぶしょめい}が{記載|きさい}されている。",
       "english": "The business card shows the company name and department name.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,43 @@
       "id": "26206_kaishamei_ex3",
       "japanese": "{合併|がっぺい}に{伴|ともな}い{会社名|かいしゃめい}が{変更|へんこう}されたため、すべての{書類|しょるい}を{更新|こうしん}する{必要|ひつよう}がある。",
       "english": "Since the company name was changed due to a merger, all documents need to be updated.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {会社|かいしゃ} (company) and {名|めい} (name). Frequently encountered on forms, business cards, contracts, and official documents. In Japan, formal company names typically include a legal entity suffix such as {株式会社|かぶしきがいしゃ} (kabushiki gaisha, often abbreviated K.K.) or {合同会社|ごうどうがいしゃ} (gōdō gaisha, LLC).\n\nCOMMON COLLOCATIONS:\n- {会社名|かいしゃめい}を{記入|きにゅう}する — to fill in the company name\n- {会社名|かいしゃめい}を{変更|へんこう}する — to change the company name\n- {正式|せいしき}{会社名|かいしゃめい} — official company name\n- {旧|きゅう}{会社名|かいしゃめい} — former company name\n\nRELATED TERMS:\n- {社名|しゃめい} — company name (shorter form, common in news and business)\n- {商号|しょうごう} — trade name; business name (legal term)\n- {屋号|やごう} — trade name; shop name (for sole proprietors)",
-  "cross_references": [],
+  "notes": "Composed of {会社|かいしゃ} (company) and {名|めい} (name). Frequently encountered on forms, business cards, contracts, and official documents. In Japan, formal company names typically include a legal entity suffix such as {株式会社|かぶしきがいしゃ} (kabushiki gaisha, often abbreviated K.K.) or {合同会社|ごうどうがいしゃ} (gōdō gaisha, LLC).\n\nCOMMON COLLOCATIONS:\n- {会社名|かいしゃめい}を{記入|きにゅう}する — to fill in the company name\n- {会社名|かいしゃめい}を{変更|へんこう}する — to change the company name\n- {正式|せいしき}{会社名|かいしゃめい} — official company name\n- {旧|きゅう}{会社名|かいしゃめい} — former company name\n\nRELATED WORDS:\n- {社名|しゃめい} — company name (shorter form, common in news and business)\n- {商号|しょうごう} — trade name; business name (legal term)\n- {屋号|やごう} — trade name; shop name (for sole proprietors)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19272_shougou",
+      "reading": "しょうごう",
+      "headword": "{商号|しょうごう}",
+      "label": "trade name"
+    },
+    {
+      "type": "related",
+      "target_id": "12527_yagou",
+      "reading": "やごう",
+      "headword": "{屋号|やごう}",
+      "label": "trade name"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-04-30T11:32:13Z",
-    "modified": "2026-04-30T11:32:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

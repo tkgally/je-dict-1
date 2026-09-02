@@ -64,10 +64,46 @@
     }
   ],
   "notes": "{芝生|しばふ} refers to a lawn or grassed area, typically maintained (mowed).\n\nCOMMON PATTERNS:\n- {芝生|しばふ}⟦を→を：00422_wo⟧⟦{刈|か}る→刈る：02043_karu⟧ (to mow the lawn)\n- {芝生|しばふ}⟦に→に：00314_ni⟧⟦{寝転|ねころ}ぶ→寝転ぶ：04643_nekorobu⟧ (to lie on the grass)\n- {芝生|しばふ}⟦の→の：09472_no⟧⟦{手入|てい}れ→手入れ：07178_teire⟧ (lawn maintenance)\n\nCOMMON COLLOCATIONS:\n- {芝生|しばふ}⟦{広場|ひろば}→広場：00104_hiroba⟧ (grassy plaza/square)\n- ⟦{人工|じんこう}→人工：11573_jinkou⟧⟦{芝|しば}→芝：19341_shiba⟧ (artificial turf)\n- ⟦{芝刈|しばか}り{機|き}→芝刈り機：17028_shibakariki⟧ (lawn mower)\n\nSIMILAR WORDS:\n- {芝生|しばふ}: lawn, maintained grass area\n- ⟦{草|くさ}→草：02206_kusa⟧: grass (general, uncut)\n- ⟦{芝|しば}→芝：19341_shiba⟧: turf, lawn grass (the plant itself)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02206_kusa",
+      "reading": "くさ",
+      "headword": "{草|くさ}",
+      "label": "grass"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21821_kusachi",
+      "reading": "くさち",
+      "headword": "{草地|くさち}",
+      "label": "grassland"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25486_bokusou",
+      "reading": "ぼくそう",
+      "headword": "{牧草|ぼくそう}",
+      "label": "pasture grass"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27058_aokusa",
+      "reading": "あおくさ",
+      "headword": "{青草|あおくさ}",
+      "label": "green grass"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30153_kusappara",
+      "reading": "くさっぱら",
+      "headword": "{草|くさ}っ{原|ぱら}",
+      "label": "grassy patch"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T13:40:30Z",
-    "modified": "2026-05-24T14:16:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -19,7 +19,9 @@
       "english": "Vacancies available.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14798_kuushitsu_ex2",
@@ -27,7 +29,9 @@
       "english": "There are hardly any vacant rooms in this apartment building.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14798_kuushitsu_ex3",
@@ -35,10 +39,12 @@
       "english": "In the popular area near the station, any vacancy is filled immediately.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Commonly seen on signs outside apartment buildings and in real estate advertisements. The opposite is {満室|まんしつ} (no vacancy, fully occupied).\n\nCOMMON COLLOCATIONS:\n- {空室|くうしつ}あり (vacancy available)\n- {空室|くうしつ}が{出|で}る (a vacancy opens up)\n- {空室|くうしつ}{状況|じょうきょう} (vacancy status)\n- {空室|くうしつ}{率|りつ} (vacancy rate)\n\nUSAGE NOTE:\nFor hotels, {空室|くうしつ} refers to available rooms. In real estate, it refers to apartments or offices available for rent. The sign {空室|くうしつ} on a building means rooms are available, while {満室|まんしつ} means fully occupied.",
+  "notes": "Commonly seen on signs outside apartment buildings and in real estate advertisements. The opposite is {満室|まんしつ} (no vacancy, fully occupied).\n\nCOMMON COLLOCATIONS:\n- {空室|くうしつ}あり (vacancy available)\n- {空室|くうしつ}が{出|で}る (a vacancy opens up)\n- {空室|くうしつ}{状況|じょうきょう} (vacancy status)\n- {空室|くうしつ}{率|りつ} (vacancy rate)\n\nUSAGE:\nFor hotels, {空室|くうしつ} refers to available rooms. In real estate, it refers to apartments or offices available for rent. The sign {空室|くうしつ} on a building means rooms are available, while {満室|まんしつ} means fully occupied.",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,36 @@
       "reading": "まんしつ",
       "headword": "{満室|まんしつ}",
       "label": "no vacancy; fully occupied"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09554_shiyouchuu",
+      "reading": "しようちゅう",
+      "headword": "{使用中|しようちゅう}",
+      "label": "in use, occupied"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30417_akibeya",
+      "reading": "あきべや",
+      "headword": "{空|あ}き{部屋|べや}",
+      "label": "vacant room"
     }
   ],
   "metadata": {
     "created": "2026-03-03T12:51:52Z",
-    "modified": "2026-04-30T10:37:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

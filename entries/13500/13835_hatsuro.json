@@ -3,7 +3,7 @@
   "id": "13835_hatsuro",
   "headword": "{発露|はつろ}",
   "reading": "はつろ",
-  "part_of_speech": "noun / verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "expression, manifestation, revelation",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,25 @@
     }
   ],
   "notes": "USAGE:\nA literary and formal word. Used to describe the outward expression of inner qualities, feelings, or truths. Common in essays, literary criticism, and philosophical writing. Rarely used in casual conversation.\n\nSIMILAR WORDS:\n- {表現|ひょうげん}: expression (more general and everyday)\n- {表出|ひょうしゅつ}: expression, externalization (more academic)\n- {露呈|ろてい}: exposure, coming to light (often for negative things)\n\nCOMMON COLLOCATIONS:\n- {感情|かんじょう}の{発露|はつろ}: expression of emotion\n- {愛情|あいじょう}の{発露|はつろ}: expression of love\n- {才能|さいのう}の{発露|はつろ}: manifestation of talent\n- {本性|ほんしょう}の{発露|はつろ}: revelation of one's true nature",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03584_hyougen",
+      "reading": "ひょうげん",
+      "headword": "{表現|ひょうげん}",
+      "label": "expression"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09149_rotei",
+      "reading": "ろてい",
+      "headword": "{露呈|ろてい}",
+      "label": "exposure, coming to light"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T05:10:26Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

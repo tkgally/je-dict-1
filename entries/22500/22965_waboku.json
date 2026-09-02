@@ -3,7 +3,7 @@
   "headword": "{和睦|わぼく}",
   "reading": "わぼく",
   "romaji": "waboku",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "peace; reconciliation; making peace",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A formal and somewhat literary word for making peace, especially after armed conflict. Frequently encountered in historical texts describing the end of wars between feudal lords or nations.\n\nCOMMON COLLOCATIONS:\n- {和睦|わぼく}する: to make peace\n- {和睦|わぼく}が{成立|せいりつ}する: a peace agreement is reached\n- {和睦|わぼく}を{求|もと}める: to seek peace\n- {和睦|わぼく}{交渉|こうしょう}: peace negotiations\n\nSIMILAR WORDS:\n- {和解|わかい}: reconciliation; settlement — more commonly used in modern contexts, including legal settlements\n- {講和|こうわ}: peace (treaty) — specifically refers to formal peace treaties between nations\n- {仲直|なかなお}り: making up; patching things up — casual, used for personal relationships\n\nREGISTER:\nFormal and literary. More common in written language, historical narratives, and period dramas than in everyday conversation.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10578_wakai",
+      "reading": "わかい",
+      "headword": "{和解|わかい}",
+      "label": "reconciliation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24540_kouwa",
+      "reading": "こうわ",
+      "headword": "{講和|こうわ}",
+      "label": "peace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03127_nakanaori",
+      "reading": "なかなおり",
+      "headword": "{仲直|なかなお}り",
+      "label": "making up"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -55,11 +78,14 @@
       ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["politics", "society"],
+      "semantic": [
+        "politics",
+        "society"
+      ],
       "verb_class": "suru"
     },
     "created": "2026-04-08T14:13:52Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

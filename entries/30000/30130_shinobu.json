@@ -3,7 +3,7 @@
   "headword": "{偲|しの}ぶ",
   "reading": "しのぶ",
   "romaji": "shinobu",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to remember fondly; to reminisce about; to think of with affection",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "A quiet, somewhat literary word. It belongs to funerals, memorial gatherings, and reflective writing rather than casual conversation.\n\nTRANSITIVITY:\nTransitive; takes を for the person or time remembered ({故人|こじん}を{偲|しの}ぶ).\n\nCOMMON COLLOCATIONS:\n- {故人|こじん}を{偲|しの}ぶ: to remember the deceased\n- {昔|むかし}を{偲|しの}ぶ: to think back on old times\n- {面影|おもかげ}を{偲|しの}ぶ: to recall someone's face or traces of the past\n- {偲|しの}ぶ{会|かい}: a memorial gathering\n\nSIMILAR WORDS:\n- {懐|なつ}かしむ: to feel nostalgic for — similar warmth, but freely used in everyday speech\n- {思|おも}い{出|だ}す: to recall — neutral; simply retrieving a memory, with no affection implied\n- {忍|しの}ぶ: to endure; to hide oneself — a different word with the same reading; do not confuse the two",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09913_natsukashimu",
+      "reading": "なつかしむ",
+      "headword": "{懐|なつ}かしむ",
+      "label": "to feel nostalgic for"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01258_omoidasu",
+      "reading": "おもいだす",
+      "headword": "{思|おも}い{出|だ}す",
+      "label": "to recall"
+    },
+    {
+      "type": "homophone",
+      "target_id": "16953_shinobu",
+      "reading": "しのぶ",
+      "headword": "{忍|しの}ぶ",
+      "label": "to endure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20198_omoiwohaseru",
+      "reading": "おもいをはせる",
+      "headword": "{思|おも}いを{馳|は}せる",
+      "label": "to think longingly of"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +83,7 @@
         "verb-godan"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "cognition",
         "emotion"
@@ -63,7 +93,7 @@
       "transitivity": "transitive"
     },
     "created": "2026-07-26T12:19:17Z",
-    "modified": "2026-07-26T12:19:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

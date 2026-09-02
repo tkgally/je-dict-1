@@ -3,7 +3,7 @@
   "headword": "{休刊|きゅうかん}",
   "reading": "きゅうかん",
   "romaji": "kyuukan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "suspension of publication; ceasing publication",
   "definitions": [
     {
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {休|きゅう} (rest, pause) + {刊|かん} (publication). Literally \"resting publication.\"\n\nCOMMON COLLOCATIONS:\n- {休刊|きゅうかん}になる: to go out of publication\n- {休刊|きゅうかん}する: to cease publishing\n- {休刊|きゅうかん}に{追|お}い{込|こ}まれる: to be forced to cease publication\n- {休刊号|きゅうかんごう}: final issue (before suspension)\n\nUSAGE NOTE:\nAlthough {休刊|きゅうかん} literally implies a temporary suspension, in the Japanese publishing industry it is commonly used as a euphemism for permanent discontinuation ({廃刊|はいかん}). Publishers prefer {休刊|きゅうかん} because it leaves open the possibility of resuming, even when there is no such intention.\n\nSIMILAR WORDS:\n- {廃刊|はいかん}: discontinuation of publication — explicitly permanent\n- {創刊|そうかん}: first issue; launch of a publication — the opposite, starting a new publication",
+  "notes": "Compound of {休|きゅう} (rest, pause) + {刊|かん} (publication). Literally \"resting publication.\"\n\nCOMMON COLLOCATIONS:\n- {休刊|きゅうかん}になる: to go out of publication\n- {休刊|きゅうかん}する: to cease publishing\n- {休刊|きゅうかん}に{追|お}い{込|こ}まれる: to be forced to cease publication\n- {休刊号|きゅうかんごう}: final issue (before suspension)\n\nUSAGE:\nAlthough {休刊|きゅうかん} literally implies a temporary suspension, in the Japanese publishing industry it is commonly used as a euphemism for permanent discontinuation ({廃刊|はいかん}). Publishers prefer {休刊|きゅうかん} because it leaves open the possibility of resuming, even when there is no such intention.\n\nSIMILAR WORDS:\n- {廃刊|はいかん}: discontinuation of publication — explicitly permanent\n- {創刊|そうかん}: first issue; launch of a publication — the opposite, starting a new publication",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "11923_soukan",
+      "reading": "そうかん",
+      "headword": "{創刊|そうかん}",
+      "label": "first issue"
+    },
+    {
+      "type": "related",
+      "target_id": "20699_soukangou",
+      "reading": "そうかんごう",
+      "headword": "{創刊号|そうかんごう}",
+      "label": "first issue"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +77,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T20:23:27Z",
-    "modified": "2026-04-02T20:23:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

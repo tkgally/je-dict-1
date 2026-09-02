@@ -17,7 +17,9 @@
       "id": "30068_richiumuiondenchi_ex1",
       "japanese": "スマホにはリチウムイオン{電池|でんち}が{使|つか}われている。",
       "english": "Smartphones use lithium-ion batteries.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30068_richiumuiondenchi_ex2",
       "japanese": "リチウムイオン{電池|でんち}は{繰|く}り{返|かえ}し{充電|じゅうでん}できる。",
       "english": "Lithium-ion batteries can be recharged repeatedly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,54 @@
       "id": "30068_richiumuiondenchi_ex3",
       "japanese": "{電気|でんき}{自動車|じどうしゃ}の{性能|せいのう}はリチウムイオン{電池|でんち}の{進化|しんか}に{支|ささ}えられている。",
       "english": "The performance of electric cars is supported by advances in lithium-ion batteries.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of リチウムイオン (lithium-ion) and {電池|でんち} (battery). The dominant rechargeable battery in modern portable electronics and electric vehicles, valued for its high energy density and long cycle life. Also called リチウムイオン{二次|にじ}{電池|でんち}.\n\nCOMMON COLLOCATIONS:\n- リチウムイオン{電池|でんち}を{充電|じゅうでん}する: to charge a lithium-ion battery\n- リチウムイオン{電池|でんち}の{寿命|じゅみょう}: the lifespan of a lithium-ion battery\n\nSIMILAR WORDS:\n- {蓄電池|ちくでんち}: storage battery — the general term for a rechargeable battery\n- {乾電池|かんでんち}: dry cell — a disposable, non-rechargeable battery",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08095_chikudenchi",
+      "reading": "ちくでんち",
+      "headword": "{蓄電池|ちくでんち}",
+      "label": "storage battery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10188_kandenchi",
+      "reading": "かんでんち",
+      "headword": "{乾電池|かんでんち}",
+      "label": "dry cell"
+    },
+    {
+      "type": "related",
+      "target_id": "06599_chikuden",
+      "reading": "ちくでん",
+      "headword": "{蓄電|ちくでん}",
+      "label": "power storage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["electronics"],
-      "domain": ["technical"]
+      "politeness": "plain",
+      "semantic": [
+        "electronics"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-07-23T21:21:47Z",
-    "modified": "2026-07-23T21:21:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

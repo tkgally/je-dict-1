@@ -17,7 +17,9 @@
       "id": "22448_shinsetsu_ex1",
       "japanese": "{新雪|しんせつ}が{積|つ}もった。",
       "english": "Fresh snow has piled up.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22448_shinsetsu_ex2",
       "japanese": "{新雪|しんせつ}の{上|うえ}を{歩|ある}くのは{気持|きも}ちがいい。",
       "english": "Walking on fresh snow feels great.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,66 @@
       "id": "22448_shinsetsu_ex3",
       "japanese": "{昨夜|さくや}の{新雪|しんせつ}でスキー{場|じょう}のコンディションが{最高|さいこう}になった。",
       "english": "Last night's fresh snow made the ski resort conditions perfect.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {新|しん} (new) + {雪|せつ} (snow). Refers specifically to recently fallen snow that is still soft and untouched. Important in skiing and winter sports contexts, where {新雪|しんせつ} is highly prized for its powdery texture.\n\nCOMMON COLLOCATIONS:\n- {新雪|しんせつ}が{積|つ}もる: fresh snow piles up\n- {新雪|しんせつ}の{上|うえ}: on top of fresh snow\n- {新雪|しんせつ}を{踏|ふ}む: to step on fresh snow\n- {一面|いちめん}の{新雪|しんせつ}: a blanket of fresh snow\n\nSIMILAR WORDS:\n- {粉雪|こなゆき}: powder snow — emphasizes the light, dry texture rather than freshness\n- {残雪|ざんせつ}: lingering snow — snow left over from a previous snowfall, the opposite of new snow\n- {積雪|せきせつ}: accumulated snow — refers to snow cover depth, regardless of when it fell\n\nNOTE:\nNot to be confused with the homophone {親切|しんせつ} (kindness) or {新設|しんせつ} (newly established).",
+  "notes": "Composed of {新|しん} (new) + {雪|せつ} (snow). Refers specifically to recently fallen snow that is still soft and untouched. Important in skiing and winter sports contexts, where {新雪|しんせつ} is highly prized for its powdery texture.\n\nCOMMON COLLOCATIONS:\n- {新雪|しんせつ}が{積|つ}もる: fresh snow piles up\n- {新雪|しんせつ}の{上|うえ}: on top of fresh snow\n- {新雪|しんせつ}を{踏|ふ}む: to step on fresh snow\n- {一面|いちめん}の{新雪|しんせつ}: a blanket of fresh snow\n\nSIMILAR WORDS:\n- {粉雪|こなゆき}: powder snow — emphasizes the light, dry texture rather than freshness\n- {残雪|ざんせつ}: lingering snow — snow left over from a previous snowfall, the opposite of new snow\n- {積雪|せきせつ}: accumulated snow — refers to snow cover depth, regardless of when it fell\n\nUSAGE:\nNot to be confused with the homophone {親切|しんせつ} (kindness) or {新設|しんせつ} (newly established).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13858_konayuki",
+      "reading": "こなゆき",
+      "headword": "{粉雪|こなゆき}",
+      "label": "powder snow"
+    },
+    {
+      "type": "antonym",
+      "target_id": "21062_zansetsu",
+      "reading": "ざんせつ",
+      "headword": "{残雪|ざんせつ}",
+      "label": "lingering snow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14737_sekisetsu",
+      "reading": "せきせつ",
+      "headword": "{積雪|せきせつ}",
+      "label": "accumulated snow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22460_sasameyuki",
+      "reading": "ささめゆき",
+      "headword": "{細雪|ささめゆき}",
+      "label": "light snowfall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24032_shissetsu",
+      "reading": "しっせつ",
+      "headword": "{湿雪|しっせつ}",
+      "label": "wet snow"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature", "weather"]
+      "semantic": [
+        "nature",
+        "weather"
+      ]
     },
     "created": "2026-04-06T12:08:58Z",
-    "modified": "2026-04-06T12:08:58Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

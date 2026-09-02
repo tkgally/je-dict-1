@@ -19,7 +19,9 @@
       "english": "I moved the summer before last.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15474_issakunen_ex2",
@@ -27,7 +29,9 @@
       "english": "I've been studying Japanese since the year before last.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15474_issakunen_ex3",
@@ -35,20 +39,83 @@
       "english": "Compared to sales from the year before last, this year's have increased significantly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{一昨年|いっさくねん} is the formal reading used in writing and formal speech. The colloquial equivalent is おととし, which is more common in everyday conversation. Both mean the same thing.\n\nRELATED TIME WORDS:\n- おととし / {一昨年|いっさくねん} (year before last)\n- {去年|きょねん} / {昨年|さくねん} (last year)\n- {今年|ことし} (this year)\n- {来年|らいねん} (next year)\n- {再来年|さらいねん} (year after next)\n- {一昨日|いっさくじつ} / おととい (day before yesterday)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02895_ototoshi",
+      "reading": "おととし",
+      "headword": "おととし",
+      "label": "year before last"
+    },
+    {
+      "type": "related",
+      "target_id": "00727_kyonen",
+      "reading": "きょねん",
+      "headword": "{去年|きょねん}",
+      "label": "last year"
+    },
+    {
+      "type": "related",
+      "target_id": "00722_kotoshi",
+      "reading": "ことし",
+      "headword": "{今年|ことし}",
+      "label": "this year"
+    },
+    {
+      "type": "related",
+      "target_id": "00745_rainen",
+      "reading": "らいねん",
+      "headword": "{来年|らいねん}",
+      "label": "next year"
+    },
+    {
+      "type": "related",
+      "target_id": "01417_sarainen",
+      "reading": "さらいねん",
+      "headword": "{再来年|さらいねん}",
+      "label": "year after next"
+    },
+    {
+      "type": "related",
+      "target_id": "16681_issakujitsu",
+      "reading": "いっさくじつ",
+      "headword": "{一昨日|いっさくじつ}",
+      "label": "day before yesterday"
+    },
+    {
+      "type": "related",
+      "target_id": "00877_ototoi",
+      "reading": "おととい",
+      "headword": "おととい",
+      "label": "day before yesterday"
+    },
+    {
+      "type": "related",
+      "target_id": "26654_issakusakunen",
+      "reading": "いっさくさくねん",
+      "headword": "{一昨昨年|いっさくさくねん}",
+      "label": "three years ago"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T08:55:03Z",
-    "modified": "2026-03-07T08:55:03Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

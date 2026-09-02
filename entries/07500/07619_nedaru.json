@@ -168,7 +168,7 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY:\n{他動詞|たどうし} (transitive)\nPattern: ({人|ひと}に) Xをねだる - to beg (someone) for X\n\nKANJI:\nRarely written with kanji ({強請|ねだ}る), usually hiragana.\n\nASPECT (ている):\nねだっている - is begging (action in progress)\n\nNUANCE:\nTypically used for:\n- Children asking parents for things\n- Romantic partners asking for gifts/favors\n- Implies persistent, sometimes annoying requests\n\nRELATED:\n・{頼|たの}む - to ask, request (neutral)\n・せがむ - to pester, importune (similar meaning)\n・おねだりする - to beg cutely (childish/cute speech)",
+  "notes": "TRANSITIVITY:\n{他動詞|たどうし} (transitive)\nPattern: ({人|ひと}に) Xをねだる - to beg (someone) for X\n\nWRITING:\nRarely written with kanji ({強請|ねだ}る), usually hiragana.\n\nASPECT (ている):\nねだっている - is begging (action in progress)\n\nUSAGE:\nTypically used for:\n- Children asking parents for things\n- Romantic partners asking for gifts/favors\n- Implies persistent, sometimes annoying requests\n\nRELATED WORDS:\n- {頼|たの}む - to ask, request (neutral)\n- せがむ - to pester, importune (similar meaning)\n- おねだりする - to beg cutely (childish/cute speech)",
   "cross_references": [
     {
       "type": "synonym",
@@ -176,11 +176,25 @@
       "reading": "せがむ",
       "headword": "せがむ",
       "label": "to pester (similar)"
+    },
+    {
+      "type": "related",
+      "target_id": "01104_tanomu",
+      "reading": "たのむ",
+      "headword": "{頼|たの}む",
+      "label": "to ask, request"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27020_sebiru",
+      "reading": "せびる",
+      "headword": "せびる",
+      "label": "to pester for"
     }
   ],
   "metadata": {
     "created": "2026-01-20T12:57:12Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -190,6 +204,7 @@
       "transitivity": "transitive",
       "verb_class": "godan-ru",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "communication"
       ],

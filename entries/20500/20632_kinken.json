@@ -19,7 +19,9 @@
       "english": "To buy tickets at a discount ticket shop.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20632_kinken_ex2",
@@ -27,7 +29,9 @@
       "english": "Gift certificates and other cash vouchers are sometimes given as celebratory gifts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20632_kinken_ex3",
@@ -35,21 +39,43 @@
       "english": "At the discount ticket shop in front of the station, you can get Shinkansen tickets cheaper than the regular price.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Composed of {金|きん} (money, gold) + {券|けん} (ticket, voucher). A general term for any voucher, ticket, or certificate that has monetary value and can be exchanged for goods or services.\n\nCOMMON COLLOCATIONS:\n- {金券|きんけん}ショップ (discount ticket shop)\n- {金券|きんけん}を{贈|おく}る (to give a cash voucher as a gift)\n- {金券|きんけん}を{換金|かんきん}する (to convert a voucher to cash)\n- {金券|きんけん}{類|るい} (cash vouchers and the like)\n\nSIMILAR WORDS:\n- {商品券|しょうひんけん} — gift certificate; specifically for purchasing merchandise at a particular store or chain\n- {図書券|としょけん} — book voucher; specifically for buying books (now replaced by {図書|としょ}カード)\n- {回数券|かいすうけん} — multi-ride ticket; a book of tickets for repeated use\n\nCULTURAL NOTE:\n{金券|きんけん}ショップ (discount ticket shops) are a distinctive feature of Japanese cities, especially near train stations. They buy and sell various vouchers, train tickets, stamps, and gift certificates at a small discount. Travelers often use them to save money on {新幹線|しんかんせん} tickets and other transportation.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22121_shouhinken",
+      "reading": "しょうひんけん",
+      "headword": "{商品券|しょうひんけん}",
+      "label": "gift certificate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08451_kaisuuken",
+      "reading": "かいすうけん",
+      "headword": "{回数券|かいすうけん}",
+      "label": "multi-ride ticket"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T20:10:27Z",
-    "modified": "2026-03-29T20:10:27Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["money", "daily-life"]
+      "semantic": [
+        "money",
+        "daily-life"
+      ]
     }
   }
 }

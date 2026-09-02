@@ -22,7 +22,9 @@
       "id": "25416_kenkyuukai_ex1",
       "japanese": "{研究会|けんきゅうかい}に{入|はい}る。",
       "english": "I join a study group.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "25416_kenkyuukai_ex2",
       "japanese": "{大学|だいがく}で{歴史|れきし}{研究会|けんきゅうかい}を{立|た}ち{上|あ}げた。",
       "english": "I started a history research group at the university.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "25416_kenkyuukai_ex3",
       "japanese": "この{研究会|けんきゅうかい}には{全国|ぜんこく}から{百人|ひゃくにん}を{超|こ}える{会員|かいいん}が{集|あつ}まっている。",
       "english": "This study group has gathered over a hundred members from across the country.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "25416_kenkyuukai_ex4",
       "japanese": "{来週|らいしゅう}の{研究会|けんきゅうかい}で{発表|はっぴょう}する。",
       "english": "I'm presenting at the research meeting next week.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "25416_kenkyuukai_ex5",
       "japanese": "{月|つき}に{一度|いちど}、{研究会|けんきゅうかい}が{開|ひら}かれる。",
       "english": "A study session is held once a month.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,23 +72,75 @@
       "id": "25416_kenkyuukai_ex6",
       "japanese": "{社内|しゃない}{研究会|けんきゅうかい}で{新|あたら}しい{技術|ぎじゅつ}について{議論|ぎろん}した。",
       "english": "We discussed new technology at an in-house study meeting.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{研究会|けんきゅうかい} is a compound of {研究|けんきゅう} (research, study) + {会|かい} (meeting, group). It can refer to both the organization itself and the meetings it holds.\n\nCOMMON COLLOCATIONS:\n- {研究会|けんきゅうかい}を{開|ひら}く: hold a study meeting\n- {研究会|けんきゅうかい}に{参加|さんか}する: participate in a study group\n- {研究会|けんきゅうかい}で{発表|はっぴょう}する: present at a research meeting\n- {研究会|けんきゅうかい}を{設立|せつりつ}する: establish a research group\n\nSIMILAR WORDS:\n- {勉強会|べんきょうかい}: study group — more informal, often for practical skill-building rather than academic research\n- {学会|がっかい}: academic society; conference — larger and more formal, often with published proceedings\n- {研究所|けんきゅうじょ}: research institute — a permanent organization or facility, not a meeting",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23197_benkyoukai",
+      "reading": "べんきょうかい",
+      "headword": "{勉強会|べんきょうかい}",
+      "label": "study group"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04139_gakkai",
+      "reading": "がっかい",
+      "headword": "{学会|がっかい}",
+      "label": "academic society"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19075_kenkyuujo",
+      "reading": "けんきゅうじょ",
+      "headword": "{研究所|けんきゅうじょ}",
+      "label": "research institute"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24420_zeminaaru",
+      "reading": "ぜみなーる",
+      "headword": "ゼミナール",
+      "label": "seminar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25422_touronkai",
+      "reading": "とうろんかい",
+      "headword": "{討論会|とうろんかい}",
+      "label": "debate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25956_gakujutsukaigi",
+      "reading": "がくじゅつかいぎ",
+      "headword": "{学術会議|がくじゅつかいぎ}",
+      "label": "academic conference"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"],
-      "domain": ["academic"]
+      "semantic": [
+        "education"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-04-25T12:35:04Z",
-    "modified": "2026-04-25T12:35:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

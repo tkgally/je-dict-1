@@ -3,7 +3,7 @@
   "headword": "{言|い}いくるめる",
   "reading": "いいくるめる",
   "romaji": "iikurumeru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to talk (someone) into; to persuade by clever talk; to deceive with words",
   "definitions": [
     {
@@ -56,6 +56,29 @@
   ],
   "notes": "A compound verb formed from {言|い}う ('to say') + くるめる ('to wrap up, to lump together'). Literally 'to wrap (someone) up with words', i.e. to surround them with talk until they have no room to disagree.\n\nTRANSITIVITY:\nTransitive (ichidan verb). The person being persuaded is marked with を: AがBを{言|い}いくるめる ('A talks B into it'). The thing they are talked into can be expressed with various constructions, often with verb-て or 〜と:\n- {彼|かれ}を{買|か}わせるように{言|い}いくるめた: I talked him into buying it.\n- {彼|かれ}を{言|い}いくるめて、{結局|けっきょく}{私|わたし}の{案|あん}を{受|う}け{入|い}れさせた: I talked him around and in the end made him accept my proposal.\n\nThe passive form {言|い}いくるめられる ('to be talked into') is extremely common, since the verb is most often described from the victim's point of view.\n\nUSAGE:\nThe verb almost always has a negative or critical tone — the implication is that clever or even dishonest talk has overridden the listener's better judgement. It is rarely used about straightforward, honest persuasion; for that, {説得|せっとく}する is more appropriate.\n\nCOMMON COLLOCATIONS:\n- {相手|あいて}を{言|い}いくるめる: to talk the other person around\n- うまく{言|い}いくるめる: to skillfully talk (someone) into\n- {言|い}いくるめられる: to be talked into (passive — most common form)\n- {店員|てんいん}に{言|い}いくるめられる: to be talked into buying something by a clerk\n- {子|こ}どもを{言|い}いくるめる: to talk a child around\n- {口先|くちさき}で{言|い}いくるめる: to talk around with mere words\n\nSIMILAR WORDS:\n- {説得|せっとく}する: to persuade — neutral; refers to genuine, reasoned persuasion. Does not imply trickery.\n- {丸|まる}め{込|こ}む: to talk into, to coax — very close in meaning to {言|い}いくるめる, also negative; emphasizes the act of 'rolling someone up' so they cannot resist.\n- だます: to deceive — focuses on the act of deception itself rather than the talking; outright dishonesty.\n- {言|い}いくるむ: an alternate form of {言|い}いくるめる, less common in modern Japanese.\n- {言|い}い{包|くる}める: an older kanji spelling of the same verb.\n- {言|い}い{負|ま}かす: to defeat someone in argument — to outtalk them in an argument so they can't reply, but without the manipulative nuance of {言|い}いくるめる.\n\nREGISTER:\nNeutral to slightly literary. Used freely in everyday speech, news articles about scams, and novels. The negative nuance means it is rarely used in self-praise: a speaker would not normally boast about having {言|い}いくるめた someone.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21139_settokusuru",
+      "reading": "せっとくする",
+      "headword": "{説得|せっとく}する",
+      "label": "to persuade"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02286_damasu",
+      "reading": "だます",
+      "headword": "{騙|だま}す",
+      "label": "to deceive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09894_iimakasu",
+      "reading": "いいまかす",
+      "headword": "{言|い}い{負|ま}かす",
+      "label": "to defeat someone in argument"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -75,7 +98,7 @@
       ]
     },
     "created": "2026-04-12T01:47:50Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

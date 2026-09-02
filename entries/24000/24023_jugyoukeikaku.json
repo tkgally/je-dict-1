@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {授業|じゅぎょう} ('class; lesson') and {計画|けいかく} ('plan'). A practical, everyday word used in primary, secondary, and higher education to refer to the teacher's written plan for what to cover in class. Can refer to a single lesson's plan or to a broader course-level plan.\n\nUSAGE:\n- Used throughout education — from elementary-school teacher training to university pedagogy courses.\n- At universities, overlaps heavily with {シラバス|しらばす} ('syllabus'), though {授業計画|じゅぎょうけいかく} is the native-Japanese equivalent that appears on official forms.\n- Typical verbs: {立|た}てる ('to draw up'), {作|つく}る ('to make'), {提出|ていしゅつ}する ('to submit'), {変更|へんこう}する ('to change'), {見直|みなお}す ('to review').\n- Often discussed together with {学習指導要領|がくしゅうしどうようりょう} ('national curriculum guidelines') as the macro framework that lesson plans align with.\n\nCOMMON COLLOCATIONS:\n- {授業計画|じゅぎょうけいかく}を{立|た}てる: to draw up a lesson plan\n- {授業計画|じゅぎょうけいかく}を{作成|さくせい}する: to create a lesson plan\n- {授業計画|じゅぎょうけいかく}を{提出|ていしゅつ}する: to submit a lesson plan\n- {授業計画|じゅぎょうけいかく}に{沿|そ}って: in line with the lesson plan\n- {年間|ねんかん}{授業計画|じゅぎょうけいかく}: annual lesson plan\n\nSIMILAR WORDS:\n- {指導案|しどうあん}: teaching plan — more specific term for a detailed, single-lesson plan used in teacher training and school inspections; includes minute-by-minute steps.\n- {シラバス|しらばす}: syllabus — standard at universities; covers course-level goals, evaluation, and weekly topics.\n- {学習指導要領|がくしゅうしどうようりょう}: national curriculum guidelines — the government-issued framework all school lesson plans must follow.\n- {カリキュラム|かりきゅらむ}: curriculum — the overall program of study across multiple courses, broader than a single {授業計画|じゅぎょうけいかく}.\n- {教案|きょうあん}: lesson plan — older / more traditional term, largely synonymous with {指導案|しどうあん} but less common in modern use.",
+  "notes": "Compound of {授業|じゅぎょう} ('class; lesson') and {計画|けいかく} ('plan'). A practical, everyday word used in primary, secondary, and higher education to refer to the teacher's written plan for what to cover in class. Can refer to a single lesson's plan or to a broader course-level plan.\n\nUSAGE:\n- Used throughout education — from elementary-school teacher training to university pedagogy courses.\n- At universities, overlaps heavily with シラバス ('syllabus'), though {授業計画|じゅぎょうけいかく} is the native-Japanese equivalent that appears on official forms.\n- Typical verbs: {立|た}てる ('to draw up'), {作|つく}る ('to make'), {提出|ていしゅつ}する ('to submit'), {変更|へんこう}する ('to change'), {見直|みなお}す ('to review').\n- Often discussed together with {学習指導要領|がくしゅうしどうようりょう} ('national curriculum guidelines') as the macro framework that lesson plans align with.\n\nCOMMON COLLOCATIONS:\n- {授業計画|じゅぎょうけいかく}を{立|た}てる: to draw up a lesson plan\n- {授業計画|じゅぎょうけいかく}を{作成|さくせい}する: to create a lesson plan\n- {授業計画|じゅぎょうけいかく}を{提出|ていしゅつ}する: to submit a lesson plan\n- {授業計画|じゅぎょうけいかく}に{沿|そ}って: in line with the lesson plan\n- {年間|ねんかん}{授業計画|じゅぎょうけいかく}: annual lesson plan\n\nSIMILAR WORDS:\n- {指導案|しどうあん}: teaching plan — more specific term for a detailed, single-lesson plan used in teacher training and school inspections; includes minute-by-minute steps.\n- シラバス: syllabus — standard at universities; covers course-level goals, evaluation, and weekly topics.\n- {学習指導要領|がくしゅうしどうようりょう}: national curriculum guidelines — the government-issued framework all school lesson plans must follow.\n- カリキュラム: curriculum — the overall program of study across multiple courses, broader than a single {授業計画|じゅぎょうけいかく}.\n- {教案|きょうあん}: lesson plan — older / more traditional term, largely synonymous with {指導案|しどうあん} but less common in modern use.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16670_shidouan",
+      "reading": "しどうあん",
+      "headword": "{指導案|しどうあん}",
+      "label": "teaching plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26215_gakushuushidouyouryou",
+      "reading": "がくしゅうしどうようりょう",
+      "headword": "{学習指導要領|がくしゅうしどうようりょう}",
+      "label": "national curriculum guidelines"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10947_karikyuramu",
+      "reading": "かりきゅらむ",
+      "headword": "カリキュラム",
+      "label": "curriculum"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26171_kyouan",
+      "reading": "きょうあん",
+      "headword": "{教案|きょうあん}",
+      "label": "lesson plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23560_kyouikukatei",
+      "reading": "きょういくかてい",
+      "headword": "{教育|きょういく}{課程|かてい}",
+      "label": "curriculum"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +100,6 @@
       ]
     },
     "created": "2026-04-15T20:10:07Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

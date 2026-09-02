@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{診察券|しんさつけん} is issued by each medical facility.\n\nCOMMON PATTERNS:\n- {診察券|しんさつけん}を{出|だ}す (to present one's patient card)\n- {診察券|しんさつけん}を{作|つく}る (to get a patient card made)\n\nUSAGE NOTES:\n- Each hospital/clinic issues its own card\n- Contains patient ID number used for check-in\n- Used with {保険証|ほけんしょう} (insurance card) at each visit\n\nRELATED TERMS:\n- {保険証|ほけんしょう}: health insurance card\n- {初診|しょしん}: first visit\n- {再診|さいしん}: return visit",
+  "notes": "{診察券|しんさつけん} is issued by each medical facility.\n\nCOMMON PATTERNS:\n- {診察券|しんさつけん}を{出|だ}す (to present one's patient card)\n- {診察券|しんさつけん}を{作|つく}る (to get a patient card made)\n\nUSAGE:\n- Each hospital/clinic issues its own card\n- Contains patient ID number used for check-in\n- Used with {保険証|ほけんしょう} (insurance card) at each visit\n\nRELATED WORDS:\n- {保険証|ほけんしょう}: health insurance card\n- {初診|しょしん}: first visit\n- {再診|さいしん}: return visit",
   "metadata": {
     "created": "2026-02-03T06:54:17Z",
-    "modified": "2026-06-24T18:40:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -67,6 +67,41 @@
       "reading": "もんしんひょう",
       "headword": "{問診票|もんしんひょう}",
       "label": "medical questionnaire"
+    },
+    {
+      "type": "related",
+      "target_id": "09707_hokenshou",
+      "reading": "ほけんしょう",
+      "headword": "{保険証|ほけんしょう}",
+      "label": "health insurance card"
+    },
+    {
+      "type": "related",
+      "target_id": "11090_shoshin",
+      "reading": "しょしん",
+      "headword": "{初診|しょしん}",
+      "label": "first visit"
+    },
+    {
+      "type": "related",
+      "target_id": "23254_saishin",
+      "reading": "さいしん",
+      "headword": "{再診|さいしん}",
+      "label": "return visit"
+    },
+    {
+      "type": "related",
+      "target_id": "22898_kaiinshou",
+      "reading": "かいいんしょう",
+      "headword": "{会員証|かいいんしょう}",
+      "label": "membership card"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26536_kioureki",
+      "reading": "きおうれき",
+      "headword": "{既往歴|きおうれき}",
+      "label": "medical history"
     }
   ]
 }

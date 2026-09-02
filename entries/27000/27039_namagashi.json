@@ -17,15 +17,19 @@
       "id": "27039_namagashi_ex1",
       "japanese": "{生菓子|なまがし}は{日持|ひも}ちしない。",
       "english": "Fresh sweets don't keep long.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "27039_namagashi_ex2",
-      "japanese": "{季節|きせつ}の{生菓子|なまがし}を{お茶|おちゃ}と{一緒|いっしょ}にいただいた。",
+      "japanese": "{季節|きせつ}の{生菓子|なまがし}をお{茶|ちゃ}と{一緒|いっしょ}にいただいた。",
       "english": "I enjoyed seasonal fresh sweets together with tea.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "27039_namagashi_ex3",
       "japanese": "この{和菓子屋|わがしや}の{生菓子|なまがし}は{花|はな}の{形|かたち}をしていて{美|うつく}しい。",
       "english": "The fresh sweets from this Japanese confection shop are shaped like flowers and are beautiful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A category of traditional Japanese sweets ({和菓子|わがし}) characterized by high moisture content (typically over 30%). They are soft and perishable, in contrast to {干菓子|ひがし} (dry confections) which keep much longer. Common types include {練|ね}り{切|き}り (nerikiri), {大福|だいふく} (daifuku), and {羊羹|ようかん} (yokan).\n\nCOMMON COLLOCATIONS:\n- {季節|きせつ}の{生菓子|なまがし} — seasonal fresh sweets\n- {上生菓子|じょうなまがし} — premium fresh confections (served at formal tea ceremonies)\n- {生菓子|なまがし}を{作|つく}る — to make fresh sweets\n\nCULTURAL CONTEXT:\nFresh confections are closely tied to the tea ceremony ({茶道|さどう}), where they are served to complement the bitterness of {抹茶|まっちゃ}. Designs often reflect the current season — cherry blossoms in spring, maple leaves in autumn — making them a form of edible art.\n\nSIMILAR WORDS:\n- {和菓子|わがし} — Japanese sweets (broader category that includes both fresh and dry varieties)\n- {干菓子|ひがし} — dry Japanese confections (longer shelf life, served at casual tea gatherings)",
+  "notes": "A category of traditional Japanese sweets ({和菓子|わがし}) characterized by high moisture content (typically over 30%). They are soft and perishable, in contrast to {干菓子|ひがし} (dry confections) which keep much longer. Common types include {練|ね}り{切|き}り (nerikiri), {大福|だいふく} (daifuku), and {羊羹|ようかん} (yokan).\n\nCOMMON COLLOCATIONS:\n- {季節|きせつ}の{生菓子|なまがし} — seasonal fresh sweets\n- {上生菓子|じょうなまがし} — premium fresh confections (served at formal tea ceremonies)\n- {生菓子|なまがし}を{作|つく}る — to make fresh sweets\n\nCULTURAL NOTE:\nFresh confections are closely tied to the tea ceremony ({茶道|さどう}), where they are served to complement the bitterness of {抹茶|まっちゃ}. Designs often reflect the current season — cherry blossoms in spring, maple leaves in autumn — making them a form of edible art.\n\nSIMILAR WORDS:\n- {和菓子|わがし} — Japanese sweets (broader category that includes both fresh and dry varieties)\n- {干菓子|ひがし} — dry Japanese confections (longer shelf life, served at casual tea gatherings)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04962_wagashi",
+      "reading": "わがし",
+      "headword": "{和菓子|わがし}",
+      "label": "Japanese sweets"
+    },
+    {
+      "type": "related",
+      "target_id": "15806_yakigashi",
+      "reading": "やきがし",
+      "headword": "{焼|や}き{菓子|がし}",
+      "label": "baked goods"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22307_mushigashi",
+      "reading": "むしがし",
+      "headword": "{蒸|む}し{菓子|がし}",
+      "label": "steamed confection"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-05-06T15:08:04Z",
-    "modified": "2026-05-06T15:08:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

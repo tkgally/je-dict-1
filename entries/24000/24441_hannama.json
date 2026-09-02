@@ -4,7 +4,7 @@
   "headword": "{半生|はんなま}",
   "reading": "はんなま",
   "romaji": "hannama",
-  "part_of_speech": "noun, adjective-na, adjective-no",
+  "part_of_speech": "noun, na-adjective, no-adjective",
   "gloss": "half-raw; half-cooked; medium-rare",
   "definitions": [
     {
@@ -46,6 +46,29 @@
     }
   ],
   "notes": "Describes food that is only partially cooked. Can be desirable (as with a medium-rare steak or a soft-boiled egg) or a health concern (as with undercooked chicken). Note the reading: {半生|はんなま} refers to cooking doneness, while the same kanji read as はんせい means \"half a lifetime.\"\n\nCOMMON COLLOCATIONS:\n- {半生|はんなま}の{卵|たまご}: soft-boiled/half-raw egg\n- {半生|はんなま}で{焼|や}く: to cook medium-rare\n- {半生|はんなま}{状態|じょうたい}: half-cooked state\n\nSIMILAR WORDS:\n- {生|なま}: raw — completely uncooked\n- レア: rare — loanword used specifically for steak doneness\n- {半熟|はんじゅく}: soft-boiled — specifically for eggs, where the yolk is still runny\n- {生焼|なまや}け: undercooked — implies the food should have been cooked more",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11251_rea",
+      "reading": "れあ",
+      "headword": "レア",
+      "label": "rare"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11935_hanjuku",
+      "reading": "はんじゅく",
+      "headword": "{半熟|はんじゅく}",
+      "label": "soft-boiled"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22421_namayake",
+      "reading": "なまやけ",
+      "headword": "{生焼|なまや}け",
+      "label": "undercooked"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,11 +77,13 @@
         "adjective-na",
         "adjective-no"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food"
       ]
     },
     "created": "2026-04-19T10:10:44Z",
-    "modified": "2026-04-19T10:10:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "11652_koukyou",
   "headword": "{公共|こうきょう}",
   "reading": "こうきょう",
-  "part_of_speech": "noun, adjective (no)",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "public",
   "schema_version": "2.0",
   "definitions": [
@@ -19,7 +19,9 @@
       "english": "Let's observe good manners in public places.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11652_koukyou_ex2",
@@ -27,7 +29,9 @@
       "english": "Please use public transportation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11652_koukyou_ex3",
@@ -35,10 +39,12 @@
       "english": "Taxes are used to maintain public services.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Almost always used as a modifier before a noun: {公共|こうきょう}の〜 or {公共|こうきょう}〜.\n\nCOMMON COLLOCATIONS:\n・{公共|こうきょう}{交通|こうつう}{機関|きかん} (public transportation)\n・{公共|こうきょう}{施設|しせつ} (public facilities)\n・{公共|こうきょう}サービス (public services)\n・{公共|こうきょう}{事業|じぎょう} (public works)\n・{公共|こうきょう}の{場|ば} (public place)\n・{公共|こうきょう}の{利益|りえき} (public interest)\n・{公共|こうきょう}の{福祉|ふくし} (public welfare)\n\n{公共|こうきょう} emphasizes that something belongs to or serves the community as a whole, as opposed to being private.",
+  "notes": "Almost always used as a modifier before a noun: {公共|こうきょう}の〜 or {公共|こうきょう}〜.\n\nCOMMON COLLOCATIONS:\n- {公共|こうきょう}{交通|こうつう}{機関|きかん} (public transportation)\n- {公共|こうきょう}{施設|しせつ} (public facilities)\n- {公共|こうきょう}サービス (public services)\n- {公共|こうきょう}{事業|じぎょう} (public works)\n- {公共|こうきょう}の{場|ば} (public place)\n- {公共|こうきょう}の{利益|りえき} (public interest)\n- {公共|こうきょう}の{福祉|ふくし} (public welfare)\n\n{公共|こうきょう} emphasizes that something belongs to or serves the community as a whole, as opposed to being private.",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,17 +52,36 @@
       "reading": "みんかん",
       "headword": "{民間|みんかん}",
       "label": "private, civilian"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11660_koushuu",
+      "reading": "こうしゅう",
+      "headword": "{公衆|こうしゅう}",
+      "label": "the public, general public"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21529_kyouyou",
+      "reading": "きょうよう",
+      "headword": "{共用|きょうよう}",
+      "label": "shared use"
     }
   ],
   "metadata": {
     "created": "2026-02-17T18:39:59Z",
-    "modified": "2026-04-28T08:04:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

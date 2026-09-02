@@ -3,7 +3,7 @@
   "headword": "{入植|にゅうしょく}",
   "reading": "にゅうしょく",
   "romaji": "nyuushoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "settlement; colonization",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "A compound of {入|にゅう} (to enter) and {植|しょく} (to plant, colonize). Refers to the act of settling in a new area, typically for agricultural development.\n\nHistorically important in Japan, especially regarding the settlement of Hokkaido during the Meiji era, Japanese emigration to Manchuria and other territories in the early 20th century, and postwar agricultural resettlement programs.\n\nAlso used in international contexts to describe colonization and settlement of territories.\n\nCOMMON COLLOCATIONS:\n- {入植|にゅうしょく}{者|しゃ}: settler, colonist\n- {入植|にゅうしょく}{地|ち}: settlement, colony\n- {入植|にゅうしょく}{事業|じぎょう}: colonization project\n- {入植|にゅうしょく}を{開始|かいし}する: to begin settlement\n\nSIMILAR WORDS:\n- {開拓|かいたく}: pioneering, reclamation — emphasizes the act of developing undeveloped land\n- {植民|しょくみん}: colonization — stronger political and imperial connotations\n- {移住|いじゅう}: migration, relocation — broader term for moving to a new place to live",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09954_kaitaku",
+      "reading": "かいたく",
+      "headword": "{開拓|かいたく}",
+      "label": "pioneering, reclamation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13752_ijuu",
+      "reading": "いじゅう",
+      "headword": "{移住|いじゅう}",
+      "label": "migration, relocation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +69,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "history",
         "society"
@@ -60,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-20T14:32:39Z",
-    "modified": "2026-04-20T14:32:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

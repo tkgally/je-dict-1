@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "GRAMMAR:\nUsed as a suru verb. The pattern is ～に{熟達|じゅくたつ}する (to become proficient at ~). The particle に marks the skill or subject.\n\nCOMMON PATTERNS:\n- ～に{熟達|じゅくたつ}する (to master ~)\n- ～に{熟達|じゅくたつ}した + noun (a noun skilled at ~)\n- {熟達|じゅくたつ}{者|しゃ} (expert, master)\n\nCONTRAST:\n- {上達|じょうたつ} (improvement — emphasizes getting better, can apply at any level)\n- {熟達|じゅくたつ} (mastery — emphasizes reaching a high level of skill through maturation)\n- {精通|せいつう} (being well-versed — emphasizes knowledge rather than skill)",
-  "cross_references": [],
+  "notes": "COMMON PATTERNS:\nUsed as a suru verb. The pattern is ～に{熟達|じゅくたつ}する (to become proficient at ~). The particle に marks the skill or subject.\n- ～に{熟達|じゅくたつ}する (to master ~)\n- ～に{熟達|じゅくたつ}した + noun (a noun skilled at ~)\n- {熟達|じゅくたつ}{者|しゃ} (expert, master)\n\nSIMILAR WORDS:\n- {上達|じょうたつ} (improvement — emphasizes getting better, can apply at any level)\n- {熟達|じゅくたつ} (mastery — emphasizes reaching a high level of skill through maturation)\n- {精通|せいつう} (being well-versed — emphasizes knowledge rather than skill)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03346_joutatsu",
+      "reading": "じょうたつ",
+      "headword": "{上達|じょうたつ}",
+      "label": "improvement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15453_seitsuu",
+      "reading": "せいつう",
+      "headword": "{精通|せいつう}",
+      "label": "being well-versed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17981_joutatsusuru",
+      "reading": "じょうたつする",
+      "headword": "{上達|じょうたつ}する",
+      "label": "to improve"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T07:40:42Z",
-    "modified": "2026-03-29T03:08:43Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

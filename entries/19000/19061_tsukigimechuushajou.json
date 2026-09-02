@@ -17,7 +17,9 @@
       "id": "19061_tsukigimechuushajou_ex1",
       "japanese": "{月極駐車場|つきぎめちゅうしゃじょう}を{借|か}りている。",
       "english": "I rent a monthly parking space.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19061_tsukigimechuushajou_ex2",
       "japanese": "この{辺|あた}りの{月極駐車場|つきぎめちゅうしゃじょう}は{月|つき}{二万円|にまんえん}くらいだ。",
       "english": "Monthly parking lots around here cost about 20,000 yen per month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,38 @@
       "id": "19061_tsukigimechuushajou_ex3",
       "japanese": "{引|ひ}っ{越|こ}したので、{近|ちか}くで{月極駐車場|つきぎめちゅうしゃじょう}を{探|さが}さなければならない。",
       "english": "Since I moved, I need to find a monthly parking space nearby.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {月極|つきぎめ} (monthly basis/fixed monthly) + {駐車場|ちゅうしゃじょう} (parking lot). The word {月極|つきぎめ} is a common sight on signs throughout Japan but is often misread as 'げっきょく' by learners; the correct reading is つきぎめ. Contrasts with コインパーキング (coin-operated parking) and {時間貸|じかんが}し{駐車場|ちゅうしゃじょう} (hourly parking). Monthly parking is essential in Japanese cities where most apartments do not include parking.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24421_koinpaakingu",
+      "reading": "こいんぱーきんぐ",
+      "headword": "コインパーキング",
+      "label": "pay parking lot"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "building"]
+      "semantic": [
+        "transportation",
+        "building"
+      ]
     },
     "created": "2026-03-24T04:44:27Z",
-    "modified": "2026-03-24T04:44:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

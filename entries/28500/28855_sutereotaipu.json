@@ -17,7 +17,9 @@
       "id": "28855_sutereotaipu_ex1",
       "japanese": "それはステレオタイプだ。",
       "english": "That's a stereotype.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28855_sutereotaipu_ex2",
       "japanese": "{日本人|にほんじん}についてのステレオタイプにとらわれている。",
       "english": "They are caught up in stereotypes about Japanese people.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,60 @@
       "id": "28855_sutereotaipu_ex3",
       "japanese": "{広告|こうこく}は{時|とき}に{性別|せいべつ}のステレオタイプを{強化|きょうか}してしまうことがある。",
       "english": "Advertisements can sometimes reinforce gender stereotypes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Loanword from English \"stereotype.\" Used in sociological, cultural, and everyday contexts. Almost always carries a slightly negative tone — calling something a ステレオタイプ implies it's an unfair oversimplification.\n\nCOMMON COLLOCATIONS:\n- ステレオタイプにとらわれる: to be caught up in stereotypes\n- ステレオタイプを{打|う}ち{破|やぶ}る: to break stereotypes\n- ステレオタイプを{強化|きょうか}する: to reinforce stereotypes\n- {性別|せいべつ}のステレオタイプ: gender stereotypes\n- ステレオタイプ{的|てき}な{見方|みかた}: a stereotyped view\n\nSIMILAR WORDS:\n- {偏見|へんけん}: prejudice — emphasizes the bias itself, often with hostility\n- {固定観念|こていかんねん}: fixed idea — a native term close in meaning to ステレオタイプ\n- {先入観|せんにゅうかん}: preconception — about an individual case, not a whole group",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06025_henken",
+      "reading": "へんけん",
+      "headword": "{偏見|へんけん}",
+      "label": "prejudice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07467_koteikannen",
+      "reading": "こていかんねん",
+      "headword": "{固定観念|こていかんねん}",
+      "label": "fixed idea"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07312_sennyuukan",
+      "reading": "せんにゅうかん",
+      "headword": "{先入観|せんにゅうかん}",
+      "label": "preconception"
+    },
+    {
+      "type": "related",
+      "target_id": "04801_tenkeiteki",
+      "reading": "てんけいてき",
+      "headword": "{典型的|てんけいてき}",
+      "label": "typical"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["abstract", "society"],
+      "politeness": "plain",
+      "semantic": [
+        "abstract",
+        "society"
+      ],
       "domain": []
     },
     "created": "2026-06-06T03:12:09Z",
-    "modified": "2026-06-06T03:12:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

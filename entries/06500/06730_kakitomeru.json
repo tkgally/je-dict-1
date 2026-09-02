@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive), with no intransitive pair. What gets written down is marked with ⟦を→を：00422_wo⟧; where it is written goes with ⟦に→に：00314_ni⟧.\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{書|か}き{留|と}める: write ~ down\n- ⟦{手帳|てちょう}→手帳：04537_techou⟧⟦に→に：00314_ni⟧{書|か}き{留|と}める: write it down in a planner\n- {書|か}き{留|と}めて⟦おく→おく：01092_oku⟧: write it down now so it is there later. This is the commonest shape of the verb, because the point of writing something down is almost always the later use.\n\nFORMATION: ⟦{書|か}く→書く：00477_kaku⟧ (write) + ⟦{留|と}める→止める：00678_tomeru⟧ (fasten, hold in place). The second half is what separates it from plain ⟦{書|か}く→書く：00477_kaku⟧: it is writing that pins information down so it will not be lost.\n\nWATCH OUT: the noun ⟦{書留|かきとめ}→書留：00150_kakitome⟧, written with the same two characters but no okurigana, is registered mail. It is a different word, not a form of this verb.\n\nSIMILAR VERBS:\n- ⟦メモする→メモする：25501_memosuru⟧ is the casual everyday equivalent, and what most people actually say.\n- ⟦{記録|きろく}→記録：02490_kiroku⟧⟦する→する：00392_suru⟧ is to record systematically, for data or an official account, not for a personal reminder.\n- ⟦{控|ひか}える→控える：10054_hikaeru⟧ overlaps for jotting down numbers and details to keep on hand; it also has an unrelated sense of refraining.\n\nREGISTER: neutral but slightly careful and bookish. In casual speech ⟦メモする→メモする：25501_memosuru⟧ or ⟦{書|か}いて→書く：00477_kaku⟧⟦おく→おく：01092_oku⟧ is more likely.",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive), with no intransitive pair. What gets written down is marked with ⟦を→を：00422_wo⟧; where it is written goes with ⟦に→に：00314_ni⟧.\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{書|か}き{留|と}める: write ~ down\n- ⟦{手帳|てちょう}→手帳：04537_techou⟧⟦に→に：00314_ni⟧{書|か}き{留|と}める: write it down in a planner\n- {書|か}き{留|と}めて⟦おく→おく：01092_oku⟧: write it down now so it is there later. This is the commonest shape of the verb, because the point of writing something down is almost always the later use.\n\nFORMATION: ⟦{書|か}く→書く：00477_kaku⟧ (write) + ⟦{留|と}める→止める：00678_tomeru⟧ (fasten, hold in place). The second half is what separates it from plain ⟦{書|か}く→書く：00477_kaku⟧: it is writing that pins information down so it will not be lost.\n\nWATCH OUT: the noun ⟦{書留|かきとめ}→書留：00150_kakitome⟧, written with the same two characters but no okurigana, is registered mail. It is a different word, not a form of this verb.\n\nSIMILAR WORDS:\n- ⟦メモする→メモする：25501_memosuru⟧ is the casual everyday equivalent, and what most people actually say.\n- ⟦{記録|きろく}→記録：02490_kiroku⟧⟦する→する：00392_suru⟧ is to record systematically, for data or an official account, not for a personal reminder.\n- ⟦{控|ひか}える→控える：10054_hikaeru⟧ overlaps for jotting down numbers and details to keep on hand; it also has an unrelated sense of refraining.\n\nREGISTER: neutral but slightly careful and bookish. In casual speech ⟦メモする→メモする：25501_memosuru⟧ or ⟦{書|か}いて→書く：00477_kaku⟧⟦おく→おく：01092_oku⟧ is more likely.",
   "cross_references": [
     {
       "type": "related",
@@ -175,11 +175,32 @@
       "reading": "めもする",
       "headword": "メモする",
       "label": "the casual everyday equivalent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25341_kirokusuru",
+      "reading": "きろくする",
+      "headword": "{記録|きろく}する",
+      "label": "is to record systematically, for data…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10054_hikaeru",
+      "reading": "ひかえる",
+      "headword": "{控|ひか}える",
+      "label": "overlaps for jotting down numbers…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21145_kakinokosu",
+      "reading": "かきのこす",
+      "headword": "{書|か}き{残|のこ}す",
+      "label": "to leave in writing"
     }
   ],
   "metadata": {
     "created": "2026-01-18T05:06:08Z",
-    "modified": "2026-09-01T00:19:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

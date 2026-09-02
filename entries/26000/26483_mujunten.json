@@ -17,7 +17,9 @@
       "id": "26483_mujunten_ex1",
       "japanese": "この{報告書|ほうこくしょ}にはいくつか{矛盾点|むじゅんてん}がある。",
       "english": "There are several inconsistencies in this report.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26483_mujunten_ex2",
       "japanese": "{弁護士|べんごし}は{証言|しょうげん}の{矛盾点|むじゅんてん}を{指摘|してき}した。",
       "english": "The lawyer pointed out the contradictions in the testimony.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,37 @@
       "id": "26483_mujunten_ex3",
       "japanese": "{計画|けいかく}の{矛盾点|むじゅんてん}を{洗|あら}い{出|だ}して、{実現可能|じつげんかのう}な{案|あん}に{修正|しゅうせい}する{必要|ひつよう}がある。",
       "english": "We need to identify the inconsistencies in the plan and revise it into something feasible.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {矛盾|むじゅん} (contradiction) and {点|てん} (point, aspect). The suffix {点|てん} narrows the focus to a specific aspect or instance of contradiction, making this word more concrete than {矛盾|むじゅん} alone. Part of the productive X{点|てん} pattern: {問題点|もんだいてん} (problem point), {改善点|かいぜんてん} (point for improvement), {相違点|そういてん} (point of difference).\n\nCOMMON COLLOCATIONS:\n- {矛盾点|むじゅんてん}を{指摘|してき}する: to point out an inconsistency\n- {矛盾点|むじゅんてん}を{洗|あら}い{出|だ}す: to identify contradictions\n- {矛盾点|むじゅんてん}が{見|み}つかる: for an inconsistency to be found\n\nSIMILAR WORDS:\n- {矛盾|むじゅん}: contradiction — the general concept, while {矛盾点|むじゅんてん} refers to a specific instance or detail\n- {食|く}い{違|ちが}い: discrepancy — focuses on mismatches between accounts or versions rather than logical contradiction\n- {不整合|ふせいごう}: inconsistency — more technical term used in data, systems, and formal logic",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09342_kuichigai",
+      "reading": "くいちがい",
+      "headword": "{食|く}い{違|ちが}い",
+      "label": "discrepancy"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     },
     "created": "2026-05-02T12:18:56Z",
-    "modified": "2026-05-02T12:18:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{魅惑的|みわくてき}",
   "reading": "みわくてき",
   "romaji": "miwakuteki",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "fascinating; enchanting; captivating",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "25935_miwakuteki_ex1",
       "japanese": "{魅惑的|みわくてき}な{笑顔|えがお}だった。",
       "english": "It was an enchanting smile.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25935_miwakuteki_ex2",
       "japanese": "あの{歌手|かしゅ}は{魅惑的|みわくてき}な{声|こえ}の{持|も}ち{主|ぬし}だ。",
       "english": "That singer has a captivating voice.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,52 @@
       "id": "25935_miwakuteki_ex3",
       "japanese": "{夜|よる}の{港町|みなとまち}は{魅惑的|みわくてき}な{光|ひかり}に{満|み}ちていた。",
       "english": "The harbor town at night was filled with enchanting lights.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A na-adjective formed from {魅惑|みわく} (fascination; enchantment) plus {的|てき}. Conveys a sense of irresistible allure, often with a slightly seductive or mysterious quality. Used for people, voices, scenery, and abstract qualities.\n\nCOMMON COLLOCATIONS:\n- {魅惑的|みわくてき}な{笑顔|えがお}: enchanting smile\n- {魅惑的|みわくてき}な{声|こえ}: captivating voice\n- {魅惑的|みわくてき}な{香|かお}り: alluring fragrance\n- {魅惑的|みわくてき}な{瞳|ひとみ}: captivating eyes\n- {魅惑的|みわくてき}な{世界|せかい}: fascinating world\n\nSIMILAR WORDS:\n- {魅力的|みりょくてき}: attractive; charming — broader and more neutral than {魅惑的|みわくてき}, which implies stronger, almost spell-like allure\n- {妖艶|ようえん}な: bewitchingly beautiful — carries a stronger connotation of sensuality and dark beauty\n- {魅了|みりょう}する: to fascinate; to captivate — the verb form expressing the act of charming someone",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04799_miryokuteki",
+      "reading": "みりょくてき",
+      "headword": "{魅力的|みりょくてき}",
+      "label": "attractive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17761_youen",
+      "reading": "ようえん",
+      "headword": "{妖艶|ようえん}",
+      "label": "bewitchingly beautiful"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19016_miryousuru",
+      "reading": "みりょうする",
+      "headword": "{魅了|みりょう}する",
+      "label": "to fascinate"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
-      "semantic": ["evaluation", "emotion"]
+      "pos": [
+        "adjective-na"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "evaluation",
+        "emotion"
+      ]
     },
     "created": "2026-04-28T13:29:16Z",
-    "modified": "2026-04-28T13:29:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

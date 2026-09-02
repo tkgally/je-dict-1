@@ -17,7 +17,9 @@
       "id": "22611_jouri_ex1",
       "japanese": "{条理|じょうり}に{合|あ}った{判断|はんだん}だ。",
       "english": "It's a judgment that accords with reason.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22611_jouri_ex2",
       "japanese": "その{主張|しゅちょう}は{条理|じょうり}を{欠|か}いている。",
       "english": "That argument lacks logic.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "22611_jouri_ex3",
       "japanese": "{法律|ほうりつ}に{規定|きてい}がない{場合|ばあい}は、{条理|じょうり}に{基|もと}づいて{判断|はんだん}することがある。",
       "english": "When there is no legal provision, judgment may be made based on principles of reason.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A somewhat literary and formal word referring to the natural order of reason or logic. In Japanese law, {条理|じょうり} is recognized as a supplementary source of law — when no statute or custom applies, courts may decide cases based on general principles of reason and justice.\n\nCOMMON COLLOCATIONS:\n- {条理|じょうり}に{合|あ}う: to accord with reason\n- {条理|じょうり}を{欠|か}く: to lack logic\n- {条理|じょうり}に{基|もと}づく: to be based on reason\n- {条理|じょうり}に{反|はん}する: to go against reason\n\nSIMILAR WORDS:\n- {道理|どうり}: reason; logic — more commonly used in everyday language\n- {理屈|りくつ}: reasoning; logic — can have a negative nuance of being overly theoretical\n- {筋道|すじみち}: logical sequence; reasoning — emphasizes the step-by-step logical flow",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10400_douri",
+      "reading": "どうり",
+      "headword": "{道理|どうり}",
+      "label": "reason"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02513_rikutsu",
+      "reading": "りくつ",
+      "headword": "{理屈|りくつ}",
+      "label": "reasoning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18257_sujimichi",
+      "reading": "すじみち",
+      "headword": "{筋道|すじみち}",
+      "label": "logical sequence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["abstract", "law"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "abstract",
+        "law"
+      ],
       "formality": "formal",
       "politeness": "plain"
     },
     "created": "2026-04-06T19:20:20Z",
-    "modified": "2026-04-06T19:20:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

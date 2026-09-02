@@ -3,7 +3,7 @@
   "headword": "{正常|せいじょう}な",
   "reading": "せいじょうな",
   "romaji": "seijouna",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "normal; proper; healthy",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Describes a state that conforms to what is expected or standard. Often used in contrast with {異常|いじょう} (abnormal). Common in medical, technical, and general contexts.\n\nCOMMON COLLOCATIONS:\n- {正常|せいじょう}な{状態|じょうたい}: normal condition\n- {正常|せいじょう}な{範囲|はんい}: normal range\n- {正常|せいじょう}に{機能|きのう}する: to function normally\n- {正常|せいじょう}に{戻|もど}る: to return to normal\n- {正常|せいじょう}{値|ち}: normal value\n\nSIMILAR WORDS:\n- {普通|ふつう}: normal / ordinary — everyday word for what is typical; less clinical\n- {通常|つうじょう}: usual / ordinary — formal synonym for what is standard or routine\n- {健全|けんぜん}な: sound / healthy — emphasizes good health or moral soundness\n- {異常|いじょう}な: abnormal — the direct antonym of {正常|せいじょう}\n\nREGISTER:\nNeutral to formal. Equally at home in medical reports and everyday conversation. The adverbial form {正常|せいじょう}に is very common.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01502_futsuu",
+      "reading": "ふつう",
+      "headword": "{普通|ふつう}",
+      "label": "normal / ordinary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27316_tsuujou",
+      "reading": "つうじょう",
+      "headword": "{通常|つうじょう}",
+      "label": "usual / ordinary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11539_kenzen",
+      "reading": "けんぜん",
+      "headword": "{健全|けんぜん}",
+      "label": "sound / healthy"
+    },
+    {
+      "type": "antonym",
+      "target_id": "01716_ijou",
+      "reading": "いじょう",
+      "headword": "{異常|いじょう}",
+      "label": "abnormal"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-04-05T20:08:55Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

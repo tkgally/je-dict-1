@@ -3,7 +3,7 @@
   "headword": "{不確定|ふかくてい}",
   "reading": "ふかくてい",
   "romaji": "fukakutei",
-  "part_of_speech": "na-adjective",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "uncertain; undetermined; indefinite",
   "definitions": [
     {
@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "A Sino-Japanese compound ({不|ふ} negative + {確定|かくてい} definite/fixed) used in formal and semi-formal contexts. It describes situations, facts, or quantities that have not been settled or cannot be predicted.\n\nCOMMON COLLOCATIONS:\n- {不確定|ふかくてい}{要素|ようそ} — uncertain factor/element\n- {不確定|ふかくてい}{性|せい} — uncertainty (as a quality)\n- {不確定|ふかくてい}{原理|げんり} — uncertainty principle (physics)\n- {不確定|ふかくてい}な{情報|じょうほう} — unconfirmed information\n\nSIMILAR WORDS:\n- {不確か|ふたしか} — uncertain, vague; more subjective and colloquial, often about personal impressions or memory\n- {未定|みてい} — undecided; specifically means a decision has not yet been made, while {不確定|ふかくてい} is broader and can mean inherently unknowable\n- {曖昧|あいまい} — ambiguous, vague; focuses on lack of clarity rather than lack of determination",
+  "notes": "A Sino-Japanese compound ({不|ふ} negative + {確定|かくてい} definite/fixed) used in formal and semi-formal contexts. It describes situations, facts, or quantities that have not been settled or cannot be predicted.\n\nCOMMON COLLOCATIONS:\n- {不確定|ふかくてい}{要素|ようそ} — uncertain factor/element\n- {不確定|ふかくてい}{性|せい} — uncertainty (as a quality)\n- {不確定|ふかくてい}{原理|げんり} — uncertainty principle (physics)\n- {不確定|ふかくてい}な{情報|じょうほう} — unconfirmed information\n\nSIMILAR WORDS:\n- {不確|ふたし}か — uncertain, vague; more subjective and colloquial, often about personal impressions or memory\n- {未定|みてい} — undecided; specifically means a decision has not yet been made, while {不確定|ふかくてい} is broader and can mean inherently unknowable\n- {曖昧|あいまい} — ambiguous, vague; focuses on lack of clarity rather than lack of determination",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11362_futashika",
+      "reading": "ふたしか",
+      "headword": "{不確|ふたし}か",
+      "label": "uncertain, vague"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14985_mitei",
+      "reading": "みてい",
+      "headword": "{未定|みてい}",
+      "label": "undecided"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08051_aimai",
+      "reading": "あいまい",
+      "headword": "{曖昧|あいまい}",
+      "label": "ambiguous, vague"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20355_michisuu",
+      "reading": "みちすう",
+      "headword": "{未知数|みちすう}",
+      "label": "unknown quantity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22878_futei",
+      "reading": "ふてい",
+      "headword": "{不定|ふてい}",
+      "label": "indefinite"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,11 +90,12 @@
         "noun",
         "adjective-na"
       ],
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ]
     },
     "created": "2026-04-18T13:13:36Z",
-    "modified": "2026-04-18T13:13:36Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

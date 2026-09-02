@@ -78,11 +78,33 @@
       ]
     }
   ],
-  "notes": "SENSE 1 - UNITS:\n- ⟦{長|なが}さ→長さ：05326_nagasa⟧⟦の→の：09472_no⟧{単位|たんい} (unit of length)\n- ⟦{重|おも}さ→重さ：14444_omosa⟧⟦の→の：09472_no⟧{単位|たんい} (unit of weight)\n- ⟦{時間|じかん}→時間：00468_jikan⟧⟦の→の：09472_no⟧{単位|たんい} (unit of time)\n\nSENSE 2 - ACADEMIC:\n- {単位|たんい}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to earn credits)\n- {単位|たんい}⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧ (to lack credits)\n- ⟦{必修|ひっしゅう}→必修：08641_hisshuu⟧{単位|たんい} (required credits)\n- ⟦{選択|せんたく}→選択：03306_sentaku⟧{単位|たんい} (elective credits)\n\nCOMMON COMPOUNDS:\n- ⟦{単位制|たんいせい}→単位制：28162_tanisei⟧ (credit system)\n- {単位|たんい}⟦{認定|にんてい}→認定：06108_nintei⟧ (credit certification)",
-  "cross_references": [],
+  "notes": "SENSE 1 - UNITS:\n- ⟦{長|なが}さ→長さ：05326_nagasa⟧⟦の→の：09472_no⟧{単位|たんい} (unit of length)\n- ⟦{重|おも}さ→重さ：14444_omosa⟧⟦の→の：09472_no⟧{単位|たんい} (unit of weight)\n- ⟦{時間|じかん}→時間：00468_jikan⟧⟦の→の：09472_no⟧{単位|たんい} (unit of time)\n\nSENSE 2 - ACADEMIC:\n- {単位|たんい}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to earn credits)\n- {単位|たんい}⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧ (to lack credits)\n- ⟦{必修|ひっしゅう}→必修：08641_hisshuu⟧{単位|たんい} (required credits)\n- ⟦{選択|せんたく}→選択：03306_sentaku⟧{単位|たんい} (elective credits)\n\nCOMPOUNDS:\n- ⟦{単位制|たんいせい}→単位制：28162_tanisei⟧ (credit system)\n- {単位|たんい}⟦{認定|にんてい}→認定：06108_nintei⟧ (credit certification)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04861_rishuu",
+      "reading": "りしゅう",
+      "headword": "{履修|りしゅう}",
+      "label": "taking a course"
+    },
+    {
+      "type": "related",
+      "target_id": "09289_seisekihyou",
+      "reading": "せいせきひょう",
+      "headword": "{成績表|せいせきひょう}",
+      "label": "report card, transcript"
+    },
+    {
+      "type": "related",
+      "target_id": "09972_saishiken",
+      "reading": "さいしけん",
+      "headword": "{再試験|さいしけん}",
+      "label": "retake exam, retest"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T14:32:00Z",
-    "modified": "2026-08-13T15:50:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

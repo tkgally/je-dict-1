@@ -17,7 +17,9 @@
       "id": "28091_ittou_ex1",
       "japanese": "かけっこで{一等|いっとう}を{取|と}った。",
       "english": "I took first place in the foot race.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28091_ittou_ex2",
       "japanese": "この{客船|きゃくせん}には{一等|いっとう}{船室|せんしつ}がある。",
       "english": "This passenger ship has first-class cabins.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28091_ittou_ex3",
       "japanese": "{宝|たから}くじで{一等|いっとう}が{当|あ}たって、{彼|かれ}は{飛|と}び{上|あ}がって{喜|よろこ}んだ。",
       "english": "He won first prize in the lottery and jumped for joy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Indicates the top grade, rank, or prize among several levels. Used for prizes, travel classes, and military ranks.\n\nCOMMON COLLOCATIONS:\n- {一等|いっとう}{賞|しょう}: first prize\n- {一等|いっとう}{席|せき}: first-class seat\n- {一等|いっとう}が{当|あ}たる: to win first prize\n\nSIMILAR WORDS:\n- {一位|いちい}: first place — a ranking position in standings or results\n- {一級|いっきゅう}: first grade — used for qualifications and skill levels",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08926_ichii",
+      "reading": "いちい",
+      "headword": "{一位|いちい}",
+      "label": "first place"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29988_nitou",
+      "reading": "にとう",
+      "headword": "{二等|にとう}",
+      "label": "second class"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity"],
+      "semantic": [
+        "quantity"
+      ],
       "domain": []
     },
     "created": "2026-05-25T04:08:01Z",
-    "modified": "2026-05-25T04:08:01Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

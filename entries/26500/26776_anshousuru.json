@@ -3,7 +3,7 @@
   "headword": "{暗唱|あんしょう}する",
   "reading": "あんしょうする",
   "romaji": "anshousuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to recite from memory",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Refers specifically to the act of reciting something one has committed to memory. Often used in educational contexts where students memorize and recite texts.\n\nCOMMON COLLOCATIONS:\n- {詩|し}を{暗唱|あんしょう}する: to recite a poem\n- {台詞|せりふ}を{暗唱|あんしょう}する: to recite lines\n- {経文|きょうもん}を{暗唱|あんしょう}する: to recite a sutra\n- すらすらと{暗唱|あんしょう}する: to recite fluently\n\nSIMILAR WORDS:\n- {暗記|あんき}する: to memorize — focuses on the act of committing to memory rather than speaking aloud\n- {朗読|ろうどく}する: to read aloud — reading from a text rather than from memory\n- {唱|とな}える: to chant — often used for prayers or mantras, may not require memorization",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01701_anki",
+      "reading": "あんき",
+      "headword": "{暗記|あんき}",
+      "label": "to memorize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14875_roudoku",
+      "reading": "ろうどく",
+      "headword": "{朗読|ろうどく}",
+      "label": "to read aloud"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10467_tonaeru",
+      "reading": "となえる",
+      "headword": "{唱|とな}える",
+      "label": "to chant"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T11:03:14Z",
-    "modified": "2026-05-05T11:03:14Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

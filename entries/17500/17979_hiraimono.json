@@ -24,7 +24,9 @@
       "english": "Let's turn in found items at the police box.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17979_hiraimono_ex2",
@@ -32,7 +34,9 @@
       "english": "If you find something on the street, you have an obligation to report it to the police.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17979_hiraimono_ex3",
@@ -40,7 +44,9 @@
       "english": "This wallet was found, so we are looking for its owner.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17979_hiraimono_ex4",
@@ -48,7 +54,9 @@
       "english": "This sale was a real find.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "17979_hiraimono_ex5",
@@ -56,7 +64,9 @@
       "english": "He was an unknown player, but his performance this season can be called a real find.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "17979_hiraimono_ex6",
@@ -64,21 +74,42 @@
       "english": "The first edition I found at the used bookstore was an unexpected windfall.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nSense 1 (literal found object) is common in everyday and legal contexts. Japan has a strong culture of turning in found items, and {拾|ひろ}い{物|もの} is the standard term used at police boxes and lost-and-found offices.\n\nSense 2 (figurative windfall) is commonly used in sports, shopping, and entertainment contexts to describe surprisingly good discoveries.\n\nCOMMON COLLOCATIONS:\n- {拾|ひろ}い{物|もの}をする (find/pick up something)\n- {拾|ひろ}い{物|もの}を{届|とど}ける (turn in a found item)\n- {思|おも}わぬ{拾|ひろ}い{物|もの} (unexpected find)\n\nSIMILAR WORDS:\n- {落|お}とし{物|もの}: lost item — the perspective of the person who lost it\n- {掘|ほ}り{出|だ}し{物|もの}: bargain, treasure find — specifically a valuable item found at a low price",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08450_otoshimono",
+      "reading": "おとしもの",
+      "headword": "{落|お}とし{物|もの}",
+      "label": "lost item"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14746_horidashimono",
+      "reading": "ほりだしもの",
+      "headword": "{掘|ほ}り{出|だ}し{物|もの}",
+      "label": "bargain, treasure find"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T10:09:18Z",
-    "modified": "2026-03-19T10:09:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

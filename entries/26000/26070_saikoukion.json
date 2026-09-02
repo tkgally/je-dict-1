@@ -17,7 +17,9 @@
       "id": "26070_saikoukion_ex1",
       "japanese": "{今日|きょう}の{最高気温|さいこうきおん}は35{度|ど}です。",
       "english": "Today's high temperature is 35 degrees.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26070_saikoukion_ex2",
       "japanese": "{最高気温|さいこうきおん}が30{度|ど}を{超|こ}える{日|ひ}が{続|つづ}いている。",
       "english": "Days with highs exceeding 30 degrees have been continuing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "26070_saikoukion_ex3",
       "japanese": "{天気予報|てんきよほう}によると、{明日|あした}の{最高気温|さいこうきおん}は{今日|きょう}より5{度|ど}{低|ひく}くなるそうだ。",
       "english": "According to the weather forecast, tomorrow's high will be 5 degrees lower than today's.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The standard term used in Japanese weather forecasts for the day's high temperature. Composed of {最高|さいこう} (highest) and {気温|きおん} (air temperature). Japan uses Celsius.\n\nCOMMON COLLOCATIONS:\n- {最高気温|さいこうきおん}が{上|あ}がる — the high temperature rises\n- {最高気温|さいこうきおん}を{記録|きろく}する — to record a maximum temperature\n- {最高気温|さいこうきおん}が30{度|ど}を{超|こ}える — the high exceeds 30 degrees\n- {予想|よそう}{最高気温|さいこうきおん} — forecast high temperature\n\nSIMILAR WORDS:\n- {最低気温|さいていきおん} — lowest temperature; daily low (its counterpart)\n- {気温|きおん} — air temperature (general)\n- {猛暑日|もうしょび} — extremely hot day (high of 35°C or above)\n- {真夏日|まなつび} — midsummer day (high of 30°C or above)\n\nUSAGE:\nIn Japan, weather reports typically announce both {最高気温|さいこうきおん} and {最低気温|さいていきおん} for each day. Days are classified by temperature thresholds: {夏日|なつび} (25°C+), {真夏日|まなつび} (30°C+), {猛暑日|もうしょび} (35°C+).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25948_saiteikion",
+      "reading": "さいていきおん",
+      "headword": "{最低気温|さいていきおん}",
+      "label": "lowest temperature"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09622_moushobi",
+      "reading": "もうしょび",
+      "headword": "{猛暑日|もうしょび}",
+      "label": "extremely hot day"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10186_manatsubi",
+      "reading": "まなつび",
+      "headword": "{真夏日|まなつび}",
+      "label": "midsummer day"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     },
     "created": "2026-04-29T12:33:34Z",
-    "modified": "2026-04-29T12:33:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

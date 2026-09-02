@@ -17,7 +17,9 @@
       "id": "25518_hakushoku_ex1",
       "japanese": "{白色|はくしょく}の{粉末|ふんまつ}が{検出|けんしゅつ}された。",
       "english": "A white powder was detected.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25518_hakushoku_ex2",
       "japanese": "この{花|はな}は{白色|はくしょく}から{淡|あわ}いピンクまで{変化|へんか}する。",
       "english": "This flower varies from white to pale pink.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,43 @@
       "id": "25518_hakushoku_ex3",
       "japanese": "{白色|はくしょく}LEDの{開発|かいはつ}はノーベル{賞|しょう}を{受賞|じゅしょう}した{研究|けんきゅう}に{基|もと}づいている。",
       "english": "The development of white LEDs is based on Nobel Prize-winning research.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The formal, Sino-Japanese reading for white, composed of {白|はく} (white) + {色|しょく} (color). Used in technical, scientific, and official descriptions. In everyday conversation, {白|しろ} or {白|しろ}い is used instead. Common in compound terms and product descriptions.\n\nCOMMON COLLOCATIONS:\n- {白色|はくしょく}{光|こう}: white light\n- {白色|はくしょく}{矮星|わいせい}: white dwarf (astronomy)\n- {白色|はくしょく}{人種|じんしゅ}: white race (Caucasian)\n- {白色|はくしょく}テロ: White Terror (political purge)\n\nSIMILAR WORDS:\n- {白|しろ}: white — the everyday word for the color white\n- {白|しろ}い: white (adjective) — the i-adjective form used in daily speech\n- {純白|じゅんぱく}: pure white — emphasizes purity and brightness",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00587_shiroi",
+      "reading": "しろい",
+      "headword": "{白|しろ}い",
+      "label": "white"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17299_junpaku",
+      "reading": "じゅんぱく",
+      "headword": "{純白|じゅんぱく}",
+      "label": "pure white"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["color"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "color"
+      ]
     },
     "created": "2026-04-25T15:19:58Z",
-    "modified": "2026-04-25T15:19:58Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

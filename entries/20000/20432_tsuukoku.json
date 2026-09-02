@@ -3,7 +3,7 @@
   "headword": "{通告|つうこく}",
   "reading": "つうこく",
   "romaji": "tsuukoku",
-  "part_of_speech": "noun; noun (する verb)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "notice; notification; formal announcement",
   "definitions": [
     {
@@ -46,6 +46,43 @@
   ],
   "notes": "Composed of {通|つう} (communicate, pass through) + {告|こく} (announce, tell). A formal word used in business, legal, diplomatic, and military contexts. Implies authority and finality — the sender has the power to make the decision being communicated.\n\nCOMMON COLLOCATIONS:\n- {通告|つうこく}する: to give notice, to notify formally\n- {通告|つうこく}を{受|う}ける: to receive notification\n- {解雇|かいこ}{通告|つうこく}: notice of dismissal\n- {最後通告|さいごつうこく}: ultimatum (literally \"final notice\")\n- {事前|じぜん}{通告|つうこく}: advance notice\n\nSIMILAR WORDS:\n- {通知|つうち}: notification — more general and neutral, used in everyday contexts\n- {告知|こくち}: announcement, disclosure — often used for medical diagnoses or public announcements\n- {宣告|せんこく}: declaration, sentencing — very formal, often legal (e.g., {判決|はんけつ}を{宣告|せんこく}する)\n- {通達|つうたつ}: directive, circular — an official instruction from a superior authority",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04061_tsuuchi",
+      "reading": "つうち",
+      "headword": "{通知|つうち}",
+      "label": "notification"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17348_kokuchi",
+      "reading": "こくち",
+      "headword": "{告知|こくち}",
+      "label": "announcement, disclosure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06819_senkoku",
+      "reading": "せんこく",
+      "headword": "{宣告|せんこく}",
+      "label": "declaration, sentencing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22238_tsuutatsu",
+      "reading": "つうたつ",
+      "headword": "{通達|つうたつ}",
+      "label": "directive, circular"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22465_iiwatashi",
+      "reading": "いいわたし",
+      "headword": "{言|い}い{渡|わた}し",
+      "label": "pronouncement"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +102,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-29T13:08:04Z",
-    "modified": "2026-03-29T13:08:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

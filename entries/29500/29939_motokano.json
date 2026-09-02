@@ -17,7 +17,9 @@
       "id": "29939_motokano_ex1",
       "japanese": "{元|もと}カノに{偶然|ぐうぜん}{会|あ}った。",
       "english": "I ran into my ex-girlfriend by chance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29939_motokano_ex2",
       "japanese": "{元|もと}カノの{写真|しゃしん}をすべて{消|け}した。",
       "english": "I deleted all the photos of my ex-girlfriend.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "29939_motokano_ex3",
       "japanese": "{元|もと}カノと{別|わか}れてから、もう{一年|いちねん}になる。",
       "english": "It has already been a year since I broke up with my ex-girlfriend.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Colloquial contraction of {元|もと}の{彼女|かのじょ} ('former girlfriend'), with カノ written in katakana. Common in casual speech and text messages.\n\nRELATED WORDS:\n- {元|もと}カレ: ex-boyfriend\n- {彼女|かのじょ}: girlfriend\n- {元彼女|もとかのじょ}: the same word written more fully",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29938_motokare",
+      "reading": "もとかれ",
+      "headword": "{元|もと}カレ",
+      "label": "ex-boyfriend"
+    },
+    {
+      "type": "related",
+      "target_id": "01286_kanojo",
+      "reading": "かのじょ",
+      "headword": "{彼女|かのじょ}",
+      "label": "girlfriend"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
-      "politeness": null,
-      "semantic": ["person"],
-      "domain": ["colloquial"]
+      "politeness": "plain",
+      "semantic": [
+        "person"
+      ],
+      "domain": [
+        "colloquial"
+      ]
     },
     "created": "2026-07-19T00:19:03Z",
-    "modified": "2026-07-19T00:19:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "I attend a private school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17112_shigaku_ex2",
@@ -27,7 +29,9 @@
       "english": "Private school tuition is higher than public school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17112_shigaku_ex3",
@@ -35,7 +39,9 @@
       "english": "You can reduce the burden of tuition fees by using the private school subsidy system.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAn abbreviation of {私立|しりつ}{学校|がっこう} (private school). Used in both educational discussions and administrative/policy contexts. Contrasts with {公立|こうりつ} (public) and {国立|こくりつ} (national).\n\nCOMMON COLLOCATIONS:\n- {私学|しがく}{助成金|じょせいきん} (private school subsidy)\n- {私学|しがく}{経営|けいえい} (private school management)\n- {私学|しがく}{振興|しんこう} (private school promotion)\n\nSIMILAR WORDS:\n- {私立|しりつ}: private (institution) — the full, more common term\n- {公立|こうりつ}: public (institution) — government-funded schools\n- {国立|こくりつ}: national (institution) — nationally funded schools",
@@ -53,18 +59,29 @@
       "reading": "こうりつ",
       "headword": "{公立|こうりつ}",
       "label": "public (institution)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04153_kokuritsu",
+      "reading": "こくりつ",
+      "headword": "{国立|こくりつ}",
+      "label": "national"
     }
   ],
   "metadata": {
     "created": "2026-03-16T00:44:52Z",
-    "modified": "2026-05-05T09:06:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

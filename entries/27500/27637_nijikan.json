@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "{二|に} (two) + {時間|じかん} (hour, duration). Pronounced にじかん, not 'にじじかん'.\n\nDURATION VS. TIME POINT:\n- {二時間|にじかん}: a duration of two hours\n- {二時|にじ}: two o'clock (the time point)\n\nThe counter {時間|じかん} is used for durations; {時|じ} alone marks a clock time.\n\nCOMMON COLLOCATIONS:\n- {二時間|にじかん}かかる: to take two hours\n- {二時間|にじかん}{待|ま}つ: to wait two hours\n- {二時間|にじかん}{以内|いない}: within two hours\n- {二時間|にじかん}{以上|いじょう}: more than two hours\n\nRELATED:\n- {一時間|いちじかん}: one hour\n- {三時間|さんじかん}: three hours\n- {半時間|はんじかん}: half an hour (less common than {三十分|さんじゅっぷん})",
+  "notes": "{二|に} (two) + {時間|じかん} (hour, duration). Pronounced にじかん, not 'にじじかん'.\n\nDURATION VS. TIME POINT:\n- {二時間|にじかん}: a duration of two hours\n- {二時|にじ}: two o'clock (the time point)\n\nThe counter {時間|じかん} is used for durations; {時|じ} alone marks a clock time.\n\nCOMMON COLLOCATIONS:\n- {二時間|にじかん}かかる: to take two hours\n- {二時間|にじかん}{待|ま}つ: to wait two hours\n- {二時間|にじかん}{以内|いない}: within two hours\n- {二時間|にじかん}{以上|いじょう}: more than two hours\n\nRELATED WORDS:\n- {一時間|いちじかん}: one hour\n- {三時間|さんじかん}: three hours\n- {半時間|はんじかん}: half an hour (less common than {三十分|さんじゅっぷん})",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00941_ichijikan",
+      "reading": "いちじかん",
+      "headword": "{一時間|いちじかん}",
+      "label": "one hour"
+    },
+    {
+      "type": "related",
+      "target_id": "30478_sanjikan",
+      "reading": "さんじかん",
+      "headword": "{三時間|さんじかん}",
+      "label": "three hours"
+    },
+    {
+      "type": "related",
+      "target_id": "00935_hanjikan",
+      "reading": "はんじかん",
+      "headword": "{半時間|はんじかん}",
+      "label": "half an hour"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ],
       "domain": []
     },
     "created": "2026-05-15T04:12:19Z",
-    "modified": "2026-08-07T15:50:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

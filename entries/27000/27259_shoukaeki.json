@@ -17,7 +17,9 @@
       "id": "27259_shoukaeki_ex1",
       "japanese": "{胃|い}は{消化液|しょうかえき}を{分泌|ぶんぴつ}する。",
       "english": "The stomach secretes digestive juice.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27259_shoukaeki_ex2",
       "japanese": "{消化液|しょうかえき}が{食|た}べ{物|もの}を{分解|ぶんかい}する。",
       "english": "Digestive fluids break down food.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,40 @@
       "id": "27259_shoukaeki_ex3",
       "japanese": "ストレスで{消化液|しょうかえき}の{分泌|ぶんぴつ}が{減|へ}ると、{消化不良|しょうかふりょう}になることがある。",
       "english": "When the secretion of digestive fluids decreases due to stress, it can lead to indigestion.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {消化|しょうか} (digestion) + {液|えき} (liquid/fluid). A standard biology and health term. The {液|えき} suffix is used for many bodily and chemical fluids: {血液|けつえき} (blood), {唾液|だえき} (saliva), {体液|たいえき} (body fluid).\n\nThe main types of {消化液|しょうかえき}:\n- {胃液|いえき}: gastric juice\n- {胆汁|たんじゅう}: bile\n- {膵液|すいえき}: pancreatic juice\n- {腸液|ちょうえき}: intestinal fluid\n\nCOMMON COLLOCATIONS:\n- {消化液|しょうかえき}の{分泌|ぶんぴつ}: secretion of digestive fluids\n- {消化液|しょうかえき}が{出|で}る: digestive fluids come out\n- {消化液|しょうかえき}で{溶|と}かす: to dissolve with digestive fluid\n\nSIMILAR WORDS:\n- {胃液|いえき}: gastric juice — specifically the digestive fluid in the stomach\n- {消化酵素|しょうかこうそ}: digestive enzyme — the active chemical component within digestive fluids\n- {唾液|だえき}: saliva — also contains digestive enzymes, but primarily associated with the mouth",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15943_daeki",
+      "reading": "だえき",
+      "headword": "{唾液|だえき}",
+      "label": "saliva"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-internal"],
-      "domain": ["medical"]
+      "semantic": [
+        "body-internal"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-05-08T11:22:21Z",
-    "modified": "2026-08-07T06:30:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

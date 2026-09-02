@@ -17,7 +17,9 @@
       "id": "25966_nenreisou_ex1",
       "japanese": "{幅広|はばひろ}い{年齢層|ねんれいそう}に{人気|にんき}がある。",
       "english": "It's popular across a wide range of age groups.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25966_nenreisou_ex2",
       "japanese": "この{商品|しょうひん}のターゲットは{若|わか}い{年齢層|ねんれいそう}だ。",
       "english": "The target for this product is a young age group.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,44 @@
       "id": "25966_nenreisou_ex3",
       "japanese": "アンケートの{結果|けっか}を{年齢層|ねんれいそう}ごとに{分析|ぶんせき}したところ、{世代|せだい}によって{意見|いけん}が{大|おお}きく{異|こと}なることが{分|わ}かった。",
       "english": "When we analyzed the survey results by age group, we found that opinions differed significantly across generations.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {年齢|ねんれい} (age) and {層|そう} (layer; stratum). Commonly used in marketing, media, and social research to describe target demographics. The word {層|そう} conveys the idea of stratified layers within a population.\n\nCOMMON COLLOCATIONS:\n- {幅広|はばひろ}い{年齢層|ねんれいそう}: wide age range\n- {年齢層|ねんれいそう}が{高|たか}い: older demographic\n- {年齢層|ねんれいそう}が{低|ひく}い: younger demographic\n- {年齢層|ねんれいそう}{別|べつ}: by age group\n\nSIMILAR WORDS:\n- {世代|せだい}: generation — groups defined by birth era rather than current age; carries cultural identity\n- {年代|ねんだい}: decade of age; era — can mean \"people in their 20s/30s\" or a historical period",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05102_sedai",
+      "reading": "せだい",
+      "headword": "{世代|せだい}",
+      "label": "generation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03533_nendai",
+      "reading": "ねんだい",
+      "headword": "{年代|ねんだい}",
+      "label": "decade of age"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["society"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "society"
+      ]
     },
     "created": "2026-04-28T14:10:12Z",
-    "modified": "2026-04-28T14:10:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{弔問|ちょうもん}",
   "reading": "ちょうもん",
   "romaji": "choumon",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "condolence visit; call of condolence; visit of mourning",
   "definitions": [
     {
@@ -54,8 +54,66 @@
       "notes": null
     }
   ],
-  "notes": "Formed from {弔|ちょう} (to mourn, to condole) + {問|もん} (to visit, to inquire). A formal term used in contexts of bereavement.\n\nUSAGE:\n- Can be used as a suru-verb: {弔問|ちょうもん}する (to pay a condolence visit). The verb {伺|うかが}う is also common in the phrase {弔問|ちょうもん}に{伺|うかが}う.\n- Typical timing is either before the wake ({通夜|つや}) at the bereaved family's home, or after the funeral if the mourner could not attend in person.\n- Visitors usually bring {香典|こうでん} (a monetary condolence offering) and wear subdued {略式|りゃくしき}{喪服|もふく} (semi-formal mourning clothes) rather than the full black suit worn at the funeral itself.\n\nCOMMON COLLOCATIONS:\n- {弔問|ちょうもん}に{伺|うかが}う: to go / call to pay condolences (humble form)\n- {弔問|ちょうもん}{客|きゃく}: a mourner calling to offer condolences\n- {弔問|ちょうもん}に{訪|おとず}れる: to visit in condolence\n- {弔問|ちょうもん}を{受|う}ける: to receive condolence visitors\n- {弔問|ちょうもん}の{手紙|てがみ}: letter of condolence\n\nRELATED TERMS:\n- {通夜|つや}: wake — the evening gathering held before a funeral\n- {葬儀|そうぎ} / {葬式|そうしき}: funeral ceremony\n- {香典|こうでん}: condolence money given at a funeral\n- お{悔|く}やみ: expression of condolence — the words spoken or written\n- {焼香|しょうこう}: the burning of incense before the deceased's altar",
+  "notes": "Formed from {弔|ちょう} (to mourn, to condole) + {問|もん} (to visit, to inquire). A formal term used in contexts of bereavement.\n\nUSAGE:\n- Can be used as a suru-verb: {弔問|ちょうもん}する (to pay a condolence visit). The verb {伺|うかが}う is also common in the phrase {弔問|ちょうもん}に{伺|うかが}う.\n- Typical timing is either before the wake ({通夜|つや}) at the bereaved family's home, or after the funeral if the mourner could not attend in person.\n- Visitors usually bring {香典|こうでん} (a monetary condolence offering) and wear subdued {略式|りゃくしき}{喪服|もふく} (semi-formal mourning clothes) rather than the full black suit worn at the funeral itself.\n\nCOMMON COLLOCATIONS:\n- {弔問|ちょうもん}に{伺|うかが}う: to go / call to pay condolences (humble form)\n- {弔問|ちょうもん}{客|きゃく}: a mourner calling to offer condolences\n- {弔問|ちょうもん}に{訪|おとず}れる: to visit in condolence\n- {弔問|ちょうもん}を{受|う}ける: to receive condolence visitors\n- {弔問|ちょうもん}の{手紙|てがみ}: letter of condolence\n\nRELATED WORDS:\n- {通夜|つや}: wake — the evening gathering held before a funeral\n- {葬儀|そうぎ} / {葬式|そうしき}: funeral ceremony\n- {香典|こうでん}: condolence money given at a funeral\n- お{悔|く}やみ: expression of condolence — the words spoken or written\n- {焼香|しょうこう}: the burning of incense before the deceased's altar",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16026_tsuya",
+      "reading": "つや",
+      "headword": "{通夜|つや}",
+      "label": "wake"
+    },
+    {
+      "type": "related",
+      "target_id": "15337_sougi",
+      "reading": "そうぎ",
+      "headword": "{葬儀|そうぎ}",
+      "label": "funeral ceremony"
+    },
+    {
+      "type": "related",
+      "target_id": "04389_soushiki",
+      "reading": "そうしき",
+      "headword": "{葬式|そうしき}",
+      "label": "funeral ceremony"
+    },
+    {
+      "type": "related",
+      "target_id": "06127_kouden",
+      "reading": "こうでん",
+      "headword": "{香典|こうでん}",
+      "label": "condolence money given at a funeral"
+    },
+    {
+      "type": "related",
+      "target_id": "15866_okuyami",
+      "reading": "おくやみ",
+      "headword": "お{悔|く}やみ",
+      "label": "expression of condolence"
+    },
+    {
+      "type": "related",
+      "target_id": "16425_shoukou",
+      "reading": "しょうこう",
+      "headword": "{焼香|しょうこう}",
+      "label": "the burning of incense before…"
+    },
+    {
+      "type": "related",
+      "target_id": "06445_bushuugi",
+      "reading": "ぶしゅうぎ",
+      "headword": "{不祝儀|ぶしゅうぎ}",
+      "label": "condolence money, funeral offering"
+    },
+    {
+      "type": "related",
+      "target_id": "21761_tomurau",
+      "reading": "とむらう",
+      "headword": "{弔|とむら}う",
+      "label": "to mourn"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -72,7 +130,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-12T16:39:49Z",
-    "modified": "2026-08-01T21:36:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

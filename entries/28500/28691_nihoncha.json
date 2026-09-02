@@ -17,7 +17,9 @@
       "id": "28691_nihoncha_ex1",
       "japanese": "{日本茶|にほんちゃ}を{飲|の}んだ。",
       "english": "I drank some Japanese tea.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28691_nihoncha_ex2",
       "japanese": "{日本茶|にほんちゃ}は{紅茶|こうちゃ}と{違|ちが}って{発酵|はっこう}させない。",
       "english": "Unlike black tea, Japanese tea is not fermented.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,53 @@
       "id": "28691_nihoncha_ex3",
       "japanese": "{駅前|えきまえ}に{新|あたら}しくおしゃれな{日本茶|にほんちゃ}カフェができた。",
       "english": "A new stylish Japanese tea café has opened in front of the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {日本|にほん} (Japan) + {茶|ちゃ} (tea). The word marks tea as Japanese-style in contrast to other tea traditions; in everyday speech among Japanese speakers, plain {お茶|おちゃ} usually already means this.\n\nCOMMON COLLOCATIONS:\n- {日本茶|にほんちゃ}を{淹|い}れる: to brew Japanese tea\n- {日本茶|にほんちゃ}カフェ: Japanese tea café\n- {日本茶|にほんちゃ}{専門店|せんもんてん}: specialty Japanese tea shop\n\nSIMILAR WORDS:\n- {緑茶|りょくちゃ}: green tea — the type; nearly all {日本茶|にほんちゃ} is {緑茶|りょくちゃ}\n- {紅茶|こうちゃ}: black tea — contrasted with {日本茶|にほんちゃ}\n- {中国茶|ちゅうごくちゃ}: Chinese tea — contrasted with {日本茶|にほんちゃ}\n- {お茶|おちゃ}: tea (general) — in domestic contexts usually refers to {日本茶|にほんちゃ} by default",
+  "notes": "Compound of {日本|にほん} (Japan) + {茶|ちゃ} (tea). The word marks tea as Japanese-style in contrast to other tea traditions; in everyday speech among Japanese speakers, plain お{茶|ちゃ} usually already means this.\n\nCOMMON COLLOCATIONS:\n- {日本茶|にほんちゃ}を{淹|い}れる: to brew Japanese tea\n- {日本茶|にほんちゃ}カフェ: Japanese tea café\n- {日本茶|にほんちゃ}{専門店|せんもんてん}: specialty Japanese tea shop\n\nSIMILAR WORDS:\n- {緑茶|りょくちゃ}: green tea — the type; nearly all {日本茶|にほんちゃ} is {緑茶|りょくちゃ}\n- {紅茶|こうちゃ}: black tea — contrasted with {日本茶|にほんちゃ}\n- {中国茶|ちゅうごくちゃ}: Chinese tea — contrasted with {日本茶|にほんちゃ}\n- お{茶|ちゃ}: tea (general) — in domestic contexts usually refers to {日本茶|にほんちゃ} by default",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10971_ryokucha",
+      "reading": "りょくちゃ",
+      "headword": "{緑茶|りょくちゃ}",
+      "label": "green tea"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02878_koucha",
+      "reading": "こうちゃ",
+      "headword": "{紅茶|こうちゃ}",
+      "label": "black tea"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00576_ocha",
+      "reading": "おちゃ",
+      "headword": "お{茶|ちゃ}",
+      "label": "tea"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food", "culture"],
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "culture"
+      ],
       "domain": []
     },
     "created": "2026-06-04T02:08:09Z",
-    "modified": "2026-06-04T02:08:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

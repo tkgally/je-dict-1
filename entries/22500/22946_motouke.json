@@ -17,7 +17,9 @@
       "id": "22946_motouke_ex1",
       "japanese": "{元請|もとう}け{会社|がいしゃ}に{連絡|れんらく}する。",
       "english": "I'll contact the main contractor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22946_motouke_ex2",
       "japanese": "{元請|もとう}けから{下請|したう}けに{仕事|しごと}が{回|まわ}される。",
       "english": "Work is passed from the main contractor to the subcontractor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "22946_motouke_ex3",
       "japanese": "この{工事|こうじ}では、{大手|おおて}ゼネコンが{元請|もとう}けを{務|つと}めている。",
       "english": "A major general contractor is serving as the prime contractor for this construction project.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {元|もと} (origin, source) and {請|う}け (receiving, contracting). Refers to the company at the top of the contracting chain that receives work directly from the client. Central to understanding Japanese business structure, especially in construction and IT.\n\nCOMMON COLLOCATIONS:\n- {元請|もとう}け{会社|がいしゃ}: main contracting company\n- {元請|もとう}け{業者|ぎょうしゃ}: prime contractor\n- {元請|もとう}けを{務|つと}める: to serve as the main contractor\n- {元請|もとう}け{責任|せきにん}: main contractor's responsibility\n\nCONTRACTING HIERARCHY:\nJapanese business often involves multi-layered contracting:\n- {元請|もとう}け: main contractor (receives from client)\n- {下請|したう}け: subcontractor (receives from main contractor)\n- {孫請|まごう}け: sub-subcontractor (receives from subcontractor)\n\nRELATED TERMS:\n- {下請|したう}け: subcontractor — receives work from the {元請|もとう}け\n- {発注者|はっちゅうしゃ}: client, orderer — the party who hires the {元請|もとう}け\n- ゼネコン: general contractor — large construction company that often acts as {元請|もとう}け",
+  "notes": "A compound of {元|もと} (origin, source) and {請|う}け (receiving, contracting). Refers to the company at the top of the contracting chain that receives work directly from the client. Central to understanding Japanese business structure, especially in construction and IT.\n\nCOMMON COLLOCATIONS:\n- {元請|もとう}け{会社|がいしゃ}: main contracting company\n- {元請|もとう}け{業者|ぎょうしゃ}: prime contractor\n- {元請|もとう}けを{務|つと}める: to serve as the main contractor\n- {元請|もとう}け{責任|せきにん}: main contractor's responsibility\n\nCONTRACTING HIERARCHY:\nJapanese business often involves multi-layered contracting:\n- {元請|もとう}け: main contractor (receives from client)\n- {下請|したう}け: subcontractor (receives from main contractor)\n- {孫請|まごう}け: sub-subcontractor (receives from subcontractor)\n\nRELATED WORDS:\n- {下請|したう}け: subcontractor — receives work from the {元請|もとう}け\n- {発注者|はっちゅうしゃ}: client, orderer — the party who hires the {元請|もとう}け\n- ゼネコン: general contractor — large construction company that often acts as {元請|もとう}け",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10898_shitauke",
+      "reading": "したうけ",
+      "headword": "{下請|したう}け",
+      "label": "subcontractor"
+    },
+    {
+      "type": "related",
+      "target_id": "11031_zenekon",
+      "reading": "ぜねこん",
+      "headword": "ゼネコン",
+      "label": "general contractor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
-      "semantic": ["business", "work"],
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "work"
+      ],
       "formality": "neutral"
     },
     "created": "2026-04-08T07:46:49Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "20801_hinanshiji_ex1",
       "japanese": "{避難指示|ひなんしじ}が{出|で}た。",
       "english": "An evacuation order was issued.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20801_hinanshiji_ex2",
       "japanese": "{市|し}は{河川|かせん}{沿|ぞ}いの{住民|じゅうみん}に{避難指示|ひなんしじ}を{出|だ}した。",
       "english": "The city issued an evacuation order to residents along the river.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "20801_hinanshiji_ex3",
       "japanese": "{避難指示|ひなんしじ}が{発令|はつれい}されたら、すぐに{避難所|ひなんじょ}へ{向|む}かってください。",
       "english": "If an evacuation order is issued, please head to the evacuation shelter immediately.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {避難|ひなん} (evacuation, taking refuge) + {指示|しじ} (instruction, order). The primary evacuation directive in Japan's disaster response system, issued by municipal mayors.\n\nEVACUATION ALERT LEVELS (from lowest to highest):\n- {高齢者等避難|こうれいしゃとうひなん} (Level 3): elderly and vulnerable should evacuate\n- {避難指示|ひなんしじ} (Level 4): all residents should evacuate\n- {緊急安全確保|きんきゅうあんぜんかくほ} (Level 5): emergency — ensure safety immediately\n\nCOMMON COLLOCATIONS:\n- {避難指示|ひなんしじ}が{出|で}る: an evacuation order is issued\n- {避難指示|ひなんしじ}を{発令|はつれい}する: to issue an evacuation order\n- {避難指示|ひなんしじ}が{解除|かいじょ}される: the evacuation order is lifted\n- {避難指示|ひなんしじ}{対象|たいしょう}{地域|ちいき}: area covered by the evacuation order\n\nRELATED TERMS:\n- {避難所|ひなんじょ}: evacuation shelter\n- {特別警報|とくべつけいほう}: special warning (highest weather warning)\n- {防災|ぼうさい}: disaster prevention\n- {避難|ひなん}{勧告|かんこく}: evacuation advisory (abolished in 2021, merged into {避難指示|ひなんしじ})",
+  "notes": "Composed of {避難|ひなん} (evacuation, taking refuge) + {指示|しじ} (instruction, order). The primary evacuation directive in Japan's disaster response system, issued by municipal mayors.\n\nEVACUATION ALERT LEVELS (from lowest to highest):\n- {高齢者等避難|こうれいしゃとうひなん} (Level 3): elderly and vulnerable should evacuate\n- {避難指示|ひなんしじ} (Level 4): all residents should evacuate\n- {緊急安全確保|きんきゅうあんぜんかくほ} (Level 5): emergency — ensure safety immediately\n\nCOMMON COLLOCATIONS:\n- {避難指示|ひなんしじ}が{出|で}る: an evacuation order is issued\n- {避難指示|ひなんしじ}を{発令|はつれい}する: to issue an evacuation order\n- {避難指示|ひなんしじ}が{解除|かいじょ}される: the evacuation order is lifted\n- {避難指示|ひなんしじ}{対象|たいしょう}{地域|ちいき}: area covered by the evacuation order\n\nRELATED WORDS:\n- {避難所|ひなんじょ}: evacuation shelter\n- {特別警報|とくべつけいほう}: special warning (highest weather warning)\n- {防災|ぼうさい}: disaster prevention\n- {避難|ひなん}{勧告|かんこく}: evacuation advisory (abolished in 2021, merged into {避難指示|ひなんしじ})",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07374_hinanjo",
+      "reading": "ひなんじょ",
+      "headword": "{避難所|ひなんじょ}",
+      "label": "evacuation shelter"
+    },
+    {
+      "type": "related",
+      "target_id": "20800_tokubetsukeihou",
+      "reading": "とくべつけいほう",
+      "headword": "{特別警報|とくべつけいほう}",
+      "label": "special warning"
+    },
+    {
+      "type": "related",
+      "target_id": "07907_bousai",
+      "reading": "ぼうさい",
+      "headword": "{防災|ぼうさい}",
+      "label": "disaster prevention"
+    },
+    {
+      "type": "related",
+      "target_id": "16642_hinankankoku",
+      "reading": "ひなんかんこく",
+      "headword": "{避難勧告|ひなんかんこく}",
+      "label": "evacuation advisory"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["society"]
+      "semantic": [
+        "society"
+      ]
     },
     "created": "2026-03-30T16:16:50Z",
-    "modified": "2026-03-30T16:16:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

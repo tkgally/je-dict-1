@@ -3,7 +3,7 @@
   "id": "20847_nyuuen",
   "headword": "{入園|にゅうえん}",
   "reading": "にゅうえん",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "entering kindergarten; admission to a park or garden",
   "definitions": [
     {
@@ -80,10 +80,32 @@
     }
   ],
   "notes": "A noun used with する to form the verb {入園|にゅうえん}する. The {園|えん} character refers to enclosed grounds — either a school for young children ({幼稚園|ようちえん}, {保育園|ほいくえん}) or a park/garden ({公園|こうえん}, {動物園|どうぶつえん}).\n\nCOMMON COLLOCATIONS:\n- {入園|にゅうえん}する: to enter (kindergarten/park)\n- {入園式|にゅうえんしき}: kindergarten entrance ceremony\n- {入園料|にゅうえんりょう}: admission fee (to a park)\n- {入園|にゅうえん}{手続|てつづ}き: enrollment procedures\n- {入園|にゅうえん}{待|ま}ち: on the waiting list for enrollment\n\nSIMILAR WORDS:\n- {入学|にゅうがく}: entering school (for elementary school and above)\n- {入場|にゅうじょう}: entering a venue, admission (more general; for stadiums, theaters, etc.)\n- {入館|にゅうかん}: entering a building (museum, library, etc.)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02092_nyuugaku",
+      "reading": "にゅうがく",
+      "headword": "{入学|にゅうがく}",
+      "label": "entering school"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03521_nyuujou",
+      "reading": "にゅうじょう",
+      "headword": "{入場|にゅうじょう}",
+      "label": "entering a venue, admission (more…"
+    },
+    {
+      "type": "related",
+      "target_id": "26574_taien",
+      "reading": "たいえん",
+      "headword": "{退園|たいえん}",
+      "label": "leaving a nursery school or kindergarten"
+    }
+  ],
   "metadata": {
     "created": "2026-03-30T18:24:54Z",
-    "modified": "2026-07-29T00:22:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -19,7 +19,9 @@
       "english": "This electoral district is a close race.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15097_senkyoku_ex2",
@@ -27,7 +29,9 @@
       "english": "He ran for office from his local constituency.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15097_senkyoku_ex3",
@@ -35,21 +39,35 @@
       "english": "The redrawing of electoral districts caused confusion among voters.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{選挙区|せんきょく} is used in political contexts to refer to the geographic area that determines voter representation. Japan uses both {小選挙区|しょうせんきょく} (single-seat constituencies) and {比例代表|ひれいだいひょう} (proportional representation).\n\nCOMMON COLLOCATIONS:\n- {小選挙区|しょうせんきょく} (single-seat constituency)\n- {選挙区|せんきょく}{制|せい} (constituency system)\n- {選挙区|せんきょく}の{区割|くわ}り (redistricting)\n- {選挙区|せんきょく}から{立候補|りっこうほ}する (to run from a constituency)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26247_gyouseiku",
+      "reading": "ぎょうせいく",
+      "headword": "{行政区|ぎょうせいく}",
+      "label": "administrative district"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T06:54:27Z",
-    "modified": "2026-03-05T06:54:27Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["politics"]
+      "semantic": [
+        "politics"
+      ]
     }
   }
 }

@@ -19,7 +19,9 @@
       "english": "Moving house is hard labor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18882_juuroudou_ex2",
@@ -27,7 +29,9 @@
       "english": "My body is falling apart from heavy labor every day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18882_juuroudou_ex3",
@@ -35,21 +39,42 @@
       "english": "Caregiving work is said to be hard labor both mentally and physically.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCan describe literal heavy physical work or be used figuratively for any extremely demanding task. Often used emphatically in everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {重|じゅう}{労働|ろうどう}を{強|し}いられる (to be forced into hard labor)\n- {重|じゅう}{労働|ろうどう}に{耐|た}える (to endure hard labor)\n- {肉体的|にくたいてき}な{重|じゅう}{労働|ろうどう} (physically demanding labor)\n\nSIMILAR WORDS:\n- {肉体|にくたい}{労働|ろうどう}: physical labor — emphasizes it being bodily work, not necessarily exhausting\n- {過重|かじゅう}{労働|ろうどう}: overwork — excessive work hours, a social issue in Japan",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22825_nikutairoudou",
+      "reading": "にくたいろうどう",
+      "headword": "{肉体労働|にくたいろうどう}",
+      "label": "physical labor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24287_keiroudou",
+      "reading": "けいろうどう",
+      "headword": "{軽労働|けいろうどう}",
+      "label": "light work"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:21:53Z",
-    "modified": "2026-03-23T06:21:53Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

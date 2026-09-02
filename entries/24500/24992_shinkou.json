@@ -3,7 +3,7 @@
   "headword": "{深考|しんこう}",
   "reading": "しんこう",
   "romaji": "shinkou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "deep thought; careful deliberation",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A compound of {深|しん} (deep) and {考|こう} (thought/consideration). A formal, somewhat literary word for deep or careful thinking. It carries a more deliberate, weighty nuance than everyday words like {考|かんが}える.\n\nThe suru-verb form {深考|しんこう}する means \"to think deeply about\" or \"to deliberate carefully.\"\n\nCOMMON COLLOCATIONS:\n- {深考|しんこう}の{末|すえ}: after deep deliberation\n- {深考|しんこう}を{要|よう}する: to require deep thought\n- {深考|しんこう}せずに: without deep thought\n\nSIMILAR WORDS:\n- {熟考|じゅっこう}: careful consideration; mature deliberation\n- {熟慮|じゅくりょ}: careful deliberation (formal, often used in official or written contexts)\n- {思慮|しりょ}: prudence; thoughtful consideration",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07966_jukkou",
+      "reading": "じゅっこう",
+      "headword": "{熟考|じゅっこう}",
+      "label": "careful consideration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18946_jukuryo",
+      "reading": "じゅくりょ",
+      "headword": "{熟慮|じゅくりょ}",
+      "label": "careful deliberation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25316_shiryo",
+      "reading": "しりょ",
+      "headword": "{思慮|しりょ}",
+      "label": "prudence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,14 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-22T09:28:06Z",
-    "modified": "2026-06-15T07:59:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

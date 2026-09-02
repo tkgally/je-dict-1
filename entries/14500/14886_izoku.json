@@ -19,7 +19,9 @@
       "english": "I offered my condolences to the bereaved family.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14886_izoku_ex2",
@@ -27,7 +29,9 @@
       "english": "The bereaved family spoke about their feelings at a press conference.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14886_izoku_ex3",
@@ -35,21 +39,49 @@
       "english": "The compensation for the families of accident victims has been criticized as insufficient.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{遺族|いぞく} is a formal noun used primarily in news reporting, legal documents, and official contexts. It specifically refers to the family of someone who has died.\n\nCOMMON COLLOCATIONS:\n- {遺族|いぞく}{年金|ねんきん} (survivor's pension)\n- {遺族|いぞく}{補償|ほしょう} (compensation for bereaved families)\n- {遺族|いぞく}の{気持|きも}ち (the feelings of the bereaved family)\n- {戦没者|せんぼつしゃ}{遺族|いぞく} (families of war dead)\n\nUSAGE NOTES:\nThis word is frequently encountered in news reports about accidents, disasters, and crimes. In legal contexts, {遺族|いぞく} has a specific meaning as those entitled to inheritance or compensation.",
-  "cross_references": [],
+  "notes": "{遺族|いぞく} is a formal noun used primarily in news reporting, legal documents, and official contexts. It specifically refers to the family of someone who has died.\n\nCOMMON COLLOCATIONS:\n- {遺族|いぞく}{年金|ねんきん} (survivor's pension)\n- {遺族|いぞく}{補償|ほしょう} (compensation for bereaved families)\n- {遺族|いぞく}の{気持|きも}ち (the feelings of the bereaved family)\n- {戦没者|せんぼつしゃ}{遺族|いぞく} (families of war dead)\n\nUSAGE:\nThis word is frequently encountered in news reports about accidents, disasters, and crimes. In legal contexts, {遺族|いぞく} has a specific meaning as those entitled to inheritance or compensation.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02807_kojin",
+      "reading": "こじん",
+      "headword": "{故人|こじん}",
+      "label": "the deceased, the late"
+    },
+    {
+      "type": "related",
+      "target_id": "19945_miboujin",
+      "reading": "みぼうじん",
+      "headword": "{未亡人|みぼうじん}",
+      "label": "widow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21241_seizonsha",
+      "reading": "せいぞんしゃ",
+      "headword": "{生存者|せいぞんしゃ}",
+      "label": "survivor"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T05:27:33Z",
-    "modified": "2026-03-04T05:27:33Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["family"]
+      "semantic": [
+        "family"
+      ]
     }
   }
 }

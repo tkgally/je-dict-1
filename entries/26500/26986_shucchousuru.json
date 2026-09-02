@@ -3,7 +3,7 @@
   "headword": "{出張|しゅっちょう}する",
   "reading": "しゅっちょうする",
   "romaji": "shucchousuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to go on a business trip",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Refers specifically to work-related travel, not personal trips. The noun form {出張|しゅっちょう} is frequently used on its own without する, especially in compound expressions.\n\nCOMMON COLLOCATIONS:\n- {出張先|しゅっちょうさき}: business trip destination\n- {出張費|しゅっちょうひ}: business trip expenses\n- {出張報告|しゅっちょうほうこく}: business trip report\n- {海外出張|かいがいしゅっちょう}: overseas business trip\n- {日帰り出張|ひがえりしゅっちょう}: day trip for business\n\nSIMILAR WORDS:\n- {旅行|りょこう}: travel — general term for trips, not work-specific\n- {赴任|ふにん}: taking up a new post — implies relocation, not a temporary trip",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00748_ryokou",
+      "reading": "りょこう",
+      "headword": "{旅行|りょこう}",
+      "label": "travel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10601_funin",
+      "reading": "ふにん",
+      "headword": "{赴任|ふにん}",
+      "label": "taking up a new post"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T13:07:34Z",
-    "modified": "2026-05-06T13:07:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

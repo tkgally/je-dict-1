@@ -2,7 +2,7 @@
   "id": "02084_shusseki",
   "headword": "{出席|しゅっせき}",
   "reading": "しゅっせき",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "attendance, presence",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{出席|しゅっせき} refers to being present at meetings, classes, events, or ceremonies. Used both as a noun and with する as a verb.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {出席|しゅっせき}する\n\nCOMMON EXPRESSIONS:\n- {出席|しゅっせき}する: to attend\n- {出席|しゅっせき}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to take attendance\n- {出席|しゅっせき}{率|りつ}: attendance rate\n- {出席|しゅっせき}{者|しゃ}: attendee\n- {出席|しゅっせき}{簿|ぼ}: attendance register\n\nPARTICLE USAGE:\n- ⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦に→に：00314_ni⟧{出席|しゅっせき}する (attend a meeting) - uses に\n- ⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦に→に：00314_ni⟧{出席|しゅっせき}する (attend a wedding)\n\nOPPOSITE:\n⟦{欠席|けっせき}→欠席：02495_kesseki⟧ (absence) - often paired in formal contexts.",
+  "notes": "{出席|しゅっせき} refers to being present at meetings, classes, events, or ceremonies. Used both as a noun and with する as a verb.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {出席|しゅっせき}する\n\nCOMMON EXPRESSIONS:\n- {出席|しゅっせき}する: to attend\n- {出席|しゅっせき}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to take attendance\n- {出席|しゅっせき}{率|りつ}: attendance rate\n- {出席|しゅっせき}{者|しゃ}: attendee\n- {出席|しゅっせき}{簿|ぼ}: attendance register\n\nCOMMON PATTERNS:\n- ⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦に→に：00314_ni⟧{出席|しゅっせき}する (attend a meeting) - uses に\n- ⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦に→に：00314_ni⟧{出席|しゅっせき}する (attend a wedding)\n\nSIMILAR WORDS:\n⟦{欠席|けっせき}→欠席：02495_kesseki⟧ (absence) - often paired in formal contexts.",
   "cross_references": [
     {
       "type": "antonym",
@@ -141,11 +141,32 @@
       "reading": "けっせき",
       "headword": "{欠席|けっせき}",
       "label": "absence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11888_sanretsu",
+      "reading": "さんれつ",
+      "headword": "{参列|さんれつ}",
+      "label": "attendance at a ceremony"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16560_toukou",
+      "reading": "とうこう",
+      "headword": "{登校|とうこう}",
+      "label": "attending school"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25329_shuttou",
+      "reading": "しゅっとう",
+      "headword": "{出頭|しゅっとう}",
+      "label": "appearance (at a government office or police station)"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:33:40Z",
-    "modified": "2026-05-18T14:17:42Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

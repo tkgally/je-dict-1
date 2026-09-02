@@ -17,7 +17,9 @@
       "id": "29910_gaadokeeburu_ex1",
       "japanese": "{山道|やまみち}にガードケーブルがある。",
       "english": "There is a cable barrier along the mountain road.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29910_gaadokeeburu_ex2",
       "japanese": "ガードケーブルは{衝撃|しょうげき}を{吸収|きゅうしゅう}する。",
       "english": "Cable barriers absorb impact.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29910_gaadokeeburu_ex3",
       "japanese": "{高速道路|こうそくどうろ}の{中央|ちゅうおう}には、ガードケーブルが{張|は}られている{区間|くかん}がある。",
       "english": "On the highway median there are sections where cable barriers are strung.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "From English \"guard\" + \"cable.\" A flexible road barrier that stops a vehicle by absorbing energy through the give of its cables, unlike the rigid {ガードレール|がーどれーる}. Cheaper to install and repair than beam guardrails.\n\nCOMMON COLLOCATIONS:\n- ガードケーブルを{張|は}る: to string a cable barrier\n- ガードケーブルの{支柱|しちゅう}: the posts of a cable barrier\n\nSIMILAR WORDS:\n- {ガードレール|がーどれーる}: guardrail — a rigid steel beam barrier\n- {ガードパイプ|がーどぱいぷ}: pipe guardrail — made of tubular pipe, mainly for pedestrians",
+  "notes": "From English \"guard\" + \"cable.\" A flexible road barrier that stops a vehicle by absorbing energy through the give of its cables, unlike the rigid ガードレール. Cheaper to install and repair than beam guardrails.\n\nCOMMON COLLOCATIONS:\n- ガードケーブルを{張|は}る: to string a cable barrier\n- ガードケーブルの{支柱|しちゅう}: the posts of a cable barrier\n\nSIMILAR WORDS:\n- ガードレール: guardrail — a rigid steel beam barrier\n- ガードパイプ: pipe guardrail — made of tubular pipe, mainly for pedestrians",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06517_gaadoreeru",
+      "reading": "がーどれーる",
+      "headword": "ガードレール",
+      "label": "guardrail"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29909_gaadopaipu",
+      "reading": "がーどぱいぷ",
+      "headword": "ガードパイプ",
+      "label": "pipe guardrail"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["transportation"],
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ],
       "domain": []
     },
     "created": "2026-07-17T21:17:43Z",
-    "modified": "2026-07-17T21:17:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

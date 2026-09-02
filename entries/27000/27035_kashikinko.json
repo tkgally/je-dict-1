@@ -17,7 +17,9 @@
       "id": "27035_kashikinko_ex1",
       "japanese": "{貸金庫|かしきんこ}を{借|か}りる。",
       "english": "To rent a safe deposit box.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27035_kashikinko_ex2",
       "japanese": "{大事|だいじ}な{書類|しょるい}は{貸金庫|かしきんこ}に{保管|ほかん}している。",
       "english": "I keep important documents in a safe deposit box.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,48 @@
       "id": "27035_kashikinko_ex3",
       "japanese": "{銀行|ぎんこう}の{貸金庫|かしきんこ}は{年間|ねんかん}{使用料|しようりょう}がかかるが、{安全性|あんぜんせい}は{高|たか}い。",
       "english": "Bank safe deposit boxes have an annual fee, but the security is high.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {貸|か}し (rental; lending) + {金庫|きんこ} (safe; vault). A service offered by most major Japanese banks. Customers pay an annual fee and can access the box during bank hours. Used for storing items like jewelry, {不動産|ふどうさん}の{権利書|けんりしょ} (property deeds), {遺言書|いごんしょ} (wills), and other valuables.\n\nCOMMON COLLOCATIONS:\n- {貸金庫|かしきんこ}を{利用|りよう}する: to use a safe deposit box\n- {貸金庫|かしきんこ}の{鍵|かぎ}: safe deposit box key\n- {貸金庫|かしきんこ}の{料金|りょうきん}: safe deposit box fee\n- {貸金庫|かしきんこ}に{預|あず}ける: to store in a safe deposit box\n\nRELATED TERMS:\n- {金庫|きんこ}: safe; vault — a standalone safe or the bank's vault\n- {銀行口座|ぎんこうこうざ}: bank account\n- {保管|ほかん}: storage; safekeeping",
+  "notes": "Composed of {貸|か}し (rental; lending) + {金庫|きんこ} (safe; vault). A service offered by most major Japanese banks. Customers pay an annual fee and can access the box during bank hours. Used for storing items like jewelry, {不動産|ふどうさん}の{権利書|けんりしょ} (property deeds), {遺言書|いごんしょ} (wills), and other valuables.\n\nCOMMON COLLOCATIONS:\n- {貸金庫|かしきんこ}を{利用|りよう}する: to use a safe deposit box\n- {貸金庫|かしきんこ}の{鍵|かぎ}: safe deposit box key\n- {貸金庫|かしきんこ}の{料金|りょうきん}: safe deposit box fee\n- {貸金庫|かしきんこ}に{預|あず}ける: to store in a safe deposit box\n\nRELATED WORDS:\n- {金庫|きんこ}: safe; vault — a standalone safe or the bank's vault\n- {銀行口座|ぎんこうこうざ}: bank account\n- {保管|ほかん}: storage; safekeeping",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27021_ginkoukouza",
+      "reading": "ぎんこうこうざ",
+      "headword": "{銀行口座|ぎんこうこうざ}",
+      "label": "bank account"
+    },
+    {
+      "type": "related",
+      "target_id": "11442_hokan",
+      "reading": "ほかん",
+      "headword": "{保管|ほかん}",
+      "label": "storage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["money", "tool"],
-      "domain": ["business"]
+      "semantic": [
+        "money",
+        "tool"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-05-06T14:25:58Z",
-    "modified": "2026-08-07T06:28:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

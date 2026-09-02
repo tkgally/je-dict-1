@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{話|はな}す (speak X) / X⟦と→と：00512_to⟧{話|はな}す (talk with X).\n\nASPECT: ている indicates ongoing action. {話|はな}している = 'is talking.'\n\nCOMMON PATTERNS:\n・⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦を→を：00422_wo⟧{話|はな}す (speak Japanese)\n・⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧{話|はな}す (talk with friend)\n・⟦{電話|でんわ}→電話：01471_denwa⟧⟦で→で：00502_de⟧{話|はな}す (talk on phone)\n・{話|はな}せる (can speak - potential)\n\nFocuses on the act of speaking. Compare: ⟦{言|い}う→言う：00515_iu⟧ (say - focuses on content). Noun: ⟦{話|はなし}→話：01496_hanashi⟧ (story/conversation).",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{話|はな}す (speak X) / X⟦と→と：00512_to⟧{話|はな}す (talk with X).\n\nASPECT: ている indicates ongoing action. {話|はな}している = 'is talking.'\n\nCOMMON PATTERNS:\n- ⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦を→を：00422_wo⟧{話|はな}す (speak Japanese)\n- ⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧{話|はな}す (talk with friend)\n- ⟦{電話|でんわ}→電話：01471_denwa⟧⟦で→で：00502_de⟧{話|はな}す (talk on phone)\n- {話|はな}せる (can speak - potential)\n\nFocuses on the act of speaking. Compare: ⟦{言|い}う→言う：00515_iu⟧ (say - focuses on content). Noun: ⟦{話|はなし}→話：01496_hanashi⟧ (story/conversation).",
   "prominent_see_also": [
     {
       "target_id": "01496_hanashi",
@@ -237,11 +237,46 @@
       "reading": "しゃべる",
       "headword": "しゃべる",
       "label": "to chat, to chatter (casual)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17363_kuchiwokiku",
+      "reading": "くちをきく",
+      "headword": "{口|くち}を{利|き}く",
+      "label": "to speak"
+    },
+    {
+      "type": "homophone",
+      "target_id": "19372_hanasu",
+      "reading": "はなす",
+      "headword": "{離|はな}す",
+      "label": "to separate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20926_kikaseru",
+      "reading": "きかせる",
+      "headword": "{聞|き}かせる",
+      "label": "to tell"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26844_hatsuonsuru",
+      "reading": "はつおんする",
+      "headword": "{発音|はつおん}する",
+      "label": "to pronounce"
+    },
+    {
+      "type": "homophone",
+      "target_id": "29986_hanasu",
+      "reading": "はなす",
+      "headword": "{放|はな}す",
+      "label": "to let go of"
     }
   ],
   "metadata": {
     "created": "2026-01-05T12:44:11Z",
-    "modified": "2026-08-12T18:18:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

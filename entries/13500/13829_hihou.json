@@ -19,7 +19,9 @@
       "english": "The temple's hidden treasure was put on public display.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13829_hihou_ex2",
@@ -27,7 +29,9 @@
       "english": "This museum has gathered treasures from around the world.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13829_hihou_ex3",
@@ -35,21 +39,49 @@
       "english": "The adventurers headed deep into the jungle in search of an ancient civilization's hidden treasure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed in two main contexts: (1) real treasures held by temples, shrines, or institutions, often rarely displayed to the public, and (2) legendary or fictional hidden treasures in adventure stories and games.\n\nSIMILAR WORDS:\n- {宝物|たからもの}: a general word for treasure or prized possession, used in everyday speech\n- {国宝|こくほう}: national treasure, an official designation for culturally significant objects\n- {財宝|ざいほう}: treasure, riches (emphasizes monetary value)\n\nCOMMON COLLOCATIONS:\n- {秘宝|ひほう}{展|てん}: hidden treasures exhibition\n- {秘宝|ひほう}を{公開|こうかい}する: to put a hidden treasure on display\n- {秘宝|ひほう}を{探|さが}す: to search for hidden treasure\n- {寺|てら}の{秘宝|ひほう}: a temple's hidden treasure",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12269_takaramono",
+      "reading": "たからもの",
+      "headword": "{宝物|たからもの}",
+      "label": "a general word for treasure or prized…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09642_kokuhou",
+      "reading": "こくほう",
+      "headword": "{国宝|こくほう}",
+      "label": "national treasure, an official…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18496_zaihou",
+      "reading": "ざいほう",
+      "headword": "{財宝|ざいほう}",
+      "label": "treasure, riches"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T05:08:19Z",
-    "modified": "2026-02-27T05:08:19Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

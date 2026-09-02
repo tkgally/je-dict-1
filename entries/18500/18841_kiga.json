@@ -17,7 +17,9 @@
       "id": "18841_kiga_ex1",
       "japanese": "{飢餓|きが}に{苦|くる}しむ。",
       "english": "To suffer from hunger.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18841_kiga_ex2",
       "japanese": "{世界|せかい}では{多|おお}くの{人|ひと}が{飢餓|きが}に{直面|ちょくめん}している。",
       "english": "Many people around the world are facing starvation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "18841_kiga_ex3",
       "japanese": "{戦争|せんそう}によって{引|ひ}き{起|お}こされた{飢餓|きが}で、{何百万|なんびゃくまん}もの{命|いのち}が{失|うしな}われた。",
       "english": "Millions of lives were lost to famine caused by war.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -43,16 +49,52 @@
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06532_kuufuku",
+      "reading": "くうふく",
+      "headword": "{空腹|くうふく}",
+      "label": "hunger, empty stomach"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19723_shokuryounan",
+      "reading": "しょくりょうなん",
+      "headword": "{食糧難|しょくりょうなん}",
+      "label": "food shortage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19826_ue",
+      "reading": "うえ",
+      "headword": "{飢|う}え",
+      "label": "hunger, starvation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21221_eiyoushicchou",
+      "reading": "えいようしっちょう",
+      "headword": "{栄養失調|えいようしっちょう}",
+      "label": "malnutrition"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "style": ["written"]
+      "semantic": [
+        "general"
+      ],
+      "style": [
+        "written"
+      ]
     },
     "created": "2026-03-23T05:29:23Z",
-    "modified": "2026-03-23T05:29:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

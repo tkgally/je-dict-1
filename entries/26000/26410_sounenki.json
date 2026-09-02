@@ -17,7 +17,9 @@
       "id": "26410_sounenki_ex1",
       "japanese": "{彼|かれ}は{壮年|そうねん}{期|き}を{迎|むか}えた。",
       "english": "He entered middle age.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26410_sounenki_ex2",
       "japanese": "{壮年|そうねん}{期|き}は{体力|たいりょく}と{経験|けいけん}のバランスが{良|よ}い{時期|じき}だ。",
       "english": "Middle age is a period when physical strength and experience are well balanced.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,51 @@
       "id": "26410_sounenki_ex3",
       "japanese": "{壮年|そうねん}{期|き}の{男性|だんせい}は{仕事|しごと}でも{家庭|かてい}でも{中心的|ちゅうしんてき}な{役割|やくわり}を{担|にな}うことが{多|おお}い。",
       "english": "Men in their prime often play a central role both at work and in the family.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers to the stage of life between youth ({青年期|せいねんき}) and old age ({老年期|ろうねんき}), typically spanning the late thirties through the fifties. The term carries a positive nuance of being at the peak of one's powers, unlike English \"middle age\" which can imply decline.\n\nCOMMON COLLOCATIONS:\n- {壮年|そうねん}{期|き}を{迎|むか}える: to enter middle age\n- {壮年|そうねん}{期|き}の{男性|だんせい}: middle-aged man\n- {壮年|そうねん}{期|き}の{女性|じょせい}: middle-aged woman\n- {壮年|そうねん}{期|き}に{達|たっ}する: to reach one's prime\n\nLIFE STAGE SEQUENCE:\n- {幼年期|ようねんき}: early childhood\n- {少年期|しょうねんき}: boyhood/girlhood\n- {青年期|せいねんき}: youth\n- {壮年期|そうねんき}: prime of life / middle age\n- {中年期|ちゅうねんき}: middle age (more neutral)\n- {老年期|ろうねんき}: old age\n\nSIMILAR WORDS:\n- {中年|ちゅうねん}: middle age — more neutral and sometimes negative; {壮年期|そうねんき} emphasizes vigor\n- {働|はたら}き{盛|ざか}り: prime working years — focuses specifically on career productivity",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11307_chuunen",
+      "reading": "ちゅうねん",
+      "headword": "{中年|ちゅうねん}",
+      "label": "middle age"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28201_hatarakizakari",
+      "reading": "はたらきざかり",
+      "headword": "{働|はたら}き{盛|ざか}り",
+      "label": "prime working years"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23970_rounenki",
+      "reading": "ろうねんき",
+      "headword": "{老年期|ろうねんき}",
+      "label": "old age"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["time-period"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "time-period"
+      ]
     },
     "created": "2026-05-01T15:32:38Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

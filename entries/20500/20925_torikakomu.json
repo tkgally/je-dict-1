@@ -3,7 +3,7 @@
   "headword": "{取|と}り{囲|かこ}む",
   "reading": "とりかこむ",
   "romaji": "torikakomu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to surround; to encircle",
   "definitions": [
     {
@@ -47,6 +47,22 @@
   "notes": "A compound verb combining {取|と}り (intensifying prefix from {取|と}る) and {囲|かこ}む (to surround). The {取|と}り prefix adds a sense of completeness or thoroughness to the surrounding action.\n\nCOMMON COLLOCATIONS:\n- {人|ひと}を{取|と}り{囲|かこ}む: to surround a person\n- テーブルを{取|と}り{囲|かこ}む: to gather around a table\n- {建物|たてもの}を{取|と}り{囲|かこ}む: to surround a building\n- {大勢|おおぜい}で{取|と}り{囲|かこ}む: to surround in large numbers\n\nSIMILAR WORDS:\n- {囲|かこ}む: to surround — simpler form, also used figuratively for enjoying things together (e.g., {鍋|なべ}を{囲|かこ}む)\n- {包囲|ほうい}する: to besiege, to lay siege — more formal and military\n- {取|と}り{巻|ま}く: to surround — often used for circumstances or environment",
   "conjugation_type": "godan-mu",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19707_houisuru",
+      "reading": "ほういする",
+      "headword": "{包囲|ほうい}する",
+      "label": "to besiege, to lay siege"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22408_houi",
+      "reading": "ほうい",
+      "headword": "{包囲|ほうい}",
+      "label": "encirclement"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "godan-mu"
     },
     "created": "2026-03-30T21:32:26Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

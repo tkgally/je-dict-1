@@ -3,7 +3,7 @@
   "headword": "{偶発|ぐうはつ}",
   "reading": "ぐうはつ",
   "romaji": "guuhatsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "accidental occurrence; happening by chance",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Combines {偶|ぐう} (by chance) + {発|はつ} (occur, emit). An unplanned, chance occurrence. Very often used in the na-adjective form {偶発|ぐうはつ}{的|てき} (accidental, fortuitous).\n\nCOMMON COLLOCATIONS:\n- {偶発|ぐうはつ}{的|てき}: accidental; by chance\n- {偶発|ぐうはつ}{事故|じこ}: a chance accident\n- {偶発|ぐうはつ}{的|てき}な{事件|じけん}: an accidental incident\n\nSIMILAR WORDS:\n- {突発|とっぱつ}: sudden outbreak — emphasizes suddenness rather than chance\n- {必然|ひつぜん}: inevitability — the opposite, something bound to happen",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15656_toppatsu",
+      "reading": "とっぱつ",
+      "headword": "{突発|とっぱつ}",
+      "label": "sudden outbreak"
+    },
+    {
+      "type": "antonym",
+      "target_id": "05533_hitsuzen",
+      "reading": "ひつぜん",
+      "headword": "{必然|ひつぜん}",
+      "label": "inevitability"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "abstract"
       ],
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-06-26T09:20:43Z",
-    "modified": "2026-06-26T09:20:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

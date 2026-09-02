@@ -19,7 +19,9 @@
       "english": "I attended a lecture.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15096_kouenkai_ex2",
@@ -27,7 +29,9 @@
       "english": "A lecture by a famous professor will be held.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15096_kouenkai_ex3",
@@ -35,21 +39,35 @@
       "english": "A lecture on health was held at the civic hall, and many people gathered.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{講演会|こうえんかい} refers to a formal public speaking event, typically with an invited speaker addressing an audience on a specific topic. It is common in academic, business, and community settings.\n\nCOMMON COLLOCATIONS:\n- {講演会|こうえんかい}を{開|ひら}く (to hold a lecture)\n- {講演会|こうえんかい}に{出席|しゅっせき}する (to attend a lecture)\n- {講演会|こうえんかい}の{講師|こうし} (lecturer at a speaking event)\n\nSIMILAR WORDS:\nセミナー is a seminar, usually more interactive. シンポジウム is a symposium with multiple speakers. {講演|こうえん} alone refers to the lecture itself rather than the event.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23280_soudankai",
+      "reading": "そうだんかい",
+      "headword": "{相談会|そうだんかい}",
+      "label": "consultation session"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T06:54:27Z",
-    "modified": "2026-03-05T06:54:27Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

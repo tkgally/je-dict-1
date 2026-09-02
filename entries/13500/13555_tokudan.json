@@ -19,7 +19,9 @@
       "english": "Nothing particularly unusual is going on.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13555_tokudan_ex2",
@@ -27,7 +29,9 @@
       "english": "Please participate unless you have a particular reason not to.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13555_tokudan_ex3",
@@ -35,21 +39,43 @@
       "english": "No particular problems were found in this examination, so please rest assured.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as an adverb ({特段|とくだん}) or as a noun modifier ({特段|とくだん}の). Very frequently used with negative expressions to mean \"nothing in particular\" or \"not especially.\" It has a somewhat formal tone and is common in business, official, and written contexts.\n\nCOMMON COLLOCATIONS:\n- {特段|とくだん}の{問題|もんだい}はない (no particular problems)\n- {特段|とくだん}の{理由|りゆう} (particular reason)\n- {特段|とくだん}{変|か}わりない (nothing particularly different)\n- {特段|とくだん}の{支障|ししょう}はない (no particular hindrance)\n\nSIMILAR WORDS:\n- {特|とく}に: especially, particularly (more common in everyday speech)\n- {格別|かくべつ}: exceptional, special (emphasizes standing out positively)\n- {別段|べつだん}: (not) particularly (similar usage with negatives, slightly more literary)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01260_tokuni",
+      "reading": "とくに",
+      "headword": "{特|とく}に",
+      "label": "especially, particularly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00154_kakubetsu",
+      "reading": "かくべつ",
+      "headword": "{格別|かくべつ}",
+      "label": "exceptional, special"
+    }
+  ],
   "metadata": {
     "created": "2026-02-25T14:26:13Z",
-    "modified": "2026-02-25T14:26:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "noun"],
+      "pos": [
+        "adverb",
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

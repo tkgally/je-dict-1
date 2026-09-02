@@ -3,7 +3,7 @@
   "id": "11074_saiketsu",
   "headword": "{採血|さいけつ}",
   "reading": "さいけつ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "blood draw, blood sampling",
   "conjugation": {
     "type": "suru",
@@ -142,11 +142,32 @@
       "reading": "けんけつ",
       "headword": "{献血|けんけつ}",
       "label": "blood donation"
+    },
+    {
+      "type": "related",
+      "target_id": "04083_yuketsu",
+      "reading": "ゆけつ",
+      "headword": "{輸血|ゆけつ}",
+      "label": "blood transfusion"
+    },
+    {
+      "type": "related",
+      "target_id": "23299_ketsuekikensa",
+      "reading": "けつえきけんさ",
+      "headword": "{血液検査|けつえきけんさ}",
+      "label": "blood test"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26274_kyuuketsu",
+      "reading": "きゅうけつ",
+      "headword": "{吸血|きゅうけつ}",
+      "label": "blood-sucking"
     }
   ],
   "metadata": {
     "created": "2026-02-13T05:17:28Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

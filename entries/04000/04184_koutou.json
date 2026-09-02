@@ -43,10 +43,26 @@
       ]
     }
   ],
-  "notes": "COMMON COMPOUNDS:\n・{高等|こうとう}⟦{学校|がっこう}→学校：00055_gakkou⟧ (high school, often abbreviated to ⟦{高校|こうこう}→高校：01083_koukou⟧)\n・{高等|こうとう}⟦{教育|きょういく}→教育：01313_kyouiku⟧ (higher education)\n・{高等|こうとう}⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧ (high court)\n・{高等|こうとう}⟦{動物|どうぶつ}→動物：01480_doubutsu⟧ (higher animals)\n\nOPPOSITE:\n・⟦{初等|しょとう}→初等：16905_shotou⟧ (elementary, primary)\n・⟦{中等|ちゅうとう}→中等：22279_chuutou⟧ (intermediate, secondary)\n\nNOTE: In everyday speech, ⟦{高校|こうこう}→高校：01083_koukou⟧ is much more common than {高等|こうとう}⟦{学校|がっこう}→学校：00055_gakkou⟧.",
+  "notes": "COMPOUNDS:\n- {高等|こうとう}⟦{学校|がっこう}→学校：00055_gakkou⟧ (high school, often abbreviated to ⟦{高校|こうこう}→高校：01083_koukou⟧)\n- {高等|こうとう}⟦{教育|きょういく}→教育：01313_kyouiku⟧ (higher education)\n- {高等|こうとう}⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧ (high court)\n- {高等|こうとう}⟦{動物|どうぶつ}→動物：01480_doubutsu⟧ (higher animals)\n\nSIMILAR WORDS:\n- ⟦{初等|しょとう}→初等：16905_shotou⟧ (elementary, primary)\n- ⟦{中等|ちゅうとう}→中等：22279_chuutou⟧ (intermediate, secondary)\n\nNOTE: In everyday speech, ⟦{高校|こうこう}→高校：01083_koukou⟧ is much more common than {高等|こうとう}⟦{学校|がっこう}→学校：00055_gakkou⟧.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16905_shotou",
+      "reading": "しょとう",
+      "headword": "{初等|しょとう}",
+      "label": "elementary, primary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22279_chuutou",
+      "reading": "ちゅうとう",
+      "headword": "{中等|ちゅうとう}",
+      "label": "intermediate, secondary"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T13:58:45Z",
-    "modified": "2026-08-14T18:20:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

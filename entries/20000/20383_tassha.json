@@ -22,7 +22,9 @@
       "id": "20383_tassha_ex1",
       "japanese": "{彼女|かのじょ}は{口|くち}が{達者|たっしゃ}だ。",
       "english": "She has a way with words.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "20383_tassha_ex2",
       "japanese": "{商売|しょうばい}が{達者|たっしゃ}な{人|ひと}だ。",
       "english": "He's a person skilled at business.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "20383_tassha_ex3",
       "japanese": "あの{子|こ}は{身体|からだ}が{達者|たっしゃ}で、スポーツなら{何|なん}でもこなす。",
       "english": "That kid is physically gifted and can handle any sport.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "20383_tassha_ex4",
       "japanese": "おばあちゃんは{達者|たっしゃ}ですか。",
       "english": "Is your grandmother in good health?",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "20383_tassha_ex5",
       "japanese": "{九十歳|きゅうじっさい}でまだ{達者|たっしゃ}だ。",
       "english": "Still healthy at ninety years old.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,59 @@
       "id": "20383_tassha_ex6",
       "japanese": "お{互|たが}い{達者|たっしゃ}で{暮|く}らしましょう。",
       "english": "Let's both live in good health.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A versatile word with two distinct senses. The skillful sense often appears in set phrases like {口|くち}が{達者|たっしゃ} (eloquent, glib). The healthy sense is especially common when asking about or describing elderly people's well-being.\n\nCOMMON COLLOCATIONS:\n- {口|くち}が{達者|たっしゃ}: eloquent, glib, having a silver tongue\n- {身体|からだ}が{達者|たっしゃ}: physically fit, in good shape\n- {達者|たっしゃ}で{暮|く}らす: to live in good health\n- お{達者|たっしゃ}で: take care (farewell greeting)\n\nSIMILAR WORDS:\n- {上手|じょうず}: good at, skilled — more general and common for everyday skills\n- {元気|げんき}: healthy, energetic — broader and more casual than the health sense of {達者|たっしゃ}\n- {丈夫|じょうぶ}: healthy, sturdy — emphasizes physical robustness rather than overall well-being",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00707_jouzu",
+      "reading": "じょうず",
+      "headword": "{上手|じょうず}",
+      "label": "good at, skilled"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00696_genki",
+      "reading": "げんき",
+      "headword": "{元気|げんき}",
+      "label": "healthy, energetic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01156_joubu",
+      "reading": "じょうぶ",
+      "headword": "{丈夫|じょうぶ}",
+      "label": "healthy, sturdy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25924_pinpinshiteiru",
+      "reading": "ぴんぴんしている",
+      "headword": "ぴんぴんしている",
+      "label": "to be lively and well"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["health", "abilities"]
+      "semantic": [
+        "health",
+        "abilities"
+      ]
     },
     "created": "2026-03-29T12:11:21Z",
-    "modified": "2026-03-29T12:11:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

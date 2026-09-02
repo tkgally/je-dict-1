@@ -17,7 +17,9 @@
       "id": "25615_keibuho_ex1",
       "japanese": "{田中|たなか}{警部補|けいぶほ}が{事件|じけん}を{担当|たんとう}している。",
       "english": "Assistant Inspector Tanaka is in charge of the case.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25615_keibuho_ex2",
       "japanese": "{昇進|しょうしん}して{警部補|けいぶほ}になった。",
       "english": "I was promoted to assistant inspector.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,45 @@
       "id": "25615_keibuho_ex3",
       "japanese": "{日本|にほん}の{刑事|けいじ}ドラマでは、{警部補|けいぶほ}が{主人公|しゅじんこう}を{務|つと}めることが{多|おお}く、{現場|げんば}で{捜査|そうさ}する{姿|すがた}がよく{描|えが}かれる。",
       "english": "In Japanese detective dramas, assistant inspectors often serve as the protagonist, and they are frequently depicted investigating at the scene.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {警部|けいぶ} (police inspector) and {補|ほ} (assistant, deputy). This is one of the most frequently encountered police ranks in Japanese crime fiction and television dramas.\n\nThe Japanese police rank hierarchy from bottom to top: {巡査|じゅんさ} → {巡査部長|じゅんさぶちょう} → {警部補|けいぶほ} → {警部|けいぶ} → {警視|けいし} → {警視正|けいしせい}. The {警部補|けいぶほ} rank is notable because it is the highest rank that can be reached through promotion from the rank-and-file path.\n\nJAPANESE POLICE RANKS:\n- {巡査|じゅんさ}: police officer (lowest rank)\n- {巡査部長|じゅんさぶちょう}: sergeant\n- {警部補|けいぶほ}: assistant inspector\n- {警部|けいぶ}: inspector\n- {警視|けいし}: superintendent\n\nSIMILAR WORDS:\n- {警部|けいぶ}: police inspector — one rank above\n- {刑事|けいじ}: detective — a job title rather than a rank; detectives are typically {巡査部長|じゅんさぶちょう} or {警部補|けいぶほ} rank\n- {巡査|じゅんさ}: police officer — the entry-level rank",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02741_keiji",
+      "reading": "けいじ",
+      "headword": "{刑事|けいじ}",
+      "label": "detective"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04276_junsa",
+      "reading": "じゅんさ",
+      "headword": "{巡査|じゅんさ}",
+      "label": "police officer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["person", "law"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "person",
+        "law"
+      ]
     },
     "created": "2026-04-26T12:41:36Z",
-    "modified": "2026-04-26T12:41:36Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

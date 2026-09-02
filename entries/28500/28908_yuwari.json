@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {湯|ゆ} (hot water) + {割|わ}り (dilution). Contrasts with {水割|みずわ}り (cut with cold water) and ロック (on the rocks).\n\nCOMMON COLLOCATIONS:\n- {焼酎|しょうちゅう}の{湯割|ゆわ}り: shochu cut with hot water\n- {湯割|ゆわ}りで{飲|の}む: to drink it as a yuwari\n- {湯割|ゆわ}りにする: to make it a yuwari\n\nSIMILAR WORDS:\n- {水割|みずわ}り: cut with cold water — same idea but cold\n- {お{湯割|ゆわ}り}: polite form, used in restaurants/bars\n- ロック: on the rocks — no water, just ice",
+  "notes": "Compound of {湯|ゆ} (hot water) + {割|わ}り (dilution). Contrasts with {水割|みずわ}り (cut with cold water) and ロック (on the rocks).\n\nCOMMON COLLOCATIONS:\n- {焼酎|しょうちゅう}の{湯割|ゆわ}り: shochu cut with hot water\n- {湯割|ゆわ}りで{飲|の}む: to drink it as a yuwari\n- {湯割|ゆわ}りにする: to make it a yuwari\n\nSIMILAR WORDS:\n- {水割|みずわ}り: cut with cold water — same idea but cold\n- お{湯割|ゆわ}り: polite form, used in restaurants/bars\n- ロック: on the rocks — no water, just ice",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16023_mizuwari",
+      "reading": "みずわり",
+      "headword": "{水割|みずわ}り",
+      "label": "cut with cold water"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08116_rokku",
+      "reading": "ろっく",
+      "headword": "ロック",
+      "label": "on the rocks"
+    },
+    {
+      "type": "related",
+      "target_id": "16637_tansanwari",
+      "reading": "たんさんわり",
+      "headword": "{炭酸割|たんさんわ}り",
+      "label": "mixed with soda water"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       "domain": []
     },
     "created": "2026-06-07T03:04:58Z",
-    "modified": "2026-08-09T06:33:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

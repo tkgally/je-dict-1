@@ -3,7 +3,7 @@
   "id": "12242_sonzoku",
   "headword": "{存続|そんぞく}",
   "reading": "そんぞく",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "continuation, survival, persistence",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,25 @@
     }
   ],
   "notes": "USAGE:\nUsed as a noun or with する to form a verb. Commonly appears in formal and news contexts when discussing whether something will continue or be discontinued. Often implies that the subject's continued existence is uncertain or threatened.\n\nCOMMON COLLOCATIONS:\n- {存続|そんぞく}が{危|あや}ぶまれる: survival is in doubt\n- {存続|そんぞく}の{危機|きき}: crisis of survival\n- {存続|そんぞく}を{図|はか}る: to seek to continue/survive\n- {存続|そんぞく}する: to continue to exist",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23025_zanzon",
+      "reading": "ざんぞん",
+      "headword": "{残存|ざんぞん}",
+      "label": "survival"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26971_keizokusuru",
+      "reading": "けいぞくする",
+      "headword": "{継続|けいぞく}する",
+      "label": "to continue"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T13:35:55Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{麦色|むぎいろ}",
   "reading": "むぎいろ",
   "romaji": "mugiiro",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "wheat color; golden brown",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "26345_mugiiro_ex1",
       "japanese": "{麦色|むぎいろ}の{肌|はだ}が{健康的|けんこうてき}だ。",
       "english": "The golden-brown skin looks healthy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26345_mugiiro_ex2",
       "japanese": "{夏|なつ}の{終|お}わりには、{子|こ}どもたちはみんな{麦色|むぎいろ}に{日焼|ひや}けしていた。",
       "english": "By the end of summer, all the children had tanned to a golden brown.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,46 @@
       "id": "26345_mugiiro_ex3",
       "japanese": "{麦色|むぎいろ}の{髪|かみ}をした{女性|じょせい}がカフェに{座|すわ}っていた。",
       "english": "A woman with wheat-colored hair was sitting in the café.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {麦|むぎ} (wheat/barley) and {色|いろ} (color). A poetic and evocative color word frequently used in literature and everyday description. The most common usage is to describe a healthy, sun-tanned complexion, especially in summer contexts.\n\nCOMMON COLLOCATIONS:\n- {麦色|むぎいろ}の{肌|はだ}: wheat-colored skin, sun-tanned skin\n- {麦色|むぎいろ}に{焼|や}ける: to tan to a golden brown\n- {麦色|むぎいろ}の{髪|かみ}: wheat-colored hair\n\nSIMILAR WORDS:\n- {小麦色|こむぎいろ}: wheat color — nearly synonymous but more commonly used for describing tanned skin\n- {黄金色|こがねいろ}: golden color — brighter and more vivid than wheat color\n- {褐色|かっしょく}: brown — a more neutral, less poetic term for dark skin tones",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19037_koganeiro",
+      "reading": "こがねいろ",
+      "headword": "{黄金色|こがねいろ}",
+      "label": "golden color"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14115_kasshoku",
+      "reading": "かっしょく",
+      "headword": "{褐色|かっしょく}",
+      "label": "brown"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
-      "semantic": ["color", "appearance"]
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "color",
+        "appearance"
+      ]
     },
     "created": "2026-05-01T11:32:23Z",
-    "modified": "2026-05-01T11:32:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

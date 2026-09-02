@@ -3,7 +3,7 @@
   "headword": "きょとんと",
   "reading": "きょとんと",
   "romaji": "kyotonto",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "blankly; with a puzzled look; dumbfounded",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "23073_kyotonto_ex1",
       "japanese": "きょとんとした{顔|かお}。",
       "english": "A blank, puzzled face.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23073_kyotonto_ex2",
       "japanese": "{子|こ}どもはきょとんとして{私|わたし}を{見|み}ていた。",
       "english": "The child was staring at me blankly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "23073_kyotonto_ex3",
       "japanese": "{突然|とつぜん}サプライズパーティーが{始|はじ}まり、{彼女|かのじょ}はきょとんとしたまま{立|た}ち{尽|つ}くしていた。",
       "english": "A surprise party suddenly started, and she just stood there looking completely bewildered.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A mimetic word (onomatopoeia) that vividly describes the blank, wide-eyed expression of someone who doesn't understand what's going on. Often endearing or humorous rather than negative.\n\nCOMMON PATTERNS:\n- きょとんとする: to look blank/puzzled\n- きょとんとした{顔|かお}: a bewildered face\n- きょとんとして{見|み}る: to look at blankly\n\nSIMILAR WORDS:\n- ぽかんと: blankly, vacantly — more emphasis on being dazed or spacing out\n- ぼんやりと: vaguely, absent-mindedly — more about being unfocused than confused\n- {呆然|ぼうぜん}と: stunned, dumbfounded — more intense shock; formal\n- きょろきょろ: looking around restlessly — a different kind of confusion: searching rather than blank",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17866_pokanto",
+      "reading": "ぽかんと",
+      "headword": "ポカンと",
+      "label": "blankly, vacantly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07514_kyorokyoro",
+      "reading": "きょろきょろ",
+      "headword": "きょろきょろ",
+      "label": "looking around restlessly"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "onomatopoeia"],
+      "pos": [
+        "adverb",
+        "onomatopoeia"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     },
     "created": "2026-04-08T17:35:47Z",
-    "modified": "2026-04-08T17:35:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

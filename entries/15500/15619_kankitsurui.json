@@ -19,7 +19,9 @@
       "english": "Citrus fruits are rich in vitamin C.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15619_kankitsurui_ex2",
@@ -27,7 +29,9 @@
       "english": "Citrus fruit cultivation is thriving in this region.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15619_kankitsurui_ex3",
@@ -35,21 +39,49 @@
       "english": "The refreshing scent of citrus fruits spread through the room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{柑橘類|かんきつるい} is the formal collective term for citrus fruits. In everyday conversation, people typically refer to specific fruits like みかん (mandarin) or レモン (lemon) rather than using this category term.\n\nCOMMON COLLOCATIONS:\n- {柑橘類|かんきつるい}の{果汁|かじゅう} (citrus juice)\n- {柑橘類|かんきつるい}の{栽培|さいばい} (citrus cultivation)\n- {柑橘類|かんきつるい}アレルギー (citrus allergy)\n\nSIMILAR WORDS:\n- みかん: mandarin orange (the most common citrus in Japan)\n- {果物|くだもの}: fruit (general term)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00509_kudamono",
+      "reading": "くだもの",
+      "headword": "{果物|くだもの}",
+      "label": "fruit"
+    },
+    {
+      "type": "related",
+      "target_id": "01036_mikan",
+      "reading": "みかん",
+      "headword": "みかん",
+      "label": "mandarin orange"
+    },
+    {
+      "type": "related",
+      "target_id": "20789_gureepufuruutsu",
+      "reading": "ぐれーぷふるーつ",
+      "headword": "グレープフルーツ",
+      "label": "grapefruit"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T13:43:42Z",
-    "modified": "2026-03-07T13:43:42Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

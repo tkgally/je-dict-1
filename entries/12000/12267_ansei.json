@@ -19,7 +19,9 @@
       "english": "Please rest quietly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12267_ansei_ex2",
@@ -27,7 +29,9 @@
       "english": "The doctor told me to rest for a week.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12267_ansei_ex3",
@@ -35,22 +39,38 @@
       "english": "Since I broke a bone, I was told that complete bed rest is necessary for a while.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nPrimarily a medical term. The most common pattern is {安静|あんせい}にする (to rest, to stay still). Doctors frequently use this when instructing patients after surgery, illness, or injury. {絶対|ぜったい}{安静|あんせい} (absolute rest / complete bed rest) is a stronger instruction meaning no movement at all.\n\nCOMMON COLLOCATIONS:\n- {安静|あんせい}にする: to rest, to keep still\n- {絶対|ぜったい}{安静|あんせい}: complete bed rest, absolute rest\n- {安静|あんせい}が{必要|ひつよう}: rest is necessary\n- {安静|あんせい}を{保|たも}つ: to maintain rest\n- {自宅|じたく}{安静|あんせい}: resting at home",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19769_chinsei",
+      "reading": "ちんせい",
+      "headword": "{鎮静|ちんせい}",
+      "label": "calming"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T15:00:54Z",
-    "modified": "2026-02-20T15:00:54Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["health"],
-      "domain": ["medical"]
+      "semantic": [
+        "health"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

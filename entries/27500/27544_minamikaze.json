@@ -17,7 +17,9 @@
       "id": "27544_minamikaze_ex1",
       "japanese": "{今日|きょう}は{南風|みなみかぜ}が{強|つよ}い。",
       "english": "The south wind is strong today.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27544_minamikaze_ex2",
       "japanese": "{南風|みなみかぜ}が{吹|ふ}いて、{暖|あたた}かくなった。",
       "english": "A south wind blew, and it got warmer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,39 @@
       "id": "27544_minamikaze_ex3",
       "japanese": "{春|はる}になると、{暖|あたた}かい{南風|みなみかぜ}が{毎日|まいにち}のように{吹|ふ}いてくる。",
       "english": "When spring comes, a warm south wind blows almost every day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {南|みなみ} (south) + {風|かぜ} (wind). Read みなみかぜ in everyday usage; the literary reading なんぷう is reserved for formal or poetic contexts.\n\nCOMMON COLLOCATIONS:\n- {南風|みなみかぜ}が{吹|ふ}く: a south wind blows\n- {暖|あたた}かい{南風|みなみかぜ}: warm south wind\n- {強|つよ}い{南風|みなみかぜ}: strong south wind\n\nSIMILAR WORDS:\n- {北風|きたかぜ}: north wind — cold, associated with winter\n- {東風|こち}: east wind — literary, often spring breeze\n- {西風|にしかぜ}: west wind\n- なんぷう ({南風|なんぷう}): same kanji, formal/literary reading",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21247_kitakaze",
+      "reading": "きたかぜ",
+      "headword": "{北風|きたかぜ}",
+      "label": "north wind"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["weather", "nature"],
+      "politeness": "plain",
+      "semantic": [
+        "weather",
+        "nature"
+      ],
       "domain": []
     },
     "created": "2026-05-14T01:41:20Z",
-    "modified": "2026-05-14T01:41:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

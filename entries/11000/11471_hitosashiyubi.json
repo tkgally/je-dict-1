@@ -19,7 +19,9 @@
       "english": "Touch the screen with your index finger.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11471_hitosashiyubi_ex2",
@@ -27,7 +29,9 @@
       "english": "She put her index finger to her lips and said \"shh.\"",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11471_hitosashiyubi_ex3",
@@ -35,21 +39,35 @@
       "english": "It's said to be rude to point at people with your index finger.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "The index finger, used for pointing. In Japanese culture, pointing at people with this finger is considered rude.\n\nETYMOLOGY:\nLiterally \"person-pointing finger\" — {人|ひと} (person) + {差|さ}す (to point) + {指|ゆび} (finger). Named for its role in pointing at people.\n\nALL FIVE FINGERS:\n- {親指|おやゆび}: thumb (\"parent finger\")\n- {人差|ひとさ}し{指|ゆび}: index finger (\"person-pointing finger\")\n- {中指|なかゆび}: middle finger (\"middle finger\")\n- {薬指|くすりゆび}: ring finger (\"medicine finger\")\n- {小指|こゆび}: little finger, pinky (\"small finger\")\n\nCULTURAL NOTE:\nPointing at people with the {人差|ひとさ}し{指|ゆび} is considered impolite in Japan. When indicating a person or direction, Japanese people often gesture with an open hand instead.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04029_koyubi",
+      "reading": "こゆび",
+      "headword": "{小指|こゆび}",
+      "label": "little finger, pinky"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T14:12:10Z",
-    "modified": "2026-03-25T12:24:31Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-part"]
+      "semantic": [
+        "body-part"
+      ]
     }
   }
 }

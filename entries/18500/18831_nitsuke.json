@@ -17,7 +17,9 @@
       "id": "18831_nitsuke_ex1",
       "japanese": "{魚|さかな}の{煮付|につ}けを{作|つく}る。",
       "english": "I'll make simmered fish.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18831_nitsuke_ex2",
       "japanese": "{今日|きょう}の{晩|ばん}ご{飯|はん}はカレイの{煮付|につ}けだ。",
       "english": "Tonight's dinner is simmered flounder.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "18831_nitsuke_ex3",
       "japanese": "{祖母|そぼ}の{煮付|につ}けは{醤油|しょうゆ}と{砂糖|さとう}の{味|あじ}がしっかり{染|し}みていて{絶品|ぜっぴん}だった。",
       "english": "My grandmother's simmered dish was exquisite, with the soy sauce and sugar flavors thoroughly soaked in.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -43,15 +49,42 @@
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16484_nizakana",
+      "reading": "にざかな",
+      "headword": "{煮魚|にざかな}",
+      "label": "simmered fish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21370_kanroni",
+      "reading": "かんろに",
+      "headword": "{甘露煮|かんろに}",
+      "label": "simmered in sweet syrup"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21372_misoni",
+      "reading": "みそに",
+      "headword": "{味噌煮|みそに}",
+      "label": "simmered in miso"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-03-23T05:26:22Z",
-    "modified": "2026-03-23T05:26:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

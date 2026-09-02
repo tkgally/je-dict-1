@@ -19,7 +19,9 @@
       "english": "The soldiers are marching.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11680_heishi_ex2",
@@ -27,7 +29,9 @@
       "english": "Many soldiers lost their lives on the battlefield.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11680_heishi_ex3",
@@ -35,10 +39,12 @@
       "english": "The young soldiers were sent to the front lines after undergoing harsh training.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A standard, neutral term for soldiers. Used in both historical and modern military contexts.\n\nCOMMON COLLOCATIONS:\n・{兵士|へいし}を{派遣|はけん}する (dispatch soldiers)\n・{兵士|へいし}の{訓練|くんれん} (soldier training)\n・{負傷|ふしょう}した{兵士|へいし} (wounded soldier)\n\nDISTINCTIONS:\n・{兵士|へいし}: soldier (neutral, general — both historical and modern)\n・{軍人|ぐんじん}: military person (includes officers, broader than {兵士|へいし})\n・{兵隊|へいたい}: soldier (slightly more colloquial, can feel old-fashioned)\n・{武士|ぶし}: warrior (specifically Japanese samurai/warrior class)",
+  "notes": "A standard, neutral term for soldiers. Used in both historical and modern military contexts.\n\nCOMMON COLLOCATIONS:\n- {兵士|へいし}を{派遣|はけん}する (dispatch soldiers)\n- {兵士|へいし}の{訓練|くんれん} (soldier training)\n- {負傷|ふしょう}した{兵士|へいし} (wounded soldier)\n\nSIMILAR WORDS:\n- {兵士|へいし}: soldier (neutral, general — both historical and modern)\n- {軍人|ぐんじん}: military person (includes officers, broader than {兵士|へいし})\n- {兵隊|へいたい}: soldier (slightly more colloquial, can feel old-fashioned)\n- {武士|ぶし}: warrior (specifically Japanese samurai/warrior class)",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,17 +52,63 @@
       "reading": "せんし",
       "headword": "{戦士|せんし}",
       "label": "warrior, fighter (heroic)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02994_gunjin",
+      "reading": "ぐんじん",
+      "headword": "{軍人|ぐんじん}",
+      "label": "military person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27666_heitai",
+      "reading": "へいたい",
+      "headword": "{兵隊|へいたい}",
+      "label": "soldier"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03989_bushi",
+      "reading": "ぶし",
+      "headword": "{武士|ぶし}",
+      "label": "warrior"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27992_shoukou",
+      "reading": "しょうこう",
+      "headword": "{将校|しょうこう}",
+      "label": "military officer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27993_jieikan",
+      "reading": "じえいかん",
+      "headword": "{自衛官|じえいかん}",
+      "label": "Self-Defense Forces member"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28922_musha",
+      "reading": "むしゃ",
+      "headword": "{武者|むしゃ}",
+      "label": "warrior"
     }
   ],
   "metadata": {
     "created": "2026-02-17T20:22:30Z",
-    "modified": "2026-04-27T08:29:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     }
   }
 }

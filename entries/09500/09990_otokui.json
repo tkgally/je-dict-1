@@ -23,7 +23,9 @@
       "english": "You're good at cooking, aren't you?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09990_otokui_ex2",
@@ -31,7 +33,9 @@
       "english": "Are you good at piano?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09990_otokui_ex3",
@@ -39,7 +43,9 @@
       "english": "Please show us your specialty magic trick.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09990_otokui_ex4",
@@ -47,7 +53,9 @@
       "english": "A valued customer has arrived.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "09990_otokui_ex5",
@@ -55,7 +63,9 @@
       "english": "We offer special discounts to long-time customers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "09990_otokui_ex6",
@@ -63,21 +73,42 @@
       "english": "I've been a regular customer of this shop for ten years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
-  "notes": "お{得意|とくい} has two distinct meanings depending on context.\n\nSENSE 1 (specialty):\nPolite form of {得意|とくい} (strong point). Used when asking about or praising someone's skills.\n\nSENSE 2 (customer):\nOften appears as お{得意|とくい}さま or お{得意|とくい}さん.\n- お{得意|とくい}さま: valued customer (formal/business)\n- お{得意|とくい}さん: regular customer (casual)\n\nRELATED TERMS:\n- {得意|とくい}: specialty; pride (without お)\n- {常連|じょうれん}: regular customer\n- {顧客|こきゃく}: customer (formal)",
-  "cross_references": [],
+  "notes": "お{得意|とくい} has two distinct meanings depending on context.\n\nSENSE 1 (specialty):\nPolite form of {得意|とくい} (strong point). Used when asking about or praising someone's skills.\n\nSENSE 2 (customer):\nOften appears as お{得意|とくい}さま or お{得意|とくい}さん.\n- お{得意|とくい}さま: valued customer (formal/business)\n- お{得意|とくい}さん: regular customer (casual)\n\nRELATED WORDS:\n- {得意|とくい}: specialty; pride (without お)\n- {常連|じょうれん}: regular customer\n- {顧客|こきゃく}: customer (formal)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06878_jouren",
+      "reading": "じょうれん",
+      "headword": "{常連|じょうれん}",
+      "label": "regular customer"
+    },
+    {
+      "type": "related",
+      "target_id": "08632_kokyaku",
+      "reading": "こきゃく",
+      "headword": "{顧客|こきゃく}",
+      "label": "customer"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T12:10:56Z",
-    "modified": "2026-02-04T12:10:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "polite",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

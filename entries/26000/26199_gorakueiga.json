@@ -17,7 +17,9 @@
       "id": "26199_gorakueiga_ex1",
       "japanese": "{夏休|なつやす}みには{娯楽映画|ごらくえいが}がたくさん{公開|こうかい}される。",
       "english": "Many entertainment films are released during summer vacation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26199_gorakueiga_ex2",
       "japanese": "この{監督|かんとく}は{娯楽映画|ごらくえいが}と{芸術映画|げいじゅつえいが}の{両方|りょうほう}を{手|て}がけている。",
       "english": "This director works on both entertainment films and art films.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,38 @@
       "id": "26199_gorakueiga_ex3",
       "japanese": "{昭和|しょうわ}の{時代|じだい}には{娯楽映画|ごらくえいが}が{日本|にほん}の{大衆文化|たいしゅうぶんか}の{中心|ちゅうしん}だった。",
       "english": "In the Showa era, entertainment films were at the center of Japanese popular culture.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {娯楽|ごらく} (entertainment, amusement) and {映画|えいが} (film, movie). The term distinguishes commercial crowd-pleasers from {芸術映画|げいじゅつえいが} (art films) or {記録映画|きろくえいが} (documentary films). Japan's golden age of {娯楽映画|ごらくえいが} was the 1950s-60s, when studios like {東宝|とうほう}, {松竹|しょうちく}, and {東映|とうえい} produced a high volume of genre films.\n\nCOMMON COLLOCATIONS:\n- {娯楽映画|ごらくえいが}の{大作|たいさく} — big entertainment film; blockbuster\n- {娯楽映画|ごらくえいが}を{楽|たの}しむ — to enjoy an entertainment movie\n- {娯楽映画|ごらくえいが}の{黄金期|おうごんき} — golden age of entertainment films\n\nSIMILAR WORDS:\n- {芸術映画|げいじゅつえいが} — art film; arthouse movie\n- {記録映画|きろくえいが} — documentary film\n- {商業映画|しょうぎょうえいが} — commercial film (emphasizes profitability over entertainment)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26086_kirokueiga",
+      "reading": "きろくえいが",
+      "headword": "{記録映画|きろくえいが}",
+      "label": "documentary film"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["entertainment", "culture"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "entertainment",
+        "culture"
+      ]
     },
     "created": "2026-04-30T11:29:42Z",
-    "modified": "2026-04-30T11:29:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

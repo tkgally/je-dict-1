@@ -18,7 +18,9 @@
       "english": "What is your favorite subject?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09998_kyouka_ex2",
@@ -26,7 +28,9 @@
       "english": "Math is a subject I'm weak at.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09998_kyouka_ex3",
@@ -34,10 +38,12 @@
       "english": "In elementary school, students study subjects like Japanese and arithmetic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{教科|きょうか} refers to subjects taught in the school curriculum, typically at elementary and secondary school levels.\n\nCOMMON COMPOUNDS:\n- {教科書|きょうかしょ}: textbook\n- {主要|しゅよう}{教科|きょうか}: main subjects\n- {必修|ひっしゅう}{教科|きょうか}: required subjects\n\nSIMILAR WORDS:\n- {科目|かもく}: course, subject (more often used at university level)\n- {授業|じゅぎょう}: class, lesson\n\nCOMMON SCHOOL SUBJECTS:\n- {国語|こくご}: Japanese language\n- {算数|さんすう} / {数学|すうがく}: arithmetic / mathematics\n- {理科|りか}: science\n- {社会|しゃかい}: social studies\n- {英語|えいご}: English\n- {体育|たいいく}: physical education",
+  "notes": "{教科|きょうか} refers to subjects taught in the school curriculum, typically at elementary and secondary school levels.\n\nCOMPOUNDS:\n- {教科書|きょうかしょ}: textbook\n- {主要|しゅよう}{教科|きょうか}: main subjects\n- {必修|ひっしゅう}{教科|きょうか}: required subjects\n\nSIMILAR WORDS:\n- {科目|かもく}: course, subject (more often used at university level)\n- {授業|じゅぎょう}: class, lesson\n\nCOMMON SCHOOL SUBJECTS:\n- {国語|こくご}: Japanese language\n- {算数|さんすう} / {数学|すうがく}: arithmetic / mathematics\n- {理科|りか}: science\n- {社会|しゃかい}: social studies\n- {英語|えいご}: English\n- {体育|たいいく}: physical education",
   "cross_references": [
     {
       "type": "contrast",
@@ -45,17 +51,35 @@
       "reading": "かもく",
       "headword": "{科目|かもく}",
       "label": "subject (university)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00781_jugyou",
+      "reading": "じゅぎょう",
+      "headword": "{授業|じゅぎょう}",
+      "label": "class, lesson"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00053_gakka",
+      "reading": "がっか",
+      "headword": "{学科|がっか}",
+      "label": "academic subject"
     }
   ],
   "metadata": {
     "created": "2026-02-04T13:51:51Z",
-    "modified": "2026-04-23T08:17:03Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

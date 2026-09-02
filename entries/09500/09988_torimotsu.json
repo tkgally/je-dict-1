@@ -2,7 +2,7 @@
   "id": "09988_torimotsu",
   "headword": "{取|と}り{持|も}つ",
   "reading": "とりもつ",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to mediate, to act as go-between, to introduce",
   "conjugation": {
     "type": "godan",
@@ -133,11 +133,40 @@
       ]
     }
   ],
-  "notes": "{取|と}り{持|も}つ means to act as an intermediary between parties.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pattern: Xを{取|と}り{持|も}つ / Xの{間|あいだ}を{取|と}り{持|も}つ\n\nCOMMON PATTERNS:\n- {縁|えん}を{取|と}り{持|も}つ: to play matchmaker\n- {仲|なか}を{取|と}り{持|も}つ: to mediate between parties\n- {間|あいだ}を{取|と}り{持|も}つ: to act as go-between\n\nRELATED EXPRESSIONS:\n- {仲介|ちゅうかい}する: to mediate (more formal)\n- {橋渡|はしわた}しをする: to bridge (figurative)\n- {斡旋|あっせん}する: to arrange, to introduce",
-  "cross_references": [],
+  "notes": "{取|と}り{持|も}つ means to act as an intermediary between parties.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pattern: Xを{取|と}り{持|も}つ / Xの{間|あいだ}を{取|と}り{持|も}つ\n\nCOMMON PATTERNS:\n- {縁|えん}を{取|と}り{持|も}つ: to play matchmaker\n- {仲|なか}を{取|と}り{持|も}つ: to mediate between parties\n- {間|あいだ}を{取|と}り{持|も}つ: to act as go-between\n\nRELATED WORDS:\n- {仲介|ちゅうかい}する: to mediate (more formal)\n- {橋渡|はしわた}しをする: to bridge (figurative)\n- {斡旋|あっせん}する: to arrange, to introduce",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09718_chuukai",
+      "reading": "ちゅうかい",
+      "headword": "{仲介|ちゅうかい}",
+      "label": "to mediate"
+    },
+    {
+      "type": "related",
+      "target_id": "09978_assen",
+      "reading": "あっせん",
+      "headword": "{斡旋|あっせん}",
+      "label": "to arrange, to introduce"
+    },
+    {
+      "type": "related",
+      "target_id": "09606_hashiwatashi",
+      "reading": "はしわたし",
+      "headword": "{橋渡|はしわた}し",
+      "label": "mediation, bridging, acting as a go-between"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21383_chuukai",
+      "reading": "ちゅうかい",
+      "headword": "{仲介|ちゅうかい}する",
+      "label": "to mediate"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T12:10:07Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

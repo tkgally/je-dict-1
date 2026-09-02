@@ -17,7 +17,9 @@
       "id": "22048_shizensentaku_ex1",
       "japanese": "{自然選択|しぜんせんたく}による{進化|しんか}。",
       "english": "Evolution by natural selection.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22048_shizensentaku_ex2",
       "japanese": "{自然選択|しぜんせんたく}は{進化論|しんかろん}の{基本|きほん}{概念|がいねん}だ。",
       "english": "Natural selection is a fundamental concept of evolutionary theory.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "22048_shizensentaku_ex3",
       "japanese": "{環境|かんきょう}に{適応|てきおう}した{個体|こたい}が{生|い}き{残|のこ}るという{自然選択|しぜんせんたく}の{仕組|しく}みは、ダーウィンによって{提唱|ていしょう}された。",
       "english": "The mechanism of natural selection, where individuals adapted to their environment survive, was proposed by Darwin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {自然|しぜん} (nature, natural) and {選択|せんたく} (selection, choice). The standard Japanese term for Charles Darwin's concept of natural selection.\n\nCOMMON COLLOCATIONS:\n- {自然選択|しぜんせんたく}による{進化|しんか}: evolution by natural selection\n- {自然選択|しぜんせんたく}の{理論|りろん}: theory of natural selection\n- {自然選択|しぜんせんたく}が{働|はたら}く: natural selection is at work\n- {自然選択|しぜんせんたく}の{圧力|あつりょく}: selective pressure\n\nRELATED TERMS:\n- {自然淘汰|しぜんとうた}: natural selection (older/literary term) — uses the more literary {淘汰|とうた} (weeding out)\n- {進化|しんか}: evolution — the broader process\n- {適者生存|てきしゃせいぞん}: survival of the fittest — a related concept\n- {突然変異|とつぜんへんい}: mutation — another mechanism of evolution\n\nNOTE:\n{自然淘汰|しぜんとうた} is an older synonym that is still widely used. Both terms are correct, but {自然選択|しぜんせんたく} is now the standard scientific term.",
+  "notes": "Composed of {自然|しぜん} (nature, natural) and {選択|せんたく} (selection, choice). The standard Japanese term for Charles Darwin's concept of natural selection.\n\nCOMMON COLLOCATIONS:\n- {自然選択|しぜんせんたく}による{進化|しんか}: evolution by natural selection\n- {自然選択|しぜんせんたく}の{理論|りろん}: theory of natural selection\n- {自然選択|しぜんせんたく}が{働|はたら}く: natural selection is at work\n- {自然選択|しぜんせんたく}の{圧力|あつりょく}: selective pressure\n\nRELATED WORDS:\n- {自然淘汰|しぜんとうた}: natural selection (older/literary term) — uses the more literary {淘汰|とうた} (weeding out)\n- {進化|しんか}: evolution — the broader process\n- {適者生存|てきしゃせいぞん}: survival of the fittest — a related concept\n- {突然変異|とつぜんへんい}: mutation — another mechanism of evolution\n\nUSAGE:\n{自然淘汰|しぜんとうた} is an older synonym that is still widely used. Both terms are correct, but {自然選択|しぜんせんたく} is now the standard scientific term.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06029_shinka",
+      "reading": "しんか",
+      "headword": "{進化|しんか}",
+      "label": "evolution"
+    },
+    {
+      "type": "related",
+      "target_id": "19512_tekishaseizon",
+      "reading": "てきしゃせいぞん",
+      "headword": "{適者生存|てきしゃせいぞん}",
+      "label": "survival of the fittest"
+    },
+    {
+      "type": "related",
+      "target_id": "19099_totsuzenheni",
+      "reading": "とつぜんへんい",
+      "headword": "{突然変異|とつぜんへんい}",
+      "label": "mutation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["science"]
+      "semantic": [
+        "science"
+      ]
     },
     "created": "2026-04-04T21:17:29Z",
-    "modified": "2026-04-04T21:17:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

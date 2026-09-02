@@ -3,7 +3,7 @@
   "headword": "{仲裁|ちゅうさい}する",
   "reading": "ちゅうさいする",
   "romaji": "chuusaisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to mediate; to arbitrate",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Used for both informal mediation (stepping in to settle a personal argument) and formal arbitration (legal dispute resolution). The person who mediates is {仲裁人|ちゅうさいにん} or {仲裁者|ちゅうさいしゃ}.\n\nCOMMON COLLOCATIONS:\n- {仲裁|ちゅうさい}に{入|はい}る: to step in to mediate\n- {仲裁人|ちゅうさいにん}: mediator; arbitrator\n- {仲裁裁判|ちゅうさいさいばん}: arbitration court/tribunal\n- {国際仲裁|こくさいちゅうさい}: international arbitration\n- {仲裁|ちゅうさい}{手続|てつづ}き: arbitration proceedings\n\nSIMILAR WORDS:\n- {調停|ちょうてい}する: to mediate; to conciliate — more formal/legal; the mediator facilitates but does not impose a decision\n- {仲直|なかなお}りする: to make up; to reconcile — the parties themselves reconciling, not a third party intervening\n- {和解|わかい}する: to settle; to reach a compromise — the result of mediation, not the act of mediating",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14251_choutei",
+      "reading": "ちょうてい",
+      "headword": "{調停|ちょうてい}",
+      "label": "to mediate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06307_nakanaorisuru",
+      "reading": "なかなおりする",
+      "headword": "{仲直|なかなお}りする",
+      "label": "to make up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14912_wakaisuru",
+      "reading": "わかいする",
+      "headword": "{和解|わかい}する",
+      "label": "to settle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25398_kainyuusuru",
+      "reading": "かいにゅうする",
+      "headword": "{介入|かいにゅう}する",
+      "label": "to intervene"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +94,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T13:16:20Z",
-    "modified": "2026-05-06T13:16:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

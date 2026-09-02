@@ -22,7 +22,9 @@
       "id": "26156_makitori_ex1",
       "japanese": "{糸|いと}の{巻|ま}き{取|と}りをする。",
       "english": "To wind up thread.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "26156_makitori_ex2",
       "japanese": "リールの{巻|ま}き{取|と}りが{速|はや}くて{魚|さかな}を{逃|に}がさなかった。",
       "english": "The reel retrieval was fast and I didn't let the fish get away.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "26156_makitori_ex3",
       "japanese": "{工場|こうじょう}ではフィルムの{巻|ま}き{取|と}り{速度|そくど}を{自動|じどう}で{調整|ちょうせい}している。",
       "english": "In the factory, the film winding speed is adjusted automatically.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "26156_makitori_ex4",
       "japanese": "{巻|ま}き{取|と}り{式|しき}のコードは{便利|べんり}だ。",
       "english": "Retractable cords are convenient.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "26156_makitori_ex5",
       "japanese": "トイレットペーパーの{巻|ま}き{取|と}りが{残|のこ}り{少|すく}ない。",
       "english": "The toilet paper roll is almost empty.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,21 +72,38 @@
       "id": "26156_makitori_ex6",
       "japanese": "この{巻|ま}き{取|と}り{紙|がみ}は{一巻|ひとまき}で{百|ひゃく}メートルある。",
       "english": "This roll of paper is 100 meters per roll.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound noun from {巻|ま}く (to wind, to roll) + {取|と}る (to take). Commonly encountered in everyday life (fishing, household products) and in industrial/manufacturing contexts.\n\nCOMMON COLLOCATIONS:\n- {巻|ま}き{取|と}り{式|しき}: retractable type; reel-type\n- {巻|ま}き{取|と}り{機|き}: winding machine; winder\n- {巻|ま}き{取|と}り{速度|そくど}: winding speed\n- {巻|ま}き{取|と}り{紙|がみ}: roll paper\n\nSIMILAR WORDS:\n- {巻|ま}く: to wind, to roll — the base verb\n- リール: reel — the device that winds\n- スプール: spool — another winding device (loanword)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02418_maku",
+      "reading": "まく",
+      "headword": "{巻|ま}く",
+      "label": "to wind, to roll"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["daily-life", "work"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "daily-life",
+        "work"
+      ]
     },
     "created": "2026-04-29T15:30:31Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

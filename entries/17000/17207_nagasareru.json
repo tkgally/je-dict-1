@@ -3,7 +3,7 @@
   "id": "17207_nagasareru",
   "headword": "{流|なが}される",
   "reading": "ながされる",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to be swept away; to be swayed",
   "conjugation": {
     "type": "ichidan",
@@ -164,7 +164,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\nPassive form of {流|なが}す (to wash away, to let flow). In sense 2, the passive conveys being acted upon by external influence.\n\nCOMMON COLLOCATIONS:\n- {川|かわ}に{流|なが}される (to be swept away by a river)\n- {周|まわ}りに{流|なが}される (to be swayed by those around you)\n- {雰囲気|ふんいき}に{流|なが}される (to get carried away by the mood)\n- {時代|じだい}に{流|なが}される (to be swept along by the times)\n\nSIMILAR WORDS:\n- {影響|えいきょう}を{受|う}ける: to be influenced — more neutral, without the negative connotation of passivity\n- {左右|さゆう}される: to be swayed — formal, implies being controlled by external factors",
+  "notes": "FORMS:\nPassive form of {流|なが}す (to wash away, to let flow). In sense 2, the passive conveys being acted upon by external influence.\n\nCOMMON COLLOCATIONS:\n- {川|かわ}に{流|なが}される (to be swept away by a river)\n- {周|まわ}りに{流|なが}される (to be swayed by those around you)\n- {雰囲気|ふんいき}に{流|なが}される (to get carried away by the mood)\n- {時代|じだい}に{流|なが}される (to be swept along by the times)\n\nSIMILAR WORDS:\n- {影響|えいきょう}を{受|う}ける: to be influenced — more neutral, without the negative connotation of passivity\n- {左右|さゆう}される: to be swayed — formal, implies being controlled by external factors",
   "prominent_see_also": [
     {
       "target_id": "01968_nagasu",
@@ -173,10 +173,32 @@
       "note": "base transitive verb"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25023_eikyouwoukeru",
+      "reading": "えいきょうをうける",
+      "headword": "{影響|えいきょう}を{受|う}ける",
+      "label": "to be influenced"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26073_sayuusareru",
+      "reading": "さゆうされる",
+      "headword": "{左右|さゆう}される",
+      "label": "to be swayed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25925_hikizurareru",
+      "reading": "ひきずられる",
+      "headword": "{引|ひ}きずられる",
+      "label": "to be dragged"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T00:13:33Z",
-    "modified": "2026-07-23T06:28:55Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

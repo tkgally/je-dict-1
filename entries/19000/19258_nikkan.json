@@ -17,7 +17,9 @@
       "id": "19258_nikkan_ex1",
       "japanese": "{日刊|にっかん}{紙|し}を{読|よ}んでいる。",
       "english": "I read a daily newspaper.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19258_nikkan_ex2",
       "japanese": "このニュースサイトは{日刊|にっかん}で{更新|こうしん}される。",
       "english": "This news site is updated daily.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "19258_nikkan_ex3",
       "japanese": "{日刊|にっかん}スポーツは{日本|にほん}の{有名|ゆうめい}なスポーツ{新聞|しんぶん}だ。",
       "english": "Nikkan Sports is a well-known Japanese sports newspaper.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Used as a modifier or prefix indicating daily frequency of publication. Very common in newspaper names.\n\nCOMMON COLLOCATIONS:\n- {日刊|にっかん}{紙|し}: daily newspaper\n- {日刊|にっかん}{新聞|しんぶん}: daily newspaper\n- {日刊|にっかん}スポーツ: Nikkan Sports (newspaper name)\n\nRELATED WORDS:\n- {週刊|しゅうかん}: weekly publication\n- {月刊|げっかん}: monthly publication\n- {朝刊|ちょうかん}: morning edition\n- {夕刊|ゆうかん}: evening edition\n\nETYMOLOGY:\nCombines {日|にち} (day) and {刊|かん} (publish/edition). The same {刊|かん} appears in {週刊|しゅうかん} and {月刊|げっかん}.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14373_shuukan",
+      "reading": "しゅうかん",
+      "headword": "{週刊|しゅうかん}",
+      "label": "weekly publication"
+    },
+    {
+      "type": "related",
+      "target_id": "16257_gekkan",
+      "reading": "げっかん",
+      "headword": "{月刊|げっかん}",
+      "label": "monthly publication"
+    },
+    {
+      "type": "related",
+      "target_id": "16382_choukan",
+      "reading": "ちょうかん",
+      "headword": "{朝刊|ちょうかん}",
+      "label": "morning edition"
+    },
+    {
+      "type": "related",
+      "target_id": "18550_yuukan",
+      "reading": "ゆうかん",
+      "headword": "{夕刊|ゆうかん}",
+      "label": "evening edition"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["media"]
+      "semantic": [
+        "media"
+      ]
     },
     "created": "2026-03-25T03:40:33Z",
-    "modified": "2026-03-25T03:40:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

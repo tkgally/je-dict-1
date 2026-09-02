@@ -3,7 +3,7 @@
   "headword": "{地域別|ちいきべつ}",
   "reading": "ちいきべつ",
   "romaji": "chiikibetsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "by region; regional breakdown; area-by-area",
   "definitions": [
     {
@@ -45,7 +45,15 @@
     }
   ],
   "notes": "Formed from {地域|ちいき} (region, area) and {別|べつ} (by, classification). The suffix {別|べつ} is extremely productive in Japanese and attaches to many nouns to mean \"sorted by\" or \"categorized by.\" This word appears frequently in news, business reports, and government statistics.\n\nCOMMON COLLOCATIONS:\n- {地域別|ちいきべつ}の{統計|とうけい}: regional statistics\n- {地域別|ちいきべつ}に{分析|ぶんせき}する: to analyze by region\n- {地域別|ちいきべつ}{人口|じんこう}: population by region\n- {地域別|ちいきべつ}ランキング: regional ranking\n\nSIMILAR WORDS:\n- {年齢別|ねんれいべつ}: by age — same {別|べつ} pattern applied to age\n- {都道府県別|とどうふけんべつ}: by prefecture — a more specific regional breakdown\n- {国別|くにべつ}: by country — the same pattern applied to nations",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24105_koumokubetsu",
+      "reading": "こうもくべつ",
+      "headword": "{項目別|こうもくべつ}",
+      "label": "by item"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +69,6 @@
       ]
     },
     "created": "2026-05-03T12:29:23Z",
-    "modified": "2026-06-15T07:59:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

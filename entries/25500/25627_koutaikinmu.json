@@ -17,7 +17,9 @@
       "id": "25627_koutaikinmu_ex1",
       "japanese": "{工場|こうじょう}では{交替勤務|こうたいきんむ}が{基本|きほん}だ。",
       "english": "Shift work is standard at the factory.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25627_koutaikinmu_ex2",
       "japanese": "{交替勤務|こうたいきんむ}で{夜勤|やきん}が{月|つき}に{何回|なんかい}かある。",
       "english": "With shift work, I have night shifts several times a month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,43 @@
       "id": "25627_koutaikinmu_ex3",
       "japanese": "{交替勤務|こうたいきんむ}は{体|からだ}への{負担|ふたん}が{大|おお}きいが、{医療|いりょう}や{製造業|せいぞうぎょう}では{欠|か}かせない{勤務形態|きんむけいたい}だ。",
       "english": "Shift work takes a heavy toll on the body, but it's an indispensable work arrangement in healthcare and manufacturing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {交替|こうたい} (alternation, taking turns) and {勤務|きんむ} (work, duty). Also written as {交代勤務|こうたいきんむ} with the variant kanji {交代|こうたい}.\n\nCommon in industries that require 24-hour operations: hospitals, factories, police, firefighting, and transportation.\n\nCOMMON COLLOCATIONS:\n- {三交替|さんこうたい}{勤務|きんむ}: three-shift system (day/evening/night)\n- {二交替|にこうたい}{勤務|きんむ}: two-shift system (day/night)\n- {交替勤務|こうたいきんむ}{手当|てあて}: shift work allowance\n- {交替勤務|こうたいきんむ}の{シフト}: shift rotation schedule\n\nSIMILAR WORDS:\n- シフト{制|せい}: shift system — the loanword version, common in service industries\n- {夜勤|やきん}: night shift — one specific shift within a rotation\n- {変則勤務|へんそくきんむ}: irregular work hours — covers non-standard schedules more broadly",
+  "notes": "A compound of {交替|こうたい} (alternation, taking turns) and {勤務|きんむ} (work, duty). Also written as {交代勤務|こうたいきんむ} with the variant kanji {交代|こうたい}.\n\nCommon in industries that require 24-hour operations: hospitals, factories, police, firefighting, and transportation.\n\nCOMMON COLLOCATIONS:\n- {三交替|さんこうたい}{勤務|きんむ}: three-shift system (day/evening/night)\n- {二交替|にこうたい}{勤務|きんむ}: two-shift system (day/night)\n- {交替勤務|こうたいきんむ}{手当|てあて}: shift work allowance\n- {交替勤務|こうたいきんむ}のシフト: shift rotation schedule\n\nSIMILAR WORDS:\n- シフト{制|せい}: shift system — the loanword version, common in service industries\n- {夜勤|やきん}: night shift — one specific shift within a rotation\n- {変則勤務|へんそくきんむ}: irregular work hours — covers non-standard schedules more broadly",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09549_yakin",
+      "reading": "やきん",
+      "headword": "{夜勤|やきん}",
+      "label": "night shift"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25086_hensokukinmu",
+      "reading": "へんそくきんむ",
+      "headword": "{変則勤務|へんそくきんむ}",
+      "label": "irregular work hours"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-04-26T13:20:56Z",
-    "modified": "2026-04-26T13:20:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

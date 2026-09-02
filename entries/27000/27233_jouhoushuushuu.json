@@ -3,7 +3,7 @@
   "headword": "{情報|じょうほう}{収集|しゅうしゅう}",
   "reading": "じょうほうしゅうしゅう",
   "romaji": "jouhoushuushuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "information gathering; intelligence collection",
   "definitions": [
     {
@@ -56,6 +56,22 @@
   ],
   "notes": "Compound of {情報|じょうほう} (information) + {収集|しゅうしゅう} (collection/gathering). Functions as a noun and can take する to become a verb ({情報|じょうほう}{収集|しゅうしゅう}する). Very common in business, journalism, research, and everyday decision-making contexts.\n\nCOMMON COLLOCATIONS:\n- {情報|じょうほう}{収集|しゅうしゅう}を{行|おこな}う: to carry out information gathering\n- {情報|じょうほう}{収集|しゅうしゅう}{能力|のうりょく}: information-gathering ability\n- {情報|じょうほう}{収集|しゅうしゅう}{活動|かつどう}: intelligence-gathering activities\n- {事前|じぜん}の{情報|じょうほう}{収集|しゅうしゅう}: advance information gathering\n\nSIMILAR WORDS:\n- {調査|ちょうさ}: investigation; survey — more formal and structured, often with a specific methodology\n- {取材|しゅざい}: news gathering; coverage — specifically for journalism\n- リサーチ: research — loanword used casually, especially in business",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03489_chousa",
+      "reading": "ちょうさ",
+      "headword": "{調査|ちょうさ}",
+      "label": "investigation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05227_shuzai",
+      "reading": "しゅざい",
+      "headword": "{取材|しゅざい}",
+      "label": "news gathering"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -72,7 +88,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-08T11:11:29Z",
-    "modified": "2026-08-07T06:30:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -3,7 +3,7 @@
   "headword": "ひったくる",
   "reading": "ひったくる",
   "romaji": "hittakuru",
-  "part_of_speech": "godan verb, transitive",
+  "part_of_speech": "verb (godan, transitive)",
   "gloss": "to snatch away; to grab and run",
   "conjugation": {
     "type": "godan",
@@ -136,6 +136,22 @@
   ],
   "notes": "An intensified form of {引|ひ}っ{手繰|たく}る (to yank toward oneself), with the っ indicating a quick, forceful action. The noun form ひったくり refers both to the crime of bag-snatching and to the person who commits it.\n\nUSAGE:\nOften encountered in the passive form ひったくられる (to have something snatched). Very common in crime reports and safety warnings. The noun ひったくり is arguably more frequent than the verb itself.\n\nCOMMON COLLOCATIONS:\n- ひったくり{犯|はん} — bag snatcher\n- ひったくり{被害|ひがい} — snatch-theft damage\n- ひったくりに{遭|あ}う — to fall victim to a bag snatching\n- かばんをひったくる — to snatch a bag\n\nSIMILAR WORDS:\n- {奪|うば}う — to seize, to rob (broader; any forceful taking)\n- {盗|ぬす}む — to steal (stealthy, not forceful snatching)\n- {掻|か}っ{払|ぱら}う — to swipe, to pilfer (quick theft, often pickpocketing)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01895_ubau",
+      "reading": "うばう",
+      "headword": "{奪|うば}う",
+      "label": "to seize, to rob (broader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01166_nusumu",
+      "reading": "ぬすむ",
+      "headword": "{盗|ぬす}む",
+      "label": "to steal"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +167,6 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-03-28T20:10:39Z",
-    "modified": "2026-03-28T20:10:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

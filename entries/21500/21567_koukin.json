@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {抗|こう} (anti-, resist) and {菌|きん} (bacteria, germs). Very common on product labels in Japan, especially for household items.\n\nCOMMON COLLOCATIONS:\n- {抗菌|こうきん}{加工|かこう}: antibacterial treatment/finish\n- {抗菌|こうきん}{仕様|しよう}: antibacterial specification\n- {抗菌|こうきん}{作用|さよう}: antibacterial action\n- {抗菌|こうきん}{剤|ざい}/{抗菌|こうきん}{薬|やく}: antibacterial agent/drug\n- {抗菌|こうきん}・{防臭|ぼうしゅう}: antibacterial and deodorant\n\nSIMILAR WORDS:\n- {抗菌|こうきん}: antibacterial — inhibiting bacterial growth\n- {殺菌|さっきん}: sterilization — killing bacteria\n- {除菌|じょきん}: sanitizing — removing bacteria\n- {滅菌|めっきん}: sterilization — completely destroying all microorganisms (medical/lab use)\n- {消毒|しょうどく}: disinfection — eliminating pathogens\n\nNOTE:\nJapan has a strong market for {抗菌|こうきん} products. The term appears on everything from phone cases and keyboards to socks, towels, and cutting boards.",
+  "notes": "Composed of {抗|こう} (anti-, resist) and {菌|きん} (bacteria, germs). Very common on product labels in Japan, especially for household items.\n\nCOMMON COLLOCATIONS:\n- {抗菌|こうきん}{加工|かこう}: antibacterial treatment/finish\n- {抗菌|こうきん}{仕様|しよう}: antibacterial specification\n- {抗菌|こうきん}{作用|さよう}: antibacterial action\n- {抗菌|こうきん}{剤|ざい}/{抗菌|こうきん}{薬|やく}: antibacterial agent/drug\n- {抗菌|こうきん}・{防臭|ぼうしゅう}: antibacterial and deodorant\n\nSIMILAR WORDS:\n- {抗菌|こうきん}: antibacterial — inhibiting bacterial growth\n- {殺菌|さっきん}: sterilization — killing bacteria\n- {除菌|じょきん}: sanitizing — removing bacteria\n- {滅菌|めっきん}: sterilization — completely destroying all microorganisms (medical/lab use)\n- {消毒|しょうどく}: disinfection — eliminating pathogens\n\nUSAGE:\nJapan has a strong market for {抗菌|こうきん} products. The term appears on everything from phone cases and keyboards to socks, towels, and cutting boards.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09781_sakkin",
+      "reading": "さっきん",
+      "headword": "{殺菌|さっきん}",
+      "label": "sterilization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07789_jokin",
+      "reading": "じょきん",
+      "headword": "{除菌|じょきん}",
+      "label": "sanitizing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24175_mekkin",
+      "reading": "めっきん",
+      "headword": "{滅菌|めっきん}",
+      "label": "sterilization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07591_shoudoku",
+      "reading": "しょうどく",
+      "headword": "{消毒|しょうどく}",
+      "label": "disinfection"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-04-02T16:19:52Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

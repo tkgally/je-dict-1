@@ -23,7 +23,9 @@
       "english": "God, please help me.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09854_douka_ex2",
@@ -31,7 +33,9 @@
       "english": "Please forgive me.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09854_douka_ex3",
@@ -39,21 +43,42 @@
       "english": "I don't know whether it's true or not.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "どうか has two main uses:\n\nMEANING 1 - PLEASE:\nUsed to make earnest requests or pleas. More emphatic than ください alone.\n- どうか{聞|き}いてください: Please listen\n- どうかお{願|ねが}いします: Please, I beg you\n\nMEANING 2 - WHETHER:\nUsed with verbs to express uncertainty.\n- 〜かどうか: whether or not\n- {来|く}るかどうか{分|わ}からない: I don't know if they'll come\n\nSIMILAR:\n- どうぞ: please (offering/permission, less urgent than どうか)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02920_douzo",
+      "reading": "どうぞ",
+      "headword": "どうぞ",
+      "label": "please"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00911_zehi",
+      "reading": "ぜひ",
+      "headword": "ぜひ",
+      "label": "by all means, definitely"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T01:44:31Z",
-    "modified": "2026-02-04T01:44:31Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["expression"]
+      "semantic": [
+        "expression"
+      ]
     }
   }
 }

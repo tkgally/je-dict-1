@@ -3,7 +3,7 @@
   "headword": "{価格改定|かかくかいてい}",
   "reading": "かかくかいてい",
   "romaji": "kakakukaitei",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "price revision; price adjustment",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,22 @@
   ],
   "notes": "{価格改定|かかくかいてい} is the official, business-formal term for a change in price — and almost always serves as a polite euphemism for a price increase.\n\nUSAGE:\n- Composed of {価格|かかく} (price) + {改定|かいてい} (revision, amendment).\n- Functions as a する verb and as a noun.\n- Companies use this softer phrase in customer notices to avoid the blunter {値上|ねあ}げ (price hike).\n\nCOMMON PATTERNS:\n- {価格改定|かかくかいてい}のお{知|し}らせ: 'Notice of price revision' (a stock heading for customer announcements)\n- {価格改定|かかくかいてい}を{実施|じっし}する: to carry out a price revision\n- ４{月|がつ}より{価格改定|かかくかいてい}{予定|よてい}: 'price revision scheduled from April'\n- {原材料|げんざいりょう}{費|ひ}{高騰|こうとう}に{伴|ともな}う{価格改定|かかくかいてい}: a price revision due to rising raw material costs\n\nSIMILAR WORDS:\n- {値上|ねあ}げ: a price increase (direct, blunt, and rarely used by companies in their own announcements).\n- {値下|ねさ}げ: a price decrease.\n- {改定|かいてい}: revision, amendment (used for prices, fees, rules, contracts, or laws).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07582_neage",
+      "reading": "ねあげ",
+      "headword": "{値上|ねあ}げ",
+      "label": "a price increase (direct, blunt…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07583_nesage",
+      "reading": "ねさげ",
+      "headword": "{値下|ねさ}げ",
+      "label": "a price decrease."
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -154,6 +170,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-23T09:32:07Z",
-    "modified": "2026-04-10T13:28:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

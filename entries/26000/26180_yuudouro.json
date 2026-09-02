@@ -45,7 +45,22 @@
     }
   ],
   "notes": "{誘導路|ゆうどうろ} is primarily used in aviation to refer to taxiways at airports. Outside of aviation, it can also refer to any guiding path designed to direct the flow of traffic, people, or materials.\n\nCOMMON COLLOCATIONS:\n- {誘導路|ゆうどうろ}を{地上走行|ちじょうそうこう}する — to taxi on the taxiway\n- {高速|こうそく}{誘導路|ゆうどうろ} — high-speed taxiway\n- {平行|へいこう}{誘導路|ゆうどうろ} — parallel taxiway\n\nSIMILAR WORDS:\n- {滑走路|かっそうろ} — runway (the strip used for takeoff and landing)\n- エプロン — apron (the paved area where aircraft are parked and serviced)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05980_kassouro",
+      "reading": "かっそうろ",
+      "headword": "{滑走路|かっそうろ}",
+      "label": "runway"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10725_epuron",
+      "reading": "えぷろん",
+      "headword": "エプロン",
+      "label": "apron"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "transportation",
         "travel"
       ]
     },
     "created": "2026-04-29T16:32:31Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

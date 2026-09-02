@@ -4,7 +4,7 @@
   "headword": "{露営|ろえい}",
   "reading": "ろえい",
   "romaji": "roei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "bivouac; camping in the open; sleeping outdoors",
   "definitions": [
     {
@@ -63,17 +63,32 @@
       "reading": "しゅくえい",
       "headword": "{宿営|しゅくえい}",
       "label": "organized encampment with shelter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16708_yaei",
+      "reading": "やえい",
+      "headword": "{野営|やえい}",
+      "label": "field camping"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23799_nojuku",
+      "reading": "のじゅく",
+      "headword": "{野宿|のじゅく}",
+      "label": "sleeping rough, sleeping outdoors"
     }
   ],
   "metadata": {
     "created": "2026-04-18T09:18:51Z",
-    "modified": "2026-08-02T18:32:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "military",
         "nature"

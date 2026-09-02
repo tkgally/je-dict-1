@@ -17,7 +17,9 @@
       "id": "20025_kaigoshi_ex1",
       "japanese": "{介護士|かいごし}として{働|はたら}いている。",
       "english": "I work as a care worker.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20025_kaigoshi_ex2",
       "japanese": "{介護士|かいごし}の{資格|しかく}を{取|と}りたい。",
       "english": "I want to get a caregiver qualification.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,59 @@
       "id": "20025_kaigoshi_ex3",
       "japanese": "{高齢化|こうれいか}が{進|すす}む{中|なか}、{介護士|かいごし}の{人手不足|ひとでぶそく}が{深刻|しんこく}な{問題|もんだい}になっている。",
       "english": "As the population ages, the shortage of care workers is becoming a serious problem.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {介護|かいご} (nursing care) and {士|し} (professional suffix). Refers to professionals who help elderly and disabled people with daily activities such as bathing, eating, and mobility.\n\nCOMMON COLLOCATIONS:\n- {介護士|かいごし}の{資格|しかく}: caregiver certification\n- {介護士|かいごし}の{人手不足|ひとでぶそく}: shortage of care workers\n- {介護士|かいごし}として{働|はたら}く: to work as a care worker\n- {介護士|かいごし}を{目指|めざ}す: to aim to become a care worker\n\nRELATED TERMS:\n- {介護|かいご}: nursing care, caregiving — the field itself\n- {介護福祉士|かいごふくしし}: certified care worker — the official national certification\n- {介護施設|かいごしせつ}: care facility, nursing home\n- {訪問介護|ほうもんかいご}: home-visit care\n\nCULTURAL NOTE:\nJapan's rapidly aging population ({高齢化社会|こうれいかしゃかい}) has made {介護|かいご} a major social issue. Demand for {介護士|かいごし} far exceeds supply, leading to policy discussions about wages, working conditions, and immigration to fill the gap.",
+  "notes": "Compound of {介護|かいご} (nursing care) and {士|し} (professional suffix). Refers to professionals who help elderly and disabled people with daily activities such as bathing, eating, and mobility.\n\nCOMMON COLLOCATIONS:\n- {介護士|かいごし}の{資格|しかく}: caregiver certification\n- {介護士|かいごし}の{人手不足|ひとでぶそく}: shortage of care workers\n- {介護士|かいごし}として{働|はたら}く: to work as a care worker\n- {介護士|かいごし}を{目指|めざ}す: to aim to become a care worker\n\nRELATED WORDS:\n- {介護|かいご}: nursing care, caregiving — the field itself\n- {介護福祉士|かいごふくしし}: certified care worker — the official national certification\n- {介護施設|かいごしせつ}: care facility, nursing home\n- {訪問介護|ほうもんかいご}: home-visit care\n\nCULTURAL NOTE:\nJapan's rapidly aging population ({高齢化社会|こうれいかしゃかい}) has made {介護|かいご} a major social issue. Demand for {介護士|かいごし} far exceeds supply, leading to policy discussions about wages, working conditions, and immigration to fill the gap.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22644_kaigofukushishi",
+      "reading": "かいごふくしし",
+      "headword": "{介護福祉士|かいごふくしし}",
+      "label": "certified care worker"
+    },
+    {
+      "type": "related",
+      "target_id": "28076_kaigoshisetsu",
+      "reading": "かいごしせつ",
+      "headword": "{介護|かいご}{施設|しせつ}",
+      "label": "care facility, nursing home"
+    },
+    {
+      "type": "related",
+      "target_id": "24515_houmonkaigo",
+      "reading": "ほうもんかいご",
+      "headword": "{訪問介護|ほうもんかいご}",
+      "label": "home-visit care"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11284_herupaa",
+      "reading": "へるぱー",
+      "headword": "ヘルパー",
+      "label": "helper, care worker"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation", "society"]
+      "semantic": [
+        "occupation",
+        "society"
+      ]
     },
     "created": "2026-03-28T05:25:56Z",
-    "modified": "2026-03-28T05:25:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

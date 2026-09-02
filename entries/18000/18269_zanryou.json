@@ -19,7 +19,9 @@
       "english": "I check the remaining battery level.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18269_zanryou_ex2",
@@ -27,7 +29,9 @@
       "english": "The remaining ink level is getting low.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18269_zanryou_ex3",
@@ -35,21 +39,35 @@
       "english": "The remaining fuel is low, so let's fill up at the next gas station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {残|ざん} (remaining) and {量|りょう} (amount/quantity). Very common in everyday life for checking levels of consumable resources like battery, ink, fuel, and data.\n\nCOMMON COLLOCATIONS:\n- バッテリー{残量|ざんりょう} (remaining battery level)\n- {残量|ざんりょう}を{確認|かくにん}する (to check the remaining amount)\n- {残量|ざんりょう}が{少|すく}ない (the remaining amount is low)\n- {残量|ざんりょう}{表示|ひょうじ} (remaining amount display/indicator)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09738_juudengire",
+      "reading": "じゅうでんぎれ",
+      "headword": "{充電|じゅうでん}{切|き}れ",
+      "label": "out of battery"
+    }
+  ],
   "metadata": {
     "created": "2026-03-21T01:09:48Z",
-    "modified": "2026-03-21T01:09:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity"]
+      "semantic": [
+        "quantity"
+      ]
     }
   }
 }

@@ -45,7 +45,36 @@
     }
   ],
   "notes": "A compound of {理事|りじ} (director, trustee — a board member) and {長|ちょう} (head, chief). Refers to the top position on a board of directors in non-profit organizations, educational institutions, and similar bodies.\n\nCOMMON COLLOCATIONS:\n- {理事長|りじちょう}に{就任|しゅうにん}する: to assume the position of chairperson\n- {理事長|りじちょう}を{務|つと}める: to serve as chairperson\n- {理事長|りじちょう}{挨拶|あいさつ}: chairperson's address/greeting\n- {学校法人|がっこうほうじん}の{理事長|りじちょう}: director of a school corporation\n\nSIMILAR WORDS:\n- {会長|かいちょう}: president, chairman — used for companies, associations, and other organizations\n- {社長|しゃちょう}: company president — specifically for for-profit companies\n- {理事|りじ}: director, trustee — a board member (not the head)\n- {議長|ぎちょう}: chairperson — used for meetings, assemblies, and legislative bodies",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11610_kaichou",
+      "reading": "かいちょう",
+      "headword": "{会長|かいちょう}",
+      "label": "president, chairman"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01428_shachou",
+      "reading": "しゃちょう",
+      "headword": "{社長|しゃちょう}",
+      "label": "company president"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02681_gichou",
+      "reading": "ぎちょう",
+      "headword": "{議長|ぎちょう}",
+      "label": "chairperson"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27936_enchou",
+      "reading": "えんちょう",
+      "headword": "{園長|えんちょう}",
+      "label": "principal (of a kindergarten or preschool)"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -64,6 +93,6 @@
       ]
     },
     "created": "2026-05-05T15:09:58Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

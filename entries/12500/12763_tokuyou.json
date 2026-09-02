@@ -19,7 +19,9 @@
       "english": "I bought an economy-size pack.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12763_tokuyou_ex2",
@@ -27,7 +29,9 @@
       "english": "Economy-size detergent is a good deal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12763_tokuyou_ex3",
@@ -35,21 +39,50 @@
       "english": "The economy-size seaweed has a lot of quantity and is convenient for family use.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{徳用|とくよう} means economy-size or good value. It is very commonly seen on product packaging as お{徳用|とくよう}, with the polite prefix お.\n\nNOTE ON KANJI:\nAlso written as {得用|とくよう} using the kanji for 'gain/profit.' Both {徳|とく} and {得|とく} are used, though {徳用|とくよう} is the traditional form.\n\nCOMMON COLLOCATIONS:\n- お{徳用|とくよう}パック: economy pack\n- お{徳用|とくよう}サイズ: economy size\n- {徳用|とくよう}{袋|ぶくろ}: bargain bag\n\nSIMILAR EXPRESSIONS:\n- お{得|とく}: bargain, good deal (more casual)\n- {大容量|だいようりょう}: large capacity\n- {業務用|ぎょうむよう}: commercial/bulk size",
-  "cross_references": [],
+  "notes": "{徳用|とくよう} means economy-size or good value. It is very commonly seen on product packaging as お{徳用|とくよう}, with the polite prefix お.\n\nNOTE ON KANJI:\nAlso written as {得用|とくよう} using the kanji for 'gain/profit.' Both {徳|とく} and {得|とく} are used, though {徳用|とくよう} is the traditional form.\n\nCOMMON COLLOCATIONS:\n- お{徳用|とくよう}パック: economy pack\n- お{徳用|とくよう}サイズ: economy size\n- {徳用|とくよう}{袋|ぶくろ}: bargain bag\n\nSIMILAR WORDS:\n- お{得|とく}: bargain, good deal (more casual)\n- {大容量|だいようりょう}: large capacity\n- {業務用|ぎょうむよう}: commercial/bulk size",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07739_otoku",
+      "reading": "おとく",
+      "headword": "お{得|とく}",
+      "label": "bargain, good deal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19805_daiyouryou",
+      "reading": "だいようりょう",
+      "headword": "{大容量|だいようりょう}",
+      "label": "large capacity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13148_gyoumuyou",
+      "reading": "ぎょうむよう",
+      "headword": "{業務用|ぎょうむよう}",
+      "label": "commercial/bulk size"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T10:05:37Z",
-    "modified": "2026-02-22T10:05:37Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["shopping"]
+      "semantic": [
+        "shopping"
+      ]
     }
   }
 }

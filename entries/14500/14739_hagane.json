@@ -19,7 +19,9 @@
       "english": "This kitchen knife is made of steel.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14739_hagane_ex2",
@@ -27,7 +29,9 @@
       "english": "He overcame the difficulty with a will of steel.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14739_hagane_ex3",
@@ -35,21 +39,49 @@
       "english": "Japanese swords achieve their sharp cutting edge by repeatedly folding and forging steel.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "The native Japanese word for steel. Also read as こう in Sino-Japanese compounds like {鉄鋼|てっこう} (iron and steel).\n\nFIGURATIVE USE:\n{鋼|はがね}のような～ (like steel) is used to describe exceptional strength or toughness: {鋼|はがね}のような{意志|いし} (iron will), {鋼|はがね}のような{肉体|にくたい} (body of steel).\n\nCOMMON COLLOCATIONS:\n- {鋼|はがね}の{意志|いし} (will of steel)\n- {鋼|はがね}の{刃|は} (steel blade)\n- {鋼|はがね}を{鍛|きた}える (to forge steel)\n\nWell known from the manga title {鋼|はがね}の{錬金術師|れんきんじゅつし} (Fullmetal Alchemist).",
-  "cross_references": [],
+  "notes": "The native Japanese word for steel. Also read as こう in Sino-Japanese compounds like {鉄鋼|てっこう} (iron and steel).\n\nUSAGE:\n{鋼|はがね}のような～ (like steel) is used to describe exceptional strength or toughness: {鋼|はがね}のような{意志|いし} (iron will), {鋼|はがね}のような{肉体|にくたい} (body of steel).\n\nCOMMON COLLOCATIONS:\n- {鋼|はがね}の{意志|いし} (will of steel)\n- {鋼|はがね}の{刃|は} (steel blade)\n- {鋼|はがね}を{鍛|きた}える (to forge steel)\n\nWell known from the manga title {鋼|はがね}の{錬金術師|れんきんじゅつし} (Fullmetal Alchemist).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02225_tetsu",
+      "reading": "てつ",
+      "headword": "{鉄|てつ}",
+      "label": "iron, steel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17137_goukin",
+      "reading": "ごうきん",
+      "headword": "{合金|ごうきん}",
+      "label": "alloy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26298_chuutetsu",
+      "reading": "ちゅうてつ",
+      "headword": "{鋳鉄|ちゅうてつ}",
+      "label": "cast iron"
+    }
+  ],
   "metadata": {
     "created": "2026-03-03T09:51:49Z",
-    "modified": "2026-03-03T09:51:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

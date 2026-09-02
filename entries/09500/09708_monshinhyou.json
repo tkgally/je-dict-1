@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{問診票|もんしんひょう} is used to gather patient information before consultation.\n\nCOMMON PATTERNS:\n- {問診票|もんしんひょう}に{記入|きにゅう}する (to fill in the questionnaire)\n- {問診票|もんしんひょう}を{書|か}く (to fill out the questionnaire)\n\nTYPICAL QUESTIONS:\n- {症状|しょうじょう} (symptoms)\n- {既往歴|きおうれき} (medical history)\n- アレルギー (allergies)\n- {服用中|ふくようちゅう}の{薬|くすり} (current medications)\n\nRELATED TERMS:\n- {問診|もんしん}: medical interview\n- {診察券|しんさつけん}: patient registration card\n- {受付|うけつけ}: reception",
+  "notes": "{問診票|もんしんひょう} is used to gather patient information before consultation.\n\nCOMMON PATTERNS:\n- {問診票|もんしんひょう}に{記入|きにゅう}する (to fill in the questionnaire)\n- {問診票|もんしんひょう}を{書|か}く (to fill out the questionnaire)\n\nTYPICAL QUESTIONS:\n- {症状|しょうじょう} (symptoms)\n- {既往歴|きおうれき} (medical history)\n- アレルギー (allergies)\n- {服用中|ふくようちゅう}の{薬|くすり} (current medications)\n\nRELATED WORDS:\n- {問診|もんしん}: medical interview\n- {診察券|しんさつけん}: patient registration card\n- {受付|うけつけ}: reception",
   "metadata": {
     "created": "2026-02-03T06:53:58Z",
-    "modified": "2026-06-24T18:40:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -67,6 +67,20 @@
       "reading": "しんさつけん",
       "headword": "{診察券|しんさつけん}",
       "label": "patient card"
+    },
+    {
+      "type": "related",
+      "target_id": "01325_uketsuke",
+      "reading": "うけつけ",
+      "headword": "{受付|うけつけ}",
+      "label": "reception"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30034_yoshinhyou",
+      "reading": "よしんひょう",
+      "headword": "予診票",
+      "label": "medical questionnaire"
     }
   ]
 }

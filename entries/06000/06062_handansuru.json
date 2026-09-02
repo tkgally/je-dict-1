@@ -2,7 +2,7 @@
   "id": "06062_handansuru",
   "headword": "{判断|はんだん}する",
   "reading": "はんだんする",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to judge, to decide",
   "conjugation": {
     "type": "suru",
@@ -153,18 +153,46 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{判断|はんだん}する (judge X) / 〜と{判断|はんだん}する (judge that 〜).\n\nASPECT: ⟦ている→ている：noentry⟧ indicates resulting state. {判断|はんだん}している = 'has judged' or 'judges.'\n\nCOMMON PATTERNS:\n・⟦{自分|じぶん}→自分：02887_jibun⟧⟦で→で：00502_de⟧{判断|はんだん}する (judge for oneself)\n・⟦{総合的|そうごうてき}→総合的：06175_sougouteki⟧⟦に→に：00314_ni⟧{判断|はんだん}する (make a comprehensive judgment)\n・{判断|はんだん}⟦を→を：00422_wo⟧⟦{下|くだ}す→下す：12329_kudasu⟧ (pass judgment)\n・{判断|はんだん}⟦を→を：00422_wo⟧⟦{誤|あやま}る→誤る：27433_ayamaru⟧ (misjudge)\n\nNUANCE: Often implies authority or expertise in making the judgment.",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{判断|はんだん}する (judge X) / 〜と{判断|はんだん}する (judge that 〜).\n\nASPECT: ⟦ている→ている：noentry⟧ indicates resulting state. {判断|はんだん}している = 'has judged' or 'judges.'\n\nCOMMON PATTERNS:\n- ⟦{自分|じぶん}→自分：02887_jibun⟧⟦で→で：00502_de⟧{判断|はんだん}する (judge for oneself)\n- ⟦{総合的|そうごうてき}→総合的：06175_sougouteki⟧⟦に→に：00314_ni⟧{判断|はんだん}する (make a comprehensive judgment)\n- {判断|はんだん}⟦を→を：00422_wo⟧⟦{下|くだ}す→下す：12329_kudasu⟧ (pass judgment)\n- {判断|はんだん}⟦を→を：00422_wo⟧⟦{誤|あやま}る→誤る：27433_ayamaru⟧ (misjudge)\n\nNUANCE: Often implies authority or expertise in making the judgment.",
   "cross_references": [
     {
       "type": "related",
       "reading": "きめる",
       "headword": "{決|き}める",
       "target_id": "00858_kimeru"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07171_mikiwameru",
+      "reading": "みきわめる",
+      "headword": "{見極|みきわ}める",
+      "label": "to see clearly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20377_danzuru",
+      "reading": "だんずる",
+      "headword": "{断|だん}ずる",
+      "label": "to conclude"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21022_ketteisuru",
+      "reading": "けっていする",
+      "headword": "{決定|けってい}する",
+      "label": "to decide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25972_ketsuronzukeru",
+      "reading": "けつろんづける",
+      "headword": "{結論|けつろん}づける",
+      "label": "to conclude"
     }
   ],
   "metadata": {
     "created": "2026-01-17T02:06:15Z",
-    "modified": "2026-06-11T19:37:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{快癒|かいゆ}",
   "reading": "かいゆ",
   "romaji": "kaiyu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "recovery; complete healing; recuperation",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Compound of {快|かい} (pleasant; refreshing) + {癒|ゆ} (healing; curing). A formal word primarily used in polite wishes for someone's recovery, especially in written communication like letters, cards, and formal messages.\n\nCOMMON COLLOCATIONS:\n- ご{快癒|かいゆ}をお{祈|いの}りします: I pray for your recovery (formal)\n- {快癒|かいゆ}に{向|む}かう: to be on the road to recovery\n- {一日|いちにち}も{早|はや}いご{快癒|かいゆ}を: wishing you the speediest recovery\n- {快癒|かいゆ}を{願|ねが}う: to wish for recovery\n\nREGISTER:\nThis is a formal, literary word. In everyday conversation, people would say {元気|げんき}になる (to get better), {治|なお}る (to heal), or {回復|かいふく}する (to recover).\n\nSIMILAR WORDS:\n- {回復|かいふく}: recovery — more common, used in both casual and formal contexts\n- {全快|ぜんかい}: full recovery; complete cure — emphasizes being completely healed\n- {平癒|へいゆ}: recovery; healing — even more literary, often seen in shrine prayers for health",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03812_kaifuku",
+      "reading": "かいふく",
+      "headword": "{回復|かいふく}",
+      "label": "recovery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16255_zenkai",
+      "reading": "ぜんかい",
+      "headword": "{全快|ぜんかい}",
+      "label": "full recovery"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health"
       ],
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-08T12:14:00Z",
-    "modified": "2026-05-08T12:14:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

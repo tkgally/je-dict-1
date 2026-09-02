@@ -19,7 +19,9 @@
       "english": "They launched an artificial satellite.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11715_jinkoueisei_ex2",
@@ -27,7 +29,9 @@
       "english": "GPS signals are transmitted from artificial satellites.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11715_jinkoueisei_ex3",
@@ -35,21 +39,44 @@
       "english": "Thousands of artificial satellites are orbiting around the Earth.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {人工|じんこう} (artificial) + {衛星|えいせい} (satellite). Often shortened to {衛星|えいせい} when the context is clear.\n\nCOMMON COLLOCATIONS:\n・{人工衛星|じんこうえいせい}を{打|う}ち{上|あ}げる (to launch a satellite)\n・{気象|きしょう}{衛星|えいせい} (weather satellite)\n・{通信|つうしん}{衛星|えいせい} (communications satellite)\n・{偵察|ていさつ}{衛星|えいせい} (reconnaissance satellite)\n・{衛星|えいせい}{軌道|きどう} (satellite orbit)\n\nUSAGE NOTES:\nIn everyday conversation, {衛星|えいせい} alone is often sufficient when referring to artificial satellites. The full form {人工衛星|じんこうえいせい} is used to distinguish from {天然|てんねん}の{衛星|えいせい} (natural satellites, such as the Moon).",
-  "cross_references": [],
+  "notes": "Compound of {人工|じんこう} (artificial) + {衛星|えいせい} (satellite). Often shortened to {衛星|えいせい} when the context is clear.\n\nCOMMON COLLOCATIONS:\n- {人工衛星|じんこうえいせい}を{打|う}ち{上|あ}げる (to launch a satellite)\n- {気象|きしょう}{衛星|えいせい} (weather satellite)\n- {通信|つうしん}{衛星|えいせい} (communications satellite)\n- {偵察|ていさつ}{衛星|えいせい} (reconnaissance satellite)\n- {衛星|えいせい}{軌道|きどう} (satellite orbit)\n\nUSAGE:\nIn everyday conversation, {衛星|えいせい} alone is often sufficient when referring to artificial satellites. The full form {人工衛星|じんこうえいせい} is used to distinguish from {天然|てんねん}の{衛星|えいせい} (natural satellites, such as the Moon).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26020_uchuusen",
+      "reading": "うちゅうせん",
+      "headword": "{宇宙船|うちゅうせん}",
+      "label": "spaceship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29862_seishieisei",
+      "reading": "せいしえいせい",
+      "headword": "静止衛星",
+      "label": "geostationary satellite"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T21:40:39Z",
-    "modified": "2026-02-17T21:40:39Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

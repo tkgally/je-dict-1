@@ -3,7 +3,7 @@
   "headword": "がらりと",
   "reading": "がらりと",
   "romaji": "gararito",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "completely; drastically; with a sudden change",
   "definitions": [
     {
@@ -80,7 +80,29 @@
     }
   ],
   "notes": "Mimetic adverb with two distinct uses. Sense 1 (change) is far more common in modern usage and describes a total transformation — not a gradual shift, but a sudden, wholesale change. Sense 2 (sound) is onomatopoeic and specifically evokes the noise of a sliding door or heavy object.\n\nCOMMON COLLOCATIONS:\n- がらりと{変|か}わる: to change completely\n- がらりと{変|か}える: to change something completely\n- {印象|いんしょう}ががらりと{変|か}わる: impression changes drastically\n- {態度|たいど}ががらりと{変|か}わる: attitude changes suddenly\n\nSIMILAR WORDS:\n- すっかり: completely — neutral, describes thoroughness without implying surprise\n- {一変|いっぺん}する: to change completely — more formal, written style\n- ごろごろ: rolling sound — different onomatopoeia for heavy rolling objects",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01270_sukkari",
+      "reading": "すっかり",
+      "headword": "すっかり",
+      "label": "completely"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11203_ippen",
+      "reading": "いっぺん",
+      "headword": "{一変|いっぺん}",
+      "label": "to change completely"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05176_gorogoro",
+      "reading": "ごろごろ",
+      "headword": "ごろごろ",
+      "label": "rolling sound"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -96,6 +118,6 @@
       ]
     },
     "created": "2026-05-05T14:09:51Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

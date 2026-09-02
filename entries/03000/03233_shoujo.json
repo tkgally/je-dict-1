@@ -34,7 +34,7 @@
     },
     {
       "id": "03233_shoujo_ex3",
-      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{少女|しょうじょ}⟦の→の：09472_no⟧⟦ころ→ころ：03091_koro⟧⟦から→から：00504_kara⟧⟦{ピアノ|ぴあの}→ピアノ：01376_piano⟧⟦を→を：00422_wo⟧⟦{習|なら}って→習う：00479_narau⟧⟦いた→いる：00495_iru⟧。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{少女|しょうじょ}⟦の→の：09472_no⟧⟦ころ→ころ：03091_koro⟧⟦から→から：00504_kara⟧⟦ピアノ→ピアノ：01376_piano⟧⟦を→を：00422_wo⟧⟦{習|なら}って→習う：00479_narau⟧⟦いた→いる：00495_iru⟧。",
       "english": "She has been learning piano since she was a young girl.",
       "notes": null,
       "has_audio": false,
@@ -78,11 +78,32 @@
       "headword": "{女|おんな}の{子|こ}",
       "label": "girl (general)",
       "target_id": "02865_onnanoko"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28058_joji",
+      "reading": "じょじ",
+      "headword": "{女児|じょじ}",
+      "label": "female child"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10244_otome",
+      "reading": "おとめ",
+      "headword": "{乙女|おとめ}",
+      "label": "maiden"
+    },
+    {
+      "type": "related",
+      "target_id": "03037_wakamono",
+      "reading": "わかもの",
+      "headword": "{若者|わかもの}",
+      "label": "young person, youth"
     }
   ],
   "metadata": {
     "created": "2026-01-12T00:52:50Z",
-    "modified": "2026-08-13T15:50:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

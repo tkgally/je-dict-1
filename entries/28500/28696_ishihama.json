@@ -17,7 +17,9 @@
       "id": "28696_ishihama_ex1",
       "japanese": "{石浜|いしはま}を{歩|ある}いた。",
       "english": "I walked along a pebble beach.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28696_ishihama_ex2",
       "japanese": "{石浜|いしはま}は{裸足|はだし}で{歩|ある}くと{痛|いた}い。",
       "english": "A pebble beach hurts to walk on barefoot.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,53 @@
       "id": "28696_ishihama_ex3",
       "japanese": "{波|なみ}が{石浜|いしはま}に{打|う}ち{寄|よ}せると、{独特|どくとく}のからからとした{音|おと}がする。",
       "english": "When waves wash up on the pebble beach, they make a distinctive rattling sound.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {石|いし} (stone) + {浜|はま} (beach). A descriptive geographic term. May also appear as a place name or surname.\n\nCOMMON COLLOCATIONS:\n- {石浜|いしはま}を{歩|ある}く: to walk on a pebble beach\n- {石浜|いしはま}の{海岸|かいがん}: a pebble-beach coastline\n\nSIMILAR WORDS:\n- {砂浜|すなはま}: sand beach — the sandy counterpart\n- {磯|いそ}: rocky shore — generally larger rocks; the rocky/tidepool zone\n- {海岸|かいがん}: coast, shore — broader term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12333_sunahama",
+      "reading": "すなはま",
+      "headword": "{砂浜|すなはま}",
+      "label": "sand beach"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05389_iso",
+      "reading": "いそ",
+      "headword": "{磯|いそ}",
+      "label": "rocky shore"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00852_kaigan",
+      "reading": "かいがん",
+      "headword": "{海岸|かいがん}",
+      "label": "coast, shore"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["geography", "nature"],
+      "politeness": "plain",
+      "semantic": [
+        "geography",
+        "nature"
+      ],
       "domain": []
     },
     "created": "2026-06-04T02:08:09Z",
-    "modified": "2026-06-04T02:08:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

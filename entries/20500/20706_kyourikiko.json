@@ -17,15 +17,19 @@
       "id": "20706_kyourikiko_ex1",
       "japanese": "パンを{焼|や}くには{強力粉|きょうりきこ}が{必要|ひつよう}だ。",
       "english": "You need bread flour to bake bread.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20706_kyourikiko_ex2",
-      "japanese": "ピザ{生地|きじ}は{強力粉|きょうりきこ}で{作|つく}ると{もちもち}になる。",
+      "japanese": "ピザ{生地|きじ}は{強力粉|きょうりきこ}で{作|つく}るともちもちになる。",
       "english": "Pizza dough becomes chewy when made with bread flour.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "20706_kyourikiko_ex3",
       "japanese": "{強力粉|きょうりきこ}と{薄力粉|はくりきこ}を{半々|はんはん}に{混|ま}ぜると、ほどよい{食感|しょっかん}の{生地|きじ}ができる。",
       "english": "Mixing bread flour and cake flour in equal parts creates dough with a nicely balanced texture.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {強力|きょうりき} (strong/high strength) + {粉|こ} (flour/powder). The name refers to the high gluten content — '{強|きょう}' meaning strong and '{力|りき}' meaning strength.\n\nUSAGE:\nUsed in bread-making, pizza dough, and some types of noodles where a chewy, elastic texture is desired. Home baking of bread ({手作|てづく}りパン) has become a popular hobby in Japan, driving demand for {強力粉|きょうりきこ}.\n\nCOMMON COLLOCATIONS:\n- {強力粉|きょうりきこ}でパンを{焼|や}く: to bake bread with bread flour\n- {強力粉|きょうりきこ}を{こねる}: to knead bread flour\n- {強力粉|きょうりきこ}300g: 300 grams of bread flour\n\nSIMILAR WORDS:\n- {薄力粉|はくりきこ}: cake flour (low gluten) — for cakes, cookies, and tempura\n- {中力粉|ちゅうりきこ}: medium flour — between the two, used for udon and some pastries\n- {小麦粉|こむぎこ}: wheat flour — the general term\n\nNOTE:\nThe reading is きょうりきこ, not ごうりきこ. In Japanese supermarkets, {強力粉|きょうりきこ} is typically shelved alongside {薄力粉|はくりきこ} in the baking section.",
+  "notes": "Composed of {強力|きょうりき} (strong/high strength) + {粉|こ} (flour/powder). The name refers to the high gluten content — '{強|きょう}' meaning strong and '{力|りき}' meaning strength.\n\nUSAGE:\nUsed in bread-making, pizza dough, and some types of noodles where a chewy, elastic texture is desired. Home baking of bread ({手作|てづく}りパン) has become a popular hobby in Japan, driving demand for {強力粉|きょうりきこ}.\nThe reading is きょうりきこ, not ごうりきこ. In Japanese supermarkets, {強力粉|きょうりきこ} is typically shelved alongside {薄力粉|はくりきこ} in the baking section.\n\nCOMMON COLLOCATIONS:\n- {強力粉|きょうりきこ}でパンを{焼|や}く: to bake bread with bread flour\n- {強力粉|きょうりきこ}をこねる: to knead bread flour\n- {強力粉|きょうりきこ}300g: 300 grams of bread flour\n\nSIMILAR WORDS:\n- {薄力粉|はくりきこ}: cake flour (low gluten) — for cakes, cookies, and tempura\n- {中力粉|ちゅうりきこ}: medium flour — between the two, used for udon and some pastries\n- {小麦粉|こむぎこ}: wheat flour — the general term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20705_hakurikiko",
+      "reading": "はくりきこ",
+      "headword": "{薄力粉|はくりきこ}",
+      "label": "cake flour"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28725_chuurikiko",
+      "reading": "ちゅうりきこ",
+      "headword": "{中力粉|ちゅうりきこ}",
+      "label": "medium flour"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04922_komugiko",
+      "reading": "こむぎこ",
+      "headword": "{小麦粉|こむぎこ}",
+      "label": "wheat flour"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-03-30T07:54:08Z",
-    "modified": "2026-03-30T07:54:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

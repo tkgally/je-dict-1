@@ -3,7 +3,7 @@
   "headword": "{失神|しっしん}",
   "reading": "しっしん",
   "romaji": "shisshin",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "fainting; losing consciousness; blackout",
   "definitions": [
     {
@@ -46,6 +46,50 @@
   ],
   "notes": "Composed of {失|しつ} (lose) + {神|しん} (spirit/consciousness). Refers to a temporary loss of consciousness. Often used with する to form the verb {失神|しっしん}する (to faint, to pass out).\n\nCOMMON COLLOCATIONS:\n- {失神|しっしん}する: to faint, to lose consciousness\n- {失神|しっしん}して{倒|たお}れる: to collapse unconscious\n- {一時的|いちじてき}な{失神|しっしん}: temporary fainting\n- {失神|しっしん}から{回復|かいふく}する: to recover from fainting\n\nSIMILAR WORDS:\n- {気絶|きぜつ}: fainting — very similar meaning, slightly more colloquial\n- {意識|いしき}を{失|うしな}う: to lose consciousness — more descriptive phrase\n- {卒倒|そっとう}: collapsing in a faint — emphasizes the falling aspect\n- {貧血|ひんけつ}: anemia — sometimes used colloquially to mean lightheadedness",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19929_kizetsu",
+      "reading": "きぜつ",
+      "headword": "{気絶|きぜつ}",
+      "label": "fainting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23022_sottou",
+      "reading": "そっとう",
+      "headword": "{卒倒|そっとう}",
+      "label": "collapsing in a faint"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07019_hinketsu",
+      "reading": "ひんけつ",
+      "headword": "{貧血|ひんけつ}",
+      "label": "anemia"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23804_konsui",
+      "reading": "こんすい",
+      "headword": "{昏睡|こんすい}",
+      "label": "coma"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24430_kontou",
+      "reading": "こんとう",
+      "headword": "{昏倒|こんとう}",
+      "label": "fainting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25783_ishikisoushitsu",
+      "reading": "いしきそうしつ",
+      "headword": "{意識|いしき}{喪失|そうしつ}",
+      "label": "loss of consciousness"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +106,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-30T21:35:23Z",
-    "modified": "2026-07-28T09:34:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

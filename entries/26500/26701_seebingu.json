@@ -3,7 +3,7 @@
   "headword": "セービング",
   "reading": "せーびんぐ",
   "romaji": "seebingu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "save (in sports); saving a shot",
   "definitions": [
     {
@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "English loanword from \"saving.\" Used primarily in soccer ({サッカー}) and hockey contexts. In Japanese sports commentary, セービング emphasizes the dramatic, physical act of stopping a shot — diving saves, reflex blocks, and similar goalkeeper heroics.\n\nCOMMON COLLOCATIONS:\n- ファインセービング: fine save; great save\n- セービングで{防|ふせ}ぐ: to block with a save\n- {片手|かたて}セービング: one-handed save\n- セービング{率|りつ}: save percentage/rate\n\nSIMILAR WORDS:\n- セーブ: save — the more common loanword for a save in both sports and computing\n- {好守|こうしゅ}: excellent defense — used more broadly across sports for defensive plays\n- ブロック: block — stopping a shot by getting in front of it, not necessarily a goalkeeper term",
-  "cross_references": [],
+  "notes": "English loanword from \"saving.\" Used primarily in soccer (サッカー) and hockey contexts. In Japanese sports commentary, セービング emphasizes the dramatic, physical act of stopping a shot — diving saves, reflex blocks, and similar goalkeeper heroics.\n\nCOMMON COLLOCATIONS:\n- ファインセービング: fine save; great save\n- セービングで{防|ふせ}ぐ: to block with a save\n- {片手|かたて}セービング: one-handed save\n- セービング{率|りつ}: save percentage/rate\n\nSIMILAR WORDS:\n- セーブ: save — the more common loanword for a save in both sports and computing\n- {好守|こうしゅ}: excellent defense — used more broadly across sports for defensive plays\n- ブロック: block — stopping a shot by getting in front of it, not necessarily a goalkeeper term",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11030_seebu",
+      "reading": "せーぶ",
+      "headword": "セーブ",
+      "label": "save"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05902_burokku",
+      "reading": "ぶろっく",
+      "headword": "ブロック",
+      "label": "block"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,13 +69,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "sports"
       ],
       "verb_class": "suru"
     },
     "created": "2026-05-04T13:58:00Z",
-    "modified": "2026-05-04T13:58:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

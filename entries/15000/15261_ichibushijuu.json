@@ -19,7 +19,9 @@
       "english": "I told the whole story of the incident.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15261_ichibushijuu_ex2",
@@ -27,7 +29,9 @@
       "english": "She had witnessed everything that happened at the scene.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15261_ichibushijuu_ex3",
@@ -35,20 +39,41 @@
       "english": "Because the security camera had recorded the entire accident from start to finish, the cause could be identified.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{一部始終|いちぶしじゅう} is a four-character compound (yojijukugo). Despite containing {一部|いちぶ} (one part), the expression means the complete story, not just a part. The {始終|しじゅう} means \"from beginning to end.\"\n\nCOMMON COLLOCATIONS:\n- {一部始終|いちぶしじゅう}を{話|はな}す (to tell the whole story)\n- {一部始終|いちぶしじゅう}を{見|み}る (to see everything)\n- {一部始終|いちぶしじゅう}を{記録|きろく}する (to record the full account)\n- {事件|じけん}の{一部始終|いちぶしじゅう} (the complete account of an incident)\n\nSIMILAR WORDS:\n- {一部始終|いちぶしじゅう}: the whole story, full account (formal, emphasizes completeness)\n- {顛末|てんまつ}: the full story, circumstances (formal, written)\n- {経緯|けいい}: the details, how things developed (focuses on process)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21967_tenmatsu",
+      "reading": "てんまつ",
+      "headword": "{顛末|てんまつ}",
+      "label": "the full story, circumstances"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02782_keii",
+      "reading": "けいい",
+      "headword": "{経緯|けいい}",
+      "label": "the details, how things developed"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T08:08:23Z",
-    "modified": "2026-03-06T08:08:23Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

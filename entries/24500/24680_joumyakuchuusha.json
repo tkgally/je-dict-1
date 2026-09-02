@@ -3,7 +3,7 @@
   "headword": "{静脈注射|じょうみゃくちゅうしゃ}",
   "reading": "じょうみゃくちゅうしゃ",
   "romaji": "joumyakuchuusha",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "intravenous injection; IV",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Composed of {静脈|じょうみゃく} (vein) and {注射|ちゅうしゃ} (injection). Often abbreviated to {静注|じょうちゅう} in medical settings. The English abbreviation IV (intravenous) is also used in Japanese medical contexts.\n\nUSAGE:\nA practical medical term that anyone visiting a hospital in Japan may encounter. Distinguished from {皮下注射|ひかちゅうしゃ} (subcutaneous injection) and {筋肉注射|きんにくちゅうしゃ} (intramuscular injection) by the route of administration.\n\nCOMMON COLLOCATIONS:\n- {静脈注射|じょうみゃくちゅうしゃ}を{打|う}つ: to give an IV injection\n- {静脈注射|じょうみゃくちゅうしゃ}を{受|う}ける: to receive an IV injection\n- {静脈注射|じょうみゃくちゅうしゃ}の{針|はり}: IV needle\n- {静脈注射|じょうみゃくちゅうしゃ}で{投与|とうよ}する: to administer by IV\n\nSIMILAR WORDS:\n- {点滴|てんてき}: IV drip, infusion — continuous slow delivery of fluid into a vein, as opposed to a single injection\n- {筋肉注射|きんにくちゅうしゃ}: intramuscular injection — injection into muscle tissue, common for vaccines\n- {皮下注射|ひかちゅうしゃ}: subcutaneous injection — injection under the skin, used for insulin and some vaccines\n- {注射|ちゅうしゃ}: injection, shot — the general term for any injection",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10580_tenteki",
+      "reading": "てんてき",
+      "headword": "{点滴|てんてき}",
+      "label": "IV drip, infusion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08743_hika",
+      "reading": "ひか",
+      "headword": "{皮下|ひか}",
+      "label": "subcutaneous"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -66,7 +82,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-20T11:28:17Z",
-    "modified": "2026-04-20T11:28:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

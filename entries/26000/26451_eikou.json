@@ -3,7 +3,7 @@
   "headword": "{曳航|えいこう}",
   "reading": "えいこう",
   "romaji": "eikou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "towing; being towed",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Written with the character {曳|えい} (to pull, to drag) and {航|こう} (navigation, voyage). Primarily a maritime and nautical term, though it can also apply to aircraft or land vehicles. Can function as a noun or as a suru verb ({曳航|えいこう}する).\n\nCOMMON COLLOCATIONS:\n- {曳航|えいこう}する: to tow\n- {曳航|えいこう}{作業|さぎょう}: towing operation\n- {曳航|えいこう}ロープ: towline, tow rope\n- {曳航|えいこう}{中|ちゅう}: under tow\n\nSIMILAR WORDS:\n- {牽引|けんいん}: traction, pulling — broader term used for land vehicles and general pulling force\n- {引|ひ}っ{張|ぱ}る: to pull — everyday word for pulling something toward oneself",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13498_kenin",
+      "reading": "けんいん",
+      "headword": "{牽引|けんいん}",
+      "label": "traction, pulling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02402_hipparu",
+      "reading": "ひっぱる",
+      "headword": "{引|ひ}っ{張|ぱ}る",
+      "label": "to pull"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,13 +69,14 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "transportation"
       ],
       "verb_class": "suru"
     },
     "created": "2026-05-02T11:27:31Z",
-    "modified": "2026-05-02T11:27:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

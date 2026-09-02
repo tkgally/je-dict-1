@@ -2,7 +2,7 @@
   "id": "05835_guttari",
   "headword": "ぐったり",
   "reading": "ぐったり",
-  "part_of_speech": "adverb, verb (suru)",
+  "part_of_speech": "adverb, suru verb",
   "gloss": "exhausted, limp, worn out",
   "conjugation": {
     "type": "suru",
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "A mimetic word (⟦{擬態語|ぎたいご}→擬態語：22468_gitaigo⟧) describing complete exhaustion where one has no energy left. Conveys a visual image of someone slumped or collapsed.\n\nCOMMON PATTERNS:\n- ぐったり⟦する→する：00392_suru⟧: to become exhausted/limp\n- ぐったり⟦している→する：00392_suru⟧: to be exhausted\n- ぐったり⟦と→と：00512_to⟧⟦{倒|たお}れる→倒れる：01160_taoreru⟧: to collapse in exhaustion\n- ぐったり⟦と→と：00512_to⟧⟦{横|よこ}になる→横になる：05546_yokoninaru⟧: to lie down limply\n\nTYPICAL CONTEXTS:\n- Extreme physical exhaustion (after exercise, hard work)\n- Illness (⟦{熱|ねつ}→熱：01690_netsu⟧, ⟦{病気|びょうき}→病気：00771_byouki⟧)\n- Heat exhaustion (⟦{暑|あつ}さ→暑さ：12973_atsusa⟧)\n- Animals or plants that are wilting or listless\n\nSIMILAR WORDS:\n- ⟦へとへと→へとへと：05273_hetoheto⟧: exhausted (but still able to function)\n- ⟦くたくた→くたくた：05169_kutakuta⟧: worn out, dead tired (similar degree to ぐったり)\n- ⟦ばてる→バテる：09303_bateru⟧: to be worn out (verb, colloquial)\n\nぐったり implies a more severe, visible state of exhaustion than ⟦へとへと→へとへと：05273_hetoheto⟧ — the person or animal can barely move.",
+  "notes": "A mimetic word (⟦{擬態語|ぎたいご}→擬態語：22468_gitaigo⟧) describing complete exhaustion where one has no energy left. Conveys a visual image of someone slumped or collapsed.\n\nCOMMON PATTERNS:\n- ぐったり⟦する→する：00392_suru⟧: to become exhausted/limp\n- ぐったり⟦している→する：00392_suru⟧: to be exhausted\n- ぐったり⟦と→と：00512_to⟧⟦{倒|たお}れる→倒れる：01160_taoreru⟧: to collapse in exhaustion\n- ぐったり⟦と→と：00512_to⟧⟦{横|よこ}になる→横になる：05546_yokoninaru⟧: to lie down limply\n\nUSAGE:\n- Extreme physical exhaustion (after exercise, hard work)\n- Illness (⟦{熱|ねつ}→熱：01690_netsu⟧, ⟦{病気|びょうき}→病気：00771_byouki⟧)\n- Heat exhaustion (⟦{暑|あつ}さ→暑さ：12973_atsusa⟧)\n- Animals or plants that are wilting or listless\n\nSIMILAR WORDS:\n- ⟦へとへと→へとへと：05273_hetoheto⟧: exhausted (but still able to function)\n- ⟦くたくた→くたくた：05169_kutakuta⟧: worn out, dead tired (similar degree to ぐったり)\n- ⟦ばてる→バテる：09303_bateru⟧: to be worn out (verb, colloquial)\n\nぐったり implies a more severe, visible state of exhaustion than ⟦へとへと→へとへと：05273_hetoheto⟧ — the person or animal can barely move.",
   "cross_references": [
     {
       "type": "related",
@@ -161,11 +161,46 @@
       "headword": "へとへと",
       "label": "exhausted",
       "target_id": "05273_hetoheto"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05169_kutakuta",
+      "reading": "くたくた",
+      "headword": "くたくた",
+      "label": "worn out, dead tired"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09303_bateru",
+      "reading": "ばてる",
+      "headword": "バテる",
+      "label": "to be worn out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04830_gennari",
+      "reading": "げんなり",
+      "headword": "げんなり",
+      "label": "dispirited, exhausted"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06003_kyodatsu",
+      "reading": "きょだつ",
+      "headword": "{虚脱|きょだつ}",
+      "label": "lethargy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25133_shioshio",
+      "reading": "しおしお",
+      "headword": "しおしお",
+      "label": "dejectedly"
     }
   ],
   "metadata": {
     "created": "2026-01-16T13:45:03Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

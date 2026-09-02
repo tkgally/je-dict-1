@@ -24,7 +24,9 @@
       "english": "Put on protective gear.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14659_bougu_ex2",
@@ -32,7 +34,9 @@
       "english": "Maintaining kendo protective gear is important.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14659_bougu_ex3",
@@ -40,7 +44,9 @@
       "english": "Please check your protective gear carefully before the match.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14659_bougu_ex4",
@@ -48,7 +54,9 @@
       "english": "Samurai wore armor and fought in battle.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14659_bougu_ex5",
@@ -56,7 +64,9 @@
       "english": "In this game, obtaining strong armor gives you an advantage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14659_bougu_ex6",
@@ -64,21 +74,49 @@
       "english": "The medieval armor displayed in the museum is in good condition.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "Most commonly associated with kendo gear in modern Japanese. The full set of kendo {防具|ぼうぐ} consists of {面|めん} (face guard), {胴|どう} (torso protector), {小手|こて} (gauntlets), and {垂|たれ} (waist protector).\n\nCOMMON COLLOCATIONS:\n- {防具|ぼうぐ}を{着|つ}ける (put on protective gear)\n- {防具|ぼうぐ}を{外|はず}す (take off protective gear)\n- {防具|ぼうぐ}を{装備|そうび}する (equip armor — games)\n\nRELATED WORDS:\n- {武具|ぶぐ} covers both offensive and defensive equipment\n- {甲冑|かっちゅう} refers specifically to historical Japanese armor",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24598_bugu",
+      "reading": "ぶぐ",
+      "headword": "{武具|ぶぐ}",
+      "label": "covers both offensive and defensive…"
+    },
+    {
+      "type": "related",
+      "target_id": "15370_kacchuu",
+      "reading": "かっちゅう",
+      "headword": "{甲冑|かっちゅう}",
+      "label": "refers specifically to historical…"
+    },
+    {
+      "type": "related",
+      "target_id": "29428_hogogu",
+      "reading": "ほごぐ",
+      "headword": "{保護具|ほごぐ}",
+      "label": "protective gear"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T10:52:59Z",
-    "modified": "2026-03-02T10:52:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     }
   }
 }

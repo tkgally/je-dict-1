@@ -19,7 +19,9 @@
       "english": "We installed a commercial-grade air conditioner.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13148_gyoumuyou_ex2",
@@ -27,7 +29,9 @@
       "english": "This refrigerator is commercial-grade, so it's large.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13148_gyoumuyou_ex3",
@@ -35,7 +39,9 @@
       "english": "At a wholesale supermarket, you can buy ingredients in bulk at low prices.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {業務|ぎょうむ} (business operations) and {用|よう} (for use). Contrasts with {家庭用|かていよう} (for home use). {業務用|ぎょうむよう} products are typically larger, more durable, or sold in greater quantities than consumer versions. {業務用|ぎょうむよう}スーパー (wholesale supermarket) is popular even among general consumers for bulk shopping.\n\nCOMMON COLLOCATIONS:\n- {業務用|ぎょうむよう}スーパー: wholesale supermarket\n- {業務用|ぎょうむよう}{冷蔵庫|れいぞうこ}: commercial refrigerator\n- {業務用|ぎょうむよう}{食材|しょくざい}: commercial food ingredients\n- {家庭用|かていよう}: for home use (contrast)",
@@ -46,19 +52,61 @@
       "reading": "かていよう",
       "headword": "{家庭用|かていよう}",
       "label": "household use"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00459_shiyou",
+      "reading": "しよう",
+      "headword": "{私用|しよう}",
+      "label": "personal use, private business"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11060_shouyou",
+      "reading": "しょうよう",
+      "headword": "{商用|しょうよう}",
+      "label": "commercial use"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12763_tokuyou",
+      "reading": "とくよう",
+      "headword": "{徳用|とくよう}",
+      "label": "economy size, economical, bargain"
+    },
+    {
+      "type": "related",
+      "target_id": "26703_ippanyou",
+      "reading": "いっぱんよう",
+      "headword": "{一般用|いっぱんよう}",
+      "label": "for general use"
+    },
+    {
+      "type": "related",
+      "target_id": "26704_kojinyou",
+      "reading": "こじんよう",
+      "headword": "{個人用|こじんよう}",
+      "label": "for personal use"
     }
   ],
   "metadata": {
     "created": "2026-02-23T11:50:04Z",
-    "modified": "2026-05-04T07:39:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["business"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "business"
+      ]
     }
   }
 }

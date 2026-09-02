@@ -3,7 +3,7 @@
   "headword": "{帰国|きこく}する",
   "reading": "きこくする",
   "romaji": "kikokusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to return to one's country; to go back home",
   "definitions": [
     {
@@ -45,6 +45,36 @@
     }
   ],
   "notes": "Combines {帰|き} (return) and {国|こく} (country). Specifically refers to returning to one's own country, not just any country. The noun form {帰国|きこく} is also commonly used on its own.\n\nUSAGE:\n- The subject's \"own country\" is determined by nationality or where they are from\n- For Japanese speakers, {帰国|きこく} almost always means returning to Japan\n- {帰国|きこく} can also function as a noun: {帰国|きこく}の{予定|よてい} (plans to return home)\n- {帰国子女|きこくしじょ} refers to children who grew up abroad and returned to Japan — a well-known cultural concept\n\nCOMMON COLLOCATIONS:\n- {一時|いちじ}{帰国|きこく}: temporary return home\n- {帰国|きこく}{予定|よてい}: plans to return home\n- {帰国|きこく}{子女|しじょ}: returnee children\n- {帰国|きこく}{後|ご}: after returning home\n- {無事|ぶじ}に{帰国|きこく}する: to return home safely\n\nSIMILAR WORDS:\n- {帰|かえ}る: to return, go home — general term; can mean returning to any home base\n- {渡航|とこう}する: to travel overseas — going abroad, the opposite direction\n- {入国|にゅうこく}する: to enter a country — broader; refers to entering any country, not specifically one's own\n- {里帰|さとがえ}り: returning to one's hometown — specifically visiting one's hometown or parents' home, not necessarily from abroad",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00508_kaeru",
+      "reading": "かえる",
+      "headword": "{帰|かえ}る",
+      "label": "to return, go home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21995_tokousuru",
+      "reading": "とこうする",
+      "headword": "{渡航|とこう}する",
+      "label": "to travel overseas"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15859_nyuukoku",
+      "reading": "にゅうこく",
+      "headword": "{入国|にゅうこく}",
+      "label": "to enter a country"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17444_satogaeri",
+      "reading": "さとがえり",
+      "headword": "{里帰|さとがえ}り",
+      "label": "returning to one's hometown"
+    }
+  ],
   "metadata": {
     "entry_id": "21786_kikokusuru",
     "schema_version": "2.0",
@@ -56,6 +86,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "travel"
       ],
@@ -63,7 +95,7 @@
       "usage": [],
       "verb_class": "suru"
     },
-    "modified": "2026-04-03T17:10:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -19,7 +19,9 @@
       "english": "The Industrial Revolution began in Britain.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18638_sangyoukakumei_ex2",
@@ -27,7 +29,9 @@
       "english": "AI is called the Fourth Industrial Revolution.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18638_sangyoukakumei_ex3",
@@ -35,22 +39,46 @@
       "english": "The Industrial Revolution drastically changed people's lives.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA standard historical term taught in Japanese schools. Also used metaphorically: {第三次|だいさんじ}{産業|さんぎょう}{革命|かくめい} (Third Industrial Revolution), {第四次|だいよじ}{産業|さんぎょう}{革命|かくめい} (Fourth Industrial Revolution) referring to digital and AI transformations.\n\nCOMMON COLLOCATIONS:\n- {第一次|だいいちじ}{産業|さんぎょう}{革命|かくめい} (First Industrial Revolution)\n- {産業|さんぎょう}{革命|かくめい}の{時代|じだい} (era of the Industrial Revolution)\n- {産業|さんぎょう}{革命|かくめい}が{起|お}きる (an industrial revolution occurs)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29251_kougyoukakumei",
+      "reading": "こうぎょうかくめい",
+      "headword": "{工業革命|こうぎょうかくめい}",
+      "label": "Industrial Revolution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29280_nougyoukakumei",
+      "reading": "のうぎょうかくめい",
+      "headword": "{農業革命|のうぎょうかくめい}",
+      "label": "agricultural revolution"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T10:41:08Z",
-    "modified": "2026-03-22T10:41:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["history", "society"],
-      "domain": ["academic"]
+      "semantic": [
+        "history",
+        "society"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

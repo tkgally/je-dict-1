@@ -19,7 +19,9 @@
       "english": "Please come into the examination room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15666_shinsatsushitsu_ex2",
@@ -27,7 +29,9 @@
       "english": "My name was called and I entered the examination room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15666_shinsatsushitsu_ex3",
@@ -35,22 +39,52 @@
       "english": "I was kept waiting for thirty minutes in front of the examination room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nCommonly seen on signs in hospitals and clinics, often numbered ({第|だい}{一|いち}{診察室|しんさつしつ}, {第|だい}{二|に}{診察室|しんさつしつ}). Patients typically wait in the {待合室|まちあいしつ} (waiting room) until called.\n\nWORD FORMATION:\n{診察|しんさつ} (medical examination) + {室|しつ} (room). The 〜{室|しつ} suffix is productive for room names.\n\nSIMILAR WORDS:\n- {待合室|まちあいしつ}: waiting room\n- {処置室|しょちしつ}: treatment room\n- {手術室|しゅじゅつしつ}: operating room",
-  "cross_references": [],
+  "notes": "USAGE:\nCommonly seen on signs in hospitals and clinics, often numbered ({第|だい}{一|いち}{診察室|しんさつしつ}, {第|だい}{二|に}{診察室|しんさつしつ}). Patients typically wait in the {待合室|まちあいしつ} (waiting room) until called.\n\nFORMS:\n{診察|しんさつ} (medical examination) + {室|しつ} (room). The 〜{室|しつ} suffix is productive for room names.\n\nSIMILAR WORDS:\n- {待合室|まちあいしつ}: waiting room\n- {処置室|しょちしつ}: treatment room\n- {手術室|しゅじゅつしつ}: operating room",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07373_machiaishitsu",
+      "reading": "まちあいしつ",
+      "headword": "{待合室|まちあいしつ}",
+      "label": "waiting room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21074_byoushitsu",
+      "reading": "びょうしつ",
+      "headword": "{病室|びょうしつ}",
+      "label": "hospital room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25064_soudanshitsu",
+      "reading": "そうだんしつ",
+      "headword": "{相談室|そうだんしつ}",
+      "label": "consultation room"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T06:46:10Z",
-    "modified": "2026-03-08T06:46:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"],
-      "domain": ["medical"]
+      "semantic": [
+        "building"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

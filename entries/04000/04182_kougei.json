@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "COMMON COMPOUNDS:\n・⟦{伝統|でんとう}→伝統：09585_dentou⟧{工芸|こうげい} (traditional crafts)\n・⟦{民芸|みんげい}→民芸：19768_mingei⟧{工芸|こうげい} (folk crafts)\n・⟦{工芸品|こうげいひん}→工芸品：15367_kougeihin⟧ (handicraft item, craft product)\n・⟦{工芸家|こうげいか}→工芸家：noentry⟧ (craftsperson, artisan)\n・⟦{美術|びじゅつ}→美術：04447_bijutsu⟧{工芸|こうげい} (arts and crafts)\n\nRELATED WORDS:\n・⟦{陶芸|とうげい}→陶芸：04449_tougei⟧ - ceramic art, pottery\n・⟦{木工|もっこう}→木工：13063_mokkou⟧ - woodworking\n・⟦{染織|せんしょく}→染織：noentry⟧ - dyeing and weaving\n・⟦{漆芸|しつげい}→漆芸：noentry⟧ - lacquerware art",
+  "notes": "COMPOUNDS:\n- ⟦{伝統|でんとう}→伝統：09585_dentou⟧{工芸|こうげい} (traditional crafts)\n- ⟦{民芸|みんげい}→民芸：19768_mingei⟧{工芸|こうげい} (folk crafts)\n- ⟦{工芸品|こうげいひん}→工芸品：15367_kougeihin⟧ (handicraft item, craft product)\n- ⟦{工芸家|こうげいか}→工芸家：noentry⟧ (craftsperson, artisan)\n- ⟦{美術|びじゅつ}→美術：04447_bijutsu⟧{工芸|こうげい} (arts and crafts)\n\nRELATED WORDS:\n- ⟦{陶芸|とうげい}→陶芸：04449_tougei⟧ - ceramic art, pottery\n- ⟦{木工|もっこう}→木工：13063_mokkou⟧ - woodworking\n- ⟦{染織|せんしょく}→染織：noentry⟧ - dyeing and weaving\n- ⟦{漆芸|しつげい}→漆芸：noentry⟧ - lacquerware art",
   "metadata": {
     "created": "2026-01-13T13:58:45Z",
-    "modified": "2026-09-01T00:19:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -67,6 +67,48 @@
       "reading": "しゅげい",
       "headword": "{手芸|しゅげい}",
       "label": "textile and thread handicrafts"
+    },
+    {
+      "type": "related",
+      "target_id": "04449_tougei",
+      "reading": "とうげい",
+      "headword": "{陶芸|とうげい}",
+      "label": "ceramic art, pottery"
+    },
+    {
+      "type": "related",
+      "target_id": "13063_mokkou",
+      "reading": "もっこう",
+      "headword": "{木工|もっこう}",
+      "label": "woodworking"
+    },
+    {
+      "type": "related",
+      "target_id": "04447_bijutsu",
+      "reading": "びじゅつ",
+      "headword": "{美術|びじゅつ}",
+      "label": "fine arts"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07063_kibori",
+      "reading": "きぼり",
+      "headword": "{木彫|きぼ}り",
+      "label": "wood carving"
+    },
+    {
+      "type": "related",
+      "target_id": "19768_mingei",
+      "reading": "みんげい",
+      "headword": "{民芸|みんげい}",
+      "label": "folk craft"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19878_teshigoto",
+      "reading": "てしごと",
+      "headword": "{手仕事|てしごと}",
+      "label": "handicraft"
     }
   ]
 }

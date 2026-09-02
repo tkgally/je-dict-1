@@ -3,7 +3,7 @@
   "headword": "{入力|にゅうりょく}する",
   "reading": "にゅうりょくする",
   "romaji": "nyuuryokusuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to input; to enter (data); to type in",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "{入力|にゅうりょく}する is a transitive suru-verb for entering data into a device. The data entered is marked with を.\n\nCOMMON COLLOCATIONS:\n- データを{入力|にゅうりょく}する: to input data\n- {手|て}{入力|にゅうりょく}: manual entry\n- {音声|おんせい}{入力|にゅうりょく}: voice input\n\nSIMILAR WORDS:\n- {出力|しゅつりょく}する: to output — the opposite operation\n- {打|う}ち{込|こ}む: to type in; to key in — emphasizes the typing action",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04771_shutsuryoku",
+      "reading": "しゅつりょく",
+      "headword": "{出力|しゅつりょく}",
+      "label": "to output"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04229_uchikomu",
+      "reading": "うちこむ",
+      "headword": "{打|う}ち{込|こ}む",
+      "label": "to type in"
+    },
+    {
+      "type": "antonym",
+      "target_id": "21387_shutsuryoku",
+      "reading": "しゅつりょく",
+      "headword": "{出力|しゅつりょく}する",
+      "label": "to output"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22639_taipusuru",
+      "reading": "たいぷする",
+      "headword": "タイプする",
+      "label": "to type (on a keyboard)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +92,7 @@
       "domain": []
     },
     "created": "2026-05-26T02:06:25Z",
-    "modified": "2026-05-26T02:06:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

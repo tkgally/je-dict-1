@@ -56,6 +56,36 @@
   ],
   "notes": "Composed of {既|き} (already) and {遂|すい} (to accomplish; to carry through). Literally \"already accomplished,\" contrasted with {未遂|みすい} \"not yet accomplished.\"\n\nUSAGE:\nA specialized legal term. Most commonly appears attached to the name of a specific crime: {殺人|さつじん}{既遂|きすい} (consummated murder), {強盗|ごうとう}{既遂|きすい} (consummated robbery), {詐欺|さぎ}{既遂|きすい} (consummated fraud). Virtually never used outside legal and crime-reporting contexts. The distinction {既遂|きすい} vs. {未遂|みすい} is important because Japanese criminal law allows lighter sentences for attempted crimes.\n\nCOMMON COLLOCATIONS:\n- {殺人|さつじん}{既遂|きすい}: consummated murder\n- {既遂|きすい}の{罪|つみ}: the crime of a consummated offense\n- {既遂|きすい}と{認定|にんてい}する: to determine (a crime) to be consummated\n- {既遂|きすい}{犯|はん}: perpetrator of a consummated crime\n\nSIMILAR WORDS:\n- {未遂|みすい}: attempted (but not completed) — the direct antonym, used when the perpetrator fails to complete the crime\n- {予備|よび}: preparation (of a crime) — an even earlier stage, punishable only for certain serious offenses\n- {実行|じっこう}: execution; carrying out — the general act of committing, not specifically the completed state",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "13085_misui",
+      "reading": "みすい",
+      "headword": "{未遂|みすい}",
+      "label": "attempted"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03993_yobi",
+      "reading": "よび",
+      "headword": "{予備|よび}",
+      "label": "preparation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03274_jikkou",
+      "reading": "じっこう",
+      "headword": "{実行|じっこう}",
+      "label": "execution"
+    },
+    {
+      "type": "related",
+      "target_id": "17491_satsujinmisui",
+      "reading": "さつじんみすい",
+      "headword": "{殺人未遂|さつじんみすい}",
+      "label": "attempted murder"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -69,6 +99,6 @@
       ]
     },
     "created": "2026-04-13T18:07:21Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

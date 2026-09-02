@@ -19,7 +19,9 @@
       "english": "I visit the grave on my grandmother's death anniversary.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21187_kijitsu_ex2",
@@ -27,7 +29,9 @@
       "english": "Basho's death anniversary is October 12th.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21187_kijitsu_ex3",
@@ -35,21 +39,49 @@
       "english": "Every year on my father's death anniversary, the family gathers for a memorial service.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{忌|き} means 'mourning' or 'taboo,' and {日|じつ} means 'day.' {忌日|きじつ} marks the annual anniversary of a death. In Japanese Buddhist practice, specific memorial services ({法要|ほうよう}) are held on these dates, particularly at intervals such as the first, third, seventh, and thirteenth anniversaries.\n\nALTERNATE READING:\nThis word can also be read as きにち. Both readings are standard.\n\nCOMMON COLLOCATIONS:\n- {忌日|きじつ}を{迎|むか}える (to mark a death anniversary)\n- {忌日|きじつ}に{法要|ほうよう}を{行|おこな}う (to hold a memorial service on the death anniversary)\n- {一周忌|いっしゅうき} (first anniversary of death)\n\nCULTURAL NOTE:\nFamous historical and literary figures have named {忌日|きじつ}. For example, the haiku poet {松尾|まつお}{芭蕉|ばしょう}'s death anniversary is called {時雨忌|しぐれき} (Shigure-ki), and the novelist {夏目|なつめ}{漱石|そうせき}'s is called {漱石忌|そうせきき}.\n\nSIMILAR WORDS:\n- {命日|めいにち} — death anniversary (the most common everyday word for this concept)\n- {法要|ほうよう} — memorial service (the ceremony itself, not the date)\n- {一周忌|いっしゅうき} — first anniversary of death (specific interval)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17539_meinichi",
+      "reading": "めいにち",
+      "headword": "{命日|めいにち}",
+      "label": "death anniversary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05924_houyou",
+      "reading": "ほうよう",
+      "headword": "{法要|ほうよう}",
+      "label": "memorial service"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06018_isshuuki",
+      "reading": "いっしゅうき",
+      "headword": "{一周忌|いっしゅうき}",
+      "label": "first anniversary of death"
+    }
+  ],
   "metadata": {
     "created": "2026-03-31T22:19:50Z",
-    "modified": "2026-03-31T22:19:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["culture"]
+      "semantic": [
+        "culture"
+      ]
     }
   }
 }

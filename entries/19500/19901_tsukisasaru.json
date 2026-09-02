@@ -2,7 +2,7 @@
   "id": "19901_tsukisasaru",
   "headword": "{突|つ}き{刺|ささ}る",
   "reading": "つきささる",
-  "part_of_speech": "godan verb, intransitive",
+  "part_of_speech": "verb (godan, intransitive)",
   "gloss": "to pierce, to stick into",
   "conjugation": {
     "type": "godan",
@@ -169,10 +169,33 @@
     }
   ],
   "notes": "A compound verb from {突|つ}く (to thrust) + {刺|ささ}る (to stick in). The intransitive form describes the result — something is embedded. The transitive counterpart is {突|つ}き{刺|さ}す (to stab into something).\n\nTRANSITIVITY:\n- {突|つ}き{刺|ささ}る (intransitive): the object pierces and sticks\n- {突|つ}き{刺|さ}す (transitive): to stab something into\n\nCOMMON COLLOCATIONS:\n- {胸|むね}に{突|つ}き{刺|ささ}る: to pierce one's heart\n- {心|こころ}に{突|つ}き{刺|ささ}る: to cut deep emotionally\n- {視線|しせん}が{突|つ}き{刺|ささ}る: a gaze pierces\n\nSIMILAR WORDS:\n- {刺|ささ}る: to stick in — simpler form without the thrusting nuance\n- {貫|つらぬ}く: to penetrate, to go through — implies passing completely through\n- {心|こころ}に{響|ひび}く: to resonate — similar emotional impact but warmer, more positive",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18728_tsuranuku",
+      "reading": "つらぬく",
+      "headword": "{貫|つらぬ}く",
+      "label": "to penetrate, to go through"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20707_kokoronihibiku",
+      "reading": "こころにひびく",
+      "headword": "{心|こころ}に{響|ひび}く",
+      "label": "to resonate"
+    }
+  ],
+  "prominent_see_also": [
+    {
+      "target_id": "06088_tsukisasu",
+      "reading": "つきさす",
+      "headword": "{突|つ}き{刺|さ}す",
+      "note": "transitive"
+    }
+  ],
   "metadata": {
     "created": "2026-03-27T05:32:19Z",
-    "modified": "2026-04-10T06:41:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {

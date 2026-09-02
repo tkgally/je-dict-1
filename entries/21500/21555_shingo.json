@@ -17,7 +17,9 @@
       "id": "21555_shingo_ex1",
       "japanese": "{毎年|まいとし}{新語|しんご}が{生|う}まれる。",
       "english": "New words are born every year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21555_shingo_ex2",
       "japanese": "{新語|しんご}・{流行語|りゅうこうご}{大賞|たいしょう}が{発表|はっぴょう}された。",
       "english": "The New Words and Buzzwords of the Year Award was announced.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "21555_shingo_ex3",
       "japanese": "インターネットの{普及|ふきゅう}とともに、{多|おお}くの{新語|しんご}が{日本語|にほんご}に{入|はい}ってきた。",
       "english": "Along with the spread of the internet, many new words have entered Japanese.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {新|しん} (new) and {語|ご} (word, language). Refers to words that have recently appeared in the language.\n\nCOMMON COLLOCATIONS:\n- {新語|しんご}・{流行語|りゅうこうご}{大賞|たいしょう}: New Words and Buzzwords of the Year Award\n- {新語|しんご}が{生|う}まれる: new words are coined\n- {新語|しんご}{辞典|じてん}: dictionary of new words\n- {新語|しんご}を{作|つく}る: to coin a new word\n\nCULTURAL NOTE:\nThe annual {新語|しんご}・{流行語|りゅうこうご}{大賞|たいしょう} (New Words and Buzzwords of the Year Award) is a popular year-end event in Japan, announced each December. It reflects social trends and cultural phenomena of that year.\n\nSIMILAR WORDS:\n- {流行語|りゅうこうご}: buzzword — a word that becomes temporarily popular\n- {新語|しんご}: neologism — a newly created or adopted word\n- {造語|ぞうご}: coined word — emphasizes that the word was deliberately invented\n- {廃語|はいご}: obsolete word — the opposite, a word that has fallen out of use",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13307_ryuukougo",
+      "reading": "りゅうこうご",
+      "headword": "{流行語|りゅうこうご}",
+      "label": "buzzword"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25313_zougo",
+      "reading": "ぞうご",
+      "headword": "{造語|ぞうご}",
+      "label": "coined word"
+    },
+    {
+      "type": "antonym",
+      "target_id": "26501_haigo",
+      "reading": "はいご",
+      "headword": "{廃語|はいご}",
+      "label": "obsolete word"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26644_shinzougo",
+      "reading": "しんぞうご",
+      "headword": "{新造語|しんぞうご}",
+      "label": "neologism"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["language"]
+      "semantic": [
+        "language"
+      ]
     },
     "created": "2026-04-02T16:15:48Z",
-    "modified": "2026-04-02T16:15:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

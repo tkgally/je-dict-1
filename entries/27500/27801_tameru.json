@@ -3,7 +3,7 @@
   "headword": "{貯|た}める",
   "reading": "ためる",
   "romaji": "tameru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to save up; to put aside (money, points)",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "TRANSITIVITY: Transitive ichidan verb. Xを{貯|た}める. The intransitive pair is {貯|た}まる (to accumulate).\n\nWritten with {貯|た} specifically for saving money or points. The homophone {溜|た}める covers accumulating things in general — water, stress, unfinished work.\n\nCOMMON COLLOCATIONS:\n- お{金|かね}を{貯|た}める: to save money\n- {貯金|ちょきん}を{貯|た}める: to build up savings\n- ポイントを{貯|た}める: to collect points\n\nSIMILAR WORDS:\n- {貯金|ちょきん}する: to save money — noun + する; emphasizes the act of depositing\n- {溜|た}める: to accumulate — general accumulation, not specifically money",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03497_chokin",
+      "reading": "ちょきん",
+      "headword": "{貯金|ちょきん}",
+      "label": "to save money"
+    },
+    {
+      "type": "homophone",
+      "target_id": "02068_tameru",
+      "reading": "ためる",
+      "headword": "{溜|た}める",
+      "label": "to accumulate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21136_tsumitateru",
+      "reading": "つみたてる",
+      "headword": "{積|つ}み{立|た}てる",
+      "label": "to save up regularly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25358_chikusekisuru",
+      "reading": "ちくせきする",
+      "headword": "{蓄積|ちくせき}する",
+      "label": "to accumulate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +93,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-05-19T03:07:48Z",
-    "modified": "2026-08-07T16:11:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

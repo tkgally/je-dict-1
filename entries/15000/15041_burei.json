@@ -3,7 +3,7 @@
   "id": "15041_burei",
   "headword": "{無礼|ぶれい}",
   "reading": "ぶれい",
-  "part_of_speech": "noun, adjective (na)",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "rude, impolite, discourteous",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "He behaved rudely.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15041_burei_ex2",
@@ -27,7 +29,9 @@
       "english": "I say this knowing it may be rude.",
       "notes": "A set phrase used before saying something potentially offensive.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15041_burei_ex3",
@@ -35,7 +39,9 @@
       "english": "Using disrespectful language toward a superior is unacceptable.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE: More formal and literary than {失礼|しつれい} (rude, impolite). {無礼|ぶれい} carries a stronger, more serious tone and implies a deeper breach of social etiquette.\n\nCOMMON COLLOCATIONS:\n- {無礼|ぶれい}な{態度|たいど}: rude attitude\n- {無礼|ぶれい}な{振|ふ}る{舞|ま}い: rude behavior\n- {無礼|ぶれい}を{働|はたら}く: to behave rudely\n- {無礼|ぶれい}を{承知|しょうち}で: knowing it may be rude\n- {無礼|ぶれい}{講|こう}: a drinking party where rank is set aside\n\nCONTRAST: {無礼|ぶれい} (rude, stronger) vs. {失礼|しつれい} (impolite, milder/everyday).",
@@ -46,18 +52,39 @@
       "reading": "しつれい",
       "headword": "{失礼|しつれい}",
       "label": "impolite (milder)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14615_hijoushiki",
+      "reading": "ひじょうしき",
+      "headword": "{非常識|ひじょうしき}",
+      "label": "lack of common sense"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19476_fukei",
+      "reading": "ふけい",
+      "headword": "{不敬|ふけい}",
+      "label": "disrespectful"
     }
   ],
   "metadata": {
     "created": "2026-03-05T05:40:31Z",
-    "modified": "2026-05-01T05:08:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"],
-      "style": ["written"]
+      "semantic": [
+        "descriptive"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

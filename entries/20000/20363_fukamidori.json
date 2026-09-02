@@ -17,7 +17,9 @@
       "id": "20363_fukamidori_ex1",
       "japanese": "{深緑|ふかみどり}の{森|もり}が{広|ひろ}がっている。",
       "english": "A deep green forest stretches out.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20363_fukamidori_ex2",
       "japanese": "{深緑|ふかみどり}のコートを{買|か}った。",
       "english": "I bought a dark green coat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "20363_fukamidori_ex3",
       "japanese": "{夏|なつ}になると{山|やま}の{木々|きぎ}が{深緑|ふかみどり}に{染|そ}まる。",
       "english": "In summer, the mountain trees turn deep green.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A traditional Japanese color name describing a rich, dark shade of green. Evokes the lush greenery of midsummer forests.\n\nFORMATION:\n{深|ふか} (deep) + {緑|みどり} (green)\n\nSIMILAR COLOR TERMS:\n- {新緑|しんりょく}: fresh green (of new spring leaves) — lighter and brighter\n- {若緑|わかみどり}: young green — a light, yellowish green of early growth\n- {濃緑|のうりょく}: dense/dark green — more technical, used in color specifications\n- {萌黄|もえぎ}: yellowish green — a lighter, more vivid traditional color\n\nCOMMON COLLOCATIONS:\n- {深緑|ふかみどり}の{季節|きせつ}: the season of deep green (midsummer)\n- {深緑|ふかみどり}に{染|そ}まる: to be dyed deep green\n- {深緑|ふかみどり}の{葉|は}: deep green leaves",
+  "notes": "A traditional Japanese color name describing a rich, dark shade of green. Evokes the lush greenery of midsummer forests.\n\nFORMS:\n{深|ふか} (deep) + {緑|みどり} (green)\n\nSIMILAR COLOR TERMS:\n- {新緑|しんりょく}: fresh green (of new spring leaves) — lighter and brighter\n- {若緑|わかみどり}: young green — a light, yellowish green of early growth\n- {濃緑|のうりょく}: dense/dark green — more technical, used in color specifications\n- {萌黄|もえぎ}: yellowish green — a lighter, more vivid traditional color\n\nCOMMON COLLOCATIONS:\n- {深緑|ふかみどり}の{季節|きせつ}: the season of deep green (midsummer)\n- {深緑|ふかみどり}に{染|そ}まる: to be dyed deep green\n- {深緑|ふかみどり}の{葉|は}: deep green leaves",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12724_shinryoku",
+      "reading": "しんりょく",
+      "headword": "{新緑|しんりょく}",
+      "label": "fresh green"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24868_nouryoku",
+      "reading": "のうりょく",
+      "headword": "{濃緑|のうりょく}",
+      "label": "dense/dark green"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["color", "nature"]
+      "semantic": [
+        "color",
+        "nature"
+      ]
     },
     "created": "2026-03-29T11:08:09Z",
-    "modified": "2026-03-29T11:08:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -78,10 +78,40 @@
       ]
     }
   ],
-  "notes": "USAGE: メッセージ is a widely used loanword for messages of all types - text messages, voicemails, written notes, or figurative meanings in art/media.\n\nCOMMON PATTERNS:\n・メッセージ⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧ (to send a message)\n・メッセージ⟦を→を：00422_wo⟧⟦{残|のこ}す→残す：01975_nokosu⟧ (to leave a message)\n・メッセージ⟦を→を：00422_wo⟧⟦{伝|つた}える→伝える：01220_tsutaeru⟧ (to convey a message)\n・メッセージ⟦が→が：00051_ga⟧⟦{届|とど}く→届く：00899_todoku⟧ (a message arrives)\n・メッセージ⟦{性|せい}→性：noentry⟧ (having a message/meaning)\n\nRELATED:\n・ショートメッセージ/SMS (text message)\n・ボイスメッセージ (voice message)\n・メッセージカード (greeting card)",
+  "notes": "USAGE: メッセージ is a widely used loanword for messages of all types - text messages, voicemails, written notes, or figurative meanings in art/media.\n\nCOMMON PATTERNS:\n- メッセージ⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧ (to send a message)\n- メッセージ⟦を→を：00422_wo⟧⟦{残|のこ}す→残す：01975_nokosu⟧ (to leave a message)\n- メッセージ⟦を→を：00422_wo⟧⟦{伝|つた}える→伝える：01220_tsutaeru⟧ (to convey a message)\n- メッセージ⟦が→が：00051_ga⟧⟦{届|とど}く→届く：00899_todoku⟧ (a message arrives)\n- メッセージ⟦{性|せい}→性：noentry⟧ (having a message/meaning)\n\nRELATED WORDS:\n- ショートメッセージ/SMS (text message)\n- ボイスメッセージ (voice message)\n- メッセージカード (greeting card)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03448_dengon",
+      "reading": "でんごん",
+      "headword": "{伝言|でんごん}",
+      "label": "verbal message"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16775_kotozuke",
+      "reading": "ことづけ",
+      "headword": "{言付|ことづ}け",
+      "label": "verbal message"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23328_denshimeeru",
+      "reading": "でんしめーる",
+      "headword": "{電子|でんし}メール",
+      "label": "email"
+    },
+    {
+      "type": "related",
+      "target_id": "23428_dairekutomesseeji",
+      "reading": "だいれくとめっせーじ",
+      "headword": "ダイレクトメッセージ",
+      "label": "direct message"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T13:34:27Z",
-    "modified": "2026-05-27T19:25:31Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

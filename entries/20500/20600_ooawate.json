@@ -19,7 +19,9 @@
       "english": "I left the house in a great hurry.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20600_ooawate_ex2",
@@ -27,7 +29,9 @@
       "english": "I overslept and got ready in a frantic rush.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20600_ooawate_ex3",
@@ -35,21 +39,50 @@
       "english": "It suddenly started raining, and I was in a complete panic bringing in the laundry.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Composed of {大|おお} (great, big) + {慌|あわ}て (haste, fluster). The prefix {大|おお} intensifies the base word {慌|あわ}て. Used to describe comical or relatable situations of panic.\n\nCOMMON COLLOCATIONS:\n- {大慌|おおあわ}てで (in a great hurry, frantically)\n- {大慌|おおあわ}てになる (to become flustered/panicked)\n- {大慌|おおあわ}ての{様子|ようす} (a flustered appearance)\n\nSIMILAR WORDS:\n- {慌|あわ}てる — to panic, to be flustered (verb form, less intense)\n- あたふた — in a fluster, hurriedly (onomatopoeia describing the frantic manner)\n- {焦|あせ}る — to feel anxious, to rush (more about internal anxiety than outward chaos)\n- てんやわんや — commotion, chaos (describes a chaotic scene, often involving multiple people)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01874_awateru",
+      "reading": "あわてる",
+      "headword": "{慌|あわ}てる",
+      "label": "to panic, to be flustered"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04619_aseru",
+      "reading": "あせる",
+      "headword": "{焦|あせ}る",
+      "label": "to feel anxious, to rush"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20601_atafuta",
+      "reading": "あたふた",
+      "headword": "あたふた",
+      "label": "in a fluster"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T19:22:16Z",
-    "modified": "2026-03-29T19:22:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
   }
 }

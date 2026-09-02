@@ -2,7 +2,7 @@
   "id": "08485_yuzame",
   "headword": "{湯冷|ゆざ}め",
   "reading": "ゆざめ",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "catching cold after a bath",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,23 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{湯|ゆ} (hot water, bath) + {冷|さ}め (getting cold)\n\nCULTURAL CONTEXT:\nIn Japan, bathing culture emphasizes warming up fully in the bath. {湯冷|ゆざ}め is a common concern, especially:\n- In winter months\n- For children and elderly\n- After {温泉|おんせん} or {銭湯|せんとう}\n\nPREVENTION:\n- {髪|かみ}を{乾|かわ}かす - dry your hair\n- {体|からだ}をよく{拭|ふ}く - dry body thoroughly\n- {暖|あたた}かい{服|ふく}を{着|き}る - wear warm clothes\n\nRELATED:\n- {風邪|かぜ}を{引|ひ}く - to catch a cold\n- {寒気|さむけ} - feeling chilly\n- {湯上|ゆあ}がり - after bathing",
+  "notes": "COMPOUNDS:\n{湯|ゆ} (hot water, bath) + {冷|さ}め (getting cold)\n\nCULTURAL NOTE:\nIn Japan, bathing culture emphasizes warming up fully in the bath. {湯冷|ゆざ}め is a common concern, especially:\n- In winter months\n- For children and elderly\n- After {温泉|おんせん} or {銭湯|せんとう}\n\nPREVENTION:\n- {髪|かみ}を{乾|かわ}かす - dry your hair\n- {体|からだ}をよく{拭|ふ}く - dry body thoroughly\n- {暖|あたた}かい{服|ふく}を{着|き}る - wear warm clothes\n\nRELATED WORDS:\n- {風邪|かぜ}を{引|ひ}く - to catch a cold\n- {寒気|さむけ} - feeling chilly\n- {湯上|ゆあ}がり - after bathing",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16081_samuke",
+      "reading": "さむけ",
+      "headword": "{寒気|さむけ}",
+      "label": "feeling chilly"
+    },
+    {
+      "type": "related",
+      "target_id": "22239_yuagari",
+      "reading": "ゆあがり",
+      "headword": "{湯上|ゆあ}がり",
+      "label": "after bathing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +158,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "daily-life",
@@ -150,6 +167,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-27T08:12:28Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

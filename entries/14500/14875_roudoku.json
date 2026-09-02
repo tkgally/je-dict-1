@@ -3,7 +3,7 @@
   "id": "14875_roudoku",
   "headword": "{朗読|ろうどく}",
   "reading": "ろうどく",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reading aloud; recitation",
   "conjugation": {
     "type": "suru",
@@ -149,11 +149,32 @@
       "reading": "おんどく",
       "headword": "{音読|おんどく}",
       "label": "reading aloud (practice/study)"
+    },
+    {
+      "type": "related",
+      "target_id": "24535_ginei",
+      "reading": "ぎんえい",
+      "headword": "{吟詠|ぎんえい}",
+      "label": "chanting of poetry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26776_anshousuru",
+      "reading": "あんしょうする",
+      "headword": "{暗唱|あんしょう}する",
+      "label": "to recite from memory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27054_eishou",
+      "reading": "えいしょう",
+      "headword": "{詠唱|えいしょう}",
+      "label": "chanting"
     }
   ],
   "metadata": {
     "created": "2026-03-04T05:23:07Z",
-    "modified": "2026-05-02T06:35:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

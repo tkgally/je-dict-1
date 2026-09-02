@@ -3,7 +3,7 @@
   "headword": "{離席|りせき}する",
   "reading": "りせきする",
   "romaji": "risekisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to leave one's seat; to step away",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A compound of {離|り} (to leave, separate) and {席|せき} (seat). Commonly used in office and business settings. On chat and messaging platforms, {離席中|りせきちゅう} is used as a status indicating one is temporarily away.\n\nCOMMON COLLOCATIONS:\n- {離席中|りせきちゅう}: away from desk (status)\n- ちょっと{離席|りせき}する: to step away briefly\n- {席|せき}を{離|はな}れる: to leave one's seat (synonym phrase)\n- {一時|いちじ}{離席|りせき}: temporary absence from seat\n\nSIMILAR WORDS:\n- {席|せき}を{外|はず}す: to step out — a polite, common synonym used when explaining someone's absence\n- {中座|ちゅうざ}する: to leave midway — leaving a gathering or event before it ends\n- {退席|たいせき}する: to leave one's seat (formally) — more formal, implies a more definitive departure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25832_sekiwohazusu",
+      "reading": "せきをはずす",
+      "headword": "{席|せき}を{外|はず}す",
+      "label": "to step out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20247_chuuzasuru",
+      "reading": "ちゅうざする",
+      "headword": "{中座|ちゅうざ}する",
+      "label": "to leave midway"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17808_taisekisuru",
+      "reading": "たいせきする",
+      "headword": "{退席|たいせき}する",
+      "label": "to leave one's seat"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +88,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-26T15:18:36Z",
-    "modified": "2026-04-26T15:18:36Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

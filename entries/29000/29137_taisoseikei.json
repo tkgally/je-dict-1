@@ -35,7 +35,7 @@
     },
     {
       "id": "29137_taisoseikeii_ex3",
-      "japanese": "{最新|さいしん}の{体組成計|たいそせいけい}はスマートフォンと{連携|れんけい}して{データ|でーた}を{管理|かんり}できるものが{多|おお}い。",
+      "japanese": "{最新|さいしん}の{体組成計|たいそせいけい}はスマートフォンと{連携|れんけい}してデータを{管理|かんり}できるものが{多|おお}い。",
       "english": "Many of the latest body composition analyzers can sync with smartphones to manage data.",
       "sense_numbers": [
         1
@@ -46,6 +46,29 @@
   ],
   "notes": "COMMON COLLOCATIONS:\n- {体組成計|たいそせいけい}で{測|はか}る: to measure with a body composition analyzer\n- {体組成計|たいそせいけい}の{数値|すうち}: readings from a body composition analyzer\n- {家庭用|かていよう}{体組成計|たいそせいけい}: home-use body composition analyzer\n\nSIMILAR WORDS:\n- {体重計|たいじゅうけい}: bathroom scale — measures weight only\n- ヘルスメーター: health meter — marketing term for a scale; may or may not include composition analysis",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05485_taijuukei",
+      "reading": "たいじゅうけい",
+      "headword": "{体重計|たいじゅうけい}",
+      "label": "bathroom scale"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29225_herusumeetaa",
+      "reading": "へるすめーたー",
+      "headword": "ヘルスメーター",
+      "label": "health meter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23621_taishiboukei",
+      "reading": "たいしぼうけい",
+      "headword": "{体脂肪計|たいしぼうけい}",
+      "label": "body fat scale"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "tool"
       ],
       "domain": []
     },
     "created": "2026-06-11T11:41:05Z",
-    "modified": "2026-06-11T11:47:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

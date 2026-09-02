@@ -3,7 +3,7 @@
   "headword": "{変更|へんこう}する",
   "reading": "へんこうする",
   "romaji": "henkousuru",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to change; to alter; to revise",
   "definitions": [
     {
@@ -56,6 +56,43 @@
   ],
   "notes": "TRANSITIVITY:\nTransitive — the thing being changed takes を. The passive {変更|へんこう}される is very common in announcements, where the decider is an organization: {会場|かいじょう}が{変更|へんこう}されました (the venue has been changed).\n\nCOMMON COLLOCATIONS:\n- {予定|よてい}を{変更|へんこう}する: to change one's plans\n- {日時|にちじ}を{変更|へんこう}する: to change the date and time\n- {設定|せってい}を{変更|へんこう}する: to change a setting\n- {計画|けいかく}を{変更|へんこう}する: to revise a plan\n- {仕様|しよう}{変更|へんこう}: a change of specifications\n\nSIMILAR WORDS:\n- {変|か}える: to change — the everyday word, and the one to use for informal or physical changes\n- {改|あらた}める: to revise; to correct — implies improving or putting right, not merely substituting\n- {変|か}わる: to change (by itself) — intransitive; nothing is being changed by an agent",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01089_kaeru",
+      "reading": "かえる",
+      "headword": "{変|か}える",
+      "label": "to change"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12923_aratameru",
+      "reading": "あらためる",
+      "headword": "{改|あらた}める",
+      "label": "to revise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00714_kawaru",
+      "reading": "かわる",
+      "headword": "{変|か}わる",
+      "label": "to change"
+    },
+    {
+      "type": "related",
+      "target_id": "09890_henkansuru",
+      "reading": "へんかんする",
+      "headword": "{変換|へんかん}する",
+      "label": "to convert"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25527_shuuseisuru",
+      "reading": "しゅうせいする",
+      "headword": "{修正|しゅうせい}する",
+      "label": "to correct"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -74,7 +111,7 @@
       "transitivity": "transitive"
     },
     "created": "2026-08-31T12:33:17Z",
-    "modified": "2026-08-31T12:33:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

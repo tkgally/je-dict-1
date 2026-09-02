@@ -46,12 +46,29 @@
   ],
   "notes": "A formal ceremony to mourn and honor someone who has died, often held on anniversaries of a person's death or of disasters. Distinct from a funeral ({葬儀|そうぎ}), which takes place shortly after death — a {追悼式|ついとうしき} can be held at any later date.\n\nCOMMON COLLOCATIONS:\n- {追悼式|ついとうしき}を{行|おこな}う — to hold a memorial service\n- {追悼式|ついとうしき}に{参列|さんれつ}する — to attend a memorial service\n- {合同|ごうどう}{追悼式|ついとうしき} — joint memorial service\n\nSIMILAR WORDS:\n- {追悼|ついとう} — mourning; remembrance (the act itself, without {式|しき})\n- {慰霊祭|いれいさい} — memorial rite (often for war dead or spirits)\n- {法事|ほうじ} — Buddhist memorial service (family-centered, on specific anniversaries)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27133_ireisai",
+      "reading": "いれいさい",
+      "headword": "{慰霊祭|いれいさい}",
+      "label": "memorial rite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05634_houji",
+      "reading": "ほうじ",
+      "headword": "{法事|ほうじ}",
+      "label": "Buddhist memorial service"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "culture",
         "society"
@@ -61,6 +78,6 @@
       ]
     },
     "created": "2026-04-20T16:15:44Z",
-    "modified": "2026-08-03T09:30:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

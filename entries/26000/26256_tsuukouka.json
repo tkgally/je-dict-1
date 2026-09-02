@@ -3,7 +3,7 @@
   "headword": "{通行可|つうこうか}",
   "reading": "つうこうか",
   "romaji": "tsuukouka",
-  "part_of_speech": "noun, adjective-no",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "passable; open to traffic",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "26256_tsuukouka_ex1",
       "japanese": "この{道|みち}は{通行可|つうこうか}です。",
       "english": "This road is passable.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26256_tsuukouka_ex2",
       "japanese": "{工事|こうじ}が{終|お}わり、{通行可|つうこうか}になった。",
       "english": "The construction has finished and the road is open to traffic again.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "26256_tsuukouka_ex3",
       "japanese": "{積雪|せきせつ}のため{一時|いちじ}{通行止|つうこうど}めだったが、{除雪|じょせつ}{後|ご}に{通行可|つうこうか}となった。",
       "english": "The road was temporarily closed due to snow accumulation, but became passable after snow removal.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {通行|つうこう} (traffic; passage) and {可|か} (possible; permitted). Often seen on road signs and in traffic advisories. The {可|か} suffix is concise and formal, common on signs and official notices.\n\nCOMMON COLLOCATIONS:\n- {通行可|つうこうか}の{道路|どうろ}: passable road\n- {片側|かたがわ}{通行可|つうこうか}: one side passable (one-way alternating traffic)\n- {車両|しゃりょう}{通行可|つうこうか}: open to vehicles\n- {歩行者|ほこうしゃ}{通行可|つうこうか}: open to pedestrians\n\nRELATED TERMS:\n- {通行止|つうこうど}め: road closed; no passage — the opposite, indicating the road is blocked\n- {通行禁止|つうこうきんし}: no passage; traffic prohibited — a more formal/permanent prohibition\n- {通行|つうこう}{規制|きせい}: traffic restrictions — partial limitations on passage\n- {通行|つうこう}{可能|かのう}: passable — a slightly less abbreviated form meaning the same thing",
+  "notes": "Composed of {通行|つうこう} (traffic; passage) and {可|か} (possible; permitted). Often seen on road signs and in traffic advisories. The {可|か} suffix is concise and formal, common on signs and official notices.\n\nCOMMON COLLOCATIONS:\n- {通行可|つうこうか}の{道路|どうろ}: passable road\n- {片側|かたがわ}{通行可|つうこうか}: one side passable (one-way alternating traffic)\n- {車両|しゃりょう}{通行可|つうこうか}: open to vehicles\n- {歩行者|ほこうしゃ}{通行可|つうこうか}: open to pedestrians\n\nRELATED WORDS:\n- {通行止|つうこうど}め: road closed; no passage — the opposite, indicating the road is blocked\n- {通行禁止|つうこうきんし}: no passage; traffic prohibited — a more formal/permanent prohibition\n- {通行|つうこう}{規制|きせい}: traffic restrictions — partial limitations on passage\n- {通行|つうこう}{可能|かのう}: passable — a slightly less abbreviated form meaning the same thing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "19920_tsuukoudome",
+      "reading": "つうこうどめ",
+      "headword": "{通行止|つうこうど}め",
+      "label": "road closed"
+    },
+    {
+      "type": "related",
+      "target_id": "24673_tsuukoukinshi",
+      "reading": "つうこうきんし",
+      "headword": "{通行禁止|つうこうきんし}",
+      "label": "no passage"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-04-30T13:42:27Z",
-    "modified": "2026-04-30T13:42:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "19087_toomawashini_ex1",
       "japanese": "{遠回|とおまわ}しに{断|ことわ}った。",
       "english": "I refused indirectly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19087_toomawashini_ex2",
       "japanese": "{彼女|かのじょ}は{遠回|とおまわ}しに{不満|ふまん}を{伝|つた}えた。",
       "english": "She expressed her dissatisfaction in a roundabout way.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "19087_toomawashini_ex3",
       "japanese": "{遠回|とおまわ}しに{言|い}わないで、はっきり{言|い}ってください。",
       "english": "Don't beat around the bush — please say it clearly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Reflects a characteristic aspect of Japanese communication where directness is often avoided to maintain harmony. Common collocations include {遠回|とおまわ}しに{言|い}う (to say indirectly), {遠回|とおまわ}しに{断|ことわ}る (to refuse indirectly), and {遠回|とおまわ}しな{表現|ひょうげん} (indirect expression). The な-adjective form {遠回|とおまわ}しな is also used. The opposite approach is expressed with はっきり{言|い}う (to say clearly/directly) or {直接的|ちょくせつてき}に{言|い}う (to say directly).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08510_soretonaku",
+      "reading": "それとなく",
+      "headword": "それとなく",
+      "label": "indirectly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12974_anni",
+      "reading": "あんに",
+      "headword": "{暗|あん}に",
+      "label": "implicitly, indirectly, by implication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25578_enkyokuni",
+      "reading": "えんきょくに",
+      "headword": "{婉曲|えんきょく}に",
+      "label": "indirectly"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-03-24T09:34:54Z",
-    "modified": "2026-03-24T09:34:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

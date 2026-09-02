@@ -24,7 +24,9 @@
       "english": "The relationship between the main family and a branch family.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13087_honke_ex2",
@@ -32,7 +34,9 @@
       "english": "At New Year's, relatives gather at the main family's house.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13087_honke_ex3",
@@ -40,7 +44,9 @@
       "english": "The main family home, which has continued since my grandfather's generation, is still in the countryside.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13087_honke_ex4",
@@ -48,7 +54,9 @@
       "english": "This ramen shop is the original.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13087_honke_ex5",
@@ -56,7 +64,9 @@
       "english": "They preserve the authentic original taste.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13087_honke_ex6",
@@ -64,21 +74,57 @@
       "english": "Many imitator shops appeared, but they still can't match the taste of the original.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nSense 1: In traditional Japanese family structure, the {本家|ほんけ} is the main household of a family line (typically the eldest son's house), while branch households are called {分家|ぶんけ}. The main family often keeps the family altar and is the center of family gatherings.\n\nSense 2: In everyday usage, {本家|ほんけ} often means \"the original\" or \"the authentic one,\" especially for restaurants, recipes, or cultural practices. The emphatic form {本家|ほんけ}{本元|ほんもと} (the true original) reinforces authenticity.\n\nCOMMON COLLOCATIONS:\n- {本家|ほんけ}と{分家|ぶんけ}: main family and branch family\n- {本家|ほんけ}{本元|ほんもと}: the true original\n- {本家|ほんけ}の{味|あじ}: the original's taste\n- {本家|ほんけ}{筋|すじ}: the main family line",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03076_jikka",
+      "reading": "じっか",
+      "headword": "{実家|じっか}",
+      "label": "parents' home, family home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11534_ganso",
+      "reading": "がんそ",
+      "headword": "{元祖|がんそ}",
+      "label": "originator, founder, pioneer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20136_bunke",
+      "reading": "ぶんけ",
+      "headword": "{分家|ぶんけ}",
+      "label": "branch family"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22013_souke",
+      "reading": "そうけ",
+      "headword": "{宗家|そうけ}",
+      "label": "head family"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T10:44:58Z",
-    "modified": "2026-02-23T10:44:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["family", "society"]
+      "semantic": [
+        "family",
+        "society"
+      ]
     }
   }
 }

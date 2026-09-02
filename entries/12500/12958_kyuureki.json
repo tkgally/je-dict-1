@@ -19,7 +19,9 @@
       "english": "New Year on the lunar calendar falls around February.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12958_kyuureki_ex2",
@@ -27,7 +29,9 @@
       "english": "Tanabata falls in August on the lunar calendar.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12958_kyuureki_ex3",
@@ -35,21 +39,42 @@
       "english": "In Okinawa, many areas still hold events based on the lunar calendar.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nJapan adopted the Gregorian calendar ({新暦|しんれき}) in 1873 (Meiji 6). The old lunisolar calendar is still called {旧暦|きゅうれき} and remains relevant for traditional festivals, especially in Okinawa and rural areas. Some seasonal events ({お{盆|ぼん}}, {七夕|たなばた}) are celebrated on either the old or new calendar depending on the region.\n\nCOMMON COLLOCATIONS:\n- {旧暦|きゅうれき}の{正月|しょうがつ}: New Year by the lunar calendar\n- {旧暦|きゅうれき}に{基|もと}づく: based on the lunar calendar\n- {旧暦|きゅうれき}で{言|い}うと: in terms of the lunar calendar\n\nSIMILAR WORDS:\n- {新暦|しんれき}: new calendar (Gregorian calendar)\n- {太陰暦|たいいんれき}: lunar calendar (technical term)\n- {暦|こよみ}: calendar (general)",
-  "cross_references": [],
+  "notes": "USAGE:\nJapan adopted the Gregorian calendar ({新暦|しんれき}) in 1873 (Meiji 6). The old lunisolar calendar is still called {旧暦|きゅうれき} and remains relevant for traditional festivals, especially in Okinawa and rural areas. Some seasonal events (お{盆|ぼん}, {七夕|たなばた}) are celebrated on either the old or new calendar depending on the region.\n\nCOMMON COLLOCATIONS:\n- {旧暦|きゅうれき}の{正月|しょうがつ}: New Year by the lunar calendar\n- {旧暦|きゅうれき}に{基|もと}づく: based on the lunar calendar\n- {旧暦|きゅうれき}で{言|い}うと: in terms of the lunar calendar\n\nSIMILAR WORDS:\n- {新暦|しんれき}: new calendar (Gregorian calendar)\n- {太陰暦|たいいんれき}: lunar calendar (technical term)\n- {暦|こよみ}: calendar (general)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25146_nijuushisekki",
+      "reading": "にじゅうしせっき",
+      "headword": "{二十四節気|にじゅうしせっき}",
+      "label": "the 24 solar terms"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27041_inreki",
+      "reading": "いんれき",
+      "headword": "{陰暦|いんれき}",
+      "label": "lunar calendar"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T23:39:26Z",
-    "modified": "2026-02-22T23:39:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

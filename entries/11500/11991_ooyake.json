@@ -2,7 +2,7 @@
   "id": "11991_ooyake",
   "headword": "{公|おおやけ}",
   "reading": "おおやけ",
-  "part_of_speech": "noun, adjective (no)",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "public; official; open",
   "definitions": [
     {
@@ -18,7 +18,9 @@
       "english": "Speak in a public setting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11991_ooyake_ex2",
@@ -26,7 +28,9 @@
       "english": "That information has not been made public yet.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11991_ooyake_ex3",
@@ -34,10 +38,12 @@
       "english": "I don't think private matters should be made public.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{公|おおやけ}にする (make public, disclose)\n・{公|おおやけ}になる (become public, come to light)\n・{公|おおやけ}の{場|ば} (public setting, official venue)\n・{公|おおやけ}の{立場|たちば} (official position)\n\nUSAGE NOTES:\nThe やまと{言葉|ことば} (native Japanese word) for \"public,\" contrasting with the sino-Japanese {公|こう} used in compounds like {公共|こうきょう} (public), {公式|こうしき} (official). {公|おおやけ}にする means \"to make public\" or \"to disclose,\" while {公|おおやけ}になる means \"to become publicly known.\" The word implies visibility to society at large and often carries a sense of formality or officialness.",
+  "notes": "COMMON COLLOCATIONS:\n- {公|おおやけ}にする (make public, disclose)\n- {公|おおやけ}になる (become public, come to light)\n- {公|おおやけ}の{場|ば} (public setting, official venue)\n- {公|おおやけ}の{立場|たちば} (official position)\n\nUSAGE:\nThe やまと{言葉|ことば} (native Japanese word) for \"public,\" contrasting with the sino-Japanese {公|こう} used in compounds like {公共|こうきょう} (public), {公式|こうしき} (official). {公|おおやけ}にする means \"to make public\" or \"to disclose,\" while {公|おおやけ}になる means \"to become publicly known.\" The word implies visibility to society at large and often carries a sense of formality or officialness.",
   "cross_references": [
     {
       "type": "related",
@@ -52,19 +58,45 @@
       "reading": "こうしき",
       "headword": "{公式|こうしき}",
       "label": "official, formal"
+    },
+    {
+      "type": "antonym",
+      "target_id": "05727_hisokani",
+      "reading": "ひそかに",
+      "headword": "{密|ひそ}かに",
+      "label": "secretly, quietly"
+    },
+    {
+      "type": "related",
+      "target_id": "19380_hitomae",
+      "reading": "ひとまえ",
+      "headword": "{人前|ひとまえ}",
+      "label": "in front of people"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20894_kouzen",
+      "reading": "こうぜん",
+      "headword": "{公然|こうぜん}",
+      "label": "openly"
     }
   ],
   "metadata": {
     "created": "2026-02-19T11:19:40Z",
-    "modified": "2026-04-25T10:12:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

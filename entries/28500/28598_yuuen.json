@@ -3,7 +3,7 @@
   "headword": "{有塩|ゆうえん}",
   "reading": "ゆうえん",
   "romaji": "yuuen",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "salted; containing salt",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "28598_yuuen_ex1",
       "japanese": "{料理|りょうり}には{有塩|ゆうえん}バターを{使|つか}う。",
       "english": "I use salted butter for cooking.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28598_yuuen_ex2",
       "japanese": "{有塩|ゆうえん}と{無塩|むえん}、どちらを{買|か}いますか。",
       "english": "Are you buying salted or unsalted?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "28598_yuuen_ex3",
       "japanese": "{菓子|かし}{作|づく}りには{無塩|むえん}バターが{基本|きほん}だが、{家庭|かてい}では{有塩|ゆうえん}を{使|つか}うことも{多|おお}い。",
       "english": "Unsalted butter is the standard for baking, but at home many people use salted instead.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {有|ゆう} (have/with) + {塩|えん} (salt; えん in compounds, しお on its own). Used as a noun modifier with の or directly attached as a prefix-style label.\n\nCOMMON COLLOCATIONS:\n- {有塩|ゆうえん}バター: salted butter\n- {有塩|ゆうえん}{食品|しょくひん}: salted food product\n- {有塩|ゆうえん}{加工|かこう}: salt-added processing\n\nSIMILAR WORDS:\n- {無塩|むえん}: unsalted — the direct opposite\n- {加塩|かえん}: salt-added (less common label, similar meaning)\n- {減塩|げんえん}: reduced-salt — salt is reduced but still present",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "28595_muen",
+      "reading": "むえん",
+      "headword": "{無塩|むえん}",
+      "label": "unsalted"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21843_genen",
+      "reading": "げんえん",
+      "headword": "{減塩|げんえん}",
+      "label": "reduced-salt"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-06-02T04:07:08Z",
-    "modified": "2026-06-02T04:07:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

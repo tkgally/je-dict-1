@@ -44,7 +44,36 @@
     }
   ],
   "notes": "A formal term used in parliamentary, legislative, and corporate meeting contexts. Composed of {議|ぎ} (deliberation) and {案|あん} (plan/proposal).\n\nCOMMON COLLOCATIONS:\n- {議案|ぎあん}を{提出|ていしゅつ}する: to submit a bill/proposal\n- {議案|ぎあん}が{可決|かけつ}される: a bill is passed\n- {議案|ぎあん}が{否決|ひけつ}される: a bill is rejected\n- {議案|ぎあん}を{審議|しんぎ}する: to deliberate on a bill\n- {議案|ぎあん}{書|しょ}: written proposal document\n\nSIMILAR WORDS:\n- {法案|ほうあん}: legislative bill — specifically a proposed law\n- {提案|ていあん}: suggestion/proposal — more general, used in everyday contexts\n- {動議|どうぎ}: motion — a procedural proposal during a meeting",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09758_houan",
+      "reading": "ほうあん",
+      "headword": "{法案|ほうあん}",
+      "label": "legislative bill"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03536_teian",
+      "reading": "ていあん",
+      "headword": "{提案|ていあん}",
+      "label": "suggestion/proposal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09762_dougi",
+      "reading": "どうぎ",
+      "headword": "{動議|どうぎ}",
+      "label": "motion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24690_ketsugijikou",
+      "reading": "けつぎじこう",
+      "headword": "{決議事項|けつぎじこう}",
+      "label": "items resolved"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,6 +91,6 @@
       ]
     },
     "created": "2026-03-30T17:13:06Z",
-    "modified": "2026-03-30T17:13:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

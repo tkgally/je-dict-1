@@ -2,7 +2,7 @@
   "id": "01121_utsukushii",
   "headword": "{美|うつく}しい",
   "reading": "うつくしい",
-  "part_of_speech": "adjective (i-adjective)",
+  "part_of_speech": "i-adjective",
   "gloss": "beautiful",
   "definitions": [
     {
@@ -78,11 +78,46 @@
       "reading": "みにくい",
       "headword": "{醜|みにく}い",
       "label": "ugly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00857_kawaii",
+      "reading": "かわいい",
+      "headword": "かわいい",
+      "label": "cute, adorable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04799_miryokuteki",
+      "reading": "みりょくてき",
+      "headword": "{魅力的|みりょくてき}",
+      "label": "attractive, charming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08184_uruwashii",
+      "reading": "うるわしい",
+      "headword": "{麗|うるわ}しい",
+      "label": "beautiful"
+    },
+    {
+      "type": "related",
+      "target_id": "09199_karei",
+      "reading": "かれい",
+      "headword": "{華麗|かれい}",
+      "label": "splendid, gorgeous, magnificent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18941_tanrei",
+      "reading": "たんれい",
+      "headword": "{端麗|たんれい}",
+      "label": "handsome"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:12:31Z",
-    "modified": "2026-06-10T14:04:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

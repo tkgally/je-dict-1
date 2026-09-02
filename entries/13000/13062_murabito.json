@@ -19,7 +19,9 @@
       "english": "The villagers gathered.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13062_murabito_ex2",
@@ -27,7 +29,9 @@
       "english": "The villagers are preparing for the festival.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13062_murabito_ex3",
@@ -35,21 +39,49 @@
       "english": "The villagers worked together to repair the bridge so they could cross the river.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{村人|むらびと} is commonly encountered in folk tales, historical narratives, fantasy stories (such as games and anime), and news about rural communities. In modern Japan, where many villages have been merged into towns or cities, the word often carries a traditional or literary flavor.\n\nRELATED WORDS:\n- {村民|そんみん}: village residents (more administrative/official term)\n- {町人|まちびと}/{町民|ちょうみん}: townspeople\n- {住民|じゅうみん}: residents (general, any area)\n\nNOTE:\nThe reading {村人|むらびと} uses the native Japanese (kun'yomi) readings for both characters, giving it a warm, narrative quality.",
-  "cross_references": [],
+  "notes": "USAGE:\n{村人|むらびと} is commonly encountered in folk tales, historical narratives, fantasy stories (such as games and anime), and news about rural communities. In modern Japan, where many villages have been merged into towns or cities, the word often carries a traditional or literary flavor.\nThe reading {村人|むらびと} uses the native Japanese (kun'yomi) readings for both characters, giving it a warm, narrative quality.\n\nRELATED WORDS:\n- {村民|そんみん}: village residents (more administrative/official term)\n- {町人|まちびと}/{町民|ちょうみん}: townspeople\n- {住民|じゅうみん}: residents (general, any area)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22347_sonmin",
+      "reading": "そんみん",
+      "headword": "{村民|そんみん}",
+      "label": "village residents"
+    },
+    {
+      "type": "related",
+      "target_id": "18191_choumin",
+      "reading": "ちょうみん",
+      "headword": "{町民|ちょうみん}",
+      "label": "townspeople"
+    },
+    {
+      "type": "related",
+      "target_id": "03281_juumin",
+      "reading": "じゅうみん",
+      "headword": "{住民|じゅうみん}",
+      "label": "residents"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T10:07:34Z",
-    "modified": "2026-02-23T10:07:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

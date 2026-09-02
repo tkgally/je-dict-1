@@ -17,7 +17,9 @@
       "id": "20860_fumu_ex1",
       "japanese": "「ふむ、なるほど。」",
       "english": "\"Hmm, I see.\"",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20860_fumu_ex2",
       "japanese": "「ふむ、それは{面白|おもしろ}い。」",
       "english": "\"Hmm, that's interesting.\"",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "20860_fumu_ex3",
       "japanese": "{先生|せんせい}は「ふむふむ」と{頷|うなず}きながら{話|はなし}を{聞|き}いていた。",
       "english": "The teacher listened while nodding and saying \"hmm, hmm.\"",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,23 +47,37 @@
       "id": "20860_fumu_ex4",
       "japanese": "「ふむ、{確|たし}かにその{通|とお}りだ」と{部長|ぶちょう}は{言|い}った。",
       "english": "\"Hmm, that is certainly true,\" the department head said.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A contemplative interjection that signals the speaker is thinking or processing information. Suggests a calm, considered response rather than surprise. Often associated with older men, authority figures, or intellectuals in fiction.\n\nVARIANTS:\n- ふむふむ: repeated form, used when listening and acknowledging continuously (like \"uh-huh, uh-huh\")\n- ふーむ: elongated form, suggesting deeper thought or puzzlement\n\nREGISTER:\nNeutral to slightly formal. In manga and anime, ふむ is often used by wise or senior characters to convey thoughtfulness. Younger speakers tend to use うん or へえ instead.\n\nSIMILAR WORDS:\n- うーん: hmm (more casual, can express doubt or difficulty deciding)\n- へえ: oh really (expresses surprise or mild interest)\n- なるほど: I see, indeed (confirms understanding)\n- ほう: oh? (expresses impressed interest)",
-  "cross_references": [],
+  "notes": "A contemplative interjection that signals the speaker is thinking or processing information. Suggests a calm, considered response rather than surprise. Often associated with older men, authority figures, or intellectuals in fiction.\n\nFORMS:\n- ふむふむ: repeated form, used when listening and acknowledging continuously (like \"uh-huh, uh-huh\")\n- ふーむ: elongated form, suggesting deeper thought or puzzlement\n\nREGISTER:\nNeutral to slightly formal. In manga and anime, ふむ is often used by wise or senior characters to convey thoughtfulness. Younger speakers tend to use うん or へえ instead.\n\nSIMILAR WORDS:\n- うーん: hmm (more casual, can express doubt or difficulty deciding)\n- へえ: oh really (expresses surprise or mild interest)\n- なるほど: I see, indeed (confirms understanding)\n- ほう: oh? (expresses impressed interest)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28142_uun",
+      "reading": "うーん",
+      "headword": "うーん",
+      "label": "hmm"
+    }
+  ],
   "metadata": {
     "created": "2026-03-30T18:29:49Z",
-    "modified": "2026-03-30T18:29:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["interjection"],
+      "pos": [
+        "interjection"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

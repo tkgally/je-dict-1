@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {国|こく} (country) + {外|がい} (outside). A straightforward compound indicating areas beyond one's national borders. Can function as a noun or as a modifier.\n\nCOMMON COLLOCATIONS:\n- {国外|こくがい}に{出|で}る: to go abroad\n- {国外|こくがい}に{逃亡|とうぼう}する: to flee the country\n- {国外|こくがい}{追放|ついほう}: deportation, banishment\n- {国外|こくがい}{退去|たいきょ}: departure from the country\n- {国外|こくがい}からの{輸入|ゆにゅう}: imports from abroad\n\nRELATED TERMS:\n- {国内|こくない}: inside the country, domestic — the opposite\n- {海外|かいがい}: overseas, abroad — more common in everyday speech\n- {外国|がいこく}: foreign country — refers to a specific other country\n- {国外|こくがい} vs {海外|かいがい}: {国外|こくがい} is more formal and often appears in legal/official contexts; {海外|かいがい} is more colloquial",
+  "notes": "Composed of {国|こく} (country) + {外|がい} (outside). A straightforward compound indicating areas beyond one's national borders. Can function as a noun or as a modifier.\n\nCOMMON COLLOCATIONS:\n- {国外|こくがい}に{出|で}る: to go abroad\n- {国外|こくがい}に{逃亡|とうぼう}する: to flee the country\n- {国外|こくがい}{追放|ついほう}: deportation, banishment\n- {国外|こくがい}{退去|たいきょ}: departure from the country\n- {国外|こくがい}からの{輸入|ゆにゅう}: imports from abroad\n\nRELATED WORDS:\n- {国内|こくない}: inside the country, domestic — the opposite\n- {海外|かいがい}: overseas, abroad — more common in everyday speech\n- {外国|がいこく}: foreign country — refers to a specific other country\n- {国外|こくがい} vs {海外|かいがい}: {国外|こくがい} is more formal and often appears in legal/official contexts; {海外|かいがい} is more colloquial",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "02998_kokunai",
+      "reading": "こくない",
+      "headword": "{国内|こくない}",
+      "label": "inside the country, domestic"
+    },
+    {
+      "type": "related",
+      "target_id": "00134_kaigai",
+      "reading": "かいがい",
+      "headword": "{海外|かいがい}",
+      "label": "overseas, abroad"
+    },
+    {
+      "type": "related",
+      "target_id": "02868_gaikoku",
+      "reading": "がいこく",
+      "headword": "{外国|がいこく}",
+      "label": "foreign country"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-03-30T21:36:18Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

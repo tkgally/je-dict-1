@@ -3,7 +3,7 @@
   "id": "18070_koumuru",
   "headword": "{被|こうむ}る",
   "reading": "こうむる",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to suffer, to sustain (damage/loss)",
   "conjugation": {
     "type": "godan",
@@ -135,10 +135,25 @@
     }
   ],
   "notes": "USAGE:\nA formal, somewhat literary verb. More common in news, legal texts, and official reports than in everyday conversation. The object is always something negative: damage, loss, harm, inconvenience.\n\nSIMILAR WORDS:\n- {受|う}ける: to receive (more general, can be positive or negative)\n- {食|く}らう: to suffer, to be hit with (informal/colloquial)\n\nNOTE ON KANJI:\nThe kanji {被|こうむ}る is the same as in {被|かぶ}る (to wear on the head), but the reading こうむる has a completely different meaning.\n\nCOMMON COLLOCATIONS:\n- {被害|ひがい}を{被|こうむ}る: to sustain damage\n- {損害|そんがい}を{被|こうむ}る: to incur losses\n- {損失|そんしつ}を{被|こうむ}る: to suffer a loss\n- {迷惑|めいわく}を{被|こうむ}る: to suffer inconvenience\n- {不利益|ふりえき}を{被|こうむ}る: to suffer a disadvantage",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01215_ukeru",
+      "reading": "うける",
+      "headword": "{受|う}ける",
+      "label": "to receive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27351_mimawareru",
+      "reading": "みまわれる",
+      "headword": "{見舞|みま}われる",
+      "label": "to be struck by"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T01:08:49Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

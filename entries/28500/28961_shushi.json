@@ -17,7 +17,9 @@
       "id": "28961_shushi_ex1",
       "japanese": "{論文|ろんぶん}の{主旨|しゅし}。",
       "english": "The main point of the paper.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28961_shushi_ex2",
       "japanese": "{主旨|しゅし}を{述|の}べる。",
       "english": "To state the main point.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "28961_shushi_ex3",
       "japanese": "{彼|かれ}の{発言|はつげん}の{主旨|しゅし}は{予算|よさん}{削減|さくげん}の{必要性|ひつようせい}だ。",
       "english": "The main point of his remarks is the need for budget cuts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -41,18 +47,42 @@
   "notes": "Written form often confused with {趣旨|しゅし} (purpose, intent). Both share the reading and overlap heavily, but {主旨|しゅし} leans toward 'central message of what was said' while {趣旨|しゅし} leans toward 'underlying purpose or aim'.\n\nCOMMON COLLOCATIONS:\n- {主旨|しゅし}を{述|の}べる: to state the main point\n- {主旨|しゅし}を{伝|つた}える: to convey the gist\n- {発言|はつげん}の{主旨|しゅし}: the gist of the remark\n\nSIMILAR WORDS:\n- {趣旨|しゅし}: purpose; intent — overlaps; preferred when emphasizing aim or rationale\n- {要旨|ようし}: summary; abstract — the summarized substance, often of a paper or speech",
   "schema_version": "2.0",
   "cross_references": [
-    {"type": "synonym", "target_id": "05629_shushi", "reading": "しゅし", "headword": "{趣旨|しゅし}", "label": "alt. kanji"}
+    {
+      "type": "synonym",
+      "target_id": "05629_shushi",
+      "reading": "しゅし",
+      "headword": "{趣旨|しゅし}",
+      "label": "alt. kanji"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04087_youshi",
+      "reading": "ようし",
+      "headword": "{要旨|ようし}",
+      "label": "summary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23346_ronshi",
+      "reading": "ろんし",
+      "headword": "{論旨|ろんし}",
+      "label": "the point of an argument"
+    }
   ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-06-08T04:06:16Z",
-    "modified": "2026-06-08T04:06:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

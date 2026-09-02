@@ -17,7 +17,9 @@
       "japanese": "{船|ふね}が{礁|しょう}に{乗|の}り{上|あ}げた。",
       "english": "The ship ran aground on a reef.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -25,7 +27,9 @@
       "japanese": "この{海域|かいいき}には{危険|きけん}な{礁|しょう}が{多|おお}い。",
       "english": "There are many dangerous reefs in these waters.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -33,15 +37,32 @@
       "japanese": "{干潮|かんちょう}になると{礁|しょう}が{海面|かいめん}に{現|あらわ}れ、{潮|しお}だまりに{小|ちい}さな{魚|さかな}が{見|み}えた。",
       "english": "At low tide, the reef emerged above the water surface, and small fish could be seen in the tide pools.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     }
   ],
-  "notes": "A standalone noun meaning reef or shoal, most commonly encountered as part of compound words.\n\nCOMMON COMPOUNDS:\n- {珊瑚礁|さんごしょう}: coral reef\n- {暗礁|あんしょう}: hidden reef; figuratively, an unexpected obstacle\n- {岩礁|がんしょう}: rocky reef\n- {環礁|かんしょう}: atoll\n- {堡礁|ほしょう}: barrier reef\n\nCOMMON COLLOCATIONS:\n- {礁|しょう}に{乗|の}り{上|あ}げる: to run aground on a reef\n- {礁|しょう}に{衝突|しょうとつ}する: to collide with a reef\n- {礁|しょう}が{露出|ろしゅつ}する: a reef to become exposed\n\nSIMILAR WORDS:\n- {暗礁|あんしょう}: hidden reef — submerged, not visible from the surface; also used figuratively for obstacles\n- {浅瀬|あさせ}: shallows, shoal — shallow water area, may not involve rocks\n- {岩|いわ}: rock — a general rock, not specifically in water",
-  "cross_references": [],
+  "notes": "A standalone noun meaning reef or shoal, most commonly encountered as part of compound words.\n\nCOMPOUNDS:\n- {珊瑚礁|さんごしょう}: coral reef\n- {暗礁|あんしょう}: hidden reef; figuratively, an unexpected obstacle\n- {岩礁|がんしょう}: rocky reef\n- {環礁|かんしょう}: atoll\n- {堡礁|ほしょう}: barrier reef\n\nCOMMON COLLOCATIONS:\n- {礁|しょう}に{乗|の}り{上|あ}げる: to run aground on a reef\n- {礁|しょう}に{衝突|しょうとつ}する: to collide with a reef\n- {礁|しょう}が{露出|ろしゅつ}する: a reef to become exposed\n\nSIMILAR WORDS:\n- {暗礁|あんしょう}: hidden reef — submerged, not visible from the surface; also used figuratively for obstacles\n- {浅瀬|あさせ}: shallows, shoal — shallow water area, may not involve rocks\n- {岩|いわ}: rock — a general rock, not specifically in water",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15720_asase",
+      "reading": "あさせ",
+      "headword": "{浅瀬|あさせ}",
+      "label": "shallows, shoal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00850_iwa",
+      "reading": "いわ",
+      "headword": "{岩|いわ}",
+      "label": "rock"
+    }
+  ],
   "metadata": {
     "created": "2026-04-23T14:47:22Z",
-    "modified": "2026-04-23T14:47:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

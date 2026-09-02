@@ -56,6 +56,43 @@
   ],
   "notes": "COMMON COLLOCATIONS:\n- {制限時間|せいげんじかん}を{設|もう}ける: to set a time limit\n- {制限時間内|せいげんじかんない}に: within the time limit\n- {制限時間|せいげんじかん}を{超|こ}える: to exceed the time limit\n- {制限時間|せいげんじかん}が{切|き}れる: for the time limit to run out\n\nSIMILAR WORDS:\n- {締|し}め{切|き}り: deadline — a point in time by which something is due, not a duration\n- {期限|きげん}: term, expiry — a longer official validity period, as on a contract or a passport",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04162_shimekiri",
+      "reading": "しめきり",
+      "headword": "{締|し}め{切|き}り",
+      "label": "deadline"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12861_kigen",
+      "reading": "きげん",
+      "headword": "{期限|きげん}",
+      "label": "term, expiry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26085_jikanseigen",
+      "reading": "じかんせいげん",
+      "headword": "{時間制限|じかんせいげん}",
+      "label": "time limit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28081_nokorijikan",
+      "reading": "のこりじかん",
+      "headword": "{残|のこ}り{時間|じかん}",
+      "label": "remaining time"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30571_mochijikan",
+      "reading": "もちじかん",
+      "headword": "{持|も}ち{時間|じかん}",
+      "label": "allotted time"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,13 +100,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ],
       "domain": []
     },
     "created": "2026-08-12T03:18:15Z",
-    "modified": "2026-08-12T03:18:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

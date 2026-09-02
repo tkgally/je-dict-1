@@ -3,7 +3,7 @@
   "id": "13876_heru",
   "headword": "{経|へ}る",
   "reading": "へる",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to pass through, to go through, to elapse",
   "conjugation": {
     "type": "ichidan",
@@ -170,10 +170,39 @@
     }
   ],
   "notes": "Ichidan (ru-verb): {経|へ}る → {経|へ}ない → {経|へ}た → {経|へ}て.\n\nUSAGE:\nThe te-form {経|へ}て is extremely common, meaning \"after going through\" or \"via.\" It is used both for physical routes ({大阪|おおさか}を{経|へ}て) and abstract processes ({審査|しんさ}を{経|へ}て). For the time sense, it is often literary or formal.\n\nSIMILAR WORDS:\n- {通|とお}る: to pass through (physical movement)\n- {過|す}ぎる: to pass, to go by (of time)\n- {経過|けいか}する: to elapse, to pass (noun/verb-suru form)\n\nCOMMON COLLOCATIONS:\n- 〜を{経|へ}て: via, after going through\n- {時|とき}を{経|へ}る: time passes\n- {年月|ねんげつ}を{経|へ}る: years pass\n- {過程|かてい}を{経|へ}る: go through a process",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01243_tooru",
+      "reading": "とおる",
+      "headword": "{通|とお}る",
+      "label": "to pass through"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01219_sugiru",
+      "reading": "すぎる",
+      "headword": "{過|す}ぎる",
+      "label": "to pass, to go by"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21996_keikasuru",
+      "reading": "けいかする",
+      "headword": "{経過|けいか}する",
+      "label": "to elapse, to pass"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02791_keiyu",
+      "reading": "けいゆ",
+      "headword": "{経由|けいゆ}",
+      "label": "via, by way of"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T05:51:29Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

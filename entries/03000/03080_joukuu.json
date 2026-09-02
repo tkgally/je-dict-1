@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{上空|じょうくう} combines ⟦{上|じょう}→上：00682_ue⟧ (above) + ⟦{空|くう}→空：03949_kuu⟧ (sky/air).\n\nCOMMON PATTERNS:\n- ～⟦の→の：09472_no⟧{上空|じょうくう} (the sky above ~)\n- {上空|じょうくう}⟦を→を：00422_wo⟧⟦{飛|と}ぶ→飛ぶ：00759_tobu⟧ (to fly overhead)\n- {上空|じょうくう}⟦に→に：00314_ni⟧ (in the sky above)\n\nRELATED TERMS:\n- ⟦{空|そら}→空：02216_sora⟧ (sky - general)\n- ⟦{空域|くういき}→空域：27983_kuuiki⟧ (airspace - formal/technical)\n- ⟦{領空|りょうくう}→領空：16510_ryoukuu⟧ (territorial airspace)\n\nUSAGE NOTES:\n- Often used in aviation, weather, and news contexts\n- Specifies the sky directly above a particular place",
+  "notes": "{上空|じょうくう} combines ⟦{上|じょう}→上：00682_ue⟧ (above) + ⟦{空|くう}→空：03949_kuu⟧ (sky/air).\n\nCOMMON PATTERNS:\n- ～⟦の→の：09472_no⟧{上空|じょうくう} (the sky above ~)\n- {上空|じょうくう}⟦を→を：00422_wo⟧⟦{飛|と}ぶ→飛ぶ：00759_tobu⟧ (to fly overhead)\n- {上空|じょうくう}⟦に→に：00314_ni⟧ (in the sky above)\n\nRELATED WORDS:\n- ⟦{空|そら}→空：02216_sora⟧ (sky - general)\n- ⟦{空域|くういき}→空域：27983_kuuiki⟧ (airspace - formal/technical)\n- ⟦{領空|りょうくう}→領空：16510_ryoukuu⟧ (territorial airspace)\n\nUSAGE:\n- Often used in aviation, weather, and news contexts\n- Specifies the sky directly above a particular place",
   "cross_references": [
     {
       "type": "related",
@@ -71,11 +71,32 @@
       "headword": "{空|そら}",
       "label": "sky",
       "target_id": "02216_sora"
+    },
+    {
+      "type": "related",
+      "target_id": "27983_kuuiki",
+      "reading": "くういき",
+      "headword": "{空域|くういき}",
+      "label": "airspace"
+    },
+    {
+      "type": "related",
+      "target_id": "16510_ryoukuu",
+      "reading": "りょうくう",
+      "headword": "{領空|りょうくう}",
+      "label": "territorial airspace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21842_kuuchuu",
+      "reading": "くうちゅう",
+      "headword": "{空中|くうちゅう}",
+      "label": "in the air"
     }
   ],
   "metadata": {
     "created": "2026-01-11T11:16:00Z",
-    "modified": "2026-08-12T06:29:54Z",
+    "modified": "2026-09-02T03:02:30Z",
     "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",

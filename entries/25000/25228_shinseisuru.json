@@ -56,19 +56,57 @@
   ],
   "notes": "Refers to formally requesting permission, approval, or benefits from an authority or institution. The process typically involves submitting documents. Common in bureaucratic, workplace, and legal contexts.\n\nCOMMON COLLOCATIONS:\n- {申請|しんせい}{書|しょ}: application form\n- {申請|しんせい}{手続|てつづ}き: application procedure\n- {申請|しんせい}{期限|きげん}: application deadline\n- {許可|きょか}を{申請|しんせい}する: apply for permission\n- パスポートを{申請|しんせい}する: apply for a passport\n- {申請|しんせい}が{通|とお}る: an application is approved\n\nSIMILAR WORDS:\n- {届|とど}け{出|で}る: to file a notification — used for submitting required notices (marriage, divorce, address change) where approval is not needed\n- {応募|おうぼ}する: to apply (for a position or contest) — used for job applications, competitions, or campaigns rather than official permissions\n- {請求|せいきゅう}する: to claim; to request payment — involves demanding something owed, such as a refund or insurance claim",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05910_todokederu",
+      "reading": "とどけでる",
+      "headword": "{届|とど}け{出|で}る",
+      "label": "to file a notification"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03014_oubo",
+      "reading": "おうぼ",
+      "headword": "{応募|おうぼ}",
+      "label": "to apply"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26988_seikyuusuru",
+      "reading": "せいきゅうする",
+      "headword": "{請求|せいきゅう}する",
+      "label": "to claim"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19644_teishutsusuru",
+      "reading": "ていしゅつする",
+      "headword": "{提出|ていしゅつ}する",
+      "label": "to submit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25227_tourokusuru",
+      "reading": "とうろくする",
+      "headword": "{登録|とうろく}する",
+      "label": "to register"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "business"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-24T11:25:30Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

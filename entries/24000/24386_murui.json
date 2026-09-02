@@ -3,7 +3,7 @@
   "headword": "{無類|むるい}",
   "reading": "むるい",
   "romaji": "murui",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "peerless; unmatched; unparalleled",
   "definitions": [
     {
@@ -54,8 +54,31 @@
       "notes": null
     }
   ],
-  "notes": "Used almost exclusively in the pattern {無類|むるい}の + noun to mean \"an unparalleled (something).\" The most common usage by far is {無類|むるい}の〜{好|ず}き, describing someone who is an extreme enthusiast of something.\n\nCOMMON COLLOCATIONS:\n- {無類|むるい}の{酒|さけ}{好|ず}き: an incomparable sake lover\n- {無類|むるい}の{読書|どくしょ}{好|ず}き: an unparalleled book lover\n- {無類|むるい}の{強|つよ}さ: unmatched strength\n- {無類|むるい}の{美|うつく}しさ: incomparable beauty\n\nSIMILAR WORDS:\n- {無比|むひ}: unequaled — very similar meaning, slightly more literary\n- {比類|ひるい}ない: without peer — more formal, often in written prose\n- {唯一|ゆいいつ}{無二|むに}: one and only — emphasizes uniqueness rather than superiority\n- {天下|てんか}{無双|むそう}: peerless under heaven — dramatic, used in historical or literary contexts\n\nFORMATION:\n{無|む} (without) + {類|るい} (category, kind) — literally \"without category,\" meaning nothing of the same kind exists.",
+  "notes": "Used almost exclusively in the pattern {無類|むるい}の + noun to mean \"an unparalleled (something).\" The most common usage by far is {無類|むるい}の〜{好|ず}き, describing someone who is an extreme enthusiast of something.\n\nCOMMON COLLOCATIONS:\n- {無類|むるい}の{酒|さけ}{好|ず}き: an incomparable sake lover\n- {無類|むるい}の{読書|どくしょ}{好|ず}き: an unparalleled book lover\n- {無類|むるい}の{強|つよ}さ: unmatched strength\n- {無類|むるい}の{美|うつく}しさ: incomparable beauty\n\nSIMILAR WORDS:\n- {無比|むひ}: unequaled — very similar meaning, slightly more literary\n- {比類|ひるい}ない: without peer — more formal, often in written prose\n- {唯一|ゆいいつ}{無二|むに}: one and only — emphasizes uniqueness rather than superiority\n- {天下|てんか}{無双|むそう}: peerless under heaven — dramatic, used in historical or literary contexts\n\nFORMS:\n{無|む} (without) + {類|るい} (category, kind) — literally \"without category,\" meaning nothing of the same kind exists.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23930_muhi",
+      "reading": "むひ",
+      "headword": "{無比|むひ}",
+      "label": "unequaled"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21034_hiruinai",
+      "reading": "ひるいない",
+      "headword": "{比類|ひるい}ない",
+      "label": "without peer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20617_yuiitsumuni",
+      "reading": "ゆいいつむに",
+      "headword": "{唯一無二|ゆいいつむに}",
+      "label": "one and only"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -70,6 +93,6 @@
       ]
     },
     "created": "2026-04-18T16:25:58Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

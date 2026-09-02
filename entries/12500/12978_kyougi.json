@@ -19,7 +19,9 @@
       "english": "To study the doctrine of that religion.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12978_kyougi_ex2",
@@ -27,7 +29,9 @@
       "english": "Acts that went against the doctrine were not permitted.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12978_kyougi_ex3",
@@ -35,22 +39,52 @@
       "english": "This sect has a history of splitting over the interpretation of doctrine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nPrimarily used in discussions of religion, theology, and philosophy. Can also be used metaphorically for rigid ideological principles. More formal and specific than {教|おし}え (teachings).\n\nCOMMON COLLOCATIONS:\n- {教義|きょうぎ}を{学|まな}ぶ: to study doctrine\n- {教義|きょうぎ}に{従|したが}う: to follow doctrine\n- {教義|きょうぎ}に{反|はん}する: to go against doctrine\n- {教義|きょうぎ}の{解釈|かいしゃく}: interpretation of doctrine\n\nSIMILAR WORDS:\n- {教|おし}え: teachings (general, less formal)\n- ドグマ: dogma (loanword, often negative connotation)\n- {信条|しんじょう}: creed, belief (personal conviction)\n- {経典|きょうてん}: scripture, sacred text",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01909_oshie",
+      "reading": "おしえ",
+      "headword": "{教|おし}え",
+      "label": "teachings"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10451_shinjou",
+      "reading": "しんじょう",
+      "headword": "{信条|しんじょう}",
+      "label": "creed, belief"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24153_kyouten",
+      "reading": "きょうてん",
+      "headword": "{経典|きょうてん}",
+      "label": "scripture, sacred text"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T23:47:08Z",
-    "modified": "2026-02-22T23:47:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

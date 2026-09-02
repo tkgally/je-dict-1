@@ -3,7 +3,7 @@
   "id": "17515_gyouten",
   "headword": "{仰天|ぎょうてん}",
   "reading": "ぎょうてん",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "astonishment; being astounded",
   "conjugation": {
     "type": "suru",
@@ -142,11 +142,25 @@
       "reading": "おどろく",
       "headword": "{驚|おどろ}く",
       "label": "to be surprised (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01178_bikkurisuru",
+      "reading": "びっくりする",
+      "headword": "びっくりする",
+      "label": "to be startled"
+    },
+    {
+      "type": "related",
+      "target_id": "08685_kyougaku",
+      "reading": "きょうがく",
+      "headword": "{驚愕|きょうがく}",
+      "label": "astonishment"
     }
   ],
   "metadata": {
     "created": "2026-03-18T07:57:32Z",
-    "modified": "2026-05-06T08:07:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

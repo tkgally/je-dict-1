@@ -46,6 +46,29 @@
   ],
   "notes": "Sold by cross-section size (e.g., {2|に}×{4|よん}{材|ざい} for two-by-four). Standard stock at hardware stores and lumber yards.\n\nCOMMON COLLOCATIONS:\n- {角材|かくざい}を{切|き}る: to cut square lumber\n- {木製|もくせい}の{角材|かくざい}: wooden square timber\n- {太|ふと}い{角材|かくざい}: thick square timber\n\nSIMILAR WORDS:\n- {丸太|まるた}: round timber; log — uncut, round cross-section\n- {板材|いたざい}: plank lumber — flat boards\n- {木材|もくざい}: lumber; timber — general term covering all forms",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15347_maruta",
+      "reading": "まるた",
+      "headword": "{丸太|まるた}",
+      "label": "round timber"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13017_mokuzai",
+      "reading": "もくざい",
+      "headword": "{木材|もくざい}",
+      "label": "lumber"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04190_zaimoku",
+      "reading": "ざいもく",
+      "headword": "{材木|ざいもく}",
+      "label": "lumber, timber"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "building"
       ],
       "domain": []
     },
     "created": "2026-05-30T03:12:46Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

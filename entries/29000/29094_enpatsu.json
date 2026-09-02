@@ -17,7 +17,9 @@
       "id": "29094_enpatsu_ex1",
       "japanese": "{列車|れっしゃ}が{延発|えんぱつ}した。",
       "english": "The train had a delayed departure.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29094_enpatsu_ex2",
       "japanese": "{悪天候|あくてんこう}のため、{飛行機|ひこうき}は1{時間|じかん}の{延発|えんぱつ}となった。",
       "english": "Due to bad weather, the plane had a one-hour delay in departure.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "29094_enpatsu_ex3",
       "japanese": "{新幹線|しんかんせん}の{延発|えんぱつ}により、{乗|の}り{換|か}えの{接続|せつぞく}が{取|と}れなくなってしまった。",
       "english": "Due to the Shinkansen's delayed departure, I was unable to make my transfer connection.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{延|えん} means delayed/extended and {発|ぱつ} means departure. Used in transportation announcements and reporting.\n\nCOMMON COLLOCATIONS:\n- {延発|えんぱつ}する: to depart late\n- {延発|えんぱつ}となる: to result in a delayed departure\n- ～{分|ぷん}の{延発|えんぱつ}: a delay of ~ minutes\n\nSIMILAR WORDS:\n- {遅延|ちえん}: delay in general (broader term, includes delays during travel)\n- {遅発|ちはつ}: late departure (less common)\n- {定刻|ていこく}{通|どお}りに{出発|しゅっぱつ}する: to depart on time (the positive counterpart)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06749_chien",
+      "reading": "ちえん",
+      "headword": "{遅延|ちえん}",
+      "label": "delay in general"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["transportation"],
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ],
       "domain": []
     },
     "created": "2026-06-10T12:34:21Z",
-    "modified": "2026-06-10T12:34:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

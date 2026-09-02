@@ -3,7 +3,7 @@
   "headword": "{米|べい}",
   "reading": "べい",
   "romaji": "bei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, prefix",
   "gloss": "America; the US (in compounds)",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "28297_bei_ex1",
       "japanese": "{米軍|べいぐん}が{基地|きち}を{置|お}いている。",
       "english": "The US military has a base there.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28297_bei_ex2",
       "japanese": "{日米|にちべい}の{首脳|しゅのう}が{会談|かいだん}した。",
       "english": "The leaders of Japan and the US held talks.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,12 +37,14 @@
       "id": "28297_bei_ex3",
       "japanese": "{米中|べいちゅう}{貿易摩擦|ぼうえきまさつ}が{経済|けいざい}に{影響|えいきょう}を{与|あた}えている。",
       "english": "US-China trade friction is affecting the economy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The kanji {米|べい} also has the kun'yomi reading こめ meaning 'rice' — context and compounding disambiguate. The 'America' sense appears almost exclusively as a prefix in compounds, especially in newspaper headlines where space is at a premium.\n\nCOMMON COMPOUNDS:\n- {米国|べいこく}: the United States\n- {米軍|べいぐん}: the US military\n- {日米|にちべい}: Japan and the US\n- {米中|べいちゅう}: the US and China\n- {訪米|ほうべい}: a visit to the US\n- {駐米|ちゅうべい}: stationed in / posted to the US\n\nSIMILAR WORDS:\n- アメリカ: America — the standard full-katakana form used in everyday speech\n- {米国|べいこく}: the US — a single-word formal alternative\n\nCROSS-REFERENCE:\n- The 'rice' sense ({米|こめ}) is in entry 01323_kome.",
+  "notes": "The kanji {米|べい} also has the kun'yomi reading こめ meaning 'rice' — context and compounding disambiguate. The 'America' sense appears almost exclusively as a prefix in compounds, especially in newspaper headlines where space is at a premium.\n\nCOMPOUNDS:\n- {米国|べいこく}: the United States\n- {米軍|べいぐん}: the US military\n- {日米|にちべい}: Japan and the US\n- {米中|べいちゅう}: the US and China\n- {訪米|ほうべい}: a visit to the US\n- {駐米|ちゅうべい}: stationed in / posted to the US\n\nSIMILAR WORDS:\n- アメリカ: America — the standard full-katakana form used in everyday speech\n- {米国|べいこく}: the US — a single-word formal alternative\n\nCROSS-REFERENCE:\n- The 'rice' sense ({米|こめ}) is in entry 01323_kome.",
   "cross_references": [
     {
       "target_id": "01323_kome",
@@ -46,19 +52,32 @@
       "headword": "{米|こめ}",
       "type": "related",
       "note": "kun'yomi reading of same kanji (rice)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01769_amerika",
+      "reading": "あめりか",
+      "headword": "アメリカ",
+      "label": "America"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "prefix"],
+      "pos": [
+        "noun",
+        "prefix"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["geography", "politics"],
+      "politeness": "plain",
+      "semantic": [
+        "geography",
+        "politics"
+      ],
       "domain": []
     },
     "created": "2026-05-28T04:11:31Z",
-    "modified": "2026-05-28T04:11:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

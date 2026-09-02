@@ -3,7 +3,7 @@
   "headword": "{書|か}き{写|うつ}す",
   "reading": "かきうつす",
   "romaji": "kakiutsusu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to copy down; to transcribe",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "A compound godan verb ({書|か}く + {写|うつ}す) meaning to copy text by writing it out. Implies manual handwriting rather than mechanical or digital copying.\n\nCOMMON COLLOCATIONS:\n- {黒板|こくばん}を{書|か}き{写|うつ}す: to copy from the blackboard\n- ノートに{書|か}き{写|うつ}す: to copy into a notebook\n- {丁寧|ていねい}に{書|か}き{写|うつ}す: to carefully transcribe\n- {原文|げんぶん}を{書|か}き{写|うつ}す: to copy the original text\n\nSIMILAR WORDS:\n- {写|うつ}す: to copy — the base verb; broader meaning including photographing and copying by any means\n- {書|か}き{取|と}る: to write down, to take dictation — writing from spoken words rather than from a written source\n- {転記|てんき}する: to transcribe, to transfer (data) — more formal; used for transferring information between records or documents\n- {模写|もしゃ}する: to copy, to reproduce — used for copying artwork or visual materials, not just text",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19473_mosha",
+      "reading": "もしゃ",
+      "headword": "{模写|もしゃ}",
+      "label": "to copy, to reproduce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20742_kakinuku",
+      "reading": "かきぬく",
+      "headword": "{書|か}き{抜|ぬ}く",
+      "label": "to extract (by writing)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +76,7 @@
       "verb_class": "godan-su"
     },
     "created": "2026-03-30T14:29:36Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

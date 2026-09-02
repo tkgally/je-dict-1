@@ -3,7 +3,7 @@
   "id": "15336_mizuiro",
   "headword": "{水色|みずいろ}",
   "reading": "みずいろ",
-  "part_of_speech": "noun / adjective (no)",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "light blue; sky blue",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "She's wearing a light blue dress.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15336_mizuiro_ex2",
@@ -27,7 +29,9 @@
       "english": "The sky was a clear light blue.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15336_mizuiro_ex3",
@@ -35,20 +39,57 @@
       "english": "The child drew a picture of the sea with a light blue crayon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nA common, everyday color word. Used as a noun ({水色|みずいろ}が{好|す}き) or as a no-adjective to modify nouns ({水色|みずいろ}の{傘|かさ}).\n\nCOMMON COLLOCATIONS:\n- {水色|みずいろ}の{空|そら} (light blue sky)\n- {水色|みずいろ}の{服|ふく} (light blue clothing)\n- {薄|うす}い{水色|みずいろ} (pale light blue)\n\nWORD FORMATION:\n{水|みず} (water) + {色|いろ} (color). Literally \"water color,\" referring to the color of clear water.\n\nDISTINCTION:\n{水色|みずいろ} is lighter and paler than {青|あお} (blue). It is closer to what English speakers might call \"sky blue\" or \"baby blue.\"",
-  "cross_references": [],
+  "notes": "USAGE:\nA common, everyday color word. Used as a noun ({水色|みずいろ}が{好|す}き) or as a no-adjective to modify nouns ({水色|みずいろ}の{傘|かさ}).\n\nCOMMON COLLOCATIONS:\n- {水色|みずいろ}の{空|そら} (light blue sky)\n- {水色|みずいろ}の{服|ふく} (light blue clothing)\n- {薄|うす}い{水色|みずいろ} (pale light blue)\n\nFORMS:\n{水|みず} (water) + {色|いろ} (color). Literally \"water color,\" referring to the color of clear water.\n\nSIMILAR WORDS:\n{水色|みずいろ} is lighter and paler than {青|あお} (blue). It is closer to what English speakers might call \"sky blue\" or \"baby blue.\"",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03885_kon",
+      "reading": "こん",
+      "headword": "{紺|こん}",
+      "label": "navy blue, dark blue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22937_aoiro",
+      "reading": "あおいろ",
+      "headword": "{青色|あおいろ}",
+      "label": "blue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24604_aomidori",
+      "reading": "あおみどり",
+      "headword": "{青緑|あおみどり}",
+      "label": "blue-green"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25473_sorairo",
+      "reading": "そらいろ",
+      "headword": "{空色|そらいろ}",
+      "label": "sky blue"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T09:51:14Z",
-    "modified": "2026-03-06T09:51:14Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
-      "semantic": ["color"]
+      "politeness": "plain",
+      "semantic": [
+        "color"
+      ]
     }
   }
 }

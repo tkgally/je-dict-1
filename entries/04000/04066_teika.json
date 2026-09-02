@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {定価|ていか} refers to the standard price printed on products, especially books. In Japan, books typically have a {定価|ていか} that retailers must follow (⟦{再販制度|さいはんせいど}→再販制度：28452_saihanseido⟧ - resale price maintenance system).\n\nCOMMON COLLOCATIONS:\n- {定価|ていか}⟦{販売|はんばい}→販売：03573_hanbai⟧ (fixed-price sales)\n- {定価|ていか}⟦で→で：00502_de⟧⟦{買|か}う→買う：00489_kau⟧ (to buy at list price)\n- {定価|ていか}⟦より→より：09476_yori⟧⟦{安|やす}い→安い：00464_yasui⟧ (cheaper than list price)\n- {定価|ていか}⟦の→の：09472_no⟧○%⟦{引|び}き→引き：noentry⟧ (○% off list price)\n\nHOMOPHONE: ⟦{低下|ていか}→低下：04065_teika⟧ (decline, decrease) - different kanji, different meaning.\n\nRELATED:\n- ⟦{小売|こうり}→小売：05084_kouri⟧⟦{価格|かかく}→価格：00147_kakaku⟧ (retail price)\n- ⟦{希望|きぼう}→希望：00221_kibou⟧⟦{小売|こうり}→小売：05084_kouri⟧⟦{価格|かかく}→価格：00147_kakaku⟧ (manufacturer's suggested retail price)",
+  "notes": "USAGE: {定価|ていか} refers to the standard price printed on products, especially books. In Japan, books typically have a {定価|ていか} that retailers must follow (⟦{再販制度|さいはんせいど}→再販制度：28452_saihanseido⟧ - resale price maintenance system).\n\nCOMMON COLLOCATIONS:\n- {定価|ていか}⟦{販売|はんばい}→販売：03573_hanbai⟧ (fixed-price sales)\n- {定価|ていか}⟦で→で：00502_de⟧⟦{買|か}う→買う：00489_kau⟧ (to buy at list price)\n- {定価|ていか}⟦より→より：09476_yori⟧⟦{安|やす}い→安い：00464_yasui⟧ (cheaper than list price)\n- {定価|ていか}⟦の→の：09472_no⟧○%⟦{引|び}き→引き：noentry⟧ (○% off list price)\n\nHOMOPHONE: ⟦{低下|ていか}→低下：04065_teika⟧ (decline, decrease) - different kanji, different meaning.\n\nRELATED WORDS:\n- ⟦{小売|こうり}→小売：05084_kouri⟧⟦{価格|かかく}→価格：00147_kakaku⟧ (retail price)\n- ⟦{希望|きぼう}→希望：00221_kibou⟧⟦{小売|こうり}→小売：05084_kouri⟧⟦{価格|かかく}→価格：00147_kakaku⟧ (manufacturer's suggested retail price)",
   "cross_references": [
     {
       "type": "contrast",
@@ -51,6 +51,62 @@
       "headword": "{低下|ていか}",
       "label": "decline",
       "target_id": "04065_teika"
+    },
+    {
+      "type": "related",
+      "target_id": "29233_kiboukourikakaku",
+      "reading": "きぼうこうりかかく",
+      "headword": "{希望小売価格|きぼうこうりかかく}",
+      "label": "manufacturer's suggested retail price"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00147_kakaku",
+      "reading": "かかく",
+      "headword": "{価格|かかく}",
+      "label": "price, cost"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00871_nedan",
+      "reading": "ねだん",
+      "headword": "{値段|ねだん}",
+      "label": "price"
+    },
+    {
+      "type": "related",
+      "target_id": "07073_gakumen",
+      "reading": "がくめん",
+      "headword": "{額面|がくめん}",
+      "label": "face value"
+    },
+    {
+      "type": "related",
+      "target_id": "09532_nefuda",
+      "reading": "ねふだ",
+      "headword": "{値札|ねふだ}",
+      "label": "price tag"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12969_jika",
+      "reading": "じか",
+      "headword": "{時価|じか}",
+      "label": "market price, current price"
+    },
+    {
+      "type": "related",
+      "target_id": "18798_tokka",
+      "reading": "とっか",
+      "headword": "{特価|とっか}",
+      "label": "special price"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18864_kakakusettei",
+      "reading": "かかくせってい",
+      "headword": "{価格|かかく}{設定|せってい}",
+      "label": "pricing"
     }
   ],
   "prominent_see_also": [
@@ -63,7 +119,7 @@
   ],
   "metadata": {
     "created": "2026-01-13T11:35:35Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

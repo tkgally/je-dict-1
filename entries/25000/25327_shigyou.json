@@ -3,7 +3,7 @@
   "headword": "{始業|しぎょう}",
   "reading": "しぎょう",
   "romaji": "shigyou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "start of work; start of classes; beginning of business",
   "definitions": [
     {
@@ -52,6 +52,13 @@
       "reading": "しゅうぎょう",
       "headword": "{終業|しゅうぎょう}",
       "label": "end of work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14570_kaigyou",
+      "reading": "かいぎょう",
+      "headword": "{開業|かいぎょう}",
+      "label": "opening a business"
     }
   ],
   "schema_version": "2.0",
@@ -62,6 +69,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life"
       ],
@@ -71,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T14:29:53Z",
-    "modified": "2026-05-08T07:08:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

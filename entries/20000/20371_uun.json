@@ -22,7 +22,9 @@
       "id": "20371_uun_ex1",
       "japanese": "「{疲|つか}れた？」「ううん、{大丈夫|だいじょうぶ}。」",
       "english": "\"Are you tired?\" \"No, I'm fine.\"",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "20371_uun_ex2",
       "japanese": "「{知|し}ってる？」「ううん、{知|し}らない。」",
       "english": "\"Do you know?\" \"No, I don't.\"",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "20371_uun_ex3",
       "japanese": "「もう{食|た}べた？」「ううん、まだ。」",
       "english": "\"Have you eaten already?\" \"Nope, not yet.\"",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "20371_uun_ex4",
       "japanese": "「ありがとう。」「ううん、{気|き}にしないで。」",
       "english": "\"Thank you.\" \"Not at all, don't worry about it.\"",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "20371_uun_ex5",
       "japanese": "「ごめんね。」「ううん、{平気|へいき}だよ。」",
       "english": "\"Sorry.\" \"No worries, I'm fine.\"",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,51 @@
       "id": "20371_uun_ex6",
       "japanese": "「{手伝|てつだ}ってくれてありがとう。」「ううん、{全然|ぜんぜん}。いつでも{言|い}ってね。」",
       "english": "\"Thanks for helping.\" \"Not at all. Just ask anytime.\"",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A very common informal interjection. Pronounced with a nasal, rising-then-falling intonation that distinguishes it from うん (yes). The intonation is crucial — with a flat or rising tone, it could be confused with a hesitation sound.\n\nPRONUNCIATION NOTE:\nThe pitch pattern matters. ううん (no) has a distinctive nasal, falling pattern, while うん (yes/yeah) is shorter with a rising or flat tone. In writing, the longer ううん is clearly distinguished from the shorter うん.\n\nCONTRAST WITH FORMAL EQUIVALENTS:\n- いいえ: the formal/polite \"no\"\n- いや: casual \"no\" (slightly stronger/more masculine)\n- ううん: casual \"no\" (soft, often used by women and children)\n\nUSAGE:\nPrimarily used in face-to-face casual conversation. In written Japanese, appears in dialogue in manga, novels, and text messages. Not appropriate in formal settings.",
+  "notes": "A very common informal interjection. Pronounced with a nasal, rising-then-falling intonation that distinguishes it from うん (yes). The intonation is crucial — with a flat or rising tone, it could be confused with a hesitation sound.\n\nPRONUNCIATION:\nThe pitch pattern matters. ううん (no) has a distinctive nasal, falling pattern, while うん (yes/yeah) is shorter with a rising or flat tone. In writing, the longer ううん is clearly distinguished from the shorter うん.\n\nCONTRAST WITH FORMAL EQUIVALENTS:\n- いいえ: the formal/polite \"no\"\n- いや: casual \"no\" (slightly stronger/more masculine)\n- ううん: casual \"no\" (soft, often used by women and children)\n\nUSAGE:\nPrimarily used in face-to-face casual conversation. In written Japanese, appears in dialogue in manga, novels, and text messages. Not appropriate in formal settings.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01920_iya",
+      "reading": "いや",
+      "headword": "{否|いや}",
+      "label": "no, nay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02845_iie",
+      "reading": "いいえ",
+      "headword": "いいえ",
+      "label": "no, not at all"
+    },
+    {
+      "type": "related",
+      "target_id": "02893_ee",
+      "reading": "ええ",
+      "headword": "ええ",
+      "label": "yes, yeah"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["interjection"],
+      "pos": [
+        "interjection"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-03-29T11:10:57Z",
-    "modified": "2026-03-29T11:10:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

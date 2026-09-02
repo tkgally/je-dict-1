@@ -18,7 +18,9 @@
       "english": "I'm an only child.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10101_hitorikko_ex2",
@@ -26,7 +28,9 @@
       "english": "Since I'm an only child, I wanted siblings.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10101_hitorikko_ex3",
@@ -34,20 +38,48 @@
       "english": "Families with only children are increasing recently.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{一人|ひとり}っ{子|こ} refers to a child with no siblings. The っ{子|こ} suffix gives a colloquial, familiar tone.\n\nCOMMON PATTERNS:\n- {一人|ひとり}っ{子|こ}で{育|そだ}つ: to grow up as an only child\n- {一人|ひとり}っ{子|こ}{政策|せいさく}: one-child policy (China)\n\nSOCIAL CONTEXT:\nWith Japan's declining birth rate ({少子化|しょうしか}), {一人|ひとり}っ{子|こ} families have become increasingly common. There is a common stereotype that only children are spoiled ({甘|あま}やかされている) or selfish, though this is often inaccurate.\n\nVARIANT:\n{一人子|ひとりご} is a more formal/literary alternative.",
-  "cross_references": [],
+  "notes": "{一人|ひとり}っ{子|こ} refers to a child with no siblings. The っ{子|こ} suffix gives a colloquial, familiar tone.\n\nCOMMON PATTERNS:\n- {一人|ひとり}っ{子|こ}で{育|そだ}つ: to grow up as an only child\n- {一人|ひとり}っ{子|こ}{政策|せいさく}: one-child policy (China)\n\nCULTURAL NOTE:\nWith Japan's declining birth rate ({少子化|しょうしか}), {一人|ひとり}っ{子|こ} families have become increasingly common. There is a common stereotype that only children are spoiled ({甘|あま}やかされている) or selfish, though this is often inaccurate.\n\nVARIANT:\n{一人子|ひとりご} is a more formal/literary alternative.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08957_hitorimusume",
+      "reading": "ひとりむすめ",
+      "headword": "{一人娘|ひとりむすめ}",
+      "label": "only daughter"
+    },
+    {
+      "type": "related",
+      "target_id": "15132_suekko",
+      "reading": "すえっこ",
+      "headword": "{末|すえ}っ{子|こ}",
+      "label": "youngest child"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28913_hitorimusuko",
+      "reading": "ひとりむすこ",
+      "headword": "{一人息子|ひとりむすこ}",
+      "label": "only son"
+    }
+  ],
   "metadata": {
     "created": "2026-02-05T02:48:57Z",
-    "modified": "2026-03-27T03:01:11Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["family"]
+      "semantic": [
+        "family"
+      ]
     }
   }
 }

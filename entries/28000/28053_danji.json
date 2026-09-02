@@ -17,7 +17,9 @@
       "id": "28053_danji_ex1",
       "japanese": "{元気|げんき}な{男児|だんじ}が{生|う}まれた。",
       "english": "A healthy boy was born.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28053_danji_ex2",
       "japanese": "{第一子|だいいっし}は{男児|だんじ}だった。",
       "english": "Their first child was a boy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "28053_danji_ex3",
       "japanese": "「{日本男児|にほんだんじ}」という{言葉|ことば}には{古|ふる}い{価値観|かちかん}が{含|ふく}まれている。",
       "english": "The phrase \"a Japanese man\" carries old-fashioned values.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formal and official; common in birth announcements and news. Everyday speech uses {男|おとこ}の{子|こ}.\n\nCOMMON COLLOCATIONS:\n- {男児|だんじ}を{出産|しゅっさん}する: to give birth to a boy\n- {日本男児|にほんだんじ}: a Japanese man (with connotations of manliness)\n\nSIMILAR WORDS:\n- {男|おとこ}の{子|こ}: boy — everyday, neutral\n- {女児|じょじ}: female child — the female counterpart",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02862_otokonoko",
+      "reading": "おとこのこ",
+      "headword": "{男|おとこ}の{子|こ}",
+      "label": "boy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28058_joji",
+      "reading": "じょじ",
+      "headword": "{女児|じょじ}",
+      "label": "female child"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["person", "family"],
+      "politeness": "plain",
+      "semantic": [
+        "person",
+        "family"
+      ],
       "domain": []
     },
     "created": "2026-05-25T02:04:35Z",
-    "modified": "2026-05-25T02:04:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

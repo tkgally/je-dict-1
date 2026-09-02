@@ -19,7 +19,9 @@
       "english": "Don't repeat the same mistake.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14376_ayamachi_ex2",
@@ -27,7 +29,9 @@
       "english": "I regret the mistakes I made when I was young.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14376_ayamachi_ex3",
@@ -35,10 +39,12 @@
       "english": "Many people are calling for the mistake of war to never be repeated.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE NOTES:\n{過|あやま}ち has a more serious and literary tone than {間違|まちが}い (mistake). It implies moral weight — a failing, a transgression, or a grave error — rather than a simple factual mistake.\n\nCOMMON COLLOCATIONS:\n- {過|あやま}ちを{犯|おか}す (to commit a mistake/transgression)\n- {過|あやま}ちを{繰|く}り{返|かえ}す (to repeat a mistake)\n- {過|あやま}ちを{認|みと}める (to acknowledge one's fault)\n- {若|わか}い{頃|ころ}の{過|あやま}ち (mistakes of youth)\n\nSIMILAR WORDS:\n{間違|まちが}い is neutral and covers any kind of mistake. {過|あやま}ち implies moral responsibility and is often used in reflective, regretful, or admonitory contexts.",
+  "notes": "USAGE:\n{過|あやま}ち has a more serious and literary tone than {間違|まちが}い (mistake). It implies moral weight — a failing, a transgression, or a grave error — rather than a simple factual mistake.\n\nCOMMON COLLOCATIONS:\n- {過|あやま}ちを{犯|おか}す (to commit a mistake/transgression)\n- {過|あやま}ちを{繰|く}り{返|かえ}す (to repeat a mistake)\n- {過|あやま}ちを{認|みと}める (to acknowledge one's fault)\n- {若|わか}い{頃|ころ}の{過|あやま}ち (mistakes of youth)\n\nSIMILAR WORDS:\n{間違|まちが}い is neutral and covers any kind of mistake. {過|あやま}ち implies moral responsibility and is often used in reflective, regretful, or admonitory contexts.",
   "cross_references": [
     {
       "type": "contrast",
@@ -46,19 +52,46 @@
       "reading": "まちがい",
       "headword": "{間違|まちが}い",
       "label": "mistake (neutral)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01772_ayamari",
+      "reading": "あやまり",
+      "headword": "{誤|あやま}り",
+      "label": "error, mistake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27142_sakugo",
+      "reading": "さくご",
+      "headword": "{錯誤|さくご}",
+      "label": "error"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28419_hi",
+      "reading": "ひ",
+      "headword": "{非|ひ}",
+      "label": "fault"
     }
   ],
   "metadata": {
     "created": "2026-02-28T13:11:05Z",
-    "modified": "2026-02-28T13:11:05Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "style": ["literary"]
+      "semantic": [
+        "general"
+      ],
+      "style": [
+        "literary"
+      ]
     }
   }
 }

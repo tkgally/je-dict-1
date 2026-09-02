@@ -2,7 +2,7 @@
   "id": "07584_manin",
   "headword": "{満員|まんいん}",
   "reading": "まんいん",
-  "part_of_speech": "noun/na-adjective",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "full; packed; at capacity",
   "definitions": [
     {
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{満|まん} (full) + {員|いん} (member, person)\nLiterally: \"full of members/people\"\n\nCOMMON COLLOCATIONS:\n・{満員|まんいん}{電車|でんしゃ} - packed train\n・{満員|まんいん}バス - packed bus\n・{満員|まんいん}{御礼|おんれい} - sold out (theatrical expression, lit. \"thanks for the full house\")\n・{満員|まんいん}になる - to become full\n\nRELATED WORDS:\n・{満席|まんせき} - fully booked (seats)\n・{空席|くうせき} - empty seat, vacancy\n・{定員|ていいん} - capacity, fixed number\n・すし{詰|づ}め - packed like sardines\n\nCULTURAL NOTE:\n{満員|まんいん}{電車|でんしゃ} (packed trains) are a well-known feature of Japanese urban life, especially during rush hours in Tokyo and other major cities.",
+  "notes": "ETYMOLOGY:\n{満|まん} (full) + {員|いん} (member, person)\nLiterally: \"full of members/people\"\n\nCOMMON COLLOCATIONS:\n- {満員|まんいん}{電車|でんしゃ} - packed train\n- {満員|まんいん}バス - packed bus\n- {満員|まんいん}{御礼|おんれい} - sold out (theatrical expression, lit. \"thanks for the full house\")\n- {満員|まんいん}になる - to become full\n\nRELATED WORDS:\n- {満席|まんせき} - fully booked (seats)\n- {空席|くうせき} - empty seat, vacancy\n- {定員|ていいん} - capacity, fixed number\n- すし{詰|づ}め - packed like sardines\n\nCULTURAL NOTE:\n{満員|まんいん}{電車|でんしゃ} (packed trains) are a well-known feature of Japanese urban life, especially during rush hours in Tokyo and other major cities.",
   "cross_references": [
     {
       "type": "contrast",
@@ -76,11 +76,25 @@
       "reading": "まんぱい",
       "headword": "{満杯|まんぱい}",
       "label": "full to capacity (things)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02809_konzatsu",
+      "reading": "こんざつ",
+      "headword": "{混雑|こんざつ}",
+      "label": "congestion, crowding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22895_ooiri",
+      "reading": "おおいり",
+      "headword": "{大入|おおい}り",
+      "label": "full house"
     }
   ],
   "metadata": {
     "created": "2026-01-20T10:31:31Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -89,6 +103,7 @@
         "adjective-na"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "quantity",
         "descriptive"

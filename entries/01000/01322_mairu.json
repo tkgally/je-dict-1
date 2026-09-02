@@ -2,7 +2,7 @@
   "id": "01322_mairu",
   "headword": "参る",
   "reading": "まいる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to come; to go (humble); to visit (a shrine or temple)",
   "conjugation": {
     "type": "godan",
@@ -190,11 +190,25 @@
       "headword": "いらっしゃる",
       "label": "honorific equivalent",
       "target_id": "01295_irassharu"
+    },
+    {
+      "type": "related",
+      "target_id": "05911_okoshininaru",
+      "reading": "おこしになる",
+      "headword": "お{越|こ}しになる",
+      "label": "to come"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25778_sanjousuru",
+      "reading": "さんじょうする",
+      "headword": "{参上|さんじょう}する",
+      "label": "to come"
     }
   ],
   "metadata": {
     "created": "2026-01-08T03:55:00Z",
-    "modified": "2026-06-11T04:56:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

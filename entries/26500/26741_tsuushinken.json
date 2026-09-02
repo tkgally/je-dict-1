@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {通信|つうしん} (communication, telecommunications) and {圏|けん} (sphere, zone). Commonly encountered when traveling to remote areas or underground locations where mobile phone signals are weak or absent.\n\nCOMMON COLLOCATIONS:\n- {通信圏|つうしんけん}{外|がい}: out of range, out of coverage\n- {通信圏|つうしんけん}{内|ない}: within range, in coverage\n- {通信圏|つうしんけん}に{入|はい}る: to enter a coverage area\n- {通信圏|つうしんけん}から{外|はず}れる: to go out of coverage\n\nRELATED TERMS:\n- {圏外|けんがい}: out of range — the shorter, more casual term displayed on Japanese phones when there is no signal\n- {圏内|けんない}: within range — the opposite of {圏外|けんがい}\n- {電波|でんぱ}: radio waves, signal — the physical signal itself",
-  "cross_references": [],
+  "notes": "A compound of {通信|つうしん} (communication, telecommunications) and {圏|けん} (sphere, zone). Commonly encountered when traveling to remote areas or underground locations where mobile phone signals are weak or absent.\n\nCOMMON COLLOCATIONS:\n- {通信圏|つうしんけん}{外|がい}: out of range, out of coverage\n- {通信圏|つうしんけん}{内|ない}: within range, in coverage\n- {通信圏|つうしんけん}に{入|はい}る: to enter a coverage area\n- {通信圏|つうしんけん}から{外|はず}れる: to go out of coverage\n\nRELATED WORDS:\n- {圏外|けんがい}: out of range — the shorter, more casual term displayed on Japanese phones when there is no signal\n- {圏内|けんない}: within range — the opposite of {圏外|けんがい}\n- {電波|でんぱ}: radio waves, signal — the physical signal itself",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07689_kengai",
+      "reading": "けんがい",
+      "headword": "{圏外|けんがい}",
+      "label": "out of range"
+    },
+    {
+      "type": "antonym",
+      "target_id": "16392_kennai",
+      "reading": "けんない",
+      "headword": "{圏内|けんない}",
+      "label": "within range"
+    },
+    {
+      "type": "related",
+      "target_id": "04070_denpa",
+      "reading": "でんぱ",
+      "headword": "{電波|でんぱ}",
+      "label": "radio waves, signal"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,6 +85,6 @@
       ]
     },
     "created": "2026-05-04T15:32:16Z",
-    "modified": "2026-05-04T15:32:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

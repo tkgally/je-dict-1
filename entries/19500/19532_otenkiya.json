@@ -17,7 +17,9 @@
       "id": "19532_otenkiya_ex1",
       "japanese": "{彼女|かのじょ}はお{天気屋|てんきや}だ。",
       "english": "She's a moody person.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19532_otenkiya_ex2",
       "japanese": "お{天気屋|てんきや}な{上司|じょうし}に{振|ふ}り{回|まわ}される。",
       "english": "I get jerked around by my moody boss.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "19532_otenkiya_ex3",
       "japanese": "うちの{猫|ねこ}はお{天気屋|てんきや}で、{甘|あま}えてきたかと{思|おも}ったら{急|きゅう}に{怒|おこ}り{出|だ}す。",
       "english": "Our cat is moody — just when you think it's being affectionate, it suddenly gets angry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A colorful metaphor comparing a person's unpredictable mood swings to changeable weather. The お is a polite/softening prefix, {天気|てんき} means weather, and {屋|や} is the suffix for 'person characterized by.' The word has a mildly critical but often affectionate tone.\n\nUSAGE:\nCan be used both as a noun (お{天気屋|てんきや}だ) and as a na-adjective-like modifier (お{天気屋|てんきや}な{人|ひと}). Often used with a tone of exasperation tinged with fondness.\n\nSIMILAR WORDS:\n- {気分屋|きぶんや} — moody person; very close synonym, literally 'mood person'\n- {気|き}まぐれ — whimsical, capricious; can describe actions as well as personality\n- ムラがある — uneven, inconsistent; often used for work output rather than mood",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08692_kibunya",
+      "reading": "きぶんや",
+      "headword": "{気分|きぶん}{屋|や}",
+      "label": "moody person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07319_kimagure",
+      "reading": "きまぐれ",
+      "headword": "{気|き}まぐれ",
+      "label": "whimsical, capricious"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["personality"]
+      "semantic": [
+        "personality"
+      ]
     },
     "created": "2026-03-26T04:19:05Z",
-    "modified": "2026-03-26T04:19:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "English is one of the official languages.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11678_kouyougo_ex2",
@@ -27,7 +29,9 @@
       "english": "This country has four official languages.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11678_kouyougo_ex3",
@@ -35,20 +39,48 @@
       "english": "The United Nations has six official languages, including English, French, and Chinese.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Japan has no legally designated {公用語|こうようご} — Japanese is the de facto national language but is not formally codified as the official language in the constitution.\n\nCOMMON COLLOCATIONS:\n・{公用語|こうようご}に{指定|してい}する (designate as an official language)\n・{公用語|こうようご}として{使|つか}われる (be used as an official language)\n\nDISTINCTIONS:\n・{公用語|こうようご}: official language (legally designated for government use)\n・{国語|こくご}: national language (the language of a nation, also the school subject)\n・{母語|ぼご}: mother tongue, native language",
-  "cross_references": [],
+  "notes": "Japan has no legally designated {公用語|こうようご} — Japanese is the de facto national language but is not formally codified as the official language in the constitution.\n\nCOMMON COLLOCATIONS:\n- {公用語|こうようご}に{指定|してい}する (designate as an official language)\n- {公用語|こうようご}として{使|つか}われる (be used as an official language)\n\nSIMILAR WORDS:\n- {公用語|こうようご}: official language (legally designated for government use)\n- {国語|こくご}: national language (the language of a nation, also the school subject)\n- {母語|ぼご}: mother tongue, native language",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02739_kokugo",
+      "reading": "こくご",
+      "headword": "{国語|こくご}",
+      "label": "national language"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13228_bogo",
+      "reading": "ぼご",
+      "headword": "{母語|ぼご}",
+      "label": "mother tongue, native language"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22976_dainigengo",
+      "reading": "だいにげんご",
+      "headword": "{第二言語|だいにげんご}",
+      "label": "second language"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T20:21:44Z",
-    "modified": "2026-02-17T20:21:44Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

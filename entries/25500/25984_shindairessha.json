@@ -17,7 +17,9 @@
       "id": "25984_shindairessha_ex1",
       "japanese": "{寝台列車|しんだいれっしゃ}で{旅|たび}をする。",
       "english": "To travel by sleeper train.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25984_shindairessha_ex2",
       "japanese": "{日本|にほん}では{寝台列車|しんだいれっしゃ}の{数|かず}が{大幅|おおはば}に{減|へ}った。",
       "english": "In Japan, the number of sleeper trains has decreased dramatically.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,52 @@
       "id": "25984_shindairessha_ex3",
       "japanese": "{子|こ}どもの{頃|ころ}、{家族|かぞく}で{寝台列車|しんだいれっしゃ}に{乗|の}って{北海道|ほっかいどう}に{行|い}ったのがいい{思|おも}い{出|で}だ。",
       "english": "A fond memory from my childhood is riding a sleeper train with my family to Hokkaido.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {寝台|しんだい} (bed; sleeping berth) and {列車|れっしゃ} (train). Once a common mode of long-distance travel in Japan, most sleeper trains have been discontinued due to competition from the {新幹線|しんかんせん} (bullet train) and domestic airlines. The luxury cruise train サンライズ{瀬戸|せと}・{出雲|いずも} (Sunrise Seto/Izumo) between Tokyo and western Japan is one of the few remaining regular services.\n\nCOMMON COLLOCATIONS:\n- {寝台列車|しんだいれっしゃ}に{乗|の}る: to ride a sleeper train\n- {寝台列車|しんだいれっしゃ}の{旅|たび}: a sleeper train journey\n- {豪華|ごうか}{寝台列車|しんだいれっしゃ}: luxury sleeper train\n- {寝台列車|しんだいれっしゃ}が{廃止|はいし}される: a sleeper train route is discontinued\n\nSIMILAR WORDS:\n- {夜行列車|やこうれっしゃ}: night train — a broader term for trains running overnight; not all have sleeping berths\n- {特急列車|とっきゅうれっしゃ}: limited express train — a fast train that may or may not run overnight\n- ブルートレイン: Blue Train — nickname for the classic blue-painted Japanese sleeper trains, now mostly retired",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23767_yakouressha",
+      "reading": "やこうれっしゃ",
+      "headword": "{夜行列車|やこうれっしゃ}",
+      "label": "night train"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25987_tokkyuuressha",
+      "reading": "とっきゅうれっしゃ",
+      "headword": "{特急列車|とっきゅうれっしゃ}",
+      "label": "limited express train"
+    },
+    {
+      "type": "related",
+      "target_id": "23844_shindaisha",
+      "reading": "しんだいしゃ",
+      "headword": "{寝台車|しんだいしゃ}",
+      "label": "sleeping car"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["travel", "transportation"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "travel",
+        "transportation"
+      ]
     },
     "created": "2026-04-28T14:17:09Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

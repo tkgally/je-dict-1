@@ -43,10 +43,26 @@
       ]
     }
   ],
-  "notes": "USAGE: {物価|ぶっか} refers to the general price level of goods and services, often discussed in economic contexts.\n\nCOMMON PATTERNS:\n・{物価|ぶっか}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧/⟦{下|さ}がる→下がる：01188_sagaru⟧ (prices rise/fall)\n・{物価|ぶっか}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧/⟦{安|やす}い→安い：00464_yasui⟧ (prices are high/low)\n・{物価|ぶっか}⟦{上昇|じょうしょう}→上昇：11296_joushou⟧ (price increase)\n・{物価|ぶっか}⟦{指数|しすう}→指数：20414_shisuu⟧ (price index)\n・{物価|ぶっか}⟦{安定|あんてい}→安定：01703_antei⟧ (price stability)\n\nRELATED:\n・⟦インフレ→インフレ：04848_infure⟧ - inflation\n・⟦デフレ→デフレ：04850_defure⟧ - deflation",
+  "notes": "USAGE: {物価|ぶっか} refers to the general price level of goods and services, often discussed in economic contexts.\n\nCOMMON PATTERNS:\n- {物価|ぶっか}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧/⟦{下|さ}がる→下がる：01188_sagaru⟧ (prices rise/fall)\n- {物価|ぶっか}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧/⟦{安|やす}い→安い：00464_yasui⟧ (prices are high/low)\n- {物価|ぶっか}⟦{上昇|じょうしょう}→上昇：11296_joushou⟧ (price increase)\n- {物価|ぶっか}⟦{指数|しすう}→指数：20414_shisuu⟧ (price index)\n- {物価|ぶっか}⟦{安定|あんてい}→安定：01703_antei⟧ (price stability)\n\nRELATED WORDS:\n- ⟦インフレ→インフレ：04848_infure⟧ - inflation\n- ⟦デフレ→デフレ：04850_defure⟧ - deflation",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04848_infure",
+      "reading": "いんふれ",
+      "headword": "インフレ",
+      "label": "inflation"
+    },
+    {
+      "type": "related",
+      "target_id": "04850_defure",
+      "reading": "でふれ",
+      "headword": "デフレ",
+      "label": "deflation"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T15:34:00Z",
-    "modified": "2026-05-26T18:20:39Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

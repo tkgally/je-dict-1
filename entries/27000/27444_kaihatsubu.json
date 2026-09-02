@@ -17,7 +17,9 @@
       "id": "27444_kaihatsubu_ex1",
       "japanese": "{開発部|かいはつぶ}に{配属|はいぞく}された。",
       "english": "I was assigned to the development department.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27444_kaihatsubu_ex2",
       "japanese": "{新製品|しんせいひん}の{企画|きかく}は{開発部|かいはつぶ}が{担当|たんとう}している。",
       "english": "The development department is in charge of new-product planning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "27444_kaihatsubu_ex3",
       "japanese": "{開発部|かいはつぶ}と{営業部|えいぎょうぶ}の{連携|れんけい}を{強|つよ}めることが{今後|こんご}の{課題|かだい}だ。",
       "english": "Strengthening cooperation between the development and sales departments is the challenge going forward.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {開発|かいはつ} (development) + {部|ぶ} (department/division). Like {野球部|やきゅうぶ}, the same suffix means 'club' in school contexts and 'department' in company contexts; the surrounding word decides which.\n\nCOMMON COLLOCATIONS:\n- {開発部|かいはつぶ}{長|ちょう}: head of development\n- {開発部|かいはつぶ}に{配属|はいぞく}される: to be assigned to the development department\n- {商品|しょうひん}{開発部|かいはつぶ}: product development department\n- {研究|けんきゅう}{開発部|かいはつぶ}: research and development department\n\nRELATED WORDS:\n- {営業部|えいぎょうぶ}: sales department\n- {人事部|じんじぶ}: HR department\n- {経理部|けいりぶ}: accounting department\n- {製造部|せいぞうぶ}: manufacturing department",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19381_eigyoubu",
+      "reading": "えいぎょうぶ",
+      "headword": "{営業部|えいぎょうぶ}",
+      "label": "sales department"
+    },
+    {
+      "type": "related",
+      "target_id": "20638_jinjibu",
+      "reading": "じんじぶ",
+      "headword": "{人事部|じんじぶ}",
+      "label": "HR department"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["business"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "business"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-05-12T03:04:54Z",
-    "modified": "2026-05-12T03:04:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

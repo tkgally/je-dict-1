@@ -17,7 +17,9 @@
       "id": "28213_hanigai_ex1",
       "japanese": "それは{範囲外|はんいがい}だ。",
       "english": "That's outside the scope.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28213_hanigai_ex2",
       "japanese": "{電波|でんぱ}の{範囲外|はんいがい}にいる。",
       "english": "I'm outside the signal range.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28213_hanigai_ex3",
       "japanese": "その{質問|しつもん}は{私|わたし}の{担当|たんとう}の{範囲外|はんいがい}です。",
       "english": "That question is outside my area of responsibility.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{範囲|はんい} (range, scope) plus the suffix {外|がい} (outside). The antonym is {範囲内|はんいない} (within range).\n\nCOMMON COLLOCATIONS:\n- {電波|でんぱ}の{範囲外|はんいがい}: out of signal range\n- {対象|たいしょう}{範囲外|はんいがい}: not covered / not eligible\n- {想定|そうてい}の{範囲外|はんいがい}: beyond what was anticipated\n\nANTONYM:\n- {範囲内|はんいない}: within the range / within the scope",
+  "notes": "{範囲|はんい} (range, scope) plus the suffix {外|がい} (outside). The antonym is {範囲内|はんいない} (within range).\n\nCOMMON COLLOCATIONS:\n- {電波|でんぱ}の{範囲外|はんいがい}: out of signal range\n- {対象|たいしょう}{範囲外|はんいがい}: not covered / not eligible\n- {想定|そうてい}の{範囲外|はんいがい}: beyond what was anticipated\n\nSIMILAR WORDS:\n- {範囲内|はんいない}: within the range / within the scope",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25429_haninai",
+      "reading": "はんいない",
+      "headword": "{範囲内|はんいない}",
+      "label": "within the range / within the scope"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23028_jougai",
+      "reading": "じょうがい",
+      "headword": "{場外|じょうがい}",
+      "label": "outside the venue"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["general"],
+      "politeness": "plain",
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-27T03:08:15Z",
-    "modified": "2026-05-27T03:08:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

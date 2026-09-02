@@ -3,7 +3,7 @@
   "headword": "{高度化|こうどか}",
   "reading": "こうどか",
   "romaji": "koudoka",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "advancement; sophistication",
   "definitions": [
     {
@@ -46,6 +46,43 @@
   ],
   "notes": "Formed from {高度|こうど} (advanced, high-level) + {化|か} (-ization). Part of the productive ～{化|か} pattern that creates nouns/suru-verbs meaning \"the process of becoming ~.\" Common in news, business, and academic contexts when discussing modernization and technological progress.\n\nCOMMON COLLOCATIONS:\n- {高度化|こうどか}する: to become more advanced\n- {高度化|こうどか}が{進|すす}む: advancement progresses\n- {高度化|こうどか}に{対応|たいおう}する: to respond to increasing sophistication\n\nSIMILAR WORDS (～{化|か} pattern):\n- {複雑化|ふくざつか}: complication — becoming more complex (negative nuance)\n- {多様化|たようか}: diversification — becoming more varied\n- {効率化|こうりつか}: streamlining — becoming more efficient",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21265_fukuzatsuka",
+      "reading": "ふくざつか",
+      "headword": "{複雑化|ふくざつか}",
+      "label": "complication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07564_tayouka",
+      "reading": "たようか",
+      "headword": "{多様化|たようか}",
+      "label": "diversification"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07565_kouritsuka",
+      "reading": "こうりつか",
+      "headword": "{効率化|こうりつか}",
+      "label": "streamlining"
+    },
+    {
+      "type": "related",
+      "target_id": "20759_koumyouka",
+      "reading": "こうみょうか",
+      "headword": "{巧妙化|こうみょうか}",
+      "label": "becoming more sophisticated"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26714_seikouka",
+      "reading": "せいこうか",
+      "headword": "{精巧化|せいこうか}",
+      "label": "increasing sophistication"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +101,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-01T16:17:35Z",
-    "modified": "2026-04-01T16:17:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

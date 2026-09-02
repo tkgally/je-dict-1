@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{支店|してん} refers to a branch office or branch store of a company or bank.\n\nCOMMON PATTERNS:\n- {支店|してん}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧ (to open a branch)\n- {支店|してん}⟦に→に：00314_ni⟧⟦{勤|つと}める→勤める：00902_tsutomeru⟧ (to work at a branch)\n- ○○{支店|してん} (XX branch - often with location name)\n\nRELATED TERMS:\n- ⟦{本店|ほんてん}→本店：09566_honten⟧ (main store, head office)\n- ⟦{本社|ほんしゃ}→本社：09565_honsha⟧ (headquarters)\n- ⟦{出張所|しゅっちょうじょ}→出張所：18505_shucchoujo⟧ (satellite office, smaller branch)\n- ⟦{営業所|えいぎょうしょ}→営業所：23605_eigyousho⟧ (sales office)\n\nANTONYM:\n- ⟦{本店|ほんてん}→本店：09566_honten⟧ (main store) ↔ {支店|してん} (branch)",
+  "notes": "{支店|してん} refers to a branch office or branch store of a company or bank.\n\nCOMMON PATTERNS:\n- {支店|してん}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧ (to open a branch)\n- {支店|してん}⟦に→に：00314_ni⟧⟦{勤|つと}める→勤める：00902_tsutomeru⟧ (to work at a branch)\n- ○○{支店|してん} (XX branch - often with location name)\n\nRELATED WORDS:\n- ⟦{本店|ほんてん}→本店：09566_honten⟧ (main store, head office)\n- ⟦{本社|ほんしゃ}→本社：09565_honsha⟧ (headquarters)\n- ⟦{出張所|しゅっちょうじょ}→出張所：18505_shucchoujo⟧ (satellite office, smaller branch)\n- ⟦{営業所|えいぎょうしょ}→営業所：23605_eigyousho⟧ (sales office)\n\nSIMILAR WORDS:\n- ⟦{本店|ほんてん}→本店：09566_honten⟧ (main store) ↔ {支店|してん} (branch)",
   "prominent_see_also": [
     {
       "target_id": "03187_shiten",
@@ -59,11 +59,53 @@
       "headword": "{本店|ほんてん}",
       "label": "main store",
       "target_id": "09566_honten"
+    },
+    {
+      "type": "related",
+      "target_id": "09565_honsha",
+      "reading": "ほんしゃ",
+      "headword": "{本社|ほんしゃ}",
+      "label": "headquarters"
+    },
+    {
+      "type": "related",
+      "target_id": "18505_shucchoujo",
+      "reading": "しゅっちょうじょ",
+      "headword": "{出張所|しゅっちょうじょ}",
+      "label": "satellite office, smaller branch"
+    },
+    {
+      "type": "related",
+      "target_id": "23605_eigyousho",
+      "reading": "えいぎょうしょ",
+      "headword": "{営業所|えいぎょうしょ}",
+      "label": "sales office"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09675_shibu",
+      "reading": "しぶ",
+      "headword": "{支部|しぶ}",
+      "label": "branch (office)"
+    },
+    {
+      "type": "homophone",
+      "target_id": "23087_shiten",
+      "reading": "してん",
+      "headword": "{始点|してん}",
+      "label": "starting point"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24025_keiretsuten",
+      "reading": "けいれつてん",
+      "headword": "{系列店|けいれつてん}",
+      "label": "affiliated store"
     }
   ],
   "metadata": {
     "created": "2026-01-11T13:40:30Z",
-    "modified": "2026-05-24T13:34:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

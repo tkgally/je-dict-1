@@ -17,7 +17,9 @@
       "id": "25908_komonoire_ex1",
       "japanese": "{鍵|かぎ}は{小物|こもの}{入|い}れに{入|い}れてある。",
       "english": "The keys are in the trinket box.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25908_komonoire_ex2",
       "japanese": "{革|かわ}の{小物|こもの}{入|い}れを{誕生日|たんじょうび}にもらった。",
       "english": "I received a leather accessory case for my birthday.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "25908_komonoire_ex3",
       "japanese": "{玄関|げんかん}に{小物|こもの}{入|い}れを{置|お}いておくと、{鍵|かぎ}や{定期券|ていきけん}をなくさなくて{済|す}む。",
       "english": "If you keep a catch-all by the entrance, you won't lose your keys or commuter pass.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {小物|こもの} (small items; accessories) + {入|い}れ (container; holder). Refers to any container designed for organizing small personal belongings. Can range from a simple tray on a desk to a zippered pouch in a bag.\n\nCOMMON COLLOCATIONS:\n- {革|かわ}の{小物|こもの}{入|い}れ: leather accessory case\n- {小物|こもの}{入|い}れポーチ: small accessory pouch\n- {小物|こもの}{入|い}れに{入|い}れる: to put in the catch-all\n\nSIMILAR WORDS:\n- ポーチ: pouch — a loanword often used for cosmetic or travel pouches\n- {小物|こもの}{入|い}れ{箱|ばこ}: small items box — specifically a box rather than a pouch or tray\n- {筆|ふで}{箱|ばこ}: pencil case — specifically for writing implements",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09488_poochi",
+      "reading": "ぽーち",
+      "headword": "ポーチ",
+      "label": "pouch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08263_fudebako",
+      "reading": "ふでばこ",
+      "headword": "{筆箱|ふでばこ}",
+      "label": "pencil case"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["daily-life", "tool"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "daily-life",
+        "tool"
+      ]
     },
     "created": "2026-04-28T12:20:20Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

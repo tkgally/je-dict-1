@@ -17,7 +17,9 @@
       "id": "28123_chuuseishi_ex1",
       "japanese": "{中性子|ちゅうせいし}は{電荷|でんか}を{持|も}たない。",
       "english": "Neutrons carry no electric charge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28123_chuuseishi_ex2",
       "japanese": "{原子核|げんしかく}は{陽子|ようし}と{中性子|ちゅうせいし}からなる。",
       "english": "The atomic nucleus consists of protons and neutrons.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28123_chuuseishi_ex3",
       "japanese": "{中性子|ちゅうせいし}の{数|かず}が{違|ちが}うと、{同|おな}じ{元素|げんそ}でも{異|こと}なる{同位体|どういたい}になる。",
       "english": "If the number of neutrons differs, the same element becomes a different isotope.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{中性子|ちゅうせいし} is a physics term for a neutron, the electrically neutral particle in an atomic nucleus. The {中性|ちゅうせい} element means 'neutral.'\n\nRELATED TERMS:\n- {陽子|ようし}: proton — positively charged nuclear particle\n- {電子|でんし}: electron — negatively charged particle\n- {原子核|げんしかく}: atomic nucleus — made of protons and neutrons",
+  "notes": "{中性子|ちゅうせいし} is a physics term for a neutron, the electrically neutral particle in an atomic nucleus. The {中性|ちゅうせい} element means 'neutral.'\n\nRELATED WORDS:\n- {陽子|ようし}: proton — positively charged nuclear particle\n- {電子|でんし}: electron — negatively charged particle\n- {原子核|げんしかく}: atomic nucleus — made of protons and neutrons",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "28122_youshi",
+      "reading": "ようし",
+      "headword": "{陽子|ようし}",
+      "label": "proton"
+    },
+    {
+      "type": "related",
+      "target_id": "03449_denshi",
+      "reading": "でんし",
+      "headword": "{電子|でんし}",
+      "label": "electron"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["general"],
+      "politeness": "plain",
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-26T02:06:25Z",
-    "modified": "2026-05-26T02:06:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "To write the address.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12275_atesaki_ex2",
@@ -27,7 +29,9 @@
       "english": "It didn't arrive because the address was wrong.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12275_atesaki_ex3",
@@ -35,21 +39,77 @@
       "english": "Please confirm the email address before pressing the send button.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed for both physical addresses on envelopes and packages, and for email recipients. In email software, the {宛先|あてさき} field corresponds to the \"To:\" field. The opposite — the sender's address — is {差出人|さしだしにん} (sender) or {送|おく}り{主|ぬし} (sender).\n\nCOMMON COLLOCATIONS:\n- {宛先|あてさき}を{書|か}く: to write the address\n- {宛先|あてさき}を{確認|かくにん}する: to confirm the address\n- {宛先|あてさき}{不明|ふめい}: address unknown\n- {宛先|あてさき}{変更|へんこう}: change of address\n- メールの{宛先|あてさき}: email recipient / To field",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02278_ateru",
+      "reading": "あてる",
+      "headword": "{宛|あ}てる",
+      "label": "to address (a letter), to direct at"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23506_okurisaki",
+      "reading": "おくりさき",
+      "headword": "{送|おく}り{先|さき}",
+      "label": "destination address"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23788_soufusaki",
+      "reading": "そうふさき",
+      "headword": "{送付先|そうふさき}",
+      "label": "mailing address"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26102_tensousaki",
+      "reading": "てんそうさき",
+      "headword": "{転送先|てんそうさき}",
+      "label": "forwarding destination"
+    },
+    {
+      "type": "related",
+      "target_id": "27129_haitatsusaki",
+      "reading": "はいたつさき",
+      "headword": "{配達先|はいたつさき}",
+      "label": "delivery destination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29018_soushinsaki",
+      "reading": "そうしんさき",
+      "headword": "{送信先|そうしんさき}",
+      "label": "destination of transmission"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30335_uketorisaki",
+      "reading": "うけとりさき",
+      "headword": "{受取先|うけとりさき}",
+      "label": "recipient"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T15:04:03Z",
-    "modified": "2026-02-20T15:04:03Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

@@ -19,7 +19,9 @@
       "english": "He was appointed as a company director.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12124_torishimariyaku_ex2",
@@ -27,7 +29,9 @@
       "english": "A new policy was decided at the board of directors meeting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12124_torishimariyaku_ex3",
@@ -35,22 +39,53 @@
       "english": "The company will newly appoint two outside directors to strengthen governance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{取締役|とりしまりやく} is a formal legal title used in Japanese corporate law ({会社法|かいしゃほう}). The word is commonly abbreviated in compound titles.\n\nCOMMON COLLOCATIONS:\n- {取締役会|とりしまりやくかい}: board of directors (meeting)\n- {代表取締役|だいひょうとりしまりやく}: representative director (CEO equivalent)\n- {社外|しゃがい}{取締役|とりしまりやく}: outside director\n- {常務|じょうむ}{取締役|とりしまりやく}: managing director\n- {専務|せんむ}{取締役|とりしまりやく}: senior managing director\n- {取締役|とりしまりやく}に{就任|しゅうにん}する: to be appointed as director",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07445_torishimari",
+      "reading": "とりしまり",
+      "headword": "{取|と}り{締|し}まり",
+      "label": "control"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13558_riji",
+      "reading": "りじ",
+      "headword": "{理事|りじ}",
+      "label": "director, board member"
+    },
+    {
+      "type": "related",
+      "target_id": "19291_senmu",
+      "reading": "せんむ",
+      "headword": "{専務|せんむ}",
+      "label": "executive director"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T08:53:19Z",
-    "modified": "2026-02-20T08:53:19Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["occupation"],
-      "domain": ["business", "legal"]
+      "semantic": [
+        "occupation"
+      ],
+      "domain": [
+        "business",
+        "legal"
+      ]
     }
   }
 }

@@ -18,7 +18,9 @@
       "english": "The performers were introduced.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11340_shutsuensha_ex2",
@@ -26,7 +28,9 @@
       "english": "All the cast members of this movie are famous actors.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11340_shutsuensha_ex3",
@@ -34,10 +38,12 @@
       "english": "When the show's performers came on stage, the audience burst into loud applause.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{出演者|しゅつえんしゃ} refers to anyone who appears in a performance or production.\n\nWORD FORMATION:\n{出演|しゅつえん} (appearing, performing) + {者|しゃ} (person)\n\nCOMMON COLLOCATIONS:\n- {出演者|しゅつえんしゃ}を{紹介|しょうかい}する: to introduce the performers\n- {出演者|しゅつえんしゃ}{一覧|いちらん}: cast list\n- {主|おも}な{出演者|しゅつえんしゃ}: main cast\n\nRELATED:\n- {出演|しゅつえん}: performance, appearance (the act itself)\n- {俳優|はいゆう}: actor/actress\n- {出場者|しゅつじょうしゃ}: participant, contestant (sports/competitions)",
+  "notes": "{出演者|しゅつえんしゃ} refers to anyone who appears in a performance or production.\n\nFORMS:\n{出演|しゅつえん} (appearing, performing) + {者|しゃ} (person)\n\nCOMMON COLLOCATIONS:\n- {出演者|しゅつえんしゃ}を{紹介|しょうかい}する: to introduce the performers\n- {出演者|しゅつえんしゃ}{一覧|いちらん}: cast list\n- {主|おも}な{出演者|しゅつえんしゃ}: main cast\n\nRELATED WORDS:\n- {出演|しゅつえん}: performance, appearance (the act itself)\n- {俳優|はいゆう}: actor/actress\n- {出場者|しゅつじょうしゃ}: participant, contestant (sports/competitions)",
   "cross_references": [
     {
       "type": "related",
@@ -52,18 +58,43 @@
       "reading": "えんじゃ",
       "headword": "{演者|えんじゃ}",
       "label": "performer (traditional arts/academic)"
+    },
+    {
+      "type": "related",
+      "target_id": "03547_haiyuu",
+      "reading": "はいゆう",
+      "headword": "{俳優|はいゆう}",
+      "label": "actor/actress"
+    },
+    {
+      "type": "related",
+      "target_id": "23920_shutsujousha",
+      "reading": "しゅつじょうしゃ",
+      "headword": "{出場者|しゅつじょうしゃ}",
+      "label": "participant, contestant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10872_kyasuto",
+      "reading": "きゃすと",
+      "headword": "キャスト",
+      "label": "cast (of a show or movie)"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "created": "2026-02-16T00:41:26Z",
-    "modified": "2026-04-28T10:15:25Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

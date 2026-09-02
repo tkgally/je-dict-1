@@ -3,7 +3,7 @@
   "headword": "{雑音|ざつおん}{除去|じょきょ}",
   "reading": "ざつおんじょきょ",
   "romaji": "zatsuonjokyo",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "noise removal; noise cancellation; noise reduction",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "A compound of {雑音|ざつおん} (noise, static) and {除去|じょきょ} (removal, elimination). Has become an everyday term with the popularity of noise-cancelling headphones and online meeting software.\n\nCOMMON COLLOCATIONS:\n- {雑音|ざつおん}{除去|じょきょ}{機能|きのう}: noise cancellation function\n- {雑音|ざつおん}{除去|じょきょ}フィルター: noise removal filter\n- {雑音|ざつおん}{除去|じょきょ}ソフト: noise removal software\n- {雑音|ざつおん}{除去|じょきょ}を{行|おこな}う: to perform noise removal\n\nSIMILAR WORDS:\n- ノイズキャンセリング: noise cancelling — the loanword version, commonly used for headphone technology\n- {消音|しょうおん}: muting, silencing — making something quiet, not specifically removing background noise\n- {防音|ぼうおん}: soundproofing — preventing sound from entering or leaving a space",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21005_shouon",
+      "reading": "しょうおん",
+      "headword": "{消音|しょうおん}",
+      "label": "muting, silencing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14565_bouon",
+      "reading": "ぼうおん",
+      "headword": "{防音|ぼうおん}",
+      "label": "soundproofing"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,13 +69,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "technology"
       ],
       "verb_class": "suru"
     },
     "created": "2026-05-01T16:24:30Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

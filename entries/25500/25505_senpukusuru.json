@@ -3,7 +3,7 @@
   "headword": "{潜伏|せんぷく}する",
   "reading": "せんぷくする",
   "romaji": "senpukusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to lie hidden; to lurk; to be latent",
   "definitions": [
     {
@@ -80,7 +80,43 @@
     }
   ],
   "notes": "Composed of {潜伏|せんぷく} (concealment; latency) + する. The two senses share the core idea of something hidden and not yet visible. Sense 1 is common in crime and espionage contexts; sense 2 is widely used in medical and scientific writing.\n\nCOMMON COLLOCATIONS:\n- {潜伏|せんぷく}{期間|きかん}: incubation period; latent period\n- {潜伏|せんぷく}{先|さき}: hiding place; place of concealment\n- {潜伏|せんぷく}{感染|かんせん}: latent infection\n- {国内|こくない}に{潜伏|せんぷく}する: to hide within the country\n\nSIMILAR WORDS:\n- {隠|かく}れる: to hide — the basic everyday word for hiding; less formal\n- {潜|ひそ}む: to lurk; to lie hidden — literary; implies something dangerous lurking beneath the surface\n- {逃亡|とうぼう}する: to flee; to go on the run — emphasizes movement and escape rather than hiding in place",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02035_kakureru",
+      "reading": "かくれる",
+      "headword": "{隠|かく}れる",
+      "label": "to hide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04381_hisomu",
+      "reading": "ひそむ",
+      "headword": "{潜|ひそ}む",
+      "label": "to lurk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26871_toubousuru",
+      "reading": "とうぼうする",
+      "headword": "{逃亡|とうぼう}する",
+      "label": "to flee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20994_sennyuusuru",
+      "reading": "せんにゅうする",
+      "headword": "{潜入|せんにゅう}する",
+      "label": "to infiltrate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22514_machibuseru",
+      "reading": "まちぶせる",
+      "headword": "{待|ま}ち{伏|ふ}せる",
+      "label": "to ambush"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -88,6 +124,7 @@
       "pos": [
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "law",
         "health"
@@ -95,7 +132,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T15:14:29Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

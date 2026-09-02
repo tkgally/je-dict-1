@@ -2,7 +2,7 @@
   "id": "02747_koukoku",
   "headword": "{広告|こうこく}",
   "reading": "こうこく",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "advertisement, advertising",
   "conjugation": {
     "type": "suru",
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "{広告|こうこく} refers to advertisements and advertising.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{広告|こうこく}⟦する→する：00392_suru⟧\n\nTYPES OF ADS:\n- ⟦テレビ→テレビ：01536_terebi⟧{広告|こうこく}/⟦CM→CM：07712_shiiemu⟧ (TV commercial)\n- ⟦{新聞|しんぶん}→新聞：01440_shinbun⟧{広告|こうこく} (newspaper ad)\n- ⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧{広告|こうこく} (magazine ad)\n- ⟦インターネット→インターネット：04723_intaanetto⟧{広告|こうこく} (online ad)\n- ⟦{求人|きゅうじん}→求人：04690_kyuujin⟧{広告|こうこく} (job advertisement)\n\nCOMMON PATTERNS:\n- {広告|こうこく}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ (to place an ad)\n- {広告|こうこく}⟦を→を：00422_wo⟧⟦{載|の}せる→載せる：28290_noseru⟧ (to run an ad)\n\nCOMPOUND WORDS:\n- {広告|こうこく}⟦{代理|だいり}{店|てん}→代理店：21690_dairiten⟧ (advertising agency)\n- {広告|こうこく}⟦{主|ぬし}→主：noentry⟧ (advertiser)\n- {広告|こうこく}⟦{費|ひ}→費：09877_hi⟧ (advertising expenses)\n- ⟦{誇大|こだい}→誇大：28046_kodai⟧{広告|こうこく} (false advertising)",
+  "notes": "{広告|こうこく} refers to advertisements and advertising.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{広告|こうこく}⟦する→する：00392_suru⟧\n\nTYPES OF ADS:\n- ⟦テレビ→テレビ：01536_terebi⟧{広告|こうこく}/⟦CM→CM：07712_shiiemu⟧ (TV commercial)\n- ⟦{新聞|しんぶん}→新聞：01440_shinbun⟧{広告|こうこく} (newspaper ad)\n- ⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧{広告|こうこく} (magazine ad)\n- ⟦インターネット→インターネット：04723_intaanetto⟧{広告|こうこく} (online ad)\n- ⟦{求人|きゅうじん}→求人：04690_kyuujin⟧{広告|こうこく} (job advertisement)\n\nCOMMON PATTERNS:\n- {広告|こうこく}⟦を→を：00422_wo⟧⟦{出|だ}す→出す：01087_dasu⟧ (to place an ad)\n- {広告|こうこく}⟦を→を：00422_wo⟧⟦{載|の}せる→載せる：28290_noseru⟧ (to run an ad)\n\nCOMPOUNDS:\n- {広告|こうこく}⟦{代理|だいり}{店|てん}→代理店：21690_dairiten⟧ (advertising agency)\n- {広告|こうこく}⟦{主|ぬし}→主：noentry⟧ (advertiser)\n- {広告|こうこく}⟦{費|ひ}→費：09877_hi⟧ (advertising expenses)\n- ⟦{誇大|こだい}→誇大：28046_kodai⟧{広告|こうこく} (false advertising)",
   "cross_references": [
     {
       "type": "synonym",
@@ -176,11 +176,46 @@
       "reading": "せんでん",
       "headword": "{宣伝|せんでん}",
       "label": "publicity, promotion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21468_sendenmonku",
+      "reading": "せんでんもんく",
+      "headword": "{宣伝文句|せんでんもんく}",
+      "label": "advertising slogan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23406_chirashi",
+      "reading": "ちらし",
+      "headword": "チラシ",
+      "label": "flyer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23840_kouhoukatsudou",
+      "reading": "こうほうかつどう",
+      "headword": "{広報活動|こうほうかつどう}",
+      "label": "public relations activities"
+    },
+    {
+      "type": "homophone",
+      "target_id": "24565_koukoku",
+      "reading": "こうこく",
+      "headword": "{公告|こうこく}",
+      "label": "public notice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27372_poppu",
+      "reading": "ぽっぷ",
+      "headword": "ポップ",
+      "label": "pop (music genre)"
     }
   ],
   "metadata": {
     "created": "2026-01-11T07:49:45Z",
-    "modified": "2026-08-12T06:29:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

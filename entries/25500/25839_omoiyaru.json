@@ -3,7 +3,7 @@
   "headword": "{思|おも}いやる",
   "reading": "おもいやる",
   "romaji": "omoiyaru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to sympathize with; to be considerate of; to show compassion for",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "A compound verb from {思|おも}う (to think) + やる (to give/send). The やる component carries the nuance of directing one's thoughts toward someone else. The noun form {思|おも}いやり (consideration, compassion) is even more commonly used and is considered a core Japanese cultural value.\n\nTRANSITIVITY:\nTransitive. Takes を to mark the person being empathized with.\n\nCOMMON COLLOCATIONS:\n- {相手|あいて}を{思|おも}いやる: to be considerate of the other person\n- {他人|たにん}を{思|おも}いやる: to show compassion for others\n- {思|おも}いやりのある{人|ひと}: a considerate/compassionate person\n- {思|おも}いやりに{欠|か}ける: to lack consideration\n\nSIMILAR WORDS:\n- {気|き}を{遣|つか}う: to be attentive; to show concern — focuses on adjusting one's behavior, not emotional empathy\n- {同情|どうじょう}する: to sympathize — can imply pity, which {思|おも}いやる does not\n- {労|いたわ}る: to show kindness to; to care for — implies concrete acts of care, especially for the weak or ill",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25831_kiwotsukau",
+      "reading": "きをつかう",
+      "headword": "{気|き}を{遣|つか}う",
+      "label": "to be attentive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18037_doujousuru",
+      "reading": "どうじょうする",
+      "headword": "{同情|どうじょう}する",
+      "label": "to sympathize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26831_hairyosuru",
+      "reading": "はいりょする",
+      "headword": "{配慮|はいりょ}する",
+      "label": "to give consideration"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,6 +75,8 @@
       "pos": [
         "verb-godan"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "social",
         "emotion"
@@ -61,7 +85,7 @@
       "transitivity": "transitive"
     },
     "created": "2026-04-27T15:09:29Z",
-    "modified": "2026-04-27T15:09:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

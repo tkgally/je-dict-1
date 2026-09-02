@@ -44,20 +44,58 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {被災|ひさい} (suffering a disaster) and {者|しゃ} (person). Very frequently used in news reports about earthquakes, typhoons, floods, and other natural disasters in Japan. The word is neutral and respectful — it does not imply helplessness, and is increasingly translated as \"disaster survivor\" in English.\n\nCOMMON COLLOCATIONS:\n- {被災者|ひさいしゃ}{支援|しえん}: disaster victim support\n- {被災者|ひさいしゃ}を{救援|きゅうえん}する: to provide relief to disaster victims\n- {被災者|ひさいしゃ}{生活|せいかつ}{再建|さいけん}: rebuilding disaster victims' lives\n- {被災者|ひさいしゃ}{向|む}け: for disaster victims\n- {被災者|ひさいしゃ}{数|すう}: number of people affected\n\nRELATED TERMS:\n- {被災地|ひさいち}: disaster-affected area\n- {被害者|ひがいしゃ}: victim (of crime or accident) — broader term, not specific to disasters\n- {罹災者|りさいしゃ}: disaster sufferer — more formal/legal synonym, less common in everyday use\n- {避難者|ひなんしゃ}: evacuee — a person who has fled, not necessarily a victim",
+  "notes": "A compound of {被災|ひさい} (suffering a disaster) and {者|しゃ} (person). Very frequently used in news reports about earthquakes, typhoons, floods, and other natural disasters in Japan. The word is neutral and respectful — it does not imply helplessness, and is increasingly translated as \"disaster survivor\" in English.\n\nCOMMON COLLOCATIONS:\n- {被災者|ひさいしゃ}{支援|しえん}: disaster victim support\n- {被災者|ひさいしゃ}を{救援|きゅうえん}する: to provide relief to disaster victims\n- {被災者|ひさいしゃ}{生活|せいかつ}{再建|さいけん}: rebuilding disaster victims' lives\n- {被災者|ひさいしゃ}{向|む}け: for disaster victims\n- {被災者|ひさいしゃ}{数|すう}: number of people affected\n\nRELATED WORDS:\n- {被災地|ひさいち}: disaster-affected area\n- {被害者|ひがいしゃ}: victim (of crime or accident) — broader term, not specific to disasters\n- {罹災者|りさいしゃ}: disaster sufferer — more formal/legal synonym, less common in everyday use\n- {避難者|ひなんしゃ}: evacuee — a person who has fled, not necessarily a victim",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27434_hisaichi",
+      "reading": "ひさいち",
+      "headword": "{被災地|ひさいち}",
+      "label": "disaster-affected area"
+    },
+    {
+      "type": "related",
+      "target_id": "14106_higaisha",
+      "reading": "ひがいしゃ",
+      "headword": "{被害者|ひがいしゃ}",
+      "label": "victim"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21241_seizonsha",
+      "reading": "せいぞんしゃ",
+      "headword": "{生存者|せいぞんしゃ}",
+      "label": "survivor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27894_sounansha",
+      "reading": "そうなんしゃ",
+      "headword": "遭難者",
+      "label": "victim of an accident"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29875_shoubyousha",
+      "reading": "しょうびょうしゃ",
+      "headword": "傷病者",
+      "label": "injured or sick person"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "society",
         "nature"
       ]
     },
     "created": "2026-04-24T15:23:35Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

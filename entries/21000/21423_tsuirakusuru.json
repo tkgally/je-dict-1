@@ -3,7 +3,7 @@
   "headword": "{墜落|ついらく}する",
   "reading": "ついらくする",
   "romaji": "tsuirakusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to crash; to plummet",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "A compound of {墜|つい} (to fall) and {落|らく} (to drop). Primarily used for aircraft crashes and falls from high places. The word carries a sense of sudden, violent, uncontrolled descent, unlike a gentle or planned descent.\n\nCOMMON COLLOCATIONS:\n- {飛行機|ひこうき}が{墜落|ついらく}する: an airplane crashes\n- {墜落|ついらく}{事故|じこ}: crash accident\n- {墜落|ついらく}{現場|げんば}: crash site\n- {墜落|ついらく}{原因|げんいん}: cause of a crash\n\nSIMILAR WORDS:\n- {落下|らっか}する: to fall, to drop — a more general and neutral term for falling; can apply to any object\n- {転落|てんらく}する: to fall, to tumble down — implies rolling or tumbling, often from a ledge or stairs\n- {不時着|ふじちゃく}する: to make an emergency landing — a controlled crash landing, less catastrophic",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21740_rakkasuru",
+      "reading": "らっかする",
+      "headword": "{落下|らっか}する",
+      "label": "to fall, to drop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19790_tenraku",
+      "reading": "てんらく",
+      "headword": "{転落|てんらく}",
+      "label": "to fall, to tumble down"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +76,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T03:19:16Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

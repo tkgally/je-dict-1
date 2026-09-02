@@ -2,7 +2,7 @@
   "id": "07690_shichaku",
   "headword": "{試着|しちゃく}",
   "reading": "しちゃく",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "trying on clothes; fitting",
   "conjugation": {
     "type": "suru",
@@ -131,9 +131,39 @@
     }
   ],
   "notes": "{試着|しちゃく} refers specifically to trying on clothing or accessories in a store before purchasing. It combines {試|し} (try, test) and {着|ちゃく} (wearing).\n\nCOMMON PATTERNS:\n- {試着|しちゃく}する: to try on (clothes)\n- {試着|しちゃく}してもいいですか: May I try this on? (standard polite request)\n- {試着|しちゃく}してみる: to try something on (tentatively)\n\nCOMPOUNDS:\n- {試着室|しちゃくしつ}: fitting room, changing room\n\nSHOPPING NOTES:\nIn Japanese stores, always ask before trying on clothes. Some stores limit the number of items you can bring into the fitting room. Shoes can also be {試着|しちゃく}する.\n\nRELATED WORDS:\n- {試飲|しいん}: drink tasting\n- {試食|ししょく}: food tasting\n- {着替|きが}える: to change clothes",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08048_shiin",
+      "reading": "しいん",
+      "headword": "{試飲|しいん}",
+      "label": "drink tasting"
+    },
+    {
+      "type": "related",
+      "target_id": "03060_shishoku",
+      "reading": "ししょく",
+      "headword": "{試食|ししょく}",
+      "label": "food tasting"
+    },
+    {
+      "type": "related",
+      "target_id": "04603_kigaeru",
+      "reading": "きがえる",
+      "headword": "{着替|きが}える",
+      "label": "to change clothes"
+    },
+    {
+      "type": "related",
+      "target_id": "09626_shichakushitsu",
+      "reading": "しちゃくしつ",
+      "headword": "{試着室|しちゃくしつ}",
+      "label": "fitting room, changing room"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-04-02T08:18:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +172,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "shopping",
         "clothing"

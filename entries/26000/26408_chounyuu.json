@@ -3,7 +3,7 @@
   "headword": "{調乳|ちょうにゅう}",
   "reading": "ちょうにゅう",
   "romaji": "chounyuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "preparing formula; making up milk",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Composed of {調|ちょう} (prepare, mix) and {乳|にゅう} (milk). A specialized parenting term that new parents quickly learn. The WHO recommends preparing formula with water at 70°C or above to kill potentially harmful bacteria, then cooling to body temperature before feeding.\n\nCOMMON COLLOCATIONS:\n- {調乳|ちょうにゅう}する: to prepare formula\n- {調乳|ちょうにゅう}ポット: formula prep kettle/machine\n- {調乳|ちょうにゅう}{用|よう}のお{湯|ゆ}: water for preparing formula\n- {調乳|ちょうにゅう}{温度|おんど}: formula preparation temperature\n- {調乳|ちょうにゅう}スペース: formula preparation area (in public facilities)\n\nCULTURAL NOTE:\nMany Japanese shopping malls, department stores, and public facilities provide dedicated {調乳|ちょうにゅう}スペース or {授乳室|じゅにゅうしつ} (nursing rooms) where parents can prepare bottles with hot water provided.\n\nSIMILAR WORDS:\n- {授乳|じゅにゅう}: breastfeeding, nursing — feeding directly from the breast\n- {哺乳瓶|ほにゅうびん}: baby bottle — the container used for feeding\n- {粉|こな}ミルク: powdered formula — the product that is mixed with water",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14937_junyuu",
+      "reading": "じゅにゅう",
+      "headword": "{授乳|じゅにゅう}",
+      "label": "breastfeeding, nursing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20671_honyuubin",
+      "reading": "ほにゅうびん",
+      "headword": "{哺乳瓶|ほにゅうびん}",
+      "label": "baby bottle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21060_konamiruku",
+      "reading": "こなみるく",
+      "headword": "{粉|こな}ミルク",
+      "label": "powdered formula"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +76,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "family",
         "daily-life"
@@ -61,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-01T14:12:16Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

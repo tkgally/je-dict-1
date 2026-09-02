@@ -3,7 +3,7 @@
   "id": "14024_hokyou",
   "headword": "{補強|ほきょう}",
   "reading": "ほきょう",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reinforcement; strengthening",
   "conjugation": {
     "type": "suru",
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "A compound of {補|ほ} (supplement, compensate) and {強|きょう} (strong). Can be used as a noun or as a suru verb ({補強|ほきょう}する).\n\nPARTICLE PATTERNS:\n- [thing]を{補強|ほきょう}する (reinforce something)\n\nCOMMON COLLOCATIONS:\n- {建物|たてもの}を{補強|ほきょう}する (reinforce a building)\n- {戦力|せんりょく}を{補強|ほきょう}する (strengthen one's fighting force/team)\n- {論拠|ろんきょ}を{補強|ほきょう}する (reinforce an argument)\n- {耐震|たいしん}{補強|ほきょう} (seismic reinforcement)\n- {補強|ほきょう}{工事|こうじ} (reinforcement construction)\n\nCommonly used in construction (earthquake-proofing), sports (strengthening a team roster through trades or signings), and academic or business contexts (bolstering an argument or position).",
-  "cross_references": [],
+  "notes": "A compound of {補|ほ} (supplement, compensate) and {強|きょう} (strong). Can be used as a noun or as a suru verb ({補強|ほきょう}する).\n\nCOMMON PATTERNS:\n- [thing]を{補強|ほきょう}する (reinforce something)\n\nCOMMON COLLOCATIONS:\n- {建物|たてもの}を{補強|ほきょう}する (reinforce a building)\n- {戦力|せんりょく}を{補強|ほきょう}する (strengthen one's fighting force/team)\n- {論拠|ろんきょ}を{補強|ほきょう}する (reinforce an argument)\n- {耐震|たいしん}{補強|ほきょう} (seismic reinforcement)\n- {補強|ほきょう}{工事|こうじ} (reinforcement construction)\n\nCommonly used in construction (earthquake-proofing), sports (strengthening a team roster through trades or signings), and academic or business contexts (bolstering an argument or position).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19103_zoukyou",
+      "reading": "ぞうきょう",
+      "headword": "{増強|ぞうきょう}",
+      "label": "reinforcement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25344_kyoukasuru",
+      "reading": "きょうかする",
+      "headword": "{強化|きょうか}する",
+      "label": "to strengthen"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T09:18:34Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

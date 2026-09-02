@@ -2,7 +2,7 @@
   "id": "00114_horu",
   "headword": "{彫|ほ}る",
   "reading": "ほる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to carve, to engrave",
   "conjugation": {
     "type": "godan",
@@ -203,7 +203,7 @@
       ]
     }
   ],
-  "notes": "{彫|ほ}る means to carve or engrave into a hard surface.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes を particle: ⟦{像|ぞう}→像：03691_zou⟧⟦を→を：00422_wo⟧{彫|ほ}る\n\nCOMMON PATTERNS:\n- ⟦{彫刻|ちょうこく}→彫刻：04448_choukoku⟧: sculpture, carving\n- ⟦{木彫|きぼ}り→木彫り：07063_kibori⟧: woodcarving\n- ⟦{彫|ほ}り{物|もの}→彫り物：27327_horimono⟧: carving, engraving\n- {彫|ほ}り⟦が→が：00051_ga⟧⟦{深|ふか}い→深い：01211_fukai⟧: having well-defined features (of a face)\n\nHOMOPHONE:\n- ⟦{掘|ほ}る→掘る：00442_horu⟧ (to dig) has the same reading but different meaning and kanji.\n- {彫|ほ}る: to carve INTO a surface\n- ⟦{掘|ほ}る→掘る：00442_horu⟧: to dig OUT from the ground",
+  "notes": "{彫|ほ}る means to carve or engrave into a hard surface.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes を particle: ⟦{像|ぞう}→像：03691_zou⟧⟦を→を：00422_wo⟧{彫|ほ}る\n\nCOMMON PATTERNS:\n- ⟦{彫刻|ちょうこく}→彫刻：04448_choukoku⟧: sculpture, carving\n- ⟦{木彫|きぼ}り→木彫り：07063_kibori⟧: woodcarving\n- ⟦{彫|ほ}り{物|もの}→彫り物：27327_horimono⟧: carving, engraving\n- {彫|ほ}り⟦が→が：00051_ga⟧⟦{深|ふか}い→深い：01211_fukai⟧: having well-defined features (of a face)\n\nWATCH OUT:\n- ⟦{掘|ほ}る→掘る：00442_horu⟧ (to dig) has the same reading but different meaning and kanji.\n- {彫|ほ}る: to carve INTO a surface\n- ⟦{掘|ほ}る→掘る：00442_horu⟧: to dig OUT from the ground",
   "cross_references": [
     {
       "type": "related",
@@ -211,11 +211,32 @@
       "headword": "{掘|ほ}る",
       "label": "to dig (homophone)",
       "target_id": "00442_horu"
+    },
+    {
+      "type": "related",
+      "target_id": "03922_kezuru",
+      "reading": "けずる",
+      "headword": "{削|けず}る",
+      "label": "to shave, to plane, to whittle"
+    },
+    {
+      "type": "related",
+      "target_id": "07092_choukokuka",
+      "reading": "ちょうこくか",
+      "headword": "{彫刻家|ちょうこくか}",
+      "label": "sculptor"
+    },
+    {
+      "type": "related",
+      "target_id": "27327_horimono",
+      "reading": "ほりもの",
+      "headword": "{彫|ほ}り{物|もの}",
+      "label": "carving"
     }
   ],
   "metadata": {
     "created": "2026-01-13T00:40:50Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

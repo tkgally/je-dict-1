@@ -3,7 +3,7 @@
   "headword": "ローテンション",
   "reading": "ろーてんしょん",
   "romaji": "rootenshon",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "low-energy; subdued; in low spirits",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "29699_rootenshon_ex1",
       "japanese": "{今日|きょう}は{朝|あさ}からローテンションだ。",
       "english": "I've been low-energy since this morning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29699_rootenshon_ex2",
       "japanese": "{彼|かれ}はいつもローテンションな{話|はな}し{方|かた}をする。",
       "english": "He always talks in a subdued way.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,41 @@
       "id": "29699_rootenshon_ex3",
       "japanese": "{寝不足|ねぶそく}のせいか、みんなローテンションで{会議|かいぎ}が{盛|も}り{上|あ}がらなかった。",
       "english": "Maybe from lack of sleep, everyone was low-energy and the meeting never got lively.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A casual Japanese coinage from English \"low\" + \"tension.\" Note that テンション here means mood or energy level (a Japanese sense), not physical or nervous tension.\n\nCOMMON COLLOCATIONS:\n- ローテンションな{人|ひと}: a low-energy person\n- ローテンションで{話|はな}す: to speak in a subdued way\n- {妙|みょう}にローテンション: oddly listless\n\nSIMILAR WORDS:\n- ハイテンション: high-energy, excited — the direct antonym\n- テンションが{低|ひく}い: in low spirits — the phrase this word is built from",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "19537_haitenshon",
+      "reading": "はいてんしょん",
+      "headword": "ハイテンション",
+      "label": "high-energy, excited"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "informal",
-      "politeness": null,
-      "semantic": ["emotion"],
-      "domain": ["colloquial"]
+      "politeness": "plain",
+      "semantic": [
+        "emotion"
+      ],
+      "domain": [
+        "colloquial"
+      ]
     },
     "created": "2026-07-06T09:17:25Z",
-    "modified": "2026-07-06T09:17:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

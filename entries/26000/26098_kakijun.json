@@ -17,7 +17,9 @@
       "id": "26098_kakijun_ex1",
       "japanese": "{書|か}き{順|じゅん}を{覚|おぼ}える。",
       "english": "To learn the stroke order.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26098_kakijun_ex2",
       "japanese": "この{漢字|かんじ}の{書|か}き{順|じゅん}は{間違|まちが}えやすい。",
       "english": "The stroke order of this kanji is easy to get wrong.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,43 @@
       "id": "26098_kakijun_ex3",
       "japanese": "{小学校|しょうがっこう}では{書|か}き{順|じゅん}を{正|ただ}しく{習|なら}うことが{大切|たいせつ}だとされている。",
       "english": "In elementary school, it is considered important to learn stroke order correctly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The standard order in which strokes of a character are written. Japanese education places great emphasis on correct stroke order from elementary school, and it is tested in school exams. Following proper stroke order helps produce balanced, legible characters and builds muscle memory for faster writing.\n\nCOMMON COLLOCATIONS:\n- {書|か}き{順|じゅん}を{覚|おぼ}える: to memorize stroke order\n- {書|か}き{順|じゅん}が{違|ちが}う: the stroke order is wrong\n- {正|ただ}しい{書|か}き{順|じゅん}: correct stroke order\n- {書|か}き{順|じゅん}を{確認|かくにん}する: to check the stroke order\n\nSIMILAR WORDS:\n- {筆順|ひつじゅん}: stroke order — a more formal synonym used in textbooks and dictionaries; same meaning\n- {画数|かくすう}: stroke count — the total number of strokes in a character, not the order",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15242_hitsujun",
+      "reading": "ひつじゅん",
+      "headword": "{筆順|ひつじゅん}",
+      "label": "stroke order"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13581_kakusuu",
+      "reading": "かくすう",
+      "headword": "{画数|かくすう}",
+      "label": "stroke count"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["language"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "language"
+      ]
     },
     "created": "2026-04-29T13:32:49Z",
-    "modified": "2026-04-29T13:32:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

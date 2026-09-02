@@ -17,7 +17,9 @@
       "id": "20194_kenjutsu_ex1",
       "japanese": "{剣術|けんじゅつ}を{学|まな}ぶ。",
       "english": "To learn swordsmanship.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20194_kenjutsu_ex2",
       "japanese": "{彼|かれ}は{幼|おさな}い{頃|ころ}から{剣術|けんじゅつ}の{稽古|けいこ}をしていた。",
       "english": "He had been practicing swordsmanship since he was a child.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,66 @@
       "id": "20194_kenjutsu_ex3",
       "japanese": "この{時代劇|じだいげき}は{迫力|はくりょく}のある{剣術|けんじゅつ}の{場面|ばめん}で{人気|にんき}がある。",
       "english": "This period drama is popular for its powerful sword fighting scenes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {剣|けん} (sword) + {術|じゅつ} (technique/art). Refers to traditional Japanese sword-fighting techniques, especially those developed by samurai during the feudal period.\n\nCOMMON COLLOCATIONS:\n- {剣術|けんじゅつ}の{稽古|けいこ}: sword practice\n- {剣術|けんじゅつ}の{達人|たつじん}: master swordsman\n- {剣術|けんじゅつ}{道場|どうじょう}: swordsmanship dojo\n- {剣術|けんじゅつ}{流派|りゅうは}: school of swordsmanship\n\nSIMILAR WORDS:\n- {剣道|けんどう}: kendo — the modern competitive sport derived from swordsmanship, using bamboo swords and protective armor\n- {居合|いあい}: iaido/iaijutsu — the art of drawing and cutting with a sword in a single motion\n- {武術|ぶじゅつ}: martial arts — a broader term covering all fighting arts\n\n{剣術|けんじゅつ} emphasizes practical combat technique with a real blade, while {剣道|けんどう} is the modern sport form focused on character development.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04452_kendou",
+      "reading": "けんどう",
+      "headword": "{剣道|けんどう}",
+      "label": "kendo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13244_bujutsu",
+      "reading": "ぶじゅつ",
+      "headword": "{武術|ぶじゅつ}",
+      "label": "martial arts"
+    },
+    {
+      "type": "related",
+      "target_id": "11912_kenshi",
+      "reading": "けんし",
+      "headword": "{剣士|けんし}",
+      "label": "swordsman, fencer, sword fighter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23810_boujutsu",
+      "reading": "ぼうじゅつ",
+      "headword": "{棒術|ぼうじゅつ}",
+      "label": "the art of the staff (a Japanese martial art)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28037_joujutsu",
+      "reading": "じょうじゅつ",
+      "headword": "杖術",
+      "label": "jojutsu"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["martial-arts", "culture"]
+      "semantic": [
+        "martial-arts",
+        "culture"
+      ]
     },
     "created": "2026-03-28T16:19:29Z",
-    "modified": "2026-03-28T16:19:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

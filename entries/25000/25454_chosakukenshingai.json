@@ -17,7 +17,9 @@
       "id": "25454_chosakukenshingai_ex1",
       "japanese": "{著作権|ちょさくけん}{侵害|しんがい}で{訴|うった}えられた。",
       "english": "They were sued for copyright infringement.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25454_chosakukenshingai_ex2",
       "japanese": "{無断|むだん}{転載|てんさい}は{著作権|ちょさくけん}{侵害|しんがい}にあたる。",
       "english": "Unauthorized reproduction constitutes copyright infringement.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,44 @@
       "id": "25454_chosakukenshingai_ex3",
       "japanese": "インターネット{上|じょう}の{著作権|ちょさくけん}{侵害|しんがい}は{年々|ねんねん}{増加|ぞうか}しており、{対策|たいさく}が{急|きゅう}がれている。",
       "english": "Copyright infringement on the internet is increasing year by year, and countermeasures are urgently needed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {著作権|ちょさくけん} (copyright) and {侵害|しんがい} (infringement, violation). A common legal and news term, especially relevant in discussions about digital content, AI-generated works, and internet piracy.\n\nCOMMON COLLOCATIONS:\n- {著作権|ちょさくけん}{侵害|しんがい}で{訴|うった}える: to sue for copyright infringement\n- {著作権|ちょさくけん}{侵害|しんがい}にあたる: to constitute copyright infringement\n- {著作権|ちょさくけん}{侵害|しんがい}を{主張|しゅちょう}する: to claim copyright infringement\n- {著作権|ちょさくけん}{侵害|しんがい}{対策|たいさく}: copyright infringement countermeasures\n\nSIMILAR WORDS:\n- {著作権|ちょさくけん}{違反|いはん}: copyright violation — essentially synonymous, slightly less formal\n- {海賊版|かいぞくばん}: pirated edition — a specific form of copyright infringement involving copied works\n- {盗作|とうさく}: plagiarism — presenting someone else's work as one's own",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21234_kaizokuban",
+      "reading": "かいぞくばん",
+      "headword": "{海賊版|かいぞくばん}",
+      "label": "pirated edition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18034_tousaku",
+      "reading": "とうさく",
+      "headword": "{盗作|とうさく}",
+      "label": "plagiarism"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["law", "technology"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "law",
+        "technology"
+      ]
     },
     "created": "2026-04-25T13:35:15Z",
-    "modified": "2026-04-25T13:35:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

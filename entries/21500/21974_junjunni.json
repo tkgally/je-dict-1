@@ -17,7 +17,9 @@
       "id": "21974_junjunni_ex1",
       "japanese": "{順々|じゅんじゅん}に{並|なら}んでください。",
       "english": "Please line up in order.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21974_junjunni_ex2",
       "japanese": "{生徒|せいと}たちが{順々|じゅんじゅん}に{発表|はっぴょう}した。",
       "english": "The students presented one after another.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "21974_junjunni_ex3",
       "japanese": "{申込|もうしこ}みを{受|う}け{付|つ}けた{順|じゅん}に、{順々|じゅんじゅん}にご{案内|あんない}いたします。",
       "english": "We will serve you in turn, in the order applications were received.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed by reduplication of {順|じゅん} (order, turn) plus the particle に. The reduplication emphasizes the sequential, one-by-one nature of the process.\n\nCOMMON COLLOCATIONS:\n- {順々|じゅんじゅん}に{並|なら}ぶ: to line up in order\n- {順々|じゅんじゅん}に{回|まわ}す: to pass around in turn\n- {順々|じゅんじゅん}に{進|すす}む: to proceed in order\n- {順々|じゅんじゅん}に{呼|よ}ぶ: to call one by one\n\nSIMILAR WORDS:\n- {順番|じゅんばん}に: in order — very similar; {順々|じゅんじゅん}に emphasizes the one-after-another rhythm more\n- {次々|つぎつぎ}に: one after another — implies rapid succession, possibly without a fixed order; {順々|じゅんじゅん}に implies a specific sequence\n- {交代|こうたい}で: taking turns — implies rotation; {順々|じゅんじゅん}に implies a fixed sequence",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03283_junban",
+      "reading": "じゅんばん",
+      "headword": "{順番|じゅんばん}",
+      "label": "in order"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03522_tsugitsugi",
+      "reading": "つぎつぎ",
+      "headword": "{次々|つぎつぎ}",
+      "label": "one after another"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20741_junni",
+      "reading": "じゅんに",
+      "headword": "{順|じゅん}に",
+      "label": "in order"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["sequence"]
+      "semantic": [
+        "sequence"
+      ]
     },
     "created": "2026-04-04T18:26:50Z",
-    "modified": "2026-04-04T18:26:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

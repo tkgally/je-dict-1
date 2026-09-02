@@ -3,7 +3,7 @@
   "headword": "{客演|きゃくえん}",
   "reading": "きゃくえん",
   "romaji": "kyakuen",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "guest performance; guest appearance",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Used of the performing arts — concerts, theater, opera, ballet. The guest is invited from outside the regular company for a particular production.\n\nCOMMON COLLOCATIONS:\n- {客演|きゃくえん}{指揮者|しきしゃ}: guest conductor\n- {客演|きゃくえん}する: to appear as a guest performer\n- {客演|きゃくえん}を{迎|むか}える: to welcome a guest performer\n\nSIMILAR WORDS:\n- {出演|しゅつえん}: appearing/performing (in general) — does not imply being an outside guest\n- {共演|きょうえん}: co-starring — performing together with others, from the performers' point of view",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11732_shutsuen",
+      "reading": "しゅつえん",
+      "headword": "{出演|しゅつえん}",
+      "label": "appearing/performing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11676_kyouen",
+      "reading": "きょうえん",
+      "headword": "{共演|きょうえん}",
+      "label": "co-starring"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "entertainment"
       ],
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-21T18:18:56Z",
-    "modified": "2026-07-21T18:25:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

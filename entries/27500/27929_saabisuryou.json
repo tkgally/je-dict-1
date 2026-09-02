@@ -46,6 +46,29 @@
   ],
   "notes": "Compound of サービス (service) + {料|りょう} (fee, charge). Japan has no tipping custom, so a service charge added to the bill plays a similar role at upscale venues.\n\nCOMMON COLLOCATIONS:\n- サービス{料|りょう}{込|こ}み: service charge included\n- サービス{料|りょう}{別|べつ}: service charge not included\n- サービス{料|りょう}がかかる: a service charge applies\n\nSIMILAR WORDS:\n- {消費税|しょうひぜい}: consumption tax — a government tax, not a service fee\n- {手数料|てすうりょう}: handling fee; commission — charged for processing, not service",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04803_shouhizei",
+      "reading": "しょうひぜい",
+      "headword": "{消費税|しょうひぜい}",
+      "label": "consumption tax"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05423_tesuuryou",
+      "reading": "てすうりょう",
+      "headword": "{手数料|てすうりょう}",
+      "label": "handling fee"
+    },
+    {
+      "type": "related",
+      "target_id": "07142_shukuhakuryou",
+      "reading": "しゅくはくりょう",
+      "headword": "{宿泊料|しゅくはくりょう}",
+      "label": "accommodation fee"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "business",
         "money"
@@ -61,6 +84,6 @@
       "domain": []
     },
     "created": "2026-05-23T03:06:48Z",
-    "modified": "2026-08-08T03:24:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,35 +17,75 @@
       "japanese": "{大根|だいこん}の{味噌漬|みそづ}けを{作|つく}った。",
       "english": "I made miso-pickled daikon radish.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "24781_misozuke_ex2",
       "japanese": "{味噌漬|みそづ}けの{魚|さかな}は{焼|や}くと{香|こう}ばしい。",
       "english": "Miso-pickled fish smells wonderful when grilled.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "24781_misozuke_ex3",
       "japanese": "おばあちゃんの{味噌漬|みそづ}けは{何日|なんにち}も{漬|つ}け{込|こ}んであるので{味|あじ}が{深|ふか}い。",
       "english": "Grandma's miso pickles have a deep flavor because they've been pickling for many days.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A traditional Japanese preservation and cooking method where food is packed in miso paste. The miso both flavors and preserves the food. Common items include vegetables ({野菜|やさい}), fish ({魚|さかな}), and tofu.\n\nCOMMON COLLOCATIONS:\n- {味噌漬|みそづ}けの{野菜|やさい}: miso-pickled vegetables\n- {味噌漬|みそづ}けにする: to pickle in miso\n- {西京|さいきょう}{味噌漬|みそづ}け: Saikyo miso marinade (sweet white miso, popular for fish)\n\nSIMILAR WORDS:\n- {塩漬|しおづ}け: salt-pickled (preserved in salt)\n- {粕漬|かすづ}け: sake lees pickle (preserved in sake lees)\n- {漬物|つけもの}: pickles (general term for Japanese pickled foods)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09008_shiozuke",
+      "reading": "しおづけ",
+      "headword": "{塩漬|しおづ}け",
+      "label": "salt-pickled"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08230_kasuzuke",
+      "reading": "かすづけ",
+      "headword": "{粕漬|かすづ}け",
+      "label": "sake lees pickle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04938_tsukemono",
+      "reading": "つけもの",
+      "headword": "{漬物|つけもの}",
+      "label": "pickles"
+    },
+    {
+      "type": "related",
+      "target_id": "08229_suzuke",
+      "reading": "すづけ",
+      "headword": "{酢漬|すづ}け",
+      "label": "vinegar pickle"
+    }
+  ],
   "metadata": {
     "created": "2026-04-20T15:26:46Z",
-    "modified": "2026-04-20T15:26:46Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

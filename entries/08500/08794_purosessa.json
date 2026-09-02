@@ -16,7 +16,9 @@
       "id": "08794_purosessa_ex1",
       "japanese": "このパソコンは{高性能|こうせいのう}なプロセッサを{搭載|とうさい}している。",
       "english": "This computer is equipped with a high-performance processor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "08794_purosessa_ex2",
       "japanese": "プロセッサの{速度|そくど}が{上|あ}がった。",
       "english": "The processor speed increased.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,22 +36,54 @@
       "id": "08794_purosessa_ex3",
       "japanese": "{最新|さいしん}のスマホには{強力|きょうりょく}なプロセッサが{入|はい}っている。",
       "english": "The latest smartphones have powerful processors.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "COMPUTING TERM:\nプロセッサ (processor) is often used interchangeably with CPU (シーピーユー, Central Processing Unit).\n\nTYPES:\n- CPU - {中央|ちゅうおう}{演算|えんざん}{処理|しょり}{装置|そうち}\n- GPU (グラフィックプロセッサ) - graphics processor\n- マイクロプロセッサ - microprocessor\n\nCOMMON COLLOCATIONS:\n- プロセッサ{速度|そくど} - processor speed\n- デュアルコアプロセッサ - dual-core processor\n- プロセッサを{搭載|とうさい}する - to be equipped with a processor\n- プロセッサの{性能|せいのう} - processor performance\n\nRELATED TERMS:\n- メモリ - memory\n- チップ - chip\n- {演算|えんざん}{処理|しょり} - computational processing",
+  "notes": "COMPUTING TERM:\nプロセッサ (processor) is often used interchangeably with CPU (シーピーユー, Central Processing Unit).\n\nTYPES:\n- CPU - {中央|ちゅうおう}{演算|えんざん}{処理|しょり}{装置|そうち}\n- GPU (グラフィックプロセッサ) - graphics processor\n- マイクロプロセッサ - microprocessor\n\nCOMMON COLLOCATIONS:\n- プロセッサ{速度|そくど} - processor speed\n- デュアルコアプロセッサ - dual-core processor\n- プロセッサを{搭載|とうさい}する - to be equipped with a processor\n- プロセッサの{性能|せいのう} - processor performance\n\nRELATED WORDS:\n- メモリ - memory\n- チップ - chip\n- {演算|えんざん}{処理|しょり} - computational processing",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11019_chippu",
+      "reading": "ちっぷ",
+      "headword": "チップ",
+      "label": "chip"
+    },
+    {
+      "type": "related",
+      "target_id": "23594_enzanshori",
+      "reading": "えんざんしょり",
+      "headword": "{演算処理|えんざんしょり}",
+      "label": "computational processing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23630_shorisouchi",
+      "reading": "しょりそうち",
+      "headword": "{処理装置|しょりそうち}",
+      "label": "processing unit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technology"],
-      "domain": ["technical", "colloquial"]
+      "semantic": [
+        "technology"
+      ],
+      "domain": [
+        "technical",
+        "colloquial"
+      ]
     },
     "created": "2026-01-28T11:27:48Z",
-    "modified": "2026-01-28T11:27:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

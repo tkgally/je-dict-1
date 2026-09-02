@@ -46,12 +46,30 @@
   ],
   "notes": "A banking term for automatic deduction of payments from a bank account. Extremely common in daily life in Japan for paying recurring bills such as rent, utilities, insurance, and subscriptions. The process typically requires filling out a form at the bank with the registered seal ({届出印|とどけでいん}).\n\nCOMMON COLLOCATIONS:\n- {自動|じどう}{引|ひ}き{落|お}としにする: to set up automatic withdrawal\n- {自動|じどう}{引|ひ}き{落|お}としの{手続|てつづ}き: automatic withdrawal procedure\n- {口座|こうざ}{引|ひ}き{落|お}とし: account debit (synonym)\n\nSIMILAR WORDS:\n- {口座|こうざ}{振替|ふりかえ} — account transfer (often interchangeable in practice)\n- {自動|じどう}{振込|ふりこみ} — automatic bank transfer (funds sent to another account)\n- {引|ひ}き{落|お}とし — withdrawal/debit (the non-automatic version)\n\nCULTURAL NOTE:\nIn Japan, automatic withdrawal is one of the most common payment methods for bills, alongside convenience store payment (コンビニ{払|ばら}い) and credit card payment.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19853_kouzafurikae",
+      "reading": "こうざふりかえ",
+      "headword": "{口座振替|こうざふりかえ}",
+      "label": "account transfer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23156_jidoufurikomi",
+      "reading": "じどうふりこみ",
+      "headword": "{自動振込|じどうふりこみ}",
+      "label": "automatic bank transfer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "finance",
         "daily-life"
@@ -59,6 +77,6 @@
       "usage_context": []
     },
     "created": "2026-04-04T22:15:46Z",
-    "modified": "2026-07-27T06:35:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {保持|ほじ} (maintaining, holding) + {者|しゃ} (person). Almost always used as a suffix-like noun in compounds.\n\nCOMMON COMPOUNDS:\n- {世界記録|せかいきろく}{保持者|ほじしゃ}: world record holder\n- タイトル{保持者|ほじしゃ}: title holder\n- {資格|しかく}{保持者|ほじしゃ}: certification holder\n- {免許|めんきょ}{保持者|ほじしゃ}: license holder\n- {株式|かぶしき}{保持者|ほじしゃ}: shareholder (rarer than {株主|かぶぬし})\n\nSIMILAR WORDS:\n- {所有者|しょゆうしゃ}: owner — for property rather than records or status\n- {持|も}ち{主|ぬし}: owner — colloquial, for everyday possessions",
+  "notes": "Composed of {保持|ほじ} (maintaining, holding) + {者|しゃ} (person). Almost always used as a suffix-like noun in compounds.\n\nCOMPOUNDS:\n- {世界記録|せかいきろく}{保持者|ほじしゃ}: world record holder\n- タイトル{保持者|ほじしゃ}: title holder\n- {資格|しかく}{保持者|ほじしゃ}: certification holder\n- {免許|めんきょ}{保持者|ほじしゃ}: license holder\n- {株式|かぶしき}{保持者|ほじしゃ}: shareholder (rarer than {株主|かぶぬし})\n\nSIMILAR WORDS:\n- {所有者|しょゆうしゃ}: owner — for property rather than records or status\n- {持|も}ち{主|ぬし}: owner — colloquial, for everyday possessions",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21212_shoyuusha",
+      "reading": "しょゆうしゃ",
+      "headword": "{所有者|しょゆうしゃ}",
+      "label": "owner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10439_mochinushi",
+      "reading": "もちぬし",
+      "headword": "{持|も}ち{主|ぬし}",
+      "label": "owner"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "person"
       ],
       "domain": []
     },
     "created": "2026-06-08T04:06:16Z",
-    "modified": "2026-08-09T06:33:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

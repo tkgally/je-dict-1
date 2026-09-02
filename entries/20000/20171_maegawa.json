@@ -17,7 +17,9 @@
       "id": "20171_maegawa_ex1",
       "japanese": "{前側|まえがわ}に{座|すわ}る。",
       "english": "To sit at the front.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20171_maegawa_ex2",
       "japanese": "{建物|たてもの}の{前側|まえがわ}に{入口|いりぐち}がある。",
       "english": "The entrance is on the front side of the building.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "20171_maegawa_ex3",
       "japanese": "このシャツは{前側|まえがわ}にポケットが{二|ふた}つ{付|つ}いている。",
       "english": "This shirt has two pockets on the front.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {前|まえ} (front) and {側|がわ} (side). Part of a set of directional compounds using {側|がわ}: {後|うし}ろ{側|がわ} (back side), {右側|みぎがわ} (right side), {左側|ひだりがわ} (left side), {片側|かたがわ} (one side).\n\nCOMMON COLLOCATIONS:\n- {前側|まえがわ}の{席|せき} — front seat\n- {前側|まえがわ}に{回|まわ}る — to go around to the front\n- {体|からだ}の{前側|まえがわ} — the front of the body\n\nSIMILAR WORDS:\n- {前面|ぜんめん} — front surface (more formal)\n- {正面|しょうめん} — the front, directly facing\n- {後|うし}ろ{側|がわ} — back side (antonym)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13189_shoumen",
+      "reading": "しょうめん",
+      "headword": "{正面|しょうめん}",
+      "label": "the front, directly facing"
+    },
+    {
+      "type": "antonym",
+      "target_id": "20172_ushirogawa",
+      "reading": "うしろがわ",
+      "headword": "{後|うし}ろ{側|がわ}",
+      "label": "back side"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["position"]
+      "semantic": [
+        "position"
+      ]
     },
     "created": "2026-03-28T15:12:49Z",
-    "modified": "2026-03-28T15:12:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

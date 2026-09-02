@@ -19,7 +19,9 @@
       "english": "I dipped the brush in the ink.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17748_bokujuu_ex2",
@@ -27,7 +29,9 @@
       "english": "We use liquid ink in calligraphy class.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17748_bokujuu_ex3",
@@ -35,22 +39,59 @@
       "english": "I got ink on my clothes and it wouldn't come out even after washing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Pre-made liquid ink used for {書道|しょどう} (calligraphy) and {水墨画|すいぼくが} (ink painting). A convenient modern alternative to the traditional method of grinding ink.\n\nCULTURE:\nIn Japanese schools, students use {墨汁|ぼくじゅう} in {書道|しょどう} class. Traditionally, ink was prepared by grinding an {墨|すみ} (ink stick) on a {硯|すずり} (inkstone) with water, but bottled {墨汁|ぼくじゅう} is far more convenient and is standard today.\n\nCOMMON COLLOCATIONS:\n- {墨汁|ぼくじゅう}をつける: to apply ink (to a brush)\n- {墨汁|ぼくじゅう}がこぼれる: the ink spills\n- {墨汁|ぼくじゅう}のしみ: an ink stain\n\nRELATED TERMS:\n- {墨|すみ}: ink stick (traditional solid form)\n- {硯|すずり}: inkstone\n- {筆|ふで}: writing brush",
-  "cross_references": [],
+  "notes": "Pre-made liquid ink used for {書道|しょどう} (calligraphy) and {水墨画|すいぼくが} (ink painting). A convenient modern alternative to the traditional method of grinding ink.\n\nCULTURAL NOTE:\nIn Japanese schools, students use {墨汁|ぼくじゅう} in {書道|しょどう} class. Traditionally, ink was prepared by grinding an {墨|すみ} (ink stick) on a {硯|すずり} (inkstone) with water, but bottled {墨汁|ぼくじゅう} is far more convenient and is standard today.\n\nCOMMON COLLOCATIONS:\n- {墨汁|ぼくじゅう}をつける: to apply ink (to a brush)\n- {墨汁|ぼくじゅう}がこぼれる: the ink spills\n- {墨汁|ぼくじゅう}のしみ: an ink stain\n\nRELATED WORDS:\n- {墨|すみ}: ink stick (traditional solid form)\n- {硯|すずり}: inkstone\n- {筆|ふで}: writing brush",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06124_suzuri",
+      "reading": "すずり",
+      "headword": "{硯|すずり}",
+      "label": "inkstone"
+    },
+    {
+      "type": "related",
+      "target_id": "03601_fude",
+      "reading": "ふで",
+      "headword": "{筆|ふで}",
+      "label": "writing brush"
+    },
+    {
+      "type": "related",
+      "target_id": "00120_inku",
+      "reading": "いんく",
+      "headword": "インク",
+      "label": "ink"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29776_kozumi",
+      "reading": "こずみ",
+      "headword": "濃墨",
+      "label": "dark ink"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T23:10:04Z",
-    "modified": "2026-04-06T04:02:27Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"],
-      "domain": ["technical"]
+      "semantic": [
+        "tool"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

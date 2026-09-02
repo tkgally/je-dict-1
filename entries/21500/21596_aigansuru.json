@@ -3,7 +3,7 @@
   "headword": "{哀願|あいがん}する",
   "reading": "あいがんする",
   "romaji": "aigansuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to plead; to beg; to entreat",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Compound of {哀|あい} (sorrow, pity) and {願|がん} (wish, request). This is a stronger and more emotional word than simply asking or requesting — it conveys desperation and an appeal to someone's compassion.\n\nCOMMON COLLOCATIONS:\n- {哀願|あいがん}するような{目|め}: pleading eyes\n- {哀願|あいがん}するような{声|こえ}: a pleading voice\n- {涙|なみだ}ながらに{哀願|あいがん}する: to plead tearfully\n- {必死|ひっし}に{哀願|あいがん}する: to plead desperately\n\nSIMILAR WORDS:\n- {懇願|こんがん}する: to entreat — earnest repeated requests, slightly less emotional\n- {嘆願|たんがん}する: to petition — formal petitioning, often in writing\n- {頼|たの}み{込|こ}む: to beg, to implore — persistent asking, less formal\n- {泣|な}きつく: to cling and cry — physically emotional begging",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25407_kongansuru",
+      "reading": "こんがんする",
+      "headword": "{懇願|こんがん}する",
+      "label": "to entreat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21595_tangan",
+      "reading": "たんがん",
+      "headword": "{嘆願|たんがん}",
+      "label": "to petition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14620_tanomikomu",
+      "reading": "たのみこむ",
+      "headword": "{頼|たの}み{込|こ}む",
+      "label": "to beg, to implore"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T17:29:02Z",
-    "modified": "2026-04-02T17:29:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

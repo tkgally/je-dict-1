@@ -3,7 +3,7 @@
   "headword": "{読|よ}み{直|なお}す",
   "reading": "よみなおす",
   "romaji": "yominaosu",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to reread; to read again",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Compound of {読|よ}む (to read) + {直|なお}す (to redo, to fix). The ～{直|なお}す suffix means to do an action over again, often to correct or improve on the first attempt.\n\nTRANSITIVITY:\nTransitive; takes を for the thing reread ({手紙|てがみ}を{読|よ}み{直|なお}す).\n\nCOMMON COLLOCATIONS:\n- もう{一度|いちど}{読|よ}み{直|なお}す: to read it once more\n- {最初|さいしょ}から{読|よ}み{直|なお}す: to reread from the start\n- {何度|なんど}も{読|よ}み{直|なお}す: to reread many times\n\nSIMILAR WORDS:\n- {読|よ}み{返|かえ}す: to read back over — very close in meaning; often interchangeable\n- {見直|みなお}す: to look over again; to reassess — broader, not limited to reading text",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07954_yomikaesu",
+      "reading": "よみかえす",
+      "headword": "{読|よ}み{返|かえ}す",
+      "label": "to read back over"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04579_minaosu",
+      "reading": "みなおす",
+      "headword": "{見直|みなお}す",
+      "label": "to look over again"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "verb-godan"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "cognition"
       ],
@@ -61,7 +77,7 @@
       "verb_class": "godan-su"
     },
     "created": "2026-07-14T18:20:29Z",
-    "modified": "2026-07-14T18:20:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

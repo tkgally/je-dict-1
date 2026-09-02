@@ -3,7 +3,7 @@
   "headword": "{生焼|なまや}け",
   "reading": "なまやけ",
   "romaji": "namayake",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "undercooked; half-baked; underdone",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Composed of {生|なま} (raw) and {焼|や}け (burning/cooking). Describes food that appears cooked on the outside but remains raw or insufficiently cooked on the inside. This is an important concept in food safety, especially with meats.\n\nCOMMON COLLOCATIONS:\n- {生焼|なまや}けの{肉|にく}: undercooked meat\n- {生焼|なまや}け{状態|じょうたい}: undercooked state\n- {中|なか}が{生焼|なまや}け: undercooked inside\n\nSIMILAR WORDS:\n- {生|なま}: raw — completely uncooked\n- レア: rare (cooking term) — borrowed from English; intentionally served lightly cooked\n- {焼|や}きすぎ: overcooked — too much cooking, the opposite problem\n- {半生|はんなま}: half-raw / semi-dried — can mean partially raw food or half-dried products like noodles",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11251_rea",
+      "reading": "れあ",
+      "headword": "レア",
+      "label": "rare"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24441_hannama",
+      "reading": "はんなま",
+      "headword": "{半生|はんなま}",
+      "label": "half-raw / semi-dried"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +76,6 @@
       ]
     },
     "created": "2026-04-05T21:08:10Z",
-    "modified": "2026-04-05T21:08:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

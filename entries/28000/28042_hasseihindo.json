@@ -17,7 +17,9 @@
       "id": "28042_hasseihindo_ex1",
       "japanese": "{事故|じこ}の{発生頻度|はっせいひんど}を{調|しら}べる。",
       "english": "Investigate the frequency of accidents.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28042_hasseihindo_ex2",
       "japanese": "このエラーの{発生頻度|はっせいひんど}は{低|ひく}い。",
       "english": "The occurrence frequency of this error is low.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "28042_hasseihindo_ex3",
       "japanese": "{地域|ちいき}ごとに{病気|びょうき}の{発生頻度|はっせいひんど}を{比較|ひかく}した。",
       "english": "We compared the incidence of the disease by region.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {発生|はっせい} (occurrence, outbreak) and {頻度|ひんど} (frequency).\n\nCOMMON COLLOCATIONS:\n- {発生頻度|はっせいひんど}が{高|たか}い／{低|ひく}い: high / low frequency of occurrence\n- {発生頻度|はっせいひんど}を{下|さ}げる: to reduce the frequency of occurrence\n\nSIMILAR WORDS:\n- {発生率|はっせいりつ}: occurrence rate, incidence rate — expressed as a proportion or percentage\n- {頻度|ひんど}: frequency — the general term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24681_shutsugenhindo",
+      "reading": "しゅつげんひんど",
+      "headword": "{出現頻度|しゅつげんひんど}",
+      "label": "frequency of occurrence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-05-24T04:10:04Z",
-    "modified": "2026-05-24T04:10:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "28524_basuroobu_ex1",
       "japanese": "ホテルにバスローブが{用意|ようい}されていた。",
       "english": "A bathrobe had been provided in the hotel.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,31 +27,56 @@
       "id": "28524_basuroobu_ex2",
       "japanese": "{風呂|ふろ}{上|あ}がりにバスローブを{羽織|はお}った。",
       "english": "I put on a bathrobe after my bath.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "28524_basuroobu_ex3",
-      "japanese": "{高級|こうきゅう}{ホテル|ほてる}のバスローブはふわふわで{気持|きも}ちがいい。",
+      "japanese": "{高級|こうきゅう}ホテルのバスローブはふわふわで{気持|きも}ちがいい。",
       "english": "The bathrobes at high-end hotels are fluffy and feel wonderful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Loanword from English \"bathrobe.\" Not part of traditional Japanese bathing, which uses {浴衣|ゆかた} after bathing in ryokan and hot springs.\n\nCOMMON COLLOCATIONS:\n- バスローブを{着|き}る: to put on a bathrobe\n- バスローブを{羽織|はお}る: to throw on a bathrobe\n- {高級|こうきゅう}バスローブ: luxury bathrobe\n\nSIMILAR WORDS:\n- {浴衣|ゆかた}: yukata — Japanese cotton kimono, worn after bathing at ryokan\n- ガウン: gown — broader term, can include dressing gowns and academic gowns\n- パジャマ: pajamas — for sleeping, not after bathing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04081_yukata",
+      "reading": "ゆかた",
+      "headword": "{浴衣|ゆかた}",
+      "label": "yukata"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04516_pajama",
+      "reading": "ぱじゃま",
+      "headword": "パジャマ",
+      "label": "pajamas"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["clothing", "daily-life"],
+      "politeness": "plain",
+      "semantic": [
+        "clothing",
+        "daily-life"
+      ],
       "domain": []
     },
     "created": "2026-06-01T03:11:38Z",
-    "modified": "2026-06-01T03:11:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -45,7 +45,29 @@
     }
   ],
   "notes": "{鮮魚|せんぎょ} (fresh fish) + {店|てん} (shop). A traditional shop type found in shopping streets and markets throughout Japan. While supermarkets have largely replaced them for everyday shopping, {鮮魚店|せんぎょてん} remain popular at markets and in areas near fishing ports for their superior quality and expert knowledge.\n\nCOMMON COLLOCATIONS:\n- {鮮魚店|せんぎょてん}で{買|か}う — buy at a fish shop\n- {老舗|しにせ}の{鮮魚店|せんぎょてん} — long-established fish shop\n- {鮮魚店|せんぎょてん}の{店主|てんしゅ} — fish shop owner\n\nSIMILAR WORDS:\n- {魚屋|さかなや} — fish shop; fishmonger — the everyday, colloquial term\n- {鮮魚|せんぎょ} — fresh fish — the product itself\n- {魚市場|うおいちば} — fish market — a larger wholesale or retail market for fish",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14642_sakanaya",
+      "reading": "さかなや",
+      "headword": "{魚屋|さかなや}",
+      "label": "fish shop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27120_uoichiba",
+      "reading": "うおいちば",
+      "headword": "{魚市場|うおいちば}",
+      "label": "fish market"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23099_seinikuten",
+      "reading": "せいにくてん",
+      "headword": "{精肉店|せいにくてん}",
+      "label": "butcher shop"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +75,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "food",
         "shopping"
       ]
     },
     "created": "2026-04-26T16:33:57Z",
-    "modified": "2026-06-15T07:59:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

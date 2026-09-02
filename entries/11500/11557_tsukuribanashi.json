@@ -18,7 +18,9 @@
       "english": "That's a made-up story, isn't it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11557_tsukuribanashi_ex2",
@@ -26,7 +28,9 @@
       "english": "I could tell right away that the child was making up a story.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11557_tsukuribanashi_ex3",
@@ -34,22 +38,43 @@
       "english": "It was later revealed that all those rumors were fabricated stories.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {作|つく}る (to make) + {話|はなし} (story), with rendaku changing はなし to ばなし. Usually implies the story is meant to deceive, unlike {物語|ものがたり} (tale, narrative) or フィクション (fiction), which are neutral terms for creative works.\n\nCOMMON COLLOCATIONS:\n・{作|つく}り{話|ばなし}をする (make up a story, tell a lie)\n・{全|まった}くの{作|つく}り{話|ばなし} (a complete fabrication)\n・{作|つく}り{話|ばなし}だと{見抜|みぬ}く (see through a made-up story)",
-  "cross_references": [],
+  "notes": "Compound of {作|つく}る (to make) + {話|はなし} (story), with rendaku changing はなし to ばなし. Usually implies the story is meant to deceive, unlike {物語|ものがたり} (tale, narrative) or フィクション (fiction), which are neutral terms for creative works.\n\nCOMMON COLLOCATIONS:\n- {作|つく}り{話|ばなし}をする (make up a story, tell a lie)\n- {全|まった}くの{作|つく}り{話|ばなし} (a complete fabrication)\n- {作|つく}り{話|ばなし}だと{見抜|みぬ}く (see through a made-up story)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09808_kyokou",
+      "reading": "きょこう",
+      "headword": "{虚構|きょこう}",
+      "label": "fiction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26223_karabanashi",
+      "reading": "からばなし",
+      "headword": "{空話|からばなし}",
+      "label": "idle talk"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T13:18:06Z",
-    "modified": "2026-02-17T13:18:06Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

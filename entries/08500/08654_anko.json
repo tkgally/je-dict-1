@@ -16,7 +16,9 @@
       "id": "08654_anko_ex1",
       "japanese": "{大福|だいふく}の{中|なか}には{餡子|あんこ}が{入|はい}っている。",
       "english": "Daifuku has sweet bean paste inside.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "08654_anko_ex2",
       "japanese": "{餡子|あんこ}は{小豆|あずき}から{作|つく}られる。",
       "english": "Bean paste is made from azuki beans.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "08654_anko_ex3",
       "japanese": "「こしあん」と「つぶあん」、どちらの{餡子|あんこ}が{好|す}き？",
       "english": "Which bean paste do you prefer, smooth or chunky?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -52,16 +58,43 @@
       "reading": "あずき",
       "headword": "{小豆|あずき}",
       "label": "azuki bean (main ingredient)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20244_zenzai",
+      "reading": "ぜんざい",
+      "headword": "ぜんざい",
+      "label": "sweet red bean soup (with mochi)"
+    },
+    {
+      "type": "related",
+      "target_id": "20790_tsubuan",
+      "reading": "つぶあん",
+      "headword": "{粒|つぶ}あん",
+      "label": "chunky sweet bean paste"
+    },
+    {
+      "type": "related",
+      "target_id": "20791_koshian",
+      "reading": "こしあん",
+      "headword": "こしあん",
+      "label": "smooth sweet bean paste"
     }
   ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["food", "culture"]
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "culture"
+      ]
     },
     "created": "2026-01-27T13:22:41Z",
-    "modified": "2026-04-24T05:32:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -56,6 +56,43 @@
   ],
   "notes": "Composed of {旧|きゅう} (old, former) and {作|さく} (work, production). The direct antonym is {新作|しんさく} (new work/release), and the two are frequently contrasted.\n\nThe word is neutral in tone — it simply indicates that a work is not new, without implying that it is outdated or inferior. In fact, {旧作|きゅうさく} is often used when recommending older titles that are worth revisiting.\n\nCOMMON COLLOCATIONS:\n- {旧作|きゅうさく}を{観|み}る: to watch an older film\n- {旧作|きゅうさく}レンタル: rental of older titles\n- {旧作|きゅうさく}セール: sale on back catalog titles\n- {旧作|きゅうさく}も{名作|めいさく}が{多|おお}い: many older works are masterpieces too\n\nSIMILAR WORDS:\n- {新作|しんさく}: new work, new release — the direct opposite\n- {前作|ぜんさく}: previous work — specifically the one immediately before the current one, not older works in general\n- {名作|めいさく}: masterpiece — a quality judgment rather than a time-based classification",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "09523_shinsaku",
+      "reading": "しんさく",
+      "headword": "{新作|しんさく}",
+      "label": "new work, new release"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30236_zensaku",
+      "reading": "ぜんさく",
+      "headword": "{前作|ぜんさく}",
+      "label": "previous work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11869_meisaku",
+      "reading": "めいさく",
+      "headword": "{名作|めいさく}",
+      "label": "masterpiece"
+    },
+    {
+      "type": "antonym",
+      "target_id": "25174_shinsakueiga",
+      "reading": "しんさくえいが",
+      "headword": "{新作映画|しんさくえいが}",
+      "label": "new film"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26690_kurashikkueiga",
+      "reading": "くらしっくえいが",
+      "headword": "クラシック{映画|えいが}",
+      "label": "classic film"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -70,6 +107,6 @@
       ]
     },
     "created": "2026-04-17T20:08:54Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

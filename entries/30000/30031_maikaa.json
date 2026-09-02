@@ -17,7 +17,9 @@
       "id": "30031_maikaa_ex1",
       "japanese": "マイカーで{通勤|つうきん}する。",
       "english": "Commute by one's own car.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30031_maikaa_ex2",
       "japanese": "マイカーを{持|も}つのが{夢|ゆめ}だった。",
       "english": "Owning my own car was my dream.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "30031_maikaa_ex3",
       "japanese": "{都心|としん}ではマイカーより{電車|でんしゃ}の{方|ほう}が{便利|べんり}だ。",
       "english": "In the city center, trains are more convenient than a private car.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A {和製英語|わせいえいご} (Japanese-made English) coinage. It always means the owner's *own* car, not \"my car\" as literally spoken.\n\nCOMMON COLLOCATIONS:\n- マイカー{通勤|つうきん}: commuting by one's own car\n- マイカー{規制|きせい}: private-car traffic restrictions\n- マイカーを{買|か}う: to buy one's own car\n\nSIMILAR WORDS:\n- {自家用車|じかようしゃ}: privately owned car — the formal equivalent\n- {社用車|しゃようしゃ}: company car — owned by a business",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23550_jikayousha",
+      "reading": "じかようしゃ",
+      "headword": "{自家用車|じかようしゃ}",
+      "label": "privately owned car"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30053_shayousha",
+      "reading": "しゃようしゃ",
+      "headword": "{社用車|しゃようしゃ}",
+      "label": "company car"
+    },
+    {
+      "type": "related",
+      "target_id": "27323_maihoomu",
+      "reading": "まいほーむ",
+      "headword": "マイホーム",
+      "label": "one's own home (especially a privately owned house)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["transportation"],
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ],
       "domain": []
     },
     "created": "2026-07-22T12:20:02Z",
-    "modified": "2026-07-22T12:20:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "18800_shashu_ex1",
       "japanese": "{人気|にんき}の{車種|しゃしゅ}はどれですか。",
       "english": "Which car models are popular?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18800_shashu_ex2",
       "japanese": "レンタカーの{車種|しゃしゅ}を{選|えら}んでください。",
       "english": "Please choose the type of rental car.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,25 +37,54 @@
       "id": "18800_shashu_ex3",
       "japanese": "{保険料|ほけんりょう}は{車種|しゃしゅ}によって{大|おお}きく{異|こと}なる。",
       "english": "Insurance premiums vary greatly depending on the car model.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{車種|しゃしゅ} refers to the model or type of a vehicle. It covers both specific models (e.g., a particular car name) and broader categories (sedan, SUV, compact).\n\nWORD FORMATION:\n{車|しゃ} (vehicle) + {種|しゅ} (type, kind)\n\nCOMMON COLLOCATIONS:\n- {車種|しゃしゅ}を{選|えら}ぶ: to choose a car model\n- {人気|にんき}{車種|しゃしゅ}: popular car model\n- {対象|たいしょう}{車種|しゃしゅ}: applicable vehicle types\n- {車種|しゃしゅ}によって{異|こと}なる: varies by vehicle type\n\nUSAGE:\nIn rental car and insurance contexts, {車種|しゃしゅ} often refers to size class (compact, sedan, SUV) rather than a specific brand or model name.\n\nSIMILAR ～{種|しゅ} WORDS:\n- {品種|ひんしゅ}: variety, breed\n- {機種|きしゅ}: device model (phones, computers)\n- {業種|ぎょうしゅ}: type of industry",
+  "notes": "{車種|しゃしゅ} refers to the model or type of a vehicle. It covers both specific models (e.g., a particular car name) and broader categories (sedan, SUV, compact).\n\nFORMS:\n{車|しゃ} (vehicle) + {種|しゅ} (type, kind)\n\nCOMMON COLLOCATIONS:\n- {車種|しゃしゅ}を{選|えら}ぶ: to choose a car model\n- {人気|にんき}{車種|しゃしゅ}: popular car model\n- {対象|たいしょう}{車種|しゃしゅ}: applicable vehicle types\n- {車種|しゃしゅ}によって{異|こと}なる: varies by vehicle type\n\nUSAGE:\nIn rental car and insurance contexts, {車種|しゃしゅ} often refers to size class (compact, sedan, SUV) rather than a specific brand or model name.\n\nSIMILAR ～{種|しゅ} WORDS:\n- {品種|ひんしゅ}: variety, breed\n- {機種|きしゅ}: device model (phones, computers)\n- {業種|ぎょうしゅ}: type of industry",
   "synonyms": [],
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11840_hinshu",
+      "reading": "ひんしゅ",
+      "headword": "{品種|ひんしゅ}",
+      "label": "variety, breed"
+    },
+    {
+      "type": "related",
+      "target_id": "13211_kishu",
+      "reading": "きしゅ",
+      "headword": "{機種|きしゅ}",
+      "label": "device model"
+    },
+    {
+      "type": "related",
+      "target_id": "13149_gyoushu",
+      "reading": "ぎょうしゅ",
+      "headword": "{業種|ぎょうしゅ}",
+      "label": "type of industry"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-03-23T04:38:35Z",
-    "modified": "2026-03-29T05:14:14Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

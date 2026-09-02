@@ -17,7 +17,9 @@
       "id": "24625_wasei_ex1",
       "japanese": "{和声|わせい}を{学|まな}ぶ。",
       "english": "To study harmony.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24625_wasei_ex2",
       "japanese": "この{曲|きょく}は{和声|わせい}の{進行|しんこう}が{美|うつく}しい。",
       "english": "This piece has beautiful harmonic progressions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,61 @@
       "id": "24625_wasei_ex3",
       "japanese": "{音楽大学|おんがくだいがく}では{和声|わせい}、{対位法|たいいほう}、{楽式論|がくしきろん}などの{理論|りろん}{科目|かもく}を{必修|ひっしゅう}として{履修|りしゅう}する。",
       "english": "At music universities, theory subjects such as harmony, counterpoint, and musical form are required courses.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {和|わ} ('harmony; accord') and {声|せい} ('voice; sound'). The standard Japanese translation of the Western music theory concept of 'harmony.' The authoritative textbook {和声|わせい} — {理論|りろん}と{実習|じっしゅう} ('Harmony: Theory and Practice') by Shimofusa Kan'ichi and others has been the standard text in Japanese music education for decades.\n\nUSAGE:\nUsed primarily in music education and theory. In casual conversation about music, ハーモニー (the loanword from English) is more commonly used. {和声|わせい} is the formal, academic term.\n\nCOMMON COLLOCATIONS:\n- {和声|わせい}{学|がく}: the study of harmony\n- {和声|わせい}{進行|しんこう}: harmonic progression\n- {和声|わせい}{分析|ぶんせき}: harmonic analysis\n- {和声|わせい}の{規則|きそく}: rules of harmony\n- {四|し}{声|せい}{体|たい}{和声|わせい}: four-part harmony\n\nSIMILAR WORDS:\n- ハーモニー: harmony — the loanword; used more broadly and casually\n- {旋律|せんりつ}: melody — the linear succession of notes, as opposed to the vertical structure of harmony\n- {対位法|たいいほう}: counterpoint — the technique of combining independent melodic lines; a related but distinct discipline from harmony\n- {和音|わおん}: chord — a specific combination of simultaneous notes; the building blocks that {和声|わせい} studies",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08761_haamonii",
+      "reading": "はーもにー",
+      "headword": "ハーモニー",
+      "label": "harmony"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04753_senritsu",
+      "reading": "せんりつ",
+      "headword": "{旋律|せんりつ}",
+      "label": "melody"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04751_waon",
+      "reading": "わおん",
+      "headword": "{和音|わおん}",
+      "label": "chord"
+    },
+    {
+      "type": "related",
+      "target_id": "29420_ongakuriron",
+      "reading": "おんがくりろん",
+      "headword": "{音楽理論|おんがくりろん}",
+      "label": "music theory"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["music"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "music"
+      ]
     },
     "created": "2026-04-20T09:15:13Z",
-    "modified": "2026-04-20T09:15:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

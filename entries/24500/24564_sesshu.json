@@ -4,7 +4,7 @@
   "headword": "{窃取|せっしゅ}",
   "reading": "せっしゅ",
   "romaji": "sesshu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "theft; stealing; pilferage",
   "definitions": [
     {
@@ -46,10 +46,32 @@
     }
   ],
   "notes": "Composed of {窃|せつ} (to steal secretly) and {取|しゅ} (to take). A formal, legal term for stealing, commonly found in news reports, legal texts, and cybersecurity discussions. Unlike the everyday word {盗|ぬす}む, {窃取|せっしゅ} carries a formal, written register and emphasizes the covert nature of the act.\n\nCOMMON COLLOCATIONS:\n- {情報|じょうほう}の{窃取|せっしゅ}: information theft\n- {機密|きみつ}の{窃取|せっしゅ}: theft of secrets\n- {窃取|せっしゅ}する: to steal, to pilfer\n- {知的|ちてき}{財産|ざいさん}の{窃取|せっしゅ}: theft of intellectual property\n\nSIMILAR WORDS:\n- {窃盗|せっとう}: theft, larceny — the most common formal/legal term for theft\n- {盗難|とうなん}: theft, robbery — emphasizes loss suffered by the victim\n- {横領|おうりょう}: embezzlement — stealing entrusted assets, especially money",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15280_settou",
+      "reading": "せっとう",
+      "headword": "{窃盗|せっとう}",
+      "label": "theft, larceny"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04562_tounan",
+      "reading": "とうなん",
+      "headword": "{盗難|とうなん}",
+      "label": "theft, robbery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09001_ouryou",
+      "reading": "おうりょう",
+      "headword": "{横領|おうりょう}",
+      "label": "embezzlement"
+    }
+  ],
   "metadata": {
     "created": "2026-04-19T15:14:08Z",
-    "modified": "2026-08-03T09:22:27Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

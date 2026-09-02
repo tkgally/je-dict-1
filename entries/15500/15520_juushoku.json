@@ -19,7 +19,9 @@
       "english": "I greeted the temple's head priest.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15520_juushoku_ex2",
@@ -27,7 +29,9 @@
       "english": "The head priest chanted a sutra for us.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15520_juushoku_ex3",
@@ -35,7 +39,9 @@
       "english": "The head priest position at this temple has been held by the same family for generations.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{住職|じゅうしょく} specifically refers to the chief priest of a Buddhist temple ({寺|てら}). The word literally means \"one who resides and serves\" — the priest who lives at and is responsible for the temple.\n\nCOMMON COLLOCATIONS:\n- {住職|じゅうしょく}を{務|つと}める (to serve as head priest)\n- {住職|じゅうしょく}に{就任|しゅうにん}する (to become head priest)\n- お{寺|てら}の{住職|じゅうしょく} (the temple's head priest)\n\nSIMILAR WORDS:\n- {僧侶|そうりょ}: Buddhist monk/priest (general term)\n- {神主|かんぬし}: Shinto priest (for shrines, not temples)\n- {和尚|おしょう}: Buddhist priest (honorific/informal term)",
@@ -46,18 +52,37 @@
       "reading": "そうりょ",
       "headword": "{僧侶|そうりょ}",
       "label": "Buddhist monk/priest (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16732_kannushi",
+      "reading": "かんぬし",
+      "headword": "{神主|かんぬし}",
+      "label": "Shinto priest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21356_oshou",
+      "reading": "おしょう",
+      "headword": "{和尚|おしょう}",
+      "label": "Buddhist priest"
     }
   ],
   "metadata": {
     "created": "2026-03-07T09:34:07Z",
-    "modified": "2026-05-01T07:30:21Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["religion", "person"]
+      "semantic": [
+        "religion",
+        "person"
+      ]
     }
   }
 }

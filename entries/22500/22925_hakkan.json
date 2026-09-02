@@ -3,7 +3,7 @@
   "headword": "{発刊|はっかん}",
   "reading": "はっかん",
   "romaji": "hakkan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "launching a publication; first issue",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {発|はつ} (emit, launch) and {刊|かん} (publish, print). Specifically refers to the initial launch or founding of a publication such as a magazine, journal, or newspaper — not the ongoing act of publishing individual books. Can be used as a noun or with する as a verb.\n\nCOMMON COLLOCATIONS:\n- {雑誌|ざっし}を{発刊|はっかん}する: to launch a magazine\n- {発刊|はっかん}から〜{年|ねん}: since the first issue ~ years ago\n- {発刊|はっかん}{記念|きねん}: commemorating the launch\n- {発刊|はっかん}の{辞|じ}: foreword to the inaugural issue\n\nSIMILAR WORDS:\n- {出版|しゅっぱん}: publishing — the general act of publishing books; broader and more common\n- {創刊|そうかん}: first issue, inaugural publication — very close to {発刊|はっかん} but more specifically refers to the very first number of a periodical\n- {刊行|かんこう}: publication — formal; can refer to publishing books or periodicals on an ongoing basis\n\nNOTE ON HOMOPHONES:\n- {発汗|はっかん}: sweating — same reading but completely different meaning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03222_shuppan",
+      "reading": "しゅっぱん",
+      "headword": "{出版|しゅっぱん}",
+      "label": "publishing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11923_soukan",
+      "reading": "そうかん",
+      "headword": "{創刊|そうかん}",
+      "label": "first issue, inaugural publication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02788_kankou",
+      "reading": "かんこう",
+      "headword": "{刊行|かんこう}",
+      "label": "publication"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-07T21:09:31Z",
-    "modified": "2026-04-07T21:09:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

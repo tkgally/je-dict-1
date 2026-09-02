@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{工具|こうぐ} refers to tools used for manual work, construction, or repair.\n\nCOMMON EXPRESSIONS:\n- {工具|こうぐ}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use tools\n- {工具|こうぐ}⟦を→を：00422_wo⟧⟦{揃|そろ}える→揃える：01952_soroeru⟧: to prepare tools\n- ⟦{電動|でんどう}→電動：06412_dendou⟧{工具|こうぐ}: power tools\n\nCOMPOUNDS:\n- {工具|こうぐ}⟦{箱|ばこ}→箱：02162_hako⟧: toolbox\n- {工具|こうぐ}⟦セット→セット：03853_setto⟧: tool set\n- ⟦{大工|だいく}→大工：04051_daiku⟧⟦{道具|どうぐ}→道具：01479_dougu⟧: carpentry tools\n\nSIMILAR WORDS:\n- ⟦{道具|どうぐ}→道具：01479_dougu⟧: tool, instrument (broader meaning, includes household items)\n- ⟦{器具|きぐ}→器具：03980_kigu⟧: utensil, apparatus (often for specific purposes)\n- ⟦{用具|ようぐ}→用具：09667_yougu⟧: equipment, supplies\n\nNOTE:\n{工具|こうぐ} specifically implies tools for construction, repair, or technical work, while ⟦{道具|どうぐ}→道具：01479_dougu⟧ is more general.",
+  "notes": "{工具|こうぐ} refers to tools used for manual work, construction, or repair.\n\nCOMMON EXPRESSIONS:\n- {工具|こうぐ}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧: to use tools\n- {工具|こうぐ}⟦を→を：00422_wo⟧⟦{揃|そろ}える→揃える：01952_soroeru⟧: to prepare tools\n- ⟦{電動|でんどう}→電動：06412_dendou⟧{工具|こうぐ}: power tools\n\nCOMPOUNDS:\n- {工具|こうぐ}⟦{箱|ばこ}→箱：02162_hako⟧: toolbox\n- {工具|こうぐ}⟦セット→セット：03853_setto⟧: tool set\n- ⟦{大工|だいく}→大工：04051_daiku⟧⟦{道具|どうぐ}→道具：01479_dougu⟧: carpentry tools\n\nSIMILAR WORDS:\n- ⟦{道具|どうぐ}→道具：01479_dougu⟧: tool, instrument (broader meaning, includes household items)\n- ⟦{器具|きぐ}→器具：03980_kigu⟧: utensil, apparatus (often for specific purposes)\n- ⟦{用具|ようぐ}→用具：09667_yougu⟧: equipment, supplies\n\nUSAGE:\n{工具|こうぐ} specifically implies tools for construction, repair, or technical work, while ⟦{道具|どうぐ}→道具：01479_dougu⟧ is more general.",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,11 +51,39 @@
       "reading": "どうぐ",
       "headword": "{道具|どうぐ}",
       "label": "tool (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03980_kigu",
+      "reading": "きぐ",
+      "headword": "{器具|きぐ}",
+      "label": "utensil, apparatus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09667_yougu",
+      "reading": "ようぐ",
+      "headword": "{用具|ようぐ}",
+      "label": "equipment, supplies"
+    },
+    {
+      "type": "related",
+      "target_id": "07078_nichiyoudaiku",
+      "reading": "にちようだいく",
+      "headword": "{日曜大工|にちようだいく}",
+      "label": "DIY"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23554_daikudougu",
+      "reading": "だいくどうぐ",
+      "headword": "{大工|だいく}{道具|どうぐ}",
+      "label": "carpentry tools"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:27:19Z",
-    "modified": "2026-05-15T15:15:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

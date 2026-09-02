@@ -3,7 +3,7 @@
   "id": "12345_kizou",
   "headword": "{寄贈|きぞう}",
   "reading": "きぞう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "donation, presentation, gift",
   "conjugation": {
     "type": "suru",
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{寄贈|きぞう} is a formal term used primarily for donating items (not money) to public institutions like libraries, museums, schools, or hospitals. For monetary donations, {寄付|きふ} is more appropriate.\n\nCOLLOCATIONS:\n- {本|ほん}を{寄贈|きぞう}する — to donate books\n- {寄贈|きぞう}{図書|としょ} — donated books\n- {寄贈|きぞう}を{受|う}ける — to receive a donation\n- {寄贈|きぞう}{品|ひん} — donated item\n\nSIMILAR WORDS:\n{寄付|きふ} is the general term for donation, especially of money. {贈呈|ぞうてい} is a formal presentation or bestowal, often ceremonial. {寄贈|きぞう} specifically refers to donating physical items to institutions.",
+  "notes": "USAGE:\n{寄贈|きぞう} is a formal term used primarily for donating items (not money) to public institutions like libraries, museums, schools, or hospitals. For monetary donations, {寄付|きふ} is more appropriate.\n\nCOMMON COLLOCATIONS:\n- {本|ほん}を{寄贈|きぞう}する — to donate books\n- {寄贈|きぞう}{図書|としょ} — donated books\n- {寄贈|きぞう}を{受|う}ける — to receive a donation\n- {寄贈|きぞう}{品|ひん} — donated item\n\nSIMILAR WORDS:\n{寄付|きふ} is the general term for donation, especially of money. {贈呈|ぞうてい} is a formal presentation or bestowal, often ceremonial. {寄贈|きぞう} specifically refers to donating physical items to institutions.",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,32 @@
       "reading": "きふ",
       "headword": "{寄付|きふ}",
       "label": "donation (esp. money)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20661_kifusuru",
+      "reading": "きふする",
+      "headword": "{寄付|きふ}する",
+      "label": "to donate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24650_kennou",
+      "reading": "けんのう",
+      "headword": "{献納|けんのう}",
+      "label": "dedication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30102_juzou",
+      "reading": "じゅぞう",
+      "headword": "{受贈|じゅぞう}",
+      "label": "receiving a gift"
     }
   ],
   "metadata": {
     "created": "2026-02-21T05:20:05Z",
-    "modified": "2026-04-26T09:20:33Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -19,7 +19,9 @@
       "english": "Please fill in the blanks.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15892_kuuran_ex2",
@@ -27,7 +29,9 @@
       "english": "You cannot submit it without filling in the blank spaces.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15892_kuuran_ex3",
@@ -35,21 +39,42 @@
       "english": "The last question on the test was a fill-in-the-blank format.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE: {空欄|くうらん} appears frequently on forms, tests, and official documents. It refers to the blank spaces that need to be completed.\n\nCOMMON COLLOCATIONS:\n- {空欄|くうらん}に{記入|きにゅう}する: to fill in the blank\n- {空欄|くうらん}を{埋|う}める: to fill in the blanks\n- {空欄|くうらん}{補充|ほじゅう}: fill-in-the-blank (exercise type)\n- {空欄|くうらん}のまま: left blank\n\nThe word is a compound of {空|くう} (empty) and {欄|らん} (column, field).",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21276_kinyuuran",
+      "reading": "きにゅうらん",
+      "headword": "{記入欄|きにゅうらん}",
+      "label": "entry field"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30432_kasenbu",
+      "reading": "かせんぶ",
+      "headword": "{下線部|かせんぶ}",
+      "label": "underlined part"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T13:54:30Z",
-    "modified": "2026-03-08T13:54:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

@@ -24,7 +24,9 @@
       "english": "There is a legend about this lake.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11446_densetsu_ex2",
@@ -32,7 +34,9 @@
       "english": "I researched legends passed down in the local area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11446_densetsu_ex3",
@@ -40,7 +44,9 @@
       "english": "A legend remains that a dragon once lived there.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11446_densetsu_ex4",
@@ -48,7 +54,9 @@
       "english": "A legendary athlete.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11446_densetsu_ex5",
@@ -56,7 +64,9 @@
       "english": "That band became a legend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11446_densetsu_ex6",
@@ -64,21 +74,50 @@
       "english": "His achievements are nothing short of legendary.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n- {伝説|でんせつ}によると (according to legend)\n- {伝説|でんせつ}{的|てき} (legendary)\n- {都市|とし}{伝説|でんせつ} (urban legend)\n- {伝説|でんせつ}の{人物|じんぶつ} (legendary figure)\n- {伝説|でんせつ}が{残|のこ}る (a legend remains)\n\nSIMILAR WORDS: {神話|しんわ} (myth) involves gods and creation stories, while {伝説|でんせつ} (legend) is usually tied to specific places, people, or historical events and is more grounded in the real world.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12037_shijitsu",
+      "reading": "しじつ",
+      "headword": "{史実|しじつ}",
+      "label": "historical fact"
+    },
+    {
+      "type": "related",
+      "target_id": "15495_ibun",
+      "reading": "いぶん",
+      "headword": "{異聞|いぶん}",
+      "label": "strange tale"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20558_minwa",
+      "reading": "みんわ",
+      "headword": "{民話|みんわ}",
+      "label": "folk tale"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T10:57:49Z",
-    "modified": "2026-02-16T10:57:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["culture", "general"]
+      "semantic": [
+        "culture",
+        "general"
+      ]
     }
   }
 }

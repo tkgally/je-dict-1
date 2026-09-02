@@ -63,11 +63,26 @@
       ]
     }
   ],
-  "notes": "{横|よこ}になる is a common expression for lying down, literally meaning \"to become horizontal.\"\n\nSIMILAR EXPRESSIONS:\n- ⟦{寝転|ねころ}ぶ→寝転ぶ：04643_nekorobu⟧: to lie down, to sprawl\n- ⟦{寝|ね}る→寝る：00470_neru⟧: to sleep, to go to bed\n\nUSAGE NOTE:\nThis expression specifically refers to the action of reclining, without implying sleep. It's often used when someone wants to rest briefly.",
-  "cross_references": [],
+  "notes": "{横|よこ}になる is a common expression for lying down, literally meaning \"to become horizontal.\"\n\nSIMILAR WORDS:\n- ⟦{寝転|ねころ}ぶ→寝転ぶ：04643_nekorobu⟧: to lie down, to sprawl\n- ⟦{寝|ね}る→寝る：00470_neru⟧: to sleep, to go to bed\n\nUSAGE:\nThis expression specifically refers to the action of reclining, without implying sleep. It's often used when someone wants to rest briefly.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04643_nekorobu",
+      "reading": "ねころぶ",
+      "headword": "{寝転|ねころ}ぶ",
+      "label": "to lie down, to sprawl"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00470_neru",
+      "reading": "ねる",
+      "headword": "{寝|ね}る",
+      "label": "to sleep, to go to bed"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T08:09:26Z",
-    "modified": "2026-06-06T21:13:04Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

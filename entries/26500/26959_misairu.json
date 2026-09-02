@@ -45,7 +45,29 @@
     }
   ],
   "notes": "A loanword from English \"missile.\" This word appears extremely frequently in Japanese news, particularly regarding North Korean missile tests and regional security discussions. Living in Japan, learners will encounter this word regularly in news broadcasts and newspaper headlines.\n\nCOMMON COLLOCATIONS:\n- ミサイルを{発射|はっしゃ}する: to launch a missile\n- ミサイル{防衛|ぼうえい}: missile defense\n- {弾道|だんどう}ミサイル: ballistic missile\n- {巡航|じゅんこう}ミサイル: cruise missile\n- {迎撃|げいげき}ミサイル: interceptor missile\n- ミサイル{実験|じっけん}: missile test\n\nRELATED WORDS:\n- ロケット: rocket — used for space launch vehicles as well as weapons\n- {砲弾|ほうだん}: shell, artillery round — a non-self-propelled projectile\n- {魚雷|ぎょらい}: torpedo — a self-propelled underwater weapon",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00353_roketto",
+      "reading": "ろけっと",
+      "headword": "ロケット",
+      "label": "rocket"
+    },
+    {
+      "type": "related",
+      "target_id": "19172_houdan",
+      "reading": "ほうだん",
+      "headword": "{砲弾|ほうだん}",
+      "label": "shell, artillery round"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23262_kakudantou",
+      "reading": "かくだんとう",
+      "headword": "{核弾頭|かくだんとう}",
+      "label": "nuclear warhead"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +83,6 @@
       "domain": []
     },
     "created": "2026-05-06T11:12:51Z",
-    "modified": "2026-05-06T11:12:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

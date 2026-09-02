@@ -3,7 +3,7 @@
   "headword": "{達筆|たっぴつ}",
   "reading": "たっぴつ",
   "romaji": "tappitsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "skilled handwriting; beautiful penmanship",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "26860_tappitsu_ex1",
       "japanese": "{祖父|そふ}は{達筆|たっぴつ}だ。",
       "english": "My grandfather has beautiful handwriting.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26860_tappitsu_ex2",
       "japanese": "{達筆|たっぴつ}すぎて{読|よ}めない。",
       "english": "The handwriting is so skilled that I can't read it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "26860_tappitsu_ex3",
       "japanese": "{年賀状|ねんがじょう}が{達筆|たっぴつ}な{字|じ}で{書|か}かれていた。",
       "english": "The New Year's card was written in beautiful handwriting.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,23 +47,59 @@
       "id": "26860_tappitsu_ex4",
       "japanese": "{達筆|たっぴつ}な{人|ひと}の{手紙|てがみ}は、{読|よ}むのに{苦労|くろう}することがある。",
       "english": "Letters from people with skilled handwriting can sometimes be hard to read.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Positive term for handwriting that shows mastery of brush or pen technique. Paradoxically, 達筆 handwriting can be difficult to read because of its flowing, cursive style — a common humorous observation in Japanese. Used as both a noun and a na-adjective.\n\nCOMMON COLLOCATIONS:\n- {達筆|たっぴつ}な{字|じ}: beautifully written characters\n- {達筆|たっぴつ}な{人|ひと}: person with beautiful handwriting\n- {達筆|たっぴつ}すぎて{読|よ}めない: too skillfully written to read\n- {達筆|たっぴつ}で{書|か}く: to write with skilled penmanship\n\nSIMILAR WORDS:\n- {悪筆|あくひつ}: bad handwriting — the antonym; messy, hard-to-read writing\n- {美文字|びもじ}: beautiful writing — newer, casual term for aesthetically pleasing handwriting\n- {能筆|のうひつ}: skilled calligraphy — more formal synonym, emphasizing calligraphic skill",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "27028_akuhitsu",
+      "reading": "あくひつ",
+      "headword": "{悪筆|あくひつ}",
+      "label": "bad handwriting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27136_bimoji",
+      "reading": "びもじ",
+      "headword": "{美文字|びもじ}",
+      "label": "beautiful writing"
+    },
+    {
+      "type": "related",
+      "target_id": "08301_tegaki",
+      "reading": "てがき",
+      "headword": "{手書|てが}き",
+      "label": "handwriting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28674_kuseji",
+      "reading": "くせじ",
+      "headword": "{癖字|くせじ}",
+      "label": "idiosyncratic handwriting"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["culture"]
+      "semantic": [
+        "culture"
+      ]
     },
     "created": "2026-05-05T14:12:00Z",
-    "modified": "2026-05-05T14:12:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

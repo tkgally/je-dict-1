@@ -16,7 +16,9 @@
       "id": "08553_hensachi_ex1",
       "japanese": "{偏差値|へんさち}が60を{超|こ}えた。",
       "english": "My deviation score exceeded 60.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "08553_hensachi_ex2",
       "japanese": "この{大学|だいがく}の{偏差値|へんさち}は{高|たか}い。",
       "english": "This university has a high deviation score.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,20 +36,65 @@
       "id": "08553_hensachi_ex3",
       "japanese": "{偏差値|へんさち}だけで{学校|がっこう}を{選|えら}ばないほうがいい。",
       "english": "You shouldn't choose a school based only on deviation scores.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "JAPANESE EDUCATION SYSTEM:\n{偏差値|へんさち} is a standardized score used extensively in Japanese education to rank students and schools.\n\nHOW IT WORKS:\n- 50 = average\n- Above 50 = above average\n- Below 50 = below average\n- 60+ = top tier\n- 70+ = extremely high (top schools)\n\nCOMMON USAGE:\n- {偏差値|へんさち}{教育|きょういく} - education focused on deviation scores\n- {偏差値|へんさち}が{高|たか}い/{低|ひく}い - high/low deviation score\n- {偏差値|へんさち}{至上主義|しじょうしゅぎ} - obsession with deviation scores\n\nCRITICISM:\nThe {偏差値|へんさち} system is sometimes criticized for creating too much pressure on students and reducing education to mere numbers.\n\nRELATED:\n- {学力|がくりょく} - academic ability\n- {内申点|ないしんてん} - internal assessment score\n- {模試|もし} - practice exam (where {偏差値|へんさち} is calculated)",
+  "notes": "JAPANESE EDUCATION SYSTEM:\n{偏差値|へんさち} is a standardized score used extensively in Japanese education to rank students and schools.\n\nHOW IT WORKS:\n- 50 = average\n- Above 50 = above average\n- Below 50 = below average\n- 60+ = top tier\n- 70+ = extremely high (top schools)\n\nCOMMON COLLOCATIONS:\n- {偏差値|へんさち}{教育|きょういく} - education focused on deviation scores\n- {偏差値|へんさち}が{高|たか}い/{低|ひく}い - high/low deviation score\n- {偏差値|へんさち}{至上主義|しじょうしゅぎ} - obsession with deviation scores\n\nCRITICISM:\nThe {偏差値|へんさち} system is sometimes criticized for creating too much pressure on students and reducing education to mere numbers.\n\nRELATED WORDS:\n- {学力|がくりょく} - academic ability\n- {内申点|ないしんてん} - internal assessment score\n- {模試|もし} - practice exam (where {偏差値|へんさち} is calculated)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08551_gakuryoku",
+      "reading": "がくりょく",
+      "headword": "{学力|がくりょく}",
+      "label": "academic ability"
+    },
+    {
+      "type": "related",
+      "target_id": "08608_naishinten",
+      "reading": "ないしんてん",
+      "headword": "{内申点|ないしんてん}",
+      "label": "internal assessment score"
+    },
+    {
+      "type": "related",
+      "target_id": "11099_moshi",
+      "reading": "もし",
+      "headword": "{模試|もし}",
+      "label": "practice exam"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21466_heikinten",
+      "reading": "へいきんてん",
+      "headword": "{平均点|へいきんてん}",
+      "label": "average score"
+    },
+    {
+      "type": "related",
+      "target_id": "25790_chuuouchi",
+      "reading": "ちゅうおうち",
+      "headword": "{中央値|ちゅうおうち}",
+      "label": "median"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["education", "number"]
+      "politeness": "plain",
+      "semantic": [
+        "education",
+        "number"
+      ]
     },
     "created": "2026-01-27T11:29:42Z",
-    "modified": "2026-01-27T11:29:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

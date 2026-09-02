@@ -17,7 +17,9 @@
       "id": "29820_suukai_ex1",
       "japanese": "{年|ねん}に{数回|すうかい}{会|あ}う。",
       "english": "We meet several times a year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29820_suukai_ex2",
       "japanese": "この{薬|くすり}は{一日|いちにち}{数回|すうかい}{飲|の}む。",
       "english": "Take this medicine several times a day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,73 @@
       "id": "29820_suukai_ex3",
       "japanese": "{去年|きょねん}は{海外|かいがい}に{数回|すうかい}{出張|しゅっちょう}した。",
       "english": "Last year I went on several business trips abroad.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The prefix {数|すう} attaches to counters to mean \"several\" of that unit. Vaguer than a specific number, but implies a modest count rather than many.\n\nRELATED COUNTS:\n- {数日|すうじつ}: several days\n- {数人|すうにん}: several people\n- {数年|すうねん}: several years\n- {数時間|すうじかん}: several hours",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20517_suujitsu",
+      "reading": "すうじつ",
+      "headword": "{数日|すうじつ}",
+      "label": "several days"
+    },
+    {
+      "type": "related",
+      "target_id": "18787_suunin",
+      "reading": "すうにん",
+      "headword": "{数人|すうにん}",
+      "label": "several people"
+    },
+    {
+      "type": "related",
+      "target_id": "28206_suunen",
+      "reading": "すうねん",
+      "headword": "{数年|すうねん}",
+      "label": "several years"
+    },
+    {
+      "type": "related",
+      "target_id": "21622_suujikan",
+      "reading": "すうじかん",
+      "headword": "{数時間|すうじかん}",
+      "label": "several hours"
+    },
+    {
+      "type": "related",
+      "target_id": "26724_suusatsu",
+      "reading": "すうさつ",
+      "headword": "{数冊|すうさつ}",
+      "label": "several books"
+    },
+    {
+      "type": "related",
+      "target_id": "28382_suushurui",
+      "reading": "すうしゅるい",
+      "headword": "{数種類|すうしゅるい}",
+      "label": "several kinds"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["number"],
+      "politeness": "plain",
+      "semantic": [
+        "number"
+      ],
       "domain": []
     },
     "created": "2026-07-14T06:18:33Z",
-    "modified": "2026-07-14T06:18:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

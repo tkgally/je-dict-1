@@ -17,7 +17,9 @@
       "id": "25620_gyoumurenraku_ex1",
       "japanese": "{業務連絡|ぎょうむれんらく}をメールで{送|おく}る。",
       "english": "To send a business notice by email.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25620_gyoumurenraku_ex2",
       "japanese": "{朝礼|ちょうれい}で{業務連絡|ぎょうむれんらく}が{伝|つた}えられた。",
       "english": "A work-related notice was communicated at the morning meeting.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,43 @@
       "id": "25620_gyoumurenraku_ex3",
       "japanese": "{全社員|ぜんしゃいん}への{業務連絡|ぎょうむれんらく}として、{来月|らいげつ}からシステムが{変|か}わる{旨|むね}が{通知|つうち}された。",
       "english": "As a company-wide business notice, employees were informed that the system would change starting next month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {業務|ぎょうむ} (business operations) and {連絡|れんらく} (contact, communication). Used in offices, shops, and organizations for practical announcements — schedule changes, system updates, reminders, etc.\n\nIn retail and service settings, {業務連絡|ぎょうむれんらく} is often heard over a PA system as a staff-only announcement, signaling that the message is for employees rather than customers.\n\nCOMMON COLLOCATIONS:\n- {業務連絡|ぎょうむれんらく}です: \"This is a staff announcement\" (PA system)\n- {業務連絡|ぎょうむれんらく}メール: business communication email\n- {業務連絡|ぎょうむれんらく}を{回|まわ}す: to circulate a work notice\n- {業務連絡|ぎょうむれんらく}{事項|じこう}: items for business communication\n\nSIMILAR WORDS:\n- {社内連絡|しゃないれんらく}: internal company communication — similar but specifically within a company, while {業務連絡|ぎょうむれんらく} can be used in non-corporate settings too\n- {通達|つうたつ}: official directive — more formal and authoritative, often from management to subordinates\n- {お{知|し}らせ}: notice, announcement — more general and can be directed at customers or the public",
+  "notes": "A compound of {業務|ぎょうむ} (business operations) and {連絡|れんらく} (contact, communication). Used in offices, shops, and organizations for practical announcements — schedule changes, system updates, reminders, etc.\n\nIn retail and service settings, {業務連絡|ぎょうむれんらく} is often heard over a PA system as a staff-only announcement, signaling that the message is for employees rather than customers.\n\nCOMMON COLLOCATIONS:\n- {業務連絡|ぎょうむれんらく}です: \"This is a staff announcement\" (PA system)\n- {業務連絡|ぎょうむれんらく}メール: business communication email\n- {業務連絡|ぎょうむれんらく}を{回|まわ}す: to circulate a work notice\n- {業務連絡|ぎょうむれんらく}{事項|じこう}: items for business communication\n\nSIMILAR WORDS:\n- {社内連絡|しゃないれんらく}: internal company communication — similar but specifically within a company, while {業務連絡|ぎょうむれんらく} can be used in non-corporate settings too\n- {通達|つうたつ}: official directive — more formal and authoritative, often from management to subordinates\n- お{知|し}らせ: notice, announcement — more general and can be directed at customers or the public",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22238_tsuutatsu",
+      "reading": "つうたつ",
+      "headword": "{通達|つうたつ}",
+      "label": "official directive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18843_oshirase",
+      "reading": "おしらせ",
+      "headword": "お{知|し}らせ",
+      "label": "notice, announcement"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-04-26T13:18:22Z",
-    "modified": "2026-04-26T13:18:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

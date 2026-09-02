@@ -17,7 +17,9 @@
       "id": "19521_shinnyuusha_ex1",
       "japanese": "{侵入者|しんにゅうしゃ}が{捕|つか}まった。",
       "english": "The intruder was caught.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19521_shinnyuusha_ex2",
       "japanese": "セキュリティカメラに{侵入者|しんにゅうしゃ}が{映|うつ}っていた。",
       "english": "An intruder was captured on the security camera.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "19521_shinnyuusha_ex3",
       "japanese": "{夜中|よなか}に{侵入者|しんにゅうしゃ}が{庭|にわ}に{入|はい}ってきたので、すぐに{警察|けいさつ}に{通報|つうほう}した。",
       "english": "An intruder came into the yard in the middle of the night, so I immediately called the police.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {侵入|しんにゅう} (intrusion, trespassing) + {者|しゃ} (person). The word carries a clear negative connotation — the person is somewhere they should not be.\n\nCOMMON COLLOCATIONS:\n- {侵入者|しんにゅうしゃ}を{捕|つか}まえる — to catch an intruder\n- {侵入者|しんにゅうしゃ}を{検知|けんち}する — to detect an intruder\n- {不法|ふほう}{侵入者|しんにゅうしゃ} — illegal trespasser\n\nRELATED TERMS:\n- {侵入|しんにゅう} — intrusion, trespassing (the act itself)\n- {不審者|ふしんしゃ} — suspicious person; broader term, not necessarily someone who has already entered\n- {泥棒|どろぼう} — thief, burglar; implies intent to steal",
+  "notes": "Composed of {侵入|しんにゅう} (intrusion, trespassing) + {者|しゃ} (person). The word carries a clear negative connotation — the person is somewhere they should not be.\n\nCOMMON COLLOCATIONS:\n- {侵入者|しんにゅうしゃ}を{捕|つか}まえる — to catch an intruder\n- {侵入者|しんにゅうしゃ}を{検知|けんち}する — to detect an intruder\n- {不法|ふほう}{侵入者|しんにゅうしゃ} — illegal trespasser\n\nRELATED WORDS:\n- {侵入|しんにゅう} — intrusion, trespassing (the act itself)\n- {不審者|ふしんしゃ} — suspicious person; broader term, not necessarily someone who has already entered\n- {泥棒|どろぼう} — thief, burglar; implies intent to steal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11348_fushinsha",
+      "reading": "ふしんしゃ",
+      "headword": "{不審者|ふしんしゃ}",
+      "label": "suspicious person"
+    },
+    {
+      "type": "related",
+      "target_id": "01688_dorobou",
+      "reading": "どろぼう",
+      "headword": "{泥棒|どろぼう}",
+      "label": "thief, burglar"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "law"]
+      "semantic": [
+        "person",
+        "law"
+      ]
     },
     "created": "2026-03-26T04:15:35Z",
-    "modified": "2026-07-26T21:46:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

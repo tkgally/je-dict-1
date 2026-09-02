@@ -17,7 +17,9 @@
       "id": "28027_enerugiishigen_ex1",
       "japanese": "{日本|にほん}はエネルギー{資源|しげん}が{少|すく}ない。",
       "english": "Japan has few energy resources.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28027_enerugiishigen_ex2",
       "japanese": "{石油|せきゆ}は{重要|じゅうよう}なエネルギー{資源|しげん}だ。",
       "english": "Oil is an important energy resource.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,39 @@
       "id": "28027_enerugiishigen_ex3",
       "japanese": "{再生可能|さいせいかのう}エネルギー{資源|しげん}の{開発|かいはつ}が{進|すす}んでいる。",
       "english": "Development of renewable energy resources is advancing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of エネルギー (energy) and {資源|しげん} (resources).\n\nCOMMON COLLOCATIONS:\n- エネルギー{資源|しげん}の{確保|かくほ}: securing energy resources\n- {化石|かせき}エネルギー{資源|しげん}: fossil energy resources\n- エネルギー{資源|しげん}に{乏|とぼ}しい: poor in energy resources\n\nSIMILAR WORDS:\n- {天然資源|てんねんしげん}: natural resources — broader, also includes minerals, water, and timber",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24719_tennenshigen",
+      "reading": "てんねんしげん",
+      "headword": "{天然資源|てんねんしげん}",
+      "label": "natural resources"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["nature", "science"],
+      "politeness": "plain",
+      "semantic": [
+        "nature",
+        "science"
+      ],
       "domain": []
     },
     "created": "2026-05-24T04:10:04Z",
-    "modified": "2026-05-24T04:10:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

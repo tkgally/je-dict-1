@@ -19,7 +19,9 @@
       "english": "There is a skeleton model in the science room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18307_gaikotsu_ex2",
@@ -27,7 +29,9 @@
       "english": "I used skeletons as Halloween decorations.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18307_gaikotsu_ex3",
@@ -35,21 +39,35 @@
       "english": "An old skeleton was discovered deep inside the cave.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed for both real skeletons and decorative/symbolic ones. The skull-and-crossbones symbol (pirate flag, poison warning) is also called {骸骨|がいこつ}マーク.\n\nCOMMON COLLOCATIONS:\n- {骸骨|がいこつ}の{模型|もけい} (skeleton model)\n- {骸骨|がいこつ}マーク (skull-and-crossbones symbol)\n\nSIMILAR WORDS:\n- {骨格|こっかく}: skeletal frame — more technical/anatomical\n- {頭蓋骨|ずがいこつ}: skull — specifically the skull",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06233_kokkaku",
+      "reading": "こっかく",
+      "headword": "{骨格|こっかく}",
+      "label": "skeletal frame"
+    }
+  ],
   "metadata": {
     "created": "2026-03-21T09:08:11Z",
-    "modified": "2026-03-21T09:08:11Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-internal"]
+      "semantic": [
+        "body-internal"
+      ]
     }
   }
 }

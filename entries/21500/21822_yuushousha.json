@@ -17,7 +17,9 @@
       "id": "21822_yuushousha_ex1",
       "japanese": "{優勝者|ゆうしょうしゃ}にトロフィーが{贈|おく}られた。",
       "english": "A trophy was presented to the champion.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21822_yuushousha_ex2",
       "japanese": "{今年|ことし}の{優勝者|ゆうしょうしゃ}は{誰|だれ}ですか。",
       "english": "Who is this year's champion?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "21822_yuushousha_ex3",
       "japanese": "{大会|たいかい}の{優勝者|ゆうしょうしゃ}には{賞金|しょうきん}{百万円|ひゃくまんえん}と{海外|かいがい}{遠征|えんせい}の{権利|けんり}が{与|あた}えられる。",
       "english": "The tournament champion is awarded one million yen in prize money and the right to compete overseas.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {優勝|ゆうしょう} (winning a championship) and {者|しゃ} (person). Used for competitions of all kinds — sports, academic contests, cooking competitions, etc.\n\nCOMMON COLLOCATIONS:\n- {優勝者|ゆうしょうしゃ}を{決|き}める: to determine the champion\n- {優勝者|ゆうしょうしゃ}に{選|えら}ばれる: to be chosen as the winner\n- {優勝者|ゆうしょうしゃ}を{表彰|ひょうしょう}する: to honor the champion\n- {歴代|れきだい}{優勝者|ゆうしょうしゃ}: past champions\n\nSIMILAR WORDS:\n- チャンピオン: champion — the loanword, more casual and commonly used in boxing and professional sports\n- {勝者|しょうしゃ}: winner — more general; the winner of any contest or match, not necessarily a championship\n- {覇者|はしゃ}: champion, conqueror — more literary, implies dominance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19399_chanpion",
+      "reading": "ちゃんぴおん",
+      "headword": "チャンピオン",
+      "label": "champion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24558_hasha",
+      "reading": "はしゃ",
+      "headword": "{覇者|はしゃ}",
+      "label": "champion, conqueror"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28365_nyuushousha",
+      "reading": "にゅうしょうしゃ",
+      "headword": "{入賞者|にゅうしょうしゃ}",
+      "label": "prize winner"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["sports", "person"]
+      "semantic": [
+        "sports",
+        "person"
+      ]
     },
     "created": "2026-04-03T18:27:18Z",
-    "modified": "2026-04-03T18:27:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

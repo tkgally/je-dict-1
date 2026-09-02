@@ -17,7 +17,9 @@
       "id": "27103_jidoukan_ex1",
       "japanese": "{子|こ}どもたちが{児童館|じどうかん}で{遊|あそ}んでいる。",
       "english": "The children are playing at the children's center.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27103_jidoukan_ex2",
       "japanese": "{放課後|ほうかご}は{児童館|じどうかん}で{過|す}ごすことが{多|おお}い。",
       "english": "I often spend my time after school at the children's center.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "27103_jidoukan_ex3",
       "japanese": "{近所|きんじょ}の{児童館|じどうかん}では{毎週|まいしゅう}{土曜日|どようび}にイベントが{開|ひら}かれている。",
       "english": "The local children's center holds events every Saturday.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A public facility established under the Child Welfare Act ({児童福祉法|じどうふくしほう}). Provides free or low-cost activities for children including play space, arts and crafts, sports, and seasonal events. An important part of Japan's child welfare infrastructure, especially for working parents.\n\nCOMMON COLLOCATIONS:\n- {児童館|じどうかん}に{行|い}く: to go to the children's center\n- {児童館|じどうかん}で{遊|あそ}ぶ: to play at the children's center\n- {児童館|じどうかん}の{行事|ぎょうじ}: children's center events\n- {児童館|じどうかん}の{職員|しょくいん}: children's center staff\n\nSIMILAR WORDS:\n- {学童|がくどう}クラブ / {学童|がくどう}{保育|ほいく}: after-school care program — specifically for elementary school children whose parents work. {児童館|じどうかん} is open to all children, not just those needing after-school care.\n- {公民館|こうみんかん}: community center — for all ages, not specifically for children\n- {保育園|ほいくえん}: nursery school; daycare — for preschool-age children during working hours",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18183_kouminkan",
+      "reading": "こうみんかん",
+      "headword": "{公民館|こうみんかん}",
+      "label": "community center"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04704_hoikuen",
+      "reading": "ほいくえん",
+      "headword": "{保育園|ほいくえん}",
+      "label": "nursery school"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building", "education"]
+      "semantic": [
+        "building",
+        "education"
+      ]
     },
     "created": "2026-05-07T11:18:08Z",
-    "modified": "2026-05-07T11:18:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

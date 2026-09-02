@@ -19,7 +19,9 @@
       "english": "Her Majesty the Empress delivered a speech.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16354_kougou_ex2",
@@ -27,7 +29,9 @@
       "english": "The Emperor and Empress visited the disaster-affected area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16354_kougou_ex3",
@@ -35,7 +39,9 @@
       "english": "The Empress sometimes visits foreign countries for the purpose of international goodwill.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{皇后|こうごう} refers specifically to the wife of a reigning emperor. In Japan, the full formal title is {皇后|こうごう}{陛下|へいか} (Her Majesty the Empress).\n\nRELATED WORDS:\n- {天皇|てんのう}: Emperor of Japan\n- {皇太子|こうたいし}: Crown Prince\n- {皇太后|こうたいごう}: Empress Dowager (mother of the reigning emperor)\n- {女王|じょおう}: queen (ruling monarch, not consort)\n\nWhen speaking about the imperial family, honorific language ({敬語|けいご}) is typically used. Verbs describing the empress's actions use special respectful forms such as 〜される or 〜になる.",
@@ -53,18 +59,43 @@
       "reading": "てんのう",
       "headword": "{天皇|てんのう}",
       "label": "Emperor of Japan"
+    },
+    {
+      "type": "related",
+      "target_id": "15717_koutaishi",
+      "reading": "こうたいし",
+      "headword": "{皇太子|こうたいし}",
+      "label": "Crown Prince"
+    },
+    {
+      "type": "related",
+      "target_id": "03349_joou",
+      "reading": "じょおう",
+      "headword": "{女王|じょおう}",
+      "label": "queen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25191_ougou",
+      "reading": "おうごう",
+      "headword": "{王后|おうごう}",
+      "label": "queen consort"
     }
   ],
   "metadata": {
     "created": "2026-03-12T02:30:00Z",
-    "modified": "2026-05-03T09:07:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

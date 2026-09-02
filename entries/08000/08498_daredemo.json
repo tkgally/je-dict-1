@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{誰|だれ} (who) + でも (even, any)\n\nPATTERN:\nThe ~でも pattern creates \"any-\" words:\n- {何|なん}でも - anything\n- {何処|どこ}でも - anywhere\n- いつでも - anytime\n- どちらでも - either one\n\nNUANCE:\n- With positive: \"anyone can\" → universal possibility\n- With negative: \"not anyone\" → nobody\n- {誰|だれ}でもいい - anyone is fine (indifference)\n\nCONTRAST:\n- {誰|だれ}でも (anyone/everyone) ↔ {誰|だれ}か (someone)\n- {誰|だれ}でも (anyone/everyone) ↔ {誰|だれ}も + neg (no one)",
+  "notes": "COMPOUNDS:\n{誰|だれ} (who) + でも (even, any)\n\nCOMMON PATTERNS:\nThe ~でも pattern creates \"any-\" words:\n- {何|なん}でも - anything\n- {何処|どこ}でも - anywhere\n- いつでも - anytime\n- どちらでも - either one\n\nUSAGE:\n- With positive: \"anyone can\" → universal possibility\n- With negative: \"not anyone\" → nobody\n- {誰|だれ}でもいい - anyone is fine (indifference)\n\nSIMILAR WORDS:\n- {誰|だれ}でも (anyone/everyone) ↔ {誰|だれ}か (someone)\n- {誰|だれ}でも (anyone/everyone) ↔ {誰|だれ}も + neg (no one)",
   "cross_references": [
     {
       "type": "related",
@@ -51,6 +51,41 @@
       "headword": "{何|なん}でも",
       "label": "anything, everything",
       "target_id": "00304_nandemo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03826_itsudemo",
+      "reading": "いつでも",
+      "headword": "いつでも",
+      "label": "anytime, always"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13926_rounyakunannyo",
+      "reading": "ろうにゃくなんにょ",
+      "headword": "{老若男女|ろうにゃくなんにょ}",
+      "label": "men and women of all ages"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18610_daremo",
+      "reading": "だれも",
+      "headword": "{誰|だれ}も",
+      "label": "nobody"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22974_darekare",
+      "reading": "だれかれ",
+      "headword": "{誰彼|だれかれ}",
+      "label": "this person and that"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25587_dareshimo",
+      "reading": "だれしも",
+      "headword": "{誰|だれ}しも",
+      "label": "everyone"
     }
   ],
   "metadata": {
@@ -60,11 +95,12 @@
         "pronoun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "grammatical"
       ]
     },
     "created": "2026-01-27T08:12:28Z",
-    "modified": "2026-06-26T00:19:24Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

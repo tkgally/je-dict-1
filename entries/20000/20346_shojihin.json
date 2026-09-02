@@ -16,7 +16,9 @@
       "id": "20346_shojihin_ex1",
       "japanese": "{所持品|しょじひん}を{確認|かくにん}してください。",
       "english": "Please check your belongings.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "20346_shojihin_ex2",
       "japanese": "{所持品|しょじひん}の{検査|けんさ}が{行|おこな}われた。",
       "english": "An inspection of personal belongings was conducted.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,22 +36,58 @@
       "id": "20346_shojihin_ex3",
       "japanese": "{貴重品|きちょうひん}は{所持品|しょじひん}として{機内|きない}に{持|も}ち{込|こ}むことをおすすめします。",
       "english": "We recommend carrying valuables with you as personal items in the cabin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {所持|しょじ} (possession, carrying) + {品|ひん} (goods, items). A formal word often encountered in airports, security contexts, police procedures, and official documents.\n\nCOMMON COLLOCATIONS:\n- {所持品|しょじひん}{検査|けんさ}: belongings inspection\n- {所持品|しょじひん}を{確認|かくにん}する: to check one's belongings\n- {所持品|しょじひん}の{一覧|いちらん}: list of possessions\n\nSIMILAR WORDS:\n- {持|も}ち{物|もの}: belongings — everyday, casual word\n- {携帯品|けいたいひん}: carry-on items — formal, used in travel\n- {手荷物|てにもつ}: hand luggage, carry-on — used at airports and stations\n- {私物|しぶつ}: personal property — emphasizes private ownership",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03165_mochimono",
+      "reading": "もちもの",
+      "headword": "{持|も}ち{物|もの}",
+      "label": "belongings"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24930_keitaihin",
+      "reading": "けいたいひん",
+      "headword": "{携帯品|けいたいひん}",
+      "label": "carry-on items"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09928_tenimotsu",
+      "reading": "てにもつ",
+      "headword": "{手荷物|てにもつ}",
+      "label": "hand luggage, carry-on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15208_shibutsu",
+      "reading": "しぶつ",
+      "headword": "{私物|しぶつ}",
+      "label": "personal property"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["daily-life"]
+      "semantic": [
+        "daily-life"
+      ]
     },
     "created": "2026-03-28T21:19:05Z",
-    "modified": "2026-03-28T21:19:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

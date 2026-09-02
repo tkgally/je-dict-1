@@ -22,7 +22,9 @@
       "id": "24968_sekiji_ex1",
       "japanese": "{席次|せきじ}を{決|き}める。",
       "english": "To determine the seating order.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "24968_sekiji_ex2",
       "japanese": "{会議|かいぎ}の{席次|せきじ}は{役職|やくしょく}の{順|じゅん}に{並|なら}べた。",
       "english": "The seating at the meeting was arranged in order of position.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "24968_sekiji_ex3",
       "japanese": "{結婚式|けっこんしき}の{披露宴|ひろうえん}では、{席次|せきじ}{表|ひょう}を{見|み}て{自分|じぶん}の{席|せき}を{探|さが}す。",
       "english": "At a wedding reception, you look at the seating chart to find your seat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "24968_sekiji_ex4",
       "japanese": "{席次|せきじ}が{上|あ}がった。",
       "english": "My class ranking went up.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "24968_sekiji_ex5",
       "japanese": "{期末|きまつ}{試験|しけん}の{席次|せきじ}が{発表|はっぴょう}された。",
       "english": "The class rankings for the final exams were announced.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,20 +72,44 @@
       "id": "24968_sekiji_ex6",
       "japanese": "{彼女|かのじょ}は{学年|がくねん}で{席次|せきじ}{一位|いちい}を{取|と}り、{卒業式|そつぎょうしき}で{答辞|とうじ}を{読|よ}んだ。",
       "english": "She ranked first in her year and read the valedictory speech at graduation.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {席|せき} (seat) and {次|じ} (order/sequence). The word reflects the importance of hierarchical seating arrangements in Japanese culture, where where one sits at a meeting, banquet, or ceremony signals one's status.\n\nIn business settings, seating follows strict protocols: the most senior person typically sits in the {上座|かみざ} (seat of honor, farthest from the door), while junior members take the {下座|しもざ} (lower seat, nearest the door).\n\nCOMMON COLLOCATIONS:\n- {席次|せきじ}{表|ひょう}: seating chart\n- {席次|せきじ}を{決|き}める: to determine the seating order\n- {席次|せきじ}が{上|あ}がる: for one's ranking to rise\n- {席次|せきじ}{一位|いちい}: first place in class rankings\n\nSIMILAR WORDS:\n- {席順|せきじゅん}: seating order (more casual, less focused on rank)\n- {順位|じゅんい}: ranking (more general, used beyond seating contexts)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25863_sekijun",
+      "reading": "せきじゅん",
+      "headword": "{席順|せきじゅん}",
+      "label": "seating order"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14679_juni",
+      "reading": "じゅんい",
+      "headword": "{順位|じゅんい}",
+      "label": "ranking"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business", "education"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "education"
+      ]
     },
     "created": "2026-04-22T09:17:09Z",
-    "modified": "2026-04-22T09:17:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

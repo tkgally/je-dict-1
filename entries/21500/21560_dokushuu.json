@@ -3,7 +3,7 @@
   "headword": "{独習|どくしゅう}",
   "reading": "どくしゅう",
   "romaji": "dokushuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "self-study; self-instruction; teaching oneself",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Composed of {独|どく} (alone, self) and {習|しゅう} (learn, study). Emphasizes learning without a teacher.\n\nCOMMON COLLOCATIONS:\n- {独習|どくしゅう}で{学|まな}ぶ: to learn through self-study\n- {独習|どくしゅう}に{向|む}いている: suited for self-study\n- {独習|どくしゅう}{書|しょ}: self-study book\n- {独習|どくしゅう}テキスト: self-study textbook\n- {独習|どくしゅう}で{身|み}につける: to acquire through self-study\n\nSIMILAR WORDS:\n- {独学|どくがく}: self-teaching — very close synonym, slightly more common in conversation\n- {独習|どくしゅう}: self-study — slightly more formal, often used in book titles\n- {自習|じしゅう}: self-study — studying on one's own, often during a designated study period at school\n- {予習|よしゅう}: preparation — studying material before class\n- {復習|ふくしゅう}: review — going over material after class",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09601_dokugaku",
+      "reading": "どくがく",
+      "headword": "{独学|どくがく}",
+      "label": "self-teaching"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04212_jishuu",
+      "reading": "じしゅう",
+      "headword": "{自習|じしゅう}",
+      "label": "self-study"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01748_yoshuu",
+      "reading": "よしゅう",
+      "headword": "{予習|よしゅう}",
+      "label": "preparation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01718_fukushuu",
+      "reading": "ふくしゅう",
+      "headword": "{復習|ふくしゅう}",
+      "label": "review"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T16:17:24Z",
-    "modified": "2026-04-02T16:17:24Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -19,7 +19,9 @@
       "english": "Commercial use is prohibited.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11060_shouyou_ex2",
@@ -27,7 +29,9 @@
       "english": "Can I use this photo for commercial purposes?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11060_shouyou_ex3",
@@ -35,22 +39,38 @@
       "english": "You are free to enjoy it personally, but permission is required for commercial use.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{商用|しょうよう} is a compound of {商|しょう} (commerce) and {用|よう} (use/purpose). It frequently appears in software licensing, copyright notices, and terms of service.\n\nCOMMON COLLOCATIONS:\n- {商用|しょうよう}{利用|りよう}: commercial use\n- {商用|しょうよう}{目的|もくてき}: commercial purposes\n- {商用|しょうよう}{不可|ふか}: not available for commercial use\n- {非|ひ}{商用|しょうよう}: non-commercial\n\nSIMILAR WORDS:\n- {業務用|ぎょうむよう}: for business/professional use (equipment, supplies)\n- {営利|えいり}{目的|もくてき}: for-profit purposes",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13148_gyoumuyou",
+      "reading": "ぎょうむよう",
+      "headword": "{業務用|ぎょうむよう}",
+      "label": "for business/professional use"
+    }
+  ],
   "metadata": {
     "created": "2026-02-13T01:20:32Z",
-    "modified": "2026-02-13T01:20:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

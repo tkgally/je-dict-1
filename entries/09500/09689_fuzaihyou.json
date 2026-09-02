@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{不在票|ふざいひょう} is the slip left by delivery services when a package cannot be delivered.\n\nCOMMON PATTERNS:\n- {不在票|ふざいひょう}が{入|はい}る (a missed delivery notice is left)\n- {不在票|ふざいひょう}を{確認|かくにん}する (to check the missed delivery notice)\n\nUSAGE NOTES:\n- Contains information for arranging redelivery\n- Usually includes a QR code or phone number\n\nRELATED TERMS:\n- {再配達|さいはいたつ}: redelivery\n- {宅配便|たくはいびん}: home delivery service",
+  "notes": "{不在票|ふざいひょう} is the slip left by delivery services when a package cannot be delivered.\n\nCOMMON PATTERNS:\n- {不在票|ふざいひょう}が{入|はい}る (a missed delivery notice is left)\n- {不在票|ふざいひょう}を{確認|かくにん}する (to check the missed delivery notice)\n\nUSAGE:\n- Contains information for arranging redelivery\n- Usually includes a QR code or phone number\n\nRELATED WORDS:\n- {再配達|さいはいたつ}: redelivery\n- {宅配便|たくはいびん}: home delivery service",
   "metadata": {
     "created": "2026-02-03T06:48:04Z",
-    "modified": "2026-06-24T18:40:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -75,6 +75,20 @@
       "reading": "はいたつ",
       "headword": "{配達|はいたつ}",
       "label": "delivery"
+    },
+    {
+      "type": "related",
+      "target_id": "09534_takuhaibin",
+      "reading": "たくはいびん",
+      "headword": "{宅配便|たくはいびん}",
+      "label": "home delivery service"
+    },
+    {
+      "type": "related",
+      "target_id": "09719_takuhaibokkusu",
+      "reading": "たくはいぼっくす",
+      "headword": "{宅配|たくはい}ボックス",
+      "label": "delivery locker"
     }
   ]
 }

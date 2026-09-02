@@ -17,7 +17,9 @@
       "id": "24747_kousai_ex1",
       "japanese": "{公債|こうさい}を{発行|はっこう}する。",
       "english": "To issue government bonds.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24747_kousai_ex2",
       "japanese": "{公債|こうさい}{残高|ざんだか}が{年々|ねんねん}{増加|ぞうか}している。",
       "english": "The outstanding public debt has been increasing year by year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,45 @@
       "id": "24747_kousai_ex3",
       "japanese": "{政府|せいふ}は{財政|ざいせい}{赤字|あかじ}を{補|おぎな}うために{大量|たいりょう}の{公債|こうさい}を{発行|はっこう}せざるを{得|え}なかった。",
       "english": "The government had no choice but to issue a large volume of bonds to cover the fiscal deficit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {公|こう} (public) and {債|さい} (debt, bond). Covers both national government bonds ({国債|こくさい}) and local government bonds ({地方債|ちほうさい}).\n\nJapan has one of the highest public debt-to-GDP ratios in the world, making {公債|こうさい} a frequently discussed topic in Japanese news and politics.\n\nCOMMON COLLOCATIONS:\n- {公債|こうさい}を{発行|はっこう}する: to issue government bonds\n- {公債|こうさい}{残高|ざんだか}: outstanding government debt\n- {公債|こうさい}{費|ひ}: debt service costs\n- {公債|こうさい}{依存|いぞん}{度|ど}: bond dependency ratio\n\nSIMILAR WORDS:\n- {国債|こくさい}: national government bond — specifically bonds issued by the central government\n- {社債|しゃさい}: corporate bond — bonds issued by private companies\n- {地方債|ちほうさい}: municipal bond — bonds issued by local governments",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12016_kokusai",
+      "reading": "こくさい",
+      "headword": "{国債|こくさい}",
+      "label": "national government bond"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24079_shasai",
+      "reading": "しゃさい",
+      "headword": "{社債|しゃさい}",
+      "label": "corporate bond"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["finance", "politics"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "finance",
+        "politics"
+      ]
     },
     "created": "2026-04-20T14:30:38Z",
-    "modified": "2026-04-20T14:30:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

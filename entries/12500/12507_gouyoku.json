@@ -3,7 +3,7 @@
   "id": "12507_gouyoku",
   "headword": "{強欲|ごうよく}",
   "reading": "ごうよく",
-  "part_of_speech": "na-adjective / noun",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "greedy, avaricious; greed, avarice",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "That landowner is known for being greedy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12507_gouyoku_ex2",
@@ -27,7 +29,9 @@
       "english": "The greedy merchant was disliked by the people.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12507_gouyoku_ex3",
@@ -35,21 +39,50 @@
       "english": "Human greed is causing environmental destruction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nFunctions as both a na-adjective ({強欲|ごうよく}な) and a noun ({強欲|ごうよく}さ = greediness). Carries a strongly negative moral judgment. In Buddhist contexts, {強欲|ごうよく} is considered one of the root causes of suffering.\n\nCOMMON COLLOCATIONS:\n- {強欲|ごうよく}な{人|ひと}: greedy person\n- {強欲|ごうよく}さ: greediness\n- {強欲|ごうよく}の{塊|かたまり}: embodiment of greed\n\nSIMILAR WORDS:\n- {欲|よく}{張|ば}り: greedy, selfish (more colloquial)\n- {貪欲|どんよく}: covetous, voracious (can be positive when meaning eager/ambitious)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15920_yokubari",
+      "reading": "よくばり",
+      "headword": "{欲張|よくば}り",
+      "label": "greedy, selfish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08199_donyoku",
+      "reading": "どんよく",
+      "headword": "{貪欲|どんよく}",
+      "label": "covetous, voracious"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20854_yokufukai",
+      "reading": "よくふかい",
+      "headword": "{欲深|よくふか}い",
+      "label": "greedy"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T11:07:11Z",
-    "modified": "2026-02-21T11:07:11Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
   }
 }

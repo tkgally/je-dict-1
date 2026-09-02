@@ -35,7 +35,7 @@
     },
     {
       "id": "24026_soudenmou_ex3",
-      "japanese": "{再生|さいせい}{可能|かのう}{エネルギー|えねるぎー}の{普及|ふきゅう}には、{送電網|そうでんもう}の{大規模|だいきぼ}な{整備|せいび}が{不可欠|ふかけつ}だ。",
+      "japanese": "{再生|さいせい}{可能|かのう}エネルギーの{普及|ふきゅう}には、{送電網|そうでんもう}の{大規模|だいきぼ}な{整備|せいび}が{不可欠|ふかけつ}だ。",
       "english": "Large-scale upgrading of the power grid is indispensable for the spread of renewable energy.",
       "sense_numbers": [
         1
@@ -46,6 +46,36 @@
   ],
   "notes": "Compound of {送電|そうでん} ('power transmission') and {網|もう} ('net; network'). Refers to the high-voltage grid that moves electricity from generation sites to regional distribution hubs. Distinct from the local distribution network that delivers power to individual homes.\n\nUSAGE:\n- Frequent in news coverage of power outages, typhoon damage, and energy-policy debates over renewable energy and grid investment.\n- Often used alongside terms like {発電所|はつでんしょ} ('power plant'), {変電所|へんでんしょ} ('substation'), and {配電網|はいでんもう} ('distribution network').\n- Typical verbs: {整備|せいび}する ('to develop / maintain'), {強化|きょうか}する ('to strengthen'), {復旧|ふっきゅう}する ('to restore'), {停止|ていし}する ('to shut down').\n\nCOMMON COLLOCATIONS:\n- {送電網|そうでんもう}の{整備|せいび}: development of the power grid\n- {送電網|そうでんもう}が{停止|ていし}する: the grid goes down\n- {送電網|そうでんもう}の{復旧|ふっきゅう}: restoration of the grid\n- {全国|ぜんこく}の{送電網|そうでんもう}: the nationwide power grid\n- {送電網|そうでんもう}を{強化|きょうか}する: to strengthen the grid\n\nSIMILAR WORDS:\n- {配電網|はいでんもう}: distribution network — the lower-voltage network that delivers electricity from substations to individual homes; contrast with transmission.\n- {電力網|でんりょくもう}: power grid — near-synonym; emphasizes 'electric power' rather than the act of transmission, and covers both transmission and distribution.\n- {送電線|そうでんせん}: power transmission line — a single line in the network; {送電網|そうでんもう} is the full system of lines.\n- {系統|けいとう}: system; grid — in electrical engineering, a specialized term for an interconnected power system ({電力|でんりょく}{系統|けいとう}).\n- {発電所|はつでんしょ}: power plant — where electricity is generated; the starting point of the transmission network.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09776_soudensen",
+      "reading": "そうでんせん",
+      "headword": "{送電線|そうでんせん}",
+      "label": "power transmission line"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04141_keitou",
+      "reading": "けいとう",
+      "headword": "{系統|けいとう}",
+      "label": "system"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15991_hatsudensho",
+      "reading": "はつでんしょ",
+      "headword": "{発電所|はつでんしょ}",
+      "label": "power plant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30070_sumaatoguriddo",
+      "reading": "すまーとぐりっど",
+      "headword": "スマートグリッド",
+      "label": "smart grid"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +93,6 @@
       ]
     },
     "created": "2026-04-15T20:11:31Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

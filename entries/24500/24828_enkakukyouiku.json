@@ -46,12 +46,29 @@
   ],
   "notes": "Refers to any form of education delivered to learners who are not physically in a classroom. Composed of {遠隔|えんかく} (remote, distant) + {教育|きょういく} (education). The concept existed before the internet via correspondence courses ({通信|つうしん}{教育|きょういく}), but gained massive attention during and after the COVID-19 pandemic.\n\nCOMMON COLLOCATIONS:\n- {遠隔|えんかく}{教育|きょういく}システム — distance education system\n- {遠隔|えんかく}{教育|きょういく}を{導入|どうにゅう}する — to introduce distance education\n- {遠隔|えんかく}{教育|きょういく}の{課題|かだい} — challenges of distance education\n- {遠隔|えんかく}{教育|きょういく}{環境|かんきょう} — distance education environment\n\nSIMILAR WORDS:\n- オンライン{授業|じゅぎょう} — online class (more casual, specific to internet-based)\n- {通信|つうしん}{教育|きょういく} — correspondence education (older format, by mail)\n- eラーニング — e-learning (self-paced digital learning)\n- {遠隔|えんかく}{授業|じゅぎょう} — remote class (focuses on individual classes rather than the system)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09975_tsuushinkyouiku",
+      "reading": "つうしんきょういく",
+      "headword": "{通信教育|つうしんきょういく}",
+      "label": "correspondence education"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08603_enkakujugyou",
+      "reading": "えんかくじゅぎょう",
+      "headword": "{遠隔授業|えんかくじゅぎょう}",
+      "label": "remote class"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "education",
         "technology"
@@ -61,6 +78,6 @@
       ]
     },
     "created": "2026-04-21T09:19:57Z",
-    "modified": "2026-04-21T09:19:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

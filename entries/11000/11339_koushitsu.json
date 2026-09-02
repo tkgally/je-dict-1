@@ -18,7 +18,9 @@
       "english": "An imperial household ceremony was held.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11339_koushitsu_ex2",
@@ -26,7 +28,9 @@
       "english": "Members of the imperial family carry out many official duties.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11339_koushitsu_ex3",
@@ -34,10 +38,12 @@
       "english": "The Japanese imperial household is said to be the oldest royal family in the world.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{皇室|こうしつ} refers to the Japanese imperial family as an institution.\n\nWORD FORMATION:\n{皇|こう} (emperor) + {室|しつ} (house, chamber)\n\nCOMMON COLLOCATIONS:\n- {皇室|こうしつ}{典範|てんぱん}: Imperial House Law\n- {皇室|こうしつ}{行事|ぎょうじ}: imperial household events\n- {皇室|こうしつ}の{方々|かたがた}: members of the imperial family\n\nRELATED:\n- {天皇|てんのう}: the Emperor\n- {王室|おうしつ}: royal family (for non-Japanese monarchies)",
+  "notes": "{皇室|こうしつ} refers to the Japanese imperial family as an institution.\n\nFORMS:\n{皇|こう} (emperor) + {室|しつ} (house, chamber)\n\nCOMMON COLLOCATIONS:\n- {皇室|こうしつ}{典範|てんぱん}: Imperial House Law\n- {皇室|こうしつ}{行事|ぎょうじ}: imperial household events\n- {皇室|こうしつ}の{方々|かたがた}: members of the imperial family\n\nRELATED WORDS:\n- {天皇|てんのう}: the Emperor\n- {王室|おうしつ}: royal family (for non-Japanese monarchies)",
   "cross_references": [
     {
       "type": "related",
@@ -52,19 +58,39 @@
       "reading": "おうしつ",
       "headword": "{王室|おうしつ}",
       "label": "royal family (non-Japanese)"
+    },
+    {
+      "type": "related",
+      "target_id": "13548_ouke",
+      "reading": "おうけ",
+      "headword": "{王家|おうけ}",
+      "label": "royal family, royal house"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22657_kouzoku",
+      "reading": "こうぞく",
+      "headword": "{皇族|こうぞく}",
+      "label": "imperial family"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "created": "2026-02-16T00:41:26Z",
-    "modified": "2026-04-25T05:07:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }

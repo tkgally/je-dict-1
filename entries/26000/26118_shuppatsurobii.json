@@ -17,7 +17,9 @@
       "id": "26118_shuppatsurobii_ex1",
       "japanese": "{出発|しゅっぱつ}ロビーで{待|ま}ち{合|あ}わせしよう。",
       "english": "Let's meet at the departure lobby.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26118_shuppatsurobii_ex2",
       "japanese": "{出発|しゅっぱつ}ロビーには{免税店|めんぜいてん}やカフェがある。",
       "english": "There are duty-free shops and cafes in the departure lobby.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26118_shuppatsurobii_ex3",
       "japanese": "{搭乗|とうじょう}{手続|てつづ}きを{済|す}ませてから{出発|しゅっぱつ}ロビーでゆっくり{過|す}ごした。",
       "english": "After completing the boarding procedures, I spent time relaxing in the departure lounge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {出発|しゅっぱつ} (departure) and ロビー (lobby). Primarily used in airport contexts, referring to the area past security where passengers wait to board. Essential travel vocabulary for anyone flying in or through Japan.\n\nCOMMON COLLOCATIONS:\n- {国際線|こくさいせん}{出発|しゅっぱつ}ロビー: international departure lobby\n- {国内線|こくないせん}{出発|しゅっぱつ}ロビー: domestic departure lobby\n- {出発|しゅっぱつ}ロビーに{向|む}かう: to head to the departure lobby\n\nSIMILAR WORDS:\n- {到着|とうちゃく}ロビー: arrival lobby — the area for incoming passengers\n- {搭乗|とうじょう}ゲート: boarding gate — the specific gate for a flight\n- {待合室|まちあいしつ}: waiting room — a more general waiting area in stations or clinics",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07373_machiaishitsu",
+      "reading": "まちあいしつ",
+      "headword": "{待合室|まちあいしつ}",
+      "label": "waiting room"
+    },
+    {
+      "type": "related",
+      "target_id": "09927_toujouguchi",
+      "reading": "とうじょうぐち",
+      "headword": "{搭乗口|とうじょうぐち}",
+      "label": "boarding gate"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["travel", "building"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "travel",
+        "building"
+      ]
     },
     "created": "2026-04-29T13:41:38Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

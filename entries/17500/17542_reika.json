@@ -19,7 +19,9 @@
       "english": "It was minus 5 degrees this morning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17542_reika_ex2",
@@ -27,7 +29,9 @@
       "english": "When the temperature drops below zero, water pipes freeze.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17542_reika_ex3",
@@ -35,10 +39,12 @@
       "english": "In Hokkaido, temperatures can drop below minus 20 degrees in winter.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nUsed before a number to indicate a temperature below zero: {零下|れいか}10{度|ど} (minus 10 degrees). マイナス is also commonly used in spoken Japanese for the same purpose.\n\nCOMMON COLLOCATIONS:\n- {零下|れいか}～{度|ど} (minus ~ degrees)\n- {零下|れいか}になる (to drop below zero)\n- {零下|れいか}を{記録|きろく}する (to record sub-zero temperatures)\n\nCONTRAST:\n- マイナス: minus — loanword, commonly used in spoken Japanese\n- {氷点下|ひょうてんか}: below freezing point — more formal, specifically refers to below 0°C",
+  "notes": "USAGE:\nUsed before a number to indicate a temperature below zero: {零下|れいか}10{度|ど} (minus 10 degrees). マイナス is also commonly used in spoken Japanese for the same purpose.\n\nCOMMON COLLOCATIONS:\n- {零下|れいか}～{度|ど} (minus ~ degrees)\n- {零下|れいか}になる (to drop below zero)\n- {零下|れいか}を{記録|きろく}する (to record sub-zero temperatures)\n\nSIMILAR WORDS:\n- マイナス: minus — loanword, commonly used in spoken Japanese\n- {氷点下|ひょうてんか}: below freezing point — more formal, specifically refers to below 0°C",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,18 +52,30 @@
       "reading": "ひょうてんか",
       "headword": "{氷点下|ひょうてんか}",
       "label": "below freezing (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00268_mainasu",
+      "reading": "まいなす",
+      "headword": "マイナス",
+      "label": "minus"
     }
   ],
   "metadata": {
     "created": "2026-03-18T08:06:53Z",
-    "modified": "2026-05-06T09:07:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather", "number"]
+      "semantic": [
+        "weather",
+        "number"
+      ]
     }
   }
 }

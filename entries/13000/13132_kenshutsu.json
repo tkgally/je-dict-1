@@ -135,10 +135,32 @@
     }
   ],
   "notes": "{検出|けんしゅつ} means to detect or discover something through examination, testing, or analysis. A technical term used mainly in scientific, medical, and IT contexts.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Very commonly used in passive: [substance]が{検出|けんしゅつ}される\n\nCOMMON COLLOCATIONS:\n- {検出|けんしゅつ}される: to be detected\n- {検出|けんしゅつ}{限界|げんかい}: detection limit\n- {検出|けんしゅつ}{率|りつ}: detection rate\n- {早期|そうき}{検出|けんしゅつ}: early detection\n- {不正|ふせい}{検出|けんしゅつ}: fraud detection\n\nSIMILAR WORDS:\n- {発見|はっけん}: discovery (general, broader meaning)\n- {検知|けんち}: detection (sensors, alarms)\n- {検出|けんしゅつ} specifically implies finding something through systematic analysis or testing\n\nREGISTER:\nFormal and technical. In everyday speech, {見|み}つかる (to be found) is more natural.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00085_hakken",
+      "reading": "はっけん",
+      "headword": "{発見|はっけん}",
+      "label": "discovery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18762_kenchi",
+      "reading": "けんち",
+      "headword": "{検知|けんち}",
+      "label": "detection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26929_hakkensuru",
+      "reading": "はっけんする",
+      "headword": "{発見|はっけん}する",
+      "label": "to discover"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T11:42:58Z",
-    "modified": "2026-04-10T06:37:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

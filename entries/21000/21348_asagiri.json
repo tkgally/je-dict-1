@@ -17,7 +17,9 @@
       "id": "21348_asagiri_ex1",
       "japanese": "{朝霧|あさぎり}が{立|た}ちこめている。",
       "english": "The morning fog is hanging thick.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21348_asagiri_ex2",
       "japanese": "{朝霧|あさぎり}の{中|なか}を{散歩|さんぽ}した。",
       "english": "I took a walk in the morning mist.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "21348_asagiri_ex3",
       "japanese": "{湖|みずうみ}に{朝霧|あさぎり}がかかり、{幻想的|げんそうてき}な{風景|ふうけい}が{広|ひろ}がっていた。",
       "english": "Morning mist hung over the lake, creating a dreamlike landscape.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {朝|あさ} (morning) and {霧|きり} (fog/mist). Evokes a quiet, atmospheric image often associated with mountains, lakes, and rural landscapes. Frequently used in poetry, literature, and scenic descriptions. Also used as a place name and ship name.\n\nCOMMON COLLOCATIONS:\n- {朝霧|あさぎり}が{立|た}つ: morning fog rises\n- {朝霧|あさぎり}がかかる: morning fog settles over\n- {朝霧|あさぎり}が{晴|は}れる: morning fog clears\n- {朝霧|あさぎり}に{包|つつ}まれる: to be enveloped in morning mist\n\nSIMILAR WORDS:\n- {夕霧|ゆうぎり}: evening fog — the counterpart at dusk\n- {霧|きり}: fog/mist — the general term without time specification\n- {朝靄|あさもや}: morning haze — lighter and thinner than fog\n- {霞|かすみ}: haze — a broader, more diffuse atmospheric phenomenon",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07866_asamoya",
+      "reading": "あさもや",
+      "headword": "{朝靄|あさもや}",
+      "label": "morning haze"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05042_kasumi",
+      "reading": "かすみ",
+      "headword": "{霞|かすみ}",
+      "label": "haze"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather", "nature"]
+      "semantic": [
+        "weather",
+        "nature"
+      ]
     },
     "created": "2026-04-02T01:34:36Z",
-    "modified": "2026-04-02T01:34:36Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

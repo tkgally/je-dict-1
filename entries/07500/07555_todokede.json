@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{届|とどけ} (notification) + {出|で} (submission)\n\nCOMMON TYPES OF {届出|とどけで}:\n・{婚姻届出|こんいんとどけで} - marriage registration\n・{出生届出|しゅっせいとどけで} - birth registration\n・{転居届出|てんきょとどけで} - change of address notification\n・{死亡届出|しぼうとどけで} - death registration\n・{開業届出|かいぎょうとどけで} - business registration\n・{退職届出|たいしょくとどけで} - resignation notice\n\nVARIATION:\n・{届|とどけ} - shorter form, used similarly\n・{届|とど}け{出|で} - alternative spelling\n\nCOLLOCATIONS:\n・{届出|とどけで}をする - to submit a notification\n・{届出|とどけで}を{受|う}け{付|つ}ける - to accept a registration\n・{届出|とどけで}{書類|しょるい} - notification documents\n・{届出|とどけで}{義務|ぎむ} - obligation to report\n\nLEGAL CONTEXT:\nMany {届出|とどけで} are legally required in Japan for life events, business activities, and regulatory compliance.",
+  "notes": "ETYMOLOGY:\n{届|とどけ} (notification) + {出|で} (submission)\n\nCOMMON TYPES OF {届出|とどけで}:\n- {婚姻届出|こんいんとどけで} - marriage registration\n- {出生届出|しゅっせいとどけで} - birth registration\n- {転居届出|てんきょとどけで} - change of address notification\n- {死亡届出|しぼうとどけで} - death registration\n- {開業届出|かいぎょうとどけで} - business registration\n- {退職届出|たいしょくとどけで} - resignation notice\n\nFORMS:\n- {届|とどけ} - shorter form, used similarly\n- {届|とど}け{出|で} - alternative spelling\n\nCOMMON COLLOCATIONS:\n- {届出|とどけで}をする - to submit a notification\n- {届出|とどけで}を{受|う}け{付|つ}ける - to accept a registration\n- {届出|とどけで}{書類|しょるい} - notification documents\n- {届出|とどけで}{義務|ぎむ} - obligation to report\n\nLEGAL CONTEXT:\nMany {届出|とどけで} are legally required in Japan for life events, business activities, and regulatory compliance.",
   "prominent_see_also": [
     {
       "target_id": "07558_todoke",
@@ -56,11 +56,32 @@
       "headword": "{届|とどけ}け",
       "label": "notification",
       "target_id": "07558_todoke"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15706_higaitodoke",
+      "reading": "ひがいとどけ",
+      "headword": "{被害届|ひがいとどけ}",
+      "label": "damage report"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19798_touki",
+      "reading": "とうき",
+      "headword": "{登記|とうき}",
+      "label": "registration"
+    },
+    {
+      "type": "related",
+      "target_id": "20685_funshitsutodoke",
+      "reading": "ふんしつとどけ",
+      "headword": "{紛失届|ふんしつとどけ}",
+      "label": "report of lost property"
     }
   ],
   "metadata": {
     "created": "2026-01-20T08:47:47Z",
-    "modified": "2026-06-30T00:18:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -68,6 +89,7 @@
         "noun"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "business"
       ],

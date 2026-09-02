@@ -79,8 +79,37 @@
       "notes": null
     }
   ],
-  "notes": "Question word formed from {何|なん} ('what, how many') + {日|にち} (counter for days / day of the month). Which sense applies depends on context.\n\nUSAGE:\n- Sense 1 (duration): often paired with {間|かん} to explicitly mean 'for how many days', as in {何日|なんにち}{間|かん}.\n- Sense 1 (vague): {何日|なんにち}か means 'several / a few days' when not a direct question — the か turns it into an indefinite expression.\n- Sense 2 (date): asks the day of the month. The answer uses the standard day-of-month readings ({一日|ついたち}, {二日|ふつか}, ..., {二十日|はつか}, {三十一日|さんじゅういちにち}, etc.).\n\nCOMMON COLLOCATIONS:\n- {何日|なんにち}かかる: to take how many days\n- {何日|なんにち}{間|かん}: for how many days\n- {何日|なんにち}か: several days; a few days (indefinite)\n- {何日|なんにち}{前|まえ}: how many days ago\n- {今日|きょう}は{何日|なんにち}: what day (of the month) is today\n\nSIMILAR WORDS:\n- {何曜日|なんようび}: what day of the week — asks the weekday (Monday, Tuesday, etc.), not the date.\n- {いつ}: when — a more general 'when', without specifying duration or date.\n- {何月|なんがつ}: what month.\n\nCOMMON MISTAKES:\nLearners sometimes confuse {何日|なんにち} with {何曜日|なんようび}. If you want to know 'Monday or Tuesday?', use {何曜日|なんようび}. If you want to know 'the 5th or the 6th?', use {何日|なんにち}.",
-  "cross_references": [],
+  "notes": "Question word formed from {何|なん} ('what, how many') + {日|にち} (counter for days / day of the month). Which sense applies depends on context.\n\nUSAGE:\n- Sense 1 (duration): often paired with {間|かん} to explicitly mean 'for how many days', as in {何日|なんにち}{間|かん}.\n- Sense 1 (vague): {何日|なんにち}か means 'several / a few days' when not a direct question — the か turns it into an indefinite expression.\n- Sense 2 (date): asks the day of the month. The answer uses the standard day-of-month readings ({一日|ついたち}, {二日|ふつか}, ..., {二十日|はつか}, {三十一日|さんじゅういちにち}, etc.).\n\nCOMMON COLLOCATIONS:\n- {何日|なんにち}かかる: to take how many days\n- {何日|なんにち}{間|かん}: for how many days\n- {何日|なんにち}か: several days; a few days (indefinite)\n- {何日|なんにち}{前|まえ}: how many days ago\n- {今日|きょう}は{何日|なんにち}: what day (of the month) is today\n\nSIMILAR WORDS:\n- {何曜日|なんようび}: what day of the week — asks the weekday (Monday, Tuesday, etc.), not the date.\n- いつ: when — a more general 'when', without specifying duration or date.\n- {何月|なんがつ}: what month.\n\nWATCH OUT:\nLearners sometimes confuse {何日|なんにち} with {何曜日|なんようび}. If you want to know 'Monday or Tuesday?', use {何曜日|なんようび}. If you want to know 'the 5th or the 6th?', use {何日|なんにち}.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30346_nanyoubi",
+      "reading": "なんようび",
+      "headword": "{何曜日|なんようび}",
+      "label": "what day of the week"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22086_nangatsu",
+      "reading": "なんがつ",
+      "headword": "{何月|なんがつ}",
+      "label": "what month."
+    },
+    {
+      "type": "related",
+      "target_id": "12737_nannen",
+      "reading": "なんねん",
+      "headword": "{何年|なんねん}",
+      "label": "how many years, what year"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27467_ikunichi",
+      "reading": "いくにち",
+      "headword": "{幾日|いくにち}",
+      "label": "how many days"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -96,6 +125,6 @@
       ]
     },
     "created": "2026-04-15T09:10:08Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -21,7 +21,9 @@
       "id": "08285_tsuaa_ex1",
       "japanese": "パッケージツアーに{参加|さんか}する。",
       "english": "To join a package tour.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -29,7 +31,9 @@
       "id": "08285_tsuaa_ex2",
       "japanese": "バスツアーでお{城|しろ}を{巡|めぐ}った。",
       "english": "I visited castles on a bus tour.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -37,7 +41,9 @@
       "id": "08285_tsuaa_ex3",
       "japanese": "ガイド{付|つ}きのツアーを{予約|よやく}した。",
       "english": "I booked a guided tour.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -45,7 +51,9 @@
       "id": "08285_tsuaa_ex4",
       "japanese": "そのバンドは{全国|ぜんこく}ツアーを{行|おこな}う。",
       "english": "The band is doing a nationwide tour.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -53,7 +61,9 @@
       "id": "08285_tsuaa_ex5",
       "japanese": "ツアーの{最終公演|さいしゅうこうえん}は{東京|とうきょう}ドームだ。",
       "english": "The final show of the tour is at Tokyo Dome.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -61,21 +71,59 @@
       "id": "08285_tsuaa_ex6",
       "japanese": "ワールドツアーのチケットは{即|そく}{完売|かんばい}した。",
       "english": "The world tour tickets sold out immediately.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "FROM ENGLISH:\nLoanword from English \"tour.\"\n\nTOUR TYPES (Travel):\n- パッケージツアー (package tour)\n- バスツアー (bus tour)\n- {日帰|ひがえ}りツアー (day trip tour)\n- ガイド{付|つ}きツアー (guided tour)\n- {個人|こじん}ツアー (independent tour)\n\nTOUR TYPES (Entertainment):\n- {全国|ぜんこく}ツアー (nationwide tour)\n- ワールドツアー (world tour)\n- ライブツアー (concert tour)\n- ツアーファイナル (final show of a tour)\n\nRELATED:\n- {旅行|りょこう} (trip, travel)\n- {観光|かんこう} (sightseeing)\n- コンサート (concert)\n- ライブ (live performance)",
+  "notes": "FROM ENGLISH:\nLoanword from English \"tour.\"\n\nTOUR TYPES (Travel):\n- パッケージツアー (package tour)\n- バスツアー (bus tour)\n- {日帰|ひがえ}りツアー (day trip tour)\n- ガイド{付|つ}きツアー (guided tour)\n- {個人|こじん}ツアー (independent tour)\n\nTOUR TYPES (Entertainment):\n- {全国|ぜんこく}ツアー (nationwide tour)\n- ワールドツアー (world tour)\n- ライブツアー (concert tour)\n- ツアーファイナル (final show of a tour)\n\nRELATED WORDS:\n- {旅行|りょこう} (trip, travel)\n- {観光|かんこう} (sightseeing)\n- コンサート (concert)\n- ライブ (live performance)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00748_ryokou",
+      "reading": "りょこう",
+      "headword": "{旅行|りょこう}",
+      "label": "trip, travel"
+    },
+    {
+      "type": "related",
+      "target_id": "00173_kankou",
+      "reading": "かんこう",
+      "headword": "{観光|かんこう}",
+      "label": "sightseeing"
+    },
+    {
+      "type": "related",
+      "target_id": "01360_konsaato",
+      "reading": "こんさーと",
+      "headword": "コンサート",
+      "label": "concert"
+    },
+    {
+      "type": "related",
+      "target_id": "05412_raibu",
+      "reading": "らいぶ",
+      "headword": "ライブ",
+      "label": "live performance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
+      "politeness": "plain",
       "loanword": true,
-      "semantic": ["travel", "entertainment"]
+      "semantic": [
+        "travel",
+        "entertainment"
+      ]
     },
     "created": "2026-01-25T11:41:54Z",
-    "modified": "2026-01-25T11:41:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

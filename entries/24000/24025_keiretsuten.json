@@ -44,8 +44,52 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {系列|けいれつ} ('lineage; corporate group; network') and {店|てん} ('store'). Used to describe a store that is part of a larger corporate family, especially in retail and distribution — car dealerships, electronics stores, convenience-store chains, and restaurant groups. The word highlights the relationship to a parent or group, which affects service, pricing, and product availability.\n\nUSAGE:\n- Common in product warranties, loyalty-program descriptions, and news about retail industry reorganization.\n- Often contrasts with {独立店|どくりつてん} ('independent store') or {直営店|ちょくえいてん} ('directly-managed store').\n- The broader business term {系列|けいれつ} by itself refers to Japanese corporate groupings (e.g., the Mitsubishi {系列|けいれつ}), and {系列店|けいれつてん} applies that idea at the retail-shop level.\n\nCOMMON COLLOCATIONS:\n- {系列店|けいれつてん}で{買|か}う: to buy at an affiliated store\n- {全国|ぜんこく}の{系列店|けいれつてん}: affiliated stores nationwide\n- {系列店|けいれつてん}を{展開|てんかい}する: to roll out a chain of affiliated stores\n- {系列店|けいれつてん}の{ネットワーク|ねっとわーく}: network of affiliated stores\n- トヨタ{系列店|けいれつてん}: Toyota-affiliated store\n\nSIMILAR WORDS:\n- {直営店|ちょくえいてん}: directly-managed store — run by the parent company itself; a {系列店|けいれつてん} may be directly managed or franchised.\n- {フランチャイズ|ふらんちゃいず}{店|てん}: franchise store — operates under a brand through a franchise contract, with an independent owner.\n- {チェーン店|ちぇーんてん}: chain store — general term for one of many stores under the same brand; overlaps with {系列店|けいれつてん} but emphasizes uniform branding rather than the corporate-group link.\n- {支店|してん}: branch store; branch office — a branch of the same company, usually under direct ownership.\n- {加盟店|かめいてん}: member store — a store that has joined a card, point, or franchise network by contract.",
+  "notes": "Compound of {系列|けいれつ} ('lineage; corporate group; network') and {店|てん} ('store'). Used to describe a store that is part of a larger corporate family, especially in retail and distribution — car dealerships, electronics stores, convenience-store chains, and restaurant groups. The word highlights the relationship to a parent or group, which affects service, pricing, and product availability.\n\nUSAGE:\n- Common in product warranties, loyalty-program descriptions, and news about retail industry reorganization.\n- Often contrasts with {独立店|どくりつてん} ('independent store') or {直営店|ちょくえいてん} ('directly-managed store').\n- The broader business term {系列|けいれつ} by itself refers to Japanese corporate groupings (e.g., the Mitsubishi {系列|けいれつ}), and {系列店|けいれつてん} applies that idea at the retail-shop level.\n\nCOMMON COLLOCATIONS:\n- {系列店|けいれつてん}で{買|か}う: to buy at an affiliated store\n- {全国|ぜんこく}の{系列店|けいれつてん}: affiliated stores nationwide\n- {系列店|けいれつてん}を{展開|てんかい}する: to roll out a chain of affiliated stores\n- {系列店|けいれつてん}のネットワーク: network of affiliated stores\n- トヨタ{系列店|けいれつてん}: Toyota-affiliated store\n\nSIMILAR WORDS:\n- {直営店|ちょくえいてん}: directly-managed store — run by the parent company itself; a {系列店|けいれつてん} may be directly managed or franchised.\n- フランチャイズ{店|てん}: franchise store — operates under a brand through a franchise contract, with an independent owner.\n- {チェーン店|ちぇーんてん}: chain store — general term for one of many stores under the same brand; overlaps with {系列店|けいれつてん} but emphasizes uniform branding rather than the corporate-group link.\n- {支店|してん}: branch store; branch office — a branch of the same company, usually under direct ownership.\n- {加盟店|かめいてん}: member store — a store that has joined a card, point, or franchise network by contract.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20450_chokueiten",
+      "reading": "ちょくえいてん",
+      "headword": "{直営店|ちょくえいてん}",
+      "label": "directly-managed store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11041_cheenten",
+      "reading": "ちぇーんてん",
+      "headword": "チェーン{店|てん}",
+      "label": "chain store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03185_shiten",
+      "reading": "してん",
+      "headword": "{支店|してん}",
+      "label": "branch store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23125_kameiten",
+      "reading": "かめいてん",
+      "headword": "{加盟店|かめいてん}",
+      "label": "member store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20702_furanchaizu",
+      "reading": "ふらんちゃいず",
+      "headword": "フランチャイズ",
+      "label": "franchise"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24942_teikeiten",
+      "reading": "ていけいてん",
+      "headword": "{提携店|ていけいてん}",
+      "label": "partner store"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,6 +106,6 @@
       ]
     },
     "created": "2026-04-15T20:11:02Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

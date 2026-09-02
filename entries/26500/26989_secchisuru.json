@@ -3,7 +3,7 @@
   "headword": "{設置|せっち}する",
   "reading": "せっちする",
   "romaji": "secchisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to set up; to install; to establish",
   "definitions": [
     {
@@ -81,6 +81,43 @@
   ],
   "notes": "Used for both physical installation (cameras, equipment, signs) and abstract establishment (committees, organizations, systems). The passive form {設置|せっち}される is very common in news and official announcements.\n\nCOMMON COLLOCATIONS:\n- {設置場所|せっちばしょ}: installation location\n- {設置工事|せっちこうじ}: installation work\n- {設置基準|せっちきじゅん}: installation standards\n- {設置者|せっちしゃ}: installer; establishing party\n- {常設|じょうせつ}: permanently installed/established\n\nSIMILAR WORDS:\n- {取|と}り{付|つ}ける: to install; to attach — more hands-on, physical installation of smaller items\n- {設立|せつりつ}する: to establish; to found — used for organizations and companies, not physical objects\n- {置|お}く: to put; to place — general placement, not formal installation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06797_toritsukeru",
+      "reading": "とりつける",
+      "headword": "{取|と}り{付|つ}ける",
+      "label": "to install"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17473_setsuritsusuru",
+      "reading": "せつりつする",
+      "headword": "{設立|せつりつ}する",
+      "label": "to establish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01092_oku",
+      "reading": "おく",
+      "headword": "{置|お}く",
+      "label": "to put"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12796_sueru",
+      "reading": "すえる",
+      "headword": "{据|す}える",
+      "label": "to set, to place, to install"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19983_suetsukeru",
+      "reading": "すえつける",
+      "headword": "{据|す}え{付|つ}ける",
+      "label": "to install"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -96,7 +133,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T13:08:47Z",
-    "modified": "2026-05-06T13:08:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

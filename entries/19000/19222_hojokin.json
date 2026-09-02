@@ -17,7 +17,9 @@
       "id": "19222_hojokin_ex1",
       "japanese": "{補助金|ほじょきん}を{申請|しんせい}する。",
       "english": "To apply for a subsidy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19222_hojokin_ex2",
       "japanese": "{国|くに}から{補助金|ほじょきん}が{出|で}ることになった。",
       "english": "It was decided that a subsidy would be provided by the government.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,55 @@
       "id": "19222_hojokin_ex3",
       "japanese": "{中小企業|ちゅうしょうきぎょう}を{対象|たいしょう}にした{補助金|ほじょきん}{制度|せいど}が{新|あら}たに{設|もう}けられた。",
       "english": "A new subsidy program targeting small and medium-sized businesses was established.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {補助|ほじょ} (assistance) + {金|きん} (money). Refers to financial support from government or institutions.\n\nCOMMON COLLOCATIONS:\n- {補助金|ほじょきん}を{申請|しんせい}する: to apply for a subsidy\n- {補助金|ほじょきん}を{交付|こうふ}する: to grant a subsidy\n- {補助金|ほじょきん}を{受|う}ける: to receive a subsidy\n- {補助金|ほじょきん}{制度|せいど}: subsidy system/program\n\nSIMILAR WORDS:\n- {助成金|じょせいきん}: grant, funding aid (often for research or social programs)\n- {交付金|こうふきん}: allocated grant (from central to local government)\n- {給付金|きゅうふきん}: benefit payment (paid directly to individuals)\n\nUSAGE:\nCommonly appears in news about government economic policy, small business support, and local government programs.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11343_joseikin",
+      "reading": "じょせいきん",
+      "headword": "{助成金|じょせいきん}",
+      "label": "grant, funding aid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20806_kyuufukin",
+      "reading": "きゅうふきん",
+      "headword": "{給付金|きゅうふきん}",
+      "label": "benefit payment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13848_kyuufu",
+      "reading": "きゅうふ",
+      "headword": "{給付|きゅうふ}",
+      "label": "benefit, allowance, payment, provision"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["finance", "politics"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "finance",
+        "politics"
+      ]
     },
     "created": "2026-03-25T01:35:00Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

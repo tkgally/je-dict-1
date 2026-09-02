@@ -44,11 +44,40 @@
       ]
     }
   ],
-  "notes": "{果汁|かじゅう} is the formal/technical term for fruit juice, commonly seen on product labels and packaging rather than in casual conversation.\n\nWORD FORMATION:\n{果|か} (fruit) + {汁|じゅう} (juice, liquid).\n\nCOMMON COLLOCATIONS:\n- {果汁|かじゅう}100%: 100% fruit juice (common label)\n- {果汁|かじゅう}{入|い}り: containing fruit juice\n- {搾|しぼ}りたての{果汁|かじゅう}: freshly squeezed juice\n- {果汁|かじゅう}{飲料|いんりょう}: fruit juice beverage\n\nUSAGE:\nIn Japan, beverage labels must state the {果汁|かじゅう} percentage. Products with less than 100% are labeled as {果汁|かじゅう}○○% or {果汁|かじゅう}{入|い}り.\n\nCONTRAST:\n- {果汁|かじゅう}: fruit juice (formal, label term)\n- ジュース: juice (casual everyday word; in Japanese, can also mean any sweet drink, not just fruit juice)\n- {果実|かじつ}: fruit (the whole fruit, not the juice)",
-  "cross_references": [],
+  "notes": "{果汁|かじゅう} is the formal/technical term for fruit juice, commonly seen on product labels and packaging rather than in casual conversation.\n\nFORMS:\n{果|か} (fruit) + {汁|じゅう} (juice, liquid).\n\nCOMMON COLLOCATIONS:\n- {果汁|かじゅう}100%: 100% fruit juice (common label)\n- {果汁|かじゅう}{入|い}り: containing fruit juice\n- {搾|しぼ}りたての{果汁|かじゅう}: freshly squeezed juice\n- {果汁|かじゅう}{飲料|いんりょう}: fruit juice beverage\n\nUSAGE:\nIn Japan, beverage labels must state the {果汁|かじゅう} percentage. Products with less than 100% are labeled as {果汁|かじゅう}○○% or {果汁|かじゅう}{入|い}り.\n\nSIMILAR WORDS:\n- {果汁|かじゅう}: fruit juice (formal, label term)\n- ジュース: juice (casual everyday word; in Japanese, can also mean any sweet drink, not just fruit juice)\n- {果実|かじつ}: fruit (the whole fruit, not the juice)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01033_juusu",
+      "reading": "じゅーす",
+      "headword": "ジュース",
+      "label": "juice (casual everyday word"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00146_kajitsu",
+      "reading": "かじつ",
+      "headword": "{果実|かじつ}",
+      "label": "fruit"
+    },
+    {
+      "type": "related",
+      "target_id": "19561_kaniku",
+      "reading": "かにく",
+      "headword": "{果肉|かにく}",
+      "label": "flesh of fruit"
+    },
+    {
+      "type": "related",
+      "target_id": "19573_kahi",
+      "reading": "かひ",
+      "headword": "{果皮|かひ}",
+      "label": "fruit peel"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T09:50:57Z",
-    "modified": "2026-07-16T07:06:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -56,6 +85,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "food"
       ]

@@ -3,7 +3,7 @@
   "headword": "{保管|ほかん}する",
   "reading": "ほかんする",
   "romaji": "hokansuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to store; to keep; to hold in custody",
   "definitions": [
     {
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "{保管|ほかん}する emphasizes safe, responsible keeping of items — often with the implication that they will be needed later or that they have value worth protecting. It is more formal than {しまう} and more focused on safekeeping than {保存|ほぞん}する.\n\nCOMMON COLLOCATIONS:\n- {書類|しょるい}を{保管|ほかん}する: store documents\n- {荷物|にもつ}を{保管|ほかん}する: store luggage\n- {冷暗所|れいあんしょ}で{保管|ほかん}する: store in a cool dark place\n- {保管|ほかん}{場所|ばしょ}: storage location\n- {保管|ほかん}{期間|きかん}: storage period\n- {保管|ほかん}{料|りょう}: storage fee\n\nSIMILAR WORDS:\n- {保存|ほぞん}する: to preserve; to save — focuses on maintaining condition over time, also used for digital file saving\n- しまう: to put away; to store — casual, everyday word for putting things in their place\n- {預|あず}ける: to leave in someone's care; to deposit — involves entrusting to another person or institution",
-  "cross_references": [],
+  "notes": "{保管|ほかん}する emphasizes safe, responsible keeping of items — often with the implication that they will be needed later or that they have value worth protecting. It is more formal than しまう and more focused on safekeeping than {保存|ほぞん}する.\n\nCOMMON COLLOCATIONS:\n- {書類|しょるい}を{保管|ほかん}する: store documents\n- {荷物|にもつ}を{保管|ほかん}する: store luggage\n- {冷暗所|れいあんしょ}で{保管|ほかん}する: store in a cool dark place\n- {保管|ほかん}{場所|ばしょ}: storage location\n- {保管|ほかん}{期間|きかん}: storage period\n- {保管|ほかん}{料|りょう}: storage fee\n\nSIMILAR WORDS:\n- {保存|ほぞん}する: to preserve; to save — focuses on maintaining condition over time, also used for digital file saving\n- しまう: to put away; to store — casual, everyday word for putting things in their place\n- {預|あず}ける: to leave in someone's care; to deposit — involves entrusting to another person or institution",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03626_hozon",
+      "reading": "ほぞん",
+      "headword": "{保存|ほぞん}",
+      "label": "to preserve"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03064_shimau",
+      "reading": "しまう",
+      "headword": "{仕舞|しま}う",
+      "label": "to put away"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01819_azukeru",
+      "reading": "あずける",
+      "headword": "{預|あず}ける",
+      "label": "to leave in someone's care"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +76,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T16:15:36Z",
-    "modified": "2026-04-25T16:15:36Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -3,7 +3,7 @@
   "headword": "{講読|こうどく}",
   "reading": "こうどく",
   "romaji": "koudoku",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reading and study of texts; close reading",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A compound of {講|こう} (lecture/discuss) + {読|どく} (read). A specifically academic word referring to the close, analytical reading of texts — distinct from casual reading.\n\nCOMMON COLLOCATIONS:\n- {原書|げんしょ}{講読|こうどく}: reading original texts (in the source language)\n- {文献|ぶんけん}{講読|こうどく}: study of written materials\n- {講読|こうどく}{授業|じゅぎょう}: text reading class\n- {古典|こてん}{講読|こうどく}: classical text study\n\nSIMILAR WORDS:\n- {購読|こうどく}: subscription — subscribing to publications; same pronunciation, different meaning\n- {精読|せいどく}: intensive reading — careful, detailed reading (but not necessarily in a class)\n- {輪読|りんどく}: group reading — taking turns reading and discussing a text\n- {読解|どっかい}: reading comprehension — understanding written text\n\nNOTE: Be careful not to confuse {講読|こうどく} (text study) with {購読|こうどく} (subscription to a publication). They are homophones with very different meanings.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "04468_koudoku",
+      "reading": "こうどく",
+      "headword": "{購読|こうどく}",
+      "label": "subscription"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15982_seidoku",
+      "reading": "せいどく",
+      "headword": "{精読|せいどく}",
+      "label": "intensive reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15056_dokkai",
+      "reading": "どっかい",
+      "headword": "{読解|どっかい}",
+      "label": "reading comprehension"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-08T17:36:28Z",
-    "modified": "2026-04-08T17:36:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

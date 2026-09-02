@@ -19,7 +19,9 @@
       "english": "To put on a name tag.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12338_nafuda_ex2",
@@ -27,7 +29,9 @@
       "english": "The conference participants wore name tags on their chests.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12338_nafuda_ex3",
@@ -35,7 +39,9 @@
       "english": "Elementary school students write their name and grade on their name tag.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{名札|なふだ} is a tag or badge displaying a person's name. Compound of {名|な} (name) + {札|ふだ} (tag, card).\n\nCOMMON COLLOCATIONS:\n- {名札|なふだ}を{付|つ}ける/{着|つ}ける: to put on a name tag\n- {名札|なふだ}を{外|はず}す: to take off a name tag\n- {名札|なふだ}に{名前|なまえ}を{書|か}く: to write one's name on a tag\n\nUSAGE:\nCommon in Japanese schools (especially elementary), hospitals, conferences, and workplaces. Japanese {小学生|しょうがくせい} typically wear {名札|なふだ} on their clothes or bags with their name and class.\n\nSIMILAR WORDS:\n- {名札|なふだ}: name tag (worn on person or placed on desk)\n- {名刺|めいし}: business card (exchanged at meetings)\n- {表札|ひょうさつ}: nameplate (on a house or building entrance)\n- ネームプレート: name plate (loanword, often used in offices)",
@@ -46,18 +52,50 @@
       "reading": "めいし",
       "headword": "{名刺|めいし}",
       "label": "business card"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04886_hyousatsu",
+      "reading": "ひょうさつ",
+      "headword": "{表札|ひょうさつ}",
+      "label": "nameplate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19865_nifuda",
+      "reading": "にふだ",
+      "headword": "{荷札|にふだ}",
+      "label": "luggage tag"
+    },
+    {
+      "type": "related",
+      "target_id": "22652_shainshou",
+      "reading": "しゃいんしょう",
+      "headword": "{社員証|しゃいんしょう}",
+      "label": "employee ID card"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26004_urifuda",
+      "reading": "うりふだ",
+      "headword": "{売札|うりふだ}",
+      "label": "price tag"
     }
   ],
   "metadata": {
     "created": "2026-02-21T02:56:32Z",
-    "modified": "2026-04-26T09:20:33Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     }
   }
 }

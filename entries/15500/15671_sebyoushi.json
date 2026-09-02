@@ -19,7 +19,9 @@
       "english": "The title on the spine is hard to read.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15671_sebyoushi_ex2",
@@ -27,7 +29,9 @@
       "english": "I like looking at the spines of books on the bookshelf.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15671_sebyoushi_ex3",
@@ -35,10 +39,12 @@
       "english": "The spines of old books have faded from sun exposure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "WORD FORMATION:\n{背|せ} (back) + {表紙|ひょうし} (cover). Note the reading change: {表紙|ひょうし} becomes びょうし in this compound due to rendaku (sequential voicing).\n\nUSAGE:\nIn Japanese bookbinding, text on the spine traditionally reads from top to bottom. This is relevant when shelving books, as the text orientation differs from Western books.\n\nSIMILAR WORDS:\n- {表紙|ひょうし}: (front) cover of a book\n- {裏表紙|うらびょうし}: back cover",
+  "notes": "FORMS:\n{背|せ} (back) + {表紙|ひょうし} (cover). Note the reading change: {表紙|ひょうし} becomes びょうし in this compound due to rendaku (sequential voicing).\n\nUSAGE:\nIn Japanese bookbinding, text on the spine traditionally reads from top to bottom. This is relevant when shelving books, as the text orientation differs from Western books.\n\nSIMILAR WORDS:\n- {表紙|ひょうし}: (front) cover of a book\n- {裏表紙|うらびょうし}: back cover",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,29 @@
       "reading": "ひょうし",
       "headword": "{表紙|ひょうし}",
       "label": "front cover"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28412_urabyoushi",
+      "reading": "うらびょうし",
+      "headword": "{裏表紙|うらびょうし}",
+      "label": "back cover"
     }
   ],
   "metadata": {
     "created": "2026-03-08T06:47:53Z",
-    "modified": "2026-05-01T10:15:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

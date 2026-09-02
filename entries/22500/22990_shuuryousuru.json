@@ -46,6 +46,57 @@
   ],
   "notes": "A formal, commonly used word for endings and completions. Frequently seen in announcements, signs, and system messages. More formal and definitive than {終|お}わる.\n\nCOMMON COLLOCATIONS:\n- {受付|うけつけ}{終了|しゅうりょう}: registration closed\n- {営業|えいぎょう}{終了|しゅうりょう}: business hours ended; closed for the day\n- {販売|はんばい}{終了|しゅうりょう}: sales ended; no longer available\n- {配信|はいしん}{終了|しゅうりょう}: streaming ended; service discontinued\n- {終了|しゅうりょう}{時間|じかん}: ending time\n\nSIMILAR WORDS:\n- {終|お}わる: to end — the most common everyday word; less formal\n- {完了|かんりょう}する: to complete — emphasizes that a task or process has been fully finished\n- {閉会|へいかい}する: to close (a meeting/ceremony) — used specifically for formal gatherings\n\nUSAGE:\nPrimarily intransitive (the event ends), but can be used transitively in some contexts ({作業|さぎょう}を{終了|しゅうりょう}する). Very common on signs and in digital interfaces, such as buttons labeled {終了|しゅうりょう}.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00567_owaru",
+      "reading": "おわる",
+      "headword": "{終|お}わる",
+      "label": "to end"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20676_kanryousuru",
+      "reading": "かんりょうする",
+      "headword": "{完了|かんりょう}する",
+      "label": "to complete"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23962_heikai",
+      "reading": "へいかい",
+      "headword": "{閉会|へいかい}",
+      "label": "to close"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02019_oeru",
+      "reading": "おえる",
+      "headword": "{終|お}える",
+      "label": "to finish, to complete"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08795_roguauto",
+      "reading": "ろぐあうと",
+      "headword": "ログアウト",
+      "label": "logout"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20679_kanketsusuru",
+      "reading": "かんけつする",
+      "headword": "{完結|かんけつ}する",
+      "label": "to conclude"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25528_kanseisuru",
+      "reading": "かんせいする",
+      "headword": "{完成|かんせい}する",
+      "label": "to complete"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -55,11 +106,14 @@
       ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action", "time-general"],
+      "semantic": [
+        "action",
+        "time-general"
+      ],
       "verb_class": "suru"
     },
     "created": "2026-04-08T15:32:02Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

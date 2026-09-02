@@ -17,7 +17,9 @@
       "id": "24615_katou_ex1",
       "japanese": "{果物|くだもの}には{果糖|かとう}が{含|ふく}まれている。",
       "english": "Fruit contains fructose.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24615_katou_ex2",
       "japanese": "{果糖|かとう}は{砂糖|さとう}よりも{甘|あま}みが{強|つよ}い。",
       "english": "Fructose is sweeter than table sugar.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,62 @@
       "id": "24615_katou_ex3",
       "japanese": "{清涼飲料水|せいりょういんりょうすい}に{使|つか}われる{果糖|かとう}ブドウ{糖液糖|とうえきとう}の{摂取量|せっしゅりょう}に{注意|ちゅうい}しましょう。",
       "english": "Be careful about your intake of high-fructose corn syrup used in soft drinks.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {果|か} ('fruit') and {糖|とう} ('sugar'). The term literally means 'fruit sugar,' reflecting the natural source of this monosaccharide. Essential vocabulary for reading food labels, nutrition information, and health-related articles in Japanese.\n\nUSAGE:\nAppears frequently on ingredient lists, in health and diet discussions, and in science education. The compound {果糖|かとう}ブドウ{糖液糖|とうえきとう} ('high-fructose corn syrup') is one of the most commonly seen terms on Japanese food packaging.\n\nCOMMON COLLOCATIONS:\n- {果糖|かとう}ブドウ{糖液糖|とうえきとう}: high-fructose corn syrup\n- {果糖|かとう}が{含|ふく}まれる: to contain fructose\n- {果糖|かとう}の{摂取|せっしゅ}: fructose intake\n- {果糖|かとう}の{甘|あま}み: the sweetness of fructose\n\nSIMILAR WORDS:\n- {加糖|かとう}: sweetened; sugar-added — homophone with different kanji; means adding sugar to something\n- ブドウ{糖|とう}: glucose — the other common simple sugar; often paired with {果糖|かとう}\n- {砂糖|さとう}: sugar — the general everyday word for table sugar (sucrose)\n- {糖分|とうぶん}: sugar content — refers to the total amount of sugar in food",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "20005_katou",
+      "reading": "かとう",
+      "headword": "{加糖|かとう}",
+      "label": "sweetened"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00884_satou",
+      "reading": "さとう",
+      "headword": "{砂糖|さとう}",
+      "label": "sugar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15847_toubun",
+      "reading": "とうぶん",
+      "headword": "{糖分|とうぶん}",
+      "label": "sugar content"
+    },
+    {
+      "type": "related",
+      "target_id": "29033_nyuutou",
+      "reading": "にゅうとう",
+      "headword": "{乳糖|にゅうとう}",
+      "label": "lactose"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["food", "science"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "food",
+        "science"
+      ]
     },
     "created": "2026-04-20T09:10:20Z",
-    "modified": "2026-04-20T09:10:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

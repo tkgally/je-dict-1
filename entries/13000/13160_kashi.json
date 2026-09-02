@@ -19,7 +19,9 @@
       "english": "I like the lyrics of this song.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13160_kashi_ex2",
@@ -27,7 +29,9 @@
       "english": "I became able to sing without looking at the lyrics.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13160_kashi_ex3",
@@ -35,21 +39,42 @@
       "english": "She writes lyrics based on her own experiences.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "ETYMOLOGY:\n{歌|か} (song) + {詞|し} (words, text).\n\nUSAGE:\n{歌詞|かし} refers specifically to the words of a song, as distinct from the melody ({旋律|せんりつ}/メロディー) or musical arrangement ({編曲|へんきょく}). The person who writes lyrics is called a {作詞家|さくしか}.\n\nCOMMON COLLOCATIONS:\n- {歌詞|かし}を{書|か}く: to write lyrics\n- {歌詞|かし}を{覚|おぼ}える: to memorize lyrics\n- {歌詞|かし}カード: lyric card\n- {作詞|さくし}: lyric writing, songwriting",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05233_sakushi",
+      "reading": "さくし",
+      "headword": "{作詞|さくし}",
+      "label": "songwriting"
+    },
+    {
+      "type": "related",
+      "target_id": "05877_merodii",
+      "reading": "めろでぃー",
+      "headword": "メロディー",
+      "label": "melody, tune"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T12:15:45Z",
-    "modified": "2026-02-23T12:15:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["music"]
+      "semantic": [
+        "music"
+      ]
     }
   }
 }

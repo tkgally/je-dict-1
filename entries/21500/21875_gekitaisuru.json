@@ -3,7 +3,7 @@
   "headword": "{撃退|げきたい}する",
   "reading": "げきたいする",
   "romaji": "gekitaisuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to repel; to drive back; to repulse",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {撃|げき} (strike/attack) + {退|たい} (retreat), meaning to strike something so that it retreats. Used in military, sports, and everyday contexts.\n\nCOMMON COLLOCATIONS:\n- {敵|てき}を{撃退|げきたい}する: to repel the enemy\n- {害虫|がいちゅう}を{撃退|げきたい}する: to repel pests\n- {侵入者|しんにゅうしゃ}を{撃退|げきたい}する: to drive back an intruder\n- {風邪|かぜ}を{撃退|げきたい}する: to fight off a cold (figurative)\n\nSIMILAR WORDS:\n- {追|お}い{払|はら}う: to chase away — more colloquial\n- {退治|たいじ}する: to exterminate/slay — implies defeating completely\n- {撃破|げきは}する: to crush/destroy — stronger, implies total defeat",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06347_oiharau",
+      "reading": "おいはらう",
+      "headword": "{追|お}い{払|はら}う",
+      "label": "to chase away"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25396_taijisuru",
+      "reading": "たいじする",
+      "headword": "{退治|たいじ}する",
+      "label": "to exterminate/slay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13440_gekiha",
+      "reading": "げきは",
+      "headword": "{撃破|げきは}",
+      "label": "to crush/destroy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +83,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-03T20:22:22Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -17,7 +17,9 @@
       "japanese": "{問題集|もんだいしゅう}を{解|と}く。",
       "english": "To work through a problem set.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -25,7 +27,9 @@
       "japanese": "{試験|しけん}{対策|たいさく}のために{問題集|もんだいしゅう}を{買|か}った。",
       "english": "I bought a workbook for exam preparation.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -33,22 +37,71 @@
       "japanese": "この{問題集|もんだいしゅう}には{解説|かいせつ}が{詳|くわ}しく{載|の}っている。",
       "english": "This workbook has detailed explanations included.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     }
   ],
-  "notes": "{問題集|もんだいしゅう} is a book of practice problems used for study and test preparation. The word combines {問題|もんだい} (problem/question) and {集|しゅう} (collection).\n\nCOMMON PATTERNS:\n- {問題集|もんだいしゅう}を{解|と}く (to work through a problem set)\n- {問題集|もんだいしゅう}を{買|か}う (to buy a workbook)\n- 〜の{問題集|もんだいしゅう} (workbook for ~, e.g., {数学|すうがく}の{問題集|もんだいしゅう})\n\nCOMMON TYPES:\n- {過去|かこ}{問題集|もんだいしゅう}/{過去問|かこもん}: past exam question collection\n- {演習|えんしゅう}{問題集|もんだいしゅう}: practice exercise book\n- {入試|にゅうし}{問題集|もんだいしゅう}: entrance exam workbook\n\nUSAGE:\nCentral to the Japanese study culture of repeated practice ({反復|はんぷく}{練習|れんしゅう}). Students commonly buy {問題集|もんだいしゅう} for specific exams or subjects. Many come with separate {解答|かいとう}{解説|かいせつ} (answer explanations) booklets.\n\nRELATED TERMS:\n- {参考書|さんこうしょ}: reference book (explanations, not just problems)\n- {教科書|きょうかしょ}: textbook",
-  "cross_references": [],
+  "notes": "{問題集|もんだいしゅう} is a book of practice problems used for study and test preparation. The word combines {問題|もんだい} (problem/question) and {集|しゅう} (collection).\n\nCOMMON PATTERNS:\n- {問題集|もんだいしゅう}を{解|と}く (to work through a problem set)\n- {問題集|もんだいしゅう}を{買|か}う (to buy a workbook)\n- 〜の{問題集|もんだいしゅう} (workbook for ~, e.g., {数学|すうがく}の{問題集|もんだいしゅう})\n\nTYPES:\n- {過去|かこ}{問題集|もんだいしゅう}/{過去問|かこもん}: past exam question collection\n- {演習|えんしゅう}{問題集|もんだいしゅう}: practice exercise book\n- {入試|にゅうし}{問題集|もんだいしゅう}: entrance exam workbook\n\nUSAGE:\nCentral to the Japanese study culture of repeated practice ({反復|はんぷく}{練習|れんしゅう}). Students commonly buy {問題集|もんだいしゅう} for specific exams or subjects. Many come with separate {解答|かいとう}{解説|かいせつ} (answer explanations) booklets.\n\nRELATED WORDS:\n- {参考書|さんこうしょ}: reference book (explanations, not just problems)\n- {教科書|きょうかしょ}: textbook",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05142_sankousho",
+      "reading": "さんこうしょ",
+      "headword": "{参考書|さんこうしょ}",
+      "label": "reference book"
+    },
+    {
+      "type": "related",
+      "target_id": "01085_kyoukasho",
+      "reading": "きょうかしょ",
+      "headword": "{教科書|きょうかしょ}",
+      "label": "textbook"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21219_renshuumondai",
+      "reading": "れんしゅうもんだい",
+      "headword": "{練習問題|れんしゅうもんだい}",
+      "label": "practice questions"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22062_shikenmondai",
+      "reading": "しけんもんだい",
+      "headword": "{試験問題|しけんもんだい}",
+      "label": "exam question"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23873_waakubukku",
+      "reading": "わーくぶっく",
+      "headword": "ワークブック",
+      "label": "workbook"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24373_gakushuusho",
+      "reading": "がくしゅうしょ",
+      "headword": "{学習書|がくしゅうしょ}",
+      "label": "study book"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T02:32:59Z",
-    "modified": "2026-04-07T02:46:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

@@ -19,7 +19,9 @@
       "english": "An enemy spy was captured.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21193_kanchou_ex2",
@@ -27,7 +29,9 @@
       "english": "Espionage activities were active during wartime.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21193_kanchou_ex3",
@@ -35,21 +39,56 @@
       "english": "The novel depicts a protagonist who plays an active role as a spy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{間|かん} means 'between' or 'gap,' and {諜|ちょう} means 'to spy' or 'to investigate secretly.' {間諜|かんちょう} is a literary and somewhat old-fashioned word for 'spy,' appearing in historical texts, war novels, and formal discussions of espionage. In everyday speech, スパイ is more common.\n\nCOMMON COLLOCATIONS:\n- {間諜|かんちょう}{活動|かつどう} (espionage activities)\n- {間諜|かんちょう}を{送|おく}り{込|こ}む (to send in a spy)\n- {間諜|かんちょう}{網|もう} (spy network)\n- {敵|てき}の{間諜|かんちょう} (enemy spy)\n\nSIMILAR WORDS:\n- スパイ — spy (the most common everyday word; a loanword from English)\n- {諜報員|ちょうほういん} — intelligence agent (more formal; emphasizes the intelligence-gathering role)\n- {工作員|こうさくいん} — operative, agent (used for covert agents, often with a nuance of subversive activity)\n- {忍者|にんじゃ} — ninja (historical Japanese spy/assassin; different era and context)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18236_supai",
+      "reading": "すぱい",
+      "headword": "スパイ",
+      "label": "spy (the most common everyday word"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30160_chouhouin",
+      "reading": "ちょうほういん",
+      "headword": "{諜報員|ちょうほういん}",
+      "label": "intelligence agent (more formal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30169_kousakuin",
+      "reading": "こうさくいん",
+      "headword": "工作員",
+      "label": "operative, agent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11112_ninja",
+      "reading": "にんじゃ",
+      "headword": "{忍者|にんじゃ}",
+      "label": "ninja (historical Japanese spy/assassin"
+    }
+  ],
   "metadata": {
     "created": "2026-03-31T22:21:51Z",
-    "modified": "2026-03-31T22:21:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["society"]
+      "semantic": [
+        "society"
+      ]
     }
   }
 }

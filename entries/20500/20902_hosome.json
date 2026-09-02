@@ -3,7 +3,7 @@
   "headword": "{細|ほそ}め",
   "reading": "ほそめ",
   "romaji": "hosome",
-  "part_of_speech": "na-adjective",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "somewhat thin; on the slim side; slender",
   "definitions": [
     {
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Formed by adding the suffix め to the adjective {細|ほそ}い. The め suffix creates a softer, approximate expression. Can describe objects (thin noodles, slim pens) and people's body types (slender).\n\nCOMMON COLLOCATIONS:\n- {細|ほそ}めの{麺|めん}: thinner noodles\n- {細|ほそ}めの{体型|たいけい}: a slender build\n- {細|ほそ}めに{切|き}る: to cut into thinner pieces\n- {細|ほそ}めのパンツ: slim-fit pants\n\nRELATED TERMS:\n- {太|ふと}め: on the thick side — the opposite\n- {短|みじか}め: on the short side — same pattern\n- {薄|うす}め: on the thin/light side — same pattern, for thickness or concentration",
+  "notes": "Formed by adding the suffix め to the adjective {細|ほそ}い. The め suffix creates a softer, approximate expression. Can describe objects (thin noodles, slim pens) and people's body types (slender).\n\nCOMMON COLLOCATIONS:\n- {細|ほそ}めの{麺|めん}: thinner noodles\n- {細|ほそ}めの{体型|たいけい}: a slender build\n- {細|ほそ}めに{切|き}る: to cut into thinner pieces\n- {細|ほそ}めのパンツ: slim-fit pants\n\nRELATED WORDS:\n- {太|ふと}め: on the thick side — the opposite\n- {短|みじか}め: on the short side — same pattern\n- {薄|うす}め: on the thin/light side — same pattern, for thickness or concentration",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "20901_futome",
+      "reading": "ふとめ",
+      "headword": "{太|ふと}め",
+      "label": "on the thick side"
+    },
+    {
+      "type": "related",
+      "target_id": "20900_mijikame",
+      "reading": "みじかめ",
+      "headword": "{短|みじか}め",
+      "label": "on the short side"
+    },
+    {
+      "type": "related",
+      "target_id": "29057_usume",
+      "reading": "うすめ",
+      "headword": "{薄|うす}め",
+      "label": "on the thin/light side"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-03-30T20:11:55Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

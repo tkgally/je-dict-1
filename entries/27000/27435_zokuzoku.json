@@ -3,7 +3,7 @@
   "headword": "ぞくぞく",
   "reading": "ぞくぞく",
   "romaji": "zokuzoku",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "shivering; thrilled; excited (mimetic)",
   "definitions": [
     {
@@ -81,6 +81,29 @@
   ],
   "notes": "Mimetic (giseigo) word describing a tingling, shivery sensation. Almost always used with する.\n\nUSAGE:\n- Sense 1 is physical: cold, fever, sudden chill\n- Sense 2 is emotional: thrill, anticipation, dread\n- Context usually makes the sense clear; with {寒気|さむけ}/{風邪|かぜ}/{冷|つめ}たい it is sense 1\n\nCOMMON COLLOCATIONS:\n- {背中|せなか}がぞくぞくする: to feel chills down one's back\n- ぞくぞくする{思|おも}い: a thrilling feeling\n- ぞくぞくと{鳥肌|とりはだ}が{立|た}つ: to get tingling goosebumps\n\nSIMILAR WORDS:\n- ぶるぶる: trembling; shaking — visible physical shaking, not internal tingling\n- わくわく: thrilled with anticipation — positive only; less intense than sense-2 ぞくぞく\n- どきどき: heart pounding — focus on the heartbeat, not the spine",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26864_buruburu",
+      "reading": "ぶるぶる",
+      "headword": "ぶるぶる",
+      "label": "trembling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05158_wakuwaku",
+      "reading": "わくわく",
+      "headword": "わくわく",
+      "label": "thrilled with anticipation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05157_dokidoki",
+      "reading": "どきどき",
+      "headword": "どきどき",
+      "label": "heart pounding"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -89,7 +112,7 @@
         "onomatopoeia"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "body-part"
@@ -97,6 +120,6 @@
       "domain": []
     },
     "created": "2026-05-12T03:04:54Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

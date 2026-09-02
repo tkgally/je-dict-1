@@ -22,7 +22,9 @@
       "id": "19271_chuuhen_ex1",
       "japanese": "{中編|ちゅうへん}{小説|しょうせつ}を{書|か}いた。",
       "english": "I wrote a novella.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "19271_chuuhen_ex2",
       "japanese": "この{映画|えいが}は{中編|ちゅうへん}で、{約|やく}{六十|ろくじゅう}{分|ぷん}だ。",
       "english": "This is a medium-length film, about sixty minutes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "19271_chuuhen_ex3",
       "japanese": "{中編|ちゅうへん}{小説|しょうせつ}は{短編|たんぺん}と{長編|ちょうへん}の{間|あいだ}の{長|なが}さだ。",
       "english": "A novella is a length between a short story and a novel.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "19271_chuuhen_ex4",
       "japanese": "{上編|じょうへん}に{続|つづ}いて{中編|ちゅうへん}を{読|よ}んだ。",
       "english": "I read the middle volume after the first.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "19271_chuuhen_ex5",
       "japanese": "{三部作|さんぶさく}の{中編|ちゅうへん}が{一番|いちばん}{面白|おもしろ}い。",
       "english": "The middle part of the trilogy is the most interesting.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,51 @@
       "id": "19271_chuuhen_ex6",
       "japanese": "{中編|ちゅうへん}は{来月|らいげつ}{発売|はつばい}{予定|よてい}です。",
       "english": "The middle volume is scheduled for release next month.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Has two distinct uses: as a classification of work length (sense 1) and as a position in a multi-volume series (sense 2).\n\nRELATED WORDS:\n- {短編|たんぺん}: short work (short story, short film)\n- {長編|ちょうへん}: long work (novel, feature film)\n- {上編|じょうへん}: first volume / upper volume\n- {下編|かへん}: final volume / lower volume\n\nUSAGE:\nFor sense 1, there is no strict page or word count definition, but a {中編|ちゅうへん}{小説|しょうせつ} (novella) is generally considered to be roughly 100-400 pages. For sense 2, {中編|ちゅうへん} is used interchangeably with {中巻|ちゅうかん} in some contexts.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04512_tanpen",
+      "reading": "たんぺん",
+      "headword": "{短編|たんぺん}",
+      "label": "short work"
+    },
+    {
+      "type": "related",
+      "target_id": "14475_chouhen",
+      "reading": "ちょうへん",
+      "headword": "{長編|ちょうへん}",
+      "label": "long work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28528_tanpenshuu",
+      "reading": "たんぺんしゅう",
+      "headword": "{短編集|たんぺんしゅう}",
+      "label": "short story collection"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["art"]
+      "semantic": [
+        "art"
+      ]
     },
     "created": "2026-03-25T03:40:33Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -4,7 +4,7 @@
   "reading": "こうてん",
   "romaji": "kouten",
   "schema_version": "2.0",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "revolution (orbiting around another body)",
   "definitions": [
     {
@@ -55,7 +55,7 @@
       "notes": null
     }
   ],
-  "notes": "{公転|こうてん} is the standard astronomical term for orbital revolution — one body moving around another under gravity. It is taught and used as a pair with {自転|じてん} (\"rotation on the body's own axis\"); Japanese science textbooks contrast the two side by side.\n\nFORMATION:\n- {公|こう} (here functioning roughly as \"public, around a center\") + {転|てん} (\"turn, revolve\") → {公転|こうてん}\n\nCOMMON COLLOCATIONS:\n- {公転|こうてん}する: to revolve, to orbit\n- {公転|こうてん}{周期|しゅうき}: orbital period\n- {公転|こうてん}{軌道|きどう}: orbital path\n- {公転|こうてん}{速度|そくど}: orbital speed\n- {太陽|たいよう}の{周|まわ}りを{公転|こうてん}する: to orbit the Sun\n- {地球|ちきゅう}の{公転|こうてん}: the Earth's revolution\n\nCONTRAST WITH {自転|じてん}:\n- {自転|じてん}: rotation on its own axis — produces day and night\n- {公転|こうてん}: revolution around another body — produces the year, the seasons (when combined with axial tilt), and the lunar month\n- The two are usually introduced together; \"{自転|じてん}と{公転|こうてん}\" is essentially a fixed phrase in astronomy class.\n\nSIMILAR / RELATED TERMS:\n- {軌道|きどう}: orbit (the path itself, as a noun)\n- {周回|しゅうかい}: circling around (used for satellites, e.g., {地球|ちきゅう}を{周回|しゅうかい}する)\n- {回転|かいてん}: rotation, turning (general, non-astronomical use)\n- {太陽系|たいようけい}: the solar system\n\nUSAGE NOTES:\n- {公転|こうてん} is restricted to astronomy and physics. For \"go around\" in everyday contexts, {周|まわ}る or {周回|しゅうかい} is used: {湖|みずうみ}を{周|まわ}る (\"to go around the lake\").\n- The pattern is typically [orbiting body]が[central body]の{周|まわ}りを{公転|こうてん}する: {月|つき}が{地球|ちきゅう}の{周|まわ}りを{公転|こうてん}する.\n- Several homophones share the reading こうてん: {好転|こうてん} (\"a turn for the better\"), {交点|こうてん} (\"point of intersection\"), {荒天|こうてん} (\"stormy weather\"). Distinguish them by kanji and context.",
+  "notes": "{公転|こうてん} is the standard astronomical term for orbital revolution — one body moving around another under gravity. It is taught and used as a pair with {自転|じてん} (\"rotation on the body's own axis\"); Japanese science textbooks contrast the two side by side.\n\nFORMS:\n- {公|こう} (here functioning roughly as \"public, around a center\") + {転|てん} (\"turn, revolve\") → {公転|こうてん}\n\nCOMMON COLLOCATIONS:\n- {公転|こうてん}する: to revolve, to orbit\n- {公転|こうてん}{周期|しゅうき}: orbital period\n- {公転|こうてん}{軌道|きどう}: orbital path\n- {公転|こうてん}{速度|そくど}: orbital speed\n- {太陽|たいよう}の{周|まわ}りを{公転|こうてん}する: to orbit the Sun\n- {地球|ちきゅう}の{公転|こうてん}: the Earth's revolution\n\nCONTRAST WITH {自転|じてん}:\n- {自転|じてん}: rotation on its own axis — produces day and night\n- {公転|こうてん}: revolution around another body — produces the year, the seasons (when combined with axial tilt), and the lunar month\n- The two are usually introduced together; \"{自転|じてん}と{公転|こうてん}\" is essentially a fixed phrase in astronomy class.\n\nSIMILAR / RELATED TERMS:\n- {軌道|きどう}: orbit (the path itself, as a noun)\n- {周回|しゅうかい}: circling around (used for satellites, e.g., {地球|ちきゅう}を{周回|しゅうかい}する)\n- {回転|かいてん}: rotation, turning (general, non-astronomical use)\n- {太陽系|たいようけい}: the solar system\n\nUSAGE:\n- {公転|こうてん} is restricted to astronomy and physics. For \"go around\" in everyday contexts, {周|まわ}る or {周回|しゅうかい} is used: {湖|みずうみ}を{周|まわ}る (\"to go around the lake\").\n- The pattern is typically [orbiting body]が[central body]の{周|まわ}りを{公転|こうてん}する: {月|つき}が{地球|ちきゅう}の{周|まわ}りを{公転|こうてん}する.\n- Several homophones share the reading こうてん: {好転|こうてん} (\"a turn for the better\"), {交点|こうてん} (\"point of intersection\"), {荒天|こうてん} (\"stormy weather\"). Distinguish them by kanji and context.",
   "cross_references": [
     {
       "type": "contrast",
@@ -63,11 +63,39 @@
       "reading": "じてん",
       "headword": "{自転|じてん}",
       "label": "rotation (on its own axis)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06360_kidou",
+      "reading": "きどう",
+      "headword": "{軌道|きどう}",
+      "label": "orbit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14812_shuukai",
+      "reading": "しゅうかい",
+      "headword": "{周回|しゅうかい}",
+      "label": "circling around"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00141_kaiten",
+      "reading": "かいてん",
+      "headword": "{回転|かいてん}",
+      "label": "rotation, turning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12216_taiyoukei",
+      "reading": "たいようけい",
+      "headword": "{太陽系|たいようけい}",
+      "label": "the solar system"
     }
   ],
   "metadata": {
     "created": "2026-05-10T01:56:06Z",
-    "modified": "2026-05-10T01:56:06Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

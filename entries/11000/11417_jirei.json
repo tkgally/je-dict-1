@@ -19,7 +19,9 @@
       "english": "I looked into past cases.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11417_jirei_ex2",
@@ -27,7 +29,9 @@
       "english": "I made a plan by referring to successful cases.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11417_jirei_ex3",
@@ -35,22 +39,46 @@
       "english": "Similar cases have been reported nationwide, and countermeasures are urgently needed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n- {成功|せいこう}{事例|じれい} (success story, successful case)\n- {事例|じれい}{研究|けんきゅう} (case study)\n- {過去|かこ}の{事例|じれい} (past cases)\n- {事例|じれい}を{紹介|しょうかい}する (to introduce examples)\n- {具体的|ぐたいてき}な{事例|じれい} (concrete example)\n\nREGISTER: {事例|じれい} is a formal word used in written and professional contexts. In casual conversation, {例|れい} or {例|たと}え is more natural for \"example.\"",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18329_shourei",
+      "reading": "しょうれい",
+      "headword": "{症例|しょうれい}",
+      "label": "case (medical)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28902_ichirei",
+      "reading": "いちれい",
+      "headword": "{一例|いちれい}",
+      "label": "an example"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T07:35:11Z",
-    "modified": "2026-02-16T07:35:11Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["academic", "business"],
-      "semantic": ["general"]
+      "domain": [
+        "academic",
+        "business"
+      ],
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

@@ -2,7 +2,7 @@
   "id": "11923_soukan",
   "headword": "{創刊|そうかん}",
   "reading": "そうかん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "first publication, launching (of a magazine/newspaper)",
   "conjugation": {
     "type": "suru",
@@ -133,11 +133,26 @@
       ]
     }
   ],
-  "notes": "{創刊|そうかん} refers specifically to the first publication of a periodical (magazine, newspaper, journal). It is not used for standalone books — for a book's first edition, use {初版|しょはん}.\n\nKANJI BREAKDOWN:\n{創|そう} (create, originate) + {刊|かん} (publish) — literally 'to create a publication.'\n\nCOMMON COLLOCATIONS:\n- {創刊|そうかん}{号|ごう}: inaugural issue\n- {創刊|そうかん}する: to launch a publication\n- {創刊|そうかん}から〜{年|ねん}: ~ years since founding\n- {創刊|そうかん}{記念|きねん}: anniversary of founding\n- {創刊|そうかん}{編集長|へんしゅうちょう}: founding editor-in-chief\n\nRELATED TERMS:\n- {廃刊|はいかん}: discontinuation of a publication\n- {休刊|きゅうかん}: suspension of publication\n- {発刊|はっかん}: publication, issuing (broader than {創刊|そうかん})",
-  "cross_references": [],
+  "notes": "{創刊|そうかん} refers specifically to the first publication of a periodical (magazine, newspaper, journal). It is not used for standalone books — for a book's first edition, use {初版|しょはん}.\n\nWRITING:\n{創|そう} (create, originate) + {刊|かん} (publish) — literally 'to create a publication.'\n\nCOMMON COLLOCATIONS:\n- {創刊|そうかん}{号|ごう}: inaugural issue\n- {創刊|そうかん}する: to launch a publication\n- {創刊|そうかん}から〜{年|ねん}: ~ years since founding\n- {創刊|そうかん}{記念|きねん}: anniversary of founding\n- {創刊|そうかん}{編集長|へんしゅうちょう}: founding editor-in-chief\n\nRELATED WORDS:\n- {廃刊|はいかん}: discontinuation of a publication\n- {休刊|きゅうかん}: suspension of publication\n- {発刊|はっかん}: publication, issuing (broader than {創刊|そうかん})",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21658_kyuukan",
+      "reading": "きゅうかん",
+      "headword": "{休刊|きゅうかん}",
+      "label": "suspension of publication"
+    },
+    {
+      "type": "related",
+      "target_id": "22925_hakkan",
+      "reading": "はっかん",
+      "headword": "{発刊|はっかん}",
+      "label": "publication, issuing"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T14:17:49Z",
-    "modified": "2026-03-29T04:38:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

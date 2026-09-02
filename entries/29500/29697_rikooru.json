@@ -3,7 +3,7 @@
   "headword": "リコール",
   "reading": "りこーる",
   "romaji": "rikooru",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "recall (of a defective product)",
   "definitions": [
     {
@@ -81,6 +81,22 @@
   ],
   "notes": "Loanword from English \"recall.\" By far the most common sense is a product recall (sense 1); the political sense (sense 2) appears mainly in news about local government.\n\nCOMMON COLLOCATIONS:\n- リコールになる: to be recalled\n- リコール{対象|たいしょう}: subject to a recall\n- リコールを{求|もと}める: to demand a recall (of an official)\n\nSIMILAR WORDS:\n- {回収|かいしゅう}: collection, recall — the native term often used for gathering defective goods\n- {不具合|ふぐあい}: defect, malfunction — the problem that typically triggers a recall",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03019_kaishuu",
+      "reading": "かいしゅう",
+      "headword": "{回収|かいしゅう}",
+      "label": "collection, recall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06413_fuguai",
+      "reading": "ふぐあい",
+      "headword": "{不具合|ふぐあい}",
+      "label": "defect, malfunction"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -89,7 +105,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "business"
       ],
@@ -99,7 +115,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-06T09:17:25Z",
-    "modified": "2026-07-06T09:17:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

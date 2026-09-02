@@ -2,7 +2,7 @@
   "id": "01245_komakai",
   "headword": "{細|こま}かい",
   "reading": "こまかい",
-  "part_of_speech": "adjective (i-adjective)",
+  "part_of_speech": "i-adjective",
   "gloss": "small; fine; detailed; meticulous",
   "definitions": [
     {
@@ -149,10 +149,39 @@
     }
   ],
   "notes": "{細|こま}かい is an i-adjective meaning 'small,' 'fine,' or 'detailed.'\n\nForms:\n- Adverbial: {細|こま}かく\n- Noun form: {細|こま}かさ\n\nConjugation:\n- Negative: {細|こま}かくない\n- Te-form: {細|こま}かくて\n- Past: {細|こま}かかった\n\nSimilar words:\n- {細|こま}かい vs. ⟦{小|ちい}さい→小さい：00025_chiisai⟧: {細|こま}かい emphasizes fineness or detail, while {小|ちい}さい simply means 'small' in size.\n- {細|こま}かい vs. ⟦{詳|くわ}しい→詳しい：02483_kuwashii⟧: {詳|くわ}しい means 'detailed' in terms of information/knowledge; {細|こま}かい refers to small physical details or meticulous behavior.\n\nCommon collocations: {細|こま}かい⟦{字|じ}→字：01606_ji⟧ (small writing), {細|こま}かい⟦お{金|かね}→お金：00611_okane⟧ (small change), {細|こま}かい⟦{作業|さぎょう}→作業：02775_sagyou⟧ (detailed work).",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02523_shousai",
+      "reading": "しょうさい",
+      "headword": "{詳細|しょうさい}",
+      "label": "details, particulars"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06867_oozappa",
+      "reading": "おおざっぱ",
+      "headword": "{大雑把|おおざっぱ}",
+      "label": "rough"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07915_chimitsu",
+      "reading": "ちみつ",
+      "headword": "{緻密|ちみつ}",
+      "label": "meticulous"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30280_kuchiyakamashii",
+      "reading": "くちやかましい",
+      "headword": "{口|くち}やかましい",
+      "label": "nagging"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:27:25Z",
-    "modified": "2026-05-14T19:03:46Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

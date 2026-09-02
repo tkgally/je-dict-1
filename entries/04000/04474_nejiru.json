@@ -2,7 +2,7 @@
   "id": "04474_nejiru",
   "headword": "{捩|ね}じる",
   "reading": "ねじる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to twist, to wrench",
   "conjugation": {
     "type": "godan",
@@ -134,10 +134,32 @@
     }
   ],
   "notes": "⟦{捩|ね}じる→捩じる：03937_nejiru⟧ means to twist something with rotational force.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: ⟦{捩|ね}じ→捩じる：03937_nejiru⟧れる (intransitive, to become twisted)\n\nCOMMON PATTERNS:\n- ⟦{腕|うで}→腕：01006_ude⟧⟦を→を：00422_wo⟧⟦{捩|ね}じる→捩じる：03937_nejiru⟧: to twist someone's arm\n- ⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧⟦{捩|ね}じる→捩じる：03937_nejiru⟧: to twist one's body\n- ⟦{蓋|ふた}→蓋：03896_futa⟧⟦を→を：00422_wo⟧⟦{捩|ね}じる→捩じる：03937_nejiru⟧: to twist a lid/cap\n\nRELATED WORDS:\n- ⟦{回|まわ}す→回す：01158_mawasu⟧: to turn, rotate\n- ひ⟦ね→ね：09474_ne⟧る: to twist (lighter touch)\n- ⟦{絞|しぼ}る→絞る：03926_shiboru⟧: to wring, squeeze",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01158_mawasu",
+      "reading": "まわす",
+      "headword": "{回|まわ}す",
+      "label": "to turn, rotate"
+    },
+    {
+      "type": "related",
+      "target_id": "00102_hineru",
+      "reading": "ひねる",
+      "headword": "{捻|ひね}る",
+      "label": "to twist"
+    },
+    {
+      "type": "related",
+      "target_id": "03926_shiboru",
+      "reading": "しぼる",
+      "headword": "{絞|しぼ}る",
+      "label": "to wring, squeeze"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T00:33:36Z",
-    "modified": "2026-08-16T03:25:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

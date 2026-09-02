@@ -3,7 +3,7 @@
   "headword": "{中座|ちゅうざ}",
   "reading": "ちゅうざ",
   "romaji": "chuuza",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "leaving in the middle; excusing oneself partway through",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,22 @@
   ],
   "notes": "A polite, somewhat formal expression. The kanji literally mean 'middle' + 'seat' — leaving one's seat in the middle of something. Commonly used in business and formal social settings.\n\nCOMMON PATTERNS:\n- {中座|ちゅうざ}させていただきます — please allow me to excuse myself (very polite)\n- {中座|ちゅうざ}する — to leave partway through\n- {中座|ちゅうざ}を{詫|わ}びる — to apologize for leaving early\n\nSIMILAR WORDS:\n- {退席|たいせき} — leaving one's seat (more neutral/formal, used in meetings and assemblies)\n- {途中退出|とちゅうたいしゅつ} — leaving partway through (more descriptive, less idiomatic)\n- {早退|そうたい} — leaving early (from work or school for the whole day)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17720_taiseki",
+      "reading": "たいせき",
+      "headword": "{退席|たいせき}",
+      "label": "leaving one's seat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05767_soutai",
+      "reading": "そうたい",
+      "headword": "{早退|そうたい}",
+      "label": "leaving early"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +167,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-27T00:21:47Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{提示|ていじ}する",
   "reading": "ていじする",
   "romaji": "teijisuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to present; to show; to offer; to put forward",
   "definitions": [
     {
@@ -55,7 +55,22 @@
     }
   ],
   "notes": "Used in business, legal, and official contexts where something is formally shown or offered for consideration. The act of {提示|ていじ} implies the other party is expected to review or respond to what is presented.\n\nCOMMON COLLOCATIONS:\n- {証拠|しょうこ}を{提示|ていじ}する: to present evidence\n- {条件|じょうけん}を{提示|ていじ}する: to present conditions\n- {価格|かかく}を{提示|ていじ}する: to offer a price\n- {方針|ほうしん}を{提示|ていじ}する: to put forward a policy\n- {身分証|みぶんしょう}の{提示|ていじ}: showing identification\n\nSIMILAR WORDS:\n- {見|み}せる: to show — casual, general-purpose showing\n- {提出|ていしゅつ}する: to submit — handing something over officially (documents, reports)\n- {呈示|ていじ}する: to present — formal legal variant used in specific legal contexts",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01988_miseru",
+      "reading": "みせる",
+      "headword": "{見|み}せる",
+      "label": "to show"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19644_teishutsusuru",
+      "reading": "ていしゅつする",
+      "headword": "{提出|ていしゅつ}する",
+      "label": "to submit"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,7 +86,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T13:10:05Z",
-    "modified": "2026-05-05T13:10:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

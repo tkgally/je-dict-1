@@ -3,7 +3,7 @@
   "headword": "{戦慄|せんりつ}する",
   "reading": "せんりつする",
   "romaji": "senritsusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to shudder; to tremble with fear; to be horrified",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Composed of {戦慄|せんりつ} (shuddering; horror) + する. A literary, dramatic word frequently used in horror fiction, news about shocking crimes, and dramatic storytelling. More intense than simply being scared — implies a physical reaction of trembling.\n\nCOMMON COLLOCATIONS:\n- {戦慄|せんりつ}を{覚|おぼ}える: to feel a shudder of horror\n- {戦慄|せんりつ}が{走|はし}る: a shudder runs through (someone)\n- {戦慄|せんりつ}すべき: horrifying; shudder-inducing\n- {戦慄|せんりつ}の{事実|じじつ}: a horrifying fact\n\nSIMILAR WORDS:\n- {震|ふる}える: to tremble; to shiver — the basic word for physical trembling from cold, fear, or excitement\n- {恐怖|きょうふ}する: to fear; to be frightened — focuses on the emotion of fear rather than the physical trembling\n- ぞっとする: to shudder; to get the creeps — more colloquial; used for a momentary chill of fear or disgust",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02411_furueru",
+      "reading": "ふるえる",
+      "headword": "{震|ふる}える",
+      "label": "to tremble"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02585_kyoufu",
+      "reading": "きょうふ",
+      "headword": "{恐怖|きょうふ}",
+      "label": "to fear"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,13 +68,14 @@
       "pos": [
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-25T15:15:16Z",
-    "modified": "2026-04-25T15:15:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

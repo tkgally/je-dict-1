@@ -19,7 +19,9 @@
       "english": "Total sales increased.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12376_uriagedaka_ex2",
@@ -27,7 +29,9 @@
       "english": "This year's total sales set an all-time record.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12376_uriagedaka_ex3",
@@ -35,10 +39,12 @@
       "english": "Consolidated revenue reached one trillion yen, a ten percent increase year on year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "STRUCTURE:\n{売上|うりあげ} (sales) + {高|だか} (amount, volume). The suffix {高|だか} indicates a total amount or volume.\n\nUSAGE:\n{売上高|うりあげだか} is a formal financial term used in corporate earnings reports, accounting statements, and business news. In everyday conversation, {売|う}り{上|あ}げ is more common.\n\nSIMILAR WORDS:\n- {売|う}り{上|あ}げ: sales, revenue (less formal, broader usage)\n- {収益|しゅうえき}: earnings, profit\n- {利益|りえき}: profit (what remains after expenses)\n\nCOMMON COLLOCATIONS:\n- {売上高|うりあげだか}が{伸|の}びる: sales grow\n- {連結|れんけつ}{売上高|うりあげだか}: consolidated revenue\n- {年間|ねんかん}{売上高|うりあげだか}: annual sales\n- {売上高|うりあげだか}{営業利益率|えいぎょうりえきりつ}: operating profit margin",
+  "notes": "COMMON PATTERNS:\n{売上|うりあげ} (sales) + {高|だか} (amount, volume). The suffix {高|だか} indicates a total amount or volume.\n\nUSAGE:\n{売上高|うりあげだか} is a formal financial term used in corporate earnings reports, accounting statements, and business news. In everyday conversation, {売|う}り{上|あ}げ is more common.\n\nSIMILAR WORDS:\n- {売|う}り{上|あ}げ: sales, revenue (less formal, broader usage)\n- {収益|しゅうえき}: earnings, profit\n- {利益|りえき}: profit (what remains after expenses)\n\nCOMMON COLLOCATIONS:\n- {売上高|うりあげだか}が{伸|の}びる: sales grow\n- {連結|れんけつ}{売上高|うりあげだか}: consolidated revenue\n- {年間|ねんかん}{売上高|うりあげだか}: annual sales\n- {売上高|うりあげだか}{営業利益率|えいぎょうりえきりつ}: operating profit margin",
   "cross_references": [
     {
       "type": "related",
@@ -60,19 +66,39 @@
       "reading": "りえき",
       "headword": "{利益|りえき}",
       "label": "profit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23473_eigyoushuueki",
+      "reading": "えいぎょうしゅうえき",
+      "headword": "{営業収益|えいぎょうしゅうえき}",
+      "label": "operating revenue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24646_keijourieki",
+      "reading": "けいじょうりえき",
+      "headword": "{経常利益|けいじょうりえき}",
+      "label": "ordinary profit"
     }
   ],
   "metadata": {
     "created": "2026-02-21T05:45:33Z",
-    "modified": "2026-04-26T10:06:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

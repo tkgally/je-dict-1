@@ -17,7 +17,9 @@
       "id": "28697_doahon_ex1",
       "japanese": "ドアホンが{鳴|な}った。",
       "english": "The door phone rang.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28697_doahon_ex2",
       "japanese": "{宅配便|たくはいびん}の{人|ひと}がドアホンを{押|お}した。",
       "english": "The delivery person pressed the door phone.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "28697_doahon_ex3",
       "japanese": "カメラ{付|つ}きのドアホンを{設置|せっち}してから、{安心感|あんしんかん}が{増|ふ}えた。",
       "english": "Since installing a video door phone, I feel more secure.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Wasei-eigo combining \"door\" + \"phone.\" Refers specifically to the entrance intercom of a home, especially one with a camera.\n\nCOMMON COLLOCATIONS:\n- ドアホンが{鳴|な}る: the door phone rings\n- ドアホンに{出|で}る: to answer the door phone\n- ドアホンを{押|お}す: to press the door phone\n- カメラ{付|つ}きドアホン: video door phone\n\nSIMILAR WORDS:\n- インターホン: intercom — broader term covering any internal communication system, including office and apartment-building entrance intercoms\n- {呼|よ}び{鈴|りん}: doorbell — simple bell, no two-way communication",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04885_intaahon",
+      "reading": "いんたーほん",
+      "headword": "インターホン",
+      "label": "intercom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21575_yobirin",
+      "reading": "よびりん",
+      "headword": "{呼|よ}び{鈴|りん}",
+      "label": "doorbell"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["electronics", "tool"],
+      "politeness": "plain",
+      "semantic": [
+        "electronics",
+        "tool"
+      ],
       "domain": []
     },
     "created": "2026-06-04T03:07:41Z",
-    "modified": "2026-06-04T03:07:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

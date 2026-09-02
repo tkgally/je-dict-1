@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {年|ねん} (year) and {額|がく} (amount). Used to express the total amount of money charged, earned, or paid over the span of one year. Common in financial, insurance, subscription, and tax contexts.\n\nCOMMON COLLOCATIONS:\n- {年額|ねんがく}プラン: annual plan\n- {年額|ねんがく}{料金|りょうきん}: annual fee/rate\n- {年額|ねんがく}で{計算|けいさん}する: to calculate on an annual basis\n- {年額|ねんがく}{換算|かんさん}: annualized equivalent\n\nRELATED TERMS:\n- {月額|げつがく}: monthly amount — the monthly counterpart\n- {日額|にちがく}: daily amount — the daily counterpart\n- {総額|そうがく}: total amount — the grand total regardless of time period\n- {年収|ねんしゅう}: annual income — specifically refers to income/earnings",
+  "notes": "A compound of {年|ねん} (year) and {額|がく} (amount). Used to express the total amount of money charged, earned, or paid over the span of one year. Common in financial, insurance, subscription, and tax contexts.\n\nCOMMON COLLOCATIONS:\n- {年額|ねんがく}プラン: annual plan\n- {年額|ねんがく}{料金|りょうきん}: annual fee/rate\n- {年額|ねんがく}で{計算|けいさん}する: to calculate on an annual basis\n- {年額|ねんがく}{換算|かんさん}: annualized equivalent\n\nRELATED WORDS:\n- {月額|げつがく}: monthly amount — the monthly counterpart\n- {日額|にちがく}: daily amount — the daily counterpart\n- {総額|そうがく}: total amount — the grand total regardless of time period\n- {年収|ねんしゅう}: annual income — specifically refers to income/earnings",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09739_getsugaku",
+      "reading": "げつがく",
+      "headword": "{月額|げつがく}",
+      "label": "monthly amount"
+    },
+    {
+      "type": "related",
+      "target_id": "05472_sougaku",
+      "reading": "そうがく",
+      "headword": "{総額|そうがく}",
+      "label": "total amount"
+    },
+    {
+      "type": "related",
+      "target_id": "05504_nenshuu",
+      "reading": "ねんしゅう",
+      "headword": "{年収|ねんしゅう}",
+      "label": "annual income"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-06T18:13:00Z",
-    "modified": "2026-07-30T15:22:32Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{受信|じゅしん}する",
   "reading": "じゅしんする",
   "romaji": "jushinsuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to receive (a message, signal)",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "The counterpart of {送信|そうしん}する (to send/transmit). Used for receiving electronic communications, broadcast signals, or data. The noun form {受信|じゅしん} is also common in compound words.\n\nCOMMON COLLOCATIONS:\n- メールを{受信|じゅしん}する: to receive an email\n- {電波|でんぱ}を{受信|じゅしん}する: to receive a radio signal\n- {受信|じゅしん}トレイ: inbox\n- {受信|じゅしん}{拒否|きょひ}: blocking reception (of calls/messages)\n- {受信|じゅしん}{料|りょう}: reception fee (e.g., NHK)\n\nSIMILAR WORDS:\n- {受|う}け{取|と}る: to receive — general-purpose; includes physical items\n- {着信|ちゃくしん}: incoming call/message — specifically for phone calls and notifications\n- {傍受|ぼうじゅ}する: to intercept — receiving communications not intended for you",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01883_uketoru",
+      "reading": "うけとる",
+      "headword": "{受|う}け{取|と}る",
+      "label": "to receive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07685_chakushin",
+      "reading": "ちゃくしん",
+      "headword": "{着信|ちゃくしん}",
+      "label": "incoming call/message"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,7 +77,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T11:05:15Z",
-    "modified": "2026-05-05T11:05:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

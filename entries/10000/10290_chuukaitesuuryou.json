@@ -18,7 +18,9 @@
       "english": "How much is the brokerage fee?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10290_chuukaitesuuryou_ex2",
@@ -26,7 +28,9 @@
       "english": "To look for a property with no brokerage fee.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10290_chuukaitesuuryou_ex3",
@@ -34,7 +38,9 @@
       "english": "By law, the brokerage fee for rentals is capped at one month's rent.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMPONENTS: {仲介|ちゅうかい} (mediation/brokering) + {手数料|てすうりょう} (handling fee/commission).\n\nIn Japanese real estate, the {仲介手数料|ちゅうかいてすうりょう} is one of the initial costs when renting an apartment, along with {敷金|しききん} (security deposit), {礼金|れいきん} (key money), and the first month's rent.\n\nFor property purchases, the legal maximum is based on a sliding scale of the sale price. Some agents advertise {仲介手数料|ちゅうかいてすうりょう}{無料|むりょう} (no commission) or {半額|はんがく} (half price) as a selling point.",
@@ -52,17 +58,28 @@
       "reading": "てすうりょう",
       "headword": "{手数料|てすうりょう}",
       "label": "fee, commission"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23256_koushinryou",
+      "reading": "こうしんりょう",
+      "headword": "{更新料|こうしんりょう}",
+      "label": "renewal fee (especially on a rental contract)"
     }
   ],
   "metadata": {
     "created": "2026-02-05T18:11:31Z",
-    "modified": "2026-04-24T06:24:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["economics"]
+      "semantic": [
+        "economics"
+      ]
     }
   }
 }

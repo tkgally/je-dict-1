@@ -3,7 +3,7 @@
   "headword": "{中肉中背|ちゅうにくちゅうせい}",
   "reading": "ちゅうにくちゅうせい",
   "romaji": "chuunikuchuusei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "medium build; average height and weight",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "A four-character compound ({四字熟語|よじじゅくご}) describing someone whose body type is unremarkable — average in both weight ({中肉|ちゅうにく}) and height ({中背|ちゅうぜい}). The word {背|せい} here refers to stature or height.\n\nThis expression is extremely common in physical descriptions, especially in police reports, news accounts of wanted persons, and character descriptions in fiction. It conveys the idea that the person would not stand out in a crowd.\n\nUSAGE:\nTypically used as a noun modifying another noun (の construction) or in predicate position with だ/です. Often appears in descriptions where physical appearance matters but nothing distinctive can be identified.\n\nCOMMON COLLOCATIONS:\n- {中肉中背|ちゅうにくちゅうせい}の{男性|だんせい}: a man of medium build\n- {中肉中背|ちゅうにくちゅうせい}の{体型|たいけい}: an average body type\n- {中肉中背|ちゅうにくちゅうせい}で{目立|めだ}たない: average build and inconspicuous\n\nSIMILAR WORDS:\n- {普通|ふつう}の{体型|たいけい}: normal body type (everyday expression, less precise)\n- {小柄|こがら}: small build\n- {大柄|おおがら}: large build",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12362_kogara",
+      "reading": "こがら",
+      "headword": "{小柄|こがら}",
+      "label": "small build"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17177_oogara",
+      "reading": "おおがら",
+      "headword": "{大柄|おおがら}",
+      "label": "large build"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,11 +69,13 @@
         "noun",
         "adjective-no"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "descriptive"
       ]
     },
     "created": "2026-04-22T09:15:04Z",
-    "modified": "2026-08-03T21:47:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

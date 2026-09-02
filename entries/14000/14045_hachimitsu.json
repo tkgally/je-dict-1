@@ -19,7 +19,9 @@
       "english": "Spread honey on bread.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14045_hachimitsu_ex2",
@@ -27,7 +29,9 @@
       "english": "I like drinking tea with honey.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14045_hachimitsu_ex3",
@@ -35,21 +39,49 @@
       "english": "The honey made by beekeepers in this region is popular for its rich floral aroma.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften written in hiragana as はちみつ on product labels for readability. The kanji {蜂|はち} means \"bee\" and {蜜|みつ} means \"nectar/honey.\"\n\nHEALTH NOTE:\nIn Japan, {蜂蜜|はちみつ} is widely known to be unsafe for infants under one year old due to the risk of botulism.\n\nCOMMON COLLOCATIONS:\n- {蜂蜜|はちみつ}レモン: honey lemon (drink)\n- {蜂蜜|はちみつ}を{塗|ぬ}る: to spread honey\n- {国産|こくさん}{蜂蜜|はちみつ}: domestic honey",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01779_jamu",
+      "reading": "じゃむ",
+      "headword": "ジャム",
+      "label": "jam"
+    },
+    {
+      "type": "related",
+      "target_id": "06514_mitsubachi",
+      "reading": "みつばち",
+      "headword": "{蜜蜂|みつばち}",
+      "label": "honeybee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24332_kuromitsu",
+      "reading": "くろみつ",
+      "headword": "{黒蜜|くろみつ}",
+      "label": "black sugar syrup"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T10:14:05Z",
-    "modified": "2026-02-27T10:14:05Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

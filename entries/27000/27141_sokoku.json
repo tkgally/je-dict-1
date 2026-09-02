@@ -17,7 +17,9 @@
       "id": "27141_sokoku_ex1",
       "japanese": "{祖国|そこく}を{離|はな}れた。",
       "english": "I left my homeland.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27141_sokoku_ex2",
       "japanese": "{彼|かれ}は{祖国|そこく}のために{戦|たたか}った。",
       "english": "He fought for his homeland.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "27141_sokoku_ex3",
       "japanese": "{長|なが}い{海外|かいがい}{生活|せいかつ}を{経|へ}て、ようやく{祖国|そこく}の{土|つち}を{踏|ふ}むことができた。",
       "english": "After a long life overseas, I was finally able to set foot on the soil of my homeland.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers to one's country of origin with an emotional, often patriotic nuance. More literary and elevated than {国|くに} (country), which is the everyday word for one's home country.\n\nCOMMON COLLOCATIONS:\n- {祖国|そこく}を{愛|あい}する — to love one's homeland\n- {祖国|そこく}を{離|はな}れる — to leave one's homeland\n- {祖国|そこく}に{帰|かえ}る — to return to one's homeland\n- {祖国|そこく}の{土|つち}を{踏|ふ}む — to set foot on one's homeland\n- {祖国|そこく}のために — for one's homeland\n\nSIMILAR WORDS:\n- {国|くに} — one's country; everyday, conversational word with no particular emotional weight\n- {母国|ぼこく} — mother country; similar meaning but slightly more neutral and often used in the context of language ({母国語|ぼこくご}, native language)\n- {故郷|ふるさと}/{故郷|こきょう} — hometown; refers to a specific place of origin rather than a whole country",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17954_bokoku",
+      "reading": "ぼこく",
+      "headword": "{母国|ぼこく}",
+      "label": "mother country"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25466_furusato",
+      "reading": "ふるさと",
+      "headword": "{故郷|ふるさと}",
+      "label": "hometown"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02733_kokyou",
+      "reading": "こきょう",
+      "headword": "{故郷|こきょう}",
+      "label": "hometown"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     },
     "created": "2026-05-07T13:08:34Z",
-    "modified": "2026-05-07T13:08:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

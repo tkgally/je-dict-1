@@ -17,7 +17,9 @@
       "id": "26289_gyoukoten_ex1",
       "japanese": "{水|みず}の{凝固点|ぎょうこてん}は{零度|れいど}だ。",
       "english": "The freezing point of water is zero degrees.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26289_gyoukoten_ex2",
       "japanese": "{塩|しお}を{加|くわ}えると{凝固点|ぎょうこてん}が{下|さ}がる。",
       "english": "Adding salt lowers the freezing point.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,54 @@
       "id": "26289_gyoukoten_ex3",
       "japanese": "{凝固点|ぎょうこてん}{降下|こうか}の{原理|げんり}を{利用|りよう}して、{冬|ふゆ}の{道路|どうろ}に{融雪剤|ゆうせつざい}を{撒|ま}く。",
       "english": "Using the principle of freezing-point depression, de-icing agents are spread on winter roads.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {凝固|ぎょうこ} (solidification; coagulation) + {点|てん} (point). A scientific term commonly encountered in school chemistry and physics. The concept of {凝固点|ぎょうこてん}{降下|こうか} (freezing-point depression) is a standard topic in Japanese science education.\n\nCOMMON COLLOCATIONS:\n- {凝固点|ぎょうこてん}{降下|こうか}: freezing-point depression\n- {凝固点|ぎょうこてん}が{下|さ}がる: the freezing point drops\n- {凝固点|ぎょうこてん}に{達|たっ}する: to reach the freezing point\n- {凝固点|ぎょうこてん}を{測定|そくてい}する: to measure the freezing point\n\nSIMILAR WORDS:\n- {融点|ゆうてん}: melting point — the temperature at which a solid becomes liquid (same temperature as the freezing point, viewed from the other direction)\n- {沸点|ふってん}: boiling point — the temperature at which a liquid becomes gas\n- {氷点|ひょうてん}: freezing point (of water specifically) — more colloquial than {凝固点|ぎょうこてん}",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21505_yuuten",
+      "reading": "ゆうてん",
+      "headword": "{融点|ゆうてん}",
+      "label": "melting point"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25307_futten",
+      "reading": "ふってん",
+      "headword": "{沸点|ふってん}",
+      "label": "boiling point"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26303_yuukaiten",
+      "reading": "ゆうかいてん",
+      "headword": "{融解点|ゆうかいてん}",
+      "label": "melting point"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-04-30T15:24:19Z",
-    "modified": "2026-04-30T15:24:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

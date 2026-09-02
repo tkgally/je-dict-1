@@ -17,7 +17,9 @@
       "id": "21708_shikkoku_ex1",
       "japanese": "{漆黒|しっこく}の{髪|かみ}が{印象的|いんしょうてき}だった。",
       "english": "Her jet-black hair was striking.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21708_shikkoku_ex2",
       "japanese": "{漆黒|しっこく}の{闇|やみ}の{中|なか}で、{何|なに}も{見|み}えなかった。",
       "english": "In the pitch-black darkness, I couldn't see anything.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,12 +37,30 @@
       "id": "21708_shikkoku_ex3",
       "japanese": "{漆黒|しっこく}の{夜空|よぞら}に{無数|むすう}の{星|ほし}がまたたき、{息|いき}を{飲|の}むほど{美|うつく}しかった。",
       "english": "Countless stars twinkled in the jet-black night sky, so beautiful it took my breath away.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A literary word meaning the deepest, purest black — like the color of Japanese lacquer ({漆|うるし}). Combines {漆|しつ} (lacquer) and {黒|こく} (black).\n\nUSAGE:\n- Used almost exclusively as a modifier before a noun: {漆黒|しっこく}の + noun\n- Common with {闇|やみ} (darkness), {髪|かみ} (hair), {夜空|よぞら} (night sky), {瞳|ひとみ} (eyes)\n- Has a literary, poetic feel — not typically used in everyday casual speech\n- Often found in novels, poetry, and fantasy/game contexts\n\nCOMMON COLLOCATIONS:\n- {漆黒|しっこく}の{闇|やみ}: pitch-black darkness\n- {漆黒|しっこく}の{髪|かみ}: jet-black hair\n- {漆黒|しっこく}の{夜|よる}: pitch-dark night\n- {漆黒|しっこく}の{瞳|ひとみ}: jet-black eyes\n\nSIMILAR WORDS:\n- {真|ま}っ{黒|くろ}: completely black — everyday, casual equivalent\n- {暗黒|あんこく}: total darkness — emphasizes the absence of light rather than the color\n- {墨色|すみいろ}: ink black — another literary color term, slightly softer",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07614_makkuro",
+      "reading": "まっくろ",
+      "headword": "{真|ま}っ{黒|くろ}",
+      "label": "completely black"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12997_ankoku",
+      "reading": "あんこく",
+      "headword": "{暗黒|あんこく}",
+      "label": "total darkness"
+    }
+  ],
   "metadata": {
     "entry_id": "21708_shikkoku",
     "schema_version": "2.0",
@@ -46,11 +68,18 @@
     "vocabulary_tier": "general",
     "jlpt_level": null,
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["color"],
-      "register": ["literary"],
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "color"
+      ],
+      "register": [
+        "literary"
+      ],
       "usage": []
     },
-    "modified": "2026-04-02T22:10:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

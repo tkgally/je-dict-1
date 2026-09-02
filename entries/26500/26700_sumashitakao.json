@@ -3,7 +3,7 @@
   "headword": "すました{顔|かお}",
   "reading": "すましたかお",
   "romaji": "sumashitakao",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, expression",
   "gloss": "composed face; straight face; prim expression",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "26700_sumashitakao_ex1",
       "japanese": "{彼女|かのじょ}はすました{顔|かお}で{座|すわ}っていた。",
       "english": "She sat there with a composed expression.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26700_sumashitakao_ex2",
       "japanese": "{遅刻|ちこく}したのに、すました{顔|かお}で{教室|きょうしつ}に{入|はい}ってきた。",
       "english": "Despite being late, he walked into the classroom with a straight face as if nothing had happened.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,46 @@
       "id": "26700_sumashitakao_ex3",
       "japanese": "{嘘|うそ}をついているのに、あんなにすました{顔|かお}ができるなんて、{大|たい}した{役者|やくしゃ}だ。",
       "english": "Being able to keep such a straight face while lying — what an actor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of すました (past form of すます, meaning to compose oneself / put on a prim demeanor) and {顔|かお} (face). The expression often carries an undertone of criticism or irony — the person appears calm or indifferent when they should be showing a reaction, such as embarrassment, guilt, or concern.\n\nCOMMON COLLOCATIONS:\n- すました{顔|かお}をする: to put on a composed/straight face\n- すました{顔|かお}で{答|こた}える: to answer with a straight face\n- すました{顔|かお}で{嘘|うそ}をつく: to lie with a straight face\n\nSIMILAR WORDS:\n- {涼|すず}しい{顔|かお}: cool/unfazed expression — similar nuance of showing no reaction\n- {無表情|むひょうじょう}: expressionless — neutral, no implied judgment about whether it's put on\n- {知|し}らん{顔|かお}: pretending not to know — specifically feigning ignorance\n- {平然|へいぜん}とした{顔|かお}: calm face — more neutral, without the critical nuance",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21639_suzushiikao",
+      "reading": "すずしいかお",
+      "headword": "{涼|すず}しい{顔|かお}",
+      "label": "cool/unfazed expression"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23140_muhyoujou",
+      "reading": "むひょうじょう",
+      "headword": "{無表情|むひょうじょう}",
+      "label": "expressionless"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "expression"],
-      "semantic": ["emotion", "appearance"]
+      "pos": [
+        "noun",
+        "expression"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "emotion",
+        "appearance"
+      ]
     },
     "created": "2026-05-04T13:57:33Z",
-    "modified": "2026-05-04T13:57:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

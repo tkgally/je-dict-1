@@ -4,7 +4,7 @@
   "headword": "{半焼|はんしょう}",
   "reading": "はんしょう",
   "romaji": "hanshou",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "partial fire damage; half-burned",
   "definitions": [
     {
@@ -53,6 +53,20 @@
       "reading": "ぜんしょう",
       "headword": "{全焼|ぜんしょう}",
       "label": "total fire destruction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13480_shoushitsu",
+      "reading": "しょうしつ",
+      "headword": "{焼失|しょうしつ}",
+      "label": "destruction by fire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18581_ruishou",
+      "reading": "るいしょう",
+      "headword": "{類焼|るいしょう}",
+      "label": "fire spreading from another building"
     }
   ],
   "metadata": {
@@ -62,13 +76,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "building"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-19T10:12:27Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

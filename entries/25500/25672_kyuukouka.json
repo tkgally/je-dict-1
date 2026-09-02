@@ -3,7 +3,7 @@
   "headword": "{急降下|きゅうこうか}",
   "reading": "きゅうこうか",
   "romaji": "kyuukouka",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sharp drop; nosedive; plunge",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A compound of {急|きゅう} (sudden, rapid) and {降下|こうか} (descent, drop). Functions as both a noun and a suru verb ({急降下|きゅうこうか}する). Originally an aviation term for a steep dive, now widely used figuratively.\n\nCOMMON COLLOCATIONS:\n- {気温|きおん}の{急降下|きゅうこうか}: sharp drop in temperature\n- {支持率|しじりつ}の{急降下|きゅうこうか}: plunge in approval ratings\n- {急降下|きゅうこうか}{爆撃|ばくげき}: dive bombing\n- {株価|かぶか}が{急降下|きゅうこうか}する: stock prices plunge\n\nSIMILAR WORDS:\n- {急落|きゅうらく}: sharp fall — used mainly for prices and numerical values\n- {暴落|ぼうらく}: crash, collapse — even more dramatic, implies a devastating drop\n- {急上昇|きゅうじょうしょう}: sharp rise — the opposite, a sudden increase",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09399_kyuuraku",
+      "reading": "きゅうらく",
+      "headword": "{急落|きゅうらく}",
+      "label": "sharp fall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09401_bouraku",
+      "reading": "ぼうらく",
+      "headword": "{暴落|ぼうらく}",
+      "label": "crash, collapse"
+    },
+    {
+      "type": "antonym",
+      "target_id": "25671_kyuujoushou",
+      "reading": "きゅうじょうしょう",
+      "headword": "{急上昇|きゅうじょうしょう}",
+      "label": "sharp rise"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +87,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-26T15:14:54Z",
-    "modified": "2026-06-15T07:57:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

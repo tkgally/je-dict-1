@@ -2,7 +2,7 @@
   "id": "08266_owabi",
   "headword": "お{詫|わ}び",
   "reading": "おわび",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "apology; formal apology",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,37 @@
       "notes": null
     }
   ],
-  "notes": "FORMALITY:\nPolite/formal (お + {詫|わ}び). The お- prefix makes it more polite.\n\nUSAGE:\n- お{詫|わ}び{申|もう}し{上|あ}げます (I humbly apologize - very formal)\n- お{詫|わ}びいたします (I apologize - formal)\n- お{詫|わ}びの{言葉|ことば} (words of apology)\n- お{詫|わ}びの{品|しな}/{印|しるし} (gift of apology)\n\nIN BUSINESS:\n- お{詫|わ}び{状|じょう} (letter of apology)\n- お{詫|わ}び{文|ぶん} (apology statement)\n- お{詫|わ}びとお{知|し}らせ (apology and notice)\n\nCOMPARISON:\n- お{詫|わ}び (formal apology)\n- {謝罪|しゃざい} (apology - more formal, often public)\n- ごめんなさい (sorry - casual)\n\nRELATED:\n- {詫|わ}びる (to apologize - verb)\n- {謝|あやま}る (to apologize)\n- {陳謝|ちんしゃ} (formal apology)",
+  "notes": "REGISTER:\nPolite/formal (お + {詫|わ}び). The お- prefix makes it more polite.\n\nUSAGE:\n- お{詫|わ}び{申|もう}し{上|あ}げます (I humbly apologize - very formal)\n- お{詫|わ}びいたします (I apologize - formal)\n- お{詫|わ}びの{言葉|ことば} (words of apology)\n- お{詫|わ}びの{品|しな}/{印|しるし} (gift of apology)\n\nIN BUSINESS:\n- お{詫|わ}び{状|じょう} (letter of apology)\n- お{詫|わ}び{文|ぶん} (apology statement)\n- お{詫|わ}びとお{知|し}らせ (apology and notice)\n\nSIMILAR WORDS:\n- お{詫|わ}び (formal apology)\n- {謝罪|しゃざい} (apology - more formal, often public)\n- ごめんなさい (sorry - casual)\n\nRELATED WORDS:\n- {詫|わ}びる (to apologize - verb)\n- {謝|あやま}る (to apologize)\n- {陳謝|ちんしゃ} (formal apology)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06754_shazai",
+      "reading": "しゃざい",
+      "headword": "{謝罪|しゃざい}",
+      "label": "apology"
+    },
+    {
+      "type": "related",
+      "target_id": "14174_wabiru",
+      "reading": "わびる",
+      "headword": "{詫|わ}びる",
+      "label": "to apologize"
+    },
+    {
+      "type": "related",
+      "target_id": "01177_ayamaru",
+      "reading": "あやまる",
+      "headword": "{謝|あやま}る",
+      "label": "to apologize"
+    },
+    {
+      "type": "related",
+      "target_id": "07994_chinsha",
+      "reading": "ちんしゃ",
+      "headword": "{陳謝|ちんしゃ}",
+      "label": "formal apology"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +172,7 @@
         "verb-suru"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "communication",
         "politeness"
@@ -149,6 +180,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-25T09:58:37Z",
-    "modified": "2026-01-25T09:58:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

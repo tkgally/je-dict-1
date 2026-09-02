@@ -2,7 +2,7 @@
   "id": "11640_kouhyou",
   "headword": "{公表|こうひょう}",
   "reading": "こうひょう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "public announcement, disclosure",
   "conjugation": {
     "type": "suru",
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "A formal word used for official disclosures. Common in news reporting and government communications.\n\nCOMMON COLLOCATIONS:\n・{結果|けっか}を{公表|こうひょう}する (announce results)\n・データを{公表|こうひょう}する (release data)\n・{氏名|しめい}を{公表|こうひょう}する (disclose names)\n・{公表|こうひょう}を{控|ひか}える (refrain from disclosure)\n\nCOMPARISON:\n・{発表|はっぴょう}: a broader term for announcements, presentations, and releases\n・{公表|こうひょう}: specifically making something public that was previously private\n・{公開|こうかい}: opening something to the public (documents, facilities, events)",
-  "cross_references": [],
+  "notes": "A formal word used for official disclosures. Common in news reporting and government communications.\n\nCOMMON COLLOCATIONS:\n- {結果|けっか}を{公表|こうひょう}する (announce results)\n- データを{公表|こうひょう}する (release data)\n- {氏名|しめい}を{公表|こうひょう}する (disclose names)\n- {公表|こうひょう}を{控|ひか}える (refrain from disclosure)\n\nSIMILAR WORDS:\n- {発表|はっぴょう}: a broader term for announcements, presentations, and releases\n- {公表|こうひょう}: specifically making something public that was previously private\n- {公開|こうかい}: opening something to the public (documents, facilities, events)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03562_happyou",
+      "reading": "はっぴょう",
+      "headword": "{発表|はっぴょう}",
+      "label": "a broader term for announcements…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11665_koukai",
+      "reading": "こうかい",
+      "headword": "{公開|こうかい}",
+      "label": "opening something to the public"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25231_happyousuru",
+      "reading": "はっぴょうする",
+      "headword": "{発表|はっぴょう}する",
+      "label": "to announce"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T18:34:11Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

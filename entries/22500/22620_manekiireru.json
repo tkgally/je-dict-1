@@ -3,7 +3,7 @@
   "headword": "{招|まね}き{入|い}れる",
   "reading": "まねきいれる",
   "romaji": "manekiireru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to invite in; to usher in; to welcome inside",
   "definitions": [
     {
@@ -81,6 +81,36 @@
   ],
   "notes": "A compound verb formed from {招|まね}く (to invite, to beckon) and {入|い}れる (to put in, to let in). Sense 1 is the literal meaning of welcoming someone into a space. Sense 2 is figurative, meaning to bring about or invite an undesirable outcome.\n\nUSAGE:\n- Sense 1: Person を Place に{招|まね}き{入|い}れる\n- Sense 2: Consequence を{招|まね}き{入|い}れる (the figurative sense often drops the に phrase)\n\nCOMMON COLLOCATIONS:\n- {客|きゃく}を{招|まね}き{入|い}れる: to invite a guest in\n- {家|いえ}に{招|まね}き{入|い}れる: to welcome into one's home\n- {災|わざわ}いを{招|まね}き{入|い}れる: to invite disaster\n\nSIMILAR WORDS:\n- {迎|むか}え{入|い}れる: to receive, to welcome in — more formal and warmer in tone\n- {招|まね}く: to invite — broader meaning; does not necessarily imply entering a space\n- {通|とお}す: to show in, to let through — focuses on guiding someone inside",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14788_mukaeireru",
+      "reading": "むかえいれる",
+      "headword": "{迎|むか}え{入|い}れる",
+      "label": "to receive, to welcome in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02425_maneku",
+      "reading": "まねく",
+      "headword": "{招|まね}く",
+      "label": "to invite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02300_toosu",
+      "reading": "とおす",
+      "headword": "{通|とお}す",
+      "label": "to show in, to let through"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21381_tsurekomu",
+      "reading": "つれこむ",
+      "headword": "{連|つ}れ{込|こ}む",
+      "label": "to bring someone along (into)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -96,7 +126,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-04-06T20:22:24Z",
-    "modified": "2026-07-30T15:59:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

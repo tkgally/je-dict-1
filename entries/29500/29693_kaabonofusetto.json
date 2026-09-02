@@ -17,7 +17,9 @@
       "id": "29693_kaabonofusetto_ex1",
       "japanese": "この{航空券|こうくうけん}はカーボンオフセット{付|つ}きだ。",
       "english": "This plane ticket comes with a carbon offset.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29693_kaabonofusetto_ex2",
       "japanese": "{企業|きぎょう}がカーボンオフセットに{取|と}り{組|く}んでいる。",
       "english": "Companies are working on carbon offsets.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "29693_kaabonofusetto_ex3",
       "japanese": "{排出|はいしゅつ}した{分|ぶん}をカーボンオフセットで{埋|う}め{合|あ}わせる{仕組|しく}みが{広|ひろ}がっている。",
       "english": "Systems that make up for emissions through carbon offsets are spreading.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Loanword from English \"carbon offset.\" A market mechanism for balancing out unavoidable emissions by paying for reductions elsewhere.\n\nCOMMON COLLOCATIONS:\n- カーボンオフセットに{取|と}り{組|く}む: to work on carbon offsets\n- カーボンオフセット{制度|せいど}: a carbon-offset scheme\n- カーボンオフセットで{埋|う}め{合|あ}わせる: to compensate through carbon offsetting\n\nSIMILAR WORDS:\n- カーボンニュートラル: carbon neutral — the goal of net-zero emissions, often achieved partly through offsets\n- {炭素中立|たんそちゅうりつ}: carbon neutrality — the native-word equivalent of カーボンニュートラル",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06411_kaabonnyuutoraru",
+      "reading": "かーぼんにゅーとらる",
+      "headword": "カーボンニュートラル",
+      "label": "carbon neutral"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29694_tansochuuritsu",
+      "reading": "たんそちゅうりつ",
+      "headword": "{炭素中立|たんそちゅうりつ}",
+      "label": "carbon neutrality"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["science"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "science"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-07-06T09:17:25Z",
-    "modified": "2026-07-06T09:17:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

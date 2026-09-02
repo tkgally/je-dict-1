@@ -45,7 +45,29 @@
     }
   ],
   "notes": "{稲田|いなだ} is a somewhat literary or formal word for rice paddy. In everyday conversation, {田|た}んぼ or {水田|すいでん} are more commonly used. {稲田|いなだ} emphasizes the paddy as a field of rice plants ({稲|いね}) and is often found in written descriptions of rural scenery.\n\nCOMMON COLLOCATIONS:\n- {稲田|いなだ}の{風景|ふうけい} — rice paddy scenery\n- {青々|あおあお}とした{稲田|いなだ} — verdant rice paddies\n- {稲田|いなだ}が{実|みの}る — the rice paddy bears grain\n\nSIMILAR WORDS:\n- {田|た}んぼ — rice paddy (everyday, spoken)\n- {水田|すいでん} — paddy field (neutral, common in writing)\n- {田畑|たはた} — fields (rice paddies and dry fields collectively)\n\nNOTE: {稲田|いなだ} is also a common Japanese surname.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00402_tanbo",
+      "reading": "たんぼ",
+      "headword": "{田|た}んぼ",
+      "label": "rice paddy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13262_suiden",
+      "reading": "すいでん",
+      "headword": "{水田|すいでん}",
+      "label": "paddy field"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13527_tahata",
+      "reading": "たはた",
+      "headword": "{田畑|たはた}",
+      "label": "fields"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +75,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "work",
         "nature"
       ]
     },
     "created": "2026-04-29T16:31:00Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

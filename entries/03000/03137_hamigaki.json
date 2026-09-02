@@ -118,18 +118,39 @@
       ]
     }
   ],
-  "notes": "COMPOUND: ⟦{歯|は}→歯：00778_ha⟧ (tooth) + ⟦{磨|みが}く→磨く：02427_migaku⟧ (to polish/brush)\n\nCOMMON EXPRESSIONS:\n- {歯磨|はみが}き⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to brush one's teeth)\n- ⟦{歯磨|はみが}き{粉|こ}→歯磨き粉：04983_hamigakiko⟧ (toothpaste - more specific than {歯磨|はみが}き alone)\n- ⟦{歯|は}ブラシ→歯ブラシ：04509_haburashi⟧ (toothbrush)\n\nDUAL MEANING: {歯磨|はみが}き can mean both the action of brushing teeth and toothpaste itself, though ⟦{歯磨|はみが}き{粉|こ}→歯磨き粉：04983_hamigakiko⟧ is more explicitly 'toothpaste.'\n\nRELATED:\n- ⟦{歯|は}→歯：00778_ha⟧ (tooth)\n- ⟦{歯医者|はいしゃ}→歯医者：01696_haisha⟧ (dentist)\n- ⟦{虫歯|むしば}→虫歯：00299_mushiba⟧ (cavity, tooth decay)",
+  "notes": "COMPOUND: ⟦{歯|は}→歯：00778_ha⟧ (tooth) + ⟦{磨|みが}く→磨く：02427_migaku⟧ (to polish/brush)\n\nCOMMON EXPRESSIONS:\n- {歯磨|はみが}き⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to brush one's teeth)\n- ⟦{歯磨|はみが}き{粉|こ}→歯磨き粉：04983_hamigakiko⟧ (toothpaste - more specific than {歯磨|はみが}き alone)\n- ⟦{歯|は}ブラシ→歯ブラシ：04509_haburashi⟧ (toothbrush)\n\nDUAL MEANING: {歯磨|はみが}き can mean both the action of brushing teeth and toothpaste itself, though ⟦{歯磨|はみが}き{粉|こ}→歯磨き粉：04983_hamigakiko⟧ is more explicitly 'toothpaste.'\n\nRELATED WORDS:\n- ⟦{歯|は}→歯：00778_ha⟧ (tooth)\n- ⟦{歯医者|はいしゃ}→歯医者：01696_haisha⟧ (dentist)\n- ⟦{虫歯|むしば}→虫歯：00299_mushiba⟧ (cavity, tooth decay)",
   "cross_references": [
     {
       "type": "related",
       "reading": "は",
       "headword": "{歯|は}",
       "target_id": "00778_ha"
+    },
+    {
+      "type": "related",
+      "target_id": "01696_haisha",
+      "reading": "はいしゃ",
+      "headword": "{歯医者|はいしゃ}",
+      "label": "dentist"
+    },
+    {
+      "type": "related",
+      "target_id": "00299_mushiba",
+      "reading": "むしば",
+      "headword": "{虫歯|むしば}",
+      "label": "cavity, tooth decay"
+    },
+    {
+      "type": "related",
+      "target_id": "02427_migaku",
+      "reading": "みがく",
+      "headword": "{磨|みが}く",
+      "label": "to polish, to brush"
     }
   ],
   "metadata": {
     "created": "2026-01-11T12:26:55Z",
-    "modified": "2026-05-23T22:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

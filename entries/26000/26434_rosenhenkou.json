@@ -3,7 +3,7 @@
   "headword": "{路線|ろせん}{変更|へんこう}",
   "reading": "ろせんへんこう",
   "romaji": "rosenhenkou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "change of route; change of course; policy shift",
   "definitions": [
     {
@@ -80,7 +80,29 @@
     }
   ],
   "notes": "A compound of {路線|ろせん} (route, line, course) and {変更|へんこう} (change, modification). Sense 1 is literal (transportation routes), while sense 2 is figurative and commonly used in news and business.\n\nCOMMON COLLOCATIONS:\n- {路線|ろせん}{変更|へんこう}を{行|おこな}う: to carry out a route change\n- {大幅|おおはば}な{路線|ろせん}{変更|へんこう}: major policy shift\n- {路線|ろせん}{変更|へんこう}を{余儀|よぎ}なくされる: to be forced into a change of course\n- {路線|ろせん}{変更|へんこう}を{発表|はっぴょう}する: to announce a change of direction\n\nSIMILAR WORDS:\n- {方針|ほうしん}{転換|てんかん}: policy change — more explicitly about organizational/political strategy\n- {進路|しんろ}{変更|へんこう}: change of course — used for ships, aircraft, or career direction\n- {迂回|うかい}: detour — a temporary rerouting, not a permanent route change",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19315_houshintenkan",
+      "reading": "ほうしんてんかん",
+      "headword": "{方針転換|ほうしんてんかん}",
+      "label": "policy change"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25035_shinrohenkou",
+      "reading": "しんろへんこう",
+      "headword": "{進路変更|しんろへんこう}",
+      "label": "change of course"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09034_ukai",
+      "reading": "うかい",
+      "headword": "{迂回|うかい}",
+      "label": "detour"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -89,6 +111,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "transportation",
         "business"
@@ -96,7 +120,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-01T16:19:59Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

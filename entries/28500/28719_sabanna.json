@@ -17,7 +17,9 @@
       "id": "28719_sabanna_ex1",
       "japanese": "サバンナにはライオンがいる。",
       "english": "There are lions on the savanna.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28719_sabanna_ex2",
       "japanese": "アフリカのサバンナを{旅|たび}してみたい。",
       "english": "I want to travel across the African savanna.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,53 @@
       "id": "28719_sabanna_ex3",
       "japanese": "{乾季|かんき}になると、サバンナの{動物|どうぶつ}たちは{水|みず}を{求|もと}めて{長|なが}い{距離|きょり}を{移動|いどう}する。",
       "english": "When the dry season comes, the animals of the savanna travel long distances in search of water.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Loanword from English/Spanish \"savanna(h).\" Strongly associated with Africa in Japanese usage, especially in nature documentaries and zoo signage.\n\nCOMMON COLLOCATIONS:\n- アフリカのサバンナ: the African savanna\n- サバンナ{気候|きこう}: savanna climate\n- サバンナの{動物|どうぶつ}: savanna animals\n- サバンナを{駆|か}ける: to race across the savanna\n\nSIMILAR / CONTRASTING WORDS:\n- {草原|そうげん}: grassland; steppe — broader term; more often used for temperate grasslands like the Mongolian steppe\n- ジャングル: jungle — dense tropical forest\n- {砂漠|さばく}: desert",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05035_sougen",
+      "reading": "そうげん",
+      "headword": "{草原|そうげん}",
+      "label": "grassland"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05496_janguru",
+      "reading": "じゃんぐる",
+      "headword": "ジャングル",
+      "label": "jungle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09508_sabaku",
+      "reading": "さばく",
+      "headword": "{砂漠|さばく}",
+      "label": "desert"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["nature", "geography"],
+      "politeness": "plain",
+      "semantic": [
+        "nature",
+        "geography"
+      ],
       "domain": []
     },
     "created": "2026-06-04T03:16:41Z",
-    "modified": "2026-06-04T03:16:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

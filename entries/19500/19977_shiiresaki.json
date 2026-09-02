@@ -17,7 +17,9 @@
       "id": "19977_shiiresaki_ex1",
       "japanese": "{新|あたら}しい{仕入先|しいれさき}を{探|さが}す。",
       "english": "To look for a new supplier.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19977_shiiresaki_ex2",
       "japanese": "{仕入先|しいれさき}との{価格|かかく}{交渉|こうしょう}が{難航|なんこう}している。",
       "english": "Price negotiations with the supplier are proving difficult.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "19977_shiiresaki_ex3",
       "japanese": "{仕入先|しいれさき}を{複数|ふくすう}{確保|かくほ}しておくことで、{供給|きょうきゅう}リスクを{分散|ぶんさん}できる。",
       "english": "By securing multiple suppliers, you can spread the supply risk.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {仕入|しい}れ (purchasing, stocking) + {先|さき} (destination, party). The suffix {先|さき} is productive in business Japanese, creating words for counterparties: {取引先|とりひきさき} (business partner), {納入先|のうにゅうさき} (delivery destination), {販売先|はんばいさき} (customer/sales destination).\n\nCOMMON COLLOCATIONS:\n- {仕入先|しいれさき}を{探|さが}す: to look for a supplier\n- {仕入先|しいれさき}を{変|か}える: to change suppliers\n- {仕入先|しいれさき}との{関係|かんけい}: relationship with suppliers\n- {仕入先|しいれさき}を{開拓|かいたく}する: to develop new suppliers\n\nSIMILAR WORDS:\n- サプライヤー: supplier (loanword; common in manufacturing and international business)\n- {取引先|とりひきさき}: business partner (broader; includes both suppliers and customers)\n- {卸売業者|おろしうりぎょうしゃ}: wholesaler (a specific type of supplier)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11083_torihikisaki",
+      "reading": "とりひきさき",
+      "headword": "{取引先|とりひきさき}",
+      "label": "business partner (broader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29870_choutatsusaki",
+      "reading": "ちょうたつさき",
+      "headword": "調達先",
+      "label": "supplier"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-03-27T07:26:00Z",
-    "modified": "2026-03-27T07:26:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

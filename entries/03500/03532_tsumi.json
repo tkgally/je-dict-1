@@ -113,7 +113,7 @@
       ]
     }
   ],
-  "notes": "COMMON PATTERNS:\n・{罪|つみ}⟦を→を：00422_wo⟧⟦{犯|おか}す→犯す：10059_okasu⟧ (to commit a crime/sin)\n・{罪|つみ}⟦に→に：00314_ni⟧⟦{問|と}う→問う：02299_tou⟧ (to charge with a crime)\n・{罪|つみ}⟦を→を：00422_wo⟧⟦{償|つぐな}う→償う：10883_tsugunau⟧ (to atone for one's sins)\n・{罪|つみ}⟦を→を：00422_wo⟧⟦{認|みと}める→認める：02429_mitomeru⟧ (to admit guilt)\n\nCOMMON COMPOUND WORDS:\n・⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧ (crime)\n・⟦{有罪|ゆうざい}→有罪：13003_yuuzai⟧ (guilty)\n・⟦{無罪|むざい}→無罪：13383_muzai⟧ (innocent, not guilty)\n・⟦{罪悪感|ざいあくかん}→罪悪感：05951_zaiakukan⟧ (sense of guilt)\n\nCOMMON EXPRESSION:\n・{罪|つみ}⟦な→な：09497_na⟧⟦{人|ひと}→人：00476_hito⟧ (a cruel person, someone who makes others suffer)",
+  "notes": "COMMON PATTERNS:\n- {罪|つみ}⟦を→を：00422_wo⟧⟦{犯|おか}す→犯す：10059_okasu⟧ (to commit a crime/sin)\n- {罪|つみ}⟦に→に：00314_ni⟧⟦{問|と}う→問う：02299_tou⟧ (to charge with a crime)\n- {罪|つみ}⟦を→を：00422_wo⟧⟦{償|つぐな}う→償う：10883_tsugunau⟧ (to atone for one's sins)\n- {罪|つみ}⟦を→を：00422_wo⟧⟦{認|みと}める→認める：02429_mitomeru⟧ (to admit guilt)\n\nCOMPOUNDS:\n- ⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧ (crime)\n- ⟦{有罪|ゆうざい}→有罪：13003_yuuzai⟧ (guilty)\n- ⟦{無罪|むざい}→無罪：13383_muzai⟧ (innocent, not guilty)\n- ⟦{罪悪感|ざいあくかん}→罪悪感：05951_zaiakukan⟧ (sense of guilt)\n\nCOMMON EXPRESSIONS:\n- {罪|つみ}⟦な→な：09497_na⟧⟦{人|ひと}→人：00476_hito⟧ (a cruel person, someone who makes others suffer)",
   "cross_references": [
     {
       "type": "related",
@@ -121,11 +121,25 @@
       "headword": "{犯罪|はんざい}",
       "label": "crime",
       "target_id": "03569_hanzai"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23248_tsumibukai",
+      "reading": "つみぶかい",
+      "headword": "{罪深|つみぶか}い",
+      "label": "sinful"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29054_akuji",
+      "reading": "あくじ",
+      "headword": "{悪事|あくじ}",
+      "label": "wrongdoing"
     }
   ],
   "metadata": {
     "created": "2026-01-12T09:32:30Z",
-    "modified": "2026-06-12T18:28:11Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -17,7 +17,9 @@
       "id": "26544_chuukeikyoku_ex1",
       "japanese": "{山間部|さんかんぶ}には{中継局|ちゅうけいきょく}が{必要|ひつよう}だ。",
       "english": "Relay stations are necessary in mountainous areas.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26544_chuukeikyoku_ex2",
       "japanese": "この{地域|ちいき}は{中継局|ちゅうけいきょく}のおかげでテレビが{映|うつ}る。",
       "english": "This area can receive TV broadcasts thanks to the relay station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,40 @@
       "id": "26544_chuukeikyoku_ex3",
       "japanese": "{地上|ちじょう}デジタル{放送|ほうそう}への{切|き}り{替|か}えに{合|あ}わせて、{各地|かくち}の{中継局|ちゅうけいきょく}が{更新|こうしん}された。",
       "english": "Relay stations across the country were upgraded in line with the switch to digital terrestrial broadcasting.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {中継|ちゅうけい} (relay, retransmission) and {局|きょく} (station, office). Japan's mountainous terrain means that {中継局|ちゅうけいきょく} are essential for broadcasting TV and radio signals to valleys and remote areas. During the transition from analog to digital broadcasting (completed in 2012), thousands of relay stations across Japan were upgraded.\n\nCOMMON COLLOCATIONS:\n- {中継局|ちゅうけいきょく}を{設置|せっち}する: to install a relay station\n- テレビ{中継局|ちゅうけいきょく}: TV relay station\n- {携帯|けいたい}{中継局|ちゅうけいきょく}: mobile phone relay station\n- {中継局|ちゅうけいきょく}の{電波|でんぱ}: relay station signal\n\nSIMILAR WORDS:\n- {基地局|きちきょく}: base station — used for mobile phone networks, not broadcasting\n- {放送局|ほうそうきょく}: broadcasting station — the main station that originates the signal\n- {中継|ちゅうけい}: relay, live broadcast — the act of relaying, without specifying the physical facility",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15743_housoukyoku",
+      "reading": "ほうそうきょく",
+      "headword": "{放送局|ほうそうきょく}",
+      "label": "broadcasting station"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-05-02T15:29:13Z",
-    "modified": "2026-05-02T15:29:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

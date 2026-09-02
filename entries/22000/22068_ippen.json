@@ -79,14 +79,38 @@
       "notes": null
     }
   ],
-  "notes": "A slightly casual adverb meaning \"once\" or \"all at once.\" More colloquial than {一度|いちど} or {一回|いっかい}. Particularly common in Kansai dialect but widely understood across Japan. Sense 2 ({一遍|いっぺん}に) means doing something all at once rather than in stages.\n\nCOMMON PATTERNS:\n- {一遍|いっぺん} + verb: once; one time (sense 1)\n- {一遍|いっぺん}に: all at once; in one go (sense 2)\n- {一遍|いっぺん}でいいから: just once (emphatic wish)\n\nSIMILAR WORDS:\n- {一度|いちど} — once (standard, slightly more formal)\n- {一回|いっかい} — one time (neutral, most common)\n- {一気|いっき}に — in one breath; at a stretch (emphasizes speed/intensity more than {一遍|いっぺん}に)\n\nNOTE:\nDo not confuse with the homophone {一変|いっぺん} (complete change), which has a completely different meaning.",
+  "notes": "A slightly casual adverb meaning \"once\" or \"all at once.\" More colloquial than {一度|いちど} or {一回|いっかい}. Particularly common in Kansai dialect but widely understood across Japan. Sense 2 ({一遍|いっぺん}に) means doing something all at once rather than in stages.\n\nCOMMON PATTERNS:\n- {一遍|いっぺん} + verb: once; one time (sense 1)\n- {一遍|いっぺん}に: all at once; in one go (sense 2)\n- {一遍|いっぺん}でいいから: just once (emphatic wish)\n\nSIMILAR WORDS:\n- {一度|いちど} — once (standard, slightly more formal)\n- {一回|いっかい} — one time (neutral, most common)\n- {一気|いっき}に — in one breath; at a stretch (emphasizes speed/intensity more than {一遍|いっぺん}に)\n\nUSAGE:\nDo not confuse with the homophone {一変|いっぺん} (complete change), which has a completely different meaning.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01312_ichido",
+      "reading": "いちど",
+      "headword": "{一度|いちど}",
+      "label": "once"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08925_ikkai",
+      "reading": "いっかい",
+      "headword": "{一回|いっかい}",
+      "label": "one time"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16557_ikkini",
+      "reading": "いっきに",
+      "headword": "{一気|いっき}に",
+      "label": "in one breath"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "adverb"
       ],
+      "politeness": "plain",
       "semantic": [
         "quantity"
       ],
@@ -95,6 +119,6 @@
       ]
     },
     "created": "2026-04-04T22:18:14Z",
-    "modified": "2026-07-27T06:23:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

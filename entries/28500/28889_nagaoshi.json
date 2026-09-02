@@ -17,7 +17,9 @@
       "id": "28889_nagaoshi_ex1",
       "japanese": "アイコンを{長押|なが}しする。",
       "english": "Long-press the icon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28889_nagaoshi_ex2",
       "japanese": "{電源|でんげん}ボタンを{長押|なが}しすると{再起動|さいきどう}する。",
       "english": "Long-pressing the power button restarts the device.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "28889_nagaoshi_ex3",
       "japanese": "アプリを{消|け}したいときは、アイコンを{長押|なが}しして{削除|さくじょ}を{選|えら}んでください。",
       "english": "When you want to delete an app, long-press its icon and select \"delete.\"",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {長|なが}い (long) + {押|お}す (to push). Used both as a noun and as a する-verb ({長押|なが}しする).\n\nCOMMON COLLOCATIONS:\n- ボタンを{長押|なが}しする: to long-press a button\n- {長押|なが}しメニュー: long-press menu (context menu)\n- {長押|なが}しで{選択|せんたく}する: to select by long-pressing\n\nSIMILAR WORDS:\n- タップ: tap — quick, single touch\n- ダブルタップ: double tap — two quick touches\n- スワイプ: swipe — sliding motion across the screen",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05395_tappu",
+      "reading": "たっぷ",
+      "headword": "タップ",
+      "label": "tap"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06182_suwaipu",
+      "reading": "すわいぷ",
+      "headword": "スワイプ",
+      "label": "swipe"
+    },
+    {
+      "type": "related",
+      "target_id": "23360_dengenbotan",
+      "reading": "でんげんぼたん",
+      "headword": "{電源|でんげん}ボタン",
+      "label": "power button"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["technology"],
+      "politeness": "plain",
+      "semantic": [
+        "technology"
+      ],
       "domain": []
     },
     "created": "2026-06-07T02:04:13Z",
-    "modified": "2026-06-07T02:04:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "04861_rishuu",
   "headword": "{履修|りしゅう}",
   "reading": "りしゅう",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "taking a course",
   "conjugation": {
     "type": "suru",
@@ -134,10 +134,39 @@
     }
   ],
   "notes": "{履修|りしゅう} refers to registering for and taking academic courses, common in university contexts.\n\nUSAGE:\nUsed with する: {履修|りしゅう}する (to take/register for a course)\n\nCOMMON EXPRESSIONS:\n- {履修|りしゅう}⟦{登録|とうろく}→登録：05703_touroku⟧: course registration\n- {履修|りしゅう}⟦{科目|かもく}→科目：00163_kamoku⟧: courses being taken\n- ⟦{必修|ひっしゅう}→必修：08641_hisshuu⟧⟦{科目|かもく}→科目：00163_kamoku⟧⟦を→を：00422_wo⟧{履修|りしゅう}する: to take required courses\n- ⟦{選択|せんたく}→選択：03306_sentaku⟧⟦{科目|かもく}→科目：00163_kamoku⟧⟦を→を：00422_wo⟧{履修|りしゅう}する: to take elective courses\n\nRELATED ACADEMIC VOCABULARY:\n- ⟦{単位|たんい}→単位：03412_tani⟧: credit\n- ⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧: graduation\n- ⟦{必修|ひっしゅう}→必修：08641_hisshuu⟧: required (course)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03412_tani",
+      "reading": "たんい",
+      "headword": "{単位|たんい}",
+      "label": "credit"
+    },
+    {
+      "type": "related",
+      "target_id": "01643_sotsugyou",
+      "reading": "そつぎょう",
+      "headword": "{卒業|そつぎょう}",
+      "label": "graduation"
+    },
+    {
+      "type": "related",
+      "target_id": "08641_hisshuu",
+      "reading": "ひっしゅう",
+      "headword": "{必修|ひっしゅう}",
+      "label": "required"
+    },
+    {
+      "type": "related",
+      "target_id": "09286_hisshuukamoku",
+      "reading": "ひっしゅうかもく",
+      "headword": "{必修科目|ひっしゅうかもく}",
+      "label": "required course, compulsory subject"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T00:32:18Z",
-    "modified": "2026-06-14T03:51:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

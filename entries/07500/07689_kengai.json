@@ -78,7 +78,7 @@
       "notes": null
     }
   ],
-  "notes": "ETYMOLOGY:\n{圏|けん} (sphere, area) + {外|がい} (outside)\n\nPHONE DISPLAY:\nWhen a phone has no signal, the screen typically shows 「{圏外|けんがい}」 where the signal bars would normally be.\n\nRELATED:\n・{圏内|けんない} - within range (antonym)\n・{電波|でんぱ}が{届|とど}かない - signal doesn't reach\n・アンテナが{立|た}たない - no bars (colloquial)\n\nCOLLOCATIONS:\n・{圏外|けんがい}になる - to go out of range\n・{圏外|けんがい}で〜できない - can't ~ because out of range",
+  "notes": "ETYMOLOGY:\n{圏|けん} (sphere, area) + {外|がい} (outside)\n\nPHONE DISPLAY:\nWhen a phone has no signal, the screen typically shows 「{圏外|けんがい}」 where the signal bars would normally be.\n\nRELATED WORDS:\n- {圏内|けんない} - within range (antonym)\n- {電波|でんぱ}が{届|とど}かない - signal doesn't reach\n- アンテナが{立|た}たない - no bars (colloquial)\n\nCOMMON COLLOCATIONS:\n- {圏外|けんがい}になる - to go out of range\n- {圏外|けんがい}で〜できない - can't ~ because out of range",
   "cross_references": [
     {
       "type": "antonym",
@@ -86,11 +86,32 @@
       "reading": "けんない",
       "headword": "{圏内|けんない}",
       "label": "within range"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23028_jougai",
+      "reading": "じょうがい",
+      "headword": "{場外|じょうがい}",
+      "label": "outside the venue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24010_tsuuwaken",
+      "reading": "つうわけん",
+      "headword": "{通話圏|つうわけん}",
+      "label": "(mobile phone) coverage area"
+    },
+    {
+      "type": "related",
+      "target_id": "26741_tsuushinken",
+      "reading": "つうしんけん",
+      "headword": "{通信圏|つうしんけん}",
+      "label": "coverage area"
     }
   ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -98,6 +119,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "technology",
         "general"

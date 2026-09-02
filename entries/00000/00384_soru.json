@@ -2,7 +2,7 @@
   "id": "00384_soru",
   "headword": "{剃|そ}る",
   "reading": "そる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to shave",
   "conjugation": {
     "type": "godan",
@@ -134,10 +134,25 @@
     }
   ],
   "notes": "{剃|そ}る means to shave hair off using a razor.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes を particle: ⟦ひげ→ひげ：01332_hige⟧⟦を→を：00422_wo⟧{剃|そ}る\n\nCOMMON PATTERNS:\n- ⟦ひげ→ひげ：01332_hige⟧⟦を→を：00422_wo⟧{剃|そ}る: to shave one's beard\n- ⟦{頭|あたま}→頭：00574_atama⟧⟦を→を：00422_wo⟧{剃|そ}る: to shave one's head\n- ⟦{剃|そ}り{残|のこ}し→剃り残し：noentry⟧: missed spot when shaving\n\nRELATED WORDS:\n- ⟦かみそり→かみそり：10120_kamisori⟧: razor\n- ⟦{電気|でんき}→電気：09780_denki⟧⟦かみそり→かみそり：10120_kamisori⟧: electric shaver\n- ⟦ひげ{剃|そ}り→髭剃り：22892_higesori⟧: shaving, razor\n\nNOTE: This verb is pronounced そる. Don't confuse with ⟦{反|そ}る→反る：11967_soru⟧ (to bend/warp) which has the same reading.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10120_kamisori",
+      "reading": "かみそり",
+      "headword": "かみそり",
+      "label": "razor"
+    },
+    {
+      "type": "related",
+      "target_id": "22892_higesori",
+      "reading": "ひげそり",
+      "headword": "{髭剃|ひげそ}り",
+      "label": "shaving, razor"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T00:40:50Z",
-    "modified": "2026-05-10T21:09:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

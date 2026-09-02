@@ -17,7 +17,9 @@
       "id": "23191_shuyoku_ex1",
       "japanese": "{飛行機|ひこうき}の{主翼|しゅよく}にヒビが{入|はい}った。",
       "english": "A crack appeared in the airplane's main wing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23191_shuyoku_ex2",
       "japanese": "{主翼|しゅよく}の{下|した}にエンジンが{取|と}り{付|つ}けられている。",
       "english": "Engines are mounted under the main wings.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "23191_shuyoku_ex3",
       "japanese": "この{機体|きたい}は{主翼|しゅよく}の{翼幅|よくふく}が{約|やく}{三十|さんじゅう}メートルある。",
       "english": "This aircraft has a main wingspan of about thirty meters.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {主|しゅ} (main, primary) and {翼|よく} (wing). A technical aviation term for the primary wings that generate lift. On most commercial aircraft, the main wings extend from the fuselage and carry fuel tanks and engines.\n\nCOMMON COLLOCATIONS:\n- {主翼|しゅよく}の{翼幅|よくふく}: main wingspan\n- {主翼|しゅよく}にエンジンを{搭載|とうさい}する: to mount engines on the main wing\n- {主翼|しゅよく}の{強度|きょうど}: main wing strength\n\nRELATED TERMS:\n- {尾翼|びよく}: tail wing, empennage\n- {翼|つばさ}: wing (general/literary term)\n- {胴体|どうたい}: fuselage\n- {翼幅|よくふく}: wingspan",
+  "notes": "Composed of {主|しゅ} (main, primary) and {翼|よく} (wing). A technical aviation term for the primary wings that generate lift. On most commercial aircraft, the main wings extend from the fuselage and carry fuel tanks and engines.\n\nCOMMON COLLOCATIONS:\n- {主翼|しゅよく}の{翼幅|よくふく}: main wingspan\n- {主翼|しゅよく}にエンジンを{搭載|とうさい}する: to mount engines on the main wing\n- {主翼|しゅよく}の{強度|きょうど}: main wing strength\n\nRELATED WORDS:\n- {尾翼|びよく}: tail wing, empennage\n- {翼|つばさ}: wing (general/literary term)\n- {胴体|どうたい}: fuselage\n- {翼幅|よくふく}: wingspan",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29422_biyoku",
+      "reading": "びよく",
+      "headword": "{尾翼|びよく}",
+      "label": "tail wing, empennage"
+    },
+    {
+      "type": "related",
+      "target_id": "13941_doutai",
+      "reading": "どうたい",
+      "headword": "{胴体|どうたい}",
+      "label": "fuselage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26633_fukuyoku",
+      "reading": "ふくよく",
+      "headword": "{副翼|ふくよく}",
+      "label": "aileron"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["technology"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "technology"
+      ],
       "formality": "neutral",
       "politeness": "plain"
     },
     "created": "2026-04-08T21:27:12Z",
-    "modified": "2026-04-08T21:27:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

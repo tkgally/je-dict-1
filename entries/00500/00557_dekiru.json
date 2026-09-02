@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair verb. Pattern: X⟦が→が：00051_ga⟧できる (X is possible/able).\n\nASPECT: ている indicates resulting state. できている = 'is ready/completed' or 'is made of.'\n\nCOMMON PATTERNS:\n・⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦が→が：00051_ga⟧できる (can speak Japanese)\n・V⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧できる (can do V)\n・⟦{準備|じゅんび}→準備：01431_junbi⟧⟦が→が：00051_ga⟧できた (preparations are done)\n・⟦{木|き}→木：00524_ki⟧⟦で→で：00502_de⟧できている (made of wood)\n\nAbility patterns: [noun]⟦が→が：00051_ga⟧できる (ability with noun); [V dict]⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧できる (ability with verb).\n\nNote: The thing one can do takes ⟦が→が：00051_ga⟧, not ⟦を→を：00422_wo⟧ - ⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦が→が：00051_ga⟧できる, never 日本語をできる.\n\nPOTENTIAL OF ⟦する→する：00392_suru⟧: できる is the potential form of ⟦する→する：00392_suru⟧, so every ⟦する→する：00392_suru⟧ verb has a ready-made potential - ⟦{勉強|べんきょう}→勉強：00770_benkyou⟧できる (can study), ⟦{運転|うんてん}→運転：01335_unten⟧できる (can drive). For such verbs this is preferred over the longer ⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧できる.",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair verb. Pattern: X⟦が→が：00051_ga⟧できる (X is possible/able).\n\nASPECT: ている indicates resulting state. できている = 'is ready/completed' or 'is made of.'\n\nCOMMON PATTERNS:\n- ⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦が→が：00051_ga⟧できる (can speak Japanese)\n- V⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧できる (can do V)\n- ⟦{準備|じゅんび}→準備：01431_junbi⟧⟦が→が：00051_ga⟧できた (preparations are done)\n- ⟦{木|き}→木：00524_ki⟧⟦で→で：00502_de⟧できている (made of wood)\n\nAbility patterns: [noun]⟦が→が：00051_ga⟧できる (ability with noun); [V dict]⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧できる (ability with verb).\n\nNote: The thing one can do takes ⟦が→が：00051_ga⟧, not ⟦を→を：00422_wo⟧ - ⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦が→が：00051_ga⟧できる, never 日本語をできる.\n\nPOTENTIAL OF ⟦する→する：00392_suru⟧: できる is the potential form of ⟦する→する：00392_suru⟧, so every ⟦する→する：00392_suru⟧ verb has a ready-made potential - ⟦{勉強|べんきょう}→勉強：00770_benkyou⟧できる (can study), ⟦{運転|うんてん}→運転：01335_unten⟧できる (can drive). For such verbs this is preferred over the longer ⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧できる.",
   "cross_references": [
     {
       "type": "related",
@@ -230,11 +230,25 @@
       "reading": "かのう",
       "headword": "{可能|かのう}",
       "label": "possible (noun/na-adjective, formal)"
+    },
+    {
+      "type": "related",
+      "target_id": "03144_fukanou",
+      "reading": "ふかのう",
+      "headword": "{不可能|ふかのう}",
+      "label": "impossible, impossibility"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06957_ikeru",
+      "reading": "いける",
+      "headword": "いける",
+      "label": "to be doable"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:06:21Z",
-    "modified": "2026-08-10T21:19:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

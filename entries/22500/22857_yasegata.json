@@ -3,7 +3,7 @@
   "headword": "やせ{形|がた}",
   "reading": "やせがた",
   "romaji": "yasegata",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "slender build; thin body type",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "A compound of やせ (thin, from {痩|や}せる) and {形|がた} (type, build). Describes a person's natural body constitution rather than a temporary state of thinness.\n\nCOMMON COLLOCATIONS:\n- やせ{形|がた}の{人|ひと}: a person with a thin build\n- やせ{形|がた}の{体型|たいけい}: a slender body type\n\nRELATED BODY TYPE TERMS:\n- {太|ふと}り{形|がた}: heavy-set build, stout body type\n- {中肉中背|ちゅうにくちゅうぜい}: average build and height\n- がっしり{形|がた}: sturdy, solid build\n- {小柄|こがら}: small-framed, petite\n\nSIMILAR WORDS:\n- {痩|や}せ{型|がた}: same word written with the kanji for やせ\n- スリム: slim — a loanword, often used as a compliment\n- ほっそり: slender — an adverb/adjective describing a graceful thinness",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12362_kogara",
+      "reading": "こがら",
+      "headword": "{小柄|こがら}",
+      "label": "small-framed, petite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21695_surimu",
+      "reading": "すりむ",
+      "headword": "スリム",
+      "label": "slim"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,12 +69,13 @@
         "noun",
         "adjective-no"
       ],
+      "politeness": "plain",
       "semantic": [
         "appearance",
         "descriptive"
       ]
     },
     "created": "2026-04-07T18:27:29Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

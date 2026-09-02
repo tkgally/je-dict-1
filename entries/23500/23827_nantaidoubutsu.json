@@ -45,7 +45,36 @@
     }
   ],
   "notes": "Compound of {軟体|なんたい} ('soft body') and {動物|どうぶつ} ('animal'). A literal calque of the Latin-derived scientific term 'Mollusca'.\n\nUSAGE:\n- Primarily a biological classification term used in textbooks, science articles, and nature programs.\n- Figuratively, {軟体動物|なんたいどうぶつ}のよう ('like a mollusk') is sometimes used to describe a person who looks limp, boneless, or lethargic — e.g., slumped over a desk.\n- The phylum is one of the major divisions taught alongside {節足動物|せっそくどうぶつ} ('arthropods'), {脊椎動物|せきついどうぶつ} ('vertebrates'), etc.\n\nCOMMON COLLOCATIONS:\n- {軟体動物|なんたいどうぶつ}に{分類|ぶんるい}される: to be classified as a mollusk\n- {軟体動物|なんたいどうぶつ}の{仲間|なかま}: members of the mollusk family\n- {軟体動物|なんたいどうぶつ}{門|もん}: phylum Mollusca (taxonomic)\n- {軟体動物|なんたいどうぶつ}のよう: like a mollusk (limp, boneless)\n\nSIMILAR WORDS:\n- {節足動物|せっそくどうぶつ}: arthropod — the phylum including insects, spiders, and crustaceans; often contrasted in biology lessons.\n- {脊椎動物|せきついどうぶつ}: vertebrate — animals with a backbone.\n- {貝類|かいるい}: shellfish — everyday category covering shelled mollusks (clams, oysters, snails); narrower than {軟体動物|なんたいどうぶつ}.\n- {頭足類|とうそくるい}: cephalopod — a class within the mollusks that includes octopuses and squid.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27745_sessokudoubutsu",
+      "reading": "せっそくどうぶつ",
+      "headword": "{節足|せっそく}{動物|どうぶつ}",
+      "label": "arthropod"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27744_sekitsuidoubutsu",
+      "reading": "せきついどうぶつ",
+      "headword": "{脊椎|せきつい}{動物|どうぶつ}",
+      "label": "vertebrate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22541_kairui",
+      "reading": "かいるい",
+      "headword": "{貝類|かいるい}",
+      "label": "shellfish"
+    },
+    {
+      "type": "related",
+      "target_id": "20910_koukakurui",
+      "reading": "こうかくるい",
+      "headword": "{甲殻類|こうかくるい}",
+      "label": "crustaceans"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +90,6 @@
       ]
     },
     "created": "2026-04-15T04:05:53Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "29614_seishi_ex1",
       "japanese": "{正史|せいし}に{名|な}を{残|のこ}す。",
       "english": "To leave one's name in official history.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29614_seishi_ex2",
       "japanese": "その{事件|じけん}は{正史|せいし}には{書|か}かれていない。",
       "english": "That incident is not recorded in the official history.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "29614_seishi_ex3",
       "japanese": "{歴史|れきし}{学者|がくしゃ}は{正史|せいし}と{伝説|でんせつ}を{慎重|しんちょう}に{区別|くべつ}する。",
       "english": "Historians carefully distinguish between official history and legend.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -46,19 +52,44 @@
       "reading": "しき",
       "headword": "{史記|しき}",
       "label": "Records of the Grand Historian"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29632_yashi",
+      "reading": "やし",
+      "headword": "{野史|やし}",
+      "label": "unofficial history"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02267_rekishi",
+      "reading": "れきし",
+      "headword": "{歴史|れきし}",
+      "label": "history"
+    },
+    {
+      "type": "related",
+      "target_id": "29591_kanjo",
+      "reading": "かんじょ",
+      "headword": "{漢書|かんじょ}",
+      "label": "Book of Han (Chinese history classic)"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["history"],
+      "politeness": "plain",
+      "semantic": [
+        "history"
+      ],
       "domain": []
     },
     "created": "2026-07-01T18:18:59Z",
-    "modified": "2026-07-01T18:18:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

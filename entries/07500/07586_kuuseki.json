@@ -78,7 +78,7 @@
       "notes": null
     }
   ],
-  "notes": "WORD STRUCTURE:\n{空|くう} (empty, vacant) + {席|せき} (seat)\n\nCOMMON COLLOCATIONS:\n・{空席|くうせき}がある - there is an empty seat\n・{空席|くうせき}を{探|さが}す - to look for an empty seat\n・{空席|くうせき}{待|ま}ち - waiting for a seat/vacancy\n・{空席|くうせき}{状況|じょうきょう} - seat availability\n\nANTONYM:\n・{満席|まんせき} - fully booked, no seats available\n\nRELATED WORDS:\n・{空|あ}き{席|せき} - empty seat (same meaning, different reading)\n・{空|あ}き - vacancy, opening\n・{欠員|けついん} - vacancy (in personnel)",
+  "notes": "ETYMOLOGY:\n{空|くう} (empty, vacant) + {席|せき} (seat)\n\nCOMMON COLLOCATIONS:\n- {空席|くうせき}がある - there is an empty seat\n- {空席|くうせき}を{探|さが}す - to look for an empty seat\n- {空席|くうせき}{待|ま}ち - waiting for a seat/vacancy\n- {空席|くうせき}{状況|じょうきょう} - seat availability\n\nSIMILAR WORDS:\n- {満席|まんせき} - fully booked, no seats available\n\nRELATED WORDS:\n- {空|あ}き{席|せき} - empty seat (same meaning, different reading)\n- {空|あ}き - vacancy, opening\n- {欠員|けついん} - vacancy (in personnel)",
   "cross_references": [
     {
       "type": "antonym",
@@ -93,11 +93,25 @@
       "reading": "まんいん",
       "headword": "{満員|まんいん}",
       "label": "full capacity (general)"
+    },
+    {
+      "type": "related",
+      "target_id": "10464_aki",
+      "reading": "あき",
+      "headword": "{空|あ}き",
+      "label": "vacancy, opening"
+    },
+    {
+      "type": "related",
+      "target_id": "14787_ketsuin",
+      "reading": "けついん",
+      "headword": "{欠員|けついん}",
+      "label": "vacancy"
     }
   ],
   "metadata": {
     "created": "2026-01-20T10:31:31Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -105,6 +119,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "quantity",
         "general"

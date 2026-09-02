@@ -3,7 +3,7 @@
   "headword": "マーキング",
   "reading": "まーきんぐ",
   "romaji": "maakingu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "marking; marking out; territory marking",
   "definitions": [
     {
@@ -81,6 +81,29 @@
   ],
   "notes": "Loanword from English 'marking'. Used as a noun and productively with する to form a verb: マーキングする ('to mark').\n\nUSAGE:\n- Sense 1 covers any kind of identifying or distinguishing mark — a written note, a sticker, a stamp, a paint mark, or a highlight in a document.\n- Sense 2 is the animal-behavior meaning, common in discussions of pet behavior and training.\n- As a verb, takes を for the thing being marked: {部品|ぶひん}をマーキングする, {本|ほん}をマーキングする.\n\nCOMMON COLLOCATIONS (sense 1):\n- マーキングをする / マーキングする: to mark\n- マーキング{作業|さぎょう}: marking work / marking operation\n- {部品|ぶひん}にマーキングする: to mark a part\n- {製品|せいひん}のマーキング: product marking / labeling\n\nCOMMON COLLOCATIONS (sense 2):\n- マーキングする{習性|しゅうせい}: the habit of territorial marking\n- マーキング{行動|こうどう}: marking behavior\n- おしっこでマーキングする: to mark with urine\n\nSIMILAR WORDS:\n- {印|しるし}をつける: to put a mark on — a more neutral native Japanese expression, often interchangeable with マーキングする in sense 1.\n- {目印|めじるし}: a marker; a visible landmark — the object used for marking, rather than the act itself.\n- {縄張|なわば}り: (animal's) territory — the territory itself, which marking is used to claim.\n- {刻印|こくいん}: stamp; engraved mark — typically impressed or engraved into a surface, more permanent than a general マーキング.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15923_mejirushi",
+      "reading": "めじるし",
+      "headword": "{目印|めじるし}",
+      "label": "a marker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09337_nawabari",
+      "reading": "なわばり",
+      "headword": "{縄張|なわば}り",
+      "label": "(animal's) territory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29469_kokuin",
+      "reading": "こくいん",
+      "headword": "{刻印|こくいん}",
+      "label": "stamp"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -96,7 +119,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-15T15:57:49Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

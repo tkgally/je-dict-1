@@ -18,7 +18,9 @@
       "english": "I'm busy with exam preparation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09977_jukenbenkyou_ex2",
@@ -26,7 +28,9 @@
       "english": "I'm studying for exams until late at night every day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09977_jukenbenkyou_ex3",
@@ -34,21 +38,49 @@
       "english": "I retired from club activities to focus on exam preparation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{受験勉強|じゅけんべんきょう} is a compound of {受験|じゅけん} (taking an exam) and {勉強|べんきょう} (studying).\n\nCULTURAL CONTEXT:\nJapan has a highly competitive entrance exam system, and {受験勉強|じゅけんべんきょう} often involves intensive studying at cram schools ({塾|じゅく}).\n\nRELATED TERMS:\n- {受験生|じゅけんせい}: exam student/applicant\n- {入試|にゅうし}: entrance examination\n- {志望校|しぼうこう}: desired school\n\nCOMMON PERIODS:\n- {中学|ちゅうがく}{受験|じゅけん}: junior high school entrance exams\n- {高校|こうこう}{受験|じゅけん}: high school entrance exams\n- {大学|だいがく}{受験|じゅけん}: university entrance exams",
-  "cross_references": [],
+  "notes": "{受験勉強|じゅけんべんきょう} is a compound of {受験|じゅけん} (taking an exam) and {勉強|べんきょう} (studying).\n\nCULTURAL NOTE:\nJapan has a highly competitive entrance exam system, and {受験勉強|じゅけんべんきょう} often involves intensive studying at cram schools ({塾|じゅく}).\n\nRELATED WORDS:\n- {受験生|じゅけんせい}: exam student/applicant\n- {入試|にゅうし}: entrance examination\n- {志望校|しぼうこう}: desired school\n\nCOMMON PERIODS:\n- {中学|ちゅうがく}{受験|じゅけん}: junior high school entrance exams\n- {高校|こうこう}{受験|じゅけん}: high school entrance exams\n- {大学|だいがく}{受験|じゅけん}: university entrance exams",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18622_jukensei",
+      "reading": "じゅけんせい",
+      "headword": "{受験生|じゅけんせい}",
+      "label": "exam student/applicant"
+    },
+    {
+      "type": "related",
+      "target_id": "04705_nyuushi",
+      "reading": "にゅうし",
+      "headword": "{入試|にゅうし}",
+      "label": "entrance examination"
+    },
+    {
+      "type": "related",
+      "target_id": "18904_shiboukou",
+      "reading": "しぼうこう",
+      "headword": "{志望校|しぼうこう}",
+      "label": "desired school"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T12:05:42Z",
-    "modified": "2026-02-04T12:05:42Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

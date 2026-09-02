@@ -3,7 +3,7 @@
   "id": "20867_kizoku",
   "headword": "{帰属|きぞく}",
   "reading": "きぞく",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "belonging, attribution, affiliation",
   "conjugation": {
     "type": "suru",
@@ -170,10 +170,32 @@
     }
   ],
   "notes": "A formal word used in legal, business, and psychological contexts. Sense 1 (attribution/ownership) appears frequently in contracts and legal documents. Sense 2 ({帰属|きぞく}{意識|いしき}, sense of belonging) is common in HR and organizational discussions.\n\nCOMMON COLLOCATIONS:\n- ～に{帰属|きぞく}する: to belong to, to be attributed to\n- {帰属|きぞく}{意識|いしき}: sense of belonging\n- {帰属|きぞく}{先|さき}: where something belongs/is attributed\n- {権利|けんり}の{帰属|きぞく}: attribution of rights\n- {領土|りょうど}の{帰属|きぞく}: territorial sovereignty\n\nSIMILAR WORDS:\n- {所属|しょぞく}: affiliation, membership — concrete organizational membership (e.g., belonging to a department or team)\n- {隷属|れいぞく}: subordination, servitude — being under someone's control in a subservient way\n- {所有|しょゆう}: ownership, possession — focuses on having/owning something rather than attribution",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12750_shozoku",
+      "reading": "しょぞく",
+      "headword": "{所属|しょぞく}",
+      "label": "affiliation, membership"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20868_reizoku",
+      "reading": "れいぞく",
+      "headword": "{隷属|れいぞく}",
+      "label": "subordination, servitude"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12752_shoyuu",
+      "reading": "しょゆう",
+      "headword": "{所有|しょゆう}",
+      "label": "ownership, possession"
+    }
+  ],
   "metadata": {
     "created": "2026-03-30T19:07:35Z",
-    "modified": "2026-03-30T19:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

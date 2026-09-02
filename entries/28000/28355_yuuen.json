@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Bound form used in compounds rather than as a standalone word. The everyday word for an amusement park is {遊園地|ゆうえんち}.\n\nCOMMON COMPOUNDS:\n- {遊園地|ゆうえんち}: amusement park\n- {遊園|ゆうえん}{施設|しせつ}: amusement facility\n- {遊園|ゆうえん}{地区|ちく}: amusement district\n\nSIMILAR WORDS:\n- {公園|こうえん}: park — general public park, not for rides or attractions\n- テーマパーク: theme park — larger, themed entertainment complex",
+  "notes": "Bound form used in compounds rather than as a standalone word. The everyday word for an amusement park is {遊園地|ゆうえんち}.\n\nCOMPOUNDS:\n- {遊園地|ゆうえんち}: amusement park\n- {遊園|ゆうえん}{施設|しせつ}: amusement facility\n- {遊園|ゆうえん}{地区|ちく}: amusement district\n\nSIMILAR WORDS:\n- {公園|こうえん}: park — general public park, not for rides or attractions\n- テーマパーク: theme park — larger, themed entertainment complex",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00581_kouen",
+      "reading": "こうえん",
+      "headword": "{公園|こうえん}",
+      "label": "park"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28062_teemapaaku",
+      "reading": "てーまぱーく",
+      "headword": "テーマパーク",
+      "label": "theme park"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "leisure"
       ],
       "domain": []
     },
     "created": "2026-05-29T04:09:30Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

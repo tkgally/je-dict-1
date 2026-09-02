@@ -3,7 +3,7 @@
   "headword": "{並立|へいりつ}",
   "reading": "へいりつ",
   "romaji": "heiritsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "coexistence; standing side by side; juxtaposition",
   "definitions": [
     {
@@ -45,6 +45,22 @@
     }
   ],
   "notes": "Describes the state of two or more things existing or standing alongside each other on equal footing. Combines {並|へい} (lined up, side by side) and {立|りつ} (stand).\n\nUSAGE:\n- Used with する: {並立|へいりつ}する (to coexist, to stand side by side)\n- Often used for abstract concepts that exist simultaneously: opinions, systems, values\n- Also used as a grammatical term: {並立|へいりつ}{助詞|じょし} (coordinating particle, e.g., と, や)\n- Implies that the coexisting items are on equal terms, not that one dominates\n\nCOMMON COLLOCATIONS:\n- {並立|へいりつ}する: to coexist, to stand together\n- {並立|へいりつ}{関係|かんけい}: parallel relationship\n- {並立|へいりつ}{助詞|じょし}: coordinating particle (grammar term)\n- {並立|へいりつ}が{難|むずか}しい: difficult to have side by side\n\nSIMILAR WORDS:\n- {共存|きょうぞん}: coexistence — emphasizes living together harmoniously\n- {両立|りょうりつ}: compatibility, achieving both — emphasizes making two things work at the same time\n- {併存|へいぞん}: coexistence — very similar, but more formal and used for systems or conditions",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11675_kyouzon",
+      "reading": "きょうぞん",
+      "headword": "{共存|きょうぞん}",
+      "label": "coexistence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11310_ryouritsu",
+      "reading": "りょうりつ",
+      "headword": "{両立|りょうりつ}",
+      "label": "compatibility, achieving both"
+    }
+  ],
   "metadata": {
     "entry_id": "21720_heiritsu",
     "schema_version": "2.0",
@@ -56,6 +72,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "existence"
       ],
@@ -65,7 +82,7 @@
       "usage": [],
       "verb_class": "suru"
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

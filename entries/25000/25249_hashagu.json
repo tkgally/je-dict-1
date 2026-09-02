@@ -56,12 +56,37 @@
   ],
   "notes": "A godan verb describing noisy, energetic excitement — the kind of exuberant behavior typical of children at play. When used about adults, it often carries a tone of gentle criticism or self-deprecation, suggesting they are acting more excitedly than the situation calls for.\n\nCOMMON COLLOCATIONS:\n- はしゃぎすぎる: to get too carried away\n- はしゃぎ{回|まわ}る: to romp around\n- はしゃいだ{声|こえ}: excited voices\n- はしゃぎ{声|ごえ}: boisterous voices\n\nSIMILAR WORDS:\n- {騒|さわ}ぐ: to make noise or cause a commotion; more disruptive and less playful than はしゃぐ\n- {浮|う}かれる: to be in high spirits or carried away by excitement; focuses on the internal feeling rather than outward noisy behavior\n- ふざける: to joke around or fool around; implies deliberate silliness rather than spontaneous excitement",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01195_sawagu",
+      "reading": "さわぐ",
+      "headword": "{騒|さわ}ぐ",
+      "label": "to make noise or cause a commotion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09914_ukareru",
+      "reading": "うかれる",
+      "headword": "{浮|う}かれる",
+      "label": "to be in high spirits or carried away…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09309_fuzakeru",
+      "reading": "ふざける",
+      "headword": "ふざける",
+      "label": "to joke around or fool around"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "verb-godan"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "action"
@@ -69,7 +94,7 @@
       "verb_class": "godan-gu"
     },
     "created": "2026-04-24T12:10:55Z",
-    "modified": "2026-04-24T12:10:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

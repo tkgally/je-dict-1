@@ -17,7 +17,9 @@
       "id": "29456_jusuisou_ex1",
       "japanese": "{受水槽|じゅすいそう}を{掃除|そうじ}する。",
       "english": "to clean the water tank.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29456_jusuisou_ex2",
       "japanese": "ビルの{屋上|おくじょう}に{大|おお}きな{受水槽|じゅすいそう}がある。",
       "english": "There is a large water tank on the roof of the building.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,40 @@
       "id": "29456_jusuisou_ex3",
       "japanese": "{受水槽|じゅすいそう}は{年|ねん}に{一回|いっかい}の{点検|てんけん}が{義務|ぎむ}づけられている。",
       "english": "Water receiving tanks are required to be inspected once a year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Part of a building's water-supply system; subject to legally mandated cleaning and inspection in Japan.\n\nCOMMON COLLOCATIONS:\n- {受水槽|じゅすいそう}の{清掃|せいそう}: cleaning of the water tank\n- {受水槽|じゅすいそう}の{点検|てんけん}: inspection of the water tank\n- {受水槽|じゅすいそう}に{水|みず}をためる: to store water in the tank\n\nSIMILAR WORDS:\n- {高架水槽|こうかすいそう}: elevated tank — set on the roof, supplying water by gravity\n- {貯水槽|ちょすいそう}: cistern — a general term covering any water-storage tank",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15577_chosuisou",
+      "reading": "ちょすいそう",
+      "headword": "{貯水槽|ちょすいそう}",
+      "label": "cistern"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["tool"],
-      "domain": ["technical"]
+      "politeness": "plain",
+      "semantic": [
+        "tool"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-06-24T00:19:16Z",
-    "modified": "2026-06-24T00:19:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

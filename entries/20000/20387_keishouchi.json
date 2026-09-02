@@ -17,7 +17,9 @@
       "id": "20387_keishouchi_ex1",
       "japanese": "ここは{有名|ゆうめい}な{景勝地|けいしょうち}だ。",
       "english": "This is a famous scenic spot.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20387_keishouchi_ex2",
       "japanese": "{日本|にほん}には{多|おお}くの{景勝地|けいしょうち}がある。",
       "english": "Japan has many places of scenic beauty.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,59 @@
       "id": "20387_keishouchi_ex3",
       "japanese": "この{湖|みずうみ}は{国|くに}の{名勝|めいしょう}に{指定|してい}された{景勝地|けいしょうち}として{知|し}られている。",
       "english": "This lake is known as a scenic spot designated as a national place of scenic beauty.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A somewhat formal word used in travel writing, tourism, and official designations. It emphasizes natural beauty rather than historical or cultural significance.\n\nFORMATION:\n{景勝|けいしょう} (scenic beauty) + {地|ち} (place)\n\nCOMMON COLLOCATIONS:\n- {景勝地|けいしょうち}を{巡|めぐ}る: to tour scenic spots\n- {有名|ゆうめい}な{景勝地|けいしょうち}: a famous scenic spot\n- {景勝地|けいしょうち}に{指定|してい}される: to be designated a scenic area\n- {自然|しぜん}の{景勝地|けいしょうち}: a natural scenic spot\n\nSIMILAR WORDS:\n- {名所|めいしょ}: famous place — broader, includes historical and cultural sites as well as scenic ones\n- {絶景|ぜっけい}: breathtaking view — describes the view itself, not the location\n- {名勝|めいしょう}: scenic site — an official designation for nationally protected scenic places; more formal and administrative",
+  "notes": "A somewhat formal word used in travel writing, tourism, and official designations. It emphasizes natural beauty rather than historical or cultural significance.\n\nFORMS:\n{景勝|けいしょう} (scenic beauty) + {地|ち} (place)\n\nCOMMON COLLOCATIONS:\n- {景勝地|けいしょうち}を{巡|めぐ}る: to tour scenic spots\n- {有名|ゆうめい}な{景勝地|けいしょうち}: a famous scenic spot\n- {景勝地|けいしょうち}に{指定|してい}される: to be designated a scenic area\n- {自然|しぜん}の{景勝地|けいしょうち}: a natural scenic spot\n\nSIMILAR WORDS:\n- {名所|めいしょ}: famous place — broader, includes historical and cultural sites as well as scenic ones\n- {絶景|ぜっけい}: breathtaking view — describes the view itself, not the location\n- {名勝|めいしょう}: scenic site — an official designation for nationally protected scenic places; more formal and administrative",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08164_meisho",
+      "reading": "めいしょ",
+      "headword": "{名所|めいしょ}",
+      "label": "famous place"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16835_zekkei",
+      "reading": "ぜっけい",
+      "headword": "{絶景|ぜっけい}",
+      "label": "breathtaking view"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12059_meishou",
+      "reading": "めいしょう",
+      "headword": "{名勝|めいしょう}",
+      "label": "scenic site"
+    },
+    {
+      "type": "related",
+      "target_id": "20956_zekkeisupotto",
+      "reading": "ぜっけいすぽっと",
+      "headword": "{絶景|ぜっけい}スポット",
+      "label": "scenic viewpoint"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["travel", "nature"]
+      "semantic": [
+        "travel",
+        "nature"
+      ]
     },
     "created": "2026-03-29T12:11:21Z",
-    "modified": "2026-03-29T12:11:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

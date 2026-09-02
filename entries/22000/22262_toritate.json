@@ -22,7 +22,9 @@
       "id": "22262_toritate_ex1",
       "japanese": "{借金|しゃっきん}の{取|と}り{立|た}てが{厳|きび}しい。",
       "english": "The debt collection is harsh.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "22262_toritate_ex2",
       "japanese": "{毎日|まいにち}{取|と}り{立|た}ての{電話|でんわ}がかかってくる。",
       "english": "Collection calls come every day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "22262_toritate_ex3",
       "japanese": "{闇金|やみきん}の{取|と}り{立|た}てに{悩|なや}まされている{人|ひと}が{多|おお}い。",
       "english": "Many people are troubled by collection from loan sharks.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "22262_toritate_ex4",
       "japanese": "{取|と}り{立|た}ての{野菜|やさい}は{美味|おい}しい。",
       "english": "Freshly picked vegetables are delicious.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "22262_toritate_ex5",
       "japanese": "{取|と}り{立|た}ての{魚|さかな}を{刺身|さしみ}にする。",
       "english": "To make sashimi from freshly caught fish.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,45 @@
       "id": "22262_toritate_ex6",
       "japanese": "{朝|あさ}{取|と}り{立|た}てのトマトは{香|かお}りが{違|ちが}う。",
       "english": "Tomatoes freshly picked in the morning have a different aroma.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Has two distinct meanings that are easily distinguished by context. Sense 1 (debt collection) appears in financial and legal contexts, while sense 2 (freshness) appears with food and agricultural products.\n\nSENSE 1 — COLLECTION:\n- {取|と}り{立|た}て{屋|や}: debt collector\n- {取|と}り{立|た}てが{来|く}る: the collector comes\n- {厳|きび}しい{取|と}り{立|た}て: harsh collection\n\nSENSE 2 — FRESHNESS:\nUsed as a modifier before nouns with の: {取|と}り{立|た}ての{魚|さかな}, {取|と}り{立|た}ての{卵|たまご}. This sense is always positive, emphasizing just-harvested quality.\n\nSIMILAR WORDS:\n- {回収|かいしゅう}: recovery, collection — more formal, broader usage\n- {新鮮|しんせん}: fresh — describes the quality itself, not the act of harvesting\n- {採|と}れたて: freshly harvested — similar to sense 2 but more casual\n\nFORMATION:\n{取|と}り{立|た}てる (to collect; to appoint) → {取|と}り{立|た}て (noun form)",
+  "notes": "Has two distinct meanings that are easily distinguished by context. Sense 1 (debt collection) appears in financial and legal contexts, while sense 2 (freshness) appears with food and agricultural products.\n\nSENSE 1 — COLLECTION:\n- {取|と}り{立|た}て{屋|や}: debt collector\n- {取|と}り{立|た}てが{来|く}る: the collector comes\n- {厳|きび}しい{取|と}り{立|た}て: harsh collection\n\nSENSE 2 — FRESHNESS:\nUsed as a modifier before nouns with の: {取|と}り{立|た}ての{魚|さかな}, {取|と}り{立|た}ての{卵|たまご}. This sense is always positive, emphasizing just-harvested quality.\n\nSIMILAR WORDS:\n- {回収|かいしゅう}: recovery, collection — more formal, broader usage\n- {新鮮|しんせん}: fresh — describes the quality itself, not the act of harvesting\n- {採|と}れたて: freshly harvested — similar to sense 2 but more casual\n\nFORMS:\n{取|と}り{立|た}てる (to collect; to appoint) → {取|と}り{立|た}て (noun form)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03019_kaishuu",
+      "reading": "かいしゅう",
+      "headword": "{回収|かいしゅう}",
+      "label": "recovery, collection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03261_shinsen",
+      "reading": "しんせん",
+      "headword": "{新鮮|しんせん}",
+      "label": "fresh"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["finance", "food"]
+      "semantic": [
+        "finance",
+        "food"
+      ]
     },
     "created": "2026-04-05T16:25:56Z",
-    "modified": "2026-04-05T16:25:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

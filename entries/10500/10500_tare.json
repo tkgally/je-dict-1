@@ -19,7 +19,9 @@
       "english": "To dip in sauce.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10500_tare_ex2",
@@ -27,7 +29,9 @@
       "english": "For the yakitori, would you like sauce or salt?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10500_tare_ex3",
@@ -35,7 +39,9 @@
       "english": "Apparently this shop has been adding to and using the same secret sauce for decades.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "WRITING:\nUsually written in katakana as タレ, sometimes in hiragana as たれ. The kanji {垂|た}れ exists but is rarely used for this meaning.\n\nUSAGE:\nタレ is a general term for dipping sauces and glazes in Japanese cooking. It is distinct from ソース (Western-style sauce) and {醤油|しょうゆ} (soy sauce).\n\nCOMMON COLLOCATIONS:\n- {焼肉|やきにく}のタレ: yakiniku sauce\n- {焼|や}き{鳥|とり}のタレ: yakitori glaze\n- タレをかける: to pour sauce over\n- {秘伝|ひでん}のタレ: secret sauce recipe",
@@ -46,18 +52,36 @@
       "reading": "そーす",
       "headword": "ソース",
       "label": "Western-style sauce"
+    },
+    {
+      "type": "related",
+      "target_id": "23096_dippu",
+      "reading": "でぃっぷ",
+      "headword": "ディップ",
+      "label": "dip"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29653_dippusoosu",
+      "reading": "でぃっぷそーす",
+      "headword": "ディップソース",
+      "label": "dipping sauce"
     }
   ],
   "metadata": {
     "created": "2026-02-07T23:54:21Z",
-    "modified": "2026-04-24T07:04:04Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food-cooking"]
+      "semantic": [
+        "food-cooking"
+      ]
     }
   }
 }

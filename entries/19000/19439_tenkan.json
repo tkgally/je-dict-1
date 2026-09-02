@@ -2,7 +2,7 @@
   "id": "19439_tenkan",
   "headword": "{転換|てんかん}",
   "reading": "てんかん",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "conversion, shift, change",
   "conjugation": {
     "type": "suru",
@@ -143,7 +143,7 @@
       ]
     }
   ],
-  "notes": "{転換|てんかん} refers to a significant change or shift in direction, approach, or state.\n\nCOMMON COMPOUNDS:\n- {気分|きぶん}{転換|てんかん} (change of mood/pace)\n- {方向|ほうこう}{転換|てんかん} (change of direction)\n- {路線|ろせん}{転換|てんかん} (change of course/policy)\n- {配置|はいち}{転換|てんかん} (reassignment, redeployment)\n- {転換|てんかん}{点|てん} (turning point)\n- {発想|はっそう}の{転換|てんかん} (shift in thinking)\n\nUSAGE:\n- Often used with する as a suru verb: {転換|てんかん}する (to convert, to shift)\n- Implies a deliberate or significant change, not a minor adjustment\n- {気分|きぶん}{転換|てんかん} is one of the most common everyday uses",
+  "notes": "{転換|てんかん} refers to a significant change or shift in direction, approach, or state.\n\nCOMPOUNDS:\n- {気分|きぶん}{転換|てんかん} (change of mood/pace)\n- {方向|ほうこう}{転換|てんかん} (change of direction)\n- {路線|ろせん}{転換|てんかん} (change of course/policy)\n- {配置|はいち}{転換|てんかん} (reassignment, redeployment)\n- {転換|てんかん}{点|てん} (turning point)\n- {発想|はっそう}の{転換|てんかん} (shift in thinking)\n\nUSAGE:\n- Often used with する as a suru verb: {転換|てんかん}する (to convert, to shift)\n- Implies a deliberate or significant change, not a minor adjustment\n- {気分|きぶん}{転換|てんかん} is one of the most common everyday uses",
   "cross_references": [
     {
       "target_id": "06839_gyakuten",
@@ -151,11 +151,32 @@
       "headword": "{逆転|ぎゃくてん}",
       "label": "reversal, comeback",
       "type": "contrast"
+    },
+    {
+      "type": "related",
+      "target_id": "09890_henkansuru",
+      "reading": "へんかんする",
+      "headword": "{変換|へんかん}する",
+      "label": "to convert"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19314_tenkou",
+      "reading": "てんこう",
+      "headword": "{転向|てんこう}",
+      "label": "conversion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20997_henkasuru",
+      "reading": "へんかする",
+      "headword": "{変化|へんか}する",
+      "label": "to change"
     }
   ],
   "metadata": {
     "created": "2026-03-25T14:40:00Z",
-    "modified": "2026-08-08T15:27:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

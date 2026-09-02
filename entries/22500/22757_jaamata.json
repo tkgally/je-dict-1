@@ -17,7 +17,9 @@
       "id": "22757_jaamata_ex1",
       "japanese": "じゃあまた{明日|あした}。",
       "english": "See you tomorrow, then.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22757_jaamata_ex2",
       "japanese": "じゃあまたね。{気|き}をつけてね。",
       "english": "See you later. Take care.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "22757_jaamata_ex3",
       "japanese": "{楽|たの}しかったよ。じゃあまた{今度|こんど}{遊|あそ}ぼう。",
       "english": "That was fun. Well then, let's hang out again sometime.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A very common informal goodbye. Composed of じゃあ ('well then') and また ('again'). Often followed by a time expression: じゃあまた{明日|あした} ('see you tomorrow'), じゃあまた{来週|らいしゅう} ('see you next week'). Adding ね at the end (じゃあまたね) makes it softer and more friendly.\n\nVARIATIONS:\n- じゃあまたね: see you later (softer, friendlier)\n- じゃあね: bye then (shorter, very casual)\n- ではまた: see you later (slightly more formal)\n- じゃ、また: same meaning, sometimes written with a comma\n\nSIMILAR EXPRESSIONS:\n- またね: see you — even more casual shortening\n- さようなら: goodbye — formal; carries a more final, distant nuance\n- バイバイ: bye-bye — very casual, often used by younger speakers\n- お{疲|つか}れさまでした: good work / goodbye — used when leaving a workplace",
+  "notes": "A very common informal goodbye. Composed of じゃあ ('well then') and また ('again'). Often followed by a time expression: じゃあまた{明日|あした} ('see you tomorrow'), じゃあまた{来週|らいしゅう} ('see you next week'). Adding ね at the end (じゃあまたね) makes it softer and more friendly.\n\nFORMS:\n- じゃあまたね: see you later (softer, friendlier)\n- じゃあね: bye then (shorter, very casual)\n- ではまた: see you later (slightly more formal)\n- じゃ、また: same meaning, sometimes written with a comma\n\nSIMILAR WORDS:\n- またね: see you — even more casual shortening\n- さようなら: goodbye — formal; carries a more final, distant nuance\n- バイバイ: bye-bye — very casual, often used by younger speakers\n- お{疲|つか}れさまでした: good work / goodbye — used when leaving a workplace",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05306_matane",
+      "reading": "またね",
+      "headword": "またね",
+      "label": "see you"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10531_sayounara",
+      "reading": "さようなら",
+      "headword": "さようなら",
+      "label": "goodbye"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04336_baibai",
+      "reading": "ばいばい",
+      "headword": "{売買|ばいばい}",
+      "label": "bye-bye"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
-      "semantic": ["greeting"],
+      "pos": [
+        "expression"
+      ],
+      "semantic": [
+        "greeting"
+      ],
       "formality": "informal",
       "politeness": "plain"
     },
     "created": "2026-04-07T14:19:47Z",
-    "modified": "2026-04-07T14:19:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

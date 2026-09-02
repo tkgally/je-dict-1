@@ -17,7 +17,9 @@
       "id": "23050_kusabana_ex1",
       "japanese": "{庭|にわ}に{草花|くさばな}を{植|う}える。",
       "english": "To plant flowers in the garden.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23050_kusabana_ex2",
       "japanese": "{春|はる}になると{野原|のはら}に{草花|くさばな}が{咲|さ}き{始|はじ}める。",
       "english": "When spring comes, wildflowers begin to bloom in the fields.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "23050_kusabana_ex3",
       "japanese": "{祖父|そふ}は{毎日|まいにち}{草花|くさばな}の{手入|てい}れをするのが{楽|たの}しみだ。",
       "english": "My grandfather enjoys tending to his flowers every day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {草|くさ} (grass/plants) and {花|はな} (flowers). Emphasizes the combination of greenery and blossoms in a natural or garden setting.\n\nCOMMON COLLOCATIONS:\n- {草花|くさばな}を{育|そだ}てる: to grow flowers\n- {草花|くさばな}を{植|う}える: to plant flowers\n- {野|の}の{草花|くさばな}: wildflowers\n- {草花|くさばな}の{手入|てい}れ: tending flowers\n\nSIMILAR WORDS:\n- {花|はな}: flower — general term for any flower, including on trees\n- {植物|しょくぶつ}: plant — broader scientific/general term for all plants\n- {花卉|かき}: flowering plants — formal/technical term used in horticulture\n- {雑草|ざっそう}: weeds — unwanted plants growing in unwanted places",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03248_shokubutsu",
+      "reading": "しょくぶつ",
+      "headword": "{植物|しょくぶつ}",
+      "label": "plant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04996_zassou",
+      "reading": "ざっそう",
+      "headword": "{雑草|ざっそう}",
+      "label": "weeds"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21833_kaboku",
+      "reading": "かぼく",
+      "headword": "{花木|かぼく}",
+      "label": "flowering tree"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature"]
+      "semantic": [
+        "nature"
+      ]
     },
     "created": "2026-04-08T17:25:55Z",
-    "modified": "2026-04-08T17:25:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

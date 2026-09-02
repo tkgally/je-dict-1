@@ -17,7 +17,9 @@
       "id": "29832_tsuuchion_ex1",
       "japanese": "{通知音|つうちおん}を{消|け}す。",
       "english": "Turn off the notification sound.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29832_tsuuchion_ex2",
       "japanese": "メールの{通知音|つうちおん}が{鳴|な}った。",
       "english": "The email notification sound went off.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,59 @@
       "id": "29832_tsuuchion_ex3",
       "japanese": "{会議中|かいぎちゅう}は{通知音|つうちおん}が{鳴|な}らないように{設定|せってい}する。",
       "english": "I set it so that notification sounds don't play during meetings.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{通知|つうち} (notification) + {音|おん} (sound). Refers to the alert tone played by a phone or app.\n\nCOMMON COLLOCATIONS:\n- {通知音|つうちおん}を{消|け}す: to mute the notification sound\n- {通知音|つうちおん}を{変|か}える: to change the notification tone\n- {通知音|つうちおん}が{鳴|な}る: the notification sound plays",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06477_pusshutsuuchi",
+      "reading": "ぷっしゅつうち",
+      "headword": "プッシュ{通知|つうち}",
+      "label": "push notification"
+    },
+    {
+      "type": "related",
+      "target_id": "08040_chakushinon",
+      "reading": "ちゃくしんおん",
+      "headword": "{着信音|ちゃくしんおん}",
+      "label": "ringtone"
+    },
+    {
+      "type": "related",
+      "target_id": "22571_tsuuchisettei",
+      "reading": "つうちせってい",
+      "headword": "{通知設定|つうちせってい}",
+      "label": "notification settings"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24021_kidouon",
+      "reading": "きどうおん",
+      "headword": "{起動音|きどうおん}",
+      "label": "startup sound"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["daily-life"],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life"
+      ],
       "domain": []
     },
     "created": "2026-07-14T06:18:33Z",
-    "modified": "2026-07-14T06:18:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

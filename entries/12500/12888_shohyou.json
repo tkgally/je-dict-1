@@ -19,7 +19,9 @@
       "english": "I became interested after reading the book review in the newspaper.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12888_shohyou_ex2",
@@ -27,7 +29,9 @@
       "english": "Writing a book review involves a different kind of difficulty from reading a book.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12888_shohyou_ex3",
@@ -35,22 +39,59 @@
       "english": "That author's new work received high praise in reviews and is selling well.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA standard literary and publishing term. Major Japanese newspapers have dedicated {書評|しょひょう} sections, usually published weekly. Also common in academic contexts for scholarly book reviews.\n\nCOMMON COLLOCATIONS:\n- {書評|しょひょう}を{書|か}く: to write a book review\n- {書評|しょひょう}{欄|らん}: book review column/section\n- {書評|しょひょう}{家|か}: book reviewer, book critic\n\nSIMILAR WORDS:\n- レビュー: review (loanword, used for books, products, etc.)\n- {批評|ひひょう}: criticism, critique (broader, not limited to books)\n- {感想|かんそう}{文|ぶん}: personal impressions/essay (less formal, subjective)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11193_rebyuu",
+      "reading": "れびゅー",
+      "headword": "レビュー",
+      "label": "review"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03581_hihyou",
+      "reading": "ひひょう",
+      "headword": "{批評|ひひょう}",
+      "label": "criticism, critique"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19527_kansoubun",
+      "reading": "かんそうぶん",
+      "headword": "{感想文|かんそうぶん}",
+      "label": "personal impressions/essay"
+    },
+    {
+      "type": "related",
+      "target_id": "18443_ronpyou",
+      "reading": "ろんぴょう",
+      "headword": "{論評|ろんぴょう}",
+      "label": "criticism"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T12:48:44Z",
-    "modified": "2026-02-22T12:48:44Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

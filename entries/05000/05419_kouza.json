@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{口座|こうざ} is essential banking vocabulary. Composed of ⟦{口|こう}→口：noentry⟧ (mouth/opening) + ⟦{座|ざ}→座：noentry⟧ (seat/position).\n\nACCOUNT TYPES:\n- ⟦{普通|ふつう}→普通：01502_futsuu⟧{口座|こうざ}: savings account (most common)\n- ⟦{当座|とうざ}→当座：29548_touza⟧{口座|こうざ}: checking account (for businesses)\n- ⟦{定期|ていき}→定期：03538_teiki⟧⟦{預金|よきん}→預金：05420_yokin⟧{口座|こうざ}: fixed deposit account\n\nCOMMON PATTERNS:\n- {口座|こうざ}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧/⟦{開設|かいせつ}する→開設：14595_kaisetsu⟧: to open an account\n- {口座|こうざ}⟦を→を：00422_wo⟧⟦{閉|と}じる→閉じる：02303_tojiru⟧: to close an account\n- {口座|こうざ}⟦{番号|ばんごう}→番号：02939_bangou⟧: account number\n- {口座|こうざ}⟦{振替|ふりかえ}→振替：15942_furikae⟧: automatic bank transfer\n- {口座|こうざ}⟦{残高|ざんだか}→残高：05422_zandaka⟧: account balance\n\nHOMOPHONE:\nNot to be confused with ⟦{講座|こうざ}→講座：09790_kouza⟧ (course, lecture series).",
+  "notes": "{口座|こうざ} is essential banking vocabulary. Composed of ⟦{口|こう}→口：noentry⟧ (mouth/opening) + ⟦{座|ざ}→座：noentry⟧ (seat/position).\n\nACCOUNT TYPES:\n- ⟦{普通|ふつう}→普通：01502_futsuu⟧{口座|こうざ}: savings account (most common)\n- ⟦{当座|とうざ}→当座：29548_touza⟧{口座|こうざ}: checking account (for businesses)\n- ⟦{定期|ていき}→定期：03538_teiki⟧⟦{預金|よきん}→預金：05420_yokin⟧{口座|こうざ}: fixed deposit account\n\nCOMMON PATTERNS:\n- {口座|こうざ}⟦を→を：00422_wo⟧⟦{開|ひら}く→開く：01979_hiraku⟧/⟦{開設|かいせつ}する→開設：14595_kaisetsu⟧: to open an account\n- {口座|こうざ}⟦を→を：00422_wo⟧⟦{閉|と}じる→閉じる：02303_tojiru⟧: to close an account\n- {口座|こうざ}⟦{番号|ばんごう}→番号：02939_bangou⟧: account number\n- {口座|こうざ}⟦{振替|ふりかえ}→振替：15942_furikae⟧: automatic bank transfer\n- {口座|こうざ}⟦{残高|ざんだか}→残高：05422_zandaka⟧: account balance\n\nWATCH OUT:\nNot to be confused with ⟦{講座|こうざ}→講座：09790_kouza⟧ (course, lecture series).",
   "cross_references": [
     {
       "type": "related",
@@ -78,11 +78,39 @@
       "reading": "ぎんこう",
       "headword": "{銀行|ぎんこう}",
       "label": "bank"
+    },
+    {
+      "type": "related",
+      "target_id": "05058_ginkouin",
+      "reading": "ぎんこういん",
+      "headword": "{銀行員|ぎんこういん}",
+      "label": "bank employee"
+    },
+    {
+      "type": "related",
+      "target_id": "05422_zandaka",
+      "reading": "ざんだか",
+      "headword": "{残高|ざんだか}",
+      "label": "balance (of an account)"
+    },
+    {
+      "type": "related",
+      "target_id": "23203_furikomisaki",
+      "reading": "ふりこみさき",
+      "headword": "{振込先|ふりこみさき}",
+      "label": "transfer destination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23587_yokintsuuchou",
+      "reading": "よきんつうちょう",
+      "headword": "{預金通帳|よきんつうちょう}",
+      "label": "bankbook"
     }
   ],
   "metadata": {
     "created": "2026-01-16T06:00:17Z",
-    "modified": "2026-08-20T06:21:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -19,7 +19,9 @@
       "english": "I sat in the corner of the room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16361_sumikko_ex2",
@@ -27,7 +29,9 @@
       "english": "The cat is curled up in the corner.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16361_sumikko_ex3",
@@ -35,7 +39,9 @@
       "english": "There was a kid who always sat alone in the corner of the classroom.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{隅|すみ}っこ is a casual, diminutive form of {隅|すみ} (corner). The っこ suffix adds a sense of smallness and is common in informal speech.\n\nThe word has gained wider recognition through the popular San-X character franchise 「すみっコぐらし」(Sumikko Gurashi), which features characters who like to gather in corners.\n\nSIMILAR WORDS:\n- {隅|すみ}: corner — the standard, neutral form\n- {角|かど}: corner — refers to an outer corner or angle, while {隅|すみ} is an inner corner\n- {片隅|かたすみ}: a secluded corner — more literary",
@@ -47,17 +53,36 @@
       "note": "standard form"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02195_kado",
+      "reading": "かど",
+      "headword": "{角|かど}",
+      "label": "corner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13464_katasumi",
+      "reading": "かたすみ",
+      "headword": "{片隅|かたすみ}",
+      "label": "a secluded corner"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T02:32:43Z",
-    "modified": "2026-05-03T09:07:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["direction"]
+      "semantic": [
+        "direction"
+      ]
     }
   }
 }

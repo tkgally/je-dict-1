@@ -17,7 +17,9 @@
       "id": "26108_tourokubangou_ex1",
       "japanese": "{登録|とうろく}{番号|ばんごう}を{入力|にゅうりょく}してください。",
       "english": "Please enter your registration number.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26108_tourokubangou_ex2",
       "japanese": "{車|くるま}の{登録|とうろく}{番号|ばんごう}を{控|ひか}えておいた。",
       "english": "I noted down the car's registration number.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,37 @@
       "id": "26108_tourokubangou_ex3",
       "japanese": "{登録|とうろく}{番号|ばんごう}が{分|わ}からない{場合|ばあい}は、{窓口|まどぐち}にお{問|と}い{合|あ}わせください。",
       "english": "If you do not know your registration number, please inquire at the counter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {登録|とうろく} (registration) and {番号|ばんごう} (number). Used in administrative, governmental, and commercial contexts for any number assigned when something is officially registered.\n\nCOMMON COLLOCATIONS:\n- {登録|とうろく}{番号|ばんごう}を{確認|かくにん}する: to verify a registration number\n- {登録|とうろく}{番号|ばんごう}を{発行|はっこう}する: to issue a registration number\n- {車両|しゃりょう}{登録|とうろく}{番号|ばんごう}: vehicle registration number\n- {登録|とうろく}{番号|ばんごう}{順|じゅん}: in order of registration number\n\nSIMILAR WORDS:\n- {識別|しきべつ}{番号|ばんごう}: identification number — broader, any number used to identify something\n- {会員|かいいん}{番号|ばんごう}: membership number — specifically for club or organization membership\n- {受付|うけつけ}{番号|ばんごう}: reception number — a temporary number given at a counter or service window",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26114_shikibetsubangou",
+      "reading": "しきべつばんごう",
+      "headword": "{識別|しきべつ}{番号|ばんごう}",
+      "label": "identification number"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["politics"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "politics"
+      ]
     },
     "created": "2026-04-29T13:37:11Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

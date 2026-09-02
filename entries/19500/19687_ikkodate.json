@@ -17,7 +17,9 @@
       "id": "19687_ikkodate_ex1",
       "japanese": "{一戸建|いっこだ}てに{住|す}みたい。",
       "english": "I want to live in a detached house.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19687_ikkodate_ex2",
       "japanese": "{駅前|えきまえ}に{新|あたら}しい{一戸建|いっこだ}てが{建|た}った。",
       "english": "A new detached house was built in front of the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "19687_ikkodate_ex3",
       "japanese": "マンションか{一戸建|いっこだ}てか、どちらを{買|か}うか{迷|まよ}っている。",
       "english": "I'm torn between buying a condo or a detached house.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -48,15 +54,78 @@
       "note": "abbreviated form"
     }
   ],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01035_manshon",
+      "reading": "まんしょん",
+      "headword": "マンション",
+      "label": "condominium"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01012_apaato",
+      "reading": "あぱーと",
+      "headword": "アパート",
+      "label": "apartment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06743_bukken",
+      "reading": "ぶっけん",
+      "headword": "{物件|ぶっけん}",
+      "label": "property"
+    },
+    {
+      "type": "related",
+      "target_id": "09716_shuugoujuutaku",
+      "reading": "しゅうごうじゅうたく",
+      "headword": "{集合住宅|しゅうごうじゅうたく}",
+      "label": "apartment building"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13217_minka",
+      "reading": "みんか",
+      "headword": "{民家|みんか}",
+      "label": "private house, folk house"
+    },
+    {
+      "type": "related",
+      "target_id": "25330_nagaya",
+      "reading": "ながや",
+      "headword": "{長屋|ながや}",
+      "label": "row house"
+    },
+    {
+      "type": "related",
+      "target_id": "27323_maihoomu",
+      "reading": "まいほーむ",
+      "headword": "マイホーム",
+      "label": "one's own home (especially a privately owned house)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27371_mochiie",
+      "reading": "もちいえ",
+      "headword": "{持|も}ち{家|いえ}",
+      "label": "owned home"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building", "daily-life"]
+      "semantic": [
+        "building",
+        "daily-life"
+      ]
     },
     "created": "2026-03-26T12:38:04Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

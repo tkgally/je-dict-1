@@ -19,7 +19,9 @@
       "english": "The pricing is too high.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18864_kakakusettei_ex2",
@@ -27,7 +29,9 @@
       "english": "I think the pricing of this product is appropriate.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18864_kakakusettei_ex3",
@@ -35,22 +39,45 @@
       "english": "We need to review our pricing while watching the trends of our competitors.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA common business and consumer term. Often used when discussing whether something is expensive or cheap relative to its quality or the market.\n\nCOMMON COLLOCATIONS:\n- {価格|かかく}{設定|せってい}が{高|たか}い／{低|ひく}い (pricing is high/low)\n- {価格|かかく}{設定|せってい}を{見直|みなお}す (review pricing)\n- {適正|てきせい}な{価格|かかく}{設定|せってい} (appropriate pricing)\n- {強気|つよき}の{価格|かかく}{設定|せってい} (aggressive/bold pricing)\n\nSIMILAR WORDS:\n- {値段|ねだん}: the actual price of something — more everyday and concrete\n- {定価|ていか}: list price, manufacturer's suggested retail price",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00871_nedan",
+      "reading": "ねだん",
+      "headword": "{値段|ねだん}",
+      "label": "the actual price of something"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04066_teika",
+      "reading": "ていか",
+      "headword": "{定価|ていか}",
+      "label": "list price, manufacturer's suggested…"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:13:39Z",
-    "modified": "2026-03-23T06:13:39Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

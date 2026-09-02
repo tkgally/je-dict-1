@@ -2,7 +2,7 @@
   "id": "02421_majiru",
   "headword": "{混|ま}じる",
   "reading": "まじる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to be mixed in",
   "conjugation": {
     "type": "godan",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{混|ま}じる is an intransitive verb meaning to be mixed in or present among other things.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pair: ⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧ (transitive, to mix)\n\nCONTRAST WITH ⟦{混|ま}ざる→混ざる：02420_mazaru⟧:\n- {混|ま}じる: emphasizes presence/inclusion (something is among)\n- ⟦{混|ま}ざる→混ざる：02420_mazaru⟧: emphasizes blending/combining\n\nCOMMON PATTERNS:\n- ⟦{白髪|しらが}→白髪：00369_shiraga⟧⟦が→が：00051_ga⟧{混|ま}じっている: there are gray hairs mixed in\n- ⟦{外国人|がいこくじん}→外国人：02869_gaikokujin⟧⟦が→が：00051_ga⟧{混|ま}じっている: there are foreigners among them\n- ⟦{赤|あか}→赤：02842_aka⟧⟦が→が：00051_ga⟧{混|ま}じっている: there's some red mixed in\n- ⟦{嘘|うそ}→嘘：01796_uso⟧⟦が→が：00051_ga⟧{混|ま}じっている: there are lies mixed in\n\nSIMILAR VERBS:\n- ⟦{交|まじ}わる→交わる：18379_majiwaru⟧: to intersect, associate with others\n- ⟦{混|ま}ざる→混ざる：02420_mazaru⟧: to be blended together",
+  "notes": "{混|ま}じる is an intransitive verb meaning to be mixed in or present among other things.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pair: ⟦{混|ま}ぜる→混ぜる：02423_mazeru⟧ (transitive, to mix)\n\nCONTRAST WITH ⟦{混|ま}ざる→混ざる：02420_mazaru⟧:\n- {混|ま}じる: emphasizes presence/inclusion (something is among)\n- ⟦{混|ま}ざる→混ざる：02420_mazaru⟧: emphasizes blending/combining\n\nCOMMON PATTERNS:\n- ⟦{白髪|しらが}→白髪：00369_shiraga⟧⟦が→が：00051_ga⟧{混|ま}じっている: there are gray hairs mixed in\n- ⟦{外国人|がいこくじん}→外国人：02869_gaikokujin⟧⟦が→が：00051_ga⟧{混|ま}じっている: there are foreigners among them\n- ⟦{赤|あか}→赤：02842_aka⟧⟦が→が：00051_ga⟧{混|ま}じっている: there's some red mixed in\n- ⟦{嘘|うそ}→嘘：01796_uso⟧⟦が→が：00051_ga⟧{混|ま}じっている: there are lies mixed in\n\nSIMILAR WORDS:\n- ⟦{交|まじ}わる→交わる：18379_majiwaru⟧: to intersect, associate with others\n- ⟦{混|ま}ざる→混ざる：02420_mazaru⟧: to be blended together",
   "prominent_see_also": [
     {
       "target_id": "02423_mazeru",
@@ -148,10 +148,32 @@
       "note": "blended together"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18379_majiwaru",
+      "reading": "まじわる",
+      "headword": "{交|まじ}わる",
+      "label": "to intersect, associate with others"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26961_magirekomu",
+      "reading": "まぎれこむ",
+      "headword": "{紛|まぎ}れ{込|こ}む",
+      "label": "to slip into"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28479_mazaru",
+      "reading": "まざる",
+      "headword": "{交|ま}ざる",
+      "label": "to mingle"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T08:57:17Z",
-    "modified": "2026-05-20T18:14:06Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

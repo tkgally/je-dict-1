@@ -18,7 +18,9 @@
       "english": "Securing housing is necessary.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11612_juukyo_ex2",
@@ -26,7 +28,9 @@
       "english": "One must not illegally enter another person's residence.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11612_juukyo_ex3",
@@ -34,22 +38,57 @@
       "english": "Temporary housing was provided to people who lost their homes in the disaster.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A formal word for a dwelling or residence, commonly found in legal and administrative language. The everyday equivalent is {家|いえ} or {住|す}まい.\n\nIn legal contexts, {住居|じゅうきょ}{侵入|しんにゅう} refers to unlawful entry or trespassing.\n\nCOMMON COLLOCATIONS:\n・{住居|じゅうきょ}を{構|かま}える — to set up a residence\n・{住居|じゅうきょ}{侵入|しんにゅう} — trespassing; unlawful entry\n・{住居|じゅうきょ}{費|ひ} — housing costs\n・{住居|じゅうきょ}{地域|ちいき} — residential area",
-  "cross_references": [],
+  "notes": "A formal word for a dwelling or residence, commonly found in legal and administrative language. The everyday equivalent is {家|いえ} or {住|す}まい.\n\nIn legal contexts, {住居|じゅうきょ}{侵入|しんにゅう} refers to unlawful entry or trespassing.\n\nCOMMON COLLOCATIONS:\n- {住居|じゅうきょ}を{構|かま}える — to set up a residence\n- {住居|じゅうきょ}{侵入|しんにゅう} — trespassing; unlawful entry\n- {住居|じゅうきょ}{費|ひ} — housing costs\n- {住居|じゅうきょ}{地域|ちいき} — residential area",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00188_kaoku",
+      "reading": "かおく",
+      "headword": "{家屋|かおく}",
+      "label": "house"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19266_kyojuuchi",
+      "reading": "きょじゅうち",
+      "headword": "{居住地|きょじゅうち}",
+      "label": "place of residence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23029_tei",
+      "reading": "てい",
+      "headword": "{邸|てい}",
+      "label": "mansion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25478_sumika",
+      "reading": "すみか",
+      "headword": "{住処|すみか}",
+      "label": "dwelling"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T14:36:39Z",
-    "modified": "2026-02-17T14:36:39Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

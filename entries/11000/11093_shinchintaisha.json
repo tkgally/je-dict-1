@@ -19,7 +19,9 @@
       "english": "Exercise boosts your metabolism.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11093_shinchintaisha_ex2",
@@ -27,7 +29,9 @@
       "english": "Metabolism slows down with age.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11093_shinchintaisha_ex3",
@@ -35,22 +39,45 @@
       "english": "I make a point of drinking water every morning to improve my metabolism.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{新陳代謝|しんちんたいしゃ} literally means \"new replaces old\" ({新|しん}{陳|ちん} = new and old, {代謝|たいしゃ} = replacement/exchange). It is most commonly used in health and fitness contexts but can also describe organizational renewal.\n\nCOMMON COLLOCATIONS:\n- {新陳代謝|しんちんたいしゃ}が{良|よ}い (have a good metabolism)\n- {新陳代謝|しんちんたいしゃ}を{上|あ}げる (boost metabolism)\n- {新陳代謝|しんちんたいしゃ}が{落|お}ちる (metabolism drops)\n\nSHORTENED FORM:\nIn medical or scientific contexts, {代謝|たいしゃ} alone is often used (e.g., {基礎代謝|きそたいしゃ} = basal metabolism).",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20569_sedaikoutai",
+      "reading": "せだいこうたい",
+      "headword": "{世代|せだい}{交代|こうたい}",
+      "label": "generational change"
+    },
+    {
+      "type": "related",
+      "target_id": "23860_koujousen",
+      "reading": "こうじょうせん",
+      "headword": "{甲状腺|こうじょうせん}",
+      "label": "thyroid gland"
+    }
+  ],
   "metadata": {
     "created": "2026-02-13T12:38:59Z",
-    "modified": "2026-02-13T12:38:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["medical"],
-      "semantic": ["general"]
+      "domain": [
+        "medical"
+      ],
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

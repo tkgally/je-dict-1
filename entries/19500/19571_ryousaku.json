@@ -17,7 +17,9 @@
       "id": "19571_ryousaku_ex1",
       "japanese": "なかなか{良策|りょうさく}が{見|み}つからない。",
       "english": "I can't seem to find a good plan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19571_ryousaku_ex2",
       "japanese": "それは{良策|りょうさく}とは{言|い}えない。",
       "english": "I wouldn't call that a good idea.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,59 @@
       "id": "19571_ryousaku_ex3",
       "japanese": "{渋滞|じゅうたい}を{解消|かいしょう}するための{良策|りょうさく}を{検討|けんとう}しているが、{予算|よさん}の{問題|もんだい}もあり{難航|なんこう}している。",
       "english": "We are considering good strategies to relieve traffic congestion, but progress is difficult due to budget issues.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {良|りょう} (good) + {策|さく} (plan, strategy). A somewhat formal word often encountered in discussions of policy, business strategy, and problem-solving. Notably common in negative contexts — {良策|りょうさく}がない (there's no good plan) is a frequent pattern.\n\nCOMMON COLLOCATIONS:\n- {良策|りょうさく}を{見|み}つける — to find a good plan\n- {良策|りょうさく}を{考|かんが}える — to think of a good plan\n- {良策|りょうさく}がない — there is no good plan\n- {良策|りょうさく}とは{言|い}えない — cannot be called a good plan\n\nSIMILAR WORDS:\n- {妙案|みょうあん} — brilliant idea; more creative, implies cleverness\n- {名案|めいあん} — excellent idea; emphasizes the quality of the idea\n- {対策|たいさく} — countermeasure; neutral, doesn't imply good or bad\n- {方策|ほうさく} — policy, strategy; more formal, used in government/business",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23888_myouan",
+      "reading": "みょうあん",
+      "headword": "{妙案|みょうあん}",
+      "label": "brilliant idea"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15591_meian",
+      "reading": "めいあん",
+      "headword": "{名案|めいあん}",
+      "label": "excellent idea"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02511_taisaku",
+      "reading": "たいさく",
+      "headword": "{対策|たいさく}",
+      "label": "countermeasure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16892_housaku",
+      "reading": "ほうさく",
+      "headword": "{方策|ほうさく}",
+      "label": "policy, strategy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["abstract", "business"]
+      "semantic": [
+        "abstract",
+        "business"
+      ]
     },
     "created": "2026-03-26T05:19:15Z",
-    "modified": "2026-03-26T05:19:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

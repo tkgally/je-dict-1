@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "お{手洗|てあら}い is a polite, euphemistic term for restroom or toilet, suitable for formal situations.\n\nCOMPONENTS:\n- お: honorific prefix\n- ⟦{手|て}→手：00569_te⟧: hand\n- ⟦{洗|あら}い→洗う：00827_arau⟧: washing (from 洗う)\n\nLITERAL MEANING: 'place to wash hands' - a polite way to refer to the toilet.\n\nPOLITENESS LEVELS (toilet words):\n- お{手洗|てあら}い: restroom (polite, safe for any situation)\n- ⟦トイレ→トイレ：00818_toire⟧: toilet (neutral, common in everyday speech)\n- ⟦{化粧室|けしょうしつ}→化粧室：15885_keshoushitsu⟧: powder room (formal, often used in announcements)\n- ⟦{洗面所|せんめんじょ}→洗面所：17618_senmenjo⟧: washroom (neutral, focuses on the sink area)\n- ⟦{便所|べんじょ}→便所：19472_benjo⟧: toilet (direct, can sound crude)\n- {厠|かわや}: privy (old-fashioned, literary)\n\nCOMMON EXPRESSIONS:\n- お{手洗|てあら}い⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧⟦ですか→です：09485_desu⟧: Where is the restroom?\n- お{手洗|てあら}い⟦に→に：00314_ni⟧⟦{行|い}ってきます→行ってきます：01029_ittekimasu⟧: I'm going to the restroom.\n- お{手洗|てあら}い⟦を→を：00422_wo⟧⟦{借|か}りてもいいですか→借りる：00532_kariru⟧: May I use the restroom?",
+  "notes": "お{手洗|てあら}い is a polite, euphemistic term for restroom or toilet, suitable for formal situations.\n\nETYMOLOGY:\n- お: honorific prefix\n- ⟦{手|て}→手：00569_te⟧: hand\n- ⟦{洗|あら}い→洗う：00827_arau⟧: washing (from 洗う)\n\nLITERAL MEANING: 'place to wash hands' - a polite way to refer to the toilet.\n\nPOLITENESS LEVELS (toilet words):\n- お{手洗|てあら}い: restroom (polite, safe for any situation)\n- ⟦トイレ→トイレ：00818_toire⟧: toilet (neutral, common in everyday speech)\n- ⟦{化粧室|けしょうしつ}→化粧室：15885_keshoushitsu⟧: powder room (formal, often used in announcements)\n- ⟦{洗面所|せんめんじょ}→洗面所：17618_senmenjo⟧: washroom (neutral, focuses on the sink area)\n- ⟦{便所|べんじょ}→便所：19472_benjo⟧: toilet (direct, can sound crude)\n- {厠|かわや}: privy (old-fashioned, literary)\n\nCOMMON EXPRESSIONS:\n- お{手洗|てあら}い⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧⟦ですか→です：09485_desu⟧: Where is the restroom?\n- お{手洗|てあら}い⟦に→に：00314_ni⟧⟦{行|い}ってきます→行ってきます：01029_ittekimasu⟧: I'm going to the restroom.\n- お{手洗|てあら}い⟦を→を：00422_wo⟧⟦{借|か}りてもいいですか→借りる：00532_kariru⟧: May I use the restroom?",
   "prominent_see_also": [
     {
       "target_id": "12761_tearai",
@@ -79,11 +79,39 @@
       "reading": "といれ",
       "headword": "トイレ",
       "label": "neutral/common"
+    },
+    {
+      "type": "related",
+      "target_id": "08260_youtashi",
+      "reading": "ようたし",
+      "headword": "{用足|ようた}し",
+      "label": "errand"
+    },
+    {
+      "type": "related",
+      "target_id": "17618_senmenjo",
+      "reading": "せんめんじょ",
+      "headword": "{洗面所|せんめんじょ}",
+      "label": "washroom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19472_benjo",
+      "reading": "べんじょ",
+      "headword": "{便所|べんじょ}",
+      "label": "toilet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23786_koushuutoire",
+      "reading": "こうしゅうといれ",
+      "headword": "{公衆|こうしゅう}トイレ",
+      "label": "public toilet"
     }
   ],
   "metadata": {
     "created": "2026-01-11T09:25:30Z",
-    "modified": "2026-05-22T19:10:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

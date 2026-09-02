@@ -17,7 +17,9 @@
       "id": "24675_kyoudoukumiai_ex1",
       "japanese": "{農業|のうぎょう}{協同組合|きょうどうくみあい}に{加入|かにゅう}した。",
       "english": "I joined an agricultural cooperative.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24675_kyoudoukumiai_ex2",
       "japanese": "この{地域|ちいき}の{漁業|ぎょぎょう}{協同組合|きょうどうくみあい}は{百年以上|ひゃくねんいじょう}の{歴史|れきし}がある。",
       "english": "The fishing cooperative in this region has a history of over a hundred years.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,55 @@
       "id": "24675_kyoudoukumiai_ex3",
       "japanese": "{生活|せいかつ}{協同組合|きょうどうくみあい}では{組合員|くみあいいん}が{共同|きょうどう}で{食品|しょくひん}や{日用品|にちようひん}を{安|やす}く{購入|こうにゅう}できる{仕組|しく}みになっている。",
       "english": "Consumer cooperatives are structured so that members can purchase food and daily goods at lower prices through collective buying.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {協同|きょうどう} (cooperation, working together) and {組合|くみあい} (union, association). Japan has a highly developed cooperative system, with organizations like JA ({農協|のうきょう}, agricultural cooperatives) playing a central role in rural economies.\n\nUSAGE:\nOften abbreviated in compound names: {農業協同組合|のうぎょうきょうどうくみあい} becomes {農協|のうきょう} (JA), {漁業協同組合|ぎょぎょうきょうどうくみあい} becomes {漁協|ぎょきょう}, and {生活協同組合|せいかつきょうどうくみあい} becomes {生協|せいきょう} (co-op). These abbreviations are far more common in everyday speech.\n\nCOMMON COLLOCATIONS:\n- {農業|のうぎょう}{協同組合|きょうどうくみあい}: agricultural cooperative (JA)\n- {漁業|ぎょぎょう}{協同組合|きょうどうくみあい}: fishing cooperative\n- {生活|せいかつ}{協同組合|きょうどうくみあい}: consumer cooperative (co-op)\n- {協同組合|きょうどうくみあい}に{加入|かにゅう}する: to join a cooperative\n\nSIMILAR WORDS:\n- {組合|くみあい}: union, association — the general term for any organized group; cooperatives are one type\n- {農協|のうきょう}: agricultural cooperative (JA) — the most well-known type of cooperative in Japan\n- {生協|せいきょう}: consumer co-op — provides food, goods, and services to member households\n- {労働組合|ろうどうくみあい}: labor union — a union of workers for collective bargaining, distinct from a cooperative",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27727_noukyou",
+      "reading": "のうきょう",
+      "headword": "{農協|のうきょう}",
+      "label": "agricultural cooperative"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13577_seikyou",
+      "reading": "せいきょう",
+      "headword": "{生協|せいきょう}",
+      "label": "consumer co-op"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16096_roudoukumiai",
+      "reading": "ろうどうくみあい",
+      "headword": "{労働|ろうどう}{組合|くみあい}",
+      "label": "labor union"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["economics", "society"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "economics",
+        "society"
+      ]
     },
     "created": "2026-04-20T11:24:55Z",
-    "modified": "2026-04-20T11:24:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

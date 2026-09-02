@@ -17,7 +17,9 @@
       "id": "25946_mokkangakki_ex1",
       "japanese": "フルートは{木管楽器|もっかんがっき}の{一|ひと}つだ。",
       "english": "The flute is one of the woodwind instruments.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25946_mokkangakki_ex2",
       "japanese": "{木管楽器|もっかんがっき}の{柔|やわ}らかい{音色|ねいろ}が{好|す}きだ。",
       "english": "I like the soft tone of woodwind instruments.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,58 @@
       "id": "25946_mokkangakki_ex3",
       "japanese": "オーケストラの{木管楽器|もっかんがっき}セクションが{美|うつく}しいメロディーを{奏|かな}でた。",
       "english": "The woodwind section of the orchestra played a beautiful melody.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {木管|もっかん} (woodwind; lit. wooden pipe) and {楽器|がっき} (musical instrument). Despite the name containing {木|もく} (wood), modern woodwind instruments like the flute are often made of metal. The classification is based on the historical use of wood and the method of sound production.\n\nCOMMON COLLOCATIONS:\n- {木管楽器|もっかんがっき}を{演奏|えんそう}する: to play a woodwind instrument\n- {木管楽器|もっかんがっき}の{音色|ねいろ}: tone of woodwind instruments\n- {木管楽器|もっかんがっき}セクション: woodwind section\n- {木管楽器|もっかんがっき}{奏者|そうしゃ}: woodwind player\n\nSIMILAR WORDS:\n- {金管楽器|きんかんがっき}: brass instrument — instruments like trumpet and trombone where sound is produced by lip vibration\n- {管楽器|かんがっき}: wind instrument — the broader category encompassing both woodwind and brass\n- {弦楽器|げんがっき}: string instrument — instruments where sound is produced by vibrating strings",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23683_kinkangakki",
+      "reading": "きんかんがっき",
+      "headword": "{金管楽器|きんかんがっき}",
+      "label": "brass instrument"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07534_gengakki",
+      "reading": "げんがっき",
+      "headword": "{弦楽器|げんがっき}",
+      "label": "string instrument"
+    },
+    {
+      "type": "related",
+      "target_id": "07535_suisougaku",
+      "reading": "すいそうがく",
+      "headword": "{吹奏楽|すいそうがく}",
+      "label": "wind band music"
+    },
+    {
+      "type": "related",
+      "target_id": "08138_kurarinetto",
+      "reading": "くらりねっと",
+      "headword": "クラリネット",
+      "label": "clarinet"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["music"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "music"
+      ]
     },
     "created": "2026-04-28T13:33:11Z",
-    "modified": "2026-04-28T13:33:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

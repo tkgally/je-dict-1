@@ -45,7 +45,22 @@
     }
   ],
   "notes": "A {合格証|ごうかくしょう} is an official certificate proving that someone has successfully passed an examination or met a standard. It is commonly issued for qualification exams such as {漢字検定|かんじけんてい} or {日本語能力試験|にほんごのうりょくしけん}.\n\nCOMMON COLLOCATIONS:\n- {合格証書|ごうかくしょうしょ} — formal certificate of passing (longer, more official form)\n- {合格証明書|ごうかくしょうめいしょ} — certificate proving one has passed\n- {合格証|ごうかくしょう}を{提示|ていじ}する — to present a passing certificate\n- {合格証|ごうかくしょう}を{紛失|ふんしつ}する — to lose a passing certificate\n\nSIMILAR WORDS:\n- {修了証|しゅうりょうしょう} — certificate of completion (for finishing a course, not necessarily passing an exam)\n- {免許証|めんきょしょう} — license (authorizes the holder to do something, such as drive)\n- {資格証|しかくしょう} — qualification certificate",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03160_menkyoshou",
+      "reading": "めんきょしょう",
+      "headword": "{免許証|めんきょしょう}",
+      "label": "license"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26034_shikakushou",
+      "reading": "しかくしょう",
+      "headword": "{資格証|しかくしょう}",
+      "label": "qualification certificate"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "education",
         "communication"
       ]
     },
     "created": "2026-04-29T16:29:28Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

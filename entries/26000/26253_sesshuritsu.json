@@ -17,7 +17,9 @@
       "id": "26253_sesshuritsu_ex1",
       "japanese": "{接種率|せっしゅりつ}が{上|あ}がってきた。",
       "english": "The vaccination rate has been rising.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26253_sesshuritsu_ex2",
       "japanese": "この{地域|ちいき}のインフルエンザ{接種率|せっしゅりつ}は{高|たか}い。",
       "english": "The influenza vaccination rate in this area is high.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "26253_sesshuritsu_ex3",
       "japanese": "{政府|せいふ}は{接種率|せっしゅりつ}を{七十|ななじゅう}パーセントまで{引|ひ}き{上|あ}げることを{目標|もくひょう}にしている。",
       "english": "The government aims to raise the vaccination rate to seventy percent.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {接種|せっしゅ} (vaccination; inoculation) and {率|りつ} (rate; ratio). Became extremely common in everyday Japanese during the COVID-19 pandemic.\n\nCOMMON COLLOCATIONS:\n- ワクチン{接種率|せっしゅりつ}: vaccine uptake rate\n- {接種率|せっしゅりつ}の{向上|こうじょう}: improvement of vaccination rate\n- {接種率|せっしゅりつ}が{低|ひく}い: vaccination rate is low\n- {接種率|せっしゅりつ}{目標|もくひょう}: vaccination rate target\n- {年代別|ねんだいべつ}{接種率|せっしゅりつ}: vaccination rate by age group\n\nSIMILAR WORDS:\n- {接種|せっしゅ}: vaccination; inoculation — the act of vaccinating, not the rate\n- {予防接種|よぼうせっしゅ}: preventive vaccination — the full term for vaccination as a medical procedure\n- {感染率|かんせんりつ}: infection rate — measures spread of disease, the opposite concern",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11068_yobousesshu",
+      "reading": "よぼうせっしゅ",
+      "headword": "{予防接種|よぼうせっしゅ}",
+      "label": "preventive vaccination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30144_kansenritsu",
+      "reading": "かんせんりつ",
+      "headword": "{感染率|かんせんりつ}",
+      "label": "infection rate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-04-30T13:40:12Z",
-    "modified": "2026-04-30T13:40:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

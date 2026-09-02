@@ -61,10 +61,10 @@
       "notes": null
     }
   ],
-  "notes": "{辞書|じしょ} is a compound: ⟦{辞|じ}→辞：noentry⟧ (words) + ⟦{書|しょ}→書：noentry⟧ (book).\n\nTYPES OF {辞書|じしょ}:\n- ⟦{国語|こくご}→国語：02739_kokugo⟧{辞書|じしょ}/⟦{辞典|じてん}→辞典：01640_jiten⟧ (Japanese dictionary)\n- ⟦{英和|えいわ}→英和：04018_eiwa⟧{辞書|じしょ} (English-Japanese)\n- ⟦{和英|わえい}→和英：05253_waei⟧{辞書|じしょ} (Japanese-English)\n- ⟦{漢字|かんじ}→漢字：09480_kanji⟧⟦{辞典|じてん}→辞典：01640_jiten⟧ (kanji dictionary)\n- ⟦{電子|でんし}→電子：03449_denshi⟧{辞書|じしょ} (electronic dictionary)\n\nCOMMON COLLOCATIONS:\n- {辞書|じしょ}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧ (to look up in a dictionary)\n- {辞書|じしょ}⟦で→で：00502_de⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧ (to check in a dictionary)\n- {辞書|じしょ}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧ (to use a dictionary)\n\nNOTE:\n{辞書|じしょ} and ⟦{辞典|じてん}→辞典：01640_jiten⟧ are often interchangeable, though ⟦{辞典|じてん}→辞典：01640_jiten⟧ can feel slightly more formal or comprehensive (like an encyclopedia).",
+  "notes": "{辞書|じしょ} is a compound: ⟦{辞|じ}→辞：noentry⟧ (words) + ⟦{書|しょ}→書：noentry⟧ (book).\n\nTYPES OF {辞書|じしょ}:\n- ⟦{国語|こくご}→国語：02739_kokugo⟧{辞書|じしょ}/⟦{辞典|じてん}→辞典：01640_jiten⟧ (Japanese dictionary)\n- ⟦{英和|えいわ}→英和：04018_eiwa⟧{辞書|じしょ} (English-Japanese)\n- ⟦{和英|わえい}→和英：05253_waei⟧{辞書|じしょ} (Japanese-English)\n- ⟦{漢字|かんじ}→漢字：09480_kanji⟧⟦{辞典|じてん}→辞典：01640_jiten⟧ (kanji dictionary)\n- ⟦{電子|でんし}→電子：03449_denshi⟧{辞書|じしょ} (electronic dictionary)\n\nCOMMON COLLOCATIONS:\n- {辞書|じしょ}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧ (to look up in a dictionary)\n- {辞書|じしょ}⟦で→で：00502_de⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧ (to check in a dictionary)\n- {辞書|じしょ}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧ (to use a dictionary)\n\nUSAGE:\n{辞書|じしょ} and ⟦{辞典|じてん}→辞典：01640_jiten⟧ are often interchangeable, though ⟦{辞典|じてん}→辞典：01640_jiten⟧ can feel slightly more formal or comprehensive (like an encyclopedia).",
   "metadata": {
     "created": "2026-01-15T23:13:14Z",
-    "modified": "2026-06-01T21:08:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
@@ -84,6 +84,62 @@
       "reading": "じてん",
       "headword": "{辞典|じてん}",
       "label": "dictionary (reference)"
+    },
+    {
+      "type": "related",
+      "target_id": "01085_kyoukasho",
+      "reading": "きょうかしょ",
+      "headword": "{教科書|きょうかしょ}",
+      "label": "textbook"
+    },
+    {
+      "type": "related",
+      "target_id": "05144_hyakkajiten",
+      "reading": "ひゃっかじてん",
+      "headword": "{百科事典|ひゃっかじてん}",
+      "label": "encyclopedia"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21891_jiten",
+      "reading": "じてん",
+      "headword": "{事典|じてん}",
+      "label": "encyclopedia"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23121_yougoshuu",
+      "reading": "ようごしゅう",
+      "headword": "{用語集|ようごしゅう}",
+      "label": "glossary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23277_kokugojiten",
+      "reading": "こくごじてん",
+      "headword": "{国語辞典|こくごじてん}",
+      "label": "Japanese dictionary (Japanese-Japanese)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24664_waeijiten",
+      "reading": "わえいじてん",
+      "headword": "{和英辞典|わえいじてん}",
+      "label": "Japanese-English dictionary"
+    },
+    {
+      "type": "related",
+      "target_id": "24989_midashigo",
+      "reading": "みだしご",
+      "headword": "{見出|みだ}し{語|ご}",
+      "label": "headword"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29307_bunpousho",
+      "reading": "ぶんぽうしょ",
+      "headword": "{文法書|ぶんぽうしょ}",
+      "label": "grammar book"
     }
   ]
 }

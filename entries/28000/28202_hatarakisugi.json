@@ -17,7 +17,9 @@
       "id": "28202_hatarakisugi_ex1",
       "japanese": "{働|はたら}き{過|す}ぎは{体|からだ}に{悪|わる}い。",
       "english": "Overwork is bad for your health.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28202_hatarakisugi_ex2",
       "japanese": "{最近|さいきん}、{働|はたら}き{過|す}ぎで{疲|つか}れている。",
       "english": "Lately I'm tired from working too much.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28202_hatarakisugi_ex3",
       "japanese": "{働|はたら}き{過|す}ぎが{原因|げんいん}で{倒|たお}れる{人|ひと}もいる。",
       "english": "Some people collapse because of overwork.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {働|はたら}く (to work) plus the suffix 〜{過|す}ぎ, which attaches to verb stems to mean 'doing too much'.\n\nCOMMON COLLOCATIONS:\n- {働|はたら}き{過|す}ぎで{倒|たお}れる: to collapse from overwork\n- {働|はたら}き{過|す}ぎを{防|ふせ}ぐ: to prevent overwork\n\nRELATED WORDS:\n- {過労|かろう}: overwork — more clinical and formal, as in {過労死|かろうし} (death from overwork)\n- {食|た}べ{過|す}ぎ: overeating — the same 〜{過|す}ぎ pattern",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08563_karou",
+      "reading": "かろう",
+      "headword": "{過労|かろう}",
+      "label": "overwork"
+    },
+    {
+      "type": "related",
+      "target_id": "28819_tabesugi",
+      "reading": "たべすぎ",
+      "headword": "{食|た}べ{過|す}ぎ",
+      "label": "overeating"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["work"],
+      "politeness": "plain",
+      "semantic": [
+        "work"
+      ],
       "domain": []
     },
     "created": "2026-05-27T03:08:15Z",
-    "modified": "2026-05-27T03:08:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "19852_tsuushinryou_ex1",
       "japanese": "{通信料|つうしんりょう}が{高|たか}い。",
       "english": "The data charges are high.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19852_tsuushinryou_ex2",
       "japanese": "{月|つき}の{通信料|つうしんりょう}を{確認|かくにん}した。",
       "english": "I checked the monthly communication charges.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,38 @@
       "id": "19852_tsuushinryou_ex3",
       "japanese": "{海外|かいがい}では{通信料|つうしんりょう}が{高額|こうがく}になることがあるので{注意|ちゅうい}が{必要|ひつよう}だ。",
       "english": "You need to be careful because communication charges can become very expensive overseas.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers to charges for phone, data, and other telecommunications services. In everyday use, often refers specifically to mobile phone data charges.\n\nCOMMON COLLOCATIONS:\n- {通信料|つうしんりょう}が{掛|か}かる — communication charges are incurred\n- {通信料|つうしんりょう}{無料|むりょう} — free of data charges\n- {月額|げつがく}{通信料|つうしんりょう} — monthly communication fee\n- {通信料|つうしんりょう}を{節約|せつやく}する — to save on data charges\n\nSIMILAR WORDS:\n- {通話料|つうわりょう} — call charges (voice calls specifically)\n- {通信費|つうしんひ} — communication expenses (broader, used in accounting)\n- データ{使用量|しようりょう} — data usage amount",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16275_tsuuwaryou",
+      "reading": "つうわりょう",
+      "headword": "{通話料|つうわりょう}",
+      "label": "call charges"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technology", "money"]
+      "semantic": [
+        "technology",
+        "money"
+      ]
     },
     "created": "2026-03-27T03:26:52Z",
-    "modified": "2026-03-27T03:26:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

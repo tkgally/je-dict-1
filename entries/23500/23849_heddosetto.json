@@ -45,7 +45,36 @@
     }
   ],
   "notes": "Loanword from English 'headset'. In Japanese it refers specifically to the headphones-plus-microphone device; the English sense of 'headset' as a VR or AR device is covered by more specific terms such as VRヘッドセット or VRゴーグル.\n\nUSAGE:\n- Common in remote-work, gaming, and customer-service contexts. Since the spread of online meetings, the word is now well known to the general public.\n- Wireless models are marketed as ワイヤレスヘッドセット or {無線|むせん}ヘッドセット; wired models as {有線|ゆうせん}ヘッドセット.\n- 'To put on / take off a headset' uses the verbs つける/{外|はず}す, the same as for glasses or earphones.\n\nCOMMON COLLOCATIONS:\n- ヘッドセットをつける: to put on a headset\n- ヘッドセットを{外|はず}す: to take off a headset\n- ワイヤレスヘッドセット: wireless headset\n- ゲーミングヘッドセット: gaming headset\n- ヘッドセットを{接続|せつぞく}する: to connect a headset\n\nSIMILAR WORDS:\n- ヘッドホン: headphones — no microphone; for listening only.\n- イヤホン: earphones — smaller in-ear listening devices.\n- マイク: microphone — the input device alone.\n- VRゴーグル: VR goggles — head-mounted display for virtual reality; not interchangeable with ヘッドセット in Japanese.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04423_heddohon",
+      "reading": "へっどほん",
+      "headword": "ヘッドホン",
+      "label": "headphones"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04421_iyahon",
+      "reading": "いやほん",
+      "headword": "イヤホン",
+      "label": "earphones"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00267_maiku",
+      "reading": "まいく",
+      "headword": "マイク",
+      "label": "microphone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27404_maikurofon",
+      "reading": "まいくろふぉん",
+      "headword": "マイクロフォン",
+      "label": "microphone"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +89,6 @@
       ]
     },
     "created": "2026-04-15T07:12:21Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

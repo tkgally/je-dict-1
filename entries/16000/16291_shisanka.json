@@ -19,7 +19,9 @@
       "english": "He is a well-known wealthy person in the local area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16291_shisanka_ex2",
@@ -27,7 +29,9 @@
       "english": "My grandfather was a wealthy man who made his fortune in real estate.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16291_shisanka_ex3",
@@ -35,7 +39,9 @@
       "english": "Many wealthy individuals establish corporations as a tax strategy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{資産家|しさんか} emphasizes accumulated assets (property, investments, savings) rather than income. It is a neutral, respectful term without the negative connotations that words like {金持|かねも}ち can sometimes carry.\n\nCOMMON COLLOCATIONS:\n- {大|だい}{資産家|しさんか} (very wealthy person)\n- {資産家|しさんか}{一族|いちぞく} (wealthy family/clan)\n- {地元|じもと}の{資産家|しさんか} (local person of means)\n\nSIMILAR WORDS:\n{金持|かねも}ち is the casual, everyday word for a rich person. {富裕層|ふゆうそう} refers to the wealthy class as a group. {資産家|しさんか} is more formal than {金持|かねも}ち and emphasizes asset ownership specifically.",
@@ -53,19 +59,39 @@
       "reading": "ふゆうそう",
       "headword": "{富裕層|ふゆうそう}",
       "label": "wealthy class"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20556_fugou",
+      "reading": "ふごう",
+      "headword": "{富豪|ふごう}",
+      "label": "wealthy person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23072_ooganemochi",
+      "reading": "おおがねもち",
+      "headword": "{大金持|おおがねも}ち",
+      "label": "very rich person"
     }
   ],
   "metadata": {
     "created": "2026-03-11T14:02:50Z",
-    "modified": "2026-05-03T08:15:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"],
-      "domain": ["business"]
+      "semantic": [
+        "person"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

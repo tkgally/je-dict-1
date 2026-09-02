@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "COMPOUND: ⟦{敷|し}く→敷く：00366_shiku⟧ (to spread, lay) + ⟦{金|きん}→金：02666_kin⟧ (money)\n\nJAPANESE RENTAL SYSTEM:\n・{敷金|しききん} (security deposit) - refundable\n・⟦{礼金|れいきん}→礼金：06080_reikin⟧ (key money) - non-refundable\n・Both are typically paid upfront when signing a lease\n\nCOMMON PATTERNS:\n・{敷金|しききん}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧ (pay the security deposit)\n・{敷金|しききん}⟦が→が：00051_ga⟧⟦{戻|もど}る→戻る：01117_modoru⟧ (security deposit is returned)\n・{敷金|しききん}⟦ゼロ→ゼロ：01011_zero⟧ (zero deposit)\n\nNOTE: In recent years, more '0⟦ゼロ→ゼロ：01011_zero⟧⟦{物件|ぶっけん}→物件：06743_bukken⟧' (zero-zero properties) with no {敷金|しききん} or ⟦{礼金|れいきん}→礼金：06080_reikin⟧ have become available.",
+  "notes": "COMPOUND: ⟦{敷|し}く→敷く：00366_shiku⟧ (to spread, lay) + ⟦{金|きん}→金：02666_kin⟧ (money)\n\nJAPANESE RENTAL SYSTEM:\n- {敷金|しききん} (security deposit) - refundable\n- ⟦{礼金|れいきん}→礼金：06080_reikin⟧ (key money) - non-refundable\n- Both are typically paid upfront when signing a lease\n\nCOMMON PATTERNS:\n- {敷金|しききん}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧ (pay the security deposit)\n- {敷金|しききん}⟦が→が：00051_ga⟧⟦{戻|もど}る→戻る：01117_modoru⟧ (security deposit is returned)\n- {敷金|しききん}⟦ゼロ→ゼロ：01011_zero⟧ (zero deposit)\n\nNOTE: In recent years, more '0⟦ゼロ→ゼロ：01011_zero⟧⟦{物件|ぶっけん}→物件：06743_bukken⟧' (zero-zero properties) with no {敷金|しききん} or ⟦{礼金|れいきん}→礼金：06080_reikin⟧ have become available.",
   "cross_references": [
     {
       "type": "related",
@@ -57,11 +57,32 @@
       "reading": "やちん",
       "headword": "{家賃|やちん}",
       "label": "rent"
+    },
+    {
+      "type": "related",
+      "target_id": "01907_ooya",
+      "reading": "おおや",
+      "headword": "{大家|おおや}",
+      "label": "landlord, landlady"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23256_koushinryou",
+      "reading": "こうしんりょう",
+      "headword": "{更新料|こうしんりょう}",
+      "label": "renewal fee (especially on a rental contract)"
+    },
+    {
+      "type": "related",
+      "target_id": "23319_genjoukaifuku",
+      "reading": "げんじょうかいふく",
+      "headword": "{原状回復|げんじょうかいふく}",
+      "label": "restoration to original condition"
     }
   ],
   "metadata": {
     "created": "2026-01-17T02:09:14Z",
-    "modified": "2026-08-25T00:21:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

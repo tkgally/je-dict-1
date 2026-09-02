@@ -3,7 +3,7 @@
   "headword": "{果|は}てる",
   "reading": "はてる",
   "romaji": "hateru",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to come to an end; to be exhausted; to perish",
   "definitions": [
     {
@@ -79,8 +79,38 @@
       "notes": null
     }
   ],
-  "notes": "Literary and somewhat dated in sense 1; the suffix use in sense 2 is far more common in everyday Japanese.\n\nTRANSITIVITY:\nIntransitive. There is a transitive counterpart {果|は}たす (to accomplish, to fulfill — entirely different meaning despite the related kanji).\n\nCOMMON SUFFIX COMPOUNDS (sense 2):\n- {疲|つか}れはてる: to be utterly exhausted\n- {困|こま}りはてる: to be at one's wit's end\n- {弱|よわ}りはてる: to become utterly weakened\n- {変|か}わりはてる: to change beyond recognition\n- {あきれ|あきれ}はてる: to be utterly dumbfounded\n\nSIMILAR WORDS:\n- {終|お}わる: to end — neutral, everyday word\n- {尽|つ}きる: to run out, to be used up — emphasizes depletion of a supply\n- {亡|な}くなる: to pass away — euphemism for death; {果|は}てる can mean to die but feels literary",
+  "notes": "Literary and somewhat dated in sense 1; the suffix use in sense 2 is far more common in everyday Japanese.\n\nTRANSITIVITY:\nIntransitive. There is a transitive counterpart {果|は}たす (to accomplish, to fulfill — entirely different meaning despite the related kanji).\n\nCOMMON SUFFIX COMPOUNDS (sense 2):\n- {疲|つか}れはてる: to be utterly exhausted\n- {困|こま}りはてる: to be at one's wit's end\n- {弱|よわ}りはてる: to become utterly weakened\n- {変|か}わりはてる: to change beyond recognition\n- あきれはてる: to be utterly dumbfounded\n\nSIMILAR WORDS:\n- {終|お}わる: to end — neutral, everyday word\n- {尽|つ}きる: to run out, to be used up — emphasizes depletion of a supply\n- {亡|な}くなる: to pass away — euphemism for death; {果|は}てる can mean to die but feels literary",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00567_owaru",
+      "reading": "おわる",
+      "headword": "{終|お}わる",
+      "label": "to end"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12365_tsukiru",
+      "reading": "つきる",
+      "headword": "{尽|つ}きる",
+      "label": "to run out, to be used up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02639_nakunaru",
+      "reading": "なくなる",
+      "headword": "{亡|な}くなる",
+      "label": "to pass away"
+    },
+    {
+      "type": "related",
+      "target_id": "10060_hatasu",
+      "reading": "はたす",
+      "headword": "{果|は}たす",
+      "label": "to fulfill, to accomplish"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -88,7 +118,7 @@
         "verb-ichidan"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "change"
       ],
@@ -96,7 +126,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-06-02T02:07:31Z",
-    "modified": "2026-06-02T02:07:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

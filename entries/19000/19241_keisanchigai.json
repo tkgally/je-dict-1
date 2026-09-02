@@ -22,7 +22,9 @@
       "id": "19241_keisanchigai_ex1",
       "japanese": "{計算違|けいさんちが}いがあった。",
       "english": "There was a miscalculation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "19241_keisanchigai_ex2",
       "japanese": "{見積|みつも}りに{計算違|けいさんちが}いがないか{確認|かくにん}した。",
       "english": "I checked the estimate for calculation errors.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "19241_keisanchigai_ex3",
       "japanese": "{予算|よさん}に{計算違|けいさんちが}いがあり、{費用|ひよう}が{大幅|おおはば}に{超過|ちょうか}した。",
       "english": "There was a miscalculation in the budget, and costs significantly exceeded the plan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "19241_keisanchigai_ex4",
       "japanese": "それは{計算違|けいさんちが}いだった。",
       "english": "That was a misjudgment.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "19241_keisanchigai_ex5",
       "japanese": "{相手|あいて}を{甘|あま}く{見|み}たのが{計算違|けいさんちが}いだった。",
       "english": "Underestimating the opponent was a miscalculation.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,44 @@
       "id": "19241_keisanchigai_ex6",
       "japanese": "{計画|けいかく}は{順調|じゅんちょう}だったが、{天候|てんこう}の{変化|へんか}が{計算違|けいさんちが}いだった。",
       "english": "The plan was going well, but the change in weather was something I hadn't accounted for.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {計算|けいさん} (calculation) + {違|ちが}い (difference/mistake). The figurative sense (misjudgment, things not going as planned) is more common in everyday conversation than the literal arithmetic sense.\n\nCOMMON PATTERNS:\n- {計算違|けいさんちが}いだった: it was a miscalculation\n- {計算違|けいさんちが}いがあった: there was a miscalculation\n- 〜が{計算違|けいさんちが}いだった: ~ was something I hadn't accounted for\n\nUSAGE:\nOften used when someone's plan fails because they underestimated something or didn't anticipate a factor. The tone implies a mistake in judgment rather than a simple arithmetic error.\n\nSIMILAR WORDS:\n- {誤算|ごさん}: miscalculation, misjudgment (slightly more formal, similar meaning)\n- {見込|みこ}み{違|ちが}い: wrong estimate, misjudgment\n- {読|よ}み{違|ちが}い: misreading (of a situation)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08679_gosan",
+      "reading": "ごさん",
+      "headword": "{誤算|ごさん}",
+      "label": "miscalculation, misjudgment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22135_mikomichigai",
+      "reading": "みこみちがい",
+      "headword": "{見込|みこ}み{違|ちが}い",
+      "label": "wrong estimate, misjudgment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     },
     "created": "2026-03-25T01:40:10Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{平明|へいめい}",
   "reading": "へいめい",
   "romaji": "heimei",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "plain; clear; easy to understand",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "21801_heimei_ex1",
       "japanese": "{平明|へいめい}な{文章|ぶんしょう}を{心|こころ}がけている。",
       "english": "I try to write in a plain, clear style.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21801_heimei_ex2",
       "japanese": "{彼|かれ}の{説明|せつめい}は{平明|へいめい}で{分|わ}かりやすい。",
       "english": "His explanations are lucid and easy to understand.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,12 +37,37 @@
       "id": "21801_heimei_ex3",
       "japanese": "{難|むずか}しい{専門用語|せんもんようご}を{避|さ}け、{平明|へいめい}な{言葉|ことば}で{書|か}かれた{入門書|にゅうもんしょ}だ。",
       "english": "It's an introductory book written in plain language, avoiding difficult technical terms.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {平|へい} (flat, plain) and {明|めい} (bright, clear). Describes language or expression that is clear, easy to follow, and free from unnecessary complexity. Used almost exclusively in written and literary contexts to evaluate the quality of writing or speech.\n\nUSAGE:\n- Almost always used to describe language, writing, or explanations — not physical objects\n- A positive quality — implies clarity and accessibility without being simplistic\n- Common in literary criticism, book reviews, and discussions of writing style\n\nCOMMON COLLOCATIONS:\n- {平明|へいめい}な{文章|ぶんしょう}: clear, plain writing\n- {平明|へいめい}な{言葉|ことば}: plain language\n- {平明|へいめい}な{表現|ひょうげん}: clear expression\n- {平明|へいめい}な{文体|ぶんたい}: a lucid writing style\n\nSIMILAR WORDS:\n- {明快|めいかい}: clear, lucid — similar but slightly stronger emphasis on logical clarity\n- {平易|へいい}: plain, easy — very close synonym; emphasizes ease of understanding\n- {簡潔|かんけつ}: concise — focuses on brevity rather than clarity\n- {分|わ}かりやすい: easy to understand — more conversational; broader usage",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15352_meikai",
+      "reading": "めいかい",
+      "headword": "{明快|めいかい}",
+      "label": "clear, lucid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18295_heii",
+      "reading": "へいい",
+      "headword": "{平易|へいい}",
+      "label": "plain, easy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05621_kanketsu",
+      "reading": "かんけつ",
+      "headword": "{簡潔|かんけつ}",
+      "label": "concise"
+    }
+  ],
   "metadata": {
     "entry_id": "21801_heimei",
     "schema_version": "2.0",
@@ -46,11 +75,18 @@
     "vocabulary_tier": "general",
     "jlpt_level": null,
     "tags": {
-      "pos": ["adjective-na"],
-      "semantic": ["language"],
-      "register": ["formal"],
+      "pos": [
+        "adjective-na"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "language"
+      ],
+      "register": [
+        "formal"
+      ],
       "usage": []
     },
-    "modified": "2026-04-03T17:16:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

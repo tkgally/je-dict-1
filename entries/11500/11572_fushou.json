@@ -2,7 +2,7 @@
   "id": "11572_fushou",
   "headword": "{不詳|ふしょう}",
   "reading": "ふしょう",
-  "part_of_speech": "noun / adjective (na)",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "unknown, unidentified",
   "definitions": [
     {
@@ -18,7 +18,9 @@
       "english": "A painting by an unknown artist.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11572_fushou_ex2",
@@ -26,7 +28,9 @@
       "english": "A man of unknown age was found.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11572_fushou_ex3",
@@ -34,10 +38,12 @@
       "english": "A fire of unknown origin broke out and is currently under investigation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A formal, written-register word. Typically placed after the noun it modifies in the pattern 〜{不詳|ふしょう} (~ unknown). Common in police reports, medical records, historical documents, and news articles. Unlike {不明|ふめい} (unclear, unknown), which is used more broadly, {不詳|ふしょう} specifically implies that details have not been ascertained or verified.\n\nCOMMON COLLOCATIONS:\n・{作者|さくしゃ}{不詳|ふしょう} (author unknown)\n・{年齢|ねんれい}{不詳|ふしょう} (age unknown)\n・{原因|げんいん}{不詳|ふしょう} (cause unknown)\n・{身元|みもと}{不詳|ふしょう} (identity unknown)\n・{詳細|しょうさい}{不詳|ふしょう} (details unknown)",
+  "notes": "A formal, written-register word. Typically placed after the noun it modifies in the pattern 〜{不詳|ふしょう} (~ unknown). Common in police reports, medical records, historical documents, and news articles. Unlike {不明|ふめい} (unclear, unknown), which is used more broadly, {不詳|ふしょう} specifically implies that details have not been ascertained or verified.\n\nCOMMON COLLOCATIONS:\n- {作者|さくしゃ}{不詳|ふしょう} (author unknown)\n- {年齢|ねんれい}{不詳|ふしょう} (age unknown)\n- {原因|げんいん}{不詳|ふしょう} (cause unknown)\n- {身元|みもと}{不詳|ふしょう} (identity unknown)\n- {詳細|しょうさい}{不詳|ふしょう} (details unknown)",
   "cross_references": [
     {
       "type": "synonym",
@@ -45,20 +51,34 @@
       "reading": "ふめい",
       "headword": "{不明|ふめい}",
       "label": "unknown (broader usage)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23267_shousaifumei",
+      "reading": "しょうさいふめい",
+      "headword": "{詳細不明|しょうさいふめい}",
+      "label": "details unknown"
     }
   ],
   "metadata": {
     "created": "2026-02-17T13:24:16Z",
-    "modified": "2026-04-25T07:03:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["descriptive"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

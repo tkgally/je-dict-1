@@ -3,7 +3,7 @@
   "id": "15954_tetsumenpi",
   "headword": "{鉄面皮|てつめんぴ}",
   "reading": "てつめんぴ",
-  "part_of_speech": "noun / adjective (na)",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "brazen; shameless; thick-skinned",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "That man is utterly shameless.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15954_tetsumenpi_ex2",
@@ -27,7 +29,9 @@
       "english": "Remaining calm even after being caught in a lie — there are limits to being shameless.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15954_tetsumenpi_ex3",
@@ -35,7 +39,9 @@
       "english": "Without admitting his own mistake, he pushed through with a brazen attitude.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nLiterally means \"iron face skin.\" Used as both a な-adjective ({鉄面皮|てつめんぴ}な{態度|たいど}) and a noun ({鉄面皮|てつめんぴ}だ). The word is always critical — it describes someone who should feel shame but does not.\n\nCOMMON COLLOCATIONS:\n- {鉄面皮|てつめんぴ}な{態度|たいど} (brazen attitude)\n- {鉄面皮|てつめんぴ}な{人|ひと} (shameless person)\n- {鉄面皮|てつめんぴ}にも{程|ほど}がある (there are limits to being shameless)\n\nSIMILAR WORDS:\n{厚|あつ}かましい (impudent) and {図|ず}々しい (brazen, pushy) are more colloquial alternatives. {鉄面皮|てつめんぴ} is more literary and emphatic.",
@@ -53,18 +59,37 @@
       "reading": "あつかましい",
       "headword": "{厚|あつ}かましい",
       "label": "impudent (colloquial)"
+    },
+    {
+      "type": "related",
+      "target_id": "09162_kougan",
+      "reading": "こうがん",
+      "headword": "{厚顔|こうがん}",
+      "label": "brazen, shameless, impudent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22933_tsuranokawagaatsui",
+      "reading": "つらのかわがあつい",
+      "headword": "{面|つら}の{皮|かわ}が{厚|あつ}い",
+      "label": "shameless"
     }
   ],
   "metadata": {
     "created": "2026-03-09T03:49:20Z",
-    "modified": "2026-05-02T09:03:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["personality"]
+      "semantic": [
+        "personality"
+      ]
     }
   }
 }

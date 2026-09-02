@@ -17,7 +17,9 @@
       "id": "21583_shindo_ex1",
       "japanese": "{授業|じゅぎょう}の{進度|しんど}が{速|はや}い。",
       "english": "The pace of the class is fast.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21583_shindo_ex2",
       "japanese": "{工事|こうじ}の{進度|しんど}を{確認|かくにん}した。",
       "english": "I checked the progress of the construction.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,59 @@
       "id": "21583_shindo_ex3",
       "japanese": "{学校|がっこう}によって{教科書|きょうかしょ}の{進度|しんど}が{違|ちが}うので、{転校|てんこう}すると{戸惑|とまど}うことがある。",
       "english": "Since the pace of the textbook differs between schools, transferring can be confusing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {進|しん} (advance) and {度|ど} (degree). Focuses on the rate or extent of advancement, particularly in structured contexts like education, construction, or project management.\n\nCOMMON COLLOCATIONS:\n- {進度|しんど}が{速|はや}い: the progress is fast\n- {進度|しんど}が{遅|おそ}い: the progress is slow\n- {進度|しんど}を{合|あ}わせる: to match the pace\n- {進度|しんど}を{確認|かくにん}する: to check the progress\n- {学習|がくしゅう}{進度|しんど}: learning progress/pace\n\nSIMILAR WORDS:\n- {進捗|しんちょく}: progress — more formal, used in business for project status updates\n- {進行|しんこう}: progression, advance — the act of moving forward, broader usage\n- ペース: pace — loanword used casually for speed of progress",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07377_shinchoku",
+      "reading": "しんちょく",
+      "headword": "{進捗|しんちょく}",
+      "label": "progress"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03686_shinkou",
+      "reading": "しんこう",
+      "headword": "{進行|しんこう}",
+      "label": "progression, advance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11173_peesu",
+      "reading": "ぺーす",
+      "headword": "ペース",
+      "label": "pace"
+    },
+    {
+      "type": "homophone",
+      "target_id": "22807_shindo",
+      "reading": "しんど",
+      "headword": "{震度|しんど}",
+      "label": "seismic intensity"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education", "work"]
+      "semantic": [
+        "education",
+        "work"
+      ]
     },
     "created": "2026-04-02T17:24:46Z",
-    "modified": "2026-04-02T17:24:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

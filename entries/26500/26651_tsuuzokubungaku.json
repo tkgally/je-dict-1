@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Composed of {通俗|つうぞく} (popular, common, accessible) and {文学|ぶんがく} (literature). In Japanese literary criticism, the distinction between {純文学|じゅんぶんがく} (pure/literary fiction) and {通俗文学|つうぞくぶんがく} (popular fiction) has been significant since the Meiji era. The term carries a slight connotation of being less artistically serious, though this perception has softened over time.\n\nCOMMON COLLOCATIONS:\n- {通俗文学|つうぞくぶんがく}{作家|さっか}: popular fiction writer\n- {通俗文学|つうぞくぶんがく}の{傑作|けっさく}: masterpiece of popular literature\n- {通俗文学|つうぞくぶんがく}を{読|よ}む: to read popular fiction\n\nSIMILAR WORDS:\n- {大衆文学|たいしゅうぶんがく}: mass literature — nearly synonymous, but emphasizes the mass audience; this term became more common after the Taisho era\n- {純文学|じゅんぶんがく}: literary fiction, pure literature — the counterpart focused on artistic and aesthetic expression\n- {娯楽小説|ごらくしょうせつ}: entertainment novel — focuses on the entertainment aspect of individual works",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16512_taishuubungaku",
+      "reading": "たいしゅうぶんがく",
+      "headword": "{大衆文学|たいしゅうぶんがく}",
+      "label": "mass literature"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13983_junbungaku",
+      "reading": "じゅんぶんがく",
+      "headword": "{純文学|じゅんぶんがく}",
+      "label": "literary fiction, pure literature"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26110_gorakushousetsu",
+      "reading": "ごらくしょうせつ",
+      "headword": "{娯楽|ごらく}{小説|しょうせつ}",
+      "label": "entertainment novel"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,6 +85,6 @@
       ]
     },
     "created": "2026-05-03T16:14:22Z",
-    "modified": "2026-05-03T16:14:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

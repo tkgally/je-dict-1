@@ -1,73 +1,80 @@
 {
- "schema_version": "2.0",
- "id": "14302_minoshirokin",
- "headword": "{身代金|みのしろきん}",
- "reading": "みのしろきん",
- "part_of_speech": "noun",
- "gloss": "ransom",
- "definitions": [
-  {
-   "sense_number": 1,
-   "gloss": "ransom",
-   "explanation": "Money demanded or paid for the release of a captive. Used in both literal kidnapping contexts and metaphorically in computing (ransomware)."
+  "schema_version": "2.0",
+  "id": "14302_minoshirokin",
+  "headword": "{身代金|みのしろきん}",
+  "reading": "みのしろきん",
+  "part_of_speech": "noun",
+  "gloss": "ransom",
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "ransom",
+      "explanation": "Money demanded or paid for the release of a captive. Used in both literal kidnapping contexts and metaphorically in computing (ransomware)."
+    }
+  ],
+  "examples": [
+    {
+      "id": "14302_minoshirokin_ex1",
+      "japanese": "{身代金|みのしろきん}を{要求|ようきゅう}された。",
+      "english": "A ransom was demanded.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "14302_minoshirokin_ex2",
+      "japanese": "{犯人|はんにん}は{身代金|みのしろきん}として{一億円|いちおくえん}を{要求|ようきゅう}した。",
+      "english": "The criminal demanded one hundred million yen as ransom.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "14302_minoshirokin_ex3",
+      "japanese": "{身代金|みのしろきん}{目的|もくてき}の{誘拐|ゆうかい}は{重|おも}い{刑|けい}が{科|か}される。",
+      "english": "Kidnapping for ransom carries a heavy sentence.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "Literally \"money in place of one's body.\" The word breaks down as {身代|みのしろ} (substitute for a person) + {金|きん} (money).\n\nCOMMON COLLOCATIONS:\n- {身代金|みのしろきん}を{要求|ようきゅう}する (demand a ransom)\n- {身代金|みのしろきん}を{払|はら}う (pay a ransom)\n- {身代金|みのしろきん}{目的|もくてき} (for ransom purposes)\n\nIn modern usage, also appears in computing contexts: {身代金|みのしろきん}{要求型|ようきゅうがた}ウイルス or ランサムウェア refers to ransomware that encrypts files and demands payment.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14210_yuukai",
+      "reading": "ゆうかい",
+      "headword": "{誘拐|ゆうかい}",
+      "label": "kidnapping"
+    },
+    {
+      "type": "related",
+      "target_id": "09678_hitojichi",
+      "reading": "ひとじち",
+      "headword": "{人質|ひとじち}",
+      "label": "hostage"
+    }
+  ],
+  "metadata": {
+    "created": "2026-02-28T10:55:46Z",
+    "modified": "2026-09-02T03:02:30Z",
+    "ai_model": "claude-opus-4-6",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "law"
+      ]
+    }
   }
- ],
- "examples": [
-  {
-   "id": "14302_minoshirokin_ex1",
-   "japanese": "{身代金|みのしろきん}を{要求|ようきゅう}された。",
-   "english": "A ransom was demanded.",
-   "notes": null,
-   "has_audio": false,
-   "sense_numbers": [
-    1
-   ]
-  },
-  {
-   "id": "14302_minoshirokin_ex2",
-   "japanese": "{犯人|はんにん}は{身代金|みのしろきん}として{一億円|いちおくえん}を{要求|ようきゅう}した。",
-   "english": "The criminal demanded one hundred million yen as ransom.",
-   "notes": null,
-   "has_audio": false,
-   "sense_numbers": [
-    1
-   ]
-  },
-  {
-   "id": "14302_minoshirokin_ex3",
-   "japanese": "{身代金|みのしろきん}{目的|もくてき}の{誘拐|ゆうかい}は{重|おも}い{刑|けい}が{科|か}される。",
-   "english": "Kidnapping for ransom carries a heavy sentence.",
-   "notes": null,
-   "has_audio": false,
-   "sense_numbers": [
-    1
-   ]
-  }
- ],
- "notes": "Literally \"money in place of one's body.\" The word breaks down as {身代|みのしろ} (substitute for a person) + {金|きん} (money).\n\nCOMMON COLLOCATIONS:\n- {身代金|みのしろきん}を{要求|ようきゅう}する (demand a ransom)\n- {身代金|みのしろきん}を{払|はら}う (pay a ransom)\n- {身代金|みのしろきん}{目的|もくてき} (for ransom purposes)\n\nIn modern usage, also appears in computing contexts: {身代金|みのしろきん}{要求型|ようきゅうがた}ウイルス or ランサムウェア refers to ransomware that encrypts files and demands payment.",
- "cross_references": [
-  {
-   "type": "related",
-   "target_id": "14210_yuukai",
-   "reading": "ゆうかい",
-   "headword": "{誘拐|ゆうかい}",
-   "label": "kidnapping"
-  }
- ],
- "metadata": {
-  "created": "2026-02-28T10:55:46Z",
-  "modified": "2026-07-13T16:04:21Z",
-  "ai_model": "claude-opus-4-6",
-  "vocabulary_tier": "general",
-  "tags": {
-   "pos": [
-    "noun"
-   ],
-   "formality": "neutral",
-   "politeness": "plain",
-   "semantic": [
-    "law"
-   ]
-  }
- }
 }

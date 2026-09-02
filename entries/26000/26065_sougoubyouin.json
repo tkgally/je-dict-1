@@ -17,7 +17,9 @@
       "id": "26065_sougoubyouin_ex1",
       "japanese": "{総合病院|そうごうびょういん}で{検査|けんさ}を{受|う}けた。",
       "english": "I had an examination at the general hospital.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26065_sougoubyouin_ex2",
       "japanese": "この{町|まち}には{大|おお}きな{総合病院|そうごうびょういん}が{二|ふた}つある。",
       "english": "There are two large general hospitals in this town.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,54 @@
       "id": "26065_sougoubyouin_ex3",
       "japanese": "{紹介状|しょうかいじょう}がないと{総合病院|そうごうびょういん}では{初診料|しょしんりょう}が{高|たか}くなることがある。",
       "english": "Without a referral letter, the initial consultation fee at a general hospital can be higher.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A {総合病院|そうごうびょういん} is a hospital that houses multiple specialized departments such as internal medicine, surgery, pediatrics, and orthopedics. In Japan, general hospitals typically have 100 or more beds and are distinguished from smaller clinics ({診療所|しんりょうじょ}).\n\nCOMMON COLLOCATIONS:\n- {総合病院|そうごうびょういん}に{通|かよ}う — to attend a general hospital regularly\n- {総合病院|そうごうびょういん}に{入院|にゅういん}する — to be admitted to a general hospital\n- {総合病院|そうごうびょういん}で{手術|しゅじゅつ}を{受|う}ける — to have surgery at a general hospital\n\nSIMILAR WORDS:\n- {診療所|しんりょうじょ} / クリニック — smaller clinic, often single-specialty\n- {大学病院|だいがくびょういん} — university hospital, affiliated with a medical school\n- {専門病院|せんもんびょういん} — specialized hospital focusing on one area\n\nCULTURAL NOTE:\nJapan's healthcare system encourages patients to visit a local clinic first and get a referral ({紹介状|しょうかいじょう}) before going to a general hospital. Since 2016, many general hospitals charge an extra fee ({選定療養費|せんていりょうようひ}) for patients who come without a referral.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14205_shinryoujo",
+      "reading": "しんりょうじょ",
+      "headword": "{診療所|しんりょうじょ}",
+      "label": "smaller clinic, often single-specialty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08941_kurinikku",
+      "reading": "くりにっく",
+      "headword": "クリニック",
+      "label": "smaller clinic, often single-specialty"
+    },
+    {
+      "type": "related",
+      "target_id": "06175_sougouteki",
+      "reading": "そうごうてき",
+      "headword": "{総合的|そうごうてき}",
+      "label": "comprehensive, overall"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"],
-      "domain": ["medical"]
+      "semantic": [
+        "building"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-04-29T12:31:25Z",
-    "modified": "2026-04-29T12:31:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

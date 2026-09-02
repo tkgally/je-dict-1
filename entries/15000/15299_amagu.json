@@ -19,7 +19,9 @@
       "english": "Please bring rain gear.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15299_amagu_ex2",
@@ -27,7 +29,9 @@
       "english": "The weather forecast says rain, so rain gear is necessary.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15299_amagu_ex3",
@@ -35,21 +39,36 @@
       "english": "When going mountain climbing, always prepare rain gear in case of sudden weather changes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{雨具|あまぐ} is a collective term for all rain protection items. It does not refer to one specific item but rather the category as a whole.\n\nINCLUDES:\n- {傘|かさ}: umbrella\n- {合羽|かっぱ} / レインコート: raincoat\n- {長靴|ながぐつ}: rain boots\n\nCOMMON COLLOCATIONS:\n- {雨具|あまぐ}を{持参|じさん}する: to bring rain gear\n- {雨具|あまぐ}を{用意|ようい}する: to prepare rain gear\n- {雨具|あまぐ}{必携|ひっけい}: rain gear required\n\nREGISTER:\nCommonly seen in outdoor activity guides, hiking instructions, and weather-related notices. Slightly formal compared to casual speech, where people would just say {傘|かさ} (umbrella) or カッパ (raincoat).",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23048_kappa",
+      "reading": "かっぱ",
+      "headword": "{合羽|かっぱ}",
+      "label": "raincoat"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T08:54:38Z",
-    "modified": "2026-04-06T04:02:27Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather", "clothing"]
+      "semantic": [
+        "weather",
+        "clothing"
+      ]
     }
   }
 }

@@ -19,7 +19,9 @@
       "english": "He is a connoisseur of antiques.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18598_mekiki_ex2",
@@ -27,7 +29,9 @@
       "english": "Few people can judge the quality of fish.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18598_mekiki_ex3",
@@ -35,21 +39,56 @@
       "english": "The shop owner has a reliable eye for quality — only good items are on display.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCan refer either to the person ({目利|めき}き = connoisseur) or to the skill of judging ({目利|めき}きができる = to be able to appraise). Commonly used in contexts involving antiques, art, gemstones, fish, and other items where expert evaluation matters.\n\nCOMMON COLLOCATIONS:\n- {目利|めき}きが{確|たし}か (having a reliable eye)\n- {目利|めき}きができる (to be able to judge quality)\n- {目利|めき}きの{力|ちから} (the ability to appraise)\n\nSIMILAR WORDS:\n- {鑑定|かんてい}: appraisal — more formal, often professional\n- {通|つう}: connoisseur — broader term for someone knowledgeable\n- {見|み}る{目|め}がある: to have a good eye — more casual expression",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16030_kantei",
+      "reading": "かんてい",
+      "headword": "{鑑定|かんてい}",
+      "label": "appraisal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10097_megakiku",
+      "reading": "めがきく",
+      "headword": "{目|め}が{利|き}く",
+      "label": "to have a good eye for, to be discerning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22112_kanteishi",
+      "reading": "かんていし",
+      "headword": "{鑑定士|かんていし}",
+      "label": "appraiser"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24055_kanshiki",
+      "reading": "かんしき",
+      "headword": "{鑑識|かんしき}",
+      "label": "forensics"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T09:52:18Z",
-    "modified": "2026-03-22T09:52:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

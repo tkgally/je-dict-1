@@ -19,7 +19,9 @@
       "english": "I made a wish at the shrine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14621_negaigoto_ex2",
@@ -27,7 +29,9 @@
       "english": "I wrote my wish on a strip of paper for Tanabata.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14621_negaigoto_ex3",
@@ -35,21 +39,49 @@
       "english": "It is said that if you see a shooting star and say your wish three times, it will come true.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CULTURAL NOTE:\n{願|ねが}い{事|ごと} is closely associated with shrine and temple visits, especially at {初詣|はつもうで} (New Year's shrine visit) and during {七夕|たなばた} (Star Festival, July 7), when people write wishes on {短冊|たんざく} (paper strips) and hang them on bamboo.\n\nCOMMON COLLOCATIONS:\n- {願|ねが}い{事|ごと}をする (to make a wish)\n- {願|ねが}い{事|ごと}が{叶|かな}う (a wish comes true)\n- {願|ねが}い{事|ごと}を{書|か}く (to write a wish)\n- {願|ねが}い{事|ごと}を{唱|とな}える (to say/recite a wish)\n\nSIMILAR WORDS:\n- {願|ねが}い{事|ごと}: wish (heartfelt, often spiritual/festive)\n- {望|のぞ}み: hope, wish (broader, more general)\n- {祈|いの}り: prayer (more religious or solemn)\n- お{願|ねが}い: request, favor (directed at a person)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03543_nozomi",
+      "reading": "のぞみ",
+      "headword": "{望|のぞ}み",
+      "label": "hope, wish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13732_inori",
+      "reading": "いのり",
+      "headword": "{祈|いの}り",
+      "label": "prayer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10299_onegai",
+      "reading": "おねがい",
+      "headword": "お{願|ねが}い",
+      "label": "request, favor"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T08:33:07Z",
-    "modified": "2026-03-02T08:33:07Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

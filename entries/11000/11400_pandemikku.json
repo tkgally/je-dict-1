@@ -19,7 +19,9 @@
       "english": "The pandemic spread across the world.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11400_pandemikku_ex2",
@@ -27,7 +29,9 @@
       "english": "Remote work increased due to the pandemic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11400_pandemikku_ex3",
@@ -35,21 +39,51 @@
       "english": "Having experienced the pandemic, the importance of infectious disease countermeasures became widely recognized.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE: パンデミック is a loanword from English \"pandemic.\" While the word existed in medical terminology before, it entered everyday Japanese vocabulary during the COVID-19 crisis starting in 2020.\n\nCOMMON COLLOCATIONS:\n- パンデミックが{発生|はっせい}する (a pandemic breaks out)\n- パンデミックの{影響|えいきょう} (the effects of the pandemic)\n- パンデミック{対策|たいさく} (pandemic countermeasures)\n- パンデミック{前|まえ} / パンデミック{後|ご} (pre-pandemic / post-pandemic)\n- コロナパンデミック (the COVID pandemic)\n\nRELATED TERMS:\n- {感染症|かんせんしょう} (infectious disease)\n- {流行|りゅうこう} (epidemic, outbreak)\n- エピデミック (epidemic — more localized than a pandemic)",
-  "cross_references": [],
+  "notes": "USAGE: パンデミック is a loanword from English \"pandemic.\" While the word existed in medical terminology before, it entered everyday Japanese vocabulary during the COVID-19 crisis starting in 2020.\n\nCOMMON COLLOCATIONS:\n- パンデミックが{発生|はっせい}する (a pandemic breaks out)\n- パンデミックの{影響|えいきょう} (the effects of the pandemic)\n- パンデミック{対策|たいさく} (pandemic countermeasures)\n- パンデミック{前|まえ} / パンデミック{後|ご} (pre-pandemic / post-pandemic)\n- コロナパンデミック (the COVID pandemic)\n\nRELATED WORDS:\n- {感染症|かんせんしょう} (infectious disease)\n- {流行|りゅうこう} (epidemic, outbreak)\n- エピデミック (epidemic — more localized than a pandemic)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15681_kansenshou",
+      "reading": "かんせんしょう",
+      "headword": "{感染症|かんせんしょう}",
+      "label": "infectious disease"
+    },
+    {
+      "type": "related",
+      "target_id": "03678_ryuukou",
+      "reading": "りゅうこう",
+      "headword": "{流行|りゅうこう}",
+      "label": "epidemic, outbreak"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19965_dairyuukou",
+      "reading": "だいりゅうこう",
+      "headword": "{大流行|だいりゅうこう}",
+      "label": "huge craze"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T02:06:50Z",
-    "modified": "2026-02-16T02:06:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

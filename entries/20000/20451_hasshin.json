@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A medical term composed of {発|はつ} (outbreak, occurrence) and {疹|しん} (rash). The standard word for skin rashes in both medical and everyday contexts.\n\nREADING NOTE:\nThe reading はっしん is standard. An older reading ほっしん also exists but is less common today. Be careful not to confuse with the homophone {発信|はっしん} (sending, transmitting).\n\nCOMMON COLLOCATIONS:\n- {発疹|はっしん}が{出|で}る — a rash appears\n- {発疹|はっしん}が{広|ひろ}がる — a rash spreads\n- {発疹|はっしん}が{引|ひ}く — a rash subsides\n- アレルギー{性|せい}{発疹|はっしん} — allergic rash\n\nSIMILAR WORDS:\n- {湿疹|しっしん} — eczema, dermatitis (chronic or recurring skin condition)\n- {蕁麻疹|じんましん} — hives, urticaria (raised itchy welts)\n- かぶれ — rash from contact irritation (more casual)",
+  "notes": "A medical term composed of {発|はつ} (outbreak, occurrence) and {疹|しん} (rash). The standard word for skin rashes in both medical and everyday contexts.\n\nPRONUNCIATION:\nThe reading はっしん is standard. An older reading ほっしん also exists but is less common today. Be careful not to confuse with the homophone {発信|はっしん} (sending, transmitting).\n\nCOMMON COLLOCATIONS:\n- {発疹|はっしん}が{出|で}る — a rash appears\n- {発疹|はっしん}が{広|ひろ}がる — a rash spreads\n- {発疹|はっしん}が{引|ひ}く — a rash subsides\n- アレルギー{性|せい}{発疹|はっしん} — allergic rash\n\nSIMILAR WORDS:\n- {湿疹|しっしん} — eczema, dermatitis (chronic or recurring skin condition)\n- {蕁麻疹|じんましん} — hives, urticaria (raised itchy welts)\n- かぶれ — rash from contact irritation (more casual)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06951_shisshin",
+      "reading": "しっしん",
+      "headword": "{湿疹|しっしん}",
+      "label": "eczema, dermatitis"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15182_jinmashin",
+      "reading": "じんましん",
+      "headword": "{蕁麻疹|じんましん}",
+      "label": "hives, urticaria"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25271_kabure",
+      "reading": "かぶれ",
+      "headword": "かぶれ",
+      "label": "rash from contact irritation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       ]
     },
     "created": "2026-03-29T14:13:07Z",
-    "modified": "2026-07-28T09:34:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

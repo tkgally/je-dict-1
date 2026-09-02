@@ -3,7 +3,7 @@
   "headword": "{防除|ぼうじょ}",
   "reading": "ぼうじょ",
   "romaji": "boujo",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "pest control; prevention and extermination",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {防|ぼう} (prevent, defend) and {除|じょ} (remove, eliminate). Covers both prevention ({防|ぼう}) and elimination ({除|じょ}) in a single term. Used across agriculture, forestry, and public health.\n\nUSAGE:\nFrequently encountered in agricultural extension materials, municipal pest control notices, and environmental policy. Can refer to controlling insects, plant diseases, invasive species, or weeds. Often modified by the target: {害虫防除|がいちゅうぼうじょ} (insect pest control), {病害虫防除|びょうがいちゅうぼうじょ} (pest and disease control).\n\nCOMMON COLLOCATIONS:\n- {害虫|がいちゅう}{防除|ぼうじょ}: insect pest control\n- {防除|ぼうじょ}{対策|たいさく}: pest control measures\n- {防除|ぼうじょ}を{行|おこな}う: to carry out pest control\n- {生物的|せいぶつてき}{防除|ぼうじょ}: biological pest control\n\nSIMILAR WORDS:\n- {駆除|くじょ}: extermination — focuses on eliminating pests that are already present, without the preventive aspect\n- {消毒|しょうどく}: disinfection, sterilization — killing pathogens on surfaces or in environments\n- {除草|じょそう}: weeding — specifically removing unwanted plants\n- {害虫対策|がいちゅうたいさく}: pest countermeasures — a broader, less technical term for dealing with pest problems",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16374_kujo",
+      "reading": "くじょ",
+      "headword": "{駆除|くじょ}",
+      "label": "extermination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07591_shoudoku",
+      "reading": "しょうどく",
+      "headword": "{消毒|しょうどく}",
+      "label": "disinfection, sterilization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18648_josou",
+      "reading": "じょそう",
+      "headword": "{除草|じょそう}",
+      "label": "weeding"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +88,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-20T11:31:25Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

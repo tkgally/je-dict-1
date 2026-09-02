@@ -3,7 +3,7 @@
   "headword": "{延|の}びる",
   "reading": "のびる",
   "romaji": "nobiru",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to be postponed; to be extended; to be delayed",
   "conjugation": {
     "type": "ichidan",
@@ -169,8 +169,24 @@
       "notes": null
     }
   ],
-  "notes": "An ichidan verb meaning to be postponed or extended. Uses the kanji {延|えん} (to extend, to postpone), distinguishing it from the homophone {伸|の}びる (to stretch, to grow). The key difference is that {延|の}びる concerns time, schedules, and durations, while {伸|の}びる concerns physical stretching or growth.\n\nTRANSITIVITY:\nIntransitive. The transitive counterpart is {延|の}ばす (to postpone, to extend).\n\nKANJI NOTE:\n- {延|の}びる — for time, schedules, deadlines, distances, and durations\n- {伸|の}びる — for physical stretching, growth, and improvement\n\nCOMMON COLLOCATIONS:\n- {会議|かいぎ}が{延|の}びる — a meeting runs over / is delayed\n- {期限|きげん}が{延|の}びる — a deadline is extended\n- {寿命|じゅみょう}が{延|の}びる — lifespan is extended\n- {工期|こうき}が{延|の}びる — the construction period is extended\n\nSIMILAR WORDS:\n- {伸|の}びる — to stretch, to grow; focuses on physical extension or improvement in ability\n- {遅|おく}れる — to be late; emphasizes being behind schedule, while {延|の}びる means the schedule itself has been pushed back",
+  "notes": "An ichidan verb meaning to be postponed or extended. Uses the kanji {延|えん} (to extend, to postpone), distinguishing it from the homophone {伸|の}びる (to stretch, to grow). The key difference is that {延|の}びる concerns time, schedules, and durations, while {伸|の}びる concerns physical stretching or growth.\n\nTRANSITIVITY:\nIntransitive. The transitive counterpart is {延|の}ばす (to postpone, to extend).\n\nWRITING:\n- {延|の}びる — for time, schedules, deadlines, distances, and durations\n- {伸|の}びる — for physical stretching, growth, and improvement\n\nCOMMON COLLOCATIONS:\n- {会議|かいぎ}が{延|の}びる — a meeting runs over / is delayed\n- {期限|きげん}が{延|の}びる — a deadline is extended\n- {寿命|じゅみょう}が{延|の}びる — lifespan is extended\n- {工期|こうき}が{延|の}びる — the construction period is extended\n\nSIMILAR WORDS:\n- {伸|の}びる — to stretch, to grow; focuses on physical extension or improvement in ability\n- {遅|おく}れる — to be late; emphasizes being behind schedule, while {延|の}びる means the schedule itself has been pushed back",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "01974_nobiru",
+      "reading": "のびる",
+      "headword": "{伸|の}びる",
+      "label": "to stretch, to grow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00741_okureru",
+      "reading": "おくれる",
+      "headword": "{遅|おく}れる",
+      "label": "to be late"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -187,6 +203,6 @@
       "verb_class": "ichidan"
     },
     "created": "2026-03-26T07:29:21Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

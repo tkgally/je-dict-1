@@ -17,7 +17,9 @@
       "id": "28409_souiukotode_ex1",
       "japanese": "そういうことで、よろしくお{願|ねが}いします。",
       "english": "So with that, please look after this matter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28409_souiukotode_ex2",
       "japanese": "そういうことで、{今日|きょう}の{会議|かいぎ}は{終|お}わりにします。",
       "english": "With that, we'll bring today's meeting to a close.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "28409_souiukotode_ex3",
       "japanese": "そういうことで、{来週|らいしゅう}までに{資料|しりょう}を{準備|じゅんび}しておいてください。",
       "english": "That being the case, please have the materials ready by next week.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Literally 'in that kind of matter,' but functions as a discourse marker for wrapping up. Sounds slightly informal but is common in workplace conversation, meetings, and emails.\n\nUSAGE:\nTypically followed by a request, a conclusion, or a farewell. Often paired with よろしくお{願|ねが}いします or {終|お}わりにします.\n\nSIMILAR EXPRESSIONS:\n- では: well then — more formal, neutral transition\n- それでは: with that — slightly more formal than そういうことで\n- というわけで: for that reason — emphasizes causal logic; close in nuance but more reasoning-oriented",
+  "notes": "Literally 'in that kind of matter,' but functions as a discourse marker for wrapping up. Sounds slightly informal but is common in workplace conversation, meetings, and emails.\n\nUSAGE:\nTypically followed by a request, a conclusion, or a farewell. Often paired with よろしくお{願|ねが}いします or {終|お}わりにします.\n\nSIMILAR WORDS:\n- では: well then — more formal, neutral transition\n- それでは: with that — slightly more formal than そういうことで\n- というわけで: for that reason — emphasizes causal logic; close in nuance but more reasoning-oriented",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02945_deha",
+      "reading": "では",
+      "headword": "では",
+      "label": "well then"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02944_soredeha",
+      "reading": "それでは",
+      "headword": "それでは",
+      "label": "with that"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22425_toiuwakede",
+      "reading": "というわけで",
+      "headword": "というわけで",
+      "label": "for that reason"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["communication"],
+      "politeness": "plain",
+      "semantic": [
+        "communication"
+      ],
       "domain": []
     },
     "created": "2026-05-30T04:08:44Z",
-    "modified": "2026-05-30T04:08:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

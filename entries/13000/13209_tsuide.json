@@ -19,7 +19,9 @@
       "english": "Tokyo is number one, followed by Osaka.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13209_tsuide_ex2",
@@ -27,7 +29,9 @@
       "english": "First we introduced ourselves, and then moved on to the agenda.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13209_tsuide_ex3",
@@ -35,22 +39,39 @@
       "english": "Company A has the highest sales, followed by Company B and then Company C.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nThe te-form of the verb {次|つ}ぐ (to follow, to come next), used as a conjunctive adverb. Very common in rankings, lists, and sequential descriptions. Often appears in news, reports, and presentations.\n\nPATTERNS:\n- Xが{一番|いちばん}で、{次|つ}いでY: X is first, followed by Y\n- まずX、{次|つ}いでY: first X, then Y\n\nSIMILAR WORDS:\n- {次|つぎ}に: next (more conversational, less formal)\n- その{後|あと}: after that (focuses on temporal sequence)\n- {続|つづ}いて: following, continuing (emphasizes continuation)",
-  "cross_references": [],
+  "notes": "USAGE:\nThe te-form of the verb {次|つ}ぐ (to follow, to come next), used as a conjunctive adverb. Very common in rankings, lists, and sequential descriptions. Often appears in news, reports, and presentations.\n\nCOMMON PATTERNS:\n- Xが{一番|いちばん}で、{次|つ}いでY: X is first, followed by Y\n- まずX、{次|つ}いでY: first X, then Y\n\nSIMILAR WORDS:\n- {次|つぎ}に: next (more conversational, less formal)\n- その{後|あと}: after that (focuses on temporal sequence)\n- {続|つづ}いて: following, continuing (emphasizes continuation)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30273_tsugini",
+      "reading": "つぎに",
+      "headword": "{次|つぎ}に",
+      "label": "next"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T06:16:55Z",
-    "modified": "2026-02-24T06:16:55Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "conjunction"],
+      "pos": [
+        "adverb",
+        "conjunction"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "style": ["written"]
+      "semantic": [
+        "general"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{向|む}かい{合|あ}う",
   "reading": "むかいあう",
   "romaji": "mukaiau",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to face each other",
   "definitions": [
     {
@@ -54,8 +54,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound verb formed from {向|む}かう (to face, to head toward) and {合|あ}う (the reciprocal auxiliary suffix 'to do mutually'). The reciprocal nuance is essential: one-sided facing is {向|む}かう, while mutual facing is {向|む}かい{合|あ}う.\n\nUSAGE:\n- Physical meaning: two people, tables, buildings, etc. positioned facing each other. Subjects are typically plural or joined by と.\n- Figurative meaning: facing up to or directly engaging with a problem, emotion, person, or one's past. Takes the object with と or と+{正面|しょうめん}から.\n- The {て}-form {向|む}かい{合|あ}って is very common as an adverbial: {向|む}かい{合|あ}って{話|はな}す (to talk face to face).\n- {向|む}かい{合|あ}わせ (the noun form with -aせ ending) means 'opposite each other (in arrangement)'.\n\nTRANSITIVITY:\n- Intransitive. Partners are marked with と, or both parties appear as the joint subject.\n\nCOMMON COLLOCATIONS:\n- {正面|しょうめん}から{向|む}かい{合|あ}う: to face (something) head-on\n- {問題|もんだい}と{向|む}かい{合|あ}う: to confront a problem\n- {自分|じぶん}{自身|じしん}と{向|む}かい{合|あ}う: to face oneself\n- {向|む}かい{合|あ}って{座|すわ}る: to sit facing each other\n\nSIMILAR WORDS:\n- {向|む}かう: to head toward / face — one-directional, not reciprocal\n- {対|たい}する: to face / oppose — more abstract, often in formal or literary contexts\n- {対峙|たいじ}する: to confront / face off — stronger, often adversarial\n- {見|み}つめ{合|あ}う: to gaze at each other — emphasizes eye contact rather than physical position",
+  "notes": "A compound verb formed from {向|む}かう (to face, to head toward) and {合|あ}う (the reciprocal auxiliary suffix 'to do mutually'). The reciprocal nuance is essential: one-sided facing is {向|む}かう, while mutual facing is {向|む}かい{合|あ}う.\n\nUSAGE:\n- Physical meaning: two people, tables, buildings, etc. positioned facing each other. Subjects are typically plural or joined by と.\n- Figurative meaning: facing up to or directly engaging with a problem, emotion, person, or one's past. Takes the object with と or と+{正面|しょうめん}から.\n- The て-form {向|む}かい{合|あ}って is very common as an adverbial: {向|む}かい{合|あ}って{話|はな}す (to talk face to face).\n- {向|む}かい{合|あ}わせ (the noun form with -aせ ending) means 'opposite each other (in arrangement)'.\n\nTRANSITIVITY:\n- Intransitive. Partners are marked with と, or both parties appear as the joint subject.\n\nCOMMON COLLOCATIONS:\n- {正面|しょうめん}から{向|む}かい{合|あ}う: to face (something) head-on\n- {問題|もんだい}と{向|む}かい{合|あ}う: to confront a problem\n- {自分|じぶん}{自身|じしん}と{向|む}かい{合|あ}う: to face oneself\n- {向|む}かい{合|あ}って{座|すわ}る: to sit facing each other\n\nSIMILAR WORDS:\n- {向|む}かう: to head toward / face — one-directional, not reciprocal\n- {対|たい}する: to face / oppose — more abstract, often in formal or literary contexts\n- {対峙|たいじ}する: to confront / face off — stronger, often adversarial\n- {見|み}つめ{合|あ}う: to gaze at each other — emphasizes eye contact rather than physical position",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01186_mukau",
+      "reading": "むかう",
+      "headword": "{向|む}かう",
+      "label": "to head toward / face"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02126_taisuru",
+      "reading": "たいする",
+      "headword": "{対|たい}する",
+      "label": "to face / oppose"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12357_taiji",
+      "reading": "たいじ",
+      "headword": "{対峙|たいじ}",
+      "label": "to confront / face off"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -72,7 +95,7 @@
       "verb_class": "godan-u"
     },
     "created": "2026-04-14T14:04:47Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

@@ -17,7 +17,9 @@
       "id": "30007_koudasha_ex1",
       "japanese": "{彼|かれ}はチーム{一|いち}の{好打者|こうだしゃ}だ。",
       "english": "He is the team's best hitter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30007_koudasha_ex2",
       "japanese": "{好打者|こうだしゃ}が{揃|そろ}った{強力|きょうりょく}な{打線|だせん}。",
       "english": "A powerful lineup full of good hitters.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "30007_koudasha_ex3",
       "japanese": "{好打者|こうだしゃ}はボールをよく{見|み}て、{確実|かくじつ}にヒットを{打|う}つ。",
       "english": "A good hitter watches the ball carefully and reliably gets hits.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from {好|こう} (good) + {打者|だしゃ} (batter). Emphasizes skill at making contact and getting on base, as opposed to home-run power.\n\nSIMILAR WORDS:\n- {強打者|きょうだしゃ}: power hitter — valued for home-run power over average\n- {打者|だしゃ}: batter — the neutral general term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23977_kyoudasha",
+      "reading": "きょうだしゃ",
+      "headword": "{強打者|きょうだしゃ}",
+      "label": "power hitter"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports"],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-07-21T00:17:50Z",
-    "modified": "2026-07-21T00:17:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

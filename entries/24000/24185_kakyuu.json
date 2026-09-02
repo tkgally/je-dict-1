@@ -46,12 +46,37 @@
   ],
   "notes": "An astronomical term for a meteor that is brighter than the planet Venus (roughly magnitude -4 or brighter). {火球|かきゅう} sightings occasionally make the news in Japan and generate excitement on social media.\n\nCOMMON COLLOCATIONS:\n- {火球|かきゅう}を{目撃|もくげき}する: to witness a fireball\n- {火球|かきゅう}が{流|なが}れる: a fireball streaks across the sky\n- {火球|かきゅう}{観測|かんそく}: fireball observation\n\nSIMILAR WORDS:\n- {流星|りゅうせい}: meteor, shooting star — the general term for a streak of light caused by debris entering the atmosphere\n- {隕石|いんせき}: meteorite — a fragment that survives passage through the atmosphere and reaches the ground\n- {流|なが}れ{星|ぼし}: shooting star — the poetic, everyday term for a meteor",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06310_ryuusei",
+      "reading": "りゅうせい",
+      "headword": "{流星|りゅうせい}",
+      "label": "meteor, shooting star"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05054_inseki",
+      "reading": "いんせき",
+      "headword": "{隕石|いんせき}",
+      "label": "meteorite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05049_nagareboshi",
+      "reading": "ながれぼし",
+      "headword": "{流|なが}れ{星|ぼし}",
+      "label": "shooting star"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "science",
         "nature"
@@ -59,6 +84,6 @@
       "usage": []
     },
     "created": "2026-04-17T21:45:18Z",
-    "modified": "2026-04-17T21:45:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

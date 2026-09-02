@@ -17,7 +17,9 @@
       "id": "29291_daisaigai_ex1",
       "japanese": "{大災害|だいさいがい}に{見舞|みま}われる。",
       "english": "Be struck by a major disaster.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29291_daisaigai_ex2",
       "japanese": "この{地震|じしん}は{戦後|せんご}{最大|さいだい}の{大災害|だいさいがい}となった。",
       "english": "This earthquake became the worst catastrophe since the war.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "29291_daisaigai_ex3",
       "japanese": "{大災害|だいさいがい}に{備|そな}えて、{各家庭|かくかてい}で{食料|しょくりょう}や{水|みず}を{備蓄|びちく}しておくことが{勧|すす}められている。",
       "english": "Each household is encouraged to stockpile food and water in preparation for a major disaster.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of the prefix {大|だい} (large, major) + {災害|さいがい} (disaster). Emphasizes the scale and severity of the damage.\n\nCOMMON COLLOCATIONS:\n- {大災害|だいさいがい}に{見舞|みま}われる: to be struck by a catastrophe\n- {大災害|だいさいがい}に{備|そな}える: to prepare for a major disaster\n\nSIMILAR WORDS:\n- {自然|しぜん}{災害|さいがい}: natural disaster — classifies by cause rather than scale\n- {惨事|さんじ}: tragic accident; disaster — stresses the tragic, horrific nature of the event",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29290_shizensaigai",
+      "reading": "しぜんさいがい",
+      "headword": "{自然|しぜん}{災害|さいがい}",
+      "label": "natural disaster"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28385_sanji",
+      "reading": "さんじ",
+      "headword": "{惨事|さんじ}",
+      "label": "tragic accident"
+    },
+    {
+      "type": "related",
+      "target_id": "06146_tenpenchii",
+      "reading": "てんぺんちい",
+      "headword": "{天変地異|てんぺんちい}",
+      "label": "natural disaster"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["nature"],
+      "politeness": "plain",
+      "semantic": [
+        "nature"
+      ],
       "domain": []
     },
     "created": "2026-06-16T15:19:08Z",
-    "modified": "2026-06-16T15:19:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

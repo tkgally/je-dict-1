@@ -3,7 +3,7 @@
   "headword": "{一般用|いっぱんよう}",
   "reading": "いっぱんよう",
   "romaji": "ippanyou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "for general use; general-purpose",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Composed of {一般|いっぱん} (general) and {用|よう} (use/for). The suffix {用|よう} is highly productive and attaches to many nouns to mean \"for the use of\" or \"intended for.\"\n\nCOMMON COLLOCATIONS:\n- {一般用|いっぱんよう}{医薬品|いやくひん}: over-the-counter medicine\n- {一般用|いっぱんよう}{電源|でんげん}: standard power supply\n- {一般用|いっぱんよう}モデル: consumer model\n\nSIMILAR TERMS WITH 〜{用|よう}:\n- {業務用|ぎょうむよう}: for commercial/business use\n- {個人用|こじんよう}: for personal use\n- {家庭用|かていよう}: for household use\n- {専門用|せんもんよう}: for professional/specialist use",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13148_gyoumuyou",
+      "reading": "ぎょうむよう",
+      "headword": "{業務用|ぎょうむよう}",
+      "label": "for commercial/business use"
+    },
+    {
+      "type": "related",
+      "target_id": "26704_kojinyou",
+      "reading": "こじんよう",
+      "headword": "{個人用|こじんよう}",
+      "label": "for personal use"
+    },
+    {
+      "type": "related",
+      "target_id": "16544_kateiyou",
+      "reading": "かていよう",
+      "headword": "{家庭用|かていよう}",
+      "label": "for household use"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,11 +76,13 @@
         "noun",
         "adjective-no"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "general"
       ]
     },
     "created": "2026-05-04T14:11:04Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Composed of {男|なん} (male) and {色|しょく} (sensuality, love). {色|しょく} in classical Japanese often refers to romantic or sexual love. This is primarily a historical and literary term found in academic texts and classical literature. The most famous literary work on this topic is {井原|いはら}{西鶴|さいかく}'s {男色|なんしょく}{大鑑|たいかん} (The Great Mirror of Male Love, 1687).\n\nIn samurai culture, this practice was formalized as {衆道|しゅどう} (the way of youths), a mentoring relationship between an older and younger samurai.\n\nCOMMON COLLOCATIONS:\n- {男色|なんしょく}の{文化|ぶんか}: culture of male love\n- {男色|なんしょく}{大鑑|たいかん}: The Great Mirror of Male Love (literary work)\n- {男色|なんしょく}を{好|この}む: to have a taste for male love\n\nSIMILAR WORDS:\n- {衆道|しゅどう}: the way of youths — formalized male-male relationships in samurai culture\n- {同性愛|どうせいあい}: homosexuality — the modern, neutral term\n- {難色|なんしょく}: reluctance, disapproval — a homophone with completely different meaning and kanji",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23993_douseiai",
+      "reading": "どうせいあい",
+      "headword": "{同性愛|どうせいあい}",
+      "label": "homosexuality"
+    },
+    {
+      "type": "homophone",
+      "target_id": "14585_nanshoku",
+      "reading": "なんしょく",
+      "headword": "{難色|なんしょく}",
+      "label": "reluctance, disapproval"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "history",
         "culture"
       ]
     },
     "created": "2026-05-02T11:33:30Z",
-    "modified": "2026-06-16T12:23:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

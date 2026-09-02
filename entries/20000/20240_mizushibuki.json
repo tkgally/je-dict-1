@@ -17,7 +17,9 @@
       "id": "20240_mizushibuki_ex1",
       "japanese": "{水|みず}しぶきが{上|あ}がった。",
       "english": "A splash of water went up.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20240_mizushibuki_ex2",
       "japanese": "{子|こ}どもたちがプールで{水|みず}しぶきを{上|あ}げて{遊|あそ}んでいる。",
       "english": "The children are playing in the pool, splashing water.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,38 @@
       "id": "20240_mizushibuki_ex3",
       "japanese": "{滝|たき}の{近|ちか}くに{行|い}くと、{水|みず}しぶきが{顔|かお}にかかって{気持|きも}ちよかった。",
       "english": "When I went near the waterfall, the spray hit my face and it felt refreshing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {水|みず} (water) + しぶき (splash, spray). しぶき alone can mean splash or spray in general, while {水|みず}しぶき specifically refers to water spray. Often written in hiragana rather than with kanji ({飛沫|しぶき}).\n\nCOMMON COLLOCATIONS:\n- {水|みず}しぶきが{上|あ}がる: a splash goes up\n- {水|みず}しぶきを{上|あ}げる: to send up a splash\n- {水|みず}しぶきがかかる: to get splashed\n- {水|みず}しぶきを{浴|あ}びる: to be showered with spray\n\nSIMILAR WORDS:\n- しぶき: splash, spray — more general, not limited to water\n- {飛沫|ひまつ}: droplets, spray — more formal/scientific\n- {波|なみ}しぶき: sea spray — specifically from waves",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29069_himatsu",
+      "reading": "ひまつ",
+      "headword": "{飛沫|ひまつ}",
+      "label": "droplets, spray"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature", "water"]
+      "semantic": [
+        "nature",
+        "water"
+      ]
     },
     "created": "2026-03-28T18:06:35Z",
-    "modified": "2026-03-28T18:06:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

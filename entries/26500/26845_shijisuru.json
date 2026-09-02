@@ -3,7 +3,7 @@
   "headword": "{指示|しじ}する",
   "reading": "しじする",
   "romaji": "shijisuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to instruct; to direct; to indicate; to give directions",
   "definitions": [
     {
@@ -80,7 +80,43 @@
     }
   ],
   "notes": "In the workplace, {指示|しじ} is the standard neutral term for giving directions to subordinates — much softer than {命令|めいれい} (command). It's the everyday word for workplace instructions and is not perceived as harsh.\n\nCOMMON COLLOCATIONS:\n- {指示|しじ}を{出|だ}す: to issue instructions\n- {指示|しじ}に{従|したが}う: to follow instructions\n- {指示|しじ}を{仰|あお}ぐ: to ask for instructions\n- {指示|しじ}{待|ま}ち: waiting for instructions\n- {的確|てきかく}な{指示|しじ}: precise directions\n\nSIMILAR WORDS:\n- {命令|めいれい}する: to command — stronger, implies authority and compulsion\n- {指導|しどう}する: to guide — includes teaching and nurturing, not just telling\n- {指図|さしず}する: to boss around — often perceived as unwelcome ordering",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26833_meireisuru",
+      "reading": "めいれいする",
+      "headword": "{命令|めいれい}する",
+      "label": "to command"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03190_shidou",
+      "reading": "しどう",
+      "headword": "{指導|しどう}",
+      "label": "to guide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08188_sashizu",
+      "reading": "さしず",
+      "headword": "{指図|さしず}",
+      "label": "to boss around"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02309_meijiru",
+      "reading": "めいじる",
+      "headword": "{命|めい}じる",
+      "label": "to order, to command"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21618_iitsukeru",
+      "reading": "いいつける",
+      "headword": "{言|い}いつける",
+      "label": "to tell on someone"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -96,7 +132,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T13:11:12Z",
-    "modified": "2026-05-05T13:11:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

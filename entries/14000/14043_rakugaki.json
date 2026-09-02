@@ -3,7 +3,7 @@
   "id": "14043_rakugaki",
   "headword": "{落書|らくが}き",
   "reading": "らくがき",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "graffiti, scribbling, doodle",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,32 @@
     }
   ],
   "notes": "USAGE:\nCovers a range from innocent doodling (in notebooks) to vandalism (on buildings and public property). The tone depends on context — a child's doodle is harmless, while graffiti on cultural heritage sites is a serious issue.\n\nCOMMON COLLOCATIONS:\n- {落書|らくが}きをする: to scribble, to doodle, to graffiti\n- {落書|らくが}きを{消|け}す: to remove graffiti\n- {落書|らくが}き{帳|ちょう}: sketchbook, doodle pad",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18047_nagurigaki",
+      "reading": "なぐりがき",
+      "headword": "{殴|なぐ}り{書|が}き",
+      "label": "scribbling"
+    },
+    {
+      "type": "antonym",
+      "target_id": "23408_dessan",
+      "reading": "でっさん",
+      "headword": "デッサン",
+      "label": "(pencil or charcoal) drawing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25864_hashirigaki",
+      "reading": "はしりがき",
+      "headword": "{走|はし}り{書|が}き",
+      "label": "hasty writing"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T10:13:20Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

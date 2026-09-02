@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {能率|のうりつ} focuses on productivity and effectiveness, especially in work contexts.\n\nCOMMON PATTERNS:\n- {能率|のうりつ}⟦が→が：00051_ga⟧⟦{良|い}い→良い：02350_yoi⟧/⟦{悪|わる}い→悪い：00908_warui⟧ (efficient/inefficient)\n- {能率|のうりつ}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧ (to increase efficiency)\n- {能率|のうりつ}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧ (efficiency increases)\n- {能率|のうりつ}⟦{的|てき}→〜的：09839_teki⟧⟦に→に：00314_ni⟧ (efficiently)\n\nCOMMON COMPOUNDS:\n- {能率|のうりつ}⟦{向上|こうじょう}→向上：02731_koujou⟧ (efficiency improvement)\n- ⟦{作業|さぎょう}→作業：02775_sagyou⟧{能率|のうりつ} (work efficiency)\n- ⟦{生産|せいさん}→生産：01444_seisan⟧{能率|のうりつ} (production efficiency)\n\nSIMILAR WORDS:\n- ⟦{効率|こうりつ}→効率：11794_kouritsu⟧ - efficiency (more technical, mathematical)\n- ⟦{生産性|せいさんせい}→生産性：05574_seisansei⟧ - productivity",
+  "notes": "USAGE: {能率|のうりつ} focuses on productivity and effectiveness, especially in work contexts.\n\nCOMMON PATTERNS:\n- {能率|のうりつ}⟦が→が：00051_ga⟧⟦{良|い}い→良い：02350_yoi⟧/⟦{悪|わる}い→悪い：00908_warui⟧ (efficient/inefficient)\n- {能率|のうりつ}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：02443_ageru⟧ (to increase efficiency)\n- {能率|のうりつ}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧ (efficiency increases)\n- {能率|のうりつ}⟦{的|てき}→〜的：09839_teki⟧⟦に→に：00314_ni⟧ (efficiently)\n\nCOMPOUNDS:\n- {能率|のうりつ}⟦{向上|こうじょう}→向上：02731_koujou⟧ (efficiency improvement)\n- ⟦{作業|さぎょう}→作業：02775_sagyou⟧{能率|のうりつ} (work efficiency)\n- ⟦{生産|せいさん}→生産：01444_seisan⟧{能率|のうりつ} (production efficiency)\n\nSIMILAR WORDS:\n- ⟦{効率|こうりつ}→効率：11794_kouritsu⟧ - efficiency (more technical, mathematical)\n- ⟦{生産性|せいさんせい}→生産性：05574_seisansei⟧ - productivity",
   "cross_references": [
     {
       "type": "synonym",
@@ -71,11 +71,25 @@
       "reading": "こうりつ",
       "headword": "{効率|こうりつ}",
       "label": "efficiency (technical)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05574_seisansei",
+      "reading": "せいさんせい",
+      "headword": "{生産性|せいさんせい}",
+      "label": "productivity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05573_kouritsusei",
+      "reading": "こうりつせい",
+      "headword": "{効率性|こうりつせい}",
+      "label": "efficiency"
     }
   ],
   "metadata": {
     "created": "2026-01-14T00:58:16Z",
-    "modified": "2026-05-30T18:11:57Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

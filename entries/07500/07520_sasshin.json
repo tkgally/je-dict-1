@@ -2,7 +2,7 @@
   "id": "07520_sasshin",
   "headword": "{刷新|さっしん}",
   "reading": "さっしん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reform; renovation; renewal",
   "conjugation": {
     "type": "suru",
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{刷|さつ} (print, renew) + {新|しん} (new)\nLiterally \"renew-new\" - emphasizes making something completely fresh.\n\nCOMMON COLLOCATIONS:\n・{刷新|さっしん}を{図|はか}る - to aim for reform\n・{刷新|さっしん}を{行|おこな}う - to carry out reform\n・{人事|じんじ}{刷新|さっしん} - personnel overhaul\n・イメージ{刷新|さっしん} - image renewal\n・{組織|そしき}{刷新|さっしん} - organizational reform\n\nSIMILAR WORDS:\n・{改革|かいかく} - reform (broader, systemic change)\n・{改善|かいぜん} - improvement (incremental)\n・{一新|いっしん} - complete renewal\n・{革新|かくしん} - innovation, revolution\n\nNUANCE:\n{刷新|さっしん} implies sweeping away the old and replacing it with something entirely new. Stronger than {改善|かいぜん} but less radical than {革命|かくめい}.",
+  "notes": "ETYMOLOGY:\n{刷|さつ} (print, renew) + {新|しん} (new)\nLiterally \"renew-new\" - emphasizes making something completely fresh.\n\nCOMMON COLLOCATIONS:\n- {刷新|さっしん}を{図|はか}る - to aim for reform\n- {刷新|さっしん}を{行|おこな}う - to carry out reform\n- {人事|じんじ}{刷新|さっしん} - personnel overhaul\n- イメージ{刷新|さっしん} - image renewal\n- {組織|そしき}{刷新|さっしん} - organizational reform\n\nSIMILAR WORDS:\n- {改革|かいかく} - reform (broader, systemic change)\n- {改善|かいぜん} - improvement (incremental)\n- {一新|いっしん} - complete renewal\n- {革新|かくしん} - innovation, revolution\n\nUSAGE:\n{刷新|さっしん} implies sweeping away the old and replacing it with something entirely new. Stronger than {改善|かいぜん} but less radical than {革命|かくめい}.",
   "cross_references": [
     {
       "type": "synonym",
@@ -145,11 +145,39 @@
       "reading": "かいぜん",
       "headword": "{改善|かいぜん}",
       "label": "improvement (incremental)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19941_isshin",
+      "reading": "いっしん",
+      "headword": "{一新|いっしん}",
+      "label": "complete renewal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05617_kakushin",
+      "reading": "かくしん",
+      "headword": "{革新|かくしん}",
+      "label": "innovation, revolution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21591_kaishin",
+      "reading": "かいしん",
+      "headword": "{改新|かいしん}",
+      "label": "reform"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22909_shinsei",
+      "reading": "しんせい",
+      "headword": "{新生|しんせい}",
+      "label": "rebirth"
     }
   ],
   "metadata": {
     "created": "2026-01-20T08:21:30Z",
-    "modified": "2026-06-30T00:18:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -158,6 +186,7 @@
         "verb-suru"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "general"
       ],

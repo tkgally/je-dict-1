@@ -19,7 +19,9 @@
       "english": "The lord of this castle was from the Takeda clan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14859_ryoushu_ex2",
@@ -27,7 +29,9 @@
       "english": "The feudal lord collected annual tribute from the farmers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14859_ryoushu_ex3",
@@ -35,10 +39,12 @@
       "english": "During the Warring States period, local lords competed for power and battles were constant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE NOTES:\n{領主|りょうしゅ} is primarily a historical term used when discussing feudal systems in Japan and Europe.\n\nSIMILAR WORDS:\n- {大名|だいみょう} — a feudal lord of the Edo period, specifically a daimyo with land yielding at least 10,000 koku of rice\n- {殿様|とのさま} — lord (respectful/familiar term, also used figuratively)\n- {藩主|はんしゅ} — lord of a han (domain) in the Edo period\n- {地主|じぬし} — landowner (modern, not feudal)\n\n{領主|りょうしゅ} is more general than {大名|だいみょう} and can refer to lords of any era or country.\n\nCOMMON COLLOCATIONS:\n- {領主|りょうしゅ}の{館|やかた} (the lord's manor)\n- {領主|りょうしゅ}が{治|おさ}める (the lord governs)\n- {領主|りょうしゅ}に{仕|つか}える (serve a lord)",
+  "notes": "USAGE:\n{領主|りょうしゅ} is primarily a historical term used when discussing feudal systems in Japan and Europe.\n\nSIMILAR WORDS:\n- {大名|だいみょう} — a feudal lord of the Edo period, specifically a daimyo with land yielding at least 10,000 koku of rice\n- {殿様|とのさま} — lord (respectful/familiar term, also used figuratively)\n- {藩主|はんしゅ} — lord of a han (domain) in the Edo period\n- {地主|じぬし} — landowner (modern, not feudal)\n\n{領主|りょうしゅ} is more general than {大名|だいみょう} and can refer to lords of any era or country.\n\nCOMMON COLLOCATIONS:\n- {領主|りょうしゅ}の{館|やかた} (the lord's manor)\n- {領主|りょうしゅ}が{治|おさ}める (the lord governs)\n- {領主|りょうしゅ}に{仕|つか}える (serve a lord)",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,50 @@
       "reading": "りょうち",
       "headword": "{領地|りょうち}",
       "label": "territory; domain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10378_daimyou",
+      "reading": "だいみょう",
+      "headword": "{大名|だいみょう}",
+      "label": "a feudal lord of the Edo period…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10455_tonosama",
+      "reading": "とのさま",
+      "headword": "{殿様|とのさま}",
+      "label": "lord"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26186_hanshu",
+      "reading": "はんしゅ",
+      "headword": "{藩主|はんしゅ}",
+      "label": "lord of a han (domain) in the Edo period"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12048_jinushi",
+      "reading": "じぬし",
+      "headword": "{地主|じぬし}",
+      "label": "landowner"
     }
   ],
   "metadata": {
     "created": "2026-03-04T04:36:43Z",
-    "modified": "2026-05-01T04:26:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

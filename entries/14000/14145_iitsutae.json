@@ -19,7 +19,9 @@
       "english": "This village has an old legend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14145_iitsutae_ex2",
@@ -27,7 +29,9 @@
       "english": "According to legend, a god lives in this mountain.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14145_iitsutae_ex3",
@@ -35,7 +39,9 @@
       "english": "I want to pass on the stories I heard from my grandmother to my own children.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{言|い}い{伝|つた}え emphasizes that the story has been passed down orally, distinguishing it from written records. Compare with {伝説|でんせつ} (legend), which is more formal and can refer to famous legends known widely, while {言|い}い{伝|つた}え often refers to local or family oral traditions.\n\nCOMMON COLLOCATIONS:\n- {言|い}い{伝|つた}えによると: according to legend/tradition\n- {古|ふる}い{言|い}い{伝|つた}え: an old legend\n- {地元|じもと}の{言|い}い{伝|つた}え: local folklore\n- {言|い}い{伝|つた}えが{残|のこ}る: a legend survives/remains",
@@ -46,18 +52,36 @@
       "reading": "でんせつ",
       "headword": "{伝説|でんせつ}",
       "label": "legend (formal, widely known)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21570_kuchizutae",
+      "reading": "くちづたえ",
+      "headword": "{口伝|くちづた}え",
+      "label": "word of mouth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27115_kuden",
+      "reading": "くでん",
+      "headword": "{口伝|くでん}",
+      "label": "oral tradition"
     }
   ],
   "metadata": {
     "created": "2026-02-28T01:22:08Z",
-    "modified": "2026-04-30T04:29:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

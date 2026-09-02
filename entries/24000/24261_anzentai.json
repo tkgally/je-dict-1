@@ -22,7 +22,9 @@
       "id": "24261_anzentai_ex1",
       "japanese": "{高所|こうしょ}{作業|さぎょう}では{安全帯|あんぜんたい}を{着用|ちゃくよう}すること。",
       "english": "Safety harnesses must be worn when working at heights.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "24261_anzentai_ex2",
       "japanese": "{安全帯|あんぜんたい}のフックを{確実|かくじつ}に{固定|こてい}してください。",
       "english": "Please securely fasten the safety harness hook.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "24261_anzentai_ex3",
       "japanese": "{法律|ほうりつ}の{改正|かいせい}により、{高|たか}さ6.75メートル{以上|いじょう}では{胴|どう}ベルト{型|がた}の{安全帯|あんぜんたい}が{使|つか}えなくなった。",
       "english": "Due to a legal revision, waist-belt type safety harnesses can no longer be used at heights of 6.75 meters or more.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "24261_anzentai_ex4",
       "japanese": "{安全帯|あんぜんたい}を{締|し}めてください。",
       "english": "Please fasten your seat belt.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "24261_anzentai_ex5",
       "japanese": "{飛行機|ひこうき}の{安全帯|あんぜんたい}のサインが{消|き}えた。",
       "english": "The fasten seat belt sign on the airplane turned off.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,23 +72,47 @@
       "id": "24261_anzentai_ex6",
       "japanese": "{昔|むかし}は{車|くるま}の{安全帯|あんぜんたい}をしない{人|ひと}も{多|おお}かった。",
       "english": "In the past, many people didn't wear car seat belts.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {安全|あんぜん} ('safety') and {帯|たい} ('belt; band'). The primary modern usage is for fall-protection equipment in construction and industrial work. The seat-belt sense has been largely superseded by シートベルト.\n\nREGULATORY NOTE:\n- Since 2019, Japanese labor law requires full-body harnesses (フルハーネス{型|がた}) rather than simple waist belts ({胴|どう}ベルト{型|がた}) for work at heights above 6.75 meters\n- The legal term has shifted from {安全帯|あんぜんたい} to {墜落制止用器具|ついらくせいしようきぐ} ('fall arrest equipment') in official regulations\n\nCOMMON COLLOCATIONS:\n- {安全帯|あんぜんたい}を{着用|ちゃくよう}する: to wear a safety harness\n- {安全帯|あんぜんたい}を{装着|そうちゃく}する: to put on a safety harness\n- {安全帯|あんぜんたい}の{点検|てんけん}: safety harness inspection\n- フルハーネス{型|がた}{安全帯|あんぜんたい}: full-body harness type\n\nSIMILAR WORDS:\n- シートベルト: seat belt — the standard modern term for vehicle seat belts\n- ハーネス: harness — the loanword increasingly used for fall-protection equipment\n- {命綱|いのちづな}: lifeline; safety rope — a rope that prevents falls, used alongside or instead of a harness",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29083_shiitoberuto",
+      "reading": "しーとべると",
+      "headword": "シートベルト",
+      "label": "seat belt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15392_inochizuna",
+      "reading": "いのちづな",
+      "headword": "{命綱|いのちづな}",
+      "label": "lifeline"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"],
-      "domain": ["technical"]
+      "semantic": [
+        "tool"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-04-18T11:29:43Z",
-    "modified": "2026-04-18T11:29:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

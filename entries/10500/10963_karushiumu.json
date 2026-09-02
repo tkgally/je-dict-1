@@ -19,7 +19,9 @@
       "english": "I'm lacking calcium.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10963_karushiumu_ex2",
@@ -27,7 +29,9 @@
       "english": "Milk is rich in calcium.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10963_karushiumu_ex3",
@@ -35,21 +39,42 @@
       "english": "It's important to make sure growing children get enough calcium.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n- カルシウムを{摂|と}る: to take/consume calcium\n- カルシウム{不足|ふそく}: calcium deficiency\n- カルシウムが{豊富|ほうふ}: rich in calcium\n- カルシウムが{含|ふく}まれている: contains calcium\n\nCULTURAL NOTE:\nIn Japanese folk wisdom, there is a common saying that someone who is irritable needs more カルシウム (calcium). While not scientifically established, the expression カルシウムが{足|た}りないんじゃない？ (Maybe you're not getting enough calcium?) is sometimes said jokingly to someone who is short-tempered.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21450_kotsumitsudo",
+      "reading": "こつみつど",
+      "headword": "{骨密度|こつみつど}",
+      "label": "bone density"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25494_sekkai",
+      "reading": "せっかい",
+      "headword": "{石灰|せっかい}",
+      "label": "lime"
+    }
+  ],
   "metadata": {
     "created": "2026-02-11T19:17:18Z",
-    "modified": "2026-02-11T19:17:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

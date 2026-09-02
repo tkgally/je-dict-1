@@ -19,7 +19,9 @@
       "english": "Daruma dolls are lucky charms.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15731_engimono_ex2",
@@ -27,7 +29,9 @@
       "english": "There is a custom of displaying lucky items at New Year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15731_engimono_ex3",
@@ -35,21 +39,43 @@
       "english": "I gave the exam student a good-luck candy as a gift.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nJapanese culture has many {縁起物|えんぎもの}, including {招|まね}き{猫|ねこ} (beckoning cat), だるま (daruma doll), {熊手|くまで} (bamboo rake — for raking in good fortune), and certain New Year foods. During exam season, snacks with names that sound like \"pass\" ({勝|か}つ, etc.) are also sold as {縁起物|えんぎもの}.\n\nCOMMON COLLOCATIONS:\n- {縁起物|えんぎもの}を{飾|かざ}る (to display a lucky charm)\n- {縁起物|えんぎもの}を{贈|おく}る (to give a good-luck item as a gift)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06538_manekineko",
+      "reading": "まねきねこ",
+      "headword": "{招|まね}き{猫|ねこ}",
+      "label": "beckoning cat, lucky cat figurine"
+    },
+    {
+      "type": "related",
+      "target_id": "25796_shusseuo",
+      "reading": "しゅっせうお",
+      "headword": "{出世魚|しゅっせうお}",
+      "label": "fish whose name changes as it grows"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T08:53:20Z",
-    "modified": "2026-03-08T08:53:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["culture", "religion"]
+      "semantic": [
+        "culture",
+        "religion"
+      ]
     }
   }
 }

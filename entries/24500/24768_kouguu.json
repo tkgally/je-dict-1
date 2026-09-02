@@ -17,7 +17,9 @@
       "id": "24768_kouguu_ex1",
       "japanese": "{皇宮|こうぐう}{警察|けいさつ}が{警備|けいび}している。",
       "english": "The Imperial Guard Police are providing security.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24768_kouguu_ex2",
       "japanese": "{皇宮|こうぐう}の{周|まわ}りをジョギングする{人|ひと}が{多|おお}い。",
       "english": "Many people jog around the imperial palace.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,52 @@
       "id": "24768_kouguu_ex3",
       "japanese": "{皇宮|こうぐう}{護衛官|ごえいかん}は{天皇|てんのう}{陛下|へいか}や{皇族|こうぞく}の{身辺|しんぺん}{警護|けいご}を{担当|たんとう}する{特別|とくべつ}な{警察官|けいさつかん}だ。",
       "english": "Imperial Palace guards are special police officers responsible for the personal security of the Emperor and the Imperial Family.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {皇|こう} (emperor, imperial) and {宮|ぐう} (palace). While {皇居|こうきょ} is the standard term for the current Imperial Palace in Tokyo, {皇宮|こうぐう} appears in official titles and compound terms, particularly in the name of the {皇宮警察|こうぐうけいさつ} (Imperial Guard Police).\n\nThe {皇宮警察|こうぐうけいさつ} is a special police force under the National Police Agency that guards the Imperial Palace and protects the Imperial Family.\n\nCOMMON COLLOCATIONS:\n- {皇宮|こうぐう}{警察|けいさつ}: Imperial Guard Police\n- {皇宮|こうぐう}{護衛官|ごえいかん}: Imperial Palace guard\n- {皇宮|こうぐう}{警備|けいび}: Imperial Palace security\n\nSIMILAR WORDS:\n- {皇居|こうきょ}: the Imperial Palace (Tokyo) — the standard modern term for the Emperor's residence\n- {宮殿|きゅうでん}: palace — general term for any grand royal or imperial palace\n- {御所|ごしょ}: imperial residence — used for both the Kyoto Imperial Palace and as a respectful term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13607_koukyo",
+      "reading": "こうきょ",
+      "headword": "{皇居|こうきょ}",
+      "label": "the Imperial Palace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12285_kyuuden",
+      "reading": "きゅうでん",
+      "headword": "{宮殿|きゅうでん}",
+      "label": "palace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12847_gosho",
+      "reading": "ごしょ",
+      "headword": "{御所|ごしょ}",
+      "label": "imperial residence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["politics", "culture"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "politics",
+        "culture"
+      ]
     },
     "created": "2026-04-20T14:39:25Z",
-    "modified": "2026-04-20T14:39:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

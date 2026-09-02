@@ -17,7 +17,9 @@
       "id": "18918_yamitorihiki_ex1",
       "japanese": "{闇取引|やみとりひき}で{逮捕|たいほ}された。",
       "english": "He was arrested for illegal transactions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18918_yamitorihiki_ex2",
       "japanese": "{武器|ぶき}の{闇取引|やみとりひき}が{問題|もんだい}になっている。",
       "english": "Illegal arms dealing has become a problem.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "18918_yamitorihiki_ex3",
       "japanese": "{戦後|せんご}の{日本|にほん}では{食料品|しょくりょうひん}の{闇取引|やみとりひき}が{横行|おうこう}していた。",
       "english": "In postwar Japan, black market dealing of food was rampant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {闇|やみ} (darkness, secrecy) + {取引|とりひき} (transaction, deal). The prefix {闇|やみ} is productive for illegal/underground activities: {闇|やみ}ルート (illegal channel), {闇|やみ}{金融|きんゆう} (loan sharking), {闇|やみ}{市|いち} (black market). Historically associated with the postwar black market ({闇市|やみいち}). In modern usage, appears in news about organized crime, smuggling, and online illegal sales.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20266_mitsuyu",
+      "reading": "みつゆ",
+      "headword": "{密輸|みつゆ}",
+      "label": "smuggling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22415_mitsubai",
+      "reading": "みつばい",
+      "headword": "{密売|みつばい}",
+      "label": "illegal sale"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     },
     "created": "2026-03-23T09:27:50Z",
-    "modified": "2026-03-23T09:27:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "25713_shouryoku_ex1",
       "japanese": "{省力|しょうりょく}{化|か}を{進|すす}める。",
       "english": "To advance labor-saving measures.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25713_shouryoku_ex2",
       "japanese": "ロボットの{導入|どうにゅう}で{大幅|おおはば}な{省力|しょうりょく}が{実現|じつげん}した。",
       "english": "The introduction of robots achieved significant labor savings.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,59 @@
       "id": "25713_shouryoku_ex3",
       "japanese": "{農業|のうぎょう}の{省力|しょうりょく}{化|か}は{人手|ひとで}{不足|ぶそく}への{対策|たいさく}として{重要|じゅうよう}だ。",
       "english": "Making agriculture more labor-efficient is important as a countermeasure against labor shortages.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{省|しょう} (save, economize) + {力|りょく} (power, labor). Most commonly appears in the compound {省力化|しょうりょくか} (labor-saving, making more efficient). Used extensively in manufacturing, agriculture, and business contexts where reducing human labor is a key goal.\n\nCOMMON COLLOCATIONS:\n- {省力化|しょうりょくか} — labor-saving; rationalization\n- {省力化|しょうりょくか}を{図|はか}る — aim for labor reduction\n- {省力|しょうりょく}{機械|きかい} — labor-saving machinery\n- {省力|しょうりょく}{栽培|さいばい} — labor-saving cultivation\n\nSIMILAR WORDS:\n- {省エネ|しょうえね} — energy saving — focuses on reducing energy consumption rather than labor\n- {効率化|こうりつか} — streamlining; efficiency improvement — broader concept\n- {自動化|じどうか} — automation — one method of achieving labor savings\n- {合理化|ごうりか} — rationalization — includes labor savings but also broader organizational improvements",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06308_shouene",
+      "reading": "しょうえね",
+      "headword": "{省|しょう}エネ",
+      "label": "energy saving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07565_kouritsuka",
+      "reading": "こうりつか",
+      "headword": "{効率化|こうりつか}",
+      "label": "streamlining"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07566_jidouka",
+      "reading": "じどうか",
+      "headword": "{自動化|じどうか}",
+      "label": "automation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17148_gourika",
+      "reading": "ごうりか",
+      "headword": "{合理化|ごうりか}",
+      "label": "rationalization"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business", "technology"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "technology"
+      ]
     },
     "created": "2026-04-26T16:32:27Z",
-    "modified": "2026-04-26T16:32:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

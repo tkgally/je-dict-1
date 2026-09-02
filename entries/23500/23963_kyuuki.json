@@ -3,7 +3,7 @@
   "headword": "{吸気|きゅうき}",
   "reading": "きゅうき",
   "romaji": "kyuuki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "inhalation; intake air; air intake",
   "definitions": [
     {
@@ -81,6 +81,22 @@
   ],
   "notes": "Compound of {吸|きゅう} ('to inhale; to suck in') and {気|き} ('air; breath'). Works as both a biological/medical term and a mechanical engineering term.\n\nUSAGE:\n- In medicine and physiology, refers to the inhalation phase of breathing; contrasted with {呼気|こき} ('exhalation').\n- In engineering, refers to air drawn into an engine or ventilation system; compounds freely: {吸気口|きゅうきこう} ('air intake port'), {吸気弁|きゅうきべん} ('intake valve'), {吸気管|きゅうきかん} ('intake pipe').\n- Sounds technical or clinical — for everyday 'breathing in' in casual speech, {息|いき}を{吸|す}う is more natural.\n\nCOMMON COLLOCATIONS:\n- {吸気|きゅうき}する: to inhale\n- {吸気|きゅうき}と{呼気|こき}: inhalation and exhalation\n- {吸気口|きゅうきこう}: air intake (port)\n- {吸気|きゅうき}フィルター: air intake filter\n- {吸気|きゅうき}システム: intake system\n\nSIMILAR WORDS:\n- {呼気|こき}: exhalation; breath going out — the direct opposite.\n- {息|いき}を{吸|す}う: to breathe in — the everyday, non-technical phrasing.\n- {通気|つうき}: ventilation — emphasizes airflow through a space rather than air being drawn in.\n- {排気|はいき}: exhaust — the counterpart in engine contexts, referring to air being pushed out.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27363_tsuuki",
+      "reading": "つうき",
+      "headword": "{通気|つうき}",
+      "label": "ventilation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18980_haiki",
+      "reading": "はいき",
+      "headword": "{排気|はいき}",
+      "label": "exhaust"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -96,7 +112,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-15T16:25:02Z",
-    "modified": "2026-08-02T18:48:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

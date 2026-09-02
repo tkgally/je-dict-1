@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Composed of {登記|とうき} (registration; recording) + {簿|ぼ} (ledger; book). An essential term in Japanese real estate and corporate law. Anyone buying property or investigating a company in Japan will encounter this term. The {登記簿|とうきぼ}{謄本|とうほん} (certified copy of the registry) is a key document in real estate transactions.\n\nCOMMON COLLOCATIONS:\n- {登記簿|とうきぼ}{謄本|とうほん}: certified copy of the registry\n- {不動産|ふどうさん}{登記簿|とうきぼ}: real estate registry\n- {商業|しょうぎょう}{登記簿|とうきぼ}: commercial registry\n- {登記簿|とうきぼ}を{閲覧|えつらん}する: to inspect the registry\n\nSIMILAR WORDS:\n- {戸籍|こせき}: family register — records family relationships and personal status; different from property/corporate registration\n- {台帳|だいちょう}: ledger; register — a more general term for any official record book",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12695_koseki",
+      "reading": "こせき",
+      "headword": "{戸籍|こせき}",
+      "label": "family register"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08001_daichou",
+      "reading": "だいちょう",
+      "headword": "{台帳|だいちょう}",
+      "label": "ledger"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "law",
         "politics"
       ]
     },
     "created": "2026-04-25T15:20:20Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

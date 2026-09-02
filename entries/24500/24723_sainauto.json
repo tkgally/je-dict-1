@@ -3,7 +3,7 @@
   "headword": "サインアウト",
   "reading": "さいんあうと",
   "romaji": "sainauto",
-  "part_of_speech": "noun; verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sign out; log out",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "From English \"sign out.\" Used interchangeably with ログアウト in many contexts, though サインアウト has become the preferred term in Microsoft products and some web services.\n\nCOMMON COLLOCATIONS:\n- サインアウトする: to sign out\n- サインアウトボタン: sign-out button\n- {自動|じどう}サインアウト: automatic sign-out\n- {強制|きょうせい}サインアウト: forced sign-out\n\nSIMILAR WORDS:\n- ログアウト: log out — the more traditional term, still widely used in Japanese tech contexts\n- サインイン: sign in — the opposite action\n- ログイン: log in — the traditional opposite term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08795_roguauto",
+      "reading": "ろぐあうと",
+      "headword": "ログアウト",
+      "label": "log out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23589_sainin",
+      "reading": "さいんいん",
+      "headword": "サインイン",
+      "label": "sign in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05276_roguin",
+      "reading": "ろぐいん",
+      "headword": "ログイン",
+      "label": "log in"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +88,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-20T13:12:13Z",
-    "modified": "2026-04-20T13:12:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

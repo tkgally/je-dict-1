@@ -3,7 +3,7 @@
   "headword": "{結論|けつろん}づける",
   "reading": "けつろんづける",
   "romaji": "ketsuronzukeru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to conclude; to reach a conclusion; to determine",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Formed from {結論|けつろん} (conclusion) + づける (to attach; to establish). An ichidan verb conjugated as a regular -eru verb. Commonly used in academic, investigative, and formal contexts to describe reaching a final determination. Often appears in the past tense ({結論|けつろん}づけた) to report findings.\n\nCOMMON COLLOCATIONS:\n- ～だと{結論|けつろん}づける: to conclude that ~\n- ～と{結論|けつろん}づけられる: it is concluded that ~\n- {最終的|さいしゅうてき}に{結論|けつろん}づける: to finally conclude\n- {安易|あんい}に{結論|けつろん}づける: to conclude too easily\n\nSIMILAR WORDS:\n- {結論|けつろん}を{出|だ}す: to reach a conclusion — more general and common in everyday speech\n- {断定|だんてい}する: to determine; to assert — stronger, implies certainty without room for doubt\n- {判断|はんだん}する: to judge — broader, covering any kind of decision or assessment",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04519_dantei",
+      "reading": "だんてい",
+      "headword": "{断定|だんてい}",
+      "label": "to determine"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06062_handansuru",
+      "reading": "はんだんする",
+      "headword": "{判断|はんだん}する",
+      "label": "to judge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20377_danzuru",
+      "reading": "だんずる",
+      "headword": "{断|だん}ずる",
+      "label": "to conclude"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,13 +75,14 @@
       "pos": [
         "verb-ichidan"
       ],
+      "politeness": "plain",
       "semantic": [
         "cognition"
       ],
       "verb_class": "ichidan"
     },
     "created": "2026-04-28T14:12:32Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

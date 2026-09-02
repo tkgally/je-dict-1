@@ -19,7 +19,9 @@
       "english": "A latecomer manufacturer entered the market.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20611_kouhatsu_ex2",
@@ -27,7 +29,9 @@
       "english": "Later-entry products are often cheaper.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20611_kouhatsu_ex3",
@@ -35,21 +39,43 @@
       "english": "Despite being a late entry, it overtook the pioneering companies and became the market share leader.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Composed of {後|こう} (after, later) + {発|はつ} (departure, launch). The opposite of {先発|せんぱつ} (going first, starting first). Extremely common in business discussions about market entry.\n\nCOMMON COLLOCATIONS:\n- {後発|こうはつ}{品|ひん} (later-entry product; also generic medicine)\n- {後発|こうはつ}{医薬品|いやくひん} (generic drug)\n- {後発|こうはつ}メーカー (late-entry manufacturer)\n- {後発|こうはつ}{組|ぐみ} (latecomers, the group that came later)\n- {後発|こうはつ}の{強|つよ}み (advantage of being a latecomer)\n\nSIMILAR WORDS:\n- {先発|せんぱつ} — going first, first entry (the antonym)\n- {新規|しんき}{参入|さんにゅう} — new market entry (focuses on the entry itself, not timing)\n- ジェネリック — generic (specifically for generic medicines, loanword)\n\nUSAGE:\n{後発|こうはつ}{医薬品|いやくひん} (generic drugs) is one of the most common collocations, referring to medicines released after the original patent expires.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "17735_senpatsu",
+      "reading": "せんぱつ",
+      "headword": "{先発|せんぱつ}",
+      "label": "going first, first entry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17044_shinkisannyuu",
+      "reading": "しんきさんにゅう",
+      "headword": "{新規参入|しんきさんにゅう}",
+      "label": "new market entry"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T19:26:12Z",
-    "modified": "2026-03-29T19:26:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business", "time"]
+      "semantic": [
+        "business",
+        "time"
+      ]
     }
   }
 }

@@ -17,7 +17,9 @@
       "id": "25740_boueiryoku_ex1",
       "japanese": "{防衛力|ぼうえいりょく}の{強化|きょうか}が{必要|ひつよう}だ。",
       "english": "Strengthening defensive capability is necessary.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25740_boueiryoku_ex2",
       "japanese": "{日本|にほん}は{防衛力|ぼうえいりょく}を{増強|ぞうきょう}する{方針|ほうしん}を{示|しめ}した。",
       "english": "Japan indicated a policy of bolstering its defense capabilities.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,52 @@
       "id": "25740_boueiryoku_ex3",
       "japanese": "{国際|こくさい}{情勢|じょうせい}が{不安定|ふあんてい}になる{中|なか}で、{各国|かっこく}が{防衛力|ぼうえいりょく}の{見直|みなお}しを{進|すす}めている。",
       "english": "As the international situation becomes unstable, countries are advancing reviews of their defense capabilities.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {防衛|ぼうえい} (defense, national defense) + {力|りょく} (power, capability). A key term in Japanese political and news vocabulary, appearing frequently in discussions about the Self-Defense Forces ({自衛隊|じえいたい}), defense budgets, and security policy.\n\nCOMMON COLLOCATIONS:\n- {防衛力|ぼうえいりょく}の{強化|きょうか}: strengthening defense capabilities\n- {防衛力|ぼうえいりょく}を{増強|ぞうきょう}する: to bolster defense capabilities\n- {防衛力|ぼうえいりょく}の{整備|せいび}: development of defense capabilities\n- {防衛力|ぼうえいりょく}の{見直|みなお}し: review of defense capabilities\n\nSIMILAR WORDS:\n- {軍事力|ぐんじりょく}: military power — broader, includes offensive capacity; used for countries with full militaries\n- {戦力|せんりょく}: war potential, fighting strength — the capacity to wage war; constitutionally sensitive term in Japan\n- {抑止力|よくしりょく}: deterrence — the power to prevent attack by threatening retaliation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23289_gunjiryoku",
+      "reading": "ぐんじりょく",
+      "headword": "{軍事力|ぐんじりょく}",
+      "label": "military power"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18977_senryoku",
+      "reading": "せんりょく",
+      "headword": "{戦力|せんりょく}",
+      "label": "war potential, fighting strength"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15454_yokushiryoku",
+      "reading": "よくしりょく",
+      "headword": "{抑止力|よくしりょく}",
+      "label": "deterrence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["military", "politics"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "military",
+        "politics"
+      ]
     },
     "created": "2026-04-27T11:18:05Z",
-    "modified": "2026-04-27T11:18:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

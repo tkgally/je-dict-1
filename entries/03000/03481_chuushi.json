@@ -2,7 +2,7 @@
   "id": "03481_chuushi",
   "headword": "{中止|ちゅうし}",
   "reading": "ちゅうし",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "suspension, cancellation",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "SIMILAR WORDS:\n・{中止|ちゅうし}: Cancellation, stopping something (often permanent or indefinite)\n・⟦{中断|ちゅうだん}→中断：05218_chuudan⟧: Interruption, temporary suspension (implies resumption later)\n・⟦{延期|えんき}→延期：01888_enki⟧: Postponement (rescheduled for later)\n・⟦{取|と}り{消|け}し→取消：07346_torikeshi⟧: Cancellation, withdrawal (often for reservations, orders)\n\nCOMMON PATTERNS:\n・〜⟦が→が：00051_ga⟧{中止|ちゅうし}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (~ is/gets canceled)\n・〜⟦を→を：00422_wo⟧{中止|ちゅうし}⟦する→する：00392_suru⟧ (to cancel ~)\n・{中止|ちゅうし}⟦の→の：09472_no⟧お{知|し}らせ (cancellation notice)",
+  "notes": "SIMILAR WORDS:\n- {中止|ちゅうし}: Cancellation, stopping something (often permanent or indefinite)\n- ⟦{中断|ちゅうだん}→中断：05218_chuudan⟧: Interruption, temporary suspension (implies resumption later)\n- ⟦{延期|えんき}→延期：01888_enki⟧: Postponement (rescheduled for later)\n- ⟦{取|と}り{消|け}し→取消：07346_torikeshi⟧: Cancellation, withdrawal (often for reservations, orders)\n\nCOMMON PATTERNS:\n- 〜⟦が→が：00051_ga⟧{中止|ちゅうし}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (~ is/gets canceled)\n- 〜⟦を→を：00422_wo⟧{中止|ちゅうし}⟦する→する：00392_suru⟧ (to cancel ~)\n- {中止|ちゅうし}⟦の→の：09472_no⟧お{知|し}らせ (cancellation notice)",
   "cross_references": [
     {
       "type": "contrast",
@@ -148,11 +148,46 @@
       "reading": "ていし",
       "headword": "{停止|ていし}",
       "label": "halt, stoppage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05218_chuudan",
+      "reading": "ちゅうだん",
+      "headword": "{中断|ちゅうだん}",
+      "label": "Interruption, temporary suspension"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07346_torikeshi",
+      "reading": "とりけし",
+      "headword": "{取消|とりけし}",
+      "label": "Cancellation, withdrawal"
+    },
+    {
+      "type": "related",
+      "target_id": "08296_uchikiri",
+      "reading": "うちきり",
+      "headword": "{打|う}ち{切|き}り",
+      "label": "cancellation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15354_junen",
+      "reading": "じゅんえん",
+      "headword": "{順延|じゅんえん}",
+      "label": "postponement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17081_kyuushi",
+      "reading": "きゅうし",
+      "headword": "{休止|きゅうし}",
+      "label": "suspension"
     }
   ],
   "metadata": {
     "created": "2026-01-12T09:20:00Z",
-    "modified": "2026-05-25T20:06:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

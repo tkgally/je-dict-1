@@ -3,7 +3,7 @@
   "headword": "{無毒|むどく}",
   "reading": "むどく",
   "romaji": "mudoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "nontoxic; harmless; nonpoisonous",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "27157_mudoku_ex1",
       "japanese": "この{蛇|へび}は{無毒|むどく}だ。",
       "english": "This snake is nonpoisonous.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27157_mudoku_ex2",
       "japanese": "{無毒|むどく}の{塗料|とりょう}を{使用|しよう}している。",
       "english": "Nontoxic paint is being used.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "27157_mudoku_ex3",
       "japanese": "この{植物|しょくぶつ}は{無毒|むどく}なので、{子|こ}どもやペットがいる{家庭|かてい}でも{安心|あんしん}して{育|そだ}てられる。",
       "english": "Since this plant is nontoxic, it can be grown safely even in homes with children or pets.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {無|む} (without, non-) and {毒|どく} (poison, toxicity). Functions as both a noun and an adjective-like modifier with の. The opposite is {有毒|ゆうどく} (poisonous, toxic).\n\nCOMMON COLLOCATIONS:\n- {無毒|むどく}の{蛇|へび} — nonpoisonous snake\n- {無毒|むどく}{無害|むがい} — nontoxic and harmless\n- {無毒化|むどくか} — detoxification\n- {無毒|むどく}の{塗料|とりょう} — nontoxic paint\n\nSIMILAR WORDS:\n- {有毒|ゆうどく} — poisonous, toxic; the direct opposite\n- {無害|むがい} — harmless; broader than {無毒|むどく}, meaning not harmful in any way, not just chemically\n- {毒|どく} — poison, toxin; the base word for toxicity",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "23801_yuudoku",
+      "reading": "ゆうどく",
+      "headword": "{有毒|ゆうどく}",
+      "label": "poisonous, toxic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25474_mugai",
+      "reading": "むがい",
+      "headword": "{無害|むがい}",
+      "label": "harmless"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     },
     "created": "2026-05-07T13:15:22Z",
-    "modified": "2026-05-07T13:15:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

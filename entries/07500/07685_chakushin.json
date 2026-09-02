@@ -2,7 +2,7 @@
   "id": "07685_chakushin",
   "headword": "{着信|ちゃくしん}",
   "reading": "ちゃくしん",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "incoming call; receiving a call; arrival of message",
   "conjugation": {
     "type": "suru",
@@ -168,7 +168,7 @@
       "notes": null
     }
   ],
-  "notes": "{着信|ちゃくしん} means the arrival of a call or message on a device. It covers both phone calls and digital messages.\n\nCOMMON COLLOCATIONS:\n- {着信|ちゃくしん}がある: to receive a call/message\n- {着信|ちゃくしん}に{気|き}づく: to notice an incoming call\n- {着信|ちゃくしん}を{確認|かくにん}する: to check incoming calls/messages\n- {着信|ちゃくしん}{拒否|きょひ}: call blocking/rejection\n\nRELATED PHONE VOCABULARY:\n- {着信音|ちゃくしんおん}: ringtone\n- {不在|ふざい}{着信|ちゃくしん}: missed call\n- {着信|ちゃくしん}{通知|つうち}: incoming notification\n- {着信|ちゃくしん}{履歴|りれき}: call/message log\n\nCONTRAST:\n- {着信|ちゃくしん}: incoming (receiving)\n- {発信|はっしん}: outgoing (sending)",
+  "notes": "{着信|ちゃくしん} means the arrival of a call or message on a device. It covers both phone calls and digital messages.\n\nCOMMON COLLOCATIONS:\n- {着信|ちゃくしん}がある: to receive a call/message\n- {着信|ちゃくしん}に{気|き}づく: to notice an incoming call\n- {着信|ちゃくしん}を{確認|かくにん}する: to check incoming calls/messages\n- {着信|ちゃくしん}{拒否|きょひ}: call blocking/rejection\n\nRELATED PHONE VOCABULARY:\n- {着信音|ちゃくしんおん}: ringtone\n- {不在|ふざい}{着信|ちゃくしん}: missed call\n- {着信|ちゃくしん}{通知|つうち}: incoming notification\n- {着信|ちゃくしん}{履歴|りれき}: call/message log\n\nSIMILAR WORDS:\n- {着信|ちゃくしん}: incoming (receiving)\n- {発信|はっしん}: outgoing (sending)",
   "cross_references": [
     {
       "type": "antonym",
@@ -183,11 +183,25 @@
       "reading": "るすでん",
       "headword": "{留守電|るすでん}",
       "label": "voicemail"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24158_setsuden",
+      "reading": "せつでん",
+      "headword": "{切電|せつでん}",
+      "label": "hanging up the phone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26781_jushinsuru",
+      "reading": "じゅしんする",
+      "headword": "{受信|じゅしん}する",
+      "label": "to receive (a message, signal)"
     }
   ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-04-19T07:06:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -196,6 +210,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "communication",
         "technology"

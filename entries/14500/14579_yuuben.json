@@ -3,7 +3,7 @@
   "id": "14579_yuuben",
   "headword": "{雄弁|ゆうべん}",
   "reading": "ゆうべん",
-  "part_of_speech": "noun, adjective-na",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "eloquent; eloquence",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "He is an eloquent person.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14579_yuuben_ex2",
@@ -27,7 +29,9 @@
       "english": "These numbers eloquently tell of the severity of the problem.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14579_yuuben_ex3",
@@ -35,7 +39,9 @@
       "english": "Silence can sometimes convey feelings more eloquently than words.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{雄弁|ゆうべん} can describe a person's speaking ability or, more commonly in modern usage, things that powerfully communicate a message. The figurative use — {雄弁|ゆうべん}に{物語|ものがた}る (to tell eloquently) — is especially frequent.\n\nThe well-known proverb {雄弁|ゆうべん}は{銀|ぎん}、{沈黙|ちんもく}は{金|きん} (\"Speech is silver, silence is gold\") uses this word.\n\nCOMMON COLLOCATIONS:\n- {雄弁|ゆうべん}に{物語|ものがた}る (to tell eloquently; to speak volumes)\n- {雄弁|ゆうべん}な{演説|えんぜつ} (eloquent speech)\n- {雄弁|ゆうべん}{家|か} (eloquent speaker; orator)\n- {雄弁|ゆうべん}は{銀|ぎん}、{沈黙|ちんもく}は{金|きん} (speech is silver, silence is gold)",
@@ -46,18 +52,51 @@
       "reading": "のうべん",
       "headword": "{能弁|のうべん}",
       "label": "eloquent, possibly glib"
+    },
+    {
+      "type": "related",
+      "target_id": "08474_taben",
+      "reading": "たべん",
+      "headword": "{多弁|たべん}",
+      "label": "talkative"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20076_bengatatsu",
+      "reading": "べんがたつ",
+      "headword": "{弁|べん}が{立|た}つ",
+      "label": "to be articulate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21732_wajutsu",
+      "reading": "わじゅつ",
+      "headword": "{話術|わじゅつ}",
+      "label": "art of conversation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27671_benzetsu",
+      "reading": "べんぜつ",
+      "headword": "{弁舌|べんぜつ}",
+      "label": "eloquence"
     }
   ],
   "metadata": {
     "created": "2026-03-02T07:44:23Z",
-    "modified": "2026-05-08T05:05:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

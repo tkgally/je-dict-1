@@ -2,7 +2,7 @@
   "id": "30690_yakubun",
   "headword": "{約分|やくぶん}",
   "reading": "やくぶん",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reduction of a fraction to lowest terms",
   "definitions": [
     {
@@ -45,6 +45,22 @@
   ],
   "notes": "{約|やく} (to condense, to abridge) + {分|ぶん} (fraction part). Used as a noun and with する.\n\nCOMMON COLLOCATIONS:\n- {約分|やくぶん}する: to reduce a fraction\n- {約分|やくぶん}できる: can be reduced further\n- これ{以上|いじょう}{約分|やくぶん}できない: cannot be reduced any further\n\nSIMILAR WORDS:\n- {通分|つうぶん}: finding a common denominator — the complementary operation, done before adding or comparing\n- {公約数|こうやくすう}: common divisor — what you divide by when reducing\n- {既約分数|きやくぶんすう}: irreducible fraction — a fraction already in lowest terms",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30689_tsuubun",
+      "reading": "つうぶん",
+      "headword": "{通分|つうぶん}",
+      "label": "finding a common denominator"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23559_kouyakusuu",
+      "reading": "こうやくすう",
+      "headword": "{公約数|こうやくすう}",
+      "label": "common divisor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "number",
         "education"
@@ -64,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-08-16T06:19:38Z",
-    "modified": "2026-08-16T06:28:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

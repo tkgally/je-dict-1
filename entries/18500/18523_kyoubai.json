@@ -3,7 +3,7 @@
   "headword": "{競売|きょうばい}",
   "reading": "きょうばい",
   "romaji": "kyoubai",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "auction; public sale",
   "conjugation": {
     "type": "suru",
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "{競売|きょうばい} is a public sale where items go to the highest bidder. It covers both voluntary auctions and court-ordered forced sales.\n\nREADINGS:\n- きょうばい: everyday reading\n- けいばい: legal/formal reading used in court documents\n\nCOMMON COLLOCATIONS:\n- {競売|きょうばい}にかける: to put up for auction\n- {競売|きょうばい}で{落札|らくさつ}する: to win at auction\n- {強制|きょうせい}{競売|きょうばい}: forced sale (court-ordered)\n- {競売|きょうばい}{物件|ぶっけん}: auctioned property\n\nSIMILAR WORDS:\n- オークション: auction (loanword, used for online and casual contexts)\n- {競|せ}り: auction (especially at fish and produce markets)\n- {入札|にゅうさつ}: bidding, tendering",
+  "notes": "{競売|きょうばい} is a public sale where items go to the highest bidder. It covers both voluntary auctions and court-ordered forced sales.\n\nPRONUNCIATION:\n- きょうばい: everyday reading\n- けいばい: legal/formal reading used in court documents\n\nCOMMON COLLOCATIONS:\n- {競売|きょうばい}にかける: to put up for auction\n- {競売|きょうばい}で{落札|らくさつ}する: to win at auction\n- {強制|きょうせい}{競売|きょうばい}: forced sale (court-ordered)\n- {競売|きょうばい}{物件|ぶっけん}: auctioned property\n\nSIMILAR WORDS:\n- オークション: auction (loanword, used for online and casual contexts)\n- {競|せ}り: auction (especially at fish and produce markets)\n- {入札|にゅうさつ}: bidding, tendering",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16136_seri",
+      "reading": "せり",
+      "headword": "{競|せ}り",
+      "label": "auction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20503_nyuusatsu",
+      "reading": "にゅうさつ",
+      "headword": "{入札|にゅうさつ}",
+      "label": "bidding, tendering"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -155,6 +171,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-22T04:41:20Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

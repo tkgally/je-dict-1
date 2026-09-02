@@ -23,7 +23,9 @@
       "english": "We missed each other at the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09985_ikichigai_ex2",
@@ -31,7 +33,9 @@
       "english": "Waiting for trains to pass each other.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09985_ikichigai_ex3",
@@ -39,7 +43,9 @@
       "english": "There was a misunderstanding about the meeting time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "09985_ikichigai_ex4",
@@ -47,7 +53,9 @@
       "english": "Confusion arose from crossed emails.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "09985_ikichigai_ex5",
@@ -55,7 +63,9 @@
       "english": "A difference in opinions led to an argument.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "09985_ikichigai_ex6",
@@ -63,21 +73,56 @@
       "english": "There seems to have been a misunderstanding. I apologize.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
-  "notes": "{行|い}き{違|ちが}い can refer to physical or communicative misalignment.\n\nCOMMON PATTERNS:\n- {行|い}き{違|ちが}いになる: to miss each other; to have a misunderstanding\n- {行|い}き{違|ちが}いがある: there is a misunderstanding\n- {行|い}き{違|ちが}いが{生|しょう}じる: a misunderstanding arises\n\nRELATED EXPRESSIONS:\n- {食|く}い{違|ちが}い: discrepancy, disagreement\n- {勘違|かんちが}い: misunderstanding, wrong assumption\n- すれ{違|ちが}い: passing by; estrangement",
-  "cross_references": [],
+  "notes": "{行|い}き{違|ちが}い can refer to physical or communicative misalignment.\n\nCOMMON PATTERNS:\n- {行|い}き{違|ちが}いになる: to miss each other; to have a misunderstanding\n- {行|い}き{違|ちが}いがある: there is a misunderstanding\n- {行|い}き{違|ちが}いが{生|しょう}じる: a misunderstanding arises\n\nRELATED WORDS:\n- {食|く}い{違|ちが}い: discrepancy, disagreement\n- {勘違|かんちが}い: misunderstanding, wrong assumption\n- すれ{違|ちが}い: passing by; estrangement",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09342_kuichigai",
+      "reading": "くいちがい",
+      "headword": "{食|く}い{違|ちが}い",
+      "label": "discrepancy, disagreement"
+    },
+    {
+      "type": "related",
+      "target_id": "17609_kanchigai",
+      "reading": "かんちがい",
+      "headword": "{勘違|かんちが}い",
+      "label": "misunderstanding, wrong assumption"
+    },
+    {
+      "type": "related",
+      "target_id": "09910_surechigai",
+      "reading": "すれちがい",
+      "headword": "すれ{違|ちが}い",
+      "label": "passing by"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27208_techigai",
+      "reading": "てちがい",
+      "headword": "{手違|てちが}い",
+      "label": "mistake"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T12:08:51Z",
-    "modified": "2026-02-04T12:08:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

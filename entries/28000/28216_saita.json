@@ -17,7 +17,9 @@
       "id": "28216_saita_ex1",
       "japanese": "{今季|こんき}{最多|さいた}の{観客|かんきゃく}が{集|あつ}まった。",
       "english": "The season's largest crowd gathered.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28216_saita_ex2",
       "japanese": "{彼|かれ}はリーグ{最多|さいた}の{勝利|しょうり}を{挙|あ}げた。",
       "english": "He racked up the most wins in the league.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28216_saita_ex3",
       "japanese": "その{年|とし}は{過去|かこ}{最多|さいた}の{来場者数|らいじょうしゃすう}を{記録|きろく}した。",
       "english": "That year recorded the highest number of visitors ever.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From {最|さい} (most) plus {多|た} (many). Usually attached directly to a noun ({最多|さいた}{得点|とくてん}, most points) or joined with の.\n\nCOMMON COLLOCATIONS:\n- {過去最多|かこさいた}: the most ever / a record high\n- {最多|さいた}{得点|とくてん}: the most points\n- リーグ{最多|さいた}: the most in the league\n\nRELATED WORDS:\n- {最少|さいしょう}: the fewest (opposite)\n- {最大|さいだい}: the largest (in size or scale, not count)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "17310_saishou",
+      "reading": "さいしょう",
+      "headword": "{最少|さいしょう}",
+      "label": "the fewest"
+    },
+    {
+      "type": "related",
+      "target_id": "04827_saidai",
+      "reading": "さいだい",
+      "headword": "{最大|さいだい}",
+      "label": "the largest"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["quantity"],
+      "politeness": "plain",
+      "semantic": [
+        "quantity"
+      ],
       "domain": []
     },
     "created": "2026-05-27T03:08:15Z",
-    "modified": "2026-05-27T03:08:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -168,11 +168,40 @@
       "notes": null
     }
   ],
-  "notes": "{戦|たたか}う is a godan verb meaning to fight, battle, or struggle.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n\nPARTICLE PATTERN:\n- X⟦と→と：00512_to⟧{戦|たたか}う: to fight against X\n- X⟦に→に：00314_ni⟧{戦|たたか}う: to fight for X (cause)\n\nUSAGE CONTEXTS:\n- ⟦{戦争|せんそう}→戦争：01450_sensou⟧: war, combat\n- ⟦スポーツ→スポーツ：04740_supootsu⟧: sports competitions\n- ⟦{病気|びょうき}→病気：00771_byouki⟧⟦と→と：00512_to⟧{戦|たたか}う: to fight illness\n- ⟦{困難|こんなん}→困難：01410_konnan⟧⟦と→と：00512_to⟧{戦|たたか}う: to struggle against hardship\n\nKANJI VARIANTS:\n- {戦|たたか}う: general fighting, war (⟦{戦争|せんそう}→戦争：01450_sensou⟧)\n- ⟦{闘|たたか}う→闘う：17304_tatakau⟧: struggle, battle (⟦{闘争|とうそう}→闘争：14574_tousou⟧)\nBoth are read たたかう; {闘|たたか}う emphasizes intense struggle.\n\nRELATED:\n- ⟦{戦|たたか}い→戦い：02070_tatakai⟧: fight, battle (noun)\n- ⟦{戦士|せんし}→戦士：12747_senshi⟧: warrior\n- ⟦{戦闘|せんとう}→戦闘：12639_sentou⟧: combat",
-  "cross_references": [],
+  "notes": "{戦|たたか}う is a godan verb meaning to fight, battle, or struggle.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n\nCOMMON PATTERNS:\n- X⟦と→と：00512_to⟧{戦|たたか}う: to fight against X\n- X⟦に→に：00314_ni⟧{戦|たたか}う: to fight for X (cause)\n\nUSAGE:\n- ⟦{戦争|せんそう}→戦争：01450_sensou⟧: war, combat\n- ⟦スポーツ→スポーツ：04740_supootsu⟧: sports competitions\n- ⟦{病気|びょうき}→病気：00771_byouki⟧⟦と→と：00512_to⟧{戦|たたか}う: to fight illness\n- ⟦{困難|こんなん}→困難：01410_konnan⟧⟦と→と：00512_to⟧{戦|たたか}う: to struggle against hardship\n\nWRITING:\n- {戦|たたか}う: general fighting, war (⟦{戦争|せんそう}→戦争：01450_sensou⟧)\n- ⟦{闘|たたか}う→闘う：17304_tatakau⟧: struggle, battle (⟦{闘争|とうそう}→闘争：14574_tousou⟧)\nBoth are read たたかう; {闘|たたか}う emphasizes intense struggle.\n\nRELATED WORDS:\n- ⟦{戦|たたか}い→戦い：02070_tatakai⟧: fight, battle (noun)\n- ⟦{戦士|せんし}→戦士：12747_senshi⟧: warrior\n- ⟦{戦闘|せんとう}→戦闘：12639_sentou⟧: combat",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02070_tatakai",
+      "reading": "たたかい",
+      "headword": "{戦|たたか}い",
+      "label": "fight, battle"
+    },
+    {
+      "type": "related",
+      "target_id": "12747_senshi",
+      "reading": "せんし",
+      "headword": "{戦士|せんし}",
+      "label": "warrior"
+    },
+    {
+      "type": "related",
+      "target_id": "12639_sentou",
+      "reading": "せんとう",
+      "headword": "{戦闘|せんとう}",
+      "label": "combat"
+    },
+    {
+      "type": "related",
+      "target_id": "01866_arasou",
+      "reading": "あらそう",
+      "headword": "{争|あらそ}う",
+      "label": "to compete, to argue"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:36:25Z",
-    "modified": "2026-05-18T13:16:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{埋|う}め{立|た}てる",
   "reading": "うめたてる",
   "romaji": "umetateru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to reclaim (land); to fill in",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "TRANSITIVITY: Transitive ichidan verb. Xを{埋|う}め{立|た}てる. Compound of {埋|う}める (to bury, to fill) + {立|た}てる. Specifically refers to filling in water to make new land.\n\nCOMMON COLLOCATIONS:\n- {海|うみ}を{埋|う}め{立|た}てる: to reclaim land from the sea\n- {埋|う}め{立|た}て{地|ち}: reclaimed land\n\nSIMILAR WORDS:\n- {埋|う}める: to bury; to fill in — general; can fill a hole, a gap, or even a position\n- {干拓|かんたく}する: to reclaim by drainage — draining water away rather than filling with earth",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01901_umeru",
+      "reading": "うめる",
+      "headword": "{埋|う}める",
+      "label": "to bury"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28986_kantaku",
+      "reading": "かんたく",
+      "headword": "{干拓|かんたく}",
+      "label": "to reclaim by drainage"
+    },
+    {
+      "type": "related",
+      "target_id": "01897_umaru",
+      "reading": "うまる",
+      "headword": "{埋|う}まる",
+      "label": "to be buried, to be filled"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-05-18T04:14:41Z",
-    "modified": "2026-05-18T04:14:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

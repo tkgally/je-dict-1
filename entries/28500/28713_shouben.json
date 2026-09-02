@@ -30,7 +30,7 @@
     },
     {
       "id": "28713_shouben_ex2",
-      "japanese": "{ここでの|ここでの}{小便|しょうべん}は{禁止|きんし}されている。",
+      "japanese": "ここでの{小便|しょうべん}は{禁止|きんし}されている。",
       "english": "Urinating here is prohibited.",
       "sense_numbers": [
         1
@@ -81,6 +81,15 @@
   ],
   "notes": "Literally \"small convenience,\" paired with {大便|だいべん} (\"large convenience,\" feces). In polite or medical contexts, use {尿|にょう} or おしっこ instead. {小便|しょうべん} sounds rough and is more common in male speech.\n\nCOMMON COLLOCATIONS:\n- {小便|しょうべん}をする: to urinate\n- {立|た}ち{小便|しょうべん}: urinating in public (a punishable minor offense)\n- {小便|しょうべん}{小僧|こぞう}: \"the peeing boy\" — a famous statue, also a metaphor for someone immature\n\nREGISTER:\n- おしっこ: pee — childish/cute, used by children or with children\n- {尿|にょう}: urine — clinical/medical\n- {小用|しょうよう}: number one — softer, often used in older or polite speech\n- {小便|しょうべん}: pee, piss — rough, masculine register\n\nSENSE 2 NOTE:\n\"To back out\" usage is slangy and rare in polite contexts; common in business gossip and rough speech.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24207_daiben",
+      "reading": "だいべん",
+      "headword": "{大便|だいべん}",
+      "label": "feces"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -88,7 +97,7 @@
         "noun"
       ],
       "formality": "informal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "body-internal",
         "health"
@@ -96,6 +105,6 @@
       "domain": []
     },
     "created": "2026-06-04T03:14:15Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

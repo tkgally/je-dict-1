@@ -19,7 +19,9 @@
       "english": "This shinsho is easy to read.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16406_shinsho_ex2",
@@ -27,7 +29,9 @@
       "english": "I bought a pocket-sized book at the station bookshop.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16406_shinsho_ex3",
@@ -35,21 +39,42 @@
       "english": "Iwanami Shinsho is the oldest pocket-book series in Japan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "CULTURE:\n{新書|しんしょ} is a uniquely Japanese publishing format launched by Iwanami Shoten in 1938. Major publishers each maintain their own {新書|しんしょ} line ({岩波|いわなみ}{新書|しんしょ}, {中公|ちゅうこう}{新書|しんしょ}, {講談社|こうだんしゃ}{現代|げんだい}{新書|しんしょ}, etc.). They are affordable, slim volumes designed for commuters and general readers.\n\nCOMMON COLLOCATIONS:\n- {新書|しんしょ}サイズ (shinsho size/format)\n- {新書|しんしょ}を{読|よ}む (to read a shinsho)\n- {新書|しんしょ}コーナー (shinsho section in a bookstore)\n\nNOTE:\nDo not confuse with {新刊|しんかん} (new publication) or {文庫|ぶんこ} (bunko, a different pocket-book format that reprints fiction and classics in an even smaller size).",
-  "cross_references": [],
+  "notes": "CULTURAL NOTE:\n{新書|しんしょ} is a uniquely Japanese publishing format launched by Iwanami Shoten in 1938. Major publishers each maintain their own {新書|しんしょ} line ({岩波|いわなみ}{新書|しんしょ}, {中公|ちゅうこう}{新書|しんしょ}, {講談社|こうだんしゃ}{現代|げんだい}{新書|しんしょ}, etc.). They are affordable, slim volumes designed for commuters and general readers.\n\nCOMMON COLLOCATIONS:\n- {新書|しんしょ}サイズ (shinsho size/format)\n- {新書|しんしょ}を{読|よ}む (to read a shinsho)\n- {新書|しんしょ}コーナー (shinsho section in a bookstore)\n\nUSAGE:\nDo not confuse with {新刊|しんかん} (new publication) or {文庫|ぶんこ} (bunko, a different pocket-book format that reprints fiction and classics in an even smaller size).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12915_bunkobon",
+      "reading": "ぶんこぼん",
+      "headword": "{文庫本|ぶんこぼん}",
+      "label": "paperback book, pocket-sized book"
+    },
+    {
+      "type": "related",
+      "target_id": "18437_bunko",
+      "reading": "ぶんこ",
+      "headword": "{文庫|ぶんこ}",
+      "label": "paperback pocket edition"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T08:56:07Z",
-    "modified": "2026-03-12T08:56:07Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

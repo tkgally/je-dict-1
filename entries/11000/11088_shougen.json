@@ -3,7 +3,7 @@
   "id": "11088_shougen",
   "headword": "{証言|しょうげん}",
   "reading": "しょうげん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "testimony, witness statement",
   "conjugation": {
     "type": "suru",
@@ -142,11 +142,25 @@
       "reading": "しょうこ",
       "headword": "{証拠|しょうこ}",
       "label": "evidence"
+    },
+    {
+      "type": "related",
+      "target_id": "09652_mokugekisha",
+      "reading": "もくげきしゃ",
+      "headword": "{目撃者|もくげきしゃ}",
+      "label": "eyewitness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23318_kyoujutsu",
+      "reading": "きょうじゅつ",
+      "headword": "{供述|きょうじゅつ}",
+      "label": "testimony"
     }
   ],
   "metadata": {
     "created": "2026-02-13T12:38:59Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

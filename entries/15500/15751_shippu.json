@@ -19,7 +19,9 @@
       "english": "I put a medicated patch on my lower back.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15751_shippu_ex2",
@@ -27,7 +29,9 @@
       "english": "I sprained my ankle, so I got medicated patches from the hospital.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15751_shippu_ex3",
@@ -35,22 +39,38 @@
       "english": "There are cooling patches and warming patches, so please choose according to your symptoms.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{湿布|しっぷ} in modern usage almost always refers to adhesive medicated patches (like Salonpas). The original meaning was a moist compress or poultice applied to the body.\n\nCOMMON COLLOCATIONS:\n- {湿布|しっぷ}を{貼|は}る (apply a medicated patch)\n- {湿布|しっぷ}を{剥|は}がす (peel off a patch)\n- {冷|れい}{湿布|しっぷ} (cold/cooling patch)\n- {温|おん}{湿布|しっぷ} (warm/heating patch)\n- {湿布薬|しっぷやく} (medicated compress/patch)\n\nCULTURAL NOTE:\nMedicated patches are extremely popular in Japan and are available over the counter at pharmacies and convenience stores. They are a common first response for muscle pain, stiffness, and minor injuries.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23497_itamidome",
+      "reading": "いたみどめ",
+      "headword": "{痛|いた}み{止|ど}め",
+      "label": "painkiller"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T09:11:34Z",
-    "modified": "2026-03-08T09:11:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

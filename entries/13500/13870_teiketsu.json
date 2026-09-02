@@ -3,7 +3,7 @@
   "id": "13870_teiketsu",
   "headword": "{締結|ていけつ}",
   "reading": "ていけつ",
-  "part_of_speech": "noun / verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "conclusion, signing (of a treaty or agreement)",
   "conjugation": {
     "type": "suru",
@@ -142,11 +142,32 @@
       "reading": "けいやく",
       "headword": "{契約|けいやく}",
       "label": "contract"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14252_chouin",
+      "reading": "ちょういん",
+      "headword": "{調印|ちょういん}",
+      "label": "signing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05093_goui",
+      "reading": "ごうい",
+      "headword": "{合意|ごうい}",
+      "label": "agreement, consensus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25497_seiritsusuru",
+      "reading": "せいりつする",
+      "headword": "{成立|せいりつ}する",
+      "label": "to be established"
     }
   ],
   "metadata": {
     "created": "2026-02-27T05:49:23Z",
-    "modified": "2026-04-29T09:23:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

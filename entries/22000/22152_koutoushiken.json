@@ -17,7 +17,9 @@
       "id": "22152_koutoushiken_ex1",
       "japanese": "{口頭|こうとう}{試験|しけん}を{受|う}ける。",
       "english": "To take an oral examination.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22152_koutoushiken_ex2",
       "japanese": "{筆記|ひっき}{試験|しけん}の{後|あと}に{口頭|こうとう}{試験|しけん}がある。",
       "english": "There is an oral exam after the written exam.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "22152_koutoushiken_ex3",
       "japanese": "{大学院|だいがくいん}の{入試|にゅうし}では、{口頭|こうとう}{試験|しけん}で{研究|けんきゅう}{計画|けいかく}について{説明|せつめい}しなければならない。",
       "english": "In the graduate school entrance exam, you have to explain your research plan in the oral examination.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "An examination where questions are asked and answered verbally. Distinguished from {筆記|ひっき}{試験|しけん} (written examination). Also sometimes called {面接|めんせつ}{試験|しけん} when it resembles an interview format.\n\nCOMMON COLLOCATIONS:\n- {口頭|こうとう}{試験|しけん}を{受|う}ける: to take an oral exam\n- {口頭|こうとう}{試験|しけん}に{合格|ごうかく}する: to pass an oral exam\n- {口頭|こうとう}{試験|しけん}{官|かん}: oral examiner\n- {口頭|こうとう}{試問|しもん}: oral questioning (slightly more formal variant)\n\nSIMILAR WORDS:\n- {筆記|ひっき}{試験|しけん}: written examination — answers given in writing\n- {面接|めんせつ}: interview — broader term; may assess personality and attitude, not just knowledge\n- {口頭|こうとう}{発表|はっぴょう}: oral presentation — a one-way presentation rather than a question-and-answer format\n\nCONTEXT:\nCommon in graduate school admissions, thesis defenses, professional licensing exams (medical, legal), and language proficiency tests.",
+  "notes": "An examination where questions are asked and answered verbally. Distinguished from {筆記|ひっき}{試験|しけん} (written examination). Also sometimes called {面接|めんせつ}{試験|しけん} when it resembles an interview format.\n\nCOMMON COLLOCATIONS:\n- {口頭|こうとう}{試験|しけん}を{受|う}ける: to take an oral exam\n- {口頭|こうとう}{試験|しけん}に{合格|ごうかく}する: to pass an oral exam\n- {口頭|こうとう}{試験|しけん}{官|かん}: oral examiner\n- {口頭|こうとう}{試問|しもん}: oral questioning (slightly more formal variant)\n\nSIMILAR WORDS:\n- {筆記|ひっき}{試験|しけん}: written examination — answers given in writing\n- {面接|めんせつ}: interview — broader term; may assess personality and attitude, not just knowledge\n- {口頭|こうとう}{発表|はっぴょう}: oral presentation — a one-way presentation rather than a question-and-answer format\n\nUSAGE:\nCommon in graduate school admissions, thesis defenses, professional licensing exams (medical, legal), and language proficiency tests.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19043_hikkishiken",
+      "reading": "ひっきしけん",
+      "headword": "{筆記試験|ひっきしけん}",
+      "label": "written examination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01100_mensetsu",
+      "reading": "めんせつ",
+      "headword": "{面接|めんせつ}",
+      "label": "interview"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24471_koutouhappyou",
+      "reading": "こうとうはっぴょう",
+      "headword": "{口頭|こうとう}{発表|はっぴょう}",
+      "label": "oral presentation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     },
     "created": "2026-04-05T04:02:42Z",
-    "modified": "2026-06-15T07:58:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

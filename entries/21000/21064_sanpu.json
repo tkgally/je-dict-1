@@ -3,7 +3,7 @@
   "headword": "{散布|さんぷ}",
   "reading": "さんぷ",
   "romaji": "sanpu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "spraying; scattering; spreading",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Most commonly used in agricultural and environmental contexts for spraying or spreading substances. Used as a suru-verb ({散布|さんぷ}する).\n\nCOMMON COLLOCATIONS:\n- {農薬|のうやく}を{散布|さんぷ}する: to spray pesticide\n- {除草剤|じょそうざい}を{散布|さんぷ}する: to spray herbicide\n- {肥料|ひりょう}を{散布|さんぷ}する: to spread fertilizer\n- {散布|さんぷ}{作業|さぎょう}: spraying work\n- {空中|くうちゅう}{散布|さんぷ}: aerial spraying\n\nSIMILAR WORDS:\n- {噴霧|ふんむ}: misting, atomizing — finer spray, like a mist\n- {撒|ま}く: to scatter, to sprinkle — everyday verb for scattering anything\n- {散布|さんぷ}: formal/technical, specifically for systematic spraying or spreading",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21104_funmu",
+      "reading": "ふんむ",
+      "headword": "{噴霧|ふんむ}",
+      "label": "misting, atomizing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12711_maku",
+      "reading": "まく",
+      "headword": "{撒|ま}く",
+      "label": "to scatter, to sprinkle"
+    },
+    {
+      "type": "related",
+      "target_id": "15045_funsha",
+      "reading": "ふんしゃ",
+      "headword": "{噴射|ふんしゃ}",
+      "label": "jet, spray, injection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24594_tofu",
+      "reading": "とふ",
+      "headword": "{塗布|とふ}",
+      "label": "application (of ointment, cream, paint, etc.)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-31T16:22:33Z",
-    "modified": "2026-03-31T16:22:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

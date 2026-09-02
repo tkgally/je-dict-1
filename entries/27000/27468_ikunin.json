@@ -35,7 +35,7 @@
     },
     {
       "id": "27468_ikunin_ex3",
-      "japanese": "{彼|かれ}の{論文|ろんぶん}は、{これまで|これまで}{幾人|いくにん}もの{研究者|けんきゅうしゃ}に{引用|いんよう}されてきた。",
+      "japanese": "{彼|かれ}の{論文|ろんぶん}は、これまで{幾人|いくにん}もの{研究者|けんきゅうしゃ}に{引用|いんよう}されてきた。",
       "english": "His paper has been cited by many researchers up to now.",
       "sense_numbers": [
         1
@@ -46,6 +46,29 @@
   ],
   "notes": "Compound of {幾|いく} (how many; some) + {人|にん} (people). Most often appears in {幾人|いくにん}も (many people) and {幾人|いくにん}か (several people). Has a literary feel; use {何人|なんにん} in casual speech.\n\nCOMMON COLLOCATIONS:\n- {幾人|いくにん}も: many people; a great number of people\n- {幾人|いくにん}か: several people; a few people\n- {幾人|いくにん}もの〜: many ~ (with a following noun phrase)\n\nSIMILAR WORDS:\n- {何人|なんにん}: how many people — everyday standard form\n- {数人|すうにん}: several people — neutral, common in writing\n- {大勢|おおぜい}: a crowd; many people",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17593_nannin",
+      "reading": "なんにん",
+      "headword": "{何人|なんにん}",
+      "label": "how many people"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18787_suunin",
+      "reading": "すうにん",
+      "headword": "{数人|すうにん}",
+      "label": "several people"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02850_oozei",
+      "reading": "おおぜい",
+      "headword": "{大勢|おおぜい}",
+      "label": "a crowd"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "person"
       ],
       "domain": []
     },
     "created": "2026-05-12T04:10:44Z",
-    "modified": "2026-08-07T15:50:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

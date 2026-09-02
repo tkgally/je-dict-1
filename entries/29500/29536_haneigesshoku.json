@@ -17,7 +17,9 @@
       "id": "29536_haneigesshoku_ex1",
       "japanese": "{半影|はんえい}{月食|げっしょく}は{分|わ}かりにくい。",
       "english": "A penumbral lunar eclipse is hard to notice.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29536_haneigesshoku_ex2",
       "japanese": "{今日|きょう}の{半影|はんえい}{月食|げっしょく}では{月|つき}がわずかに{暗|くら}くなった。",
       "english": "In today's penumbral lunar eclipse the Moon dimmed only slightly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29536_haneigesshoku_ex3",
       "japanese": "{半影|はんえい}{月食|げっしょく}は{部分|ぶぶん}{月食|げっしょく}よりも{変化|へんか}が{小|ちい}さいので{見逃|みのが}しやすい。",
       "english": "A penumbral lunar eclipse changes less than a partial one, so it is easy to miss.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {半影|はんえい} (penumbra; partial shadow) + {月食|げっしょく} (lunar eclipse).\n\nCOMMON COLLOCATIONS:\n- {半影|はんえい}{月食|げっしょく}が{起|お}こる: a penumbral lunar eclipse occurs\n- {半影|はんえい}{月食|げっしょく}を{観測|かんそく}する: to observe a penumbral lunar eclipse\n\nSIMILAR WORDS:\n- {部分|ぶぶん}{月食|げっしょく}: partial eclipse — part of the Moon enters the dark umbra\n- {皆既|かいき}{月食|げっしょく}: total eclipse — the whole Moon is in shadow",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29535_bubungesshoku",
+      "reading": "ぶぶんげっしょく",
+      "headword": "{部分|ぶぶん}{月食|げっしょく}",
+      "label": "partial eclipse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17892_kaikigesshoku",
+      "reading": "かいきげっしょく",
+      "headword": "{皆既月食|かいきげっしょく}",
+      "label": "total eclipse"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["science"],
+      "politeness": "plain",
+      "semantic": [
+        "science"
+      ],
       "domain": []
     },
     "created": "2026-06-28T09:18:52Z",
-    "modified": "2026-06-28T09:18:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

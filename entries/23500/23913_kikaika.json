@@ -3,7 +3,7 @@
   "headword": "{機械化|きかいか}",
   "reading": "きかいか",
   "romaji": "kikaika",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "mechanization (replacement of manual labor by machines)",
   "definitions": [
     {
@@ -56,6 +56,29 @@
   ],
   "notes": "A general noun for the replacement of manual work with machines. Often contrasted or paired with {自動化|じどうか} (automation), but not identical.\n\nUSAGE:\n- Noun usage: {農業|のうぎょう}の{機械化|きかいか} (the mechanization of agriculture).\n- Verb usage with する: {作業|さぎょう}を{機械化|きかいか}する (to mechanize the work).\n- Frequently appears in economic, historical, and social discussions about labor and productivity.\n\nCOMMON COLLOCATIONS:\n- {機械化|きかいか}が{進|すす}む: mechanization progresses\n- {機械化|きかいか}を{進|すす}める: to promote mechanization\n- {農業|のうぎょう}の{機械化|きかいか}: mechanization of agriculture\n- {工場|こうじょう}の{機械化|きかいか}: mechanization of factories\n- {機械化|きかいか}{部隊|ぶたい}: mechanized unit (military)\n\nSIMILAR WORDS:\n- {自動化|じどうか}: automation — the process of making a task run without human operation, often with computers or sensors; newer and broader in modern contexts.\n- IT{化|か}: digitization / IT-ification — replacement of analog or manual processes with IT systems.\n- {省力化|しょうりょくか}: labor saving — reducing the amount of human effort required, often a goal of mechanization.\n- {産業化|さんぎょうか}: industrialization — a broader social/economic transformation of which mechanization is one aspect.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07566_jidouka",
+      "reading": "じどうか",
+      "headword": "{自動化|じどうか}",
+      "label": "automation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20908_shouryokuka",
+      "reading": "しょうりょくか",
+      "headword": "{省力化|しょうりょくか}",
+      "label": "labor saving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24717_sangyouka",
+      "reading": "さんぎょうか",
+      "headword": "{産業化|さんぎょうか}",
+      "label": "industrialization"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -73,7 +96,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-15T12:16:18Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

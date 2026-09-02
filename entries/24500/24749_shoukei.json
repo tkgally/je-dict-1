@@ -3,7 +3,7 @@
   "headword": "{承継|しょうけい}",
   "reading": "しょうけい",
   "romaji": "shoukei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "succession; inheritance",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A compound of {承|しょう} (to receive, accept) and {継|けい} (to succeed, continue). This is a formal, primarily legal term for succession of rights, duties, property, or positions.\n\nUsed extensively in legal documents, corporate law, and official contexts. In everyday conversation, {引|ひ}き{継|つ}ぐ or {受|う}け{継|つ}ぐ would be used instead.\n\nCOMMON COLLOCATIONS:\n- {事業|じぎょう}{承継|しょうけい}: business succession\n- {権利|けんり}の{承継|しょうけい}: succession of rights\n- {地位|ちい}の{承継|しょうけい}: succession to a position\n- {包括|ほうかつ}{承継|しょうけい}: universal succession\n\nSIMILAR WORDS:\n- {継承|けいしょう}: inheritance, succession — more broadly used for traditions, culture, and techniques as well as legal matters\n- {相続|そうぞく}: inheritance — specifically the legal inheritance of property after death\n- {引|ひ}き{継|つ}ぎ: handover, taking over — everyday word for passing on work or responsibilities",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13841_keishou",
+      "reading": "けいしょう",
+      "headword": "{継承|けいしょう}",
+      "label": "inheritance, succession"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03690_souzoku",
+      "reading": "そうぞく",
+      "headword": "{相続|そうぞく}",
+      "label": "inheritance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08365_hikitsugi",
+      "reading": "ひきつぎ",
+      "headword": "{引|ひ}き{継|つ}ぎ",
+      "label": "handover, taking over"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +76,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "law",
         "business"
@@ -60,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-20T14:31:31Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -17,7 +17,9 @@
       "id": "21411_otokuisama_ex1",
       "japanese": "あの{方|かた}はお{得意様|とくいさま}です。",
       "english": "That person is a valued customer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21411_otokuisama_ex2",
       "japanese": "お{得意様|とくいさま}には{特別|とくべつ}{割引|わりびき}をご{用意|ようい}しております。",
       "english": "We offer special discounts for our valued customers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "21411_otokuisama_ex3",
       "japanese": "{長年|ながねん}のお{得意様|とくいさま}を{大切|たいせつ}にすることが、{商売|しょうばい}を{長|なが}く{続|つづ}ける{秘訣|ひけつ}だ。",
       "english": "The secret to sustaining a business long-term is to value your long-standing customers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The polite form of {得意先|とくいさき}/{得意客|とくいきゃく}. The お～{様|さま} honorific wrapping makes this suitable for directly addressing or referring to customers in a respectful business context.\n\nCOMMON COLLOCATIONS:\n- お{得意様|とくいさま}{向|む}け: aimed at valued customers\n- お{得意様|とくいさま}{限定|げんてい}: exclusive to regular customers\n- {長年|ながねん}のお{得意様|とくいさま}: long-standing customer\n\nRELATED TERMS:\n- {得意先|とくいさき}: client, customer (business term) — used within the company to refer to business clients\n- {常連|じょうれん}: regular (customer) — more casual, used for restaurants, bars, and shops\n- {顧客|こきゃく}: customer, client — formal/neutral business term without the honorific warmth\n- お{客様|きゃくさま}: customer — general polite term for any customer",
+  "notes": "The polite form of {得意先|とくいさき}/{得意客|とくいきゃく}. The お～{様|さま} honorific wrapping makes this suitable for directly addressing or referring to customers in a respectful business context.\n\nCOMMON COLLOCATIONS:\n- お{得意様|とくいさま}{向|む}け: aimed at valued customers\n- お{得意様|とくいさま}{限定|げんてい}: exclusive to regular customers\n- {長年|ながねん}のお{得意様|とくいさま}: long-standing customer\n\nRELATED WORDS:\n- {得意先|とくいさき}: client, customer (business term) — used within the company to refer to business clients\n- {常連|じょうれん}: regular (customer) — more casual, used for restaurants, bars, and shops\n- {顧客|こきゃく}: customer, client — formal/neutral business term without the honorific warmth\n- お{客様|きゃくさま}: customer — general polite term for any customer",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21791_tokuisaki",
+      "reading": "とくいさき",
+      "headword": "{得意先|とくいさき}",
+      "label": "client, customer"
+    },
+    {
+      "type": "related",
+      "target_id": "06878_jouren",
+      "reading": "じょうれん",
+      "headword": "{常連|じょうれん}",
+      "label": "regular"
+    },
+    {
+      "type": "related",
+      "target_id": "08632_kokyaku",
+      "reading": "こきゃく",
+      "headword": "{顧客|こきゃく}",
+      "label": "customer, client"
+    },
+    {
+      "type": "related",
+      "target_id": "08780_okyakusama",
+      "reading": "おきゃくさま",
+      "headword": "お{客様|きゃくさま}",
+      "label": "customer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "polite",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-04-02T02:52:20Z",
-    "modified": "2026-04-02T02:52:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{兼用|けんよう}する",
   "reading": "けんようする",
   "romaji": "kenyousuru",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to use for two purposes; to share between uses",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,29 @@
   ],
   "notes": "A する-verb from {兼用|けんよう}, composed of {兼|けん} (to combine, to serve concurrently) + {用|よう} (use). Often used as a noun modifier without する: {兼用|けんよう}の (dual-purpose).\n\nUSAGE:\nVery common in product descriptions and everyday conversation about shared or multi-purpose items. The noun form {兼用|けんよう} is often used directly: AとBの{兼用|けんよう} (serving as both A and B).\n\nCOMMON COLLOCATIONS:\n- {晴雨|せいう}{兼用|けんよう} — for both sun and rain (umbrellas)\n- {男女|だんじょ}{兼用|けんよう} — unisex\n- {兼用|けんよう}スペース — shared/multi-purpose space\n- AとBを{兼用|けんよう}する — to use something as both A and B\n\nSIMILAR WORDS:\n- {共用|きょうよう}する — to share (among people; focus on joint access)\n- {併用|へいよう}する — to use together, to use concurrently (two things used simultaneously)\n- {流用|りゅうよう}する — to divert, to repurpose (redirecting something from its original use)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21529_kyouyou",
+      "reading": "きょうよう",
+      "headword": "{共用|きょうよう}",
+      "label": "to share (among people"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11558_heiyou",
+      "reading": "へいよう",
+      "headword": "{併用|へいよう}",
+      "label": "to use together, to use concurrently"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13393_ryuuyou",
+      "reading": "りゅうよう",
+      "headword": "{流用|りゅうよう}",
+      "label": "to divert, to repurpose"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +175,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T20:11:22Z",
-    "modified": "2026-03-28T20:11:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

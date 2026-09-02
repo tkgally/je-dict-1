@@ -3,7 +3,7 @@
   "id": "12511_juurai",
   "headword": "{従来|じゅうらい}",
   "reading": "じゅうらい",
-  "part_of_speech": "noun / adverb",
+  "part_of_speech": "noun, adverb",
   "gloss": "conventional, traditional; up to now, so far",
   "definitions": [
     {
@@ -24,7 +24,9 @@
       "english": "There are limits to the conventional method.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12511_juurai_ex2",
@@ -32,7 +34,9 @@
       "english": "Performance has improved compared to the previous product.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12511_juurai_ex3",
@@ -40,7 +44,9 @@
       "english": "Thinking that is not bound by conventional frameworks is called for.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12511_juurai_ex4",
@@ -48,7 +54,9 @@
       "english": "Until now, it had been done by hand.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12511_juurai_ex5",
@@ -56,7 +64,9 @@
       "english": "There is no problem with handling it in the usual way.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12511_juurai_ex6",
@@ -64,22 +74,53 @@
       "english": "An issue that had been pointed out for some time was finally resolved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nA staple of formal and business Japanese. As a modifier ({従来|じゅうらい}の), it describes established practices, products, or norms — often in contrast with something new. As an adverb ({従来|じゅうらい}は / {従来|じゅうらい}から), it means \"up to now.\"\n\nCOMMON PATTERNS:\n- {従来|じゅうらい}の〜: conventional, existing (modifier)\n- {従来|じゅうらい}どおり: as before, in the usual way\n- {従来|じゅうらい}から: from before, for some time\n- {従来|じゅうらい}{型|がた}: conventional type",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10168_korai",
+      "reading": "こらい",
+      "headword": "{古来|こらい}",
+      "label": "since ancient times"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11546_imamade",
+      "reading": "いままで",
+      "headword": "{今|いま}まで",
+      "label": "until now, so far"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27736_kison",
+      "reading": "きそん",
+      "headword": "{既存|きそん}",
+      "label": "existing"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T11:09:01Z",
-    "modified": "2026-02-21T11:09:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adverb"],
+      "pos": [
+        "noun",
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-general"],
-      "style": ["written"]
+      "semantic": [
+        "time-general"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

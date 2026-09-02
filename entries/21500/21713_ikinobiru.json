@@ -3,7 +3,7 @@
   "headword": "{生|い}き{延|の}びる",
   "reading": "いきのびる",
   "romaji": "ikinobiru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to survive; to live on; to pull through",
   "definitions": [
     {
@@ -45,6 +45,22 @@
     }
   ],
   "notes": "A compound verb meaning to continue living through danger or hardship. Combines {生|い}きる (to live) and {延|の}びる (to extend, stretch). The nuance is surviving something that could have ended one's life.\n\nUSAGE:\n- Emphasizes having survived a dangerous or difficult situation — not simply \"living a long time\"\n- Often used with を to mark the hardship survived: {戦争|せんそう}を{生|い}き{延|の}びる (to survive the war)\n- Can also be used figuratively for organizations or businesses that survive difficult times\n\nCOMMON COLLOCATIONS:\n- {戦争|せんそう}を{生|い}き{延|の}びる: to survive the war\n- {災害|さいがい}を{生|い}き{延|の}びる: to survive a disaster\n- {奇跡|きせき}{的|てき}に{生|い}き{延|の}びる: to survive miraculously\n- なんとか{生|い}き{延|の}びる: to barely survive\n\nTRANSITIVITY:\n- Intransitive (self-moving)\n\nSIMILAR WORDS:\n- {生|い}き{残|のこ}る: to survive, to remain alive — very close in meaning; slightly more emphasis on being among those who remain\n- {助|たす}かる: to be saved, to survive — implies being rescued or having a fortunate outcome\n- {耐|た}え{抜|ぬ}く: to endure through — emphasizes the act of enduring rather than the outcome of surviving",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13521_ikinokoru",
+      "reading": "いきのこる",
+      "headword": "{生|い}き{残|のこ}る",
+      "label": "to survive, to remain alive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01956_tasukaru",
+      "reading": "たすかる",
+      "headword": "{助|たす}かる",
+      "label": "to be saved, to survive"
+    }
+  ],
   "metadata": {
     "entry_id": "21713_ikinobiru",
     "schema_version": "2.0",
@@ -56,6 +72,8 @@
         "verb-ichidan"
       ],
       "transitivity": "intransitive",
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "existence"
       ],
@@ -63,7 +81,7 @@
       "usage": [],
       "verb_class": "ichidan"
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

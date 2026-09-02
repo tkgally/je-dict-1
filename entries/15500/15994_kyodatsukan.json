@@ -19,7 +19,9 @@
       "english": "After the match, I was overcome by exhaustion.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15994_kyodatsukan_ex2",
@@ -27,7 +29,9 @@
       "english": "After the big project ended, I felt so drained that I couldn't bring myself to do anything.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15994_kyodatsukan_ex3",
@@ -35,7 +39,9 @@
       "english": "The sudden news left me feeling hollow, and I couldn't move for a while.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {虚脱|きょだつ} (prostration, collapse) + {感|かん} (feeling). Describes the emotional and physical aftermath of intense events. Common verbs include {襲|おそ}われる (to be struck by), {覚|おぼ}える (to experience), and {感|かん}じる (to feel).\n\nCOMMON COLLOCATIONS:\n- {虚脱感|きょだつかん}に{襲|おそ}われる (to be overcome by lethargy)\n- {虚脱感|きょだつかん}を{覚|おぼ}える (to feel drained)\n- {虚脱感|きょだつかん}に{陥|おちい}る (to fall into a state of emptiness)\n\nSIMILAR WORDS:\n- {喪失感|そうしつかん}: sense of loss — focused on grief from losing something\n- {脱力感|だつりょくかん}: feeling of weakness — more physical, less emotional\n- {燃|も}え{尽|つ}き{症候群|しょうこうぐん}: burnout — a chronic condition rather than a momentary feeling",
@@ -53,18 +59,36 @@
       "reading": "だつりょくかん",
       "headword": "{脱力感|だつりょくかん}",
       "label": "weakness (physical)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08597_moetsukishoukougun",
+      "reading": "もえつきしょうこうぐん",
+      "headword": "{燃|も}え{尽|つ}き{症候群|しょうこうぐん}",
+      "label": "burnout"
+    },
+    {
+      "type": "related",
+      "target_id": "05997_kyomukan",
+      "reading": "きょむかん",
+      "headword": "{虚無感|きょむかん}",
+      "label": "sense of emptiness"
     }
   ],
   "metadata": {
     "created": "2026-03-09T06:18:26Z",
-    "modified": "2026-05-02T09:03:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
   }
 }

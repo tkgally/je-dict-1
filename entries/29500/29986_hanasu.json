@@ -3,7 +3,7 @@
   "headword": "{放|はな}す",
   "reading": "はなす",
   "romaji": "hanasu",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to let go of; to release; to set free",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "TRANSITIVITY:\nTransitive; the thing released is marked with を. The intransitive counterpart is {放|はな}れる (to come loose, to break away).\n\nCOMMON COLLOCATIONS:\n- {手|て}を{放|はな}す: to let go with one's hand\n- {鳥|とり}を{放|はな}す: to set a bird free\n- {綱|つな}を{放|はな}す: to let go of the rope\n\nSIMILAR WORDS:\n- {離|はな}す: to separate; to move apart — same reading, but the focus is on creating distance between two things\n- {話|はな}す: to speak — an unrelated homophone",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "19372_hanasu",
+      "reading": "はなす",
+      "headword": "{離|はな}す",
+      "label": "to separate"
+    },
+    {
+      "type": "homophone",
+      "target_id": "00467_hanasu",
+      "reading": "はなす",
+      "headword": "{話|はな}す",
+      "label": "to speak"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10062_hanatsu",
+      "reading": "はなつ",
+      "headword": "{放|はな}つ",
+      "label": "to release, to fire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14218_tokihanatsu",
+      "reading": "ときはなつ",
+      "headword": "{解|と}き{放|はな}つ",
+      "label": "to set free, to release, to unleash"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +92,7 @@
       "domain": []
     },
     "created": "2026-07-20T06:17:59Z",
-    "modified": "2026-07-20T06:17:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

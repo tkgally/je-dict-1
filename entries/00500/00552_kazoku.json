@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{家族|かぞく} is the standard word for family—the group of people related by blood, marriage, or adoption.\n\nPOLITENESS:\n- {家族|かぞく}: my family (neutral)\n- ご⟦{家族|かぞく}→家族：00552_kazoku⟧: your/someone's family (polite)\n\nCOMMON EXPRESSIONS:\n- {家族|かぞく}⟦は→は：00079_ha⟧〜⟦{人|にん}→〜人：00658_nin⟧⟦です→です：09485_desu⟧: My family has ~ people\n- {家族|かぞく}⟦と→と：00512_to⟧⟦{一緒|いっしょ}→一緒：02848_issho⟧⟦に→に：00314_ni⟧: together with family\n- {家族|かぞく}⟦を→を：00422_wo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to value one's family\n\nRELATED TERMS:\n- ⟦{親|おや}→親：01357_oya⟧: parent(s)\n- ⟦{父|ちち}→父：00566_chichi⟧/⟦{母|はは}→母：00549_haha⟧: father/mother (own)\n- ⟦{兄弟|きょうだい}→兄弟：00964_kyoudai⟧: siblings\n- ⟦{親戚|しんせき}→親戚：03260_shinseki⟧: relatives",
+  "notes": "{家族|かぞく} is the standard word for family—the group of people related by blood, marriage, or adoption.\n\nREGISTER:\n- {家族|かぞく}: my family (neutral)\n- ご⟦{家族|かぞく}→家族：00552_kazoku⟧: your/someone's family (polite)\n\nCOMMON EXPRESSIONS:\n- {家族|かぞく}⟦は→は：00079_ha⟧〜⟦{人|にん}→〜人：00658_nin⟧⟦です→です：09485_desu⟧: My family has ~ people\n- {家族|かぞく}⟦と→と：00512_to⟧⟦{一緒|いっしょ}→一緒：02848_issho⟧⟦に→に：00314_ni⟧: together with family\n- {家族|かぞく}⟦を→を：00422_wo⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to value one's family\n\nRELATED WORDS:\n- ⟦{親|おや}→親：01357_oya⟧: parent(s)\n- ⟦{父|ちち}→父：00566_chichi⟧/⟦{母|はは}→母：00549_haha⟧: father/mother (own)\n- ⟦{兄弟|きょうだい}→兄弟：00964_kyoudai⟧: siblings\n- ⟦{親戚|しんせき}→親戚：03260_shinseki⟧: relatives",
   "cross_references": [
     {
       "type": "see_also",
@@ -83,11 +83,39 @@
       "reading": "せたい",
       "headword": "{世帯|せたい}",
       "label": "household (as a statistical unit)"
+    },
+    {
+      "type": "related",
+      "target_id": "01357_oya",
+      "reading": "おや",
+      "headword": "{親|おや}",
+      "label": "parent"
+    },
+    {
+      "type": "related",
+      "target_id": "00964_kyoudai",
+      "reading": "きょうだい",
+      "headword": "{兄弟|きょうだい}",
+      "label": "siblings"
+    },
+    {
+      "type": "related",
+      "target_id": "03260_shinseki",
+      "reading": "しんせき",
+      "headword": "{親戚|しんせき}",
+      "label": "relatives"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01723_ikka",
+      "reading": "いっか",
+      "headword": "{一家|いっか}",
+      "label": "family, household"
     }
   ],
   "metadata": {
     "created": "2026-01-07T14:44:21Z",
-    "modified": "2026-08-11T06:36:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

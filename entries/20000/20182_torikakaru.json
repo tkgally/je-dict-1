@@ -3,7 +3,7 @@
   "headword": "{取|と}り{掛|か}かる",
   "reading": "とりかかる",
   "romaji": "torikakaru",
-  "part_of_speech": "godan verb, intransitive",
+  "part_of_speech": "verb (godan, intransitive)",
   "gloss": "to begin; to set about; to start working on",
   "conjugation": {
     "type": "godan",
@@ -136,6 +136,22 @@
   ],
   "notes": "A godan verb ({五段動詞|ごだんどうし}) meaning to begin or set about doing something. Takes the particle に to mark the task being started.\n\nGodan verb with る ending. Dictionary form: {取|と}り{掛|か}かる. Te-form: {取|と}り{掛|か}かって. Past: {取|と}り{掛|か}かった.\n\nCOMMON PATTERNS:\n- ～に{取|と}り{掛|か}かる: to start working on ~\n- すぐに{取|と}り{掛|か}かる: to get right on it\n- {早速|さっそく}{取|と}り{掛|か}かる: to set about it at once\n\nSIMILAR WORDS:\n- {始|はじ}める: to begin — general purpose, more neutral\n- {着手|ちゃくしゅ}する: to commence, to embark on — more formal, used for projects or official tasks\n\n{取|と}り{掛|か}かる emphasizes the act of physically getting started on a task, implying rolling up one's sleeves and diving in.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00531_hajimeru",
+      "reading": "はじめる",
+      "headword": "{始|はじ}める",
+      "label": "to begin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16168_chakushu",
+      "reading": "ちゃくしゅ",
+      "headword": "{着手|ちゃくしゅ}",
+      "label": "to commence, to embark on"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +167,6 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-03-28T16:15:20Z",
-    "modified": "2026-03-28T16:15:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "28276_erupii_ex1",
       "japanese": "{昔|むかし}のLPを{集|あつ}めている。",
       "english": "I collect old LP records.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28276_erupii_ex2",
       "japanese": "LPの{音|おと}はCDより{温|あたた}かいと{感|かん}じる{人|ひと}が{多|おお}い。",
       "english": "Many people feel that LP records have a warmer sound than CDs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "28276_erupii_ex3",
       "japanese": "{最近|さいきん}{若|わか}い{世代|せだい}の{間|あいだ}でも、LPを{聴|き}くためにレコードプレーヤーを{買|か}う{人|ひと}が{増|ふ}えている。",
       "english": "Recently, even among the younger generation, more and more people are buying record players to listen to LPs.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Borrowed directly from English \"LP\" (long-playing). The Roman letters are read individually: え + る + ぴー.\n\nCOMMON COLLOCATIONS:\n- LPレコード: LP record (often written in full)\n- LPを{聴|き}く: to listen to an LP\n- LPを{集|あつ}める: to collect LPs\n- {中古|ちゅうこ}LP: used/secondhand LPs\n- LPジャケット: LP album cover/sleeve\n\nSIMILAR WORDS:\n- レコード: record — the general term for vinyl records\n- アルバム: album — refers to a music release in any format\n- シングル: single — short record, originally a 7-inch 45 rpm disc\n- EP: EP — extended play, between a single and an LP in length",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02990_rekoodo",
+      "reading": "れこーど",
+      "headword": "レコード",
+      "label": "record"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03831_arubamu",
+      "reading": "あるばむ",
+      "headword": "アルバム",
+      "label": "album"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10949_shinguru",
+      "reading": "しんぐる",
+      "headword": "シングル",
+      "label": "single"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["music"],
+      "politeness": "plain",
+      "semantic": [
+        "music"
+      ],
       "domain": []
     },
     "created": "2026-05-28T03:07:22Z",
-    "modified": "2026-05-28T03:07:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

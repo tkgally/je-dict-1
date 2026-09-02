@@ -3,7 +3,7 @@
   "headword": "{爆笑|ばくしょう}する",
   "reading": "ばくしょうする",
   "romaji": "bakushousuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to burst out laughing; to roar with laughter",
   "definitions": [
     {
@@ -55,7 +55,36 @@
     }
   ],
   "notes": "Originally, {爆笑|ばくしょう} strictly meant a large group of people laughing simultaneously (the {爆|ばく} = \"explosion\" suggesting laughter spreading through a crowd). However, modern usage has shifted, and it now commonly describes any intense, explosive laughter — even by one person. This semantic shift is noted by language purists but widely accepted.\n\nCOMMON COLLOCATIONS:\n- {爆笑|ばくしょう}を{誘|さそ}う: to elicit roaring laughter\n- {爆笑|ばくしょう}の{渦|うず}: whirlpool of laughter\n- {爆笑|ばくしょう}もの: something hilarious\n- {爆笑|ばくしょう}エピソード: hilarious anecdote\n- {大|おお}{爆笑|ばくしょう}: huge burst of laughter\n\nSIMILAR WORDS:\n- {笑|わら}う: to laugh — general-purpose laughing\n- {大笑|おおわら}いする: to laugh heartily — loud laughter, slightly less explosive\n- {吹|ふ}き{出|だ}す: to burst out laughing — sudden laughter, often from trying not to laugh",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00685_warau",
+      "reading": "わらう",
+      "headword": "{笑|わら}う",
+      "label": "to laugh"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15938_oowarai",
+      "reading": "おおわらい",
+      "headword": "{大笑|おおわら}い",
+      "label": "to laugh heartily"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06342_fukidasu",
+      "reading": "ふきだす",
+      "headword": "{吹|ふ}き{出|だ}す",
+      "label": "to burst out laughing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22263_goukainiwarau",
+      "reading": "ごうかいにわらう",
+      "headword": "{豪快|ごうかい}に{笑|わら}う",
+      "label": "to laugh heartily"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,7 +100,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T13:11:36Z",
-    "modified": "2026-06-15T07:59:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

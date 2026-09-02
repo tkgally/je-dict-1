@@ -19,7 +19,9 @@
       "english": "I keep emergency preserved food on hand.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14976_hozonshoku_ex2",
@@ -27,7 +29,9 @@
       "english": "Let's regularly check the expiration dates on preserved food.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14976_hozonshoku_ex3",
@@ -35,21 +39,42 @@
       "english": "Modern preserved food comes in a wide variety of flavors, making it possible to eat well even during disasters.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of {保存|ほぞん} (preservation, storage) and {食|しょく} (food).\n\nIn Japan, {保存食|ほぞんしょく} is particularly associated with disaster preparedness ({防災|ぼうさい}). Households are encouraged to keep a supply of preserved food for earthquakes and other emergencies.\n\nTraditional Japanese preserved foods include {漬物|つけもの} (pickles), {干物|ひもの} (dried fish), and {梅干|うめぼ}し (pickled plums).\n\nCOMMON COLLOCATIONS:\n- {保存食|ほぞんしょく}を{備蓄|びちく}する (to stockpile preserved food)\n- {非常用|ひじょうよう}{保存食|ほぞんしょく} (emergency preserved food)\n- {長期|ちょうき}{保存食|ほぞんしょく} (long-term preserved food)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03762_shokuryou",
+      "reading": "しょくりょう",
+      "headword": "{食糧|しょくりょう}",
+      "label": "provisions, food supply"
+    },
+    {
+      "type": "related",
+      "target_id": "24935_shokuhinhozon",
+      "reading": "しょくひんほぞん",
+      "headword": "{食品保存|しょくひんほぞん}",
+      "label": "food preservation"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T08:05:16Z",
-    "modified": "2026-03-04T08:05:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

@@ -17,7 +17,9 @@
       "id": "24699_chouridai_ex1",
       "japanese": "{調理台|ちょうりだい}を{拭|ふ}く。",
       "english": "To wipe the kitchen counter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24699_chouridai_ex2",
       "japanese": "{食材|しょくざい}を{調理台|ちょうりだい}の{上|うえ}に{並|なら}べた。",
       "english": "I lined up the ingredients on the kitchen counter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "24699_chouridai_ex3",
       "japanese": "{新|あたら}しいキッチンには{広|ひろ}い{調理台|ちょうりだい}があるので、{料理|りょうり}がしやすい。",
       "english": "The new kitchen has a spacious counter, so it's easy to cook.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Combines {調理|ちょうり} (cooking, food preparation) and {台|だい} (stand, counter, platform). Used in both home and professional kitchen contexts. In apartment listings and kitchen showrooms, {調理台|ちょうりだい} specifically refers to the countertop workspace.\n\nCOMMON COLLOCATIONS:\n- {調理台|ちょうりだい}の{上|うえ}: on the counter\n- {調理台|ちょうりだい}を{清潔|せいけつ}にする: to keep the counter clean\n- ステンレス{製|せい}の{調理台|ちょうりだい}: stainless steel preparation counter\n- {調理台|ちょうりだい}の{高|たか}さ: counter height\n\nSIMILAR WORDS:\n- カウンター: counter — often used for a bar-style counter or service counter, not specifically for food preparation\n- {作業台|さぎょうだい}: work table — general-purpose work surface, not limited to kitchens\n- {まな{板|いた}}: cutting board — the board placed on the counter for cutting food",
+  "notes": "Combines {調理|ちょうり} (cooking, food preparation) and {台|だい} (stand, counter, platform). Used in both home and professional kitchen contexts. In apartment listings and kitchen showrooms, {調理台|ちょうりだい} specifically refers to the countertop workspace.\n\nCOMMON COLLOCATIONS:\n- {調理台|ちょうりだい}の{上|うえ}: on the counter\n- {調理台|ちょうりだい}を{清潔|せいけつ}にする: to keep the counter clean\n- ステンレス{製|せい}の{調理台|ちょうりだい}: stainless steel preparation counter\n- {調理台|ちょうりだい}の{高|たか}さ: counter height\n\nSIMILAR WORDS:\n- カウンター: counter — often used for a bar-style counter or service counter, not specifically for food preparation\n- {作業台|さぎょうだい}: work table — general-purpose work surface, not limited to kitchens\n- まな{板|いた}: cutting board — the board placed on the counter for cutting food",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10816_kauntaa",
+      "reading": "かうんたー",
+      "headword": "カウンター",
+      "label": "counter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22039_sagyoudai",
+      "reading": "さぎょうだい",
+      "headword": "{作業台|さぎょうだい}",
+      "label": "work table"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04977_manaita",
+      "reading": "まないた",
+      "headword": "まな{板|いた}",
+      "label": "cutting board"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["furniture", "food"]
+      "semantic": [
+        "furniture",
+        "food"
+      ]
     },
     "created": "2026-04-20T12:12:50Z",
-    "modified": "2026-04-20T12:12:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -133,8 +133,16 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair. Pattern: X⟦が→が：00051_ga⟧{鳴|な}く (X [animal] makes sound).\n\nASPECT: ている indicates ongoing action. {鳴|な}いている = 'is singing/crying.'\n\nHOMOPHONE:\n- {鳴|な}く - animals making sounds (this entry)\n- ⟦{泣|な}く→泣く：00655_naku⟧ - to cry (humans, tears)\n\nANIMAL SOUNDS IN JAPANESE:\n- ⟦{犬|いぬ}→犬：00632_inu⟧: ワンワン (wan wan)\n- ⟦{猫|ねこ}→猫：02237_neko⟧: ニャー (nyaa)\n- ⟦{鳥|とり}→鳥：00679_tori⟧: ピーピー/チュンチュン\n- ⟦{蛙|かえる}→蛙：04300_kaeru⟧: ケロケロ (kero kero)\n- ⟦{蝉|せみ}→セミ：09931_semi⟧: ミンミン (min min)\n\nCOMMON PATTERNS:\n- ⟦{鳥|とり}→鳥：00679_tori⟧⟦が→が：00051_ga⟧{鳴|な}く (birds sing)\n- ⟦{虫|むし}→虫：02262_mushi⟧⟦が→が：00051_ga⟧{鳴|な}く (insects chirp)\n- ⟦{蝉|せみ}→セミ：09931_semi⟧⟦が→が：00051_ga⟧{鳴|な}く (cicadas cry)",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair. Pattern: X⟦が→が：00051_ga⟧{鳴|な}く (X [animal] makes sound).\n\nASPECT: ている indicates ongoing action. {鳴|な}いている = 'is singing/crying.'\n\nWATCH OUT:\n- {鳴|な}く - animals making sounds (this entry)\n- ⟦{泣|な}く→泣く：00655_naku⟧ - to cry (humans, tears)\n\nANIMAL SOUNDS IN JAPANESE:\n- ⟦{犬|いぬ}→犬：00632_inu⟧: ワンワン (wan wan)\n- ⟦{猫|ねこ}→猫：02237_neko⟧: ニャー (nyaa)\n- ⟦{鳥|とり}→鳥：00679_tori⟧: ピーピー/チュンチュン\n- ⟦{蛙|かえる}→蛙：04300_kaeru⟧: ケロケロ (kero kero)\n- ⟦{蝉|せみ}→セミ：09931_semi⟧: ミンミン (min min)\n\nCOMMON PATTERNS:\n- ⟦{鳥|とり}→鳥：00679_tori⟧⟦が→が：00051_ga⟧{鳴|な}く (birds sing)\n- ⟦{虫|むし}→虫：02262_mushi⟧⟦が→が：00051_ga⟧{鳴|な}く (insects chirp)\n- ⟦{蝉|せみ}→セミ：09931_semi⟧⟦が→が：00051_ga⟧{鳴|な}く (cicadas cry)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07364_saezuru",
+      "reading": "さえずる",
+      "headword": "さえずる",
+      "label": "to chirp"
+    }
+  ],
   "prominent_see_also": [
     {
       "target_id": "00655_naku",
@@ -145,7 +153,7 @@
   ],
   "metadata": {
     "created": "2026-01-14T00:58:16Z",
-    "modified": "2026-05-31T14:33:03Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -17,7 +17,9 @@
       "id": "24235_boufu_ex1",
       "japanese": "{防腐|ぼうふ}{処理|しょり}をする。",
       "english": "Apply preservative treatment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24235_boufu_ex2",
       "japanese": "この{食品|しょくひん}には{防腐|ぼうふ}{剤|ざい}が{入|はい}っていない。",
       "english": "This food contains no preservatives.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "24235_boufu_ex3",
       "japanese": "{木材|もくざい}の{防腐|ぼうふ}{処理|しょり}をしないと、{数年|すうねん}で{腐|くさ}ってしまう。",
       "english": "Without preservative treatment, the wood will rot within a few years.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {防|ぼう} (prevent, guard against) + {腐|ふ} (rot, decay). Part of the productive {防|ぼう}〜 pattern for describing prevention.\n\nUSAGE:\n{防腐|ぼうふ} is most commonly encountered in the compound {防腐|ぼうふ}{剤|ざい} (preservative, antiseptic agent). In food-related contexts, it appears on ingredient labels and in discussions about food additives. In construction and woodworking, {防腐|ぼうふ}{処理|しょり} (preservative treatment) is the standard term for treating wood against decay.\n\nCOMMON COLLOCATIONS:\n- {防腐|ぼうふ}{剤|ざい}: preservative, antiseptic\n- {防腐|ぼうふ}{処理|しょり}: preservative treatment\n- {防腐|ぼうふ}{効果|こうか}: preservative effect\n- {防腐|ぼうふ}{加工|かこう}: anti-rot processing\n- {無|む}{防腐|ぼうふ}{剤|ざい}: preservative-free\n\nSIMILAR WORDS:\n- {保存|ほぞん}: preservation, storage — broader term for keeping things in good condition; includes refrigeration, canning, etc.\n- {殺菌|さっきん}: sterilization — killing bacteria, a more aggressive approach than just preventing decay\n- {防虫|ぼうちゅう}: insect prevention — same {防|ぼう}〜 pattern applied to insects\n- {防|ぼう}カビ: mold prevention — same {防|ぼう}〜 pattern applied to mold",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03626_hozon",
+      "reading": "ほぞん",
+      "headword": "{保存|ほぞん}",
+      "label": "preservation, storage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09781_sakkin",
+      "reading": "さっきん",
+      "headword": "{殺菌|さっきん}",
+      "label": "sterilization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17752_bouchuu",
+      "reading": "ぼうちゅう",
+      "headword": "{防虫|ぼうちゅう}",
+      "label": "insect prevention"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16668_boukabi",
+      "reading": "ぼうかび",
+      "headword": "{防|ぼう}カビ",
+      "label": "mold prevention"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-04-18T10:31:46Z",
-    "modified": "2026-04-18T10:31:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

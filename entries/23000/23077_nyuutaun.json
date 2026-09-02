@@ -17,7 +17,9 @@
       "id": "23077_nyuutaun_ex1",
       "japanese": "ニュータウンに{引|ひ}っ{越|こ}す。",
       "english": "To move to a new town development.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23077_nyuutaun_ex2",
       "japanese": "この{辺|あた}りは1970{年代|ねんだい}に{開発|かいはつ}されたニュータウンだ。",
       "english": "This area is a new town development built in the 1970s.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "23077_nyuutaun_ex3",
       "japanese": "{高度|こうど}{経済|けいざい}{成長期|せいちょうき}に{建設|けんせつ}されたニュータウンは、{今|いま}{高齢化|こうれいか}の{問題|もんだい}を{抱|かか}えている。",
       "english": "New towns built during the period of rapid economic growth now face the problem of an aging population.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A loanword from English 'new town.' In Japanese, it has a specific meaning referring to large planned residential developments, especially those from the postwar era (1950s-1980s).\n\nCOMMON COLLOCATIONS:\n- ニュータウン{開発|かいはつ}: new town development\n- ニュータウンの{高齢化|こうれいか}: aging of new towns\n- {郊外|こうがい}のニュータウン: suburban new town\n- {大規模|だいきぼ}ニュータウン: large-scale new town\n\nCULTURAL CONTEXT:\nFamous examples include {多摩|たま}ニュータウン (Tama New Town) and {千里|せんり}ニュータウン (Senri New Town). Originally built for young families, many now face challenges of aging residents, declining populations, and deteriorating infrastructure — a phenomenon sometimes called 'ニュータウンの{老|ろう}い' (aging of new towns).\n\nSIMILAR WORDS:\n- {団地|だんち}: housing complex — a cluster of apartment buildings, often public housing\n- {住宅地|じゅうたくち}: residential area — general term for any area primarily for housing\n- {新興住宅地|しんこうじゅうたくち}: newly developed residential area — a newer planned community",
+  "notes": "A loanword from English 'new town.' In Japanese, it has a specific meaning referring to large planned residential developments, especially those from the postwar era (1950s-1980s).\n\nCOMMON COLLOCATIONS:\n- ニュータウン{開発|かいはつ}: new town development\n- ニュータウンの{高齢化|こうれいか}: aging of new towns\n- {郊外|こうがい}のニュータウン: suburban new town\n- {大規模|だいきぼ}ニュータウン: large-scale new town\n\nCULTURAL NOTE:\nFamous examples include {多摩|たま}ニュータウン (Tama New Town) and {千里|せんり}ニュータウン (Senri New Town). Originally built for young families, many now face challenges of aging residents, declining populations, and deteriorating infrastructure — a phenomenon sometimes called 'ニュータウンの{老|ろう}い' (aging of new towns).\n\nSIMILAR WORDS:\n- {団地|だんち}: housing complex — a cluster of apartment buildings, often public housing\n- {住宅地|じゅうたくち}: residential area — general term for any area primarily for housing\n- {新興住宅地|しんこうじゅうたくち}: newly developed residential area — a newer planned community",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04054_danchi",
+      "reading": "だんち",
+      "headword": "{団地|だんち}",
+      "label": "housing complex"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10158_juutakuchi",
+      "reading": "じゅうたくち",
+      "headword": "{住宅地|じゅうたくち}",
+      "label": "residential area"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23226_shinkoujuutakuchi",
+      "reading": "しんこうじゅうたくち",
+      "headword": "{新興住宅地|しんこうじゅうたくち}",
+      "label": "newly developed residential area"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography", "society"]
+      "semantic": [
+        "geography",
+        "society"
+      ]
     },
     "created": "2026-04-08T17:37:10Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

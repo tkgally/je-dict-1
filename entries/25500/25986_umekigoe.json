@@ -17,7 +17,9 @@
       "id": "25986_umekigoe_ex1",
       "japanese": "{呻|うめ}き{声|ごえ}が{聞|き}こえた。",
       "english": "I heard a groaning voice.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25986_umekigoe_ex2",
       "japanese": "{患者|かんじゃ}は{痛|いた}みに{耐|た}えきれず{呻|うめ}き{声|ごえ}を{上|あ}げた。",
       "english": "The patient couldn't bear the pain and let out a groan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "25986_umekigoe_ex3",
       "japanese": "{暗|くら}い{部屋|へや}の{奥|おく}から{小|ちい}さな{呻|うめ}き{声|ごえ}が{聞|き}こえてきて、{思|おも}わず{身|み}がすくんだ。",
       "english": "A faint groaning came from the back of the dark room, and I froze involuntarily.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {呻|うめ}き (groaning; the noun form of {呻|うめ}く, to groan) and {声|ごえ} (voice; sound). Describes involuntary vocal sounds produced due to physical pain, illness, or extreme discomfort. Commonly appears in medical contexts, literature, and horror or suspense narratives.\n\nCOMMON COLLOCATIONS:\n- {呻|うめ}き{声|ごえ}を{上|あ}げる: to let out a groan\n- {呻|うめ}き{声|ごえ}が{聞|き}こえる: a groaning voice can be heard\n- {苦|くる}しそうな{呻|うめ}き{声|ごえ}: a pained groan\n- {低|ひく}い{呻|うめ}き{声|ごえ}: a low moan\n\nSIMILAR WORDS:\n- {悲鳴|ひめい}: scream; shriek — louder and more sudden than a groan\n- {嘆|なげ}き{声|ごえ}: lamenting voice — expresses grief or sorrow rather than physical pain\n- {唸|うな}り{声|ごえ}: growl; snarl — a threatening or fierce sound, often from animals",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12621_himei",
+      "reading": "ひめい",
+      "headword": "{悲鳴|ひめい}",
+      "label": "scream"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15092_unarigoe",
+      "reading": "うなりごえ",
+      "headword": "{唸|うな}り{声|ごえ}",
+      "label": "growl"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["health", "communication"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "health",
+        "communication"
+      ]
     },
     "created": "2026-04-28T14:18:11Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

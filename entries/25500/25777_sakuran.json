@@ -3,7 +3,7 @@
   "headword": "{錯乱|さくらん}",
   "reading": "さくらん",
   "romaji": "sakuran",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "confusion; derangement; mental disorder",
   "definitions": [
     {
@@ -45,7 +45,15 @@
     }
   ],
   "notes": "Describes a serious state of mental disorientation where rational thought breaks down. Most commonly appears in the compound {精神|せいしん}{錯乱|さくらん} (mental derangement). The word carries clinical weight and is not used casually for everyday confusion.\n\nCOMMON COLLOCATIONS:\n- {精神|せいしん}{錯乱|さくらん}: mental derangement\n- {錯乱|さくらん}{状態|じょうたい}: state of confusion/delirium\n- {錯乱|さくらん}を{起|お}こす: to become delirious\n- {一時的|いちじてき}な{錯乱|さくらん}: temporary confusion\n\nSIMILAR WORDS:\n- {混乱|こんらん}: confusion — much broader and milder; used for everyday disorder and chaos, not limited to mental states\n- {狂乱|きょうらん}: frenzy; madness — emphasizes wild, uncontrolled behavior rather than disorientation\n- {せん妄|せんもう}: delirium — a medical term specifically for acute confusion with altered consciousness",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02811_konran",
+      "reading": "こんらん",
+      "headword": "{混乱|こんらん}",
+      "label": "confusion"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +62,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "health",
         "cognition"
@@ -61,7 +70,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-27T13:07:30Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

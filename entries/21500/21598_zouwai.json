@@ -3,7 +3,7 @@
   "headword": "{贈賄|ぞうわい}",
   "reading": "ぞうわい",
   "romaji": "zouwai",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "bribery; offering a bribe",
   "definitions": [
     {
@@ -46,6 +46,43 @@
   ],
   "notes": "Compound of {贈|ぞう} (give, present) and {賄|わい} (bribe). A legal term specifically for the act of giving a bribe, as opposed to {収賄|しゅうわい} (receiving a bribe). Both are crimes under Japanese law.\n\nCOMMON COLLOCATIONS:\n- {贈賄|ぞうわい}{罪|ざい}: the crime of bribery (giving)\n- {贈賄|ぞうわい}の{容疑|ようぎ}: suspicion of bribery\n- {贈賄|ぞうわい}{事件|じけん}: bribery case\n- {贈賄|ぞうわい}で{起訴|きそ}される: to be indicted for bribery\n\nSIMILAR WORDS:\n- {収賄|しゅうわい}: accepting a bribe — the receiver's crime, the other side of the transaction\n- {賄賂|わいろ}: bribe — the thing given or received; the general word for bribery\n- {汚職|おしょく}: corruption — a broader term covering all forms of official misconduct\n- {買収|ばいしゅう}: buying off — bribing in a broader sense, not limited to public officials",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27665_shuuwai",
+      "reading": "しゅうわい",
+      "headword": "{収賄|しゅうわい}",
+      "label": "accepting a bribe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21571_wairo",
+      "reading": "わいろ",
+      "headword": "{賄賂|わいろ}",
+      "label": "bribe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17399_oshoku",
+      "reading": "おしょく",
+      "headword": "{汚職|おしょく}",
+      "label": "corruption"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04780_baishuu",
+      "reading": "ばいしゅう",
+      "headword": "{買収|ばいしゅう}",
+      "label": "buying off"
+    },
+    {
+      "type": "related",
+      "target_id": "26904_zoushuuwai",
+      "reading": "ぞうしゅうわい",
+      "headword": "{贈収賄|ぞうしゅうわい}",
+      "label": "bribery"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +98,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T17:29:45Z",
-    "modified": "2026-04-02T17:29:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

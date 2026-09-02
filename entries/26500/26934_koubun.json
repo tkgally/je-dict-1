@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Used in both natural language linguistics and computer programming. In linguistics, it refers to how words combine to form grammatically correct sentences. In programming, it refers to the rules governing how code must be written.\n\nCOMMON COLLOCATIONS:\n- {構文|こうぶん}{解析|かいせき}: syntactic analysis; parsing\n- {構文|こうぶん}エラー: syntax error\n- {構文|こうぶん}{規則|きそく}: syntactic rules\n- {基本|きほん}{構文|こうぶん}: basic syntax\n- {複雑|ふくざつ}な{構文|こうぶん}: complex syntax\n\nSIMILAR WORDS:\n- {文法|ぶんぽう}: grammar — broader term covering all grammatical rules including morphology, not just word order\n- {文型|ぶんけい}: sentence pattern — specific patterns taught in language classes (e.g., AはBです)\n- {語順|ごじゅん}: word order — specifically about the order in which words appear in a sentence",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01506_bunpou",
+      "reading": "ぶんぽう",
+      "headword": "{文法|ぶんぽう}",
+      "label": "grammar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27004_bunkei",
+      "reading": "ぶんけい",
+      "headword": "{文型|ぶんけい}",
+      "label": "sentence pattern"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14279_gojun",
+      "reading": "ごじゅん",
+      "headword": "{語順|ごじゅん}",
+      "label": "word order"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,6 +85,6 @@
       ]
     },
     "created": "2026-05-05T16:19:53Z",
-    "modified": "2026-05-05T16:19:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "A missionary came to Japan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12382_senkyoushi_ex2",
@@ -27,7 +29,9 @@
       "english": "Francisco Xavier was one of the first missionaries to come to Japan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12382_senkyoushi_ex3",
@@ -35,22 +39,45 @@
       "english": "During the Edo period, Christianity was banned and missionaries were expelled from the country.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "STRUCTURE:\n{宣教|せんきょう} (proselytization, missionary work) + {師|し} (master, teacher, practitioner).\n\nCULTURAL CONTEXT:\n{宣教師|せんきょうし} is closely associated with the history of Christianity in Japan. The first European missionaries arrived in the 16th century during the {戦国|せんごく}{時代|じだい} (Warring States period). The subsequent {禁教|きんきょう}{令|れい} (ban on Christianity) during the {江戸|えど}{時代|じだい} is a major historical topic.\n\nCOMMON COLLOCATIONS:\n- キリスト{教|きょう}の{宣教師|せんきょうし}: Christian missionary\n- {宣教師|せんきょうし}を{派遣|はけん}する: to send missionaries\n- {宣教師|せんきょうし}{活動|かつどう}: missionary activities",
-  "cross_references": [],
+  "notes": "COMMON PATTERNS:\n{宣教|せんきょう} (proselytization, missionary work) + {師|し} (master, teacher, practitioner).\n\nCULTURAL NOTE:\n{宣教師|せんきょうし} is closely associated with the history of Christianity in Japan. The first European missionaries arrived in the 16th century during the {戦国|せんごく}{時代|じだい} (Warring States period). The subsequent {禁教|きんきょう}{令|れい} (ban on Christianity) during the {江戸|えど}{時代|じだい} is a major historical topic.\n\nCOMMON COLLOCATIONS:\n- キリスト{教|きょう}の{宣教師|せんきょうし}: Christian missionary\n- {宣教師|せんきょうし}を{派遣|はけん}する: to send missionaries\n- {宣教師|せんきょうし}{活動|かつどう}: missionary activities",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25610_dendoushi",
+      "reading": "でんどうし",
+      "headword": "{伝道師|でんどうし}",
+      "label": "evangelist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26243_shito",
+      "reading": "しと",
+      "headword": "{使徒|しと}",
+      "label": "apostle"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T05:48:15Z",
-    "modified": "2026-02-21T05:48:15Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"],
-      "domain": ["academic"]
-}
+      "semantic": [
+        "occupation"
+      ],
+      "domain": [
+        "academic"
+      ]
+    }
   }
 }

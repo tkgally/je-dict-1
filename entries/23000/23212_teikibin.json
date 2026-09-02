@@ -22,7 +22,9 @@
       "id": "23212_teikibin_ex1",
       "japanese": "この{島|しま}には{定期便|ていきびん}がある。",
       "english": "There is a regular service to this island.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "23212_teikibin_ex2",
       "japanese": "{東京|とうきょう}と{大阪|おおさか}の{間|あいだ}には{毎日|まいにち}{定期便|ていきびん}が{飛|と}んでいる。",
       "english": "Scheduled flights run daily between Tokyo and Osaka.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "23212_teikibin_ex3",
       "japanese": "{悪天候|あくてんこう}で{定期便|ていきびん}が{欠航|けっこう}になった。",
       "english": "The scheduled flights were canceled due to bad weather.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "23212_teikibin_ex4",
       "japanese": "お{米|こめ}を{定期便|ていきびん}で{届|とど}けてもらっている。",
       "english": "I have rice delivered on a subscription basis.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "23212_teikibin_ex5",
       "japanese": "{定期便|ていきびん}なら{毎回|まいかい}{注文|ちゅうもん}しなくていい。",
       "english": "With a subscription delivery, you don't have to order each time.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,44 @@
       "id": "23212_teikibin_ex6",
       "japanese": "サプリメントの{定期便|ていきびん}を{申|もう}し{込|こ}んだら、{割引|わりびき}が{適用|てきよう}された。",
       "english": "When I signed up for a supplement subscription delivery, a discount was applied.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {定期|ていき} (regular, fixed interval) and {便|びん} (service, flight, delivery). The word covers both transportation and shopping contexts.\n\nCOMMON COLLOCATIONS:\n- {定期便|ていきびん}が{飛|と}ぶ: a scheduled flight operates\n- {定期便|ていきびん}が{欠航|けっこう}する: a scheduled service is canceled\n- {定期便|ていきびん}で{届|とど}く: to arrive by regular delivery\n- {定期便|ていきびん}を{申|もう}し{込|こ}む: to sign up for subscription delivery\n\nSIMILAR WORDS:\n- {臨時便|りんじびん}: extra/special service — unscheduled, added for high demand\n- {チャーター便|ちゃーたーびん}: charter flight — privately arranged, not on a regular schedule",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06173_teikiteki",
+      "reading": "ていきてき",
+      "headword": "{定期的|ていきてき}",
+      "label": "regular, periodic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26424_teikiunkou",
+      "reading": "ていきうんこう",
+      "headword": "{定期|ていき}{運行|うんこう}",
+      "label": "regular service"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-04-10T03:41:24Z",
-    "modified": "2026-04-10T03:41:24Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

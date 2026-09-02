@@ -3,7 +3,7 @@
   "headword": "{転落|てんらく}",
   "reading": "てんらく",
   "romaji": "tenraku",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "fall; tumble; decline",
   "conjugation": {
     "type": "suru",
@@ -177,6 +177,41 @@
       "reading": "かつらく",
       "headword": "{滑落|かつらく}",
       "label": "sliding down (slopes)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14051_rakka",
+      "reading": "らっか",
+      "headword": "{落下|らっか}",
+      "label": "falling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18763_tsuiraku",
+      "reading": "ついらく",
+      "headword": "{墜落|ついらく}",
+      "label": "crash"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15873_botsuraku",
+      "reading": "ぼつらく",
+      "headword": "{没落|ぼつらく}",
+      "label": "ruin, downfall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21423_tsuirakusuru",
+      "reading": "ついらくする",
+      "headword": "{墜落|ついらく}する",
+      "label": "to crash"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21740_rakkasuru",
+      "reading": "らっかする",
+      "headword": "{落下|らっか}する",
+      "label": "to fall"
     }
   ],
   "schema_version": "2.0",
@@ -195,6 +230,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-27T00:14:46Z",
-    "modified": "2026-05-06T09:07:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{突進|とっしん}する",
   "reading": "とっしんする",
   "romaji": "tosshinsuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to rush forward; to charge; to dash",
   "definitions": [
     {
@@ -56,6 +56,29 @@
   ],
   "notes": "Describes a forceful, rapid forward movement, often with a sense of recklessness or determination. Composed of {突|とつ} (thrust, pierce) and {進|しん} (advance). Implies moving straight ahead without hesitation.\n\nUSAGE:\nThe direction is typically marked with に{向|む}かって or へ. Often used with てくる to describe something charging toward the speaker.\n\nCOMMON COLLOCATIONS:\n- {敵|てき}に{突進|とっしん}する: to charge at the enemy\n- {前方|ぜんぽう}に{突進|とっしん}する: to rush forward\n- {一気|いっき}に{突進|とっしん}する: to charge in one go\n- {猛然|もうぜん}と{突進|とっしん}する: to rush forward furiously\n\nSIMILAR WORDS:\n- {突撃|とつげき}する: to assault, to storm — a military term for attacking by charging\n- {飛|と}び{込|こ}む: to jump in, to dive in — focuses on entering rather than straight-line movement\n- {駆|か}け{抜|ぬ}ける: to run through — emphasizes passing through rather than the force of impact",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19005_totsugeki",
+      "reading": "とつげき",
+      "headword": "{突撃|とつげき}",
+      "label": "to assault, to storm"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04614_tobikomu",
+      "reading": "とびこむ",
+      "headword": "{飛|と}び{込|こ}む",
+      "label": "to jump in, to dive in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06114_kakenukeru",
+      "reading": "かけぬける",
+      "headword": "{駆|か}け{抜|ぬ}ける",
+      "label": "to run through"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -71,7 +94,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-06T20:21:42Z",
-    "modified": "2026-04-06T20:21:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

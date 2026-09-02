@@ -18,7 +18,9 @@
       "english": "How's your mom doing?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10246_ofukuro_ex2",
@@ -26,7 +28,9 @@
       "english": "I miss my mother's cooking.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10246_ofukuro_ex3",
@@ -34,10 +38,12 @@
       "english": "When I was a kid, I was often scolded by my mom.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "An affectionate, informal word for one's own mother. Carries a warm, nostalgic nuance.\n\nGENDER AND REGISTER:\nPrimarily used by men. Women more commonly say お{母|かあ}さん or ママ. Sounds masculine and casual — not used in formal contexts.\n\nCOMMON EXPRESSIONS:\n- おふくろの{味|あじ}: mother's home cooking (nostalgic nuance)\n- おふくろに{似|に}る: to take after one's mother\n\nRELATED WORDS:\n- {母|はは}: neutral/humble term for one's own mother\n- お{母|かあ}さん: polite, general term for mother\n- ママ: casual, used by children and women\n- {母親|ははおや}: formal, objective term (as in documents)\n\nKANJI:\nCan be written as お{袋|ふくろ}, but hiragana is more common.",
+  "notes": "An affectionate, informal word for one's own mother. Carries a warm, nostalgic nuance.\n\nGENDER AND REGISTER:\nPrimarily used by men. Women more commonly say お{母|かあ}さん or ママ. Sounds masculine and casual — not used in formal contexts.\n\nCOMMON EXPRESSIONS:\n- おふくろの{味|あじ}: mother's home cooking (nostalgic nuance)\n- おふくろに{似|に}る: to take after one's mother\n\nRELATED WORDS:\n- {母|はは}: neutral/humble term for one's own mother\n- お{母|かあ}さん: polite, general term for mother\n- ママ: casual, used by children and women\n- {母親|ははおや}: formal, objective term (as in documents)\n\nWRITING:\nCan be written as お{袋|ふくろ}, but hiragana is more common.",
   "cross_references": [
     {
       "type": "synonym",
@@ -52,17 +58,42 @@
       "reading": "おやじ",
       "headword": "おやじ",
       "label": "father (informal, masculine)"
+    },
+    {
+      "type": "related",
+      "target_id": "02851_okaasan",
+      "reading": "おかあさん",
+      "headword": "お{母|かあ}さん",
+      "label": "polite, general term for mother"
+    },
+    {
+      "type": "related",
+      "target_id": "03564_hahaoya",
+      "reading": "ははおや",
+      "headword": "{母親|ははおや}",
+      "label": "formal, objective term"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21588_okaachan",
+      "reading": "おかあちゃん",
+      "headword": "お{母|かあ}ちゃん",
+      "label": "mom"
     }
   ],
   "metadata": {
     "created": "2026-02-05T14:56:24Z",
-    "modified": "2026-07-10T21:18:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["family"]
+      "semantic": [
+        "family"
+      ]
     }
   }
 }

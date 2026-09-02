@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {死亡|しぼう} (death) and {届|とどけ} (notification/report). In the Japanese civil registration system ({戸籍|こせき}), a {死亡届|しぼうとどけ} must be filed with the local municipal office ({市区町村|しくちょうそん}{役場|やくば}) to officially register a death.\n\nCOMMON COLLOCATIONS:\n- {死亡届|しぼうとどけ}を{出|だ}す: to file a death notification\n- {死亡届|しぼうとどけ}を{提出|ていしゅつ}する: to submit a death notification (formal)\n- {死亡届|しぼうとどけ}を{受理|じゅり}する: to accept a death notification\n\nRELATED TERMS:\n- {出生届|しゅっしょうとどけ}: birth registration\n- {婚姻届|こんいんとどけ}: marriage registration\n- {死亡診断書|しぼうしんだんしょ}: medical death certificate (issued by a doctor)\n- {戸籍|こせき}: family register",
-  "cross_references": [],
+  "notes": "A compound of {死亡|しぼう} (death) and {届|とどけ} (notification/report). In the Japanese civil registration system ({戸籍|こせき}), a {死亡届|しぼうとどけ} must be filed with the local municipal office ({市区町村|しくちょうそん}{役場|やくば}) to officially register a death.\n\nCOMMON COLLOCATIONS:\n- {死亡届|しぼうとどけ}を{出|だ}す: to file a death notification\n- {死亡届|しぼうとどけ}を{提出|ていしゅつ}する: to submit a death notification (formal)\n- {死亡届|しぼうとどけ}を{受理|じゅり}する: to accept a death notification\n\nRELATED WORDS:\n- {出生届|しゅっしょうとどけ}: birth registration\n- {婚姻届|こんいんとどけ}: marriage registration\n- {死亡診断書|しぼうしんだんしょ}: medical death certificate (issued by a doctor)\n- {戸籍|こせき}: family register",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22413_konintodoke",
+      "reading": "こんいんとどけ",
+      "headword": "{婚姻届|こんいんとどけ}",
+      "label": "marriage registration"
+    },
+    {
+      "type": "related",
+      "target_id": "12695_koseki",
+      "reading": "こせき",
+      "headword": "{戸籍|こせき}",
+      "label": "family register"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "law",
         "society"
       ]
     },
     "created": "2026-04-27T12:19:25Z",
-    "modified": "2026-08-04T21:24:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

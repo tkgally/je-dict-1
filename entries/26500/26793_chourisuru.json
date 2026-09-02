@@ -3,7 +3,7 @@
   "headword": "{調理|ちょうり}する",
   "reading": "ちょうりする",
   "romaji": "chourisuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to cook; to prepare food",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "More formal and technical than {料理|りょうり}する. While {料理|りょうり}する is the everyday word for cooking, {調理|ちょうり}する emphasizes the technical process of food preparation and is preferred in professional, institutional, and regulatory contexts.\n\nCOMMON COLLOCATIONS:\n- {食材|しょくざい}を{調理|ちょうり}する: to prepare ingredients\n- {調理|ちょうり}{器具|きぐ}: cooking utensils\n- {調理|ちょうり}{師|し}: licensed cook\n- {調理|ちょうり}{場|ば}: kitchen (professional)\n- {調理|ちょうり}{法|ほう}: cooking method\n- {調理|ちょうり}{実習|じっしゅう}: cooking practice (in school)\n\nSIMILAR WORDS:\n- {料理|りょうり}する: to cook — everyday word; also used as a noun meaning \"cuisine\" or \"dish\"\n- {煮炊|にた}きする: to cook (general boiling/simmering) — traditional; emphasizes basic home cooking\n- {炊事|すいじ}する: to do the cooking — focuses on cooking as a household chore",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01523_ryouri",
+      "reading": "りょうり",
+      "headword": "{料理|りょうり}",
+      "label": "to cook"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16635_nitaki",
+      "reading": "にたき",
+      "headword": "{煮炊|にた}き",
+      "label": "to cook"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00385_suiji",
+      "reading": "すいじ",
+      "headword": "{炊事|すいじ}",
+      "label": "to do the cooking"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T11:09:37Z",
-    "modified": "2026-05-05T11:09:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

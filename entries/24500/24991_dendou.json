@@ -3,7 +3,7 @@
   "headword": "{伝導|でんどう}",
   "reading": "でんどう",
   "romaji": "dendou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "conduction; transmission (of heat, electricity)",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "A compound of {伝|でん} (to transmit/convey) and {導|どう} (to lead/conduct). Refers to the physical process by which energy passes through a medium. Not to be confused with the homophones {伝道|でんどう} (religious evangelism), {殿堂|でんどう} (hall of fame), or {電動|でんどう} (electric-powered).\n\nThe related verb {伝導|でんどう}する means \"to conduct\" (energy). The concept is fundamental in physics, appearing in the study of thermal conductivity, electrical conductivity, and nerve signal transmission.\n\nCOMMON COLLOCATIONS:\n- {熱|ねつ}{伝導|でんどう}: heat conduction; thermal conduction\n- {神経|しんけい}{伝導|でんどう}: nerve conduction\n- {伝導|でんどう}{率|りつ}: conductivity rate\n- {伝導|でんどう}{体|たい}: conductor\n\nSIMILAR WORDS:\n- {電導|でんどう}: electrical conduction (specifically electrical)\n- {対流|たいりゅう}: convection (heat transfer through fluid movement)\n- {放射|ほうしゃ}: radiation (heat transfer through electromagnetic waves)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "26620_dendou",
+      "reading": "でんどう",
+      "headword": "{電導|でんどう}",
+      "label": "electrical conduction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16334_housha",
+      "reading": "ほうしゃ",
+      "headword": "{放射|ほうしゃ}",
+      "label": "radiation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "science"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-22T09:27:45Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

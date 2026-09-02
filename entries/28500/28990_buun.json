@@ -17,7 +17,9 @@
       "id": "28990_buun_ex1",
       "japanese": "{蜂|はち}がぶーんと{飛|と}んできた。",
       "english": "A bee came flying with a buzz.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28990_buun_ex2",
       "japanese": "{扇風機|せんぷうき}がぶーんと{回|まわ}っている。",
       "english": "The electric fan is whirring as it spins.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "28990_buun_ex3",
       "japanese": "{上空|じょうくう}をドローンがぶーんと{音|おと}を{立|た}てて{通|とお}り{過|す}ぎた。",
       "english": "A drone passed overhead with a humming sound.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The long mark ー gives a sustained, single sound, unlike ぶうぶう which suggests a repeated or pulsing noise. Often used for insects, motors, fans, and drones.\n\nCOMMON COLLOCATIONS:\n- ぶーんと{飛|と}ぶ: to fly by buzzing\n- ぶーんと{鳴|な}る: to buzz; to hum\n- ぶーんと{回|まわ}る: to whir as it spins\n\nSIMILAR WORDS:\n- ぶうぶう: repeated honking or oinking; also \"grumbling\" figuratively\n- ぶんぶん: insistent buzzing or swinging — more emphatic and repetitive\n- ブーン: katakana form, common in manga sound effects",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28989_buubuu",
+      "reading": "ぶうぶう",
+      "headword": "ぶうぶう",
+      "label": "repeated honking or oinking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05716_bunbun",
+      "reading": "ぶんぶん",
+      "headword": "ぶんぶん",
+      "label": "insistent buzzing or swinging"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "onomatopoeia"],
+      "pos": [
+        "adverb",
+        "onomatopoeia"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["descriptive", "onomatopoeia"],
+      "politeness": "plain",
+      "semantic": [
+        "descriptive",
+        "onomatopoeia"
+      ],
       "domain": []
     },
     "created": "2026-06-08T07:55:39Z",
-    "modified": "2026-06-08T07:55:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

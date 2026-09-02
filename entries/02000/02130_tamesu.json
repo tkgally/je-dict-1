@@ -209,10 +209,25 @@
     }
   ],
   "notes": "{試|ため}す is a godan verb meaning to try or test something to see how it works or what happens.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes ⟦を→を：00422_wo⟧ particle for the object\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{試|ため}す: to try ~\n- {試|ため}して⟦みる→見る：00283_miru⟧: to try (and see what happens)\n- ⟦もう→もう：00602_mou⟧⟦{一度|いちど}→一度：01312_ichido⟧{試|ため}す: to try once more\n- ⟦{運|うん}→運：02143_un⟧⟦を→を：00422_wo⟧{試|ため}す: to try one's luck\n\nCOMMON COLLOCATIONS:\n- ⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{方法|ほうほう}→方法：03621_houhou⟧⟦を→を：00422_wo⟧{試|ため}す: to try a new method\n- ⟦{味|あじ}→味：00826_aji⟧⟦を→を：00422_wo⟧{試|ため}す: to taste/sample\n- ⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧{試|ため}す: to test one's strength\n\nRELATED WORDS:\n- ⟦{試|ため}し→試し：03410_tameshi⟧: trial, test (noun)\n- ⟦{試験|しけん}→試験：01422_shiken⟧: examination\n- ⟦{試|ため}し{書|が}き→試し書き：noentry⟧: test writing",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01422_shiken",
+      "reading": "しけん",
+      "headword": "{試験|しけん}",
+      "label": "examination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21602_chousensuru",
+      "reading": "ちょうせんする",
+      "headword": "{挑戦|ちょうせん}する",
+      "label": "to challenge"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:22:46Z",
-    "modified": "2026-08-11T00:23:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

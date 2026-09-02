@@ -3,7 +3,7 @@
   "headword": "{搾乳|さくにゅう}",
   "reading": "さくにゅう",
   "romaji": "sakunyuu",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "milking (a cow or other animal); expressing milk",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Refers to extracting milk from dairy animals (typically cows or goats) or expressing breast milk using a pump. The word is used in both agricultural and parenting contexts.\n\nCOMMON COLLOCATIONS:\n- {搾乳|さくにゅう}{機|き}: milking machine\n- {搾乳|さくにゅう}{量|りょう}: amount of milk produced\n- {搾乳|さくにゅう}{時間|じかん}: milking time\n- {手|て}{搾|しぼ}り: hand milking (manual method)\n\nSIMILAR WORDS:\n- {哺乳|ほにゅう}: nursing, suckling — the act of feeding milk to young, the opposite direction from {搾乳|さくにゅう}\n- {授乳|じゅにゅう}: breastfeeding — a mother feeding her baby; differs from {搾乳|さくにゅう} which focuses on extracting the milk\n- {乳搾|ちちしぼ}り: milking — a more colloquial, rustic-sounding variant",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24166_honyuu",
+      "reading": "ほにゅう",
+      "headword": "{哺乳|ほにゅう}",
+      "label": "nursing, suckling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14937_junyuu",
+      "reading": "じゅにゅう",
+      "headword": "{授乳|じゅにゅう}",
+      "label": "breastfeeding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29331_chichishibori",
+      "reading": "ちちしぼり",
+      "headword": "{乳搾|ちちしぼ}り",
+      "label": "milking"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +76,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "food"
       ],
@@ -60,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-17T21:44:02Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

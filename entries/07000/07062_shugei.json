@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{手芸|しゅげい} covers hand crafts worked in thread and fabric. It does not stretch to woodworking, pottery, or metalwork — those fall under ⟦{工芸|こうげい}→工芸：04182_kougei⟧. Knowing where the line falls matters, because the two words are both translated \"crafts\" in English.\n\nWHAT IT COVERS:\n- ⟦{編|あ}み{物|もの}→編み物：06364_amimono⟧: knitting and crochet\n- ⟦{刺繍|ししゅう}→刺繍：05411_shishuu⟧: embroidery\n- ⟦{裁縫|さいほう}→裁縫：04163_saihou⟧: sewing\n- パッチワーク: patchwork; ビーズ⟦{細工|ざいく}→細工：13790_saiku⟧: beadwork\n\nCOLLOCATIONS:\n- {手芸|しゅげい}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: do handicrafts\n- {手芸|しゅげい}⟦{店|てん}→〜店：10011_ten⟧: craft shop\n- {手芸|しゅげい}⟦{用品|ようひん}→用品：noentry⟧: craft supplies\n- {手芸|しゅげい}⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧: a handicraft class, the usual way adults take the hobby up\n\nSIMILAR WORDS:\n- ⟦{工芸|こうげい}→工芸：04182_kougei⟧ is the broad word for crafts and applied arts, including pottery and lacquer, and carries a whiff of professional or traditional production.\n- ⟦{手作|てづく}り→手作り：08300_tezukuri⟧ describes any object made by hand rather than bought, food included; it says how something was made, not what kind of craft it is.\n- ハンドメイド is the loanword, used mostly of items sold online.",
+  "notes": "{手芸|しゅげい} covers hand crafts worked in thread and fabric. It does not stretch to woodworking, pottery, or metalwork — those fall under ⟦{工芸|こうげい}→工芸：04182_kougei⟧. Knowing where the line falls matters, because the two words are both translated \"crafts\" in English.\n\nWHAT IT COVERS:\n- ⟦{編|あ}み{物|もの}→編み物：06364_amimono⟧: knitting and crochet\n- ⟦{刺繍|ししゅう}→刺繍：05411_shishuu⟧: embroidery\n- ⟦{裁縫|さいほう}→裁縫：04163_saihou⟧: sewing\n- パッチワーク: patchwork; ビーズ⟦{細工|ざいく}→細工：13790_saiku⟧: beadwork\n\nCOMMON COLLOCATIONS:\n- {手芸|しゅげい}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: do handicrafts\n- {手芸|しゅげい}⟦{店|てん}→〜店：10011_ten⟧: craft shop\n- {手芸|しゅげい}⟦{用品|ようひん}→用品：noentry⟧: craft supplies\n- {手芸|しゅげい}⟦{教室|きょうしつ}→教室：00794_kyoushitsu⟧: a handicraft class, the usual way adults take the hobby up\n\nSIMILAR WORDS:\n- ⟦{工芸|こうげい}→工芸：04182_kougei⟧ is the broad word for crafts and applied arts, including pottery and lacquer, and carries a whiff of professional or traditional production.\n- ⟦{手作|てづく}り→手作り：08300_tezukuri⟧ describes any object made by hand rather than bought, food included; it says how something was made, not what kind of craft it is.\n- ハンドメイド is the loanword, used mostly of items sold online.",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,53 @@
       "reading": "こうげい",
       "headword": "{工芸|こうげい}",
       "label": "crafts in general, including non-textile work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08300_tezukuri",
+      "reading": "てづくり",
+      "headword": "{手作|てづく}り",
+      "label": "describes any object made by hand…"
+    },
+    {
+      "type": "related",
+      "target_id": "19787_shukougei",
+      "reading": "しゅこうげい",
+      "headword": "{手工芸|しゅこうげい}",
+      "label": "handicraft"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19878_teshigoto",
+      "reading": "てしごと",
+      "headword": "{手仕事|てしごと}",
+      "label": "handicraft"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20002_nuimono",
+      "reading": "ぬいもの",
+      "headword": "{縫|ぬ}い{物|もの}",
+      "label": "sewing"
+    },
+    {
+      "type": "related",
+      "target_id": "20802_yousai",
+      "reading": "ようさい",
+      "headword": "{洋裁|ようさい}",
+      "label": "dressmaking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23151_temari",
+      "reading": "てまり",
+      "headword": "{手毬|てまり}",
+      "label": "temari"
     }
   ],
   "metadata": {
     "created": "2026-01-18T23:27:55Z",
-    "modified": "2026-09-01T00:19:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -46,15 +46,45 @@
     }
   ],
   "notes": "{右|う} (right) + {記|き} (written). In traditional Japanese vertical writing, text flows from right to left, so earlier content is to the right. {右記|うき} therefore means \"what was written previously\" or \"the above.\"\n\nCOMMON COLLOCATIONS:\n- {右記|うき}の{通|とお}り: as stated above\n- {右記|うき}の{住所|じゅうしょ}: the address listed above\n- {右記|うき}の{条件|じょうけん}: the conditions stated above\n- {右記|うき}のとおり{相違|そうい}ありません: the above is correct without error\n\nSIMILAR WORDS:\n- {上記|じょうき}: the above — used in horizontal writing (modern standard); functionally equivalent\n- {下記|かき}: the following, what is written below — the opposite, referring to content that comes after\n- {左記|さき}: what follows (in vertical writing) — the counterpart to {右記|うき} in vertical text\n- {前記|ぜんき}: the aforementioned — refers to content mentioned previously\n\nUSAGE:\n{右記|うき} is used primarily in formal documents, legal papers, and official forms that use vertical writing. In modern horizontal writing, {上記|じょうき} is more common. Both are formal register.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11375_jouki",
+      "reading": "じょうき",
+      "headword": "{上記|じょうき}",
+      "label": "the above"
+    },
+    {
+      "type": "antonym",
+      "target_id": "11376_kaki",
+      "reading": "かき",
+      "headword": "{下記|かき}",
+      "label": "the following, what is written below"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17256_saki",
+      "reading": "さき",
+      "headword": "{左記|さき}",
+      "label": "what follows"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22210_zenki",
+      "reading": "ぜんき",
+      "headword": "{前記|ぜんき}",
+      "label": "the aforementioned"
+    }
+  ],
   "metadata": {
     "created": "2026-04-18T09:16:40Z",
-    "modified": "2026-08-02T18:32:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "media",
         "business"

@@ -17,24 +17,30 @@
       "japanese": "{定休日|ていきゅうび}は{水曜日|すいようび}です。",
       "english": "We're closed on Wednesdays.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09541_teikyuubi_ex2",
       "japanese": "{年中無休|ねんじゅうむきゅう}で{定休日|ていきゅうび}はありません。",
       "english": "We're open year-round with no regular days off.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09541_teikyuubi_ex3",
       "japanese": "{行|い}く{前|まえ}に{定休日|ていきゅうび}を{確認|かくにん}した{方|ほう}がいい。",
       "english": "You should check the regular closing day before going.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMMON PATTERNS:\n- {定休日|ていきゅうび}：{月曜日|げつようび}: Closed on Mondays\n- {定休日|ていきゅうび}：なし: No regular closing day\n- {定休日|ていきゅうび}：{不定休|ふていきゅう}: Irregular closing days\n\nCOMMON COLLOCATIONS:\n- {定休日|ていきゅうび}を{確認|かくにん}する: to check the closing day\n- {定休日|ていきゅうび}なし: no regular days off\n\nRELATED:\n- {営業|えいぎょう}{時間|じかん}: business hours\n- {年中無休|ねんじゅうむきゅう}: open year-round\n- {臨時|りんじ}{休業|きゅうぎょう}: temporary closure",
+  "notes": "COMMON PATTERNS:\n- {定休日|ていきゅうび}：{月曜日|げつようび}: Closed on Mondays\n- {定休日|ていきゅうび}：なし: No regular closing day\n- {定休日|ていきゅうび}：{不定休|ふていきゅう}: Irregular closing days\n\nCOMMON COLLOCATIONS:\n- {定休日|ていきゅうび}を{確認|かくにん}する: to check the closing day\n- {定休日|ていきゅうび}なし: no regular days off\n\nRELATED WORDS:\n- {営業|えいぎょう}{時間|じかん}: business hours\n- {年中無休|ねんじゅうむきゅう}: open year-round\n- {臨時|りんじ}{休業|きゅうぎょう}: temporary closure",
   "cross_references": [
     {
       "type": "related",
@@ -49,18 +55,64 @@
       "reading": "へいてん",
       "headword": "{閉店|へいてん}",
       "label": "store closing"
+    },
+    {
+      "type": "related",
+      "target_id": "18476_eigyoujikan",
+      "reading": "えいぎょうじかん",
+      "headword": "{営業時間|えいぎょうじかん}",
+      "label": "business hours"
+    },
+    {
+      "type": "related",
+      "target_id": "21870_nenjuumukyuu",
+      "reading": "ねんじゅうむきゅう",
+      "headword": "{年中無休|ねんじゅうむきゅう}",
+      "label": "open year-round"
+    },
+    {
+      "type": "related",
+      "target_id": "17041_rinjikyuugyou",
+      "reading": "りんじきゅうぎょう",
+      "headword": "{臨時休業|りんじきゅうぎょう}",
+      "label": "temporary closure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18859_kyuukan",
+      "reading": "きゅうかん",
+      "headword": "{休館|きゅうかん}",
+      "label": "temporary closure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21152_kyuugyoubi",
+      "reading": "きゅうぎょうび",
+      "headword": "{休業日|きゅうぎょうび}",
+      "label": "closed day"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26866_eigyoubi",
+      "reading": "えいぎょうび",
+      "headword": "{営業日|えいぎょうび}",
+      "label": "business day"
     }
   ],
   "metadata": {
     "created": "2026-02-02T10:40:04Z",
-    "modified": "2026-04-23T05:18:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

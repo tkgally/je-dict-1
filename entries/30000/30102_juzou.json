@@ -3,7 +3,7 @@
   "headword": "{受贈|じゅぞう}",
   "reading": "じゅぞう",
   "romaji": "juzou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "receiving a gift; accepting a donation",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "A formal term for receiving a gift or donation, used mainly of institutions such as museums, libraries, and schools. It is the receiving side of a donation; the giving side is {寄贈|きぞう}.\n\nCOMMON COLLOCATIONS:\n- {受贈|じゅぞう}する: to receive as a gift or donation\n- {受贈品|じゅぞうひん}: received or donated items\n- {受贈者|じゅぞうしゃ}: the recipient\n\nSIMILAR WORDS:\n- {寄贈|きぞう}: donation — from the giver's side\n- {贈呈|ぞうてい}: presentation — formally giving something to someone",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12345_kizou",
+      "reading": "きぞう",
+      "headword": "{寄贈|きぞう}",
+      "label": "donation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16752_zoutei",
+      "reading": "ぞうてい",
+      "headword": "{贈呈|ぞうてい}",
+      "label": "presentation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-25T03:20:29Z",
-    "modified": "2026-07-25T03:20:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -17,7 +17,9 @@
       "id": "26355_soosuyakisoba_ex1",
       "japanese": "{昼|ひる}ごはんにソース{焼|や}きそばを{作|つく}った。",
       "english": "I made sauce yakisoba for lunch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26355_soosuyakisoba_ex2",
       "japanese": "{屋台|やたい}のソース{焼|や}きそばは{祭|まつ}りの{定番|ていばん}だ。",
       "english": "Sauce yakisoba from food stalls is a festival staple.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,38 @@
       "id": "26355_soosuyakisoba_ex3",
       "japanese": "{富士宮|ふじのみや}やきそばや{横手|よこて}やきそばなど、{各地|かくち}にソース{焼|や}きそばの{名物|めいぶつ}がある。",
       "english": "There are famous sauce yakisoba specialties in various regions, such as Fujinomiya yakisoba and Yokote yakisoba.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The default style of {焼|や}きそば in Japan. When Japanese people say {焼|や}きそば without qualification, they almost always mean ソース{焼|や}きそば. The sauce used is a Japanese-style Worcester sauce ({中濃|ちゅうのう}ソース or {焼|や}きそば{専用|せんよう}ソース), giving the noodles a distinctive dark color and sweet-savory flavor.\n\nCOMMON TOPPINGS:\n- {紅生姜|べにしょうが}: pickled red ginger\n- {青海苔|あおのり}: green seaweed flakes\n- {鰹節|かつおぶし}: bonito flakes\n- {目玉焼|めだまや}き: fried egg\n\nCOMMON COLLOCATIONS:\n- ソース{焼|や}きそばを{作|つく}る: to make sauce yakisoba\n- {屋台|やたい}のソース{焼|や}きそば: food stall yakisoba\n- ソース{焼|や}きそばパン: yakisoba bread roll\n\nSIMILAR WORDS:\n- {塩|しお}{焼|や}きそば: salt yakisoba — seasoned with salt instead of sauce; lighter flavor\n- {焼|や}きうどん: fried udon — similar dish but with thicker udon noodles",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20780_yakiudon",
+      "reading": "やきうどん",
+      "headword": "{焼|や}きうどん",
+      "label": "fried udon"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food", "culture"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "culture"
+      ]
     },
     "created": "2026-05-01T11:35:54Z",
-    "modified": "2026-05-01T11:35:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

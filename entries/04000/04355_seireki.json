@@ -63,11 +63,26 @@
       ]
     }
   ],
-  "notes": "Japan uses two calendar systems: {西暦|せいれき} (Western/Gregorian calendar) and ⟦{和暦|われき}→和暦：28485_wareki⟧ (Japanese era calendar based on imperial reigns).\n\nCALENDAR SYSTEMS IN JAPAN:\n- {西暦|せいれき}: Western calendar (2024, 2025, etc.)\n- ⟦{和暦|われき}→和暦：28485_wareki⟧: Japanese era calendar (⟦{令和|れいわ}→令和：11181_reiwa⟧, ⟦{平成|へいせい}→平成：11180_heisei⟧, ⟦{昭和|しょうわ}→昭和：28079_shouwa⟧, etc.)\n\nUSAGE:\n- International contexts, business, younger generations often prefer {西暦|せいれき}\n- Government documents, traditional contexts often use ⟦{和暦|われき}→和暦：28485_wareki⟧\n- Many forms accept either\n\nABBREVIATIONS:\n- A.D. / C.E. correspond to {西暦|せいれき} (though B.C./B.C.E. would be ⟦{紀元前|きげんぜん}→紀元前：13831_kigenzen⟧)",
-  "cross_references": [],
+  "notes": "Japan uses two calendar systems: {西暦|せいれき} (Western/Gregorian calendar) and ⟦{和暦|われき}→和暦：28485_wareki⟧ (Japanese era calendar based on imperial reigns).\n\nCALENDAR SYSTEMS IN JAPAN:\n- {西暦|せいれき}: Western calendar (2024, 2025, etc.)\n- ⟦{和暦|われき}→和暦：28485_wareki⟧: Japanese era calendar (⟦{令和|れいわ}→令和：11181_reiwa⟧, ⟦{平成|へいせい}→平成：11180_heisei⟧, ⟦{昭和|しょうわ}→昭和：28079_shouwa⟧, etc.)\n\nUSAGE:\n- International contexts, business, younger generations often prefer {西暦|せいれき}\n- Government documents, traditional contexts often use ⟦{和暦|われき}→和暦：28485_wareki⟧\n- Many forms accept either\n\nFORMS:\n- A.D. / C.E. correspond to {西暦|せいれき} (though B.C./B.C.E. would be ⟦{紀元前|きげんぜん}→紀元前：13831_kigenzen⟧)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26998_nengou",
+      "reading": "ねんごう",
+      "headword": "{年号|ねんごう}",
+      "label": "era name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28485_wareki",
+      "reading": "われき",
+      "headword": "{和暦|われき}",
+      "label": "Japanese era calendar"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T22:31:30Z",
-    "modified": "2026-08-14T18:20:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

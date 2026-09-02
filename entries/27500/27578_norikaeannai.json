@@ -17,7 +17,9 @@
       "id": "27578_norikaeannai_ex1",
       "japanese": "{乗換案内|のりかえあんない}を{調|しら}べた。",
       "english": "I checked the transfer route.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27578_norikaeannai_ex2",
       "japanese": "アプリの{乗換案内|のりかえあんない}が{便利|べんり}だ。",
       "english": "The transit-routing app is very handy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "27578_norikaeannai_ex3",
       "japanese": "{乗換案内|のりかえあんない}で{調|しら}べたら、{次|つぎ}の{駅|えき}で{急行|きゅうこう}に{乗|の}り{換|か}えるのが{早|はや}いとわかった。",
       "english": "When I checked the route finder, I learned that transferring to the express at the next station is fastest.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {乗|の}り{換|か}え (transfer between trains/lines) + {案内|あんない} (guide, information). Originally referred to printed timetables and station signs, but in everyday speech today it most often refers to a smartphone app or website.\n\nCOMMON COLLOCATIONS:\n- {乗換案内|のりかえあんない}を{調|しら}べる: to look up a transfer route\n- {乗換案内|のりかえあんない}アプリ: transit-routing app\n- {乗換案内|のりかえあんない}{所|じょ}: information desk for transfers\n\nSIMILAR WORDS:\n- {乗|の}り{換|か}え: transfer (the act of changing trains/lines)\n- {時刻表|じこくひょう}: timetable\n- {経路|けいろ}{検索|けんさく}: route search (more technical term for the same feature)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16130_norikae",
+      "reading": "のりかえ",
+      "headword": "{乗|の}り{換|か}え",
+      "label": "transfer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01031_jikokuhyou",
+      "reading": "じこくひょう",
+      "headword": "{時刻表|じこくひょう}",
+      "label": "timetable"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["transportation", "technology"],
+      "politeness": "plain",
+      "semantic": [
+        "transportation",
+        "technology"
+      ],
       "domain": []
     },
     "created": "2026-05-14T03:15:59Z",
-    "modified": "2026-05-14T03:15:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

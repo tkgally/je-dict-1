@@ -17,7 +17,9 @@
       "id": "19392_honban_ex1",
       "japanese": "いよいよ{本番|ほんばん}だ。",
       "english": "It's finally the real thing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19392_honban_ex2",
       "japanese": "{練習|れんしゅう}では{上手|うま}くいったのに、{本番|ほんばん}で{失敗|しっぱい}した。",
       "english": "It went well in practice, but I messed up during the real performance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "19392_honban_ex3",
       "japanese": "{本番|ほんばん}に{強|つよ}い{選手|せんしゅ}は、{大|おお}きな{大会|たいかい}でいい{結果|けっか}を{出|だ}す。",
       "english": "Athletes who perform well under pressure produce good results at major tournaments.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{本番|ほんばん} refers to the actual event as opposed to a rehearsal, test, or practice ({練習|れんしゅう}, リハーサル). It implies that the outcome now counts for real.\n\nCOMMON EXPRESSIONS:\n- {本番|ほんばん}に{強|つよ}い: performs well when it counts\n- {本番|ほんばん}に{弱|よわ}い: chokes under pressure\n- {本番|ほんばん}{前|まえ}: before the real event\n- {本番|ほんばん}{当日|とうじつ}: the day of the actual event\n\nUSAGE:\n- Used in performing arts (theater, music), sports, filming, exams, and any situation with a decisive moment.\n- リハーサル (rehearsal) and {練習|れんしゅう} (practice) are the typical contrasts.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07559_rihaasaru",
+      "reading": "りはーさる",
+      "headword": "リハーサル",
+      "label": "rehearsal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24255_butaigeiko",
+      "reading": "ぶたいげいこ",
+      "headword": "{舞台稽古|ぶたいげいこ}",
+      "label": "dress rehearsal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30251_honshiken",
+      "reading": "ほんしけん",
+      "headword": "{本試験|ほんしけん}",
+      "label": "the actual exam"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-03-25T13:28:10Z",
-    "modified": "2026-03-25T13:28:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

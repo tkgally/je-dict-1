@@ -17,7 +17,9 @@
       "id": "23748_juudenchi_ex1",
       "japanese": "{充電池|じゅうでんち}を{使|つか}っている。",
       "english": "I use rechargeable batteries.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23748_juudenchi_ex2",
       "japanese": "{充電池|じゅうでんち}は{繰|く}り{返|かえ}し{使|つか}えて{経済的|けいざいてき}だ。",
       "english": "Rechargeable batteries can be used over and over and are economical.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,13 +37,14 @@
       "id": "23748_juudenchi_ex3",
       "japanese": "{最近|さいきん}のスマートフォンの{充電池|じゅうでんち}は{長時間|ちょうじかん}{持|も}つようになっている。",
       "english": "The rechargeable batteries in recent smartphones last for long periods.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Formed from {充電|じゅうでん} ('charging') + {電池|でんち} ('battery'). In everyday speech, the English-derived loanword バッテリー is equally common, though {充電池|じゅうでんち} is the native Japanese term that explicitly emphasizes the rechargeable aspect.\n\nCOMMON COLLOCATIONS:\n- {充電池|じゅうでんち}を{充電|じゅうでん}する: to charge a rechargeable battery\n- {充電池|じゅうでんち}が{切|き}れる: for the battery to run out\n- {充電池|じゅうでんち}が{減|へ}る: for the battery level to decrease\n- {充電池|じゅうでんち}{交換|こうかん}: battery replacement\n- リチウムイオン{充電池|じゅうでんち}: lithium-ion rechargeable battery\n\nSIMILAR WORDS:\n- {電池|でんち}: battery — the general term, including both disposable and rechargeable\n- {乾電池|かんでんち}: dry-cell (disposable) battery — the standard term for single-use AA/AAA batteries\n- バッテリー: battery — loanword, especially common for car batteries and built-in device batteries\n- {蓄電池|ちくでんち}: storage battery — a more technical term, used for large-scale energy storage\n\nUSAGE:\nFor the battery in a phone or laptop, バッテリー is more common in everyday speech ('バッテリーが{切|き}れた'). {充電池|じゅうでんち} is especially used when contrasting with disposable batteries."
-  ,
+  "notes": "Formed from {充電|じゅうでん} ('charging') + {電池|でんち} ('battery'). In everyday speech, the English-derived loanword バッテリー is equally common, though {充電池|じゅうでんち} is the native Japanese term that explicitly emphasizes the rechargeable aspect.\n\nCOMMON COLLOCATIONS:\n- {充電池|じゅうでんち}を{充電|じゅうでん}する: to charge a rechargeable battery\n- {充電池|じゅうでんち}が{切|き}れる: for the battery to run out\n- {充電池|じゅうでんち}が{減|へ}る: for the battery level to decrease\n- {充電池|じゅうでんち}{交換|こうかん}: battery replacement\n- リチウムイオン{充電池|じゅうでんち}: lithium-ion rechargeable battery\n\nSIMILAR WORDS:\n- {電池|でんち}: battery — the general term, including both disposable and rechargeable\n- {乾電池|かんでんち}: dry-cell (disposable) battery — the standard term for single-use AA/AAA batteries\n- バッテリー: battery — loanword, especially common for car batteries and built-in device batteries\n- {蓄電池|ちくでんち}: storage battery — a more technical term, used for large-scale energy storage\n\nUSAGE:\nFor the battery in a phone or laptop, バッテリー is more common in everyday speech ('バッテリーが{切|き}れた'). {充電池|じゅうでんち} is especially used when contrasting with disposable batteries.",
   "cross_references": [
     {
       "type": "synonym",
@@ -47,18 +52,36 @@
       "reading": "ちくでんち",
       "headword": "{蓄電池|ちくでんち}",
       "label": "for large-scale storage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10188_kandenchi",
+      "reading": "かんでんち",
+      "headword": "{乾電池|かんでんち}",
+      "label": "dry-cell (disposable) battery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04425_batterii",
+      "reading": "ばってりー",
+      "headword": "バッテリー",
+      "label": "battery"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technology"]
+      "semantic": [
+        "technology"
+      ]
     },
     "created": "2026-04-14T17:07:04Z",
-    "modified": "2026-04-20T04:12:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "27961_nareetaa_ex1",
       "japanese": "ナレーターの{声|こえ}が{落|お}ち{着|つ}いている。",
       "english": "The narrator's voice is calm.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27961_nareetaa_ex2",
       "japanese": "このドキュメンタリーのナレーターは{有名|ゆうめい}な{俳優|はいゆう}だ。",
       "english": "The narrator of this documentary is a famous actor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,66 @@
       "id": "27961_nareetaa_ex3",
       "japanese": "ナレーターの{説明|せつめい}のおかげで{内容|ないよう}がよく{理解|りかい}できた。",
       "english": "Thanks to the narrator's explanation, I could understand the content well.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The off-screen voice that explains or tells the story in documentaries, variety shows, commercials, and films. The act of narrating is ナレーション.\n\nSIMILAR WORDS:\n- {声優|せいゆう}: voice actor — performs character voices for anime and dubbing, rather than explanatory narration\n- アナウンサー: announcer — a station broadcaster; may also do narration",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12093_seiyuu",
+      "reading": "せいゆう",
+      "headword": "{声優|せいゆう}",
+      "label": "voice actor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01765_anaunsaa",
+      "reading": "あなうんさー",
+      "headword": "アナウンサー",
+      "label": "announcer"
+    },
+    {
+      "type": "related",
+      "target_id": "07748_emushii",
+      "reading": "えむしー",
+      "headword": "MC",
+      "label": "master of ceremonies"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14271_katarite",
+      "reading": "かたりて",
+      "headword": "{語|かた}り{手|て}",
+      "label": "narrator"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24412_nareeshon",
+      "reading": "なれーしょん",
+      "headword": "ナレーション",
+      "label": "narration"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"],
+      "semantic": [
+        "occupation"
+      ],
       "domain": []
     },
     "created": "2026-05-23T04:06:38Z",
-    "modified": "2026-05-23T04:06:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

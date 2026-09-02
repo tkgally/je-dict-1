@@ -3,7 +3,7 @@
   "id": "17726_mikeiken",
   "headword": "{未経験|みけいけん}",
   "reading": "みけいけん",
-  "part_of_speech": "noun, adjective (no)",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "inexperienced; no experience",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "No experience necessary. (lit. Inexperienced persons welcome.)",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17726_mikeiken_ex2",
@@ -27,7 +29,9 @@
       "english": "I have no programming experience, but I'd like to give it a try.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17726_mikeiken_ex3",
@@ -35,7 +39,9 @@
       "english": "Jumping into an unfamiliar field is nerve-wracking, but it's a good opportunity to learn new things.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{未経験|みけいけん} uses the prefix {未|み} (not yet), indicating a state of not having done something. Very commonly seen in job advertisements: {未経験者|みけいけんしゃ}{歓迎|かんげい} or {未経験|みけいけん}OK.\n\nCOMMON COLLOCATIONS:\n- {未経験者|みけいけんしゃ} (inexperienced person)\n- {未経験者|みけいけんしゃ}{歓迎|かんげい} (no experience necessary)\n- {業界|ぎょうかい}{未経験|みけいけん} (no industry experience)\n- {未経験|みけいけん}から{始|はじ}める (to start with no experience)",
@@ -46,19 +52,33 @@
       "reading": "けいけん",
       "headword": "{経験|けいけん}",
       "label": "experience"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22780_mijukuna",
+      "reading": "みじゅくな",
+      "headword": "{未熟|みじゅく}な",
+      "label": "immature"
     }
   ],
   "metadata": {
     "created": "2026-03-18T14:42:42Z",
-    "modified": "2026-05-07T05:07:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["work"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

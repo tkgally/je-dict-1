@@ -17,7 +17,9 @@
       "id": "23996_guranyuutou_ex1",
       "japanese": "グラニュー{糖|とう}を{加|くわ}える。",
       "english": "To add granulated sugar.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23996_guranyuutou_ex2",
       "japanese": "コーヒーにグラニュー{糖|とう}を{一|ひと}{杯|さじ}{入|い}れる。",
       "english": "To put a spoonful of granulated sugar in the coffee.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,63 @@
       "id": "23996_guranyuutou_ex3",
       "japanese": "このレシピでは{上白糖|じょうはくとう}ではなくグラニュー{糖|とう}を{使|つか}う。",
       "english": "This recipe uses granulated sugar rather than ordinary white sugar.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A hybrid word combining the katakana loanword グラニュー (from English 'granulated') with the native suffix {糖|とう} ('sugar'). The Japanese default table sugar is {上白糖|じょうはくとう}, which is slightly moister and sweeter-tasting; グラニュー{糖|とう} is drier and purer, closer to Western 'sugar' in behavior and flavor.\n\nUSAGE:\n- Standard in baking and confectionery: pound cake, cookies, caramel, meringues.\n- Also the sugar typically served with coffee in cafés and included in sugar packets.\n- Because the crystals are dry and separate, グラニュー{糖|とう} measures more consistently than {上白糖|じょうはくとう}, which clumps slightly.\n- In imported or Western-style recipes, 'sugar' almost always means グラニュー{糖|とう}, not {上白糖|じょうはくとう}.\n\nCOMMON COLLOCATIONS:\n- グラニュー{糖|とう}を{加|くわ}える: to add granulated sugar\n- グラニュー{糖|とう}をまぶす: to coat with granulated sugar\n- グラニュー{糖|とう}{大|おお}さじ{一杯|いっぱい}: one tablespoon of granulated sugar\n- グラニュー{糖|とう}{少々|しょうしょう}: a small amount of granulated sugar\n- グラニュー{糖|とう}{小|こ}さじ{二|に}: two teaspoons of granulated sugar\n\nSIMILAR WORDS:\n- {上白糖|じょうはくとう}: standard Japanese white table sugar — moister and slightly sweeter; the default in most Japanese home recipes.\n- {三温糖|さんおんとう}: brown/light-brown sugar used in Japanese cooking — has more caramel flavor, used in savory dishes.\n- {粉|こ}{砂糖|ざとう}: powdered sugar; confectioner's sugar — finely ground for icings and dusting.\n- {氷|こおり}{砂糖|ざとう}: rock sugar — large crystals, used for umeshu and other infusions.\n- {角|かく}{砂糖|ざとう}: sugar cubes — pressed cubes, used in coffee and tea.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25163_jouhakutou",
+      "reading": "じょうはくとう",
+      "headword": "{上白糖|じょうはくとう}",
+      "label": "standard Japanese white table sugar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23597_sanontou",
+      "reading": "さんおんとう",
+      "headword": "{三温糖|さんおんとう}",
+      "label": "brown/light-brown sugar used…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22930_koorizatou",
+      "reading": "こおりざとう",
+      "headword": "{氷砂糖|こおりざとう}",
+      "label": "rock sugar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18293_kakuzatou",
+      "reading": "かくざとう",
+      "headword": "{角砂糖|かくざとう}",
+      "label": "sugar cubes"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "style": ["written", "spoken"],
-      "semantic": ["food", "cooking"]
+      "style": [
+        "written",
+        "spoken"
+      ],
+      "semantic": [
+        "food",
+        "cooking"
+      ]
     },
     "created": "2026-04-15T18:40:42Z",
-    "modified": "2026-04-15T18:40:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "28353_funou_ex1",
       "japanese": "この{機械|きかい}は{修理|しゅうり}{不能|ふのう}だ。",
       "english": "This machine cannot be repaired.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28353_funou_ex2",
       "japanese": "{予測|よそく}{不能|ふのう}な{事態|じたい}が{発生|はっせい}した。",
       "english": "An unpredictable situation arose.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "28353_funou_ex3",
       "japanese": "{回線|かいせん}トラブルにより、{操作|そうさ}が{一時|いちじ}{不能|ふのう}になっています。",
       "english": "Due to network trouble, operations are temporarily disabled.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {不|ふ} (not) + {能|のう} (able). Most often used as the second element of a compound to negate a capability. Functions as a na-adjective when modifying a noun ({予測|よそく}{不能|ふのう}な〜) and as a noun-predicate ({修理|しゅうり}{不能|ふのう}だ).\n\nCOMMON COMPOUNDS:\n- {修理|しゅうり}{不能|ふのう}: impossible to repair\n- {予測|よそく}{不能|ふのう}: unpredictable\n- {使用|しよう}{不能|ふのう}: unusable\n- {再生|さいせい}{不能|ふのう}: non-renewable; cannot be played back\n- {回復|かいふく}{不能|ふのう}: irrecoverable\n- {実行|じっこう}{不能|ふのう}: unworkable; infeasible\n\nGRAMMAR:\n- Noun + {不能|ふのう}な + Noun: an unX-able Y\n- Noun + {不能|ふのう}になる: to become unable; to be disabled\n\nSIMILAR WORDS:\n- {不可|ふか}: not allowed; impossible — emphasizes prohibition or unfeasibility ({使用|しよう}{不可|ふか} not permitted to use)\n- {不可能|ふかのう}: impossible — stand-alone na-adjective; broader use\n- {困難|こんなん}: difficult — implies it is hard but not impossible",
+  "notes": "Composed of {不|ふ} (not) + {能|のう} (able). Most often used as the second element of a compound to negate a capability. Functions as a na-adjective when modifying a noun ({予測|よそく}{不能|ふのう}な〜) and as a noun-predicate ({修理|しゅうり}{不能|ふのう}だ).\n\nCOMPOUNDS:\n- {修理|しゅうり}{不能|ふのう}: impossible to repair\n- {予測|よそく}{不能|ふのう}: unpredictable\n- {使用|しよう}{不能|ふのう}: unusable\n- {再生|さいせい}{不能|ふのう}: non-renewable; cannot be played back\n- {回復|かいふく}{不能|ふのう}: irrecoverable\n- {実行|じっこう}{不能|ふのう}: unworkable; infeasible\n\nCOMMON PATTERNS:\n- Noun + {不能|ふのう}な + Noun: an unX-able Y\n- Noun + {不能|ふのう}になる: to become unable; to be disabled\n\nSIMILAR WORDS:\n- {不可|ふか}: not allowed; impossible — emphasizes prohibition or unfeasibility ({使用|しよう}{不可|ふか} not permitted to use)\n- {不可能|ふかのう}: impossible — stand-alone na-adjective; broader use\n- {困難|こんなん}: difficult — implies it is hard but not impossible",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01922_fuka",
+      "reading": "ふか",
+      "headword": "{不可|ふか}",
+      "label": "not allowed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03144_fukanou",
+      "reading": "ふかのう",
+      "headword": "{不可能|ふかのう}",
+      "label": "impossible"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01410_konnan",
+      "reading": "こんなん",
+      "headword": "{困難|こんなん}",
+      "label": "difficult"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-05-29T03:08:25Z",
-    "modified": "2026-05-29T03:08:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

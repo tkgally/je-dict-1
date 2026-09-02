@@ -17,7 +17,9 @@
       "id": "27535_chari_ex1",
       "japanese": "チャリで{駅|えき}まで{行|い}く。",
       "english": "I'll bike to the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27535_chari_ex2",
       "japanese": "{雨|あめ}が{降|ふ}ってきたから、チャリは{置|お}いて{歩|ある}いて{帰|かえ}った。",
       "english": "It started raining, so I left the bike and walked home.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "27535_chari_ex3",
       "japanese": "{大学|だいがく}の{駐輪場|ちゅうりんじょう}にはチャリがたくさん{並|なら}んでいる。",
       "english": "The university's bike racks are lined with lots of bicycles.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -46,19 +52,30 @@
       "reading": "ままちゃり",
       "headword": "ママチャリ",
       "label": "utility bicycle (specific type)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00633_jitensha",
+      "reading": "じてんしゃ",
+      "headword": "{自転車|じてんしゃ}",
+      "label": "bicycle"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
-      "politeness": null,
-      "semantic": ["transportation"],
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ],
       "domain": []
     },
     "created": "2026-05-13T04:09:53Z",
-    "modified": "2026-05-13T04:09:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "11902_gouryuu",
   "headword": "{合流|ごうりゅう}",
   "reading": "ごうりゅう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "joining, merging, confluence",
   "conjugation": {
     "type": "suru",
@@ -169,10 +169,53 @@
     }
   ],
   "notes": "{合流|ごうりゅう} means coming together and merging into one, used for both physical things (rivers, roads) and people meeting up.\n\nCOMMON COLLOCATIONS:\n- {川|かわ}が{合流|ごうりゅう}する: rivers merge\n- {合流|ごうりゅう}{地点|ちてん}: merging point, confluence\n- {合流|ごうりゅう}レーン: merging lane (highway)\n- 〜と{合流|ごうりゅう}する: to join up with, to meet up with\n\nUSAGE BY SENSE:\nSense 1 (physical): Most commonly used with rivers and roads/traffic. {合流|ごうりゅう}{地点|ちてん} frequently appears in traffic reports.\n\nSense 2 (people): Very common in everyday conversation for meeting up with others at a location. Often used when people who traveled separately come together: {現地|げんち}で{合流|ごうりゅう}しよう (Let's meet up there).\n\nSIMILAR WORDS:\n- {合併|がっぺい}: merging of organizations or companies\n- {集合|しゅうごう}: gathering, assembling (more formal for meeting up)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04778_gappei",
+      "reading": "がっぺい",
+      "headword": "{合併|がっぺい}",
+      "label": "merging of organizations or companies"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03068_shuugou",
+      "reading": "しゅうごう",
+      "headword": "{集合|しゅうごう}",
+      "label": "gathering, assembling"
+    },
+    {
+      "type": "related",
+      "target_id": "17361_shasenhenkou",
+      "reading": "しゃせんへんこう",
+      "headword": "{車線|しゃせん}{変更|へんこう}",
+      "label": "lane change"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19624_shiryuu",
+      "reading": "しりゅう",
+      "headword": "{支流|しりゅう}",
+      "label": "tributary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21679_shuugousuru",
+      "reading": "しゅうごうする",
+      "headword": "{集合|しゅうごう}する",
+      "label": "to gather"
+    },
+    {
+      "type": "antonym",
+      "target_id": "26299_bunryuu",
+      "reading": "ぶんりゅう",
+      "headword": "{分流|ぶんりゅう}",
+      "label": "branching stream"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T14:06:03Z",
-    "modified": "2026-03-31T03:49:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

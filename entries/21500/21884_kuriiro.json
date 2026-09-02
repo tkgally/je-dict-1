@@ -3,7 +3,7 @@
   "headword": "{栗色|くりいろ}",
   "reading": "くりいろ",
   "romaji": "kuriiro",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "chestnut color; auburn; maroon",
   "definitions": [
     {
@@ -46,6 +46,43 @@
   ],
   "notes": "Composed of {栗|くり} (chestnut) + {色|いろ} (color). A traditional Japanese color name describing a warm, dark brown with reddish tones, like the shell of a Japanese chestnut.\n\nCOMMON COLLOCATIONS:\n- {栗色|くりいろ}の{髪|かみ}: chestnut/auburn hair\n- {栗色|くりいろ}に{染|そ}める: to dye chestnut brown\n- {栗色|くりいろ}の{瞳|ひとみ}: chestnut-colored eyes\n\nSIMILAR WORDS:\n- {茶色|ちゃいろ}: brown — the general term for brown\n- {焦|こ}げ{茶|ちゃ}: dark brown — darker, without the reddish warmth\n- こげ{茶色|ちゃいろ}: dark brown color\n\nCULTURAL NOTE:\nOne of Japan's traditional color names ({和色|わしょく}). {栗色|くりいろ} is one of the most popular hair color choices in Japan, as it is a natural-looking shade that is common in hair dye products.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02915_chairo",
+      "reading": "ちゃいろ",
+      "headword": "{茶色|ちゃいろ}",
+      "label": "brown"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18201_kogecha",
+      "reading": "こげちゃ",
+      "headword": "{焦|こ}げ{茶|ちゃ}",
+      "label": "dark brown"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22900_kogechairo",
+      "reading": "こげちゃいろ",
+      "headword": "こげ{茶色|ちゃいろ}",
+      "label": "dark brown color"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23329_akachairo",
+      "reading": "あかちゃいろ",
+      "headword": "{赤茶色|あかちゃいろ}",
+      "label": "reddish brown"
+    },
+    {
+      "type": "related",
+      "target_id": "26351_kurocha",
+      "reading": "くろちゃ",
+      "headword": "{黒茶|くろちゃ}",
+      "label": "dark brown"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +98,6 @@
       ]
     },
     "created": "2026-04-03T20:25:48Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

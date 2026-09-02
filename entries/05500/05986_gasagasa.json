@@ -169,10 +169,67 @@
     }
   ],
   "notes": "がさがさ is a mimetic word with two related meanings: a rustling sound and a rough/dry texture. Both senses share the image of dry, coarse surfaces.\n\nSOUND MEANING:\n- がさがさと⟦{音|おと}→音：00743_oto⟧⟦が→が：00051_ga⟧する: to make a rustling sound\n- ⟦{茂|しげ}み→茂み：24292_shigemi⟧でがさがさする: rustling in the bushes\n\nTEXTURE MEANING:\n- がさがさした⟦{肌|はだ}→肌：02243_hada⟧: rough, dry skin\n- ⟦{手|て}→手：00569_te⟧ががさがさになる: hands become rough and dry\n\nSIMILAR WORDS:\n- ⟦かさかさ→カサカサ：16368_kasakasa⟧: lighter rustling; drier texture (milder than がさがさ)\n- ⟦ごそごそ→ごそごそ：05941_gosogoso⟧: rummaging sound (deliberate searching movement)\n- ⟦ざらざら→ざらざら：05174_zarazara⟧: rough, gritty (texture only, no sound meaning)\n- ⟦すべすべ→すべすべ：05163_subesube⟧: smooth (opposite texture)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16368_kasakasa",
+      "reading": "かさかさ",
+      "headword": "カサカサ",
+      "label": "lighter rustling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05941_gosogoso",
+      "reading": "ごそごそ",
+      "headword": "ごそごそ",
+      "label": "rummaging sound"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05174_zarazara",
+      "reading": "ざらざら",
+      "headword": "ざらざら",
+      "label": "rough, gritty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05163_subesube",
+      "reading": "すべすべ",
+      "headword": "すべすべ",
+      "label": "smooth"
+    },
+    {
+      "type": "related",
+      "target_id": "05940_dotabata",
+      "reading": "どたばた",
+      "headword": "どたばた",
+      "label": "noisily"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20816_gosogososuru",
+      "reading": "ごそごそする",
+      "headword": "ごそごそする",
+      "label": "to rustle about"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28627_basabasa",
+      "reading": "ばさばさ",
+      "headword": "ばさばさ",
+      "label": "rustling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29051_gasagoso",
+      "reading": "がさごそ",
+      "headword": "がさごそ",
+      "label": "rummaging"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T21:25:32Z",
-    "modified": "2026-06-09T19:58:47Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

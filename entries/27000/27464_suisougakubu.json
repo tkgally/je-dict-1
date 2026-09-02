@@ -17,7 +17,9 @@
       "id": "27464_suisougakubu_ex1",
       "japanese": "{吹奏楽部|すいそうがくぶ}に{入|はい}っている。",
       "english": "I'm in the brass band club.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27464_suisougakubu_ex2",
       "japanese": "{妹|いもうと}は{吹奏楽部|すいそうがくぶ}でフルートを{吹|ふ}いている。",
       "english": "My younger sister plays flute in the brass band club.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "27464_suisougakubu_ex3",
       "japanese": "{高校|こうこう}の{吹奏楽部|すいそうがくぶ}は、{毎年|まいねん}コンクールに{向|む}けて{厳|きび}しい{練習|れんしゅう}を{重|かさ}ねている。",
       "english": "The high school brass band club practices intensively every year in preparation for the competition.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {吹奏楽|すいそうがく} (wind/concert band music) + {部|ぶ} (club). Includes brass, woodwind, and percussion players; despite the common English translation 'brass band,' a {吹奏楽部|すいそうがくぶ} includes flutes, clarinets, saxophones, and other woodwinds.\n\nCOMMON COLLOCATIONS:\n- {吹奏楽部|すいそうがくぶ}に{入|はい}る: to join the brass band club\n- {吹奏楽|すいそうがく}コンクール: brass band competition\n- {吹奏楽部|すいそうがくぶ}の{練習|れんしゅう}: brass band club practice\n\nRELATED TERMS:\n- {吹奏楽|すいそうがく}: wind/concert band music\n- {部活|ぶかつ}: school club activity\n- {合奏|がっそう}: ensemble performance",
+  "notes": "Compound of {吹奏楽|すいそうがく} (wind/concert band music) + {部|ぶ} (club). Includes brass, woodwind, and percussion players; despite the common English translation 'brass band,' a {吹奏楽部|すいそうがくぶ} includes flutes, clarinets, saxophones, and other woodwinds.\n\nCOMMON COLLOCATIONS:\n- {吹奏楽部|すいそうがくぶ}に{入|はい}る: to join the brass band club\n- {吹奏楽|すいそうがく}コンクール: brass band competition\n- {吹奏楽部|すいそうがくぶ}の{練習|れんしゅう}: brass band club practice\n\nRELATED WORDS:\n- {吹奏楽|すいそうがく}: wind/concert band music\n- {部活|ぶかつ}: school club activity\n- {合奏|がっそう}: ensemble performance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05377_bukatsu",
+      "reading": "ぶかつ",
+      "headword": "{部活|ぶかつ}",
+      "label": "school club activity"
+    },
+    {
+      "type": "related",
+      "target_id": "16325_gassou",
+      "reading": "がっそう",
+      "headword": "{合奏|がっそう}",
+      "label": "ensemble performance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24888_ongakutai",
+      "reading": "おんがくたい",
+      "headword": "{音楽隊|おんがくたい}",
+      "label": "band"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["education"],
+      "politeness": "plain",
+      "semantic": [
+        "education"
+      ],
       "domain": []
     },
     "created": "2026-05-12T04:10:44Z",
-    "modified": "2026-05-12T04:10:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

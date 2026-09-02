@@ -17,7 +17,9 @@
       "id": "23203_furikomisaki_ex1",
       "japanese": "{振込先|ふりこみさき}を{教|おし}えてください。",
       "english": "Please tell me the account to transfer to.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23203_furikomisaki_ex2",
       "japanese": "{振込先|ふりこみさき}の{口座番号|こうざばんごう}を{確認|かくにん}した。",
       "english": "I confirmed the account number for the transfer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,54 @@
       "id": "23203_furikomisaki_ex3",
       "japanese": "{振込先|ふりこみさき}を{間違|まちが}えると、{返金|へんきん}に{時間|じかん}がかかることがある。",
       "english": "If you enter the wrong transfer destination, it can take time to get a refund.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {振込|ふりこみ} (bank transfer) and {先|さき} (destination). Essential vocabulary for anyone dealing with banking or payments in Japan, where bank transfers ({振込|ふりこみ}) are a common payment method.\n\nCOMMON COLLOCATIONS:\n- {振込先|ふりこみさき}の{口座|こうざ}: the recipient's account\n- {振込先|ふりこみさき}を{指定|してい}する: to specify the transfer destination\n- {振込先|ふりこみさき}を{変更|へんこう}する: to change the transfer destination\n- {振込先|ふりこみさき}{情報|じょうほう}: transfer destination information\n\nRELATED TERMS:\n- {振込|ふりこみ}: bank transfer\n- {振込手数料|ふりこみてすうりょう}: transfer fee\n- {口座|こうざ}: bank account\n- {送金|そうきん}: remittance",
+  "notes": "A compound of {振込|ふりこみ} (bank transfer) and {先|さき} (destination). Essential vocabulary for anyone dealing with banking or payments in Japan, where bank transfers ({振込|ふりこみ}) are a common payment method.\n\nCOMMON COLLOCATIONS:\n- {振込先|ふりこみさき}の{口座|こうざ}: the recipient's account\n- {振込先|ふりこみさき}を{指定|してい}する: to specify the transfer destination\n- {振込先|ふりこみさき}を{変更|へんこう}する: to change the transfer destination\n- {振込先|ふりこみさき}{情報|じょうほう}: transfer destination information\n\nRELATED WORDS:\n- {振込|ふりこみ}: bank transfer\n- {振込手数料|ふりこみてすうりょう}: transfer fee\n- {口座|こうざ}: bank account\n- {送金|そうきん}: remittance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21601_furikomitesuuryou",
+      "reading": "ふりこみてすうりょう",
+      "headword": "{振込|ふりこみ}{手数料|てすうりょう}",
+      "label": "transfer fee"
+    },
+    {
+      "type": "related",
+      "target_id": "05419_kouza",
+      "reading": "こうざ",
+      "headword": "{口座|こうざ}",
+      "label": "bank account"
+    },
+    {
+      "type": "related",
+      "target_id": "09774_soukin",
+      "reading": "そうきん",
+      "headword": "{送金|そうきん}",
+      "label": "remittance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-04-10T03:38:03Z",
-    "modified": "2026-04-10T03:38:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

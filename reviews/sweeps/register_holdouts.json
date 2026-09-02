@@ -1,0 +1,7816 @@
+{
+  "generated": "2026-09-02T02:55:19Z",
+  "fields": [
+    "formality",
+    "politeness",
+    "tier"
+  ],
+  "set": {
+    "politeness": 5952,
+    "formality": 1059,
+    "vocabulary_tier": 20
+  },
+  "held": {
+    "politeness": 78,
+    "formality": 828
+  },
+  "keyword_hits": {
+    "politeness": {
+      "humble": 27,
+      "honorific": 36,
+      "keigo": 5,
+      "敬語": 2,
+      "polite form": 15,
+      "丁寧": 3,
+      "headword contains ます/ございます": 2,
+      "尊敬": 3,
+      "honorifics": 1
+    },
+    "formality": {
+      "formal": 482,
+      "literary": 225,
+      "tags.style=['literary']": 1,
+      "written": 164,
+      "casual": 237,
+      "rough": 20,
+      "formally": 11,
+      "colloquial": 99,
+      "informal": 43,
+      "casually": 14,
+      "slangy": 3,
+      "formality": 13,
+      "colloquially": 7,
+      "vulgar": 4,
+      "slang": 4
+    }
+  },
+  "holdouts": {
+    "politeness": [
+      {
+        "id": "07635_gouman",
+        "headword": "{傲慢|ごうまん}",
+        "gloss": "arrogant; haughty; proud",
+        "reasons": [
+          "humble"
+        ]
+      },
+      {
+        "id": "07636_hikutsu",
+        "headword": "{卑屈|ひくつ}",
+        "gloss": "servile; subservient; cringing",
+        "reasons": [
+          "humble"
+        ]
+      },
+      {
+        "id": "07659_tamawaru",
+        "headword": "{賜|たまわ}る",
+        "gloss": "to receive (honorific); to be granted; to bestow (honorific)",
+        "reasons": [
+          "honorific",
+          "humble",
+          "keigo"
+        ]
+      },
+      {
+        "id": "07666_tsukaiwakeru",
+        "headword": "{使|つか}い{分|わ}ける",
+        "gloss": "to use properly according to situation; to use selectively",
+        "reasons": [
+          "keigo",
+          "敬語"
+        ]
+      },
+      {
+        "id": "07672_misuborashii",
+        "headword": "みすぼらしい",
+        "gloss": "shabby; seedy; poor-looking; run-down",
+        "reasons": [
+          "humble"
+        ]
+      },
+      {
+        "id": "07700_hairyo",
+        "headword": "{配慮|はいりょ}",
+        "gloss": "consideration; thoughtfulness; care",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "07739_otoku",
+        "headword": "お{得|とく}",
+        "gloss": "good deal; bargain; economical",
+        "reasons": [
+          "polite form"
+        ]
+      },
+      {
+        "id": "07770_osomatsu",
+        "headword": "お{粗末|そまつ}",
+        "gloss": "poor quality; inadequate; unsatisfactory",
+        "reasons": [
+          "honorific",
+          "humble"
+        ]
+      },
+      {
+        "id": "08205_nariagaru",
+        "headword": "{成|な}り{上|あ}がる",
+        "gloss": "to rise in status; to climb the social ladder",
+        "reasons": [
+          "humble"
+        ]
+      },
+      {
+        "id": "08253_kakinaguru",
+        "headword": "{書|か}き{殴|なぐ}る",
+        "gloss": "to scribble; to dash off; to write hastily",
+        "reasons": [
+          "丁寧"
+        ]
+      },
+      {
+        "id": "08307_toriyose",
+        "headword": "{取|と}り{寄|よ}せ",
+        "gloss": "ordering in; special order; mail order",
+        "reasons": [
+          "polite form"
+        ]
+      },
+      {
+        "id": "08310_omakase",
+        "headword": "おまかせ",
+        "gloss": "leaving it up to someone; chef's choice",
+        "reasons": [
+          "polite form"
+        ]
+      },
+      {
+        "id": "08354_okaeshi",
+        "headword": "お{返|かえ}し",
+        "gloss": "return gift; reciprocal gift",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "08356_goshuugi",
+        "headword": "ご{祝儀|しゅうぎ}",
+        "gloss": "congratulatory gift money; monetary gift for celebrations",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "08385_moushiokuri",
+        "headword": "{申|もう}し{送|おく}り",
+        "gloss": "handover briefing; passing on information; report",
+        "reasons": [
+          "humble"
+        ]
+      },
+      {
+        "id": "08579_iimachigai",
+        "headword": "{言|い}い{間違|まちが}い",
+        "gloss": "slip of the tongue; verbal mistake",
+        "reasons": [
+          "keigo",
+          "敬語"
+        ]
+      },
+      {
+        "id": "08731_kaerunokohakaeru",
+        "headword": "{蛙|かえる}の{子|こ}は{蛙|かえる}",
+        "gloss": "like father, like son; the apple doesn't fall far from the tree",
+        "reasons": [
+          "humble"
+        ]
+      },
+      {
+        "id": "09104_otete",
+        "headword": "おてて",
+        "gloss": "hand (baby talk)",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "09105_omeme",
+        "headword": "おめめ",
+        "gloss": "eyes (baby talk)",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "09465_ingin",
+        "headword": "{慇懃|いんぎん}",
+        "gloss": "polite, courteous, civil",
+        "reasons": [
+          "丁寧"
+        ]
+      },
+      {
+        "id": "17552_osoreirimasu",
+        "headword": "{恐|おそ}れ{入|い}ります",
+        "gloss": "I'm sorry to trouble you; thank you very much (humble)",
+        "reasons": [
+          "humble",
+          "headword contains ます/ございます"
+        ]
+      },
+      {
+        "id": "17553_senetsu",
+        "headword": "{僭越|せんえつ}",
+        "gloss": "presumptuous; impertinent; overstepping one's bounds",
+        "reasons": [
+          "humble"
+        ]
+      },
+      {
+        "id": "17571_oose",
+        "headword": "{仰|おお}せ",
+        "gloss": "instruction; order; what someone says (honorific)",
+        "reasons": [
+          "honorific",
+          "尊敬"
+        ]
+      },
+      {
+        "id": "17572_gyoi",
+        "headword": "{御意|ぎょい}",
+        "gloss": "as you wish; your will; understood (archaic/formal)",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "21481_keifuku",
+        "headword": "{敬服|けいふく}",
+        "gloss": "deep admiration; profound respect",
+        "reasons": [
+          "尊敬"
+        ]
+      },
+      {
+        "id": "21734_ohaka",
+        "headword": "お{墓|はか}",
+        "gloss": "grave; tomb; burial site",
+        "reasons": [
+          "honorific",
+          "polite form"
+        ]
+      },
+      {
+        "id": "21736_teikyousuru",
+        "headword": "{提供|ていきょう}する",
+        "gloss": "to offer; to provide; to supply",
+        "reasons": [
+          "humble"
+        ]
+      },
+      {
+        "id": "21922_shitsureishimasu",
+        "headword": "{失礼|しつれい}します",
+        "gloss": "excuse me; pardon me; goodbye (polite)",
+        "reasons": [
+          "humble",
+          "headword contains ます/ございます"
+        ]
+      },
+      {
+        "id": "22195_senbetsu",
+        "headword": "{餞別|せんべつ}",
+        "gloss": "farewell gift; parting gift (often money)",
+        "reasons": [
+          "humble"
+        ]
+      },
+      {
+        "id": "22947_kouteikei",
+        "headword": "{肯定形|こうていけい}",
+        "gloss": "affirmative form; positive form",
+        "reasons": [
+          "丁寧"
+        ]
+      },
+      {
+        "id": "24076_goten",
+        "headword": "{御殿|ごてん}",
+        "gloss": "palace; mansion; grand residence",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "24293_joukigen",
+        "headword": "{上機嫌|じょうきげん}",
+        "gloss": "good mood; high spirits; good humor",
+        "reasons": [
+          "polite form"
+        ]
+      },
+      {
+        "id": "24438_shinrei",
+        "headword": "{神霊|しんれい}",
+        "gloss": "divine spirit; sacred spirit",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "24455_shuin",
+        "headword": "{朱印|しゅいん}",
+        "gloss": "red seal",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "24462_goraiten",
+        "headword": "ご{来店|らいてん}",
+        "gloss": "visiting a store",
+        "reasons": [
+          "honorific",
+          "humble",
+          "keigo"
+        ]
+      },
+      {
+        "id": "24478_raihousha",
+        "headword": "{来訪|らいほう}{者|しゃ}",
+        "gloss": "visitor",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "24486_goreizen",
+        "headword": "{御霊前|ごれいぜん}",
+        "gloss": "before the spirit of the deceased; condolence offering",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "24800_temee",
+        "headword": "てめえ",
+        "gloss": "(vulgar) you; used as a hostile or contemptuous form of address",
+        "reasons": [
+          "humble"
+        ]
+      },
+      {
+        "id": "24802_kaeshi",
+        "headword": "{返|かえ}し",
+        "gloss": "a comeback; retort; response (especially a witty or quick reply)",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "24812_shinjou",
+        "headword": "{進上|しんじょう}",
+        "gloss": "(formal/humble) presenting a gift to a superior",
+        "reasons": [
+          "humble"
+        ]
+      },
+      {
+        "id": "24825_oshichiya",
+        "headword": "お{七夜|しちや}",
+        "gloss": "seventh-night celebration (for a newborn baby)",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "24928_gojitaku",
+        "headword": "ご{自宅|じたく}",
+        "gloss": "your home; your residence (honorific)",
+        "reasons": [
+          "honorific",
+          "honorifics",
+          "humble",
+          "polite form"
+        ]
+      },
+      {
+        "id": "25057_kainin",
+        "headword": "{懐妊|かいにん}",
+        "gloss": "conception; pregnancy; becoming pregnant",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "25242_suisatsusuru",
+        "headword": "{推察|すいさつ}する",
+        "gloss": "to surmise; to conjecture; to infer; to guess (based on evidence or empathy)",
+        "reasons": [
+          "humble"
+        ]
+      },
+      {
+        "id": "25478_sumika",
+        "headword": "{住処|すみか}",
+        "gloss": "dwelling; habitat; abode; home",
+        "reasons": [
+          "humble"
+        ]
+      },
+      {
+        "id": "25545_ataisuru",
+        "headword": "{値|あたい}する",
+        "gloss": "to be worth; to deserve; to merit",
+        "reasons": [
+          "尊敬"
+        ]
+      },
+      {
+        "id": "25778_sanjousuru",
+        "headword": "{参上|さんじょう}する",
+        "gloss": "to come; to visit (humble); to appear on the scene",
+        "reasons": [
+          "humble"
+        ]
+      },
+      {
+        "id": "25860_osonae",
+        "headword": "お{供|そな}え",
+        "gloss": "offering (to gods, Buddha, or the deceased)",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "25868_yokeinaosewa",
+        "headword": "{余計|よけい}なお{世話|せわ}",
+        "gloss": "none of your business; unwanted meddling",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "26103_nakaisan",
+        "headword": "{仲居|なかい}さん",
+        "gloss": "waitress at a traditional Japanese inn or restaurant",
+        "reasons": [
+          "polite form"
+        ]
+      },
+      {
+        "id": "26105_haraheru",
+        "headword": "{腹|はら}{減|へ}る",
+        "gloss": "to be hungry; to get hungry (casual)",
+        "reasons": [
+          "polite form"
+        ]
+      },
+      {
+        "id": "26181_gorouku",
+        "headword": "ご{労苦|ろうく}",
+        "gloss": "hard work; toil; trouble; hardship",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "26194_senpousama",
+        "headword": "{先方様|せんぽうさま}",
+        "gloss": "the other party (honorific); the other side",
+        "reasons": [
+          "honorific",
+          "keigo"
+        ]
+      },
+      {
+        "id": "26335_docchika",
+        "headword": "どっちか",
+        "gloss": "either one; one or the other",
+        "reasons": [
+          "polite form"
+        ]
+      },
+      {
+        "id": "26396_kasutamaasapooto",
+        "headword": "カスタマーサポート",
+        "gloss": "customer support; customer service",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "26515_omeshiagari",
+        "headword": "お{召|め}し{上|あ}がり",
+        "gloss": "please help yourself; please eat/drink (honorific)",
+        "reasons": [
+          "honorific",
+          "humble"
+        ]
+      },
+      {
+        "id": "27261_motenashi",
+        "headword": "もてなし",
+        "gloss": "hospitality; reception; entertainment",
+        "reasons": [
+          "polite form"
+        ]
+      },
+      {
+        "id": "27400_moushitateru",
+        "headword": "{申|もう}し{立|た}てる",
+        "gloss": "to state; to assert; to lodge (a complaint, objection)",
+        "reasons": [
+          "humble"
+        ]
+      },
+      {
+        "id": "27439_chottoshita",
+        "headword": "ちょっとした",
+        "gloss": "slight; minor; a bit of; modest",
+        "reasons": [
+          "humble"
+        ]
+      },
+      {
+        "id": "27627_inakamono",
+        "headword": "{田舎者|いなかもの}",
+        "gloss": "country bumpkin; rural person; provincial",
+        "reasons": [
+          "humble"
+        ]
+      },
+      {
+        "id": "27636_chisou",
+        "headword": "{馳走|ちそう}",
+        "gloss": "feast; treat; lavish meal",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "28133_baachan",
+        "headword": "ばあちゃん",
+        "gloss": "granny; grandma",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "28269_izonnai",
+        "headword": "{異存|いぞん}ない",
+        "gloss": "no objection; no different opinion",
+        "reasons": [
+          "humble"
+        ]
+      },
+      {
+        "id": "28521_goshinboku",
+        "headword": "{御神木|ごしんぼく}",
+        "gloss": "sacred tree (at a shrine or temple)",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "28559_joukou",
+        "headword": "{上皇|じょうこう}",
+        "gloss": "Emperor Emeritus; retired emperor",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "28580_raihin",
+        "headword": "{来賓|らいひん}",
+        "gloss": "guest of honor; VIP guest; invited guest",
+        "reasons": [
+          "polite form"
+        ]
+      },
+      {
+        "id": "28875_yukagen",
+        "headword": "{湯加減|ゆかげん}",
+        "gloss": "water temperature (of a bath)",
+        "reasons": [
+          "polite form"
+        ]
+      },
+      {
+        "id": "28892_okimari",
+        "headword": "お{決|き}まり",
+        "gloss": "the usual; a predictable pattern; one's standard order",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "28908_yuwari",
+        "headword": "{湯割|ゆわ}り",
+        "gloss": "(spirits) cut with hot water",
+        "reasons": [
+          "polite form"
+        ]
+      },
+      {
+        "id": "28919_temaemiso",
+        "headword": "{手前味噌|てまえみそ}",
+        "gloss": "self-praise; tooting one's own horn",
+        "reasons": [
+          "humble"
+        ]
+      },
+      {
+        "id": "28921_kou",
+        "headword": "{乞|こ}う",
+        "gloss": "to beg; to ask for; to entreat",
+        "reasons": [
+          "polite form"
+        ]
+      },
+      {
+        "id": "29355_otakiage",
+        "headword": "お{焚|た}き{上|あ}げ",
+        "gloss": "ritual burning of old charms and talismans",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "29524_butsuzen",
+        "headword": "{仏前|ぶつぜん}",
+        "gloss": "before the Buddhist altar; in front of Buddha",
+        "reasons": [
+          "polite form"
+        ]
+      },
+      {
+        "id": "29764_gobutsuzen",
+        "headword": "御仏前",
+        "gloss": "before the Buddha; Buddhist altar offering; condolence gift inscription (from the 49th day)",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "29821_musakurushii",
+        "headword": "むさ{苦|くる}しい",
+        "gloss": "squalid; stuffy and shabby; cramped and dingy",
+        "reasons": [
+          "humble"
+        ]
+      },
+      {
+        "id": "30011_kondakutaa",
+        "headword": "コンダクター",
+        "gloss": "conductor (orchestra)",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "30012_maesutoro",
+        "headword": "マエストロ",
+        "gloss": "maestro",
+        "reasons": [
+          "honorific"
+        ]
+      },
+      {
+        "id": "30733_ise",
+        "headword": "{伊勢|いせ}",
+        "gloss": "Ise (region in Mie Prefecture, site of the Ise Grand Shrine)",
+        "reasons": [
+          "honorific"
+        ]
+      }
+    ],
+    "formality": [
+      {
+        "id": "08735_futagokoro",
+        "headword": "{二心|ふたごころ}",
+        "gloss": "duplicity; treachery; disloyalty",
+        "reasons": [
+          "formal",
+          "literary",
+          "tags.style=['literary']"
+        ]
+      },
+      {
+        "id": "09726_oshibori",
+        "headword": "おしぼり",
+        "gloss": "wet towel; hand towel",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "09728_otooshi",
+        "headword": "お{通|とお}し",
+        "gloss": "appetizer; cover charge dish",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "09746_osusume",
+        "headword": "おすすめ",
+        "gloss": "recommendation; suggested item",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "21471_kuchinisuru",
+        "headword": "{口|くち}にする",
+        "gloss": "to say; to mention; to put into words; to eat; to drink; to put in one's mouth",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "21472_menisuru",
+        "headword": "{目|め}にする",
+        "gloss": "to see; to come across; to catch sight of",
+        "reasons": [
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "21473_nomihosu",
+        "headword": "{飲|の}み{干|ほ}す",
+        "gloss": "to drink up; to drain; to finish a drink",
+        "reasons": [
+          "rough"
+        ]
+      },
+      {
+        "id": "21474_iiau",
+        "headword": "{言|い}い{合|あ}う",
+        "gloss": "to quarrel; to argue with each other; to say to each other; to exchange words",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "21475_ukewatasu",
+        "headword": "{受|う}け{渡|わた}す",
+        "gloss": "to hand over; to deliver; to transfer",
+        "reasons": [
+          "formal",
+          "formally"
+        ]
+      },
+      {
+        "id": "21476_kouiu",
+        "headword": "こういう",
+        "gloss": "this kind of; like this; such",
+        "reasons": [
+          "colloquial",
+          "formal"
+        ]
+      },
+      {
+        "id": "21480_kankou",
+        "headword": "{敢行|かんこう}",
+        "gloss": "bold execution; carrying out decisively; daring to do",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "21481_keifuku",
+        "headword": "{敬服|けいふく}",
+        "gloss": "deep admiration; profound respect",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "21483_mikiki",
+        "headword": "{見聞|みき}き",
+        "gloss": "things seen and heard; experience; observations; knowledge gained firsthand",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "21484_haihai",
+        "headword": "はいはい",
+        "gloss": "yes, yes; sure, sure (casual or dismissive response); crawling (of a baby)",
+        "reasons": [
+          "casual",
+          "informal"
+        ]
+      },
+      {
+        "id": "21486_hoppeta",
+        "headword": "ほっぺた",
+        "gloss": "cheek (informal)",
+        "reasons": [
+          "casual",
+          "colloquial",
+          "formal",
+          "informal"
+        ]
+      },
+      {
+        "id": "21487_sanran",
+        "headword": "{散乱|さんらん}",
+        "gloss": "scattering; being strewn about; disorder",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "21490_bossuru",
+        "headword": "{没|ぼっ}する",
+        "gloss": "to sink; to set (sun); to be submerged; to die; to pass away (formal/literary); to be absorbed in; to be immersed in",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "21491_kakikieru",
+        "headword": "かき{消|き}える",
+        "gloss": "to vanish completely; to disappear without a trace",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "21492_oboroge",
+        "headword": "{朧|おぼろ}げ",
+        "gloss": "faint; vague; dim; hazy",
+        "reasons": [
+          "casual",
+          "literary"
+        ]
+      },
+      {
+        "id": "21493_jizai",
+        "headword": "{自在|じざい}",
+        "gloss": "free; flexible; at will; as one pleases",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "21494_attakai",
+        "headword": "あったかい",
+        "gloss": "warm; cozy (colloquial form of あたたかい)",
+        "reasons": [
+          "casual",
+          "colloquial",
+          "formal",
+          "informal",
+          "rough"
+        ]
+      },
+      {
+        "id": "21495_yamikumoni",
+        "headword": "やみくもに",
+        "gloss": "blindly; recklessly; indiscriminately; without thinking",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "21497_furatsuku",
+        "headword": "ふらつく",
+        "gloss": "to stagger; to sway; to be unsteady on one's feet; to wander aimlessly; to drift around",
+        "reasons": [
+          "casual",
+          "literary"
+        ]
+      },
+      {
+        "id": "21498_yorokeru",
+        "headword": "よろける",
+        "gloss": "to stumble; to stagger; to totter; to lose one's balance",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "21499_taema",
+        "headword": "{絶|た}え{間|ま}",
+        "gloss": "pause; gap; interval; lull; break",
+        "reasons": [
+          "casual",
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "21500_kouchou",
+        "headword": "{高潮|こうちょう}",
+        "gloss": "climax; high point; peak",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "21706_kagayaki",
+        "headword": "{輝|かがや}き",
+        "gloss": "brilliance; radiance; sparkle",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "21707_shuuki",
+        "headword": "{周期|しゅうき}",
+        "gloss": "cycle; period; frequency",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "21708_shikkoku",
+        "headword": "{漆黒|しっこく}",
+        "gloss": "jet black; pitch-black",
+        "reasons": [
+          "casual",
+          "literary"
+        ]
+      },
+      {
+        "id": "21709_shoshun",
+        "headword": "{初春|しょしゅん}",
+        "gloss": "early spring; beginning of spring; New Year",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "21710_ryoutei",
+        "headword": "{料亭|りょうてい}",
+        "gloss": "high-class Japanese restaurant",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "21711_kouu",
+        "headword": "{降雨|こうう}",
+        "gloss": "rainfall; precipitation",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "21712_teikiatsu",
+        "headword": "{低気圧|ていきあつ}",
+        "gloss": "low pressure; low-pressure system; depression",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "21714_tajitaji",
+        "headword": "たじたじ",
+        "gloss": "faltering; flinching; at a loss",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "21715_mazumazu",
+        "headword": "まずまず",
+        "gloss": "fairly; more or less; passable",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "21716_kashou",
+        "headword": "{過小|かしょう}",
+        "gloss": "too small; underestimation; insufficiency",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "21718_buntsuu",
+        "headword": "{文通|ぶんつう}",
+        "gloss": "correspondence; exchanging letters; pen pal relationship",
+        "reasons": [
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "21720_heiritsu",
+        "headword": "{並立|へいりつ}",
+        "gloss": "coexistence; standing side by side; juxtaposition",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "21721_nentou",
+        "headword": "{年頭|ねんとう}",
+        "gloss": "beginning of the year; start of the year",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "21722_hoteri",
+        "headword": "{火照|ほて}り",
+        "gloss": "flushing; hot flush; burning sensation",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "21723_shindo",
+        "headword": "{深度|しんど}",
+        "gloss": "depth; degree of depth",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "21724_shoruisenkou",
+        "headword": "{書類選考|しょるいせんこう}",
+        "gloss": "document screening; resume screening",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "21725_muteki",
+        "headword": "{無敵|むてき}",
+        "gloss": "invincible; unbeatable; matchless",
+        "reasons": [
+          "casual",
+          "literary"
+        ]
+      },
+      {
+        "id": "21726_shokuhatsusuru",
+        "headword": "{触発|しょくはつ}する",
+        "gloss": "to trigger; to inspire; to provoke",
+        "reasons": [
+          "casually"
+        ]
+      },
+      {
+        "id": "21727_yuudousuru",
+        "headword": "{誘導|ゆうどう}する",
+        "gloss": "to guide; to lead; to induce",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "21728_kaisousuru",
+        "headword": "{回想|かいそう}する",
+        "gloss": "to recall; to reminisce; to recollect",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "21729_seirisuru",
+        "headword": "{整理|せいり}する",
+        "gloss": "to organize; to put in order; to sort out",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "21731_fuuu",
+        "headword": "{風雨|ふうう}",
+        "gloss": "wind and rain; storm",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "21732_wajutsu",
+        "headword": "{話術|わじゅつ}",
+        "gloss": "art of conversation; speaking skill; eloquence",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "21733_hanpen",
+        "headword": "はんぺん",
+        "gloss": "hanpen; white fish cake",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "21735_riyousuru",
+        "headword": "{利用|りよう}する",
+        "gloss": "to use; to utilize; to make use of",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "21736_teikyousuru",
+        "headword": "{提供|ていきょう}する",
+        "gloss": "to offer; to provide; to supply",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "21739_tekiyousuru",
+        "headword": "{適用|てきよう}する",
+        "gloss": "to apply; to put into effect",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "21740_rakkasuru",
+        "headword": "{落下|らっか}する",
+        "gloss": "to fall; to drop; to plunge",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "21747_kyuushokusha",
+        "headword": "{求職者|きゅうしょくしゃ}",
+        "gloss": "job seeker; job applicant",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "21751_terebikaigi",
+        "headword": "テレビ{会議|かいぎ}",
+        "gloss": "video conference; video meeting",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "21755_nantoiuka",
+        "headword": "{何|なん}と{言|い}うか",
+        "gloss": "how should I say; how shall I put it",
+        "reasons": [
+          "casual",
+          "slangy",
+          "written"
+        ]
+      },
+      {
+        "id": "21779_omakeni",
+        "headword": "おまけに",
+        "gloss": "on top of that; to make matters worse; besides",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "21780_koushita",
+        "headword": "こうした",
+        "gloss": "such; this kind of; like this",
+        "reasons": [
+          "casual",
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "21781_kuwaete",
+        "headword": "{加|くわ}えて",
+        "gloss": "in addition; moreover; furthermore",
+        "reasons": [
+          "casual",
+          "formal",
+          "formality",
+          "written"
+        ]
+      },
+      {
+        "id": "21783_baikingu",
+        "headword": "バイキング",
+        "gloss": "buffet; all-you-can-eat meal",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "21784_nanorideru",
+        "headword": "{名乗|なの}り{出|で}る",
+        "gloss": "to come forward; to volunteer; to identify oneself",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "21785_mewomiharu",
+        "headword": "{目|め}を{見張|みは}る",
+        "gloss": "to be amazed; to stare in wonder; to be astonished",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "21787_umakuiku",
+        "headword": "{上手|うま}くいく",
+        "gloss": "to go well; to turn out well; to succeed",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "21788_mottomo",
+        "headword": "もっとも",
+        "gloss": "however; though; having said that",
+        "reasons": [
+          "casual",
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "21789_soushita",
+        "headword": "そうした",
+        "gloss": "such; that kind of; of that sort",
+        "reasons": [
+          "casual",
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "21790_ikuraka",
+        "headword": "いくらか",
+        "gloss": "somewhat; some; a little",
+        "reasons": [
+          "casual",
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "21791_tokuisaki",
+        "headword": "{得意先|とくいさき}",
+        "gloss": "customer; client; regular patron",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "21792_tsugitasu",
+        "headword": "{注|つ}ぎ{足|た}す",
+        "gloss": "to top up; to add more; to replenish",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "21793_hakushinimodoru",
+        "headword": "{白紙|はくし}に{戻|もど}る",
+        "gloss": "to go back to square one; to be reset to zero",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "21794_kigatsuku",
+        "headword": "{気|き}がつく",
+        "gloss": "to notice; to realize; to become aware",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "21796_futorigimi",
+        "headword": "{太|ふと}り{気味|ぎみ}",
+        "gloss": "somewhat overweight; tending to be heavy; a bit chubby",
+        "reasons": [
+          "colloquial",
+          "formal"
+        ]
+      },
+      {
+        "id": "21797_yoyakuzumi",
+        "headword": "{予約済|よやくず}み",
+        "gloss": "reserved; already booked; reservation confirmed",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "21798_kaowoageru",
+        "headword": "{顔|かお}を{上|あ}げる",
+        "gloss": "to raise one's head; to look up",
+        "reasons": [
+          "casually"
+        ]
+      },
+      {
+        "id": "21799_tabeyasui",
+        "headword": "{食|た}べやすい",
+        "gloss": "easy to eat; palatable",
+        "reasons": [
+          "casually"
+        ]
+      },
+      {
+        "id": "21800_tsutsu",
+        "headword": "〜つつ",
+        "gloss": "while; although; even as",
+        "reasons": [
+          "colloquial",
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "21801_heimei",
+        "headword": "{平明|へいめい}",
+        "gloss": "plain; clear; easy to understand",
+        "reasons": [
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "21802_niokeru",
+        "headword": "〜における",
+        "gloss": "in; at; regarding; with respect to (formal)",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "21803_nite",
+        "headword": "〜にて",
+        "gloss": "at; in; by means of (formal)",
+        "reasons": [
+          "casual",
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "21835_shinratsu",
+        "headword": "{辛辣|しんらつ}",
+        "gloss": "harsh; scathing; biting",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "21838_jiyuujizai",
+        "headword": "{自由自在|じゆうじざい}",
+        "gloss": "freely; at will; with complete mastery",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "21839_higan",
+        "headword": "{悲願|ひがん}",
+        "gloss": "long-cherished wish; heartfelt desire",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "21840_gekiretsu",
+        "headword": "{激烈|げきれつ}",
+        "gloss": "fierce; intense; violent",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "21841_jikihitsu",
+        "headword": "{直筆|じきひつ}",
+        "gloss": "one's own handwriting; autograph",
+        "reasons": [
+          "casual",
+          "written"
+        ]
+      },
+      {
+        "id": "21845_jitsuryokusha",
+        "headword": "{実力者|じつりょくしゃ}",
+        "gloss": "person of influence; powerful figure",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "21846_kouensha",
+        "headword": "{後援者|こうえんしゃ}",
+        "gloss": "supporter; patron; backer",
+        "reasons": [
+          "informal"
+        ]
+      },
+      {
+        "id": "21849_koshi",
+        "headword": "{古紙|こし}",
+        "gloss": "waste paper; used paper; recycled paper",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "21852_ahou",
+        "headword": "{阿呆|あほう}",
+        "gloss": "fool; idiot; stupid",
+        "reasons": [
+          "casual",
+          "informal"
+        ]
+      },
+      {
+        "id": "21853_gosui",
+        "headword": "{午睡|ごすい}",
+        "gloss": "afternoon nap; siesta",
+        "reasons": [
+          "casual",
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "21854_kenshi",
+        "headword": "{検視|けんし}",
+        "gloss": "coroner's inquest; postmortem examination",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "21857_kainan",
+        "headword": "{海難|かいなん}",
+        "gloss": "maritime disaster; shipwreck; accident at sea",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "21860_meishi",
+        "headword": "{名士|めいし}",
+        "gloss": "notable person; distinguished figure; celebrity",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "21862_osewasama",
+        "headword": "お{世話様|せわさま}",
+        "gloss": "thank you for your help; thanks for your trouble",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "21894_shinpiteki",
+        "headword": "{神秘的|しんぴてき}",
+        "gloss": "mysterious; mystical; enigmatic",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "21895_heikinteki",
+        "headword": "{平均的|へいきんてき}",
+        "gloss": "average; typical; ordinary",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "21897_kinsenteki",
+        "headword": "{金銭的|きんせんてき}",
+        "gloss": "financial; monetary; pecuniary",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "21898_shiiteki",
+        "headword": "{恣意的|しいてき}",
+        "gloss": "arbitrary; capricious; at one's own discretion",
+        "reasons": [
+          "casual",
+          "colloquial",
+          "formal"
+        ]
+      },
+      {
+        "id": "21900_nekkyouteki",
+        "headword": "{熱狂的|ねっきょうてき}",
+        "gloss": "fanatical; fervent; wildly enthusiastic",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "21901_eiyuuteki",
+        "headword": "{英雄的|えいゆうてき}",
+        "gloss": "heroic; valiant",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "21902_kyougikai",
+        "headword": "{協議会|きょうぎかい}",
+        "gloss": "council; conference; consultative body",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "21903_hitoku",
+        "headword": "{秘匿|ひとく}",
+        "gloss": "concealment; keeping secret; hiding",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "21904_mukyuu",
+        "headword": "{無給|むきゅう}",
+        "gloss": "unpaid; without salary",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "21907_ryuugen",
+        "headword": "{流言|りゅうげん}",
+        "gloss": "rumor; false report; unfounded story",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "21909_chuushisuru",
+        "headword": "{中止|ちゅうし}する",
+        "gloss": "to cancel; to call off; to discontinue",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "21911_mousousuru",
+        "headword": "{妄想|もうそう}する",
+        "gloss": "to fantasize; to have delusions; to imagine wildly",
+        "reasons": [
+          "casual",
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "21912_chuuryokusuru",
+        "headword": "{注力|ちゅうりょく}する",
+        "gloss": "to focus efforts on; to devote energy to",
+        "reasons": [
+          "casual",
+          "colloquial",
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "21915_atsukaikata",
+        "headword": "{扱|あつか}い{方|かた}",
+        "gloss": "how to handle; way of treating; manner of use",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "21916_roufujin",
+        "headword": "{老婦人|ろうふじん}",
+        "gloss": "elderly woman; old lady",
+        "reasons": [
+          "casual",
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "21919_rihansuru",
+        "headword": "{離反|りはん}する",
+        "gloss": "to defect; to turn against; to become estranged",
+        "reasons": [
+          "formally"
+        ]
+      },
+      {
+        "id": "21920_suiryousuru",
+        "headword": "{推量|すいりょう}する",
+        "gloss": "to conjecture; to guess; to surmise",
+        "reasons": [
+          "casual",
+          "formal",
+          "rough",
+          "written"
+        ]
+      },
+      {
+        "id": "21921_reizokusuru",
+        "headword": "{隷属|れいぞく}する",
+        "gloss": "to be subservient to; to be enslaved; to be in servitude",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "21922_shitsureishimasu",
+        "headword": "{失礼|しつれい}します",
+        "gloss": "excuse me; pardon me; goodbye (polite)",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "22057_izureka",
+        "headword": "いずれか",
+        "gloss": "one or the other; either; whichever",
+        "reasons": [
+          "casual",
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "22058_ichidokiri",
+        "headword": "{一度|いちど}きり",
+        "gloss": "only once; just one time",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "22059_nomisugi",
+        "headword": "{飲|の}みすぎ",
+        "gloss": "drinking too much; overdrinking",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "22060_meimokujou",
+        "headword": "{名目上|めいもくじょう}",
+        "gloss": "nominally; in name only; on paper",
+        "reasons": [
+          "formally"
+        ]
+      },
+      {
+        "id": "22062_shikenmondai",
+        "headword": "{試験問題|しけんもんだい}",
+        "gloss": "exam question; test question; examination problem",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "22065_hinshitsuhoshou",
+        "headword": "{品質保証|ひんしつほしょう}",
+        "gloss": "quality assurance; quality guarantee",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "22068_ippen",
+        "headword": "{一遍|いっぺん}",
+        "gloss": "once; one time",
+        "reasons": [
+          "casual",
+          "colloquial",
+          "formal"
+        ]
+      },
+      {
+        "id": "22070_hashiritsuzukeru",
+        "headword": "{走|はし}り{続|つづ}ける",
+        "gloss": "to keep running; to continue running",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "22071_keishikijou",
+        "headword": "{形式上|けいしきじょう}",
+        "gloss": "formally; on paper; as a formality; in form",
+        "reasons": [
+          "formal",
+          "formality",
+          "formally"
+        ]
+      },
+      {
+        "id": "22076_hoketsusenkyo",
+        "headword": "{補欠選挙|ほけつせんきょ}",
+        "gloss": "by-election; special election (to fill a vacancy)",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "22077_setsumon",
+        "headword": "{設問|せつもん}",
+        "gloss": "question (on a test or survey); query; problem (set for answering)",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "22078_izendoori",
+        "headword": "{以前|いぜん}{通|どお}り",
+        "gloss": "as before; as previously; same as before",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "22079_imamadedoori",
+        "headword": "{今|いま}まで{通|どお}り",
+        "gloss": "as usual; as before; same as always",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "22080_chakusouwoeru",
+        "headword": "{着想|ちゃくそう}を{得|え}る",
+        "gloss": "to get an idea; to find inspiration; to conceive of an idea",
+        "reasons": [
+          "casual",
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "22082_sokyuuryoku",
+        "headword": "{訴求力|そきゅうりょく}",
+        "gloss": "appeal; persuasive power; ability to attract (customers, attention)",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "22814_niwaijiri",
+        "headword": "{庭|にわ}いじり",
+        "gloss": "puttering in the garden; casual gardening",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "22821_madashimo",
+        "headword": "まだしも",
+        "gloss": "would still be acceptable; comparatively better; at least",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "22822_hitsuyounioujite",
+        "headword": "{必要|ひつよう}に{応|おう}じて",
+        "gloss": "as needed; as required; as necessary; when the need arises",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "22823_hoozuewotsuku",
+        "headword": "{頬杖|ほおづえ}をつく",
+        "gloss": "to rest one's chin on one's hand; to prop up one's cheek with one's hand",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "22825_nikutairoudou",
+        "headword": "{肉体労働|にくたいろうどう}",
+        "gloss": "manual labor; physical labor",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "22828_iikaeruto",
+        "headword": "{言|い}い{換|か}えると",
+        "gloss": "in other words; to put it another way; that is to say",
+        "reasons": [
+          "casual",
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "22829_kirihanasenai",
+        "headword": "{切|き}り{離|はな}せない",
+        "gloss": "inseparable; cannot be separated; inextricable",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "22830_honjitsuchuu",
+        "headword": "{本日中|ほんじつちゅう}",
+        "gloss": "by today; within the day; before the day is over",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "22831_kyacchifureezu",
+        "headword": "キャッチフレーズ",
+        "gloss": "catchphrase; slogan; tagline",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "22832_atattekudakero",
+        "headword": "{当|あ}たって{砕|くだ}けろ",
+        "gloss": "nothing ventured, nothing gained; go for it and accept whatever happens; give it a shot",
+        "reasons": [
+          "casual",
+          "literary"
+        ]
+      },
+      {
+        "id": "22834_kagede",
+        "headword": "{陰|かげ}で",
+        "gloss": "behind someone's back; in secret; covertly",
+        "reasons": [
+          "casual",
+          "written"
+        ]
+      },
+      {
+        "id": "22835_eizoku",
+        "headword": "{永続|えいぞく}",
+        "gloss": "permanence; continuance; perpetuation",
+        "reasons": [
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "22837_nichiyou",
+        "headword": "{日曜|にちよう}",
+        "gloss": "Sunday",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "22839_kigaau",
+        "headword": "{気|き}が{合|あ}う",
+        "gloss": "to get along well; to hit it off; to be compatible",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "22840_jinmin",
+        "headword": "{人民|じんみん}",
+        "gloss": "the people; populace; citizens",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "22843_oboe",
+        "headword": "{覚|おぼ}え",
+        "gloss": "memory; recollection",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "22844_sorera",
+        "headword": "それら",
+        "gloss": "those; them",
+        "reasons": [
+          "casual",
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "22845_daika",
+        "headword": "{代価|だいか}",
+        "gloss": "price; cost; compensation",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "22846_tsuushinhanbai",
+        "headword": "{通信販売|つうしんはんばい}",
+        "gloss": "mail-order sales; distance selling",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "22847_nettotsuuhan",
+        "headword": "ネット{通販|つうはん}",
+        "gloss": "online shopping; e-commerce",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "22848_houbei",
+        "headword": "{訪米|ほうべい}",
+        "gloss": "visit to the United States; visiting America",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "22849_gouketsu",
+        "headword": "{豪傑|ごうけつ}",
+        "gloss": "hero; brave warrior; great man",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "22851_mujoukan",
+        "headword": "{無常感|むじょうかん}",
+        "gloss": "sense of impermanence; feeling of transience",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "22857_yasegata",
+        "headword": "やせ{形|がた}",
+        "gloss": "slender build; thin body type",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "24070_totte",
+        "headword": "{取|と}っ{手|て}",
+        "gloss": "handle; knob; grip",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "24071_youkou",
+        "headword": "{要項|ようこう}",
+        "gloss": "guidelines; essentials; key points",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24073_rousui",
+        "headword": "{漏水|ろうすい}",
+        "gloss": "water leak; water leakage",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "24082_onshin",
+        "headword": "{音信|おんしん}",
+        "gloss": "correspondence; word; news (from someone)",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "24083_rippou",
+        "headword": "{立方|りっぽう}",
+        "gloss": "cubic; cube",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "24086_joukaku",
+        "headword": "{城郭|じょうかく}",
+        "gloss": "castle; fortress; castle compound",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24088_enseki",
+        "headword": "{宴席|えんせき}",
+        "gloss": "banquet; feast; banquet gathering",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "24092_junketsu",
+        "headword": "{純潔|じゅんけつ}",
+        "gloss": "purity; chastity; innocence",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "24159_naisei",
+        "headword": "{内政|ないせい}",
+        "gloss": "domestic affairs; internal politics",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "24161_rakusei",
+        "headword": "{落成|らくせい}",
+        "gloss": "completion of a building; inauguration of a new structure",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24163_suisai",
+        "headword": "{水彩|すいさい}",
+        "gloss": "watercolor (painting technique or medium)",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "24164_sobyou",
+        "headword": "{素描|そびょう}",
+        "gloss": "sketch; rough drawing; dessin",
+        "reasons": [
+          "casual",
+          "rough"
+        ]
+      },
+      {
+        "id": "24165_bousei",
+        "headword": "{暴政|ぼうせい}",
+        "gloss": "tyranny; despotic rule; oppressive government",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "24167_hitsuju",
+        "headword": "{必需|ひつじゅ}",
+        "gloss": "necessity; indispensability; something essential",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24174_jushousha",
+        "headword": "{受賞者|じゅしょうしゃ}",
+        "gloss": "award winner; prize recipient; laureate",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "24178_koushou",
+        "headword": "{哄笑|こうしょう}",
+        "gloss": "roar of laughter; boisterous laughter; guffaw",
+        "reasons": [
+          "casual",
+          "colloquial",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "24179_shukuen",
+        "headword": "{宿縁|しゅくえん}",
+        "gloss": "predestined bond; fate from a previous life; karmic connection",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "24180_kansei",
+        "headword": "{陥穽|かんせい}",
+        "gloss": "pitfall; trap; snare",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "24181_yusaiga",
+        "headword": "{油彩画|ゆさいが}",
+        "gloss": "oil painting (the artwork)",
+        "reasons": [
+          "colloquial",
+          "colloquially",
+          "formal"
+        ]
+      },
+      {
+        "id": "24182_sakunyuu",
+        "headword": "{搾乳|さくにゅう}",
+        "gloss": "milking (a cow or other animal); expressing milk",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "24187_kasei",
+        "headword": "{苛政|かせい}",
+        "gloss": "harsh government; oppressive rule; tyrannical administration",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "24194_taisougi",
+        "headword": "{体操着|たいそうぎ}",
+        "gloss": "gym clothes; PE uniform",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "24195_iginashi",
+        "headword": "{異議|いぎ}なし",
+        "gloss": "no objection; agreed; aye",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "24196_utsuri",
+        "headword": "{映|うつ}り",
+        "gloss": "how something looks on screen or in photos; image quality",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "24198_rinjuu",
+        "headword": "{臨終|りんじゅう}",
+        "gloss": "deathbed; one's final moments; dying",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "24199_chuuiwomukeru",
+        "headword": "{注意|ちゅうい}を{向|む}ける",
+        "gloss": "to pay attention to; to direct one's attention to",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "24200_hanautawoutau",
+        "headword": "{鼻歌|はなうた}を{歌|うた}う",
+        "gloss": "to hum a tune; to sing to oneself",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "24201_shokuniku",
+        "headword": "{食肉|しょくにく}",
+        "gloss": "meat (for eating); edible meat",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24203_ganmensouhaku",
+        "headword": "{顔面蒼白|がんめんそうはく}",
+        "gloss": "deathly pale; white as a sheet",
+        "reasons": [
+          "casual",
+          "literary"
+        ]
+      },
+      {
+        "id": "24204_zensuu",
+        "headword": "{全数|ぜんすう}",
+        "gloss": "total number; all items; complete count",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24205_takuzetsu",
+        "headword": "{卓絶|たくぜつ}",
+        "gloss": "transcendent; preeminent; outstanding beyond compare",
+        "reasons": [
+          "casual",
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "24206_shu",
+        "headword": "{朱|しゅ}",
+        "gloss": "vermillion; cinnabar red",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "24207_daiben",
+        "headword": "{大便|だいべん}",
+        "gloss": "feces; stool; bowel movement",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "24208_uki",
+        "headword": "{右記|うき}",
+        "gloss": "the above; the aforementioned; what is written above (or to the right)",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "24210_hatou",
+        "headword": "{波濤|はとう}",
+        "gloss": "surging waves; billows; great waves",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "24211_shukuei",
+        "headword": "{宿営|しゅくえい}",
+        "gloss": "encampment; bivouac; making camp",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "24212_roei",
+        "headword": "{露営|ろえい}",
+        "gloss": "bivouac; camping in the open; sleeping outdoors",
+        "reasons": [
+          "literary",
+          "rough"
+        ]
+      },
+      {
+        "id": "24213_meiseki",
+        "headword": "{名跡|めいせき}",
+        "gloss": "famous historic site; celebrated ruins",
+        "reasons": [
+          "formally"
+        ]
+      },
+      {
+        "id": "24296_fukakutei",
+        "headword": "{不確定|ふかくてい}",
+        "gloss": "uncertain; undetermined; indefinite",
+        "reasons": [
+          "colloquial",
+          "formal"
+        ]
+      },
+      {
+        "id": "24297_kanrisha",
+        "headword": "{管理者|かんりしゃ}",
+        "gloss": "administrator; manager; supervisor",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24298_kyouryokusha",
+        "headword": "{協力者|きょうりょくしゃ}",
+        "gloss": "collaborator; cooperator; supporter",
+        "reasons": [
+          "informal"
+        ]
+      },
+      {
+        "id": "24300_mimikazari",
+        "headword": "{耳飾|みみかざ}り",
+        "gloss": "earring; ear ornament",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "24301_kenzoubutsu",
+        "headword": "{建造物|けんぞうぶつ}",
+        "gloss": "structure; building; edifice",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "24302_gimonfu",
+        "headword": "{疑問符|ぎもんふ}",
+        "gloss": "question mark",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "24304_kotobaasobi",
+        "headword": "{言葉遊|ことばあそ}び",
+        "gloss": "wordplay; word game; play on words",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "24305_hagire",
+        "headword": "{端切|はぎ}れ",
+        "gloss": "scrap of cloth; fabric remnant",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "24309_neneki",
+        "headword": "{粘液|ねんえき}",
+        "gloss": "mucus; slime; viscous fluid",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "24311_foomatto",
+        "headword": "フォーマット",
+        "gloss": "format; layout; template",
+        "reasons": [
+          "formality"
+        ]
+      },
+      {
+        "id": "24312_riidaa",
+        "headword": "リーダー",
+        "gloss": "leader; head; chief",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "24315_saijoui",
+        "headword": "{最上位|さいじょうい}",
+        "gloss": "highest rank; top position; uppermost level",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "24316_ashiyubi",
+        "headword": "{足指|あしゆび}",
+        "gloss": "toe; toes",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "24318_higashiajia",
+        "headword": "{東|ひがし}アジア",
+        "gloss": "East Asia",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "24320_soumoku",
+        "headword": "{草木|そうもく}",
+        "gloss": "plants; vegetation; trees and grass",
+        "reasons": [
+          "colloquial",
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "24321_kaigairyokou",
+        "headword": "{海外旅行|かいがいりょこう}",
+        "gloss": "overseas travel; international travel; trip abroad",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24430_kontou",
+        "headword": "{昏倒|こんとう}",
+        "gloss": "fainting; collapse",
+        "reasons": [
+          "casual",
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "24431_bouheki",
+        "headword": "{防壁|ぼうへき}",
+        "gloss": "defensive wall; barrier",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "24432_kunkoku",
+        "headword": "{訓告|くんこく}",
+        "gloss": "official reprimand; admonition",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24433_haisui",
+        "headword": "{配水|はいすい}",
+        "gloss": "water distribution; water supply",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "24435_shunsai",
+        "headword": "{俊才|しゅんさい}",
+        "gloss": "talented person; prodigy",
+        "reasons": [
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "24437_zetsubi",
+        "headword": "{絶美|ぜつび}",
+        "gloss": "exquisite beauty; supreme beauty",
+        "reasons": [
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "24440_monjin",
+        "headword": "{門人|もんじん}",
+        "gloss": "disciple; pupil; follower",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24442_seihaku",
+        "headword": "{清白|せいはく}",
+        "gloss": "purity; innocence; integrity",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "24443_seko",
+        "headword": "{世故|せこ}",
+        "gloss": "worldly wisdom; social savvy",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "24447_kyokugeishi",
+        "headword": "{曲芸師|きょくげいし}",
+        "gloss": "acrobat; trick performer",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "24450_fun",
+        "headword": "{糞|ふん}",
+        "gloss": "dung; droppings; excrement",
+        "reasons": [
+          "formal",
+          "informal",
+          "vulgar"
+        ]
+      },
+      {
+        "id": "24452_zokujin",
+        "headword": "{属人|ぞくじん}",
+        "gloss": "personal; person-dependent",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24454_mantan",
+        "headword": "{満|まん}タン",
+        "gloss": "full tank",
+        "reasons": [
+          "informal",
+          "written"
+        ]
+      },
+      {
+        "id": "24456_yokisezu",
+        "headword": "{予期|よき}せず",
+        "gloss": "unexpectedly",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "24457_tanukineiri",
+        "headword": "タヌキ{寝入|ねい}り",
+        "gloss": "pretending to be asleep",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "24458_miryou",
+        "headword": "{未了|みりょう}",
+        "gloss": "unfinished",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24459_fukabun",
+        "headword": "{不可分|ふかぶん}",
+        "gloss": "indivisible",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24464_gonin",
+        "headword": "{誤認|ごにん}",
+        "gloss": "misidentification",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "24466_okuizome",
+        "headword": "お{食|く}い{初|ぞ}め",
+        "gloss": "baby's first meal ceremony",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24470_dekirudakehayaku",
+        "headword": "できるだけ{早|はや}く",
+        "gloss": "as soon as possible",
+        "reasons": [
+          "casual",
+          "formal",
+          "formality",
+          "written"
+        ]
+      },
+      {
+        "id": "24471_koutouhappyou",
+        "headword": "{口頭|こうとう}{発表|はっぴょう}",
+        "gloss": "oral presentation",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "24472_gengokoukan",
+        "headword": "{言語|げんご}{交換|こうかん}",
+        "gloss": "language exchange",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "24473_furekkusutaimu",
+        "headword": "フレックスタイム",
+        "gloss": "flextime",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24475_tenpufairu",
+        "headword": "{添付|てんぷ}ファイル",
+        "gloss": "attached file",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24476_bungakusakuhin",
+        "headword": "{文学|ぶんがく}{作品|さくひん}",
+        "gloss": "literary work",
+        "reasons": [
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "24477_houtekisochi",
+        "headword": "{法的|ほうてき}{措置|そち}",
+        "gloss": "legal measures",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24478_raihousha",
+        "headword": "{来訪|らいほう}{者|しゃ}",
+        "gloss": "visitor",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "24480_kaguten",
+        "headword": "{家具店|かぐてん}",
+        "gloss": "furniture shop; furniture store",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "24481_nikenme",
+        "headword": "{二軒目|にけんめ}",
+        "gloss": "the second place (bar, restaurant, etc.); second stop on a night out",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "24483_ouensha",
+        "headword": "{応援者|おうえんしゃ}",
+        "gloss": "supporter; cheerleader; backer",
+        "reasons": [
+          "informal"
+        ]
+      },
+      {
+        "id": "24485_himitsubanashi",
+        "headword": "{秘密話|ひみつばなし}",
+        "gloss": "secret talk; confidential conversation; whispered story",
+        "reasons": [
+          "colloquial",
+          "informal"
+        ]
+      },
+      {
+        "id": "24486_goreizen",
+        "headword": "{御霊前|ごれいぜん}",
+        "gloss": "before the spirit of the deceased; condolence offering",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "24487_koudenbukuro",
+        "headword": "{香典袋|こうでんぶくろ}",
+        "gloss": "condolence money envelope",
+        "reasons": [
+          "formal",
+          "formality",
+          "written"
+        ]
+      },
+      {
+        "id": "24488_ishitsutodoke",
+        "headword": "{遺失届|いしつとどけ}",
+        "gloss": "lost property report; report of lost items",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24490_shomondai",
+        "headword": "{諸問題|しょもんだい}",
+        "gloss": "various problems; various issues",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "24496_hajou",
+        "headword": "{波状|はじょう}",
+        "gloss": "wavy; wave-shaped; undulating",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "24499_jidouhanbai",
+        "headword": "{自動販売|じどうはんばい}",
+        "gloss": "automatic vending; automated selling",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "24502_urabone",
+        "headword": "{盂蘭盆会|うらぼんえ}",
+        "gloss": "Obon festival; Buddhist memorial service for the dead",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "24505_eisha",
+        "headword": "{泳者|えいしゃ}",
+        "gloss": "swimmer",
+        "reasons": [
+          "casual",
+          "formal",
+          "informal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "24506_wanpi",
+        "headword": "ワンピ",
+        "gloss": "dress; one-piece dress",
+        "reasons": [
+          "casual",
+          "formal",
+          "informal",
+          "written"
+        ]
+      },
+      {
+        "id": "24507_sakizuke",
+        "headword": "{先付|さきづ}け",
+        "gloss": "postdating; advance dating; appetizer; first course (in kaiseki cuisine)",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "24509_furansugo",
+        "headword": "フランス{語|ご}",
+        "gloss": "French language",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24517_handanmisu",
+        "headword": "{判断|はんだん}ミス",
+        "gloss": "judgment error; misjudgment",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24519_toroukan",
+        "headword": "{徒労感|とろうかん}",
+        "gloss": "feeling of futility; sense of wasted effort",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "24520_fuhinkou",
+        "headword": "{不品行|ふひんこう}",
+        "gloss": "misconduct; immoral behavior",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "24525_kurashikkuongaku",
+        "headword": "クラシック{音楽|おんがく}",
+        "gloss": "classical music",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "24526_sekaikakuchi",
+        "headword": "{世界各地|せかいかくち}",
+        "gloss": "various places around the world; all over the world",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24528_yuushuusaku",
+        "headword": "{優秀作|ゆうしゅうさく}",
+        "gloss": "excellent work; outstanding piece",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "24530_odokemono",
+        "headword": "おどけ{者|もの}",
+        "gloss": "joker; clown; jester",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "24532_kouatsuyaku",
+        "headword": "{降圧薬|こうあつやく}",
+        "gloss": "antihypertensive drug; blood pressure medication",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "24533_koukarei",
+        "headword": "{抗加齢|こうかれい}",
+        "gloss": "anti-aging",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "24534_naimenbyousha",
+        "headword": "{内面描写|ないめんびょうしゃ}",
+        "gloss": "portrayal of inner feelings; psychological depiction",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "24536_kahin",
+        "headword": "{佳品|かひん}",
+        "gloss": "fine article; excellent product; quality piece",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "24748_motojime",
+        "headword": "{元締|もとじ}め",
+        "gloss": "boss; ringleader; organizer",
+        "reasons": [
+          "formal",
+          "informal"
+        ]
+      },
+      {
+        "id": "24749_shoukei",
+        "headword": "{承継|しょうけい}",
+        "gloss": "succession; inheritance",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24751_igai",
+        "headword": "{遺骸|いがい}",
+        "gloss": "remains; corpse; dead body",
+        "reasons": [
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "24758_hatsumiyamairi",
+        "headword": "{初宮参|はつみやまい}り",
+        "gloss": "baby's first shrine visit",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24786_hofuku",
+        "headword": "{匍匐|ほふく}",
+        "gloss": "crawling on the ground; creeping along with one's body close to the surface",
+        "reasons": [
+          "casual",
+          "literary"
+        ]
+      },
+      {
+        "id": "24787_koukyuu",
+        "headword": "{後宮|こうきゅう}",
+        "gloss": "the inner palace where the emperor's consorts and attendants lived",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "24788_tsuitoushiki",
+        "headword": "{追悼式|ついとうしき}",
+        "gloss": "memorial service; ceremony held to honor and remember the deceased",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24792_jibasangyou",
+        "headword": "{地場|じば}{産業|さんぎょう}",
+        "gloss": "local industry",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "24800_temee",
+        "headword": "てめえ",
+        "gloss": "(vulgar) you; used as a hostile or contemptuous form of address",
+        "reasons": [
+          "casual",
+          "rough",
+          "vulgar"
+        ]
+      },
+      {
+        "id": "24801_kikou",
+        "headword": "{貴公|きこう}",
+        "gloss": "(archaic/literary) you",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "24810_sujougashireru",
+        "headword": "{素性|すじょう}が{知|し}れる",
+        "gloss": "one's true background or origin becomes known",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "24812_shinjou",
+        "headword": "{進上|しんじょう}",
+        "gloss": "(formal/humble) presenting a gift to a superior",
+        "reasons": [
+          "formal",
+          "formality"
+        ]
+      },
+      {
+        "id": "24814_taizainissuu",
+        "headword": "{滞在|たいざい}{日数|にっすう}",
+        "gloss": "length of stay (in days)",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24815_kinkotsutakumashii",
+        "headword": "{筋骨|きんこつ}たくましい",
+        "gloss": "muscular and powerfully built; having a strong, well-developed physique",
+        "reasons": [
+          "casual",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "24816_koushoku",
+        "headword": "{好色|こうしょく}",
+        "gloss": "lustful; amorous; lecherous",
+        "reasons": [
+          "colloquial",
+          "informal",
+          "literary"
+        ]
+      },
+      {
+        "id": "24817_shikkin",
+        "headword": "{失禁|しっきん}",
+        "gloss": "incontinence; involuntary urination",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "24819_mujinki",
+        "headword": "{無人機|むじんき}",
+        "gloss": "unmanned aircraft; drone",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "24824_hikizuridasu",
+        "headword": "{引|ひ}きずり{出|だ}す",
+        "gloss": "to drag out; to haul out",
+        "reasons": [
+          "rough"
+        ]
+      },
+      {
+        "id": "24825_oshichiya",
+        "headword": "お{七夜|しちや}",
+        "gloss": "seventh-night celebration (for a newborn baby)",
+        "reasons": [
+          "formal",
+          "formally",
+          "written"
+        ]
+      },
+      {
+        "id": "24828_enkakukyouiku",
+        "headword": "{遠隔|えんかく}{教育|きょういく}",
+        "gloss": "distance education; remote learning",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "24829_choukakushougai",
+        "headword": "{聴覚|ちょうかく}{障害|しょうがい}",
+        "gloss": "hearing impairment; hearing disability",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24831_seiryouinryou",
+        "headword": "{清涼|せいりょう}{飲料|いんりょう}",
+        "gloss": "soft drink; refreshment beverage",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24835_shougiban",
+        "headword": "{将棋盤|しょうぎばん}",
+        "gloss": "shogi board; Japanese chess board",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "24840_sayaingen",
+        "headword": "さやいんげん",
+        "gloss": "green bean; string bean; snap bean",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "24915_juurin",
+        "headword": "{蹂躙|じゅうりん}",
+        "gloss": "trampling; infringement; violation",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "24916_genchou",
+        "headword": "{幻聴|げんちょう}",
+        "gloss": "auditory hallucination",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "24917_hourousha",
+        "headword": "{放浪者|ほうろうしゃ}",
+        "gloss": "wanderer; vagabond; drifter",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "24919_shiensha",
+        "headword": "{支援者|しえんしゃ}",
+        "gloss": "supporter; backer; aid worker",
+        "reasons": [
+          "informal"
+        ]
+      },
+      {
+        "id": "24920_teikishiken",
+        "headword": "{定期試験|ていきしけん}",
+        "gloss": "regular examination; periodic test",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24922_kibungawarui",
+        "headword": "{気分|きぶん}が{悪|わる}い",
+        "gloss": "to feel sick; to feel unwell; to feel bad",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24928_gojitaku",
+        "headword": "ご{自宅|じたく}",
+        "gloss": "your home; your residence (honorific)",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24929_kakekin",
+        "headword": "{掛|か}け{金|きん}",
+        "gloss": "premium; installment payment; stake; bet",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "24930_keitaihin",
+        "headword": "{携帯品|けいたいひん}",
+        "gloss": "personal belongings; carry-on items",
+        "reasons": [
+          "casual",
+          "formal",
+          "informal"
+        ]
+      },
+      {
+        "id": "24931_genzaikakaku",
+        "headword": "{現在価格|げんざいかかく}",
+        "gloss": "current price; present price",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24934_nyuukokukanrikyoku",
+        "headword": "{入国管理局|にゅうこくかんりきょく}",
+        "gloss": "immigration bureau; immigration office",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "24968_sekiji",
+        "headword": "{席次|せきじ}",
+        "gloss": "seating order; order of precedence",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "24975_jukenryou",
+        "headword": "{受験料|じゅけんりょう}",
+        "gloss": "examination fee; test fee",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24977_hosakan",
+        "headword": "{補佐官|ほさかん}",
+        "gloss": "aide; assistant officer; adviser",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24981_gikyoushin",
+        "headword": "{義侠心|ぎきょうしん}",
+        "gloss": "chivalrous spirit; sense of justice and compassion",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "24982_muni",
+        "headword": "{無二|むに}",
+        "gloss": "unique; peerless; one and only",
+        "reasons": [
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "24985_saya",
+        "headword": "{莢|さや}",
+        "gloss": "pod; shell; hull (of beans or peas)",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "24986_yuuzuumuge",
+        "headword": "{融通無碍|ゆうずうむげ}",
+        "gloss": "perfect freedom; unhindered adaptability; complete flexibility",
+        "reasons": [
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "24987_heiei",
+        "headword": "{兵営|へいえい}",
+        "gloss": "barracks; military quarters",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "24992_shinkou",
+        "headword": "{深考|しんこう}",
+        "gloss": "deep thought; careful deliberation",
+        "reasons": [
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "24993_shimoyake",
+        "headword": "しもやけ",
+        "gloss": "chilblains; frostbite-like swelling",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "24996_chuuingamu",
+        "headword": "チューインガム",
+        "gloss": "chewing gum",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "24997_abu",
+        "headword": "{虻|あぶ}",
+        "gloss": "horsefly; gadfly",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "24998_karusa",
+        "headword": "{軽|かる}さ",
+        "gloss": "lightness; light weight",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25002_rinshoku",
+        "headword": "{吝嗇|りんしょく}",
+        "gloss": "stinginess; miserliness",
+        "reasons": [
+          "colloquial",
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "25004_fuurou",
+        "headword": "{風浪|ふうろう}",
+        "gloss": "wind-driven waves; wind and waves",
+        "reasons": [
+          "rough"
+        ]
+      },
+      {
+        "id": "25007_kojou",
+        "headword": "{湖上|こじょう}",
+        "gloss": "on the lake; over the lake",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25009_jokun",
+        "headword": "{叙勲|じょくん}",
+        "gloss": "conferring a decoration; awarding an order",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25011_dehadeha",
+        "headword": "ではでは",
+        "gloss": "well then; see you; bye-bye",
+        "reasons": [
+          "casual",
+          "formal",
+          "informal"
+        ]
+      },
+      {
+        "id": "25012_tayuu",
+        "headword": "{太夫|たゆう}",
+        "gloss": "tayuu; high-ranking performer or courtesan",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "25014_heishi",
+        "headword": "{平氏|へいし}",
+        "gloss": "the Taira clan; the Heishi",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25016_wakige",
+        "headword": "{脇毛|わきげ}",
+        "gloss": "armpit hair; underarm hair",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25017_dochirakatoiuto",
+        "headword": "どちらかというと",
+        "gloss": "if anything; rather; if I had to say",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25019_chekkurisuto",
+        "headword": "チェックリスト",
+        "gloss": "checklist",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25026_sashimimori",
+        "headword": "{刺身盛|さしみも}り",
+        "gloss": "sashimi platter; assorted sashimi",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "25027_saisai",
+        "headword": "{再々|さいさい}",
+        "gloss": "again and again; repeatedly; frequently",
+        "reasons": [
+          "formal",
+          "formality",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "25030_meishouhenkou",
+        "headword": "{名称変更|めいしょうへんこう}",
+        "gloss": "name change; renaming",
+        "reasons": [
+          "casual",
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25037_sonota",
+        "headword": "その{他|た}",
+        "gloss": "others; the rest; miscellaneous; et cetera",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "25038_agari",
+        "headword": "{上|あ}がり",
+        "gloss": "rise; increase; income; earnings",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25039_shinkouyaku",
+        "headword": "{進行役|しんこうやく}",
+        "gloss": "facilitator; moderator; master of ceremonies; emcee",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25040_kaizai",
+        "headword": "{介在|かいざい}",
+        "gloss": "mediation; intervention; being interposed between",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25043_saisettei",
+        "headword": "{再設定|さいせってい}",
+        "gloss": "resetting; reconfiguration; setting again",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25044_hyakujuu",
+        "headword": "{百獣|ひゃくじゅう}",
+        "gloss": "all beasts; all animals; every kind of beast",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25046_munegakyuntosuru",
+        "headword": "{胸|むね}がきゅんとする",
+        "gloss": "to feel a pang in one's heart; to have one's heart flutter; to feel a tug at one's heartstrings",
+        "reasons": [
+          "casual",
+          "casually",
+          "literary"
+        ]
+      },
+      {
+        "id": "25047_infureeshon",
+        "headword": "インフレーション",
+        "gloss": "inflation (economic: sustained rise in prices)",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "25048_issun",
+        "headword": "{一寸|いっすん}",
+        "gloss": "one sun (approx. 3.03 cm); a tiny amount; a very short distance",
+        "reasons": [
+          "casual",
+          "colloquial"
+        ]
+      },
+      {
+        "id": "25049_yosuga",
+        "headword": "よすが",
+        "gloss": "means of support; connection; link; something to rely on; memento; keepsake; reminder (of a person or time)",
+        "reasons": [
+          "casual",
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "25051_hikkeihin",
+        "headword": "{必携品|ひっけいひん}",
+        "gloss": "essential item; must-have item; indispensable thing to carry",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25054_joshigakusei",
+        "headword": "{女子学生|じょしがくせい}",
+        "gloss": "female student; schoolgirl; woman student",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25055_noriaibasu",
+        "headword": "{乗合|のりあい}バス",
+        "gloss": "public bus; shared bus; fixed-route bus",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25057_kainin",
+        "headword": "{懐妊|かいにん}",
+        "gloss": "conception; pregnancy; becoming pregnant",
+        "reasons": [
+          "casual",
+          "formal",
+          "informal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25059_kuruwa",
+        "headword": "{廓|くるわ}",
+        "gloss": "pleasure quarter; red-light district (historical); enclosure; compound; bailey (of a castle)",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "25064_soudanshitsu",
+        "headword": "{相談室|そうだんしつ}",
+        "gloss": "consultation room; counseling office",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "25065_tokousaki",
+        "headword": "{渡航先|とこうさき}",
+        "gloss": "destination (abroad); country of travel",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25066_hiruhinaka",
+        "headword": "{昼日中|ひるひなか}",
+        "gloss": "broad daylight; middle of the day",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25070_onnashujin",
+        "headword": "{女主人|おんなしゅじん}",
+        "gloss": "female proprietor; hostess; lady of the house",
+        "reasons": [
+          "informal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25072_seeringu",
+        "headword": "セーリング",
+        "gloss": "sailing (sport)",
+        "reasons": [
+          "colloquially"
+        ]
+      },
+      {
+        "id": "25076_choushi",
+        "headword": "{長子|ちょうし}",
+        "gloss": "eldest child; firstborn",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25079_hamushi",
+        "headword": "{羽虫|はむし}",
+        "gloss": "small winged insect; gnat; midge",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "25081_jusha",
+        "headword": "{儒者|じゅしゃ}",
+        "gloss": "Confucian scholar; follower of Confucianism",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25083_nusumidori",
+        "headword": "{盗|ぬす}み{撮|ど}り",
+        "gloss": "secret photography; candid shot",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25084_fuseikoui",
+        "headword": "{不正行為|ふせいこうい}",
+        "gloss": "misconduct; illegal act; fraud",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25085_houtekisekinin",
+        "headword": "{法的責任|ほうてきせきにん}",
+        "gloss": "legal responsibility; legal liability",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25093_fusenshi",
+        "headword": "{付箋紙|ふせんし}",
+        "gloss": "sticky note; adhesive note paper",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "25094_ingenmame",
+        "headword": "いんげんまめ",
+        "gloss": "common bean; green bean",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "25096_mibiiki",
+        "headword": "{身贔屓|みびいき}",
+        "gloss": "favoritism toward one's own; partiality to one's own side",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "25097_jigao",
+        "headword": "{地顔|じがお}",
+        "gloss": "natural face; bare face without makeup",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25098_amidabutsu",
+        "headword": "{阿弥陀仏|あみだぶつ}",
+        "gloss": "Amitabha Buddha; Amida Buddha",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25102_tsunoruomoi",
+        "headword": "{募|つの}る{思|おも}い",
+        "gloss": "growing feelings; intensifying emotions",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25106_yanchabouzu",
+        "headword": "やんちゃ{坊主|ぼうず}",
+        "gloss": "mischievous boy; little rascal",
+        "reasons": [
+          "colloquial",
+          "rough"
+        ]
+      },
+      {
+        "id": "25107_itazurakko",
+        "headword": "いたずらっこ",
+        "gloss": "mischievous child; little imp",
+        "reasons": [
+          "casual",
+          "colloquial",
+          "rough",
+          "written"
+        ]
+      },
+      {
+        "id": "25113_annainin",
+        "headword": "{案内人|あんないにん}",
+        "gloss": "guide; escort",
+        "reasons": [
+          "casually",
+          "formal"
+        ]
+      },
+      {
+        "id": "25114_kaninryou",
+        "headword": "{缶飲料|かんいんりょう}",
+        "gloss": "canned drink; canned beverage",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25115_shonen",
+        "headword": "{初年|しょねん}",
+        "gloss": "first year; inaugural year",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25119_gaitousha",
+        "headword": "{該当者|がいとうしゃ}",
+        "gloss": "person concerned; eligible person; applicable person",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25120_yougosha",
+        "headword": "{擁護者|ようごしゃ}",
+        "gloss": "advocate; defender; supporter",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25121_suizoku",
+        "headword": "{水族|すいぞく}",
+        "gloss": "aquatic animals; marine life",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25124_teishotokusha",
+        "headword": "{低所得者|ていしょとくしゃ}",
+        "gloss": "low-income earner; low-income person",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25125_kanwasaku",
+        "headword": "{緩和策|かんわさく}",
+        "gloss": "mitigation measure; easing measure; relief measure",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25127_kaoyaku",
+        "headword": "{顔役|かおやく}",
+        "gloss": "influential person; local boss; prominent figure",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "25129_menpu",
+        "headword": "{綿布|めんぷ}",
+        "gloss": "cotton cloth; cotton fabric",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25130_orihime",
+        "headword": "{織姫|おりひめ}",
+        "gloss": "Orihime; the Weaver Princess (star Vega)",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "25136_fukumou",
+        "headword": "{服喪|ふくもう}",
+        "gloss": "mourning; bereavement period",
+        "reasons": [
+          "colloquially",
+          "formal"
+        ]
+      },
+      {
+        "id": "25137_hyousuu",
+        "headword": "{票数|ひょうすう}",
+        "gloss": "number of votes; vote count",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25138_kijou",
+        "headword": "{騎乗|きじょう}",
+        "gloss": "horse riding; mounting a horse",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25140_gamanzuyosa",
+        "headword": "{我慢強|がまんづよ}さ",
+        "gloss": "patience; endurance; perseverance",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25143_tsumasakidachi",
+        "headword": "つま{先立|さきだ}ち",
+        "gloss": "standing on tiptoe",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "25151_settokuryokugaaru",
+        "headword": "{説得力|せっとくりょく}がある",
+        "gloss": "to be persuasive; to be convincing",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25155_wintaasupootsu",
+        "headword": "ウィンタースポーツ",
+        "gloss": "winter sports",
+        "reasons": [
+          "formal",
+          "informal"
+        ]
+      },
+      {
+        "id": "25164_kajoushiyou",
+        "headword": "{過剰使用|かじょうしよう}",
+        "gloss": "overuse; excessive use",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "25165_hanautamajiri",
+        "headword": "{鼻歌|はなうた}まじり",
+        "gloss": "while humming; humming cheerfully",
+        "reasons": [
+          "casually",
+          "literary"
+        ]
+      },
+      {
+        "id": "25166_hakusuu",
+        "headword": "{泊数|はくすう}",
+        "gloss": "number of nights (of a stay)",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25176_jidoumuke",
+        "headword": "{児童向|じどうむ}け",
+        "gloss": "for children; children's; aimed at children",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25179_shijoutounyuu",
+        "headword": "{市場投入|しじょうとうにゅう}",
+        "gloss": "market launch; market introduction",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25180_kyuukeisha",
+        "headword": "{急傾斜|きゅうけいしゃ}",
+        "gloss": "steep slope; steep incline",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "25181_naimakubanashi",
+        "headword": "{内幕話|ないまくばなし}",
+        "gloss": "inside story; behind-the-scenes account",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25184_ondankataisaku",
+        "headword": "{温暖化対策|おんだんかたいさく}",
+        "gloss": "global warming countermeasures; climate change measures",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25188_iseiai",
+        "headword": "{異性愛|いせいあい}",
+        "gloss": "heterosexuality",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "25191_ougou",
+        "headword": "{王后|おうごう}",
+        "gloss": "queen consort; queen",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25195_keishiki",
+        "headword": "{型式|けいしき}",
+        "gloss": "model; type; model number",
+        "reasons": [
+          "formality",
+          "written"
+        ]
+      },
+      {
+        "id": "25225_seiseidoudou",
+        "headword": "{正々堂々|せいせいどうどう}",
+        "gloss": "fair and square; open and aboveboard; dignified",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25227_tourokusuru",
+        "headword": "{登録|とうろく}する",
+        "gloss": "to register; to sign up; to enroll",
+        "reasons": [
+          "formally"
+        ]
+      },
+      {
+        "id": "25228_shinseisuru",
+        "headword": "{申請|しんせい}する",
+        "gloss": "to apply (for); to file an application; to petition",
+        "reasons": [
+          "formally"
+        ]
+      },
+      {
+        "id": "25233_kuchidashisuru",
+        "headword": "{口出|くちだ}しする",
+        "gloss": "to meddle; to interfere; to butt in; to stick one's nose into",
+        "reasons": [
+          "colloquial",
+          "formal"
+        ]
+      },
+      {
+        "id": "25236_warikomi",
+        "headword": "{割|わ}り{込|こ}み",
+        "gloss": "cutting in line; pushing in; butting in",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "25237_aburappoi",
+        "headword": "{油|あぶら}っぽい",
+        "gloss": "oily; greasy; fatty (of food or skin)",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "25239_rouhisuru",
+        "headword": "{浪費|ろうひ}する",
+        "gloss": "to waste; to squander; to be extravagant with",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "25242_suisatsusuru",
+        "headword": "{推察|すいさつ}する",
+        "gloss": "to surmise; to conjecture; to infer; to guess (based on evidence or empathy)",
+        "reasons": [
+          "formal",
+          "informal"
+        ]
+      },
+      {
+        "id": "25245_secchakusuru",
+        "headword": "{接着|せっちゃく}する",
+        "gloss": "to adhere; to bond; to glue together; to stick",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "25247_kuiru",
+        "headword": "{悔|く}いる",
+        "gloss": "to regret; to repent; to rue",
+        "reasons": [
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "25250_kuchigomoru",
+        "headword": "{口|くち}ごもる",
+        "gloss": "to mumble; to falter; to hesitate to speak",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25252_depparu",
+        "headword": "{出|で}っ{張|ぱ}る",
+        "gloss": "to protrude; to stick out; to jut out",
+        "reasons": [
+          "colloquial",
+          "informal"
+        ]
+      },
+      {
+        "id": "25254_mikubiru",
+        "headword": "{見|み}くびる",
+        "gloss": "to underestimate; to look down on; to make light of",
+        "reasons": [
+          "colloquial",
+          "literary",
+          "slangy"
+        ]
+      },
+      {
+        "id": "25255_ojikezuku",
+        "headword": "{怖気|おじけ}づく",
+        "gloss": "to get cold feet; to lose one's nerve; to become frightened",
+        "reasons": [
+          "casual",
+          "colloquial",
+          "formal",
+          "literary",
+          "slangy",
+          "written"
+        ]
+      },
+      {
+        "id": "25258_katakurushii",
+        "headword": "{堅苦|かたくる}しい",
+        "gloss": "stiff; formal; stuffy",
+        "reasons": [
+          "formal",
+          "formality",
+          "informal"
+        ]
+      },
+      {
+        "id": "25259_konomae",
+        "headword": "この{前|まえ}",
+        "gloss": "the other day; recently; last time",
+        "reasons": [
+          "casual",
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "25262_onjou",
+        "headword": "{恩情|おんじょう}",
+        "gloss": "compassion; benevolence; mercy; kindness",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "25263_untenmenkyoshou",
+        "headword": "{運転免許証|うんてんめんきょしょう}",
+        "gloss": "driver's license",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "25264_kyouikusha",
+        "headword": "{教育者|きょういくしゃ}",
+        "gloss": "educator; educationalist",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25265_keikenchi",
+        "headword": "{経験値|けいけんち}",
+        "gloss": "experience points (in games); level of experience",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25267_paatotaimu",
+        "headword": "パートタイム",
+        "gloss": "part-time (work)",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25268_shonendo",
+        "headword": "{初年度|しょねんど}",
+        "gloss": "first year; inaugural year",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25270_danchigai",
+        "headword": "{段違|だんちが}い",
+        "gloss": "a world apart; incomparably different; on a different level",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25275_oozora",
+        "headword": "{大空|おおぞら}",
+        "gloss": "vast sky; wide open sky",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25277_juubyou",
+        "headword": "{重病|じゅうびょう}",
+        "gloss": "serious illness; grave disease",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25285_yukadanbou",
+        "headword": "{床暖房|ゆかだんぼう}",
+        "gloss": "floor heating; underfloor heating",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25286_natsuzukare",
+        "headword": "{夏疲|なつづか}れ",
+        "gloss": "summer fatigue; exhaustion from the summer heat",
+        "reasons": [
+          "colloquial",
+          "literary"
+        ]
+      },
+      {
+        "id": "25288_yokoiri",
+        "headword": "{横入|よこい}り",
+        "gloss": "cutting in line; jumping the queue",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25296_yuuyousei",
+        "headword": "{有用性|ゆうようせい}",
+        "gloss": "usefulness; utility",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25298_keiran",
+        "headword": "{鶏卵|けいらん}",
+        "gloss": "chicken egg; hen's egg",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25299_kokyakutaiou",
+        "headword": "{顧客対応|こきゃくたいおう}",
+        "gloss": "customer service; customer support; dealing with clients",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25300_momoniku",
+        "headword": "もも{肉|にく}",
+        "gloss": "thigh meat; leg meat",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "25302_jiden",
+        "headword": "{自伝|じでん}",
+        "gloss": "autobiography",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "25303_hanchuu",
+        "headword": "{範疇|はんちゅう}",
+        "gloss": "category; scope; domain",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "25306_gazen",
+        "headword": "{俄然|がぜん}",
+        "gloss": "suddenly; all at once; dramatically",
+        "reasons": [
+          "colloquial",
+          "literary"
+        ]
+      },
+      {
+        "id": "25309_girei",
+        "headword": "{儀礼|ぎれい}",
+        "gloss": "ceremony; ritual; rite",
+        "reasons": [
+          "formal",
+          "formality"
+        ]
+      },
+      {
+        "id": "25316_shiryo",
+        "headword": "{思慮|しりょ}",
+        "gloss": "prudence; deliberation; careful thought",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25318_kunan",
+        "headword": "{苦難|くなん}",
+        "gloss": "hardship; suffering; adversity",
+        "reasons": [
+          "casual",
+          "literary"
+        ]
+      },
+      {
+        "id": "25319_heijou",
+        "headword": "{平常|へいじょう}",
+        "gloss": "normal; ordinary; usual",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25322_tougi",
+        "headword": "{討議|とうぎ}",
+        "gloss": "discussion; debate; deliberation",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25325_yokushuu",
+        "headword": "{翌週|よくしゅう}",
+        "gloss": "the following week; the next week",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "25332_kakuninsuru",
+        "headword": "{確認|かくにん}する",
+        "gloss": "to confirm; to verify; to check",
+        "reasons": [
+          "casual",
+          "casually",
+          "formal",
+          "formally",
+          "informal"
+        ]
+      },
+      {
+        "id": "25333_kokyuusuru",
+        "headword": "{呼吸|こきゅう}する",
+        "gloss": "to breathe; to respire",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "25334_keshousuru",
+        "headword": "{化粧|けしょう}する",
+        "gloss": "to put on makeup; to apply cosmetics",
+        "reasons": [
+          "casual",
+          "literary"
+        ]
+      },
+      {
+        "id": "25335_tekisetsuna",
+        "headword": "{適切|てきせつ}な",
+        "gloss": "appropriate; suitable; proper",
+        "reasons": [
+          "colloquial",
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "25337_hisaisha",
+        "headword": "{被災者|ひさいしゃ}",
+        "gloss": "disaster victim; disaster survivor",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25339_zatsuna",
+        "headword": "{雑|ざつ}な",
+        "gloss": "careless; sloppy; rough",
+        "reasons": [
+          "colloquial",
+          "formal",
+          "rough"
+        ]
+      },
+      {
+        "id": "25341_kirokusuru",
+        "headword": "{記録|きろく}する",
+        "gloss": "to record; to document; to register",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25342_jittosuru",
+        "headword": "じっとする",
+        "gloss": "to stay still; to remain motionless; to stare fixedly",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25343_gamansuru",
+        "headword": "{我慢|がまん}する",
+        "gloss": "to endure; to bear; to put up with",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25346_gensoutekina",
+        "headword": "{幻想的|げんそうてき}な",
+        "gloss": "fantastical; dreamlike; illusory",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "25438_hitode",
+        "headword": "{人手|ひとで}",
+        "gloss": "manpower; workers; help; human hands",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25439_hatarakikata",
+        "headword": "{働|はたら}き{方|かた}",
+        "gloss": "way of working; work style",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25440_ikujikyuugyou",
+        "headword": "{育児|いくじ}{休業|きゅうぎょう}",
+        "gloss": "childcare leave; parental leave",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25441_henzutsuu",
+        "headword": "{偏頭痛|へんずつう}",
+        "gloss": "migraine",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "25442_kounyuusha",
+        "headword": "{購入者|こうにゅうしゃ}",
+        "gloss": "purchaser; buyer",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25447_guchiwoiu",
+        "headword": "{愚痴|ぐち}を{言|い}う",
+        "gloss": "to complain; to grumble; to gripe",
+        "reasons": [
+          "casual",
+          "formal",
+          "informal"
+        ]
+      },
+      {
+        "id": "25451_hitsumei",
+        "headword": "{筆名|ひつめい}",
+        "gloss": "pen name; pseudonym",
+        "reasons": [
+          "casual",
+          "literary"
+        ]
+      },
+      {
+        "id": "25452_penneemu",
+        "headword": "ペンネーム",
+        "gloss": "pen name",
+        "reasons": [
+          "casual",
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25454_chosakukenshingai",
+        "headword": "{著作権|ちょさくけん}{侵害|しんがい}",
+        "gloss": "copyright infringement",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25455_washokuten",
+        "headword": "{和食店|わしょくてん}",
+        "gloss": "Japanese restaurant; Japanese food restaurant",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "25456_kinpuu",
+        "headword": "{金封|きんぷう}",
+        "gloss": "monetary gift envelope; gift envelope for money",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25458_fuheiwoiu",
+        "headword": "{不平|ふへい}を{言|い}う",
+        "gloss": "to complain; to express dissatisfaction",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25466_furusato",
+        "headword": "{故郷|ふるさと}",
+        "gloss": "hometown; birthplace; native place",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25467_attoiumani",
+        "headword": "あっという{間|ま}に",
+        "gloss": "in the blink of an eye; in no time; before you know it",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25469_ohirune",
+        "headword": "お{昼寝|ひるね}",
+        "gloss": "afternoon nap; daytime nap",
+        "reasons": [
+          "casual",
+          "colloquial",
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "25470_bae",
+        "headword": "{映|ば}え",
+        "gloss": "photogenic quality; looking good (especially on social media); visual appeal",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "25478_sumika",
+        "headword": "{住処|すみか}",
+        "gloss": "dwelling; habitat; abode; home",
+        "reasons": [
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "25481_buppin",
+        "headword": "{物品|ぶっぴん}",
+        "gloss": "goods; articles; commodities",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25482_shinpaku",
+        "headword": "{心拍|しんぱく}",
+        "gloss": "heartbeat; heart rate; pulse",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25483_santei",
+        "headword": "{算定|さんてい}",
+        "gloss": "calculation; assessment; computation",
+        "reasons": [
+          "formal",
+          "rough"
+        ]
+      },
+      {
+        "id": "25486_bokusou",
+        "headword": "{牧草|ぼくそう}",
+        "gloss": "pasture grass; fodder grass; hay",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "25487_riseki",
+        "headword": "{離席|りせき}",
+        "gloss": "leaving one's seat; being away from one's desk",
+        "reasons": [
+          "colloquial",
+          "formal"
+        ]
+      },
+      {
+        "id": "25489_rikoshugi",
+        "headword": "{利己主義|りこしゅぎ}",
+        "gloss": "egoism; selfishness; self-interest",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "25490_oyadori",
+        "headword": "{親鳥|おやどり}",
+        "gloss": "parent bird; adult bird; old hen (in cooking)",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25493_hishaku",
+        "headword": "{柄杓|ひしゃく}",
+        "gloss": "ladle; dipper",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "25495_matataki",
+        "headword": "{瞬|またた}き",
+        "gloss": "blink; twinkle; twinkling; instant",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25497_seiritsusuru",
+        "headword": "{成立|せいりつ}する",
+        "gloss": "to be established; to come into existence; to be concluded",
+        "reasons": [
+          "formal",
+          "formally"
+        ]
+      },
+      {
+        "id": "25498_shikkousuru",
+        "headword": "{執行|しっこう}する",
+        "gloss": "to execute; to carry out; to enforce",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25499_kaininsuru",
+        "headword": "{解任|かいにん}する",
+        "gloss": "to dismiss; to remove from office",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25501_memosuru",
+        "headword": "メモする",
+        "gloss": "to jot down; to take notes; to make a memo",
+        "reasons": [
+          "casual",
+          "casually",
+          "formal",
+          "informal"
+        ]
+      },
+      {
+        "id": "25502_juudaina",
+        "headword": "{重大|じゅうだい}な",
+        "gloss": "serious; grave; critical; significant",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25505_senpukusuru",
+        "headword": "{潜伏|せんぷく}する",
+        "gloss": "to lie hidden; to lurk; to be latent",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25507_senritsusuru",
+        "headword": "{戦慄|せんりつ}する",
+        "gloss": "to shudder; to tremble with fear; to be horrified",
+        "reasons": [
+          "colloquial",
+          "literary"
+        ]
+      },
+      {
+        "id": "25508_sendousuru",
+        "headword": "{扇動|せんどう}する",
+        "gloss": "to agitate; to incite; to instigate",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "25509_torinaosu",
+        "headword": "{撮|と}り{直|なお}す",
+        "gloss": "to retake; to reshoot; to take again",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25511_moushinsuru",
+        "headword": "{妄信|もうしん}する",
+        "gloss": "to believe blindly; to have blind faith in",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "25512_komaraseru",
+        "headword": "{困|こま}らせる",
+        "gloss": "to cause trouble for; to embarrass; to put in a difficult position",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25514_shijouchousa",
+        "headword": "{市場調査|しじょうちょうさ}",
+        "gloss": "market research; market survey",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25516_kouben",
+        "headword": "{抗弁|こうべん}",
+        "gloss": "objection; protest; plea; defense",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25518_hakushoku",
+        "headword": "{白色|はくしょく}",
+        "gloss": "white; white color",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25522_sasagemono",
+        "headword": "{捧|ささ}げ{物|もの}",
+        "gloss": "offering; tribute; oblation",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25526_keisansuru",
+        "headword": "{計算|けいさん}する",
+        "gloss": "to calculate; to compute",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25529_hasseisuru",
+        "headword": "{発生|はっせい}する",
+        "gloss": "to occur; to break out; to arise",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25532_saikaisuru",
+        "headword": "{再開|さいかい}する",
+        "gloss": "to resume; to reopen; to restart",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25533_youkyuusuru",
+        "headword": "{要求|ようきゅう}する",
+        "gloss": "to demand; to request; to require",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25536_hokansuru",
+        "headword": "{保管|ほかん}する",
+        "gloss": "to store; to keep; to hold in custody",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "25537_haikisuru",
+        "headword": "{廃棄|はいき}する",
+        "gloss": "to discard; to dispose of; to scrap",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25539_setsudansuru",
+        "headword": "{切断|せつだん}する",
+        "gloss": "to cut off; to sever; to disconnect",
+        "reasons": [
+          "casual",
+          "literary"
+        ]
+      },
+      {
+        "id": "25541_haibunsuru",
+        "headword": "{配分|はいぶん}する",
+        "gloss": "to allot; to distribute; to allocate",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25542_hensousuru",
+        "headword": "{変装|へんそう}する",
+        "gloss": "to disguise oneself; to dress up as",
+        "reasons": [
+          "informal"
+        ]
+      },
+      {
+        "id": "25543_kaishinsuru",
+        "headword": "{改心|かいしん}する",
+        "gloss": "to reform oneself; to repent; to turn over a new leaf",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25545_ataisuru",
+        "headword": "{値|あたい}する",
+        "gloss": "to be worth; to deserve; to merit",
+        "reasons": [
+          "colloquial",
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "25547_ruijisuru",
+        "headword": "{類似|るいじ}する",
+        "gloss": "to resemble; to be similar to",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25548_tokutensuru",
+        "headword": "{得点|とくてん}する",
+        "gloss": "to score (a point); to score (in a game)",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "25549_tekigousuru",
+        "headword": "{適合|てきごう}する",
+        "gloss": "to conform to; to be compatible with; to fit",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25550_honsousuru",
+        "headword": "{奔走|ほんそう}する",
+        "gloss": "to run around (busily); to make efforts; to hustle",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25551_kanshokusuru",
+        "headword": "{完食|かんしょく}する",
+        "gloss": "to finish eating; to eat everything; to clean one's plate",
+        "reasons": [
+          "casual",
+          "informal"
+        ]
+      },
+      {
+        "id": "25555_yuukaisuru",
+        "headword": "{融解|ゆうかい}する",
+        "gloss": "to melt; to thaw; to liquefy",
+        "reasons": [
+          "casually"
+        ]
+      },
+      {
+        "id": "25556_zankokuna",
+        "headword": "{残酷|ざんこく}な",
+        "gloss": "cruel; brutal; merciless",
+        "reasons": [
+          "colloquial",
+          "written"
+        ]
+      },
+      {
+        "id": "25557_hisanna",
+        "headword": "{悲惨|ひさん}な",
+        "gloss": "tragic; miserable; disastrous",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25558_awarena",
+        "headword": "{哀|あわ}れな",
+        "gloss": "pitiful; pathetic; wretched",
+        "reasons": [
+          "colloquial",
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25559_kinmitsuna",
+        "headword": "{緊密|きんみつ}な",
+        "gloss": "close; tight; intimate",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "25562_happyousha",
+        "headword": "{発表者|はっぴょうしゃ}",
+        "gloss": "presenter; speaker; person making an announcement",
+        "reasons": [
+          "casually",
+          "formal"
+        ]
+      },
+      {
+        "id": "25564_shokon",
+        "headword": "{初婚|しょこん}",
+        "gloss": "first marriage",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "25565_munegaitamu",
+        "headword": "{胸|むね}が{痛|いた}む",
+        "gloss": "to feel heartache; to be pained; to grieve",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25566_sayaendou",
+        "headword": "さやえんどう",
+        "gloss": "snow pea; sugar snap pea; pod pea",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "25567_nakayokusuru",
+        "headword": "{仲良|なかよ}くする",
+        "gloss": "to get along well; to be on good terms",
+        "reasons": [
+          "casual",
+          "written"
+        ]
+      },
+      {
+        "id": "25568_sanya",
+        "headword": "{山野|さんや}",
+        "gloss": "mountains and fields; hills and plains; the countryside",
+        "reasons": [
+          "colloquial",
+          "literary"
+        ]
+      },
+      {
+        "id": "25570_kishouyohou",
+        "headword": "{気象予報|きしょうよほう}",
+        "gloss": "weather forecast; meteorological forecast",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25572_tokutensha",
+        "headword": "{得点者|とくてんしゃ}",
+        "gloss": "scorer; goal scorer; point scorer",
+        "reasons": [
+          "colloquial",
+          "informal"
+        ]
+      },
+      {
+        "id": "25573_senshuten",
+        "headword": "{先取点|せんしゅてん}",
+        "gloss": "opening goal; first point; first score",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25574_nukigaki",
+        "headword": "{抜|ぬ}き{書|が}き",
+        "gloss": "extract; excerpt; selected passages",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25575_saikonsha",
+        "headword": "{再婚者|さいこんしゃ}",
+        "gloss": "person who has remarried; remarried person",
+        "reasons": [
+          "casual",
+          "colloquial",
+          "formal"
+        ]
+      },
+      {
+        "id": "25576_toukoukiji",
+        "headword": "{投稿記事|とうこうきじ}",
+        "gloss": "submitted article; reader contribution; user-generated post",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25577_meijingei",
+        "headword": "{名人芸|めいじんげい}",
+        "gloss": "masterful skill; virtuoso performance; expert technique",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25578_enkyokuni",
+        "headword": "{婉曲|えんきょく}に",
+        "gloss": "indirectly; euphemistically; in a roundabout way",
+        "reasons": [
+          "colloquial",
+          "formal"
+        ]
+      },
+      {
+        "id": "25579_gakuto",
+        "headword": "{学徒|がくと}",
+        "gloss": "student; scholar; learner",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25581_gokigen",
+        "headword": "ご{機嫌|きげん}",
+        "gloss": "mood; spirits; temper (polite)",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "25582_jizenjunbi",
+        "headword": "{事前準備|じぜんじゅんび}",
+        "gloss": "advance preparation; prior arrangement; preparation beforehand",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25584_junbikanryou",
+        "headword": "{準備完了|じゅんびかんりょう}",
+        "gloss": "preparation complete; all set; ready to go",
+        "reasons": [
+          "casual",
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "25585_guuzenni",
+        "headword": "{偶然|ぐうぜん}に",
+        "gloss": "by chance; accidentally; coincidentally",
+        "reasons": [
+          "casual",
+          "literary"
+        ]
+      },
+      {
+        "id": "25586_katachizukuru",
+        "headword": "{形作|かたちづく}る",
+        "gloss": "to form; to shape; to mold",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "25587_dareshimo",
+        "headword": "{誰|だれ}しも",
+        "gloss": "everyone; anybody; anyone",
+        "reasons": [
+          "casual",
+          "colloquial",
+          "formal",
+          "informal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25589_jidouteki",
+        "headword": "{自動的|じどうてき}",
+        "gloss": "automatic; automated",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25591_juerii",
+        "headword": "ジュエリー",
+        "gloss": "jewelry",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25593_kokorogasemai",
+        "headword": "{心|こころ}が{狭|せま}い",
+        "gloss": "narrow-minded; petty; intolerant",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "25594_gozenreiji",
+        "headword": "{午前零時|ごぜんれいじ}",
+        "gloss": "midnight; 12:00 AM",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "25598_kachiaru",
+        "headword": "{価値|かち}ある",
+        "gloss": "valuable; worthy; worthwhile",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "25600_usuakarui",
+        "headword": "{薄明|うすあか}るい",
+        "gloss": "dimly lit; faintly bright",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25601_sashousuru",
+        "headword": "{詐称|さしょう}する",
+        "gloss": "to misrepresent; to falsely claim; to impersonate",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25602_kyougoutasha",
+        "headword": "{競合他社|きょうごうたしゃ}",
+        "gloss": "competing company; competitor; rival firm",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25603_ketteiyouso",
+        "headword": "{決定要素|けっていようそ}",
+        "gloss": "decisive factor; determining factor",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "25605_tankensha",
+        "headword": "{探検者|たんけんしゃ}",
+        "gloss": "explorer; adventurer",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "25607_boushiya",
+        "headword": "{帽子屋|ぼうしや}",
+        "gloss": "hat shop; hatter",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25608_rakuseishiki",
+        "headword": "{落成式|らくせいしき}",
+        "gloss": "completion ceremony; inauguration ceremony (for a building)",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25609_hakumei",
+        "headword": "{薄明|はくめい}",
+        "gloss": "twilight; dim light; half-light",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25610_dendoushi",
+        "headword": "{伝道師|でんどうし}",
+        "gloss": "evangelist; missionary; advocate",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25611_hyouden",
+        "headword": "{評伝|ひょうでん}",
+        "gloss": "critical biography; biographical essay with commentary",
+        "reasons": [
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "25612_shiniki",
+        "headword": "{神域|しんいき}",
+        "gloss": "sacred precinct; holy ground; divine realm",
+        "reasons": [
+          "casual",
+          "slang"
+        ]
+      },
+      {
+        "id": "25620_gyoumurenraku",
+        "headword": "{業務連絡|ぎょうむれんらく}",
+        "gloss": "work-related notice; internal business communication",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25621_nakagawarui",
+        "headword": "{仲|なか}が{悪|わる}い",
+        "gloss": "on bad terms; not getting along",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25622_jikotsugou",
+        "headword": "{自己都合|じこつごう}",
+        "gloss": "personal reasons; voluntary (resignation)",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25626_ryouriten",
+        "headword": "{料理店|りょうりてん}",
+        "gloss": "restaurant; eatery",
+        "reasons": [
+          "casual",
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "25627_koutaikinmu",
+        "headword": "{交替勤務|こうたいきんむ}",
+        "gloss": "shift work; working in shifts",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "25628_kinzokunensuu",
+        "headword": "{勤続年数|きんぞくねんすう}",
+        "gloss": "years of continuous service; length of employment",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25629_sakerarenai",
+        "headword": "{避|さ}けられない",
+        "gloss": "unavoidable; inevitable; cannot be avoided",
+        "reasons": [
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "25630_rakugakichou",
+        "headword": "{落書|らくが}き{帳|ちょう}",
+        "gloss": "doodle notebook; scribble pad",
+        "reasons": [
+          "casual",
+          "rough"
+        ]
+      },
+      {
+        "id": "25631_bichikuhin",
+        "headword": "{備蓄品|びちくひん}",
+        "gloss": "stockpiled goods; emergency supplies",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25632_itazurazuki",
+        "headword": "{悪戯好|いたずらず}き",
+        "gloss": "mischievous; fond of pranks; prankster",
+        "reasons": [
+          "rough"
+        ]
+      },
+      {
+        "id": "25633_tsukai",
+        "headword": "{使|つか}い",
+        "gloss": "errand; messenger; envoy",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25635_tangoryoku",
+        "headword": "{単語力|たんごりょく}",
+        "gloss": "vocabulary ability; word power",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "25637_soumatounoyou",
+        "headword": "{走馬灯|そうまとう}のよう",
+        "gloss": "like a revolving lantern; (memories) flashing before one's eyes",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25641_chirigaku",
+        "headword": "{地理学|ちりがく}",
+        "gloss": "geography (academic discipline)",
+        "reasons": [
+          "casually",
+          "formal"
+        ]
+      },
+      {
+        "id": "25645_isshoni",
+        "headword": "{一緒|いっしょ}に",
+        "gloss": "together; along with",
+        "reasons": [
+          "casual",
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25696_choukikan",
+        "headword": "{長期間|ちょうきかん}",
+        "gloss": "long period of time; extended duration",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "25697_shiniri",
+        "headword": "{新入|しんい}り",
+        "gloss": "newcomer; new member; new recruit",
+        "reasons": [
+          "casual",
+          "colloquial",
+          "formal",
+          "informal"
+        ]
+      },
+      {
+        "id": "25700_gaijin",
+        "headword": "{外人|がいじん}",
+        "gloss": "foreigner; outsider",
+        "reasons": [
+          "casual",
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25702_hinpunosa",
+        "headword": "{貧富|ひんぷ}の{差|さ}",
+        "gloss": "wealth gap; gap between rich and poor",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25703_futokorogafukai",
+        "headword": "{懐|ふところ}が{深|ふか}い",
+        "gloss": "broad-minded; generous; tolerant",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25704_utsuwagaookii",
+        "headword": "{器|うつわ}が{大|おお}きい",
+        "gloss": "magnanimous; big-hearted; having great capacity as a person",
+        "reasons": [
+          "colloquial",
+          "formal"
+        ]
+      },
+      {
+        "id": "25708_shinshifuku",
+        "headword": "{紳士服|しんしふく}",
+        "gloss": "men's clothing; menswear",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "25709_undougi",
+        "headword": "{運動着|うんどうぎ}",
+        "gloss": "sportswear; athletic clothing; gym clothes",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25710_naien",
+        "headword": "{内縁|ないえん}",
+        "gloss": "common-law marriage; de facto marriage",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25711_rachisuru",
+        "headword": "{拉致|らち}する",
+        "gloss": "to abduct; to kidnap",
+        "reasons": [
+          "colloquial",
+          "formal"
+        ]
+      },
+      {
+        "id": "25716_bettei",
+        "headword": "{別邸|べってい}",
+        "gloss": "villa; secondary residence; detached mansion",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25717_sengyoten",
+        "headword": "{鮮魚店|せんぎょてん}",
+        "gloss": "fresh fish shop; fishmonger",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "25719_touhonseisousuru",
+        "headword": "{東奔西走|とうほんせいそう}する",
+        "gloss": "to rush about; to run around busily",
+        "reasons": [
+          "colloquial",
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25720_tenun",
+        "headword": "{天運|てんうん}",
+        "gloss": "fate; destiny; heavenly fortune",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25722_hosuto",
+        "headword": "ホスト",
+        "gloss": "host; male escort; host computer",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25723_binshousei",
+        "headword": "{敏捷性|びんしょうせい}",
+        "gloss": "agility; nimbleness; quickness",
+        "reasons": [
+          "colloquial",
+          "literary"
+        ]
+      },
+      {
+        "id": "25727_ichibubun",
+        "headword": "{一部分|いちぶぶん}",
+        "gloss": "a part; a portion; a section",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25728_boukanfuku",
+        "headword": "{防寒服|ぼうかんふく}",
+        "gloss": "cold-weather clothing; winter gear",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "25736_ryokoukaban",
+        "headword": "{旅行鞄|りょこうかばん}",
+        "gloss": "travel bag; suitcase; luggage",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25741_koushukoutai",
+        "headword": "{攻守交代|こうしゅこうたい}",
+        "gloss": "change of offense and defense; switching sides",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25743_hanteimisu",
+        "headword": "{判定|はんてい}ミス",
+        "gloss": "judgment error; misjudgment; bad call",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "25750_kaitentou",
+        "headword": "{回転灯|かいてんとう}",
+        "gloss": "rotating light; emergency beacon; revolving light",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "25754_kyuukouden",
+        "headword": "{休耕田|きゅうこうでん}",
+        "gloss": "fallow rice field; idle paddy",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "25756_gensouteki",
+        "headword": "{幻想的|げんそうてき}",
+        "gloss": "fantastical; dreamlike; illusory",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25757_kinjitsuchuu",
+        "headword": "{近日中|きんじつちゅう}",
+        "gloss": "in the near future; within the next few days; shortly",
+        "reasons": [
+          "casual",
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "25761_nengappi",
+        "headword": "{年月日|ねんがっぴ}",
+        "gloss": "date (year, month, and day)",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "25762_ryokoukyaku",
+        "headword": "{旅行客|りょこうきゃく}",
+        "gloss": "traveler; tourist",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25765_zenshuuchuu",
+        "headword": "{全集中|ぜんしゅうちゅう}",
+        "gloss": "full concentration; total focus",
+        "reasons": [
+          "casually"
+        ]
+      },
+      {
+        "id": "25769_shiboutodoke",
+        "headword": "{死亡届|しぼうとどけ}",
+        "gloss": "death notification; death registration form",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25770_enbifuku",
+        "headword": "{燕尾服|えんびふく}",
+        "gloss": "tailcoat; swallow-tail coat; white tie formal wear",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25772_danganressha",
+        "headword": "{弾丸列車|だんがんれっしゃ}",
+        "gloss": "bullet train",
+        "reasons": [
+          "colloquially",
+          "formal"
+        ]
+      },
+      {
+        "id": "25775_baishun",
+        "headword": "{売春|ばいしゅん}",
+        "gloss": "prostitution",
+        "reasons": [
+          "colloquial",
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25776_osozaki",
+        "headword": "{遅咲|おそざ}き",
+        "gloss": "late bloomer; late flowering",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25777_sakuran",
+        "headword": "{錯乱|さくらん}",
+        "gloss": "confusion; derangement; mental disorder",
+        "reasons": [
+          "casually",
+          "literary"
+        ]
+      },
+      {
+        "id": "25778_sanjousuru",
+        "headword": "{参上|さんじょう}する",
+        "gloss": "to come; to visit (humble); to appear on the scene",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25783_ishikisoushitsu",
+        "headword": "{意識|いしき}{喪失|そうしつ}",
+        "gloss": "loss of consciousness; fainting; blackout",
+        "reasons": [
+          "colloquial",
+          "formal"
+        ]
+      },
+      {
+        "id": "25784_hentounikomaru",
+        "headword": "{返答|へんとう}に{困|こま}る",
+        "gloss": "to be at a loss for an answer; to not know what to say",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25787_kamihitoenosa",
+        "headword": "{紙一重|かみひとえ}の{差|さ}",
+        "gloss": "paper-thin difference; razor-thin margin",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "25793_ryakusou",
+        "headword": "{略装|りゃくそう}",
+        "gloss": "informal dress; semi-formal attire; simplified outfit",
+        "reasons": [
+          "casual",
+          "formal",
+          "informal",
+          "written"
+        ]
+      },
+      {
+        "id": "25794_yadodai",
+        "headword": "{宿代|やどだい}",
+        "gloss": "lodging fee; accommodation cost; room charge",
+        "reasons": [
+          "colloquial",
+          "formal"
+        ]
+      },
+      {
+        "id": "25799_bunfusouou",
+        "headword": "{分不相応|ぶんふそうおう}",
+        "gloss": "beyond one's means; above one's station; unsuitable to one's status",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "25836_bouten",
+        "headword": "{傍点|ぼうてん}",
+        "gloss": "emphasis dots; side dots (used in Japanese text for emphasis)",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25838_kokorowomunisuru",
+        "headword": "{心|こころ}を{無|む}にする",
+        "gloss": "to clear one's mind; to empty one's heart of distractions",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25845_omoidoori",
+        "headword": "{思|おも}い{通|どお}り",
+        "gloss": "as one wishes; as expected; the way one wants",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25846_kaowotateru",
+        "headword": "{顔|かお}を{立|た}てる",
+        "gloss": "to save someone's face; to show respect for someone's position or reputation",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25848_kokyouwohanareru",
+        "headword": "{故郷|こきょう}を{離|はな}れる",
+        "gloss": "to leave one's hometown; to leave one's birthplace",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25849_takaga",
+        "headword": "たかが",
+        "gloss": "merely; only; at most; just",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "25852_atamawoyawarakakusuru",
+        "headword": "{頭|あたま}を{柔|やわ}らかくする",
+        "gloss": "to think flexibly; to keep an open mind",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25853_funiochinai",
+        "headword": "{腑|ふ}に{落|お}ちない",
+        "gloss": "to not make sense; to not sit right; to not be convincing",
+        "reasons": [
+          "casual",
+          "literary"
+        ]
+      },
+      {
+        "id": "25857_miwonoridasu",
+        "headword": "{身|み}を{乗|の}り{出|だ}す",
+        "gloss": "to lean forward; to bend forward eagerly",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "25860_osonae",
+        "headword": "お{供|そな}え",
+        "gloss": "offering (to gods, Buddha, or the deceased)",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25862_shashinkan",
+        "headword": "{写真館|しゃしんかん}",
+        "gloss": "photo studio",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25863_sekijun",
+        "headword": "{席順|せきじゅん}",
+        "gloss": "seating order; seating arrangement",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25865_keikakusho",
+        "headword": "{計画書|けいかくしょ}",
+        "gloss": "written plan; project proposal; planning document",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "25868_yokeinaosewa",
+        "headword": "{余計|よけい}なお{世話|せわ}",
+        "gloss": "none of your business; unwanted meddling",
+        "reasons": [
+          "informal"
+        ]
+      },
+      {
+        "id": "25870_shinchuu",
+        "headword": "{心中|しんちゅう}",
+        "gloss": "one's true feelings; what is in one's heart",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25872_houshinjoutai",
+        "headword": "{放心状態|ほうしんじょうたい}",
+        "gloss": "dazed state; absent-minded state; stunned condition",
+        "reasons": [
+          "casual",
+          "literary"
+        ]
+      },
+      {
+        "id": "25873_nazotoki",
+        "headword": "なぞ{解|と}き",
+        "gloss": "puzzle-solving; solving a riddle; mystery-solving",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "25874_hiren",
+        "headword": "{悲恋|ひれん}",
+        "gloss": "tragic love; ill-fated romance",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25879_kandoutekina",
+        "headword": "{感動的|かんどうてき}な",
+        "gloss": "moving; touching; inspiring",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "25882_miwakutekina",
+        "headword": "{魅惑的|みわくてき}な",
+        "gloss": "fascinating; enchanting; captivating",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25883_tokaitekina",
+        "headword": "{都会的|とかいてき}な",
+        "gloss": "urban; metropolitan; sophisticated",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25885_sousakutekina",
+        "headword": "{創作的|そうさくてき}な",
+        "gloss": "creative; inventive; original",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25886_kuusoutekina",
+        "headword": "{空想的|くうそうてき}な",
+        "gloss": "fantastical; fanciful; imaginary",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25887_hanmaa",
+        "headword": "ハンマー",
+        "gloss": "hammer",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "25889_dokyumento",
+        "headword": "ドキュメント",
+        "gloss": "document; documentary record",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "25892_sutoraiku",
+        "headword": "ストライク",
+        "gloss": "strike (baseball/bowling)",
+        "reasons": [
+          "casual",
+          "informal",
+          "slang"
+        ]
+      },
+      {
+        "id": "25900_hangyakutekina",
+        "headword": "{反逆的|はんぎゃくてき}な",
+        "gloss": "rebellious; insubordinate; insurgent",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25902_nikukantekina",
+        "headword": "{肉感的|にくかんてき}な",
+        "gloss": "voluptuous; sensual; fleshy",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25903_kyoukonogoro",
+        "headword": "{今日|きょう}このごろ",
+        "gloss": "these days; nowadays; recently",
+        "reasons": [
+          "casual",
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "25904_mawarijuu",
+        "headword": "{周|まわ}り{中|じゅう}",
+        "gloss": "all around; everywhere around; on all sides",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25906_daionkyou",
+        "headword": "{大|だい}{音響|おんきょう}",
+        "gloss": "loud sound; great noise; thunderous volume",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25911_oshuugibukuro",
+        "headword": "{御|お}{祝儀|しゅうぎ}{袋|ぶくろ}",
+        "gloss": "ceremonial gift envelope; monetary gift envelope",
+        "reasons": [
+          "formal",
+          "formality"
+        ]
+      },
+      {
+        "id": "25912_kakkogaki",
+        "headword": "{括弧|かっこ}{書|が}き",
+        "gloss": "parenthetical note; text in brackets; annotation in parentheses",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "25913_yogensha",
+        "headword": "{預言者|よげんしゃ}",
+        "gloss": "prophet; one who delivers divine messages",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "25914_genkouryou",
+        "headword": "{原稿料|げんこうりょう}",
+        "gloss": "manuscript fee; writing fee; author's payment",
+        "reasons": [
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "25915_kinginzaihou",
+        "headword": "{金銀|きんぎん}{財宝|ざいほう}",
+        "gloss": "gold, silver, and treasure; riches and valuables",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25916_dekishi",
+        "headword": "{溺死|できし}",
+        "gloss": "death by drowning; drowning",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25918_amasutokoronaku",
+        "headword": "{余|あま}すところなく",
+        "gloss": "completely; without omission; in full; leaving nothing out",
+        "reasons": [
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "25919_kitainimichiru",
+        "headword": "{期待|きたい}に{満|み}ちる",
+        "gloss": "to be full of anticipation; to be filled with expectation",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25920_koukyuuryoutei",
+        "headword": "{高級|こうきゅう}{料亭|りょうてい}",
+        "gloss": "high-class Japanese restaurant; exclusive traditional dining establishment",
+        "reasons": [
+          "casual",
+          "formality"
+        ]
+      },
+      {
+        "id": "25922_anohito",
+        "headword": "あの{人|ひと}",
+        "gloss": "that person; he; she",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25923_jiroritomiru",
+        "headword": "ジロリと{見|み}る",
+        "gloss": "to glare; to give a piercing look; to stare sharply",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "25924_pinpinshiteiru",
+        "headword": "ぴんぴんしている",
+        "gloss": "to be lively and well; to be in great health; to be full of energy",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25927_meniau",
+        "headword": "{目|め}に{遭|あ}う",
+        "gloss": "to have a bad experience; to suffer; to go through something unpleasant",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25928_koreyori",
+        "headword": "これより",
+        "gloss": "from now; from this point on; hereafter",
+        "reasons": [
+          "casual",
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25929_kyakusenbi",
+        "headword": "{脚線美|きゃくせんび}",
+        "gloss": "beautiful legs; shapely leg lines",
+        "reasons": [
+          "casual",
+          "literary"
+        ]
+      },
+      {
+        "id": "25930_nikkanteki",
+        "headword": "{肉感|にっかん}{的|てき}",
+        "gloss": "voluptuous; sensual; curvaceous",
+        "reasons": [
+          "casual",
+          "literary"
+        ]
+      },
+      {
+        "id": "25934_tokaiteki",
+        "headword": "{都会的|とかいてき}",
+        "gloss": "urban; cosmopolitan; sophisticated",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25938_sousakuteki",
+        "headword": "{創作的|そうさくてき}",
+        "gloss": "creative; original; inventive",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25940_rougoku",
+        "headword": "{牢獄|ろうごく}",
+        "gloss": "prison; jail; dungeon",
+        "reasons": [
+          "colloquial",
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25942_shokuryouhi",
+        "headword": "{食料費|しょくりょうひ}",
+        "gloss": "food expenses; food costs",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25949_kokkokuto",
+        "headword": "{刻々|こっこく}と",
+        "gloss": "moment by moment; with each passing minute",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "25951_genshijidai",
+        "headword": "{原始時代|げんしじだい}",
+        "gloss": "primitive era; prehistoric times",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "25954_rittaieizou",
+        "headword": "{立体映像|りったいえいぞう}",
+        "gloss": "3D image; three-dimensional image; stereoscopic video",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25956_gakujutsukaigi",
+        "headword": "{学術会議|がくじゅつかいぎ}",
+        "gloss": "academic conference; scholarly council",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25961_kakikotoba",
+        "headword": "{書|か}き{言葉|ことば}",
+        "gloss": "written language; written word",
+        "reasons": [
+          "casual",
+          "colloquial",
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "25962_mondaiteiki",
+        "headword": "{問題提起|もんだいていき}",
+        "gloss": "raising an issue; posing a question; problematization",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25967_goukakuten",
+        "headword": "{合格点|ごうかくてん}",
+        "gloss": "passing score; passing grade; passing mark",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25968_meibutsuryouri",
+        "headword": "{名物料理|めいぶつりょうり}",
+        "gloss": "local specialty dish; famous regional cuisine",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "25969_achirakochira",
+        "headword": "あちらこちら",
+        "gloss": "here and there; all over the place; various places",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "25970_intoneeshon",
+        "headword": "イントネーション",
+        "gloss": "intonation; speech melody; pitch pattern",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25972_ketsuronzukeru",
+        "headword": "{結論|けつろん}づける",
+        "gloss": "to conclude; to reach a conclusion; to determine",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25973_yoroshikereba",
+        "headword": "よろしければ",
+        "gloss": "if you don't mind; if it's alright with you; if you like",
+        "reasons": [
+          "casual",
+          "formal",
+          "formality",
+          "informal"
+        ]
+      },
+      {
+        "id": "25975_shougekiwoukeru",
+        "headword": "{衝撃|しょうげき}を{受|う}ける",
+        "gloss": "to be shocked; to receive a shock; to be struck by impact",
+        "reasons": [
+          "casual",
+          "literary"
+        ]
+      },
+      {
+        "id": "25976_tonimokakunimo",
+        "headword": "とにもかくにも",
+        "gloss": "at any rate; anyhow; in any case",
+        "reasons": [
+          "casual",
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25977_ryokuchi",
+        "headword": "{緑地|りょくち}",
+        "gloss": "green space; green area; parkland",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "25989_shihen",
+        "headword": "{紙片|しへん}",
+        "gloss": "scrap of paper; slip of paper",
+        "reasons": [
+          "colloquial",
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "25990_fuuha",
+        "headword": "{風波|ふうは}",
+        "gloss": "wind and waves; trouble; discord",
+        "reasons": [
+          "rough"
+        ]
+      },
+      {
+        "id": "25995_gedan",
+        "headword": "{下段|げだん}",
+        "gloss": "lower level; bottom tier; low guard",
+        "reasons": [
+          "informal"
+        ]
+      },
+      {
+        "id": "25997_mukan",
+        "headword": "{無冠|むかん}",
+        "gloss": "uncrowned; titleless; without a championship",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "25998_doushutsu",
+        "headword": "{導出|どうしゅつ}",
+        "gloss": "derivation; deduction",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26000_ainori",
+        "headword": "{相乗|あいの}り",
+        "gloss": "ride-sharing; sharing a vehicle",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26002_keisen",
+        "headword": "{経線|けいせん}",
+        "gloss": "meridian; line of longitude",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "26004_urifuda",
+        "headword": "{売札|うりふだ}",
+        "gloss": "price tag; for-sale sign",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "26009_sekijitsu",
+        "headword": "{昔日|せきじつ}",
+        "gloss": "former times; days of old",
+        "reasons": [
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "26012_atokata",
+        "headword": "{跡形|あとかた}",
+        "gloss": "trace; vestige; remains",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26013_yomoyamabanashi",
+        "headword": "よもやま{話|ばなし}",
+        "gloss": "miscellaneous chat; assorted stories; idle talk",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26014_bousha",
+        "headword": "{某社|ぼうしゃ}",
+        "gloss": "a certain company; an unnamed company",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26015_bousho",
+        "headword": "{某所|ぼうしょ}",
+        "gloss": "a certain place; an undisclosed location",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "26016_mishiranuhito",
+        "headword": "{見知|みし}らぬ{人|ひと}",
+        "gloss": "stranger; unfamiliar person",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "26018_senmongai",
+        "headword": "{専門外|せんもんがい}",
+        "gloss": "outside one's specialty; not one's field",
+        "reasons": [
+          "colloquial",
+          "literary"
+        ]
+      },
+      {
+        "id": "26019_aihan",
+        "headword": "{相反|あいはん}",
+        "gloss": "contradiction; conflict; opposition",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26022_koegare",
+        "headword": "{声|こえ}がれ",
+        "gloss": "hoarseness; husky voice",
+        "reasons": [
+          "rough",
+          "written"
+        ]
+      },
+      {
+        "id": "26023_nusumimi",
+        "headword": "{盗|ぬす}み{見|み}",
+        "gloss": "peeking; sneaking a look; stealing a glance",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26026_shoshuu",
+        "headword": "{初秋|しょしゅう}",
+        "gloss": "early autumn; beginning of fall",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "26027_naiyoubutsu",
+        "headword": "{内容物|ないようぶつ}",
+        "gloss": "contents; what is inside",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26029_ruisen",
+        "headword": "{涙腺|るいせん}",
+        "gloss": "tear gland; lacrimal gland",
+        "reasons": [
+          "casual",
+          "slang"
+        ]
+      },
+      {
+        "id": "26030_danden",
+        "headword": "{断電|だんでん}",
+        "gloss": "power outage; power cut; disconnection of electricity",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26034_shikakushou",
+        "headword": "{資格証|しかくしょう}",
+        "gloss": "qualification certificate; credentials",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26041_kichuu",
+        "headword": "{忌中|きちゅう}",
+        "gloss": "mourning period; period of abstinence after a death",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26047_hikoboshi",
+        "headword": "{彦星|ひこぼし}",
+        "gloss": "Hikoboshi; the Cowherd Star (Altair); the male figure in the Tanabata legend",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "26050_kakukakko",
+        "headword": "{角括弧|かくかっこ}",
+        "gloss": "square brackets [ ]",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26053_kakimorasu",
+        "headword": "{書|か}き{漏|も}らす",
+        "gloss": "to omit writing; to fail to write down; to leave out",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "26055_nihonfuu",
+        "headword": "{日本風|にほんふう}",
+        "gloss": "Japanese style; Japanese-style",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "26056_souka",
+        "headword": "{挿花|そうか}",
+        "gloss": "flower arrangement; ikebana",
+        "reasons": [
+          "casual",
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "26058_shouku",
+        "headword": "{章句|しょうく}",
+        "gloss": "chapters and verses; passages; phrases from a text",
+        "reasons": [
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "26061_fukushokuhin",
+        "headword": "{副食品|ふくしょくひん}",
+        "gloss": "side dishes; supplementary food items",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "26064_shuujoshi",
+        "headword": "{終助詞|しゅうじょし}",
+        "gloss": "sentence-final particle",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26096_ryourihou",
+        "headword": "{料理法|りょうりほう}",
+        "gloss": "cooking method; way of cooking",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26097_seiin",
+        "headword": "{成員|せいいん}",
+        "gloss": "member; constituent",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "26098_kakijun",
+        "headword": "{書|か}き{順|じゅん}",
+        "gloss": "stroke order (of a character)",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "26105_haraheru",
+        "headword": "{腹|はら}{減|へ}る",
+        "gloss": "to be hungry; to get hungry (casual)",
+        "reasons": [
+          "casual",
+          "formal",
+          "informal",
+          "rough"
+        ]
+      },
+      {
+        "id": "26109_futsuugo",
+        "headword": "{普通語|ふつうご}",
+        "gloss": "standard language; common speech",
+        "reasons": [
+          "colloquial",
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "26110_gorakushousetsu",
+        "headword": "{娯楽|ごらく}{小説|しょうせつ}",
+        "gloss": "entertainment novel; popular fiction",
+        "reasons": [
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "26114_shikibetsubangou",
+        "headword": "{識別|しきべつ}{番号|ばんごう}",
+        "gloss": "identification number; ID number",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26116_bunshosakusei",
+        "headword": "{文書|ぶんしょ}{作成|さくせい}",
+        "gloss": "document creation; document preparation",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "26124_seikoui",
+        "headword": "{性行為|せいこうい}",
+        "gloss": "sexual intercourse; sexual activity",
+        "reasons": [
+          "casual",
+          "formal",
+          "literary",
+          "vulgar"
+        ]
+      },
+      {
+        "id": "26147_ben",
+        "headword": "{便|べん}",
+        "gloss": "stool; feces; bowel movement",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "26148_shikiyoku",
+        "headword": "{色欲|しきよく}",
+        "gloss": "lust; sexual desire; carnal desire",
+        "reasons": [
+          "casual",
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "26150_nega",
+        "headword": "ネガ",
+        "gloss": "negative (film); negative image",
+        "reasons": [
+          "casual",
+          "colloquial"
+        ]
+      },
+      {
+        "id": "26151_koitsura",
+        "headword": "こいつら",
+        "gloss": "these guys; these ones (rough, informal)",
+        "reasons": [
+          "casual",
+          "formal",
+          "informal",
+          "rough"
+        ]
+      },
+      {
+        "id": "26152_ringisho",
+        "headword": "{稟議書|りんぎしょ}",
+        "gloss": "written proposal for approval; approval request document",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "26154_ittsuu",
+        "headword": "{一通|いっつう}",
+        "gloss": "one letter; one document (counter)",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "26157_tsuretekaeru",
+        "headword": "{連|つ}れて{帰|かえ}る",
+        "gloss": "to bring someone/something home; to take back with one",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26158_kenchikuchuu",
+        "headword": "{建築中|けんちくちゅう}",
+        "gloss": "under construction (of buildings)",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26162_kakakujoushou",
+        "headword": "{価格上昇|かかくじょうしょう}",
+        "gloss": "price increase; price rise",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "26165_soukousokudo",
+        "headword": "{走行速度|そうこうそくど}",
+        "gloss": "running speed; travel speed (of a vehicle)",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26167_onraintorihiki",
+        "headword": "オンライン{取引|とりひき}",
+        "gloss": "online transaction; online trading",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26169_tekiseishiyou",
+        "headword": "{適正使用|てきせいしよう}",
+        "gloss": "proper use; appropriate use; correct usage",
+        "reasons": [
+          "colloquial",
+          "formal"
+        ]
+      },
+      {
+        "id": "26170_insatsugaisha",
+        "headword": "{印刷会社|いんさつがいしゃ}",
+        "gloss": "printing company; print shop",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "26171_kyouan",
+        "headword": "{教案|きょうあん}",
+        "gloss": "lesson plan; teaching plan",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "26172_goukakushou",
+        "headword": "{合格証|ごうかくしょう}",
+        "gloss": "certificate of passing; pass certificate",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26176_inada",
+        "headword": "{稲田|いなだ}",
+        "gloss": "rice paddy; rice field",
+        "reasons": [
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "26179_houken",
+        "headword": "{奉献|ほうけん}",
+        "gloss": "dedication; offering; consecration",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26181_gorouku",
+        "headword": "ご{労苦|ろうく}",
+        "gloss": "hard work; toil; trouble; hardship",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "26183_ponpusha",
+        "headword": "ポンプ{車|しゃ}",
+        "gloss": "pumper truck; fire engine",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26191_bakei",
+        "headword": "{場景|ばけい}",
+        "gloss": "scene; setting; spectacle",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "26192_houan",
+        "headword": "{方案|ほうあん}",
+        "gloss": "plan; proposal; scheme",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26193_oyashiki",
+        "headword": "お{屋敷|やしき}",
+        "gloss": "mansion; grand residence; estate",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "26194_senpousama",
+        "headword": "{先方様|せんぽうさま}",
+        "gloss": "the other party (honorific); the other side",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26197_choukousou",
+        "headword": "{超高層|ちょうこうそう}",
+        "gloss": "super high-rise; supertall; ultra-high",
+        "reasons": [
+          "colloquially"
+        ]
+      },
+      {
+        "id": "26201_jidoushadou",
+        "headword": "{自動車道|じどうしゃどう}",
+        "gloss": "motorway; expressway; automobile road",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26205_teishinchou",
+        "headword": "{低身長|ていしんちょう}",
+        "gloss": "short stature; below-average height",
+        "reasons": [
+          "casual",
+          "casually"
+        ]
+      },
+      {
+        "id": "26206_kaishamei",
+        "headword": "{会社名|かいしゃめい}",
+        "gloss": "company name; name of a company",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26207_horaashousetsu",
+        "headword": "ホラー{小説|しょうせつ}",
+        "gloss": "horror novel; horror fiction",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "26212_irozukeru",
+        "headword": "{色付|いろづ}ける",
+        "gloss": "to color; to tint; to add color to",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "26213_koujo",
+        "headword": "{公女|こうじょ}",
+        "gloss": "princess; duke's daughter; noblewoman",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "26260_kageboshi",
+        "headword": "{陰干|かげぼ}し",
+        "gloss": "drying in the shade; air-drying out of direct sunlight",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26261_teburi",
+        "headword": "{手振|てぶ}り",
+        "gloss": "hand gesture; hand movement; gesticulation",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26262_sokuseki",
+        "headword": "{足跡|そくせき}",
+        "gloss": "track record; achievements; accomplishments",
+        "reasons": [
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "26263_dougigo",
+        "headword": "{同義語|どうぎご}",
+        "gloss": "synonym; word with the same meaning",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26265_satsuriku",
+        "headword": "{殺戮|さつりく}",
+        "gloss": "massacre; slaughter; carnage",
+        "reasons": [
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "26267_juujaku",
+        "headword": "{柔弱|じゅうじゃく}",
+        "gloss": "weak; feeble; effeminate; soft",
+        "reasons": [
+          "casual",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "26269_mushikaku",
+        "headword": "{無資格|むしかく}",
+        "gloss": "unqualified; unlicensed; without credentials",
+        "reasons": [
+          "formal",
+          "informal"
+        ]
+      },
+      {
+        "id": "26272_kogatasha",
+        "headword": "{小型車|こがたしゃ}",
+        "gloss": "compact car; small car; subcompact vehicle",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26273_houshikatsudou",
+        "headword": "{奉仕活動|ほうしかつどう}",
+        "gloss": "volunteer work; community service; service activities",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "26277_kagigo",
+        "headword": "{鍵語|かぎご}",
+        "gloss": "keyword; key word; key term",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "26282_renzokusatsujin",
+        "headword": "{連続殺人|れんぞくさつじん}",
+        "gloss": "serial murder; serial killing; consecutive murders",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26313_kaisaku",
+        "headword": "{改作|かいさく}",
+        "gloss": "adaptation; rewriting; reworking",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "26314_tandeki",
+        "headword": "{耽溺|たんでき}",
+        "gloss": "indulgence; addiction; being absorbed in",
+        "reasons": [
+          "casual",
+          "colloquial",
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "26315_konacha",
+        "headword": "{粉茶|こなちゃ}",
+        "gloss": "powdered tea; tea dust",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26320_teitaion",
+        "headword": "{低体温|ていたいおん}",
+        "gloss": "hypothermia; low body temperature",
+        "reasons": [
+          "colloquially"
+        ]
+      },
+      {
+        "id": "26321_hainyou",
+        "headword": "{排尿|はいにょう}",
+        "gloss": "urination; passing urine",
+        "reasons": [
+          "colloquial",
+          "formal"
+        ]
+      },
+      {
+        "id": "26322_haiben",
+        "headword": "{排便|はいべん}",
+        "gloss": "defecation; bowel movement",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26323_shoufu",
+        "headword": "{娼婦|しょうふ}",
+        "gloss": "prostitute; sex worker",
+        "reasons": [
+          "colloquial",
+          "literary"
+        ]
+      },
+      {
+        "id": "26324_toritsukareru",
+        "headword": "{取|と}り{憑|つ}かれる",
+        "gloss": "to be possessed; to be obsessed",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "26328_senyoku",
+        "headword": "{洗浴|せんよく}",
+        "gloss": "washing and bathing; bathing",
+        "reasons": [
+          "colloquial",
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "26329_tehada",
+        "headword": "{手肌|てはだ}",
+        "gloss": "skin of the hands; hand skin",
+        "reasons": [
+          "rough"
+        ]
+      },
+      {
+        "id": "26333_tsuki",
+        "headword": "{付|つ}き",
+        "gloss": "with; included; attached",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "26334_ashura",
+        "headword": "{阿修羅|あしゅら}",
+        "gloss": "Asura; fierce demigod; scene of carnage",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "26335_docchika",
+        "headword": "どっちか",
+        "gloss": "either one; one or the other",
+        "reasons": [
+          "casual",
+          "colloquial",
+          "formal",
+          "informal"
+        ]
+      },
+      {
+        "id": "26336_booizurabu",
+        "headword": "ボーイズラブ",
+        "gloss": "boys' love; BL; male-male romance genre",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "26337_hakanakunaru",
+        "headword": "はかなくなる",
+        "gloss": "to pass away; to die (euphemism)",
+        "reasons": [
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "26342_mari",
+        "headword": "まり",
+        "gloss": "ball; decorative ball",
+        "reasons": [
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "26343_hyakuten",
+        "headword": "{百点|ひゃくてん}",
+        "gloss": "perfect score; 100 points",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26352_yokomi",
+        "headword": "{横見|よこみ}",
+        "gloss": "sideways glance; looking to the side",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26353_mubou",
+        "headword": "{無帽|むぼう}",
+        "gloss": "bareheaded; without a hat",
+        "reasons": [
+          "colloquial",
+          "formal",
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "26354_chishin",
+        "headword": "{遅進|ちしん}",
+        "gloss": "backwardness; lagging behind; slow progress",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26356_motogoe",
+        "headword": "{元肥|もとごえ}",
+        "gloss": "base fertilizer; basal dressing",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26361_kasu",
+        "headword": "{粕|かす}",
+        "gloss": "dregs; residue; lees",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "26363_ruumuwea",
+        "headword": "ルームウェア",
+        "gloss": "loungewear; room wear",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26366_zenpin",
+        "headword": "{全品|ぜんぴん}",
+        "gloss": "all items; all products",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26368_mekishiko",
+        "headword": "メキシコ",
+        "gloss": "Mexico",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26369_soufujou",
+        "headword": "{送付状|そうふじょう}",
+        "gloss": "cover letter; transmittal slip",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26370_wabuneiyaku",
+        "headword": "{和文英訳|わぶんえいやく}",
+        "gloss": "Japanese-to-English translation",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "26372_pedikyua",
+        "headword": "ペディキュア",
+        "gloss": "pedicure; toenail polish",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26374_naitowea",
+        "headword": "ナイトウェア",
+        "gloss": "nightwear; sleepwear",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26376_poriesuteru",
+        "headword": "ポリエステル",
+        "gloss": "polyester",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26380_purofiirushashin",
+        "headword": "プロフィール{写真|しゃしん}",
+        "gloss": "profile photo; profile picture",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "26381_nomadowaakaa",
+        "headword": "ノマドワーカー",
+        "gloss": "digital nomad; nomad worker",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26385_sougoforoo",
+        "headword": "{相互|そうご}フォロー",
+        "gloss": "mutual follow; follow-back",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26387_kaishishiki",
+        "headword": "{開始式|かいししき}",
+        "gloss": "opening ceremony; commencement ceremony",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26390_todokedesho",
+        "headword": "{届出書|とどけでしょ}",
+        "gloss": "notification form; official written notice",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "26391_hanbaiki",
+        "headword": "{販売機|はんばいき}",
+        "gloss": "vending machine; sales machine",
+        "reasons": [
+          "colloquial",
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "26392_toshigamisama",
+        "headword": "{歳神様|としがみさま}",
+        "gloss": "New Year deity; god of the incoming year",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "26396_kasutamaasapooto",
+        "headword": "カスタマーサポート",
+        "gloss": "customer support; customer service",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26397_kinkyoubun",
+        "headword": "{近況文|きんきょうぶん}",
+        "gloss": "status update; personal news message",
+        "reasons": [
+          "formal",
+          "written"
+        ]
+      },
+      {
+        "id": "26398_renzokudorama",
+        "headword": "{連続|れんぞく}ドラマ",
+        "gloss": "serial drama; TV series",
+        "reasons": [
+          "casual",
+          "formally"
+        ]
+      },
+      {
+        "id": "26403_kokumudaijin",
+        "headword": "{国務大臣|こくむだいじん}",
+        "gloss": "minister of state; cabinet minister",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26407_rigaichousei",
+        "headword": "{利害|りがい}{調整|ちょうせい}",
+        "gloss": "coordination of interests; balancing of interests",
+        "reasons": [
+          "formal",
+          "informal"
+        ]
+      },
+      {
+        "id": "26413_fukukichou",
+        "headword": "{副|ふく}{機長|きちょう}",
+        "gloss": "copilot; first officer",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26421_museion",
+        "headword": "{無声音|むせいおん}",
+        "gloss": "voiceless sound; voiceless consonant",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "26425_jikisei",
+        "headword": "{磁器|じき}{製|せい}",
+        "gloss": "made of porcelain; porcelain-made",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "26426_inkyonin",
+        "headword": "{隠居|いんきょ}{人|にん}",
+        "gloss": "retired person; recluse",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26428_shanaihi",
+        "headword": "{社内|しゃない}{秘|ひ}",
+        "gloss": "confidential (within a company); for internal use only",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26430_kaigaizaijuu",
+        "headword": "{海外|かいがい}{在住|ざいじゅう}",
+        "gloss": "living abroad; residing overseas",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26438_senshijidai",
+        "headword": "{先史|せんし}{時代|じだい}",
+        "gloss": "prehistoric era; prehistory",
+        "reasons": [
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "26451_eikou",
+        "headword": "{曳航|えいこう}",
+        "gloss": "towing; being towed",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "26454_toshu",
+        "headword": "{徒手|としゅ}",
+        "gloss": "bare-handed; empty-handed; without tools or weapons",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26459_tashoku",
+        "headword": "{多色|たしょく}",
+        "gloss": "multiple colors; polychrome; multicolored",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26462_kyoudosei",
+        "headword": "{郷土性|きょうどせい}",
+        "gloss": "local character; regional identity; sense of locality",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "26464_shikkou",
+        "headword": "{膝行|しっこう}",
+        "gloss": "crawling on one's knees; approaching on one's knees",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "26466_motare",
+        "headword": "もたれ",
+        "gloss": "heaviness in the stomach; indigestion; something to lean on",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26469_nanshoku",
+        "headword": "{男色|なんしょく}",
+        "gloss": "male homosexuality; male-male love (historical/literary term)",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "26472_anikihada",
+        "headword": "{兄貴肌|あにきはだ}",
+        "gloss": "big-brother type; protective personality; someone who looks after others",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26473_utou",
+        "headword": "{右党|うとう}",
+        "gloss": "tea drinker; teetotaler; person who doesn't drink alcohol",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26474_nakazaki",
+        "headword": "{仲裂|なかざ}き",
+        "gloss": "estrangement; driving a wedge between people; splitting apart",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26515_omeshiagari",
+        "headword": "お{召|め}し{上|あ}がり",
+        "gloss": "please help yourself; please eat/drink (honorific)",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26517_jitakugakushuu",
+        "headword": "{自宅|じたく}{学習|がくしゅう}",
+        "gloss": "home study; studying at home",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26519_risukukanri",
+        "headword": "リスク{管理|かんり}",
+        "gloss": "risk management",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26521_butaikyoufushou",
+        "headword": "{舞台|ぶたい}{恐怖症|きょうふしょう}",
+        "gloss": "stage fright",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "26523_hamekomi",
+        "headword": "{嵌|は}め{込|こ}み",
+        "gloss": "inlay; insertion; fitting; embedding",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "26526_douhouai",
+        "headword": "{同胞|どうほう}{愛|あい}",
+        "gloss": "brotherly love; fraternal love; love for one's compatriots",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "26529_wagakatte",
+        "headword": "{我|わが}{勝手|かって}",
+        "gloss": "selfishness; doing as one pleases; willfulness",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "26530_yuukihiryou",
+        "headword": "{有機|ゆうき}{肥料|ひりょう}",
+        "gloss": "organic fertilizer",
+        "reasons": [
+          "colloquial"
+        ]
+      },
+      {
+        "id": "26616_yumizuru",
+        "headword": "{弓弦|ゆみづる}",
+        "gloss": "bowstring",
+        "reasons": [
+          "written"
+        ]
+      },
+      {
+        "id": "26618_heiba",
+        "headword": "{兵馬|へいば}",
+        "gloss": "troops and horses; military forces",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "26619_shujitsu",
+        "headword": "{種実|しゅじつ}",
+        "gloss": "nuts and seeds; seed and fruit",
+        "reasons": [
+          "casual"
+        ]
+      },
+      {
+        "id": "26622_kaiwan",
+        "headword": "{海湾|かいわん}",
+        "gloss": "bay; gulf; inlet",
+        "reasons": [
+          "formal",
+          "literary"
+        ]
+      },
+      {
+        "id": "26626_kuwaetabako",
+        "headword": "{咥|くわ}え{煙草|たばこ}",
+        "gloss": "cigarette dangling from the mouth",
+        "reasons": [
+          "casual",
+          "formal",
+          "rough",
+          "written"
+        ]
+      },
+      {
+        "id": "26629_gohan",
+        "headword": "{誤判|ごはん}",
+        "gloss": "misjudgment; erroneous ruling",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26684_tahatsuteki",
+        "headword": "{多発的|たはつてき}",
+        "gloss": "frequent; repeated; occurring in many instances",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26690_kurashikkueiga",
+        "headword": "クラシック{映画|えいが}",
+        "gloss": "classic film; old movie",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "26695_midorueiji",
+        "headword": "ミドルエイジ",
+        "gloss": "middle age; midlife",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26698_atogatari",
+        "headword": "あとがたり",
+        "gloss": "afterword; epilogue; postscript discussion",
+        "reasons": [
+          "literary",
+          "written"
+        ]
+      },
+      {
+        "id": "26705_danshigakusei",
+        "headword": "{男子学生|だんしがくせい}",
+        "gloss": "male student",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26707_seiyoueiga",
+        "headword": "{西洋映画|せいようえいが}",
+        "gloss": "Western film; Western movie",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "26709_hijoushikijin",
+        "headword": "{非常識人|ひじょうしきじん}",
+        "gloss": "person lacking common sense; inconsiderate person",
+        "reasons": [
+          "colloquial",
+          "slang"
+        ]
+      },
+      {
+        "id": "26711_tennenhikaku",
+        "headword": "{天然皮革|てんねんひかく}",
+        "gloss": "natural leather; genuine leather",
+        "reasons": [
+          "casual",
+          "formal"
+        ]
+      },
+      {
+        "id": "26715_shirajiraakeru",
+        "headword": "{白々明|しらじらあ}ける",
+        "gloss": "to dawn; to grow light",
+        "reasons": [
+          "literary"
+        ]
+      },
+      {
+        "id": "26716_houhi",
+        "headword": "{放屁|ほうひ}",
+        "gloss": "flatulence; passing gas",
+        "reasons": [
+          "colloquially",
+          "formal",
+          "informal",
+          "literary",
+          "vulgar"
+        ]
+      },
+      {
+        "id": "26719_zandakashoumei",
+        "headword": "{残高証明|ざんだかしょうめい}",
+        "gloss": "balance certificate; proof of balance",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26722_koinyoubou",
+        "headword": "{恋女房|こいにょうぼう}",
+        "gloss": "beloved wife; wife one married for love",
+        "reasons": [
+          "casual",
+          "literary"
+        ]
+      },
+      {
+        "id": "26723_hinkonsha",
+        "headword": "{貧困者|ひんこんしゃ}",
+        "gloss": "person in poverty; the poor",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "26730_hisenmon",
+        "headword": "{非専門|ひせんもん}",
+        "gloss": "non-specialist; non-expert; lay",
+        "reasons": [
+          "casual",
+          "literary"
+        ]
+      },
+      {
+        "id": "29184_ensouka",
+        "headword": "{演奏家|えんそうか}",
+        "gloss": "professional musician; performing instrumentalist",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "29192_kinuorimono",
+        "headword": "{絹織物|きぬおりもの}",
+        "gloss": "silk fabric; silk textile; silk cloth",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "29194_nyuukansha",
+        "headword": "{入館者|にゅうかんしゃ}",
+        "gloss": "visitor; patron; person entering a building or facility",
+        "reasons": [
+          "formal"
+        ]
+      },
+      {
+        "id": "29195_chishikikaikyuu",
+        "headword": "{知識階級|ちしきかいきゅう}",
+        "gloss": "intelligentsia; intellectual class",
+        "reasons": [
+          "informal"
+        ]
+      },
+      {
+        "id": "29198_suieibou",
+        "headword": "{水泳帽|すいえいぼう}",
+        "gloss": "swimming cap; swim cap",
+        "reasons": [
+          "formal"
+        ]
+      }
+    ]
+  }
+}

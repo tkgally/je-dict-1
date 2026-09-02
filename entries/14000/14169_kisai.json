@@ -3,7 +3,7 @@
   "id": "14169_kisai",
   "headword": "{記載|きさい}",
   "reading": "きさい",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "entry, listing, description in writing",
   "conjugation": {
     "type": "suru",
@@ -142,11 +142,39 @@
       "reading": "きじゅつ",
       "headword": "{記述|きじゅつ}",
       "label": "description, account"
+    },
+    {
+      "type": "related",
+      "target_id": "08006_keijou",
+      "reading": "けいじょう",
+      "headword": "{計上|けいじょう}",
+      "label": "recording"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13030_meiki",
+      "reading": "めいき",
+      "headword": "{明記|めいき}",
+      "label": "clearly stating in writing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17347_kijutsusuru",
+      "reading": "きじゅつする",
+      "headword": "{記述|きじゅつ}する",
+      "label": "to describe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25341_kirokusuru",
+      "reading": "きろくする",
+      "headword": "{記録|きろく}する",
+      "label": "to record"
     }
   ],
   "metadata": {
     "created": "2026-02-28T01:53:03Z",
-    "modified": "2026-04-16T05:06:24Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

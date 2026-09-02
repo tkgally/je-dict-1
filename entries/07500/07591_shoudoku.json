@@ -2,7 +2,7 @@
   "id": "07591_shoudoku",
   "headword": "{消毒|しょうどく}",
   "reading": "しょうどく",
-  "part_of_speech": "noun/suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "disinfection; sterilization",
   "conjugation": {
     "type": "suru",
@@ -130,10 +130,10 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{消|しょう} (extinguish, eliminate) + {毒|どく} (poison, germ)\nLiterally: \"eliminating germs\"\n\nCOMMON COLLOCATIONS:\n・{消毒|しょうどく}する - to disinfect\n・{消毒液|しょうどくえき} - disinfectant solution\n・{消毒|しょうどく}スプレー - disinfectant spray\n・{消毒|しょうどく}{用|よう}アルコール - disinfecting alcohol\n・{手指|しゅし}{消毒|しょうどく} - hand sanitization\n\nMEDICAL/HEALTH CONTEXTS:\n・{傷口|きずぐち}の{消毒|しょうどく} - wound disinfection\n・{器具|きぐ}の{消毒|しょうどく} - equipment sterilization\n・{感染|かんせん}{予防|よぼう}のための{消毒|しょうどく} - disinfection for infection prevention\n\nRELATED WORDS:\n・{除菌|じょきん} - sanitizing, antibacterial\n・{殺菌|さっきん} - sterilization, germicide\n・{滅菌|めっきん} - sterilization (complete elimination)\n・アルコール{消毒|しょうどく} - alcohol disinfection\n\n{消毒|しょうどく} vs {除菌|じょきん} vs {殺菌|さっきん}:\n・{消毒|しょうどく} - reducing germs to safe levels\n・{除菌|じょきん} - removing germs (often used in marketing)\n・{殺菌|さっきん} - killing germs",
+  "notes": "ETYMOLOGY:\n{消|しょう} (extinguish, eliminate) + {毒|どく} (poison, germ)\nLiterally: \"eliminating germs\"\n\nCOMMON COLLOCATIONS:\n- {消毒|しょうどく}する - to disinfect\n- {消毒液|しょうどくえき} - disinfectant solution\n- {消毒|しょうどく}スプレー - disinfectant spray\n- {消毒|しょうどく}{用|よう}アルコール - disinfecting alcohol\n- {手指|しゅし}{消毒|しょうどく} - hand sanitization\n\nMEDICAL/HEALTH CONTEXTS:\n- {傷口|きずぐち}の{消毒|しょうどく} - wound disinfection\n- {器具|きぐ}の{消毒|しょうどく} - equipment sterilization\n- {感染|かんせん}{予防|よぼう}のための{消毒|しょうどく} - disinfection for infection prevention\n\nRELATED WORDS:\n- {除菌|じょきん} - sanitizing, antibacterial\n- {殺菌|さっきん} - sterilization, germicide\n- {滅菌|めっきん} - sterilization (complete elimination)\n- アルコール{消毒|しょうどく} - alcohol disinfection\n\n{消毒|しょうどく} vs {除菌|じょきん} vs {殺菌|さっきん}:\n- {消毒|しょうどく} - reducing germs to safe levels\n- {除菌|じょきん} - removing germs (often used in marketing)\n- {殺菌|さっきん} - killing germs",
   "metadata": {
     "created": "2026-01-20T10:31:31Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +142,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health"
       ],
@@ -162,6 +163,41 @@
       "reading": "じょきん",
       "headword": "{除菌|じょきん}",
       "label": "sanitization"
+    },
+    {
+      "type": "related",
+      "target_id": "24175_mekkin",
+      "reading": "めっきん",
+      "headword": "{滅菌|めっきん}",
+      "label": "sterilization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21567_koukin",
+      "reading": "こうきん",
+      "headword": "{抗菌|こうきん}",
+      "label": "antibacterial"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22352_mekkinsuru",
+      "reading": "めっきんする",
+      "headword": "{滅菌|めっきん}する",
+      "label": "to sterilize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24687_boujo",
+      "reading": "ぼうじょ",
+      "headword": "{防除|ぼうじょ}",
+      "label": "pest control"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28525_senjou",
+      "reading": "せんじょう",
+      "headword": "{洗浄|せんじょう}",
+      "label": "washing"
     }
   ],
   "prominent_see_also": [

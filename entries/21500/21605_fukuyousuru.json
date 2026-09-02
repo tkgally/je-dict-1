@@ -3,7 +3,7 @@
   "headword": "{服用|ふくよう}する",
   "reading": "ふくようする",
   "romaji": "fukuyousuru",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to take (medicine); to take orally",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A formal, medical term for taking medication orally. Found on medicine packaging, in doctor's instructions, and in pharmaceutical literature.\n\nCOMMON COLLOCATIONS:\n- {服用|ふくよう}{量|りょう}: dosage\n- {服用|ふくよう}{方法|ほうほう}: how to take (the medicine)\n- {服用|ふくよう}{期間|きかん}: period of administration\n- {長期|ちょうき}{服用|ふくよう}: long-term use\n- {食前|しょくぜん}/{食後|しょくご}に{服用|ふくよう}: take before/after meals\n\nSIMILAR WORDS:\n- {飲|の}む: to drink/take (medicine) — everyday, conversational\n- {投与|とうよ}する: to administer (medicine) — from the doctor/nurse's perspective\n- {摂取|せっしゅ}する: to ingest — broader, includes food and nutrients\n\nREGISTER:\nMore formal than {飲|の}む. In daily conversation, people say {薬|くすり}を{飲|の}む rather than {服用|ふくよう}する. {服用|ふくよう} appears on prescription labels, medicine inserts, and in medical instructions.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00322_nomu",
+      "reading": "のむ",
+      "headword": "{飲|の}む",
+      "label": "to drink/take"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12894_touyo",
+      "reading": "とうよ",
+      "headword": "{投与|とうよ}",
+      "label": "to administer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09322_sesshu",
+      "reading": "せっしゅ",
+      "headword": "{摂取|せっしゅ}",
+      "label": "to ingest"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T18:11:30Z",
-    "modified": "2026-07-29T12:37:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

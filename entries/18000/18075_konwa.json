@@ -3,7 +3,7 @@
   "id": "18075_konwa",
   "headword": "{混和|こんわ}",
   "reading": "こんわ",
-  "part_of_speech": "noun / verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "mixing, blending",
   "conjugation": {
     "type": "suru",
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{混|こん} (mix) + {和|わ} (harmonize, blend). Implies mixing things together into a harmonious blend.\n\nUSAGE:\nA technical term more common in scientific, pharmaceutical, and industrial contexts than in everyday conversation. For everyday mixing, {混|ま}ぜる is more natural.\n\nSIMILAR WORDS:\n- {混合|こんごう}: mixing, mixture (more general)\n- {混|ま}ぜる: to mix (everyday verb)\n- {調合|ちょうごう}: compounding, preparation (especially medicine)\n- {配合|はいごう}: blending, formulation\n\nCOMMON COLLOCATIONS:\n- {混和|こんわ}{材|ざい}: admixture (concrete additive)\n- {混和|こんわ}{剤|ざい}: blending agent",
+  "notes": "FORMS:\n{混|こん} (mix) + {和|わ} (harmonize, blend). Implies mixing things together into a harmonious blend.\n\nUSAGE:\nA technical term more common in scientific, pharmaceutical, and industrial contexts than in everyday conversation. For everyday mixing, {混|ま}ぜる is more natural.\n\nSIMILAR WORDS:\n- {混合|こんごう}: mixing, mixture (more general)\n- {混|ま}ぜる: to mix (everyday verb)\n- {調合|ちょうごう}: compounding, preparation (especially medicine)\n- {配合|はいごう}: blending, formulation\n\nCOMMON COLLOCATIONS:\n- {混和|こんわ}{材|ざい}: admixture (concrete additive)\n- {混和|こんわ}{剤|ざい}: blending agent",
   "cross_references": [
     {
       "type": "synonym",
@@ -142,11 +142,32 @@
       "reading": "こんごう",
       "headword": "{混合|こんごう}",
       "label": "mixing (more general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02423_mazeru",
+      "reading": "まぜる",
+      "headword": "{混|ま}ぜる",
+      "label": "to mix"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20424_chougou",
+      "reading": "ちょうごう",
+      "headword": "{調合|ちょうごう}",
+      "label": "compounding, preparation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16196_haigou",
+      "reading": "はいごう",
+      "headword": "{配合|はいごう}",
+      "label": "blending, formulation"
     }
   ],
   "metadata": {
     "created": "2026-03-20T01:11:34Z",
-    "modified": "2026-05-08T04:12:06Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

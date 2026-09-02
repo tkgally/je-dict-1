@@ -2,7 +2,7 @@
   "id": "01632_kegasuru",
   "headword": "けがする",
   "reading": "けがする",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to get injured",
   "definitions": [
     {
@@ -63,11 +63,19 @@
       ]
     }
   ],
-  "notes": "けが can be written as ⟦{怪我|けが}→けが：00787_kega⟧ in kanji but is often written in hiragana.\n\nCOMMON PATTERNS:\n- けがをする: to get injured (with を)\n- けがする: to get injured (without を, casual)\n- 〜をけがする: to injure (body part)\n\nRELATED EXPRESSIONS:\n- けがをさせる: to injure someone\n- けがが⟦{治|なお}る→治る：19598_naoru⟧: injury heals\n- ⟦{大|おお}けが→大けが：30429_ookega⟧: serious injury\n- ⟦{軽|かる}い→軽い：00785_karui⟧けが: minor injury\n\nTRANSITIVITY: Intransitive (けがする) and transitive (けがさせる)",
-  "cross_references": [],
+  "notes": "けが can be written as ⟦{怪我|けが}→けが：00787_kega⟧ in kanji but is often written in hiragana.\n\nCOMMON PATTERNS:\n- けがをする: to get injured (with を)\n- けがする: to get injured (without を, casual)\n- 〜をけがする: to injure (body part)\n\nRELATED WORDS:\n- けがをさせる: to injure someone\n- けがが⟦{治|なお}る→治る：19598_naoru⟧: injury heals\n- ⟦{大|おお}けが→大けが：30429_ookega⟧: serious injury\n- ⟦{軽|かる}い→軽い：00785_karui⟧けが: minor injury\n\nTRANSITIVITY: Intransitive (けがする) and transitive (けがさせる)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "30429_ookega",
+      "reading": "おおけが",
+      "headword": "{大|おお}けが",
+      "label": "serious injury"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:08:50Z",
-    "modified": "2026-08-11T00:22:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

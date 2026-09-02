@@ -9,7 +9,7 @@
     {
       "sense_number": 1,
       "gloss": "hot sake; warmed sake",
-      "explanation": "Sake that has been warmed, typically to around 50°C. Traditionally served in a small ceramic flask ({徳利|とっくり}) with matching small cups ({お{猪口|ちょこ}})."
+      "explanation": "Sake that has been warmed, typically to around 50°C. Traditionally served in a small ceramic flask ({徳利|とっくり}) with matching small cups (お{猪口|ちょこ})."
     }
   ],
   "examples": [
@@ -17,7 +17,9 @@
       "id": "27548_atsukan_ex1",
       "japanese": "{寒|さむ}い{夜|よる}は{熱燗|あつかん}がいい。",
       "english": "Hot sake is great on a cold night.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27548_atsukan_ex2",
       "japanese": "{熱燗|あつかん}を{一本|いっぽん}つけてください。",
       "english": "Please warm up one flask of sake.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,66 @@
       "id": "27548_atsukan_ex3",
       "japanese": "{居酒屋|いざかや}で{熱燗|あつかん}を{飲|の}みながら{鍋|なべ}を{囲|かこ}むのが{冬|ふゆ}の{楽|たの}しみだ。",
       "english": "Sharing a hot pot while drinking warm sake at an izakaya is one of winter's pleasures.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {熱|あつ} (hot) + {燗|かん} (warmed sake). The verb for warming sake is {燗|かん}をつける or simply つける.\n\nCOMMON COLLOCATIONS:\n- {熱燗|あつかん}をつける: to warm up sake\n- {熱燗|あつかん}{一本|いっぽん}: one flask of hot sake\n- {熱燗|あつかん}を{飲|の}む: to drink hot sake\n\nTEMPERATURE LEVELS:\nSake has several traditional serving temperatures, each with its own name:\n- {日向燗|ひなたかん}: ~30°C (lukewarm)\n- ぬる{燗|かん}: ~40°C (warm)\n- {上燗|じょうかん}: ~45°C (warmer)\n- {熱燗|あつかん}: ~50°C (hot)\n- とびきり{燗|かん}: ~55°C+ (very hot)\n\nSIMILAR WORDS:\n- {冷酒|れいしゅ}: cold sake\n- {常温|じょうおん}: room-temperature sake",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27547_reishu",
+      "reading": "れいしゅ",
+      "headword": "{冷酒|れいしゅ}",
+      "label": "cold sake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14722_jouon",
+      "reading": "じょうおん",
+      "headword": "{常温|じょうおん}",
+      "label": "room-temperature sake"
+    },
+    {
+      "type": "related",
+      "target_id": "19495_tokkuri",
+      "reading": "とっくり",
+      "headword": "{徳利|とっくり}",
+      "label": "sake bottle"
+    },
+    {
+      "type": "related",
+      "target_id": "24582_ochoushi",
+      "reading": "おちょうし",
+      "headword": "お{銚子|ちょうし}",
+      "label": "sake flask"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28141_hiya",
+      "reading": "ひや",
+      "headword": "{冷|ひ}や",
+      "label": "cold water"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food-drink"],
+      "politeness": "plain",
+      "semantic": [
+        "food-drink"
+      ],
       "domain": []
     },
     "created": "2026-05-14T01:41:20Z",
-    "modified": "2026-05-14T01:41:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{拍動|はくどう}",
   "reading": "はくどう",
   "romaji": "hakudou",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "pulsation; beating; throbbing",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Composed of {拍|はく} (beat; clap; rhythm) and {動|どう} (movement). Specifically refers to the rhythmic beating of the heart and blood vessels, making it more technical and narrower in scope than the related word {鼓動|こどう}.\n\nCOMMON COLLOCATIONS:\n- {心臓|しんぞう}の{拍動|はくどう}: heartbeat\n- {拍動|はくどう}{数|すう}: pulse rate\n- {拍動|はくどう}が{速|はや}い: pulse is fast\n- {拍動|はくどう}が{弱|よわ}い: pulse is weak\n- {不規則|ふきそく}な{拍動|はくどう}: irregular heartbeat\n\nSIMILAR WORDS:\n- {鼓動|こどう}: heartbeat; throbbing — more literary and emotional; often used figuratively ({胸|むね}の{鼓動|こどう} \"the beating of one's heart\" can imply excitement or emotion)\n- {脈拍|みゃくはく}: pulse — the measurable pulse rate, often used with numbers ({脈拍|みゃくはく}{数|すう} \"pulse rate\")\n- {律動|りつどう}: rhythmic movement — broader term for any regular cyclical motion, not limited to the heart\n- {動悸|どうき}: palpitations — specifically abnormal or noticeable heartbeat, often associated with anxiety or illness",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19609_kodou",
+      "reading": "こどう",
+      "headword": "{鼓動|こどう}",
+      "label": "heartbeat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17839_myakuhaku",
+      "reading": "みゃくはく",
+      "headword": "{脈拍|みゃくはく}",
+      "label": "pulse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26244_ritsudou",
+      "reading": "りつどう",
+      "headword": "{律動|りつどう}",
+      "label": "rhythmic movement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06299_douki",
+      "reading": "どうき",
+      "headword": "{動悸|どうき}",
+      "label": "palpitations"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +94,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-30T13:35:48Z",
-    "modified": "2026-04-30T13:35:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

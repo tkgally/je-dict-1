@@ -3,7 +3,7 @@
   "headword": "{区別|くべつ}する",
   "reading": "くべつする",
   "romaji": "kubetsusuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to distinguish; to differentiate; to tell apart",
   "definitions": [
     {
@@ -55,7 +55,36 @@
     }
   ],
   "notes": "Composed of {区|く} (section, divide) and {別|べつ} (separate, different). Emphasizes the act of drawing a clear line between things and classifying them into separate categories. Can also be used as a noun: {区別|くべつ}がつかない (can't tell the difference).\n\nCOMMON COLLOCATIONS:\n- AとBを{区別|くべつ}する: to distinguish A from B\n- {区別|くべつ}がつかない: unable to tell the difference\n- {区別|くべつ}がつく: able to tell the difference\n- はっきり{区別|くべつ}する: to distinguish clearly\n- {区別|くべつ}なく: without distinction\n\nSIMILAR WORDS:\n- {見分|みわ}ける: to tell apart by looking — emphasizes visual identification\n- {識別|しきべつ}する: to identify, discriminate — more technical; used in scientific or formal contexts\n- {分類|ぶんるい}する: to classify, categorize — focuses on sorting into groups rather than perceiving differences",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06348_miwakeru",
+      "reading": "みわける",
+      "headword": "{見分|みわ}ける",
+      "label": "to tell apart by looking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06785_shikibetsu",
+      "reading": "しきべつ",
+      "headword": "{識別|しきべつ}",
+      "label": "to identify, discriminate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25224_bunruisuru",
+      "reading": "ぶんるいする",
+      "headword": "{分類|ぶんるい}する",
+      "label": "to classify, categorize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16005_issenwokakusu",
+      "reading": "いっせんをかくす",
+      "headword": "{一線|いっせん}を{画|かく}す",
+      "label": "to draw a line"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -73,7 +102,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T12:19:47Z",
-    "modified": "2026-08-06T12:50:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

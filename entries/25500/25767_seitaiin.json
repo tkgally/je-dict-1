@@ -45,7 +45,22 @@
     }
   ],
   "notes": "A compound of {整体|せいたい} (body adjustment/alignment) and {院|いん} (clinic/institution). {整体院|せいたいいん} are extremely common in Japan — they can be found near most train stations and in shopping areas. They are not medical facilities and do not require a medical license, unlike {接骨院|せっこついん} (bonesetting clinics) which are licensed.\n\nCOMMON COLLOCATIONS:\n- {整体院|せいたいいん}に{通|かよ}う: to regularly visit a bodywork clinic\n- {整体院|せいたいいん}を{開業|かいぎょう}する: to open a bodywork clinic\n- {整体院|せいたいいん}で{施術|せじゅつ}を{受|う}ける: to receive treatment at a bodywork clinic\n\nSIMILAR WORDS:\n- {接骨院|せっこついん}: bonesetting clinic — licensed facility for treating bone and joint issues\n- {鍼灸院|しんきゅういん}: acupuncture and moxibustion clinic — uses needles and heat therapy\n- マッサージ{店|てん}: massage shop — focuses on muscle relaxation rather than structural alignment",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20981_sekkotsuin",
+      "reading": "せっこついん",
+      "headword": "{接骨院|せっこついん}",
+      "label": "bonesetting clinic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18136_seikotsuin",
+      "reading": "せいこついん",
+      "headword": "{整骨院|せいこついん}",
+      "label": "bonesetting clinic"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "daily-life"
       ]
     },
     "created": "2026-04-27T12:18:43Z",
-    "modified": "2026-06-15T07:59:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

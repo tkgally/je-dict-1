@@ -4,7 +4,7 @@
   "headword": "{搬送|はんそう}",
   "reading": "はんそう",
   "romaji": "hansou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "transport; conveyance; carrying (to a destination)",
   "definitions": [
     {
@@ -46,10 +46,39 @@
     }
   ],
   "notes": "Most commonly encountered in emergency and medical contexts to describe transporting patients or injured people to a hospital. Also used in industrial contexts for conveying materials or goods.\n\nCOMMON COLLOCATIONS:\n- {緊急|きんきゅう}{搬送|はんそう}: emergency transport\n- {救急|きゅうきゅう}{搬送|はんそう}: ambulance transport\n- {病院|びょういん}に{搬送|はんそう}する: to transport to a hospital\n- {搬送|はんそう}{先|さき}: destination of transport\n- ベルトコンベヤーで{搬送|はんそう}する: to convey by belt conveyor\n\nSIMILAR WORDS:\n- {運搬|うんぱん}: transportation, hauling — broader term for transporting goods or materials\n- {輸送|ゆそう}: transport, shipping — used for larger-scale logistics and freight\n- {運|はこ}ぶ: to carry, to transport — everyday general-purpose verb",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09231_unpan",
+      "reading": "うんぱん",
+      "headword": "{運搬|うんぱん}",
+      "label": "transportation, hauling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04084_yusou",
+      "reading": "ゆそう",
+      "headword": "{輸送|ゆそう}",
+      "label": "transport, shipping"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01088_hakobu",
+      "reading": "はこぶ",
+      "headword": "{運|はこ}ぶ",
+      "label": "to carry, to transport"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16611_hanshutsu",
+      "reading": "はんしゅつ",
+      "headword": "{搬出|はんしゅつ}",
+      "label": "carrying out"
+    }
+  ],
   "metadata": {
     "created": "2026-04-19T14:14:13Z",
-    "modified": "2026-08-03T09:22:27Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

@@ -81,18 +81,56 @@
   ],
   "notes": "A loanword from English with two distinct origins: \"leader\" (sense 1) and \"reader\" (sense 2). In Japanese, both are written identically as リーダー. The intended meaning is usually clear from context.\n\nCOMMON COLLOCATIONS:\n- リーダーシップ — leadership\n- チームリーダー — team leader\n- プロジェクトリーダー — project leader\n- カードリーダー — card reader\n- {電子書籍|でんししょせき}リーダー — e-book reader\n\nSIMILAR WORDS:\n- {指導者|しどうしゃ} — leader, guide; more formal, emphasizing guidance and teaching, often used for political or social leaders\n- キャプテン — captain; specifically the leader of a sports team\n- {長|ちょう} — head, chief; a suffix attached to titles ({部長|ぶちょう}, {社長|しゃちょう}), indicating formal organizational rank",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03062_shidousha",
+      "reading": "しどうしゃ",
+      "headword": "{指導者|しどうしゃ}",
+      "label": "leader, guide"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00258_kyaputen",
+      "reading": "きゃぷてん",
+      "headword": "キャプテン",
+      "label": "captain"
+    },
+    {
+      "type": "related",
+      "target_id": "09596_riidaashippu",
+      "reading": "りーだーしっぷ",
+      "headword": "リーダーシップ",
+      "label": "leadership"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15631_shunou",
+      "reading": "しゅのう",
+      "headword": "{首脳|しゅのう}",
+      "label": "head"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27273_sendousha",
+      "reading": "せんどうしゃ",
+      "headword": "{先導者|せんどうしゃ}",
+      "label": "leader"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "person",
         "technology"
       ]
     },
     "created": "2026-04-18T13:19:48Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

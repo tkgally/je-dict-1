@@ -17,7 +17,9 @@
       "id": "23697_kaigihi_ex1",
       "japanese": "{会議費|かいぎひ}を{計上|けいじょう}する。",
       "english": "To record meeting expenses on the books.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23697_kaigihi_ex2",
       "japanese": "{今月|こんげつ}の{会議費|かいぎひ}が{予算|よさん}を{超|こ}えてしまった。",
       "english": "This month's meeting expenses exceeded the budget.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23697_kaigihi_ex3",
       "japanese": "{打|う}ち{合|あ}わせで{出|だ}したお{茶|ちゃ}や{菓子|かし}の{代金|だいきん}は{会議費|かいぎひ}として{処理|しょり}する。",
       "english": "The cost of tea and snacks served at meetings is booked as meeting expenses.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,37 @@
       "id": "23697_kaigihi_ex4",
       "japanese": "{取引先|とりひきさき}との{飲食|いんしょく}は、{金額|きんがく}や{内容|ないよう}によって{会議費|かいぎひ}か{接待|せったい}{交際|こうさい}{費|ひ}のどちらで{処理|しょり}するかが{変|か}わる。",
       "english": "Depending on the amount and content, food and drink with a business partner may be booked either as meeting expenses or as entertainment expenses.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {会議|かいぎ} (meeting, conference) and {費|ひ} (expense, cost). A standard expense category on Japanese corporate income statements and tax filings, covering costs directly related to holding business meetings: conference-room rental, light refreshments for attendees, printed materials, and projector/whiteboard supplies.\n\nCULTURAL / ACCOUNTING NOTE:\n{会議費|かいぎひ} is carefully distinguished from {接待|せったい}{交際|こうさい}{費|ひ} (entertainment expenses) in Japanese tax practice. Light refreshments served during a genuine working meeting are {会議費|かいぎひ} and fully deductible, while lavish meals or drinking parties are classified as entertainment expenses and subject to stricter deduction limits. The distinction is a frequent point of discussion for accountants and managers.\n\nCOMMON COLLOCATIONS:\n- {会議費|かいぎひ}を{計上|けいじょう}する: to book meeting expenses\n- {会議費|かいぎひ}で{処理|しょり}する: to process (a cost) as a meeting expense\n- {会議費|かいぎひ}{予算|よさん}: meeting expense budget\n- {会議費|かいぎひ}の{精算|せいさん}: settlement/reimbursement of meeting expenses\n\nSIMILAR WORDS:\n- {接待|せったい}{交際|こうさい}{費|ひ}: entertainment expenses — lavish hosting of clients, more restricted for tax purposes\n- {交通費|こうつうひ}: transportation expenses — travel-related costs\n- {福利|ふくり}{厚生|こうせい}{費|ひ}: welfare benefit expenses — employee welfare benefits\n- {雑費|ざっぴ}: miscellaneous expenses — fallback category for small, uncategorized costs",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03056_koutsuuhi",
+      "reading": "こうつうひ",
+      "headword": "{交通費|こうつうひ}",
+      "label": "transportation expenses"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-04-14T00:46:30Z",
-    "modified": "2026-04-14T00:46:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

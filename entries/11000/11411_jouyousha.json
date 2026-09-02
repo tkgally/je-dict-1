@@ -19,7 +19,9 @@
       "english": "A passenger car is parked there.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11411_jouyousha_ex2",
@@ -27,7 +29,9 @@
       "english": "A passenger car and a truck collided.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11411_jouyousha_ex3",
@@ -35,7 +39,9 @@
       "english": "This parking lot is for passenger cars only; buses cannot enter.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Composed of {乗用|じょうよう} (for riding) + {車|しゃ} (vehicle). The formal/official term for a passenger car.\n\nREGISTER:\nUsed in news reports, traffic regulations, legal documents, and official statistics. In casual speech, {車|くるま} is the standard word for \"car.\"\n\nCOMMON COLLOCATIONS:\n- {乗用車|じょうようしゃ}{専用|せんよう}: for passenger cars only\n- {普通|ふつう}{乗用車|じょうようしゃ}: standard passenger car\n- {小型|こがた}{乗用車|じょうようしゃ}: compact car\n- {乗用車|じょうようしゃ}{同士|どうし}の{事故|じこ}: accident between passenger cars\n\nCONTRAST WITH OTHER VEHICLE TERMS:\n- {車|くるま}: car (everyday)\n- {自動車|じどうしゃ}: automobile (formal, includes all motor vehicles)\n- トラック: truck\n- バス: bus\n- {軽自動車|けいじどうしゃ}: kei car (small-displacement vehicle)",
@@ -46,18 +52,57 @@
       "reading": "しょうようしゃ",
       "headword": "{商用車|しょうようしゃ}",
       "label": "commercial vehicle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02886_jidousha",
+      "reading": "じどうしゃ",
+      "headword": "{自動車|じどうしゃ}",
+      "label": "automobile"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03863_torakku",
+      "reading": "とらっく",
+      "headword": "トラック",
+      "label": "truck"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00769_basu",
+      "reading": "ばす",
+      "headword": "バス",
+      "label": "bus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14298_keijidousha",
+      "reading": "けいじどうしゃ",
+      "headword": "{軽自動車|けいじどうしゃ}",
+      "label": "kei car"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20940_futsuusha",
+      "reading": "ふつうしゃ",
+      "headword": "{普通車|ふつうしゃ}",
+      "label": "standard-sized car"
     }
   ],
   "metadata": {
     "created": "2026-02-16T07:35:11Z",
-    "modified": "2026-05-01T05:08:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     }
   }
 }

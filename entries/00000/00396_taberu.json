@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{食|た}べる (eat X).\n\nASPECT: ている indicates ongoing action. {食|た}べて⟦いる→いる：00495_iru⟧ = 'is eating' (progressive, not resultative).\n\nCOMMON PATTERNS:\n・⟦{朝|あさ}ごはん→朝ごはん：02843_asagohan⟧⟦を→を：00422_wo⟧{食|た}べる (eat breakfast)\n・⟦{外|そと}→外：00671_soto⟧⟦で→で：00502_de⟧{食|た}べる (eat out)\n・{食|た}べて⟦みる→見る：00283_miru⟧ (try eating)\n・⟦{食|た}べ{物|もの}→食べ物：02890_tabemono⟧ (food - noun)\n\nPolite forms:\n- ⟦{召|め}し{上|あ}がる→召し上がる：01310_meshiagaru⟧ (honorific)\n- ⟦いただく→いただく：01326_itadaku⟧ (humble). Opposite: ⟦{飲|の}む→飲む：00322_nomu⟧ (to drink).",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{食|た}べる (eat X).\n\nASPECT: ている indicates ongoing action. {食|た}べて⟦いる→いる：00495_iru⟧ = 'is eating' (progressive, not resultative).\n\nCOMMON PATTERNS:\n- ⟦{朝|あさ}ごはん→朝ごはん：02843_asagohan⟧⟦を→を：00422_wo⟧{食|た}べる (eat breakfast)\n- ⟦{外|そと}→外：00671_soto⟧⟦で→で：00502_de⟧{食|た}べる (eat out)\n- {食|た}べて⟦みる→見る：00283_miru⟧ (try eating)\n- ⟦{食|た}べ{物|もの}→食べ物：02890_tabemono⟧ (food - noun)\n\nPolite forms:\n- ⟦{召|め}し{上|あ}がる→召し上がる：01310_meshiagaru⟧ (honorific)\n- ⟦いただく→いただく：01326_itadaku⟧ (humble). Opposite: ⟦{飲|の}む→飲む：00322_nomu⟧ (to drink).",
   "cross_references": [
     {
       "type": "see_also",
@@ -174,11 +174,32 @@
       "headword": "いただく",
       "label": "humble",
       "target_id": "01326_itadaku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04405_ajiwau",
+      "reading": "あじわう",
+      "headword": "{味|あじ}わう",
+      "label": "to taste, to savor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14618_hoobaru",
+      "reading": "ほおばる",
+      "headword": "{頬張|ほおば}る",
+      "label": "to stuff one's cheeks"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21471_kuchinisuru",
+      "reading": "くちにする",
+      "headword": "{口|くち}にする",
+      "label": "to say"
     }
   ],
   "metadata": {
     "created": "2026-01-05T10:32:15Z",
-    "modified": "2026-05-11T13:23:23Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

@@ -17,7 +17,9 @@
       "id": "28048_reidanbou_ex1",
       "japanese": "{冷暖房|れいだんぼう}{完備|かんび}。",
       "english": "Fully air-conditioned and heated.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28048_reidanbou_ex2",
       "japanese": "この{部屋|へや}は{冷暖房|れいだんぼう}が{効|き}いている。",
       "english": "This room has the AC and heating working.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "28048_reidanbou_ex3",
       "japanese": "{電気代|でんきだい}を{抑|おさ}えるため、{冷暖房|れいだんぼう}の{設定温度|せっていおんど}を{見直|みなお}した。",
       "english": "To cut electricity costs, I reviewed the climate-control temperature settings.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers jointly to cooling and heating equipment. Frequently seen in rental and facility listings.\n\nCOMMON COLLOCATIONS:\n- {冷暖房|れいだんぼう}{完備|かんび}: fully equipped with AC and heating\n- {冷暖房|れいだんぼう}が{効|き}く: the climate control is effective\n- {冷暖房|れいだんぼう}{設備|せつび}: climate-control facilities\n\nSIMILAR WORDS:\n- エアコン: air conditioner — the appliance itself, which today usually does both cooling and heating\n- {空調|くうちょう}: air conditioning (system) — more technical, includes ventilation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05282_eakon",
+      "reading": "えあこん",
+      "headword": "エアコン",
+      "label": "air conditioner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27362_kuuchou",
+      "reading": "くうちょう",
+      "headword": "{空調|くうちょう}",
+      "label": "air conditioning"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["daily-life", "technology"],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life",
+        "technology"
+      ],
       "domain": []
     },
     "created": "2026-05-25T02:04:35Z",
-    "modified": "2026-05-25T02:04:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{日焼|ひや}けする",
   "reading": "ひやけする",
   "romaji": "hiyakesuru",
-  "part_of_speech": "noun, suru verb, intransitive",
+  "part_of_speech": "noun, suru verb (intransitive)",
   "gloss": "to get sunburned; to get a tan; to fade from sunlight",
   "conjugation": {
     "type": "suru",
@@ -171,6 +171,22 @@
   ],
   "notes": "A する-verb from the noun {日焼|ひや}け, composed of {日|ひ} (sun) + {焼|や}け (burning, from {焼|や}ける). The noun {日焼|ひや}け is used independently for sunburn/tan or sun damage.\n\nUSAGE:\nFor skin (sense 1), Japanese does not strongly distinguish between \"tan\" (gradual browning) and \"sunburn\" (painful reddening) — both are {日焼|ひや}け. Context clarifies. The compound {日焼|ひや}け{止|ど}め (sunscreen) is one of the most common related words.\n\nCOMMON COLLOCATIONS:\n- {日焼|ひや}け{止|ど}め — sunscreen\n- {日焼|ひや}けサロン — tanning salon\n- {日焼|ひや}け{跡|あと} — tan lines; sun marks\n- {日焼|ひや}けした{肌|はだ} — tanned/sunburned skin\n\nSIMILAR WORDS:\n- {焼|や}ける — to burn (broader; cooking, fire, jealousy)\n- {色|いろ}{褪|あ}せる — to fade, to lose color (general fading, not only from sun)\n- {変色|へんしょく}する — to discolor, to change color (technical; any color change)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01138_yakeru",
+      "reading": "やける",
+      "headword": "{焼|や}ける",
+      "label": "to burn (broader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19529_henshokusuru",
+      "reading": "へんしょくする",
+      "headword": "{変色|へんしょく}する",
+      "label": "to discolor, to change color (technical"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -188,6 +204,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T20:17:43Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

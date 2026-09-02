@@ -17,7 +17,9 @@
       "id": "20974_kingen_ex1",
       "japanese": "これは{祖父|そふ}の{金言|きんげん}だ。",
       "english": "This is a wise saying from my grandfather.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20974_kingen_ex2",
       "japanese": "{先生|せんせい}の{金言|きんげん}を{今|いま}でも{覚|おぼ}えている。",
       "english": "I still remember my teacher's wise words.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "20974_kingen_ex3",
       "japanese": "「{失敗|しっぱい}は{成功|せいこう}のもと」という{金言|きんげん}は、{多|おお}くの{人|ひと}に{勇気|ゆうき}を{与|あた}えてきた。",
       "english": "The maxim 'failure is the mother of success' has given courage to many people.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Literally '{金|きん} (gold) + {言|げん} (words)' — words as precious as gold. Used for advice or sayings considered especially valuable or wise.\n\nCOMMON COLLOCATIONS:\n- {金言|きんげん}を{残|のこ}す: to leave behind wise words\n- {金言|きんげん}を{胸|むね}に{刻|きざ}む: to engrave wise words in one's heart\n- {人生|じんせい}の{金言|きんげん}: words of wisdom for life\n\nSIMILAR WORDS:\n- {格言|かくげん}: proverb, maxim — more formal; often refers to established, well-known sayings\n- {名言|めいげん}: famous quote — emphasizes that the words are well-known or by a famous person\n- {教訓|きょうくん}: lesson, moral — focuses on the practical lesson to be learned",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18936_kakugen",
+      "reading": "かくげん",
+      "headword": "{格言|かくげん}",
+      "label": "proverb, maxim"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20185_meigen",
+      "reading": "めいげん",
+      "headword": "{名言|めいげん}",
+      "label": "famous quote"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12721_kyoukun",
+      "reading": "きょうくん",
+      "headword": "{教訓|きょうくん}",
+      "label": "lesson, moral"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22461_keiku",
+      "reading": "けいく",
+      "headword": "{警句|けいく}",
+      "label": "epigram"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["language"]
+      "semantic": [
+        "language"
+      ]
     },
     "created": "2026-03-31T09:44:59Z",
-    "modified": "2026-03-31T09:44:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

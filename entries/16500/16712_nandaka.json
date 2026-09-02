@@ -19,7 +19,9 @@
       "english": "I'm somehow sleepy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16712_nandaka_ex2",
@@ -27,7 +29,9 @@
       "english": "I have a bad feeling for some reason.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16712_nandaka_ex3",
@@ -35,10 +39,12 @@
       "english": "Today I just don't feel energetic for some reason.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{何|なん}だか expresses a vague, hard-to-define feeling. The speaker senses something but cannot clearly explain why. It often carries a slight emotional undertone.\n\nFORMATION:\n{何|なん} (what) + だ (copula) + か (question particle) — literally \"what is it...\" used adverbially to convey uncertainty.\n\nCOMMON PATTERNS:\n- {何|なん}だか{分|わ}からない: I don't know what it is / I can't tell\n- {何|なん}だか{嬉|うれ}しい: I feel somehow happy\n- {何|なん}だか{変|へん}だ: something seems odd\n\nSIMILAR WORDS:\n- なんとなく: vaguely, somehow (more neutral, less emotional)\n- なぜか: for some reason (implies puzzlement, slightly more objective)\n- どうも: somehow (wider range of uses, more formal)\n- どことなく: in some indefinable way (literary)\n\nREGISTER:\n{何|なん}だか is conversational and informal. In writing or formal speech, なんとなく or どうも is preferred.",
+  "notes": "{何|なん}だか expresses a vague, hard-to-define feeling. The speaker senses something but cannot clearly explain why. It often carries a slight emotional undertone.\n\nFORMS:\n{何|なん} (what) + だ (copula) + か (question particle) — literally \"what is it...\" used adverbially to convey uncertainty.\n\nCOMMON PATTERNS:\n- {何|なん}だか{分|わ}からない: I don't know what it is / I can't tell\n- {何|なん}だか{嬉|うれ}しい: I feel somehow happy\n- {何|なん}だか{変|へん}だ: something seems odd\n\nSIMILAR WORDS:\n- なんとなく: vaguely, somehow (more neutral, less emotional)\n- なぜか: for some reason (implies puzzlement, slightly more objective)\n- どうも: somehow (wider range of uses, more formal)\n- どことなく: in some indefinable way (literary)\n\nREGISTER:\n{何|なん}だか is conversational and informal. In writing or formal speech, なんとなく or どうも is preferred.",
   "cross_references": [
     {
       "type": "contrast",
@@ -53,17 +59,35 @@
       "reading": "なぜか",
       "headword": "{何故|なぜ}か",
       "label": "for some reason"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02921_doumo",
+      "reading": "どうも",
+      "headword": "どうも",
+      "label": "somehow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18218_dokotonaku",
+      "reading": "どことなく",
+      "headword": "どことなく",
+      "label": "in some indefinable way"
     }
   ],
   "metadata": {
     "created": "2026-03-14T04:25:57Z",
-    "modified": "2026-05-04T09:30:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

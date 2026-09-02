@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A formal term for the writer or author of a specific piece of writing. More specific than {作家|さっか} (novelist/writer as a profession) because it emphasizes the act of writing a particular work.\n\nCOMMON COLLOCATIONS:\n- {執筆者|しっぴつしゃ}{一覧|いちらん}: list of contributors\n- {執筆者|しっぴつしゃ}{紹介|しょうかい}: author introduction\n- {執筆者|しっぴつしゃ}{募集|ぼしゅう}: call for writers/contributors\n\nSIMILAR WORDS:\n- {著者|ちょしゃ}: author — emphasizes ownership of the work (used on book covers)\n- {作家|さっか}: writer, novelist — refers to writing as a profession\n- {筆者|ひっしゃ}: writer — used within a text to refer to oneself (the present writer)\n\nFORMATION:\n{執筆|しっぴつ} (writing, composing) + {者|しゃ} (person)",
+  "notes": "A formal term for the writer or author of a specific piece of writing. More specific than {作家|さっか} (novelist/writer as a profession) because it emphasizes the act of writing a particular work.\n\nCOMMON COLLOCATIONS:\n- {執筆者|しっぴつしゃ}{一覧|いちらん}: list of contributors\n- {執筆者|しっぴつしゃ}{紹介|しょうかい}: author introduction\n- {執筆者|しっぴつしゃ}{募集|ぼしゅう}: call for writers/contributors\n\nSIMILAR WORDS:\n- {著者|ちょしゃ}: author — emphasizes ownership of the work (used on book covers)\n- {作家|さっか}: writer, novelist — refers to writing as a profession\n- {筆者|ひっしゃ}: writer — used within a text to refer to oneself (the present writer)\n\nFORMS:\n{執筆|しっぴつ} (writing, composing) + {者|しゃ} (person)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03501_chosha",
+      "reading": "ちょしゃ",
+      "headword": "{著者|ちょしゃ}",
+      "label": "author"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01414_sakka",
+      "reading": "さっか",
+      "headword": "{作家|さっか}",
+      "label": "writer, novelist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22699_kikousha",
+      "reading": "きこうしゃ",
+      "headword": "{寄稿者|きこうしゃ}",
+      "label": "contributor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-05T19:20:19Z",
-    "modified": "2026-04-10T08:28:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

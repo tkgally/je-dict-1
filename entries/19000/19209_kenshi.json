@@ -3,7 +3,7 @@
   "headword": "{検死|けんし}",
   "reading": "けんし",
   "romaji": "kenshi",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "autopsy; postmortem examination; coroner's inquest",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,29 @@
   ],
   "notes": "Composed of {検|けん} (examine, inspect) + {死|し} (death). Strictly speaking, {検死|けんし} refers to the external examination of a body (also written {検視|けんし}), while {解剖|かいぼう} or {司法解剖|しほうかいぼう} refers to the internal autopsy. However, in common usage {検死|けんし} often covers both. Common collocations: {検死|けんし}を{行|おこな}う (to conduct a postmortem), {検死|けんし}{報告書|ほうこくしょ} (autopsy report), {検死|けんし}{官|かん} (coroner/medical examiner). Not to be confused with the homophone {剣士|けんし} (swordsman). Frequently appears in mystery novels and crime dramas.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13224_shiin",
+      "reading": "しいん",
+      "headword": "{死因|しいん}",
+      "label": "cause of death"
+    },
+    {
+      "type": "homophone",
+      "target_id": "21854_kenshi",
+      "reading": "けんし",
+      "headword": "{検視|けんし}",
+      "label": "coroner's inquest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23657_shigokouchoku",
+      "reading": "しごこうちょく",
+      "headword": "{死後硬直|しごこうちょく}",
+      "label": "rigor mortis"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -145,7 +168,10 @@
       ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["law", "health"],
+      "semantic": [
+        "law",
+        "health"
+      ],
       "domain": [
         "legal",
         "medical"
@@ -153,6 +179,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-24T14:03:58Z",
-    "modified": "2026-07-26T21:32:58Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

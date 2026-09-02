@@ -3,7 +3,7 @@
   "headword": "{困|こま}らせる",
   "reading": "こまらせる",
   "romaji": "komaraseru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to cause trouble for; to embarrass; to put in a difficult position",
   "definitions": [
     {
@@ -55,7 +55,15 @@
     }
   ],
   "notes": "Causative form of {困|こま}る (to be troubled; to be at a loss). While {困|こま}る describes the state of being troubled, {困|こま}らせる assigns agency — someone is actively causing the trouble. Very common in parenting, teaching, and relationship contexts.\n\nCOMMON COLLOCATIONS:\n- {人|ひと}を{困|こま}らせる: to trouble someone\n- {親|おや}を{困|こま}らせる: to trouble one's parents\n- {先生|せんせい}を{困|こま}らせる: to give the teacher a hard time\n- {困|こま}らせるつもりはない: I don't intend to cause trouble\n\nSIMILAR WORDS:\n- {迷惑|めいわく}をかける: to cause inconvenience — focuses on the burden placed on others; more formal\n- {悩|なや}ませる: to worry; to distress — implies deeper emotional distress rather than practical trouble\n- {手|て}を{焼|や}かせる: to give someone a hard time — implies ongoing difficulty, often with a child or subordinate",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19801_nayamaseru",
+      "reading": "なやませる",
+      "headword": "{悩|なや}ませる",
+      "label": "to worry"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,6 +71,7 @@
       "pos": [
         "verb-ichidan"
       ],
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "society"
@@ -70,7 +79,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-04-25T15:17:18Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

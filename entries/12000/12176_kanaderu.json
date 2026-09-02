@@ -3,7 +3,7 @@
   "id": "12176_kanaderu",
   "headword": "{奏|かな}でる",
   "reading": "かなでる",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to play (an instrument), to produce music",
   "conjugation": {
     "type": "ichidan",
@@ -142,11 +142,25 @@
       "headword": "{弾|ひ}く",
       "label": "to play (everyday)",
       "target_id": "02444_hiku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02445_fuku",
+      "reading": "ふく",
+      "headword": "{吹|ふ}く",
+      "label": "for wind instruments"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24052_kakinarasu",
+      "reading": "かきならす",
+      "headword": "かき{鳴|な}らす",
+      "label": "to strum"
     }
   ],
   "metadata": {
     "created": "2026-02-20T10:18:51Z",
-    "modified": "2026-08-16T12:31:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

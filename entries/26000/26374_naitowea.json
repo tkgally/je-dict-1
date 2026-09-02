@@ -17,7 +17,9 @@
       "id": "26374_naitowea_ex1",
       "japanese": "シルクのナイトウェアを{買|か}った。",
       "english": "I bought a silk nightgown.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26374_naitowea_ex2",
       "japanese": "{旅行|りょこう}に{持|も}っていくナイトウェアを{選|えら}んでいる。",
       "english": "I'm choosing nightwear to bring on the trip.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "26374_naitowea_ex3",
       "japanese": "ホテルにはナイトウェアが{用意|ようい}されているので、{持参|じさん}しなくても{大丈夫|だいじょうぶ}です。",
       "english": "The hotel provides nightwear, so you don't need to bring your own.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -45,16 +51,43 @@
       "type": "related",
       "reading": "るーむうぇあ",
       "headword": "ルームウェア"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04516_pajama",
+      "reading": "ぱじゃま",
+      "headword": "パジャマ",
+      "label": "pajamas"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04081_yukata",
+      "reading": "ゆかた",
+      "headword": "{浴衣|ゆかた}",
+      "label": "yukata"
+    },
+    {
+      "type": "related",
+      "target_id": "00308_nemaki",
+      "reading": "ねまき",
+      "headword": "{寝巻|ねまき}",
+      "label": "sleepwear, pajamas, nightwear"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["clothing", "daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "clothing",
+        "daily-life"
+      ]
     },
     "created": "2026-05-01T12:43:47Z",
-    "modified": "2026-05-01T12:43:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

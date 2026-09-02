@@ -3,7 +3,7 @@
   "id": "12926_houshutsu",
   "headword": "{放出|ほうしゅつ}",
   "reading": "ほうしゅつ",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "release, emission, discharge",
   "conjugation": {
     "type": "suru",
@@ -149,11 +149,32 @@
       "reading": "ほうしゃ",
       "headword": "{放射|ほうしゃ}",
       "label": "radiation, emission"
+    },
+    {
+      "type": "related",
+      "target_id": "09132_hassan",
+      "reading": "はっさん",
+      "headword": "{発散|はっさん}",
+      "label": "emission, release"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25377_haishutsusuru",
+      "reading": "はいしゅつする",
+      "headword": "{排出|はいしゅつ}する",
+      "label": "to emit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25492_bunpitsu",
+      "reading": "ぶんぴつ",
+      "headword": "{分泌|ぶんぴつ}",
+      "label": "secretion"
     }
   ],
   "metadata": {
     "created": "2026-02-22T22:59:03Z",
-    "modified": "2026-04-27T10:17:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

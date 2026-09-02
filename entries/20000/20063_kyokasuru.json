@@ -3,7 +3,7 @@
   "headword": "{許可|きょか}する",
   "reading": "きょかする",
   "romaji": "kyoka suru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to permit; to allow; to authorize; to grant permission",
   "conjugation": {
     "type": "suru",
@@ -134,8 +134,45 @@
       "notes": null
     }
   ],
-  "notes": "To officially grant permission for something. Implies authority — the person giving {許可|きょか} has the power to allow or deny. Commonly used in institutional, legal, and workplace contexts.\n\nPARTICLE PATTERN:\n- [action]を{許可|きょか}する: to permit [action]\n- [person]に{許可|きょか}を{与|あた}える: to give permission to [person]\n\nCOMMON COLLOCATIONS:\n- {許可|きょか}を{出|だ}す: to issue permission\n- {許可|きょか}を{得|え}る: to obtain permission\n- {許可|きょか}を{求|もと}める: to request permission\n- {許可|きょか}なく: without permission\n- {営業|えいぎょう}{許可|きょか}: business license/permit\n- {建築|けんちく}{許可|きょか}: building permit\n\nSIMILAR WORDS:\n- {認|みと}める: to allow/recognize — less formal; can mean to acknowledge or approve in a broader sense\n- {了承|りょうしょう}する: to consent/accept — accepting a situation rather than granting official permission\n- {承認|しょうにん}する: to approve — formal approval, often of proposals or documents\n- {許|ゆる}す: to forgive/permit — more personal and emotional; can mean both forgiving and allowing",
+  "notes": "To officially grant permission for something. Implies authority — the person giving {許可|きょか} has the power to allow or deny. Commonly used in institutional, legal, and workplace contexts.\n\nCOMMON PATTERNS:\n- [action]を{許可|きょか}する: to permit [action]\n- [person]に{許可|きょか}を{与|あた}える: to give permission to [person]\n\nCOMMON COLLOCATIONS:\n- {許可|きょか}を{出|だ}す: to issue permission\n- {許可|きょか}を{得|え}る: to obtain permission\n- {許可|きょか}を{求|もと}める: to request permission\n- {許可|きょか}なく: without permission\n- {営業|えいぎょう}{許可|きょか}: business license/permit\n- {建築|けんちく}{許可|きょか}: building permit\n\nSIMILAR WORDS:\n- {認|みと}める: to allow/recognize — less formal; can mean to acknowledge or approve in a broader sense\n- {了承|りょうしょう}する: to consent/accept — accepting a situation rather than granting official permission\n- {承認|しょうにん}する: to approve — formal approval, often of proposals or documents\n- {許|ゆる}す: to forgive/permit — more personal and emotional; can mean both forgiving and allowing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02429_mitomeru",
+      "reading": "みとめる",
+      "headword": "{認|みと}める",
+      "label": "to allow/recognize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20062_ryoushousuru",
+      "reading": "りょうしょうする",
+      "headword": "{了承|りょうしょう}する",
+      "label": "to consent/accept"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20064_shouninsuru",
+      "reading": "しょうにんする",
+      "headword": "{承認|しょうにん}する",
+      "label": "to approve"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02325_yurusu",
+      "reading": "ゆるす",
+      "headword": "{許|ゆる}す",
+      "label": "to forgive/permit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21332_youninsuru",
+      "reading": "ようにんする",
+      "headword": "{容認|ようにん}する",
+      "label": "to tolerate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +188,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T06:15:51Z",
-    "modified": "2026-06-15T07:58:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

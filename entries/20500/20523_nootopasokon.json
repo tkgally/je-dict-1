@@ -16,7 +16,9 @@
       "id": "20523_nootopasokon_ex1",
       "japanese": "ノートパソコンを{買|か}った。",
       "english": "I bought a laptop.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "20523_nootopasokon_ex2",
       "japanese": "カフェでノートパソコンを{開|ひら}いて{仕事|しごと}をする。",
       "english": "I open my laptop at a café and work.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,25 +36,58 @@
       "id": "20523_nootopasokon_ex3",
       "japanese": "{新|あたら}しいノートパソコンは{軽|かる}くて{持|も}ち{運|はこ}びやすい。",
       "english": "The new laptop is light and easy to carry around.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A Japanese-coined compound (wasei-eigo) from 'notebook' + 'personal computer.' In English, the standard term is simply 'laptop,' while 'notebook PC' is sometimes used but less common.\n\nCOMMON COLLOCATIONS:\n- ノートパソコンを{開|ひら}く: to open a laptop\n- ノートパソコンを{閉|と}じる: to close a laptop\n- ノートパソコンを{持|も}ち{歩|ある}く: to carry a laptop around\n- ノートパソコンの{充電|じゅうでん}: laptop charging\n\nABBREVIATIONS:\nOften shortened to ノートPC or simply ノート in casual speech. The abbreviation パソコン itself comes from パーソナルコンピューター (personal computer) and is the standard Japanese word for PC.\n\nSIMILAR WORDS:\n- デスクトップ: desktop computer — the stationary counterpart\n- タブレット: tablet — smaller, touch-operated device without a physical keyboard",
+  "notes": "A Japanese-coined compound (wasei-eigo) from 'notebook' + 'personal computer.' In English, the standard term is simply 'laptop,' while 'notebook PC' is sometimes used but less common.\n\nCOMMON COLLOCATIONS:\n- ノートパソコンを{開|ひら}く: to open a laptop\n- ノートパソコンを{閉|と}じる: to close a laptop\n- ノートパソコンを{持|も}ち{歩|ある}く: to carry a laptop around\n- ノートパソコンの{充電|じゅうでん}: laptop charging\n\nFORMS:\nOften shortened to ノートPC or simply ノート in casual speech. The abbreviation パソコン itself comes from パーソナルコンピューター (personal computer) and is the standard Japanese word for PC.\n\nSIMILAR WORDS:\n- デスクトップ: desktop computer — the stationary counterpart\n- タブレット: tablet — smaller, touch-operated device without a physical keyboard",
   "cross_references": [
-    {"type": "related", "target_id": "01538_pasokon", "reading": "ぱそこん", "headword": "パソコン", "label": "PC (general)"}
+    {
+      "type": "related",
+      "target_id": "01538_pasokon",
+      "reading": "ぱそこん",
+      "headword": "パソコン",
+      "label": "PC (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24418_desukutoppu",
+      "reading": "ですくとっぷ",
+      "headword": "デスクトップ",
+      "label": "desktop computer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05281_taburetto",
+      "reading": "たぶれっと",
+      "headword": "タブレット",
+      "label": "tablet"
+    },
+    {
+      "type": "related",
+      "target_id": "01530_konpyuutaa",
+      "reading": "こんぴゅーたー",
+      "headword": "コンピューター",
+      "label": "computer"
+    }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technology"]
+      "semantic": [
+        "technology"
+      ]
     },
     "created": "2026-03-29T17:03:05Z",
-    "modified": "2026-05-15T21:22:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

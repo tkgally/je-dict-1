@@ -19,7 +19,9 @@
       "english": "To make sushi rolls.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12410_makizushi_ex2",
@@ -27,7 +29,9 @@
       "english": "On Setsubun, people eat a sushi roll called ehomaki.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12410_makizushi_ex3",
@@ -35,10 +39,12 @@
       "english": "The sushi rolls my mother put in my lunch box had egg omelet and cucumber in them and were delicious.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "STRUCTURE:\n{巻|ま}き (rolling) + {寿司|ずし} (sushi). Also written {巻|ま}きずし or {巻寿司|まきずし}.\n\nUSAGE:\n{巻|ま}き{寿司|ずし} has several varieties based on thickness:\n- {太巻|ふとま}き: thick roll with multiple fillings\n- {細巻|ほそま}き: thin roll with a single filling (e.g., かっぱ{巻|ま}き for cucumber, {鉄火|てっか}{巻|ま}き for tuna)\n- {裏巻|うらま}き: inside-out roll (rice on outside)\n\nRolling is done with a {巻|ま}きす (bamboo rolling mat). {巻|ま}き{寿司|ずし} is commonly made at home for celebrations, parties, and {弁当|べんとう} (lunch boxes).\n\nCOMMON COLLOCATIONS:\n- {巻|ま}き{寿司|ずし}を{巻|ま}く: to roll sushi\n- {巻|ま}き{寿司|ずし}を{切|き}る: to cut sushi rolls\n- {手作|てづく}り{巻|ま}き{寿司|ずし}: homemade sushi rolls",
+  "notes": "COMMON PATTERNS:\n{巻|ま}き (rolling) + {寿司|ずし} (sushi). Also written {巻|ま}きずし or {巻寿司|まきずし}.\n\nUSAGE:\n{巻|ま}き{寿司|ずし} has several varieties based on thickness:\n- {太巻|ふとま}き: thick roll with multiple fillings\n- {細巻|ほそま}き: thin roll with a single filling (e.g., かっぱ{巻|ま}き for cucumber, {鉄火|てっか}{巻|ま}き for tuna)\n- {裏巻|うらま}き: inside-out roll (rice on outside)\n\nRolling is done with a {巻|ま}きす (bamboo rolling mat). {巻|ま}き{寿司|ずし} is commonly made at home for celebrations, parties, and {弁当|べんとう} (lunch boxes).\n\nCOMMON COLLOCATIONS:\n- {巻|ま}き{寿司|ずし}を{巻|ま}く: to roll sushi\n- {巻|ま}き{寿司|ずし}を{切|き}る: to cut sushi rolls\n- {手作|てづく}り{巻|ま}き{寿司|ずし}: homemade sushi rolls",
   "cross_references": [
     {
       "type": "related",
@@ -46,18 +52,36 @@
       "reading": "すし",
       "headword": "{寿司|すし}",
       "label": "sushi (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21366_hosomaki",
+      "reading": "ほそまき",
+      "headword": "{細巻|ほそま}き",
+      "label": "thin sushi roll"
+    },
+    {
+      "type": "related",
+      "target_id": "22489_oshizushi",
+      "reading": "おしずし",
+      "headword": "{押|お}し{寿司|ずし}",
+      "label": "pressed sushi"
     }
   ],
   "metadata": {
     "created": "2026-02-21T06:12:01Z",
-    "modified": "2026-04-27T04:29:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

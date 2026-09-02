@@ -17,7 +17,9 @@
       "id": "24255_butaigeiko_ex1",
       "japanese": "{明日|あした}は{舞台稽古|ぶたいげいこ}がある。",
       "english": "There's a dress rehearsal tomorrow.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24255_butaigeiko_ex2",
       "japanese": "{舞台稽古|ぶたいげいこ}で{衣装|いしょう}や{照明|しょうめい}の{最終|さいしゅう}{確認|かくにん}をする。",
       "english": "We do final checks on costumes and lighting during the stage rehearsal.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "24255_butaigeiko_ex3",
       "japanese": "{舞台稽古|ぶたいげいこ}は{本番|ほんばん}と{同|おな}じ{条件|じょうけん}で{通|とお}しで{行|おこな}われた。",
       "english": "The dress rehearsal was done as a full run-through under the same conditions as the actual performance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {舞台|ぶたい} ('stage') and {稽古|けいこ} ('practice; rehearsal'). Equivalent to what is called a 'dress rehearsal' in English — the final rehearsal on the actual stage with all production elements in place. Also called ゲネプロ (from German Generalprobe) in the theater world.\n\nUSAGE:\n- Used for theater, opera, musicals, dance performances, and traditional performing arts like {歌舞伎|かぶき}\n- Implies a complete run-through, not just a partial or technical rehearsal\n- In sumo, {稽古|けいこ} means 'practice' in a different context — {舞台稽古|ぶたいげいこ} is specifically for performing arts\n\nCOMMON COLLOCATIONS:\n- {舞台稽古|ぶたいげいこ}を{行|おこな}う: to conduct a stage rehearsal\n- {舞台稽古|ぶたいげいこ}に{入|はい}る: to begin stage rehearsals\n- {最終|さいしゅう}{舞台稽古|ぶたいげいこ}: final dress rehearsal\n- {公開|こうかい}{舞台稽古|ぶたいげいこ}: open dress rehearsal (with audience)\n\nSIMILAR WORDS:\n- {稽古|けいこ}: practice; rehearsal — the general word for rehearsal or training in traditional arts, not limited to on-stage practice\n- ゲネプロ: dress rehearsal — loanword from German Generalprobe; used interchangeably with {舞台稽古|ぶたいげいこ} in theater circles\n- リハーサル: rehearsal — a general loanword for any type of rehearsal, not necessarily the final or full one\n- {本番|ほんばん}: the real performance — what follows the {舞台稽古|ぶたいげいこ}; the actual show",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07559_rihaasaru",
+      "reading": "りはーさる",
+      "headword": "リハーサル",
+      "label": "rehearsal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19392_honban",
+      "reading": "ほんばん",
+      "headword": "{本番|ほんばん}",
+      "label": "the real performance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"],
-      "domain": ["academic"]
+      "semantic": [
+        "leisure"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-04-18T11:26:42Z",
-    "modified": "2026-04-18T11:26:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

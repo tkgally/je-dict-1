@@ -17,7 +17,9 @@
       "id": "26006_nukiuchi_ex1",
       "japanese": "{抜|ぬ}き{打|う}ちテストがあった。",
       "english": "There was a surprise test.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26006_nukiuchi_ex2",
       "japanese": "{抜|ぬ}き{打|う}ちで{検査|けんさ}が{行|おこな}われた。",
       "english": "An unannounced inspection was carried out.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "26006_nukiuchi_ex3",
       "japanese": "{保健所|ほけんじょ}が{抜|ぬ}き{打|う}ちで{飲食店|いんしょくてん}を{調|しら}べることがある。",
       "english": "The health center sometimes inspects restaurants without prior notice.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,21 +47,44 @@
       "id": "26006_nukiuchi_ex4",
       "japanese": "{先生|せんせい}は{抜|ぬ}き{打|う}ちの{小|しょう}テストが{好|す}きだ。",
       "english": "The teacher likes giving pop quizzes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Originally a kendo term meaning to draw and strike in one motion, {抜|ぬ}き{打|う}ち now primarily refers to doing something without advance notice. It is almost always used as a noun modifier: {抜|ぬ}き{打|う}ちの〜 or {抜|ぬ}き{打|う}ちで.\n\nCOMMON COLLOCATIONS:\n- {抜|ぬ}き{打|う}ちテスト: surprise test; pop quiz\n- {抜|ぬ}き{打|う}ち{検査|けんさ}: surprise inspection\n- {抜|ぬ}き{打|う}ちで{調|しら}べる: to investigate without notice\n- {抜|ぬ}き{打|う}ち{監査|かんさ}: surprise audit\n\nSIMILAR WORDS:\n- {突然|とつぜん}: sudden — describes any abrupt event, not specifically planned surprise actions\n- {不意|ふい}に: unexpectedly — focuses on the recipient's lack of awareness\n- {予告|よこく}なし: without advance notice — more neutral and explanatory",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00409_totsuzen",
+      "reading": "とつぜん",
+      "headword": "{突然|とつぜん}",
+      "label": "sudden"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16855_fuini",
+      "reading": "ふいに",
+      "headword": "{不意|ふい}に",
+      "label": "unexpectedly"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["descriptive"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "descriptive"
+      ]
     },
     "created": "2026-04-28T16:09:26Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

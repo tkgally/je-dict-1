@@ -162,7 +162,7 @@
       ]
     }
   ],
-  "notes": "COMPONENTS:\n{退|たい} (to withdraw, to leave) + {社|しゃ} (company)\n\nTWO MEANINGS:\nThis word has two distinct meanings depending on context:\n1. Daily leaving work (going home)\n2. Permanently leaving employment (resignation)\n\nContext usually makes the meaning clear.\n\nCONTRAST WITH ⟦{出社|しゅっしゃ}→出社：06155_shussha⟧:\n- ⟦{出社|しゅっしゃ}→出社：06155_shussha⟧: going to work/office\n- {退社|たいしゃ}: leaving work\n\nRELATED TERMS:\n- ⟦{辞職|じしょく}→辞職：06157_jishoku⟧: resignation (more formal)\n- ⟦{退職|たいしょく}→退職：04559_taishoku⟧: retirement/leaving employment\n- ⟦{帰宅|きたく}→帰宅：02546_kitaku⟧: going home\n\nCOMMON COLLOCATIONS:\n- ⟦{定時|ていじ}→定時：07697_teiji⟧{退社|たいしゃ}: leaving on time\n- {退社|たいしゃ}⟦{時間|じかん}→時間：00468_jikan⟧: time of leaving work\n- ⟦{早期|そうき}→早期：09568_souki⟧{退社|たいしゃ}: early departure from work",
+  "notes": "ETYMOLOGY:\n{退|たい} (to withdraw, to leave) + {社|しゃ} (company)\n\nTWO MEANINGS:\nThis word has two distinct meanings depending on context:\n1. Daily leaving work (going home)\n2. Permanently leaving employment (resignation)\n\nContext usually makes the meaning clear.\n\nCONTRAST WITH ⟦{出社|しゅっしゃ}→出社：06155_shussha⟧:\n- ⟦{出社|しゅっしゃ}→出社：06155_shussha⟧: going to work/office\n- {退社|たいしゃ}: leaving work\n\nRELATED WORDS:\n- ⟦{辞職|じしょく}→辞職：06157_jishoku⟧: resignation (more formal)\n- ⟦{退職|たいしょく}→退職：04559_taishoku⟧: retirement/leaving employment\n- ⟦{帰宅|きたく}→帰宅：02546_kitaku⟧: going home\n\nCOMMON COLLOCATIONS:\n- ⟦{定時|ていじ}→定時：07697_teiji⟧{退社|たいしゃ}: leaving on time\n- {退社|たいしゃ}⟦{時間|じかん}→時間：00468_jikan⟧: time of leaving work\n- ⟦{早期|そうき}→早期：09568_souki⟧{退社|たいしゃ}: early departure from work",
   "cross_references": [
     {
       "type": "antonym",
@@ -184,11 +184,53 @@
       "reading": "にゅうしゃ",
       "headword": "{入社|にゅうしゃ}",
       "label": "joining a company"
+    },
+    {
+      "type": "related",
+      "target_id": "04559_taishoku",
+      "reading": "たいしょく",
+      "headword": "{退職|たいしょく}",
+      "label": "retirement/leaving employment"
+    },
+    {
+      "type": "related",
+      "target_id": "02546_kitaku",
+      "reading": "きたく",
+      "headword": "{帰宅|きたく}",
+      "label": "going home"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04550_taikin",
+      "reading": "たいきん",
+      "headword": "{退勤|たいきん}",
+      "label": "leaving work"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19799_taidan",
+      "reading": "たいだん",
+      "headword": "{退団|たいだん}",
+      "label": "leaving a group"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22434_soutaisuru",
+      "reading": "そうたいする",
+      "headword": "{早退|そうたい}する",
+      "label": "to leave early (from work or school)"
+    },
+    {
+      "type": "antonym",
+      "target_id": "25409_nyuushasuru",
+      "reading": "にゅうしゃする",
+      "headword": "{入社|にゅうしゃ}する",
+      "label": "to join a company"
     }
   ],
   "metadata": {
     "created": "2026-01-17T04:09:23Z",
-    "modified": "2026-08-25T00:21:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

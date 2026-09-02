@@ -3,7 +3,7 @@
   "headword": "{打電|だでん}",
   "reading": "だでん",
   "romaji": "daden",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sending a telegram; telegraphing",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Composed of {打|だ} (to strike, to hit) + {電|でん} (electricity, telegram). The verb {打|う}つ was historically used for sending telegrams because telegraph operators physically tapped a key to transmit Morse code.\n\nCOMMON COLLOCATIONS:\n- {打電|だでん}する: to send a telegram\n- {至急|しきゅう}{打電|だでん}: urgent telegram\n- {打電|だでん}を{受|う}ける: to receive a telegram\n\nSIMILAR WORDS:\n- {電報|でんぽう}: telegram — the general word for the message itself\n- {祝電|しゅくでん}: congratulatory telegram — a specific type\n- {弔電|ちょうでん}: condolence telegram — a specific type\n- {発電|はつでん}: in addition to its common meaning of \"power generation,\" can also mean sending a telegram (though this usage is rare)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01474_denpou",
+      "reading": "でんぽう",
+      "headword": "{電報|でんぽう}",
+      "label": "telegram"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22862_shukuden",
+      "reading": "しゅくでん",
+      "headword": "{祝電|しゅくでん}",
+      "label": "congratulatory telegram"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22863_chouden",
+      "reading": "ちょうでん",
+      "headword": "{弔電|ちょうでん}",
+      "label": "condolence telegram"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04312_hatsuden",
+      "reading": "はつでん",
+      "headword": "{発電|はつでん}",
+      "label": "in addition to its common meaning…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-07T19:16:05Z",
-    "modified": "2026-04-07T19:16:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -17,7 +17,9 @@
       "id": "28736_peppaa_ex1",
       "japanese": "ペッパーを{加|くわ}える。",
       "english": "Add pepper.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28736_peppaa_ex2",
       "japanese": "ブラックペッパーを{挽|ひ}いてかける。",
       "english": "Grind some black pepper and sprinkle it on.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "28736_peppaa_ex3",
       "japanese": "{塩|しお}とペッパーだけのシンプルな{味付|あじつ}けが、{素材|そざい}のよさを{引|ひ}き{立|た}たせる。",
       "english": "A simple seasoning of just salt and pepper brings out the quality of the ingredients.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "ペッパー sounds more modern/Western than {胡椒|こしょう} and is favored in product names, restaurant menus, and recipes with a Western feel. In daily speech, most cooks still say {胡椒|こしょう}.\n\nCOMMON COMPOUNDS:\n- ブラックペッパー: black pepper\n- ホワイトペッパー: white pepper\n- レモンペッパー: lemon pepper\n- ペッパーミル: pepper mill\n\nSIMILAR WORDS:\n- {胡椒|こしょう}: pepper — the everyday word in Japanese\n- {唐辛子|とうがらし}: chili pepper — unrelated; a separate spice\n- スパイス: spices — broad category that includes pepper",
+  "notes": "ペッパー sounds more modern/Western than {胡椒|こしょう} and is favored in product names, restaurant menus, and recipes with a Western feel. In daily speech, most cooks still say {胡椒|こしょう}.\n\nCOMPOUNDS:\n- ブラックペッパー: black pepper\n- ホワイトペッパー: white pepper\n- レモンペッパー: lemon pepper\n- ペッパーミル: pepper mill\n\nSIMILAR WORDS:\n- {胡椒|こしょう}: pepper — the everyday word in Japanese\n- {唐辛子|とうがらし}: chili pepper — unrelated; a separate spice\n- スパイス: spices — broad category that includes pepper",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10321_koshou",
+      "reading": "こしょう",
+      "headword": "{胡椒|こしょう}",
+      "label": "pepper"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11871_tougarashi",
+      "reading": "とうがらし",
+      "headword": "{唐辛子|とうがらし}",
+      "label": "chili pepper"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11054_supaisu",
+      "reading": "すぱいす",
+      "headword": "スパイス",
+      "label": "spices"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-06-04T04:07:37Z",
-    "modified": "2026-06-04T04:07:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

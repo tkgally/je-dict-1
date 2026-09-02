@@ -19,7 +19,9 @@
       "english": "The two are related by blood.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14035_ketsuen_ex2",
@@ -27,7 +29,9 @@
       "english": "She raised a child with no blood relation as her own.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14035_ketsuen_ex3",
@@ -35,10 +39,12 @@
       "english": "In Japanese inheritance law, relatives with closer blood ties have higher priority in succession.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{血縁|けつえん} refers to biological family connections through shared ancestry, as distinct from ties through marriage ({姻戚|いんせき}) or adoption ({養子縁組|ようしえんぐみ}).\n\nCOMMON COLLOCATIONS:\n- {血縁|けつえん}{関係|かんけい}: blood relationship\n- {血縁|けつえん}{者|しゃ}: blood relative\n- {血縁|けつえん}がある: to be related by blood\n- {血縁|けつえん}がない: to have no blood relation\n- {血縁|けつえん}の{濃|こ}い: closely related by blood\n\nCULTURAL NOTE:\nIn Japanese society, {血縁|けつえん} ties have traditionally been important for inheritance, the family register ({戸籍|こせき}), and social obligations. The concept is particularly significant in legal contexts such as {相続|そうぞく} (inheritance).\n\nRELATED TERMS:\n- {親族|しんぞく}: relatives (includes both blood and marriage)\n- {血筋|ちすじ}: bloodline, lineage\n- {縁|えん}: connection, bond (broader concept)",
+  "notes": "{血縁|けつえん} refers to biological family connections through shared ancestry, as distinct from ties through marriage ({姻戚|いんせき}) or adoption ({養子縁組|ようしえんぐみ}).\n\nCOMMON COLLOCATIONS:\n- {血縁|けつえん}{関係|かんけい}: blood relationship\n- {血縁|けつえん}{者|しゃ}: blood relative\n- {血縁|けつえん}がある: to be related by blood\n- {血縁|けつえん}がない: to have no blood relation\n- {血縁|けつえん}の{濃|こ}い: closely related by blood\n\nCULTURAL NOTE:\nIn Japanese society, {血縁|けつえん} ties have traditionally been important for inheritance, the family register ({戸籍|こせき}), and social obligations. The concept is particularly significant in legal contexts such as {相続|そうぞく} (inheritance).\n\nRELATED WORDS:\n- {親族|しんぞく}: relatives (includes both blood and marriage)\n- {血筋|ちすじ}: bloodline, lineage\n- {縁|えん}: connection, bond (broader concept)",
   "cross_references": [
     {
       "type": "synonym",
@@ -53,18 +59,36 @@
       "reading": "しんぞく",
       "headword": "{親族|しんぞく}",
       "label": "relatives (broader)"
+    },
+    {
+      "type": "related",
+      "target_id": "22423_chisuji",
+      "reading": "ちすじ",
+      "headword": "{血筋|ちすじ}",
+      "label": "bloodline, lineage"
+    },
+    {
+      "type": "antonym",
+      "target_id": "24000_inseki",
+      "reading": "いんせき",
+      "headword": "{姻戚|いんせき}",
+      "label": "relative by marriage"
     }
   ],
   "metadata": {
     "created": "2026-02-27T10:10:29Z",
-    "modified": "2026-04-29T10:05:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["family"]
+      "semantic": [
+        "family"
+      ]
     }
   }
 }

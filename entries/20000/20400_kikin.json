@@ -17,7 +17,9 @@
       "id": "20400_kikin_ex1",
       "japanese": "{奨学金|しょうがくきん}{基金|ききん}に{寄付|きふ}した。",
       "english": "I donated to the scholarship fund.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20400_kikin_ex2",
       "japanese": "{災害|さいがい}{復興|ふっこう}{基金|ききん}が{設立|せつりつ}された。",
       "english": "A disaster recovery fund was established.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "20400_kikin_ex3",
       "japanese": "{国際通貨|こくさいつうか}{基金|ききん}は{世界|せかい}の{経済|けいざい}{安定|あんてい}を{目的|もくてき}とする{機関|きかん}だ。",
       "english": "The International Monetary Fund is an organization aimed at global economic stability.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A formal word frequently encountered in news, finance, and organizational contexts. It can refer to both the money itself and the organization managing it.\n\nFORMATION:\n{基|き} (base, foundation) + {金|きん} (money, funds)\n\nCOMMON COLLOCATIONS:\n- {基金|ききん}を{設立|せつりつ}する: to establish a fund\n- {基金|ききん}に{寄付|きふ}する: to donate to a fund\n- {基金|ききん}を{運用|うんよう}する: to manage/invest a fund\n- {基金|ききん}を{積|つ}み{立|た}てる: to build up a fund\n\nNOTABLE EXAMPLES:\n- {国際通貨|こくさいつうか}{基金|ききん} (IMF): International Monetary Fund\n- {年金|ねんきん}{基金|ききん}: pension fund\n- {国連児童|こくれんじどう}{基金|ききん} (UNICEF): United Nations Children's Fund\n\nSIMILAR WORDS:\n- {資金|しきん}: funds, capital — money available for a specific use, not necessarily organized as a fund\n- {財団|ざいだん}: foundation — an organization, usually with an endowment\n- {積立金|つみたてきん}: reserve fund, savings — money accumulated over time through regular contributions",
+  "notes": "A formal word frequently encountered in news, finance, and organizational contexts. It can refer to both the money itself and the organization managing it.\n\nFORMS:\n{基|き} (base, foundation) + {金|きん} (money, funds)\n\nCOMMON COLLOCATIONS:\n- {基金|ききん}を{設立|せつりつ}する: to establish a fund\n- {基金|ききん}に{寄付|きふ}する: to donate to a fund\n- {基金|ききん}を{運用|うんよう}する: to manage/invest a fund\n- {基金|ききん}を{積|つ}み{立|た}てる: to build up a fund\n\nNOTABLE EXAMPLES:\n- {国際通貨|こくさいつうか}{基金|ききん} (IMF): International Monetary Fund\n- {年金|ねんきん}{基金|ききん}: pension fund\n- {国連児童|こくれんじどう}{基金|ききん} (UNICEF): United Nations Children's Fund\n\nSIMILAR WORDS:\n- {資金|しきん}: funds, capital — money available for a specific use, not necessarily organized as a fund\n- {財団|ざいだん}: foundation — an organization, usually with an endowment\n- {積立金|つみたてきん}: reserve fund, savings — money accumulated over time through regular contributions",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09937_shikin",
+      "reading": "しきん",
+      "headword": "{資金|しきん}",
+      "label": "funds, capital"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11331_zaidan",
+      "reading": "ざいだん",
+      "headword": "{財団|ざいだん}",
+      "label": "foundation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28915_tsumitatekin",
+      "reading": "つみたてきん",
+      "headword": "{積立金|つみたてきん}",
+      "label": "reserve fund, savings"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["finance", "organizations"]
+      "semantic": [
+        "finance",
+        "organizations"
+      ]
     },
     "created": "2026-03-29T12:11:21Z",
-    "modified": "2026-03-29T12:11:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

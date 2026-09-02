@@ -17,7 +17,9 @@
       "id": "28478_tochidai_ex1",
       "japanese": "{都心|としん}は{土地代|とちだい}が{高|たか}い。",
       "english": "Land prices in central Tokyo are high.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28478_tochidai_ex2",
       "japanese": "{土地代|とちだい}を{払|はら}い、{建物|たてもの}は{後|あと}で{建|た}てる{予定|よてい}だ。",
       "english": "I'll pay for the land and plan to build the house later.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28478_tochidai_ex3",
       "japanese": "{地方|ちほう}に{引|ひ}っ{越|こ}せば、{土地代|とちだい}が{安|やす}くて{広|ひろ}い{家|いえ}が{建|た}てられる。",
       "english": "If you move to the countryside, land is cheap and you can build a spacious house.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {土地|とち} (land) + {代|だい} (price, cost). The suffix {代|だい} attaches to many cost-related nouns ({電気|でんき}{代|だい}, {交通|こうつう}{費|ひ}, etc.).\n\nCOMMON COLLOCATIONS:\n- {土地代|とちだい}が{高|たか}い／{安|やす}い: land is expensive / cheap\n- {土地代|とちだい}を{払|はら}う: to pay for the land\n- {土地代|とちだい}が{上|あ}がる／{下|さ}がる: land prices rise / fall\n\nSIMILAR WORDS:\n- {地価|ちか}: land value — more formal, used in news and real-estate statistics\n- {家賃|やちん}: rent (for a house/apartment) — recurring rental cost, not a purchase price\n- {不動産|ふどうさん}{価格|かかく}: real-estate price — broader, includes buildings as well as land",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12130_chika",
+      "reading": "ちか",
+      "headword": "{地価|ちか}",
+      "label": "land value"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03639_yachin",
+      "reading": "やちん",
+      "headword": "{家賃|やちん}",
+      "label": "rent"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["business"],
+      "politeness": "plain",
+      "semantic": [
+        "business"
+      ],
       "domain": []
     },
     "created": "2026-05-31T04:10:13Z",
-    "modified": "2026-05-31T04:10:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

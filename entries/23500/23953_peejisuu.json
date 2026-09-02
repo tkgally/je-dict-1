@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Compound of the loanword ページ ('page') and the suffix {〜数|すう} ('number of; count of'), which attaches productively to many nouns to mean 'number of X': {人数|にんずう} ('number of people'), {回数|かいすう} ('number of times'), {件数|けんすう} ('number of cases'), and so on.\n\nUSAGE:\n- Refers to a count, not to individual page numbers. For 'page number' (e.g., 'page 12'), use {ページ{番号|ばんごう}} or simply specify the page with \"○○ページ\".\n- Frequently appears with verbs of quantity: {多|おお}い ('large'), {少|すく}ない ('few'), {足|た}りる / {足|た}りない ('enough / not enough'), {超|こ}える ('to exceed'), {制限|せいげん}する ('to limit').\n- Very common in academic, publishing, and office contexts.\n\nCOMMON COLLOCATIONS:\n- ページ{数|すう}が{多|おお}い: to have many pages\n- ページ{数|すう}が{少|すく}ない: to have few pages\n- ページ{数|すう}を{数|かぞ}える: to count the number of pages\n- ページ{数|すう}{制限|せいげん}: page limit\n- {総|そう}ページ{数|すう}: total number of pages\n- ページ{数|すう}が{増|ふ}える: the page count grows\n\nSIMILAR WORDS:\n- ページ{番号|ばんごう}: page number — the numeric label on a specific page, not the total count.\n- {文字数|もじすう}: character count — another measure of document length, tied to characters rather than pages.\n- {枚数|まいすう}: number of sheets — used for loose paper, documents, or tickets, not for bound pages.\n- {分量|ぶんりょう}: amount; volume — a more general word for the overall size or quantity of content.",
+  "notes": "Compound of the loanword ページ ('page') and the suffix {〜数|すう} ('number of; count of'), which attaches productively to many nouns to mean 'number of X': {人数|にんずう} ('number of people'), {回数|かいすう} ('number of times'), {件数|けんすう} ('number of cases'), and so on.\n\nUSAGE:\n- Refers to a count, not to individual page numbers. For 'page number' (e.g., 'page 12'), use ページ{番号|ばんごう} or simply specify the page with \"○○ページ\".\n- Frequently appears with verbs of quantity: {多|おお}い ('large'), {少|すく}ない ('few'), {足|た}りる / {足|た}りない ('enough / not enough'), {超|こ}える ('to exceed'), {制限|せいげん}する ('to limit').\n- Very common in academic, publishing, and office contexts.\n\nCOMMON COLLOCATIONS:\n- ページ{数|すう}が{多|おお}い: to have many pages\n- ページ{数|すう}が{少|すく}ない: to have few pages\n- ページ{数|すう}を{数|かぞ}える: to count the number of pages\n- ページ{数|すう}{制限|せいげん}: page limit\n- {総|そう}ページ{数|すう}: total number of pages\n- ページ{数|すう}が{増|ふ}える: the page count grows\n\nSIMILAR WORDS:\n- ページ{番号|ばんごう}: page number — the numeric label on a specific page, not the total count.\n- {文字数|もじすう}: character count — another measure of document length, tied to characters rather than pages.\n- {枚数|まいすう}: number of sheets — used for loose paper, documents, or tickets, not for bound pages.\n- {分量|ぶんりょう}: amount; volume — a more general word for the overall size or quantity of content.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29489_mojisuu",
+      "reading": "もじすう",
+      "headword": "{文字数|もじすう}",
+      "label": "character count"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13143_maisuu",
+      "reading": "まいすう",
+      "headword": "{枚数|まいすう}",
+      "label": "number of sheets"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05474_bunryou",
+      "reading": "ぶんりょう",
+      "headword": "{分量|ぶんりょう}",
+      "label": "amount"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +82,6 @@
       ]
     },
     "created": "2026-04-15T15:57:49Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

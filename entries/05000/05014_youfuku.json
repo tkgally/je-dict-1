@@ -34,7 +34,7 @@
     },
     {
       "id": "05014_youfuku_ex3",
-      "japanese": "{洋服|ようふく}⟦{ダンス|だんす}→ダンス：03856_dansu⟧⟦に→に：00314_ni⟧⟦{服|ふく}→服：00695_fuku⟧⟦を→を：00422_wo⟧⟦{掛|か}けました→掛ける：00854_kakeru⟧。",
+      "japanese": "{洋服|ようふく}⟦ダンス→ダンス：03856_dansu⟧⟦に→に：00314_ni⟧⟦{服|ふく}→服：00695_fuku⟧⟦を→を：00422_wo⟧⟦{掛|か}けました→掛ける：00854_kakeru⟧。",
       "english": "I hung the clothes in the wardrobe.",
       "notes": null,
       "has_audio": false,
@@ -78,11 +78,32 @@
       "reading": "ふく",
       "headword": "{服|ふく}",
       "label": "clothes (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01825_ifuku",
+      "reading": "いふく",
+      "headword": "{衣服|いふく}",
+      "label": "clothing, clothes, garments"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04680_irui",
+      "reading": "いるい",
+      "headword": "{衣類|いるい}",
+      "label": "clothing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21153_iryouhin",
+      "reading": "いりょうひん",
+      "headword": "{衣料品|いりょうひん}",
+      "label": "clothing"
     }
   ],
   "metadata": {
     "created": "2026-01-14T13:31:53Z",
-    "modified": "2026-08-13T03:32:27Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

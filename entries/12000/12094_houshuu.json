@@ -19,7 +19,9 @@
       "english": "The compensation will be paid later.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12094_houshuu_ex2",
@@ -27,7 +29,9 @@
       "english": "What is the compensation for this job?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12094_houshuu_ex3",
@@ -35,7 +39,9 @@
       "english": "The increase in executive compensation was discussed at the shareholders' meeting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal word used primarily in business, legal, and professional contexts. For everyday \"pay\" or \"salary,\" {給料|きゅうりょう} or {給与|きゅうよ} are more common. {報酬|ほうしゅう} often implies payment for professional services (lawyers, consultants, doctors) or compensation for a specific task.\n\nCOMMON COLLOCATIONS:\n- {報酬|ほうしゅう}を{受|う}け{取|と}る: receive compensation\n- {報酬|ほうしゅう}を{支払|しはら}う: pay compensation\n- {役員|やくいん}{報酬|ほうしゅう}: executive compensation\n- {成功|せいこう}{報酬|ほうしゅう}: success fee, contingency fee\n- {高額|こうがく}な{報酬|ほうしゅう}: high compensation\n\nSIMILAR WORDS:\n{報酬|ほうしゅう} is formal and implies payment for services or achievements. {給料|きゅうりょう} (salary) and {賃金|ちんぎん} (wages) are specifically for regular employment pay. {報|むく}い (reward/retribution) is broader and can be non-monetary.",
@@ -53,19 +59,67 @@
       "reading": "ちんぎん",
       "headword": "{賃金|ちんぎん}",
       "label": "wages"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00264_kyuuyo",
+      "reading": "きゅうよ",
+      "headword": "{給与|きゅうよ}",
+      "label": "salary, pay, wages"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10478_houbi",
+      "reading": "ほうび",
+      "headword": "{褒美|ほうび}",
+      "label": "reward, prize"
+    },
+    {
+      "type": "related",
+      "target_id": "20360_dachin",
+      "reading": "だちん",
+      "headword": "{駄賃|だちん}",
+      "label": "small reward for an errand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21430_gohoubi",
+      "reading": "ごほうび",
+      "headword": "ご{褒美|ほうび}",
+      "label": "reward"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22035_shakin",
+      "reading": "しゃきん",
+      "headword": "{謝金|しゃきん}",
+      "label": "honorarium"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25914_genkouryou",
+      "reading": "げんこうりょう",
+      "headword": "{原稿料|げんこうりょう}",
+      "label": "manuscript fee"
     }
   ],
   "metadata": {
     "created": "2026-02-20T04:54:46Z",
-    "modified": "2026-04-26T06:29:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

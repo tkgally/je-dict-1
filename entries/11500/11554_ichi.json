@@ -2,7 +2,7 @@
   "id": "11554_ichi",
   "headword": "{位置|いち}",
   "reading": "いち",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "position, location",
   "conjugation": {
     "type": "suru",
@@ -133,11 +133,19 @@
       ]
     }
   ],
-  "notes": "A versatile word used for both physical location and figurative position. When used as a suru verb ({位置|いち}する), it means \"to be located at\" or \"to be situated.\"\n\nCOMMON COLLOCATIONS:\n・{位置|いち}{情報|じょうほう} (location information)\n・{位置|いち}づけ (positioning, status)\n・{位置|いち}を{確認|かくにん}する (confirm the position)\n・{位置|いち}を{特定|とくてい}する (pinpoint the location)\n・〜に{位置|いち}する (to be located at ~)",
-  "cross_references": [],
+  "notes": "A versatile word used for both physical location and figurative position. When used as a suru verb ({位置|いち}する), it means \"to be located at\" or \"to be situated.\"\n\nCOMMON COLLOCATIONS:\n- {位置|いち}{情報|じょうほう} (location information)\n- {位置|いち}づけ (positioning, status)\n- {位置|いち}を{確認|かくにん}する (confirm the position)\n- {位置|いち}を{特定|とくてい}する (pinpoint the location)\n- 〜に{位置|いち}する (to be located at ~)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17254_sokui",
+      "reading": "そくい",
+      "headword": "{測位|そくい}",
+      "label": "positioning, location measurement"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T13:17:03Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

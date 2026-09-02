@@ -55,7 +55,36 @@
     }
   ],
   "notes": "Compound of {在宅|ざいたく} ('being at home') and {医療|いりょう} ('medical care').\n\nUSAGE:\n- Refers to a care model in which medical professionals visit patients at home, as opposed to the patient going to a hospital or clinic.\n- A key concept in Japan's aging-society healthcare policy; closely tied to {地域|ちいき}{包括|ほうかつ}ケア ('community-based integrated care').\n- Distinct from {在宅|ざいたく}{介護|かいご} ('home care/nursing'), which focuses on daily-living assistance rather than medical treatment, though the two are often combined in practice.\n\nCOMMON COLLOCATIONS:\n- {在宅医療|ざいたくいりょう}を{受|う}ける: to receive home medical care\n- {在宅医療|ざいたくいりょう}を{提供|ていきょう}する: to provide home medical care\n- {在宅医療|ざいたくいりょう}{制度|せいど}: the home healthcare system\n- {在宅医療|ざいたくいりょう}に{切|き}り{替|か}える: to switch to home healthcare\n\nSIMILAR WORDS:\n- {往診|おうしん}: house call (by a doctor) — a component of {在宅医療|ざいたくいりょう}; a single visit rather than an ongoing model of care.\n- {訪問|ほうもん}{看護|かんご}: visiting nursing — a related nursing service; also often part of {在宅医療|ざいたくいりょう}.\n- {在宅|ざいたく}{介護|かいご}: home care, home nursing care — focuses on daily-living support (bathing, feeding, etc.) rather than medical treatment.\n- {通院|つういん}: going to a hospital/clinic for treatment — the usual contrast.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08209_oushin",
+      "reading": "おうしん",
+      "headword": "{往診|おうしん}",
+      "label": "house call"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18931_zaitakukaigo",
+      "reading": "ざいたくかいご",
+      "headword": "{在宅介護|ざいたくかいご}",
+      "label": "home care, home nursing care"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05975_tsuuin",
+      "reading": "つういん",
+      "headword": "{通院|つういん}",
+      "label": "going to a hospital/clinic for treatment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24830_shuumatsuiryou",
+      "reading": "しゅうまついりょう",
+      "headword": "{終末|しゅうまつ}{医療|いりょう}",
+      "label": "end-of-life care"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -70,6 +99,6 @@
       ]
     },
     "created": "2026-04-15T10:11:37Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

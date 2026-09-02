@@ -17,7 +17,9 @@
       "id": "19956_andokan_ex1",
       "japanese": "{安堵感|あんどかん}に{包|つつ}まれた。",
       "english": "I was enveloped in a sense of relief.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19956_andokan_ex2",
       "japanese": "{試験|しけん}に{合格|ごうかく}して{安堵感|あんどかん}を{覚|おぼ}えた。",
       "english": "I felt a sense of relief after passing the exam.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "19956_andokan_ex3",
       "japanese": "{無事|ぶじ}に{手術|しゅじゅつ}が{終|お}わったと{聞|き}いて、{大|おお}きな{安堵感|あんどかん}が{広|ひろ}がった。",
       "english": "When I heard the surgery had ended safely, a great sense of relief spread through me.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {安堵|あんど} (relief) + {感|かん} (feeling, sense). While {安堵|あんど} by itself means relief, adding {感|かん} emphasizes the subjective, felt experience of that relief.\n\nCOMMON COLLOCATIONS:\n- {安堵感|あんどかん}を{覚|おぼ}える: to feel a sense of relief\n- {安堵感|あんどかん}に{包|つつ}まれる: to be wrapped in relief\n- {安堵感|あんどかん}が{広|ひろ}がる: a sense of relief spreads\n- {大|おお}きな{安堵感|あんどかん}: great relief\n\nSIMILAR WORDS:\n- {安心|あんしん}: peace of mind (broader; can be a state rather than a moment)\n- {安堵|あんど}: relief (the emotion itself, without the {感|かん} suffix)\n- ほっとする: to feel relieved (colloquial, onomatopoeic expression)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01288_anshin",
+      "reading": "あんしん",
+      "headword": "{安心|あんしん}",
+      "label": "peace of mind (broader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20382_anshinkan",
+      "reading": "あんしんかん",
+      "headword": "{安心感|あんしんかん}",
+      "label": "sense of security"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     },
     "created": "2026-03-27T07:17:31Z",
-    "modified": "2026-03-27T07:17:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

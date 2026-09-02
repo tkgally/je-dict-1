@@ -17,7 +17,9 @@
       "id": "28044_nenryouyu_ex1",
       "japanese": "{船|ふね}は{燃料油|ねんりょうゆ}で{動|うご}く。",
       "english": "Ships run on fuel oil.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28044_nenryouyu_ex2",
       "japanese": "{燃料油|ねんりょうゆ}の{価格|かかく}が{上|あ}がった。",
       "english": "The price of fuel oil has risen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28044_nenryouyu_ex3",
       "japanese": "{工場|こうじょう}では、ボイラーの{燃料油|ねんりょうゆ}の{使用量|しようりょう}を{減|へ}らす{努力|どりょく}をしている。",
       "english": "The factory is working to cut the amount of fuel oil its boilers use.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {燃料|ねんりょう} (fuel) and {油|ゆ} (oil).\n\nCOMMON COLLOCATIONS:\n- {燃料油|ねんりょうゆ}の{補給|ほきゅう}: refueling with fuel oil\n- {燃料油|ねんりょうゆ}の{消費|しょうひ}: fuel oil consumption\n\nSIMILAR WORDS:\n- {重油|じゅうゆ}: heavy oil — a specific heavy grade of fuel oil\n- {軽油|けいゆ}: diesel oil, gas oil — a lighter grade",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21768_juuyu",
+      "reading": "じゅうゆ",
+      "headword": "{重油|じゅうゆ}",
+      "label": "heavy oil"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19777_keiyu",
+      "reading": "けいゆ",
+      "headword": "{軽油|けいゆ}",
+      "label": "diesel oil, gas oil"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["science"],
+      "politeness": "plain",
+      "semantic": [
+        "science"
+      ],
       "domain": []
     },
     "created": "2026-05-24T04:10:04Z",
-    "modified": "2026-05-24T04:10:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

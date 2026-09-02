@@ -17,7 +17,9 @@
       "id": "21694_kahan_ex1",
       "japanese": "{過半|かはん}の{議席|ぎせき}を{獲得|かくとく}した。",
       "english": "They won a majority of the seats.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21694_kahan_ex2",
       "japanese": "{参加者|さんかしゃ}の{過半|かはん}が{賛成|さんせい}した。",
       "english": "More than half of the participants agreed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "21694_kahan_ex3",
       "japanese": "{売上|うりあげ}の{過半|かはん}を{海外|かいがい}{市場|しじょう}が{占|し}めている。",
       "english": "The overseas market accounts for the majority of sales.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A formal, somewhat literary word for \"more than half.\" Most commonly encountered in the compound {過半数|かはんすう} (majority number), which is the standard word for \"majority\" in voting and parliamentary contexts.\n\nCOMMON COLLOCATIONS:\n- {過半数|かはんすう}: majority (of votes)\n- {過半数|かはんすう}を{占|し}める: to constitute a majority\n- {過半|かはん}を{超|こ}える: to exceed half\n\nSIMILAR WORDS:\n- {大半|たいはん}: the greater part, most (implies well over half)\n- {半数|はんすう}{以上|いじょう}: half or more (more precise, less formal)\n- {多数|たすう}: a large number, the majority (not necessarily over 50%)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00400_taihan",
+      "reading": "たいはん",
+      "headword": "{大半|たいはん}",
+      "label": "the greater part, most"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05612_tasuu",
+      "reading": "たすう",
+      "headword": "{多数|たすう}",
+      "label": "a large number, the majority"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["quantity", "politics"]
+      "semantic": [
+        "quantity",
+        "politics"
+      ]
     },
     "created": "2026-04-02T21:24:52Z",
-    "modified": "2026-04-02T21:24:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

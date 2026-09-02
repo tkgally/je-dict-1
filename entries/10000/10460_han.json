@@ -3,7 +3,7 @@
   "id": "10460_han",
   "headword": "{半|はん}",
   "reading": "はん",
-  "part_of_speech": "noun / suffix",
+  "part_of_speech": "noun, suffix",
   "gloss": "half",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "Let's meet at half past three.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10460_han_ex2",
@@ -27,7 +29,9 @@
       "english": "Half the amount is enough.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10460_han_ex3",
@@ -35,7 +39,9 @@
       "english": "It takes about two and a half hours from Tokyo to Osaka by bullet train.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{半|はん} means half. It is commonly attached after time expressions to mean \"half past\" and after counters to mean \"and a half.\"\n\nCOMMON PATTERNS:\n- {三時|さんじ}{半|はん}: half past three (3:30)\n- {一時間|いちじかん}{半|はん}: one and a half hours\n- {半年|はんとし}: half a year; six months\n- {半額|はんがく}: half price\n- {半分|はんぶん}: half (as a noun)\n\nNote: {半|はん} attached to time words means \"half past,\" while {半分|はんぶん} is used to mean \"half\" as a standalone noun.",
@@ -47,16 +53,36 @@
       "note": "anti-; counter-"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09672_sanjuppun",
+      "reading": "さんじゅっぷん",
+      "headword": "{三十分|さんじゅっぷん}",
+      "label": "thirty minutes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26670_kata",
+      "reading": "かた",
+      "headword": "{片|かた}",
+      "label": "one (of a pair)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-07T13:15:08Z",
-    "modified": "2026-04-07T09:34:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "suffix"],
+      "pos": [
+        "noun",
+        "suffix"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity"]
+      "semantic": [
+        "quantity"
+      ]
     }
   }
 }

@@ -19,7 +19,9 @@
       "english": "He serves as an advisor to the company.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16146_komon_ex2",
@@ -27,7 +29,9 @@
       "english": "The teacher who advises our club is very strict.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16146_komon_ex3",
@@ -35,21 +39,50 @@
       "english": "Please consult the legal advisor regarding legal matters.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nIn Japanese schools, every club ({部活|ぶかつ}) must have a {顧問|こもん} — a teacher who supervises and sometimes coaches the club. This is a significant responsibility and a distinctive feature of the Japanese school system. In business, {顧問|こもん} often refers to a retired executive who remains in an advisory role.\n\nCOMMON COLLOCATIONS:\n- {顧問|こもん}{弁護士|べんごし} (legal advisor, attorney on retainer)\n- {顧問|こもん}を{務|つと}める (to serve as an advisor)\n- {部活|ぶかつ}の{顧問|こもん} (club advisor — at school)\n- {顧問|こもん}{契約|けいやく} (advisory/consulting contract)\n- {技術|ぎじゅつ}{顧問|こもん} (technical advisor)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20958_soudanyaku",
+      "reading": "そうだんやく",
+      "headword": "{相談役|そうだんやく}",
+      "label": "advisor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24877_jogensha",
+      "reading": "じょげんしゃ",
+      "headword": "{助言者|じょげんしゃ}",
+      "label": "advisor"
+    },
+    {
+      "type": "related",
+      "target_id": "24977_hosakan",
+      "reading": "ほさかん",
+      "headword": "{補佐官|ほさかん}",
+      "label": "aide"
+    }
+  ],
   "metadata": {
     "created": "2026-03-10T06:06:32Z",
-    "modified": "2026-03-10T06:06:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["occupation", "education"]
+      "semantic": [
+        "occupation",
+        "education"
+      ]
     }
   }
 }

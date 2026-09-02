@@ -17,7 +17,9 @@
       "id": "19996_denatsu_ex1",
       "japanese": "{電圧|でんあつ}が{高|たか}い。",
       "english": "The voltage is high.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19996_denatsu_ex2",
       "japanese": "{日本|にほん}の{家庭|かてい}の{電圧|でんあつ}は100ボルトだ。",
       "english": "The household voltage in Japan is 100 volts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,59 @@
       "id": "19996_denatsu_ex3",
       "japanese": "{海外|かいがい}で{日本|にほん}の{電化製品|でんかせいひん}を{使|つか}うときは、{電圧|でんあつ}の{違|ちが}いに{注意|ちゅうい}が{必要|ひつよう}だ。",
       "english": "When using Japanese electronics overseas, you need to be careful about voltage differences.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {電|でん} (electricity) and {圧|あつ} (pressure). The standard term for voltage in both everyday and technical contexts.\n\nCULTURAL CONTEXT:\nJapan uses 100V household electricity, which is lower than most countries (110-240V). This is a common topic for travelers and expats who need voltage converters ({変圧器|へんあつき}).\n\nCOMMON COLLOCATIONS:\n- {電圧|でんあつ}が{高|たか}い/{低|ひく}い — high/low voltage\n- {電圧|でんあつ}を{上|あ}げる/{下|さ}げる — to raise/lower voltage\n- {高|こう}{電圧|でんあつ} — high voltage\n- {電圧|でんあつ}{変換|へんかん} — voltage conversion\n\nRELATED TERMS:\n- {電流|でんりゅう} — electric current\n- {電力|でんりょく} — electric power\n- {変圧器|へんあつき} — transformer, voltage converter\n- ボルト — volt (unit)",
+  "notes": "A compound of {電|でん} (electricity) and {圧|あつ} (pressure). The standard term for voltage in both everyday and technical contexts.\n\nCULTURAL NOTE:\nJapan uses 100V household electricity, which is lower than most countries (110-240V). This is a common topic for travelers and expats who need voltage converters ({変圧器|へんあつき}).\n\nCOMMON COLLOCATIONS:\n- {電圧|でんあつ}が{高|たか}い/{低|ひく}い — high/low voltage\n- {電圧|でんあつ}を{上|あ}げる/{下|さ}げる — to raise/lower voltage\n- {高|こう}{電圧|でんあつ} — high voltage\n- {電圧|でんあつ}{変換|へんかん} — voltage conversion\n\nRELATED WORDS:\n- {電流|でんりゅう} — electric current\n- {電力|でんりょく} — electric power\n- {変圧器|へんあつき} — transformer, voltage converter\n- ボルト — volt (unit)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21016_denryuu",
+      "reading": "でんりゅう",
+      "headword": "{電流|でんりゅう}",
+      "label": "electric current"
+    },
+    {
+      "type": "related",
+      "target_id": "14609_denryoku",
+      "reading": "でんりょく",
+      "headword": "{電力|でんりょく}",
+      "label": "electric power"
+    },
+    {
+      "type": "related",
+      "target_id": "23094_boruto",
+      "reading": "ぼると",
+      "headword": "ボルト",
+      "label": "volt"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24378_denka",
+      "reading": "でんか",
+      "headword": "{電荷|でんか}",
+      "label": "electric charge"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["science", "technology"]
+      "semantic": [
+        "science",
+        "technology"
+      ]
     },
     "created": "2026-03-28T04:34:49Z",
-    "modified": "2026-03-28T04:34:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

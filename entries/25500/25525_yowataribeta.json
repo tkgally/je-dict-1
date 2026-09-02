@@ -3,7 +3,7 @@
   "headword": "{世渡|よわた}り{下手|べた}",
   "reading": "よわたりべた",
   "romaji": "yowataribeta",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "being bad at getting along in the world; social ineptness",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Composed of {世渡|よわた}り (getting along in the world; making one's way through life) + {下手|べた} (unskilled at). Implies someone who is too honest, awkward, or principled to play social games effectively. Often used with a degree of sympathy or self-deprecation, not purely as criticism.\n\nCOMMON COLLOCATIONS:\n- {世渡|よわた}り{下手|べた}な{人|ひと}: a socially inept person\n- {世渡|よわた}りが{下手|へた}: to be bad at navigating the world\n\nSIMILAR WORDS:\n- {世渡|よわた}り{上手|じょうず}: skilled at getting along in the world — the opposite; someone who smoothly navigates social and professional life\n- {不器用|ぶきよう}: clumsy; awkward — broader; can refer to physical or social clumsiness\n- {要領|ようりょう}が{悪|わる}い: inefficient; awkward at handling things — describes poor practical judgment more than social skills",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "08496_yowatarijouzu",
+      "reading": "よわたりじょうず",
+      "headword": "{世渡|よわた}り{上手|じょうず}",
+      "label": "skilled at getting along in the world"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06642_bukiyou",
+      "reading": "ぶきよう",
+      "headword": "{不器用|ぶきよう}",
+      "label": "clumsy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20144_youryougawarui",
+      "reading": "ようりょうがわるい",
+      "headword": "{要領|ようりょう}が{悪|わる}い",
+      "label": "inefficient"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,12 +76,14 @@
         "noun",
         "adjective-na"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "personality",
         "society"
       ]
     },
     "created": "2026-04-25T15:22:57Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

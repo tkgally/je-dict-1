@@ -3,7 +3,7 @@
   "id": "10943_shinpuru",
   "headword": "シンプル",
   "reading": "しんぷる",
-  "part_of_speech": "adjective (na)",
+  "part_of_speech": "na-adjective",
   "gloss": "simple",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "I like simple designs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10943_shinpuru_ex2",
@@ -27,7 +29,9 @@
       "english": "The operation is simple and easy to use.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10943_shinpuru_ex3",
@@ -35,7 +39,9 @@
       "english": "Things often go better if you think about them simply.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "FORMS:\n- Attributive: シンプルな + noun\n- Predicate: シンプルだ / シンプルです\n- Adverbial: シンプルに\n\nCOMMON COLLOCATIONS:\n- シンプルなデザイン: simple design\n- シンプルな{暮|く}らし: simple lifestyle\n- シンプルな{操作|そうさ}: simple operation\n- シンプル・イズ・ベスト: \"simple is best\" (common expression in Japanese)\n\nUSAGE:\nシンプル is generally used positively to describe clean, elegant simplicity. It differs from {単純|たんじゅん}, which can carry a negative nuance of being overly simplistic or naive.\n\nSIMILAR WORDS:\n- {単純|たんじゅん}: simple (can be negative — simplistic, naive)\n- {簡素|かんそ}: simple, plain (more formal, often used for decor or ceremonies)\n- {素朴|そぼく}: simple, unaffected (emphasizes naturalness)",
@@ -53,18 +59,29 @@
       "reading": "かんそ",
       "headword": "{簡素|かんそ}",
       "label": "plain, austere"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06071_soboku",
+      "reading": "そぼく",
+      "headword": "{素朴|そぼく}",
+      "label": "simple, unaffected"
     }
   ],
   "metadata": {
     "created": "2026-02-11T19:10:24Z",
-    "modified": "2026-04-24T10:28:26Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

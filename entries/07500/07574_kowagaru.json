@@ -2,7 +2,7 @@
   "id": "07574_kowagaru",
   "headword": "{怖|こわ}がる",
   "reading": "こわがる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to be afraid of; to fear",
   "conjugation": {
     "type": "godan",
@@ -138,10 +138,33 @@
       ]
     }
   ],
-  "notes": "VERB TYPE:\n{他動詞|たどうし} (transitive verb)\n\nGodan verb ({五段動詞|ごだんどうし}) ending in る\n・{怖|こわ}がらない (negative)\n・{怖|こわ}がって (te-form)\n・{怖|こわ}がった (past)\n\nGRAMMAR NOTE:\nThis is the -がる form of the i-adjective {怖|こわ}い. The -がる suffix converts adjectives describing internal feelings into verbs that describe observable behavior.\n\n{怖|こわ}い vs {怖|こわ}がる:\n・{怖|こわ}い - (I am) scared, frightening\n・{怖|こわ}がる - to be afraid of, to show fear (observed behavior)\n\nCOMMON PATTERNS:\n・〜を{怖|こわ}がる - to be afraid of ~\n・{怖|こわ}がらせる - to frighten, to scare (causative)\n・{怖|こわ}がり - a scaredy-cat, timid person (noun form)\n\nRELATED -がる VERBS:\n・{欲|ほ}しがる - to want (from {欲|ほ}しい)\n・{恥|は}ずかしがる - to be shy (from {恥|は}ずかしい)\n・{寂|さび}しがる - to feel lonely (from {寂|さび}しい)",
+  "notes": "VERB TYPE:\n{他動詞|たどうし} (transitive verb)\n\nGodan verb ({五段動詞|ごだんどうし}) ending in る\n- {怖|こわ}がらない (negative)\n- {怖|こわ}がって (te-form)\n- {怖|こわ}がった (past)\n\nCOMMON PATTERNS:\nThis is the -がる form of the i-adjective {怖|こわ}い. The -がる suffix converts adjectives describing internal feelings into verbs that describe observable behavior.\n\n{怖|こわ}い vs {怖|こわ}がる:\n- {怖|こわ}い - (I am) scared, frightening\n- {怖|こわ}がる - to be afraid of, to show fear (observed behavior)\n- 〜を{怖|こわ}がる - to be afraid of ~\n- {怖|こわ}がらせる - to frighten, to scare (causative)\n- {怖|こわ}がり - a scaredy-cat, timid person (noun form)\n\nRELATED -がる VERBS:\n- {欲|ほ}しがる - to want (from {欲|ほ}しい)\n- {恥|は}ずかしがる - to be shy (from {恥|は}ずかしい)\n- {寂|さび}しがる - to feel lonely (from {寂|さび}しい)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07573_hoshigaru",
+      "reading": "ほしがる",
+      "headword": "{欲|ほ}しがる",
+      "label": "to want"
+    },
+    {
+      "type": "related",
+      "target_id": "07786_hazukashigaru",
+      "reading": "はずかしがる",
+      "headword": "{恥|は}ずかしがる",
+      "label": "to be shy"
+    },
+    {
+      "type": "related",
+      "target_id": "07787_sabishigaru",
+      "reading": "さびしがる",
+      "headword": "{寂|さび}しがる",
+      "label": "to feel lonely"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T10:31:31Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -150,6 +173,7 @@
       ],
       "transitivity": "transitive",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ],

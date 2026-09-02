@@ -22,7 +22,9 @@
       "id": "26007_yuutousei_ex1",
       "japanese": "{彼女|かのじょ}は{優等生|ゆうとうせい}だ。",
       "english": "She is an honor student.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "26007_yuutousei_ex2",
       "japanese": "{優等生|ゆうとうせい}ばかりのクラスだった。",
       "english": "It was a class full of top students.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "26007_yuutousei_ex3",
       "japanese": "{小学校|しょうがっこう}のころからずっと{優等生|ゆうとうせい}で{通|とお}してきた。",
       "english": "She has been known as an honor student ever since elementary school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "26007_yuutousei_ex4",
       "japanese": "{優等生|ゆうとうせい}な{答|こた}えだね。",
       "english": "That's a textbook answer, isn't it.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "26007_yuutousei_ex5",
       "japanese": "{優等生的|ゆうとうせいてき}な{対応|たいおう}では{物足|ものた}りない。",
       "english": "A by-the-book response just isn't enough.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,21 +72,52 @@
       "id": "26007_yuutousei_ex6",
       "japanese": "あの{会社|かいしゃ}は{業界|ぎょうかい}の{優等生|ゆうとうせい}と{言|い}われている。",
       "english": "That company is said to be the model student of the industry.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Literally \"excellent grade student.\" In its figurative use, {優等生|ゆうとうせい} can carry a mildly negative undertone, implying someone (or something) is boringly correct or lacks originality.\n\nCOMMON COLLOCATIONS:\n- {優等生|ゆうとうせい}タイプ: the honor-student type\n- {優等生的|ゆうとうせいてき}な{回答|かいとう}: a textbook answer\n- {業界|ぎょうかい}の{優等生|ゆうとうせい}: the model company of an industry\n- {優等生|ゆうとうせい}で{通|とお}す: to be known as an honor student throughout\n\nSIMILAR WORDS:\n- {秀才|しゅうさい}: genius; gifted student — emphasizes innate talent, not just good grades\n- {模範生|もはんせい}: model student — focuses on behavior and conduct rather than academic achievement\n- {真面目|まじめ}: serious; diligent — a personality trait, not a label or role",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18297_shuusai",
+      "reading": "しゅうさい",
+      "headword": "{秀才|しゅうさい}",
+      "label": "genius"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01206_majime",
+      "reading": "まじめ",
+      "headword": "{真面目|まじめ}",
+      "label": "serious"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22718_seisekiyuushuu",
+      "reading": "せいせきゆうしゅう",
+      "headword": "{成績優秀|せいせきゆうしゅう}",
+      "label": "excellent grades"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["education", "person"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "education",
+        "person"
+      ]
     },
     "created": "2026-04-28T16:09:51Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

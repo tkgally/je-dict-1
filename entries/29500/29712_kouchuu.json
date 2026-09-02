@@ -18,7 +18,9 @@
       "id": "29712_kouchuu_ex1",
       "japanese": "{後注|こうちゅう}にまとめる。",
       "english": "To gather (them) in endnotes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -26,7 +28,9 @@
       "id": "29712_kouchuu_ex2",
       "japanese": "この{論文|ろんぶん}は{脚注|きゃくちゅう}ではなく{後注|こうちゅう}を{使|つか}っている。",
       "english": "This paper uses endnotes rather than footnotes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -34,23 +38,53 @@
       "id": "29712_kouchuu_ex3",
       "japanese": "{読|よ}みやすさを{優先|ゆうせん}して、{注釈|ちゅうしゃく}はすべて{後注|こうちゅう}にした。",
       "english": "Prioritizing readability, we moved all the annotations to endnotes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "COMPOSITION: {後|こう} (after, later) + {注|ちゅう} (note, annotation). Literally \"a note placed afterward.\"\n\nRELATED TERMS:\n- {巻末注|かんまつちゅう}: endnote — a near-synonym stressing placement at the very back of the book\n- {脚注|きゃくちゅう}: footnote — a note at the foot of the same page\n- {注釈|ちゅうしゃく}: annotation, commentary — the general term",
-  "cross_references": [],
+  "notes": "COMPOSITION: {後|こう} (after, later) + {注|ちゅう} (note, annotation). Literally \"a note placed afterward.\"\n\nRELATED WORDS:\n- {巻末注|かんまつちゅう}: endnote — a near-synonym stressing placement at the very back of the book\n- {脚注|きゃくちゅう}: footnote — a note at the foot of the same page\n- {注釈|ちゅうしゃく}: annotation, commentary — the general term",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29711_kanmatsuchuu",
+      "reading": "かんまつちゅう",
+      "headword": "{巻末注|かんまつちゅう}",
+      "label": "endnote"
+    },
+    {
+      "type": "related",
+      "target_id": "06423_kyakuchuu",
+      "reading": "きゃくちゅう",
+      "headword": "{脚注|きゃくちゅう}",
+      "label": "footnote"
+    },
+    {
+      "type": "related",
+      "target_id": "09766_chuushaku",
+      "reading": "ちゅうしゃく",
+      "headword": "{注釈|ちゅうしゃく}",
+      "label": "annotation, commentary"
+    }
+  ],
   "metadata": {
     "created": "2026-07-06T21:18:51Z",
-    "modified": "2026-07-06T21:18:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

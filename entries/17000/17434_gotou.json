@@ -19,7 +19,9 @@
       "english": "There were three wrong answers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17434_gotou_ex2",
@@ -27,7 +29,9 @@
       "english": "Let's analyze the causes of the wrong answers and use that for next time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17434_gotou_ex3",
@@ -35,21 +39,43 @@
       "english": "On the quiz show, if you give a wrong answer, the contestant is removed from their seat.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal term for incorrect answers, commonly used in testing, education, and quiz contexts. The opposite is {正答|せいとう} (correct answer).\n\nCOMMON COLLOCATIONS:\n- {誤答|ごとう}{率|りつ} (error rate)\n- {誤答|ごとう}{例|れい} (example of an incorrect answer)\n- {誤答|ごとう}{分析|ぶんせき} (error analysis)\n\nSIMILAR WORDS:\n- {不正解|ふせいかい}: incorrect answer — common in quizzes and game shows\n- {誤答|ごとう}: wrong answer — more formal, used in education and testing\n- {正答|せいとう}: correct answer — the antonym",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18929_fuseikai",
+      "reading": "ふせいかい",
+      "headword": "{不正解|ふせいかい}",
+      "label": "incorrect answer"
+    },
+    {
+      "type": "related",
+      "target_id": "03083_seikai",
+      "reading": "せいかい",
+      "headword": "{正解|せいかい}",
+      "label": "correct answer, right answer"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T23:22:57Z",
-    "modified": "2026-03-17T23:22:57Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["education", "evaluation"]
+      "semantic": [
+        "education",
+        "evaluation"
+      ]
     }
   }
 }

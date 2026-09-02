@@ -17,7 +17,9 @@
       "id": "26520_himitsuhoji_ex1",
       "japanese": "{秘密|ひみつ}{保持|ほじ}{契約|けいやく}を{結|むす}んだ。",
       "english": "We signed a nondisclosure agreement.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26520_himitsuhoji_ex2",
       "japanese": "{社員|しゃいん}には{秘密|ひみつ}{保持|ほじ}の{義務|ぎむ}がある。",
       "english": "Employees have an obligation of confidentiality.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26520_himitsuhoji_ex3",
       "japanese": "{患者|かんじゃ}の{個人|こじん}{情報|じょうほう}に{関|かん}する{秘密|ひみつ}{保持|ほじ}は{医療|いりょう}{従事者|じゅうじしゃ}の{基本|きほん}だ。",
       "english": "Maintaining confidentiality of patient personal information is fundamental for healthcare workers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {秘密|ひみつ} (secret; confidential) and {保持|ほじ} (maintenance; preservation). Most commonly encountered in the phrase {秘密|ひみつ}{保持|ほじ}{契約|けいやく} (NDA, nondisclosure agreement).\n\nCOMMON COLLOCATIONS:\n- {秘密|ひみつ}{保持|ほじ}{契約|けいやく}: nondisclosure agreement (NDA)\n- {秘密|ひみつ}{保持|ほじ}{義務|ぎむ}: obligation of confidentiality\n- {秘密|ひみつ}{保持|ほじ}{条項|じょうこう}: confidentiality clause\n- {秘密|ひみつ}{保持|ほじ}に{努|つと}める: to strive to maintain confidentiality\n\nSIMILAR WORDS:\n- {守秘|しゅひ}{義務|ぎむ}: duty of confidentiality — emphasizes the legal obligation aspect\n- {機密|きみつ}{保持|ほじ}: maintaining classified information — used for higher-security contexts like government or military\n- {個人情報保護|こじんじょうほうほご}: personal information protection — specifically about privacy of personal data",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16243_shuhigimu",
+      "reading": "しゅひぎむ",
+      "headword": "{守秘義務|しゅひぎむ}",
+      "label": "duty of confidentiality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23565_kimitsuhoji",
+      "reading": "きみつほじ",
+      "headword": "{機密|きみつ}{保持|ほじ}",
+      "label": "maintaining classified information"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business", "law"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "law"
+      ]
     },
     "created": "2026-05-02T14:30:56Z",
-    "modified": "2026-05-02T14:30:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

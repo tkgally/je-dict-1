@@ -17,7 +17,9 @@
       "id": "23208_shoukaijou_ex1",
       "japanese": "{紹介状|しょうかいじょう}を{書|か}いてもらった。",
       "english": "I had a referral letter written for me.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23208_shoukaijou_ex2",
       "japanese": "{大|おお}きな{病院|びょういん}には{紹介状|しょうかいじょう}が{必要|ひつよう}だ。",
       "english": "You need a referral letter for large hospitals.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "23208_shoukaijou_ex3",
       "japanese": "かかりつけの{医師|いし}に{紹介状|しょうかいじょう}を{書|か}いてもらい、{専門医|せんもんい}を{受診|じゅしん}した。",
       "english": "I had my regular doctor write a referral letter and visited a specialist.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {紹介|しょうかい} (introduction, referral) and {状|じょう} (document, letter). Most commonly encountered in the Japanese medical system.\n\nCOMMON COLLOCATIONS:\n- {紹介状|しょうかいじょう}を{書|か}く: to write a referral letter\n- {紹介状|しょうかいじょう}を{持|も}っていく: to bring a referral letter\n- {紹介状|しょうかいじょう}なしで{受診|じゅしん}する: to see a doctor without a referral letter\n- {紹介状|しょうかいじょう}が{必要|ひつよう}: a referral letter is needed\n\nUSAGE:\nIn Japan, large hospitals and university hospitals typically require a {紹介状|しょうかいじょう} from a smaller clinic or family doctor. Visiting without one results in an additional fee ({選定療養費|せんていりょうようひ}), which can be several thousand yen. This system encourages patients to see their local doctor first and keeps large hospitals focused on serious cases.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11090_shoshin",
+      "reading": "しょしん",
+      "headword": "{初診|しょしん}",
+      "label": "first medical visit, initial consultation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26982_suisensho",
+      "reading": "すいせんしょ",
+      "headword": "{推薦書|すいせんしょ}",
+      "label": "letter of recommendation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-04-10T03:39:59Z",
-    "modified": "2026-04-10T03:39:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

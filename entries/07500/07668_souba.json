@@ -22,7 +22,9 @@
       "japanese": "{相場|そうば}より{安|やす}い。",
       "english": "It's cheaper than the market price.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -30,7 +32,9 @@
       "japanese": "この{地域|ちいき}の{家賃|やちん}の{相場|そうば}はどのくらいですか。",
       "english": "What's the going rate for rent in this area?",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -38,7 +42,9 @@
       "japanese": "リフォームの{相場|そうば}を{調|しら}べてから{業者|ぎょうしゃ}に{依頼|いらい}した{方|ほう}がいい。",
       "english": "It's better to check the going rate for renovations before hiring a contractor.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -46,7 +52,9 @@
       "japanese": "{株式|かぶしき}{相場|そうば}が{急落|きゅうらく}した。",
       "english": "The stock market plunged.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -54,7 +62,9 @@
       "japanese": "{為替|かわせ}{相場|そうば}の{変動|へんどう}で{利益|りえき}を{得|え}る。",
       "english": "To profit from fluctuations in exchange rates.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -62,20 +72,44 @@
       "japanese": "{相場|そうば}で{大|おお}きな{損失|そんしつ}を{出|だ}して、{借金|しゃっきん}を{抱|かか}えることになった。",
       "english": "He incurred large losses from market speculation and ended up in debt.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{相場|そうば}が{上|あ}がる/{下|さ}がる - prices rise/fall\n・{相場|そうば}より{高|たか}い/{安|やす}い - higher/lower than market price\n・{相場|そうば}を{調|しら}べる - to check the market price\n・{株式|かぶしき}{相場|そうば} - stock market\n・{為替|かわせ}{相場|そうば} - foreign exchange rates\n\nIDIOM:\n・{相場|そうば}が{決|き}まっている - it's the usual way; that's how it goes\n　（{若|わか}い{頃|ころ}は{失敗|しっぱい}するものと{相場|そうば}が{決|き}まっている - It's expected that you make mistakes when you're young.）",
+  "notes": "COMMON COLLOCATIONS:\n- {相場|そうば}が{上|あ}がる/{下|さ}がる - prices rise/fall\n- {相場|そうば}より{高|たか}い/{安|やす}い - higher/lower than market price\n- {相場|そうば}を{調|しら}べる - to check the market price\n- {株式|かぶしき}{相場|そうば} - stock market\n- {為替|かわせ}{相場|そうば} - foreign exchange rates\n\nCOMMON EXPRESSIONS:\n- {相場|そうば}が{決|き}まっている - it's the usual way; that's how it goes\n　（{若|わか}い{頃|ころ}は{失敗|しっぱい}するものと{相場|そうば}が{決|き}まっている - It's expected that you make mistakes when you're young.）",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12969_jika",
+      "reading": "じか",
+      "headword": "{時価|じか}",
+      "label": "market price, current price"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24931_genzaikakaku",
+      "reading": "げんざいかかく",
+      "headword": "{現在価格|げんざいかかく}",
+      "label": "current price"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T14:05:39Z",
-    "modified": "2026-03-17T07:30:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["finance", "economics"]
+      "politeness": "plain",
+      "semantic": [
+        "finance",
+        "economics"
+      ]
     }
   }
 }

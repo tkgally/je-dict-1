@@ -19,7 +19,9 @@
       "english": "I ended up offending her.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18866_kigenwosokoneru_ex2",
@@ -27,7 +29,9 @@
       "english": "I'm careful not to put my boss in a bad mood.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18866_kigenwosokoneru_ex3",
@@ -35,21 +39,56 @@
       "english": "An unnecessary remark can offend someone, so let's be careful with our choice of words.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nThe subject (the offended person) is marked with の, and the offender is typically the grammatical subject of the sentence. Often used with てしまう to express regret.\n\nCOMMON COLLOCATIONS:\n- {機嫌|きげん}を{損|そこ}ねてしまう (end up offending)\n- {機嫌|きげん}を{損|そこ}ねないように (so as not to offend)\n- {相手|あいて}の{機嫌|きげん}を{損|そこ}ねる (offend the other person)\n\nSIMILAR EXPRESSIONS:\n- {怒|おこ}らせる: to make someone angry — more direct, stronger emotion\n- {気|き}を{悪|わる}くする: to take offense — describes the offended person's reaction rather than the offender's action",
-  "cross_references": [],
+  "notes": "USAGE:\nThe subject (the offended person) is marked with の, and the offender is typically the grammatical subject of the sentence. Often used with てしまう to express regret.\n\nCOMMON COLLOCATIONS:\n- {機嫌|きげん}を{損|そこ}ねてしまう (end up offending)\n- {機嫌|きげん}を{損|そこ}ねないように (so as not to offend)\n- {相手|あいて}の{機嫌|きげん}を{損|そこ}ねる (offend the other person)\n\nSIMILAR WORDS:\n- {怒|おこ}らせる: to make someone angry — more direct, stronger emotion\n- {気|き}を{悪|わる}くする: to take offense — describes the offended person's reaction rather than the offender's action",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19802_okoraseru",
+      "reading": "おこらせる",
+      "headword": "{怒|おこ}らせる",
+      "label": "to make someone angry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20428_kiwowarukusuru",
+      "reading": "きをわるくする",
+      "headword": "{気|き}を{悪|わる}くする",
+      "label": "to take offense"
+    },
+    {
+      "type": "related",
+      "target_id": "19531_kigengawarui",
+      "reading": "きげんがわるい",
+      "headword": "{機嫌|きげん}が{悪|わる}い",
+      "label": "in a bad mood"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24291_hesowomageru",
+      "reading": "へそをまげる",
+      "headword": "へそを{曲|ま}げる",
+      "label": "to get offended"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:14:45Z",
-    "modified": "2026-03-23T06:14:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
   }
 }

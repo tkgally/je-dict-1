@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{信|しん}じる (believe X).\n\nASPECT: ている indicates ongoing state. {信|しん}じている = 'believe' (continuous state of believing).\n\nCOMMON PATTERNS:\n・⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{信|しん}じる (believe in a person)\n・⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧{信|しん}じる (believe a story)\n・⟦{自分|じぶん}→自分：02887_jibun⟧⟦を→を：00422_wo⟧{信|しん}じる (believe in oneself)\n・{信|しん}じられない (I can't believe it)\n\nRelated:\n- ⟦{信頼|しんらい}→信頼：03268_shinrai⟧ (trust - noun)\n- ⟦{信用|しんよう}→信用：03267_shinyou⟧ (credit/trust). {信|しん}じられない is very common in conversation.",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{信|しん}じる (believe X).\n\nASPECT: ている indicates ongoing state. {信|しん}じている = 'believe' (continuous state of believing).\n\nCOMMON PATTERNS:\n- ⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{信|しん}じる (believe in a person)\n- ⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧{信|しん}じる (believe a story)\n- ⟦{自分|じぶん}→自分：02887_jibun⟧⟦を→を：00422_wo⟧{信|しん}じる (believe in oneself)\n- {信|しん}じられない (I can't believe it)\n\nRelated:\n- ⟦{信頼|しんらい}→信頼：03268_shinrai⟧ (trust - noun)\n- ⟦{信用|しんよう}→信用：03267_shinyou⟧ (credit/trust). {信|しん}じられない is very common in conversation.",
   "cross_references": [
     {
       "type": "antonym",
@@ -216,11 +216,46 @@
       "reading": "うたがう",
       "headword": "{疑|うたが}う",
       "label": "to doubt, to suspect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03470_tondemonai",
+      "reading": "とんでもない",
+      "headword": "とんでもない",
+      "label": "outrageous, no way"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20317_honkinisuru",
+      "reading": "ほんきにする",
+      "headword": "{本気|ほんき}にする",
+      "label": "to take seriously"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22988_shinraisuru",
+      "reading": "しんらいする",
+      "headword": "{信頼|しんらい}する",
+      "label": "to trust"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25371_shinyousuru",
+      "reading": "しんようする",
+      "headword": "{信用|しんよう}する",
+      "label": "to trust"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25511_moushinsuru",
+      "reading": "もうしんする",
+      "headword": "{妄信|もうしん}する",
+      "label": "to believe blindly"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:30:34Z",
-    "modified": "2026-05-13T23:19:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

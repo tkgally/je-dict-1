@@ -17,7 +17,9 @@
       "id": "20222_himoto_ex1",
       "japanese": "{火元|ひもと}は{台所|だいどころ}だった。",
       "english": "The fire originated in the kitchen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20222_himoto_ex2",
       "japanese": "{消防士|しょうぼうし}が{火元|ひもと}を{調|しら}べている。",
       "english": "Firefighters are investigating the source of the fire.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "20222_himoto_ex3",
       "japanese": "{火元|ひもと}となった{住宅|じゅうたく}の{住人|じゅうにん}は、コンロの{火|ひ}を{消|け}し{忘|わす}れたと{証言|しょうげん}した。",
       "english": "The resident of the house where the fire originated testified that they forgot to turn off the stove.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {火|ひ} (fire) + {元|もと} (origin, source). Used in fire investigation and news reports. Can refer to either the physical location where a fire started or the responsible party.\n\nCOMMON COLLOCATIONS:\n- {火元|ひもと}を{調|しら}べる: to investigate the source of a fire\n- {火元|ひもと}を{特定|とくてい}する: to identify the origin of a fire\n- {火元|ひもと}となる: to be the source of a fire\n- {火元|ひもと}{不明|ふめい}: unknown origin of fire\n- {火元|ひもと}の{不注意|ふちゅうい}: carelessness at the source of fire\n\nSIMILAR WORDS:\n- {出火|しゅっか}: outbreak of fire — the event of a fire starting\n- {火災|かさい}: fire (disaster) — the fire itself as a disaster\n- {火種|ひだね}: spark, source of trouble — can be literal or figurative",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20260_shukka",
+      "reading": "しゅっか",
+      "headword": "{出火|しゅっか}",
+      "label": "outbreak of fire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02561_kasai",
+      "reading": "かさい",
+      "headword": "{火災|かさい}",
+      "label": "fire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13411_hidane",
+      "reading": "ひだね",
+      "headword": "{火種|ひだね}",
+      "label": "spark, source of trouble"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["disaster", "location"]
+      "semantic": [
+        "disaster",
+        "location"
+      ]
     },
     "created": "2026-03-28T17:14:03Z",
-    "modified": "2026-03-28T17:14:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

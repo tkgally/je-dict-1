@@ -81,6 +81,29 @@
   ],
   "notes": "A compound verb formed from かじる (to bite, to gnaw) and つく (to attach, to stick). The つく element adds the nuance of clinging or holding fast.\n\nCOMMON COLLOCATIONS:\n- りんごにかじりつく: to bite into an apple\n- {骨|ほね}にかじりつく: to gnaw on a bone\n- {仕事|しごと}にかじりつく: to throw oneself into work\n- {最後|さいご}までかじりつく: to hang on until the end\n\nSIMILAR WORDS:\n- かじる: to bite; to gnaw — the base verb, without the sense of clinging\n- しがみつく: to cling to; to hold on desperately — emphasizes desperation more than tenacity\n- {食|く}らいつく: to bite at; to attack fiercely — more aggressive, often used in competition\n\nUSAGE:\nSense 2 is often used to describe someone who perseveres through difficulty. It carries a positive nuance of determination rather than stubbornness.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05126_kajiru",
+      "reading": "かじる",
+      "headword": "{齧|かじ}る",
+      "label": "to bite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10352_shigamitsuku",
+      "reading": "しがみつく",
+      "headword": "しがみつく",
+      "label": "to cling to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09140_kuraitsuku",
+      "reading": "くらいつく",
+      "headword": "{食|く}らいつく",
+      "label": "to bite at"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -89,11 +112,14 @@
       ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action", "movement"],
+      "semantic": [
+        "action",
+        "movement"
+      ],
       "verb_class": "godan-ku"
     },
     "created": "2026-04-08T14:13:25Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

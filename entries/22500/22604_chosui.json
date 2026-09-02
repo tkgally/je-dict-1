@@ -3,7 +3,7 @@
   "headword": "{貯水|ちょすい}",
   "reading": "ちょすい",
   "romaji": "chosui",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "water storage; water reservoir",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A compound of {貯|ちょ} (to store, to save) and {水|すい} (water). Used in contexts related to water management, infrastructure, and disaster preparedness. Japan's mountainous geography and seasonal rainfall patterns make water storage an important topic.\n\nCOMMON COLLOCATIONS:\n- {貯水|ちょすい}タンク: water storage tank\n- {貯水|ちょすい}{池|いけ}: reservoir; storage pond\n- {貯水|ちょすい}{量|りょう}: water storage volume\n- {貯水|ちょすい}{施設|しせつ}: water storage facility\n- {貯水|ちょすい}{率|りつ}: water storage rate\n\nSIMILAR WORDS:\n- {貯水池|ちょすいち}: reservoir — a specific body of stored water\n- {給水|きゅうすい}: water supply — the distribution of water\n- {断水|だんすい}: water outage — the interruption of water supply\n- {節水|せっすい}: water conservation — reducing water usage",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15031_kyuusui",
+      "reading": "きゅうすい",
+      "headword": "{給水|きゅうすい}",
+      "label": "water supply"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04518_dansui",
+      "reading": "だんすい",
+      "headword": "{断水|だんすい}",
+      "label": "water outage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07964_sessui",
+      "reading": "せっすい",
+      "headword": "{節水|せっすい}",
+      "label": "water conservation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-06T19:17:46Z",
-    "modified": "2026-07-30T15:38:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

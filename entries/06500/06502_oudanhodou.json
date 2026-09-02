@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "COMPONENTS:\n・⟦{横断|おうだん}→横断：01906_oudan⟧ (crossing) + ⟦{歩道|ほどう}→歩道：03723_hodou⟧ (sidewalk, footpath)\n\nTRAFFIC RULES IN JAPAN: Drivers are legally required to stop for pedestrians waiting at crosswalks, even without traffic signals. The ⟦{道路交通法|どうろこうつうほう}→道路交通法：noentry⟧ (Road Traffic Act) mandates this, though compliance rates vary by region.\n\nRELATED TERMS:\n・⟦{歩行者|ほこうしゃ}→歩行者：03152_hokousha⟧ (pedestrian)\n・⟦{信号機|しんごうき}→信号機：27201_shingouki⟧ (traffic light)\n・⟦{歩道橋|ほどうきょう}→歩道橋：06494_hodoukyou⟧ (pedestrian overpass)\n・⟦{地下道|ちかどう}→地下道：06495_chikadou⟧ (underground passage)\n・⟦{踏切|ふみきり}→踏切：06493_fumikiri⟧ (railroad crossing)\n\nCOMMON COLLOCATIONS:\n・{横断歩道|おうだんほどう}⟦を→を：00422_wo⟧⟦{渡|わた}る→渡る：02441_wataru⟧ (to cross at the crosswalk)\n・{横断歩道|おうだんほどう}⟦の→の：09472_no⟧⟦{白線|はくせん}→白線：15902_hakusen⟧ (white lines of the crosswalk)",
+  "notes": "ETYMOLOGY:\n- ⟦{横断|おうだん}→横断：01906_oudan⟧ (crossing) + ⟦{歩道|ほどう}→歩道：03723_hodou⟧ (sidewalk, footpath)\n\nTRAFFIC RULES IN JAPAN: Drivers are legally required to stop for pedestrians waiting at crosswalks, even without traffic signals. The ⟦{道路交通法|どうろこうつうほう}→道路交通法：noentry⟧ (Road Traffic Act) mandates this, though compliance rates vary by region.\n\nRELATED WORDS:\n- ⟦{歩行者|ほこうしゃ}→歩行者：03152_hokousha⟧ (pedestrian)\n- ⟦{信号機|しんごうき}→信号機：27201_shingouki⟧ (traffic light)\n- ⟦{歩道橋|ほどうきょう}→歩道橋：06494_hodoukyou⟧ (pedestrian overpass)\n- ⟦{地下道|ちかどう}→地下道：06495_chikadou⟧ (underground passage)\n- ⟦{踏切|ふみきり}→踏切：06493_fumikiri⟧ (railroad crossing)\n\nCOMMON COLLOCATIONS:\n- {横断歩道|おうだんほどう}⟦を→を：00422_wo⟧⟦{渡|わた}る→渡る：02441_wataru⟧ (to cross at the crosswalk)\n- {横断歩道|おうだんほどう}⟦の→の：09472_no⟧⟦{白線|はくせん}→白線：15902_hakusen⟧ (white lines of the crosswalk)",
   "cross_references": [
     {
       "type": "related",
@@ -71,11 +71,46 @@
       "headword": "{歩道橋|ほどうきょう}",
       "label": "related crossing",
       "target_id": "06494_hodoukyou"
+    },
+    {
+      "type": "related",
+      "target_id": "03152_hokousha",
+      "reading": "ほこうしゃ",
+      "headword": "{歩行者|ほこうしゃ}",
+      "label": "pedestrian"
+    },
+    {
+      "type": "related",
+      "target_id": "27201_shingouki",
+      "reading": "しんごうき",
+      "headword": "{信号機|しんごうき}",
+      "label": "traffic light"
+    },
+    {
+      "type": "related",
+      "target_id": "06495_chikadou",
+      "reading": "ちかどう",
+      "headword": "{地下道|ちかどう}",
+      "label": "underground passage"
+    },
+    {
+      "type": "related",
+      "target_id": "06493_fumikiri",
+      "reading": "ふみきり",
+      "headword": "{踏切|ふみきり}",
+      "label": "railroad crossing"
+    },
+    {
+      "type": "related",
+      "target_id": "01404_kousaten",
+      "reading": "こうさてん",
+      "headword": "{交差点|こうさてん}",
+      "label": "intersection, crossing"
     }
   ],
   "metadata": {
     "created": "2026-01-17T20:53:30Z",
-    "modified": "2026-07-16T00:30:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

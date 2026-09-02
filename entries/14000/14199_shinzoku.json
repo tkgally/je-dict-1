@@ -19,7 +19,9 @@
       "english": "The relatives gathered.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14199_shinzoku_ex2",
@@ -27,7 +29,9 @@
       "english": "We invited only relatives to the wedding.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14199_shinzoku_ex3",
@@ -35,7 +39,9 @@
       "english": "I was surprised to receive a sudden contact from a distant relative.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n- {親族|しんぞく}{関係|かんけい}: family/kinship relations\n- {親族|しんぞく}{一同|いちどう}: all the relatives\n- {遠|とお}い{親族|しんぞく}: distant relative\n- {近|ちか}い{親族|しんぞく}: close relative\n- {親族|しんぞく}{会議|かいぎ}: family council\n\nSIMILAR WORDS:\n- {親戚|しんせき}: relatives (more colloquial and commonly used in daily conversation)\n- {身内|みうち}: family, one's own people (informal, includes close associates)\n- {一族|いちぞく}: clan, whole family (emphasizes the group as a unit)\n\nUSAGE:\n{親族|しんぞく} is more formal than {親戚|しんせき} and is preferred in legal, official, and ceremonial contexts such as funerals, weddings, and legal documents. In casual conversation, {親戚|しんせき} is more natural.",
@@ -46,18 +52,43 @@
       "reading": "しんせき",
       "headword": "{親戚|しんせき}",
       "label": "relatives (colloquial)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14300_miuchi",
+      "reading": "みうち",
+      "headword": "{身内|みうち}",
+      "label": "family, one's own people"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11229_ichizoku",
+      "reading": "いちぞく",
+      "headword": "{一族|いちぞく}",
+      "label": "clan, whole family"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04210_shinrui",
+      "reading": "しんるい",
+      "headword": "{親類|しんるい}",
+      "label": "relatives, kin"
     }
   ],
   "metadata": {
     "created": "2026-02-28T02:20:40Z",
-    "modified": "2026-04-30T05:18:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["family"]
+      "semantic": [
+        "family"
+      ]
     }
   }
 }

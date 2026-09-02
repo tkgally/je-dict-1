@@ -3,7 +3,7 @@
   "headword": "{覚|おぼ}え{込|こ}む",
   "reading": "おぼえこむ",
   "romaji": "oboekomu",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to memorize thoroughly; to learn by heart",
   "definitions": [
     {
@@ -55,7 +55,29 @@
     }
   ],
   "notes": "Compound of {覚|おぼ}える (to remember, memorize) and {込|こ}む (suffix indicating thoroughness or deep penetration). The {込|こ}む emphasizes that the memorization is deep and complete, not just surface-level.\n\nCOMMON COLLOCATIONS:\n- {歌詞|かし}を{覚|おぼ}え{込|こ}む: to memorize lyrics\n- {台詞|せりふ}を{覚|おぼ}え{込|こ}む: to learn lines by heart\n- {体|からだ}に{覚|おぼ}え{込|こ}ませる: to train until it becomes muscle memory\n- しっかり{覚|おぼ}え{込|こ}む: to memorize firmly\n\nSIMILAR WORDS:\n- {覚|おぼ}える: to memorize, remember — basic verb without the emphasis on thoroughness\n- {暗記|あんき}する: to memorize by rote — formal; emphasizes the act of committing to memory, often text or data\n- {身|み}につける: to acquire (a skill) — broader; includes learning skills and habits, not just memorization",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00739_oboeru",
+      "reading": "おぼえる",
+      "headword": "{覚|おぼ}える",
+      "label": "to memorize, remember"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01701_anki",
+      "reading": "あんき",
+      "headword": "{暗記|あんき}",
+      "label": "to memorize by rote"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03158_minitsukeru",
+      "reading": "みにつける",
+      "headword": "{身|み}につける",
+      "label": "to acquire"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -72,7 +94,7 @@
       "verb_class": "godan-mu"
     },
     "created": "2026-05-06T12:17:39Z",
-    "modified": "2026-08-06T12:50:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

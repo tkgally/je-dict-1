@@ -17,7 +17,9 @@
       "id": "20460_shinzan_ex1",
       "japanese": "{新参|しんざん}{者|もの}にはわからないことが{多|おお}い。",
       "english": "There's a lot that newcomers don't understand.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20460_shinzan_ex2",
       "japanese": "この{業界|ぎょうかい}ではまだ{新参|しんざん}なので、{勉強|べんきょう}することが{山|やま}ほどある。",
       "english": "I'm still a newcomer in this industry, so there's a mountain of things to learn.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "20460_shinzan_ex3",
       "japanese": "{新参|しんざん}のファンだが、この{作品|さくひん}の{魅力|みりょく}にすっかりはまってしまった。",
       "english": "I'm a new fan, but I've completely fallen for the charm of this work.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {新|しん} (new) and {参|ざん} (joining, participating). Can be used as a standalone noun or as a modifier with の. The opposite is {古参|こさん} (old-timer, veteran member).\n\nUSAGE:\nCommon in both traditional and modern contexts. In online communities, {新参|しんざん} and {古参|こさん} are frequently used to distinguish between new and long-standing fans or members. Can carry a slight sense of being an outsider who hasn't yet earned full standing.\n\nCOMMON COLLOCATIONS:\n- {新参|しんざん}{者|もの} — newcomer (with the person suffix)\n- {新参|しんざん}ファン — new fan\n- {新参|しんざん}の{企業|きぎょう} — new entrant (company)\n- {新参|しんざん}お{断|ことわ}り — no newcomers allowed\n\nSIMILAR WORDS:\n- {古参|こさん} — old-timer, veteran member (opposite)\n- {新人|しんじん} — new person, rookie (more for workplace/professional contexts)\n- {新入|しんにゅう}り — newcomer, new arrival (more general, less about group dynamics)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "06288_kosan",
+      "reading": "こさん",
+      "headword": "{古参|こさん}",
+      "label": "old-timer, veteran member"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02500_shinjin",
+      "reading": "しんじん",
+      "headword": "{新人|しんじん}",
+      "label": "new person, rookie"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07458_shingao",
+      "reading": "しんがお",
+      "headword": "{新顔|しんがお}",
+      "label": "newcomer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["society"]
+      "semantic": [
+        "society"
+      ]
     },
     "created": "2026-03-29T14:16:35Z",
-    "modified": "2026-03-29T14:16:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "Please don't forget your exam admission ticket.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20634_jukenhyou_ex2",
@@ -27,7 +29,9 @@
       "english": "My exam ticket arrived, and it finally felt real that the exam was approaching.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20634_jukenhyou_ex3",
@@ -35,21 +39,36 @@
       "english": "On the day, please bring your exam admission ticket and a photo ID.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Composed of {受験|じゅけん} (taking an exam) + {票|ひょう} (slip, ticket, ballot). An essential document for anyone sitting a formal examination in Japan.\n\nCOMMON COLLOCATIONS:\n- {受験票|じゅけんひょう}を{持参|じさん}する (to bring one's exam ticket)\n- {受験票|じゅけんひょう}が{届|とど}く (for the exam ticket to arrive)\n- {受験票|じゅけんひょう}を{印刷|いんさつ}する (to print one's exam ticket)\n- {受験票|じゅけんひょう}を{紛失|ふんしつ}する (to lose one's exam ticket)\n- {受験票|じゅけんひょう}に{写真|しゃしん}を{貼|は}る (to affix a photo to one's exam ticket)\n\nSIMILAR WORDS:\n- {受験番号|じゅけんばんごう} — exam number; the unique identification number printed on the ticket\n- {入場券|にゅうじょうけん} — admission ticket; for general entry to venues, not exams\n\nCULTURAL NOTE:\nIn Japan, forgetting one's {受験票|じゅけんひょう} on exam day is a well-known source of panic. During major exam seasons ({入試|にゅうし}), news programs often feature stories of students who forgot their tickets and the efforts made to accommodate them.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19454_nyuujouken",
+      "reading": "にゅうじょうけん",
+      "headword": "{入場券|にゅうじょうけん}",
+      "label": "admission ticket"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T20:11:10Z",
-    "modified": "2026-03-29T20:11:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education", "document"]
+      "semantic": [
+        "education",
+        "document"
+      ]
     }
   }
 }

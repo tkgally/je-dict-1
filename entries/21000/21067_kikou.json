@@ -3,7 +3,7 @@
   "headword": "{寄港|きこう}",
   "reading": "きこう",
   "romaji": "kikou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "calling at a port; port of call",
   "definitions": [
     {
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Used specifically for ships stopping at ports. Not used for aircraft or other vehicles. Used as a noun or suru-verb ({寄港|きこう}する).\n\nCOMMON COLLOCATIONS:\n- {寄港地|きこうち}: port of call\n- {寄港|きこう}する: to call at a port\n- {寄港|きこう}を{予定|よてい}する: to be scheduled to call at a port\n- {緊急|きんきゅう}{寄港|きこう}: emergency port call\n\nHOMOPHONES:\nSeveral words share the reading きこう:\n- {気候|きこう}: climate\n- {機構|きこう}: mechanism, organization\n- {寄稿|きこう}: contributing an article\n- {紀行|きこう}: travelogue\n\nSIMILAR WORDS:\n- {入港|にゅうこう}: entering a port — arriving at the final destination port\n- {出港|しゅっこう}: leaving port — departing from a port\n- {寄港|きこう}: a temporary stop at a port during a voyage",
+  "notes": "Used specifically for ships stopping at ports. Not used for aircraft or other vehicles. Used as a noun or suru-verb ({寄港|きこう}する).\n\nCOMMON COLLOCATIONS:\n- {寄港地|きこうち}: port of call\n- {寄港|きこう}する: to call at a port\n- {寄港|きこう}を{予定|よてい}する: to be scheduled to call at a port\n- {緊急|きんきゅう}{寄港|きこう}: emergency port call\n\nWATCH OUT:\nSeveral words share the reading きこう:\n- {気候|きこう}: climate\n- {機構|きこう}: mechanism, organization\n- {寄稿|きこう}: contributing an article\n- {紀行|きこう}: travelogue\n\nSIMILAR WORDS:\n- {入港|にゅうこう}: entering a port — arriving at the final destination port\n- {出港|しゅっこう}: leaving port — departing from a port\n- {寄港|きこう}: a temporary stop at a port during a voyage",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14771_nyuukou",
+      "reading": "にゅうこう",
+      "headword": "{入港|にゅうこう}",
+      "label": "entering a port"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11764_shukkou",
+      "reading": "しゅっこう",
+      "headword": "{出港|しゅっこう}",
+      "label": "leaving port"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20272_teihaku",
+      "reading": "ていはく",
+      "headword": "{停泊|ていはく}",
+      "label": "anchoring"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-31T16:23:37Z",
-    "modified": "2026-03-31T16:23:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

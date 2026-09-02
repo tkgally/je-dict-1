@@ -44,8 +44,37 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {国産|こくさん} ('domestically produced') and {車|しゃ} ('vehicle').\n\nUSAGE:\n- In Japanese contexts, refers to cars made by Japanese manufacturers — Toyota, Honda, Nissan, Mazda, Subaru, Suzuki, etc.\n- Routinely contrasted with {輸入車|ゆにゅうしゃ} or {外車|がいしゃ} in discussions of price, maintenance, and preference.\n- Broader noun {国産|こくさん} itself applies to any domestically produced goods (food, machinery, clothing); {国産車|こくさんしゃ} is the specialization for cars.\n\nCOMMON COLLOCATIONS:\n- {国産車|こくさんしゃ}に{乗|の}る: to drive a domestic car\n- {国産車|こくさんしゃ}を{買|か}う: to buy a domestic car\n- {国産車|こくさんしゃ}{市場|しじょう}: domestic car market\n- {国産車|こくさんしゃ}の{販売|はんばい}: sale of domestic cars\n- {国産車|こくさんしゃ}メーカー: domestic carmaker\n\nSIMILAR WORDS:\n- {輸入車|ゆにゅうしゃ}: imported car — direct antonym.\n- {外車|がいしゃ}: foreign car — colloquial antonym.\n- {国産|こくさん}: domestically produced — the base noun, applicable to any product.\n\nRELATED TERMS:\n- {日本車|にほんしゃ}: Japanese car — nearly interchangeable with {国産車|こくさんしゃ} in Japan, but emphasizes the country of origin rather than 'domestic'.\n- {自動車|じどうしゃ}: automobile\n- {メーカー}: (car) manufacturer",
-  "cross_references": [],
+  "notes": "Compound of {国産|こくさん} ('domestically produced') and {車|しゃ} ('vehicle').\n\nUSAGE:\n- In Japanese contexts, refers to cars made by Japanese manufacturers — Toyota, Honda, Nissan, Mazda, Subaru, Suzuki, etc.\n- Routinely contrasted with {輸入車|ゆにゅうしゃ} or {外車|がいしゃ} in discussions of price, maintenance, and preference.\n- Broader noun {国産|こくさん} itself applies to any domestically produced goods (food, machinery, clothing); {国産車|こくさんしゃ} is the specialization for cars.\n\nCOMMON COLLOCATIONS:\n- {国産車|こくさんしゃ}に{乗|の}る: to drive a domestic car\n- {国産車|こくさんしゃ}を{買|か}う: to buy a domestic car\n- {国産車|こくさんしゃ}{市場|しじょう}: domestic car market\n- {国産車|こくさんしゃ}の{販売|はんばい}: sale of domestic cars\n- {国産車|こくさんしゃ}メーカー: domestic carmaker\n\nSIMILAR WORDS:\n- {輸入車|ゆにゅうしゃ}: imported car — direct antonym.\n- {外車|がいしゃ}: foreign car — colloquial antonym.\n- {国産|こくさん}: domestically produced — the base noun, applicable to any product.\n\nRELATED WORDS:\n- {日本車|にほんしゃ}: Japanese car — nearly interchangeable with {国産車|こくさんしゃ} in Japan, but emphasizes the country of origin rather than 'domestic'.\n- {自動車|じどうしゃ}: automobile\n- メーカー: (car) manufacturer",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "23864_yunyuusha",
+      "reading": "ゆにゅうしゃ",
+      "headword": "{輸入車|ゆにゅうしゃ}",
+      "label": "imported car"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19013_gaisha",
+      "reading": "がいしゃ",
+      "headword": "{外車|がいしゃ}",
+      "label": "foreign car"
+    },
+    {
+      "type": "related",
+      "target_id": "02886_jidousha",
+      "reading": "じどうしゃ",
+      "headword": "{自動車|じどうしゃ}",
+      "label": "automobile"
+    },
+    {
+      "type": "related",
+      "target_id": "11158_meekaa",
+      "reading": "めーかー",
+      "headword": "メーカー",
+      "label": "(car) manufacturer"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +90,6 @@
       ]
     },
     "created": "2026-04-15T08:03:08Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "26200_senbaiten_ex1",
       "japanese": "この{商品|しょうひん}は{専売店|せんばいてん}でしか{買|か}えない。",
       "english": "This product can only be bought at an exclusive dealer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26200_senbaiten_ex2",
       "japanese": "{駅前|えきまえ}にブランドの{専売店|せんばいてん}がオープンした。",
       "english": "A brand's exclusive retailer opened in front of the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26200_senbaiten_ex3",
       "japanese": "{地方|ちほう}の{専売店|せんばいてん}を{通|つう}じて{全国|ぜんこく}に{販路|はんろ}を{広|ひろ}げている。",
       "english": "They are expanding their sales channels nationwide through regional exclusive dealers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {専売|せんばい} (exclusive sale, monopoly sale) and {店|てん} (shop). Historically, Japan had a government monopoly system ({専売制度|せんばいせいど}) for products like tobacco and salt, with {専売店|せんばいてん} referring to shops licensed to sell those items. Today the term is mainly used for authorized brand retailers.\n\nCOMMON COLLOCATIONS:\n- {正規|せいき}{専売店|せんばいてん} — authorized exclusive dealer\n- {地域|ちいき}{専売店|せんばいてん} — regional exclusive dealer\n- {専売店|せんばいてん}{契約|けいやく} — exclusive dealership agreement\n\nSIMILAR WORDS:\n- {直営店|ちょくえいてん} — directly operated store (owned by the brand itself)\n- {代理店|だいりてん} — agent; distributor (sells on behalf of another)\n- {特約店|とくやくてん} — authorized dealer; franchise dealer",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20450_chokueiten",
+      "reading": "ちょくえいてん",
+      "headword": "{直営店|ちょくえいてん}",
+      "label": "directly operated store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21690_dairiten",
+      "reading": "だいりてん",
+      "headword": "{代理店|だいりてん}",
+      "label": "agent"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business", "shopping"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "shopping"
+      ]
     },
     "created": "2026-04-30T11:30:03Z",
-    "modified": "2026-04-30T11:30:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

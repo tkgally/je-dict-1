@@ -3,7 +3,7 @@
   "id": "20863_renpatsu",
   "headword": "{連発|れんぱつ}",
   "reading": "れんぱつ",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "firing in rapid succession, rapid repetition",
   "conjugation": {
     "type": "suru",
@@ -170,10 +170,25 @@
     }
   ],
   "notes": "Describes the rapid repetition of the same action or event. The literal meaning involves gunfire, but the figurative sense (sense 2) is far more common in everyday Japanese.\n\nCOMMON COLLOCATIONS:\n- {冗談|じょうだん}を{連発|れんぱつ}する: to crack joke after joke\n- ミスを{連発|れんぱつ}する: to make repeated mistakes\n- ホームランを{連発|れんぱつ}する: to hit home runs in succession\n- {失言|しつげん}を{連発|れんぱつ}する: to make one gaffe after another\n- {連発|れんぱつ}{銃|じゅう}: repeating rifle\n\nSIMILAR WORDS:\n- {続発|ぞくはつ}: occurring one after another — focuses on separate incidents arising in sequence, often negative events like accidents or problems\n- {頻発|ひんぱつ}: frequent occurrence — emphasizes high frequency over a period rather than rapid-fire succession",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20864_zokuhatsu",
+      "reading": "ぞくはつ",
+      "headword": "{続発|ぞくはつ}",
+      "label": "occurring one after another"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14670_hinpatsu",
+      "reading": "ひんぱつ",
+      "headword": "{頻発|ひんぱつ}",
+      "label": "frequent occurrence"
+    }
+  ],
   "metadata": {
     "created": "2026-03-30T19:05:59Z",
-    "modified": "2026-03-30T19:05:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

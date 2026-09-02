@@ -17,7 +17,9 @@
       "id": "26166_kyasshuresukessai_ex1",
       "japanese": "キャッシュレス{決済|けっさい}に{対応|たいおう}していますか。",
       "english": "Do you accept cashless payment?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26166_kyasshuresukessai_ex2",
       "japanese": "{最近|さいきん}はキャッシュレス{決済|けっさい}で{支払|しはら}うことが{多|おお}い。",
       "english": "Lately I often pay with cashless methods.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,52 @@
       "id": "26166_kyasshuresukessai_ex3",
       "japanese": "この{店|みせ}はキャッシュレス{決済|けっさい}{専用|せんよう}で、{現金|げんきん}は{使|つか}えません。",
       "english": "This store is cashless-only — you can't use cash.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of the English loanword キャッシュレス (cashless) and the Japanese word {決済|けっさい} (payment, settlement). The term has become extremely common in Japan since the late 2010s as the government promoted digital payment adoption.\n\nJapan was historically a cash-heavy society, but キャッシュレス{決済|けっさい} has spread rapidly through services like PayPay, Suica/PASMO, LINE Pay, and d-{払|ばら}い. Many stores now display signs indicating which cashless methods they accept.\n\nCOMMON COLLOCATIONS:\n- キャッシュレス{決済|けっさい}に{対応|たいおう}する: to support cashless payment\n- キャッシュレス{決済|けっさい}{比率|ひりつ}: cashless payment ratio\n- キャッシュレス{決済|けっさい}{専用|せんよう}: cashless-only\n- キャッシュレス{決済|けっさい}を{導入|どうにゅう}する: to introduce cashless payment\n\nSIMILAR WORDS:\n- {電子|でんし}マネー: electronic money — specific type (Suica, nanaco, etc.)\n- QRコード{決済|けっさい}: QR code payment — specific method\n- {現金払|げんきんばら}い: cash payment — the traditional alternative\n- {決済|けっさい}: payment, settlement — the broader concept",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06694_denshimanee",
+      "reading": "でんしまねー",
+      "headword": "{電子|でんし}マネー",
+      "label": "electronic money"
+    },
+    {
+      "type": "related",
+      "target_id": "05466_kessai",
+      "reading": "けっさい",
+      "headword": "{決済|けっさい}",
+      "label": "payment, settlement"
+    },
+    {
+      "type": "related",
+      "target_id": "06968_kurejittokaado",
+      "reading": "くれじっとかーど",
+      "headword": "クレジットカード",
+      "label": "credit card"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["finance", "technology"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "finance",
+        "technology"
+      ]
     },
     "created": "2026-04-29T15:34:53Z",
-    "modified": "2026-04-29T15:34:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

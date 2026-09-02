@@ -17,7 +17,9 @@
       "id": "26892_iryoukikan_ex1",
       "japanese": "{近|ちか}くの{医療|いりょう}{機関|きかん}を{受診|じゅしん}してください。",
       "english": "Please visit a nearby medical facility.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26892_iryoukikan_ex2",
       "japanese": "この{地域|ちいき}には{医療|いりょう}{機関|きかん}が{少|すく}ない。",
       "english": "There are few medical facilities in this area.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,54 @@
       "id": "26892_iryoukikan_ex3",
       "japanese": "{症状|しょうじょう}が{続|つづ}く{場合|ばあい}は、{速|すみ}やかに{医療|いりょう}{機関|きかん}で{診察|しんさつ}を{受|う}けることをお{勧|すす}めします。",
       "english": "If symptoms persist, we recommend that you promptly seek examination at a medical facility.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A formal compound of {医療|いりょう} (medical care) and {機関|きかん} (institution, agency). This is the standard term used in government documents, news reports, and health advisories to refer collectively to hospitals, clinics, and other healthcare providers.\n\nCOMMON COLLOCATIONS:\n- {医療|いりょう}{機関|きかん}を{受診|じゅしん}する: to visit a medical facility\n- {指定|してい}{医療|いりょう}{機関|きかん}: designated medical institution\n- {救急|きゅうきゅう}{医療|いりょう}{機関|きかん}: emergency medical facility\n- {医療|いりょう}{機関|きかん}の{不足|ふそく}: shortage of medical facilities\n\nSIMILAR WORDS:\n- {病院|びょういん}: hospital — a specific type of medical facility, more everyday\n- クリニック: clinic — a smaller, outpatient medical office\n- {診療所|しんりょうじょ}: clinic, dispensary — formal term for a small medical practice\n\nUSAGE:\nCommonly seen in public health announcements, news during disease outbreaks, and government health policy documents. It is broader than {病院|びょういん} and covers any facility that provides medical services.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00577_byouin",
+      "reading": "びょういん",
+      "headword": "{病院|びょういん}",
+      "label": "hospital"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08941_kurinikku",
+      "reading": "くりにっく",
+      "headword": "クリニック",
+      "label": "clinic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14205_shinryoujo",
+      "reading": "しんりょうじょ",
+      "headword": "{診療所|しんりょうじょ}",
+      "label": "clinic, dispensary"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["health"],
-      "domain": ["medical"]
+      "semantic": [
+        "health"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-05-05T15:07:45Z",
-    "modified": "2026-05-05T15:07:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

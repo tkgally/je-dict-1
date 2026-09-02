@@ -19,7 +19,9 @@
       "english": "To reduce labor costs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20616_jinkenhi_ex2",
@@ -27,7 +29,9 @@
       "english": "Labor costs account for the majority of expenses.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20616_jinkenhi_ex3",
@@ -35,21 +39,64 @@
       "english": "More companies are relocating factories overseas to keep labor costs down.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Composed of {人件|じんけん} (personnel matters) + {費|ひ} (expense, cost). Refers to all expenses related to employing people, including wages, bonuses, social insurance, and benefits.\n\nCOMMON COLLOCATIONS:\n- {人件費|じんけんひ}を{削減|さくげん}する (to cut labor costs)\n- {人件費|じんけんひ}を{抑|おさ}える (to hold down labor costs)\n- {人件費|じんけんひ}が{高|たか}い (labor costs are high)\n- {人件費|じんけんひ}の{割合|わりあい} (proportion of labor costs)\n- {人件費|じんけんひ}{率|りつ} (labor cost ratio)\n\nSIMILAR WORDS:\n- {給与|きゅうよ} — salary, pay; refers to individual compensation, not total cost\n- {経費|けいひ} — expenses; broader term covering all business costs\n- {固定費|こていひ} — fixed costs; {人件費|じんけんひ} is often the largest component\n\nUSAGE:\nThis is a standard business and accounting term. In Japan, {人件費|じんけんひ} is a frequent topic in news about corporate restructuring, as companies often look to reduce it through automation, outsourcing, or relocation.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00264_kyuuyo",
+      "reading": "きゅうよ",
+      "headword": "{給与|きゅうよ}",
+      "label": "salary, pay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04696_keihi",
+      "reading": "けいひ",
+      "headword": "{経費|けいひ}",
+      "label": "expenses"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21066_koteihi",
+      "reading": "こていひ",
+      "headword": "{固定費|こていひ}",
+      "label": "fixed costs"
+    },
+    {
+      "type": "related",
+      "target_id": "11512_zairyouhi",
+      "reading": "ざいりょうひ",
+      "headword": "{材料費|ざいりょうひ}",
+      "label": "material cost, cost of materials"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23036_kouchin",
+      "reading": "こうちん",
+      "headword": "{工賃|こうちん}",
+      "label": "labor cost"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T20:04:59Z",
-    "modified": "2026-03-29T20:04:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business", "economics"]
+      "semantic": [
+        "business",
+        "economics"
+      ]
     }
   }
 }

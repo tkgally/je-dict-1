@@ -168,11 +168,33 @@
       ]
     }
   ],
-  "notes": "{裁|さば}く has two main uses: to judge legally and to handle/process things skillfully.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes ⟦を→を：00422_wo⟧ particle: X⟦を→を：00422_wo⟧{裁|さば}く\n\nLEGAL MEANING:\n- ⟦{罪|つみ}→罪：03532_tsumi⟧⟦を→を：00422_wo⟧{裁|さば}く: to judge a crime\n- ⟦{裁判|さいばん}→裁判：02773_saiban⟧⟦で→で：00502_de⟧{裁|さば}く: to try in court\n- ⟦{神|かみ}→神：02147_kami⟧⟦が→が：00051_ga⟧{裁|さば}く: God judges\n\nHANDLING MEANING:\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧{裁|さば}く: to handle work efficiently\n- ⟦{大量|たいりょう}→大量：03112_tairyou⟧⟦の→の：09472_no⟧⟦{注文|ちゅうもん}→注文：03485_chuumon⟧⟦を→を：00422_wo⟧{裁|さば}く: to process large orders\n\nRELATED:\n- ⟦{裁判|さいばん}→裁判：02773_saiban⟧: trial, court case\n- ⟦{裁判官|さいばんかん}→裁判官：09562_saibankan⟧: judge",
-  "cross_references": [],
+  "notes": "{裁|さば}く has two main uses: to judge legally and to handle/process things skillfully.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes ⟦を→を：00422_wo⟧ particle: X⟦を→を：00422_wo⟧{裁|さば}く\n\nLEGAL MEANING:\n- ⟦{罪|つみ}→罪：03532_tsumi⟧⟦を→を：00422_wo⟧{裁|さば}く: to judge a crime\n- ⟦{裁判|さいばん}→裁判：02773_saiban⟧⟦で→で：00502_de⟧{裁|さば}く: to try in court\n- ⟦{神|かみ}→神：02147_kami⟧⟦が→が：00051_ga⟧{裁|さば}く: God judges\n\nHANDLING MEANING:\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦を→を：00422_wo⟧{裁|さば}く: to handle work efficiently\n- ⟦{大量|たいりょう}→大量：03112_tairyou⟧⟦の→の：09472_no⟧⟦{注文|ちゅうもん}→注文：03485_chuumon⟧⟦を→を：00422_wo⟧{裁|さば}く: to process large orders\n\nRELATED WORDS:\n- ⟦{裁判|さいばん}→裁判：02773_saiban⟧: trial, court case\n- ⟦{裁判官|さいばんかん}→裁判官：09562_saibankan⟧: judge",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02773_saiban",
+      "reading": "さいばん",
+      "headword": "{裁判|さいばん}",
+      "label": "trial, court case"
+    },
+    {
+      "type": "related",
+      "target_id": "09562_saibankan",
+      "reading": "さいばんかん",
+      "headword": "{裁判官|さいばんかん}",
+      "label": "judge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30647_shosuru",
+      "reading": "しょする",
+      "headword": "{処|しょ}する",
+      "label": "to deal with"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:41:01Z",
-    "modified": "2026-05-18T15:06:40Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

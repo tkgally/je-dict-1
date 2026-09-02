@@ -17,7 +17,9 @@
       "id": "25472_shiomi_ex1",
       "japanese": "ラーメンは{塩味|しおみ}が{好|す}きだ。",
       "english": "I like salt-flavored ramen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25472_shiomi_ex2",
       "japanese": "このスープは{塩味|しおみ}が{足|た}りない。",
       "english": "This soup doesn't have enough saltiness.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,28 +37,50 @@
       "id": "25472_shiomi_ex3",
       "japanese": "{素材|そざい}の{味|あじ}を{活|い}かすなら、シンプルに{塩味|しおみ}だけで{調理|ちょうり}するのが{一番|いちばん}だ。",
       "english": "If you want to bring out the natural flavor of the ingredients, the best approach is to cook with just salt seasoning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {塩|しお} (salt) and {味|み} (taste/flavor). In the context of ramen and other dishes, {塩味|しおみ} refers to a salt-based broth or seasoning style, as opposed to {醤油|しょうゆ}{味|あじ} (soy sauce flavor), {味噌|みそ}{味|あじ} (miso flavor), or {豚骨|とんこつ} (pork bone broth).\n\nCOMMON COLLOCATIONS:\n- {塩味|しおみ}のラーメン: salt-flavored ramen\n- {塩味|しおみ}が{効|き}いている: has a good amount of salt flavor\n- {塩味|しおみ}が{足|た}りない: not salty enough\n- {塩味|しおみ}が{強|つよ}い: too salty\n- {塩味|しおみ}ベース: salt-based (seasoning)\n\nSIMILAR WORDS:\n- {塩味|しおあじ}: saltiness — same kanji, alternative reading; {しおあじ} focuses more on the taste sensation, while {しおみ} is used more as a seasoning category\n- {塩分|えんぶん}: salt content — the amount of salt in food; a nutritional/health term\n- {塩辛|しおから}い: salty (adjective) — describes food that has too much salt",
+  "notes": "A compound of {塩|しお} (salt) and {味|み} (taste/flavor). In the context of ramen and other dishes, {塩味|しおみ} refers to a salt-based broth or seasoning style, as opposed to {醤油|しょうゆ}{味|あじ} (soy sauce flavor), {味噌|みそ}{味|あじ} (miso flavor), or {豚骨|とんこつ} (pork bone broth).\n\nCOMMON COLLOCATIONS:\n- {塩味|しおみ}のラーメン: salt-flavored ramen\n- {塩味|しおみ}が{効|き}いている: has a good amount of salt flavor\n- {塩味|しおみ}が{足|た}りない: not salty enough\n- {塩味|しおみ}が{強|つよ}い: too salty\n- {塩味|しおみ}ベース: salt-based (seasoning)\n\nSIMILAR WORDS:\n- {塩味|しおあじ}: saltiness — same kanji, alternative reading; しおあじ focuses more on the taste sensation, while しおみ is used more as a seasoning category\n- {塩分|えんぶん}: salt content — the amount of salt in food; a nutritional/health term\n- {塩辛|しおから}い: salty (adjective) — describes food that has too much salt",
   "cross_references": [
     {
       "type": "related",
       "target_id": "12106_shioaji",
       "reading": "しおあじ",
       "label": "variant reading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09945_enbun",
+      "reading": "えんぶん",
+      "headword": "{塩分|えんぶん}",
+      "label": "salt content"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02522_shiokarai",
+      "reading": "しおからい",
+      "headword": "{塩辛|しおから}い",
+      "label": "salty"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-25T14:15:08Z",
-    "modified": "2026-04-25T14:15:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

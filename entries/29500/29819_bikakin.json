@@ -17,7 +17,9 @@
       "id": "29819_bikakin_ex1",
       "japanese": "{微|び}{課金|かきん}で{楽|たの}しんでいる。",
       "english": "I enjoy the game with only light spending.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29819_bikakin_ex2",
       "japanese": "{毎月|まいつき}{微|び}{課金|かきん}する{程度|ていど}だ。",
       "english": "I only spend a little each month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,54 @@
       "id": "29819_bikakin_ex3",
       "japanese": "{無|む}{課金|かきん}ではなく{微|び}{課金|かきん}で{強|つよ}いキャラを{少|すこ}しずつ{集|あつ}めている。",
       "english": "Rather than spending nothing, I gather strong characters little by little with small payments.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A gaming and app slang term: {微|び} (slight) + {課金|かきん} (paying, being charged). Describes a player who spends only small sums on microtransactions.\n\nRELATED TERMS:\n- {無|む}{課金|かきん}: playing without spending any money\n- {重|じゅう}{課金|かきん}: heavy spending\n- {廃|はい}{課金|かきん}: extreme, excessive spending\n- {課金|かきん}する: to pay for in-app content",
+  "notes": "A gaming and app slang term: {微|び} (slight) + {課金|かきん} (paying, being charged). Describes a player who spends only small sums on microtransactions.\n\nRELATED WORDS:\n- {無|む}{課金|かきん}: playing without spending any money\n- {重|じゅう}{課金|かきん}: heavy spending\n- {廃|はい}{課金|かきん}: extreme, excessive spending\n- {課金|かきん}する: to pay for in-app content",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19851_mukakin",
+      "reading": "むかきん",
+      "headword": "{無課金|むかきん}",
+      "label": "playing without spending any money"
+    },
+    {
+      "type": "related",
+      "target_id": "23205_kakinsuru",
+      "reading": "かきんする",
+      "headword": "{課金|かきん}する",
+      "label": "to pay for in-app content"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29811_juukakinzei",
+      "reading": "じゅうかきんぜい",
+      "headword": "{重課金勢|じゅうかきんぜい}",
+      "label": "heavy spender"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
-      "politeness": null,
-      "semantic": ["money"],
-      "domain": ["internet"]
+      "politeness": "plain",
+      "semantic": [
+        "money"
+      ],
+      "domain": [
+        "internet"
+      ]
     },
     "created": "2026-07-14T06:18:33Z",
-    "modified": "2026-07-14T06:18:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

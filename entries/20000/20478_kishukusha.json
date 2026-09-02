@@ -17,7 +17,9 @@
       "id": "20478_kishukusha_ex1",
       "japanese": "{学校|がっこう}の{寄宿舎|きしゅくしゃ}に{住|す}んでいる。",
       "english": "I live in the school dormitory.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20478_kishukusha_ex2",
       "japanese": "{寄宿舎|きしゅくしゃ}には{門限|もんげん}がある。",
       "english": "The dormitory has a curfew.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "20478_kishukusha_ex3",
       "japanese": "{地方|ちほう}から{来|き}た{生徒|せいと}は{寄宿舎|きしゅくしゃ}で{生活|せいかつ}している。",
       "english": "Students who came from the countryside are living in the dormitory.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {寄宿|きしゅく} (boarding, lodging) + {舎|しゃ} (building, quarters). A somewhat formal or traditional term for dormitory accommodations.\n\nCOMMON COLLOCATIONS:\n- {寄宿舎|きしゅくしゃ}に{入|はい}る: to move into a dormitory\n- {寄宿舎|きしゅくしゃ}で{暮|く}らす: to live in a dormitory\n- {寄宿舎|きしゅくしゃ}の{規則|きそく}: dormitory rules\n- {学生|がくせい}{寄宿舎|きしゅくしゃ}: student dormitory\n\nSIMILAR WORDS:\n- {寮|りょう}: dormitory — the more common everyday word for dormitories, especially student or company housing\n- {宿舎|しゅくしゃ}: quarters, lodging — broader term for any kind of accommodation provided by an organization\n- {下宿|げしゅく}: boarding house — a privately run lodging where one rents a room, often with meals provided",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03800_ryou",
+      "reading": "りょう",
+      "headword": "{寮|りょう}",
+      "label": "dormitory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01399_geshuku",
+      "reading": "げしゅく",
+      "headword": "{下宿|げしゅく}",
+      "label": "boarding house"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["building", "education"]
+      "semantic": [
+        "building",
+        "education"
+      ]
     },
     "created": "2026-03-29T15:21:11Z",
-    "modified": "2026-03-29T15:21:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

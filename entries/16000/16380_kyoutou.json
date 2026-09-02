@@ -19,7 +19,9 @@
       "english": "I was called by the vice-principal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16380_kyoutou_ex2",
@@ -27,7 +29,9 @@
       "english": "The vice-principal gave a greeting in place of the principal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16380_kyoutou_ex3",
@@ -35,21 +39,43 @@
       "english": "It's been decided that I'll be promoted to vice-principal starting next year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{教頭|きょうとう} is addressed as {教頭|きょうとう}{先生|せんせい} by students and staff. The role involves managing school schedules, supervising teachers, and handling administrative tasks that the {校長|こうちょう} (principal) delegates.\n\nCOMMON COLLOCATIONS:\n- {教頭|きょうとう}{先生|せんせい} (vice-principal — polite address)\n- {教頭|きょうとう}に{昇進|しょうしん}する (to be promoted to vice-principal)\n- {副|ふく}{校長|こうちょう} (vice-principal — alternative title used in some schools)\n\nSIMILAR WORDS:\n{副|ふく}{校長|こうちょう} is an alternative title for the same position, used in some school systems. In schools that have both, {副|ふく}{校長|こうちょう} may outrank {教頭|きょうとう}.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01582_kouchou",
+      "reading": "こうちょう",
+      "headword": "{校長|こうちょう}",
+      "label": "principal, headmaster"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23995_fukukouchou",
+      "reading": "ふくこうちょう",
+      "headword": "{副校長|ふくこうちょう}",
+      "label": "vice-principal"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T05:12:20Z",
-    "modified": "2026-03-12T05:12:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation", "education"]
+      "semantic": [
+        "occupation",
+        "education"
+      ]
     }
   }
 }

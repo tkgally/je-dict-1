@@ -21,7 +21,9 @@
       "id": "20547_kadouritsu_ex1",
       "japanese": "{工場|こうじょう}の{稼働率|かどうりつ}が{上|あ}がった。",
       "english": "The factory's operating rate went up.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -29,7 +31,9 @@
       "id": "20547_kadouritsu_ex2",
       "japanese": "{設備|せつび}の{稼働率|かどうりつ}を{高|たか}めるために{改善策|かいぜんさく}を{検討|けんとう}した。",
       "english": "We considered improvement measures to raise the equipment utilization rate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -37,7 +41,9 @@
       "id": "20547_kadouritsu_ex3",
       "japanese": "{景気|けいき}の{悪化|あっか}で{製造業|せいぞうぎょう}の{稼働率|かどうりつ}が{低下|ていか}している。",
       "english": "The operating rate in manufacturing is declining due to the economic downturn.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -45,7 +51,9 @@
       "id": "20547_kadouritsu_ex4",
       "japanese": "このサーバーの{稼働率|かどうりつ}は99.9%だ。",
       "english": "This server has 99.9% uptime.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -53,7 +61,9 @@
       "id": "20547_kadouritsu_ex5",
       "japanese": "システムの{稼働率|かどうりつ}を{監視|かんし}するツールを{導入|どうにゅう}した。",
       "english": "We introduced a tool to monitor the system's uptime.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -61,22 +71,45 @@
       "id": "20547_kadouritsu_ex6",
       "japanese": "{稼働率|かどうりつ}が{下|さ}がると{利用者|りようしゃ}からの{苦情|くじょう}が{増|ふ}える。",
       "english": "When uptime drops, complaints from users increase.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {稼働|かどう} (operation, running) and {率|りつ} (rate, ratio). An important economic and industrial metric.\n\nCOMMON COLLOCATIONS:\n- {稼働率|かどうりつ}が{高|たか}い: high operating rate\n- {稼働率|かどうりつ}が{低|ひく}い: low operating rate\n- {稼働率|かどうりつ}を{上|あ}げる: to raise the operating rate\n- {稼働率|かどうりつ}の{低下|ていか}: decline in operating rate\n\nRELATED TERMS:\n- {稼働|かどう}: operation, running\n- {生産性|せいさんせい}: productivity\n- {操業率|そうぎょうりつ}: operating rate — synonym, more common in manufacturing reports",
+  "notes": "Composed of {稼働|かどう} (operation, running) and {率|りつ} (rate, ratio). An important economic and industrial metric.\n\nCOMMON COLLOCATIONS:\n- {稼働率|かどうりつ}が{高|たか}い: high operating rate\n- {稼働率|かどうりつ}が{低|ひく}い: low operating rate\n- {稼働率|かどうりつ}を{上|あ}げる: to raise the operating rate\n- {稼働率|かどうりつ}の{低下|ていか}: decline in operating rate\n\nRELATED WORDS:\n- {稼働|かどう}: operation, running\n- {生産性|せいさんせい}: productivity\n- {操業率|そうぎょうりつ}: operating rate — synonym, more common in manufacturing reports",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05574_seisansei",
+      "reading": "せいさんせい",
+      "headword": "{生産性|せいさんせい}",
+      "label": "productivity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25656_senyuuritsu",
+      "reading": "せんゆうりつ",
+      "headword": "{占有率|せんゆうりつ}",
+      "label": "market share"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business", "technology"]
+      "semantic": [
+        "business",
+        "technology"
+      ]
     },
     "created": "2026-03-29T17:10:46Z",
-    "modified": "2026-03-29T17:10:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

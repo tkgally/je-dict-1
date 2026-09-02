@@ -17,7 +17,9 @@
       "id": "26536_kioureki_ex1",
       "japanese": "{既往歴|きおうれき}を{教|おし}えてください。",
       "english": "Please tell me your medical history.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26536_kioureki_ex2",
       "japanese": "{問診票|もんしんひょう}に{既往歴|きおうれき}を{記入|きにゅう}した。",
       "english": "I filled in my medical history on the patient questionnaire.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,54 @@
       "id": "26536_kioureki_ex3",
       "japanese": "{手術|しゅじゅつ}の{前|まえ}に、{医師|いし}が{既往歴|きおうれき}を{詳|くわ}しく{確認|かくにん}する{必要|ひつよう}がある。",
       "english": "Before surgery, the doctor needs to check the patient's medical history in detail.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {既往|きおう} (past, previous) and {歴|れき} (history, record). This is the standard medical term used in hospitals and clinics throughout Japan. Patients encounter this word on {問診票|もんしんひょう} (patient questionnaires) that must be filled out before seeing a doctor for the first time.\n\nCOMMON COLLOCATIONS:\n- {既往歴|きおうれき}を{聞|き}く: to ask about medical history\n- {既往歴|きおうれき}なし: no prior medical history\n- {既往歴|きおうれき}に{記載|きさい}する: to record in medical history\n- {家族|かぞく}{既往歴|きおうれき}: family medical history\n\nSIMILAR WORDS:\n- {病歴|びょうれき}: medical history — more general and colloquial; {既往歴|きおうれき} is the formal clinical term\n- {現病歴|げんびょうれき}: history of present illness — specifically about the current condition that brought the patient in\n- {診察券|しんさつけん}: patient registration card — the physical card, not the medical record itself",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19429_byoureki",
+      "reading": "びょうれき",
+      "headword": "{病歴|びょうれき}",
+      "label": "medical history"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09709_shinsatsuken",
+      "reading": "しんさつけん",
+      "headword": "{診察券|しんさつけん}",
+      "label": "patient registration card"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08623_kioushou",
+      "reading": "きおうしょう",
+      "headword": "{既往症|きおうしょう}",
+      "label": "medical history"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-05-02T15:26:05Z",
-    "modified": "2026-05-02T15:26:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

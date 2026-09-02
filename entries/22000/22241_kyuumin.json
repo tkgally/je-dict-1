@@ -3,7 +3,7 @@
   "headword": "{休眠|きゅうみん}",
   "reading": "きゅうみん",
   "romaji": "kyuumin",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "dormancy; hibernation; lying idle",
   "definitions": [
     {
@@ -81,6 +81,29 @@
   ],
   "notes": "Compound of {休|きゅう} (rest) and {眠|みん} (sleep). Originally a biological term for the inactive period of organisms, now widely used in business and finance for inactive entities.\n\nCOMMON COLLOCATIONS:\n- {休眠|きゅうみん}する: to go dormant\n- {休眠|きゅうみん}{状態|じょうたい}: dormant state\n- {休眠口座|きゅうみんこうざ}: dormant account\n- {休眠|きゅうみん}{会社|かいしゃ}: dormant company\n- {休眠|きゅうみん}{期間|きかん}: dormancy period\n\nSIMILAR WORDS:\n- {冬眠|とうみん}: hibernation — specifically winter dormancy in animals, not used figuratively for companies\n- {活動|かつどう}{休止|きゅうし}: suspension of activities — describes a deliberate pause, often for groups or performers\n- {休止|きゅうし}: pause; suspension — more general, implies a temporary stop with intention to resume",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15853_toumin",
+      "reading": "とうみん",
+      "headword": "{冬眠|とうみん}",
+      "label": "hibernation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17081_kyuushi",
+      "reading": "きゅうし",
+      "headword": "{休止|きゅうし}",
+      "label": "pause"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24984_fukassei",
+      "reading": "ふかっせい",
+      "headword": "{不活性|ふかっせい}",
+      "label": "inactivity"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -97,7 +120,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T15:13:24Z",
-    "modified": "2026-04-05T15:13:24Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

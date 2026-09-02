@@ -3,7 +3,7 @@
   "headword": "{鋳造|ちゅうぞう}",
   "reading": "ちゅうぞう",
   "romaji": "chuuzou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "casting; founding; minting",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {鋳|ちゅう} (to cast metal) and {造|ぞう} (to make, to build). A technical term belonging to manufacturing, metallurgy, and traditional crafts. It is frequently encountered in contexts involving coin production, bronze statues, temple bells, and industrial metal parts.\n\nCOMMON COLLOCATIONS:\n- {硬貨|こうか}を{鋳造|ちゅうぞう}する: to mint coins\n- {銅像|どうぞう}を{鋳造|ちゅうぞう}する: to cast a bronze statue\n- {鋳造|ちゅうぞう}{技術|ぎじゅつ}: casting technology\n- {鋳造|ちゅうぞう}{工場|こうじょう}: a foundry\n\nSIMILAR WORDS:\n- {鋳物|いもの}: cast metal goods — the finished products of {鋳造|ちゅうぞう}\n- {鍛造|たんぞう}: forging — shaping hot metal by hammering, a different process\n- {製造|せいぞう}: manufacturing — the general term for producing goods\n- {成型|せいけい}: molding — shaping materials (often plastics) using a form",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03289_seizou",
+      "reading": "せいぞう",
+      "headword": "{製造|せいぞう}",
+      "label": "manufacturing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24078_seitetsu",
+      "reading": "せいてつ",
+      "headword": "{製鉄|せいてつ}",
+      "label": "ironmaking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24155_seiren",
+      "reading": "せいれん",
+      "headword": "{製錬|せいれん}",
+      "label": "smelting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +87,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-11T14:19:23Z",
-    "modified": "2026-07-31T18:27:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

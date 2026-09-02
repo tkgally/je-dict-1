@@ -18,7 +18,9 @@
       "english": "Transportation costs will be reimbursed at actual cost.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11499_jippi_ex2",
@@ -26,7 +28,9 @@
       "english": "Please pay the actual cost for materials.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11499_jippi_ex3",
@@ -34,22 +38,36 @@
       "english": "Since it's volunteer work there's no pay, but actual expenses are covered.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "The real amount spent, without markup, profit, or subsidy. Common in business and organizational contexts.\n\nWORD FORMATION:\n{実|じつ} (actual/real) + {費|ひ} (cost/expense)\n\nCOMMON PATTERNS:\n- {実費|じっぴ}で: at actual cost\n- {実費|じっぴ}{精算|せいさん}: settlement/reimbursement at actual cost\n- {実費|じっぴ}{負担|ふたん}: bearing actual expenses\n- {実費|じっぴ}で{支給|しきゅう}する: to reimburse at actual cost\n\nUSAGE:\nOften appears in employment and volunteer contexts — for example, {交通費|こうつうひ}は{実費|じっぴ}で{支給|しきゅう} (transportation reimbursed at actual cost). Contrasts with {定額|ていがく} (fixed amount), where a set sum is paid regardless of actual spending.",
-  "cross_references": [],
+  "notes": "The real amount spent, without markup, profit, or subsidy. Common in business and organizational contexts.\n\nFORMS:\n{実|じつ} (actual/real) + {費|ひ} (cost/expense)\n\nCOMMON PATTERNS:\n- {実費|じっぴ}で: at actual cost\n- {実費|じっぴ}{精算|せいさん}: settlement/reimbursement at actual cost\n- {実費|じっぴ}{負担|ふたん}: bearing actual expenses\n- {実費|じっぴ}で{支給|しきゅう}する: to reimburse at actual cost\n\nUSAGE:\nOften appears in employment and volunteer contexts — for example, {交通費|こうつうひ}は{実費|じっぴ}で{支給|しきゅう} (transportation reimbursed at actual cost). Contrasts with {定額|ていがく} (fixed amount), where a set sum is paid regardless of actual spending.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20462_jikofutan",
+      "reading": "じこふたん",
+      "headword": "{自己負担|じこふたん}",
+      "label": "out-of-pocket expense"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T01:54:44Z",
-    "modified": "2026-03-25T12:24:31Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

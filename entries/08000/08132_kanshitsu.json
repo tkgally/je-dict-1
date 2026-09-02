@@ -16,7 +16,9 @@
       "id": "08132_kanshitsu_ex1",
       "japanese": "{乾湿計|かんしつけい}で{湿度|しつど}を{測|はか}る。",
       "english": "To measure humidity with a hygrometer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": "乾湿計 = hygrometer (wet-and-dry bulb thermometer)"
     },
@@ -24,7 +26,9 @@
       "id": "08132_kanshitsu_ex2",
       "japanese": "{乾湿|かんしつ}の{差|さ}が{激|はげ}しい{地域|ちいき}。",
       "english": "A region with extreme differences between dry and wet conditions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,20 +36,52 @@
       "id": "08132_kanshitsu_ex3",
       "japanese": "{乾湿|かんしつ}{両用|りょうよう}の{掃除機|そうじき}が{便利|べんり}だ。",
       "english": "A wet-and-dry vacuum cleaner is convenient.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{乾湿|かんしつ} refers to the state of dryness and wetness, or the range between dry and wet conditions. It combines {乾|かん} (dry) + {湿|しつ} (wet/humid).\n\nCOMMON COMPOUNDS:\n- {乾湿計|かんしつけい}: hygrometer (wet-and-dry bulb thermometer)\n- {乾湿|かんしつ}{両用|りょうよう}: for both wet and dry use\n- {乾湿|かんしつ}の{差|さ}: difference between dry and wet conditions\n\nUSAGE CONTEXTS:\n- Weather and climate descriptions\n- Scientific measurements\n- Appliance features (vacuums, mops)\n\nRELATED TERMS:\n- {湿度|しつど}: humidity\n- {乾燥|かんそう}: dryness, dry conditions\n- {湿気|しっけ}: moisture, dampness",
+  "notes": "{乾湿|かんしつ} refers to the state of dryness and wetness, or the range between dry and wet conditions. It combines {乾|かん} (dry) + {湿|しつ} (wet/humid).\n\nCOMPOUNDS:\n- {乾湿計|かんしつけい}: hygrometer (wet-and-dry bulb thermometer)\n- {乾湿|かんしつ}{両用|りょうよう}: for both wet and dry use\n- {乾湿|かんしつ}の{差|さ}: difference between dry and wet conditions\n\nUSAGE:\n- Weather and climate descriptions\n- Scientific measurements\n- Appliance features (vacuums, mops)\n\nRELATED WORDS:\n- {湿度|しつど}: humidity\n- {乾燥|かんそう}: dryness, dry conditions\n- {湿気|しっけ}: moisture, dampness",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03181_shitsudo",
+      "reading": "しつど",
+      "headword": "{湿度|しつど}",
+      "label": "humidity"
+    },
+    {
+      "type": "related",
+      "target_id": "00184_kansou",
+      "reading": "かんそう",
+      "headword": "{乾燥|かんそう}",
+      "label": "dryness, dry conditions"
+    },
+    {
+      "type": "related",
+      "target_id": "03177_shikke",
+      "reading": "しっけ",
+      "headword": "{湿気|しっけ}",
+      "label": "moisture, dampness"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "semantic": ["weather", "measurement", "science"]
+      "politeness": "plain",
+      "semantic": [
+        "weather",
+        "measurement",
+        "science"
+      ]
     },
     "created": "2026-01-25T06:00:55Z",
-    "modified": "2026-01-27T05:13:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

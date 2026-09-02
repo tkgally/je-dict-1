@@ -46,12 +46,30 @@
   ],
   "notes": "A compound of {髪|かみ} (hair) and {質|しつ} (quality/nature). Refers to the inherent characteristics of someone's hair — whether it is straight, curly, thick, thin, oily, dry, etc. Commonly used in beauty, hair care, and salon contexts.\n\nCOMMON COLLOCATIONS:\n- {髪質|かみしつ}に{合|あ}う: to suit one's hair type\n- {髪質|かみしつ}を{改善|かいぜん}する: to improve hair quality\n- {髪質|かみしつ}が{柔|やわ}らかい: soft hair texture\n- {髪質|かみしつ}が{硬|かた}い: coarse hair texture\n\nHAIR TYPES:\n- {直毛|ちょくもう}: straight hair\n- {縮毛|しゅくもう}: curly/kinky hair\n- {剛毛|ごうもう}: coarse/thick hair\n- {軟毛|なんもう}: fine/soft hair\n\nSIMILAR WORDS:\n- {肌質|はだしつ} — skin type (same ~{質|しつ} pattern)\n- {毛質|もうしつ} — hair/fur quality (more technical or for animal fur)\n- {髪型|かみがた} — hairstyle (shape, not texture)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25996_hadashitsu",
+      "reading": "はだしつ",
+      "headword": "{肌質|はだしつ}",
+      "label": "skin type"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14646_kamigata",
+      "reading": "かみがた",
+      "headword": "{髪型|かみがた}",
+      "label": "hairstyle"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "body",
         "daily-life"
@@ -59,6 +77,6 @@
       "usage_context": []
     },
     "created": "2026-04-04T22:19:39Z",
-    "modified": "2026-04-04T22:19:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "This wallet is made of genuine leather.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16787_hongawa_ex2",
@@ -27,7 +29,9 @@
       "english": "Leather shoes require proper care.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16787_hongawa_ex3",
@@ -35,21 +39,57 @@
       "english": "Genuine leather lasts longer than synthetic leather, but it's also more expensive.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften seen on product labels and shopping descriptions. The {本|ほん} prefix means \"genuine\" or \"real,\" contrasting with {合成|ごうせい} (synthetic) or {合皮|ごうひ} (synthetic leather).\n\nCOMMON COLLOCATIONS:\n- {本革|ほんがわ}{製|せい} (made of genuine leather)\n- {本革|ほんがわ}のバッグ (a genuine leather bag)\n- {本革|ほんがわ}シート (leather seats, e.g., in a car)\n\nSIMILAR WORDS:\n- {合皮|ごうひ}: synthetic leather — shorter form of {合成皮革|ごうせいひかく}\n- {皮革|ひかく}: leather, hides — a more general or technical term",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28433_hikaku",
+      "reading": "ひかく",
+      "headword": "{皮革|ひかく}",
+      "label": "leather, hides"
+    },
+    {
+      "type": "antonym",
+      "target_id": "23381_jinkouhikaku",
+      "reading": "じんこうひかく",
+      "headword": "{人工皮革|じんこうひかく}",
+      "label": "synthetic leather"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23705_gouseihikaku",
+      "reading": "ごうせいひかく",
+      "headword": "{合成|ごうせい}{皮革|ひかく}",
+      "label": "synthetic leather"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26255_kawasei",
+      "reading": "かわせい",
+      "headword": "{革製|かわせい}",
+      "label": "made of leather"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T10:32:03Z",
-    "modified": "2026-03-14T10:32:03Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["material", "shopping"]
+      "semantic": [
+        "material",
+        "shopping"
+      ]
     }
   }
 }

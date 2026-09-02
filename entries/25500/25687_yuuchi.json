@@ -3,7 +3,7 @@
   "headword": "{誘致|ゆうち}",
   "reading": "ゆうち",
   "romaji": "yuuchi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "attraction; inducement; bidding for",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "A compound of {誘|ゆう} (to invite, to lure) and {致|ち} (to bring about). Functions as a suru verb ({誘致|ゆうち}する). A formal term commonly used in news and policy discussions about economic development, event hosting, and tourism promotion.\n\nCOMMON COLLOCATIONS:\n- {企業|きぎょう}{誘致|ゆうち}: attracting businesses\n- {観光客|かんこうきゃく}{誘致|ゆうち}: attracting tourists\n- オリンピック{誘致|ゆうち}: Olympic bid\n- {工場|こうじょう}{誘致|ゆうち}: attracting factories\n- {誘致|ゆうち}{活動|かつどう}: attraction/bidding activities\n\nSIMILAR WORDS:\n- {招致|しょうち}: invitation, inviting — very similar; {招致|しょうち} emphasizes formally inviting, while {誘致|ゆうち} emphasizes actively luring\n- {呼|よ}び{込|こ}み: attracting, drawing in — more colloquial, used for customers and crowds\n- {勧誘|かんゆう}: solicitation, recruitment — approaching individuals to join or buy",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16850_kanyuu",
+      "reading": "かんゆう",
+      "headword": "{勧誘|かんゆう}",
+      "label": "solicitation, recruitment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26246_yuukyaku",
+      "reading": "ゆうきゃく",
+      "headword": "{誘客|ゆうきゃく}",
+      "label": "attracting visitors"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +81,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-26T15:20:02Z",
-    "modified": "2026-04-26T15:20:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

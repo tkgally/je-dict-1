@@ -19,7 +19,9 @@
       "english": "I'm preparing for the essay portion of the entrance exam.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15669_shouronbun_ex2",
@@ -27,7 +29,9 @@
       "english": "Please write the essay in 800 characters or less.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15669_shouronbun_ex3",
@@ -35,7 +39,9 @@
       "english": "In an essay exam, you are required to state your opinion logically.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA key component of many Japanese university entrance exams and job applications. Unlike {作文|さくぶん} (composition), which is more open-ended and personal, {小論文|しょうろんぶん} requires a structured argument with a clear thesis. Typical length is 600-800 characters.\n\nCOMMON COLLOCATIONS:\n- {小論文|しょうろんぶん}{対策|たいさく} (essay exam preparation)\n- {小論文|しょうろんぶん}を{書|か}く (to write an essay)\n- {小論文|しょうろんぶん}{試験|しけん} (essay exam)\n\nSIMILAR WORDS:\n- {作文|さくぶん}: composition (less formal, more creative)\n- {論文|ろんぶん}: thesis, academic paper (longer, more rigorous)\n- レポート: report (academic assignment)",
@@ -46,18 +52,36 @@
       "reading": "ろんぶん",
       "headword": "{論文|ろんぶん}",
       "label": "academic paper"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02884_sakubun",
+      "reading": "さくぶん",
+      "headword": "{作文|さくぶん}",
+      "label": "composition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01543_repooto",
+      "reading": "れぽーと",
+      "headword": "レポート",
+      "label": "report"
     }
   ],
   "metadata": {
     "created": "2026-03-08T06:47:13Z",
-    "modified": "2026-05-01T09:03:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

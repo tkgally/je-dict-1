@@ -3,7 +3,7 @@
   "headword": "{放流|ほうりゅう}",
   "reading": "ほうりゅう",
   "romaji": "houryuu",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "release; discharge; stocking (fish)",
   "conjugation": {
     "type": "suru",
@@ -169,8 +169,17 @@
       "notes": null
     }
   ],
-  "notes": "{放流|ほうりゅう} has two distinct uses: releasing fish/animals into the wild, and discharging water from dams.\n\nWORD FORMATION:\n{放|ほう} (release) + {流|りゅう} (flow)\n\nSENSE 1 — FISH STOCKING:\n- {稚魚|ちぎょ}の{放流|ほうりゅう}: releasing fry (young fish)\n- サケの{放流|ほうりゅう}: salmon stocking\n- {放流|ほうりゅう}{体験|たいけん}: fish-release experience (educational activity)\nCommonly done for conservation and fisheries management.\n\nSENSE 2 — WATER DISCHARGE:\n- ダムの{放流|ほうりゅう}: dam discharge\n- {緊急|きんきゅう}{放流|ほうりゅう}: emergency discharge\n- {放流|ほうりゅう}{量|りょう}: discharge volume\nSeen in weather warnings during heavy rainfall. {緊急|きんきゅう}{放流|ほうりゅう} alerts warn of sudden water level rises downstream.",
+  "notes": "{放流|ほうりゅう} has two distinct uses: releasing fish/animals into the wild, and discharging water from dams.\n\nFORMS:\n{放|ほう} (release) + {流|りゅう} (flow)\n\nSENSE 1 — FISH STOCKING:\n- {稚魚|ちぎょ}の{放流|ほうりゅう}: releasing fry (young fish)\n- サケの{放流|ほうりゅう}: salmon stocking\n- {放流|ほうりゅう}{体験|たいけん}: fish-release experience (educational activity)\nCommonly done for conservation and fisheries management.\n\nSENSE 2 — WATER DISCHARGE:\n- ダムの{放流|ほうりゅう}: dam discharge\n- {緊急|きんきゅう}{放流|ほうりゅう}: emergency discharge\n- {放流|ほうりゅう}{量|りょう}: discharge volume\nSeen in weather warnings during heavy rainfall. {緊急|きんきゅう}{放流|ほうりゅう} alerts warn of sudden water level rises downstream.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26635_hougyo",
+      "reading": "ほうぎょ",
+      "headword": "{放魚|ほうぎょ}",
+      "label": "releasing fish"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -186,6 +195,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-22T03:13:34Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

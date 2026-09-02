@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "COMPONENTS:\n{着|ちゃく} (arrive; land) + {陸|りく} (land)\nLiterally: \"arriving at land\"\n\nTYPES OF LANDING:\n- ⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧{着陸|ちゃくりく} (緊急着陸): emergency landing\n- ⟦{不時着|ふじちゃく}→不時着：noentry⟧: forced landing\n- ⟦{胴体着陸|どうたいちゃくりく}→胴体着陸：noentry⟧: belly landing\n- ⟦{着水|ちゃくすい}→着水：noentry⟧: water landing\n\nRELATED TERMS:\n- {着陸|ちゃくりく}⟦{態勢|たいせい}→態勢：12937_taisei⟧ (着陸態勢): landing position\n- {着陸|ちゃくりく}⟦{許可|きょか}→許可：00259_kyoka⟧ (着陸許可): landing clearance\n- {着陸|ちゃくりく}⟦{装置|そうち}→装置：03318_souchi⟧ (着陸装置): landing gear\n- ⟦{着陸灯|ちゃくりくとう}→着陸灯：noentry⟧: landing lights\n\nANNOUNCEMENTS:\nAirline announcements: 「⟦まもなく→まもなく：02491_mamonaku⟧{着陸|ちゃくりく}⟦いたします→いたす：01314_itasu⟧」(We will be landing shortly)",
+  "notes": "ETYMOLOGY:\n{着|ちゃく} (arrive; land) + {陸|りく} (land)\nLiterally: \"arriving at land\"\n\nTYPES OF LANDING:\n- ⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧{着陸|ちゃくりく} (緊急着陸): emergency landing\n- ⟦{不時着|ふじちゃく}→不時着：noentry⟧: forced landing\n- ⟦{胴体着陸|どうたいちゃくりく}→胴体着陸：noentry⟧: belly landing\n- ⟦{着水|ちゃくすい}→着水：noentry⟧: water landing\n\nRELATED WORDS:\n- {着陸|ちゃくりく}⟦{態勢|たいせい}→態勢：12937_taisei⟧ (着陸態勢): landing position\n- {着陸|ちゃくりく}⟦{許可|きょか}→許可：00259_kyoka⟧ (着陸許可): landing clearance\n- {着陸|ちゃくりく}⟦{装置|そうち}→装置：03318_souchi⟧ (着陸装置): landing gear\n- ⟦{着陸灯|ちゃくりくとう}→着陸灯：noentry⟧: landing lights\n\nANNOUNCEMENTS:\nAirline announcements: 「⟦まもなく→まもなく：02491_mamonaku⟧{着陸|ちゃくりく}⟦いたします→いたす：01314_itasu⟧」(We will be landing shortly)",
   "cross_references": [
     {
       "type": "antonym",
@@ -148,11 +148,32 @@
       "headword": "{滑走路|かっそうろ}",
       "label": "runway",
       "target_id": "05980_kassouro"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15276_chakuchi",
+      "reading": "ちゃくち",
+      "headword": "{着地|ちゃくち}",
+      "label": "landing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20591_jouriku",
+      "reading": "じょうりく",
+      "headword": "{上陸|じょうりく}",
+      "label": "landing"
+    },
+    {
+      "type": "antonym",
+      "target_id": "22506_ririkusuru",
+      "reading": "りりくする",
+      "headword": "{離陸|りりく}する",
+      "label": "to take off (aircraft)"
     }
   ],
   "metadata": {
     "created": "2026-01-16T17:33:22Z",
-    "modified": "2026-06-09T19:53:05Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

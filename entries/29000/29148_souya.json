@@ -17,7 +17,9 @@
       "id": "29148_souya_ex1",
       "japanese": "A:「{昨日|きのう}{大阪|おおさか}に{行|い}ったの?」B:「そうや、{久|ひさ}しぶりに{行|い}ってん。」",
       "english": "A: 'Did you go to Osaka yesterday?' B: 'Yeah, I went for the first time in a while.'",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29148_souya_ex2",
       "japanese": "そうや!{鍵|かぎ}、{車|くるま}の{中|なか}に{忘|わす}れてきた。",
       "english": "Oh right! I left my keys in the car.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,54 @@
       "id": "29148_souya_ex3",
       "japanese": "「そうやそうや、それが{一番|いちばん}{大事|だいじ}なことやんか。」",
       "english": "'Yes, yes, that's the most important thing, isn't it.'",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Kansai dialect form of そうだ, used primarily in the Osaka/Kyoto/Kobe area. Very common in casual conversation and frequently heard in Kansai-dialect comedy and drama.\n\nCOMMON VARIANTS:\n- そうやな: right, isn't it (= そうだね)\n- そうやんか: that's the way it is, you know\n- そうやで: yeah, that's right (emphatic)\n\nSIMILAR WORDS:\n- そうだ (standard): that's right — the standard Japanese equivalent\n- そうやね: similar, adds seeking-agreement nuance (→ see separate entry)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10076_souda",
+      "reading": "そうだ",
+      "headword": "そうだ",
+      "label": "standard"
+    },
+    {
+      "type": "related",
+      "target_id": "07542_seya",
+      "reading": "せや",
+      "headword": "せや",
+      "label": "that's right (Kansai dialect)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29149_soyane",
+      "reading": "そやね",
+      "headword": "そやね",
+      "label": "yeah, right"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["grammatical"],
-      "domain": ["colloquial"]
+      "semantic": [
+        "grammatical"
+      ],
+      "domain": [
+        "colloquial"
+      ]
     },
     "created": "2026-06-11T21:42:30Z",
-    "modified": "2026-06-11T21:42:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

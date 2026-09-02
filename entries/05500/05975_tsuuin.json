@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "RELATED TERMS:\n- {通院|つういん}⟦{患者|かんじゃ}→患者：00170_kanja⟧ (通院患者): outpatient\n- {通院|つういん}⟦{治療|ちりょう}→治療：03503_chiryou⟧ (通院治療): outpatient treatment\n- ⟦{入院|にゅういん}→入院：02091_nyuuin⟧: hospitalization (inpatient)\n- ⟦{外来|がいらい}→外来：09895_gairai⟧: outpatient department\n\nINSURANCE:\n{通院|つういん} is important in medical insurance contexts:\n- ⟦{通院給付金|つういんきゅうふきん}→通院給付金：noentry⟧: outpatient benefit\n- ⟦{通院保障|つういんほしょう}→通院保障：noentry⟧: outpatient coverage\n\nCONTRAST:\n- {通院|つういん}: Going to hospital without staying\n- ⟦{入院|にゅういん}→入院：02091_nyuuin⟧: Being admitted to hospital",
+  "notes": "RELATED WORDS:\n- {通院|つういん}⟦{患者|かんじゃ}→患者：00170_kanja⟧ (通院患者): outpatient\n- {通院|つういん}⟦{治療|ちりょう}→治療：03503_chiryou⟧ (通院治療): outpatient treatment\n- ⟦{入院|にゅういん}→入院：02091_nyuuin⟧: hospitalization (inpatient)\n- ⟦{外来|がいらい}→外来：09895_gairai⟧: outpatient department\n\nINSURANCE:\n{通院|つういん} is important in medical insurance contexts:\n- ⟦{通院給付金|つういんきゅうふきん}→通院給付金：noentry⟧: outpatient benefit\n- ⟦{通院保障|つういんほしょう}→通院保障：noentry⟧: outpatient coverage\n\nSIMILAR WORDS:\n- {通院|つういん}: Going to hospital without staying\n- ⟦{入院|にゅういん}→入院：02091_nyuuin⟧: Being admitted to hospital",
   "cross_references": [
     {
       "type": "antonym",
@@ -141,11 +141,60 @@
       "headword": "{入院|にゅういん}",
       "label": "hospitalization",
       "target_id": "02091_nyuuin"
+    },
+    {
+      "type": "related",
+      "target_id": "09895_gairai",
+      "reading": "がいらい",
+      "headword": "{外来|がいらい}",
+      "label": "outpatient department"
+    },
+    {
+      "type": "related",
+      "target_id": "00771_byouki",
+      "reading": "びょうき",
+      "headword": "{病気|びょうき}",
+      "label": "illness, disease"
+    },
+    {
+      "type": "related",
+      "target_id": "01847_taiinsuru",
+      "reading": "たいいんする",
+      "headword": "{退院|たいいん}する",
+      "label": "leaving hospital"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01849_nyuuinsuru",
+      "reading": "にゅういんする",
+      "headword": "{入院|にゅういん}する",
+      "label": "hospitalization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02090_taiin",
+      "reading": "たいいん",
+      "headword": "{退院|たいいん}",
+      "label": "leaving the hospital, discharge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23254_saishin",
+      "reading": "さいしん",
+      "headword": "{再診|さいしん}",
+      "label": "follow-up medical visit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23886_zaitakuiryou",
+      "reading": "ざいたくいりょう",
+      "headword": "{在宅医療|ざいたくいりょう}",
+      "label": "home healthcare, home medical care"
     }
   ],
   "metadata": {
     "created": "2026-01-16T17:32:04Z",
-    "modified": "2026-06-09T19:43:40Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

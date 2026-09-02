@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "{本州|ほんしゅう} is the largest and most populous of Japan's four main islands, containing roughly 80% of the country's population.\n\nKANJI:\n{本|ほん} (main, true) + {州|しゅう} (province, state). Literally \"main province.\"\n\nJAPAN'S FOUR MAIN ISLANDS:\n- {北海道|ほっかいどう}: Hokkaido (northernmost)\n- {本州|ほんしゅう}: Honshu (largest, central)\n- {四国|しこく}: Shikoku (smallest of the four)\n- {九州|きゅうしゅう}: Kyushu (southernmost)\n\nREGIONS ON HONSHU:\n- {東北|とうほく}: Tohoku (northeast)\n- {関東|かんとう}: Kanto (includes Tokyo)\n- {中部|ちゅうぶ}: Chubu (central)\n- {近畿|きんき}/{関西|かんさい}: Kinki/Kansai (includes Osaka, Kyoto)\n- {中国|ちゅうごく}: Chugoku (western)\n\nHonshu is the seventh-largest island in the world by area.",
+  "notes": "{本州|ほんしゅう} is the largest and most populous of Japan's four main islands, containing roughly 80% of the country's population.\n\nWRITING:\n{本|ほん} (main, true) + {州|しゅう} (province, state). Literally \"main province.\"\n\nJAPAN'S FOUR MAIN ISLANDS:\n- {北海道|ほっかいどう}: Hokkaido (northernmost)\n- {本州|ほんしゅう}: Honshu (largest, central)\n- {四国|しこく}: Shikoku (smallest of the four)\n- {九州|きゅうしゅう}: Kyushu (southernmost)\n\nREGIONS ON HONSHU:\n- {東北|とうほく}: Tohoku (northeast)\n- {関東|かんとう}: Kanto (includes Tokyo)\n- {中部|ちゅうぶ}: Chubu (central)\n- {近畿|きんき}/{関西|かんさい}: Kinki/Kansai (includes Osaka, Kyoto)\n- {中国|ちゅうごく}: Chugoku (western)\n\nHonshu is the seventh-largest island in the world by area.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05500_hondo",
+      "reading": "ほんど",
+      "headword": "{本土|ほんど}",
+      "label": "mainland"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15647_kyuushuu",
+      "reading": "きゅうしゅう",
+      "headword": "{九州|きゅうしゅう}",
+      "label": "Kyushu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28927_naichi",
+      "reading": "ないち",
+      "headword": "{内地|ないち}",
+      "label": "the mainland"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +84,6 @@
       ]
     },
     "created": "2026-03-22T04:42:37Z",
-    "modified": "2026-08-11T04:24:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

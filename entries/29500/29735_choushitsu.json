@@ -3,7 +3,7 @@
   "headword": "{調湿|ちょうしつ}",
   "reading": "ちょうしつ",
   "romaji": "choushitsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "humidity regulation; moisture control",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Refers to keeping humidity at a comfortable level, either passively through materials or actively with equipment. Most often used attributively of building materials and appliances.\n\nCOMMON COLLOCATIONS:\n- {調湿|ちょうしつ}{機能|きのう}: humidity-regulating function\n- {調湿|ちょうしつ}{効果|こうか}: moisture-regulating effect\n- {調湿|ちょうしつ}{材|ざい}: humidity-control material\n\nSIMILAR WORDS:\n- {除湿|じょしつ}: dehumidification — removing moisture only\n- {加湿|かしつ}: humidification — adding moisture only",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09623_joshitsu",
+      "reading": "じょしつ",
+      "headword": "{除湿|じょしつ}",
+      "label": "dehumidification"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29748_kashitsu",
+      "reading": "かしつ",
+      "headword": "{加湿|かしつ}",
+      "label": "humidification"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "technology"
       ],
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-09T21:19:28Z",
-    "modified": "2026-07-09T21:19:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

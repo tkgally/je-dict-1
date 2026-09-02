@@ -3,7 +3,7 @@
   "headword": "{退却|たいきゃく}",
   "reading": "たいきゃく",
   "romaji": "taikyaku",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "retreat; withdrawal; falling back",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,29 @@
   ],
   "notes": "Primarily a military term for retreating from enemy forces, but also used figuratively for backing down or giving up a position in arguments, negotiations, or plans.\n\nCOMMON COLLOCATIONS:\n- {退却|たいきゃく}を{命|めい}じる: to order a retreat\n- {退却|たいきゃく}を{余儀|よぎ}なくされる: to be forced to retreat\n- {退却|たいきゃく}{戦|せん}: fighting retreat; rearguard action\n- {全面|ぜんめん}{退却|たいきゃく}: full retreat\n\nSIMILAR WORDS:\n- {撤退|てったい}: withdrawal — more strategic and planned; also used for business withdrawal from a market\n- {後退|こうたい}: retreat, regression — also used figuratively for setbacks or economic decline\n- {敗走|はいそう}: rout, fleeing in defeat — implies a disorderly retreat after losing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12822_tettai",
+      "reading": "てったい",
+      "headword": "{撤退|てったい}",
+      "label": "withdrawal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12556_koutai",
+      "reading": "こうたい",
+      "headword": "{後退|こうたい}",
+      "label": "retreat, regression"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25360_tettaisuru",
+      "reading": "てったいする",
+      "headword": "{撤退|てったい}する",
+      "label": "to withdraw"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +175,6 @@
       "verb_class": "suru"
     },
     "created": "2026-04-01T15:25:11Z",
-    "modified": "2026-07-29T00:24:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

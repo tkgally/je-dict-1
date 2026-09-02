@@ -34,7 +34,7 @@
     },
     {
       "id": "02631_kiji_ex2",
-      "japanese": "⟦パン→パン：00553_pan⟧⟦の→の：09472_no⟧{生地|きじ}⟦を→を：00422_wo⟧⟦{こねる|こねる}→捏ねる：06187_koneru⟧。",
+      "japanese": "⟦パン→パン：00553_pan⟧⟦の→の：09472_no⟧{生地|きじ}⟦を→を：00422_wo⟧⟦こねる→捏ねる：06187_koneru⟧。",
       "english": "To knead bread dough.",
       "notes": null,
       "has_audio": false,
@@ -113,7 +113,7 @@
       ]
     }
   ],
-  "notes": "{生地|きじ} has multiple meanings depending on context.\n\nFABRIC MEANING:\n- {生地|きじ}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧ (to choose fabric)\n- ⟦{綿|めん}→綿：03807_men⟧{生地|きじ} (cotton fabric)\n- ⟦{絹|きぬ}→絹：01383_kinu⟧{生地|きじ} (silk fabric)\n\nDOUGH MEANING:\n- {生地|きじ}⟦を→を：00422_wo⟧⟦{こねる|こねる}→捏ねる：06187_koneru⟧ (to knead dough)\n- ⟦パン→パン：00553_pan⟧⟦の→の：09472_no⟧{生地|きじ} (bread dough)\n- ⟦ピザ→ピザ：06769_piza⟧⟦の→の：09472_no⟧{生地|きじ} (pizza dough)\n\nTRUE NATURE MEANING:\n- {生地|きじ}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ (true nature comes out)\n- {生地|きじ}⟦を→を：00422_wo⟧⟦{見|み}せる→見せる：01988_miseru⟧ (to show one's true colors)\n\nSIMILAR WORDS:\n- {生地|きじ}: fabric, dough\n- ⟦{布|ぬの}→布：01489_nuno⟧: cloth (general term)\n- ⟦{素材|そざい}→素材：09492_sozai⟧: material (broader term)",
+  "notes": "{生地|きじ} has multiple meanings depending on context.\n\nFABRIC MEANING:\n- {生地|きじ}⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧ (to choose fabric)\n- ⟦{綿|めん}→綿：03807_men⟧{生地|きじ} (cotton fabric)\n- ⟦{絹|きぬ}→絹：01383_kinu⟧{生地|きじ} (silk fabric)\n\nDOUGH MEANING:\n- {生地|きじ}⟦を→を：00422_wo⟧⟦こねる→捏ねる：06187_koneru⟧ (to knead dough)\n- ⟦パン→パン：00553_pan⟧⟦の→の：09472_no⟧{生地|きじ} (bread dough)\n- ⟦ピザ→ピザ：06769_piza⟧⟦の→の：09472_no⟧{生地|きじ} (pizza dough)\n\nTRUE NATURE MEANING:\n- {生地|きじ}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ (true nature comes out)\n- {生地|きじ}⟦を→を：00422_wo⟧⟦{見|み}せる→見せる：01988_miseru⟧ (to show one's true colors)\n\nSIMILAR WORDS:\n- {生地|きじ}: fabric, dough\n- ⟦{布|ぬの}→布：01489_nuno⟧: cloth (general term)\n- ⟦{素材|そざい}→素材：09492_sozai⟧: material (broader term)",
   "cross_references": [
     {
       "type": "related",
@@ -121,11 +121,46 @@
       "headword": "{布|ぬの}",
       "label": "cloth",
       "target_id": "01489_nuno"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09492_sozai",
+      "reading": "そざい",
+      "headword": "{素材|そざい}",
+      "label": "material"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20097_nunoji",
+      "reading": "ぬのじ",
+      "headword": "{布地|ぬのじ}",
+      "label": "fabric"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24596_tanmono",
+      "reading": "たんもの",
+      "headword": "{反物|たんもの}",
+      "label": "bolt of cloth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25005_omoteji",
+      "reading": "おもてじ",
+      "headword": "{表地|おもてじ}",
+      "label": "outer fabric"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30402_pittsa",
+      "reading": "ぴっつぁ",
+      "headword": "ピッツァ",
+      "label": "pizza (Italian-style)"
     }
   ],
   "metadata": {
     "created": "2026-01-11T06:43:14Z",
-    "modified": "2026-05-21T17:09:23Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

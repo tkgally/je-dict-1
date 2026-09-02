@@ -43,11 +43,40 @@
       ]
     }
   ],
-  "notes": "ざぶざぶ is an onomatopoeia describing the sound or motion of splashing through water. It suggests vigorous, repeated water movement.\n\nCOMMON PATTERNS:\n- ざぶざぶ（と）⟦{洗|あら}う→洗う：00827_arau⟧: to wash vigorously with water\n- ざぶざぶ（と）⟦{歩|ある}く→歩く：00538_aruku⟧: to wade through water\n- ざぶざぶ（と）⟦{渡|わた}る→渡る：02441_wataru⟧: to splash across (a river)\n\nCONTRAST WITH SIMILAR ONOMATOPOEIA:\n- ⟦じゃぶじゃぶ→じゃぶじゃぶ：05724_jabujabu⟧: similar splashing, often for wading or washing hands\n- ⟦ばしゃばしゃ→ばしゃばしゃ：28998_bashabasha⟧: more violent, irregular splashing\n- ⟦ちゃぷちゃぷ→ちゃぷちゃぷ：noentry⟧: gentler, lighter splashing\n- ⟦ざぶん→ざぶん：noentry⟧: a single big splash (jumping into water)\n\nGRAMMAR:\nUsed as an adverb, often with と: ざぶざぶと⟦{川|かわ}→川：02186_kawa⟧⟦を→を：00422_wo⟧⟦{渡|わた}る→渡る：02441_wataru⟧。",
-  "cross_references": [],
+  "notes": "ざぶざぶ is an onomatopoeia describing the sound or motion of splashing through water. It suggests vigorous, repeated water movement.\n\nCOMMON PATTERNS:\n- ざぶざぶ（と）⟦{洗|あら}う→洗う：00827_arau⟧: to wash vigorously with water\n- ざぶざぶ（と）⟦{歩|ある}く→歩く：00538_aruku⟧: to wade through water\n- ざぶざぶ（と）⟦{渡|わた}る→渡る：02441_wataru⟧: to splash across (a river)\nUsed as an adverb, often with と: ざぶざぶと⟦{川|かわ}→川：02186_kawa⟧⟦を→を：00422_wo⟧⟦{渡|わた}る→渡る：02441_wataru⟧。\n\nCONTRAST WITH SIMILAR ONOMATOPOEIA:\n- ⟦じゃぶじゃぶ→じゃぶじゃぶ：05724_jabujabu⟧: similar splashing, often for wading or washing hands\n- ⟦ばしゃばしゃ→ばしゃばしゃ：28998_bashabasha⟧: more violent, irregular splashing\n- ⟦ちゃぷちゃぷ→ちゃぷちゃぷ：noentry⟧: gentler, lighter splashing\n- ⟦ざぶん→ざぶん：noentry⟧: a single big splash (jumping into water)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05724_jabujabu",
+      "reading": "じゃぶじゃぶ",
+      "headword": "じゃぶじゃぶ",
+      "label": "similar splashing, often for wading…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28998_bashabasha",
+      "reading": "ばしゃばしゃ",
+      "headword": "ばしゃばしゃ",
+      "label": "more violent, irregular splashing"
+    },
+    {
+      "type": "related",
+      "target_id": "29088_chapuchapu",
+      "reading": "ちゃぷちゃぷ",
+      "headword": "ちゃぷちゃぷ",
+      "label": "splish-splashing"
+    },
+    {
+      "type": "related",
+      "target_id": "29089_zabun",
+      "reading": "ざぶん",
+      "headword": "ざぶん",
+      "label": "splash (single large splash)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T21:25:32Z",
-    "modified": "2026-06-10T00:32:39Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

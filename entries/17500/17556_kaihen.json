@@ -2,7 +2,7 @@
   "id": "17556_kaihen",
   "headword": "{改編|かいへん}",
   "reading": "かいへん",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reorganization; restructuring; adaptation",
   "conjugation": {
     "type": "suru",
@@ -162,7 +162,7 @@
       ]
     }
   ],
-  "notes": "COMPARISON:\n・{改編|かいへん} - reorganization, adaptation (changing structure or content)\n・{改訂|かいてい} - revision (updating/correcting existing content)\n・{改正|かいせい} - amendment (revising laws or regulations)\n・{改革|かいかく} - reform (larger-scale fundamental change)\n\nCOMMON COLLOCATIONS:\n・{組織|そしき}{改編|かいへん} - organizational restructuring\n・{番組|ばんぐみ}{改編|かいへん} - TV program schedule changes\n・{軍|ぐん}の{改編|かいへん} - military reorganization\n・カリキュラムの{改編|かいへん} - curriculum revision",
+  "notes": "SIMILAR WORDS:\n- {改編|かいへん} - reorganization, adaptation (changing structure or content)\n- {改訂|かいてい} - revision (updating/correcting existing content)\n- {改正|かいせい} - amendment (revising laws or regulations)\n- {改革|かいかく} - reform (larger-scale fundamental change)\n\nCOMMON COLLOCATIONS:\n- {組織|そしき}{改編|かいへん} - organizational restructuring\n- {番組|ばんぐみ}{改編|かいへん} - TV program schedule changes\n- {軍|ぐん}の{改編|かいへん} - military reorganization\n- カリキュラムの{改編|かいへん} - curriculum revision",
   "cross_references": [
     {
       "type": "contrast",
@@ -184,11 +184,39 @@
       "reading": "かいかく",
       "headword": "{改革|かいかく}",
       "label": "reform (fundamental change)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07656_saihen",
+      "reading": "さいへん",
+      "headword": "{再編|さいへん}",
+      "label": "restructuring"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18162_kyakushoku",
+      "reading": "きゃくしょく",
+      "headword": "{脚色|きゃくしょく}",
+      "label": "dramatization"
+    },
+    {
+      "type": "homophone",
+      "target_id": "21717_kaihen",
+      "reading": "かいへん",
+      "headword": "{改変|かいへん}",
+      "label": "alteration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26313_kaisaku",
+      "reading": "かいさく",
+      "headword": "{改作|かいさく}",
+      "label": "adaptation"
     }
   ],
   "metadata": {
     "created": "2026-01-22T23:40:24Z",
-    "modified": "2026-07-23T19:02:37Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -197,6 +225,7 @@
         "verb-suru"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "change",
         "society"

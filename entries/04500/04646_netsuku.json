@@ -2,7 +2,7 @@
   "id": "04646_netsuku",
   "headword": "{寝付|ねつ}く",
   "reading": "ねつく",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to fall asleep, to go to sleep",
   "conjugation": {
     "type": "godan",
@@ -208,18 +208,32 @@
       ]
     }
   ],
-  "notes": "{寝付|ねつ}く is an intransitive verb (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧) meaning to fall asleep.\n\nCOMPOUND STRUCTURE:\n- ⟦{寝|ね}る→寝る：00470_neru⟧ (to sleep) + ⟦{付|つ}く→付く：01960_tsuku⟧ (to attach, to settle) → to settle into sleep\n\nASPECT (ている):\n{寝付|ねつ}いている indicates a state of being asleep (having fallen asleep).\n\nCOMMON PATTERNS:\n- なかなか{寝付|ねつ}けない (can't fall asleep easily)\n- やっと{寝付|ねつ}いた (finally fell asleep)\n- {寝付|ねつ}きがいい/⟦{悪|わる}い→悪い：00908_warui⟧ (easy/hard to fall asleep)\n- ⟦すぐに→すぐに：02905_suguni⟧{寝付|ねつ}く (fall asleep quickly)\n\nRELATED NOUN:\n- {寝付|ねつ}き: the ability to fall asleep; {寝付|ねつ}きがいい = falls asleep easily\n\nSIMILAR WORDS:\n- ⟦{眠|ねむ}る→眠る：01181_nemuru⟧: to sleep (more general)\n- ⟦{寝|ね}る→寝る：00470_neru⟧: to go to bed, to sleep\n- {寝付|ねつ}く specifically refers to the act of falling asleep",
+  "notes": "{寝付|ねつ}く is an intransitive verb (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧) meaning to fall asleep.\n\nETYMOLOGY:\n- ⟦{寝|ね}る→寝る：00470_neru⟧ (to sleep) + ⟦{付|つ}く→付く：01960_tsuku⟧ (to attach, to settle) → to settle into sleep\n\nASPECT (ている):\n{寝付|ねつ}いている indicates a state of being asleep (having fallen asleep).\n\nCOMMON PATTERNS:\n- なかなか{寝付|ねつ}けない (can't fall asleep easily)\n- やっと{寝付|ねつ}いた (finally fell asleep)\n- {寝付|ねつ}きがいい/⟦{悪|わる}い→悪い：00908_warui⟧ (easy/hard to fall asleep)\n- ⟦すぐに→すぐに：02905_suguni⟧{寝付|ねつ}く (fall asleep quickly)\n\nRELATED NOUN:\n- {寝付|ねつ}き: the ability to fall asleep; {寝付|ねつ}きがいい = falls asleep easily\n\nSIMILAR WORDS:\n- ⟦{眠|ねむ}る→眠る：01181_nemuru⟧: to sleep (more general)\n- ⟦{寝|ね}る→寝る：00470_neru⟧: to go to bed, to sleep\n- {寝付|ねつ}く specifically refers to the act of falling asleep",
   "cross_references": [
     {
       "type": "antonym",
       "reading": "めざめる",
       "label": "to wake up",
       "target_id": "04649_mezameru"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01181_nemuru",
+      "reading": "ねむる",
+      "headword": "{眠|ねむ}る",
+      "label": "to sleep"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00470_neru",
+      "reading": "ねる",
+      "headword": "{寝|ね}る",
+      "label": "to go to bed, to sleep"
     }
   ],
   "metadata": {
     "created": "2026-01-14T03:52:00Z",
-    "modified": "2026-06-10T17:34:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

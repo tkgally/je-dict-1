@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "パーセント from English \"percent\" expresses ratios out of 100.\n\nWRITING:\nOften written as % in text: 50% = 50パーセント\n\nCOMMON PATTERNS:\n- 〜パーセント⟦{引|び}き→引く：01978_hiku⟧: ~% discount\n- 〜パーセント⟦{増|ぞう}→増：noentry⟧/⟦{減|げん}→減：noentry⟧: ~% increase/decrease\n- ⟦{消費|しょうひ}{税|ぜい}→消費税：04803_shouhizei⟧10パーセント: 10% consumption tax\n- ⟦{確率|かくりつ}→確率：00159_kakuritsu⟧⟦は→は：00079_ha⟧〜パーセント: probability is ~%\n\nREADING NUMBERS:\n- 10パーセント: じゅっパーセント\n- 100パーセント: ひゃくパーセント (also means \"completely\")\n\nRELATED:\n- ⟦{割|わり}→割：03194_wari⟧: traditional Japanese unit (1⟦{割|わり}→割：03194_wari⟧ = 10%)\n- ⟦{割合|わりあい}→割合：01760_wariai⟧: ratio, proportion",
+  "notes": "パーセント from English \"percent\" expresses ratios out of 100.\n\nWRITING:\nOften written as % in text: 50% = 50パーセント\n\nCOMMON PATTERNS:\n- 〜パーセント⟦{引|び}き→引く：01978_hiku⟧: ~% discount\n- 〜パーセント⟦{増|ぞう}→増：noentry⟧/⟦{減|げん}→減：noentry⟧: ~% increase/decrease\n- ⟦{消費|しょうひ}{税|ぜい}→消費税：04803_shouhizei⟧10パーセント: 10% consumption tax\n- ⟦{確率|かくりつ}→確率：00159_kakuritsu⟧⟦は→は：00079_ha⟧〜パーセント: probability is ~%\n\nREADING NUMBERS:\n- 10パーセント: じゅっパーセント\n- 100パーセント: ひゃくパーセント (also means \"completely\")\n\nRELATED WORDS:\n- ⟦{割|わり}→割：03194_wari⟧: traditional Japanese unit (1⟦{割|わり}→割：03194_wari⟧ = 10%)\n- ⟦{割合|わりあい}→割合：01760_wariai⟧: ratio, proportion",
   "cross_references": [
     {
       "type": "contrast",
@@ -51,11 +51,39 @@
       "reading": "わり",
       "headword": "{割|わり}",
       "label": "Japanese unit (10%)"
+    },
+    {
+      "type": "related",
+      "target_id": "01760_wariai",
+      "reading": "わりあい",
+      "headword": "{割合|わりあい}",
+      "label": "ratio, proportion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01492_bai",
+      "reading": "ばい",
+      "headword": "{倍|ばい}",
+      "label": "-fold, times"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06727_hiritsu",
+      "reading": "ひりつ",
+      "headword": "{比率|ひりつ}",
+      "label": "ratio"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24428_hyakubunritsu",
+      "reading": "ひゃくぶんりつ",
+      "headword": "{百分率|ひゃくぶんりつ}",
+      "label": "percentage"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:29:30Z",
-    "modified": "2026-05-15T21:21:04Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

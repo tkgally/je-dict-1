@@ -2,7 +2,7 @@
   "id": "02334_waru",
   "headword": "{割|わ}る",
   "reading": "わる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to divide, to break",
   "conjugation": {
     "type": "godan",
@@ -224,7 +224,7 @@
     },
     {
       "id": "02334_waru_ex12",
-      "japanese": "⟦ウイスキー→ウイスキー：00412_uisukii⟧⟦を→を：00422_wo⟧⟦{ソーダ|そーだ}→ソーダ：11032_sooda⟧⟦で→で：00502_de⟧{割|わ}る。",
+      "japanese": "⟦ウイスキー→ウイスキー：00412_uisukii⟧⟦を→を：00422_wo⟧⟦ソーダ→ソーダ：11032_sooda⟧⟦で→で：00502_de⟧{割|わ}る。",
       "english": "To mix whiskey with soda.",
       "notes": null,
       "has_audio": false,
@@ -254,7 +254,7 @@
     },
     {
       "id": "02334_waru_ex15",
-      "japanese": "⟦{ジュース|じゅーす}→ジュース：01033_juusu⟧⟦で→で：00502_de⟧{割|わ}ると⟦{飲|の}み→飲む：00322_nomu⟧やすい。",
+      "japanese": "⟦ジュース→ジュース：01033_juusu⟧⟦で→で：00502_de⟧{割|わ}ると⟦{飲|の}み→飲む：00322_nomu⟧やすい。",
       "english": "It's easier to drink when mixed with juice.",
       "notes": null,
       "has_audio": false,
@@ -264,10 +264,18 @@
     }
   ],
   "notes": "{割|わ}る is a versatile transitive verb with three main meanings: divide, break, and dilute.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: ⟦{割|わ}れる→割れる：00907_wareru⟧ (intransitive: to break, be divided)\n\nMATH USAGE (Sense 1):\nPattern: A⟦を→を：00422_wo⟧B⟦で→で：00502_de⟧{割|わ}る = divide A by B\n- 10⟦を→を：00422_wo⟧2⟦で→で：00502_de⟧{割|わ}る = 10 ÷ 2\n- ⟦{割|わ}り{切|き}れる→割り切れる：27836_warikireru⟧: divisible\n- ⟦{割|わ}り{切|き}れない→割り切れる：27836_warikireru⟧: not divisible (also: can't accept emotionally)\n\nBREAKING (Sense 2):\n- ⟦{卵|たまご}→卵：02222_tamago⟧⟦を→を：00422_wo⟧{割|わ}る: to crack an egg\n- ⟦{窓|まど}→窓：02254_mado⟧⟦を→を：00422_wo⟧{割|わ}る: to break a window\n- お⟦{皿|さら}→皿：00883_sara⟧⟦を→を：00422_wo⟧{割|わ}る: to break a plate\n\nDILUTING (Sense 3):\nPattern: A⟦を→を：00422_wo⟧B⟦で→で：00502_de⟧{割|わ}る = dilute A with B\n- ⟦{焼酎|しょうちゅう}→焼酎：19874_shouchuu⟧⟦を→を：00422_wo⟧⟦{水|みず}→水：02258_mizu⟧⟦で→で：00502_de⟧{割|わ}る: to dilute shochu with water\n- ⟦{水割|みずわ}り→水割り：16023_mizuwari⟧: whiskey/shochu with water\n- ⟦お{湯割|ゆわ}り→お湯割り：28103_oyuwari⟧: with hot water\n\nOTHER MATH TERMS:\n- ⟦{掛|か}ける→掛ける：00854_kakeru⟧: multiply\n- ⟦{足|た}す→足す：01168_tasu⟧: add\n- ⟦{引|ひ}く→引く：01978_hiku⟧: subtract",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03920_kudaku",
+      "reading": "くだく",
+      "headword": "{砕|くだ}く",
+      "label": "to smash, to crush, to break"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T08:23:41Z",
-    "modified": "2026-08-12T06:27:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

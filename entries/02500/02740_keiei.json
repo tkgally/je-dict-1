@@ -2,7 +2,7 @@
   "id": "02740_keiei",
   "headword": "{経営|けいえい}",
   "reading": "けいえい",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "management, administration, running (a business)",
   "conjugation": {
     "type": "suru",
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "{経営|けいえい} refers to the management and operation of businesses.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{経営|けいえい}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- ⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦を→を：00422_wo⟧{経営|けいえい}⟦する→する：00392_suru⟧ (to run a company)\n- ⟦{店|みせ}→店：00497_mise⟧⟦を→を：00422_wo⟧{経営|けいえい}⟦する→する：00392_suru⟧ (to run a shop)\n- {経営|けいえい}⟦に→に：00314_ni⟧⟦{携|たずさ}わる→携わる：09333_tazusawaru⟧ (to be involved in management)\n\nCOMPOUND WORDS:\n- {経営|けいえい}⟦{者|しゃ}→〜者：04662_sha⟧ (manager, proprietor)\n- {経営|けいえい}⟦{学|がく}→〜学：09846_gaku⟧ (business administration)\n- {経営|けいえい}⟦{戦略|せんりゃく}→戦略：04869_senryaku⟧ (business strategy)\n- {経営|けいえい}⟦{難|なん}→難：00452_nan⟧ (financial difficulties)\n- {経営|けいえい}⟦{陣|じん}→陣：noentry⟧ (management team)\n\nSIMILAR WORDS:\n- {経営|けいえい}: running a business (overall control)\n- ⟦{管理|かんり}→管理：00178_kanri⟧: management, administration (day-to-day control)\n- ⟦{運営|うんえい}→運営：05096_unei⟧: operation (of organizations, events)",
+  "notes": "{経営|けいえい} refers to the management and operation of businesses.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{経営|けいえい}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- ⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦を→を：00422_wo⟧{経営|けいえい}⟦する→する：00392_suru⟧ (to run a company)\n- ⟦{店|みせ}→店：00497_mise⟧⟦を→を：00422_wo⟧{経営|けいえい}⟦する→する：00392_suru⟧ (to run a shop)\n- {経営|けいえい}⟦に→に：00314_ni⟧⟦{携|たずさ}わる→携わる：09333_tazusawaru⟧ (to be involved in management)\n\nCOMPOUNDS:\n- {経営|けいえい}⟦{者|しゃ}→〜者：04662_sha⟧ (manager, proprietor)\n- {経営|けいえい}⟦{学|がく}→〜学：09846_gaku⟧ (business administration)\n- {経営|けいえい}⟦{戦略|せんりゃく}→戦略：04869_senryaku⟧ (business strategy)\n- {経営|けいえい}⟦{難|なん}→難：00452_nan⟧ (financial difficulties)\n- {経営|けいえい}⟦{陣|じん}→陣：noentry⟧ (management team)\n\nSIMILAR WORDS:\n- {経営|けいえい}: running a business (overall control)\n- ⟦{管理|かんり}→管理：00178_kanri⟧: management, administration (day-to-day control)\n- ⟦{運営|うんえい}→運営：05096_unei⟧: operation (of organizations, events)",
   "cross_references": [
     {
       "type": "related",
@@ -190,11 +190,32 @@
       "reading": "まねじめんと",
       "headword": "マネジメント",
       "label": "management (loanword)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20267_chokuei",
+      "reading": "ちょくえい",
+      "headword": "{直営|ちょくえい}",
+      "label": "direct management"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21910_kanrisuru",
+      "reading": "かんりする",
+      "headword": "{管理|かんり}する",
+      "label": "to manage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21987_uneisuru",
+      "reading": "うんえいする",
+      "headword": "{運営|うんえい}する",
+      "label": "to operate"
     }
   ],
   "metadata": {
     "created": "2026-01-11T07:46:15Z",
-    "modified": "2026-08-04T18:18:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

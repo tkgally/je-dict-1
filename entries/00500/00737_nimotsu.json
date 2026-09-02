@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{荷物|にもつ} means luggage, baggage, or parcels - items carried when traveling or packages being transported.\n\nCOUNTER:\n⟦{個|こ}→〜個：00645_ko⟧ counts pieces of luggage: {荷物|にもつ}⟦{一|いっ}→一：00705_ichi⟧⟦{個|こ}→〜個：00645_ko⟧ (one piece of luggage)\n\nCOMMON TYPES:\n- ⟦{手|て}→手：00569_te⟧{荷物|にもつ}: hand luggage, carry-on\n- ⟦{預|あず}け→預ける：01819_azukeru⟧{荷物|にもつ}: checked baggage\n- ⟦{宅配|たくはい}→宅配：09571_takuhai⟧{荷物|にもつ}: delivery package\n\nCOMMON EXPRESSIONS:\n- {荷物|にもつ}を⟦{持|も}つ→持つ：00478_motsu⟧: to carry luggage\n- {荷物|にもつ}を⟦{預|あず}ける→預ける：01819_azukeru⟧: to check luggage\n- {荷物|にもつ}を⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧: to receive luggage\n- {荷物|にもつ}を⟦{置|お}く→置く：01092_oku⟧: to put down luggage\n\nTRAVEL IN JAPAN:\nTrain stations have コインロッカー (coin lockers) for storing {荷物|にもつ}. Luggage delivery services ({宅配便|たくはいびん}) can send bags ahead to your next hotel.",
+  "notes": "{荷物|にもつ} means luggage, baggage, or parcels - items carried when traveling or packages being transported.\n\nCOUNTER:\n⟦{個|こ}→〜個：00645_ko⟧ counts pieces of luggage: {荷物|にもつ}⟦{一|いっ}→一：00705_ichi⟧⟦{個|こ}→〜個：00645_ko⟧ (one piece of luggage)\n\nTYPES:\n- ⟦{手|て}→手：00569_te⟧{荷物|にもつ}: hand luggage, carry-on\n- ⟦{預|あず}け→預ける：01819_azukeru⟧{荷物|にもつ}: checked baggage\n- ⟦{宅配|たくはい}→宅配：09571_takuhai⟧{荷物|にもつ}: delivery package\n\nCOMMON EXPRESSIONS:\n- {荷物|にもつ}を⟦{持|も}つ→持つ：00478_motsu⟧: to carry luggage\n- {荷物|にもつ}を⟦{預|あず}ける→預ける：01819_azukeru⟧: to check luggage\n- {荷物|にもつ}を⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧: to receive luggage\n- {荷物|にもつ}を⟦{置|お}く→置く：01092_oku⟧: to put down luggage\n\nTRAVEL IN JAPAN:\nTrain stations have コインロッカー (coin lockers) for storing {荷物|にもつ}. Luggage delivery services ({宅配便|たくはいびん}) can send bags ahead to your next hotel.",
   "cross_references": [
     {
       "type": "related",
@@ -71,11 +71,67 @@
       "headword": "{貨物|かもつ}",
       "label": "cargo, freight",
       "target_id": "00165_kamotsu"
+    },
+    {
+      "type": "related",
+      "target_id": "00579_yuubinkyoku",
+      "reading": "ゆうびんきょく",
+      "headword": "{郵便局|ゆうびんきょく}",
+      "label": "post office"
+    },
+    {
+      "type": "related",
+      "target_id": "01781_suutsukeesu",
+      "reading": "すーつけーす",
+      "headword": "スーツケース",
+      "label": "suitcase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03165_mochimono",
+      "reading": "もちもの",
+      "headword": "{持|も}ち{物|もの}",
+      "label": "belongings, personal effects"
+    },
+    {
+      "type": "related",
+      "target_id": "07938_nizukuri",
+      "reading": "にづくり",
+      "headword": "{荷造|にづく}り",
+      "label": "packing"
+    },
+    {
+      "type": "related",
+      "target_id": "09534_takuhaibin",
+      "reading": "たくはいびん",
+      "headword": "{宅配便|たくはいびん}",
+      "label": "home delivery service, parcel delivery"
+    },
+    {
+      "type": "related",
+      "target_id": "14996_tsuisekibangou",
+      "reading": "ついせきばんごう",
+      "headword": "{追跡番号|ついせきばんごう}",
+      "label": "tracking number"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22254_todokemono",
+      "reading": "とどけもの",
+      "headword": "{届|とど}け{物|もの}",
+      "label": "delivery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24439_funani",
+      "reading": "ふなに",
+      "headword": "{船荷|ふなに}",
+      "label": "ship cargo"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:23:11Z",
-    "modified": "2026-05-12T18:11:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

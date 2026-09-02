@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n- {惨敗|ざんぱい}する (to suffer a crushing defeat)\n- {惨敗|ざんぱい}を{喫|きっ}する (to suffer a crushing defeat - formal)\n\nCONTEXTS:\n- Sports: {惨敗|ざんぱい}を{喫|きっ}した (suffered a devastating loss)\n- Elections: {選挙|せんきょ}で{惨敗|ざんぱい} (election rout)\n- Business: {競合|きょうごう}に{惨敗|ざんぱい} (lost badly to competitors)\n\nSCALE OF DEFEAT (most to least severe):\n- {惨敗|ざんぱい} (crushing defeat)\n- {大敗|たいはい} (big defeat)\n- {敗北|はいぼく} (defeat)\n- {惜敗|せきはい} (narrow defeat)\n\nRELATED:\n- {大勝|たいしょう} (big victory - antonym)\n- {圧勝|あっしょう} (overwhelming victory)",
+  "notes": "USAGE:\n- {惨敗|ざんぱい}する (to suffer a crushing defeat)\n- {惨敗|ざんぱい}を{喫|きっ}する (to suffer a crushing defeat - formal)\n- Sports: {惨敗|ざんぱい}を{喫|きっ}した (suffered a devastating loss)\n- Elections: {選挙|せんきょ}で{惨敗|ざんぱい} (election rout)\n- Business: {競合|きょうごう}に{惨敗|ざんぱい} (lost badly to competitors)\n\nSCALE OF DEFEAT (most to least severe):\n- {惨敗|ざんぱい} (crushing defeat)\n- {大敗|たいはい} (big defeat)\n- {敗北|はいぼく} (defeat)\n- {惜敗|せきはい} (narrow defeat)\n\nRELATED WORDS:\n- {大勝|たいしょう} (big victory - antonym)\n- {圧勝|あっしょう} (overwhelming victory)",
   "cross_references": [
     {
       "type": "synonym",
@@ -141,6 +141,48 @@
       "headword": "{大敗|たいはい}",
       "label": "crushing defeat; heavy loss",
       "target_id": "08201_taihai"
+    },
+    {
+      "type": "related",
+      "target_id": "07903_asshou",
+      "reading": "あっしょう",
+      "headword": "{圧勝|あっしょう}",
+      "label": "overwhelming victory"
+    },
+    {
+      "type": "related",
+      "target_id": "08237_kaishou",
+      "reading": "かいしょう",
+      "headword": "{快勝|かいしょう}",
+      "label": "easy victory"
+    },
+    {
+      "type": "related",
+      "target_id": "08410_taisa",
+      "reading": "たいさ",
+      "headword": "{大差|たいさ}",
+      "label": "big difference"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12872_haiboku",
+      "reading": "はいぼく",
+      "headword": "{敗北|はいぼく}",
+      "label": "defeat, loss"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15654_kanpai",
+      "reading": "かんぱい",
+      "headword": "{完敗|かんぱい}",
+      "label": "complete defeat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21683_haibokusuru",
+      "reading": "はいぼくする",
+      "headword": "{敗北|はいぼく}する",
+      "label": "to be defeated"
     }
   ],
   "metadata": {
@@ -151,6 +193,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "sports",
         "competition"
@@ -158,6 +201,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-25T08:33:23Z",
-    "modified": "2026-02-19T12:32:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

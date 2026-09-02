@@ -3,7 +3,7 @@
   "id": "17972_gyoushi",
   "headword": "{凝視|ぎょうし}",
   "reading": "ぎょうし",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "staring; gazing intently",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,32 @@
     }
   ],
   "notes": "USAGE:\nA formal, literary word. In everyday conversation, じっと{見|み}る or {見|み}つめる are used instead. {凝視|ぎょうし} appears primarily in written narratives, news reports, and formal descriptions.\n\nCOMMON COLLOCATIONS:\n- {凝視|ぎょうし}する (stare intently at)\n- 〜を{凝視|ぎょうし}する (fix one's gaze on ~)\n- {凝視|ぎょうし}し{続|つづ}ける (continue to stare)\n\nSIMILAR WORDS:\n- {見|み}つめる: to gaze at — more natural and commonly used in daily conversation\n- じっと{見|み}る: to stare — colloquial expression for looking at something without moving\n- {注視|ちゅうし}する: to watch closely — implies careful observation, less about intensity",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04571_mitsumeru",
+      "reading": "みつめる",
+      "headword": "{見|み}つめる",
+      "label": "to gaze at"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26091_jittomiru",
+      "reading": "じっとみる",
+      "headword": "じっと{見|み}る",
+      "label": "to stare"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16389_chuushi",
+      "reading": "ちゅうし",
+      "headword": "{注視|ちゅうし}",
+      "label": "to watch closely"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T10:06:44Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

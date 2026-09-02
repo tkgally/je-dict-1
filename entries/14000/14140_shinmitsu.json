@@ -3,7 +3,7 @@
   "id": "14140_shinmitsu",
   "headword": "{親密|しんみつ}",
   "reading": "しんみつ",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "intimate, close",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "The two have an intimate relationship.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14140_shinmitsu_ex2",
@@ -27,7 +29,9 @@
       "english": "The close relationship between the two countries has a long history.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14140_shinmitsu_ex3",
@@ -35,7 +39,9 @@
       "english": "Through working together, their closeness gradually grew.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{親密|しんみつ} is more formal than {親|した}しい (close, familiar) and is typically used for describing relationships rather than modifying people directly. It emphasizes the depth and mutual nature of closeness.\n\nCOMMON COLLOCATIONS:\n- {親密|しんみつ}な{関係|かんけい}: intimate/close relationship\n- {親密|しんみつ}さ: intimacy, closeness\n- {親密|しんみつ}になる: to become close/intimate\n- {親密|しんみつ}な{交流|こうりゅう}: close exchange/interaction\n- {親密|しんみつ}{度|ど}: degree of closeness",
@@ -46,18 +52,36 @@
       "reading": "したしい",
       "headword": "{親|した}しい",
       "label": "close, familiar (everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23818_yuukouteki",
+      "reading": "ゆうこうてき",
+      "headword": "{友好的|ゆうこうてき}",
+      "label": "friendly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25559_kinmitsuna",
+      "reading": "きんみつな",
+      "headword": "{緊密|きんみつ}な",
+      "label": "close"
     }
   ],
   "metadata": {
     "created": "2026-02-28T01:20:21Z",
-    "modified": "2026-04-30T04:29:16Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
   }
 }

@@ -17,7 +17,9 @@
       "id": "26479_karisaiyou_ex1",
       "japanese": "{仮採用|かりさいよう}{期間|きかん}は{三|さん}か{月|げつ}です。",
       "english": "The probationary period is three months.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26479_karisaiyou_ex2",
       "japanese": "{仮採用|かりさいよう}の{段階|だんかい}では{正社員|せいしゃいん}と{同|おな}じ{待遇|たいぐう}ではない。",
       "english": "At the probationary stage, you don't receive the same benefits as a regular employee.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,54 @@
       "id": "26479_karisaiyou_ex3",
       "japanese": "{上司|じょうし}の{評価|ひょうか}が{良|よ}ければ、{仮採用|かりさいよう}から{本採用|ほんさいよう}に{切|き}り{替|か}わる。",
       "english": "If the supervisor's evaluation is good, the provisional hire converts to permanent employment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {仮|かり} (temporary, provisional) and {採用|さいよう} (hiring, employment). This word is part of the hiring vocabulary in Japanese workplaces, where a trial period is standard practice before full appointment.\n\nCOMMON COLLOCATIONS:\n- {仮採用|かりさいよう}{期間|きかん}: probationary period\n- {仮採用|かりさいよう}から{本採用|ほんさいよう}へ: from provisional to permanent employment\n- {仮採用|かりさいよう}{通知|つうち}: provisional hiring notice\n\nSIMILAR WORDS:\n- {本採用|ほんさいよう}: permanent hiring — the confirmed, full employment that follows the probationary period\n- {試用期間|しようきかん}: trial period — the time frame during which the provisional employment is evaluated; overlaps in meaning but focuses on the duration rather than the employment status\n- {内定|ないてい}: informal job offer — given before actual employment begins, especially to graduating students",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13444_honsaiyou",
+      "reading": "ほんさいよう",
+      "headword": "{本採用|ほんさいよう}",
+      "label": "permanent hiring"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15675_shiyoukikan",
+      "reading": "しようきかん",
+      "headword": "{試用期間|しようきかん}",
+      "label": "trial period"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07499_naitei",
+      "reading": "ないてい",
+      "headword": "{内定|ないてい}",
+      "label": "informal job offer"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-05-02T12:17:20Z",
-    "modified": "2026-05-02T12:17:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

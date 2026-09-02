@@ -17,7 +17,9 @@
       "id": "27947_seishoku_ex1",
       "japanese": "{生物|せいぶつ}の{生殖|せいしょく}を{学|まな}ぶ。",
       "english": "We study reproduction in living things.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27947_seishoku_ex2",
       "japanese": "{植物|しょくぶつ}にもいろいろな{生殖|せいしょく}の{方法|ほうほう}がある。",
       "english": "Plants too have various methods of reproduction.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,53 @@
       "id": "27947_seishoku_ex3",
       "japanese": "{多|おお}くの{生物|せいぶつ}は、{子孫|しそん}を{残|のこ}すために{生殖|せいしょく}を{行|おこな}う。",
       "english": "Many organisms reproduce in order to leave offspring.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {生|せい} (life) + {殖|しょく} (to multiply, breed). A formal, scientific word; everyday speech tends to use {子|こ}どもを{産|う}む or {繁殖|はんしょく} for animals.\n\nCOMMON COLLOCATIONS:\n- {生殖|せいしょく}{器官|きかん}: reproductive organs\n- {生殖|せいしょく}{細胞|さいぼう}: reproductive cells; gametes\n- {生殖|せいしょく}{活動|かつどう}: reproductive activity\n\nSIMILAR WORDS:\n- {繁殖|はんしょく}: breeding — the multiplying of animals/plants in numbers\n- {出産|しゅっさん}: childbirth — specifically giving birth",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08671_hanshoku",
+      "reading": "はんしょく",
+      "headword": "{繁殖|はんしょく}",
+      "label": "breeding"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11734_shussan",
+      "reading": "しゅっさん",
+      "headword": "{出産|しゅっさん}",
+      "label": "childbirth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22929_koubi",
+      "reading": "こうび",
+      "headword": "{交尾|こうび}",
+      "label": "mating"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["science", "nature"],
+      "politeness": "plain",
+      "semantic": [
+        "science",
+        "nature"
+      ],
       "domain": []
     },
     "created": "2026-05-23T03:06:48Z",
-    "modified": "2026-05-23T03:06:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

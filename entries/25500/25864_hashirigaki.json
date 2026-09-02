@@ -3,7 +3,7 @@
   "headword": "{走|はし}り{書|が}き",
   "reading": "はしりがき",
   "romaji": "hashirigaki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "hasty writing; scribble; scrawl",
   "definitions": [
     {
@@ -55,7 +55,29 @@
     }
   ],
   "notes": "Composed of {走|はし}り (running) + {書|が}き (writing) — literally \"running writing,\" conveying the idea of writing done at speed without care for neatness. Can function as a noun or as a suru verb ({走|はし}り{書|が}きする).\n\nCOMMON COLLOCATIONS:\n- {走|はし}り{書|が}きする: scribble quickly\n- {走|はし}り{書|が}きのメモ: a hastily scribbled note\n- {走|はし}り{書|が}きで{書|か}く: write in a scrawl\n- {走|はし}り{書|が}きで{読|よ}めない: can't read because it's scribbled\n\nSIMILAR WORDS:\n- {殴|なぐ}り{書|が}き: scrawl (rougher/messier connotation)\n- {書|か}き{殴|なぐ}る: dash off writing angrily or carelessly\n- {落書|らくが}き: doodling, graffiti (different nuance — not about speed)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18047_nagurigaki",
+      "reading": "なぐりがき",
+      "headword": "{殴|なぐ}り{書|が}き",
+      "label": "scrawl"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08253_kakinaguru",
+      "reading": "かきなぐる",
+      "headword": "{書|か}き{殴|なぐ}る",
+      "label": "dash off writing angrily or carelessly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14043_rakugaki",
+      "reading": "らくがき",
+      "headword": "{落書|らくが}き",
+      "label": "doodling, graffiti (different nuance"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -64,13 +86,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "communication"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-27T16:21:44Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

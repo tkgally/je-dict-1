@@ -3,7 +3,7 @@
   "id": "14252_chouin",
   "headword": "{調印|ちょういん}",
   "reading": "ちょういん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "signing (a treaty or agreement)",
   "conjugation": {
     "type": "suru",
@@ -142,11 +142,25 @@
       "reading": "しょめい",
       "headword": "{署名|しょめい}",
       "label": "signature (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13870_teiketsu",
+      "reading": "ていけつ",
+      "headword": "{締結|ていけつ}",
+      "label": "conclusion, signing (of a treaty or agreement)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22432_shomeisuru",
+      "reading": "しょめいする",
+      "headword": "{署名|しょめい}する",
+      "label": "to sign"
     }
   ],
   "metadata": {
     "created": "2026-02-28T07:56:59Z",
-    "modified": "2026-04-30T06:34:37Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

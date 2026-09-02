@@ -16,7 +16,9 @@
       "id": "20325_keikendan_ex1",
       "japanese": "{経験談|けいけんだん}を{聞|き}かせてください。",
       "english": "Please share your personal experience.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "20325_keikendan_ex2",
       "japanese": "{先輩|せんぱい}の{経験談|けいけんだん}はとても{参考|さんこう}になった。",
       "english": "My senior's firsthand account was very helpful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,22 +36,44 @@
       "id": "20325_keikendan_ex3",
       "japanese": "ネットには{留学|りゅうがく}の{経験談|けいけんだん}がたくさん{載|の}っている。",
       "english": "There are many personal accounts of studying abroad posted online.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {経験|けいけん} (experience) + {談|だん} (talk, story). The suffix {談|だん} appears in many compound words for types of stories or accounts.\n\nCOMMON COLLOCATIONS:\n- {経験談|けいけんだん}を{語|かた}る: to tell about one's experience\n- {経験談|けいけんだん}を{聞|き}く: to hear someone's experience\n- {経験談|けいけんだん}を{共有|きょうゆう}する: to share one's experience\n- {貴重|きちょう}な{経験談|けいけんだん}: a valuable personal account\n\nRELATED WORDS WITH 〜{談|だん}:\n- {体験談|たいけんだん}: personal experience story (very similar, emphasizes firsthand physical involvement)\n- {武勇伝|ぶゆうでん}: tale of heroic exploits\n- {失敗談|しっぱいだん}: story of failure\n- {成功談|せいこうだん}: success story",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "25618_taikendan",
+      "reading": "たいけんだん",
+      "headword": "{体験談|たいけんだん}",
+      "label": "personal experience story"
+    },
+    {
+      "type": "related",
+      "target_id": "09950_shippaidan",
+      "reading": "しっぱいだん",
+      "headword": "{失敗談|しっぱいだん}",
+      "label": "story of failure"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-03-28T21:11:43Z",
-    "modified": "2026-03-28T21:11:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

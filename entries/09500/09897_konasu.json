@@ -2,7 +2,7 @@
   "id": "09897_konasu",
   "headword": "こなす",
   "reading": "こなす",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to handle; to manage; to master; to digest",
   "conjugation": {
     "type": "godan",
@@ -138,8 +138,23 @@
       ]
     }
   ],
-  "notes": "こなす means to handle, manage, or master something.\n\nTRANSITIVITY:\n- Type: Transitive ({他動詞|たどうし})\n- Pattern: Xをこなす\n\nNUANCES:\n- Implies competent handling or skilled management\n- Often suggests dealing with a large volume or difficulty\n- Can imply getting through or completing tasks\n\nCOMMON PATTERNS:\n- {仕事|しごと}をこなす: handle work\n- {量|りょう}をこなす: get through volume\n- {役割|やくわり}をこなす: fulfill a role\n- うまくこなす: handle well\n- {難|むずか}しい{仕事|しごと}をこなす: handle difficult work\n\nWRITING:\n- Usually written in hiragana\n- Can be written as {熟|こな}す (rarely used)\n\nRELATED:\n- {処理|しょり}する: to process, handle\n- {対応|たいおう}する: to deal with\n- {使|つか}いこなす: to master using",
-  "cross_references": [],
+  "notes": "こなす means to handle, manage, or master something.\n\nTRANSITIVITY:\n- Type: Transitive ({他動詞|たどうし})\n- Pattern: Xをこなす\n\nUSAGE:\n- Implies competent handling or skilled management\n- Often suggests dealing with a large volume or difficulty\n- Can imply getting through or completing tasks\n\nCOMMON PATTERNS:\n- {仕事|しごと}をこなす: handle work\n- {量|りょう}をこなす: get through volume\n- {役割|やくわり}をこなす: fulfill a role\n- うまくこなす: handle well\n- {難|むずか}しい{仕事|しごと}をこなす: handle difficult work\n\nWRITING:\n- Usually written in hiragana\n- Can be written as {熟|こな}す (rarely used)\n\nRELATED WORDS:\n- {処理|しょり}する: to process, handle\n- {対応|たいおう}する: to deal with\n- {使|つか}いこなす: to master using",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "25531_shorisuru",
+      "reading": "しょりする",
+      "headword": "{処理|しょり}する",
+      "label": "to process, handle"
+    },
+    {
+      "type": "related",
+      "target_id": "02510_taiou",
+      "reading": "たいおう",
+      "headword": "{対応|たいおう}",
+      "label": "to deal with"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -155,6 +170,6 @@
       "verb_class": "godan-su"
     },
     "created": "2026-02-04T03:55:03Z",
-    "modified": "2026-02-04T03:55:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

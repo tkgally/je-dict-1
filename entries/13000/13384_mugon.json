@@ -3,7 +3,7 @@
   "id": "13384_mugon",
   "headword": "{無言|むごん}",
   "reading": "むごん",
-  "part_of_speech": "noun / na-adjective",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "silence, wordless",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "He stood there in silence.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13384_mugon_ex2",
@@ -27,7 +29,9 @@
       "english": "I felt unspoken pressure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13384_mugon_ex3",
@@ -35,7 +39,9 @@
       "english": "The two continued eating in silence, and an awkward atmosphere hung in the air.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften used in the pattern {無言|むごん}のまま (remaining silent) or {無言|むごん}で (silently). Implies a deliberate or meaningful silence, not just the absence of sound.\n\nCOMMON COLLOCATIONS:\n- {無言|むごん}のまま: remaining silent\n- {無言|むごん}の{圧力|あつりょく}: unspoken pressure, silent pressure\n- {無言|むごん}で{立|た}ち{去|さ}る: to leave without a word\n- {無言|むごん}{電話|でんわ}: silent phone call (prank call with no speaking)",
@@ -46,18 +52,30 @@
       "headword": "{沈黙|ちんもく}",
       "label": "silence (prolonged)",
       "target_id": "13249_chinmoku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25361_chinmokusuru",
+      "reading": "ちんもくする",
+      "headword": "{沈黙|ちんもく}する",
+      "label": "to remain silent"
     }
   ],
   "metadata": {
     "created": "2026-02-24T11:08:50Z",
-    "modified": "2026-04-28T09:07:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

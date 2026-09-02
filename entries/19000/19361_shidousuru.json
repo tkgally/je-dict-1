@@ -3,7 +3,7 @@
   "headword": "{始動|しどう}する",
   "reading": "しどうする",
   "romaji": "shidousuru",
-  "part_of_speech": "noun, suru verb",
+  "part_of_speech": "suru verb, noun",
   "gloss": "to start up; to get moving; to launch",
   "conjugation": {
     "type": "suru",
@@ -134,8 +134,52 @@
       "notes": null
     }
   ],
-  "notes": "Means to start operating or get moving. Used for both machines/engines and figurative 'launches' of projects and initiatives.\n\nCOMMON COLLOCATIONS:\n- エンジンが{始動|しどう}する — the engine starts\n- エンジンを{始動|しどう}させる — to start the engine\n- プロジェクトが{始動|しどう}する — a project launches\n- {本格的|ほんかくてき}に{始動|しどう}する — to get fully underway\n- {始動|しどう}が{遅|おく}れる — the start is delayed\n\nRELATED TERMS:\n- {起動|きどう}する — to boot up, start (especially computers/systems)\n- {発動|はつどう}する — to invoke, activate (laws, powers)\n- {始|はじ}まる — to begin (general, everyday)\n- {開始|かいし}する — to commence (formal)\n\nUSAGE NOTE:\n{始動|しどう} is more concrete and dynamic than {開始|かいし}. It evokes the image of an engine turning over — the physical start of something. {開始|かいし} is more neutral and administrative.",
+  "notes": "Means to start operating or get moving. Used for both machines/engines and figurative 'launches' of projects and initiatives.\n\nCOMMON COLLOCATIONS:\n- エンジンが{始動|しどう}する — the engine starts\n- エンジンを{始動|しどう}させる — to start the engine\n- プロジェクトが{始動|しどう}する — a project launches\n- {本格的|ほんかくてき}に{始動|しどう}する — to get fully underway\n- {始動|しどう}が{遅|おく}れる — the start is delayed\n\nRELATED WORDS:\n- {起動|きどう}する — to boot up, start (especially computers/systems)\n- {発動|はつどう}する — to invoke, activate (laws, powers)\n- {始|はじ}まる — to begin (general, everyday)\n- {開始|かいし}する — to commence (formal)\n\nUSAGE:\n{始動|しどう} is more concrete and dynamic than {開始|かいし}. It evokes the image of an engine turning over — the physical start of something. {開始|かいし} is more neutral and administrative.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17295_kidousuru",
+      "reading": "きどうする",
+      "headword": "{起動|きどう}する",
+      "label": "to boot up, start"
+    },
+    {
+      "type": "related",
+      "target_id": "28234_hatsudou",
+      "reading": "はつどう",
+      "headword": "{発動|はつどう}",
+      "label": "to invoke, activate"
+    },
+    {
+      "type": "related",
+      "target_id": "00841_hajimaru",
+      "reading": "はじまる",
+      "headword": "{始|はじ}まる",
+      "label": "to begin"
+    },
+    {
+      "type": "related",
+      "target_id": "26826_kaishisuru",
+      "reading": "かいしする",
+      "headword": "{開始|かいし}する",
+      "label": "to commence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18597_ugokidasu",
+      "reading": "うごきだす",
+      "headword": "{動|うご}き{出|だ}す",
+      "label": "to start moving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21953_ugokihajimeru",
+      "reading": "うごきはじめる",
+      "headword": "{動|うご}き{始|はじ}める",
+      "label": "to begin to move"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +196,6 @@
       ]
     },
     "created": "2026-03-25T10:17:10Z",
-    "modified": "2026-03-25T10:17:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

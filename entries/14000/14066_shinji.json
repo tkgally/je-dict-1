@@ -19,7 +19,9 @@
       "english": "A Shinto ritual was held at the shrine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14066_shinji_ex2",
@@ -27,7 +29,9 @@
       "english": "Every autumn, a Shinto ceremony praying for a good harvest is held in this area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14066_shinji_ex3",
@@ -35,22 +39,52 @@
       "english": "Sumo originally began as a Shinto ritual, and traces of this remain in the etiquette observed on the ring.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nRefers specifically to Shinto religious ceremonies, as distinct from Buddhist rituals ({法要|ほうよう}) or secular events. Many traditional Japanese festivals ({祭|まつ}り) include {神事|しんじ} as their core religious component, often followed by more festive public celebrations.\n\nEXAMPLES OF {神事|しんじ}:\n- {地鎮祭|じちんさい}: groundbreaking ceremony\n- {新嘗祭|にいなめさい}: harvest thanksgiving festival\n- {御神楽|おかぐら}: sacred kagura dance offering\n\nCOMMON COLLOCATIONS:\n- {神事|しんじ}を{行|おこな}う: to perform a Shinto ritual\n- {神事|しんじ}を{執|と}り{行|おこな}う: to conduct a sacred ceremony\n- {神事|しんじ}に{参列|さんれつ}する: to attend a Shinto rite",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19752_sairei",
+      "reading": "さいれい",
+      "headword": "{祭礼|さいれい}",
+      "label": "religious festival"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26614_shamu",
+      "reading": "しゃむ",
+      "headword": "{社務|しゃむ}",
+      "label": "shrine affairs"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29523_butsuji",
+      "reading": "ぶつじ",
+      "headword": "{仏事|ぶつじ}",
+      "label": "Buddhist service"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T23:07:47Z",
-    "modified": "2026-02-27T23:07:47Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

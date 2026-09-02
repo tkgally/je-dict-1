@@ -3,7 +3,7 @@
   "headword": "{駆動|くどう}",
   "reading": "くどう",
   "romaji": "kudou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "drive; propulsion",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Compound of {駆|く} ('to drive; to gallop') and {動|どう} ('to move'). Originally described driving horses at speed, now almost exclusively used in mechanical and technological contexts.\n\nCOMMON COLLOCATIONS:\n- {四輪|よんりん}{駆動|くどう} (4WD): four-wheel drive\n- {前輪|ぜんりん}{駆動|くどう} (FWD): front-wheel drive\n- {後輪|こうりん}{駆動|くどう} (RWD): rear-wheel drive\n- {駆動|くどう}{方式|ほうしき}: drive system; drive type\n- {駆動|くどう}{力|りょく}: driving force; motive power\n- {電気|でんき}{駆動|くどう}: electric drive\n\nSIMILAR WORDS:\n- {動力|どうりょく}: motive power; power source — emphasizes the energy source rather than the transmission mechanism\n- {推進|すいしん}: propulsion; promotion — used for rockets, ships, and figuratively for driving initiatives forward\n- {運転|うんてん}: operation; driving — focuses on the human act of operating a vehicle or machine",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18784_douryoku",
+      "reading": "どうりょく",
+      "headword": "{動力|どうりょく}",
+      "label": "motive power"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12908_suishin",
+      "reading": "すいしん",
+      "headword": "{推進|すいしん}",
+      "label": "propulsion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01335_unten",
+      "reading": "うんてん",
+      "headword": "{運転|うんてん}",
+      "label": "operation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +87,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-18T11:21:44Z",
-    "modified": "2026-04-18T11:21:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

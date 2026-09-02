@@ -17,7 +17,9 @@
       "id": "21813_undoujou_ex1",
       "japanese": "{運動場|うんどうじょう}で{走|はし}る。",
       "english": "To run on the sports ground.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21813_undoujou_ex2",
       "japanese": "{子|こ}どもたちが{運動場|うんどうじょう}でサッカーをしている。",
       "english": "The children are playing soccer on the playground.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,59 @@
       "id": "21813_undoujou_ex3",
       "japanese": "{運動会|うんどうかい}は{学校|がっこう}の{運動場|うんどうじょう}で{行|おこな}われ、{保護者|ほごしゃ}も{大勢|おおぜい}{集|あつ}まった。",
       "english": "The sports day was held on the school's athletic field, and many parents gathered as well.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {運動|うんどう} (exercise, sports) and {場|じょう} (place, ground). In Japanese schools, the {運動場|うんどうじょう} is the outdoor area used for PE classes, recess, and events like {運動会|うんどうかい} (sports day). In western Japan, the word {運動場|うんどうじょう} is common; in eastern Japan, {校庭|こうてい} (schoolyard) is often preferred for the school playground.\n\nCOMMON COLLOCATIONS:\n- {学校|がっこう}の{運動場|うんどうじょう}: school athletic field\n- {運動場|うんどうじょう}で{遊|あそ}ぶ: to play on the playground\n- {運動場|うんどうじょう}を{走|はし}る: to run around the sports ground\n- {運動場|うんどうじょう}の{整備|せいび}: maintenance of the athletic field\n\nSIMILAR WORDS:\n- {校庭|こうてい}: schoolyard — specifically a school's outdoor area; more common in eastern Japan\n- グラウンド: ground, field — loanword often used for sports fields, especially baseball and track\n- {競技場|きょうぎじょう}: stadium, arena — a larger facility for competitive sports events",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04147_koutei",
+      "reading": "こうてい",
+      "headword": "{校庭|こうてい}",
+      "label": "schoolyard"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10813_guraundo",
+      "reading": "ぐらうんど",
+      "headword": "グラウンド",
+      "label": "ground, field"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15763_kyougijou",
+      "reading": "きょうぎじょう",
+      "headword": "{競技場|きょうぎじょう}",
+      "label": "stadium, arena"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23770_yakyuujou",
+      "reading": "やきゅうじょう",
+      "headword": "{野球場|やきゅうじょう}",
+      "label": "baseball stadium"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["sports", "education"]
+      "semantic": [
+        "sports",
+        "education"
+      ]
     },
     "created": "2026-04-03T18:24:15Z",
-    "modified": "2026-04-03T18:24:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -24,7 +24,9 @@
       "english": "Nobody was there.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18610_daremo_ex2",
@@ -32,7 +34,9 @@
       "english": "Nobody could answer that question.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18610_daremo_ex3",
@@ -40,7 +44,9 @@
       "english": "Even though it's Sunday, there's nobody at the park.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18610_daremo_ex4",
@@ -48,7 +54,9 @@
       "english": "It's a story everyone knows.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "18610_daremo_ex5",
@@ -56,7 +64,9 @@
       "english": "Everyone fails at least once.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "18610_daremo_ex6",
@@ -64,21 +74,42 @@
       "english": "He's someone whose ability everyone acknowledges.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
-  "notes": "GRAMMAR:\nThe meaning depends on the polarity of the predicate:\n- {誰|だれ}も + NEGATIVE → nobody ({誰|だれ}も{来|こ}ない = nobody comes)\n- {誰|だれ}もが + AFFIRMATIVE → everyone ({誰|だれ}もが{知|し}っている = everyone knows)\n\nThe が particle is often added in the affirmative sense ({誰|だれ}もが) to mark the subject explicitly. In the negative sense, が is typically omitted.\n\nPATTERN:\nThis follows the same pattern as other interrogative + も combinations:\n- {何|なに}も + NEG = nothing\n- どこも + NEG = nowhere\n- いつも = always (exception: affirmative by default)\n\nSIMILAR WORDS:\n- {誰|だれ}か: someone — indefinite, not universal\n- {誰|だれ}でも: anyone (without restriction) — emphasizes lack of limitation",
-  "cross_references": [],
+  "notes": "COMMON PATTERNS:\nThe meaning depends on the polarity of the predicate:\n- {誰|だれ}も + NEGATIVE → nobody ({誰|だれ}も{来|こ}ない = nobody comes)\n- {誰|だれ}もが + AFFIRMATIVE → everyone ({誰|だれ}もが{知|し}っている = everyone knows)\n\nThe が particle is often added in the affirmative sense ({誰|だれ}もが) to mark the subject explicitly. In the negative sense, が is typically omitted.\nThis follows the same pattern as other interrogative + も combinations:\n- {何|なに}も + NEG = nothing\n- どこも + NEG = nowhere\n- いつも = always (exception: affirmative by default)\n\nSIMILAR WORDS:\n- {誰|だれ}か: someone — indefinite, not universal\n- {誰|だれ}でも: anyone (without restriction) — emphasizes lack of limitation",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02912_dareka",
+      "reading": "だれか",
+      "headword": "{誰|だれ}か",
+      "label": "someone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08498_daredemo",
+      "reading": "だれでも",
+      "headword": "{誰|だれ}でも",
+      "label": "anyone"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T09:56:32Z",
-    "modified": "2026-03-22T09:56:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["pronoun"],
+      "pos": [
+        "pronoun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["grammatical"]
+      "semantic": [
+        "grammatical"
+      ]
     }
   }
 }

@@ -16,7 +16,9 @@
       "id": "18020_mahiru_ex1",
       "japanese": "{真昼|まひる}の{太陽|たいよう}がまぶしい。",
       "english": "The midday sun is dazzling.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "18020_mahiru_ex2",
       "japanese": "{真昼|まひる}の{街|まち}は{人|ひと}でにぎわっていた。",
       "english": "The streets were bustling with people at midday.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,22 +36,65 @@
       "id": "18020_mahiru_ex3",
       "japanese": "{真昼|まひる}の{住宅街|じゅうたくがい}で{強盗|ごうとう}が{発生|はっせい}した。",
       "english": "A robbery occurred in broad daylight in a residential neighborhood.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{真昼|まひる} means midday or broad daylight, emphasizing the peak of daytime brightness. The {真|ま} prefix intensifies {昼|ひる} (daytime), giving a sense of \"the very middle of the day.\"\n\nCOMMON PATTERNS:\n- {真昼|まひる}の{太陽|たいよう}: the midday sun\n- {真昼|まひる}に{堂々|どうどう}と: brazenly, in broad daylight\n- {真昼|まひる}の{光|ひかり}: midday light\n\nRELATED WORDS:\n- {真昼間|まっぴるま}: broad daylight (more emphatic/colloquial)\n- {正午|しょうご}: noon (exact 12:00, more precise)\n- {昼間|ひるま}: daytime (general, neutral)\n- {日中|にっちゅう}: during the day (slightly formal)\n\nUSAGE:\nOften appears in news or literary contexts to highlight that something unexpected happened openly during the day, such as a crime or accident.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03231_shougo",
+      "reading": "しょうご",
+      "headword": "{正午|しょうご}",
+      "label": "noon"
+    },
+    {
+      "type": "related",
+      "target_id": "01713_hiruma",
+      "reading": "ひるま",
+      "headword": "{昼間|ひるま}",
+      "label": "daytime"
+    },
+    {
+      "type": "related",
+      "target_id": "03519_nicchuu",
+      "reading": "にっちゅう",
+      "headword": "{日中|にっちゅう}",
+      "label": "during the day"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23777_hakuchuu",
+      "reading": "はくちゅう",
+      "headword": "{白昼|はくちゅう}",
+      "label": "broad daylight"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25066_hiruhinaka",
+      "reading": "ひるひなか",
+      "headword": "{昼日中|ひるひなか}",
+      "label": "broad daylight"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     },
     "created": "2026-03-19T12:14:07Z",
-    "modified": "2026-03-27T11:50:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "A new party leader was chosen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17742_toushu_ex2",
@@ -27,7 +29,9 @@
       "english": "The party leaders' debate was broadcast on television.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17742_toushu_ex3",
@@ -35,22 +39,38 @@
       "english": "The opposition party leader harshly criticized the government's policies.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal term used in political reporting and discussion. In Japan, different parties use different titles for their leaders — {総裁|そうさい} (president) for the LDP, {代表|だいひょう} (representative) for some opposition parties — but {党首|とうしゅ} is a general term applicable to any party leader.\n\nCOMMON COLLOCATIONS:\n- {党首|とうしゅ}{討論|とうろん}: party leaders' debate\n- {党首|とうしゅ}{選挙|せんきょ}: party leadership election\n- {党首|とうしゅ}{会談|かいだん}: meeting of party leaders",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25979_touin",
+      "reading": "とういん",
+      "headword": "{党員|とういん}",
+      "label": "party member"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T23:08:15Z",
-    "modified": "2026-03-18T23:08:15Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["occupation"],
-      "domain": ["academic"]
+      "semantic": [
+        "occupation"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

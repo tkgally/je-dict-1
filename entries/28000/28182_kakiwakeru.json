@@ -3,7 +3,7 @@
   "headword": "かき{分|わ}ける",
   "reading": "かきわける",
   "romaji": "kakiwakeru",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to push through; to part (a crowd)",
   "definitions": [
     {
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of かく (to rake, to sweep) + {分|わ}ける (to divide). Transitive ({他動詞|たどうし}): the thing pushed aside is marked with を.\n\nPARTICLE PATTERNS:\n- {人|ひと}ごみをかき{分|わ}ける: to push through a crowd\n- {草木|くさき}をかき{分|わ}ける: to part the vegetation\n\nCOMMON PATTERNS:\n- かき{分|わ}けて{進|すす}む: to push one's way forward\n- かき{分|わ}けて{通|とお}る: to force one's way through\n\nSIMILAR WORDS:\n- {押|お}しのける: to shove aside — pushes a single obstacle out of the way, more forceful\n- {掻|か}き{回|まわ}す: to stir up; to churn — the かく element, but mixing rather than parting",
+  "notes": "Compound of かく (to rake, to sweep) + {分|わ}ける (to divide). Transitive ({他動詞|たどうし}): the thing pushed aside is marked with を.\n\nCOMMON PATTERNS:\n- {人|ひと}ごみをかき{分|わ}ける: to push through a crowd\n- {草木|くさき}をかき{分|わ}ける: to part the vegetation\n- かき{分|わ}けて{進|すす}む: to push one's way forward\n- かき{分|わ}けて{通|とお}る: to force one's way through\n\nSIMILAR WORDS:\n- {押|お}しのける: to shove aside — pushes a single obstacle out of the way, more forceful\n- {掻|か}き{回|まわ}す: to stir up; to churn — the かく element, but mixing rather than parting",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15778_oshinokeru",
+      "reading": "おしのける",
+      "headword": "{押|お}しのける",
+      "label": "to shove aside"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09915_kakimawasu",
+      "reading": "かきまわす",
+      "headword": "{掻|か}き{回|まわ}す",
+      "label": "to stir up"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +77,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-05-27T02:07:43Z",
-    "modified": "2026-05-27T02:07:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

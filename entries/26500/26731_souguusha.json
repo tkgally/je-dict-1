@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Composed of {遭遇|そうぐう} (encounter/meeting) and {者|しゃ} (person). The word {遭遇|そうぐう} typically implies an unexpected or chance encounter, so {遭遇者|そうぐうしゃ} often describes someone who has unexpectedly come across something noteworthy.\n\nCOMMON COLLOCATIONS:\n- {遭遇者|そうぐうしゃ}の{証言|しょうげん}: testimony from witnesses\n- {遭遇者|そうぐうしゃ}の{体験談|たいけんだん}: firsthand account of an encounter\n- {遭遇者|そうぐうしゃ}が{語|かた}る: a witness recounts\n\nSIMILAR WORDS:\n- {目撃者|もくげきしゃ}: eyewitness — specifically someone who saw something happen\n- {被害者|ひがいしゃ}: victim — someone who suffered harm\n- {当事者|とうじしゃ}: person involved — a party in an event or dispute\n- {遭遇|そうぐう}: encounter — the base verb-noun",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09652_mokugekisha",
+      "reading": "もくげきしゃ",
+      "headword": "{目撃者|もくげきしゃ}",
+      "label": "eyewitness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14106_higaisha",
+      "reading": "ひがいしゃ",
+      "headword": "{被害者|ひがいしゃ}",
+      "label": "victim"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12504_toujisha",
+      "reading": "とうじしゃ",
+      "headword": "{当事者|とうじしゃ}",
+      "label": "person involved"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +75,13 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "person"
       ]
     },
     "created": "2026-05-04T14:22:08Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "id": "12865_oshiageru",
   "headword": "{押|お}し{上|あ}げる",
   "reading": "おしあげる",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to push up; to boost",
   "conjugation": {
     "type": "ichidan",
@@ -170,10 +170,25 @@
     }
   ],
   "notes": "USAGE:\nA compound verb combining {押|お}す (to push) and {上|あ}げる (to raise). The literal sense (sense 1) describes physical upward force. The figurative sense (sense 2) is very common in news and business contexts, where it describes factors that increase numbers or improve outcomes.\n\nCOMMON COLLOCATIONS:\n- {業績|ぎょうせき}を{押|お}し{上|あ}げる: to boost performance\n- {物価|ぶっか}を{押|お}し{上|あ}げる: to drive up prices\n- {順位|じゅんい}を{押|お}し{上|あ}げる: to push up rankings\n\nSIMILAR WORDS:\n- {引|ひ}き{上|あ}げる: to raise, to pull up (more deliberate, policy-driven)\n- {持|も}ち{上|あ}げる: to lift up (with hands, from below)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05689_hikiageru",
+      "reading": "ひきあげる",
+      "headword": "{引|ひ}き{上|あ}げる",
+      "label": "to raise, to pull up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02313_mochiageru",
+      "reading": "もちあげる",
+      "headword": "{持|も}ち{上|あ}げる",
+      "label": "to lift up"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T12:40:05Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

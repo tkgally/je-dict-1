@@ -19,7 +19,9 @@
       "english": "I like salt-flavored ramen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12106_shioaji_ex2",
@@ -27,7 +29,9 @@
       "english": "I'd like a little more saltiness.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12106_shioaji_ex3",
@@ -35,21 +39,35 @@
       "english": "The saltiness of these potato chips really comes through, and I can't stop eating them.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{塩味|しおあじ} is one of the basic ramen flavor categories alongside {醤油|しょうゆ} (soy sauce), {味噌|みそ} (miso), and {豚骨|とんこつ} (pork bone). For snack foods like potato chips, {塩味|しおあじ} is the \"plain\" or \"original\" flavor. Can also be read しおみ, though しおあじ is more common.\n\nCOMMON COLLOCATIONS:\n- {塩味|しおあじ}ラーメン: salt-flavored ramen\n- {塩味|しおあじ}が{効|き}く: the saltiness comes through\n- {塩味|しおあじ}を{加|くわ}える: add saltiness\n- {塩味|しおあじ}が{強|つよ}い: strongly salty\n- {塩味|しおあじ}が{足|た}りない: not salty enough",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02522_shiokarai",
+      "reading": "しおからい",
+      "headword": "{塩辛|しおから}い",
+      "label": "salty"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T05:00:17Z",
-    "modified": "2026-02-20T05:00:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

@@ -45,7 +45,29 @@
     }
   ],
   "notes": "A compound of {有機|ゆうき} (organic) and {肥料|ひりょう} (fertilizer). Increasingly common as interest in organic farming ({有機|ゆうき}{農業|のうぎょう}) and sustainable agriculture grows in Japan.\n\nCOMMON COLLOCATIONS:\n- {有機|ゆうき}{肥料|ひりょう}を{施|ほどこ}す: to apply organic fertilizer\n- {有機|ゆうき}{肥料|ひりょう}で{栽培|さいばい}する: to cultivate with organic fertilizer\n- {完熟|かんじゅく}{有機|ゆうき}{肥料|ひりょう}: fully composted organic fertilizer\n\nTYPES:\n- {堆肥|たいひ}: compost — decomposed plant matter\n- {鶏糞|けいふん}: chicken manure\n- {骨粉|こっぷん}: bone meal\n- {油|あぶら}かす: oil cake; seed meal\n\nSIMILAR WORDS:\n- {化学|かがく}{肥料|ひりょう}: chemical fertilizer — the synthetic counterpart\n- {堆肥|たいひ}: compost — one specific type of organic fertilizer\n- {肥|こ}やし: fertilizer; manure — more colloquial general term",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17490_kagakuhiryou",
+      "reading": "かがくひりょう",
+      "headword": "{化学肥料|かがくひりょう}",
+      "label": "chemical fertilizer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06471_taihi",
+      "reading": "たいひ",
+      "headword": "{堆肥|たいひ}",
+      "label": "compost"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30665_koyashi",
+      "reading": "こやし",
+      "headword": "{肥|こ}やし",
+      "label": "fertilizer"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +75,12 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "nature"
       ]
     },
     "created": "2026-05-02T14:36:12Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

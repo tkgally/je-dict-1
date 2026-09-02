@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "{先生|せんせい} is a respectful title for teachers, doctors, and other professionals.\n\nUSAGE AS TITLE:\n- After names: {田中|たなか}{先生|せんせい} (Teacher/Dr. Tanaka)\n- Direct address: {先生|せんせい}、⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧。\n\nAPPLIES TO:\n- ⟦{教師|きょうし}→教師：03029_kyoushi⟧: teachers\n- ⟦{医者|いしゃ}→医者：02847_isha⟧: doctors\n- ⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧: lawyers\n- ⟦{作家|さっか}→作家：01414_sakka⟧: authors, artists\n- ⟦{政治家|せいじか}→政治家：03084_seijika⟧: politicians\n\nIMPORTANT:\nNever use {先生|せんせい} for yourself. Use ⟦{教師|きょうし}→教師：03029_kyoushi⟧ or ⟦{教員|きょういん}→教員：12942_kyouin⟧ instead.\n\nRELATED:\n- ⟦{生徒|せいと}→生徒：01051_seito⟧: student (of a {先生|せんせい})",
+  "notes": "{先生|せんせい} is a respectful title for teachers, doctors, and other professionals.\n\nUSAGE AS TITLE:\n- After names: {田中|たなか}{先生|せんせい} (Teacher/Dr. Tanaka)\n- Direct address: {先生|せんせい}、⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧。\n\nAPPLIES TO:\n- ⟦{教師|きょうし}→教師：03029_kyoushi⟧: teachers\n- ⟦{医者|いしゃ}→医者：02847_isha⟧: doctors\n- ⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧: lawyers\n- ⟦{作家|さっか}→作家：01414_sakka⟧: authors, artists\n- ⟦{政治家|せいじか}→政治家：03084_seijika⟧: politicians\n\nWATCH OUT:\nNever use {先生|せんせい} for yourself. Use ⟦{教師|きょうし}→教師：03029_kyoushi⟧ or ⟦{教員|きょういん}→教員：12942_kyouin⟧ instead.\n\nRELATED WORDS:\n- ⟦{生徒|せいと}→生徒：01051_seito⟧: student (of a {先生|せんせい})",
   "cross_references": [
     {
       "type": "related",
@@ -133,11 +133,53 @@
       "headword": "{学生|がくせい}",
       "target_id": "00610_gakusei",
       "label": "student"
+    },
+    {
+      "type": "related",
+      "target_id": "01051_seito",
+      "reading": "せいと",
+      "headword": "{生徒|せいと}",
+      "label": "student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11851_ishi",
+      "reading": "いし",
+      "headword": "{医師|いし}",
+      "label": "doctor, physician"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20595_shihan",
+      "reading": "しはん",
+      "headword": "{師範|しはん}",
+      "label": "master instructor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23281_tantoui",
+      "reading": "たんとうい",
+      "headword": "{担当医|たんとうい}",
+      "label": "doctor in charge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25264_kyouikusha",
+      "reading": "きょういくしゃ",
+      "headword": "{教育者|きょういくしゃ}",
+      "label": "educator"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30765_kyouyu",
+      "reading": "きょうゆ",
+      "headword": "{教諭|きょうゆ}",
+      "label": "teacher (official title)"
     }
   ],
   "metadata": {
     "created": "2026-01-07T15:46:11Z",
-    "modified": "2026-05-12T13:16:23Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

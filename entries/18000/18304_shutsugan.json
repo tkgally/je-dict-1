@@ -3,7 +3,7 @@
   "id": "18304_shutsugan",
   "headword": "{出願|しゅつがん}",
   "reading": "しゅつがん",
-  "part_of_speech": "noun; verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "application (for admission, patent, etc.)",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,32 @@
     }
   ],
   "notes": "USAGE:\nPrimarily used in two contexts: university/school admissions and patent/trademark filings. For general applications (job, membership), {申|もう}し{込|こ}み is more common.\n\nCOMMON COLLOCATIONS:\n- {出願|しゅつがん}する (to apply, to file)\n- {出願|しゅつがん}{書類|しょるい} (application documents)\n- {出願|しゅつがん}{締|し}め{切|き}り (application deadline)\n- {出願|しゅつがん}{資格|しかく} (eligibility to apply)\n- {特許|とっきょ}{出願|しゅつがん} (patent application)\n\nSIMILAR WORDS:\n- {申|もう}し{込|こ}み: application — broader and more general\n- {志願|しがん}: volunteering, applying — implies personal desire, used for military or competitive contexts\n- {応募|おうぼ}: applying (for a job, contest) — in response to a public call",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03161_moushikomi",
+      "reading": "もうしこみ",
+      "headword": "{申|もう}し{込|こ}み",
+      "label": "application"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12669_shigan",
+      "reading": "しがん",
+      "headword": "{志願|しがん}",
+      "label": "volunteering, applying"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03014_oubo",
+      "reading": "おうぼ",
+      "headword": "{応募|おうぼ}",
+      "label": "applying"
+    }
+  ],
   "metadata": {
     "created": "2026-03-21T09:07:14Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -17,24 +17,30 @@
       "japanese": "エレベーターは{故障中|こしょうちゅう}です。",
       "english": "The elevator is out of order.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09555_koshouchuu_ex2",
       "japanese": "{故障中|こしょうちゅう}の{張|は}り{紙|がみ}がある。",
       "english": "There is an 'out of order' sign.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09555_koshouchuu_ex3",
       "japanese": "この{自動販売機|じどうはんばいき}は{故障中|こしょうちゅう}なので、{隣|となり}のを{使|つか}ってください。",
       "english": "This vending machine is out of order, so please use the one next to it.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{故障中|こしょうちゅう} combines {故障|こしょう} (breakdown, malfunction) + {中|ちゅう} (during, in progress). A sign expression indicating equipment or facilities are broken and unavailable.\n\nCOMMON CONTEXTS:\nYou'll see this posted on:\n- {自動販売機|じどうはんばいき}: vending machines\n- エレベーター/エスカレーター: elevators/escalators\n- トイレ: toilets/restrooms\n- コピー{機|き}: copy machines\n\nCOMMON COLLOCATIONS:\n- {故障中|こしょうちゅう}の{張|は}り{紙|がみ}: \"out of order\" sign\n- {故障中|こしょうちゅう}につき{使用|しよう}できません: cannot be used due to malfunction\n\nSIMILAR 〜{中|ちゅう} EXPRESSIONS:\n- {使用中|しようちゅう}: in use\n- {点検中|てんけんちゅう}: under inspection\n- {準備中|じゅんびちゅう}: in preparation / closed (at restaurants)\n- {工事中|こうじちゅう}: under construction",
+  "notes": "{故障中|こしょうちゅう} combines {故障|こしょう} (breakdown, malfunction) + {中|ちゅう} (during, in progress). A sign expression indicating equipment or facilities are broken and unavailable.\n\nUSAGE:\nYou'll see this posted on:\n- {自動販売機|じどうはんばいき}: vending machines\n- エレベーター/エスカレーター: elevators/escalators\n- トイレ: toilets/restrooms\n- コピー{機|き}: copy machines\n\nCOMMON COLLOCATIONS:\n- {故障中|こしょうちゅう}の{張|は}り{紙|がみ}: \"out of order\" sign\n- {故障中|こしょうちゅう}につき{使用|しよう}できません: cannot be used due to malfunction\n\nSIMILAR 〜{中|ちゅう} EXPRESSIONS:\n- {使用中|しようちゅう}: in use\n- {点検中|てんけんちゅう}: under inspection\n- {準備中|じゅんびちゅう}: in preparation / closed (at restaurants)\n- {工事中|こうじちゅう}: under construction",
   "cross_references": [
     {
       "type": "related",
@@ -49,18 +55,36 @@
       "reading": "じゅんびちゅう",
       "headword": "{準備中|じゅんびちゅう}",
       "label": "preparing"
+    },
+    {
+      "type": "related",
+      "target_id": "10259_tenkenchuu",
+      "reading": "てんけんちゅう",
+      "headword": "{点検中|てんけんちゅう}",
+      "label": "under inspection"
+    },
+    {
+      "type": "related",
+      "target_id": "09625_koujichuu",
+      "reading": "こうじちゅう",
+      "headword": "{工事中|こうじちゅう}",
+      "label": "under construction"
     }
   ],
   "metadata": {
     "created": "2026-02-02T10:42:48Z",
-    "modified": "2026-04-23T05:18:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["expression"]
+      "semantic": [
+        "expression"
+      ]
     }
   }
 }

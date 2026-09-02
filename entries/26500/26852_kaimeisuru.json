@@ -3,7 +3,7 @@
   "headword": "{解明|かいめい}する",
   "reading": "かいめいする",
   "romaji": "kaimeisuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to clarify; to elucidate; to uncover the truth",
   "definitions": [
     {
@@ -55,7 +55,36 @@
     }
   ],
   "notes": "Used when something unknown or mysterious is made clear through investigation or research. Common in science, journalism, and law enforcement contexts. The emphasis is on the process of uncovering truth rather than simply explaining it.\n\nCOMMON COLLOCATIONS:\n- {原因|げんいん}{解明|かいめい}: determining the cause\n- {真相|しんそう}の{解明|かいめい}: uncovering the truth\n- {メカニズムの{解明|かいめい}: elucidation of mechanism\n- {謎|なぞ}の{解明|かいめい}: solving a mystery\n- {全容|ぜんよう}{解明|かいめい}: full clarification\n\nSIMILAR WORDS:\n- {明|あき}らかにする: to make clear — more general, less investigative\n- {究明|きゅうめい}する: to investigate thoroughly — emphasizes exhaustive investigation\n- {解釈|かいしゃく}する: to interpret — deriving meaning rather than uncovering facts",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22256_akirakanisuru",
+      "reading": "あきらかにする",
+      "headword": "{明|あき}らかにする",
+      "label": "to make clear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17549_kyuumei",
+      "reading": "きゅうめい",
+      "headword": "{究明|きゅうめい}",
+      "label": "to investigate thoroughly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26837_kaishakusuru",
+      "reading": "かいしゃくする",
+      "headword": "{解釈|かいしゃく}する",
+      "label": "to interpret"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14274_tokiakasu",
+      "reading": "ときあかす",
+      "headword": "{解|と}き{明|あ}かす",
+      "label": "to solve"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,7 +100,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T13:13:51Z",
-    "modified": "2026-05-05T13:13:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -19,7 +19,9 @@
       "english": "The completion ceremony is held in March.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17512_shuuryoushiki_ex2",
@@ -27,7 +29,9 @@
       "english": "We listened to the principal's speech at the completion ceremony.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17512_shuuryoushiki_ex3",
@@ -35,21 +39,35 @@
       "english": "At the training completion ceremony, certificates of completion were awarded to everyone.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nComposed of {修了|しゅうりょう} (completion of a course) + {式|しき} (ceremony). Distinguished from {卒業式|そつぎょうしき} (graduation ceremony): {修了式|しゅうりょうしき} marks the end of a term for continuing students, while {卒業式|そつぎょうしき} marks the final graduation from a school. Also used for training programs, workshops, and courses.\n\nKEY DISTINCTION:\n- {修了式|しゅうりょうしき}: end-of-term ceremony (students continue next year)\n- {卒業式|そつぎょうしき}: graduation ceremony (students leave the school)\n\nRELATED TERMS:\n- {修了|しゅうりょう}: completion (of a course)\n- {修了証書|しゅうりょうしょうしょ}: certificate of completion\n- {始業式|しぎょうしき}: opening ceremony (start of term)",
-  "cross_references": [],
+  "notes": "USAGE:\nComposed of {修了|しゅうりょう} (completion of a course) + {式|しき} (ceremony). Distinguished from {卒業式|そつぎょうしき} (graduation ceremony): {修了式|しゅうりょうしき} marks the end of a term for continuing students, while {卒業式|そつぎょうしき} marks the final graduation from a school. Also used for training programs, workshops, and courses.\n\nKEY DISTINCTION:\n- {修了式|しゅうりょうしき}: end-of-term ceremony (students continue next year)\n- {卒業式|そつぎょうしき}: graduation ceremony (students leave the school)\n\nRELATED WORDS:\n- {修了|しゅうりょう}: completion (of a course)\n- {修了証書|しゅうりょうしょうしょ}: certificate of completion\n- {始業式|しぎょうしき}: opening ceremony (start of term)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08555_shigyoushiki",
+      "reading": "しぎょうしき",
+      "headword": "{始業式|しぎょうしき}",
+      "label": "opening ceremony"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T04:36:30Z",
-    "modified": "2026-03-18T04:36:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

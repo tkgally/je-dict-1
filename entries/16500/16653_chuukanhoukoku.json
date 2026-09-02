@@ -19,7 +19,9 @@
       "english": "I submitted an interim report.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16653_chuukanhoukoku_ex2",
@@ -27,7 +29,9 @@
       "english": "The interim report of the investigation will be announced next week.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16653_chuukanhoukoku_ex3",
@@ -35,21 +39,63 @@
       "english": "The committee pointed out problems in the interim report.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed in business, academic, and governmental contexts. A {中間報告|ちゅうかんほうこく} is given before work is complete, typically to update stakeholders on progress and preliminary findings.\n\nCOMMON COLLOCATIONS:\n- {中間報告|ちゅうかんほうこく}を{出|だ}す (to issue an interim report)\n- {中間報告|ちゅうかんほうこく}を{発表|はっぴょう}する (to announce a progress report)\n- {中間報告|ちゅうかんほうこく}{書|しょ} (interim report document)\n\nSIMILAR WORDS:\n- {最終報告|さいしゅうほうこく}: final report — the completed report at the end of a project\n- {経過報告|けいかほうこく}: progress report — similar meaning, emphasizes the ongoing nature",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26484_saishuuhoukoku",
+      "reading": "さいしゅうほうこく",
+      "headword": "{最終|さいしゅう}{報告|ほうこく}",
+      "label": "final report"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22899_keikahoukoku",
+      "reading": "けいかほうこく",
+      "headword": "{経過|けいか}{報告|ほうこく}",
+      "label": "progress report"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24693_jigohoukoku",
+      "reading": "じごほうこく",
+      "headword": "{事後報告|じごほうこく}",
+      "label": "after-the-fact report"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26295_genjouhoukoku",
+      "reading": "げんじょうほうこく",
+      "headword": "{現状報告|げんじょうほうこく}",
+      "label": "status report"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26881_shinchokuhoukoku",
+      "reading": "しんちょくほうこく",
+      "headword": "{進捗報告|しんちょくほうこく}",
+      "label": "progress report"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T02:12:10Z",
-    "modified": "2026-04-10T07:12:46Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     }
   }
 }

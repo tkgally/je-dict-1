@@ -17,7 +17,9 @@
       "id": "23513_keganin_ex1",
       "japanese": "{怪我人|けがにん}はいませんか。",
       "english": "Is anyone injured?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23513_keganin_ex2",
       "japanese": "{事故|じこ}で3{人|にん}の{怪我人|けがにん}が{出|で}た。",
       "english": "Three people were injured in the accident.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23513_keganin_ex3",
       "japanese": "{怪我人|けがにん}は{救急車|きゅうきゅうしゃ}で{病院|びょういん}に{運|はこ}ばれた。",
       "english": "The injured person was taken to the hospital by ambulance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,52 @@
       "id": "23513_keganin_ex4",
       "japanese": "{幸|さいわ}い{怪我人|けがにん}は{出|で}なかったが、{建物|たてもの}の{被害|ひがい}は{大|おお}きかった。",
       "english": "Fortunately there were no injuries, but the damage to the building was extensive.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {怪我|けが} (injury) and {人|にん} (person). The {人|にん} suffix is read にん (not じん) in this compound. The word is standard in news reports and emergency situations to describe anyone who has been physically hurt.\n\nThe phrase {怪我人|けがにん}が{出|で}る (injuries occurred; someone was hurt) is extremely common in news and accident reports. Its opposite — {怪我人|けがにん}は{出|で}なかった (no one was injured) — is equally standard when reporting the fortunate outcome of an incident.\n\nCOMMON COLLOCATIONS:\n- {怪我人|けがにん}が{出|で}る: there are injuries / someone is injured\n- {怪我人|けがにん}は{出|で}なかった: no one was injured\n- {怪我人|けがにん}を{救助|きゅうじょ}する: to rescue the injured\n- {怪我人|けがにん}を{運|はこ}ぶ: to transport the injured\n- {重傷|じゅうしょう}の{怪我人|けがにん}: a seriously injured person\n\nSIMILAR WORDS:\n- {負傷者|ふしょうしゃ}: injured person — a more formal synonym, common in official reports and news\n- {被害者|ひがいしゃ}: victim — broader term including injury, crime, or disaster victims\n- {死傷者|ししょうしゃ}: casualties (dead and injured) — used when reporting both fatalities and injuries together",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27169_fushousha",
+      "reading": "ふしょうしゃ",
+      "headword": "{負傷者|ふしょうしゃ}",
+      "label": "injured person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14106_higaisha",
+      "reading": "ひがいしゃ",
+      "headword": "{被害者|ひがいしゃ}",
+      "label": "victim"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27187_shishousha",
+      "reading": "ししょうしゃ",
+      "headword": "{死傷者|ししょうしゃ}",
+      "label": "casualties"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["health", "society"]
+      "semantic": [
+        "health",
+        "society"
+      ]
     },
     "created": "2026-04-12T14:13:44Z",
-    "modified": "2026-04-12T14:13:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

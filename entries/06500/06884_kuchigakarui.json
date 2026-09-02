@@ -63,7 +63,7 @@
       "notes": null
     }
   ],
-  "notes": "STRUCTURE: ⟦{口|くち}→口：00560_kuchi⟧ (mouth) + ⟦が→が：00051_ga⟧ + ⟦{軽|かる}い→軽い：00785_karui⟧ (light). Literally 'one's mouth is light' - implying words come out easily.\n\nANTONYM: ⟦{口|くち}が{堅|かた}い→口が堅い：06885_kuchigakatai⟧ (tight-lipped, discreet)\n\nRELATED EXPRESSIONS:\n- ⟦{口|くち}が{滑|すべ}る→口が滑る：noentry⟧ (to let something slip, say something by mistake)\n- ⟦おしゃべり→お喋り：01911_oshaberi⟧ (talkative, chatterbox)\n- ⟦{口|くち}が{悪|わる}い→口が悪い：noentry⟧ (to speak harshly, sharp-tongued) - different meaning\n\nCULTURAL NOTE: In Japanese culture, keeping confidences is highly valued. Being called {口|くち}が{軽|かる}い is quite negative.",
+  "notes": "STRUCTURE: ⟦{口|くち}→口：00560_kuchi⟧ (mouth) + ⟦が→が：00051_ga⟧ + ⟦{軽|かる}い→軽い：00785_karui⟧ (light). Literally 'one's mouth is light' - implying words come out easily.\n\nANTONYM: ⟦{口|くち}が{堅|かた}い→口が堅い：06885_kuchigakatai⟧ (tight-lipped, discreet)\n\nRELATED WORDS:\n- ⟦{口|くち}が{滑|すべ}る→口が滑る：noentry⟧ (to let something slip, say something by mistake)\n- ⟦おしゃべり→お喋り：01911_oshaberi⟧ (talkative, chatterbox)\n- ⟦{口|くち}が{悪|わる}い→口が悪い：noentry⟧ (to speak harshly, sharp-tongued) - different meaning\n\nCULTURAL NOTE: In Japanese culture, keeping confidences is highly valued. Being called {口|くち}が{軽|かる}い is quite negative.",
   "cross_references": [
     {
       "type": "antonym",
@@ -71,11 +71,32 @@
       "headword": "{口|くち}が{堅|かた}い",
       "label": "tight-lipped",
       "target_id": "06885_kuchigakatai"
+    },
+    {
+      "type": "related",
+      "target_id": "01911_oshaberi",
+      "reading": "おしゃべり",
+      "headword": "お{喋|しゃべ}り",
+      "label": "talkative, chatterbox"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30585_kuchigasuberu",
+      "reading": "くちがすべる",
+      "headword": "{口|くち}が{滑|すべ}る",
+      "label": "to let something slip"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30586_kuchigawarui",
+      "reading": "くちがわるい",
+      "headword": "{口|くち}が{悪|わる}い",
+      "label": "sharp-tongued"
     }
   ],
   "metadata": {
     "created": "2026-01-18T10:03:54Z",
-    "modified": "2026-08-12T00:26:07Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

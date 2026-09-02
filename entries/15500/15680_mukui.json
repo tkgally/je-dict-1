@@ -24,7 +24,9 @@
       "english": "It's the reward for hard work.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15680_mukui_ex2",
@@ -32,7 +34,9 @@
       "english": "Years of effort finally received their reward.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15680_mukui_ex3",
@@ -40,7 +44,9 @@
       "english": "Your kindness will surely be rewarded someday.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15680_mukui_ex4",
@@ -48,7 +54,9 @@
       "english": "This is retribution for wrongdoing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15680_mukui_ex5",
@@ -56,7 +64,9 @@
       "english": "He suffered the consequences of lying.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15680_mukui_ex6",
@@ -64,7 +74,9 @@
       "english": "The consequences of betraying others will always come back to you.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nCan refer to both positive rewards and negative consequences. Sense 2 is particularly common and carries a strong nuance of karmic justice or inevitable punishment. Often used in moral or philosophical contexts.\n\nCOMMON COLLOCATIONS:\n- {報|むく}いを{受|う}ける (to receive one's reward/punishment)\n- {努力|どりょく}の{報|むく}い (reward for effort)\n- {悪事|あくじ}の{報|むく}い (retribution for wrongdoing)\n\nSIMILAR WORDS:\n- {報酬|ほうしゅう}: remuneration, compensation (more concrete, financial)\n- {罰|ばつ}: punishment (direct and imposed, not karmic)\n- {因果応報|いんがおうほう}: karmic retribution (four-character idiom)",
@@ -90,18 +102,43 @@
       "reading": "ばつ",
       "headword": "{罰|ばつ}",
       "label": "punishment (imposed)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05948_ingaouhou",
+      "reading": "いんがおうほう",
+      "headword": "{因果応報|いんがおうほう}",
+      "label": "karmic retribution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11432_daishou",
+      "reading": "だいしょう",
+      "headword": "{代償|だいしょう}",
+      "label": "compensation, price to pay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19475_tenbatsu",
+      "reading": "てんばつ",
+      "headword": "{天罰|てんばつ}",
+      "label": "divine punishment"
     }
   ],
   "metadata": {
     "created": "2026-03-08T07:32:02Z",
-    "modified": "2026-05-01T10:15:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }

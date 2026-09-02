@@ -45,7 +45,7 @@
     },
     {
       "id": "23701_gouseigomu_ex4",
-      "japanese": "{現代|げんだい}の{自動車|じどうしゃ}{タイヤ}には{天然|てんねん}ゴムと{合成|ごうせい}ゴムの{両方|りょうほう}が{使|つか}われている。",
+      "japanese": "{現代|げんだい}の{自動車|じどうしゃ}タイヤには{天然|てんねん}ゴムと{合成|ごうせい}ゴムの{両方|りょうほう}が{使|つか}われている。",
       "english": "Modern car tires use both natural and synthetic rubber.",
       "sense_numbers": [
         1
@@ -54,8 +54,24 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {合成|ごうせい} (synthesis, artificial combination) and {ゴム} (rubber, from Dutch {gom}).\n\nUSAGE:\n- Used as a material noun, most often in attributive form with の: {合成|ごうせい}ゴムの{部品|ぶひん}.\n- Regularly contrasted with {天然|てんねん}ゴム (natural rubber). In industry, the two are often mixed in a single product.\n\nCOMMON COLLOCATIONS:\n- {合成|ごうせい}ゴム{製|せい}: made of synthetic rubber\n- {合成|ごうせい}ゴムの{タイヤ}: synthetic rubber tire\n- {合成|ごうせい}ゴム{工業|こうぎょう}: the synthetic rubber industry\n- {合成|ごうせい}ゴムを{使用|しよう}する: to use synthetic rubber\n\nSIMILAR WORDS:\n- {天然|てんねん}ゴム: natural rubber — derived from rubber tree latex\n- {エラストマー}: elastomer — a broader technical term for any rubber-like elastic polymer\n- {プラスチック}: plastic — a different class of synthetic polymer, generally less elastic",
+  "notes": "Composed of {合成|ごうせい} (synthesis, artificial combination) and ゴム (rubber, from Dutch {gom}).\n\nUSAGE:\n- Used as a material noun, most often in attributive form with の: {合成|ごうせい}ゴムの{部品|ぶひん}.\n- Regularly contrasted with {天然|てんねん}ゴム (natural rubber). In industry, the two are often mixed in a single product.\n\nCOMMON COLLOCATIONS:\n- {合成|ごうせい}ゴム{製|せい}: made of synthetic rubber\n- {合成|ごうせい}ゴムのタイヤ: synthetic rubber tire\n- {合成|ごうせい}ゴム{工業|こうぎょう}: the synthetic rubber industry\n- {合成|ごうせい}ゴムを{使用|しよう}する: to use synthetic rubber\n\nSIMILAR WORDS:\n- {天然|てんねん}ゴム: natural rubber — derived from rubber tree latex\n- エラストマー: elastomer — a broader technical term for any rubber-like elastic polymer\n- プラスチック: plastic — a different class of synthetic polymer, generally less elastic",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23700_tennengomu",
+      "reading": "てんねんごむ",
+      "headword": "{天然|てんねん}ゴム",
+      "label": "natural rubber"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00347_purasuchikku",
+      "reading": "ぷらすちっく",
+      "headword": "プラスチック",
+      "label": "plastic"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -69,6 +85,6 @@
       ]
     },
     "created": "2026-04-14T14:04:47Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

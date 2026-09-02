@@ -3,7 +3,7 @@
   "headword": "チャンネル{登録|とうろく}",
   "reading": "ちゃんねるとうろく",
   "romaji": "channerutouroku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "channel subscription (e.g., YouTube)",
   "definitions": [
     {
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A set phrase coined with the spread of YouTube in Japan. The full appeal phrase チャンネル{登録|とうろく}{よろしく}お{願|ねが}いします is one of the most-heard sentences in Japanese YouTube videos.\n\nCOMMON COLLOCATIONS:\n- チャンネル{登録|とうろく}する: to subscribe to the channel\n- チャンネル{登録|とうろく}を{解除|かいじょ}する: to unsubscribe from the channel\n- チャンネル{登録|とうろく}{者|しゃ}: subscriber(s) (of a channel)\n- チャンネル{登録|とうろく}{者数|しゃすう}: subscriber count\n- チャンネル{登録|とうろく}ボタン: subscribe button\n- チャンネル{登録|とうろく}{よろしく}お{願|ねが}いします: 'Please subscribe!' (standard YouTuber closing line)\n\nSIMILAR WORDS:\n- {購読|こうどく}: subscription (reading/content) — often used for paid subscriptions to magazines, newspapers, or online publications\n- {定期購読|ていきこうどく}: regular subscription (print or digital) — emphasizes recurring payment\n- フォロー: follow — used on social media (Twitter, Instagram); a lighter, non-notification-based version of following\n\nUSAGE:\nチャンネル{登録|とうろく} is specifically used for video channels (YouTube and similar platforms). For social media following, フォロー is used instead. For paid subscriptions, サブスク (short for サブスクリプション) or {定期購読|ていきこうどく} is more common.",
+  "notes": "A set phrase coined with the spread of YouTube in Japan. The full appeal phrase チャンネル{登録|とうろく}よろしくお{願|ねが}いします is one of the most-heard sentences in Japanese YouTube videos.\n\nCOMMON COLLOCATIONS:\n- チャンネル{登録|とうろく}する: to subscribe to the channel\n- チャンネル{登録|とうろく}を{解除|かいじょ}する: to unsubscribe from the channel\n- チャンネル{登録|とうろく}{者|しゃ}: subscriber(s) (of a channel)\n- チャンネル{登録|とうろく}{者数|しゃすう}: subscriber count\n- チャンネル{登録|とうろく}ボタン: subscribe button\n- チャンネル{登録|とうろく}よろしくお{願|ねが}いします: 'Please subscribe!' (standard YouTuber closing line)\n\nSIMILAR WORDS:\n- {購読|こうどく}: subscription (reading/content) — often used for paid subscriptions to magazines, newspapers, or online publications\n- {定期購読|ていきこうどく}: regular subscription (print or digital) — emphasizes recurring payment\n- フォロー: follow — used on social media (Twitter, Instagram); a lighter, non-notification-based version of following\n\nUSAGE:\nチャンネル{登録|とうろく} is specifically used for video channels (YouTube and similar platforms). For social media following, フォロー is used instead. For paid subscriptions, サブスク (short for サブスクリプション) or {定期購読|ていきこうどく} is more common.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04468_koudoku",
+      "reading": "こうどく",
+      "headword": "{購読|こうどく}",
+      "label": "subscription"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16116_teikikoudoku",
+      "reading": "ていきこうどく",
+      "headword": "{定期購読|ていきこうどく}",
+      "label": "regular subscription"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04730_foroo",
+      "reading": "ふぉろー",
+      "headword": "フォロー",
+      "label": "follow"
+    },
+    {
+      "type": "related",
+      "target_id": "08857_yuuchuubu",
+      "reading": "ゆーちゅーぶ",
+      "headword": "YouTube",
+      "label": "YouTube"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-14T17:07:04Z",
-    "modified": "2026-04-14T17:07:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

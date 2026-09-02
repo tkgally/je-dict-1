@@ -3,7 +3,7 @@
   "headword": "{研究発表|けんきゅうはっぴょう}",
   "reading": "けんきゅうはっぴょう",
   "romaji": "kenkyuuhappyou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "research presentation; academic presentation",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {研究|けんきゅう} (research) and {発表|はっぴょう} (presentation, announcement). A fundamental term in academic Japanese, encountered by anyone studying or working at a university in Japan.\n\nUSAGE:\nCan refer to both oral presentations (talks) and poster presentations at conferences. Also used for presentations within a research lab or seminar class. The term covers the entire process of presenting research, from the talk itself to the materials and preparation involved.\n\nCOMMON COLLOCATIONS:\n- {研究発表|けんきゅうはっぴょう}をする: to give a research presentation\n- {研究発表|けんきゅうはっぴょう}{会|かい}: research presentation session\n- {研究発表|けんきゅうはっぴょう}の{要旨|ようし}: abstract of a research presentation\n- {口頭|こうとう}{研究発表|けんきゅうはっぴょう}: oral research presentation\n\nSIMILAR WORDS:\n- {発表|はっぴょう}: presentation, announcement — the general term; {研究|けんきゅう} specifies the academic context\n- {学会発表|がっかいはっぴょう}: conference presentation — specifically at an academic conference\n- {論文|ろんぶん}: academic paper, thesis — the written form of research output, as opposed to an oral presentation\n- {卒業研究|そつぎょうけんきゅう}: graduation research — undergraduate thesis research, which culminates in a presentation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03787_ronbun",
+      "reading": "ろんぶん",
+      "headword": "{論文|ろんぶん}",
+      "label": "academic paper, thesis"
+    },
+    {
+      "type": "related",
+      "target_id": "10180_ronbunhappyou",
+      "reading": "ろんぶんはっぴょう",
+      "headword": "{論文発表|ろんぶんはっぴょう}",
+      "label": "paper presentation, research presentation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24471_koutouhappyou",
+      "reading": "こうとうはっぴょう",
+      "headword": "{口頭|こうとう}{発表|はっぴょう}",
+      "label": "oral presentation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -66,7 +89,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-20T11:24:29Z",
-    "modified": "2026-04-20T11:24:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

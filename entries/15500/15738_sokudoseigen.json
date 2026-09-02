@@ -19,7 +19,9 @@
       "english": "Please observe the speed limit.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15738_sokudoseigen_ex2",
@@ -27,7 +29,9 @@
       "english": "The speed limit on this road is 40 km/h.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15738_sokudoseigen_ex3",
@@ -35,21 +39,43 @@
       "english": "Strict speed limits are set on school routes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCommonly seen on road signs in Japan. The standard speed limit on regular roads is {時速|じそく}60キロ, and on expressways {時速|じそく}100キロ, unless otherwise posted.\n\nCOMMON COLLOCATIONS:\n- {速度制限|そくどせいげん}を{守|まも}る (to observe the speed limit)\n- {速度制限|そくどせいげん}を{超|こ}える (to exceed the speed limit)\n- {速度制限|そくどせいげん}{標識|ひょうしき} (speed limit sign)\n- {速度制限|そくどせいげん}{違反|いはん} (speed limit violation)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23236_tsuushinsokudo",
+      "reading": "つうしんそくど",
+      "headword": "{通信速度|つうしんそくど}",
+      "label": "communication speed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26875_seigensokudo",
+      "reading": "せいげんそくど",
+      "headword": "{制限速度|せいげんそくど}",
+      "label": "speed limit"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T08:55:36Z",
-    "modified": "2026-03-08T08:55:36Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "law"]
+      "semantic": [
+        "transportation",
+        "law"
+      ]
     }
   }
 }

@@ -19,7 +19,9 @@
       "english": "The participation fee is 1,000 yen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11059_sankahi_ex2",
@@ -27,7 +29,9 @@
       "english": "The participation fee includes lunch.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11059_sankahi_ex3",
@@ -35,7 +39,9 @@
       "english": "Please pay the marathon entry fee at the reception desk on the day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{参加費|さんかひ} is a compound of {参加|さんか} (participation) and {費|ひ} (cost/expense).\n\nCOMMON COLLOCATIONS:\n- {参加費|さんかひ}を{払|はら}う: to pay the participation fee\n- {参加費|さんかひ}が{無料|むりょう}: free of charge to participate\n- {参加費|さんかひ}{込|こ}み: participation fee included\n\nSIMILAR WORDS:\n- {入場料|にゅうじょうりょう}: admission fee (for entering a venue)\n- {受講料|じゅこうりょう}: tuition fee (for classes/courses)\n- {会費|かいひ}: membership fee, meeting fee",
@@ -46,18 +52,43 @@
       "reading": "さんか",
       "headword": "{参加|さんか}",
       "label": "participation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07056_nyuujouryou",
+      "reading": "にゅうじょうりょう",
+      "headword": "{入場料|にゅうじょうりょう}",
+      "label": "admission fee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23862_jukouryou",
+      "reading": "じゅこうりょう",
+      "headword": "{受講料|じゅこうりょう}",
+      "label": "tuition fee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08469_kaihi",
+      "reading": "かいひ",
+      "headword": "{会費|かいひ}",
+      "label": "membership fee, meeting fee"
     }
   ],
   "metadata": {
     "created": "2026-02-13T01:20:32Z",
-    "modified": "2026-04-25T04:12:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

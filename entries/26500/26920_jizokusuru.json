@@ -3,7 +3,7 @@
   "headword": "{持続|じぞく}する",
   "reading": "じぞくする",
   "romaji": "jizokusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to continue; to persist; to sustain",
   "definitions": [
     {
@@ -45,7 +45,43 @@
     }
   ],
   "notes": "Emphasizes maintaining a state or activity over time. Commonly used in discussions about sustainability, durability, and endurance. The noun form {持続|じぞく} is extremely common as a modifier.\n\nCOMMON COLLOCATIONS:\n- {持続|じぞく}{可能|かのう}な: sustainable\n- {持続|じぞく}{的|てき}な: continuous; sustained\n- {持続|じぞく}{力|りょく}: staying power; endurance\n- {持続|じぞく}{時間|じかん}: duration\n- {効果|こうか}が{持続|じぞく}する: the effect lasts\n\nSIMILAR WORDS:\n- {続|つづ}く: to continue — the basic, everyday word for continuation\n- {継続|けいぞく}する: to continue — emphasizes deliberate, ongoing effort to keep something going\n- {維持|いじ}する: to maintain — focuses on keeping something at its current level or state",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00903_tsuzuku",
+      "reading": "つづく",
+      "headword": "{続|つづ}く",
+      "label": "to continue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26971_keizokusuru",
+      "reading": "けいぞくする",
+      "headword": "{継続|けいぞく}する",
+      "label": "to continue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17311_ijisuru",
+      "reading": "いじする",
+      "headword": "{維持|いじ}する",
+      "label": "to maintain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20931_hikitsuzuku",
+      "reading": "ひきつづく",
+      "headword": "{引|ひ}き{続|つづ}く",
+      "label": "to continue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26885_nagatsuzukisuru",
+      "reading": "ながつづきする",
+      "headword": "{長続|ながつづ}きする",
+      "label": "to last long"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,7 +99,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T16:13:48Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

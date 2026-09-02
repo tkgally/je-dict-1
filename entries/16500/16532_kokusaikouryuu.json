@@ -19,7 +19,9 @@
       "english": "I'm interested in international exchange.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16532_kokusaikouryuu_ex2",
@@ -27,7 +29,9 @@
       "english": "I consulted about studying abroad at the university's international exchange center.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16532_kokusaikouryuu_ex3",
@@ -35,21 +39,43 @@
       "english": "In this region, international exchange events with sister cities are held every year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound noun used widely in education, government, and community contexts. Many cities and universities have a {国際交流|こくさいこうりゅう}センター (international exchange center) or {国際交流|こくさいこうりゅう}{協会|きょうかい} (international exchange association).\n\nCOMMON COLLOCATIONS:\n- {国際交流|こくさいこうりゅう}センター (international exchange center)\n- {国際交流|こくさいこうりゅう}{協会|きょうかい} (international exchange association)\n- {国際交流|こくさいこうりゅう}を{深|ふか}める (to deepen international exchange)\n- {国際交流|こくさいこうりゅう}イベント (international exchange event)\n\nSIMILAR WORDS:\n- {異文化交流|いぶんかこうりゅう}: cross-cultural exchange — focuses specifically on cultural differences\n- {国際協力|こくさいきょうりょく}: international cooperation — emphasizes working together, often in development aid",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22688_kokusaikyouryoku",
+      "reading": "こくさいきょうりょく",
+      "headword": "{国際協力|こくさいきょうりょく}",
+      "label": "international cooperation"
+    },
+    {
+      "type": "related",
+      "target_id": "06457_kokusaiteki",
+      "reading": "こくさいてき",
+      "headword": "{国際的|こくさいてき}",
+      "label": "international, global"
+    }
+  ],
   "metadata": {
     "created": "2026-03-13T06:44:33Z",
-    "modified": "2026-03-13T06:44:33Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education", "general"]
+      "semantic": [
+        "education",
+        "general"
+      ]
     }
   }
 }

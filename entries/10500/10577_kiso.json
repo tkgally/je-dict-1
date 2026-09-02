@@ -3,7 +3,7 @@
   "id": "10577_kiso",
   "headword": "{起訴|きそ}",
   "reading": "きそ",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "indictment, prosecution",
   "conjugation": {
     "type": "suru",
@@ -141,11 +141,32 @@
       "reading": "しょうこ",
       "headword": "{証拠|しょうこ}",
       "target_id": "10575_shouko"
+    },
+    {
+      "type": "related",
+      "target_id": "03397_taiho",
+      "reading": "たいほ",
+      "headword": "{逮捕|たいほ}",
+      "label": "arrest, apprehension"
+    },
+    {
+      "type": "related",
+      "target_id": "08010_kokuso",
+      "reading": "こくそ",
+      "headword": "{告訴|こくそ}",
+      "label": "accusation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23258_kouhan",
+      "reading": "こうはん",
+      "headword": "{公判|こうはん}",
+      "label": "public trial"
     }
   ],
   "metadata": {
     "created": "2026-02-08T05:27:45Z",
-    "modified": "2026-08-14T09:53:15Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

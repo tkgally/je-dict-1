@@ -46,18 +46,43 @@
   ],
   "notes": "Combines {表|おもて} (front, surface) and {側|がわ} (side). Contrasts with {裏側|うらがわ} (back side, reverse side). Used for fabrics, buildings, coins, paper, and any object with a distinct front and back.\n\nCOMMON COLLOCATIONS:\n- {表側|おもてがわ}に{印刷|いんさつ}する: to print on the front side\n- {表側|おもてがわ}を{上|うえ}にする: to place face up\n- {建物|たてもの}の{表側|おもてがわ}: the front of a building\n- {生地|きじ}の{表側|おもてがわ}: the right side of fabric\n\nSIMILAR WORDS:\n- {表面|ひょうめん}: surface — refers to the physical outer surface of an object, not specifically the front\n- {正面|しょうめん}: front face — the side directly facing the viewer\n- {裏側|うらがわ}: back side; reverse side — the antonym of {表側|おもてがわ}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03587_hyoumen",
+      "reading": "ひょうめん",
+      "headword": "{表面|ひょうめん}",
+      "label": "surface"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13189_shoumen",
+      "reading": "しょうめん",
+      "headword": "{正面|しょうめん}",
+      "label": "front face"
+    },
+    {
+      "type": "antonym",
+      "target_id": "03042_uragawa",
+      "reading": "うらがわ",
+      "headword": "{裏側|うらがわ}",
+      "label": "back side"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "direction",
         "appearance"
       ]
     },
     "created": "2026-04-23T11:19:37Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

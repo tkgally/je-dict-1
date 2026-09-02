@@ -3,7 +3,7 @@
   "id": "14912_wakaisuru",
   "headword": "{和解|わかい}する",
   "reading": "わかいする",
-  "part_of_speech": "noun / verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to reconcile; to settle",
   "conjugation": {
     "type": "suru",
@@ -160,10 +160,46 @@
     }
   ],
   "notes": "USAGE:\n{和解|わかい} has two main uses: personal reconciliation (sense 1) and legal settlement (sense 2). In everyday conversation, sense 1 is more common. In news and legal contexts, sense 2 appears frequently.\n\nCOMMON COLLOCATIONS:\n- {和解|わかい}する (to reconcile / to settle)\n- {和解|わかい}が{成立|せいりつ}する (a settlement is reached)\n- {和解|わかい}に{応|おう}じる (to agree to a settlement)\n- {和解金|わかいきん} (settlement money)\n\nSIMILAR WORDS:\n- {和解|わかい}: reconciliation or legal settlement\n- {仲直|なかなお}り: making up (casual, personal conflicts)\n- {示談|じだん}: out-of-court settlement (specifically between parties without court involvement)\n- {調停|ちょうてい}: mediation (formal third-party intervention)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03127_nakanaori",
+      "reading": "なかなおり",
+      "headword": "{仲直|なかなお}り",
+      "label": "making up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23317_jidan",
+      "reading": "じだん",
+      "headword": "{示談|じだん}",
+      "label": "out-of-court settlement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14251_choutei",
+      "reading": "ちょうてい",
+      "headword": "{調停|ちょうてい}",
+      "label": "mediation"
+    },
+    {
+      "type": "related",
+      "target_id": "06307_nakanaorisuru",
+      "reading": "なかなおりする",
+      "headword": "{仲直|なかなお}りする",
+      "label": "to make up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27010_chuusaisuru",
+      "reading": "ちゅうさいする",
+      "headword": "{仲裁|ちゅうさい}する",
+      "label": "to mediate"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T05:53:54Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{論証|ろんしょう}",
   "reading": "ろんしょう",
   "romaji": "ronshou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "proof; demonstration; argumentation",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "An academic and intellectual word referring to the process of proving or demonstrating a point through logic and evidence. Used in philosophy, academia, debate, and formal writing.\n\nCOMMON COLLOCATIONS:\n- {論証|ろんしょう}する: to prove, to demonstrate\n- {論証|ろんしょう}を{試|こころ}みる: to attempt to prove\n- {論証|ろんしょう}{過程|かてい}: the process of argumentation\n- {論証|ろんしょう}{責任|せきにん}: burden of proof\n\nSIMILAR WORDS:\n- {証明|しょうめい}: proof, demonstration — more general and everyday; can be used for mathematical proofs, ID verification, etc.\n- {立証|りっしょう}: substantiation, proof — emphasizes establishing evidence, especially in legal contexts\n- {実証|じっしょう}: empirical proof — proving through experiment or evidence rather than logic alone\n\nETYMOLOGY:\n{論|ろん} (argue, discuss) + {証|しょう} (evidence, proof) — \"argue with proof.\"",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03242_shoumei",
+      "reading": "しょうめい",
+      "headword": "{証明|しょうめい}",
+      "label": "proof, demonstration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23853_risshou",
+      "reading": "りっしょう",
+      "headword": "{立証|りっしょう}",
+      "label": "substantiation, proof"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12350_jisshou",
+      "reading": "じっしょう",
+      "headword": "{実証|じっしょう}",
+      "label": "empirical proof"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-31T17:19:35Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

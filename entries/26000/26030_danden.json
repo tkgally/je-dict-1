@@ -3,7 +3,7 @@
   "headword": "{断電|だんでん}",
   "reading": "だんでん",
   "romaji": "danden",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "power outage; power cut; disconnection of electricity",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "A somewhat technical word used in official notices, utility communications, and infrastructure contexts. More formal than the everyday {停電|ていでん}, and emphasizes the deliberate or mechanical cutting of power rather than a general outage.\n\nCOMMON COLLOCATIONS:\n- {断電|だんでん}する: to cut power\n- {断電|だんでん}が{発生|はっせい}する: a power cut occurs\n- {断電|だんでん}{時|じ}: during a power outage\n- {計画|けいかく}{断電|だんでん}: planned power cut\n\nSIMILAR WORDS:\n- {停電|ていでん}: power outage; blackout — the everyday word for power going out\n- {送電|そうでん}: power transmission — the delivery of electrical power\n- {通電|つうでん}: energization; passing current — the opposite: electricity flowing through",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03544_teiden",
+      "reading": "ていでん",
+      "headword": "{停電|ていでん}",
+      "label": "power outage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17225_souden",
+      "reading": "そうでん",
+      "headword": "{送電|そうでん}",
+      "label": "power transmission"
+    },
+    {
+      "type": "antonym",
+      "target_id": "30050_tsuuden",
+      "reading": "つうでん",
+      "headword": "{通電|つうでん}",
+      "label": "energization"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +76,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "science"
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-28T16:17:20Z",
-    "modified": "2026-04-28T16:17:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

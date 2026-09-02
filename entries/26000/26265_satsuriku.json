@@ -3,7 +3,7 @@
   "headword": "{殺戮|さつりく}",
   "reading": "さつりく",
   "romaji": "satsuriku",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "massacre; slaughter; carnage",
   "definitions": [
     {
@@ -44,12 +44,28 @@
       "notes": null
     }
   ],
-  "notes": "A strong, literary word for large-scale killing. It carries connotations of brutality and indiscriminate violence. Commonly encountered in historical writing, news about conflicts, and fiction.\n\nCOMMON COLLOCATIONS:\n- {大量|たいりょう}{殺戮|さつりく}: mass slaughter\n- {無差別|むさべつ}{殺戮|さつりく}: indiscriminate massacre\n- {殺戮|さつりく}を{行|おこな}う: to carry out a massacre\n- {殺戮|さつりく}{兵器|へいき}: weapon of mass destruction\n\nSIMILAR WORDS:\n- {虐殺|ぎゃくさつ}: massacre, genocide (emphasizes cruelty and oppression; often used for political killings)\n- {殺害|さつがい}: killing, murder (neutral term for causing death; can refer to a single victim)\n- {惨殺|ざんさつ}: brutal murder (emphasizes the gruesome manner of killing)\n\nKANJI NOTE:\nThe second character {戮|りく} is rare outside this word and is sometimes written in hiragana as {殺|さつ}りく in newspapers, following the practice of simplifying rarely-used kanji.",
-  "cross_references": [],
+  "notes": "A strong, literary word for large-scale killing. It carries connotations of brutality and indiscriminate violence. Commonly encountered in historical writing, news about conflicts, and fiction.\n\nCOMMON COLLOCATIONS:\n- {大量|たいりょう}{殺戮|さつりく}: mass slaughter\n- {無差別|むさべつ}{殺戮|さつりく}: indiscriminate massacre\n- {殺戮|さつりく}を{行|おこな}う: to carry out a massacre\n- {殺戮|さつりく}{兵器|へいき}: weapon of mass destruction\n\nSIMILAR WORDS:\n- {虐殺|ぎゃくさつ}: massacre, genocide (emphasizes cruelty and oppression; often used for political killings)\n- {殺害|さつがい}: killing, murder (neutral term for causing death; can refer to a single victim)\n- {惨殺|ざんさつ}: brutal murder (emphasizes the gruesome manner of killing)\n\nWRITING:\nThe second character {戮|りく} is rare outside this word and is sometimes written in hiragana as {殺|さつ}りく in newspapers, following the practice of simplifying rarely-used kanji.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14333_gyakusatsu",
+      "reading": "ぎゃくさつ",
+      "headword": "{虐殺|ぎゃくさつ}",
+      "label": "massacre, genocide (emphasizes cruelty…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13226_satsugai",
+      "reading": "さつがい",
+      "headword": "{殺害|さつがい}",
+      "label": "killing, murder (neutral term…"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
+      "politeness": "plain",
       "semantic": [
         "action",
         "military"
@@ -61,7 +77,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-30T14:21:56Z",
-    "modified": "2026-08-05T09:33:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -17,7 +17,9 @@
       "id": "28935_ryoutenabe_ex1",
       "japanese": "{大|おお}きい{両手鍋|りょうてなべ}でパスタを{茹|ゆ}でた。",
       "english": "I boiled pasta in a big two-handled pot.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28935_ryoutenabe_ex2",
       "japanese": "カレーを{作|つく}るなら{両手鍋|りょうてなべ}が{使|つか}いやすい。",
       "english": "A two-handled pot is easy to use for making curry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "28935_ryoutenabe_ex3",
       "japanese": "{重|おも}い{両手鍋|りょうてなべ}を{両手|りょうて}でしっかり{持|も}ち{上|あ}げた。",
       "english": "I lifted the heavy two-handled pot firmly with both hands.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {両手|りょうて} (both hands) + {鍋|なべ} (pot). The opposite is {片手鍋|かたてなべ}, a smaller saucepan with one long handle.\n\nCOMMON COLLOCATIONS:\n- {両手鍋|りょうてなべ}で{煮込|にこ}む: to simmer in a two-handled pot\n- ホーロー{両手鍋|りょうてなべ}: enameled two-handled pot\n\nSIMILAR WORDS:\n- {片手鍋|かたてなべ}: saucepan — smaller, with one long handle\n- {土鍋|どなべ}: clay pot — used for hot pot dishes and rice",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28930_katatenabe",
+      "reading": "かたてなべ",
+      "headword": "{片手鍋|かたてなべ}",
+      "label": "saucepan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07949_donabe",
+      "reading": "どなべ",
+      "headword": "{土鍋|どなべ}",
+      "label": "clay pot"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool", "food"],
+      "semantic": [
+        "tool",
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-06-07T04:07:08Z",
-    "modified": "2026-06-07T04:07:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

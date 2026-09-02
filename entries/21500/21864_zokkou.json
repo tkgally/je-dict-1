@@ -3,7 +3,7 @@
   "headword": "{続行|ぞっこう}",
   "reading": "ぞっこう",
   "romaji": "zokkou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "continuation; resumption; carrying on",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Refers to continuing or resuming an action or process, especially one that has been interrupted or is facing obstacles. More formal than {続|つづ}ける.\n\nCOMMON COLLOCATIONS:\n- {試合|しあい}を{続行|ぞっこう}する: to continue a game/match\n- {工事|こうじ}を{続行|ぞっこう}する: to continue construction\n- {審議|しんぎ}を{続行|ぞっこう}する: to continue deliberation\n- {計画|けいかく}を{続行|ぞっこう}する: to carry on with a plan\n- {捜査|そうさ}を{続行|ぞっこう}する: to continue an investigation\n\nSIMILAR WORDS:\n- {継続|けいぞく}: continuation — emphasizes ongoing duration, more general\n- {続|つづ}ける: to continue — the everyday verb form, less formal\n- {再開|さいかい}: resumption — specifically restarting after a stop",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00213_keizoku",
+      "reading": "けいぞく",
+      "headword": "{継続|けいぞく}",
+      "label": "continuation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01231_tsuzukeru",
+      "reading": "つづける",
+      "headword": "{続|つづ}ける",
+      "label": "to continue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05219_saikai",
+      "reading": "さいかい",
+      "headword": "{再開|さいかい}",
+      "label": "resumption"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-03T20:17:57Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -17,7 +17,9 @@
       "id": "18836_heisokukan_ex1",
       "japanese": "{閉塞感|へいそくかん}を{感|かん}じる。",
       "english": "I feel a sense of stagnation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18836_heisokukan_ex2",
       "japanese": "{社会|しゃかい}{全体|ぜんたい}に{閉塞感|へいそくかん}が{漂|ただよ}っている。",
       "english": "A sense of stagnation pervades society as a whole.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "18836_heisokukan_ex3",
       "japanese": "{長引|ながび}く{不況|ふきょう}による{閉塞感|へいそくかん}を{打破|だは}するために、{新|あたら}しい{政策|せいさく}が{求|もと}められている。",
       "english": "New policies are needed to break through the sense of stagnation caused by the prolonged recession.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -43,16 +49,52 @@
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08033_ikizumari",
+      "reading": "いきづまり",
+      "headword": "{行|い}き{詰|づ}まり",
+      "label": "deadlock, impasse"
+    },
+    {
+      "type": "related",
+      "target_id": "07427_teitai",
+      "reading": "ていたい",
+      "headword": "{停滞|ていたい}",
+      "label": "stagnation"
+    },
+    {
+      "type": "related",
+      "target_id": "21531_appakukan",
+      "reading": "あっぱくかん",
+      "headword": "{圧迫感|あっぱくかん}",
+      "label": "feeling of pressure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29217_teitaikan",
+      "reading": "ていたいかん",
+      "headword": "{停滞感|ていたいかん}",
+      "label": "sense of stagnation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["emotion"],
-      "style": ["written"]
+      "semantic": [
+        "emotion"
+      ],
+      "style": [
+        "written"
+      ]
     },
     "created": "2026-03-23T05:27:46Z",
-    "modified": "2026-04-08T04:19:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

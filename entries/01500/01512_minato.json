@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{港|みなと} refers to a port or harbor where ships dock, load, and unload.\n\nCOMMON EXPRESSIONS:\n- {港|みなと}⟦に→に：00314_ni⟧⟦{着|つ}く→着く：00680_tsuku⟧: to arrive at port\n- {港|みなと}⟦を→を：00422_wo⟧⟦{出|で}る→出る：00513_deru⟧: to leave port\n- {港|みなと}⟦{町|まち}→町：00613_machi⟧: port town\n\nCOMPOUNDS:\n- ⟦{空港|くうこう}→空港：00648_kuukou⟧: airport (literally \"sky port\")\n- ⟦{漁港|ぎょこう}→漁港：20623_gyokou⟧: fishing port\n- ⟦{貿易港|ぼうえきこう}→貿易港：noentry⟧: trading port\n\nPLACE NAMES:\n- ⟦{横浜|よこはま}→横浜：28138_yokohama⟧{港|こう}: Yokohama Port\n- ⟦{神戸|こうべ}→神戸：noentry⟧{港|こう}: Kobe Port\n- ⟦{港区|みなとく}→港区：noentry⟧: Minato Ward (Tokyo)\n\nREADINGS:\nIn compound words, {港|みなと} often takes the on'yomi reading こう, as in ⟦{港湾|こうわん}→港湾：14767_kouwan⟧ (harbor/port facilities).",
+  "notes": "{港|みなと} refers to a port or harbor where ships dock, load, and unload.\n\nCOMMON EXPRESSIONS:\n- {港|みなと}⟦に→に：00314_ni⟧⟦{着|つ}く→着く：00680_tsuku⟧: to arrive at port\n- {港|みなと}⟦を→を：00422_wo⟧⟦{出|で}る→出る：00513_deru⟧: to leave port\n- {港|みなと}⟦{町|まち}→町：00613_machi⟧: port town\n\nCOMPOUNDS:\n- ⟦{空港|くうこう}→空港：00648_kuukou⟧: airport (literally \"sky port\")\n- ⟦{漁港|ぎょこう}→漁港：20623_gyokou⟧: fishing port\n- ⟦{貿易港|ぼうえきこう}→貿易港：noentry⟧: trading port\n\nPLACE NAMES:\n- ⟦{横浜|よこはま}→横浜：28138_yokohama⟧{港|こう}: Yokohama Port\n- ⟦{神戸|こうべ}→神戸：noentry⟧{港|こう}: Kobe Port\n- ⟦{港区|みなとく}→港区：noentry⟧: Minato Ward (Tokyo)\n\nPRONUNCIATION:\nIn compound words, {港|みなと} often takes the on'yomi reading こう, as in ⟦{港湾|こうわん}→港湾：14767_kouwan⟧ (harbor/port facilities).",
   "cross_references": [
     {
       "type": "related",
@@ -78,11 +78,67 @@
       "reading": "ふね",
       "headword": "{船|ふね}",
       "label": "boat, ship"
+    },
+    {
+      "type": "related",
+      "target_id": "02180_eki",
+      "reading": "えき",
+      "headword": "{駅|えき}",
+      "label": "station"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09241_sanbashi",
+      "reading": "さんばし",
+      "headword": "{桟橋|さんばし}",
+      "label": "pier, wharf, jetty"
+    },
+    {
+      "type": "related",
+      "target_id": "09805_kontena",
+      "reading": "こんてな",
+      "headword": "コンテナ",
+      "label": "container"
+    },
+    {
+      "type": "related",
+      "target_id": "19675_ganpeki",
+      "reading": "がんぺき",
+      "headword": "{岸壁|がんぺき}",
+      "label": "quay wall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20686_futou",
+      "reading": "ふとう",
+      "headword": "{埠頭|ふとう}",
+      "label": "wharf"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21296_funatsukiba",
+      "reading": "ふなつきば",
+      "headword": "{船着|ふなつ}き{場|ば}",
+      "label": "boat landing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23850_mariina",
+      "reading": "まりーな",
+      "headword": "マリーナ",
+      "label": "marina (harbor for pleasure boats)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27463_yottohaabaa",
+      "reading": "よっとはーばー",
+      "headword": "ヨットハーバー",
+      "label": "yacht harbor"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:21:33Z",
-    "modified": "2026-08-13T03:32:27Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

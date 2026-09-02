@@ -1,0 +1,115 @@
+{
+  "_comment": "Ratchet baseline for malformed furigana braces (unbalanced or nested {...} groups). Maps entry id -> the field paths that were already broken when generated; `python3 build/validate.py` tolerates exactly these and fails on any other, and `--ratchet` tolerates none. Regenerate after a repair sweep (build/fix_furigana_format.py --apply, then hand repairs): python3 build/validate.py --write-brace-baseline",
+  "entries": {
+    "04471_otama": [
+      "examples[4].japanese",
+      "notes"
+    ],
+    "07093_eigakantoku": [
+      "notes"
+    ],
+    "08385_moushiokuri": [
+      "notes"
+    ],
+    "08891_ikki": [
+      "notes"
+    ],
+    "09020_fukuyaku": [
+      "examples[1].japanese"
+    ],
+    "09050_kyoukan": [
+      "notes"
+    ],
+    "09187_monoshizuka": [
+      "notes"
+    ],
+    "09192_donjuu": [
+      "notes"
+    ],
+    "09544_suidoudai": [
+      "notes"
+    ],
+    "09760_zenkaiicchi": [
+      "examples[2].japanese"
+    ],
+    "09785_shoumeisho": [
+      "examples[2].japanese"
+    ],
+    "09801_tsumioroshi": [
+      "notes"
+    ],
+    "09806_toriatsukai": [
+      "examples[2].japanese"
+    ],
+    "09808_kyokou": [
+      "examples[0].japanese"
+    ],
+    "09871_natsumatsuri": [
+      "notes"
+    ],
+    "09946_shitsu": [
+      "notes"
+    ],
+    "09995_senkou": [
+      "examples[2].japanese"
+    ],
+    "11708_reedaa": [
+      "notes"
+    ],
+    "12060_shikou": [
+      "notes"
+    ],
+    "12991_bungo": [
+      "notes"
+    ],
+    "13050_meigen": [
+      "examples[2].japanese"
+    ],
+    "16849_koutsugou": [
+      "notes"
+    ],
+    "18178_otemae": [
+      "notes"
+    ],
+    "21209_mukashinajimi": [
+      "notes"
+    ],
+    "21382_sasoidasu": [
+      "notes"
+    ],
+    "21496_nessen": [
+      "notes"
+    ],
+    "21668_seisou": [
+      "notes"
+    ],
+    "21676_ronkou": [
+      "notes"
+    ],
+    "21874_ikiwotsuku": [
+      "notes"
+    ],
+    "22023_zouheikyoku": [
+      "notes"
+    ],
+    "22428_youisuru": [
+      "notes"
+    ],
+    "22430_idousuru": [
+      "notes"
+    ],
+    "23474_tabouki": [
+      "notes"
+    ],
+    "23492_sanpomichi": [
+      "notes"
+    ],
+    "23840_kouhoukatsudou": [
+      "notes"
+    ],
+    "26852_kaimeisuru": [
+      "notes"
+    ]
+  },
+  "generated": "2026-09-02T02:56:13Z"
+}

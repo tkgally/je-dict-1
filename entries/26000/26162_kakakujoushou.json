@@ -3,7 +3,7 @@
   "headword": "{価格上昇|かかくじょうしょう}",
   "reading": "かかくじょうしょう",
   "romaji": "kakakujoushou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "price increase; price rise",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Composed of {価格|かかく} (price) + {上昇|じょうしょう} (rise, increase). A staple of economic reporting and business news. In recent years, discussions of {価格上昇|かかくじょうしょう} have become even more common in Japan due to inflationary pressures after decades of deflation.\n\nCOMMON COLLOCATIONS:\n- {急激|きゅうげき}な{価格上昇|かかくじょうしょう}: sharp price increase\n- {価格上昇|かかくじょうしょう}が{続|つづ}く: price increases continue\n- {価格上昇|かかくじょうしょう}を{抑|おさ}える: to curb price increases\n- {価格上昇|かかくじょうしょう}{率|りつ}: rate of price increase\n\nSIMILAR WORDS:\n- {値上|ねあ}げ: price hike — more colloquial, implies a deliberate increase by sellers\n- {物価上昇|ぶっかじょうしょう}: rise in commodity prices — focuses on general cost of living\n- インフレ: inflation — the broader economic phenomenon\n- {高騰|こうとう}: soaring, skyrocketing — implies dramatic or sudden increases",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07582_neage",
+      "reading": "ねあげ",
+      "headword": "{値上|ねあ}げ",
+      "label": "price hike"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04848_infure",
+      "reading": "いんふれ",
+      "headword": "インフレ",
+      "label": "inflation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14647_koutou",
+      "reading": "こうとう",
+      "headword": "{高騰|こうとう}",
+      "label": "soaring, skyrocketing"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +76,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "economics",
         "society"
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-29T15:32:44Z",
-    "modified": "2026-04-29T15:32:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

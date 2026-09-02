@@ -17,21 +17,27 @@
       "japanese": "{申|もう}し{訳|わけ}ありません、{品切|しなぎ}れです。",
       "english": "Sorry, it's out of stock.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09557_shinagire_ex2",
       "japanese": "その{商品|しょうひん}は{現在|げんざい}{品切|しなぎ}れ{中|ちゅう}です。",
       "english": "That product is currently out of stock.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09557_shinagire_ex3",
       "japanese": "{品切|しなぎ}れの{場合|ばあい}は{入荷|にゅうか}までお{待|ま}ちください。",
       "english": "If it's out of stock, please wait until the next shipment arrives.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{品切|しなぎ}れ indicates that an item is temporarily unavailable because the store's stock has run out. It implies the item may be restocked, unlike {売|う}り{切|き}れ which emphasizes that all items were sold.\n\nCOMPOUND: {品|しな} (goods) + {切|き}れ (run out)\n\nCOMMON COLLOCATIONS:\n- {品切|しなぎ}れ{中|ちゅう}: currently out of stock\n- {品切|しなぎ}れになる: to go out of stock\n- {品切|しなぎ}れの{場合|ばあい}: in case of being out of stock\n- {品切|しなぎ}れ{商品|しょうひん}: out-of-stock item\n\nCOMPARISON WITH {売|う}り{切|き}れ:\n- {品切|しなぎ}れ: focuses on inventory status (may be restocked)\n- {売|う}り{切|き}れ: focuses on sales result (everything was sold, often implies it won't return)\n\nUSAGE:\nCommonly seen on signs in stores and on e-commerce websites. Staff may say {品切|しなぎ}れです when apologizing to customers.",
@@ -43,16 +49,64 @@
       "note": "sold out"
     }
   ],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07688_denchigire",
+      "reading": "でんちぎれ",
+      "headword": "{電池切|でんちぎ}れ",
+      "label": "dead battery"
+    },
+    {
+      "type": "related",
+      "target_id": "08305_zaikogire",
+      "reading": "ざいこぎれ",
+      "headword": "{在庫切|ざいこぎ}れ",
+      "label": "out of stock"
+    },
+    {
+      "type": "related",
+      "target_id": "08768_sainyuuka",
+      "reading": "さいにゅうか",
+      "headword": "{再|さい}{入荷|にゅうか}",
+      "label": "restocking"
+    },
+    {
+      "type": "related",
+      "target_id": "09825_nyuukamachi",
+      "reading": "にゅうかまち",
+      "headword": "{入荷|にゅうか}{待|ま}ち",
+      "label": "waiting for stock"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18954_kanbai",
+      "reading": "かんばい",
+      "headword": "{完売|かんばい}",
+      "label": "sold out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30636_shinabusoku",
+      "reading": "しなぶそく",
+      "headword": "{品不足|しなぶそく}",
+      "label": "shortage of goods"
+    }
+  ],
   "metadata": {
     "created": "2026-02-02T10:42:48Z",
-    "modified": "2026-04-23T05:18:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

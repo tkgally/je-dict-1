@@ -78,7 +78,7 @@
       "notes": null
     }
   ],
-  "notes": "WORD STRUCTURE:\n{脆|ぜい} (brittle, fragile) + {弱|じゃく} (weak)\n\nCOMMON FORMS:\n・{脆弱|ぜいじゃく}な (na-adjective)\n・{脆弱性|ぜいじゃくせい} (vulnerability - noun with {性|せい})\n\nIT/SECURITY CONTEXT:\n・{脆弱性|ぜいじゃくせい}{診断|しんだん} - vulnerability assessment\n・{脆弱性|ぜいじゃくせい}{対策|たいさく} - vulnerability countermeasures\n・ゼロデイ{脆弱性|ぜいじゃくせい} - zero-day vulnerability\n・{脆弱性|ぜいじゃくせい}を{突|つ}く - to exploit a vulnerability\n\nOTHER CONTEXTS:\n・{脆弱|ぜいじゃく}な{基盤|きばん} - fragile foundation\n・{精神的|せいしんてき}に{脆弱|ぜいじゃく} - mentally fragile\n・{脆弱|ぜいじゃく}な{立場|たちば} - vulnerable position\n\nANTONYM:\n{堅牢|けんろう} - robust, solid",
+  "notes": "ETYMOLOGY:\n{脆|ぜい} (brittle, fragile) + {弱|じゃく} (weak)\n\nCOMMON FORMS:\n- {脆弱|ぜいじゃく}な (na-adjective)\n- {脆弱性|ぜいじゃくせい} (vulnerability - noun with {性|せい})\n\nIT/SECURITY CONTEXT:\n- {脆弱性|ぜいじゃくせい}{診断|しんだん} - vulnerability assessment\n- {脆弱性|ぜいじゃくせい}{対策|たいさく} - vulnerability countermeasures\n- ゼロデイ{脆弱性|ぜいじゃくせい} - zero-day vulnerability\n- {脆弱性|ぜいじゃくせい}を{突|つ}く - to exploit a vulnerability\n\nOTHER CONTEXTS:\n- {脆弱|ぜいじゃく}な{基盤|きばん} - fragile foundation\n- {精神的|せいしんてき}に{脆弱|ぜいじゃく} - mentally fragile\n- {脆弱|ぜいじゃく}な{立場|たちば} - vulnerable position\n\nSIMILAR WORDS:\n{堅牢|けんろう} - robust, solid",
   "cross_references": [
     {
       "type": "antonym",
@@ -86,11 +86,32 @@
       "reading": "けんろう",
       "headword": "{堅牢|けんろう}",
       "label": "robust, solid"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20209_kowareyasui",
+      "reading": "こわれやすい",
+      "headword": "{壊|こわ}れやすい",
+      "label": "fragile"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24932_saijaku",
+      "reading": "さいじゃく",
+      "headword": "{最弱|さいじゃく}",
+      "label": "weakest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26784_muboubina",
+      "reading": "むぼうびな",
+      "headword": "{無防備|むぼうび}な",
+      "label": "defenseless"
     }
   ],
   "metadata": {
     "created": "2026-01-20T08:21:30Z",
-    "modified": "2026-06-16T12:23:55Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -99,6 +120,7 @@
         "adjective-na"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "general"
       ],

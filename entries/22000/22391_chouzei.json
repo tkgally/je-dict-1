@@ -3,7 +3,7 @@
   "headword": "{徴税|ちょうぜい}",
   "reading": "ちょうぜい",
   "romaji": "chouzei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "tax collection; levying taxes",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Composed of {徴|ちょう} (to levy/collect) and {税|ぜい} (tax). An official term for the government's collection of taxes. The verb form {徴税|ちょうぜい}する is also used.\n\nCOMMON COLLOCATIONS:\n- {徴税|ちょうぜい}{業務|ぎょうむ}: tax collection duties\n- {徴税|ちょうぜい}{強化|きょうか}: strengthening tax collection\n- {徴税|ちょうぜい}コスト: cost of tax collection\n- {徴税|ちょうぜい}{権|けん}: taxing authority\n- {徴税|ちょうぜい}{吏員|りいん}: tax collection officer\n\nSIMILAR WORDS:\n- {課税|かぜい}: taxation — the act of imposing a tax, rather than collecting it\n- {納税|のうぜい}: tax payment — paying taxes (from the taxpayer's perspective)\n- {税収|ぜいしゅう}: tax revenue — the total money collected from taxes\n- {徴収|ちょうしゅう}: collection — broader term for collecting payments, fees, or dues, not limited to taxes\n\nREGISTER:\nFormal. Used in government, legal, and economic contexts.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00203_kazei",
+      "reading": "かぜい",
+      "headword": "{課税|かぜい}",
+      "label": "taxation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13806_nouzei",
+      "reading": "のうぜい",
+      "headword": "{納税|のうぜい}",
+      "label": "tax payment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14973_zeishuu",
+      "reading": "ぜいしゅう",
+      "headword": "{税収|ぜいしゅう}",
+      "label": "tax revenue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16563_choushuu",
+      "reading": "ちょうしゅう",
+      "headword": "{徴収|ちょうしゅう}",
+      "label": "collection"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T20:16:21Z",
-    "modified": "2026-04-05T20:16:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

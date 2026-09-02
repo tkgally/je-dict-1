@@ -17,7 +17,9 @@
       "id": "28634_futtobooru_ex1",
       "japanese": "アメリカでフットボールを{見|み}た。",
       "english": "I watched football in America.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28634_futtobooru_ex2",
       "japanese": "{息子|むすこ}は{大学|だいがく}でフットボールをやっている。",
       "english": "My son plays football in college.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "28634_futtobooru_ex3",
       "japanese": "アメリカンフットボールは{日本|にほん}でもファンが{増|ふ}えている。",
       "english": "American football has a growing fan base in Japan too.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "In Japanese, フットボール rarely refers to soccer — that is always called サッカー. To specify codes, Japanese normally adds the country name as a prefix.\n\nCOMMON COLLOCATIONS:\n- アメリカンフットボール: American football\n- オーストラリアンフットボール: Australian rules football\n- フットボール{選手|せんしゅ}: football player\n- フットボール{場|じょう}: football field\n\nSIMILAR WORDS:\n- サッカー: soccer — the standard word; never replaced by フットボール in everyday Japanese\n- ラグビー: rugby — a separate code, not normally subsumed under フットボール",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04726_sakkaa",
+      "reading": "さっかー",
+      "headword": "サッカー",
+      "label": "soccer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports"],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-06-03T03:08:07Z",
-    "modified": "2026-06-03T03:08:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

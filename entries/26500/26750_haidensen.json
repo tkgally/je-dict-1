@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {配電|はいでん} (power distribution) and {線|せん} (line, wire). In the electrical grid, power flows from generators through {送電線|そうでんせん} (transmission lines) to substations, then through {配電線|はいでんせん} (distribution lines) to end users. The distribution lines are the ones most visible in daily life, running along {電柱|でんちゅう} (utility poles).\n\nCOMMON COLLOCATIONS:\n- {配電線|はいでんせん}の{修理|しゅうり}: repair of distribution lines\n- {配電線|はいでんせん}の{地中化|ちちゅうか}: undergrounding of distribution lines\n- {配電線|はいでんせん}が{断線|だんせん}する: a distribution line breaks\n- {高圧|こうあつ}{配電線|はいでんせん}: high-voltage distribution line\n\nRELATED TERMS:\n- {送電線|そうでんせん}: transmission line — the high-voltage lines that carry power over long distances\n- {電線|でんせん}: electrical wire — the general term for any electrical cable\n- {電柱|でんちゅう}: utility pole — the poles that support distribution lines",
-  "cross_references": [],
+  "notes": "A compound of {配電|はいでん} (power distribution) and {線|せん} (line, wire). In the electrical grid, power flows from generators through {送電線|そうでんせん} (transmission lines) to substations, then through {配電線|はいでんせん} (distribution lines) to end users. The distribution lines are the ones most visible in daily life, running along {電柱|でんちゅう} (utility poles).\n\nCOMMON COLLOCATIONS:\n- {配電線|はいでんせん}の{修理|しゅうり}: repair of distribution lines\n- {配電線|はいでんせん}の{地中化|ちちゅうか}: undergrounding of distribution lines\n- {配電線|はいでんせん}が{断線|だんせん}する: a distribution line breaks\n- {高圧|こうあつ}{配電線|はいでんせん}: high-voltage distribution line\n\nRELATED WORDS:\n- {送電線|そうでんせん}: transmission line — the high-voltage lines that carry power over long distances\n- {電線|でんせん}: electrical wire — the general term for any electrical cable\n- {電柱|でんちゅう}: utility pole — the poles that support distribution lines",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09776_soudensen",
+      "reading": "そうでんせん",
+      "headword": "{送電線|そうでんせん}",
+      "label": "transmission line"
+    },
+    {
+      "type": "related",
+      "target_id": "17913_denchuu",
+      "reading": "でんちゅう",
+      "headword": "{電柱|でんちゅう}",
+      "label": "utility pole"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,6 +78,6 @@
       ]
     },
     "created": "2026-05-04T15:35:04Z",
-    "modified": "2026-08-06T12:46:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

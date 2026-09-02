@@ -3,7 +3,7 @@
   "headword": "{脅|おど}す",
   "reading": "おどす",
   "romaji": "odosu",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to threaten; to intimidate; to menace",
   "definitions": [
     {
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A godan verb conjugating with the す row ({脅|おど}す → {脅|おど}して → {脅|おど}した). This is the more colloquial word for threatening, compared to the formal {脅迫|きょうはく}する.\n\nTRANSITIVITY:\n- Type: Transitive ({他動詞|たどうし})\n- No standard intransitive pair\n- Pattern: XがYを{脅|おど}す\n\nASPECT:\n- Type: Atelic (ongoing action)\n- {脅|おど}している = is threatening / is in the process of threatening\n\nPARTICLE PATTERNS:\n- Xを{脅|おど}す: to threaten X (the person being threatened)\n- Xで{脅|おど}す: to threaten with X (the weapon or means used)\n- ～と{脅|おど}す: to threaten that... (content of the threat)\n\nCOMMON COLLOCATIONS:\n- ナイフで{脅|おど}す: to threaten with a knife\n- {金|かね}を{出|だ}せと{脅|おど}す: to threaten someone to hand over money\n- {殺|ころ}すと{脅|おど}す: to threaten to kill\n- {脅|おど}して{金|かね}を{奪|うば}う: to take money by intimidation\n\nSIMILAR WORDS:\n- {脅|おびや}かす: to threaten; to endanger — focuses more on creating a sense of danger or insecurity; more literary\n- {脅迫|きょうはく}する: to threaten; to coerce — the formal/legal term for making threats\n- {威嚇|いかく}する: to intimidate; to menace — emphasizes a display of power to frighten\n- {恐喝|きょうかつ}する: to blackmail; to extort — specifically involves demanding money through threats",
+  "notes": "A godan verb conjugating with the す row ({脅|おど}す → {脅|おど}して → {脅|おど}した). This is the more colloquial word for threatening, compared to the formal {脅迫|きょうはく}する.\n\nTRANSITIVITY:\n- Type: Transitive ({他動詞|たどうし})\n- No standard intransitive pair\n- Pattern: XがYを{脅|おど}す\n\nASPECT (ている):\n- Type: Atelic (ongoing action)\n- {脅|おど}している = is threatening / is in the process of threatening\n\nCOMMON PATTERNS:\n- Xを{脅|おど}す: to threaten X (the person being threatened)\n- Xで{脅|おど}す: to threaten with X (the weapon or means used)\n- ～と{脅|おど}す: to threaten that... (content of the threat)\n\nCOMMON COLLOCATIONS:\n- ナイフで{脅|おど}す: to threaten with a knife\n- {金|かね}を{出|だ}せと{脅|おど}す: to threaten someone to hand over money\n- {殺|ころ}すと{脅|おど}す: to threaten to kill\n- {脅|おど}して{金|かね}を{奪|うば}う: to take money by intimidation\n\nSIMILAR WORDS:\n- {脅|おびや}かす: to threaten; to endanger — focuses more on creating a sense of danger or insecurity; more literary\n- {脅迫|きょうはく}する: to threaten; to coerce — the formal/legal term for making threats\n- {威嚇|いかく}する: to intimidate; to menace — emphasizes a display of power to frighten\n- {恐喝|きょうかつ}する: to blackmail; to extort — specifically involves demanding money through threats",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13942_obiyakasu",
+      "reading": "おびやかす",
+      "headword": "{脅|おびや}かす",
+      "label": "to threaten"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27205_kyouhaku",
+      "reading": "きょうはく",
+      "headword": "{脅迫|きょうはく}",
+      "label": "to threaten"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09164_ikaku",
+      "reading": "いかく",
+      "headword": "{威嚇|いかく}",
+      "label": "to intimidate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27210_kyoukatsu",
+      "reading": "きょうかつ",
+      "headword": "{恐喝|きょうかつ}",
+      "label": "to blackmail"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +92,7 @@
       "domain": []
     },
     "created": "2026-05-07T16:09:47Z",
-    "modified": "2026-08-07T06:31:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

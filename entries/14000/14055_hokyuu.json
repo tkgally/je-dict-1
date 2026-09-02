@@ -3,7 +3,7 @@
   "id": "14055_hokyuu",
   "headword": "{補給|ほきゅう}",
   "reading": "ほきゅう",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "supply, replenishment",
   "conjugation": {
     "type": "suru",
@@ -142,11 +142,32 @@
       "reading": "ほじゅう",
       "headword": "{補充|ほじゅう}",
       "label": "replenishment (personnel, stock)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02599_kyoukyuu",
+      "reading": "きょうきゅう",
+      "headword": "{供給|きょうきゅう}",
+      "label": "supply, provision"
+    },
+    {
+      "type": "related",
+      "target_id": "07863_busshi",
+      "reading": "ぶっし",
+      "headword": "{物資|ぶっし}",
+      "label": "goods"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25240_hojuusuru",
+      "reading": "ほじゅうする",
+      "headword": "{補充|ほじゅう}する",
+      "label": "to replenish"
     }
   ],
   "metadata": {
     "created": "2026-02-27T10:17:55Z",
-    "modified": "2026-07-15T09:17:48Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

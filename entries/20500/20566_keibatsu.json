@@ -17,7 +17,9 @@
       "id": "20566_keibatsu_ex1",
       "japanese": "{厳|きび}しい{刑罰|けいばつ}が{科|か}される。",
       "english": "A severe punishment is imposed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20566_keibatsu_ex2",
       "japanese": "{刑罰|けいばつ}の{目的|もくてき}は{犯罪|はんざい}の{抑止|よくし}だ。",
       "english": "The purpose of criminal punishment is the deterrence of crime.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "20566_keibatsu_ex3",
       "japanese": "この{国|くに}では{薬物|やくぶつ}{犯罪|はんざい}に{対|たい}する{刑罰|けいばつ}が{非常|ひじょう}に{重|おも}い。",
       "english": "In this country, criminal punishments for drug offenses are extremely heavy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -46,18 +52,50 @@
       "reading": "ばつ",
       "headword": "{罰|ばつ}",
       "label": "punishment (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21006_shobatsu",
+      "reading": "しょばつ",
+      "headword": "{処罰|しょばつ}",
+      "label": "punishment, penalization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27147_bassoku",
+      "reading": "ばっそく",
+      "headword": "{罰則|ばっそく}",
+      "label": "penal provisions"
+    },
+    {
+      "type": "related",
+      "target_id": "02401_bassuru",
+      "reading": "ばっする",
+      "headword": "{罰|ばっ}する",
+      "label": "to punish, to penalize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25820_keijisekinin",
+      "reading": "けいじせきにん",
+      "headword": "{刑事責任|けいじせきにん}",
+      "label": "criminal liability"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["law"]
+      "semantic": [
+        "law"
+      ]
     },
     "created": "2026-03-29T18:10:57Z",
-    "modified": "2026-03-29T18:10:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

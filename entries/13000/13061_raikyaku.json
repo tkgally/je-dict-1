@@ -19,7 +19,9 @@
       "english": "I'm preparing because we have a visitor coming.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13061_raikyaku_ex2",
@@ -27,7 +29,9 @@
       "english": "I showed the visitor to the reception room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13061_raikyaku_ex3",
@@ -35,21 +39,56 @@
       "english": "There were many visitors today, and I was busy dealing with them all day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{来客|らいきゃく} is used in somewhat formal contexts, particularly in business settings and written language. In everyday conversation, お{客|きゃく}さん or お{客|きゃく}さま is more natural.\n\nCOMMON COLLOCATIONS:\n- {来客|らいきゃく}がある: to have a visitor\n- {来客|らいきゃく}{対応|たいおう}: attending to visitors\n- {来客|らいきゃく}{中|ちゅう}: with a visitor (at the moment)\n- {来客|らいきゃく}を{迎|むか}える: to welcome a visitor\n- {来客|らいきゃく}{用|よう}: for guests/visitors",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10253_okyakusan",
+      "reading": "おきゃくさん",
+      "headword": "お{客|きゃく}さん",
+      "label": "guest, customer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20148_houmonsha",
+      "reading": "ほうもんしゃ",
+      "headword": "{訪問者|ほうもんしゃ}",
+      "label": "visitor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23599_nyuujousha",
+      "reading": "にゅうじょうしゃ",
+      "headword": "{入場者|にゅうじょうしゃ}",
+      "label": "attendee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24478_raihousha",
+      "reading": "らいほうしゃ",
+      "headword": "{来訪|らいほう}{者|しゃ}",
+      "label": "visitor"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T10:07:13Z",
-    "modified": "2026-02-23T10:07:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

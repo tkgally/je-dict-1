@@ -19,7 +19,9 @@
       "english": "He implicitly expressed his opposition.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12974_anni_ex2",
@@ -27,7 +29,9 @@
       "english": "That remark was an implicit call for resignation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12974_anni_ex3",
@@ -35,22 +39,52 @@
       "english": "I realized my boss was implicitly telling me to put in more effort.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal adverb derived from {暗|あん} (dark, hidden). Used in written and semi-formal contexts. Modifies verbs of communication or expression: {暗|あん}に{示|しめ}す (to imply), {暗|あん}に{伝|つた}える (to convey indirectly), {暗|あん}に{求|もと}める (to implicitly demand).\n\nCOMMON COLLOCATIONS:\n- {暗|あん}に{示|しめ}す: to imply, to suggest indirectly\n- {暗|あん}に{批判|ひはん}する: to criticize implicitly\n- {暗|あん}に{認|みと}める: to tacitly acknowledge\n\nSIMILAR WORDS:\n- それとなく: indirectly, casually (softer, more conversational)\n- {暗黙|あんもく}の: tacit, unspoken (adjective)\n- {遠回|とおまわ}しに: in a roundabout way",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08510_soretonaku",
+      "reading": "それとなく",
+      "headword": "それとなく",
+      "label": "indirectly, casually"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19087_toomawashini",
+      "reading": "とおまわしに",
+      "headword": "{遠回|とおまわ}しに",
+      "label": "in a roundabout way"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12876_anmoku",
+      "reading": "あんもく",
+      "headword": "{暗黙|あんもく}",
+      "label": "tacit, implicit, unspoken"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T23:45:40Z",
-    "modified": "2026-02-22T23:45:40Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["communication"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

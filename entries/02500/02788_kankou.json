@@ -2,7 +2,7 @@
   "id": "02788_kankou",
   "headword": "{刊行|かんこう}",
   "reading": "かんこう",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "publication, publishing",
   "conjugation": {
     "type": "suru",
@@ -151,11 +151,25 @@
       "reading": "しゅっぱん",
       "headword": "{出版|しゅっぱん}",
       "label": "publishing (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03693_hakkou",
+      "reading": "はっこう",
+      "headword": "{発行|はっこう}",
+      "label": "issue, publication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22925_hakkan",
+      "reading": "はっかん",
+      "headword": "{発刊|はっかん}",
+      "label": "launching a publication"
     }
   ],
   "metadata": {
     "created": "2026-01-11T08:20:00Z",
-    "modified": "2026-07-29T21:21:40Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{繰|く}る",
   "reading": "くる",
   "romaji": "kuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to reel in; to turn (pages); to count off one by one",
   "definitions": [
     {
@@ -56,6 +56,15 @@
   ],
   "notes": "A somewhat literary godan verb. Note that it is a homophone of {来|く}る (to come) in the dictionary form only — the conjugations differ completely ({繰|く}らない vs {来|こ}ない).\n\nTRANSITIVITY:\nTransitive; the thing handled takes を: ページを{繰|く}る, {糸|いと}を{繰|く}る.\n\nCOMMON COLLOCATIONS:\n- ページを{繰|く}る: to turn the pages\n- {辞書|じしょ}を{繰|く}る: to leaf through a dictionary\n- {糸|いと}を{繰|く}る: to reel thread\n- {日|ひ}を{繰|く}る: to count off the days\n\nSIMILAR WORDS:\n- めくる: to turn over, to flip — the everyday word for turning pages; {繰|く}る sounds more bookish\n- {手繰|たぐ}る: to pull in hand over hand — keeps only the rope-pulling sense, and is used figuratively of tracing memories",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02310_mekuru",
+      "reading": "めくる",
+      "headword": "{捲|めく}る",
+      "label": "to turn over, to flip"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +73,7 @@
       ],
       "transitivity": "transitive",
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "movement",
         "action"
@@ -73,7 +82,7 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-08-22T12:17:21Z",
-    "modified": "2026-08-22T12:17:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

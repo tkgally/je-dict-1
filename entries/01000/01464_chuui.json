@@ -2,7 +2,7 @@
   "id": "01464_chuui",
   "headword": "{注意|ちゅうい}",
   "reading": "ちゅうい",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "attention, caution",
   "conjugation": {
     "type": "suru",
@@ -168,11 +168,40 @@
       ]
     }
   ],
-  "notes": "{注意|ちゅうい} has two main uses: paying attention to something, or warning/cautioning someone.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- No standard transitive pair\n- Pattern: {注意|ちゅうい}する\n\nCOMMON PATTERNS:\n- 〜⟦に→に：00314_ni⟧{注意|ちゅうい}する: to pay attention to, watch out for\n- 〜⟦を→を：00422_wo⟧{注意|ちゅうい}する: to warn/scold someone\n- {注意|ちゅうい}して〜: to do something carefully\n\nPOLITE FORMS:\n- ご{注意|ちゅうい}⟦ください→ください：02899_kudasai⟧: please be careful\n- お⟦{気|き}をつけ→気をつける：09771_kiwotsukeru⟧⟦ください→ください：02899_kudasai⟧: please take care (similar)\n\nCOMMON COLLOCATIONS:\n- {注意|ちゅうい}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧: to pay attention\n- {注意|ちゅうい}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧: to attract attention\n- {注意|ちゅうい}⟦{事項|じこう}→事項：11469_jikou⟧: precautions, notes",
-  "cross_references": [],
+  "notes": "{注意|ちゅうい} has two main uses: paying attention to something, or warning/cautioning someone.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- No standard transitive pair\n- Pattern: {注意|ちゅうい}する\n\nCOMMON PATTERNS:\n- 〜⟦に→に：00314_ni⟧{注意|ちゅうい}する: to pay attention to, watch out for\n- 〜⟦を→を：00422_wo⟧{注意|ちゅうい}する: to warn/scold someone\n- {注意|ちゅうい}して〜: to do something carefully\n\nKEIGO:\n- ご{注意|ちゅうい}⟦ください→ください：02899_kudasai⟧: please be careful\n- お⟦{気|き}をつけ→気をつける：09771_kiwotsukeru⟧⟦ください→ください：02899_kudasai⟧: please take care (similar)\n\nCOMMON COLLOCATIONS:\n- {注意|ちゅうい}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧: to pay attention\n- {注意|ちゅうい}⟦を→を：00422_wo⟧⟦{引|ひ}く→引く：01978_hiku⟧: to attract attention\n- {注意|ちゅうい}⟦{事項|じこう}→事項：11469_jikou⟧: precautions, notes",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05462_chuukoku",
+      "reading": "ちゅうこく",
+      "headword": "{忠告|ちゅうこく}",
+      "label": "advice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23199_tashinameru",
+      "reading": "たしなめる",
+      "headword": "{窘|たしな}める",
+      "label": "to admonish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24432_kunkoku",
+      "reading": "くんこく",
+      "headword": "{訓告|くんこく}",
+      "label": "official reprimand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25375_keikaisuru",
+      "reading": "けいかいする",
+      "headword": "{警戒|けいかい}する",
+      "label": "to be on guard"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:39:36Z",
-    "modified": "2026-04-10T06:54:14Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

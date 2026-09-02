@@ -19,7 +19,9 @@
       "english": "Please show your boarding pass.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17977_toujouken_ex2",
@@ -27,7 +29,9 @@
       "english": "I received my boarding pass at the check-in counter.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17977_toujouken_ex3",
@@ -35,7 +39,9 @@
       "english": "Nowadays you can download your boarding pass to your smartphone, so a paper boarding pass isn't necessary.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed specifically for airplane boarding passes. For trains, {乗車券|じょうしゃけん} (train ticket) is used instead.\n\nCOMMON COLLOCATIONS:\n- {搭乗券|とうじょうけん}を{発行|はっこう}する (issue a boarding pass)\n- {搭乗券|とうじょうけん}を{提示|ていじ}する (present a boarding pass)\n- モバイル{搭乗券|とうじょうけん} (mobile boarding pass)\n- {搭乗券|とうじょうけん}の{確認|かくにん} (boarding pass verification)\n\nSIMILAR WORDS:\n- {乗車券|じょうしゃけん}: train/bus ticket\n- {航空券|こうくうけん}: airline ticket — the ticket you purchase, as opposed to the boarding pass issued at check-in\n- ボーディングパス: boarding pass — the English loanword, also used",
@@ -46,18 +52,43 @@
       "reading": "じょうしゃけん",
       "headword": "{乗車券|じょうしゃけん}",
       "label": "train/bus ticket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19426_koukuuken",
+      "reading": "こうくうけん",
+      "headword": "{航空券|こうくうけん}",
+      "label": "airline ticket"
+    },
+    {
+      "type": "related",
+      "target_id": "00629_hikouki",
+      "reading": "ひこうき",
+      "headword": "{飛行機|ひこうき}",
+      "label": "airplane"
+    },
+    {
+      "type": "related",
+      "target_id": "09927_toujouguchi",
+      "reading": "とうじょうぐち",
+      "headword": "{搭乗口|とうじょうぐち}",
+      "label": "boarding gate"
     }
   ],
   "metadata": {
     "created": "2026-03-19T10:08:37Z",
-    "modified": "2026-05-07T10:07:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     }
   }
 }

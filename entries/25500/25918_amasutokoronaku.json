@@ -3,7 +3,7 @@
   "headword": "{余|あま}すところなく",
   "reading": "あますところなく",
   "romaji": "amasutokoronaku",
-  "part_of_speech": "expression",
+  "part_of_speech": "expression, adverb",
   "gloss": "completely; without omission; in full; leaving nothing out",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Literally \"leaving no remainder,\" from {余|あま}す (to leave over) + ところ (aspect; part) + なく (without). A somewhat literary adverbial expression that emphasizes thoroughness and completeness. Often used in written or formal speech.\n\nCOMMON COLLOCATIONS:\n- {才能|さいのう}を{余|あま}すところなく{発揮|はっき}する: to demonstrate one's talent fully\n- {魅力|みりょく}を{余|あま}すところなく{伝|つた}える: to convey the appeal completely\n- {余|あま}すところなく{紹介|しょうかい}する: to introduce in full\n- {力|ちから}を{余|あま}すところなく{出|だ}す: to put out all one's strength\n\nSIMILAR WORDS:\n- {残|のこ}らず: without exception; all of them — focuses on not leaving any items behind\n- {十分|じゅうぶん}に: sufficiently; fully — less emphatic, more everyday\n- くまなく: thoroughly; in every corner — emphasizes searching or covering every area",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06954_nokorazu",
+      "reading": "のこらず",
+      "headword": "{残|のこ}らず",
+      "label": "without exception"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27258_juubunni",
+      "reading": "じゅうぶんに",
+      "headword": "{十分|じゅうぶん}に",
+      "label": "sufficiently"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10332_kumanaku",
+      "reading": "くまなく",
+      "headword": "くまなく",
+      "label": "thoroughly"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,11 +76,12 @@
         "expression",
         "adverb"
       ],
+      "politeness": "plain",
       "semantic": [
         "quantity"
       ]
     },
     "created": "2026-04-28T12:24:19Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

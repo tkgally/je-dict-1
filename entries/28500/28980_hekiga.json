@@ -17,7 +17,9 @@
       "id": "28980_hekiga_ex1",
       "japanese": "{古代|こだい}の{壁画|へきが}を{見学|けんがく}した。",
       "english": "I visited some ancient wall paintings.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28980_hekiga_ex2",
       "japanese": "この{寺|てら}の{壁画|へきが}は{江戸時代|えどじだい}に{描|えが}かれた。",
       "english": "The murals in this temple were painted in the Edo period.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "28980_hekiga_ex3",
       "japanese": "{若手|わかて}アーティストが{駅前|えきまえ}のビルに{巨大|きょだい}な{壁画|へきが}を{描|か}いている。",
       "english": "Young artists are painting a giant mural on the building in front of the station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {壁|かべ} (wall) + {画|が} (picture). Covers everything from prehistoric cave paintings to modern street art.\n\nCOMMON COLLOCATIONS:\n- {壁画|へきが}を{描|えが}く: to paint a mural\n- {古代|こだい}の{壁画|へきが}: ancient wall painting\n- {壁画|へきが}を{修復|しゅうふく}する: to restore a mural\n- {寺|てら}の{壁画|へきが}: temple mural\n\nSIMILAR WORDS:\n- {絵画|かいが}: painting — general term for paintings on any surface, especially canvas\n- {天井画|てんじょうが}: ceiling painting — painting on a ceiling rather than a wall",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02597_kaiga",
+      "reading": "かいが",
+      "headword": "{絵画|かいが}",
+      "label": "painting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["art"],
+      "politeness": "plain",
+      "semantic": [
+        "art"
+      ],
       "domain": []
     },
     "created": "2026-06-08T07:55:39Z",
-    "modified": "2026-06-08T07:55:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

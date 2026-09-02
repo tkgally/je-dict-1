@@ -19,7 +19,9 @@
       "english": "I took the bullet train on the way there.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18214_ouro_ex2",
@@ -27,7 +29,9 @@
       "english": "The outward journey took three hours because of traffic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18214_ouro_ex3",
@@ -35,7 +39,9 @@
       "english": "The Hakone Ekiden relay race is contested over five legs on the outbound course and five legs on the return.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nThe counterpart of {復路|ふくろ} (return journey). Together they form the pair {往路|おうろ}/{復路|ふくろ}, similar to {往復|おうふく} (round trip). Common in transportation schedules and sports commentary, especially the {箱根駅伝|はこねえきでん} (Hakone Ekiden relay race).\n\nCOMMON COLLOCATIONS:\n- {往路|おうろ}と{復路|ふくろ} (the outward and return journeys)\n- {往路|おうろ}{優勝|ゆうしょう} (winning the outbound leg)\n- {往路|おうろ}の{便|びん} (the outbound flight/service)\n\nSIMILAR WORDS:\n- {復路|ふくろ}: return journey — the trip back from the destination\n- {行|い}き: the way there — the everyday, informal equivalent",
@@ -60,18 +66,30 @@
       "reading": "おうふく",
       "headword": "{往復|おうふく}",
       "label": "round trip"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16824_ikimichi",
+      "reading": "いきみち",
+      "headword": "{行|い}き{道|みち}",
+      "label": "the way there"
     }
   ],
   "metadata": {
     "created": "2026-03-20T12:19:48Z",
-    "modified": "2026-05-08T08:12:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["travel", "transportation"]
+      "semantic": [
+        "travel",
+        "transportation"
+      ]
     }
   }
 }

@@ -19,7 +19,9 @@
       "english": "A strong cold wave is coming.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12354_kanpa_ex2",
@@ -27,7 +29,9 @@
       "english": "The water pipes froze due to the cold wave.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12354_kanpa_ex3",
@@ -35,21 +39,56 @@
       "english": "This year brought a once-in-several-years major cold wave, with record-breaking heavy snowfall across the country.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{寒波|かんぱ} is a standard meteorological term used frequently in weather forecasts and news during winter. It describes a large-scale inflow of cold air, typically from Siberia in the case of Japan.\n\nCOLLOCATIONS:\n- {大|おお}{寒波|かんぱ} — major cold wave\n- {寒波|かんぱ}が{来|く}る／{襲|おそ}う — a cold wave arrives/hits\n- {寒波|かんぱ}の{影響|えいきょう}で — due to the cold wave\n- {記録的|きろくてき}な{寒波|かんぱ} — record-breaking cold wave\n\nNOTE:\nThe opposite phenomenon is {熱波|ねっぱ} (heat wave).",
-  "cross_references": [],
+  "notes": "USAGE:\n{寒波|かんぱ} is a standard meteorological term used frequently in weather forecasts and news during winter. It describes a large-scale inflow of cold air, typically from Siberia in the case of Japan.\nThe opposite phenomenon is {熱波|ねっぱ} (heat wave).\n\nCOMMON COLLOCATIONS:\n- {大|おお}{寒波|かんぱ} — major cold wave\n- {寒波|かんぱ}が{来|く}る／{襲|おそ}う — a cold wave arrives/hits\n- {寒波|かんぱ}の{影響|えいきょう}で — due to the cold wave\n- {記録的|きろくてき}な{寒波|かんぱ} — record-breaking cold wave",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19794_neppa",
+      "reading": "ねっぱ",
+      "headword": "{熱波|ねっぱ}",
+      "label": "heat wave"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20655_genkan",
+      "reading": "げんかん",
+      "headword": "{厳寒|げんかん}",
+      "label": "severe cold"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21345_gokkan",
+      "reading": "ごっかん",
+      "headword": "{極寒|ごっかん}",
+      "label": "extreme cold"
+    },
+    {
+      "type": "antonym",
+      "target_id": "23642_danpa",
+      "reading": "だんぱ",
+      "headword": "{暖波|だんぱ}",
+      "label": "warm spell"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T05:23:15Z",
-    "modified": "2026-02-21T05:23:15Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     }
   }
 }

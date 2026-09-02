@@ -17,7 +17,9 @@
       "id": "24959_taishinkyoudo_ex1",
       "japanese": "この{建物|たてもの}の{耐震強度|たいしんきょうど}は{十分|じゅうぶん}だ。",
       "english": "This building's seismic strength is sufficient.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24959_taishinkyoudo_ex2",
       "japanese": "{古|ふる}いマンションの{耐震強度|たいしんきょうど}が{心配|しんぱい}だ。",
       "english": "I'm worried about the seismic strength of the old apartment building.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,40 @@
       "id": "24959_taishinkyoudo_ex3",
       "japanese": "2005{年|ねん}に{発覚|はっかく}した{耐震強度|たいしんきょうど}{偽装|ぎそう}{事件|じけん}をきっかけに、{建築|けんちく}{基準|きじゅん}の{見直|みなお}しが{進|すす}んだ。",
       "english": "Following the seismic strength falsification scandal that came to light in 2005, building standards were reviewed and tightened.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {耐震|たいしん} (earthquake resistance) and {強度|きょうど} (strength; intensity). This term gained widespread public awareness after the 2005 {耐震強度偽装問題|たいしんきょうどぎそうもんだい} (Aneha scandal), in which a structural engineer was found to have falsified earthquake resistance data for numerous buildings.\n\nCOMMON COLLOCATIONS:\n- {耐震強度|たいしんきょうど}が{不足|ふそく}する: to lack seismic strength\n- {耐震強度|たいしんきょうど}を{調|しら}べる: to check seismic strength\n- {耐震強度|たいしんきょうど}{偽装|ぎそう}: falsification of seismic strength data\n- {耐震強度|たいしんきょうど}の{基準|きじゅん}: seismic strength standards\n\nSIMILAR WORDS:\n- {耐震設計|たいしんせっけい}: earthquake-resistant design (the design approach)\n- {耐震性|たいしんせい}: earthquake resistance (the general property)\n- {耐震等級|たいしんとうきゅう}: seismic resistance grade (the rating scale used in Japan, from 1 to 3)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24940_taishinsekkei",
+      "reading": "たいしんせっけい",
+      "headword": "{耐震設計|たいしんせっけい}",
+      "label": "earthquake-resistant design"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"],
-      "domain": ["technical"]
+      "semantic": [
+        "building"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-04-21T14:28:15Z",
-    "modified": "2026-04-21T14:28:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -1,73 +1,80 @@
 {
- "schema_version": "2.0",
- "id": "14309_gouon",
- "headword": "{轟音|ごうおん}",
- "reading": "ごうおん",
- "part_of_speech": "noun",
- "gloss": "roar; thunderous sound; rumble",
- "definitions": [
-  {
-   "sense_number": 1,
-   "gloss": "roar; thunderous sound; rumble",
-   "explanation": "A very loud, deep, reverberating sound, such as that of engines, explosions, or thunder."
+  "schema_version": "2.0",
+  "id": "14309_gouon",
+  "headword": "{轟音|ごうおん}",
+  "reading": "ごうおん",
+  "part_of_speech": "noun",
+  "gloss": "roar; thunderous sound; rumble",
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "roar; thunderous sound; rumble",
+      "explanation": "A very loud, deep, reverberating sound, such as that of engines, explosions, or thunder."
+    }
+  ],
+  "examples": [
+    {
+      "id": "14309_gouon_ex1",
+      "japanese": "{轟音|ごうおん}が{響|ひび}いた。",
+      "english": "A thunderous roar echoed.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "14309_gouon_ex2",
+      "japanese": "{飛行機|ひこうき}の{轟音|ごうおん}で{会話|かいわ}が{聞|き}こえなかった。",
+      "english": "The roar of the airplane drowned out the conversation.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "14309_gouon_ex3",
+      "japanese": "{爆発|ばくはつ}の{轟音|ごうおん}とともに{建物|たてもの}の{窓|まど}ガラスが{割|わ}れた。",
+      "english": "The windowpanes of the building shattered with the thunderous sound of the explosion.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "Describes an extremely loud, deep sound that can be felt physically. Stronger and more dramatic than {騒音|そうおん} (noise), which focuses on unwantedness rather than volume.\n\nCOMMON COLLOCATIONS:\n- {轟音|ごうおん}が{響|ひび}く (a roar reverberates)\n- {轟音|ごうおん}を{立|た}てる (make a thunderous sound)\n- {轟音|ごうおん}とともに (with a roar)\n- すさまじい{轟音|ごうおん} (a tremendous roar)\n\nOften appears in literary and journalistic writing to convey dramatic impact. The kanji {轟|とどろ}く means \"to roar\" or \"to rumble.\"",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03315_souon",
+      "reading": "そうおん",
+      "headword": "{騒音|そうおん}",
+      "label": "noise (unwanted)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25906_daionkyou",
+      "reading": "だいおんきょう",
+      "headword": "{大|だい}{音響|おんきょう}",
+      "label": "loud sound"
+    }
+  ],
+  "metadata": {
+    "created": "2026-02-28T10:58:30Z",
+    "modified": "2026-09-02T03:02:30Z",
+    "ai_model": "claude-opus-4-6",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "general"
+      ]
+    }
   }
- ],
- "examples": [
-  {
-   "id": "14309_gouon_ex1",
-   "japanese": "{轟音|ごうおん}が{響|ひび}いた。",
-   "english": "A thunderous roar echoed.",
-   "notes": null,
-   "has_audio": false,
-   "sense_numbers": [
-    1
-   ]
-  },
-  {
-   "id": "14309_gouon_ex2",
-   "japanese": "{飛行機|ひこうき}の{轟音|ごうおん}で{会話|かいわ}が{聞|き}こえなかった。",
-   "english": "The roar of the airplane drowned out the conversation.",
-   "notes": null,
-   "has_audio": false,
-   "sense_numbers": [
-    1
-   ]
-  },
-  {
-   "id": "14309_gouon_ex3",
-   "japanese": "{爆発|ばくはつ}の{轟音|ごうおん}とともに{建物|たてもの}の{窓|まど}ガラスが{割|わ}れた。",
-   "english": "The windowpanes of the building shattered with the thunderous sound of the explosion.",
-   "notes": null,
-   "has_audio": false,
-   "sense_numbers": [
-    1
-   ]
-  }
- ],
- "notes": "Describes an extremely loud, deep sound that can be felt physically. Stronger and more dramatic than {騒音|そうおん} (noise), which focuses on unwantedness rather than volume.\n\nCOMMON COLLOCATIONS:\n- {轟音|ごうおん}が{響|ひび}く (a roar reverberates)\n- {轟音|ごうおん}を{立|た}てる (make a thunderous sound)\n- {轟音|ごうおん}とともに (with a roar)\n- すさまじい{轟音|ごうおん} (a tremendous roar)\n\nOften appears in literary and journalistic writing to convey dramatic impact. The kanji {轟|とどろ}く means \"to roar\" or \"to rumble.\"",
- "cross_references": [
-  {
-   "type": "contrast",
-   "target_id": "03315_souon",
-   "reading": "そうおん",
-   "headword": "{騒音|そうおん}",
-   "label": "noise (unwanted)"
-  }
- ],
- "metadata": {
-  "created": "2026-02-28T10:58:30Z",
-  "modified": "2026-07-13T16:04:21Z",
-  "ai_model": "claude-opus-4-6",
-  "vocabulary_tier": "general",
-  "tags": {
-   "pos": [
-    "noun"
-   ],
-   "formality": "neutral",
-   "politeness": "plain",
-   "semantic": [
-    "general"
-   ]
-  }
- }
 }

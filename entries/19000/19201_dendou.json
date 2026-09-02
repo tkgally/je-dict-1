@@ -3,7 +3,7 @@
   "headword": "{伝道|でんどう}",
   "reading": "でんどう",
   "romaji": "dendou",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "evangelism; missionary work; spreading a teaching",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,15 @@
   ],
   "notes": "Composed of {伝|でん} (transmit, convey) + {道|どう} (way, path, teaching). Originally a religious term, now also used figuratively for anyone who passionately promotes something. Common collocations: {伝道|でんどう}する (to evangelize), {伝道師|でんどうし} (evangelist; also used figuratively), {伝道|でんどう}{活動|かつどう} (missionary activity). Not to be confused with the homophones {電動|でんどう} (electric-powered) or {殿堂|でんどう} (hall of fame). Related: {宣教|せんきょう} (mission, propagation of religion) is a near-synonym but more specifically religious, while {伝道|でんどう} extends more easily to figurative use.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15286_fukyou",
+      "reading": "ふきょう",
+      "headword": "{布教|ふきょう}",
+      "label": "proselytizing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -145,10 +154,12 @@
       ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["religion"],
+      "semantic": [
+        "religion"
+      ],
       "verb_class": "suru"
     },
     "created": "2026-03-24T14:01:31Z",
-    "modified": "2026-07-26T21:32:58Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{期待外|きたいはず}れ",
   "reading": "きたいはずれ",
   "romaji": "kitaihazure",
-  "part_of_speech": "noun, adjective-no",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "disappointment; letdown; falling short of expectations",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "23139_kitaihazure_ex1",
       "japanese": "{映画|えいが}は{期待外|きたいはず}れだった。",
       "english": "The movie was a disappointment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23139_kitaihazure_ex2",
       "japanese": "{試験|しけん}の{結果|けっか}が{期待外|きたいはず}れで{落|お}ち{込|こ}んだ。",
       "english": "I was depressed because the exam results were a letdown.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,66 @@
       "id": "23139_kitaihazure_ex3",
       "japanese": "{期待外|きたいはず}れの{結果|けっか}に{終|お}わったが、{次|つぎ}に{向|む}けて{頑張|がんば}りたい。",
       "english": "It ended in a disappointing result, but I want to try harder for next time.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {期待|きたい} (expectation) and {外|はず}れ (miss, deviation). Expresses the gap between what was anticipated and the actual outcome. Very commonly used in everyday conversation, reviews, and news reporting.\n\nCOMMON COLLOCATIONS:\n- {期待外|きたいはず}れの{結果|けっか}: disappointing result\n- {期待外|きたいはず}れに{終|お}わる: to end in disappointment\n- {完全|かんぜん}に{期待外|きたいはず}れ: a complete letdown\n- {期待外|きたいはず}れの{展開|てんかい}: an unexpected/disappointing development\n\nSIMILAR WORDS:\n- {失望|しつぼう}: disappointment — more emotional and formal; focuses on the feeling of losing hope\n- {落胆|らくたん}: discouragement — more literary; emphasizes the emotional deflation\n- {肩透|かたす}かし: anticlimax — implies being let down after bracing for something bigger\n\nUSAGE:\nCan function as a predicate with だ ({期待外|きたいはず}れだった) or as a noun modifier with の ({期待外|きたいはず}れの{結果|けっか}). Not used with な.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03183_shitsubou",
+      "reading": "しつぼう",
+      "headword": "{失望|しつぼう}",
+      "label": "disappointment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04860_rakutan",
+      "reading": "らくたん",
+      "headword": "{落胆|らくたん}",
+      "label": "discouragement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08028_katasukashi",
+      "reading": "かたすかし",
+      "headword": "{肩透|かたすか}かし",
+      "label": "anticlimax"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23040_yosouchigai",
+      "reading": "よそうちがい",
+      "headword": "{予想違|よそうちが}い",
+      "label": "wrong prediction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26692_mihazure",
+      "reading": "みはずれ",
+      "headword": "{見外|みはず}れ",
+      "label": "disappointment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     },
     "created": "2026-04-08T20:28:35Z",
-    "modified": "2026-04-08T20:28:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

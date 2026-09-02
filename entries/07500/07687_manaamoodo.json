@@ -17,33 +17,67 @@
       "japanese": "{携帯|けいたい}をマナーモードにした。",
       "english": "I put my phone on silent mode.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07687_manaamoodo_ex2",
       "japanese": "{映画館|えいがかん}ではマナーモードにしてください。",
       "english": "Please put your phone on silent mode in the cinema.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07687_manaamoodo_ex3",
       "japanese": "マナーモードに{設定|せってい}するのを{忘|わす}れていた。",
       "english": "I forgot to set it to silent mode.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "ORIGIN:\nJapanese-English (wasei-eigo) combining \"manner\" + \"mode\" - emphasizing phone etiquette.\n\nCULTURAL NOTE:\nIn Japan, using phones on public transport is considered impolite. Announcements on trains commonly remind passengers to set phones to マナーモード and refrain from calls.\n\nRELATED PHONE MODES:\n・{機内|きない}モード - airplane mode\n・{消音|しょうおん} - mute\n・サイレントモード - silent mode (also used)\n\nCOLLOCATIONS:\n・マナーモードにする/に{設定|せってい}する - to set to silent mode\n・マナーモードを{解除|かいじょ}する - to turn off silent mode",
+  "notes": "ETYMOLOGY:\nJapanese-English (wasei-eigo) combining \"manner\" + \"mode\" - emphasizing phone etiquette.\n\nCULTURAL NOTE:\nIn Japan, using phones on public transport is considered impolite. Announcements on trains commonly remind passengers to set phones to マナーモード and refrain from calls.\n\nRELATED PHONE MODES:\n- {機内|きない}モード - airplane mode\n- {消音|しょうおん} - mute\n- サイレントモード - silent mode (also used)\n\nCOMMON COLLOCATIONS:\n- マナーモードにする/に{設定|せってい}する - to set to silent mode\n- マナーモードを{解除|かいじょ}する - to turn off silent mode",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08042_kinaimoodo",
+      "reading": "きないもーど",
+      "headword": "{機内|きない}モード",
+      "label": "airplane mode"
+    },
+    {
+      "type": "related",
+      "target_id": "21005_shouon",
+      "reading": "しょうおん",
+      "headword": "{消音|しょうおん}",
+      "label": "mute"
+    },
+    {
+      "type": "related",
+      "target_id": "08040_chakushinon",
+      "reading": "ちゃくしんおん",
+      "headword": "{着信音|ちゃくしんおん}",
+      "label": "ringtone"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-01-20T23:30:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["technology"],
+      "politeness": "plain",
+      "semantic": [
+        "technology"
+      ],
       "domain": []
     }
   }

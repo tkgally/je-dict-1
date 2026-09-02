@@ -2,7 +2,7 @@
   "id": "11890_jushin",
   "headword": "{受診|じゅしん}",
   "reading": "じゅしん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "seeing a doctor, medical consultation",
   "conjugation": {
     "type": "suru",
@@ -133,11 +133,19 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{病院|びょういん}を{受診|じゅしん}する (visit a hospital)\n・{医師|いし}を{受診|じゅしん}する (see a doctor)\n・{受診|じゅしん}{券|けん} (medical examination voucher)\n・{受診|じゅしん}{率|りつ} (consultation rate)\n・{初|はつ}{受診|じゅしん} (first consultation)\n\nA formal and common medical term used in healthcare settings, pamphlets, and official communications. Not to be confused with the homophone {受信|じゅしん} (receiving a signal/message).",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- {病院|びょういん}を{受診|じゅしん}する (visit a hospital)\n- {医師|いし}を{受診|じゅしん}する (see a doctor)\n- {受診|じゅしん}{券|けん} (medical examination voucher)\n- {受診|じゅしん}{率|りつ} (consultation rate)\n- {初|はつ}{受診|じゅしん} (first consultation)\n\nA formal and common medical term used in healthcare settings, pamphlets, and official communications. Not to be confused with the homophone {受信|じゅしん} (receiving a signal/message).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23254_saishin",
+      "reading": "さいしん",
+      "headword": "{再診|さいしん}",
+      "label": "follow-up medical visit"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T14:02:22Z",
-    "modified": "2026-08-15T21:26:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

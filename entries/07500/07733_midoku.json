@@ -40,10 +40,10 @@
       ]
     }
   ],
-  "notes": "{未読|みどく} means \"unread\" — not yet read. In modern Japanese, it is used primarily in digital communication contexts.\n\nFORMATION:\n{未|み} (not yet) + {読|どく} (reading). The prefix {未|み}～ is productive: {未定|みてい} (undecided), {未完成|みかんせい} (incomplete).\n\nDIGITAL USAGE:\n- {未読|みどく}メール: unread email\n- {未読|みどく}メッセージ: unread message\n- {未読|みどく}{通知|つうち}: unread notification\n- {未読|みどく}スルー / {未読|みどく}{無視|むし}: deliberately leaving messages unread (socially significant in Japan)\n\nTRADITIONAL USAGE:\n- {未読|みどく}{本|ほん}: unread book\n- {未読|みどく}の{論文|ろんぶん}: unread paper/article\n\nCONTRAST:\n- {既読|きどく}: already read (opposite) — especially known from LINE's {既読|きどく} notification\n- {未読|みどく}: not yet read\n\nCULTURAL NOTE:\nOn LINE, the {既読|きどく} indicator shows when a message has been read, making {未読|みどく}{無視|むし} (deliberately not opening a message) a recognized social behavior distinct from {既読|きどく}{無視|むし} (reading but not replying).",
+  "notes": "{未読|みどく} means \"unread\" — not yet read. In modern Japanese, it is used primarily in digital communication contexts.\n\nFORMS:\n{未|み} (not yet) + {読|どく} (reading). The prefix {未|み}～ is productive: {未定|みてい} (undecided), {未完成|みかんせい} (incomplete).\n\nDIGITAL USAGE:\n- {未読|みどく}メール: unread email\n- {未読|みどく}メッセージ: unread message\n- {未読|みどく}{通知|つうち}: unread notification\n- {未読|みどく}スルー / {未読|みどく}{無視|むし}: deliberately leaving messages unread (socially significant in Japan)\n\nTRADITIONAL USAGE:\n- {未読|みどく}{本|ほん}: unread book\n- {未読|みどく}の{論文|ろんぶん}: unread paper/article\n\nSIMILAR WORDS:\n- {既読|きどく}: already read (opposite) — especially known from LINE's {既読|きどく} notification\n- {未読|みどく}: not yet read\n\nCULTURAL NOTE:\nOn LINE, the {既読|きどく} indicator shows when a message has been read, making {未読|みどく}{無視|むし} (deliberately not opening a message) a recognized social behavior distinct from {既読|きどく}{無視|むし} (reading but not replying).",
   "metadata": {
     "created": "2026-01-21T00:27:02Z",
-    "modified": "2026-04-11T01:25:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -52,6 +52,7 @@
         "adjective-no"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "communication",
         "technology"
@@ -68,6 +69,13 @@
       "reading": "きどく",
       "headword": "{既読|きどく}",
       "label": "read (message status)"
+    },
+    {
+      "type": "antonym",
+      "target_id": "29159_yomizumi",
+      "reading": "よみずみ",
+      "headword": "{読|よ}み{済|ず}み",
+      "label": "already read"
     }
   ]
 }

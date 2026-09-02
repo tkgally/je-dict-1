@@ -3,7 +3,7 @@
   "headword": "{比喩|ひゆ}する",
   "reading": "ひゆする",
   "romaji": "hiyusuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to use a metaphor; to liken; to compare figuratively",
   "definitions": [
     {
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "The verb form of the noun {比喩|ひゆ} (metaphor, simile, figure of speech). The pattern is typically AをBに{比喩|ひゆ}する (to liken A to B). More formal and literary than {例|たと}える.\n\nCOMMON COLLOCATIONS:\n- AをBに{比喩|ひゆ}する: to liken A to B\n- {比喩|ひゆ}して{言|い}えば: speaking metaphorically\n- {比喩|ひゆ}される: to be compared to (passive)\n\nSIMILAR WORDS:\n- {例|たと}える: to compare, to liken — more common in everyday speech\n- {喩|たと}える: variant kanji of the above, literary\n- {なぞらえる}: to compare, to liken — literary, often implies modeling after something",
+  "notes": "The verb form of the noun {比喩|ひゆ} (metaphor, simile, figure of speech). The pattern is typically AをBに{比喩|ひゆ}する (to liken A to B). More formal and literary than {例|たと}える.\n\nCOMMON COLLOCATIONS:\n- AをBに{比喩|ひゆ}する: to liken A to B\n- {比喩|ひゆ}して{言|い}えば: speaking metaphorically\n- {比喩|ひゆ}される: to be compared to (passive)\n\nSIMILAR WORDS:\n- {例|たと}える: to compare, to liken — more common in everyday speech\n- {喩|たと}える: variant kanji of the above, literary\n- なぞらえる: to compare, to liken — literary, often implies modeling after something",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10365_tatoeru",
+      "reading": "たとえる",
+      "headword": "{例|たと}える",
+      "label": "to compare, to liken"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10610_nazoraeru",
+      "reading": "なぞらえる",
+      "headword": "なぞらえる",
+      "label": "to compare, to liken"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-20T13:12:53Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

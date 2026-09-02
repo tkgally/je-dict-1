@@ -17,7 +17,9 @@
       "id": "23489_kouin_ex1",
       "japanese": "{行員|こういん}に{口座|こうざ}の{開設|かいせつ}を{頼|たの}んだ。",
       "english": "I asked a bank employee to open an account.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23489_kouin_ex2",
       "japanese": "{彼女|かのじょ}は{大手|おおて}{銀行|ぎんこう}の{行員|こういん}として{働|はたら}いている。",
       "english": "She works as an employee at a major bank.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "23489_kouin_ex3",
       "japanese": "{窓口|まどぐち}の{行員|こういん}が{丁寧|ていねい}に{手続|てつづ}きの{説明|せつめい}をしてくれた。",
       "english": "The bank clerk at the counter politely explained the procedure to me.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {行|こう} (abbreviation of {銀行|ぎんこう}, bank) and {員|いん} (member, staff). This word follows the common Japanese pattern of abbreviating an organization name and adding {員|いん} to refer to its employees, similar to {社員|しゃいん} (company employee) and {駅員|えきいん} (station staff).\n\nCOMMON COLLOCATIONS:\n- {銀行|ぎんこう}{行員|こういん}: bank employee (with full form for clarity)\n- {窓口|まどぐち}の{行員|こういん}: teller, counter clerk\n- {行員|こういん}として{勤|つと}める: to work as a bank employee\n\nSIMILAR WORDS:\n- {銀行員|ぎんこういん}: bank employee — the full, unabbreviated form; slightly more common in everyday speech\n- {社員|しゃいん}: company employee — the parallel term for general companies\n- {局員|きょくいん}: post office employee — the equivalent for postal workers\n- {工員|こういん}: factory worker — a homophone with completely different meaning; uses {工|こう} (craft, factory) instead of {行|こう} (bank)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03065_shain",
+      "reading": "しゃいん",
+      "headword": "{社員|しゃいん}",
+      "label": "company employee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24361_kyokuin",
+      "reading": "きょくいん",
+      "headword": "{局員|きょくいん}",
+      "label": "post office employee"
+    },
+    {
+      "type": "homophone",
+      "target_id": "04181_kouin",
+      "reading": "こういん",
+      "headword": "{工員|こういん}",
+      "label": "factory worker"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business", "society"]
+      "semantic": [
+        "business",
+        "society"
+      ]
     },
     "created": "2026-04-12T10:28:44Z",
-    "modified": "2026-04-12T10:28:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

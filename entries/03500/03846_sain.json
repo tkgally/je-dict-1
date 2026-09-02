@@ -2,7 +2,7 @@
   "id": "03846_sain",
   "headword": "サイン",
   "reading": "さいん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "autograph; signature; sign",
   "conjugation": {
     "type": "suru",
@@ -203,10 +203,40 @@
       ]
     }
   ],
-  "notes": "USAGE: サイン has multiple meanings depending on context. In Japanese, it often refers to autographs from celebrities.\n\nCOMMON PATTERNS:\n・サイン⟦を→を：00422_wo⟧⟦もらう→もらう：00520_morau⟧ (to get an autograph)\n・サイン⟦する→する：00392_suru⟧ (to sign)\n・サイン⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧ (to give a signal)\n・⟦サイン{会|かい}→サイン会：noentry⟧ (autograph session)\n・⟦サイン{入|い}り→サイン入り：noentry⟧ (autographed)\n\nCONTRAST:\n・サイン (autograph, signature, signal)\n・⟦{署名|しょめい}→署名：03682_shomei⟧ (formal signature)\n・⟦{合図|あいず}→合図：01675_aizu⟧ (signal, cue)",
+  "notes": "USAGE: サイン has multiple meanings depending on context. In Japanese, it often refers to autographs from celebrities.\n\nCOMMON PATTERNS:\n- サイン⟦を→を：00422_wo⟧⟦もらう→もらう：00520_morau⟧ (to get an autograph)\n- サイン⟦する→する：00392_suru⟧ (to sign)\n- サイン⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧ (to give a signal)\n- ⟦サイン{会|かい}→サイン会：noentry⟧ (autograph session)\n- ⟦サイン{入|い}り→サイン入り：noentry⟧ (autographed)\n\nSIMILAR WORDS:\n- サイン (autograph, signature, signal)\n- ⟦{署名|しょめい}→署名：03682_shomei⟧ (formal signature)\n- ⟦{合図|あいず}→合図：01675_aizu⟧ (signal, cue)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03682_shomei",
+      "reading": "しょめい",
+      "headword": "{署名|しょめい}",
+      "label": "formal signature"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01675_aizu",
+      "reading": "あいず",
+      "headword": "{合図|あいず}",
+      "label": "signal, cue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10958_shigunaru",
+      "reading": "しぐなる",
+      "headword": "シグナル",
+      "label": "signal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21841_jikihitsu",
+      "reading": "じきひつ",
+      "headword": "{直筆|じきひつ}",
+      "label": "one's own handwriting"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T13:55:10Z",
-    "modified": "2026-07-29T21:21:40Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

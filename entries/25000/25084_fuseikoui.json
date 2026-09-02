@@ -17,7 +17,9 @@
       "id": "25084_fuseikoui_ex1",
       "japanese": "{不正行為|ふせいこうい}は{許|ゆる}されない。",
       "english": "Misconduct will not be tolerated.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25084_fuseikoui_ex2",
       "japanese": "{試験|しけん}での{不正行為|ふせいこうい}が{発覚|はっかく}した。",
       "english": "Cheating on the exam was discovered.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,44 @@
       "id": "25084_fuseikoui_ex3",
       "japanese": "{会計|かいけい}の{不正行為|ふせいこうい}が{内部|ないぶ}{告発|こくはつ}によって{明|あき}らかになった。",
       "english": "Accounting fraud was brought to light through an internal whistleblower.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A formal compound noun combining {不正|ふせい} (injustice, dishonesty) and {行為|こうい} (act, conduct). Used across many domains including law, business, academics, and sports to describe any wrongful action.\n\nCOMMON COLLOCATIONS:\n- {不正行為|ふせいこうい}を{働|はたら}く: to commit misconduct\n- {不正行為|ふせいこうい}を{防止|ぼうし}する: to prevent misconduct\n- {不正行為|ふせいこうい}が{発覚|はっかく}する: misconduct is discovered\n- {不正行為|ふせいこうい}に{関与|かんよ}する: to be involved in misconduct\n\nSIMILAR WORDS:\n- {違法行為|いほうこうい}: illegal act — specifically actions that violate the law\n- {不祥事|ふしょうじ}: scandal, disgrace — broader term covering embarrassing incidents\n- {犯罪|はんざい}: crime — more serious than misconduct; always illegal\n- {不正|ふせい}: fraud, dishonesty — the component word used alone as a more general term",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14981_fushouji",
+      "reading": "ふしょうじ",
+      "headword": "{不祥事|ふしょうじ}",
+      "label": "scandal, disgrace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03569_hanzai",
+      "reading": "はんざい",
+      "headword": "{犯罪|はんざい}",
+      "label": "crime"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["law", "society"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "law",
+        "society"
+      ]
     },
     "created": "2026-04-22T14:37:20Z",
-    "modified": "2026-04-22T14:37:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

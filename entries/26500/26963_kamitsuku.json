@@ -3,7 +3,7 @@
   "headword": "{噛|か}みつく",
   "reading": "かみつく",
   "romaji": "kamitsuku",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to bite; to snap at; to lash out at",
   "definitions": [
     {
@@ -80,7 +80,22 @@
     }
   ],
   "notes": "Compound of {噛|か}む (to bite) and つく (to attach, cling). The つく adds the nuance of latching on or holding fast after biting. Often written in kana as かみつく.\n\nCOMMON COLLOCATIONS:\n- {犬|いぬ}に{噛|か}みつかれる: to be bitten by a dog\n- {手|て}に{噛|か}みつく: to bite someone's hand\n- {相手|あいて}に{噛|か}みつく: to lash out at one's opponent\n- {噛|か}みつくように{言|い}う: to say bitingly\n\nSIMILAR WORDS:\n- {噛|か}む: to bite, chew — general biting without the nuance of latching on\n- {食|く}いつく: to bite into — emphasizes gripping with the teeth; also used figuratively for showing keen interest\n- {吠|ほ}える: to bark, howl — aggressive vocal behavior from an animal, but no physical contact",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01205_kamu",
+      "reading": "かむ",
+      "headword": "{噛|か}む",
+      "label": "to bite, chew"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02415_hoeru",
+      "reading": "ほえる",
+      "headword": "{吠|ほ}える",
+      "label": "to bark, howl"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -97,7 +112,7 @@
       "verb_class": "godan-ku"
     },
     "created": "2026-05-06T12:17:15Z",
-    "modified": "2026-05-06T12:17:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

@@ -17,7 +17,9 @@
       "id": "26467_rasetsu_ex1",
       "japanese": "{仏教|ぶっきょう}の{経典|きょうてん}に{羅刹|らせつ}が{登場|とうじょう}する。",
       "english": "Rakshasas appear in Buddhist scriptures.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26467_rasetsu_ex2",
       "japanese": "{羅刹|らせつ}のような{形相|ぎょうそう}で{怒|おこ}っていた。",
       "english": "He was angry with a face like a demon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,52 @@
       "id": "26467_rasetsu_ex3",
       "japanese": "{古|ふる}い{物語|ものがたり}では{羅刹|らせつ}が{人|ひと}を{襲|おそ}うが、{仏|ほとけ}の{力|ちから}で{改心|かいしん}する{話|はなし}が{多|おお}い。",
       "english": "In old stories, rakshasas attack people, but there are many tales of them being reformed by the power of Buddha.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A transliteration from Sanskrit रक्षस (rakṣasa) via Chinese {羅刹|らせつ}. In Indian mythology, rakshasas are powerful demons who eat human flesh. In Japanese Buddhism, they were incorporated as one of the {八部衆|はちぶしゅう} (eight legions of supernatural protectors). The word appears in classical literature, manga, anime, and games.\n\nCOMMON COLLOCATIONS:\n- {羅刹|らせつ}のような: demon-like, fiendish\n- {羅刹|らせつ}{女|にょ}: female rakshasa\n- {羅刹|らせつ}{鬼|き}: rakshasa demon\n- {羅刹|らせつ}の{形相|ぎょうそう}: the face of a demon\n\nSIMILAR WORDS:\n- {鬼|おに}: demon, ogre — the most common Japanese word for a fearsome supernatural being\n- {夜叉|やしゃ}: yaksha — another Buddhist demon figure, sometimes depicted as nature spirits\n- {悪魔|あくま}: devil, demon — a more modern, general term for evil supernatural beings",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02184_oni",
+      "reading": "おに",
+      "headword": "{鬼|おに}",
+      "label": "demon, ogre"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12857_yasha",
+      "reading": "やしゃ",
+      "headword": "{夜叉|やしゃ}",
+      "label": "yaksha"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01768_akuma",
+      "reading": "あくま",
+      "headword": "{悪魔|あくま}",
+      "label": "devil, demon"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["religion", "culture"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "religion",
+        "culture"
+      ]
     },
     "created": "2026-05-02T11:32:42Z",
-    "modified": "2026-05-02T11:32:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

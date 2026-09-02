@@ -17,7 +17,9 @@
       "id": "20756_zangaku_ex1",
       "japanese": "{口座|こうざ}の{残額|ざんがく}を{確認|かくにん}する。",
       "english": "To check the balance of an account.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20756_zangaku_ex2",
       "japanese": "ローンの{残額|ざんがく}はあと{百万円|ひゃくまんえん}だ。",
       "english": "The remaining loan balance is one million yen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "20756_zangaku_ex3",
       "japanese": "{予算|よさん}の{残額|ざんがく}が{少|すく}なくなってきたので、{支出|ししゅつ}を{見直|みなお}す{必要|ひつよう}がある。",
       "english": "The remaining budget is getting low, so we need to review our spending.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {残|ざん} (remaining) and {額|がく} (amount). A straightforward financial term used in banking, accounting, and everyday money management.\n\nUSAGE:\nUsed in both formal financial contexts (accounting, banking) and everyday situations (checking a prepaid card balance, tracking a budget). Often interchangeable with {残高|ざんだか}, though {残高|ざんだか} is more specifically associated with bank account balances.\n\nCOMMON COLLOCATIONS:\n- {残額|ざんがく}を{確認|かくにん}する — to check the remaining balance\n- {残額|ざんがく}が{不足|ふそく}する — the balance is insufficient\n- ローンの{残額|ざんがく} — outstanding loan balance\n- {予算|よさん}の{残額|ざんがく} — remaining budget\n\nSIMILAR WORDS:\n- {残高|ざんだか} — balance (especially bank account balance); the most common term in banking\n- {残金|ざんきん} — remaining money, balance due; often used for payments still owed\n- {差額|さがく} — difference (in amount); the gap between two figures",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05422_zandaka",
+      "reading": "ざんだか",
+      "headword": "{残高|ざんだか}",
+      "label": "balance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15775_sagaku",
+      "reading": "さがく",
+      "headword": "{差額|さがく}",
+      "label": "difference"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["finance"]
+      "semantic": [
+        "finance"
+      ]
     },
     "created": "2026-03-30T15:13:14Z",
-    "modified": "2026-03-30T15:13:14Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "パリッとする",
   "reading": "ぱりっとする",
   "romaji": "parittosuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb, onomatopoeia",
   "gloss": "to be crisp; to be crispy; to be sharp and neat",
   "definitions": [
     {
@@ -80,7 +80,22 @@
     }
   ],
   "notes": "An onomatopoeic expression from パリッ, which represents a crisp, cracking, or snapping sound or sensation. The small ッ emphasizes the sharpness of the sensation. Often written in katakana to highlight the mimetic quality.\n\nCOMMON COLLOCATIONS:\n- パリッとした{食感|しょっかん}: crispy texture\n- パリッと{焼|や}く: to fry/grill until crispy\n- パリッとしたシャツ: a crisply pressed shirt\n- パリッとした{服装|ふくそう}: sharp, neat attire\n\nSIMILAR WORDS:\n- カリッとする: to be crunchy — similar but emphasizes a harder crunch\n- サクサクする: to be crispy, flaky — lighter crispiness, like pastry or light fried food\n- パリパリする: to be crunchy, crackly — repeated form; emphasizes continuous crispiness throughout",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26949_sakusakusuru",
+      "reading": "さくさくする",
+      "headword": "サクサクする",
+      "label": "to be crispy, flaky"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24250_pariparisuru",
+      "reading": "ぱりぱりする",
+      "headword": "ぱりぱりする",
+      "label": "to be crunchy, crackly"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -98,7 +113,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T12:25:04Z",
-    "modified": "2026-08-06T12:50:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

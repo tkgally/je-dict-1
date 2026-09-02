@@ -19,7 +19,9 @@
       "english": "I consulted with my employer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14964_yatoinushi_ex2",
@@ -27,7 +29,9 @@
       "english": "Employers have an obligation to clearly state the working conditions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14964_yatoinushi_ex3",
@@ -35,21 +39,43 @@
       "english": "Please prepare a letter of recommendation from your previous employer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of {雇|やと}い (hiring, from {雇|やと}う 'to hire') and {主|ぬし} (master, owner).\n\nSIMILAR WORDS:\n- {雇用主|こようぬし} is more formal and used in legal/official documents\n- {使用者|しようしゃ} is the legal term for employer in labor law\n- {社長|しゃちょう} means company president, not employer in general\n\nCOMMON COLLOCATIONS:\n- {雇|やと}い{主|ぬし}の{責任|せきにん} (employer's responsibility)\n- {雇|やと}い{主|ぬし}と{従業員|じゅうぎょういん} (employer and employees)\n- {前|まえ}の{雇|やと}い{主|ぬし} (former employer)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29863_shiyousha",
+      "reading": "しようしゃ",
+      "headword": "使用者",
+      "label": "is the legal term for employer in labor…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01428_shachou",
+      "reading": "しゃちょう",
+      "headword": "{社長|しゃちょう}",
+      "label": "means company president, not employer…"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T08:00:47Z",
-    "modified": "2026-03-04T08:00:47Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "work"]
+      "semantic": [
+        "person",
+        "work"
+      ]
     }
   }
 }

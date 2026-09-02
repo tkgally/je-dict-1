@@ -2,7 +2,7 @@
   "id": "03068_shuugou",
   "headword": "{集合|しゅうごう}",
   "reading": "しゅうごう",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "gathering, assembly, meeting",
   "conjugation": {
     "type": "suru",
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "{集合|しゅうごう} combines {集|しゅう} (gather) + {合|ごう} (together).\n\nCOMMON PATTERNS:\n- {集合|しゅうごう}する (to gather, to assemble)\n- {集合|しゅうごう}⟦{時間|じかん}→時間：00468_jikan⟧ (meeting time)\n- {集合|しゅうごう}⟦{場所|ばしょ}→場所：00829_basho⟧ (meeting place)\n- {集合|しゅうごう}をかける (to call people together)\n\nRELATED COMPOUNDS:\n- {集合|しゅうごう}⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧ (apartment complex)\n- {集合|しゅうごう}⟦{写真|しゃしん}→写真：00753_shashin⟧ (group photo)\n\nSIMILAR WORDS:\n- {集合|しゅうごう}: gathering at a set time/place\n- ⟦{集|あつ}まり→集まり：01689_atsumari⟧: gathering (informal)\n- ⟦{会合|かいごう}→会合：02605_kaigou⟧: meeting (formal, for discussion)",
+  "notes": "{集合|しゅうごう} combines {集|しゅう} (gather) + {合|ごう} (together).\n\nCOMMON PATTERNS:\n- {集合|しゅうごう}する (to gather, to assemble)\n- {集合|しゅうごう}⟦{時間|じかん}→時間：00468_jikan⟧ (meeting time)\n- {集合|しゅうごう}⟦{場所|ばしょ}→場所：00829_basho⟧ (meeting place)\n- {集合|しゅうごう}をかける (to call people together)\n\nCOMPOUNDS:\n- {集合|しゅうごう}⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧ (apartment complex)\n- {集合|しゅうごう}⟦{写真|しゃしん}→写真：00753_shashin⟧ (group photo)\n\nSIMILAR WORDS:\n- {集合|しゅうごう}: gathering at a set time/place\n- ⟦{集|あつ}まり→集まり：01689_atsumari⟧: gathering (informal)\n- ⟦{会合|かいごう}→会合：02605_kaigou⟧: meeting (formal, for discussion)",
   "cross_references": [
     {
       "type": "related",
@@ -190,11 +190,32 @@
       "headword": "{解散|かいさん}",
       "label": "dissolution, disbanding",
       "target_id": "04121_kaisan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01689_atsumari",
+      "reading": "あつまり",
+      "headword": "{集|あつ}まり",
+      "label": "gathering"
+    },
+    {
+      "type": "related",
+      "target_id": "07397_machiawase",
+      "reading": "まちあわせ",
+      "headword": "{待|ま}ち{合|あ}わせ",
+      "label": "meeting up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11902_gouryuu",
+      "reading": "ごうりゅう",
+      "headword": "{合流|ごうりゅう}",
+      "label": "joining, merging, confluence"
     }
   ],
   "metadata": {
     "created": "2026-01-11T11:14:00Z",
-    "modified": "2026-05-23T18:11:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

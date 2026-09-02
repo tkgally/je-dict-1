@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "BRANCHES OF EARTH SCIENCE:\n・{地質学|ちしつがく} (geology)\n・{気象学|きしょうがく} (meteorology)\n・{海洋学|かいようがく} (oceanography)\n・{天文学|てんもんがく} (astronomy - sometimes included)\n\nRELATED ACADEMIC SUBJECTS:\n・{物理学|ぶつりがく} (physics)\n・{化学|かがく} (chemistry)\n・{生物学|せいぶつがく} (biology)\n\nJAPANESE EDUCATION CONTEXT: In Japanese high schools, students typically choose between {物理|ぶつり}, {化学|かがく}, {生物|せいぶつ}, and {地学|ちがく} for their science subjects. {地学|ちがく} is less commonly chosen but covers important topics like earthquakes, volcanoes, and weather systems relevant to Japan.",
+  "notes": "BRANCHES OF EARTH SCIENCE:\n- {地質学|ちしつがく} (geology)\n- {気象学|きしょうがく} (meteorology)\n- {海洋学|かいようがく} (oceanography)\n- {天文学|てんもんがく} (astronomy - sometimes included)\n\nRELATED ACADEMIC SUBJECTS:\n- {物理学|ぶつりがく} (physics)\n- {化学|かがく} (chemistry)\n- {生物学|せいぶつがく} (biology)\n\nJAPANESE EDUCATION CONTEXT: In Japanese high schools, students typically choose between {物理|ぶつり}, {化学|かがく}, {生物|せいぶつ}, and {地学|ちがく} for their science subjects. {地学|ちがく} is less commonly chosen but covers important topics like earthquakes, volcanoes, and weather systems relevant to Japan.",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,39 @@
       "headword": "{生物学|せいぶつがく}",
       "label": "biology",
       "target_id": "07107_seibutsugaku"
+    },
+    {
+      "type": "related",
+      "target_id": "09631_butsurigaku",
+      "reading": "ぶつりがく",
+      "headword": "{物理学|ぶつりがく}",
+      "label": "physics"
+    },
+    {
+      "type": "related",
+      "target_id": "05336_kagaku_chem",
+      "reading": "かがく",
+      "headword": "{化学|かがく}",
+      "label": "chemistry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25641_chirigaku",
+      "reading": "ちりがく",
+      "headword": "{地理学|ちりがく}",
+      "label": "geography (academic discipline)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25643_chishitsugaku",
+      "reading": "ちしつがく",
+      "headword": "{地質学|ちしつがく}",
+      "label": "geology"
     }
   ],
   "metadata": {
     "created": "2026-01-18T23:16:50Z",
-    "modified": "2026-08-10T06:41:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

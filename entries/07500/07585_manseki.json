@@ -2,7 +2,7 @@
   "id": "07585_manseki",
   "headword": "{満席|まんせき}",
   "reading": "まんせき",
-  "part_of_speech": "noun/na-adjective",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "fully booked; no seats available",
   "definitions": [
     {
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{満|まん} (full) + {席|せき} (seat)\nLiterally: \"seats are full\"\n\nCOMMON COLLOCATIONS:\n・{満席|まんせき}になる - to become fully booked\n・{満席|まんせき}のため - because it's fully booked\n・ほぼ{満席|まんせき} - almost fully booked\n\nANTONYM:\n・{空席|くうせき} - empty seat, vacancy\n\nRELATED WORDS:\n・{満員|まんいん} - full, packed (general capacity)\n・{予約|よやく}{済|ず}み - reserved\n・{完売|かんばい} - sold out (tickets/products)\n\n{満席|まんせき} vs {満員|まんいん}:\n・{満席|まんせき} - specifically about seats being full (restaurants, flights, theaters)\n・{満員|まんいん} - about people capacity in general (trains, venues)",
+  "notes": "ETYMOLOGY:\n{満|まん} (full) + {席|せき} (seat)\nLiterally: \"seats are full\"\n\nCOMMON COLLOCATIONS:\n- {満席|まんせき}になる - to become fully booked\n- {満席|まんせき}のため - because it's fully booked\n- ほぼ{満席|まんせき} - almost fully booked\n\nSIMILAR WORDS:\n- {空席|くうせき} - empty seat, vacancy\n\nRELATED WORDS:\n- {満員|まんいん} - full, packed (general capacity)\n- {予約|よやく}{済|ず}み - reserved\n- {完売|かんばい} - sold out (tickets/products)\n\n{満席|まんせき} vs {満員|まんいん}:\n- {満席|まんせき} - specifically about seats being full (restaurants, flights, theaters)\n- {満員|まんいん} - about people capacity in general (trains, venues)",
   "cross_references": [
     {
       "type": "antonym",
@@ -62,11 +62,46 @@
       "reading": "まんしつ",
       "headword": "{満室|まんしつ}",
       "label": "no vacancy (rooms)"
+    },
+    {
+      "type": "related",
+      "target_id": "21797_yoyakuzumi",
+      "reading": "よやくずみ",
+      "headword": "{予約済|よやくず}み",
+      "label": "reserved"
+    },
+    {
+      "type": "related",
+      "target_id": "18954_kanbai",
+      "reading": "かんばい",
+      "headword": "{完売|かんばい}",
+      "label": "sold out"
+    },
+    {
+      "type": "related",
+      "target_id": "08286_tachimi",
+      "reading": "たちみ",
+      "headword": "{立|た}ち{見|み}",
+      "label": "standing room only"
+    },
+    {
+      "type": "related",
+      "target_id": "09693_aiseki",
+      "reading": "あいせき",
+      "headword": "{相席|あいせき}",
+      "label": "sharing a table"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24363_zenseki",
+      "reading": "ぜんせき",
+      "headword": "{全席|ぜんせき}",
+      "label": "all seats"
     }
   ],
   "metadata": {
     "created": "2026-01-20T10:31:31Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -75,6 +110,7 @@
         "adjective-na"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "quantity",
         "descriptive"

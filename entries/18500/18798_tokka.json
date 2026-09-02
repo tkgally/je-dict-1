@@ -17,7 +17,9 @@
       "id": "18798_tokka_ex1",
       "japanese": "{特価|とっか}セール{開催中|かいさいちゅう}！",
       "english": "Bargain sale now on!",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18798_tokka_ex2",
       "japanese": "このパソコンは{特価|とっか}で{三万円|さんまんえん}です。",
       "english": "This computer is on special for 30,000 yen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,26 +37,71 @@
       "id": "18798_tokka_ex3",
       "japanese": "{閉店|へいてん}セールで{全品|ぜんぴん}{特価|とっか}になっている。",
       "english": "Everything is at a special price for the closing sale.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A shortened form of {特別|とくべつ}{価格|かかく} (special price). Commonly seen on signs, advertisements, and online shops.\n\nCOMMON COLLOCATIONS:\n- {特価|とっか}{品|ひん}: bargain item, sale item\n- {特価|とっか}セール: special price sale\n- {特価|とっか}で{販売|はんばい}する: to sell at a special price\n- {特価|とっか}で{提供|ていきょう}する: to offer at a special price\n\nRELATED PRICING TERMS:\n- {定価|ていか}: list price, retail price\n- {半額|はんがく}: half price\n- {割引|わりびき}: discount\n- {激安|げきやす}: extremely cheap\n- セール{価格|かかく}: sale price\n\nHOMOPHONE:\n{特化|とっか} (specialization) is a completely different word with the same reading. Context makes the meaning clear.",
+  "notes": "A shortened form of {特別|とくべつ}{価格|かかく} (special price). Commonly seen on signs, advertisements, and online shops.\n\nCOMMON COLLOCATIONS:\n- {特価|とっか}{品|ひん}: bargain item, sale item\n- {特価|とっか}セール: special price sale\n- {特価|とっか}で{販売|はんばい}する: to sell at a special price\n- {特価|とっか}で{提供|ていきょう}する: to offer at a special price\n\nRELATED PRICING TERMS:\n- {定価|ていか}: list price, retail price\n- {半額|はんがく}: half price\n- {割引|わりびき}: discount\n- {激安|げきやす}: extremely cheap\n- セール{価格|かかく}: sale price\n\nWATCH OUT:\n{特化|とっか} (specialization) is a completely different word with the same reading. Context makes the meaning clear.",
   "synonyms": [],
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04066_teika",
+      "reading": "ていか",
+      "headword": "{定価|ていか}",
+      "label": "list price, retail price"
+    },
+    {
+      "type": "related",
+      "target_id": "09546_hangaku",
+      "reading": "はんがく",
+      "headword": "{半額|はんがく}",
+      "label": "half price"
+    },
+    {
+      "type": "related",
+      "target_id": "01526_waribiki",
+      "reading": "わりびき",
+      "headword": "{割引|わりびき}",
+      "label": "discount"
+    },
+    {
+      "type": "related",
+      "target_id": "13373_gekiyasu",
+      "reading": "げきやす",
+      "headword": "{激安|げきやす}",
+      "label": "extremely cheap"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25782_waribikikakaku",
+      "reading": "わりびきかかく",
+      "headword": "{割引|わりびき}{価格|かかく}",
+      "label": "discounted price"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-03-23T04:38:01Z",
-    "modified": "2026-03-26T08:50:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

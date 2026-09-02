@@ -152,11 +152,26 @@
       ]
     }
   ],
-  "notes": "COMPOSITION: ⟦{泡|あわ}→泡：02175_awa⟧ (bubble, foam) + ⟦{立|た}てる→立てる：01196_tateru⟧ (to make stand/rise). Literally \"to make foam rise.\"\n\nTRANSITIVITY PAIR:\n・{泡立|あわだ}てる (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧): to whip (someone whips something)\n・⟦{泡立|あわだ}つ→泡立つ：17096_awadatsu⟧ (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧): to foam up (something foams by itself)\n\nCOMMON COLLOCATIONS:\n・⟦{生|なま}クリーム→生クリーム：15884_namakuriimu⟧⟦を→を：00422_wo⟧{泡立|あわだ}てる (to whip cream)\n・⟦{卵白|らんぱく}→卵白：11975_ranpaku⟧⟦を→を：00422_wo⟧{泡立|あわだ}てる (to beat egg whites)\n・⟦{卵|たまご}→卵：02222_tamago⟧⟦を→を：00422_wo⟧{泡立|あわだ}てる (to beat eggs)\n・⟦しっかり→しっかり：01272_shikkari⟧{泡立|あわだ}てる (to whip thoroughly)\n・⟦{軽|かる}く→軽い：00785_karui⟧{泡立|あわだ}てる (to whip lightly)\n\nCOOKING TOOLS:\n・⟦{泡立|あわだ}て{器|き}→泡立て器：08066_awadateki⟧ (whisk)\n・⟦ハンドミキサー→ハンドミキサー：29703_handomikisaa⟧ (hand mixer)\n・⟦{電動|でんどう}→電動：06412_dendou⟧⟦{泡立|あわだ}て{器|き}→泡立て器：08066_awadateki⟧ (electric whisk)\n\nCOOKING TIPS:\n・⟦{七|しち}{分|ぶ}{立|だ}て→七分立て：29704_shichibudate⟧ (whipped to soft peaks)\n・⟦{八|はち}{分|ぶ}{立|だ}て→八分立て：29705_hachibudate⟧ (whipped to firm peaks)\n・⟦{角|つの}→角：02158_tsuno⟧⟦が→が：00051_ga⟧⟦{立|た}つ→立つ：00758_tatsu⟧⟦まで→まで：00490_made⟧ (until peaks form)",
-  "cross_references": [],
+  "notes": "COMPOSITION: ⟦{泡|あわ}→泡：02175_awa⟧ (bubble, foam) + ⟦{立|た}てる→立てる：01196_tateru⟧ (to make stand/rise). Literally \"to make foam rise.\"\n\nTRANSITIVITY:\n- {泡立|あわだ}てる (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧): to whip (someone whips something)\n- ⟦{泡立|あわだ}つ→泡立つ：17096_awadatsu⟧ (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧): to foam up (something foams by itself)\n\nCOMMON COLLOCATIONS:\n- ⟦{生|なま}クリーム→生クリーム：15884_namakuriimu⟧⟦を→を：00422_wo⟧{泡立|あわだ}てる (to whip cream)\n- ⟦{卵白|らんぱく}→卵白：11975_ranpaku⟧⟦を→を：00422_wo⟧{泡立|あわだ}てる (to beat egg whites)\n- ⟦{卵|たまご}→卵：02222_tamago⟧⟦を→を：00422_wo⟧{泡立|あわだ}てる (to beat eggs)\n- ⟦しっかり→しっかり：01272_shikkari⟧{泡立|あわだ}てる (to whip thoroughly)\n- ⟦{軽|かる}く→軽い：00785_karui⟧{泡立|あわだ}てる (to whip lightly)\n\nCOOKING TOOLS:\n- ⟦{泡立|あわだ}て{器|き}→泡立て器：08066_awadateki⟧ (whisk)\n- ⟦ハンドミキサー→ハンドミキサー：29703_handomikisaa⟧ (hand mixer)\n- ⟦{電動|でんどう}→電動：06412_dendou⟧⟦{泡立|あわだ}て{器|き}→泡立て器：08066_awadateki⟧ (electric whisk)\n\nCOOKING TIPS:\n- ⟦{七|しち}{分|ぶ}{立|だ}て→七分立て：29704_shichibudate⟧ (whipped to soft peaks)\n- ⟦{八|はち}{分|ぶ}{立|だ}て→八分立て：29705_hachibudate⟧ (whipped to firm peaks)\n- ⟦{角|つの}→角：02158_tsuno⟧⟦が→が：00051_ga⟧⟦{立|た}つ→立つ：00758_tatsu⟧⟦まで→まで：00490_made⟧ (until peaks form)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29704_shichibudate",
+      "reading": "しちぶだて",
+      "headword": "{七分立|しちぶだ}て",
+      "label": "whipped to soft peaks (cream)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29705_hachibudate",
+      "reading": "はちぶだて",
+      "headword": "{八分立|はちぶだ}て",
+      "label": "whipped to firm peaks (cream)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-17T13:24:39Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

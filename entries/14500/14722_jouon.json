@@ -19,7 +19,9 @@
       "english": "Bring the butter to room temperature.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14722_jouon_ex2",
@@ -27,7 +29,9 @@
       "english": "Please store this medicine at room temperature.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14722_jouon_ex3",
@@ -35,21 +39,49 @@
       "english": "The canned beer was still at room temperature, so I put it in the fridge.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Very commonly seen on food packaging and product labels. Japanese food labels often specify {常温|じょうおん}{保存|ほぞん} (store at room temperature) versus {要冷蔵|ようれいぞう} (requires refrigeration).\n\nCOMMON COLLOCATIONS:\n- {常温|じょうおん}{保存|ほぞん} (room-temperature storage)\n- {常温|じょうおん}に{戻|もど}す (to bring to room temperature)\n- {常温|じょうおん}で{保管|ほかん}する (to store at room temperature)\n- {常温|じょうおん}の{水|みず} (room-temperature water)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26628_reion",
+      "reading": "れいおん",
+      "headword": "{冷温|れいおん}",
+      "label": "cold and warm"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27547_reishu",
+      "reading": "れいしゅ",
+      "headword": "{冷酒|れいしゅ}",
+      "label": "cold sake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27548_atsukan",
+      "reading": "あつかん",
+      "headword": "{熱燗|あつかん}",
+      "label": "hot sake"
+    }
+  ],
   "metadata": {
     "created": "2026-03-03T09:45:34Z",
-    "modified": "2026-03-03T09:45:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

@@ -63,11 +63,54 @@
       ]
     }
   ],
-  "notes": "{心配|しんぱい} is both a noun meaning 'worry' and used with する to mean 'to worry about.'\n\nKANJI BREAKDOWN:\n{心|しん} (heart/mind) + {配|ぱい} (distribute) - suggesting one's mind is scattered with concern.\n\nCOMMON PATTERNS:\n- ⟦{心配|しんぱい}する→心配する：06066_shinpaisuru⟧: to worry\n- {心配|しんぱい}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become worried\n- 〜⟦が→が：00051_ga⟧{心配|しんぱい}だ: to be worried about ~\n- 〜⟦を→を：00422_wo⟧⟦{心配|しんぱい}する→心配する：06066_shinpaisuru⟧: to worry about ~\n\nUSEFUL EXPRESSIONS:\n- {心配|しんぱい}(⟦は→は：00079_ha⟧)⟦いりません→要る：09589_iru⟧: There's no need to worry\n- {心配|しんぱい}しないで: Don't worry\n- ご{心配|しんぱい}⟦を→を：00422_wo⟧⟦おかけしました→かける：00854_kakeru⟧: I'm sorry for worrying you (polite)\n- ⟦{心配|しんぱい}{性|しょう}→心配性：07774_shinpaishou⟧: worrywart, someone who worries a lot\n\nRELATED:\n- ⟦{不安|ふあん}→不安：00836_fuan⟧: anxiety, unease (more about general anxiety)\n- ⟦{気|き}になる→気になる：03027_kininaru⟧: to be on one's mind",
-  "cross_references": [],
+  "notes": "{心配|しんぱい} is both a noun meaning 'worry' and used with する to mean 'to worry about.'\n\nWRITING:\n{心|しん} (heart/mind) + {配|ぱい} (distribute) - suggesting one's mind is scattered with concern.\n\nCOMMON PATTERNS:\n- ⟦{心配|しんぱい}する→心配する：06066_shinpaisuru⟧: to worry\n- {心配|しんぱい}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to become worried\n- 〜⟦が→が：00051_ga⟧{心配|しんぱい}だ: to be worried about ~\n- 〜⟦を→を：00422_wo⟧⟦{心配|しんぱい}する→心配する：06066_shinpaisuru⟧: to worry about ~\n\nCOMMON EXPRESSIONS:\n- {心配|しんぱい}(⟦は→は：00079_ha⟧)⟦いりません→要る：09589_iru⟧: There's no need to worry\n- {心配|しんぱい}しないで: Don't worry\n- ご{心配|しんぱい}⟦を→を：00422_wo⟧⟦おかけしました→かける：00854_kakeru⟧: I'm sorry for worrying you (polite)\n- ⟦{心配|しんぱい}{性|しょう}→心配性：07774_shinpaishou⟧: worrywart, someone who worries a lot\n\nRELATED WORDS:\n- ⟦{不安|ふあん}→不安：00836_fuan⟧: anxiety, unease (more about general anxiety)\n- ⟦{気|き}になる→気になる：03027_kininaru⟧: to be on one's mind",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00836_fuan",
+      "reading": "ふあん",
+      "headword": "{不安|ふあん}",
+      "label": "anxiety, unease"
+    },
+    {
+      "type": "related",
+      "target_id": "03027_kininaru",
+      "reading": "きになる",
+      "headword": "{気|き}になる",
+      "label": "to be on one's mind"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05622_kenen",
+      "reading": "けねん",
+      "headword": "{懸念|けねん}",
+      "label": "concern"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11862_kigu",
+      "reading": "きぐ",
+      "headword": "{危惧|きぐ}",
+      "label": "apprehension, concern, fear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21246_yuuryo",
+      "reading": "ゆうりょ",
+      "headword": "{憂慮|ゆうりょ}",
+      "label": "concern"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22796_munasawagu",
+      "reading": "むなさわぐ",
+      "headword": "{胸騒|むなさわ}ぐ",
+      "label": "to feel uneasy"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:29:11Z",
-    "modified": "2026-05-12T21:10:43Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

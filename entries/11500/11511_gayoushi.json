@@ -18,7 +18,9 @@
       "english": "I drew a picture on drawing paper.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11511_gayoushi_ex2",
@@ -26,7 +28,9 @@
       "english": "Please prepare two sheets of white drawing paper.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11511_gayoushi_ex3",
@@ -34,22 +38,71 @@
       "english": "The children drew their favorite animals on drawing paper with crayons.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{画用紙|がようし} is thick white paper specifically designed for drawing and painting. It is a standard school supply in Japan, used in {図工|ずこう} (arts and crafts) classes.\n\nWORD FORMATION:\n{画|が} (drawing/picture) + {用|よう} (for use) + {紙|し} (paper)\n\nCHARACTERISTICS:\nThicker and sturdier than ordinary {紙|かみ}, making it suitable for various media including crayons, watercolors, colored pencils, and markers.\n\nRELATED PAPER TYPES:\n- {折|お}り{紙|がみ}: origami paper\n- {模造紙|もぞうし}: large chart paper\n- {色紙|いろがみ}: colored paper\n- {和紙|わし}: Japanese paper",
-  "cross_references": [],
+  "notes": "{画用紙|がようし} is thick white paper specifically designed for drawing and painting. It is a standard school supply in Japan, used in {図工|ずこう} (arts and crafts) classes.\n\nFORMS:\n{画|が} (drawing/picture) + {用|よう} (for use) + {紙|し} (paper)\n\nCHARACTERISTICS:\nThicker and sturdier than ordinary {紙|かみ}, making it suitable for various media including crayons, watercolors, colored pencils, and markers.\n\nRELATED PAPER TYPES:\n- {折|お}り{紙|がみ}: origami paper\n- {模造紙|もぞうし}: large chart paper\n- {色紙|いろがみ}: colored paper\n- {和紙|わし}: Japanese paper",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05408_origami",
+      "reading": "おりがみ",
+      "headword": "{折|お}り{紙|がみ}",
+      "label": "origami paper"
+    },
+    {
+      "type": "related",
+      "target_id": "28307_irogami",
+      "reading": "いろがみ",
+      "headword": "{色紙|いろがみ}",
+      "label": "colored paper"
+    },
+    {
+      "type": "related",
+      "target_id": "02268_washi",
+      "reading": "わし",
+      "headword": "{和紙|わし}",
+      "label": "Japanese paper"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18325_hanshi",
+      "reading": "はんし",
+      "headword": "{半紙|はんし}",
+      "label": "calligraphy paper"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19286_atsugami",
+      "reading": "あつがみ",
+      "headword": "{厚紙|あつがみ}",
+      "label": "cardboard"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25630_rakugakichou",
+      "reading": "らくがきちょう",
+      "headword": "{落書|らくが}き{帳|ちょう}",
+      "label": "doodle notebook"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T01:54:44Z",
-    "modified": "2026-03-25T02:55:27Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     }
   }
 }

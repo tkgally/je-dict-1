@@ -17,7 +17,9 @@
       "id": "26423_shikidai_ex1",
       "japanese": "{指揮者|しきしゃ}が{指揮|しき}{台|だい}に{立|た}った。",
       "english": "The conductor stepped onto the podium.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26423_shikidai_ex2",
       "japanese": "{指揮|しき}{台|だい}の{上|うえ}から{全体|ぜんたい}を{見渡|みわた}して{指示|しじ}を{出|だ}す。",
       "english": "From atop the podium, the conductor surveys the ensemble and gives directions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,59 @@
       "id": "26423_shikidai_ex3",
       "japanese": "{新|あたら}しい{音楽|おんがく}{監督|かんとく}が{初|はじ}めて{指揮|しき}{台|だい}に{上|あ}がり、{拍手|はくしゅ}で{迎|むか}えられた。",
       "english": "The new music director stepped onto the podium for the first time and was greeted with applause.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {指揮|しき} (conducting, command) and {台|だい} (stand, platform). The podium is a symbol of the conductor's authority and is central to the concert stage layout.\n\nCOMMON COLLOCATIONS:\n- {指揮|しき}{台|だい}に{立|た}つ: to stand on the podium\n- {指揮|しき}{台|だい}に{上|あ}がる: to step up to the podium\n- {指揮|しき}{台|だい}を{降|お}りる: to step down from the podium\n- {指揮|しき}{台|だい}の{前|まえ}: in front of the podium\n\nSIMILAR WORDS:\n- {演壇|えんだん}: lecture podium, lectern — the podium used for speeches, not music\n- {指揮棒|しきぼう}: baton — the stick the conductor holds\n- {指揮者|しきしゃ}: conductor — the person who stands on the podium",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22662_endan",
+      "reading": "えんだん",
+      "headword": "{演壇|えんだん}",
+      "label": "lecture podium, lectern"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08114_shikibou",
+      "reading": "しきぼう",
+      "headword": "{指揮棒|しきぼう}",
+      "label": "baton"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06565_shikisha",
+      "reading": "しきしゃ",
+      "headword": "{指揮者|しきしゃ}",
+      "label": "conductor"
+    },
+    {
+      "type": "related",
+      "target_id": "22632_fumendai",
+      "reading": "ふめんだい",
+      "headword": "{譜面台|ふめんだい}",
+      "label": "music stand"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["music", "art"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "music",
+        "art"
+      ]
     },
     "created": "2026-05-01T15:38:40Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

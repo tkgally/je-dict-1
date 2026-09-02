@@ -19,7 +19,9 @@
       "english": "To enter the stacks.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16230_shoko_ex2",
@@ -27,7 +29,9 @@
       "english": "That book is in the stacks, so please ask a staff member.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16230_shoko_ex3",
@@ -35,20 +39,41 @@
       "english": "Precious historical documents are stored in the underground archive room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{書庫|しょこ} can refer to the closed stacks in a library (where books are stored but not freely accessible to the public) or more generally to any room or building dedicated to storing books and documents.\n\nWORD FORMATION:\n{書|しょ} (book, document) + {庫|こ} (storehouse).\n\nCOMMON COLLOCATIONS:\n- {書庫|しょこ}に{入|はい}る: to enter the stacks\n- {地下|ちか}{書庫|しょこ}: underground stacks\n- {閉架式|へいかしき}{書庫|しょこ}: closed stacks (not open to browsing)",
-  "cross_references": [],
+  "notes": "USAGE:\n{書庫|しょこ} can refer to the closed stacks in a library (where books are stored but not freely accessible to the public) or more generally to any room or building dedicated to storing books and documents.\n\nFORMS:\n{書|しょ} (book, document) + {庫|こ} (storehouse).\n\nCOMMON COLLOCATIONS:\n- {書庫|しょこ}に{入|はい}る: to enter the stacks\n- {地下|ちか}{書庫|しょこ}: underground stacks\n- {閉架式|へいかしき}{書庫|しょこ}: closed stacks (not open to browsing)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22858_shuuzouko",
+      "reading": "しゅうぞうこ",
+      "headword": "{収蔵庫|しゅうぞうこ}",
+      "label": "storage facility"
+    },
+    {
+      "type": "related",
+      "target_id": "27118_etsuranshitsu",
+      "reading": "えつらんしつ",
+      "headword": "{閲覧室|えつらんしつ}",
+      "label": "reading room (in a library or archive)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-11T07:59:52Z",
-    "modified": "2026-03-11T07:59:52Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

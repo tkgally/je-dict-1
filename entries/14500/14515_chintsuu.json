@@ -19,7 +19,9 @@
       "english": "I took a painkiller.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14515_chintsuu_ex2",
@@ -27,7 +29,9 @@
       "english": "My toothache is so bad that I can't do without pain medication.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14515_chintsuu_ex3",
@@ -35,10 +39,12 @@
       "english": "This medicine has both pain-relieving and fever-reducing effects.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {鎮|ちん} (to suppress) + {痛|つう} (pain). Most often used as a modifier in compounds rather than on its own.\n\nCOMMON COMPOUNDS:\n- {鎮痛剤|ちんつうざい} (painkiller, analgesic)\n- {鎮痛薬|ちんつうやく} (pain medication)\n- {鎮痛|ちんつう}{作用|さよう} (analgesic effect)\n- {鎮痛|ちんつう}{効果|こうか} (pain-relieving effect)\n\nUSAGE NOTE:\nIn everyday speech, people more commonly say {痛|いた}み{止|ど}め for \"painkiller.\" {鎮痛剤|ちんつうざい} is the more formal or medical term.",
+  "notes": "Compound of {鎮|ちん} (to suppress) + {痛|つう} (pain). Most often used as a modifier in compounds rather than on its own.\n\nCOMPOUNDS:\n- {鎮痛剤|ちんつうざい} (painkiller, analgesic)\n- {鎮痛薬|ちんつうやく} (pain medication)\n- {鎮痛|ちんつう}{作用|さよう} (analgesic effect)\n- {鎮痛|ちんつう}{効果|こうか} (pain-relieving effect)\n\nUSAGE:\nIn everyday speech, people more commonly say {痛|いた}み{止|ど}め for \"painkiller.\" {鎮痛剤|ちんつうざい} is the more formal or medical term.",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,19 +52,39 @@
       "reading": "いたみどめ",
       "headword": "{痛|いた}み{止|ど}め",
       "label": "painkiller (everyday)"
+    },
+    {
+      "type": "related",
+      "target_id": "19769_chinsei",
+      "reading": "ちんせい",
+      "headword": "{鎮静|ちんせい}",
+      "label": "calming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23429_genetsu",
+      "reading": "げねつ",
+      "headword": "{解熱|げねつ}",
+      "label": "lowering a fever"
     }
   ],
   "metadata": {
     "created": "2026-03-02T05:57:56Z",
-    "modified": "2026-04-30T08:13:46Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{被曝|ひばく}",
   "reading": "ひばく",
   "romaji": "hibaku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "radiation exposure",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Written {被曝|ひばく} with {曝|ばく} (exposure to elements). This is distinct from {被爆|ひばく} (with {爆|ばく} meaning 'bomb'), which specifically means being affected by a bombing, especially an atomic bombing. The distinction is important:\n\n- {被曝|ひばく} ({曝|ばく} = exposure): radiation exposure from any source\n- {被爆|ひばく} ({爆|ばく} = bomb): being bombed, especially being affected by an atomic bomb\n\nCOMMON COLLOCATIONS:\n- {被曝量|ひばくりょう}: radiation exposure dose\n- {被曝|ひばく}{線量|せんりょう}: radiation dose\n- {被曝|ひばく}{限度|げんど}: exposure limit\n- {内部|ないぶ}{被曝|ひばく}: internal radiation exposure\n- {外部|がいぶ}{被曝|ひばく}: external radiation exposure\n\nSIMILAR WORDS:\n- {被爆|ひばく}: being bombed (atomic bombing) — same pronunciation, different kanji and meaning\n- {放射線|ほうしゃせん}: radiation — the radiation itself, not the exposure\n- {汚染|おせん}: contamination — broader term for contamination of any kind",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14998_houshasen",
+      "reading": "ほうしゃせん",
+      "headword": "{放射線|ほうしゃせん}",
+      "label": "radiation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02595_osen",
+      "reading": "おせん",
+      "headword": "{汚染|おせん}",
+      "label": "contamination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21162_shousha",
+      "reading": "しょうしゃ",
+      "headword": "{照射|しょうしゃ}",
+      "label": "irradiation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-07T14:20:29Z",
-    "modified": "2026-04-07T14:20:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

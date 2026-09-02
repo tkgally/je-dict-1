@@ -3,7 +3,7 @@
   "headword": "むっとする",
   "reading": "むっとする",
   "romaji": "muttosuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to be offended; to feel annoyed; to bristle",
   "definitions": [
     {
@@ -81,6 +81,29 @@
   ],
   "notes": "Onomatopoeic verb expressing a sudden, momentary reaction — either internal annoyance or a sensation of oppressive air.\n\nSENSE 1 — TAKING OFFENSE:\n- {一言|ひとこと}にむっとする: to bristle at a single comment\n- むっとした{顔|かお}: an offended look\n- むっとした{表情|ひょうじょう}: an annoyed expression\n\nSENSE 2 — STUFFY AIR:\n- むっとした{熱気|ねっき}: stifling heat\n- むっとする{臭|にお}い: an oppressive smell\n\nSIMILAR WORDS:\n- むっつり: sullen; taciturn (sustained mood, not a reaction)\n- カチンとくる: to get a rise out of; to be irritated by — emphasizes a sharp, hitting sensation\n- {蒸|む}し{暑|あつ}い: muggy; humid (everyday adjective for sense 2)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03751_mushiatsui",
+      "reading": "むしあつい",
+      "headword": "{蒸|む}し{暑|あつ}い",
+      "label": "muggy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19531_kigengawarui",
+      "reading": "きげんがわるい",
+      "headword": "{機嫌|きげん}が{悪|わる}い",
+      "label": "in a bad mood"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22142_musekaeru",
+      "reading": "むせかえる",
+      "headword": "むせ{返|かえ}る",
+      "label": "to choke"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -88,7 +111,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "emotion"
       ],
@@ -96,7 +119,7 @@
       "verb_class": "suru"
     },
     "created": "2026-06-03T02:08:21Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

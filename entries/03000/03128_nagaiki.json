@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "COMPOUND: ⟦{長|なが}い→長い：00491_nagai⟧ (long) + ⟦{生|い}き→生きる：01184_ikiru⟧ (living)\n\nCOMMON EXPRESSIONS:\n- {長生|ながい}き⟦する→する：00392_suru⟧ (to live long)\n- {長生|ながい}き⟦の→の：09472_no⟧⟦{秘訣|ひけつ}→秘訣：13750_hiketsu⟧ (secret to longevity)\n- ⟦{健康|けんこう}→健康：02706_kenkou⟧⟦{長寿|ちょうじゅ}→長寿：14478_chouju⟧ (health and longevity)\n\nRELATED TERMS:\n- ⟦{寿命|じゅみょう}→寿命：12359_jumyou⟧ (lifespan)\n- ⟦{長寿|ちょうじゅ}→長寿：14478_chouju⟧ (longevity - more formal)\n- ⟦{短命|たんめい}→短命：16693_tanmei⟧ (short life)\n\nJapan is known for having one of the longest life expectancies in the world, making {長生|ながい}き a culturally significant concept.",
+  "notes": "COMPOUND: ⟦{長|なが}い→長い：00491_nagai⟧ (long) + ⟦{生|い}き→生きる：01184_ikiru⟧ (living)\n\nCOMMON EXPRESSIONS:\n- {長生|ながい}き⟦する→する：00392_suru⟧ (to live long)\n- {長生|ながい}き⟦の→の：09472_no⟧⟦{秘訣|ひけつ}→秘訣：13750_hiketsu⟧ (secret to longevity)\n- ⟦{健康|けんこう}→健康：02706_kenkou⟧⟦{長寿|ちょうじゅ}→長寿：14478_chouju⟧ (health and longevity)\n\nRELATED WORDS:\n- ⟦{寿命|じゅみょう}→寿命：12359_jumyou⟧ (lifespan)\n- ⟦{長寿|ちょうじゅ}→長寿：14478_chouju⟧ (longevity - more formal)\n- ⟦{短命|たんめい}→短命：16693_tanmei⟧ (short life)\n\nJapan is known for having one of the longest life expectancies in the world, making {長生|ながい}き a culturally significant concept.",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,11 +51,32 @@
       "headword": "{長寿|ちょうじゅ}",
       "label": "formal",
       "target_id": "14478_chouju"
+    },
+    {
+      "type": "related",
+      "target_id": "12359_jumyou",
+      "reading": "じゅみょう",
+      "headword": "{寿命|じゅみょう}",
+      "label": "lifespan"
+    },
+    {
+      "type": "related",
+      "target_id": "16693_tanmei",
+      "reading": "たんめい",
+      "headword": "{短命|たんめい}",
+      "label": "short life"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22138_choumei",
+      "reading": "ちょうめい",
+      "headword": "{長命|ちょうめい}",
+      "label": "long life"
     }
   ],
   "metadata": {
     "created": "2026-01-11T12:58:08Z",
-    "modified": "2026-05-23T22:11:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

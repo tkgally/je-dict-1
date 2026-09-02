@@ -17,7 +17,9 @@
       "id": "26126_boukangu_ex1",
       "japanese": "{防寒具|ぼうかんぐ}を{忘|わす}れずに{持|も}ってきてください。",
       "english": "Please don't forget to bring your cold-weather gear.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26126_boukangu_ex2",
       "japanese": "{冬山|ふゆやま}では{十分|じゅうぶん}な{防寒具|ぼうかんぐ}がないと{危険|きけん}だ。",
       "english": "On winter mountains, it's dangerous without adequate cold-weather gear.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,58 @@
       "id": "26126_boukangu_ex3",
       "japanese": "{気温|きおん}が{急|きゅう}に{下|さ}がったので、{慌|あわ}てて{防寒具|ぼうかんぐ}を{買|か}いに{行|い}った。",
       "english": "The temperature dropped suddenly, so I hurried out to buy cold-weather gear.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {防寒|ぼうかん} (protection from cold) and {具|ぐ} (tool, equipment). A collective term for any items used to keep warm in cold weather, ranging from everyday winter clothing to specialized mountaineering equipment.\n\nThe {具|ぐ} suffix indicates tools or equipment, so {防寒具|ぼうかんぐ} has a slightly more functional nuance than {防寒着|ぼうかんぎ} (cold-weather clothing), which refers specifically to garments. {防寒具|ぼうかんぐ} can include non-clothing items like hand warmers or blankets.\n\nCOMMON COLLOCATIONS:\n- {防寒具|ぼうかんぐ}を{身|み}につける: to put on cold-weather gear\n- {防寒具|ぼうかんぐ}を{用意|ようい}する: to prepare cold-weather gear\n- {防寒具|ぼうかんぐ}を{揃|そろ}える: to get a full set of cold-weather gear\n- {十分|じゅうぶん}な{防寒具|ぼうかんぐ}: adequate cold-weather gear\n\nSIMILAR WORDS:\n- {防寒着|ぼうかんぎ}: cold-weather clothing — specifically garments, not equipment in general\n- {冬物|ふゆもの}: winter items — broader term for winter goods including clothing and accessories\n- {防寒|ぼうかん}: cold protection — the concept itself, not the physical items",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20243_boukangi",
+      "reading": "ぼうかんぎ",
+      "headword": "{防寒着|ぼうかんぎ}",
+      "label": "cold-weather clothing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27498_fuyumono",
+      "reading": "ふゆもの",
+      "headword": "{冬物|ふゆもの}",
+      "label": "winter items"
+    },
+    {
+      "type": "related",
+      "target_id": "18468_medashibou",
+      "reading": "めだしぼう",
+      "headword": "{目出|めだ}し{帽|ぼう}",
+      "label": "balaclava"
+    },
+    {
+      "type": "related",
+      "target_id": "25728_boukanfuku",
+      "reading": "ぼうかんふく",
+      "headword": "{防寒服|ぼうかんふく}",
+      "label": "cold-weather clothing"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ]
     },
     "created": "2026-04-29T14:34:53Z",
-    "modified": "2026-04-29T14:34:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

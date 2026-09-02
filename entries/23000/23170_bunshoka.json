@@ -3,7 +3,7 @@
   "headword": "{文書化|ぶんしょか}",
   "reading": "ぶんしょか",
   "romaji": "bunshoka",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "documentation; putting into writing",
   "definitions": [
     {
@@ -56,6 +56,22 @@
   ],
   "notes": "Composed of {文書|ぶんしょ} (document, written text) and {化|か} (suffix meaning \"-ization\"). Refers to the process of converting spoken agreements, informal practices, or tacit knowledge into formal written documents. Common in business and organizational contexts.\n\nCOMMON COLLOCATIONS:\n- {手順|てじゅん}を{文書化|ぶんしょか}する: to document a procedure\n- {文書化|ぶんしょか}された{記録|きろく}: documented records\n- {文書化|ぶんしょか}が{不十分|ふじゅうぶん}: insufficient documentation\n- {業務|ぎょうむ}の{文書化|ぶんしょか}: documentation of tasks\n\nSIMILAR WORDS:\n- {記録|きろく}: record, documentation — broader term for recording any kind of information\n- {書面化|しょめんか}: putting into written form — more formal, emphasizing the physical written document\n- マニュアル{化|か}: creating a manual — focuses on making instructional documents",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02490_kiroku",
+      "reading": "きろく",
+      "headword": "{記録|きろく}",
+      "label": "record, documentation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27140_bunshouka",
+      "reading": "ぶんしょうか",
+      "headword": "{文章化|ぶんしょうか}",
+      "label": "putting into writing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -71,7 +87,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-08T21:18:27Z",
-    "modified": "2026-04-08T21:18:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

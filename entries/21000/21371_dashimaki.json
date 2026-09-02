@@ -17,7 +17,9 @@
       "id": "21371_dashimaki_ex1",
       "japanese": "{出汁巻|だしま}き{卵|たまご}を{焼|や}いた。",
       "english": "I made a dashi-rolled omelette.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21371_dashimaki_ex2",
       "japanese": "お{弁当|べんとう}に{出汁巻|だしま}きを{入|い}れた。",
       "english": "I put dashi omelette in the lunch box.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,46 @@
       "id": "21371_dashimaki_ex3",
       "japanese": "{出汁|だし}がたっぷり{入|はい}った{出汁巻|だしま}きは、{箸|はし}で{切|き}ると{汁|しる}がじゅわっと{出|で}てくる。",
       "english": "A dashi omelette packed with broth oozes juices when you cut it with chopsticks.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Short for {出汁巻|だしま}き{卵|たまご}. A staple of Japanese home cooking and bento boxes. Distinguished from {卵焼|たまごや}き by the addition of {出汁|だし} (soup stock), which makes it softer and more moist. Particularly associated with Kansai-style cooking, where a lighter, more savory version is preferred over the sweeter Kanto-style {卵焼|たまごや}き.\n\nCOMMON COLLOCATIONS:\n- {出汁巻|だしま}き{卵|たまご}: dashi-rolled egg (full form)\n- {出汁巻|だしま}きを{巻|ま}く: to roll a dashi omelette\n- ふわふわの{出汁巻|だしま}き: fluffy dashi omelette\n\nSIMILAR WORDS:\n- {卵焼|たまごや}き: Japanese rolled omelette — the broader category; often sweeter, may not contain dashi\n- {厚焼|あつや}き{卵|たまご}: thick omelette — a thicker, firmer style\n- {茶碗蒸|ちゃわんむ}し: savory egg custard — also uses dashi but steamed, not rolled",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10367_tamagoyaki",
+      "reading": "たまごやき",
+      "headword": "{卵焼|たまごや}き",
+      "label": "Japanese rolled omelette"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17312_chawanmushi",
+      "reading": "ちゃわんむし",
+      "headword": "{茶碗蒸|ちゃわんむ}し",
+      "label": "savory egg custard"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "cooking", "culture"]
+      "semantic": [
+        "food",
+        "cooking",
+        "culture"
+      ]
     },
     "created": "2026-04-02T01:42:42Z",
-    "modified": "2026-04-02T01:42:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

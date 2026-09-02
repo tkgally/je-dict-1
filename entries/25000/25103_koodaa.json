@@ -17,7 +17,9 @@
       "id": "25103_koodaa_ex1",
       "japanese": "コーダーとして{働|はたら}いている。",
       "english": "I work as a coder.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25103_koodaa_ex2",
       "japanese": "{優秀|ゆうしゅう}なコーダーを{採用|さいよう}したい。",
       "english": "We want to hire a talented coder.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,45 @@
       "id": "25103_koodaa_ex3",
       "japanese": "デザイナーが{作|つく}ったデザインを、コーダーがHTMLとCSSで{再現|さいげん}する。",
       "english": "The coder reproduces the design created by the designer using HTML and CSS.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A loanword from English 'coder.' In the Japanese IT industry, コーダー often refers specifically to someone who converts designs into HTML/CSS markup or writes code based on specifications, as opposed to engineers who design systems. The term can sometimes carry a nuance of lower-level implementation work compared to プログラマー or エンジニア.\n\nCOMMON COLLOCATIONS:\n- コーダーを{募集|ぼしゅう}する: to recruit coders\n- フロントエンドコーダー: front-end coder\n- コーダーの{仕事|しごと}: coder's work\n\nSIMILAR WORDS:\n- プログラマー: programmer — a broader term for someone who writes programs\n- エンジニア: engineer — typically implies broader responsibilities including design\n- デベロッパー: developer — similar to programmer but often used for web/app development\n- マークアップエンジニア: markup engineer — a more respected title for HTML/CSS coding work",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05060_puroguramaa",
+      "reading": "ぷろぐらまー",
+      "headword": "プログラマー",
+      "label": "programmer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05059_enjinia",
+      "reading": "えんじにあ",
+      "headword": "エンジニア",
+      "label": "engineer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["technology", "work"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "technology",
+        "work"
+      ]
     },
     "created": "2026-04-22T14:45:12Z",
-    "modified": "2026-04-22T14:45:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

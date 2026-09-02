@@ -45,7 +45,29 @@
     }
   ],
   "notes": "A compound of {叫|さけ}ぶ (to shout/scream) and {声|こえ} (voice), with {声|こえ} undergoing rendaku to become ごえ. Covers a wide range from excited shouts to terrified screams, with context determining the nature of the sound.\n\nCOMMON COLLOCATIONS:\n- {叫|さけ}び{声|ごえ}を{上|あ}げる: to let out a scream\n- {叫|さけ}び{声|ごえ}が{聞|き}こえる: to hear a scream\n- {叫|さけ}び{声|ごえ}が{響|ひび}く: a scream echoes\n- {恐怖|きょうふ}の{叫|さけ}び{声|ごえ}: a scream of terror\n- {歓喜|かんき}の{叫|さけ}び{声|ごえ}: a shout of joy\n\nSIMILAR WORDS:\n- {悲鳴|ひめい}: scream — specifically a scream of fear or pain; always negative\n- {怒鳴|どな}り{声|ごえ}: angry shout — specifically shouting in anger\n- {歓声|かんせい}: cheer — specifically a positive shout of excitement or celebration",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12621_himei",
+      "reading": "ひめい",
+      "headword": "{悲鳴|ひめい}",
+      "label": "scream"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02686_kansei",
+      "reading": "かんせい",
+      "headword": "{歓声|かんせい}",
+      "label": "cheer"
+    },
+    {
+      "type": "related",
+      "target_id": "22810_kanakirigoe",
+      "reading": "かなきりごえ",
+      "headword": "{金切|かなき}り{声|ごえ}",
+      "label": "shrill voice"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +83,6 @@
       "domain": []
     },
     "created": "2026-05-05T16:15:44Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

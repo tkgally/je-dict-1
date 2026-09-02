@@ -17,7 +17,9 @@
       "id": "26365_doamiraa_ex1",
       "japanese": "ドアミラーを{調整|ちょうせい}してください。",
       "english": "Please adjust the side mirrors.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26365_doamiraa_ex2",
       "japanese": "{車線変更|しゃせんへんこう}の{前|まえ}にドアミラーを{確認|かくにん}する。",
       "english": "Check the side mirror before changing lanes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26365_doamiraa_ex3",
       "japanese": "{狭|せま}い{道|みち}でドアミラーを{擦|こす}ってしまい、{修理|しゅうり}に{出|だ}した。",
       "english": "I scraped the side mirror on a narrow road and had to get it repaired.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A wasei-eigo compound (English \"door\" + \"mirror\"). In English, the same part is called a \"side mirror,\" \"wing mirror\" (British), or \"side-view mirror.\" The Japanese term emphasizes the mounting location (on the door) rather than the function.\n\nOlder Japanese cars used {フェンダーミラー} (fender mirrors) mounted on the front fenders. Japan was one of the last countries to allow ドアミラー, which became legal in 1983 and quickly became standard. Fender mirrors are now rare but still seen on some taxis.\n\nCOMMON COLLOCATIONS:\n- ドアミラーを{調整|ちょうせい}する: to adjust the side mirror\n- ドアミラーを{確認|かくにん}する: to check the side mirror\n- ドアミラーを{畳|たた}む: to fold in the side mirror\n- {電動|でんどう}ドアミラー: power-folding side mirror\n\nRELATED TERMS:\n- フェンダーミラー: fender mirror — older style, mounted on front fender\n- バックミラー: rearview mirror — the interior mirror\n- ルームミラー: room mirror — another term for the interior rearview mirror\n- サイドミラー: side mirror — less common synonym of ドアミラー",
-  "cross_references": [],
+  "notes": "A wasei-eigo compound (English \"door\" + \"mirror\"). In English, the same part is called a \"side mirror,\" \"wing mirror\" (British), or \"side-view mirror.\" The Japanese term emphasizes the mounting location (on the door) rather than the function.\n\nOlder Japanese cars used フェンダーミラー (fender mirrors) mounted on the front fenders. Japan was one of the last countries to allow ドアミラー, which became legal in 1983 and quickly became standard. Fender mirrors are now rare but still seen on some taxis.\n\nCOMMON COLLOCATIONS:\n- ドアミラーを{調整|ちょうせい}する: to adjust the side mirror\n- ドアミラーを{確認|かくにん}する: to check the side mirror\n- ドアミラーを{畳|たた}む: to fold in the side mirror\n- {電動|でんどう}ドアミラー: power-folding side mirror\n\nRELATED WORDS:\n- フェンダーミラー: fender mirror — older style, mounted on front fender\n- バックミラー: rearview mirror — the interior mirror\n- ルームミラー: room mirror — another term for the interior rearview mirror\n- サイドミラー: side mirror — less common synonym of ドアミラー",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07333_bakkumiraa",
+      "reading": "ばっくみらー",
+      "headword": "バックミラー",
+      "label": "rearview mirror"
+    },
+    {
+      "type": "related",
+      "target_id": "06552_saidomiraa",
+      "reading": "さいどみらー",
+      "headword": "サイドミラー",
+      "label": "side mirror"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["transportation", "daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "transportation",
+        "daily-life"
+      ]
     },
     "created": "2026-05-01T12:40:13Z",
-    "modified": "2026-05-01T12:40:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "11540_henkutsu",
   "headword": "{偏屈|へんくつ}",
   "reading": "へんくつ",
-  "part_of_speech": "na-adjective / noun",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "eccentric, stubborn, cranky",
   "definitions": [
     {
@@ -18,7 +18,9 @@
       "english": "A cranky old man.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11540_henkutsu_ex2",
@@ -26,7 +28,9 @@
       "english": "That teacher is eccentric but undeniably skilled.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11540_henkutsu_ex3",
@@ -34,22 +38,65 @@
       "english": "My family tells me I've become more stubborn as I've gotten older.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{偏屈|へんくつ} describes someone with a difficult, contrary personality who holds rigid or unusual opinions and is hard to get along with. It is always negative.\n\nFORMS:\n- {偏屈|へんくつ}な〜: modifier ({偏屈|へんくつ}な{人|ひと})\n- {偏屈|へんくつ}に: adverbially\n- {偏屈|へんくつ}: noun (eccentricity, stubbornness)\n\nCOMMON COLLOCATIONS:\n- {偏屈|へんくつ}な{老人|ろうじん}: cranky old person\n- {偏屈|へんくつ}な{性格|せいかく}: stubborn/difficult personality\n- {偏屈|へんくつ}になる: to become eccentric/stubborn\n\nUSAGE:\nOften used to describe elderly people who have become set in their ways. Implies both stubbornness and social awkwardness — not just being opinionated, but being unpleasant about it.\n\nSIMILAR WORDS:\n- {頑固|がんこ}: stubborn (neutral to slightly negative)\n- {気難|きむずか}しい: hard to please, fussy\n- {変|へん}わり{者|もの}: eccentric (can be neutral or positive)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06643_ganko",
+      "reading": "がんこ",
+      "headword": "{頑固|がんこ}",
+      "label": "stubborn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10909_kimuzukashii",
+      "reading": "きむずかしい",
+      "headword": "{気難|きむずか}しい",
+      "label": "hard to please, fussy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19559_hinekureru",
+      "reading": "ひねくれる",
+      "headword": "ひねくれる",
+      "label": "to become twisted"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23033_hinekuremono",
+      "reading": "ひねくれもの",
+      "headword": "ひねくれ{者|もの}",
+      "label": "contrary person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23153_tsumujimagari",
+      "reading": "つむじまがり",
+      "headword": "つむじまがり",
+      "label": "perverse person"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T02:58:20Z",
-    "modified": "2026-04-02T08:18:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person-character"]
+      "semantic": [
+        "person-character"
+      ]
     }
   }
 }

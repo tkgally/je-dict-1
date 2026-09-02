@@ -3,7 +3,7 @@
   "headword": "{非専門|ひせんもん}",
   "reading": "ひせんもん",
   "romaji": "hisenmon",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "non-specialist; non-expert; lay",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Composed of {非|ひ} (non-/un-) and {専門|せんもん} (specialty/expertise). Used as a modifier to indicate that something is aimed at or involves people without specialized knowledge. The prefix {非|ひ} is highly productive and attaches to many nouns to negate them.\n\nCOMMON COLLOCATIONS:\n- {非専門|ひせんもん}{家|か}: non-expert; layperson\n- {非専門|ひせんもん}の{読者|どくしゃ}: non-specialist readers\n- {非専門|ひせんもん}{分野|ぶんや}: non-specialist field\n\nSIMILAR WORDS:\n- {素人|しろうと}: amateur/layperson — more casual, sometimes slightly dismissive\n- {門外漢|もんがいかん}: outsider to a field — literary, emphasizes being outside the discipline\n- {専門|せんもん}: specialty/expertise — the base word, the opposite\n- {専門外|せんもんがい}: outside one's specialty — personal (about one's own limits)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04270_shirouto",
+      "reading": "しろうと",
+      "headword": "{素人|しろうと}",
+      "label": "amateur/layperson"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14559_mongaikan",
+      "reading": "もんがいかん",
+      "headword": "{門外漢|もんがいかん}",
+      "label": "outsider to a field"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26018_senmongai",
+      "reading": "せんもんがい",
+      "headword": "{専門外|せんもんがい}",
+      "label": "outside one's specialty"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,11 +76,12 @@
         "noun",
         "adjective-no"
       ],
+      "politeness": "plain",
       "semantic": [
         "education"
       ]
     },
     "created": "2026-05-04T14:21:47Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

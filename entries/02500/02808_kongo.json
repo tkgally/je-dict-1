@@ -2,7 +2,7 @@
   "id": "02808_kongo",
   "headword": "{今後|こんご}",
   "reading": "こんご",
-  "part_of_speech": "noun / adverb",
+  "part_of_speech": "noun, adverb",
   "gloss": "from now on, hereafter",
   "definitions": [
     {
@@ -63,11 +63,47 @@
       ]
     }
   ],
-  "notes": "{今後|こんご} means from now onward.\n\nCOMMON PATTERNS:\n- {今後|こんご}とも (continuing from now on)\n- {今後|こんご}⟦の→の：09472_no⟧〜 (future ~)\n- {今後|こんご}⟦は→は：00079_ha⟧〜⟦する→する：00392_suru⟧ (will ~ from now on)\n\nSIMILAR EXPRESSIONS:\n- {今後|こんご}: from now on (formal)\n- ⟦これから→これから：01287_korekara⟧: from now on (casual)\n- ⟦{将来|しょうらい}→将来：01438_shourai⟧: future, in the future\n- ⟦{以後|いご}→以後：01710_igo⟧: after this, hereafter",
-  "cross_references": [],
+  "notes": "{今後|こんご} means from now onward.\n\nCOMMON PATTERNS:\n- {今後|こんご}とも (continuing from now on)\n- {今後|こんご}⟦の→の：09472_no⟧〜 (future ~)\n- {今後|こんご}⟦は→は：00079_ha⟧〜⟦する→する：00392_suru⟧ (will ~ from now on)\n\nSIMILAR WORDS:\n- {今後|こんご}: from now on (formal)\n- ⟦これから→これから：01287_korekara⟧: from now on (casual)\n- ⟦{将来|しょうらい}→将来：01438_shourai⟧: future, in the future\n- ⟦{以後|いご}→以後：01710_igo⟧: after this, hereafter",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01287_korekara",
+      "reading": "これから",
+      "headword": "これから",
+      "label": "from now on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01438_shourai",
+      "reading": "しょうらい",
+      "headword": "{将来|しょうらい}",
+      "label": "future, in the future"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01710_igo",
+      "reading": "いご",
+      "headword": "{以後|いご}",
+      "label": "after this, hereafter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21872_shouraiteki",
+      "reading": "しょうらいてき",
+      "headword": "{将来的|しょうらいてき}",
+      "label": "future"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25928_koreyori",
+      "reading": "これより",
+      "headword": "これより",
+      "label": "from now"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T08:51:30Z",
-    "modified": "2026-05-22T15:14:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

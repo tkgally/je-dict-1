@@ -19,7 +19,9 @@
       "english": "Is your wife well?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12337_okusama_ex2",
@@ -27,7 +29,9 @@
       "english": "I greeted the company president's wife.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12337_okusama_ex3",
@@ -35,10 +39,12 @@
       "english": "Madam, this way please.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{奥様|おくさま} is the polite/honorific form used when referring to someone else's wife or addressing a married woman respectfully.\n\nFORMS:\n- {奥様|おくさま}: polite/honorific (most respectful)\n- {奥|おく}さん: polite but less formal (everyday use)\n- {奥方|おくがた}: very formal, literary\n\nIMPORTANT:\n{奥様|おくさま} and {奥|おく}さん are used only for someone else's wife, never for one's own. To refer to one's own wife, use {妻|つま} (neutral) or {家内|かない} (traditional).\n\nSIMILAR WORDS:\n- {妻|つま}: wife (neutral, used for one's own wife)\n- {家内|かない}: my wife (humble, traditional)\n- {嫁|よめ}: wife, bride (casual/regional)",
+  "notes": "{奥様|おくさま} is the polite/honorific form used when referring to someone else's wife or addressing a married woman respectfully.\n\nFORMS:\n- {奥様|おくさま}: polite/honorific (most respectful)\n- {奥|おく}さん: polite but less formal (everyday use)\n- {奥方|おくがた}: very formal, literary\n\nWATCH OUT:\n{奥様|おくさま} and {奥|おく}さん are used only for someone else's wife, never for one's own. To refer to one's own wife, use {妻|つま} (neutral) or {家内|かない} (traditional).\n\nSIMILAR WORDS:\n- {妻|つま}: wife (neutral, used for one's own wife)\n- {家内|かない}: my wife (humble, traditional)\n- {嫁|よめ}: wife, bride (casual/regional)",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,18 +52,36 @@
       "reading": "つま",
       "headword": "{妻|つま}",
       "label": "wife (neutral, own wife)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00958_kanai",
+      "reading": "かない",
+      "headword": "{家内|かない}",
+      "label": "my wife"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03670_yome",
+      "reading": "よめ",
+      "headword": "{嫁|よめ}",
+      "label": "wife, bride"
     }
   ],
   "metadata": {
     "created": "2026-02-21T02:56:32Z",
-    "modified": "2026-04-26T09:20:33Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "honorific",
-      "semantic": ["family"]
+      "semantic": [
+        "family"
+      ]
     }
   }
 }

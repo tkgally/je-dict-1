@@ -19,7 +19,9 @@
       "english": "The limited edition sold out immediately.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17391_genteiban_ex2",
@@ -27,7 +29,9 @@
       "english": "The limited edition of this game comes with bonus items.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17391_genteiban_ex3",
@@ -35,21 +39,50 @@
       "english": "Limited editions are more expensive than regular editions, but they are popular with collectors.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {限定|げんてい} (limited) and {版|ばん} (edition). Used across many product categories — games, books, DVDs, figures, and more.\n\nCOMMON COLLOCATIONS:\n- {数量|すうりょう}{限定版|げんていばん} (quantity-limited edition)\n- {初回|しょかい}{限定版|げんていばん} (first-run limited edition)\n- {限定版|げんていばん}を{予約|よやく}する (to preorder the limited edition)\n\nSIMILAR WORDS:\n- {通常版|つうじょうばん}: regular edition — the standard version, as opposed to {限定版|げんていばん}\n- {改訂版|かいていばん}: revised edition — an updated version of a publication",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17716_kaiteiban",
+      "reading": "かいていばん",
+      "headword": "{改訂版|かいていばん}",
+      "label": "revised edition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24333_tokubetsuban",
+      "reading": "とくべつばん",
+      "headword": "{特別版|とくべつばん}",
+      "label": "special edition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24861_goukaban",
+      "reading": "ごうかばん",
+      "headword": "{豪華版|ごうかばん}",
+      "label": "deluxe edition"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T10:34:13Z",
-    "modified": "2026-03-17T10:34:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["shopping", "entertainment"]
+      "semantic": [
+        "shopping",
+        "entertainment"
+      ]
     }
   }
 }

@@ -17,7 +17,9 @@
       "id": "21690_dairiten_ex1",
       "japanese": "{旅行|りょこう}{代理店|だいりてん}で{航空|こうくう}{券|けん}を{予約|よやく}した。",
       "english": "I booked a plane ticket at a travel agency.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21690_dairiten_ex2",
       "japanese": "この{車|くるま}の{正規|せいき}{代理店|だいりてん}はどこですか。",
       "english": "Where is the authorized dealer for this car?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,72 @@
       "id": "21690_dairiten_ex3",
       "japanese": "{広告|こうこく}{代理店|だいりてん}に{新|あたら}しいキャンペーンの{企画|きかく}を{依頼|いらい}した。",
       "english": "We asked the advertising agency to plan a new campaign.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {代理|だいり} (proxy, agent) + {店|てん} (shop, business). Very common in business contexts.\n\nCOMMON COLLOCATIONS:\n- {旅行|りょこう}{代理店|だいりてん}: travel agency\n- {広告|こうこく}{代理店|だいりてん}: advertising agency\n- {保険|ほけん}{代理店|だいりてん}: insurance agency\n- {正規|せいき}{代理店|だいりてん}: authorized dealer\n- {販売|はんばい}{代理店|だいりてん}: sales agent/distributor\n\nSIMILAR WORDS:\n- {代理人|だいりにん}: agent (a person, not a business)\n- {販売店|はんばいてん}: retail shop (sells directly, may not be an agent)\n- {仲介|ちゅうかい}{業者|ぎょうしゃ}: broker, intermediary",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18508_dairinin",
+      "reading": "だいりにん",
+      "headword": "{代理人|だいりにん}",
+      "label": "agent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20898_hanbaiten",
+      "reading": "はんばいてん",
+      "headword": "{販売店|はんばいてん}",
+      "label": "retail shop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20450_chokueiten",
+      "reading": "ちょくえいてん",
+      "headword": "{直営店|ちょくえいてん}",
+      "label": "company-operated store"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24107_toriatsukaiten",
+      "reading": "とりあつかいてん",
+      "headword": "{取扱店|とりあつかいてん}",
+      "label": "authorized dealer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25100_toritsugiten",
+      "reading": "とりつぎてん",
+      "headword": "{取次店|とりつぎてん}",
+      "label": "agency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26200_senbaiten",
+      "reading": "せんばいてん",
+      "headword": "{専売店|せんばいてん}",
+      "label": "exclusive dealer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-04-02T21:23:35Z",
-    "modified": "2026-04-02T21:23:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

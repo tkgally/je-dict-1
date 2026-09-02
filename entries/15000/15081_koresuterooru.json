@@ -19,7 +19,9 @@
       "english": "I was told my cholesterol is high.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15081_koresuterooru_ex2",
@@ -27,7 +29,9 @@
       "english": "Eggs contain a lot of cholesterol.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15081_koresuterooru_ex3",
@@ -35,21 +39,63 @@
       "english": "You can lower your cholesterol levels through diet and exercise.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "From English/German \"cholesterol.\" A fatty substance in the blood; high levels are associated with cardiovascular disease. Commonly discussed in health checkups ({健康診断|けんこうしんだん}).\n\nTWO MAIN TYPES:\n- {善玉|ぜんだま}コレステロール: HDL, \"good\" cholesterol\n- {悪玉|あくだま}コレステロール: LDL, \"bad\" cholesterol\n\nCOMMON COLLOCATIONS:\n- コレステロール{値|ち}: cholesterol level\n- コレステロールが{高|たか}い: to have high cholesterol\n- コレステロールを{下|さ}げる: to lower cholesterol\n- コレステロールが{多|おお}い: high in cholesterol (of foods)\n\nRELATED HEALTH TERMS:\n- {中性脂肪|ちゅうせいしぼう}: triglycerides\n- {動脈硬化|どうみゃくこうか}: arteriosclerosis\n- {血圧|けつあつ}: blood pressure\n- {生活習慣病|せいかつしゅうかんびょう}: lifestyle disease",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23227_chuuseishibou",
+      "reading": "ちゅうせいしぼう",
+      "headword": "{中性脂肪|ちゅうせいしぼう}",
+      "label": "triglycerides"
+    },
+    {
+      "type": "related",
+      "target_id": "24512_doumyakukouka",
+      "reading": "どうみゃくこうか",
+      "headword": "{動脈硬化|どうみゃくこうか}",
+      "label": "arteriosclerosis"
+    },
+    {
+      "type": "related",
+      "target_id": "00218_ketsuatsu",
+      "reading": "けつあつ",
+      "headword": "{血圧|けつあつ}",
+      "label": "blood pressure"
+    },
+    {
+      "type": "related",
+      "target_id": "08620_seikatsushuukanbyou",
+      "reading": "せいかつしゅうかんびょう",
+      "headword": "{生活習慣病|せいかつしゅうかんびょう}",
+      "label": "lifestyle disease"
+    },
+    {
+      "type": "related",
+      "target_id": "23797_shibousan",
+      "reading": "しぼうさん",
+      "headword": "{脂肪酸|しぼうさん}",
+      "label": "fatty acid"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T06:54:27Z",
-    "modified": "2026-04-02T10:36:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["health"]
+      "semantic": [
+        "health"
+      ]
     }
   }
 }

@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{体積|たいせき} is a mathematical and scientific term for three-dimensional volume — the amount of space an object occupies.\n\nKANJI:\n⟦{体|たい}→体：noentry⟧ (body, object) + ⟦{積|せき}→積：noentry⟧ (accumulation, product). Literally the \"accumulated space of a body.\"\n\nCOMMON EXPRESSIONS:\n- {体積|たいせき}⟦を→を：00422_wo⟧⟦{測|はか}る→測る：01977_hakaru⟧: to measure volume\n- {体積|たいせき}⟦を→を：00422_wo⟧⟦{計算|けいさん}→計算：02697_keisan⟧⟦する→する：00392_suru⟧: to calculate volume\n- {体積|たいせき}⟦が→が：00051_ga⟧⟦{増|ふ}える→増える：01183_fueru⟧: volume increases\n- {体積|たいせき}⟦が→が：00051_ga⟧⟦{大|おお}きい→大きい：00335_ookii⟧/⟦{小|ちい}さい→小さい：00025_chiisai⟧: large/small in volume\n\nUNITS:\n- ⟦{立方|りっぽう}→立方：24083_rippou⟧⟦メートル→メートル：02975_meetoru⟧ (m³): cubic meter\n- ⟦{立方|りっぽう}→立方：24083_rippou⟧⟦センチメートル→センチメートル：23738_senchimeetoru⟧ (cm³): cubic centimeter\n- ⟦リットル→リットル：11007_rittoru⟧: liter\n\nRELATED WORDS:\n- ⟦{面積|めんせき}→面積：05330_menseki⟧: area (2D measurement)\n- ⟦{容積|ようせき}→容積：15815_youseki⟧: capacity, internal volume\n- ⟦{容量|ようりょう}→容量：04887_youryou⟧: capacity (also used for digital storage)\n\nREGISTER:\nFormal/technical. Learned in school math and science classes.",
+  "notes": "{体積|たいせき} is a mathematical and scientific term for three-dimensional volume — the amount of space an object occupies.\n\nWRITING:\n⟦{体|たい}→体：noentry⟧ (body, object) + ⟦{積|せき}→積：noentry⟧ (accumulation, product). Literally the \"accumulated space of a body.\"\n\nCOMMON EXPRESSIONS:\n- {体積|たいせき}⟦を→を：00422_wo⟧⟦{測|はか}る→測る：01977_hakaru⟧: to measure volume\n- {体積|たいせき}⟦を→を：00422_wo⟧⟦{計算|けいさん}→計算：02697_keisan⟧⟦する→する：00392_suru⟧: to calculate volume\n- {体積|たいせき}⟦が→が：00051_ga⟧⟦{増|ふ}える→増える：01183_fueru⟧: volume increases\n- {体積|たいせき}⟦が→が：00051_ga⟧⟦{大|おお}きい→大きい：00335_ookii⟧/⟦{小|ちい}さい→小さい：00025_chiisai⟧: large/small in volume\n\nUNITS:\n- ⟦{立方|りっぽう}→立方：24083_rippou⟧⟦メートル→メートル：02975_meetoru⟧ (m³): cubic meter\n- ⟦{立方|りっぽう}→立方：24083_rippou⟧⟦センチメートル→センチメートル：23738_senchimeetoru⟧ (cm³): cubic centimeter\n- ⟦リットル→リットル：11007_rittoru⟧: liter\n\nRELATED WORDS:\n- ⟦{面積|めんせき}→面積：05330_menseki⟧: area (2D measurement)\n- ⟦{容積|ようせき}→容積：15815_youseki⟧: capacity, internal volume\n- ⟦{容量|ようりょう}→容量：04887_youryou⟧: capacity (also used for digital storage)\n\nREGISTER:\nFormal/technical. Learned in school math and science classes.",
   "cross_references": [
     {
       "type": "contrast",
@@ -51,11 +51,32 @@
       "reading": "ようせき",
       "headword": "{容積|ようせき}",
       "label": "capacity; inside container"
+    },
+    {
+      "type": "related",
+      "target_id": "05330_menseki",
+      "reading": "めんせき",
+      "headword": "{面積|めんせき}",
+      "label": "area"
+    },
+    {
+      "type": "related",
+      "target_id": "04887_youryou",
+      "reading": "ようりょう",
+      "headword": "{容量|ようりょう}",
+      "label": "capacity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28898_hyoumenseki",
+      "reading": "ひょうめんせき",
+      "headword": "{表面積|ひょうめんせき}",
+      "label": "surface area"
     }
   ],
   "metadata": {
     "created": "2026-01-14T00:33:36Z",
-    "modified": "2026-05-31T20:09:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

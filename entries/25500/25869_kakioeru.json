@@ -3,7 +3,7 @@
   "headword": "{書|か}き{終|お}える",
   "reading": "かきおえる",
   "romaji": "kakioeru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to finish writing",
   "definitions": [
     {
@@ -55,7 +55,15 @@
     }
   ],
   "notes": "A compound verb formed from {書|か}く (to write) + {終|お}える (to finish). The auxiliary verb {終|お}える attaches to the masu-stem of verbs to express completion of an action. This is one of the most common compound verb patterns in Japanese.\n\nCOMMON COLLOCATIONS:\n- レポートを{書|か}き{終|お}える: finish writing a report\n- {手紙|てがみ}を{書|か}き{終|お}える: finish writing a letter\n- {原稿|げんこう}を{書|か}き{終|お}える: finish writing a manuscript\n- {論文|ろんぶん}を{書|か}き{終|お}える: finish writing a thesis\n\nSIMILAR PATTERNS:\n- {読|よ}み{終|お}える: finish reading\n- {食|た}べ{終|お}える: finish eating\n- {飲|の}み{終|お}える: finish drinking\n\nSIMILAR WORDS:\n- {書|か}き{上|あ}げる: finish writing (with nuance of completing a major work)\n- {書|か}き{終|お}わる: finish writing (intransitive variant — the writing is finished)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06978_kakiageru",
+      "reading": "かきあげる",
+      "headword": "{書|か}き{上|あ}げる",
+      "label": "finish writing"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,6 +71,8 @@
       "pos": [
         "verb-ichidan"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "communication",
         "action"
@@ -70,7 +80,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-04-27T16:21:44Z",
-    "modified": "2026-08-04T21:28:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

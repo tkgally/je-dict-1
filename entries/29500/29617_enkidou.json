@@ -17,7 +17,9 @@
       "id": "29617_enkidou_ex1",
       "japanese": "{衛星|えいせい}が{円軌道|えんきどう}を{描|えが}く。",
       "english": "The satellite traces a circular orbit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29617_enkidou_ex2",
       "japanese": "{人工衛星|じんこうえいせい}を{円軌道|えんきどう}に{乗|の}せる。",
       "english": "To put an artificial satellite into a circular orbit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "29617_enkidou_ex3",
       "japanese": "この{惑星|わくせい}はほぼ{円軌道|えんきどう}で{太陽|たいよう}の{周|まわ}りを{回|まわ}っている。",
       "english": "This planet moves around the sun in a nearly circular orbit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -46,19 +52,30 @@
       "reading": "きどう",
       "headword": "{軌道|きどう}",
       "label": "orbit; trajectory"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29619_seishikidou",
+      "reading": "せいしきどう",
+      "headword": "{静止軌道|せいしきどう}",
+      "label": "geostationary orbit"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["science"],
+      "politeness": "plain",
+      "semantic": [
+        "science"
+      ],
       "domain": []
     },
     "created": "2026-07-01T18:18:59Z",
-    "modified": "2026-07-01T18:18:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

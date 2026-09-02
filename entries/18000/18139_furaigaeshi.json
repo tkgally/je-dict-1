@@ -19,7 +19,9 @@
       "english": "I flipped the hamburger patty with a spatula.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18139_furaigaeshi_ex2",
@@ -27,7 +29,9 @@
       "english": "When you don't have a spatula, you can use chopsticks as a substitute.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18139_furaigaeshi_ex3",
@@ -35,21 +39,43 @@
       "english": "For Teflon pans, it's better to use a silicone spatula rather than a metal one.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "フライ{返|がえ}し literally means \"fry-flipper\" — a flat kitchen utensil for turning food while cooking.\n\nWORD FORMATION:\nフライ (fry) + {返|かえ}し (from {返|かえ}す, to turn over). The word describes the tool's function: flipping fried food.\n\nALTERNATIVE NAMES:\n- ターナー: from English \"turner\" (also common)\n- ヘラ: a broader term for any flat spatula\n\nCOMMON COLLOCATIONS:\n- フライ{返|がえ}しで{返|かえ}す: to flip with a spatula\n- フライ{返|がえ}しで{盛|も}り{付|つ}ける: to plate food with a spatula\n- {木|き}のフライ{返|がえ}し: wooden spatula\n- シリコンのフライ{返|がえ}し: silicone spatula\n\nNOTE:\nFor non-stick pans (テフロン), silicone or wooden spatulas are recommended to avoid scratching the coating.",
-  "cross_references": [],
+  "notes": "フライ{返|がえ}し literally means \"fry-flipper\" — a flat kitchen utensil for turning food while cooking.\n\nFORMS:\nフライ (fry) + {返|かえ}し (from {返|かえ}す, to turn over). The word describes the tool's function: flipping fried food.\n\nALTERNATIVE NAMES:\n- ターナー: from English \"turner\" (also common)\n- ヘラ: a broader term for any flat spatula\n\nCOMMON COLLOCATIONS:\n- フライ{返|がえ}しで{返|かえ}す: to flip with a spatula\n- フライ{返|がえ}しで{盛|も}り{付|つ}ける: to plate food with a spatula\n- {木|き}のフライ{返|がえ}し: wooden spatula\n- シリコンのフライ{返|がえ}し: silicone spatula\n\nUSAGE:\nFor non-stick pans (テフロン), silicone or wooden spatulas are recommended to avoid scratching the coating.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04472_hera",
+      "reading": "へら",
+      "headword": "へら",
+      "label": "a broader term for any flat spatula"
+    },
+    {
+      "type": "related",
+      "target_id": "04471_otama",
+      "reading": "おたま",
+      "headword": "おたま",
+      "label": "ladle"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T06:45:24Z",
-    "modified": "2026-03-29T07:57:19Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool", "food"]
+      "semantic": [
+        "tool",
+        "food"
+      ]
     }
   }
 }

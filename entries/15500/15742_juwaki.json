@@ -19,7 +19,9 @@
       "english": "Please pick up the receiver.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15742_juwaki_ex2",
@@ -27,7 +29,9 @@
       "english": "She hung up the receiver and let out a deep sigh.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15742_juwaki_ex3",
@@ -35,21 +39,43 @@
       "english": "I could hear a shouting voice coming from the other end of the receiver.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{受話器|じゅわき} typically refers to landline phone handsets. With mobile phones, the term is less common, though it may appear in figurative or literary contexts.\n\nCOMMON COLLOCATIONS:\n- {受話器|じゅわき}を{取|と}る (pick up the receiver)\n- {受話器|じゅわき}を{置|お}く (hang up the receiver)\n- {受話器|じゅわき}を{握|にぎ}る (grip the receiver)\n- {受話器|じゅわき}を{耳|みみ}に{当|あ}てる (hold the receiver to one's ear)\n\nSIMILAR WORDS:\n{送話器|そうわき} is the mouthpiece/transmitter (the part you speak into), while {受話器|じゅわき} originally meant the earpiece but now generally refers to the entire handset.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22854_denwaki",
+      "reading": "でんわき",
+      "headword": "{電話機|でんわき}",
+      "label": "telephone (device)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29649_handosetto",
+      "reading": "はんどせっと",
+      "headword": "ハンドセット",
+      "label": "handset"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T09:08:17Z",
-    "modified": "2026-03-08T09:08:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["electronics", "tool"]
+      "semantic": [
+        "electronics",
+        "tool"
+      ]
     }
   }
 }

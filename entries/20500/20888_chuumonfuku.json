@@ -19,7 +19,9 @@
       "english": "Custom-made clothing fits the body perfectly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20888_chuumonfuku_ex2",
@@ -27,7 +29,9 @@
       "english": "I had a custom suit made for the wedding.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20888_chuumonfuku_ex3",
@@ -35,21 +39,35 @@
       "english": "Custom-made clothing is more expensive than ready-made, but the comfort is completely different.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of {注文|ちゅうもん} (order, custom order) + {服|ふく} (clothing). Also called オーダーメイド (order-made) in Japanese, which is a wasei-eigo term.\n\nCOMMON COLLOCATIONS:\n- {注文服|ちゅうもんふく}を{作|つく}る: to have custom clothing made\n- {注文服|ちゅうもんふく}の{仕立|した}て: tailoring of custom clothing\n- {注文服|ちゅうもんふく}の{店|みせ}: custom clothing shop\n\nSIMILAR WORDS:\n- {既製服|きせいふく}: ready-made clothing, off-the-rack — the opposite; mass-produced in standard sizes\n- オーダーメイド: custom-made — wasei-eigo loanword, more commonly used in casual conversation\n- {仕立|した}て{服|ふく}: tailored clothing — emphasizes the tailoring process",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "19980_kiseifuku",
+      "reading": "きせいふく",
+      "headword": "{既製服|きせいふく}",
+      "label": "ready-made clothing, off-the-rack"
+    }
+  ],
   "metadata": {
     "created": "2026-03-30T19:15:25Z",
-    "modified": "2026-03-30T19:15:25Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ]
     }
   }
 }

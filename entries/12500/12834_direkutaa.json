@@ -19,7 +19,9 @@
       "english": "Follow the director's instructions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12834_direkutaa_ex2",
@@ -27,7 +29,9 @@
       "english": "She works as a TV program director.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12834_direkutaa_ex3",
@@ -35,21 +39,42 @@
       "english": "As the creative director, I'm in charge of planning the advertising campaign.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nIn Japanese media and business, ディレクター has a specific meaning distinct from {監督|かんとく} (director of a film or sports team). In television, a ディレクター handles day-to-day production direction on the ground, while the プロデューサー oversees budget, scheduling, and overall vision.\n\nCOMMON COLLOCATIONS:\n- アートディレクター: art director\n- クリエイティブディレクター: creative director\n- {番組|ばんぐみ}ディレクター: program director\n\nSIMILAR WORDS:\n- {監督|かんとく}: director (of film, sports); supervisor\n- プロデューサー: producer (oversees entire project)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00185_kantoku",
+      "reading": "かんとく",
+      "headword": "{監督|かんとく}",
+      "label": "director"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12841_purodyuusaa",
+      "reading": "ぷろでゅーさー",
+      "headword": "プロデューサー",
+      "label": "producer"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T11:52:17Z",
-    "modified": "2026-02-22T11:52:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     }
   }
 }

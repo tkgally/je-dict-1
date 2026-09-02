@@ -3,7 +3,7 @@
   "headword": "{参加型|さんかがた}",
   "reading": "さんかがた",
   "romaji": "sankagata",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "participatory; interactive; hands-on",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Composed of {参加|さんか} (participation) + {型|がた} (type, style). The suffix {型|がた} indicates a format or style, so {参加型|さんかがた} literally means \"participation-type.\" Widely used as a modifier for events, classes, workshops, and digital content.\n\nCOMMON COLLOCATIONS:\n- {参加型|さんかがた}イベント — participatory event\n- {参加型|さんかがた}{授業|じゅぎょう} — interactive class\n- {参加型|さんかがた}ワークショップ — participatory workshop\n- {市民|しみん}{参加型|さんかがた} — citizen-participatory\n\nSIMILAR WORDS:\n- {体験型|たいけんがた} — experience-based, hands-on; emphasizes direct personal experience rather than just participation\n- インタラクティブ — interactive; the loanword equivalent, used especially in digital and tech contexts\n- {双方向|そうほうこう} — two-way, bidirectional; emphasizes mutual exchange rather than audience participation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16549_taikengata",
+      "reading": "たいけんがた",
+      "headword": "{体験型|たいけんがた}",
+      "label": "experience-based, hands-on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21192_taiwagata",
+      "reading": "たいわがた",
+      "headword": "{対話型|たいわがた}",
+      "label": "dialogue-based"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,11 +69,13 @@
         "noun",
         "adjective-no"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "society"
       ]
     },
     "created": "2026-04-18T13:21:48Z",
-    "modified": "2026-08-02T18:32:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

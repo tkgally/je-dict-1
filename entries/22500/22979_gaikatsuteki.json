@@ -3,7 +3,7 @@
   "headword": "{概括的|がいかつてき}",
   "reading": "がいかつてき",
   "romaji": "gaikatsuteki",
-  "part_of_speech": "adjective (na)",
+  "part_of_speech": "na-adjective",
   "gloss": "general; broad; sweeping",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "22979_gaikatsuteki_ex1",
       "japanese": "{概括的|がいかつてき}な{説明|せつめい}。",
       "english": "A general explanation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22979_gaikatsuteki_ex2",
       "japanese": "まず{概括的|がいかつてき}に{述|の}べてから、{詳細|しょうさい}に{入|はい}ります。",
       "english": "I'll give a broad overview first, then go into the details.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "22979_gaikatsuteki_ex3",
       "japanese": "{報告書|ほうこくしょ}では{概括的|がいかつてき}な{傾向|けいこう}のみが{示|しめ}されており、{個別|こべつ}のデータは{含|ふく}まれていない。",
       "english": "The report only shows general trends and does not include individual data.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {概括|がいかつ} (generalization; summarization) and {的|てき} (adjective suffix). Used in formal and academic contexts when describing something that covers main points without exhaustive detail.\n\nCOMMON COLLOCATIONS:\n- {概括的|がいかつてき}な{説明|せつめい}: general explanation\n- {概括的|がいかつてき}に{述|の}べる: to describe broadly\n- {概括的|がいかつてき}な{理解|りかい}: broad understanding\n- {概括的|がいかつてき}な{傾向|けいこう}: general trend\n\nSIMILAR WORDS:\n- {大|おお}まか: rough; approximate — more casual and everyday\n- {包括的|ほうかつてき}: comprehensive; inclusive — emphasizes covering everything, not simplifying\n- {総括的|そうかつてき}: summarizing; comprehensive — close synonym, emphasizes summation\n- {大体|だいたい}の: rough; approximate — colloquial\n\nREGISTER:\nFormal. Common in academic papers, reports, presentations, and official documents.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07664_oomaka",
+      "reading": "おおまか",
+      "headword": "{大|おお}まか",
+      "label": "rough"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06711_houkatsuteki",
+      "reading": "ほうかつてき",
+      "headword": "{包括的|ほうかつてき}",
+      "label": "comprehensive"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive", "abstract"]
+      "semantic": [
+        "descriptive",
+        "abstract"
+      ]
     },
     "created": "2026-04-08T14:18:43Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "We decided on the date for the wedding ceremony.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12952_hidori_ex2",
@@ -27,7 +29,9 @@
       "english": "Have you decided on the date for your move yet?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12952_hidori_ex3",
@@ -35,21 +39,49 @@
       "english": "It was decided that both families would discuss and set the date for the ceremony.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAlmost always used with {決|き}める (to decide) or {決|き}まる (to be decided). Implies a formal or significant event — not used for casual plans like meeting a friend. Common for weddings, funerals, ceremonies, and official events.\n\nCOMMON COLLOCATIONS:\n- {日取|ひど}りを{決|き}める: to fix a date\n- {日取|ひど}りが{決|き}まる: the date is decided\n- {式|しき}の{日取|ひど}り: the date for a ceremony\n\nSIMILAR WORDS:\n- {日程|にってい}: schedule, itinerary (broader scope)\n- {日付|ひづけ}: date (on a calendar, a document)\n- スケジュール: schedule (general planning)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04289_nittei",
+      "reading": "にってい",
+      "headword": "{日程|にってい}",
+      "label": "schedule, itinerary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03706_hizuke",
+      "reading": "ひづけ",
+      "headword": "{日付|ひづけ}",
+      "label": "date"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03850_sukejuuru",
+      "reading": "すけじゅーる",
+      "headword": "スケジュール",
+      "label": "schedule"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T23:37:25Z",
-    "modified": "2026-02-22T23:37:25Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

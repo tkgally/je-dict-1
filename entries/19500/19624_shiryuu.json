@@ -17,7 +17,9 @@
       "id": "19624_shiryuu_ex1",
       "japanese": "この{川|かわ}は{利根川|とねがわ}の{支流|しりゅう}だ。",
       "english": "This river is a tributary of the Tone River.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19624_shiryuu_ex2",
       "japanese": "{支流|しりゅう}が{合流|ごうりゅう}して{大|おお}きな{川|かわ}になる。",
       "english": "The tributaries merge and become a large river.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,65 @@
       "id": "19624_shiryuu_ex3",
       "japanese": "{多摩川|たまがわ}にはいくつもの{支流|しりゅう}があり、それぞれ{独自|どくじ}の{生態系|せいたいけい}を{持|も}っている。",
       "english": "The Tama River has numerous tributaries, each with its own unique ecosystem.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {支|し} (branch/support) and {流|りゅう} (flow/stream). The {支|し} character indicates something secondary or branching off from the main, as in {支店|してん} (branch office) or {支線|しせん} (branch line).\n\nCOMMON COLLOCATIONS:\n- {支流|しりゅう}に{分|わ}かれる: branch off into tributaries\n- {支流|しりゅう}が{合流|ごうりゅう}する: tributaries converge\n- {最大|さいだい}の{支流|しりゅう}: the largest tributary\n- {支流|しりゅう}をさかのぼる: go upstream along a tributary\n\nSIMILAR WORDS:\n- {本流|ほんりゅう}: main stream, main current — the primary river into which tributaries flow; also used figuratively for the mainstream of a movement\n- {源流|げんりゅう}: headwaters, source — the origin point of a river; figuratively, the origin of something\n- {合流|ごうりゅう}: confluence, merging — the point where rivers join together",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25798_honryuu",
+      "reading": "ほんりゅう",
+      "headword": "{本流|ほんりゅう}",
+      "label": "main stream, main current"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13359_genryuu",
+      "reading": "げんりゅう",
+      "headword": "{源流|げんりゅう}",
+      "label": "headwaters, source"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11902_gouryuu",
+      "reading": "ごうりゅう",
+      "headword": "{合流|ごうりゅう}",
+      "label": "confluence, merging"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26299_bunryuu",
+      "reading": "ぶんりゅう",
+      "headword": "{分流|ぶんりゅう}",
+      "label": "branching stream"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30258_sairyuu",
+      "reading": "さいりゅう",
+      "headword": "{細流|さいりゅう}",
+      "label": "small stream"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     },
     "created": "2026-03-26T08:37:45Z",
-    "modified": "2026-03-26T08:37:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -46,6 +46,22 @@
   ],
   "notes": "Often abbreviated MFA in Japanese technical writing as well. {二要素認証|にようそにんしょう} (two-factor authentication, 2FA) is the common special case.\n\nCOMMON COLLOCATIONS:\n- {多要素認証|たようそにんしょう}を{導入|どうにゅう}する: to introduce multi-factor authentication\n- {多要素認証|たようそにんしょう}を{有効|ゆうこう}にする: to enable multi-factor authentication\n- {多要素認証|たようそにんしょう}が{必須|ひっす}: multi-factor authentication is required\n\nSIMILAR WORDS:\n- {二段階認証|にだんかいにんしょう}: two-step verification — two steps that may use the same kind of factor, so slightly weaker in principle\n- {生体認証|せいたいにんしょう}: biometric authentication — one possible factor within MFA",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08618_nidankaininshou",
+      "reading": "にだんかいにんしょう",
+      "headword": "{二段階認証|にだんかいにんしょう}",
+      "label": "two-step verification"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30128_seitaininshou",
+      "reading": "せいたいにんしょう",
+      "headword": "{生体認証|せいたいにんしょう}",
+      "label": "biometric authentication"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "technology"
       ],
@@ -62,6 +78,6 @@
       ]
     },
     "created": "2026-07-25T18:20:39Z",
-    "modified": "2026-07-25T18:20:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

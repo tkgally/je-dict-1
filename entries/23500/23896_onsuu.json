@@ -36,6 +36,22 @@
   ],
   "notes": "A technical term used in linguistics, phonology, and traditional verse composition. In Japanese, the relevant sound unit is the mora ({拍|はく}), not the syllable, so 'mora count' is the more accurate translation.\n\nUSAGE:\n- Central to discussions of haiku, tanka, senryu, and other syllabic verse, where line lengths are defined by {音数|おんすう}.\n- Also used in linguistics to describe word-length constraints, loanword shortening, and speech rhythm.\n\nCOMMON COLLOCATIONS:\n- {音数|おんすう}を{数|かぞ}える: to count morae\n- {音数|おんすう}が{合|あ}う: the mora count fits (e.g., the verse scans correctly)\n- {音数|おんすう}を{揃|そろ}える: to match the mora count\n- {音数|おんすう}{律|りつ}: mora-count meter (as opposed to stress- or tone-based meter)\n- {五音|ごおん}・{七音|しちおん}: five morae / seven morae (basic building blocks of waka and haiku)\n\nSIMILAR WORDS:\n- {拍|はく}: mora — the underlying phonological unit that {音数|おんすう} counts.\n- {音節|おんせつ}: syllable — a larger unit that groups morae; less often used in counting Japanese verse.\n- {字数|じすう}: character count — the number of written characters, which may differ from the mora count (e.g., small ゃ is not a separate mora).\n\nREGISTER:\nFormal/technical. Common in education (Japanese literature, linguistics courses) and in poetry circles; not used in casual conversation.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30066_haku",
+      "reading": "はく",
+      "headword": "{拍|はく}",
+      "label": "mora"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29479_jisuu",
+      "reading": "じすう",
+      "headword": "{字数|じすう}",
+      "label": "character count"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -50,6 +66,6 @@
       ]
     },
     "created": "2026-04-15T11:10:26Z",
-    "modified": "2026-06-12T12:41:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

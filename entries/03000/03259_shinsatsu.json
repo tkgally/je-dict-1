@@ -2,7 +2,7 @@
   "id": "03259_shinsatsu",
   "headword": "{診察|しんさつ}",
   "reading": "しんさつ",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "medical examination",
   "definitions": [
     {
@@ -65,11 +65,46 @@
       "reading": "しんりょう",
       "headword": "{診療|しんりょう}",
       "label": "examination and treatment"
+    },
+    {
+      "type": "related",
+      "target_id": "11090_shoshin",
+      "reading": "しょしん",
+      "headword": "{初診|しょしん}",
+      "label": "first visit/examination"
+    },
+    {
+      "type": "related",
+      "target_id": "23254_saishin",
+      "reading": "さいしん",
+      "headword": "{再診|さいしん}",
+      "label": "follow-up visit"
+    },
+    {
+      "type": "related",
+      "target_id": "11070_monshin",
+      "reading": "もんしん",
+      "headword": "{問診|もんしん}",
+      "label": "medical interview"
+    },
+    {
+      "type": "related",
+      "target_id": "08208_kaishin",
+      "reading": "かいしん",
+      "headword": "{回診|かいしん}",
+      "label": "doctor's rounds"
+    },
+    {
+      "type": "related",
+      "target_id": "08209_oushin",
+      "reading": "おうしん",
+      "headword": "{往診|おうしん}",
+      "label": "house call"
     }
   ],
   "metadata": {
     "created": "2026-01-12T00:55:00Z",
-    "modified": "2026-05-24T19:07:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

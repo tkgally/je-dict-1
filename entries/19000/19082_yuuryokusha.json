@@ -17,7 +17,9 @@
       "id": "19082_yuuryokusha_ex1",
       "japanese": "{地元|じもと}の{有力者|ゆうりょくしゃ}に{相談|そうだん}した。",
       "english": "I consulted a local person of influence.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19082_yuuryokusha_ex2",
       "japanese": "{政界|せいかい}の{有力者|ゆうりょくしゃ}が{集|あつ}まった。",
       "english": "Influential figures in politics gathered together.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "19082_yuuryokusha_ex3",
       "japanese": "その{事業|じぎょう}は{地域|ちいき}の{有力者|ゆうりょくしゃ}の{支援|しえん}を{受|う}けて{成功|せいこう}した。",
       "english": "The project succeeded with the support of influential people in the region.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Built from {有力|ゆうりょく} (influential, powerful) + {者|しゃ} (person). Refers to someone who holds significant sway in a community, organization, or political sphere.\n\nCOMMON COLLOCATIONS:\n- {地元|じもと}の{有力者|ゆうりょくしゃ}: local person of influence\n- {政界|せいかい}の{有力者|ゆうりょくしゃ}: political heavyweight\n- {財界|ざいかい}の{有力者|ゆうりょくしゃ}: influential figure in the business world\n\nSIMILAR WORDS:\n- {実力者|じつりょくしゃ}: person of real power (emphasizes actual ability)\n- {権力者|けんりょくしゃ}: person in authority (emphasizes formal power)\n- {名士|めいし}: notable figure, distinguished person (emphasizes reputation)\n\nREGISTER:\nA formal word. More common in news, political discussion, and written Japanese than in casual conversation.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21845_jitsuryokusha",
+      "reading": "じつりょくしゃ",
+      "headword": "{実力者|じつりょくしゃ}",
+      "label": "person of real power"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17021_kenryokusha",
+      "reading": "けんりょくしゃ",
+      "headword": "{権力者|けんりょくしゃ}",
+      "label": "person in authority"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21860_meishi",
+      "reading": "めいし",
+      "headword": "{名士|めいし}",
+      "label": "notable figure, distinguished person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25127_kaoyaku",
+      "reading": "かおやく",
+      "headword": "{顔役|かおやく}",
+      "label": "influential person"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     },
     "created": "2026-03-24T09:33:24Z",
-    "modified": "2026-03-29T07:15:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

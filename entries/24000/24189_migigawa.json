@@ -56,15 +56,32 @@
     }
   ],
   "notes": "{右|みぎ} (right) + {側|がわ} (side). Used to specify the right-hand side of a road, building, body, or any spatial reference point.\n\nCOMMON COLLOCATIONS:\n- {右側|みぎがわ}を{歩|ある}く: walk on the right side\n- {右側|みぎがわ}に{寄|よ}る: move to the right side\n- {右側|みぎがわ}{通行|つうこう}: right-side traffic\n- {体|からだ}の{右側|みぎがわ}: right side of the body\n\nSIMILAR WORDS:\n- {左側|ひだりがわ}: left side — the opposite direction\n- {右手|みぎて}: right hand, but also used to mean \"on the right\" in directional contexts\n- {右|みぎ}: right — more general, while {右側|みぎがわ} specifically emphasizes the side\n\nUSAGE:\nIn Japan, pedestrians walk on the {右側|みぎがわ} of the road when there is no sidewalk, while vehicles drive on the left. This is the opposite of many other countries.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22836_hidarigawa",
+      "reading": "ひだりがわ",
+      "headword": "{左側|ひだりがわ}",
+      "label": "left side"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10438_migite",
+      "reading": "みぎて",
+      "headword": "{右手|みぎて}",
+      "label": "right hand, but also used to mean \"on…"
+    }
+  ],
   "metadata": {
     "created": "2026-04-18T09:06:39Z",
-    "modified": "2026-08-02T18:32:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "direction",
         "geography"

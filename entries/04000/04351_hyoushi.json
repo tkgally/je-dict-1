@@ -63,11 +63,26 @@
       ]
     }
   ],
-  "notes": "USAGE: {表紙|ひょうし} refers specifically to the cover of bound materials like books and magazines.\n\nCOMMON PATTERNS:\n- {表紙|ひょうし}⟦を→を：00422_wo⟧⟦{飾|かざ}る→飾る：01185_kazaru⟧ (to grace the cover)\n- {表紙|ひょうし}⟦に→に：00314_ni⟧⟦{載|の}る→載る：27882_noru⟧ (to appear on the cover)\n- {表紙|ひょうし}⟦を→を：00422_wo⟧⟦めくる→捲る：02310_mekuru⟧ (to turn the cover)\n\nCOMMON COMPOUNDS:\n- {表紙|ひょうし}⟦{絵|え}→絵：02613_e⟧ (cover illustration)\n- {表紙|ひょうし}⟦モデル→モデル：05112_moderu⟧ (cover model)\n- {表紙|ひょうし}⟦{写真|しゃしん}→写真：00753_shashin⟧ (cover photo)\n\nRELATED TERMS:\n- ⟦{裏表紙|うらびょうし}→裏表紙：28412_urabyoushi⟧ - back cover\n- ⟦{背表紙|せびょうし}→背表紙：15671_sebyoushi⟧ - spine (of a book)\n- ⟦カバー→カバー：07812_kabaa⟧ - dust jacket, cover (loanword)",
-  "cross_references": [],
+  "notes": "USAGE: {表紙|ひょうし} refers specifically to the cover of bound materials like books and magazines.\n\nCOMMON PATTERNS:\n- {表紙|ひょうし}⟦を→を：00422_wo⟧⟦{飾|かざ}る→飾る：01185_kazaru⟧ (to grace the cover)\n- {表紙|ひょうし}⟦に→に：00314_ni⟧⟦{載|の}る→載る：27882_noru⟧ (to appear on the cover)\n- {表紙|ひょうし}⟦を→を：00422_wo⟧⟦めくる→捲る：02310_mekuru⟧ (to turn the cover)\n\nCOMPOUNDS:\n- {表紙|ひょうし}⟦{絵|え}→絵：02613_e⟧ (cover illustration)\n- {表紙|ひょうし}⟦モデル→モデル：05112_moderu⟧ (cover model)\n- {表紙|ひょうし}⟦{写真|しゃしん}→写真：00753_shashin⟧ (cover photo)\n\nRELATED WORDS:\n- ⟦{裏表紙|うらびょうし}→裏表紙：28412_urabyoushi⟧ - back cover\n- ⟦{背表紙|せびょうし}→背表紙：15671_sebyoushi⟧ - spine (of a book)\n- ⟦カバー→カバー：07812_kabaa⟧ - dust jacket, cover (loanword)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07812_kabaa",
+      "reading": "かばー",
+      "headword": "カバー",
+      "label": "dust jacket, cover"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24649_tobirae",
+      "reading": "とびらえ",
+      "headword": "{扉絵|とびらえ}",
+      "label": "frontispiece"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T00:58:16Z",
-    "modified": "2026-05-31T13:06:53Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

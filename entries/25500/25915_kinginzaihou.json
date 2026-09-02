@@ -17,7 +17,9 @@
       "id": "25915_kinginzaihou_ex1",
       "japanese": "{海賊|かいぞく}が{金銀|きんぎん}{財宝|ざいほう}を{隠|かく}した。",
       "english": "The pirates hid their gold and treasure.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25915_kinginzaihou_ex2",
       "japanese": "{洞窟|どうくつ}の{奥|おく}には{金銀|きんぎん}{財宝|ざいほう}が{眠|ねむ}っているという{伝説|でんせつ}がある。",
       "english": "Legend has it that gold and treasure lie sleeping deep within the cave.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,44 @@
       "id": "25915_kinginzaihou_ex3",
       "japanese": "{戦国|せんごく}{時代|じだい}の{武将|ぶしょう}たちは{金銀|きんぎん}{財宝|ざいほう}を{集|あつ}め、{城|しろ}に{蓄|たくわ}えていたと{言|い}われている。",
       "english": "It is said that the warlords of the Sengoku period collected gold, silver, and treasure and stored them in their castles.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A four-character compound ({四字|よじ}{熟語|じゅくご}) combining {金銀|きんぎん} (gold and silver) + {財宝|ざいほう} (treasure; valuables). Evokes a literary or fairy-tale image of glittering riches. Commonly appears in stories about pirates, buried treasure, ancient kingdoms, and historical wealth.\n\nCOMMON COLLOCATIONS:\n- {金銀|きんぎん}{財宝|ざいほう}を{集|あつ}める: to amass treasure\n- {金銀|きんぎん}{財宝|ざいほう}を{隠|かく}す: to hide treasure\n- {金銀|きんぎん}{財宝|ざいほう}が{眠|ねむ}る: treasure lies buried\n- {金銀|きんぎん}{財宝|ざいほう}に{目|め}がくらむ: to be blinded by treasure\n\nSIMILAR WORDS:\n- {財宝|ざいほう}: treasure; valuables — the general term for valuable possessions\n- {宝物|たからもの}: treasure; prized possession — can refer to sentimental value, not just monetary\n- {富|とみ}: wealth; riches — abstract concept of being wealthy",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12269_takaramono",
+      "reading": "たからもの",
+      "headword": "{宝物|たからもの}",
+      "label": "treasure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12321_tomi",
+      "reading": "とみ",
+      "headword": "{富|とみ}",
+      "label": "wealth"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["money", "history"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "money",
+        "history"
+      ]
     },
     "created": "2026-04-28T12:23:13Z",
-    "modified": "2026-04-28T12:23:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

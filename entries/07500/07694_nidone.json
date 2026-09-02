@@ -2,7 +2,7 @@
   "id": "07694_nidone",
   "headword": "{二度寝|にどね}",
   "reading": "にどね",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "going back to sleep; sleeping again after waking",
   "conjugation": {
     "type": "suru",
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{二度|にど} (twice, second time) + {寝|ね} (sleeping)\n\nUSAGE:\nOften associated with lazy weekend mornings or the temptation to sleep more after the alarm. Can have both positive connotations (comfort, relaxation) or negative ones (causing lateness).\n\nRELATED SLEEP VOCABULARY:\n・{寝不足|ねぶそく} - lack of sleep\n・{夜更|よふ}かし - staying up late\n・{寝坊|ねぼう} - oversleeping\n・うたた{寝|ね} - dozing off\n\nCOLLOCATIONS:\n・{二度寝|にどね}をする - to go back to sleep\n・{二度寝|にどね}の{誘惑|ゆうわく} - the temptation to go back to sleep",
+  "notes": "ETYMOLOGY:\n{二度|にど} (twice, second time) + {寝|ね} (sleeping)\n\nUSAGE:\nOften associated with lazy weekend mornings or the temptation to sleep more after the alarm. Can have both positive connotations (comfort, relaxation) or negative ones (causing lateness).\n\nRELATED SLEEP VOCABULARY:\n- {寝不足|ねぶそく} - lack of sleep\n- {夜更|よふ}かし - staying up late\n- {寝坊|ねぼう} - oversleeping\n- うたた{寝|ね} - dozing off\n\nCOMMON COLLOCATIONS:\n- {二度寝|にどね}をする - to go back to sleep\n- {二度寝|にどね}の{誘惑|ゆうわく} - the temptation to go back to sleep",
   "cross_references": [
     {
       "type": "related",
@@ -138,11 +138,46 @@
       "reading": "ねぼうする",
       "headword": "{寝坊|ねぼう}する",
       "label": "to oversleep"
+    },
+    {
+      "type": "related",
+      "target_id": "07692_nebusoku",
+      "reading": "ねぶそく",
+      "headword": "{寝不足|ねぶそく}",
+      "label": "lack of sleep"
+    },
+    {
+      "type": "related",
+      "target_id": "07693_yofukashi",
+      "reading": "よふかし",
+      "headword": "{夜更|よふ}かし",
+      "label": "staying up late"
+    },
+    {
+      "type": "related",
+      "target_id": "01692_nebou",
+      "reading": "ねぼう",
+      "headword": "{寝坊|ねぼう}",
+      "label": "oversleeping"
+    },
+    {
+      "type": "related",
+      "target_id": "08036_utatane",
+      "reading": "うたたね",
+      "headword": "うたた{寝|ね}",
+      "label": "dozing off"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25448_sunuuzu",
+      "reading": "すぬーず",
+      "headword": "スヌーズ",
+      "label": "snooze (alarm function)"
     }
   ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +186,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life"
       ],

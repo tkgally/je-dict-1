@@ -3,7 +3,7 @@
   "headword": "{減額|げんがく}",
   "reading": "げんがく",
   "romaji": "gengaku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reduction; cut (in amount)",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Used as a noun or with する ({減額|げんがく}する).\n\nCOMMON COLLOCATIONS:\n- {給料|きゅうりょう}を{減額|げんがく}する: to cut a salary\n- {予算|よさん}の{減額|げんがく}: budget reduction\n- {大幅|おおはば}な{減額|げんがく}: a large reduction\n\nSIMILAR WORDS:\n- {増額|ぞうがく}: increase in amount — direct antonym\n- {削減|さくげん}: cutting back; curtailment — broader, applies to costs, staff, or emissions, not just a set monetary amount",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "12134_zougaku",
+      "reading": "ぞうがく",
+      "headword": "{増額|ぞうがく}",
+      "label": "increase in amount"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11789_sakugen",
+      "reading": "さくげん",
+      "headword": "{削減|さくげん}",
+      "label": "cutting back"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-27T04:08:18Z",
-    "modified": "2026-05-27T04:08:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -3,7 +3,7 @@
   "headword": "{近況報告|きんきょうほうこく}",
   "reading": "きんきょうほうこく",
   "romaji": "kinkyouhoukoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "update on recent situation",
   "definitions": [
     {
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {近況|きんきょう} (recent situation) and {報告|ほうこく} (report). Frequently encountered in reunion settings, letters, and social media posts. In Japanese social culture, sharing {近況報告|きんきょうほうこく} is an important way to maintain relationships.\n\nCOMMON COLLOCATIONS:\n- {近況報告|きんきょうほうこく}をする: to give an update on one's situation\n- {近況報告|きんきょうほうこく}を{兼|か}ねて: also serving as a life update\n- {簡単|かんたん}な{近況報告|きんきょうほうこく}: a brief status update\n\nRELATED TERMS:\n- {近況|きんきょう}: recent situation — the base word; often used in {近況|きんきょう}はいかがですか (How have you been?)\n- {報告|ほうこく}: report — the general term for reporting or giving an account\n- {消息|しょうそく}: news of someone, whereabouts — more formal; used when you haven't heard from someone in a while",
+  "notes": "A compound of {近況|きんきょう} (recent situation) and {報告|ほうこく} (report). Frequently encountered in reunion settings, letters, and social media posts. In Japanese social culture, sharing {近況報告|きんきょうほうこく} is an important way to maintain relationships.\n\nCOMMON COLLOCATIONS:\n- {近況報告|きんきょうほうこく}をする: to give an update on one's situation\n- {近況報告|きんきょうほうこく}を{兼|か}ねて: also serving as a life update\n- {簡単|かんたん}な{近況報告|きんきょうほうこく}: a brief status update\n\nRELATED WORDS:\n- {近況|きんきょう}: recent situation — the base word; often used in {近況|きんきょう}はいかがですか (How have you been?)\n- {報告|ほうこく}: report — the general term for reporting or giving an account\n- {消息|しょうそく}: news of someone, whereabouts — more formal; used when you haven't heard from someone in a while",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19242_shousoku",
+      "reading": "しょうそく",
+      "headword": "{消息|しょうそく}",
+      "label": "news of someone, whereabouts"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26397_kinkyoubun",
+      "reading": "きんきょうぶん",
+      "headword": "{近況文|きんきょうぶん}",
+      "label": "status update"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30046_joutaihoukoku",
+      "reading": "じょうたいほうこく",
+      "headword": "状態報告",
+      "label": "status report"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-01T16:11:50Z",
-    "modified": "2026-04-01T16:11:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

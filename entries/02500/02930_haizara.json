@@ -63,11 +63,40 @@
       ]
     }
   ],
-  "notes": "{灰皿|はいざら} is a container for cigarette ashes and butts.\n\nWORD FORMATION:\n⟦{灰|はい}→灰：02244_hai⟧ (ash) + ⟦{皿|さら}→皿：00883_sara⟧ (plate/dish) = ashtray\n\nCOMMON EXPRESSIONS:\n- {灰皿|はいざら}⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧: Where is the ashtray?\n- {灰皿|はいざら}⟦を→を：00422_wo⟧⟦{空|から}→空：27640_kara⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to empty the ashtray\n- {灰皿|はいざら}⟦を→を：00422_wo⟧⟦{置|お}く→置く：01092_oku⟧: to put out an ashtray\n\nRELATED VOCABULARY:\n- ⟦たばこ→たばこ：02909_tabako⟧/⟦{煙草|たばこ}→たばこ：02909_tabako⟧: cigarette\n- ⟦{喫煙|きつえん}→喫煙：17580_kitsuen⟧: smoking\n- ⟦{禁煙|きんえん}→禁煙：02644_kinen⟧: no smoking\n- ⟦{喫煙所|きつえんじょ}→喫煙所：07043_kitsuenjo⟧: smoking area\n\nCULTURAL NOTE:\nWith ⟦{禁煙|きんえん}→禁煙：02644_kinen⟧ policies increasingly common in Japan, {灰皿|はいざら} are less frequently seen in public spaces and restaurants.",
-  "cross_references": [],
+  "notes": "{灰皿|はいざら} is a container for cigarette ashes and butts.\n\nFORMS:\n⟦{灰|はい}→灰：02244_hai⟧ (ash) + ⟦{皿|さら}→皿：00883_sara⟧ (plate/dish) = ashtray\n\nCOMMON EXPRESSIONS:\n- {灰皿|はいざら}⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧: Where is the ashtray?\n- {灰皿|はいざら}⟦を→を：00422_wo⟧⟦{空|から}→空：27640_kara⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to empty the ashtray\n- {灰皿|はいざら}⟦を→を：00422_wo⟧⟦{置|お}く→置く：01092_oku⟧: to put out an ashtray\n\nRELATED WORDS:\n- ⟦たばこ→たばこ：02909_tabako⟧/⟦{煙草|たばこ}→たばこ：02909_tabako⟧: cigarette\n- ⟦{喫煙|きつえん}→喫煙：17580_kitsuen⟧: smoking\n- ⟦{禁煙|きんえん}→禁煙：02644_kinen⟧: no smoking\n- ⟦{喫煙所|きつえんじょ}→喫煙所：07043_kitsuenjo⟧: smoking area\n\nCULTURAL NOTE:\nWith ⟦{禁煙|きんえん}→禁煙：02644_kinen⟧ policies increasingly common in Japan, {灰皿|はいざら} are less frequently seen in public spaces and restaurants.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02909_tabako",
+      "reading": "たばこ",
+      "headword": "たばこ",
+      "label": "cigarette"
+    },
+    {
+      "type": "related",
+      "target_id": "17580_kitsuen",
+      "reading": "きつえん",
+      "headword": "{喫煙|きつえん}",
+      "label": "smoking"
+    },
+    {
+      "type": "related",
+      "target_id": "02644_kinen",
+      "reading": "きんえん",
+      "headword": "{禁煙|きんえん}",
+      "label": "no smoking"
+    },
+    {
+      "type": "related",
+      "target_id": "07043_kitsuenjo",
+      "reading": "きつえんじょ",
+      "headword": "{喫煙所|きつえんじょ}",
+      "label": "smoking area"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T09:50:00Z",
-    "modified": "2026-05-22T22:07:52Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

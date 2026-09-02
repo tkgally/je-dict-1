@@ -2,7 +2,7 @@
   "id": "01848_intai",
   "headword": "{引退|いんたい}",
   "reading": "いんたい",
-  "part_of_speech": "noun/suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "retirement",
   "conjugation": {
     "type": "suru",
@@ -141,11 +141,46 @@
       "reading": "たいしょく",
       "headword": "{退職|たいしょく}",
       "label": "leaving a job"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07500_teinen",
+      "reading": "ていねん",
+      "headword": "{定年|ていねん}",
+      "label": "mandatory retirement age"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10144_jinin",
+      "reading": "じにん",
+      "headword": "{辞任|じにん}",
+      "label": "resignation (from a position)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20858_shirizoku",
+      "reading": "しりぞく",
+      "headword": "{退|しりぞ}く",
+      "label": "to retreat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22030_taieki",
+      "reading": "たいえき",
+      "headword": "{退役|たいえき}",
+      "label": "retirement from military service"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25312_taijin",
+      "reading": "たいじん",
+      "headword": "{退陣|たいじん}",
+      "label": "resignation"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:30:00Z",
-    "modified": "2026-05-17T14:07:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

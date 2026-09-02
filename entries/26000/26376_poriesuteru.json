@@ -17,7 +17,9 @@
       "id": "26376_poriesuteru_ex1",
       "japanese": "このシャツはポリエステル{100|ひゃく}%だ。",
       "english": "This shirt is 100% polyester.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26376_poriesuteru_ex2",
       "japanese": "ポリエステルは{乾|かわ}きやすいので{旅行|りょこう}に{便利|べんり}だ。",
       "english": "Polyester dries quickly, so it's convenient for travel.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,57 @@
       "id": "26376_poriesuteru_ex3",
       "japanese": "{素材|そざい}は{綿|めん}65%、ポリエステル35%の{混紡|こんぼう}です。",
       "english": "The material is a 65% cotton, 35% polyester blend.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"polyester.\" One of the most common fabric names encountered when shopping for clothes in Japan. Clothing tags ({洗濯表示|せんたくひょうじ}) list fabric composition using this term.\n\nPolyester is the most widely used synthetic fiber globally. In Japanese retail, it appears on labels as ポリエステル, sometimes abbreviated as ポリ in casual contexts.\n\nCOMMON COLLOCATIONS:\n- ポリエステル100%: 100% polyester\n- ポリエステル{素材|そざい}: polyester material\n- {綿|めん}ポリ{混紡|こんぼう}: cotton-polyester blend\n- ポリエステル{繊維|せんい}: polyester fiber\n\nSIMILAR WORDS:\n- ナイロン: nylon — another synthetic fabric, slightly different texture\n- {綿|めん}: cotton — natural fiber\n- {絹|きぬ}: silk — natural fiber, luxury\n- アクリル: acrylic — synthetic fabric, often used in knitwear\n- レーヨン: rayon — semi-synthetic fabric with a silk-like feel",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20177_nairon",
+      "reading": "ないろん",
+      "headword": "ナイロン",
+      "label": "nylon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03807_men",
+      "reading": "めん",
+      "headword": "{綿|めん}",
+      "label": "cotton"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01383_kinu",
+      "reading": "きぬ",
+      "headword": "{絹|きぬ}",
+      "label": "silk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28698_akuriru",
+      "reading": "あくりる",
+      "headword": "アクリル",
+      "label": "acrylic"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["clothing"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "clothing"
+      ]
     },
     "created": "2026-05-01T12:44:37Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

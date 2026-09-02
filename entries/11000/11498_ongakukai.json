@@ -18,7 +18,9 @@
       "english": "I bought tickets for the concert.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11498_ongakukai_ex2",
@@ -26,7 +28,9 @@
       "english": "I sang a song at the school concert.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11498_ongakukai_ex3",
@@ -34,22 +38,57 @@
       "english": "Every autumn a community concert is held, and children perform piano and violin.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{音楽会|おんがくかい} is used for school concerts, recitals, and classical music events. For pop and rock concerts, コンサート or ライブ is more natural.\n\nCOMMON COLLOCATIONS:\n- {音楽会|おんがくかい}を{開|ひら}く: to hold a concert\n- {音楽会|おんがくかい}に{出|で}る: to perform at a concert\n- {音楽会|おんがくかい}に{行|い}く: to go to a concert\n- {学校|がっこう}の{音楽会|おんがくかい}: school concert\n- {地域|ちいき}の{音楽会|おんがくかい}: community concert\n\nCONTRAST:\n- {音楽会|おんがくかい}: concert (school, classical, community events)\n- コンサート: concert (general, especially popular/classical)\n- ライブ: live performance (pop, rock, indie music)\n- {演奏会|えんそうかい}: recital, musical performance (more formal)\n- {発表会|はっぴょうかい}: recital (student performances)\n\nWORD FORMATION:\n{音楽|おんがく} (music) + {会|かい} (gathering, event).",
-  "cross_references": [],
+  "notes": "{音楽会|おんがくかい} is used for school concerts, recitals, and classical music events. For pop and rock concerts, コンサート or ライブ is more natural.\n\nCOMMON COLLOCATIONS:\n- {音楽会|おんがくかい}を{開|ひら}く: to hold a concert\n- {音楽会|おんがくかい}に{出|で}る: to perform at a concert\n- {音楽会|おんがくかい}に{行|い}く: to go to a concert\n- {学校|がっこう}の{音楽会|おんがくかい}: school concert\n- {地域|ちいき}の{音楽会|おんがくかい}: community concert\n\nSIMILAR WORDS:\n- {音楽会|おんがくかい}: concert (school, classical, community events)\n- コンサート: concert (general, especially popular/classical)\n- ライブ: live performance (pop, rock, indie music)\n- {演奏会|えんそうかい}: recital, musical performance (more formal)\n- {発表会|はっぴょうかい}: recital (student performances)\n\nFORMS:\n{音楽|おんがく} (music) + {会|かい} (gathering, event).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01360_konsaato",
+      "reading": "こんさーと",
+      "headword": "コンサート",
+      "label": "concert"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05412_raibu",
+      "reading": "らいぶ",
+      "headword": "ライブ",
+      "label": "live performance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18026_ensoukai",
+      "reading": "えんそうかい",
+      "headword": "{演奏会|えんそうかい}",
+      "label": "recital, musical performance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27716_happyoukai",
+      "reading": "はっぴょうかい",
+      "headword": "{発表会|はっぴょうかい}",
+      "label": "recital"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T01:54:44Z",
-    "modified": "2026-03-26T23:41:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     }
   }
 }

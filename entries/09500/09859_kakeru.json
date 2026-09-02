@@ -2,7 +2,7 @@
   "id": "09859_kakeru",
   "headword": "{賭|か}ける",
   "reading": "かける",
-  "part_of_speech": "ichidan verb (transitive)",
+  "part_of_speech": "verb (ichidan, transitive)",
   "gloss": "to bet, to wager",
   "conjugation": {
     "type": "ichidan",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{賭|か}ける means to bet or wager on something.\n\nCOMMON PATTERNS:\n- 〜に{賭|か}ける: to bet on (something)\n- 〜を{賭|か}ける: to stake (something)\n- {命|いのち}を{賭|か}ける: to risk one's life\n- {名誉|めいよ}を{賭|か}ける: to stake one's honor\n\nRELATED WORDS:\n- {賭|か}け: bet, wager (noun)\n- {賭博|とばく}: gambling\n- {賭|か}け{事|ごと}: gambling\n\nTRANSITIVITY:\n- Type: Transitive ({他動詞|たどうし})\n- Pattern: 〜を〜に{賭|か}ける\n\nNOTE:\nThis is a different word from かける (00854_kakeru) which means \"to hang\" or \"to make a call.\"",
+  "notes": "{賭|か}ける means to bet or wager on something.\n\nCOMMON PATTERNS:\n- 〜に{賭|か}ける: to bet on (something)\n- 〜を{賭|か}ける: to stake (something)\n- {命|いのち}を{賭|か}ける: to risk one's life\n- {名誉|めいよ}を{賭|か}ける: to stake one's honor\n\nRELATED WORDS:\n- {賭|か}け: bet, wager (noun)\n- {賭博|とばく}: gambling\n- {賭|か}け{事|ごと}: gambling\n\nTRANSITIVITY:\n- Type: Transitive ({他動詞|たどうし})\n- Pattern: 〜を〜に{賭|か}ける\n\nUSAGE:\nThis is a different word from かける (00854_kakeru) which means \"to hang\" or \"to make a call.\"",
   "prominent_see_also": [
     {
       "target_id": "00854_kakeru",
@@ -148,10 +148,25 @@
       "note": "noun form"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24057_tobaku",
+      "reading": "とばく",
+      "headword": "{賭博|とばく}",
+      "label": "gambling"
+    },
+    {
+      "type": "related",
+      "target_id": "18665_kakegoto",
+      "reading": "かけごと",
+      "headword": "{賭|か}け{事|ごと}",
+      "label": "gambling"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T01:44:31Z",
-    "modified": "2026-04-23T07:31:27Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

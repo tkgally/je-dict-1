@@ -3,7 +3,7 @@
   "id": "12994_hayane",
   "headword": "{早寝|はやね}",
   "reading": "はやね",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "going to bed early, early bedtime",
   "conjugation": {
     "type": "suru",
@@ -142,11 +142,25 @@
       "reading": "はやおき",
       "headword": "{早起|はやお}き",
       "label": "early rising"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07693_yofukashi",
+      "reading": "よふかし",
+      "headword": "{夜更|よふ}かし",
+      "label": "staying up late"
+    },
+    {
+      "type": "antonym",
+      "target_id": "27127_osone",
+      "reading": "おそね",
+      "headword": "{遅寝|おそね}",
+      "label": "going to bed late"
     }
   ],
   "metadata": {
     "created": "2026-02-23T05:11:37Z",
-    "modified": "2026-04-27T10:17:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

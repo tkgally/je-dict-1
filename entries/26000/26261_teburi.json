@@ -44,11 +44,34 @@
     }
   ],
   "notes": "Refers specifically to gestures made with the hands, often to emphasize speech or communicate without words. Frequently paired with {身振|みぶ}り (body gesture) in the set phrase {手振|てぶ}り{身振|みぶ}り.\n\nCOMMON COLLOCATIONS:\n- {手振|てぶ}り{身振|みぶ}り: gestures and body language\n- {手振|てぶ}りを{交|まじ}える: to mix in hand gestures\n- {大|おお}きな{手振|てぶ}り: large/exaggerated gestures\n- {手振|てぶ}りで{示|しめ}す: to indicate with a hand gesture\n\nSIMILAR WORDS:\n- {身振|みぶ}り: body gesture (broader — includes movement of the whole body)\n- ジェスチャー: gesture (loanword, used broadly in casual speech)\n- {合図|あいず}: signal (a deliberate, agreed-upon sign rather than spontaneous movement)\n\nCULTURAL NOTE:\nJapanese communication tends to use fewer hand gestures than many Western cultures. However, certain gestures are distinctly Japanese, such as waving the hand in front of the face to indicate \"no\" or pointing to one's own nose to mean \"me.\"",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14786_miburi",
+      "reading": "みぶり",
+      "headword": "{身振|みぶ}り",
+      "label": "body gesture (broader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25679_jesuchaa",
+      "reading": "じぇすちゃー",
+      "headword": "ジェスチャー",
+      "label": "gesture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01675_aizu",
+      "reading": "あいず",
+      "headword": "{合図|あいず}",
+      "label": "signal"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
+      "politeness": "plain",
       "semantic": [
         "communication",
         "body-part"
@@ -58,6 +81,6 @@
       ]
     },
     "created": "2026-04-30T14:20:07Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

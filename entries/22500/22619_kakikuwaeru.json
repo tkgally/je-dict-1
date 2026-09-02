@@ -3,7 +3,7 @@
   "headword": "{書|か}き{加|くわ}える",
   "reading": "かきくわえる",
   "romaji": "kakikuwaeru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to add (in writing); to write in addition",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A compound verb formed from {書|か}く (to write) and {加|くわ}える (to add). Used when appending or inserting additional written content to an existing document or text.\n\nUSAGE:\nThe target document is marked by に, and the content being added is marked by を:\n- 〜に〜を{書|か}き{加|くわ}える\n\nCOMMON COLLOCATIONS:\n- メモに{書|か}き{加|くわ}える: to add to a memo\n- {注釈|ちゅうしゃく}を{書|か}き{加|くわ}える: to add an annotation\n- {補足|ほそく}を{書|か}き{加|くわ}える: to add a supplement\n- {余白|よはく}に{書|か}き{加|くわ}える: to write in the margin\n\nSIMILAR WORDS:\n- {付|つ}け{加|くわ}える: to add on — more general, not limited to writing\n- {追記|ついき}する: to add a postscript — more formal, often at the end of a document\n- {書|か}き{足|た}す: to write more, to supplement — very similar, slightly more casual",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11520_tsukekuwaeru",
+      "reading": "つけくわえる",
+      "headword": "{付|つ}け{加|くわ}える",
+      "label": "to add on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17128_tsuiki",
+      "reading": "ついき",
+      "headword": "{追記|ついき}",
+      "label": "to add a postscript"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06851_kakitasu",
+      "reading": "かきたす",
+      "headword": "{書|か}き{足|た}す",
+      "label": "to write more, to supplement"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +83,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-04-06T20:22:04Z",
-    "modified": "2026-07-30T15:38:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

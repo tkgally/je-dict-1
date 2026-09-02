@@ -2,7 +2,7 @@
   "id": "08173_saihousou",
   "headword": "{再放送|さいほうそう}",
   "reading": "さいほうそう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "rerun; rebroadcast",
   "conjugation": {
     "type": "suru",
@@ -160,6 +160,20 @@
       "reading": "なまほうそう",
       "headword": "{生放送|なまほうそう}",
       "target_id": "08172_namahousou"
+    },
+    {
+      "type": "related",
+      "target_id": "23209_soushuuhen",
+      "reading": "そうしゅうへん",
+      "headword": "{総集編|そうしゅうへん}",
+      "label": "compilation episode"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14915_saien",
+      "reading": "さいえん",
+      "headword": "{再演|さいえん}",
+      "label": "revival"
     }
   ],
   "metadata": {
@@ -170,6 +184,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "media",
         "television"
@@ -177,6 +192,6 @@
       "verb_class": "suru"
     },
     "created": "2026-01-25T07:33:27Z",
-    "modified": "2026-02-03T14:48:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

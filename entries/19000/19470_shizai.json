@@ -17,7 +17,9 @@
       "id": "19470_shizai_ex1",
       "japanese": "{建設|けんせつ}{資材|しざい}が{不足|ふそく}している。",
       "english": "Construction materials are in short supply.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19470_shizai_ex2",
       "japanese": "{資材|しざい}の{調達|ちょうたつ}に{時間|じかん}がかかる。",
       "english": "Procuring materials takes time.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,61 @@
       "id": "19470_shizai_ex3",
       "japanese": "{工場|こうじょう}では{資材|しざい}の{在庫|ざいこ}{管理|かんり}を{徹底|てってい}している。",
       "english": "The factory thoroughly manages its materials inventory.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers to physical materials and supplies needed for production, construction, or operations. Commonly used in business, manufacturing, and construction contexts. The word has a professional, industrial nuance.\n\nCOMMON COLLOCATIONS:\n- {建設|けんせつ}{資材|しざい} — construction materials\n- {資材|しざい}{調達|ちょうたつ} — materials procurement\n- {資材|しざい}{置|お}き{場|ば} — materials storage area\n- {資材|しざい}{管理|かんり} — materials management\n- {資材|しざい}を{搬入|はんにゅう}する — to bring in materials\n\nSIMILAR WORDS:\n- {材料|ざいりょう} — material, ingredient; broader use, including cooking ingredients and raw materials\n- {物資|ぶっし} — goods, supplies; often used for emergency or relief supplies\n- {原材料|げんざいりょう} — raw materials; specifically unprocessed materials used in manufacturing",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02831_zairyou",
+      "reading": "ざいりょう",
+      "headword": "{材料|ざいりょう}",
+      "label": "material, ingredient"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07863_busshi",
+      "reading": "ぶっし",
+      "headword": "{物資|ぶっし}",
+      "label": "goods, supplies"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18966_genzairyou",
+      "reading": "げんざいりょう",
+      "headword": "{原材料|げんざいりょう}",
+      "label": "raw materials"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24616_buzai",
+      "reading": "ぶざい",
+      "headword": "{部材|ぶざい}",
+      "label": "structural member"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-03-26T01:20:28Z",
-    "modified": "2026-03-26T01:20:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

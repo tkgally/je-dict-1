@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{虚脱|きょだつ} describes a profound state of depletion, both physical and psychological.\n\nCOMMON PATTERNS:\n- {虚脱|きょだつ}⟦{状態|じょうたい}→状態：03345_joutai⟧: state of prostration\n- ⟦{虚脱感|きょだつかん}→虚脱感：15994_kyodatsukan⟧: feeling of exhaustion\n- {虚脱|きょだつ}⟦する→する：00392_suru⟧: to become prostrate\n\nMEDICAL CONTEXT:\nIn medical terminology, {虚脱|きょだつ} can refer to circulatory collapse or shock.\n\nCONTRAST:\n- ⟦{疲労|ひろう}→疲労：13603_hirou⟧: fatigue (more general)\n- ⟦{脱力|だつりょく}→脱力：10659_datsuryoku⟧: loss of strength\n- ⟦ぐったり→ぐったり：05835_guttari⟧: exhausted, limp (onomatopoeia)",
+  "notes": "{虚脱|きょだつ} describes a profound state of depletion, both physical and psychological.\n\nCOMMON PATTERNS:\n- {虚脱|きょだつ}⟦{状態|じょうたい}→状態：03345_joutai⟧: state of prostration\n- ⟦{虚脱感|きょだつかん}→虚脱感：15994_kyodatsukan⟧: feeling of exhaustion\n- {虚脱|きょだつ}⟦する→する：00392_suru⟧: to become prostrate\n\nMEDICAL CONTEXT:\nIn medical terminology, {虚脱|きょだつ} can refer to circulatory collapse or shock.\n\nSIMILAR WORDS:\n- ⟦{疲労|ひろう}→疲労：13603_hirou⟧: fatigue (more general)\n- ⟦{脱力|だつりょく}→脱力：10659_datsuryoku⟧: loss of strength\n- ⟦ぐったり→ぐったり：05835_guttari⟧: exhausted, limp (onomatopoeia)",
   "cross_references": [
     {
       "type": "synonym",
@@ -141,11 +141,32 @@
       "reading": "けんたい",
       "headword": "{倦怠|けんたい}",
       "label": "weariness, ennui"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13603_hirou",
+      "reading": "ひろう",
+      "headword": "{疲労|ひろう}",
+      "label": "fatigue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10659_datsuryoku",
+      "reading": "だつりょく",
+      "headword": "{脱力|だつりょく}",
+      "label": "loss of strength"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05835_guttari",
+      "reading": "ぐったり",
+      "headword": "ぐったり",
+      "label": "exhausted, limp"
     }
   ],
   "metadata": {
     "created": "2026-01-16T21:25:32Z",
-    "modified": "2026-06-10T11:40:31Z",
+    "modified": "2026-09-02T03:02:30Z",
     "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",

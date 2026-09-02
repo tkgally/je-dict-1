@@ -2,7 +2,7 @@
   "id": "01725_honyaku",
   "headword": "{翻訳|ほんやく}",
   "reading": "ほんやく",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "translation",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{翻訳|ほんやく} refers specifically to written translation.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{翻訳|ほんやく}する\n\n{翻訳|ほんやく} vs ⟦{通訳|つうやく}→通訳：03516_tsuuyaku⟧:\n- {翻訳|ほんやく}: written translation\n- ⟦{通訳|つうやく}→通訳：03516_tsuuyaku⟧: oral interpretation\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{翻訳|ほんやく}する: to translate ~\n- 〜⟦から→から：00504_kara⟧〜⟦に→に：00314_ni⟧{翻訳|ほんやく}する: to translate from ~ to ~\n- {翻訳|ほんやく}⟦{者|しゃ}→者：04662_sha⟧/{翻訳|ほんやく}⟦{家|か}→家：noentry⟧: translator\n- ⟦{機械|きかい}→機械：02366_kikai⟧{翻訳|ほんやく}: machine translation\n\nRELATED TERMS:\n- ⟦{訳|やく}す→訳す：02319_yakusu⟧: to translate (verb)\n- ⟦{原文|げんぶん}→原文：20563_genbun⟧: original text\n- ⟦{訳文|やくぶん}→訳文：noentry⟧: translated text",
+  "notes": "{翻訳|ほんやく} refers specifically to written translation.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{翻訳|ほんやく}する\n\n{翻訳|ほんやく} vs ⟦{通訳|つうやく}→通訳：03516_tsuuyaku⟧:\n- {翻訳|ほんやく}: written translation\n- ⟦{通訳|つうやく}→通訳：03516_tsuuyaku⟧: oral interpretation\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{翻訳|ほんやく}する: to translate ~\n- 〜⟦から→から：00504_kara⟧〜⟦に→に：00314_ni⟧{翻訳|ほんやく}する: to translate from ~ to ~\n- {翻訳|ほんやく}⟦{者|しゃ}→者：04662_sha⟧/{翻訳|ほんやく}⟦{家|か}→家：noentry⟧: translator\n- ⟦{機械|きかい}→機械：02366_kikai⟧{翻訳|ほんやく}: machine translation\n\nRELATED WORDS:\n- ⟦{訳|やく}す→訳す：02319_yakusu⟧: to translate (verb)\n- ⟦{原文|げんぶん}→原文：20563_genbun⟧: original text\n- ⟦{訳文|やくぶん}→訳文：noentry⟧: translated text",
   "cross_references": [
     {
       "type": "contrast",
@@ -141,11 +141,53 @@
       "reading": "つうやく",
       "headword": "{通訳|つうやく}",
       "label": "oral interpretation"
+    },
+    {
+      "type": "related",
+      "target_id": "02319_yakusu",
+      "reading": "やくす",
+      "headword": "{訳|やく}す",
+      "label": "to translate"
+    },
+    {
+      "type": "related",
+      "target_id": "20563_genbun",
+      "reading": "げんぶん",
+      "headword": "{原文|げんぶん}",
+      "label": "original text"
+    },
+    {
+      "type": "related",
+      "target_id": "16317_eiyaku",
+      "reading": "えいやく",
+      "headword": "{英訳|えいやく}",
+      "label": "English translation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20037_tensha",
+      "reading": "てんしゃ",
+      "headword": "{転写|てんしゃ}",
+      "label": "transcription"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26370_wabuneiyaku",
+      "reading": "わぶんえいやく",
+      "headword": "{和文英訳|わぶんえいやく}",
+      "label": "Japanese-to-English translation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26837_kaishakusuru",
+      "reading": "かいしゃくする",
+      "headword": "{解釈|かいしゃく}する",
+      "label": "to interpret"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:15:45Z",
-    "modified": "2026-05-16T20:08:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

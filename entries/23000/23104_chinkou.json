@@ -3,7 +3,7 @@
   "headword": "{沈降|ちんこう}",
   "reading": "ちんこう",
   "romaji": "chinkou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sinking; subsidence; sedimentation",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "A compound of {沈|ちん} (sink) and {降|こう} (descend). A technical/formal term used primarily in geology, chemistry, and engineering contexts. The opposite concept is {隆起|りゅうき} (uplift; elevation).\n\nCOMMON COLLOCATIONS:\n- {地盤|じばん}{沈降|ちんこう}: land subsidence; ground subsidence\n- {沈降|ちんこう}{速度|そくど}: rate of sinking; settling velocity\n- {沈降|ちんこう}する: to sink; to settle; to subside\n- {沈降|ちんこう}{現象|げんしょう}: subsidence phenomenon\n\nSIMILAR WORDS:\n- {沈下|ちんか}: subsidence; sinking — very similar meaning, often interchangeable in geological contexts\n- {隆起|りゅうき}: uplift; elevation — the opposite process, where land rises\n- {沈殿|ちんでん}: precipitation; sedimentation — specifically the settling of dissolved substances in chemistry",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25488_ryuuki",
+      "reading": "りゅうき",
+      "headword": "{隆起|りゅうき}",
+      "label": "uplift"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09136_chinden",
+      "reading": "ちんでん",
+      "headword": "{沈殿|ちんでん}",
+      "label": "precipitation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-08T18:36:55Z",
-    "modified": "2026-04-08T18:36:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

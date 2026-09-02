@@ -44,8 +44,45 @@
       "notes": null
     }
   ],
-  "notes": "An important part of daily transportation in Japan, especially in areas without train service. In recent years, {路線|ろせん}バスの{廃止|はいし} (discontinuation of bus routes) has become a major social issue in rural Japan as population decline makes routes financially unviable.\n\nFORMATION:\n{路線|ろせん} (route, line) + バス (bus)\n\nCOMMON COLLOCATIONS:\n- {路線|ろせん}バスに{乗|の}る: to ride a local bus\n- {路線|ろせん}バスの{時刻表|じこくひょう}: local bus timetable\n- {路線|ろせん}バスの{運賃|うんちん}: local bus fare\n- {路線|ろせん}バスが{廃止|はいし}になる: a bus route is discontinued\n\nSIMILAR WORDS:\n- {高速|こうそく}バス: express bus, highway bus — long-distance, between cities\n- {貸切|かしきり}バス: chartered bus — for private group use\n- コミュニティバス: community bus — small buses serving local neighborhoods, often subsidized",
+  "notes": "An important part of daily transportation in Japan, especially in areas without train service. In recent years, {路線|ろせん}バスの{廃止|はいし} (discontinuation of bus routes) has become a major social issue in rural Japan as population decline makes routes financially unviable.\n\nFORMS:\n{路線|ろせん} (route, line) + バス (bus)\n\nCOMMON COLLOCATIONS:\n- {路線|ろせん}バスに{乗|の}る: to ride a local bus\n- {路線|ろせん}バスの{時刻表|じこくひょう}: local bus timetable\n- {路線|ろせん}バスの{運賃|うんちん}: local bus fare\n- {路線|ろせん}バスが{廃止|はいし}になる: a bus route is discontinued\n\nSIMILAR WORDS:\n- {高速|こうそく}バス: express bus, highway bus — long-distance, between cities\n- {貸切|かしきり}バス: chartered bus — for private group use\n- コミュニティバス: community bus — small buses serving local neighborhoods, often subsidized",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20782_kousokubasu",
+      "reading": "こうそくばす",
+      "headword": "{高速|こうそく}バス",
+      "label": "express bus, highway bus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22719_kashikiribasu",
+      "reading": "かしきりばす",
+      "headword": "{貸切|かしきり}バス",
+      "label": "chartered bus"
+    },
+    {
+      "type": "related",
+      "target_id": "19025_kankoubasu",
+      "reading": "かんこうばす",
+      "headword": "{観光|かんこう}バス",
+      "label": "tour bus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25055_noriaibasu",
+      "reading": "のりあいばす",
+      "headword": "{乗合|のりあい}バス",
+      "label": "public bus"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30786_sougeibasu",
+      "reading": "そうげいばす",
+      "headword": "{送迎|そうげい}バス",
+      "label": "shuttle bus"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +96,6 @@
       ]
     },
     "created": "2026-03-29T12:11:21Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{病死|びょうし}",
   "reading": "びょうし",
   "romaji": "byoushi",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "death from illness; dying of disease",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "A formal term used in official, medical, and legal contexts to classify the manner of death. Often contrasted with other causes of death such as {事故死|じこし} (accidental death) or {自殺|じさつ} (suicide).\n\nCOMMON COLLOCATIONS:\n- {病死|びょうし}する: to die of illness\n- {病死|びょうし}と{認定|にんてい}される: to be classified as death from illness\n- {死因|しいん}は{病死|びょうし}: the cause of death is illness\n\nSIMILAR WORDS:\n- {病没|びょうぼつ}: death from illness — more literary or formal; often used for notable figures\n- {事故死|じこし}: accidental death — death caused by an accident\n- {戦死|せんし}: death in battle — killed in combat\n- {老衰|ろうすい}: death from old age — natural death due to aging\n- {急死|きゅうし}: sudden death — dying suddenly and unexpectedly",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23678_jikoshi",
+      "reading": "じこし",
+      "headword": "{事故死|じこし}",
+      "label": "accidental death"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12979_senshi",
+      "reading": "せんし",
+      "headword": "{戦死|せんし}",
+      "label": "death in battle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13982_rousui",
+      "reading": "ろうすい",
+      "headword": "{老衰|ろうすい}",
+      "label": "death from old age"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18189_kyuushi",
+      "reading": "きゅうし",
+      "headword": "{急死|きゅうし}",
+      "label": "sudden death"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-04T20:20:57Z",
-    "modified": "2026-04-04T20:20:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

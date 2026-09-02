@@ -2,7 +2,7 @@
   "id": "11908_seishi",
   "headword": "{制止|せいし}",
   "reading": "せいし",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "restraint, stopping, holding back",
   "conjugation": {
     "type": "suru",
@@ -133,11 +133,26 @@
       ]
     }
   ],
-  "notes": "Often appears in news and literary contexts describing scenes where someone is being physically or verbally restrained.\n\nCOMMON PATTERNS:\n・{制止|せいし}する (to restrain, to stop someone)\n・{制止|せいし}を{振|ふ}り{切|き}る (to shake off restraint)\n・{制止|せいし}を{無視|むし}する (to ignore attempts to stop one)\n・{制止|せいし}も{聞|き}かず (ignoring attempts to stop one)\n\nSIMILAR WORDS:\n・{制止|せいし} — stopping someone from acting (physical/verbal intervention)\n・{抑制|よくせい} — suppression, restraint (broader; includes self-restraint and systemic controls)",
-  "cross_references": [],
+  "notes": "Often appears in news and literary contexts describing scenes where someone is being physically or verbally restrained.\n\nCOMMON PATTERNS:\n- {制止|せいし}する (to restrain, to stop someone)\n- {制止|せいし}を{振|ふ}り{切|き}る (to shake off restraint)\n- {制止|せいし}を{無視|むし}する (to ignore attempts to stop one)\n- {制止|せいし}も{聞|き}かず (ignoring attempts to stop one)\n\nSIMILAR WORDS:\n- {制止|せいし} — stopping someone from acting (physical/verbal intervention)\n- {抑制|よくせい} — suppression, restraint (broader; includes self-restraint and systemic controls)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05635_yokusei",
+      "reading": "よくせい",
+      "headword": "{抑制|よくせい}",
+      "label": "suppression, restraint (broader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22563_oshitodomeru",
+      "reading": "おしとどめる",
+      "headword": "{押|お}し{留|とど}める",
+      "label": "to restrain"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T14:13:17Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

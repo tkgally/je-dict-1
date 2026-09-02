@@ -43,10 +43,33 @@
       ]
     }
   ],
-  "notes": "{目薬|めぐすり} is used for various eye conditions.\n\nCOMMON PATTERNS:\n- {目薬|めぐすり}をさす (to put in eye drops)\n- {目薬|めぐすり}を{使|つか}う (to use eye drops)\n\nCOMMON TYPES:\n- {疲|つか}れ{目|め}{用|よう} (for tired eyes)\n- ドライアイ{用|よう} (for dry eyes)\n- {花粉症|かふんしょう}{用|よう} (for hay fever)\n- {充血|じゅうけつ}{除去|じょきょ}{用|よう} (for reducing redness)\n\nRELATED TERMS:\n- {点眼薬|てんがんやく}: eye drops (formal/medical)\n- {目|め}: eye\n- {視力|しりょく}: eyesight",
+  "notes": "{目薬|めぐすり} is used for various eye conditions.\n\nCOMMON PATTERNS:\n- {目薬|めぐすり}をさす (to put in eye drops)\n- {目薬|めぐすり}を{使|つか}う (to use eye drops)\n\nTYPES:\n- {疲|つか}れ{目|め}{用|よう} (for tired eyes)\n- ドライアイ{用|よう} (for dry eyes)\n- {花粉症|かふんしょう}{用|よう} (for hay fever)\n- {充血|じゅうけつ}{除去|じょきょ}{用|よう} (for reducing redness)\n\nRELATED WORDS:\n- {点眼薬|てんがんやく}: eye drops (formal/medical)\n- {目|め}: eye\n- {視力|しりょく}: eyesight",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24269_tenganyaku",
+      "reading": "てんがんやく",
+      "headword": "{点眼薬|てんがんやく}",
+      "label": "eye drops"
+    },
+    {
+      "type": "related",
+      "target_id": "05033_shiryoku",
+      "reading": "しりょく",
+      "headword": "{視力|しりょく}",
+      "label": "eyesight"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19044_nomigusuri",
+      "reading": "のみぐすり",
+      "headword": "{飲|の}み{薬|ぐすり}",
+      "label": "oral medicine"
+    }
+  ],
   "metadata": {
     "created": "2026-02-03T06:55:43Z",
-    "modified": "2026-06-24T18:40:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

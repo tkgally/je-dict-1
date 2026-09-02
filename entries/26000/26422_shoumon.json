@@ -17,7 +17,9 @@
       "id": "26422_shoumon_ex1",
       "japanese": "{犯行|はんこう}{現場|げんば}から{掌紋|しょうもん}が{検出|けんしゅつ}された。",
       "english": "A palm print was found at the crime scene.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26422_shoumon_ex2",
       "japanese": "{掌紋|しょうもん}は{指紋|しもん}と{同様|どうよう}に{個人|こじん}{識別|しきべつ}に{使|つか}われる。",
       "english": "Palm prints are used for personal identification just like fingerprints.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26422_shoumon_ex3",
       "japanese": "{警察|けいさつ}は{容疑者|ようぎしゃ}の{掌紋|しょうもん}を{採取|さいしゅ}して、{現場|げんば}のものと{照合|しょうごう}した。",
       "english": "The police collected the suspect's palm print and compared it with the one from the scene.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {掌|しょう} (palm of the hand) and {紋|もん} (pattern, crest). Like fingerprints, palm prints are unique to each individual and are used as evidence in criminal investigations.\n\nCOMMON COLLOCATIONS:\n- {掌紋|しょうもん}を{採取|さいしゅ}する: to collect a palm print\n- {掌紋|しょうもん}を{照合|しょうごう}する: to compare palm prints\n- {掌紋|しょうもん}{鑑定|かんてい}: palm print analysis\n- {掌紋|しょうもん}が{一致|いっち}する: palm prints match\n\nSIMILAR WORDS:\n- {指紋|しもん}: fingerprint — the pattern on fingertips; more commonly collected than palm prints\n- {手相|てそう}: palm reading, palmistry — interpreting the lines of the palm for fortune-telling\n- {紋様|もんよう}: pattern, design — a more general term for any decorative or identifying pattern",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12728_shimon",
+      "reading": "しもん",
+      "headword": "{指紋|しもん}",
+      "label": "fingerprint"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27787_tesou",
+      "reading": "てそう",
+      "headword": "{手相|てそう}",
+      "label": "palm reading, palmistry"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["body-part", "law"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "body-part",
+        "law"
+      ]
     },
     "created": "2026-05-01T15:38:19Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -79,8 +79,23 @@
       "notes": null
     }
   ],
-  "notes": "A Sino-Japanese compound of {波|は} (wave) + {動|どう} (movement). Primarily used in scientific contexts for wave phenomena, but also has figurative uses for describing wave-like spread or fluctuation.\n\nCOMMON COLLOCATIONS:\n- {波動|はどう}{方程式|ほうていしき}: wave equation\n- {波動|はどう}{関数|かんすう}: wave function (quantum mechanics)\n- {電磁|でんじ}{波動|はどう}: electromagnetic wave\n- {波動|はどう}{エネルギー}: wave energy\n\nSIMILAR WORDS:\n- {波|なみ}: wave — everyday word; both literal (ocean wave) and figurative\n- {振動|しんどう}: vibration — back-and-forth movement at a point rather than propagation\n- {波長|はちょう}: wavelength — a specific measurement of waves",
-  "cross_references": [],
+  "notes": "A Sino-Japanese compound of {波|は} (wave) + {動|どう} (movement). Primarily used in scientific contexts for wave phenomena, but also has figurative uses for describing wave-like spread or fluctuation.\n\nCOMMON COLLOCATIONS:\n- {波動|はどう}{方程式|ほうていしき}: wave equation\n- {波動|はどう}{関数|かんすう}: wave function (quantum mechanics)\n- {電磁|でんじ}{波動|はどう}: electromagnetic wave\n- {波動|はどう}エネルギー: wave energy\n\nSIMILAR WORDS:\n- {波|なみ}: wave — everyday word; both literal (ocean wave) and figurative\n- {振動|しんどう}: vibration — back-and-forth movement at a point rather than propagation\n- {波長|はちょう}: wavelength — a specific measurement of waves",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08179_shindou",
+      "reading": "しんどう",
+      "headword": "{振動|しんどう}",
+      "label": "vibration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27087_hachou",
+      "reading": "はちょう",
+      "headword": "{波長|はちょう}",
+      "label": "wavelength"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -95,6 +110,6 @@
       ]
     },
     "created": "2026-05-05T11:12:26Z",
-    "modified": "2026-05-05T11:12:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

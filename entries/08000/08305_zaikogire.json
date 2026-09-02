@@ -16,7 +16,9 @@
       "id": "08305_zaikogire_ex1",
       "japanese": "その{商品|しょうひん}は{在庫切|ざいこぎ}れです。",
       "english": "That product is out of stock.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "08305_zaikogire_ex2",
       "japanese": "{人気|にんき}{商品|しょうひん}はすぐ{在庫切|ざいこぎ}れになる。",
       "english": "Popular products quickly go out of stock.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,20 +36,58 @@
       "id": "08305_zaikogire_ex3",
       "japanese": "{在庫切|ざいこぎ}れで{注文|ちゅうもん}を{受|う}け{付|つ}けられません。",
       "english": "We cannot accept orders due to being out of stock.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "FORMATION:\n{在庫|ざいこ} (inventory, stock) + {切|き}れ (running out, depletion)\n\nGRAMMAR:\n- {在庫切|ざいこぎ}れになる (to go out of stock)\n- {在庫切|ざいこぎ}れで... (because of being out of stock)\n\nRELATED TERMS:\n- {在庫|ざいこ}あり (in stock)\n- {在庫|ざいこ}{確認|かくにん} (stock check)\n- {品切|しなぎ}れ (sold out - synonym)\n- {再入荷|さいにゅうか} (restocking)\n\nSYNONYM:\n{品切|しなぎ}れ is used interchangeably and is slightly more common in casual speech.",
+  "notes": "FORMS:\n{在庫|ざいこ} (inventory, stock) + {切|き}れ (running out, depletion)\n\nCOMMON PATTERNS:\n- {在庫切|ざいこぎ}れになる (to go out of stock)\n- {在庫切|ざいこぎ}れで... (because of being out of stock)\n\nRELATED WORDS:\n- {在庫|ざいこ}あり (in stock)\n- {在庫|ざいこ}{確認|かくにん} (stock check)\n- {品切|しなぎ}れ (sold out - synonym)\n- {再入荷|さいにゅうか} (restocking)\n\nSIMILAR WORDS:\n{品切|しなぎ}れ is used interchangeably and is slightly more common in casual speech.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09557_shinagire",
+      "reading": "しなぎれ",
+      "headword": "{品切|しなぎ}れ",
+      "label": "sold out"
+    },
+    {
+      "type": "related",
+      "target_id": "08768_sainyuuka",
+      "reading": "さいにゅうか",
+      "headword": "{再|さい}{入荷|にゅうか}",
+      "label": "restocking"
+    },
+    {
+      "type": "related",
+      "target_id": "07955_keppin",
+      "reading": "けっぴん",
+      "headword": "{欠品|けっぴん}",
+      "label": "out of stock"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30636_shinabusoku",
+      "reading": "しなぶそく",
+      "headword": "{品不足|しなぶそく}",
+      "label": "shortage of goods"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["shopping", "business"]
+      "politeness": "plain",
+      "semantic": [
+        "shopping",
+        "business"
+      ]
     },
     "created": "2026-01-25T23:10:08Z",
-    "modified": "2026-01-25T23:10:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

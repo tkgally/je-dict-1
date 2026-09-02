@@ -17,7 +17,9 @@
       "id": "27026_koushuukai_ex1",
       "japanese": "{講習会|こうしゅうかい}に{参加|さんか}する。",
       "english": "To participate in a training course.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27026_koushuukai_ex2",
       "japanese": "{来月|らいげつ}、{防災|ぼうさい}{講習会|こうしゅうかい}が{開|ひら}かれる。",
       "english": "A disaster preparedness workshop will be held next month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,73 @@
       "id": "27026_koushuukai_ex3",
       "japanese": "{会社|かいしゃ}が{費用|ひよう}を{出|だ}してくれるので、{安全|あんぜん}{管理|かんり}の{講習会|こうしゅうかい}を{受|う}けてきた。",
       "english": "Since the company covered the cost, I attended a safety management training course.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {講習|こうしゅう} (training, instruction) + {会|かい} (gathering, meeting). Refers to organized training events that are typically shorter than full courses — often one day or a few sessions. Common in workplace training, community education, and certification programs.\n\nCOMMON COLLOCATIONS:\n- {講習会|こうしゅうかい}を{開|ひら}く: to hold a workshop\n- {講習会|こうしゅうかい}を{受|う}ける: to attend a training course\n- {講習会|こうしゅうかい}に{申|もう}し{込|こ}む: to apply for a workshop\n- {安全|あんぜん}{講習会|こうしゅうかい}: safety training workshop\n- {初心者|しょしんしゃ}{向|む}け{講習会|こうしゅうかい}: beginners' workshop\n\nSIMILAR WORDS:\n- セミナー: seminar — often more academic or business-oriented; sometimes implies a lecture format\n- {研修|けんしゅう}: training; professional development — broader term; can refer to longer training programs\n- ワークショップ: workshop — loanword increasingly used, especially for creative or hands-on sessions\n- {勉強会|べんきょうかい}: study group — more informal; often self-organized among peers",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11000_seminaa",
+      "reading": "せみなー",
+      "headword": "セミナー",
+      "label": "seminar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05322_kenshuu",
+      "reading": "けんしゅう",
+      "headword": "{研修|けんしゅう}",
+      "label": "training"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06399_waakushoppu",
+      "reading": "わーくしょっぷ",
+      "headword": "ワークショップ",
+      "label": "workshop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23197_benkyoukai",
+      "reading": "べんきょうかい",
+      "headword": "{勉強会|べんきょうかい}",
+      "label": "study group"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23279_kenshuukai",
+      "reading": "けんしゅうかい",
+      "headword": "{研修会|けんしゅうかい}",
+      "label": "training session"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30042_gakushuukai",
+      "reading": "がくしゅうかい",
+      "headword": "学習会",
+      "label": "study group"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education", "work"]
+      "semantic": [
+        "education",
+        "work"
+      ]
     },
     "created": "2026-05-06T14:21:35Z",
-    "modified": "2026-05-06T14:21:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

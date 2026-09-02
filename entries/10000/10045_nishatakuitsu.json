@@ -16,7 +16,9 @@
       "id": "10045_nishatakuitsu_ex1",
       "japanese": "{二者択一|にしゃたくいつ}を{迫|せま}られる。",
       "english": "To be forced to make an either-or choice.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "10045_nishatakuitsu_ex2",
       "japanese": "{二者択一|にしゃたくいつ}の{問題|もんだい}。",
       "english": "A binary question.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "10045_nishatakuitsu_ex3",
       "japanese": "{結婚|けっこん}か{仕事|しごと}かの{二者択一|にしゃたくいつ}ではない。",
       "english": "It's not an either-or choice between marriage and work.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -40,23 +46,45 @@
       "id": "10045_nishatakuitsu_ex4",
       "japanese": "{人生|じんせい}は{常|つね}に{二者択一|にしゃたくいつ}ではないと{思|おも}う。",
       "english": "I think life isn't always about either-or choices.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{二者択一|にしゃたくいつ} means having to choose one of exactly two options.\n\nCOMPONENTS:\n- {二者|にしゃ}: two parties/things\n- {択一|たくいつ}: selection of one\n\nCOMMON PATTERNS:\n- {二者択一|にしゃたくいつ}を{迫|せま}る: to force a binary choice\n- {二者択一|にしゃたくいつ}の{問題|もんだい}: a binary question\n- {二者択一|にしゃたくいつ}ではない: not an either-or situation\n\nCONTRAST:\nOften used to criticize oversimplified thinking that ignores nuance or middle ground solutions.\n\nRELATED:\n- {選択|せんたく}: choice, selection\n- {二項対立|にこうたいりつ}: binary opposition\n- AかBか: A or B (casual equivalent)",
-  "cross_references": [],
+  "notes": "{二者択一|にしゃたくいつ} means having to choose one of exactly two options.\n\nETYMOLOGY:\n- {二者|にしゃ}: two parties/things\n- {択一|たくいつ}: selection of one\n\nCOMMON PATTERNS:\n- {二者択一|にしゃたくいつ}を{迫|せま}る: to force a binary choice\n- {二者択一|にしゃたくいつ}の{問題|もんだい}: a binary question\n- {二者択一|にしゃたくいつ}ではない: not an either-or situation\n\nSIMILAR WORDS:\nOften used to criticize oversimplified thinking that ignores nuance or middle ground solutions.\n\nRELATED WORDS:\n- {選択|せんたく}: choice, selection\n- {二項対立|にこうたいりつ}: binary opposition\n- AかBか: A or B (casual equivalent)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03306_sentaku",
+      "reading": "せんたく",
+      "headword": "{選択|せんたく}",
+      "label": "choice, selection"
+    },
+    {
+      "type": "related",
+      "target_id": "10757_nikoutairitsu",
+      "reading": "にこうたいりつ",
+      "headword": "{二項対立|にこうたいりつ}",
+      "label": "binary opposition"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T14:18:11Z",
-    "modified": "2026-02-04T14:18:11Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["abstract", "logic"]
+      "semantic": [
+        "abstract",
+        "logic"
+      ]
     }
   }
 }

@@ -19,7 +19,9 @@
       "english": "It was just like a dream.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16417_sanagara_ex2",
@@ -27,7 +29,9 @@
       "english": "The venue had an atmosphere just like a festival.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16417_sanagara_ex3",
@@ -35,22 +39,45 @@
       "english": "The snow-covered town looked exactly like another world, and I caught my breath in wonder.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nさながら is a somewhat literary adverb that adds vividness to a comparison. Common patterns include さながら〜のようだ and さながら〜だ. It elevates the tone of a sentence compared to using まるで or ように alone.\n\nGRAMMAR:\nTypically placed before the thing being compared to:\n- さながら + noun + のようだ\n- さながら + noun + だ\n\nCOMMON COLLOCATIONS:\n- さながら{夢|ゆめ}のよう (just like a dream)\n- さながら{戦場|せんじょう}のよう (like a battlefield)\n- さながら{別世界|べっせかい} (like another world)\n\nSIMILAR WORDS:\nまるで is more conversational and common. あたかも is more formal and literary. さながら falls between the two, adding an evocative, descriptive quality.",
-  "cross_references": [],
+  "notes": "USAGE:\nさながら is a somewhat literary adverb that adds vividness to a comparison. Common patterns include さながら〜のようだ and さながら〜だ. It elevates the tone of a sentence compared to using まるで or ように alone.\n\nCOMMON PATTERNS:\nTypically placed before the thing being compared to:\n- さながら + noun + のようだ\n- さながら + noun + だ\n\nCOMMON COLLOCATIONS:\n- さながら{夢|ゆめ}のよう (just like a dream)\n- さながら{戦場|せんじょう}のよう (like a battlefield)\n- さながら{別世界|べっせかい} (like another world)\n\nSIMILAR WORDS:\nまるで is more conversational and common. あたかも is more formal and literary. さながら falls between the two, adding an evocative, descriptive quality.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10210_atakamo",
+      "reading": "あたかも",
+      "headword": "あたかも",
+      "label": "as if, just like"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20861_gotoku",
+      "reading": "ごとく",
+      "headword": "ごとく",
+      "label": "like"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T09:00:55Z",
-    "modified": "2026-03-12T09:00:55Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"],
-      "style": ["literary"]
+      "semantic": [
+        "descriptive"
+      ],
+      "style": [
+        "literary"
+      ]
     }
   }
 }

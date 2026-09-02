@@ -17,7 +17,9 @@
       "id": "28748_toshidensetsu_ex1",
       "japanese": "それはただの{都市伝説|としでんせつ}だよ。",
       "english": "That's just an urban legend.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28748_toshidensetsu_ex2",
       "japanese": "{学校|がっこう}にまつわる{都市伝説|としでんせつ}を{聞|き}いたことがある。",
       "english": "I've heard urban legends related to schools.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "28748_toshidensetsu_ex3",
       "japanese": "インターネットで{広|ひろ}まった{都市伝説|としでんせつ}を{検証|けんしょう}する{番組|ばんぐみ}が{人気|にんき}だ。",
       "english": "Shows that fact-check urban legends spread on the internet are popular.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {都市|とし} (city) + {伝説|でんせつ} (legend). Borrowed from the English term \"urban legend\" but used broadly for any unverified modern rumor — not just city-specific ones.\n\nCOMMON COLLOCATIONS:\n- {有名|ゆうめい}な{都市伝説|としでんせつ}: a famous urban legend\n- {都市伝説|としでんせつ}を{信|しん}じる: to believe an urban legend\n- {都市伝説|としでんせつ}が{広|ひろ}まる: an urban legend spreads\n- {都市伝説|としでんせつ}を{暴|あば}く: to debunk an urban legend\n\nSIMILAR WORDS:\n- {噂|うわさ}: rumor — narrower, refers to specific gossip rather than a story with narrative structure\n- {デマ}: false rumor; disinformation — emphasizes that the claim is wrong, not its narrative form",
+  "notes": "Compound of {都市|とし} (city) + {伝説|でんせつ} (legend). Borrowed from the English term \"urban legend\" but used broadly for any unverified modern rumor — not just city-specific ones.\n\nCOMMON COLLOCATIONS:\n- {有名|ゆうめい}な{都市伝説|としでんせつ}: a famous urban legend\n- {都市伝説|としでんせつ}を{信|しん}じる: to believe an urban legend\n- {都市伝説|としでんせつ}が{広|ひろ}まる: an urban legend spreads\n- {都市伝説|としでんせつ}を{暴|あば}く: to debunk an urban legend\n\nSIMILAR WORDS:\n- {噂|うわさ}: rumor — narrower, refers to specific gossip rather than a story with narrative structure\n- デマ: false rumor; disinformation — emphasizes that the claim is wrong, not its narrative form",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01871_uwasa",
+      "reading": "うわさ",
+      "headword": "{噂|うわさ}",
+      "label": "rumor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16135_dema",
+      "reading": "でま",
+      "headword": "デマ",
+      "label": "false rumor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19269_zokusetsu",
+      "reading": "ぞくせつ",
+      "headword": "{俗説|ぞくせつ}",
+      "label": "popular belief"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["culture"],
+      "politeness": "plain",
+      "semantic": [
+        "culture"
+      ],
       "domain": []
     },
     "created": "2026-06-05T02:07:15Z",
-    "modified": "2026-06-05T02:07:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

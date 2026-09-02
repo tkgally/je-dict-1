@@ -17,7 +17,9 @@
       "id": "26346_hicchuu_ex1",
       "japanese": "{百発百中|ひゃっぱつひゃくちゅう}の{必中|ひっちゅう}{率|りつ}を{誇|ほこ}る。",
       "english": "To boast a 100% hit rate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26346_hicchuu_ex2",
       "japanese": "{弓道|きゅうどう}では{必中|ひっちゅう}を{目指|めざ}して{日々|ひび}{稽古|けいこ}する。",
       "english": "In kyudo, one practices daily aiming for a sure hit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26346_hicchuu_ex3",
       "japanese": "{彼|かれ}が{立|た}てた{計画|けいかく}は{必中|ひっちゅう}の{策|さく}だと{言|い}われていたが、{思|おも}わぬ{障害|しょうがい}に{阻|はば}まれた。",
       "english": "The plan he devised was said to be a surefire strategy, but it was blocked by an unexpected obstacle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {必|ひつ} (certain, inevitable) and {中|ちゅう} (hit the mark). The character {中|ちゅう} here uses its less common reading meaning \"to hit\" (as in {的中|てきちゅう}, hitting the mark).\n\nCOMMON COLLOCATIONS:\n- {必中|ひっちゅう}の{策|さく}: surefire plan/strategy\n- {必中|ひっちゅう}{率|りつ}: hit rate; accuracy rate\n- {必中|ひっちゅう}を{期|き}す: to aim for a sure hit\n\nUSAGE:\nCommon in martial arts (especially archery and {弓道|きゅうどう}), military/strategy contexts, and gaming. Also used figuratively in business for foolproof plans.\n\nSIMILAR WORDS:\n- {的中|てきちゅう}: hitting the mark; coming true — emphasizes accuracy rather than certainty\n- {命中|めいちゅう}: direct hit — focuses on the result of actually hitting",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15262_tekichuu",
+      "reading": "てきちゅう",
+      "headword": "{的中|てきちゅう}",
+      "label": "hitting the mark"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18487_meichuu",
+      "reading": "めいちゅう",
+      "headword": "{命中|めいちゅう}",
+      "label": "direct hit"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["sports", "cognition"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "sports",
+        "cognition"
+      ]
     },
     "created": "2026-05-01T11:32:44Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

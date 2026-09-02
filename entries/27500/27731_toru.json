@@ -3,7 +3,7 @@
   "headword": "{録|と}る",
   "reading": "とる",
   "romaji": "toru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to record (audio or video)",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A specialized writing of とる used when the meaning is 'to record' audio or video. The plain {取|と}る is the general-purpose verb; {録|と}る narrows it specifically to recording.\n\nCOMMON COLLOCATIONS:\n- {番組|ばんぐみ}を{録|と}る: to record a program\n- {録|と}っておく: to record (for later)\n- ビデオに{録|と}る: to record onto video\n\nSIMILAR WORDS:\n- {撮|と}る: to take (a photo); to film — used for photographs and shooting footage\n- {録音|ろくおん}する: to record sound — a more formal する verb, specifically for audio\n- {録画|ろくが}する: to record video — the formal する verb for video; more common in writing than {録|と}る",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "00760_toru",
+      "reading": "とる",
+      "headword": "{撮|と}る",
+      "label": "to take"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25388_rokuonsuru",
+      "reading": "ろくおんする",
+      "headword": "{録音|ろくおん}する",
+      "label": "to record sound"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04441_rokuga",
+      "reading": "ろくが",
+      "headword": "{録画|ろくが}",
+      "label": "to record video"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-05-17T04:06:49Z",
-    "modified": "2026-05-17T04:06:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

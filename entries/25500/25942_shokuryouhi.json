@@ -17,7 +17,9 @@
       "id": "25942_shokuryouhi_ex1",
       "japanese": "{食料費|しょくりょうひ}を{節約|せつやく}したい。",
       "english": "I want to save on food expenses.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25942_shokuryouhi_ex2",
       "japanese": "{今月|こんげつ}の{食料費|しょくりょうひ}が{予算|よさん}を{超|こ}えてしまった。",
       "english": "This month's food expenses exceeded the budget.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,44 @@
       "id": "25942_shokuryouhi_ex3",
       "japanese": "{物価|ぶっか}{上昇|じょうしょう}の{影響|えいきょう}で、{家庭|かてい}の{食料費|しょくりょうひ}が{年々|ねんねん}{増|ふ}えている。",
       "english": "Due to rising prices, household food costs are increasing year by year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {食料|しょくりょう} (food; provisions) and {費|ひ} (expense; cost). Used in household budgeting, economics, and organizational accounting. Often discussed in the context of rising prices and household savings.\n\nCOMMON COLLOCATIONS:\n- {食料費|しょくりょうひ}を{節約|せつやく}する: to save on food expenses\n- {食料費|しょくりょうひ}を{抑|おさ}える: to hold down food costs\n- {月|つき}の{食料費|しょくりょうひ}: monthly food expenses\n- {食料費|しょくりょうひ}が{上|あ}がる: food costs rise\n- {家計|かけい}の{食料費|しょくりょうひ}: household food expenses\n\nSIMILAR WORDS:\n- {食費|しょくひ}: food expenses — more common in everyday conversation and essentially synonymous, though {食料費|しょくりょうひ} sounds slightly more formal\n- {生活費|せいかつひ}: living expenses — broader category that includes food, rent, utilities, and other costs\n- {食材費|しょくざいひ}: ingredient costs — specifically the cost of cooking ingredients, often used in restaurant contexts",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16477_shokuhi",
+      "reading": "しょくひ",
+      "headword": "{食費|しょくひ}",
+      "label": "food expenses"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19424_seikatsuhi",
+      "reading": "せいかつひ",
+      "headword": "{生活費|せいかつひ}",
+      "label": "living expenses"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food", "money"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "money"
+      ]
     },
     "created": "2026-04-28T13:31:44Z",
-    "modified": "2026-04-28T13:31:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

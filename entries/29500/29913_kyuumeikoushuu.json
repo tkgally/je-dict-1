@@ -17,7 +17,9 @@
       "id": "29913_kyuumeikoushuu_ex1",
       "japanese": "{会社|かいしゃ}で{救命講習|きゅうめいこうしゅう}を{受|う}けた。",
       "english": "I took a lifesaving course at my company.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29913_kyuumeikoushuu_ex2",
       "japanese": "{消防署|しょうぼうしょ}が{救命講習|きゅうめいこうしゅう}を{開|ひら}いている。",
       "english": "The fire station holds lifesaving courses.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "29913_kyuumeikoushuu_ex3",
       "japanese": "{救命講習|きゅうめいこうしゅう}で、{人形|にんぎょう}を{使|つか}って{心臓|しんぞう}マッサージの{練習|れんしゅう}をした。",
       "english": "In the lifesaving course, we practiced chest compressions using a mannequin.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A course teaching emergency first aid, most often run by the local {消防署|しょうぼうしょ} (fire station). Completing certain courses earns a {修了証|しゅうりょうしょう} (certificate).\n\nCOMMON COLLOCATIONS:\n- {救命講習|きゅうめいこうしゅう}を{受|う}ける: to take a lifesaving course\n- {普通|ふつう}{救命講習|きゅうめいこうしゅう}: standard lifesaving course\n- {救命講習|きゅうめいこうしゅう}の{修了証|しゅうりょうしょう}: certificate of completion",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06519_oukyuushochi",
+      "reading": "おうきゅうしょち",
+      "headword": "{応急処置|おうきゅうしょち}",
+      "label": "first aid, emergency treatment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["health"],
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ],
       "domain": []
     },
     "created": "2026-07-17T21:17:43Z",
-    "modified": "2026-07-17T21:17:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "19985_tategu_ex1",
       "japanese": "{建具|たてぐ}を{新|あたら}しくする。",
       "english": "To replace the fittings.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19985_tategu_ex2",
       "japanese": "この{家|いえ}の{建具|たてぐ}はすべて{木製|もくせい}だ。",
       "english": "All the fittings in this house are made of wood.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "19985_tategu_ex3",
       "japanese": "{古|ふる}い{日本|にほん}{家屋|かおく}では、{襖|ふすま}や{障子|しょうじ}といった{建具|たてぐ}が{部屋|へや}を{仕切|しき}っている。",
       "english": "In old Japanese houses, fittings such as fusuma and shoji partition the rooms.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {建|たて} (building, construction) and {具|ぐ} (tool, equipment). Refers collectively to doors, sliding doors, windows, shutters, and other movable elements that divide or enclose spaces in a building.\n\nCULTURAL CONTEXT:\nTraditional Japanese architecture relies heavily on {建具|たてぐ} such as {襖|ふすま} (opaque sliding doors), {障子|しょうじ} (paper sliding doors), and {雨戸|あまど} (rain shutters). A {建具屋|たてぐや} (fittings craftsman) is a specialized trade.\n\nCOMMON COLLOCATIONS:\n- {建具|たてぐ}を{開|あ}ける — to open the fittings\n- {建具|たてぐ}を{取|と}り{替|か}える — to replace the fittings\n- {建具屋|たてぐや} — fittings craftsman, joinery shop\n- {木製|もくせい}{建具|たてぐ} — wooden fittings\n\nRELATED TERMS:\n- {襖|ふすま} — opaque sliding door\n- {障子|しょうじ} — paper sliding door\n- {引|ひ}き{戸|ど} — sliding door\n- {開|ひら}き{戸|ど} — hinged door",
+  "notes": "A compound of {建|たて} (building, construction) and {具|ぐ} (tool, equipment). Refers collectively to doors, sliding doors, windows, shutters, and other movable elements that divide or enclose spaces in a building.\n\nCULTURAL NOTE:\nTraditional Japanese architecture relies heavily on {建具|たてぐ} such as {襖|ふすま} (opaque sliding doors), {障子|しょうじ} (paper sliding doors), and {雨戸|あまど} (rain shutters). A {建具屋|たてぐや} (fittings craftsman) is a specialized trade.\n\nCOMMON COLLOCATIONS:\n- {建具|たてぐ}を{開|あ}ける — to open the fittings\n- {建具|たてぐ}を{取|と}り{替|か}える — to replace the fittings\n- {建具屋|たてぐや} — fittings craftsman, joinery shop\n- {木製|もくせい}{建具|たてぐ} — wooden fittings\n\nRELATED WORDS:\n- {襖|ふすま} — opaque sliding door\n- {障子|しょうじ} — paper sliding door\n- {引|ひ}き{戸|ど} — sliding door\n- {開|ひら}き{戸|ど} — hinged door",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03908_fusuma",
+      "reading": "ふすま",
+      "headword": "{襖|ふすま}",
+      "label": "opaque sliding door"
+    },
+    {
+      "type": "related",
+      "target_id": "04201_shouji",
+      "reading": "しょうじ",
+      "headword": "{障子|しょうじ}",
+      "label": "paper sliding door"
+    },
+    {
+      "type": "related",
+      "target_id": "27509_hikido",
+      "reading": "ひきど",
+      "headword": "{引|ひ}き{戸|ど}",
+      "label": "sliding door"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["housing"]
+      "semantic": [
+        "housing"
+      ]
     },
     "created": "2026-03-28T04:34:49Z",
-    "modified": "2026-03-28T04:34:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

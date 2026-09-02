@@ -63,10 +63,10 @@
       ]
     }
   ],
-  "notes": "USAGE: {売上|うりあげ} is a fundamental business term used for revenue from sales.\n\nCOMMON COMPOUNDS:\n・⟦{売上|うりあげ}{高|だか}→売上高：12376_uriagedaka⟧ (sales amount, sales volume)\n・{売上|うりあげ}⟦{金|きん}→金：02666_kin⟧ (sales proceeds)\n・{売上|うりあげ}⟦{目標|もくひょう}→目標：03631_mokuhyou⟧ (sales target)\n・{売上|うりあげ}⟦{報告|ほうこく}→報告：03618_houkoku⟧ (sales report)\n・{売上|うりあげ}⟦ランキング→ランキング：11195_rankingu⟧ (sales ranking)\n\nWRITING VARIATIONS: Can also be written as {売り上げ|うりあげ}.\n\nRELATED:\n・⟦{収益|しゅうえき}→収益：06302_shuueki⟧ - revenue, earnings\n・⟦{利益|りえき}→利益：03673_rieki⟧ - profit (after costs)\n・⟦{売れ行き|うれゆき}→売れ行き：14897_ureyuki⟧ - sales performance, how well something sells",
+  "notes": "USAGE: {売上|うりあげ} is a fundamental business term used for revenue from sales.\n\nCOMPOUNDS:\n- ⟦{売上|うりあげ}{高|だか}→売上高：12376_uriagedaka⟧ (sales amount, sales volume)\n- {売上|うりあげ}⟦{金|きん}→金：02666_kin⟧ (sales proceeds)\n- {売上|うりあげ}⟦{目標|もくひょう}→目標：03631_mokuhyou⟧ (sales target)\n- {売上|うりあげ}⟦{報告|ほうこく}→報告：03618_houkoku⟧ (sales report)\n- {売上|うりあげ}⟦ランキング→ランキング：11195_rankingu⟧ (sales ranking)\n\nWRITING VARIATIONS: Can also be written as {売り上|うりあ}げ.\n\nRELATED WORDS:\n- ⟦{収益|しゅうえき}→収益：06302_shuueki⟧ - revenue, earnings\n- ⟦{利益|りえき}→利益：03673_rieki⟧ - profit (after costs)\n- ⟦{売れ行|うれゆ}き→売れ行き：14897_ureyuki⟧ - sales performance, how well something sells",
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-07-29T21:21:40Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -97,6 +97,34 @@
       "reading": "しゅうえき",
       "headword": "{収益|しゅうえき}",
       "label": "revenue, earnings"
+    },
+    {
+      "type": "related",
+      "target_id": "14897_ureyuki",
+      "reading": "うれゆき",
+      "headword": "{売|う}れ{行|ゆ}き",
+      "label": "sales performance, how well something…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03213_shuunyuu",
+      "reading": "しゅうにゅう",
+      "headword": "{収入|しゅうにゅう}",
+      "label": "income, revenue"
+    },
+    {
+      "type": "related",
+      "target_id": "24522_sonekikeisansho",
+      "reading": "そんえきけいさんしょ",
+      "headword": "{損益計算書|そんえきけいさんしょ}",
+      "label": "income statement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30203_urikakekin",
+      "reading": "うりかけきん",
+      "headword": "売掛金",
+      "label": "accounts receivable"
     }
   ]
 }

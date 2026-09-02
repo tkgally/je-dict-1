@@ -17,7 +17,9 @@
       "id": "20317_honkinisuru_ex1",
       "japanese": "{冗談|じょうだん}を{本気|ほんき}にするな。",
       "english": "Don't take the joke seriously.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20317_honkinisuru_ex2",
       "japanese": "{彼|かれ}は{私|わたし}の{嘘|うそ}を{本気|ほんき}にした。",
       "english": "He actually believed my lie.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "20317_honkinisuru_ex3",
       "japanese": "{適当|てきとう}に{言|い}っただけなのに、{本気|ほんき}にしないでよ。",
       "english": "I just said it offhandedly — don't take it seriously.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {本気|ほんき} (seriousness, earnestness) + にする (to treat as, to make into). The expression focuses on the listener's interpretation: treating something as serious or true.\n\nUSAGE:\nOften used in the negative imperative {本気|ほんき}にするな / {本気|ほんき}にしないで (don't take it seriously). Distinct from {本気|ほんき}を{出|だ}す (to get serious, to give it one's all), which is about one's own effort rather than interpreting someone else's words.\n\nCOMMON COLLOCATIONS:\n- {冗談|じょうだん}を{本気|ほんき}にする — to take a joke seriously\n- {本気|ほんき}にしないで — don't take it seriously\n- {本気|ほんき}にされる — to be taken seriously (passive)\n- {嘘|うそ}を{本気|ほんき}にする — to believe a lie\n\nSIMILAR WORDS:\n- {真|ま}に{受|う}ける — to take at face value (very similar; slightly more formal)\n- {信|しん}じる — to believe (neutral; broader usage)\n- {本気|ほんき}を{出|だ}す — to get serious, to give it one's all (different meaning: about effort, not belief)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19010_maniukeru",
+      "reading": "まにうける",
+      "headword": "{真|ま}に{受|う}ける",
+      "label": "to take at face value (very similar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01111_shinjiru",
+      "reading": "しんじる",
+      "headword": "{信|しん}じる",
+      "label": "to believe (neutral"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-03-28T20:18:54Z",
-    "modified": "2026-03-28T20:18:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

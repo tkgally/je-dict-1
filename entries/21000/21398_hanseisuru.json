@@ -3,7 +3,7 @@
   "headword": "{反省|はんせい}する",
   "reading": "はんせいする",
   "romaji": "hanseisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to reflect on; to reconsider; to feel remorse",
   "conjugation_class": "suru",
   "transitivity": "both",
@@ -48,6 +48,36 @@
   ],
   "notes": "A culturally significant concept in Japan. {反省|はんせい} goes beyond simple reflection — it implies acknowledging mistakes, feeling genuine regret, and resolving to improve. It is frequently expected in social and professional contexts when someone has done something wrong.\n\nCOMMON COLLOCATIONS:\n- {深|ふか}く{反省|はんせい}する: to deeply reflect/feel remorse\n- {反省|はんせい}の{色|いろ}がない: to show no sign of remorse\n- {反省|はんせい}{点|てん}: points for reflection/improvement\n- {反省|はんせい}{会|かい}: review meeting, post-mortem\n- {反省|はんせい}{文|ぶん}: written apology/reflection\n\nCULTURAL NOTE:\nIn Japanese schools and workplaces, {反省|はんせい} is a routine practice. Students may be asked to write {反省|はんせい}{文|ぶん} (reflection essays) after misbehavior, and teams hold {反省|はんせい}{会|かい} (review sessions) after events or projects.\n\nSIMILAR WORDS:\n- {後悔|こうかい}する: to regret — focuses on the feeling of wishing one hadn't done something, without the constructive element\n- {振|ふ}り{返|かえ}る: to look back — neutral reflection without the implication of having done something wrong",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02738_koukai",
+      "reading": "こうかい",
+      "headword": "{後悔|こうかい}",
+      "label": "to regret"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04231_furikaeru",
+      "reading": "ふりかえる",
+      "headword": "{振|ふ}り{返|かえ}る",
+      "label": "to look back"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19907_kuiaratameru",
+      "reading": "くいあらためる",
+      "headword": "{悔|く}い{改|あらた}める",
+      "label": "to repent, to reform oneself"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25543_kaishinsuru",
+      "reading": "かいしんする",
+      "headword": "{改心|かいしん}する",
+      "label": "to reform oneself"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +93,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T02:47:50Z",
-    "modified": "2026-04-02T02:47:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

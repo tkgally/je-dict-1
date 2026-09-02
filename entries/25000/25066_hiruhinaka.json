@@ -3,7 +3,7 @@
   "headword": "{昼日中|ひるひなか}",
   "reading": "ひるひなか",
   "romaji": "hiruhinaka",
-  "part_of_speech": "noun; adverb",
+  "part_of_speech": "noun, adverb",
   "gloss": "broad daylight; middle of the day",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Emphasizes that something happens during the daytime, often carrying a tone of surprise or disapproval — the idea that the action is brazen because it occurs openly rather than under cover of darkness.\n\nCOMMON COLLOCATIONS:\n- {昼日中|ひるひなか}に{犯行|はんこう}に{及|およ}ぶ: to commit a crime in broad daylight\n- {昼日中|ひるひなか}から{飲|の}む: to drink starting from midday\n- {昼日中|ひるひなか}の{出来事|できごと}: something that happened in broad daylight\n\nSIMILAR WORDS:\n- {白昼|はくちゅう}: broad daylight — more formal and literary; often used in compounds like {白昼堂々|はくちゅうどうどう} (brazenly in daylight)\n- {真昼|まひる}: midday, noon — neutral time reference without the connotation of brazenness\n- {日中|にっちゅう}: daytime — neutral term for the hours of daylight",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23777_hakuchuu",
+      "reading": "はくちゅう",
+      "headword": "{白昼|はくちゅう}",
+      "label": "broad daylight"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18020_mahiru",
+      "reading": "まひる",
+      "headword": "{真昼|まひる}",
+      "label": "midday, noon"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,11 +69,12 @@
         "noun",
         "adverb"
       ],
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ]
     },
     "created": "2026-04-22T13:14:34Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

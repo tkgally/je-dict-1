@@ -63,11 +63,47 @@
       "notes": null
     }
   ],
-  "notes": "カレンダー is a loanword from English \"calendar.\"\n\nTYPES OF CALENDARS:\n- {壁掛|かべか}けカレンダー: wall calendar\n- {卓上|たくじょう}カレンダー: desk calendar\n- {日|ひ}めくりカレンダー: daily tear-off calendar\n- カレンダーアプリ: calendar app\n\nCOMMON EXPRESSIONS:\n- カレンダー⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧: to look at the calendar\n- カレンダー⟦に→に：00314_ni⟧⟦{書|か}き{込|こ}む→書き込む：04599_kakikomu⟧: to write on the calendar\n- カレンダー⟦を→を：00422_wo⟧⟦{掛|か}ける→かける：00854_kakeru⟧: to hang a calendar\n- カレンダー⟦を→を：00422_wo⟧⟦めくる→捲る：02310_mekuru⟧: to turn the calendar page\n\nRELATED VOCABULARY:\n- ⟦{日付|ひづけ}→日付：03706_hizuke⟧: date\n- ⟦{曜日|ようび}→曜日：03877_youbi⟧: day of the week\n- ⟦{予定|よてい}→予定：00824_yotei⟧: schedule, plan\n- ⟦{暦|こよみ}→暦：19338_koyomi⟧: calendar (traditional)\n- ⟦{年間|ねんかん}→年間：00974_nenkan⟧カレンダー: yearly calendar\n\nJAPANESE ALTERNATIVE: ⟦{暦|こよみ}→暦：19338_koyomi⟧ is the native Japanese word for calendar, often used for traditional calendars.",
-  "cross_references": [],
+  "notes": "カレンダー is a loanword from English \"calendar.\"\n\nTYPES OF CALENDARS:\n- {壁掛|かべか}けカレンダー: wall calendar\n- {卓上|たくじょう}カレンダー: desk calendar\n- {日|ひ}めくりカレンダー: daily tear-off calendar\n- カレンダーアプリ: calendar app\n\nCOMMON EXPRESSIONS:\n- カレンダー⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧: to look at the calendar\n- カレンダー⟦に→に：00314_ni⟧⟦{書|か}き{込|こ}む→書き込む：04599_kakikomu⟧: to write on the calendar\n- カレンダー⟦を→を：00422_wo⟧⟦{掛|か}ける→かける：00854_kakeru⟧: to hang a calendar\n- カレンダー⟦を→を：00422_wo⟧⟦めくる→捲る：02310_mekuru⟧: to turn the calendar page\n\nRELATED WORDS:\n- ⟦{日付|ひづけ}→日付：03706_hizuke⟧: date\n- ⟦{曜日|ようび}→曜日：03877_youbi⟧: day of the week\n- ⟦{予定|よてい}→予定：00824_yotei⟧: schedule, plan\n- ⟦{暦|こよみ}→暦：19338_koyomi⟧: calendar (traditional)\n- ⟦{年間|ねんかん}→年間：00974_nenkan⟧カレンダー: yearly calendar\n\nJAPANESE ALTERNATIVE: ⟦{暦|こよみ}→暦：19338_koyomi⟧ is the native Japanese word for calendar, often used for traditional calendars.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03706_hizuke",
+      "reading": "ひづけ",
+      "headword": "{日付|ひづけ}",
+      "label": "date"
+    },
+    {
+      "type": "related",
+      "target_id": "03877_youbi",
+      "reading": "ようび",
+      "headword": "{曜日|ようび}",
+      "label": "day of the week"
+    },
+    {
+      "type": "related",
+      "target_id": "00824_yotei",
+      "reading": "よてい",
+      "headword": "{予定|よてい}",
+      "label": "schedule, plan"
+    },
+    {
+      "type": "related",
+      "target_id": "19338_koyomi",
+      "reading": "こよみ",
+      "headword": "{暦|こよみ}",
+      "label": "calendar"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26224_tsukimekuri",
+      "reading": "つきめくり",
+      "headword": "{月|つき}めくり",
+      "label": "monthly calendar"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T09:50:00Z",
-    "modified": "2026-02-27T00:45:33Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{率先|そっせん}",
   "reading": "そっせん",
   "romaji": "sossen",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "taking the initiative; taking the lead",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,22 @@
   ],
   "notes": "Almost always used in the pattern {率先|そっせん}して (taking the lead in doing something). Carries a positive nuance of leadership and setting an example.\n\nCOMMON COLLOCATIONS:\n- {率先|そっせん}して{行動|こうどう}する: to take initiative and act\n- {率先|そっせん}して{取|と}り{組|く}む: to take the lead in tackling something\n- {率先|そっせん}{垂範|すいはん}: leading by example (four-character compound)\n\nSIMILAR WORDS:\n- {積極的|せっきょくてき}: proactive — describes attitude rather than being first to act\n- {先頭|せんとう}に{立|た}つ: to stand at the front — emphasizes the position rather than the initiative",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01585_sekkyokuteki",
+      "reading": "せっきょくてき",
+      "headword": "{積極的|せっきょくてき}",
+      "label": "proactive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11406_shudou",
+      "reading": "しゅどう",
+      "headword": "{主導|しゅどう}",
+      "label": "leadership, taking the lead"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +167,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-27T06:03:49Z",
-    "modified": "2026-03-27T06:03:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

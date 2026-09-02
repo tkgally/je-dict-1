@@ -113,10 +113,33 @@
       ]
     }
   ],
-  "notes": "USAGE: {生|なま} is versatile, used for raw food, draft beverages, and live broadcasts/performances.\n\nCOMMON COMPOUNDS:\n・{生|なま}⟦ビール→ビール：01015_biiru⟧ (draft beer)\n・{生|なま}⟦{卵|たまご}→卵：02222_tamago⟧ (raw egg)\n・{生|なま}⟦{魚|ざかな}→魚：00499_sakana⟧ (raw fish)\n・{生|なま}⟦{放送|ほうそう}→放送：02093_housou⟧ (live broadcast)\n・{生|なま}⟦{演奏|えんそう}→演奏：01896_ensou⟧ (live performance)\n・{生|なま}⟦{中継|ちゅうけい}→中継：11306_chuukei⟧ (live relay)\n・{生|なま}⟦クリーム→クリーム：00253_kuriimu⟧ (fresh cream)\n・{生|なま}⟦{野菜|やさい}→野菜：02265_yasai⟧ (raw vegetables)\n\nNOTE: In izakayas and restaurants, simply saying 「{生|なま}」 typically refers to draft beer. The word is also read as き in compounds like {生|き}のまま (as is, raw).\n\nCONTRAST:\n・{生|なま} - raw, uncooked\n・⟦{焼|や}いた→焼く：01123_yaku⟧ - grilled, cooked",
+  "notes": "USAGE: {生|なま} is versatile, used for raw food, draft beverages, and live broadcasts/performances.\n\nCOMPOUNDS:\n- {生|なま}⟦ビール→ビール：01015_biiru⟧ (draft beer)\n- {生|なま}⟦{卵|たまご}→卵：02222_tamago⟧ (raw egg)\n- {生|なま}⟦{魚|ざかな}→魚：00499_sakana⟧ (raw fish)\n- {生|なま}⟦{放送|ほうそう}→放送：02093_housou⟧ (live broadcast)\n- {生|なま}⟦{演奏|えんそう}→演奏：01896_ensou⟧ (live performance)\n- {生|なま}⟦{中継|ちゅうけい}→中継：11306_chuukei⟧ (live relay)\n- {生|なま}⟦クリーム→クリーム：00253_kuriimu⟧ (fresh cream)\n- {生|なま}⟦{野菜|やさい}→野菜：02265_yasai⟧ (raw vegetables)\n\nNOTE: In izakayas and restaurants, simply saying 「{生|なま}」 typically refers to draft beer. The word is also read as き in compounds like {生|き}のまま (as is, raw).\n\nSIMILAR WORDS:\n- {生|なま} - raw, uncooked\n- ⟦{焼|や}いた→焼く：01123_yaku⟧ - grilled, cooked",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01123_yaku",
+      "reading": "やく",
+      "headword": "{焼|や}く",
+      "label": "grilled, cooked"
+    },
+    {
+      "type": "related",
+      "target_id": "05412_raibu",
+      "reading": "らいぶ",
+      "headword": "ライブ",
+      "label": "live performance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22782_shinsenna",
+      "reading": "しんせんな",
+      "headword": "{新鮮|しんせん}な",
+      "label": "fresh"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T10:40:00Z",
-    "modified": "2026-05-25T22:05:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

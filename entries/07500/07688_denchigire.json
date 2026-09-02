@@ -17,33 +17,88 @@
       "japanese": "スマホが{電池切|でんちぎ}れになった。",
       "english": "My smartphone's battery died.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07688_denchigire_ex2",
       "japanese": "{電池切|でんちぎ}れで{連絡|れんらく}できなかった。",
       "english": "I couldn't contact you because my battery was dead.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07688_denchigire_ex3",
       "japanese": "{電池切|でんちぎ}れを{防|ふせ}ぐためにモバイルバッテリーを{持|も}ち{歩|ある}いている。",
       "english": "I carry a portable charger to prevent my battery from dying.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{電池切|でんちぎ}れ describes the state of a battery being completely drained. Extremely common in daily life with smartphones and other devices.\n\nFORMATION:\n{電池|でんち} (battery) + {切|き}れ (running out, from {切|き}れる).\n\nCOMMON PATTERNS:\n- {電池切|でんちぎ}れになる: the battery dies\n- {電池切|でんちぎ}れで{連絡|れんらく}できない: can't contact because battery is dead\n- {電池切|でんちぎ}れを{防|ふせ}ぐ: to prevent battery drain\n\nSIMILAR ～{切|ぎ}れ EXPRESSIONS:\n- バッテリー{切|ぎ}れ: battery dead (katakana variant)\n- {充電|じゅうでん}{切|ぎ}れ: out of charge\n- ガス{切|ぎ}れ: out of gas\n- {品切|しなぎ}れ: out of stock\n\nRELATED:\n- {充電|じゅうでん}: charging\n- {充電器|じゅうでんき}: charger\n- モバイルバッテリー: portable charger/power bank\n\nThe ～{切|ぎ}れ pattern (from {切|き}れる, to run out) is productive for expressing depletion of any resource.",
+  "notes": "{電池切|でんちぎ}れ describes the state of a battery being completely drained. Extremely common in daily life with smartphones and other devices.\n\nFORMS:\n{電池|でんち} (battery) + {切|き}れ (running out, from {切|き}れる).\n\nCOMMON PATTERNS:\n- {電池切|でんちぎ}れになる: the battery dies\n- {電池切|でんちぎ}れで{連絡|れんらく}できない: can't contact because battery is dead\n- {電池切|でんちぎ}れを{防|ふせ}ぐ: to prevent battery drain\n\nSIMILAR ～{切|ぎ}れ EXPRESSIONS:\n- バッテリー{切|ぎ}れ: battery dead (katakana variant)\n- {充電|じゅうでん}{切|ぎ}れ: out of charge\n- ガス{切|ぎ}れ: out of gas\n- {品切|しなぎ}れ: out of stock\n\nRELATED WORDS:\n- {充電|じゅうでん}: charging\n- {充電器|じゅうでんき}: charger\n- モバイルバッテリー: portable charger/power bank\n\nThe ～{切|ぎ}れ pattern (from {切|き}れる, to run out) is productive for expressing depletion of any resource.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09738_juudengire",
+      "reading": "じゅうでんぎれ",
+      "headword": "{充電|じゅうでん}{切|き}れ",
+      "label": "out of charge"
+    },
+    {
+      "type": "related",
+      "target_id": "09557_shinagire",
+      "reading": "しなぎれ",
+      "headword": "{品切|しなぎ}れ",
+      "label": "out of stock"
+    },
+    {
+      "type": "related",
+      "target_id": "04427_juuden",
+      "reading": "じゅうでん",
+      "headword": "{充電|じゅうでん}",
+      "label": "charging"
+    },
+    {
+      "type": "related",
+      "target_id": "05106_juudenki",
+      "reading": "じゅうでんき",
+      "headword": "{充電器|じゅうでんき}",
+      "label": "charger"
+    },
+    {
+      "type": "related",
+      "target_id": "07553_mobairubatterii",
+      "reading": "もばいるばってりー",
+      "headword": "モバイルバッテリー",
+      "label": "portable charger/power bank"
+    },
+    {
+      "type": "related",
+      "target_id": "10188_kandenchi",
+      "reading": "かんでんち",
+      "headword": "{乾電池|かんでんち}",
+      "label": "dry cell battery"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-04-05T09:02:55Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["technology"],
+      "politeness": "plain",
+      "semantic": [
+        "technology"
+      ],
       "domain": []
     }
   }

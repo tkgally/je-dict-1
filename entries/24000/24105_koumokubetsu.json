@@ -3,7 +3,7 @@
   "headword": "{項目別|こうもくべつ}",
   "reading": "こうもくべつ",
   "romaji": "koumokubetsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "by item; by category; itemized",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "24105_koumokubetsu_ex1",
       "japanese": "{項目別|こうもくべつ}に{整理|せいり}する。",
       "english": "To organize by category.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24105_koumokubetsu_ex2",
       "japanese": "{費用|ひよう}を{項目別|こうもくべつ}にまとめた。",
       "english": "I compiled the expenses by item.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "24105_koumokubetsu_ex3",
       "japanese": "{予算|よさん}を{項目別|こうもくべつ}に{分|わ}けて、どこを{削減|さくげん}できるか{検討|けんとう}した。",
       "english": "I broke down the budget by category and examined where cuts could be made.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,38 @@
       "id": "24105_koumokubetsu_ex4",
       "japanese": "アンケートの{結果|けっか}を{項目別|こうもくべつ}に{集計|しゅうけい}して{報告書|ほうこくしょ}を{作成|さくせい}した。",
       "english": "I tabulated the survey results by category and prepared a report.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {項目|こうもく} (item, heading, category) and {別|べつ} (separate, by). The suffix {別|べつ} is highly productive in Japanese and attaches to many nouns to create 'by X' expressions.\n\nCommonly found in business documents, accounting, reports, and administrative contexts. It implies a systematic, organized breakdown of information.\n\nCOMMON COLLOCATIONS:\n- {項目別|こうもくべつ}に{分|わ}ける: to separate by category\n- {項目別|こうもくべつ}に{整理|せいり}する: to organize by item\n- {項目別|こうもくべつ}の{集計|しゅうけい}: tabulation by category\n- {項目別|こうもくべつ}{予算|よさん}: itemized budget\n- {項目別|こうもくべつ}の{一覧|いちらん}: itemized list\n\nSIMILAR WORDS (other ～{別|べつ} compounds):\n- {種類別|しゅるいべつ}: by type — sorted according to kind or variety\n- {年度別|ねんどべつ}: by fiscal year — organized according to annual periods\n- {地域別|ちいきべつ}: by region — broken down by geographic area",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26576_chiikibetsu",
+      "reading": "ちいきべつ",
+      "headword": "{地域別|ちいきべつ}",
+      "label": "by region"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-04-17T18:31:38Z",
-    "modified": "2026-04-17T18:31:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

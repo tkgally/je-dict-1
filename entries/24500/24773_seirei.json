@@ -17,35 +17,68 @@
       "japanese": "{新|あたら}しい{政令|せいれい}が{施行|しこう}された。",
       "english": "A new cabinet order was enacted.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "24773_seirei_ex2",
       "japanese": "この{規制|きせい}は{政令|せいれい}で{定|さだ}められている。",
       "english": "This regulation is established by government ordinance.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "24773_seirei_ex3",
       "japanese": "{政令|せいれい}{指定|してい}{都市|とし}は{特別|とくべつ}な{権限|けんげん}を{持|も}つ{大都市|だいとし}のことだ。",
       "english": "A government-designated city is a large city that holds special authority.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "In Japan's legal hierarchy, a {政令|せいれい} is issued by the Cabinet ({内閣|ないかく}) to implement or supplement existing laws. It ranks below {法律|ほうりつ} (statute) but above {省令|しょうれい} (ministerial ordinance).\n\nCOMMON COLLOCATIONS:\n- {政令|せいれい}{指定|してい}{都市|とし}: government-designated city (major cities like Osaka, Yokohama)\n- {政令|せいれい}を{公布|こうふ}する: to promulgate an ordinance\n- {政令|せいれい}で{定|さだ}める: to establish by ordinance\n\nSIMILAR WORDS:\n- {法律|ほうりつ}: law, statute (higher authority, passed by the Diet)\n- {省令|しょうれい}: ministerial ordinance (lower authority, issued by a minister)\n- {条例|じょうれい}: local ordinance (issued by local governments)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01722_houritsu",
+      "reading": "ほうりつ",
+      "headword": "{法律|ほうりつ}",
+      "label": "law, statute"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08255_jourei",
+      "reading": "じょうれい",
+      "headword": "{条例|じょうれい}",
+      "label": "local ordinance"
+    },
+    {
+      "type": "related",
+      "target_id": "27030_kakugikettei",
+      "reading": "かくぎけってい",
+      "headword": "{閣議決定|かくぎけってい}",
+      "label": "cabinet decision"
+    }
+  ],
   "metadata": {
     "created": "2026-04-20T15:23:20Z",
-    "modified": "2026-04-20T15:23:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["politics"]
+      "semantic": [
+        "politics"
+      ]
     }
   }
 }

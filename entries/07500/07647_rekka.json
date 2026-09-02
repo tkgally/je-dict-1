@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{画質|がしつ}の{劣化|れっか} - image quality degradation\n・{音質|おんしつ}の{劣化|れっか} - sound quality degradation\n・{経年|けいねん}{劣化|れっか} - deterioration over time, aging\n・{品質|ひんしつ}の{劣化|れっか} - quality degradation\n・{電池|でんち}の{劣化|れっか} - battery degradation\n\nUSAGE:\nUsed for both physical deterioration and abstract quality decline.\n\nRELATED WORDS:\n・{老朽化|ろうきゅうか} - aging, becoming decrepit (infrastructure)\n・{腐食|ふしょく} - corrosion\n・{悪化|あっか} - worsening",
+  "notes": "COMMON COLLOCATIONS:\n- {画質|がしつ}の{劣化|れっか} - image quality degradation\n- {音質|おんしつ}の{劣化|れっか} - sound quality degradation\n- {経年|けいねん}{劣化|れっか} - deterioration over time, aging\n- {品質|ひんしつ}の{劣化|れっか} - quality degradation\n- {電池|でんち}の{劣化|れっか} - battery degradation\n\nUSAGE:\nUsed for both physical deterioration and abstract quality decline.\n\nRELATED WORDS:\n- {老朽化|ろうきゅうか} - aging, becoming decrepit (infrastructure)\n- {腐食|ふしょく} - corrosion\n- {悪化|あっか} - worsening",
   "cross_references": [
     {
       "type": "related",
@@ -138,11 +138,39 @@
       "headword": "{老朽化|ろうきゅうか}",
       "label": "aging",
       "target_id": "07646_roukyuuka"
+    },
+    {
+      "type": "related",
+      "target_id": "08020_fushoku",
+      "reading": "ふしょく",
+      "headword": "{腐食|ふしょく}",
+      "label": "corrosion"
+    },
+    {
+      "type": "related",
+      "target_id": "11077_akka",
+      "reading": "あっか",
+      "headword": "{悪化|あっか}",
+      "label": "worsening"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06030_taika",
+      "reading": "たいか",
+      "headword": "{退化|たいか}",
+      "label": "degeneration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20068_otoroe",
+      "reading": "おとろえ",
+      "headword": "{衰|おとろ}え",
+      "label": "decline"
     }
   ],
   "metadata": {
     "created": "2026-01-20T13:21:59Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +179,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "change"
       ],

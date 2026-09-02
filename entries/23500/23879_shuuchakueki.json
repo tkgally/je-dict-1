@@ -17,7 +17,9 @@
       "id": "23879_shuuchakueki_ex1",
       "japanese": "この{電車|でんしゃ}の{終着駅|しゅうちゃくえき}は{東京|とうきょう}です。",
       "english": "The terminal station of this train is Tokyo.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23879_shuuchakueki_ex2",
       "japanese": "{終着駅|しゅうちゃくえき}まで{乗|の}ってください。",
       "english": "Please ride all the way to the last stop.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23879_shuuchakueki_ex3",
       "japanese": "{深夜|しんや}の{終着駅|しゅうちゃくえき}は{人|ひと}がほとんどいなかった。",
       "english": "There was almost no one at the terminal station late at night.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,23 +47,52 @@
       "id": "23879_shuuchakueki_ex4",
       "japanese": "{長|なが}い{旅|たび}もついに{終着駅|しゅうちゃくえき}にたどり{着|つ}いた。",
       "english": "After a long journey, we finally reached the last stop.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {終着|しゅうちゃく} ('arrival at the end point') and {駅|えき} ('station').\n\nUSAGE:\n- Refers literally to the last station on a line — where a train or bus ends its run and cannot go further.\n- Frequently used figuratively in songs, novels, and essays to suggest an ending or final destination, often with a melancholy or nostalgic tone.\n- On station announcements, the related verb {終着|しゅうちゃく} appears in phrases like '{当|とう}{駅|えき}が{終着|しゅうちゃく}です' ('this is the last stop').\n\nCOMMON COLLOCATIONS:\n- {終着駅|しゅうちゃくえき}に{着|つ}く: to arrive at the terminal station\n- {終着駅|しゅうちゃくえき}まで{乗|の}る: to ride all the way to the last stop\n- {人生|じんせい}の{終着駅|しゅうちゃくえき}: the final destination of one's life\n- {夜|よる}の{終着駅|しゅうちゃくえき}: the terminal station at night\n\nSIMILAR WORDS:\n- {始発駅|しはつえき}: starting station — the direct antonym, the first station on a line.\n- {終点|しゅうてん}: terminus, end point — a broader term applicable to any route (bus, train, road), or used figuratively.\n- {終着|しゅうちゃく}: (final) arrival — the noun component, used attributively as in {終着|しゅうちゃく}{列車|れっしゃ} ('the last train').",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "26069_shihatsueki",
+      "reading": "しはつえき",
+      "headword": "{始発駅|しはつえき}",
+      "label": "starting station"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05457_shuuten",
+      "reading": "しゅうてん",
+      "headword": "{終点|しゅうてん}",
+      "label": "terminus, end point"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26759_chuuoueki",
+      "reading": "ちゅうおうえき",
+      "headword": "{中央駅|ちゅうおうえき}",
+      "label": "central station"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "travel"]
+      "semantic": [
+        "transportation",
+        "travel"
+      ]
     },
     "created": "2026-04-15T10:11:37Z",
-    "modified": "2026-04-15T10:11:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

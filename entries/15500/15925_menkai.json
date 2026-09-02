@@ -3,7 +3,7 @@
   "id": "15925_menkai",
   "headword": "{面会|めんかい}",
   "reading": "めんかい",
-  "part_of_speech": "noun / verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "visit; meeting (in person)",
   "conjugation": {
     "type": "suru",
@@ -142,11 +142,32 @@
       "reading": "みまい",
       "headword": "{見舞|みま}い",
       "label": "visiting the sick"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11447_kaiken",
+      "reading": "かいけん",
+      "headword": "{会見|かいけん}",
+      "label": "press conference, interview, meeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21377_taimen",
+      "reading": "たいめん",
+      "headword": "{対面|たいめん}する",
+      "label": "to meet face-to-face"
+    },
+    {
+      "type": "related",
+      "target_id": "24857_mimaikyaku",
+      "reading": "みまいきゃく",
+      "headword": "{見舞客|みまいきゃく}",
+      "label": "visitor (to a sick or hospitalized person)"
     }
   ],
   "metadata": {
     "created": "2026-03-09T00:36:28Z",
-    "modified": "2026-05-02T08:18:57Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

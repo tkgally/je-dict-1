@@ -3,7 +3,7 @@
   "headword": "{譲|ゆず}り{受|う}ける",
   "reading": "ゆずりうける",
   "romaji": "yuzuriukeru",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to inherit; to receive (something passed down); to take over",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Compound of {譲|ゆず}る (to hand down, transfer) + {受|う}ける (to receive). Transitive: the object is what is received. The source person is marked with から or に.\n\nTRANSITIVITY: Transitive (~を{譲|ゆず}り{受|う}ける).\n\nCOMMON COLLOCATIONS:\n- {親|おや}から{譲|ゆず}り{受|う}ける: to inherit from a parent\n- {店|みせ}を{譲|ゆず}り{受|う}ける: to take over a shop\n- {土地|とち}を{譲|ゆず}り{受|う}ける: to receive land\n- {会社|かいしゃ}を{譲|ゆず}り{受|う}ける: to take over a company\n\nSIMILAR WORDS:\n- {相続|そうぞく}する: to inherit — legal/formal, usually after death\n- {引|ひ}き{継|つ}ぐ: to take over — emphasizes continuing what someone started\n- もらう: to receive — much more general; not limited to succession",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03690_souzoku",
+      "reading": "そうぞく",
+      "headword": "{相続|そうぞく}",
+      "label": "to inherit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12458_hikitsugu",
+      "reading": "ひきつぐ",
+      "headword": "{引|ひ}き{継|つ}ぐ",
+      "label": "to take over"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00520_morau",
+      "reading": "もらう",
+      "headword": "もらう",
+      "label": "to receive"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "verb-ichidan"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "business",
         "family"
@@ -63,7 +86,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-05-14T01:41:20Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

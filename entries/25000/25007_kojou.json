@@ -17,7 +17,9 @@
       "id": "25007_kojou_ex1",
       "japanese": "{湖上|こじょう}に{霧|きり}がかかっている。",
       "english": "Mist hangs over the lake.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25007_kojou_ex2",
       "japanese": "{湖上|こじょう}をボートで{横切|よこぎ}った。",
       "english": "We crossed the lake by boat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,51 @@
       "id": "25007_kojou_ex3",
       "japanese": "{夕暮|ゆうぐ}れの{湖上|こじょう}に{浮|う}かぶ{小舟|こぶね}の{影|かげ}が、{水面|すいめん}に{映|うつ}る{夕焼|ゆうや}けの{光|ひかり}と{重|かさ}なって{美|うつく}しかった。",
       "english": "The silhouette of a small boat floating on the evening lake, overlapping with the sunset light reflected on the water's surface, was beautiful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {湖|こ} (lake) and {上|じょう} (above, on). Follows the same pattern as other location compounds: {海上|かいじょう} (at sea), {山上|さんじょう} (on the mountain), {地上|ちじょう} (on the ground). Often appears in literary, scenic, and travel descriptions.\n\nCOMMON COLLOCATIONS:\n- {湖上|こじょう}に{浮|う}かぶ: to float on the lake\n- {湖上|こじょう}の{風景|ふうけい}: scenery on the lake\n- {湖上|こじょう}クルーズ: lake cruise\n- {湖上|こじょう}を{渡|わた}る{風|かぜ}: wind blowing across the lake\n\nSIMILAR WORDS:\n- {海上|かいじょう}: at sea; on the ocean — the equivalent term for the sea\n- {湖面|こめん}: lake surface — specifically the water surface itself\n- {湖畔|こはん}: lakeside; lakeshore — the land surrounding a lake, not on the water",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09799_kaijou",
+      "reading": "かいじょう",
+      "headword": "{海上|かいじょう}",
+      "label": "at sea"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27150_komen",
+      "reading": "こめん",
+      "headword": "{湖面|こめん}",
+      "label": "lake surface"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17526_kohan",
+      "reading": "こはん",
+      "headword": "{湖畔|こはん}",
+      "label": "lakeside"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["nature", "geography"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "nature",
+        "geography"
+      ]
     },
     "created": "2026-04-22T10:16:52Z",
-    "modified": "2026-04-22T10:16:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

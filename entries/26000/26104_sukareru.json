@@ -3,7 +3,7 @@
   "headword": "{好|す}かれる",
   "reading": "すかれる",
   "romaji": "sukareru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to be liked; to be popular",
   "definitions": [
     {
@@ -45,7 +45,15 @@
     }
   ],
   "notes": "The passive form of {好|す}く (to like), but far more commonly used than the active form in modern Japanese. While {好|す}き (the adjective) is the standard way to express liking something, {好|す}かれる is the natural way to say someone is liked by others. The active verb {好|す}く is relatively rare in speech.\n\nCOMMON COLLOCATIONS:\n- みんなに{好|す}かれる: to be liked by everyone\n- {人|ひと}に{好|す}かれる: to be liked by people\n- {好|す}かれる{性格|せいかく}: a likable personality\n- {好|す}かれる{人|ひと}: a popular/well-liked person\n\nSIMILAR WORDS:\n- {愛|あい}される: to be loved — deeper emotional attachment than being liked\n- モテる: to be popular (romantically) — specifically about romantic attractiveness\n- {人気|にんき}がある: to be popular — broader, can apply to things, places, celebrities",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09311_moteru",
+      "reading": "もてる",
+      "headword": "モテる",
+      "label": "to be popular"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,6 +61,8 @@
       "pos": [
         "verb-ichidan"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "emotion",
         "society"
@@ -60,7 +70,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-04-29T13:35:18Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

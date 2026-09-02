@@ -17,7 +17,9 @@
       "id": "27552_daiyokujou_ex1",
       "japanese": "{旅館|りょかん}の{大浴場|だいよくじょう}に{入|はい}った。",
       "english": "I bathed in the inn's large communal bath.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27552_daiyokujou_ex2",
       "japanese": "{大浴場|だいよくじょう}は{午前|ごぜん}{十一時|じゅういちじ}までです。",
       "english": "The large bath is open until 11 a.m.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,53 @@
       "id": "27552_daiyokujou_ex3",
       "japanese": "{温泉|おんせん}の{大浴場|だいよくじょう}から{雪景色|ゆきげしき}が{見|み}えて{最高|さいこう}だった。",
       "english": "From the hot spring's large bath, I could see the snowy scenery — it was wonderful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {大|だい} (large) + {浴場|よくじょう} (bathing place). A standard feature of Japanese hot-spring inns, hotels, and capsule hotels. Always sex-segregated and used naked.\n\nCOMMON COLLOCATIONS:\n- {大浴場|だいよくじょう}に{入|はい}る: to enter the large bath\n- {大浴場|だいよくじょう}{付|つ}き: with a large bath (hotel feature)\n- {男性|だんせい}{大浴場|だいよくじょう}: men's large bath\n- {女性|じょせい}{大浴場|だいよくじょう}: women's large bath\n\nCULTURAL CONTEXT:\nGuests at traditional inns ({旅館|りょかん}) often bathe in the {大浴場|だいよくじょう} rather than using in-room baths. Bathing etiquette requires washing thoroughly at the shower stalls before entering the communal tub.\n\nSIMILAR WORDS:\n- {露天風呂|ろてんぶろ}: outdoor bath\n- {温泉|おんせん}: hot spring\n- {銭湯|せんとう}: public bathhouse (neighborhood, paid)\n- {貸切風呂|かしきりぶろ}: private bath (rented out for one group)",
+  "notes": "Compound of {大|だい} (large) + {浴場|よくじょう} (bathing place). A standard feature of Japanese hot-spring inns, hotels, and capsule hotels. Always sex-segregated and used naked.\n\nCOMMON COLLOCATIONS:\n- {大浴場|だいよくじょう}に{入|はい}る: to enter the large bath\n- {大浴場|だいよくじょう}{付|つ}き: with a large bath (hotel feature)\n- {男性|だんせい}{大浴場|だいよくじょう}: men's large bath\n- {女性|じょせい}{大浴場|だいよくじょう}: women's large bath\n\nCULTURAL NOTE:\nGuests at traditional inns ({旅館|りょかん}) often bathe in the {大浴場|だいよくじょう} rather than using in-room baths. Bathing etiquette requires washing thoroughly at the shower stalls before entering the communal tub.\n\nSIMILAR WORDS:\n- {露天風呂|ろてんぶろ}: outdoor bath\n- {温泉|おんせん}: hot spring\n- {銭湯|せんとう}: public bathhouse (neighborhood, paid)\n- {貸切風呂|かしきりぶろ}: private bath (rented out for one group)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14611_rotenburo",
+      "reading": "ろてんぶろ",
+      "headword": "{露天風呂|ろてんぶろ}",
+      "label": "outdoor bath"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04117_onsen",
+      "reading": "おんせん",
+      "headword": "{温泉|おんせん}",
+      "label": "hot spring"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16032_sentou",
+      "reading": "せんとう",
+      "headword": "{銭湯|せんとう}",
+      "label": "public bathhouse"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["travel", "culture"],
+      "politeness": "plain",
+      "semantic": [
+        "travel",
+        "culture"
+      ],
       "domain": []
     },
     "created": "2026-05-14T01:41:20Z",
-    "modified": "2026-05-14T01:41:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

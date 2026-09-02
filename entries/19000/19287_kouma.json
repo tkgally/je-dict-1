@@ -17,7 +17,9 @@
       "id": "19287_kouma_ex1",
       "japanese": "{子馬|こうま}が{生|う}まれた。",
       "english": "A foal was born.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19287_kouma_ex2",
       "japanese": "{子馬|こうま}が{母馬|ははうま}のそばを{走|はし}っている。",
       "english": "The foal is running alongside its mother.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "19287_kouma_ex3",
       "japanese": "{牧場|ぼくじょう}で{子馬|こうま}に{触|さわ}ることができて、{子|こ}どもたちは{大喜|おおよろこ}びだった。",
       "english": "The children were thrilled to be able to touch the foals at the ranch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Compound of {子|こ} (young, small) + {馬|うま} (horse). Follows the common pattern of {子|こ} + animal to indicate a young animal.\n\nRELATED TERMS:\n- {子犬|こいぬ} — puppy\n- {子猫|こねこ} — kitten\n- {子牛|こうし} — calf\n- {親馬|おやうま} — parent horse\n- {母馬|ははうま} — mare (mother horse)\n\nCULTURAL NOTE:\nHorses have a long history in Japan, particularly in {北海道|ほっかいどう} where horse breeding is still a major industry. The {日高|ひだか} region is famous for thoroughbred breeding.",
+  "notes": "Compound of {子|こ} (young, small) + {馬|うま} (horse). Follows the common pattern of {子|こ} + animal to indicate a young animal.\n\nRELATED WORDS:\n- {子犬|こいぬ} — puppy\n- {子猫|こねこ} — kitten\n- {子牛|こうし} — calf\n- {親馬|おやうま} — parent horse\n- {母馬|ははうま} — mare (mother horse)\n\nCULTURAL NOTE:\nHorses have a long history in Japan, particularly in {北海道|ほっかいどう} where horse breeding is still a major industry. The {日高|ひだか} region is famous for thoroughbred breeding.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19393_koinu",
+      "reading": "こいぬ",
+      "headword": "{子犬|こいぬ}",
+      "label": "puppy"
+    },
+    {
+      "type": "related",
+      "target_id": "27912_koushi",
+      "reading": "こうし",
+      "headword": "{子牛|こうし}",
+      "label": "calf"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["animal-mammal"]
+      "semantic": [
+        "animal-mammal"
+      ]
     },
     "created": "2026-03-25T04:45:31Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

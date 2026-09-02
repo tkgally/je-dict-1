@@ -17,7 +17,9 @@
       "id": "26232_banjou_ex1",
       "japanese": "{盤上|ばんじょう}の{駒|こま}を{動|うご}かす。",
       "english": "To move a piece on the board.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26232_banjou_ex2",
       "japanese": "{盤上|ばんじょう}の{形勢|けいせい}は{白|しろ}が{有利|ゆうり}だ。",
       "english": "The position on the board favors white.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,51 @@
       "id": "26232_banjou_ex3",
       "japanese": "プロ{棋士|きし}は{盤上|ばんじょう}で{何十手|なんじゅって}も{先|さき}を{読|よ}むことができる。",
       "english": "Professional shogi players can read dozens of moves ahead on the board.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {盤|ばん} (board, as in {碁盤|ごばん} or {将棋盤|しょうぎばん}) and {上|じょう} (on, above). Primarily used in the context of board games — especially {将棋|しょうぎ} (shogi) and {囲碁|いご} (go) — but also applicable to chess and other tabletop strategy games.\n\nIn Japanese culture, shogi and go have deep traditions, and {盤上|ばんじょう} carries a sense of intellectual battle and strategic depth. The phrase {盤上|ばんじょう}の{勝負|しょうぶ} (a contest on the board) can also be used metaphorically for any cerebral competition.\n\nCOMMON COLLOCATIONS:\n- {盤上|ばんじょう}の{勝負|しょうぶ}: a match on the board; a battle of wits\n- {盤上|ばんじょう}の{形勢|けいせい}: the position/situation on the board\n- {盤上|ばんじょう}を{支配|しはい}する: to dominate the board\n- {盤上|ばんじょう}ゲーム: board game\n\nSIMILAR WORDS:\n- {碁盤|ごばん}: go board — the physical board itself\n- {将棋盤|しょうぎばん}: shogi board — the physical board itself\n- {局面|きょくめん}: game position; phase — the state of play at a given moment",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13716_goban",
+      "reading": "ごばん",
+      "headword": "{碁盤|ごばん}",
+      "label": "go board"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24835_shougiban",
+      "reading": "しょうぎばん",
+      "headword": "{将棋盤|しょうぎばん}",
+      "label": "shogi board"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05777_kyokumen",
+      "reading": "きょくめん",
+      "headword": "{局面|きょくめん}",
+      "label": "game position"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     },
     "created": "2026-04-30T12:20:42Z",
-    "modified": "2026-04-30T12:20:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

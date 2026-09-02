@@ -3,7 +3,7 @@
   "id": "17288_mushisuru",
   "headword": "{無視|むし}する",
   "reading": "むしする",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to ignore; to disregard; to pay no attention to",
   "conjugation": {
     "type": "suru",
@@ -142,11 +142,39 @@
       "reading": "ほうっておく",
       "headword": "{放|ほう}っておく",
       "label": "to leave alone"
+    },
+    {
+      "type": "related",
+      "target_id": "07978_kanka",
+      "reading": "かんか",
+      "headword": "{看過|かんか}",
+      "label": "overlooking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16687_mimuku",
+      "reading": "みむく",
+      "headword": "{見向|みむ}く",
+      "label": "to look toward"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25382_houchisuru",
+      "reading": "ほうちする",
+      "headword": "{放置|ほうち}する",
+      "label": "to leave as is"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25406_keishisuru",
+      "reading": "けいしする",
+      "headword": "{軽視|けいし}する",
+      "label": "to make light of"
     }
   ],
   "metadata": {
     "created": "2026-03-17T04:35:11Z",
-    "modified": "2026-05-06T06:14:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

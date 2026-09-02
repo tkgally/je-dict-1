@@ -19,7 +19,9 @@
       "english": "I arrived at the hotel where I'm staying.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18193_taizaisaki_ex2",
@@ -27,7 +29,9 @@
       "english": "I wrote the address of my accommodation on the visa application.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18193_taizaisaki_ex3",
@@ -35,7 +39,9 @@
       "english": "The company arranges the accommodation for overseas business trips.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {滞在|たいざい} (stay) and {先|さき} (destination/place). The {先|さき} suffix is productive in Japanese, creating similar compounds like {旅行先|りょこうさき} (travel destination) and {出張先|しゅっちょうさき} (business trip destination).\n\nCOMMON COLLOCATIONS:\n- {滞在先|たいざいさき}の{住所|じゅうしょ} (address of one's accommodation)\n- {滞在先|たいざいさき}を{決|き}める (to decide on a place to stay)\n- {滞在先|たいざいさき}に{届|とど}く (to arrive at one's accommodation)\n- {滞在先|たいざいさき}のホテル (the hotel where one is staying)",
@@ -46,18 +52,36 @@
       "reading": "たいざい",
       "headword": "{滞在|たいざい}",
       "label": "stay (base word)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12949_tabisaki",
+      "reading": "たびさき",
+      "headword": "{旅先|たびさき}",
+      "label": "travel destination, place one is visiting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25414_shukuhakusaki",
+      "reading": "しゅくはくさき",
+      "headword": "{宿泊先|しゅくはくさき}",
+      "label": "place of lodging"
     }
   ],
   "metadata": {
     "created": "2026-03-20T12:12:16Z",
-    "modified": "2026-05-08T07:08:06Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["travel"]
+      "semantic": [
+        "travel"
+      ]
     }
   }
 }

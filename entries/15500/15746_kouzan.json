@@ -19,7 +19,9 @@
       "english": "Gold is mined at this mine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15746_kouzan_ex2",
@@ -27,7 +29,9 @@
       "english": "An abandoned mine was developed as a tourist attraction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15746_kouzan_ex3",
@@ -35,21 +39,50 @@
       "english": "Safety measures for mine workers have become a major issue.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{鉱山|こうざん} refers to any type of mine for extracting minerals or metals. Japan has several historically significant mines, including the {石見|いわみ}{銀山|ぎんざん} (Iwami Silver Mine), which is a UNESCO World Heritage Site.\n\nCOMMON COLLOCATIONS:\n- {金|きん}{鉱山|こうざん} (gold mine)\n- {銀|ぎん}{鉱山|こうざん} (silver mine)\n- {銅|どう}{鉱山|こうざん} (copper mine)\n- {廃|はい}{鉱山|こうざん} (abandoned mine)\n- {鉱山|こうざん}{開発|かいはつ} (mine development)\n\nSIMILAR WORDS:\n{炭鉱|たんこう} specifically refers to a coal mine. {採掘|さいくつ} means \"mining\" or \"excavation\" as an activity.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04149_koubutsu",
+      "reading": "こうぶつ",
+      "headword": "{鉱物|こうぶつ}",
+      "label": "mineral"
+    },
+    {
+      "type": "related",
+      "target_id": "04504_tankou",
+      "reading": "たんこう",
+      "headword": "{炭鉱|たんこう}",
+      "label": "coal mine"
+    },
+    {
+      "type": "related",
+      "target_id": "07996_saikutsu",
+      "reading": "さいくつ",
+      "headword": "{採掘|さいくつ}",
+      "label": "mining"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T09:09:43Z",
-    "modified": "2026-03-08T09:09:43Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography", "work"]
+      "semantic": [
+        "geography",
+        "work"
+      ]
     }
   }
 }

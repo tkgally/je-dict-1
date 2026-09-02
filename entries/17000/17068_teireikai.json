@@ -19,7 +19,9 @@
       "english": "There is a regular meeting every Monday.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17068_teireikai_ex2",
@@ -27,7 +29,9 @@
       "english": "This month's regular meeting will be held online.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17068_teireikai_ex3",
@@ -35,22 +39,46 @@
       "english": "A new ordinance was deliberated at the regular city council meeting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed both in corporate environments ({定例|ていれい}ミーティング is also common) and in government bodies like {市議会|しぎかい}{定例会|ていれいかい} (regular city council session).\n\nCOMMON COLLOCATIONS:\n- {定例会|ていれいかい}を{開|ひら}く (to hold a regular meeting)\n- {月例|げつれい}{定例会|ていれいかい} (monthly regular meeting)\n- {定例会|ていれいかい}{議事録|ぎじろく} (regular meeting minutes)\n\nSIMILAR WORDS:\n- {臨時会|りんじかい}: extraordinary meeting — called for a special purpose outside the regular schedule\n- {会議|かいぎ}: meeting — general term, not necessarily regular",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00710_kaigi",
+      "reading": "かいぎ",
+      "headword": "{会議|かいぎ}",
+      "label": "meeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27197_teikikaigi",
+      "reading": "ていきかいぎ",
+      "headword": "{定期会議|ていきかいぎ}",
+      "label": "regular meeting"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T09:49:15Z",
-    "modified": "2026-03-15T09:49:15Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work", "communication"],
-      "domain": ["business"]
+      "semantic": [
+        "work",
+        "communication"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

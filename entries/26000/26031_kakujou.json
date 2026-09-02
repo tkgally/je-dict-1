@@ -3,7 +3,7 @@
   "headword": "{格上|かくじょう}",
   "reading": "かくじょう",
   "romaji": "kakujou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "upgrading; raising in status or rank",
   "definitions": [
     {
@@ -51,6 +51,20 @@
       "target_id": "07405_kakuue",
       "reading": "かくうえ",
       "label": "higher-ranked (adjective)"
+    },
+    {
+      "type": "antonym",
+      "target_id": "20848_kakusage",
+      "reading": "かくさげ",
+      "headword": "{格下|かくさ}げ",
+      "label": "downgrading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08369_shoukaku",
+      "reading": "しょうかく",
+      "headword": "{昇格|しょうかく}",
+      "label": "promotion"
     }
   ],
   "schema_version": "2.0",
@@ -61,6 +75,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "abstract",
         "business"
@@ -68,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-28T16:17:38Z",
-    "modified": "2026-04-28T16:17:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

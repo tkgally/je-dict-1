@@ -17,7 +17,9 @@
       "id": "20242_ousetsushitsu_ex1",
       "japanese": "{応接室|おうせつしつ}でお{待|ま}ちください。",
       "english": "Please wait in the reception room.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20242_ousetsushitsu_ex2",
       "japanese": "お{客|きゃく}さまを{応接室|おうせつしつ}にご{案内|あんない}した。",
       "english": "I showed the guest to the reception room.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,67 @@
       "id": "20242_ousetsushitsu_ex3",
       "japanese": "{社長|しゃちょう}が{応接室|おうせつしつ}で{取引先|とりひきさき}と{打|う}ち{合|あ}わせをしているので、{終|お}わるまで{入|はい}らないでください。",
       "english": "The president is having a meeting with a client in the reception room, so please don't go in until they're finished.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {応接|おうせつ} (reception, receiving guests) + {室|しつ} (room). Found in offices, larger homes, and institutional buildings. In a Japanese office, the {応接室|おうせつしつ} is typically furnished with sofas and a coffee table, separate from the open workspace.\n\nCOMMON COLLOCATIONS:\n- {応接室|おうせつしつ}に{案内|あんない}する: to show someone to the reception room\n- {応接室|おうせつしつ}で{待|ま}つ: to wait in the reception room\n- {応接室|おうせつしつ}のソファー: reception room sofa\n- {応接室|おうせつしつ}に{通|とお}す: to usher someone into the reception room\n\nSIMILAR WORDS:\n- {会議室|かいぎしつ}: meeting room, conference room — for internal meetings\n- {待合室|まちあいしつ}: waiting room — in hospitals, stations, etc.\n- {客間|きゃくま}: guest room — in a Japanese-style home\n- {応接間|おうせつま}: reception room — synonym, slightly more old-fashioned",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01265_kaigishitsu",
+      "reading": "かいぎしつ",
+      "headword": "{会議室|かいぎしつ}",
+      "label": "meeting room, conference room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07373_machiaishitsu",
+      "reading": "まちあいしつ",
+      "headword": "{待合室|まちあいしつ}",
+      "label": "waiting room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00257_kyakuma",
+      "reading": "きゃくま",
+      "headword": "{客間|きゃくま}",
+      "label": "guest room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08530_ousetsuma",
+      "reading": "おうせつま",
+      "headword": "{応接間|おうせつま}",
+      "label": "reception room"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21832_danwashitsu",
+      "reading": "だんわしつ",
+      "headword": "{談話室|だんわしつ}",
+      "label": "lounge"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["place", "business", "building"]
+      "semantic": [
+        "place",
+        "business",
+        "building"
+      ]
     },
     "created": "2026-03-28T18:07:14Z",
-    "modified": "2026-03-28T18:07:14Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

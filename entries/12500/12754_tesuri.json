@@ -19,7 +19,9 @@
       "english": "Please hold on to the handrail.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12754_tesuri_ex2",
@@ -27,7 +29,9 @@
       "english": "The stair railing is broken.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12754_tesuri_ex3",
@@ -35,21 +39,49 @@
       "english": "I leaned against the balcony railing and gazed at the scenery.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{手|て}すり refers to any handrail or railing — on stairs, balconies, bridges, walkways, etc. The kanji form {手摺|てすり} exists but kana or mixed writing ({手|て}すり) is more common.\n\nCOMMON COLLOCATIONS:\n- {手|て}すりにつかまる: to hold on to the handrail\n- {手|て}すりにもたれる: to lean on the railing\n- {階段|かいだん}の{手|て}すり: stair railing\n- {手|て}すりを{設置|せっち}する: to install a handrail\n- {手|て}すりを{握|にぎ}る: to grip the handrail\n\nTYPES:\n- {階段|かいだん}の{手|て}すり: stair handrail\n- ベランダの{手|て}すり: balcony railing\n- {橋|はし}の{手|て}すり: bridge railing\n\nCULTURAL NOTE:\nPublic announcements in trains and stations often remind passengers: {手|て}すりにおつかまりください (Please hold on to the handrail).",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08351_tsurikawa",
+      "reading": "つりかわ",
+      "headword": "{吊|つ}り{革|かわ}",
+      "label": "hanging strap"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28082_tsurite",
+      "reading": "つりて",
+      "headword": "つり{手|て}",
+      "label": "hanging strap"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30202_anzensaku",
+      "reading": "あんぜんさく",
+      "headword": "安全柵",
+      "label": "safety fence"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T10:01:48Z",
-    "modified": "2026-03-31T03:49:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

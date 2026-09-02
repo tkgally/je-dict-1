@@ -19,7 +19,9 @@
       "english": "Cherry trees are planted along the street.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14091_gairo_ex2",
@@ -27,7 +29,9 @@
       "english": "Fallen leaves from the roadside trees are covering the sidewalk.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14091_gairo_ex3",
@@ -35,10 +39,12 @@
       "english": "Plans are underway to renovate old city streets and transform them into pedestrian-only promenades.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE NOTE:\n{街路|がいろ} is a somewhat formal word for streets within a city, commonly seen in compound words. It is more specific than {道|みち} (road, path) or {通|とお}り (street, avenue) and carries an urban connotation.\n\nCOMMON COLLOCATIONS:\n- {街路|がいろ}{樹|じゅ} (roadside tree, street tree)\n- {街路|がいろ}{灯|とう} (street light)\n- {街路|がいろ}を{歩|ある}く (walk along a street)\n- {街路|がいろ}の{整備|せいび} (street maintenance/improvement)\n\nSIMILAR WORDS:\n- {道|みち}: road, path (general, any kind of route)\n- {通|とお}り: street, avenue (common, everyday word)\n- {道路|どうろ}: road (official/administrative term)",
+  "notes": "USAGE:\n{街路|がいろ} is a somewhat formal word for streets within a city, commonly seen in compound words. It is more specific than {道|みち} (road, path) or {通|とお}り (street, avenue) and carries an urban connotation.\n\nCOMMON COLLOCATIONS:\n- {街路|がいろ}{樹|じゅ} (roadside tree, street tree)\n- {街路|がいろ}{灯|とう} (street light)\n- {街路|がいろ}を{歩|ある}く (walk along a street)\n- {街路|がいろ}の{整備|せいび} (street maintenance/improvement)\n\nSIMILAR WORDS:\n- {道|みち}: road, path (general, any kind of route)\n- {通|とお}り: street, avenue (common, everyday word)\n- {道路|どうろ}: road (official/administrative term)",
   "cross_references": [
     {
       "type": "synonym",
@@ -53,18 +59,29 @@
       "reading": "とおり",
       "headword": "{通|とお}り",
       "label": "street (everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00505_michi",
+      "reading": "みち",
+      "headword": "{道|みち}",
+      "label": "road, path"
     }
   ],
   "metadata": {
     "created": "2026-02-28T00:43:31Z",
-    "modified": "2026-04-29T10:23:05Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

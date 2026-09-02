@@ -3,7 +3,7 @@
   "headword": "{考|かんが}え{込|こ}む",
   "reading": "かんがえこむ",
   "romaji": "kangaekomu",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to think deeply; to ponder; to be lost in thought",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "A compound verb formed from {考|かんが}える (to think) + {込|こ}む (into), conveying deep immersion in thought. Often implies a worried, troubled, or contemplative state rather than casual thinking.\n\nCOMMON COLLOCATIONS:\n- {一人|ひとり}で{考|かんが}え{込|こ}む: to brood alone\n- {黙|だま}って{考|かんが}え{込|こ}む: to fall silent and ponder\n- {深|ふか}く{考|かんが}え{込|こ}む: to think very deeply\n\nUSAGE:\nTypically describes a visible state — someone who appears absorbed, often with their arms crossed or head bowed. Frequently used with ～てしまう to indicate falling into deep thought unintentionally.\n\nSIMILAR WORDS:\n- {考|かんが}える: to think — neutral, everyday thinking\n- {悩|なや}む: to worry/agonize — focuses on emotional distress\n- {思案|しあん}する: to deliberate — more formal, implies weighing options",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00856_kangaeru",
+      "reading": "かんがえる",
+      "headword": "{考|かんが}える",
+      "label": "to think"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02380_nayamu",
+      "reading": "なやむ",
+      "headword": "{悩|なや}む",
+      "label": "to worry/agonize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16472_shian",
+      "reading": "しあん",
+      "headword": "{思案|しあん}",
+      "label": "to deliberate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24602_chinshi",
+      "reading": "ちんし",
+      "headword": "{沈思|ちんし}",
+      "label": "deep thought"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,7 +90,7 @@
       "verb_class": "godan-mu"
     },
     "created": "2026-04-03T20:18:52Z",
-    "modified": "2026-04-03T20:18:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

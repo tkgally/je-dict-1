@@ -17,7 +17,9 @@
       "id": "22953_iraisha_ex1",
       "japanese": "{依頼者|いらいしゃ}の{希望|きぼう}を{聞|き}く。",
       "english": "I listen to the client's wishes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22953_iraisha_ex2",
       "japanese": "{弁護士|べんごし}は{依頼者|いらいしゃ}の{秘密|ひみつ}を{守|まも}る{義務|ぎむ}がある。",
       "english": "A lawyer has an obligation to protect the client's confidentiality.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,19 +37,38 @@
       "id": "22953_iraisha_ex3",
       "japanese": "{依頼者|いらいしゃ}から{追加|ついか}の{要望|ようぼう}があったので、{見積|みつも}もりを{出|だ}し{直|なお}した。",
       "english": "There were additional requests from the client, so I redid the estimate.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {依頼|いらい} (request, commission) and {者|しゃ} (person). Refers specifically to someone who formally requests a service, as opposed to a casual requester. Most commonly used in legal and professional service contexts.\n\nCOMMON COLLOCATIONS:\n- {依頼者|いらいしゃ}の{意向|いこう}: the client's wishes\n- {依頼者|いらいしゃ}との{打|う}ち{合|あ}わせ: meeting with the client\n- {依頼者|いらいしゃ}を{守|まも}る: to protect the client\n- {依頼者|いらいしゃ}{情報|じょうほう}: client information\n\nUSAGE:\nIn legal contexts, {依頼者|いらいしゃ} specifically means the person who has hired a lawyer. In business, it refers to the party commissioning work. Not typically used for casual everyday requests.\n\nSIMILAR WORDS:\n- クライアント: client — loanword, common in IT, design, and consulting\n- {顧客|こきゃく}: customer, client — broader term for business customers\n- {発注者|はっちゅうしゃ}: orderer, commissioning party — emphasizes placing an order\n- {委託者|いたくしゃ}: consigner, principal — in trust or delegation contexts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04876_kuraianto",
+      "reading": "くらいあんと",
+      "headword": "クライアント",
+      "label": "client"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08632_kokyaku",
+      "reading": "こきゃく",
+      "headword": "{顧客|こきゃく}",
+      "label": "customer, client"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "business",
         "law"
@@ -53,6 +76,6 @@
       "formality": "formal"
     },
     "created": "2026-04-08T07:49:28Z",
-    "modified": "2026-04-08T07:49:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "id": "14103_soubi",
   "headword": "{装備|そうび}",
   "reading": "そうび",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "equipment, gear; equipping",
   "conjugation": {
     "type": "suru",
@@ -169,11 +169,40 @@
       ]
     }
   ],
-  "notes": "USAGE NOTE:\nAs a noun (sense 1), {装備|そうび} refers to the gear or equipment itself. As a する verb (sense 2), it means to equip or outfit something. Both uses are very common.\n\nIn gaming contexts, {装備|そうび} is the standard word for equipping items (weapons, armor, accessories) on a character.\n\nCOMMON COLLOCATIONS:\n- {装備|そうび}を{整|ととの}える (prepare/arrange equipment)\n- {装備|そうび}を{揃|そろ}える (assemble gear)\n- {標準|ひょうじゅん}{装備|そうび} (standard equipment)\n- {完全|かんぜん}{装備|そうび} (full gear)\n- {軍事|ぐんじ}{装備|そうび} (military equipment)\n\nSIMILAR WORDS:\n- {道具|どうぐ}: tools, implements (more general, everyday items)\n- {設備|せつび}: facilities, installations (fixed/built-in equipment)\n- {備品|びひん}: supplies, furnishings (office or institutional items)",
-  "cross_references": [],
+  "notes": "USAGE:\nAs a noun (sense 1), {装備|そうび} refers to the gear or equipment itself. As a する verb (sense 2), it means to equip or outfit something. Both uses are very common.\n\nIn gaming contexts, {装備|そうび} is the standard word for equipping items (weapons, armor, accessories) on a character.\n\nCOMMON COLLOCATIONS:\n- {装備|そうび}を{整|ととの}える (prepare/arrange equipment)\n- {装備|そうび}を{揃|そろ}える (assemble gear)\n- {標準|ひょうじゅん}{装備|そうび} (standard equipment)\n- {完全|かんぜん}{装備|そうび} (full gear)\n- {軍事|ぐんじ}{装備|そうび} (military equipment)\n\nSIMILAR WORDS:\n- {道具|どうぐ}: tools, implements (more general, everyday items)\n- {設備|せつび}: facilities, installations (fixed/built-in equipment)\n- {備品|びひん}: supplies, furnishings (office or institutional items)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01479_dougu",
+      "reading": "どうぐ",
+      "headword": "{道具|どうぐ}",
+      "label": "tools, implements"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03301_setsubi",
+      "reading": "せつび",
+      "headword": "{設備|せつび}",
+      "label": "facilities, installations"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16253_bihin",
+      "reading": "びひん",
+      "headword": "{備品|びひん}",
+      "label": "supplies, furnishings"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12789_tousai",
+      "reading": "とうさい",
+      "headword": "{搭載|とうさい}",
+      "label": "loading, mounting, equipping"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T00:48:34Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

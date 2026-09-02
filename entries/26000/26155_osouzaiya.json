@@ -17,7 +17,9 @@
       "id": "26155_osouzaiya_ex1",
       "japanese": "お{惣菜屋|そうざいや}でコロッケを{買|か}った。",
       "english": "I bought croquettes at the deli.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26155_osouzaiya_ex2",
       "japanese": "{駅前|えきまえ}のお{惣菜屋|そうざいや}はいつも{混|こ}んでいる。",
       "english": "The deli in front of the station is always crowded.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,52 @@
       "id": "26155_osouzaiya_ex3",
       "japanese": "{仕事|しごと}で{疲|つか}れた{日|ひ}は、お{惣菜屋|そうざいや}で{夕飯|ゆうはん}のおかずを{何品|なんぴん}か{買|か}って{帰|かえ}る。",
       "english": "On days when I'm tired from work, I buy a few side dishes from the deli on the way home for dinner.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The polite prefix お is almost always attached in everyday speech; {惣菜屋|そうざいや} without お sounds somewhat blunt. The word combines {惣菜|そうざい} (side dishes, prepared foods) with {屋|や} (shop, store).\n\nThese shops are deeply embedded in Japanese daily life, particularly in {商店街|しょうてんがい} (shopping streets) and the basement food floors ({デパ地下|でぱちか}) of department stores. They cater to busy households and single people who want home-style cooking without cooking themselves.\n\nCOMMON COLLOCATIONS:\n- お{惣菜屋|そうざいや}で{買|か}う: to buy at a deli\n- {町|まち}のお{惣菜屋|そうざいや}: neighborhood deli\n- お{惣菜屋|そうざいや}の{弁当|べんとう}: deli bento box\n\nSIMILAR WORDS:\n- {惣菜|そうざい}: prepared side dishes — the food itself, not the shop\n- {総菜|そうざい}: same word, alternate kanji\n- デリ: deli — English loanword, used for Western-style delicatessens\n- {弁当屋|べんとうや}: bento shop — specializes in boxed lunches specifically",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05827_souzai",
+      "reading": "そうざい",
+      "headword": "{惣菜|そうざい}",
+      "label": "prepared side dishes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16739_souzai",
+      "reading": "そうざい",
+      "headword": "{総菜|そうざい}",
+      "label": "same word, alternate kanji"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28445_bentouya",
+      "reading": "べんとうや",
+      "headword": "{弁当屋|べんとうや}",
+      "label": "bento shop"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["food", "shopping"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "shopping"
+      ]
     },
     "created": "2026-04-29T15:30:05Z",
-    "modified": "2026-04-29T15:30:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "21149_kirehashi_ex1",
       "japanese": "{布|ぬの}の{切|き}れ{端|はし}で{雑巾|ぞうきん}を{作|つく}った。",
       "english": "I made a cleaning cloth from scraps of fabric.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21149_kirehashi_ex2",
       "japanese": "{紙|かみ}の{切|き}れ{端|はし}にメモを{書|か}いた。",
       "english": "I wrote a note on a scrap of paper.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "21149_kirehashi_ex3",
       "japanese": "{木材|もくざい}の{切|き}れ{端|はし}を{集|あつ}めて{子供|こども}の{工作|こうさく}に{使|つか}った。",
       "english": "I gathered wood scraps and used them for the children's craft project.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {切|き}れ (a cut piece, from {切|き}る) and {端|はし} (edge, end). Refers to leftover pieces from cutting — fabric, paper, wood, or food. Often implies something small and potentially useful for secondary purposes.\n\nCOMMON COLLOCATIONS:\n- {布|ぬの}の{切|き}れ{端|はし}: fabric scrap\n- {紙|かみ}の{切|き}れ{端|はし}: scrap of paper\n- {木|き}の{切|き}れ{端|はし}: wood scrap\n- {肉|にく}の{切|き}れ{端|はし}: meat trimmings\n\nSIMILAR WORDS:\n- {端切|はぎ}れ: fabric remnant — specifically for cloth\n- {断片|だんぺん}: fragment — more abstract, used for information or memories as well\n- {破片|はへん}: fragment; shard — implies something broken, like glass or pottery",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24305_hagire",
+      "reading": "はぎれ",
+      "headword": "{端切|はぎ}れ",
+      "label": "fabric remnant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10915_danpen",
+      "reading": "だんぺん",
+      "headword": "{断片|だんぺん}",
+      "label": "fragment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00082_hahen",
+      "reading": "はへん",
+      "headword": "{破片|はへん}",
+      "label": "fragment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-03-31T21:35:31Z",
-    "modified": "2026-03-31T21:35:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

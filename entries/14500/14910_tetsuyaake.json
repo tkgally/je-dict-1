@@ -19,7 +19,9 @@
       "english": "My head is foggy after pulling an all-nighter.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14910_tetsuyaake_ex2",
@@ -27,7 +29,9 @@
       "english": "I had to attend the meeting without having slept at all.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14910_tetsuyaake_ex3",
@@ -35,7 +39,9 @@
       "english": "Driving after an all-nighter is dangerous, so you should at least take a short nap.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{徹夜明|てつやあ}け is a compound of {徹夜|てつや} (all-nighter) and {明|あ}け (the period after). It is used as a noun, often followed by で to indicate doing something in the post-all-nighter state. Common among students and workers.\n\nCOMMON PATTERNS:\n- {徹夜明|てつやあ}けで + verb (to do something after an all-nighter)\n- {徹夜明|てつやあ}けのまま (still in the all-nighter aftermath)\n- {徹夜明|てつやあ}けの{体|からだ} (a body exhausted from an all-nighter)\n\nSIMILAR WORDS:\n- {徹夜明|てつやあ}け: state after staying up all night\n- {徹夜|てつや}: staying up all night (the act itself)\n- {夜更|よふ}かし: staying up late (not necessarily all night)\n- {寝不足|ねぶそく}: lack of sleep (general sleep deprivation)",
@@ -46,18 +52,36 @@
       "reading": "てつや",
       "headword": "{徹夜|てつや}",
       "label": "staying up all night"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07693_yofukashi",
+      "reading": "よふかし",
+      "headword": "{夜更|よふ}かし",
+      "label": "staying up late"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07692_nebusoku",
+      "reading": "ねぶそく",
+      "headword": "{寝不足|ねぶそく}",
+      "label": "lack of sleep"
     }
   ],
   "metadata": {
     "created": "2026-03-04T05:53:10Z",
-    "modified": "2026-05-01T04:26:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

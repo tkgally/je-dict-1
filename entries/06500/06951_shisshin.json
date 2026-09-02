@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "KANJI:\n{湿|しつ} (wet/damp) + {疹|しん} (rash)\n\nTYPES:\n・⟦アトピー→アトピー：23012_atopii⟧⟦{性|せい}→性：09880_sei⟧{湿疹|しっしん} - atopic eczema\n・⟦{接触|せっしょく}→接触：12904_sesshoku⟧⟦{性|せい}→性：09880_sei⟧{湿疹|しっしん} - contact dermatitis\n・⟦{脂漏|しろう}→脂漏：noentry⟧⟦{性|せい}→性：09880_sei⟧{湿疹|しっしん} - seborrheic dermatitis\n\nCOLLOCATIONS:\n・{湿疹|しっしん}⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧ (to develop a rash)\n・{湿疹|しっしん}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ (to break out in a rash)\n・{湿疹|しっしん}⟦を→を：00422_wo⟧⟦{治療|ちりょう}する→治療：03503_chiryou⟧ (to treat eczema)\n\nRELATED TERMS:\n・⟦かぶれ→かぶれ：25271_kabure⟧ - rash caused by contact with a specific irritant\n・⟦{発疹|はっしん}→発疹：20451_hasshin⟧ - skin eruption; the broader clinical term, of which {湿疹|しっしん} is one kind\n・⟦{蕁麻疹|じんましん}→蕁麻疹：15182_jinmashin⟧ - hives, which come up as raised welts and usually fade within hours\n\nUSAGE:\nAn everyday word, not restricted to medical settings - patients use it themselves when describing symptoms at a clinic or pharmacy. The verb that goes with it is ⟦できる→できる：00557_dekiru⟧ or ⟦{出|で}る→出る：00513_deru⟧, not ⟦なる→なる：01970_naru⟧.",
+  "notes": "WRITING:\n{湿|しつ} (wet/damp) + {疹|しん} (rash)\n\nTYPES:\n- ⟦アトピー→アトピー：23012_atopii⟧⟦{性|せい}→性：09880_sei⟧{湿疹|しっしん} - atopic eczema\n- ⟦{接触|せっしょく}→接触：12904_sesshoku⟧⟦{性|せい}→性：09880_sei⟧{湿疹|しっしん} - contact dermatitis\n- ⟦{脂漏|しろう}→脂漏：noentry⟧⟦{性|せい}→性：09880_sei⟧{湿疹|しっしん} - seborrheic dermatitis\n\nCOMMON COLLOCATIONS:\n- {湿疹|しっしん}⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧ (to develop a rash)\n- {湿疹|しっしん}⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ (to break out in a rash)\n- {湿疹|しっしん}⟦を→を：00422_wo⟧⟦{治療|ちりょう}する→治療：03503_chiryou⟧ (to treat eczema)\n\nRELATED WORDS:\n- ⟦かぶれ→かぶれ：25271_kabure⟧ - rash caused by contact with a specific irritant\n- ⟦{発疹|はっしん}→発疹：20451_hasshin⟧ - skin eruption; the broader clinical term, of which {湿疹|しっしん} is one kind\n- ⟦{蕁麻疹|じんましん}→蕁麻疹：15182_jinmashin⟧ - hives, which come up as raised welts and usually fade within hours\n\nUSAGE:\nAn everyday word, not restricted to medical settings - patients use it themselves when describing symptoms at a clinic or pharmacy. The verb that goes with it is ⟦できる→できる：00557_dekiru⟧ or ⟦{出|で}る→出る：00513_deru⟧, not ⟦なる→なる：01970_naru⟧.",
   "cross_references": [
     {
       "type": "related",
@@ -65,11 +65,39 @@
       "headword": "かぶれ",
       "target_id": "25271_kabure",
       "label": "contact rash"
+    },
+    {
+      "type": "related",
+      "target_id": "08546_fukidemono",
+      "reading": "ふきでもの",
+      "headword": "{吹|ふ}き{出物|でもの}",
+      "label": "pimple"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23012_atopii",
+      "reading": "あとぴー",
+      "headword": "アトピー",
+      "label": "atopy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23115_hosshin",
+      "reading": "ほっしん",
+      "headword": "{発疹|ほっしん}",
+      "label": "rash"
+    },
+    {
+      "type": "related",
+      "target_id": "23596_hifuen",
+      "reading": "ひふえん",
+      "headword": "{皮膚炎|ひふえん}",
+      "label": "dermatitis"
     }
   ],
   "metadata": {
     "created": "2026-01-18T12:04:02Z",
-    "modified": "2026-08-16T00:19:15Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

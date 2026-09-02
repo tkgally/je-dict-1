@@ -17,7 +17,9 @@
       "id": "29362_tobusuma_ex1",
       "japanese": "{戸襖|とぶすま}を{開|あ}ける。",
       "english": "I open the tobusuma.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29362_tobusuma_ex2",
       "japanese": "{和室|わしつ}と{廊下|ろうか}は{戸襖|とぶすま}で{仕切|しき}られている。",
       "english": "The tatami room and the hallway are partitioned by a tobusuma.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "29362_tobusuma_ex3",
       "japanese": "{戸襖|とぶすま}は{片面|かためん}が{襖|ふすま}、もう{片面|かためん}が{板戸|いたど}になっている。",
       "english": "A tobusuma has fusuma on one side and a wooden door on the other.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {戸|と} (door) + {襖|ふすま} (fusuma), with {襖|ふすま} read {ぶすま|ぶすま} through rendaku.\n\nSIMILAR WORDS:\n- {襖|ふすま}: a sliding partition papered on both sides, used between Japanese-style rooms\n- {障子|しょうじ}: a sliding door of translucent paper over a wooden lattice\n- {板戸|いたど}: a solid wooden sliding door",
+  "notes": "A compound of {戸|と} (door) + {襖|ふすま} (fusuma), with {襖|ふすま} read ぶすま through rendaku.\n\nSIMILAR WORDS:\n- {襖|ふすま}: a sliding partition papered on both sides, used between Japanese-style rooms\n- {障子|しょうじ}: a sliding door of translucent paper over a wooden lattice\n- {板戸|いたど}: a solid wooden sliding door",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04201_shouji",
+      "reading": "しょうじ",
+      "headword": "{障子|しょうじ}",
+      "label": "a sliding door of translucent paper…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["building"],
+      "politeness": "plain",
+      "semantic": [
+        "building"
+      ],
       "domain": []
     },
     "created": "2026-06-20T00:19:53Z",
-    "modified": "2026-06-20T00:19:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

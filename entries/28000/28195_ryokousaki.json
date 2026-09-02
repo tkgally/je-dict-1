@@ -46,6 +46,29 @@
   ],
   "notes": "Compound of {旅行|りょこう} (travel) + the suffix {先|さき} (destination, place where something happens). The same {先|さき} appears in {勤|つと}め{先|さき} (place of work) and {連絡|れんらく}{先|さき} (contact address).\n\nCOMMON COLLOCATIONS:\n- {旅行先|りょこうさき}を{決|き}める: to decide on a destination\n- {旅行先|りょこうさき}で: while at one's travel destination\n- {人気|にんき}の{旅行先|りょこうさき}: a popular travel destination\n\nSIMILAR WORDS:\n- {目的地|もくてきち}: destination — the specific place one is headed; more neutral and precise\n- {行|い}き{先|さき}: where one is going — broader, used for any outing, not only trips",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09996_mokutekichi",
+      "reading": "もくてきち",
+      "headword": "{目的地|もくてきち}",
+      "label": "destination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16779_ikisaki",
+      "reading": "いきさき",
+      "headword": "{行|い}き{先|さき}",
+      "label": "where one is going"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25065_tokousaki",
+      "reading": "とこうさき",
+      "headword": "{渡航先|とこうさき}",
+      "label": "destination (abroad)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +76,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "travel"
       ],
       "domain": []
     },
     "created": "2026-05-27T02:07:43Z",
-    "modified": "2026-05-27T02:07:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

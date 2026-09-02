@@ -18,7 +18,9 @@
       "id": "27291_booifurendo_ex1",
       "japanese": "{彼女|かのじょ}にはボーイフレンドがいる。",
       "english": "She has a boyfriend.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -26,7 +28,9 @@
       "id": "27291_booifurendo_ex2",
       "japanese": "{今|いま}、ボーイフレンドはいません。",
       "english": "I don't have a boyfriend right now.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -34,7 +38,9 @@
       "id": "27291_booifurendo_ex3",
       "japanese": "{新|あたら}しいボーイフレンドを{両親|りょうしん}に{紹介|しょうかい}した。",
       "english": "I introduced my new boyfriend to my parents.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -42,22 +48,57 @@
       "id": "27291_booifurendo_ex4",
       "japanese": "{大学|だいがく}の{頃|ころ}のボーイフレンドとは{今|いま}でも{連絡|れんらく}を{取|と}っている。",
       "english": "I'm still in touch with a boyfriend from my university days.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "ボーイフレンド is a loanword from English \"boyfriend.\" While it directly translates the English meaning, in everyday modern Japanese {彼氏|かれし} is far more common when referring to a romantic partner.\n\nNUANCE COMPARED TO {彼氏|かれし}:\n- {彼氏|かれし}: standard, neutral term — \"my boyfriend\" in the romantic sense\n- ボーイフレンド: can suggest a casual relationship, a male friend who is close but not necessarily a serious partner, or carries a slightly dated/romanticized feel\n- In some contexts, ボーイフレンド is used by older speakers or in literary/translated contexts\n\nCOMMON COLLOCATIONS:\n- ボーイフレンドができる: to get a boyfriend\n- ボーイフレンドと{別|わか}れる: to break up with one's boyfriend\n- ボーイフレンドと{付|つ}き{合|あ}う: to date a boyfriend\n\nSIMILAR WORDS:\n- {彼氏|かれし}: boyfriend (most common everyday term)\n- {恋人|こいびと}: romantic partner (gender-neutral, slightly more romantic)\n- パートナー: partner (modern, gender-neutral, often used for long-term relationships)\n\nRELATED TERMS:\n- ガールフレンド: girlfriend (female counterpart, similar register issues)\n- {彼女|かのじょ}: girlfriend (most common everyday term)"
-  ,
+  "notes": "ボーイフレンド is a loanword from English \"boyfriend.\" While it directly translates the English meaning, in everyday modern Japanese {彼氏|かれし} is far more common when referring to a romantic partner.\n\nNUANCE COMPARED TO {彼氏|かれし}:\n- {彼氏|かれし}: standard, neutral term — \"my boyfriend\" in the romantic sense\n- ボーイフレンド: can suggest a casual relationship, a male friend who is close but not necessarily a serious partner, or carries a slightly dated/romanticized feel\n- In some contexts, ボーイフレンド is used by older speakers or in literary/translated contexts\n\nCOMMON COLLOCATIONS:\n- ボーイフレンドができる: to get a boyfriend\n- ボーイフレンドと{別|わか}れる: to break up with one's boyfriend\n- ボーイフレンドと{付|つ}き{合|あ}う: to date a boyfriend\n\nSIMILAR WORDS:\n- {彼氏|かれし}: boyfriend (most common everyday term)\n- {恋人|こいびと}: romantic partner (gender-neutral, slightly more romantic)\n- パートナー: partner (modern, gender-neutral, often used for long-term relationships)\n\nRELATED WORDS:\n- ガールフレンド: girlfriend (female counterpart, similar register issues)\n- {彼女|かのじょ}: girlfriend (most common everyday term)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06456_kareshi",
+      "reading": "かれし",
+      "headword": "{彼氏|かれし}",
+      "label": "boyfriend"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02724_koibito",
+      "reading": "こいびと",
+      "headword": "{恋人|こいびと}",
+      "label": "romantic partner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11287_paatonaa",
+      "reading": "ぱーとなー",
+      "headword": "パートナー",
+      "label": "partner"
+    },
+    {
+      "type": "related",
+      "target_id": "01286_kanojo",
+      "reading": "かのじょ",
+      "headword": "{彼女|かのじょ}",
+      "label": "girlfriend"
+    }
+  ],
   "metadata": {
     "created": "2026-05-09T11:31:16Z",
-    "modified": "2026-08-07T06:30:43Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

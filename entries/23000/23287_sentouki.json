@@ -17,7 +17,9 @@
       "id": "23287_sentouki_ex1",
       "japanese": "{戦闘機|せんとうき}が{飛|と}んでいる。",
       "english": "A fighter plane is flying.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23287_sentouki_ex2",
       "japanese": "{最新|さいしん}の{戦闘機|せんとうき}を{配備|はいび}する。",
       "english": "To deploy the latest fighter planes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23287_sentouki_ex3",
       "japanese": "{戦闘機|せんとうき}のパイロットになるには{厳|きび}しい{訓練|くんれん}が{必要|ひつよう}だ。",
       "english": "Becoming a fighter pilot requires rigorous training.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,59 @@
       "id": "23287_sentouki_ex4",
       "japanese": "{航空|こうくう}ショーで、{戦闘機|せんとうき}が{迫力|はくりょく}ある{編隊|へんたい}{飛行|ひこう}を{披露|ひろう}した。",
       "english": "At the air show, fighter planes put on a powerful formation flight demonstration.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A military aircraft designed for combat. Literally {戦闘|せんとう} (combat) + {機|き} (machine, aircraft). The {機|き} here is a common suffix for aircraft types.\n\nCOMMON COLLOCATIONS:\n- {戦闘機|せんとうき}を{配備|はいび}する: to deploy fighter planes\n- {戦闘機|せんとうき}が{飛|と}ぶ: a fighter plane flies\n- {戦闘機|せんとうき}のパイロット: fighter pilot\n- {最新|さいしん}{戦闘機|せんとうき}: the latest fighter aircraft\n- ステルス{戦闘機|せんとうき}: stealth fighter\n- F-35{戦闘機|せんとうき}: F-35 fighter\n\nRELATED AIRCRAFT TERMS:\n- {爆撃機|ばくげきき}: bomber\n- {輸送機|ゆそうき}: transport plane\n- {偵察機|ていさつき}: reconnaissance plane\n- {攻撃機|こうげきき}: attack aircraft\n- {練習機|れんしゅうき}: trainer aircraft\n- {旅客機|りょかくき}: passenger airliner\n- {航空機|こうくうき}: aircraft (general term)\n\nUSAGE:\nJapan's Air Self-Defense Force ({航空自衛隊|こうくうじえいたい}) operates fighters such as the F-15 and F-35, and news stories about aircraft purchases, scrambles, or exercises often use this word.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17838_ryokakuki",
+      "reading": "りょかくき",
+      "headword": "{旅客機|りょかくき}",
+      "label": "passenger airliner"
+    },
+    {
+      "type": "related",
+      "target_id": "14008_koukuuki",
+      "reading": "こうくうき",
+      "headword": "{航空機|こうくうき}",
+      "label": "aircraft"
+    },
+    {
+      "type": "related",
+      "target_id": "03947_jettoki",
+      "reading": "じぇっとき",
+      "headword": "ジェット{機|き}",
+      "label": "jet plane"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28035_kansaiki",
+      "reading": "かんさいき",
+      "headword": "艦載機",
+      "label": "carrier-based aircraft"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["military", "transportation"]
+      "semantic": [
+        "military",
+        "transportation"
+      ]
     },
     "created": "2026-04-11T16:37:43Z",
-    "modified": "2026-04-11T16:37:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

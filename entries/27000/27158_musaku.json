@@ -3,7 +3,7 @@
   "headword": "{無策|むさく}",
   "reading": "むさく",
   "romaji": "musaku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "lack of a plan; absence of measures",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "27158_musaku_ex1",
       "japanese": "{政府|せいふ}の{無策|むさく}を{批判|ひはん}する。",
       "english": "To criticize the government's lack of policy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27158_musaku_ex2",
       "japanese": "{無策|むさく}のまま{時間|じかん}だけが{過|す}ぎた。",
       "english": "Time just passed with no plan in place.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "27158_musaku_ex3",
       "japanese": "{経営陣|けいえいじん}の{無策|むさく}が{会社|かいしゃ}の{衰退|すいたい}を{招|まね}いたと{言|い}わざるを{得|え}ない。",
       "english": "One cannot help but say that the management's lack of strategy invited the company's decline.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {無|む} (without, non-) and {策|さく} (plan, policy, measure). Carries a critical or negative tone, implying that action should have been taken but was not. Almost always used in a critical context.\n\nCOMMON COLLOCATIONS:\n- {無策|むさく}を{批判|ひはん}する — to criticize the lack of policy\n- {無策|むさく}ぶり — the extent of the lack of strategy\n- {無為|むい}{無策|むさく} — doing nothing and having no plan (emphatic compound)\n- {無策|むさく}のまま — with no plan in place\n\nSIMILAR WORDS:\n- {無為|むい} — inaction, doing nothing; emphasizes the absence of action rather than the absence of a plan\n- {無能|むのう} — incompetence; a harsher criticism of a person's abilities rather than their planning\n- {怠慢|たいまん} — negligence, laziness; implies the failure was due to carelessness or laziness",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13476_munou",
+      "reading": "むのう",
+      "headword": "{無能|むのう}",
+      "label": "incompetence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15721_taiman",
+      "reading": "たいまん",
+      "headword": "{怠慢|たいまん}",
+      "label": "negligence, laziness"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     },
     "created": "2026-05-07T13:15:49Z",
-    "modified": "2026-05-07T13:15:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

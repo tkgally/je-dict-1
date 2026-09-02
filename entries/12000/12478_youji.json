@@ -19,7 +19,9 @@
       "english": "I bought a picture book for young children.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12478_youji_ex2",
@@ -27,7 +29,9 @@
       "english": "The importance of early childhood education is getting attention.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12478_youji_ex3",
@@ -35,7 +39,9 @@
       "english": "This pool has a shallow area where even toddlers can play safely.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nDistinguish from related age terms: {乳児|にゅうじ} (infant, under 1 year), {幼児|ようじ} (toddler/young child, roughly 1-6), {児童|じどう} (child, elementary school age). {幼児|ようじ} is a slightly formal or official term; in everyday conversation, {小|ちい}さい{子|こ} (small child) is more natural.\n\nCOMMON COLLOCATIONS:\n- {幼児|ようじ}{教育|きょういく}: early childhood education\n- {幼児|ようじ}{向|む}け: aimed at young children\n- {幼児|ようじ}{期|き}: early childhood period\n- {幼児|ようじ}{虐待|ぎゃくたい}: child abuse (of young children)",
@@ -53,18 +59,43 @@
       "reading": "じどう",
       "headword": "{児童|じどう}",
       "label": "child (school age)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01329_akanbou",
+      "reading": "あかんぼう",
+      "headword": "赤ん坊",
+      "label": "baby"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27025_shouni",
+      "reading": "しょうに",
+      "headword": "{小児|しょうに}",
+      "label": "child"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27253_shuugakumae",
+      "reading": "しゅうがくまえ",
+      "headword": "{就学前|しゅうがくまえ}",
+      "label": "preschool age"
     }
   ],
   "metadata": {
     "created": "2026-02-21T10:32:45Z",
-    "modified": "2026-04-27T05:19:15Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

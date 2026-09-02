@@ -22,7 +22,9 @@
       "id": "24929_kakekin_ex1",
       "japanese": "{保険|ほけん}の{掛|か}け{金|きん}を{毎月|まいつき}{払|はら}っている。",
       "english": "I pay the insurance premium every month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "24929_kakekin_ex2",
       "japanese": "{掛|か}け{金|きん}が{高|たか}いので、{別|べつ}のプランに{変|か}えたい。",
       "english": "The premiums are high, so I want to switch to a different plan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "24929_kakekin_ex3",
       "japanese": "{年間|ねんかん}の{掛|か}け{金|きん}の{総額|そうがく}を{確認|かくにん}してから{契約|けいやく}した{方|ほう}がいい。",
       "english": "You should check the total annual premiums before signing the contract.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "24929_kakekin_ex4",
       "japanese": "{掛|か}け{金|きん}を{上|あ}げる。",
       "english": "Raise the bet.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "24929_kakekin_ex5",
       "japanese": "{掛|か}け{金|きん}が{大|おお}きいほどリスクも{高|たか}い。",
       "english": "The larger the stake, the higher the risk.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,20 +72,43 @@
       "id": "24929_kakekin_ex6",
       "japanese": "{掛|か}け{金|きん}を{全額|ぜんがく}{失|うしな}って、{後悔|こうかい}した。",
       "english": "I lost the entire bet and regretted it.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {掛|か}け (betting; installment) and {金|きん} (money). The two senses reflect different uses of {掛|か}ける: paying in installments or staking money on a gamble.\n\nSense 1 (insurance/installment payments) is the more common usage in everyday life. Japanese insurance discussions frequently use this term when comparing plans and costs.\n\nNote: This word is distinct from {掛|か}け{金|がね}/{掛金|かけがね}, which can also mean a latch or clasp (for doors). The reading {かけきん} specifically refers to money.\n\nCOMMON COLLOCATIONS:\n- {保険|ほけん}の{掛|か}け{金|きん}: insurance premium\n- {掛|か}け{金|きん}を{払|はら}う: to pay premiums\n- {掛|か}け{金|きん}を{上|あ}げる: to raise the stake/premium\n- {月々|つきづき}の{掛|か}け{金|きん}: monthly premiums\n\nSIMILAR WORDS:\n- {保険料|ほけんりょう}: insurance premium — the standard formal term for insurance payments\n- {賭|か}け{金|きん}: bet, wager — specifically for gambling; written with a different kanji for {賭|か}け\n- {積立金|つみたてきん}: savings installment, reserve fund — money set aside regularly for future use",
+  "notes": "A compound of {掛|か}け (betting; installment) and {金|きん} (money). The two senses reflect different uses of {掛|か}ける: paying in installments or staking money on a gamble.\n\nSense 1 (insurance/installment payments) is the more common usage in everyday life. Japanese insurance discussions frequently use this term when comparing plans and costs.\n\nNote: This word is distinct from {掛|か}け{金|がね}/{掛金|かけがね}, which can also mean a latch or clasp (for doors). The reading かけきん specifically refers to money.\n\nCOMMON COLLOCATIONS:\n- {保険|ほけん}の{掛|か}け{金|きん}: insurance premium\n- {掛|か}け{金|きん}を{払|はら}う: to pay premiums\n- {掛|か}け{金|きん}を{上|あ}げる: to raise the stake/premium\n- {月々|つきづき}の{掛|か}け{金|きん}: monthly premiums\n\nSIMILAR WORDS:\n- {保険料|ほけんりょう}: insurance premium — the standard formal term for insurance payments\n- {賭|か}け{金|きん}: bet, wager — specifically for gambling; written with a different kanji for {賭|か}け\n- {積立金|つみたてきん}: savings installment, reserve fund — money set aside regularly for future use",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11058_hokenryou",
+      "reading": "ほけんりょう",
+      "headword": "{保険料|ほけんりょう}",
+      "label": "insurance premium"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28915_tsumitatekin",
+      "reading": "つみたてきん",
+      "headword": "{積立金|つみたてきん}",
+      "label": "savings installment, reserve fund"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["finance"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "finance"
+      ]
     },
     "created": "2026-04-21T13:15:00Z",
-    "modified": "2026-04-21T13:15:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

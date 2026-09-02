@@ -2,7 +2,7 @@
   "id": "04780_baishuu",
   "headword": "{買収|ばいしゅう}",
   "reading": "ばいしゅう",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "acquisition",
   "conjugation": {
     "type": "suru",
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "{買収|ばいしゅう} has two distinct meanings that depend on context: business acquisition and bribery.\n\nMEANING 1 - ACQUISITION:\nPurchasing a company or business entity.\n- ⟦{企業|きぎょう}→企業：00225_kigyou⟧{買収|ばいしゅう}: corporate acquisition\n- ⟦{敵対的|てきたいてき}→敵対的：25936_tekitaiteki⟧{買収|ばいしゅう}: hostile takeover\n- ⟦{友好的|ゆうこうてき}→友好的：23818_yuukouteki⟧{買収|ばいしゅう}: friendly acquisition\n- M&A ({買収|ばいしゅう}⟦{合併|がっぺい}→合併：04778_gappei⟧): mergers and acquisitions\n\nMEANING 2 - BRIBERY:\nIllegally paying someone for influence or votes.\n- {買収|ばいしゅう}⟦{工作|こうさく}→工作：12437_kousaku⟧: bribery scheme\n- ⟦{選挙|せんきょ}→選挙：03303_senkyo⟧{買収|ばいしゅう}: vote buying\n- {買収|ばいしゅう}⟦で→で：00502_de⟧⟦{逮捕|たいほ}される→逮捕：03397_taiho⟧: to be arrested for bribery\n\nPATTERNS:\n- ～⟦を→を：00422_wo⟧{買収|ばいしゅう}⟦する→する：00392_suru⟧: to acquire ~, to bribe ~\n- {買収|ばいしゅう}⟦される→する：00392_suru⟧: to be acquired, to be bribed\n\nRELATED:\n- ⟦{合併|がっぺい}→合併：04778_gappei⟧: merger\n- ⟦{贈賄|ぞうわい}→贈賄：21598_zouwai⟧: bribery (giving bribes)\n- ⟦{収賄|しゅうわい}→収賄：27665_shuuwai⟧: bribery (receiving bribes)",
+  "notes": "{買収|ばいしゅう} has two distinct meanings that depend on context: business acquisition and bribery.\n\nMEANING 1 - ACQUISITION:\nPurchasing a company or business entity.\n- ⟦{企業|きぎょう}→企業：00225_kigyou⟧{買収|ばいしゅう}: corporate acquisition\n- ⟦{敵対的|てきたいてき}→敵対的：25936_tekitaiteki⟧{買収|ばいしゅう}: hostile takeover\n- ⟦{友好的|ゆうこうてき}→友好的：23818_yuukouteki⟧{買収|ばいしゅう}: friendly acquisition\n- M&A ({買収|ばいしゅう}⟦{合併|がっぺい}→合併：04778_gappei⟧): mergers and acquisitions\n\nMEANING 2 - BRIBERY:\nIllegally paying someone for influence or votes.\n- {買収|ばいしゅう}⟦{工作|こうさく}→工作：12437_kousaku⟧: bribery scheme\n- ⟦{選挙|せんきょ}→選挙：03303_senkyo⟧{買収|ばいしゅう}: vote buying\n- {買収|ばいしゅう}⟦で→で：00502_de⟧⟦{逮捕|たいほ}される→逮捕：03397_taiho⟧: to be arrested for bribery\n\nCOMMON PATTERNS:\n- ～⟦を→を：00422_wo⟧{買収|ばいしゅう}⟦する→する：00392_suru⟧: to acquire ~, to bribe ~\n- {買収|ばいしゅう}⟦される→する：00392_suru⟧: to be acquired, to be bribed\n\nRELATED WORDS:\n- ⟦{合併|がっぺい}→合併：04778_gappei⟧: merger\n- ⟦{贈賄|ぞうわい}→贈賄：21598_zouwai⟧: bribery (giving bribes)\n- ⟦{収賄|しゅうわい}→収賄：27665_shuuwai⟧: bribery (receiving bribes)",
   "cross_references": [
     {
       "type": "related",
@@ -176,11 +176,32 @@
       "headword": "{合併|がっぺい}",
       "label": "merger",
       "target_id": "04778_gappei"
+    },
+    {
+      "type": "related",
+      "target_id": "21598_zouwai",
+      "reading": "ぞうわい",
+      "headword": "{贈賄|ぞうわい}",
+      "label": "bribery"
+    },
+    {
+      "type": "related",
+      "target_id": "27665_shuuwai",
+      "reading": "しゅうわい",
+      "headword": "{収賄|しゅうわい}",
+      "label": "bribery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24949_kogaishaka",
+      "reading": "こがいしゃか",
+      "headword": "{子会社化|こがいしゃか}",
+      "label": "subsidiarization"
     }
   ],
   "metadata": {
     "created": "2026-01-16T00:25:12Z",
-    "modified": "2026-07-29T21:21:40Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

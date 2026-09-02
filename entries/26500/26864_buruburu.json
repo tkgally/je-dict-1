@@ -3,7 +3,7 @@
   "headword": "ぶるぶる",
   "reading": "ぶるぶる",
   "romaji": "buruburu",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "trembling; shivering; shaking",
   "definitions": [
     {
@@ -55,7 +55,29 @@
     }
   ],
   "notes": "One of the most common body-related onomatopoeia in Japanese. The voiced consonant ぶ gives it a heavier, more visceral feeling than the lighter がたがた. Always involuntary — the shaking is caused by an external stimulus (cold, fear, anger) that the person cannot control.\n\nCOMMON COLLOCATIONS:\n- ぶるぶる{震|ふる}える: to tremble/shiver\n- ぶるぶると{震|ふる}える: to tremble (with と particle)\n- {寒|さむ}さでぶるぶる: shivering from cold\n- {恐怖|きょうふ}でぶるぶる: trembling with fear\n\nSIMILAR WORDS:\n- がたがた{震|ふる}える: to shiver violently — stronger, implies teeth chattering or louder shaking\n- わなわな{震|ふる}える: to tremble (with emotion) — emphasizes emotional intensity, especially anger or shock\n- ぷるぷる: to quiver — lighter, cuter vibration; used for jelly-like textures or small movements",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28624_purupuru",
+      "reading": "ぷるぷる",
+      "headword": "ぷるぷる",
+      "label": "to quiver"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10791_gakugaku",
+      "reading": "がくがく",
+      "headword": "ガクガク",
+      "label": "shaking, trembling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27435_zokuzoku",
+      "reading": "ぞくぞく",
+      "headword": "ぞくぞく",
+      "label": "shivering"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,6 +93,6 @@
       ]
     },
     "created": "2026-05-05T14:13:53Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

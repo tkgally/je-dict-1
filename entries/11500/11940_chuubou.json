@@ -18,7 +18,9 @@
       "english": "Enter the kitchen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11940_chuubou_ex2",
@@ -26,7 +28,9 @@
       "english": "We replaced the kitchen equipment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11940_chuubou_ex3",
@@ -34,22 +38,50 @@
       "english": "This restaurant's kitchen has thorough hygiene management.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{厨房|ちゅうぼう}{機器|きき} (kitchen equipment)\n・{厨房|ちゅうぼう}{設備|せつび} (kitchen facilities)\n・{厨房|ちゅうぼう}に{立|た}つ (stand in the kitchen, work as a cook)\n\nSIMILAR WORDS:\n{台所|だいどころ} is the everyday word for a home kitchen. {厨房|ちゅうぼう} implies a larger, professional kitchen — the kind found in restaurants, hotels, and institutional cafeterias. When talking about a home kitchen, use {台所|だいどころ} or キッチン. {厨房|ちゅうぼう} for a home kitchen would sound overly formal or humorous.",
-  "cross_references": [],
+  "notes": "COMMON COLLOCATIONS:\n- {厨房|ちゅうぼう}{機器|きき} (kitchen equipment)\n- {厨房|ちゅうぼう}{設備|せつび} (kitchen facilities)\n- {厨房|ちゅうぼう}に{立|た}つ (stand in the kitchen, work as a cook)\n\nSIMILAR WORDS:\n{台所|だいどころ} is the everyday word for a home kitchen. {厨房|ちゅうぼう} implies a larger, professional kitchen — the kind found in restaurants, hotels, and institutional cafeterias. When talking about a home kitchen, use {台所|だいどころ} or キッチン. {厨房|ちゅうぼう} for a home kitchen would sound overly formal or humorous.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10673_suijiba",
+      "reading": "すいじば",
+      "headword": "{炊事場|すいじば}",
+      "label": "kitchen, cooking area"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19910_itaba",
+      "reading": "いたば",
+      "headword": "{板場|いたば}",
+      "label": "kitchen (in a Japanese restaurant)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23278_chouriba",
+      "reading": "ちょうりば",
+      "headword": "{調理場|ちょうりば}",
+      "label": "kitchen"
+    }
+  ],
   "metadata": {
     "created": "2026-02-19T10:49:49Z",
-    "modified": "2026-02-19T10:49:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

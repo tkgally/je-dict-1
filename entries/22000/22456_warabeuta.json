@@ -17,7 +17,9 @@
       "id": "22456_warabeuta_ex1",
       "japanese": "わらべうたを{歌|うた}う。",
       "english": "To sing a children's folk song.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22456_warabeuta_ex2",
       "japanese": "{祖母|そぼ}がよくわらべうたを{教|おし}えてくれた。",
       "english": "My grandmother often taught me nursery rhymes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "22456_warabeuta_ex3",
       "japanese": "{保育園|ほいくえん}では{毎日|まいにち}わらべうたを{使|つか}って{子|こ}どもたちと{遊|あそ}んでいる。",
       "english": "At the daycare, they use nursery rhymes to play with the children every day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of わらべ ({童|わらべ}, children) + うた ({歌|うた}, song). Refers to traditional folk songs for children that have been passed down through oral tradition. Many are accompanied by games like hand clapping, jump rope, or circle games.\n\nCOMMON COLLOCATIONS:\n- わらべうたを{歌|うた}う: to sing a nursery rhyme\n- わらべうた{遊|あそ}び: nursery rhyme games\n- {日本|にほん}のわらべうた: Japanese children's folk songs\n- わらべうたを{伝|つた}える: to pass down nursery rhymes\n\nEXAMPLES OF FAMOUS わらべうた:\n- かごめかごめ: Kagome Kagome (circle game song)\n- {通|とお}りゃんせ: Toryanse (passing-through game)\n- はないちもんめ: Hana Ichi Monme (team choosing game)\n\nSIMILAR WORDS:\n- {童謡|どうよう}: children's song — composed songs for children, often with known authors, as opposed to traditional folk songs\n- {子守歌|こもりうた}: lullaby — songs specifically for putting children to sleep\n- {唱歌|しょうか}: school song — songs taught in the school music curriculum, often from the Meiji era onward",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03480_douyou",
+      "reading": "どうよう",
+      "headword": "{童謡|どうよう}",
+      "label": "children's song"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19434_komoriuta",
+      "reading": "こもりうた",
+      "headword": "{子守歌|こもりうた}",
+      "label": "lullaby"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21282_shouka",
+      "reading": "しょうか",
+      "headword": "{唱歌|しょうか}",
+      "label": "school song"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["culture", "music"]
+      "semantic": [
+        "culture",
+        "music"
+      ]
     },
     "created": "2026-04-06T12:11:59Z",
-    "modified": "2026-04-06T12:11:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

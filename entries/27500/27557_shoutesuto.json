@@ -17,7 +17,9 @@
       "id": "27557_shoutesuto_ex1",
       "japanese": "{毎週|まいしゅう}{小|しょう}テストがある。",
       "english": "There's a quiz every week.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27557_shoutesuto_ex2",
       "japanese": "{今日|きょう}は{漢字|かんじ}の{小|しょう}テストだ。",
       "english": "Today we have a kanji quiz.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,59 @@
       "id": "27557_shoutesuto_ex3",
       "japanese": "{先生|せんせい}が{授業|じゅぎょう}の{最初|さいしょ}に{小|しょう}テストを{配|くば}り{始|はじ}めた。",
       "english": "The teacher started handing out a quiz at the beginning of class.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {小|しょう} (small) + テスト (test). The prefix {小|しょう}- attaches to many nouns to mean \"small\" or \"minor\" (e.g., {小規模|しょうきぼ}, {小食|しょうしょく}).\n\nCOMMON COLLOCATIONS:\n- {小|しょう}テストを{受|う}ける: to take a quiz\n- {小|しょう}テストを{行|おこな}う: to give a quiz\n- {小|しょう}テストの{結果|けっか}: quiz results\n- {漢字|かんじ}の{小|しょう}テスト: kanji quiz\n- {単語|たんご}の{小|しょう}テスト: vocabulary quiz\n\nSIMILAR WORDS:\n- テスト: test (general term)\n- {試験|しけん}: exam (more formal, typically longer)\n- {中間|ちゅうかん}テスト: midterm exam\n- {期末|きまつ}テスト: final exam\n- クイズ: quiz — typically refers to TV-show or trivia-style questions, not classroom tests",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01422_shiken",
+      "reading": "しけん",
+      "headword": "{試験|しけん}",
+      "label": "exam"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10804_kuizu",
+      "reading": "くいず",
+      "headword": "クイズ",
+      "label": "quiz"
+    },
+    {
+      "type": "related",
+      "target_id": "06691_chuukanshiken",
+      "reading": "ちゅうかんしけん",
+      "headword": "{中間試験|ちゅうかんしけん}",
+      "label": "midterm exam"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24920_teikishiken",
+      "reading": "ていきしけん",
+      "headword": "{定期試験|ていきしけん}",
+      "label": "regular examination"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["education"],
+      "politeness": "plain",
+      "semantic": [
+        "education"
+      ],
       "domain": []
     },
     "created": "2026-05-14T01:41:20Z",
-    "modified": "2026-05-14T01:41:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

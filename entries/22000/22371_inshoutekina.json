@@ -3,7 +3,7 @@
   "headword": "{印象的|いんしょうてき}な",
   "reading": "いんしょうてきな",
   "romaji": "inshoutekina",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "impressive; striking; memorable",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "22371_inshoutekina_ex1",
       "japanese": "{印象的|いんしょうてき}な{場面|ばめん}だった。",
       "english": "It was a striking scene.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22371_inshoutekina_ex2",
       "japanese": "{彼女|かのじょ}の{笑顔|えがお}がとても{印象的|いんしょうてき}だった。",
       "english": "Her smile was very memorable.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "22371_inshoutekina_ex3",
       "japanese": "その{映画|えいが}の{最後|さいご}のセリフが{最|もっと}も{印象的|いんしょうてき}だったと{多|おお}くの{人|ひと}が{語|かた}っている。",
       "english": "Many people say the final line of the movie was the most memorable.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Derived from {印象|いんしょう} (impression) + {的|てき} (adjectival suffix). Describes something that creates a lasting impression, always with a positive or neutral connotation — never used for negatively shocking things.\n\nCOMMON COLLOCATIONS:\n- {印象的|いんしょうてき}な{場面|ばめん}: a striking scene\n- {印象的|いんしょうてき}な{言葉|ことば}: memorable words\n- {印象的|いんしょうてき}な{出来事|できごと}: a memorable event\n- {印象的|いんしょうてき}な{演技|えんぎ}: an impressive performance\n- {最|もっと}も{印象的|いんしょうてき}な: the most impressive/memorable\n\nSIMILAR WORDS:\n- {印象|いんしょう}に{残|のこ}る: to remain in one's memory — phrase with similar meaning but used as a verb\n- {感動的|かんどうてき}な: moving / touching — stronger emotional impact, implies being deeply moved\n- {衝撃的|しょうげきてき}な: shocking / sensational — much stronger; implies surprise or shock\n- {鮮|あざ}やかな: vivid / brilliant — focuses on visual clarity and brightness\n\nUSAGE:\nCan be used as an adverb with に: {印象的|いんしょうてき}に{描|えが}く (to portray impressively).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25879_kandoutekina",
+      "reading": "かんどうてきな",
+      "headword": "{感動的|かんどうてき}な",
+      "label": "moving / touching"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06829_shougekiteki",
+      "reading": "しょうげきてき",
+      "headword": "{衝撃的|しょうげきてき}",
+      "label": "shocking / sensational"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05702_azayaka",
+      "reading": "あざやか",
+      "headword": "{鮮|あざ}やか",
+      "label": "vivid / brilliant"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     },
     "created": "2026-04-05T20:08:33Z",
-    "modified": "2026-04-05T20:08:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

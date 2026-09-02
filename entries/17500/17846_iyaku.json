@@ -3,7 +3,7 @@
   "id": "17846_iyaku",
   "headword": "{意訳|いやく}",
   "reading": "いやく",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "free translation; liberal translation",
   "conjugation": {
     "type": "suru",
@@ -149,11 +149,25 @@
       "headword": "{和訳|わやく}",
       "target_id": "17845_wayaku",
       "label": "Japanese translation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16317_eiyaku",
+      "reading": "えいやく",
+      "headword": "{英訳|えいやく}",
+      "label": "translation into English"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26370_wabuneiyaku",
+      "reading": "わぶんえいやく",
+      "headword": "{和文英訳|わぶんえいやく}",
+      "label": "Japanese-to-English translation"
     }
   ],
   "metadata": {
     "created": "2026-03-19T06:58:32Z",
-    "modified": "2026-05-07T08:09:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -19,7 +19,9 @@
       "english": "I harbored doubts about his explanation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17971_ginen_ex2",
@@ -27,7 +29,9 @@
       "english": "My doubts were not cleared.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17971_ginen_ex3",
@@ -35,7 +39,9 @@
       "english": "Suspicion toward the government is spreading among the people.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal, somewhat literary word. More serious and weighty than {疑問|ぎもん} (question/doubt). Often implies lingering distrust that is difficult to resolve.\n\nCOMMON COLLOCATIONS:\n- {疑念|ぎねん}を{抱|いだ}く (harbor doubts)\n- {疑念|ぎねん}が{生|しょう}じる (doubts arise)\n- {疑念|ぎねん}が{晴|は}れる (doubts are cleared)\n- {疑念|ぎねん}を{払拭|ふっしょく}する (dispel doubts)\n\nSIMILAR WORDS:\n- {疑問|ぎもん}: question, doubt — lighter; often just an intellectual question rather than distrust\n- {不信|ふしん}: distrust — focuses specifically on lack of trust in a person or institution\n- {懐疑|かいぎ}: skepticism — philosophical or systematic doubt",
@@ -46,19 +52,46 @@
       "reading": "ぎもん",
       "headword": "{疑問|ぎもん}",
       "label": "doubt (lighter)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18313_fushin",
+      "reading": "ふしん",
+      "headword": "{不信|ふしん}",
+      "label": "distrust"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12856_kaigi",
+      "reading": "かいぎ",
+      "headword": "{懐疑|かいぎ}",
+      "label": "skepticism"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16762_fushinkan",
+      "reading": "ふしんかん",
+      "headword": "{不信感|ふしんかん}",
+      "label": "distrust"
     }
   ],
   "metadata": {
     "created": "2026-03-19T10:06:22Z",
-    "modified": "2026-05-07T10:07:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["cognition"],
-      "style": ["written"]
+      "semantic": [
+        "cognition"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

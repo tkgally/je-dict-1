@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{青|あお}い works both before a noun ({青|あお}い⟦{海|うみ}→海：00556_umi⟧) and as a predicate (⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧{青|あお}い). Its range is wider than English \"blue\": it reaches into green, and it also describes a face gone pale.\n\nFORMS:\n- Noun: ⟦{青|あお}→青：02841_ao⟧ (blue, the color)\n- Adverb: {青|あお}く\n\nSIMILAR ADJECTIVES — BLUE VS. GREEN:\nTraditionally, Japanese used {青|あお}い for both blue and green. Modern Japanese distinguishes:\n- {青|あお}い: blue (sky, sea, eyes)\n- ⟦{緑|みどり}→緑：00970_midori⟧: green (grass, trees)\n\nHowever, {青|あお}い is still used for:\n- ⟦{青信号|あおしんごう}→青信号：21544_aoshingou⟧: green traffic light (the set compound uses the noun ⟦{青|あお}→青：02841_ao⟧; in a full sentence the adjective is natural — ⟦{信号|しんごう}→信号：03258_shingou⟧⟦が→が：00051_ga⟧{青|あお}い)\n- {青|あお}い⟦{葉|は}→葉：02241_ha⟧: green leaves\n- {青|あお}⟦りんご→りんご：02269_ringo⟧: green apple\n- Unripe fruit: ⟦バナナ→バナナ：01013_banana⟧⟦が→が：00051_ga⟧⟦まだ→まだ：00603_mada⟧{青|あお}い\n\nCOLLOCATIONS:\n- ⟦{青空|あおぞら}→青空：10084_aozora⟧: blue sky\n- ⟦{真|ま}っ{青|さお}→真っ青：07615_massao⟧: deep blue; pale (from shock)\n- ⟦{青|あお}ざめる→青ざめる：14612_aozameru⟧: to turn pale\n- ⟦{青二才|あおにさい}→青二才：22682_aonisai⟧: greenhorn, inexperienced youth\n\nCULTURAL NOTE:\nThe blue-green overlap reflects historical Japanese color perception, where {青|あお} covered a broader spectrum than English \"blue.\"",
+  "notes": "USAGE:\n{青|あお}い works both before a noun ({青|あお}い⟦{海|うみ}→海：00556_umi⟧) and as a predicate (⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧{青|あお}い). Its range is wider than English \"blue\": it reaches into green, and it also describes a face gone pale.\n\nFORMS:\n- Noun: ⟦{青|あお}→青：02841_ao⟧ (blue, the color)\n- Adverb: {青|あお}く\n\nSIMILAR ADJECTIVES — BLUE VS. GREEN:\nTraditionally, Japanese used {青|あお}い for both blue and green. Modern Japanese distinguishes:\n- {青|あお}い: blue (sky, sea, eyes)\n- ⟦{緑|みどり}→緑：00970_midori⟧: green (grass, trees)\n\nHowever, {青|あお}い is still used for:\n- ⟦{青信号|あおしんごう}→青信号：21544_aoshingou⟧: green traffic light (the set compound uses the noun ⟦{青|あお}→青：02841_ao⟧; in a full sentence the adjective is natural — ⟦{信号|しんごう}→信号：03258_shingou⟧⟦が→が：00051_ga⟧{青|あお}い)\n- {青|あお}い⟦{葉|は}→葉：02241_ha⟧: green leaves\n- {青|あお}⟦りんご→りんご：02269_ringo⟧: green apple\n- Unripe fruit: ⟦バナナ→バナナ：01013_banana⟧⟦が→が：00051_ga⟧⟦まだ→まだ：00603_mada⟧{青|あお}い\n\nCOMMON COLLOCATIONS:\n- ⟦{青空|あおぞら}→青空：10084_aozora⟧: blue sky\n- ⟦{真|ま}っ{青|さお}→真っ青：07615_massao⟧: deep blue; pale (from shock)\n- ⟦{青|あお}ざめる→青ざめる：14612_aozameru⟧: to turn pale\n- ⟦{青二才|あおにさい}→青二才：22682_aonisai⟧: greenhorn, inexperienced youth\n\nCULTURAL NOTE:\nThe blue-green overlap reflects historical Japanese color perception, where {青|あお} covered a broader spectrum than English \"blue.\"",
   "cross_references": [
     {
       "type": "related",
@@ -140,11 +140,39 @@
       "headword": "{黒|くろ}い",
       "target_id": "00588_kuroi",
       "label": "black"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00970_midori",
+      "reading": "みどり",
+      "headword": "{緑|みどり}",
+      "label": "green"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21544_aoshingou",
+      "reading": "あおしんごう",
+      "headword": "{青信号|あおしんごう}",
+      "label": "green traffic light (the set compound…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27445_aoringo",
+      "reading": "あおりんご",
+      "headword": "{青|あお}りんご",
+      "label": "green apple"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17795_wakage",
+      "reading": "わかげ",
+      "headword": "{若気|わかげ}",
+      "label": "youthful impetuousness"
     }
   ],
   "metadata": {
     "created": "2026-01-07T15:35:21Z",
-    "modified": "2026-07-27T18:20:42Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

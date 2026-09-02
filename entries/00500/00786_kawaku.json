@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{乾|かわ}かす→乾かす：01931_kawakasu⟧ (transitive, to dry something). Pattern: Xが{乾|かわ}く.\n\nASPECT: ている indicates resulting state. {乾|かわ}いている = 'is dry' or 'has dried.'\n\nCOMMON PATTERNS:\n・⟦{洗濯物|せんたくもの}→洗濯物：09533_sentakumono⟧⟦が→が：00051_ga⟧{乾|かわ}く (laundry dries)\n・⟦{喉|のど}→喉：00977_nodo⟧⟦が→が：00051_ga⟧{乾|かわ}く (be thirsty - lit. throat dries)\n・{乾|かわ}いている (is dry)\n・まだ{乾|かわ}いていない (not dry yet)\n\nSimilar expression: ⟦お{腹|なか}→お腹：00805_onaka⟧⟦が→が：00051_ga⟧⟦{空|す}く→すく：00756_suku⟧ (be hungry).",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{乾|かわ}かす→乾かす：01931_kawakasu⟧ (transitive, to dry something). Pattern: Xが{乾|かわ}く.\n\nASPECT: ている indicates resulting state. {乾|かわ}いている = 'is dry' or 'has dried.'\n\nCOMMON PATTERNS:\n- ⟦{洗濯物|せんたくもの}→洗濯物：09533_sentakumono⟧⟦が→が：00051_ga⟧{乾|かわ}く (laundry dries)\n- ⟦{喉|のど}→喉：00977_nodo⟧⟦が→が：00051_ga⟧{乾|かわ}く (be thirsty - lit. throat dries)\n- {乾|かわ}いている (is dry)\n- まだ{乾|かわ}いていない (not dry yet)\n\nSimilar expression: ⟦お{腹|なか}→お腹：00805_onaka⟧⟦が→が：00051_ga⟧⟦{空|す}く→すく：00756_suku⟧ (be hungry).",
   "prominent_see_also": [
     {
       "target_id": "10965_kawaku",
@@ -227,6 +227,12 @@
       "reading": "ほす",
       "headword": "{干|ほ}す",
       "note": "to dry (by hanging)"
+    },
+    {
+      "target_id": "23573_kamiwokawakasu",
+      "reading": "かみをかわかす",
+      "headword": "{髪|かみ}を{乾|かわ}かす",
+      "note": "transitive"
     }
   ],
   "cross_references": [
@@ -242,11 +248,18 @@
       "headword": "{湿|しめ}る",
       "label": "to get damp",
       "target_id": "13323_shimeru_damp"
+    },
+    {
+      "type": "related",
+      "target_id": "00184_kansou",
+      "reading": "かんそう",
+      "headword": "{乾燥|かんそう}",
+      "label": "dryness, dry"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:17:21Z",
-    "modified": "2026-06-10T14:04:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

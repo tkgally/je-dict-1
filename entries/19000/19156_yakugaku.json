@@ -17,7 +17,9 @@
       "id": "19156_yakugaku_ex1",
       "japanese": "{薬学|やくがく}を{学|まな}んでいる。",
       "english": "I am studying pharmacy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19156_yakugaku_ex2",
       "japanese": "{薬学部|やくがくぶ}は{六年制|ろくねんせい}になった。",
       "english": "The pharmacy department has become a six-year program.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,48 @@
       "id": "19156_yakugaku_ex3",
       "japanese": "{薬学|やくがく}の{知識|ちしき}を{活|い}かして{製薬会社|せいやくがいしゃ}で{働|はたら}いている。",
       "english": "I work at a pharmaceutical company, making use of my pharmacy knowledge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Common collocations: {薬学部|やくがくぶ} (pharmacy department/faculty), {薬学|やくがく}{研究|けんきゅう} (pharmaceutical research), {薬学|やくがく}の{博士号|はくしごう} (doctorate in pharmacy). In Japan, {薬学部|やくがくぶ} programs were extended from four to six years in 2006. Graduates can take the {薬剤師|やくざいし} (pharmacist) licensing exam. Part of the {〜学|がく} (study of ~) word family, like {医学|いがく} (medicine) and {歯学|しがく} (dentistry).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01301_igaku",
+      "reading": "いがく",
+      "headword": "{医学|いがく}",
+      "label": "medical science"
+    },
+    {
+      "type": "related",
+      "target_id": "07107_seibutsugaku",
+      "reading": "せいぶつがく",
+      "headword": "{生物学|せいぶつがく}",
+      "label": "biology"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"],
-      "domain": ["academic", "medical"]
+      "semantic": [
+        "education"
+      ],
+      "domain": [
+        "academic",
+        "medical"
+      ]
     },
     "created": "2026-03-24T11:23:48Z",
-    "modified": "2026-03-24T11:23:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "I had a fruit parfait.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11247_furuutsu_ex2",
@@ -27,7 +29,9 @@
       "english": "Seasonal fruits are sweet and delicious.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11247_furuutsu_ex3",
@@ -35,21 +39,42 @@
       "english": "I ordered an assorted fruit platter for dessert.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nフルーツ and {果物|くだもの} both mean \"fruit,\" but they have different nuances. {果物|くだもの} is the general Japanese word used in everyday contexts (buying fruit at a shop, eating fruit at home). フルーツ tends to appear in more stylish, commercial, or culinary contexts — dessert menus, product names, and advertising. For example, a restaurant would list フルーツタルト, not {果物|くだもの}タルト.\n\nCOMMON COLLOCATIONS:\n- フルーツパフェ: fruit parfait\n- フルーツジュース: fruit juice\n- フルーツケーキ: fruit cake\n- フルーツの{盛|も}り{合|あ}わせ: assorted fruit platter\n- ドライフルーツ: dried fruit",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00146_kajitsu",
+      "reading": "かじつ",
+      "headword": "{果実|かじつ}",
+      "label": "fruit"
+    },
+    {
+      "type": "related",
+      "target_id": "00509_kudamono",
+      "reading": "くだもの",
+      "headword": "{果物|くだもの}",
+      "label": "fruit"
+    }
+  ],
   "metadata": {
     "created": "2026-02-15T09:16:30Z",
-    "modified": "2026-02-15T09:16:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

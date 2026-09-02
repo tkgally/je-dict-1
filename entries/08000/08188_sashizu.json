@@ -2,7 +2,7 @@
   "id": "08188_sashizu",
   "headword": "{指図|さしず}",
   "reading": "さしず",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "instructions; orders; directions",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n- {指図|さしず}する (to give orders, to direct)\n- {指図|さしず}を{受|う}ける (to receive orders)\n- {人|ひと}に{指図|さしず}するな (don't boss people around)\n\nNUANCE:\nOften carries a negative connotation of being bossy or authoritarian. Used when someone is giving commands in an overbearing manner.\n\nCOMPARISON:\n- {指示|しじ} - instructions (neutral, professional)\n- {命令|めいれい} - order, command (stronger, more formal)\n- {指図|さしず} - instructions (can imply bossiness)",
+  "notes": "USAGE:\n- {指図|さしず}する (to give orders, to direct)\n- {指図|さしず}を{受|う}ける (to receive orders)\n- {人|ひと}に{指図|さしず}するな (don't boss people around)\nOften carries a negative connotation of being bossy or authoritarian. Used when someone is giving commands in an overbearing manner.\n\nSIMILAR WORDS:\n- {指示|しじ} - instructions (neutral, professional)\n- {命令|めいれい} - order, command (stronger, more formal)\n- {指図|さしず} - instructions (can imply bossiness)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +142,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "communication",
         "work"
@@ -149,7 +150,7 @@
       "verb_class": "suru"
     },
     "created": "2026-01-25T08:01:01Z",
-    "modified": "2026-04-20T05:05:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "cross_references": [
     {
@@ -158,6 +159,27 @@
       "reading": "しじ",
       "headword": "{指示|しじ}",
       "label": "instructions (neutral)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03754_meirei",
+      "reading": "めいれい",
+      "headword": "{命令|めいれい}",
+      "label": "order, command"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26833_meireisuru",
+      "reading": "めいれいする",
+      "headword": "{命令|めいれい}する",
+      "label": "to command"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26845_shijisuru",
+      "reading": "しじする",
+      "headword": "{指示|しじ}する",
+      "label": "to instruct"
     }
   ]
 }

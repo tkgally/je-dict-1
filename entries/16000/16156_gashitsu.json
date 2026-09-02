@@ -19,7 +19,9 @@
       "english": "This camera has good image quality.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16156_gashitsu_ex2",
@@ -27,7 +29,9 @@
       "english": "When you increase the image quality, the file size also gets larger.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16156_gashitsu_ex3",
@@ -35,21 +39,49 @@
       "english": "The video quality was so poor that I couldn't read the subtitles.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{画質|がしつ} is an everyday term in the digital age, frequently seen in product reviews, streaming service settings, and camera specifications. It covers both still images and video.\n\nCOMMON COLLOCATIONS:\n- {高|こう}{画質|がしつ} (high image quality — HD, 4K, etc.)\n- {低|てい}{画質|がしつ} (low image quality)\n- {画質|がしつ}がいい/わるい (good/bad image quality)\n- {画質|がしつ}{設定|せってい} (image quality settings)\n- {画質|がしつ}を{調整|ちょうせい}する (to adjust image quality)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21879_onshitsu",
+      "reading": "おんしつ",
+      "headword": "{音質|おんしつ}",
+      "label": "sound quality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25105_shishitsu",
+      "reading": "ししつ",
+      "headword": "{紙質|ししつ}",
+      "label": "paper quality"
+    },
+    {
+      "type": "related",
+      "target_id": "26326_kaizou",
+      "reading": "かいぞう",
+      "headword": "{解像|かいぞう}",
+      "label": "resolution (of an image)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-10T06:10:12Z",
-    "modified": "2026-03-10T06:10:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["electronics"]
+      "semantic": [
+        "electronics"
+      ]
     }
   }
 }

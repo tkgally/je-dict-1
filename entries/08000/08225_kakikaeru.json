@@ -2,7 +2,7 @@
   "id": "08225_kakikaeru",
   "headword": "{書|か}き{換|か}える",
   "reading": "かきかえる",
-  "part_of_speech": "ichidan verb (transitive)",
+  "part_of_speech": "verb (ichidan, transitive)",
   "gloss": "to rewrite; to renew; to update",
   "conjugation": {
     "type": "ichidan",
@@ -168,7 +168,30 @@
       "notes": null
     }
   ],
-  "notes": "TRANSITIVITY:\nTransitive ({他動詞|たどうし})\n\nUSAGE:\n- 〜を{書|か}き{換|か}える (to rewrite/renew ~)\n\nFOR DOCUMENTS:\nWhen renewing official documents, {書|か}き{換|か}える is commonly used:\n- {免許|めんきょ}の{書|か}き{換|か}え (license renewal)\n- {登録|とうろく}の{書|か}き{換|か}え (registration renewal)\n\nRELATED:\n- {書|か}き{直|なお}す (to rewrite - implies fixing/improving)\n- {更新|こうしん}する (to renew, update - more formal)\n- {置|お}き{換|か}える (to replace)",
+  "notes": "TRANSITIVITY:\nTransitive ({他動詞|たどうし})\n\nUSAGE:\n- 〜を{書|か}き{換|か}える (to rewrite/renew ~)\n\nFOR DOCUMENTS:\nWhen renewing official documents, {書|か}き{換|か}える is commonly used:\n- {免許|めんきょ}の{書|か}き{換|か}え (license renewal)\n- {登録|とうろく}の{書|か}き{換|か}え (registration renewal)\n\nRELATED WORDS:\n- {書|か}き{直|なお}す (to rewrite - implies fixing/improving)\n- {更新|こうしん}する (to renew, update - more formal)\n- {置|お}き{換|か}える (to replace)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04597_kakinaosu",
+      "reading": "かきなおす",
+      "headword": "{書|か}き{直|なお}す",
+      "label": "to rewrite"
+    },
+    {
+      "type": "related",
+      "target_id": "27994_koushinsuru",
+      "reading": "こうしんする",
+      "headword": "{更新|こうしん}する",
+      "label": "to renew, update"
+    },
+    {
+      "type": "related",
+      "target_id": "08226_okikaeru",
+      "reading": "おきかえる",
+      "headword": "{置|お}き{換|か}える",
+      "label": "to replace"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -177,6 +200,7 @@
       ],
       "transitivity": "transitive",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "writing",
         "documents"
@@ -184,6 +208,6 @@
       "verb_class": "ichidan"
     },
     "created": "2026-01-25T08:30:51Z",
-    "modified": "2026-07-02T15:18:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

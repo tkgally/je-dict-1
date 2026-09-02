@@ -19,7 +19,9 @@
       "english": "If you find a suspicious object, please report it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14974_fushinbutsu_ex2",
@@ -27,7 +29,9 @@
       "english": "A suspicious object was found inside the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14974_fushinbutsu_ex3",
@@ -35,21 +39,35 @@
       "english": "After receiving a report of a suspicious object, police cordoned off the area and investigated, finding that the contents were just clothing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of {不審|ふしん} (suspicious, questionable) and {物|ぶつ} (object, thing).\n\nVery common in Japanese public safety announcements. Train stations, airports, and public buildings regularly broadcast reminders about {不審物|ふしんぶつ}.\n\nSIMILAR WORDS:\n- {不審者|ふしんしゃ} means a suspicious person\n- {放置|ほうち}{荷物|にもつ} means an unattended bag (less alarming tone)\n\nCOMMON COLLOCATIONS:\n- {不審物|ふしんぶつ}を{発見|はっけん}する (to discover a suspicious object)\n- {不審物|ふしんぶつ}に{触|さわ}らないでください (please don't touch suspicious objects)\n- {不審物|ふしんぶつ}の{撤去|てっきょ} (removal of a suspicious object)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11348_fushinsha",
+      "reading": "ふしんしゃ",
+      "headword": "{不審者|ふしんしゃ}",
+      "label": "means a suspicious person"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T08:04:33Z",
-    "modified": "2026-03-04T08:04:33Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

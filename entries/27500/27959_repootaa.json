@@ -17,7 +17,9 @@
       "id": "27959_repootaa_ex1",
       "japanese": "レポーターが{現場|げんば}から{中継|ちゅうけい}している。",
       "english": "A reporter is broadcasting live from the scene.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27959_repootaa_ex2",
       "japanese": "レポーターが{店|みせ}の{人|ひと}にインタビューした。",
       "english": "The reporter interviewed the shop's staff.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "27959_repootaa_ex3",
       "japanese": "グルメ{番組|ばんぐみ}のレポーターが{料理|りょうり}を{食|た}べて{感想|かんそう}を{伝|つた}えた。",
       "english": "The reporter on the gourmet show ate the dish and shared her impressions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers especially to a TV or radio reporter who works on location — covering news scenes, conducting street interviews, or trying out food and attractions on variety shows.\n\nSIMILAR WORDS:\n- キャスター: anchor — hosts the program from the studio\n- {記者|きしゃ}: journalist, press reporter — gathers and writes news, including for print, without necessarily appearing on air",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27958_kyasutaa",
+      "reading": "きゃすたー",
+      "headword": "キャスター",
+      "label": "anchor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14170_kisha",
+      "reading": "きしゃ",
+      "headword": "{記者|きしゃ}",
+      "label": "journalist, press reporter"
+    },
+    {
+      "type": "related",
+      "target_id": "01765_anaunsaa",
+      "reading": "あなうんさー",
+      "headword": "アナウンサー",
+      "label": "announcer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"],
+      "semantic": [
+        "occupation"
+      ],
       "domain": []
     },
     "created": "2026-05-23T04:06:38Z",
-    "modified": "2026-05-23T04:06:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

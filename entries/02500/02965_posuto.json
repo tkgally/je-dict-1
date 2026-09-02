@@ -78,11 +78,33 @@
       ]
     }
   ],
-  "notes": "ポスト is from English \"post\" and has two main meanings in Japanese.\n\nSENSE 1 - MAILBOX:\nPublic red boxes where you deposit outgoing mail.\n- ⟦{郵便|ゆうびん}→郵便：03803_yuubin⟧ポスト: mailbox (full term)\n- ポスト⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put in the mailbox\n- ポスト⟦に→に：00314_ni⟧⟦{投函|とうかん}する→投函：23418_toukan⟧: to mail (formal)\n\nSENSE 2 - POSITION/POST:\nA job position, especially in business or organizations.\n- ポスト⟦に→に：00314_ni⟧⟦{就|つ}く→就く：10123_tsuku⟧: to take a position\n- ⟦{重要|じゅうよう}→重要：01575_juuyou⟧⟦な→な：09497_na⟧ポスト: important position\n- ポスト⟦を→を：00422_wo⟧⟦{狙|ねら}う→狙う：00313_nerau⟧: to aim for a position\n\nCULTURAL NOTE:\nJapanese mailboxes are typically bright red (⟦{赤|あか}い→赤い：00585_akai⟧ポスト), making them easy to spot. There are two slots: ⟦{手紙|てがみ}→手紙：00675_tegami⟧・⟦はがき→はがき：00699_hagaki⟧ (letters/postcards) and ⟦その{他|た}→その他：25037_sonota⟧ (other mail/large items).\n\nRELATED TERMS:\n- ⟦{郵便局|ゆうびんきょく}→郵便局：00579_yuubinkyoku⟧: post office\n- ⟦{郵便|ゆうびん}→郵便：03803_yuubin⟧⟦{配達|はいたつ}→配達：00084_haitatsu⟧: mail delivery\n- ⟦{郵便受|ゆうびんう}け→郵便受け：04889_yuubinuke⟧: home mailbox (receiving mail)",
-  "cross_references": [],
+  "notes": "ポスト is from English \"post\" and has two main meanings in Japanese.\n\nSENSE 1 - MAILBOX:\nPublic red boxes where you deposit outgoing mail.\n- ⟦{郵便|ゆうびん}→郵便：03803_yuubin⟧ポスト: mailbox (full term)\n- ポスト⟦に→に：00314_ni⟧⟦{入|い}れる→入れる：01098_ireru⟧: to put in the mailbox\n- ポスト⟦に→に：00314_ni⟧⟦{投函|とうかん}する→投函：23418_toukan⟧: to mail (formal)\n\nSENSE 2 - POSITION/POST:\nA job position, especially in business or organizations.\n- ポスト⟦に→に：00314_ni⟧⟦{就|つ}く→就く：10123_tsuku⟧: to take a position\n- ⟦{重要|じゅうよう}→重要：01575_juuyou⟧⟦な→な：09497_na⟧ポスト: important position\n- ポスト⟦を→を：00422_wo⟧⟦{狙|ねら}う→狙う：00313_nerau⟧: to aim for a position\n\nCULTURAL NOTE:\nJapanese mailboxes are typically bright red (⟦{赤|あか}い→赤い：00585_akai⟧ポスト), making them easy to spot. There are two slots: ⟦{手紙|てがみ}→手紙：00675_tegami⟧・⟦はがき→はがき：00699_hagaki⟧ (letters/postcards) and ⟦その{他|た}→その他：25037_sonota⟧ (other mail/large items).\n\nRELATED WORDS:\n- ⟦{郵便局|ゆうびんきょく}→郵便局：00579_yuubinkyoku⟧: post office\n- ⟦{郵便|ゆうびん}→郵便：03803_yuubin⟧⟦{配達|はいたつ}→配達：00084_haitatsu⟧: mail delivery\n- ⟦{郵便受|ゆうびんう}け→郵便受け：04889_yuubinuke⟧: home mailbox (receiving mail)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00579_yuubinkyoku",
+      "reading": "ゆうびんきょく",
+      "headword": "{郵便局|ゆうびんきょく}",
+      "label": "post office"
+    },
+    {
+      "type": "related",
+      "target_id": "04889_yuubinuke",
+      "reading": "ゆうびんうけ",
+      "headword": "{郵便受|ゆうびんう}け",
+      "label": "home mailbox"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26182_yuubinbako",
+      "reading": "ゆうびんばこ",
+      "headword": "{郵便箱|ゆうびんばこ}",
+      "label": "mailbox"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:10:00Z",
-    "modified": "2026-07-29T21:21:40Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

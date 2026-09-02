@@ -17,7 +17,9 @@
       "id": "24897_koukanken_ex1",
       "japanese": "{交換券|こうかんけん}を{受|う}け{取|と}る。",
       "english": "To receive an exchange voucher.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24897_koukanken_ex2",
       "japanese": "この{交換券|こうかんけん}で{商品|しょうひん}と{引|ひ}き{換|か}えられます。",
       "english": "You can exchange this voucher for a product.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "24897_koukanken_ex3",
       "japanese": "{景品|けいひん}{交換券|こうかんけん}の{有効期限|ゆうこうきげん}は{来月末|らいげつまつ}までです。",
       "english": "The prize exchange voucher is valid until the end of next month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A general term for any voucher or ticket that can be redeemed for something else. Common at events, promotional campaigns, and in loyalty programs. The word is composed of {交換|こうかん} (exchange) + {券|けん} (ticket/voucher).\n\nCOMMON COLLOCATIONS:\n- {景品|けいひん}{交換券|こうかんけん}: prize exchange voucher\n- {商品|しょうひん}{交換券|こうかんけん}: product exchange coupon\n- {交換券|こうかんけん}を{使|つか}う: to use an exchange voucher\n- {交換券|こうかんけん}を{発行|はっこう}する: to issue an exchange voucher\n\nSIMILAR WORDS:\n- {引換券|ひきかえけん}: redemption ticket — very similar meaning; {引換券|ひきかえけん} is slightly more formal and common in official contexts like airline ticket exchanges\n- クーポン: coupon — a loanword for discount or promotional vouchers, often implying a price reduction rather than a direct exchange\n- {商品券|しょうひんけん}: gift certificate — a voucher with a fixed monetary value that can be used like cash at certain stores",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19009_hikikaeken",
+      "reading": "ひきかえけん",
+      "headword": "{引換券|ひきかえけん}",
+      "label": "redemption ticket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06446_kuupon",
+      "reading": "くーぽん",
+      "headword": "クーポン",
+      "label": "coupon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22121_shouhinken",
+      "reading": "しょうひんけん",
+      "headword": "{商品券|しょうひんけん}",
+      "label": "gift certificate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["shopping", "daily-life"]
+      "semantic": [
+        "shopping",
+        "daily-life"
+      ]
     },
     "created": "2026-04-21T12:10:26Z",
-    "modified": "2026-04-21T12:10:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

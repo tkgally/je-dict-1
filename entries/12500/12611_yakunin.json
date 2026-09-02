@@ -19,7 +19,9 @@
       "english": "I submitted a report to the official.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12611_yakunin_ex2",
@@ -27,7 +29,9 @@
       "english": "Bureaucrats are always slow to respond.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12611_yakunin_ex3",
@@ -35,21 +39,42 @@
       "english": "Officials in the Edo period carried out strict enforcement.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{役人|やくにん} refers to a government official or bureaucrat. The word often implies a stereotypical bureaucratic attitude — rigid, procedural, and sometimes unhelpful.\n\nSIMILAR WORDS:\n- {公務員|こうむいん}: civil servant (neutral, modern term for government employees)\n- {官僚|かんりょう}: bureaucrat, high-ranking official (more formal, focuses on the system)\n- {役人|やくにん}: government official (slightly negative, implies bureaucratic behavior)\n\nCOMMON EXPRESSIONS:\n- お{役人|やくにん}: government official (with polite prefix, sometimes ironic)\n- {役人|やくにん}{根性|こんじょう}: bureaucratic mentality\n- {役人|やくにん}{仕事|しごと}: bureaucratic work (implies going through the motions)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01588_koumuin",
+      "reading": "こうむいん",
+      "headword": "{公務員|こうむいん}",
+      "label": "civil servant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02780_kanryou",
+      "reading": "かんりょう",
+      "headword": "{官僚|かんりょう}",
+      "label": "bureaucrat, high-ranking official"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T04:28:57Z",
-    "modified": "2026-02-22T04:28:57Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     }
   }
 }

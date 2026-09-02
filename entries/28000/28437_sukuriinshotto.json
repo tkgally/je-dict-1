@@ -17,7 +17,9 @@
       "id": "28437_sukuriinshotto_ex1",
       "japanese": "スクリーンショットを{撮|と}る。",
       "english": "Take a screenshot.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28437_sukuriinshotto_ex2",
       "japanese": "{画面|がめん}のスクリーンショットを{送|おく}ってください。",
       "english": "Please send me a screenshot of the screen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,54 @@
       "id": "28437_sukuriinshotto_ex3",
       "japanese": "{操作方法|そうさほうほう}を{説明|せつめい}するために、スクリーンショットを{何枚|なんまい}か{保存|ほぞん}しておいた。",
       "english": "I saved several screenshots in order to explain how the operation works.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Loanword from English 'screenshot.' The shortened form スクショ is widely used in everyday speech and online.\n\nCOMMON COLLOCATIONS:\n- スクリーンショットを{撮|と}る: take a screenshot\n- スクリーンショットを{保存|ほぞん}する: save a screenshot\n- スクリーンショットを{送|おく}る: send a screenshot\n- スクリーンショット{付|つ}き: with screenshots attached\n\nSIMILAR WORDS:\n- スクショ: screenshot — colloquial abbreviation\n- {画面|がめん}キャプチャ: screen capture — more technical\n- {画像|がぞう}: image — broader; any picture file",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06719_sukusho",
+      "reading": "すくしょ",
+      "headword": "スクショ",
+      "label": "screenshot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13549_gazou",
+      "reading": "がぞう",
+      "headword": "{画像|がぞう}",
+      "label": "image"
+    },
+    {
+      "type": "related",
+      "target_id": "17898_gamenshuuroku",
+      "reading": "がめんしゅうろく",
+      "headword": "{画面収録|がめんしゅうろく}",
+      "label": "screen recording"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["technology"],
-      "domain": ["technical"]
+      "politeness": "plain",
+      "semantic": [
+        "technology"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-05-31T02:08:49Z",
-    "modified": "2026-05-31T02:08:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

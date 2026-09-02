@@ -17,7 +17,9 @@
       "id": "22385_shitsugyousha_ex1",
       "japanese": "{失業者|しつぎょうしゃ}が{増|ふ}えている。",
       "english": "The number of unemployed people is increasing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "22385_shitsugyousha_ex2",
       "japanese": "{失業者|しつぎょうしゃ}{向|む}けの{支援|しえん}プログラムがある。",
       "english": "There are support programs for the unemployed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "22385_shitsugyousha_ex3",
       "japanese": "{不況|ふきょう}のため{多|おお}くの{失業者|しつぎょうしゃ}が{生|う}まれ、{政府|せいふ}は{対策|たいさく}に{追|お}われている。",
       "english": "The recession has produced many unemployed people, and the government is scrambling to respond.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {失業|しつぎょう} (unemployment) and {者|しゃ} (person). A neutral, official term used in statistics, policy discussions, and news reports.\n\nCOMMON COLLOCATIONS:\n- {失業者|しつぎょうしゃ}{数|すう}: number of unemployed\n- {失業者|しつぎょうしゃ}{支援|しえん}: support for the unemployed\n- {失業者|しつぎょうしゃ}が{増加|ぞうか}する: the number of unemployed increases\n- {長期|ちょうき}{失業者|しつぎょうしゃ}: long-term unemployed\n- {若年|じゃくねん}{失業者|しつぎょうしゃ}: young unemployed people\n\nSIMILAR WORDS:\n- {無職|むしょく}: unemployed / without occupation — describes the state of not having a job, without implying job-seeking\n- {求職者|きゅうしょくしゃ}: job seeker — focuses on actively looking for work\n- {失業|しつぎょう}: unemployment — the state itself, not the person\n- {離職者|りしょくしゃ}: person who left their job — includes both voluntary and involuntary separation\n\nREGISTER:\nFormal. Standard in news, economic reports, and policy documents. In casual conversation, people might say {仕事|しごと}がない{人|ひと} or {無職|むしょく}の{人|ひと}.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13386_mushoku",
+      "reading": "むしょく",
+      "headword": "{無職|むしょく}",
+      "label": "unemployed / without occupation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21747_kyuushokusha",
+      "reading": "きゅうしょくしゃ",
+      "headword": "{求職者|きゅうしょくしゃ}",
+      "label": "job seeker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24856_mushokusha",
+      "reading": "むしょくしゃ",
+      "headword": "{無職者|むしょくしゃ}",
+      "label": "unemployed person"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["society", "business"]
+      "semantic": [
+        "society",
+        "business"
+      ]
     },
     "created": "2026-04-05T20:14:03Z",
-    "modified": "2026-06-15T07:56:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

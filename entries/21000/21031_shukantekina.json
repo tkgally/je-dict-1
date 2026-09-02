@@ -17,7 +17,9 @@
       "id": "21031_shukantekina_ex1",
       "japanese": "それは{主観的|しゅかんてき}な{意見|いけん}だ。",
       "english": "That is a subjective opinion.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21031_shukantekina_ex2",
       "japanese": "{主観的|しゅかんてき}な{判断|はんだん}ではなく、データに{基|もと}づいて{考|かんが}えよう。",
       "english": "Let's think based on data rather than subjective judgment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,13 +37,31 @@
       "id": "21031_shukantekina_ex3",
       "japanese": "{味|あじ}の{好|この}みは{主観的|しゅかんてき}なものなので、{正|ただ}しい{答|こた}えはない。",
       "english": "Taste preferences are subjective, so there is no right answer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {主観|しゅかん} (subjectivity, one's personal view) + {的|てき} (suffix making na-adjectives). Frequently contrasted with {客観的|きゃっかんてき}な (objective).\n\nCOMMON COLLOCATIONS:\n- {主観的|しゅかんてき}な{意見|いけん}: subjective opinion\n- {主観的|しゅかんてき}な{判断|はんだん}: subjective judgment\n- {主観的|しゅかんてき}な{印象|いんしょう}: subjective impression\n- {主観的|しゅかんてき}に{見|み}る: to view subjectively\n\nCONTRAST:\n- {主観的|しゅかんてき}な ↔ {客観的|きゃっかんてき}な: subjective vs. objective\n\nSIMILAR WORDS:\n- {個人的|こじんてき}な: personal — emphasizes the individual rather than contrasting with objectivity\n- {感覚的|かんかくてき}な: intuitive, sensory — based on feeling or sensation rather than analysis\n\nUSAGE:\nOften used in academic, journalistic, and business contexts where the distinction between subjective and objective assessment matters. Commonly appears with a slightly negative nuance, implying that an opinion lacks objectivity.",
+  "notes": "Composed of {主観|しゅかん} (subjectivity, one's personal view) + {的|てき} (suffix making na-adjectives). Frequently contrasted with {客観的|きゃっかんてき}な (objective).\n\nCOMMON COLLOCATIONS:\n- {主観的|しゅかんてき}な{意見|いけん}: subjective opinion\n- {主観的|しゅかんてき}な{判断|はんだん}: subjective judgment\n- {主観的|しゅかんてき}な{印象|いんしょう}: subjective impression\n- {主観的|しゅかんてき}に{見|み}る: to view subjectively\n\nSIMILAR WORDS:\n- {主観的|しゅかんてき}な ↔ {客観的|きゃっかんてき}な: subjective vs. objective\n- {個人的|こじんてき}な: personal — emphasizes the individual rather than contrasting with objectivity\n- {感覚的|かんかくてき}な: intuitive, sensory — based on feeling or sensation rather than analysis\n\nUSAGE:\nOften used in academic, journalistic, and business contexts where the distinction between subjective and objective assessment matters. Commonly appears with a slightly negative nuance, implying that an opinion lacks objectivity.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04788_kojinteki",
+      "reading": "こじんてき",
+      "headword": "{個人的|こじんてき}",
+      "label": "personal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05744_kankakuteki",
+      "reading": "かんかくてき",
+      "headword": "{感覚的|かんかくてき}",
+      "label": "intuitive, sensory"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +75,6 @@
       ]
     },
     "created": "2026-03-31T15:30:30Z",
-    "modified": "2026-03-31T15:30:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

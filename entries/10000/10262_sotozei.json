@@ -18,7 +18,9 @@
       "english": "The price is tax-exclusive.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10262_sotozei_ex2",
@@ -26,7 +28,9 @@
       "english": "With tax-exclusive pricing, it's hard to know the actual amount to pay.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10262_sotozei_ex3",
@@ -34,10 +38,12 @@
       "english": "With tax-exclusive display, consumption tax is added at the register.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{外税|そとぜい} means the displayed price does not include {消費税|しょうひぜい} (consumption tax), which is added at checkout. The kanji literally mean 'outside tax.'\n\nCONTRAST:\n- {外税|そとぜい}: tax-exclusive (tax added at register)\n- {内税|うちぜい}: tax-inclusive (displayed price includes tax)\n\nSYNONYMS:\n- {税抜|ぜいぬ}き: tax-excluded (more common in everyday speech)\n- {税別|ぜいべつ}: tax not included (seen on price tags)\n\nJAPAN CONTEXT:\nSince 2021, Japan requires {総額表示|そうがくひょうじ} (total price display including tax) as the primary displayed price. However, {外税|そとぜい} may still appear as supplementary information on price tags.",
+  "notes": "{外税|そとぜい} means the displayed price does not include {消費税|しょうひぜい} (consumption tax), which is added at checkout. The kanji literally mean 'outside tax.'\n\nSIMILAR WORDS:\n- {外税|そとぜい}: tax-exclusive (tax added at register)\n- {内税|うちぜい}: tax-inclusive (displayed price includes tax)\n- {税抜|ぜいぬ}き: tax-excluded (more common in everyday speech)\n- {税別|ぜいべつ}: tax not included (seen on price tags)\n\nJAPAN CONTEXT:\nSince 2021, Japan requires {総額表示|そうがくひょうじ} (total price display including tax) as the primary displayed price. However, {外税|そとぜい} may still appear as supplementary information on price tags.",
   "cross_references": [
     {
       "type": "antonym",
@@ -45,17 +51,28 @@
       "reading": "うちぜい",
       "headword": "{内税|うちぜい}",
       "label": "tax-inclusive price"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28617_zeibetsu",
+      "reading": "ぜいべつ",
+      "headword": "{税別|ぜいべつ}",
+      "label": "tax not included"
     }
   ],
   "metadata": {
     "created": "2026-02-05T15:05:56Z",
-    "modified": "2026-04-24T05:32:11Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business"]
+      "semantic": [
+        "business"
+      ]
     }
   }
 }

@@ -2,7 +2,7 @@
   "id": "02089_soudan",
   "headword": "{相談|そうだん}",
   "reading": "そうだん",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "consultation, discussion",
   "definitions": [
     {
@@ -43,11 +43,40 @@
       ]
     }
   ],
-  "notes": "{相談|そうだん} means consultation or discussion, typically seeking advice or input from others.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {相談|そうだん}する\n\nCOMMON PATTERNS:\n- 〜⟦に→に：00314_ni⟧{相談|そうだん}する: to consult with someone\n- {相談|そうだん}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to give advice, to hear someone out\n- {相談|そうだん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive consultation\n\nCOMMON COMPOUNDS:\n- {相談|そうだん}⟦{相手|あいて}→相手：01677_aite⟧: person to consult with\n- {相談|そうだん}⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧: consultation desk/counter\n- {相談|そうだん}⟦{役|やく}→役：12557_yaku⟧: advisor, consultant\n- ⟦{身の上|みのうえ}→身の上：18599_minoue⟧{相談|そうだん}: personal advice column\n\nUSEFUL EXPRESSION:\nちょっと{相談|そうだん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧んですが... (I have something I'd like to discuss with you...) - polite way to ask for advice.\n\nNUANCE:\n{相談|そうだん} implies two-way discussion, not just asking a question.",
-  "cross_references": [],
+  "notes": "{相談|そうだん} means consultation or discussion, typically seeking advice or input from others.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {相談|そうだん}する\n\nCOMMON PATTERNS:\n- 〜⟦に→に：00314_ni⟧{相談|そうだん}する: to consult with someone\n- {相談|そうだん}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧: to give advice, to hear someone out\n- {相談|そうだん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧: to receive consultation\n\nCOMPOUNDS:\n- {相談|そうだん}⟦{相手|あいて}→相手：01677_aite⟧: person to consult with\n- {相談|そうだん}⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧: consultation desk/counter\n- {相談|そうだん}⟦{役|やく}→役：12557_yaku⟧: advisor, consultant\n- ⟦{身の上|みのうえ}→身の上：18599_minoue⟧{相談|そうだん}: personal advice column\n\nUSEFUL EXPRESSION:\nちょっと{相談|そうだん}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧んですが... (I have something I'd like to discuss with you...) - polite way to ask for advice.\n\nUSAGE:\n{相談|そうだん} implies two-way discussion, not just asking a question.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07155_uchiawase",
+      "reading": "うちあわせ",
+      "headword": "{打|う}ち{合|あ}わせ",
+      "label": "meeting"
+    },
+    {
+      "type": "related",
+      "target_id": "08177_mendan",
+      "reading": "めんだん",
+      "headword": "{面談|めんだん}",
+      "label": "interview"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08658_dokudan",
+      "reading": "どくだん",
+      "headword": "{独断|どくだん}",
+      "label": "arbitrary decision"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17980_mitsudan",
+      "reading": "みつだん",
+      "headword": "{密談|みつだん}",
+      "label": "secret talk"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:52:26Z",
-    "modified": "2026-05-18T14:17:42Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

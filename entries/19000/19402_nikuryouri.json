@@ -17,7 +17,9 @@
       "id": "19402_nikuryouri_ex1",
       "japanese": "{肉料理|にくりょうり}が{好|す}きだ。",
       "english": "I like meat dishes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19402_nikuryouri_ex2",
       "japanese": "このレストランは{肉料理|にくりょうり}で{有名|ゆうめい}だ。",
       "english": "This restaurant is famous for its meat dishes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "19402_nikuryouri_ex3",
       "japanese": "フランスの{肉料理|にくりょうり}には、{赤|あか}ワインがよく{合|あ}うと{言|い}われている。",
       "english": "Red wine is said to go well with French meat dishes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{肉料理|にくりょうり} is a general term for any dish featuring meat as its main ingredient. It covers a wide range of preparations — grilled, stewed, fried, or roasted — regardless of the type of meat used.\n\nCOMMON COLLOCATIONS:\n- {肉料理|にくりょうり}を{作|つく}る: to make a meat dish\n- {肉料理|にくりょうり}に{合|あ}う: to go well with meat dishes\n- {肉料理|にくりょうり}が{得意|とくい}: to be good at cooking meat dishes\n- {肉料理|にくりょうり}{専門店|せんもんてん}: restaurant specializing in meat dishes\n\nSIMILAR COMPOUNDS:\n- {魚料理|さかなりょうり}: fish dishes\n- {野菜料理|やさいりょうり}: vegetable dishes\n- {卵料理|たまごりょうり}: egg dishes\n- {鍋料理|なべりょうり}: hot pot dishes",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24713_sakanaryouri",
+      "reading": "さかなりょうり",
+      "headword": "{魚料理|さかなりょうり}",
+      "label": "fish dish"
+    },
+    {
+      "type": "related",
+      "target_id": "27198_yasairyouri",
+      "reading": "やさいりょうり",
+      "headword": "{野菜料理|やさいりょうり}",
+      "label": "vegetable dish"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-03-25T13:28:10Z",
-    "modified": "2026-03-25T13:28:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

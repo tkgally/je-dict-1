@@ -2,7 +2,7 @@
   "id": "11524_gizou",
   "headword": "{偽造|ぎぞう}",
   "reading": "ぎぞう",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "forgery, counterfeiting",
   "conjugation": {
     "type": "suru",
@@ -141,11 +141,39 @@
       "headword": "{偽物|にせもの}",
       "label": "fake item",
       "target_id": "11521_nisemono"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07943_kaizan",
+      "reading": "かいざん",
+      "headword": "{改竄|かいざん}",
+      "label": "tampering, falsification"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18492_mozou",
+      "reading": "もぞう",
+      "headword": "{模造|もぞう}",
+      "label": "imitation (not always illegal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07628_netsuzou",
+      "reading": "ねつぞう",
+      "headword": "{捏造|ねつぞう}",
+      "label": "fabrication"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25364_mohousuru",
+      "reading": "もほうする",
+      "headword": "{模倣|もほう}する",
+      "label": "to imitate"
     }
   ],
   "metadata": {
     "created": "2026-02-17T02:51:42Z",
-    "modified": "2026-07-01T09:49:53Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

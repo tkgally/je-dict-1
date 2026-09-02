@@ -19,7 +19,9 @@
       "english": "To get a cook's license.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16099_chourishi_ex2",
@@ -27,7 +29,9 @@
       "english": "I work as a licensed cook at a hospital cafeteria.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16099_chourishi_ex3",
@@ -35,21 +39,51 @@
       "english": "After graduating from a culinary school, I got a job at a hotel restaurant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nSpecifically refers to someone who holds the official {調理師|ちょうりし}{免許|めんきょ}, a national qualification in Japan. Not all professional cooks are licensed, but the license is required or preferred for certain positions, especially in schools, hospitals, and public facilities.\n\nCOMMON COLLOCATIONS:\n- {調理師|ちょうりし}{免許|めんきょ} (cook's license)\n- {調理師|ちょうりし}{専門|せんもん}{学校|がっこう} (culinary school)\n- {調理師|ちょうりし}{試験|しけん} (cook's license exam)\n\nSIMILAR WORDS:\n- シェフ: chef — loanword, often implies a head chef or someone at a high-end restaurant\n- {料理人|りょうりにん}: cook, chef — general term without implying certification",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05062_shefu",
+      "reading": "しぇふ",
+      "headword": "シェフ",
+      "label": "chef"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19396_ryourinin",
+      "reading": "りょうりにん",
+      "headword": "{料理人|りょうりにん}",
+      "label": "cook, chef"
+    },
+    {
+      "type": "related",
+      "target_id": "05063_kokku",
+      "reading": "こっく",
+      "headword": "コック",
+      "label": "cook"
+    }
+  ],
   "metadata": {
     "created": "2026-03-09T12:26:18Z",
-    "modified": "2026-03-09T12:26:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "work", "person"]
+      "semantic": [
+        "food",
+        "work",
+        "person"
+      ]
     }
   }
 }

@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Compound of {電磁|でんじ} ('electromagnetic') and {磁石|じしゃく} ('magnet'), lexically {電|でん}({気|き}) + {磁石|じしゃく}. The element {磁石|じしゃく} here keeps its independent reading rather than undergoing sequential voicing.\n\nUSAGE:\n- A standard topic in elementary and middle school science; the classic experiment is winding a wire around a nail or iron rod, passing current through it, and picking up paper clips.\n- Often contrasted with {永久磁石|えいきゅうじしゃく} ('permanent magnet') in physics lessons and textbooks.\n- Appears in many everyday contexts as a component: speakers, door locks, relays, MRI machines, particle accelerators.\n\nCOMMON COLLOCATIONS:\n- {電磁石|でんじしゃく}を{作|つく}る: to make an electromagnet\n- {電磁石|でんじしゃく}の{磁力|じりょく}: the magnetic force of an electromagnet\n- {電磁石|でんじしゃく}に{電流|でんりゅう}を{流|なが}す: to pass current through an electromagnet\n- {強力|きょうりょく}な{電磁石|でんじしゃく}: a powerful electromagnet\n- {電磁石|でんじしゃく}の{原理|げんり}: the principle of the electromagnet\n\nSIMILAR WORDS:\n- {磁石|じしゃく}: magnet — the general term; refers most naturally to permanent magnets.\n- {永久磁石|えいきゅうじしゃく}: permanent magnet — a magnet that retains its magnetism without a current; the standard contrast to {電磁石|でんじしゃく}.\n- {電磁波|でんじは}: electromagnetic wave — related field but refers to waves (light, radio, X-rays), not static fields.\n- コイル: coil — the wound wire that produces the magnetic field in an electromagnet.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25187_eikyuujishaku",
+      "reading": "えいきゅうじしゃく",
+      "headword": "{永久磁石|えいきゅうじしゃく}",
+      "label": "permanent magnet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17900_denjiha",
+      "reading": "でんじは",
+      "headword": "{電磁波|でんじは}",
+      "label": "electromagnetic wave"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27287_koiru",
+      "reading": "こいる",
+      "headword": "コイル",
+      "label": "coil"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +83,6 @@
       ]
     },
     "created": "2026-04-15T06:07:08Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{陰性|いんせい}",
   "reading": "いんせい",
   "romaji": "insei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "negative (medical test result)",
   "definitions": [
     {
@@ -79,8 +79,31 @@
       "notes": null
     }
   ],
-  "notes": "Has two main uses: a medical/scientific term for a negative result, and a personality descriptor meaning passive or introverted. The medical sense became extremely common during the COVID-19 pandemic.\n\nCOMMON COLLOCATIONS:\n- {陰性|いんせい}{反応|はんのう}: negative reaction\n- {陰性|いんせい}{証明|しょうめい}: negative certification\n- {偽|ぎ}{陰性|いんせい}: false negative\n- {陰性|いんせい}な{性格|せいかく}: introverted/negative personality\n\nSIMILAR WORDS:\n- {陽性|ようせい}: positive (test result) — the direct opposite\n- {内向的|ないこうてき}: introverted — more neutral and modern for describing personality\n\nNOTE:\nIn medical contexts, {陰性|いんせい} (negative) is typically good news, while {陽性|ようせい} (positive) means the disease or condition was detected. This can be confusing for learners since \"positive\" and \"negative\" have reversed connotations from everyday English.",
+  "notes": "Has two main uses: a medical/scientific term for a negative result, and a personality descriptor meaning passive or introverted. The medical sense became extremely common during the COVID-19 pandemic.\n\nCOMMON COLLOCATIONS:\n- {陰性|いんせい}{反応|はんのう}: negative reaction\n- {陰性|いんせい}{証明|しょうめい}: negative certification\n- {偽|ぎ}{陰性|いんせい}: false negative\n- {陰性|いんせい}な{性格|せいかく}: introverted/negative personality\n\nSIMILAR WORDS:\n- {陽性|ようせい}: positive (test result) — the direct opposite\n- {内向的|ないこうてき}: introverted — more neutral and modern for describing personality\n\nUSAGE:\nIn medical contexts, {陰性|いんせい} (negative) is typically good news, while {陽性|ようせい} (positive) means the disease or condition was detected. This can be confusing for learners since \"positive\" and \"negative\" have reversed connotations from everyday English.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08458_naikouteki",
+      "reading": "ないこうてき",
+      "headword": "{内向的|ないこうてき}",
+      "label": "introverted"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22406_ryousei",
+      "reading": "りょうせい",
+      "headword": "{良性|りょうせい}",
+      "label": "benign"
+    },
+    {
+      "type": "related",
+      "target_id": "23754_kensakitto",
+      "reading": "けんさきっと",
+      "headword": "{検査|けんさ}キット",
+      "label": "test kit"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -88,11 +111,13 @@
         "noun",
         "adjective-na"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health"
       ]
     },
     "created": "2026-04-07T17:07:52Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

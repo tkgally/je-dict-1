@@ -153,11 +153,26 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{行|おこな}う (carry out X). No intransitive pair.\n\nASPECT: ている indicates ongoing action. {行|おこな}っている = 'is conducting/carrying out.'\n\nCOMMON PATTERNS:\n・⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦を→を：00422_wo⟧{行|おこな}う (hold a meeting)\n・⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦を→を：00422_wo⟧{行|おこな}う (conduct a survey)\n・⟦{実験|じっけん}→実験：03273_jikken⟧⟦を→を：00422_wo⟧{行|おこな}う (conduct an experiment)\n・⟦{儀式|ぎしき}→儀式：00071_gishiki⟧⟦を→を：00422_wo⟧{行|おこな}う (perform a ceremony)\n・⟦{治療|ちりょう}→治療：03503_chiryou⟧⟦を→を：00422_wo⟧{行|おこな}う (administer treatment)\n\nREGISTER: Formal/written. This verb is more formal than ⟦する→する：00392_suru⟧ and is commonly used in:\n・News reports\n・Official documents\n・Academic writing\n・Business contexts\n\nIn casual speech, ⟦する→する：00392_suru⟧ is more natural for most activities. Compare:\n・⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦を→を：00422_wo⟧{行|おこな}う (formal) vs ⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (casual)\n・⟦{実験|じっけん}→実験：03273_jikken⟧⟦を→を：00422_wo⟧{行|おこな}う (formal) vs ⟦{実験|じっけん}→実験：03273_jikken⟧⟦する→する：00392_suru⟧ (casual)\n\nPASSIVE FORM: {行|おこな}われる is very common for describing when events take place.",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{行|おこな}う (carry out X). No intransitive pair.\n\nASPECT: ている indicates ongoing action. {行|おこな}っている = 'is conducting/carrying out.'\n\nCOMMON PATTERNS:\n- ⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦を→を：00422_wo⟧{行|おこな}う (hold a meeting)\n- ⟦{調査|ちょうさ}→調査：03489_chousa⟧⟦を→を：00422_wo⟧{行|おこな}う (conduct a survey)\n- ⟦{実験|じっけん}→実験：03273_jikken⟧⟦を→を：00422_wo⟧{行|おこな}う (conduct an experiment)\n- ⟦{儀式|ぎしき}→儀式：00071_gishiki⟧⟦を→を：00422_wo⟧{行|おこな}う (perform a ceremony)\n- ⟦{治療|ちりょう}→治療：03503_chiryou⟧⟦を→を：00422_wo⟧{行|おこな}う (administer treatment)\n\nREGISTER: Formal/written. This verb is more formal than ⟦する→する：00392_suru⟧ and is commonly used in:\n- News reports\n- Official documents\n- Academic writing\n- Business contexts\n\nIn casual speech, ⟦する→する：00392_suru⟧ is more natural for most activities. Compare:\n- ⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦を→を：00422_wo⟧{行|おこな}う (formal) vs ⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (casual)\n- ⟦{実験|じっけん}→実験：03273_jikken⟧⟦を→を：00422_wo⟧{行|おこな}う (formal) vs ⟦{実験|じっけん}→実験：03273_jikken⟧⟦する→する：00392_suru⟧ (casual)\n\nPASSIVE FORM: {行|おこな}われる is very common for describing when events take place.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10441_kaisaisuru",
+      "reading": "かいさいする",
+      "headword": "{開催|かいさい}する",
+      "label": "to hold, to host (an event)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19634_jisshisuru",
+      "reading": "じっしする",
+      "headword": "{実施|じっし}する",
+      "label": "to implement"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T10:07:55Z",
-    "modified": "2026-05-14T19:03:46Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

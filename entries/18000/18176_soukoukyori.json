@@ -19,7 +19,9 @@
       "english": "This car has 50,000 kilometers on it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18176_soukoukyori_ex2",
@@ -27,7 +29,9 @@
       "english": "I'm looking for a used car with low mileage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18176_soukoukyori_ex3",
@@ -35,21 +39,35 @@
       "english": "Once the mileage exceeds 100,000 kilometers, parts often need to be replaced.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOne of the first things checked when buying a used car in Japan. Also relevant for lease agreements, vehicle inspections ({車検|しゃけん}), and electric vehicle range discussions. Japan uses kilometers, not miles.\n\nCOMMON COLLOCATIONS:\n- {走行距離|そうこうきょり}が{長|なが}い / {短|みじか}い (high / low mileage)\n- {走行距離|そうこうきょり}が{少|すく}ない (low mileage)\n- {総|そう}{走行距離|そうこうきょり} (total distance traveled)\n- {年間|ねんかん}{走行距離|そうこうきょり} (annual mileage)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26160_idoukyori",
+      "reading": "いどうきょり",
+      "headword": "{移動距離|いどうきょり}",
+      "label": "travel distance"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T09:00:46Z",
-    "modified": "2026-03-20T09:00:46Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     }
   }
 }

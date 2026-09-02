@@ -3,7 +3,7 @@
   "headword": "{急上昇|きゅうじょうしょう}",
   "reading": "きゅうじょうしょう",
   "romaji": "kyuujoushou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sudden rise; sharp increase",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "A compound of {急|きゅう} (sudden, rapid) and {上昇|じょうしょう} (rise, ascent). Functions as both a noun and a suru verb ({急上昇|きゅうじょうしょう}する). Very common in news, financial reports, and weather discussions.\n\nCOMMON COLLOCATIONS:\n- {株価|かぶか}の{急上昇|きゅうじょうしょう}: sharp rise in stock prices\n- {気温|きおん}の{急上昇|きゅうじょうしょう}: rapid temperature rise\n- {急上昇|きゅうじょうしょう}ワード: trending search term\n- {急上昇|きゅうじょうしょう}ランキング: trending ranking\n\nSIMILAR WORDS:\n- {急騰|きゅうとう}: sharp surge — used specifically for prices, especially stocks and commodities\n- {急増|きゅうぞう}: rapid increase — used for quantities and numbers\n- {急降下|きゅうこうか}: sharp drop — the opposite, a sudden decline",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09398_kyuutou",
+      "reading": "きゅうとう",
+      "headword": "{急騰|きゅうとう}",
+      "label": "sharp surge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12671_kyuuzou",
+      "reading": "きゅうぞう",
+      "headword": "{急増|きゅうぞう}",
+      "label": "rapid increase"
+    },
+    {
+      "type": "antonym",
+      "target_id": "25672_kyuukouka",
+      "reading": "きゅうこうか",
+      "headword": "{急降下|きゅうこうか}",
+      "label": "sharp drop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22635_kyuufujou",
+      "reading": "きゅうふじょう",
+      "headword": "{急浮上|きゅうふじょう}",
+      "label": "sudden emergence"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +94,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-26T15:14:35Z",
-    "modified": "2026-06-15T07:57:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

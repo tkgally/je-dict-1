@@ -17,7 +17,9 @@
       "id": "26027_naiyoubutsu_ex1",
       "japanese": "{内容物|ないようぶつ}を{確認|かくにん}してください。",
       "english": "Please check the contents.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26027_naiyoubutsu_ex2",
       "japanese": "{荷物|にもつ}の{内容物|ないようぶつ}を{申告|しんこく}する{必要|ひつよう}がある。",
       "english": "You need to declare the contents of the package.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,36 @@
       "id": "26027_naiyoubutsu_ex3",
       "japanese": "{内容物|ないようぶつ}が{破損|はそん}しないよう{丁寧|ていねい}に{梱包|こんぽう}した。",
       "english": "I packed it carefully so that the contents wouldn't be damaged.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {内容|ないよう} (contents; content) + {物|ぶつ} (thing; object). While {内容|ないよう} can refer to abstract content (of a book, speech, etc.), {内容物|ないようぶつ} specifically refers to physical items inside a container. Frequently seen on shipping labels, customs forms, and product packaging.\n\nCOMMON COLLOCATIONS:\n- {内容物|ないようぶつ}を{確認|かくにん}する: to check the contents\n- {内容物|ないようぶつ}の{申告|しんこく}: declaration of contents\n- {内容物|ないようぶつ}の{破損|はそん}: damage to contents\n- {胃|い}の{内容物|ないようぶつ}: stomach contents (medical)\n\nSIMILAR WORDS:\n- {内容|ないよう}: contents; substance — broader term that also covers abstract content\n- {中身|なかみ}: contents; what's inside — the everyday, casual equivalent\n- {同梱物|どうこんぶつ}: items included (in a package) — specifically about bundled items",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01483_nakami",
+      "reading": "なかみ",
+      "headword": "{中身|なかみ}",
+      "label": "contents"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "daily-life"
+      ]
     },
     "created": "2026-04-28T16:16:17Z",
-    "modified": "2026-04-28T16:16:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

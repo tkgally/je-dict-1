@@ -19,7 +19,9 @@
       "english": "Cooking classes are held at the community center.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18183_kouminkan_ex2",
@@ -27,7 +29,9 @@
       "english": "Neighborhood association meetings are held at the community center.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18183_kouminkan_ex3",
@@ -35,7 +39,9 @@
       "english": "The local community center plans monthly events that everyone from children to the elderly can participate in.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA fixture of Japanese community life. Nearly every neighborhood has one. They host a wide range of activities: cultural classes (calligraphy, flower arranging), exercise groups, children's events, disaster drills, and local government meetings. During disasters, they often serve as evacuation shelters.\n\nCOMMON COLLOCATIONS:\n- {公民館|こうみんかん}{活動|かつどう} (community center activities)\n- {公民館|こうみんかん}の{講座|こうざ} (classes at the community center)\n- {地区|ちく}{公民館|こうみんかん} (district community center)\n\nSIMILAR WORDS:\n- {集会所|しゅうかいじょ}: meeting hall — smaller, often privately owned by a neighborhood\n- コミュニティセンター: community center — the loanword, sometimes used for newer facilities",
@@ -46,18 +52,50 @@
       "reading": "しゅうかいじょ",
       "headword": "{集会所|しゅうかいじょ}",
       "label": "meeting hall"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04119_kaikan",
+      "reading": "かいかん",
+      "headword": "{会館|かいかん}",
+      "label": "meeting hall, assembly hall"
+    },
+    {
+      "type": "related",
+      "target_id": "09907_shougaigakushuu",
+      "reading": "しょうがいがくしゅう",
+      "headword": "{生涯学習|しょうがいがくしゅう}",
+      "label": "lifelong learning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27103_jidoukan",
+      "reading": "じどうかん",
+      "headword": "{児童館|じどうかん}",
+      "label": "children's center"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30140_shuukaijou",
+      "reading": "しゅうかいじょう",
+      "headword": "{集会場|しゅうかいじょう}",
+      "label": "assembly hall"
     }
   ],
   "metadata": {
     "created": "2026-03-20T09:03:49Z",
-    "modified": "2026-05-08T07:08:06Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

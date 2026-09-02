@@ -44,8 +44,23 @@
       "notes": null
     }
   ],
-  "notes": "Refers to speech that lacks substance or seriousness. The tone can range from lighthearted jest to dismissive contempt depending on context. When used about one's own words, it can function as self-deprecating modesty; when directed at others, it can be quite sharp.\n\nREADINGS:\nThis word has multiple readings that carry different nuances:\n- ざれごと: the most common reading in modern usage, slightly literary\n- たわごと: also very common, tends to emphasize foolishness or absurdity\n- ぎげん: a rare Sino-Japanese reading, mostly seen in older texts\n\nCOMMON COLLOCATIONS:\n- {戯言|ざれごと}を{言|い}う: to talk nonsense\n- {戯言|ざれごと}を{並|なら}べる: to reel off nonsense\n- {戯言|ざれごと}にすぎない: to be nothing but idle talk\n\nSIMILAR WORDS:\n- たわごと: nonsense — same kanji ({戯言|たわごと}), emphasizes silliness and absurdity more strongly\n- {冗談|じょうだん}: joke — lighter and more playful, less dismissive\n- {馬鹿|ばか}げた{話|はなし}: ridiculous talk — blunter and more direct",
-  "cross_references": [],
+  "notes": "Refers to speech that lacks substance or seriousness. The tone can range from lighthearted jest to dismissive contempt depending on context. When used about one's own words, it can function as self-deprecating modesty; when directed at others, it can be quite sharp.\n\nPRONUNCIATION:\nThis word has multiple readings that carry different nuances:\n- ざれごと: the most common reading in modern usage, slightly literary\n- たわごと: also very common, tends to emphasize foolishness or absurdity\n- ぎげん: a rare Sino-Japanese reading, mostly seen in older texts\n\nCOMMON COLLOCATIONS:\n- {戯言|ざれごと}を{言|い}う: to talk nonsense\n- {戯言|ざれごと}を{並|なら}べる: to reel off nonsense\n- {戯言|ざれごと}にすぎない: to be nothing but idle talk\n\nSIMILAR WORDS:\n- たわごと: nonsense — same kanji ({戯言|たわごと}), emphasizes silliness and absurdity more strongly\n- {冗談|じょうだん}: joke — lighter and more playful, less dismissive\n- {馬鹿|ばか}げた{話|はなし}: ridiculous talk — blunter and more direct",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07394_tawagoto",
+      "reading": "たわごと",
+      "headword": "たわ{言|ごと}",
+      "label": "nonsense"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03347_joudan",
+      "reading": "じょうだん",
+      "headword": "{冗談|じょうだん}",
+      "label": "joke"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +76,6 @@
       "domain": []
     },
     "created": "2026-05-06T11:06:24Z",
-    "modified": "2026-05-06T11:06:24Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

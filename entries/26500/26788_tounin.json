@@ -17,7 +17,9 @@
       "id": "26788_tounin_ex1",
       "japanese": "{当人|とうにん}はまだ{知|し}らない。",
       "english": "The person in question doesn't know yet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26788_tounin_ex2",
       "japanese": "{周|まわ}りが{心配|しんぱい}しているが、{当人|とうにん}は{気|き}にしていない。",
       "english": "Everyone around is worried, but the person himself doesn't care.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,52 @@
       "id": "26788_tounin_ex3",
       "japanese": "{最終的|さいしゅうてき}には{当人|とうにん}の{意思|いし}を{尊重|そんちょう}すべきだ。",
       "english": "Ultimately, we should respect the person's own wishes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers specifically to the person being discussed, often to contrast their perspective or state with that of others around them. Frequently used when the person themselves has a different view or is unaware of what others think about them.\n\nCOMMON COLLOCATIONS:\n- {当人|とうにん}の{意思|いし}: the person's own will\n- {当人|とうにん}{同士|どうし}: between the parties themselves\n- {当人|とうにん}に{確認|かくにん}する: to confirm with the person in question\n- {当人|とうにん}は{知|し}らない: the person themselves doesn't know\n\nSIMILAR WORDS:\n- {本人|ほんにん}: the person themselves — more common in everyday speech; often used for identity verification\n- {当事者|とうじしゃ}: party concerned; stakeholder — more formal; implies involvement in a legal or official matter\n- {該当者|がいとうしゃ}: the applicable person — bureaucratic; used in forms and regulations",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03627_honnin",
+      "reading": "ほんにん",
+      "headword": "{本人|ほんにん}",
+      "label": "the person themselves"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12504_toujisha",
+      "reading": "とうじしゃ",
+      "headword": "{当事者|とうじしゃ}",
+      "label": "party concerned"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25119_gaitousha",
+      "reading": "がいとうしゃ",
+      "headword": "{該当者|がいとうしゃ}",
+      "label": "the applicable person"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-05T11:07:48Z",
-    "modified": "2026-05-05T11:07:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

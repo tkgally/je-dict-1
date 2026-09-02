@@ -3,7 +3,7 @@
   "headword": "{甘|あま}んじる",
   "reading": "あまんじる",
   "romaji": "amanjiru",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to accept; to resign oneself to; to content oneself with",
   "definitions": [
     {
@@ -80,7 +80,29 @@
     }
   ],
   "notes": "Derived from {甘|あま}い (sweet, lenient). The verb conveys the idea of passively accepting something, as though yielding to sweetness or leniency. Most commonly appears in the pattern ～に{甘|あま}んじる. The older form {甘|あま}んずる also exists but is rare in modern usage.\n\nCOMMON COLLOCATIONS:\n- {罰|ばつ}に{甘|あま}んじる: to accept punishment\n- {現状|げんじょう}に{甘|あま}んじる: to settle for the status quo\n- {敗北|はいぼく}に{甘|あま}んじる: to accept defeat\n- {批判|ひはん}に{甘|あま}んじる: to accept criticism\n- ～に{甘|あま}んじてはいけない: must not settle for ~\n\nSIMILAR WORDS:\n- {受|う}け{入|い}れる: to accept — neutral; simply means to accept without the nuance of resignation\n- {我慢|がまん}する: to endure, put up with — emphasizes tolerating something unpleasant through willpower\n- {諦|あきら}める: to give up — focuses on abandoning hope, while {甘|あま}んじる focuses on accepting a lesser outcome",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05755_ukeireru",
+      "reading": "うけいれる",
+      "headword": "{受|う}け{入|い}れる",
+      "label": "to accept"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25343_gamansuru",
+      "reading": "がまんする",
+      "headword": "{我慢|がまん}する",
+      "label": "to endure, put up with"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01813_akirameru",
+      "reading": "あきらめる",
+      "headword": "{諦|あきら}める",
+      "label": "to give up"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -97,7 +119,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-05-06T12:19:04Z",
-    "modified": "2026-05-06T12:19:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

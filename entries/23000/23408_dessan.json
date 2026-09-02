@@ -3,7 +3,7 @@
   "headword": "デッサン",
   "reading": "でっさん",
   "romaji": "dessan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "(pencil or charcoal) drawing; sketch; dessin",
   "definitions": [
     {
@@ -56,6 +56,43 @@
   ],
   "notes": "Borrowed from French 'dessin' (drawing). In Japanese the word is restricted to the academic, technical sense of a study drawing — typically a monochrome rendering done as training in observation, form, and shading. It does not cover casual doodles or finished colour artworks.\n\nUSAGE:\nデッサン is the standard term in Japanese art education. Students at art high schools, art universities ({美術大学|びじゅつだいがく}), and prep schools ({美術予備校|びじゅつよびこう}) spend long hours doing デッサン of plaster busts ({石膏像|せっこうぞう}), still lifes, and live models. It is also widely used in beginner manga and illustration tutorials.\n\nUsed both as a plain noun and as a する-verb: デッサンする 'to do a drawing study'.\n\nCOMMON COLLOCATIONS:\n- デッサンを{描|か}く: to draw a study\n- デッサンする: to do a drawing study (as a verb)\n- デッサンの{練習|れんしゅう}: drawing practice\n- デッサンの{基礎|きそ}: the basics of drawing\n- {人物|じんぶつ}デッサン: figure drawing\n- {石膏|せっこう}デッサン: drawing from a plaster cast\n- {裸婦|らふ}デッサン: nude drawing\n- {鉛筆|えんぴつ}デッサン: pencil drawing\n- {木炭|もくたん}デッサン: charcoal drawing\n- デッサン{力|りょく}: drawing skill, the ability to render form accurately\n- デッサンが{狂|くる}う: for the proportions/anatomy of a drawing to look off\n\nSIMILAR WORDS:\n- {素描|そびょう}: sketch, drawing study — a literary native equivalent of デッサン, less common in everyday speech.\n- {下絵|したえ}: rough sketch, preparatory drawing — refers to a preliminary draft for a finished painting or print.\n- スケッチ: sketch — borrowed from English; usually a quicker, looser drawing, often done outdoors or from life as a study or memo, without the rigorous focus on form and shading associated with デッサン.\n- {落書|らくが}き: doodle, scribble — casual, unstudied drawing; the opposite of the disciplined practice implied by デッサン.\n- {絵|え}: picture, drawing, painting — the general native word for any kind of two-dimensional artwork.\n\nCULTURAL NOTE:\nIn the Japanese fine-arts tradition, デッサン is considered the essential foundation of all visual art training. Aspiring art students in Japan often spend years in dedicated prep schools ({美術予備校|びじゅつよびこう}) practicing デッサン before they can pass the entrance exams of leading institutions like the Tokyo University of the Arts.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24164_sobyou",
+      "reading": "そびょう",
+      "headword": "{素描|そびょう}",
+      "label": "sketch, drawing study"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22554_sukecchi",
+      "reading": "すけっち",
+      "headword": "スケッチ",
+      "label": "sketch"
+    },
+    {
+      "type": "antonym",
+      "target_id": "14043_rakugaki",
+      "reading": "らくがき",
+      "headword": "{落書|らくが}き",
+      "label": "doodle, scribble"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02613_e",
+      "reading": "え",
+      "headword": "{絵|え}",
+      "label": "picture, drawing, painting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04196_shasei",
+      "reading": "しゃせい",
+      "headword": "{写生|しゃせい}",
+      "label": "sketching, drawing from life"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -76,7 +113,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-12T01:47:50Z",
-    "modified": "2026-04-12T01:47:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

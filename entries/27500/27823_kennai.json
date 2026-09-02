@@ -17,7 +17,9 @@
       "id": "27823_kennai_ex1",
       "japanese": "{県内|けんない}に{住|す}んでいる。",
       "english": "I live within the prefecture.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27823_kennai_ex2",
       "japanese": "その{大学|だいがく}は{県内|けんない}で{一番|いちばん}{有名|ゆうめい}だ。",
       "english": "That university is the most famous in the prefecture.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,39 @@
       "id": "27823_kennai_ex3",
       "japanese": "{県内|けんない}の{各地域|かくちいき}から{代表選手|だいひょうせんしゅ}が{集|あつ}まって{大会|たいかい}が{開|ひら}かれた。",
       "english": "Representative athletes gathered from every area within the prefecture for the tournament.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers to the area inside a prefecture's borders. Frequently used as a noun modifier with の, as in {県内|けんない}の{学校|がっこう} (schools in the prefecture).\n\nCOMMON COLLOCATIONS:\n- {県内|けんない}{各地|かくち}: various places throughout the prefecture\n- {県内|けんない}{出身|しゅっしん}: from within the prefecture\n- {県内|けんない}{屈指|くっし}: among the best in the prefecture\n\nSIMILAR WORDS:\n- {県外|けんがい}: outside the prefecture — the direct antonym\n- {市内|しない}: within the city — the equivalent at the municipal level",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20934_shinai",
+      "reading": "しない",
+      "headword": "{市内|しない}",
+      "label": "within the city"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["geography", "society"],
+      "politeness": "plain",
+      "semantic": [
+        "geography",
+        "society"
+      ],
       "domain": []
     },
     "created": "2026-05-19T04:03:25Z",
-    "modified": "2026-05-19T04:03:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

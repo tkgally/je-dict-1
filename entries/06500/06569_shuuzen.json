@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{修|しゅう} (repair, fix) + {繕|ぜん} (mend, patch)\n\nVERB FORM:\n・{修繕|しゅうぜん}⟦する→する：00392_suru⟧ (to repair, mend)\n\nCONTRAST WITH SIMILAR TERMS:\n・{修繕|しゅうぜん} - restoration to original condition, often for buildings\n・⟦{修理|しゅうり}→修理：03214_shuuri⟧ - general repair, often for machines/appliances\n・⟦{補修|ほしゅう}→補修：15054_hoshuu⟧ - patching, minor repairs\n・⟦リフォーム→リフォーム：08821_rifoomu⟧ - renovation (improvements beyond original state)\n\nCONDOMINIUM CONTEXT:\n⟦{大規模|だいきぼ}→大規模：12185_daikibo⟧{修繕|しゅうぜん} (major repairs) is an important concept for Japanese condominiums:\n・{修繕|しゅうぜん}⟦{積立金|つみたてきん}→積立金：28915_tsumitatekin⟧ (repair reserve fund)\n・⟦{長期|ちょうき}→長期：03487_chouki⟧{修繕|しゅうぜん}⟦{計画|けいかく}→計画：01172_keikaku⟧ (long-term repair plan)\n・⟦{外壁|がいへき}→外壁：06426_gaiheki⟧{修繕|しゅうぜん} (exterior wall repairs)\n\nCOMMON COLLOCATIONS:\n・{修繕|しゅうぜん}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧ (repair is necessary)\n・{修繕|しゅうぜん}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧ (to carry out repairs)\n・{修繕|しゅうぜん}⟦{工事|こうじ}→工事：00244_kouji⟧ (repair work)\n・{修繕|しゅうぜん}⟦{費用|ひよう}→費用：03588_hiyou⟧/{修繕|しゅうぜん}⟦{費|ひ}→費：09877_hi⟧ (repair costs)",
+  "notes": "ETYMOLOGY:\n{修|しゅう} (repair, fix) + {繕|ぜん} (mend, patch)\n\nFORMS:\n- {修繕|しゅうぜん}⟦する→する：00392_suru⟧ (to repair, mend)\n\nCONTRAST WITH SIMILAR TERMS:\n- {修繕|しゅうぜん} - restoration to original condition, often for buildings\n- ⟦{修理|しゅうり}→修理：03214_shuuri⟧ - general repair, often for machines/appliances\n- ⟦{補修|ほしゅう}→補修：15054_hoshuu⟧ - patching, minor repairs\n- ⟦リフォーム→リフォーム：08821_rifoomu⟧ - renovation (improvements beyond original state)\n\nCONDOMINIUM CONTEXT:\n⟦{大規模|だいきぼ}→大規模：12185_daikibo⟧{修繕|しゅうぜん} (major repairs) is an important concept for Japanese condominiums:\n- {修繕|しゅうぜん}⟦{積立金|つみたてきん}→積立金：28915_tsumitatekin⟧ (repair reserve fund)\n- ⟦{長期|ちょうき}→長期：03487_chouki⟧{修繕|しゅうぜん}⟦{計画|けいかく}→計画：01172_keikaku⟧ (long-term repair plan)\n- ⟦{外壁|がいへき}→外壁：06426_gaiheki⟧{修繕|しゅうぜん} (exterior wall repairs)\n\nCOMMON COLLOCATIONS:\n- {修繕|しゅうぜん}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧ (repair is necessary)\n- {修繕|しゅうぜん}⟦を→を：00422_wo⟧⟦{行|おこな}う→行う：01238_okonau⟧ (to carry out repairs)\n- {修繕|しゅうぜん}⟦{工事|こうじ}→工事：00244_kouji⟧ (repair work)\n- {修繕|しゅうぜん}⟦{費用|ひよう}→費用：03588_hiyou⟧/{修繕|しゅうぜん}⟦{費|ひ}→費：09877_hi⟧ (repair costs)",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,46 @@
       "headword": "{修理|しゅうり}",
       "label": "repair",
       "target_id": "03214_shuuri"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15054_hoshuu",
+      "reading": "ほしゅう",
+      "headword": "{補修|ほしゅう}",
+      "label": "patching, minor repairs"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08821_rifoomu",
+      "reading": "りふぉーむ",
+      "headword": "リフォーム",
+      "label": "renovation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06224_kaichiku",
+      "reading": "かいちく",
+      "headword": "{改築|かいちく}",
+      "label": "renovation"
+    },
+    {
+      "type": "related",
+      "target_id": "07935_amamori",
+      "reading": "あまもり",
+      "headword": "{雨漏|あまも}り",
+      "label": "roof leak"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19739_tatekae",
+      "reading": "たてかえ",
+      "headword": "{建|た}て{替|か}え",
+      "label": "rebuilding"
     }
   ],
   "metadata": {
     "created": "2026-01-18T00:34:57Z",
-    "modified": "2026-07-21T12:22:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

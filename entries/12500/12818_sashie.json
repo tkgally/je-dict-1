@@ -19,7 +19,9 @@
       "english": "It's a picture book with beautiful illustrations.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12818_sashie_ex2",
@@ -27,7 +29,9 @@
       "english": "The illustrations for this novel were drawn by a famous artist.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12818_sashie_ex3",
@@ -35,21 +39,42 @@
       "english": "With illustrations, one can visualize the scenes of the story more vividly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{挿絵|さしえ} specifically refers to illustrations within a text — not standalone artwork. It is distinct from {絵|え} (picture in general) and イラスト (illustration in the modern/commercial sense). {挿絵|さしえ} has a somewhat literary or traditional feel and is commonly used for book illustrations.\n\nCOMMON COLLOCATIONS:\n- {挿絵|さしえ}を{描|えが}く: to draw illustrations\n- {挿絵|さしえ}{入|い}り: illustrated (with illustrations)\n- {挿絵|さしえ}{画家|がか}: illustrator (for books)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24645_zuhan",
+      "reading": "ずはん",
+      "headword": "{図版|ずはん}",
+      "label": "illustration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24649_tobirae",
+      "reading": "とびらえ",
+      "headword": "{扉絵|とびらえ}",
+      "label": "frontispiece"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T11:09:14Z",
-    "modified": "2026-02-22T11:09:14Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     }
   }
 }

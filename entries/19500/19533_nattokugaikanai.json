@@ -17,7 +17,9 @@
       "id": "19533_nattokugaikanai_ex1",
       "japanese": "この{結果|けっか}には{納得|なっとく}がいかない。",
       "english": "I can't accept this result.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19533_nattokugaikanai_ex2",
       "japanese": "{説明|せつめい}を{聞|き}いても{納得|なっとく}がいかなかった。",
       "english": "Even after hearing the explanation, I wasn't convinced.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "19533_nattokugaikanai_ex3",
       "japanese": "{自分|じぶん}だけ{残業|ざんぎょう}させられるのは{納得|なっとく}がいかないので、{上司|じょうし}に{相談|そうだん}した。",
       "english": "I couldn't accept being the only one made to work overtime, so I talked to my boss about it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {納得|なっとく} (understanding, acceptance) + がいかない (doesn't come/work). A very common expression for voicing dissatisfaction or disagreement, especially when one feels something is unfair or unreasonable.\n\nVARIANTS:\n- {納得|なっとく}がいく — the affirmative form: to be convinced, to find acceptable\n- {納得|なっとく}いかない — shortened form without が, common in casual speech\n- {納得|なっとく}できない — similar meaning using できる\n\nCOMMON PATTERNS:\n- ～には{納得|なっとく}がいかない — can't accept (something specific)\n- どうしても{納得|なっとく}がいかない — absolutely can't accept it\n- {納得|なっとく}のいく{説明|せつめい} — a convincing explanation\n\nSIMILAR WORDS:\n- {不満|ふまん} — dissatisfaction; a state/feeling, while {納得|なっとく}がいかない is about rational disagreement\n- {腑|ふ}に{落|お}ちない — something doesn't sit right; more about intuitive unease\n- {承知|しょうち}できない — cannot agree; more formal",
+  "notes": "Composed of {納得|なっとく} (understanding, acceptance) + がいかない (doesn't come/work). A very common expression for voicing dissatisfaction or disagreement, especially when one feels something is unfair or unreasonable.\n\nFORMS:\n- {納得|なっとく}がいく — the affirmative form: to be convinced, to find acceptable\n- {納得|なっとく}いかない — shortened form without が, common in casual speech\n- {納得|なっとく}できない — similar meaning using できる\n\nCOMMON PATTERNS:\n- ～には{納得|なっとく}がいかない — can't accept (something specific)\n- どうしても{納得|なっとく}がいかない — absolutely can't accept it\n- {納得|なっとく}のいく{説明|せつめい} — a convincing explanation\n\nSIMILAR WORDS:\n- {不満|ふまん} — dissatisfaction; a state/feeling, while {納得|なっとく}がいかない is about rational disagreement\n- {腑|ふ}に{落|お}ちない — something doesn't sit right; more about intuitive unease\n- {承知|しょうち}できない — cannot agree; more formal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02497_fuman",
+      "reading": "ふまん",
+      "headword": "{不満|ふまん}",
+      "label": "dissatisfaction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25853_funiochinai",
+      "reading": "ふにおちない",
+      "headword": "{腑|ふ}に{落|お}ちない",
+      "label": "something doesn't sit right"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion", "communication"]
+      "semantic": [
+        "emotion",
+        "communication"
+      ]
     },
     "created": "2026-03-26T04:19:24Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

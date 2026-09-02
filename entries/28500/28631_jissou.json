@@ -3,7 +3,7 @@
   "headword": "{実装|じっそう}",
   "reading": "じっそう",
   "romaji": "jissou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "implementation; mounting; equipping",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Core term in software engineering for actually building functionality, as opposed to just designing or specifying it.\n\nCOMMON COLLOCATIONS:\n- {機能|きのう}を{実装|じっそう}する: to implement a feature\n- {実装|じっそう}{方法|ほうほう}: implementation method\n- {実装|じっそう}される: to be implemented\n- {実装|じっそう}{済|ず}み: already implemented\n\nSIMILAR WORDS:\n- {開発|かいはつ}: development — broader; includes design, coding, and testing\n- {搭載|とうさい}: equipping; loading — used more for hardware features built into a product",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06746_kaihatsu",
+      "reading": "かいはつ",
+      "headword": "{開発|かいはつ}",
+      "label": "development"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12789_tousai",
+      "reading": "とうさい",
+      "headword": "{搭載|とうさい}",
+      "label": "equipping"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "technology"
       ],
@@ -64,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-06-03T03:07:12Z",
-    "modified": "2026-06-03T03:07:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

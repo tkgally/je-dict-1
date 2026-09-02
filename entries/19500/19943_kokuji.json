@@ -3,7 +3,7 @@
   "headword": "{酷似|こくじ}",
   "reading": "こくじ",
   "romaji": "kokuji",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "striking resemblance; close resemblance",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,36 @@
   ],
   "notes": "Stronger than {似|に}ている (to resemble). {酷|こく} here intensifies the meaning — the resemblance is so close it is almost indistinguishable. Often used in news, police reports, and product comparisons.\n\nCOMMON COLLOCATIONS:\n- {酷似|こくじ}している: to bear a striking resemblance\n- {酷似|こくじ}した{商品|しょうひん}: a near-identical product\n- {容姿|ようし}が{酷似|こくじ}: strikingly similar in appearance\n\nSIMILAR WORDS:\n- {類似|るいじ}: similarity — more neutral, less extreme\n- そっくり: spitting image — colloquial, often for people\n- {瓜二|うりふた}つ: like two peas in a pod — idiomatic, for people",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14672_ruiji",
+      "reading": "るいじ",
+      "headword": "{類似|るいじ}",
+      "label": "similarity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19320_urifutatsu",
+      "reading": "うりふたつ",
+      "headword": "{瓜|うり}{二|ふた}つ",
+      "label": "like two peas in a pod"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23057_souji",
+      "reading": "そうじ",
+      "headword": "{相似|そうじ}",
+      "label": "similarity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25547_ruijisuru",
+      "reading": "るいじする",
+      "headword": "{類似|るいじ}する",
+      "label": "to resemble"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -154,6 +184,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-27T06:09:33Z",
-    "modified": "2026-07-27T12:46:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

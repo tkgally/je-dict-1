@@ -2,7 +2,7 @@
   "id": "04648_okiagaru",
   "headword": "{起|お}き{上|あ}がる",
   "reading": "おきあがる",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to get up, to rise, to sit up",
   "conjugation": {
     "type": "godan",
@@ -273,11 +273,19 @@
       ]
     }
   ],
-  "notes": "{起|お}き{上|あ}がる is an intransitive verb (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧) meaning to get up or rise.\n\nCOMPOUND STRUCTURE:\n- ⟦{起|お}きる→起きる：00521_okiru⟧ (to get up) + ⟦{上|あ}がる→上がる：00615_agaru⟧ (to rise) → to rise up\n\nASPECT (ている):\n{起|お}き{上|あ}がっている indicates a state of being up (having risen).\n\nCOMMON PATTERNS:\n- ⟦ベッド→ベッド：04501_beddo⟧から{起|お}き{上|あ}がる (get up from bed)\n- ⟦{倒|たお}れても→倒れる：01160_taoreru⟧{起|お}き{上|あ}がる (get back up even when knocked down)\n- ⟦ゆっくり→ゆっくり：00910_yukkuri⟧{起|お}き{上|あ}がる (slowly get up)\n\nRELATED EXPRESSION:\n- {起|お}き{上|あ}がりこぼし: a roly-poly toy (tumbler doll that always rights itself)\n\nSIMILAR WORDS:\n- ⟦{起|お}きる→起きる：00521_okiru⟧: to wake up, to get up (more general)\n- {起|お}き{上|あ}がる emphasizes the physical motion of rising",
-  "cross_references": [],
+  "notes": "{起|お}き{上|あ}がる is an intransitive verb (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧) meaning to get up or rise.\n\nETYMOLOGY:\n- ⟦{起|お}きる→起きる：00521_okiru⟧ (to get up) + ⟦{上|あ}がる→上がる：00615_agaru⟧ (to rise) → to rise up\n\nASPECT (ている):\n{起|お}き{上|あ}がっている indicates a state of being up (having risen).\n\nCOMMON PATTERNS:\n- ⟦ベッド→ベッド：04501_beddo⟧から{起|お}き{上|あ}がる (get up from bed)\n- ⟦{倒|たお}れても→倒れる：01160_taoreru⟧{起|お}き{上|あ}がる (get back up even when knocked down)\n- ⟦ゆっくり→ゆっくり：00910_yukkuri⟧{起|お}き{上|あ}がる (slowly get up)\n\nRELATED WORDS:\n- {起|お}き{上|あ}がりこぼし: a roly-poly toy (tumbler doll that always rights itself)\n\nSIMILAR WORDS:\n- ⟦{起|お}きる→起きる：00521_okiru⟧: to wake up, to get up (more general)\n- {起|お}き{上|あ}がる emphasizes the physical motion of rising",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00521_okiru",
+      "reading": "おきる",
+      "headword": "{起|お}きる",
+      "label": "to wake up, to get up"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T03:52:00Z",
-    "modified": "2026-06-10T17:34:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

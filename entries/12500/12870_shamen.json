@@ -19,7 +19,9 @@
       "english": "I climbed a steep slope.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12870_shamen_ex2",
@@ -27,7 +29,9 @@
       "english": "I skied down the snowy slope.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12870_shamen_ex3",
@@ -35,21 +39,42 @@
       "english": "The slope collapsed due to heavy rain, and the road was closed to traffic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA factual, somewhat technical term commonly used in geography, construction, disaster reporting, and skiing contexts. Frequently modified by {急|きゅう}な (steep) or {緩|ゆる}やかな (gentle).\n\nCOMMON COLLOCATIONS:\n- {急|きゅう}な{斜面|しゃめん}: steep slope\n- {緩|ゆる}やかな{斜面|しゃめん}: gentle slope\n- {斜面|しゃめん}が{崩|くず}れる: the slope collapses (landslide)\n- {斜面|しゃめん}を{登|のぼ}る: to climb a slope\n\nSIMILAR WORDS:\n- {坂|さか}: hill, slope (everyday word, usually refers to roads)\n- {傾斜|けいしゃ}: inclination, gradient (more technical/abstract)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01415_saka",
+      "reading": "さか",
+      "headword": "{坂|さか}",
+      "label": "hill, slope"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05447_keisha",
+      "reading": "けいしゃ",
+      "headword": "{傾斜|けいしゃ}",
+      "label": "inclination, gradient"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T12:42:11Z",
-    "modified": "2026-02-22T12:42:11Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

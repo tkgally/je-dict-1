@@ -2,7 +2,7 @@
   "id": "24772_sankai",
   "headword": "{散会|さんかい}",
   "reading": "さんかい",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "adjournment, breaking up (of a meeting)",
   "definitions": [
     {
@@ -41,9 +41,32 @@
     }
   ],
   "notes": "A formal term for the conclusion and dispersal of a meeting or assembly. Used in parliamentary, corporate, and official contexts. Takes する to form the verb {散会|さんかい}する.\n\nCOMMON COLLOCATIONS:\n- {散会|さんかい}する: to adjourn, to break up\n- {散会|さんかい}を{宣言|せんげん}する: to declare adjournment\n- {散会|さんかい}{時間|じかん}: time of adjournment\n\nSIMILAR WORDS:\n- {閉会|へいかい}: closing (of a formal event or session, more ceremonial)\n- {解散|かいさん}: dissolution, breaking up (broader use, includes organizations)\n- {休会|きゅうかい}: recess, temporary adjournment",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23962_heikai",
+      "reading": "へいかい",
+      "headword": "{閉会|へいかい}",
+      "label": "closing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04121_kaisan",
+      "reading": "かいさん",
+      "headword": "{解散|かいさん}",
+      "label": "dissolution, breaking up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21678_kaisansuru",
+      "reading": "かいさんする",
+      "headword": "{解散|かいさん}する",
+      "label": "to disband"
+    }
+  ],
   "metadata": {
     "created": "2026-04-20T15:22:51Z",
-    "modified": "2026-04-20T15:22:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

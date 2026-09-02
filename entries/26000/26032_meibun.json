@@ -17,7 +17,9 @@
       "id": "26032_meibun_ex1",
       "japanese": "{銘文|めいぶん}を{読|よ}み{解|と}く。",
       "english": "To decipher an inscription.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26032_meibun_ex2",
       "japanese": "{銅鐸|どうたく}には{銘文|めいぶん}が{刻|きざ}まれている。",
       "english": "An inscription is engraved on the bronze bell.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,38 @@
       "id": "26032_meibun_ex3",
       "japanese": "この{刀|かたな}の{銘文|めいぶん}から{作者|さくしゃ}と{年代|ねんだい}がわかった。",
       "english": "The inscription on this sword revealed the maker and the date.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A word from historical and archaeological contexts. In Japanese studies, {銘文|めいぶん} often refers to inscriptions on swords, bells, statues, and stone monuments that serve as primary historical sources.\n\nCOMMON COLLOCATIONS:\n- {銘文|めいぶん}を{刻|きざ}む: to inscribe; to engrave text\n- {銘文|めいぶん}を{読|よ}む: to read an inscription\n- {銘文|めいぶん}が{残|のこ}る: an inscription survives\n- {銘文|めいぶん}{付|つ}き: bearing an inscription\n\nSIMILAR WORDS:\n- {碑文|ひぶん}: epitaph; monument inscription — specifically text on a stone monument or stele\n- {銘|めい}: inscription; mark — shorter form, often used for maker's marks on swords and pottery\n- {刻印|こくいん}: engraving; stamp — a broader term for any engraved or stamped mark",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29469_kokuin",
+      "reading": "こくいん",
+      "headword": "{刻印|こくいん}",
+      "label": "engraving"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["culture", "history"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "culture",
+        "history"
+      ]
     },
     "created": "2026-04-28T16:18:01Z",
-    "modified": "2026-04-28T16:18:01Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

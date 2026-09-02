@@ -18,7 +18,9 @@
       "english": "My muscles hurt.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "02646_kinniku_ex2",
@@ -26,7 +28,9 @@
       "english": "The leg muscles are strong.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "02646_kinniku_ex3",
@@ -34,7 +38,9 @@
       "english": "He has impressive muscles.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "02646_kinniku_ex4",
@@ -42,7 +48,9 @@
       "english": "If you don't exercise, you'll lose muscle.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "02646_kinniku_ex5",
@@ -50,10 +58,12 @@
       "english": "I walked a lot yesterday, so my leg muscles hurt today.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{筋肉|きんにく} refers to muscle tissue in the body.\n\nCOMMON PATTERNS:\n- {筋肉|きんにく}⟦を→を：00422_wo⟧⟦{鍛|きた}える→鍛える：12326_kitaeru⟧ (to train/build muscles)\n- {筋肉|きんにく}⟦が→が：00051_ga⟧⟦つく→付く：01960_tsuku⟧ (to gain muscle)\n- {筋肉|きんにく}⟦が→が：00051_ga⟧⟦{落|お}ちる→落ちる：01242_ochiru⟧ (to lose muscle)\n\nCOMPOUND WORDS:\n- ⟦{筋肉痛|きんにくつう}→筋肉痛：06298_kinnikutsuu⟧ (muscle pain, DOMS)\n- {筋肉|きんにく}⟦{質|しつ}→質：01425_shitsu⟧ (muscular build)\n- {筋肉|きんにく}⟦トレーニング→トレーニング：00408_toreeningu⟧ (muscle training, weightlifting)\n\nCASUAL TERM:\n- ⟦{筋トレ|きんとれ}→筋トレ：04915_kintore⟧ (muscle training - abbreviation)",
+  "notes": "{筋肉|きんにく} refers to muscle tissue in the body.\n\nCOMMON PATTERNS:\n- {筋肉|きんにく}⟦を→を：00422_wo⟧⟦{鍛|きた}える→鍛える：12326_kitaeru⟧ (to train/build muscles)\n- {筋肉|きんにく}⟦が→が：00051_ga⟧⟦つく→付く：01960_tsuku⟧ (to gain muscle)\n- {筋肉|きんにく}⟦が→が：00051_ga⟧⟦{落|お}ちる→落ちる：01242_ochiru⟧ (to lose muscle)\n\nCOMPOUNDS:\n- ⟦{筋肉痛|きんにくつう}→筋肉痛：06298_kinnikutsuu⟧ (muscle pain, DOMS)\n- {筋肉|きんにく}⟦{質|しつ}→質：01425_shitsu⟧ (muscular build)\n- {筋肉|きんにく}⟦トレーニング→トレーニング：00408_toreeningu⟧ (muscle training, weightlifting)\n\nCASUAL TERM:\n- ⟦{筋トレ|きんとれ}→筋トレ：04915_kintore⟧ (muscle training - abbreviation)",
   "cross_references": [
     {
       "type": "related",
@@ -89,11 +99,32 @@
       "reading": "にく",
       "headword": "{肉|にく}",
       "label": "flesh, meat"
+    },
+    {
+      "type": "related",
+      "target_id": "06007_jintai",
+      "reading": "じんたい",
+      "headword": "{靭帯|じんたい}",
+      "label": "ligament"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23093_haikin",
+      "reading": "はいきん",
+      "headword": "{背筋|はいきん}",
+      "label": "back muscles"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23736_kokkakukin",
+      "reading": "こっかくきん",
+      "headword": "{骨格筋|こっかくきん}",
+      "label": "skeletal muscle"
     }
   ],
   "metadata": {
     "created": "2026-01-11T06:58:10Z",
-    "modified": "2026-08-08T06:20:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-sonnet-4-6",
     "vocabulary_tier": "basic",
     "tags": {

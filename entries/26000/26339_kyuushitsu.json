@@ -3,7 +3,7 @@
   "headword": "{休室|きゅうしつ}",
   "reading": "きゅうしつ",
   "romaji": "kyuushitsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "room closure; closed (room/facility)",
   "definitions": [
     {
@@ -44,8 +44,30 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {休|きゅう} (rest, closure) and {室|しつ} (room). Follows the same pattern as {休館|きゅうかん} (library/museum closure), {休業|きゅうぎょう} (business closure), and {休店|きゅうてん} (shop closure). Seen on signs at studios, classrooms, gyms, consultation rooms, and other facilities.\n\nCOMMON COLLOCATIONS:\n- {本日|ほんじつ}{休室|きゅうしつ}: closed today\n- {臨時|りんじ}{休室|きゅうしつ}: temporarily closed\n- {休室|きゅうしつ}{日|び}: closure day\n- {休室|きゅうしつ}のお{知|し}らせ: closure notice\n\nRELATED TERMS:\n- {休館|きゅうかん}: closure (of a library, museum, or public building) — same pattern\n- {休業|きゅうぎょう}: business closure; closed for the day — for shops and businesses\n- {休講|きゅうこう}: class cancellation — specifically for university lectures\n- {休園|きゅうえん}: closure (of a park or kindergarten)",
-  "cross_references": [],
+  "notes": "Composed of {休|きゅう} (rest, closure) and {室|しつ} (room). Follows the same pattern as {休館|きゅうかん} (library/museum closure), {休業|きゅうぎょう} (business closure), and {休店|きゅうてん} (shop closure). Seen on signs at studios, classrooms, gyms, consultation rooms, and other facilities.\n\nCOMMON COLLOCATIONS:\n- {本日|ほんじつ}{休室|きゅうしつ}: closed today\n- {臨時|りんじ}{休室|きゅうしつ}: temporarily closed\n- {休室|きゅうしつ}{日|び}: closure day\n- {休室|きゅうしつ}のお{知|し}らせ: closure notice\n\nRELATED WORDS:\n- {休館|きゅうかん}: closure (of a library, museum, or public building) — same pattern\n- {休業|きゅうぎょう}: business closure; closed for the day — for shops and businesses\n- {休講|きゅうこう}: class cancellation — specifically for university lectures\n- {休園|きゅうえん}: closure (of a park or kindergarten)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18859_kyuukan",
+      "reading": "きゅうかん",
+      "headword": "{休館|きゅうかん}",
+      "label": "closure"
+    },
+    {
+      "type": "related",
+      "target_id": "11541_kyuugyou",
+      "reading": "きゅうぎょう",
+      "headword": "{休業|きゅうぎょう}",
+      "label": "business closure"
+    },
+    {
+      "type": "related",
+      "target_id": "19951_kyuukou",
+      "reading": "きゅうこう",
+      "headword": "{休講|きゅうこう}",
+      "label": "class cancellation"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,13 +76,15 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life"
       ],
       "verb_class": "suru"
     },
     "created": "2026-04-30T16:30:29Z",
-    "modified": "2026-04-30T16:30:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

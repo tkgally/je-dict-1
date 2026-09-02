@@ -19,7 +19,9 @@
       "english": "I am studying modern literature.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17999_gendaibungaku_ex2",
@@ -27,7 +29,9 @@
       "english": "Haruki Murakami is a representative author of modern Japanese literature.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17999_gendaibungaku_ex3",
@@ -35,22 +39,38 @@
       "english": "In a university class, we discussed the differences between modern and classical literature.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nIn Japanese literary studies, {現代|げんだい}{文学|ぶんがく} typically refers to post-WWII literature, while {近代|きんだい}{文学|ぶんがく} covers the Meiji through early Showa periods. The boundary is not always strict and varies by scholar.\n\nCOMMON COLLOCATIONS:\n- {現代|げんだい}{文学|ぶんがく}の{傑作|けっさく} (masterpiece of modern literature)\n- {日本|にほん}{現代|げんだい}{文学|ぶんがく} (modern Japanese literature)\n- {現代|げんだい}{文学|ぶんがく}{研究|けんきゅう} (modern literature studies)\n\nSIMILAR WORDS:\n- {近代|きんだい}{文学|ぶんがく}: modern literature (Meiji-early Showa) — an earlier period than {現代|げんだい}{文学|ぶんがく}\n- {古典|こてん}{文学|ぶんがく}: classical literature — pre-modern works",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28231_kotenbungaku",
+      "reading": "こてんぶんがく",
+      "headword": "{古典文学|こてんぶんがく}",
+      "label": "classical literature"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T11:51:17Z",
-    "modified": "2026-03-19T11:51:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"],
-      "domain": ["academic"]
+      "semantic": [
+        "education"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

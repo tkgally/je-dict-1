@@ -19,7 +19,9 @@
       "english": "I went to a ramen specialty restaurant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15924_senmonten_ex2",
@@ -27,7 +29,9 @@
       "english": "There are many specialty coffee shops on this street.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15924_senmonten_ex3",
@@ -35,21 +39,42 @@
       "english": "It's better to buy shoes at a specialty store than at a mass retailer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{専門店|せんもんてん} is widely used in Japan for both retail shops and restaurants that specialize in one category. A {天|てん}ぷら{専門店|せんもんてん} is a restaurant specializing in tempura; a {革|かわ}{製品|せいひん}{専門店|せんもんてん} is a shop specializing in leather goods.\n\nCOMMON COLLOCATIONS:\n- 〜の{専門店|せんもんてん} (a store specializing in ~)\n- {専門店|せんもんてん}ならではの{味|あじ} (a flavor unique to a specialty shop)\n- {専門店|せんもんてん}{街|がい} (specialty shop district)\n\nSIMILAR WORDS:\n{専門|せんもん} alone means \"specialty\" or \"expertise.\" {量販店|りょうはんてん} is a mass retailer, the opposite concept.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20498_ryouhanten",
+      "reading": "りょうはんてん",
+      "headword": "{量販店|りょうはんてん}",
+      "label": "mass retailer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20689_kouriten",
+      "reading": "こうりてん",
+      "headword": "{小売店|こうりてん}",
+      "label": "retail store"
+    }
+  ],
   "metadata": {
     "created": "2026-03-09T00:36:09Z",
-    "modified": "2026-03-09T00:36:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

@@ -17,7 +17,9 @@
       "id": "18765_hijoushoku_ex1",
       "japanese": "{非常食|ひじょうしょく}を{備蓄|びちく}する。",
       "english": "To stockpile emergency food.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18765_hijoushoku_ex2",
       "japanese": "{非常食|ひじょうしょく}の{賞味期限|しょうみきげん}を{定期的|ていきてき}に{確認|かくにん}しよう。",
       "english": "Let's regularly check the expiration dates on our emergency food.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "18765_hijoushoku_ex3",
       "japanese": "{地震|じしん}に{備|そな}えて、{三日分|みっかぶん}の{非常食|ひじょうしょく}と{水|みず}を{用意|ようい}しておくことが{推奨|すいしょう}されている。",
       "english": "It is recommended to keep three days' worth of emergency food and water in case of an earthquake.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Common collocations: {非常食|ひじょうしょく}を{備蓄|びちく}する (to stockpile emergency food), {非常食|ひじょうしょく}セット (emergency food kit). Japan's frequent natural disasters make {非常食|ひじょうしょく} a common topic in daily life, especially around September 1 ({防災|ぼうさい}の{日|ひ}, Disaster Prevention Day). Typical items include canned bread, instant rice, and energy bars. Related: {保存食|ほぞんしょく} (preserved food — broader term for any long-lasting food), {携帯食|けいたいしょく} (portable food).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03762_shokuryou",
+      "reading": "しょくりょう",
+      "headword": "{食糧|しょくりょう}",
+      "label": "provisions, food supply"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25631_bichikuhin",
+      "reading": "びちくひん",
+      "headword": "{備蓄品|びちくひん}",
+      "label": "stockpiled goods"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-03-23T03:33:58Z",
-    "modified": "2026-03-23T03:33:58Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

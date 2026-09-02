@@ -18,7 +18,9 @@
       "english": "I want to eat shaved ice.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10300_kakigoori_ex2",
@@ -26,7 +28,9 @@
       "english": "I ordered a strawberry-flavored shaved ice.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10300_kakigoori_ex3",
@@ -34,20 +38,55 @@
       "english": "Buying shaved ice at the summer festival stalls is something I look forward to every year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Also written as カキ{氷|ごおり} or {掻|か}き{氷|ごおり}. The {氷|こおり} reading changes to ごおり in this compound (rendaku).\n\nCOMMON FLAVORS:\n- イチゴ: strawberry\n- メロン: melon\n- ブルーハワイ: blue Hawaii\n- {宇治|うじ}{抹茶|まっちゃ}: Uji matcha\n- {練乳|れんにゅう}がけ: with condensed milk\n\nCULTURE: Shops selling かき{氷|ごおり} display a flag with the character {氷|こおり} in red on a white background. In recent years, gourmet かき{氷|ごおり} shops with {天然|てんねん}{氷|ごおり} (natural ice) have become popular.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03830_aisukuriimu",
+      "reading": "あいすくりーむ",
+      "headword": "アイスクリーム",
+      "label": "ice cream"
+    },
+    {
+      "type": "related",
+      "target_id": "06770_aisu",
+      "reading": "あいす",
+      "headword": "アイス",
+      "label": "ice cream"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16672_koorigashi",
+      "reading": "こおりがし",
+      "headword": "{氷菓子|こおりがし}",
+      "label": "frozen treat"
+    },
+    {
+      "type": "related",
+      "target_id": "26377_baniraaisu",
+      "reading": "ばにらあいす",
+      "headword": "バニラアイス",
+      "label": "vanilla ice cream"
+    }
+  ],
   "metadata": {
     "created": "2026-02-06T00:35:55Z",
-    "modified": "2026-02-06T00:35:55Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

@@ -3,7 +3,7 @@
   "id": "18379_majiwaru",
   "headword": "{交|まじ}わる",
   "reading": "まじわる",
-  "part_of_speech": "godan verb, intransitive",
+  "part_of_speech": "verb (godan, intransitive)",
   "gloss": "to cross; to intersect; to associate with",
   "conjugation": {
     "type": "godan",
@@ -170,10 +170,32 @@
     }
   ],
   "notes": "Godan verb (ら row): {交|まじ}わる・{交|まじ}わります\nて-form: {交|まじ}わって\nた-form: {交|まじ}わった\n\nPROVERB:\n{朱|しゅ}に{交|まじ}われば{赤|あか}くなる — \"If you mix with vermilion, you become red.\" Equivalent to \"You are the company you keep\" or \"Bad company corrupts good character.\"\n\nSIMILAR WORDS:\n- {交差|こうさ}する: To intersect — more technical and objective. Used for roads and geometry.\n- {付|つ}き{合|あ}う: To associate with, to date — more common in everyday speech for personal relationships.\n- {交|ま}じる: To mix in with, to be blended — emphasizes becoming part of a group rather than mutual interaction.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21984_kousasuru",
+      "reading": "こうさする",
+      "headword": "{交差|こうさ}する",
+      "label": "To intersect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02291_tsukiau",
+      "reading": "つきあう",
+      "headword": "{付|つ}き{合|あ}う",
+      "label": "To associate with, to date"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02421_majiru",
+      "reading": "まじる",
+      "headword": "{混|ま}じる",
+      "label": "to be mixed in"
+    }
+  ],
   "metadata": {
     "created": "2026-03-21T10:55:10Z",
-    "modified": "2026-03-29T03:08:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

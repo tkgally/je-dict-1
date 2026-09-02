@@ -17,7 +17,9 @@
       "id": "23055_chomeijin_ex1",
       "japanese": "{著名人|ちょめいじん}のサイン。",
       "english": "A celebrity's autograph.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23055_chomeijin_ex2",
       "japanese": "あのレストランには{著名人|ちょめいじん}がよく{来|く}るらしい。",
       "english": "Apparently, celebrities often come to that restaurant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "23055_chomeijin_ex3",
       "japanese": "この{町|まち}からは{多|おお}くの{著名人|ちょめいじん}が{輩出|はいしゅつ}されている。",
       "english": "This town has produced many notable figures.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {著名|ちょめい} (famous, prominent) + {人|じん} (person). Relatively formal and neutral in tone, suitable for news and written contexts.\n\nCOMMON COLLOCATIONS:\n- {著名人|ちょめいじん}の{来訪|らいほう}: a celebrity's visit\n- {著名人|ちょめいじん}インタビュー: celebrity interview\n- {地元|じもと}の{著名人|ちょめいじん}: a local notable figure\n\nSIMILAR WORDS:\n- {有名人|ゆうめいじん}: famous person — the most common everyday term\n- {名士|めいし}: distinguished person — more formal and old-fashioned\n- セレブ: celebrity — casual loanword from English, often implies wealth\n- {芸能人|げいのうじん}: entertainer — specifically people in the entertainment industry",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17812_yuumeijin",
+      "reading": "ゆうめいじん",
+      "headword": "{有名人|ゆうめいじん}",
+      "label": "famous person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21860_meishi",
+      "reading": "めいし",
+      "headword": "{名士|めいし}",
+      "label": "distinguished person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17675_serebu",
+      "reading": "せれぶ",
+      "headword": "セレブ",
+      "label": "celebrity"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14959_geinoujin",
+      "reading": "げいのうじん",
+      "headword": "{芸能人|げいのうじん}",
+      "label": "entertainer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     },
     "created": "2026-04-08T17:28:35Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

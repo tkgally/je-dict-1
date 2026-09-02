@@ -19,7 +19,9 @@
       "english": "The view count exceeded one million.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18887_saiseikaisuu_ex2",
@@ -27,7 +29,9 @@
       "english": "This video has a low view count.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18887_saiseikaisuu_ex3",
@@ -35,22 +39,45 @@
       "english": "The system is set up so that videos with more views earn more advertising revenue.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA standard term in online media and social networking. Essential vocabulary for discussing YouTube, TikTok, and other video platforms in Japanese.\n\nCOMMON COLLOCATIONS:\n- {再生|さいせい}{回数|かいすう}が{多|おお}い／{少|すく}ない (high/low view count)\n- {再生|さいせい}{回数|かいすう}を{稼|かせ}ぐ (to rack up views)\n- {再生|さいせい}{回数|かいすう}が{伸|の}びる (view count grows)\n- {総|そう}{再生|さいせい}{回数|かいすう} (total view count)\n\nSIMILAR WORDS:\n- {閲覧|えつらん}{数|すう}: page views — for web pages rather than videos\n- {視聴|しちょう}{率|りつ}: viewer ratings — for television programs",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08381_shichouritsu",
+      "reading": "しちょうりつ",
+      "headword": "{視聴率|しちょうりつ}",
+      "label": "viewer ratings"
+    },
+    {
+      "type": "related",
+      "target_id": "08857_yuuchuubu",
+      "reading": "ゆーちゅーぶ",
+      "headword": "YouTube",
+      "label": "YouTube"
+    }
+  ],
   "metadata": {
     "created": "2026-03-23T06:23:46Z",
-    "modified": "2026-03-23T06:23:46Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

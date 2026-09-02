@@ -45,6 +45,36 @@
   ],
   "notes": "Compound of {未|み} (not yet) + {使用|しよう} (use). Very common in online marketplaces, product listings, and commerce to indicate that an item is brand new and has never been used.\n\nCOMMON COLLOCATIONS:\n- {未使用|みしよう}{品|ひん}: unused item\n- {未使用|みしよう}の{状態|じょうたい}: unused condition\n- {新品|しんぴん}{未使用|みしよう}: brand new and unused\n- {未使用|みしよう}の{切手|きって}: unused stamps\n\nSIMILAR WORDS:\n- {新品|しんぴん}: brand new (emphasizes being new, not just unused)\n- {中古|ちゅうこ}: secondhand, used (the opposite)\n- {未開封|みかいふう}: unopened (still in original packaging)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08303_shinpin",
+      "reading": "しんぴん",
+      "headword": "{新品|しんぴん}",
+      "label": "brand new"
+    },
+    {
+      "type": "antonym",
+      "target_id": "03479_chuuko",
+      "reading": "ちゅうこ",
+      "headword": "{中古|ちゅうこ}",
+      "label": "secondhand, used"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10677_mikaifuu",
+      "reading": "みかいふう",
+      "headword": "{未開封|みかいふう}",
+      "label": "unopened"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20674_shinpindouyou",
+      "reading": "しんぴんどうよう",
+      "headword": "{新品同様|しんぴんどうよう}",
+      "label": "like new"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-04-02T00:57:43Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

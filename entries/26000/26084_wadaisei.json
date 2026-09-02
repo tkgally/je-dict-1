@@ -17,7 +17,9 @@
       "id": "26084_wadaisei_ex1",
       "japanese": "この{映画|えいが}は{話題性|わだいせい}が{高|たか}い。",
       "english": "This movie has high buzz.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26084_wadaisei_ex2",
       "japanese": "{話題性|わだいせい}のある{商品|しょうひん}はSNSで{拡散|かくさん}されやすい。",
       "english": "Products with topicality tend to spread easily on social media.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "26084_wadaisei_ex3",
       "japanese": "{話題性|わだいせい}だけでなく{中身|なかみ}の{質|しつ}も{大切|たいせつ}にするべきだ。",
       "english": "You should value the quality of the content, not just its ability to generate buzz.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from {話題|わだい} (topic, subject of conversation) and the suffix {性|せい} (quality, nature). It describes the inherent potential of something to become widely discussed.\n\nCOMMON COLLOCATIONS:\n- {話題性|わだいせい}が{高|たか}い / {低|ひく}い — has high/low buzz potential\n- {話題性|わだいせい}のある〜 — something newsworthy; something that generates buzz\n- {話題性|わだいせい}を{狙|ねら}う — to aim for topicality\n- {話題性|わだいせい}に{富|と}む — to be rich in newsworthiness\n\nSIMILAR WORDS:\n- {話題|わだい} — topic, subject (the base word; refers to the topic itself rather than its quality)\n- {注目度|ちゅうもくど} — degree of attention (measures how much attention something gets)\n- {知名度|ちめいど} — name recognition, fame (focuses on how well-known something is)\n\nUSAGE:\nCommonly used in media, marketing, and entertainment contexts. In the age of social media, {話題性|わだいせい} has become a key metric for evaluating content, events, and products.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21918_chuumokudo",
+      "reading": "ちゅうもくど",
+      "headword": "{注目度|ちゅうもくど}",
+      "label": "degree of attention"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13664_chimeido",
+      "reading": "ちめいど",
+      "headword": "{知名度|ちめいど}",
+      "label": "name recognition, fame"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     },
     "created": "2026-04-29T12:40:05Z",
-    "modified": "2026-04-29T12:40:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

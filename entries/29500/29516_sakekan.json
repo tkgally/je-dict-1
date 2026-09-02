@@ -17,7 +17,9 @@
       "id": "29516_sakekan_ex1",
       "japanese": "{鮭缶|さけかん}を{開|あ}ける。",
       "english": "To open a can of salmon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29516_sakekan_ex2",
       "japanese": "{鮭缶|さけかん}を{使|つか}って{炊|た}き{込|こ}みご{飯|はん}を{作|つく}る。",
       "english": "I make seasoned rice using canned salmon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "29516_sakekan_ex3",
       "japanese": "{災害|さいがい}に{備|そな}えて、{鮭缶|さけかん}をいくつか{買|か}い{置|お}きしている。",
       "english": "I keep a few cans of salmon stocked in case of a disaster.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Contraction of {鮭|さけ} (salmon) + {缶|かん} (can). A convenient, long-keeping food often used in home cooking and stockpiled for emergencies.\n\nCOMMON COLLOCATIONS:\n- {鮭缶|さけかん}を{開|あ}ける: to open a can of salmon\n- {鮭缶|さけかん}の{汁|しる}: the liquid in the salmon can\n\nSIMILAR WORDS:\n- ツナ{缶|かん}: canned tuna\n- {蟹缶|かにかん}: canned crab",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26947_tsunakan",
+      "reading": "つなかん",
+      "headword": "ツナ{缶|かん}",
+      "label": "canned tuna"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-06-27T00:21:08Z",
-    "modified": "2026-06-27T00:21:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

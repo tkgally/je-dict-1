@@ -3,7 +3,7 @@
   "headword": "{未処理|みしょり}",
   "reading": "みしょり",
   "romaji": "mishori",
-  "part_of_speech": "noun, adjective-no",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "unprocessed; untreated; unresolved",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Composed of {未|み} (not yet) + {処理|しょり} (processing, treatment). The prefix {未|み} is productive and indicates something has not yet been done: {未完成|みかんせい} (unfinished), {未確認|みかくにん} (unconfirmed), {未解決|みかいけつ} (unsolved).\n\nCOMMON COLLOCATIONS:\n- {未処理|みしょり}の{書類|しょるい}: unprocessed documents\n- {未処理|みしょり}のデータ: raw/unprocessed data\n- {未処理|みしょり}{排水|はいすい}: untreated wastewater\n- {未処理|みしょり}{案件|あんけん}: unresolved cases\n- {未処理|みしょり}のまま{放置|ほうち}する: to leave unprocessed\n\nSIMILAR WORDS:\n- {未解決|みかいけつ}: unsolved, unresolved — specifically for problems or cases that haven't been solved\n- {処理済|しょりず}み: processed, handled — the opposite state, indicating completion\n- {保留|ほりゅう}: pending, on hold — deliberately put aside for later decision",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17292_mikaiketsu",
+      "reading": "みかいけつ",
+      "headword": "{未解決|みかいけつ}",
+      "label": "unsolved, unresolved"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08364_horyuu",
+      "reading": "ほりゅう",
+      "headword": "{保留|ほりゅう}",
+      "label": "pending, on hold"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,12 +69,14 @@
         "noun",
         "adjective-no"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "work",
         "abstract"
       ]
     },
     "created": "2026-04-24T13:21:44Z",
-    "modified": "2026-04-24T13:21:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

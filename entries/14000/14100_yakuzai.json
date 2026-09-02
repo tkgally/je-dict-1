@@ -19,7 +19,9 @@
       "english": "Consult a pharmacist.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14100_yakuzai_ex2",
@@ -27,7 +29,9 @@
       "english": "This pharmaceutical is said to have few side effects.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14100_yakuzai_ex3",
@@ -35,10 +39,12 @@
       "english": "Developing a new pharmaceutical takes many years and enormous costs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE NOTE:\n{薬剤|やくざい} is a formal, technical term for medicines and chemical agents. It is far more common in professional, medical, and scientific contexts than in everyday speech, where {薬|くすり} is preferred.\n\nCOMMON COLLOCATIONS:\n- {薬剤|やくざい}{師|し} (pharmacist)\n- {薬剤|やくざい}を{投与|とうよ}する (administer a drug)\n- {薬剤|やくざい}{耐性|たいせい} (drug resistance)\n- {薬剤|やくざい}{散布|さんぷ} (spraying chemicals)\n\nSIMILAR WORDS:\n- {薬|くすり}: medicine (everyday term)\n- {医薬品|いやくひん}: pharmaceutical product (regulatory/official term)\n- {薬品|やくひん}: chemicals (broader, includes non-medical chemicals)",
+  "notes": "USAGE:\n{薬剤|やくざい} is a formal, technical term for medicines and chemical agents. It is far more common in professional, medical, and scientific contexts than in everyday speech, where {薬|くすり} is preferred.\n\nCOMMON COLLOCATIONS:\n- {薬剤|やくざい}{師|し} (pharmacist)\n- {薬剤|やくざい}を{投与|とうよ}する (administer a drug)\n- {薬剤|やくざい}{耐性|たいせい} (drug resistance)\n- {薬剤|やくざい}{散布|さんぷ} (spraying chemicals)\n\nSIMILAR WORDS:\n- {薬|くすり}: medicine (everyday term)\n- {医薬品|いやくひん}: pharmaceutical product (regulatory/official term)\n- {薬品|やくひん}: chemicals (broader, includes non-medical chemicals)",
   "cross_references": [
     {
       "type": "related",
@@ -46,19 +52,46 @@
       "reading": "くすり",
       "headword": "{薬|くすり}",
       "label": "medicine (everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19711_iyakuhin",
+      "reading": "いやくひん",
+      "headword": "{医薬品|いやくひん}",
+      "label": "pharmaceutical product"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11055_yakuhin",
+      "reading": "やくひん",
+      "headword": "{薬品|やくひん}",
+      "label": "chemicals"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14053_yakubutsu",
+      "reading": "やくぶつ",
+      "headword": "{薬物|やくぶつ}",
+      "label": "drug, chemical substance"
     }
   ],
   "metadata": {
     "created": "2026-02-28T00:47:21Z",
-    "modified": "2026-04-29T10:23:05Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

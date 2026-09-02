@@ -17,7 +17,9 @@
       "id": "23113_shihaisha_ex1",
       "japanese": "{彼|かれ}はこの{国|くに}の{支配者|しはいしゃ}だ。",
       "english": "He is the ruler of this country.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23113_shihaisha_ex2",
       "japanese": "{新|あたら}しい{支配者|しはいしゃ}が{権力|けんりょく}を{握|にぎ}った。",
       "english": "A new ruler seized power.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "23113_shihaisha_ex3",
       "japanese": "{歴史|れきし}の{中|なか}で{多|おお}くの{支配者|しはいしゃ}が{興|おこ}り、そして{滅|ほろ}んでいった。",
       "english": "Throughout history, many rulers rose to power and then perished.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {支配|しはい} (rule, control, domination) and {者|しゃ} (person). Refers to someone who holds authority and exercises control. Can be used for historical rulers, political leaders, or figuratively for anyone who dominates a situation or domain.\n\nCOMMON COLLOCATIONS:\n- {絶対的|ぜったいてき}な{支配者|しはいしゃ}: absolute ruler\n- {支配者|しはいしゃ}{層|そう}: ruling class\n- {支配者|しはいしゃ}{側|がわ}: the ruling side\n\nSIMILAR WORDS:\n- {統治者|とうちしゃ}: governor, ruler — emphasizes the act of governing or administering; more formal and institutional\n- {権力者|けんりょくしゃ}: person of power — focuses on having power rather than exercising control\n- {独裁者|どくさいしゃ}: dictator — specifically an authoritarian ruler with absolute power",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23032_touchisha",
+      "reading": "とうちしゃ",
+      "headword": "{統治者|とうちしゃ}",
+      "label": "governor, ruler"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17021_kenryokusha",
+      "reading": "けんりょくしゃ",
+      "headword": "{権力者|けんりょくしゃ}",
+      "label": "person of power"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15406_dokusaisha",
+      "reading": "どくさいしゃ",
+      "headword": "{独裁者|どくさいしゃ}",
+      "label": "dictator"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["politics"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "politics"
+      ],
       "formality": "neutral",
       "politeness": "plain"
     },
     "created": "2026-04-08T19:20:00Z",
-    "modified": "2026-04-08T19:20:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

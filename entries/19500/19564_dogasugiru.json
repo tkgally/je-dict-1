@@ -17,7 +17,9 @@
       "id": "19564_dogasugiru_ex1",
       "japanese": "いたずらも{度|ど}が{過|す}ぎる。",
       "english": "The pranks have gone too far.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19564_dogasugiru_ex2",
       "japanese": "{冗談|じょうだん}も{度|ど}が{過|す}ぎると、{人|ひと}を{傷|きず}つけることがある。",
       "english": "When jokes go too far, they can hurt people.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "19564_dogasugiru_ex3",
       "japanese": "{心配|しんぱい}するのはわかるけど、{度|ど}が{過|す}ぎると{子供|こども}の{自立|じりつ}を{妨|さまた}げることになる。",
       "english": "I understand being worried, but when it goes too far, it can hinder a child's independence.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {度|ど} (degree, extent) with {過|す}ぎる (to exceed). Expresses the idea that something has crossed the line of what is acceptable. Almost always used in a critical or cautionary tone.\n\nUSAGE:\nTypically follows a noun with the particle も: {冗談|じょうだん}も{度|ど}が{過|す}ぎる (even jokes can go too far). The も adds the nuance of \"even X has limits.\" Can also be used as a modifier: {度|ど}が{過|す}ぎた{行為|こうい} (an act that went too far).\n\nCOMMON COLLOCATIONS:\n- {冗談|じょうだん}も{度|ど}が{過|す}ぎる — jokes have gone too far\n- いたずらも{度|ど}が{過|す}ぎる — pranks have gone too far\n- {心配|しんぱい}も{度|ど}が{過|す}ぎる — worrying has gone too far\n- {度|ど}が{過|す}ぎた{行為|こうい} — an excessive act\n\nSIMILAR WORDS:\n- やり{過|す}ぎる — to overdo it; more casual, broader application\n- {行|い}き{過|す}ぎる — to go too far; similar meaning, often used for actions or policies\n- {過度|かど}な — excessive; formal adjective form",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14377_kado",
+      "reading": "かど",
+      "headword": "{過度|かど}",
+      "label": "excessive"
+    },
+    {
+      "type": "related",
+      "target_id": "15170_dowokosu",
+      "reading": "どをこす",
+      "headword": "{度|ど}を{越|こ}す",
+      "label": "to go too far"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["evaluation", "degree"]
+      "semantic": [
+        "evaluation",
+        "degree"
+      ]
     },
     "created": "2026-03-26T05:16:53Z",
-    "modified": "2026-03-26T05:16:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

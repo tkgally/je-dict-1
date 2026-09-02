@@ -2,7 +2,7 @@
   "id": "05467_nyuukin",
   "headword": "{入金|にゅうきん}",
   "reading": "にゅうきん",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "deposit; payment received",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{入金|にゅうきん} refers to money being deposited into or received in an account. It covers both the act of depositing and the receipt of payment. Commonly used in banking, business, and accounting contexts.\n\nCOMMON EXPRESSIONS:\n- {入金|にゅうきん}する: to deposit, to make a payment\n- {入金|にゅうきん}⟦{確認|かくにん}→確認：00158_kakunin⟧: deposit confirmation\n- {入金|にゅうきん}⟦{日|び}→日：02249_hi⟧: payment/deposit date\n- {入金|にゅうきん}⟦{通知|つうち}→通知：04061_tsuuchi⟧: deposit notification\n- {入金|にゅうきん}⟦{済|ず}み→〜済み：04013_zumi⟧: payment completed\n\nCONTRAST:\n- {入金|にゅうきん}: money coming in (deposit, payment received)\n- ⟦{出金|しゅっきん}→出金：05468_shukkin⟧: money going out (withdrawal, disbursement)\n- ⟦{送金|そうきん}→送金：09774_soukin⟧: remittance, sending money\n- ⟦{振込|ふりこ}み→振込：05421_furikomi⟧: bank transfer\n\nWORD FORMATION:\n{入|にゅう} (entering) + {金|きん} (money). Literally \"money entering.\"",
+  "notes": "{入金|にゅうきん} refers to money being deposited into or received in an account. It covers both the act of depositing and the receipt of payment. Commonly used in banking, business, and accounting contexts.\n\nCOMMON EXPRESSIONS:\n- {入金|にゅうきん}する: to deposit, to make a payment\n- {入金|にゅうきん}⟦{確認|かくにん}→確認：00158_kakunin⟧: deposit confirmation\n- {入金|にゅうきん}⟦{日|び}→日：02249_hi⟧: payment/deposit date\n- {入金|にゅうきん}⟦{通知|つうち}→通知：04061_tsuuchi⟧: deposit notification\n- {入金|にゅうきん}⟦{済|ず}み→〜済み：04013_zumi⟧: payment completed\n\nSIMILAR WORDS:\n- {入金|にゅうきん}: money coming in (deposit, payment received)\n- ⟦{出金|しゅっきん}→出金：05468_shukkin⟧: money going out (withdrawal, disbursement)\n- ⟦{送金|そうきん}→送金：09774_soukin⟧: remittance, sending money\n- ⟦{振込|ふりこ}み→振込：05421_furikomi⟧: bank transfer\n\nFORMS:\n{入|にゅう} (entering) + {金|きん} (money). Literally \"money entering.\"",
   "cross_references": [
     {
       "type": "antonym",
@@ -148,11 +148,32 @@
       "reading": "ふりこみ",
       "headword": "{振込|ふりこみ}",
       "label": "bank transfer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09774_soukin",
+      "reading": "そうきん",
+      "headword": "{送金|そうきん}",
+      "label": "remittance, sending money"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20996_chakkinsuru",
+      "reading": "ちゃっきんする",
+      "headword": "{着金|ちゃっきん}する",
+      "label": "to receive payment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26153_chakkin",
+      "reading": "ちゃっきん",
+      "headword": "{着金|ちゃっきん}",
+      "label": "receipt of payment"
     }
   ],
   "metadata": {
     "created": "2026-01-16T07:41:01Z",
-    "modified": "2026-06-06T16:08:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

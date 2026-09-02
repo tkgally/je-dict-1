@@ -17,7 +17,9 @@
       "id": "27992_shoukou_ex1",
       "japanese": "{彼|かれ}は{陸軍|りくぐん}の{将校|しょうこう}だった。",
       "english": "He was an army officer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27992_shoukou_ex2",
       "japanese": "{将校|しょうこう}たちが{作戦|さくせん}を{練|ね}っている。",
       "english": "The officers are working out a strategy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "27992_shoukou_ex3",
       "japanese": "{若|わか}い{将校|しょうこう}が{部隊|ぶたい}を{率|ひき}いて{前線|ぜんせん}に{向|む}かった。",
       "english": "A young officer led the unit toward the front line.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers to commissioned officers (second lieutenant and above). A formal, somewhat historical military term.\n\nCOMMON COLLOCATIONS:\n- {陸軍|りくぐん}{将校|しょうこう}: army officer\n- {若|わか}い{将校|しょうこう}: a young officer\n\nSIMILAR WORDS:\n- {士官|しかん}: officer — a near-synonym, also used for naval officers\n- {兵士|へいし}: soldier; enlisted man — the ranks that officers command",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11680_heishi",
+      "reading": "へいし",
+      "headword": "{兵士|へいし}",
+      "label": "soldier"
+    },
+    {
+      "type": "related",
+      "target_id": "02994_gunjin",
+      "reading": "ぐんじん",
+      "headword": "{軍人|ぐんじん}",
+      "label": "military personnel, soldier"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["occupation"],
+      "politeness": "plain",
+      "semantic": [
+        "occupation"
+      ],
       "domain": []
     },
     "created": "2026-05-24T02:02:35Z",
-    "modified": "2026-05-24T02:02:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

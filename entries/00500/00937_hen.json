@@ -43,11 +43,40 @@
       ]
     }
   ],
-  "notes": "{辺|へん} indicates a general, approximate area rather than a specific spot. It conveys vagueness about the exact location.\n\nCOMMON PATTERNS:\n- ⟦この→この：00962_kono⟧{辺|へん}: around here\n- ⟦その→その：00993_sono⟧{辺|へん}: around there\n- ⟦あの→あの：00915_ano⟧{辺|へん}: around over there\n- ⟦どの→どの：00551_dono⟧{辺|へん}: around where? (whereabouts?)\n- 〜⟦の→の：09472_no⟧{辺|へん}: around ~ (e.g., ⟦{駅|えき}→駅：02180_eki⟧⟦の→の：09472_no⟧{辺|へん} = around the station)\n\nVARIANT:\n⟦この→この：00962_kono⟧⟦{辺|あた}り→辺り：01770_atari⟧ is a more polite/formal version of ⟦この→この：00962_kono⟧{辺|へん}. Both mean \"around here\" but ⟦{辺|あた}り→辺り：01770_atari⟧ sounds slightly softer.\n\nSIMILAR WORDS:\n- ⟦{近|ちか}く→近く：00923_chikaku⟧: nearby (more specific about proximity)\n- ⟦{周辺|しゅうへん}→周辺：09896_shuuhen⟧: surroundings, vicinity (more formal)\n- ⟦{付近|ふきん}→付近：00044_fukin⟧: vicinity (formal, used in news/official language)\n\nNOTE:\n⟦その→その：00993_sono⟧{辺|へん} can also mean \"around that level/degree\" in casual speech: ⟦その→その：00993_sono⟧{辺|へん}⟦に→に：00314_ni⟧⟦して→する：00392_suru⟧⟦おこう→置く：01092_oku⟧ (let's leave it at that).",
-  "cross_references": [],
+  "notes": "{辺|へん} indicates a general, approximate area rather than a specific spot. It conveys vagueness about the exact location.\n\nCOMMON PATTERNS:\n- ⟦この→この：00962_kono⟧{辺|へん}: around here\n- ⟦その→その：00993_sono⟧{辺|へん}: around there\n- ⟦あの→あの：00915_ano⟧{辺|へん}: around over there\n- ⟦どの→どの：00551_dono⟧{辺|へん}: around where? (whereabouts?)\n- 〜⟦の→の：09472_no⟧{辺|へん}: around ~ (e.g., ⟦{駅|えき}→駅：02180_eki⟧⟦の→の：09472_no⟧{辺|へん} = around the station)\n\nVARIANT:\n⟦この→この：00962_kono⟧⟦{辺|あた}り→辺り：01770_atari⟧ is a more polite/formal version of ⟦この→この：00962_kono⟧{辺|へん}. Both mean \"around here\" but ⟦{辺|あた}り→辺り：01770_atari⟧ sounds slightly softer.\n\nSIMILAR WORDS:\n- ⟦{近|ちか}く→近く：00923_chikaku⟧: nearby (more specific about proximity)\n- ⟦{周辺|しゅうへん}→周辺：09896_shuuhen⟧: surroundings, vicinity (more formal)\n- ⟦{付近|ふきん}→付近：00044_fukin⟧: vicinity (formal, used in news/official language)\n\nUSAGE:\n⟦その→その：00993_sono⟧{辺|へん} can also mean \"around that level/degree\" in casual speech: ⟦その→その：00993_sono⟧{辺|へん}⟦に→に：00314_ni⟧⟦して→する：00392_suru⟧⟦おこう→置く：01092_oku⟧ (let's leave it at that).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00923_chikaku",
+      "reading": "ちかく",
+      "headword": "{近|ちか}く",
+      "label": "nearby"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00044_fukin",
+      "reading": "ふきん",
+      "headword": "{付近|ふきん}",
+      "label": "vicinity"
+    },
+    {
+      "type": "related",
+      "target_id": "05553_takakukei",
+      "reading": "たかくけい",
+      "headword": "{多角形|たかくけい}",
+      "label": "polygon"
+    },
+    {
+      "type": "related",
+      "target_id": "26330_senbun",
+      "reading": "せんぶん",
+      "headword": "{線分|せんぶん}",
+      "label": "line segment"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:43:10Z",
-    "modified": "2026-05-13T15:16:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

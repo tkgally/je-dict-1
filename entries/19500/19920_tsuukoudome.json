@@ -17,7 +17,9 @@
       "id": "19920_tsuukoudome_ex1",
       "japanese": "この{道|みち}は{通行止|つうこうど}めです。",
       "english": "This road is closed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19920_tsuukoudome_ex2",
       "japanese": "{台風|たいふう}で{橋|はし}が{通行止|つうこうど}めになった。",
       "english": "The bridge was closed due to the typhoon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,79 @@
       "id": "19920_tsuukoudome_ex3",
       "japanese": "{工事|こうじ}のため、{来月|らいげつ}まで{通行止|つうこうど}めが{続|つづ}く{予定|よてい}です。",
       "english": "The road closure is expected to continue until next month due to construction.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {通行|つうこう} (passage, traffic) + {止|と}め (stopping). Commonly seen on road signs and traffic notices. The pattern ～{止|ど}め is productive and appears in other compounds like {立|た}ち{入|い}り{禁止|きんし} (no entry).\n\nCOMMON COLLOCATIONS:\n- {通行止|つうこうど}めになる: to become closed to traffic\n- {通行止|つうこうど}めが{解除|かいじょ}される: road closure is lifted\n- {全面|ぜんめん}{通行止|つうこうど}め: complete road closure\n- {片側|かたがわ}{通行止|つうこうど}め: one-lane closure\n\nRELATED TERMS:\n- {通行|つうこう}: passage, traffic\n- {迂回|うかい}: detour\n- {交通規制|こうつうきせい}: traffic regulation",
+  "notes": "Composed of {通行|つうこう} (passage, traffic) + {止|と}め (stopping). Commonly seen on road signs and traffic notices. The pattern ～{止|ど}め is productive and appears in other compounds like {立|た}ち{入|い}り{禁止|きんし} (no entry).\n\nCOMMON COLLOCATIONS:\n- {通行止|つうこうど}めになる: to become closed to traffic\n- {通行止|つうこうど}めが{解除|かいじょ}される: road closure is lifted\n- {全面|ぜんめん}{通行止|つうこうど}め: complete road closure\n- {片側|かたがわ}{通行止|つうこうど}め: one-lane closure\n\nRELATED WORDS:\n- {通行|つうこう}: passage, traffic\n- {迂回|うかい}: detour\n- {交通規制|こうつうきせい}: traffic regulation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09034_ukai",
+      "reading": "うかい",
+      "headword": "{迂回|うかい}",
+      "label": "detour"
+    },
+    {
+      "type": "related",
+      "target_id": "22414_koutsuukisei",
+      "reading": "こうつうきせい",
+      "headword": "{交通規制|こうつうきせい}",
+      "label": "traffic regulation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09542_tachiirikinshi",
+      "reading": "たちいりきんし",
+      "headword": "{立入禁止|たちいりきんし}",
+      "label": "no entry, keep out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16530_shinnyuukinshi",
+      "reading": "しんにゅうきんし",
+      "headword": "{進入禁止|しんにゅうきんし}",
+      "label": "no entry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24673_tsuukoukinshi",
+      "reading": "つうこうきんし",
+      "headword": "{通行禁止|つうこうきんし}",
+      "label": "no passage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25036_shasenkisei",
+      "reading": "しゃせんきせい",
+      "headword": "{車線規制|しゃせんきせい}",
+      "label": "lane restriction"
+    },
+    {
+      "type": "antonym",
+      "target_id": "26256_tsuukouka",
+      "reading": "つうこうか",
+      "headword": "{通行可|つうこうか}",
+      "label": "passable"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-03-27T06:03:49Z",
-    "modified": "2026-03-27T06:03:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

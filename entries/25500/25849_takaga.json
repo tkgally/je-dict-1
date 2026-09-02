@@ -17,7 +17,9 @@
       "id": "25849_takaga_ex1",
       "japanese": "たかが{風邪|かぜ}だ。{心配|しんぱい}するな。",
       "english": "It's just a cold. Don't worry.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25849_takaga_ex2",
       "japanese": "たかが{千円|せんえん}のことで{怒|おこ}るなよ。",
       "english": "Don't get angry over a mere thousand yen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "25849_takaga_ex3",
       "japanese": "たかがゲームだと{思|おも}っていたが、{負|ま}けると{悔|くや}しかった。",
       "english": "I thought it was just a game, but losing was frustrating.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,21 +47,43 @@
       "id": "25849_takaga_ex4",
       "japanese": "「たかが{言葉|ことば}、されど{言葉|ことば}」という{言|い}い{方|かた}がある。",
       "english": "There's a saying: 'They're just words, and yet words matter.'",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Written in kanji as {高|たか}が, though the hiragana spelling is standard. Always placed before the noun or quantity being minimized. Carries a dismissive or belittling tone — the speaker is saying the thing is not worth worrying about, not worth the fuss, or not as impressive as it seems.\n\nThe set phrase 「たかが〜、されど〜」 (it's merely ~, and yet ~) is well known and used to acknowledge that something seemingly trivial can still matter.\n\nCOMMON PATTERNS:\n- たかが〜: it's merely ~; it's just ~\n- たかが〜、されど〜: merely ~, and yet ~\n- たかが{知|し}れている: it amounts to nothing much; it's limited\n\nSIMILAR WORDS:\n- せいぜい: at most; at best — quantitative limit rather than dismissive attitude\n- {所詮|しょせん}: after all; in the end — implies something is ultimately insignificant, but used to conclude rather than introduce\n- ただの: just; mere; ordinary — descriptive minimizer without the dismissive punch",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03288_seizei",
+      "reading": "せいぜい",
+      "headword": "{精々|せいぜい}",
+      "label": "at most"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10920_shosen",
+      "reading": "しょせん",
+      "headword": "{所詮|しょせん}",
+      "label": "after all"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
-      "semantic": ["abstract"]
+      "pos": [
+        "adverb"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-04-27T15:13:47Z",
-    "modified": "2026-04-27T15:13:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

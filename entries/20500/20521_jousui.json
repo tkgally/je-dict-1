@@ -17,7 +17,9 @@
       "id": "20521_jousui_ex1",
       "japanese": "{上水|じょうすい}の{水質|すいしつ}を{検査|けんさ}する。",
       "english": "To inspect the quality of the water supply.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20521_jousui_ex2",
       "japanese": "{上水|じょうすい}と{下水|げすい}のインフラ{整備|せいび}が{必要|ひつよう}だ。",
       "english": "Infrastructure development for both water supply and sewage is needed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,72 @@
       "id": "20521_jousui_ex3",
       "japanese": "この{地域|ちいき}では{上水道|じょうすいどう}の{老朽化|ろうきゅうか}が{進|すす}んでおり、{水漏|みずも}れが{頻繁|ひんぱん}に{起|お}きている。",
       "english": "In this area, the water supply system is aging, and leaks occur frequently.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Refers to clean, treated water for human consumption, as opposed to {下水|げすい} (sewage/wastewater). Composed of {上|じょう} (upper/above) + {水|すい} (water). The character {上|じょう} indicates clean/good water, while {下|げ} in {下水|げすい} indicates waste.\n\nCOMMON COLLOCATIONS:\n- {上水道|じょうすいどう}: water supply system/waterworks\n- {上水|じょうすい}の{水質|すいしつ}: water supply quality\n- {上水|じょうすい}{処理|しょり}: water treatment\n\nRELATED TERMS:\n- {下水|げすい}: sewage, wastewater — the counterpart to {上水|じょうすい}\n- {下水道|げすいどう}: sewage system\n- {水道|すいどう}: water supply, plumbing — the general term for tap water infrastructure\n\nSIMILAR WORDS:\n- {水道水|すいどうすい}: tap water — the everyday word for water from the tap\n- {飲料水|いんりょうすい}: drinking water — water safe for drinking\n\nHISTORICAL NOTE:\nThe term {上水|じょうすい} has historical roots in Edo-period water supply systems, such as the famous {玉川上水|たまがわじょうすい} (Tamagawa Aqueduct) built in 1653 to supply water to Edo (Tokyo).",
+  "notes": "Refers to clean, treated water for human consumption, as opposed to {下水|げすい} (sewage/wastewater). Composed of {上|じょう} (upper/above) + {水|すい} (water). The character {上|じょう} indicates clean/good water, while {下|げ} in {下水|げすい} indicates waste.\n\nCOMMON COLLOCATIONS:\n- {上水道|じょうすいどう}: water supply system/waterworks\n- {上水|じょうすい}の{水質|すいしつ}: water supply quality\n- {上水|じょうすい}{処理|しょり}: water treatment\n\nRELATED WORDS:\n- {下水|げすい}: sewage, wastewater — the counterpart to {上水|じょうすい}\n- {下水道|げすいどう}: sewage system\n- {水道|すいどう}: water supply, plumbing — the general term for tap water infrastructure\n\nSIMILAR WORDS:\n- {水道水|すいどうすい}: tap water — the everyday word for water from the tap\n- {飲料水|いんりょうすい}: drinking water — water safe for drinking\n\nETYMOLOGY:\nThe term {上水|じょうすい} has historical roots in Edo-period water supply systems, such as the famous {玉川上水|たまがわじょうすい} (Tamagawa Aqueduct) built in 1653 to supply water to Edo (Tokyo).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00069_gesui",
+      "reading": "げすい",
+      "headword": "{下水|げすい}",
+      "label": "sewage, wastewater"
+    },
+    {
+      "type": "related",
+      "target_id": "09632_gesuidou",
+      "reading": "げすいどう",
+      "headword": "{下水道|げすいどう}",
+      "label": "sewage system"
+    },
+    {
+      "type": "related",
+      "target_id": "01058_suidou",
+      "reading": "すいどう",
+      "headword": "{水道|すいどう}",
+      "label": "water supply, plumbing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25349_suidousui",
+      "reading": "すいどうすい",
+      "headword": "{水道水|すいどうすい}",
+      "label": "tap water"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15275_inryousui",
+      "reading": "いんりょうすい",
+      "headword": "{飲料水|いんりょうすい}",
+      "label": "drinking water"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24433_haisui",
+      "reading": "はいすい",
+      "headword": "{配水|はいすい}",
+      "label": "water distribution"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["infrastructure"]
+      "semantic": [
+        "infrastructure"
+      ]
     },
     "created": "2026-03-29T16:27:27Z",
-    "modified": "2026-03-29T16:27:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

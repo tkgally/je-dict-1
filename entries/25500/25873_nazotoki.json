@@ -54,8 +54,30 @@
       "notes": null
     }
   ],
-  "notes": "Composed of なぞ (riddle, mystery) + {解|と}き (solving, from {解|と}く). Can also be written as {謎解|なぞと}き with kanji. The word covers a broad range from children's riddles to elaborate escape rooms and detective fiction.\n\nCOMMON COLLOCATIONS:\n- なぞ{解|と}きゲーム: puzzle-solving game\n- なぞ{解|と}きイベント: puzzle-solving event\n- なぞ{解|と}きに{挑戦|ちょうせん}する: take on a puzzle challenge\n- なぞ{解|と}き{脱出|だっしゅつ}ゲーム: escape room game\n\nCULTURAL CONTEXT:\nPuzzle-solving entertainment has become extremely popular in Japan. {謎解|なぞと}き{脱出|だっしゅつ}ゲーム (escape room games) are a major form of group entertainment, with venues in most cities. TV shows and manga also feature なぞ{解|と}き as a core element, especially in the detective genre.\n\nSIMILAR WORDS:\n- {推理|すいり}: deduction, reasoning (more detective/logical)\n- パズル: puzzle (borrowed English word, often for jigsaw or logic puzzles)\n- クイズ: quiz (knowledge-based questions rather than mystery-solving)",
-  "cross_references": [],
+  "notes": "Composed of なぞ (riddle, mystery) + {解|と}き (solving, from {解|と}く). Can also be written as {謎解|なぞと}き with kanji. The word covers a broad range from children's riddles to elaborate escape rooms and detective fiction.\n\nCOMMON COLLOCATIONS:\n- なぞ{解|と}きゲーム: puzzle-solving game\n- なぞ{解|と}きイベント: puzzle-solving event\n- なぞ{解|と}きに{挑戦|ちょうせん}する: take on a puzzle challenge\n- なぞ{解|と}き{脱出|だっしゅつ}ゲーム: escape room game\n\nCULTURAL NOTE:\nPuzzle-solving entertainment has become extremely popular in Japan. {謎解|なぞと}き{脱出|だっしゅつ}ゲーム (escape room games) are a major form of group entertainment, with venues in most cities. TV shows and manga also feature なぞ{解|と}き as a core element, especially in the detective genre.\n\nSIMILAR WORDS:\n- {推理|すいり}: deduction, reasoning (more detective/logical)\n- パズル: puzzle (borrowed English word, often for jigsaw or logic puzzles)\n- クイズ: quiz (knowledge-based questions rather than mystery-solving)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18951_suiri",
+      "reading": "すいり",
+      "headword": "{推理|すいり}",
+      "label": "deduction, reasoning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05417_pazuru",
+      "reading": "ぱずる",
+      "headword": "パズル",
+      "label": "puzzle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10804_kuizu",
+      "reading": "くいず",
+      "headword": "クイズ",
+      "label": "quiz"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,12 +85,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "entertainment",
         "cognition"
       ]
     },
     "created": "2026-04-27T16:21:44Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

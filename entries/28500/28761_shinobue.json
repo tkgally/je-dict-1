@@ -17,7 +17,9 @@
       "id": "28761_shinobue_ex1",
       "japanese": "{祭|まつ}りで{篠笛|しのぶえ}を{聴|き}いた。",
       "english": "I heard a shinobue at the festival.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28761_shinobue_ex2",
       "japanese": "{彼女|かのじょ}は{篠笛|しのぶえ}を{習|なら}い{始|はじ}めた。",
       "english": "She started learning the shinobue.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28761_shinobue_ex3",
       "japanese": "{篠笛|しのぶえ}の{澄|す}んだ{音色|ねいろ}が{境内|けいだい}に{響|ひび}いた。",
       "english": "The clear tone of the shinobue echoed through the shrine grounds.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Made from {篠竹|しのだけ} (a kind of slender bamboo). Used in folk music, kabuki, festival music, and increasingly in modern compositions. Comes in a range of keys, identified by a number ({一本調子|いっぽんちょうし}, {二本調子|にほんちょうし}, etc.).\n\nCOMMON COLLOCATIONS:\n- {篠笛|しのぶえ}を{吹|ふ}く: to play the shinobue\n- {篠笛|しのぶえ}の{音色|ねいろ}: the tone of the shinobue\n- {祭|まつ}りの{篠笛|しのぶえ}: shinobue at a festival\n\nSIMILAR WORDS:\n- {龍笛|りゅうてき}: ryuteki — transverse flute of gagaku; more formal, used in court music\n- {尺八|しゃくはち}: shakuhachi — end-blown bamboo flute, used in Zen and folk music",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04465_shakuhachi",
+      "reading": "しゃくはち",
+      "headword": "{尺八|しゃくはち}",
+      "label": "shakuhachi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22502_yokobue",
+      "reading": "よこぶえ",
+      "headword": "{横笛|よこぶえ}",
+      "label": "transverse flute"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["music"],
+      "politeness": "plain",
+      "semantic": [
+        "music"
+      ],
       "domain": []
     },
     "created": "2026-06-05T02:07:15Z",
-    "modified": "2026-06-05T02:07:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

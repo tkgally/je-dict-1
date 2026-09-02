@@ -19,7 +19,9 @@
       "english": "Enter the political world.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15196_seikai_ex2",
@@ -27,7 +29,9 @@
       "english": "He announced his retirement from politics.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15196_seikai_ex3",
@@ -35,21 +39,42 @@
       "english": "The scandal sent shockwaves through the political world.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{政界|せいかい} is a formal term frequently used in news reporting. It follows the common 〜{界|かい} (world/sphere) pattern used for professional domains.\n\nRELATED 〜{界|かい} COMPOUNDS:\n- {財界|ざいかい} (financial world / business circles)\n- {官界|かんかい} (bureaucratic circles)\n- {学界|がっかい} (academic world)\n- {芸能界|げいのうかい} (entertainment industry)\n\nCOMMON COLLOCATIONS:\n- {政界|せいかい}に{入|はい}る (to enter politics)\n- {政界|せいかい}を{引退|いんたい}する (to retire from politics)\n- {政界|せいかい}{再編|さいへん} (political realignment)\n- {政界|せいかい}の{重鎮|じゅうちん} (political heavyweight)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24307_keizaikai",
+      "reading": "けいざいかい",
+      "headword": "{経済界|けいざいかい}",
+      "label": "business world"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24371_kankai",
+      "reading": "かんかい",
+      "headword": "{官界|かんかい}",
+      "label": "the bureaucratic world"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T09:11:22Z",
-    "modified": "2026-03-05T09:11:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

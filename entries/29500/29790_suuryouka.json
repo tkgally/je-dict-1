@@ -3,7 +3,7 @@
   "headword": "数量化",
   "reading": "すうりょうか",
   "romaji": "suuryouka",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "quantification; expressing as numbers",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Formed from {数量|すうりょう} (quantity) + the suffix {化|か} (-ization). Takes する to form a verb: {数量化|すうりょうか}する (to quantify).\n\nCOMMON COLLOCATIONS:\n- {数量化|すうりょうか}する: to quantify\n- {数量化|すうりょうか}が{難|むずか}しい: hard to quantify\n\nSIMILAR WORDS:\n- {定量化|ていりょうか}: quantification — near-synonym, more common in scientific writing.\n- {数値化|すうちか}: converting into numerical values — emphasizes assigning specific figures.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22613_teiryouka",
+      "reading": "ていりょうか",
+      "headword": "{定量化|ていりょうか}",
+      "label": "quantification"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16461_suuchika",
+      "reading": "すうちか",
+      "headword": "{数値化|すうちか}",
+      "label": "converting into numerical values"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "abstract",
         "action"
@@ -63,7 +79,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-11T21:17:16Z",
-    "modified": "2026-07-11T21:17:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

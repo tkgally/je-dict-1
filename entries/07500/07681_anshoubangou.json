@@ -40,10 +40,19 @@
       ]
     }
   ],
-  "notes": "COMPONENTS:\n{暗証|あんしょう} (secret code/password) + {番号|ばんごう} (number)\n\nCOMMON COLLOCATIONS:\n・{暗証番号|あんしょうばんごう}を{入力|にゅうりょく}する - to enter one's PIN\n・{暗証番号|あんしょうばんごう}を{設定|せってい}する - to set a PIN\n・{暗証番号|あんしょうばんごう}を{変更|へんこう}する - to change one's PIN\n・{暗証番号|あんしょうばんごう}を{忘|わす}れる - to forget one's PIN\n\nSECURITY NOTE:\n{誕生日|たんじょうび}などわかりやすい{番号|ばんごう}は{避|さ}けましょう - Avoid using easily guessable numbers like your birthday.",
+  "notes": "ETYMOLOGY:\n{暗証|あんしょう} (secret code/password) + {番号|ばんごう} (number)\n\nCOMMON COLLOCATIONS:\n- {暗証番号|あんしょうばんごう}を{入力|にゅうりょく}する - to enter one's PIN\n- {暗証番号|あんしょうばんごう}を{設定|せってい}する - to set a PIN\n- {暗証番号|あんしょうばんごう}を{変更|へんこう}する - to change one's PIN\n- {暗証番号|あんしょうばんごう}を{忘|わす}れる - to forget one's PIN\n\nSECURITY NOTE:\n{誕生日|たんじょうび}などわかりやすい{番号|ばんごう}は{避|さ}けましょう - Avoid using easily guessable numbers like your birthday.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16092_kouzabangou",
+      "reading": "こうざばんごう",
+      "headword": "{口座|こうざ}{番号|ばんごう}",
+      "label": "bank account number"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T14:05:39Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +60,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "society",
         "finance"

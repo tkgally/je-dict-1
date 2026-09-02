@@ -19,7 +19,9 @@
       "english": "Let's schedule a meeting at the beginning of the month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15161_gettou_ex2",
@@ -27,7 +29,9 @@
       "english": "The beginning of the month is busy with processing invoices.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15161_gettou_ex3",
@@ -35,10 +39,12 @@
       "english": "I'm supposed to report last month's sales data at the beginning of the month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\n{月頭|げっとう} is a business-oriented term for the beginning of the month. It pairs with {月末|げつまつ} (end of the month) and is used in scheduling and reporting contexts.\n\nCOMMON COLLOCATIONS:\n- {月頭|げっとう}に{報告|ほうこく}する (to report at the beginning of the month)\n- {月頭|げっとう}ミーティング (beginning-of-month meeting)\n\nRELATED:\n- {月|つき}{初|はじ}め — everyday equivalent\n- {月末|げつまつ} — end of the month",
+  "notes": "USAGE:\n{月頭|げっとう} is a business-oriented term for the beginning of the month. It pairs with {月末|げつまつ} (end of the month) and is used in scheduling and reporting contexts.\n\nCOMMON COLLOCATIONS:\n- {月頭|げっとう}に{報告|ほうこく}する (to report at the beginning of the month)\n- {月頭|げっとう}ミーティング (beginning-of-month meeting)\n\nRELATED WORDS:\n- {月|つき}{初|はじ}め — everyday equivalent\n- {月末|げつまつ} — end of the month",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,19 +52,32 @@
       "reading": "げつまつ",
       "headword": "{月末|げつまつ}",
       "label": "end of month"
+    },
+    {
+      "type": "related",
+      "target_id": "15144_tsukihajime",
+      "reading": "つきはじめ",
+      "headword": "{月|つき}{初|はじ}め",
+      "label": "everyday equivalent"
     }
   ],
   "metadata": {
     "created": "2026-03-05T08:42:32Z",
-    "modified": "2026-05-01T05:08:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["time-month"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "time-month"
+      ]
     }
   }
 }

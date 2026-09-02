@@ -17,7 +17,9 @@
       "id": "20581_chishiryou_ex1",
       "japanese": "{致死量|ちしりょう}を{超|こ}える{薬物|やくぶつ}を{摂取|せっしゅ}した。",
       "english": "A lethal dose of the drug was ingested.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20581_chishiryou_ex2",
       "japanese": "カフェインにも{致死量|ちしりょう}があることを{知|し}っていますか。",
       "english": "Did you know that caffeine also has a lethal dose?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "20581_chishiryou_ex3",
       "japanese": "{検査|けんさ}の{結果|けっか}、{体内|たいない}から{致死量|ちしりょう}に{近|ちか}い{量|りょう}の{毒物|どくぶつ}が{検出|けんしゅつ}された。",
       "english": "The examination revealed a near-lethal amount of poison in the body.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A medical and scientific term composed of {致死|ちし} (causing death) and {量|りょう} (amount/dose). Used in pharmacology, toxicology, and forensic contexts.\n\nCOMMON COLLOCATIONS:\n- {致死量|ちしりょう}を{超|こ}える: to exceed the lethal dose\n- {致死量|ちしりょう}に{達|たっ}する: to reach the lethal dose\n- {半数|はんすう}{致死量|ちしりょう}: median lethal dose (LD50)\n\nRELATED TERMS:\n- {致死|ちし}: lethal, fatal\n- {致命的|ちめいてき}: fatal, critical — broader term for anything fatally serious\n- {過剰摂取|かじょうせっしゅ}: overdose — excessive intake, not necessarily lethal\n- {中毒|ちゅうどく}: poisoning — the condition caused by toxic substances",
+  "notes": "A medical and scientific term composed of {致死|ちし} (causing death) and {量|りょう} (amount/dose). Used in pharmacology, toxicology, and forensic contexts.\n\nCOMMON COLLOCATIONS:\n- {致死量|ちしりょう}を{超|こ}える: to exceed the lethal dose\n- {致死量|ちしりょう}に{達|たっ}する: to reach the lethal dose\n- {半数|はんすう}{致死量|ちしりょう}: median lethal dose (LD50)\n\nRELATED WORDS:\n- {致死|ちし}: lethal, fatal\n- {致命的|ちめいてき}: fatal, critical — broader term for anything fatally serious\n- {過剰摂取|かじょうせっしゅ}: overdose — excessive intake, not necessarily lethal\n- {中毒|ちゅうどく}: poisoning — the condition caused by toxic substances",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14890_chimeiteki",
+      "reading": "ちめいてき",
+      "headword": "{致命的|ちめいてき}",
+      "label": "fatal, critical"
+    },
+    {
+      "type": "related",
+      "target_id": "21271_kajousesshu",
+      "reading": "かじょうせっしゅ",
+      "headword": "{過剰摂取|かじょうせっしゅ}",
+      "label": "overdose"
+    },
+    {
+      "type": "related",
+      "target_id": "16558_chuudoku",
+      "reading": "ちゅうどく",
+      "headword": "{中毒|ちゅうどく}",
+      "label": "poisoning"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["health", "science"]
+      "semantic": [
+        "health",
+        "science"
+      ]
     },
     "created": "2026-03-29T18:15:50Z",
-    "modified": "2026-03-29T18:15:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

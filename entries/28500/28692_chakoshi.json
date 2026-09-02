@@ -46,6 +46,22 @@
   ],
   "notes": "Compound of {茶|ちゃ} (tea) + {漉|こ}し (the noun form of {漉|こ}す, \"to strain\"). Refers to either a handheld strainer or one built into a teapot.\n\nCOMMON COLLOCATIONS:\n- {茶漉|ちゃこ}しを{使|つか}う: to use a tea strainer\n- {茶漉|ちゃこ}しでこす: to strain with a tea strainer\n- {茶漉|ちゃこ}し{付|つ}き{急須|きゅうす}: teapot with a built-in strainer\n\nSIMILAR WORDS:\n- {急須|きゅうす}: Japanese teapot — often has a {茶漉|ちゃこ}し built into the spout\n- ティーストレーナー: tea strainer (loanword) — same thing, used more in Western-style tea contexts\n- ざる: mesh basket strainer — for food, not tea",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04980_kyuusu",
+      "reading": "きゅうす",
+      "headword": "{急須|きゅうす}",
+      "label": "Japanese teapot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04470_zaru",
+      "reading": "ざる",
+      "headword": "ざる",
+      "label": "mesh basket strainer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +69,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "tool"
       ],
       "domain": []
     },
     "created": "2026-06-04T02:08:09Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

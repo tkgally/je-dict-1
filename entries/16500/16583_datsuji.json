@@ -19,7 +19,9 @@
       "english": "There was a missing character in the document.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16583_datsuji_ex2",
@@ -27,7 +29,9 @@
       "english": "Please check for typos and missing characters.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16583_datsuji_ex3",
@@ -35,7 +39,9 @@
       "english": "Because I wrote in a hurry, I ended up with many dropped characters.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAlmost always appears in the set phrase {誤字|ごじ}{脱字|だつじ} (typos and missing characters), which is the standard way to refer to typographical errors in Japanese. {誤字|ごじ} means an incorrect character, while {脱字|だつじ} means a missing one. Together they cover the main types of writing errors.\n\nCOMMON COLLOCATIONS:\n- {誤字|ごじ}{脱字|だつじ} (typos and omissions — the standard pair)\n- {脱字|だつじ}がある (there is a missing character)\n- {脱字|だつじ}を{直|なお}す (to fix a missing character)\n\nSIMILAR WORDS:\n- {誤字|ごじ}: wrong character — the complementary error type (writing the wrong character)\n- {誤植|ごしょく}: misprint, typo — specifically refers to printing errors",
@@ -53,18 +59,36 @@
       "reading": "ごしょく",
       "headword": "{誤植|ごしょく}",
       "label": "misprint"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08580_kakimachigai",
+      "reading": "かきまちがい",
+      "headword": "{書|か}き{間違|まちが}い",
+      "label": "writing mistake"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23109_datsuraku",
+      "reading": "だつらく",
+      "headword": "{脱落|だつらく}",
+      "label": "omission"
     }
   ],
   "metadata": {
     "created": "2026-03-14T00:03:21Z",
-    "modified": "2026-05-04T08:25:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

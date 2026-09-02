@@ -3,7 +3,7 @@
   "headword": "{設計|せっけい}する",
   "reading": "せっけいする",
   "romaji": "sekkeisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to design; to plan; to engineer",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Primarily used for technical and professional design work — architecture, engineering, product development, software systems. Not used for artistic or fashion design, which uses デザインする instead.\n\nCOMMON COLLOCATIONS:\n- {設計|せっけい}{図|ず}: blueprint; design drawing\n- {設計|せっけい}{者|しゃ}: designer; engineer\n- {設計|せっけい}{事務所|じむしょ}: design office; architectural firm\n- {基本|きほん}{設計|せっけい}: basic design; conceptual design\n- {詳細|しょうさい}{設計|せっけい}: detailed design\n\nSIMILAR WORDS:\n- デザインする: to design — used for visual, artistic, or fashion design\n- {企画|きかく}する: to plan; to propose — focuses on the conceptual planning stage of a project\n- {構想|こうそう}する: to conceive; to envision — emphasizes the initial idea-forming stage before detailed planning",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29396_kikakusuru",
+      "reading": "きかくする",
+      "headword": "{企画|きかく}する",
+      "label": "to plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13163_kousou",
+      "reading": "こうそう",
+      "headword": "{構想|こうそう}",
+      "label": "to conceive"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -65,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T16:12:05Z",
-    "modified": "2026-05-05T16:12:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

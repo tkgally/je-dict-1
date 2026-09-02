@@ -3,7 +3,7 @@
   "headword": "{叩|たた}きつける",
   "reading": "たたきつける",
   "romaji": "tatakitsukeru",
-  "part_of_speech": "ichidan verb, transitive",
+  "part_of_speech": "verb (ichidan, transitive)",
   "gloss": "to slam; to hurl; to dash against",
   "conjugation": {
     "type": "ichidan",
@@ -136,6 +136,29 @@
   ],
   "notes": "A compound verb of {叩|たた}く (to hit, to strike) and つける (to attach, directed at). Conveys violent or forceful impact against a target surface or person.\n\nTRANSITIVITY:\nTransitive. Takes を for the object being hurled and に for the target surface.\n\nUSAGE:\nOften used figuratively to describe forcefully presenting or confronting someone with something, such as {辞表|じひょう}を{叩|たた}きつける (to slam down a resignation letter), which implies defiance or anger.\n\nCOMMON COLLOCATIONS:\n- ドアを{叩|たた}きつける — to slam a door\n- {壁|かべ}に{叩|たた}きつける — to hurl against a wall\n- {辞表|じひょう}を{叩|たた}きつける — to throw down a resignation letter\n- {雨|あめ}が{窓|まど}に{叩|たた}きつける — rain lashing against the window\n\nSIMILAR WORDS:\n- {投|な}げつける — to hurl, to throw at (focuses on throwing)\n- ぶつける — to hit against, to bump (less violent nuance)\n- {叩|たた}く — to hit, to strike (simpler action without directed force)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15621_nagetsukeru",
+      "reading": "なげつける",
+      "headword": "{投|な}げつける",
+      "label": "to hurl, to throw at"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02413_butsukeru",
+      "reading": "ぶつける",
+      "headword": "ぶつける",
+      "label": "to hit against, to bump"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02072_tataku",
+      "reading": "たたく",
+      "headword": "{叩|たた}く",
+      "label": "to hit, to strike"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +174,6 @@
       "verb_class": "ichidan"
     },
     "created": "2026-03-28T04:34:49Z",
-    "modified": "2026-03-28T04:34:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

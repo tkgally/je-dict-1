@@ -3,7 +3,7 @@
   "id": "20836_zurasu",
   "headword": "ずらす",
   "reading": "ずらす",
-  "part_of_speech": "verb-godan",
+  "part_of_speech": "verb (godan)",
   "gloss": "to shift; to slide; to stagger",
   "conjugation": {
     "type": "godan",
@@ -178,10 +178,25 @@
       "note": "intransitive"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01885_ugokasu",
+      "reading": "うごかす",
+      "headword": "{動|うご}かす",
+      "label": "to move"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10122_utsusu",
+      "reading": "うつす",
+      "headword": "{移|うつ}す",
+      "label": "to move, to transfer"
+    }
+  ],
   "metadata": {
     "created": "2026-03-30T18:20:44Z",
-    "modified": "2026-04-02T09:04:24Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

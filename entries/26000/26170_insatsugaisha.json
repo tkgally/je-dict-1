@@ -17,7 +17,9 @@
       "id": "26170_insatsugaisha_ex1",
       "japanese": "{印刷会社|いんさつがいしゃ}に{名刺|めいし}を{注文|ちゅうもん}した。",
       "english": "I ordered business cards from a printing company.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26170_insatsugaisha_ex2",
       "japanese": "{父|ちち}は{地元|じもと}の{印刷会社|いんさつがいしゃ}で{働|はたら}いている。",
       "english": "My father works at a local printing company.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,43 @@
       "id": "26170_insatsugaisha_ex3",
       "japanese": "デジタル{化|か}が{進|すす}んで、{印刷会社|いんさつがいしゃ}は{新|あたら}しいビジネスモデルを{模索|もさく}している。",
       "english": "As digitalization progresses, printing companies are searching for new business models.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {印刷|いんさつ} (printing) + {会社|がいしゃ} (company). Japan has a long and significant printing industry, with major companies like {大日本印刷|だいにっぽんいんさつ} (DNP) and {凸版印刷|とっぱんいんさつ} (Toppan) being among the world's largest.\n\nThe {会社|がいしゃ} suffix combines with many industry terms to form company names: {建設|けんせつ}{会社|がいしゃ} (construction company), {保険|ほけん}{会社|がいしゃ} (insurance company), {運送|うんそう}{会社|がいしゃ} (shipping company).\n\nCOMMON COLLOCATIONS:\n- {印刷会社|いんさつがいしゃ}に{依頼|いらい}する: to commission a printing company\n- {大手|おおて}{印刷会社|いんさつがいしゃ}: major printing company\n- {印刷会社|いんさつがいしゃ}の{見積|みつも}もり: printing company estimate\n\nSIMILAR WORDS:\n- {印刷所|いんさつじょ}: print shop — often smaller-scale\n- {印刷屋|いんさつや}: printer, print shop — more colloquial\n- {出版社|しゅっぱんしゃ}: publisher — publishes content, may or may not print",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23882_insatsujo",
+      "reading": "いんさつじょ",
+      "headword": "{印刷所|いんさつじょ}",
+      "label": "print shop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11765_shuppansha",
+      "reading": "しゅっぱんしゃ",
+      "headword": "{出版社|しゅっぱんしゃ}",
+      "label": "publisher"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-04-29T15:36:31Z",
-    "modified": "2026-04-29T15:36:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

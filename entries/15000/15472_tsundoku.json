@@ -3,7 +3,7 @@
   "id": "15472_tsundoku",
   "headword": "{積|つ}ん{読|どく}",
   "reading": "つんどく",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "buying books and leaving them unread",
   "conjugation": {
     "type": "suru",
@@ -134,11 +134,33 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\nA playful portmanteau of {積|つ}む (to pile up) and {読|どく} (reading, from {読書|どくしょ}). The ん connects the two elements, mimicking the sound of {積|つ}んでおく (to leave piled up). The word dates to the Meiji era.\n\nUSAGE:\nUsed both as a noun ({積|つ}ん{読|どく}の{本|ほん}, unread books) and with する ({積|つ}ん{読|どく}する). The word carries a self-deprecating, humorous tone — book lovers use it to describe their own habit. It has been borrowed into English as \"tsundoku.\"\n\nRELATED:\n- {精読|せいどく} (close reading)\n- {多読|たどく} (extensive reading)\n- {読書|どくしょ} (reading books)",
-  "cross_references": [],
+  "notes": "ETYMOLOGY:\nA playful portmanteau of {積|つ}む (to pile up) and {読|どく} (reading, from {読書|どくしょ}). The ん connects the two elements, mimicking the sound of {積|つ}んでおく (to leave piled up). The word dates to the Meiji era.\n\nUSAGE:\nUsed both as a noun ({積|つ}ん{読|どく}の{本|ほん}, unread books) and with する ({積|つ}ん{読|どく}する). The word carries a self-deprecating, humorous tone — book lovers use it to describe their own habit. It has been borrowed into English as \"tsundoku.\"\n\nRELATED WORDS:\n- {精読|せいどく} (close reading)\n- {多読|たどく} (extensive reading)\n- {読書|どくしょ} (reading books)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15982_seidoku",
+      "reading": "せいどく",
+      "headword": "{精読|せいどく}",
+      "label": "close reading"
+    },
+    {
+      "type": "related",
+      "target_id": "15981_tadoku",
+      "reading": "たどく",
+      "headword": "{多読|たどく}",
+      "label": "extensive reading"
+    },
+    {
+      "type": "related",
+      "target_id": "03484_dokusho",
+      "reading": "どくしょ",
+      "headword": "{読書|どくしょ}",
+      "label": "reading books"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T08:54:19Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

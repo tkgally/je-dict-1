@@ -3,7 +3,7 @@
   "headword": "{在籍|ざいせき}",
   "reading": "ざいせき",
   "romaji": "zaiseki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "enrollment; being on the register",
   "definitions": [
     {
@@ -52,6 +52,27 @@
       "headword": "{在職|ざいしょく}",
       "label": "being employed",
       "target_id": "12129_zaishoku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12750_shozoku",
+      "reading": "しょぞく",
+      "headword": "{所属|しょぞく}",
+      "label": "affiliation, belonging to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02092_nyuugaku",
+      "reading": "にゅうがく",
+      "headword": "{入学|にゅうがく}",
+      "label": "enrollment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04189_zaigaku",
+      "reading": "ざいがく",
+      "headword": "{在学|ざいがく}",
+      "label": "being in school"
     }
   ],
   "schema_version": "2.0",
@@ -71,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T03:23:40Z",
-    "modified": "2026-04-26T07:25:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

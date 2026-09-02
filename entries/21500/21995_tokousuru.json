@@ -3,7 +3,7 @@
   "headword": "{渡航|とこう}する",
   "reading": "とこうする",
   "romaji": "tokousuru",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to travel overseas; to go abroad",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,43 @@
   ],
   "notes": "A formal word used primarily in official, government, and news contexts. Everyday conversation typically uses {海外|かいがい}に{行|い}く instead.\n\nCOMMON COLLOCATIONS:\n- {海外|かいがい}{渡航|とこう}: overseas travel\n- {渡航|とこう}{先|さき}: travel destination (abroad)\n- {渡航|とこう}{禁止|きんし}: travel ban\n- {渡航|とこう}{歴|れき}: travel history (abroad)\n- {渡航|とこう}{注意|ちゅうい}: travel advisory\n- {渡航|とこう}ビザ: travel visa\n\nSIMILAR WORDS:\n- {海外|かいがい}に{行|い}く: to go abroad — everyday expression\n- {出国|しゅっこく}する: to leave the country — focuses on the act of departure\n- {入国|にゅうこく}する: to enter a country — the opposite of {出国|しゅっこく}\n- {旅行|りょこう}する: to travel — general, not limited to overseas",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15879_shukkoku",
+      "reading": "しゅっこく",
+      "headword": "{出国|しゅっこく}",
+      "label": "to leave the country"
+    },
+    {
+      "type": "antonym",
+      "target_id": "15859_nyuukoku",
+      "reading": "にゅうこく",
+      "headword": "{入国|にゅうこく}",
+      "label": "to enter a country"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00748_ryokou",
+      "reading": "りょこう",
+      "headword": "{旅行|りょこう}",
+      "label": "to travel"
+    },
+    {
+      "type": "related",
+      "target_id": "20083_tobeisuru",
+      "reading": "とべいする",
+      "headword": "{渡米|とべい}する",
+      "label": "to go to the United States"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21786_kikokusuru",
+      "reading": "きこくする",
+      "headword": "{帰国|きこく}する",
+      "label": "to return to one's country"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +188,6 @@
       "verb_class": "suru"
     },
     "created": "2026-04-04T19:31:19Z",
-    "modified": "2026-04-04T19:31:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

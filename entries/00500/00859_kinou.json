@@ -78,11 +78,32 @@
       "reading": "あした",
       "headword": "{明日|あした}",
       "label": "tomorrow"
+    },
+    {
+      "type": "related",
+      "target_id": "02487_yuube",
+      "reading": "ゆうべ",
+      "headword": "ゆうべ",
+      "label": "last night, yesterday evening"
+    },
+    {
+      "type": "related",
+      "target_id": "02877_kesa",
+      "reading": "けさ",
+      "headword": "{今朝|けさ}",
+      "label": "this morning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03108_zenjitsu",
+      "reading": "ぜんじつ",
+      "headword": "{前日|ぜんじつ}",
+      "label": "previous day, day before"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:53:52Z",
-    "modified": "2026-05-12T23:06:47Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

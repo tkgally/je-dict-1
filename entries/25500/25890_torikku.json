@@ -22,7 +22,9 @@
       "id": "25890_torikku_ex1",
       "japanese": "{犯人|はんにん}のトリックを{見破|みやぶ}った。",
       "english": "I saw through the culprit's trick.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "25890_torikku_ex2",
       "japanese": "この{小説|しょうせつ}のトリックは{巧妙|こうみょう}だ。",
       "english": "The trick in this novel is ingenious.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "25890_torikku_ex3",
       "japanese": "{密室|みっしつ}トリックの{謎|なぞ}が{最後|さいご}に{明|あ}かされる。",
       "english": "The mystery of the locked-room trick is revealed at the end.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "25890_torikku_ex4",
       "japanese": "マジシャンがすごいトリックを{見|み}せた。",
       "english": "The magician showed an amazing trick.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "25890_torikku_ex5",
       "japanese": "スケートボードの{新|あたら}しいトリックを{練習|れんしゅう}する。",
       "english": "I practice a new skateboarding trick.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,21 +72,52 @@
       "id": "25890_torikku_ex6",
       "japanese": "カードのトリックを{覚|おぼ}えて、{友達|ともだち}に{披露|ひろう}した。",
       "english": "I learned a card trick and showed it to my friends.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"trick.\" Particularly associated with mystery fiction in Japanese — discussing the トリック of a mystery novel is a standard part of the genre's vocabulary. Japan's rich tradition of mystery fiction (ミステリー) makes this a high-frequency word in that domain.\n\nAlso widely used in magic performance, extreme sports, and card games. Unlike the English word, it does not typically carry the sense of \"trick\" as in playing a prank on someone (for that, いたずら is more natural).\n\nCOMMON COLLOCATIONS:\n- トリックを{見破|みやぶ}る: to see through a trick\n- {密室|みっしつ}トリック: locked-room trick (mystery genre)\n- トリックアート: trick art; optical illusion art\n- マジックトリック: magic trick\n- トリックを{仕掛|しか}ける: to set up a trick\n\nSIMILAR WORDS:\n- {仕掛|しか}け: mechanism; device — the physical setup behind a trick\n- いたずら: prank; mischief — playful deception aimed at surprising someone\n- {手品|てじな}: magic trick; sleight of hand — specifically for stage magic",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07916_shikake",
+      "reading": "しかけ",
+      "headword": "{仕掛|しか}け",
+      "label": "mechanism"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01794_itazura",
+      "reading": "いたずら",
+      "headword": "いたずら",
+      "label": "prank"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03443_tejina",
+      "reading": "てじな",
+      "headword": "{手品|てじな}",
+      "label": "magic trick"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["leisure", "cognition"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "leisure",
+        "cognition"
+      ]
     },
     "created": "2026-04-28T11:23:42Z",
-    "modified": "2026-04-28T11:23:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

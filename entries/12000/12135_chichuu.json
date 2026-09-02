@@ -19,7 +19,9 @@
       "english": "To bury pipes underground.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12135_chichuu_ex2",
@@ -27,7 +29,9 @@
       "english": "There is an underground water vein deep below the surface.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12135_chichuu_ex3",
@@ -35,7 +39,9 @@
       "english": "Plant roots spread underground, absorbing water and nutrients.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{地中|ちちゅう} specifically means within the earth, as opposed to {地下|ちか} which often refers to underground spaces designed for human use (basements, subways). {地中|ちちゅう} is more natural when talking about things physically embedded in the soil or rock.\n\nCOMMON COLLOCATIONS:\n- {地中|ちちゅう}に{埋|う}める: to bury underground\n- {地中|ちちゅう}{深|ふか}く: deep underground\n- {地中|ちちゅう}{海|かい}: the Mediterranean Sea\n- {地中|ちちゅう}の{温度|おんど}: underground temperature",
@@ -46,18 +52,43 @@
       "headword": "{地下|ちか}",
       "target_id": "03429_chika",
       "label": "underground (spaces)"
+    },
+    {
+      "type": "related",
+      "target_id": "18419_chihyou",
+      "reading": "ちひょう",
+      "headword": "{地表|ちひょう}",
+      "label": "earth's surface"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24854_chitei",
+      "reading": "ちてい",
+      "headword": "{地底|ちてい}",
+      "label": "underground"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26452_dochuu",
+      "reading": "どちゅう",
+      "headword": "{土中|どちゅう}",
+      "label": "in the soil"
     }
   ],
   "metadata": {
     "created": "2026-02-20T08:57:17Z",
-    "modified": "2026-02-20T08:57:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

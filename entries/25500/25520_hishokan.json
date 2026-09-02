@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Composed of {秘書|ひしょ} (secretary) + {官|かん} (official; government position). Specifically refers to a government-appointed role, not a corporate secretary. The {官|かん} suffix marks it as an official governmental position. Frequently appears in political news and government reporting.\n\nCOMMON COLLOCATIONS:\n- {首相|しゅしょう}{秘書官|ひしょかん}: prime minister's secretary\n- {大臣|だいじん}{秘書官|ひしょかん}: minister's secretary\n- {政務|せいむ}{秘書官|ひしょかん}: political secretary (appointed from the Diet)\n- {事務|じむ}{秘書官|ひしょかん}: administrative secretary (career bureaucrat)\n\nSIMILAR WORDS:\n- {秘書|ひしょ}: secretary — the general term for any secretary, including corporate ones\n- {官房長官|かんぼうちょうかん}: Chief Cabinet Secretary — a much higher-ranking position; effectively the government spokesperson\n- {補佐官|ほさかん}: advisor; aide — an advisor to a top official, with more of a policy advisory role",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28164_kanbouchoukan",
+      "reading": "かんぼうちょうかん",
+      "headword": "官房長官",
+      "label": "Chief Cabinet Secretary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24977_hosakan",
+      "reading": "ほさかん",
+      "headword": "{補佐官|ほさかん}",
+      "label": "advisor"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +68,13 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "politics"
       ]
     },
     "created": "2026-04-25T15:20:47Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

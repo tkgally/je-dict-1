@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Composed of {歩|ほ} (walk, step) and {跡|せき} (trace, mark). A somewhat literary and formal word. The figurative sense — meaning the traces left by someone's life journey or accomplishments — is more common in written language than the literal sense of physical footprints.\n\nCOMMON COLLOCATIONS:\n- {歩跡|ほせき}をたどる: to follow footprints; to trace someone's path\n- {歩跡|ほせき}を{残|のこ}す: to leave footprints\n- {歩跡|ほせき}を{振|ふ}り{返|かえ}る: to look back on one's journey\n\nSIMILAR WORDS:\n- {足跡|あしあと}: footprint — the everyday word for physical footprints\n- {足跡|そくせき}: footsteps, achievements — the on'yomi reading used figuratively for accomplishments\n- {痕跡|こんせき}: trace, vestige — any kind of remaining trace, not limited to walking",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04095_ashiato",
+      "reading": "あしあと",
+      "headword": "{足跡|あしあと}",
+      "label": "footprint"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26262_sokuseki",
+      "reading": "そくせき",
+      "headword": "{足跡|そくせき}",
+      "label": "footsteps, achievements"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10924_konseki",
+      "reading": "こんせき",
+      "headword": "{痕跡|こんせき}",
+      "label": "trace, vestige"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +83,6 @@
       "domain": []
     },
     "created": "2026-05-04T16:24:50Z",
-    "modified": "2026-05-04T16:24:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

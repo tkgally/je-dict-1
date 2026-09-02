@@ -19,7 +19,9 @@
       "english": "There is a close relationship.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12289_missetsu_ex2",
@@ -27,7 +29,9 @@
       "english": "The economy and the environment are closely linked.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12289_missetsu_ex3",
@@ -35,7 +39,9 @@
       "english": "Diet and health are closely related, and daily meals greatly affect one's physical condition.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nPrimarily used for abstract relationships between concepts, fields, or organizations rather than physical closeness. The adverbial form {密接|みっせつ}に is very common. During the COVID-19 pandemic, {密接|みっせつ} gained additional prominence as one of the \"three Cs\" ({三密|さんみつ}): {密閉|みっぺい} (enclosed spaces), {密集|みっしゅう} (crowded places), and {密接|みっせつ} (close contact).\n\nCOMMON COLLOCATIONS:\n- {密接|みっせつ}な{関係|かんけい}: close relationship\n- {密接|みっせつ}に{関|かか}わる: to be closely involved\n- {密接|みっせつ}に{結|むす}びつく: to be closely linked\n- {密接|みっせつ}な{連携|れんけい}: close cooperation\n- {密接|みっせつ}に{関連|かんれん}する: to be closely related",
@@ -46,18 +52,37 @@
       "reading": "しんみつ",
       "headword": "{親密|しんみつ}",
       "label": "intimate (personal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24459_fukabun",
+      "reading": "ふかぶん",
+      "headword": "{不可分|ふかぶん}",
+      "label": "indivisible"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25559_kinmitsuna",
+      "reading": "きんみつな",
+      "headword": "{緊密|きんみつ}な",
+      "label": "close"
     }
   ],
   "metadata": {
     "created": "2026-02-20T15:10:46Z",
-    "modified": "2026-04-26T09:20:33Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

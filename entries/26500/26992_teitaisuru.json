@@ -3,7 +3,7 @@
   "headword": "{停滞|ていたい}する",
   "reading": "ていたいする",
   "romaji": "teitaisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to stagnate; to be at a standstill",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "An intransitive verb describing a state of non-progress. Common in news about the economy, politics, and weather (stalled weather fronts). Often used with している to describe an ongoing stagnant state.\n\nCOMMON COLLOCATIONS:\n- {経済|けいざい}の{停滞|ていたい}: economic stagnation\n- {停滞期|ていたいき}: period of stagnation; plateau\n- {停滞前線|ていたいぜんせん}: stationary front (weather)\n- {長期停滞|ちょうきていたい}: prolonged stagnation\n- {停滞|ていたい}を{打破|だは}する: to break through stagnation\n\nSIMILAR WORDS:\n- {滞|とどこお}る: to stagnate; to be delayed — native Japanese word with similar meaning, often used for payments or work falling behind\n- {低迷|ていめい}する: to be sluggish; to slump — emphasizes poor performance rather than complete standstill\n- {行|い}き{詰|づ}まる: to reach a deadlock — implies hitting a wall, not just lack of progress",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07387_todokooru",
+      "reading": "とどこおる",
+      "headword": "{滞|とどこお}る",
+      "label": "to stagnate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09332_teimei",
+      "reading": "ていめい",
+      "headword": "{低迷|ていめい}",
+      "label": "to be sluggish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09346_ikizumaru",
+      "reading": "いきづまる",
+      "headword": "{行|い}き{詰|づ}まる",
+      "label": "to reach a deadlock"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19360_nankousuru",
+      "reading": "なんこうする",
+      "headword": "{難航|なんこう}する",
+      "label": "to run into difficulties"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T13:10:00Z",
-    "modified": "2026-05-06T13:10:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

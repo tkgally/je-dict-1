@@ -44,6 +44,43 @@
     }
   ],
   "notes": "BASEBALL STATISTIC:\n{打点|だてん} combines {打|だ} (hitting) + {点|てん} (points). It's the Japanese equivalent of RBI (Runs Batted In).\n\nCOMMON COLLOCATIONS:\n- {打点|だてん}を{稼|かせ}ぐ/{挙|あ}げる - to drive in runs\n- {打点|だてん}を{記録|きろく}する - to record an RBI\n- {打点王|だてんおう} - RBI leader/champion\n\nCONTEXTS WHERE RBIS ARE EARNED:\n- ヒット - base hits\n- {犠牲|ぎせい}フライ - sacrifice fly\n- {押|お}し{出|だ}し{四球|しきゅう} - walk with bases loaded\n- {内野|ないや}ゴロ - infield groundout (certain situations)\n\nRELATED STATS:\n- {打率|だりつ} - batting average\n- {本塁打|ほんるいだ} - home run\n- {安打|あんだ} - base hit\n- {得点|とくてん} - runs scored",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07113_daritsu",
+      "reading": "だりつ",
+      "headword": "{打率|だりつ}",
+      "label": "batting average"
+    },
+    {
+      "type": "related",
+      "target_id": "24569_honruida",
+      "reading": "ほんるいだ",
+      "headword": "{本塁打|ほんるいだ}",
+      "label": "home run"
+    },
+    {
+      "type": "related",
+      "target_id": "19717_anda",
+      "reading": "あんだ",
+      "headword": "{安打|あんだ}",
+      "label": "base hit"
+    },
+    {
+      "type": "related",
+      "target_id": "04909_tokuten",
+      "reading": "とくてん",
+      "headword": "{得点|とくてん}",
+      "label": "runs scored"
+    },
+    {
+      "type": "related",
+      "target_id": "06542_daseki",
+      "reading": "だせき",
+      "headword": "{打席|だせき}",
+      "label": "at-bat, plate appearance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,11 +88,12 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "sports"
       ]
     },
     "created": "2026-01-27T11:47:10Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

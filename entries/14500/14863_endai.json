@@ -19,7 +19,9 @@
       "english": "Stand at the podium.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14863_endai_ex2",
@@ -27,7 +29,9 @@
       "english": "The principal gave a greeting from the podium.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14863_endai_ex3",
@@ -35,21 +39,42 @@
       "english": "I nervously stepped up to the podium, but once I started speaking, I calmed down.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE NOTES:\n{演台|えんだい} is composed of {演|えん} (performance, speech) and {台|だい} (stand, platform). It refers to the physical lectern or podium where a speaker stands.\n\nSIMILAR WORDS:\n- {壇上|だんじょう} — on the platform/stage (refers to the elevated area, not the lectern)\n- {講壇|こうだん} — lecture platform, pulpit\n\nCOMMON COLLOCATIONS:\n- {演台|えんだい}に{立|た}つ (stand at the podium)\n- {演台|えんだい}に{上|あ}がる (step up to the podium)\n- {演台|えんだい}から{離|はな}れる (leave the podium)\n- {演台|えんだい}を{設置|せっち}する (set up a podium)",
-  "cross_references": [],
+  "notes": "USAGE:\n{演台|えんだい} is composed of {演|えん} (performance, speech) and {台|だい} (stand, platform). It refers to the physical lectern or podium where a speaker stands.\n\nSIMILAR WORDS:\n- {壇上|だんじょう} — on the platform/stage (refers to the elevated area, not the lectern)\n- {講壇|こうだん} — lecture platform, pulpit\n\nCOMMON COLLOCATIONS:\n- {演台|えんだい}に{立|た}つ (stand at the podium)\n- {演台|えんだい}に{上|あ}がる (step up to the podium)\n- {演台|えんだい}から{離|はな}れる (leave the podium)\n- {演台|えんだい}を{設置|せっち}する (set up a podium)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21719_danjou",
+      "reading": "だんじょう",
+      "headword": "{壇上|だんじょう}",
+      "label": "on the platform/stage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24169_koudan",
+      "reading": "こうだん",
+      "headword": "{講壇|こうだん}",
+      "label": "lecture platform, pulpit"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T04:38:12Z",
-    "modified": "2026-03-04T04:38:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["furniture"]
+      "semantic": [
+        "furniture"
+      ]
     }
   }
 }

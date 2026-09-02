@@ -3,7 +3,7 @@
   "headword": "たじたじ",
   "reading": "たじたじ",
   "romaji": "tajitaji",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "faltering; flinching; at a loss",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "21714_tajitaji_ex1",
       "japanese": "{彼女|かのじょ}の{勢|いきお}いにたじたじとなった。",
       "english": "I was taken aback by her forcefulness.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21714_tajitaji_ex2",
       "japanese": "{鋭|するど}い{質問|しつもん}に、{先生|せんせい}もたじたじだった。",
       "english": "Even the teacher was flustered by the sharp questions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,12 +37,30 @@
       "id": "21714_tajitaji_ex3",
       "japanese": "{相手|あいて}チームの{激|はげ}しい{攻撃|こうげき}に{守備|しゅび}{陣|じん}はたじたじとなり、{後半|こうはん}だけで3{点|てん}{失|うしな}った。",
       "english": "The defense faltered under the opposing team's fierce attack and conceded three goals in the second half alone.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "An onomatopoeic/mimetic word describing the state of being pushed back or overwhelmed by someone's force, argument, or intensity. Evokes the image of someone physically or mentally retreating.\n\nUSAGE:\n- Most commonly used with となる or だ: たじたじとなる (to become flustered/overwhelmed), たじたじだ (to be at a loss)\n- Describes a reactive state — being unable to hold one's ground against pressure\n- Used for both physical confrontations (sports, fights) and verbal/intellectual ones (debates, arguments)\n\nCOMMON COLLOCATIONS:\n- たじたじとなる: to be driven back, to falter\n- たじたじになる: to become flustered\n- {勢|いきお}いにたじたじ: overwhelmed by someone's forcefulness\n- {攻撃|こうげき}にたじたじ: reeling from an attack\n\nSIMILAR WORDS:\n- たじろぐ: to flinch, to waver — a verb with similar meaning, but describes a momentary hesitation\n- {圧倒|あっとう}される: to be overwhelmed — stronger and more formal\n- おろおろ: flustered, at a loss — describes confusion and panic rather than being pushed back",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15413_attousareru",
+      "reading": "あっとうされる",
+      "headword": "{圧倒|あっとう}される",
+      "label": "to be overwhelmed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05369_orooro",
+      "reading": "おろおろ",
+      "headword": "おろおろ",
+      "label": "flustered, at a loss"
+    }
+  ],
   "metadata": {
     "entry_id": "21714_tajitaji",
     "schema_version": "2.0",
@@ -46,11 +68,17 @@
     "vocabulary_tier": "general",
     "jlpt_level": null,
     "tags": {
-      "pos": ["adverb", "onomatopoeia"],
-      "semantic": ["emotion"],
+      "pos": [
+        "adverb",
+        "onomatopoeia"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "emotion"
+      ],
       "register": [],
       "usage": []
     },
-    "modified": "2026-04-02T22:12:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

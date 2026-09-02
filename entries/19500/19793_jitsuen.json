@@ -3,7 +3,7 @@
   "headword": "{実演|じつえん}",
   "reading": "じつえん",
   "romaji": "jitsuen",
-  "part_of_speech": "noun, verb (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "live demonstration; live performance",
   "conjugation": {
     "type": "suru",
@@ -171,6 +171,22 @@
   ],
   "notes": "The compound {実演|じつえん}{販売|はんばい} (live demonstration sale) is extremely common in Japanese retail, especially in department stores and food halls, where vendors prepare food or demonstrate products in front of customers.\n\nCOMMON COLLOCATIONS:\n- {実演|じつえん}{販売|はんばい} — live demonstration sale\n- {実演|じつえん}コーナー — demonstration area/booth\n- {実演|じつえん}を{見|み}る — to watch a demonstration\n- {実演|じつえん}する — to demonstrate, to perform live\n\nSIMILAR WORDS:\n- デモンストレーション — demonstration (loanword, often shortened to デモ)\n- {公演|こうえん} — public performance (larger-scale, theatrical)\n- {上演|じょうえん} — staging, performance (of a play or show)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11639_kouen",
+      "reading": "こうえん",
+      "headword": "{公演|こうえん}",
+      "label": "public performance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11297_jouen",
+      "reading": "じょうえん",
+      "headword": "{上演|じょうえん}",
+      "label": "staging, performance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -186,6 +202,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-27T00:15:49Z",
-    "modified": "2026-03-27T00:15:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

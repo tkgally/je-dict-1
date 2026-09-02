@@ -17,7 +17,9 @@
       "id": "29083_shiitoberuto_ex1",
       "japanese": "シートベルトを{締|し}めてください。",
       "english": "Please fasten your seat belt.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29083_shiitoberuto_ex2",
       "japanese": "シートベルトの{着用|ちゃくよう}は{法律|ほうりつ}で{義務付|ぎむづ}けられている。",
       "english": "Wearing a seat belt is required by law.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "29083_shiitoberuto_ex3",
       "japanese": "{後部座席|こうぶざせき}でもシートベルトを{必|かなら}ず{着用|ちゃくよう}しなければならない。",
       "english": "You must always wear a seat belt even in the back seat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"seat belt.\" Loanword used universally in Japan.\n\nCOMMON COLLOCATIONS:\n- シートベルトを{締|し}める／{着用|ちゃくよう}する: to fasten/wear a seat belt\n- シートベルトを{外|はず}す: to unfasten a seat belt\n- シートベルト{着用|ちゃくよう}{義務|ぎむ}: seat belt requirement\n- シートベルト{非着用|ひちゃくよう}: not wearing a seat belt (legal violation term)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24261_anzentai",
+      "reading": "あんぜんたい",
+      "headword": "{安全帯|あんぜんたい}",
+      "label": "safety belt"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["transportation"],
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ],
       "domain": []
     },
     "created": "2026-06-10T12:29:56Z",
-    "modified": "2026-06-10T12:29:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

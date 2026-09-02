@@ -45,7 +45,29 @@
     }
   ],
   "notes": "A compound of {旅行|りょこう} (travel) and {客|きゃく} (customer/guest). Views the traveler from the perspective of the tourism or hospitality industry — as a customer or visitor.\n\nCOMMON COLLOCATIONS:\n- {外国人|がいこくじん}{旅行客|りょこうきゃく}: foreign tourist\n- {旅行客|りょこうきゃく}が{増|ふ}える: tourists increase\n- {旅行客|りょこうきゃく}を{呼|よ}び{込|こ}む: to attract tourists\n- {旅行客|りょこうきゃく}で{賑|にぎ}わう: to be bustling with travelers\n\nSIMILAR WORDS:\n- {観光客|かんこうきゃく}: sightseer; tourist — focuses on sightseeing specifically; the most common word for tourist\n- {旅行者|りょこうしゃ}: traveler — more neutral; does not carry the \"customer\" nuance of {客|きゃく}\n- {旅人|たびびと}: traveler — literary or poetic; evokes a wanderer or journeyer",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03022_kankoukyaku",
+      "reading": "かんこうきゃく",
+      "headword": "{観光客|かんこうきゃく}",
+      "label": "sightseer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22927_ryokousha",
+      "reading": "りょこうしゃ",
+      "headword": "{旅行者|りょこうしゃ}",
+      "label": "traveler"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12725_tabibito",
+      "reading": "たびびと",
+      "headword": "{旅人|たびびと}",
+      "label": "traveler"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +75,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "travel",
         "person"
       ]
     },
     "created": "2026-04-27T12:17:01Z",
-    "modified": "2026-08-04T21:24:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

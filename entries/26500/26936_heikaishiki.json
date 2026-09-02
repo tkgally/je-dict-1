@@ -45,7 +45,36 @@
     }
   ],
   "notes": "A compound of {閉会|へいかい} (closing, adjournment) and {式|しき} (ceremony). Most commonly associated with the Olympics and major sporting events, but also used for academic conferences, festivals, and cultural events.\n\nCOMMON COLLOCATIONS:\n- {閉会式|へいかいしき}に{出席|しゅっせき}する: to attend the closing ceremony\n- {閉会式|へいかいしき}が{行|おこな}われる: the closing ceremony is held\n- オリンピック{閉会式|へいかいしき}: Olympic closing ceremony\n- {閉会式|へいかいしき}の{演出|えんしゅつ}: production of the closing ceremony\n\nSIMILAR WORDS:\n- {開会式|かいかいしき}: opening ceremony — the opposite; the ceremony at the start of an event\n- {閉幕|へいまく}: closing; final curtain — used for theater, exhibitions, and events ending\n- {卒業式|そつぎょうしき}: graduation ceremony — a specific type of closing ceremony for academic programs",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "27306_kaikaishiki",
+      "reading": "かいかいしき",
+      "headword": "{開会式|かいかいしき}",
+      "label": "opening ceremony"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08175_heimaku",
+      "reading": "へいまく",
+      "headword": "{閉幕|へいまく}",
+      "label": "closing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05584_sotsugyoushiki",
+      "reading": "そつぎょうしき",
+      "headword": "{卒業式|そつぎょうしき}",
+      "label": "graduation ceremony"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26387_kaishishiki",
+      "reading": "かいししき",
+      "headword": "{開始式|かいししき}",
+      "label": "opening ceremony"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +90,6 @@
       "domain": []
     },
     "created": "2026-05-05T16:20:39Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

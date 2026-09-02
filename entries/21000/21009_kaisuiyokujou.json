@@ -17,7 +17,9 @@
       "id": "21009_kaisuiyokujou_ex1",
       "japanese": "{夏|なつ}になると{海水浴場|かいすいよくじょう}は{混|こ}む。",
       "english": "In summer, the swimming beaches get crowded.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21009_kaisuiyokujou_ex2",
       "japanese": "この{海水浴場|かいすいよくじょう}は{水質|すいしつ}がよくて{人気|にんき}がある。",
       "english": "This beach is popular because of its good water quality.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "21009_kaisuiyokujou_ex3",
       "japanese": "{台風|たいふう}の{影響|えいきょう}で、{県内|けんない}のすべての{海水浴場|かいすいよくじょう}が{遊泳禁止|ゆうえいきんし}になった。",
       "english": "Due to the typhoon, all swimming beaches in the prefecture were closed to swimmers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {海水浴|かいすいよく} (sea bathing) + {場|じょう} (place, grounds). Refers to an officially designated coastal area for swimming, not just any stretch of beach. In Japan, {海水浴場|かいすいよくじょう} typically operate only during the summer season (roughly July through August) and are staffed with lifeguards during that period.\n\nCOMMON COLLOCATIONS:\n- {海水浴場|かいすいよくじょう}の{開設|かいせつ}: opening of a swimming beach\n- {海水浴場|かいすいよくじょう}が{閉鎖|へいさ}される: a beach is closed\n- {遊泳禁止|ゆうえいきんし}の{海水浴場|かいすいよくじょう}: a beach closed to swimmers\n\nSIMILAR WORDS:\n- {海岸|かいがん}: coast, seashore — the physical coastline, not necessarily a swimming area\n- ビーチ: beach — a loanword used more casually, often for resort-style beaches\n- {砂浜|すなはま}: sandy beach — describes the type of shore surface",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00852_kaigan",
+      "reading": "かいがん",
+      "headword": "{海岸|かいがん}",
+      "label": "coast, seashore"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10163_biichi",
+      "reading": "びーち",
+      "headword": "ビーチ",
+      "label": "beach"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12333_sunahama",
+      "reading": "すなはま",
+      "headword": "{砂浜|すなはま}",
+      "label": "sandy beach"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature", "leisure"]
+      "semantic": [
+        "nature",
+        "leisure"
+      ]
     },
     "created": "2026-03-31T14:09:35Z",
-    "modified": "2026-03-31T14:09:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

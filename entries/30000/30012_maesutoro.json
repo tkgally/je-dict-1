@@ -17,7 +17,9 @@
       "id": "30012_maesutoro_ex1",
       "japanese": "{観客|かんきゃく}はマエストロに{拍手|はくしゅ}を{送|おく}った。",
       "english": "The audience applauded the maestro.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30012_maesutoro_ex2",
       "japanese": "あの{指揮者|しきしゃ}はマエストロと{呼|よ}ばれている。",
       "english": "That conductor is called a maestro.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,53 @@
       "id": "30012_maesutoro_ex3",
       "japanese": "{世界|せかい}{的|てき}なマエストロが{今夜|こんや}の{演奏|えんそう}を{指揮|しき}する。",
       "english": "A world-renowned maestro will conduct tonight's performance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "An honorific, borrowed through Italian, for a distinguished conductor or a master of a musical art. Used as a term of respect, often as a form of address.\n\nSIMILAR WORDS:\n- {指揮者|しきしゃ}: conductor — the neutral term for the role\n- コンダクター: conductor — a plain loanword without the honorific nuance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06565_shikisha",
+      "reading": "しきしゃ",
+      "headword": "{指揮者|しきしゃ}",
+      "label": "conductor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30011_kondakutaa",
+      "reading": "こんだくたー",
+      "headword": "コンダクター",
+      "label": "conductor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26809_kyoshou",
+      "reading": "きょしょう",
+      "headword": "{巨匠|きょしょう}",
+      "label": "great master"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": null,
-      "semantic": ["music", "person"],
+      "semantic": [
+        "music",
+        "person"
+      ],
       "domain": []
     },
     "created": "2026-07-21T00:17:50Z",
-    "modified": "2026-07-21T00:17:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

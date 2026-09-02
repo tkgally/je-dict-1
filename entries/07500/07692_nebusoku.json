@@ -43,7 +43,7 @@
   "notes": "Compound of {寝|ね} (sleep) + {不足|ふそく} (insufficiency). Describes the state of not having slept enough. Can function as a noun or na-adjective.\n\nCOMMON COLLOCATIONS:\n- {寝不足|ねぶそく}で〜: due to lack of sleep\n- {寝不足|ねぶそく}が{続|つづ}く: lack of sleep continues\n- {寝不足|ねぶそく}を{解消|かいしょう}する: to catch up on sleep\n- {寝不足|ねぶそく}{気味|ぎみ}: a bit sleep-deprived\n\nSIMILAR WORDS:\n- {睡眠不足|すいみんぶそく}: sleep deprivation (more formal/medical)\n- {寝不足|ねぶそく} is the everyday, conversational term\n\nRELATED SLEEP VOCABULARY:\n- {夜更|よふ}かし: staying up late\n- {二度寝|にどね}: going back to sleep\n- {寝坊|ねぼう}: oversleeping",
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-08-14T03:24:37Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -52,6 +52,7 @@
         "adjective-na"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "health",
         "daily-life"
@@ -66,6 +67,48 @@
       "reading": "てつや",
       "headword": "{徹夜|てつや}",
       "label": "staying up all night (a common cause)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08690_suiminbusoku",
+      "reading": "すいみんぶそく",
+      "headword": "{睡眠|すいみん}{不足|ぶそく}",
+      "label": "sleep deprivation"
+    },
+    {
+      "type": "related",
+      "target_id": "07693_yofukashi",
+      "reading": "よふかし",
+      "headword": "{夜更|よふ}かし",
+      "label": "staying up late"
+    },
+    {
+      "type": "related",
+      "target_id": "07694_nidone",
+      "reading": "にどね",
+      "headword": "{二度寝|にどね}",
+      "label": "going back to sleep"
+    },
+    {
+      "type": "related",
+      "target_id": "01692_nebou",
+      "reading": "ねぼう",
+      "headword": "{寝坊|ねぼう}",
+      "label": "oversleeping"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14910_tetsuyaake",
+      "reading": "てつやあけ",
+      "headword": "{徹夜明|てつやあ}け",
+      "label": "the morning after an all-nighter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27127_osone",
+      "reading": "おそね",
+      "headword": "{遅寝|おそね}",
+      "label": "going to bed late"
     }
   ]
 }

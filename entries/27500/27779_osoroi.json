@@ -3,7 +3,7 @@
   "headword": "お{揃|そろ}い",
   "reading": "おそろい",
   "romaji": "osoroi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "matching; coordinated (items)",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "27779_osoroi_ex1",
       "japanese": "{姉妹|しまい}でお{揃|そろ}いの{服|ふく}を{着|き}る。",
       "english": "The sisters wear matching clothes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27779_osoroi_ex2",
       "japanese": "このカップは{夫婦|ふうふ}でお{揃|そろ}いだ。",
       "english": "These cups are a matching pair for the couple.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "27779_osoroi_ex3",
       "japanese": "{友達|ともだち}と{旅行|りょこう}の{記念|きねん}にお{揃|そろ}いのキーホルダーを{買|か}った。",
       "english": "My friend and I bought matching keychains as a souvenir of the trip.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From {揃|そろ}う (to match, to be complete) with the polite prefix お〜. Refers to people deliberately having the same item, usually with a friendly or affectionate nuance.\n\nCOMMON COLLOCATIONS:\n- お{揃|そろ}いの{服|ふく}: matching outfits\n- お{揃|そろ}いにする: to make (items) matching\n- ペアでお{揃|そろ}い: a matching pair\n\nSIMILAR WORDS:\n- ペアルック: matching couple's outfits — loanword, specifically for couples dressing alike\n- {同|おな}じ: the same — plain factual sameness, without the coordinated, intentional nuance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02857_onaji",
+      "reading": "おなじ",
+      "headword": "{同|おな}じ",
+      "label": "the same"
+    },
+    {
+      "type": "related",
+      "target_id": "01953_sorou",
+      "reading": "そろう",
+      "headword": "{揃|そろ}う",
+      "label": "to be complete, to be uniform"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["clothing"],
+      "politeness": "plain",
+      "semantic": [
+        "clothing"
+      ],
       "domain": []
     },
     "created": "2026-05-18T04:14:41Z",
-    "modified": "2026-05-18T04:14:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

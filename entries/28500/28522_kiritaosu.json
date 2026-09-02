@@ -3,7 +3,7 @@
   "headword": "{切|き}り{倒|たお}す",
   "reading": "きりたおす",
   "romaji": "kiritaosu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to cut down (a tree); to fell",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Compound of {切|き}る (to cut) + {倒|たお}す (to knock over). Transitive godan verb. Implies cutting all the way through so the tree topples, in contrast to mere pruning or trimming.\n\nTRANSITIVITY:\nTransitive — takes a direct object marked with を: {木|き}を{切|き}り{倒|たお}す.\n\nCOMMON COLLOCATIONS:\n- {木|き}を{切|き}り{倒|たお}す: to fell a tree\n- {森林|しんりん}を{切|き}り{倒|たお}す: to cut down a forest\n- チェーンソーで{切|き}り{倒|たお}す: to fell with a chainsaw\n\nSIMILAR WORDS:\n- {伐採|ばっさい}する: to log; to fell — more technical, used for forestry\n- {切|き}る: to cut — general; doesn't imply the tree falls\n- {剪定|せんてい}する: to prune — trimming branches, not cutting down the tree",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08435_bassai",
+      "reading": "ばっさい",
+      "headword": "{伐採|ばっさい}",
+      "label": "to log"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02693_kiru",
+      "reading": "きる",
+      "headword": "{切|き}る",
+      "label": "to cut"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06327_sentei",
+      "reading": "せんてい",
+      "headword": "{剪定|せんてい}",
+      "label": "to prune"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "verb-godan"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
@@ -61,7 +84,7 @@
       "verb_class": "godan-su"
     },
     "created": "2026-06-01T03:10:14Z",
-    "modified": "2026-06-01T03:10:14Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

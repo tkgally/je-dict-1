@@ -3,7 +3,7 @@
   "headword": "{低品質|ていひんしつ}",
   "reading": "ていひんしつ",
   "romaji": "teihinshitsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective, na-adjective",
   "gloss": "low quality; poor quality",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "23685_teihinshitsu_ex1",
       "japanese": "{低品質|ていひんしつ}の{商品|しょうひん}。",
       "english": "A low-quality product.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23685_teihinshitsu_ex2",
       "japanese": "{値段|ねだん}が{安|やす}くても、{低品質|ていひんしつ}ならすぐ{壊|こわ}れる。",
       "english": "Even if it's cheap, a low-quality product will break quickly.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23685_teihinshitsu_ex3",
       "japanese": "{最近|さいきん}、ネット{上|じょう}には{低品質|ていひんしつ}な{情報|じょうほう}が{増|ふ}えている。",
       "english": "Recently, low-quality information has been increasing online.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,60 @@
       "id": "23685_teihinshitsu_ex4",
       "japanese": "{低品質|ていひんしつ}な{部品|ぶひん}を{使|つか}うと、{製品|せいひん}{全体|ぜんたい}の{信頼性|しんらいせい}が{下|さ}がってしまう。",
       "english": "Using low-quality parts reduces the reliability of the whole product.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {低|てい} (low) and {品質|ひんしつ} (quality). Describes goods, services, content, or work of inferior standard. The direct antonym is {高品質|こうひんしつ} (high quality).\n\nUSAGE:\n- As a noun: {低品質|ていひんしつ}が{問題|もんだい}だ (the low quality is a problem)\n- As a の-modifier: {低品質|ていひんしつ}の{部品|ぶひん} (low-quality parts)\n- Also used as a な-adjective: {低品質|ていひんしつ}な{情報|じょうほう} (low-quality information)\n\nCOMMON COLLOCATIONS:\n- {低品質|ていひんしつ}な{商品|しょうひん}: a low-quality product\n- {低品質|ていひんしつ}の{サービス}: poor-quality service\n- {低品質|ていひんしつ}{コンテンツ}: low-quality content (often online)\n- {低品質|ていひんしつ}を{改善|かいぜん}する: to improve poor quality\n\nSIMILAR WORDS:\n- {高品質|こうひんしつ}: high quality — the direct antonym\n- {粗悪|そあく}: poor, shoddy — stronger and more negative; often implies deliberately inferior goods\n- {劣悪|れつあく}: inferior, abysmal — even stronger; used for conditions or quality that is dangerously bad\n- {安物|やすもの}: cheap thing — refers to the product itself rather than its quality level",
+  "notes": "Composed of {低|てい} (low) and {品質|ひんしつ} (quality). Describes goods, services, content, or work of inferior standard. The direct antonym is {高品質|こうひんしつ} (high quality).\n\nUSAGE:\n- As a noun: {低品質|ていひんしつ}が{問題|もんだい}だ (the low quality is a problem)\n- As a の-modifier: {低品質|ていひんしつ}の{部品|ぶひん} (low-quality parts)\n- Also used as a な-adjective: {低品質|ていひんしつ}な{情報|じょうほう} (low-quality information)\n\nCOMMON COLLOCATIONS:\n- {低品質|ていひんしつ}な{商品|しょうひん}: a low-quality product\n- {低品質|ていひんしつ}のサービス: poor-quality service\n- {低品質|ていひんしつ}コンテンツ: low-quality content (often online)\n- {低品質|ていひんしつ}を{改善|かいぜん}する: to improve poor quality\n\nSIMILAR WORDS:\n- {高品質|こうひんしつ}: high quality — the direct antonym\n- {粗悪|そあく}: poor, shoddy — stronger and more negative; often implies deliberately inferior goods\n- {劣悪|れつあく}: inferior, abysmal — even stronger; used for conditions or quality that is dangerously bad\n- {安物|やすもの}: cheap thing — refers to the product itself rather than its quality level",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "18051_kouhinshitsu",
+      "reading": "こうひんしつ",
+      "headword": "{高品質|こうひんしつ}",
+      "label": "high quality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18175_soaku",
+      "reading": "そあく",
+      "headword": "{粗悪|そあく}",
+      "label": "poor, shoddy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11917_retsuaku",
+      "reading": "れつあく",
+      "headword": "{劣悪|れつあく}",
+      "label": "inferior, abysmal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22116_yasumono",
+      "reading": "やすもの",
+      "headword": "{安物|やすもの}",
+      "label": "cheap thing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-no",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     },
     "created": "2026-04-14T00:46:30Z",
-    "modified": "2026-04-14T00:46:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

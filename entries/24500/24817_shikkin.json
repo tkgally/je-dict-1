@@ -3,7 +3,7 @@
   "headword": "{失禁|しっきん}",
   "reading": "しっきん",
   "romaji": "shikkin",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "incontinence; involuntary urination",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A medical term for the involuntary loss of bladder or bowel control. Composed of {失|しつ} (to lose) + {禁|きん} (control, restraint).\n\nCOMMON COLLOCATIONS:\n- {尿|にょう}{失禁|しっきん} — urinary incontinence\n- {便|べん}{失禁|しっきん} — fecal incontinence\n- {失禁|しっきん}{症|しょう} — incontinence (as a medical condition)\n- {失禁|しっきん}パッド — incontinence pad\n\nTYPES:\n- {腹圧性|ふくあつせい}{尿|にょう}{失禁|しっきん} — stress urinary incontinence (triggered by coughing, sneezing, etc.)\n- {切迫性|せっぱくせい}{尿|にょう}{失禁|しっきん} — urge incontinence\n\nSIMILAR WORDS:\n- {夜尿症|やにょうしょう} — bedwetting, nocturnal enuresis (specifically during sleep)\n- {漏|も}らす — to leak (colloquial way of describing the act itself)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27749_yanyoushou",
+      "reading": "やにょうしょう",
+      "headword": "{夜尿|やにょう}{症|しょう}",
+      "label": "bedwetting, nocturnal enuresis"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02436_morasu",
+      "reading": "もらす",
+      "headword": "{漏|も}らす",
+      "label": "to leak"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09093_omorashi",
+      "reading": "おもらし",
+      "headword": "おもらし",
+      "label": "wetting oneself, accident"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +76,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "health",
         "body-internal"
@@ -63,7 +87,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-21T09:12:36Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

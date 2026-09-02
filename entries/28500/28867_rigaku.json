@@ -17,7 +17,9 @@
       "id": "28867_rigaku_ex1",
       "japanese": "{理学|りがく}{部|ぶ}に{入|はい}る。",
       "english": "To enter the faculty of science.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28867_rigaku_ex2",
       "japanese": "{彼女|かのじょ}は{理学|りがく}{博士|はかせ}{号|ごう}を{持|も}っている。",
       "english": "She holds a doctorate in science.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,55 @@
       "id": "28867_rigaku_ex3",
       "japanese": "{大学|だいがく}{進学|しんがく}の{際|さい}、{工学|こうがく}と{理学|りがく}のどちらにするか{迷|まよ}った。",
       "english": "When applying to university, I agonized over whether to choose engineering or science.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Used mainly in academic/institutional names rather than as a stand-alone term in conversation.\n\nCOMMON COMPOUNDS:\n- {理学|りがく}{部|ぶ}: faculty/school of science (at a university)\n- {理学|りがく}{博士|はかせ}: doctor of science (PhD)\n- {理学|りがく}{療法|りょうほう}: physical therapy\n- {理学|りがく}{療法士|りょうほうし}: physical therapist\n\nSIMILAR WORDS:\n- {科学|かがく}: science — broader, everyday word for 'science' in general\n- {工学|こうがく}: engineering — applied/practical, contrasted with {理学|りがく} at universities\n- {自然科学|しぜんかがく}: natural sciences — overlaps with {理学|りがく} but more general",
+  "notes": "Used mainly in academic/institutional names rather than as a stand-alone term in conversation.\n\nCOMPOUNDS:\n- {理学|りがく}{部|ぶ}: faculty/school of science (at a university)\n- {理学|りがく}{博士|はかせ}: doctor of science (PhD)\n- {理学|りがく}{療法|りょうほう}: physical therapy\n- {理学|りがく}{療法士|りょうほうし}: physical therapist\n\nSIMILAR WORDS:\n- {科学|かがく}: science — broader, everyday word for 'science' in general\n- {工学|こうがく}: engineering — applied/practical, contrasted with {理学|りがく} at universities\n- {自然科学|しぜんかがく}: natural sciences — overlaps with {理学|りがく} but more general",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01277_kagaku",
+      "reading": "かがく",
+      "headword": "{科学|かがく}",
+      "label": "science"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04862_kougaku",
+      "reading": "こうがく",
+      "headword": "{工学|こうがく}",
+      "label": "engineering"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24834_shizenkagaku",
+      "reading": "しぜんかがく",
+      "headword": "{自然|しぜん}{科学|かがく}",
+      "label": "natural sciences"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["science", "education"],
-      "domain": ["academic"]
+      "politeness": "plain",
+      "semantic": [
+        "science",
+        "education"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-06-06T04:04:02Z",
-    "modified": "2026-06-06T04:04:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

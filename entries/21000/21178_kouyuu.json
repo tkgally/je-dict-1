@@ -19,7 +19,9 @@
       "english": "This land is publicly owned.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21178_kouyuu_ex2",
@@ -27,7 +29,9 @@
       "english": "The management of publicly owned forests is carried out by local governments.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21178_kouyuu_ex3",
@@ -35,21 +39,49 @@
       "english": "A plan to bring private land into public ownership is being discussed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{公|こう} means 'public,' and {有|ゆう} means 'to possess' or 'ownership.' {公有|こうゆう} indicates that something belongs to a government entity rather than a private individual or company. It is a formal, administrative term.\n\nCOMMON COLLOCATIONS:\n- {公有|こうゆう}{地|ち} (publicly owned land)\n- {公有|こうゆう}{林|りん} (publicly owned forest)\n- {公有|こうゆう}{財産|ざいさん} (public property)\n- {公有化|こうゆうか} (bringing into public ownership)\n\nSIMILAR WORDS:\n- {私有|しゆう} — private ownership (the opposite; owned by individuals or companies)\n- {国有|こくゆう} — state-owned, national ownership (specifically owned by the central government)\n- {共有|きょうゆう} — shared ownership, joint possession (owned in common by multiple parties)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19205_shiyuu",
+      "reading": "しゆう",
+      "headword": "{私有|しゆう}",
+      "label": "private ownership (the opposite"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28390_kokuyuu",
+      "reading": "こくゆう",
+      "headword": "{国有|こくゆう}",
+      "label": "state-owned, national ownership"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11666_kyouyuu",
+      "reading": "きょうゆう",
+      "headword": "{共有|きょうゆう}",
+      "label": "shared ownership, joint possession"
+    }
+  ],
   "metadata": {
     "created": "2026-03-31T22:17:00Z",
-    "modified": "2026-03-31T22:17:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["society"]
+      "semantic": [
+        "society"
+      ]
     }
   }
 }

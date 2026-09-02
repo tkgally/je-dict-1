@@ -16,7 +16,9 @@
       "id": "20830_chobichobi_ex1",
       "japanese": "ちょびちょび{飲|の}む。",
       "english": "To sip little by little.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "20830_chobichobi_ex2",
       "japanese": "{貯金|ちょきん}をちょびちょび{使|つか}っている。",
       "english": "I'm spending my savings little by little.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,24 +36,52 @@
       "id": "20830_chobichobi_ex3",
       "japanese": "{高|たか}いウイスキーをちょびちょびと{味|あじ}わいながら、{夜|よる}の{時間|じかん}を{楽|たの}しんだ。",
       "english": "I enjoyed the evening, savoring the expensive whiskey bit by bit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "An onomatopoeic (gitaigo) adverb expressing very small, incremental actions. Often used for drinking, eating, or spending money in tiny amounts. Has a casual, slightly humorous tone.\n\nCOMMON PATTERNS:\n- ちょびちょび{飲|の}む: to sip in small amounts\n- ちょびちょび{食|た}べる: to eat in tiny bites\n- ちょびちょび{使|つか}う: to use/spend little by little\n- ちょびちょびと: variant with particle と\n\nSIMILAR WORDS:\n- ちびちび: sipping slowly — very similar, especially for drinking\n- {少|すこ}しずつ: gradually — more neutral, standard expression\n- こつこつ: steadily — implies diligent, persistent effort",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05778_chibichibi",
+      "reading": "ちびちび",
+      "headword": "ちびちび",
+      "label": "sipping slowly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20047_sukoshizutsu",
+      "reading": "すこしずつ",
+      "headword": "{少|すこ}しずつ",
+      "label": "gradually"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27085_kotsukotsu",
+      "reading": "こつこつ",
+      "headword": "こつこつ",
+      "label": "steadily"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["onomatopoeia"],
+      "semantic": [
+        "onomatopoeia"
+      ],
       "domain": []
     },
     "created": "2026-03-30T17:18:50Z",
-    "modified": "2026-03-30T17:18:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

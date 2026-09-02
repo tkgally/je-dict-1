@@ -17,7 +17,9 @@
       "id": "23311_burakkukigyou_ex1",
       "japanese": "ブラック{企業|きぎょう}に{勤|つと}めている。",
       "english": "I work for an exploitative company.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23311_burakkukigyou_ex2",
       "japanese": "{彼|かれ}はブラック{企業|きぎょう}を{辞|や}めてフリーランスになった。",
       "english": "He quit an exploitative company and became a freelancer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23311_burakkukigyou_ex3",
       "japanese": "{長時間|ちょうじかん}{労働|ろうどう}と{残業代|ざんぎょうだい}{未払|みばら}いはブラック{企業|きぎょう}の{典型|てんけい}だ。",
       "english": "Long working hours and unpaid overtime are typical of exploitative companies.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,52 @@
       "id": "23311_burakkukigyou_ex4",
       "japanese": "{就職活動|しゅうしょくかつどう}ではブラック{企業|きぎょう}を{避|さ}けるために{口|くち}コミを{調|しら}べた。",
       "english": "During my job hunt, I researched online reviews to avoid exploitative companies.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A widely used contemporary term composed of the English loanword ブラック (black, used here metaphorically as \"shady\" or \"bad\") + {企業|きぎょう} (company, enterprise). Coined in the 2000s, it became common in the 2010s alongside growing awareness of labor abuses, overwork, and death-by-overwork ({過労死|かろうし}).\n\nCOMMON COLLOCATIONS:\n- ブラック{企業|きぎょう}に{勤|つと}める: to work at an exploitative company\n- ブラック{企業|きぎょう}を{辞|や}める: to quit an exploitative company\n- ブラック{企業|きぎょう}{大賞|たいしょう}: \"Black Company Grand Prize\" (an annual naming-and-shaming award)\n- ブラック{企業|きぎょう}の{特徴|とくちょう}: characteristics of a black company\n\nSIMILAR WORDS:\n- ホワイト{企業|きぎょう}: white company — the opposite; a company with good working conditions\n- ブラックバイト: part-time job with exploitative conditions (especially targeting students)\n- {過労死|かろうし}: death from overwork — the extreme consequence associated with such companies\n\nTYPICAL SIGNS:\nCommonly cited signs of a ブラック{企業|きぎょう} include unpaid overtime (サービス{残業|ざんぎょう}), very high employee turnover, power harassment, and impossible quotas. The term carries strong negative connotations and is used both in casual complaints and in serious journalism.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14324_karoushi",
+      "reading": "かろうし",
+      "headword": "{過労死|かろうし}",
+      "label": "death from overwork"
+    },
+    {
+      "type": "related",
+      "target_id": "08477_saabisuzangyou",
+      "reading": "さーびすざんぎょう",
+      "headword": "サービス{残業|ざんぎょう}",
+      "label": "unpaid overtime"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25061_saabisushukkin",
+      "reading": "さーびすしゅっきん",
+      "headword": "サービス{出勤|しゅっきん}",
+      "label": "working without pay"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["business", "work"]
+      "semantic": [
+        "business",
+        "work"
+      ]
     },
     "created": "2026-04-11T17:04:08Z",
-    "modified": "2026-04-11T17:04:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

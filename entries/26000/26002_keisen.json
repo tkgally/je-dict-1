@@ -17,7 +17,9 @@
       "id": "26002_keisen_ex1",
       "japanese": "{経線|けいせん}は{南北|なんぼく}に{走|はし}る。",
       "english": "Meridians run from north to south.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26002_keisen_ex2",
       "japanese": "{地図|ちず}には{経線|けいせん}と{緯線|いせん}が{描|えが}かれている。",
       "english": "Meridians and parallels are drawn on the map.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,50 @@
       "id": "26002_keisen_ex3",
       "japanese": "{日本|にほん}の{標準時|ひょうじゅんじ}は{東経|とうけい}135{度|ど}の{経線|けいせん}を{基準|きじゅん}にしている。",
       "english": "Japan Standard Time is based on the meridian at 135 degrees east longitude.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {経|けい} (longitude; passing through) and {線|せん} (line). A fundamental geography term taught in schools. Always used in contrast with {緯線|いせん} (parallel, line of latitude), and the pair is essential for understanding maps and global coordinates.\n\nNote the homophone {罫線|けいせん} (ruled line), which has the same reading but a completely different meaning.\n\nCOMMON COLLOCATIONS:\n- {経線|けいせん}と{緯線|いせん}: meridians and parallels\n- {本初|ほんしょ}{子午線|しごせん}: prime meridian (0 degrees)\n- {東経|とうけい}…{度|ど}の{経線|けいせん}: the meridian at … degrees east longitude\n- {日付変更線|ひづけへんこうせん}: International Date Line\n\nSIMILAR WORDS:\n- {緯線|いせん}: parallel, line of latitude — runs east-west; the counterpart to {経線|けいせん}\n- {子午線|しごせん}: meridian — a more formal or literary synonym\n- {経度|けいど}: longitude — the numerical measurement, not the line itself",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26195_isen",
+      "reading": "いせん",
+      "headword": "{緯線|いせん}",
+      "label": "parallel, line of latitude"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26054_shigosen",
+      "reading": "しごせん",
+      "headword": "{子午線|しごせん}",
+      "label": "meridian"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00209_keido",
+      "reading": "けいど",
+      "headword": "{経度|けいど}",
+      "label": "longitude"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["geography"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "geography"
+      ]
     },
     "created": "2026-04-28T15:36:15Z",
-    "modified": "2026-04-28T15:36:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

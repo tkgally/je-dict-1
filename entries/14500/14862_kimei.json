@@ -3,7 +3,7 @@
   "id": "14862_kimei",
   "headword": "{記名|きめい}",
   "reading": "きめい",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "writing one's name; signing; named",
   "conjugation": {
     "type": "suru",
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE NOTES:\n{記名|きめい} is a compound of {記|き} (to record) and {名|めい} (name). It simply means that a name is written down, as opposed to being anonymous.\n\nSIMILAR WORDS:\n- {署名|しょめい} — a signature (the act of signing one's name as authentication)\n- {記名|きめい} — writing one's name (not necessarily as a signature or legal act)\n- {無記名|むきめい} — anonymous, unnamed (the opposite: {無記名|むきめい}{投票|とうひょう} = secret ballot)\n\nCOMMON COLLOCATIONS:\n- {記名|きめい}{投票|とうひょう} (signed/open ballot)\n- {無記名|むきめい}{投票|とうひょう} (secret/anonymous ballot)\n- {記名|きめい}{式|しき} (signed/named format)\n- {記名|きめい}する (write one's name)",
+  "notes": "USAGE:\n{記名|きめい} is a compound of {記|き} (to record) and {名|めい} (name). It simply means that a name is written down, as opposed to being anonymous.\n\nSIMILAR WORDS:\n- {署名|しょめい} — a signature (the act of signing one's name as authentication)\n- {記名|きめい} — writing one's name (not necessarily as a signature or legal act)\n- {無記名|むきめい} — anonymous, unnamed (the opposite: {無記名|むきめい}{投票|とうひょう} = secret ballot)\n\nCOMMON COLLOCATIONS:\n- {記名|きめい}{投票|とうひょう} (signed/open ballot)\n- {無記名|むきめい}{投票|とうひょう} (secret/anonymous ballot)\n- {記名|きめい}{式|しき} (signed/named format)\n- {記名|きめい}する (write one's name)",
   "cross_references": [
     {
       "type": "contrast",
@@ -142,11 +142,32 @@
       "reading": "しょめい",
       "headword": "{署名|しょめい}",
       "label": "signature in one's own hand"
+    },
+    {
+      "type": "related",
+      "target_id": "09864_sainsuru",
+      "reading": "さいんする",
+      "headword": "サインする",
+      "label": "to sign"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22432_shomeisuru",
+      "reading": "しょめいする",
+      "headword": "{署名|しょめい}する",
+      "label": "to sign"
+    },
+    {
+      "type": "homophone",
+      "target_id": "26579_kimei",
+      "reading": "きめい",
+      "headword": "{記銘|きめい}",
+      "label": "memorization"
     }
   ],
   "metadata": {
     "created": "2026-03-04T04:37:51Z",
-    "modified": "2026-07-27T00:19:33Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

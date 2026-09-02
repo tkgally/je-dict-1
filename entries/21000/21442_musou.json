@@ -3,7 +3,7 @@
   "headword": "{夢想|むそう}",
   "reading": "むそう",
   "romaji": "musou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "daydream; fantasy; reverie",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A compound of {夢|む} (dream) and {想|そう} (thought, imagination). The verb form is {夢想|むそう}する. Has a literary tone and often carries a nuance of unrealistic thinking, though it can also be used more neutrally for imaginative contemplation.\n\nCOMMON COLLOCATIONS:\n- {夢想|むそう}にふける: to be lost in daydreams\n- {夢想|むそう}{家|か}: a dreamer, a visionary\n- {夢想|むそう}にすぎない: to be nothing but a fantasy\n- {夢想|むそう}する: to daydream, to fantasize\n\nSIMILAR WORDS:\n- {空想|くうそう}: fantasy, daydream — very similar but slightly more neutral; also used in {空想|くうそう}{科学|かがく}{小説|しょうせつ} (science fiction)\n- {妄想|もうそう}: delusion, paranoid fantasy — stronger negative nuance, implies irrational or obsessive thinking\n- {幻想|げんそう}: illusion, fantasy — emphasizes something illusory or enchanting",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00256_kuusou",
+      "reading": "くうそう",
+      "headword": "{空想|くうそう}",
+      "label": "fantasy, daydream"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06813_mousou",
+      "reading": "もうそう",
+      "headword": "{妄想|もうそう}",
+      "label": "delusion, paranoid fantasy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06753_gensou",
+      "reading": "げんそう",
+      "headword": "{幻想|げんそう}",
+      "label": "illusion, fantasy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T03:25:34Z",
-    "modified": "2026-04-02T03:25:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

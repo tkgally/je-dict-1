@@ -19,7 +19,9 @@
       "english": "The new fiscal year has begun.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15459_shinnendo_ex2",
@@ -27,7 +29,9 @@
       "english": "It's time to draw up the budget for the new fiscal year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15459_shinnendo_ex3",
@@ -35,21 +39,49 @@
       "english": "Personnel transfers were announced ahead of the new fiscal year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "CULTURAL NOTE:\nIn Japan, the fiscal year ({会計年度|かいけいねんど}) and the academic year ({学年度|がくねんど}) both begin in April. The weeks surrounding April 1st are a major transition period: new employees start work, students begin new school years, and government budgets take effect.\n\nCOMMON COLLOCATIONS:\n- {新年度|しんねんど}の{予算|よさん} (new fiscal year budget)\n- {新年度|しんねんど}に{向|む}けて (in preparation for the new year)\n- {新年度|しんねんど}から (starting from the new year)\n\nRELATED:\n- {年度|ねんど} (fiscal/academic year)\n- {年度末|ねんどまつ} (end of the fiscal year — March)\n- {新学期|しんがっき} (new school term)",
-  "cross_references": [],
+  "notes": "CULTURAL NOTE:\nIn Japan, the fiscal year ({会計年度|かいけいねんど}) and the academic year ({学年度|がくねんど}) both begin in April. The weeks surrounding April 1st are a major transition period: new employees start work, students begin new school years, and government budgets take effect.\n\nCOMMON COLLOCATIONS:\n- {新年度|しんねんど}の{予算|よさん} (new fiscal year budget)\n- {新年度|しんねんど}に{向|む}けて (in preparation for the new year)\n- {新年度|しんねんど}から (starting from the new year)\n\nRELATED WORDS:\n- {年度|ねんど} (fiscal/academic year)\n- {年度末|ねんどまつ} (end of the fiscal year — March)\n- {新学期|しんがっき} (new school term)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10202_nendomatsu",
+      "reading": "ねんどまつ",
+      "headword": "{年度末|ねんどまつ}",
+      "label": "end of the fiscal year"
+    },
+    {
+      "type": "related",
+      "target_id": "16070_shingakki",
+      "reading": "しんがっき",
+      "headword": "{新学期|しんがっき}",
+      "label": "new school term"
+    },
+    {
+      "type": "related",
+      "target_id": "10276_nendohajime",
+      "reading": "ねんどはじめ",
+      "headword": "{年度始|ねんどはじ}め",
+      "label": "beginning of the fiscal year"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T07:39:09Z",
-    "modified": "2026-03-07T07:39:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-period"]
+      "semantic": [
+        "time-period"
+      ]
     }
   }
 }

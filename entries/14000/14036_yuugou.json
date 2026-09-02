@@ -3,7 +3,7 @@
   "id": "14036_yuugou",
   "headword": "{融合|ゆうごう}",
   "reading": "ゆうごう",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "fusion, merger, blending",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,39 @@
     }
   ],
   "notes": "USAGE:\nA versatile word used across many domains. In science, {核|かく}{融合|ゆうごう} (nuclear fusion) is a key term. In culture and business, it describes the blending of different traditions, styles, or organizations.\n\nCOMMON COLLOCATIONS:\n- {文化|ぶんか}の{融合|ゆうごう}: cultural fusion\n- {核|かく}{融合|ゆうごう}: nuclear fusion\n- {融合|ゆうごう}させる: to fuse, to merge (transitive)\n- {融合|ゆうごう}する: to fuse, to merge (intransitive)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04154_kongou",
+      "reading": "こんごう",
+      "headword": "{混合|こんごう}",
+      "label": "mixing, mixture, blend"
+    },
+    {
+      "type": "related",
+      "target_id": "09130_yuuwa",
+      "reading": "ゆうわ",
+      "headword": "{融和|ゆうわ}",
+      "label": "harmony, reconciliation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09921_secchuu",
+      "reading": "せっちゅう",
+      "headword": "{折衷|せっちゅう}",
+      "label": "compromise, blending, eclecticism"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26919_chouwasuru",
+      "reading": "ちょうわする",
+      "headword": "{調和|ちょうわ}する",
+      "label": "to harmonize"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T10:10:47Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -44,8 +44,52 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {立替|たてかえ} (\"advancing on behalf of another\") + {金|きん} (\"money\"). The underlying verb is {立|た}て{替|か}える (\"to pay on someone's behalf, to advance\"). A standard workplace and accounting term; also appears on balance sheets as a receivable account.\n\nUSAGE:\n- Commonly used in workplace contexts for expenses paid out of pocket that will be reimbursed: travel, taxi fares, office supplies, client meals.\n- In accounting, {立替金|たてかえきん} is a current asset on the balance sheet, representing money owed back by a third party (an employee, a client, or another company).\n- The reimbursement process is called {精算|せいさん} (\"settlement\") or {清算|せいさん}.\n\nCOMMON COLLOCATIONS:\n- {立替金|たてかえきん}を{精算|せいさん}する: to settle an advance payment (i.e., reimburse it)\n- {立替金|たてかえきん}を{請求|せいきゅう}する: to request reimbursement of an advance\n- {立替金|たてかえきん}の{返金|へんきん}: refund/reimbursement of an advance\n- {出張|しゅっちょう}の{立替金|たてかえきん}: business-trip advance\n- {立替金|たてかえきん}{明細|めいさい}: itemized list of advanced expenses\n\nRELATED TERMS:\n- {立|た}て{替|か}える: to pay on someone's behalf, to advance (money)\n- {精算|せいさん}: settlement — the act of reimbursing or reconciling\n- {経費|けいひ}: expenses (general)\n- {経費精算|けいひせいさん}: expense reimbursement\n- {仮払金|かりばらいきん}: cash advance — money paid out in advance of known expenses (contrast: {立替金|たてかえきん} is paid after the expense is incurred)\n- {領収書|りょうしゅうしょ}: receipt",
+  "notes": "Composed of {立替|たてかえ} (\"advancing on behalf of another\") + {金|きん} (\"money\"). The underlying verb is {立|た}て{替|か}える (\"to pay on someone's behalf, to advance\"). A standard workplace and accounting term; also appears on balance sheets as a receivable account.\n\nUSAGE:\n- Commonly used in workplace contexts for expenses paid out of pocket that will be reimbursed: travel, taxi fares, office supplies, client meals.\n- In accounting, {立替金|たてかえきん} is a current asset on the balance sheet, representing money owed back by a third party (an employee, a client, or another company).\n- The reimbursement process is called {精算|せいさん} (\"settlement\") or {清算|せいさん}.\n\nCOMMON COLLOCATIONS:\n- {立替金|たてかえきん}を{精算|せいさん}する: to settle an advance payment (i.e., reimburse it)\n- {立替金|たてかえきん}を{請求|せいきゅう}する: to request reimbursement of an advance\n- {立替金|たてかえきん}の{返金|へんきん}: refund/reimbursement of an advance\n- {出張|しゅっちょう}の{立替金|たてかえきん}: business-trip advance\n- {立替金|たてかえきん}{明細|めいさい}: itemized list of advanced expenses\n\nRELATED WORDS:\n- {立|た}て{替|か}える: to pay on someone's behalf, to advance (money)\n- {精算|せいさん}: settlement — the act of reimbursing or reconciling\n- {経費|けいひ}: expenses (general)\n- {経費精算|けいひせいさん}: expense reimbursement\n- {仮払金|かりばらいきん}: cash advance — money paid out in advance of known expenses (contrast: {立替金|たてかえきん} is paid after the expense is incurred)\n- {領収書|りょうしゅうしょ}: receipt",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05759_tatekaeru",
+      "reading": "たてかえる",
+      "headword": "{立|た}て{替|か}える",
+      "label": "to pay on someone's behalf, to advance"
+    },
+    {
+      "type": "related",
+      "target_id": "10899_seisan",
+      "reading": "せいさん",
+      "headword": "{精算|せいさん}",
+      "label": "settlement"
+    },
+    {
+      "type": "related",
+      "target_id": "04696_keihi",
+      "reading": "けいひ",
+      "headword": "{経費|けいひ}",
+      "label": "expenses"
+    },
+    {
+      "type": "related",
+      "target_id": "30208_keihiseisan",
+      "reading": "けいひせいさん",
+      "headword": "経費精算",
+      "label": "expense reimbursement"
+    },
+    {
+      "type": "related",
+      "target_id": "30243_karibaraikin",
+      "reading": "かりばらいきん",
+      "headword": "{仮払金|かりばらいきん}",
+      "label": "cash advance"
+    },
+    {
+      "type": "related",
+      "target_id": "04697_ryoushuusho",
+      "reading": "りょうしゅうしょ",
+      "headword": "{領収書|りょうしゅうしょ}",
+      "label": "receipt"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +104,6 @@
       ]
     },
     "created": "2026-04-12T21:20:28Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

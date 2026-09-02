@@ -18,7 +18,9 @@
       "english": "Please tell me your phone number.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10159_denwabangou_ex2",
@@ -26,7 +28,9 @@
       "english": "I dialed the wrong number.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10159_denwabangou_ex3",
@@ -34,20 +38,41 @@
       "english": "I wrote down her phone number.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{電話番号|でんわばんごう} is a compound of {電話|でんわ} (telephone) + {番号|ばんごう} (number).\n\nCOMMON COLLOCATIONS:\n- {電話番号|でんわばんごう}を{教|おし}える: to give someone a phone number\n- {電話番号|でんわばんごう}を{聞|き}く: to ask for a phone number\n- {電話番号|でんわばんごう}を{間違|まちが}える: to dial the wrong number\n- {電話番号|でんわばんごう}を{登録|とうろく}する: to register a phone number\n\nTYPES:\n- {携帯|けいたい}（{電話|でんわ}）{番号|ばんごう}: mobile phone number\n- {固定|こてい}{電話|でんわ}{番号|ばんごう}: landline number\n- フリーダイヤル: toll-free number\n\nJAPANESE PHONE NUMBERS:\nJapanese phone numbers typically start with an area code (e.g., 03 for Tokyo, 06 for Osaka). Mobile numbers start with 080, 090, or 070. Numbers are read digit by digit.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20420_keitaibangou",
+      "reading": "けいたいばんごう",
+      "headword": "{携帯番号|けいたいばんごう}",
+      "label": "mobile phone number"
+    },
+    {
+      "type": "related",
+      "target_id": "20953_shigaikyokuban",
+      "reading": "しがいきょくばん",
+      "headword": "{市外局番|しがいきょくばん}",
+      "label": "area code"
+    }
+  ],
   "metadata": {
     "created": "2026-02-05T11:49:02Z",
-    "modified": "2026-03-25T04:08:57Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

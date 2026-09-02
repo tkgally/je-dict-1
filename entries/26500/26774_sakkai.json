@@ -3,7 +3,7 @@
   "headword": "{颯快|さっかい}",
   "reading": "さっかい",
   "romaji": "sakkai",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "brisk; refreshing; invigorating",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Composed of {颯|さつ} (suddenly, briskly — evoking the sound and feel of wind) and {快|かい} (pleasant, refreshing). A literary and somewhat formal word that conveys both physical freshness and an energetic, admirable quality. The character {颯|さつ} appears in the more common {颯爽|さっそう} (dashing, gallant).\n\nCOMMON COLLOCATIONS:\n- {颯快|さっかい}な{風|かぜ}: a brisk wind\n- {颯快|さっかい}な{空気|くうき}: crisp air\n- {颯快|さっかい}な{人柄|ひとがら}: a brisk, refreshing personality\n\nSIMILAR WORDS:\n- {爽快|そうかい}: refreshing, exhilarating — more common; emphasizes feeling refreshed\n- {颯爽|さっそう}: dashing, gallant — describes an impressive, vigorous appearance\n- {清々|すがすが}しい: refreshing, crisp — an i-adjective for clean, fresh feelings",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07913_soukai",
+      "reading": "そうかい",
+      "headword": "{爽快|そうかい}",
+      "label": "refreshing, exhilarating"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09448_sassou",
+      "reading": "さっそう",
+      "headword": "{颯爽|さっそう}",
+      "label": "dashing, gallant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07900_sugasugashii",
+      "reading": "すがすがしい",
+      "headword": "{清々|すがすが}しい",
+      "label": "refreshing, crisp"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +83,6 @@
       "domain": []
     },
     "created": "2026-05-04T16:25:12Z",
-    "modified": "2026-05-04T16:25:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

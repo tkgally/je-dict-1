@@ -17,7 +17,9 @@
       "id": "18930_akawain_ex1",
       "japanese": "{赤|あか}ワインをグラスで{一杯|いっぱい}。",
       "english": "One glass of red wine, please.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18930_akawain_ex2",
       "japanese": "{肉料理|にくりょうり}には{赤|あか}ワインが{合|あ}う。",
       "english": "Red wine goes well with meat dishes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "18930_akawain_ex3",
       "japanese": "フランス{産|さん}の{赤|あか}ワインをお{土産|みやげ}に{買|か}ってきた。",
       "english": "I bought a French red wine as a souvenir.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -48,15 +54,29 @@
     }
   ],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27583_rozewain",
+      "reading": "ろぜわいん",
+      "headword": "ロゼワイン",
+      "label": "rosé wine"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "consumption"]
+      "semantic": [
+        "food",
+        "consumption"
+      ]
     },
     "created": "2026-03-23T09:31:33Z",
-    "modified": "2026-05-05T06:07:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

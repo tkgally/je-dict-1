@@ -17,7 +17,9 @@
       "id": "28971_shoukairyou_ex1",
       "japanese": "{紹介料|しょうかいりょう}を{払|はら}う。",
       "english": "To pay a referral fee.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28971_shoukairyou_ex2",
       "japanese": "{紹介料|しょうかいりょう}は{無料|むりょう}です。",
       "english": "There is no referral fee.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "28971_shoukairyou_ex3",
       "japanese": "{採用|さいよう}が{決|き}まった{場合|ばあい}にのみ{紹介料|しょうかいりょう}が{発生|はっせい}する。",
       "english": "A referral fee is charged only when a hire is confirmed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {紹介|しょうかい} (introduction) + {料|りょう} (fee). Standard term in industries where customers or candidates are brokered.\n\nCOMMON COLLOCATIONS:\n- {紹介料|しょうかいりょう}を{払|はら}う: to pay a referral fee\n- {紹介料|しょうかいりょう}が{発生|はっせい}する: a referral fee is charged\n- {紹介料|しょうかいりょう}{無料|むりょう}: no referral fee\n- {成功|せいこう}{報酬|ほうしゅう}{型|がた}{紹介料|しょうかいりょう}: success-based referral fee\n\nSIMILAR WORDS:\n- {仲介料|ちゅうかいりょう}: brokerage fee — for transactions like real estate or business deals\n- {手数料|てすうりょう}: service charge; commission — broader term for any handling fee\n- {成功報酬|せいこうほうしゅう}: success fee — paid only when a deal closes",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05423_tesuuryou",
+      "reading": "てすうりょう",
+      "headword": "{手数料|てすうりょう}",
+      "label": "service charge"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29464_seikouhoushuu",
+      "reading": "せいこうほうしゅう",
+      "headword": "{成功報酬|せいこうほうしゅう}",
+      "label": "success fee"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["business"],
-      "domain": ["business"]
+      "politeness": "plain",
+      "semantic": [
+        "business"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-06-08T04:06:16Z",
-    "modified": "2026-06-08T04:06:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

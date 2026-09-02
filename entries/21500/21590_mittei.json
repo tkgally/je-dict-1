@@ -17,7 +17,9 @@
       "id": "21590_mittei_ex1",
       "japanese": "{密偵|みってい}を{送|おく}り{込|こ}んだ。",
       "english": "They sent in a spy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21590_mittei_ex2",
       "japanese": "{彼|かれ}は{敵|てき}の{密偵|みってい}だった。",
       "english": "He was an enemy spy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,59 @@
       "id": "21590_mittei_ex3",
       "japanese": "{幕府|ばくふ}は{各地|かくち}に{密偵|みってい}を{放|はな}って、{反乱|はんらん}の{動|うご}きを{監視|かんし}していた。",
       "english": "The shogunate dispatched spies throughout the land to monitor rebellious movements.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {密|みつ} (secret) and {偵|てい} (spy, scout). Has a literary and historical flavor, often appearing in period dramas, historical fiction, and detective stories.\n\nCOMMON COLLOCATIONS:\n- {密偵|みってい}を{送|おく}る: to send a spy\n- {密偵|みってい}を{放|はな}つ: to dispatch a spy\n- {密偵|みってい}を{送|おく}り{込|こ}む: to plant a spy\n- {密偵|みってい}{活動|かつどう}: espionage activities\n\nSIMILAR WORDS:\n- スパイ: spy — the modern loanword, used for contemporary espionage\n- {忍者|にんじゃ}: ninja — feudal Japanese covert agent, distinct role from {密偵|みってい}\n- {諜報員|ちょうほういん}: intelligence agent — formal term for a modern intelligence operative\n- {内通者|ないつうしゃ}: informant, mole — someone who secretly passes information from within an organization",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18236_supai",
+      "reading": "すぱい",
+      "headword": "スパイ",
+      "label": "spy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11112_ninja",
+      "reading": "にんじゃ",
+      "headword": "{忍者|にんじゃ}",
+      "label": "ninja"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30160_chouhouin",
+      "reading": "ちょうほういん",
+      "headword": "{諜報員|ちょうほういん}",
+      "label": "intelligence agent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30337_naitsuusha",
+      "reading": "ないつうしゃ",
+      "headword": "{内通者|ないつうしゃ}",
+      "label": "informant, mole"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person", "history"]
+      "semantic": [
+        "person",
+        "history"
+      ]
     },
     "created": "2026-04-02T17:27:03Z",
-    "modified": "2026-04-02T17:27:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

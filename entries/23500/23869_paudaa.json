@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Loanword from English 'powder'. Used in a narrower range of contexts than the English word — most often for cosmetics, certain food ingredients, and powder snow. For generic 'powder' (flour, dust, medicinal powder), the native word {粉|こな} is usually preferred.\n\nCOMMON COLLOCATIONS:\n- パウダーファンデーション: powder foundation (makeup)\n- パウダーをはたく: to pat on powder (makeup)\n- ベビーパウダー: baby powder\n- プロテインパウダー: protein powder\n- ココアパウダー: cocoa powder\n- パウダースノー: powder snow (dry, light snow good for skiing)\n\nSIMILAR WORDS:\n- {粉|こな}: powder, flour — the general native word, used for flour, dust, medicinal powder, and any fine granular material.\n- {粉末|ふんまつ}: powder, powdered form — more technical or formal, used on product labels and in scientific contexts (e.g., {粉末|ふんまつ}ジュース 'powdered juice').\n- {白粉|おしろい}: traditional white face powder used in classical Japanese makeup, such as by geisha.\n\nREGISTER:\nパウダー feels modern, somewhat stylish, and is strongly associated with cosmetics and imported product categories. Native words like {粉|こな} or {粉末|ふんまつ} are used for everyday or technical descriptions.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02766_kona",
+      "reading": "こな",
+      "headword": "{粉|こな}",
+      "label": "powder, flour"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13772_funmatsu",
+      "reading": "ふんまつ",
+      "headword": "{粉末|ふんまつ}",
+      "label": "powder, powdered form"
+    },
+    {
+      "type": "related",
+      "target_id": "23361_konshiiraa",
+      "reading": "こんしーらー",
+      "headword": "コンシーラー",
+      "label": "concealer (makeup)"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -60,6 +82,6 @@
       ]
     },
     "created": "2026-04-15T09:08:58Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

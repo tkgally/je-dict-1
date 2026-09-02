@@ -22,7 +22,9 @@
       "id": "26333_tsuki_ex1",
       "japanese": "{朝食|ちょうしょく}{付|つ}きのホテルを{予約|よやく}した。",
       "english": "I booked a hotel with breakfast included.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "26333_tsuki_ex2",
       "japanese": "この{部屋|へや}はエアコン{付|つ}きです。",
       "english": "This room comes with air conditioning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "26333_tsuki_ex3",
       "japanese": "{駐車場|ちゅうしゃじょう}{付|つ}きの{物件|ぶっけん}を{探|さが}しているのですが、この{辺|あた}りにはなかなかないですね。",
       "english": "I'm looking for a property with a parking space, but there aren't many in this area.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "26333_tsuki_ex4",
       "japanese": "{一人|ひとり}{付|つ}き{千円|せんえん}だ。",
       "english": "It's 1,000 yen per person.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "26333_tsuki_ex5",
       "japanese": "{月|つき}{付|つ}き{五万円|ごまんえん}の{家賃|やちん}だ。",
       "english": "The rent is 50,000 yen per month.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,21 +72,43 @@
       "id": "26333_tsuki_ex6",
       "japanese": "このプランは{一回|いっかい}{付|つ}き{三十分|さんじゅっぷん}の{無料|むりょう}{相談|そうだん}が{含|ふく}まれている。",
       "english": "This plan includes thirty minutes of free consultation per session.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From the verb {付|つ}く (to attach, to be included). As a suffix, it is one of the most frequently encountered functional elements in everyday Japanese — seen on menus, in real estate ads, on product packaging, and in spoken language.\n\nUSAGE:\nSense 1 attaches directly to nouns: {朝食|ちょうしょく}{付|つ}き (with breakfast), バス{付|つ}き (with a bath), {保証|ほしょう}{付|つ}き (with a guarantee). This pattern is extremely productive and can be applied to almost any noun.\n\nSense 2 follows counters or time units: {一人|ひとり}{付|つ}き (per person), {一日|いちにち}{付|つ}き (per day).\n\nCOMMON COLLOCATIONS:\n- {朝食|ちょうしょく}{付|つ}き: with breakfast included\n- {送料|そうりょう}{込|こ}み{税|ぜい}{込|こ}み{付|つ}き: with shipping and tax included\n- {保証|ほしょう}{付|つ}き: with a guarantee\n- {家具|かぐ}{付|つ}き: furnished\n- {一人|ひとり}{付|つ}き: per person\n\nSIMILAR WORDS:\n- {込|こ}み: included — often used for prices ({税込|ぜいこ}み, {送料込|そうりょうこ}み)\n- {入|い}り: containing — for ingredients or contents ({砂糖入|さとうい}り, {氷入|こおりい}り)\n- あたり: per — more colloquial alternative for sense 2 ({一人|ひとり}あたり)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28615_komi",
+      "reading": "こみ",
+      "headword": "{込|こ}み",
+      "label": "included"
+    },
+    {
+      "type": "related",
+      "target_id": "25744_fuudotsuki",
+      "reading": "ふーどつき",
+      "headword": "フード{付|つ}き",
+      "label": "hooded"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["suffix"],
-      "semantic": ["grammatical"]
+      "pos": [
+        "suffix"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "grammatical"
+      ]
     },
     "created": "2026-04-30T16:27:17Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

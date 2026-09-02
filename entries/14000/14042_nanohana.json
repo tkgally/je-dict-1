@@ -19,7 +19,9 @@
       "english": "Rapeseed flowers bloom when spring comes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14042_nanohana_ex2",
@@ -27,7 +29,9 @@
       "english": "Boiled rapeseed greens taste like spring.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14042_nanohana_ex3",
@@ -35,21 +39,43 @@
       "english": "The rapeseed flower fields stretching as far as the eye can see are beloved as a spring tradition in this region.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOne of the iconic images of spring in Japan. Fields of bright yellow {菜|な}の{花|はな} are a popular sight for seasonal outings. The plant is also eaten as a spring vegetable, typically prepared as おひたし (boiled greens in dashi).\n\nCULTURAL NOTE:\n{菜|な}の{花|はな} appears in classical poetry and is a seasonal word ({季語|きご}) for spring in haiku.\n\nCOMMON COLLOCATIONS:\n- {菜|な}の{花|はな}{畑|ばたけ}: rapeseed flower field\n- {菜|な}の{花|はな}のおひたし: boiled rapeseed greens",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19785_aburana",
+      "reading": "あぶらな",
+      "headword": "{油菜|あぶらな}",
+      "label": "rapeseed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24601_natane",
+      "reading": "なたね",
+      "headword": "{菜種|なたね}",
+      "label": "rapeseed"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T10:12:57Z",
-    "modified": "2026-02-27T10:12:57Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["plant-flower", "food"]
+      "semantic": [
+        "plant-flower",
+        "food"
+      ]
     }
   }
 }

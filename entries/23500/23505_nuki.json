@@ -3,7 +3,7 @@
   "headword": "{抜|ぬ}き",
   "reading": "ぬき",
   "romaji": "nuki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suffix",
   "gloss": "without; excluding; leaving out",
   "definitions": [
     {
@@ -22,7 +22,9 @@
       "id": "23505_nuki_ex1",
       "japanese": "わさび{抜|ぬ}きでお{願|ねが}いします。",
       "english": "Without wasabi, please.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "23505_nuki_ex2",
       "japanese": "{朝食|ちょうしょく}{抜|ぬ}きで{出|で}かけた。",
       "english": "I went out without having breakfast.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "23505_nuki_ex3",
       "japanese": "{冗談|じょうだん}{抜|ぬ}きで、これは{大変|たいへん}な{問題|もんだい}だ。",
       "english": "Joking aside, this is a serious problem.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "23505_nuki_ex4",
       "japanese": "{彼|かれ}{抜|ぬ}きではこのプロジェクトは{成功|せいこう}しなかっただろう。",
       "english": "Without him, this project probably wouldn't have succeeded.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "23505_nuki_ex5",
       "japanese": "{手抜|てぬ}きの{仕事|しごと}は{許|ゆる}されない。",
       "english": "Sloppy work is not tolerated.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,46 @@
       "id": "23505_nuki_ex6",
       "japanese": "{手抜|てぬ}き{料理|りょうり}でも{意外|いがい}と{美味|おい}しくできる。",
       "english": "Even shortcuts cooking can turn out surprisingly delicious.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Derived from the verb {抜|ぬ}く (to pull out, remove). As a suffix, {抜|ぬ}き attaches directly to a noun: Xを{抜|ぬ}く → X{抜|ぬ}き (without X). This is one of the most practical suffix patterns for daily life in Japan, especially when ordering food.\n\nSense 1 (\"without\") is extremely common. Learners will encounter it constantly at restaurants (わさび{抜|ぬ}き, {氷|こおり}{抜|ぬ}き) and in everyday expressions like {冗談|じょうだん}{抜|ぬ}き (joking aside) and {朝食|ちょうしょく}{抜|ぬ}き (skipping breakfast).\n\nSense 2 relates to the compound {手抜|てぬ}き, which is itself a very common word meaning \"cutting corners\" or \"being sloppy.\"\n\nCOMMON COLLOCATIONS:\n- わさび{抜|ぬ}き: without wasabi\n- {氷|こおり}{抜|ぬ}き: without ice\n- {朝食|ちょうしょく}{抜|ぬ}き: skipping breakfast\n- {冗談|じょうだん}{抜|ぬ}き: joking aside\n- {手抜|てぬ}き: cutting corners, sloppy work\n- {手抜|てぬ}き{料理|りょうり}: quick-and-easy cooking\n\nSIMILAR WORDS:\n- なし: without, none — a more general word; {抜|ぬ}き implies active removal\n- {除|のぞ}く: to exclude — a verb form; {抜|ぬ}き is used as a compact suffix\n- {無|な}し: without — often interchangeable in food orders, but {抜|ぬ}き emphasizes \"take it out\"",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02391_nozoku",
+      "reading": "のぞく",
+      "headword": "{除|のぞ}く",
+      "label": "to exclude"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03779_nashi",
+      "reading": "なし",
+      "headword": "{無|な}し",
+      "label": "without"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "suffix"],
+      "pos": [
+        "noun",
+        "suffix"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "daily-life"]
+      "semantic": [
+        "food",
+        "daily-life"
+      ]
     },
     "created": "2026-04-12T14:09:57Z",
-    "modified": "2026-06-15T07:58:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

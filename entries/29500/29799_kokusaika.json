@@ -3,7 +3,7 @@
   "headword": "{国際化|こくさいか}",
   "reading": "こくさいか",
   "romaji": "kokusaika",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "internationalization; becoming more global",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Formed from {国際|こくさい} (international) + the suffix {化|か} (-ization). Takes する to form a verb: {国際化|こくさいか}する (to internationalize). A frequent theme in discussions of business, education, and society.\n\nCOMMON COLLOCATIONS:\n- {国際化|こくさいか}が{進|すす}む: internationalization advances\n- {国際化|こくさいか}を{目指|めざ}す: to aim for internationalization\n- {国際化|こくさいか}{時代|じだい}: the age of internationalization\n\nSIMILAR WORDS:\n- グローバル{化|か}: globalization — emphasizes worldwide integration; often interchangeable in business contexts.\n- {国際的|こくさいてき}: international — an adjective describing something with an international character.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30240_guroobaruka",
+      "reading": "ぐろーばるか",
+      "headword": "グローバル{化|か}",
+      "label": "globalization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06457_kokusaiteki",
+      "reading": "こくさいてき",
+      "headword": "{国際的|こくさいてき}",
+      "label": "international"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "society",
         "action"
@@ -63,7 +79,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-12T21:19:59Z",
-    "modified": "2026-07-12T21:19:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

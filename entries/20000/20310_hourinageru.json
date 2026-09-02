@@ -3,7 +3,7 @@
   "headword": "{放|ほう}り{投|な}げる",
   "reading": "ほうりなげる",
   "romaji": "hourinageru",
-  "part_of_speech": "ichidan verb, transitive",
+  "part_of_speech": "verb (ichidan, transitive)",
   "gloss": "to throw away; to toss carelessly; to abandon",
   "conjugation": {
     "type": "ichidan",
@@ -171,6 +171,22 @@
   ],
   "notes": "A compound verb from {放|ほう}る (to throw, to toss) + {投|な}げる (to throw). The combination intensifies the carelessness or force of the throw. Both senses carry a nuance of roughness or disregard.\n\nTRANSITIVITY:\nTransitive.\n\nCOMMON COLLOCATIONS:\n- {仕事|しごと}を{放|ほう}り{投|な}げる — to abandon one's work\n- ボールを{放|ほう}り{投|な}げる — to toss a ball\n- {全部|ぜんぶ}{放|ほう}り{投|な}げる — to give up on everything\n- {途中|とちゅう}で{放|ほう}り{投|な}げる — to quit midway\n\nSIMILAR WORDS:\n- {投|な}げ{出|だ}す — to throw out, to abandon (very similar to sense 2; equally common)\n- {放|ほう}り{出|だ}す — to throw out, to eject (emphasizes expulsion or abandonment)\n- {投|な}げる — to throw (neutral; lacks the careless or rough nuance)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10589_nagedasu",
+      "reading": "なげだす",
+      "headword": "{投|な}げ{出|だ}す",
+      "label": "to throw out, to abandon (very similar…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16163_houridasu",
+      "reading": "ほうりだす",
+      "headword": "{放|ほう}り{出|だ}す",
+      "label": "to throw out, to eject"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -187,6 +203,6 @@
       "verb_class": "ichidan"
     },
     "created": "2026-03-28T20:15:56Z",
-    "modified": "2026-03-28T20:15:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

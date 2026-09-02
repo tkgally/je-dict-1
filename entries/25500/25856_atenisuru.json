@@ -17,7 +17,9 @@
       "id": "25856_atenisuru_ex1",
       "japanese": "{彼|かれ}を{当|あ}てにしないほうがいい。",
       "english": "You'd better not count on him.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25856_atenisuru_ex2",
       "japanese": "ボーナスを{当|あ}てにして{旅行|りょこう}を{計画|けいかく}した。",
       "english": "I planned a trip counting on my bonus.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "25856_atenisuru_ex3",
       "japanese": "{天気|てんき}{予報|よほう}は{当|あ}てにならないこともある。",
       "english": "Weather forecasts can sometimes be unreliable.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,21 +47,66 @@
       "id": "25856_atenisuru_ex4",
       "japanese": "{親|おや}の{援助|えんじょ}を{当|あ}てにしていては{自立|じりつ}できない。",
       "english": "You can't become independent if you keep relying on your parents' support.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{当|あ}て means \"aim\" or \"expectation,\" and {当|あ}てにする means to make something one's expectation or reliance. The negative form {当|あ}てにならない (unreliable) is extremely common and is one of the most natural ways to say something is unreliable in Japanese.\n\nCOMMON PATTERNS:\n- 〜を{当|あ}てにする: to count on ~\n- {当|あ}てにならない: unreliable; can't be counted on\n- {当|あ}てにしないほうがいい: you'd better not count on it\n- {当|あ}てにしていた: was counting on it\n\nSIMILAR WORDS:\n- {頼|たよ}りにする: to rely on; to depend on — warmer nuance; implies trust and emotional dependence\n- {期待|きたい}する: to expect; to look forward to — more neutral; focuses on anticipation\n- {信用|しんよう}する: to trust — focuses on believing someone is trustworthy",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22186_tayorinisuru",
+      "reading": "たよりにする",
+      "headword": "{頼|たよ}りにする",
+      "label": "to rely on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06065_kitaisuru",
+      "reading": "きたいする",
+      "headword": "{期待|きたい}する",
+      "label": "to expect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25371_shinyousuru",
+      "reading": "しんようする",
+      "headword": "{信用|しんよう}する",
+      "label": "to trust"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20026_izonsuru",
+      "reading": "いぞんする",
+      "headword": "{依存|いぞん}する",
+      "label": "to depend on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27653_ateganai",
+      "reading": "あてがない",
+      "headword": "{当|あ}てがない",
+      "label": "to have no prospect"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
-      "semantic": ["daily-life", "abstract"]
+      "pos": [
+        "expression"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "daily-life",
+        "abstract"
+      ]
     },
     "created": "2026-04-27T15:17:45Z",
-    "modified": "2026-04-27T15:17:45Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

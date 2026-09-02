@@ -4,7 +4,7 @@
   "headword": "とことこ",
   "reading": "とことこ",
   "romaji": "tokotoko",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "trotting along; toddling; walking with quick little steps",
   "definitions": [
     {
@@ -46,7 +46,22 @@
     }
   ],
   "notes": "A mimetic adverb ({擬態語|ぎたいご}). Used with or without と before the verb; とことこと is slightly more literary.\n\nCOMMON COLLOCATIONS:\n- とことこ{歩|ある}く: to trot along\n- とことこついてくる: to come trotting after someone\n- とことこ{走|はし}る: to run along with small quick steps\n\nSIMILAR WORDS:\n- よちよち: toddling unsteadily — emphasizes wobbliness, used of babies just learning to walk\n- すたすた: striding briskly — purposeful, adult, no hint of cuteness\n- ちょこちょこ: moving in small quick steps — similar, but suggests restless back-and-forth rather than steady progress",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05840_sutasuta",
+      "reading": "すたすた",
+      "headword": "すたすた",
+      "label": "striding briskly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07124_chokochoko",
+      "reading": "ちょこちょこ",
+      "headword": "ちょこちょこ",
+      "label": "moving in small quick steps"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -55,7 +70,7 @@
         "onomatopoeia"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "movement",
         "descriptive"
@@ -63,6 +78,6 @@
       "domain": []
     },
     "created": "2026-07-31T21:20:10Z",
-    "modified": "2026-07-31T21:20:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

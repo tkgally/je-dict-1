@@ -3,7 +3,7 @@
   "headword": "ネットショッピング",
   "reading": "ねっとしょっぴんぐ",
   "romaji": "nettoshoppingu",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "online shopping",
   "definitions": [
     {
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "{ネット} (short for インターネット) + ショッピング. Buying goods online.\n\nCOMMON COLLOCATIONS:\n- ネットショッピングを{利用|りよう}する: to use online shopping\n- ネットショッピングサイト: online shopping site\n\nSIMILAR WORDS:\n- {通販|つうはん}: mail-order sales — includes catalog and TV as well as online\n- オンラインショッピング: online shopping — a near-synonym in fuller katakana",
+  "notes": "ネット (short for インターネット) + ショッピング. Buying goods online.\n\nCOMMON COLLOCATIONS:\n- ネットショッピングを{利用|りよう}する: to use online shopping\n- ネットショッピングサイト: online shopping site\n\nSIMILAR WORDS:\n- {通販|つうはん}: mail-order sales — includes catalog and TV as well as online\n- オンラインショッピング: online shopping — a near-synonym in fuller katakana",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17464_tsuuhan",
+      "reading": "つうはん",
+      "headword": "{通販|つうはん}",
+      "label": "mail-order sales"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30464_onrainshoppingu",
+      "reading": "おんらいんしょっぴんぐ",
+      "headword": "オンラインショッピング",
+      "label": "online shopping"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22847_nettotsuuhan",
+      "reading": "ねっとつうはん",
+      "headword": "ネット{通販|つうはん}",
+      "label": "online shopping"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26167_onraintorihiki",
+      "reading": "おんらいんとりひき",
+      "headword": "オンライン{取引|とりひき}",
+      "label": "online transaction"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +84,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "shopping"
       ],
@@ -64,7 +94,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-10T12:26:59Z",
-    "modified": "2026-07-10T12:26:59Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

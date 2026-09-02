@@ -2,7 +2,7 @@
   "id": "20348_shutsujousuru",
   "headword": "{出場|しゅつじょう}する",
   "reading": "しゅつじょうする",
-  "part_of_speech": "noun, suru verb, intransitive",
+  "part_of_speech": "noun, suru verb (intransitive)",
   "gloss": "to participate; to compete; to enter (a competition)",
   "conjugation": {
     "type": "suru",
@@ -135,6 +135,22 @@
   ],
   "notes": "Composed of {出|しゅつ} (go out) + {場|じょう} (place, arena). Takes the particle に for the event: ～に{出場|しゅつじょう}する. The noun form {出場|しゅつじょう} is also very common.\n\nCOMMON COLLOCATIONS:\n- {大会|たいかい}に{出場|しゅつじょう}する: to enter a tournament\n- {試合|しあい}に{出場|しゅつじょう}する: to compete in a match\n- {出場|しゅつじょう}{資格|しかく}: qualification to participate\n- {出場|しゅつじょう}{選手|せんしゅ}: participating athlete\n- {出場|しゅつじょう}{停止|ていし}: suspension from competition\n\nSIMILAR WORDS:\n- {参加|さんか}する: to participate — broader, includes any kind of participation (meetings, events)\n- {出場|しゅつじょう}する: specifically for competitions and sporting events\n- {出演|しゅつえん}する: to appear, to perform — for shows, TV, stage performances",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25408_sankasuru",
+      "reading": "さんかする",
+      "headword": "{参加|さんか}する",
+      "label": "to participate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11732_shutsuen",
+      "reading": "しゅつえん",
+      "headword": "{出演|しゅつえん}",
+      "label": "to appear, to perform"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +168,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T21:19:42Z",
-    "modified": "2026-07-28T00:51:36Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "30098_hiroen_ex1",
       "japanese": "{広縁|ひろえん}でお{茶|ちゃ}を{飲|の}む。",
       "english": "To drink tea on the wide veranda.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30098_hiroen_ex2",
       "japanese": "この{部屋|へや}には{広縁|ひろえん}が{付|つ}いている。",
       "english": "This room has a wide veranda.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "30098_hiroen_ex3",
       "japanese": "{旅館|りょかん}の{広縁|ひろえん}から{庭園|ていえん}を{眺|なが}めるのは{格別|かくべつ}だ。",
       "english": "Gazing at the garden from the ryokan's wide veranda is something special.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A wide {縁側|えんがわ} — the wooden veranda strip along a Japanese-style room — broad enough to hold a small table and chairs. Frequently found in ryokan guest rooms as a relaxing spot beside the window.\n\nCOMMON COLLOCATIONS:\n- {広縁|ひろえん}{付|つ}きの{部屋|へや}: a room with a wide veranda\n- {広縁|ひろえん}でくつろぐ: to relax on the wide veranda\n\nSIMILAR WORDS:\n- {縁側|えんがわ}: engawa — the standard, narrower wooden veranda\n- ベランダ: balcony — a modern outdoor platform, not the wooden interior-edge veranda",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04495_engawa",
+      "reading": "えんがわ",
+      "headword": "{縁側|えんがわ}",
+      "label": "engawa"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05072_beranda",
+      "reading": "べらんだ",
+      "headword": "ベランダ",
+      "label": "balcony"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["building"],
+      "politeness": "plain",
+      "semantic": [
+        "building"
+      ],
       "domain": []
     },
     "created": "2026-07-25T03:20:29Z",
-    "modified": "2026-07-25T03:20:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

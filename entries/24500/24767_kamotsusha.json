@@ -46,17 +46,42 @@
   ],
   "notes": "A compound of {貨物|かもつ} (freight, cargo) and {車|しゃ} (vehicle, car). Can refer to either a railway freight car or a road vehicle used for hauling goods.\n\nIn the railway context, {貨物車|かもつしゃ} specifically refers to individual freight cars as distinct from {貨物列車|かもつれっしゃ} (freight train), which is the entire train. On roads, it refers to trucks and other cargo-carrying vehicles.\n\nCOMMON COLLOCATIONS:\n- {貨物車|かもつしゃ}の{通行|つうこう}: freight vehicle traffic\n- {貨物車|かもつしゃ}{専用|せんよう}: freight vehicles only\n- {有蓋|ゆうがい}{貨物車|かもつしゃ}: covered freight car (railway)\n\nSIMILAR WORDS:\n- {貨物列車|かもつれっしゃ}: freight train — the entire train, not individual cars\n- トラック: truck — the common word for a cargo truck on the road\n- {貨車|かしゃ}: freight car — shortened form, used mainly for railway cars",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16297_kamotsuressha",
+      "reading": "かもつれっしゃ",
+      "headword": "{貨物列車|かもつれっしゃ}",
+      "label": "freight train"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03863_torakku",
+      "reading": "とらっく",
+      "headword": "トラック",
+      "label": "truck"
+    },
+    {
+      "type": "related",
+      "target_id": "15018_shouyousha",
+      "reading": "しょうようしゃ",
+      "headword": "{商用車|しょうようしゃ}",
+      "label": "commercial vehicle"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "transportation"
       ]
     },
     "created": "2026-04-20T14:39:02Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "I consulted with the priest.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17961_shinpu_ex2",
@@ -27,7 +29,9 @@
       "english": "The priest held Mass at the church.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17961_shinpu_ex3",
@@ -35,10 +39,12 @@
       "english": "At the wedding, the priest prompted the two to say their vows.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nSpecifically refers to Catholic or Orthodox priests. For Protestant ministers, {牧師|ぼくし} is used instead. In Japanese wedding contexts, the officiant at a Christian-style ceremony is often called {神父|しんぷ}, though many are actually Protestant ministers.\n\nCOMMON COLLOCATIONS:\n- {神父|しんぷ}さま (Father — respectful address)\n- {神父|しんぷ}に{告解|こっかい}する (confess to a priest)\n- {教会|きょうかい}の{神父|しんぷ} (the church's priest)\n\nSIMILAR WORDS:\n- {牧師|ぼくし}: pastor, minister — Protestant clergy\n- {僧侶|そうりょ}: Buddhist monk/priest\n- {司祭|しさい}: priest — more formal/official term for Catholic clergy\n\nNOTE:\nDo not confuse with the homophone {新婦|しんぷ} (bride).",
+  "notes": "USAGE:\nSpecifically refers to Catholic or Orthodox priests. For Protestant ministers, {牧師|ぼくし} is used instead. In Japanese wedding contexts, the officiant at a Christian-style ceremony is often called {神父|しんぷ}, though many are actually Protestant ministers.\nDo not confuse with the homophone {新婦|しんぷ} (bride).\n\nCOMMON COLLOCATIONS:\n- {神父|しんぷ}さま (Father — respectful address)\n- {神父|しんぷ}に{告解|こっかい}する (confess to a priest)\n- {教会|きょうかい}の{神父|しんぷ} (the church's priest)\n\nSIMILAR WORDS:\n- {牧師|ぼくし}: pastor, minister — Protestant clergy\n- {僧侶|そうりょ}: Buddhist monk/priest\n- {司祭|しさい}: priest — more formal/official term for Catholic clergy",
   "cross_references": [
     {
       "type": "homophone",
@@ -46,18 +52,36 @@
       "reading": "しんぷ",
       "headword": "{新婦|しんぷ}",
       "label": "bride"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18229_bokushi",
+      "reading": "ぼくし",
+      "headword": "{牧師|ぼくし}",
+      "label": "pastor, minister"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11529_souryo",
+      "reading": "そうりょ",
+      "headword": "{僧侶|そうりょ}",
+      "label": "Buddhist monk/priest"
     }
   ],
   "metadata": {
     "created": "2026-03-19T10:02:10Z",
-    "modified": "2026-03-19T10:02:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation"]
+      "semantic": [
+        "occupation"
+      ]
     }
   }
 }

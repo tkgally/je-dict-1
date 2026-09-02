@@ -2,7 +2,7 @@
   "id": "10992_furikomu",
   "headword": "{振|ふ}り{込|こ}む",
   "reading": "ふりこむ",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to transfer money (to a bank account)",
   "conjugation": {
     "type": "godan",
@@ -145,7 +145,29 @@
     }
   ],
   "notes": "{振|ふ}り{込|こ}む is a transitive verb ({他動詞|たどうし}) used for bank transfers.\n\nTRANSITIVITY:\n- Transitive ({他動詞|たどうし})\n- Pattern: [money]を [account]に {振|ふ}り{込|こ}む\n- Passive: {振|ふ}り{込|こ}まれる (commonly used for salary deposits)\n\nCOMMON PATTERNS:\n- {口座|こうざ}に{振|ふ}り{込|こ}む (transfer into an account)\n- {銀行|ぎんこう}に{振|ふ}り{込|こ}む (transfer to a bank)\n- {自動|じどう}{振|ふ}り{込|こ}み (automatic transfer)\n\nRELATED WORDS:\n- {振|ふ}り{込|こ}み: noun form (bank transfer)\n- {振|ふ}り{込|こ}め{詐欺|さぎ}: wire transfer fraud (a common type of scam in Japan)\n- {送金|そうきん}: remittance (more general term)\n- {引|ひ}き{落|お}とし: automatic debit/withdrawal",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09774_soukin",
+      "reading": "そうきん",
+      "headword": "{送金|そうきん}",
+      "label": "remittance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20996_chakkinsuru",
+      "reading": "ちゃっきんする",
+      "headword": "{着金|ちゃっきん}する",
+      "label": "to receive payment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23710_hikiotosu",
+      "reading": "ひきおとす",
+      "headword": "{引|ひ}き{落|お}とす",
+      "label": "to debit"
+    }
+  ],
   "prominent_see_also": [
     {
       "target_id": "05421_furikomi",
@@ -156,7 +178,7 @@
   ],
   "metadata": {
     "created": "2026-02-12T06:50:11Z",
-    "modified": "2026-04-14T05:01:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

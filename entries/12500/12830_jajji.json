@@ -3,7 +3,7 @@
   "id": "12830_jajji",
   "headword": "ジャッジ",
   "reading": "じゃっじ",
-  "part_of_speech": "noun / suru verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "judgment, judging",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,32 @@
     }
   ],
   "notes": "USAGE:\nUsed both as a noun and as a suru verb (ジャッジする). Common in sports contexts for officiating decisions, but also used more broadly for personal or professional judgment calls.\n\nCOMMON COLLOCATIONS:\n- ジャッジする: to judge, to make a call\n- ジャッジミス: misjudgment (in sports)\n- {誤|あやま}ったジャッジ: wrong call\n\nSIMILAR WORDS:\n- {判断|はんだん}: judgment, decision (more general, used in everyday contexts)\n- {審判|しんぱん}: referee, umpire; judgment",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03571_handan",
+      "reading": "はんだん",
+      "headword": "{判断|はんだん}",
+      "label": "judgment, decision"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03331_shinpan",
+      "reading": "しんぱん",
+      "headword": "{審判|しんぱん}",
+      "label": "referee, umpire"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08628_shinpanin",
+      "reading": "しんぱんいん",
+      "headword": "{審判員|しんぱんいん}",
+      "label": "referee"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T11:50:40Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

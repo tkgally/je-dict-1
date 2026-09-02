@@ -63,11 +63,40 @@
       ]
     }
   ],
-  "notes": "{百科事典|ひゃっかじてん} literally means \"hundred-subjects dictionary\" — a comprehensive reference work covering all fields of knowledge.\n\nWORD FORMATION:\n⟦{百科|ひゃっか}→百科：08727_hyakka⟧ (hundred subjects) + ⟦{事典|じてん}→事典：21891_jiten⟧ (reference book). Note: ⟦{事典|じてん}→事典：21891_jiten⟧ (reference of things) vs. ⟦{辞典|じてん}→辞典：01640_jiten⟧ (dictionary of words) — both are read じてん but have different kanji.\n\nCOMMON COLLOCATIONS:\n- {百科事典|ひゃっかじてん}⟦で→で：00502_de⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧: to look up in an encyclopedia\n- ⟦{電子|でんし}→電子：03449_denshi⟧{百科事典|ひゃっかじてん}: electronic encyclopedia\n- ⟦オンライン→オンライン：05278_onrain⟧{百科事典|ひゃっかじてん}: online encyclopedia\n\nRELATED:\n- ⟦{辞典|じてん}→辞典：01640_jiten⟧/⟦{辞書|じしょ}→辞書：04707_jisho⟧: dictionary\n- ⟦{図鑑|ずかん}→図鑑：00437_zukan⟧: illustrated reference book (for plants, animals, etc.)\n- ⟦{用語|ようご}{集|しゅう}→用語集：23121_yougoshuu⟧: glossary",
-  "cross_references": [],
+  "notes": "{百科事典|ひゃっかじてん} literally means \"hundred-subjects dictionary\" — a comprehensive reference work covering all fields of knowledge.\n\nFORMS:\n⟦{百科|ひゃっか}→百科：08727_hyakka⟧ (hundred subjects) + ⟦{事典|じてん}→事典：21891_jiten⟧ (reference book). Note: ⟦{事典|じてん}→事典：21891_jiten⟧ (reference of things) vs. ⟦{辞典|じてん}→辞典：01640_jiten⟧ (dictionary of words) — both are read じてん but have different kanji.\n\nCOMMON COLLOCATIONS:\n- {百科事典|ひゃっかじてん}⟦で→で：00502_de⟧⟦{調|しら}べる→調べる：01213_shiraberu⟧: to look up in an encyclopedia\n- ⟦{電子|でんし}→電子：03449_denshi⟧{百科事典|ひゃっかじてん}: electronic encyclopedia\n- ⟦オンライン→オンライン：05278_onrain⟧{百科事典|ひゃっかじてん}: online encyclopedia\n\nRELATED WORDS:\n- ⟦{辞典|じてん}→辞典：01640_jiten⟧/⟦{辞書|じしょ}→辞書：04707_jisho⟧: dictionary\n- ⟦{図鑑|ずかん}→図鑑：00437_zukan⟧: illustrated reference book (for plants, animals, etc.)\n- ⟦{用語|ようご}{集|しゅう}→用語集：23121_yougoshuu⟧: glossary",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01640_jiten",
+      "reading": "じてん",
+      "headword": "{辞典|じてん}",
+      "label": "dictionary"
+    },
+    {
+      "type": "related",
+      "target_id": "04707_jisho",
+      "reading": "じしょ",
+      "headword": "{辞書|じしょ}",
+      "label": "dictionary"
+    },
+    {
+      "type": "related",
+      "target_id": "00437_zukan",
+      "reading": "ずかん",
+      "headword": "{図鑑|ずかん}",
+      "label": "illustrated reference book"
+    },
+    {
+      "type": "related",
+      "target_id": "23121_yougoshuu",
+      "reading": "ようごしゅう",
+      "headword": "{用語集|ようごしゅう}",
+      "label": "glossary"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T02:32:54Z",
-    "modified": "2026-06-04T17:10:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

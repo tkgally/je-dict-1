@@ -17,7 +17,9 @@
       "id": "26247_gyouseiku_ex1",
       "japanese": "この{市|し}は{七|なな}つの{行政区|ぎょうせいく}に{分|わ}かれている。",
       "english": "This city is divided into seven administrative wards.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26247_gyouseiku_ex2",
       "japanese": "{行政区|ぎょうせいく}ごとに{窓口|まどぐち}が{設|もう}けられている。",
       "english": "Service counters are set up for each administrative district.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "26247_gyouseiku_ex3",
       "japanese": "{横浜市|よこはまし}には{十八|じゅうはち}の{行政区|ぎょうせいく}があり、それぞれに{区役所|くやくしょ}がある。",
       "english": "Yokohama has eighteen administrative wards, each with its own ward office.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {行政|ぎょうせい} (administration; government) and {区|く} (ward; district). Refers specifically to divisions created for administrative purposes, as opposed to natural or informal regional boundaries.\n\nCOMMON COLLOCATIONS:\n- {行政区|ぎょうせいく}{画|かく}: administrative division/demarcation\n- {行政区|ぎょうせいく}{域|いき}: administrative district area\n- {行政区|ぎょうせいく}の{再編|さいへん}: reorganization of administrative districts\n- {行政区|ぎょうせいく}{分|ぶん}け: division into administrative wards\n\nJAPANESE ADMINISTRATIVE DIVISIONS:\nIn Japan, {行政区|ぎょうせいく} typically refers to the wards ({区|く}) within {政令指定都市|せいれいしていとし} (designated cities) such as {大阪市|おおさかし}, {横浜市|よこはまし}, and {名古屋市|なごやし}. These are distinct from Tokyo's {特別区|とくべつく} (special wards), which have greater autonomy.\n\nSIMILAR WORDS:\n- {区|く}: ward — the ward itself, without the administrative connotation\n- {選挙区|せんきょく}: electoral district — a district defined for voting purposes\n- {自治体|じちたい}: municipality; local government — the governing body itself, not the geographical area",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15097_senkyoku",
+      "reading": "せんきょく",
+      "headword": "{選挙区|せんきょく}",
+      "label": "electoral district"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13946_jichitai",
+      "reading": "じちたい",
+      "headword": "{自治体|じちたい}",
+      "label": "municipality"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["geography"],
-      "domain": ["legal"]
+      "semantic": [
+        "geography"
+      ],
+      "domain": [
+        "legal"
+      ]
     },
     "created": "2026-04-30T13:36:49Z",
-    "modified": "2026-04-30T13:36:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

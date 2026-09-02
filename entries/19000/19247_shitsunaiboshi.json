@@ -17,7 +17,9 @@
       "id": "19247_shitsunaiboshi_ex1",
       "japanese": "{雨|あめ}の{日|ひ}は{室内干|しつないぼ}しにする。",
       "english": "On rainy days, I dry the laundry indoors.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19247_shitsunaiboshi_ex2",
       "japanese": "{室内干|しつないぼ}しだと{乾|かわ}きにくい。",
       "english": "Laundry is hard to dry when hung indoors.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "19247_shitsunaiboshi_ex3",
       "japanese": "{梅雨|つゆ}の{時期|じき}は{室内干|しつないぼ}しが{続|つづ}くので、{除湿機|じょしつき}が{欠|か}かせない。",
       "english": "During the rainy season, indoor drying continues for days, so a dehumidifier is essential.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Hanging laundry to dry inside rather than outdoors. Especially common during {梅雨|つゆ} (rainy season), in winter, and in apartments without balconies.\n\nETYMOLOGY:\nComposed of {室内|しつない} (indoors) + {干|ほ}し (drying).\n\nCOMMON EXPRESSIONS:\n- {室内干|しつないぼ}し{用|よう}: for indoor drying (detergent, rack, etc.)\n- {部屋干|へやぼ}し: room drying (casual synonym)\n- {生乾|なまがわ}きの{臭|にお}い: musty smell from incomplete drying\n\nCONTRAST:\n- {外干|そとぼ}し / {天日干|てんぴぼ}し: sun-drying outdoors\n\nTIPS:\nUsing a {除湿機|じょしつき} (dehumidifier), {扇風機|せんぷうき} (fan), or {部屋干|へやぼ}し{用|よう}{洗剤|せんざい} (indoor-drying detergent) helps prevent odor.",
+  "notes": "Hanging laundry to dry inside rather than outdoors. Especially common during {梅雨|つゆ} (rainy season), in winter, and in apartments without balconies.\n\nETYMOLOGY:\nComposed of {室内|しつない} (indoors) + {干|ほ}し (drying).\n\nCOMMON EXPRESSIONS:\n- {室内干|しつないぼ}し{用|よう}: for indoor drying (detergent, rack, etc.)\n- {部屋干|へやぼ}し: room drying (casual synonym)\n- {生乾|なまがわ}きの{臭|にお}い: musty smell from incomplete drying\n\nSIMILAR WORDS:\n- {外干|そとぼ}し / {天日干|てんぴぼ}し: sun-drying outdoors\n\nTIPS:\nUsing a {除湿機|じょしつき} (dehumidifier), {扇風機|せんぷうき} (fan), or {部屋干|へやぼ}し{用|よう}{洗剤|せんざい} (indoor-drying detergent) helps prevent odor.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21115_tenpiboshi",
+      "reading": "てんぴぼし",
+      "headword": "{天日干|てんぴぼ}し",
+      "label": "sun-drying outdoors"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26260_kageboshi",
+      "reading": "かげぼし",
+      "headword": "{陰干|かげぼ}し",
+      "label": "drying in the shade"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life"]
+      "semantic": [
+        "daily-life"
+      ]
     },
     "created": "2026-03-25T01:41:56Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

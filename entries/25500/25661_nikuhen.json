@@ -17,7 +17,9 @@
       "id": "25661_nikuhen_ex1",
       "japanese": "{肉片|にくへん}を{鍋|なべ}に{入|い}れる。",
       "english": "Put the pieces of meat into the pot.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25661_nikuhen_ex2",
       "japanese": "{薄|うす}い{肉片|にくへん}をさっと{焼|や}く。",
       "english": "Quickly grill thin slices of meat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,37 @@
       "id": "25661_nikuhen_ex3",
       "japanese": "{大|おお}きな{肉片|にくへん}がごろごろ{入|はい}ったシチューを{作|つく}った。",
       "english": "I made a stew with big chunks of meat throughout.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {肉|にく} (meat) and {片|へん} (piece, fragment). Used in cooking and food descriptions to refer to cut or sliced pieces of meat. The {片|へん} suffix appears in other food-related compounds like {魚片|ぎょへん} (piece of fish).\n\nCOMMON COLLOCATIONS:\n- {薄切|うすぎ}りの{肉片|にくへん}: thinly sliced pieces of meat\n- {肉片|にくへん}を{炒|いた}める: to stir-fry pieces of meat\n- {肉片|にくへん}を{煮込|にこ}む: to stew pieces of meat\n\nSIMILAR WORDS:\n- {肉|にく}: meat (general) — the basic word, does not imply it is cut into pieces\n- {切|き}り{身|み}: fillet, cut of meat or fish — more specific to a prepared cut\n- {薄切|うすぎ}り{肉|にく}: thinly sliced meat — specifies the cutting method\n- {角切|かくぎ}り{肉|にく}: cubed meat — specifies the shape of the cut",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21110_kirimi",
+      "reading": "きりみ",
+      "headword": "{切|き}り{身|み}",
+      "label": "fillet, cut of meat or fish"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-26T14:30:20Z",
-    "modified": "2026-04-26T14:30:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

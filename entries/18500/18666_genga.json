@@ -22,7 +22,9 @@
       "id": "18666_genga_ex1",
       "japanese": "{原画|げんが}を{展示|てんじ}する。",
       "english": "To exhibit original artwork.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "18666_genga_ex2",
       "japanese": "{美術館|びじゅつかん}で{有名|ゆうめい}な{画家|がか}の{原画|げんが}を{見|み}てきた。",
       "english": "I went to see original works by a famous artist at the museum.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "18666_genga_ex3",
       "japanese": "{印刷物|いんさつぶつ}とは{違|ちが}い、{原画|げんが}には{筆|ふで}のタッチがそのまま{残|のこ}っている。",
       "english": "Unlike printed reproductions, the brushwork remains intact in the original painting.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "18666_genga_ex4",
       "japanese": "{原画|げんが}を{描|か}く。",
       "english": "To draw key animation frames.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "18666_genga_ex5",
       "japanese": "アニメの{制作|せいさく}では、まず{原画|げんが}マンが{動|うご}きのポイントとなる{絵|え}を{描|か}く。",
       "english": "In anime production, the key animator first draws the pictures that define the key points of movement.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,23 +72,47 @@
       "id": "18666_genga_ex6",
       "japanese": "{原画|げんが}と{原画|げんが}の{間|あいだ}を{埋|う}める{作業|さぎょう}を{動画|どうが}と{呼|よ}ぶ。",
       "english": "The task of filling in between key frames is called in-betweening.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {原|げん} (original) + {画|が} (picture/drawing). Has two distinct domains of use.\n\nSENSE 1 — ART:\nThe original painting or drawing from which reproductions are made.\n- {原画|げんが}{展|てん}: original artwork exhibition\n- {原画|げんが}を{展示|てんじ}する: to exhibit original artwork\n\nSENSE 2 — ANIME/ANIMATION:\nKey frames that define the start and end points of a movement.\n- {原画|げんが}マン: key animator (well-known job title)\n- {原画|げんが} → {動画|どうが}: key frames → in-between frames (standard workflow)\n- {作画|さくが}: drawing/animation work (broader term)\n\nRELATED:\n- {動画|どうが}: in-between animation frames; also \"video\" in modern everyday usage\n- {複製|ふくせい}: reproduction, copy (contrast with {原画|げんが})",
+  "notes": "Composed of {原|げん} (original) + {画|が} (picture/drawing). Has two distinct domains of use.\n\nSENSE 1 — ART:\nThe original painting or drawing from which reproductions are made.\n- {原画|げんが}{展|てん}: original artwork exhibition\n- {原画|げんが}を{展示|てんじ}する: to exhibit original artwork\n\nSENSE 2 — ANIME/ANIMATION:\nKey frames that define the start and end points of a movement.\n- {原画|げんが}マン: key animator (well-known job title)\n- {原画|げんが} → {動画|どうが}: key frames → in-between frames (standard workflow)\n- {作画|さくが}: drawing/animation work (broader term)\n\nRELATED WORDS:\n- {動画|どうが}: in-between animation frames; also \"video\" in modern everyday usage\n- {複製|ふくせい}: reproduction, copy (contrast with {原画|げんが})",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04443_douga",
+      "reading": "どうが",
+      "headword": "{動画|どうが}",
+      "label": "in-between animation frames"
+    },
+    {
+      "type": "related",
+      "target_id": "17528_fukusei",
+      "reading": "ふくせい",
+      "headword": "{複製|ふくせい}",
+      "label": "reproduction, copy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-03-22T11:48:25Z",
-    "modified": "2026-03-30T12:38:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

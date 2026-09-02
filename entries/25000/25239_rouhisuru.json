@@ -56,12 +56,43 @@
   ],
   "notes": "Describes using money, time, energy, or other resources carelessly and without value. Always carries a strongly negative nuance — the spending is seen as wasteful and irresponsible.\n\nCOMMON COLLOCATIONS:\n- お{金|かね}を{浪費|ろうひ}する: waste money\n- {時間|じかん}を{浪費|ろうひ}する: waste time\n- {浪費|ろうひ}{癖|ぐせ}: habit of wasteful spending\n- {浪費|ろうひ}{家|か}: spendthrift; big spender\n- {資源|しげん}を{浪費|ろうひ}する: waste resources\n\nSIMILAR WORDS:\n- {無駄遣|むだづか}いする: to waste (money) — a more colloquial term, often used for everyday overspending\n- {節約|せつやく}する: to economize — the antonym, meaning to save or cut back\n- {消費|しょうひ}する: to consume — neutral term for using up resources, without the negative nuance of wastefulness\n- {散財|さんざい}する: to splurge — implies spending a lot of money, but can be used either negatively or self-deprecatingly",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07310_mudazukai",
+      "reading": "むだづかい",
+      "headword": "{無駄遣|むだづか}い",
+      "label": "to waste"
+    },
+    {
+      "type": "antonym",
+      "target_id": "25226_setsuyakusuru",
+      "reading": "せつやくする",
+      "headword": "{節約|せつやく}する",
+      "label": "to economize"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25230_shouhisuru",
+      "reading": "しょうひする",
+      "headword": "{消費|しょうひ}する",
+      "label": "to consume"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09233_sanzai",
+      "reading": "さんざい",
+      "headword": "{散財|さんざい}",
+      "label": "to splurge"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "money",
         "daily-life"
@@ -69,7 +100,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T11:30:30Z",
-    "modified": "2026-04-24T11:30:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

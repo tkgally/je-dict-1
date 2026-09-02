@@ -19,7 +19,9 @@
       "english": "I want to improve my quality of life.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17482_seikatsunoshitsu_ex2",
@@ -27,7 +29,9 @@
       "english": "This treatment greatly improves the patient's quality of life.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17482_seikatsunoshitsu_ex3",
@@ -35,22 +39,38 @@
       "english": "Community support is essential for maintaining the quality of life of the elderly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften abbreviated as QOL (キューオーエル) in medical and welfare contexts. Frequently discussed in relation to healthcare, aging, disability support, and urban planning. The English abbreviation QOL is widely understood in Japanese professional settings.\n\nCOMMON COLLOCATIONS:\n- {生活|せいかつ}の{質|しつ}を{高|たか}める (to enhance quality of life)\n- {生活|せいかつ}の{質|しつ}の{向上|こうじょう} (improvement in quality of life)\n- {生活|せいかつ}の{質|しつ}を{維持|いじ}する (to maintain quality of life)\n- {生活|せいかつ}の{質|しつ}が{低下|ていか}する (quality of life declines)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20711_koufukudo",
+      "reading": "こうふくど",
+      "headword": "{幸福度|こうふくど}",
+      "label": "level of happiness"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T04:25:09Z",
-    "modified": "2026-03-18T04:25:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

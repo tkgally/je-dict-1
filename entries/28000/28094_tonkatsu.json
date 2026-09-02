@@ -17,7 +17,9 @@
       "id": "28094_tonkatsu_ex1",
       "japanese": "{昼|ひる}ごはんにとんかつを{食|た}べた。",
       "english": "I had tonkatsu for lunch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28094_tonkatsu_ex2",
       "japanese": "とんかつにソースをたっぷりかけた。",
       "english": "I poured plenty of sauce over the tonkatsu.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28094_tonkatsu_ex3",
       "japanese": "この{店|みせ}のとんかつは{衣|ころも}がサクサクで{肉|にく}が{柔|やわ}らかい。",
       "english": "This restaurant's tonkatsu has a crispy coating and tender meat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A deep-fried, panko-breaded pork cutlet ({豚|ぶた} 'pork' + カツ from English \"cutlet\"). A staple of casual Japanese dining, usually served with shredded cabbage, rice, and a thick sauce.\n\nCOMMON COLLOCATIONS:\n- とんかつを{揚|あ}げる: to deep-fry tonkatsu\n- とんかつ{定食|ていしょく}: tonkatsu set meal\n- ロースとんかつ: loin cutlet\n\nRELATED DISHES:\n- カツ{丼|どん}: tonkatsu served over rice in a bowl\n- カツカレー: tonkatsu with curry",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08539_katsudon",
+      "reading": "かつどん",
+      "headword": "カツ{丼|どん}",
+      "label": "tonkatsu served over rice in a bowl"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15300_menchikatsu",
+      "reading": "めんちかつ",
+      "headword": "メンチカツ",
+      "label": "minced meat cutlet"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"],
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-05-25T04:08:01Z",
-    "modified": "2026-05-25T04:08:01Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

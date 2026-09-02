@@ -63,11 +63,61 @@
       ]
     }
   ],
-  "notes": "{泥棒|どろぼう} typically refers to burglars or thieves who break into homes.\n\nCOMMON EXPRESSIONS:\n- {泥棒|どろぼう}⟦に→に：00314_ni⟧⟦{入|はい}られる→入る：00494_hairu⟧: to be burglarized\n- {泥棒|どろぼう}⟦を→を：00422_wo⟧⟦{捕|つか}まえる→捕まえる：01214_tsukamaeru⟧: to catch a thief\n- {泥棒|どろぼう}⟦{猫|ねこ}→猫：02237_neko⟧: cat burglar; sneaky person\n\nRELATED TERMS:\n- ⟦{窃盗|せっとう}→窃盗：15280_settou⟧: theft (legal/formal term)\n- ⟦{空|あ}き{巣|す}→空き巣：15343_akisu⟧: burglar (when residents are away)\n- ⟦{万引|まんび}き→万引き：16838_manbiki⟧: shoplifting\n- ⟦{強盗|ごうとう}→強盗：02818_goutou⟧: robbery (with violence/threat)\n\nNote: {泥棒|どろぼう} is also used figuratively: ⟦{時間|じかん}→時間：00468_jikan⟧{泥棒|どろぼう} (time thief - something that wastes time)",
-  "cross_references": [],
+  "notes": "{泥棒|どろぼう} typically refers to burglars or thieves who break into homes.\n\nCOMMON EXPRESSIONS:\n- {泥棒|どろぼう}⟦に→に：00314_ni⟧⟦{入|はい}られる→入る：00494_hairu⟧: to be burglarized\n- {泥棒|どろぼう}⟦を→を：00422_wo⟧⟦{捕|つか}まえる→捕まえる：01214_tsukamaeru⟧: to catch a thief\n- {泥棒|どろぼう}⟦{猫|ねこ}→猫：02237_neko⟧: cat burglar; sneaky person\n\nRELATED WORDS:\n- ⟦{窃盗|せっとう}→窃盗：15280_settou⟧: theft (legal/formal term)\n- ⟦{空|あ}き{巣|す}→空き巣：15343_akisu⟧: burglar (when residents are away)\n- ⟦{万引|まんび}き→万引き：16838_manbiki⟧: shoplifting\n- ⟦{強盗|ごうとう}→強盗：02818_goutou⟧: robbery (with violence/threat)\n\nNote: {泥棒|どろぼう} is also used figuratively: ⟦{時間|じかん}→時間：00468_jikan⟧{泥棒|どろぼう} (time thief - something that wastes time)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15280_settou",
+      "reading": "せっとう",
+      "headword": "{窃盗|せっとう}",
+      "label": "theft"
+    },
+    {
+      "type": "related",
+      "target_id": "15343_akisu",
+      "reading": "あきす",
+      "headword": "{空|あ}き{巣|す}",
+      "label": "burglar"
+    },
+    {
+      "type": "related",
+      "target_id": "16838_manbiki",
+      "reading": "まんびき",
+      "headword": "{万引|まんび}き",
+      "label": "shoplifting"
+    },
+    {
+      "type": "related",
+      "target_id": "02818_goutou",
+      "reading": "ごうとう",
+      "headword": "{強盗|ごうとう}",
+      "label": "robbery"
+    },
+    {
+      "type": "related",
+      "target_id": "01166_nusumu",
+      "reading": "ぬすむ",
+      "headword": "{盗|ぬす}む",
+      "label": "to steal"
+    },
+    {
+      "type": "related",
+      "target_id": "19521_shinnyuusha",
+      "reading": "しんにゅうしゃ",
+      "headword": "{侵入者|しんにゅうしゃ}",
+      "label": "intruder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28949_toukutsusha",
+      "reading": "とうくつしゃ",
+      "headword": "{盗掘者|とうくつしゃ}",
+      "label": "tomb raider"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:07:02Z",
-    "modified": "2026-06-11T10:45:00Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

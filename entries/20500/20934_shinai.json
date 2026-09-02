@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {市|し} (city) + {内|ない} (inside). A straightforward compound indicating the area within a city's boundaries. Commonly used as a modifier before nouns.\n\nCOMMON COLLOCATIONS:\n- {市内|しない}バス: city bus\n- {市内|しない}{観光|かんこう}: city sightseeing\n- {市内|しない}{通話|つうわ}: local call (within the city)\n- {市内|しない}を{回|まわ}る: to go around the city\n- {市内|しない}{中心部|ちゅうしんぶ}: city center\n\nRELATED TERMS:\n- {市外|しがい}: outside the city\n- {都内|とない}: within Tokyo (same pattern with {都|と})\n- {県内|けんない}: within the prefecture\n- {国内|こくない}: within the country, domestic",
+  "notes": "Composed of {市|し} (city) + {内|ない} (inside). A straightforward compound indicating the area within a city's boundaries. Commonly used as a modifier before nouns.\n\nCOMMON COLLOCATIONS:\n- {市内|しない}バス: city bus\n- {市内|しない}{観光|かんこう}: city sightseeing\n- {市内|しない}{通話|つうわ}: local call (within the city)\n- {市内|しない}を{回|まわ}る: to go around the city\n- {市内|しない}{中心部|ちゅうしんぶ}: city center\n\nRELATED WORDS:\n- {市外|しがい}: outside the city\n- {都内|とない}: within Tokyo (same pattern with {都|と})\n- {県内|けんない}: within the prefecture\n- {国内|こくない}: within the country, domestic",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19144_tonai",
+      "reading": "とない",
+      "headword": "{都内|とない}",
+      "label": "within Tokyo"
+    },
+    {
+      "type": "related",
+      "target_id": "27823_kennai",
+      "reading": "けんない",
+      "headword": "{県内|けんない}",
+      "label": "within the prefecture"
+    },
+    {
+      "type": "related",
+      "target_id": "02998_kokunai",
+      "reading": "こくない",
+      "headword": "{国内|こくない}",
+      "label": "within the country, domestic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01403_kougai",
+      "reading": "こうがい",
+      "headword": "{郊外|こうがい}",
+      "label": "suburbs, outskirts"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-03-30T21:35:41Z",
-    "modified": "2026-07-28T09:35:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

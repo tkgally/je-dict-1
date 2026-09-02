@@ -78,11 +78,54 @@
       ]
     }
   ],
-  "notes": "{記録|きろく} has two main senses: (1) a written record or documentation of events, and (2) an achievement record, especially in sports.\n\nSENSE 1 — DOCUMENTATION:\n- {記録|きろく}する: to record, to document\n- {記録|きろく}を⟦{取|と}る→取る：00565_toru⟧: to take notes/keep a record\n- {記録|きろく}⟦に→に：00314_ni⟧⟦{残|のこ}る→残る：01187_nokoru⟧: to remain on record\n\nSENSE 2 — ACHIEVEMENT:\n- {記録|きろく}を⟦{破|やぶ}る→破る：02321_yaburu⟧: to break a record\n- {記録|きろく}を⟦{更新|こうしん}する→更新：04765_koushin⟧: to update/set a new record\n- ⟦{世界|せかい}→世界：01447_sekai⟧{記録|きろく}: world record\n- {新|しん}{記録|きろく}: new record\n\nGRAMMAR:\nFunctions as a noun and with ⟦する→する：00392_suru⟧ as a verb ({記録|きろく}⟦する→する：00392_suru⟧ = to record).",
-  "cross_references": [],
+  "notes": "{記録|きろく} has two main senses: (1) a written record or documentation of events, and (2) an achievement record, especially in sports.\n\nSENSE 1 — DOCUMENTATION:\n- {記録|きろく}する: to record, to document\n- {記録|きろく}を⟦{取|と}る→取る：00565_toru⟧: to take notes/keep a record\n- {記録|きろく}⟦に→に：00314_ni⟧⟦{残|のこ}る→残る：01187_nokoru⟧: to remain on record\n\nSENSE 2 — ACHIEVEMENT:\n- {記録|きろく}を⟦{破|やぶ}る→破る：02321_yaburu⟧: to break a record\n- {記録|きろく}を⟦{更新|こうしん}する→更新：04765_koushin⟧: to update/set a new record\n- ⟦{世界|せかい}→世界：01447_sekai⟧{記録|きろく}: world record\n- {新|しん}{記録|きろく}: new record\n\nCOMMON PATTERNS:\nFunctions as a noun and with ⟦する→する：00392_suru⟧ as a verb ({記録|きろく}⟦する→する：00392_suru⟧ = to record).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08001_daichou",
+      "reading": "だいちょう",
+      "headword": "{台帳|だいちょう}",
+      "label": "register"
+    },
+    {
+      "type": "related",
+      "target_id": "08006_keijou",
+      "reading": "けいじょう",
+      "headword": "{計上|けいじょう}",
+      "label": "recording"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23170_bunshoka",
+      "reading": "ぶんしょか",
+      "headword": "{文書化|ぶんしょか}",
+      "label": "documentation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23512_nisshi",
+      "reading": "にっし",
+      "headword": "{日誌|にっし}",
+      "label": "daily log"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23539_taimu",
+      "reading": "たいむ",
+      "headword": "タイム",
+      "label": "time (recorded)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23969_kifu",
+      "reading": "きふ",
+      "headword": "{棋譜|きふ}",
+      "label": "game record (shogi, go, chess)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T12:03:22Z",
-    "modified": "2026-06-11T18:03:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{膳立|ぜんだ}て",
   "reading": "ぜんだて",
   "romaji": "zendate",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "preparation; arrangement; setting things up",
   "definitions": [
     {
@@ -81,6 +81,36 @@
   ],
   "notes": "Compound of {膳|ぜん} (dining tray/table) and {立|た}て (setting up). Originally referred to laying out a meal, but now commonly used figuratively to mean preparing or arranging things in advance for someone.\n\nCOMMON COLLOCATIONS:\n- {膳立|ぜんだ}てをする: to make preparations, to set things up\n- {膳立|ぜんだ}てが{整|ととの}う: preparations are in order\n- {膳立|ぜんだ}てが{出来|でき}ている: everything is set up and ready\n\nSIMILAR WORDS:\n- {準備|じゅんび}: preparation — the most general and common word for getting ready\n- {段取|だんど}り: arrangement, planning — focuses on the order and logistics of preparation\n- {手配|てはい}: arrangement — arranging for people or resources, often in a business context\n- {下準備|したじゅんび}: preliminary preparation — basic prep work done in advance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01431_junbi",
+      "reading": "じゅんび",
+      "headword": "{準備|じゅんび}",
+      "label": "preparation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06629_dandori",
+      "reading": "だんどり",
+      "headword": "{段取|だんど}り",
+      "label": "arrangement, planning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07604_tehai",
+      "reading": "てはい",
+      "headword": "{手配|てはい}",
+      "label": "arrangement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11301_shitajunbi",
+      "reading": "したじゅんび",
+      "headword": "{下準備|したじゅんび}",
+      "label": "preliminary preparation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -97,7 +127,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T17:25:40Z",
-    "modified": "2026-04-02T17:25:40Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -168,7 +168,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\n・{普及|ふきゅう}する - to spread, become widespread (intransitive)\n・{普及|ふきゅう}させる - to disseminate, popularize (transitive/causative)\n\nCOMMON COLLOCATIONS:\n・{急速|きゅうそく}に{普及|ふきゅう}する - to spread rapidly\n・{広|ひろ}く{普及|ふきゅう}している - to be widely used\n・{普及|ふきゅう}{率|りつ} - penetration rate, adoption rate\n・{普及|ふきゅう}{活動|かつどう} - promotional activities\n\nRELATED:\n・{浸透|しんとう} - permeation (more gradual, deeper adoption)\n・{拡大|かくだい} - expansion\n・{流行|りゅうこう} - trend, being in fashion",
+  "notes": "USAGE:\n- {普及|ふきゅう}する - to spread, become widespread (intransitive)\n- {普及|ふきゅう}させる - to disseminate, popularize (transitive/causative)\n\nCOMMON COLLOCATIONS:\n- {急速|きゅうそく}に{普及|ふきゅう}する - to spread rapidly\n- {広|ひろ}く{普及|ふきゅう}している - to be widely used\n- {普及|ふきゅう}{率|りつ} - penetration rate, adoption rate\n- {普及|ふきゅう}{活動|かつどう} - promotional activities\n\nRELATED WORDS:\n- {浸透|しんとう} - permeation (more gradual, deeper adoption)\n- {拡大|かくだい} - expansion\n- {流行|りゅうこう} - trend, being in fashion",
   "cross_references": [
     {
       "type": "related",
@@ -176,11 +176,32 @@
       "headword": "{浸透|しんとう}",
       "label": "permeation",
       "target_id": "07593_shintou"
+    },
+    {
+      "type": "related",
+      "target_id": "02553_kakudai",
+      "reading": "かくだい",
+      "headword": "{拡大|かくだい}",
+      "label": "expansion"
+    },
+    {
+      "type": "related",
+      "target_id": "03678_ryuukou",
+      "reading": "りゅうこう",
+      "headword": "{流行|りゅうこう}",
+      "label": "trend, being in fashion"
+    },
+    {
+      "type": "related",
+      "target_id": "08082_taishuuka",
+      "reading": "たいしゅうか",
+      "headword": "{大衆化|たいしゅうか}",
+      "label": "popularization"
     }
   ],
   "metadata": {
     "created": "2026-01-20T12:57:12Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -189,6 +210,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "society",
         "change"

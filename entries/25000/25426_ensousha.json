@@ -17,7 +17,9 @@
       "id": "25426_ensousha_ex1",
       "japanese": "{演奏者|えんそうしゃ}が{舞台|ぶたい}に{上|あ}がった。",
       "english": "The performer went up on stage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25426_ensousha_ex2",
       "japanese": "このオーケストラには{百人|ひゃくにん}の{演奏者|えんそうしゃ}がいる。",
       "english": "This orchestra has a hundred performers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,66 @@
       "id": "25426_ensousha_ex3",
       "japanese": "{演奏者|えんそうしゃ}の{技術|ぎじゅつ}と{表現力|ひょうげんりょく}に{感動|かんどう}した。",
       "english": "I was moved by the performer's technique and expressiveness.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{演奏者|えんそうしゃ} is composed of {演奏|えんそう} (musical performance) + {者|しゃ} (person). It refers to anyone who performs music, especially instrumentalists.\n\nCOMMON COLLOCATIONS:\n- ピアノの{演奏者|えんそうしゃ}: piano player\n- {演奏者|えんそうしゃ}として{活躍|かつやく}する: be active as a performer\n- プロの{演奏者|えんそうしゃ}: professional musician\n- {演奏者|えんそうしゃ}と{聴衆|ちょうしゅう}: performers and audience\n\nSIMILAR WORDS:\n- ミュージシャン: musician — the English loanword, used more broadly and casually\n- {奏者|そうしゃ}: player — shorter form, often used in compounds like {独奏者|どくそうしゃ} (soloist)\n- {音楽家|おんがくか}: musician — emphasizes music as a profession or calling; includes composers\n- {歌手|かしゅ}: singer — specifically a vocalist, not an instrumentalist",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27511_ongakuka",
+      "reading": "おんがくか",
+      "headword": "{音楽家|おんがくか}",
+      "label": "musician"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00197_kashu",
+      "reading": "かしゅ",
+      "headword": "{歌手|かしゅ}",
+      "label": "singer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19413_pianisuto",
+      "reading": "ぴあにすと",
+      "headword": "ピアニスト",
+      "label": "pianist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29184_ensouka",
+      "reading": "えんそうか",
+      "headword": "{演奏家|えんそうか}",
+      "label": "professional musician"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30015_bansousha",
+      "reading": "ばんそうしゃ",
+      "headword": "{伴奏者|ばんそうしゃ}",
+      "label": "accompanist (music)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation", "leisure"]
+      "semantic": [
+        "occupation",
+        "leisure"
+      ]
     },
     "created": "2026-04-25T12:40:13Z",
-    "modified": "2026-04-25T12:40:13Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

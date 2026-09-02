@@ -23,7 +23,9 @@
       "english": "Could you show me a sample?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00279_mihon_ex2",
@@ -31,7 +33,9 @@
       "english": "I'd like the same thing as this sample.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00279_mihon_ex3",
@@ -39,7 +43,9 @@
       "english": "I saw new products at the trade fair.",
       "notes": "{見本|みほん}⟦{市|いち}→市：10013_ichi⟧ = trade fair, sample fair",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00279_mihon_ex4",
@@ -47,7 +53,9 @@
       "english": "To take one's senior as a model.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "00279_mihon_ex5",
@@ -55,7 +63,9 @@
       "english": "His way of life serves as a model.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "00279_mihon_ex6",
@@ -63,17 +73,55 @@
       "english": "Adults should strive to behave properly so as to be a model for children.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "{見本|みほん} refers to samples, specimens, or models used as examples.\n\nCommon expressions:\n- {見本|みほん}⟦を→を：00422_wo⟧⟦{見|み}せる→見せる：01988_miseru⟧ (to show a sample)\n- {見本|みほん}⟦{品|ひん}→品：03712_hin⟧ (sample item)\n- {見本|みほん}⟦{市|いち}→市：10013_ichi⟧ (trade fair, trade show)\n- {見本|みほん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become an example/model)\n\nBusiness context:\n- Often stamped on samples to indicate they are not for sale\n- Used in trade shows and commercial settings\n\nRelated terms:\n- ⟦サンプル→サンプル：10939_sanpuru⟧ (sample - loanword)\n- ⟦{標本|ひょうほん}→標本：13174_hyouhon⟧ (specimen - scientific context)\n- ⟦{手本|てほん}→手本：10563_tehon⟧ (model, example to follow)",
   "cross_references": [
-    {"type": "synonym", "reading": "さんぷる", "target_id": "10939_sanpuru"},
-    {"type": "related", "reading": "てほん", "target_id": "10563_tehon"}
+    {
+      "type": "synonym",
+      "reading": "さんぷる",
+      "target_id": "10939_sanpuru"
+    },
+    {
+      "type": "related",
+      "reading": "てほん",
+      "target_id": "10563_tehon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13174_hyouhon",
+      "reading": "ひょうほん",
+      "headword": "{標本|ひょうほん}",
+      "label": "specimen, sample"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19610_mohan",
+      "reading": "もはん",
+      "headword": "{模範|もはん}",
+      "label": "model"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22445_shisakuhin",
+      "reading": "しさくひん",
+      "headword": "{試作品|しさくひん}",
+      "label": "prototype"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24589_hanmenkyoushi",
+      "reading": "はんめんきょうし",
+      "headword": "{反面教師|はんめんきょうし}",
+      "label": "negative example"
+    }
   ],
   "metadata": {
     "created": "2026-01-13T11:59:29Z",
-    "modified": "2026-05-10T14:08:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

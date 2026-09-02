@@ -17,7 +17,9 @@
       "id": "20113_zennin_ex1",
       "japanese": "{前任|ぜんにん}の{仕事|しごと}を{引|ひ}き{継|つ}ぐ。",
       "english": "To take over the predecessor's work.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20113_zennin_ex2",
       "japanese": "{前任者|ぜんにんしゃ}から{業務|ぎょうむ}の{引|ひ}き{継|つ}ぎを{受|う}けた。",
       "english": "I received a handover of duties from my predecessor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "20113_zennin_ex3",
       "japanese": "{前任|ぜんにん}の{校長|こうちょう}が{築|きず}いた{信頼関係|しんらいかんけい}を{大切|たいせつ}にしていきたい。",
       "english": "I want to cherish the trust that the previous principal built.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {前|ぜん} (before/previous) + {任|にん} (duty/appointment). Specifically refers to the person who previously held a position, not a predecessor in a general or hereditary sense.\n\nCOMMON COLLOCATIONS:\n- {前任者|ぜんにんしゃ}: predecessor (person)\n- {前任|ぜんにん}の{担当者|たんとうしゃ}: the previous person in charge\n- {前任|ぜんにん}から{引|ひ}き{継|つ}ぐ: to take over from one's predecessor\n- {前任|ぜんにん}{校長|こうちょう}: former principal\n- {前任|ぜんにん}{大使|たいし}: former ambassador\n\nSIMILAR WORDS:\n- {後任|こうにん}: successor — the opposite of {前任|ぜんにん}; the person who takes over the role\n- {前|まえ}の{担当者|たんとうしゃ}: the previous person in charge — more colloquial expression\n- {先任|せんにん}: senior (in rank/appointment) — refers to seniority, not to having left the role\n\nUSAGE:\nCommon in workplace, organizational, and political contexts. Often appears in discussions of job handovers, leadership changes, and comparisons between current and previous officeholders.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "12580_kounin",
+      "reading": "こうにん",
+      "headword": "{後任|こうにん}",
+      "label": "successor"
+    },
+    {
+      "type": "related",
+      "target_id": "08365_hikitsugi",
+      "reading": "ひきつぎ",
+      "headword": "{引|ひ}き{継|つ}ぎ",
+      "label": "handover"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23142_zendai",
+      "reading": "ぜんだい",
+      "headword": "{前代|ぜんだい}",
+      "label": "previous generation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     },
     "created": "2026-03-28T12:59:49Z",
-    "modified": "2026-03-28T12:59:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

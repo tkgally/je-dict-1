@@ -3,7 +3,7 @@
   "headword": "ぐずぐずする",
   "reading": "ぐずぐずする",
   "romaji": "guzuguzusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb, onomatopoeia",
   "gloss": "to dawdle; to dilly-dally; to be slow and indecisive",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "An onomatopoeic (gitaigo) expression where ぐずぐず mimics the sluggish, foot-dragging quality of the behavior. Often used by parents scolding children for being slow, or in situations where urgency is needed.\n\nぐずぐず can also be used as an adverb without する: ぐずぐず{言|い}う (to grumble, to whine).\n\nCOMMON PATTERNS:\n- ぐずぐずしないで: stop dawdling; don't dilly-dally\n- ぐずぐずしていると: if you keep dawdling\n- ぐずぐず{言|い}う: to grumble; to whine; to complain\n\nSIMILAR WORDS:\n- もたもたする: to be clumsy and slow — emphasizes physical clumsiness or inefficiency\n- のろのろする: to be slow; to move sluggishly — focuses on slow physical movement\n- まごまごする: to be flustered and hesitant — implies confusion about what to do\n- ぐずる: to be fussy; to whine (said of children) — related but focuses on complaining rather than slowness",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10330_guzuru",
+      "reading": "ぐずる",
+      "headword": "ぐずる",
+      "label": "to be fussy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07515_motamota",
+      "reading": "もたもた",
+      "headword": "もたもた",
+      "label": "slowly"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -55,6 +70,7 @@
         "onomatopoeia"
       ],
       "formality": "informal",
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "onomatopoeia"
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-27T15:14:08Z",
-    "modified": "2026-08-04T21:27:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -3,7 +3,7 @@
   "headword": "{多発的|たはつてき}",
   "reading": "たはつてき",
   "romaji": "tahatsuteki",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "frequent; repeated; occurring in many instances",
   "definitions": [
     {
@@ -45,7 +45,15 @@
     }
   ],
   "notes": "Composed of {多発|たはつ} (frequent occurrence) and {的|てき} (adjectival suffix). Used primarily in formal or news-style contexts to describe problems, incidents, or phenomena that happen repeatedly or in many places. The nuance tends to emphasize a pattern of repeated occurrences rather than a single spike.\n\nCOMMON COLLOCATIONS:\n- {多発的|たはつてき}な{事故|じこ}: frequent accidents\n- {多発的|たはつてき}な{犯罪|はんざい}: repeated crimes\n- {多発的|たはつてき}に{発生|はっせい}する: to occur frequently\n- {多発的|たはつてき}な{被害|ひがい}: widespread damage\n\nSIMILAR WORDS:\n- {頻繁|ひんぱん}: frequent — more general and used in everyday conversation\n- {多発|たはつ}: frequent occurrence — the noun form, often used as a prefix (e.g., {多発|たはつ}{事故|じこ})\n- {散発的|さんぱつてき}: sporadic — occurring at irregular intervals, less concentrated than {多発的|たはつてき}",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08631_hinpan",
+      "reading": "ひんぱん",
+      "headword": "{頻繁|ひんぱん}",
+      "label": "frequent"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +61,12 @@
       "pos": [
         "adjective-na"
       ],
+      "politeness": "plain",
       "semantic": [
         "descriptive"
       ]
     },
     "created": "2026-05-04T13:49:17Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

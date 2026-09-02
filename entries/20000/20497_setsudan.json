@@ -3,7 +3,7 @@
   "headword": "{切断|せつだん}",
   "reading": "せつだん",
   "romaji": "setsudan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "cutting; severing; amputation",
   "definitions": [
     {
@@ -81,6 +81,36 @@
   ],
   "notes": "The act of cutting something completely apart. Composed of {切|せつ} (cut) + {断|だん} (sever/break off). Often used as a する verb: {切断|せつだん}する.\n\nCOMMON COLLOCATIONS:\n- {切断|せつだん}する: to cut; to sever\n- {切断|せつだん}{面|めん}: cross-section; cut surface\n- {切断|せつだん}{手術|しゅじゅつ}: amputation surgery\n- {電線|でんせん}の{切断|せつだん}: cutting of power lines\n\nSIMILAR WORDS:\n- {切|き}る: to cut — the general everyday verb for cutting\n- {断裂|だんれつ}: rupture, tearing apart — implies forceful breaking rather than clean cutting\n- {遮断|しゃだん}: shutoff, blocking — cutting off a flow or connection (electricity, traffic)\n\nUSAGE:\nIn the medical sense (amputation), {切断|せつだん} is the standard clinical term. In everyday contexts, it often refers to severing cables, ropes, or connections.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02693_kiru",
+      "reading": "きる",
+      "headword": "{切|き}る",
+      "label": "to cut"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15673_shadan",
+      "reading": "しゃだん",
+      "headword": "{遮断|しゃだん}",
+      "label": "shutoff, blocking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19992_saidan",
+      "reading": "さいだん",
+      "headword": "{裁断|さいだん}",
+      "label": "cutting (fabric, paper)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20692_dansen",
+      "reading": "だんせん",
+      "headword": "{断線|だんせん}",
+      "label": "disconnection"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -96,7 +126,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-29T16:17:37Z",
-    "modified": "2026-03-29T16:17:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

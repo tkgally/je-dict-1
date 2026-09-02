@@ -3,7 +3,7 @@
   "headword": "{高鳴|たかな}る",
   "reading": "たかなる",
   "romaji": "takanaru",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to throb; to beat fast; to ring out",
   "conjugation": {
     "type": "godan",
@@ -171,6 +171,29 @@
   ],
   "notes": "Compound of {高|たか} (high) + {鳴|な}る (to sound, to ring). The word evokes something rising in intensity — whether a heartbeat quickening with emotion or sounds growing louder.\n\nUSAGE:\nSense 1 is the most common usage. Almost always appears with {胸|むね} (chest/heart) as the subject: {胸|むね}が{高鳴|たかな}る. This is a set expression meaning one's heart pounds with excitement or anticipation. Sense 2 is more literary and used for dramatic descriptions of sound.\n\nCOMMON COLLOCATIONS:\n- {胸|むね}が{高鳴|たかな}る — one's heart pounds/throbs\n- {期待|きたい}に{胸|むね}が{高鳴|たかな}る — one's heart races with anticipation\n- {鼓動|こどう}が{高鳴|たかな}る — one's heartbeat quickens\n- {太鼓|たいこ}が{高鳴|たかな}る — drums ring out\n\nSIMILAR WORDS:\n- ときめく — to flutter, to feel excited (romantic or joyful excitement)\n- {鳴|な}り{響|ひび}く — to resound, to echo (sounds reverberating, no heartbeat sense)\n- わくわくする — to be excited, thrilled (general excitement, more casual)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07363_tokimeku",
+      "reading": "ときめく",
+      "headword": "ときめく",
+      "label": "to flutter, to feel excited"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09125_narihibiku",
+      "reading": "なりひびく",
+      "headword": "{鳴|な}り{響|ひび}く",
+      "label": "to resound, to echo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25801_wakuwakusuru",
+      "reading": "わくわくする",
+      "headword": "ワクワクする",
+      "label": "to be excited, thrilled"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -186,6 +209,6 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-03-28T19:16:23Z",
-    "modified": "2026-03-28T19:16:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

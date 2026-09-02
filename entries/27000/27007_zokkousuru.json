@@ -3,7 +3,7 @@
   "headword": "{続行|ぞっこう}する",
   "reading": "ぞっこうする",
   "romaji": "zokkousuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to continue; to carry on; to proceed",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A more formal and deliberate word than {続|つづ}ける. Emphasizes the decision to keep going rather than the simple act of continuing. Often used in official contexts (meetings, games, investigations, operations).\n\nCOMMON COLLOCATIONS:\n- {審議|しんぎ}を{続行|ぞっこう}する: to continue deliberations\n- {作戦|さくせん}を{続行|ぞっこう}する: to continue the operation\n- {裁判|さいばん}を{続行|ぞっこう}する: to continue a trial\n- {営業|えいぎょう}を{続行|ぞっこう}する: to continue business operations\n\nSIMILAR WORDS:\n- {続|つづ}ける: to continue — the general, everyday word for continuing; no nuance of perseverance against obstacles\n- {継続|けいぞく}する: to continue; to maintain — focuses on sustained continuation over time rather than a deliberate decision to proceed\n- {遂行|すいこう}する: to carry out; to execute — focuses on completing a task, not on the decision to keep going",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01231_tsuzukeru",
+      "reading": "つづける",
+      "headword": "{続|つづ}ける",
+      "label": "to continue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26971_keizokusuru",
+      "reading": "けいぞくする",
+      "headword": "{継続|けいぞく}する",
+      "label": "to continue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20156_suikousuru",
+      "reading": "すいこうする",
+      "headword": "{遂行|すいこう}する",
+      "label": "to carry out"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T13:15:20Z",
-    "modified": "2026-05-06T13:15:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

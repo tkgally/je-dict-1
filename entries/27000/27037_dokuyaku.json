@@ -17,7 +17,9 @@
       "id": "27037_dokuyaku_ex1",
       "japanese": "{毒薬|どくやく}は{厳重|げんじゅう}に{管理|かんり}される。",
       "english": "Toxic drugs are strictly controlled.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27037_dokuyaku_ex2",
       "japanese": "{毒薬|どくやく}には{赤|あか}い{枠|わく}のラベルが{貼|は}られている。",
       "english": "Toxic drugs are labeled with a red-bordered label.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,55 @@
       "id": "27037_dokuyaku_ex3",
       "japanese": "{病院|びょういん}では{毒薬|どくやく}と{劇薬|げきやく}を{分|わ}けて{保管|ほかん}しなければならない。",
       "english": "Hospitals must store toxic drugs and powerful drugs separately.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A pharmaceutical and legal term. In Japan's drug classification system, {毒薬|どくやく} is the most dangerous category — medicines that can be lethal in small doses. They must be stored in locked cabinets and are marked with a distinctive {赤地|あかじ}に{白枠|しろわく}・{白字|しろじ} (white text on red background with white border) label. Below {毒薬|どくやく} is {劇薬|げきやく} (powerful drug), which is dangerous but less lethal.\n\nCOMMON COLLOCATIONS:\n- {毒薬|どくやく}の{管理|かんり}: management of toxic drugs\n- {毒薬|どくやく}の{保管|ほかん}: storage of toxic drugs\n- {毒薬|どくやく}を{処方|しょほう}する: to prescribe a toxic drug\n\nSIMILAR WORDS:\n- {毒物|どくぶつ}: toxic substance — broader category covering non-pharmaceutical poisons\n- {劇薬|げきやく}: powerful drug — a less dangerous pharmaceutical category than {毒薬|どくやく}\n- {毒|どく}: poison — the general, everyday term\n- {薬物|やくぶつ}: drug; chemical substance — neutral term for any pharmaceutical substance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27029_dokubutsu",
+      "reading": "どくぶつ",
+      "headword": "{毒物|どくぶつ}",
+      "label": "toxic substance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21657_gekiyaku",
+      "reading": "げきやく",
+      "headword": "{劇薬|げきやく}",
+      "label": "powerful drug"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14053_yakubutsu",
+      "reading": "やくぶつ",
+      "headword": "{薬物|やくぶつ}",
+      "label": "drug"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["health"],
-      "domain": ["medical", "legal"]
+      "semantic": [
+        "health"
+      ],
+      "domain": [
+        "medical",
+        "legal"
+      ]
     },
     "created": "2026-05-06T14:26:44Z",
-    "modified": "2026-05-06T14:26:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

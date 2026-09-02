@@ -17,7 +17,9 @@
       "id": "18787_suunin_ex1",
       "japanese": "{数人|すうにん}の{友達|ともだち}と{会|あ}った。",
       "english": "I met with a few friends.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18787_suunin_ex2",
       "japanese": "{教室|きょうしつ}に{数人|すうにん}の{生徒|せいと}が{残|のこ}っていた。",
       "english": "Several students were still in the classroom.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,65 @@
       "id": "18787_suunin_ex3",
       "japanese": "{事故|じこ}{現場|げんば}には{数人|すうにん}の{目撃者|もくげきしゃ}がいたが、{証言|しょうげん}はそれぞれ{異|こと}なっていた。",
       "english": "There were several eyewitnesses at the accident scene, but their testimonies differed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The prefix {数|すう}～ means \"several\" or \"a few\" and combines with many counters: {数回|すうかい} (several times), {数日|すうじつ} (several days), {数年|すうねん} (several years), {数百|すうひゃく} (several hundred). The range implied by {数|すう}～ is roughly 2–9, though context determines the perceived quantity. Related: {何人|なんにん}か (some number of people — similar but phrased as a question-based indefinite), {数名|すうめい} (several people — more formal variant using {名|めい}).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20517_suujitsu",
+      "reading": "すうじつ",
+      "headword": "{数日|すうじつ}",
+      "label": "several days"
+    },
+    {
+      "type": "related",
+      "target_id": "26724_suusatsu",
+      "reading": "すうさつ",
+      "headword": "{数冊|すうさつ}",
+      "label": "several books"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27468_ikunin",
+      "reading": "いくにん",
+      "headword": "{幾人|いくにん}",
+      "label": "how many people"
+    },
+    {
+      "type": "related",
+      "target_id": "28382_suushurui",
+      "reading": "すうしゅるい",
+      "headword": "{数種類|すうしゅるい}",
+      "label": "several kinds"
+    },
+    {
+      "type": "related",
+      "target_id": "29820_suukai",
+      "reading": "すうかい",
+      "headword": "{数回|すうかい}",
+      "label": "several times"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity"]
+      "semantic": [
+        "quantity"
+      ]
     },
     "created": "2026-03-23T03:40:42Z",
-    "modified": "2026-03-23T03:40:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

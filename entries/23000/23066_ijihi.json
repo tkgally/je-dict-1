@@ -17,7 +17,9 @@
       "id": "23066_ijihi_ex1",
       "japanese": "{車|くるま}の{維持費|いじひ}がかかる。",
       "english": "A car costs a lot to maintain.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23066_ijihi_ex2",
       "japanese": "マンションの{維持費|いじひ}は{月|つき}に{三万円|さんまんえん}ほどだ。",
       "english": "The maintenance cost for the apartment is about 30,000 yen per month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,59 @@
       "id": "23066_ijihi_ex3",
       "japanese": "{古|ふる}い{建物|たてもの}は{維持費|いじひ}がかさむため、{建|た}て{替|か}えを{検討|けんとう}している。",
       "english": "Because maintenance costs are piling up for the old building, they are considering rebuilding.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {維持|いじ} (maintenance) + {費|ひ} (cost/expense). A practical, frequently used word in discussions about budgets, property ownership, and vehicle expenses.\n\nCOMMON COLLOCATIONS:\n- {維持費|いじひ}がかかる: maintenance costs are high\n- {維持費|いじひ}がかさむ: maintenance costs pile up\n- {維持費|いじひ}を{抑|おさ}える: to keep maintenance costs down\n- {年間|ねんかん}{維持費|いじひ}: annual maintenance cost\n\nSIMILAR WORDS:\n- ランニングコスト: running cost — loanword for ongoing operational costs\n- {管理費|かんりひ}: management fee — fee for property management (often for apartments)\n- {修繕費|しゅうぜんひ}: repair expenses — specifically for fixing and restoring\n- {経費|けいひ}: expenses — broader term for general costs",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06575_kanrihi",
+      "reading": "かんりひ",
+      "headword": "{管理費|かんりひ}",
+      "label": "management fee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21778_shuuzenhi",
+      "reading": "しゅうぜんひ",
+      "headword": "{修繕費|しゅうぜんひ}",
+      "label": "repair expenses"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04696_keihi",
+      "reading": "けいひ",
+      "headword": "{経費|けいひ}",
+      "label": "expenses"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25149_kanriryou",
+      "reading": "かんりりょう",
+      "headword": "{管理料|かんりりょう}",
+      "label": "management fee"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business", "daily-life"]
+      "semantic": [
+        "business",
+        "daily-life"
+      ]
     },
     "created": "2026-04-08T17:33:11Z",
-    "modified": "2026-04-08T17:33:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

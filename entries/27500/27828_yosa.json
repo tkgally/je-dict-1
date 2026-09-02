@@ -17,7 +17,9 @@
       "id": "27828_yosa_ex1",
       "japanese": "この{町|まち}の{良|よ}さを{伝|つた}えたい。",
       "english": "I want to convey the appeal of this town.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27828_yosa_ex2",
       "japanese": "{使|つか}ってみて、はじめてこの{道具|どうぐ}の{良|よ}さがわかった。",
       "english": "Only after trying it did I understand how good this tool is.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "27828_yosa_ex3",
       "japanese": "{木|き}でできた{家具|かぐ}の{良|よ}さは、{時間|じかん}が{経|た}つほど{味|あじ}わいが{増|ま}すところにある。",
       "english": "The appeal of wooden furniture lies in how its character deepens as time passes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The noun form of the adjective {良|よ}い / いい (good), formed by replacing the final い with さ. Expresses the degree or quality of goodness, or the merits of something.\n\nCOMMON COLLOCATIONS:\n- {良|よ}さを{伝|つた}える: to convey the appeal (of something)\n- {良|よ}さが{分|わ}かる: to appreciate the good points\n- {良|よ}さを{生|い}かす: to make the most of a strength\n\nSIMILAR WORDS:\n- {長所|ちょうしょ}: strong point; merit — a specific good feature, more concrete\n- {魅力|みりょく}: charm; appeal — emphasizes attractiveness rather than plain quality",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03121_chousho",
+      "reading": "ちょうしょ",
+      "headword": "{長所|ちょうしょ}",
+      "label": "strong point"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03749_miryoku",
+      "reading": "みりょく",
+      "headword": "{魅力|みりょく}",
+      "label": "charm"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["evaluation", "abstract"],
+      "politeness": "plain",
+      "semantic": [
+        "evaluation",
+        "abstract"
+      ],
       "domain": []
     },
     "created": "2026-05-19T04:03:25Z",
-    "modified": "2026-05-19T04:03:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

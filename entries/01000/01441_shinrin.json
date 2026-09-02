@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{森林|しんりん} is a formal term for forest or woodland.\n\nFORMALITY:\nMore formal than ⟦{森|もり}→森：02260_mori⟧. Used in news, academic, and environmental contexts.\n\nCOMMON EXPRESSIONS:\n- {森林|しんりん}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧: to protect forests\n- {森林|しんりん}⟦が→が：00051_ga⟧⟦{減|へ}る→減る：01985_heru⟧: forests decrease\n- {森林|しんりん}⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧: to walk through the forest\n\nCOMPOUNDS:\n- {森林|しんりん}⟦{浴|よく}→浴：noentry⟧: forest bathing (shinrin-yoku, wellness practice)\n- {森林|しんりん}⟦{破壊|はかい}→破壊：13678_hakai⟧: deforestation\n- {森林|しんりん}⟦{保護|ほご}→保護：03625_hogo⟧: forest conservation\n- ⟦{熱帯|ねったい}→熱帯：03531_nettai⟧⟦{雨林|うりん}→雨林：15384_urin⟧: tropical rainforest\n\nSIMILAR WORDS:\n- ⟦{森|もり}→森：02260_mori⟧: forest, woods (casual)\n- ⟦{林|はやし}→林：01702_hayashi⟧: grove, small forest\n- ⟦{山林|さんりん}→山林：04188_sanrin⟧: mountain forest",
+  "notes": "{森林|しんりん} is a formal term for forest or woodland.\n\nREGISTER:\nMore formal than ⟦{森|もり}→森：02260_mori⟧. Used in news, academic, and environmental contexts.\n\nCOMMON EXPRESSIONS:\n- {森林|しんりん}⟦を→を：00422_wo⟧⟦{守|まも}る→守る：01986_mamoru⟧: to protect forests\n- {森林|しんりん}⟦が→が：00051_ga⟧⟦{減|へ}る→減る：01985_heru⟧: forests decrease\n- {森林|しんりん}⟦を→を：00422_wo⟧⟦{歩|ある}く→歩く：00538_aruku⟧: to walk through the forest\n\nCOMPOUNDS:\n- {森林|しんりん}⟦{浴|よく}→浴：noentry⟧: forest bathing (shinrin-yoku, wellness practice)\n- {森林|しんりん}⟦{破壊|はかい}→破壊：13678_hakai⟧: deforestation\n- {森林|しんりん}⟦{保護|ほご}→保護：03625_hogo⟧: forest conservation\n- ⟦{熱帯|ねったい}→熱帯：03531_nettai⟧⟦{雨林|うりん}→雨林：15384_urin⟧: tropical rainforest\n\nSIMILAR WORDS:\n- ⟦{森|もり}→森：02260_mori⟧: forest, woods (casual)\n- ⟦{林|はやし}→林：01702_hayashi⟧: grove, small forest\n- ⟦{山林|さんりん}→山林：04188_sanrin⟧: mountain forest",
   "cross_references": [
     {
       "type": "synonym",
@@ -78,11 +78,53 @@
       "reading": "はやし",
       "headword": "{林|はやし}",
       "label": "grove, small forest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04188_sanrin",
+      "reading": "さんりん",
+      "headword": "{山林|さんりん}",
+      "label": "mountain forest"
+    },
+    {
+      "type": "related",
+      "target_id": "05035_sougen",
+      "reading": "そうげん",
+      "headword": "{草原|そうげん}",
+      "label": "grassland, prairie"
+    },
+    {
+      "type": "related",
+      "target_id": "15384_urin",
+      "reading": "うりん",
+      "headword": "{雨林|うりん}",
+      "label": "rainforest"
+    },
+    {
+      "type": "related",
+      "target_id": "19014_nettaiurin",
+      "reading": "ねったいうりん",
+      "headword": "{熱帯雨林|ねったいうりん}",
+      "label": "tropical rainforest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19969_mitsurin",
+      "reading": "みつりん",
+      "headword": "{密林|みつりん}",
+      "label": "dense forest"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25977_ryokuchi",
+      "reading": "りょくち",
+      "headword": "{緑地|りょくち}",
+      "label": "green space"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:37:52Z",
-    "modified": "2026-04-02T05:09:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

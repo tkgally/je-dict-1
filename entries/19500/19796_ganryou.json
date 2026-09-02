@@ -17,7 +17,9 @@
       "id": "19796_ganryou_ex1",
       "japanese": "{天然|てんねん}{顔料|がんりょう}を{使|つか}う。",
       "english": "To use natural pigments.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19796_ganryou_ex2",
       "japanese": "この{絵|え}の{具|ぐ}には{高品質|こうひんしつ}な{顔料|がんりょう}が{使|つか}われている。",
       "english": "High-quality pigments are used in this paint.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "19796_ganryou_ex3",
       "japanese": "{日本画|にほんが}では{鉱物|こうぶつ}から{作|つく}られた{顔料|がんりょう}が{伝統的|でんとうてき}に{使|つか}われてきた。",
       "english": "In Japanese painting, pigments made from minerals have traditionally been used.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -46,18 +52,36 @@
       "reading": "せんりょう",
       "headword": "{染料|せんりょう}",
       "label": "dye (dissolves)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24548_toryou",
+      "reading": "とりょう",
+      "headword": "{塗料|とりょう}",
+      "label": "paint, coating material"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19991_shikiso",
+      "reading": "しきそ",
+      "headword": "{色素|しきそ}",
+      "label": "coloring matter, pigment"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["art"]
+      "semantic": [
+        "art"
+      ]
     },
     "created": "2026-03-27T00:16:53Z",
-    "modified": "2026-05-03T09:07:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

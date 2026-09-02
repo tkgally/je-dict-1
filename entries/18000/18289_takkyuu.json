@@ -19,7 +19,9 @@
       "english": "I like table tennis.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18289_takkyuu_ex2",
@@ -27,7 +29,9 @@
       "english": "I joined the school's table tennis club.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18289_takkyuu_ex3",
@@ -35,21 +39,42 @@
       "english": "A Japanese table tennis player won a gold medal at the Olympics.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nThe formal name for table tennis. In casual speech, ピンポン is also used, especially for recreational play. Japan is a major power in international table tennis competition.\n\nCOMMON COLLOCATIONS:\n- {卓球|たっきゅう}{台|だい} (table tennis table)\n- {卓球|たっきゅう}{部|ぶ} (table tennis club)\n- {卓球|たっきゅう}のラケット (table tennis racket/paddle)\n- {卓球|たっきゅう}{選手|せんしゅ} (table tennis player)\n\nSIMILAR WORDS:\n- ピンポン: ping-pong — more casual, also used as an onomatopoeia for a doorbell",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27067_pinpon",
+      "reading": "ぴんぽん",
+      "headword": "ピンポン",
+      "label": "ping-pong"
+    },
+    {
+      "type": "related",
+      "target_id": "01784_tenisu",
+      "reading": "てにす",
+      "headword": "テニス",
+      "label": "tennis"
+    }
+  ],
   "metadata": {
     "created": "2026-03-21T01:17:03Z",
-    "modified": "2026-03-21T01:17:03Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["sport"]
+      "semantic": [
+        "sport"
+      ]
     }
   }
 }

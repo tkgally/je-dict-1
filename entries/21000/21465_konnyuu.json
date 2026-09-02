@@ -3,7 +3,7 @@
   "headword": "{混入|こんにゅう}",
   "reading": "こんにゅう",
   "romaji": "konnyuu",
-  "part_of_speech": "noun, verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "contamination; getting mixed in",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A compound of {混|こん} (to mix) and {入|にゅう} (to enter). Almost always used in the context of unwanted or accidental mixing — contamination rather than intentional blending.\n\nUSAGE:\nAs a noun: {異物|いぶつ}{混入|こんにゅう} (foreign object contamination). As a suru verb: {混入|こんにゅう}する (to get mixed in / to contaminate). The intransitive use (something gets mixed in) is more common than the transitive (someone mixes something in).\n\nCOMMON COLLOCATIONS:\n- {異物|いぶつ}{混入|こんにゅう}: foreign object contamination\n- {不純物|ふじゅんぶつ}の{混入|こんにゅう}: impurity contamination\n- {混入|こんにゅう}を{防|ふせ}ぐ: to prevent contamination\n- {混入|こんにゅう}{事故|じこ}: contamination incident\n\nSIMILAR WORDS:\n- {汚染|おせん}: pollution, contamination — broader term covering environmental pollution and chemical contamination\n- {混合|こんごう}: mixing, blending — neutral term for intentional mixing\n- {混|ま}ざる: to get mixed — everyday verb for things mixing together, without the negative connotation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02595_osen",
+      "reading": "おせん",
+      "headword": "{汚染|おせん}",
+      "label": "pollution, contamination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04154_kongou",
+      "reading": "こんごう",
+      "headword": "{混合|こんごう}",
+      "label": "mixing, blending"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02420_mazaru",
+      "reading": "まざる",
+      "headword": "{混|ま}ざる",
+      "label": "to get mixed"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T04:12:32Z",
-    "modified": "2026-04-02T04:12:32Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

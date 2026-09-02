@@ -3,7 +3,7 @@
   "id": "11100_kessai",
   "headword": "{決裁|けっさい}",
   "reading": "けっさい",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "approval, authorization",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,25 @@
     }
   ],
   "notes": "USAGE:\n{決裁|けっさい} refers to the act of a superior formally approving a proposal or expenditure. It is a key concept in Japanese organizational culture where decisions typically require approval through a hierarchical chain.\n\nCOMMON COLLOCATIONS:\n- {決裁|けっさい}を{得|え}る (to obtain approval)\n- {決裁|けっさい}を{下|くだ}す (to hand down approval)\n- {決裁|けっさい}{権|けん} (authorization authority)\n- {決裁|けっさい}{書類|しょるい} (approval documents)\n\nSIMILAR WORDS:\n- {決裁|けっさい}: official approval from a superior (managerial sign-off)\n- {決済|けっさい}: financial settlement or payment (different kanji, same reading)\n- {承認|しょうにん}: general approval or endorsement",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03237_shounin",
+      "reading": "しょうにん",
+      "headword": "{承認|しょうにん}",
+      "label": "general approval or endorsement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26152_ringisho",
+      "reading": "りんぎしょ",
+      "headword": "{稟議書|りんぎしょ}",
+      "label": "written proposal for approval"
+    }
+  ],
   "metadata": {
     "created": "2026-02-13T12:41:35Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

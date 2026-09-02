@@ -19,7 +19,9 @@
       "english": "Powder snow is fluttering in the air.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13858_konayuki_ex2",
@@ -27,7 +29,9 @@
       "english": "Hokkaido's powder snow is world-famous.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13858_konayuki_ex3",
@@ -35,21 +39,77 @@
       "english": "Fine snow fell this morning, and the whole area turned pure white.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nOften used in weather descriptions and skiing contexts. Hokkaido is famous for its {粉雪|こなゆき}, which attracts skiers from around the world. The word evokes lightness and beauty, and is sometimes used poetically.\n\nWORD FORMATION:\n{粉|こな} (powder) + {雪|ゆき} (snow).\n\nSIMILAR WORDS:\n- {牡丹雪|ぼたんゆき}: large flake snow (wet, heavy)\n- {吹雪|ふぶき}: blizzard, snowstorm\n- {初雪|はつゆき}: first snow of the season\n\nCOMMON COLLOCATIONS:\n- {粉雪|こなゆき}が{舞|ま}う: powder snow flutters\n- {粉雪|こなゆき}が{降|ふ}る: powder snow falls\n- さらさらの{粉雪|こなゆき}: fine, dry powder snow",
-  "cross_references": [],
+  "notes": "USAGE:\nOften used in weather descriptions and skiing contexts. Hokkaido is famous for its {粉雪|こなゆき}, which attracts skiers from around the world. The word evokes lightness and beauty, and is sometimes used poetically.\n\nFORMS:\n{粉|こな} (powder) + {雪|ゆき} (snow).\n\nSIMILAR WORDS:\n- {牡丹雪|ぼたんゆき}: large flake snow (wet, heavy)\n- {吹雪|ふぶき}: blizzard, snowstorm\n- {初雪|はつゆき}: first snow of the season\n\nCOMMON COLLOCATIONS:\n- {粉雪|こなゆき}が{舞|ま}う: powder snow flutters\n- {粉雪|こなゆき}が{降|ふ}る: powder snow falls\n- さらさらの{粉雪|こなゆき}: fine, dry powder snow",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14939_botanyuki",
+      "reading": "ぼたんゆき",
+      "headword": "{牡丹雪|ぼたんゆき}",
+      "label": "large flake snow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00040_fubuki",
+      "reading": "ふぶき",
+      "headword": "{吹雪|ふぶき}",
+      "label": "blizzard, snowstorm"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11784_hatsuyuki",
+      "reading": "はつゆき",
+      "headword": "{初雪|はつゆき}",
+      "label": "first snow of the season"
+    },
+    {
+      "type": "related",
+      "target_id": "03017_ooyuki",
+      "reading": "おおゆき",
+      "headword": "{大雪|おおゆき}",
+      "label": "heavy snow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14989_awayuki",
+      "reading": "あわゆき",
+      "headword": "{淡雪|あわゆき}",
+      "label": "light snow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22448_shinsetsu",
+      "reading": "しんせつ",
+      "headword": "{新雪|しんせつ}",
+      "label": "fresh snow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22460_sasameyuki",
+      "reading": "ささめゆき",
+      "headword": "{細雪|ささめゆき}",
+      "label": "light snowfall"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T05:44:57Z",
-    "modified": "2026-02-27T05:44:57Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature"]
+      "semantic": [
+        "nature"
+      ]
     }
   }
 }

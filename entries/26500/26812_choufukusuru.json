@@ -3,7 +3,7 @@
   "headword": "{重複|ちょうふく}する",
   "reading": "ちょうふくする",
   "romaji": "choufuku suru",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to overlap; to be duplicated; to be redundant",
   "definitions": [
     {
@@ -44,8 +44,16 @@
       "notes": null
     }
   ],
-  "notes": "Very common in business, IT, and administrative contexts. Pronounced ちょうふく (traditional) or じゅうふく (common variant). Both readings are widely accepted, though ちょうふく is considered more standard.\n\nCOMMON COLLOCATIONS:\n- {重複|ちょうふく}を{避|さ}ける: to avoid duplication\n- {重複|ちょうふく}を{削除|さくじょ}する: to remove duplicates\n- {重複|ちょうふく}{登録|とうろく}: duplicate registration\n- {重複|ちょうふく}{部分|ぶぶん}: overlapping portion\n- {重複|ちょうふく}チェック: duplicate check\n\nSIMILAR WORDS:\n- {被|かぶ}る: to overlap — casual/colloquial, used for scheduling conflicts or repeated content\n- {繰|く}り{返|かえ}す: to repeat — intentional repetition, while {重複|ちょうふく} implies unintended or problematic duplication\n- ダブる: to double up — casual loanword-based verb for duplication or repetition\n\nPRONUNCIATION NOTE:\nTraditionally ちょうふく, but じゅうふく is widespread in spoken Japanese. Dictionaries typically list both. In formal writing and broadcasting, ちょうふく is preferred.",
-  "cross_references": [],
+  "notes": "Very common in business, IT, and administrative contexts. Pronounced ちょうふく (traditional) or じゅうふく (common variant). Both readings are widely accepted, though ちょうふく is considered more standard.\n\nCOMMON COLLOCATIONS:\n- {重複|ちょうふく}を{避|さ}ける: to avoid duplication\n- {重複|ちょうふく}を{削除|さくじょ}する: to remove duplicates\n- {重複|ちょうふく}{登録|とうろく}: duplicate registration\n- {重複|ちょうふく}{部分|ぶぶん}: overlapping portion\n- {重複|ちょうふく}チェック: duplicate check\n\nSIMILAR WORDS:\n- {被|かぶ}る: to overlap — casual/colloquial, used for scheduling conflicts or repeated content\n- {繰|く}り{返|かえ}す: to repeat — intentional repetition, while {重複|ちょうふく} implies unintended or problematic duplication\n- ダブる: to double up — casual loanword-based verb for duplication or repetition\n\nPRONUNCIATION:\nTraditionally ちょうふく, but じゅうふく is widespread in spoken Japanese. Dictionaries typically list both. In formal writing and broadcasting, ちょうふく is preferred.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02051_kurikaesu",
+      "reading": "くりかえす",
+      "headword": "{繰|く}り{返|かえ}す",
+      "label": "to repeat"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,7 +71,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T12:10:52Z",
-    "modified": "2026-05-05T12:10:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

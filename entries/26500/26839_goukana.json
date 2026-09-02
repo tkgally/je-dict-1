@@ -3,7 +3,7 @@
   "headword": "{豪華|ごうか}な",
   "reading": "ごうかな",
   "romaji": "goukana",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "luxurious; gorgeous; splendid; lavish",
   "definitions": [
     {
@@ -55,7 +55,29 @@
     }
   ],
   "notes": "A positive word conveying impressiveness and richness. Unlike {贅沢|ぜいたく} which can imply wastefulness, {豪華|ごうか} is purely appreciative and is often used in advertising and media to attract customers.\n\nCOMMON COLLOCATIONS:\n- {豪華|ごうか}{客船|きゃくせん}: luxury cruise ship\n- {豪華|ごうか}な{食事|しょくじ}: lavish meal\n- {豪華|ごうか}{絢爛|けんらん}: gorgeous and splendid\n- {豪華|ごうか}な{顔|かお}ぶれ: star-studded lineup\n- {豪華|ごうか}{賞品|しょうひん}: lavish prizes\n\nSIMILAR WORDS:\n- {贅沢|ぜいたく}な: extravagant — can imply excessive or wasteful spending\n- {華|はな}やかな: glamorous — emphasizes brightness and showiness\n- {立派|りっぱ}な: magnificent — emphasizes dignified impressiveness",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03309_zeitaku",
+      "reading": "ぜいたく",
+      "headword": "{贅沢|ぜいたく}",
+      "label": "extravagant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18036_hanayakana",
+      "reading": "はなやかな",
+      "headword": "{華|はな}やかな",
+      "label": "glamorous"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01093_rippa",
+      "reading": "りっぱ",
+      "headword": "{立派|りっぱ}",
+      "label": "magnificent"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -70,6 +92,6 @@
       ]
     },
     "created": "2026-05-05T13:09:01Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

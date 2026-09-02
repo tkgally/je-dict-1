@@ -17,7 +17,9 @@
       "id": "25593_kokorogasemai_ex1",
       "japanese": "あの{人|ひと}は{心|こころ}が{狭|せま}い。",
       "english": "That person is narrow-minded.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25593_kokorogasemai_ex2",
       "japanese": "そんな{小|ちい}さなことで{怒|おこ}るなんて、{心|こころ}が{狭|せま}いよ。",
       "english": "Getting angry over such a small thing — you're being petty.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,58 @@
       "id": "25593_kokorogasemai_ex3",
       "japanese": "{自分|じぶん}とは{違|ちが}う{意見|いけん}を{受|う}け{入|い}れられないのは、{心|こころ}が{狭|せま}い{証拠|しょうこ}だと{思|おも}う。",
       "english": "I think being unable to accept opinions different from your own is a sign of narrow-mindedness.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Literally \"the heart is narrow.\" This expression describes someone who is petty, intolerant, or lacks generosity of spirit. It is a direct criticism of character and is considered fairly blunt.\n\nThe expression is the antonym of {心|こころ}が{広|ひろ}い (broad-minded, generous). Japanese has many idiomatic expressions using {心|こころ} to describe personality traits.\n\nCOMMON COLLOCATIONS:\n- {心|こころ}が{狭|せま}い{人|ひと}: a petty person\n- {心|こころ}の{狭|せま}さ: narrow-mindedness (nominalized form)\n\nRELATED EXPRESSIONS:\n- {心|こころ}が{広|ひろ}い: broad-minded, generous — the direct antonym\n- {器|うつわ}が{小|ちい}さい: small-hearted, petty — similar meaning, emphasizes limited capacity as a person\n- {寛大|かんだい}: tolerant, magnanimous — formal antonym describing generosity of spirit\n- {狭量|きょうりょう}: narrow-minded — formal, written equivalent",
+  "notes": "Literally \"the heart is narrow.\" This expression describes someone who is petty, intolerant, or lacks generosity of spirit. It is a direct criticism of character and is considered fairly blunt.\n\nThe expression is the antonym of {心|こころ}が{広|ひろ}い (broad-minded, generous). Japanese has many idiomatic expressions using {心|こころ} to describe personality traits.\n\nCOMMON COLLOCATIONS:\n- {心|こころ}が{狭|せま}い{人|ひと}: a petty person\n- {心|こころ}の{狭|せま}さ: narrow-mindedness (nominalized form)\n\nRELATED WORDS:\n- {心|こころ}が{広|ひろ}い: broad-minded, generous — the direct antonym\n- {器|うつわ}が{小|ちい}さい: small-hearted, petty — similar meaning, emphasizes limited capacity as a person\n- {寛大|かんだい}: tolerant, magnanimous — formal antonym describing generosity of spirit\n- {狭量|きょうりょう}: narrow-minded — formal, written equivalent",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "20972_kokorogahiroi",
+      "reading": "こころがひろい",
+      "headword": "{心|こころ}が{広|ひろ}い",
+      "label": "broad-minded, generous"
+    },
+    {
+      "type": "related",
+      "target_id": "18883_utsuwagachiisai",
+      "reading": "うつわがちいさい",
+      "headword": "{器|うつわ}が{小|ちい}さい",
+      "label": "small-hearted, petty"
+    },
+    {
+      "type": "related",
+      "target_id": "15278_kandai",
+      "reading": "かんだい",
+      "headword": "{寛大|かんだい}",
+      "label": "tolerant, magnanimous"
+    },
+    {
+      "type": "related",
+      "target_id": "23800_kyouryou",
+      "reading": "きょうりょう",
+      "headword": "{狭量|きょうりょう}",
+      "label": "narrow-minded"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
-      "semantic": ["emotion", "personality"]
+      "pos": [
+        "expression"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "emotion",
+        "personality"
+      ]
     },
     "created": "2026-04-26T12:32:54Z",
-    "modified": "2026-04-26T12:32:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

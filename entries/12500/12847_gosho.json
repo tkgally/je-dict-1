@@ -19,7 +19,9 @@
       "english": "I visited the Kyoto Imperial Palace.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12847_gosho_ex2",
@@ -27,7 +29,9 @@
       "english": "There is a lot of greenery around the imperial palace.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12847_gosho_ex3",
@@ -35,21 +39,56 @@
       "english": "The imperial palace where the Emperor once lived is now open to the public.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{御所|ごしょ} specifically refers to the Emperor's residence, while {皇居|こうきょ} is the modern term for the current imperial residence in Tokyo. {京都|きょうと}{御所|ごしょ} is the most common collocation, referring to the historic palace in Kyoto.\n\nCOMMON COLLOCATIONS:\n- {京都|きょうと}{御所|ごしょ}: Kyoto Imperial Palace\n- {仙洞|せんとう}{御所|ごしょ}: palace of a retired emperor\n\nSIMILAR WORDS:\n- {皇居|こうきょ}: Imperial Palace (current Tokyo residence)\n- {宮殿|きゅうでん}: palace (general term)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13607_koukyo",
+      "reading": "こうきょ",
+      "headword": "{皇居|こうきょ}",
+      "label": "Imperial Palace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12285_kyuuden",
+      "reading": "きゅうでん",
+      "headword": "{宮殿|きゅうでん}",
+      "label": "palace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20230_rikyuu",
+      "reading": "りきゅう",
+      "headword": "{離宮|りきゅう}",
+      "label": "detached palace"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24768_kouguu",
+      "reading": "こうぐう",
+      "headword": "{皇宮|こうぐう}",
+      "label": "imperial palace"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T11:57:09Z",
-    "modified": "2026-02-22T11:57:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }

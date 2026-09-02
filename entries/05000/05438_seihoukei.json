@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{正方形|せいほうけい} is the mathematical term for a square. Composed of ⟦{正|せい}→正：noentry⟧ (correct, regular) + ⟦{方形|ほうけい}→方形：noentry⟧ (rectangle). A special case of ⟦{長方形|ちょうほうけい}→長方形：05439_chouhoukei⟧ where all sides are equal.\n\nCOMMON PATTERNS:\n- {正方形|せいほうけい}⟦の→の：09472_no⟧⟦{面積|めんせき}→面積：05330_menseki⟧: area of a square\n- {正方形|せいほうけい}⟦に→に：00314_ni⟧⟦{切|き}る→切る：02693_kiru⟧: to cut into a square\n- {正方形|せいほうけい}⟦の→の：09472_no⟧⟦{形|かたち}→形：02193_katachi⟧: square shape\n\nRELATED SHAPE TERMS:\n- ⟦{長方形|ちょうほうけい}→長方形：05439_chouhoukei⟧: rectangle\n- ⟦{四角形|しかくけい}→四角形：05437_shikakukei⟧: quadrilateral (general)\n- ⟦{三角形|さんかくけい}→三角形：05436_sankakukei⟧: triangle\n- ⟦{円|えん}→円：00774_en⟧/⟦{丸|まる}→丸：02167_maru⟧: circle\n- ⟦{菱形|ひしがた}→菱形：16999_hishigata⟧: rhombus/diamond\n\nCONTRAST:\n⟦{四角|しかく}い→四角い：05917_shikakui⟧ is the everyday adjective for \"square-shaped,\" while {正方形|せいほうけい} is the precise geometric term.",
+  "notes": "{正方形|せいほうけい} is the mathematical term for a square. Composed of ⟦{正|せい}→正：noentry⟧ (correct, regular) + ⟦{方形|ほうけい}→方形：noentry⟧ (rectangle). A special case of ⟦{長方形|ちょうほうけい}→長方形：05439_chouhoukei⟧ where all sides are equal.\n\nCOMMON PATTERNS:\n- {正方形|せいほうけい}⟦の→の：09472_no⟧⟦{面積|めんせき}→面積：05330_menseki⟧: area of a square\n- {正方形|せいほうけい}⟦に→に：00314_ni⟧⟦{切|き}る→切る：02693_kiru⟧: to cut into a square\n- {正方形|せいほうけい}⟦の→の：09472_no⟧⟦{形|かたち}→形：02193_katachi⟧: square shape\n\nRELATED SHAPE TERMS:\n- ⟦{長方形|ちょうほうけい}→長方形：05439_chouhoukei⟧: rectangle\n- ⟦{四角形|しかくけい}→四角形：05437_shikakukei⟧: quadrilateral (general)\n- ⟦{三角形|さんかくけい}→三角形：05436_sankakukei⟧: triangle\n- ⟦{円|えん}→円：00774_en⟧/⟦{丸|まる}→丸：02167_maru⟧: circle\n- ⟦{菱形|ひしがた}→菱形：16999_hishigata⟧: rhombus/diamond\n\nSIMILAR WORDS:\n⟦{四角|しかく}い→四角い：05917_shikakui⟧ is the everyday adjective for \"square-shaped,\" while {正方形|せいほうけい} is the precise geometric term.",
   "cross_references": [
     {
       "type": "related",
@@ -78,11 +78,60 @@
       "reading": "ちょうほうけい",
       "headword": "{長方形|ちょうほうけい}",
       "label": "rectangle"
+    },
+    {
+      "type": "related",
+      "target_id": "05436_sankakukei",
+      "reading": "さんかくけい",
+      "headword": "{三角形|さんかくけい}",
+      "label": "triangle"
+    },
+    {
+      "type": "related",
+      "target_id": "00774_en",
+      "reading": "えん",
+      "headword": "{円|えん}",
+      "label": "circle"
+    },
+    {
+      "type": "related",
+      "target_id": "02167_maru",
+      "reading": "まる",
+      "headword": "{丸|まる}",
+      "label": "circle"
+    },
+    {
+      "type": "related",
+      "target_id": "16999_hishigata",
+      "reading": "ひしがた",
+      "headword": "ひし{形|がた}",
+      "label": "rhombus/diamond"
+    },
+    {
+      "type": "related",
+      "target_id": "08725_taikaku",
+      "reading": "たいかく",
+      "headword": "{対角|たいかく}",
+      "label": "diagonal"
+    },
+    {
+      "type": "related",
+      "target_id": "23382_heikoushihenkei",
+      "reading": "へいこうしへんけい",
+      "headword": "{平行四辺形|へいこうしへんけい}",
+      "label": "parallelogram"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23664_seisankakukei",
+      "reading": "せいさんかくけい",
+      "headword": "{正三角形|せいさんかくけい}",
+      "label": "equilateral triangle"
     }
   ],
   "metadata": {
     "created": "2026-01-16T07:36:05Z",
-    "modified": "2026-08-20T06:21:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

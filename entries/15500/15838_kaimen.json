@@ -24,7 +24,9 @@
       "english": "The sea surface is gleaming.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15838_kaimen_ex2",
@@ -32,7 +34,9 @@
       "english": "I could see a small island floating on the sea surface.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15838_kaimen_ex3",
@@ -40,7 +44,9 @@
       "english": "The wind picked up and the sea surface began to get rough.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15838_kaimen_ex4",
@@ -48,7 +54,9 @@
       "english": "This mountain is about 3,000 meters above sea level.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15838_kaimen_ex5",
@@ -56,7 +64,9 @@
       "english": "Sea levels are rising due to global warming.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15838_kaimen_ex6",
@@ -64,10 +74,12 @@
       "english": "If sea level rise continues, low-lying islands may be submerged.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
-  "notes": "{海面|かいめん} has two related meanings: the physical surface of the sea, and sea level as a reference for elevation.\n\nCOMPOSITION:\n{海|かい} (sea) + {面|めん} (surface)\n\nCOMMON COLLOCATIONS:\n- {海面|かいめん}{上昇|じょうしょう}: sea level rise\n- {海面|かいめん}{温度|おんど}: sea surface temperature\n- {海面|かいめん}から〜メートル: X meters above sea level\n- {海面|かいめん}が{荒|あ}れる: the sea surface gets rough\n\nRELATED WORDS:\n- {水面|すいめん}: water surface (general)\n- {湖面|こめん}: lake surface\n- {地面|じめん}: ground surface\n- {海抜|かいばつ}: elevation above sea level (synonym for sense 2)\n\nUSAGE:\nIn scientific and news contexts, {海面|かいめん} often appears in discussions of climate change ({海面|かいめん}{上昇|じょうしょう}). For elevation, {海抜|かいばつ} is a more precise synonym.",
+  "notes": "{海面|かいめん} has two related meanings: the physical surface of the sea, and sea level as a reference for elevation.\n\nETYMOLOGY:\n{海|かい} (sea) + {面|めん} (surface)\n\nCOMMON COLLOCATIONS:\n- {海面|かいめん}{上昇|じょうしょう}: sea level rise\n- {海面|かいめん}{温度|おんど}: sea surface temperature\n- {海面|かいめん}から〜メートル: X meters above sea level\n- {海面|かいめん}が{荒|あ}れる: the sea surface gets rough\n\nRELATED WORDS:\n- {水面|すいめん}: water surface (general)\n- {湖面|こめん}: lake surface\n- {地面|じめん}: ground surface\n- {海抜|かいばつ}: elevation above sea level (synonym for sense 2)\n\nUSAGE:\nIn scientific and news contexts, {海面|かいめん} often appears in discussions of climate change ({海面|かいめん}{上昇|じょうしょう}). For elevation, {海抜|かいばつ} is a more precise synonym.",
   "cross_references": [
     {
       "type": "related",
@@ -82,18 +94,58 @@
       "reading": "かいばつ",
       "headword": "{海抜|かいばつ}",
       "label": "above sea level (elevation)"
+    },
+    {
+      "type": "related",
+      "target_id": "27150_komen",
+      "reading": "こめん",
+      "headword": "{湖面|こめん}",
+      "label": "lake surface"
+    },
+    {
+      "type": "related",
+      "target_id": "00125_jimen",
+      "reading": "じめん",
+      "headword": "{地面|じめん}",
+      "label": "ground surface"
+    },
+    {
+      "type": "related",
+      "target_id": "18419_chihyou",
+      "reading": "ちひょう",
+      "headword": "{地表|ちひょう}",
+      "label": "earth's surface"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24913_hamen",
+      "reading": "はめん",
+      "headword": "{波面|はめん}",
+      "label": "wave surface"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26439_kaisuimen",
+      "reading": "かいすいめん",
+      "headword": "{海水面|かいすいめん}",
+      "label": "sea level"
     }
   ],
   "metadata": {
     "created": "2026-03-08T12:24:55Z",
-    "modified": "2026-05-02T06:35:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature", "geography"]
+      "semantic": [
+        "nature",
+        "geography"
+      ]
     }
   }
 }

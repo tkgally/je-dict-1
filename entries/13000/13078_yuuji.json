@@ -19,7 +19,9 @@
       "english": "To prepare for an emergency.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13078_yuuji_ex2",
@@ -27,7 +29,9 @@
       "english": "In the event of a crisis, the safety of citizens takes top priority.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13078_yuuji_ex3",
@@ -35,7 +39,9 @@
       "english": "The government put emergency legislation in place and strengthened its response framework for crisis situations.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{有事|ゆうじ} is a formal word used primarily in political, military, and legal contexts. It implies a serious national-level crisis, especially armed conflict or war. The antonym {平時|へいじ} means \"peacetime\" or \"normal times.\"\n\nThe term {有事|ゆうじ}{法制|ほうせい} (emergency legislation) is an important concept in Japanese politics, referring to laws that define how the government responds to military threats.\n\nCOMMON COLLOCATIONS:\n- {有事|ゆうじ}に{備|そな}える: to prepare for an emergency\n- {有事|ゆうじ}の{際|さい}: in the event of an emergency\n- {有事|ゆうじ}{法制|ほうせい}: emergency legislation\n- {有事|ゆうじ}{対応|たいおう}: crisis response",
@@ -46,19 +52,39 @@
       "reading": "へいじ",
       "headword": "{平時|へいじ}",
       "label": "peacetime"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16936_kinkyuujitai",
+      "reading": "きんきゅうじたい",
+      "headword": "{緊急事態|きんきゅうじたい}",
+      "label": "state of emergency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30241_hijouji",
+      "reading": "ひじょうじ",
+      "headword": "{非常時|ひじょうじ}",
+      "label": "emergency"
     }
   ],
   "metadata": {
     "created": "2026-02-23T10:41:31Z",
-    "modified": "2026-04-28T04:13:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["legal"],
-      "semantic": ["society"]
+      "domain": [
+        "legal"
+      ],
+      "semantic": [
+        "society"
+      ]
     }
   }
 }

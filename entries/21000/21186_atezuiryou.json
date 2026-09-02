@@ -19,7 +19,9 @@
       "english": "That is nothing more than guesswork.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21186_atezuiryou_ex2",
@@ -27,7 +29,9 @@
       "english": "Don't speak based on guesswork.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21186_atezuiryou_ex3",
@@ -35,21 +39,49 @@
       "english": "It is dangerous to decide on a culprit based on guesswork without evidence.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{当|あ}て means 'aim' or 'guess,' and {推量|すいりょう} means 'conjecture' or 'inference' (the reading changes to ずいりょう in this compound). {当|あ}て{推量|ずいりょう} emphasizes that the guess is unfounded — a shot in the dark rather than a reasoned deduction.\n\nCOMMON COLLOCATIONS:\n- {当|あ}て{推量|ずいりょう}にすぎない (to be nothing more than guesswork)\n- {当|あ}て{推量|ずいりょう}で{言|い}う (to say based on guesswork)\n- {当|あ}て{推量|ずいりょう}をする (to make a random guess)\n\nSIMILAR WORDS:\n- {推測|すいそく} — guess, conjecture (more neutral; can be based on some reasoning)\n- {憶測|おくそく} — speculation (often negative; speculation without facts)\n- {勘|かん} — intuition, hunch (a gut feeling, not necessarily negative)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12821_suisoku",
+      "reading": "すいそく",
+      "headword": "{推測|すいそく}",
+      "label": "guess, conjecture (more neutral"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16398_okusoku",
+      "reading": "おくそく",
+      "headword": "{憶測|おくそく}",
+      "label": "speculation (often negative"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02149_kan",
+      "reading": "かん",
+      "headword": "{勘|かん}",
+      "label": "intuition, hunch"
+    }
+  ],
   "metadata": {
     "created": "2026-03-31T22:19:33Z",
-    "modified": "2026-03-31T22:19:33Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }

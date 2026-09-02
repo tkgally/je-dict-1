@@ -17,7 +17,9 @@
       "id": "27712_uuru_ex1",
       "japanese": "このセーターはウールだ。",
       "english": "This sweater is wool.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27712_uuru_ex2",
       "japanese": "ウールのマフラーは{暖|あたた}かい。",
       "english": "A wool scarf is warm.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "27712_uuru_ex3",
       "japanese": "ウール{百|ひゃく}パーセントの{服|ふく}はチクチクすることがある。",
       "english": "Clothes made of 100 percent wool can sometimes feel itchy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Borrowed from English \"wool.\" Refers both to the raw fiber and to woolen fabric.\n\nCOMMON COLLOCATIONS:\n- ウール{百|ひゃく}パーセント: 100 percent wool\n- ウールのセーター: a wool sweater\n- {天然|てんねん}ウール: natural wool\n\nSIMILAR WORDS:\n- {毛|け}: wool; hair — the native word; clothing labels often write {毛|け} for wool content\n- カシミヤ: cashmere — a finer, softer, more expensive wool from cashmere goats",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01392_ke",
+      "reading": "け",
+      "headword": "{毛|け}",
+      "label": "wool"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03807_men",
+      "reading": "めん",
+      "headword": "{綿|めん}",
+      "label": "cotton"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20649_youmou",
+      "reading": "ようもう",
+      "headword": "{羊毛|ようもう}",
+      "label": "wool"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ]
     },
     "created": "2026-05-17T03:10:36Z",
-    "modified": "2026-05-17T03:10:36Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

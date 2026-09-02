@@ -19,7 +19,9 @@
       "english": "That professor is famous for being an eccentric.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20607_kijin_ex2",
@@ -27,7 +29,9 @@
       "english": "He's an oddball, but his work skills are solid.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20607_kijin_ex3",
@@ -35,21 +39,42 @@
       "english": "The town has always had a few people who were called eccentrics and oddballs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Composed of {奇|き} (strange, unusual) + {人|じん} (person). Often used as part of the set phrase {奇人|きじん}{変人|へんじん} (eccentrics and oddballs), which is a common four-character expression.\n\nCOMMON COLLOCATIONS:\n- {奇人|きじん}{変人|へんじん} (eccentrics and oddballs — often used as a pair)\n- {奇人|きじん}と{呼|よ}ばれる (to be called an eccentric)\n- {奇人|きじん}で{有名|ゆうめい} (famous as an eccentric)\n\nSIMILAR WORDS:\n- {変人|へんじん} — weirdo, odd person (slightly more negative than {奇人|きじん})\n- {変|へん}わり{者|もの} — unconventional person, nonconformist (milder, can be positive)\n- {風変|ふうが}わり — peculiar, eccentric (na-adjective describing the quality itself)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12111_henjin",
+      "reading": "へんじん",
+      "headword": "{変人|へんじん}",
+      "label": "weirdo, odd person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20570_fuugawari",
+      "reading": "ふうがわり",
+      "headword": "{風変|ふうが}わり",
+      "label": "peculiar, eccentric"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T19:24:45Z",
-    "modified": "2026-03-29T19:24:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

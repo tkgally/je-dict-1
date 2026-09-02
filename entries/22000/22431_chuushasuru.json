@@ -3,7 +3,7 @@
   "headword": "{駐車|ちゅうしゃ}する",
   "reading": "ちゅうしゃする",
   "romaji": "chuushasuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to park (a vehicle)",
   "definitions": [
     {
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "Used specifically for parking vehicles. A practical everyday word essential for anyone driving in Japan. Japan has strict parking regulations, and {駐車|ちゅうしゃ}{違反|いはん} (parking violation) is a common issue in cities.\n\nCOMMON COLLOCATIONS:\n- {駐車場|ちゅうしゃじょう}: parking lot\n- {駐車|ちゅうしゃ}{違反|いはん}: parking violation\n- {駐車|ちゅうしゃ}{禁止|きんし}: no parking\n- {駐車|ちゅうしゃ}スペース: parking space\n- {路上|ろじょう}{駐車|ちゅうしゃ}: street parking\n- {違法|いほう}{駐車|ちゅうしゃ}: illegal parking\n\nSIMILAR WORDS:\n- {止|と}める: to stop / to park — more casual and general; commonly used in spoken language\n- {停車|ていしゃ}する: to stop (a vehicle) — a brief stop, not leaving the vehicle parked\n- {駐輪|ちゅうりん}する: to park a bicycle — specifically for bicycles\n\nCULTURAL NOTE:\nIn Japan, many areas require proof of a parking space ({車庫証明|しゃこしょうめい}) to own a car. Finding parking in urban areas can be difficult and expensive, leading to the prevalence of {コインパーキング} (coin-operated parking lots).",
+  "notes": "Used specifically for parking vehicles. A practical everyday word essential for anyone driving in Japan. Japan has strict parking regulations, and {駐車|ちゅうしゃ}{違反|いはん} (parking violation) is a common issue in cities.\n\nCOMMON COLLOCATIONS:\n- {駐車場|ちゅうしゃじょう}: parking lot\n- {駐車|ちゅうしゃ}{違反|いはん}: parking violation\n- {駐車|ちゅうしゃ}{禁止|きんし}: no parking\n- {駐車|ちゅうしゃ}スペース: parking space\n- {路上|ろじょう}{駐車|ちゅうしゃ}: street parking\n- {違法|いほう}{駐車|ちゅうしゃ}: illegal parking\n\nSIMILAR WORDS:\n- {止|と}める: to stop / to park — more casual and general; commonly used in spoken language\n- {停車|ていしゃ}する: to stop (a vehicle) — a brief stop, not leaving the vehicle parked\n- {駐輪|ちゅうりん}する: to park a bicycle — specifically for bicycles\n\nCULTURAL NOTE:\nIn Japan, many areas require proof of a parking space ({車庫証明|しゃこしょうめい}) to own a car. Finding parking in urban areas can be difficult and expensive, leading to the prevalence of コインパーキング (coin-operated parking lots).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00678_tomeru",
+      "reading": "とめる",
+      "headword": "{止|と}める",
+      "label": "to stop / to park"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21325_teishasuru",
+      "reading": "ていしゃする",
+      "headword": "{停車|ていしゃ}する",
+      "label": "to stop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15100_chuurin",
+      "reading": "ちゅうりん",
+      "headword": "{駐輪|ちゅうりん}",
+      "label": "to park a bicycle"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-06T10:38:29Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

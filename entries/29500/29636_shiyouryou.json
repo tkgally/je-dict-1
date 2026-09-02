@@ -17,7 +17,9 @@
       "id": "29636_shiyouryou_ex1",
       "japanese": "{使用料|しようりょう}を{払|はら}う。",
       "english": "pay a usage fee",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29636_shiyouryou_ex2",
       "japanese": "{会議室|かいぎしつ}の{使用料|しようりょう}は{一時間|いちじかん}{千円|せんえん}だ。",
       "english": "The meeting room usage fee is 1,000 yen per hour.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "29636_shiyouryou_ex3",
       "japanese": "{楽曲|がっきょく}の{使用料|しようりょう}を{著作権者|ちょさくけんしゃ}に{支払|しはら}う。",
       "english": "pay the usage fee for the music to the copyright holder",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {使用|しよう} (use) + {料|りょう} (fee, charge).\n\nCOMMON COLLOCATIONS:\n- {使用料|しようりょう}を{払|はら}う／{支払|しはら}う: to pay a usage fee\n- {施設|しせつ}{使用料|しようりょう}: facility usage fee\n- {土地|とち}の{使用料|しようりょう}: land usage fee\n\nSIMILAR WORDS:\n- {利用料|りようりょう}: usage/service fee — a close synonym, often for services or subscriptions\n- {賃料|ちんりょう}: rent — specifically for renting property\n- {手数料|てすうりょう}: handling fee — a charge for a service or transaction, not for use",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30029_chinryou",
+      "reading": "ちんりょう",
+      "headword": "賃料",
+      "label": "rent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05423_tesuuryou",
+      "reading": "てすうりょう",
+      "headword": "{手数料|てすうりょう}",
+      "label": "handling fee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29637_roiyariti",
+      "reading": "ろいやりてぃ",
+      "headword": "ロイヤリティ",
+      "label": "royalty"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["money"],
+      "politeness": "plain",
+      "semantic": [
+        "money"
+      ],
       "domain": []
     },
     "created": "2026-07-02T12:18:49Z",
-    "modified": "2026-07-02T12:18:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

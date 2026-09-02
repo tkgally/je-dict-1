@@ -3,7 +3,7 @@
   "headword": "{壮絶|そうぜつ}な",
   "reading": "そうぜつな",
   "romaji": "souzetsuna",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "fierce; intense; harrowing; heroic",
   "definitions": [
     {
@@ -54,8 +54,23 @@
       "notes": null
     }
   ],
-  "notes": "A dramatic word that conveys both severity and a sense of the sublime or heroic. Unlike merely negative words for 'terrible,' 壮絶 often carries admiration for the intensity of the struggle. Very common in media descriptions of personal battles with illness, war memoirs, and sports narratives.\n\nCOMMON COLLOCATIONS:\n- {壮絶|そうぜつ}な{戦|たたか}い: fierce battle/fight\n- {壮絶|そうぜつ}な{人生|じんせい}: harrowing life\n- {壮絶|そうぜつ}な{最期|さいご}: heroic/dramatic death\n- {壮絶|そうぜつ}な{体験|たいけん}: harrowing experience\n- {壮絶|そうぜつ}な{いじめ}: severe bullying\n\nSIMILAR WORDS:\n- {凄|すさ}まじい: tremendous; terrifying — emphasizes being overwhelming or dreadful\n- {猛烈|もうれつ}な: fierce; violent — emphasizes raw power and intensity\n- {熾烈|しれつ}な: fierce; intense — specifically for competition or rivalry",
-  "cross_references": [],
+  "notes": "A dramatic word that conveys both severity and a sense of the sublime or heroic. Unlike merely negative words for 'terrible,' 壮絶 often carries admiration for the intensity of the struggle. Very common in media descriptions of personal battles with illness, war memoirs, and sports narratives.\n\nCOMMON COLLOCATIONS:\n- {壮絶|そうぜつ}な{戦|たたか}い: fierce battle/fight\n- {壮絶|そうぜつ}な{人生|じんせい}: harrowing life\n- {壮絶|そうぜつ}な{最期|さいご}: heroic/dramatic death\n- {壮絶|そうぜつ}な{体験|たいけん}: harrowing experience\n- {壮絶|そうぜつ}ないじめ: severe bullying\n\nSIMILAR WORDS:\n- {凄|すさ}まじい: tremendous; terrifying — emphasizes being overwhelming or dreadful\n- {猛烈|もうれつ}な: fierce; violent — emphasizes raw power and intensity\n- {熾烈|しれつ}な: fierce; intense — specifically for competition or rivalry",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26858_mouretsuna",
+      "reading": "もうれつな",
+      "headword": "{猛烈|もうれつ}な",
+      "label": "fierce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16024_shiretsu",
+      "reading": "しれつ",
+      "headword": "{熾烈|しれつ}",
+      "label": "fierce"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -70,6 +85,6 @@
       ]
     },
     "created": "2026-05-05T14:20:09Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

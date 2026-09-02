@@ -19,7 +19,9 @@
       "english": "To take on subcontract work.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10898_shitauke_ex2",
@@ -27,7 +29,9 @@
       "english": "This factory does subcontracting for a major manufacturer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10898_shitauke_ex3",
@@ -35,22 +39,45 @@
       "english": "Subcontracting companies are often pressed by deadlines.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "WORD FORMATION:\n{下|した} (below, under) + {請|う}け (receiving, contracting) = receiving work from above.\n\nCOMMON COMPOUNDS:\n- {下請|したう}け{企業|きぎょう}: subcontracting company\n- {下請|したう}け{業者|ぎょうしゃ}: subcontractor\n- {下請|したう}け{工場|こうじょう}: subcontract factory\n- {孫請|まごう}け: sub-subcontracting (a subcontractor's subcontractor)\n\nCOMMON COLLOCATIONS:\n- {下請|したう}けに{出|だ}す: to subcontract out\n- {下請|したう}けを{受|う}ける: to take on subcontract work\n\nCULTURAL NOTE:\nThe {下請|したう}け system is deeply embedded in Japanese industry, especially manufacturing. Large companies like automobile makers rely on layers of {下請|したう}け companies. The relationship can involve {孫請|まごう}け (sub-subcontracting) and even further layers, creating a pyramid structure.",
-  "cross_references": [],
+  "notes": "FORMS:\n{下|した} (below, under) + {請|う}け (receiving, contracting) = receiving work from above.\n\nCOMPOUNDS:\n- {下請|したう}け{企業|きぎょう}: subcontracting company\n- {下請|したう}け{業者|ぎょうしゃ}: subcontractor\n- {下請|したう}け{工場|こうじょう}: subcontract factory\n- {孫請|まごう}け: sub-subcontracting (a subcontractor's subcontractor)\n\nCOMMON COLLOCATIONS:\n- {下請|したう}けに{出|だ}す: to subcontract out\n- {下請|したう}けを{受|う}ける: to take on subcontract work\n\nCULTURAL NOTE:\nThe {下請|したう}け system is deeply embedded in Japanese industry, especially manufacturing. Large companies like automobile makers rely on layers of {下請|したう}け companies. The relationship can involve {孫請|まごう}け (sub-subcontracting) and even further layers, creating a pyramid structure.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12153_gaichuu",
+      "reading": "がいちゅう",
+      "headword": "{外注|がいちゅう}",
+      "label": "outsourcing, subcontracting"
+    },
+    {
+      "type": "related",
+      "target_id": "22946_motouke",
+      "reading": "もとうけ",
+      "headword": "{元請|もとう}け",
+      "label": "main contractor"
+    }
+  ],
   "metadata": {
     "created": "2026-02-11T09:22:41Z",
-    "modified": "2026-02-11T09:22:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["work"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

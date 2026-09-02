@@ -22,7 +22,9 @@
       "id": "28537_eesu_ex1",
       "japanese": "{彼|かれ}はチームのエースだ。",
       "english": "He's the ace of the team.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "28537_eesu_ex2",
       "japanese": "エース{投手|とうしゅ}が{先発|せんぱつ}した。",
       "english": "The ace pitcher started the game.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "28537_eesu_ex3",
       "japanese": "{営業|えいぎょう}{部|ぶ}のエースとして{大型|おおがた}{案件|あんけん}を{次々|つぎつぎ}と{獲得|かくとく}している。",
       "english": "As the ace of the sales department, she is winning major deals one after another.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "28537_eesu_ex4",
       "japanese": "ハートのエースを{引|ひ}いた。",
       "english": "I drew the ace of hearts.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "28537_eesu_ex5",
       "japanese": "エースが{二枚|にまい}{揃|そろ}った。",
       "english": "I got two aces.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,23 +72,45 @@
       "id": "28537_eesu_ex6",
       "japanese": "ポーカーではエースが{一番|いちばん}{強|つよ}いカードとして{扱|あつか}われる。",
       "english": "In poker, the ace is treated as the strongest card.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"ace.\" The sports/figurative sense is by far the more common use in everyday Japanese.\n\nSENSE 1 (top player):\n- エース{投手|とうしゅ}: ace pitcher\n- チームのエース: team's ace\n- {不動|ふどう}のエース: unshakable ace; permanent fixture as ace\n- {営業|えいぎょう}のエース: top salesperson\n\nSENSE 2 (card):\n- ハートのエース: ace of hearts\n- エースを{引|ひ}く: to draw an ace\n\nSIMILAR WORDS:\n- {主力|しゅりょく}: main force; key member — overlaps with sense 1 but is broader and less individual\n- {花形|はながた}: star (player/performer) — more about glamour and popularity than reliability",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11480_shuryoku",
+      "reading": "しゅりょく",
+      "headword": "{主力|しゅりょく}",
+      "label": "main force"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13966_hanagata",
+      "reading": "はながた",
+      "headword": "{花形|はながた}",
+      "label": "star"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports"],
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ],
       "domain": []
     },
     "created": "2026-06-01T04:07:37Z",
-    "modified": "2026-06-01T04:07:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

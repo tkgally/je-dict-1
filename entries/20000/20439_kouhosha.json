@@ -17,7 +17,9 @@
       "id": "20439_kouhosha_ex1",
       "japanese": "{候補者|こうほしゃ}が{三人|さんにん}いる。",
       "english": "There are three candidates.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20439_kouhosha_ex2",
       "japanese": "{次期|じき}{社長|しゃちょう}の{候補者|こうほしゃ}として{名前|なまえ}が{挙|あ}がった。",
       "english": "My name came up as a candidate for the next company president.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "20439_kouhosha_ex3",
       "japanese": "{選挙|せんきょ}では{五人|ごにん}の{候補者|こうほしゃ}が{激|はげ}しい{選挙戦|せんきょせん}を{繰|く}り{広|ひろ}げた。",
       "english": "In the election, five candidates waged a fierce campaign.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {候補|こうほ} (candidacy) and {者|しゃ} (person). The base word {候補|こうほ} can also be used alone to mean \"candidacy\" or \"candidate\" in a broader sense (e.g., candidate locations or candidate items).\n\nUSAGE:\n{候補者|こうほしゃ} specifically refers to people, while {候補|こうほ} can refer to either people or things. In elections, {候補者|こうほしゃ} is the standard term. In business, it covers job candidates, promotion candidates, and award nominees.\n\nCOMMON COLLOCATIONS:\n- {候補者|こうほしゃ}を{立|た}てる — to put up a candidate\n- {候補者|こうほしゃ}を{絞|しぼ}る — to narrow down the candidates\n- {有力|ゆうりょく}{候補者|こうほしゃ} — strong/leading candidate\n- {候補者|こうほしゃ}{選|えら}び — candidate selection\n\nSIMILAR WORDS:\n- {候補|こうほ} — candidate, candidacy (broader, includes things as well as people)\n- {志願者|しがんしゃ} — volunteer, applicant (someone who puts themselves forward)\n- {応募者|おうぼしゃ} — applicant (someone who applies in response to a call)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20919_shigansha",
+      "reading": "しがんしゃ",
+      "headword": "{志願者|しがんしゃ}",
+      "label": "volunteer, applicant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20440_oubosha",
+      "reading": "おうぼしゃ",
+      "headword": "{応募者|おうぼしゃ}",
+      "label": "applicant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24174_jushousha",
+      "reading": "じゅしょうしゃ",
+      "headword": "{受賞者|じゅしょうしゃ}",
+      "label": "award winner"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["politics", "business"]
+      "semantic": [
+        "politics",
+        "business"
+      ]
     },
     "created": "2026-03-29T14:08:28Z",
-    "modified": "2026-03-29T14:08:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "04273_toubun",
   "headword": "{等分|とうぶん}",
   "reading": "とうぶん",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "division into equal parts",
   "conjugation": {
     "type": "suru",
@@ -134,10 +134,25 @@
     }
   ],
   "notes": "USAGE: {等分|とうぶん} is used for dividing things (food, money, lines) into exactly equal portions.\n\nCOMMON PATTERNS:\n- X⟦を→を：00422_wo⟧{等分|とうぶん}⟦する→する：00392_suru⟧ (to divide X equally)\n- X⟦を→を：00422_wo⟧{二|に}/{三|さん}/{四|よん}{等分|とうぶん}⟦する→する：00392_suru⟧ (to divide X into 2/3/4 equal parts)\n- {等分|とうぶん}⟦に→に：00314_ni⟧⟦{分|わ}ける→分ける：02333_wakeru⟧ (to divide equally)\n\nNOTE: Often used with numbers to specify how many parts ({二等分|にとうぶん}, {三等分|さんとうぶん}, etc.).\n\nSIMILAR WORDS:\n- ⟦{均等|きんとう}→均等：19459_kintou⟧ - equal, even (more abstract)\n- ⟦{半分|はんぶん}→半分：02938_hanbun⟧ - half (specifically two parts)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19459_kintou",
+      "reading": "きんとう",
+      "headword": "{均等|きんとう}",
+      "label": "equal, even"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02938_hanbun",
+      "reading": "はんぶん",
+      "headword": "{半分|はんぶん}",
+      "label": "half"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T00:58:16Z",
-    "modified": "2026-05-30T16:12:37Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -22,7 +22,9 @@
       "id": "28996_boribori_ex1",
       "japanese": "{煎餅|せんべい}をぼりぼり{食|た}べる。",
       "english": "I crunch on rice crackers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "28996_boribori_ex2",
       "japanese": "{弟|おとうと}は{人参|にんじん}をぼりぼりとかじっている。",
       "english": "My little brother is munching on a carrot.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "28996_boribori_ex3",
       "japanese": "{映画|えいが}を{見|み}ながらポップコーンをぼりぼりと{食|た}べ{続|つづ}けた。",
       "english": "I kept crunching on popcorn while watching the movie.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "28996_boribori_ex4",
       "japanese": "{頭|あたま}をぼりぼり{掻|か}いた。",
       "english": "I scratched my head vigorously.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "28996_boribori_ex5",
       "japanese": "{蚊|か}に{刺|さ}されてぼりぼりと{腕|うで}を{掻|か}いてしまった。",
       "english": "After getting bitten by a mosquito, I ended up scratching my arm hard.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,23 +72,54 @@
       "id": "28996_boribori_ex6",
       "japanese": "かゆいところをぼりぼり{掻|か}くと、{余計|よけい}にひどくなるよ。",
       "english": "If you keep scratching the itchy spot like that, it'll only get worse.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The 「ぼ」 sound suggests a deeper, drier crunch than ぱりぱり or ばりばり. The two senses (chewing and scratching) share a sense of dry, abrasive friction.\n\nCOMMON COLLOCATIONS:\n- ぼりぼり{食|た}べる: to crunch on (food)\n- ぼりぼりかじる: to munch on\n- {頭|あたま}をぼりぼり{掻|か}く: to scratch one's head\n\nSIMILAR WORDS:\n- ばりばり: louder, harder crunch (and \"vigorously\" figuratively)\n- ぱりぱり: lighter, crisper sound (chips, thin senbei)\n- ぽりぽり: a softer crunch, often for lighter snacks",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05720_baribari",
+      "reading": "ばりばり",
+      "headword": "ばりばり",
+      "label": "louder, harder crunch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05259_paripari",
+      "reading": "ぱりぱり",
+      "headword": "ぱりぱり",
+      "label": "lighter, crisper sound"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05937_poripori",
+      "reading": "ぽりぽり",
+      "headword": "ぽりぽり",
+      "label": "a softer crunch, often for lighter…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "onomatopoeia"],
+      "pos": [
+        "adverb",
+        "onomatopoeia"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["descriptive", "onomatopoeia"],
+      "politeness": "plain",
+      "semantic": [
+        "descriptive",
+        "onomatopoeia"
+      ],
       "domain": []
     },
     "created": "2026-06-08T07:55:39Z",
-    "modified": "2026-06-08T07:55:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

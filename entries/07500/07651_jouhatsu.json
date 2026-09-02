@@ -168,7 +168,7 @@
       "notes": null
     }
   ],
-  "notes": "SENSE 1 (Physical):\n・{水分|すいぶん}が{蒸発|じょうはつ}する - moisture evaporates\n・{蒸発|じょうはつ}{熱|ねつ} - heat of vaporization\n\nSENSE 2 (Figurative - Disappearance):\nThis uniquely Japanese usage describes people who deliberately vanish from their lives. It became a social phenomenon in Japan, with people disappearing to escape debts, unhappy marriages, or other problems.\n・{夜逃|よに}げ - fleeing at night (similar concept)\n・{蒸発|じょうはつ}{者|しゃ} - a person who has disappeared\n\nCULTURAL NOTE:\nThe figurative use reflects a distinctly Japanese social phenomenon. There are even businesses in Japan that help people \"evaporate\" from their current lives.\n\nSIMILAR PHYSICAL PROCESSES:\n・{凝縮|ぎょうしゅく} - condensation (opposite)\n・{沸騰|ふっとう} - boiling",
+  "notes": "SENSE 1 (Physical):\n- {水分|すいぶん}が{蒸発|じょうはつ}する - moisture evaporates\n- {蒸発|じょうはつ}{熱|ねつ} - heat of vaporization\n\nSENSE 2 (Figurative - Disappearance):\nThis uniquely Japanese usage describes people who deliberately vanish from their lives. It became a social phenomenon in Japan, with people disappearing to escape debts, unhappy marriages, or other problems.\n- {夜逃|よに}げ - fleeing at night (similar concept)\n- {蒸発|じょうはつ}{者|しゃ} - a person who has disappeared\n\nCULTURAL NOTE:\nThe figurative use reflects a distinctly Japanese social phenomenon. There are even businesses in Japan that help people \"evaporate\" from their current lives.\n\nSIMILAR PHYSICAL PROCESSES:\n- {凝縮|ぎょうしゅく} - condensation (opposite)\n- {沸騰|ふっとう} - boiling",
   "cross_references": [
     {
       "type": "antonym",
@@ -183,11 +183,25 @@
       "reading": "ふっとう",
       "headword": "{沸騰|ふっとう}",
       "label": "boiling"
+    },
+    {
+      "type": "related",
+      "target_id": "08404_yuukai",
+      "reading": "ゆうかい",
+      "headword": "{融解|ゆうかい}",
+      "label": "melting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12190_shissou",
+      "reading": "しっそう",
+      "headword": "{失踪|しっそう}",
+      "label": "disappearance, going missing"
     }
   ],
   "metadata": {
     "created": "2026-01-20T13:21:59Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -196,6 +210,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "action"
       ],

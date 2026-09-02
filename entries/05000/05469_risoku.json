@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{利息|りそく} refers to the money earned on savings or paid on loans — the actual amount of interest, not the percentage rate.\n\nCOMMON PATTERNS:\n- {利息|りそく}⟦が→が：00051_ga⟧⟦つく→つく：01960_tsuku⟧: to earn/accrue interest\n- {利息|りそく}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧: to pay interest\n- {利息|りそく}⟦を→を：00422_wo⟧⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧: to receive interest\n- {利息|りそく}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧/⟦{低|ひく}い→低い：02947_hikui⟧: interest is high/low\n\nSIMILAR WORDS:\n- ⟦{利子|りし}→利子：17606_rishi⟧: interest (virtually synonymous; ⟦{利子|りし}→利子：17606_rishi⟧ is slightly more formal and common in written/legal contexts)\n- ⟦{金利|きんり}→金利：04856_kinri⟧: interest rate (the percentage, not the money amount)\n- ⟦{利率|りりつ}→利率：21159_riritsu⟧: interest rate (more technical/formal than ⟦{金利|きんり}→金利：04856_kinri⟧)\n\nUSAGE NOTE:\n{利息|りそく} applies to both interest earned on deposits and interest charged on loans. Context makes clear which is meant. In Japan's long era of low interest rates, {利息|りそく}⟦が→が：00051_ga⟧⟦ほとんど→ほとんど：00847_hotondo⟧⟦つかない→つく：01960_tsuku⟧ (earning almost no interest) has been a common complaint about bank savings.",
+  "notes": "{利息|りそく} refers to the money earned on savings or paid on loans — the actual amount of interest, not the percentage rate.\n\nCOMMON PATTERNS:\n- {利息|りそく}⟦が→が：00051_ga⟧⟦つく→つく：01960_tsuku⟧: to earn/accrue interest\n- {利息|りそく}⟦を→を：00422_wo⟧⟦{払|はら}う→払う：00535_harau⟧: to pay interest\n- {利息|りそく}⟦を→を：00422_wo⟧⟦{受|う}け{取|と}る→受け取る：01883_uketoru⟧: to receive interest\n- {利息|りそく}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧/⟦{低|ひく}い→低い：02947_hikui⟧: interest is high/low\n\nSIMILAR WORDS:\n- ⟦{利子|りし}→利子：17606_rishi⟧: interest (virtually synonymous; ⟦{利子|りし}→利子：17606_rishi⟧ is slightly more formal and common in written/legal contexts)\n- ⟦{金利|きんり}→金利：04856_kinri⟧: interest rate (the percentage, not the money amount)\n- ⟦{利率|りりつ}→利率：21159_riritsu⟧: interest rate (more technical/formal than ⟦{金利|きんり}→金利：04856_kinri⟧)\n\nUSAGE:\n{利息|りそく} applies to both interest earned on deposits and interest charged on loans. Context makes clear which is meant. In Japan's long era of low interest rates, {利息|りそく}⟦が→が：00051_ga⟧⟦ほとんど→ほとんど：00847_hotondo⟧⟦つかない→つく：01960_tsuku⟧ (earning almost no interest) has been a common complaint about bank savings.",
   "cross_references": [
     {
       "type": "synonym",
@@ -78,11 +78,46 @@
       "reading": "きんり",
       "headword": "{金利|きんり}",
       "label": "interest rate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21159_riritsu",
+      "reading": "りりつ",
+      "headword": "{利率|りりつ}",
+      "label": "interest rate"
+    },
+    {
+      "type": "related",
+      "target_id": "07072_ganpon",
+      "reading": "がんぽん",
+      "headword": "{元本|がんぽん}",
+      "label": "principal (investment)"
+    },
+    {
+      "type": "related",
+      "target_id": "07557_kariire",
+      "reading": "かりいれ",
+      "headword": "{借入|かりいれ}",
+      "label": "borrowing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20604_gankin",
+      "reading": "がんきん",
+      "headword": "{元金|がんきん}",
+      "label": "principal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30117_kashidashikinri",
+      "reading": "かしだしきんり",
+      "headword": "{貸出|かしだし}{金利|きんり}",
+      "label": "lending rate"
     }
   ],
   "metadata": {
     "created": "2026-01-16T07:41:01Z",
-    "modified": "2026-06-06T17:03:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

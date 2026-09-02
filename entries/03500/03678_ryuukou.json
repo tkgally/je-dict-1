@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {流行|りゅうこう} has two main meanings: (1) fashion/trends in culture and society, and (2) the spread of diseases.\n\nCOMMON PATTERNS:\n・{流行|りゅうこう}⟦する→する：00392_suru⟧ (to be in fashion, to spread)\n・{流行|りゅうこう}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧ (to follow a trend)\n・{流行|りゅうこう}⟦を→を：00422_wo⟧⟦{追|お}う→追う：02016_ou⟧ (to chase trends)\n・⟦{大|だい}{流行|りゅうこう}→大流行：19965_dairyuukou⟧ (big trend, epidemic)\n・⟦{流行|りゅうこう}{語|ご}→流行語：13307_ryuukougo⟧ (buzzword, trendy word)\n\nNOTE: Can also be read as ⟦はやり→はやり：noentry⟧ in casual speech, especially for fashion/trends.\n\nSIMILAR WORDS:\n・⟦トレンド→トレンド：06696_torendo⟧ - trend (loanword)\n・⟦ブーム→ブーム：05511_buumu⟧ - boom, craze",
+  "notes": "USAGE: {流行|りゅうこう} has two main meanings: (1) fashion/trends in culture and society, and (2) the spread of diseases.\n\nCOMMON PATTERNS:\n- {流行|りゅうこう}⟦する→する：00392_suru⟧ (to be in fashion, to spread)\n- {流行|りゅうこう}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧ (to follow a trend)\n- {流行|りゅうこう}⟦を→を：00422_wo⟧⟦{追|お}う→追う：02016_ou⟧ (to chase trends)\n- ⟦{大|だい}{流行|りゅうこう}→大流行：19965_dairyuukou⟧ (big trend, epidemic)\n- ⟦{流行|りゅうこう}{語|ご}→流行語：13307_ryuukougo⟧ (buzzword, trendy word)\n\nNOTE: Can also be read as ⟦はやり→はやり：noentry⟧ in casual speech, especially for fashion/trends.\n\nSIMILAR WORDS:\n- ⟦トレンド→トレンド：06696_torendo⟧ - trend (loanword)\n- ⟦ブーム→ブーム：05511_buumu⟧ - boom, craze",
   "cross_references": [
     {
       "type": "synonym",
@@ -93,11 +93,60 @@
       "reading": "はやる",
       "headword": "{流行|はや}る",
       "label": "to be popular, to spread (verb)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05511_buumu",
+      "reading": "ぶーむ",
+      "headword": "ブーム",
+      "label": "boom, craze"
+    },
+    {
+      "type": "related",
+      "target_id": "01969_nagareru",
+      "reading": "ながれる",
+      "headword": "{流|なが}れる",
+      "label": "to flow, to stream"
+    },
+    {
+      "type": "related",
+      "target_id": "07592_fukyuu",
+      "reading": "ふきゅう",
+      "headword": "{普及|ふきゅう}",
+      "label": "spread"
+    },
+    {
+      "type": "related",
+      "target_id": "11400_pandemikku",
+      "reading": "ぱんでみっく",
+      "headword": "パンデミック",
+      "label": "pandemic"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13417_chouryuu",
+      "reading": "ちょうりゅう",
+      "headword": "{潮流|ちょうりゅう}",
+      "label": "tidal current"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22182_fukyuusuru",
+      "reading": "ふきゅうする",
+      "headword": "{普及|ふきゅう}する",
+      "label": "to spread"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28223_hayari",
+      "reading": "はやり",
+      "headword": "はやり",
+      "label": "fashion"
     }
   ],
   "metadata": {
     "created": "2026-01-12T16:09:00Z",
-    "modified": "2026-05-26T22:10:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{助成|じょせい}する",
   "reading": "じょせいする",
   "romaji": "joseisuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to subsidize; to grant aid; to provide financial assistance",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {助|じょ} (help) + {成|せい} (achieve/accomplish), referring to financial support that helps something succeed. Primarily used in official and institutional contexts.\n\nCOMMON COLLOCATIONS:\n- {助成金|じょせいきん}: subsidy; grant; financial aid\n- {助成|じょせい}{制度|せいど}: subsidy system/program\n- {助成|じょせい}{事業|じぎょう}: subsidized project\n- {助成|じょせい}を{受|う}ける: to receive a subsidy\n- {助成|じょせい}を{申請|しんせい}する: to apply for a grant\n\nSIMILAR WORDS:\n- {補助|ほじょ}する: to assist/supplement — broader, includes non-financial help\n- {援助|えんじょ}する: to aid/assist — more general, can include humanitarian aid\n- {支援|しえん}する: to support — the most general term for support",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14105_hojo",
+      "reading": "ほじょ",
+      "headword": "{補助|ほじょ}",
+      "label": "to assist/supplement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26855_enjosuru",
+      "reading": "えんじょする",
+      "headword": "{援助|えんじょ}する",
+      "label": "to aid/assist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25534_shiensuru",
+      "reading": "しえんする",
+      "headword": "{支援|しえん}する",
+      "label": "to support"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-03T20:22:42Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

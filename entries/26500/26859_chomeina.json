@@ -3,7 +3,7 @@
   "headword": "{著名|ちょめい}な",
   "reading": "ちょめいな",
   "romaji": "chomeina",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "well-known; famous; noted; prominent",
   "definitions": [
     {
@@ -55,7 +55,22 @@
     }
   ],
   "notes": "Formal word for famous, typically used for people or places recognized for positive accomplishments. Carries a sense of established reputation and prestige. Most often appears in written language, news, and academic contexts.\n\nCOMMON COLLOCATIONS:\n- {著名|ちょめい}な{人物|じんぶつ}: prominent figure\n- {著名|ちょめい}な{作家|さっか}: famous writer\n- {著名|ちょめい}な{企業|きぎょう}: well-known company\n- {世界的|せかいてき}に{著名|ちょめい}な: world-renowned\n- {著名|ちょめい}な{学者|がくしゃ}: noted scholar\n\nSIMILAR WORDS:\n- {有名|ゆうめい}な: famous — the most common general word; neutral, used in everyday speech\n- {名高|なだか}い: renowned — literary, emphasizes widespread fame and admiration\n- {高名|こうめい}な: distinguished — very formal, slightly archaic nuance",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01106_yuumei",
+      "reading": "ゆうめい",
+      "headword": "{有名|ゆうめい}",
+      "label": "famous"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11956_nadakai",
+      "reading": "なだかい",
+      "headword": "{名高|なだか}い",
+      "label": "renowned"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -70,6 +85,6 @@
       ]
     },
     "created": "2026-05-05T14:11:06Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

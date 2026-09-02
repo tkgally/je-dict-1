@@ -16,7 +16,9 @@
       "id": "09115_keigan_ex1",
       "japanese": "{慧眼|けいがん}の{持|も}ち{主|ぬし}",
       "english": "a person of keen insight",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09115_keigan_ex2",
       "japanese": "さすが{社長|しゃちょう}、お{慧眼|けいがん}ですね。",
       "english": "As expected of the president, you have excellent judgment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "09115_keigan_ex3",
       "japanese": "{彼|かれ}の{慧眼|けいがん}は、{誰|だれ}も{気|き}づかなかった{問題|もんだい}を{見抜|みぬ}いた。",
       "english": "His keen insight detected a problem that no one else had noticed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -52,18 +58,43 @@
       "reading": "せんけん",
       "headword": "{先見|せんけん}",
       "label": "foresight"
+    },
+    {
+      "type": "related",
+      "target_id": "08523_dousatsuryoku",
+      "reading": "どうさつりょく",
+      "headword": "{洞察力|どうさつりょく}",
+      "label": "insight, perception"
+    },
+    {
+      "type": "related",
+      "target_id": "19677_senkennomei",
+      "reading": "せんけんのめい",
+      "headword": "{先見|せんけん}の{明|めい}",
+      "label": "foresight"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22548_eigan",
+      "reading": "えいがん",
+      "headword": "{鋭眼|えいがん}",
+      "label": "keen eye"
     }
   ],
   "metadata": {
     "created": "2026-01-31T10:43:59Z",
-    "modified": "2026-04-22T07:28:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     }
   }
 }

@@ -19,7 +19,9 @@
       "english": "How big is this box?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10969_ookisa_ex2",
@@ -27,7 +29,9 @@
       "english": "The apples are each a different size.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10969_ookisa_ex3",
@@ -35,10 +39,12 @@
       "english": "The shoe size doesn't fit, so my feet hurt.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{大|おお}きさ means \"size\" or \"magnitude\" — the extent of how big something is.\n\nFORMATION:\nFormed with the ～さ suffix that converts い-adjectives into nouns expressing degree:\n- {大|おお}きい → {大|おお}きさ (size)\n- {高|たか}い → {高|たか}さ (height)\n- {長|なが}い → {長|なが}さ (length)\n- {広|ひろ}い → {広|ひろ}さ (spaciousness)\n- {小|ちい}さい → {小|ちい}ささ (smallness)\n\nCOMMON PATTERNS:\n- {大|おお}きさが{違|ちが}う: to differ in size\n- {大|おお}きさが{同|おな}じ: to be the same size\n- {大|おお}きさを{測|はか}る: to measure the size\n- {大|おお}きさを{比|くら}べる: to compare sizes\n\nUSAGE:\nUnlike English \"size\" which can also refer to clothing sizes (S/M/L), {大|おお}きさ primarily refers to physical dimensions. For clothing sizes, サイズ is more common: このサイズはありますか (Do you have this size?).",
+  "notes": "{大|おお}きさ means \"size\" or \"magnitude\" — the extent of how big something is.\n\nFORMS:\nFormed with the ～さ suffix that converts い-adjectives into nouns expressing degree:\n- {大|おお}きい → {大|おお}きさ (size)\n- {高|たか}い → {高|たか}さ (height)\n- {長|なが}い → {長|なが}さ (length)\n- {広|ひろ}い → {広|ひろ}さ (spaciousness)\n- {小|ちい}さい → {小|ちい}ささ (smallness)\n\nCOMMON PATTERNS:\n- {大|おお}きさが{違|ちが}う: to differ in size\n- {大|おお}きさが{同|おな}じ: to be the same size\n- {大|おお}きさを{測|はか}る: to measure the size\n- {大|おお}きさを{比|くら}べる: to compare sizes\n\nUSAGE:\nUnlike English \"size\" which can also refer to clothing sizes (S/M/L), {大|おお}きさ primarily refers to physical dimensions. For clothing sizes, サイズ is more common: このサイズはありますか (Do you have this size?).",
   "cross_references": [
     {
       "type": "see_also",
@@ -46,18 +52,36 @@
       "headword": "{大|おお}きい",
       "label": "big, large (adjective)",
       "target_id": "00335_ookii"
+    },
+    {
+      "type": "related",
+      "target_id": "00105_hirosa",
+      "reading": "ひろさ",
+      "headword": "{広|ひろ}さ",
+      "label": "extent"
+    },
+    {
+      "type": "related",
+      "target_id": "04311_sunpou",
+      "reading": "すんぽう",
+      "headword": "{寸法|すんぽう}",
+      "label": "measurement, dimensions, size"
     }
   ],
   "metadata": {
     "created": "2026-02-11T23:06:15Z",
-    "modified": "2026-04-02T07:10:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["size"]
+      "semantic": [
+        "size"
+      ]
     }
   }
 }

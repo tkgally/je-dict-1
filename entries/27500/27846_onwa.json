@@ -3,7 +3,7 @@
   "headword": "{温和|おんわ}",
   "reading": "おんわ",
   "romaji": "onwa",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "gentle; mild; moderate",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "27846_onwa_ex1",
       "japanese": "{温和|おんわ}な{気候|きこう}だ。",
       "english": "The climate is mild.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27846_onwa_ex2",
       "japanese": "{彼|かれ}は{温和|おんわ}な{性格|せいかく}だ。",
       "english": "He has a gentle disposition.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "27846_onwa_ex3",
       "japanese": "この{地方|ちほう}は{一年|いちねん}を{通|とお}して{温和|おんわ}で{過|す}ごしやすい。",
       "english": "This region is mild and comfortable to live in throughout the year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Applies both to weather/climate and to temperament. Conveys calmness and the absence of anything harsh or extreme.\n\nCOMMON COLLOCATIONS:\n- {温和|おんわ}な{気候|きこう}: a mild climate\n- {温和|おんわ}な{性格|せいかく}: a gentle personality\n- {温和|おんわ}な{人柄|ひとがら}: a mild-mannered character\n\nSIMILAR WORDS:\n- {穏和|おんわ}: gentle; moderate — a variant spelling used mainly for temperament or moderate opinions; {温和|おんわ} additionally covers a mild climate\n- {穏|おだ}やか: calm; peaceful — broader, also describes a calm sea, mood, or atmosphere",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "13819_onwa",
+      "reading": "おんわ",
+      "headword": "{穏和|おんわ}",
+      "label": "gentle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02353_odayaka",
+      "reading": "おだやか",
+      "headword": "{穏|おだ}やか",
+      "label": "calm"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["personality", "weather"],
+      "politeness": "plain",
+      "semantic": [
+        "personality",
+        "weather"
+      ],
       "domain": []
     },
     "created": "2026-05-21T03:11:38Z",
-    "modified": "2026-05-21T03:11:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

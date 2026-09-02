@@ -17,7 +17,9 @@
       "id": "29994_bonobo_ex1",
       "japanese": "{動物園|どうぶつえん}でボノボを{見|み}た。",
       "english": "I saw a bonobo at the zoo.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29994_bonobo_ex2",
       "japanese": "ボノボはチンパンジーによく{似|に}ている。",
       "english": "Bonobos closely resemble chimpanzees.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29994_bonobo_ex3",
       "japanese": "ボノボは{平和|へいわ}{的|てき}な{性格|せいかく}で{知|し}られている。",
       "english": "Bonobos are known for their peaceful temperament.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A great ape (Pan paniscus) found only in the Democratic Republic of the Congo. Once called the 'pygmy chimpanzee,' it is slighter and more peaceable than the common chimpanzee.\n\nSIMILAR WORDS:\n- チンパンジー: chimpanzee — the closest relative; larger and more aggressive\n- ゴリラ: gorilla — a bigger, more distantly related great ape",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06560_chinpanjii",
+      "reading": "ちんぱんじー",
+      "headword": "チンパンジー",
+      "label": "chimpanzee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06513_gorira",
+      "reading": "ごりら",
+      "headword": "ゴリラ",
+      "label": "gorilla"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["animal-mammal"],
+      "politeness": "plain",
+      "semantic": [
+        "animal-mammal"
+      ],
       "domain": []
     },
     "created": "2026-07-21T00:17:50Z",
-    "modified": "2026-07-21T00:17:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

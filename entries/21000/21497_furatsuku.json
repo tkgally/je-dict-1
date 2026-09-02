@@ -3,7 +3,7 @@
   "headword": "ふらつく",
   "reading": "ふらつく",
   "romaji": "furatsuku",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to stagger; to sway; to be unsteady on one's feet; to wander aimlessly; to drift around",
   "definitions": [
     {
@@ -80,6 +80,29 @@
     }
   ],
   "notes": "Related to the mimetic base ふら (swaying, unsteady). Has both a physical sense (swaying/staggering) and a behavioral sense (wandering aimlessly).\n\nUSAGE:\n- Sense 1 describes physical unsteadiness — from dizziness, intoxication, fatigue, or illness\n- Sense 2 implies aimlessness and often carries a slightly negative connotation (being idle or irresponsible)\n- The noun form ふらつき means dizziness or unsteadiness\n\nCOMMON COLLOCATIONS:\n- {足元|あしもと}がふらつく: to be unsteady on one's feet\n- {目|め}まいでふらつく: to sway from dizziness\n- {街|まち}をふらつく: to wander around town\n- ふらつきが{出|で}る: to develop unsteadiness/dizziness\n\nSIMILAR WORDS:\n- よろめく: to stumble, totter — more about losing balance momentarily\n- よろける: to stagger — similar to よろめく; implies stumbling\n- ふらふらする: to feel faint; to sway — very similar but more casual/onomatopoeic\n- {彷徨|さまよ}う: to wander, roam — more literary; suggests being lost",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06971_yoromeku",
+      "reading": "よろめく",
+      "headword": "よろめく",
+      "label": "to stumble, totter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21498_yorokeru",
+      "reading": "よろける",
+      "headword": "よろける",
+      "label": "to stagger"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21629_furafurasuru",
+      "reading": "ふらふらする",
+      "headword": "ふらふらする",
+      "label": "to feel faint"
+    }
+  ],
   "metadata": {
     "entry_id": "21497_furatsuku",
     "schema_version": "2.0",
@@ -90,6 +113,7 @@
       "pos": [
         "verb-godan"
       ],
+      "politeness": "plain",
       "semantic": [
         "movement"
       ],
@@ -97,7 +121,7 @@
       "usage": [],
       "verb_class": "godan-ku"
     },
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

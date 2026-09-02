@@ -3,7 +3,7 @@
   "headword": "{未了|みりょう}",
   "reading": "みりょう",
   "romaji": "miryou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "unfinished",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Composed of {未|み} (not yet) + {了|りょう} (completion). A formal word used in business, legal, and administrative settings to indicate that something remains incomplete or unresolved.\n\nCOMMON COLLOCATIONS:\n- {未了|みりょう}の{案件|あんけん}: pending matter\n- {未了|みりょう}の{手続|てつづ}き: outstanding procedures\n- {審議|しんぎ}{未了|みりょう}: deliberation not completed\n- {工事|こうじ}{未了|みりょう}: construction incomplete\n\nSIMILAR WORDS:\n- {未完|みかん}: unfinished (especially creative works like novels or paintings)\n- {未済|みさい}: unsettled, unpaid (financial contexts)\n- {未完了|みかんりょう}: incomplete (grammatical term or general use)\n- {途中|とちゅう}: in progress, midway (more neutral and conversational)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17862_mikan",
+      "reading": "みかん",
+      "headword": "{未完|みかん}",
+      "label": "unfinished"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01684_tochuu",
+      "reading": "とちゅう",
+      "headword": "{途中|とちゅう}",
+      "label": "in progress, midway"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,12 +69,13 @@
         "noun",
         "adjective-no"
       ],
+      "politeness": "plain",
       "semantic": [
         "business",
         "abstract"
       ]
     },
     "created": "2026-04-19T11:13:05Z",
-    "modified": "2026-04-19T11:13:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

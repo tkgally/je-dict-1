@@ -17,7 +17,9 @@
       "id": "27898_gijou_ex1",
       "japanese": "{議場|ぎじょう}に{入|はい}る。",
       "english": "To enter the assembly chamber.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27898_gijou_ex2",
       "japanese": "{議場|ぎじょう}が{怒号|どごう}に{包|つつ}まれた。",
       "english": "The chamber erupted in angry shouts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "27898_gijou_ex3",
       "japanese": "{議長|ぎちょう}は{議場|ぎじょう}の{静粛|せいしゅく}を{求|もと}めた。",
       "english": "The chair called for order in the chamber.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The physical hall where a {国会|こっかい} (Diet), {議会|ぎかい} (assembly), or council meets and votes.\n\nCOMMON COLLOCATIONS:\n- {議場|ぎじょう}に{入|はい}る: to enter the chamber\n- {議場|ぎじょう}の{静粛|せいしゅく}: order in the chamber\n- {議場|ぎじょう}を{後|あと}にする: to leave the chamber\n\nSIMILAR WORDS:\n- {会場|かいじょう}: venue — the site of any event or gathering, not specifically a legislature.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01269_kaijou",
+      "reading": "かいじょう",
+      "headword": "{会場|かいじょう}",
+      "label": "venue"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"],
+      "semantic": [
+        "building"
+      ],
       "domain": []
     },
     "created": "2026-05-22T03:04:31Z",
-    "modified": "2026-05-22T03:04:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

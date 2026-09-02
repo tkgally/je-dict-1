@@ -3,7 +3,7 @@
   "headword": "{離席|りせき}",
   "reading": "りせき",
   "romaji": "riseki",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "leaving one's seat; being away from one's desk",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A compound of {離|り} (to leave; to separate) and {席|せき} (seat). Very commonly used in Japanese office culture, especially when answering phone calls for someone who has stepped away. Also appears as a status indicator in chat applications and online meeting tools.\n\nCOMMON COLLOCATIONS:\n- {離席|りせき}する: to leave one's seat; to step away\n- {離席|りせき}している: to be away from one's desk\n- {離席|りせき}{中|ちゅう}: away (status indicator)\n- {一時|いちじ}{離席|りせき}: stepping away briefly\n\nSIMILAR WORDS:\n- {席|せき}を{外|はず}す: to step away from one's seat — the more colloquial equivalent, used in everyday speech\n- {不在|ふざい}: absence — broader term; being away from the office entirely, not just from one's desk\n- {着席|ちゃくせき}: taking one's seat — the opposite action, sitting down",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25832_sekiwohazusu",
+      "reading": "せきをはずす",
+      "headword": "{席|せき}を{外|はず}す",
+      "label": "to step away from one's seat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11302_fuzai",
+      "reading": "ふざい",
+      "headword": "{不在|ふざい}",
+      "label": "absence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18472_chakuseki",
+      "reading": "ちゃくせき",
+      "headword": "{着席|ちゃくせき}",
+      "label": "taking one's seat"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +76,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "business",
         "daily-life"
@@ -60,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T14:21:03Z",
-    "modified": "2026-04-25T14:21:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

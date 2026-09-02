@@ -19,7 +19,9 @@
       "english": "Today is the anniversary of my grandfather's death.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17539_meinichi_ex2",
@@ -27,7 +29,9 @@
       "english": "I visit the grave every year on the anniversary of the death.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17539_meinichi_ex3",
@@ -35,21 +39,42 @@
       "english": "On the anniversary of my mother's death, the family gathered and offered her favorite flowers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAn important concept in Japanese Buddhist tradition. On the {命日|めいにち}, families typically visit the grave ({墓参|はかまい}り), offer flowers and incense, and hold memorial services. The first anniversary is called {一周忌|いっしゅうき}, and subsequent major anniversaries ({三回忌|さんかいき}, {七回忌|ななかいき}, etc.) are observed with formal ceremonies.\n\nCOMMON COLLOCATIONS:\n- {命日|めいにち}に{墓参|はかまい}りする (to visit the grave on the death anniversary)\n- {命日|めいにち}に{花|はな}を{供|そな}える (to offer flowers on the death anniversary)\n- ～の{命日|めいにち} (the anniversary of ~'s death)\n\nSIMILAR WORDS:\n- {忌日|きじつ}: death anniversary — more formal/literary\n- {祥月命日|しょうつきめいにち}: the monthly anniversary falling on the same day as the death — the full-year anniversary specifically",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21187_kijitsu",
+      "reading": "きじつ",
+      "headword": "{忌日|きじつ}",
+      "label": "death anniversary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23165_nenki",
+      "reading": "ねんき",
+      "headword": "{年忌|ねんき}",
+      "label": "memorial anniversary"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T08:05:53Z",
-    "modified": "2026-03-18T08:05:53Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

@@ -46,6 +46,29 @@
   ],
   "notes": "Compound of {長|ちょう} (long) + {打|だ} (hit). A baseball term contrasting with a {単打|たんだ} (single).\n\nCOMMON COLLOCATIONS:\n- {長打|ちょうだ}を{放|はな}つ: to hit an extra-base hit\n- {長打|ちょうだ}{力|りょく}: power for extra-base hits (slugging ability)\n- {長打率|ちょうだりつ}: slugging percentage\n\nSIMILAR WORDS:\n- {単打|たんだ}: single — a hit reaching only first base\n- {本塁打|ほんるいだ}: home run — the longest extra-base hit, circling all the bases",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29482_tanda",
+      "reading": "たんだ",
+      "headword": "{単打|たんだ}",
+      "label": "single"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24569_honruida",
+      "reading": "ほんるいだ",
+      "headword": "{本塁打|ほんるいだ}",
+      "label": "home run"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29451_ruida",
+      "reading": "るいだ",
+      "headword": "塁打",
+      "label": "total bases (baseball)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +83,6 @@
       "domain": []
     },
     "created": "2026-06-24T21:18:11Z",
-    "modified": "2026-06-24T21:18:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

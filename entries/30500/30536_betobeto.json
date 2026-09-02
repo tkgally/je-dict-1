@@ -3,7 +3,7 @@
   "headword": "べとべと",
   "reading": "べとべと",
   "romaji": "betobeto",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "sticky; gooey; tacky",
   "definitions": [
     {
@@ -45,7 +45,36 @@
     }
   ],
   "notes": "Used with する (to feel sticky), になる (to become sticky), and だ / の before a noun: べとべとの{手|て}.\n\nCOMMON COLLOCATIONS:\n- {手|て}がべとべとする: one's hands are sticky\n- {汗|あせ}でべとべと: sticky with sweat\n- {油|あぶら}でべとべと: greasy and tacky\n\nSIMILAR WORDS:\n- ねばねば: sticky and stringy — of natto or grated yam, stretching into threads\n- ぬるぬる: slimy and slippery — wet and hard to grip, not adhesive\n- べたべた: sticky — nearly the same; also used of clinging to a person",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05258_nebaneba",
+      "reading": "ねばねば",
+      "headword": "ねばねば",
+      "label": "sticky and stringy"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05173_nurunuru",
+      "reading": "ぬるぬる",
+      "headword": "ぬるぬる",
+      "label": "slimy and slippery"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05171_betabeta",
+      "reading": "べたべた",
+      "headword": "べたべた",
+      "label": "sticky"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20729_dorodoro",
+      "reading": "どろどろ",
+      "headword": "どろどろ",
+      "label": "muddy"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -55,7 +84,7 @@
         "onomatopoeia"
       ],
       "formality": "informal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "descriptive",
         "onomatopoeia"
@@ -63,6 +92,6 @@
       "domain": []
     },
     "created": "2026-08-10T00:22:10Z",
-    "modified": "2026-08-10T00:22:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

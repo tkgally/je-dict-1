@@ -3,7 +3,7 @@
   "headword": "{参加|さんか}する",
   "reading": "さんかする",
   "romaji": "sankasuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to participate; to take part in",
   "definitions": [
     {
@@ -46,6 +46,43 @@
   ],
   "notes": "{参加|さんか}する means to join in or take part in an activity, event, organization, or discussion. It emphasizes the act of becoming involved rather than merely being present.\n\nUSAGE:\nThe event or activity is marked with the particle に: ～に{参加|さんか}する.\n\nCOMMON COLLOCATIONS:\n- {会議|かいぎ}に{参加|さんか}する: participate in a meeting\n- イベントに{参加|さんか}する: take part in an event\n- {試合|しあい}に{参加|さんか}する: compete in a match\n- ボランティアに{参加|さんか}する: volunteer; take part in volunteering\n- {議論|ぎろん}に{参加|さんか}する: join a discussion\n\nSIMILAR WORDS:\n- {出席|しゅっせき}する: to attend — focuses on being present rather than active involvement\n- {加入|かにゅう}する: to join (an organization) — emphasizes formal membership rather than activity participation\n- {加|くわ}わる: to join in — more casual, often used when joining something already in progress",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01830_shussekisuru",
+      "reading": "しゅっせきする",
+      "headword": "{出席|しゅっせき}する",
+      "label": "to attend"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22671_kanyuusuru",
+      "reading": "かにゅうする",
+      "headword": "{加入|かにゅう}する",
+      "label": "to join"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01940_kuwawaru",
+      "reading": "くわわる",
+      "headword": "{加|くわ}わる",
+      "label": "to join in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19522_nyuukaisuru",
+      "reading": "にゅうかいする",
+      "headword": "{入会|にゅうかい}する",
+      "label": "to join"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20348_shutsujousuru",
+      "reading": "しゅつじょうする",
+      "headword": "{出場|しゅつじょう}する",
+      "label": "to participate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +99,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T12:29:40Z",
-    "modified": "2026-04-25T12:29:40Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

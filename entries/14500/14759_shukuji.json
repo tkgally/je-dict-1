@@ -19,7 +19,9 @@
       "english": "The principal gave a congratulatory address.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14759_shukuji_ex2",
@@ -27,7 +29,9 @@
       "english": "I was asked by a friend to give a congratulatory speech at the wedding.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14759_shukuji_ex3",
@@ -35,7 +39,9 @@
       "english": "The guest of honor's congratulatory speech went on for a long time, and the atmosphere in the venue became a bit heavy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE: {祝辞|しゅくじ} is a formal term used at ceremonial occasions. It refers specifically to the speech itself, not the act of congratulating.\n\nCOMMON COLLOCATIONS:\n- {祝辞|しゅくじ}を{述|の}べる (to deliver a congratulatory address)\n- {祝辞|しゅくじ}を{頼|たの}む / {祝辞|しゅくじ}を{依頼|いらい}する (to ask someone to give a speech)\n- {来賓|らいひん}の{祝辞|しゅくじ} (congratulatory address by a guest of honor)\n\nSIMILAR WORDS: Compare with {挨拶|あいさつ} (greeting/speech), which is broader and can be used for any kind of address. {祝辞|しゅくじ} is specifically celebratory. The opposite is {弔辞|ちょうじ} (eulogy/funeral address).",
@@ -53,18 +59,36 @@
       "reading": "しゅくが",
       "headword": "{祝賀|しゅくが}",
       "label": "celebration; congratulation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22862_shukuden",
+      "reading": "しゅくでん",
+      "headword": "{祝電|しゅくでん}",
+      "label": "congratulatory telegram"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23538_goaisatsu",
+      "reading": "ごあいさつ",
+      "headword": "ご{挨拶|あいさつ}",
+      "label": "greeting"
     }
   ],
   "metadata": {
     "created": "2026-03-03T11:23:05Z",
-    "modified": "2026-04-30T10:37:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

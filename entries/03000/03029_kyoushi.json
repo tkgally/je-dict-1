@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{教師|きょうし} refers to teachers as a profession.\n\nCOMMON PATTERNS:\n- {教師|きょうし}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (become a teacher)\n- {教師|きょうし}⟦として→として：06802_toshite⟧⟦{働|はたら}く→働く：00503_hataraku⟧ (work as a teacher)\n- 〜の{教師|きょうし} (teacher of ~)\n\nDISTINCTIONS:\n- {教師|きょうし}: teacher (profession-focused, neutral)\n- ⟦{先生|せんせい}→先生：00609_sensei⟧: teacher (respectful, also used as address)\n- ⟦{教員|きょういん}→教員：12942_kyouin⟧: teaching staff (institutional term)\n- {教諭|きょうゆ}: licensed teacher (official title)\n\nNote: When addressing a teacher, always use ⟦{先生|せんせい}→先生：00609_sensei⟧, not {教師|きょうし}.",
+  "notes": "{教師|きょうし} refers to teachers as a profession.\n\nCOMMON PATTERNS:\n- {教師|きょうし}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (become a teacher)\n- {教師|きょうし}⟦として→として：06802_toshite⟧⟦{働|はたら}く→働く：00503_hataraku⟧ (work as a teacher)\n- 〜の{教師|きょうし} (teacher of ~)\n\nSIMILAR WORDS:\n- {教師|きょうし}: teacher (profession-focused, neutral)\n- ⟦{先生|せんせい}→先生：00609_sensei⟧: teacher (respectful, also used as address)\n- ⟦{教員|きょういん}→教員：12942_kyouin⟧: teaching staff (institutional term)\n- {教諭|きょうゆ}: licensed teacher (official title)\n\nNote: When addressing a teacher, always use ⟦{先生|せんせい}→先生：00609_sensei⟧, not {教師|きょうし}.",
   "cross_references": [
     {
       "type": "synonym",
@@ -58,11 +58,39 @@
       "reading": "きょういん",
       "headword": "{教員|きょういん}",
       "label": "teaching staff"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30765_kyouyu",
+      "reading": "きょうゆ",
+      "headword": "{教諭|きょうゆ}",
+      "label": "licensed teacher"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15175_kyoushokuin",
+      "reading": "きょうしょくいん",
+      "headword": "{教職員|きょうしょくいん}",
+      "label": "teaching staff"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25171_daigakukyouin",
+      "reading": "だいがくきょういん",
+      "headword": "{大学教員|だいがくきょういん}",
+      "label": "university faculty member"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25264_kyouikusha",
+      "reading": "きょういくしゃ",
+      "headword": "{教育者|きょういくしゃ}",
+      "label": "educator"
     }
   ],
   "metadata": {
     "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-05-23T15:11:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

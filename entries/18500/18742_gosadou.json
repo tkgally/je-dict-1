@@ -136,6 +136,22 @@
   ],
   "notes": "{誤作動|ごさどう} means a malfunction in which a device operates incorrectly — going off when it shouldn't, doing the wrong thing, or activating without proper input.\n\nUSAGE:\n- A compound of {誤|ご} (erroneous) + {作動|さどう} (operation, activation).\n- Functions as a する verb and as a noun.\n- A technical term common in product manuals, recall notices, and engineering reports.\n- Distinguished from {故障|こしょう}: {故障|こしょう} implies the device is broken or has stopped working, while {誤作動|ごさどう} implies the device is still working but operating incorrectly.\n\nCOMMON PATTERNS:\n- {誤作動|ごさどう}が{起|お}きる: a malfunction occurs\n- {誤作動|ごさどう}が{発生|はっせい}する: a malfunction takes place\n- {誤作動|ごさどう}を{防|ふせ}ぐ: to prevent malfunctions\n- {誤作動|ごさどう}の{原因|げんいん}: the cause of the malfunction\n- センサーが{誤作動|ごさどう}する: the sensor malfunctions / activates incorrectly\n- {誤作動|ごさどう}{防止|ぼうし}{機能|きのう}: malfunction-prevention feature\n\nSIMILAR WORDS:\n- {故障|こしょう}: a breakdown (the device has stopped working).\n- {不具合|ふぐあい}: a defect, a glitch (the most general term, often used for software bugs).\n- {不|ふ}{作動|さどう}: a failure to operate at all (the device doesn't activate when it should).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01405_koshou",
+      "reading": "こしょう",
+      "headword": "{故障|こしょう}",
+      "label": "a breakdown (the device has stopped…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06413_fuguai",
+      "reading": "ふぐあい",
+      "headword": "{不具合|ふぐあい}",
+      "label": "a defect, a glitch (the most general…"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +168,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-23T02:00:53Z",
-    "modified": "2026-04-10T13:28:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

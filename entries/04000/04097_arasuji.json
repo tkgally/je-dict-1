@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {粗筋|あらすじ} is commonly used for summarizing stories, novels, films, and dramas. It focuses on the main plot without detailed analysis.\n\nCOMMON PATTERNS:\n・{粗筋|あらすじ}⟦を→を：00422_wo⟧⟦{説明|せつめい}する→説明する：05639_setsumeisuru⟧ (to explain the plot)\n・{粗筋|あらすじ}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧ (to read the synopsis)\n・⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦の→の：09472_no⟧{粗筋|あらすじ} (story outline)\n\nWRITING VARIATIONS: Can also be written as {荒筋|あらすじ}.\n\nRELATED:\n・⟦{要約|ようやく}→要約：14128_youyaku⟧ - summary (more general)\n・⟦{概要|がいよう}→概要：06747_gaiyou⟧ - outline, overview\n・⟦{要旨|ようし}→要旨：04087_youshi⟧ - gist, main point",
+  "notes": "USAGE: {粗筋|あらすじ} is commonly used for summarizing stories, novels, films, and dramas. It focuses on the main plot without detailed analysis.\n\nCOMMON PATTERNS:\n- {粗筋|あらすじ}⟦を→を：00422_wo⟧⟦{説明|せつめい}する→説明する：05639_setsumeisuru⟧ (to explain the plot)\n- {粗筋|あらすじ}⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧ (to read the synopsis)\n- ⟦{物語|ものがたり}→物語：03634_monogatari⟧⟦の→の：09472_no⟧{粗筋|あらすじ} (story outline)\n\nWRITING VARIATIONS: Can also be written as {荒筋|あらすじ}.\n\nRELATED WORDS:\n- ⟦{要約|ようやく}→要約：14128_youyaku⟧ - summary (more general)\n- ⟦{概要|がいよう}→概要：06747_gaiyou⟧ - outline, overview\n- ⟦{要旨|ようし}→要旨：04087_youshi⟧ - gist, main point",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,11 +51,46 @@
       "reading": "すじがき",
       "headword": "{筋書|すじが}き",
       "label": "plot/scenario"
+    },
+    {
+      "type": "related",
+      "target_id": "14128_youyaku",
+      "reading": "ようやく",
+      "headword": "{要約|ようやく}",
+      "label": "summary"
+    },
+    {
+      "type": "related",
+      "target_id": "06747_gaiyou",
+      "reading": "がいよう",
+      "headword": "{概要|がいよう}",
+      "label": "outline, overview"
+    },
+    {
+      "type": "related",
+      "target_id": "04087_youshi",
+      "reading": "ようし",
+      "headword": "{要旨|ようし}",
+      "label": "gist, main point"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07287_oosuji",
+      "reading": "おおすじ",
+      "headword": "{大筋|おおすじ}",
+      "label": "outline"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23004_sujitate",
+      "reading": "すじたて",
+      "headword": "{筋立|すじた}て",
+      "label": "plot"
     }
   ],
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-08-14T18:20:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

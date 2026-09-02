@@ -2,7 +2,7 @@
   "id": "06056_douisuru",
   "headword": "{同意|どうい}する",
   "reading": "どういする",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to agree, to consent",
   "conjugation": {
     "type": "suru",
@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pattern: X⟦に→に：00314_ni⟧{同意|どうい}する (agree to/with X).\n\nASPECT: ⟦ている→ている：noentry⟧ indicates state. {同意|どうい}している = 'agrees' or 'has agreed.'\n\nCOMMON PATTERNS:\n・⟦{提案|ていあん}→提案：03536_teian⟧⟦に→に：00314_ni⟧{同意|どうい}する (agree to a proposal)\n・⟦{条件|じょうけん}→条件：03285_jouken⟧⟦に→に：00314_ni⟧{同意|どうい}する (consent to conditions)\n・{同意|どうい}⟦を→を：00422_wo⟧⟦{得|え}る→得る：02014_eru⟧ (obtain consent)\n\nSIMILAR WORDS: ⟦{賛成|さんせい}する→賛成する：05647_sanseisuru⟧ emphasizes supporting/approving, while {同意|どうい}する emphasizes having the same opinion or giving consent.",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pattern: X⟦に→に：00314_ni⟧{同意|どうい}する (agree to/with X).\n\nASPECT: ⟦ている→ている：noentry⟧ indicates state. {同意|どうい}している = 'agrees' or 'has agreed.'\n\nCOMMON PATTERNS:\n- ⟦{提案|ていあん}→提案：03536_teian⟧⟦に→に：00314_ni⟧{同意|どうい}する (agree to a proposal)\n- ⟦{条件|じょうけん}→条件：03285_jouken⟧⟦に→に：00314_ni⟧{同意|どうい}する (consent to conditions)\n- {同意|どうい}⟦を→を：00422_wo⟧⟦{得|え}る→得る：02014_eru⟧ (obtain consent)\n\nSIMILAR WORDS: ⟦{賛成|さんせい}する→賛成する：05647_sanseisuru⟧ emphasizes supporting/approving, while {同意|どうい}する emphasizes having the same opinion or giving consent.",
   "cross_references": [
     {
       "type": "related",
@@ -166,11 +166,25 @@
       "reading": "はんたいする",
       "headword": "{反対|はんたい}する",
       "target_id": "05648_hantaisuru"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18993_shoudakusuru",
+      "reading": "しょうだくする",
+      "headword": "{承諾|しょうだく}する",
+      "label": "to consent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26805_nattokusuru",
+      "reading": "なっとくする",
+      "headword": "{納得|なっとく}する",
+      "label": "to be convinced"
     }
   ],
   "metadata": {
     "created": "2026-01-17T02:05:10Z",
-    "modified": "2026-08-08T09:25:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

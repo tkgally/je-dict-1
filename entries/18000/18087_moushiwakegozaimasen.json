@@ -19,7 +19,9 @@
       "english": "I am terribly sorry.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18087_moushiwakegozaimasen_ex2",
@@ -27,7 +29,9 @@
       "english": "I am sorry to have kept you waiting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18087_moushiwakegozaimasen_ex3",
@@ -35,21 +39,35 @@
       "english": "I sincerely apologize for the inconvenience. I will take every care to ensure this does not happen again.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nThe most formal standard apology in modern Japanese. Used extensively in business, customer service, and formal correspondence. Often accompanied by a deep bow.\n\nFORMALITY SCALE:\n- すみません (casual-polite)\n- {申|もう}し{訳|わけ}ありません (formal)\n- {申|もう}し{訳|わけ}ございません (very formal)\n\nCOMMON PATTERNS:\n- {大変|たいへん}{申|もう}し{訳|わけ}ございません (I am terribly sorry)\n- {誠|まこと}に{申|もう}し{訳|わけ}ございません (I sincerely apologize)\n- {申|もう}し{訳|わけ}ございませんが… (I'm sorry, but…) — used to make polite requests",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17552_osoreirimasu",
+      "reading": "おそれいります",
+      "headword": "{恐|おそ}れ{入|い}ります",
+      "label": "I'm sorry to trouble you"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T02:37:49Z",
-    "modified": "2026-03-20T02:37:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "formal",
       "politeness": "polite",
-      "semantic": ["greeting"]
+      "semantic": [
+        "greeting"
+      ]
     }
   }
 }

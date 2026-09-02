@@ -17,7 +17,9 @@
       "id": "26145_sougyouchuu_ex1",
       "japanese": "{工場|こうじょう}は{現在|げんざい}{操業中|そうぎょうちゅう}です。",
       "english": "The factory is currently in operation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26145_sougyouchuu_ex2",
       "japanese": "{操業中|そうぎょうちゅう}の{工場|こうじょう}に{許可|きょか}なく{立|た}ち{入|い}ってはいけない。",
       "english": "You must not enter an operating factory without permission.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,44 @@
       "id": "26145_sougyouchuu_ex3",
       "japanese": "{漁船|ぎょせん}は{操業中|そうぎょうちゅう}に{嵐|あらし}に{見舞|みま}われ、{港|みなと}に{引|ひ}き{返|かえ}した。",
       "english": "The fishing boat was hit by a storm while operating and turned back to port.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {操業|そうぎょう} (operation, production) and {中|ちゅう} (during, in the middle of). The {中|ちゅう} suffix is commonly attached to activity nouns to indicate the activity is currently in progress, following the same pattern as {営業中|えいぎょうちゅう} (open for business) and {工事中|こうじちゅう} (under construction).\n\n{操業|そうぎょう} specifically refers to the operation of factories, plants, mines, and fishing vessels — not general business operations. This distinguishes it from {営業|えいぎょう} (business, sales) which is used for shops and service businesses.\n\nCOMMON COLLOCATIONS:\n- {操業中|そうぎょうちゅう}の{工場|こうじょう}: factory in operation\n- {24時間|にじゅうよじかん}{操業中|そうぎょうちゅう}: operating 24 hours\n- {操業中|そうぎょうちゅう}に{事故|じこ}が{起|お}きる: an accident occurs during operation\n- {操業中|そうぎょうちゅう}の{漁船|ぎょせん}: fishing vessel in operation\n\nSIMILAR WORDS:\n- {営業中|えいぎょうちゅう}: open for business — used for shops, restaurants, and service establishments\n- {稼働中|かどうちゅう}: running, in service — used for machines, systems, and equipment\n- {操業|そうぎょう}: operation — the base noun without the \"currently\" implication\n- {操業停止|そうぎょうていし}: suspension of operations — the opposite state",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09539_eigyouchuu",
+      "reading": "えいぎょうちゅう",
+      "headword": "{営業中|えいぎょうちゅう}",
+      "label": "open for business"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22500_kadouchuu",
+      "reading": "かどうちゅう",
+      "headword": "{稼働中|かどうちゅう}",
+      "label": "running, in service"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     },
     "created": "2026-04-29T14:44:57Z",
-    "modified": "2026-04-29T14:44:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

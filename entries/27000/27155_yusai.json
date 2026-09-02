@@ -17,7 +17,9 @@
       "id": "27155_yusai_ex1",
       "japanese": "{油彩|ゆさい}で{風景|ふうけい}を{描|えが}く。",
       "english": "To paint a landscape in oils.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27155_yusai_ex2",
       "japanese": "この{美術館|びじゅつかん}には{油彩|ゆさい}の{名作|めいさく}が{多|おお}い。",
       "english": "This art museum has many masterpieces in oil painting.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "27155_yusai_ex3",
       "japanese": "{彼女|かのじょ}は{水彩|すいさい}よりも{油彩|ゆさい}のほうが{得意|とくい}だと{言|い}っていた。",
       "english": "She said she's better at oil painting than watercolor.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {油|あぶら} (oil) and {彩|さい} (coloring, painting). Often contrasted with {水彩|すいさい} (watercolor). The longer form {油彩画|ゆさいが} specifically refers to an oil painting as a finished work, while {油彩|ゆさい} can refer to either the technique or the work.\n\nCOMMON COLLOCATIONS:\n- {油彩画|ゆさいが} — oil painting (the artwork)\n- {油彩|ゆさい}で{描|えが}く — to paint in oils\n- {油彩|ゆさい}{技法|ぎほう} — oil painting technique\n- {油彩|ゆさい}{絵|え}の{具|ぐ} — oil paint\n\nSIMILAR WORDS:\n- {油絵|あぶらえ} — oil painting; the everyday word, more common in casual conversation\n- {水彩|すいさい} — watercolor; painting with water-soluble pigments\n- {日本画|にほんが} — Japanese-style painting; traditional painting using mineral pigments and sumi ink",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07076_aburae",
+      "reading": "あぶらえ",
+      "headword": "{油絵|あぶらえ}",
+      "label": "oil painting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24163_suisai",
+      "reading": "すいさい",
+      "headword": "{水彩|すいさい}",
+      "label": "watercolor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18225_nihonga",
+      "reading": "にほんが",
+      "headword": "{日本画|にほんが}",
+      "label": "Japanese-style painting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["art"]
+      "semantic": [
+        "art"
+      ]
     },
     "created": "2026-05-07T13:14:35Z",
-    "modified": "2026-08-07T06:30:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

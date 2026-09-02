@@ -19,7 +19,9 @@
       "english": "I miss my mother's home cooking.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17474_kateiryouri_ex2",
@@ -27,7 +29,9 @@
       "english": "That restaurant is popular for its warm, home-cooking-style flavors.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17474_kateiryouri_ex3",
@@ -35,21 +39,42 @@
       "english": "Speaking of Japanese home cooking, dishes like nikujaga, miso soup, and grilled fish are typical.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften evokes nostalgia and warmth. Restaurants and cafes sometimes use {家庭料理|かていりょうり} in their name or description to signal a cozy, unpretentious atmosphere.\n\nRepresentative Japanese {家庭料理|かていりょうり} includes {肉|にく}じゃが (meat and potato stew), {味噌汁|みそしる} (miso soup), {卵焼|たまごや}き (rolled omelet), {煮物|にもの} (simmered dishes), and {焼|や}き{魚|ざかな} (grilled fish).\n\nCOMMON COLLOCATIONS:\n- {日本|にほん}の{家庭料理|かていりょうり} (Japanese home cooking)\n- {家庭料理|かていりょうり}の{店|みせ} (a home-cooking restaurant)\n- {家庭料理|かていりょうり}の{味|あじ} (the taste of home cooking)\n- {定番|ていばん}の{家庭料理|かていりょうり} (standard home-cooked dishes)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12760_teryouri",
+      "reading": "てりょうり",
+      "headword": "{手料理|てりょうり}",
+      "label": "home cooking, homemade food"
+    },
+    {
+      "type": "related",
+      "target_id": "27198_yasairyouri",
+      "reading": "やさいりょうり",
+      "headword": "{野菜料理|やさいりょうり}",
+      "label": "vegetable dish"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T02:10:32Z",
-    "modified": "2026-03-18T02:10:32Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

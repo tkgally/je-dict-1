@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{建物|たてもの} is the general term for any building or structure.\n\nWORD FORMATION:\n⟦{建|た}てる→建てる：01189_tateru⟧ (to build) + ⟦{物|もの}→物：02259_mono⟧ (thing)\n\nTYPES OF BUILDINGS:\n- ⟦ビル→ビル：01500_biru⟧: office building, high-rise\n- ⟦{家|いえ}→家：00612_ie⟧/⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧: house, residence\n- ⟦アパート→アパート：01012_apaato⟧/⟦マンション→マンション：01035_manshon⟧: apartment building\n- ⟦{倉庫|そうこ}→倉庫：04044_souko⟧: warehouse\n\nCOMMON EXPRESSIONS:\n- {建物|たてもの}⟦を→を：00422_wo⟧⟦{建|た}てる→建てる：01189_tateru⟧: to construct a building\n- ⟦{古|ふる}い→古い：00488_furui⟧{建物|たてもの}: old building\n- {建物|たてもの}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧: inside the building",
+  "notes": "{建物|たてもの} is the general term for any building or structure.\n\nFORMS:\n⟦{建|た}てる→建てる：01189_tateru⟧ (to build) + ⟦{物|もの}→物：02259_mono⟧ (thing)\n\nTYPES OF BUILDINGS:\n- ⟦ビル→ビル：01500_biru⟧: office building, high-rise\n- ⟦{家|いえ}→家：00612_ie⟧/⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧: house, residence\n- ⟦アパート→アパート：01012_apaato⟧/⟦マンション→マンション：01035_manshon⟧: apartment building\n- ⟦{倉庫|そうこ}→倉庫：04044_souko⟧: warehouse\n\nCOMMON EXPRESSIONS:\n- {建物|たてもの}⟦を→を：00422_wo⟧⟦{建|た}てる→建てる：01189_tateru⟧: to construct a building\n- ⟦{古|ふる}い→古い：00488_furui⟧{建物|たてもの}: old building\n- {建物|たてもの}⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧: inside the building",
   "cross_references": [
     {
       "type": "synonym",
@@ -51,11 +51,39 @@
       "reading": "びる",
       "headword": "ビル",
       "label": "commercial building"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00188_kaoku",
+      "reading": "かおく",
+      "headword": "{家屋|かおく}",
+      "label": "house"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21292_kenchikubutsu",
+      "reading": "けんちくぶつ",
+      "headword": "{建築物|けんちくぶつ}",
+      "label": "building"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24301_kenzoubutsu",
+      "reading": "けんぞうぶつ",
+      "headword": "{建造物|けんぞうぶつ}",
+      "label": "structure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29226_kaidate",
+      "reading": "かいだて",
+      "headword": "{階建|かいだ}て",
+      "label": "~-story building"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:33:15Z",
-    "modified": "2026-05-15T17:10:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

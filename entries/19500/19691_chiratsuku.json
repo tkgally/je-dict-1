@@ -171,6 +171,22 @@
   ],
   "notes": "An intransitive godan verb derived from ちらちら (flickering, fluttering). Sense 1 is used for visual flickering (screens, lights) and also figuratively for thoughts or worries that keep coming to mind. Sense 2 is a very common weather expression for light, scattered snowfall.\n\nCOMMON COLLOCATIONS:\n- {画面|がめん}がちらつく: the screen flickers\n- {雪|ゆき}がちらつく: snow flurries lightly\n- {頭|あたま}にちらつく: to keep popping into one's mind\n- {不安|ふあん}がちらつく: anxiety nags\n\nSIMILAR WORDS:\n- ちらちらする: to flicker/flutter — more descriptive and onomatopoeic; overlaps in meaning but ちらつく is more concise\n- {点滅|てんめつ}する: to blink on and off — used for mechanical/electrical flashing\n- {舞|ま}う: to dance, to flutter — for snow, emphasizes graceful floating",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17970_tenmetsu",
+      "reading": "てんめつ",
+      "headword": "{点滅|てんめつ}",
+      "label": "to blink on and off"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04573_mau",
+      "reading": "まう",
+      "headword": "{舞|ま}う",
+      "label": "to dance, to flutter"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -180,10 +196,13 @@
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather", "descriptive"],
+      "semantic": [
+        "weather",
+        "descriptive"
+      ],
       "verb_class": "godan-ku"
     },
     "created": "2026-03-26T12:38:04Z",
-    "modified": "2026-07-26T21:46:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

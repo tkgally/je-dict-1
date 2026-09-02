@@ -19,7 +19,9 @@
       "english": "Please enter the exact numerical value.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12913_suuchi_ex2",
@@ -27,7 +29,9 @@
       "english": "The doctor told me my blood pressure numbers are high.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12913_suuchi_ex3",
@@ -35,21 +39,42 @@
       "english": "There are things that sales figures alone don't reveal, so it's necessary to listen to voices from the field as well.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA widely used word in science, medicine, business, and computing. Often appears in discussions of data, test results, and performance metrics. Can refer to any quantified measurement: blood pressure readings, temperature, test scores, statistics, etc.\n\nCOMMON COLLOCATIONS:\n- {数値|すうち}を{入力|にゅうりょく}する: to enter a numerical value\n- {数値|すうち}{目標|もくひょう}: numerical target\n- {数値|すうち}データ: numerical data\n- {数値|すうち}{化|か}: quantification, digitization\n\nSIMILAR WORDS:\n- {数字|すうじ}: number, digit (the symbol itself, e.g., 1, 2, 3)\n- {値|あたい}: value (mathematical or abstract)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03361_suuji",
+      "reading": "すうじ",
+      "headword": "{数字|すうじ}",
+      "label": "number, digit"
+    },
+    {
+      "type": "related",
+      "target_id": "05149_teisuu",
+      "reading": "ていすう",
+      "headword": "{定数|ていすう}",
+      "label": "constant, fixed number"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T14:29:02Z",
-    "modified": "2026-02-22T14:29:02Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["number"]
+      "semantic": [
+        "number"
+      ]
     }
   }
 }

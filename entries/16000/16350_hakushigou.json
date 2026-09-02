@@ -19,7 +19,9 @@
       "english": "I obtained my doctorate.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16350_hakushigou_ex2",
@@ -27,7 +29,9 @@
       "english": "He has a PhD in physics.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16350_hakushigou_ex3",
@@ -35,21 +39,42 @@
       "english": "It took five years to get my doctorate, but I'm glad I kept up my research.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{博士号|はくしごう} is a compound of {博士|はくし} (doctor, scholar) and {号|ごう} (title, designation).\n\nCOMMON COLLOCATIONS:\n- {博士号|はくしごう}を{取得|しゅとく}する (to obtain a doctorate)\n- {博士号|はくしごう}を{持|も}つ (to hold a doctorate)\n- {博士号|はくしごう}を{授与|じゅよ}する (to confer a doctorate)\n\nRELATED WORDS:\n- {修士号|しゅうしごう}: master's degree\n- {学士号|がくしごう}: bachelor's degree\n- {博士課程|はくしかてい}: doctoral program\n- {論文博士|ろんぶんはくし}: doctorate by thesis (without enrolling in a program)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16597_shuushigou",
+      "reading": "しゅうしごう",
+      "headword": "{修士号|しゅうしごう}",
+      "label": "master's degree"
+    },
+    {
+      "type": "related",
+      "target_id": "16598_gakushigou",
+      "reading": "がくしごう",
+      "headword": "{学士号|がくしごう}",
+      "label": "bachelor's degree"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T02:28:18Z",
-    "modified": "2026-03-12T02:28:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

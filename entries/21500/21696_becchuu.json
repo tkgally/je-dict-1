@@ -17,7 +17,9 @@
       "id": "21696_becchuu_ex1",
       "japanese": "この{色|いろ}は{別注|べっちゅう}{品|ひん}です。",
       "english": "This color is a special-order item.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21696_becchuu_ex2",
       "japanese": "{別注|べっちゅう}モデルは{数量|すうりょう}{限定|げんてい}です。",
       "english": "The custom model is available in limited quantities.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,38 @@
       "id": "21696_becchuu_ex3",
       "japanese": "あのセレクトショップが{有名|ゆうめい}ブランドに{別注|べっちゅう}をかけた{限定|げんてい}コレクションが{人気|にんき}だ。",
       "english": "The limited collection that boutique commissioned from a famous brand is popular.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Commonly encountered in fashion and retail, where shops commission exclusive colorways or designs from brands. The compound uses {別|べつ} (separate, special) + {注|ちゅう} (order, abbreviation of {注文|ちゅうもん}). Often used as a modifier: {別注|べっちゅう}{品|ひん} (custom item).\n\nCOMMON COLLOCATIONS:\n- {別注|べっちゅう}{品|ひん}: special-order item\n- {別注|べっちゅう}モデル: custom model\n- {別注|べっちゅう}をかける: to place a special order (with a manufacturer)\n- {別注|べっちゅう}カラー: exclusive colorway\n\nSIMILAR WORDS:\n- {特注|とくちゅう}: custom-made, bespoke (very close synonym; slightly more emphasis on unique specification)\n- オーダーメイド: made-to-order (loanword, more for individual custom items)\n- {受注|じゅちゅう}{生産|せいさん}: made-to-order production",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13486_tokuchuu",
+      "reading": "とくちゅう",
+      "headword": "{特注|とくちゅう}",
+      "label": "custom-made, bespoke (very close synonym"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business", "shopping"]
+      "semantic": [
+        "business",
+        "shopping"
+      ]
     },
     "created": "2026-04-02T21:25:32Z",
-    "modified": "2026-04-02T21:25:32Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

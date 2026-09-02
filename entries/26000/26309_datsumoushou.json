@@ -17,7 +17,9 @@
       "id": "26309_datsumoushou_ex1",
       "japanese": "ストレスで{脱毛症|だつもうしょう}になった。",
       "english": "I developed alopecia from stress.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26309_datsumoushou_ex2",
       "japanese": "{脱毛症|だつもうしょう}の{治療|ちりょう}には{時間|じかん}がかかる。",
       "english": "Treatment for alopecia takes time.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,47 @@
       "id": "26309_datsumoushou_ex3",
       "japanese": "{円形脱毛症|えんけいだつもうしょう}は{突然|とつぜん}{発症|はっしょう}することがあり、{精神的|せいしんてき}な{負担|ふたん}も{大|おお}きい。",
       "english": "Alopecia areata can develop suddenly, and the psychological burden is significant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {脱毛|だつもう} (hair loss; hair removal) + {症|しょう} (disease; condition). The most commonly discussed type is {円形脱毛症|えんけいだつもうしょう} (alopecia areata), which causes round patches of hair loss and is often linked to stress or autoimmune factors.\n\nCOMMON COLLOCATIONS:\n- {脱毛症|だつもうしょう}になる: to develop alopecia\n- {脱毛症|だつもうしょう}の{治療|ちりょう}: treatment for alopecia\n- {円形|えんけい}{脱毛症|だつもうしょう}: alopecia areata (circular hair loss)\n- {男性型|だんせいがた}{脱毛症|だつもうしょう}: male pattern baldness (androgenetic alopecia)\n\nSIMILAR WORDS:\n- {脱毛|だつもう}: hair loss; hair removal — the base word; can also mean deliberate hair removal (waxing, laser)\n- {薄毛|うすげ}: thinning hair — a less clinical, everyday term\n- {禿|はげ}: baldness — colloquial and potentially rude when used about a person",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20459_usuge",
+      "reading": "うすげ",
+      "headword": "{薄毛|うすげ}",
+      "label": "thinning hair"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24436_hage",
+      "reading": "はげ",
+      "headword": "{禿|はげ}",
+      "label": "baldness"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-04-30T15:36:02Z",
-    "modified": "2026-04-30T15:36:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

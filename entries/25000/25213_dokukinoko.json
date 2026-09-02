@@ -17,7 +17,9 @@
       "japanese": "{毒茸|どくきのこ}に{注意|ちゅうい}してください。",
       "english": "Please watch out for poisonous mushrooms.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -25,7 +27,9 @@
       "japanese": "{毒茸|どくきのこ}と{食用|しょくよう}きのこは{見分|みわ}けにくい。",
       "english": "Poisonous and edible mushrooms are hard to tell apart.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -33,15 +37,25 @@
       "japanese": "{毎年|まいとし}{秋|あき}になると{毒茸|どくきのこ}を{食|た}べて{中毒|ちゅうどく}になる{事故|じこ}が{起|お}きる。",
       "english": "Every autumn, there are incidents of poisoning from eating toxic mushrooms.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     }
   ],
   "notes": "Composed of {毒|どく} (poison) + {茸|きのこ} (mushroom). Also sometimes read as どくたけ. Japan has numerous species of poisonous wild mushrooms, making this a practical vocabulary word during mushroom-hunting season in autumn.\n\nCOMMON POISONOUS SPECIES IN JAPAN:\n- ツキヨタケ: moon night mushroom — the most common cause of mushroom poisoning in Japan\n- ドクツルタケ: destroying angel — one of the most deadly\n- カエンタケ: fire mushroom — toxic even to touch\n\nCOMMON COLLOCATIONS:\n- {毒茸|どくきのこ}に{中毒|ちゅうどく}する: to be poisoned by a toxic mushroom\n- {毒茸|どくきのこ}を{見分|みわ}ける: to distinguish poisonous mushrooms\n- {毒茸|どくきのこ}{中毒|ちゅうどく}: mushroom poisoning\n\nSIMILAR WORDS:\n- {食用|しょくよう}きのこ: edible mushroom — the safe counterpart\n- きのこ{狩|が}り: mushroom hunting — the activity where knowledge of {毒茸|どくきのこ} matters\n- {毒草|どくそう}: poisonous plant — the broader plant category",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18118_dokusou",
+      "reading": "どくそう",
+      "headword": "{毒草|どくそう}",
+      "label": "poisonous plant"
+    }
+  ],
   "metadata": {
     "created": "2026-04-23T14:47:49Z",
-    "modified": "2026-04-23T14:47:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

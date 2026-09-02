@@ -16,7 +16,9 @@
       "id": "08450_otoshimono_ex1",
       "japanese": "{落|お}とし{物|もの}を{届|とど}ける。",
       "english": "To turn in a lost item.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "08450_otoshimono_ex2",
       "japanese": "{駅|えき}の{落|お}とし{物|もの}センターに{問|と}い{合|あ}わせる。",
       "english": "To inquire at the station's lost and found center.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,21 +36,29 @@
       "id": "08450_otoshimono_ex3",
       "japanese": "{落|お}とし{物|もの}をした{覚|おぼ}えはないのに、{財布|さいふ}がない。",
       "english": "I don't remember dropping anything, but my wallet is missing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "RELATED TERMS:\n- {遺失物|いしつぶつ} - lost property (formal/legal term)\n- {忘|わす}れ{物|もの} - forgotten item (left behind, not dropped)\n- {拾|ひろ}い{物|もの} - found item\n\nUSAGE:\n{落|お}とし{物|もの} specifically refers to items accidentally dropped, while {忘|わす}れ{物|もの} refers to items left behind or forgotten.\n\nLOST AND FOUND:\nIn Japan, lost items have a high return rate. Items can be reported or collected at police boxes ({交番|こうばん}) or dedicated {落|お}とし{物|もの}センター at train stations.",
+  "notes": "RELATED WORDS:\n- {遺失物|いしつぶつ} - lost property (formal/legal term)\n- {忘|わす}れ{物|もの} - forgotten item (left behind, not dropped)\n- {拾|ひろ}い{物|もの} - found item\n\nUSAGE:\n{落|お}とし{物|もの} specifically refers to items accidentally dropped, while {忘|わす}れ{物|もの} refers to items left behind or forgotten.\n\nLOST AND FOUND:\nIn Japan, lost items have a high return rate. Items can be reported or collected at police boxes ({交番|こうばん}) or dedicated {落|お}とし{物|もの}センター at train stations.",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["daily-life", "transportation"]
+      "politeness": "plain",
+      "semantic": [
+        "daily-life",
+        "transportation"
+      ]
     },
     "created": "2026-01-27T03:47:32Z",
-    "modified": "2026-07-03T15:18:32Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "cross_references": [
     {
@@ -55,6 +67,48 @@
       "reading": "わすれもの",
       "headword": "{忘|わす}れ{物|もの}",
       "label": "forgotten item"
+    },
+    {
+      "type": "related",
+      "target_id": "15652_ishitsubutsu",
+      "reading": "いしつぶつ",
+      "headword": "{遺失物|いしつぶつ}",
+      "label": "lost property"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17979_hiraimono",
+      "reading": "ひらいもの",
+      "headword": "{拾|ひろ}い{物|もの}",
+      "label": "found object"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23031_usemono",
+      "reading": "うせもの",
+      "headword": "{失|う}せ{物|もの}",
+      "label": "lost article"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23045_shuutokubutsu",
+      "reading": "しゅうとくぶつ",
+      "headword": "{拾得物|しゅうとくぶつ}",
+      "label": "found property"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24102_funshitsubutsu",
+      "reading": "ふんしつぶつ",
+      "headword": "{紛失物|ふんしつぶつ}",
+      "label": "lost property"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28874_nakushimono",
+      "reading": "なくしもの",
+      "headword": "{失|な}くし{物|もの}",
+      "label": "lost item"
     }
   ]
 }

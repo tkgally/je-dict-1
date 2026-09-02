@@ -2,7 +2,7 @@
   "id": "01828_shitakusuru",
   "headword": "{支度|したく}する",
   "reading": "したくする",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "preparation, getting ready",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{支度|したく} refers to personal preparation — getting ready to go out, preparing for a meal, or preparing oneself for something.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {支度|したく}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {支度|したく}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ / {支度|したく}⟦する→する：00392_suru⟧: to get ready, to prepare\n- ⟦{出|で}かける→出かける：00833_dekakeru⟧{支度|したく}: preparations to go out\n- ⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦の→の：09472_no⟧{支度|したく}: meal preparation\n- ⟦{旅|たび}→旅：03407_tabi⟧⟦の→の：09472_no⟧{支度|したく}: travel preparation\n- {身|み}{支度|じたく}: personal grooming, getting dressed\n\nKANJI VARIANT:\nAlso written as {仕度|したく}. Both spellings are standard.\n\nSIMILAR WORDS:\n- ⟦{準備|じゅんび}→準備：01431_junbi⟧: preparation (general, broader scope)\n- ⟦{用意|ようい}→用意：01746_youi⟧: preparation, readiness (more about having things ready)\n- ⟦{身|み}なり→身なり：14301_minari⟧: appearance, personal grooming",
+  "notes": "{支度|したく} refers to personal preparation — getting ready to go out, preparing for a meal, or preparing oneself for something.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {支度|したく}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {支度|したく}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ / {支度|したく}⟦する→する：00392_suru⟧: to get ready, to prepare\n- ⟦{出|で}かける→出かける：00833_dekakeru⟧{支度|したく}: preparations to go out\n- ⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦の→の：09472_no⟧{支度|したく}: meal preparation\n- ⟦{旅|たび}→旅：03407_tabi⟧⟦の→の：09472_no⟧{支度|したく}: travel preparation\n- {身|み}{支度|じたく}: personal grooming, getting dressed\n\nWRITING:\nAlso written as {仕度|したく}. Both spellings are standard.\n\nSIMILAR WORDS:\n- ⟦{準備|じゅんび}→準備：01431_junbi⟧: preparation (general, broader scope)\n- ⟦{用意|ようい}→用意：01746_youi⟧: preparation, readiness (more about having things ready)\n- ⟦{身|み}なり→身なり：14301_minari⟧: appearance, personal grooming",
   "cross_references": [
     {
       "type": "synonym",
@@ -148,11 +148,32 @@
       "reading": "ようい",
       "headword": "{用意|ようい}",
       "label": "preparation, readiness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14301_minari",
+      "reading": "みなり",
+      "headword": "{身|み}なり",
+      "label": "appearance, personal grooming"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22427_junbisuru",
+      "reading": "じゅんびする",
+      "headword": "{準備|じゅんび}する",
+      "label": "to prepare"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22428_youisuru",
+      "reading": "よういする",
+      "headword": "{用意|ようい}する",
+      "label": "to prepare"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:33:45Z",
-    "modified": "2026-05-17T13:09:03Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

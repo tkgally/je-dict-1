@@ -19,7 +19,9 @@
       "english": "An elevation of 3,776 meters.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13175_hyoukou_ex2",
@@ -27,7 +29,9 @@
       "english": "The elevation of Mt. Fuji is the highest in Japan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13175_hyoukou_ex3",
@@ -35,21 +39,42 @@
       "english": "As the altitude increases, the temperature drops and the types of plants change.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "ETYMOLOGY:\n{標|ひょう} (mark, indicator) + {高|こう} (height). Literally \"marked height\" — the height as officially measured and recorded.\n\nUSAGE:\n{標高|ひょうこう} specifically means height above sea level ({海抜|かいばつ}). It is the standard term used on maps, signs, and in geographic descriptions. Mountain signs in Japan typically show {標高|ひょうこう} followed by the height in meters.\n\nCOMMON COLLOCATIONS:\n- {標高|ひょうこう}〜メートル: ~ meters in elevation\n- {標高|ひょうこう}が{高|たか}い: high altitude\n- {標高|ひょうこう}が{低|ひく}い: low altitude\n- {標高|ひょうこう}の{高|たか}い{場所|ばしょ}: high-altitude location\n\nSIMILAR WORDS:\n- {海抜|かいばつ}: above sea level (synonym, slightly more technical)\n- {高度|こうど}: altitude (used for aircraft, more general)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19118_kaibatsu",
+      "reading": "かいばつ",
+      "headword": "{海抜|かいばつ}",
+      "label": "above sea level"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00243_koudo",
+      "reading": "こうど",
+      "headword": "{高度|こうど}",
+      "label": "altitude"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T12:23:05Z",
-    "modified": "2026-02-23T12:23:05Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

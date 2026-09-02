@@ -17,7 +17,9 @@
       "id": "23506_okurisaki_ex1",
       "japanese": "{送|おく}り{先|さき}を{書|か}いてください。",
       "english": "Please write the shipping address.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23506_okurisaki_ex2",
       "japanese": "{送|おく}り{先|さき}の{住所|じゅうしょ}が{間違|まちが}っていた。",
       "english": "The recipient address was wrong.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23506_okurisaki_ex3",
       "japanese": "{送|おく}り{先|さき}を{変更|へんこう}したい{場合|ばあい}は、{発送前|はっそうまえ}にご{連絡|れんらく}ください。",
       "english": "If you wish to change the shipping address, please contact us before dispatch.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,66 @@
       "id": "23506_okurisaki_ex4",
       "japanese": "この{荷物|にもつ}の{送|おく}り{先|さき}は{自宅|じたく}ではなく{会社|かいしゃ}にしてほしい。",
       "english": "I'd like the delivery destination for this package to be my office, not my home.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {送|おく}り (sending, from the verb {送|おく}る) and {先|さき} (destination, place ahead). The {先|さき} suffix is productive in Japanese for indicating the destination or counterpart of an action: {届|とど}け{先|さき} (delivery address), {連絡先|れんらくさき} (contact information), {引|ひ}っ{越|こ}し{先|さき} (place one is moving to).\n\nYou will encounter this word when sending packages at the post office or a convenience store, filling out delivery forms ({伝票|でんぴょう}), or shopping online. Japanese delivery slips typically have fields for both {送|おく}り{先|さき} (recipient) and {依頼主|いらいぬし} or {送|おく}り{主|ぬし} (sender).\n\nCOMMON COLLOCATIONS:\n- {送|おく}り{先|さき}の{住所|じゅうしょ}: recipient's address\n- {送|おく}り{先|さき}を{変更|へんこう}する: to change the shipping address\n- {送|おく}り{先|さき}を{指定|してい}する: to specify the delivery destination\n- {送|おく}り{先|さき}{不明|ふめい}: address unknown (undeliverable)\n\nSIMILAR WORDS:\n- {届|とど}け{先|さき}: delivery address — a near-synonym, slightly more focused on where something arrives\n- {宛先|あてさき}: addressee, destination — used for letters and emails as well as packages\n- {差出人|さしだしにん}: sender — the opposite side of the transaction",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12275_atesaki",
+      "reading": "あてさき",
+      "headword": "{宛先|あてさき}",
+      "label": "addressee, destination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06316_sashidashinin",
+      "reading": "さしだしにん",
+      "headword": "{差出人|さしだしにん}",
+      "label": "sender"
+    },
+    {
+      "type": "related",
+      "target_id": "03995_atena",
+      "reading": "あてな",
+      "headword": "{宛名|あてな}",
+      "label": "address"
+    },
+    {
+      "type": "related",
+      "target_id": "27129_haitatsusaki",
+      "reading": "はいたつさき",
+      "headword": "{配達先|はいたつさき}",
+      "label": "delivery destination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30335_uketorisaki",
+      "reading": "うけとりさき",
+      "headword": "{受取先|うけとりさき}",
+      "label": "recipient"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life", "communication"]
+      "semantic": [
+        "daily-life",
+        "communication"
+      ]
     },
     "created": "2026-04-12T14:10:28Z",
-    "modified": "2026-06-15T07:58:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

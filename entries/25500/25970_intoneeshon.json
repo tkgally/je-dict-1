@@ -17,7 +17,9 @@
       "id": "25970_intoneeshon_ex1",
       "japanese": "イントネーションに{気|き}をつけて{話|はな}す。",
       "english": "To speak paying attention to intonation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25970_intoneeshon_ex2",
       "japanese": "{関西弁|かんさいべん}と{標準語|ひょうじゅんご}ではイントネーションが{違|ちが}う。",
       "english": "Kansai dialect and standard Japanese have different intonation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,64 @@
       "id": "25970_intoneeshon_ex3",
       "japanese": "{日本語|にほんご}は{単語|たんご}のイントネーションが{変|か}わると{意味|いみ}も{変|か}わることがあるので、{正|ただ}しい{発音|はつおん}を{身|み}につけることが{大切|たいせつ}だ。",
       "english": "In Japanese, changing the intonation of a word can change its meaning, so learning correct pronunciation is important.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"intonation.\" In Japanese linguistics, intonation is particularly important because Japanese is a pitch-accent language. The pitch pattern of a word can distinguish meaning — for example, {橋|はし} (bridge) and {箸|はし} (chopsticks) differ only in pitch accent. Regional dialects are also distinguished largely by their intonation patterns.\n\nCOMMON COLLOCATIONS:\n- イントネーションが{違|ちが}う: the intonation is different\n- イントネーションに{気|き}をつける: to pay attention to intonation\n- {正|ただ}しいイントネーション: correct intonation\n- イントネーションの{練習|れんしゅう}: intonation practice\n\nSIMILAR WORDS:\n- アクセント: accent — in Japanese linguistics, often refers to pitch accent on individual words, while イントネーション refers to the melody of phrases and sentences\n- {抑揚|よくよう}: intonation; inflection — the native Japanese equivalent, used in more formal or literary contexts\n- {声調|せいちょう}: tone — used specifically for tonal languages like Chinese",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10697_akusento",
+      "reading": "あくせんと",
+      "headword": "アクセント",
+      "label": "accent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12780_yokuyou",
+      "reading": "よくよう",
+      "headword": "{抑揚|よくよう}",
+      "label": "intonation"
+    },
+    {
+      "type": "related",
+      "target_id": "01698_hatsuon",
+      "reading": "はつおん",
+      "headword": "{発音|はつおん}",
+      "label": "pronunciation"
+    },
+    {
+      "type": "related",
+      "target_id": "07420_namari",
+      "reading": "なまり",
+      "headword": "{訛|なま}り",
+      "label": "accent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28364_fushimawashi",
+      "reading": "ふしまわし",
+      "headword": "{節回|ふしまわ}し",
+      "label": "melodic style"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["language"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "language"
+      ]
     },
     "created": "2026-04-28T14:11:51Z",
-    "modified": "2026-04-28T14:11:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

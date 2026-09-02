@@ -17,7 +17,9 @@
       "id": "28807_bideochatto_ex1",
       "japanese": "ビデオチャットで{話|はな}した。",
       "english": "We talked by video chat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28807_bideochatto_ex2",
       "japanese": "{家族|かぞく}とビデオチャットをするのが{楽|たの}しみだ。",
       "english": "I look forward to video-chatting with my family.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,53 @@
       "id": "28807_bideochatto_ex3",
       "japanese": "{祖母|そぼ}と{毎週末|まいしゅうまつ}ビデオチャットをして{近況|きんきょう}を{報告|ほうこく}している。",
       "english": "I video-chat with my grandmother every weekend to share what's been happening.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English 'video chat'. Suggests casual personal conversations rather than formal meetings — for the latter, ビデオ{会議|かいぎ} or オンライン{会議|かいぎ} is used.\n\nCOMMON COLLOCATIONS:\n- ビデオチャットをする: to have a video chat\n- ビデオチャットで{話|はな}す: to talk over video chat\n- ビデオチャット{機能|きのう}: video chat feature\n\nSIMILAR WORDS:\n- ビデオ{通話|つうわ}: video call — overlaps with ビデオチャット but emphasizes the call aspect\n- ビデオ{会議|かいぎ}: video conference — formal business meetings\n- オンライン{会議|かいぎ}: online meeting — the standard term for work-related virtual meetings\n- {テレビ電話|テレビでんわ}: video phone — older term, but still in use",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06607_bideotsuuwa",
+      "reading": "びでおつうわ",
+      "headword": "ビデオ{通話|つうわ}",
+      "label": "video call"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06606_onrainkaigi",
+      "reading": "おんらいんかいぎ",
+      "headword": "オンライン{会議|かいぎ}",
+      "label": "online meeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05249_terebidenwa",
+      "reading": "てれびでんわ",
+      "headword": "テレビ{電話|でんわ}",
+      "label": "video phone"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["technology", "communication"],
+      "politeness": "plain",
+      "semantic": [
+        "technology",
+        "communication"
+      ],
       "domain": []
     },
     "created": "2026-06-05T04:08:23Z",
-    "modified": "2026-06-05T04:08:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -19,7 +19,9 @@
       "english": "I spent a full day and night to complete it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14916_icchuuya_ex2",
@@ -27,7 +29,9 @@
       "english": "The rescue team continued searching without rest for a full day and night.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14916_icchuuya_ex3",
@@ -35,22 +39,38 @@
       "english": "Fierce rain and wind lasted for a full day and night until the typhoon passed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{一昼夜|いっちゅうや} is a somewhat literary or formal way of expressing a 24-hour period. Unlike {一日|いちにち}, it emphasizes that the activity or event continued through both daytime and nighttime, making it more dramatic. It often appears in news reporting, historical accounts, and literary descriptions.\n\nCOMMON PATTERNS:\n- {一昼夜|いっちゅうや}かけて (spending a full day and night)\n- {一昼夜|いっちゅうや}にわたって (spanning a full day and night)\n- {一昼夜|いっちゅうや}{休|やす}まず (without resting for a full day and night)\n\nSIMILAR WORDS:\n- {一昼夜|いっちゅうや}: a day and night (emphasizes continuous day-night span)\n- {一日|いちにち}: one day (neutral, standard)\n- {丸一日|まるいちにち}: a whole day (emphasizes entirety)\n- {二十四時間|にじゅうよじかん}: twenty-four hours (precise, numerical)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00942_ichinichi",
+      "reading": "いちにち",
+      "headword": "{一日|いちにち}",
+      "label": "one day"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T05:55:35Z",
-    "modified": "2026-03-04T05:55:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-period"],
-      "style": ["written"]
+      "semantic": [
+        "time-period"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

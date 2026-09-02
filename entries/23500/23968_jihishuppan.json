@@ -3,7 +3,7 @@
   "headword": "{自費|じひ}{出版|しゅっぱん}",
   "reading": "じひしゅっぱん",
   "romaji": "jihishuppan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "self-publishing; publishing at one's own expense; vanity publishing",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Compound of {自費|じひ} ('one's own expense') and {出版|しゅっぱん} ('publication'). Contrasted with {商業|しょうぎょう}{出版|しゅっぱん} ('commercial publishing'), in which the publisher bears the costs.\n\nUSAGE:\n- Used as a noun and with する to form a verb: {自費|じひ}{出版|しゅっぱん}する ('to self-publish').\n- Historically tied to paying a subsidy press; in current usage increasingly covers print-on-demand and e-book self-publishing.\n- Can describe the book itself: {自費|じひ}{出版|しゅっぱん}の{本|ほん} ('a self-published book').\n- Common for memoirs, poetry collections, local histories, and niche academic works that commercial publishers will not take on.\n\nCOMMON COLLOCATIONS:\n- {自費|じひ}{出版|しゅっぱん}する: to self-publish\n- {自費|じひ}{出版|しゅっぱん}の{本|ほん}: a self-published book\n- {自費|じひ}{出版|しゅっぱん}{社|しゃ}: self-publishing house\n- {電子書籍|でんししょせき}で{自費|じひ}{出版|しゅっぱん}する: to self-publish as an e-book\n- {自費|じひ}{出版|しゅっぱん}{費用|ひよう}: self-publishing costs\n\nSIMILAR WORDS:\n- {商業|しょうぎょう}{出版|しゅっぱん}: commercial publishing — the standard publisher-funded model; the opposite pole.\n- {同人誌|どうじんし}: doujinshi; self-published fan/hobbyist publication — overlaps in 'not from a major publisher', but implies small-circle, fan, or independent creative culture.\n- {個人出版|こじんしゅっぱん}: personal/individual publishing — a newer, more neutral term used especially for digital self-publishing.\n- {自主|じしゅ}{制作|せいさく}: self-production — broader, covering music, film, and other creative works made without a commercial backer.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26541_shougyoushuppan",
+      "reading": "しょうぎょうしゅっぱん",
+      "headword": "{商業出版|しょうぎょうしゅっぱん}",
+      "label": "commercial publishing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07326_doujinshi",
+      "reading": "どうじんし",
+      "headword": "{同人誌|どうじんし}",
+      "label": "doujinshi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26488_jishuseisaku",
+      "reading": "じしゅせいさく",
+      "headword": "{自主制作|じしゅせいさく}",
+      "label": "self-production"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26382_jikoshuppan",
+      "reading": "じこしゅっぱん",
+      "headword": "{自己出版|じこしゅっぱん}",
+      "label": "self-publishing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-15T16:25:02Z",
-    "modified": "2026-04-15T16:25:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

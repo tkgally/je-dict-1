@@ -17,7 +17,9 @@
       "id": "26460_doseki_ex1",
       "japanese": "{大雨|おおあめ}で{土石|どせき}が{崩|くず}れた。",
       "english": "Earth and rocks collapsed due to heavy rain.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26460_doseki_ex2",
       "japanese": "{土石流|どせきりゅう}の{危険|きけん}がある{地域|ちいき}に{住|す}んでいる。",
       "english": "I live in an area at risk of mudflows.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,51 @@
       "id": "26460_doseki_ex3",
       "japanese": "{工事|こうじ}{現場|げんば}から{大量|たいりょう}の{土石|どせき}が{運|はこ}び{出|だ}された。",
       "english": "A large amount of earth and stone was hauled from the construction site.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A paired compound of {土|ど} (earth, soil) and {石|せき} (stone, rock). Most commonly encountered in the compound {土石流|どせきりゅう} (mudflow, debris flow), which is a major natural disaster concern in mountainous Japan. Appears frequently in weather warnings and disaster reports.\n\nCOMMON COLLOCATIONS:\n- {土石流|どせきりゅう}: mudflow, debris flow\n- {土石|どせき}{崩|くず}れ: collapse of earth and stone\n- {土石|どせき}の{撤去|てっきょ}: removal of earth and stone\n- {土石|どせき}{災害|さいがい}: earth and rock disaster\n\nSIMILAR WORDS:\n- {土砂|どしゃ}: earth and sand — also used in disaster contexts ({土砂|どしゃ}{崩|くず}れ, {土砂|どしゃ}{災害|さいがい}) but emphasizes finer sediment rather than rocks\n- {岩石|がんせき}: rock — refers specifically to rocks and geological formations\n- {瓦礫|がれき}: rubble, debris — broken fragments, especially from destroyed buildings",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17540_dosha",
+      "reading": "どしゃ",
+      "headword": "{土砂|どしゃ}",
+      "label": "earth and sand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20502_ganseki",
+      "reading": "がんせき",
+      "headword": "{岩石|がんせき}",
+      "label": "rock"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30524_gareki",
+      "reading": "がれき",
+      "headword": "瓦礫",
+      "label": "rubble, debris"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["nature"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "nature"
+      ]
     },
     "created": "2026-05-02T11:30:19Z",
-    "modified": "2026-05-02T11:30:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

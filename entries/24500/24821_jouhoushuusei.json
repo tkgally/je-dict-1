@@ -3,7 +3,7 @@
   "headword": "{上方|じょうほう}{修正|しゅうせい}",
   "reading": "じょうほうしゅうせい",
   "romaji": "jouhoushuusei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "upward revision; upward adjustment",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "A business and economics term meaning to revise a numerical estimate or forecast to a higher value. Composed of {上方|じょうほう} (upward) + {修正|しゅうせい} (revision, correction). Very frequently seen in financial news, earnings announcements, and government economic reports.\n\nCOMMON COLLOCATIONS:\n- {業績|ぎょうせき}の{上方|じょうほう}{修正|しゅうせい} — upward revision of earnings\n- {上方|じょうほう}{修正|しゅうせい}する — to revise upward\n- {上方|じょうほう}{修正|しゅうせい}を{発表|はっぴょう}する — to announce an upward revision\n- {大幅|おおはば}な{上方|じょうほう}{修正|しゅうせい} — a significant upward revision\n\nSIMILAR WORDS:\n- {下方|かほう}{修正|しゅうせい} — downward revision (the opposite)\n- {見直|みなお}し — review, reassessment (broader; not necessarily numerical)\n- {改定|かいてい} — revision (of rules, rates, or standards)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "19864_kahoushuusei",
+      "reading": "かほうしゅうせい",
+      "headword": "{下方修正|かほうしゅうせい}",
+      "label": "downward revision"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09340_minaoshi",
+      "reading": "みなおし",
+      "headword": "{見直|みなお}し",
+      "label": "review, reassessment (broader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13036_kaitei",
+      "reading": "かいてい",
+      "headword": "{改定|かいてい}",
+      "label": "revision"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +76,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "business",
         "economics"
@@ -63,7 +88,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-21T09:14:14Z",
-    "modified": "2026-04-21T09:14:14Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

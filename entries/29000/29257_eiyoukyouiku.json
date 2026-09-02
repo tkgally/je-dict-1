@@ -17,7 +17,9 @@
       "id": "29257_eiyoukyouiku_ex1",
       "japanese": "{学校|がっこう}で{栄養教育|えいようきょういく}を{行|おこな}う。",
       "english": "We provide nutrition education at school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29257_eiyoukyouiku_ex2",
       "japanese": "{子|こ}どもへの{栄養教育|えいようきょういく}が{大切|たいせつ}だ。",
       "english": "Nutrition education for children is important.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,39 @@
       "id": "29257_eiyoukyouiku_ex3",
       "japanese": "{管理|かんり}{栄養士|えいようし}が{病院|びょういん}で{患者|かんじゃ}に{栄養教育|えいようきょういく}を{行|おこな}っている。",
       "english": "Registered dietitians provide nutrition education to patients at the hospital.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from {栄養|えいよう} (nutrition) + {教育|きょういく} (education). A standard term in schools, healthcare, and public health.\n\nCOMMON COLLOCATIONS:\n- {栄養教育|えいようきょういく}を{受|う}ける: to receive nutrition education\n- {学校|がっこう}{栄養教育|えいようきょういく}: school nutrition education\n\nSIMILAR WORDS:\n- {食育|しょくいく}: food and dietary education — a broader concept emphasizing attitudes toward food and eating, promoted nationally in Japan\n- {栄養指導|えいようしどう}: dietary guidance — individualized advice, often one-on-one with a dietitian",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14697_shokuiku",
+      "reading": "しょくいく",
+      "headword": "{食育|しょくいく}",
+      "label": "food and dietary education"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["education", "health"],
+      "politeness": "plain",
+      "semantic": [
+        "education",
+        "health"
+      ],
       "domain": []
     },
     "created": "2026-06-14T12:18:51Z",
-    "modified": "2026-06-14T12:18:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

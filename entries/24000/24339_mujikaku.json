@@ -3,7 +3,7 @@
   "headword": "{無自覚|むじかく}",
   "reading": "むじかく",
   "romaji": "mujikaku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "lack of self-awareness; obliviousness; unconscious (of one's actions)",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "24339_mujikaku_ex1",
       "japanese": "{本人|ほんにん}は{無自覚|むじかく}だ。",
       "english": "The person themselves is unaware.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24339_mujikaku_ex2",
       "japanese": "{無自覚|むじかく}に{人|ひと}を{傷|きず}つけることがある。",
       "english": "One can hurt others without being aware of it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,46 @@
       "id": "24339_mujikaku_ex3",
       "japanese": "{自分|じぶん}の{言動|げんどう}が{周|まわ}りに{与|あた}える{影響|えいきょう}に{無自覚|むじかく}な{人|ひと}は{多|おお}い。",
       "english": "Many people are unaware of the impact their words and actions have on those around them.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {無|む} (without, lacking) and {自覚|じかく} (self-awareness, consciousness). The {無|む} prefix negates {自覚|じかく}, producing a word that means the absence of awareness about oneself.\n\nCOMMON COLLOCATIONS:\n- {無自覚|むじかく}に: unconsciously, without awareness\n- {無自覚|むじかく}な{行動|こうどう}: unaware behavior\n- {無自覚|むじかく}のまま: while remaining unaware\n- {本人|ほんにん}は{無自覚|むじかく}: the person is unaware (of what they're doing)\n\nUSAGE:\nOften used in a critical or observational tone — pointing out that someone is doing something problematic without realizing it. Common in discussions of social behavior, health (being unaware of a medical condition), and self-improvement. Can function as a noun ({無自覚|むじかく}), as an adjectival modifier with な ({無自覚|むじかく}な), or adverbially with に ({無自覚|むじかく}に).\n\nSIMILAR WORDS:\n- {自覚|じかく}: self-awareness — the positive counterpart; being conscious of one's own state or actions\n- {無意識|むいしき}: unconscious — refers to actions done without conscious thought (automatic behavior), or the psychological unconscious\n- {鈍感|どんかん}: insensitive, thick-skinned — describes a personality trait of not noticing things, whereas {無自覚|むじかく} specifically means lacking self-awareness",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05813_muishiki",
+      "reading": "むいしき",
+      "headword": "{無意識|むいしき}",
+      "label": "unconscious"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06640_donkan",
+      "reading": "どんかん",
+      "headword": "{鈍感|どんかん}",
+      "label": "insensitive, thick-skinned"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract", "emotion"]
+      "semantic": [
+        "abstract",
+        "emotion"
+      ]
     },
     "created": "2026-04-18T14:33:11Z",
-    "modified": "2026-04-18T14:33:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "TYPES BY GRIT:\n・⟦{荒砥|あらと}→荒砥：noentry⟧ (coarse whetstone) - for initial sharpening, fixing chips\n・⟦{中砥|なかと}→中砥：noentry⟧ (medium whetstone) - general sharpening\n・⟦{仕上|しあ}げ→仕上げ：11519_shiage⟧⟦{砥|と}→砥：noentry⟧ (finishing stone) - for final polish\n\nFAMOUS WHETSTONES:\n・⟦{天然|てんねん}→天然：03560_tennen⟧{砥石|といし} (natural whetstone)\n・⟦{京都|きょうと}→京都：09484_kyouto⟧⟦の→の：09472_no⟧⟦{天然|てんねん}→天然：03560_tennen⟧{砥石|といし} (Kyoto natural stones) - highly valued\n・⟦{人造|じんぞう}→人造：04284_jinzou⟧{砥石|といし} (synthetic whetstone)\n\nUSAGE:\n・⟦{水|みず}→水：02258_mizu⟧{砥石|といし} (water stone) - most common type in Japan\n・⟦{油砥石|あぶらといし}→油砥石：noentry⟧ (oil stone) - uses oil instead of water\n\nRELATED TOOLS:\n・⟦{包丁|ほうちょう}→包丁：04976_houchou⟧ (kitchen knife)\n・⟦{研|と}ぎ{器|き}→研ぎ器：noentry⟧ (knife sharpener - simpler alternative)\n・⟦{革砥|かわと}→革砥：noentry⟧ (leather strop) - for final polishing\n\nTRADITIONAL KNOWLEDGE:\n・Japanese blade sharpening (⟦{研|と}ぎ→研ぐ：04377_togu⟧) is considered a skill\n・Professional sharpeners (⟦{研|と}ぎ{師|し}→研ぎ師：29923_togishi⟧) still exist\n・Proper angle and pressure are crucial\n\nCOLLOCATIONS:\n・{砥石|といし}⟦で→で：00502_de⟧⟦{研|と}ぐ→研ぐ：04377_togu⟧ (to sharpen with a whetstone)\n・{砥石|といし}⟦を→を：00422_wo⟧⟦{水|みず}→水：02258_mizu⟧⟦に→に：00314_ni⟧⟦{浸|ひた}す→浸す：07506_hitasu⟧ (to soak the whetstone)",
-  "cross_references": [],
+  "notes": "TYPES BY GRIT:\n- ⟦{荒砥|あらと}→荒砥：noentry⟧ (coarse whetstone) - for initial sharpening, fixing chips\n- ⟦{中砥|なかと}→中砥：noentry⟧ (medium whetstone) - general sharpening\n- ⟦{仕上|しあ}げ→仕上げ：11519_shiage⟧⟦{砥|と}→砥：noentry⟧ (finishing stone) - for final polish\n\nFAMOUS WHETSTONES:\n- ⟦{天然|てんねん}→天然：03560_tennen⟧{砥石|といし} (natural whetstone)\n- ⟦{京都|きょうと}→京都：09484_kyouto⟧⟦の→の：09472_no⟧⟦{天然|てんねん}→天然：03560_tennen⟧{砥石|といし} (Kyoto natural stones) - highly valued\n- ⟦{人造|じんぞう}→人造：04284_jinzou⟧{砥石|といし} (synthetic whetstone)\n\nUSAGE:\n- ⟦{水|みず}→水：02258_mizu⟧{砥石|といし} (water stone) - most common type in Japan\n- ⟦{油砥石|あぶらといし}→油砥石：noentry⟧ (oil stone) - uses oil instead of water\n\nRELATED TOOLS:\n- ⟦{包丁|ほうちょう}→包丁：04976_houchou⟧ (kitchen knife)\n- ⟦{研|と}ぎ{器|き}→研ぎ器：noentry⟧ (knife sharpener - simpler alternative)\n- ⟦{革砥|かわと}→革砥：noentry⟧ (leather strop) - for final polishing\n\nTRADITIONAL KNOWLEDGE:\n- Japanese blade sharpening (⟦{研|と}ぎ→研ぐ：04377_togu⟧) is considered a skill\n- Professional sharpeners (⟦{研|と}ぎ{師|し}→研ぎ師：29923_togishi⟧) still exist\n- Proper angle and pressure are crucial\n\nCOMMON COLLOCATIONS:\n- {砥石|といし}⟦で→で：00502_de⟧⟦{研|と}ぐ→研ぐ：04377_togu⟧ (to sharpen with a whetstone)\n- {砥石|といし}⟦を→を：00422_wo⟧⟦{水|みず}→水：02258_mizu⟧⟦に→に：00314_ni⟧⟦{浸|ひた}す→浸す：07506_hitasu⟧ (to soak the whetstone)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04976_houchou",
+      "reading": "ほうちょう",
+      "headword": "{包丁|ほうちょう}",
+      "label": "kitchen knife"
+    },
+    {
+      "type": "related",
+      "target_id": "04377_togu",
+      "reading": "とぐ",
+      "headword": "{研|と}ぐ",
+      "label": "to sharpen, to wash (rice)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29980_guraindaa",
+      "reading": "ぐらいんだー",
+      "headword": "グラインダー",
+      "label": "grinder (power tool)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-17T23:08:48Z",
-    "modified": "2026-08-29T12:18:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

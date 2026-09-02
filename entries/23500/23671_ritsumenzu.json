@@ -17,7 +17,9 @@
       "id": "23671_ritsumenzu_ex1",
       "japanese": "ビルの{立面図|りつめんず}。",
       "english": "The elevation drawing of a building.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23671_ritsumenzu_ex2",
       "japanese": "{立面図|りつめんず}を{見|み}れば、{建物|たてもの}の{外観|がいかん}が{分|わ}かる。",
       "english": "You can tell what the building will look like from the elevation drawing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23671_ritsumenzu_ex3",
       "japanese": "{正面|しょうめん}の{立面図|りつめんず}と{側面|そくめん}の{立面図|りつめんず}を{提出|ていしゅつ}してください。",
       "english": "Please submit the front elevation and side elevation drawings.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,51 @@
       "id": "23671_ritsumenzu_ex4",
       "japanese": "{建築|けんちく}の{図面|ずめん}には、{平面図|へいめんず}・{立面図|りつめんず}・{断面図|だんめんず}の{三種類|さんしゅるい}がある。",
       "english": "Architectural drawings come in three main types: plan, elevation, and cross-section.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {立面|りつめん} (vertical face, elevation) and {図|ず} (diagram, drawing). A {立面図|りつめんず} depicts a building's exterior from a particular direction — typically the front, rear, or side — showing walls, windows, doors, and the overall shape without perspective distortion.\n\nUSAGE:\nStandard term in architecture, construction, and civil engineering documents. Often specified by direction: {正面|しょうめん}{立面図|りつめんず} (front elevation), {背面|はいめん}{立面図|りつめんず} (rear elevation), {側面|そくめん}{立面図|りつめんず} (side elevation).\n\nCOMMON COLLOCATIONS:\n- {立面図|りつめんず}を{描|か}く: to draw an elevation\n- {立面図|りつめんず}を{作成|さくせい}する: to prepare an elevation drawing\n- {正面|しょうめん}{立面図|りつめんず}: front elevation\n- {立面図|りつめんず}と{平面図|へいめんず}: elevation and plan views\n\nSIMILAR WORDS:\n- {平面図|へいめんず}: floor plan, plan view — shows the building from above\n- {断面図|だんめんず}: cross-section drawing — shows the interior as if sliced\n- {外観図|がいかんず}: exterior drawing — similar but may include perspective or 3D rendering\n- {透視図|とうしず}: perspective drawing — shows the building with depth and vanishing points",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23670_heimenzu",
+      "reading": "へいめんず",
+      "headword": "{平面図|へいめんず}",
+      "label": "floor plan, plan view"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14837_danmenzu",
+      "reading": "だんめんず",
+      "headword": "{断面図|だんめんず}",
+      "label": "cross-section drawing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23885_sokumenzu",
+      "reading": "そくめんず",
+      "headword": "{側面図|そくめんず}",
+      "label": "side view (drawing), side elevation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     },
     "created": "2026-04-14T00:46:30Z",
-    "modified": "2026-04-14T00:46:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

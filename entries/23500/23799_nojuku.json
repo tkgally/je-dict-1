@@ -3,13 +3,13 @@
   "headword": "{野宿|のじゅく}",
   "reading": "のじゅく",
   "romaji": "nojuku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sleeping outdoors; camping out in the open",
   "definitions": [
     {
       "sense_number": 1,
       "gloss": "sleeping outdoors; camping out (without a tent or proper shelter); roughing it",
-      "explanation": "Spending the night outside without staying at an inn, house, or formal campsite. The image is of sleeping on the ground, under the stars, in a park, a {河原|かわら} ('riverbed'), a mountain, or a {駅|えき} ('station'). It does not require a tent; pitching a tent at a designated campground is usually called {キャンプ|} rather than {野宿|のじゅく}. Can be chosen (travelers, adventurers) or unavoidable (hikers caught by darkness, people without a place to stay)."
+      "explanation": "Spending the night outside without staying at an inn, house, or formal campsite. The image is of sleeping on the ground, under the stars, in a park, a {河原|かわら} ('riverbed'), a mountain, or a {駅|えき} ('station'). It does not require a tent; pitching a tent at a designated campground is usually called キャンプ rather than {野宿|のじゅく}. Can be chosen (travelers, adventurers) or unavoidable (hikers caught by darkness, people without a place to stay)."
     }
   ],
   "examples": [
@@ -54,8 +54,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {野|の} ('field; open country; outdoors') and {宿|やど}/{宿|しゅく} ('lodging'). Literally 'lodging in the open'. Takes する and is commonly used as a verbal noun: {野宿|のじゅく}する ('to sleep outdoors').\n\nUSAGE:\n- Often used with a location particle: {駅|えき}で{野宿|のじゅく}する, {山|やま}で{野宿|のじゅく}する.\n- Compatible with する, をする, and をすることになる ('ended up sleeping outdoors').\n- Carries neither a strongly positive nor strongly negative nuance on its own; context determines whether it sounds adventurous, pitiful, or reckless.\n\nCOMMON COLLOCATIONS:\n- {野宿|のじゅく}する: to sleep outdoors\n- {野宿|のじゅく}{生活|せいかつ}: a rough-sleeping lifestyle\n- {野宿|のじゅく}{経験|けいけん}: experience of sleeping outside\n- {野宿|のじゅく}{旅|たび}: a trip involving sleeping outdoors\n- {野宿|のじゅく}する{羽目|はめ}になる: to end up having to sleep outside\n- {駅|えき}で{野宿|のじゅく}する: to sleep at a train station\n\nSIMILAR WORDS:\n- キャンプ: camping — implies tent, sleeping bag, and a planned outdoor stay; more recreational.\n- {露営|ろえい}: bivouac; encampment — formal, often military or mountaineering.\n- {寝|ね}{泊|と}まりする: to stay overnight (anywhere, including indoors) — much broader.\n- {路上|ろじょう}{生活|せいかつ}: street living; rough sleeping as a way of life — describes homelessness, not a one-time event.\n\nCULTURAL CONTEXT:\nAssociated in popular imagination with budget travelers, long-distance hikers, and pilgrimage ({お{遍路|へんろ}|}) culture. In urban settings, {駅|えき}で{野宿|のじゅく}する often implies missing the last train rather than genuine homelessness.",
+  "notes": "Compound of {野|の} ('field; open country; outdoors') and {宿|やど}/{宿|しゅく} ('lodging'). Literally 'lodging in the open'. Takes する and is commonly used as a verbal noun: {野宿|のじゅく}する ('to sleep outdoors').\n\nUSAGE:\n- Often used with a location particle: {駅|えき}で{野宿|のじゅく}する, {山|やま}で{野宿|のじゅく}する.\n- Compatible with する, をする, and をすることになる ('ended up sleeping outdoors').\n- Carries neither a strongly positive nor strongly negative nuance on its own; context determines whether it sounds adventurous, pitiful, or reckless.\n\nCOMMON COLLOCATIONS:\n- {野宿|のじゅく}する: to sleep outdoors\n- {野宿|のじゅく}{生活|せいかつ}: a rough-sleeping lifestyle\n- {野宿|のじゅく}{経験|けいけん}: experience of sleeping outside\n- {野宿|のじゅく}{旅|たび}: a trip involving sleeping outdoors\n- {野宿|のじゅく}する{羽目|はめ}になる: to end up having to sleep outside\n- {駅|えき}で{野宿|のじゅく}する: to sleep at a train station\n\nSIMILAR WORDS:\n- キャンプ: camping — implies tent, sleeping bag, and a planned outdoor stay; more recreational.\n- {露営|ろえい}: bivouac; encampment — formal, often military or mountaineering.\n- {寝|ね}{泊|と}まりする: to stay overnight (anywhere, including indoors) — much broader.\n- {路上|ろじょう}{生活|せいかつ}: street living; rough sleeping as a way of life — describes homelessness, not a one-time event.\n\nCULTURAL NOTE:\nAssociated in popular imagination with budget travelers, long-distance hikers, and pilgrimage (お{遍路|へんろ}) culture. In urban settings, {駅|えき}で{野宿|のじゅく}する often implies missing the last train rather than genuine homelessness.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03837_kyanpu",
+      "reading": "きゃんぷ",
+      "headword": "キャンプ",
+      "label": "camping"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24212_roei",
+      "reading": "ろえい",
+      "headword": "{露営|ろえい}",
+      "label": "bivouac"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -73,7 +89,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-14T21:17:54Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

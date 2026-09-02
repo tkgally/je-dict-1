@@ -2,7 +2,7 @@
   "id": "02591_kyoudou",
   "headword": "{共同|きょうどう}",
   "reading": "きょうどう",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "cooperation, collaboration, joint",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{共同|きょうどう} means doing something together or jointly.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {共同|きょうどう}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {共同|きょうどう}⟦で→で：00502_de⟧ (jointly, together)\n- {共同|きょうどう}⟦する→する：00392_suru⟧ (to cooperate)\n- 〜⟦と→と：00512_to⟧⟦の→の：09472_no⟧{共同|きょうどう} (cooperation with ~)\n\nCOMPOUND WORDS:\n- {共同|きょうどう}⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧ (joint research)\n- {共同|きょうどう}⟦{作業|さぎょう}→作業：02775_sagyou⟧ (collaborative work)\n- {共同|きょうどう}⟦{経営|けいえい}→経営：02740_keiei⟧ (joint management)\n- {共同|きょうどう}⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧ (shared housing)\n- {共同|きょうどう}⟦{生活|せいかつ}→生活：01443_seikatsu⟧ (communal living)\n- {共同|きょうどう}⟦{体|たい}→体：00784_karada⟧ (community)\n\nSIMILAR WORDS:\n- ⟦{協力|きょうりょく}→協力：00261_kyouryoku⟧: cooperation (emphasis on helping)\n- ⟦{協同|きょうどう}→協同：27416_kyoudou⟧: cooperation (same pronunciation, similar meaning)\n- ⟦{連携|れんけい}→連携：05094_renkei⟧: collaboration, coordination",
+  "notes": "{共同|きょうどう} means doing something together or jointly.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {共同|きょうどう}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {共同|きょうどう}⟦で→で：00502_de⟧ (jointly, together)\n- {共同|きょうどう}⟦する→する：00392_suru⟧ (to cooperate)\n- 〜⟦と→と：00512_to⟧⟦の→の：09472_no⟧{共同|きょうどう} (cooperation with ~)\n\nCOMPOUNDS:\n- {共同|きょうどう}⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧ (joint research)\n- {共同|きょうどう}⟦{作業|さぎょう}→作業：02775_sagyou⟧ (collaborative work)\n- {共同|きょうどう}⟦{経営|けいえい}→経営：02740_keiei⟧ (joint management)\n- {共同|きょうどう}⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧ (shared housing)\n- {共同|きょうどう}⟦{生活|せいかつ}→生活：01443_seikatsu⟧ (communal living)\n- {共同|きょうどう}⟦{体|たい}→体：00784_karada⟧ (community)\n\nSIMILAR WORDS:\n- ⟦{協力|きょうりょく}→協力：00261_kyouryoku⟧: cooperation (emphasis on helping)\n- ⟦{協同|きょうどう}→協同：27416_kyoudou⟧: cooperation (same pronunciation, similar meaning)\n- ⟦{連携|れんけい}→連携：05094_renkei⟧: collaboration, coordination",
   "cross_references": [
     {
       "type": "synonym",
@@ -141,11 +141,25 @@
       "headword": "{協力|きょうりょく}",
       "label": "cooperation",
       "target_id": "00261_kyouryoku"
+    },
+    {
+      "type": "homophone",
+      "target_id": "27416_kyoudou",
+      "reading": "きょうどう",
+      "headword": "{協同|きょうどう}",
+      "label": "cooperation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05094_renkei",
+      "reading": "れんけい",
+      "headword": "{連携|れんけい}",
+      "label": "collaboration, coordination"
     }
   ],
   "metadata": {
     "created": "2026-01-11T10:17:53Z",
-    "modified": "2026-05-21T15:18:33Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{化|ば}かす",
   "reading": "ばかす",
   "romaji": "bakasu",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to trick; to bewitch; to deceive through transformation",
   "conjugation": {
     "type": "godan",
@@ -136,6 +136,22 @@
   ],
   "notes": "A verb rooted in Japanese folklore, where foxes ({狐|きつね}) and tanuki ({狸|たぬき}) are believed to have the ability to shapeshift and deceive humans. The passive form {化|ば}かされる ('to be tricked/bewitched') is especially common.\n\nTRANSITIVITY:\nTransitive. The trickster is the subject; the person deceived is marked with を.\n\nCOMMON COLLOCATIONS:\n- {狐|きつね}に{化|ば}かされる — to be tricked by a fox\n- {狸|たぬき}に{化|ば}かされる — to be tricked by a tanuki\n- {化|ば}かし{合|あ}い — mutual deception, a battle of wits\n\nCULTURAL NOTE:\nThe expression {狐|きつね}に{化|ば}かされたよう ('as if tricked by a fox') is used when something inexplicable or bewildering happens — such as losing something that was just in your hand.\n\nRELATED WORDS:\n- {化|ば}ける — to transform, to take the form of; the intransitive counterpart\n- {騙|だま}す — to deceive, to cheat; general-purpose word for deception\n- {惑|まど}わす — to bewilder, to lead astray; more literary",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02286_damasu",
+      "reading": "だます",
+      "headword": "{騙|だま}す",
+      "label": "to deceive, to cheat"
+    },
+    {
+      "type": "related",
+      "target_id": "28047_madowasu",
+      "reading": "まどわす",
+      "headword": "{惑|まど}わす",
+      "label": "to bewilder, to lead astray"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +168,6 @@
       "verb_class": "godan-su"
     },
     "created": "2026-03-26T14:27:54Z",
-    "modified": "2026-07-27T12:42:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

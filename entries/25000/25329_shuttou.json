@@ -3,7 +3,7 @@
   "headword": "{出頭|しゅっとう}",
   "reading": "しゅっとう",
   "romaji": "shuttou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "appearance (at a government office or police station); turning oneself in",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Refers to appearing at a police station, court, or government office, either voluntarily or in response to a summons. Composed of {出|しゅつ} (go out, appear) and {頭|とう} (head — here meaning to present oneself). Frequently used in crime and legal news.\n\nCOMMON COLLOCATIONS:\n- {警察|けいさつ}に{出頭|しゅっとう}する: turn oneself in to the police\n- {出頭|しゅっとう}{命令|めいれい}: summons, order to appear\n- {自首|じしゅ}{出頭|しゅっとう}: voluntary surrender\n- {出頭|しゅっとう}を{求|もと}める: demand someone's appearance\n\nSIMILAR WORDS:\n- {自首|じしゅ}: voluntary surrender — specifically confessing to a crime\n- {出廷|しゅってい}: appearing in court — specifically for court proceedings\n- {出席|しゅっせき}: attendance — for meetings, classes, events (not legal contexts)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23257_jishu",
+      "reading": "じしゅ",
+      "headword": "{自首|じしゅ}",
+      "label": "voluntary surrender"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02084_shusseki",
+      "reading": "しゅっせき",
+      "headword": "{出席|しゅっせき}",
+      "label": "attendance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +69,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "society"
       ],
@@ -62,7 +80,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T14:30:38Z",
-    "modified": "2026-04-24T14:30:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

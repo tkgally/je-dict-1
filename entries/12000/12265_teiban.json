@@ -19,7 +19,9 @@
       "english": "It's a staple product.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12265_teiban_ex2",
@@ -27,7 +29,9 @@
       "english": "Curry rice is a classic Japanese menu item.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12265_teiban_ex3",
@@ -35,21 +39,43 @@
       "english": "Speaking of classic cherry blossom viewing spots, Ueno Park is famous.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOriginally a retail and fashion industry term referring to items that remain in stock across seasons ({定番|ていばん}{商品|しょうひん}). Now widely used in everyday conversation for anything considered a tried-and-true favorite or classic choice — foods, songs, tourist spots, gifts, and more.\n\nOften modifies another noun directly: {定番|ていばん}メニュー (standard menu item), {定番|ていばん}ソング (classic song), {定番|ていばん}コーデ (go-to outfit).\n\nCOMMON COLLOCATIONS:\n- {定番|ていばん}{商品|しょうひん}: staple product\n- {定番|ていばん}メニュー: standard menu item\n- {定番|ていばん}の{味|あじ}: classic flavor\n- {定番|ていばん}スポット: classic spot, go-to destination\n- {定番|ていばん}{人気|にんき}: perennial favorite",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19249_uresuji",
+      "reading": "うれすじ",
+      "headword": "{売|う}れ{筋|すじ}",
+      "label": "best seller"
+    },
+    {
+      "type": "antonym",
+      "target_id": "23949_tsukigawari",
+      "reading": "つきがわり",
+      "headword": "{月替|つきが}わり",
+      "label": "changing every month"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T14:59:52Z",
-    "modified": "2026-02-20T14:59:52Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

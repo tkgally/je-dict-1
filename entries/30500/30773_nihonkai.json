@@ -43,8 +43,31 @@
       "notes": null
     }
   ],
-  "notes": "COMMON EXPRESSIONS:\n- {日本海|にほんかい}{側|がわ}: the Sea of Japan side (of Honshu)\n- {日本海|にほんかい}{沿岸|えんがん}: the Sea of Japan coast\n- {日本海|にほんかい}が{荒|あ}れる: the Sea of Japan turns rough\n\nCULTURAL CONTEXT:\n{日本海|にほんかい}{側|がわ} and {太平洋|たいへいよう}{側|がわ} are the standard way of dividing Japan's weather. Winter winds pick up moisture over the Sea of Japan and drop it as some of the world's heaviest snowfall on the western coast, while the Pacific side stays dry and sunny — so the two phrases carry a whole picture of climate, food, and daily life.\n\nSIMILAR WORDS:\n- {太平洋|たいへいよう}: the Pacific Ocean — the paired term in almost every weather report\n- {瀬戸内海|せとないかい}: the Seto Inland Sea — calm and sheltered, the opposite image",
+  "notes": "COMMON EXPRESSIONS:\n- {日本海|にほんかい}{側|がわ}: the Sea of Japan side (of Honshu)\n- {日本海|にほんかい}{沿岸|えんがん}: the Sea of Japan coast\n- {日本海|にほんかい}が{荒|あ}れる: the Sea of Japan turns rough\n\nCULTURAL NOTE:\n{日本海|にほんかい}{側|がわ} and {太平洋|たいへいよう}{側|がわ} are the standard way of dividing Japan's weather. Winter winds pick up moisture over the Sea of Japan and drop it as some of the world's heaviest snowfall on the western coast, while the Pacific side stays dry and sunny — so the two phrases carry a whole picture of climate, food, and daily life.\n\nSIMILAR WORDS:\n- {太平洋|たいへいよう}: the Pacific Ocean — the paired term in almost every weather report\n- {瀬戸内海|せとないかい}: the Seto Inland Sea — calm and sheltered, the opposite image",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09680_taiheiyou",
+      "reading": "たいへいよう",
+      "headword": "{太平洋|たいへいよう}",
+      "label": "the Pacific Ocean"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30793_setonaikai",
+      "reading": "せとないかい",
+      "headword": "{瀬戸内海|せとないかい}",
+      "label": "the Seto Inland Sea"
+    },
+    {
+      "type": "related",
+      "target_id": "20770_chichuukai",
+      "reading": "ちちゅうかい",
+      "headword": "{地中海|ちちゅうかい}",
+      "label": "the Mediterranean Sea"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -52,7 +75,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "geography",
         "proper-noun",
@@ -61,6 +84,6 @@
       "domain": []
     },
     "created": "2026-08-28T12:31:33Z",
-    "modified": "2026-08-28T12:31:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

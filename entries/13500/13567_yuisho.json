@@ -19,7 +19,9 @@
       "english": "I visited a shrine with a distinguished history.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13567_yuisho_ex2",
@@ -27,7 +29,9 @@
       "english": "This inn is a building with a distinguished pedigree, having been in operation since the Edo period.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13567_yuisho_ex3",
@@ -35,21 +39,49 @@
       "english": "This sword has a notable history, and it is said to have once been owned by a famous military commander.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nMost commonly used in the set expressions {由緒|ゆいしょ}ある (having a distinguished history) and {由緒|ゆいしょ}{正|ただ}しい (of distinguished/legitimate lineage). Typically describes temples, shrines, families, inns, and historical objects.\n\nCOMMON COLLOCATIONS:\n- {由緒|ゆいしょ}ある (having a distinguished history)\n- {由緒|ゆいしょ}{正|ただ}しい (of impeccable lineage, prestigious)\n- {由緒|ゆいしょ}ある{寺院|じいん} (temple with a distinguished history)\n- {由緒|ゆいしょ}を{誇|ほこ}る (boast a distinguished history)\n\nSIMILAR WORDS:\n- {歴史|れきし}: history (general, broader meaning)\n- {伝統|でんとう}: tradition (customs passed down, not specifically lineage)\n- {来歴|らいれき}: history, provenance (the story of how something came to be)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02267_rekishi",
+      "reading": "れきし",
+      "headword": "{歴史|れきし}",
+      "label": "history"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09585_dentou",
+      "reading": "でんとう",
+      "headword": "{伝統|でんとう}",
+      "label": "tradition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15072_raireki",
+      "reading": "らいれき",
+      "headword": "{来歴|らいれき}",
+      "label": "history, provenance"
+    }
+  ],
   "metadata": {
     "created": "2026-02-25T14:31:03Z",
-    "modified": "2026-02-25T14:31:03Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

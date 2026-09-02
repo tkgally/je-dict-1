@@ -19,7 +19,9 @@
       "english": "Please secure drinking water.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15275_inryousui_ex2",
@@ -27,7 +29,9 @@
       "english": "Can this water be used as drinking water?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15275_inryousui_ex3",
@@ -35,20 +39,56 @@
       "english": "It is recommended to stockpile three days' worth of drinking water per family member in preparation for disasters.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{飲料水|いんりょうすい} is a formal compound of {飲料|いんりょう} (beverage) and {水|すい} (water). It is used on signs, in official documents, and in disaster preparedness contexts.\n\nCOMMON COLLOCATIONS:\n- {飲料水|いんりょうすい}を{確保|かくほ}する (to secure drinking water)\n- {飲料水|いんりょうすい}の{備蓄|びちく} (stockpile of drinking water)\n- {飲料水|いんりょうすい}として{利用|りよう}する (to use as drinking water)\n- {安全|あんぜん}な{飲料水|いんりょうすい} (safe drinking water)\n\nSIMILAR WORDS:\n- {飲料水|いんりょうすい}: drinking water (formal, official)\n- {飲|の}み{水|みず}: drinking water (everyday, casual)\n- {水道水|すいどうすい}: tap water (from the water supply system)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25349_suidousui",
+      "reading": "すいどうすい",
+      "headword": "{水道水|すいどうすい}",
+      "label": "tap water"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20521_jousui",
+      "reading": "じょうすい",
+      "headword": "{上水|じょうすい}",
+      "label": "water supply"
+    },
+    {
+      "type": "related",
+      "target_id": "22420_suishitsu",
+      "reading": "すいしつ",
+      "headword": "{水質|すいしつ}",
+      "label": "water quality"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23507_dorinku",
+      "reading": "どりんく",
+      "headword": "ドリンク",
+      "label": "drink"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T08:13:39Z",
-    "modified": "2026-03-06T08:13:39Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["daily-life", "food"]
+      "semantic": [
+        "daily-life",
+        "food"
+      ]
     }
   }
 }

@@ -19,7 +19,9 @@
       "english": "I attended a social gathering.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14968_shinbokukai_ex2",
@@ -27,7 +29,9 @@
       "english": "A social gathering was held that also served as a welcome event for new employees.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14968_shinbokukai_ex3",
@@ -35,21 +39,64 @@
       "english": "The neighborhood association holds social gatherings twice a year to deepen interaction among residents.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of {親睦|しんぼく} (friendship, fellowship) and {会|かい} (meeting, gathering).\n\nCommon in Japanese workplace and community culture. These events often involve eating and drinking together. In a company context, they may be semi-mandatory — attending shows team spirit.\n\nSIMILAR WORDS:\n- {懇親会|こんしんかい} is a near-synonym, slightly more formal\n- {飲|の}み{会|かい} is a more casual drinking party\n- {歓迎会|かんげいかい} specifically welcomes new members\n- {送別会|そうべつかい} is a farewell party\n\nCOMMON COLLOCATIONS:\n- {親睦会|しんぼくかい}を{開|ひら}く (to hold a social gathering)\n- {親睦会|しんぼくかい}に{出席|しゅっせき}する (to attend a social gathering)\n- {親睦|しんぼく}を{深|ふか}める (to deepen fellowship)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17926_konshinkai",
+      "reading": "こんしんかい",
+      "headword": "{懇親会|こんしんかい}",
+      "label": "is a near-synonym, slightly more formal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09371_nomikai",
+      "reading": "のみかい",
+      "headword": "{飲|の}み{会|かい}",
+      "label": "is a more casual drinking party"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15791_kangeikai",
+      "reading": "かんげいかい",
+      "headword": "{歓迎会|かんげいかい}",
+      "label": "specifically welcomes new members"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16080_soubetsukai",
+      "reading": "そうべつかい",
+      "headword": "{送別会|そうべつかい}",
+      "label": "is a farewell party"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21441_kouryuukai",
+      "reading": "こうりゅうかい",
+      "headword": "{交流会|こうりゅうかい}",
+      "label": "exchange meeting"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T08:02:22Z",
-    "modified": "2026-03-04T08:02:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["leisure", "work"]
+      "semantic": [
+        "leisure",
+        "work"
+      ]
     }
   }
 }

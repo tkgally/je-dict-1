@@ -17,7 +17,9 @@
       "id": "27560_sannensei_ex1",
       "japanese": "{娘|むすめ}は{三年生|さんねんせい}になった。",
       "english": "My daughter has become a third-year student.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27560_sannensei_ex2",
       "japanese": "{高校|こうこう}{三年生|さんねんせい}は{受験勉強|じゅけんべんきょう}で{忙|いそが}しい。",
       "english": "Third-year high school students are busy with entrance exam preparation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,66 @@
       "id": "27560_sannensei_ex3",
       "japanese": "{大学|だいがく}{三年生|さんねんせい}になると、{多|おお}くの{学生|がくせい}が{就職活動|しゅうしょくかつどう}を{始|はじ}める。",
       "english": "When students become university juniors, many of them start their job search.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {三年|さんねん} (three years) + {生|せい} (student). In Japan, both junior high and high school last three years, so {三年生|さんねんせい} marks the final year of those stages — an important year for entrance exams.\n\nCOMMON COLLOCATIONS:\n- {小学|しょうがく}{三年生|さんねんせい}: third-grader (elementary)\n- {中学|ちゅうがく}{三年生|さんねんせい}: third-year junior high student (final year)\n- {高校|こうこう}{三年生|さんねんせい}: third-year high school student (final year)\n- {大学|だいがく}{三年生|さんねんせい}: third-year university student\n- {三年生|さんねんせい}になる: to become a third-year student\n\nSIMILAR WORDS:\n- {一年生|いちねんせい}: first-year student\n- {二年生|にねんせい}: second-year student\n- {四年生|よねんせい}: fourth-year student (university senior)\n- {受験生|じゅけんせい}: examinee — often refers to third-year high school students preparing for university exams",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27559_ichinensei",
+      "reading": "いちねんせい",
+      "headword": "{一年生|いちねんせい}",
+      "label": "first-year student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27586_ninensei",
+      "reading": "にねんせい",
+      "headword": "{二年生|にねんせい}",
+      "label": "second-year student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28268_yonensei",
+      "reading": "よねんせい",
+      "headword": "{四年生|よねんせい}",
+      "label": "fourth-year student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18622_jukensei",
+      "reading": "じゅけんせい",
+      "headword": "{受験生|じゅけんせい}",
+      "label": "examinee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28861_sannenkan",
+      "reading": "さんねんかん",
+      "headword": "{三年間|さんねんかん}",
+      "label": "three years"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["education"],
+      "politeness": "plain",
+      "semantic": [
+        "education"
+      ],
       "domain": []
     },
     "created": "2026-05-14T01:41:20Z",
-    "modified": "2026-05-14T01:41:20Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

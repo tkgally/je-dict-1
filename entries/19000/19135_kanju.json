@@ -3,7 +3,7 @@
   "headword": "{甘受|かんじゅ}",
   "reading": "かんじゅ",
   "romaji": "kanju",
-  "part_of_speech": "noun; verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "acceptance; resignation; submitting to",
   "conjugation": {
     "type": "suru",
@@ -134,8 +134,31 @@
       "notes": null
     }
   ],
-  "notes": "{甘受|かんじゅ} means accepting something unpleasant without resistance. It implies resignation or willingness to endure hardship.\n\nKANJI NOTE:\nThe character {甘|かん} here means \"willingly\" or \"contentedly,\" not its more common meaning of \"sweet.\"\n\nCOMMON OBJECTS (always negative):\n- {批判|ひはん}を{甘受|かんじゅ}する: to accept criticism\n- {処分|しょぶん}を{甘受|かんじゅ}する: to accept punishment\n- {不利益|ふりえき}を{甘受|かんじゅ}する: to accept disadvantage\n- {結果|けっか}を{甘受|かんじゅ}する: to accept consequences\n\nSIMILAR WORDS:\n- {受|う}け{入|い}れる: to accept (neutral; broader use)\n- {我慢|がまん}する: to endure, put up with (focuses on the suffering)\n- {諦|あきら}める: to give up, resign oneself (focuses on abandoning hope)\n\nREGISTER:\nFormal and literary. Common in written Japanese, legal contexts, and serious discussion. Rarely used in casual conversation.",
+  "notes": "{甘受|かんじゅ} means accepting something unpleasant without resistance. It implies resignation or willingness to endure hardship.\n\nWRITING:\nThe character {甘|かん} here means \"willingly\" or \"contentedly,\" not its more common meaning of \"sweet.\"\n\nCOMMON OBJECTS (always negative):\n- {批判|ひはん}を{甘受|かんじゅ}する: to accept criticism\n- {処分|しょぶん}を{甘受|かんじゅ}する: to accept punishment\n- {不利益|ふりえき}を{甘受|かんじゅ}する: to accept disadvantage\n- {結果|けっか}を{甘受|かんじゅ}する: to accept consequences\n\nSIMILAR WORDS:\n- {受|う}け{入|い}れる: to accept (neutral; broader use)\n- {我慢|がまん}する: to endure, put up with (focuses on the suffering)\n- {諦|あきら}める: to give up, resign oneself (focuses on abandoning hope)\n\nREGISTER:\nFormal and literary. Common in written Japanese, legal contexts, and serious discussion. Rarely used in casual conversation.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05755_ukeireru",
+      "reading": "うけいれる",
+      "headword": "{受|う}け{入|い}れる",
+      "label": "to accept (neutral"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25343_gamansuru",
+      "reading": "がまんする",
+      "headword": "{我慢|がまん}する",
+      "label": "to endure, put up with"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01813_akirameru",
+      "reading": "あきらめる",
+      "headword": "{諦|あきら}める",
+      "label": "to give up, resign oneself"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -154,6 +177,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-24T10:04:47Z",
-    "modified": "2026-03-28T10:56:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

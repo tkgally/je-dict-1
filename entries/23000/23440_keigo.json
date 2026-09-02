@@ -3,7 +3,7 @@
   "headword": "{警護|けいご}",
   "reading": "けいご",
   "romaji": "keigo",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "guarding; protection; bodyguarding",
   "definitions": [
     {
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {警|けい} (guard, warn) and {護|ご} (protect). Specifically refers to the protective security around a person (like a political leader or dignitary), as opposed to general security of a building or area.\n\nCOMMON COLLOCATIONS:\n- {要人|ようじん}{警護|けいご}: VIP protection\n- {身辺|しんぺん}{警護|けいご}: personal security, close protection\n- {警護|けいご}{態勢|たいせい}: security posture, protective formation\n- {厳重|げんじゅう}な{警護|けいご}: tight security\n- {警護|けいご}にあたる: to be assigned to guard duty\n\nSIMILAR WORDS:\n- {警備|けいび}: security, guard duty — broader term covering buildings, events, and areas, not just people\n- {護衛|ごえい}: escort, guard — often military; used for armed escorts of ships or convoys\n- ボディーガード: bodyguard — the person themselves, not the act of guarding\n- {防犯|ぼうはん}: crime prevention — focuses on preventing crime in general, not personal protection\n\nNOTE:\nNot to be confused with the homophone {敬語|けいご} (honorific language), which has completely different kanji and meaning.",
+  "notes": "A compound of {警|けい} (guard, warn) and {護|ご} (protect). Specifically refers to the protective security around a person (like a political leader or dignitary), as opposed to general security of a building or area.\n\nCOMMON COLLOCATIONS:\n- {要人|ようじん}{警護|けいご}: VIP protection\n- {身辺|しんぺん}{警護|けいご}: personal security, close protection\n- {警護|けいご}{態勢|たいせい}: security posture, protective formation\n- {厳重|げんじゅう}な{警護|けいご}: tight security\n- {警護|けいご}にあたる: to be assigned to guard duty\n\nSIMILAR WORDS:\n- {警備|けいび}: security, guard duty — broader term covering buildings, events, and areas, not just people\n- {護衛|ごえい}: escort, guard — often military; used for armed escorts of ships or convoys\n- ボディーガード: bodyguard — the person themselves, not the act of guarding\n- {防犯|ぼうはん}: crime prevention — focuses on preventing crime in general, not personal protection\n\nUSAGE:\nNot to be confused with the homophone {敬語|けいご} (honorific language), which has completely different kanji and meaning.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00208_keibi",
+      "reading": "けいび",
+      "headword": "{警備|けいび}",
+      "label": "security, guard duty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14225_goei",
+      "reading": "ごえい",
+      "headword": "{護衛|ごえい}",
+      "label": "escort, guard"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08192_bouhan",
+      "reading": "ぼうはん",
+      "headword": "{防犯|ぼうはん}",
+      "label": "crime prevention"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-12T06:54:25Z",
-    "modified": "2026-04-12T06:54:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

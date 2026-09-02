@@ -17,7 +17,9 @@
       "id": "26326_kaizou_ex1",
       "japanese": "{解像度|かいぞうど}が{高|たか}い{画像|がぞう}を{選|えら}んだ。",
       "english": "I chose a high-resolution image.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26326_kaizou_ex2",
       "japanese": "このカメラの{解像度|かいぞうど}はどのくらいですか。",
       "english": "What is the resolution of this camera?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,52 @@
       "id": "26326_kaizou_ex3",
       "japanese": "{画面|がめん}の{解像度|かいぞうど}を{上|あ}げると、{文字|もじ}や{写真|しゃしん}がより{鮮明|せんめい}に{表示|ひょうじ}されるが、その{分|ぶん}バッテリーの{消耗|しょうもう}が{早|はや}くなる。",
       "english": "Increasing the screen resolution displays text and photos more clearly, but the battery drains faster as a result.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {解|かい} (resolve, analyze) and {像|ぞう} (image). In practice, {解像|かいぞう} almost never appears alone — it is nearly always used in the compound {解像度|かいぞうど} (resolution, literally \"degree of image resolution\"). This is an essential technology term for discussing cameras, displays, printers, and digital media.\n\nNote: the homophone {改造|かいぞう} (remodeling, modification) is a completely different word.\n\nCOMMON COLLOCATIONS:\n- {高|こう}{解像度|かいぞうど}: high resolution\n- {低|てい}{解像度|かいぞうど}: low resolution\n- {解像度|かいぞうど}を{上|あ}げる: to increase resolution\n- {解像度|かいぞうど}が{低|ひく}い: the resolution is low\n- {解像力|かいぞうりょく}: resolving power (optics)\n\nRELATED TERMS:\n- {画素|がそ}: pixel — the individual dots that make up a digital image\n- {画質|がしつ}: image quality — a broader concept than resolution alone\n- {鮮明|せんめい}: clear; sharp — describes the visual result of high resolution",
-  "cross_references": [],
+  "notes": "Composed of {解|かい} (resolve, analyze) and {像|ぞう} (image). In practice, {解像|かいぞう} almost never appears alone — it is nearly always used in the compound {解像度|かいぞうど} (resolution, literally \"degree of image resolution\"). This is an essential technology term for discussing cameras, displays, printers, and digital media.\n\nNote: the homophone {改造|かいぞう} (remodeling, modification) is a completely different word.\n\nCOMMON COLLOCATIONS:\n- {高|こう}{解像度|かいぞうど}: high resolution\n- {低|てい}{解像度|かいぞうど}: low resolution\n- {解像度|かいぞうど}を{上|あ}げる: to increase resolution\n- {解像度|かいぞうど}が{低|ひく}い: the resolution is low\n- {解像力|かいぞうりょく}: resolving power (optics)\n\nRELATED WORDS:\n- {画素|がそ}: pixel — the individual dots that make up a digital image\n- {画質|がしつ}: image quality — a broader concept than resolution alone\n- {鮮明|せんめい}: clear; sharp — describes the visual result of high resolution",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05225_gaso",
+      "reading": "がそ",
+      "headword": "{画素|がそ}",
+      "label": "pixel"
+    },
+    {
+      "type": "related",
+      "target_id": "16156_gashitsu",
+      "reading": "がしつ",
+      "headword": "{画質|がしつ}",
+      "label": "image quality"
+    },
+    {
+      "type": "related",
+      "target_id": "14686_senmei",
+      "reading": "せんめい",
+      "headword": "{鮮明|せんめい}",
+      "label": "clear"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["technology", "science"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "technology",
+        "science"
+      ]
     },
     "created": "2026-04-30T16:24:40Z",
-    "modified": "2026-04-30T16:24:40Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

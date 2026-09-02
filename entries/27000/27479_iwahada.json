@@ -17,7 +17,9 @@
       "id": "27479_iwahada_ex1",
       "japanese": "{岩肌|いわはだ}が{見|み}えている。",
       "english": "The bare rock surface is showing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27479_iwahada_ex2",
       "japanese": "{雨|あめ}で{岩肌|いわはだ}が{黒|くろ}く{光|ひか}っていた。",
       "english": "The rock face was shining black from the rain.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,53 @@
       "id": "27479_iwahada_ex3",
       "japanese": "{山|やま}の{頂上|ちょうじょう}{付近|ふきん}は{木|き}が{少|すく}なく、{岩肌|いわはだ}がむき{出|だ}しになっている。",
       "english": "Near the mountain summit there are few trees, and the bare rock is exposed.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {岩|いわ} (rock) + {肌|はだ} (skin, surface). The metaphor of \"rock skin\" treats the rock's outer surface as its skin.\n\nCOMMON COLLOCATIONS:\n- {岩肌|いわはだ}がむき{出|だ}し: the rock face is exposed\n- {岩肌|いわはだ}が{見|み}える: the rock surface can be seen\n- {険|けわ}しい{岩肌|いわはだ}: rugged rock face\n- {岩肌|いわはだ}を{削|けず}る: to wear away the rock surface\n\nSIMILAR WORDS:\n- {岩場|いわば}: rocky area — refers to a place, not a surface\n- {岩壁|がんぺき}: rock wall — a vertical cliff face, often used in climbing\n- {地肌|じはだ}: bare ground; bare scalp — the same {肌|はだ} metaphor applied to soil or skin",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27478_iwaba",
+      "reading": "いわば",
+      "headword": "{岩場|いわば}",
+      "label": "rocky area"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20380_jihada",
+      "reading": "じはだ",
+      "headword": "{地肌|じはだ}",
+      "label": "bare ground"
+    },
+    {
+      "type": "related",
+      "target_id": "23863_iwayama",
+      "reading": "いわやま",
+      "headword": "{岩山|いわやま}",
+      "label": "rocky mountain"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["nature", "geography"],
+      "politeness": "plain",
+      "semantic": [
+        "nature",
+        "geography"
+      ],
       "domain": []
     },
     "created": "2026-05-12T23:52:14Z",
-    "modified": "2026-05-12T23:52:14Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

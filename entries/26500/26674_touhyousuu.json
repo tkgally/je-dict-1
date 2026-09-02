@@ -17,7 +17,9 @@
       "id": "26674_touhyousuu_ex1",
       "japanese": "{投票数|とうひょうすう}は{過去最高|かこさいこう}だった。",
       "english": "The number of votes was the highest ever.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26674_touhyousuu_ex2",
       "japanese": "{有効|ゆうこう}{投票数|とうひょうすう}の{過半数|かはんすう}を{獲得|かくとく}した。",
       "english": "They obtained a majority of the valid votes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,54 @@
       "id": "26674_touhyousuu_ex3",
       "japanese": "{今回|こんかい}の{選挙|せんきょ}では{前回|ぜんかい}より{投票数|とうひょうすう}が{大幅|おおはば}に{増|ふ}え、{有権者|ゆうけんしゃ}の{関心|かんしん}の{高|たか}さがうかがえた。",
       "english": "In this election, the vote count increased significantly compared to last time, indicating the high level of interest among eligible voters.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {投票|とうひょう} (voting; casting a ballot) and {数|すう} (number; count). A standard term in political reporting and election coverage.\n\nCOMMON COLLOCATIONS:\n- {投票数|とうひょうすう}が{増|ふ}える: the vote count increases\n- {投票数|とうひょうすう}が{減|へ}る: the vote count decreases\n- {有効|ゆうこう}{投票数|とうひょうすう}: number of valid votes\n- {無効|むこう}{投票数|とうひょうすう}: number of invalid votes\n- {総|そう}{投票数|とうひょうすう}: total number of votes\n\nRELATED TERMS:\n- {投票率|とうひょうりつ}: voter turnout rate\n- {得票数|とくひょうすう}: number of votes received (by a candidate)\n- {開票|かいひょう}: vote counting; ballot opening",
-  "cross_references": [],
+  "notes": "Composed of {投票|とうひょう} (voting; casting a ballot) and {数|すう} (number; count). A standard term in political reporting and election coverage.\n\nCOMMON COLLOCATIONS:\n- {投票数|とうひょうすう}が{増|ふ}える: the vote count increases\n- {投票数|とうひょうすう}が{減|へ}る: the vote count decreases\n- {有効|ゆうこう}{投票数|とうひょうすう}: number of valid votes\n- {無効|むこう}{投票数|とうひょうすう}: number of invalid votes\n- {総|そう}{投票数|とうひょうすう}: total number of votes\n\nRELATED WORDS:\n- {投票率|とうひょうりつ}: voter turnout rate\n- {得票数|とくひょうすう}: number of votes received (by a candidate)\n- {開票|かいひょう}: vote counting; ballot opening",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "22200_touhyouritsu",
+      "reading": "とうひょうりつ",
+      "headword": "{投票率|とうひょうりつ}",
+      "label": "voter turnout rate"
+    },
+    {
+      "type": "related",
+      "target_id": "25148_tokuhyousuu",
+      "reading": "とくひょうすう",
+      "headword": "{得票数|とくひょうすう}",
+      "label": "number of votes received"
+    },
+    {
+      "type": "related",
+      "target_id": "19117_kaihyou",
+      "reading": "かいひょう",
+      "headword": "{開票|かいひょう}",
+      "label": "vote counting"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     },
     "created": "2026-05-04T12:46:25Z",
-    "modified": "2026-05-04T12:46:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

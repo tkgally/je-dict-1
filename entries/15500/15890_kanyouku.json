@@ -19,7 +19,9 @@
       "english": "I memorize idioms.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15890_kanyouku_ex2",
@@ -27,7 +29,9 @@
       "english": "This idiom is often used in everyday conversation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15890_kanyouku_ex3",
@@ -35,7 +39,9 @@
       "english": "We learned the meanings and usage of idiomatic phrases in Japanese class.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE: {慣用句|かんようく} is a grammatical term used in Japanese language education. It refers to fixed multi-word expressions like {猫|ねこ}の{手|て}も{借|か}りたい (so busy one would welcome even a cat's help) or {目|め}から{鱗|うろこ} (eye-opening revelation).\n\nCOMMON COLLOCATIONS:\n- {慣用句|かんようく}を{使|つか}う: to use an idiom\n- {慣用句|かんようく}を{覚|おぼ}える: to memorize idioms\n- {慣用句|かんようく}の{意味|いみ}: the meaning of an idiom\n- {慣用句|かんようく}{辞典|じてん}: idiom dictionary\n\nSIMILAR WORDS:\n- {慣用句|かんようく}: fixed multi-word expression with figurative meaning\n- {諺|ことわざ}: proverb (complete sentence conveying wisdom or advice)\n- {四字熟語|よじじゅくご}: four-character compound (yojijukugo)",
@@ -53,18 +59,71 @@
       "reading": "よじじゅくご",
       "headword": "{四字熟語|よじじゅくご}",
       "label": "four-character compound"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19999_fureezu",
+      "reading": "ふれーず",
+      "headword": "フレーズ",
+      "label": "phrase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21431_kimarimonku",
+      "reading": "きまりもんく",
+      "headword": "{決|き}まり{文句|もんく}",
+      "label": "set phrase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22388_seiku",
+      "reading": "せいく",
+      "headword": "{成句|せいく}",
+      "label": "set phrase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23690_seigo",
+      "reading": "せいご",
+      "headword": "{成語|せいご}",
+      "label": "set phrase"
+    },
+    {
+      "type": "related",
+      "target_id": "25780_kanyougo",
+      "reading": "かんようご",
+      "headword": "{慣用語|かんようご}",
+      "label": "idiom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27167_teikeiku",
+      "reading": "ていけいく",
+      "headword": "{定型句|ていけいく}",
+      "label": "set phrase"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29417_teikeihyougen",
+      "reading": "ていけいひょうげん",
+      "headword": "{定型表現|ていけいひょうげん}",
+      "label": "fixed expression"
     }
   ],
   "metadata": {
     "created": "2026-03-08T13:53:35Z",
-    "modified": "2026-05-02T07:20:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["language"]
+      "semantic": [
+        "language"
+      ]
     }
   }
 }

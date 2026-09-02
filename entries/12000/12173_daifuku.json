@@ -19,7 +19,9 @@
       "english": "I bought one daifuku.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12173_daifuku_ex2",
@@ -27,7 +29,9 @@
       "english": "I went to a Japanese sweets shop famous for its strawberry daifuku.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12173_daifuku_ex3",
@@ -35,21 +39,42 @@
       "english": "My grandmother made homemade daifuku for me — they were soft and packed with sweet bean paste.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "CULTURE:\nFull name is {大福餅|だいふくもち}. A staple of Japanese confectionery ({和菓子|わがし}). Traditional filling is {餡|あん} (sweet red bean paste), but modern variations include いちご{大福|だいふく} (strawberry daifuku), クリーム{大福|だいふく} (cream daifuku), and other flavors. The name literally means \"great fortune,\" making it an auspicious sweet.\n\nVARIETIES:\n- {豆|まめ}{大福|だいふく}: daifuku with red beans mixed into the mochi\n- いちご{大福|だいふく}: strawberry daifuku (strawberry wrapped inside)\n- {塩|しお}{大福|だいふく}: slightly salted daifuku\n\nCOMMON COLLOCATIONS:\n- いちご{大福|だいふく}: strawberry daifuku\n- {大福|だいふく}{餅|もち}: daifuku mochi (formal name)\n- {大福|だいふく}を{食|た}べる: to eat daifuku",
-  "cross_references": [],
+  "notes": "CULTURAL NOTE:\nFull name is {大福餅|だいふくもち}. A staple of Japanese confectionery ({和菓子|わがし}). Traditional filling is {餡|あん} (sweet red bean paste), but modern variations include いちご{大福|だいふく} (strawberry daifuku), クリーム{大福|だいふく} (cream daifuku), and other flavors. The name literally means \"great fortune,\" making it an auspicious sweet.\n\nTYPES:\n- {豆|まめ}{大福|だいふく}: daifuku with red beans mixed into the mochi\n- いちご{大福|だいふく}: strawberry daifuku (strawberry wrapped inside)\n- {塩|しお}{大福|だいふく}: slightly salted daifuku\n\nCOMMON COLLOCATIONS:\n- いちご{大福|だいふく}: strawberry daifuku\n- {大福|だいふく}{餅|もち}: daifuku mochi (formal name)\n- {大福|だいふく}を{食|た}べる: to eat daifuku",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15810_kusamochi",
+      "reading": "くさもち",
+      "headword": "{草餅|くさもち}",
+      "label": "mugwort rice cake"
+    },
+    {
+      "type": "related",
+      "target_id": "23451_omochi",
+      "reading": "おもち",
+      "headword": "お{餅|もち}",
+      "label": "rice cake"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T09:59:04Z",
-    "modified": "2026-02-20T09:59:04Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

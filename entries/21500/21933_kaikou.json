@@ -17,7 +17,9 @@
       "id": "21933_kaikou_ex1",
       "japanese": "{横浜|よこはま}は{有名|ゆうめい}な{海港|かいこう}{都市|とし}だ。",
       "english": "Yokohama is a famous seaport city.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21933_kaikou_ex2",
       "japanese": "{大型|おおがた}の{貨物船|かもつせん}がその{海港|かいこう}に{入港|にゅうこう}した。",
       "english": "A large cargo ship entered the seaport.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "21933_kaikou_ex3",
       "japanese": "この{海港|かいこう}は{古|ふる}くから{国際|こくさい}{貿易|ぼうえき}の{拠点|きょてん}として{栄|さか}えてきた。",
       "english": "This seaport has prospered as a hub of international trade since ancient times.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {海|かい} (sea) and {港|こう} (port). Refers specifically to ports on the coast, emphasizing their maritime nature.\n\nCOMMON COLLOCATIONS:\n- {海港|かいこう}{都市|とし}: seaport city\n- {国際|こくさい}{海港|かいこう}: international seaport\n- {海港|かいこう}{施設|しせつ}: harbor facilities\n\nSIMILAR WORDS:\n- {港|みなと}: port, harbor — the general everyday word for any port\n- {港湾|こうわん}: harbor, port — a more formal/technical term emphasizing the harbor infrastructure\n- {空港|くうこう}: airport — uses the same {港|こう} character but for air travel\n\nNOTE:\nIn everyday conversation, {港|みなと} is used much more frequently. {海港|かいこう} appears mainly in written, formal, or technical contexts.",
+  "notes": "A compound of {海|かい} (sea) and {港|こう} (port). Refers specifically to ports on the coast, emphasizing their maritime nature.\n\nCOMMON COLLOCATIONS:\n- {海港|かいこう}{都市|とし}: seaport city\n- {国際|こくさい}{海港|かいこう}: international seaport\n- {海港|かいこう}{施設|しせつ}: harbor facilities\n\nSIMILAR WORDS:\n- {港|みなと}: port, harbor — the general everyday word for any port\n- {港湾|こうわん}: harbor, port — a more formal/technical term emphasizing the harbor infrastructure\n- {空港|くうこう}: airport — uses the same {港|こう} character but for air travel\n\nUSAGE:\nIn everyday conversation, {港|みなと} is used much more frequently. {海港|かいこう} appears mainly in written, formal, or technical contexts.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14767_kouwan",
+      "reading": "こうわん",
+      "headword": "{港湾|こうわん}",
+      "label": "harbor, port"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00648_kuukou",
+      "reading": "くうこう",
+      "headword": "{空港|くうこう}",
+      "label": "airport"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["location", "transport"]
+      "semantic": [
+        "location",
+        "transport"
+      ]
     },
     "created": "2026-04-03T22:09:37Z",
-    "modified": "2026-04-03T22:09:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

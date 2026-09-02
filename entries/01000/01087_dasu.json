@@ -174,7 +174,7 @@
     },
     {
       "id": "01087_dasu_ex7",
-      "japanese": "⟦{財布|さいふ}→財布：00663_saifu⟧⟦から→から：00504_kara⟧⟦{お金|おかね}→お金：00611_okane⟧⟦を→を：00422_wo⟧{出|だ}した。",
+      "japanese": "⟦{財布|さいふ}→財布：00663_saifu⟧⟦から→から：00504_kara⟧⟦お{金|かね}→お金：00611_okane⟧⟦を→を：00422_wo⟧{出|だ}した。",
       "english": "I took out money from my wallet.",
       "notes": null,
       "has_audio": false,
@@ -273,7 +273,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{出|で}る→出る：00513_deru⟧ (intransitive). Pattern: X⟦を→を：00422_wo⟧{出|だ}す (take out X).\n\nASPECT: ている indicates ongoing action or result. {出|だ}している = 'is putting out' or 'has taken out.'\n\nCOMMON PATTERNS:\n・⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦を→を：00422_wo⟧{出|だ}す (send a letter)\n・⟦{宿題|しゅくだい}→宿題：00812_shukudai⟧⟦を→を：00422_wo⟧{出|だ}す (submit homework)\n・⟦ゴミ→ゴミ：00840_gomi⟧⟦を→を：00422_wo⟧{出|だ}す (put out trash)\n・⟦{声|こえ}→声：02207_koe⟧⟦を→を：00422_wo⟧{出|だ}す (speak up/make a sound)\n\nAUXILIARY: V-stem + {出|だ}す = start doing suddenly: ⟦{走|はし}り→走る：00519_hashiru⟧{出|だ}す (start running), ⟦{泣|な}き→泣く：00655_naku⟧{出|だ}す (burst into tears).\n\nPAIR: ⟦{出|で}る→出る：00513_deru⟧ (intransitive) - ⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧ (results came out).",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{出|で}る→出る：00513_deru⟧ (intransitive). Pattern: X⟦を→を：00422_wo⟧{出|だ}す (take out X).\n\nASPECT: ている indicates ongoing action or result. {出|だ}している = 'is putting out' or 'has taken out.'\n\nCOMMON PATTERNS:\n- ⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦を→を：00422_wo⟧{出|だ}す (send a letter)\n- ⟦{宿題|しゅくだい}→宿題：00812_shukudai⟧⟦を→を：00422_wo⟧{出|だ}す (submit homework)\n- ⟦ゴミ→ゴミ：00840_gomi⟧⟦を→を：00422_wo⟧{出|だ}す (put out trash)\n- ⟦{声|こえ}→声：02207_koe⟧⟦を→を：00422_wo⟧{出|だ}す (speak up/make a sound)\n\nAUXILIARY: V-stem + {出|だ}す = start doing suddenly: ⟦{走|はし}り→走る：00519_hashiru⟧{出|だ}す (start running), ⟦{泣|な}き→泣く：00655_naku⟧{出|だ}す (burst into tears).\n\nPAIR: ⟦{出|で}る→出る：00513_deru⟧ (intransitive) - ⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧ (results came out).",
   "prominent_see_also": [
     {
       "target_id": "00513_deru",
@@ -296,11 +296,32 @@
       "reading": "いれる",
       "headword": "{入|い}れる",
       "label": "to put in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03542_teishutsu",
+      "reading": "ていしゅつ",
+      "headword": "{提出|ていしゅつ}",
+      "label": "submission, presentation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13639_hassuru",
+      "reading": "はっする",
+      "headword": "{発|はっ}する",
+      "label": "to emit, to issue"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19644_teishutsusuru",
+      "reading": "ていしゅつする",
+      "headword": "{提出|ていしゅつ}する",
+      "label": "to submit"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:47:13Z",
-    "modified": "2026-08-16T09:18:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

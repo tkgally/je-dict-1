@@ -17,7 +17,9 @@
       "id": "24955_yobidengen_ex1",
       "japanese": "{予備電源|よびでんげん}を{確保|かくほ}しておく。",
       "english": "Keep a backup power source secured.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24955_yobidengen_ex2",
       "japanese": "{停電|ていでん}のときは{予備電源|よびでんげん}に{自動的|じどうてき}に{切|き}り{替|か}わる。",
       "english": "During a power outage, it automatically switches to the backup power source.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,40 @@
       "id": "24955_yobidengen_ex3",
       "japanese": "{病院|びょういん}では{患者|かんじゃ}の{安全|あんぜん}のために、{予備電源|よびでんげん}の{定期的|ていきてき}な{点検|てんけん}が{義務|ぎむ}{付|づ}けられている。",
       "english": "Hospitals are required to conduct regular inspections of backup power supplies for patient safety.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {予備|よび} (reserve; backup) and {電源|でんげん} (power source; power supply). Disaster preparedness is a major concern in Japan, making {予備電源|よびでんげん} a commonly discussed topic in both institutional and household contexts.\n\nCOMMON COLLOCATIONS:\n- {予備電源|よびでんげん}を{確保|かくほ}する: to secure a backup power source\n- {予備電源|よびでんげん}に{切|き}り{替|か}わる: to switch to backup power\n- {予備電源|よびでんげん}の{点検|てんけん}: inspection of backup power\n- {予備電源|よびでんげん}{装置|そうち}: backup power device\n\nSIMILAR WORDS:\n- {非常用電源|ひじょうようでんげん}: emergency power supply (emphasizes emergency use)\n- {無停電電源装置|むていでんでんげんそうち}: uninterruptible power supply (UPS)\n- {自家発電|じかはつでん}: private power generation, using one's own generator\n- モバイルバッテリー: portable battery / power bank (for personal devices)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07553_mobairubatterii",
+      "reading": "もばいるばってりー",
+      "headword": "モバイルバッテリー",
+      "label": "portable battery / power bank"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["electronics"],
-      "domain": ["technical"]
+      "semantic": [
+        "electronics"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-04-21T14:26:08Z",
-    "modified": "2026-06-15T07:57:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

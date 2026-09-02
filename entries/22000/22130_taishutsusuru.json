@@ -3,7 +3,7 @@
   "headword": "{退出|たいしゅつ}する",
   "reading": "たいしゅつする",
   "romaji": "taishutsusuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "suru verb",
   "gloss": "to leave; to exit; to withdraw",
   "definitions": [
     {
@@ -46,6 +46,43 @@
   ],
   "notes": "Composed of {退|たい} (retreat, withdraw) + {出|しゅつ} (exit, go out). A formal word for leaving a place, commonly used in institutional and official contexts such as meetings, exams, and events.\n\nCOMMON COLLOCATIONS:\n- {会場|かいじょう}を{退出|たいしゅつ}する: to leave the venue\n- {教室|きょうしつ}から{退出|たいしゅつ}する: to leave the classroom\n- {速|すみ}やかに{退出|たいしゅつ}する: to leave promptly\n- {退出|たいしゅつ}{時間|じかん}: departure time\n\nSIMILAR WORDS:\n- {出|で}る: to leave, to go out — the most common and casual word for leaving\n- {退室|たいしつ}する: to leave a room — specifically for rooms\n- {退場|たいじょう}する: to leave the stage or field — used for performers, athletes, or people being ejected\n- {撤退|てったい}する: to withdraw, to retreat — military or strategic withdrawal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00513_deru",
+      "reading": "でる",
+      "headword": "{出|で}る",
+      "label": "to leave, to go out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14353_taijou",
+      "reading": "たいじょう",
+      "headword": "{退場|たいじょう}",
+      "label": "to leave the stage or field"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25360_tettaisuru",
+      "reading": "てったいする",
+      "headword": "{撤退|てったい}する",
+      "label": "to withdraw, to retreat"
+    },
+    {
+      "type": "related",
+      "target_id": "06606_onrainkaigi",
+      "reading": "おんらいんかいぎ",
+      "headword": "オンライン{会議|かいぎ}",
+      "label": "online meeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23015_jikyosuru",
+      "reading": "じきょする",
+      "headword": "{辞去|じきょ}する",
+      "label": "to take one's leave"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +99,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T03:36:32Z",
-    "modified": "2026-04-05T03:36:32Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

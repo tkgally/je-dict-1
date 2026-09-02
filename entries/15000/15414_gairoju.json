@@ -19,7 +19,9 @@
       "english": "The leaves of the street trees have started changing color.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15414_gairoju_ex2",
@@ -27,7 +29,9 @@
       "english": "The roadside trees on this street are ginkgo trees.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15414_gairoju_ex3",
@@ -35,21 +39,42 @@
       "english": "Several street trees were knocked down by the typhoon, and the road was closed to traffic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{街路樹|がいろじゅ} refers specifically to trees planted along roads as part of urban planning. Common species used as street trees in Japan include イチョウ (ginkgo), {桜|さくら} (cherry), and ケヤキ (zelkova).\n\nCOMMON COLLOCATIONS:\n- {街路樹|がいろじゅ}の{並木|なみき} (row of street trees)\n- {街路樹|がいろじゅ}を{植|う}える (to plant street trees)\n- {街路樹|がいろじゅ}の{剪定|せんてい} (pruning of street trees)\n\nRELATED WORDS:\n- {並木道|なみきみち}: tree-lined road\n- {植樹|しょくじゅ}: tree planting\n- {緑地|りょくち}: green space",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17520_namikimichi",
+      "reading": "なみきみち",
+      "headword": "{並木道|なみきみち}",
+      "label": "tree-lined road"
+    },
+    {
+      "type": "related",
+      "target_id": "25977_ryokuchi",
+      "reading": "りょくち",
+      "headword": "{緑地|りょくち}",
+      "label": "green space"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T13:42:51Z",
-    "modified": "2026-03-06T13:42:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature"],
+      "semantic": [
+        "nature"
+      ],
       "domain": []
     }
   }

@@ -3,7 +3,7 @@
   "id": "17970_tenmetsu",
   "headword": "{点滅|てんめつ}",
   "reading": "てんめつ",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "flashing; flickering; blinking",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,32 @@
     }
   ],
   "notes": "USAGE:\nComposed of {点|てん} (to light, to turn on) and {滅|めつ} (to extinguish, to turn off). Describes the on-off cycle of lights, not continuous illumination.\n\nCOMMON COLLOCATIONS:\n- {点滅|てんめつ}する (to flash, to blink)\n- {点滅|てんめつ}{信号|しんごう} (flashing traffic signal)\n- {赤|あか}く{点滅|てんめつ}する (flash red)\n- {点滅|てんめつ}を{繰|く}り{返|かえ}す (flash repeatedly)\n\nSIMILAR WORDS:\n- {明滅|めいめつ}: flickering — more literary; describes light wavering between bright and dim\n- {点灯|てんとう}: lighting up — turning a light on (without the off cycle)\n- {消灯|しょうとう}: lights out — turning lights off",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17477_tentou",
+      "reading": "てんとう",
+      "headword": "{点灯|てんとう}",
+      "label": "lighting up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18944_shoutou",
+      "reading": "しょうとう",
+      "headword": "{消灯|しょうとう}",
+      "label": "lights out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19691_chiratsuku",
+      "reading": "ちらつく",
+      "headword": "ちらつく",
+      "label": "to flicker"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T10:06:01Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

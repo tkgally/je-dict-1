@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{学生|がくせい} means student, typically referring to someone attending school from elementary through university.\n\nSTUDENT TYPES BY LEVEL:\n- ⟦{小学生|しょうがくせい}→小学生：03069_shougakusei⟧: elementary school student\n- ⟦{中学生|ちゅうがくせい}→中学生：10973_chuugakusei⟧: junior high school student\n- ⟦{高校生|こうこうせい}→高校生：01580_koukousei⟧: high school student\n- ⟦{大学生|だいがくせい}→大学生：01653_daigakusei⟧: university student\n- ⟦{留学生|りゅうがくせい}→留学生：02986_ryuugakusei⟧: international student\n\nCOMMON EXPRESSIONS:\n- {学生|がくせい}⟦{時代|じだい}→時代：01424_jidai⟧: student days\n- ⟦{学生|がくせい}{証|しょう}→学生証：14966_gakuseishou⟧: student ID\n- {学生|がくせい}⟦{割引|わりびき}→割引：01526_waribiki⟧: student discount\n\nCONTRAST:\n- ⟦{生徒|せいと}→生徒：01051_seito⟧: pupil (more common for elementary/junior high)\n- ⟦{児童|じどう}→児童：03340_jidou⟧: child (formal, used in education contexts)",
+  "notes": "{学生|がくせい} means student, typically referring to someone attending school from elementary through university.\n\nSTUDENT TYPES BY LEVEL:\n- ⟦{小学生|しょうがくせい}→小学生：03069_shougakusei⟧: elementary school student\n- ⟦{中学生|ちゅうがくせい}→中学生：10973_chuugakusei⟧: junior high school student\n- ⟦{高校生|こうこうせい}→高校生：01580_koukousei⟧: high school student\n- ⟦{大学生|だいがくせい}→大学生：01653_daigakusei⟧: university student\n- ⟦{留学生|りゅうがくせい}→留学生：02986_ryuugakusei⟧: international student\n\nCOMMON EXPRESSIONS:\n- {学生|がくせい}⟦{時代|じだい}→時代：01424_jidai⟧: student days\n- ⟦{学生|がくせい}{証|しょう}→学生証：14966_gakuseishou⟧: student ID\n- {学生|がくせい}⟦{割引|わりびき}→割引：01526_waribiki⟧: student discount\n\nSIMILAR WORDS:\n- ⟦{生徒|せいと}→生徒：01051_seito⟧: pupil (more common for elementary/junior high)\n- ⟦{児童|じどう}→児童：03340_jidou⟧: child (formal, used in education contexts)",
   "cross_references": [
     {
       "type": "related",
@@ -78,11 +78,53 @@
       "headword": "{学校|がっこう}",
       "target_id": "00055_gakkou",
       "label": "school"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01051_seito",
+      "reading": "せいと",
+      "headword": "{生徒|せいと}",
+      "label": "pupil"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03340_jidou",
+      "reading": "じどう",
+      "headword": "{児童|じどう}",
+      "label": "child"
+    },
+    {
+      "type": "related",
+      "target_id": "01987_manabu",
+      "reading": "まなぶ",
+      "headword": "{学|まな}ぶ",
+      "label": "to learn, to study"
+    },
+    {
+      "type": "related",
+      "target_id": "01996_gakubu",
+      "reading": "がくぶ",
+      "headword": "〜{学部|がくぶ}",
+      "label": "faculty, department (university)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22096_gakushuusha",
+      "reading": "がくしゅうしゃ",
+      "headword": "{学習者|がくしゅうしゃ}",
+      "label": "learner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25579_gakuto",
+      "reading": "がくと",
+      "headword": "{学徒|がくと}",
+      "label": "student"
     }
   ],
   "metadata": {
     "created": "2026-01-07T15:29:31Z",
-    "modified": "2026-05-12T13:16:23Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

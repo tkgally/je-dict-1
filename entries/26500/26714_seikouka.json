@@ -3,7 +3,7 @@
   "headword": "{精巧化|せいこうか}",
   "reading": "せいこうか",
   "romaji": "seikouka",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "increasing sophistication; becoming more elaborate",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Composed of {精巧|せいこう} (elaborate/exquisite) and {化|か} (transformation/-ization). The suffix {化|か} indicates a process of change or becoming. Often appears in news and technical writing about evolving threats, technologies, or techniques.\n\nCOMMON COLLOCATIONS:\n- {精巧化|せいこうか}が{進|すす}む: sophistication advances\n- {精巧化|せいこうか}する: to become more sophisticated\n- {手口|てぐち}の{精巧化|せいこうか}: increasing sophistication of methods\n\nSIMILAR WORDS:\n- {高度化|こうどか}: advancement/becoming more advanced — broader scope\n- {巧妙化|こうみょうか}: becoming more cunning — carries a negative nuance (trickery)\n- {複雑化|ふくざつか}: becoming more complex — focuses on complexity rather than refinement\n- {精巧|せいこう}: elaborate/exquisite — the base adjective",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21279_koudoka",
+      "reading": "こうどか",
+      "headword": "{高度化|こうどか}",
+      "label": "advancement/becoming more advanced"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20759_koumyouka",
+      "reading": "こうみょうか",
+      "headword": "{巧妙化|こうみょうか}",
+      "label": "becoming more cunning"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21265_fukuzatsuka",
+      "reading": "ふくざつか",
+      "headword": "{複雑化|ふくざつか}",
+      "label": "becoming more complex"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +76,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "change",
         "technology"
@@ -61,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-04T14:14:47Z",
-    "modified": "2026-05-04T14:14:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

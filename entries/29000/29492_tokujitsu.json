@@ -3,7 +3,7 @@
   "headword": "{篤実|とくじつ}",
   "reading": "とくじつ",
   "romaji": "tokujitsu",
-  "part_of_speech": "na-adjective",
+  "part_of_speech": "na-adjective, noun",
   "gloss": "sincere; faithful; honest and warm-hearted",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "29492_tokujitsu_ex1",
       "japanese": "{篤実|とくじつ}な{人柄|ひとがら}。",
       "english": "a sincere character.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29492_tokujitsu_ex2",
       "japanese": "{彼|かれ}は{篤実|とくじつ}で{信頼|しんらい}できる{人物|じんぶつ}だ。",
       "english": "He is a sincere and trustworthy person.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "29492_tokujitsu_ex3",
       "japanese": "{温厚|おんこう}{篤実|とくじつ}な{彼|かれ}は、{周|まわ}りの{人|ひと}から{慕|した}われている。",
       "english": "Warm and sincere, he is well-loved by those around him.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {篤|とく} (cordial, earnest) + {実|じつ} (truth, sincerity). A formal, literary word praising someone's honest, faithful character.\n\nUSAGE:\n- As a na-adjective: {篤実|とくじつ}な{人物|じんぶつ} (a sincere person)\n- Common in the four-character idiom {温厚篤実|おんこうとくじつ} (gentle and sincere)\n\nSIMILAR WORDS:\n- {誠実|せいじつ}: sincere; honest — a far more common everyday word\n- {実直|じっちょく}: honest and straightforward — close in meaning, also somewhat formal",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14211_seijitsu",
+      "reading": "せいじつ",
+      "headword": "{誠実|せいじつ}",
+      "label": "sincere"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09186_jicchoku",
+      "reading": "じっちょく",
+      "headword": "{実直|じっちょく}",
+      "label": "honest and straightforward"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["personality"],
+      "politeness": "plain",
+      "semantic": [
+        "personality"
+      ],
       "domain": []
     },
     "created": "2026-06-26T09:20:43Z",
-    "modified": "2026-06-26T09:20:43Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

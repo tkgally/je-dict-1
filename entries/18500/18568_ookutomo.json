@@ -19,7 +19,9 @@
       "english": "It's probably ten people at most.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18568_ookutomo_ex2",
@@ -27,7 +29,9 @@
       "english": "The cost will come to 50,000 yen at most.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18568_ookutomo_ex3",
@@ -35,21 +39,42 @@
       "english": "It should be finished in three days at most.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Sets an upper limit on a quantity. Formed from {多|おお}い (many) in its く form + とも (even if). Literally \"even if many.\"\n\nUSAGE:\nPlaced before the quantity being limited. More formal and written than {多|おお}くても, which is the everyday spoken equivalent.\n\nCOMMON PATTERNS:\n- {多|おお}くとも + number: at most [number]\n- {多|おお}くとも + time: at most [time period]\n\nSIMILAR WORDS:\n- {多|おお}くても: at most (casual, spoken)\n- せいぜい: at most (casual, sometimes dismissive)\n- {最大|さいだい}で: at maximum (factual)\n\nOPPOSITE:\n- {少|すく}なくとも: at least (sets a lower limit)",
-  "cross_references": [],
+  "notes": "Sets an upper limit on a quantity. Formed from {多|おお}い (many) in its く form + とも (even if). Literally \"even if many.\"\n\nUSAGE:\nPlaced before the quantity being limited. More formal and written than {多|おお}くても, which is the everyday spoken equivalent.\n\nCOMMON PATTERNS:\n- {多|おお}くとも + number: at most [number]\n- {多|おお}くとも + time: at most [time period]\n\nSIMILAR WORDS:\n- {多|おお}くても: at most (casual, spoken)\n- せいぜい: at most (casual, sometimes dismissive)\n- {最大|さいだい}で: at maximum (factual)\n- {少|すく}なくとも: at least (sets a lower limit)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03288_seizei",
+      "reading": "せいぜい",
+      "headword": "{精々|せいぜい}",
+      "label": "at most"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03364_sukunakutomo",
+      "reading": "すくなくとも",
+      "headword": "{少|すく}なくとも",
+      "label": "at least"
+    }
+  ],
   "metadata": {
     "created": "2026-03-22T08:58:28Z",
-    "modified": "2026-03-27T12:24:56Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["quantity"],
+      "semantic": [
+        "quantity"
+      ],
       "domain": []
     }
   }

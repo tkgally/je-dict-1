@@ -17,7 +17,9 @@
       "id": "18920_hiwari_ex1",
       "japanese": "{家賃|やちん}は{日割|ひわ}りで{計算|けいさん}する。",
       "english": "The rent is calculated on a daily basis.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18920_hiwari_ex2",
       "japanese": "{月|つき}の{途中|とちゅう}で{入居|にゅうきょ}したので{日割|ひわ}り{家賃|やちん}になった。",
       "english": "Since I moved in mid-month, the rent was prorated by the day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,40 @@
       "id": "18920_hiwari_ex3",
       "japanese": "{給料|きゅうりょう}は{日割|ひわ}り{計算|けいさん}で{支払|しはら}われた。",
       "english": "The salary was paid based on a daily prorated calculation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {日|ひ} (day) + {割|わ}り (division, rate). Common compounds: {日割|ひわ}り{家賃|やちん} (prorated rent), {日割|ひわ}り{計算|けいさん} (daily proration), {日割|ひわ}り{料金|りょうきん} (daily rate charge). Frequently encountered when moving into or out of an apartment mid-month, or when starting/ending a subscription partway through a billing period. Related: {月割|つきわ}り (monthly rate), {時間割|じかんわり} (timetable/schedule).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26344_tsukiwari",
+      "reading": "つきわり",
+      "headword": "{月割|つきわ}り",
+      "label": "monthly installment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-03-23T09:28:25Z",
-    "modified": "2026-03-23T09:28:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

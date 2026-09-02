@@ -18,7 +18,9 @@
       "english": "Please enter the email subject line.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11552_kenmei_ex2",
@@ -26,7 +28,9 @@
       "english": "I put the meeting date in the subject line.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11552_kenmei_ex3",
@@ -34,23 +38,46 @@
       "english": "Emails with a blank subject line are sometimes mistaken for spam.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Primarily used in the context of email, where it refers to the subject field. Also used in business and administrative contexts for the title or heading of a case or matter. In Japanese business culture, clear and concise subject lines are considered important for professional correspondence.\n\nCOMMON COLLOCATIONS:\n・メールの{件名|けんめい} (email subject line)\n・{件名|けんめい}を{入力|にゅうりょく}する (enter the subject line)\n・{件名|けんめい}を{変更|へんこう}する (change the subject line)\n・{件名|けんめい}{欄|らん} (subject field)",
-  "cross_references": [],
+  "notes": "Primarily used in the context of email, where it refers to the subject field. Also used in business and administrative contexts for the title or heading of a case or matter. In Japanese business culture, clear and concise subject lines are considered important for professional correspondence.\n\nCOMMON COLLOCATIONS:\n- メールの{件名|けんめい} (email subject line)\n- {件名|けんめい}を{入力|にゅうりょく}する (enter the subject line)\n- {件名|けんめい}を{変更|へんこう}する (change the subject line)\n- {件名|けんめい}{欄|らん} (subject field)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03421_daimei",
+      "reading": "だいめい",
+      "headword": "{題名|だいめい}",
+      "label": "title (of a work)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14099_hyoudai",
+      "reading": "ひょうだい",
+      "headword": "{表題|ひょうだい}",
+      "label": "title, heading"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T13:16:08Z",
-    "modified": "2026-02-17T13:16:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["communication"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

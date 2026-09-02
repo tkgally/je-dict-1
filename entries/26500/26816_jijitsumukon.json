@@ -3,7 +3,7 @@
   "headword": "{事実無根|じじつむこん}",
   "reading": "じじつむこん",
   "romaji": "jijitsumukon",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "completely groundless; utterly unfounded; baseless",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "A formal four-character compound ({四字熟語|よじじゅくご}) frequently used in news, legal contexts, and public denials. It is a strong, emphatic way to deny something — stronger than simply saying {嘘|うそ} (lie) because it asserts a complete absence of factual basis.\n\nCOMMON COLLOCATIONS:\n- {事実無根|じじつむこん}の{噂|うわさ}: a baseless rumor\n- {事実無根|じじつむこん}の{報道|ほうどう}: groundless reporting\n- {事実無根|じじつむこん}であると{主張|しゅちょう}する: to claim something is groundless\n- {事実無根|じじつむこん}の{誹謗中傷|ひぼうちゅうしょう}: baseless slander\n\nSIMILAR WORDS:\n- {根拠|こんきょ}がない: has no basis — simpler and less formal\n- {根|ね}も{葉|は}もない: completely unfounded — idiomatic, used in conversation\n- {荒唐無稽|こうとうむけい}: absurd, preposterous — emphasizes ridiculousness rather than falsehood\n- {濡|ぬ}れ{衣|ぎぬ}: false accusation — focuses on being wrongly blamed\n\nETYMOLOGY:\n{事実|じじつ} (fact) + {無根|むこん} (without root/basis). Literally: \"fact-rootless\" — there is no factual root to the claim.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20624_nemohamonai",
+      "reading": "ねもはもない",
+      "headword": "{根|ね}も{葉|は}もない",
+      "label": "completely unfounded"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14093_koutoumukei",
+      "reading": "こうとうむけい",
+      "headword": "{荒唐無稽|こうとうむけい}",
+      "label": "absurd, preposterous"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,6 +77,6 @@
       ]
     },
     "created": "2026-05-05T12:12:41Z",
-    "modified": "2026-05-05T12:12:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

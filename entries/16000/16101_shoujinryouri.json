@@ -19,7 +19,9 @@
       "english": "I ate Buddhist vegetarian cuisine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16101_shoujinryouri_ex2",
@@ -27,7 +29,9 @@
       "english": "You can enjoy Buddhist vegetarian cuisine at this temple.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16101_shoujinryouri_ex3",
@@ -35,20 +39,56 @@
       "english": "I had authentic Buddhist vegetarian cuisine at a long-established restaurant in Kyoto.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{精進料理|しょうじんりょうり} is a traditional Japanese cuisine rooted in Buddhist practice. The word {精進|しょうじん} means devotion or abstinence (from meat and strong-flavored vegetables), and {料理|りょうり} means cooking. Many temples, especially in Kyoto and on Mount Koya ({高野山|こうやさん}), serve this cuisine to visitors.\n\nCOMMON COLLOCATIONS:\n- {精進料理|しょうじんりょうり}の{店|みせ} (a restaurant serving Buddhist cuisine)\n- {精進料理|しょうじんりょうり}を{味|あじ}わう (to savor Buddhist cuisine)\n- {本格的|ほんかくてき}な{精進料理|しょうじんりょうり} (authentic Buddhist cuisine)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22194_saishoku",
+      "reading": "さいしょく",
+      "headword": "{菜食|さいしょく}",
+      "label": "vegetarian diet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23298_bejitarian",
+      "reading": "べじたりあん",
+      "headword": "ベジタリアン",
+      "label": "vegetarian"
+    },
+    {
+      "type": "related",
+      "target_id": "24952_shoujinbentou",
+      "reading": "しょうじんべんとう",
+      "headword": "{精進弁当|しょうじんべんとう}",
+      "label": "vegetarian lunch box"
+    },
+    {
+      "type": "related",
+      "target_id": "27198_yasairyouri",
+      "reading": "やさいりょうり",
+      "headword": "{野菜料理|やさいりょうり}",
+      "label": "vegetable dish"
+    }
+  ],
   "metadata": {
     "created": "2026-03-10T00:05:43Z",
-    "modified": "2026-03-10T00:05:43Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "religion"]
+      "semantic": [
+        "food",
+        "religion"
+      ]
     }
   }
 }

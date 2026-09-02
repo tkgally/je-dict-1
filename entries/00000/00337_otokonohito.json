@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{男|おとこ}の{人|ひと} is the standard polite way to refer to an adult male in everyday conversation. It is neutral and appropriate in most situations.\n\nSIMILAR WORDS:\n- ⟦{男|おとこ}→男：00561_otoko⟧: man (more direct, slightly casual)\n- ⟦{男性|だんせい}→男性：01655_dansei⟧: male (formal, used in official/medical/survey contexts)\n- ⟦{紳士|しんし}→紳士：18022_shinshi⟧: gentleman (respectful, formal)\n- ⟦{男子|だんし}→男子：03425_danshi⟧: boy, male (used in school/sports contexts)\n\nUSAGE:\nUsed when describing or referring to men you do not know personally. In casual speech, {男|おとこ}の{人|ひと} is more natural than ⟦{男性|だんせい}→男性：01655_dansei⟧, which sounds stiff. When talking about someone specific, a name or title is preferred.\n\nOPPOSITE:\n⟦{女|おんな}の{人|ひと}→女の人：noentry⟧ (woman) follows the same pattern.",
+  "notes": "{男|おとこ}の{人|ひと} is the standard polite way to refer to an adult male in everyday conversation. It is neutral and appropriate in most situations.\n\nSIMILAR WORDS:\n- ⟦{男|おとこ}→男：00561_otoko⟧: man (more direct, slightly casual)\n- ⟦{男性|だんせい}→男性：01655_dansei⟧: male (formal, used in official/medical/survey contexts)\n- ⟦{紳士|しんし}→紳士：18022_shinshi⟧: gentleman (respectful, formal)\n- ⟦{男子|だんし}→男子：03425_danshi⟧: boy, male (used in school/sports contexts)\n⟦{女|おんな}の{人|ひと}→女の人：noentry⟧ (woman) follows the same pattern.\n\nUSAGE:\nUsed when describing or referring to men you do not know personally. In casual speech, {男|おとこ}の{人|ひと} is more natural than ⟦{男性|だんせい}→男性：01655_dansei⟧, which sounds stiff. When talking about someone specific, a name or title is preferred.",
   "cross_references": [
     {
       "type": "antonym",
@@ -77,11 +77,32 @@
       "reading": "おとこ",
       "headword": "{男|おとこ}",
       "label": "man (casual)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01655_dansei",
+      "reading": "だんせい",
+      "headword": "{男性|だんせい}",
+      "label": "male"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18022_shinshi",
+      "reading": "しんし",
+      "headword": "{紳士|しんし}",
+      "label": "gentleman"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03425_danshi",
+      "reading": "だんし",
+      "headword": "{男子|だんし}",
+      "label": "boy, male"
     }
   ],
   "metadata": {
     "created": "2026-01-12T23:49:28Z",
-    "modified": "2026-05-10T18:08:33Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

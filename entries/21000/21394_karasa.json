@@ -17,7 +17,9 @@
       "id": "21394_karasa_ex1",
       "japanese": "{辛|から}さを{調整|ちょうせい}できますか。",
       "english": "Can you adjust the spiciness?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21394_karasa_ex2",
       "japanese": "このカレーは{辛|から}さが{控|ひか}えめで{食|た}べやすい。",
       "english": "This curry has mild spiciness and is easy to eat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "21394_karasa_ex3",
       "japanese": "{唐辛子|とうがらし}の{辛|から}さは{品種|ひんしゅ}によって{大|おお}きく{異|こと}なり、マイルドなものから{激辛|げきから}までさまざまだ。",
       "english": "The spiciness of chili peppers varies greatly depending on the variety, ranging from mild to extremely hot.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The noun form of the adjective {辛|から}い (spicy/hot). Describes the quality or degree of spiciness in food. Formed by dropping the い ending and adding さ.\n\nCOMMON COLLOCATIONS:\n- {辛|から}さを{調整|ちょうせい}する: to adjust the spiciness\n- {辛|から}さ{控|ひか}えめ: mild spiciness\n- {辛|から}さが{足|た}りない: not spicy enough\n- {辛|から}さレベル: spiciness level\n\nUSAGE:\nRestaurants often let customers choose their preferred {辛|から}さ level. Common scales include {甘口|あまくち} (mild), {中辛|ちゅうから} (medium), {辛口|からくち} (hot), and {激辛|げきから} (extremely hot).\n\nSIMILAR WORDS:\n- {甘|あま}さ: sweetness — the noun form of {甘|あま}い\n- {苦|にが}さ: bitterness — the noun form of {苦|にが}い\n- {酸|す}っぱさ: sourness — the noun form of {酸|す}っぱい",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21344_amasa",
+      "reading": "あまさ",
+      "headword": "{甘|あま}さ",
+      "label": "sweetness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14292_karami",
+      "reading": "からみ",
+      "headword": "{辛味|からみ}",
+      "label": "spiciness"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-04-02T02:46:34Z",
-    "modified": "2026-04-02T02:46:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

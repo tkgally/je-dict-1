@@ -3,7 +3,7 @@
   "id": "12510_gojitsu",
   "headword": "{後日|ごじつ}",
   "reading": "ごじつ",
-  "part_of_speech": "noun / adverb",
+  "part_of_speech": "noun, adverb",
   "gloss": "another day, at a later date",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "I will give a detailed explanation at a later date.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12510_gojitsu_ex2",
@@ -27,7 +29,9 @@
       "english": "I will contact you again on another day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12510_gojitsu_ex3",
@@ -35,22 +39,46 @@
       "english": "That fact came to light at a later time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal expression used in both spoken and written Japanese. Common in business communication and polite speech. As an adverb, it modifies verbs directly ({後日|ごじつ}{連絡|れんらく}する). As a noun, it appears with particles ({後日|ごじつ}に, {後日|ごじつ}になって).\n\nCOMMON PATTERNS:\n- {後日|ごじつ}{改|あらた}めて: on another occasion (polite set phrase)\n- {後日|ごじつ}{連絡|れんらく}する: to contact at a later date\n- {後日談|ごじつだん}: sequel, epilogue, follow-up story",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21051_nochihodo",
+      "reading": "のちほど",
+      "headword": "{後程|のちほど}",
+      "label": "later on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21806_betsujitsu",
+      "reading": "べつじつ",
+      "headword": "{別|べつ}{日|じつ}",
+      "label": "another day"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T11:08:38Z",
-    "modified": "2026-02-21T11:08:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adverb"],
+      "pos": [
+        "noun",
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-general"],
-      "style": ["written"]
+      "semantic": [
+        "time-general"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

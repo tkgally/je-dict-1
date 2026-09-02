@@ -19,7 +19,9 @@
       "english": "To search by keyword.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10832_kiiwaado_ex2",
@@ -27,7 +29,9 @@
       "english": "The keyword of this article is 'sustainable.'",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10832_kiiwaado_ex3",
@@ -35,21 +39,70 @@
       "english": "In the interview, I used 'teamwork' as a keyword to make my appeal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "From English \"keyword.\" Used in two main contexts: digital (search terms, SEO) and general discussion (identifying the central idea or theme of a topic).\n\nCOMMON PATTERNS:\n- キーワードで{検索|けんさく}する (to search by keyword)\n- キーワードを{入力|にゅうりょく}する (to enter a keyword)\n- キーワードは〜だ (the keyword/key concept is ~)\n- 〜をキーワードに (with ~ as the keyword/theme)\n\nCOMMON COMPOUNDS:\n- キーワード{検索|けんさく}: keyword search\n- {関連|かんれん}キーワード: related keywords\n- {検索|けんさく}キーワード: search keyword/query\n\nSIMILAR WORDS:\n- {鍵|かぎ}: key (physical or metaphorical — {鍵|かぎ}となる{言葉|ことば})\n- ポイント: point, key element (more general)\n- {要点|ようてん}: main point, gist (formal, for summaries)",
-  "cross_references": [],
+  "notes": "From English \"keyword.\" Used in two main contexts: digital (search terms, SEO) and general discussion (identifying the central idea or theme of a topic).\n\nCOMMON PATTERNS:\n- キーワードで{検索|けんさく}する (to search by keyword)\n- キーワードを{入力|にゅうりょく}する (to enter a keyword)\n- キーワードは〜だ (the keyword/key concept is ~)\n- 〜をキーワードに (with ~ as the keyword/theme)\n\nCOMPOUNDS:\n- キーワード{検索|けんさく}: keyword search\n- {関連|かんれん}キーワード: related keywords\n- {検索|けんさく}キーワード: search keyword/query\n\nSIMILAR WORDS:\n- {鍵|かぎ}: key (physical or metaphorical — {鍵|かぎ}となる{言葉|ことば})\n- ポイント: point, key element (more general)\n- {要点|ようてん}: main point, gist (formal, for summaries)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02189_kagi",
+      "reading": "かぎ",
+      "headword": "{鍵|かぎ}",
+      "label": "key (physical or metaphorical"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11283_pointo",
+      "reading": "ぽいんと",
+      "headword": "ポイント",
+      "label": "point, key element"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01668_youten",
+      "reading": "ようてん",
+      "headword": "{要点|ようてん}",
+      "label": "main point, gist"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26277_kagigo",
+      "reading": "かぎご",
+      "headword": "{鍵語|かぎご}",
+      "label": "keyword"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29322_juuyougo",
+      "reading": "じゅうようご",
+      "headword": "{重要語|じゅうようご}",
+      "label": "key word"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30063_sakuingo",
+      "reading": "さくいんご",
+      "headword": "{索引語|さくいんご}",
+      "label": "index term"
+    }
+  ],
   "metadata": {
     "created": "2026-02-10T08:34:26Z",
-    "modified": "2026-03-31T01:51:57Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

@@ -2,7 +2,7 @@
   "id": "04561_kaiko",
   "headword": "{解雇|かいこ}",
   "reading": "かいこ",
-  "part_of_speech": "noun/suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "dismissal",
   "conjugation": {
     "type": "suru",
@@ -162,11 +162,39 @@
       "reading": "かいにん",
       "headword": "{解任|かいにん}",
       "label": "for officials/officers"
+    },
+    {
+      "type": "related",
+      "target_id": "04688_koukaku",
+      "reading": "こうかく",
+      "headword": "{降格|こうかく}",
+      "label": "demotion"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18807_menshoku",
+      "reading": "めんしょく",
+      "headword": "{免職|めんしょく}",
+      "label": "dismissal from a post"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25499_kaininsuru",
+      "reading": "かいにんする",
+      "headword": "{解任|かいにん}する",
+      "label": "to dismiss"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29397_himen",
+      "reading": "ひめん",
+      "headword": "{罷免|ひめん}",
+      "label": "dismissal"
     }
   ],
   "metadata": {
     "created": "2026-01-14T19:02:47Z",
-    "modified": "2026-06-01T14:22:47Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

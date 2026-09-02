@@ -19,7 +19,9 @@
       "english": "I'll be entering the workforce starting in April.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15310_shinshakaijin_ex2",
@@ -27,7 +29,9 @@
       "english": "The first month is tough for new members of the workforce.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15310_shinshakaijin_ex3",
@@ -35,21 +39,43 @@
       "english": "Many business etiquette books aimed at new members of the workforce are published.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "CULTURE:\n{新社会人|しんしゃかいじん} reflects Japan's synchronized hiring system, where most companies hire fresh graduates ({新卒|しんそつ}) and start them on April 1st. The spring season features many advertisements and products marketed to {新社会人|しんしゃかいじん}, from suits and business bags to self-help books.\n\nCOMPONENTS:\n{新|しん} (new) + {社会人|しゃかいじん} (member of society / working adult). The term {社会人|しゃかいじん} itself distinguishes working adults from students.\n\nSIMILAR TERMS:\n- {新入社員|しんにゅうしゃいん} (new employee — more specific to a company)\n- {新卒|しんそつ} (fresh graduate)\n- {社会人|しゃかいじん}{一年生|いちねんせい} (first-year working adult — informal)",
-  "cross_references": [],
+  "notes": "CULTURAL NOTE:\n{新社会人|しんしゃかいじん} reflects Japan's synchronized hiring system, where most companies hire fresh graduates ({新卒|しんそつ}) and start them on April 1st. The spring season features many advertisements and products marketed to {新社会人|しんしゃかいじん}, from suits and business bags to self-help books.\n\nETYMOLOGY:\n{新|しん} (new) + {社会人|しゃかいじん} (member of society / working adult). The term {社会人|しゃかいじん} itself distinguishes working adults from students.\n\nSIMILAR WORDS:\n- {新入社員|しんにゅうしゃいん} (new employee — more specific to a company)\n- {新卒|しんそつ} (fresh graduate)\n- {社会人|しゃかいじん}{一年生|いちねんせい} (first-year working adult — informal)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15536_shinnyuushain",
+      "reading": "しんにゅうしゃいん",
+      "headword": "{新入社員|しんにゅうしゃいん}",
+      "label": "new employee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12871_shinsotsu",
+      "reading": "しんそつ",
+      "headword": "{新卒|しんそつ}",
+      "label": "fresh graduate"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T08:58:53Z",
-    "modified": "2026-07-16T12:18:52Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work", "society"]
+      "semantic": [
+        "work",
+        "society"
+      ]
     }
   }
 }

@@ -2,7 +2,7 @@
   "id": "01643_sotsugyou",
   "headword": "{卒業|そつぎょう}",
   "reading": "そつぎょう",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "graduation",
   "conjugation": {
     "type": "suru",
@@ -148,11 +148,32 @@
       "reading": "にゅうがくする",
       "headword": "{入学|にゅうがく}する",
       "label": "school enrollment"
+    },
+    {
+      "type": "related",
+      "target_id": "01055_shougakkou",
+      "reading": "しょうがっこう",
+      "headword": "{小学校|しょうがっこう}",
+      "label": "elementary school"
+    },
+    {
+      "type": "related",
+      "target_id": "04861_rishuu",
+      "reading": "りしゅう",
+      "headword": "{履修|りしゅう}",
+      "label": "taking a course"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27798_sudatsu",
+      "reading": "すだつ",
+      "headword": "{巣立|すだ}つ",
+      "label": "to leave the nest"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:02:05Z",
-    "modified": "2026-05-16T14:16:05Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

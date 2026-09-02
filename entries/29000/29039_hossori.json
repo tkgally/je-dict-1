@@ -3,7 +3,7 @@
   "headword": "ほっそり",
   "reading": "ほっそり",
   "romaji": "hossori",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, onomatopoeia",
   "gloss": "slender; slim; willowy",
   "schema_version": "2.0",
   "definitions": [
@@ -18,7 +18,9 @@
       "id": "29039_hossori_ex1",
       "japanese": "ほっそりした{腰|こし}。",
       "english": "A slender waist.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -26,29 +28,62 @@
       "id": "29039_hossori_ex2",
       "japanese": "{彼女|かのじょ}はほっそりとしていて{背|せ}が{高|たか}い。",
       "english": "She has a slender, tall figure.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "29039_hossori_ex3",
-      "japanese":" {産後|さんご}もほっそりした{スタイル|すたいる}を{保|たも}っているのはすごいと{思|おも}う。",
+      "japanese": " {産後|さんご}もほっそりしたスタイルを{保|たも}っているのはすごいと{思|おも}う。",
       "english": "I think it's amazing that she has maintained her slim figure even after giving birth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Mimetic adverb with a positive nuance. Unlike simply 細い (thin), ほっそり implies a graceful, aesthetically pleasing slenderness.\n\nCOMMON COLLOCATIONS:\n- ほっそりした{体型|たいけい} — a slender build\n- ほっそりとしている — to be slim/slender (state)\n- ほっそりした{指|ゆび} — slender fingers\n\nSIMILAR WORDS:\n- スリム: slim (loanword; neutral to positive, often used for clothing fit)\n- {細|ほそ}い: thin, slender (neutral; can describe objects, not just people)\n- やせた: thin, skinny (can carry a negative nuance of being too thin)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02962_hosoi",
+      "reading": "ほそい",
+      "headword": "{細|ほそ}い",
+      "label": "thin, slender (neutral"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20121_suratto",
+      "reading": "すらっと",
+      "headword": "すらっと",
+      "label": "slender"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20744_surari",
+      "reading": "すらり",
+      "headword": "すらり",
+      "label": "slenderly"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "onomatopoeia"],
+      "pos": [
+        "adverb",
+        "onomatopoeia"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive", "body-part"]
+      "semantic": [
+        "descriptive",
+        "body-part"
+      ]
     },
     "created": "2026-06-09T06:05:49Z",
-    "modified": "2026-06-09T06:05:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

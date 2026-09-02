@@ -17,7 +17,9 @@
       "id": "24343_shinyakinmu_ex1",
       "japanese": "{今週|こんしゅう}は{深夜勤務|しんやきんむ}が{多|おお}い。",
       "english": "I have a lot of night shifts this week.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24343_shinyakinmu_ex2",
       "japanese": "{深夜勤務|しんやきんむ}には{割増|わりまし}{賃金|ちんぎん}が{支払|しはら}われる。",
       "english": "Premium pay is given for late-night work.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "24343_shinyakinmu_ex3",
       "japanese": "コンビニで{深夜勤務|しんやきんむ}をしていたので、{生活|せいかつ}リズムが{崩|くず}れてしまった。",
       "english": "I was doing late-night shifts at a convenience store, so my daily rhythm fell apart.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Combines {深夜|しんや} (late at night) and {勤務|きんむ} (work, duty). A formal compound used in workplace and labor contexts.\n\nCOMMON COLLOCATIONS:\n- {深夜勤務|しんやきんむ}{手当|てあて}: late-night work allowance\n- {深夜勤務|しんやきんむ}{明|あ}け: after finishing a night shift\n- {深夜勤務|しんやきんむ}が{続|つづ}く: night shifts continue\n- {深夜勤務|しんやきんむ}{禁止|きんし}: prohibition of late-night work\n\nUSAGE:\nCommon in industries that operate around the clock — convenience stores, hospitals, factories, transportation, and security. Japanese labor law ({労働基準法|ろうどうきじゅんほう}) mandates a 25% wage premium for work performed between 10 PM and 5 AM.\n\nSIMILAR WORDS:\n- {夜勤|やきん}: night shift — shorter and more colloquial, the most common word for working at night\n- {残業|ざんぎょう}: overtime — working beyond regular hours, not necessarily at night\n- {徹夜|てつや}: staying up all night — can be for work, study, or other purposes; emphasizes not sleeping",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09549_yakin",
+      "reading": "やきん",
+      "headword": "{夜勤|やきん}",
+      "label": "night shift"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01071_zangyou",
+      "reading": "ざんぎょう",
+      "headword": "{残業|ざんぎょう}",
+      "label": "overtime"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03552_tetsuya",
+      "reading": "てつや",
+      "headword": "{徹夜|てつや}",
+      "label": "staying up all night"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     },
     "created": "2026-04-18T14:35:11Z",
-    "modified": "2026-04-18T14:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

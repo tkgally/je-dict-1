@@ -16,7 +16,9 @@
       "id": "08166_sakamiti_ex1",
       "japanese": "{坂道|さかみち}を{登|のぼ}る。",
       "english": "To climb a slope.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "08166_sakamiti_ex2",
       "japanese": "この{坂道|さかみち}は{急|きゅう}だ。",
       "english": "This slope is steep.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "08166_sakamiti_ex3",
       "japanese": "{自転車|じてんしゃ}で{坂道|さかみち}を{下|くだ}る。",
       "english": "To go down a hill by bicycle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -40,7 +46,9 @@
       "id": "08166_sakamiti_ex4",
       "japanese": "{長|なが}い{坂道|さかみち}を{歩|ある}いて{疲|つか}れた。",
       "english": "I got tired from walking up the long hill.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -48,20 +56,65 @@
       "id": "08166_sakamiti_ex5",
       "japanese": "{学校|がっこう}までの{道|みち}には{坂道|さかみち}が{多|おお}い。",
       "english": "There are many slopes on the way to school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "COMMON PATTERNS:\n- {坂道|さかみち}を{登|のぼ}る (to climb a slope)\n- {坂道|さかみち}を{下|くだ}る / {下|お}りる (to go down a slope)\n- {急|きゅう}な{坂道|さかみち} (steep slope)\n- {緩|ゆる}やかな{坂道|さかみち} (gentle slope)\n\nRELATED WORDS:\n- {坂|さか} (slope, hill)\n- {上|のぼ}り{坂|ざか} (uphill slope)\n- {下|くだ}り{坂|ざか} (downhill slope)\n- {峠|とうげ} (mountain pass)\n\nNOTE:\nJapan has many famous named slopes ({坂|さか}), especially in Tokyo and other hilly cities.",
+  "notes": "COMMON PATTERNS:\n- {坂道|さかみち}を{登|のぼ}る (to climb a slope)\n- {坂道|さかみち}を{下|くだ}る / {下|お}りる (to go down a slope)\n- {急|きゅう}な{坂道|さかみち} (steep slope)\n- {緩|ゆる}やかな{坂道|さかみち} (gentle slope)\n\nRELATED WORDS:\n- {坂|さか} (slope, hill)\n- {上|のぼ}り{坂|ざか} (uphill slope)\n- {下|くだ}り{坂|ざか} (downhill slope)\n- {峠|とうげ} (mountain pass)\n\nUSAGE:\nJapan has many famous named slopes ({坂|さか}), especially in Tokyo and other hilly cities.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16376_noborizaka",
+      "reading": "のぼりざか",
+      "headword": "{上|のぼ}り{坂|ざか}",
+      "label": "uphill slope"
+    },
+    {
+      "type": "related",
+      "target_id": "16377_kudarizaka",
+      "reading": "くだりざか",
+      "headword": "{下|くだ}り{坂|ざか}",
+      "label": "downhill slope"
+    },
+    {
+      "type": "related",
+      "target_id": "02227_touge",
+      "reading": "とうげ",
+      "headword": "{峠|とうげ}",
+      "label": "mountain pass"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22336_kyuuzaka",
+      "reading": "きゅうざか",
+      "headword": "{急坂|きゅうざか}",
+      "label": "steep slope"
+    },
+    {
+      "type": "related",
+      "target_id": "23600_tougemichi",
+      "reading": "とうげみち",
+      "headword": "{峠道|とうげみち}",
+      "label": "mountain pass road"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["terrain", "roads"]
+      "politeness": "plain",
+      "semantic": [
+        "terrain",
+        "roads"
+      ]
     },
     "created": "2026-01-25T07:33:27Z",
-    "modified": "2026-01-25T07:33:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

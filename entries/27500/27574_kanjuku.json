@@ -3,7 +3,7 @@
   "headword": "{完熟|かんじゅく}",
   "reading": "かんじゅく",
   "romaji": "kanjuku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "full ripeness; fully ripened",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Compound of {完|かん} (complete) + {熟|じゅく} (ripen, mature). Used both as a noun and as a する verb ({完熟|かんじゅく}する, 'to become fully ripe'); the prenominal form {完熟|かんじゅく}の or {完熟|かんじゅく}した modifies the produce.\n\nCOMMON COLLOCATIONS:\n- {完熟|かんじゅく}トマト: fully ripe tomato\n- {完熟|かんじゅく}マンゴー: fully ripe mango\n- {完熟|かんじゅく}{果実|かじつ}: ripe fruit (marketing phrase)\n- {完熟|かんじゅく}する: to ripen fully\n\nSIMILAR WORDS:\n- {熟|じゅく}す: to ripen (general verb)\n- {熟|う}れる: to ripen (intransitive, more colloquial)\n- {未熟|みじゅく}: unripe; immature (antonym)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18384_jukusu",
+      "reading": "じゅくす",
+      "headword": "{熟|じゅく}す",
+      "label": "to ripen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30499_ureru",
+      "reading": "うれる",
+      "headword": "{熟|う}れる",
+      "label": "to ripen"
+    },
+    {
+      "type": "antonym",
+      "target_id": "13015_mijuku",
+      "reading": "みじゅく",
+      "headword": "{未熟|みじゅく}",
+      "label": "unripe"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30513_tsuijuku",
+      "reading": "ついじゅく",
+      "headword": "追熟",
+      "label": "post-harvest ripening"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +84,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "food",
         "plant-general"
@@ -63,7 +93,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-14T03:14:47Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

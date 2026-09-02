@@ -17,7 +17,9 @@
       "id": "25770_enbifuku_ex1",
       "japanese": "{指揮者|しきしゃ}は{燕尾服|えんびふく}を{着|き}ていた。",
       "english": "The conductor was wearing a tailcoat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25770_enbifuku_ex2",
       "japanese": "{授賞式|じゅしょうしき}では{燕尾服|えんびふく}の{着用|ちゃくよう}が{求|もと}められる。",
       "english": "Wearing a tailcoat is required at the awards ceremony.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,50 @@
       "id": "25770_enbifuku_ex3",
       "japanese": "{彼|かれ}は{燕尾服|えんびふく}に{白|しろ}いネクタイという{正装|せいそう}で{晩餐会|ばんさんかい}に{出席|しゅっせき}した。",
       "english": "He attended the banquet in formal attire — a tailcoat with a white tie.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Literally \"swallow-tail clothes\" — {燕|えん} (swallow, the bird), {尾|び} (tail), {服|ふく} (clothing). The name comes from the coat's distinctive split back tails that resemble a swallow's forked tail.\n\nCOMMON COLLOCATIONS:\n- {燕尾服|えんびふく}を{着|き}る: to wear a tailcoat\n- {燕尾服|えんびふく}{姿|すがた}: figure in a tailcoat\n- {燕尾服|えんびふく}に{蝶|ちょう}ネクタイ: tailcoat with a bow tie\n\nSIMILAR WORDS:\n- タキシード: tuxedo — one level less formal; worn with a black bow tie\n- {礼服|れいふく}: formal wear — general term for ceremonial clothing\n- {正装|せいそう}: full formal dress — refers to the dress code rather than a specific garment\n\nCULTURAL NOTE:\nIn Japan, {燕尾服|えんびふく} is most commonly seen on orchestra conductors, at Nobel Prize ceremonies, and at imperial court events. For most formal Japanese occasions, a dark suit or {礼服|れいふく} is sufficient.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27070_takishiido",
+      "reading": "たきしーど",
+      "headword": "タキシード",
+      "label": "tuxedo"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18440_reifuku",
+      "reading": "れいふく",
+      "headword": "{礼服|れいふく}",
+      "label": "formal wear"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16053_seisou",
+      "reading": "せいそう",
+      "headword": "{正装|せいそう}",
+      "label": "full formal dress"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["clothing"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "clothing"
+      ]
     },
     "created": "2026-04-27T12:19:54Z",
-    "modified": "2026-04-27T12:19:54Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

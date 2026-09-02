@@ -3,7 +3,7 @@
   "headword": "{焼却|しょうきゃく}",
   "reading": "しょうきゃく",
   "romaji": "shoukyaku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "incineration; burning",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Composed of {焼|しょう} (burn) and {却|きゃく} (dispose of). A formal term for burning things to destroy them, most commonly associated with waste disposal. In Japan, incineration is a major method of waste management, and {焼却炉|しょうきゃくろ} (incinerators) are found in many municipalities.\n\nCOMMON COLLOCATIONS:\n- {焼却|しょうきゃく}する: to incinerate\n- {焼却炉|しょうきゃくろ}: incinerator\n- {焼却|しょうきゃく}{処分|しょぶん}: disposal by incineration\n- {焼却|しょうきゃく}{施設|しせつ}: incineration facility\n- ごみ{焼却|しょうきゃく}{場|じょう}: waste incineration plant\n\nSIMILAR WORDS:\n- {燃|も}やす: to burn — everyday verb, less formal\n- {消却|しょうきゃく}: write-off / amortization — a homophone with completely different meaning (financial)\n- {廃棄|はいき}: disposal / scrapping — broader term for disposing of things, not limited to burning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02318_moyasu",
+      "reading": "もやす",
+      "headword": "{燃|も}やす",
+      "label": "to burn"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12482_haiki",
+      "reading": "はいき",
+      "headword": "{廃棄|はいき}",
+      "label": "disposal / scrapping"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-05T21:08:10Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

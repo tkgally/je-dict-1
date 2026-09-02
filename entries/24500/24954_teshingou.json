@@ -17,7 +17,9 @@
       "id": "24954_teshingou_ex1",
       "japanese": "{警察官|けいさつかん}が{手信号|てしんごう}で{交通|こうつう}を{整理|せいり}していた。",
       "english": "A police officer was directing traffic with hand signals.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24954_teshingou_ex2",
       "japanese": "{自転車|じてんしゃ}に{乗|の}るときは{手信号|てしんごう}を{出|だ}すのがルールだ。",
       "english": "When riding a bicycle, it's the rule to give hand signals.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "24954_teshingou_ex3",
       "japanese": "{信号機|しんごうき}が{故障|こしょう}していたので、{警察官|けいさつかん}が{交差点|こうさてん}に{立|た}って{手信号|てしんごう}で{車|くるま}を{誘導|ゆうどう}した。",
       "english": "Since the traffic light was broken, a police officer stood at the intersection and directed cars with hand signals.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {手|て} (hand) and {信号|しんごう} (signal). Most commonly associated with traffic direction by police officers and cycling hand signals, but also used in military, diving, and sports contexts.\n\nCOMMON COLLOCATIONS:\n- {手信号|てしんごう}を{出|だ}す: to give a hand signal\n- {手信号|てしんごう}で{合図|あいず}する: to signal by hand gesture\n- {手信号|てしんごう}による{誘導|ゆうどう}: guidance using hand signals\n- {右折|うせつ}の{手信号|てしんごう}: hand signal for a right turn\n\nSIMILAR WORDS:\n- {合図|あいず}: signal or sign in general, not limited to hand gestures\n- ハンドサイン: hand sign, a loanword sometimes used in casual contexts\n- {身振|みぶ}り: gestures, broader term for body language",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01675_aizu",
+      "reading": "あいず",
+      "headword": "{合図|あいず}",
+      "label": "signal or sign in general, not limited…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14786_miburi",
+      "reading": "みぶり",
+      "headword": "{身振|みぶ}り",
+      "label": "gestures, broader term for body language"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication", "transportation"]
+      "semantic": [
+        "communication",
+        "transportation"
+      ]
     },
     "created": "2026-04-21T14:25:35Z",
-    "modified": "2026-04-21T14:25:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

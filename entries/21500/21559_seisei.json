@@ -3,7 +3,7 @@
   "headword": "{精製|せいせい}",
   "reading": "せいせい",
   "romaji": "seisei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "refining; purification",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "Composed of {精|せい} (refined, pure) and {製|せい} (manufacture). Describes the industrial or chemical process of purifying raw materials.\n\nCOMMON COLLOCATIONS:\n- {精製|せいせい}{糖|とう}: refined sugar\n- {精製|せいせい}{塩|しお}: refined salt\n- {精製|せいせい}{水|すい}: purified water\n- {石油|せきゆ}{精製|せいせい}: petroleum refining\n- {精製|せいせい}{所|しょ}/{精製|せいせい}{工場|こうじょう}: refinery\n\nSIMILAR WORDS:\n- {精製|せいせい}: refining — removing impurities from raw materials\n- {生成|せいせい}: generation, formation — creating something new (homophone, different kanji)\n- {製造|せいぞう}: manufacturing — broader term for making products\n- {精錬|せいれん}: smelting — specifically extracting metal from ore\n- {浄化|じょうか}: purification — often used for water or air treatment",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "10895_seisei",
+      "reading": "せいせい",
+      "headword": "{生成|せいせい}",
+      "label": "generation, formation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03289_seizou",
+      "reading": "せいぞう",
+      "headword": "{製造|せいぞう}",
+      "label": "manufacturing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21301_seiren",
+      "reading": "せいれん",
+      "headword": "{精錬|せいれん}",
+      "label": "smelting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14936_jouka",
+      "reading": "じょうか",
+      "headword": "{浄化|じょうか}",
+      "label": "purification"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +92,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T16:17:07Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -3,7 +3,7 @@
   "headword": "{事故死|じこし}",
   "reading": "じこし",
   "romaji": "jikoshi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "accidental death; death by accident",
   "definitions": [
     {
@@ -56,6 +56,29 @@
   ],
   "notes": "Composed of {事故|じこ} (accident) and {死|し} (death). Refers to death caused by an accident, such as a traffic accident, fall, drowning, fire, or industrial accident. It is the standard term in news reports, police announcements, and insurance documents.\n\nUSAGE:\n- As a noun: {事故死|じこし}が{多|おお}い (there are many accidental deaths)\n- As a suru-verb: {若|わか}くして{事故死|じこし}する (to die accidentally at a young age)\n- Often preceded by a qualifier: {交通|こうつう}{事故死|じこし} (traffic-accident death), {労働|ろうどう}{事故死|じこし} (workplace-accident death)\n\nREGISTER: Neutral, but matter-of-fact and somewhat blunt. In eulogies or sympathy letters, softer phrasing such as {亡|な}くなる (pass away) is preferred.\n\nCOMMON COLLOCATIONS:\n- {事故死|じこし}する: to die in an accident\n- {事故死|じこし}{者|しゃ}: a person who died in an accident\n- {事故死|じこし}を{防|ふせ}ぐ: to prevent accidental deaths\n- {交通|こうつう}{事故死|じこし}: death from a traffic accident\n\nSIMILAR WORDS:\n- {病死|びょうし}: death from illness — contrasted with accidental death on death certificates and insurance\n- {変死|へんし}: unnatural death — a broader legal term covering accidents, suicide, and homicide\n- {急死|きゅうし}: sudden death — emphasizes suddenness, not necessarily accident\n- {即死|そくし}: instant death — dying immediately at the scene of an accident",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22006_byoushi",
+      "reading": "びょうし",
+      "headword": "{病死|びょうし}",
+      "label": "death from illness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18189_kyuushi",
+      "reading": "きゅうし",
+      "headword": "{急死|きゅうし}",
+      "label": "sudden death"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11973_sokushi",
+      "reading": "そくし",
+      "headword": "{即死|そくし}",
+      "label": "instant death"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -71,7 +94,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-14T00:46:30Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

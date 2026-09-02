@@ -17,24 +17,30 @@
       "japanese": "{資源|しげん}ごみは{水曜日|すいようび}です。",
       "english": "Recyclables are collected on Wednesday.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09537_shigengomi_ex2",
       "japanese": "ペットボトルは{資源|しげん}ごみです。",
       "english": "Plastic bottles are recyclables.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09537_shigengomi_ex3",
       "japanese": "{資源|しげん}ごみは{洗|あら}ってから{出|だ}してください。",
       "english": "Please wash recyclables before putting them out.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {資源|しげん}ごみを{出|だ}す: to put out recyclables\n- {資源|しげん}ごみの{回収|かいしゅう}: recycling collection\n- {資源|しげん}{回収|かいしゅう}{日|び}: recycling day\n\nCATEGORIES:\n- ペットボトル: plastic bottles\n- {空|あき}{缶|かん}: empty cans\n- {空|あき}びん: empty bottles\n- {古紙|こし}/{新聞紙|しんぶんし}: paper/newspaper\n\nRELATED:\n- {可燃|かねん}ごみ: burnable garbage\n- {不燃|ふねん}ごみ: non-burnable garbage\n- リサイクル: recycling",
+  "notes": "COMMON COLLOCATIONS:\n- {資源|しげん}ごみを{出|だ}す: to put out recyclables\n- {資源|しげん}ごみの{回収|かいしゅう}: recycling collection\n- {資源|しげん}{回収|かいしゅう}{日|び}: recycling day\n\nTYPES:\n- ペットボトル: plastic bottles\n- {空|あき}{缶|かん}: empty cans\n- {空|あき}びん: empty bottles\n- {古紙|こし}/{新聞紙|しんぶんし}: paper/newspaper\n\nRELATED WORDS:\n- {可燃|かねん}ごみ: burnable garbage\n- {不燃|ふねん}ごみ: non-burnable garbage\n- リサイクル: recycling",
   "cross_references": [
     {
       "type": "related",
@@ -56,18 +62,36 @@
       "reading": "ごみ",
       "headword": "ゴミ",
       "label": "garbage, trash"
+    },
+    {
+      "type": "related",
+      "target_id": "04624_risaikuru",
+      "reading": "りさいくる",
+      "headword": "リサイクル",
+      "label": "recycling"
+    },
+    {
+      "type": "related",
+      "target_id": "26673_shigenkaishuu",
+      "reading": "しげんかいしゅう",
+      "headword": "{資源回収|しげんかいしゅう}",
+      "label": "resource collection"
     }
   ],
   "metadata": {
     "created": "2026-02-02T10:39:21Z",
-    "modified": "2026-04-23T05:18:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

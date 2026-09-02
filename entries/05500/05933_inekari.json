@@ -153,7 +153,7 @@
       ]
     }
   ],
-  "notes": "{稲刈|いねか}り combines ⟦{稲|いね}→稲：01820_ine⟧ (rice plant) and ⟦{刈|か}る→刈る：02043_karu⟧ (cutting).\n\nCOMMON PATTERNS:\n- {稲刈|いねか}り⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to harvest rice (the する verb is far less common than the noun)\n- {稲刈|いねか}り⟦の→の：09472_no⟧⟦{時期|じき}→時期：03269_jiki⟧ / {稲刈|いねか}り⟦の→の：09472_no⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧: harvest time / harvest season\n- {稲刈|いねか}り⟦を→を：00422_wo⟧⟦{手伝|てつだ}う→手伝う：00898_tetsudau⟧: to help with the rice harvest\n\nSEASON:\nTypically takes place in September-October in most of Japan.\n\nRELATED VOCABULARY:\n- ⟦{田植|たう}え→田植え：22734_taue⟧: rice planting (spring)\n- ⟦{稲穂|いなほ}→稲穂：10175_inaho⟧: ear of rice\n- ⟦{収穫|しゅうかく}→収穫：03207_shuukaku⟧: harvest\n- ⟦{豊作|ほうさく}→豊作：14227_housaku⟧: good harvest\n- ⟦{凶作|きょうさく}→凶作：16485_kyousaku⟧: poor harvest\n\nCULTURAL NOTE:\nMany schools include rice cultivation and harvesting as educational experiences.",
+  "notes": "{稲刈|いねか}り combines ⟦{稲|いね}→稲：01820_ine⟧ (rice plant) and ⟦{刈|か}る→刈る：02043_karu⟧ (cutting).\n\nCOMMON PATTERNS:\n- {稲刈|いねか}り⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to harvest rice (the する verb is far less common than the noun)\n- {稲刈|いねか}り⟦の→の：09472_no⟧⟦{時期|じき}→時期：03269_jiki⟧ / {稲刈|いねか}り⟦の→の：09472_no⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧: harvest time / harvest season\n- {稲刈|いねか}り⟦を→を：00422_wo⟧⟦{手伝|てつだ}う→手伝う：00898_tetsudau⟧: to help with the rice harvest\n\nSEASON:\nTypically takes place in September-October in most of Japan.\n\nRELATED WORDS:\n- ⟦{田植|たう}え→田植え：22734_taue⟧: rice planting (spring)\n- ⟦{稲穂|いなほ}→稲穂：10175_inaho⟧: ear of rice\n- ⟦{収穫|しゅうかく}→収穫：03207_shuukaku⟧: harvest\n- ⟦{豊作|ほうさく}→豊作：14227_housaku⟧: good harvest\n- ⟦{凶作|きょうさく}→凶作：16485_kyousaku⟧: poor harvest\n\nCULTURAL NOTE:\nMany schools include rice cultivation and harvesting as educational experiences.",
   "cross_references": [
     {
       "type": "contrast",
@@ -175,11 +175,39 @@
       "headword": "{稲|いね}",
       "label": "rice plant",
       "target_id": "01820_ine"
+    },
+    {
+      "type": "related",
+      "target_id": "10175_inaho",
+      "reading": "いなほ",
+      "headword": "{稲穂|いなほ}",
+      "label": "ear of rice"
+    },
+    {
+      "type": "related",
+      "target_id": "14227_housaku",
+      "reading": "ほうさく",
+      "headword": "{豊作|ほうさく}",
+      "label": "good harvest"
+    },
+    {
+      "type": "related",
+      "target_id": "16485_kyousaku",
+      "reading": "きょうさく",
+      "headword": "{凶作|きょうさく}",
+      "label": "poor harvest"
+    },
+    {
+      "type": "related",
+      "target_id": "09494_inasaku",
+      "reading": "いなさく",
+      "headword": "{稲作|いなさく}",
+      "label": "rice cultivation, rice farming"
     }
   ],
   "metadata": {
     "created": "2026-01-16T14:51:32Z",
-    "modified": "2026-07-26T15:19:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

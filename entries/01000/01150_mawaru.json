@@ -273,18 +273,39 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{回|まわ}す→回す：01158_mawasu⟧ (transitive, to turn something). Pattern: X⟦が→が：00051_ga⟧{回|まわ}る (X turns/goes around).\n\nASPECT: ている indicates ongoing action. {回|まわ}っている = 'is turning/going around.'\n\nCOMMON PATTERNS:\n・⟦ぐるぐる→ぐるぐる：05160_guruguru⟧{回|まわ}る (spin around)\n・⟦{店|みせ}→店：00497_mise⟧⟦を→を：00422_wo⟧{回|まわ}る (visit stores)\n・⟦{周|まわ}り→周り：01732_mawari⟧⟦を→を：00422_wo⟧{回|まわ}る (go around the perimeter)\n・⟦{頭|あたま}→頭：00574_atama⟧⟦が→が：00051_ga⟧{回|まわ}る (head spins; can think clearly)\n・⟦{血|ち}→血：01659_chi⟧⟦が→が：00051_ga⟧{回|まわ}る (blood circulates)\n\nCONTRAST:\n・{回|まわ}る (intransitive): X turns\n・⟦{回|まわ}す→回す：01158_mawasu⟧ (transitive): turn X\n\nRELATED:\n・⟦{回転|かいてん}→回転：00141_kaiten⟧ (rotation—noun)\n・⟦{一回|いっかい}り→一回り：noentry⟧ (one round, one lap)",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{回|まわ}す→回す：01158_mawasu⟧ (transitive, to turn something). Pattern: X⟦が→が：00051_ga⟧{回|まわ}る (X turns/goes around).\n\nASPECT: ている indicates ongoing action. {回|まわ}っている = 'is turning/going around.'\n\nCOMMON PATTERNS:\n- ⟦ぐるぐる→ぐるぐる：05160_guruguru⟧{回|まわ}る (spin around)\n- ⟦{店|みせ}→店：00497_mise⟧⟦を→を：00422_wo⟧{回|まわ}る (visit stores)\n- ⟦{周|まわ}り→周り：01732_mawari⟧⟦を→を：00422_wo⟧{回|まわ}る (go around the perimeter)\n- ⟦{頭|あたま}→頭：00574_atama⟧⟦が→が：00051_ga⟧{回|まわ}る (head spins; can think clearly)\n- ⟦{血|ち}→血：01659_chi⟧⟦が→が：00051_ga⟧{回|まわ}る (blood circulates)\n\nSIMILAR WORDS:\n- {回|まわ}る (intransitive): X turns\n- ⟦{回|まわ}す→回す：01158_mawasu⟧ (transitive): turn X\n\nRELATED WORDS:\n- ⟦{回転|かいてん}→回転：00141_kaiten⟧ (rotation—noun)\n- ⟦{一回|いっかい}り→一回り：noentry⟧ (one round, one lap)",
   "cross_references": [
     {
       "type": "see_also",
       "reading": "まわす",
       "headword": "{回|まわ}す",
       "target_id": "01158_mawasu"
+    },
+    {
+      "type": "related",
+      "target_id": "00141_kaiten",
+      "reading": "かいてん",
+      "headword": "{回転|かいてん}",
+      "label": "rotation—noun"
+    },
+    {
+      "type": "related",
+      "target_id": "23760_gurugurumawaru",
+      "reading": "ぐるぐるまわる",
+      "headword": "ぐるぐる{回|まわ}る",
+      "label": "to spin round and round"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25376_junkansuru",
+      "reading": "じゅんかんする",
+      "headword": "{循環|じゅんかん}する",
+      "label": "to circulate"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:17:05Z",
-    "modified": "2026-08-09T12:26:58Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

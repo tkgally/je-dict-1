@@ -3,7 +3,7 @@
   "headword": "{分流|ぶんりゅう}",
   "reading": "ぶんりゅう",
   "romaji": "bunryuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "branching stream; diversion; tributary",
   "definitions": [
     {
@@ -80,7 +80,29 @@
     }
   ],
   "notes": "Composed of {分|ぶん} (divide; separate) + {流|りゅう} (flow; stream). Can be used as both a noun and a する verb. The literal meaning involves water splitting into separate channels, while the figurative meaning applies to any flow (traffic, people, data) being divided.\n\nCOMMON COLLOCATIONS:\n- {分流|ぶんりゅう}する: to branch off; to divert\n- {分流|ぶんりゅう}させる: to cause to branch/divert\n- {分流|ぶんりゅう}{地点|ちてん}: point of diversion\n- {人|ひと}の{流|なが}れを{分流|ぶんりゅう}する: to separate the flow of people\n\nSIMILAR WORDS:\n- {支流|しりゅう}: tributary — a stream that flows into a larger river (joining, not splitting)\n- {合流|ごうりゅう}: confluence; merging — the opposite of {分流|ぶんりゅう}, where streams or flows come together\n- {分岐|ぶんき}: branching; fork — more general, used for roads, paths, and decision points",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19624_shiryuu",
+      "reading": "しりゅう",
+      "headword": "{支流|しりゅう}",
+      "label": "tributary"
+    },
+    {
+      "type": "antonym",
+      "target_id": "11902_gouryuu",
+      "reading": "ごうりゅう",
+      "headword": "{合流|ごうりゅう}",
+      "label": "confluence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11770_bunki",
+      "reading": "ぶんき",
+      "headword": "{分岐|ぶんき}",
+      "label": "branching"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -97,7 +119,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-30T15:28:34Z",
-    "modified": "2026-04-30T15:28:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

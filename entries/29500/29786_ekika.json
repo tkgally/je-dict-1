@@ -17,7 +17,9 @@
       "id": "29786_ekika_ex1",
       "japanese": "{腋窩|えきか}の{体温|たいおん}を{測|はか}る。",
       "english": "I take the temperature at the armpit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29786_ekika_ex2",
       "japanese": "{腋窩|えきか}には{リンパ節|りんぱせつ}が{多|おお}い。",
       "english": "There are many lymph nodes in the armpit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "29786_ekika_ex3",
       "japanese": "{診察|しんさつ}では、{医師|いし}が{腋窩|えきか}の{腫|は}れを{確認|かくにん}した。",
       "english": "During the examination, the doctor checked for swelling in the armpit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A medical and anatomical term for the armpit. In everyday speech, {脇|わき}の{下|した} is used instead.\n\nCOMMON COLLOCATIONS:\n- {腋窩|えきか}{温|おん}: axillary temperature\n- {腋窩|えきか}{リンパ節|りんぱせつ}: axillary lymph nodes\n\nSIMILAR WORDS:\n- {脇|わき}の{下|した}: armpit — the ordinary, everyday expression.\n- {脇|わき}: side (of the body); armpit area — broader everyday word.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19060_wakinoshita",
+      "reading": "わきのした",
+      "headword": "{脇|わき}の{下|した}",
+      "label": "armpit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03790_waki",
+      "reading": "わき",
+      "headword": "{脇|わき}",
+      "label": "side"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["body-part"],
-      "domain": ["medical"]
+      "politeness": "plain",
+      "semantic": [
+        "body-part"
+      ],
+      "domain": [
+        "medical"
+      ]
     },
     "created": "2026-07-11T21:17:16Z",
-    "modified": "2026-07-11T21:17:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

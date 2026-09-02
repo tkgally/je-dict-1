@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "{寝|ね}る covers both the act of sleeping and the act of going to bed or lying down.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pattern: X⟦が→が：00051_ga⟧{寝|ね}る (X sleeps)\n\nASPECT (ている):\n{寝|ね}ている means \"is sleeping\" or \"is asleep\" — a state, not an ongoing action.\n\nCOMMON PATTERNS:\n- ⟦{早|はや}く→早く：02935_hayaku⟧{寝|ね}る (go to bed early)\n- {寝|ね}ている (is sleeping/asleep)\n- {寝|ね}る⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧ (before going to bed)\n- ⟦{寝坊|ねぼう}→寝坊：01692_nebou⟧⟦する→する：00392_suru⟧ (to oversleep)\n\nCOMMON COMPOUNDS:\n- ⟦{寝室|しんしつ}→寝室：05300_shinshitsu⟧ (bedroom)\n- ⟦{昼寝|ひるね}→昼寝：00106_hirune⟧ (nap)\n- ⟦{寝不足|ねぶそく}→寝不足：07692_nebusoku⟧ (sleep deprivation)\n\nOPPOSITE:\n⟦{起|お}きる→起きる：00521_okiru⟧ (to wake up / get up).",
+  "notes": "{寝|ね}る covers both the act of sleeping and the act of going to bed or lying down.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pattern: X⟦が→が：00051_ga⟧{寝|ね}る (X sleeps)\n\nASPECT (ている):\n{寝|ね}ている means \"is sleeping\" or \"is asleep\" — a state, not an ongoing action.\n\nCOMMON PATTERNS:\n- ⟦{早|はや}く→早く：02935_hayaku⟧{寝|ね}る (go to bed early)\n- {寝|ね}ている (is sleeping/asleep)\n- {寝|ね}る⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧ (before going to bed)\n- ⟦{寝坊|ねぼう}→寝坊：01692_nebou⟧⟦する→する：00392_suru⟧ (to oversleep)\n\nCOMPOUNDS:\n- ⟦{寝室|しんしつ}→寝室：05300_shinshitsu⟧ (bedroom)\n- ⟦{昼寝|ひるね}→昼寝：00106_hirune⟧ (nap)\n- ⟦{寝不足|ねぶそく}→寝不足：07692_nebusoku⟧ (sleep deprivation)\n\nSIMILAR WORDS:\n⟦{起|お}きる→起きる：00521_okiru⟧ (to wake up / get up).",
   "cross_references": [
     {
       "type": "antonym",
@@ -223,11 +223,53 @@
       "reading": "ねむる",
       "headword": "{眠|ねむ}る",
       "label": "to sleep (specifically the state of being asleep)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03359_suimin",
+      "reading": "すいみん",
+      "headword": "{睡眠|すいみん}",
+      "label": "sleep"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04646_netsuku",
+      "reading": "ねつく",
+      "headword": "{寝付|ねつ}く",
+      "label": "to fall asleep, to go to sleep"
+    },
+    {
+      "type": "related",
+      "target_id": "05510_negaeri",
+      "reading": "ねがえり",
+      "headword": "{寝返|ねがえ}り",
+      "label": "turning over (in bed)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05546_yokoninaru",
+      "reading": "よこになる",
+      "headword": "{横|よこ}になる",
+      "label": "to lie down"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09947_shuushin",
+      "reading": "しゅうしん",
+      "headword": "{就寝|しゅうしん}",
+      "label": "going to bed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27232_nemurinitsuku",
+      "reading": "ねむりにつく",
+      "headword": "{眠|ねむ}りにつく",
+      "label": "to fall asleep"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:25:44Z",
-    "modified": "2026-05-14T16:10:07Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

@@ -17,24 +17,30 @@
       "japanese": "{割引券|わりびきけん}を{使|つか}う。",
       "english": "To use a discount coupon.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09545_waribikiken_ex2",
       "japanese": "{二十|にじゅう}パーセント{割引券|わりびきけん}をもらった。",
       "english": "I got a 20% discount coupon.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09545_waribikiken_ex3",
       "japanese": "この{割引券|わりびきけん}は{来月|らいげつ}まで{有効|ゆうこう}です。",
       "english": "This discount coupon is valid until next month.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A voucher or ticket that entitles the holder to a price reduction. Commonly distributed by stores, restaurants, and online retailers.\n\nETYMOLOGY:\nCompound of {割引|わりびき} (discount) + {券|けん} (ticket/voucher).\n\nCOMMON COLLOCATIONS:\n- {割引券|わりびきけん}を{使|つか}う: to use a coupon\n- {割引券|わりびきけん}をもらう: to receive a coupon\n- {割引券|わりびきけん}を{配|くば}る: to hand out coupons\n- {有効期限|ゆうこうきげん}: expiration date\n\nVARIATIONS:\n- クーポン: coupon (loanword, increasingly common)\n- {割引|わりびき}チケット: discount ticket\n\nRELATED TERMS:\n- {割引|わりびき}: discount\n- {半額|はんがく}: half price\n- {商品券|しょうひんけん}: gift certificate",
+  "notes": "A voucher or ticket that entitles the holder to a price reduction. Commonly distributed by stores, restaurants, and online retailers.\n\nETYMOLOGY:\nCompound of {割引|わりびき} (discount) + {券|けん} (ticket/voucher).\n\nCOMMON COLLOCATIONS:\n- {割引券|わりびきけん}を{使|つか}う: to use a coupon\n- {割引券|わりびきけん}をもらう: to receive a coupon\n- {割引券|わりびきけん}を{配|くば}る: to hand out coupons\n- {有効期限|ゆうこうきげん}: expiration date\n\nFORMS:\n- クーポン: coupon (loanword, increasingly common)\n- {割引|わりびき}チケット: discount ticket\n\nRELATED WORDS:\n- {割引|わりびき}: discount\n- {半額|はんがく}: half price\n- {商品券|しょうひんけん}: gift certificate",
   "cross_references": [
     {
       "type": "related",
@@ -49,18 +55,64 @@
       "reading": "はんがく",
       "headword": "{半額|はんがく}",
       "label": "half price"
+    },
+    {
+      "type": "related",
+      "target_id": "22121_shouhinken",
+      "reading": "しょうひんけん",
+      "headword": "{商品券|しょうひんけん}",
+      "label": "gift certificate"
+    },
+    {
+      "type": "related",
+      "target_id": "06446_kuupon",
+      "reading": "くーぽん",
+      "headword": "クーポン",
+      "label": "coupon, voucher, discount ticket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23292_yuutaiken",
+      "reading": "ゆうたいけん",
+      "headword": "{優待券|ゆうたいけん}",
+      "label": "preferential ticket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24947_kuuponken",
+      "reading": "くーぽんけん",
+      "headword": "クーポン{券|けん}",
+      "label": "coupon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25183_tokutenken",
+      "reading": "とくてんけん",
+      "headword": "{特典券|とくてんけん}",
+      "label": "bonus ticket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30139_muryouken",
+      "reading": "むりょうけん",
+      "headword": "{無料券|むりょうけん}",
+      "label": "free ticket"
     }
   ],
   "metadata": {
     "created": "2026-02-02T10:40:48Z",
-    "modified": "2026-04-23T05:18:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

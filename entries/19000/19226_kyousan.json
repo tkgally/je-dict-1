@@ -17,7 +17,9 @@
       "id": "19226_kyousan_ex1",
       "japanese": "{協賛|きょうさん}{企業|きぎょう}を{募集|ぼしゅう}する。",
       "english": "To recruit sponsor companies.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19226_kyousan_ex2",
       "japanese": "このイベントは{大手|おおて}{企業|きぎょう}の{協賛|きょうさん}で{開催|かいさい}される。",
       "english": "This event is held with the sponsorship of major corporations.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,55 @@
       "id": "19226_kyousan_ex3",
       "japanese": "{地元|じもと}の{商店街|しょうてんがい}が{祭|まつ}りに{協賛|きょうさん}して、{飲|の}み{物|もの}を{提供|ていきょう}した。",
       "english": "The local shopping district sponsored the festival and provided drinks.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {協|きょう} (cooperate) + {賛|さん} (approve/support). Refers to providing financial or material support for events, causes, or projects.\n\nCOMMON COLLOCATIONS:\n- {協賛|きょうさん}{企業|きぎょう}: sponsoring company\n- {協賛|きょうさん}{金|きん}: sponsorship fee/money\n- {協賛|きょうさん}する: to sponsor\n- {協賛|きょうさん}を{募|つの}る: to seek sponsors\n\nEVENT CREDIT HIERARCHY:\nJapanese events typically list supporters in this order:\n- {主催|しゅさい}: organizer/host\n- {共催|きょうさい}: co-host\n- {後援|こうえん}: endorsement/patronage (often government)\n- {協賛|きょうさん}: sponsor (financial support)\n- {協力|きょうりょく}: cooperation/assistance\n\nHOMOPHONE:\n{共産|きょうさん} (communism) has the same reading but different kanji and meaning.",
+  "notes": "Composed of {協|きょう} (cooperate) + {賛|さん} (approve/support). Refers to providing financial or material support for events, causes, or projects.\n\nCOMMON COLLOCATIONS:\n- {協賛|きょうさん}{企業|きぎょう}: sponsoring company\n- {協賛|きょうさん}{金|きん}: sponsorship fee/money\n- {協賛|きょうさん}する: to sponsor\n- {協賛|きょうさん}を{募|つの}る: to seek sponsors\n\nEVENT CREDIT HIERARCHY:\nJapanese events typically list supporters in this order:\n- {主催|しゅさい}: organizer/host\n- {共催|きょうさい}: co-host\n- {後援|こうえん}: endorsement/patronage (often government)\n- {協賛|きょうさん}: sponsor (financial support)\n- {協力|きょうりょく}: cooperation/assistance\n\nWATCH OUT:\n{共産|きょうさん} (communism) has the same reading but different kanji and meaning.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12616_kouen",
+      "reading": "こうえん",
+      "headword": "{後援|こうえん}",
+      "label": "support, backing, sponsorship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16911_sanjo",
+      "reading": "さんじょ",
+      "headword": "{賛助|さんじょ}",
+      "label": "support"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18790_kyousai",
+      "reading": "きょうさい",
+      "headword": "{共催|きょうさい}",
+      "label": "co-hosting"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["business", "society"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "business",
+        "society"
+      ]
     },
     "created": "2026-03-25T01:36:05Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

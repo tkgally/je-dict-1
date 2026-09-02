@@ -19,7 +19,9 @@
       "english": "She is my former student.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12874_oshiego_ex2",
@@ -27,7 +29,9 @@
       "english": "I was glad to hear about my former student's success.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12874_oshiego_ex3",
@@ -35,21 +39,43 @@
       "english": "Former pupils gathered around the retired coach.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed from the teacher's perspective to refer to someone they taught. Carries warmth and a sense of lasting connection — it is not just any student, but one the teacher personally mentored or feels a bond with. Common in education, sports coaching, and traditional arts.\n\nCOMMON COLLOCATIONS:\n- {教|おし}え{子|ご}の{成長|せいちょう}: a pupil's growth\n- かつての{教|おし}え{子|ご}: a former student\n- {教|おし}え{子|ご}を{育|そだ}てる: to raise/train students\n\nSIMILAR WORDS:\n- {生徒|せいと}: student (general, institutional)\n- {弟子|でし}: disciple, apprentice (more formal, traditional arts/martial arts)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01051_seito",
+      "reading": "せいと",
+      "headword": "{生徒|せいと}",
+      "label": "student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03986_deshi",
+      "reading": "でし",
+      "headword": "{弟子|でし}",
+      "label": "disciple, apprentice"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T12:43:35Z",
-    "modified": "2026-02-22T12:43:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "education"]
+      "semantic": [
+        "person",
+        "education"
+      ]
     }
   }
 }

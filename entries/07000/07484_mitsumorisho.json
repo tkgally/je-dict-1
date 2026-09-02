@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{見積|みつも}り (estimate) + {書|しょ} (document)\n\nTYPICAL CONTENTS:\n・{見積|みつも}り{番号|ばんごう} - quotation number\n・{日付|ひづけ} - date\n・{有効期限|ゆうこうきげん} - validity period\n・{品名|ひんめい} - item name\n・{数量|すうりょう} - quantity\n・{単価|たんか} - unit price\n・{金額|きんがく} - amount\n・{小計|しょうけい} - subtotal\n・{消費税|しょうひぜい} - consumption tax\n・{合計|ごうけい} - total\n\nCOMMON EXPRESSIONS:\n・{見積書|みつもりしょ}を{依頼|いらい}する - to request a quote\n・{見積書|みつもりしょ}を{発行|はっこう}する - to issue a quote\n・{見積|みつも}りを{取|と}る - to get an estimate\n・{相見積|あいみつも}り - comparative quotes (from multiple vendors)\n\nRELATED DOCUMENTS:\n・{発注書|はっちゅうしょ} - purchase order\n・{請求書|せいきゅうしょ} - invoice\n・{納品書|のうひんしょ} - delivery slip",
+  "notes": "ETYMOLOGY:\n{見積|みつも}り (estimate) + {書|しょ} (document)\n\nTYPICAL CONTENTS:\n- {見積|みつも}り{番号|ばんごう} - quotation number\n- {日付|ひづけ} - date\n- {有効期限|ゆうこうきげん} - validity period\n- {品名|ひんめい} - item name\n- {数量|すうりょう} - quantity\n- {単価|たんか} - unit price\n- {金額|きんがく} - amount\n- {小計|しょうけい} - subtotal\n- {消費税|しょうひぜい} - consumption tax\n- {合計|ごうけい} - total\n\nCOMMON EXPRESSIONS:\n- {見積書|みつもりしょ}を{依頼|いらい}する - to request a quote\n- {見積書|みつもりしょ}を{発行|はっこう}する - to issue a quote\n- {見積|みつも}りを{取|と}る - to get an estimate\n- {相見積|あいみつも}り - comparative quotes (from multiple vendors)\n\nRELATED DOCUMENTS:\n- {発注書|はっちゅうしょ} - purchase order\n- {請求書|せいきゅうしょ} - invoice\n- {納品書|のうひんしょ} - delivery slip",
   "cross_references": [
     {
       "type": "related",
@@ -48,11 +48,39 @@
       "headword": "{発注書|はっちゅうしょ}",
       "label": "purchase order",
       "target_id": "08069_hacchuusho"
+    },
+    {
+      "type": "related",
+      "target_id": "04698_seikyuusho",
+      "reading": "せいきゅうしょ",
+      "headword": "{請求書|せいきゅうしょ}",
+      "label": "invoice"
+    },
+    {
+      "type": "related",
+      "target_id": "06594_nouhinsho",
+      "reading": "のうひんしょ",
+      "headword": "{納品書|のうひんしょ}",
+      "label": "delivery slip"
+    },
+    {
+      "type": "related",
+      "target_id": "08126_chuumonsho",
+      "reading": "ちゅうもんしょ",
+      "headword": "{注文書|ちゅうもんしょ}",
+      "label": "order form"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21923_ryoukinhyou",
+      "reading": "りょうきんひょう",
+      "headword": "{料金表|りょうきんひょう}",
+      "label": "price list"
     }
   ],
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-08-10T18:29:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +88,7 @@
         "noun"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "business",
         "money"

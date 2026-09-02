@@ -3,7 +3,7 @@
   "headword": "{押|お}し{留|とど}める",
   "reading": "おしとどめる",
   "romaji": "oshitodomeru",
-  "part_of_speech": "verb-ichidan",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to restrain; to hold back; to dissuade",
   "definitions": [
     {
@@ -81,6 +81,29 @@
   ],
   "notes": "A compound verb from {押|お}す (to push) and {留|とど}める (to stop, keep in place). Sense 1 implies physical restraint — literally holding someone back from moving or acting. Sense 2 is more figurative — persuading someone not to do something, often something impulsive or risky.\n\nCOMMON COLLOCATIONS:\n- {人|ひと}を{押|お}し{留|とど}める: to hold someone back\n- {怒|いか}りを{押|お}し{留|とど}める: to hold back one's anger\n- {強|つよ}く{押|お}し{留|とど}める: to firmly restrain/dissuade\n\nSIMILAR WORDS:\n- {引|ひ}き{止|と}める: to detain, hold back — emphasizes pulling back; often used for persuading someone to stay\n- {制止|せいし}する: to restrain, stop — more formal; often used in official or news contexts\n- {止|と}める: to stop — general; lacks the forceful nuance of {押|お}し{留|とど}める",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06166_hikitomeru",
+      "reading": "ひきとめる",
+      "headword": "{引|ひ}き{止|と}める",
+      "label": "to detain, hold back"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11908_seishi",
+      "reading": "せいし",
+      "headword": "{制止|せいし}",
+      "label": "to restrain, stop"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00678_tomeru",
+      "reading": "とめる",
+      "headword": "{止|と}める",
+      "label": "to stop"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -96,7 +119,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-04-06T18:10:58Z",
-    "modified": "2026-04-06T18:10:58Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {休|きゅう} (rest, pause) + {火山|かざん} (volcano). The {休|きゅう} element suggests a temporary cessation of activity.\n\nCOMMON COLLOCATIONS:\n- {休火山|きゅうかざん}と{呼|よ}ばれる: to be called a dormant volcano\n- {休火山|きゅうかざん}の{噴火|ふんか}: eruption of a dormant volcano\n\nSIMILAR WORDS:\n- {活火山|かっかざん}: active volcano — currently active or recently active\n- {死火山|しかざん}: extinct volcano — believed never to erupt again (also a fading classification)\n- {火山|かざん}: volcano — the general term\n\nUSAGE NOTE:\nModern Japanese volcanology classifies volcanoes simply as {活火山|かっかざん} (active) or not, since \"dormant\" and \"extinct\" status often turn out to be incorrect. The traditional three-way split ({活|かつ}/{休|きゅう}/{死|し}) is still used in everyday speech, however.",
+  "notes": "Compound of {休|きゅう} (rest, pause) + {火山|かざん} (volcano). The {休|きゅう} element suggests a temporary cessation of activity.\n\nCOMMON COLLOCATIONS:\n- {休火山|きゅうかざん}と{呼|よ}ばれる: to be called a dormant volcano\n- {休火山|きゅうかざん}の{噴火|ふんか}: eruption of a dormant volcano\n\nSIMILAR WORDS:\n- {活火山|かっかざん}: active volcano — currently active or recently active\n- {死火山|しかざん}: extinct volcano — believed never to erupt again (also a fading classification)\n- {火山|かざん}: volcano — the general term\n\nUSAGE:\nModern Japanese volcanology classifies volcanoes simply as {活火山|かっかざん} (active) or not, since \"dormant\" and \"extinct\" status often turn out to be incorrect. The traditional three-way split ({活|かつ}/{休|きゅう}/{死|し}) is still used in everyday speech, however.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15901_kakkazan",
+      "reading": "かっかざん",
+      "headword": "{活火山|かっかざん}",
+      "label": "active volcano"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28367_shikazan",
+      "reading": "しかざん",
+      "headword": "{死火山|しかざん}",
+      "label": "extinct volcano"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "geography",
         "nature"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-05-29T02:15:37Z",
-    "modified": "2026-05-29T02:15:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

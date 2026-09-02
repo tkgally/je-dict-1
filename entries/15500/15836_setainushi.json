@@ -19,7 +19,9 @@
       "english": "Please fill in the name of the head of household.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15836_setainushi_ex2",
@@ -27,7 +29,9 @@
       "english": "When we moved, we filed a change of head of household.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15836_setainushi_ex3",
@@ -35,22 +39,39 @@
       "english": "The resident register lists the relationship to the head of household.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{世帯主|せたいぬし} is a formal, administrative term used on government forms, tax documents, and official registrations. It refers to the person listed as the representative of a household ({世帯|せたい}) in the municipal resident register.\n\nCOMMON COLLOCATIONS:\n- {世帯主|せたいぬし}の{変更|へんこう} (change of head of household)\n- {世帯主|せたいぬし}との{続柄|つづきがら} (relationship to head of household)\n- {世帯主|せたいぬし}{名|めい} (name of head of household, on forms)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12765_toushu",
+      "reading": "とうしゅ",
+      "headword": "{当主|とうしゅ}",
+      "label": "head of a household, family head"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T12:24:55Z",
-    "modified": "2026-03-08T12:24:55Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["legal"],
-      "semantic": ["family", "society"]
+      "domain": [
+        "legal"
+      ],
+      "semantic": [
+        "family",
+        "society"
+      ]
     }
   }
 }

@@ -56,15 +56,39 @@
     }
   ],
   "notes": "{寒|かん} (cold) + {冬|とう} (winter). A meteorological term used to describe a winter season with temperatures below the seasonal average.\n\nCOMMON COLLOCATIONS:\n- {寒冬|かんとう}の{予報|よほう}: forecast for a cold winter\n- {記録的|きろくてき}な{寒冬|かんとう}: record cold winter\n- {寒冬|かんとう}の{影響|えいきょう}: effects of the cold winter\n- {寒冬|かんとう}{少雪|しょうせつ}: cold winter with little snow\n\nSIMILAR WORDS:\n- {暖冬|だんとう}: warm winter — the opposite; a winter milder than average\n- {厳冬|げんとう}: harsh winter — a more extreme term, implying bitter cold\n- {極寒|ごっかん}: extreme cold — refers to the temperature itself rather than the season\n\nUSAGE:\nPrimarily appears in weather forecasts, news reports, and agricultural discussions. The Japan Meteorological Agency classifies winters as {寒冬|かんとう} (cold), {並冬|なみふゆ} (average), or {暖冬|だんとう} (warm) based on mean temperature deviation.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "21745_dantou",
+      "reading": "だんとう",
+      "headword": "{暖冬|だんとう}",
+      "label": "warm winter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08556_gentou",
+      "reading": "げんとう",
+      "headword": "{厳冬|げんとう}",
+      "label": "harsh winter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21345_gokkan",
+      "reading": "ごっかん",
+      "headword": "{極寒|ごっかん}",
+      "label": "extreme cold"
+    }
+  ],
   "metadata": {
     "created": "2026-04-18T09:17:09Z",
-    "modified": "2026-08-02T18:32:34Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "weather",
         "time-season"

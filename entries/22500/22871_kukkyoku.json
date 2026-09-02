@@ -3,7 +3,7 @@
   "headword": "{屈曲|くっきょく}",
   "reading": "くっきょく",
   "romaji": "kukkyoku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "bending; curving; flexion",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Composed of {屈|くつ} (to bend, to yield) + {曲|きょく} (to curve, to bend). Used in both everyday descriptions of winding paths and in medical/anatomical contexts for joint movement.\n\nCOMMON COLLOCATIONS:\n- {屈曲|くっきょく}する: to bend, to curve\n- {屈曲|くっきょく}{運動|うんどう}: flexion exercise\n- {屈曲|くっきょく}した{道|みち}: a winding road\n- {屈曲|くっきょく}{部|ぶ}: bent section, curve\n\nSIMILAR WORDS:\n- {湾曲|わんきょく}: curve, curvature — a gentle, arc-like curve rather than a sharp bend\n- {蛇行|だこう}: meandering — specifically for a river or road winding in S-shapes\n- {伸展|しんてん}: extension — the opposite motion to flexion in anatomy",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25317_wankyoku",
+      "reading": "わんきょく",
+      "headword": "{湾曲|わんきょく}",
+      "label": "curve, curvature"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09036_dakou",
+      "reading": "だこう",
+      "headword": "{蛇行|だこう}",
+      "label": "meandering"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -55,11 +71,14 @@
       ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["movement", "descriptive"],
+      "semantic": [
+        "movement",
+        "descriptive"
+      ],
       "verb_class": "suru"
     },
     "created": "2026-04-07T19:16:05Z",
-    "modified": "2026-07-31T00:22:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

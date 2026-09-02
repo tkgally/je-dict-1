@@ -17,7 +17,9 @@
       "id": "29534_kinkannisshoku_ex1",
       "japanese": "{金環|きんかん}{日食|にっしょく}は{珍|めずら}しい。",
       "english": "Annular solar eclipses are rare.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29534_kinkannisshoku_ex2",
       "japanese": "{金環|きんかん}{日食|にっしょく}では{太陽|たいよう}が{指輪|ゆびわ}のように{見|み}える。",
       "english": "In an annular eclipse the Sun looks like a ring.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29534_kinkannisshoku_ex3",
       "japanese": "{去年|きょねん}の{金環|きんかん}{日食|にっしょく}を{観|み}るために{大勢|おおぜい}の{人|ひと}が{集|あつ}まった。",
       "english": "Crowds gathered to watch last year's annular solar eclipse.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {金環|きんかん} (golden ring) + {日食|にっしょく} (solar eclipse). The name refers to the ring of sunlight that remains visible around the Moon.\n\nCOMMON COLLOCATIONS:\n- {金環|きんかん}{日食|にっしょく}を{観測|かんそく}する: to observe an annular solar eclipse\n- {金環|きんかん}{日食|にっしょく}が{起|お}こる: an annular solar eclipse occurs\n\nSIMILAR WORDS:\n- {皆既|かいき}{日食|にっしょく}: total eclipse — the Sun is fully covered\n- {部分|ぶぶん}{日食|にっしょく}: partial eclipse — only part of the Sun is hidden",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29532_kaikinisshoku",
+      "reading": "かいきにっしょく",
+      "headword": "{皆既|かいき}{日食|にっしょく}",
+      "label": "total eclipse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29533_bubunnisshoku",
+      "reading": "ぶぶんにっしょく",
+      "headword": "{部分|ぶぶん}{日食|にっしょく}",
+      "label": "partial eclipse"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["science"],
+      "politeness": "plain",
+      "semantic": [
+        "science"
+      ],
       "domain": []
     },
     "created": "2026-06-28T09:18:52Z",
-    "modified": "2026-06-28T09:18:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

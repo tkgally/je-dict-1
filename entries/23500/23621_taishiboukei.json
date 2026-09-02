@@ -17,7 +17,9 @@
       "id": "23621_taishiboukei_ex1",
       "japanese": "{体脂肪計|たいしぼうけい}に{乗|の}る。",
       "english": "I step onto the body fat scale.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23621_taishiboukei_ex2",
       "japanese": "{体脂肪計|たいしぼうけい}で{体脂肪率|たいしぼうりつ}を{測|はか}る。",
       "english": "I measure my body fat percentage with the body fat scale.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "23621_taishiboukei_ex3",
       "japanese": "{最近|さいきん}の{体脂肪計|たいしぼうけい}は{筋肉量|きんにくりょう}も{測定|そくてい}できる。",
       "english": "Recent body fat scales can also measure muscle mass.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,52 @@
       "id": "23621_taishiboukei_ex4",
       "japanese": "ダイエットを{始|はじ}めたので、{体脂肪計|たいしぼうけい}を{買|か}って{毎朝|まいあさ}{記録|きろく}することにした。",
       "english": "Since I started a diet, I bought a body fat scale and decided to record my numbers every morning.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {体脂肪|たいしぼう} (body fat) and the suffix {計|けい} (measuring device). The word refers specifically to the consumer device, not to professional body-composition equipment used in hospitals or gyms (which is more likely called {体組成計|たいそせいけい}).\n\nUSAGE:\nIn Japan, most home bathroom scales sold today are {体脂肪計|たいしぼうけい} rather than plain weight scales — the word is essentially interchangeable with \"bathroom scale\" in modern usage.\n\nCOMMON COLLOCATIONS:\n- {体脂肪計|たいしぼうけい}に{乗|の}る: to step on the body fat scale\n- {体脂肪計|たいしぼうけい}で{測|はか}る: to measure with the body fat scale\n- {体脂肪計|たいしぼうけい}{付|つ}き{体重計|たいじゅうけい}: weight scale with a body fat meter\n\nSIMILAR WORDS:\n- {体重計|たいじゅうけい}: bathroom scale — measures weight only; the traditional plain scale\n- {体組成計|たいそせいけい}: body composition monitor — a broader device that measures many metrics (muscle, bone, water); more technical term\n- ヘルスメーター: health meter — a general katakana term for bathroom scales, often overlapping with {体重計|たいじゅうけい}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05485_taijuukei",
+      "reading": "たいじゅうけい",
+      "headword": "{体重計|たいじゅうけい}",
+      "label": "bathroom scale"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29137_taisoseikei",
+      "reading": "たいそせいけい",
+      "headword": "{体組成計|たいそせいけい}",
+      "label": "body composition monitor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29225_herusumeetaa",
+      "reading": "へるすめーたー",
+      "headword": "ヘルスメーター",
+      "label": "health meter"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life", "health"]
+      "semantic": [
+        "daily-life",
+        "health"
+      ]
     },
     "created": "2026-04-13T17:19:37Z",
-    "modified": "2026-07-28T18:20:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

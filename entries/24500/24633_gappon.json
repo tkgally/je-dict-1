@@ -3,7 +3,7 @@
   "headword": "{合本|がっぽん}",
   "reading": "がっぽん",
   "romaji": "gappon",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "combined volume; omnibus edition",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Compound of {合|がっ} ('combine; join') and {本|ぽん} ('book; volume'). The word describes the practice of binding multiple publications together. This can be done either by publishers (releasing an omnibus edition) or by libraries and collectors (binding loose issues together for preservation).\n\nUSAGE:\nCan be used as a noun or with する as a verb ({合本|がっぽん}する, 'to bind together into one volume'). In the digital age, the concept extends to e-book omnibus editions that bundle multiple volumes into a single digital purchase, often at a discount.\n\nCOMMON COLLOCATIONS:\n- {合本|がっぽん}{版|ばん}: combined edition\n- {合本|がっぽん}する: to bind into a combined volume\n- {合本|がっぽん}{製本|せいほん}: combined binding\n- {電子|でんし}{合本|がっぽん}: digital omnibus edition\n\nSIMILAR WORDS:\n- {全集|ぜんしゅう}: complete works; collected works — a comprehensive compilation of an author's works, usually published as a set\n- {選集|せんしゅう}: anthology; selected works — a collection of chosen pieces, not necessarily all from one source\n- {単行本|たんこうぼん}: standalone book — a book published as a single volume, the opposite of a {合本|がっぽん}\n- {文庫本|ぶんこぼん}: paperback; pocket edition — a small, affordable format; may or may not be a combined edition",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11783_zenshuu",
+      "reading": "ぜんしゅう",
+      "headword": "{全集|ぜんしゅう}",
+      "label": "complete works"
+    },
+    {
+      "type": "antonym",
+      "target_id": "11937_tankoubon",
+      "reading": "たんこうぼん",
+      "headword": "{単行本|たんこうぼん}",
+      "label": "standalone book"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12915_bunkobon",
+      "reading": "ぶんこぼん",
+      "headword": "{文庫本|ぶんこぼん}",
+      "label": "paperback"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +87,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-20T09:19:19Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

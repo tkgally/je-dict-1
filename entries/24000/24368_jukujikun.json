@@ -46,6 +46,36 @@
   ],
   "notes": "Compound of {熟字|じゅくじ} ('compound character group') and {訓|くん} ('kun reading; native Japanese reading'). A linguistic term describing one of the most distinctive features of the Japanese writing system: kanji compounds whose reading is based on meaning rather than standard character-by-character pronunciation.\n\nUSAGE:\n- Well-known examples include: {大人|おとな} ('adult'), {今日|きょう} ('today'), {昨日|きのう} ('yesterday'), {明日|あした} ('tomorrow'), {果物|くだもの} ('fruit'), {土産|みやげ} ('souvenir'), {紅葉|もみじ} ('autumn leaves').\n- These readings must be memorized individually because they cannot be derived from the on'yomi or kun'yomi of the component kanji.\n- Appears in language textbooks, kanji study guides, and the {漢字|かんじ}{検定|けんてい} (Kanji Proficiency Test) as a specific category of knowledge.\n\nCOMMON COLLOCATIONS:\n- {熟字訓|じゅくじくん}の{読|よ}み: jukujikun reading\n- {熟字訓|じゅくじくん}を{覚|おぼ}える: to memorize jukujikun readings\n- {熟字訓|じゅくじくん}の{一覧|いちらん}: list of jukujikun readings\n\nSIMILAR WORDS:\n- {音読|おんよ}み: on'yomi — the Sino-Japanese reading of kanji, derived from Chinese pronunciation\n- {訓読|くんよ}み: kun'yomi — the native Japanese reading assigned to individual kanji\n- {当|あ}て{字|じ}: ateji — kanji used for their sound rather than meaning, the conceptual opposite of {熟字訓|じゅくじくん}\n- {難読|なんどく}: hard-to-read — a broader category of kanji or words that are difficult to read correctly",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10453_onyomi",
+      "reading": "おんよみ",
+      "headword": "{音読|おんよ}み",
+      "label": "on'yomi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10454_kunyomi",
+      "reading": "くんよみ",
+      "headword": "{訓読|くんよ}み",
+      "label": "kun'yomi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12539_ateji",
+      "reading": "あてじ",
+      "headword": "{当|あ}て{字|じ}",
+      "label": "ateji"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18388_nandoku",
+      "reading": "なんどく",
+      "headword": "{難読|なんどく}",
+      "label": "hard-to-read"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +93,6 @@
       ]
     },
     "created": "2026-04-18T15:23:31Z",
-    "modified": "2026-04-18T15:23:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

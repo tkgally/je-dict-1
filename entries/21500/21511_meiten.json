@@ -17,7 +17,9 @@
       "id": "21511_meiten_ex1",
       "japanese": "あの{店|みせ}はラーメンの{名店|めいてん}だ。",
       "english": "That shop is a famous ramen restaurant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21511_meiten_ex2",
       "japanese": "{全国|ぜんこく}の{名店|めいてん}が{集|あつ}まるイベントが{開催|かいさい}された。",
       "english": "An event featuring famous shops from across the country was held.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,38 @@
       "id": "21511_meiten_ex3",
       "japanese": "{行列|ぎょうれつ}ができるほどの{名店|めいてん}で、{予約|よやく}なしでは{入|はい}れないことが{多|おお}い。",
       "english": "It's such a famous restaurant that lines form, and you often can't get in without a reservation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {名|めい} (famous, distinguished) + {店|てん} (shop, store). Particularly common in food and dining contexts, where it refers to restaurants with outstanding reputations.\n\nCOMMON COLLOCATIONS:\n- {名店|めいてん}{街|がい}: famous restaurant district\n- {名店|めいてん}{揃|ぞろ}い: a lineup of famous shops\n- {隠|かく}れた{名店|めいてん}: hidden gem restaurant\n- {老舗|しにせ}{名店|めいてん}: long-established famous shop\n\nSIMILAR WORDS:\n- {老舗|しにせ}: long-established shop — emphasizes the history and tradition of a business, not necessarily its fame\n- {人気店|にんきてん}: popular shop — emphasizes current popularity rather than established reputation\n- {有名店|ゆうめいてん}: well-known shop — more straightforward; {名店|めいてん} implies quality in addition to fame\n\nUSAGE:\nFrequently appears in food magazines, TV shows, and online reviews. Often modified by a food type: ラーメンの{名店|めいてん}, すしの{名店|めいてん}, etc.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16152_shinise",
+      "reading": "しにせ",
+      "headword": "{老舗|しにせ}",
+      "label": "long-established shop"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "business"]
+      "semantic": [
+        "food",
+        "business"
+      ]
     },
     "created": "2026-04-02T14:11:30Z",
-    "modified": "2026-04-02T14:11:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

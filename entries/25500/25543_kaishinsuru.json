@@ -3,7 +3,7 @@
   "headword": "{改心|かいしん}する",
   "reading": "かいしんする",
   "romaji": "kaishinsuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to reform oneself; to repent; to turn over a new leaf",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "{改心|かいしん}する combines {改|かい} (reform) and {心|しん} (heart/mind), literally meaning to reform one's heart. It implies a genuine inner change in character, not just a superficial change in behavior. Often used in stories and moral narratives.\n\nCOMMON COLLOCATIONS:\n- {改心|かいしん}させる: to make someone reform (causative)\n- {改心|かいしん}の{余地|よち}: room for reform\n- {改心|かいしん}の{機会|きかい}: opportunity for reform\n\nSIMILAR WORDS:\n- {反省|はんせい}する: to reflect on; to feel remorse — focuses on self-reflection rather than actual behavioral change\n- {更生|こうせい}する: to rehabilitate; to start a new life — focuses on the practical process of rebuilding one's life after crime or addiction\n- {悔|く}い{改|あらた}める: to repent — more literary and emphatic, often with religious overtones",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21398_hanseisuru",
+      "reading": "はんせいする",
+      "headword": "{反省|はんせい}する",
+      "label": "to reflect on"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18601_kouseisuru",
+      "reading": "こうせいする",
+      "headword": "{更生|こうせい}する",
+      "label": "to rehabilitate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19907_kuiaratameru",
+      "reading": "くいあらためる",
+      "headword": "{悔|く}い{改|あらた}める",
+      "label": "to repent"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +76,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "personality",
         "change"
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T16:18:30Z",
-    "modified": "2026-04-25T16:18:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

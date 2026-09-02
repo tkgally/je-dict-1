@@ -17,7 +17,9 @@
       "id": "24854_chitei_ex1",
       "japanese": "{地底|ちてい}に{眠|ねむ}る{資源|しげん}。",
       "english": "Resources lying dormant underground.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24854_chitei_ex2",
       "japanese": "{地底|ちてい}{深|ふか}くにマグマが{流|なが}れている。",
       "english": "Magma flows deep underground.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "24854_chitei_ex3",
       "japanese": "ジュール・ヴェルヌの『{地底|ちてい}{旅行|りょこう}』は{今|いま}でも{多|おお}くの{読者|どくしゃ}に{愛|あい}されている。",
       "english": "Jules Verne's 'Journey to the Center of the Earth' is still loved by many readers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {地|ち} (earth/ground) + {底|てい} (bottom/depths). Emphasizes depth and the sense of being far below the surface, as opposed to {地下|ちか}, which is a more practical term for anything below ground.\n\nCOMMON COLLOCATIONS:\n- {地底|ちてい}{深|ふか}く: deep underground\n- {地底|ちてい}に{眠|ねむ}る: to lie dormant underground\n- {地底|ちてい}{探検|たんけん}: underground exploration\n- {地底|ちてい}{世界|せかい}: underground world\n- {地底|ちてい}{湖|こ}: underground lake\n\nSIMILAR WORDS:\n- {地下|ちか}: underground — the everyday word for anything below ground level, including basements and subways\n- {地中|ちちゅう}: in the ground — emphasizes being embedded within the earth, such as buried pipes or roots\n- {海底|かいてい}: ocean floor — the equivalent concept for the sea",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03429_chika",
+      "reading": "ちか",
+      "headword": "{地下|ちか}",
+      "label": "underground"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12135_chichuu",
+      "reading": "ちちゅう",
+      "headword": "{地中|ちちゅう}",
+      "label": "in the ground"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13287_kaitei",
+      "reading": "かいてい",
+      "headword": "{海底|かいてい}",
+      "label": "ocean floor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     },
     "created": "2026-04-21T10:27:19Z",
-    "modified": "2026-04-21T10:27:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

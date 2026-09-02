@@ -17,7 +17,9 @@
       "id": "26215_gakushuushidouyouryou_ex1",
       "japanese": "{新|あたら}しい{学習指導要領|がくしゅうしどうようりょう}が{来年|らいねん}から{施行|しこう}される。",
       "english": "The new curriculum guidelines will be implemented starting next year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26215_gakushuushidouyouryou_ex2",
       "japanese": "{学習指導要領|がくしゅうしどうようりょう}の{改訂|かいてい}により{英語|えいご}{教育|きょういく}が{小学校|しょうがっこう}から{始|はじ}まった。",
       "english": "Due to the revision of the curriculum guidelines, English education now starts from elementary school.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,59 @@
       "id": "26215_gakushuushidouyouryou_ex3",
       "japanese": "{教科書|きょうかしょ}は{学習指導要領|がくしゅうしどうようりょう}に{基|もと}づいて{作成|さくせい}されるため、{全国|ぜんこく}で{一定|いってい}の{教育水準|きょういくすいじゅん}が{保|たも}たれている。",
       "english": "Since textbooks are created based on the curriculum guidelines, a consistent educational standard is maintained nationwide.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The official framework governing education in Japan, issued by {文部科学省|もんぶかがくしょう} (MEXT, the Ministry of Education). It prescribes subjects, content, and objectives for elementary, junior high, and high school. Major revisions affect everything from textbook content to school schedules. The most recent revision emphasizes {主体的|しゅたいてき}・{対話的|たいわてき}で{深|ふか}い{学|まな}び (proactive, interactive, and deep learning).\n\nCOMMON COLLOCATIONS:\n- {学習指導要領|がくしゅうしどうようりょう}の{改訂|かいてい} — revision of curriculum guidelines\n- {学習指導要領|がくしゅうしどうようりょう}に{基|もと}づく — based on the curriculum guidelines\n- {新|しん}{学習指導要領|がくしゅうしどうようりょう} — new curriculum guidelines\n- {学習指導要領|がくしゅうしどうようりょう}の{解説|かいせつ} — commentary on curriculum guidelines\n\nRELATED TERMS:\n- {教育課程|きょういくかてい} — curriculum; course of study (broader term)\n- {文部科学省|もんぶかがくしょう} — Ministry of Education (MEXT)\n- {教科書検定|きょうかしょけんてい} — textbook screening (government review of textbooks)",
-  "cross_references": [],
+  "notes": "The official framework governing education in Japan, issued by {文部科学省|もんぶかがくしょう} (MEXT, the Ministry of Education). It prescribes subjects, content, and objectives for elementary, junior high, and high school. Major revisions affect everything from textbook content to school schedules. The most recent revision emphasizes {主体的|しゅたいてき}・{対話的|たいわてき}で{深|ふか}い{学|まな}び (proactive, interactive, and deep learning).\n\nCOMMON COLLOCATIONS:\n- {学習指導要領|がくしゅうしどうようりょう}の{改訂|かいてい} — revision of curriculum guidelines\n- {学習指導要領|がくしゅうしどうようりょう}に{基|もと}づく — based on the curriculum guidelines\n- {新|しん}{学習指導要領|がくしゅうしどうようりょう} — new curriculum guidelines\n- {学習指導要領|がくしゅうしどうようりょう}の{解説|かいせつ} — commentary on curriculum guidelines\n\nRELATED WORDS:\n- {教育課程|きょういくかてい} — curriculum; course of study (broader term)\n- {文部科学省|もんぶかがくしょう} — Ministry of Education (MEXT)\n- {教科書検定|きょうかしょけんてい} — textbook screening (government review of textbooks)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23560_kyouikukatei",
+      "reading": "きょういくかてい",
+      "headword": "{教育|きょういく}{課程|かてい}",
+      "label": "curriculum"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10947_karikyuramu",
+      "reading": "かりきゅらむ",
+      "headword": "カリキュラム",
+      "label": "curriculum"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24023_jugyoukeikaku",
+      "reading": "じゅぎょうけいかく",
+      "headword": "{授業計画|じゅぎょうけいかく}",
+      "label": "lesson plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24688_kyoukakatei",
+      "reading": "きょうかかてい",
+      "headword": "{教科課程|きょうかかてい}",
+      "label": "curriculum"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["education", "politics"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "education",
+        "politics"
+      ]
     },
     "created": "2026-04-30T11:35:33Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

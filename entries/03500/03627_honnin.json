@@ -63,10 +63,33 @@
       ]
     }
   ],
-  "notes": "USAGE: {本人|ほんにん} emphasizes that you're referring to the actual person involved, not someone else on their behalf.\n\nCOMMON PATTERNS:\n・{本人|ほんにん}⟦に→に：00314_ni⟧ (to the person himself)\n・{本人|ほんにん}⟦から→から：00504_kara⟧ (from the person himself)\n・{本人|ほんにん}⟦{確認|かくにん}→確認：00158_kakunin⟧ (identity verification)\n・{本人|ほんにん}⟦の→の：09472_no⟧⟦{意思|いし}→意思：12742_ishi⟧ (the person's own will)\n・{本人|ほんにん}⟦の→の：09472_no⟧⟦{希望|きぼう}→希望：00221_kibou⟧ (the person's own wish)",
+  "notes": "USAGE: {本人|ほんにん} emphasizes that you're referring to the actual person involved, not someone else on their behalf.\n\nCOMMON PATTERNS:\n- {本人|ほんにん}⟦に→に：00314_ni⟧ (to the person himself)\n- {本人|ほんにん}⟦から→から：00504_kara⟧ (from the person himself)\n- {本人|ほんにん}⟦{確認|かくにん}→確認：00158_kakunin⟧ (identity verification)\n- {本人|ほんにん}⟦の→の：09472_no⟧⟦{意思|いし}→意思：12742_ishi⟧ (the person's own will)\n- {本人|ほんにん}⟦の→の：09472_no⟧⟦{希望|きぼう}→希望：00221_kibou⟧ (the person's own wish)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "19668_namami",
+      "reading": "なまみ",
+      "headword": "{生身|なまみ}",
+      "label": "flesh and blood"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23357_jiko",
+      "reading": "じこ",
+      "headword": "{自己|じこ}",
+      "label": "self"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26788_tounin",
+      "reading": "とうにん",
+      "headword": "{当人|とうにん}",
+      "label": "the person in question"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T15:38:00Z",
-    "modified": "2026-08-13T15:50:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

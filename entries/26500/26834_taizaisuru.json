@@ -3,7 +3,7 @@
   "headword": "{滞在|たいざい}する",
   "reading": "たいざいする",
   "romaji": "taizaisuru",
-  "part_of_speech": "verb-suru",
+  "part_of_speech": "suru verb",
   "gloss": "to stay; to sojourn; to reside temporarily",
   "definitions": [
     {
@@ -55,7 +55,36 @@
     }
   ],
   "notes": "Common in travel contexts and immigration discussions. The noun form {滞在|たいざい} is used frequently in hotel bookings, visa applications, and travel planning.\n\nCOMMON COLLOCATIONS:\n- {長期|ちょうき}{滞在|たいざい}: long-term stay\n- {短期|たんき}{滞在|たいざい}: short-term stay\n- {滞在|たいざい}{期間|きかん}: duration of stay\n- {滞在|たいざい}{先|さき}: place of stay\n- {滞在|たいざい}ビザ: residence visa\n- {滞在|たいざい}{費|ひ}: accommodation expenses\n\nSIMILAR WORDS:\n- {泊|と}まる: to stay overnight — specifically sleeping somewhere, typically one or a few nights\n- {住|す}む: to live — permanent residence, not temporary\n- {在住|ざいじゅう}する: to reside — formal term for where one lives",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10445_tomaru",
+      "reading": "とまる",
+      "headword": "{泊|と}まる",
+      "label": "to stay overnight"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00673_sumu",
+      "reading": "すむ",
+      "headword": "{住|す}む",
+      "label": "to live"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12052_zaijuu",
+      "reading": "ざいじゅう",
+      "headword": "{在住|ざいじゅう}",
+      "label": "to reside"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20231_shukuhakusuru",
+      "reading": "しゅくはくする",
+      "headword": "{宿泊|しゅくはく}する",
+      "label": "to stay overnight"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,7 +100,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T13:06:53Z",
-    "modified": "2026-06-15T07:59:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

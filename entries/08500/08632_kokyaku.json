@@ -43,7 +43,65 @@
       "notes": null
     }
   ],
-  "notes": "BUSINESS VOCABULARY:\n{顧客|こきゃく} is a formal business term. In everyday conversation, {客|きゃく} or お{客|きゃく}さん is more common.\n\nRELATED VOCABULARY:\n- {客|きゃく} - customer (casual)\n- お{客|きゃく}さん - customer (polite)\n- {得意先|とくいさき} - regular customer, client (business)\n- クライアント - client (loanword)\n\nCOMMON COLLOCATIONS:\n- {顧客|こきゃく}{満足度|まんぞくど} - customer satisfaction\n- {顧客|こきゃく}{管理|かんり} - customer management\n- {顧客|こきゃく}データ - customer data\n- {新規|しんき}{顧客|こきゃく} - new customer\n- {既存|きそん}{顧客|こきゃく} - existing customer\n- {顧客|こきゃく}{対応|たいおう} - customer service/handling",
+  "notes": "BUSINESS VOCABULARY:\n{顧客|こきゃく} is a formal business term. In everyday conversation, {客|きゃく} or お{客|きゃく}さん is more common.\n\nRELATED WORDS:\n- {客|きゃく} - customer (casual)\n- お{客|きゃく}さん - customer (polite)\n- {得意先|とくいさき} - regular customer, client (business)\n- クライアント - client (loanword)\n\nCOMMON COLLOCATIONS:\n- {顧客|こきゃく}{満足度|まんぞくど} - customer satisfaction\n- {顧客|こきゃく}{管理|かんり} - customer management\n- {顧客|こきゃく}データ - customer data\n- {新規|しんき}{顧客|こきゃく} - new customer\n- {既存|きそん}{顧客|こきゃく} - existing customer\n- {顧客|こきゃく}{対応|たいおう} - customer service/handling",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10253_okyakusan",
+      "reading": "おきゃくさん",
+      "headword": "お{客|きゃく}さん",
+      "label": "customer"
+    },
+    {
+      "type": "related",
+      "target_id": "21791_tokuisaki",
+      "reading": "とくいさき",
+      "headword": "{得意先|とくいさき}",
+      "label": "regular customer, client"
+    },
+    {
+      "type": "related",
+      "target_id": "04876_kuraianto",
+      "reading": "くらいあんと",
+      "headword": "クライアント",
+      "label": "client"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03189_riyousha",
+      "reading": "りようしゃ",
+      "headword": "{利用者|りようしゃ}",
+      "label": "user, customer"
+    },
+    {
+      "type": "related",
+      "target_id": "09866_shouhisha",
+      "reading": "しょうひしゃ",
+      "headword": "{消費者|しょうひしゃ}",
+      "label": "consumer"
+    },
+    {
+      "type": "related",
+      "target_id": "09990_otokui",
+      "reading": "おとくい",
+      "headword": "お{得意|とくい}",
+      "label": "specialty"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18953_irainin",
+      "reading": "いらいにん",
+      "headword": "{依頼人|いらいにん}",
+      "label": "client"
+    },
+    {
+      "type": "related",
+      "target_id": "21411_otokuisama",
+      "reading": "おとくいさま",
+      "headword": "お{得意様|とくいさま}",
+      "label": "valued customer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +109,7 @@
         "noun"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "domain": [
         "business"
       ],
@@ -60,6 +119,6 @@
       ]
     },
     "created": "2026-01-27T13:15:00Z",
-    "modified": "2026-06-22T12:50:00Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

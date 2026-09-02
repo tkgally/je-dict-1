@@ -3,7 +3,7 @@
   "headword": "{自給|じきゅう}",
   "reading": "じきゅう",
   "romaji": "jikyuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "self-sufficiency; self-supply",
   "definitions": [
     {
@@ -56,6 +56,29 @@
   ],
   "notes": "Composed of {自|じ} (self) and {給|きゅう} (supply, provide). Refers to meeting one's own needs through one's own production rather than by purchasing or importing. The term is especially common in discussions of national food policy, energy security, and rural or back-to-the-land lifestyles.\n\nUSAGE:\n- As a noun: {自給|じきゅう}が{難|むずか}しい (self-sufficiency is difficult)\n- As a suru-verb: {野菜|やさい}を{自給|じきゅう}する (to grow one's own vegetables)\n- Commonly combined with {率|りつ} (rate): {食料|しょくりょう}{自給率|じきゅうりつ} (food self-sufficiency rate)\n\nCOMMON COLLOCATIONS:\n- {食料|しょくりょう}{自給|じきゅう}: food self-sufficiency\n- {自給|じきゅう}{自足|じそく}: self-sufficiency (four-character idiom — supplying and meeting one's own needs)\n- エネルギー{自給|じきゅう}: energy self-sufficiency\n- {自給|じきゅう}{率|りつ}: self-sufficiency rate\n\nSIMILAR WORDS:\n- {自足|じそく}: self-sufficiency (meeting one's needs) — close in meaning; almost always paired with {自給|じきゅう} in the phrase {自給自足|じきゅうじそく}\n- {自活|じかつ}: supporting oneself, being financially independent — focuses on earning one's own living rather than producing goods\n- {自前|じまえ}: at one's own expense, doing it oneself — emphasizes personal funding or provision rather than production",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23684_jisoku",
+      "reading": "じそく",
+      "headword": "{自足|じそく}",
+      "label": "self-sufficiency"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16800_jikatsu",
+      "reading": "じかつ",
+      "headword": "{自活|じかつ}",
+      "label": "supporting oneself, being financially…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13936_jimae",
+      "reading": "じまえ",
+      "headword": "{自前|じまえ}",
+      "label": "at one's own expense, doing it oneself"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -71,7 +94,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-14T00:46:30Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -2,7 +2,7 @@
   "id": "07705_sontaku",
   "headword": "{忖度|そんたく}",
   "reading": "そんたく",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "surmising someone's wishes; reading between the lines; anticipating desires",
   "conjugation": {
     "type": "suru",
@@ -130,10 +130,33 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\nFrom classical Chinese: {忖|そん} (to measure, consider) + {度|たく} (to conjecture)\n\nCULTURAL NOTE:\nThis term gained widespread attention in 2017 during Japanese political scandals, where it was used to describe how officials allegedly acted to please superiors without explicit instructions. It reflects the Japanese cultural emphasis on reading the air ({空気|くうき}を{読|よ}む) and anticipating others' wishes.\n\nNUANCE:\nCan be neutral (normal social skill) or negative (inappropriate deference or sycophancy), depending on context.\n\nRELATED:\n・{察|さっ}する - to sense, perceive\n・{空気|くうき}を{読|よ}む - to read the room\n・{推|お}し{量|はか}る - to conjecture",
+  "notes": "ETYMOLOGY:\nFrom classical Chinese: {忖|そん} (to measure, consider) + {度|たく} (to conjecture)\n\nCULTURAL NOTE:\nThis term gained widespread attention in 2017 during Japanese political scandals, where it was used to describe how officials allegedly acted to please superiors without explicit instructions. It reflects the Japanese cultural emphasis on reading the air ({空気|くうき}を{読|よ}む) and anticipating others' wishes.\n\nUSAGE:\nCan be neutral (normal social skill) or negative (inappropriate deference or sycophancy), depending on context.\n\nRELATED WORDS:\n- {察|さっ}する - to sense, perceive\n- {空気|くうき}を{読|よ}む - to read the room\n- {推|お}し{量|はか}る - to conjecture",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08053_sassuru",
+      "reading": "さっする",
+      "headword": "{察|さっ}する",
+      "label": "to sense, perceive"
+    },
+    {
+      "type": "related",
+      "target_id": "06306_kuukiwoyomu",
+      "reading": "くうきをよむ",
+      "headword": "{空気|くうき}を{読|よ}む",
+      "label": "to read the room"
+    },
+    {
+      "type": "related",
+      "target_id": "22516_oshihakaru",
+      "reading": "おしはかる",
+      "headword": "{推|お}し{量|はか}る",
+      "label": "to conjecture"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +165,7 @@
         "verb-suru"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "society",
         "communication"

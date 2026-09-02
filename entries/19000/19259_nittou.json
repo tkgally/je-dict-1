@@ -17,7 +17,9 @@
       "id": "19259_nittou_ex1",
       "japanese": "{日当|にっとう}は{一万|いちまん}{円|えん}だ。",
       "english": "The daily pay is 10,000 yen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19259_nittou_ex2",
       "japanese": "{出張|しゅっちょう}の{日当|にっとう}が{支給|しきゅう}される。",
       "english": "A daily allowance is provided for business trips.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "19259_nittou_ex3",
       "japanese": "{裁判員|さいばんいん}には{日当|にっとう}として{一万|いちまん}{円|えん}{以内|いない}が{支払|しはら}われる。",
       "english": "Lay judges are paid up to 10,000 yen per day as a daily allowance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Refers to a fixed daily payment, distinct from regular salary or hourly wages. Common in contexts like business travel, temporary work, jury service, and volunteer compensation.\n\nCOMMON COLLOCATIONS:\n- {日当|にっとう}を{支払|しはら}う: to pay a daily allowance\n- {日当|にっとう}が{出|で}る: a per diem is provided\n- {出張|しゅっちょう}{日当|にっとう}: business trip per diem\n- {日当|にっとう}{制|せい}: daily pay system\n\nSIMILAR WORDS:\n- {日給|にっきゅう}: daily wage — specifically for work performed, while {日当|にっとう} can also cover travel expenses and non-work compensation\n- {手当|てあて}: allowance — broader term covering various types of supplemental pay\n\nNOTE:\nNot to be confused with {日当|ひあ}たり (sun exposure, sunlight), which uses the same kanji but a different reading.",
+  "notes": "Refers to a fixed daily payment, distinct from regular salary or hourly wages. Common in contexts like business travel, temporary work, jury service, and volunteer compensation.\n\nCOMMON COLLOCATIONS:\n- {日当|にっとう}を{支払|しはら}う: to pay a daily allowance\n- {日当|にっとう}が{出|で}る: a per diem is provided\n- {出張|しゅっちょう}{日当|にっとう}: business trip per diem\n- {日当|にっとう}{制|せい}: daily pay system\n\nSIMILAR WORDS:\n- {日給|にっきゅう}: daily wage — specifically for work performed, while {日当|にっとう} can also cover travel expenses and non-work compensation\n- {手当|てあて}: allowance — broader term covering various types of supplemental pay\n\nUSAGE:\nNot to be confused with {日当|ひあ}たり (sun exposure, sunlight), which uses the same kanji but a different reading.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07960_nikkyuu",
+      "reading": "にっきゅう",
+      "headword": "{日給|にっきゅう}",
+      "label": "daily wage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04881_teate",
+      "reading": "てあて",
+      "headword": "{手当|てあて}",
+      "label": "allowance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work", "money"]
+      "semantic": [
+        "work",
+        "money"
+      ]
     },
     "created": "2026-03-25T03:40:33Z",
-    "modified": "2026-03-25T03:40:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

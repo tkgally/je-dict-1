@@ -17,7 +17,9 @@
       "id": "24861_goukaban_ex1",
       "japanese": "{豪華版|ごうかばん}には{特典|とくてん}が{付|つ}く。",
       "english": "The deluxe edition comes with bonuses.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24861_goukaban_ex2",
       "japanese": "{限定|げんてい}{豪華版|ごうかばん}はすぐに{売|う}り{切|き}れた。",
       "english": "The limited deluxe edition sold out immediately.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "24861_goukaban_ex3",
       "japanese": "{通常版|つうじょうばん}と{豪華版|ごうかばん}のどちらを{買|か}うか{迷|まよ}ったが、{結局|けっきょく}{豪華版|ごうかばん}にした。",
       "english": "I was torn between the standard and deluxe editions, but ended up going with the deluxe.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {豪華|ごうか} (gorgeous/luxurious) + {版|ばん} (edition/version). Used for books, manga, DVDs, video games, and other products released in both standard and premium formats.\n\nCOMMON COLLOCATIONS:\n- {限定|げんてい}{豪華版|ごうかばん}: limited deluxe edition\n- {豪華版|ごうかばん}ボックス: deluxe box set\n- {初回|しょかい}{豪華版|ごうかばん}: first-run deluxe edition\n- {豪華版|ごうかばん}{特典|とくてん}: deluxe edition bonus items\n\nSIMILAR WORDS:\n- {通常版|つうじょうばん}: standard edition — the regular, lower-priced version\n- {普及版|ふきゅうばん}: popular/affordable edition — emphasizes wide availability and lower price\n- {特装版|とくそうばん}: special edition — focuses on unique packaging or binding\n- {限定版|げんていばん}: limited edition — emphasizes scarcity rather than luxury",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24869_fukyuuban",
+      "reading": "ふきゅうばん",
+      "headword": "{普及版|ふきゅうばん}",
+      "label": "popular/affordable edition"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17391_genteiban",
+      "reading": "げんていばん",
+      "headword": "{限定版|げんていばん}",
+      "label": "limited edition"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-04-21T10:30:33Z",
-    "modified": "2026-04-21T10:30:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

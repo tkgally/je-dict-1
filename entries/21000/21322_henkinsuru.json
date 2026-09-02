@@ -2,7 +2,7 @@
   "id": "21322_henkinsuru",
   "headword": "{返金|へんきん}する",
   "reading": "へんきんする",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to refund; to give money back",
   "definitions": [
     {
@@ -45,6 +45,29 @@
   ],
   "notes": "Compound of {返|へん} (return) + {金|きん} (money). A practical term frequently encountered in shopping, online purchases, and customer service situations.\n\nCOMMON COLLOCATIONS:\n- {全額|ぜんがく}{返金|へんきん}: full refund\n- {返金|へんきん}{保証|ほしょう}: money-back guarantee\n- {返金|へんきん}{手続|てつづ}き: refund procedure\n- {返金|へんきん}{対応|たいおう}: refund handling\n- {返金|へんきん}を{求|もと}める: to request a refund\n\nSIMILAR WORDS:\n- {払|はら}い{戻|もど}し: refund, reimbursement (often used for insurance or deposits)\n- {返品|へんぴん}する: to return goods (returning the product itself, not the money)\n- {弁償|べんしょう}する: to compensate (paying for damage or loss)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05465_henpin",
+      "reading": "へんぴん",
+      "headword": "{返品|へんぴん}",
+      "label": "to return goods"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14744_benshou",
+      "reading": "べんしょう",
+      "headword": "{弁償|べんしょう}",
+      "label": "to compensate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16528_haraimodosu",
+      "reading": "はらいもどす",
+      "headword": "{払|はら}い{戻|もど}す",
+      "label": "to refund"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T00:59:30Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

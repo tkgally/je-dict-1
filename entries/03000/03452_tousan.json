@@ -2,7 +2,7 @@
   "id": "03452_tousan",
   "headword": "{倒産|とうさん}",
   "reading": "とうさん",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "bankruptcy (corporate)",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {倒産|とうさん} specifically refers to corporate or business bankruptcy. For personal bankruptcy, use ⟦{破産|はさん}→破産：03555_hasan⟧.\n\nCOMMON PATTERNS:\n・{倒産|とうさん}⟦する→する：00392_suru⟧ (to go bankrupt - company)\n・{倒産|とうさん}⟦に→に：00314_ni⟧⟦{追|お}い{込|こ}まれる→追い込まれる：noentry⟧ (to be driven to bankruptcy)\n・{倒産|とうさん}⟦の→の：09472_no⟧⟦{危機|きき}→危機：11798_kiki⟧ (risk of bankruptcy)\n・⟦{連鎖|れんさ}→連鎖：10903_rensa⟧{倒産|とうさん} (chain/domino bankruptcies)\n\nCONTRAST WITH ⟦{破産|はさん}→破産：03555_hasan⟧:\n・{倒産|とうさん} - corporate/business bankruptcy\n・⟦{破産|はさん}→破産：03555_hasan⟧ - personal bankruptcy, general insolvency\n\nRELATED WORDS:\n・⟦{破産|はさん}→破産：03555_hasan⟧ (personal bankruptcy)\n・⟦{倒|たお}れる→倒れる：01160_taoreru⟧ (to collapse, fall)\n・⟦{経営|けいえい}→経営：02740_keiei⟧⟦{破綻|はたん}→破綻：09066_hatan⟧ (management failure)\n・⟦{廃業|はいぎょう}→廃業：20645_haigyou⟧ (closing a business)",
+  "notes": "USAGE: {倒産|とうさん} specifically refers to corporate or business bankruptcy. For personal bankruptcy, use ⟦{破産|はさん}→破産：03555_hasan⟧.\n\nCOMMON PATTERNS:\n- {倒産|とうさん}⟦する→する：00392_suru⟧ (to go bankrupt - company)\n- {倒産|とうさん}⟦に→に：00314_ni⟧⟦{追|お}い{込|こ}まれる→追い込まれる：noentry⟧ (to be driven to bankruptcy)\n- {倒産|とうさん}⟦の→の：09472_no⟧⟦{危機|きき}→危機：11798_kiki⟧ (risk of bankruptcy)\n- ⟦{連鎖|れんさ}→連鎖：10903_rensa⟧{倒産|とうさん} (chain/domino bankruptcies)\n\nCONTRAST WITH ⟦{破産|はさん}→破産：03555_hasan⟧:\n- {倒産|とうさん} - corporate/business bankruptcy\n- ⟦{破産|はさん}→破産：03555_hasan⟧ - personal bankruptcy, general insolvency\n\nRELATED WORDS:\n- ⟦{破産|はさん}→破産：03555_hasan⟧ (personal bankruptcy)\n- ⟦{倒|たお}れる→倒れる：01160_taoreru⟧ (to collapse, fall)\n- ⟦{経営|けいえい}→経営：02740_keiei⟧⟦{破綻|はたん}→破綻：09066_hatan⟧ (management failure)\n- ⟦{廃業|はいぎょう}→廃業：20645_haigyou⟧ (closing a business)",
   "cross_references": [
     {
       "type": "contrast",
@@ -148,11 +148,53 @@
       "headword": "{失業|しつぎょう}",
       "label": "unemployment",
       "target_id": "03179_shitsugyou"
+    },
+    {
+      "type": "related",
+      "target_id": "01160_taoreru",
+      "reading": "たおれる",
+      "headword": "{倒|たお}れる",
+      "label": "to collapse, fall"
+    },
+    {
+      "type": "related",
+      "target_id": "27268_keieihatan",
+      "reading": "けいえいはたん",
+      "headword": "{経営|けいえい}{破綻|はたん}",
+      "label": "management failure"
+    },
+    {
+      "type": "related",
+      "target_id": "20645_haigyou",
+      "reading": "はいぎょう",
+      "headword": "{廃業|はいぎょう}",
+      "label": "closing a business"
+    },
+    {
+      "type": "related",
+      "target_id": "09066_hatan",
+      "reading": "はたん",
+      "headword": "{破綻|はたん}",
+      "label": "failure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23595_hasansha",
+      "reading": "はさんしゃ",
+      "headword": "{破産者|はさんしゃ}",
+      "label": "bankrupt person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26906_keizaihatan",
+      "reading": "けいざいはたん",
+      "headword": "{経済|けいざい}{破綻|はたん}",
+      "label": "economic collapse"
     }
   ],
   "metadata": {
     "created": "2026-01-12T09:37:00Z",
-    "modified": "2026-08-13T15:50:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

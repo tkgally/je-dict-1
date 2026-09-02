@@ -3,7 +3,7 @@
   "id": "14817_sensui",
   "headword": "{潜水|せんすい}",
   "reading": "せんすい",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "diving; submerging",
   "conjugation": {
     "type": "suru",
@@ -135,10 +135,39 @@
     }
   ],
   "notes": "A compound of {潜|せん} (to dive, to lurk) and {水|すい} (water).\n\nCOMMON COLLOCATIONS:\n- {潜水艦|せんすいかん} (submarine)\n- {潜水|せんすい}{士|し} (professional diver)\n- {潜水|せんすい}{服|ふく} (diving suit)\n- スキューバ{潜水|せんすい} (scuba diving)\n- {潜水|せんすい}{時間|じかん} (dive time / submersion time)\n\nFor recreational scuba diving, ダイビング is more commonly used in casual speech. {潜水|せんすい} has a more formal or technical tone and is standard in military and professional contexts.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05238_daibingu",
+      "reading": "だいびんぐ",
+      "headword": "ダイビング",
+      "label": "diving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17516_chinbotsu",
+      "reading": "ちんぼつ",
+      "headword": "{沈没|ちんぼつ}",
+      "label": "sinking"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21983_sumoguri",
+      "reading": "すもぐり",
+      "headword": "{素潜|すもぐ}り",
+      "label": "free diving"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23452_sukyuuba",
+      "reading": "すきゅーば",
+      "headword": "スキューバ",
+      "label": "scuba"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T04:03:29Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

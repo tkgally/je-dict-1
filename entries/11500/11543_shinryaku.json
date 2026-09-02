@@ -2,7 +2,7 @@
   "id": "11543_shinryaku",
   "headword": "{侵略|しんりゃく}",
   "reading": "しんりゃく",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "invasion, aggression",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{侵略|しんりゃく} is a loaded term that implies blame and moral judgment. It is distinct from {侵攻|しんこう} (military offensive/incursion), which is more neutral and descriptive. In Japanese historical and political discourse, the choice between these terms is often significant.\n\nCOMMON COLLOCATIONS:\n・{侵略|しんりゃく}{戦争|せんそう} (war of aggression)\n・{侵略|しんりゃく}{者|しゃ} (invader, aggressor)\n・{侵略|しんりゃく}を{受|う}ける (be invaded)\n・{外国|がいこく}の{侵略|しんりゃく} (foreign invasion)",
+  "notes": "{侵略|しんりゃく} is a loaded term that implies blame and moral judgment. It is distinct from {侵攻|しんこう} (military offensive/incursion), which is more neutral and descriptive. In Japanese historical and political discourse, the choice between these terms is often significant.\n\nCOMMON COLLOCATIONS:\n- {侵略|しんりゃく}{戦争|せんそう} (war of aggression)\n- {侵略|しんりゃく}{者|しゃ} (invader, aggressor)\n- {侵略|しんりゃく}を{受|う}ける (be invaded)\n- {外国|がいこく}の{侵略|しんりゃく} (foreign invasion)",
   "cross_references": [
     {
       "type": "contrast",
@@ -141,11 +141,32 @@
       "headword": "{侵攻|しんこう}",
       "label": "neutral: military offensive",
       "target_id": "11614_shinkou"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11863_senryou",
+      "reading": "せんりょう",
+      "headword": "{占領|せんりょう}",
+      "label": "occupation, military conquest"
+    },
+    {
+      "type": "related",
+      "target_id": "19534_okasu",
+      "reading": "おかす",
+      "headword": "{侵|おか}す",
+      "label": "to invade"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24915_juurin",
+      "reading": "じゅうりん",
+      "headword": "{蹂躙|じゅうりん}",
+      "label": "trampling"
     }
   ],
   "metadata": {
     "created": "2026-02-17T02:59:28Z",
-    "modified": "2026-08-15T21:21:01Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

@@ -17,7 +17,9 @@
       "id": "20270_shitsugi_ex1",
       "japanese": "{質疑|しつぎ}{応答|おうとう}の{時間|じかん}です。",
       "english": "It's time for the Q&A session.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,30 +27,55 @@
       "id": "20270_shitsugi_ex2",
       "japanese": "{予算案|よさんあん}について{質疑|しつぎ}が{行|おこな}われた。",
       "english": "Questioning was conducted regarding the budget proposal.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
     {
       "id": "20270_shitsugi_ex3",
-      "japanese": "{発表|はっぴょう}の{後|あと}に{質疑|しつぎ}{応答|おうとう}の{時間|じかん}が{設|もう}けられているので、{質問|しつもん}があれば{そのときに}お{願|ねが}いします。",
+      "japanese": "{発表|はっぴょう}の{後|あと}に{質疑|しつぎ}{応答|おうとう}の{時間|じかん}が{設|もう}けられているので、{質問|しつもん}があればそのときにお{願|ねが}いします。",
       "english": "A Q&A session is scheduled after the presentation, so if you have questions, please ask then.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {質|しつ} (question) + {疑|ぎ} (doubt, inquiry). A formal word used primarily in official or institutional contexts.\n\nUSAGE:\nMost commonly appears in the compound {質疑|しつぎ}{応答|おうとう} (Q&A, question and answer). Used in parliamentary proceedings ({国会|こっかい}), business meetings, academic conferences, and other formal settings. More formal than {質問|しつもん} (question).\n\nCOMMON COLLOCATIONS:\n- {質疑|しつぎ}{応答|おうとう} — question and answer session, Q&A\n- {質疑|しつぎ}を{行|おこな}う — to conduct questioning\n- {質疑|しつぎ}{時間|じかん} — questioning period\n- {質疑|しつぎ}に{答|こた}える — to respond to questions\n\nSIMILAR WORDS:\n- {質問|しつもん} — question (general, everyday use)\n- {尋問|じんもん} — interrogation (legal/police context, more confrontational)\n- {審議|しんぎ} — deliberation (broader process of examining and discussing a matter)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00888_shitsumon",
+      "reading": "しつもん",
+      "headword": "{質問|しつもん}",
+      "label": "question"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19112_shingi",
+      "reading": "しんぎ",
+      "headword": "{審議|しんぎ}",
+      "label": "deliberation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication", "politics"]
+      "semantic": [
+        "communication",
+        "politics"
+      ]
     },
     "created": "2026-03-28T19:16:52Z",
-    "modified": "2026-03-28T19:16:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "20128_arechi_ex1",
       "japanese": "{荒|あ}れ{地|ち}を{耕|たがや}す。",
       "english": "To cultivate wasteland.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20128_arechi_ex2",
       "japanese": "この{辺|あた}りは{昔|むかし}{荒|あ}れ{地|ち}だった。",
       "english": "This area used to be wasteland.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "20128_arechi_ex3",
       "japanese": "{放棄|ほうき}された{農地|のうち}が{荒|あ}れ{地|ち}になってしまった。",
       "english": "The abandoned farmland has turned into wasteland.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {荒|あ}れ (rough, wild — from the verb {荒|あ}れる) + {地|ち} (land). Describes land that is wild, uncultivated, or deteriorated.\n\nCOMMON COLLOCATIONS:\n- {荒|あ}れ{地|ち}を{耕|たがや}す: to cultivate wasteland\n- {荒|あ}れ{地|ち}を{開拓|かいたく}する: to reclaim wasteland\n- {荒|あ}れ{地|ち}になる: to become wasteland\n- {荒|あ}れ{地|ち}が{広|ひろ}がる: wasteland spreads\n\nSIMILAR WORDS:\n- {不毛|ふもう}の{地|ち}: barren land — emphasizes lack of productivity; also used figuratively\n- {空|あ}き{地|ち}: vacant lot — unused urban land, not necessarily barren\n- {原野|げんや}: wilderness, open field — natural uncultivated land; more neutral than {荒|あ}れ{地|ち}\n- {廃墟|はいきょ}: ruins — abandoned buildings or structures, not just land\n\nUSAGE:\nAlso written as {荒地|あれち} without the okurigana. T.S. Eliot's famous poem \"The Waste Land\" is known in Japanese as {荒地|あれち}. In modern Japan, the issue of abandoned farmland ({耕作放棄地|こうさくほうきち}) becoming {荒|あ}れ{地|ち} is a growing social concern in rural areas.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15270_akichi",
+      "reading": "あきち",
+      "headword": "{空|あ}き{地|ち}",
+      "label": "vacant lot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11979_genya",
+      "reading": "げんや",
+      "headword": "{原野|げんや}",
+      "label": "wilderness, open field"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12453_haikyo",
+      "reading": "はいきょ",
+      "headword": "{廃墟|はいきょ}",
+      "label": "ruins"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature", "geography"]
+      "semantic": [
+        "nature",
+        "geography"
+      ]
     },
     "created": "2026-03-28T14:15:52Z",
-    "modified": "2026-03-28T14:15:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

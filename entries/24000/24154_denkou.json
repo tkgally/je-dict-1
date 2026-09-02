@@ -17,7 +17,9 @@
       "id": "24154_denkou_ex1",
       "japanese": "{電工|でんこう}を{呼|よ}んだ。",
       "english": "I called an electrician.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24154_denkou_ex2",
       "japanese": "{電工|でんこう}の{資格|しかく}を{取|と}りたい。",
       "english": "I want to get an electrician's license.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "24154_denkou_ex3",
       "japanese": "{父|ちち}は{長年|ながねん}{電工|でんこう}として{働|はたら}いてきた。",
       "english": "My father has worked as an electrician for many years.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,22 +47,45 @@
       "id": "24154_denkou_ex4",
       "japanese": "コンセントの{増設|ぞうせつ}は{電工|でんこう}に{頼|たの}んだほうがいい。",
       "english": "You should have an electrician handle adding electrical outlets.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "An abbreviation of {電気|でんき}{工事|こうじ}{士|し} (electrical construction worker) or {電気|でんき}{工|こう} (electrical worker). The word serves double duty: it refers to the person (electrician) and, as an abbreviation, to the trade or field of electrical work itself.\n\nThe formal license is called {電気|でんき}{工事|こうじ}{士|し}, with two levels: {第二種|だいにしゅ} (for residential/small-scale work) and {第一種|だいいっしゅ} (for large-scale industrial/commercial work). In everyday speech, {電工|でんこう} is the common shorthand for both the license and the profession.\n\nThe word also appears in major company names like {松下|まつした}{電工|でんこう} (Matsushita Electric Works, now Panasonic).\n\nCOMMON COLLOCATIONS:\n- {電工|でんこう}の{資格|しかく}: electrician's license\n- {電工|でんこう}{工事|こうじ}: electrical construction work\n- {電工|でんこう}ドラム: extension cord reel\n\nSIMILAR WORDS:\n- {電気|でんき}{工事|こうじ}{士|し}: licensed electrician — the formal, full term for the profession\n- {電気|でんき}{技師|ぎし}: electrical engineer — a higher-level technical role focused on design and systems\n- {配線|はいせん}{工|こう}: wiring worker — more specific to the wiring aspect of electrical work",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30200_denkikoujishi",
+      "reading": "でんきこうじし",
+      "headword": "電気工事士",
+      "label": "licensed electrician"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07091_denkigishi",
+      "reading": "でんきぎし",
+      "headword": "{電気技師|でんきぎし}",
+      "label": "electrical engineer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["occupation", "technology"]
+      "semantic": [
+        "occupation",
+        "technology"
+      ]
     },
     "created": "2026-04-17T20:12:12Z",
-    "modified": "2026-04-17T20:12:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "11542_kaidan",
   "headword": "{会談|かいだん}",
   "reading": "かいだん",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "conference, talks, meeting",
   "conjugation": {
     "type": "suru",
@@ -133,11 +133,40 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{会|かい} (meet) + {談|だん} (talk, discuss)\n\nUSAGE:\nUsed for formal discussions between leaders, officials, or representatives — typically in diplomatic or political contexts. Implies greater formality and importance than ordinary {会議|かいぎ} (meeting).\n\nCOMMON COLLOCATIONS:\n- {首脳|しゅのう}{会談|かいだん}: summit meeting\n- {日米|にちべい}{会談|かいだん}: Japan-US talks\n- {電話|でんわ}{会談|かいだん}: telephone conference\n- {会談|かいだん}を{行|おこな}う: to hold talks\n- {会談|かいだん}を{申|もう}し{入|い}れる: to request a meeting\n\nCONTRAST:\n- {会議|かいぎ}: meeting (general, any participants)\n- {会談|かいだん}: talks (formal, usually leaders/officials)\n- {対談|たいだん}: dialogue, interview (often published or broadcast)\n- {面談|めんだん}: interview, private meeting (often one-on-one)",
-  "cross_references": [],
+  "notes": "FORMS:\n{会|かい} (meet) + {談|だん} (talk, discuss)\n\nUSAGE:\nUsed for formal discussions between leaders, officials, or representatives — typically in diplomatic or political contexts. Implies greater formality and importance than ordinary {会議|かいぎ} (meeting).\n\nCOMMON COLLOCATIONS:\n- {首脳|しゅのう}{会談|かいだん}: summit meeting\n- {日米|にちべい}{会談|かいだん}: Japan-US talks\n- {電話|でんわ}{会談|かいだん}: telephone conference\n- {会談|かいだん}を{行|おこな}う: to hold talks\n- {会談|かいだん}を{申|もう}し{入|い}れる: to request a meeting\n\nSIMILAR WORDS:\n- {会議|かいぎ}: meeting (general, any participants)\n- {会談|かいだん}: talks (formal, usually leaders/officials)\n- {対談|たいだん}: dialogue, interview (often published or broadcast)\n- {面談|めんだん}: interview, private meeting (often one-on-one)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00710_kaigi",
+      "reading": "かいぎ",
+      "headword": "{会議|かいぎ}",
+      "label": "meeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19950_taidan",
+      "reading": "たいだん",
+      "headword": "{対談|たいだん}",
+      "label": "dialogue, interview"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08177_mendan",
+      "reading": "めんだん",
+      "headword": "{面談|めんだん}",
+      "label": "interview, private meeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11447_kaiken",
+      "reading": "かいけん",
+      "headword": "{会見|かいけん}",
+      "label": "press conference, interview, meeting"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T02:59:05Z",
-    "modified": "2026-07-01T09:49:53Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

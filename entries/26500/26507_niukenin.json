@@ -17,7 +17,9 @@
       "id": "26507_niukenin_ex1",
       "japanese": "{荷受人|にうけにん}の{名前|なまえ}を{確認|かくにん}する。",
       "english": "Check the name of the consignee.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26507_niukenin_ex2",
       "japanese": "{荷受人|にうけにん}が{不在|ふざい}のため、{荷物|にもつ}を{持|も}ち{帰|かえ}った。",
       "english": "The package was taken back because the recipient was not present.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,24 +37,40 @@
       "id": "26507_niukenin_ex3",
       "japanese": "{送|おく}り{状|じょう}には{荷送人|にだしにん}と{荷受人|にうけにん}の{両方|りょうほう}の{住所|じゅうしょ}を{記入|きにゅう}してください。",
       "english": "Please write both the sender's and the consignee's addresses on the shipping document.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {荷|に} (cargo, goods), {受|うけ} (receive), and {人|にん} (person). A term from logistics and shipping used on delivery slips, invoices, and trade documents. While {受取人|うけとりにん} is more common in everyday contexts, {荷受人|にうけにん} is the standard term in commercial shipping and freight.\n\nCOMMON COLLOCATIONS:\n- {荷受人|にうけにん}{住所|じゅうしょ}: consignee's address\n- {荷受人|にうけにん}{不在|ふざい}: consignee absent\n- {荷受人|にうけにん}{払|ばら}い: freight collect (consignee pays)\n\nSIMILAR WORDS:\n- {受取人|うけとりにん}: recipient — more general; used for packages, letters, and money\n- {届|とど}け{先|さき}: delivery destination — refers to the address rather than the person\n- {荷送人|にだしにん}: shipper/consignor — the person who sends the goods (the counterpart)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19162_uketorinin",
+      "reading": "うけとりにん",
+      "headword": "{受取人|うけとりにん}",
+      "label": "recipient"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     },
     "created": "2026-05-02T13:34:21Z",
-    "modified": "2026-05-02T13:34:21Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -46,12 +46,37 @@
   ],
   "notes": "The umbrella term for sciences that study the natural world through observation and experiment. Composed of {自然|しぜん} (nature) + {科学|かがく} (science). Contrasted with {人文|じんぶん}{科学|かがく} (humanities) and {社会|しゃかい}{科学|かがく} (social sciences) in Japanese academic classification.\n\nBRANCHES:\n- {物理学|ぶつりがく} — physics\n- {化学|かがく} — chemistry\n- {生物学|せいぶつがく} — biology\n- {地学|ちがく} / {地球|ちきゅう}{科学|かがく} — earth science\n- {天文学|てんもんがく} — astronomy\n\nCOMMON COLLOCATIONS:\n- {自然|しぜん}{科学|かがく}の{分野|ぶんや} — field of natural science\n- {自然|しぜん}{科学|かがく}{系|けい} — natural science track/department\n- {自然|しぜん}{科学|かがく}{研究|けんきゅう} — natural science research\n- {自然|しぜん}{科学|かがく}{博物館|はくぶつかん} — natural science museum\n\nSIMILAR WORDS:\n- {理科|りか} — science (school subject, especially in elementary and middle school)\n- {科学|かがく} — science (general term)\n- {人文|じんぶん}{科学|かがく} — humanities\n- {社会|しゃかい}{科学|かがく} — social sciences",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03994_rika",
+      "reading": "りか",
+      "headword": "{理科|りか}",
+      "label": "science"
+    },
+    {
+      "type": "related",
+      "target_id": "20794_kagakugijutsu",
+      "reading": "かがくぎじゅつ",
+      "headword": "{科学技術|かがくぎじゅつ}",
+      "label": "science and technology"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28867_rigaku",
+      "reading": "りがく",
+      "headword": "{理学|りがく}",
+      "label": "natural science"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "education",
         "science"
@@ -59,6 +84,6 @@
       "usage": []
     },
     "created": "2026-04-21T09:23:22Z",
-    "modified": "2026-04-21T09:23:22Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

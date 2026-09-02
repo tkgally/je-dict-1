@@ -46,6 +46,36 @@
   ],
   "notes": "Composed of {金融|きんゆう} (finance) + {機関|きかん} (institution, organization). A broad term encompassing banks, credit unions, insurance companies, securities firms, and other organizations that handle financial transactions.\n\nCOMMON COLLOCATIONS:\n- {金融機関|きんゆうきかん}に{預|あず}ける: to deposit at a financial institution\n- {金融機関|きんゆうきかん}の{窓口|まどぐち}: counter at a financial institution\n- {指定|してい}{金融機関|きんゆうきかん}: designated financial institution\n\nRELATED WORDS:\n- {銀行|ぎんこう}: bank — the most common type of financial institution\n- {信用金庫|しんようきんこ}: credit union — a smaller, community-based financial institution\n- {証券会社|しょうけんがいしゃ}: securities company — handles stock trading and investments",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00578_ginkou",
+      "reading": "ぎんこう",
+      "headword": "{銀行|ぎんこう}",
+      "label": "bank"
+    },
+    {
+      "type": "related",
+      "target_id": "24783_shinyoukinko",
+      "reading": "しんようきんこ",
+      "headword": "{信用金庫|しんようきんこ}",
+      "label": "credit union"
+    },
+    {
+      "type": "related",
+      "target_id": "24780_shoukengaisha",
+      "reading": "しょうけんがいしゃ",
+      "headword": "{証券会社|しょうけんがいしゃ}",
+      "label": "securities company"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22802_saikensha",
+      "reading": "さいけんしゃ",
+      "headword": "{債権者|さいけんしゃ}",
+      "label": "creditor"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -59,6 +89,6 @@
       ]
     },
     "created": "2026-03-31T21:38:42Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

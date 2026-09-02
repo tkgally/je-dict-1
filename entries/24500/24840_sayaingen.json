@@ -46,12 +46,36 @@
   ],
   "notes": "A common vegetable in Japanese cooking, eaten as the whole immature pod. The name comes from {莢|さや} (pod) + いんげん (from {隠元|いんげん}, the Zen monk Ingen who is said to have brought the bean to Japan in the 17th century). Also written as さや{隠元|いんげん} or {莢隠元|さやいんげん}.\n\nCOMMON DISHES:\n- さやいんげんの{胡麻|ごま}{和|あ}え — green beans with sesame dressing\n- さやいんげんの{天|てん}ぷら — green bean tempura\n- さやいんげんの{煮物|にもの} — simmered green beans\n- さやいんげんの{炒|いた}め{物|もの} — stir-fried green beans\n- さやいんげんの{肉|にく}{巻|ま}き — meat-wrapped green beans\n\nCOOKING TIPS:\n- Briefly blanched to retain bright color and crisp texture\n- Often used as a colorful garnish alongside {人参|にんじん} (carrot) in {弁当|べんとう}\n\nSIMILAR WORDS:\n- いんげん{豆|まめ} — kidney bean, common bean (the mature dried bean)\n- {枝豆|えだまめ} — edamame (immature soybeans, a different plant)\n- さやえんどう — snow pea (flatter, different species)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21197_edamame",
+      "reading": "えだまめ",
+      "headword": "{枝豆|えだまめ}",
+      "label": "edamame"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25566_sayaendou",
+      "reading": "さやえんどう",
+      "headword": "さやえんどう",
+      "label": "snow pea"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25094_ingenmame",
+      "reading": "いんげんまめ",
+      "headword": "いんげんまめ",
+      "label": "common bean"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "food",
         "nature"
@@ -59,6 +83,6 @@
       "usage": []
     },
     "created": "2026-04-21T09:27:15Z",
-    "modified": "2026-08-03T09:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

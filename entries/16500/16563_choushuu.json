@@ -3,7 +3,7 @@
   "id": "16563_choushuu",
   "headword": "{徴収|ちょうしゅう}",
   "reading": "ちょうしゅう",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "collection; levy",
   "conjugation": {
     "type": "suru",
@@ -149,11 +149,32 @@
       "reading": "かいしゅう",
       "headword": "{回収|かいしゅう}",
       "label": "recovery, collection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20289_toritateru",
+      "reading": "とりたてる",
+      "headword": "{取|と}り{立|た}てる",
+      "label": "to collect forcibly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22391_chouzei",
+      "reading": "ちょうぜい",
+      "headword": "{徴税|ちょうぜい}",
+      "label": "tax collection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26988_seikyuusuru",
+      "reading": "せいきゅうする",
+      "headword": "{請求|せいきゅう}する",
+      "label": "to bill"
     }
   ],
   "metadata": {
     "created": "2026-03-13T23:56:21Z",
-    "modified": "2026-05-04T07:39:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -46,6 +46,43 @@
   ],
   "notes": "Loanword from English 'replica'. Often implies an officially produced or high-quality copy, not a forgery or knockoff.\n\nCOMMON COLLOCATIONS:\n- レプリカユニフォーム: replica jersey (fan version of a team uniform)\n- レプリカを{作|つく}る: to make a replica\n- {精巧|せいこう}なレプリカ: a finely crafted replica\n\nSIMILAR WORDS:\n- {複製|ふくせい}: reproduction; duplicate — the native Japanese term; broader in scope\n- {模型|もけい}: model; scale model — typically a smaller-scale representation\n- {偽物|にせもの}: fake; counterfeit — implies deception, unlike レプリカ",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17528_fukusei",
+      "reading": "ふくせい",
+      "headword": "{複製|ふくせい}",
+      "label": "reproduction"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07079_mokei",
+      "reading": "もけい",
+      "headword": "{模型|もけい}",
+      "label": "model"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11521_nisemono",
+      "reading": "にせもの",
+      "headword": "{偽物|にせもの}",
+      "label": "fake"
+    },
+    {
+      "type": "antonym",
+      "target_id": "04215_jitsubutsu",
+      "reading": "じつぶつ",
+      "headword": "{実物|じつぶつ}",
+      "label": "the real thing, actual object"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18492_mozou",
+      "reading": "もぞう",
+      "headword": "{模造|もぞう}",
+      "label": "imitation"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,13 +90,13 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "general"
       ],
       "domain": []
     },
     "created": "2026-05-31T03:09:05Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

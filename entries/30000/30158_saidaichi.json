@@ -46,6 +46,22 @@
   ],
   "notes": "{最大|さいだい} (largest) + {値|ち} (value). The {値|ち} reading appears only in technical compounds; the same kanji is read {値|あたい} on its own.\n\nCOMMON COLLOCATIONS:\n- {最大値|さいだいち}を{求|もと}める: to find the maximum value\n- {最大値|さいだいち}を{取|と}る: to take its maximum value\n- {最大値|さいだいち}を{超|こ}える: to exceed the maximum value\n\nSIMILAR WORDS:\n- {最小値|さいしょうち}: minimum value — the direct opposite\n- {平均値|へいきんち}: average value — the same {値|ち} pattern applied to the mean",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "30166_saishouchi",
+      "reading": "さいしょうち",
+      "headword": "最小値",
+      "label": "minimum value"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30167_heikinchi",
+      "reading": "へいきんち",
+      "headword": "平均値",
+      "label": "average value"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "science",
         "quantity"
@@ -63,6 +79,6 @@
       ]
     },
     "created": "2026-07-27T03:18:27Z",
-    "modified": "2026-07-27T03:18:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

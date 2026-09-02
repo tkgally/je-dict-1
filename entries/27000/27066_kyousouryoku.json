@@ -17,7 +17,9 @@
       "id": "27066_kyousouryoku_ex1",
       "japanese": "この{製品|せいひん}は{競争力|きょうそうりょく}がある。",
       "english": "This product is competitive.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27066_kyousouryoku_ex2",
       "japanese": "{国際的|こくさいてき}な{競争力|きょうそうりょく}を{高|たか}めることが{急務|きゅうむ}だ。",
       "english": "Enhancing international competitiveness is an urgent task.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,45 @@
       "id": "27066_kyousouryoku_ex3",
       "japanese": "{人件費|じんけんひ}の{上昇|じょうしょう}により、{価格|かかく}{競争力|きょうそうりょく}が{低下|ていか}している。",
       "english": "Due to rising labor costs, price competitiveness is declining.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from {競争|きょうそう} (competition) + {力|りょく} (power, ability). A high-frequency term in business news, economic reports, and policy discussions. Describes the objective ability to compete, not the subjective desire to compete (which is {競争心|きょうそうしん}).\n\nCOMMON COLLOCATIONS:\n- {競争力|きょうそうりょく}がある: to be competitive\n- {競争力|きょうそうりょく}を{高|たか}める: to enhance competitiveness\n- {競争力|きょうそうりょく}を{失|うしな}う: to lose competitiveness\n- {価格|かかく}{競争力|きょうそうりょく}: price competitiveness\n- {国際|こくさい}{競争力|きょうそうりょく}: international competitiveness\n\nSIMILAR WORDS:\n- {競争心|きょうそうしん}: competitive spirit — subjective desire to compete, a personality trait\n- {実力|じつりょく}: real ability — broader term for capability, not specifically about competing\n- {優位性|ゆういせい}: superiority, advantage — the result of having competitiveness",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27063_kyousoushin",
+      "reading": "きょうそうしん",
+      "headword": "{競争心|きょうそうしん}",
+      "label": "competitive spirit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03277_jitsuryoku",
+      "reading": "じつりょく",
+      "headword": "{実力|じつりょく}",
+      "label": "real ability"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business", "economics"]
+      "semantic": [
+        "business",
+        "economics"
+      ]
     },
     "created": "2026-05-06T16:06:46Z",
-    "modified": "2026-05-06T16:06:46Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

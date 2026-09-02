@@ -17,7 +17,9 @@
       "id": "19249_uresuji_ex1",
       "japanese": "この{商品|しょうひん}は{売|う}れ{筋|すじ}だ。",
       "english": "This product is a best seller.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19249_uresuji_ex2",
       "japanese": "{売|う}れ{筋|すじ}ランキングを{確認|かくにん}した。",
       "english": "I checked the best-seller ranking.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,44 @@
       "id": "19249_uresuji_ex3",
       "japanese": "{今年|ことし}の{売|う}れ{筋|すじ}{商品|しょうひん}は{去年|きょねん}とだいぶ{違|ちが}う。",
       "english": "This year's top-selling products are quite different from last year's.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers to products or items that are selling well or are in high demand. The word combines {売|う}れる (to sell) and {筋|すじ} (line, trend), literally meaning \"the line/trend of selling.\"\n\nCOMMON COLLOCATIONS:\n- {売|う}れ{筋|すじ}{商品|しょうひん}: top-selling product\n- {売|う}れ{筋|すじ}ランキング: best-seller ranking\n- {売|う}れ{筋|すじ}{情報|じょうほう}: sales trend information\n\nSIMILAR WORDS:\n- {人気|にんき}{商品|しょうひん}: popular product — focuses on popularity/reputation rather than actual sales figures\n- {定番|ていばん}: standard/staple item — implies consistent long-term demand rather than current trending sales\n\nREGISTER:\nCommonly used in retail, e-commerce, and marketing contexts. Neutral register.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21609_ninkishouhin",
+      "reading": "にんきしょうひん",
+      "headword": "{人気|にんき}{商品|しょうひん}",
+      "label": "popular product"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12265_teiban",
+      "reading": "ていばん",
+      "headword": "{定番|ていばん}",
+      "label": "standard/staple item"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["shopping"]
+      "semantic": [
+        "shopping"
+      ]
     },
     "created": "2026-03-25T03:40:33Z",
-    "modified": "2026-03-25T03:40:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

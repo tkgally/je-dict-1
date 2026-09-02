@@ -19,7 +19,9 @@
       "english": "Where is the restroom?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15885_keshoushitsu_ex2",
@@ -27,7 +29,9 @@
       "english": "The restroom is on the second floor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15885_keshoushitsu_ex3",
@@ -35,10 +39,12 @@
       "english": "Before the meeting, I stopped by the powder room to freshen up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "COMPOSITION:\n{化粧|けしょう} (makeup, grooming) + {室|しつ} (room). Literally \"grooming room\" — a euphemistic way of saying toilet or bathroom.\n\nFORMALITY:\nThis is a polite, indirect term for a restroom. It is commonly seen on signs in upscale venues. In everyday conversation, トイレ or お{手洗|てあら}い are more common.\n\nCOMMON COLLOCATIONS:\n- {化粧室|けしょうしつ}に{行|い}く (to go to the restroom)\n- {化粧室|けしょうしつ}に{立|た}つ (to excuse oneself to the restroom)\n- {女性用化粧室|じょせいようけしょうしつ} (women's restroom)",
+  "notes": "ETYMOLOGY:\n{化粧|けしょう} (makeup, grooming) + {室|しつ} (room). Literally \"grooming room\" — a euphemistic way of saying toilet or bathroom.\n\nREGISTER:\nThis is a polite, indirect term for a restroom. It is commonly seen on signs in upscale venues. In everyday conversation, トイレ or お{手洗|てあら}い are more common.\n\nCOMMON COLLOCATIONS:\n- {化粧室|けしょうしつ}に{行|い}く (to go to the restroom)\n- {化粧室|けしょうしつ}に{立|た}つ (to excuse oneself to the restroom)\n- {女性用化粧室|じょせいようけしょうしつ} (women's restroom)",
   "cross_references": [
     {
       "type": "synonym",
@@ -46,18 +52,51 @@
       "reading": "おてあらい",
       "headword": "お{手洗|てあら}い",
       "label": "restroom (polite, everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00818_toire",
+      "reading": "といれ",
+      "headword": "トイレ",
+      "label": "toilet, bathroom"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12761_tearai",
+      "reading": "てあらい",
+      "headword": "{手洗|てあら}い",
+      "label": "handwashing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19472_benjo",
+      "reading": "べんじょ",
+      "headword": "{便所|べんじょ}",
+      "label": "toilet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23786_koushuutoire",
+      "reading": "こうしゅうといれ",
+      "headword": "{公衆|こうしゅう}トイレ",
+      "label": "public toilet"
     }
   ],
   "metadata": {
     "created": "2026-03-08T13:21:32Z",
-    "modified": "2026-05-02T07:20:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "polite",
-      "semantic": ["building", "daily-life"]
+      "semantic": [
+        "building",
+        "daily-life"
+      ]
     }
   }
 }

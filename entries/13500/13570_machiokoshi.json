@@ -19,7 +19,9 @@
       "english": "I participated in a town revitalization event.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13570_machiokoshi_ex2",
@@ -27,7 +29,9 @@
       "english": "Town revitalization using mascot characters became a hot topic nationwide.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13570_machiokoshi_ex3",
@@ -35,21 +39,56 @@
       "english": "Young people are taking the lead in town revitalization, converting a closed school into a café to attract tourists.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{町|まち}おこし is a key concept in Japanese regional policy, referring to grassroots or government-supported efforts to revive declining rural towns and small cities. It can also be written as {町興|まちおこ}し. The related term {村|むら}おこし is used specifically for village revitalization.\n\nCOMMON COLLOCATIONS:\n- {町|まち}おこしに{取|と}り{組|く}む (work on town revitalization)\n- {町|まち}おこしイベント (revitalization event)\n- {町|まち}おこしの{一環|いっかん}として (as part of town revitalization)\n\nSIMILAR WORDS:\n- {地域|ちいき}{活性化|かっせいか}: regional revitalization (more formal, policy-oriented)\n- {地方|ちほう}{創生|そうせい}: regional creation/revitalization (government policy term coined in 2014)\n- {村|むら}おこし: village revitalization (same concept for villages)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20989_chihousousei",
+      "reading": "ちほうそうせい",
+      "headword": "{地方創生|ちほうそうせい}",
+      "label": "regional creation/revitalization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21175_muraokoshi",
+      "reading": "むらおこし",
+      "headword": "{村|むら}おこし",
+      "label": "village revitalization"
+    },
+    {
+      "type": "related",
+      "target_id": "20911_chiikiokoshi",
+      "reading": "ちいきおこし",
+      "headword": "{地域|ちいき}おこし",
+      "label": "regional revitalization"
+    },
+    {
+      "type": "related",
+      "target_id": "23591_chiikishinkou",
+      "reading": "ちいきしんこう",
+      "headword": "{地域振興|ちいきしんこう}",
+      "label": "regional development"
+    }
+  ],
   "metadata": {
     "created": "2026-02-25T14:32:26Z",
-    "modified": "2026-07-10T15:27:25Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

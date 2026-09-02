@@ -3,7 +3,7 @@
   "headword": "{制覇|せいは}",
   "reading": "せいは",
   "romaji": "seiha",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "domination; conquest; winning it all",
   "definitions": [
     {
@@ -81,6 +81,43 @@
   ],
   "notes": "Literally \"to control and cover.\" The conquest sense (sense 1) covers markets, territory, and rivals; the sports sense (sense 2) is essentially winning a title, most often in the set phrase {全国|ぜんこく}{制覇|せいは}.\n\nCOMMON COLLOCATIONS:\n- {全国|ぜんこく}{制覇|せいは}: winning a national championship\n- {世界|せかい}{制覇|せいは}: world domination\n- {天下|てんか}{制覇|せいは}: conquering the realm\n- {市場|しじょう}を{制覇|せいは}する: to dominate a market\n\nSIMILAR WORDS:\n- {征服|せいふく}: conquest/subjugation — emphasizes forcibly subduing, especially by military means\n- {優勝|ゆうしょう}: winning a championship — the plain word for taking first place, without the nuance of dominating all rivals",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12546_seifuku",
+      "reading": "せいふく",
+      "headword": "{征服|せいふく}",
+      "label": "conquest/subjugation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03647_yuushou",
+      "reading": "ゆうしょう",
+      "headword": "{優勝|ゆうしょう}",
+      "label": "winning a championship"
+    },
+    {
+      "type": "related",
+      "target_id": "06573_renpa",
+      "reading": "れんぱ",
+      "headword": "{連覇|れんぱ}",
+      "label": "consecutive championship"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14113_haken",
+      "reading": "はけん",
+      "headword": "{覇権|はけん}",
+      "label": "hegemony, supremacy, dominance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25496_yuushousuru",
+      "reading": "ゆうしょうする",
+      "headword": "{優勝|ゆうしょう}する",
+      "label": "to win a championship"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -89,7 +126,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
@@ -97,7 +134,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-21T18:18:56Z",
-    "modified": "2026-07-21T18:18:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

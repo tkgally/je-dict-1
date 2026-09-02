@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {小銭|こぜに} (small change, coins) + {入|い}れ (container, holder). In Japan, many people carry a separate coin purse in addition to their {財布|さいふ} (wallet), since coins up to 500 yen are commonly used in everyday transactions.\n\nCOMMON COLLOCATIONS:\n- {革|かわ}の{小銭入|こぜにい}れ: leather coin purse\n- がま{口|ぐち}の{小銭入|こぜにい}れ: snap-clasp coin purse\n- {小銭入|こぜにい}れに{入|い}れる: to put in a coin purse\n\nRELATED TERMS:\n- {財布|さいふ}: wallet — the general-purpose wallet, may also hold coins\n- {札入|さつい}れ: billfold — a wallet specifically for bills\n- {小銭|こぜに}: small change, coins",
+  "notes": "Composed of {小銭|こぜに} (small change, coins) + {入|い}れ (container, holder). In Japan, many people carry a separate coin purse in addition to their {財布|さいふ} (wallet), since coins up to 500 yen are commonly used in everyday transactions.\n\nCOMMON COLLOCATIONS:\n- {革|かわ}の{小銭入|こぜにい}れ: leather coin purse\n- がま{口|ぐち}の{小銭入|こぜにい}れ: snap-clasp coin purse\n- {小銭入|こぜにい}れに{入|い}れる: to put in a coin purse\n\nRELATED WORDS:\n- {財布|さいふ}: wallet — the general-purpose wallet, may also hold coins\n- {札入|さつい}れ: billfold — a wallet specifically for bills\n- {小銭|こぜに}: small change, coins",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00663_saifu",
+      "reading": "さいふ",
+      "headword": "{財布|さいふ}",
+      "label": "wallet"
+    },
+    {
+      "type": "related",
+      "target_id": "22582_satsuire",
+      "reading": "さついれ",
+      "headword": "{札入|さつい}れ",
+      "label": "billfold"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25752_saifuire",
+      "reading": "さいふいれ",
+      "headword": "{財布入|さいふい}れ",
+      "label": "wallet case"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27565_gamaguchi",
+      "reading": "がまぐち",
+      "headword": "がま{口|ぐち}",
+      "label": "clasp purse"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-03-30T20:10:11Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

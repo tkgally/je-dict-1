@@ -18,7 +18,9 @@
       "english": "The boarding gate is number 23.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09927_toujouguchi_ex2",
@@ -26,7 +28,9 @@
       "english": "The boarding gate has been changed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09927_toujouguchi_ex3",
@@ -34,20 +38,64 @@
       "english": "Please come to the boarding gate at least 30 minutes before departure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Compound of {搭乗|とうじょう} (boarding) + {口|ぐち} (entrance/exit). An essential airport term.\n\nCOMMON COLLOCATIONS:\n- {搭乗口|とうじょうぐち}に{向|む}かう: to head to the boarding gate\n- {搭乗口|とうじょうぐち}で{待|ま}つ: to wait at the boarding gate\n- {搭乗口|とうじょうぐち}{番号|ばんごう}: gate number\n- {搭乗口|とうじょうぐち}{変更|へんこう}: gate change\n\nRELATED AIRPORT TERMS:\n- {搭乗|とうじょう}: boarding\n- {搭乗券|とうじょうけん}: boarding pass\n- {搭乗|とうじょう}{手続|てつづ}き: boarding procedures / check-in\n- {出発|しゅっぱつ}ロビー: departure lobby\n- ゲート: gate (English loanword, also commonly used)\n\nNOTE:\nIn airport announcements, you will hear {搭乗口|とうじょうぐち}. Casually, the loanword ゲート is also used. Printed boarding passes and airport signs typically show both.",
+  "notes": "Compound of {搭乗|とうじょう} (boarding) + {口|ぐち} (entrance/exit). An essential airport term.\n\nCOMMON COLLOCATIONS:\n- {搭乗口|とうじょうぐち}に{向|む}かう: to head to the boarding gate\n- {搭乗口|とうじょうぐち}で{待|ま}つ: to wait at the boarding gate\n- {搭乗口|とうじょうぐち}{番号|ばんごう}: gate number\n- {搭乗口|とうじょうぐち}{変更|へんこう}: gate change\n\nRELATED AIRPORT TERMS:\n- {搭乗|とうじょう}: boarding\n- {搭乗券|とうじょうけん}: boarding pass\n- {搭乗|とうじょう}{手続|てつづ}き: boarding procedures / check-in\n- {出発|しゅっぱつ}ロビー: departure lobby\n- ゲート: gate (English loanword, also commonly used)\n\nUSAGE:\nIn airport announcements, you will hear {搭乗口|とうじょうぐち}. Casually, the loanword ゲート is also used. Printed boarding passes and airport signs typically show both.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "17977_toujouken",
+      "reading": "とうじょうけん",
+      "headword": "{搭乗券|とうじょうけん}",
+      "label": "boarding pass"
+    },
+    {
+      "type": "related",
+      "target_id": "26118_shuppatsurobii",
+      "reading": "しゅっぱつろびー",
+      "headword": "{出発|しゅっぱつ}ロビー",
+      "label": "departure lobby"
+    },
+    {
+      "type": "related",
+      "target_id": "10851_geeto",
+      "reading": "げーと",
+      "headword": "ゲート",
+      "label": "gate"
+    },
+    {
+      "type": "related",
+      "target_id": "20029_touchakuguchi",
+      "reading": "とうちゃくぐち",
+      "headword": "{到着口|とうちゃくぐち}",
+      "label": "arrival gate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27272_joushaguchi",
+      "reading": "じょうしゃぐち",
+      "headword": "{乗車口|じょうしゃぐち}",
+      "label": "boarding entrance"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T06:17:12Z",
-    "modified": "2026-04-08T10:57:53Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["travel", "airport"]
+      "semantic": [
+        "travel",
+        "airport"
+      ]
     }
   }
 }

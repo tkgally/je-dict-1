@@ -3,7 +3,7 @@
   "headword": "{指圧|しあつ}",
   "reading": "しあつ",
   "romaji": "shiatsu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "shiatsu; finger-pressure massage",
   "definitions": [
     {
@@ -44,8 +44,24 @@
       "notes": null
     }
   ],
-  "notes": "Compound of {指|ゆび}/{指|し} (\"finger\") + {圧|あつ} (\"pressure\"). A traditional Japanese therapeutic practice that draws on Chinese medicine theory of meridians and pressure points but developed into a recognized profession in early-20th-century Japan. Practitioners are licensed nationally as {あん{摩|ま}マッサージ{指圧|しあつ}{師|し}}.\n\nCOMMON COLLOCATIONS:\n- {指圧|しあつ}する: to give a shiatsu massage\n- {指圧|しあつ}を{受|う}ける: to receive a shiatsu treatment\n- {指圧|しあつ}{師|し}: shiatsu practitioner\n- {指圧|しあつ}{療法|りょうほう}: shiatsu therapy\n\nSIMILAR WORDS:\n- マッサージ: massage — generic term; includes shiatsu, oil massage, etc.\n- {整体|せいたい}: chiropractic-like body adjustment — focuses on skeletal alignment\n- {鍼灸|しんきゅう}: acupuncture and moxibustion — uses needles and heat, not pressure",
+  "notes": "Compound of {指|ゆび}/{指|し} (\"finger\") + {圧|あつ} (\"pressure\"). A traditional Japanese therapeutic practice that draws on Chinese medicine theory of meridians and pressure points but developed into a recognized profession in early-20th-century Japan. Practitioners are licensed nationally as あん{摩|ま}マッサージ{指圧|しあつ}{師|し}.\n\nCOMMON COLLOCATIONS:\n- {指圧|しあつ}する: to give a shiatsu massage\n- {指圧|しあつ}を{受|う}ける: to receive a shiatsu treatment\n- {指圧|しあつ}{師|し}: shiatsu practitioner\n- {指圧|しあつ}{療法|りょうほう}: shiatsu therapy\n\nSIMILAR WORDS:\n- マッサージ: massage — generic term; includes shiatsu, oil massage, etc.\n- {整体|せいたい}: chiropractic-like body adjustment — focuses on skeletal alignment\n- {鍼灸|しんきゅう}: acupuncture and moxibustion — uses needles and heat, not pressure",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00272_massaaji",
+      "reading": "まっさーじ",
+      "headword": "マッサージ",
+      "label": "massage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27407_seitai",
+      "reading": "せいたい",
+      "headword": "{整体|せいたい}",
+      "label": "chiropractic-like body adjustment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health",
         "body-part"
@@ -65,7 +81,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-11T07:07:51Z",
-    "modified": "2026-08-07T16:10:18Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

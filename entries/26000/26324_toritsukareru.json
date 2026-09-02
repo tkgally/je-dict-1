@@ -3,7 +3,7 @@
   "headword": "{取|と}り{憑|つ}かれる",
   "reading": "とりつかれる",
   "romaji": "toritsukareru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to be possessed; to be obsessed",
   "definitions": [
     {
@@ -80,7 +80,15 @@
     }
   ],
   "notes": "The passive form of {取|と}り{憑|つ}く (to possess, to haunt). In practice, the passive {取|と}り{憑|つ}かれる is far more common than the active form, since the experience of being possessed is typically described from the victim's perspective.\n\nThe kanji {憑|つ}く specifically means to possess or haunt, distinguishing this from the homophone {取|と}り{付|つ}く (to attach to, to cling to).\n\nUSAGE:\nThe figurative sense (sense 2) is very productive in modern Japanese. The pattern ～に{取|と}り{憑|つ}かれたように (as if possessed by ~) is a common intensifier expressing single-minded devotion or compulsion.\n\nCOMMON COLLOCATIONS:\n- {悪霊|あくりょう}に{取|と}り{憑|つ}かれる: to be possessed by an evil spirit\n- {強迫|きょうはく}{観念|かんねん}に{取|と}り{憑|つ}かれる: to be gripped by an obsession\n- {取|と}り{憑|つ}かれたように: as if possessed\n- {妄想|もうそう}に{取|と}り{憑|つ}かれる: to be consumed by delusions\n\nSIMILAR WORDS:\n- {憑依|ひょうい}される: to be possessed (by a spirit) — more formal and literary\n- {夢中|むちゅう}になる: to be absorbed in — positive or neutral, unlike the compulsive nuance of {取|と}り{憑|つ}かれる",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18839_muchuuninaru",
+      "reading": "むちゅうになる",
+      "headword": "{夢中|むちゅう}になる",
+      "label": "to be absorbed in"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -88,6 +96,7 @@
       "pos": [
         "verb-ichidan"
       ],
+      "politeness": "plain",
       "semantic": [
         "religion",
         "emotion"
@@ -96,7 +105,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-04-30T16:23:54Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

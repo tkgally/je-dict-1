@@ -3,7 +3,7 @@
   "id": "12503_tousho",
   "headword": "{当初|とうしょ}",
   "reading": "とうしょ",
-  "part_of_speech": "noun / adverb",
+  "part_of_speech": "noun, adverb",
   "gloss": "initially, at first, originally",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "There was a change from the original plan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12503_tousho_ex2",
@@ -27,7 +29,9 @@
       "english": "I was against it at first, but now I agree.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12503_tousho_ex3",
@@ -35,22 +39,39 @@
       "english": "The construction cost significantly more than the initial estimate.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCan function as a noun modifying other nouns ({当初|とうしょ}の{計画|けいかく} = initial plan) or as an adverb ({当初|とうしょ}は = at first). Slightly formal in register. Almost always implies that what was originally the case has since changed.\n\nCOMMON PATTERNS:\n- {当初|とうしょ}の{予定|よてい}: the original schedule\n- {当初|とうしょ}の{目的|もくてき}: the original purpose\n- {当初|とうしょ}は〜だったが: at first it was... but\n- {当初|とうしょ}{予算|よさん}: initial budget",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11883_shotou",
+      "reading": "しょとう",
+      "headword": "{初頭|しょとう}",
+      "label": "beginning of a period"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T11:05:36Z",
-    "modified": "2026-02-21T11:05:36Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adverb"],
+      "pos": [
+        "noun",
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-general"],
-      "style": ["written"]
+      "semantic": [
+        "time-general"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

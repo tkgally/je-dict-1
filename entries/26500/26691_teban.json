@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Composed of {手|て} (hand; move) and {番|ばん} (turn; order). Most commonly used in the context of {将棋|しょうぎ} (Japanese chess) and {囲碁|いご} (go), but also applies to any turn-based game including modern board games and video games.\n\nCOMMON COLLOCATIONS:\n- {手番|てばん}が{来|く}る: for one's turn to come\n- {手番|てばん}を{渡|わた}す: to pass one's turn\n- {先手|せんて}の{手番|てばん}: the first player's turn\n- {手番|てばん}を{無駄|むだ}にする: to waste one's turn\n\nSIMILAR WORDS:\n- {番|ばん}: turn — more general; used in everyday contexts ({次|つぎ}は{私|わたし}の{番|ばん})\n- {順番|じゅんばん}: order/sequence — refers to the ordering of turns rather than a single turn\n- {先手|せんて}: first move/initiative — specifically the right to go first",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03283_junban",
+      "reading": "じゅんばん",
+      "headword": "{順番|じゅんばん}",
+      "label": "order/sequence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10556_sente",
+      "reading": "せんて",
+      "headword": "{先手|せんて}",
+      "label": "first move/initiative"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "entertainment",
         "leisure"
       ]
     },
     "created": "2026-05-04T13:52:06Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

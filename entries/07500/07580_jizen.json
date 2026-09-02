@@ -2,7 +2,7 @@
   "id": "07580_jizen",
   "headword": "{事前|じぜん}",
   "reading": "じぜん",
-  "part_of_speech": "noun/adverb",
+  "part_of_speech": "noun, adverb",
   "gloss": "beforehand; in advance; prior",
   "definitions": [
     {
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{事|じ} (matter, event) + {前|ぜん} (before)\nLiterally: \"before the matter\" → \"beforehand\"\n\nGRAMMAR:\nCan function as:\n・Adverb: {事前|じぜん}に〜 (in advance ~)\n・Noun modifier: {事前|じぜん}の〜 (prior ~, advance ~)\n\nCOMMON COLLOCATIONS:\n・{事前|じぜん}に{連絡|れんらく}する - to contact in advance\n・{事前|じぜん}{予約|よやく} - advance reservation\n・{事前|じぜん}{準備|じゅんび} - prior preparation\n・{事前|じぜん}{承認|しょうにん} - prior approval\n・{事前|じぜん}{登録|とうろく} - pre-registration\n\nANTONYM:\n・{事後|じご} - after the fact, post-\n\nSIMILAR WORDS:\n・{前|まえ}もって - in advance, beforehand\n・あらかじめ - beforehand, previously",
+  "notes": "ETYMOLOGY:\n{事|じ} (matter, event) + {前|ぜん} (before)\nLiterally: \"before the matter\" → \"beforehand\"\n\nCOMMON PATTERNS:\nCan function as:\n- Adverb: {事前|じぜん}に〜 (in advance ~)\n- Noun modifier: {事前|じぜん}の〜 (prior ~, advance ~)\n\nCOMMON COLLOCATIONS:\n- {事前|じぜん}に{連絡|れんらく}する - to contact in advance\n- {事前|じぜん}{予約|よやく} - advance reservation\n- {事前|じぜん}{準備|じゅんび} - prior preparation\n- {事前|じぜん}{承認|しょうにん} - prior approval\n- {事前|じぜん}{登録|とうろく} - pre-registration\n\nSIMILAR WORDS:\n- {事後|じご} - after the fact, post-\n- {前|まえ}もって - in advance, beforehand\n- あらかじめ - beforehand, previously",
   "cross_references": [
     {
       "type": "antonym",
@@ -55,11 +55,25 @@
       "reading": "みぜんに",
       "headword": "{未然|みぜん}に",
       "label": "prevention-focused (formal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03765_maemotte",
+      "reading": "まえもって",
+      "headword": "{前|まえ}もって",
+      "label": "in advance, beforehand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05734_arakajime",
+      "reading": "あらかじめ",
+      "headword": "{予|あらかじ}め",
+      "label": "beforehand, previously"
     }
   ],
   "metadata": {
     "created": "2026-01-20T10:31:31Z",
-    "modified": "2026-08-11T09:37:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -68,6 +82,7 @@
         "adverb"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ]

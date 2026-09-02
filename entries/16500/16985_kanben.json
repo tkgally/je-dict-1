@@ -3,7 +3,7 @@
   "id": "16985_kanben",
   "headword": "{簡便|かんべん}",
   "reading": "かんべん",
-  "part_of_speech": "adjective (na)",
+  "part_of_speech": "na-adjective",
   "gloss": "handy; simple; convenient",
   "definitions": [
     {
@@ -19,7 +19,9 @@
       "english": "I checked using a simple method.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16985_kanben_ex2",
@@ -27,7 +29,9 @@
       "english": "This tool is handy and easy to use.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16985_kanben_ex3",
@@ -35,7 +39,9 @@
       "english": "It's designed so that anyone can use it with simple operation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal word combining {簡|かん} (simple) and {便|べん} (convenient). Common in technical writing, product descriptions, and formal documents. Less casual than {簡単|かんたん}.\n\nCOMMON COLLOCATIONS:\n- {簡便|かんべん}な{方法|ほうほう} (a simple method)\n- {簡便|かんべん}な{操作|そうさ} (simple operation)\n- {簡便|かんべん}さ (simplicity, handiness)\n\nSIMILAR WORDS:\n- {簡単|かんたん}: simple, easy — more common and casual\n- {手軽|てがる}: easy, casual — emphasizes lack of effort or formality\n- {便利|べんり}: convenient — focuses on usefulness",
@@ -46,18 +52,36 @@
       "reading": "かんたん",
       "headword": "{簡単|かんたん}",
       "label": "common, casual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07176_tegaru",
+      "reading": "てがる",
+      "headword": "{手軽|てがる}",
+      "label": "easy, casual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00830_benri",
+      "reading": "べんり",
+      "headword": "{便利|べんり}",
+      "label": "convenient"
     }
   ],
   "metadata": {
     "created": "2026-03-15T04:41:42Z",
-    "modified": "2026-05-05T06:07:12Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

@@ -17,21 +17,27 @@
       "japanese": "{日用品|にちようひん}を{買|か}いに{行|い}く。",
       "english": "To go buy daily necessities.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09547_nichiyouhin_ex2",
       "japanese": "{日用品|にちようひん}{売|う}り{場|ば}はどこですか。",
       "english": "Where is the daily necessities section?",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09547_nichiyouhin_ex3",
       "japanese": "ドラッグストアで{日用品|にちようひん}と{食品|しょくひん}を{買|か}った。",
       "english": "I bought daily necessities and food at the drugstore.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{日用品|にちようひん} combines {日用|にちよう} (daily use) + {品|ひん} (goods). It covers toiletries, cleaning supplies, and household basics.\n\nCOMMON ITEMS:\n- {洗剤|せんざい}: detergent\n- {石鹸|せっけん}: soap\n- {歯磨|はみが}き{粉|こ}: toothpaste\n- トイレットペーパー: toilet paper\n- ティッシュ: tissues\n\nCOMMON COLLOCATIONS:\n- {日用品|にちようひん}{売|う}り{場|ば}: daily necessities section\n- {日用品|にちようひん}を{揃|そろ}える: to stock up on daily necessities\n- {日用品|にちようひん}を{買|か}い{足|た}す: to restock daily necessities\n\nSIMILAR WORDS:\n- {消耗品|しょうもうひん}: consumables (items that get used up)\n- {生活|せいかつ}{用品|ようひん}: household goods (broader category)\n- {雑貨|ざっか}: miscellaneous goods, sundries",
@@ -42,18 +48,50 @@
       "reading": "しょうもうひん",
       "headword": "{消耗品|しょうもうひん}",
       "label": "consumables"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24177_seikatsuyouhin",
+      "reading": "せいかつようひん",
+      "headword": "{生活用品|せいかつようひん}",
+      "label": "household goods"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10008_zakka",
+      "reading": "ざっか",
+      "headword": "{雑貨|ざっか}",
+      "label": "miscellaneous goods, sundries"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17009_zeitakuhin",
+      "reading": "ぜいたくひん",
+      "headword": "{贅沢品|ぜいたくひん}",
+      "label": "luxury item"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26100_shouhizai",
+      "reading": "しょうひざい",
+      "headword": "{消費財|しょうひざい}",
+      "label": "consumer goods"
     }
   ],
   "metadata": {
     "created": "2026-02-02T10:41:26Z",
-    "modified": "2026-04-23T05:18:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

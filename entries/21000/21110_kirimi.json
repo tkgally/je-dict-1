@@ -17,7 +17,9 @@
       "id": "21110_kirimi_ex1",
       "japanese": "{鮭|さけ}の{切|き}り{身|み}を{買|か}った。",
       "english": "I bought a salmon fillet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21110_kirimi_ex2",
       "japanese": "{切|き}り{身|み}に{塩|しお}を{振|ふ}って{焼|や}く。",
       "english": "Sprinkle salt on the fillet and grill it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "21110_kirimi_ex3",
       "japanese": "スーパーで{新鮮|しんせん}な{魚|さかな}の{切|き}り{身|み}が{半額|はんがく}になっていた。",
       "english": "Fresh fish fillets were half price at the supermarket.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The standard word for pre-cut portions of fish (or sometimes meat) as sold in stores and used in cooking. Most commonly refers to fish — a typical supermarket fish counter sells fish as {切|き}り{身|み} rather than whole.\n\nCOMMON COLLOCATIONS:\n- {鮭|さけ}の{切|き}り{身|み}: salmon fillet\n- {鯖|さば}の{切|き}り{身|み}: mackerel fillet\n- {切|き}り{身|み}を{焼|や}く: to grill a fillet\n- {切|き}り{身|み}{魚|ざかな}: fish sold as fillets\n\nRELATED TERMS:\n- {刺身|さしみ}: sashimi — raw fish sliced thin for eating as-is, distinct from {切|き}り{身|み} which is for cooking\n- {柵|さく}: a block of sashimi-grade fish before slicing\n- {丸|まる}ごと: whole (fish) — the opposite of {切|き}り{身|み}",
+  "notes": "The standard word for pre-cut portions of fish (or sometimes meat) as sold in stores and used in cooking. Most commonly refers to fish — a typical supermarket fish counter sells fish as {切|き}り{身|み} rather than whole.\n\nCOMMON COLLOCATIONS:\n- {鮭|さけ}の{切|き}り{身|み}: salmon fillet\n- {鯖|さば}の{切|き}り{身|み}: mackerel fillet\n- {切|き}り{身|み}を{焼|や}く: to grill a fillet\n- {切|き}り{身|み}{魚|ざかな}: fish sold as fillets\n\nRELATED WORDS:\n- {刺身|さしみ}: sashimi — raw fish sliced thin for eating as-is, distinct from {切|き}り{身|み} which is for cooking\n- {柵|さく}: a block of sashimi-grade fish before slicing\n- {丸|まる}ごと: whole (fish) — the opposite of {切|き}り{身|み}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04023_sashimi",
+      "reading": "さしみ",
+      "headword": "{刺身|さしみ}",
+      "label": "sashimi"
+    },
+    {
+      "type": "related",
+      "target_id": "13103_saku",
+      "reading": "さく",
+      "headword": "{柵|さく}",
+      "label": "a block of sashimi-grade fish before…"
+    },
+    {
+      "type": "antonym",
+      "target_id": "10545_marugoto",
+      "reading": "まるごと",
+      "headword": "{丸|まる}ごと",
+      "label": "whole"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25661_nikuhen",
+      "reading": "にくへん",
+      "headword": "{肉片|にくへん}",
+      "label": "piece of meat"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     },
     "created": "2026-03-31T20:14:39Z",
-    "modified": "2026-03-31T20:14:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

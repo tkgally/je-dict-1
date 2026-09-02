@@ -3,7 +3,7 @@
   "headword": "{潜水|せんすい}する",
   "reading": "せんすいする",
   "romaji": "sensuisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to dive underwater; to submerge",
   "definitions": [
     {
@@ -47,6 +47,22 @@
   "notes": "A する verb composed of {潜|せん} (dive, submerge) + {水|すい} (water). Used for both human diving and submarine operations.\n\nCOMMON COLLOCATIONS:\n- {潜水|せんすい}{艦|かん}: submarine\n- {潜水|せんすい}{士|し}: professional diver\n- {潜水|せんすい}{服|ふく}: diving suit\n- {潜水|せんすい}{病|びょう}: decompression sickness (the bends)\n\nSIMILAR WORDS:\n- {潜|もぐ}る: to dive, to go under water — everyday native Japanese word for the same action\n- ダイビング: diving (loanword) — usually refers to recreational scuba diving\n- {素潜|すもぐ}り: free diving, skin diving — diving without equipment",
   "conjugation_type": "suru",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03931_moguru",
+      "reading": "もぐる",
+      "headword": "{潜|もぐ}る",
+      "label": "to dive, to go under water"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21983_sumoguri",
+      "reading": "すもぐり",
+      "headword": "{素潜|すもぐ}り",
+      "label": "free diving, skin diving"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-31T09:51:08Z",
-    "modified": "2026-07-29T00:22:41Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

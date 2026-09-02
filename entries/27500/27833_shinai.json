@@ -17,7 +17,9 @@
       "id": "27833_shinai_ex1",
       "japanese": "{竹刀|しない}を{構|かま}える。",
       "english": "to take a stance with the bamboo sword",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27833_shinai_ex2",
       "japanese": "{剣道|けんどう}の{練習|れんしゅう}で{竹刀|しない}を{振|ふ}る。",
       "english": "I swing a shinai during kendo practice.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "27833_shinai_ex3",
       "japanese": "{試合|しあい}の{前|まえ}に、{竹刀|しない}に{割|わ}れやひびがないか{丁寧|ていねい}に{点検|てんけん}する。",
       "english": "Before a match, you carefully inspect the shinai for splits or cracks.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The bamboo practice sword used in {剣道|けんどう} (kendo), made of four bamboo staves bound with leather fittings so practitioners can strike safely. The reading しない is irregular and does not follow the on'yomi of the kanji.\n\nCOMMON COLLOCATIONS:\n- {竹刀|しない}を{構|かま}える: to take a stance with the shinai\n- {竹刀|しない}を{振|ふ}る: to swing the shinai\n- {竹刀|しない}{稽古|げいこ}: practice with the bamboo sword\n\nSIMILAR WORDS:\n- {木刀|ぼくとう}: wooden sword — solid wood, used for forms practice ({型|かた})\n- {真剣|しんけん}: a real, live steel sword",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19389_bokutou",
+      "reading": "ぼくとう",
+      "headword": "{木刀|ぼくとう}",
+      "label": "wooden sword"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01565_shinken",
+      "reading": "しんけん",
+      "headword": "{真剣|しんけん}",
+      "label": "a real, live steel sword"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["sports", "culture"],
+      "politeness": "plain",
+      "semantic": [
+        "sports",
+        "culture"
+      ],
       "domain": []
     },
     "created": "2026-05-19T04:03:25Z",
-    "modified": "2026-05-19T04:03:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

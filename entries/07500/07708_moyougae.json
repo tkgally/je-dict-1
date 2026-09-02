@@ -2,7 +2,7 @@
   "id": "07708_moyougae",
   "headword": "{模様替|もようが}え",
   "reading": "もようがえ",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "room rearrangement; redecorating; changing the layout",
   "conjugation": {
     "type": "suru",
@@ -130,10 +130,40 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{模様|もよう} (pattern, appearance) + {替|か}え (change) - changing the appearance/pattern (of a room)\n\nSCOPE:\nCan range from simply moving furniture around to more extensive redecorating with new curtains, rugs, or paint.\n\nRELATED:\n・{衣替|ころもが}え - seasonal wardrobe change\n・{引|ひ}っ{越|こ}し - moving (to a new home)\n・インテリア - interior decor\n\nCOLLOCATIONS:\n・{部屋|へや}の{模様替|もようが}え - room rearrangement\n・{模様替|もようが}えをする - to redecorate",
+  "notes": "ETYMOLOGY:\n{模様|もよう} (pattern, appearance) + {替|か}え (change) - changing the appearance/pattern (of a room)\n\nUSAGE:\nCan range from simply moving furniture around to more extensive redecorating with new curtains, rugs, or paint.\n\nRELATED WORDS:\n- {衣替|ころもが}え - seasonal wardrobe change\n- {引|ひ}っ{越|こ}し - moving (to a new home)\n- インテリア - interior decor\n\nCOMMON COLLOCATIONS:\n- {部屋|へや}の{模様替|もようが}え - room rearrangement\n- {模様替|もようが}えをする - to redecorate",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "07709_koromogae",
+      "reading": "ころもがえ",
+      "headword": "{衣替|ころもが}え",
+      "label": "seasonal wardrobe change"
+    },
+    {
+      "type": "related",
+      "target_id": "22335_interia",
+      "reading": "いんてりあ",
+      "headword": "インテリア",
+      "label": "interior decor"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21982_haichigae",
+      "reading": "はいちがえ",
+      "headword": "{配置換|はいちが}え",
+      "label": "reassignment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29987_sekigae",
+      "reading": "せきがえ",
+      "headword": "{席替|せきが}え",
+      "label": "changing seats"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +172,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life"
       ],

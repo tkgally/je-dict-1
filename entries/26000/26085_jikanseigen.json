@@ -17,7 +17,9 @@
       "id": "26085_jikanseigen_ex1",
       "japanese": "この{試験|しけん}には{時間制限|じかんせいげん}がある。",
       "english": "This exam has a time limit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26085_jikanseigen_ex2",
       "japanese": "{食|た}べ{放題|ほうだい}は90{分|ぷん}の{時間制限|じかんせいげん}です。",
       "english": "The all-you-can-eat has a 90-minute time limit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "26085_jikanseigen_ex3",
       "japanese": "{時間制限|じかんせいげん}がないと、だらだらと{仕事|しごと}をしてしまいがちだ。",
       "english": "Without a time limit, people tend to work in a lazy, drawn-out way.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {時間|じかん} (time) and {制限|せいげん} (limit, restriction). A very practical term encountered frequently in everyday Japanese life.\n\nCOMMON COLLOCATIONS:\n- {時間制限|じかんせいげん}がある / ない — there is / is no time limit\n- {時間制限|じかんせいげん}を{設|もう}ける — to set a time limit\n- {時間制限|じかんせいげん}{付|つ}き — with a time limit\n- {時間制限|じかんせいげん}{内|ない}に — within the time limit\n\nSIMILAR WORDS:\n- {制限時間|せいげんじかん} — time limit (same meaning, reversed word order; more commonly used for exams and competitions)\n- {期限|きげん} — deadline, expiration date (for submissions, payments, products)\n- {締|し}め{切|き}り — deadline (especially for work submissions)\n\nNOTE ON WORD ORDER:\n{時間制限|じかんせいげん} and {制限時間|せいげんじかん} are often interchangeable, but {制限時間|せいげんじかん} tends to emphasize the specific allotted time (\"the allotted time is 60 minutes\"), while {時間制限|じかんせいげん} emphasizes the existence of the restriction itself (\"there is a time limit\").",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30577_seigenjikan",
+      "reading": "せいげんじかん",
+      "headword": "{制限時間|せいげんじかん}",
+      "label": "time limit (same meaning, reversed word…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12861_kigen",
+      "reading": "きげん",
+      "headword": "{期限|きげん}",
+      "label": "deadline, expiration date"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04162_shimekiri",
+      "reading": "しめきり",
+      "headword": "{締|し}め{切|き}り",
+      "label": "deadline"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     },
     "created": "2026-04-29T12:40:26Z",
-    "modified": "2026-04-29T12:40:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

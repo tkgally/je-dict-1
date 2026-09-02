@@ -17,7 +17,9 @@
       "id": "28740_joushinko_ex1",
       "japanese": "{上新粉|じょうしんこ}で{団子|だんご}を{作|つく}る。",
       "english": "I make dango with non-glutinous rice flour.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28740_joushinko_ex2",
       "japanese": "{上新粉|じょうしんこ}を{熱湯|ねっとう}でこねる。",
       "english": "Knead the rice flour with boiling water.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "28740_joushinko_ex3",
       "japanese": "{上新粉|じょうしんこ}は{蒸|む}してからつくと、{滑|なめ}らかでこしのある{団子|だんご}になる。",
       "english": "If you steam and then pound non-glutinous rice flour, you get smooth, chewy dango.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Made from うるち{米|まい} (regular short-grain rice), unlike もち{米|ごめ} (glutinous rice) which produces もち{粉|こ} and {白玉粉|しらたまこ}. Gives a firmer, chewier texture than glutinous rice flours.\n\nSIMILAR FLOURS:\n- {白玉粉|しらたまこ}: shiratamako — from glutinous rice; for soft, smooth dango\n- もち{粉|こ}: mochi flour — from glutinous rice; for soft mochi\n- {団子粉|だんごこ}: dango flour — usually a blend of {上新粉|じょうしんこ} and {白玉粉|しらたまこ}\n- {道明寺粉|どうみょうじこ}: coarse glutinous rice flour for sakura-mochi",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24188_shiratamako",
+      "reading": "しらたまこ",
+      "headword": "{白玉粉|しらたまこ}",
+      "label": "shiratamako"
+    },
+    {
+      "type": "related",
+      "target_id": "24971_mochiko",
+      "reading": "もちこ",
+      "headword": "{餅粉|もちこ}",
+      "label": "glutinous rice flour"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food"],
+      "politeness": "plain",
+      "semantic": [
+        "food"
+      ],
       "domain": []
     },
     "created": "2026-06-04T04:07:37Z",
-    "modified": "2026-06-04T04:07:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

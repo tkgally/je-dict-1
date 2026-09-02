@@ -17,7 +17,9 @@
       "id": "25988_kyuukouressha_ex1",
       "japanese": "{急行列車|きゅうこうれっしゃ}に{乗|の}り{換|か}える。",
       "english": "To transfer to an express train.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25988_kyuukouressha_ex2",
       "japanese": "この{駅|えき}には{急行列車|きゅうこうれっしゃ}は{止|と}まりません。",
       "english": "Express trains do not stop at this station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,59 @@
       "id": "25988_kyuukouressha_ex3",
       "japanese": "{急行列車|きゅうこうれっしゃ}の{本数|ほんすう}が{減|へ}らされたため、{通勤客|つうきんきゃく}から{不満|ふまん}の{声|こえ}が{上|あ}がっている。",
       "english": "Because the number of express trains was reduced, commuters are voicing their dissatisfaction.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {急行|きゅうこう} (express) and {列車|れっしゃ} (train). In the Japanese train classification system, {急行|きゅうこう} sits between {普通|ふつう}/{各停|かくてい} (local) and {特急|とっきゅう} (limited express) in terms of speed and number of stops. Many JR {急行|きゅうこう} services have been discontinued or upgraded to {特急|とっきゅう}, but the term remains common on private railways.\n\nCOMMON COLLOCATIONS:\n- {急行列車|きゅうこうれっしゃ}に{乗|の}る: to ride an express train\n- {急行列車|きゅうこうれっしゃ}の{停車駅|ていしゃえき}: stations where the express stops\n- {急行列車|きゅうこうれっしゃ}が{通過|つうか}する: the express passes through\n- {急行|きゅうこう}{料金|りょうきん}: express surcharge\n\nSIMILAR WORDS:\n- {特急列車|とっきゅうれっしゃ}: limited express train — faster, with fewer stops and usually a surcharge\n- {快速|かいそく}: rapid train — a category between local and express on some lines; no surcharge\n- {各駅停車|かくえきていしゃ}: local train — stops at every station",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25987_tokkyuuressha",
+      "reading": "とっきゅうれっしゃ",
+      "headword": "{特急列車|とっきゅうれっしゃ}",
+      "label": "limited express train"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09213_kaisoku",
+      "reading": "かいそく",
+      "headword": "{快速|かいそく}",
+      "label": "rapid train"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15471_kakuekiteisha",
+      "reading": "かくえきていしゃ",
+      "headword": "{各駅停車|かくえきていしゃ}",
+      "label": "local train"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23767_yakouressha",
+      "reading": "やこうれっしゃ",
+      "headword": "{夜行列車|やこうれっしゃ}",
+      "label": "overnight train"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["travel", "transportation"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "travel",
+        "transportation"
+      ]
     },
     "created": "2026-04-28T14:19:37Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

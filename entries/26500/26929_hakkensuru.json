@@ -3,7 +3,7 @@
   "headword": "{発見|はっけん}する",
   "reading": "はっけんする",
   "romaji": "hakkensuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to discover; to find; to detect",
   "definitions": [
     {
@@ -80,7 +80,43 @@
     }
   ],
   "notes": "Covers both major discoveries (scientific breakthroughs, archaeological finds) and everyday detection (finding errors, noticing problems). The noun form {発見|はっけん} is also very common, especially in compound expressions.\n\nCOMMON COLLOCATIONS:\n- {大|だい}{発見|はっけん}: great discovery\n- {新|しん}{発見|はっけん}: new discovery\n- {早期|そうき}{発見|はっけん}: early detection\n- {偶然|ぐうぜん}の{発見|はっけん}: accidental discovery\n- {発見|はっけん}{者|しゃ}: discoverer\n\nSIMILAR WORDS:\n- {見|み}つける: to find — the everyday word for finding something; less formal\n- {発覚|はっかく}する: to come to light — used when something hidden (usually negative) is exposed\n- {検出|けんしゅつ}する: to detect — technical term used in science and medicine for detecting substances or signals",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01180_mitsukeru",
+      "reading": "みつける",
+      "headword": "{見|み}つける",
+      "label": "to find"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15423_hakkakusuru",
+      "reading": "はっかくする",
+      "headword": "{発覚|はっかく}する",
+      "label": "to come to light"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13132_kenshutsu",
+      "reading": "けんしゅつ",
+      "headword": "{検出|けんしゅつ}",
+      "label": "to detect"
+    },
+    {
+      "type": "related",
+      "target_id": "23604_hakkensha",
+      "reading": "はっけんしゃ",
+      "headword": "{発見者|はっけんしゃ}",
+      "label": "discoverer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27001_hakkutsusuru",
+      "reading": "はっくつする",
+      "headword": "{発掘|はっくつ}する",
+      "label": "to excavate"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -98,7 +134,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T16:17:44Z",
-    "modified": "2026-05-05T16:17:44Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

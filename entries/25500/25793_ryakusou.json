@@ -17,7 +17,9 @@
       "id": "25793_ryakusou_ex1",
       "japanese": "{略装|りゃくそう}でお{越|こ}しください。",
       "english": "Please come in informal attire.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25793_ryakusou_ex2",
       "japanese": "{式|しき}は{略装|りゃくそう}でも{構|かま}いません。",
       "english": "Semi-formal dress is fine for the ceremony.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,37 @@
       "id": "25793_ryakusou_ex3",
       "japanese": "{招待状|しょうたいじょう}に「{略装|りゃくそう}にて」と{書|か}いてあったので、スーツにネクタイなしで{出席|しゅっせき}した。",
       "english": "The invitation said 'semi-formal attire,' so I attended in a suit without a tie.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {略|りゃく} (abbreviation; simplification) and {装|そう} (clothing; outfit). Commonly appears on invitations and event notices as a dress code indicator. In Japanese etiquette, {略装|りゃくそう} means the attendee need not wear the most formal version of attire — for men, this typically means a suit without a tie; for women, a smart outfit that is not a full formal gown.\n\nCOMMON COLLOCATIONS:\n- {略装|りゃくそう}でお{越|こ}しください: please come in informal attire\n- {略装|りゃくそう}にて: in informal dress (written on invitations)\n- {略装|りゃくそう}で{参加|さんか}する: to attend in semi-formal attire\n\nSIMILAR WORDS:\n- {正装|せいそう}: full formal dress — the most formal level of attire for ceremonies\n- {平服|へいふく}: everyday clothes; informal dress — often appears on invitations and can cause confusion since it actually means 'smart casual' rather than truly casual wear\n- カジュアル: casual — the most relaxed dress code, borrowed from English",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "16053_seisou",
+      "reading": "せいそう",
+      "headword": "{正装|せいそう}",
+      "label": "full formal dress"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["clothing", "etiquette"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "clothing",
+        "etiquette"
+      ]
     },
     "created": "2026-04-27T13:15:32Z",
-    "modified": "2026-04-27T13:15:32Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

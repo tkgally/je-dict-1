@@ -19,7 +19,9 @@
       "english": "The doctor placed the stethoscope on me.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16293_choushinki_ex2",
@@ -27,7 +29,9 @@
       "english": "To check the heartbeat with a stethoscope.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16293_choushinki_ex3",
@@ -35,22 +39,38 @@
       "english": "The nurse walked down the hallway with a stethoscope draped around her neck.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{聴診器|ちょうしんき} is a straightforward medical term. The character breakdown — {聴|ちょう} (listen) + {診|しん} (examine) + {器|き} (instrument) — makes the meaning transparent.\n\nCOMMON COLLOCATIONS:\n- {聴診器|ちょうしんき}を{当|あ}てる (to apply a stethoscope)\n- {聴診器|ちょうしんき}で{聞|き}く (to listen with a stethoscope)\n- {聴診器|ちょうしんき}を{首|くび}にかける (to hang a stethoscope around one's neck)\n\nSIMILAR WORDS:\n{血圧計|けつあつけい} (blood pressure monitor) and {体温計|たいおんけい} (thermometer) are other common medical instruments that learners may encounter.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15567_ketsuatsukei",
+      "reading": "けつあつけい",
+      "headword": "{血圧計|けつあつけい}",
+      "label": "blood pressure monitor"
+    }
+  ],
   "metadata": {
     "created": "2026-03-11T14:03:49Z",
-    "modified": "2026-03-11T14:03:49Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"],
-      "domain": ["medical"]
+      "semantic": [
+        "tool"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

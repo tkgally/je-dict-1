@@ -17,7 +17,9 @@
       "id": "20773_suiron_ex1",
       "japanese": "{推論|すいろん}を{立|た}てる。",
       "english": "To form an inference.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20773_suiron_ex2",
       "japanese": "その{推論|すいろん}は{正|ただ}しいと{思|おも}う。",
       "english": "I think that reasoning is correct.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "20773_suiron_ex3",
       "japanese": "{限|かぎ}られた{情報|じょうほう}から{推論|すいろん}を{導|みちび}き{出|だ}すのは{難|むずか}しい。",
       "english": "It is difficult to draw inferences from limited information.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers to the logical process of arriving at a conclusion based on evidence or premises. Common in academic, scientific, and legal contexts, but also used in everyday conversation when talking about making deductions.\n\nCOMMON COLLOCATIONS:\n- {推論|すいろん}を{立|た}てる: to form an inference\n- {推論|すいろん}を{導|みちび}く: to draw an inference\n- {論理的|ろんりてき}{推論|すいろん}: logical reasoning\n- {統計的|とうけいてき}{推論|すいろん}: statistical inference\n\nSIMILAR WORDS:\n- {推測|すいそく}: guess, conjecture — less rigorous, based more on intuition\n- {推理|すいり}: deductive reasoning — emphasizes step-by-step logical deduction, often used for detective/mystery contexts\n- {演繹|えんえき}: deduction — formal logical term for reasoning from general to specific",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12821_suisoku",
+      "reading": "すいそく",
+      "headword": "{推測|すいそく}",
+      "label": "guess, conjecture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18951_suiri",
+      "reading": "すいり",
+      "headword": "{推理|すいり}",
+      "label": "deductive reasoning"
+    },
+    {
+      "type": "related",
+      "target_id": "04786_kasetsu",
+      "reading": "かせつ",
+      "headword": "{仮説|かせつ}",
+      "label": "hypothesis"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26848_suirisuru",
+      "reading": "すいりする",
+      "headword": "{推理|すいり}する",
+      "label": "to reason"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-03-30T16:06:24Z",
-    "modified": "2026-03-30T16:06:24Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

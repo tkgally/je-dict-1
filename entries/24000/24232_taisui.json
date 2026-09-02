@@ -3,7 +3,7 @@
   "headword": "{耐水|たいすい}",
   "reading": "たいすい",
   "romaji": "taisui",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, no-adjective",
   "gloss": "water resistance; waterproof",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "24232_taisui_ex1",
       "japanese": "{耐水|たいすい}{性|せい}のある{素材|そざい}。",
       "english": "A water-resistant material.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "24232_taisui_ex2",
       "japanese": "この{時計|とけい}は{耐水|たいすい}{仕様|しよう}だ。",
       "english": "This watch has a waterproof specification.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,59 @@
       "id": "24232_taisui_ex3",
       "japanese": "{耐水|たいすい}ペーパーで{仕上|しあ}げを{磨|みが}くと、{表面|ひょうめん}がなめらかになる。",
       "english": "Polishing the finish with waterproof sandpaper makes the surface smooth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {耐|たい} (resistant, enduring) + {水|すい} (water). Part of the productive {耐|たい}〜 pattern for describing resistance to various conditions.\n\nUSAGE:\n{耐水|たいすい} is commonly used as a compound modifier: {耐水|たいすい}{性|せい} (water resistance as a property), {耐水|たいすい}{加工|かこう} (waterproof treatment), {耐水|たいすい}ペーパー (waterproof sandpaper). It is distinct from {防水|ぼうすい} (waterproof) in that {耐水|たいすい} emphasizes resistance or durability against water, while {防水|ぼうすい} emphasizes preventing water from entering.\n\nCOMMON COLLOCATIONS:\n- {耐水|たいすい}{性|せい}: water resistance (as a property)\n- {耐水|たいすい}{加工|かこう}: waterproofing treatment\n- {耐水|たいすい}ペーパー: waterproof sandpaper (wet-dry sandpaper)\n- {耐水|たいすい}{圧|あつ}: water pressure resistance rating\n- {耐水|たいすい}{塗料|とりょう}: water-resistant paint\n\nSIMILAR WORDS:\n- {防水|ぼうすい}: waterproof — focuses on blocking water from entering; often used for coatings, cases, and gear\n- {撥水|はっすい}: water-repellent — causes water to bead up and roll off the surface\n- {耐熱|たいねつ}: heat-resistant — same {耐|たい}〜 pattern applied to heat\n- {耐久|たいきゅう}: durable — resistance to wear and degradation over time",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06428_bousui",
+      "reading": "ぼうすい",
+      "headword": "{防水|ぼうすい}",
+      "label": "waterproof"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16444_hassui",
+      "reading": "はっすい",
+      "headword": "{撥水|はっすい}",
+      "label": "water-repellent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21127_tainetsu",
+      "reading": "たいねつ",
+      "headword": "{耐熱|たいねつ}",
+      "label": "heat-resistant"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18768_taikyuu",
+      "reading": "たいきゅう",
+      "headword": "{耐久|たいきゅう}",
+      "label": "durable"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     },
     "created": "2026-04-18T10:30:01Z",
-    "modified": "2026-04-18T10:30:01Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

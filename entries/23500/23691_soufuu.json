@@ -3,7 +3,7 @@
   "headword": "{送風|そうふう}",
   "reading": "そうふう",
   "romaji": "soufuu",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "ventilation; air circulation; blowing air",
   "definitions": [
     {
@@ -56,6 +56,36 @@
   ],
   "notes": "Composed of {送|そう} (send, transmit) and {風|ふう} (wind, air). Refers to sending a current of air — either for ventilation, cooling, drying, or driving a process such as combustion. Common in product manuals, HVAC contexts, and factory operations.\n\nUSAGE:\n- As a noun: {送風|そうふう}モード (fan mode, ventilation mode)\n- As a suru-verb: {部屋|へや}に{送風|そうふう}する (to blow air into the room)\n- Often paired with {冷房|れいぼう} (cooling) and {暖房|だんぼう} (heating) in discussions of air conditioning\n\nCOMMON COLLOCATIONS:\n- {送風|そうふう}モード: fan / ventilation mode\n- {送風|そうふう}{機|き}: a blower, fan unit\n- {送風|そうふう}ファン: a ventilation fan\n- {送風|そうふう}{口|ぐち}: air outlet, vent\n\nSIMILAR WORDS:\n- {換気|かんき}: ventilation (exchanging air) — emphasizes replacing stale air with fresh air; {送風|そうふう} can just recirculate existing air\n- {通気|つうき}: air passage, airflow — focuses on air being able to move through a space; more passive\n- {冷房|れいぼう}: air cooling — opposite of {暖房|だんぼう}; produces cooled air, not plain airflow\n- {排気|はいき}: exhaust, expelling air — sending air out rather than in",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00172_kanki",
+      "reading": "かんき",
+      "headword": "{換気|かんき}",
+      "label": "ventilation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27363_tsuuki",
+      "reading": "つうき",
+      "headword": "{通気|つうき}",
+      "label": "air passage, airflow"
+    },
+    {
+      "type": "antonym",
+      "target_id": "01755_reibou",
+      "reading": "れいぼう",
+      "headword": "{冷房|れいぼう}",
+      "label": "air cooling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18980_haiki",
+      "reading": "はいき",
+      "headword": "{排気|はいき}",
+      "label": "exhaust, expelling air"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -71,7 +101,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-14T00:46:30Z",
-    "modified": "2026-04-14T00:46:30Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

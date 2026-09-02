@@ -17,7 +17,9 @@
       "id": "23058_kouki_ex1",
       "japanese": "{花|はな}の{香気|こうき}が{漂|ただよ}う。",
       "english": "The fragrance of flowers drifts through the air.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23058_kouki_ex2",
       "japanese": "このワインは{豊|ゆた}かな{香気|こうき}を{放|はな}っている。",
       "english": "This wine gives off a rich aroma.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "23058_kouki_ex3",
       "japanese": "{茶室|ちゃしつ}に{入|はい}ると、{抹茶|まっちゃ}の{香気|こうき}が{部屋|へや}{全体|ぜんたい}に{満|み}ちていた。",
       "english": "Upon entering the tea room, the aroma of matcha filled the entire space.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A literary compound of {香|こう} (fragrance) + {気|き} (air/spirit). More elevated than everyday words for smell; primarily found in written language and formal descriptions.\n\nCOMMON COLLOCATIONS:\n- {香気|こうき}が{漂|ただよ}う: fragrance drifts/wafts\n- {香気|こうき}を{放|はな}つ: to give off fragrance\n- {芳醇|ほうじゅん}な{香気|こうき}: a mellow, rich aroma\n- {香気|こうき}に{満|み}ちる: to be filled with fragrance\n\nSIMILAR WORDS:\n- {香|かお}り: scent, fragrance — the most common everyday word for pleasant smell\n- {芳香|ほうこう}: sweet fragrance — literary, similar level of formality\n- {匂|にお}い: smell, scent — neutral; can be pleasant or unpleasant\n- アロマ: aroma — modern loanword, especially for aromatherapy",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00189_kaori",
+      "reading": "かおり",
+      "headword": "{香|かお}り",
+      "label": "scent, fragrance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13960_houkou",
+      "reading": "ほうこう",
+      "headword": "{芳香|ほうこう}",
+      "label": "sweet fragrance"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00874_nioi",
+      "reading": "におい",
+      "headword": "{匂|にお}い",
+      "label": "smell, scent"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     },
     "created": "2026-04-08T17:29:42Z",
-    "modified": "2026-07-31T00:22:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

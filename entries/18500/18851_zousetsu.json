@@ -134,11 +134,34 @@
       "notes": null
     }
   ],
-  "notes": "{増設|ぞうせつ} means adding more of something that already exists, not creating something entirely new. Used as both a noun and a suru-verb ({増設|ぞうせつ}する).\n\nCOMMON COLLOCATIONS:\n- {設備|せつび}を{増設|ぞうせつ}する: add more equipment/facilities\n- メモリーを{増設|ぞうせつ}する: add more computer memory\n- {教室|きょうしつ}を{増設|ぞうせつ}する: add more classrooms\n- {路線|ろせん}を{増設|ぞうせつ}する: add more routes/lines\n- {駐車場|ちゅうしゃじょう}を{増設|ぞうせつ}する: add more parking\n\nCONTRAST:\n- {新設|しんせつ}: newly establishing something that didn't exist before\n- {増築|ぞうちく}: adding to a building (construction-specific)\n- {拡張|かくちょう}: expansion (broader, more abstract)",
+  "notes": "{増設|ぞうせつ} means adding more of something that already exists, not creating something entirely new. Used as both a noun and a suru-verb ({増設|ぞうせつ}する).\n\nCOMMON COLLOCATIONS:\n- {設備|せつび}を{増設|ぞうせつ}する: add more equipment/facilities\n- メモリーを{増設|ぞうせつ}する: add more computer memory\n- {教室|きょうしつ}を{増設|ぞうせつ}する: add more classrooms\n- {路線|ろせん}を{増設|ぞうせつ}する: add more routes/lines\n- {駐車場|ちゅうしゃじょう}を{増設|ぞうせつ}する: add more parking\n\nSIMILAR WORDS:\n- {新設|しんせつ}: newly establishing something that didn't exist before\n- {増築|ぞうちく}: adding to a building (construction-specific)\n- {拡張|かくちょう}: expansion (broader, more abstract)",
   "synonyms": [],
   "antonyms": [],
   "related": [],
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13029_shinsetsu",
+      "reading": "しんせつ",
+      "headword": "{新設|しんせつ}",
+      "label": "newly establishing something that…"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06568_zouchiku",
+      "reading": "ぞうちく",
+      "headword": "{増築|ぞうちく}",
+      "label": "adding to a building"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12812_kakuchou",
+      "reading": "かくちょう",
+      "headword": "{拡張|かくちょう}",
+      "label": "expansion"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -155,6 +178,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-23T05:32:11Z",
-    "modified": "2026-04-06T04:02:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

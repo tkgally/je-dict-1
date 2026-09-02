@@ -17,7 +17,9 @@
       "id": "25587_dareshimo_ex1",
       "japanese": "{誰|だれ}しも{間違|まちが}える。",
       "english": "Everyone makes mistakes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25587_dareshimo_ex2",
       "japanese": "{誰|だれ}しも{一度|いちど}は{経験|けいけん}があるだろう。",
       "english": "Anyone must have experienced it at least once.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,43 @@
       "id": "25587_dareshimo_ex3",
       "japanese": "{誰|だれ}しも{若|わか}い{頃|ころ}には{将来|しょうらい}のことで{悩|なや}むものだ。",
       "english": "Everyone worries about the future when they're young.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed from {誰|だれ} (who) and the emphatic particle しも. It carries a slightly literary or formal tone compared to the everyday {誰|だれ}でも, and is often used to express universal truths or shared human experiences.\n\nTypically used with affirmative predicates to mean \"everyone\" or \"anybody.\" It frequently appears in statements about universal conditions or emotions.\n\nCOMMON COLLOCATIONS:\n- {誰|だれ}しも{経験|けいけん}がある: everyone has experienced it\n- {誰|だれ}しも{思|おも}うことだ: it's something everyone thinks\n- {誰|だれ}しも{避|さ}けられない: no one can avoid it\n- {誰|だれ}しも{同|おな}じだ: everyone is the same\n\nSIMILAR WORDS:\n- {誰|だれ}でも: anyone, everyone — more casual and conversational\n- {誰|だれ}もが: everyone — neutral tone, very common in writing\n- みんな: everyone — informal and colloquial",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08498_daredemo",
+      "reading": "だれでも",
+      "headword": "{誰|だれ}でも",
+      "label": "anyone, everyone"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02972_minna",
+      "reading": "みんな",
+      "headword": "みんな",
+      "label": "everyone"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["pronoun"],
-      "semantic": ["person"]
+      "pos": [
+        "pronoun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "person"
+      ]
     },
     "created": "2026-04-26T12:30:38Z",
-    "modified": "2026-04-26T12:30:38Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

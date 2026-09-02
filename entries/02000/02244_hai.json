@@ -63,11 +63,26 @@
       ]
     }
   ],
-  "notes": "{灰|はい} refers to the powdery residue left after burning.\n\nCOMMON EXPRESSIONS:\n- {灰|はい}⟦を→を：00422_wo⟧⟦{捨|す}てる→捨てる：00892_suteru⟧: to dispose of ashes\n- {灰|はい}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to turn to ash, to be destroyed\n- {灰|はい}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to reduce to ashes\n\nCOMPOUNDS:\n- ⟦{灰皿|はいざら}→灰皿：02930_haizara⟧: ashtray\n- ⟦{灰色|はいいろ}→灰色：04303_haiiro⟧: gray (ash color)\n- ⟦{火山灰|かざんばい}→火山灰：19412_kazanbai⟧: volcanic ash\n- ⟦{石灰|せっかい}→石灰：25494_sekkai⟧: lime (calcium oxide)\n- ⟦{遺灰|いはい}→遺灰：noentry⟧: cremated remains, ashes\n\nKANJI NOTE:\nThe reading changes in compounds: {灰|はい} alone, but often {~灰|~ばい} in compounds (e.g., ⟦{火山灰|かざんばい}→火山灰：19412_kazanbai⟧).",
-  "cross_references": [],
+  "notes": "{灰|はい} refers to the powdery residue left after burning.\n\nCOMMON EXPRESSIONS:\n- {灰|はい}⟦を→を：00422_wo⟧⟦{捨|す}てる→捨てる：00892_suteru⟧: to dispose of ashes\n- {灰|はい}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to turn to ash, to be destroyed\n- {灰|はい}⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧: to reduce to ashes\n\nCOMPOUNDS:\n- ⟦{灰皿|はいざら}→灰皿：02930_haizara⟧: ashtray\n- ⟦{灰色|はいいろ}→灰色：04303_haiiro⟧: gray (ash color)\n- ⟦{火山灰|かざんばい}→火山灰：19412_kazanbai⟧: volcanic ash\n- ⟦{石灰|せっかい}→石灰：25494_sekkai⟧: lime (calcium oxide)\n- ⟦{遺灰|いはい}→遺灰：noentry⟧: cremated remains, ashes\n\nWRITING:\nThe reading changes in compounds: {灰|はい} alone, but often {~灰|~ばい} in compounds (e.g., ⟦{火山灰|かざんばい}→火山灰：19412_kazanbai⟧).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20305_susu",
+      "reading": "すす",
+      "headword": "すす",
+      "label": "soot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21824_moegara",
+      "reading": "もえがら",
+      "headword": "{燃|も}え{殻|がら}",
+      "label": "cinders"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:25:47Z",
-    "modified": "2026-05-18T21:25:57Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

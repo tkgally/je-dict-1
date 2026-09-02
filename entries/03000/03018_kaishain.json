@@ -63,11 +63,61 @@
       ]
     }
   ],
-  "notes": "{会社員|かいしゃいん} combines ⟦{会社|かいしゃ}→会社：00607_kaisha⟧ (company) + ⟦{員|いん}→員：noentry⟧ (member).\n\nCOMMON PATTERNS:\n- {会社員|かいしゃいん}⟦として→として：06802_toshite⟧⟦{働|はたら}く→働く：00503_hataraku⟧ (work as a company employee)\n- ⟦{普通|ふつう}→普通：01502_futsuu⟧⟦の→の：09472_no⟧{会社員|かいしゃいん} (ordinary office worker)\n\nRELATED TERMS:\n- ⟦サラリーマン→サラリーマン：06084_sarariiman⟧: salaryman (male office worker, casual)\n- ⟦OL→OL：07717_ooeru⟧ (オーエル): office lady (female office worker)\n- ⟦{社員|しゃいん}→社員：03065_shain⟧: company employee (more internal perspective)\n- ⟦{公務員|こうむいん}→公務員：01588_koumuin⟧: government employee\n\nNote: Common answer when asked about occupation (⟦{職業|しょくぎょう}→職業：03245_shokugyou⟧⟦は→は：00079_ha⟧⟦{何|なん}→何：00498_nani⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧).",
-  "cross_references": [],
+  "notes": "{会社員|かいしゃいん} combines ⟦{会社|かいしゃ}→会社：00607_kaisha⟧ (company) + ⟦{員|いん}→員：noentry⟧ (member).\n\nCOMMON PATTERNS:\n- {会社員|かいしゃいん}⟦として→として：06802_toshite⟧⟦{働|はたら}く→働く：00503_hataraku⟧ (work as a company employee)\n- ⟦{普通|ふつう}→普通：01502_futsuu⟧⟦の→の：09472_no⟧{会社員|かいしゃいん} (ordinary office worker)\n\nRELATED WORDS:\n- ⟦サラリーマン→サラリーマン：06084_sarariiman⟧: salaryman (male office worker, casual)\n- ⟦OL→OL：07717_ooeru⟧ (オーエル): office lady (female office worker)\n- ⟦{社員|しゃいん}→社員：03065_shain⟧: company employee (more internal perspective)\n- ⟦{公務員|こうむいん}→公務員：01588_koumuin⟧: government employee\n\nNote: Common answer when asked about occupation (⟦{職業|しょくぎょう}→職業：03245_shokugyou⟧⟦は→は：00079_ha⟧⟦{何|なん}→何：00498_nani⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06084_sarariiman",
+      "reading": "さらりーまん",
+      "headword": "サラリーマン",
+      "label": "salaryman"
+    },
+    {
+      "type": "related",
+      "target_id": "01588_koumuin",
+      "reading": "こうむいん",
+      "headword": "{公務員|こうむいん}",
+      "label": "government employee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05058_ginkouin",
+      "reading": "ぎんこういん",
+      "headword": "{銀行員|ぎんこういん}",
+      "label": "bank employee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15723_jieigyou",
+      "reading": "じえいぎょう",
+      "headword": "{自営業|じえいぎょう}",
+      "label": "self-employment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23971_roudousha",
+      "reading": "ろうどうしゃ",
+      "headword": "{労働者|ろうどうしゃ}",
+      "label": "worker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24361_kyokuin",
+      "reading": "きょくいん",
+      "headword": "{局員|きょくいん}",
+      "label": "bureau staff"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25266_jimuin",
+      "reading": "じむいん",
+      "headword": "{事務員|じむいん}",
+      "label": "office worker"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-05-23T15:11:59Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

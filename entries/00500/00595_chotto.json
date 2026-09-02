@@ -84,7 +84,7 @@
     },
     {
       "id": "00595_chotto_ex7",
-      "japanese": "ちょっと⟦{いい}→いい：00118_ii⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。",
+      "japanese": "ちょっと⟦いい→いい：00118_ii⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。",
       "english": "Do you have a moment?",
       "notes": "Common way to get someone's attention",
       "has_audio": false,
@@ -154,7 +154,7 @@
     },
     {
       "id": "00595_chotto_ex14",
-      "japanese": "ちょっと⟦{それ|それ}→それ：00994_sore⟧⟦は→は：00079_ha⟧⟦できない→できる：00557_dekiru⟧かな。",
+      "japanese": "ちょっと⟦それ→それ：00994_sore⟧⟦は→は：00079_ha⟧⟦できない→できる：00557_dekiru⟧かな。",
       "english": "Hmm, I don't think I can do that...",
       "notes": null,
       "has_audio": false,
@@ -173,7 +173,7 @@
       ]
     }
   ],
-  "notes": "ちょっと is a versatile word used to soften statements, express small amounts, or get attention.\n\nKEY USES:\n1. A little/slightly: ちょっと⟦{高|たか}い→高い：00500_takai⟧ (a bit expensive)\n2. Brief time: ちょっと⟦{待|ま}って→待つ：00469_matsu⟧ (wait a moment)\n3. Softener: ちょっと⟦いい→いい：00118_ii⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧ (excuse me, do you have a moment?)\n4. Polite refusal: ちょっと... (implies \"that's difficult\")\n\nCOMMON EXPRESSIONS:\n- ちょっとした〜: a small ~, a minor ~\n- ちょっとした⟦こと→こと：01164_koto⟧⟦で→で：00502_de⟧: over a trivial matter\n\nSIMILAR WORDS:\n⟦{少|すこ}し→少し：00596_sukoshi⟧: a little (slightly more formal, precise)",
+  "notes": "ちょっと is a versatile word used to soften statements, express small amounts, or get attention.\n\nFUNCTIONS:\n1. A little/slightly: ちょっと⟦{高|たか}い→高い：00500_takai⟧ (a bit expensive)\n2. Brief time: ちょっと⟦{待|ま}って→待つ：00469_matsu⟧ (wait a moment)\n3. Softener: ちょっと⟦いい→いい：00118_ii⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧ (excuse me, do you have a moment?)\n4. Polite refusal: ちょっと... (implies \"that's difficult\")\n\nCOMMON EXPRESSIONS:\n- ちょっとした〜: a small ~, a minor ~\n- ちょっとした⟦こと→こと：01164_koto⟧⟦で→で：00502_de⟧: over a trivial matter\n\nSIMILAR WORDS:\n⟦{少|すこ}し→少し：00596_sukoshi⟧: a little (slightly more formal, precise)",
   "cross_references": [
     {
       "type": "synonym",
@@ -181,11 +181,46 @@
       "headword": "{少|すこ}し",
       "target_id": "00596_sukoshi",
       "label": "slightly more formal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00597_takusan",
+      "reading": "たくさん",
+      "headword": "たくさん",
+      "label": "a lot, many"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01267_shibaraku",
+      "reading": "しばらく",
+      "headword": "しばらく",
+      "label": "for a while"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01647_tashou",
+      "reading": "たしょう",
+      "headword": "{多少|たしょう}",
+      "label": "a little, somewhat"
+    },
+    {
+      "type": "related",
+      "target_id": "06911_anoo",
+      "reading": "あのー",
+      "headword": "あのー",
+      "label": "um, excuse me, well"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21790_ikuraka",
+      "reading": "いくらか",
+      "headword": "いくらか",
+      "label": "somewhat"
     }
   ],
   "metadata": {
     "created": "2026-01-07T15:50:31Z",
-    "modified": "2026-05-12T01:02:10Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

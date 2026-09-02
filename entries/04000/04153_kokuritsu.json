@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{国立|こくりつ} is a prefix-like noun meaning 'national' or 'state-run,' indicating that an institution is established and funded by the central government.\n\nCOMMON COLLOCATIONS:\n- {国立|こくりつ}⟦{大学|だいがく}→大学：00608_daigaku⟧: national university\n- {国立|こくりつ}⟦{公園|こうえん}→公園：00581_kouen⟧: national park\n- {国立|こくりつ}⟦{博物館|はくぶつかん}→博物館：01494_hakubutsukan⟧: national museum\n- {国立|こくりつ}⟦{病院|びょういん}→病院：00577_byouin⟧: national hospital\n- {国立|こくりつ}⟦{競技場|きょうぎじょう}→競技場：15763_kyougijou⟧: national stadium\n\nCONTRAST:\n- ⟦{私立|しりつ}→私立：00370_shiritsu⟧: private (funded by non-government entities)\n- ⟦{公立|こうりつ}→公立：08210_kouritsu⟧: public, municipal (run by local government)\n- ⟦{県立|けんりつ}→県立：21885_kenritsu⟧: prefectural (run by a prefecture)\n- ⟦{市立|しりつ}→市立：19923_shiritsu⟧: municipal (run by a city)\n\nNote: ⟦{私立|しりつ}→私立：00370_shiritsu⟧ and ⟦{市立|しりつ}→市立：19923_shiritsu⟧ are homophones. In speech, ⟦{私立|しりつ}→私立：00370_shiritsu⟧ is sometimes pronounced わたくしりつ to avoid ambiguity.",
+  "notes": "{国立|こくりつ} is a prefix-like noun meaning 'national' or 'state-run,' indicating that an institution is established and funded by the central government.\n\nCOMMON COLLOCATIONS:\n- {国立|こくりつ}⟦{大学|だいがく}→大学：00608_daigaku⟧: national university\n- {国立|こくりつ}⟦{公園|こうえん}→公園：00581_kouen⟧: national park\n- {国立|こくりつ}⟦{博物館|はくぶつかん}→博物館：01494_hakubutsukan⟧: national museum\n- {国立|こくりつ}⟦{病院|びょういん}→病院：00577_byouin⟧: national hospital\n- {国立|こくりつ}⟦{競技場|きょうぎじょう}→競技場：15763_kyougijou⟧: national stadium\n\nSIMILAR WORDS:\n- ⟦{私立|しりつ}→私立：00370_shiritsu⟧: private (funded by non-government entities)\n- ⟦{公立|こうりつ}→公立：08210_kouritsu⟧: public, municipal (run by local government)\n- ⟦{県立|けんりつ}→県立：21885_kenritsu⟧: prefectural (run by a prefecture)\n- ⟦{市立|しりつ}→市立：19923_shiritsu⟧: municipal (run by a city)\n\nNote: ⟦{私立|しりつ}→私立：00370_shiritsu⟧ and ⟦{市立|しりつ}→市立：19923_shiritsu⟧ are homophones. In speech, ⟦{私立|しりつ}→私立：00370_shiritsu⟧ is sometimes pronounced わたくしりつ to avoid ambiguity.",
   "metadata": {
     "created": "2026-01-13T14:00:13Z",
-    "modified": "2026-05-29T19:12:24Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -67,6 +67,34 @@
       "headword": "{私立|しりつ}",
       "label": "private (institution)",
       "target_id": "00370_shiritsu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08210_kouritsu",
+      "reading": "こうりつ",
+      "headword": "{公立|こうりつ}",
+      "label": "public, municipal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21885_kenritsu",
+      "reading": "けんりつ",
+      "headword": "{県立|けんりつ}",
+      "label": "prefectural"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19923_shiritsu",
+      "reading": "しりつ",
+      "headword": "{市立|しりつ}",
+      "label": "municipal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17112_shigaku",
+      "reading": "しがく",
+      "headword": "{私学|しがく}",
+      "label": "private school"
     }
   ]
 }

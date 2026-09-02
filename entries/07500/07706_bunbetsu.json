@@ -2,7 +2,7 @@
   "id": "07706_bunbetsu",
   "headword": "{分別|ぶんべつ}",
   "reading": "ぶんべつ",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "sorting; separation (especially garbage sorting)",
   "conjugation": {
     "type": "suru",
@@ -130,10 +130,40 @@
       ]
     }
   ],
-  "notes": "READING NOTE:\nThis word is read ぶんべつ when referring to sorting/separation.\nA different reading, ふんべつ, means \"discretion, good sense\" - a completely different word.\n\nGARBAGE SORTING IN JAPAN:\nJapan has strict garbage sorting rules. Common categories include:\n・{可燃|かねん}ゴミ - burnable garbage\n・{不燃|ふねん}ゴミ - non-burnable garbage\n・{資源|しげん}ゴミ - recyclables\n・{粗大|そだい}ゴミ - bulky garbage\n\nCOLLOCATIONS:\n・ゴミの{分別|ぶんべつ} - garbage sorting\n・{分別|ぶんべつ}ルール - sorting rules\n・{分別収集|ぶんべつしゅうしゅう} - sorted collection",
+  "notes": "PRONUNCIATION:\nThis word is read ぶんべつ when referring to sorting/separation.\nA different reading, ふんべつ, means \"discretion, good sense\" - a completely different word.\n\nGARBAGE SORTING IN JAPAN:\nJapan has strict garbage sorting rules. Common categories include:\n- {可燃|かねん}ゴミ - burnable garbage\n- {不燃|ふねん}ゴミ - non-burnable garbage\n- {資源|しげん}ゴミ - recyclables\n- {粗大|そだい}ゴミ - bulky garbage\n\nCOMMON COLLOCATIONS:\n- ゴミの{分別|ぶんべつ} - garbage sorting\n- {分別|ぶんべつ}ルール - sorting rules\n- {分別収集|ぶんべつしゅうしゅう} - sorted collection",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04624_risaikuru",
+      "reading": "りさいくる",
+      "headword": "リサイクル",
+      "label": "recycling"
+    },
+    {
+      "type": "related",
+      "target_id": "09536_funengomi",
+      "reading": "ふねんごみ",
+      "headword": "{不燃|ふねん}ごみ",
+      "label": "non-burnable garbage, non-combustible waste"
+    },
+    {
+      "type": "related",
+      "target_id": "22230_gomibukuro",
+      "reading": "ごみぶくろ",
+      "headword": "ごみ{袋|ぶくろ}",
+      "label": "trash bag"
+    },
+    {
+      "type": "related",
+      "target_id": "26673_shigenkaishuu",
+      "reading": "しげんかいしゅう",
+      "headword": "{資源回収|しげんかいしゅう}",
+      "label": "resource collection"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T23:30:51Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -142,6 +172,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "general"

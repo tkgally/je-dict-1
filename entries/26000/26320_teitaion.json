@@ -17,7 +17,9 @@
       "id": "26320_teitaion_ex1",
       "japanese": "{低体温|ていたいおん}に{注意|ちゅうい}してください。",
       "english": "Please watch out for hypothermia.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26320_teitaion_ex2",
       "japanese": "{冬山|ふゆやま}では{低体温|ていたいおん}{症|しょう}になる{危険|きけん}がある。",
       "english": "There is a risk of hypothermia in the winter mountains.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,37 @@
       "id": "26320_teitaion_ex3",
       "japanese": "{体|からだ}が{冷|ひ}えて{低体温|ていたいおん}になると、{判断力|はんだんりょく}が{鈍|にぶ}り、{重大|じゅうだい}な{事故|じこ}につながることがある。",
       "english": "When the body gets cold and hypothermia sets in, judgment becomes impaired, which can lead to serious accidents.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {低|てい} (low), {体|たい} (body), and {温|おん} (temperature). The full medical term is {低体温症|ていたいおんしょう} with the suffix {症|しょう} (condition/syndrome), but {低体温|ていたいおん} is commonly used on its own.\n\nIn everyday conversation, Japanese people sometimes describe themselves as {低体温|ていたいおん}{体質|たいしつ} (having a low-body-temperature constitution) — meaning they tend to run cold and feel chilly easily. This is distinct from clinical hypothermia.\n\nCOMMON COLLOCATIONS:\n- {低体温|ていたいおん}{症|しょう}: hypothermia (medical term)\n- {低体温|ていたいおん}になる: to become hypothermic\n- {低体温|ていたいおん}{体質|たいしつ}: low-body-temperature constitution\n- {低体温|ていたいおん}を{防|ふせ}ぐ: to prevent hypothermia\n\nRELATED TERMS:\n- {高体温|こうたいおん}: hyperthermia — abnormally high body temperature\n- {体温|たいおん}: body temperature — the base term\n- {凍傷|とうしょう}: frostbite — localized cold injury, distinct from whole-body hypothermia",
-  "cross_references": [],
+  "notes": "Composed of {低|てい} (low), {体|たい} (body), and {温|おん} (temperature). The full medical term is {低体温症|ていたいおんしょう} with the suffix {症|しょう} (condition/syndrome), but {低体温|ていたいおん} is commonly used on its own.\n\nIn everyday conversation, Japanese people sometimes describe themselves as {低体温|ていたいおん}{体質|たいしつ} (having a low-body-temperature constitution) — meaning they tend to run cold and feel chilly easily. This is distinct from clinical hypothermia.\n\nCOMMON COLLOCATIONS:\n- {低体温|ていたいおん}{症|しょう}: hypothermia (medical term)\n- {低体温|ていたいおん}になる: to become hypothermic\n- {低体温|ていたいおん}{体質|たいしつ}: low-body-temperature constitution\n- {低体温|ていたいおん}を{防|ふせ}ぐ: to prevent hypothermia\n\nRELATED WORDS:\n- {高体温|こうたいおん}: hyperthermia — abnormally high body temperature\n- {体温|たいおん}: body temperature — the base term\n- {凍傷|とうしょう}: frostbite — localized cold injury, distinct from whole-body hypothermia",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05018_toushou",
+      "reading": "とうしょう",
+      "headword": "{凍傷|とうしょう}",
+      "label": "frostbite"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["health", "science"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "health",
+        "science"
+      ]
     },
     "created": "2026-04-30T16:22:36Z",
-    "modified": "2026-04-30T16:22:36Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{記銘|きめい}",
   "reading": "きめい",
   "romaji": "kimei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "memorization; committing to memory; encoding",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "A psychology term combining {記|き} (record) and {銘|めい} (inscribe, engrave). Refers specifically to the first stage of memory formation — taking in and encoding new information. Distinguished from {保持|ほじ} (retention) and {想起|そうき} (recall) in memory research.\n\nCOMMON COLLOCATIONS:\n- {記銘|きめい}{力|りょく}: memorization ability\n- {記銘|きめい}{障害|しょうがい}: encoding impairment\n- {記銘|きめい}する: to commit to memory\n- {記銘|きめい}{過程|かてい}: encoding process\n\nSIMILAR WORDS:\n- {記名|きめい}: writing one's name — a homophone with different kanji and meaning\n- {暗記|あんき}: memorization by rote — an everyday word for memorizing, while {記銘|きめい} is more technical\n- {記憶|きおく}: memory — the broader concept encompassing encoding, retention, and recall",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "14862_kimei",
+      "reading": "きめい",
+      "headword": "{記名|きめい}",
+      "label": "writing one's name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01701_anki",
+      "reading": "あんき",
+      "headword": "{暗記|あんき}",
+      "label": "memorization by rote"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00234_kioku",
+      "reading": "きおく",
+      "headword": "{記憶|きおく}",
+      "label": "memory"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -62,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-03T12:30:23Z",
-    "modified": "2026-08-06T00:43:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

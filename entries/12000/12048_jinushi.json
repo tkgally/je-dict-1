@@ -19,7 +19,9 @@
       "english": "To get permission from the landowner.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12048_jinushi_ex2",
@@ -27,7 +29,9 @@
       "english": "A dispute arose between the landowner and the tenant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12048_jinushi_ex3",
@@ -35,10 +39,12 @@
       "english": "In prewar Japan, large landowners possessed vast farmland.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "HISTORY:\nThe {地主|じぬし} system was central to pre-modern Japanese agriculture. Large landowners leased rice paddies to tenant farmers ({小作人|こさくにん}), who paid rent in rice. After World War II, the Allied occupation carried out land reform ({農地|のうち}{改革|かいかく}), breaking up large estates and distributing land to tenant farmers.\n\nCOMMON COLLOCATIONS:\n- {大|おお}{地主|じぬし}: large landowner\n- {地主|じぬし}と{小作人|こさくにん}: landowner and tenant farmer\n- {不在|ふざい}{地主|じぬし}: absentee landlord",
+  "notes": "ETYMOLOGY:\nThe {地主|じぬし} system was central to pre-modern Japanese agriculture. Large landowners leased rice paddies to tenant farmers ({小作人|こさくにん}), who paid rent in rice. After World War II, the Allied occupation carried out land reform ({農地|のうち}{改革|かいかく}), breaking up large estates and distributing land to tenant farmers.\n\nCOMMON COLLOCATIONS:\n- {大|おお}{地主|じぬし}: large landowner\n- {地主|じぬし}と{小作人|こさくにん}: landowner and tenant farmer\n- {不在|ふざい}{地主|じぬし}: absentee landlord",
   "cross_references": [
     {
       "type": "contrast",
@@ -46,18 +52,37 @@
       "reading": "おおや",
       "headword": "{大家|おおや}",
       "label": "building landlord"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04079_yanushi",
+      "reading": "やぬし",
+      "headword": "{家主|やぬし}",
+      "label": "landlord, homeowner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14859_ryoushu",
+      "reading": "りょうしゅ",
+      "headword": "{領主|りょうしゅ}",
+      "label": "feudal lord"
     }
   ],
   "metadata": {
     "created": "2026-02-19T13:38:26Z",
-    "modified": "2026-04-26T04:23:53Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["society", "history"]
+      "semantic": [
+        "society",
+        "history"
+      ]
     }
   }
 }

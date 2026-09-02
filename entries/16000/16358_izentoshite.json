@@ -19,7 +19,9 @@
       "english": "The problem remains unsolved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16358_izentoshite_ex2",
@@ -27,7 +29,9 @@
       "english": "He is still missing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16358_izentoshite_ex3",
@@ -35,21 +39,70 @@
       "english": "Despite stricter regulations, illegal downloads still show no sign of stopping.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{依然|いぜん}として is a formal adverb used mainly in written Japanese and news reporting. It emphasizes that a situation has not changed despite expectations or efforts to the contrary.\n\nThe shorter form {依然|いぜん} can be used on its own as an adverb with similar meaning, though {依然|いぜん}として is more common.\n\nSIMILAR WORDS:\n- まだ: still — neutral and conversational, used in everyday speech\n- {相変|あいか}わらず: as usual, same as always — more casual, can be positive or negative\n- なお: still, yet — formal, often used in official documents\n\n{依然|いぜん}として is more formal than まだ and carries a stronger nuance that the unchanged state is significant or problematic.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00603_mada",
+      "reading": "まだ",
+      "headword": "まだ",
+      "label": "still"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01671_aikawarazu",
+      "reading": "あいかわらず",
+      "headword": "{相変|あいか}わらず",
+      "label": "as usual, same as always"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00305_nao",
+      "reading": "なお",
+      "headword": "なお",
+      "label": "still, yet"
+    },
+    {
+      "type": "related",
+      "target_id": "01719_izen",
+      "reading": "いぜん",
+      "headword": "{依然|いぜん}",
+      "label": "still, as before"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10229_imada",
+      "reading": "いまだ",
+      "headword": "{未|いま}だ",
+      "label": "still, yet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20772_imademo",
+      "reading": "いまでも",
+      "headword": "{今|いま}でも",
+      "label": "even now"
+    }
+  ],
   "metadata": {
     "created": "2026-03-12T02:31:38Z",
-    "modified": "2026-03-12T02:31:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

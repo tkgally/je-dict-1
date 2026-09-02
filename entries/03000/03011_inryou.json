@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "{飲料|いんりょう} is a formal/written term for beverages.\n\nCOMMON COMPOUNDS:\n- ⟦{飲料水|いんりょうすい}→飲料水：15275_inryousui⟧: drinking water\n- ⟦{清涼飲料水|せいりょういんりょうすい}→清涼飲料水：17030_seiryouinryousui⟧: soft drink, refreshing beverage\n- ⟦ソフト→ソフト：01532_sofuto⟧{飲料|いんりょう}: soft drink\n- {飲料|いんりょう}⟦メーカー→メーカー：11158_meekaa⟧: beverage manufacturer\n\nDISTINCTION:\n- {飲料|いんりょう}: formal term for beverages (written/commercial)\n- ⟦{飲|の}み{物|もの}→飲み物：02929_nomimono⟧: everyday word for drink\n- ⟦ドリンク→ドリンク：23507_dorinku⟧: casual loanword for drink",
-  "cross_references": [],
+  "notes": "{飲料|いんりょう} is a formal/written term for beverages.\n\nCOMPOUNDS:\n- ⟦{飲料水|いんりょうすい}→飲料水：15275_inryousui⟧: drinking water\n- ⟦{清涼飲料水|せいりょういんりょうすい}→清涼飲料水：17030_seiryouinryousui⟧: soft drink, refreshing beverage\n- ⟦ソフト→ソフト：01532_sofuto⟧{飲料|いんりょう}: soft drink\n- {飲料|いんりょう}⟦メーカー→メーカー：11158_meekaa⟧: beverage manufacturer\n\nSIMILAR WORDS:\n- {飲料|いんりょう}: formal term for beverages (written/commercial)\n- ⟦{飲|の}み{物|もの}→飲み物：02929_nomimono⟧: everyday word for drink\n- ⟦ドリンク→ドリンク：23507_dorinku⟧: casual loanword for drink",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02929_nomimono",
+      "reading": "のみもの",
+      "headword": "{飲|の}み{物|もの}",
+      "label": "everyday word for drink"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23507_dorinku",
+      "reading": "どりんく",
+      "headword": "ドリンク",
+      "label": "casual loanword for drink"
+    },
+    {
+      "type": "related",
+      "target_id": "25788_inshokuhin",
+      "reading": "いんしょくひん",
+      "headword": "{飲食品|いんしょくひん}",
+      "label": "food and drink"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-08-12T06:29:54Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

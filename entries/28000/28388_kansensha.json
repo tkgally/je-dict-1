@@ -46,6 +46,22 @@
   ],
   "notes": "Became part of everyday vocabulary during the COVID-19 pandemic. The compound is {感染|かんせん} (infection) + {者|しゃ} (person).\n\nCOMMON COLLOCATIONS:\n- {新規|しんき}{感染者|かんせんしゃ}: new infections (newly reported cases)\n- {感染者数|かんせんしゃすう}: number of infected people\n- {感染者|かんせんしゃ}が{出|で}る: an infection case appears\n- {濃厚|のうこう}{接触|せっしょく}{者|しゃ}: close contact (of an infected person)\n\nSIMILAR WORDS:\n- {患者|かんじゃ}: patient — broader; includes all illnesses, not just infectious\n- {陽性者|ようせいしゃ}: a person who has tested positive\n- {発症者|はっしょうしゃ}: a person showing symptoms (vs. asymptomatic carrier)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00170_kanja",
+      "reading": "かんじゃ",
+      "headword": "{患者|かんじゃ}",
+      "label": "patient"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27361_kanjasuu",
+      "reading": "かんじゃすう",
+      "headword": "{患者数|かんじゃすう}",
+      "label": "number of patients"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +69,7 @@
         "noun"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health",
         "person"
@@ -61,6 +77,6 @@
       "domain": []
     },
     "created": "2026-05-30T03:11:46Z",
-    "modified": "2026-08-08T18:34:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

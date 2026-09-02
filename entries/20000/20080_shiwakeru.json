@@ -3,7 +3,7 @@
   "headword": "{仕分|しわ}ける",
   "reading": "しわける",
   "romaji": "shiwakeru",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to sort; to classify; to separate into categories",
   "conjugation": {
     "type": "ichidan",
@@ -134,8 +134,24 @@
       "notes": null
     }
   ],
-  "notes": "An ichidan (る) verb. The noun form {仕分|しわ}け is also very common, especially in compound forms.\n\nTRANSITIVITY:\nTransitive. The thing being sorted is marked with を.\n\nCOMMON COLLOCATIONS:\n- ゴミを{仕分|しわ}ける: to sort garbage\n- {荷物|にもつ}を{仕分|しわ}ける: to sort packages\n- {予算|よさん}を{仕分|しわ}ける: to screen/sort budgets\n- {郵便物|ゆうびんぶつ}を{仕分|しわ}ける: to sort mail\n\nNOTE:\nThe noun form {仕分|しわ}け gained prominence in Japanese politics through the {事業|じぎょう}{仕分|しわ}け (project screening) process, where government spending programs were publicly reviewed and categorized for cutting.\n\nSIMILAR WORDS:\n- {分類|ぶんるい}する: to classify — more formal and systematic; used for academic or scientific categorization\n- {分|わ}ける: to divide, to separate — more general; doesn't necessarily imply categorization\n- {選別|せんべつ}する: to sort out, to screen — implies selecting good from bad",
+  "notes": "An ichidan (る) verb. The noun form {仕分|しわ}け is also very common, especially in compound forms.\n\nTRANSITIVITY:\nTransitive. The thing being sorted is marked with を.\n\nCOMMON COLLOCATIONS:\n- ゴミを{仕分|しわ}ける: to sort garbage\n- {荷物|にもつ}を{仕分|しわ}ける: to sort packages\n- {予算|よさん}を{仕分|しわ}ける: to screen/sort budgets\n- {郵便物|ゆうびんぶつ}を{仕分|しわ}ける: to sort mail\n\nUSAGE:\nThe noun form {仕分|しわ}け gained prominence in Japanese politics through the {事業|じぎょう}{仕分|しわ}け (project screening) process, where government spending programs were publicly reviewed and categorized for cutting.\n\nSIMILAR WORDS:\n- {分類|ぶんるい}する: to classify — more formal and systematic; used for academic or scientific categorization\n- {分|わ}ける: to divide, to separate — more general; doesn't necessarily imply categorization\n- {選別|せんべつ}する: to sort out, to screen — implies selecting good from bad",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25224_bunruisuru",
+      "reading": "ぶんるいする",
+      "headword": "{分類|ぶんるい}する",
+      "label": "to classify"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09616_senbetsu",
+      "reading": "せんべつ",
+      "headword": "{選別|せんべつ}",
+      "label": "to sort out, to screen"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -151,6 +167,6 @@
       "verb_class": "ichidan"
     },
     "created": "2026-03-28T07:38:37Z",
-    "modified": "2026-04-10T06:37:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "30072_tatamikomi_ex1",
       "japanese": "{画像|がぞう}{認識|にんしき}では{畳|たた}み{込|こ}みが{使|つか}われる。",
       "english": "Convolution is used in image recognition.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30072_tatamikomi_ex2",
       "japanese": "{畳|たた}み{込|こ}みによって{特徴|とくちょう}を{抽出|ちゅうしゅつ}する。",
       "english": "Features are extracted by convolution.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,47 @@
       "id": "30072_tatamikomi_ex3",
       "japanese": "{畳|たた}み{込|こ}みニューラルネットワークは{画像|がぞう}{処理|しょり}に{強|つよ}い。",
       "english": "Convolutional neural networks are strong at image processing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The noun form of {畳|たた}み{込|こ}む (to fold in). In mathematics and signal processing it is an operation that blends two functions; in machine learning it is the core operation of a {畳|たた}み{込|こ}みニューラルネットワーク (convolutional neural network, CNN), which slides small filters over an image to detect features.\n\nCOMMON COLLOCATIONS:\n- {畳|たた}み{込|こ}み{層|そう}: convolutional layer\n- {畳|たた}み{込|こ}み{演算|えんざん}: convolution operation\n\nSIMILAR WORDS:\n- フィルター: filter — the small weight matrix that a convolution applies\n- {行列|ぎょうれつ}: matrix — the mathematical structure convolutions operate on",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21847_firutaa",
+      "reading": "ふぃるたー",
+      "headword": "フィルター",
+      "label": "filter"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09699_gyouretsu",
+      "reading": "ぎょうれつ",
+      "headword": "{行列|ぎょうれつ}",
+      "label": "matrix"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["technology"],
-      "domain": ["technical"]
+      "politeness": "plain",
+      "semantic": [
+        "technology"
+      ],
+      "domain": [
+        "technical"
+      ]
     },
     "created": "2026-07-23T21:21:47Z",
-    "modified": "2026-07-23T21:21:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

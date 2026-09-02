@@ -19,7 +19,9 @@
       "english": "There is a monthly meeting tomorrow.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14940_getsurei_ex2",
@@ -27,7 +29,9 @@
       "english": "Please submit the monthly report.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14940_getsurei_ex3",
@@ -35,21 +39,43 @@
       "english": "This research group holds monthly study sessions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "Primarily used as a modifier ({月例|げつれい}の or {月例|げつれい} + noun) rather than as a standalone noun.\n\nCOMMON COLLOCATIONS:\n- {月例|げつれい}{会議|かいぎ} (monthly meeting)\n- {月例|げつれい}{報告|ほうこく} (monthly report)\n- {月例|げつれい}{経済報告|けいざいほうこく} (monthly economic report — an official government term)\n\nUSAGE NOTE:\nMore formal than {毎月|まいつき}の (every month's). {月例|げつれい} implies a fixed, institutional schedule. {毎月|まいつき} is used for casual or personal routines, while {月例|げつれい} suits business and organizational contexts.",
-  "cross_references": [],
+  "notes": "Primarily used as a modifier ({月例|げつれい}の or {月例|げつれい} + noun) rather than as a standalone noun.\n\nCOMMON COLLOCATIONS:\n- {月例|げつれい}{会議|かいぎ} (monthly meeting)\n- {月例|げつれい}{報告|ほうこく} (monthly report)\n- {月例|げつれい}{経済報告|けいざいほうこく} (monthly economic report — an official government term)\n\nUSAGE:\nMore formal than {毎月|まいつき}の (every month's). {月例|げつれい} implies a fixed, institutional schedule. {毎月|まいつき} is used for casual or personal routines, while {月例|げつれい} suits business and organizational contexts.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22021_shuurei",
+      "reading": "しゅうれい",
+      "headword": "{週例|しゅうれい}",
+      "label": "weekly (regular event)"
+    },
+    {
+      "type": "homophone",
+      "target_id": "23017_getsurei",
+      "reading": "げつれい",
+      "headword": "{月齢|げつれい}",
+      "label": "moon age"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T07:22:03Z",
-    "modified": "2026-03-04T07:22:03Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

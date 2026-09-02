@@ -17,7 +17,9 @@
       "id": "25148_tokuhyousuu_ex1",
       "japanese": "{得票数|とくひょうすう}が{一番|いちばん}{多|おお}い{候補者|こうほしゃ}が{当選|とうせん}する。",
       "english": "The candidate with the highest number of votes wins.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25148_tokuhyousuu_ex2",
       "japanese": "{前回|ぜんかい}の{選挙|せんきょ}と{比|くら}べて{得票数|とくひょうすう}が{大幅|おおはば}に{増|ふ}えた。",
       "english": "The number of votes received increased significantly compared to the previous election.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,37 @@
       "id": "25148_tokuhyousuu_ex3",
       "japanese": "{各|かく}{候補者|こうほしゃ}の{得票数|とくひょうすう}は{選挙管理委員会|せんきょかんりいいんかい}のウェブサイトで{確認|かくにん}できる。",
       "english": "The vote tally for each candidate can be checked on the election commission's website.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {得票|とくひょう} (receiving votes) and {数|すう} (number). Specifically refers to the number of votes a particular candidate or option has garnered, as opposed to the total votes cast.\n\nThis is a standard term in election reporting and political analysis. It appears frequently in news coverage of elections at all levels.\n\nCOMMON COLLOCATIONS:\n- {得票数|とくひょうすう}が{多|おお}い: to have a high vote count\n- {得票数|とくひょうすう}が{伸|の}びる: vote count increases\n- {得票数|とくひょうすう}で{上回|うわまわ}る: to surpass in vote count\n- {最多|さいた}{得票|とくひょう}: most votes received\n\nSIMILAR WORDS:\n- {票数|ひょうすう}: number of votes — the total vote count, not specific to one candidate\n- {得票率|とくひょうりつ}: percentage of votes received — the proportion rather than the raw count\n- {投票数|とうひょうすう}: number of ballots cast — focuses on total participation",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "26674_touhyousuu",
+      "reading": "とうひょうすう",
+      "headword": "{投票数|とうひょうすう}",
+      "label": "number of ballots cast"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["politics"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "politics"
+      ]
     },
     "created": "2026-04-23T12:28:10Z",
-    "modified": "2026-04-23T12:28:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

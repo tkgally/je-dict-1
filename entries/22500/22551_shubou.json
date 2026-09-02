@@ -3,7 +3,7 @@
   "headword": "{首謀|しゅぼう}",
   "reading": "しゅぼう",
   "romaji": "shubou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "masterminding; plotting; ringleading",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Composed of {首|しゅ} (head, chief) + {謀|ぼう} (plot, scheme). Most commonly encountered in the compound {首謀者|しゅぼうしゃ} (mastermind, ringleader). The word is strongly negative, associated with criminal plots, conspiracies, rebellions, and organized wrongdoing.\n\nCOMMON COLLOCATIONS:\n- {首謀者|しゅぼうしゃ}: mastermind, ringleader\n- {首謀|しゅぼう}する: to mastermind, to plot\n- {事件|じけん}の{首謀者|しゅぼうしゃ}: the mastermind behind the incident\n- テロの{首謀者|しゅぼうしゃ}: the mastermind of the terrorist attack\n\nSIMILAR WORDS:\n- {黒幕|くろまく}: mastermind behind the scenes — implies pulling strings from a hidden position\n- {主犯|しゅはん}: principal offender — the legal term for the main perpetrator\n- {張本人|ちょうほんにん}: the person responsible — the one who is the root cause of trouble",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15478_kuromaku",
+      "reading": "くろまく",
+      "headword": "{黒幕|くろまく}",
+      "label": "mastermind behind the scenes"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18011_shuhan",
+      "reading": "しゅはん",
+      "headword": "{主犯|しゅはん}",
+      "label": "principal offender"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26787_chouhonnin",
+      "reading": "ちょうほんにん",
+      "headword": "{張本人|ちょうほんにん}",
+      "label": "the person responsible"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-06T17:35:18Z",
-    "modified": "2026-07-30T15:20:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

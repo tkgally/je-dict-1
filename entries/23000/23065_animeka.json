@@ -3,7 +3,7 @@
   "headword": "アニメ{化|か}",
   "reading": "あにめか",
   "romaji": "animeka",
-  "part_of_speech": "noun, verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "anime adaptation; turning into anime",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "A compound of アニメ (anime) + {化|か} (transformation/-ification). The suffix {化|か} is highly productive in Japanese, creating words meaning 'turning into X' or 'making into X.'\n\nCOMMON COLLOCATIONS:\n- アニメ{化|か}が{決定|けってい}する: for an anime adaptation to be confirmed\n- アニメ{化|か}される: to be adapted into anime\n- アニメ{化|か}{作品|さくひん}: anime-adapted work\n- アニメ{化|か}{発表|はっぴょう}: anime adaptation announcement\n\nSIMILAR WORDS:\n- {映画化|えいがか}: film adaptation — adapting a work into a live-action or animated film\n- {実写化|じっしゃか}: live-action adaptation — specifically adapting anime/manga into live-action\n- ドラマ{化|か}: drama adaptation — adapting into a TV drama series\n- {漫画化|まんがか}: manga adaptation — the reverse: adapting something into manga (less common)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23773_eigaka",
+      "reading": "えいがか",
+      "headword": "{映画化|えいがか}",
+      "label": "film adaptation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17313_jisshaka",
+      "reading": "じっしゃか",
+      "headword": "{実写化|じっしゃか}",
+      "label": "live-action adaptation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26046_doramaka",
+      "reading": "どらまか",
+      "headword": "ドラマ{化|か}",
+      "label": "drama adaptation"
+    },
+    {
+      "type": "related",
+      "target_id": "11205_ranobe",
+      "reading": "らのべ",
+      "headword": "ラノベ",
+      "label": "light novel"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-08T17:32:50Z",
-    "modified": "2026-04-08T17:32:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

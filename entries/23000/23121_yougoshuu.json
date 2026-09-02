@@ -17,7 +17,9 @@
       "id": "23121_yougoshuu_ex1",
       "japanese": "{巻末|かんまつ}に{用語集|ようごしゅう}がある。",
       "english": "There is a glossary at the end of the book.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "23121_yougoshuu_ex2",
       "japanese": "{専門|せんもん}{用語集|ようごしゅう}を{作成|さくせい}した。",
       "english": "I created a technical glossary.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "23121_yougoshuu_ex3",
       "japanese": "{分|わ}からない{言葉|ことば}があったら、{教科書|きょうかしょ}の{用語集|ようごしゅう}を{確認|かくにん}してください。",
       "english": "If there are words you don't understand, please check the textbook glossary.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {用語|ようご} (terminology, technical term) and {集|しゅう} (collection). Unlike a full dictionary, a glossary focuses on specialized vocabulary within a particular field or document.\n\nCOMMON COLLOCATIONS:\n- {専門|せんもん}{用語集|ようごしゅう}: technical glossary\n- {用語集|ようごしゅう}を{作|つく}る: to create a glossary\n- {用語集|ようごしゅう}を{参照|さんしょう}する: to refer to a glossary\n\nSIMILAR WORDS:\n- {辞書|じしょ}: dictionary — a comprehensive reference work covering general vocabulary\n- {辞典|じてん}: dictionary, encyclopedia — a more formal term, often for specialized or encyclopedic dictionaries\n- {語彙集|ごいしゅう}: vocabulary list — a broader collection of words, not necessarily with definitions",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04707_jisho",
+      "reading": "じしょ",
+      "headword": "{辞書|じしょ}",
+      "label": "dictionary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01640_jiten",
+      "reading": "じてん",
+      "headword": "{辞典|じてん}",
+      "label": "dictionary, encyclopedia"
+    },
+    {
+      "type": "related",
+      "target_id": "05144_hyakkajiten",
+      "reading": "ひゃっかじてん",
+      "headword": "{百科事典|ひゃっかじてん}",
+      "label": "encyclopedia"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["language", "education"],
+      "pos": [
+        "noun"
+      ],
+      "semantic": [
+        "language",
+        "education"
+      ],
       "formality": "neutral",
       "politeness": "plain"
     },
     "created": "2026-04-08T19:23:14Z",
-    "modified": "2026-04-08T19:23:14Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

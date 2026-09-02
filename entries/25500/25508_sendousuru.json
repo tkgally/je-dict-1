@@ -3,7 +3,7 @@
   "headword": "{扇動|せんどう}する",
   "reading": "せんどうする",
   "romaji": "sendousuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to agitate; to incite; to instigate",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Composed of {扇動|せんどう} (agitation; instigation) + する. Strongly negative — implies deliberate manipulation of people's emotions for a harmful purpose. Common in political and media commentary. The kanji {扇|おうぎ} (fan) reflects the metaphor of fanning flames.\n\nCOMMON COLLOCATIONS:\n- {群衆|ぐんしゅう}を{扇動|せんどう}する: to incite a crowd\n- {暴動|ぼうどう}を{扇動|せんどう}する: to instigate a riot\n- {扇動|せんどう}{的|てき}な: inflammatory; agitative\n- {扇動者|せんどうしゃ}: agitator; instigator; demagogue\n\nSIMILAR WORDS:\n- {煽|あお}る: to fan; to stir up — more colloquial; used broadly for stirring emotions, provoking, or egging someone on\n- {挑発|ちょうはつ}する: to provoke — focuses on provoking a specific reaction from someone rather than manipulating a group\n- {唆|そそのか}す: to tempt; to abet — implies seducing or luring someone into wrongdoing, often one-on-one",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07924_aoru",
+      "reading": "あおる",
+      "headword": "{煽|あお}る",
+      "label": "to fan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12827_chouhatsu",
+      "reading": "ちょうはつ",
+      "headword": "{挑発|ちょうはつ}",
+      "label": "to provoke"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,6 +68,7 @@
       "pos": [
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "politics",
         "communication"
@@ -60,7 +76,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T15:15:37Z",
-    "modified": "2026-04-25T15:15:37Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

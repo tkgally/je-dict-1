@@ -3,7 +3,7 @@
   "headword": "ふやかす",
   "reading": "ふやかす",
   "romaji": "fuyakasu",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to soak and soften; to let soak until soft",
   "definitions": [
     {
@@ -46,6 +46,30 @@
   ],
   "notes": "A transitive godan verb used almost exclusively in cooking contexts. The intransitive counterpart is ふやける (to become soggy/soft from soaking).\n\nTRANSITIVITY:\n- ふやかす (transitive): to soak something until soft\n- ふやける (intransitive): to become soft/soggy from soaking\n\nCOMMON COLLOCATIONS:\n- {豆|まめ}をふやかす: to soak beans\n- {米|こめ}をふやかす: to soak rice\n- ゼラチンをふやかす: to bloom/soften gelatin\n- {乾物|かんぶつ}をふやかす: to rehydrate dried foods\n- {水|みず}でふやかす: to soften in water\n\nSIMILAR WORDS:\n- {浸|ひた}す: to soak, immerse — more general, not specifically about softening\n- {戻|もど}す: to reconstitute — specifically about restoring dried foods to their original state\n- ふやける: to become soggy — the intransitive form, can have a negative nuance (becoming undesirably soft)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07506_hitasu",
+      "reading": "ひたす",
+      "headword": "{浸|ひた}す",
+      "label": "to soak, immerse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02317_modosu",
+      "reading": "もどす",
+      "headword": "{戻|もど}す",
+      "label": "to reconstitute"
+    }
+  ],
+  "prominent_see_also": [
+    {
+      "target_id": "07839_fuyakeru",
+      "reading": "ふやける",
+      "headword": "ふやける",
+      "note": "intransitive"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +85,7 @@
       "verb_class": "godan-su"
     },
     "created": "2026-04-02T15:25:17Z",
-    "modified": "2026-04-10T06:41:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

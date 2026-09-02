@@ -3,7 +3,7 @@
   "headword": "{商業出版|しょうぎょうしゅっぱん}",
   "reading": "しょうぎょうしゅっぱん",
   "romaji": "shougyoushuppan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "commercial publishing; trade publishing",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Composed of {商業|しょうぎょう} (commerce, business) and {出版|しゅっぱん} (publishing). This term gained prominence as self-publishing and online publishing grew, creating a need to distinguish traditional publisher-funded publishing from author-funded alternatives.\n\nCOMMON COLLOCATIONS:\n- {商業出版|しょうぎょうしゅっぱん}する: to publish commercially\n- {商業出版|しょうぎょうしゅっぱん}{物|ぶつ}: commercially published work\n- {商業出版|しょうぎょうしゅっぱん}デビュー: commercial publishing debut\n\nSIMILAR WORDS:\n- {自費出版|じひしゅっぱん}: self-publishing (vanity press) — the author pays for production costs\n- {同人誌|どうじんし}: doujinshi, self-published works — often fan-created content sold at events like コミケ (Comiket)\n- {電子出版|でんししゅっぱん}: electronic publishing — publishing in digital format, which can be either commercial or self-published",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "23968_jihishuppan",
+      "reading": "じひしゅっぱん",
+      "headword": "{自費|じひ}{出版|しゅっぱん}",
+      "label": "self-publishing"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07326_doujinshi",
+      "reading": "どうじんし",
+      "headword": "{同人誌|どうじんし}",
+      "label": "doujinshi, self-published works"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26382_jikoshuppan",
+      "reading": "じこしゅっぱん",
+      "headword": "{自己出版|じこしゅっぱん}",
+      "label": "self-publishing"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -65,7 +87,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-02T15:28:06Z",
-    "modified": "2026-05-02T15:28:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

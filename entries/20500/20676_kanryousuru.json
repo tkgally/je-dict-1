@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A formal word for completion, commonly used in business, technology, and official contexts. Frequently seen in system messages, notifications, and formal reports. In grammar, {完了|かんりょう} also refers to the perfective aspect.\n\nCOMMON COLLOCATIONS:\n- {完了|かんりょう}する: to complete\n- {完了|かんりょう}しました: (it) has been completed (polite notification)\n- {作業|さぎょう}{完了|かんりょう}: task complete\n- {手続|てつづ}き{完了|かんりょう}: procedure complete\n- {支払|しはら}い{完了|かんりょう}: payment complete\n\nGRAMMAR NOTE:\nIn Japanese grammar, {完了|かんりょう}{形|けい} refers to the perfective form (past tense), indicating a completed action.\n\nSIMILAR WORDS:\n- {終了|しゅうりょう}する: to end, to finish — emphasizes that something has stopped or ended\n- {完成|かんせい}する: to complete (a creation) — used for completing a product, building, or work of art\n- {済|す}む: to be finished — more casual and conversational",
+  "notes": "A formal word for completion, commonly used in business, technology, and official contexts. Frequently seen in system messages, notifications, and formal reports. In grammar, {完了|かんりょう} also refers to the perfective aspect.\n\nCOMMON COLLOCATIONS:\n- {完了|かんりょう}する: to complete\n- {完了|かんりょう}しました: (it) has been completed (polite notification)\n- {作業|さぎょう}{完了|かんりょう}: task complete\n- {手続|てつづ}き{完了|かんりょう}: procedure complete\n- {支払|しはら}い{完了|かんりょう}: payment complete\n\nCOMMON PATTERNS:\nIn Japanese grammar, {完了|かんりょう}{形|けい} refers to the perfective form (past tense), indicating a completed action.\n\nSIMILAR WORDS:\n- {終了|しゅうりょう}する: to end, to finish — emphasizes that something has stopped or ended\n- {完成|かんせい}する: to complete (a creation) — used for completing a product, building, or work of art\n- {済|す}む: to be finished — more casual and conversational",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22990_shuuryousuru",
+      "reading": "しゅうりょうする",
+      "headword": "{終了|しゅうりょう}する",
+      "label": "to end, to finish"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25528_kanseisuru",
+      "reading": "かんせいする",
+      "headword": "{完成|かんせい}する",
+      "label": "to complete"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01950_sumu",
+      "reading": "すむ",
+      "headword": "{済|す}む",
+      "label": "to be finished"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20679_kanketsusuru",
+      "reading": "かんけつする",
+      "headword": "{完結|かんけつ}する",
+      "label": "to conclude"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +83,7 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "action",
         "business"
@@ -61,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-30T06:39:03Z",
-    "modified": "2026-03-30T06:39:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

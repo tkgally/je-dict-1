@@ -22,7 +22,9 @@
       "id": "25428_miwosasageru_ex1",
       "japanese": "{研究|けんきゅう}に{身|み}を{捧|ささ}げる。",
       "english": "I devote myself to research.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "25428_miwosasageru_ex2",
       "japanese": "{彼女|かのじょ}は{音楽|おんがく}に{身|み}を{捧|ささ}げてきた。",
       "english": "She has devoted herself to music.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "25428_miwosasageru_ex3",
       "japanese": "{医療|いりょう}の{発展|はってん}に{身|み}を{捧|ささ}げた{医師|いし}として{知|し}られている。",
       "english": "He is known as a doctor who devoted himself to the advancement of medicine.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "25428_miwosasageru_ex4",
       "japanese": "{国|くに}のために{身|み}を{捧|ささ}げた。",
       "english": "They sacrificed themselves for their country.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "25428_miwosasageru_ex5",
       "japanese": "{仲間|なかま}を{守|まも}るために{身|み}を{捧|ささ}げる{覚悟|かくご}がある。",
       "english": "I am prepared to sacrifice myself to protect my comrades.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,23 +72,55 @@
       "id": "25428_miwosasageru_ex6",
       "japanese": "{平和|へいわ}のために{身|み}を{捧|ささ}げた{人|ひと}々の{犠牲|ぎせい}を{忘|わす}れてはならない。",
       "english": "We must not forget the sacrifice of those who gave their lives for peace.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{身|み}を{捧|ささ}げる literally means \"to offer one's body/self\" ({身|み} = body/self, {捧|ささ}げる = to offer/dedicate). It is a literary and somewhat elevated expression conveying deep commitment or sacrifice.\n\nUSAGE:\nThe cause or pursuit is marked with に: ～に{身|み}を{捧|ささ}げる. Sense 1 (devotion) is more common in modern usage than sense 2 (sacrifice).\n\nCOMMON COLLOCATIONS:\n- {仕事|しごと}に{身|み}を{捧|ささ}げる: devote oneself to one's work\n- {愛|あい}に{身|み}を{捧|ささ}げる: devote oneself to love\n- {神|かみ}に{身|み}を{捧|ささ}げる: dedicate oneself to God\n- {国|くに}のために{身|み}を{捧|ささ}げる: sacrifice oneself for one's country\n\nSIMILAR EXPRESSIONS:\n- {一生|いっしょう}を{捧|ささ}げる: to devote one's whole life — emphasizes the lifetime duration\n- {打|う}ち{込|こ}む: to devote oneself to; to throw oneself into — more colloquial and active\n- {尽|つ}くす: to serve; to exhaust oneself for — focuses on giving one's all in service",
+  "notes": "{身|み}を{捧|ささ}げる literally means \"to offer one's body/self\" ({身|み} = body/self, {捧|ささ}げる = to offer/dedicate). It is a literary and somewhat elevated expression conveying deep commitment or sacrifice.\n\nUSAGE:\nThe cause or pursuit is marked with に: ～に{身|み}を{捧|ささ}げる. Sense 1 (devotion) is more common in modern usage than sense 2 (sacrifice).\n\nCOMMON COLLOCATIONS:\n- {仕事|しごと}に{身|み}を{捧|ささ}げる: devote oneself to one's work\n- {愛|あい}に{身|み}を{捧|ささ}げる: devote oneself to love\n- {神|かみ}に{身|み}を{捧|ささ}げる: dedicate oneself to God\n- {国|くに}のために{身|み}を{捧|ささ}げる: sacrifice oneself for one's country\n\nSIMILAR WORDS:\n- {一生|いっしょう}を{捧|ささ}げる: to devote one's whole life — emphasizes the lifetime duration\n- {打|う}ち{込|こ}む: to devote oneself to; to throw oneself into — more colloquial and active\n- {尽|つ}くす: to serve; to exhaust oneself for — focuses on giving one's all in service",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04229_uchikomu",
+      "reading": "うちこむ",
+      "headword": "{打|う}ち{込|こ}む",
+      "label": "to devote oneself to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02077_tsukusu",
+      "reading": "つくす",
+      "headword": "{尽|つ}くす",
+      "label": "to serve"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21671_miwotoujiru",
+      "reading": "みをとうじる",
+      "headword": "{身|み}を{投|とう}じる",
+      "label": "to devote oneself to"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"],
-      "style": ["written", "literary"]
+      "semantic": [
+        "action"
+      ],
+      "style": [
+        "written",
+        "literary"
+      ]
     },
     "created": "2026-04-25T12:41:05Z",
-    "modified": "2026-04-25T12:41:05Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

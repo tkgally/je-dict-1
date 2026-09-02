@@ -2,7 +2,7 @@
   "id": "12789_tousai",
   "headword": "{搭載|とうさい}",
   "reading": "とうさい",
-  "part_of_speech": "noun / verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "loading, mounting, equipping",
   "conjugation": {
     "type": "suru",
@@ -134,11 +134,47 @@
       ]
     }
   ],
-  "notes": "{搭載|とうさい} is very commonly used in product descriptions and tech journalism to describe features that are built into or loaded onto a device or vehicle.\n\nPATTERN:\n- 〜を{搭載|とうさい}する: to equip with ~, to install ~\n- 〜が{搭載|とうさい}されている: ~ is equipped / comes loaded with\n- 〜{搭載|とうさい}: ~-equipped (used as a modifier, e.g., AI{搭載|とうさい})\n\nCOMMON COLLOCATIONS:\n- エンジンを{搭載|とうさい}する: to mount an engine\n- {機能|きのう}を{搭載|とうさい}する: to include a feature\n- {搭載|とうさい}{量|りょう}: payload capacity\n- {搭載|とうさい}モデル: a model equipped with ~\n\nSIMILAR WORDS:\n- {装備|そうび}: equipment, gear (broader; includes personal gear and military equipment)\n- {積|つ}む: to load, to pile up (more general; less technical)",
-  "cross_references": [],
+  "notes": "{搭載|とうさい} is very commonly used in product descriptions and tech journalism to describe features that are built into or loaded onto a device or vehicle.\n\nCOMMON PATTERNS:\n- 〜を{搭載|とうさい}する: to equip with ~, to install ~\n- 〜が{搭載|とうさい}されている: ~ is equipped / comes loaded with\n- 〜{搭載|とうさい}: ~-equipped (used as a modifier, e.g., AI{搭載|とうさい})\n\nCOMMON COLLOCATIONS:\n- エンジンを{搭載|とうさい}する: to mount an engine\n- {機能|きのう}を{搭載|とうさい}する: to include a feature\n- {搭載|とうさい}{量|りょう}: payload capacity\n- {搭載|とうさい}モデル: a model equipped with ~\n\nSIMILAR WORDS:\n- {装備|そうび}: equipment, gear (broader; includes personal gear and military equipment)\n- {積|つ}む: to load, to pile up (more general; less technical)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14103_soubi",
+      "reading": "そうび",
+      "headword": "{装備|そうび}",
+      "label": "equipment, gear (broader"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02294_tsumu",
+      "reading": "つむ",
+      "headword": "{積|つ}む",
+      "label": "to load, to pile up (more general"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14908_shasai",
+      "reading": "しゃさい",
+      "headword": "{車載|しゃさい}",
+      "label": "on-board (vehicle)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15883_sekisai",
+      "reading": "せきさい",
+      "headword": "{積載|せきさい}",
+      "label": "loading"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28631_jissou",
+      "reading": "じっそう",
+      "headword": "{実装|じっそう}",
+      "label": "implementation"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T10:32:42Z",
-    "modified": "2026-08-22T00:30:21Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

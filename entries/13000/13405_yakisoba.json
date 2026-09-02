@@ -19,7 +19,9 @@
       "english": "I made yakisoba for lunch.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13405_yakisoba_ex2",
@@ -27,7 +29,9 @@
       "english": "The aroma of sauce from the street stall yakisoba is irresistible.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13405_yakisoba_ex3",
@@ -35,21 +39,56 @@
       "english": "When you go to a festival, buying yakisoba and shaved ice first is the standard routine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "USAGE:\nDespite the name containing そば (buckwheat noodles), {焼|や}きそば is made with {中華|ちゅうか}{麺|めん} (Chinese-style wheat noodles), not buckwheat noodles. The noodles are stir-fried on a griddle with cabbage, pork, and other ingredients, then seasoned with a thick Worcestershire-type sauce.\n\nVARIATIONS:\n- ソース{焼|や}きそば: the standard sauce-flavored version\n- {塩|しお}{焼|や}きそば: salt-flavored yakisoba\n- {焼|や}きそばパン: a bread roll filled with yakisoba, popular at convenience stores and school cafeterias\n\nCULTURAL NOTE:\n{焼|や}きそば is closely associated with {祭|まつ}り (festivals) and {屋台|やたい} (food stalls). It is one of the most iconic {屋台|やたい} foods alongside たこ{焼|や}き.\n\nCOMMON COLLOCATIONS:\n- {焼|や}きそばを{作|つく}る: to make yakisoba\n- {焼|や}きそばを{焼|や}く: to cook yakisoba\n- {屋台|やたい}の{焼|や}きそば: festival stall yakisoba",
-  "cross_references": [],
+  "notes": "USAGE:\nDespite the name containing そば (buckwheat noodles), {焼|や}きそば is made with {中華|ちゅうか}{麺|めん} (Chinese-style wheat noodles), not buckwheat noodles. The noodles are stir-fried on a griddle with cabbage, pork, and other ingredients, then seasoned with a thick Worcestershire-type sauce.\n\nFORMS:\n- ソース{焼|や}きそば: the standard sauce-flavored version\n- {塩|しお}{焼|や}きそば: salt-flavored yakisoba\n- {焼|や}きそばパン: a bread roll filled with yakisoba, popular at convenience stores and school cafeterias\n\nCULTURAL NOTE:\n{焼|や}きそば is closely associated with {祭|まつ}り (festivals) and {屋台|やたい} (food stalls). It is one of the most iconic {屋台|やたい} foods alongside たこ{焼|や}き.\n\nCOMMON COLLOCATIONS:\n- {焼|や}きそばを{作|つく}る: to make yakisoba\n- {焼|や}きそばを{焼|や}く: to cook yakisoba\n- {屋台|やたい}の{焼|や}きそば: festival stall yakisoba",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10364_takoyaki",
+      "reading": "たこやき",
+      "headword": "たこ{焼|や}き",
+      "label": "takoyaki"
+    },
+    {
+      "type": "related",
+      "target_id": "20780_yakiudon",
+      "reading": "やきうどん",
+      "headword": "{焼|や}きうどん",
+      "label": "fried udon noodles"
+    },
+    {
+      "type": "related",
+      "target_id": "21814_chuukamen",
+      "reading": "ちゅうかめん",
+      "headword": "{中華麺|ちゅうかめん}",
+      "label": "Chinese-style noodles"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26278_nikuyasaiitame",
+      "reading": "にくやさいいため",
+      "headword": "{肉野菜炒|にくやさいいた}め",
+      "label": "stir-fried meat and vegetables"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T11:36:06Z",
-    "modified": "2026-02-24T11:36:06Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

@@ -17,7 +17,9 @@
       "id": "21406_koritsukan_ex1",
       "japanese": "{孤立感|こりつかん}を{感|かん}じている。",
       "english": "I feel isolated.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21406_koritsukan_ex2",
       "japanese": "{転校|てんこう}{後|ご}、{強|つよ}い{孤立感|こりつかん}に{悩|なや}まされた。",
       "english": "After transferring schools, I was troubled by a strong sense of isolation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "21406_koritsukan_ex3",
       "japanese": "{在宅勤務|ざいたくきんむ}が{長|なが}く{続|つづ}くと、{同僚|どうりょう}との{交流|こうりゅう}が{減|へ}って{孤立感|こりつかん}を{抱|かか}えやすくなる。",
       "english": "When remote work continues for a long time, interaction with colleagues decreases and it becomes easy to develop feelings of isolation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {孤立|こりつ} (isolation) and {感|かん} (feeling/sense). Describes the subjective emotional experience of being isolated, which may or may not reflect actual social isolation.\n\nCOMMON COLLOCATIONS:\n- {孤立感|こりつかん}を{感|かん}じる: to feel isolated\n- {孤立感|こりつかん}に{苦|くる}しむ: to suffer from feelings of isolation\n- {孤立感|こりつかん}を{抱|かか}える: to harbor feelings of isolation\n- {孤立感|こりつかん}が{深|ふか}まる: feelings of isolation deepen\n\nSIMILAR WORDS:\n- {疎外感|そがいかん}: feeling of alienation — implies being excluded or pushed away by a group\n- {寂|さび}しさ: loneliness — a simpler, more everyday word for the emotion of being lonely\n- {孤独感|こどくかん}: sense of solitude — emphasizes being alone, whether by choice or circumstance",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06938_sogaikan",
+      "reading": "そがいかん",
+      "headword": "{疎外感|そがいかん}",
+      "label": "feeling of alienation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08262_sabishisa",
+      "reading": "さびしさ",
+      "headword": "{寂|さび}しさ",
+      "label": "loneliness"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05995_kodokukan",
+      "reading": "こどくかん",
+      "headword": "{孤独感|こどくかん}",
+      "label": "sense of solitude"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     },
     "created": "2026-04-02T02:50:31Z",
-    "modified": "2026-04-02T02:50:31Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

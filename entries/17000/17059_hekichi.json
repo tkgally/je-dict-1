@@ -19,7 +19,9 @@
       "english": "There are few hospitals in remote areas.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17059_hekichi_ex2",
@@ -27,7 +29,9 @@
       "english": "Improvements in remote-area healthcare are being called for.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17059_hekichi_ex3",
@@ -35,7 +39,9 @@
       "english": "Because this village is in a remote area, it takes an hour by car just to go shopping.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften used in administrative and policy contexts, especially regarding healthcare ({僻地|へきち}{医療|いりょう}) and education. Carries a somewhat negative connotation of being disadvantaged by location.\n\nCOMMON COLLOCATIONS:\n- {僻地|へきち}{医療|いりょう} (remote-area healthcare)\n- {僻地|へきち}{教育|きょういく} (education in remote areas)\n- {僻地|へきち}に{赴任|ふにん}する (to be assigned to a remote area)\n\nSIMILAR WORDS:\n- {秘境|ひきょう}: unexplored region — romantic, adventurous connotation, unlike the practical tone of {僻地|へきち}\n- {辺境|へんきょう}: frontier — the edge of civilization, often used historically or geographically\n- {田舎|いなか}: countryside — neutral or positive, simply means rural area",
@@ -60,18 +66,57 @@
       "reading": "いなか",
       "headword": "{田舎|いなか}",
       "label": "countryside (neutral/positive)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16372_saihate",
+      "reading": "さいはて",
+      "headword": "{最果|さいは}て",
+      "label": "the farthest reaches"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19464_enpou",
+      "reading": "えんぽう",
+      "headword": "{遠方|えんぽう}",
+      "label": "distant place"
+    },
+    {
+      "type": "related",
+      "target_id": "20960_enkakuchi",
+      "reading": "えんかくち",
+      "headword": "{遠隔地|えんかくち}",
+      "label": "remote area"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23021_kasochi",
+      "reading": "かそち",
+      "headword": "{過疎地|かそち}",
+      "label": "depopulated area"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24863_gunbu",
+      "reading": "ぐんぶ",
+      "headword": "{郡部|ぐんぶ}",
+      "label": "rural area"
     }
   ],
   "metadata": {
     "created": "2026-03-15T09:46:20Z",
-    "modified": "2026-05-05T08:12:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

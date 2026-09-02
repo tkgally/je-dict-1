@@ -17,7 +17,9 @@
       "id": "19752_sairei_ex1",
       "japanese": "{神社|じんじゃ}で{祭礼|さいれい}が{行|おこな}われた。",
       "english": "A religious ceremony was held at the shrine.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19752_sairei_ex2",
       "japanese": "この{祭礼|さいれい}は{毎年|まいとし}{秋|あき}に{開催|かいさい}される。",
       "english": "This festival is held every autumn.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "19752_sairei_ex3",
       "japanese": "{古|ふる}くから{伝|つた}わる{祭礼|さいれい}には、{地域|ちいき}の{人々|ひとびと}が{大勢|おおぜい}{参加|さんか}する。",
       "english": "Many local people participate in the traditional festival that has been passed down for generations.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {祭|さい} (festival, worship) and {礼|れい} (ceremony, rite). A formal term that emphasizes the religious and ceremonial aspects of a festival, as opposed to the celebratory or entertainment aspects.\n\nSIMILAR WORDS:\n- {祭|まつ}り — festival; the everyday, broad term covering both religious and secular events\n- {儀式|ぎしき} — ceremony; ritual; more general, not limited to festivals\n- {神事|しんじ} — Shinto ritual; specifically religious, not the public celebration\n- {例祭|れいさい} — regular festival; the main annual festival of a shrine\n\nCOMMON COLLOCATIONS:\n- {祭礼|さいれい}を{行|おこな}う — to hold a religious festival\n- {祭礼|さいれい}に{参加|さんか}する — to participate in a festival\n- {伝統的|でんとうてき}な{祭礼|さいれい} — traditional religious festival\n- {秋|あき}の{祭礼|さいれい} — autumn festival\n\nREGISTER:\nFormal and written. In everyday conversation, {祭|まつ}り or お{祭|まつ}り is much more common.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03735_matsuri",
+      "reading": "まつり",
+      "headword": "{祭|まつ}り",
+      "label": "festival"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00071_gishiki",
+      "reading": "ぎしき",
+      "headword": "{儀式|ぎしき}",
+      "label": "ceremony"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14066_shinji",
+      "reading": "しんじ",
+      "headword": "{神事|しんじ}",
+      "label": "Shinto ritual"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["culture", "religion"]
+      "semantic": [
+        "culture",
+        "religion"
+      ]
     },
     "created": "2026-03-26T15:24:33Z",
-    "modified": "2026-03-26T15:24:33Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

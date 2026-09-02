@@ -273,11 +273,26 @@
       ]
     }
   ],
-  "notes": "{切|き}り{捨|す}てる is a compound verb combining ⟦{切|き}る→切る：02693_kiru⟧ (to cut) + ⟦{捨|す}てる→捨てる：00892_suteru⟧ (to discard), with meanings spanning from violent to mathematical.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes ⟦を→を：00422_wo⟧ particle\n\nTHREE MEANINGS:\n1. Historical: to cut down/kill with a sword\n2. Modern: to ruthlessly discard or abandon\n3. Mathematical: to truncate/round down\n\nCOMMON PATTERNS:\n- ⟦{無駄|むだ}→無駄：02512_muda⟧⟦を→を：00422_wo⟧{切|き}り{捨|す}てる: to eliminate waste\n- ⟦{小数点以下|しょうすうてんいか}→小数点以下：noentry⟧⟦を→を：00422_wo⟧{切|き}り{捨|す}てる: to truncate decimals\n- ⟦{端数|はすう}→端数：23501_hasuu⟧⟦を→を：00422_wo⟧{切|き}り{捨|す}てる: to round down fractions\n\nCONTRAST:\n- ⟦{切|き}り{上|あ}げる→切り上げる：06979_kiriageru⟧: to round up (math)\n- ⟦{四捨五入|ししゃごにゅう}→四捨五入：15694_shishagonyuu⟧: to round (up/down at 5)\n\nHISTORICAL:\n{切|き}り{捨|す}て⟦{御免|ごめん}→御免：00072_gomen⟧: the right of samurai to kill commoners.",
-  "cross_references": [],
+  "notes": "{切|き}り{捨|す}てる is a compound verb combining ⟦{切|き}る→切る：02693_kiru⟧ (to cut) + ⟦{捨|す}てる→捨てる：00892_suteru⟧ (to discard), with meanings spanning from violent to mathematical.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes ⟦を→を：00422_wo⟧ particle\n\nTHREE MEANINGS:\n1. Historical: to cut down/kill with a sword\n2. Modern: to ruthlessly discard or abandon\n3. Mathematical: to truncate/round down\n\nCOMMON PATTERNS:\n- ⟦{無駄|むだ}→無駄：02512_muda⟧⟦を→を：00422_wo⟧{切|き}り{捨|す}てる: to eliminate waste\n- ⟦{小数点以下|しょうすうてんいか}→小数点以下：noentry⟧⟦を→を：00422_wo⟧{切|き}り{捨|す}てる: to truncate decimals\n- ⟦{端数|はすう}→端数：23501_hasuu⟧⟦を→を：00422_wo⟧{切|き}り{捨|す}てる: to round down fractions\n\nSIMILAR WORDS:\n- ⟦{切|き}り{上|あ}げる→切り上げる：06979_kiriageru⟧: to round up (math)\n- ⟦{四捨五入|ししゃごにゅう}→四捨五入：15694_shishagonyuu⟧: to round (up/down at 5)\n\nHISTORICAL:\n{切|き}り{捨|す}て⟦{御免|ごめん}→御免：00072_gomen⟧: the right of samurai to kill commoners.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06979_kiriageru",
+      "reading": "きりあげる",
+      "headword": "{切|き}り{上|あ}げる",
+      "label": "to round up"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15694_shishagonyuu",
+      "reading": "ししゃごにゅう",
+      "headword": "{四捨五入|ししゃごにゅう}",
+      "label": "to round"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T08:43:51Z",
-    "modified": "2026-08-20T06:21:38Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

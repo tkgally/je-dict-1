@@ -17,7 +17,9 @@
       "id": "26286_satsueisha_ex1",
       "japanese": "{撮影者|さつえいしゃ}の{名前|なまえ}を{記載|きさい}してください。",
       "english": "Please include the photographer's name.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26286_satsueisha_ex2",
       "japanese": "この{写真|しゃしん}の{撮影者|さつえいしゃ}は{不明|ふめい}です。",
       "english": "The photographer of this picture is unknown.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "26286_satsueisha_ex3",
       "japanese": "{動画|どうが}の{撮影者|さつえいしゃ}がSNSに{投稿|とうこう}したことで、その{映像|えいぞう}は{一気|いっき}に{拡散|かくさん}した。",
       "english": "The person who filmed the video posted it on social media, and the footage quickly went viral.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {撮影|さつえい} (photography; filming) + {者|しゃ} (person). This word emphasizes the role of taking photos or video, not necessarily as a profession. It is commonly used in captions, credits, legal contexts, and when discussing who created a particular image or footage.\n\nCOMMON COLLOCATIONS:\n- {撮影者|さつえいしゃ}{不明|ふめい}: photographer unknown\n- {撮影者|さつえいしゃ}の{許可|きょか}: permission from the photographer\n- {撮影者|さつえいしゃ}の{著作権|ちょさくけん}: the photographer's copyright\n- {撮影者|さつえいしゃ}{本人|ほんにん}: the photographer themselves\n\nSIMILAR WORDS:\n- カメラマン: cameraman — more common in spoken Japanese for a professional photographer or videographer\n- フォトグラファー: photographer — loanword used especially in fashion and art contexts\n- {写真家|しゃしんか}: photographer — implies a serious or professional photographer, especially one who does artistic work",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28387_kameraman",
+      "reading": "かめらまん",
+      "headword": "カメラマン",
+      "label": "cameraman"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28946_fotogurafaa",
+      "reading": "ふぉとぐらふぁー",
+      "headword": "フォトグラファー",
+      "label": "photographer"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05501_shashinka",
+      "reading": "しゃしんか",
+      "headword": "{写真家|しゃしんか}",
+      "label": "photographer"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "occupation"]
+      "semantic": [
+        "person",
+        "occupation"
+      ]
     },
     "created": "2026-04-30T15:22:27Z",
-    "modified": "2026-04-30T15:22:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

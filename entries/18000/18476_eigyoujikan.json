@@ -44,8 +44,52 @@
       "notes": null
     }
   ],
-  "notes": "The hours during which a business is open to customers. Very commonly seen on shop doors, websites, and signs throughout Japan.\n\nWORD FORMATION:\n{営業|えいぎょう} (business/operations) + {時間|じかん} (time/hours)\n\nCOMMON EXPRESSIONS:\n- {営業時間|えいぎょうじかん}{外|がい}: outside business hours\n- {営業時間|えいぎょうじかん}{内|ない}: during business hours\n- {営業時間|えいぎょうじかん}の{変更|へんこう}: change in business hours\n\nRELATED SIGNS:\n- {営業中|えいぎょうちゅう}: open (currently doing business)\n- {準備中|じゅんびちゅう}: closed/preparing\n- {定休日|ていきゅうび}: regular closing day\n\nIn Japan, many restaurants and shops post their {営業時間|えいぎょうじかん} on the door along with their {定休日|ていきゅうび} (regular day off).",
+  "notes": "The hours during which a business is open to customers. Very commonly seen on shop doors, websites, and signs throughout Japan.\n\nFORMS:\n{営業|えいぎょう} (business/operations) + {時間|じかん} (time/hours)\n\nCOMMON EXPRESSIONS:\n- {営業時間|えいぎょうじかん}{外|がい}: outside business hours\n- {営業時間|えいぎょうじかん}{内|ない}: during business hours\n- {営業時間|えいぎょうじかん}の{変更|へんこう}: change in business hours\n\nRELATED SIGNS:\n- {営業中|えいぎょうちゅう}: open (currently doing business)\n- {準備中|じゅんびちゅう}: closed/preparing\n- {定休日|ていきゅうび}: regular closing day\n\nIn Japan, many restaurants and shops post their {営業時間|えいぎょうじかん} on the door along with their {定休日|ていきゅうび} (regular day off).",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09539_eigyouchuu",
+      "reading": "えいぎょうちゅう",
+      "headword": "{営業中|えいぎょうちゅう}",
+      "label": "open"
+    },
+    {
+      "type": "related",
+      "target_id": "09540_junbichuu",
+      "reading": "じゅんびちゅう",
+      "headword": "{準備中|じゅんびちゅう}",
+      "label": "closed/preparing"
+    },
+    {
+      "type": "related",
+      "target_id": "09541_teikyuubi",
+      "reading": "ていきゅうび",
+      "headword": "{定休日|ていきゅうび}",
+      "label": "regular closing day"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22572_katsudoujikan",
+      "reading": "かつどうじかん",
+      "headword": "{活動時間|かつどうじかん}",
+      "label": "active hours"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23607_heitenjikan",
+      "reading": "へいてんじかん",
+      "headword": "{閉店時間|へいてんじかん}",
+      "label": "closing time (of a shop or restaurant)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24137_kinmujikan",
+      "reading": "きんむじかん",
+      "headword": "{勤務時間|きんむじかん}",
+      "label": "working hours"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,6 +107,6 @@
       ]
     },
     "created": "2026-03-22T03:08:19Z",
-    "modified": "2026-05-08T10:08:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

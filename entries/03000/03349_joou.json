@@ -64,10 +64,32 @@
     }
   ],
   "notes": "{女王|じょおう} refers to a queen regnant (ruling queen) or queen consort.\n\nCOMMON COLLOCATIONS:\n- {女王|じょおう}⟦{陛下|へいか}→陛下：14566_heika⟧ (Her Majesty the Queen)\n- ⟦{女王蜂|じょおうばち}→女王蜂：29897_jooubachi⟧ (queen bee)\n- ⟦{女王蟻|じょおうあり}→女王蟻：noentry⟧ (queen ant)\n- ...⟦の→の：09472_no⟧{女王|じょおう} (queen of..., used figuratively)\n\nSIMILAR WORDS:\n- {女王|じょおう}: queen (ruling or married to king)\n- ⟦{王女|おうじょ}→王女：04108_oujo⟧: princess (daughter of a monarch)\n- ⟦{女帝|じょてい}→女帝：noentry⟧: empress (ruling female emperor)\n- ⟦{皇后|こうごう}→皇后：16354_kougou⟧: empress consort (wife of emperor)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04108_oujo",
+      "reading": "おうじょ",
+      "headword": "{王女|おうじょ}",
+      "label": "princess"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16354_kougou",
+      "reading": "こうごう",
+      "headword": "{皇后|こうごう}",
+      "label": "empress consort"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25191_ougou",
+      "reading": "おうごう",
+      "headword": "{王后|おうごう}",
+      "label": "queen consort"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T06:34:45Z",
-    "modified": "2026-08-13T15:50:29Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

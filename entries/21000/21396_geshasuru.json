@@ -3,7 +3,7 @@
   "headword": "{下車|げしゃ}する",
   "reading": "げしゃする",
   "romaji": "geshasuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "suru verb",
   "gloss": "to get off (a vehicle); to alight",
   "conjugation_class": "suru",
   "transitivity": "intransitive",
@@ -48,6 +48,29 @@
   ],
   "notes": "A formal word for getting off a train, bus, or similar vehicle. In everyday conversation, {降|お}りる is more common, but {下車|げしゃ} appears frequently in announcements, signage, and written instructions.\n\nCOMMON COLLOCATIONS:\n- {途中|とちゅう}{下車|げしゃ}: stopover, getting off partway through a journey\n- ～で{下車|げしゃ}する: to get off at ~\n- {下車|げしゃ}{駅|えき}: the station where one gets off\n\nSIMILAR WORDS:\n- {降|お}りる: to get off — the everyday word for exiting a vehicle\n- {乗車|じょうしゃ}する: to board — the opposite, getting on a vehicle\n- {下船|げせん}する: to disembark (from a ship) — used specifically for boats and ships",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00568_oriru",
+      "reading": "おりる",
+      "headword": "{降|お}りる",
+      "label": "to get off"
+    },
+    {
+      "type": "antonym",
+      "target_id": "06201_jousha",
+      "reading": "じょうしゃ",
+      "headword": "{乗車|じょうしゃ}",
+      "label": "to board"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21593_gesen",
+      "reading": "げせん",
+      "headword": "{下船|げせん}",
+      "label": "to disembark"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-02T02:47:12Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -17,7 +17,9 @@
       "id": "25993_mukaitou_ex1",
       "japanese": "{無回答|むかいとう}が{多|おお}かった。",
       "english": "There were many non-responses.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25993_mukaitou_ex2",
       "japanese": "この{質問|しつもん}は{無回答|むかいとう}の{割合|わりあい}が{高|たか}い。",
       "english": "This question has a high rate of non-responses.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,38 @@
       "id": "25993_mukaitou_ex3",
       "japanese": "アンケートの{結果|けっか}、{賛成|さんせい}が45%、{反対|はんたい}が30%、{無回答|むかいとう}が25%だった。",
       "english": "In the survey results, 45% were in favor, 30% were opposed, and 25% did not respond.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {無|む} (without, non-) and {回答|かいとう} (answer, response). A standard term in surveys, polls, and questionnaires for entries where the respondent chose not to answer or left a question blank. Also used in journalism and press conferences when someone declines to comment.\n\nCOMMON COLLOCATIONS:\n- {無回答|むかいとう}の{割合|わりあい}: rate of non-responses\n- {無回答|むかいとう}を{除|のぞ}く: excluding non-responses\n- {無回答|むかいとう}が{目立|めだ}つ: non-responses are conspicuous\n- {無回答|むかいとう}{率|りつ}: non-response rate\n\nSIMILAR WORDS:\n- {未回答|みかいとう}: unanswered — emphasizes that no answer has been given yet (may still come)\n- {無返答|むへんとう}: no reply — used for interpersonal communication rather than surveys\n- {回答|かいとう}{拒否|きょひ}: refusal to answer — implies active refusal rather than passive non-response\n- ノーコメント: no comment — used specifically in press/media contexts",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "29092_nookomento",
+      "reading": "のーこめんと",
+      "headword": "ノーコメント",
+      "label": "no comment"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["communication", "science"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "communication",
+        "science"
+      ]
     },
     "created": "2026-04-28T15:31:25Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "headword": "{誘惑|ゆうわく}{的|てき}",
   "reading": "ゆうわくてき",
   "romaji": "yuuwakuteki",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "tempting; seductive; alluring",
   "definitions": [
     {
@@ -22,7 +22,9 @@
       "id": "25910_yuuwakuteki_ex1",
       "japanese": "{誘惑|ゆうわく}{的|てき}な{提案|ていあん}だった。",
       "english": "It was a tempting offer.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "25910_yuuwakuteki_ex2",
       "japanese": "ダイエット{中|ちゅう}なのに、ケーキの{誘惑|ゆうわく}{的|てき}な{香|かお}りに{負|ま}けそうだ。",
       "english": "Even though I'm on a diet, I'm about to give in to the tempting aroma of cake.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "25910_yuuwakuteki_ex3",
       "japanese": "{誘惑|ゆうわく}{的|てき}な{条件|じょうけん}だが、{簡単|かんたん}に{飛|と}びつくべきではない。",
       "english": "The terms are enticing, but you shouldn't jump at them too easily.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "25910_yuuwakuteki_ex4",
       "japanese": "{誘惑|ゆうわく}{的|てき}な{笑顔|えがお}だった。",
       "english": "It was a seductive smile.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "25910_yuuwakuteki_ex5",
       "japanese": "{彼女|かのじょ}の{誘惑|ゆうわく}{的|てき}な{視線|しせん}に{目|め}が{離|はな}せなかった。",
       "english": "I couldn't look away from her seductive gaze.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,21 +72,52 @@
       "id": "25910_yuuwakuteki_ex6",
       "japanese": "その{映画|えいが}には{誘惑|ゆうわく}{的|てき}な{雰囲気|ふんいき}のシーンが{多|おお}く、{大人|おとな}の{観客|かんきゃく}を{引|ひ}きつけた。",
       "english": "The movie had many scenes with a seductive atmosphere and attracted adult audiences.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {誘惑|ゆうわく} (temptation; seduction) + {的|てき} (-like; -ive). Functions as a na-adjective. The word covers both non-sexual temptation (sense 1: enticing offers, food, opportunities) and sexual/romantic allure (sense 2: seductive looks, gestures).\n\nCOMMON COLLOCATIONS:\n- {誘惑|ゆうわく}{的|てき}な{提案|ていあん}: a tempting proposal\n- {誘惑|ゆうわく}{的|てき}な{笑顔|えがお}: a seductive smile\n- {誘惑|ゆうわく}{的|てき}な{香|かお}り: an enticing fragrance\n- {誘惑|ゆうわく}{的|てき}な{雰囲気|ふんいき}: an alluring atmosphere\n\nSIMILAR WORDS:\n- {魅力|みりょく}{的|てき}: attractive; charming — broader and more positive; doesn't carry the nuance of tempting someone to give in\n- {官能|かんのう}{的|てき}: sensual — more explicitly physical and sexual\n- {刺激|しげき}{的|てき}: stimulating; provocative — emphasizes exciting or shocking qualities rather than allure",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04799_miryokuteki",
+      "reading": "みりょくてき",
+      "headword": "{魅力的|みりょくてき}",
+      "label": "attractive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18156_kannouteki",
+      "reading": "かんのうてき",
+      "headword": "{官能的|かんのうてき}",
+      "label": "sensual"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06261_shigekiteki",
+      "reading": "しげきてき",
+      "headword": "{刺激的|しげきてき}",
+      "label": "stimulating"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
-      "semantic": ["emotion", "appearance"]
+      "pos": [
+        "adjective-na"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "emotion",
+        "appearance"
+      ]
     },
     "created": "2026-04-28T12:21:02Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "27976_tengoku_ex1",
       "japanese": "{祖母|そぼ}は{天国|てんごく}にいる。",
       "english": "My grandmother is in heaven.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27976_tengoku_ex2",
       "japanese": "ここは{子供|こども}にとって{天国|てんごく}のような{場所|ばしょ}だ。",
       "english": "This is a paradise-like place for children.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "27976_tengoku_ex3",
       "japanese": "{本好|ほんず}きにとって、この{古本屋|ふるほんや}はまさに{天国|てんごく}だ。",
       "english": "For book lovers, this used bookstore is truly paradise.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Refers literally to heaven in a religious sense, and figuratively to any blissful or ideal place.\n\nCOMMON COLLOCATIONS:\n- {天国|てんごく}に{行|い}く: to go to heaven\n- {天国|てんごく}のような: heavenly; paradise-like\n- ショッピング{天国|てんごく}: shopping paradise\n\nSIMILAR WORDS:\n- {地獄|じごく}: hell — the direct antonym, also used figuratively for a terrible situation\n- {楽園|らくえん}: paradise; Eden — more literary, an idyllic place",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "12053_jigoku",
+      "reading": "じごく",
+      "headword": "{地獄|じごく}",
+      "label": "hell"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14988_raise",
+      "reading": "らいせ",
+      "headword": "{来世|らいせ}",
+      "label": "next life"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21229_gokuraku",
+      "reading": "ごくらく",
+      "headword": "{極楽|ごくらく}",
+      "label": "paradise"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["general"],
+      "politeness": "plain",
+      "semantic": [
+        "general"
+      ],
       "domain": []
     },
     "created": "2026-05-24T02:02:35Z",
-    "modified": "2026-05-24T02:02:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -45,7 +45,22 @@
     }
   ],
   "notes": "ポンプ{車|しゃ} is the most common type of fire truck in Japan. It carries a pump that can draw water from fire hydrants ({消火栓|しょうかせん}) or natural water sources and spray it through hoses. The full formal name is {消防|しょうぼう}ポンプ{自動車|じどうしゃ}.\n\nCOMMON COLLOCATIONS:\n- ポンプ{車|しゃ}の{操作|そうさ} — operating a pumper truck\n- {小型|こがた}ポンプ{車|しゃ} — small pumper truck (used in narrow streets)\n- ポンプ{車|しゃ}の{放水|ほうすい}{訓練|くんれん} — pumper truck water discharge drill\n\nSIMILAR WORDS:\n- {消防車|しょうぼうしゃ} — fire truck; fire engine (general term)\n- はしご{車|しゃ} — ladder truck (equipped with an extendable ladder)\n- {救急車|きゅうきゅうしゃ} — ambulance",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05078_shoubousha",
+      "reading": "しょうぼうしゃ",
+      "headword": "{消防車|しょうぼうしゃ}",
+      "label": "fire truck"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05077_kyuukyuusha",
+      "reading": "きゅうきゅうしゃ",
+      "headword": "{救急車|きゅうきゅうしゃ}",
+      "label": "ambulance"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,11 +68,12 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "transportation"
       ]
     },
     "created": "2026-04-29T16:33:43Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

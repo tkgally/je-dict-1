@@ -80,7 +80,15 @@
     }
   ],
   "notes": "Composed of {結晶|けっしょう} (crystal) and {体|たい} (body/object). Has both a general scientific meaning and a specific anatomical meaning.\n\nFor the eye (sense 2), {水晶体|すいしょうたい} is the more standard medical term. {結晶体|けっしょうたい} is sometimes used as a simpler alternative.\n\nCOMMON COLLOCATIONS:\n- {結晶体|けっしょうたい}の{構造|こうぞう}: crystal structure\n- {結晶体|けっしょうたい}を{形成|けいせい}する: to form a crystal\n- {結晶体|けっしょうたい}が{濁|にご}る: the lens becomes cloudy\n\nSIMILAR WORDS:\n- {結晶|けっしょう}: crystal — the more common general term\n- {水晶体|すいしょうたい}: crystalline lens — the standard anatomical term\n- {鉱物|こうぶつ}: mineral — a broader category",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04149_koubutsu",
+      "reading": "こうぶつ",
+      "headword": "{鉱物|こうぶつ}",
+      "label": "mineral"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -88,12 +96,14 @@
       "pos": [
         "noun"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "science",
         "body-part"
       ]
     },
     "created": "2026-05-04T14:20:59Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

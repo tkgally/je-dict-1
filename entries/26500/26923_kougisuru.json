@@ -3,7 +3,7 @@
   "headword": "{抗議|こうぎ}する",
   "reading": "こうぎする",
   "romaji": "kougisuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to protest; to object; to lodge a complaint",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Takes the particle に to mark the target of protest: Xに{抗議|こうぎ}する (to protest against X). Can refer to both organized public protests and individual formal objections. The noun {抗議|こうぎ} is also extremely common.\n\nCOMMON COLLOCATIONS:\n- {抗議|こうぎ}デモ: protest demonstration\n- {抗議|こうぎ}{活動|かつどう}: protest activities\n- {抗議|こうぎ}{文|ぶん}: letter of protest\n- {抗議|こうぎ}{集会|しゅうかい}: protest rally\n- {厳重|げんじゅう}に{抗議|こうぎ}する: to lodge a strong protest\n\nSIMILAR WORDS:\n- {反対|はんたい}する: to oppose — broader term for disagreement; does not imply taking action\n- {異議|いぎ}を{唱|とな}える: to raise an objection — more formal; used in legal and parliamentary contexts\n- {不満|ふまん}を{言|い}う: to complain — less formal; expresses personal dissatisfaction without the confrontational tone of {抗議|こうぎ}",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05648_hantaisuru",
+      "reading": "はんたいする",
+      "headword": "{反対|はんたい}する",
+      "label": "to oppose"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19072_igiwotonaeru",
+      "reading": "いぎをとなえる",
+      "headword": "{異議|いぎ}を{唱|とな}える",
+      "label": "to raise an objection"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26951_monomousu",
+      "reading": "ものもうす",
+      "headword": "{物申|ものもう}す",
+      "label": "to speak up"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -63,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-05T16:15:17Z",
-    "modified": "2026-05-05T16:15:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -17,7 +17,9 @@
       "id": "21266_moufubuki_ex1",
       "japanese": "{猛吹雪|もうふぶき}で{前|まえ}が{見|み}えない。",
       "english": "I can't see ahead because of the blizzard.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21266_moufubuki_ex2",
       "japanese": "{猛吹雪|もうふぶき}のため、{高速道路|こうそくどうろ}が{通行止|つうこうど}めになった。",
       "english": "The expressway was closed due to the heavy blizzard.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "21266_moufubuki_ex3",
       "japanese": "{登山|とざん}{中|ちゅう}に{猛吹雪|もうふぶき}に{見舞|みま}われ、{避難小屋|ひなんごや}に{逃|に}げ{込|こ}んだ。",
       "english": "We were hit by a fierce blizzard while climbing and took refuge in a mountain shelter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A compound of {猛|もう} (fierce, intense) and {吹雪|ふぶき} (blizzard, snowstorm). Describes the most severe form of snowstorm. Common in weather reports for Hokkaido, Tohoku, and the Sea of Japan side of Honshu during winter.\n\nCOMMON COLLOCATIONS:\n- {猛吹雪|もうふぶき}に{見舞|みま}われる: to be hit by a fierce blizzard\n- {猛吹雪|もうふぶき}{警報|けいほう}: blizzard warning\n- {猛吹雪|もうふぶき}で{視界|しかい}ゼロ: zero visibility due to blizzard\n\nRELATED TERMS:\n- {吹雪|ふぶき}: blizzard, snowstorm — the base word; less severe than {猛吹雪|もうふぶき}\n- {大雪|おおゆき}: heavy snowfall — focuses on the amount of snow rather than wind\n- {暴風雪|ぼうふうせつ}: violent snowstorm — a formal/meteorological synonym used in weather advisories",
+  "notes": "A compound of {猛|もう} (fierce, intense) and {吹雪|ふぶき} (blizzard, snowstorm). Describes the most severe form of snowstorm. Common in weather reports for Hokkaido, Tohoku, and the Sea of Japan side of Honshu during winter.\n\nCOMMON COLLOCATIONS:\n- {猛吹雪|もうふぶき}に{見舞|みま}われる: to be hit by a fierce blizzard\n- {猛吹雪|もうふぶき}{警報|けいほう}: blizzard warning\n- {猛吹雪|もうふぶき}で{視界|しかい}ゼロ: zero visibility due to blizzard\n\nRELATED WORDS:\n- {吹雪|ふぶき}: blizzard, snowstorm — the base word; less severe than {猛吹雪|もうふぶき}\n- {大雪|おおゆき}: heavy snowfall — focuses on the amount of snow rather than wind\n- {暴風雪|ぼうふうせつ}: violent snowstorm — a formal/meteorological synonym used in weather advisories",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03017_ooyuki",
+      "reading": "おおゆき",
+      "headword": "{大雪|おおゆき}",
+      "label": "heavy snowfall"
+    },
+    {
+      "type": "related",
+      "target_id": "27315_boufuusetsu",
+      "reading": "ぼうふうせつ",
+      "headword": "{暴風雪|ぼうふうせつ}",
+      "label": "violent snowstorm"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20486_jifubuki",
+      "reading": "じふぶき",
+      "headword": "{地吹雪|じふぶき}",
+      "label": "ground blizzard"
+    },
+    {
+      "type": "related",
+      "target_id": "23207_fubuku",
+      "reading": "ふぶく",
+      "headword": "{吹雪|ふぶ}く",
+      "label": "to blow a blizzard"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     },
     "created": "2026-04-01T16:13:06Z",
-    "modified": "2026-04-01T16:13:06Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

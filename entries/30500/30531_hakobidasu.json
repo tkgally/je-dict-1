@@ -3,7 +3,7 @@
   "headword": "{運|はこ}び{出|だ}す",
   "reading": "はこびだす",
   "romaji": "hakobidasu",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to carry out; to haul out; to remove",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "TRANSITIVITY:\n- Transitive: {荷物|にもつ}を{運|はこ}び{出|だ}す. The starting point takes から or を, the destination に or へ.\n\nCOMMON COLLOCATIONS:\n- {家具|かぐ}を{運|はこ}び{出|だ}す: to move furniture out\n- {倉庫|そうこ}から{運|はこ}び{出|だ}す: to haul out of the warehouse\n- {負傷者|ふしょうしゃ}を{運|はこ}び{出|だ}す: to carry out the injured\n\nSIMILAR WORDS:\n- {運|はこ}び{込|こ}む: to carry in — the opposite direction\n- {持|も}ち{出|だ}す: to take out — often means removing without permission, or bringing up a topic",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30545_hakobikomu",
+      "reading": "はこびこむ",
+      "headword": "{運|はこ}び{込|こ}む",
+      "label": "to carry in"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06160_mochidasu",
+      "reading": "もちだす",
+      "headword": "{持|も}ち{出|だ}す",
+      "label": "to take out"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -55,7 +70,7 @@
       ],
       "transitivity": "transitive",
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "movement",
         "action"
@@ -64,7 +79,7 @@
       "verb_class": "godan-su"
     },
     "created": "2026-08-10T00:22:10Z",
-    "modified": "2026-08-10T00:22:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

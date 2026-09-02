@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Composed of {男子|だんし} (male/boy) and {学生|がくせい} (student). While {学生|がくせい} alone is gender-neutral, {男子学生|だんしがくせい} explicitly specifies male gender. Common in formal and statistical contexts.\n\nCOMMON COLLOCATIONS:\n- {男子学生|だんしがくせい}{寮|りょう}: men's dormitory\n- {男子学生|だんしがくせい}の{比率|ひりつ}: ratio of male students\n- {男子学生|だんしがくせい}{向|む}け: aimed at male students\n\nSIMILAR WORDS:\n- {女子学生|じょしがくせい}: female student — the counterpart\n- {男子生徒|だんしせいと}: male pupil — used for middle and high school students\n- {大学生|だいがくせい}: college student — gender-neutral",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25054_joshigakusei",
+      "reading": "じょしがくせい",
+      "headword": "{女子学生|じょしがくせい}",
+      "label": "female student"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01653_daigakusei",
+      "reading": "だいがくせい",
+      "headword": "{大学生|だいがくせい}",
+      "label": "college student"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "person",
         "education"
       ]
     },
     "created": "2026-05-04T14:11:41Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

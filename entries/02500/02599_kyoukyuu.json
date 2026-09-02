@@ -2,7 +2,7 @@
   "id": "02599_kyoukyuu",
   "headword": "{供給|きょうきゅう}",
   "reading": "きょうきゅう",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "supply, provision",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{供給|きょうきゅう} is often paired with ⟦{需要|じゅよう}→需要：02616_juyou⟧ (demand) in economic contexts.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{供給|きょうきゅう}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {供給|きょうきゅう}⟦する→する：00392_suru⟧ (to supply)\n- {供給|きょうきゅう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive supply)\n- 〜⟦の→の：09472_no⟧{供給|きょうきゅう} (supply of ~)\n\nECONOMIC USAGE:\n- ⟦{需要|じゅよう}→需要：02616_juyou⟧⟦と→と：00512_to⟧{供給|きょうきゅう} (supply and demand)\n- {供給|きょうきゅう}⟦{過剰|かじょう}→過剰：04123_kajou⟧ (oversupply)\n- {供給|きょうきゅう}⟦{不足|ふそく}→不足：03598_fusoku⟧ (undersupply)\n\nCOMPOUND WORDS:\n- {供給|きょうきゅう}⟦{源|げん}→源：noentry⟧ (source of supply)\n- {供給|きょうきゅう}⟦{量|りょう}→量：03799_ryou⟧ (amount supplied)\n- {供給|きょうきゅう}⟦{網|もう}→網：22587_ami⟧ (supply network)\n\nSIMILAR WORDS:\n- ⟦{提供|ていきょう}→提供：12909_teikyou⟧: provision, offering\n- ⟦{補給|ほきゅう}→補給：14055_hokyuu⟧: supply, replenishment",
+  "notes": "{供給|きょうきゅう} is often paired with ⟦{需要|じゅよう}→需要：02616_juyou⟧ (demand) in economic contexts.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{供給|きょうきゅう}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {供給|きょうきゅう}⟦する→する：00392_suru⟧ (to supply)\n- {供給|きょうきゅう}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive supply)\n- 〜⟦の→の：09472_no⟧{供給|きょうきゅう} (supply of ~)\n\nECONOMIC USAGE:\n- ⟦{需要|じゅよう}→需要：02616_juyou⟧⟦と→と：00512_to⟧{供給|きょうきゅう} (supply and demand)\n- {供給|きょうきゅう}⟦{過剰|かじょう}→過剰：04123_kajou⟧ (oversupply)\n- {供給|きょうきゅう}⟦{不足|ふそく}→不足：03598_fusoku⟧ (undersupply)\n\nCOMPOUNDS:\n- {供給|きょうきゅう}⟦{源|げん}→源：noentry⟧ (source of supply)\n- {供給|きょうきゅう}⟦{量|りょう}→量：03799_ryou⟧ (amount supplied)\n- {供給|きょうきゅう}⟦{網|もう}→網：22587_ami⟧ (supply network)\n\nSIMILAR WORDS:\n- ⟦{提供|ていきょう}→提供：12909_teikyou⟧: provision, offering\n- ⟦{補給|ほきゅう}→補給：14055_hokyuu⟧: supply, replenishment",
   "cross_references": [
     {
       "type": "antonym",
@@ -148,11 +148,39 @@
       "reading": "しきゅう",
       "headword": "{支給|しきゅう}",
       "label": "provision (formal, institutional)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12909_teikyou",
+      "reading": "ていきょう",
+      "headword": "{提供|ていきょう}",
+      "label": "provision, offering"
+    },
+    {
+      "type": "contrast",
+      "target_id": "14055_hokyuu",
+      "reading": "ほきゅう",
+      "headword": "{補給|ほきゅう}",
+      "label": "supply, replenishment"
+    },
+    {
+      "type": "related",
+      "target_id": "07881_haikyuu",
+      "reading": "はいきゅう",
+      "headword": "{配給|はいきゅう}",
+      "label": "distribution"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21736_teikyousuru",
+      "reading": "ていきょうする",
+      "headword": "{提供|ていきょう}する",
+      "label": "to offer"
     }
   ],
   "metadata": {
     "created": "2026-01-11T10:34:06Z",
-    "modified": "2026-05-22T17:10:15Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

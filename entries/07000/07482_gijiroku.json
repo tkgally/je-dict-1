@@ -40,10 +40,26 @@
       ]
     }
   ],
-  "notes": "WORD STRUCTURE:\n{議事|ぎじ} (proceedings, agenda) + {録|ろく} (record)\n\nTYPICAL CONTENTS:\n・{日時|にちじ} - date and time\n・{場所|ばしょ} - location\n・{出席者|しゅっせきしゃ} - attendees\n・{議題|ぎだい} - agenda items\n・{決定事項|けっていじこう} - decisions made\n・{次回|じかい}アクション - next actions\n\nCOMMON COLLOCATIONS:\n・{議事録|ぎじろく}を{作成|さくせい}する - to create minutes\n・{議事録|ぎじろく}を{取|と}る - to take minutes\n・{議事録|ぎじろく}を{配布|はいふ}する - to distribute minutes\n・{議事録|ぎじろく}を{承認|しょうにん}する - to approve minutes\n\nROLE IN MEETINGS:\nThe person who takes minutes is called {議事録係|ぎじろくがかり} or {書記|しょき}.\n\nFORMAL VS INFORMAL:\n・{議事録|ぎじろく} - formal minutes (official meetings)\n・メモ/ノート - informal notes",
+  "notes": "ETYMOLOGY:\n{議事|ぎじ} (proceedings, agenda) + {録|ろく} (record)\n\nTYPICAL CONTENTS:\n- {日時|にちじ} - date and time\n- {場所|ばしょ} - location\n- {出席者|しゅっせきしゃ} - attendees\n- {議題|ぎだい} - agenda items\n- {決定事項|けっていじこう} - decisions made\n- {次回|じかい}アクション - next actions\n\nCOMMON COLLOCATIONS:\n- {議事録|ぎじろく}を{作成|さくせい}する - to create minutes\n- {議事録|ぎじろく}を{取|と}る - to take minutes\n- {議事録|ぎじろく}を{配布|はいふ}する - to distribute minutes\n- {議事録|ぎじろく}を{承認|しょうにん}する - to approve minutes\n\nROLE IN MEETINGS:\nThe person who takes minutes is called {議事録係|ぎじろくがかり} or {書記|しょき}.\n\nFORMAL VS INFORMAL:\n- {議事録|ぎじろく} - formal minutes (official meetings)\n- メモ/ノート - informal notes",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00710_kaigi",
+      "reading": "かいぎ",
+      "headword": "{会議|かいぎ}",
+      "label": "meeting, conference"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29450_kougiroku",
+      "reading": "こうぎろく",
+      "headword": "講義録",
+      "label": "lecture notes"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T05:43:45Z",
-    "modified": "2026-08-10T18:29:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +67,7 @@
         "noun"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "business",
         "communication"

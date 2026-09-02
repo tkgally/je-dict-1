@@ -18,7 +18,9 @@
       "english": "Shipping costs are charged separately.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11881_betto_ex2",
@@ -26,7 +28,9 @@
       "english": "We will contact you separately with the details.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11881_betto_ex3",
@@ -34,23 +38,47 @@
       "english": "In addition to the accommodation fee, meal charges are required separately.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{別途|べっと} indicates that something is handled, charged, or communicated separately from the main matter. It is a formal word used overwhelmingly in business and commercial contexts.\n\nCOMMON COLLOCATIONS:\n- {別途|べっと}{料金|りょうきん}: separate charge\n- {別途|べっと}{費用|ひよう}: additional cost\n- {別途|べっと}ご{連絡|れんらく}: separate notification\n- {別途|べっと}{購入|こうにゅう}: purchased separately\n- {別途|べっと}{手続|てつづ}き: separate procedure\n\nUSAGE:\nVery common in price lists, contracts, invoices, and official communications. Often seen in the pattern {別途|べっと}〜がかかる (a separate ... is charged) or {別途|べっと}〜が{必要|ひつよう} (separately ... is needed).\n\nSIMILAR WORDS:\n- {別|べつ}に: separately (casual, everyday)\n- {別個|べっこ}に: individually, separately (formal)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01132_betsuni",
+      "reading": "べつに",
+      "headword": "{別|べつ}に",
+      "label": "separately"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18408_bekko",
+      "reading": "べっこ",
+      "headword": "{別個|べっこ}",
+      "label": "individually, separately"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T13:59:45Z",
-    "modified": "2026-03-28T03:50:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["adverb", "noun"],
+      "pos": [
+        "adverb",
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["abstract"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }

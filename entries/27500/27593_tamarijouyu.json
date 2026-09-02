@@ -17,7 +17,9 @@
       "id": "27593_tamarijouyu_ex1",
       "japanese": "{刺身|さしみ}をたまり{醤油|じょうゆ}で{食|た}べる。",
       "english": "I eat sashimi with tamari soy sauce.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27593_tamarijouyu_ex2",
       "japanese": "たまり{醤油|じょうゆ}は{普通|ふつう}の{醤油|しょうゆ}より{濃|こ}い。",
       "english": "Tamari soy sauce is thicker than regular soy sauce.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "27593_tamarijouyu_ex3",
       "japanese": "{小麦|こむぎ}アレルギーの{人|ひと}には、{小麦|こむぎ}を{使|つか}わないたまり{醤油|じょうゆ}が{選|えら}ばれることが{多|おお}い。",
       "english": "People with wheat allergies often choose tamari soy sauce, which is made without wheat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A traditional soy sauce of the Chūbu region (centered on Aichi, Mie, and Gifu). Its name comes from the dark liquid that pooled (たまる) at the bottom of miso barrels.\n\nKEY CHARACTERISTICS:\n- Thicker and darker than ordinary soy sauce\n- Mellower, less sharp flavor\n- Made with little to no wheat — often suitable for wheat-free diets\n- Caramelizes well, prized for glazes and senbei coatings\n\nCOMMON COLLOCATIONS:\n- たまり{醤油|じょうゆ}で{漬|つ}ける: to marinate in tamari soy sauce\n- たまり{醤油|じょうゆ}{仕立|じた}て: prepared with tamari soy sauce\n- {刺身|さしみ}にたまり{醤油|じょうゆ}: tamari soy sauce for sashimi\n\nCOMPARE:\n- {濃口|こいくち}{醤油|しょうゆ}: standard dark soy sauce — most common type nationwide\n- {薄口|うすくち}{醤油|しょうゆ}: light-colored soy sauce — typical of Kansai cooking\n- {白醤油|しろじょうゆ}: white soy sauce — even paler than usukuchi",
+  "notes": "A traditional soy sauce of the Chūbu region (centered on Aichi, Mie, and Gifu). Its name comes from the dark liquid that pooled (たまる) at the bottom of miso barrels.\n\nKEY CHARACTERISTICS:\n- Thicker and darker than ordinary soy sauce\n- Mellower, less sharp flavor\n- Made with little to no wheat — often suitable for wheat-free diets\n- Caramelizes well, prized for glazes and senbei coatings\n\nCOMMON COLLOCATIONS:\n- たまり{醤油|じょうゆ}で{漬|つ}ける: to marinate in tamari soy sauce\n- たまり{醤油|じょうゆ}{仕立|じた}て: prepared with tamari soy sauce\n- {刺身|さしみ}にたまり{醤油|じょうゆ}: tamari soy sauce for sashimi\n\nSIMILAR WORDS:\n- {濃口|こいくち}{醤油|しょうゆ}: standard dark soy sauce — most common type nationwide\n- {薄口|うすくち}{醤油|しょうゆ}: light-colored soy sauce — typical of Kansai cooking\n- {白醤油|しろじょうゆ}: white soy sauce — even paler than usukuchi",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "27553_koikuchi",
+      "reading": "こいくち",
+      "headword": "{濃口|こいくち}",
+      "label": "dark soy sauce"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27554_usukuchi",
+      "reading": "うすくち",
+      "headword": "{薄口|うすくち}",
+      "label": "light soy sauce"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["food", "cooking"],
+      "politeness": "plain",
+      "semantic": [
+        "food",
+        "cooking"
+      ],
       "domain": []
     },
     "created": "2026-05-14T04:05:39Z",
-    "modified": "2026-05-14T04:05:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

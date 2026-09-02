@@ -19,7 +19,9 @@
       "english": "It's sunny because a high-pressure system is covering the area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14808_koukiatsu_ex2",
@@ -27,7 +29,9 @@
       "english": "Hot days will continue due to the influence of the Pacific high-pressure system.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14808_koukiatsu_ex3",
@@ -35,10 +39,12 @@
       "english": "The weather changes significantly depending on the positioning of high and low pressure systems.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A fundamental weather term heard daily in Japanese weather forecasts. The opposite is {低気圧|ていきあつ} (low pressure).\n\nCOMMON COLLOCATIONS:\n- {高気圧|こうきあつ}に{覆|おお}われる (to be covered by a high-pressure system)\n- {太平洋|たいへいよう}{高気圧|こうきあつ} (Pacific high-pressure system)\n- {高気圧|こうきあつ}が{張|は}り{出|だ}す (a high-pressure system extends)\n- {移動性|いどうせい}{高気圧|こうきあつ} (migratory anticyclone)\n\nUSAGE NOTE:\n{太平洋|たいへいよう}{高気圧|こうきあつ} is especially important in Japanese weather as it dominates summer weather patterns, bringing the characteristic hot and humid summer days. Understanding this term is key to following Japanese weather forecasts.",
+  "notes": "A fundamental weather term heard daily in Japanese weather forecasts. The opposite is {低気圧|ていきあつ} (low pressure).\n\nCOMMON COLLOCATIONS:\n- {高気圧|こうきあつ}に{覆|おお}われる (to be covered by a high-pressure system)\n- {太平洋|たいへいよう}{高気圧|こうきあつ} (Pacific high-pressure system)\n- {高気圧|こうきあつ}が{張|は}り{出|だ}す (a high-pressure system extends)\n- {移動性|いどうせい}{高気圧|こうきあつ} (migratory anticyclone)\n\nUSAGE:\n{太平洋|たいへいよう}{高気圧|こうきあつ} is especially important in Japanese weather as it dominates summer weather patterns, bringing the characteristic hot and humid summer days. Understanding this term is key to following Japanese weather forecasts.",
   "cross_references": [
     {
       "type": "antonym",
@@ -46,18 +52,29 @@
       "reading": "ていきあつ",
       "headword": "{低気圧|ていきあつ}",
       "label": "low pressure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27375_taikiatsu",
+      "reading": "たいきあつ",
+      "headword": "{大気圧|たいきあつ}",
+      "label": "atmospheric pressure"
     }
   ],
   "metadata": {
     "created": "2026-03-03T12:55:32Z",
-    "modified": "2026-05-01T04:26:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     }
   }
 }

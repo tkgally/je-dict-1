@@ -17,7 +17,9 @@
       "id": "29508_meshibe_ex1",
       "japanese": "{花|はな}の{雌|め}しべを{調|しら}べる。",
       "english": "To examine the pistil of a flower.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29508_meshibe_ex2",
       "japanese": "{雌|め}しべに{花粉|かふん}がつくと{実|み}ができる。",
       "english": "When pollen reaches the pistil, fruit forms.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "29508_meshibe_ex3",
       "japanese": "{理科|りか}の{授業|じゅぎょう}で、{雄|お}しべと{雌|め}しべの{違|ちが}いを{習|なら}った。",
       "english": "In science class we learned the difference between the stamen and the pistil.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -46,19 +52,37 @@
       "reading": "おしべ",
       "headword": "{雄|お}しべ",
       "note": "stamen; the male part of a flower"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04372_kafun",
+      "reading": "かふん",
+      "headword": "{花粉|かふん}",
+      "label": "pollen"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24444_kashin",
+      "reading": "かしん",
+      "headword": "{花芯|かしん}",
+      "label": "center of a flower"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["plant-flower"],
+      "politeness": "plain",
+      "semantic": [
+        "plant-flower"
+      ],
       "domain": []
     },
     "created": "2026-06-27T00:21:08Z",
-    "modified": "2026-06-27T00:21:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

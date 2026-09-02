@@ -3,7 +3,7 @@
   "headword": "{拍|はく}",
   "reading": "はく",
   "romaji": "haku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, counter",
   "gloss": "beat (music); counter for beats",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "30066_haku_ex1",
       "japanese": "{指揮者|しきしゃ}が{拍|はく}を{取|と}る。",
       "english": "The conductor keeps the beat.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30066_haku_ex2",
       "japanese": "{曲|きょく}の{拍|はく}に{合|あ}わせて{手|て}をたたく。",
       "english": "I clap along to the beat of the song.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,53 @@
       "id": "30066_haku_ex3",
       "japanese": "{音楽|おんがく}の{拍|はく}を{正確|せいかく}に{刻|きざ}むのは{難|むずか}しい。",
       "english": "Keeping the beat of music precisely is difficult.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The traditional term in Japanese music theory for a beat — the basic pulse of music — and the counter for counting beats (e.g. {二|に}{拍|はく}, two beats). In casual and pop-music contexts the loanword ビート is more common.\n\nCOMMON COLLOCATIONS:\n- {拍|はく}を{取|と}る: to keep the beat\n- {拍|はく}に{合|あ}わせる: to match the beat\n- {表|おもて}{拍|はく}: the on-beat\n- {裏|うら}{拍|はく}: the off-beat\n\nSIMILAR WORDS:\n- {拍子|びょうし}: time; meter — how beats are grouped (e.g. {三|さん}{拍子|びょうし}, triple time)\n- ビート: beat — the everyday loanword, common in pop and rock",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06590_biito",
+      "reading": "びーと",
+      "headword": "ビート",
+      "label": "beat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23896_onsuu",
+      "reading": "おんすう",
+      "headword": "{音数|おんすう}",
+      "label": "number of morae"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30067_guruubu",
+      "reading": "ぐるーぶ",
+      "headword": "グルーブ",
+      "label": "groove (musical feel)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "counter"],
+      "pos": [
+        "noun",
+        "counter"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["music"],
+      "politeness": "plain",
+      "semantic": [
+        "music"
+      ],
       "domain": []
     },
     "created": "2026-07-23T21:21:47Z",
-    "modified": "2026-07-23T21:21:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

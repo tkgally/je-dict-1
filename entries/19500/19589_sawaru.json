@@ -3,7 +3,7 @@
   "headword": "{障|さわ}る",
   "reading": "さわる",
   "romaji": "sawaru",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to hinder; to harm; to be detrimental to",
   "conjugation": {
     "type": "godan",
@@ -169,8 +169,24 @@
       "notes": null
     }
   ],
-  "notes": "A godan verb (る row) meaning to have a harmful or irritating effect. Not to be confused with the homophone {触|さわ}る (to touch). This verb is most commonly encountered in set phrases.\n\nKEY EXPRESSIONS:\n- {気|き}に{障|さわ}る — to offend, to get on one's nerves\n- {癇|かん}に{障|さわ}る — to irritate, to grate on one's nerves\n- {体|からだ}に{障|さわ}る — to be bad for one's health\n\nCOMMON COLLOCATIONS:\n- {体|からだ}に{障|さわ}る — to be bad for the body\n- {目|め}に{障|さわ}る — to be bad for the eyes\n- {気|き}に{障|さわ}る — to offend; to grate on\n- {癇|かん}に{障|さわ}る — to irritate\n\nSIMILAR WORDS:\n- {触|さわ}る — to touch; a homophone with a completely different meaning and kanji\n- {害|がい}する — to harm; more formal and direct, while {障|さわ}る suggests a gradual negative effect",
+  "notes": "A godan verb (る row) meaning to have a harmful or irritating effect. Not to be confused with the homophone {触|さわ}る (to touch). This verb is most commonly encountered in set phrases.\n\nCOMMON EXPRESSIONS:\n- {気|き}に{障|さわ}る — to offend, to get on one's nerves\n- {癇|かん}に{障|さわ}る — to irritate, to grate on one's nerves\n- {体|からだ}に{障|さわ}る — to be bad for one's health\n\nCOMMON COLLOCATIONS:\n- {体|からだ}に{障|さわ}る — to be bad for the body\n- {目|め}に{障|さわ}る — to be bad for the eyes\n- {気|き}に{障|さわ}る — to offend; to grate on\n- {癇|かん}に{障|さわ}る — to irritate\n\nSIMILAR WORDS:\n- {触|さわ}る — to touch; a homophone with a completely different meaning and kanji\n- {害|がい}する — to harm; more formal and direct, while {障|さわ}る suggests a gradual negative effect",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "00808_sawaru",
+      "reading": "さわる",
+      "headword": "{触|さわ}る",
+      "label": "to touch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27887_gaisuru",
+      "reading": "がいする",
+      "headword": "害する",
+      "label": "to harm"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -186,6 +202,6 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-03-26T07:25:48Z",
-    "modified": "2026-03-26T07:25:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

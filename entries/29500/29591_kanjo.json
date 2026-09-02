@@ -17,7 +17,9 @@
       "id": "29591_kanjo_ex1",
       "japanese": "この{言葉|ことば}は{漢書|かんじょ}に{由来|ゆらい}する。",
       "english": "This phrase originates from the Book of Han.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29591_kanjo_ex2",
       "japanese": "{漢書|かんじょ}は{中国|ちゅうごく}の{正史|せいし}の{一|ひと}つだ。",
       "english": "The Book of Han is one of China's official histories.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,52 @@
       "id": "29591_kanjo_ex3",
       "japanese": "{高校|こうこう}の{漢文|かんぶん}の{授業|じゅぎょう}で{漢書|かんじょ}の{一節|いっせつ}を{習|なら}った。",
       "english": "In high-school classical-Chinese class, we studied a passage from the Book of Han.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "The title is read かんじょ, not かんしょ. It is a Chinese history of the Former Han ({前漢|ぜんかん}) dynasty.\n\nRELATED:\n- {史記|しき}: the Records of the Grand Historian — an earlier, even more famous Chinese history\n- {漢文|かんぶん}: classical Chinese, as studied in Japanese schools\n- {正史|せいし}: an official dynastic history",
+  "notes": "The title is read かんじょ, not かんしょ. It is a Chinese history of the Former Han ({前漢|ぜんかん}) dynasty.\n\nRELATED WORDS:\n- {史記|しき}: the Records of the Grand Historian — an earlier, even more famous Chinese history\n- {漢文|かんぶん}: classical Chinese, as studied in Japanese schools\n- {正史|せいし}: an official dynastic history",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "29596_shiki",
+      "reading": "しき",
+      "headword": "{史記|しき}",
+      "label": "the Records of the Grand Historian"
+    },
+    {
+      "type": "related",
+      "target_id": "13398_kanbun",
+      "reading": "かんぶん",
+      "headword": "{漢文|かんぶん}",
+      "label": "classical Chinese, as studied…"
+    },
+    {
+      "type": "related",
+      "target_id": "29614_seishi",
+      "reading": "せいし",
+      "headword": "{正史|せいし}",
+      "label": "an official dynastic history"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["history"],
+      "politeness": "plain",
+      "semantic": [
+        "history"
+      ],
       "domain": []
     },
     "created": "2026-06-30T09:20:35Z",
-    "modified": "2026-06-30T09:20:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

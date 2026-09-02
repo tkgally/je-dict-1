@@ -46,6 +46,36 @@
   ],
   "notes": "A compound of {県|けん} (prefecture) + {民|みん} (people, citizens). Refers to people who reside in one of Japan's 47 prefectures, used in government, media, and everyday speech.\n\nCOMMON COLLOCATIONS:\n- {県民|けんみん}{税|ぜい}: prefectural resident tax\n- {県民|けんみん}{投票|とうひょう}: prefectural referendum\n- {県民|けんみん}{性|せい}: regional character of a prefecture's people\n- {県民|けんみん}{所得|しょとく}: prefectural per capita income\n\nSIMILAR WORDS:\n- {都民|とみん}: Tokyo resident — same pattern but for Tokyo specifically\n- {市民|しみん}: city resident — refers to residents of a city rather than a prefecture\n- {国民|こくみん}: national citizen — refers to the people of a country as a whole\n- {府民|ふみん}: resident of Osaka or Kyoto prefecture (which use {府|ふ} instead of {県|けん})",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01426_shimin",
+      "reading": "しみん",
+      "headword": "{市民|しみん}",
+      "label": "city resident"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02757_kokumin",
+      "reading": "こくみん",
+      "headword": "{国民|こくみん}",
+      "label": "national citizen"
+    },
+    {
+      "type": "related",
+      "target_id": "22347_sonmin",
+      "reading": "そんみん",
+      "headword": "{村民|そんみん}",
+      "label": "villagers"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24380_kenjin",
+      "reading": "けんじん",
+      "headword": "{県人|けんじん}",
+      "label": "person from a prefecture"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +91,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T12:33:28Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

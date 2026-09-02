@@ -2,7 +2,7 @@
   "id": "03536_teian",
   "headword": "{提案|ていあん}",
   "reading": "ていあん",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "proposal, suggestion",
   "conjugation": {
     "type": "suru",
@@ -133,11 +133,68 @@
       ]
     }
   ],
-  "notes": "COMMON PATTERNS:\n・{提案|ていあん}⟦する→する：00392_suru⟧ (to propose, to suggest)\n・{提案|ていあん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive a proposal)\n・{提案|ていあん}⟦を→を：00422_wo⟧⟦{受|う}け{入|い}れる→受け入れる：05755_ukeireru⟧ (to accept a proposal)\n・{提案|ていあん}⟦を→を：00422_wo⟧⟦{却下|きゃっか}→却下：05908_kyakka⟧⟦する→する：00392_suru⟧ (to reject a proposal)\n\nCOMMON COMPOUND WORDS:\n・⟦{提案|ていあん}{書|しょ}→提案書：15212_teiansho⟧ (proposal document)\n・{提案|ていあん}{者|しゃ} (proposer)\n・⟦{法案|ほうあん}→法案：09758_houan⟧{提案|ていあん} (submission of a bill)\n\nSIMILAR WORDS:\n・{提案|ていあん}: Proposal (formal, business/official contexts)\n・⟦{提言|ていげん}→提言：17132_teigen⟧: Recommendation (more formal, policy suggestions)\n・⟦{案|あん}→案：01776_an⟧: Plan, idea (less formal)",
-  "cross_references": [],
+  "notes": "COMMON PATTERNS:\n- {提案|ていあん}⟦する→する：00392_suru⟧ (to propose, to suggest)\n- {提案|ていあん}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive a proposal)\n- {提案|ていあん}⟦を→を：00422_wo⟧⟦{受|う}け{入|い}れる→受け入れる：05755_ukeireru⟧ (to accept a proposal)\n- {提案|ていあん}⟦を→を：00422_wo⟧⟦{却下|きゃっか}→却下：05908_kyakka⟧⟦する→する：00392_suru⟧ (to reject a proposal)\n\nCOMPOUNDS:\n- ⟦{提案|ていあん}{書|しょ}→提案書：15212_teiansho⟧ (proposal document)\n- {提案|ていあん}{者|しゃ} (proposer)\n- ⟦{法案|ほうあん}→法案：09758_houan⟧{提案|ていあん} (submission of a bill)\n\nSIMILAR WORDS:\n- {提案|ていあん}: Proposal (formal, business/official contexts)\n- ⟦{提言|ていげん}→提言：17132_teigen⟧: Recommendation (more formal, policy suggestions)\n- ⟦{案|あん}→案：01776_an⟧: Plan, idea (less formal)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17132_teigen",
+      "reading": "ていげん",
+      "headword": "{提言|ていげん}",
+      "label": "Recommendation"
+    },
+    {
+      "type": "related",
+      "target_id": "09762_dougi",
+      "reading": "どうぎ",
+      "headword": "{動議|どうぎ}",
+      "label": "motion (parliamentary)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10699_adobaisu",
+      "reading": "あどばいす",
+      "headword": "アドバイス",
+      "label": "advice"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13560_moushide",
+      "reading": "もうしで",
+      "headword": "{申|もう}し{出|で}",
+      "label": "offer, proposal, request"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20813_gian",
+      "reading": "ぎあん",
+      "headword": "{議案|ぎあん}",
+      "label": "bill"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24053_teiki",
+      "reading": "ていき",
+      "headword": "{提起|ていき}",
+      "label": "raising (an issue)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26192_houan",
+      "reading": "ほうあん",
+      "headword": "{方案|ほうあん}",
+      "label": "plan"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27963_kikakuan",
+      "reading": "きかくあん",
+      "headword": "{企画案|きかくあん}",
+      "label": "project proposal"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T09:33:30Z",
-    "modified": "2026-06-12T18:28:11Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

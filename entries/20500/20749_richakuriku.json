@@ -3,7 +3,7 @@
   "headword": "{離着陸|りちゃくりく}",
   "reading": "りちゃくりく",
   "romaji": "richakuriku",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "takeoff and landing",
   "definitions": [
     {
@@ -44,8 +44,31 @@
       "notes": null
     }
   ],
-  "notes": "A compound abbreviation combining {離陸|りりく} (takeoff) and {着陸|ちゃくりく} (landing) into a single word. The {離|り} from {離陸|りりく} is placed before {着陸|ちゃくりく}.\n\nUSAGE:\nCommon in aviation, airport announcements, news reports, and discussions about air travel. Can function as a suru-verb: {離着陸|りちゃくりく}する.\n\nCOMMON COLLOCATIONS:\n- {離着陸|りちゃくりく}{回数|かいすう} — number of takeoffs and landings\n- {離着陸|りちゃくりく}が{遅|おく}れる — takeoffs and landings are delayed\n- {離着陸|りちゃくりく}{禁止|きんし} — takeoff and landing prohibited\n- {垂直|すいちょく}{離着陸|りちゃくりく} — vertical takeoff and landing (VTOL)\n\nRELATED TERMS:\n- {離陸|りりく} — takeoff (only)\n- {着陸|ちゃくりく} — landing (only)\n- {発着|はっちゃく} — departure and arrival; broader term used for trains, ships, and planes",
+  "notes": "A compound abbreviation combining {離陸|りりく} (takeoff) and {着陸|ちゃくりく} (landing) into a single word. The {離|り} from {離陸|りりく} is placed before {着陸|ちゃくりく}.\n\nUSAGE:\nCommon in aviation, airport announcements, news reports, and discussions about air travel. Can function as a suru-verb: {離着陸|りちゃくりく}する.\n\nCOMMON COLLOCATIONS:\n- {離着陸|りちゃくりく}{回数|かいすう} — number of takeoffs and landings\n- {離着陸|りちゃくりく}が{遅|おく}れる — takeoffs and landings are delayed\n- {離着陸|りちゃくりく}{禁止|きんし} — takeoff and landing prohibited\n- {垂直|すいちょく}{離着陸|りちゃくりく} — vertical takeoff and landing (VTOL)\n\nRELATED WORDS:\n- {離陸|りりく} — takeoff (only)\n- {着陸|ちゃくりく} — landing (only)\n- {発着|はっちゃく} — departure and arrival; broader term used for trains, ships, and planes",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05981_ririku",
+      "reading": "りりく",
+      "headword": "{離陸|りりく}",
+      "label": "takeoff"
+    },
+    {
+      "type": "related",
+      "target_id": "06808_hacchaku",
+      "reading": "はっちゃく",
+      "headword": "{発着|はっちゃく}",
+      "label": "departure and arrival"
+    },
+    {
+      "type": "related",
+      "target_id": "15837_kanseitou",
+      "reading": "かんせいとう",
+      "headword": "{管制塔|かんせいとう}",
+      "label": "control tower"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,7 +84,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-30T15:10:50Z",
-    "modified": "2026-03-30T15:10:50Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

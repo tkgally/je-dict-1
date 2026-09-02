@@ -17,7 +17,9 @@
       "id": "26516_jissekishugi_ex1",
       "japanese": "この{会社|かいしゃ}は{実績|じっせき}{主義|しゅぎ}だ。",
       "english": "This company operates on a merit-based system.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26516_jissekishugi_ex2",
       "japanese": "{実績|じっせき}{主義|しゅぎ}の{導入|どうにゅう}で{給与|きゅうよ}{体系|たいけい}が{変|か}わった。",
       "english": "The introduction of a performance-based system changed the salary structure.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "26516_jissekishugi_ex3",
       "japanese": "{年功序列|ねんこうじょれつ}から{実績|じっせき}{主義|しゅぎ}に{切|き}り{替|か}える{企業|きぎょう}が{増|ふ}えている。",
       "english": "More companies are switching from seniority-based systems to meritocracy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -41,21 +47,45 @@
       "id": "26516_jissekishugi_ex4",
       "japanese": "{実績|じっせき}{主義|しゅぎ}には{長所|ちょうしょ}もあるが、{短期的|たんきてき}な{成果|せいか}ばかりを{追|お}うリスクもある。",
       "english": "Meritocracy has its advantages, but there is also a risk of only chasing short-term results.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {実績|じっせき} (actual results; track record) and {主義|しゅぎ} (-ism; principle). Refers to evaluating people based on what they have actually accomplished rather than on tenure, age, or connections.\n\nCOMMON COLLOCATIONS:\n- {実績|じっせき}{主義|しゅぎ}を{導入|どうにゅう}する: to introduce a merit-based system\n- {実績|じっせき}{主義|しゅぎ}の{人事|じんじ}: merit-based personnel management\n- {実績|じっせき}{主義|しゅぎ}に{基|もと}づく: based on meritocracy\n- {徹底|てってい}した{実績|じっせき}{主義|しゅぎ}: thoroughgoing meritocracy\n\nSIMILAR WORDS:\n- {成果|せいか}{主義|しゅぎ}: outcome-oriented approach — nearly synonymous but emphasizes end results more than track record\n- {能力|のうりょく}{主義|しゅぎ}: ability-based system — focuses on inherent capability rather than demonstrated performance\n- {年功序列|ねんこうじょれつ}: seniority system — the traditional Japanese system that {実績|じっせき}{主義|しゅぎ} often replaces",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18880_seikashugi",
+      "reading": "せいかしゅぎ",
+      "headword": "{成果|せいか}{主義|しゅぎ}",
+      "label": "outcome-oriented approach"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12532_nenkoujoretsu",
+      "reading": "ねんこうじょれつ",
+      "headword": "{年功序列|ねんこうじょれつ}",
+      "label": "seniority system"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business", "society"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "society"
+      ]
     },
     "created": "2026-05-02T14:29:04Z",
-    "modified": "2026-05-02T14:29:04Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {歩合|ぶあい} (percentage, commission rate) and {給|きゅう} (salary, pay). A business/employment term for compensation tied to performance.\n\nCOMMON COLLOCATIONS:\n- {歩合給|ぶあいきゅう}{制|せい}: commission-based pay system\n- {歩合給|ぶあいきゅう}の{割合|わりあい}: commission rate\n- {基本給|きほんきゅう}＋{歩合給|ぶあいきゅう}: base salary plus commission\n- {完全|かんぜん}{歩合給|ぶあいきゅう}: fully commission-based pay (no base salary)\n\nSIMILAR WORDS:\n- {固定給|こていきゅう}: fixed salary — pay that does not change based on performance\n- {成果給|せいかきゅう}: performance-based pay — similar concept, broader term\n- {出来高|できだか}{払|ばら}い: piecework pay — payment based on the quantity produced\n\nNOTE:\nIn Japanese job listings, the terms {歩合給|ぶあいきゅう}{制|せい} or {歩合|ぶあい}{制|せい} indicate that all or part of the compensation depends on performance. The term {完全|かんぜん}{歩合給|ぶあいきゅう} (fully commission-based) means there is no guaranteed base salary.",
+  "notes": "Composed of {歩合|ぶあい} (percentage, commission rate) and {給|きゅう} (salary, pay). A business/employment term for compensation tied to performance.\n\nCOMMON COLLOCATIONS:\n- {歩合給|ぶあいきゅう}{制|せい}: commission-based pay system\n- {歩合給|ぶあいきゅう}の{割合|わりあい}: commission rate\n- {基本給|きほんきゅう}＋{歩合給|ぶあいきゅう}: base salary plus commission\n- {完全|かんぜん}{歩合給|ぶあいきゅう}: fully commission-based pay (no base salary)\n\nSIMILAR WORDS:\n- {固定給|こていきゅう}: fixed salary — pay that does not change based on performance\n- {成果給|せいかきゅう}: performance-based pay — similar concept, broader term\n- {出来高|できだか}{払|ばら}い: piecework pay — payment based on the quantity produced\n\nUSAGE:\nIn Japanese job listings, the terms {歩合給|ぶあいきゅう}{制|せい} or {歩合|ぶあい}{制|せい} indicate that all or part of the compensation depends on performance. The term {完全|かんぜん}{歩合給|ぶあいきゅう} (fully commission-based) means there is no guaranteed base salary.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18879_koteikyuu",
+      "reading": "こていきゅう",
+      "headword": "{固定|こてい}{給|きゅう}",
+      "label": "fixed salary"
+    },
+    {
+      "type": "related",
+      "target_id": "21335_kihonkyuu",
+      "reading": "きほんきゅう",
+      "headword": "{基本給|きほんきゅう}",
+      "label": "base salary"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23472_nouryokukyuu",
+      "reading": "のうりょくきゅう",
+      "headword": "{能力給|のうりょくきゅう}",
+      "label": "merit pay"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24960_doryokukyuu",
+      "reading": "どりょくきゅう",
+      "headword": "{努力給|どりょくきゅう}",
+      "label": "effort-based pay"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-04-04T21:18:13Z",
-    "modified": "2026-07-27T06:23:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "20131_shichimi_ex1",
       "japanese": "うどんに{七味|しちみ}をかける。",
       "english": "I sprinkle shichimi on udon.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20131_shichimi_ex2",
       "japanese": "{七味|しちみ}を{少|すこ}し{多|おお}めに{入|い}れてください。",
       "english": "Please put in a little extra shichimi.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "20131_shichimi_ex3",
       "japanese": "{京都|きょうと}の{老舗|しにせ}で{買|か}った{七味|しちみ}は{香|かお}りがとてもいい。",
       "english": "The shichimi I bought at a long-established shop in Kyoto has a wonderful aroma.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Short for {七味唐辛子|しちみとうがらし} (seven-flavor chili pepper). The seven ingredients vary by brand and region, but the base is always {唐辛子|とうがらし} (red chili pepper).\n\nCOMMON COLLOCATIONS:\n- {七味唐辛子|しちみとうがらし}: seven-spice chili pepper (full name)\n- {七味|しちみ}をかける: to sprinkle shichimi\n- {七味|しちみ}を{振|ふ}る: to shake on shichimi\n\nSIMILAR WORDS:\n- {一味|いちみ}: ichimi; pure chili pepper powder — contains only red chili pepper, without the other six spices\n- {山椒|さんしょう}: sansho pepper — one of the ingredients in {七味|しちみ}; used on its own for dishes like grilled eel\n- {唐辛子|とうがらし}: chili pepper — the main ingredient; also used as a general term for chili\n\nCULTURAL CONTEXT:\n{七味|しちみ} is an essential table condiment in Japan, found at most noodle shops and restaurants. Famous producers include Yagenbori in Tokyo (since 1625) and Shichimiya in Kyoto (since 1655). Each shop's blend is slightly different, and buying {七味|しちみ} is a popular souvenir activity.",
+  "notes": "Short for {七味唐辛子|しちみとうがらし} (seven-flavor chili pepper). The seven ingredients vary by brand and region, but the base is always {唐辛子|とうがらし} (red chili pepper).\n\nCOMMON COLLOCATIONS:\n- {七味唐辛子|しちみとうがらし}: seven-spice chili pepper (full name)\n- {七味|しちみ}をかける: to sprinkle shichimi\n- {七味|しちみ}を{振|ふ}る: to shake on shichimi\n\nSIMILAR WORDS:\n- {一味|いちみ}: ichimi; pure chili pepper powder — contains only red chili pepper, without the other six spices\n- {山椒|さんしょう}: sansho pepper — one of the ingredients in {七味|しちみ}; used on its own for dishes like grilled eel\n- {唐辛子|とうがらし}: chili pepper — the main ingredient; also used as a general term for chili\n\nCULTURAL NOTE:\n{七味|しちみ} is an essential table condiment in Japan, found at most noodle shops and restaurants. Famous producers include Yagenbori in Tokyo (since 1625) and Shichimiya in Kyoto (since 1655). Each shop's blend is slightly different, and buying {七味|しちみ} is a popular souvenir activity.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11238_ichimi",
+      "reading": "いちみ",
+      "headword": "{一味|いちみ}",
+      "label": "ichimi"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12412_sanshou",
+      "reading": "さんしょう",
+      "headword": "{山椒|さんしょう}",
+      "label": "sansho pepper"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11871_tougarashi",
+      "reading": "とうがらし",
+      "headword": "{唐辛子|とうがらし}",
+      "label": "chili pepper"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "culture"]
+      "semantic": [
+        "food",
+        "culture"
+      ]
     },
     "created": "2026-03-28T14:17:02Z",
-    "modified": "2026-03-28T14:17:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

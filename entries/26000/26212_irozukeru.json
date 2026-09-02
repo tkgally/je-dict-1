@@ -3,7 +3,7 @@
   "headword": "{色付|いろづ}ける",
   "reading": "いろづける",
   "romaji": "irozukeru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to color; to tint; to add color to",
   "definitions": [
     {
@@ -80,7 +80,22 @@
     }
   ],
   "notes": "An ichidan (lower-one-row) transitive verb composed of {色|いろ} (color) and {付|つ}ける (to attach, to apply). The intransitive counterpart is {色付|いろづ}く (to become colored, to turn color — often said of autumn leaves).\n\nTRANSITIVITY:\n- Transitive: {色付|いろづ}ける (to color something)\n- Intransitive: {色付|いろづ}く (to become colored)\n\nCOMMON COLLOCATIONS:\n- {色付|いろづ}ける — to add color\n- {淡|あわ}く{色付|いろづ}ける — to tint lightly\n- {鮮|あざ}やかに{色付|いろづ}ける — to color vividly\n\nSIMILAR WORDS:\n- {着色|ちゃくしょく}する — to color, to dye (more technical/formal)\n- {彩|いろど}る — to color, to decorate (literary, emphasizes beauty)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13708_chakushoku",
+      "reading": "ちゃくしょく",
+      "headword": "{着色|ちゃくしょく}",
+      "label": "to color, to dye"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12542_irodoru",
+      "reading": "いろどる",
+      "headword": "{彩|いろど}る",
+      "label": "to color, to decorate"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -88,6 +103,7 @@
       "pos": [
         "verb-ichidan"
       ],
+      "politeness": "plain",
       "semantic": [
         "art",
         "nature"
@@ -95,7 +111,7 @@
       "verb_class": "ichidan"
     },
     "created": "2026-04-30T11:34:23Z",
-    "modified": "2026-04-30T11:34:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "ichidan",

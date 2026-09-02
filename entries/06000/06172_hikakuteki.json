@@ -53,18 +53,46 @@
       ]
     }
   ],
-  "notes": "USAGE: {比較的|ひかくてき} is primarily used as an adverb, modifying adjectives or verbs. It indicates that something is moderate compared to expectations or other cases.\n\nNOUN: ⟦{比較|ひかく}→比較：03576_hikaku⟧ (comparison)\n\nCOMMON PATTERNS:\n・{比較的|ひかくてき}⟦{簡単|かんたん}→簡単：00713_kantan⟧／⟦{難|むずか}しい→難しい：00517_muzukashii⟧ (relatively easy/difficult)\n・{比較的|ひかくてき}⟦{安|やす}い→安い：00464_yasui⟧／⟦{高|たか}い→高い：00500_takai⟧ (relatively cheap/expensive)\n・{比較的|ひかくてき}⟦{若|わか}い→若い：00823_wakai⟧ (relatively young)\n\nSIMILAR WORDS:\n・⟦まあまあ→まあまあ：05430_maamaa⟧: So-so, moderately (more casual)\n・⟦わりと→割と：00420_warito⟧／⟦わりに→割に：16763_warini⟧: Rather, comparatively (casual)\n・{比較的|ひかくてき}: Relatively (neutral/formal)",
+  "notes": "USAGE: {比較的|ひかくてき} is primarily used as an adverb, modifying adjectives or verbs. It indicates that something is moderate compared to expectations or other cases.\n\nNOUN: ⟦{比較|ひかく}→比較：03576_hikaku⟧ (comparison)\n\nCOMMON PATTERNS:\n- {比較的|ひかくてき}⟦{簡単|かんたん}→簡単：00713_kantan⟧／⟦{難|むずか}しい→難しい：00517_muzukashii⟧ (relatively easy/difficult)\n- {比較的|ひかくてき}⟦{安|やす}い→安い：00464_yasui⟧／⟦{高|たか}い→高い：00500_takai⟧ (relatively cheap/expensive)\n- {比較的|ひかくてき}⟦{若|わか}い→若い：00823_wakai⟧ (relatively young)\n\nSIMILAR WORDS:\n- ⟦まあまあ→まあまあ：05430_maamaa⟧: So-so, moderately (more casual)\n- ⟦わりと→割と：00420_warito⟧／⟦わりに→割に：16763_warini⟧: Rather, comparatively (casual)\n- {比較的|ひかくてき}: Relatively (neutral/formal)",
   "cross_references": [
     {
       "type": "related",
       "reading": "ひかく",
       "headword": "{比較|ひかく}",
       "target_id": "03576_hikaku"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05430_maamaa",
+      "reading": "まあまあ",
+      "headword": "まあまあ",
+      "label": "So-so, moderately"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00420_warito",
+      "reading": "わりと",
+      "headword": "{割|わり}と",
+      "label": "Rather, comparatively"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16763_warini",
+      "reading": "わりに",
+      "headword": "{割|わり}に",
+      "label": "Rather, comparatively"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27132_taihiteki",
+      "reading": "たいひてき",
+      "headword": "{対比的|たいひてき}",
+      "label": "contrasting"
     }
   ],
   "metadata": {
     "created": "2026-01-17T04:29:29Z",
-    "modified": "2026-06-18T12:21:14Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -2,7 +2,7 @@
   "id": "11911_zenjutsu",
   "headword": "{前述|ぜんじゅつ}",
   "reading": "ぜんじゅつ",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "aforementioned, previously stated",
   "conjugation": {
     "type": "suru",
@@ -133,11 +133,40 @@
       ]
     }
   ],
-  "notes": "A formal, written-style word. Rarely used in casual conversation. Typically found in essays, reports, academic papers, and official documents.\n\nSIMILAR WORDS:\n・{前述|ぜんじゅつ} — aforementioned (formal, written)\n・{上記|じょうき} — above-mentioned (more common in documents with visual layout)\n・{先述|せんじゅつ} — previously stated (synonym, slightly less common)\n\nCOMMON PATTERNS:\n・{前述|ぜんじゅつ}の〜 (the aforementioned ~)\n・{前述|ぜんじゅつ}のとおり (as mentioned above)\n・{前述|ぜんじゅつ}した〜 (the previously stated ~)",
-  "cross_references": [],
+  "notes": "A formal, written-style word. Rarely used in casual conversation. Typically found in essays, reports, academic papers, and official documents.\n\nSIMILAR WORDS:\n- {前述|ぜんじゅつ} — aforementioned (formal, written)\n- {上記|じょうき} — above-mentioned (more common in documents with visual layout)\n- {先述|せんじゅつ} — previously stated (synonym, slightly less common)\n\nCOMMON PATTERNS:\n- {前述|ぜんじゅつ}の〜 (the aforementioned ~)\n- {前述|ぜんじゅつ}のとおり (as mentioned above)\n- {前述|ぜんじゅつ}した〜 (the previously stated ~)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11375_jouki",
+      "reading": "じょうき",
+      "headword": "{上記|じょうき}",
+      "label": "above-mentioned"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19595_kijutsu",
+      "reading": "きじゅつ",
+      "headword": "{既述|きじゅつ}",
+      "label": "already stated"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22219_joujutsu",
+      "reading": "じょうじゅつ",
+      "headword": "{上述|じょうじゅつ}",
+      "label": "mentioned above"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26513_jojou",
+      "reading": "じょじょう",
+      "headword": "{如上|じょじょう}",
+      "label": "as stated above"
+    }
+  ],
   "metadata": {
     "created": "2026-02-18T14:14:09Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "schema_version": "2.0",

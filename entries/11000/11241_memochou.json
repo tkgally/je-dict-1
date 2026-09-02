@@ -19,7 +19,9 @@
       "english": "I'll write it down in my notepad.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11241_memochou_ex2",
@@ -27,7 +29,9 @@
       "english": "I bring a notepad and pen to meetings.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11241_memochou_ex3",
@@ -35,21 +39,49 @@
       "english": "I typed my shopping list into the notepad app on my smartphone.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of メモ (memo) + {帳|ちょう} (notebook/register). Originally referred to physical paper notepads, but now also commonly used for digital notepad applications.\n\nCOMMON COLLOCATIONS:\n- メモ{帳|ちょう}に{書|か}く: to write in a notepad\n- メモ{帳|ちょう}を{開|ひら}く: to open a notepad\n- メモ{帳|ちょう}アプリ: notepad app\n- メモ{帳|ちょう}を{持|も}ち{歩|ある}く: to carry a notepad around\n\nUSAGE:\nIn the digital context, メモ{帳|ちょう} is the Japanese name for Windows Notepad and is used generically for simple text-editing apps on smartphones.\n\nRELATED WORDS:\n- メモ: a memo, a note (the act of jotting down or the note itself)\n- {手帳|てちょう}: planner, pocket notebook (typically with a calendar)\n- ノート: notebook (larger, bound)\n- {付箋|ふせん}: sticky note",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04537_techou",
+      "reading": "てちょう",
+      "headword": "{手帳|てちょう}",
+      "label": "planner, pocket notebook"
+    },
+    {
+      "type": "related",
+      "target_id": "00738_nooto",
+      "reading": "のーと",
+      "headword": "ノート",
+      "label": "notebook"
+    },
+    {
+      "type": "related",
+      "target_id": "08245_fusen",
+      "reading": "ふせん",
+      "headword": "{付箋|ふせん}",
+      "label": "sticky note"
+    }
+  ],
   "metadata": {
     "created": "2026-02-15T09:12:21Z",
-    "modified": "2026-03-28T03:50:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["tool"]
+      "semantic": [
+        "tool"
+      ]
     }
   }
 }

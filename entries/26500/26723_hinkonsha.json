@@ -45,7 +45,22 @@
     }
   ],
   "notes": "Composed of {貧困|ひんこん} (poverty) and {者|しゃ} (person). A formal term used in social policy, news reporting, and academic discussion. In everyday conversation, {貧|まず}しい{人|ひと} is more natural.\n\nCOMMON COLLOCATIONS:\n- {貧困者|ひんこんしゃ}{支援|しえん}: poverty relief/support for the poor\n- {貧困者|ひんこんしゃ}の{救済|きゅうさい}: rescue/aid for the poor\n- {貧困者|ひんこんしゃ}{対策|たいさく}: anti-poverty measures\n\nSIMILAR WORDS:\n- {貧|まず}しい{人|ひと}: poor person — plain everyday expression\n- {生活困窮者|せいかつこんきゅうしゃ}: person in financial difficulty — official/legal term\n- {低所得者|ていしょとくしゃ}: low-income earner — a related but more specific term\n- {貧困層|ひんこんそう}: poverty class — refers to the social group as a whole",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25124_teishotokusha",
+      "reading": "ていしょとくしゃ",
+      "headword": "{低所得者|ていしょとくしゃ}",
+      "label": "low-income earner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18435_hinkonsou",
+      "reading": "ひんこんそう",
+      "headword": "{貧困層|ひんこんそう}",
+      "label": "poverty class"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -53,12 +68,13 @@
       "pos": [
         "noun"
       ],
+      "politeness": "plain",
       "semantic": [
         "person",
         "society"
       ]
     },
     "created": "2026-05-04T14:18:14Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

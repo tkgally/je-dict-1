@@ -3,7 +3,7 @@
   "headword": "ましてや",
   "reading": "ましてや",
   "romaji": "mashiteya",
-  "part_of_speech": "adverb",
+  "part_of_speech": "adverb, conjunction",
   "gloss": "much less; let alone; still more so",
   "definitions": [
     {
@@ -54,8 +54,23 @@
       "notes": null
     }
   ],
-  "notes": "Conjunctive adverb used to escalate an argument. The structure is typically: 'A is already X. ましてや B is even more X.' The first clause establishes a baseline that is already extreme, and ましてや introduces something even further along that scale. Slightly formal; common in written arguments, speeches, and logical reasoning.\n\nUSAGE PATTERN:\n- [easier/lesser case] + already X。ましてや + [harder/greater case] + even more X\n- Often paired with negative endings: ～はずがない, ～わけがない, ～無理だ\n\nSIMILAR WORDS:\n- まして: let alone — shorter form, slightly less emphatic\n- なおさら: all the more — emphasizes the strengthened degree, less contrastive\n- いわんや: needless to say — classical/literary equivalent, very formal",
-  "cross_references": [],
+  "notes": "Conjunctive adverb used to escalate an argument. The structure is typically: 'A is already X. ましてや B is even more X.' The first clause establishes a baseline that is already extreme, and ましてや introduces something even further along that scale. Slightly formal; common in written arguments, speeches, and logical reasoning.\n\nCOMMON PATTERNS:\n- [easier/lesser case] + already X。ましてや + [harder/greater case] + even more X\n- Often paired with negative endings: ～はずがない, ～わけがない, ～無理だ\n\nSIMILAR WORDS:\n- まして: let alone — shorter form, slightly less emphatic\n- なおさら: all the more — emphasizes the strengthened degree, less contrastive\n- いわんや: needless to say — classical/literary equivalent, very formal",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06661_naosara",
+      "reading": "なおさら",
+      "headword": "{尚更|なおさら}",
+      "label": "all the more"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28673_mashiteha",
+      "reading": "ましては",
+      "headword": "ましては",
+      "label": "let alone"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -71,6 +86,6 @@
       ]
     },
     "created": "2026-05-05T14:12:22Z",
-    "modified": "2026-08-06T12:44:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

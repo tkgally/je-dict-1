@@ -17,7 +17,9 @@
       "id": "20200_yudoufu_ex1",
       "japanese": "{冬|ふゆ}は{湯豆腐|ゆどうふ}が{美味|おい}しい。",
       "english": "Boiled tofu is delicious in winter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20200_yudoufu_ex2",
       "japanese": "{京都|きょうと}で{湯豆腐|ゆどうふ}を{食|た}べに{行|い}った。",
       "english": "I went to eat boiled tofu in Kyoto.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "20200_yudoufu_ex3",
       "japanese": "{昆布|こんぶ}だしで{煮|に}た{湯豆腐|ゆどうふ}に{薬味|やくみ}を{添|そ}えて、{熱々|あつあつ}のうちにいただいた。",
       "english": "I enjoyed the boiled tofu simmered in kombu broth with condiments while it was still piping hot.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A simple, elegant dish of {豆腐|とうふ} (tofu) simmered in water with {昆布|こんぶ} (kelp). The tofu is typically dipped in {醤油|しょうゆ} (soy sauce) with condiments like {刻|きざ}みネギ (chopped green onion) and {鰹節|かつおぶし} (bonito flakes).\n\nCOMMON COLLOCATIONS:\n- {湯豆腐|ゆどうふ}{鍋|なべ}: tofu hot pot\n- {湯豆腐|ゆどうふ}{定食|ていしょく}: boiled tofu set meal\n\nCULTURAL NOTE:\n{湯豆腐|ゆどうふ} is strongly associated with {京都|きょうと}, where famous tofu restaurants near {南禅寺|なんぜんじ} have served it for centuries. It is a quintessential winter dish and a staple of {精進料理|しょうじんりょうり} (Buddhist vegetarian cuisine).\n\nSIMILAR WORDS:\n- {冷|ひ}や{奴|やっこ}: chilled tofu — the summer counterpart\n- {鍋|なべ}: hot pot — the broader category of simmered dishes",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01038_nabe",
+      "reading": "なべ",
+      "headword": "{鍋|なべ}",
+      "label": "hot pot"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26036_agedashidoufu",
+      "reading": "あげだしどうふ",
+      "headword": "{揚|あ}げ{出|だ}し{豆腐|どうふ}",
+      "label": "deep-fried tofu served in broth"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27679_hiyayakko",
+      "reading": "ひややっこ",
+      "headword": "{冷|ひや}{奴|やっこ}",
+      "label": "chilled tofu"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "culture"]
+      "semantic": [
+        "food",
+        "culture"
+      ]
     },
     "created": "2026-03-28T16:21:35Z",
-    "modified": "2026-03-28T16:21:35Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

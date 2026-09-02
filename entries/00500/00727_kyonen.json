@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{去年|きょねん} means \"last year\" and is the ordinary everyday word for it.\n\nYEAR REFERENCE SERIES:\n- ⟦おととし→おととし：02895_ototoshi⟧ (also written ⟦{一昨年|いっさくねん}→一昨年：15474_issakunen⟧): year before last\n- {去年|きょねん}: last year\n- ⟦{今年|ことし}→今年：00722_kotoshi⟧: this year\n- ⟦{来年|らいねん}→来年：00745_rainen⟧: next year\n- ⟦{再来年|さらいねん}→再来年：01417_sarainen⟧: year after next\n\nCOMMON PATTERNS:\n- {去年|きょねん}⟦の→の：09472_no⟧⟦{夏|なつ}→夏：02236_natsu⟧: last summer\n- {去年|きょねん}⟦から→から：00504_kara⟧: since last year\n- {去年|きょねん}⟦の→の：09472_no⟧⟦{今頃|いまごろ}→今頃：11605_imagoro⟧: around this time last year\n\nFORMALITY:\n- {去年|きょねん}: casual and neutral; the normal choice in conversation\n- ⟦{昨年|さくねん}→昨年：10433_sakunen⟧: formal, used in writing, news, and business speech\n\nNO PARTICLE NEEDED:\nLike other time words of this kind, {去年|きょねん} attaches directly to the verb as an adverb — {去年|きょねん}⟦{行|い}きました→行く：00119_iku⟧, not 去年に行きました. It takes ⟦に→に：00314_ni⟧ only when a more specific time is named inside it, as in {去年|きょねん}⟦の→の：09472_no⟧⟦{夏|なつ}→夏：02236_natsu⟧⟦に→に：00314_ni⟧. The same holds for ⟦{昨年|さくねん}→昨年：10433_sakunen⟧.",
+  "notes": "{去年|きょねん} means \"last year\" and is the ordinary everyday word for it.\n\nYEAR REFERENCE SERIES:\n- ⟦おととし→おととし：02895_ototoshi⟧ (also written ⟦{一昨年|いっさくねん}→一昨年：15474_issakunen⟧): year before last\n- {去年|きょねん}: last year\n- ⟦{今年|ことし}→今年：00722_kotoshi⟧: this year\n- ⟦{来年|らいねん}→来年：00745_rainen⟧: next year\n- ⟦{再来年|さらいねん}→再来年：01417_sarainen⟧: year after next\n\nCOMMON PATTERNS:\n- {去年|きょねん}⟦の→の：09472_no⟧⟦{夏|なつ}→夏：02236_natsu⟧: last summer\n- {去年|きょねん}⟦から→から：00504_kara⟧: since last year\n- {去年|きょねん}⟦の→の：09472_no⟧⟦{今頃|いまごろ}→今頃：11605_imagoro⟧: around this time last year\n\nREGISTER:\n- {去年|きょねん}: casual and neutral; the normal choice in conversation\n- ⟦{昨年|さくねん}→昨年：10433_sakunen⟧: formal, used in writing, news, and business speech\n\nNO PARTICLE NEEDED:\nLike other time words of this kind, {去年|きょねん} attaches directly to the verb as an adverb — {去年|きょねん}⟦{行|い}きました→行く：00119_iku⟧, not 去年に行きました. It takes ⟦に→に：00314_ni⟧ only when a more specific time is named inside it, as in {去年|きょねん}⟦の→の：09472_no⟧⟦{夏|なつ}→夏：02236_natsu⟧⟦に→に：00314_ni⟧. The same holds for ⟦{昨年|さくねん}→昨年：10433_sakunen⟧.",
   "cross_references": [
     {
       "type": "related",
@@ -78,11 +78,46 @@
       "headword": "{来年|らいねん}",
       "target_id": "00745_rainen",
       "label": "next year"
+    },
+    {
+      "type": "related",
+      "target_id": "00731_maitoshi",
+      "reading": "まいとし",
+      "headword": "{毎年|まいとし}",
+      "label": "every year"
+    },
+    {
+      "type": "related",
+      "target_id": "15474_issakunen",
+      "reading": "いっさくねん",
+      "headword": "{一昨年|いっさくねん}",
+      "label": "the year before last"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23906_zennen",
+      "reading": "ぜんねん",
+      "headword": "{前年|ぜんねん}",
+      "label": "previous year"
+    },
+    {
+      "type": "related",
+      "target_id": "26654_issakusakunen",
+      "reading": "いっさくさくねん",
+      "headword": "{一昨昨年|いっさくさくねん}",
+      "label": "three years ago"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27634_sennen",
+      "reading": "せんねん",
+      "headword": "{先年|せんねん}",
+      "label": "some years ago"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:49:31Z",
-    "modified": "2026-08-17T00:25:30Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

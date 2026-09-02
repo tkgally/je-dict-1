@@ -17,7 +17,9 @@
       "id": "21052_kinshou_ex1",
       "japanese": "{金賞|きんしょう}を{受賞|じゅしょう}した。",
       "english": "They won the gold prize.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21052_kinshou_ex2",
       "japanese": "この{日本酒|にほんしゅ}は{全国|ぜんこく}コンクールで{金賞|きんしょう}を{取|と}った。",
       "english": "This sake won a gold prize at a national competition.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "21052_kinshou_ex3",
       "japanese": "{吹奏楽|すいそうがく}コンクールで{金賞|きんしょう}を{目指|めざ}して、{毎日|まいにち}{練習|れんしゅう}を{重|かさ}ねた。",
       "english": "Aiming for the gold prize at the wind ensemble competition, they practiced every day.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The top award given at competitions and contests. Commonly seen in contexts like music competitions (especially school wind ensemble contests), sake and food competitions, art exhibitions, and product awards.\n\nAWARD HIERARCHY:\n- {金賞|きんしょう}: gold prize (first)\n- {銀賞|ぎんしょう}: silver prize (second)\n- {銅賞|どうしょう}: bronze prize (third)\n\nCOMMON COLLOCATIONS:\n- {金賞|きんしょう}を{受賞|じゅしょう}する: to receive the gold prize\n- {金賞|きんしょう}を{取|と}る: to win the gold prize\n- {金賞|きんしょう}を{目指|めざ}す: to aim for the gold prize\n- {金賞|きんしょう}{受賞|じゅしょう}{作品|さくひん}: gold-prize-winning work\n\nSIMILAR WORDS:\n- {金|きん}メダル: gold medal — used for sports competitions like the Olympics\n- {優勝|ゆうしょう}: championship win — the overall winner of a tournament, not an award tier",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20781_kinmedaru",
+      "reading": "きんめだる",
+      "headword": "{金|きん}メダル",
+      "label": "gold medal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03647_yuushou",
+      "reading": "ゆうしょう",
+      "headword": "{優勝|ゆうしょう}",
+      "label": "championship win"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24271_saiyuushuushou",
+      "reading": "さいゆうしゅうしょう",
+      "headword": "{最優秀賞|さいゆうしゅうしょう}",
+      "label": "grand prize"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["culture"]
+      "semantic": [
+        "culture"
+      ]
     },
     "created": "2026-03-31T16:18:29Z",
-    "modified": "2026-03-31T16:18:29Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

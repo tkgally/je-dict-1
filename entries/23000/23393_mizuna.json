@@ -9,7 +9,7 @@
     {
       "sense_number": 1,
       "gloss": "a Japanese leafy green vegetable in the mustard family (Brassica rapa var. nipposinica) with slender white stems and deeply notched, jagged green leaves, eaten both raw and cooked; mizuna, potherb mustard",
-      "explanation": "A traditional Japanese leafy vegetable originally cultivated in Kyoto and considered one of the classic Kyoto vegetables ({京野菜|きょうやさい}). It has a mild, slightly peppery flavor and a crisp, watery texture. Traditionally eaten cooked in hot pot dishes such as {はりはり{鍋|なべ}}, it is now extremely common raw in salads, where the jagged leaves add crunch. In recent decades mizuna has spread worldwide and is popular in Western salad mixes under the name 'mizuna.'"
+      "explanation": "A traditional Japanese leafy vegetable originally cultivated in Kyoto and considered one of the classic Kyoto vegetables ({京野菜|きょうやさい}). It has a mild, slightly peppery flavor and a crisp, watery texture. Traditionally eaten cooked in hot pot dishes such as はりはり{鍋|なべ}, it is now extremely common raw in salads, where the jagged leaves add crunch. In recent decades mizuna has spread worldwide and is popular in Western salad mixes under the name 'mizuna.'"
     }
   ],
   "examples": [
@@ -54,8 +54,31 @@
       "notes": null
     }
   ],
-  "notes": "Written {水菜|みずな} with {水|みず} (water) + {菜|な} (leafy vegetable). The name refers to the traditional cultivation method of growing the plant in channels of flowing water, without fertilizer — hence 'water vegetable.'\n\nCOMMON COLLOCATIONS:\n- {水菜|みずな}のサラダ: mizuna salad\n- {水菜|みずな}と{豚肉|ぶたにく}の{鍋|なべ}: pork and mizuna hot pot\n- {水菜|みずな}を{洗|あら}う: to wash mizuna\n- {水菜|みずな}を{刻|きざ}む: to chop mizuna\n- シャキシャキの{水菜|みずな}: crisp mizuna\n\nSIMILAR WORDS:\n- {京菜|きょうな}: an older name for the same plant, emphasizing its Kyoto origin; still seen on traditional product labels.\n- {壬生菜|みぶな}: mibuna — a very close relative with rounded rather than jagged leaves, also from Kyoto.\n- {小松菜|こまつな}: komatsuna, Japanese mustard spinach — a sturdier green with broad, smooth leaves; mild and slightly sweet.\n- {ほうれん{草|そう}}: spinach — softer leaves and deeper green; cooked rather than raw in Japanese cuisine.\n- {チンゲン{菜|さい}}: bok choy — a Chinese leafy vegetable with thick white stems.\n\nCULINARY USES:\n- はりはり{鍋|なべ}: a traditional Kansai hot pot of whale or pork with large quantities of mizuna.\n- Added raw to green salads for crunch.\n- Quickly parboiled ({お{浸|ひた}し}-style) with a light soy sauce dressing.\n- Stir-fried with other vegetables.\n\nCULTURAL NOTE:\nMizuna is classified as one of the {京野菜|きょうやさい} (Kyoto vegetables), a prestigious group of traditional vegetables associated with Kyoto cuisine. It is available in supermarkets year-round today, but its peak season is winter.",
+  "notes": "Written {水菜|みずな} with {水|みず} (water) + {菜|な} (leafy vegetable). The name refers to the traditional cultivation method of growing the plant in channels of flowing water, without fertilizer — hence 'water vegetable.'\n\nCOMMON COLLOCATIONS:\n- {水菜|みずな}のサラダ: mizuna salad\n- {水菜|みずな}と{豚肉|ぶたにく}の{鍋|なべ}: pork and mizuna hot pot\n- {水菜|みずな}を{洗|あら}う: to wash mizuna\n- {水菜|みずな}を{刻|きざ}む: to chop mizuna\n- シャキシャキの{水菜|みずな}: crisp mizuna\n\nSIMILAR WORDS:\n- {京菜|きょうな}: an older name for the same plant, emphasizing its Kyoto origin; still seen on traditional product labels.\n- {壬生菜|みぶな}: mibuna — a very close relative with rounded rather than jagged leaves, also from Kyoto.\n- {小松菜|こまつな}: komatsuna, Japanese mustard spinach — a sturdier green with broad, smooth leaves; mild and slightly sweet.\n- ほうれん{草|そう}: spinach — softer leaves and deeper green; cooked rather than raw in Japanese cuisine.\n- チンゲン{菜|さい}: bok choy — a Chinese leafy vegetable with thick white stems.\n\nCULINARY USES:\n- はりはり{鍋|なべ}: a traditional Kansai hot pot of whale or pork with large quantities of mizuna.\n- Added raw to green salads for crunch.\n- Quickly parboiled (お{浸|ひた}し-style) with a light soy sauce dressing.\n- Stir-fried with other vegetables.\n\nCULTURAL NOTE:\nMizuna is classified as one of the {京野菜|きょうやさい} (Kyoto vegetables), a prestigious group of traditional vegetables associated with Kyoto cuisine. It is available in supermarkets year-round today, but its peak season is winter.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12520_komatsuna",
+      "reading": "こまつな",
+      "headword": "{小松菜|こまつな}",
+      "label": "komatsuna, Japanese mustard spinach"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05188_hourensou",
+      "reading": "ほうれんそう",
+      "headword": "ほうれん{草|そう}",
+      "label": "spinach"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16115_chingensai",
+      "reading": "ちんげんさい",
+      "headword": "チンゲン{菜|さい}",
+      "label": "bok choy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -71,6 +94,6 @@
       ]
     },
     "created": "2026-04-12T00:54:36Z",
-    "modified": "2026-07-31T18:20:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

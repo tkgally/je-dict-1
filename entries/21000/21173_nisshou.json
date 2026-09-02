@@ -19,7 +19,9 @@
       "english": "The sunshine hours are short.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21173_nisshou_ex2",
@@ -27,7 +29,9 @@
       "english": "This room gets good sunlight.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "21173_nisshou_ex3",
@@ -35,21 +39,42 @@
       "english": "The vegetables grew poorly due to insufficient sunlight.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{日|にっ} means 'sun' or 'day,' and {照|しょう} means 'to shine.' {日照|にっしょう} refers specifically to the exposure of a place to sunlight, especially the duration and quality. It is a practical term used in weather forecasts, real estate listings, agriculture, and health discussions.\n\nCOMMON COLLOCATIONS:\n- {日照|にっしょう}{時間|じかん} (sunshine hours, hours of sunlight)\n- {日照|にっしょう}{不足|ぶそく} (insufficient sunlight)\n- {日照|にっしょう}が{良|よ}い (gets good sunlight)\n- {日照|にっしょう}{権|けん} (right to sunlight — a legal concept in Japan)\n\nCULTURAL NOTE:\n{日照権|にっしょうけん} (right to sunlight) is a significant legal concept in Japan. Residents can claim their right to receive a minimum amount of direct sunlight, which affects building regulations and construction planning, especially in dense urban areas.\n\nSIMILAR WORDS:\n- {日光|にっこう} — sunlight (the light itself, not duration; also the city name)\n- {日当|ひあ}たり — sun exposure, sunniness (more casual; used for describing how sunny a spot is)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03515_nikkou",
+      "reading": "にっこう",
+      "headword": "{日光|にっこう}",
+      "label": "sunlight (the light itself, not duration"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07498_hiatari",
+      "reading": "ひあたり",
+      "headword": "{日当|ひあ}たり",
+      "label": "sun exposure, sunniness (more casual"
+    }
+  ],
   "metadata": {
     "created": "2026-03-31T22:15:07Z",
-    "modified": "2026-03-31T22:15:07Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature"]
+      "semantic": [
+        "nature"
+      ]
     }
   }
 }

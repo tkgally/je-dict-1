@@ -17,7 +17,9 @@
       "id": "19310_kawa_ex1",
       "japanese": "{革|かわ}のバッグを{買|か}った。",
       "english": "I bought a leather bag.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19310_kawa_ex2",
       "japanese": "この{革|かわ}は{手触|てざわ}りがいい。",
       "english": "This leather has a nice feel to it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "19310_kawa_ex3",
       "japanese": "{本革|ほんがわ}の{靴|くつ}は{手入|てい}れをすれば{長持|ながも}ちする。",
       "english": "Genuine leather shoes last a long time if you take care of them.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -54,18 +60,36 @@
       "reading": "かわ",
       "headword": "{皮|かわ}",
       "label": "raw skin/hide/peel"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00205_kegawa",
+      "reading": "けがわ",
+      "headword": "{毛皮|けがわ}",
+      "label": "fur, pelt"
+    },
+    {
+      "type": "related",
+      "target_id": "23381_jinkouhikaku",
+      "reading": "じんこうひかく",
+      "headword": "{人工皮革|じんこうひかく}",
+      "label": "synthetic leather"
     }
   ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ]
     },
     "created": "2026-03-25T06:09:09Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

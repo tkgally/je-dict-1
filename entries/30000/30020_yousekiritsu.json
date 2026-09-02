@@ -17,7 +17,9 @@
       "id": "30020_yousekiritsu_ex1",
       "japanese": "この{地域|ちいき}は{容積率|ようせきりつ}が{高|たか}い。",
       "english": "This area has a high floor area ratio.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30020_yousekiritsu_ex2",
       "japanese": "{容積率|ようせきりつ}が{大|おお}きいほど、{高|たか}い{建物|たてもの}が{建|た}てられる。",
       "english": "The larger the floor area ratio, the taller a building you can put up.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "30020_yousekiritsu_ex3",
       "japanese": "{駅前|えきまえ}は{容積率|ようせきりつ}が{緩和|かんわ}され、{高層|こうそう}マンションが{次々|つぎつぎ}と{建|た}った。",
       "english": "The floor area ratio was relaxed in front of the station, and high-rise condominiums went up one after another.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A real-estate and zoning term. Together with {建|けん}ぺい{率|りつ} (building coverage ratio), it governs how much can be built on a lot: coverage ratio limits the footprint, floor area ratio limits total floor space.\n\nCOMMON COLLOCATIONS:\n- {容積率|ようせきりつ}が{高|たか}い: to have a high floor area ratio\n- {容積率|ようせきりつ}の{緩和|かんわ}: relaxation of the floor area ratio\n- {容積率|ようせきりつ}{二百|にひゃく}パーセント: a floor area ratio of 200%\n\nSIMILAR WORDS:\n- {建|けん}ぺい{率|りつ}: building coverage ratio — the footprint limit, not total floor area",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30019_kenpeiritsu",
+      "reading": "けんぺいりつ",
+      "headword": "{建|けん}ぺい{率|りつ}",
+      "label": "building coverage ratio"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["building"],
+      "politeness": "plain",
+      "semantic": [
+        "building"
+      ],
       "domain": []
     },
     "created": "2026-07-21T18:18:56Z",
-    "modified": "2026-07-21T18:18:56Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

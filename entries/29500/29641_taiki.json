@@ -17,7 +17,9 @@
       "id": "29641_taiki_ex1",
       "japanese": "{彼|かれ}は{大器|たいき}だ。",
       "english": "He is a person of great talent.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29641_taiki_ex2",
       "japanese": "{若手|わかて}{選手|せんしゅ}の{大器|たいき}ぶりが{注目|ちゅうもく}される。",
       "english": "The young player's great promise is drawing attention.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29641_taiki_ex3",
       "japanese": "{若|わか}い{頃|ころ}は{目立|めだ}たなかったが、{今|いま}や{球界|きゅうかい}を{代表|だいひょう}する{大器|たいき}となった。",
       "english": "He didn't stand out when young, but has become one of the baseball world's leading talents.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {大|たい} (great) + {器|き} (vessel, capacity). Most familiar from the idiom {大器晩成|たいきばんせい} (great talents mature late).\n\nCOMMON COLLOCATIONS:\n- {大器|たいき}の{片鱗|へんりん}: a glimpse of great talent\n- {大器晩成|たいきばんせい}: great talents mature late\n\nSIMILAR WORDS:\n- {逸材|いつざい}: person of exceptional talent — emphasizes rarity and being hard to find\n- {人材|じんざい}: talented person, human resource — a generally capable person, less exceptional",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11426_jinzai",
+      "reading": "じんざい",
+      "headword": "{人材|じんざい}",
+      "label": "talented person, human resource"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26264_bansei",
+      "reading": "ばんせい",
+      "headword": "{晩成|ばんせい}",
+      "label": "late development"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "politeness": null,
-      "semantic": ["person"],
+      "politeness": "plain",
+      "semantic": [
+        "person"
+      ],
       "domain": []
     },
     "created": "2026-07-02T12:18:49Z",
-    "modified": "2026-07-02T12:18:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

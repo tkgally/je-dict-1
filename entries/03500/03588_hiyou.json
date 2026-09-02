@@ -43,10 +43,33 @@
       ]
     }
   ],
-  "notes": "USAGE: {費用|ひよう} is a formal word for costs or expenses. It's commonly used in business and official contexts.\n\nCOMMON PATTERNS:\n・{費用|ひよう}⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧ (to cost, to incur expenses)\n・{費用|ひよう}⟦を→を：00422_wo⟧⟦{負担|ふたん}する→負担：09752_futan⟧ (to bear the cost)\n・{費用|ひよう}⟦を→を：00422_wo⟧⟦{削減|さくげん}する→削減する：25399_sakugensuru⟧ (to reduce costs)\n・{費用|ひよう}⟦{対|たい}→対：03382_tai⟧⟦{効果|こうか}→効果：02726_kouka⟧ (cost-effectiveness)\n\nSIMILAR WORDS:\n・⟦{経費|けいひ}→経費：04696_keihi⟧ - operating expenses, business expenses\n・⟦{出費|しゅっぴ}→出費：09205_shuppi⟧ - expenditure (personal spending)\n・⟦コスト→コスト：06666_kosuto⟧ - cost (loanword, often used in business)",
+  "notes": "USAGE: {費用|ひよう} is a formal word for costs or expenses. It's commonly used in business and official contexts.\n\nCOMMON PATTERNS:\n- {費用|ひよう}⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧ (to cost, to incur expenses)\n- {費用|ひよう}⟦を→を：00422_wo⟧⟦{負担|ふたん}する→負担：09752_futan⟧ (to bear the cost)\n- {費用|ひよう}⟦を→を：00422_wo⟧⟦{削減|さくげん}する→削減する：25399_sakugensuru⟧ (to reduce costs)\n- {費用|ひよう}⟦{対|たい}→対：03382_tai⟧⟦{効果|こうか}→効果：02726_kouka⟧ (cost-effectiveness)\n\nSIMILAR WORDS:\n- ⟦{経費|けいひ}→経費：04696_keihi⟧ - operating expenses, business expenses\n- ⟦{出費|しゅっぴ}→出費：09205_shuppi⟧ - expenditure (personal spending)\n- ⟦コスト→コスト：06666_kosuto⟧ - cost (loanword, often used in business)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04696_keihi",
+      "reading": "けいひ",
+      "headword": "{経費|けいひ}",
+      "label": "operating expenses, business expenses"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09205_shuppi",
+      "reading": "しゅっぴ",
+      "headword": "{出費|しゅっぴ}",
+      "label": "expenditure"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06666_kosuto",
+      "reading": "こすと",
+      "headword": "コスト",
+      "label": "cost"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T15:30:00Z",
-    "modified": "2026-06-12T18:28:11Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

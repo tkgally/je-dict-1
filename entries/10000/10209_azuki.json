@@ -18,7 +18,9 @@
       "english": "Boil azuki beans.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10209_azuki_ex2",
@@ -26,7 +28,9 @@
       "english": "I made sweet bean paste from azuki beans.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10209_azuki_ex3",
@@ -34,10 +38,12 @@
       "english": "This Japanese confection uses azuki beans from Hokkaido.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{小豆|あずき} is a small reddish-brown bean central to Japanese sweets and traditional cuisine. The kanji {小豆|あずき} is an irregular reading ({熟字訓|じゅくじくん}) — the characters literally mean \"small bean\" but the reading あずき is applied to the compound as a whole.\n\nWRITING:\nAlso written as アズキ in katakana, especially in scientific or commercial contexts.\n\nCOMMON COMPOUNDS:\n- {小豆餡|あずきあん}: azuki bean paste\n- {小豆粥|あずきがゆ}: azuki rice porridge (traditional New Year dish)\n- {小豆色|あずきいろ}: dark reddish-brown color\n\nCULTURAL NOTE:\nAzuki beans are the main ingredient in {餡子|あんこ} (sweet bean paste), which fills many Japanese sweets like {大福|だいふく}, {饅頭|まんじゅう}, and {鯛焼|たいや}き. {北海道|ほっかいどう} is Japan's largest producer.",
+  "notes": "{小豆|あずき} is a small reddish-brown bean central to Japanese sweets and traditional cuisine. The kanji {小豆|あずき} is an irregular reading ({熟字訓|じゅくじくん}) — the characters literally mean \"small bean\" but the reading あずき is applied to the compound as a whole.\n\nWRITING:\nAlso written as アズキ in katakana, especially in scientific or commercial contexts.\n\nCOMPOUNDS:\n- {小豆餡|あずきあん}: azuki bean paste\n- {小豆粥|あずきがゆ}: azuki rice porridge (traditional New Year dish)\n- {小豆色|あずきいろ}: dark reddish-brown color\n\nCULTURAL NOTE:\nAzuki beans are the main ingredient in {餡子|あんこ} (sweet bean paste), which fills many Japanese sweets like {大福|だいふく}, {饅頭|まんじゅう}, and {鯛焼|たいや}き. {北海道|ほっかいどう} is Japan's largest producer.",
   "cross_references": [
     {
       "type": "related",
@@ -52,17 +58,56 @@
       "reading": "あん",
       "headword": "{餡|あん}",
       "label": "sweet bean paste / thick sauce"
+    },
+    {
+      "type": "related",
+      "target_id": "19500_mamerui",
+      "reading": "まめるい",
+      "headword": "{豆類|まめるい}",
+      "label": "beans"
+    },
+    {
+      "type": "related",
+      "target_id": "20790_tsubuan",
+      "reading": "つぶあん",
+      "headword": "{粒|つぶ}あん",
+      "label": "chunky sweet bean paste"
+    },
+    {
+      "type": "related",
+      "target_id": "20791_koshian",
+      "reading": "こしあん",
+      "headword": "こしあん",
+      "label": "smooth sweet bean paste"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25094_ingenmame",
+      "reading": "いんげんまめ",
+      "headword": "いんげんまめ",
+      "label": "common bean"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30552_kuromame",
+      "reading": "くろまめ",
+      "headword": "{黒豆|くろまめ}",
+      "label": "black soybeans"
     }
   ],
   "metadata": {
     "created": "2026-02-05T14:29:50Z",
-    "modified": "2026-04-24T05:12:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

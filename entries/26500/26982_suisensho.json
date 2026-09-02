@@ -55,7 +55,22 @@
     }
   ],
   "notes": "Composed of {推薦|すいせん} (recommendation) and {書|しょ} (document, letter). Often used interchangeably with {推薦状|すいせんじょう}, which uses {状|じょう} (letter, document) instead of {書|しょ}. Both are common and correct.\n\nCOMMON COLLOCATIONS:\n- {推薦書|すいせんしょ}を{書|か}く: to write a letter of recommendation\n- {推薦書|すいせんしょ}を{頼|たの}む: to request a letter of recommendation\n- {推薦書|すいせんしょ}を{提出|ていしゅつ}する: to submit a letter of recommendation\n- {推薦書|すいせんしょ}が{必要|ひつよう}: a recommendation letter is required\n\nSIMILAR WORDS:\n- {推薦状|すいせんじょう}: letter of recommendation — same meaning; uses {状|じょう} instead of {書|しょ}\n- {推薦|すいせん}: recommendation — the act of recommending; broader meaning\n- {紹介状|しょうかいじょう}: letter of introduction — introduces a person rather than recommending them",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15195_suisenjou",
+      "reading": "すいせんじょう",
+      "headword": "{推薦状|すいせんじょう}",
+      "label": "letter of recommendation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23208_shoukaijou",
+      "reading": "しょうかいじょう",
+      "headword": "{紹介状|しょうかいじょう}",
+      "label": "letter of introduction"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -74,6 +89,6 @@
       ]
     },
     "created": "2026-05-06T12:24:23Z",
-    "modified": "2026-08-06T12:50:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

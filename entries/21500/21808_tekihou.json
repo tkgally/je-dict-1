@@ -3,7 +3,7 @@
   "headword": "{適法|てきほう}",
   "reading": "てきほう",
   "romaji": "tekihou",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "lawful; legal; legitimate",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "21808_tekihou_ex1",
       "japanese": "{適法|てきほう}な{手続|てつづ}きを{踏|ふ}む。",
       "english": "To follow lawful procedures.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21808_tekihou_ex2",
       "japanese": "この{取引|とりひき}は{適法|てきほう}であると{認|みと}められた。",
       "english": "This transaction was deemed to be lawful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,52 @@
       "id": "21808_tekihou_ex3",
       "japanese": "{裁判所|さいばんしょ}は{逮捕|たいほ}の{手続|てつづ}きが{適法|てきほう}かどうかを{審査|しんさ}した。",
       "english": "The court examined whether the arrest procedure was lawful.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {適|てき} (suitable, fitting) and {法|ほう} (law). A formal legal term indicating compliance with the law. Used primarily in legal, administrative, and business contexts.\n\nCOMMON COLLOCATIONS:\n- {適法|てきほう}な{手続|てつづ}き: lawful procedures\n- {適法|てきほう}な{行為|こうい}: lawful act\n- {適法|てきほう}に{処理|しょり}する: to handle lawfully\n- {適法|てきほう}かどうか: whether something is lawful or not\n- {適法|てきほう}{性|せい}: legality, lawfulness\n\nSIMILAR WORDS:\n- {合法|ごうほう}: legal, lawful — more commonly used in everyday language\n- {違法|いほう}: illegal, unlawful — the direct opposite\n- {合法的|ごうほうてき}: legitimate — na-adjective form, slightly more conversational than {適法|てきほう}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15024_gouhou",
+      "reading": "ごうほう",
+      "headword": "{合法|ごうほう}",
+      "label": "legal, lawful"
+    },
+    {
+      "type": "antonym",
+      "target_id": "09687_ihou",
+      "reading": "いほう",
+      "headword": "{違法|いほう}",
+      "label": "illegal, unlawful"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20964_gouken",
+      "reading": "ごうけん",
+      "headword": "{合憲|ごうけん}",
+      "label": "constitutional"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["law"]
+      "semantic": [
+        "law"
+      ]
     },
     "created": "2026-04-03T18:22:28Z",
-    "modified": "2026-04-03T18:22:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

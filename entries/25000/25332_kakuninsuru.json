@@ -3,7 +3,7 @@
   "headword": "{確認|かくにん}する",
   "reading": "かくにんする",
   "romaji": "kakuninsuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to confirm; to verify; to check",
   "definitions": [
     {
@@ -46,6 +46,36 @@
   ],
   "notes": "One of the most frequently used suru-verbs in daily life, business, and formal communication. It covers a range of checking actions — from casually glancing at a schedule to formally verifying information. The noun form {確認|かくにん} is equally common.\n\nIn business settings, {確認|かくにん}する carries a polite, responsible tone — asking someone to confirm something implies thoroughness and attention to detail.\n\nCOMMON COLLOCATIONS:\n- {予約|よやく}を{確認|かくにん}する: to confirm a reservation\n- {内容|ないよう}を{確認|かくにん}する: to verify the contents\n- {安全|あんぜん}を{確認|かくにん}する: to confirm safety\n- {事実|じじつ}を{確認|かくにん}する: to verify the facts\n- メールを{確認|かくにん}する: to check one's email\n- {身元|みもと}を{確認|かくにん}する: to verify someone's identity\n\nSIMILAR WORDS:\n- {点検|てんけん}する: to inspect — emphasizes systematic checking of equipment or items for defects\n- {照合|しょうごう}する: to cross-check; to verify against — comparing two sets of data or documents\n- チェックする: to check — a casual loanword alternative, more common in informal speech",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09765_tenken",
+      "reading": "てんけん",
+      "headword": "{点検|てんけん}",
+      "label": "to inspect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15989_shougou",
+      "reading": "しょうごう",
+      "headword": "{照合|しょうごう}",
+      "label": "to cross-check"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04916_chekkusuru",
+      "reading": "ちぇっくする",
+      "headword": "チェックする",
+      "label": "to check"
+    },
+    {
+      "type": "related",
+      "target_id": "01955_tashikameru",
+      "reading": "たしかめる",
+      "headword": "{確|たし}かめる",
+      "label": "to confirm, to verify"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,6 +83,7 @@
         "noun",
         "verb-suru"
       ],
+      "politeness": "plain",
       "semantic": [
         "daily-life",
         "business"
@@ -60,7 +91,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-24T15:21:40Z",
-    "modified": "2026-04-24T15:21:40Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

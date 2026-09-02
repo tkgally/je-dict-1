@@ -17,7 +17,9 @@
       "id": "30035_igoban_ex1",
       "japanese": "{囲碁盤|いごばん}を{出|だ}す。",
       "english": "Take out the go board.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "30035_igoban_ex2",
       "japanese": "{囲碁盤|いごばん}の{上|うえ}に{石|いし}を{並|なら}べる。",
       "english": "Arrange the stones on the go board.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "30035_igoban_ex3",
       "japanese": "{祖父|そふ}は{木|き}でできた{立派|りっぱ}な{囲碁盤|いごばん}を{持|も}っている。",
       "english": "My grandfather has a splendid go board made of wood.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Also called simply {碁盤|ごばん}. The standard board has a 19-by-19 grid of intersecting lines.\n\nCOMMON COLLOCATIONS:\n- {囲碁盤|いごばん}を{囲|かこ}む: to sit around a go board\n- {囲碁盤|いごばん}の{目|め}: the grid intersections of a go board\n\nSIMILAR WORDS:\n- {碁盤|ごばん}: go board — the shorter, more common word; {碁盤|ごばん}{目|め} also means a grid pattern\n- {将棋盤|しょうぎばん}: shogi board — for Japanese chess",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24835_shougiban",
+      "reading": "しょうぎばん",
+      "headword": "{将棋盤|しょうぎばん}",
+      "label": "shogi board"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["leisure"],
+      "politeness": "plain",
+      "semantic": [
+        "leisure"
+      ],
       "domain": []
     },
     "created": "2026-07-22T12:20:02Z",
-    "modified": "2026-07-22T12:20:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

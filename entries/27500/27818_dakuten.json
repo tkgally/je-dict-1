@@ -17,7 +17,9 @@
       "id": "27818_dakuten_ex1",
       "japanese": "「か」に{濁点|だくてん}をつけると「が」になる。",
       "english": "Adding a dakuten to \"ka\" makes \"ga.\"",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27818_dakuten_ex2",
       "japanese": "{子|こ}どもは{濁点|だくてん}のある{字|じ}を{読|よ}み{間違|まちが}えやすい。",
       "english": "Children easily misread characters that have a dakuten.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "27818_dakuten_ex3",
       "japanese": "{濁点|だくてん}は{清音|せいおん}を{濁音|だくおん}に{変|か}える{記号|きごう}で、かなの{右上|みぎうえ}に{小|ちい}さく{書|か}く。",
       "english": "The dakuten is a mark that turns a voiceless sound into a voiced one, written small at the upper right of a kana.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "The voicing mark written at the upper right of a kana to indicate a voiced consonant: か becomes が, さ becomes ざ, た becomes だ, は becomes ば. Colloquially called {点々|てんてん}.\n\nCOMMON COLLOCATIONS:\n- {濁点|だくてん}をつける: to add a dakuten\n- {濁点|だくてん}をとる: to remove a dakuten\n- {濁点|だくてん}つきの{字|じ}: a character with a dakuten\n\nSIMILAR WORDS:\n- {半濁点|はんだくてん}: handakuten — the small circle that turns は into ぱ\n- {濁音|だくおん}: voiced sound — the voiced syllable itself, the result of adding a {濁点|だくてん}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19295_dakuon",
+      "reading": "だくおん",
+      "headword": "{濁音|だくおん}",
+      "label": "voiced sound"
+    },
+    {
+      "type": "related",
+      "target_id": "02135_nigoru",
+      "reading": "にごる",
+      "headword": "{濁|にご}る",
+      "label": "to become muddy, to become cloudy"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["language", "grammar"],
+      "politeness": "plain",
+      "semantic": [
+        "language",
+        "grammar"
+      ],
       "domain": []
     },
     "created": "2026-05-19T04:03:25Z",
-    "modified": "2026-05-19T04:03:25Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

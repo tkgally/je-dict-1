@@ -17,7 +17,9 @@
       "id": "28932_ponkan_ex1",
       "japanese": "ポンカンは{甘|あま}くて{香|かお}りがいい。",
       "english": "Ponkans are sweet and have a nice fragrance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28932_ponkan_ex2",
       "japanese": "1{月|がつ}{頃|ごろ}になるとポンカンが{出回|でまわ}る。",
       "english": "Around January, ponkans start appearing in stores.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "28932_ponkan_ex3",
       "japanese": "{母|はは}が{愛媛|えひめ}から{箱入|はこい}りのポンカンを{送|おく}ってくれた。",
       "english": "My mother sent me a box of ponkans from Ehime.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Written in katakana even though the name comes from a place in India (Poona). Sold mainly in winter as a gift fruit.\n\nCOMMON COLLOCATIONS:\n- ポンカンを{剥|む}く: to peel a ponkan\n- {土佐|とさ}ポンカン: Tosa-grown ponkan (a famous regional variety)\n\nSIMILAR WORDS:\n- {温州|うんしゅう}みかん: satsuma mandarin — milder, the most common Japanese variety\n- デコポン: dekopon — larger, with a distinctive top bump; very sweet",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "28931_unshuumikan",
+      "reading": "うんしゅうみかん",
+      "headword": "{温州|うんしゅう}みかん",
+      "label": "satsuma mandarin"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28933_dekopon",
+      "reading": "でこぽん",
+      "headword": "デコポン",
+      "label": "dekopon"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "plant-general"],
+      "semantic": [
+        "food",
+        "plant-general"
+      ],
       "domain": []
     },
     "created": "2026-06-07T04:07:08Z",
-    "modified": "2026-06-07T04:07:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

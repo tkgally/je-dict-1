@@ -17,7 +17,9 @@
       "id": "19540_kigakidenai_ex1",
       "japanese": "{試験|しけん}の{結果|けっか}が{気|き}が{気|き}でない。",
       "english": "I can't stop worrying about the exam results.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19540_kigakidenai_ex2",
       "japanese": "{子供|こども}が{帰|かえ}ってこないので、{気|き}が{気|き}でなかった。",
       "english": "My child hadn't come home, so I was on edge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,51 @@
       "id": "19540_kigakidenai_ex3",
       "japanese": "{面接|めんせつ}の{合否|ごうひ}が{出|で}るまで、{気|き}が{気|き}でなくて{何|なに}も{手|て}につかなかった。",
       "english": "Until the interview results came out, I was so anxious that I couldn't focus on anything.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Literally 'the mind is not the mind' — one's mental state is so disturbed by worry that it doesn't feel like one's normal self. This idiom vividly captures the experience of being consumed by anxiety while waiting for something.\n\nUSAGE:\nAlmost always used in negative situations involving waiting or uncertainty. The pattern ～が{気|き}が{気|き}でない is standard, where ～ is the source of anxiety. Also appears as {気|き}が{気|き}じゃない in casual speech.\n\nVARIANT:\n- {気|き}が{気|き}じゃない — casual spoken form\n\nSIMILAR WORDS:\n- {心配|しんぱい}でたまらない — unbearably worried; more direct expression of worry\n- そわそわする — to be restless, fidgety; describes visible physical restlessness\n- {落|お}ち{着|つ}かない — unable to calm down; more general restlessness\n- {気|き}が{気|き}でない is more idiomatic and vivid than these alternatives",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "19489_ochitsukanai",
+      "reading": "おちつかない",
+      "headword": "{落|お}ち{着|つ}かない",
+      "label": "unable to calm down"
+    },
+    {
+      "type": "related",
+      "target_id": "19541_kigaraku",
+      "reading": "きがらく",
+      "headword": "{気|き}が{楽|らく}",
+      "label": "at ease"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19757_itemotattemoirarenai",
+      "reading": "いてもたってもいられない",
+      "headword": "{居|い}ても{立|た}っても{居|い}られない",
+      "label": "unable to sit still"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     },
     "created": "2026-03-26T04:22:09Z",
-    "modified": "2026-07-26T21:31:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

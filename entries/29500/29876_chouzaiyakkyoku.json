@@ -17,7 +17,9 @@
       "id": "29876_chouzaiyakkyoku_ex1",
       "japanese": "{処方箋|しょほうせん}を{調剤|ちょうざい}{薬局|やっきょく}に{出|だ}す。",
       "english": "I hand in my prescription at the dispensing pharmacy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29876_chouzaiyakkyoku_ex2",
       "japanese": "{近|ちか}くの{調剤|ちょうざい}{薬局|やっきょく}で{薬|くすり}を{受|う}け{取|と}った。",
       "english": "I picked up my medicine at a nearby dispensing pharmacy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,40 @@
       "id": "29876_chouzaiyakkyoku_ex3",
       "japanese": "{病院|びょういん}で{診察|しんさつ}を{受|う}けた{後|あと}、{調剤|ちょうざい}{薬局|やっきょく}で{薬|くすり}をもらう。",
       "english": "After being examined at the hospital, you get your medicine at a dispensing pharmacy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A pharmacy licensed to prepare and dispense prescription drugs. Since the spread of {医薬分業|いやくぶんぎょう} (separation of prescribing and dispensing), most prescriptions are filled at these rather than inside hospitals.\n\nCOMMON COLLOCATIONS:\n- {調剤|ちょうざい}{薬局|やっきょく}で{薬|くすり}をもらう: to get medicine at a dispensing pharmacy\n- {調剤|ちょうざい}{薬局|やっきょく}に{勤|つと}める: to work at a dispensing pharmacy\n- {門前|もんぜん}{薬局|やっきょく}: a pharmacy located just outside a hospital\n\nSIMILAR WORDS:\n- {薬局|やっきょく}: pharmacy — general term; may or may not fill prescriptions\n- ドラッグストア: drugstore — sells over-the-counter medicine, cosmetics, and daily goods",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09710_doraggusutoa",
+      "reading": "どらっぐすとあ",
+      "headword": "ドラッグストア",
+      "label": "drugstore"
+    }
+  ],
   "metadata": {
     "created": "2026-07-16T03:17:36Z",
-    "modified": "2026-07-16T03:17:36Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["health"],
-      "domain": ["medical"]
+      "politeness": "plain",
+      "semantic": [
+        "health"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }

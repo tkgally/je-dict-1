@@ -43,7 +43,7 @@
       "notes": null
     }
   ],
-  "notes": "COMPOUND:\n{車両|しゃりょう} (vehicle/train car) + {点検|てんけん} (inspection)\n\nCOMMON REASONS FOR INSPECTION:\n- {異音|いおん}の{確認|かくにん} - checking for unusual sounds\n- {安全|あんぜん}{確認|かくにん} - safety check\n- {故障|こしょう}の{確認|かくにん} - checking for malfunctions\n\nTRAIN ANNOUNCEMENT PATTERNS:\n- 「{車両点検|しゃりょうてんけん}を{行|おこな}っております」\n  \"We are conducting a train inspection.\"\n- 「{車両点検|しゃりょうてんけん}のため、しばらくお{待|ま}ちください」\n  \"Please wait while we conduct a train inspection.\"\n\nRELATED:\n- {運転|うんてん}{見合|みあ}わせ - service suspension\n- {信号故障|しんごうこしょう} - signal malfunction\n- {安全|あんぜん}{確認|かくにん} - safety check",
+  "notes": "COMPOUNDS:\n{車両|しゃりょう} (vehicle/train car) + {点検|てんけん} (inspection)\n\nCOMMON REASONS FOR INSPECTION:\n- {異音|いおん}の{確認|かくにん} - checking for unusual sounds\n- {安全|あんぜん}{確認|かくにん} - safety check\n- {故障|こしょう}の{確認|かくにん} - checking for malfunctions\n\nTRAIN ANNOUNCEMENT PATTERNS:\n- 「{車両点検|しゃりょうてんけん}を{行|おこな}っております」\n  \"We are conducting a train inspection.\"\n- 「{車両点検|しゃりょうてんけん}のため、しばらくお{待|ま}ちください」\n  \"Please wait while we conduct a train inspection.\"\n\nRELATED WORDS:\n- {運転|うんてん}{見合|みあ}わせ - service suspension\n- {信号故障|しんごうこしょう} - signal malfunction\n- {安全|あんぜん}{確認|かくにん} - safety check",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -51,12 +51,13 @@
         "noun"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "transportation"
       ]
     },
     "created": "2026-01-28T02:45:11Z",
-    "modified": "2026-06-23T01:38:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "cross_references": [
     {
@@ -65,6 +66,13 @@
       "reading": "しんごうこしょう",
       "headword": "{信号|しんごう}{故障|こしょう}",
       "label": "signal malfunction"
+    },
+    {
+      "type": "related",
+      "target_id": "08695_untenmiawase",
+      "reading": "うんてんみあわせ",
+      "headword": "{運転|うんてん}{見合|みあ}わせ",
+      "label": "service suspension"
     }
   ]
 }

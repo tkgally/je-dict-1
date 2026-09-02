@@ -3,7 +3,7 @@
   "headword": "{敵対的|てきたいてき}",
   "reading": "てきたいてき",
   "romaji": "tekitaiteki",
-  "part_of_speech": "adjective",
+  "part_of_speech": "na-adjective",
   "gloss": "hostile; antagonistic; adversarial",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "25936_tekitaiteki_ex1",
       "japanese": "{敵対的|てきたいてき}な{態度|たいど}を{取|と}る。",
       "english": "To take a hostile attitude.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25936_tekitaiteki_ex2",
       "japanese": "{両者|りょうしゃ}の{関係|かんけい}は{次第|しだい}に{敵対的|てきたいてき}になっていった。",
       "english": "The relationship between the two gradually became antagonistic.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,59 @@
       "id": "25936_tekitaiteki_ex3",
       "japanese": "その{企業|きぎょう}は{敵対的|てきたいてき}{買収|ばいしゅう}を{仕掛|しか}けられ、{防衛策|ぼうえいさく}を{講|こう}じた。",
       "english": "The company was targeted by a hostile takeover and implemented defensive measures.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A na-adjective formed from {敵対|てきたい} (hostility; antagonism) plus {的|てき}. Used in both interpersonal and institutional contexts. Particularly common in business and international relations.\n\nCOMMON COLLOCATIONS:\n- {敵対的|てきたいてき}{買収|ばいしゅう}: hostile takeover (business term)\n- {敵対的|てきたいてき}な{態度|たいど}: hostile attitude\n- {敵対的|てきたいてき}な{関係|かんけい}: adversarial relationship\n- {敵対的|てきたいてき}な{行為|こうい}: hostile act\n- {敵対的|てきたいてき}な{環境|かんきょう}: hostile environment\n\nSIMILAR WORDS:\n- {攻撃的|こうげきてき}: aggressive — implies active attacks, while {敵対的|てきたいてき} can describe a stance of opposition without overt aggression\n- {対立的|たいりつてき}: confrontational; opposing — focuses on standing in opposition rather than harboring hostility\n- {排他的|はいたてき}: exclusive; exclusionary — emphasizes shutting others out rather than active hostility",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06243_kougekiteki",
+      "reading": "こうげきてき",
+      "headword": "{攻撃的|こうげきてき}",
+      "label": "aggressive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06388_haitateki",
+      "reading": "はいたてき",
+      "headword": "{排他的|はいたてき}",
+      "label": "exclusive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23818_yuukouteki",
+      "reading": "ゆうこうてき",
+      "headword": "{友好的|ゆうこうてき}",
+      "label": "friendly"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25952_hanpatsuteki",
+      "reading": "はんぱつてき",
+      "headword": "{反発的|はんぱつてき}",
+      "label": "resistant"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
-      "semantic": ["personality", "politics"]
+      "pos": [
+        "adjective-na"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "personality",
+        "politics"
+      ]
     },
     "created": "2026-04-28T13:29:34Z",
-    "modified": "2026-08-05T09:24:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -17,7 +17,9 @@
       "id": "20288_tenkizu_ex1",
       "japanese": "{天気図|てんきず}を{見|み}る。",
       "english": "To look at the weather map.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20288_tenkizu_ex2",
       "japanese": "{天気図|てんきず}から{台風|たいふう}の{進路|しんろ}を{読|よ}み{取|と}る。",
       "english": "To read the typhoon's path from the weather map.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,38 @@
       "id": "20288_tenkizu_ex3",
       "japanese": "{理科|りか}の{授業|じゅぎょう}で{天気図|てんきず}の{読|よ}み{方|かた}を{習|なら}った。",
       "english": "I learned how to read weather maps in science class.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Compound of {天気|てんき} (weather) + {図|ず} (chart, map). A standard term used in meteorology, weather forecasting, and school education.\n\nUSAGE:\nWeather maps are a fixture of Japanese TV weather forecasts and are taught in middle school science classes. Japanese weather maps use {等圧線|とうあつせん} (isobars), {前線|ぜんせん} (fronts), and symbols for {高気圧|こうきあつ} (high pressure) and {低気圧|ていきあつ} (low pressure). Reading weather maps is part of the standard school curriculum.\n\nCOMMON COLLOCATIONS:\n- {天気図|てんきず}を{読|よ}む — to read a weather map\n- {天気図|てんきず}の{見方|みかた} — how to read a weather map\n- {地上|ちじょう}{天気図|てんきず} — surface weather map\n- {天気図|てんきず}{記号|きごう} — weather map symbols\n\nSIMILAR WORDS:\n- {天気予報|てんきよほう} — weather forecast (the prediction, not the map)\n- {気象図|きしょうず} — meteorological chart (more technical synonym)\n- {天気|てんき} — weather (the condition itself)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01678_tenkiyohou",
+      "reading": "てんきよほう",
+      "headword": "{天気予報|てんきよほう}",
+      "label": "weather forecast"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather", "science"]
+      "semantic": [
+        "weather",
+        "science"
+      ]
     },
     "created": "2026-03-28T19:23:47Z",
-    "modified": "2026-03-28T19:23:47Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

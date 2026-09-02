@@ -18,7 +18,9 @@
       "id": "29225_herusumeetaa_ex1",
       "japanese": "ヘルスメーターに{乗|の}る。",
       "english": "Step on the bathroom scale.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -26,7 +28,9 @@
       "id": "29225_herusumeetaa_ex2",
       "japanese": "ヘルスメーターで{体重|たいじゅう}を{量|はか}る。",
       "english": "Measure your weight with a bathroom scale.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -34,22 +38,51 @@
       "id": "29225_herusumeetaa_ex3",
       "japanese": "{最近|さいきん}のヘルスメーターは{体脂肪|たいしぼう}{率|りつ}や{筋肉量|きんにくりょう}も{測|はか}れるものが{多|おお}い。",
       "english": "Many of today's bathroom scales can also measure body fat percentage and muscle mass.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A wasei-eigo (Japanese-made English) compound from 'health' + 'meter'. Not used in English-speaking countries where 'bathroom scale' or 'body scale' is standard.\n\nCOMMON COLLOCATIONS:\n- ヘルスメーターに{乗|の}る: to step on the scale\n- ヘルスメーターで{測|はか}る: to measure on the scale\n- {体重計|たいじゅうけい}: body weight scale — a more formal synonym\n\nSIMILAR WORDS:\n- {体重計|たいじゅうけい}: body weight scale — formal/generic term for the same device\n- {体組成計|たいそせいけい}: body composition scale — measures fat, muscle, etc. in addition to weight",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05485_taijuukei",
+      "reading": "たいじゅうけい",
+      "headword": "{体重計|たいじゅうけい}",
+      "label": "body weight scale"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29137_taisoseikei",
+      "reading": "たいそせいけい",
+      "headword": "{体組成計|たいそせいけい}",
+      "label": "body composition scale"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23621_taishiboukei",
+      "reading": "たいしぼうけい",
+      "headword": "{体脂肪計|たいしぼうけい}",
+      "label": "body fat scale"
+    }
+  ],
   "metadata": {
     "created": "2026-06-13T21:22:42Z",
-    "modified": "2026-06-13T21:22:42Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life", "health"],
+      "semantic": [
+        "daily-life",
+        "health"
+      ],
       "domain": []
     }
   }

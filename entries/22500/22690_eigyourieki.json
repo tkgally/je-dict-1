@@ -46,6 +46,43 @@
   ],
   "notes": "A key financial metric that appears frequently in business news and corporate earnings reports. Represents the profit from a company's main business activities before accounting for non-operating items like investment income or interest payments.\n\nCOMMON COLLOCATIONS:\n- {営業利益|えいぎょうりえき}が{増加|ぞうか}する: operating profit increases\n- {営業利益|えいぎょうりえき}が{減少|げんしょう}する: operating profit decreases\n- {営業利益|えいぎょうりえき}{率|りつ}: operating profit margin\n- {営業利益|えいぎょうりえき}{予想|よそう}: operating profit forecast\n\nSIMILAR WORDS:\n- {経常利益|けいじょうりえき}: ordinary profit — includes non-operating income and expenses (like interest), giving a broader picture of profitability\n- {純利益|じゅんりえき}: net profit — the bottom line after all expenses, taxes, and extraordinary items\n- {売上総利益|うりあげそうりえき}: gross profit — revenue minus cost of goods sold, before operating expenses are deducted",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24646_keijourieki",
+      "reading": "けいじょうりえき",
+      "headword": "{経常利益|けいじょうりえき}",
+      "label": "ordinary profit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18911_junrieki",
+      "reading": "じゅんりえき",
+      "headword": "{純利益|じゅんりえき}",
+      "label": "net profit"
+    },
+    {
+      "type": "related",
+      "target_id": "06302_shuueki",
+      "reading": "しゅうえき",
+      "headword": "{収益|しゅうえき}",
+      "label": "earnings"
+    },
+    {
+      "type": "related",
+      "target_id": "07958_arari",
+      "reading": "あらり",
+      "headword": "{粗利|あらり}",
+      "label": "gross profit"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23473_eigyoushuueki",
+      "reading": "えいぎょうしゅうえき",
+      "headword": "{営業収益|えいぎょうしゅうえき}",
+      "label": "operating revenue"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -61,6 +98,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T00:57:28Z",
-    "modified": "2026-08-01T06:41:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

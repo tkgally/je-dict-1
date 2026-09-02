@@ -203,11 +203,40 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{進|すす}める→進める：01949_susumeru⟧ (transitive, to advance something). Pattern: X⟦が→が：00051_ga⟧{進|すす}む (X advances).\n\nASPECT: ている indicates ongoing state or result. {進|すす}んで⟦いる→いる：00495_iru⟧ = 'is advancing' or 'has advanced.'\n\nCOMMON PATTERNS:\n・⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{進|すす}む (move forward)\n・⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧{進|すす}む (work progresses)\n・⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧{進|すす}む (proceed along a road)\n・{進|すす}んで (willingly, voluntarily)\n・⟦{時計|とけい}→時計：00677_tokei⟧⟦が→が：00051_ga⟧{進|すす}む (clock is fast)\n\nCONTRAST:\n・{進|すす}む (intransitive): X advances\n・⟦{進|すす}める→進める：01949_susumeru⟧ (transitive): (someone) advances X\n\nOPPOSITE:\n・⟦{遅|おく}れる→遅れる：00741_okureru⟧ (to fall behind, be late)\n・⟦{戻|もど}る→戻る：01117_modoru⟧ (to go back)",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{進|すす}める→進める：01949_susumeru⟧ (transitive, to advance something). Pattern: X⟦が→が：00051_ga⟧{進|すす}む (X advances).\n\nASPECT: ている indicates ongoing state or result. {進|すす}んで⟦いる→いる：00495_iru⟧ = 'is advancing' or 'has advanced.'\n\nCOMMON PATTERNS:\n- ⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{進|すす}む (move forward)\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧{進|すす}む (work progresses)\n- ⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧{進|すす}む (proceed along a road)\n- {進|すす}んで (willingly, voluntarily)\n- ⟦{時計|とけい}→時計：00677_tokei⟧⟦が→が：00051_ga⟧{進|すす}む (clock is fast)\n\nSIMILAR WORDS:\n- {進|すす}む (intransitive): X advances\n- ⟦{進|すす}める→進める：01949_susumeru⟧ (transitive): (someone) advances X\n- ⟦{遅|おく}れる→遅れる：00741_okureru⟧ (to fall behind, be late)\n- ⟦{戻|もど}る→戻る：01117_modoru⟧ (to go back)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00741_okureru",
+      "reading": "おくれる",
+      "headword": "{遅|おく}れる",
+      "label": "to fall behind, be late"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01117_modoru",
+      "reading": "もどる",
+      "headword": "{戻|もど}る",
+      "label": "to go back"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13196_ayumu",
+      "reading": "あゆむ",
+      "headword": "{歩|あゆ}む",
+      "label": "to walk, to tread, to follow a path"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26794_shinkousuru",
+      "reading": "しんこうする",
+      "headword": "{進行|しんこう}する",
+      "label": "to progress"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:55:37Z",
-    "modified": "2026-04-10T06:41:08Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

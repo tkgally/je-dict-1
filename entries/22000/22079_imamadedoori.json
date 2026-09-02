@@ -3,7 +3,7 @@
   "headword": "{今|いま}まで{通|どお}り",
   "reading": "いままでどおり",
   "romaji": "imamadedoori",
-  "part_of_speech": "expression",
+  "part_of_speech": "expression, adverb",
   "gloss": "as usual; as before; same as always",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "A very common expression combining {今|いま}まで (until now) and {通|どお}り (as, in the manner of). Used to express continuity — that something should stay or will stay the same as it has been. Natural in both spoken and written Japanese.\n\nCOMMON PATTERNS:\n- {今|いま}まで{通|どお}り + verb: to do something as usual\n- {今|いま}まで{通|どお}りの + noun: the same ~ as usual\n- {今|いま}まで{通|どお}りに{暮|く}らす: to live as one always has\n\nSIMILAR WORDS:\n- {以前|いぜん}{通|どお}り — as before (slightly more formal; emphasizes a past reference point)\n- {従来|じゅうらい}{通|どお}り — as has been conventionally done (formal/institutional)\n- いつも{通|どお}り — as always (focuses on habitual pattern)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22078_izendoori",
+      "reading": "いぜんどおり",
+      "headword": "{以前|いぜん}{通|どお}り",
+      "label": "as before (slightly more formal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15458_juuraidoori",
+      "reading": "じゅうらいどおり",
+      "headword": "{従来通|じゅうらいどお}り",
+      "label": "as has been conventionally done"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,12 +69,13 @@
         "expression",
         "adverb"
       ],
+      "politeness": "plain",
       "semantic": [
         "time-general"
       ],
       "usage_context": []
     },
     "created": "2026-04-04T22:21:59Z",
-    "modified": "2026-07-30T03:35:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

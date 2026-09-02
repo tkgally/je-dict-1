@@ -17,7 +17,9 @@
       "id": "20130_hikokunin_ex1",
       "japanese": "{被告人|ひこくにん}は{無罪|むざい}を{主張|しゅちょう}した。",
       "english": "The defendant claimed innocence.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20130_hikokunin_ex2",
       "japanese": "{裁判長|さいばんちょう}が{被告人|ひこくにん}に{質問|しつもん}した。",
       "english": "The presiding judge questioned the defendant.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,72 @@
       "id": "20130_hikokunin_ex3",
       "japanese": "{被告人|ひこくにん}には{黙秘権|もくひけん}が{保障|ほしょう}されている。",
       "english": "The defendant is guaranteed the right to remain silent.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {被告|ひこく} (accused) + {人|にん} (person). A formal legal term used in criminal trials.\n\nCOMMON COLLOCATIONS:\n- {被告人|ひこくにん}{質問|しつもん}: examination of the defendant\n- {被告人|ひこくにん}{席|せき}: defendant's seat (in court)\n- {被告人|ひこくにん}の{権利|けんり}: rights of the accused\n- {被告人|ひこくにん}{尋問|じんもん}: interrogation of the defendant\n\nSIMILAR WORDS:\n- {被告|ひこく}: defendant — used in both criminal and civil cases; in civil cases, this is the standard term\n- {容疑者|ようぎしゃ}: suspect — someone suspected of a crime but not yet formally charged\n- {被疑者|ひぎしゃ}: suspect (legal term) — formal/legal equivalent of {容疑者|ようぎしゃ}\n- {原告|げんこく}: plaintiff — the opposing party; the one bringing the case\n\nUSAGE:\n{被告人|ひこくにん} is specifically a criminal law term. In civil cases, the equivalent term is {被告|ひこく} (without {人|にん}). In Japanese news media, a person's name is often followed by {被告|ひこく} (e.g., {田中|たなか}{被告|ひこく}) once they have been formally charged.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15039_yougisha",
+      "reading": "ようぎしゃ",
+      "headword": "{容疑者|ようぎしゃ}",
+      "label": "suspect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22237_higisha",
+      "reading": "ひぎしゃ",
+      "headword": "{被疑者|ひぎしゃ}",
+      "label": "suspect"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11085_genkoku",
+      "reading": "げんこく",
+      "headword": "{原告|げんこく}",
+      "label": "plaintiff"
+    },
+    {
+      "type": "related",
+      "target_id": "09664_kensatsukan",
+      "reading": "けんさつかん",
+      "headword": "{検察官|けんさつかん}",
+      "label": "prosecutor"
+    },
+    {
+      "type": "related",
+      "target_id": "19219_hanzaisha",
+      "reading": "はんざいしゃ",
+      "headword": "{犯罪者|はんざいしゃ}",
+      "label": "criminal"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20680_shuujin",
+      "reading": "しゅうじん",
+      "headword": "{囚人|しゅうじん}",
+      "label": "prisoner"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["law"]
+      "semantic": [
+        "law"
+      ]
     },
     "created": "2026-03-28T14:16:40Z",
-    "modified": "2026-03-28T14:16:40Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

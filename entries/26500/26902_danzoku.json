@@ -45,7 +45,22 @@
     }
   ],
   "notes": "A compound of {断|だん} (to cut off, interrupt) and {続|ぞく} (to continue). The word combines two opposing concepts — interruption and continuation — to describe a pattern of repeated stopping and starting.\n\nCOMMON COLLOCATIONS:\n- {断続的|だんぞくてき}に: intermittently, on and off\n- {断続的|だんぞくてき}な{雨|あめ}: intermittent rain\n- {断続的|だんぞくてき}な{痛|いた}み: intermittent pain\n- {断続的|だんぞくてき}な{渋滞|じゅうたい}: stop-and-go traffic\n\nSIMILAR WORDS:\n- {間欠的|かんけつてき}: intermittent — more technical/scientific; used for geysers, fevers\n- {連続|れんぞく}: continuous, consecutive — the antonym, meaning without interruption\n- {継続|けいぞく}: continuation — sustained over time without the stopping-and-starting nuance\n\nUSAGE:\nMost commonly appears as {断続的|だんぞくてき} (adjective) or {断続的|だんぞくてき}に (adverb). Very frequently used in weather forecasts ({断続的|だんぞくてき}な{雨|あめ}) and news reports.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "03783_renzoku",
+      "reading": "れんぞく",
+      "headword": "{連続|れんぞく}",
+      "label": "continuous, consecutive"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00213_keizoku",
+      "reading": "けいぞく",
+      "headword": "{継続|けいぞく}",
+      "label": "continuation"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -61,6 +76,6 @@
       "domain": []
     },
     "created": "2026-05-05T15:11:36Z",
-    "modified": "2026-08-06T12:46:55Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

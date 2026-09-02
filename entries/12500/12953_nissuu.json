@@ -19,7 +19,9 @@
       "english": "The number of days for the construction is about 30.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12953_nissuu_ex2",
@@ -27,7 +29,9 @@
       "english": "The number of days until delivery varies by region.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12953_nissuu_ex3",
@@ -35,21 +39,36 @@
       "english": "Please check the remaining number of paid leave days before applying.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed to express the total count of days for a duration or process. Common in administrative, business, and logistics contexts. Often modified by adjectives or used in calculations.\n\nCOMMON COLLOCATIONS:\n- {日数|にっすう}がかかる: to take a number of days\n- {所要|しょよう}{日数|にっすう}: required number of days\n- {残|のこ}り{日数|にっすう}: remaining days\n- {営業|えいぎょう}{日数|にっすう}: number of business days\n\nSIMILAR WORDS:\n- {日|ひ}にち: days (general, less formal)\n- {期間|きかん}: period, duration\n- {工期|こうき}: construction period",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00229_kikan",
+      "reading": "きかん",
+      "headword": "{期間|きかん}",
+      "label": "period, duration"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T23:37:45Z",
-    "modified": "2026-02-22T23:37:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general", "quantity"]
+      "semantic": [
+        "time-general",
+        "quantity"
+      ]
     }
   }
 }

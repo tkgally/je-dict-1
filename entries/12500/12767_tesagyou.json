@@ -19,7 +19,9 @@
       "english": "This process is done by hand.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12767_tesagyou_ex2",
@@ -27,7 +29,9 @@
       "english": "It takes time because it's done by hand.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12767_tesagyou_ex3",
@@ -35,21 +39,42 @@
       "english": "For parts that are difficult for machines, we rely on the handwork of craftspeople.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "{手作業|てさぎょう} means work done by hand as opposed to machine or automated work. It is often used in manufacturing, data processing, and craft contexts.\n\nCOMMON COLLOCATIONS:\n- {手作業|てさぎょう}で{行|おこな}う: to do by hand\n- {手作業|てさぎょう}に{頼|たよ}る: to rely on manual work\n- {手作業|てさぎょう}で{入力|にゅうりょく}する: to input manually\n- {手作業|てさぎょう}で{仕上|しあ}げる: to finish by hand\n\nCONTRAST:\n- {手作業|てさぎょう}: manual work (general)\n- {手動|しゅどう}: manual operation (for machines/devices)\n- {手作|てづく}り: handmade (for products/items)",
-  "cross_references": [],
+  "notes": "{手作業|てさぎょう} means work done by hand as opposed to machine or automated work. It is often used in manufacturing, data processing, and craft contexts.\n\nCOMMON COLLOCATIONS:\n- {手作業|てさぎょう}で{行|おこな}う: to do by hand\n- {手作業|てさぎょう}に{頼|たよ}る: to rely on manual work\n- {手作業|てさぎょう}で{入力|にゅうりょく}する: to input manually\n- {手作業|てさぎょう}で{仕上|しあ}げる: to finish by hand\n\nSIMILAR WORDS:\n- {手作業|てさぎょう}: manual work (general)\n- {手動|しゅどう}: manual operation (for machines/devices)\n- {手作|てづく}り: handmade (for products/items)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12890_shudou",
+      "reading": "しゅどう",
+      "headword": "{手動|しゅどう}",
+      "label": "manual operation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08300_tezukuri",
+      "reading": "てづくり",
+      "headword": "{手作|てづく}り",
+      "label": "handmade"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T10:07:13Z",
-    "modified": "2026-02-22T10:07:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ]
     }
   }
 }

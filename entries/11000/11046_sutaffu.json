@@ -19,7 +19,9 @@
       "english": "Let's ask a staff member.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11046_sutaffu_ex2",
@@ -27,7 +29,9 @@
       "english": "We are recruiting staff for the event.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11046_sutaffu_ex3",
@@ -35,21 +39,56 @@
       "english": "The names of a large number of staff members scrolled during the movie's end credits.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nIn Japanese, スタッフ can refer to a single person or a group: スタッフの{一人|ひとり} (one of the staff), スタッフ{全員|ぜんいん} (all staff members). It is commonly used in entertainment, retail, events, and hospitality.\n\nFor restaurant and hotel staff, {従業員|じゅうぎょういん} is a more formal alternative.\n\nCOMMON COLLOCATIONS:\n- スタッフを{募集|ぼしゅう}する: to recruit staff\n- スタッフ{一同|いちどう}: all staff members\n- {裏方|うらかた}スタッフ: behind-the-scenes staff\n- スタッフ{専用|せんよう}: staff only",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03065_shain",
+      "reading": "しゃいん",
+      "headword": "{社員|しゃいん}",
+      "label": "company employee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10018_juugyouin",
+      "reading": "じゅうぎょういん",
+      "headword": "{従業員|じゅうぎょういん}",
+      "label": "employee, worker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17843_jinin",
+      "reading": "じんいん",
+      "headword": "{人員|じんいん}",
+      "label": "number of persons"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20206_shokuin",
+      "reading": "しょくいん",
+      "headword": "{職員|しょくいん}",
+      "label": "staff member"
+    }
+  ],
   "metadata": {
     "created": "2026-02-12T20:10:50Z",
-    "modified": "2026-02-12T20:10:50Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

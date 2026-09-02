@@ -17,7 +17,9 @@
       "id": "25183_tokutenken_ex1",
       "japanese": "{特典券|とくてんけん}を{使|つか}って{無料|むりょう}でドリンクをもらった。",
       "english": "I got a free drink using a bonus ticket.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25183_tokutenken_ex2",
       "japanese": "{会員|かいいん}{限定|げんてい}の{特典券|とくてんけん}が{届|とど}いた。",
       "english": "A members-only privilege coupon arrived.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,52 @@
       "id": "25183_tokutenken_ex3",
       "japanese": "{初回|しょかい}{購入者|こうにゅうしゃ}には{特典券|とくてんけん}がついており、{次回|じかい}の{買|か}い{物|もの}で{割引|わりびき}が{受|う}けられる。",
       "english": "First-time purchasers receive a bonus ticket that entitles them to a discount on their next purchase.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {特典|とくてん} (special benefit, privilege, bonus) and {券|けん} (ticket, voucher). Common in retail, entertainment, and membership contexts.\n\nCOMMON COLLOCATIONS:\n- {特典券|とくてんけん}を{配布|はいふ}する: to distribute bonus tickets\n- {特典券|とくてんけん}を{利用|りよう}する: to use a privilege coupon\n- {特典券|とくてんけん}{付|つ}き: with a bonus ticket included\n- {来場|らいじょう}{特典券|とくてんけん}: attendance bonus ticket\n\nSIMILAR WORDS:\n- {割引券|わりびきけん}: discount coupon — specifically offers a price reduction\n- {優待券|ゆうたいけん}: complimentary ticket — a ticket offering preferential treatment, often from shareholding\n- {引換券|ひきかえけん}: exchange ticket — a voucher to be redeemed for a specific item",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09545_waribikiken",
+      "reading": "わりびきけん",
+      "headword": "{割引券|わりびきけん}",
+      "label": "discount coupon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23292_yuutaiken",
+      "reading": "ゆうたいけん",
+      "headword": "{優待券|ゆうたいけん}",
+      "label": "complimentary ticket"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19009_hikikaeken",
+      "reading": "ひきかえけん",
+      "headword": "{引換券|ひきかえけん}",
+      "label": "exchange ticket"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["business", "daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "business",
+        "daily-life"
+      ]
     },
     "created": "2026-04-23T13:27:57Z",
-    "modified": "2026-04-23T13:27:57Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

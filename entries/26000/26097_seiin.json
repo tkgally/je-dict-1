@@ -17,7 +17,9 @@
       "id": "26097_seiin_ex1",
       "japanese": "{家族|かぞく}の{成員|せいいん}それぞれに{役割|やくわり}がある。",
       "english": "Each member of the family has a role.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26097_seiin_ex2",
       "japanese": "{社会|しゃかい}の{成員|せいいん}として{責任|せきにん}を{果|は}たす。",
       "english": "To fulfill one's responsibility as a member of society.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,50 @@
       "id": "26097_seiin_ex3",
       "japanese": "{組織|そしき}の{成員|せいいん}が{増|ふ}えるにつれて{意思|いし}{決定|けってい}が{難|むずか}しくなる。",
       "english": "As the number of members in the organization grows, decision-making becomes more difficult.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A formal, somewhat academic term for a member or constituent of a group. Most commonly encountered in sociology, political science, and formal writing. Unlike {会員|かいいん}, which implies formal enrollment, {成員|せいいん} emphasizes being a constituent part of a collective.\n\nCOMMON COLLOCATIONS:\n- {社会|しゃかい}の{成員|せいいん}: member of society\n- {家族|かぞく}の{成員|せいいん}: family member\n- {組織|そしき}の{成員|せいいん}: member of an organization\n- {集団|しゅうだん}の{成員|せいいん}: member of a group\n\nSIMILAR WORDS:\n- メンバー: member — casual loanword used in everyday speech\n- {会員|かいいん}: member — implies formal registration or membership (in a club, association, etc.)\n- {構成員|こうせいいん}: constituent member — more technical, emphasizes the structural role within an organization\n- {一員|いちいん}: one member (of) — emphasizes being part of a larger whole",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00275_menbaa",
+      "reading": "めんばー",
+      "headword": "メンバー",
+      "label": "member"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02535_kaiin",
+      "reading": "かいいん",
+      "headword": "{会員|かいいん}",
+      "label": "member"
+    },
+    {
+      "type": "contrast",
+      "target_id": "08920_ichiin",
+      "reading": "いちいん",
+      "headword": "{一員|いちいん}",
+      "label": "one member"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["society"]
+      "pos": [
+        "noun"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "society"
+      ]
     },
     "created": "2026-04-29T13:32:19Z",
-    "modified": "2026-04-29T13:32:19Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

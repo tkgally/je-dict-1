@@ -44,11 +44,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA very common word seen on signs in hotels, locker rooms, pools, and public facilities. Frequently appears in safety warnings and travel advisories.\n\nCOMMON COLLOCATIONS:\n- {貴重品|きちょうひん}を{預|あず}ける (to deposit valuables)\n- {貴重品|きちょうひん}の{管理|かんり} (management of valuables)\n- {貴重品|きちょうひん}ロッカー (valuables locker)\n- {貴重品|きちょうひん}{入|い}れ (valuables case/pouch)\n\nWORD FORMATION:\n{貴重|きちょう} (precious, valuable) + {品|ひん} (item, goods).",
-  "cross_references": [],
+  "notes": "USAGE:\nA very common word seen on signs in hotels, locker rooms, pools, and public facilities. Frequently appears in safety warnings and travel advisories.\n\nCOMMON COLLOCATIONS:\n- {貴重品|きちょうひん}を{預|あず}ける (to deposit valuables)\n- {貴重品|きちょうひん}の{管理|かんり} (management of valuables)\n- {貴重品|きちょうひん}ロッカー (valuables locker)\n- {貴重品|きちょうひん}{入|い}れ (valuables case/pouch)\n\nFORMS:\n{貴重|きちょう} (precious, valuable) + {品|ひん} (item, goods).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20022_kinpin",
+      "reading": "きんぴん",
+      "headword": "{金品|きんぴん}",
+      "label": "money and valuables"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T09:53:59Z",
-    "modified": "2026-07-16T07:06:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -56,6 +64,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "daily-life"
       ]

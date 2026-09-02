@@ -3,7 +3,7 @@
   "id": "17678_daietto",
   "headword": "ダイエット",
   "reading": "だいえっと",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "diet, dieting",
   "conjugation": {
     "type": "suru",
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "MEANING SHIFT:\nIn English, \"diet\" can simply refer to what a person habitually eats (e.g., \"a balanced diet\"). In Japanese, ダイエット almost always means deliberate weight-loss efforts — restricting food, exercising, or both. To refer to one's general eating pattern, {食生活|しょくせいかつ} or {食事|しょくじ} is used instead.\n\nGRAMMAR:\nUsed as a noun or with する: ダイエットする (to diet). Also commonly used with {中|ちゅう}: ダイエット{中|ちゅう} (currently dieting).\n\nCOMMON COLLOCATIONS:\n- ダイエットする: to go on a diet\n- ダイエット{中|ちゅう}: on a diet, currently dieting\n- ダイエット{食品|しょくひん}: diet food\n- ダイエットに{成功|せいこう}する: to succeed in dieting",
-  "cross_references": [],
+  "notes": "MEANING SHIFT:\nIn English, \"diet\" can simply refer to what a person habitually eats (e.g., \"a balanced diet\"). In Japanese, ダイエット almost always means deliberate weight-loss efforts — restricting food, exercising, or both. To refer to one's general eating pattern, {食生活|しょくせいかつ} or {食事|しょくじ} is used instead.\n\nCOMMON PATTERNS:\nUsed as a noun or with する: ダイエットする (to diet). Also commonly used with {中|ちゅう}: ダイエット{中|ちゅう} (currently dieting).\n\nCOMMON COLLOCATIONS:\n- ダイエットする: to go on a diet\n- ダイエット{中|ちゅう}: on a diet, currently dieting\n- ダイエット{食品|しょくひん}: diet food\n- ダイエットに{成功|せいこう}する: to succeed in dieting",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21071_shokuseikatsu",
+      "reading": "しょくせいかつ",
+      "headword": "{食生活|しょくせいかつ}",
+      "label": "diet"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21360_sesshoku",
+      "reading": "せっしょく",
+      "headword": "{節食|せっしょく}",
+      "label": "eating moderately"
+    }
+  ],
   "metadata": {
     "created": "2026-02-12T11:47:02Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

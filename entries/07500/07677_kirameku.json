@@ -2,7 +2,7 @@
   "id": "07677_kirameku",
   "headword": "きらめく",
   "reading": "きらめく",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to glitter; to sparkle; to twinkle",
   "conjugation": {
     "type": "godan",
@@ -130,7 +130,7 @@
       ]
     }
   ],
-  "notes": "VERB TYPE:\n{自動詞|じどうし} (intransitive verb)\nGodan verb ({五段動詞|ごだんどうし})\n\nKANJI:\nCan be written as {煌|きら}めく (literary).\n\n・きらめかない (negative)\n・きらめいて (te-form)\n・きらめいた (past)\n\nONOMATOPOEIA:\nRelated to きらきら (glittering, twinkling), which is the onomatopoeic adverb form.\n\nSIMILAR WORDS:\n・{輝|かがや}く - to shine, radiate (broader meaning)\n・{光|ひか}る - to shine, glow\n・またたく - to twinkle (especially stars)\n・きらきら{光|ひか}る - to glitter",
+  "notes": "VERB TYPE:\n{自動詞|じどうし} (intransitive verb)\nGodan verb ({五段動詞|ごだんどうし})\n\nWRITING:\nCan be written as {煌|きら}めく (literary).\n\n- きらめかない (negative)\n- きらめいて (te-form)\n- きらめいた (past)\n\nONOMATOPOEIA:\nRelated to きらきら (glittering, twinkling), which is the onomatopoeic adverb form.\n\nSIMILAR WORDS:\n- {輝|かがや}く - to shine, radiate (broader meaning)\n- {光|ひか}る - to shine, glow\n- またたく - to twinkle (especially stars)\n- きらきら{光|ひか}る - to glitter",
   "cross_references": [
     {
       "type": "related",
@@ -145,11 +145,25 @@
       "reading": "かがやく",
       "headword": "{輝|かがや}く",
       "label": "to shine, be radiant (broader)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01163_hikaru",
+      "reading": "ひかる",
+      "headword": "{光|ひか}る",
+      "label": "to shine, glow"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04385_matataku",
+      "reading": "またたく",
+      "headword": "{瞬|またた}く",
+      "label": "to twinkle"
     }
   ],
   "metadata": {
     "created": "2026-01-20T14:05:39Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -158,6 +172,7 @@
       ],
       "transitivity": "intransitive",
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "appearance"
       ],

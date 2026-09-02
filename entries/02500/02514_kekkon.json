@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{結婚|けっこん} functions as both a noun (marriage) and a ⟦する→する：00392_suru⟧ verb ({結婚|けっこん}⟦する→する：00392_suru⟧ = to marry/get married). The particle ⟦と→と：00512_to⟧ marks the person one marries: 〜⟦と→と：00512_to⟧{結婚|けっこん}⟦する→する：00392_suru⟧.\n\nCOMMON COMPOUNDS:\n- {結婚|けっこん}⟦{式|しき}→〜式：02000_shiki⟧: wedding ceremony\n- {結婚|けっこん}⟦{記念日|きねんび}→記念日：05585_kinenbi⟧: wedding anniversary\n- {結婚|けっこん}⟦{相手|あいて}→相手：01677_aite⟧: marriage partner\n- {結婚|けっこん}⟦{指輪|ゆびわ}→指輪：01744_yubiwa⟧: wedding ring\n- {結婚|けっこん}⟦{生活|せいかつ}→生活：01443_seikatsu⟧: married life\n- {結婚|けっこん}⟦{届|とどけ}→届け：07558_todoke⟧: marriage registration form\n\nPOLITE FORMS:\nご{結婚|けっこん} is the polite form used for congratulations and formal references: ご{結婚|けっこん}⟦おめでとうございます→おめでとう：01043_omedetou⟧ (Congratulations on your marriage).\n\nCONTRAST:\n- ⟦{離婚|りこん}→離婚：02530_rikon⟧: divorce (antonym)\n- ⟦{婚約|こんやく}→婚約：02810_konyaku⟧: engagement (preceding step)",
+  "notes": "{結婚|けっこん} functions as both a noun (marriage) and a ⟦する→する：00392_suru⟧ verb ({結婚|けっこん}⟦する→する：00392_suru⟧ = to marry/get married). The particle ⟦と→と：00512_to⟧ marks the person one marries: 〜⟦と→と：00512_to⟧{結婚|けっこん}⟦する→する：00392_suru⟧.\n\nCOMPOUNDS:\n- {結婚|けっこん}⟦{式|しき}→〜式：02000_shiki⟧: wedding ceremony\n- {結婚|けっこん}⟦{記念日|きねんび}→記念日：05585_kinenbi⟧: wedding anniversary\n- {結婚|けっこん}⟦{相手|あいて}→相手：01677_aite⟧: marriage partner\n- {結婚|けっこん}⟦{指輪|ゆびわ}→指輪：01744_yubiwa⟧: wedding ring\n- {結婚|けっこん}⟦{生活|せいかつ}→生活：01443_seikatsu⟧: married life\n- {結婚|けっこん}⟦{届|とどけ}→届け：07558_todoke⟧: marriage registration form\n\nKEIGO:\nご{結婚|けっこん} is the polite form used for congratulations and formal references: ご{結婚|けっこん}⟦おめでとうございます→おめでとう：01043_omedetou⟧ (Congratulations on your marriage).\n\nSIMILAR WORDS:\n- ⟦{離婚|りこん}→離婚：02530_rikon⟧: divorce (antonym)\n- ⟦{婚約|こんやく}→婚約：02810_konyaku⟧: engagement (preceding step)",
   "cross_references": [
     {
       "type": "antonym",
@@ -71,11 +71,60 @@
       "headword": "{離婚|りこん}",
       "label": "divorce",
       "target_id": "02530_rikon"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02810_konyaku",
+      "reading": "こんやく",
+      "headword": "{婚約|こんやく}",
+      "label": "engagement"
+    },
+    {
+      "type": "antonym",
+      "target_id": "21333_rikonsuru",
+      "reading": "りこんする",
+      "headword": "{離婚|りこん}する",
+      "label": "to divorce"
+    },
+    {
+      "type": "related",
+      "target_id": "22805_saikon",
+      "reading": "さいこん",
+      "headword": "{再婚|さいこん}",
+      "label": "remarriage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25476_saikonsuru",
+      "reading": "さいこんする",
+      "headword": "{再婚|さいこん}する",
+      "label": "to remarry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25564_shokon",
+      "reading": "しょこん",
+      "headword": "{初婚|しょこん}",
+      "label": "first marriage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30494_tsuresou",
+      "reading": "つれそう",
+      "headword": "{連|つ}れ{添|そ}う",
+      "label": "to be married to"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30512_soitogeru",
+      "reading": "そいとげる",
+      "headword": "添い遂げる",
+      "label": "to stay married for life"
     }
   ],
   "metadata": {
     "created": "2026-01-11T12:52:53Z",
-    "modified": "2026-06-11T18:03:17Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

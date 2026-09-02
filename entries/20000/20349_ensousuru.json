@@ -2,7 +2,7 @@
   "id": "20349_ensousuru",
   "headword": "{演奏|えんそう}する",
   "reading": "えんそうする",
-  "part_of_speech": "noun, suru verb, transitive",
+  "part_of_speech": "noun, suru verb (transitive)",
   "gloss": "to perform (music); to play (an instrument)",
   "conjugation": {
     "type": "suru",
@@ -135,6 +135,36 @@
   ],
   "notes": "Composed of {演|えん} (perform) + {奏|そう} (play music). Takes を for the instrument or piece: ピアノを{演奏|えんそう}する. The noun form {演奏|えんそう} is extremely common in music contexts.\n\nCOMMON COLLOCATIONS:\n- {生演奏|なまえんそう}: live performance\n- {独奏|どくそう}: solo performance\n- {合奏|がっそう}: ensemble, group performance\n- {演奏会|えんそうかい}: concert, recital\n- {演奏者|えんそうしゃ}: performer, musician\n\nSIMILAR WORDS:\n- {弾|ひ}く: to play (piano, guitar, strings) — casual, everyday word\n- {吹|ふ}く: to play (wind instruments) — specifically for blowing instruments\n- {叩|たた}く: to play (drums, percussion) — specifically for striking\n- {演奏|えんそう}する: more formal, encompasses all instruments and performance contexts",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02444_hiku",
+      "reading": "ひく",
+      "headword": "{弾|ひ}く",
+      "label": "to play"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02445_fuku",
+      "reading": "ふく",
+      "headword": "{吹|ふ}く",
+      "label": "to play"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02072_tataku",
+      "reading": "たたく",
+      "headword": "{叩|たた}く",
+      "label": "to play"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12840_purei",
+      "reading": "ぷれい",
+      "headword": "プレイ",
+      "label": "play, playing"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +182,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-28T21:20:02Z",
-    "modified": "2026-03-28T21:20:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

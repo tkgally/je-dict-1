@@ -19,7 +19,9 @@
       "english": "New employees joined the company.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15536_shinnyuushain_ex2",
@@ -27,7 +29,9 @@
       "english": "New employee training takes one month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15536_shinnyuushain_ex3",
@@ -35,21 +39,50 @@
       "english": "This year's new employees are expected to contribute immediately.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nIn Japanese corporate culture, {新入社員|しんにゅうしゃいん} specifically refers to employees in their first year at a company, typically fresh graduates who start in April. They are expected to learn workplace etiquette and culture through formal training ({研修|けんしゅう}).\n\nCOMMON COLLOCATIONS:\n- {新入社員|しんにゅうしゃいん}{研修|けんしゅう} (new employee training)\n- {新入社員|しんにゅうしゃいん}{歓迎会|かんげいかい} (welcome party for new employees)\n- {新入社員|しんにゅうしゃいん}を{迎|むか}える (to welcome new employees)\n\nCULTURAL NOTE:\nEvery April, companies hold {入社式|にゅうしゃしき} (joining ceremonies) for new hires. Media surveys of {新入社員|しんにゅうしゃいん} attitudes are a spring tradition in Japan.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02500_shinjin",
+      "reading": "しんじん",
+      "headword": "{新人|しんじん}",
+      "label": "newcomer, new employee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03073_shinnyuusei",
+      "reading": "しんにゅうせい",
+      "headword": "{新入生|しんにゅうせい}",
+      "label": "new student, freshman"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15310_shinshakaijin",
+      "reading": "しんしゃかいじん",
+      "headword": "{新社会人|しんしゃかいじん}",
+      "label": "new member of the workforce"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T10:05:54Z",
-    "modified": "2026-03-07T10:05:54Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work", "person"]
+      "semantic": [
+        "work",
+        "person"
+      ]
     }
   }
 }

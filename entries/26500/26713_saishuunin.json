@@ -3,7 +3,7 @@
   "headword": "{再就任|さいしゅうにん}",
   "reading": "さいしゅうにん",
   "romaji": "saishuunin",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reappointment; re-assumption of office",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "Composed of {再|さい} (again/re-) and {就任|しゅうにん} (assuming office). Describes the act of taking up a position that one previously held. The prefix {再|さい} productively attaches to many action nouns to add the meaning of \"again.\"\n\nCOMMON COLLOCATIONS:\n- {再就任|さいしゅうにん}する: to be reappointed\n- {再就任|さいしゅうにん}を{果|は}たす: to achieve reappointment\n- {再就任|さいしゅうにん}を{要請|ようせい}する: to request reappointment\n\nSIMILAR WORDS:\n- {再任|さいにん}: reappointment — a shorter synonym, often used in official contexts\n- {就任|しゅうにん}: assumption of office — the base word, first appointment\n- {復帰|ふっき}: return — broader, can apply to returning to any role or activity\n- {辞任|じにん}: resignation — the act of leaving a position",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17443_sainin",
+      "reading": "さいにん",
+      "headword": "{再任|さいにん}",
+      "label": "reappointment"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12564_fukki",
+      "reading": "ふっき",
+      "headword": "{復帰|ふっき}",
+      "label": "return"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10144_jinin",
+      "reading": "じにん",
+      "headword": "{辞任|じにん}",
+      "label": "resignation"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +76,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "work",
         "politics"
@@ -61,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-04T14:14:27Z",
-    "modified": "2026-05-04T14:14:27Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -3,7 +3,7 @@
   "headword": "実用化",
   "reading": "じつようか",
   "romaji": "jitsuyouka",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "putting into practical use; commercialization",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Formed from {実用|じつよう} (practical use) + the suffix {化|か} (-ization). Takes する to form a verb: {実用化|じつようか}する (to put into practical use).\n\nCOMMON COLLOCATIONS:\n- {実用化|じつようか}が{進|すす}む: practical use advances\n- {実用化|じつようか}される: to be put into practical use\n- {実用化|じつようか}に{向|む}けて: toward practical application\n- {早期|そうき}{実用化|じつようか}: early commercialization\n\nSIMILAR WORDS:\n- {商品化|しょうひんか}: turning into a marketable product — emphasizes selling, not just usability.\n- {実現|じつげん}: realization — making something a reality, broader and not limited to technology.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "30135_shouhinka",
+      "reading": "しょうひんか",
+      "headword": "{商品化|しょうひんか}",
+      "label": "turning into a marketable product"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03276_jitsugen",
+      "reading": "じつげん",
+      "headword": "{実現|じつげん}",
+      "label": "realization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30151_seihinka",
+      "reading": "せいひんか",
+      "headword": "{製品化|せいひんか}",
+      "label": "commercialization"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +77,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "technology",
         "action"
@@ -63,7 +86,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-11T21:17:16Z",
-    "modified": "2026-07-11T21:17:16Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

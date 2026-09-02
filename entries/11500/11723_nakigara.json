@@ -19,7 +19,9 @@
       "english": "The remains were sent to the deceased's hometown.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11723_nakigara_ex2",
@@ -27,7 +29,9 @@
       "english": "The family quietly put their hands together in prayer before the remains.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11723_nakigara_ex3",
@@ -35,21 +39,65 @@
       "english": "The work of recovering the remains of soldiers left on the battlefield continued.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
-  "notes": "A literary and respectful term for a dead body. Written with the kanji {亡|な}き (deceased) + {骸|がら} (shell, remains), though the word is often written in hiragana as なきがら.\n\nDISTINCTIONS:\n・{亡骸|なきがら}: literary, respectful; treats the body with dignity\n・{遺体|いたい}: formal, standard term for a dead body (news, official contexts)\n・{死体|したい}: clinical, neutral; can sound cold or blunt\n・{遺骨|いこつ}: remains (specifically bones/ashes after cremation)\n\nUSAGE NOTES:\n{亡骸|なきがら} is primarily used in literary works, formal eulogies, and historical narratives. In everyday news reporting, {遺体|いたい} is preferred. {死体|したい} is used in medical, forensic, and police contexts.",
-  "cross_references": [],
+  "notes": "A literary and respectful term for a dead body. Written with the kanji {亡|な}き (deceased) + {骸|がら} (shell, remains), though the word is often written in hiragana as なきがら.\n\nSIMILAR WORDS:\n- {亡骸|なきがら}: literary, respectful; treats the body with dignity\n- {遺体|いたい}: formal, standard term for a dead body (news, official contexts)\n- {死体|したい}: clinical, neutral; can sound cold or blunt\n- {遺骨|いこつ}: remains (specifically bones/ashes after cremation)\n\nUSAGE:\n{亡骸|なきがら} is primarily used in literary works, formal eulogies, and historical narratives. In everyday news reporting, {遺体|いたい} is preferred. {死体|したい} is used in medical, forensic, and police contexts.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14433_itai",
+      "reading": "いたい",
+      "headword": "{遺体|いたい}",
+      "label": "formal, standard term for a dead body"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04032_shitai",
+      "reading": "したい",
+      "headword": "{死体|したい}",
+      "label": "clinical, neutral"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19163_ikotsu",
+      "reading": "いこつ",
+      "headword": "{遺骨|いこつ}",
+      "label": "remains"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24751_igai",
+      "reading": "いがい",
+      "headword": "{遺骸|いがい}",
+      "label": "remains"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28379_shigai",
+      "reading": "しがい",
+      "headword": "{死骸|しがい}",
+      "label": "carcass"
+    }
+  ],
   "metadata": {
     "created": "2026-02-17T21:44:13Z",
-    "modified": "2026-02-17T21:44:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "style": ["literary"]
+      "semantic": [
+        "general"
+      ],
+      "style": [
+        "literary"
+      ]
     }
   }
 }

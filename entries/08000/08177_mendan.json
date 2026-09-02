@@ -2,7 +2,7 @@
   "id": "08177_mendan",
   "headword": "{面談|めんだん}",
   "reading": "めんだん",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "interview; meeting; consultation",
   "conjugation": {
     "type": "suru",
@@ -153,7 +153,7 @@
       "notes": null
     }
   ],
-  "notes": "USAGE:\nUsed as a suru-verb: {面談|めんだん}する (to have an interview/meeting)\n\nCOMMON TYPES:\n- {個人|こじん}{面談|めんだん} (individual meeting)\n- {保護者|ほごしゃ}{面談|めんだん} (parent-teacher conference)\n- {就職|しゅうしょく}{面談|めんだん} (job interview - though {面接|めんせつ} more common)\n- {進路|しんろ}{面談|めんだん} (career guidance meeting)\n\nRELATED WORDS:\n- {面接|めんせつ} (job interview - more formal)\n- {会談|かいだん} (talks, conference - more official)\n- {相談|そうだん} (consultation - less formal)\n- ミーティング (meeting - loanword)\n\nNUANCE:\n{面談|めんだん} emphasizes a face-to-face discussion and is commonly used in business and educational settings.",
+  "notes": "USAGE:\nUsed as a suru-verb: {面談|めんだん}する (to have an interview/meeting)\n{面談|めんだん} emphasizes a face-to-face discussion and is commonly used in business and educational settings.\n\nTYPES:\n- {個人|こじん}{面談|めんだん} (individual meeting)\n- {保護者|ほごしゃ}{面談|めんだん} (parent-teacher conference)\n- {就職|しゅうしょく}{面談|めんだん} (job interview - though {面接|めんせつ} more common)\n- {進路|しんろ}{面談|めんだん} (career guidance meeting)\n\nRELATED WORDS:\n- {面接|めんせつ} (job interview - more formal)\n- {会談|かいだん} (talks, conference - more official)\n- {相談|そうだん} (consultation - less formal)\n- ミーティング (meeting - loanword)",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -162,6 +162,7 @@
         "verb-suru"
       ],
       "formality": "formal",
+      "politeness": "plain",
       "semantic": [
         "business",
         "education"
@@ -169,7 +170,7 @@
       "verb_class": "suru"
     },
     "created": "2026-01-25T07:33:27Z",
-    "modified": "2026-04-20T05:05:12Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "cross_references": [
     {
@@ -178,6 +179,41 @@
       "reading": "めんせつ",
       "headword": "{面接|めんせつ}",
       "label": "job interview (formal)"
+    },
+    {
+      "type": "related",
+      "target_id": "11542_kaidan",
+      "reading": "かいだん",
+      "headword": "{会談|かいだん}",
+      "label": "talks, conference"
+    },
+    {
+      "type": "related",
+      "target_id": "02089_soudan",
+      "reading": "そうだん",
+      "headword": "{相談|そうだん}",
+      "label": "consultation"
+    },
+    {
+      "type": "related",
+      "target_id": "05506_miitingu",
+      "reading": "みーてぃんぐ",
+      "headword": "ミーティング",
+      "label": "meeting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23280_soudankai",
+      "reading": "そうだんかい",
+      "headword": "{相談会|そうだんかい}",
+      "label": "consultation session"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28190_kateihoumon",
+      "reading": "かていほうもん",
+      "headword": "{家庭訪問|かていほうもん}",
+      "label": "home visit (by a teacher)"
     }
   ]
 }

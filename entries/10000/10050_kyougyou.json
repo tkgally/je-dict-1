@@ -2,7 +2,7 @@
   "id": "10050_kyougyou",
   "headword": "{協業|きょうぎょう}",
   "reading": "きょうぎょう",
-  "part_of_speech": "noun, suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "collaboration, cooperation, partnership",
   "conjugation": {
     "type": "suru",
@@ -143,11 +143,40 @@
       "notes": null
     }
   ],
-  "notes": "{協業|きょうぎょう} means business collaboration or partnership.\n\nCOMPONENTS:\n- {協|きょう}: together, cooperate\n- {業|ぎょう}: business, work\n\nCOMMON PATTERNS:\n- {協業|きょうぎょう}する: to collaborate\n- {協業|きょうぎょう}{関係|かんけい}: collaborative relationship\n- {協業|きょうぎょう}{先|さき}: collaboration partner\n- {協業|きょうぎょう}を{進|すす}める: to advance collaboration\n\nCONTEXTS:\nOften used in business news and corporate announcements about partnerships.\n\nRELATED:\n- {提携|ていけい}: alliance, partnership\n- {連携|れんけい}: cooperation, coordination\n- {合弁|ごうべん}: joint venture\n- {コラボレーション}: collaboration (loanword)",
-  "cross_references": [],
+  "notes": "{協業|きょうぎょう} means business collaboration or partnership.\n\nETYMOLOGY:\n- {協|きょう}: together, cooperate\n- {業|ぎょう}: business, work\n\nCOMMON PATTERNS:\n- {協業|きょうぎょう}する: to collaborate\n- {協業|きょうぎょう}{関係|かんけい}: collaborative relationship\n- {協業|きょうぎょう}{先|さき}: collaboration partner\n- {協業|きょうぎょう}を{進|すす}める: to advance collaboration\n\nUSAGE:\nOften used in business news and corporate announcements about partnerships.\n\nRELATED WORDS:\n- {提携|ていけい}: alliance, partnership\n- {連携|れんけい}: cooperation, coordination\n- {合弁|ごうべん}: joint venture\n- コラボレーション: collaboration (loanword)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05773_teikei",
+      "reading": "ていけい",
+      "headword": "{提携|ていけい}",
+      "label": "alliance, partnership"
+    },
+    {
+      "type": "related",
+      "target_id": "05094_renkei",
+      "reading": "れんけい",
+      "headword": "{連携|れんけい}",
+      "label": "cooperation, coordination"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09617_bungyou",
+      "reading": "ぶんぎょう",
+      "headword": "{分業|ぶんぎょう}",
+      "label": "division of labor, specialization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22907_gyoumuteikei",
+      "reading": "ぎょうむていけい",
+      "headword": "{業務|ぎょうむ}{提携|ていけい}",
+      "label": "business alliance"
+    }
+  ],
   "metadata": {
     "created": "2026-02-04T14:18:11Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

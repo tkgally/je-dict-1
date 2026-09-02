@@ -3,7 +3,7 @@
   "headword": "{助成|じょせい}",
   "reading": "じょせい",
   "romaji": "josei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "subsidy; grant; financial assistance; aid",
   "conjugation": {
     "type": "suru",
@@ -135,6 +135,36 @@
     }
   ],
   "notes": "Refers to financial support provided by governments, organizations, or foundations to promote research, arts, social welfare, or other public-interest activities. The word emphasizes the supportive and promotional aspect of the funding.\n\nCOMMON COLLOCATIONS:\n- {助成金|じょせいきん}: subsidy, grant money\n- {助成|じょせい}{制度|せいど}: subsidy system\n- {助成|じょせい}を{受|う}ける: to receive a subsidy\n- {助成|じょせい}{事業|じぎょう}: subsidized project\n- {助成|じょせい}{団体|だんたい}: grant-giving organization\n\nSIMILAR WORDS:\n- {補助|ほじょ}: assistance, supplement — broader meaning; {補助金|ほじょきん} is often interchangeable with {助成金|じょせいきん}\n- {援助|えんじょ}: aid, support — more general, includes non-financial help\n- {支援|しえん}: support — broader and more commonly used in everyday contexts\n- {交付|こうふ}: disbursement, granting — focuses on the act of distributing funds",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14105_hojo",
+      "reading": "ほじょ",
+      "headword": "{補助|ほじょ}",
+      "label": "assistance, supplement"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01892_enjo",
+      "reading": "えんじょ",
+      "headword": "{援助|えんじょ}",
+      "label": "aid, support"
+    },
+    {
+      "type": "contrast",
+      "target_id": "07778_shien",
+      "reading": "しえん",
+      "headword": "{支援|しえん}",
+      "label": "support"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11425_koufu",
+      "reading": "こうふ",
+      "headword": "{交付|こうふ}",
+      "label": "disbursement, granting"
+    }
+  ],
   "metadata": {
     "entry_id": "21479_josei",
     "schema_version": "2.0",
@@ -146,6 +176,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "finance",
         "society"
@@ -154,6 +186,6 @@
       "usage": [],
       "verb_class": "suru"
     },
-    "modified": "2026-04-02T12:43:15Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

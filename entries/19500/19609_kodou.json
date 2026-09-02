@@ -3,7 +3,7 @@
   "headword": "{鼓動|こどう}",
   "reading": "こどう",
   "romaji": "kodou",
-  "part_of_speech": "noun, verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "heartbeat; pulsation; throb",
   "conjugation": {
     "type": "suru",
@@ -136,6 +136,43 @@
   ],
   "notes": "The character {鼓|こ} means \"drum,\" so {鼓動|こどう} literally means \"drumming movement,\" vividly capturing the rhythmic beating of the heart. Frequently used in literary and emotional contexts.\n\nCOMMON COLLOCATIONS:\n- {心臓|しんぞう}の{鼓動|こどう}: heartbeat\n- {鼓動|こどう}が{速|はや}まる: heartbeat quickens\n- {鼓動|こどう}が{激|はげ}しくなる: heartbeat becomes intense\n- {鼓動|こどう}が{聞|き}こえる: one can hear the heartbeat\n- {鼓動|こどう}が{高鳴|たかな}る: heart pounds (with excitement)\n\nSIMILAR WORDS:\n- {脈拍|みゃくはく}: pulse — medical/clinical term for the pulse rate; objective and technical\n- {動悸|どうき}: palpitations — emphasizes abnormal or uncomfortable rapid heartbeat, often associated with anxiety or medical conditions\n- {拍動|はくどう}: pulsation — more technical, used in medical contexts for the rhythmic beating of the heart or arteries",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17839_myakuhaku",
+      "reading": "みゃくはく",
+      "headword": "{脈拍|みゃくはく}",
+      "label": "pulse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06299_douki",
+      "reading": "どうき",
+      "headword": "{動悸|どうき}",
+      "label": "palpitations"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26245_hakudou",
+      "reading": "はくどう",
+      "headword": "{拍動|はくどう}",
+      "label": "pulsation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25482_shinpaku",
+      "reading": "しんぱく",
+      "headword": "{心拍|しんぱく}",
+      "label": "heartbeat"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26244_ritsudou",
+      "reading": "りつどう",
+      "headword": "{律動|りつどう}",
+      "label": "rhythm"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -152,6 +189,6 @@
       "verb_class": "suru"
     },
     "created": "2026-03-26T08:29:17Z",
-    "modified": "2026-03-26T08:29:17Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

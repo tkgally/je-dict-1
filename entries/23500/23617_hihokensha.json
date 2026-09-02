@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "Composed of {被|ひ} (passive prefix, \"the one receiving\") + {保険|ほけん} (\"insurance\") + {者|しゃ} (\"person\"), literally \"the person who is insured.\" A standard legal/insurance term appearing on policy documents, enrollment forms, and social-insurance cards (e.g., {健康保険被保険者証|けんこうほけんひほけんしゃしょう}, the health-insurance card).\n\nUSAGE:\n- In life insurance, the {被保険者|ひほけんしゃ} is the person whose life is covered; their death or illness triggers the payout.\n- In health insurance, the {被保険者|ひほけんしゃ} is the enrolled employee; their dependents are called {被扶養者|ひふようしゃ}.\n- Forms often ask for {被保険者氏名|ひほけんしゃしめい} (name of the insured) separately from the applicant.\n\nCOMMON COLLOCATIONS:\n- {被保険者|ひほけんしゃ}{証|しょう}: insurance card / certificate of the insured\n- {被保険者|ひほけんしゃ}の{氏名|しめい}: name of the insured\n- {被保険者|ひほけんしゃ}{番号|ばんごう}: insured person's ID number\n- {被保険者|ひほけんしゃ}{本人|ほんにん}: the insured party themselves\n\nRELATED TERMS:\n- {保険者|ほけんしゃ}: insurer — the company or body providing the insurance\n- {契約者|けいやくしゃ}: policyholder — the person who signs the contract and pays premiums\n- {受取人|うけとりにん}: beneficiary — the person who receives the payout\n- {被扶養者|ひふようしゃ}: dependent — a family member covered under the insured's policy\n- {保険料|ほけんりょう}: insurance premium\n- {給付金|きゅうふきん}: benefit payment",
+  "notes": "Composed of {被|ひ} (passive prefix, \"the one receiving\") + {保険|ほけん} (\"insurance\") + {者|しゃ} (\"person\"), literally \"the person who is insured.\" A standard legal/insurance term appearing on policy documents, enrollment forms, and social-insurance cards (e.g., {健康保険被保険者証|けんこうほけんひほけんしゃしょう}, the health-insurance card).\n\nUSAGE:\n- In life insurance, the {被保険者|ひほけんしゃ} is the person whose life is covered; their death or illness triggers the payout.\n- In health insurance, the {被保険者|ひほけんしゃ} is the enrolled employee; their dependents are called {被扶養者|ひふようしゃ}.\n- Forms often ask for {被保険者氏名|ひほけんしゃしめい} (name of the insured) separately from the applicant.\n\nCOMMON COLLOCATIONS:\n- {被保険者|ひほけんしゃ}{証|しょう}: insurance card / certificate of the insured\n- {被保険者|ひほけんしゃ}の{氏名|しめい}: name of the insured\n- {被保険者|ひほけんしゃ}{番号|ばんごう}: insured person's ID number\n- {被保険者|ひほけんしゃ}{本人|ほんにん}: the insured party themselves\n\nRELATED WORDS:\n- {保険者|ほけんしゃ}: insurer — the company or body providing the insurance\n- {契約者|けいやくしゃ}: policyholder — the person who signs the contract and pays premiums\n- {受取人|うけとりにん}: beneficiary — the person who receives the payout\n- {被扶養者|ひふようしゃ}: dependent — a family member covered under the insured's policy\n- {保険料|ほけんりょう}: insurance premium\n- {給付金|きゅうふきん}: benefit payment",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "24400_keiyakusha",
+      "reading": "けいやくしゃ",
+      "headword": "{契約者|けいやくしゃ}",
+      "label": "policyholder"
+    },
+    {
+      "type": "related",
+      "target_id": "19162_uketorinin",
+      "reading": "うけとりにん",
+      "headword": "{受取人|うけとりにん}",
+      "label": "beneficiary"
+    },
+    {
+      "type": "related",
+      "target_id": "11058_hokenryou",
+      "reading": "ほけんりょう",
+      "headword": "{保険料|ほけんりょう}",
+      "label": "insurance premium"
+    },
+    {
+      "type": "related",
+      "target_id": "20806_kyuufukin",
+      "reading": "きゅうふきん",
+      "headword": "{給付金|きゅうふきん}",
+      "label": "benefit payment"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -60,6 +90,6 @@
       ]
     },
     "created": "2026-04-12T21:19:52Z",
-    "modified": "2026-08-02T06:24:09Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

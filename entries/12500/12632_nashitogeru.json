@@ -3,7 +3,7 @@
   "id": "12632_nashitogeru",
   "headword": "{成|な}し{遂|と}げる",
   "reading": "なしとげる",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to accomplish, to achieve, to carry through",
   "conjugation": {
     "type": "ichidan",
@@ -135,10 +135,32 @@
     }
   ],
   "notes": "{成|な}し{遂|と}げる is a compound verb combining {成|な}す (to accomplish, to form) and {遂|と}げる (to carry through to the end).\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pattern: ～を{成|な}し{遂|と}げる\n\nCOMMON COLLOCATIONS:\n- {偉業|いぎょう}を{成|な}し{遂|と}げる: to accomplish a great feat\n- {目標|もくひょう}を{成|な}し{遂|と}げる: to achieve a goal\n- {使命|しめい}を{成|な}し{遂|と}げる: to fulfill a mission\n- {改革|かいかく}を{成|な}し{遂|と}げる: to carry out a reform\n\nSIMILAR WORDS:\n- {成|な}し{遂|と}げる: to accomplish (emphasizes completion of something significant)\n- {達成|たっせい}する: to achieve, to attain (more neutral, common in business)\n- {果|は}たす: to fulfill, to carry out (duty or promise)\n- やり{遂|と}げる: to see through to the end (more colloquial)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22183_tasseisuru",
+      "reading": "たっせいする",
+      "headword": "{達成|たっせい}する",
+      "label": "to achieve, to attain"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10060_hatasu",
+      "reading": "はたす",
+      "headword": "{果|は}たす",
+      "label": "to fulfill, to carry out"
+    },
+    {
+      "type": "contrast",
+      "target_id": "16745_yaritogeru",
+      "reading": "やりとげる",
+      "headword": "やり{遂|と}げる",
+      "label": "to see through to the end"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T04:37:09Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

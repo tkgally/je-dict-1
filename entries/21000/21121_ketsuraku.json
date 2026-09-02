@@ -3,7 +3,7 @@
   "headword": "{欠落|けつらく}",
   "reading": "けつらく",
   "romaji": "ketsuraku",
-  "part_of_speech": "noun; noun (する)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "omission; gap; missing part; lack",
   "definitions": [
     {
@@ -46,6 +46,29 @@
   ],
   "notes": "Describes something that is absent or missing from a whole — a gap, omission, or deficiency. Can refer to physical things (missing pages, data gaps) or abstract qualities (lacking common sense, missing moral awareness).\n\nCOMMON COLLOCATIONS:\n- {欠落|けつらく}している: to be missing, to be lacking\n- {欠落|けつらく}した{部分|ぶぶん}: the missing part\n- {情報|じょうほう}の{欠落|けつらく}: missing information\n- {記憶|きおく}の{欠落|けつらく}: memory gap\n\nUSAGE:\nOften used in formal or analytical contexts — reports, medical descriptions, technical writing. The する form ({欠落|けつらく}する) is intransitive: the thing itself falls away or is missing.\n\nSIMILAR WORDS:\n- {欠如|けつじょ}: absence, lack — emphasizes the total absence of something expected\n- {不足|ふそく}: insufficiency, shortage — implies there is some but not enough\n- {脱落|だつらく}: dropping out, falling off — implies something fell away from a group or sequence",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13208_ketsujo",
+      "reading": "けつじょ",
+      "headword": "{欠如|けつじょ}",
+      "label": "absence, lack"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03598_fusoku",
+      "reading": "ふそく",
+      "headword": "{不足|ふそく}",
+      "label": "insufficiency, shortage"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23109_datsuraku",
+      "reading": "だつらく",
+      "headword": "{脱落|だつらく}",
+      "label": "dropping out, falling off"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -62,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-03-31T20:19:48Z",
-    "modified": "2026-03-31T20:19:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

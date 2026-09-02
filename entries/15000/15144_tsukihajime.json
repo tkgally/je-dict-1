@@ -19,7 +19,9 @@
       "english": "There's a meeting at the beginning of the month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15144_tsukihajime_ex2",
@@ -27,7 +29,9 @@
       "english": "I pay rent at the beginning of each month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15144_tsukihajime_ex3",
@@ -35,21 +39,49 @@
       "english": "A new project starts at the beginning of the month, so please prepare.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{月|つき}{初|はじ}め refers to the first few days of a calendar month, typically the first through fifth.\n\nUSAGE:\nOften used with particles に or から when specifying timing: {月|つき}{初|はじ}めに (at the beginning of the month), {月|つき}{初|はじ}めから (from the beginning of the month).\n\nCOMMON COLLOCATIONS:\n- {月|つき}{初|はじ}めに{届|とど}く: to arrive at the beginning of the month\n- {月|つき}{初|はじ}めに{払|はら}う: to pay at the beginning of the month\n- {来月|らいげつ}の{月|つき}{初|はじ}め: the beginning of next month\n\nRELATED TIME EXPRESSIONS:\n- {月|つき}{末|すえ}: end of the month\n- {月|つき}{半|なか}ば: middle of the month\n- {月頭|げっとう}: beginning of the month (more formal, business-oriented)\n- {上旬|じょうじゅん}: first third of the month (days 1-10)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27355_tsukinakaba",
+      "reading": "つきなかば",
+      "headword": "{月|つき}{半|なか}ば",
+      "label": "middle of the month"
+    },
+    {
+      "type": "related",
+      "target_id": "15161_gettou",
+      "reading": "げっとう",
+      "headword": "{月頭|げっとう}",
+      "label": "beginning of the month"
+    },
+    {
+      "type": "related",
+      "target_id": "17767_joujun",
+      "reading": "じょうじゅん",
+      "headword": "{上旬|じょうじゅん}",
+      "label": "first third of the month"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T08:36:13Z",
-    "modified": "2026-03-31T09:28:45Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-month"]
+      "semantic": [
+        "time-month"
+      ]
     }
   }
 }

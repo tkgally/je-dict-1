@@ -17,7 +17,9 @@
       "id": "27940_suteeshon_ex1",
       "japanese": "{宇宙|うちゅう}ステーションが{見|み}える。",
       "english": "You can see the space station.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "27940_suteeshon_ex2",
       "japanese": "{道|みち}の{駅|えき}は{旅|たび}の{休憩|きゅうけい}ステーションだ。",
       "english": "A roadside rest area is a rest station for travelers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,46 @@
       "id": "27940_suteeshon_ex3",
       "japanese": "テレビ{局|きょく}は{情報|じょうほう}を{送|おく}り{出|だ}すステーションのような{役割|やくわり}を{果|は}たしている。",
       "english": "A TV station plays the role of a hub that sends out information.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "From English \"station.\" Note that the ordinary word for a train station is {駅|えき}; ステーション is mostly used in compound names and for non-railway \"stations.\"\n\nCOMMON COLLOCATIONS:\n- {宇宙|うちゅう}ステーション: space station\n- ガソリンスタンド: gas station (note: スタンド, not ステーション)\n- サービスステーション: service station\n\nSIMILAR WORDS:\n- {駅|えき}: train station — the standard word for a railway stop\n- {基地|きち}: base — a fixed operating base, e.g. military",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02180_eki",
+      "reading": "えき",
+      "headword": "{駅|えき}",
+      "label": "train station"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03982_kichi",
+      "reading": "きち",
+      "headword": "{基地|きち}",
+      "label": "base"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["general", "building"],
+      "politeness": "plain",
+      "semantic": [
+        "general",
+        "building"
+      ],
       "domain": []
     },
     "created": "2026-05-23T03:06:48Z",
-    "modified": "2026-05-23T03:06:48Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

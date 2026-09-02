@@ -16,7 +16,9 @@
       "id": "20536_gaikaryougae_ex1",
       "japanese": "{空港|くうこう}で{外貨両替|がいかりょうがえ}をした。",
       "english": "I exchanged currency at the airport.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "20536_gaikaryougae_ex2",
       "japanese": "{外貨両替|がいかりょうがえ}の{手数料|てすうりょう}は{銀行|ぎんこう}によって{違|ちが}う。",
       "english": "Currency exchange fees differ depending on the bank.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,22 +36,45 @@
       "id": "20536_gaikaryougae_ex3",
       "japanese": "{旅行前|りょこうまえ}に{外貨両替|がいかりょうがえ}をしておいたほうがいい。",
       "english": "It's better to exchange currency before your trip.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {外貨|がいか} (foreign currency) and {両替|りょうがえ} (exchange, conversion). You will often see this on signs at airports and banks.\n\nCOMMON COLLOCATIONS:\n- {外貨両替|がいかりょうがえ}の{窓口|まどぐち}: currency exchange counter\n- {外貨両替|がいかりょうがえ}{手数料|てすうりょう}: exchange fee/commission\n- {外貨両替|がいかりょうがえ}レート: exchange rate\n- {外貨両替|がいかりょうがえ}をする: to exchange currency\n\nRELATED TERMS:\n- {両替|りょうがえ}: currency exchange / changing bills and coins (also used for breaking bills)\n- {為替|かわせ}: foreign exchange (finance term)\n- {為替|かわせ}レート: exchange rate",
+  "notes": "Composed of {外貨|がいか} (foreign currency) and {両替|りょうがえ} (exchange, conversion). You will often see this on signs at airports and banks.\n\nCOMMON COLLOCATIONS:\n- {外貨両替|がいかりょうがえ}の{窓口|まどぐち}: currency exchange counter\n- {外貨両替|がいかりょうがえ}{手数料|てすうりょう}: exchange fee/commission\n- {外貨両替|がいかりょうがえ}レート: exchange rate\n- {外貨両替|がいかりょうがえ}をする: to exchange currency\n\nRELATED WORDS:\n- {両替|りょうがえ}: currency exchange / changing bills and coins (also used for breaking bills)\n- {為替|かわせ}: foreign exchange (finance term)\n- {為替|かわせ}レート: exchange rate",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04021_kawase",
+      "reading": "かわせ",
+      "headword": "{為替|かわせ}",
+      "label": "foreign exchange"
+    },
+    {
+      "type": "related",
+      "target_id": "23524_kawasereeto",
+      "reading": "かわせれーと",
+      "headword": "{為替|かわせ}レート",
+      "label": "exchange rate"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["finance", "travel"]
+      "semantic": [
+        "finance",
+        "travel"
+      ]
     },
     "created": "2026-03-29T17:07:23Z",
-    "modified": "2026-03-29T17:07:23Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

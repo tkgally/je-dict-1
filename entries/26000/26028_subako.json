@@ -22,7 +22,9 @@
       "id": "26028_subako_ex1",
       "japanese": "{庭|にわ}に{巣箱|すばこ}を{取|と}り{付|つ}けた。",
       "english": "I put up a birdhouse in the garden.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "26028_subako_ex2",
       "japanese": "{巣箱|すばこ}にシジュウカラが{入|はい}った。",
       "english": "A Japanese tit moved into the nest box.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "26028_subako_ex3",
       "japanese": "{子|こ}どもたちと{一緒|いっしょ}に{巣箱|すばこ}を{作|つく}った。",
       "english": "I made a birdhouse together with the children.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "26028_subako_ex4",
       "japanese": "{巣箱|すばこ}からハチミツを{採取|さいしゅ}する。",
       "english": "To harvest honey from the beehive box.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "26028_subako_ex5",
       "japanese": "{養蜂家|ようほうか}は{巣箱|すばこ}の{管理|かんり}に{気|き}を{使|つか}う。",
       "english": "Beekeepers take great care in managing their hive boxes.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,21 +72,59 @@
       "id": "26028_subako_ex6",
       "japanese": "{新|あたら}しい{巣箱|すばこ}に{蜂|はち}の{群|む}れを{移|うつ}した。",
       "english": "I transferred the bee colony to a new hive box.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {巣|す} (nest) + {箱|はこ} (box). The birdhouse sense is more common in everyday conversation, while the beekeeping sense is used in specialized agricultural contexts.\n\nCOMMON COLLOCATIONS:\n- {巣箱|すばこ}を{作|つく}る: to make a nest box\n- {巣箱|すばこ}を{掛|か}ける: to hang a birdhouse\n- {巣箱|すばこ}を{設置|せっち}する: to install a nest box\n- {巣箱|すばこ}の{手入|てい}れ: nest box maintenance\n\nSIMILAR WORDS:\n- {鳥|とり}の{巣|す}: bird's nest — a natural nest built by birds themselves\n- {巣|す}: nest — the general word for any animal nest\n- {養蜂箱|ようほうばこ}: beehive box — a more specific term for beekeeping boxes",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "24347_torinosu",
+      "reading": "とりのす",
+      "headword": "{鳥|とり}の{巣|す}",
+      "label": "bird's nest"
+    },
+    {
+      "type": "related",
+      "target_id": "06514_mitsubachi",
+      "reading": "みつばち",
+      "headword": "{蜜蜂|みつばち}",
+      "label": "honeybee"
+    },
+    {
+      "type": "related",
+      "target_id": "21775_torigoya",
+      "reading": "とりごや",
+      "headword": "{鳥小屋|とりごや}",
+      "label": "birdhouse"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24336_hachinosu",
+      "reading": "はちのす",
+      "headword": "{蜂|はち}の{巣|す}",
+      "label": "beehive"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["nature", "daily-life"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "nature",
+        "daily-life"
+      ]
     },
     "created": "2026-04-28T16:16:39Z",
-    "modified": "2026-04-28T16:16:39Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

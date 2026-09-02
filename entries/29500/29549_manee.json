@@ -9,7 +9,7 @@
     {
       "sense_number": 1,
       "gloss": "money (financial/economic term)",
-      "explanation": "Money, especially in financial, economic, or compound contexts; a loanword that sounds more modern or technical than {お金|おかね}."
+      "explanation": "Money, especially in financial, economic, or compound contexts; a loanword that sounds more modern or technical than お{金|かね}."
     }
   ],
   "examples": [
@@ -17,7 +17,9 @@
       "id": "29549_manee_ex1",
       "japanese": "{電子|でんし}マネーで{払|はら}う。",
       "english": "Pay with electronic money.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29549_manee_ex2",
       "japanese": "マネーの{流|なが}れが{経済|けいざい}を{動|うご}かす。",
       "english": "The flow of money drives the economy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,45 @@
       "id": "29549_manee_ex3",
       "japanese": "{最近|さいきん}はスマホの{電子|でんし}マネーで{買|か}い{物|もの}をする{人|ひと}が{増|ふ}えた。",
       "english": "Lately more people shop using electronic money on their smartphones.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "A loanword from English for money. Everyday cash is usually {お金|おかね}; マネー appears mainly in compounds and in finance or economics contexts.\n\nCOMMON COLLOCATIONS:\n- {電子|でんし}マネー: electronic money\n- マネーロンダリング: money laundering\n- マネー{市場|しじょう}: the money market\n\nSIMILAR WORDS:\n- {お金|おかね}: money — the ordinary everyday word\n- {現金|げんきん}: cash — physical notes and coins",
+  "notes": "A loanword from English for money. Everyday cash is usually お{金|かね}; マネー appears mainly in compounds and in finance or economics contexts.\n\nCOMMON COLLOCATIONS:\n- {電子|でんし}マネー: electronic money\n- マネーロンダリング: money laundering\n- マネー{市場|しじょう}: the money market\n\nSIMILAR WORDS:\n- お{金|かね}: money — the ordinary everyday word\n- {現金|げんきん}: cash — physical notes and coins",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00611_okane",
+      "reading": "おかね",
+      "headword": "お{金|かね}",
+      "label": "money"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02716_genkin",
+      "reading": "げんきん",
+      "headword": "{現金|げんきん}",
+      "label": "cash"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["money"],
+      "politeness": "plain",
+      "semantic": [
+        "money"
+      ],
       "domain": []
     },
     "created": "2026-06-28T09:18:52Z",
-    "modified": "2026-06-28T09:18:52Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

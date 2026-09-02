@@ -17,7 +17,9 @@
       "id": "29510_hei_ex1",
       "japanese": "{兵|へい}を{送|おく}る。",
       "english": "To send troops.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "29510_hei_ex2",
       "japanese": "{城|しろ}を{守|まも}る{兵|へい}が{少|すく}ない。",
       "english": "There are few soldiers guarding the castle.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,38 @@
       "id": "29510_hei_ex3",
       "japanese": "{将軍|しょうぐん}は{一万|いちまん}の{兵|へい}を{率|ひき}いて{進|すす}んだ。",
       "english": "The general advanced leading ten thousand soldiers.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A general word for a soldier or troops, common in historical and military contexts. As a single character it often feels formal or literary; everyday speech tends to use the compounds below.\n\nCOMMON COLLOCATIONS:\n- {兵|へい}を{送|おく}る: to send troops\n- {兵|へい}を{率|ひき}いる: to lead soldiers\n- {兵|へい}を{挙|あ}げる: to raise an army\n\nSIMILAR WORDS:\n- {兵士|へいし}: soldier — the ordinary word for an individual serviceman\n- {兵隊|へいたい}: soldier; the troops — more colloquial, can mean a soldier or soldiers collectively\n- {軍|ぐん}: army; military — the organization as a whole",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02677_gun",
+      "reading": "ぐん",
+      "headword": "{軍|ぐん}",
+      "label": "army"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "politeness": null,
-      "semantic": ["military"],
+      "politeness": "plain",
+      "semantic": [
+        "military"
+      ],
       "domain": []
     },
     "created": "2026-06-27T00:21:08Z",
-    "modified": "2026-06-27T00:21:08Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

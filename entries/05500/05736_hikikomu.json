@@ -208,11 +208,41 @@
       ]
     }
   ],
-  "notes": "{引|ひ}き{込|こ}む is a compound verb meaning to pull/draw into. Transitive godan verb.\n\nCOMPOUND STRUCTURE:\n⟦{引|ひ}く→引く：01978_hiku⟧ (to pull) + ⟦{込|こ}む→込む：00719_komu⟧ (into). The 〜{込|こ}む suffix adds the nuance of entering or going deeply into.\n\nCOMMON PATTERNS:\n- ⟦{客|きゃく}→客：00865_kyaku⟧⟦を→を：00422_wo⟧⟦{店|みせ}→店：00497_mise⟧⟦に→に：00314_ni⟧{引|ひ}き{込|こ}む: to draw customers into a store\n- ⟦{話|はなし}→話：01496_hanashi⟧⟦に→に：00314_ni⟧{引|ひ}き{込|こ}まれる: to be drawn into a story\n- ⟦トラブル→トラブル：07061_toraburu⟧⟦に→に：00314_ni⟧{引|ひ}き{込|こ}む: to drag into trouble\n\nTRANSITIVITY:\n- {引|ひ}き{込|こ}む (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧): to pull in\n- ⟦{引|ひ}きこもる→引きこもる：19546_hikikomoru⟧ (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧): to shut oneself in, withdraw\n\nRELATED:\n⟦{引|ひ}きこもり→引きこもり：10491_hikikomori⟧ refers to social withdrawal or a person who stays isolated at home.",
-  "cross_references": [],
+  "notes": "{引|ひ}き{込|こ}む is a compound verb meaning to pull/draw into. Transitive godan verb.\n\nETYMOLOGY:\n⟦{引|ひ}く→引く：01978_hiku⟧ (to pull) + ⟦{込|こ}む→込む：00719_komu⟧ (into). The 〜{込|こ}む suffix adds the nuance of entering or going deeply into.\n\nCOMMON PATTERNS:\n- ⟦{客|きゃく}→客：00865_kyaku⟧⟦を→を：00422_wo⟧⟦{店|みせ}→店：00497_mise⟧⟦に→に：00314_ni⟧{引|ひ}き{込|こ}む: to draw customers into a store\n- ⟦{話|はなし}→話：01496_hanashi⟧⟦に→に：00314_ni⟧{引|ひ}き{込|こ}まれる: to be drawn into a story\n- ⟦トラブル→トラブル：07061_toraburu⟧⟦に→に：00314_ni⟧{引|ひ}き{込|こ}む: to drag into trouble\n\nTRANSITIVITY:\n- {引|ひ}き{込|こ}む (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧): to pull in\n- ⟦{引|ひ}きこもる→引きこもる：19546_hikikomoru⟧ (⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧): to shut oneself in, withdraw\n\nRELATED WORDS:\n⟦{引|ひ}きこもり→引きこもり：10491_hikikomori⟧ refers to social withdrawal or a person who stays isolated at home.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21381_tsurekomu",
+      "reading": "つれこむ",
+      "headword": "{連|つ}れ{込|こ}む",
+      "label": "to bring someone along (into)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22855_hikizurikomu",
+      "reading": "ひきずりこむ",
+      "headword": "{引|ひ}きずり{込|こ}む",
+      "label": "to drag in"
+    },
+    {
+      "type": "related",
+      "target_id": "24702_hikikomi",
+      "reading": "ひきこみ",
+      "headword": "{引|ひ}き{込|こ}み",
+      "label": "drawing in"
+    }
+  ],
+  "prominent_see_also": [
+    {
+      "target_id": "19546_hikikomoru",
+      "reading": "ひきこもる",
+      "headword": "{引|ひ}きこもる",
+      "note": "intransitive"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T08:43:51Z",
-    "modified": "2026-06-08T13:06:41Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

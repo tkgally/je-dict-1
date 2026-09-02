@@ -2,7 +2,7 @@
   "id": "01450_sensou",
   "headword": "{戦争|せんそう}",
   "reading": "せんそう",
-  "part_of_speech": "noun (verbal)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "war",
   "conjugation": {
     "type": "suru",
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{戦争|せんそう} means war or armed conflict between nations.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {戦争|せんそう}⟦する→する：00392_suru⟧\n\nKANJI:\n⟦{戦|せん}→戦：noentry⟧ (battle) + ⟦{争|そう}→争：noentry⟧ (conflict) - battling in conflict.\n\nCOMMON EXPRESSIONS:\n- {戦争|せんそう}⟦が→が：00051_ga⟧⟦{起|お}きる→起きる：00521_okiru⟧: war breaks out\n- {戦争|せんそう}⟦が→が：00051_ga⟧⟦{終|お}わる→終わる：00567_owaru⟧: war ends\n- {戦争|せんそう}⟦する→する：00392_suru⟧: to wage war\n- {戦争|せんそう}⟦{反対|はんたい}→反対：01497_hantai⟧: anti-war\n\nRELATED TERMS:\n- ⟦{戦後|せんご}→戦後：12853_sengo⟧: postwar (often refers to post-WWII Japan)\n- ⟦{戦前|せんぜん}→戦前：12852_senzen⟧: prewar\n- ⟦{第二次|だいにじ}→第二次：noentry⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦{大戦|たいせん}→大戦：03771_taisen⟧: World War II\n- ⟦{平和|へいわ}→平和：01507_heiwa⟧: peace\n\nUSAGE:\nIn Japanese historical context, ⟦{戦後|せんご}→戦後：12853_sengo⟧ (postwar) without specification typically refers to the period after World War II.",
+  "notes": "{戦争|せんそう} means war or armed conflict between nations.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {戦争|せんそう}⟦する→する：00392_suru⟧\n\nWRITING:\n⟦{戦|せん}→戦：noentry⟧ (battle) + ⟦{争|そう}→争：noentry⟧ (conflict) - battling in conflict.\n\nCOMMON EXPRESSIONS:\n- {戦争|せんそう}⟦が→が：00051_ga⟧⟦{起|お}きる→起きる：00521_okiru⟧: war breaks out\n- {戦争|せんそう}⟦が→が：00051_ga⟧⟦{終|お}わる→終わる：00567_owaru⟧: war ends\n- {戦争|せんそう}⟦する→する：00392_suru⟧: to wage war\n- {戦争|せんそう}⟦{反対|はんたい}→反対：01497_hantai⟧: anti-war\n\nRELATED WORDS:\n- ⟦{戦後|せんご}→戦後：12853_sengo⟧: postwar (often refers to post-WWII Japan)\n- ⟦{戦前|せんぜん}→戦前：12852_senzen⟧: prewar\n- ⟦{第二次|だいにじ}→第二次：noentry⟧⟦{世界|せかい}→世界：01447_sekai⟧⟦{大戦|たいせん}→大戦：03771_taisen⟧: World War II\n- ⟦{平和|へいわ}→平和：01507_heiwa⟧: peace\n\nUSAGE:\nIn Japanese historical context, ⟦{戦後|せんご}→戦後：12853_sengo⟧ (postwar) without specification typically refers to the period after World War II.",
   "cross_references": [
     {
       "type": "antonym",
@@ -141,11 +141,53 @@
       "reading": "へいわ",
       "headword": "{平和|へいわ}",
       "label": "peace"
+    },
+    {
+      "type": "related",
+      "target_id": "12853_sengo",
+      "reading": "せんご",
+      "headword": "{戦後|せんご}",
+      "label": "postwar"
+    },
+    {
+      "type": "related",
+      "target_id": "12852_senzen",
+      "reading": "せんぜん",
+      "headword": "{戦前|せんぜん}",
+      "label": "prewar"
+    },
+    {
+      "type": "related",
+      "target_id": "02070_tatakai",
+      "reading": "たたかい",
+      "headword": "{戦|たたか}い",
+      "label": "battle, fight, struggle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12639_sentou",
+      "reading": "せんとう",
+      "headword": "{戦闘|せんとう}",
+      "label": "combat, battle, fighting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19875_naisen",
+      "reading": "ないせん",
+      "headword": "{内戦|ないせん}",
+      "label": "civil war"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23224_gunjikoudou",
+      "reading": "ぐんじこうどう",
+      "headword": "{軍事行動|ぐんじこうどう}",
+      "label": "military action"
     }
   ],
   "metadata": {
     "created": "2026-01-08T12:56:42Z",
-    "modified": "2026-05-15T17:10:22Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{未熟|みじゅく}な",
   "reading": "みじゅくな",
   "romaji": "mijukuna",
-  "part_of_speech": "adjective-na",
+  "part_of_speech": "na-adjective",
   "gloss": "immature; inexperienced; unskilled",
   "definitions": [
     {
@@ -22,7 +22,9 @@
       "id": "22780_mijukuna_ex1",
       "japanese": "{未熟|みじゅく}な{果実|かじつ}。",
       "english": "Unripe fruit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "22780_mijukuna_ex2",
       "japanese": "まだ{未熟|みじゅく}なトマトは{食|た}べない{方|ほう}がいい。",
       "english": "It's better not to eat tomatoes that aren't ripe yet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "22780_mijukuna_ex3",
       "japanese": "この{品種|ひんしゅ}は{未熟|みじゅく}な{状態|じょうたい}で{収穫|しゅうかく}されることが{多|おお}い。",
       "english": "This variety is often harvested while still unripe.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "22780_mijukuna_ex4",
       "japanese": "まだまだ{未熟|みじゅく}です。",
       "english": "I'm still very inexperienced.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "22780_mijukuna_ex5",
       "japanese": "{未熟|みじゅく}な{医者|いしゃ}に{手術|しゅじゅつ}されたくない。",
       "english": "I don't want to be operated on by an unskilled doctor.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,13 +72,38 @@
       "id": "22780_mijukuna_ex6",
       "japanese": "{技術|ぎじゅつ}が{未熟|みじゅく}なうちは{失敗|しっぱい}も{多|おお}いが、{経験|けいけん}を{積|つ}めば{上達|じょうたつ}する。",
       "english": "While your skills are still undeveloped there will be many mistakes, but with experience you'll improve.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {未|み} (not yet) + {熟|じゅく} (ripe/mature). The word connects the literal sense of unripeness with the figurative sense of human immaturity. Sense 2 is far more common in everyday usage.\n\nCOMMON COLLOCATIONS:\n- {未熟|みじゅく}な{技術|ぎじゅつ}: undeveloped skill\n- {未熟|みじゅく}な{判断|はんだん}: immature judgment\n- {未熟|みじゅく}な{者|もの}: inexperienced person\n- まだまだ{未熟|みじゅく}: still very inexperienced (humble self-description)\n\nUSAGE:\nWhen used about oneself, it functions as a humble expression acknowledging one's lack of skill. まだまだ{未熟|みじゅく}です is a common phrase used when receiving praise.\n\nSIMILAR WORDS:\n- {未経験|みけいけん}: inexperienced — focuses on lack of experience rather than lack of skill development\n- {若|わか}い: young — can imply inexperience but without the negative skill connotation\n- {半人前|はんにんまえ}: half-baked, not yet fully trained — implies being halfway to competence\n- {熟練|じゅくれん}: skilled, experienced — the opposite of {未熟|みじゅく}",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17726_mikeiken",
+      "reading": "みけいけん",
+      "headword": "{未経験|みけいけん}",
+      "label": "inexperienced"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22681_hanninmae",
+      "reading": "はんにんまえ",
+      "headword": "{半人前|はんにんまえ}",
+      "label": "half-baked, not yet fully trained"
+    },
+    {
+      "type": "antonym",
+      "target_id": "09081_jukuren",
+      "reading": "じゅくれん",
+      "headword": "{熟練|じゅくれん}",
+      "label": "skilled, experienced"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -83,6 +118,6 @@
       "politeness": "plain"
     },
     "created": "2026-04-07T16:35:42Z",
-    "modified": "2026-04-07T16:35:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

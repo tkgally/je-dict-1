@@ -19,7 +19,9 @@
       "english": "A park was built on the former factory site.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14281_atochi_ex2",
@@ -27,7 +29,9 @@
       "english": "There is debate over how to use the former school site.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14281_atochi_ex3",
@@ -35,21 +39,56 @@
       "english": "The castle ruins are now visited by many people as a tourist spot.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Compound of {跡|あと} (trace, remains) + {地|ち} (land, ground). Commonly used in news and planning discussions about redevelopment.\n\nCOMMON COLLOCATIONS:\n- {工場|こうじょう}{跡地|あとち} (former factory site)\n- {基地|きち}{跡地|あとち} (former military base site)\n- {跡地|あとち}{利用|りよう} (reuse of a former site)\n- {跡地|あとち}に{建|た}てる (to build on a former site)\n\nSIMILAR WORDS:\n- {遺跡|いせき}: ruins, archaeological site (older, historical significance)\n- {廃墟|はいきょ}: ruins (emphasizes decay and abandonment)\n- {更地|さらち}: vacant lot, cleared land (land with nothing on it)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09527_iseki",
+      "reading": "いせき",
+      "headword": "{遺跡|いせき}",
+      "label": "ruins, archaeological site"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12453_haikyo",
+      "reading": "はいきょ",
+      "headword": "{廃墟|はいきょ}",
+      "label": "ruins"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17562_sarachi",
+      "reading": "さらち",
+      "headword": "{更地|さらち}",
+      "label": "vacant lot, cleared land"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27607_yakeato",
+      "reading": "やけあと",
+      "headword": "{焼|や}け{跡|あと}",
+      "label": "burned ruins"
+    }
+  ],
   "metadata": {
     "created": "2026-02-28T09:24:20Z",
-    "modified": "2026-02-28T09:24:20Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

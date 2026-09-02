@@ -3,7 +3,7 @@
   "headword": "{検眼|けんがん}",
   "reading": "けんがん",
   "romaji": "kengan",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "eye examination; sight test; optometry",
   "definitions": [
     {
@@ -46,6 +46,15 @@
   ],
   "notes": "Composed of {検|けん} (examine) + {眼|がん} (eye).\n\nCOMMON COLLOCATIONS:\n- {検眼|けんがん}を{受|う}ける: to have an eye examination\n- {検眼|けんがん}{士|し}: optometrist (technician)\n\nSIMILAR WORDS:\n- {視力検査|しりょくけんさ}: vision test — measures acuity specifically, one part of {検眼|けんがん}\n- {眼科|がんか}: ophthalmology — the medical department that treats the eyes",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11071_ganka",
+      "reading": "がんか",
+      "headword": "{眼科|がんか}",
+      "label": "ophthalmology"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +63,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "health",
         "action"
@@ -65,7 +74,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-02T12:18:49Z",
-    "modified": "2026-07-02T12:18:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -16,7 +16,9 @@
       "id": "19001_minou_ex1",
       "japanese": "{税金|ぜいきん}が{未納|みのう}になっている。",
       "english": "Taxes are unpaid.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "19001_minou_ex2",
       "japanese": "{保険料|ほけんりょう}の{未納|みのう}が{続|つづ}くと、{保障|ほしょう}が{受|う}けられなくなる。",
       "english": "If non-payment of insurance premiums continues, you won't be able to receive coverage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,23 +36,41 @@
       "id": "19001_minou_ex3",
       "japanese": "{家賃|やちん}の{未納|みのう}が3か{月|げつ}{以上|いじょう}{続|つづ}いた{場合|ばあい}、{契約|けいやく}{解除|かいじょ}となることがあります。",
       "english": "If rent remains unpaid for more than three months, the lease may be terminated.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Part of the {未|み}～ (not yet) prefix pattern: {未納|みのう} (not yet paid), {未払|みはら}い (unpaid), {未着|みちゃく} (not yet arrived). Common collocations: {税金|ぜいきん}の{未納|みのう} (unpaid taxes), {未納分|みのうぶん} (unpaid portion), {未納者|みのうしゃ} (non-payer). Distinguished from {滞納|たいのう} (delinquent payment) — {未納|みのう} is neutral and simply means 'not yet paid,' while {滞納|たいのう} implies willful non-payment or default.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18029_mibarai",
+      "reading": "みばらい",
+      "headword": "{未払|みばら}い",
+      "label": "unpaid"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business", "legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business",
+        "legal"
+      ]
     },
     "created": "2026-03-23T12:15:34Z",
-    "modified": "2026-03-23T12:15:34Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

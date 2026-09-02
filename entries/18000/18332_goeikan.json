@@ -16,7 +16,9 @@
       "id": "18332_goeikan_ex1",
       "japanese": "{護衛艦|ごえいかん}が{入港|にゅうこう}した。",
       "english": "An escort ship entered the port.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "18332_goeikan_ex2",
       "japanese": "{新型|しんがた}の{護衛艦|ごえいかん}が{就役|しゅうえき}した。",
       "english": "A new-model destroyer was commissioned.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,22 +36,58 @@
       "id": "18332_goeikan_ex3",
       "japanese": "{海上自衛隊|かいじょうじえいたい}の{護衛艦|ごえいかん}が{国際|こくさい}{共同|きょうどう}{訓練|くんれん}に{参加|さんか}した。",
       "english": "A JMSDF escort ship participated in an international joint exercise.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "{護衛艦|ごえいかん} is the official classification for Japan Maritime Self-Defense Force ({海上自衛隊|かいじょうじえいたい}) surface combatants. Literally \"escort vessel.\"\n\nBACKGROUND:\nIn other navies, these ships would be classified as destroyers or frigates. Japan uses the euphemistic term {護衛艦|ごえいかん} because the postwar constitution limits military capability to self-defense, and overtly military terminology like {駆逐艦|くちくかん} (destroyer) is avoided.\n\nCOMMON COLLOCATIONS:\n- {護衛艦|ごえいかん}{隊|たい}: escort ship squadron\n- {護衛艦|ごえいかん}{隊群|たいぐん}: escort flotilla\n- {新型|しんがた}{護衛艦|ごえいかん}: new-model escort ship\n- {護衛艦|ごえいかん}が{就役|しゅうえき}する: an escort ship is commissioned\n\nRELATED:\n- {潜水艦|せんすいかん}: submarine\n- {空母|くうぼ}: aircraft carrier",
+  "notes": "{護衛艦|ごえいかん} is the official classification for Japan Maritime Self-Defense Force ({海上自衛隊|かいじょうじえいたい}) surface combatants. Literally \"escort vessel.\"\n\nCULTURAL NOTE:\nIn other navies, these ships would be classified as destroyers or frigates. Japan uses the euphemistic term {護衛艦|ごえいかん} because the postwar constitution limits military capability to self-defense, and overtly military terminology like {駆逐艦|くちくかん} (destroyer) is avoided.\n\nCOMMON COLLOCATIONS:\n- {護衛艦|ごえいかん}{隊|たい}: escort ship squadron\n- {護衛艦|ごえいかん}{隊群|たいぐん}: escort flotilla\n- {新型|しんがた}{護衛艦|ごえいかん}: new-model escort ship\n- {護衛艦|ごえいかん}が{就役|しゅうえき}する: an escort ship is commissioned\n\nRELATED WORDS:\n- {潜水艦|せんすいかん}: submarine\n- {空母|くうぼ}: aircraft carrier",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15701_sensuikan",
+      "reading": "せんすいかん",
+      "headword": "{潜水艦|せんすいかん}",
+      "label": "submarine"
+    },
+    {
+      "type": "related",
+      "target_id": "15702_kuubo",
+      "reading": "くうぼ",
+      "headword": "{空母|くうぼ}",
+      "label": "aircraft carrier"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23389_kuchikukan",
+      "reading": "くちくかん",
+      "headword": "{駆逐艦|くちくかん}",
+      "label": "destroyer (warship)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "23965_koukuubokan",
+      "reading": "こうくうぼかん",
+      "headword": "{航空母艦|こうくうぼかん}",
+      "label": "aircraft carrier"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     },
     "created": "2026-03-21T09:52:47Z",
-    "modified": "2026-04-02T07:40:51Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

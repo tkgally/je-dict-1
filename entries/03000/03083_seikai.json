@@ -2,7 +2,7 @@
   "id": "03083_seikai",
   "headword": "{正解|せいかい}",
   "reading": "せいかい",
-  "part_of_speech": "noun / suru-verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "correct answer, right answer",
   "conjugation": {
     "type": "suru",
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "{正解|せいかい} combines ⟦{正|せい}→正：noentry⟧ (correct) + ⟦{解|かい}→解：noentry⟧ (answer/solution).\n\nCOMMON PATTERNS:\n- {正解|せいかい}⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧/⟦{出|だ}す→出す：01087_dasu⟧ (to give the correct answer)\n- {正解|せいかい}⟦する→する：00392_suru⟧ (to answer correctly)\n- {正解|せいかい}⟦{率|りつ}→率：03802_ritsu⟧ (accuracy rate)\n- ⟦{全問|ぜんもん}→全問：27469_zenmon⟧{正解|せいかい} (all answers correct)\n\nRELATED WORDS:\n- ⟦{不正解|ふせいかい}→不正解：18929_fuseikai⟧ (incorrect answer) - antonym\n- ⟦{誤答|ごとう}→誤答：17434_gotou⟧ (wrong answer)\n- ⟦{解答|かいとう}→解答：00447_kaitou⟧ (answer, solution)\n- ⟦{答|こた}え→答え：00790_kotae⟧ (answer - general)\n\nUSAGE NOTES:\n- Common in quiz shows, tests, and educational contexts\n- Can also be used metaphorically for decisions and judgments",
+  "notes": "{正解|せいかい} combines ⟦{正|せい}→正：noentry⟧ (correct) + ⟦{解|かい}→解：noentry⟧ (answer/solution).\n\nCOMMON PATTERNS:\n- {正解|せいかい}⟦を→を：00422_wo⟧⟦{言|い}う→言う：00515_iu⟧/⟦{出|だ}す→出す：01087_dasu⟧ (to give the correct answer)\n- {正解|せいかい}⟦する→する：00392_suru⟧ (to answer correctly)\n- {正解|せいかい}⟦{率|りつ}→率：03802_ritsu⟧ (accuracy rate)\n- ⟦{全問|ぜんもん}→全問：27469_zenmon⟧{正解|せいかい} (all answers correct)\n\nRELATED WORDS:\n- ⟦{不正解|ふせいかい}→不正解：18929_fuseikai⟧ (incorrect answer) - antonym\n- ⟦{誤答|ごとう}→誤答：17434_gotou⟧ (wrong answer)\n- ⟦{解答|かいとう}→解答：00447_kaitou⟧ (answer, solution)\n- ⟦{答|こた}え→答え：00790_kotae⟧ (answer - general)\n\nUSAGE:\n- Common in quiz shows, tests, and educational contexts\n- Can also be used metaphorically for decisions and judgments",
   "cross_references": [
     {
       "type": "antonym",
@@ -183,11 +183,25 @@
       "headword": "{解答|かいとう}",
       "label": "answer",
       "target_id": "00447_kaitou"
+    },
+    {
+      "type": "related",
+      "target_id": "17434_gotou",
+      "reading": "ごとう",
+      "headword": "{誤答|ごとう}",
+      "label": "wrong answer"
+    },
+    {
+      "type": "related",
+      "target_id": "00790_kotae",
+      "reading": "こたえ",
+      "headword": "{答|こた}え",
+      "label": "answer"
     }
   ],
   "metadata": {
     "created": "2026-01-11T11:16:00Z",
-    "modified": "2026-05-23T20:12:09Z",
+    "modified": "2026-09-02T03:02:30Z",
     "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",

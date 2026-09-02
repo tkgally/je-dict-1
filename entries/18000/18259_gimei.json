@@ -19,7 +19,9 @@
       "english": "He stayed at the hotel under a false name.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18259_gimei_ex2",
@@ -27,7 +29,9 @@
       "english": "The criminal had been on the run using a false name.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18259_gimei_ex3",
@@ -35,21 +39,49 @@
       "english": "Entering a contract under a false name can be a legal violation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCarries a negative nuance implying deception. Used in news, crime reports, and fiction. For non-deceptive alternative names, Japanese uses different terms.\n\nCOMMON COLLOCATIONS:\n- {偽名|ぎめい}を{使|つか}う (to use a false name)\n- {偽名|ぎめい}で～する (to do something under a false name)\n- {偽名|ぎめい}を{名乗|なの}る (to go by a false name)\n\nSIMILAR WORDS:\n- {芸名|げいめい}: stage name — used openly by entertainers, no deceptive intent\n- ペンネーム: pen name — used openly by writers\n- {仮名|かめい}: pseudonym; alias — more neutral, used in news to protect identity",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "25284_geimei",
+      "reading": "げいめい",
+      "headword": "{芸名|げいめい}",
+      "label": "stage name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25452_penneemu",
+      "reading": "ぺんねーむ",
+      "headword": "ペンネーム",
+      "label": "pen name"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13034_honmyou",
+      "reading": "ほんみょう",
+      "headword": "{本名|ほんみょう}",
+      "label": "real name, true name"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T13:51:51Z",
-    "modified": "2026-03-20T13:51:51Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

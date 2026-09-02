@@ -3,7 +3,7 @@
   "headword": "{連|つ}れ{去|さ}る",
   "reading": "つれさる",
   "romaji": "tsuresaru",
-  "part_of_speech": "verb",
+  "part_of_speech": "verb (godan)",
   "gloss": "to take away; to carry off",
   "conjugation_class": "godan",
   "stem": "{連|つ}れ{去|さ}",
@@ -49,6 +49,22 @@
   ],
   "notes": "A compound verb combining {連|つ}れる (to take along) and {去|さ}る (to leave/go away). Strongly implies that the person being taken does not go willingly. Frequently appears in news reports about kidnapping, abduction, and custody disputes.\n\nCOMMON COLLOCATIONS:\n- {子供|こども}を{連|つ}れ{去|さ}る: to take a child away\n- {無理|むり}やり{連|つ}れ{去|さ}る: to take away by force\n- {連|つ}れ{去|さ}り{事件|じけん}: an abduction case\n\nSIMILAR WORDS:\n- {誘拐|ゆうかい}する: to kidnap — a legal/criminal term specifically for kidnapping\n- {拉致|らち}する: to abduct — often used for political abductions; strong connotation of force\n- {連|つ}れて{行|い}く: to take someone along — neutral, no implication of force",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14210_yuukai",
+      "reading": "ゆうかい",
+      "headword": "{誘拐|ゆうかい}",
+      "label": "to kidnap"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25711_rachisuru",
+      "reading": "らちする",
+      "headword": "{拉致|らち}する",
+      "label": "to abduct"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -63,7 +79,7 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-04-02T02:47:31Z",
-    "modified": "2026-07-29T12:35:11Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "godan",

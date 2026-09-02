@@ -3,7 +3,7 @@
   "headword": "再構成",
   "reading": "さいこうせい",
   "romaji": "saikousei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "reconstruction; restructuring; reorganization",
   "definitions": [
     {
@@ -46,6 +46,22 @@
   ],
   "notes": "Composed of {再|さい} (re-, again) + {構成|こうせい} (composition, structure). Takes する to become a verb ({再構成|さいこうせい}する). Applies to physical structures, organizations, data, and mentally piecing together events.\n\nCOMMON COLLOCATIONS:\n- {組織|そしき}を{再構成|さいこうせい}する: to restructure an organization\n- {記憶|きおく}を{再構成|さいこうせい}する: to piece memories back together\n\nSIMILAR WORDS:\n- {再編|さいへん}: reorganization — often of organizations or systems on a large scale\n- {再建|さいけん}: rebuilding — restoring something that has collapsed or failed",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07656_saihen",
+      "reading": "さいへん",
+      "headword": "{再編|さいへん}",
+      "label": "reorganization"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11743_saiken",
+      "reading": "さいけん",
+      "headword": "{再建|さいけん}",
+      "label": "rebuilding"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -54,7 +70,7 @@
         "verb-suru"
       ],
       "formality": "neutral",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "change"
       ],
@@ -62,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-07-15T12:19:49Z",
-    "modified": "2026-07-15T12:19:49Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

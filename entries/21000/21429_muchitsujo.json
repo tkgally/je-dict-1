@@ -3,7 +3,7 @@
   "headword": "{無秩序|むちつじょ}",
   "reading": "むちつじょ",
   "romaji": "muchitsujo",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, na-adjective",
   "gloss": "disorder; chaos; anarchy",
   "definitions": [
     {
@@ -17,7 +17,9 @@
       "id": "21429_muchitsujo_ex1",
       "japanese": "{無秩序|むちつじょ}な{状態|じょうたい}が{続|つづ}いている。",
       "english": "A state of disorder continues.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21429_muchitsujo_ex2",
       "japanese": "{戦争|せんそう}で{社会|しゃかい}は{無秩序|むちつじょ}に{陥|おちい}った。",
       "english": "The war plunged society into chaos.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,53 @@
       "id": "21429_muchitsujo_ex3",
       "japanese": "{無秩序|むちつじょ}な{開発|かいはつ}が{環境|かんきょう}{破壊|はかい}を{引|ひ}き{起|お}こし、{地域|ちいき}{住民|じゅうみん}の{生活|せいかつ}にも{深刻|しんこく}な{影響|えいきょう}を{与|あた}えている。",
       "english": "Unregulated development has caused environmental destruction and is seriously affecting the lives of local residents.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Formed by prefixing {無|む} (without, lacking) to {秩序|ちつじょ} (order). Functions both as a noun and as a na-adjective ({無秩序|むちつじょ}な). Often used to describe societal, political, or environmental situations where rules and structure have broken down.\n\nCOMMON COLLOCATIONS:\n- {無秩序|むちつじょ}な{状態|じょうたい}: state of disorder\n- {無秩序|むちつじょ}な{開発|かいはつ}: unregulated development\n- {無秩序|むちつじょ}に{陥|おちい}る: to fall into chaos\n- {無秩序|むちつじょ}な{拡大|かくだい}: disorderly expansion\n\nSIMILAR WORDS:\n- {混乱|こんらん}: confusion, chaos — emphasizes the confused, disrupted state rather than the lack of rules\n- {混沌|こんとん}: chaos, primordial chaos — often literary, suggests a state before order exists\n- {秩序|ちつじょ}: order — the antonym",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02811_konran",
+      "reading": "こんらん",
+      "headword": "{混乱|こんらん}",
+      "label": "confusion, chaos"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13296_konton",
+      "reading": "こんとん",
+      "headword": "{混沌|こんとん}",
+      "label": "chaos, primordial chaos"
+    },
+    {
+      "type": "contrast",
+      "target_id": "27016_mukeikaku",
+      "reading": "むけいかく",
+      "headword": "{無計画|むけいかく}",
+      "label": "unplanned"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["society", "abstract"]
+      "semantic": [
+        "society",
+        "abstract"
+      ]
     },
     "created": "2026-04-02T03:21:07Z",
-    "modified": "2026-04-02T03:21:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

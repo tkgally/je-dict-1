@@ -19,7 +19,9 @@
       "english": "I bought new leather shoes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15433_kawagutsu_ex2",
@@ -27,7 +29,9 @@
       "english": "My leather shoes got wet in the rain.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15433_kawagutsu_ex3",
@@ -35,21 +39,56 @@
       "english": "The day before the interview, I polished my leather shoes and got everything ready.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{革靴|かわぐつ} is standard vocabulary for business and formal contexts in Japan. New employees typically purchase {革靴|かわぐつ} as part of their business attire.\n\nCOMMON COLLOCATIONS:\n- {革靴|かわぐつ}を{磨|みが}く (to polish leather shoes)\n- {革靴|かわぐつ}を{履|は}く (to wear leather shoes)\n- {革靴|かわぐつ}の{手入|てい}れ (leather shoe care)\n\nRELATED WORDS:\n- スニーカー: sneakers\n- {靴|くつ}: shoes (general)\n- {靴磨|くつみが}き: shoe polishing\n- {長靴|ながぐつ}: boots, rain boots",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04528_suniikaa",
+      "reading": "すにーかー",
+      "headword": "スニーカー",
+      "label": "sneakers"
+    },
+    {
+      "type": "related",
+      "target_id": "27852_kutsumigaki",
+      "reading": "くつみがき",
+      "headword": "{靴磨|くつみが}き",
+      "label": "shoe polishing"
+    },
+    {
+      "type": "related",
+      "target_id": "17966_nagagutsu",
+      "reading": "ながぐつ",
+      "headword": "{長靴|ながぐつ}",
+      "label": "boots, rain boots"
+    },
+    {
+      "type": "related",
+      "target_id": "01050_sebiro",
+      "reading": "せびろ",
+      "headword": "{背広|せびろ}",
+      "label": "business suit"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T13:50:11Z",
-    "modified": "2026-03-06T13:50:11Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"],
+      "semantic": [
+        "clothing"
+      ],
       "domain": []
     }
   }

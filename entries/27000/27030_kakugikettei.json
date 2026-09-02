@@ -3,7 +3,7 @@
   "headword": "{閣議決定|かくぎけってい}",
   "reading": "かくぎけってい",
   "romaji": "kakugikettei",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "cabinet decision; decision by the cabinet",
   "definitions": [
     {
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A key term in Japanese politics and news. {閣議|かくぎ} means 'cabinet meeting' and {決定|けってい} means 'decision.' In Japan's parliamentary system, bills must receive {閣議決定|かくぎけってい} before being submitted to the {国会|こっかい} (Diet/parliament). The term appears constantly in news reports about government policy.\n\nCOMMON COLLOCATIONS:\n- {閣議決定|かくぎけってい}する: to decide by cabinet resolution\n- {閣議決定|かくぎけってい}を{行|おこな}う: to carry out a cabinet decision\n- {閣議決定|かくぎけってい}を{経|へ}て: after cabinet approval\n- {閣議決定|かくぎけってい}に{基|もと}づく: based on a cabinet decision\n\nRELATED TERMS:\n- {閣議|かくぎ}: cabinet meeting\n- {閣僚|かくりょう}: cabinet minister\n- {国会|こっかい}: the Diet (Japan's parliament)\n- {法案|ほうあん}: bill; legislative proposal\n- {政令|せいれい}: government ordinance — issued based on cabinet decisions without Diet approval",
+  "notes": "A key term in Japanese politics and news. {閣議|かくぎ} means 'cabinet meeting' and {決定|けってい} means 'decision.' In Japan's parliamentary system, bills must receive {閣議決定|かくぎけってい} before being submitted to the {国会|こっかい} (Diet/parliament). The term appears constantly in news reports about government policy.\n\nCOMMON COLLOCATIONS:\n- {閣議決定|かくぎけってい}する: to decide by cabinet resolution\n- {閣議決定|かくぎけってい}を{行|おこな}う: to carry out a cabinet decision\n- {閣議決定|かくぎけってい}を{経|へ}て: after cabinet approval\n- {閣議決定|かくぎけってい}に{基|もと}づく: based on a cabinet decision\n\nRELATED WORDS:\n- {閣議|かくぎ}: cabinet meeting\n- {閣僚|かくりょう}: cabinet minister\n- {国会|こっかい}: the Diet (Japan's parliament)\n- {法案|ほうあん}: bill; legislative proposal\n- {政令|せいれい}: government ordinance — issued based on cabinet decisions without Diet approval",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "20561_kakuryou",
+      "reading": "かくりょう",
+      "headword": "{閣僚|かくりょう}",
+      "label": "cabinet minister"
+    },
+    {
+      "type": "related",
+      "target_id": "02761_kokkai",
+      "reading": "こっかい",
+      "headword": "{国会|こっかい}",
+      "label": "the Diet"
+    },
+    {
+      "type": "related",
+      "target_id": "09758_houan",
+      "reading": "ほうあん",
+      "headword": "{法案|ほうあん}",
+      "label": "bill"
+    },
+    {
+      "type": "related",
+      "target_id": "24773_seirei",
+      "reading": "せいれい",
+      "headword": "{政令|せいれい}",
+      "label": "government ordinance"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +95,7 @@
       "verb_class": "suru"
     },
     "created": "2026-05-06T14:23:07Z",
-    "modified": "2026-05-06T14:23:07Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

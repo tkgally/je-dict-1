@@ -3,7 +3,7 @@
   "headword": "{消火|しょうか}する",
   "reading": "しょうかする",
   "romaji": "shoukasuru",
-  "part_of_speech": "verb (suru)",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to extinguish (a fire); to put out a fire",
   "definitions": [
     {
@@ -45,7 +45,22 @@
     }
   ],
   "notes": "{消火|しょうか}する combines {消|しょう} (extinguish) and {火|か} (fire). It is the standard technical term for firefighting and fire extinguishment. The noun {消火|しょうか} appears in many compound terms related to fire safety.\n\nCOMMON COLLOCATIONS:\n- {消火|しょうか}{器|き}: fire extinguisher\n- {消火|しょうか}{栓|せん}: fire hydrant\n- {消火|しょうか}{活動|かつどう}: firefighting operations\n- {初期|しょき}{消火|しょうか}: initial firefighting (putting out a fire before it spreads)\n- {消火|しょうか}{訓練|くんれん}: firefighting drill\n\nSIMILAR WORDS:\n- {火|ひ}を{消|け}す: to put out a fire — everyday expression using native Japanese words\n- {鎮火|ちんか}する: to be extinguished; to die down — describes the fire being brought under control, often used in news reports for the result\n- {防火|ぼうか}する: to prevent fire — focuses on prevention rather than extinguishing",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22509_chinkasuru",
+      "reading": "ちんかする",
+      "headword": "{鎮火|ちんか}する",
+      "label": "to be extinguished"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21169_bouka",
+      "reading": "ぼうか",
+      "headword": "{防火|ぼうか}",
+      "label": "to prevent fire"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +69,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "action"
       ],
@@ -61,7 +78,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-25T16:23:12Z",
-    "modified": "2026-08-04T12:59:53Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{真夜中|まよなか} refers to the middle of the night - either midnight specifically or the late night hours in general.\n\nWORD FORMATION:\n{真|ま} (true/middle) + ⟦{夜中|よなか}→夜中：01008_yonaka⟧ (nighttime) = the very middle of the night\n\nCOMMON EXPRESSIONS:\n- {真夜中|まよなか}⟦に→に：00314_ni⟧⟦{起|お}きる→起きる：00521_okiru⟧: to wake up in the middle of the night\n- {真夜中|まよなか}⟦まで→まで：00490_made⟧: until midnight\n- {真夜中|まよなか}⟦を→を：00422_wo⟧⟦{過|す}ぎる→過ぎる：01219_sugiru⟧: past midnight\n\nRELATED TIME EXPRESSIONS:\n- ⟦{夜中|よなか}→夜中：01008_yonaka⟧: during the night (general)\n- ⟦{深夜|しんや}→深夜：00368_shinya⟧: late at night (formal, often used for TV schedules)\n- ⟦{午前零時|ごぜんれいじ}→午前零時：25594_gozenreiji⟧: exactly 12:00 AM\n- ⟦{未明|みめい}→未明：27573_mimei⟧: before dawn (news term)\n\nNOTE:\nUnlike ⟦{午前零時|ごぜんれいじ}→午前零時：25594_gozenreiji⟧, {真夜中|まよなか} is flexible and can refer to any time when it feels like the \"dead of night.\"",
+  "notes": "{真夜中|まよなか} refers to the middle of the night - either midnight specifically or the late night hours in general.\n\nFORMS:\n{真|ま} (true/middle) + ⟦{夜中|よなか}→夜中：01008_yonaka⟧ (nighttime) = the very middle of the night\n\nCOMMON EXPRESSIONS:\n- {真夜中|まよなか}⟦に→に：00314_ni⟧⟦{起|お}きる→起きる：00521_okiru⟧: to wake up in the middle of the night\n- {真夜中|まよなか}⟦まで→まで：00490_made⟧: until midnight\n- {真夜中|まよなか}⟦を→を：00422_wo⟧⟦{過|す}ぎる→過ぎる：01219_sugiru⟧: past midnight\n\nRELATED TIME EXPRESSIONS:\n- ⟦{夜中|よなか}→夜中：01008_yonaka⟧: during the night (general)\n- ⟦{深夜|しんや}→深夜：00368_shinya⟧: late at night (formal, often used for TV schedules)\n- ⟦{午前零時|ごぜんれいじ}→午前零時：25594_gozenreiji⟧: exactly 12:00 AM\n- ⟦{未明|みめい}→未明：27573_mimei⟧: before dawn (news term)\n\nUSAGE:\nUnlike ⟦{午前零時|ごぜんれいじ}→午前零時：25594_gozenreiji⟧, {真夜中|まよなか} is flexible and can refer to any time when it feels like the \"dead of night.\"",
   "cross_references": [
     {
       "type": "synonym",
@@ -71,11 +71,39 @@
       "reading": "よなか",
       "headword": "{夜中|よなか}",
       "label": "middle of the night"
+    },
+    {
+      "type": "related",
+      "target_id": "00368_shinya",
+      "reading": "しんや",
+      "headword": "{深夜|しんや}",
+      "label": "late at night"
+    },
+    {
+      "type": "related",
+      "target_id": "25594_gozenreiji",
+      "reading": "ごぜんれいじ",
+      "headword": "{午前零時|ごぜんれいじ}",
+      "label": "exactly 12:00 AM"
+    },
+    {
+      "type": "related",
+      "target_id": "27573_mimei",
+      "reading": "みめい",
+      "headword": "{未明|みめい}",
+      "label": "before dawn"
+    },
+    {
+      "type": "related",
+      "target_id": "10087_yoinokuchi",
+      "reading": "よいのくち",
+      "headword": "{宵|よい}の{口|くち}",
+      "label": "early evening, early part of the night"
     }
   ],
   "metadata": {
     "created": "2026-01-16T06:00:17Z",
-    "modified": "2026-06-06T14:06:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

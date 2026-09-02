@@ -17,7 +17,9 @@
       "id": "25025_naiyashu_ex1",
       "japanese": "{彼|かれ}は{内野手|ないやしゅ}だ。",
       "english": "He is an infielder.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "25025_naiyashu_ex2",
       "japanese": "{内野手|ないやしゅ}がゴロを{捕|と}って{一塁|いちるい}に{送球|そうきゅう}した。",
       "english": "The infielder fielded the grounder and threw to first base.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,20 +37,51 @@
       "id": "25025_naiyashu_ex3",
       "japanese": "{高校|こうこう}{時代|じだい}は{内野手|ないやしゅ}として{遊撃手|ゆうげきしゅ}を{守|まも}っていた。",
       "english": "In high school, I played shortstop as an infielder.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {内野|ないや} (infield) + {手|しゅ} (player). Baseball is Japan's most popular sport, and baseball vocabulary appears frequently in news, manga, and daily conversation.\n\nThe four infield positions are:\n- {一塁手|いちるいしゅ}: first baseman\n- {二塁手|にるいしゅ}: second baseman\n- {遊撃手|ゆうげきしゅ}: shortstop\n- {三塁手|さんるいしゅ}: third baseman\n\nSIMILAR WORDS:\n- {外野手|がいやしゅ}: outfielder — plays in the outfield (left, center, right field)\n- {投手|とうしゅ}: pitcher — the player who throws the ball to the batter\n- {捕手|ほしゅ}: catcher — the player who receives the pitcher's throws\n- {野手|やしゅ}: fielder — general term for any non-pitcher position player",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "21674_gaiyashu",
+      "reading": "がいやしゅ",
+      "headword": "{外野手|がいやしゅ}",
+      "label": "outfielder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "06563_toushu",
+      "reading": "とうしゅ",
+      "headword": "{投手|とうしゅ}",
+      "label": "pitcher"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09265_hoshu",
+      "reading": "ほしゅ",
+      "headword": "{捕手|ほしゅ}",
+      "label": "catcher"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["sports"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "sports"
+      ]
     },
     "created": "2026-04-22T11:25:03Z",
-    "modified": "2026-04-22T11:25:03Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -3,7 +3,7 @@
   "id": "13629_chokuyaku",
   "headword": "{直訳|ちょくやく}",
   "reading": "ちょくやく",
-  "part_of_speech": "noun; verb-suru",
+  "part_of_speech": "noun, suru verb",
   "gloss": "literal translation; word-for-word translation",
   "conjugation": {
     "type": "suru",
@@ -134,7 +134,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nFunctions as a する verb: {直訳|ちょくやく}する (to translate literally). Contrasts with {意訳|いやく} (free/liberal translation that prioritizes natural expression over word-for-word accuracy).\n\nNUANCE:\nOften carries a slightly negative connotation, implying that the translation sounds stiff or unnatural. Language learners frequently produce {直訳|ちょくやく} when translating from their native language.\n\nCOMMON COLLOCATIONS:\n- {直訳|ちょくやく}する: to translate literally\n- {直訳|ちょくやく}すると: if translated literally\n- {直訳|ちょくやく}{調|ちょう}: literal-translation style (sounds translated)\n- {直訳|ちょくやく}と{意訳|いやく}: literal vs. free translation",
+  "notes": "USAGE:\nFunctions as a する verb: {直訳|ちょくやく}する (to translate literally). Contrasts with {意訳|いやく} (free/liberal translation that prioritizes natural expression over word-for-word accuracy).\nOften carries a slightly negative connotation, implying that the translation sounds stiff or unnatural. Language learners frequently produce {直訳|ちょくやく} when translating from their native language.\n\nCOMMON COLLOCATIONS:\n- {直訳|ちょくやく}する: to translate literally\n- {直訳|ちょくやく}すると: if translated literally\n- {直訳|ちょくやく}{調|ちょう}: literal-translation style (sounds translated)\n- {直訳|ちょくやく}と{意訳|いやく}: literal vs. free translation",
   "cross_references": [
     {
       "type": "antonym",
@@ -149,11 +149,25 @@
       "reading": "ほんやく",
       "headword": "{翻訳|ほんやく}",
       "label": "translation"
+    },
+    {
+      "type": "related",
+      "target_id": "16317_eiyaku",
+      "reading": "えいやく",
+      "headword": "{英訳|えいやく}",
+      "label": "English translation"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26370_wabuneiyaku",
+      "reading": "わぶんえいやく",
+      "headword": "{和文英訳|わぶんえいやく}",
+      "label": "Japanese-to-English translation"
     }
   ],
   "metadata": {
     "created": "2026-02-26T10:37:59Z",
-    "modified": "2026-04-29T06:03:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

@@ -3,7 +3,7 @@
   "headword": "{駐留|ちゅうりゅう}する",
   "reading": "ちゅうりゅうする",
   "romaji": "chuuryuusuru",
-  "part_of_speech": "verb",
+  "part_of_speech": "noun, suru verb",
   "gloss": "to station; to be stationed (military forces)",
   "definitions": [
     {
@@ -45,7 +45,29 @@
     }
   ],
   "notes": "A suru-verb formed from {駐留|ちゅうりゅう}, combining {駐|ちゅう} (to stay/park) and {留|りゅう} (to remain). Specifically a military term — not used for civilian stays or visits.\n\nCOMMON COLLOCATIONS:\n- {駐留|ちゅうりゅう}{米軍|べいぐん}: U.S. forces stationed (in Japan)\n- {駐留|ちゅうりゅう}{軍|ぐん}: stationed military forces\n- {駐留|ちゅうりゅう}{経費|けいひ}: stationing costs (host nation support)\n- {海外|かいがい}{駐留|ちゅうりゅう}: overseas stationing\n\nSIMILAR WORDS:\n- {駐屯|ちゅうとん}する: to garrison — similar but emphasizes a permanent military base\n- {派遣|はけん}する: to dispatch — focuses on the act of sending forces, not the ongoing presence\n- {占領|せんりょう}する: to occupy — implies forceful control over territory",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "22864_chuuton",
+      "reading": "ちゅうとん",
+      "headword": "{駐屯|ちゅうとん}",
+      "label": "to garrison"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13273_haken",
+      "reading": "はけん",
+      "headword": "{派遣|はけん}",
+      "label": "to dispatch"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11863_senryou",
+      "reading": "せんりょう",
+      "headword": "{占領|せんりょう}",
+      "label": "to occupy"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -54,6 +76,8 @@
         "noun",
         "verb-suru"
       ],
+      "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "military",
         "politics"
@@ -61,7 +85,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-27T12:21:26Z",
-    "modified": "2026-04-27T12:21:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

@@ -22,7 +22,9 @@
       "id": "24004_daiyaguramu_ex1",
       "japanese": "{分|ぶん}かりやすいダイヤグラム。",
       "english": "An easy-to-understand diagram.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "24004_daiyaguramu_ex2",
       "japanese": "ダイヤグラムで{説明|せつめい}する。",
       "english": "Explain it using a diagram.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "24004_daiyaguramu_ex3",
       "japanese": "{会議|かいぎ}{資料|しりょう}にダイヤグラムを{載|の}せてわかりやすくした。",
       "english": "I included a diagram in the meeting materials to make it easier to understand.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "24004_daiyaguramu_ex4",
       "japanese": "{電車|でんしゃ}のダイヤ。",
       "english": "The train schedule.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "24004_daiyaguramu_ex5",
       "japanese": "{事故|じこ}でダイヤが{乱|みだ}れている。",
       "english": "Train service is disrupted due to an accident.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,22 +72,52 @@
       "id": "24004_daiyaguramu_ex6",
       "japanese": "{台風|たいふう}の{影響|えいきょう}で{運行|うんこう}ダイヤグラムが{大|おお}きく{変更|へんこう}された。",
       "english": "The operating schedule was significantly changed due to the typhoon.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A loanword from English \"diagram\" that has taken on two distinct uses in Japanese.\n\nUSAGE:\nIn general contexts, ダイヤグラム refers to any visual diagram or chart — the same meaning as English \"diagram.\" In the world of public transport (especially railways), however, the word has a specialized meaning: the operating schedule itself. This comes from the historical use of graphical time-distance charts to plan train operations. In this transport sense, the word is almost always shortened to ダイヤ.\n\nCOMMON COLLOCATIONS:\n- ダイヤグラムを{描|か}く: to draw a diagram\n- ダイヤが{乱|みだ}れる: the train schedule is disrupted\n- ダイヤの{変更|へんこう}: schedule change\n- {運行|うんこう}ダイヤ: operating schedule\n- ダイヤ{改正|かいせい}: timetable revision (the periodic official schedule update)\n\nSIMILAR WORDS:\n- {図|ず}: figure, diagram — the native Japanese word, broader and more common for visual figures\n- {時刻表|じこくひょう}: timetable — the printed or posted schedule listing departure times, as opposed to ダイヤ which refers to the operating plan itself\n- チャート: chart — often used for business or statistical charts (bar chart, pie chart, etc.)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03368_zu",
+      "reading": "ず",
+      "headword": "{図|ず}",
+      "label": "figure, diagram"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01031_jikokuhyou",
+      "reading": "じこくひょう",
+      "headword": "{時刻表|じこくひょう}",
+      "label": "timetable"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11042_chaato",
+      "reading": "ちゃーと",
+      "headword": "チャート",
+      "label": "chart"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract", "transportation"]
+      "semantic": [
+        "abstract",
+        "transportation"
+      ]
     },
     "created": "2026-04-15T19:08:42Z",
-    "modified": "2026-04-15T19:08:42Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

@@ -2,7 +2,7 @@
   "id": "09101_kokeru",
   "headword": "こける",
   "reading": "こける",
-  "part_of_speech": "ichidan verb",
+  "part_of_speech": "verb (ichidan)",
   "gloss": "to fall down, to tumble",
   "conjugation": {
     "type": "ichidan",
@@ -134,10 +134,25 @@
     }
   ],
   "notes": "KANJI: Can be written as {転|こ}ける.\n\nTRANSITIVITY: Intransitive.\n\nREGIONAL NOTE: More common in Western Japan (Kansai region). In Eastern Japan (Kanto), {転|ころ}ぶ is more common.\n\nCONJUGATION: Despite ending in -eru, this is an ichidan (vowel-stem) verb: こけない, こけます, こけて, etc.\n\nRELATED WORDS:\n- {転|ころ}ぶ (to fall - more standard/Eastern)\n- {倒|たお}れる (to fall over, collapse - larger scale)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00863_korobu",
+      "reading": "ころぶ",
+      "headword": "{転|ころ}ぶ",
+      "label": "to fall"
+    },
+    {
+      "type": "related",
+      "target_id": "01160_taoreru",
+      "reading": "たおれる",
+      "headword": "{倒|たお}れる",
+      "label": "to fall over, collapse"
+    }
+  ],
   "metadata": {
     "created": "2026-01-31T04:25:12Z",
-    "modified": "2026-08-12T21:25:53Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

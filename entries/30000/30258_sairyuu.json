@@ -46,6 +46,29 @@
   ],
   "notes": "{細|さい} (fine, narrow) + {流|りゅう} (flow, current). A written word; in speech people say {小|ちい}さな{川|かわ} or {小川|おがわ}.\n\nCOMMON COLLOCATIONS:\n- {細流|さいりゅう}が{流|なが}れる: a small stream flows\n- {細流|さいりゅう}をたどる: to follow a small stream\n- {山中|さんちゅう}の{細流|さいりゅう}: a mountain rivulet\n\nSIMILAR WORDS:\n- {小川|おがわ}: brook — the everyday word, warm and familiar\n- {渓流|けいりゅう}: mountain stream — a fast stream in a valley, associated with fishing\n- {支流|しりゅう}: tributary — defined by joining a larger river, regardless of size",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06695_ogawa",
+      "reading": "おがわ",
+      "headword": "{小川|おがわ}",
+      "label": "brook"
+    },
+    {
+      "type": "contrast",
+      "target_id": "15855_keiryuu",
+      "reading": "けいりゅう",
+      "headword": "{渓流|けいりゅう}",
+      "label": "mountain stream"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19624_shiryuu",
+      "reading": "しりゅう",
+      "headword": "{支流|しりゅう}",
+      "label": "tributary"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -53,7 +76,7 @@
         "noun"
       ],
       "formality": "formal",
-      "politeness": null,
+      "politeness": "plain",
       "semantic": [
         "geography",
         "nature"
@@ -61,6 +84,6 @@
       "domain": []
     },
     "created": "2026-07-30T12:18:26Z",
-    "modified": "2026-07-30T12:18:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

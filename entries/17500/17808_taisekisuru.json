@@ -3,7 +3,7 @@
   "id": "17808_taisekisuru",
   "headword": "{退席|たいせき}する",
   "reading": "たいせきする",
-  "part_of_speech": "verb, suru",
+  "part_of_speech": "suru verb",
   "gloss": "to leave one's seat; to withdraw from a meeting",
   "conjugation": {
     "type": "suru",
@@ -134,11 +134,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nA formal word typically used in official or institutional contexts. In casual settings, {席|せき}を{立|た}つ or {席|せき}を{外|はず}す are more natural.\n\nASPECT (ている):\n{退席|たいせき}している indicates the person has already left and is currently absent from their seat.\n\nPARTICLE PATTERNS:\n- [place/event]を{退席|たいせき}する (to leave a place/event)\n- [place/event]から{退席|たいせき}する (to withdraw from a place/event)\n\nCOMMON COLLOCATIONS:\n- {途中|とちゅう}{退席|たいせき} (leaving midway)\n- {退席|たいせき}を{求|もと}める (to ask someone to leave)\n- {一時|いちじ}{退席|たいせき} (temporary departure)",
-  "cross_references": [],
+  "notes": "USAGE:\nA formal word typically used in official or institutional contexts. In casual settings, {席|せき}を{立|た}つ or {席|せき}を{外|はず}す are more natural.\n\nASPECT (ている):\n{退席|たいせき}している indicates the person has already left and is currently absent from their seat.\n\nCOMMON PATTERNS:\n- [place/event]を{退席|たいせき}する (to leave a place/event)\n- [place/event]から{退席|たいせき}する (to withdraw from a place/event)\n\nCOMMON COLLOCATIONS:\n- {途中|とちゅう}{退席|たいせき} (leaving midway)\n- {退席|たいせき}を{求|もと}める (to ask someone to leave)\n- {一時|いちじ}{退席|たいせき} (temporary departure)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20247_chuuzasuru",
+      "reading": "ちゅうざする",
+      "headword": "{中座|ちゅうざ}する",
+      "label": "to leave partway through"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25683_risekisuru",
+      "reading": "りせきする",
+      "headword": "{離席|りせき}する",
+      "label": "to leave one's seat"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T04:17:30Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

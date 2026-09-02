@@ -19,7 +19,9 @@
       "english": "To set up a booth.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11275_buusu_ex2",
@@ -27,7 +29,9 @@
       "english": "I introduced new products at the trade show booth.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11275_buusu_ex3",
@@ -35,21 +39,49 @@
       "english": "At Comiket, long lines form at popular circles' booths from the morning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "From English \"booth.\" In Japanese, ブース typically refers to a partitioned or designated space at events, exhibitions, or in offices. It is the standard loanword for trade show displays and event stalls.\n\nCOMMON COLLOCATIONS:\n- ブースを{出|だ}す (to have/run a booth at an event)\n- ブースを{設置|せっち}する (to set up a booth)\n- ブースに{立|た}ち{寄|よ}る (to stop by a booth)\n- {展示|てんじ}ブース (exhibition booth)\n- {撮影|さつえい}ブース (photo booth)\n- {電話|でんわ}ブース (phone booth)\n- {投票|とうひょう}ブース (voting booth)\n\nSIMILAR WORDS:\n- {屋台|やたい}: food stall, street stand (outdoors, traditional)\n- {売店|ばいてん}: shop counter, kiosk (permanent)\n- スタンド: stand (for displays or spectators)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10549_yatai",
+      "reading": "やたい",
+      "headword": "{屋台|やたい}",
+      "label": "food stall, street stand"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01493_baiten",
+      "reading": "ばいてん",
+      "headword": "{売店|ばいてん}",
+      "label": "shop counter, kiosk"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00394_sutando",
+      "reading": "すたんど",
+      "headword": "スタンド",
+      "label": "stand"
+    }
+  ],
   "metadata": {
     "created": "2026-02-15T10:01:30Z",
-    "modified": "2026-03-31T01:51:57Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

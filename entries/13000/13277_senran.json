@@ -19,7 +19,9 @@
       "english": "They survived through an era of war.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13277_senran_ex2",
@@ -27,7 +29,9 @@
       "english": "Many cultural treasures were lost in the turmoil of war.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13277_senran_ex3",
@@ -35,23 +39,48 @@
       "english": "The long period of warfare ended, and a peaceful era finally arrived.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{戦乱|せんらん} evokes extended periods of conflict and chaos, not a single battle. It is commonly used in historical narratives, particularly about Japan's Sengoku period ({戦国|せんごく}{時代|じだい}) or other prolonged civil wars. Compare with {戦争|せんそう} (war), which is a more general and modern term, and {内乱|ないらん} (civil war/rebellion), which specifies internal conflict.\n\nCOMMON COLLOCATIONS:\n- {戦乱|せんらん}の{世|よ}: an age of warfare\n- {戦乱|せんらん}が{続|つづ}く: warfare continues\n- {戦乱|せんらん}を{逃|のが}れる: to flee from war\n- {戦乱|せんらん}に{巻|ま}き{込|こ}まれる: to be caught up in war",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12980_senji",
+      "reading": "せんじ",
+      "headword": "{戦時|せんじ}",
+      "label": "wartime"
+    },
+    {
+      "type": "contrast",
+      "target_id": "21823_senka",
+      "reading": "せんか",
+      "headword": "{戦火|せんか}",
+      "label": "war fire"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T07:34:13Z",
-    "modified": "2026-02-24T07:34:13Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"],
-      "style": ["written"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

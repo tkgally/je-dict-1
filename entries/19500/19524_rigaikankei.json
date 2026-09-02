@@ -17,7 +17,9 @@
       "id": "19524_rigaikankei_ex1",
       "japanese": "{利害関係|りがいかんけい}が{複雑|ふくざつ}だ。",
       "english": "The interests involved are complex.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "19524_rigaikankei_ex2",
       "japanese": "{両国|りょうこく}の{利害関係|りがいかんけい}が{一致|いっち}した。",
       "english": "The interests of both countries aligned.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,23 +37,55 @@
       "id": "19524_rigaikankei_ex3",
       "japanese": "この{問題|もんだい}には{多|おお}くの{利害関係|りがいかんけい}{者|しゃ}がいるため、{解決|かいけつ}が{難|むずか}しい。",
       "english": "This issue is difficult to resolve because there are many stakeholders involved.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
-  "notes": "Composed of {利害|りがい} (profit and loss, interests) + {関係|かんけい} (relationship). A key term in business, law, and politics for discussing how different parties' interests interact.\n\nCOMMON COLLOCATIONS:\n- {利害関係|りがいかんけい}{者|しゃ} — stakeholder\n- {利害関係|りがいかんけい}が{一致|いっち}する — interests align\n- {利害関係|りがいかんけい}が{対立|たいりつ}する — interests conflict\n- {利害関係|りがいかんけい}のある{人|ひと} — interested party\n\nRELATED TERMS:\n- {利害|りがい} — profit and loss, interests (the core concept)\n- {利益|りえき} — profit, benefit; one side of {利害|りがい}\n- {損害|そんがい} — damage, loss; the other side of {利害|りがい}\n- {利益相反|りえきそうはん} — conflict of interest (legal/business term)",
+  "notes": "Composed of {利害|りがい} (profit and loss, interests) + {関係|かんけい} (relationship). A key term in business, law, and politics for discussing how different parties' interests interact.\n\nCOMMON COLLOCATIONS:\n- {利害関係|りがいかんけい}{者|しゃ} — stakeholder\n- {利害関係|りがいかんけい}が{一致|いっち}する — interests align\n- {利害関係|りがいかんけい}が{対立|たいりつ}する — interests conflict\n- {利害関係|りがいかんけい}のある{人|ひと} — interested party\n\nRELATED WORDS:\n- {利害|りがい} — profit and loss, interests (the core concept)\n- {利益|りえき} — profit, benefit; one side of {利害|りがい}\n- {損害|そんがい} — damage, loss; the other side of {利害|りがい}\n- {利益相反|りえきそうはん} — conflict of interest (legal/business term)",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03673_rieki",
+      "reading": "りえき",
+      "headword": "{利益|りえき}",
+      "label": "profit, benefit"
+    },
+    {
+      "type": "related",
+      "target_id": "02615_songai",
+      "reading": "そんがい",
+      "headword": "{損害|そんがい}",
+      "label": "damage, loss"
+    },
+    {
+      "type": "contrast",
+      "target_id": "26407_rigaichousei",
+      "reading": "りがいちょうせい",
+      "headword": "{利害|りがい}{調整|ちょうせい}",
+      "label": "coordination of interests"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["business", "legal"],
-      "semantic": ["business"]
+      "domain": [
+        "business",
+        "legal"
+      ],
+      "semantic": [
+        "business"
+      ]
     },
     "created": "2026-03-26T04:16:28Z",
-    "modified": "2026-03-26T04:16:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

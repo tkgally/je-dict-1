@@ -17,7 +17,9 @@
       "id": "26427_zouenshi_ex1",
       "japanese": "{造園|ぞうえん}{士|し}に{庭|にわ}のデザインを{依頼|いらい}した。",
       "english": "I asked a landscape gardener to design the garden.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "26427_zouenshi_ex2",
       "japanese": "{造園|ぞうえん}{士|し}の{資格|しかく}を{取|と}るには{実務|じつむ}{経験|けいけん}が{必要|ひつよう}だ。",
       "english": "Practical experience is needed to obtain a landscape gardener's qualification.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,21 +37,45 @@
       "id": "26427_zouenshi_ex3",
       "japanese": "{日本|にほん}{庭園|ていえん}を{手|て}がける{造園|ぞうえん}{士|し}は、{石|いし}の{配置|はいち}や{水|みず}の{流|なが}れにまで{細|こま}かく{気|き}を{配|くば}る。",
       "english": "Landscape gardeners who work on Japanese gardens pay careful attention to details like stone placement and water flow.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A compound of {造園|ぞうえん} (landscape gardening, garden construction) and {士|し} (professional, specialist). Japan has a national certification system ({造園施工管理技士|ぞうえんせこうかんりぎし}) for landscape construction professionals.\n\nCOMMON COLLOCATIONS:\n- {造園|ぞうえん}{士|し}の{資格|しかく}: landscape gardener qualification\n- {造園|ぞうえん}{士|し}に{依頼|いらい}する: to hire a landscape gardener\n- {一級|いっきゅう}{造園|ぞうえん}{施工|せこう}{管理|かんり}{技士|ぎし}: first-class landscape construction management engineer\n\nSIMILAR WORDS:\n- {庭師|にわし}: gardener — a traditional term for someone who tends and maintains gardens\n- {植木屋|うえきや}: tree/shrub trimmer — focuses on planting and pruning trees\n- {造園|ぞうえん}{業者|ぎょうしゃ}: landscaping contractor — a company rather than an individual",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12491_niwashi",
+      "reading": "にわし",
+      "headword": "{庭師|にわし}",
+      "label": "gardener"
+    },
+    {
+      "type": "contrast",
+      "target_id": "29574_uekiya",
+      "reading": "うえきや",
+      "headword": "{植木|うえき}{屋|や}",
+      "label": "tree/shrub trimmer"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
-      "semantic": ["occupation", "nature"]
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "occupation",
+        "nature"
+      ]
     },
     "created": "2026-05-01T15:40:26Z",
-    "modified": "2026-05-01T15:40:26Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

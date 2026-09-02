@@ -3,7 +3,7 @@
   "headword": "{抜歯|ばっし}",
   "reading": "ばっし",
   "romaji": "basshi",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru verb",
   "gloss": "tooth extraction",
   "definitions": [
     {
@@ -44,8 +44,38 @@
       "notes": null
     }
   ],
-  "notes": "A compound of {抜|ばつ} (to pull out, to extract) and {歯|し} (tooth). A standard dental term widely understood by non-specialists. Note the reading: {歯|し} uses the on'yomi, not the kun'yomi {歯|は}. The homophone {抜糸|ばっし} (removal of stitches) is a completely different word.\n\nCOMMON COLLOCATIONS:\n- {抜歯|ばっし}する: to extract a tooth\n- {親知|おやし}らずの{抜歯|ばっし}: wisdom tooth extraction\n- {抜歯後|ばっしご}: after tooth extraction\n\nRELATED TERMS:\n- {親知|おやし}らず: wisdom tooth — the tooth most commonly associated with {抜歯|ばっし}\n- {虫歯|むしば}: cavity, tooth decay — a common reason for extraction\n- {歯科|しか}: dentistry — the field of medicine dealing with teeth\n- {抜糸|ばっし}: removal of stitches — a homophone with a completely different meaning",
+  "notes": "A compound of {抜|ばつ} (to pull out, to extract) and {歯|し} (tooth). A standard dental term widely understood by non-specialists. Note the reading: {歯|し} uses the on'yomi, not the kun'yomi {歯|は}. The homophone {抜糸|ばっし} (removal of stitches) is a completely different word.\n\nCOMMON COLLOCATIONS:\n- {抜歯|ばっし}する: to extract a tooth\n- {親知|おやし}らずの{抜歯|ばっし}: wisdom tooth extraction\n- {抜歯後|ばっしご}: after tooth extraction\n\nRELATED WORDS:\n- {親知|おやし}らず: wisdom tooth — the tooth most commonly associated with {抜歯|ばっし}\n- {虫歯|むしば}: cavity, tooth decay — a common reason for extraction\n- {歯科|しか}: dentistry — the field of medicine dealing with teeth\n- {抜糸|ばっし}: removal of stitches — a homophone with a completely different meaning",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23503_oyashirazu",
+      "reading": "おやしらず",
+      "headword": "{親知|おやし}らず",
+      "label": "wisdom tooth"
+    },
+    {
+      "type": "related",
+      "target_id": "00299_mushiba",
+      "reading": "むしば",
+      "headword": "{虫歯|むしば}",
+      "label": "cavity, tooth decay"
+    },
+    {
+      "type": "related",
+      "target_id": "11072_shika",
+      "reading": "しか",
+      "headword": "{歯科|しか}",
+      "label": "dentistry"
+    },
+    {
+      "type": "homophone",
+      "target_id": "17775_basshi",
+      "reading": "ばっし",
+      "headword": "{抜糸|ばっし}",
+      "label": "removal of stitches"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +95,7 @@
       "verb_class": "suru"
     },
     "created": "2026-04-01T16:17:15Z",
-    "modified": "2026-07-29T00:24:28Z"
+    "modified": "2026-09-02T03:02:30Z"
   },
   "conjugation": {
     "type": "suru",

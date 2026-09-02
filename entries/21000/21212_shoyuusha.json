@@ -17,7 +17,9 @@
       "id": "21212_shoyuusha_ex1",
       "japanese": "{土地|とち}の{所有者|しょゆうしゃ}を{調|しら}べる。",
       "english": "To look up the owner of the land.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21212_shoyuusha_ex2",
       "japanese": "この{車|くるま}の{所有者|しょゆうしゃ}は{誰|だれ}ですか。",
       "english": "Who is the owner of this car?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,80 @@
       "id": "21212_shoyuusha_ex3",
       "japanese": "{建物|たてもの}の{所有者|しょゆうしゃ}が{変|か}わったため、{管理|かんり}{会社|がいしゃ}も{新|あたら}しくなった。",
       "english": "Since the building's owner changed, the management company was also replaced.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of {所有|しょゆう} (ownership, possession) + {者|しゃ} (person). A formal term used in legal, administrative, and business contexts to indicate the legal owner of property or assets.\n\nCOMMON COLLOCATIONS:\n- {土地|とち}の{所有者|しょゆうしゃ}: landowner\n- {著作権|ちょさくけん}{所有者|しょゆうしゃ}: copyright holder\n- {所有者|しょゆうしゃ}{不明|ふめい}: owner unknown\n- {所有者|しょゆうしゃ}{変更|へんこう}: change of ownership\n\nSIMILAR WORDS:\n- {持|も}ち{主|ぬし}: owner — more colloquial and everyday; can refer to owners of everyday items as well as abstract qualities\n- オーナー: owner — loanword, commonly used for business or property owners in casual contexts\n- {所持者|しょじしゃ}: holder, possessor — refers to someone who has something in their possession, not necessarily ownership",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10439_mochinushi",
+      "reading": "もちぬし",
+      "headword": "{持|も}ち{主|ぬし}",
+      "label": "owner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10830_oonaa",
+      "reading": "おーなー",
+      "headword": "オーナー",
+      "label": "owner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "19814_hoyuusha",
+      "reading": "ほゆうしゃ",
+      "headword": "{保有者|ほゆうしゃ}",
+      "label": "holder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22584_mochite",
+      "reading": "もちて",
+      "headword": "{持|も}ち{手|て}",
+      "label": "handle"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24112_kenrisha",
+      "reading": "けんりしゃ",
+      "headword": "{権利者|けんりしゃ}",
+      "label": "rights holder"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25202_kyouyuusha",
+      "reading": "きょうゆうしゃ",
+      "headword": "{共有者|きょうゆうしゃ}",
+      "label": "co-owner"
+    },
+    {
+      "type": "contrast",
+      "target_id": "28959_hojisha",
+      "reading": "ほじしゃ",
+      "headword": "{保持者|ほじしゃ}",
+      "label": "holder (of a record, title, qualification)"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person", "law"]
+      "semantic": [
+        "person",
+        "law"
+      ]
     },
     "created": "2026-04-01T14:16:10Z",
-    "modified": "2026-04-01T14:16:10Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

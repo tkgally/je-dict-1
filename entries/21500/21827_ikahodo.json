@@ -17,7 +17,9 @@
       "id": "21827_ikahodo_ex1",
       "japanese": "いかほどでしょうか。",
       "english": "How much would it be?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "21827_ikahodo_ex2",
       "japanese": "{彼|かれ}がいかほど{努力|どりょく}したか、{想像|そうぞう}もつかない。",
       "english": "I cannot even imagine how much effort he put in.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,22 +37,58 @@
       "id": "21827_ikahodo_ex3",
       "japanese": "この{経験|けいけん}がいかほど{貴重|きちょう}なものであったか、{後|あと}になって{初|はじ}めて{気|き}づいた。",
       "english": "I only realized later how precious this experience was.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "Composed of いか (how, what) and ほど (degree, extent). A formal interrogative adverb used to ask about quantity, degree, or extent. Can appear in both direct questions and rhetorical expressions. Common in business correspondence, formal speech, and literary writing.\n\nCOMMON PATTERNS:\n- いかほどでしょうか: How much would it be? (polite inquiry about price)\n- いかほど〜か: how much / to what extent (rhetorical)\n- いかほどのものか: how great is it, really?\n\nSIMILAR WORDS:\n- いくら: how much — the standard, everyday equivalent\n- どのくらい: how much, to what extent — conversational equivalent\n- どれほど: how much, to what extent — moderately formal, between どのくらい and いかほど in register\n- いかに: how, in what way — another formal interrogative, focuses on manner rather than degree\n\nREGISTER:\nいかほど is notably more formal than いくら or どのくらい. It is appropriate in business letters, formal inquiries, and literary prose, but would sound stiff in casual conversation.",
   "schema_version": "2.0",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09584_donokurai",
+      "reading": "どのくらい",
+      "headword": "どのくらい",
+      "label": "how much, to what extent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "22424_dorehodo",
+      "reading": "どれほど",
+      "headword": "どれほど",
+      "label": "how much, to what extent"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10222_ikani",
+      "reading": "いかに",
+      "headword": "{如何|いか}に",
+      "label": "how, in what way"
+    },
+    {
+      "type": "contrast",
+      "target_id": "25217_nanihodo",
+      "reading": "なにほど",
+      "headword": "{何程|なにほど}",
+      "label": "how much"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["quantity"]
+      "semantic": [
+        "quantity"
+      ]
     },
     "created": "2026-04-03T18:29:02Z",
-    "modified": "2026-04-03T18:29:02Z"
+    "modified": "2026-09-02T03:02:30Z"
   }
 }

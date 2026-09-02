@@ -41,9 +41,46 @@
     }
   ],
   "notes": "{暴風雨|ぼうふうう} is a compound of {暴風|ぼうふう} (violent wind) + {雨|う} (rain), describing severe weather with both strong winds and heavy rain.\n\nCOMMON COLLOCATIONS:\n- {暴風雨|ぼうふうう}{警報|けいほう}: storm warning\n- {暴風雨|ぼうふうう}に{見舞|みま}われる: to be hit by a storm\n- {暴風雨|ぼうふうう}が{去|さ}る: the storm passes\n- {暴風雨|ぼうふうう}が{近|ちか}づく: a storm approaches\n\nRELATED WORDS:\n- {暴風|ぼうふう}: violent wind, gale (wind only)\n- {台風|たいふう}: typhoon (specific weather system)\n- {嵐|あらし}: storm (more general, also used figuratively)\n- {豪雨|ごうう}: heavy rain (rain only)\n- {暴風雪|ぼうふうせつ}: blizzard (wind + snow)\n\nPRONUNCIATION:\nNote the three consecutive う sounds: ぼう・ふう・う.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01455_taifuu",
+      "reading": "たいふう",
+      "headword": "{台風|たいふう}",
+      "label": "typhoon"
+    },
+    {
+      "type": "related",
+      "target_id": "01695_arashi",
+      "reading": "あらし",
+      "headword": "{嵐|あらし}",
+      "label": "storm"
+    },
+    {
+      "type": "related",
+      "target_id": "05860_gouu",
+      "reading": "ごうう",
+      "headword": "{豪雨|ごうう}",
+      "label": "heavy rain"
+    },
+    {
+      "type": "related",
+      "target_id": "27315_boufuusetsu",
+      "reading": "ぼうふうせつ",
+      "headword": "{暴風雪|ぼうふうせつ}",
+      "label": "blizzard"
+    },
+    {
+      "type": "contrast",
+      "target_id": "30237_amekaze",
+      "reading": "あめかぜ",
+      "headword": "{雨風|あめかぜ}",
+      "label": "wind and rain"
+    }
+  ],
   "metadata": {
     "created": "2026-01-20T14:05:39Z",
-    "modified": "2026-06-19T21:43:28Z",
+    "modified": "2026-09-02T03:02:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -51,6 +88,7 @@
         "noun"
       ],
       "formality": "neutral",
+      "politeness": "plain",
       "semantic": [
         "weather",
         "nature"

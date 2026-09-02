@@ -23,7 +23,9 @@
       "english": "Preserve the fish by salting it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09008_shiozuke_ex2",
@@ -31,7 +33,9 @@
       "english": "A dish using salt-preserved vegetables.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09008_shiozuke_ex3",
@@ -39,7 +43,9 @@
       "english": "In the old days, people got through winter by salting meat.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09008_shiozuke_ex4",
@@ -47,7 +53,9 @@
       "english": "I'm holding onto stocks that have lost value.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "09008_shiozuke_ex5",
@@ -55,7 +63,9 @@
       "english": "Real estate that's sitting idle.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "09008_shiozuke_ex6",
@@ -63,20 +73,49 @@
       "english": "It's better to invest your assets rather than leaving them idle.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "{塩漬|しおづ}け has both culinary and financial meanings.\n\nSENSE 1 - FOOD:\n- {塩漬|しおづ}けにする: to salt, to preserve in salt\n- {塩漬|しおづ}けの{肉|にく}: salt-cured meat\n- {塩漬|しおづ}けの{魚|さかな}: salted fish\n\nSENSE 2 - FINANCE (figurative):\n- {株|かぶ}を{塩漬|しおづ}けにする: to hold onto losing stocks\n- {塩漬|しおづ}け{状態|じょうたい}: state of being left idle\n- {塩漬|しおづ}け{株|かぶ}: stocks held at a loss\n\nThe financial sense comes from the idea of preserving something indefinitely without using it.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08229_suzuke",
+      "reading": "すづけ",
+      "headword": "{酢漬|すづ}け",
+      "label": "vinegar pickle"
+    },
+    {
+      "type": "related",
+      "target_id": "09007_tsukekomu",
+      "reading": "つけこむ",
+      "headword": "{漬|つ}け{込|こ}む",
+      "label": "to marinate"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24781_misozuke",
+      "reading": "みそづけ",
+      "headword": "{味噌漬|みそづ}け",
+      "label": "miso-pickled, preserved in miso"
+    }
+  ],
   "metadata": {
     "created": "2026-01-30T14:52:14Z",
-    "modified": "2026-01-30T14:52:14Z",
+    "modified": "2026-09-02T03:02:30Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cooking", "finance"]
+      "semantic": [
+        "cooking",
+        "finance"
+      ]
     }
   }
 }
